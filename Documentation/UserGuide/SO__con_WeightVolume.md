@@ -1,0 +1,12 @@
+# Weight and Volume in Sales Orders {#_047d6ec8-4554-42f9-9483-63135cee57ea .concept}
+
+A third-party carrier used to deliver products from your company to a customer can charge your company specific freight amounts that depend on the weights or volumes of the packages in shipments. The carrier may also set restrictions on the weight or volume of packages. Landed costs incurred for shipments delivered from vendors to your company can be allocated by the weight or volume of the items in the shipment.
+
+In Acumatica ERP, you can configure the system to automatically calculate freight charges or suggest a box for packing the order for shipping based on the total weight and volume of stock and non-stock items in this order. Base units of weight and volume, which are used by default for each inventory item, are specified in the configuration settings of a company on the [Companies](CS_10_15_00.md) \(CS101500\) form. For each particular inventory item, you can specify the weight and volume \(and, optionally, change the units of weight and volume\) on the **Packaging** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form. For each item, its ordered quantity specified in the sales units is calculated in the base units and multiplied by the weight of the base unit. You can view the calculated weight and volume totals for a sales order on the **Totals** tab of the [Sales Orders](SO_30_10_00.md) \(SO301000\) form. For more information on units of measure, see [Units of Measure: General Information](UOMs_GeneralInfo.md).
+
+If freight calculation is configured for a sales order, the system calculates freight charges by using freight rates that are based on the total shipment weight and \(optionally\) volume. The weight of a shipment is compared to break points, and the first one that is less than the shipment weight provides the freight rate. For more information on calculating freight charges, see [Freight Calculation](CS__con_Freight_Calculation.md).
+
+If the *Automatic Packaging* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the system uses the packaging options of the ship via code and the items' weight and volume to determine the set of boxes for each shipment. If integration with any of the nationwide carriers is also configured, you can select the best rates for boxes and print labels with tracking numbers for each package.
+
+**Parent topic:**[Managing Sales Documents](../UserGuide/SO__MNG_Managing_Documents.md)
+

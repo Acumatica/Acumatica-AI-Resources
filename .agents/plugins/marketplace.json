@@ -1,0 +1,32 @@
+{
+  "name": "acumatica-ai-resources",
+  "interface": {
+    "displayName": "Acumatica AI Resources"
+  },
+  "plugins": [
+    {
+      "name": "dev-toolkit",
+      "source": {
+        "source": "local",
+        "path": "./DEV"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agent-tooling",
+      "source": {
+        "source": "local",
+        "path": "./Common/agent-tooling"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

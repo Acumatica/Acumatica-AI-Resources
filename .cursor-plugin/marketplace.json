@@ -1,0 +1,22 @@
+{
+  "name": "acumatica-ai-resources",
+  "owner": {
+    "name": "Acumatica"
+  },
+  "metadata": {
+    "description": "Acumatica ERP development skills and cross-cutting AI workflow tools",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "dev-toolkit",
+      "source": "DEV",
+      "description": "Skills and artifacts for Acumatica ERP developers"
+    },
+    {
+      "name": "agent-tooling",
+      "source": "Common/agent-tooling",
+      "description": "Tools for authoring and verifying agent skills: friction-pattern extraction and skill quality verification"
+    }
+  ]
+}

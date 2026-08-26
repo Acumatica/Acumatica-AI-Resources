@@ -1,0 +1,56 @@
+name: Protected paths
+
+on:
+  pull_request_target:
+    types: [opened, reopened, synchronize, ready_for_review]
+
+permissions:
+  contents: read
+  pull-requests: read
+
+concurrency:
+  group: protected-paths-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  enforce:
+    name: Enforce external contribution boundaries
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPOSITORY: ${{ github.repository }}
+      PULL_REQUEST_NUMBER: ${{ github.event.pull_request.number }}
+      TARGET_BRANCH: ${{ github.event.pull_request.base.ref }}
+      AUTHOR_ASSOCIATION: ${{ github.event.pull_request.author_association }}
+      LATEST_RELEASE_BRANCH: 2026R1
+    steps:
+      - name: Check target branch and changed paths
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = "Stop"
+
+          $internalAssociations = @("OWNER", "MEMBER", "COLLABORATOR")
+          if ($env:AUTHOR_ASSOCIATION -cin $internalAssociations) {
+            Write-Host "Internal pull request detected from an $env:AUTHOR_ASSOCIATION contributor; external contribution restrictions do not apply." -ForegroundColor Green
+            exit 0
+          }
+
+          Write-Host "External pull request detected (author association: $env:AUTHOR_ASSOCIATION)."
+
+          if ($env:TARGET_BRANCH -cne $env:LATEST_RELEASE_BRANCH) {
+            throw "External pull requests must target the latest release branch '$env:LATEST_RELEASE_BRANCH'. This pull request targets '$env:TARGET_BRANCH'."
+          }
+
+          $files = @(& gh api --paginate "repos/$env:REPOSITORY/pulls/$env:PULL_REQUEST_NUMBER/files" --jq '.[].filename')
+          if ($LASTEXITCODE -ne 0) {
+            throw "Unable to retrieve the pull request file list."
+          }
+
+          $documentationChanges = @($files | Where-Object { $_ -eq "Documentation" -or $_.StartsWith("Documentation/") })
+          if ($documentationChanges.Count -gt 0) {
+            Write-Host "External pull requests cannot modify Documentation/:" -ForegroundColor Red
+            $documentationChanges | ForEach-Object { Write-Host " - $_" -ForegroundColor Red }
+            throw "Send documentation corrections to training@acumatica.com."
+          }
+
+          Write-Host "The pull request targets $env:LATEST_RELEASE_BRANCH and does not modify Documentation/." -ForegroundColor Green

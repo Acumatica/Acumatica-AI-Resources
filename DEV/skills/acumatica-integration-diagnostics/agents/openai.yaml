@@ -1,0 +1,4 @@
+interface:
+  display_name: "Acumatica Integration Modernization"
+  short_description: "Upgrade and validate legacy Acumatica integrations"
+  default_prompt: "Use $acumatica-integration-diagnostics to modernize and validate an old Acumatica integration solution."

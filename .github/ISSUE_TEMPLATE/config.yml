@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Acumatica documentation feedback
+    url: mailto:training@acumatica.com
+    about: Report corrections or other feedback for files under Documentation/ by email.

@@ -1,0 +1,34 @@
+name: Validate contribution
+
+on:
+  pull_request:
+    branches: [2026R1]
+  push:
+    branches: [2026R1]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-contribution-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate skills, plugins, versions, reports, and DCO
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out contribution
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+
+      - name: Validate contribution
+        shell: pwsh
+        run: >-
+          ./.github/scripts/validate-contribution.ps1
+          -BaseSha "${{ github.event.pull_request.base.sha }}"
+          -HeadSha "${{ github.event.pull_request.head.sha || github.sha }}"

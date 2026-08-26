@@ -1,0 +1,31 @@
+{
+  "name": "agent-tooling",
+  "version": "1.0.0",
+  "description": "Tools for authoring and verifying agent skills",
+  "author": {
+    "name": "Acumatica"
+  },
+  "license": "GPL-3.0-only",
+  "keywords": [
+    "agents",
+    "skills",
+    "skill-authoring",
+    "skill-verification"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agent Tooling",
+    "shortDescription": "Author and verify reusable agent skills.",
+    "longDescription": "Extract reusable guidance from agent interactions and verify skill packages against authoring standards and repository conventions.",
+    "developerName": "Acumatica",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Distill this conversation into a reusable skill.",
+      "Verify this skill against authoring standards."
+    ]
+  }
+}

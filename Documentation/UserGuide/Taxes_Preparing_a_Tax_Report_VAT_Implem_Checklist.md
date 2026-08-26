@@ -1,0 +1,46 @@
+# Tax Report for VAT: Implementation Checklist {#_a46e86e7-66dc-45db-8b23-3a1d574af582 .concept}
+
+The following sections provide details you can use to ensure that the system is configured properly for preparing and releasing a tax report for VAT, and to understand \(and change, if needed\) the settings that affect the processing workflow.
+
+## Implementation Checklist {#section_d44_fjv_vxb .section}
+
+We recommend that before you initially prepare a tax report, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
+
+|Form|Criteria to Check|
+|----|-----------------|
+|[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)|The *VAT Reporting* feature has been enabled.|
+|[Vendors](AP_30_30_00.md) \(AP303000\)|The tax agency has been configured, as described in [Tax Agency: To Set Up a Tax Agency for VAT](../ImplementationGuide/TaxAgency_VAT_Implem_Activity.md).|
+|[Reporting Settings](TX_20_51_00.md) \(TX205100\)|The tax report where the VAT should be recorded has been configured, as described in [Tax Report Configuration: To Create a Tax Report for VAT](../ImplementationGuide/TaxReport_VAT_Implem_Activity.md).|
+|[Tax Categories](TX_20_55_00.md)\(TX205500\)|The tax category for the applied VAT should be created, as described in [Tax Zones and Categories: To Create a Tax Category and Tax Zone for VAT](../ImplementationGuide/TaxZones_and_Categories_VAT_Implem_Activity.md).|
+|[Tax Zones](TX_20_60_00.md) \(TX206000\)|The tax zone for VAT that will be used in the vendor's settings should be created, as described in [Tax Zones and Categories: To Create a Tax Category and Tax Zone for VAT](../ImplementationGuide/TaxZones_and_Categories_VAT_Implem_Activity.md).|
+|[Taxes](TX_20_50_00.md) \(TX206000\)|The value-added tax \(VAT\) with the needed settings and an exempt VAT should be created, as described in [Value-Added Taxes: To Create a General VAT and Exempt VAT](../ImplementationGuide/Taxes_Configuring_VAT_Impem_Activity_General_VAT.md).|
+|Multiple data entry forms|Taxable documents have been created in the needed financial period. For details, see:-   [AR Documents with VAT: To Process an AR Invoice](Taxes_Processing_ARDocs_with_VAT_Activity1.md)
+-   [AR Documents with VAT: To Process a Credit Memo](Taxes_Processing_ARDocs_with_VAT_Activity2.md)
+-   [AP Documents with VAT: To Process an AP Bill](Taxes_Processing_APDocs_with_VAT_Activity1.md)
+-   [AP Documents with VAT: To Process a Debit Adjustment](Taxes_Processing_APDocs_with_VAT_Activity2.md)
+-   [Cash Entries with Taxes: To Process a Cash Entry with VAT](Taxes_Applying_Tax_to_CashEntry_Activity2.md)
+-   [Taxable Sales with Freight Charges: Process Activity](Taxes_Processing_SO_Invoice_FreightCharges_Activity.md)
+-   [Tax Entry from GL: Process Activity](Taxes_Tax_Entry_from_GL_Process_Activity.md)
+-   [Direct Tax Payment: To Create a Tax Bill for a Tax Agency](Taxes_Paying_Tax_Directly_Create_Tax_Bill_Applied_to_Purchase.md)
+-   [Direct Tax Payment: To Create an AP Bill with a Direct-Entry Tax](Taxes_Paying_Tax_Directly_Create_Bill_with_Direct_Entry_Tax.md)
+
+|
+
+## Settings That Affect the Workflow {#section_f44_fjv_vxb .section}
+
+The following settings and entities should be specified and defined, respectively:
+
+-   The following general ledger settings should be specified on the **Posting Settings** tab of the [General Ledger Preferences](GL_10_20_00.md) \(GL102000\) form:
+    -   Make sure that the **Automatically Post on Release** check box is selected. This setting causes GL batches to be immediately posted after they are released.
+    -   Clear the **Generate Consolidated Batches** check box to cause every AR transaction you enter to be posted as an individual batch to the general ledger. \(When this check box is selected, the system consolidates into a single batch all transactions in the same currency posted to the same period for all documents being released.\)
+-   The following accounts payable settings should be specified on the **General Settings** tab of the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form:
+    -   Select the **Hold Documents on Entry** check box in the **Data Entry Settings** section. This setting gives the created AP bills the *On Hold* status.
+    -   Clear the **Require Vendor Reference** check box in the **Data Entry Settings** section. This setting means that you do not have to enter a payment reference number in the **Vendor Ref.** box when creating an AP bill on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
+    -   Make sure that the **Automatically Post on Release** check box is selected in the **Posting Settings** section. This setting causes AP bills to be automatically posted to the general ledger once they are released.
+
+## Validation of Configuration {#section_h44_fjv_vxb .section}
+
+To make sure that all configuration has been performed correctly, we recommend that in your system, you prepare and release a tax report for VAT by performing instructions similar to those described in [Tax Report for VAT: Process Activity](Taxes_Preparing_a_Tax_Report_VAT_Process_Activity.md).
+
+**Parent topic:**[Preparing a Tax Report for Value-Added Taxes](../UserGuide/Taxes_Preparing_a_Tax_Report_VAT_Mapref.md)
+

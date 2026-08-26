@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data-set>
+  <relations format-version="3" relations-version="20160101" main-table="SYMapping" file-name="(ScreenID)-(Name)">
+    <link from="SYMapping (ProviderID, NoteID)" to="SYProvider (ProviderID, NoteID)" type="ToMaster" updateable="False" />
+    <link from="SYMapping (NoteID)" to="Note (NoteID)" type="ToMaster" updateable="False" />
+    <link from="SYProvider (NoteID)" to="Note (NoteID)" type="ToMaster" updateable="False" />
+    <link from="SYProviderField (ProviderID)" to="SYProvider (ProviderID)" />
+    <link from="SYProviderField (NoteID)" to="Note (NoteID)" type="Note" />
+    <link from="SYProviderObject (ProviderID)" to="SYProvider (ProviderID)" />
+    <link from="SYProviderObject (NoteID)" to="Note (NoteID)" type="Note" />
+    <link from="SYProviderParameter (ProviderID)" to="SYProvider (ProviderID)" />
+    <link from="SYProviderParameter (NoteID)" to="Note (NoteID)" type="Note" />
+    <link from="SYMappingCondition (MappingID)" to="SYMapping (MappingID)" />
+    <link from="SYMappingCondition (NoteID)" to="Note (NoteID)" type="Note" />
+    <link from="SYMappingField (MappingID)" to="SYMapping (MappingID)" />
+    <link from="SYMappingField (NoteID)" to="Note (NoteID)" type="Note" />
+    <link from="SYImportCondition (MappingID)" to="SYMapping (MappingID)" />
+    <link from="SYImportCondition (NoteID)" to="Note (NoteID)" type="Note" />
+    <link from="NoteDoc (NoteID)" to="SYProvider (NoteID)" />
+    <link from="UploadFile (FileID)" to="NoteDoc (FileID)" />
+    <link from="UploadFile (FileID, LastRevisionID)" to="UploadFileRevision (FileID, FileRevisionID)" type="LastRevision" />
+  </relations>
+  <layout>
+    <table name="SYMapping">
+      <table name="SYMappingCondition" uplink="(MappingID) = (MappingID)">
+        <table name="Note" uplink="(NoteID) = (NoteID)" />
+      </table>
+      <table name="SYMappingField" uplink="(MappingID) = (MappingID)">
+        <table name="Note" uplink="(NoteID) = (NoteID)" />
+      </table>
+      <table name="SYImportCondition" uplink="(MappingID) = (MappingID)">
+        <table name="Note" uplink="(NoteID) = (NoteID)" />
+      </table>
+    </table>
+    <table name="SYProvider">
+      <table name="SYProviderField" uplink="(ProviderID) = (ProviderID)">
+        <table name="Note" uplink="(NoteID) = (NoteID)" />
+      </table>
+      <table name="SYProviderObject" uplink="(ProviderID) = (ProviderID)">
+        <table name="Note" uplink="(NoteID) = (NoteID)" />
+      </table>
+      <table name="SYProviderParameter" uplink="(ProviderID) = (ProviderID)">
+        <table name="Note" uplink="(NoteID) = (NoteID)" />
+      </table>
+      <table name="NoteDoc" uplink="(NoteID) = (NoteID)">
+        <table name="UploadFile" uplink="(FileID) = (FileID)">
+          <table name="UploadFileRevision" uplink="(FileID, LastRevisionID) = (FileID, FileRevisionID)" />
+        </table>
+      </table>
+    </table>
+    <table name="Note" />
+  </layout>
+  <data>
+    <SYMapping>
+      <row MappingID="f5a65ada-854f-4567-8a49-8b21abfd6a08" Name="UpdateVendorLastPymtDt" IsActive="1" ScreenID="AP303000" MappingType="I" GraphName="PX.Objects.AP.VendorMaint" ViewName="BAccount" GridViewName="Locations" ProviderID="b8ca26f8-fe84-49bc-88ad-0cfc64364fe6" ProviderObject="Results" SyncType="F" Status="N" FieldCntr="192" FieldOrderCntr="0" ImportConditionCntr="0" ConditionCntr="0" DataCntr="0" NbrRecords="0" DiscardResult="0" NoteID="1be522ca-c8f6-eb11-817a-12046cae304b" IsExportOnlyMappingFields="0" RepeatingData="0" ProcessInParallel="0" BreakOnError="1" BreakOnTarget="1" SkipHeaders="0">
+        <SYMappingField LineNbr="192" OrderNumber="4" IsActive="1" IsVisible="1" ObjectName="BAccount" FieldName="AttributeLASTPAYDAT" Value="APPayment_docDate" NeedCommit="0" IgnoreError="0" />
+        <SYMappingField LineNbr="160" OrderNumber="5" IsActive="1" IsVisible="1" ObjectName="BAccount" FieldName="&lt;Save&gt;" NeedCommit="0" IgnoreError="0" />
+        <SYMappingField LineNbr="96" OrderNumber="2" IsActive="1" IsVisible="0" ParentLineNbr="32" ObjectName="BAccount" FieldName="&lt;cancel&gt;" NeedCommit="0" IgnoreError="0" />
+        <SYMappingField LineNbr="64" OrderNumber="1" IsActive="1" IsVisible="0" ParentLineNbr="32" ObjectName="BAccount" FieldName="@@AcctCD" Value="=[BAccount.AcctCD]" NeedCommit="0" IgnoreError="0" />
+        <SYMappingField LineNbr="32" OrderNumber="3" IsActive="1" IsVisible="1" ObjectName="BAccount" FieldName="AcctCD" Value="Vendor_acctCD" NeedCommit="1" IgnoreError="0" />
+      </row>
+    </SYMapping>
+    <SYProvider>
+      <row ProviderID="b8ca26f8-fe84-49bc-88ad-0cfc64364fe6" Name="BusinessEvent_GI000194" IsActive="1" ProviderType="PX.DataSync.BusinessProcessSYProvider" ObjectCntr="2" ParameterCntr="1" NoteID="1be522ca-c8f6-eb11-817a-12046cae304b">
+        <SYProviderField ObjectName="Results" LineNbr="2" IsActive="1" Name="Vendor_acctName" DisplayName="Vendor_acctName" IsKey="0" DataType="System.String" DataLength="-1" IsCustom="0" />
+        <SYProviderField ObjectName="Results" LineNbr="1" IsActive="1" Name="Vendor_acctCD" DisplayName="Vendor_acctCD" IsKey="0" DataType="System.String" DataLength="-1" IsCustom="0" />
+        <SYProviderField ObjectName="Results" LineNbr="3" IsActive="1" Name="APPayment_docDate" DisplayName="APPayment_docDate" IsKey="0" DataType="System.String" DataLength="-1" IsCustom="0" />
+        <SYProviderField ObjectName="PreviousResults" LineNbr="2" IsActive="1" Name="Vendor_acctName" DisplayName="Vendor_acctName" IsKey="0" DataType="System.String" DataLength="-1" IsCustom="0" />
+        <SYProviderField ObjectName="PreviousResults" LineNbr="1" IsActive="1" Name="Vendor_acctCD" DisplayName="Vendor_acctCD" IsKey="0" DataType="System.String" DataLength="-1" IsCustom="0" />
+        <SYProviderField ObjectName="PreviousResults" LineNbr="3" IsActive="1" Name="APPayment_docDate" DisplayName="APPayment_docDate" IsKey="0" DataType="System.String" DataLength="-1" IsCustom="0" />
+        <SYProviderObject LineNbr="2" IsActive="1" Name="PreviousResults" FieldCntr="3" IsCustom="0" />
+        <SYProviderObject LineNbr="1" IsActive="1" Name="Results" FieldCntr="3" IsCustom="0" />
+        <SYProviderParameter LineNbr="1" Name="ScreenID" DisplayName="Screen ID" Value="GI000194" IsEncrypted="0" />
+      </row>
+    </SYProvider>
+  </data>
+</data-set>

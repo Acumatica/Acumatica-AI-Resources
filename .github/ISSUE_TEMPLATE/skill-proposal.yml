@@ -1,0 +1,81 @@
+name: New skill proposal
+description: Propose a new skill before implementing it.
+title: "[Skill Proposal]: "
+labels:
+  - skill-proposal
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Maintainer acceptance is required before a new skill is submitted. Proposals and pull requests apply only to the latest published release branch.
+
+  - type: input
+    id: name
+    attributes:
+      label: Proposed skill name
+      description: Use a concise kebab-case name.
+      placeholder: acumatica-example-skill
+    validations:
+      required: true
+
+  - type: input
+    id: plugin
+    attributes:
+      label: Intended plugin
+      description: Identify an existing plugin, or explain why placement is undecided.
+      placeholder: DEV or Common/agent-tooling
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem addressed
+      description: Explain the recurring task, gap, or failure mode this skill would address.
+    validations:
+      required: true
+
+  - type: textarea
+    id: triggers
+    attributes:
+      label: Intended triggers and users
+      description: Describe when an agent should use the skill and who benefits from it.
+    validations:
+      required: true
+
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Proposed workflow and contents
+      description: Summarize the instructions and any references, scripts, assets, or agent metadata that would be included.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Existing resources and alternatives
+      description: Explain why an existing skill cannot address the need and why this belongs in the proposed plugin.
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources and licensing
+      description: Identify proposed sources, third-party material, and applicable licenses.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmation
+      options:
+        - label: I searched existing skills and proposals for similar functionality.
+          required: true
+        - label: The proposed skill will be tool-agnostic.
+          required: true
+        - label: I will wait for maintainer acceptance before opening an implementation pull request.
+          required: true

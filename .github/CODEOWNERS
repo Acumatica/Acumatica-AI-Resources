@@ -1,0 +1,10 @@
+# The review team owns all repository content.
+* @acumatica/ai-resources-reviewers
+
+# Keep governance and automation explicitly owned.
+/.github/ @acumatica/ai-resources-reviewers
+/CONTRIBUTING.md @acumatica/ai-resources-reviewers
+/README.md @acumatica/ai-resources-reviewers
+
+# Documentation is maintained internally and is read-only for external contributors.
+/Documentation/ @acumatica/ai-resources-reviewers

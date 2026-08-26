@@ -1,0 +1,41 @@
+{
+  "name": "dev-toolkit",
+  "version": "1.0.0",
+  "description": "Skills and artifacts for Acumatica ERP developers",
+  "author": {
+    "name": "Acumatica"
+  },
+  "license": "GPL-3.0-only",
+  "keywords": [
+    "acumatica",
+    "csharp",
+    "dac",
+    "customization",
+    "upgrade",
+    "publishing",
+    "integration",
+    "rest",
+    "oauth",
+    "modern-ui",
+    "aurelia",
+    "typescript",
+    "custom-controls"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Developer Toolkit",
+    "shortDescription": "Update Acumatica customizations, integrations, and Modern UI.",
+    "longDescription": "Update, validate, and publish Acumatica ERP customization projects, modernize integrations, and build or troubleshoot Modern UI controls.",
+    "developerName": "Acumatica",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Upgrade and publish this Acumatica customization project.",
+      "Modernize and validate an Acumatica integration.",
+      "Build an Acumatica Modern UI custom control."
+    ]
+  }
+}

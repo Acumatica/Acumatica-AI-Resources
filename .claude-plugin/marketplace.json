@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "acumatica-ai-resources",
+  "description": "Acumatica ERP development skills and cross-cutting AI workflow tools",
+  "version": "1.0.0",
+  "owner": { "name": "Acumatica" },
+  "plugins": [
+    {
+      "name": "dev-toolkit",
+      "source": "./DEV",
+      "description": "Skills and artifacts for Acumatica ERP developers",
+      "category": "development"
+    },
+    {
+      "name": "agent-tooling",
+      "source": "./Common/agent-tooling",
+      "description": "Tools for authoring and verifying agent skills: friction-pattern extraction and skill quality verification",
+      "category": "workflow"
+    }
+  ]
+}

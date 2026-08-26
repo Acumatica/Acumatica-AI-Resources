@@ -1,0 +1,72 @@
+name: New plugin proposal
+description: Propose a new shared plugin before implementing it.
+title: "[Plugin Proposal]: "
+labels:
+  - plugin-proposal
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Maintainer acceptance is required before a new plugin is submitted. Proposals and pull requests apply only to the latest published release branch.
+
+  - type: input
+    id: name
+    attributes:
+      label: Proposed plugin name
+      description: Use a concise kebab-case name.
+      placeholder: example-tooling
+    validations:
+      required: true
+
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose and audience
+      description: Explain the problem, intended users, and why the plugin should be distributed through this marketplace.
+    validations:
+      required: true
+
+  - type: textarea
+    id: skills
+    attributes:
+      label: Initial skills
+      description: List each planned skill and summarize its responsibility.
+    validations:
+      required: true
+
+  - type: textarea
+    id: existing-plugins
+    attributes:
+      label: Why existing plugins are unsuitable
+      description: Explain why the proposal does not belong in DEV or an existing Common plugin.
+    validations:
+      required: true
+
+  - type: textarea
+    id: platforms
+    attributes:
+      label: Platform support
+      description: Describe how the plugin will support Claude Code, Cursor, Codex, and GitHub Copilot.
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources and licensing
+      description: Identify proposed sources, third-party material, and applicable licenses.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmation
+      options:
+        - label: I searched existing plugins and proposals for an appropriate home.
+          required: true
+        - label: I will provide synchronized AI tool manifests.
+          required: true
+        - label: I will wait for maintainer acceptance before opening an implementation pull request.
+          required: true

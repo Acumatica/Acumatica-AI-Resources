@@ -1,0 +1,12 @@
+# Price Synchronization: Volume-Based Prices {#_fa59ab44-010a-471b-8a11-43ca95edffdf .concept}
+
+In Acumatica ERP, if the *Volume Pricing* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can define prices that are dependent on the quantity of the products being purchased by a customer. These prices can be defined for all customers \(that is, they have the *Base* type\) or for particular customer classes \(that is, they have the *Customer Price Class* type\). For more information on how volume-based pricing works in Acumatica ERP, see [Sales Prices: To Explore Volume-Based Prices](Prices_Sales_Price_Selection_Activity_Volume.md).
+
+Volume prices are exported to the BigCommerce store according to their type.
+
+Imported volume-dependent prices of the *Base* type defined for a product appear in BigCommerce as a table under **Bulk Pricing** in the **Pricing** subsection on the **View Products** page of a particular product. This table contains the **Min Quantity** column \(which corresponds to a quantity break point in Acumatica ERP\) and the **Unit Price** column. These prices override the sales price when the quantity of the purchase is higher than the minimum quantity specified for the unit price in the table. For details, see [Price Synchronization: General Information](Commerce_BC_Syncing_Prices_GeneralInfo.md).
+
+Imported volume-dependent prices of the *Customer Price Class* defined for a product appear in BigCommerce in a price list for a particular customer group. To open the price list, you select **Products** &gt; **Price Lists** in the left pane to open the **Price Lists** page, and then click the name of the price list that corresponds to the customer group. To bring up a table for volume-dependent prices for a particular product, you click the cell in the **New Bulk Pricing** column for this product. The volume-dependent prices defined for a product in a price list for a particular group override all other prices when the right combination of the customer, product, and quantity is met \(that is, when the customer belonging to the customer group is signed in, and buys the product in quantities corresponding to one of the quantity tiers for which volume-based prices have been defined\). For details, see [Price Synchronization: Prices for Customer Groups](Commerce_BC_Syncing_Prices_Price_Lists.md).
+
+**Parent topic:**[Synchronizing Sales Prices](../UserGuide/Commerce_BC_Syncing_Prices_Mapref.md)
+

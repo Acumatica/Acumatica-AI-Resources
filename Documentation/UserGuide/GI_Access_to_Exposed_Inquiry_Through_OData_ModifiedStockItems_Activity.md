@@ -1,0 +1,113 @@
+# Generic Inquiry Access Through OData: To Filter the Results of a Generic Inquiry {#_e16e2b50-8da2-4931-b6d8-e01b5d591f9b .task}
+
+This activity will walk you through the process of retrieving data with a filter applied to the results of a generic inquiry.
+
+## Story { .section}
+
+The business intelligence \(BI\) application of the MyStore company should display information about the items that are sold in the store. These items are entered and updated on the [Stock Items](IN_20_25_00.md) \(IN202500\) form in Acumatica ERP. Suppose that you already have a list of items with the necessary information, and now you need to retrieve only the changes that have been made to the items during the past day. By retrieving only this data, you can optimize the performance of the application. To display the list of modified items to a user, you will export the list of stock items that satisfy the specified conditions from Acumatica ERP. That is, you will export the stock item records that have the *Active* status and that were modified within the past day.
+
+Through the generic inquiry–based OData interface, you cannot export records directly from a data entry form, such as the [Stock Items](IN_20_25_00.md) \(IN202500\) form. Thus, before the export, you have to configure a generic inquiry that retrieves the needed data from Acumatica ERP. In this activity, you will use the Modified Stock Items \(INGI0016\) custom generic inquiry, which has been preconfigured for this activity.
+
+## Process Overview { .section}
+
+You will modify two stock item records in Acumatica ERP and make one of them inactive. You will then review the Modified Stock Items \(INGI0016\) generic inquiry, note its parameters, and retrieve the results of the generic inquiry by using OData. Because you need to filter the results of the inquiry to obtain only the active records that were modified within the past day, you will use the $filter parameter.
+
+## System Preparation { .section}
+
+Before you begin performing the steps of this activity, do the following:
+
+1.  Deploy an instance of Acumatica ERP with the name *MyStoreInstance* and a tenant that has the *MyStore* name and contains the *T100* data.
+2.  Make sure the Postman application is installed on your computer. To download and install Postman, follow the instructions on [https://www.postman.com/downloads/](https://www.postman.com/downloads/).
+3.  Complete the following prerequisite activity: [Generic Inquiry Access Through OData: To Sign In to Acumatica ERP and Retrieve the Metadata](../Shared/../UserGuide/GI_Access_to_Exposed_Inquiry_Through_OData_SignIn_Activity.md).
+4.  If you have created a Postman collection with the basic authentication configured, add a new request to the collection and configure the request to inherit the authorization type from the parent collection.
+
+## Step 1: Modifying Records { .section}
+
+In this step, you will modify stock items so that you have at least one stock item record modified within the past day.
+
+**Tip:** If you use the Postman collection that is provided with this course, the pre-request script modifies the inventory items as the following instructions do.
+
+On the [Stock Items](../Shared/../UserGuide/IN_20_25_00.md) \(IN202500\) form, do the following:
+
+1.  Open the *KEYBOARD* inventory item. Change its status to *Inactive* and save the record.
+2.  Open the *AALEGO500* inventory item. Change its description and notice that it has the *Active* status; save the record.
+
+Now you have at least two inventory items that have been modified within the past month, and one of them has *Active* status.
+
+The system tracks the last modified date for every record, but this date is not displayed on the [Stock Items](../Shared/../UserGuide/IN_20_25_00.md) form. In the system, a preconfigured generic inquiry shows the dates when stock items were last modified. To view this generic inquiry, on the [Generic Inquiry](../Shared/../UserGuide/SM_20_80_00.md) \(SM208000\) form, you can select the inquiry with the title *Stock Items: Last Modified Date*, and click **View Inquiry** on the form toolbar.
+
+## Step 2: Reviewing the Generic Inquiry { .section}
+
+For a stock item record entered and maintained on the [Stock Items](../Shared/../UserGuide/IN_20_25_00.md) \(IN202500\) form, you need to export the following values:
+
+-   The inventory ID
+-   The description of the item
+-   The item class assigned to the item in Acumatica ERP
+-   The base unit of measure
+-   The date and time the record was last modified \(for which there are no corresponding elements on the form\)
+-   The following information about the availability of the item in particular warehouses:
+    -   The warehouse ID
+    -   The quantity of the item available in the warehouse
+
+The elements that are available on the form are shown in the following screenshots.
+
+![](../Shared/Images/WS_ExportStockItems.png "Elements in the Summary area and the General tab whose values will be exported")
+
+![](../Shared/Images/WS_ExportStockItems2.png "Elements on the Warehouses tab whose values will be exported")
+
+The Modified Stock Items \(INGI0016\) custom generic inquiry, which you will use for this activity, has no parameters and is based on the [PX.Objects.IN.INSiteStatus](https://help.acumatica.com/dacBrowser/PX.Objects.IN/INSiteStatus) and [PX.Objects.IN.InventoryItem](https://help.acumatica.com/dacBrowser/PX.Objects.IN/InventoryItem) data access classes. To review this generic inquiry and make sure it includes the needed elements, do the following:
+
+1.  In the Summary area of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form, select the inquiry with the *Modified Stock Items* title.
+2.  On the **Interface Options** tab, make sure that the **Expose via OData** check box is selected. This means that the generic inquiry results are available through OData.
+3.  On the form toolbar, click **View Inquiry** to review the resulting generic inquiry form.
+
+## Step 3: Finding Out the Field Names for the Filter { .section}
+
+Before you configure the filter, you need to find out the field names for the filter. To do this, you need to review the response body of the request that you have executed in [Generic Inquiry Access Through OData: To Sign In to Acumatica ERP and Retrieve the Metadata](GI_Access_to_Exposed_Inquiry_Through_OData_SignIn_Activity.md). In the response body, the `EntityType` tag with `Name="ModifiedStockItems"` contains the properties with the `ItemStatus` and `LastModifiedOn` names, as shown in the following screenshot.
+
+![](Images/GI_Access_to_Exposed_Inquiry_Through_OData_ModifiedStockItems_Activity_Params.png "Fields of the generic inquiry")
+
+You will use these field names to configure a filter for the results of the generic inquiry through the OData interface.
+
+## Step 4: Retrieving the List of Modified Stock Items { .section}
+
+You will use the $filter parameter to specify the search conditions for the fields of the generic inquiry. You use [OData URI conventions](http://www.odata.org/documentation/odata-version-3-0/url-conventions/) to specify the conditions.
+
+To retrieve the list of modified stock items, do the following:
+
+1.  In the Postman collection, add a request with the following settings:
+    -   HTTP method: `GET`
+    -   URL: *http://localhost/MyStoreInstance/t/MyStore/api/odata/gi/Modified Stock Items*
+    -   Parameters: *?$filter=ItemStatus eq 'Active' and LastModifiedOn gt 2025-10-14*
+
+        Specify the current date instead of `2025-10-14`.
+
+        **Tip:** If you use the Postman collection that is provided with this course, the pre-request script specifies today's date in the request.
+
+2.  Send the request. The response of the successful request contains the `200 OK` status code. The following code shows an example of the response body.
+
+    ```
+    {
+      "odata.metadata": 
+          "http://localhost/MyStoreInstance/t/MyStore/api/odata/gi/$metadata#Modified%20Stock%20Items",
+      "value": [
+        {
+          "InventoryID": "AALEGO500 ",
+          "Warehouse": "MAIN      ",
+          "Description": "Lego, 500 piece set",
+          "ItemStatus": "Active",
+          "LastModifiedOn": "2025-10-14T06:13:09.57",
+          "ItemClass": "STOCKITEM ",
+          "BaseUnit": "PIECE",
+          "QtyOnHand": "1999.000000",
+          "InventoryID_2": "AALEGO500 ",
+          "Subitem": "0"
+        }
+      ]
+    }
+    ```
+
+3.  Save the request.
+
+**Parent topic:**[Accessing the Exposed Inquiry Results Through OData](../UserGuide/GI_Access_to_Exposed_Inquiry_Through_OData_Mapref.md)
+

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Acumatica Modern UI Control Builder"
+  short_description: "Build Acumatica Modern UI custom controls"
+  brand_color: "#0067B1"
+  default_prompt: "Use $acumatica-modern-ui-control-builder to design and implement a custom Acumatica Modern UI control."
+policy:
+  allow_implicit_invocation: true

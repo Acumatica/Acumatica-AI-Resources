@@ -1,0 +1,8 @@
+{
+  "name": "agent-tooling",
+  "displayName": "Agent Tooling",
+  "description": "Tools for authoring and verifying agent skills: friction-pattern extraction and skill quality verification",
+  "author": { "name": "Acumatica" },
+  "license": "GPL-3.0-only",
+  "version": "1.0.0"
+}

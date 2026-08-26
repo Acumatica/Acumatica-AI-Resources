@@ -1,0 +1,15 @@
+# Configuration of Acumatica ERP {#_c91e69fa-b350-45f7-b324-c9be9280c23c .concept}
+
+To configure your Acumatica ERP instance, you need to sign in to Acumatica ERP with an administrator account and do the following:
+
+1.  Enable the *Salesforce Integration* feature on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
+2.  On the [Countries/States](CS_20_40_00.md) \(CS204000\) form, disable state and postal code validation for all necessary countries. For details, see [To Disable State and Postal Code Validation](IS__how_Disable_Validation.md). Because you have already configured validation rules in Salesforce \(as described in [Configuration of Salesforce](IS__con_Configuration_of_Salesforce.md)\), this step is optional.
+3.  On the [Data Providers](SM_20_60_15.md) \(SM206015\) form, configure the *Salesforce Sync* data provider, which is predefined in the system, and mark it as active. For details, see [To Configure the Salesforce Data Provider](IS__how_Configure_SF_Data_Provider.md).
+4.  On the [Import Scenarios](SM_20_60_25.md) \(SM206025\) and [Export Scenarios](SM_20_70_25.md) \(SM207025\) forms, review and modify \(if needed\) the predefined import and export scenarios to be used for the synchronization of data between Acumatica ERP and Salesforce. \(For details, see [To Configure Predefined Integration Scenarios](IS__how_Set_Up_Import_Scenarios.md).\) Alternatively, you can create new integration scenarios from scratch.
+5.  On the [Salesforce Sync Entities](SF_20_50_20.md) \(SF205020\) form, review and modify \(if needed\) the predefined configuration of entities to be synchronized. For details, see [To Set Up Data Synchronization in Acumatica ERP](IS__how_Set_Up_Synchronization.md).
+6.  On the [Salesforce Data Resync](SF_20_50_35.md) \(SF205035\) form, activate the predefined schedule *Failed &amp; Missed Data Resync every 5 minutes* so that the system repeatedly attempts to resynchronize the data for which synchronization previously failed. For details, see [To Activate the Predefined Periodic Schedule](IS__how_Activate_Predefined_Schedule.md).
+7.  On the [Salesforce Sync](SF_20_50_30.md) \(SF205030\) form, create an automation schedule to repeatedly initiate real-time synchronization of data. This will automatically resume the real-time synchronization process on such occasions as when the server has been restarted due to maintenance issues. For details, see [To Create a Salesforce Sync Schedule](IS__how_Create_Sync_Schedule.md).
+8.  On the [Salesforce Data Resync](SF_20_50_35.md) form, create an automation schedule to repeatedly initiate the full resynchronization of data. This will automatically synchronize the data missed by the real-time synchronization process, which may occur \(although rarely\) because the remote system discards notifications about modified records from the data stream after the retention period of 24 hours expires. For details, see [To Create a Schedule for Full Data Resync](IS__how_Create_Resync_Schedule.md).
+
+**Parent topic:**[Quick Configuration Steps](../UserGuide/IS__con_Configuration_of_Integration.md)
+
