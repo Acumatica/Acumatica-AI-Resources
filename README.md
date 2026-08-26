@@ -1,8 +1,8 @@
-# Acumatica AI Marketplace
+# Acumatica AI Resources
 
-This is a repository of reusable AI context artifacts such as skills, rules, and plain markdown files.
+This repository provides versioned Acumatica documentation and reusable AI resources such as plugins, skills, prompts, rules, and reference files.
 
-It is a tool-agnostic plugin marketplace. A plugin is the minimal shareable unit — it can bundle a set of skills, reference an MCP server connection configuration, and more.
+The reusable AI resources are organized as a tool-agnostic plugin marketplace. A plugin is the minimal shareable unit — it can bundle a set of skills, reference an MCP server connection configuration, and more.
 Skills (`SKILL.md` and related files) are shared across platforms.
 Currently, the marketplace supports **Claude Code**, **Cursor**, **Codex**, and **GitHub Copilot**. Each plugin includes the corresponding `.claude-plugin/`, `.cursor-plugin/`, and `.codex-plugin/` configuration directories. GitHub Copilot uses repository instructions and skill adapters under `.github/` instead of a plugin manifest.
 
