@@ -1,6 +1,6 @@
 # Acumatica AI Marketplace
 
-This is a repository of reusable AI context artifacts such as skills, rules, and plain markdown files.
+This is a repository of reusable AI context artifacts such as skills, rules, and plain markdown files..
 
 It is a tool-agnostic plugin marketplace. A plugin is the minimal shareable unit — it can bundle a set of skills, reference an MCP server connection configuration, and more.
 Skills (`SKILL.md` and related files) are shared across platforms.
