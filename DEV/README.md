@@ -1,6 +1,6 @@
 # DEV — Developer Toolkit
 
-Plugin with skills and artifacts for Acumatica ERP Developers.
+Plugin with skills and artifacts for Acumatica ERP Developers..
 
 ## Skills
 
