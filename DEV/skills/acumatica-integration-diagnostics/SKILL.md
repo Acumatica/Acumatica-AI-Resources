@@ -2,7 +2,7 @@
 name: acumatica-integration-diagnostics
 description: Modernize, repair, and validate old Acumatica ERP integration solutions across REST, contract-based REST API clients, SOAP, OData, middleware jobs, console runners, and diagnostic utilities. Use when updating Acumatica endpoint versions, generated client packages and namespaces, authentication to OAuth 2.0, request payloads, filters, actions, test-instance configuration, run outputs, or migration plans for legacy Acumatica integrations.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Acumatica Integration Modernization
@@ -63,7 +63,8 @@ Prefer OAuth 2.0 for modern Acumatica integrations.
 - The Acumatica OAuth client ID includes the tenant suffix, for example a generated ID followed by `@TenantName`; avoid also passing a separate login tenant unless the selected API explicitly requires it.
 - The redirect URI must exactly match the Connected Application registration.
 - With the Acumatica RESTClient library, use `ReceiveAccessTokenAuthCodeAsync` for Authorization Code exchange and `RefreshAccessTokenAsync` for refresh-token reuse when available.
-- Do not call old cookie-session logout helpers for bearer-token flows. Dispose HTTP/API clients normally.
+- Do not reuse a generated client's cookie-session logout helper to end a bearer-token session. Dispose HTTP/API clients normally.
+- Whether to sign out at all is scope-dependent, and `POST /entity/auth/logout` (with `Content-Length: 0`) releases the session immediately. It is required for cookie-based sign-in and for the `api:concurrent_access` scope, recommended for `api`-only OAuth because an unclosed session holds an API-user slot until the access token expires in an hour, and not required for `api` and `offline_access`, where Acumatica reuses a single session for each granted access. Confirm the current behavior in `Documentation/IntegrationDevelopmentGuide/OAuthOIDC_GettingStarted_SignOut.md`.
 - Mask `password`, `client_secret`, authorization codes, access tokens, refresh tokens, ID tokens, and bearer authorization headers in logs and diagnostic files.
 
 ## Request and Scenario Repair Patterns
