@@ -2,7 +2,9 @@
 
 ## Context
 
-Reviewed `DEV/skills/acumatica-integration-diagnostics` on 2026-08-05 after removing its bundled endpoint-comparison and OAuth reference snapshots. Scope included `SKILL.md` and `agents/openai.yaml`. Verification covered folder and frontmatter validity, discovery metadata, instruction quality, workflow feedback, platform-neutral wording, Documentation search guidance, and Codex UI metadata against Skill Authoring Best Practices, Skills Docs, the Complete Guide, and Skill Creator guidance. The prescribed searches were confirmed to locate the endpoint-comparison and OAuth/OIDC topic families under `Documentation/IntegrationDevelopmentGuide/`.
+Re-reviewed `DEV/skills/acumatica-integration-diagnostics` on 2026-09-02, refreshing the 2026-08-05 review after the scope-dependent sign-out correction in PR #3. Scope included both files in the skill folder — `SKILL.md` (101 lines, 1302 words) and `agents/openai.yaml` — plus the three `Documentation/` paths the instructions point callers at, which were resolved on disk. Verification covered folder and frontmatter validity, discovery metadata, description and instruction quality, workflow completeness, size and progressive disclosure, cross-reference integrity, and platform-neutral wording against Skill Authoring Best Practices, Skills Docs, the Complete Guide, and Skill Creator guidance.
+
+The previous review recorded no findings. This one records four, none of which are introduced by PR #3 — the changed lines (SKILL.md:66–67) pass every applicable rule, and the topic file they cite was confirmed to exist. Two of the four are only visible from outside a clone of this repository, which is why an in-repo review would not have surfaced them.
 
 ## Verification Sources
 
@@ -23,14 +25,49 @@ No P1 findings.
 
 ### P2 — Medium Severity (reduces quality or violates best practices)
 
-No P2 findings.
+#### 1. The primary trusted source is unreachable when the skill runs outside a clone of this repository
+
+- **Location**: SKILL.md:35–38
+- **Problem**: The Trusted Sources section ranks `Acumatica-AI-Resources/Documentation/` second only to user-supplied material, and gives `rg` commands rooted at `Documentation/IntegrationDevelopmentGuide/`. All three referenced paths resolve inside a full clone. They do not resolve in the two ways a consumer normally has the skill: an installed plugin whose working directory is the consumer's own project, or a partial/sparse checkout of this repository. The searches then return nothing, and because no fallback is stated for that case, the model proceeds to the next-best source it has — its own memory of version-specific endpoint behavior, which is exactly what SKILL.md:26 tells it not to do. The failure is silent: an empty `rg` result looks identical to "no such guidance exists." Adding one sentence — if the documentation directory is not present, say so and use the target instance's metadata or official documentation instead — closes the gap without changing the ranking.
+- **Reference**: **[CG]** "All files referenced in instructions actually exist on disk", **[BP]** "Explains why behind non-obvious rules rather than just stating them"
 
 ### P3 — Low Severity (style/polish issues)
 
-No P3 findings.
+#### 2. Two five-step sequences have no progress checklist
+
+- **Location**: SKILL.md:16–28 (First Pass), SKILL.md:81–92 (Running and Reviewing)
+- **Problem**: Both sequences hit the five-step threshold at which a progress checklist is recommended, and neither has one, so on a long diagnostic run there is nothing that makes a skipped step visible. Recorded as P3 rather than the default P2 because these read as an advisory playbook rather than a strictly ordered procedure — steps 1–5 of First Pass are discovery activities that a reviewer may legitimately reorder or skip. Escalate if the intent is that they run in order every time.
+- **Reference**: **[BP]** "Complex workflows (5+ sequential steps) include a progress checklist"
+
+#### 3. No negative triggers to separate this skill from its siblings
+
+- **Location**: SKILL.md:3
+- **Problem**: The `dev-toolkit` plugin ships two neighbouring Acumatica skills — `acumatica-customization-update` and `acumatica-modern-ui-control-builder` — and this description carries no boundary statement, so a task that touches Acumatica developer work in general has three plausible matches. `acumatica-customization-update` already sets the pattern with an explicit exclusion ("ordinary application-code changes outside that lifecycle are out of scope"); a matching clause here would make the three descriptions mutually exclusive at selection time.
+- **Reference**: **[CG]** "Includes negative triggers if the skill could overlap with related skills"
+
+#### 4. No worked example for any scenario
+
+- **Location**: SKILL.md (whole file)
+- **Problem**: The skill describes categories of repair — filter-literal changes, minimal key objects for actions, fields moving between owning objects — without a single concrete before/after, so the model has to infer the intended shape of each fix. Lowest-value item in this report: the categories are specific enough to act on, and adding examples would push a currently compact file toward the point where content belongs in `references/`.
+- **Reference**: **[CG]** "Examples are provided for key scenarios"
 
 ---
 
 ## Summary Table
 
-No findings.
+| # | Severity | Finding | Source |
+|---|----------|---------|--------|
+| 1 | P2 | `Documentation/` trusted source is unreachable outside a repo clone, with no stated fallback | [CG], [BP] |
+| 2 | P3 | Two five-step sequences have no progress checklist | [BP] |
+| 3 | P3 | No negative triggers separating this skill from its two sibling Acumatica skills | [CG] |
+| 4 | P3 | No worked example for any repair scenario | [CG] |
+
+---
+
+## Notes on the PR #3 change
+
+The corrected bullets at SKILL.md:66–67 were checked separately and are clean:
+
+- The cited topic, `Documentation/IntegrationDevelopmentGuide/OAuthOIDC_GettingStarted_SignOut.md`, exists on this branch, and every claim in the bullet is supported by it: sign-out required for cookie-based sign-in and for `api:concurrent_access`, recommended for `api`-only (one-hour token expiry, API-user limit), not required for `api` with `offline_access` (one session reused per granted access).
+- Splitting the original bullet keeps the library-level rule ("do not reuse a generated client's cookie-session logout helper") separate from the protocol-level decision, so neither reads as the other. The mixed vocabulary is deliberate: `logout` names the helper and the endpoint path, while the surrounding prose follows the documentation's own term, "sign out."
+- No platform-specific tool names, no time-sensitive content, and no new frontmatter fields were introduced. `metadata.version` was bumped to 1.0.1 alongside the three plugin manifests.
