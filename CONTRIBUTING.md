@@ -101,7 +101,7 @@ Plain Markdown prompts and reference files are accepted but discouraged when a d
 3. Add only the references, scripts, assets, and agent metadata the skill requires.
 4. Verify the skill with the `verifying-skills` skill from `Common/agent-tooling`.
 5. Commit the resulting report as `Verification/{skill-name}-review.md`.
-6. Resolve all P1 and P2 findings before requesting review. Document any intentionally retained P3 finding in the pull request.
+6. Resolve all P1 and P2 findings before requesting review. The report must state `P1 findings open: 0` and `P2 findings open: 0`; clearly labeled closed findings may remain for context. Document any intentionally retained P3 finding in the pull request.
 7. Add or update `.github/skills/{skill-name}/SKILL.md` as a GitHub Copilot discovery adapter. Keep its name and description aligned with the canonical skill and link it to the canonical `SKILL.md`; do not duplicate the canonical workflow or resources.
 8. Increment the plugin version in its Claude, Cursor, and Codex manifests.
 9. Add the skill to the plugin's README.
@@ -145,7 +145,7 @@ Before opening a pull request:
 
 1. Confirm that the contribution is based on and targets the latest published Acumatica release branch.
 2. Run the `verifying-skills` skill from `Common/agent-tooling` for every added or changed skill.
-3. Resolve all P1 and P2 findings.
+3. Resolve all P1 and P2 findings and confirm the report states `P1 findings open: 0` and `P2 findings open: 0`.
 4. Commit or update the applicable report under `Verification/`.
 5. Confirm that local links resolve and referenced files exist.
 6. Confirm that all affected plugin manifests contain valid JSON and matching versions.

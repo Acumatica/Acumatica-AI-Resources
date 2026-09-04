@@ -1,8 +1,8 @@
-# Review: `acumatica-modern-ui-control-builder` Skill
+# Review: `distill` Skill
 
 ## Context
 
-Reviewed the corrected `DEV/skills/acumatica-modern-ui-control-builder` package on 2026-09-04, including `SKILL.md`, `agents/openai.yaml`, `references/patterns.md`, and the GitHub Copilot discovery adapter. Verification covered folder and frontmatter validity, discovery metadata, workflow completeness, progressive disclosure, cross-reference integrity, code-template routing, naming consistency, and adapter linkage against Skill Authoring Best Practices, Skills Docs, the Complete Guide, and Skill Creator guidance. The TypeScript and HTML extension filename examples now use the same custom-control name. The canonical quick validator and repository-wide validator both passed.
+Reviewed the corrected `Common/agent-tooling/skills/distill` package on 2026-09-04, including the canonical `SKILL.md` and its synchronized GitHub Copilot discovery adapter. The review checked folder and frontmatter validity, discovery metadata, workflow safety, generated-skill structure, platform neutrality, and adapter linkage against Skill Authoring Best Practices, Skills Docs, the Complete Guide, and Skill Creator guidance. The workflow creates directory-based skills with `SKILL.md`, resolves a host-neutral skills root, avoids host-specific runtime conventions, and includes trigger context in discovery descriptions. The canonical quick validator passed.
 
 ## Verification Sources
 

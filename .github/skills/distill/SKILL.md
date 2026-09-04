@@ -1,6 +1,6 @@
 ---
 name: distill
-description: Extract friction patterns from the current conversation into reusable skills.
+description: Extracts recurring friction from completed work into reusable skills. Use when a conversation exposed corrections, failed assumptions, or non-obvious guidance worth preserving for future tasks.
 ---
 
 # Distill

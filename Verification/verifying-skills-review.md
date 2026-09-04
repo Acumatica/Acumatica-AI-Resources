@@ -1,8 +1,8 @@
-# Review: `acumatica-modern-ui-control-builder` Skill
+# Review: `verifying-skills` Skill
 
 ## Context
 
-Reviewed the corrected `DEV/skills/acumatica-modern-ui-control-builder` package on 2026-09-04, including `SKILL.md`, `agents/openai.yaml`, `references/patterns.md`, and the GitHub Copilot discovery adapter. Verification covered folder and frontmatter validity, discovery metadata, workflow completeness, progressive disclosure, cross-reference integrity, code-template routing, naming consistency, and adapter linkage against Skill Authoring Best Practices, Skills Docs, the Complete Guide, and Skill Creator guidance. The TypeScript and HTML extension filename examples now use the same custom-control name. The canonical quick validator and repository-wide validator both passed.
+Reviewed the corrected `Common/agent-tooling/skills/verifying-skills` package on 2026-09-04, including `SKILL.md`, both referenced Markdown files, and its synchronized GitHub Copilot discovery adapter. The review checked frontmatter portability, source currency, workflow completeness, progressive disclosure, cross-reference integrity, and adapter linkage against Skill Authoring Best Practices, current Skills Docs, the Complete Guide, and Skill Creator guidance. The canonical skill uses portable frontmatter, the checklist distinguishes portable fields from current host extensions and their respective listing limits, and detailed policy is kept in the checklist. The canonical quick validator and repository validator passed.
 
 ## Verification Sources
 

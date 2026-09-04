@@ -1,15 +1,15 @@
 ---
 name: distill
-description: Extract friction patterns from the current conversation into reusable skills
+description: Extracts recurring friction from completed work into reusable skills. Use when a conversation exposed corrections, failed assumptions, or non-obvious guidance worth preserving for future tasks.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
-You are a friction extractor. You read the conversation that just happened, find where default AI behavior failed or would fail, and produce an executable skill that prevents that friction from recurring. If default behavior would handle it correctly, there is nothing to distill.
+Act as a friction extractor. Read the conversation that just happened, find where default agent behavior failed or would fail, and produce an executable skill that prevents that friction from recurring. If default behavior would handle it correctly, there is nothing to distill.
 
-The user invoking `/distill` is an implicit signal that this conversation contained friction worth preserving. Your job is to identify that friction, frame it as a reusable skill, and write it — with the user's approval.
+Treat the user's request to distill the conversation as a signal that it contained friction worth preserving. Identify that friction, frame it as a reusable skill, and write it with the user's approval.
 
-`$ARGUMENTS` — Optional focus guidance from the user. If provided, weight your analysis accordingly.
+If the user supplies optional focus guidance, weight the analysis accordingly.
 
 ---
 
@@ -27,9 +27,9 @@ If the user redirects you, continue. If they confirm there is nothing, stop.
 
 **Skill framing.** Can the friction be framed as a single coherent skill — a task-level behavioral specification with trigger conditions and prescriptions? If the patterns are project-contextual (codebase descriptions, project conventions) rather than task-level, say:
 
-> "These patterns describe the project, not a reusable task behavior. They may belong in CLAUDE.md: [specific suggestions]. No skill to extract."
+> "These patterns describe the project, not a reusable task behavior. They may belong in the project's persistent agent instructions: [specific suggestions]. No skill to extract."
 
-Stop. `/distill` does not write to CLAUDE.md.
+Stop. Do not write project-level instruction files as part of this workflow.
 
 **Elicitation.** In most cases, the conversation contains enough. Only if trigger conditions are genuinely ambiguous or multiple conflicting patterns exist, ask up to 2-3 short-answer questions. Expected frequency: under 10% of invocations.
 
@@ -37,7 +37,9 @@ Stop. `/distill` does not write to CLAUDE.md.
 
 ## Phase 2: Propose
 
-**Check existing skills.** Read `.claude/skills/distill-index.md` if it exists. Read any listed skills with overlapping trigger conditions.
+**Resolve the skills root.** Use the user-specified destination when provided. Otherwise use the current project's existing canonical skills directory. If the project has no established skills directory and the destination cannot be inferred safely, ask where the reusable skill should live.
+
+**Check existing skills.** Read `[skills-root]/distill-index.md` if it exists. Read any listed skills with overlapping trigger conditions.
 
 **Mode detection:**
 - No overlap with existing skills -> **CREATE**. Say: "No existing skill covers this friction. I will create a new skill."
@@ -55,14 +57,14 @@ Say: "Confirm to write, or tell me what to change. Say 'abort' to cancel."
 ## Phase 3: Write
 
 **For CREATE:**
-1. Write skill to `.claude/skills/[skill-name].md` (kebab-case name derived from friction description)
-2. Update or create `.claude/skills/distill-index.md`
+1. Create `[skills-root]/[skill-name]/SKILL.md` (kebab-case name derived from the friction description).
+2. Update or create `[skills-root]/distill-index.md`.
 3. Say: "Skill written to [path]. Index updated."
 
 **For UPDATE:**
-1. Copy existing skill to `.claude/skills/[skill-name].backup.md` (overwrites any previous backup)
-2. Write modified skill
-3. Update index (new last-updated date)
+1. Copy the existing `SKILL.md` to `SKILL.backup.md` in the same skill directory (overwrites any previous backup).
+2. Write the modified `SKILL.md`.
+3. Update the index with the new last-updated date.
 4. Say: "Original backed up to [backup-path]. Skill updated. Index updated."
 
 If the project uses git, note that the original is also recoverable from version control.
@@ -76,7 +78,7 @@ Skills you create use this structure. Not every section is required — omit sec
 ```
 ---
 name: [skill-name]
-description: [One line: what friction this addresses]
+description: [One line in third person: what friction this addresses and when the skill should be used]
 ---
 
 ## When to Use This Skill
@@ -104,7 +106,7 @@ origin: [brief description of source conversation]
 
 **Quality standard.** Before writing, check your produced skill against these criteria:
 - Trigger conditions are observable from conversation context (not "when debugging" but "when the user reports a test failure and the error message references...")
-- Every prescription is a delta from default AI behavior — if Claude would already do it, cut it
+- Every prescription is a delta from default agent behavior — if a capable agent would already do it, cut it
 - Anti-patterns are specific enough that a future AI would recognize the situation (not "avoid assumptions" but "do not assume X when Y")
 
 **What BAD output looks like** (do not produce skills like these):
@@ -116,14 +118,14 @@ origin: [brief description of source conversation]
 
 ## Index Format
 
-The index at `.claude/skills/distill-index.md`:
+The index at `[skills-root]/distill-index.md`:
 
 ```
 # Distill Skill Index
 
 | Skill | Path | Created | Updated | Trigger Summary |
 |-------|------|---------|---------|-----------------|
-| [name] | .claude/skills/[name].md | YYYY-MM-DD | YYYY-MM-DD | [1-line trigger] |
+| [name] | [skills-root]/[name]/SKILL.md | YYYY-MM-DD | YYYY-MM-DD | [1-line trigger] |
 ```
 
 If the index does not exist, create it on first invocation. If it references a skill file that no longer exists, note the discrepancy and remove the stale entry. If a distill-created skill file exists but is not in the index, add it.
@@ -137,7 +139,7 @@ This is what a realistic produced skill looks like — use it as a quality refer
 ```
 ---
 name: csv-column-mapping
-description: Prevent silent column misalignment when parsing user-provided CSV files
+description: Prevents silent column misalignment. Use when parsing user-provided CSV files whose requested columns have not yet been verified against the actual headers.
 ---
 
 ## When to Use This Skill
@@ -164,7 +166,7 @@ origin: CSV parsing session where column name mismatch caused silent data corrup
 
 ## Hard Constraints
 
-- **Never write to CLAUDE.md.** Suggest project-contextual patterns verbally if identified. Do not execute the write.
+- **Never write project-level instruction files.** Suggest project-contextual patterns verbally if identified. Do not execute the write because this workflow is authorized only to create or update a reusable skill.
 - **Never silently modify an existing skill.** All modifications require preview and user confirmation.
 - **Always backup before update.** Copy the original file before writing changes.
 - **Never fabricate specificity.** If evidence is thin, say so. Lower your confidence — do not invent details.
