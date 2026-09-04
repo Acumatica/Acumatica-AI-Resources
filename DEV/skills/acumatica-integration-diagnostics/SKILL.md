@@ -2,7 +2,7 @@
 name: acumatica-integration-diagnostics
 description: Modernize, repair, and validate old Acumatica ERP integration solutions across REST, contract-based REST API clients, SOAP, OData, middleware jobs, console runners, and diagnostic utilities. Use when updating Acumatica endpoint versions, generated client packages and namespaces, authentication to OAuth 2.0, request payloads, filters, actions, test-instance configuration, run outputs, or migration plans for legacy Acumatica integrations.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Acumatica Integration Modernization
@@ -35,6 +35,7 @@ Check trusted sources before making version-sensitive changes. Prefer sources in
 - Acumatica documentation in the `Acumatica-AI-Resources/Documentation/` directory. Search it before using external sources:
   - For endpoint contract changes, search `Documentation/IntegrationDevelopmentGuide/` for `Comparison of System Endpoints`, then narrow by the source and target endpoint versions and affected entity, field, or action. A useful starting command is `rg -n "Comparison of System Endpoints|Comparing the Default/" Documentation/IntegrationDevelopmentGuide`.
   - For OAuth 2.0 and OIDC behavior, search `Documentation/IntegrationDevelopmentGuide/` for `Authorizing Client Applications to Work with Acumatica ERP`, the selected authorization flow, connected-application registration, scopes, token refresh, and data access. A useful starting command is `rg -n "Authorizing Client Applications|Authorization Code Flow|refresh token|offline_access" Documentation/IntegrationDevelopmentGuide`.
+  - If `Documentation/` is absent, because the working directory is not a clone of this repository or is a partial checkout, those searches return nothing, which reads the same as the guidance not existing. Do not fall back to recalled endpoint behavior. Read the same topics from the release branch instead: browse `https://github.com/Acumatica/Acumatica-AI-Resources/tree/2026R1/Documentation`, and fetch one topic as `https://raw.githubusercontent.com/Acumatica/Acumatica-AI-Resources/2026R1/Documentation/{topic path}`. If network access is unavailable, name the topic you could not read rather than answering from memory.
 - Target-version Acumatica release notes supplied by the user. If release-note details are needed and no current release notes are attached or available under `Documentation/ReleaseNotes/`, ask the user to provide them.
 - Metadata from the target Acumatica instance, such as endpoint definitions, connected application settings, and actual response bodies.
 - Installed package metadata and generated client code in the repository or NuGet cache.
@@ -63,7 +64,8 @@ Prefer OAuth 2.0 for modern Acumatica integrations.
 - The Acumatica OAuth client ID includes the tenant suffix, for example a generated ID followed by `@TenantName`; avoid also passing a separate login tenant unless the selected API explicitly requires it.
 - The redirect URI must exactly match the Connected Application registration.
 - With the Acumatica RESTClient library, use `ReceiveAccessTokenAuthCodeAsync` for Authorization Code exchange and `RefreshAccessTokenAsync` for refresh-token reuse when available.
-- Do not call old cookie-session logout helpers for bearer-token flows. Dispose HTTP/API clients normally.
+- Do not reuse a generated client's cookie-session logout helper to end a bearer-token session. Dispose HTTP/API clients normally.
+- Whether to sign out at all is scope-dependent, and `POST /entity/auth/logout` (with `Content-Length: 0`) releases the session immediately. It is required for cookie-based sign-in and for the `api:concurrent_access` scope, recommended for `api`-only OAuth because an unclosed session holds an API-user slot until the access token expires in an hour, and not required for `api` and `offline_access`, where Acumatica reuses a single session for each granted access. Confirm the current behavior in `Documentation/IntegrationDevelopmentGuide/OAuthOIDC_GettingStarted_SignOut.md`.
 - Mask `password`, `client_secret`, authorization codes, access tokens, refresh tokens, ID tokens, and bearer authorization headers in logs and diagnostic files.
 
 ## Request and Scenario Repair Patterns
