@@ -24,7 +24,7 @@ Identify the source and license of any third-party material. Describe any AI ass
 - [ ] The change is focused and links an accepted proposal when required.
 - [ ] No file under `Documentation/` is added, edited, moved, renamed, or deleted.
 - [ ] Every added or changed skill was reviewed with `verifying-skills`.
-- [ ] All P1 and P2 verification findings are resolved.
+- [ ] All P1 and P2 verification findings are resolved; applicable reports state `P1 findings open: 0` and `P2 findings open: 0`.
 - [ ] Applicable verification reports under `Verification/` are added or updated.
 - [ ] Affected AI tool manifests contain valid JSON and the same version.
 - [ ] The plugin version was incremented when required.

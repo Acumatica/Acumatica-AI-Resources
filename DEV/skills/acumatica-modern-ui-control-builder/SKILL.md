@@ -2,7 +2,7 @@
 name: acumatica-modern-ui-control-builder
 description: Design, implement, review, and troubleshoot custom frontend controls for the Acumatica ERP Modern UI using Aurelia, TypeScript, HTML, SCSS, screen extensions, and appropriate backend field patterns. Use when building reusable Modern UI controls, binding DAC or graph-specific values, extending existing Acumatica screens, or diagnosing custom-control behavior and styling.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Acumatica Modern UI Control Builder
@@ -192,7 +192,7 @@ Before finalizing an implementation, check:
 - User-facing strings are localizable; technical tokens are not localized.
 - The control is added through an HTML extension for existing screens.
 - For existing Acumatica screens, TypeScript and HTML extensions are used instead of editing the base screen definition files.
-- Both HTML and TypeScript extension files should follow the following naming convention: <ScreenID>_<CustomizationProjectName>_<CustomControlName>. For example, RS301000_PhoneRepairShop_RecordInsightsPanel.ts or RS301000_PhoneRepairShop_RecordInsights.html. Explicitly mention that the customization project name is assumed.
+- Both HTML and TypeScript extension files should follow the following naming convention: <ScreenID>_<CustomizationProjectName>_<CustomControlName>. For example, RS301000_PhoneRepairShop_RecordInsightsPanel.ts or RS301000_PhoneRepairShop_RecordInsightsPanel.html. Explicitly mention that the customization project name is assumed.
 - Both TypeScript and HTML extension files should be added to the corresponding extensions folder of the screen. The standard folder and file structure is `FrontendSources/screen/src/development/screens/<FirstTwoLettersOfScreenID>/<ScreenID>/extensions`. For example, `FrontendSources/screen/src/development/screens/RS/RS301000/extensions`.
 - Testing covers default, warning/error, empty/null, and state-transition cases.
 
