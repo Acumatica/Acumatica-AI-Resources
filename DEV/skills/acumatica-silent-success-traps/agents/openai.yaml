@@ -1,0 +1,4 @@
+interface:
+  display_name: "Acumatica Silent-Success Traps"
+  short_description: "Catch Acumatica calls that report success but do nothing"
+  default_prompt: "Use $acumatica-silent-success-traps to verify that an Acumatica write or query actually did what its response claims."
