@@ -5,5 +5,5 @@
   "description": "Skills and artifacts for Acumatica ERP Developers",
   "keywords": ["csharp", "dac", "customization", "upgrade", "publishing", "integration", "rest", "oauth", "modern-ui", "aurelia", "typescript", "custom-controls"],
   "license": "GPL-3.0-only",
-  "version": "1.0.1"
+  "version": "1.0.2"
 }

@@ -2,7 +2,7 @@
 
 ## Context
 
-Reviewed `DEV/skills/acumatica-modern-ui-control-builder` on 2026-08-26. Scope included `SKILL.md`, `agents/openai.yaml`, and `references/patterns.md`. Verification covered folder and frontmatter validity, discovery metadata, instruction quality, workflow completeness, progressive disclosure, cross-reference integrity, platform-neutral paths, and Codex UI metadata. The previously reported navigation issue was resolved by adding a linked table of contents to the code-pattern reference. Obsolete icon metadata and its bundled SVG were removed.
+Reviewed the corrected `DEV/skills/acumatica-modern-ui-control-builder` package on 2026-09-04, including `SKILL.md`, `agents/openai.yaml`, `references/patterns.md`, and the GitHub Copilot discovery adapter. Verification covered folder and frontmatter validity, discovery metadata, workflow completeness, progressive disclosure, cross-reference integrity, code-template routing, naming consistency, and adapter linkage against Skill Authoring Best Practices, Skills Docs, the Complete Guide, and Skill Creator guidance. The TypeScript and HTML extension filename examples now use the same custom-control name. The canonical quick validator and repository-wide validator both passed.
 
 ## Verification Sources
 
@@ -19,11 +19,11 @@ Reviewed `DEV/skills/acumatica-modern-ui-control-builder` on 2026-08-26. Scope i
 
 ### P1 — High Severity (likely to cause functional problems)
 
-No P1 findings.
+P1 findings open: 0
 
 ### P2 — Medium Severity (reduces quality or violates best practices)
 
-No P2 findings.
+P2 findings open: 0
 
 ### P3 — Low Severity (style/polish issues)
 
@@ -33,4 +33,6 @@ No P3 findings.
 
 ## Summary Table
 
-No findings.
+| # | Severity | Finding | Source |
+|---|---|---|---|
+| — | — | No remaining findings after corrections | — |

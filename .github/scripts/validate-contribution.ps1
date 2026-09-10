@@ -15,6 +15,34 @@ function Add-ValidationError {
     $script:errors.Add($Message)
 }
 
+function Test-NoOpenFindings {
+    param(
+        [Parameter(Mandatory)]
+        [string]$ReportText,
+
+        [Parameter(Mandatory)]
+        [ValidateSet("P1", "P2")]
+        [string]$Severity
+    )
+
+    $escapedSeverity = [regex]::Escape($Severity)
+    # Prefer the explicit open-count field while keeping existing reports and
+    # in-flight pull requests compatible with their earlier zero-finding wording.
+    $acceptedPatterns = @(
+        "(?im)^\s*(?:[-*]\s+)?(?:\*\*)?$escapedSeverity\s+findings\s+open(?:\*\*)?\s*:\s*0\.?\s*$",
+        "(?im)^\s*(?:[-*]\s+)?No(?:\s+open)?\s+$escapedSeverity\s+findings\.?\s*$",
+        "(?im)^\s*(?:[-*]\s+)?All\s+$escapedSeverity\s+findings\s+(?:are|have been)\s+resolved\.?\s*$"
+    )
+
+    foreach ($pattern in $acceptedPatterns) {
+        if ([regex]::IsMatch($ReportText, $pattern)) {
+            return $true
+        }
+    }
+
+    return $false
+}
+
 function Get-RepositoryRelativePath {
     param([string]$Path)
     $fullPath = [System.IO.Path]::GetFullPath($Path)
@@ -207,11 +235,11 @@ foreach ($skillFile in $skillFiles) {
         }
         else {
             $reportText = Get-Content -LiteralPath $reportPath -Raw -Encoding utf8
-            if ($reportText -notmatch '(?m)^No P1 findings\.$') {
-                Add-ValidationError "Verification/$skillName-review.md does not confirm that P1 findings are resolved."
+            if (-not (Test-NoOpenFindings -ReportText $reportText -Severity "P1")) {
+                Add-ValidationError "Verification/$skillName-review.md does not confirm that no P1 findings remain open. Add 'P1 findings open: 0' after the P1 heading when all P1 findings are resolved."
             }
-            if ($reportText -notmatch '(?m)^No P2 findings\.$') {
-                Add-ValidationError "Verification/$skillName-review.md does not confirm that P2 findings are resolved."
+            if (-not (Test-NoOpenFindings -ReportText $reportText -Severity "P2")) {
+                Add-ValidationError "Verification/$skillName-review.md does not confirm that no P2 findings remain open. Add 'P2 findings open: 0' after the P2 heading when all P2 findings are resolved."
             }
         }
     }

@@ -5,5 +5,5 @@
   "description": "Tools for authoring and verifying agent skills: friction-pattern extraction and skill quality verification",
   "keywords": ["distill", "skill-verification"],
   "license": "GPL-3.0-only",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

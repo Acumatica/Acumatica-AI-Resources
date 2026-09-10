@@ -28,7 +28,9 @@ Write the report to `Verification/{skill-name}-review.md` using this structure e
 
 ### P1 — High Severity (likely to cause functional problems)
 
-{If no P1 findings: "No P1 findings."}
+P1 findings open: {number of unresolved P1 findings}
+
+{List each open P1 finding below. If the count is 0, omit open finding entries. Closed findings may be summarized separately and must be clearly labeled as closed.}
 
 #### {n}. {Finding title}
 - **Location**: {file}:{line number or section name}
@@ -37,9 +39,9 @@ Write the report to `Verification/{skill-name}-review.md` using this structure e
 
 ### P2 — Medium Severity (reduces quality or violates best practices)
 
-{If no P2 findings: "No P2 findings."}
+P2 findings open: {number of unresolved P2 findings}
 
-{Same format as P1}
+{List each open P2 finding using the same format as P1. If the count is 0, omit open finding entries. Closed findings may be summarized separately and must be clearly labeled as closed.}
 
 ### P3 — Low Severity (style/polish issues)
 
@@ -59,6 +61,7 @@ Write the report to `Verification/{skill-name}-review.md` using this structure e
 ## Formatting Rules
 
 - Finding numbers are sequential across ALL severity levels (e.g., P1 findings 1-3, P2 findings 4-7, P3 findings 8-10)
+- `P1 findings open` and `P2 findings open` count only unresolved findings and must be updated after corrections are verified
 - Every finding must reference at least one source with its abbreviation tag
 - Location should be as specific as possible -- prefer `SKILL.md:47` over just `SKILL.md`
 - Problem descriptions must explain the **consequence** (e.g., "Claude will try to call a non-existent tool"), not just restate the rule

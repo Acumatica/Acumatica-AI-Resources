@@ -1,6 +1,6 @@
 {
   "name": "agent-tooling",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tools for authoring and verifying agent skills",
   "author": {
     "name": "Acumatica"

@@ -1,6 +1,6 @@
 ---
 name: verifying-skills
-description: Verifies a skill against authoritative skill-authoring guidance and produces a severity-bucketed review report with actionable findings. Use when asked to review a skill, verify a skill, audit a SKILL.md, check skill quality, or validate a skill against best practices.
+description: Verifies a skill against four authoritative sources — Best Practices, Skills Docs, Complete Guide, and Skill Creator — and produces a severity-bucketed review report with actionable findings. Use when asked to review a skill, verify a skill, audit a SKILL.md, check skill quality, or validate a skill against best practices.
 ---
 
 # Verify Skills

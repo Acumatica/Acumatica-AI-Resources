@@ -36,9 +36,9 @@ Default severity: **H** = likely P1, **M** = likely P2, **L** = likely P3. Final
 | FM-03 | `name` matches the skill's folder name. *Internal rule: sources say "should match"; we enforce strictly.* | [SD], [CG] | H |
 | FM-04 | `name` does not contain "claude" or "anthropic" (reserved) | [SD], [CG] | H |
 | FM-05 | `description` field is present | [CG] | H |
-| FM-06 | `description` is under 1024 characters | [SD], [CG] | M |
+| FM-06 | Apply the target runtime's limit: portable Agent Skills keep `description` at or below 1024 characters; Claude Code-only skills keep combined `description` and `when_to_use` text within the 1536-character listing budget | [SD], [CG], [SC] | M |
 | FM-07 | `description` contains no XML angle brackets (`<` or `>`) | [SD], [CG] | H |
-| FM-08 | Custom fields should be placed inside `metadata`, not as top-level frontmatter keys (see section 8 for recognized fields). Escalate to H if the field name is a near-miss typo of a recognized field. *Internal rule: unrecognized top-level fields may be silently ignored, but we enforce discipline.* | [SD], [CG] | M |
+| FM-08 | Top-level fields are valid for the skill's intended distribution target (see section 9). Canonical multi-platform skills use only portable Agent Skills fields; host-specific adapters may use that host's documented extensions. Escalate a near-miss typo of a supported field to H. | [SD], [CG], [SC] | M |
 | FM-09 | `name` field contains no XML angle brackets (`<` or `>`) | [BP] | H |
 | FM-10 | YAML frontmatter has `---` delimiters on both sides | [SD], [CG] | H |
 | FM-11 | `name` is at most 64 characters | [BP], [SD] | H |
@@ -56,7 +56,7 @@ Default severity: **H** = likely P1, **M** = likely P2, **L** = likely P3. Final
 | DQ-05 | Trigger phrases sound natural ("Use when..." phrasing) | [BP] | L | All skills |
 | DQ-06 | "Pushy" enough for discoverability -- includes edge-case triggers | [SC] | M | Only model-invocable skills (N/A if `disable-model-invocation: true`) |
 | DQ-07 | Includes negative triggers if the skill could overlap with related skills | [CG] | L | Skills with sibling skills in similar domains |
-| DQ-08 | Primary use case and key trigger phrases appear within the first 250 characters of the description — descriptions are truncated at this point in the skill listing | [SD] | M | All skills (N/A if `disable-model-invocation: true`) |
+| DQ-08 | Primary use case and key trigger phrases appear early in the discovery text and fit within the target runtime's listing budget | [SD] | M | Model-invocable skills |
 
 ## 4. Instructions Quality
 
@@ -135,11 +135,11 @@ Default severity: **H** = likely P1, **M** = likely P2, **L** = likely P3. Final
 
 ### Recognized Frontmatter Fields
 
-From [SD] (Claude Code): `name`, `description`, `disable-model-invocation`, `user-invocable`, `allowed-tools`, `context`, `agent`, `argument-hint`, `model`, `effort`, `hooks`, `paths`, `shell`.
+Portable Agent Skills fields: `name`, `description`, `license`, `compatibility`, `metadata`, `allowed-tools`.
 
-From [CG] (Agent Skills fields not listed in the [SD] table): `compatibility`, `license`, `metadata`.
+Current Claude Code extensions: `when_to_use`, `argument-hint`, `arguments`, `disable-model-invocation`, `user-invocable`, `disallowed-tools`, `model`, `effort`, `context`, `agent`, `background`, `hooks`, `paths`, `shell`.
 
-Any field not in either list should be placed inside `metadata` or flagged (FM-08).
+Use host extensions only when the skill is intentionally distributed to that host. For a canonical skill shared across runtimes, move host-specific behavior into the host adapter or omit it. Put custom data inside `metadata`; flag unsupported top-level fields under FM-08.
 
 ### Known Platform-Specific Tool Names
 
