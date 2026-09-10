@@ -1,8 +1,6 @@
 # Contributing to Acumatica AI Resources
 
-Thank you for helping improve the Acumatica AI Resources marketplace. External contributions are accepted through GitHub pull requests and reviewed by `@acumatica/ai-resources-reviewers`.
-
-By participating in this project, you agree to follow the repository's code of conduct and contribution requirements.
+Acumatica AI Resources is published and governed by Acumatica Education. Community contributions are accepted through GitHub pull requests and reviewed by `@acumatica/ai-resources-reviewers` under the repository’s technical, quality, security, and publishing requirements.
 
 ## What You Can Contribute
 
@@ -201,6 +199,6 @@ Before requesting review, confirm that the pull request:
 
 ## Review and Merge
 
-The `@acumatica/ai-resources-reviewers` team reviews external pull requests. Reviewers may request changes for correctness, scope, discoverability, portability, licensing, security, or maintainability.
+The `@acumatica/ai-resources-reviewers` team reviews external pull requests. Reviewers may request changes for technical accuracy, applicability, portability, security, or maintainability.
 
 A pull request requires approval from the review team and all required checks must pass before it can be merged into the latest published release branch. Acumatica maintainers retain final merge authority and may close contributions that target an older release branch or do not fit the repository's goals or policies.

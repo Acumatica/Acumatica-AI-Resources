@@ -1,6 +1,12 @@
 # Acumatica AI Resources
 
-This repository provides versioned Acumatica documentation and reusable AI resources such as plugins, skills, prompts, rules, and reference files.
+**Published and governed by Acumatica Education**
+
+This repository provides versioned Acumatica documentation and reusable AI resources, including skills, plugins, prompts, rules, and reference files, for Acumatica developers and the AI tools that support their work.
+
+Acumatica Education serves two learners in the modern enterprise: people and machines. For developers, that means making trusted Acumatica knowledge available not only through traditional documentation and learning, but also in structured, versioned formats that AI coding tools can discover and apply during development.
+
+These resources help AI-assisted development stay grounded in Acumatica product context, established development practices, and release-specific documentation. They are intended to augment developer expertise and judgment, not replace them.
 
 The reusable AI resources are organized as a tool-agnostic plugin marketplace. A plugin is the minimal shareable unit — it can bundle a set of skills, reference an MCP server connection configuration, and more.
 Skills (`SKILL.md` and related files) are shared across platforms.
@@ -31,6 +37,14 @@ See the README of each directory for a detailed list of skills, prompts, and ref
 
 - [**Documentation**](Documentation/index.md) — read-only Markdown snapshot of the official Acumatica product and developer documentation for Version 2026 R1; see the [documentation notice](Documentation/NOTICE.md)
 - [**Verification**](Verification/) — Skill-verification reports
+
+## Publishing and Governance
+
+Acumatica Education publishes and governs this repository as part of Acumatica’s developer education and AI-readiness infrastructure.
+
+Resources are organized by Acumatica release and reviewed for technical accuracy, applicability, portability, security, and maintainability. Official Acumatica documentation is published through a controlled synchronization process and is not open to direct external modification.
+
+Community contributions to eligible resources are welcome. Contributions are subject to the repository’s applicable proposal, verification, review, and approval requirements before publication.
 
 ## Documentation Policy
 
