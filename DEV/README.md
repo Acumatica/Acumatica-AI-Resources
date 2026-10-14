@@ -10,3 +10,4 @@ Plugin with skills and artifacts for Acumatica ERP Developers.
 
 
 - **[acumatica-classic-to-modern-ui-conversion](skills/acumatica-classic-to-modern-ui-conversion/)**: Choose screen disposition, implement custom conversion and verify behavioral parity.
+- **[acumatica-wiki-authoring](skills/acumatica-wiki-authoring/)**: Create and maintain built-in Wiki articles, contextual Help, reader access and package durability.
