@@ -9,4 +9,5 @@ Plugin with skills and artifacts for Acumatica ERP Developers.
 - **[acumatica-modern-ui-control-builder](skills/acumatica-modern-ui-control-builder/)** — Design, implement, review, and troubleshoot reusable Acumatica Modern UI controls with Aurelia, TypeScript, HTML, SCSS, screen extensions, and backend field bindings
 
 
+- **[acumatica-classic-to-modern-ui-conversion](skills/acumatica-classic-to-modern-ui-conversion/)**: Choose screen disposition, implement custom conversion and verify behavioral parity.
 - **[acumatica-wiki-authoring](skills/acumatica-wiki-authoring/)**: Create and maintain built-in Wiki articles, contextual Help, reader access and package durability.
