@@ -1,4 +1,4 @@
-# Enabling Navigation {#_48a469d4-3004-453b-a8b9-861dfb2a418a .concept}
+# Enabling Navigation
 
 You can enable navigation from a generic inquiry form to other Acumatica ERP forms or external webpages. You can define the values in particular columns of the inquiry form as links to forms where the related records and their settings can be viewed. You can also configure a side panel of the inquiry form with icons a user can click to open the forms that you have specified.
 

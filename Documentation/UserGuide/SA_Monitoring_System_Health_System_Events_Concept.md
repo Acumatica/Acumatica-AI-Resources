@@ -1,10 +1,10 @@
-# System Health: System Event Log {#_d961c37f-0ec3-43f1-9773-9da3f975cdc4 .concept}
+# System Health: System Event Log
 
 By using the elements in the Selection area of the **System Events** tab of the [System Monitor](SM_20_15_30.md) \(SM201530\) form, you can narrow the list of events by the sources of the event, the severity level of the event, and the date range.
 
 To view the details of an event, you select the event in the table and the system displays these details in the bottom pane of the form.
 
-## Event Sources { .section}
+## Event Sources
 
 On the **System Events** tab of the [System Monitor](SM_20_15_30.md) \(SM201530\) form, the system logs events triggered by the following sources \(with the source of each event noted in the **Source** column\):
 
@@ -22,7 +22,7 @@ On the **System Events** tab of the [System Monitor](SM_20_15_30.md) \(SM201530\
 
 By using the **Source** multiselect drop-down box in the Selection area of the tab, you can narrow the list of events by selecting any number of sources. By default, the *All* option is selected.
 
-## Severity Levels of Events { .section}
+## Severity Levels of Events
 
 On the **System Events** tab of the [System Monitor](SM_20_15_30.md) \(SM201530\) form, the **Level** column shows the severity level of each listed event, which is *Information*, *Warning*, *Error*, or *Fatal*. By selecting an option in the **Level** box of the Selection area, you can narrow the list of events by severity level. When you select any severity level, the system lists only events with the selected level and higher \(that is, more severe\) severity levels. The box contains the following options, which are listed from the least to most severe:
 
@@ -31,7 +31,7 @@ On the **System Events** tab of the [System Monitor](SM_20_15_30.md) \(SM201530\
 -   *Error*: Events of only the *Error* and *Fatal* levels are listed in the table.
 -   *Fatal*: The table shows only events with the *Fatal* level.
 
-## Logged System Events { .section}
+## Logged System Events
 
 In the table below, you can find a list of the events that are logged by the system.
 
@@ -94,7 +94,7 @@ In the table below, you can find a list of the events that are logged by the sys
 |*Failed to create a snapshot*|
 |*Creating of a tenant copy has failed*|
 
-## Storage of Event Logs { .section}
+## Storage of Event Logs
 
 Logged event details are stored in the database. By default, all events older than 30 days are removed from the database. The built-in removal process launches automatically every day and when a website is restarted.
 

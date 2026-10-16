@@ -1,4 +1,4 @@
-# Image Viewer {#_ab218f67-563d-4b33-afbb-3875419aac67 .concept}
+# Image Viewer
 
 In this chapter, you will learn about the configuration of image viewers.
 

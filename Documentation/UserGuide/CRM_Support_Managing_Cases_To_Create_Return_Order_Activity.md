@@ -1,14 +1,14 @@
-# Case Management: To Create a Return Order from a Case {#_ede2639b-0124-47b6-9392-e89944fbb2c1 .task}
+# Case Management: To Create a Return Order from a Case
 
 The following activity will walk you through the process of creating a return order from a case in Acumatica ERP.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the FourStar Coffee &amp; Sweets Shop recently purchased a commercial juicer but has decided to return it. Andrea Weaver, the assistant manager at FourStar Coffee &amp; Sweets Shop, has called to initiate the return. As the delivery manager of the SweetLife Fruits &amp; Jams company, you have discussed the return with Andrea. Now you need to create a return order, which you will do directly from the [Cases](CR_30_60_00.md) \(CR306000\) form.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -20,11 +20,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Contacts](CR_30_20_00.md) \(CR302000\) form, the *Andrea A. Weaver* contact has been created and specified as the primary contact for the *COFFEESHOP* business account.
 -   On the [Sales Orders Preferences](SO_10_10_00.md) \(SO101000\) form, the *RM* order type has been specified in the **Default Return Order Types** box.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will first enter a case on the [Cases](CR_30_60_00.md) \(CR306000\) form. From this form, you will create a return order. You will then save the return order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start working on the case, you should do the following:
 
@@ -34,7 +34,7 @@ Before you start working on the case, you should do the following:
     -   **Password**: *123*
 3.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step: Creating a Return Order from a Case { .section}
+## Step: Creating a Return Order from a Case
 
 To create a case and then a return order for the request submitted by Andrea Weaver of *COFFEESHOP*, do the following:
 

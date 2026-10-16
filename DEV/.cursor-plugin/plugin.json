@@ -3,7 +3,7 @@
   "displayName": "Developer Toolkit",
   "author": { "name": "Acumatica" },
   "description": "Skills and artifacts for Acumatica ERP Developers",
-  "keywords": ["csharp", "dac", "customization", "upgrade", "publishing", "integration", "rest", "oauth", "modern-ui", "aurelia", "typescript", "custom-controls"],
+  "keywords": ["csharp", "dac", "customization", "upgrade", "publishing", "integration", "rest", "oauth", "modern-ui", "aurelia", "typescript", "custom-controls", "classic-to-modern", "wiki", "help"],
   "license": "GPL-3.0-only",
-  "version": "1.2.0"
+  "version": "1.3.2"
 }

@@ -1,8 +1,8 @@
-# Complex Input Controls {#_e4cb712a-076e-4da4-b7dc-79be3192e8ef .concept}
+# Complex Input Controls
 
 You can use attributes to configure complex input controls, such as drop-down lists and lookup controls.
 
-## Drop-Down Lists { .section}
+## Drop-Down Lists
 
 You can use the following attributes to configure a drop-down list that represents a data access class \(DAC\) field in the user interface:
 
@@ -13,7 +13,7 @@ You can use the following attributes to configure a drop-down list that represen
 -   [PXDBIntList](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=603bcc33-9361-ff33-653e-620d741043a0): Configures a drop-down control for an integer field. The values and labels for the drop-down control are retrieved from the specified database table.
 -   [PXDBStringList](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=2076c38a-276b-88b9-5ac6-6c67ecccf91f): Configures a drop-down control for a string field. The values and labels for the drop-down control are retrieved from the specified database table.
 
-## Lookup Controls { .section}
+## Lookup Controls
 
 You can use the following attributes to configure a lookup control that represents a field in the user interface:
 
@@ -21,7 +21,7 @@ You can use the following attributes to configure a lookup control that represen
 -   [PXCustomSelector](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=8a1353af-bac5-43cb-40ce-92cd8972595f): Serves as the base class to derive custom attributes used to configure lookup controls.
 -   [PXRestrictor](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=a983c4ed-43c2-524d-5c8b-e9076cce1c1c): Adds a restriction to a BQL command that selects data for a lookup control, and displays an error message when the value entered does not fit the restriction. The attribute works only with PXSelector and cannot be used with PXCustomSelector.
 
-## Segmented Key Controls { .section}
+## Segmented Key Controls
 
 A segmented key value is a string value that identifies a data record in the system and consists of one segment or multiple segments. A segmented key is an entity that is identified by a string \(referred to as a *dimension*\) and associated with segments. For each segment, you can define the list of possible values. You can create a new segment when the data records identified by the segmented key already exist in the database.
 

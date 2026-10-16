@@ -1,10 +1,10 @@
-# Testing of the Modern UI: Frontend Actions in Wrappers {#_fc952faa-571d-4997-81bf-fe2ab161b3f4 .concept}
+# Testing of the Modern UI: Frontend Actions in Wrappers
 
 If an action is declared only in frontend and does not have a corresponding action in the graph, this action is also included in wrappers and can be used in tests. The name of such action in wrappers is exactly the same as the name of the action in TypeScript.
 
 For example, suppose that the action is declared in TypeScript, as shown in the following code.
 
-```language-javascript
+```javascript
 export class AUSchedule extends PXView {
   ViewScreen: PXActionState;
   ...

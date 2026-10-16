@@ -1,4 +1,4 @@
-# To Convert a DAC Item to a Code Item {#_4e3f8e4b-7d2b-4720-a833-a8c0a3d02643 .concept}
+# To Convert a DAC Item to a Code Item
 
 If you have a customized data access class that is added to the project as a *DAC* item, then you can convert the class changes into the class extension code \(a *Code* item\) to complete the extension development in the Code Editor or in Microsoft Visual Studio. \(See [Supported DAC Extension Formats](CG_Platform_Framework_CS_DACExt_DACFormat.md) for details.\)
 
@@ -9,12 +9,10 @@ To do this, perform the following actions:
 3.  In the page table, select the item to be converted, as the screenshot below shows.
 4.  On the page toolbar, click **Convert to Extension**.
 
-    ![](images/CG_GL_Items_DACs_Converting.png "Converting the DAC item to the Code item")
 
 
 The platform converts the XML content of the selected item to C\# code, deletes the *DAC* item in the customization project, adds the created code to the project as a *Code* item, and opens it in the [Code Editor](../UserGuide/AU_20_40_00_CodeEditor.md), as shown in the following screenshot.
 
-![](images/CG_GL_Items_DACs_Converting01.png "Viewing the result of the conversion")
 
 This operation is irreversible. After you convert the XML data to C\# code, you will not be able to work with the item in the Data Class Editor or convert it back to a *DAC* item. You will be able to edit the code in Code Editor and Visual Studio.
 

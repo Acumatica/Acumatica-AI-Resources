@@ -1,4 +1,4 @@
-# Vendor Prices: To Upload a Price List and Explore Price Selection {#_d72f6f33-a78d-4455-9247-631b7e2ac83b .task}
+# Vendor Prices: To Upload a Price List and Explore Price Selection
 
 In this activity, you will learn how to upload vendor price lists with regular prices and promotional prices and analyze how the system suggests vendor prices in bills and purchase orders.
 
@@ -6,7 +6,7 @@ In this activity, you will learn how to upload vendor price lists with regular p
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that, to make work with vendor documents easier, the SweetLife Fruits &amp; Jams company decided to create a catalog of vendor prices for non-stock items. The system should be able to automatically suggest the vendor price of a specific non-stock item when a user enters this item in a line of a purchase order. SweetLife ordered advertising services from the Blueline Advertisement agency \(*BLUELINE*\) before and wants to keep these prices in the system.
 
@@ -18,7 +18,7 @@ Also, the agency offers prices that depend on the number of purchased hours of c
 
 On January 30, 2026, the marketing manager of SweetLife decided to purchase consulting services from Blueline Advertisement agency and you, acting as SweetLife's accountant, need to create a purchase order for this agency in the system.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -26,7 +26,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *CONSULT*, *CAMPAIGN*, and *ADVERT* non-stock items have been created.
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *BLUELINE* vendor has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create a list of regular prices on the [Vendor Price Worksheets](AP_20_20_10.md) \(AP202010\) form. You will then configure the price retention settings on the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form, and on the [Vendor Prices](AP_20_20_00.md) \(AP202000\) form, you will analyze how the system keeps a history of vendor prices depending on the specified settings.
 
@@ -34,13 +34,13 @@ You will create a list of vendor prices broken down by item quantity on the [Ven
 
 Finally, you will add a promotional price for this vendor on the [Vendor Prices](AP_20_20_00.md) form, create a purchase order for this vendor on the [Purchase Orders](PO_30_10_00.md) form, and analyze how the system suggests the vendor prices.
 
-## System Preparation { .section}
+## System Preparation
 
 1.  Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in to the system as an accountant by using the *johnson* username and the *123* password.
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026*. For simplicity, in this lesson, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu button to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Enabling the Needed Features { .section}
+## Step 1: Enabling the Needed Features
 
 To enable the *Vendor Discounts* feature, do the following:
 
@@ -49,7 +49,7 @@ To enable the *Vendor Discounts* feature, do the following:
 3.  Under the **Advanced Financials** group of features, select the **Vendor Discounts** check box.
 4.  On the form toolbar, click **Enable**.
 
-## Step 2: Uploading a List of Regular Prices for the Vendor { .section}
+## Step 2: Uploading a List of Regular Prices for the Vendor
 
 To upload a list of regular vendor prices, do the following:
 
@@ -65,7 +65,7 @@ To upload a list of regular vendor prices, do the following:
 8.  Make sure that the worksheet contains five lines and save the worksheet.
 9.  On the form toolbar, click **Remove Hold**, and then click **Release** to release the worksheet and make the prices effective in the system. The prices from the worksheet will be suggested in documents starting on *1/1/2026*.
 
-## Step 3: Analyzing How the System Keeps the History of Prices { .section}
+## Step 3: Analyzing How the System Keeps the History of Prices
 
 To analyze how the system keeps the history of vendor prices, do the following:
 
@@ -111,7 +111,7 @@ To analyze how the system keeps the history of vendor prices, do the following:
     The system sets the expiration date automatically if you release a new price from a worksheet. If you add a new price directly on the [Vendor Prices](AP_20_20_00.md) form, you have to specify the expiration date for the previous price manually.
 
 
-## Step 4: Creating a List of Vendor Prices Broken Down by Item Quantity { .section}
+## Step 4: Creating a List of Vendor Prices Broken Down by Item Quantity
 
 To create a list of vendor prices broken down by item quantity, do the following:
 
@@ -139,7 +139,6 @@ To create a list of vendor prices broken down by item quantity, do the following
     -   **Pending Price**: `90.00`
 6.  On the form toolbar, click **Remove Hold**, and then click **Release** to release the worksheet \(see the following screenshot\).
 
-    ![](Images/activity_Prices_Vendor_Prices_Volume_Based_Vendor_Prices.png "Volume-based vendor prices")
 
 7.  Open the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form.
 8.  On the form toolbar, click **Add New Record**, and specify the following settings in the Summary area:
@@ -162,12 +161,11 @@ To create a list of vendor prices broken down by item quantity, do the following
     -   **Order Qty.**: `12`
     Depending on the quantity, the system suggests the different unit costs that you configured for these quantities \(see the following screenshot\).
 
-    ![](Images/activity_Prices_Vendor_Prices_Purchase_Order_With_Volume_Based_Vendor_Prices.png "Purchase order with volume-based vendor prices")
 
     You do not need to save or process this purchase order. You created it solely to test how the vendor prices are selected.
 
 
-## Step 5: Analyzing How the System Suggests the Last Purchase Price and Standard Cost { .section}
+## Step 5: Analyzing How the System Suggests the Last Purchase Price and Standard Cost
 
 To analyze how the system suggests the last purchase price and standard cost, do the following:
 
@@ -195,7 +193,6 @@ To analyze how the system suggests the last purchase price and standard cost, do
 12. In the **Inventory ID** box, select *CAMPAIGN*.
 13. On the **Vendors** tab, review the information displayed on the tab. The last purchase price \($350\) has been saved in the **Last Vendor Price** column for the *BLUELINE* vendor \(see the following screenshot\).
 
-    ![](Images/activity_Prices_Vendor_Prices_Last_Vendor_Price_Non_Stock_Items_Form.png "Last vendor price on the Non-Stock Items form")
 
 14. Open the [Bills and Adjustments](AP_30_10_00.md) form.
 15. On the form toolbar, click **Add New Record**, and specify the following settings in the Summary area:
@@ -210,12 +207,11 @@ To analyze how the system suggests the last purchase price and standard cost, do
     -   **Quantity**: `1`
     In the **Unit Cost** column, the system has suggested the last purchase price, which is now $350, because there is no regular or promotional price effective for this vendor on the specified date.
 
-    ![](Images/activity_Prices_Vendor_Prices_Last_Vendor_Price_Bills_and_Adjustments_Form.png "The last vendor price on the Bills and Adjustments form")
 
     You do not need to save or process this bill. You created it solely to test how the purchase price is suggested.
 
 
-## Step 6: Adding a Promotional Price and Creating a Purchase Order { .section}
+## Step 6: Adding a Promotional Price and Creating a Purchase Order
 
 To add a promotional price for the *BLUELINE* vendor and create a purchase order, do the following:
 
@@ -251,7 +247,6 @@ To add a promotional price for the *BLUELINE* vendor and create a purchase order
 
     The unit cost of this item has changed to $110, because it is the regular vendor price for 0 to 4 hours of consulting services, which you set up in Step 3, as shown in the following screenshot.
 
-    ![](Images/activity_Prices_Vendor_Prices.png "Updated unit cost in the purchase order")
 
     You do not need to save or process this purchase order. You created it solely to test how the unit costs are suggested.
 

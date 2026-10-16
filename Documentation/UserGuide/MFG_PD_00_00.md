@@ -1,4 +1,4 @@
-# Production Management {#_2c6f8835-1495-469a-8bed-5119349c065a .concept}
+# Production Management
 
 The production management functionality of Acumatica ERP Manufacturing Edition provides you with easy entry of production orders, quick release of planned production orders, ability to use alternate BOMs and routing using revisions, an event history, and easy release of materials.
 

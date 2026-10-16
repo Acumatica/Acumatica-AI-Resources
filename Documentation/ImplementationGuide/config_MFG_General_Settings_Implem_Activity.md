@@ -1,16 +1,16 @@
-# System Preparation for Manufacturing Implementation: Implementation Activity {#_f713201a-66c5-403a-a531-62fa3cb09a1a .task}
+# System Preparation for Manufacturing Implementation: Implementation Activity
 
 In this implementation activity, you will learn how to prepare the system for specifying manufacturing-specific settings.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that based on requests from customers, SweetLife Fruits &amp; Jams has decided to assemble customized juicers. The company has organized a work center where workers assemble juicers from parts bought from the Squeezo Inc. vendor.
 
 As an implementation manager, you need to prepare the system for the specification of manufacturing-specific settings.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, to prepare the system for the implementation of manufacturing functionality, you will do the following:
 
@@ -28,7 +28,7 @@ In this activity, to prepare the system for the implementation of manufacturing 
 12. On the [BOM Preferences](../UserGuide/AM_10_10_00.md) \(AM101000\) form, review the basic settings related to bills of material
 13. On the [Production Preferences](../UserGuide/AM_10_20_00.md) \(AM102000\) form, review the basic settings related to production management
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start specifying the general settings to prepare the system for manufacturing implementation, you perform the following instructions:
 
@@ -38,11 +38,11 @@ Before you start specifying the general settings to prepare the system for manuf
     -   *Material Requirements Planning*
     -   *Product Configurator*
     -   *Estimating*
-    -   *Advanced Planning and Scheduling*
+    -   *Advanced Planning and Scheduling \(Classic\)* or *Advanced Planning and Scheduling \(Optimized\)*
     -   *Engineering Change Control*
     -   *Manufacturing Data Collection*
 
-## Step 1: Reviewing Numbering Sequences { .section}
+## Step 1: Reviewing Numbering Sequences
 
 In a production system, you would need to create all of the numbering sequences that will be used in the system for manufacturing batches and entity identifiers. These numbering sequences have been defined in the U100 dataset for simplicity; you will verify that they have been created and review the settings of one of the numbering sequences. Do the following:
 
@@ -70,7 +70,7 @@ In a production system, you would need to create all of the numbering sequences 
 
 The system will use these numbering sequences on the relevant forms involved in the manufacturing processes.
 
-## Step 2: Reviewing the GL Accounts { .section}
+## Step 2: Reviewing the GL Accounts
 
 In a production system, you would need to create the GL accounts that will be used in manufacturing; these accounts have been predefined in the *U100* dataset for simplicity. In this step, you will verify that these accounts have been created. Do the following:
 
@@ -88,7 +88,7 @@ In a production system, you would need to create the GL accounts that will be us
 
 The system will insert these accounts on the relevant forms, enabling their use throughout the manufacturing processes.
 
-## Step 3: Reviewing the Posting Class { .section}
+## Step 3: Reviewing the Posting Class
 
 In a production system, you would need to create the posting class that will be used in manufacturing. This posting class has been predefined in the *U100* dataset for simplicity. In this step, you will verify that this posting class has been created as follows:
 
@@ -99,7 +99,7 @@ In a production system, you would need to create the posting class that will be 
     -   **Work in Process Account**: *12500 - Work in Progress for Manufacturing*
     -   **WIP Variance Account**: *51500 - COGS - WIP Inventory Variance*
 
-## Step 4: Reviewing Warehouse and Location Settings { .section}
+## Step 4: Reviewing Warehouse and Location Settings
 
 In a production system, you would need to create a warehouse and its locations that will be dedicated to manufacturing or specify manufacturing-related settings for an existing warehouse and its locations. In the *U100* dataset, a separate warehouse has been created and all required settings have been specified. In this step, you will review the settings for this predefined warehouse and its locations and for a warehouse that is not involved in manufacturing. Do the following:
 
@@ -125,7 +125,7 @@ In a production system, you would need to create a warehouse and its locations t
 8.  Go to the **Locations** tab, and notice that the check box in the **Inventory Planning** column is cleared for all rows.
 9.  Go to the **Inventory Planning** tab, and notice that all check boxes in the **Inventory Planning Settings** section are cleared.
 
-## Step 5: Reviewing the Availability Calculation Rule { .section}
+## Step 5: Reviewing the Availability Calculation Rule
 
 In a production system, you would need to create an availability calculation rule that will include additional settings related to documents used in the manufacturing processes. This availability calculation rule has been predefined in the *U100* dataset for simplicity. In this step, you will review the settings of the rule. Do the following:
 
@@ -145,7 +145,7 @@ In a production system, you would need to create an availability calculation rul
     With these settings, the quantities of items that are issued, shipped, added to sales orders, allocated to sales orders, added to back orders, and allocated to production orders will be deducted from the available quantity; the quantities of items that are included in inventory and PO receipts will be added to the available quantity.
 
 
-## Step 6: Reviewing Replenishment Classes { .section}
+## Step 6: Reviewing Replenishment Classes
 
 If in a production system the *Inventory Replenishment* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, you would need to create replenishment classes that will be used for items being manufactured. These replenishment classes have been predefined in the *U100* dataset for simplicity. In this step, you will review the settings of the replenishment classes. Do the following:
 
@@ -153,7 +153,7 @@ If in a production system the *Inventory Replenishment* feature is enabled on th
 2.  Notice that a class with the *Manufacturing* replenishment source in the **Replenishment Source** column is displayed in the table. This class will be used for items to be manufactured.
 3.  Notice that a class with the *Purchase* replenishment source is displayed in the table. This replenishment class will be used for items to be purchased.
 
-## Step 7: Reviewing Item Classes { .section}
+## Step 7: Reviewing Item Classes
 
 In a production system, you would need to create one or multiple item classes that will provide default settings to newly created items involved in manufacturing. Two item classes have been predefined in the *U100* dataset for simplicity. In this step, you will review the settings of the item classes. Do the following:
 
@@ -186,7 +186,7 @@ In a production system, you would need to create one or multiple item classes th
     This indicates that items of the class will be purchased.
 
 
-## Step 8: Creating a Stock Item Being Manufactured { .section}
+## Step 8: Creating a Stock Item Being Manufactured
 
 You will create a stock item for a juicer that makes juice from soft fruits and berries. Do the following:
 
@@ -207,7 +207,7 @@ You will create a stock item for a juicer that makes juice from soft fruits and 
     3.  In the **Scheduling** section of the tab, notice that the **Check for Material Availability** check box is selected.
 6.  On the form toolbar, click **Save**.
 
-## Step 9: Creating a Stock Item for a Component Being Purchased { .section}
+## Step 9: Creating a Stock Item for a Component Being Purchased
 
 You will create a stock item for a component of a configurable juicer: a grating disc with medium peeling, which will be purchased from the Jalooza vendor. Do the following on the [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\) form, which is still open:
 
@@ -229,7 +229,7 @@ You will create a stock item for a component of a configurable juicer: a grating
 9.  In the **Last Cost** box on the **Price/Cost** tab \(**Cost Statistics** section\), type `39.90`.
 10. On the form toolbar, click **Save**.
 
-## Step 10: Selecting Employees Involved in Production { .section}
+## Step 10: Selecting Employees Involved in Production
 
 Three employees will be involved in juicer assembly: two workers and one manager. You will mark one of these employees, Carlos Cruz, as being involved in production. Do the following:
 
@@ -239,7 +239,7 @@ Three employees will be involved in juicer assembly: two workers and one manager
 
 For the other two employees, Casey Burrows and Gladys Peters, the **Production Employee** check box has already been selected.
 
-## Step 11: Configuring Sales Order Types { .section}
+## Step 11: Configuring Sales Order Types
 
 You will review the settings of the *SO* order type and configure the *TR* and *QT* order types, which will be used in the manufacturing processes. Do the following:
 
@@ -260,7 +260,7 @@ You will review the settings of the *SO* order type and configure the *TR* and *
 8.  In the **Manufacturing Settings** section of the **General** tab, select the **Allow Estimating** check box.
 9.  On the form toolbar, click **Save**.
 
-## Step 12: Reviewing Bill of Material Preferences { .section}
+## Step 12: Reviewing Bill of Material Preferences
 
 In a production system, you would need to specify the basic settings related to bills of material to be able to start implementation of the manufacturing processes. These settings have been predefined in the *U100* dataset for simplicity. In this step, you will review the bill of material settings. Do the following:
 
@@ -269,7 +269,7 @@ In a production system, you would need to specify the basic settings related to 
     1.  Notice that *AMBOM* is specified in the **BOM Numbering Sequence** box. The system will use this numbering sequence for bill of material identifiers when you create a bill of material on the [Bill of Material](../UserGuide/AM_20_80_00.md) \(AM208000\) form.
     2.  Notice that *A* is specified in the **Default Revision** box. The system will copy this value when you create a bill of material on the [Bill of Material](../UserGuide/AM_20_80_00.md) form.
 
-## Step 13: Reviewing Production Preferences { .section}
+## Step 13: Reviewing Production Preferences
 
 In a production system, you would need to specify the basic settings related to production management to be able to start implementation of the manufacturing processes. These settings have been predefined in the *U100* dataset for simplicity. In this step, you will review the production settings. Do the following:
 

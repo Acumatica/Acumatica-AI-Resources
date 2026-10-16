@@ -1,8 +1,8 @@
-# Wiki Approval Procedures {#_7617ea9f-48ba-4bd6-9492-0eb87800d7ee .concept}
+# Wiki Approval Procedures
 
 Articles in a wiki must be published to be seen by all users. An organization may require articles to be approved by authorized employees before they may be published. In Acumatica ERP, you can configure approval procedures by using roles and wiki functionality, as described below.
 
-## Approval by Using Roles { .section}
+## Approval by Using Roles
 
 In Acumatica ERP, access to any wiki is determined by the roles assigned to users. You can use roles to facilitate the approval of wiki articles by performing the following steps:
 
@@ -12,7 +12,7 @@ In Acumatica ERP, access to any wiki is determined by the roles assigned to user
 
 A user with the wiki publisher role can publish an article by opening the Wiki Editor form for the article, clearing the **Hold** check box, and saving the article.
 
-## Approval by Using Wiki Functionality { .section}
+## Approval by Using Wiki Functionality
 
 You can also use built-in wiki functionality to enable wiki article approval. To make approval required for a specific wiki, do the following:
 
@@ -33,7 +33,7 @@ This form also lets the approver process one or more articles. The approver can 
 -   If approved, the article has the *Published* status, and the **Approved** check box \(visible on the **Content** tab when the article is open in the Wiki Editor form\) is selected for it.
 -   If rejected, the article has the *On Hold* status, and the **Rejected** check box \(also on the **Content** tab\) is selected for it.
 
-## Escalation { .section}
+## Escalation
 
 An article becomes escalated if its approval was requested but the article was not approved within the wait time specified for the workgroup assigned to approve articles in the wiki. Escalated articles become visible to users of the workgroup that is positioned at one level higher on the company tree. Escalated articles can be approved by the user they were initially assigned to or by a user from the group to which the approval was escalated.
 

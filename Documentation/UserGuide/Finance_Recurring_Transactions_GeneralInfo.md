@@ -1,19 +1,19 @@
-# Recurring Transactions: General Information {#_af017adb-eecc-40e8-9a0f-0c6504cd462e .concept}
+# Recurring Transactions: General Information
 
 To automate the entry of recurring transactions, you create schedules for these transactions in the system.
 
-## Learning Objectives {#section_dqh_mjv_vxb .section}
+## Learning Objectives
 
 You will learn how to do the following:
 
 -   Create schedules for recurring transactions
 -   Generate the recurring transactions
 
-## Applicable Scenarios {#section_fqh_mjv_vxb .section}
+## Applicable Scenarios
 
 You need to create schedules for transactions that repeat regularly, such as loan payments and depreciation-related transactions.
 
-## Entry of Recurring Transactions {#section_hqh_mjv_vxb .section}
+## Entry of Recurring Transactions
 
 Generally, the process of entering of recurring transactions to the system consists of the following steps:
 
@@ -25,9 +25,8 @@ Generally, the process of entering of recurring transactions to the system consi
 
 The typical processing workflow of processing recurring batches is shown in the following diagram.
 
-![](Images/diag_Finance_GL_Processing_Recurring_Batches.png "Processing recurring batches")
 
-## Schedule Creation {#section_kqh_mjv_vxb .section}
+## Schedule Creation
 
 You create a schedule on the [Recurring Transactions](GL_20_35_00.md) \(GL203500\) form. For the schedule, you specify the date when it starts, and you can either specify a maximum number of times the schedule should be repeated or set up unlimited schedule executions by selecting the **No Limit** check box.
 
@@ -38,7 +37,7 @@ You then select the appropriate option in the **Frequency** box to indicate how 
 -   *Monthly*: The batches should be generated once per month or every *x* months on a specific day of the month.
 -   *By Financial Period*: The batches should be generated only once per financial period or every *x* financial periods at the start, end of the financial period, or on a specific day of the financial period.
 
-## Scheduled Batches {#section_nqh_mjv_vxb .section}
+## Scheduled Batches
 
 You can add GL batches to a schedule immediately \(if all the required batches already exist\) or later. Only batches with the *Normal* type and the *Balanced* status can be scheduled. After you have assigned a batch to a schedule, the system changes the batch's status to *Scheduled*.
 
@@ -46,7 +45,7 @@ On the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form, you can create 
 
 A batch can be included in only one schedule. If a batch has been added to a schedule and you add it to a new schedule, the system removes it from the previous schedule.
 
-## Generation of Recurring Transactions {#section_rqh_mjv_vxb .section}
+## Generation of Recurring Transactions
 
 You use the [Generate Recurring Transactions](GL_50_40_00.md) \(GL504000\) form to run a single schedule or multiple schedules. You can also run a particular schedule on the [Recurring Transactions](GL_20_35_00.md) \(GL203500\) form by selecting the schedule in the **Schedule ID** box and clicking **Run Now** on the form toolbar.
 

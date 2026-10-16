@@ -1,10 +1,9 @@
-# Session Sharing Between Application Servers {#_18374228-1e14-48e1-bc40-4f3b526928ed .concept}
+# Session Sharing Between Application Servers
 
 To achieve horizontal scalability and fault tolerance, an application written with Acumatica Framework can be configured to run in a cluster of application servers behind a load balancer. With this configuration, it is not possible to predict the application server that will receive the next request from the client. In this model, session specific data must be shared between the application servers.
 
 The following diagram shows difference in storing session data on a stand-alone server and in a cluster. On a stand-alone Acumatica ERP server, session data is stored in the server memory. In a cluster of application servers, session data must be serialized and stored in a high-performance remote server, such as Redis or Microsoft SQL.
 
-![](Images/OV_Acumatica_And_Web_SessionOnCluster_01.png "Storing session data on a stand-alone server and in a cluster")
 
 The cost of serialization and the amount of data that need to be shared between application servers is often the main challenge to scaling complex business applications horizontally.
 

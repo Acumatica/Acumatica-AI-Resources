@@ -1,14 +1,14 @@
-# Multicurrency Payment of Bills: To Pay a Foreign Currency Bill by Using Another Currency {#_62b80f1c-6225-4e19-b714-dc469f04bbc9 .task}
+# Multicurrency Payment of Bills: To Pay a Foreign Currency Bill by Using Another Currency
 
 The following activity will walk you through the process of paying a bill in a foreign currency by using another foreign currency.
 
-## Story {#section_pqy_3jv_vxb .section}
+## Story
 
 Suppose that on January 17, 2026, SweetLife Fruits &amp; Jams purchased consulting services from Big Green Trucks Ltd. in the amount of 220 euros \(€220\). \(*EUR* is a foreign currency of the company.\) On January 30, SweetLife agreed with the vendor to pay half of the bill in *CAD* \(which is the other foreign currency of the company\) by using the 1.50 exchange rate \(1 EUR = 1.50 CAD\), so that the partial payment amount would be C$165.
 
 Acting as a SweetLife accountant, you need to process the bill in *EUR*, partially pay it with a payment in *CAD*, and then print a multicurrency report. Before you perform these actions, you will make changes to the Big Green Trucks Ltd. vendor’s currency-related settings, which you initially specified in [Multicurrency Payment of Bills: To Pay a Foreign Currency Bill by Using the Base Currency](Multicurrency_FCBillPayment_Activity1.md), to allow the vendor’s preferred currency to be overridden.
 
-## Configuration Overview {#section_mfx_3jv_vxb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -22,11 +22,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, the *20000 \(Accounts Payable\)*, *83000 \(Realized Gain/Loss Currency\)* accounts have been created.
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *GREENTRUCK* vendor has been predefined.
 
-## Process Overview {#section_wqy_3jv_vxb .section}
+## Process Overview
 
 In this activity, [Vendors](AP_30_30_00.md) \(AP303000\) form, you will update the currency-related settings of the vendor to prepare it for bill processing. On the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you will create and release a bill in *EUR*. On the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form, you will partially pay the bill in *CAD*, and review the generated GL transaction on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form. On the [Bills and Adjustments](AP_30_10_00.md) form, you will review the balance of the partially paid bill. Finally, you will run the [AP Balance by Vendor MC](AP_63_30_00.md) \(AP633000\) report to review the outstanding balances of vendors.
 
-## System Preparation {#section_yqy_3jv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -36,7 +36,7 @@ Before you begin performing the steps of this activity, do the following:
 4.  Make sure that the multicurrency accounting functionality has been configured as described in [Multicurrency Functionality: Implementation Activity](../ImplementationGuide/config_Multicurrency_Basic_Implem_Activity.md) and [Configuration of Rate Types and Rates: To Configure Rates](../ImplementationGuide/config_Multicurrency_Configuring_Rates_Activity1.md).
 5.  Make sure that you have configured an account as described in [Multicurrency Cash Accounts: To Configure an Account](../ImplementationGuide/config_Multicurrency_CashAccount_Implem_Activity.md).
 
-## Step 1: Updating the Vendor's Settings {#section_bry_3jv_vxb .section}
+## Step 1: Updating the Vendor's Settings
 
 To update the vendor’s currency-related settings \(which you updated in [Multicurrency Payment of Bills: To Pay a Foreign Currency Bill by Using the Base Currency](Multicurrency_FCBillPayment_Activity1.md)\) to make it possible to process a bill in *EUR*, do the following:
 
@@ -49,7 +49,7 @@ To update the vendor’s currency-related settings \(which you updated in [Multi
 
 5.  On the form toolbar, click **Save** to save your changes.
 
-## Step 2: Creating and Releasing a Bill {#section_dry_3jv_vxb .section}
+## Step 2: Creating and Releasing a Bill
 
 To create and release a bill in the *EUR* currency, do the following:
 
@@ -71,7 +71,7 @@ To create and release a bill in the *EUR* currency, do the following:
 
 6.  On the form toolbar, click **Remove Hold** and then click **Release** to release the bill.
 
-## Step 3: Creating a Partial Payment for the Bill {#section_fry_3jv_vxb .section}
+## Step 3: Creating a Partial Payment for the Bill
 
 To create a partial payment for the bill, do the following:
 
@@ -101,7 +101,7 @@ To create a partial payment for the bill, do the following:
     -   The Accounts Payable account of the vendor \(*20000*\) was debited in the amount in the base currency deducted from the balance of the bill \($125.57 = Round \(Round \(C$165 / 1.5\) \* 1.14155251\)\).
     -   The realized gain/loss account of the document currency \(*83000*\), which you specified when you defined the *EUR* currency in [Multicurrency Functionality: Implementation Activity](../ImplementationGuide/config_Multicurrency_Basic_Implem_Activity.md)\) was debited in the amount of the realized loss, which is the amount of the payment in the base currency minus the amount in the base currency deducted from the balance of the bill \($3.58 = $129.15 – $125.57\).
 
-## Step 4: Reviewing the Bill Balance {#section_jry_3jv_vxb .section}
+## Step 4: Reviewing the Bill Balance
 
 To review the balance of the partially paid bill, do the following:
 
@@ -111,7 +111,7 @@ To review the balance of the partially paid bill, do the following:
     The payment in *CAD* with the amount equivalent to €110.00 \(C$129.15\) was applied to the bill. The open balance of the bill is €110.00; that is, half of the bill was paid with the payment.
 
 
-## Step 5: Printing a Multicurrency Report {#section_mry_3jv_vxb .section}
+## Step 5: Printing a Multicurrency Report
 
 To review the outstanding balance for the vendors and print a multicurrency report, do the following:
 

@@ -1,4 +1,4 @@
-# Project Material Management: Tracking of the Receipt of Materials in a Warehouse {#_8bdae321-1f10-4c5d-b719-4584cfa0b2cc .concept}
+# Project Material Management: Tracking of the Receipt of Materials in a Warehouse
 
 After the project materials have been purchased and received in the company warehouse, you record their receipt by entering and releasing the purchase receipt for the purchase order. This updates the quantities and status of the affected material lines so that you can see when items are ready for dispatch. You can see the updated values in the following columns on the [Project Materials](PM_30_65_00.md) form for the material lines:
 

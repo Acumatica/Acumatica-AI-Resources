@@ -1,4 +1,4 @@
-# Applying a Pending VAT {#_511cca2f-7cef-4b5e-a3f7-6255505af829 .concept}
+# Applying a Pending VAT
 
 The topics of this chapter illustrate how to apply a pending VAT to an AR invoice, how to apply a pending VAT to an AP bill with multiple installment credit terms, and how to recognize the pending output VAT and the pending input VAT.
 

@@ -1,4 +1,4 @@
-# EmployeePayrollSettings {#_ff4a9e96-9969-4a48-b244-1f5f7f408e1a .concept}
+# EmployeePayrollSettings
 
 This chapter presents code examples showing requests that use the `EmployeePayrollSettings` entity.
 

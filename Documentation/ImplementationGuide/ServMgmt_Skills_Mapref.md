@@ -1,4 +1,4 @@
-# Skills {#_05c601f4-9eda-47db-9da9-868892456c31 .concept}
+# Skills
 
 The topics of this chapter explain how to configure the skills. A skill in Acumatica ERP is a characteristic that can be assigned to an employee that helps a service manager to select the right staff member to perform a particular service.
 

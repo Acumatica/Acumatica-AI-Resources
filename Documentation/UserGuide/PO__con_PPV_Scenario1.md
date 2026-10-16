@@ -1,4 +1,4 @@
-# Purchase Price Variance Allocation: Example 1 {#_4463d447-d28d-4c0a-b380-e8b77db4f28d .concept}
+# Purchase Price Variance Allocation: Example 1
 
 This topic describes all the documents that you would need to create and the transactions generated for the following scenario:
 
@@ -8,7 +8,7 @@ This topic describes all the documents that you would need to create and the tra
 
 .
 
-## Step 1: Creating a Purchase Receipt { .section}
+## Step 1: Creating a Purchase Receipt
 
 By using the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form, you create a purchase receipt for the following items.
 
@@ -28,7 +28,7 @@ As a result, an inventory receipt is created and released. On its release, the f
 |**Inventory \(Item3\)**|5700|0|
 |**PO Accrual**|0|10960|
 
-## Step 2: Creating a Bill { .section}
+## Step 2: Creating a Bill
 
 Later, you receive and enter the vendor bill for the initial quantities of the items with the following information.
 

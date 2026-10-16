@@ -1,16 +1,16 @@
-# Activity 7.2.1: To Implement and Debug an Event Handler {#_2fde834c-ec4e-4331-bbc3-21756781db0d .task}
+# Activity 7.2.1: To Implement and Debug an Event Handler
 
 This activity will walk you through implementing an event handler and debugging it by using the developer tools in the browser.
 
-## Story { .section}
+## Story
 
 Suppose that you need to highlight the second line in a table in bold and print the message in the Console window when it happens.
 
-## Process Overview { .section}
+## Process Overview
 
 You will implement the GetRowCss event handler, in which you will print the message in the Console window and return the new CSS class for the second line of a table. Then you will debug the code by using the developer tools.
 
-## Step 1: Implementing the Event Handler { .section}
+## Step 1: Implementing the Event Handler
 
 To implement the GetRowCss event handler, do the following:
 
@@ -45,7 +45,7 @@ To implement the GetRowCss event handler, do the following:
 
 3.  Rebuild your code.
 
-## Step 2: Test the Event Handler { .section}
+## Step 2: Test the Event Handler
 
 To test the event handler, do the following:
 
@@ -58,17 +58,15 @@ To test the event handler, do the following:
 
     The second line is bold, as shown below.
 
-    ![](Images/UIDev_HandlingEvents_BoldRow.png "The bold line on the Repair Items tab")
 
 
-## Step 3: Debugging the Code { .section}
+## Step 3: Debugging the Code
 
 To debug the code of the event handler, do the following:
 
 1.  Open the developer tools of your browser.
 2.  Open the **Sources** tab \(Item 1 below\).
 
-    ![](Images/UIDev_HandlingEvents_DebugGetRowCSS.png "The developer tools window")
 
 3.  On the **Page** tab \(Item 2 above\), locate the source code of the RS301000 screen according to the following path.
 
@@ -84,7 +82,6 @@ To debug the code of the event handler, do the following:
 7.  When the breaking point is hit, go through the steps for the first line and the second line of the table on the **Repair Items** tab.
 8.  On the **Console** tab, notice the messages from the event handler, as shown below.
 
-    ![](Images/UIDev_HandlingEvents_ConsoleLog.png "The Console tab")
 
 
 **Parent topic:**[Handling UI Events](../DeveloperGuide/UIDev_HandlingEvents_Mapref.md)

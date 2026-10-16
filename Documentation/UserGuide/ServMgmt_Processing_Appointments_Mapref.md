@@ -1,4 +1,4 @@
-# Creating Appointments {#_77dcd9de-4bea-4556-8c64-7d575ee070e5 .concept}
+# Creating Appointments
 
 An appointment is a document in the system that represents the execution of part or all of the job defined by the service order. The appointment usually takes place in the customer location or in the branch location of your company. The appointment holds the details of the actual services performed, the exact date and time \(scheduled and actual\) of each service, and the staff member \(or members\) providing each service.
 
@@ -20,6 +20,4 @@ In this topic, you will learn how to create appointments in Acumatica ERP, and w
 
 -   **[Appointment Creation: Calendar Board Form](../UserGuide/ServMgmt_Appointment_Scheduling_Options.md)**  
 
-
-**Parent topic:**[Service Management](../UserGuide/FS_00_00_01.md)
 

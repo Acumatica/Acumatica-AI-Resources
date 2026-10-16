@@ -1,4 +1,4 @@
-# Automatic Payment Collection {#_37cd80e5-5a61-4dab-8958-68d40b3f3d9c .concept}
+# Automatic Payment Collection
 
 With Acumatica ERP, you can configure automatic payment collection from customers, maintain up-to-date information about customer credit cards, notify customers about expiring credit cards by using template-based notifications, and deactivate expired cards.
 
@@ -12,7 +12,7 @@ In Acumatica ERP, automatic collection of customer payments can be configured as
 
 The steps required to configure automatic payment collection are discussed in more detail in the respective sections below.
 
-## Enabling and Disabling the Integrated Card Processing Feature {#section_rms_4jv_vxb .section}
+## Enabling and Disabling the Integrated Card Processing Feature
 
 When the system administrator enables the *Integrated Card Processing* feature, all the UI elements and forms related to credit card processing are displayed in the system.
 
@@ -49,7 +49,7 @@ If the *Integrated Card Processing* feature is disabled, you should stop automat
 -   [Credit Card Processing for Sales](SO_50_70_00.md) \(SO507000\)
 -   [Credit Card Payments With Multiple Applications](SO_40_10_00.md) \(SO401000\)
 
-## Configuring Payment Methods Based on Cards {#section_yms_4jv_vxb .section}
+## Configuring Payment Methods Based on Cards
 
 For each type of credit card \(such as Visa or MasterCard\) that can be processed by the processing centers whose services your company is subscribed to, you use the [Payment Methods](CA_20_40_00.md) \(CA204000\) form to configure a payment method specific to the type of credit cards. Acumatica ERP provides built-in elements for configuring payment methods based on various types of credit cards.
 
@@ -57,13 +57,13 @@ For each payment method based on a specific credit card type, you can specify wh
 
 For additional details, see [Payment Methods for Customers](CA__CON_PMs_for_Customers.md).
 
-## Collecting Information on Customer Cards {#section_cns_4jv_vxb .section}
+## Collecting Information on Customer Cards
 
-For each customer that will use credit cards to cover its payments automatically, users can enter information about the customer's cards on the [Customer Payment Methods](AR_30_30_10.md) \(AR303010\) form. One of the cards should be selected as the default customer payment method on the **Payment Settings** tab of the [Customers](AR_30_30_00.md) \(AR303000\) form.
+For each customer that will use credit cards to cover its payments automatically, users can enter information about the customer's cards on the [Customer Payment Methods](AR_30_30_10.md) \(AR303010\) form. One of the cards should be selected as the default customer payment method on the **Payment Methods** tab of the [Customers](AR_30_30_00.md) \(AR303000\) form.
 
 Acumatica ERP stores card numbers and other information encrypted in the database and masks this information when it is displayed on the forms. Sensitive data, such as the card's security code, is stored encrypted prior to the first successful authorization. After that, this data is deleted from the database, and subsequent transactions require no verification of the security code with the processing center.
 
-## Collecting Payments {#section_fns_4jv_vxb .section}
+## Collecting Payments
 
 Automatic payment collection can be initiated from the [Capture Payments](AR_51_15_00.md) \(AR511500\) form, which allows the users to perform mass-processing of customer payments for invoices that have the specific credit terms assigned. For more details on processing payments, see [Card Payments](AR__con_Card_Payments.md).
 
@@ -75,7 +75,7 @@ The automation schedule should be configured to process payments that do not hav
 
 You can configure the system to process the credit card payments as deposits—each credit card transaction processed by a processing center is recorded to a clearing account associated with the bank account to which the processing center periodically transfers the collected payments as lump sums. Configuring credit card payments as deposits will make it easier to perform reconciliation of the bank account transactions with the bank statement. For details, see [Deposits for Credit Card Payments](CA__CON_CC_Deposits.md).
 
-## Configuring a Synchronization Schedule for Validating Card Payments { .section}
+## Configuring a Synchronization Schedule for Validating Card Payments
 
 On the [Validate Card Payments](AR_51_30_00.md) \(AR513000\) form, you can use a predefined synchronization schedule for validating card payments, which runs once a day. You can review the *Validate Card Payments* schedule on the [Automation Schedules](SM_20_50_20.md) \(SM205020\) form.
 
@@ -99,7 +99,7 @@ On the [Validate Card Payments](AR_51_30_00.md) form, to set up the predefined a
 
 The *Validate Card Payments* schedule will run for all active processing centers to which it has been added. For details, see [To Schedule Validation of Card Payments](AR__HOW_To_Schedule_Validation_of_Card_Payments.md).
 
-## Maintaining Valid Card Information {#section_lns_4jv_vxb .section}
+## Maintaining Valid Card Information
 
 If your company has automatic payment collection configured, credit card expiration dates must be monitored closely. Use the following forms to manage expired cards and those that will expire soon:
 

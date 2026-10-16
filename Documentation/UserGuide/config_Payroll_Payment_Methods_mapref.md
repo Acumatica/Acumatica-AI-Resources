@@ -1,4 +1,4 @@
-# Setting Up Payment Methods {#_f333ecc3-caeb-4fec-ae5a-3607246c75f6 .concept}
+# Setting Up Payment Methods
 
 In this chapter, you will learn how you can set up payment methods for use in payroll. Also, you will learn how to define a direct deposit payment method.
 

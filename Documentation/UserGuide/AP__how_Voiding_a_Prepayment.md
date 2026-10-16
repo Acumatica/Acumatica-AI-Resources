@@ -1,4 +1,4 @@
-# To Void a Prepayment {#_ae1fcfdc-f52f-4cfe-992d-4a32ae486f49 .task}
+# To Void a Prepayment
 
 You can void a prepayment on the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form if it has not been applied to a document \(or to multiple documents\). This topic describes the two ways of voiding a prepayment. The way you void an unapplied prepayment depends on the way you entered the prepayment:
 
@@ -7,7 +7,7 @@ You can void a prepayment on the [Checks and Payments](AP_30_20_00.md) \(AP30200
 
 To cancel an applied prepayment, you first need to unapply the prepayment, as described in [To Unapply a Prepayment Applied Mistakenly](AP__how_Reapplying_a_Prepayment.md). For details, see [Bill Prepayments: General Information](Finance_ProcessingPrepayments_GeneralInfo.md).
 
-## To Void a Paid Prepayment {#section_g24_njv_vxb .section}
+## To Void a Paid Prepayment
 
 1.  Open the [Checks and Payments](../Shared/../UserGuide/AP_30_20_00.md) \(AP302000\) form.
 2.  In the **Type** box of the Summary area, select *Payment*.
@@ -18,7 +18,7 @@ To cancel an applied prepayment, you first need to unapply the prepayment, as de
 
 5.  On the form toolbar, click **Save**, and then click **Release** to save and release the voided payment.
 
-## To Void a Prepayment {#section_h24_njv_vxb .section}
+## To Void a Prepayment
 
 1.  Open the [Checks and Payments](../Shared/../UserGuide/AP_30_20_00.md) \(AP302000\) form.
 2.  In the **Type** box of the Summary area, select *Prepayment*.

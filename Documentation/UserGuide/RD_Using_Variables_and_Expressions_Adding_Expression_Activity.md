@@ -1,18 +1,18 @@
-# Variables and Expressions: To Add a Variable and an Expression {#_0fc14f22-748f-47aa-881b-e0ff54c5e6fc .task}
+# Variables and Expressions: To Add a Variable and an Expression
 
 In the following activity, you will learn how to use variables and expressions in a report.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist in your company who is working on simple customizations. A sales manager of your company has requested a report that displays data about vendors, so that vendors are grouped by vendor class. In each class, vendors should be numbered sequentially. You know that a colleague has created such a report, but without numbering. You decide to change the report that your colleague has created.
 
-## Process Overview { .section}
+## Process Overview
 
 In the Report Designer, you will open the `AP6550C6.RPX` report, which is a modified copy of the [Vendor Summary](AP_65_50_00.md) \(AP6550C6\) report. In the section in which vendors are listed, you will add two variables. The first variable will calculate the visibility of a vendor. The second variable will calculate the sequential number of a vendor in a particular class and will be incremented by one for only the vendors that are visible.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you perform the steps of this activity, make sure that the following tasks have been performed:
 
@@ -33,7 +33,7 @@ Also, to prepare for use the file that is intended for this activity, do the fol
     The report is saved on the server.
 
 
-## Step 1: Adding Variables to a Report Section { .section}
+## Step 1: Adding Variables to a Report Section
 
 To add variables to a section of the *AP6550C6* report, do the following:
 
@@ -70,12 +70,11 @@ To add variables to a section of the *AP6550C6* report, do the following:
 
     The following screenshot shows the variables added to `groupHeaderSection1``(Header of group1)`.
 
-    ![](Images/RD_Using_Variables_And_Expressions_Variables.png "Variables in the ReportVariables Collection Editor")
 
 13. Click **OK** to save your changes and close the ReportVariable Collection Editor.
 14. On the Report Designer window toolbar, click **Save**.
 
-## Step 2: Adding a Text Box to Display Numbers { .section}
+## Step 2: Adding a Text Box to Display Numbers
 
 To add a text box to display the numbers for the vendors, while you are still working with the *AP6550C6* report in the Report Designer, do the following:
 
@@ -85,9 +84,8 @@ To add a text box to display the numbers for the vendors, while you are still wo
 
 The report in design mode is shown in the following screenshot.
 
-![](Images/RD_Using_Variables_And_Expressions_Report_Design.png "Report in design mode")
 
-## Step 3: Viewing the Report { .section}
+## Step 3: Viewing the Report
 
 To view the report, do the following:
 
@@ -99,7 +97,6 @@ To view the report, do the following:
 
 The resulting report is shown in the following screenshot.
 
-![](Images/RD_Using_Variables_And_Expressions_Resulting_Report.png "The Vendor Summary (AP6550C6) report with vendors numbered in each vendor class")
 
 **Parent topic:**[Using Variables and Expressions](../UserGuide/RD_Using_Variables_and_Expressions_Mapref.md)
 

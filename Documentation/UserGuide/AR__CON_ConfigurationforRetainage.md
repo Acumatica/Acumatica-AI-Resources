@@ -1,8 +1,8 @@
-# Configuration of the Default Retainage Settings in the Accounts Receivable Subledger {#_dc7aa4f8-7c64-48c4-a34e-a2c3d851697e .concept}
+# Configuration of the Default Retainage Settings in the Accounts Receivable Subledger
 
 In this topic, you will read about how to set the preference settings related to retainage, how to configure classes for customers who retain amounts on invoices and credit memos, and how to configure particular customers \(and customer locations\) that retain amounts on documents.
 
-## General Retainage Settings {#section_fgq_4jv_vxb .section}
+## General Retainage Settings
 
 In the **Retainage Settings** section on the **General** tab of the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, you can do the following:
 
@@ -17,13 +17,13 @@ To affect the generation of retainage documents on the [Release AR Retainage](AR
 -   Clear the **Hold Documents on Entry** check box to direct the system to automatically remove retainage documents from hold as soon as they are created. With this check box cleared, retainage documents will get the *Pending Approval* status if approvals are set up in your system for the needed document type, or the *Balanced* status if approvals are not used.
 -   Select the **Hold Documents on Entry** check box to direct the system to generate retainage documents with the *On Hold* status, irrespective of whether approvals are set up.
 
-## Configuration of Customer Classes {#section_jgq_4jv_vxb .section}
+## Configuration of Customer Classes
 
 If your company works with documents with retainage, you can specify for a customer class the default retainage receivable account and subaccount \(if applicable\) to record the money that customers of the class withheld from documents. You specify the account and subaccount in the **Retainage Receivable Account** and **Retainage Receivable Sub.** boxes, respectively, on the **GL Accounts** tab of the [Customer Classes](AR_20_10_00.md) \(AR201000\) form.
 
 If you have specified the default account and subaccount for a customer class, for customers of the class, the system inserts these values into the **Retainage Receivable Account** and **Retainage Receivable Sub.** boxes, respectively, on the **GL Accounts** tab of the [Customers](AR_30_30_00.md) \(AR303000\) form for newly added customers.
 
-## Configuration of Particular Customers {#section_mgq_4jv_vxb .section}
+## Configuration of Particular Customers
 
 For each particular customer for which your company needs to retain a certain amount of each invoice or credit memo total, you can specify default settings as follows on the **General** tab of the [Customers](AR_30_30_00.md) \(AR303000\) form:
 
@@ -36,7 +36,7 @@ Also, if the system has inserted the Retainage Receivable account and subaccount
 
 The default values provided for the customer can be overridden for a particular document.
 
-## Configuration of a Particular Customer Location {#section_rgq_4jv_vxb .section}
+## Configuration of a Particular Customer Location
 
 **Note:** You can create and configure multiple customer locations only if the *Business Account Locations* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form.
 
@@ -44,7 +44,7 @@ For the default location, the Retainage Receivable account and subaccount \(if a
 
 The account and subaccount specified for the customer location selected in a document will be used by default to post retainage entries. The default values provided for the customer location can be overridden for a particular document.
 
-## Configuration of Taxes {#_9d3bd148-1ffb-4ced-aa86-4aaeb89e9162 .section}
+## Configuration of Taxes
 
 If the taxes calculated on the retained amount are also retained—that is, if the **Retain Taxes** check box is selected on the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form,—you have to specify the accounts for retained taxes. To do so, on the **GL Accounts** tab of the [Taxes](TX_20_50_00.md) \(TX205000\) form, you specify the tax payable account and subaccount in the **Retainage Tax Payable Account** and **Retainage Tax Payable Subaccount** boxes, respectively. This account and subaccount will be credited by the tax applied to the retained amount.
 

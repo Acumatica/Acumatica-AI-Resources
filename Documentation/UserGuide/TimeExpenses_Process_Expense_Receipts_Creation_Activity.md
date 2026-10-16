@@ -1,16 +1,16 @@
-# Expense Receipts: To Create an Expense Receipt {#_8aa856e3-83b0-43ec-988e-3d9d80cb056a .task}
+# Expense Receipts: To Create an Expense Receipt
 
 The following activity will walk you through the process of creating an expense receipt.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that David Chubb, an employee of the sales department at the SweetLife Fruits &amp; Jams company, had a business lunch with Chris Rea, the manager at the Blue Cafe, to discuss Blue Cafe's purchase of new juicers. The lunch cost $20, which David paid with his personal credit card.
 
 Acting as David Chubb, you will enter the expense into the system to request reimbursement.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -18,18 +18,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Non-Stock Items](IN_20_20_00.md#) \(IN202000\) form, the *MEAL* non-stock item with the *Expense* type has been created.
 -   On the [Employees](EP_20_30_00.md#) \(EP203000\) form, the account for David Chubb has been created and associated with the *chubb* user account.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create an expense receipt for David Chubb’s business lunch on the [Expense Receipts](EP_30_10_10.md#) \(EP301010\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
 -   Launch the Acumatica ERP website, and sign in as David Chubb by using the *chubb* username and the *123* password.
 -   In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to today’s date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step: Creating an Expense Receipt { .section}
+## Step: Creating an Expense Receipt
 
 To create an expense receipt for the business lunch that David paid for, do the following:
 

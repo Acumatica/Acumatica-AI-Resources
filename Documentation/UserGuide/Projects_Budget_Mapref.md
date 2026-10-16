@@ -1,4 +1,4 @@
-# Managing the Project Budget {#_c7127529-f542-1488-99de-b944cb120a85 .concept}
+# Managing the Project Budget
 
 This chapter describes how to populate and track the project budget, which is used to provide both a financial plan and cost constraints for a project.
 

@@ -1,8 +1,8 @@
-# Migration of Trial Balances: General Information {#_af1f4e6a-f50d-48f9-9299-9819c3506db9 .concept}
+# Migration of Trial Balances: General Information
 
 When migrating company data from a legacy system to Acumatica ERP, you import trial balances to the system to initialize the open balances of the general ledger accounts without migrating general ledger transactions for each historical period.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -11,11 +11,11 @@ In this chapter, you will learn how to do the following:
 -   Import the trial balance
 -   Review the generated general ledger transactions
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You import trial balances to migrate account balances to the system for each period and to be able to prepare accurate financial statements for the periods that precede migration to the new system.
 
-## System Configuration Before Import of the Trial Balance { .section}
+## System Configuration Before Import of the Trial Balance
 
 Before importing the trial balance, you need to choose the period to start keeping records in Acumatica ERP and decide for which periods you want to import the history of balances. We recommend that you import trial balances for at least a year to be able to produce comparative financial statements for the company later. For example, if you start using Acumatica ERP in *01-2026*, you should import the trial balance for the 2025 financial year. In the legacy system, you should prepare the data to be imported—that is, run the trial balance report for each period that you are going to import.
 
@@ -47,7 +47,7 @@ You specify the sign of the trial balances based on the following equations:
 
 **Tip:** The **Sign of the Trial Balance** setting on the [General Ledger Preferences](GL_10_20_00.md) form also affects the representation of the trial balance reports and inquiries. After you have finished the trial balance import, you may change the **Sign of the Trial Balance** option to have the needed representation of reports and inquires.
 
-## Preparation and Editing of the File to Be Imported {#section_ilg_mjv_vxb .section}
+## Preparation and Editing of the File to Be Imported
 
 You prepare the trial balances for each company or branch, considering the following rules:
 
@@ -74,7 +74,7 @@ From the legacy ERP software, you should export the prepared trial balance data 
 
 **Tip:** You can include multiple columns with the balances for different financial periods in one file.
 
-## Import of Trial Balances {#section_zmg_mjv_vxb .section}
+## Import of Trial Balances
 
 If you are importing multiple trial balances, you have to import the trial balances one by one, from the earliest period to the latest one, because each subsequent general ledger batch is generated in the amount of the difference between the trial balance for the previous period and the current imported balance.
 
@@ -97,7 +97,7 @@ You import trial balances by performing the following operations:
 
 5.  You import the next trial balance by performing these same actions in the stated order. For each subsequent trial balance, review the accounts listed on the **Exceptions** tab, if any.
 
-## Review of the Exceptions Tab { .section}
+## Review of the Exceptions Tab
 
 Records on the **Exceptions** tab of the [Trial Balance](GL_30_30_10.md) \(GL303010\) form do not reflect mistakes. When you import the second trial balances \(or the first balance for the second time\), the **Exceptions** tab shows the accounts that have a nonzero balance for the period in the system, but their balance for the currently selected period has not been uploaded from the file. \(Each subsequent import works similarly.\)
 

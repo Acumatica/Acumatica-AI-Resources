@@ -1,74 +1,58 @@
-# Integration with LLM Providers: Hiding of Sensitive Data {#_2c438ad5-86d5-4851-9cfd-3b3476a7573f .concept}
+# Integration with LLM Providers: Hiding of Sensitive Data
 
-Some data in Acumatica ERP—such as account numbers and prices—shouldn’t leave your system. To keep sensitive data secure, you can use **data masking** in AI Automation. Here’s how it works:
+Some data in Acumatica ERP is sensitive and should not be sent to a large language model \(LLM\) as plain text. To keep sensitive data secure, you can use **data masking** in AI Automation. Here’s how it works:
 
--   You mask any sensitive details in your requests to a large language model \(LLM\) before sending them to the cloud.
--   The real data never leaves Acumatica ERP—the LLM receives only masked content.
--   When the LLM returns the processed data to Acumatica ERP, the system replaces the masked content with the actual data.
+-   Selected values are replaced with placeholders before they are sent to the LLM.
+-   The real data remains in Acumatica ERP.
+-   When the LLM returns placeholders in the result or tool call, Acumatica ERP restores the real values before saving or showing the result in the system.
 
-## Masking Fields in the Instructions { .section}
+## Selecting Masked Fields
 
-Suppose that on the [LLM Prompts](ML_20_20_00.md) \(ML202000\) form, you’ve created a prompt that generates closure notes for a support case. These notes include the case’s owner and business account \(shown below\), and you don’t want this data to go anywhere outside of Acumatica ERP.
+You specify masked fields for only the `get_current` tool. In the **Get Current Entity Tool** section, select the row with this tool and use the **Masked Fields** box \(Item 1 below\) to add the fields that should be protected.
 
-![](Images/LLM_Providers_Data_Masking_Unmasked_Fields.png "Unmasked fields in the prompt")
+**Important:** In the **Select - Masked Fields** dialog box, select the check boxes for the fields of the lowest level of the hierarchy \(Item 2\).
 
-To mask these fields, place the cursor at the needed place in the instructions and click **Insert** &gt; **Masked Data Field** \(shown below\) and select the needed field in the dialog box that opens.
 
-![](Images/LLM_Providers_Data_Masking_Masked_Data_Field_Command.png "The Masked Data Field command")
+After you select fields, they are shown in the **Masked Fields** box for the `get_current` tool \(shown below\).
 
-Notice that the system adds the *MASKED* prefix to the masked fields \(shown below\).
 
-![](Images/LLM_Providers_Data_Masking_Masked_Fields.png "Masked fields in the prompt")
+**Important:** If you specify masked fields for the `get_current` tool, the agent cannot call this tool again after it invokes `patch_current`.
 
-When you select an example record, the system displays the masked data instead of the real data on the **Prompt** tab \(shown below\). This is the exact message that the system will send to the LLM.
+## Viewing Masked Values in Agent Results
 
-![](Images/LLM_Providers_Data_Masking_Masked_Fields_Prompt_Tab.png "Masked fields in the test prompt")
+When the agent runs, Acumatica ERP replaces selected field values with placeholders in the `${field_name}` format before sending tool results to the LLM \(shown below\). For fields of detail lines or related records, the placeholder can include an indexed path, such as `${Activities-1.Summary}`. This ensures each masked value can be restored to the correct row.
 
-When you test the prompt and the LLM sends the processed data back to Acumatica ERP, it replaces the masked content with the actual data \(see below\).
 
-![](Images/LLM_Providers_Data_Masking_Response_Tab.png "The Response tab with the real data")
+The LLM copies these placeholders when it needs to include masked values in a result or tool call. When Acumatica ERP receives a response, it restores the real values before saving the updated record.
 
-## Masking Groups of Fields {#section_vpl_hlx_23c .section}
+On the **Result** tab, the system displays the unmasked values \(shown below\).
 
-You can mask lists of records—such as a case’s activities or an invoice’s detail lines—by using the `foreach` loop \(Item 1 below\) to iterate through the records. The system masks each field and adds a numerical suffix \(starting with *0*\) to each record, as Items 2 and 3 show.
 
-![](Images/LLM_Providers_Data_Masking_ForEach_Instructions.png "Masking of multiple fields")
+**Important:** The `${...}` notation is reserved for masking. If you use masked fields in your agents, any `${...}` pattern that the LLM sends through the `patch_current` tool is treated as a masking placeholder. If the placeholder isn’t recognized, the system rejects the update and doesn’t save the value. This means that regular text containing `${...}` can’t be saved in agents that use masked fields.
 
-Similarly, you can add masked fields to a table. The example below shows a table that lists case activities.
+You can select fields of different data types for masking. When Acumatica ERP sends masked values to the LLM, the LLM sees only placeholders, not the underlying values. This means the LLM can carry a masked value forward, but it cannot analyze the hidden value itself.
 
-![](Images/LLM_Providers_Data_Masking__ForEach_Table.png "Table with case activities")
+For example, if a numeric field is masked, the LLM cannot calculate a 10% increase for that value because it cannot see the number. Calculations that require real numeric values should be performed inside Acumatica ERP, without relying on the LLM to do arithmetic on masked data.
 
-For details on using the `foreach` loop and listing details in a table, see [Email Templates](EM__con_Notification_Templates.md).
+## Using the Processing Log
 
-**Tip:** You can mask any field that’s displayed in the dialog box that opens when you click **Insert** &gt; **Masked Data Field**. This includes attributes and user-defined fields.
+To review how the agent was processed, use the **Processing Log** tab on the [Agents](ML_20_20_00.md) \(ML202000\) form.
 
-## Masking Data in Output Format Examples {#section_shf_jlx_23c .section}
+This tab helps you review what was sent, which tools were called, what data was returned by tools, and whether errors occurred. This is also where you can confirm that masked fields are represented by placeholders before they reach the LLM.
 
-An output format example is a part of the prompt—so it’s also sent to the LLM. When the system generates the example, it uses real data from the database. If it detects a field in the example that has a masked version in the **Instructions with Input Data** section of the **Instructions** tab, the system does the following:
+For details, see [Integration with LLM Providers: Testing and Troubleshooting Agents](LLM_Providers_LLM_Prompts_Testing_Troubleshooting_Concept.md).
 
-1.  Replaces this field with its masked version
-2.  Displays a warning about this replacement \(shown below\)
+## Reviewing Generic Inquiries
 
-You can replace the data in the example with any values.
+Masked fields configured on the **Tools** tab **do not** protect sensitive columns returned by the *Generic Inquiry* tools. If an agent uses a *Generic Inquiry* tool, the data returned by the selected generic inquiry is sent to the LLM without any masking.
 
-![](Images/LLM_Providers_Data_Masking_Output_Warning.png "A warning about masking output fields")
+For this reason, make sure that generic inquiries used by AI Automation return only the columns the agent truly needs. Remove sensitive columns from the generic inquiry, use filters, and limit the number of returned records. If an agent has masked fields and uses a *Generic Inquiry* tool, Acumatica ERP displays a warning when you save the agent. The warning reminds you that generic inquiry results are not masked and that sensitive columns should be removed from the inquiry.
 
-## Tracking Your Data {#section_y3y_klx_23c .section}
+## Choosing the Right Model
 
-To track your data throughout the masking process, go to the Trace page to see how:
+Masking depends on the model preserving the `${...}` placeholders exactly as received. Smaller or older models may alter placeholders inconsistently, especially when the agent involves writing plain text, making grammar changes, or translating content.
 
-1.  The system has masked the specified fields \(Item 1 below\).
-2.  The system has recorded the real values of those fields \(Item 2\).
-
-    **Important:** These real values stay within the system and are never shared with the LLM.
-
-3.  The LLM returns the data in which the fields are masked \(Item 3\).
-
-![](Images/LLM_Providers_Data_Masking_Trace_Page.png "The Trace page")
-
-## Masking Limitation {#section_ibg_qlx_23c .section}
-
-You can’t mask fields that are part of a larger text field \(such as an email reply\). Even if you also add masked versions of those fields somewhere else in the instructions, the system won’t mask them in this text field.
+We recommend that you use larger models that can handle placeholders reliably. This helps prevent cases where the model changes a placeholder in a way that prevents Acumatica ERP from restoring the original value.
 
 **Parent topic:**[Integrating with LLM Providers](../UserGuide/LLM_Providers_Mapref.md)
 

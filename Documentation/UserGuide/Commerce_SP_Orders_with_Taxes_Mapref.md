@@ -1,4 +1,4 @@
-# Importing Orders with Taxes {#_55a584ac-47de-4d67-b12c-2ca6f08ae544 .concept}
+# Importing Orders with Taxes
 
 In this chapter, you will learn how to configure tax synchronization between Acumatica ERP and the Shopify store.
 

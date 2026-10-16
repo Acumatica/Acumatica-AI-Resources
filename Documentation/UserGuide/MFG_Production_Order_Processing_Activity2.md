@@ -1,12 +1,12 @@
-# Production Processing: To Process Production for Sales {#_101e2921-498f-4932-aa61-743c4674a282 .task}
+# Production Processing: To Process Production for Sales
 
 The following activity will walk you through the creation and processing of production documents related to sales documents.
 
-## Story { .section}
+## Story
 
 Suppose that the GoodFood One Restaurant has ordered 15 juicers for citrus from the SweetLife Fruits &amp; Jams company. The 15 juicers include 12 juicers with the 1-liter cup and 3 juicers with the 0.5-liter cup. Further suppose that SweetLife has the 12 juicers with the 1-liter cup in stock, but the 3 juicers with the 0.5-liter cup must be produced. Acting as a production manager, you need to create a sales order for the GoodFood One Restaurant, create a production order for the 3 juicers with the 0.5-liter cup, and process all the related documents and transactions.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -14,7 +14,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *CFJCITRUS*, *JCREAMER*, *JUICECUP1L*, *JUICECUP05L*, *MRBASEHIGH*, *STRBASKET*, and *SPLGUARD* stock items have been predefined.
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *JALOOZA* vendor has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, to process the documents and transactions related to the sales and production of the citrus juicers, you will do the following:
 
@@ -31,7 +31,7 @@ In this activity, to process the documents and transactions related to the sales
 11. On the [Inventory Allocation Details](IN_40_20_00.md) \(IN402000\) form, view the changes to the item plans
 12. On the [Sales Orders](SO_30_10_00.md) form, process the documents related to shipping the items to the customer
 
-## System Preparation { .section}
+## System Preparation
 
 Do the following:
 
@@ -41,7 +41,7 @@ Do the following:
 2.  Launch the Acumatica ERP website, and sign in to the company in which the prerequisite activities have been performed. You should sign in as the production manager by using the *peters* username and the *123* password.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to today’s date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating the Sales Order { .section}
+## Step 1: Creating the Sales Order
 
 To create the sales order for the 15 juicers that the GoodFood One Restaurant has ordered, do the following:
 
@@ -63,7 +63,7 @@ To create the sales order for the 15 juicers that the GoodFood One Restaurant ha
     -   **Mark for Production**: Selected
 5.  On the form toolbar, click **Save**.
 
-## Step 2: Creating the Production Order { .section}
+## Step 2: Creating the Production Order
 
 To create the production order for the three ordered citrus juicers with the 0.5-liter cup, while you are still viewing the sales order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, do the following:
 
@@ -80,7 +80,7 @@ To create the production order for the three ordered citrus juicers with the 0.5
     On the **Details** tab, notice that the link to the production order has been added to the **Production Nbr.** column in the line with three *CFJCITRUS* items.
 
 
-## Step 3: Viewing the Allocation of Items { .section}
+## Step 3: Viewing the Allocation of Items
 
 To view the allocation of items for the sales order and the production order, do the following:
 
@@ -90,7 +90,7 @@ To view the allocation of items for the sales order and the production order, do
     -   *SO to Production* for 3 items: This quantity of the items to be produced is allocated for the sales order.
     -   *Production for SO Prepared* for 3 items: This quantity on the production order is allocated for the sales order.
 
-## Step 4: Changing the List of Components { .section}
+## Step 4: Changing the List of Components
 
 In the bill of materials assigned to the *CFJCITRUS* item, the 1-liter juice cup is specified as one of the components, but the customer has ordered three juicers with the 0.5-liter juice cup. You need to change the set of components for the *CFJCITRUS* item in this order only. Do the following:
 
@@ -101,7 +101,7 @@ In the bill of materials assigned to the *CFJCITRUS* item, the 1-liter juice cup
 
 You have replaced the 1-liter juice cup with the 0.5-liter juice cup in the list of components of the production order.
 
-## Step 5: Releasing the Production Order { .section}
+## Step 5: Releasing the Production Order
 
 Before you start processing the production order, you need to release it. Do the following:
 
@@ -110,10 +110,9 @@ Before you start processing the production order, you need to release it. Do the
 
     On the **References** tab, notice that information about the linked sales order is displayed in the **SO References** section, as shown below.
 
-    ![](Images/activity_MFG_Production_for_Sale_SO_Link.png "The References tab on the Production Order Maintenance form")
 
 
-## Step 6: Creating a Purchase Order for Components { .section}
+## Step 6: Creating a Purchase Order for Components
 
 In this step, you will view the list of components that are required for the production of the juicers and are out of stock, and you will create a purchase order to purchase the materials from the *JALOOZA* vendor. Do the following:
 
@@ -126,7 +125,7 @@ In this step, you will view the list of components that are required for the pro
 4.  In the **Create Purchase Order** dialog box, which opens, review the settings, and click **Create**. The system creates a purchase order and opens it on the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form.
 5.  On the form toolbar, click **Remove Hold**. The status of the purchase order changes to *Open*.
 
-## Step 7: Receiving the Components in a Warehouse { .section}
+## Step 7: Receiving the Components in a Warehouse
 
 Suppose that you have received the ordered components from the *JALOOZA* vendor and need to create a purchase receipt. The items have been received to the *MTL* location in the *WORKHOUSE* warehouse \(this location is dedicated to the storing of materials and components\). Do the following:
 
@@ -141,7 +140,7 @@ Suppose that you have received the ordered components from the *JALOOZA* vendor 
 
 You have received the required components into stock, and now you can continue processing the production order.
 
-## Step 8: Issuing the Components for the Production Order { .section}
+## Step 8: Issuing the Components for the Production Order
 
 In this step, you will issue the components for the production order. Do the following:
 
@@ -153,7 +152,7 @@ In this step, you will issue the components for the production order. Do the fol
     2.  Clear the **Hold** check box.
 5.  On the form toolbar, click **Release**. The system releases the material transaction and changes the status of the transaction to *Released*.
 
-## Step 9: Recording the Labor and Produced Items { .section}
+## Step 9: Recording the Labor and Produced Items
 
 Suppose that Carlos Cruz, a worker in the work center, spent 30 minutes setting up the working environment for juicer assembly and assembled 3 juicers for 1 hour. The assembled juicers have been moved to the *MGI* location of the *WORKHOUSE* warehouse. To record the time spent on juicer assembly and the movement of the assembled juicers, do the following:
 
@@ -174,7 +173,7 @@ Suppose that Carlos Cruz, a worker in the work center, spent 30 minutes setting 
     3.  Clear the **Hold** check box. The system changes the transaction status to *Balanced*.
 5.  On the form toolbar, click **Release**. The system creates and releases the cost transaction to record labor costs, the inventory receipt to record the movement of the assembled juicers to the warehouse location, and the labor transaction itself.
 
-## Step 10: Closing the Production Order { .section}
+## Step 10: Closing the Production Order
 
 Now you will close the production order. Do the following:
 
@@ -186,7 +185,7 @@ Now you will close the production order. Do the following:
 3.  On the form toolbar, click **Process**. In the **Processing** dialog box, which opens, review the processing details, and when the processing is completed, click **Close**.
 4.  On the [Production Order Maintenance](AM_20_15_00.md) form, open the production order again and notice that its status has been changed to *Closed*.
 
-## Step 11: Viewing the Allocation of the Produced Items { .section}
+## Step 11: Viewing the Allocation of the Produced Items
 
 To view the allocation details for the produced juicers, do the following:
 
@@ -197,10 +196,9 @@ To view the allocation details for the produced juicers, do the following:
 
     In the Summary area, the **On Hand** value is *15* but the **Available** value is *0*, as shown in the following screenshot. This means that the juicers are allocated for the sales order and are unavailable for other sales orders.
 
-    ![](Images/activity_MFG_Production_for_Sale_Final_Allocation.png "Allocation details for the sales order")
 
 
-## Step 12: Shipping Items to the Customer { .section}
+## Step 12: Shipping Items to the Customer
 
 To ship the items to the customer, do the following:
 

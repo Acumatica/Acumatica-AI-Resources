@@ -1,14 +1,14 @@
-# Service Order Types for Inventory Sales with Shipping: To Create a Service Order Type {#_ce111daf-6898-4b94-b3c4-12aa21833fe1 .task}
+# Service Order Types for Inventory Sales with Shipping: To Create a Service Order Type
 
 In this implementation activity, you will learn how to create a service order type for service orders and appointments where sales orders are generated during the billing process. The sales order may include both services and inventory items, which may require shipping.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Service and Equipment Sales Center provides juicer installation services to its customers. Along with these services, the company sells stock items. Acting as an administrative user, you need to create a service order type for service orders and appointments that include installation services and may also include stock items. Sales orders will be generated for these service orders and appointments during the billing process.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -19,11 +19,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, the *Inventory and Order Management* and *Inventory* features have been enabled.
 -   On the [Order Types](../UserGuide/SO_20_10_00.md) \(SO201000\) form, the predefined *SO*, *IN* and *CM* order types have been modified to be used with field services functionality. That is, the **Enable Field Services Integration** check box has been selected in the **Field Services Settings** section on the **General** tab of the form.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create a new service order type on the [Service Order Types](../UserGuide/FS_20_23_00.md) \(FS202300\) form and specify the needed settings for sales orders to be generated during the billing process.
 
-## System Preparation {#section_dmn_5gy_1hc .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -31,7 +31,7 @@ Before you start this activity, do the following:
 2.  On the Company and Branch Selection menu in the top pane of the Acumatica ERP screen, select the Service and Equipment Sales Center branch.
 3.  Make sure that the *Service Management* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md#) \(CS100000\) form.
 
-## Step: Creating the Service Order Type { .section}
+## Step: Creating the Service Order Type
 
 To create a service order type for service documents that generate sales orders during billing, do the following:
 

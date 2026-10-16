@@ -1,12 +1,12 @@
-# Form Layout: To Personalize a View of a Form {#_d7c8a108-74ff-4b47-af6f-9199ed752ebd .task}
+# Form Layout: To Personalize a View of a Form
 
 This activity will walk you through the process of personalizing the user interface on a data entry form.
 
-## Story { .section}
+## Story
 
 Suppose that you often use the [Invoices and Memos](../UserGuide/AR_30_10_00.md) \(AR301000\) form. You need to personalize this form to better fit the needs of your company.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you’ll do the following on the [Invoices and Memos](../UserGuide/AR_30_10_00.md) \(AR301000\) form:
 
@@ -15,7 +15,7 @@ In this activity, you’ll do the following on the [Invoices and Memos](../UserG
 3.  Customize the set and order of columns in the table by using the Column Configuration dialog box
 4.  Manage the appearance of groups of elements on the tab
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -28,32 +28,29 @@ Before you begin performing the steps of this activity, do the following:
     Change the password when the system prompts you to do so.
 
 
-## Step 1: Reordering Tabs { .section}
+## Step 1: Reordering Tabs
 
 To change the order of tabs and move the most frequently used ones to the front, do the following:
 
 1.  On the [Invoices and Memos](../UserGuide/AR_30_10_00.md) \(AR301000\) form, add a new record.
 2.  Drag the **Addresses** tab after the **Details** tab, as shown below.
 
-    ![](images/CustomizationProjects_ConfiguringFormLayout_Reorder_Tabs.png "Reordering the Address tab")
 
 3.  Drag the **Applications** tab after the **Addresses** tab.
 
-## Step 2: Changing Tabs’ Visibility { .section}
+## Step 2: Changing Tabs’ Visibility
 
 Suppose that you seldom use some tabs and decide to hide two of them. Later, you realize that you need one of these tabs more frequently than you originally thought, so you decide to show it again. To change the visibility of tabs, do the following while you are still on the [Invoices and Memos](../UserGuide/AR_30_10_00.md) \(AR301000\) form:
 
 1.  Drag the **Taxes** tab to the More button and then move it to the **Hidden Tabs** section that appears on the screen \(see below\).
 
-    ![](images/CustomizationProjects_ConfiguringFormLayout_Hide_Tabs.png "Moving a tab to the Hidden Tabs section")
 
 2.  Similarly, drag the **Commissions** tab to the **Hidden Tabs** section.
 3.  To show the **Taxes** tab again, click the More button. Then drag the **Taxes** tab from the **Hidden Tabs** section and after the **Financial** tab \(see below\).
 
-    ![](images/CustomizationProjects_ConfiguringFormLayout_Show_Tabs.png "Returning a tab from the Hidden Tabs section")
 
 
-## Step 3: Managing Table Columns by Using the Column Configuration Dialog Box { .section}
+## Step 3: Managing Table Columns by Using the Column Configuration Dialog Box
 
 Suppose that you want to personalize the columns on the **Details** tab of the [Invoices and Memos](../UserGuide/AR_30_10_00.md) \(AR301000\) form as follows:
 
@@ -71,7 +68,6 @@ To customize the set and order of these columns, do the following while you are 
 
     The **Manual Price** column is added to the table \(as shown below\).
 
-    ![](images/CustomizationProjects_ConfiguringFormLayout_Adding_Hidden_Column.png "Adding the hidden column to the table")
 
 6.  On the table toolbar, click the Settings button again.
 7.  In the Column Configuration dialog box, which opens, clear the check box for the **Commissionable** column.
@@ -79,11 +75,10 @@ To customize the set and order of these columns, do the following while you are 
 9.  Click the Settings button.
 10. In the Column Configuration dialog box, find the **Salesperson ID** column. Drag it upward and place it immediately after the **Branch** column, as shown below.
 
-    ![](images/CustomizationProjects_ConfiguringFormLayout_Moving_Column_in_Column_Configuration.png "Changing the order of columns in the table")
 
 11. Click **OK**
 
-## Step 4: Customizing Fieldsets { .section}
+## Step 4: Customizing Fieldsets
 
 Suppose that during your work, you don’t need the information displayed in the **Bill-To Contact** and **Bill-To Address** sections of the **Addresses** tab of the [Invoices and Memos](../UserGuide/AR_30_10_00.md) \(AR301000\) form. To collapse these sections, do the following while you are still on this form:
 
@@ -91,14 +86,12 @@ Suppose that during your work, you don’t need the information displayed in the
 2.  Hover over the **Bill-To Contact** section.
 3.  Click the arrow icon that appears to the right of the section name, as shown below.
 
-    ![](images/CustomizationProjects_ConfiguringFormLayout_Collapse_Section_on_Tab.png "The button to collapse the tab section")
 
     The **Bill-To Contact** section collapses.
 
 4.  Hover over the **Ship-To Address** section.
 5.  Again click the arrow icon that appears to the right of the section name. The section collapses, as shown below.
 
-    ![](images/CustomizationProjects_ConfiguringFormLayout_Collapsed_Sections.png "The collapsed tab sections")
 
     **Tip:** To expand a collapsed section, click the arrow icon.
 

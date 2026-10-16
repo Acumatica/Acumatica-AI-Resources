@@ -1,8 +1,8 @@
-# Mandatory Attributes {#_a211a689-4bd3-4593-8144-f9ef631c418d .concept}
+# Mandatory Attributes
 
 In this topic, you can learn about the mandatory attributes of data access class \(DAC\) fields and actions.
 
-## Mandatory Attributes of DAC Fields { .section}
+## Mandatory Attributes of DAC Fields
 
 For each field defined in a DAC, you must specify the following attributes:
 
@@ -30,7 +30,7 @@ public partial class POReceiptFilter : PXBqlTable, IBqlTable
 }
 ```
 
-## Mandatory Attributes of Actions { .section}
+## Mandatory Attributes of Actions
 
 A declaration of a method that implements an action in a business logic controller must be preceded with the [PXButton](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=1a7069c4-95d5-456b-41ec-5b19371358db) attribute or one of its successors and the [PXUIField](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=79a99243-7926-f570-87ed-536a04ccfe32) attribute. For details on the PXUIField attribute, see [UI Field Configuration](BL__con_PXUIField_Attribute.md).
 

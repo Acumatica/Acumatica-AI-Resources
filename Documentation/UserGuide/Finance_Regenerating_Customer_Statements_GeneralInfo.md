@@ -1,19 +1,19 @@
-# Regeneration of Statements: General Information {#_a8dabd5f-5c03-4928-b5e9-29cddfd1d0e9 .concept}
+# Regeneration of Statements: General Information
 
 When customer statements have been prepared in Acumatica ERP, they are not affected by new transactions. To update the prepared statements, you have to regenerate them.
 
-## Learning Objectives {#section_qld_hjv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Create and release a document that was missing in a previous statement
 -   Regenerate a customer statement
 
-## Applicable Scenarios {#section_sld_hjv_vxb .section}
+## Applicable Scenarios
 
 You regenerate customer statements if you discover some missing documents after the customer statements have been generated. You can create and release these documents and then regenerate the statements.
 
-## Forms on Which Statements Can Be Regenerated {#section_uld_hjv_vxb .section}
+## Forms on Which Statements Can Be Regenerated
 
 You can regenerate statements by using the following forms:
 

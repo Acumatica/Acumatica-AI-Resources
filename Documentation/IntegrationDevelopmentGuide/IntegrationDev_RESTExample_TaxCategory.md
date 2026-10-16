@@ -1,4 +1,4 @@
-# TaxCategory {#_c5ee575c-fd7e-445e-bb97-f66df3fbb7f7 .concept}
+# TaxCategory
 
 This chapter presents code examples showing requests that use the `TaxCategory` entity.
 

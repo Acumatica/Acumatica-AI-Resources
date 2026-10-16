@@ -1,4 +1,4 @@
-# Processing Flow of AP Documents with Retainage {#_d307a4cf-5424-499f-94bc-e19e31254bf9 .concept}
+# Processing Flow of AP Documents with Retainage
 
 If your company retains a part of the amount of a bill, to process the total amount of the bill, at least two bills are created in Acumatica ERP: the bill with retainage \(that is, the bill for which part of the amount is retained\) and the *retainage bill* \(that is, the bill that contains the retained amount or the part of the retained amount to be paid\). The bill with retainage is paid during the period of time agreed upon between your company and the vendor. The retainage bill is paid after the contractual work is finished. Multiple retainage bills can be created for one bill with retainage.
 
@@ -8,7 +8,7 @@ Similarly, debit adjustments with retainage can be created manually on the [Bill
 
 In this topic, you will read about the general processing workflow of a document with retainage in Acumatica ERP \(without taxes applied\).
 
-## The Processing Workflow of a Bill with Retainage {#section_hxl_njv_vxb .section}
+## The Processing Workflow of a Bill with Retainage
 
 Typically, an AP bill with retainage goes through the following states during its life cycle:
 
@@ -27,7 +27,7 @@ Typically, an AP bill with retainage goes through the following states during it
 
 **Tip:** The accountant can reconcile the balance of unreleased retainage of the Retainage Payable account with the general ledger by running the [AP Retained Balance](AP_63_50_00.md) \(AP635000\) report for a specific financial period.
 
-## The Processing Workflow of a Debit Adjustment with Retainage {#section_nxl_njv_vxb .section}
+## The Processing Workflow of a Debit Adjustment with Retainage
 
 Typically, a debit adjustment with retainage goes through the following states during its life cycle:
 
@@ -39,7 +39,7 @@ Typically, a debit adjustment with retainage goes through the following states d
 
 4.  Releasing a retainage: The accountant releases the retainage for the original debit adjustment. A part of the retained amount or the full retained amount can be released. When the retainage is released, a retainage debit adjustment with the *Balanced* status is created in the system; the status is *On Hold* if the **Hold Documents on Entry** check box is selected on the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form.
 
-## Reversal of Debit Adjustments with Retainage and Retainage Debit Adjustments {#section_qxl_njv_vxb .section}
+## Reversal of Debit Adjustments with Retainage and Retainage Debit Adjustments
 
 Original debit adjustments with retainage and retainage debit adjustments with the *Open* and *Closed* status can be reversed by clicking **Reverse** on the More menu of the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 
@@ -55,14 +55,14 @@ If you reverse a debit adjustment, the system performs the following actions on 
 
 An original debit adjustment cannot be reversed if it has open retainage debit adjustments or unreversed applications.
 
-## Processing Bills with Retainage with Payment Application by Line {#section_wxl_njv_vxb .section}
+## Processing Bills with Retainage with Payment Application by Line
 
 If the *Payment Application by Line* feature has been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, retainage bills are released according to the following rules:
 
 -   For retainage released from particular lines of an AP bill, the resulting lines of the retainage bill contain the components copied from the original bill—the values in the **Project**, **Project Task**, **Cost Code**, and **Inventory ID** columns on the **Details** tab of the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 -   When the AP retainage bill is posted to the general ledger, all entries are posted under the non-project code \(*X* by default\), even if specific projects are specified in the document lines. That is, the non-project code is inserted in the **Project** column on the **Details** tab of the [Bills and Adjustments](AP_30_10_00.md) form.
 
-## Migrating AP Bills or Debit Adjustments with Retainage { .section}
+## Migrating AP Bills or Debit Adjustments with Retainage
 
 In Acumatica ERP, you can enter and process fully or partially settled AP bills or debit adjustments with retainage without affecting the general ledger. To do this, you add and process them in migration mode.
 

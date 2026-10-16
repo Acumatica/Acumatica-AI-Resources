@@ -1,17 +1,17 @@
-# Marketing Lists: To Create a Dynamic Marketing List {#_6917bf46-70be-439e-9bfe-99f8c2c84718 .task}
+# Marketing Lists: To Create a Dynamic Marketing List
 
 The following activity demonstrates how to create dynamic marketing lists.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Bill Owen, a marketing manager of the SweetLife Fruits &amp; Jams company.You need to create the following marketing lists:
 
 -   A marketing list that includes all created leads with confirmed contact information. The members of this list will regularly receive a company newsletter.
 -   A marketing list that includes all members who currently receive the newsletter. These members will receive an advertisement with new juicers.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -19,11 +19,11 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
     -   *Customer Management*: This feature provides the customer relationship management \(CRM\) functionality, including lead and customer tracking, as well as the handling of sales opportunities, contacts, marketing lists, and campaigns.
     -   *Scheduled Processing* in the *Monitoring &amp; Automation* group of features: This feature gives you the ability to create schedules for the automatic processing of documents.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create a dynamic marketing list from scratch on the [Marketing Lists](CR_20_40_00.md) \(CR204000\) form and a static marketing list by copying the members from the created dynamic marketing list.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating dynamic marketing lists, you should do the following:
 
@@ -33,7 +33,7 @@ Before you start creating dynamic marketing lists, you should do the following:
     -   **Password**: *123*
 3.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Creating a Dynamic Marketing List by Using a Generic Inquiry { .section}
+## Step 1: Creating a Dynamic Marketing List by Using a Generic Inquiry
 
 To create a dynamic marketing list, do the following:
 
@@ -58,7 +58,7 @@ To create a dynamic marketing list, do the following:
 
 You have created a dynamic marketing list that includes all leads that have the *Open* status. These leads can receive the SweetLife newsletter when it is sent.
 
-## Step 2: Creating a Static Marketing List by Copying the Members from a Dynamic Marketing List { .section}
+## Step 2: Creating a Static Marketing List by Copying the Members from a Dynamic Marketing List
 
 Suppose that you want to prepare an advertising letter with new juicers and send this letter to the current members of the dynamic marketing list that you have just created. To create a new static marketing list and copy the members from the dynamic marketing list, on the [Marketing Lists](CR_20_40_00.md) \(CR204000\) form, do the following:
 
@@ -74,7 +74,6 @@ Suppose that you want to prepare an advertising letter with new juicers and send
     2.  **List Name**: `Advertisement of new juicers`
 4.  Click **Create and Review**. The system closes the dialog box, adds the leads to the newly created static marketing list, and opens the list on the [Marketing Lists](CR_20_40_00.md) form, as shown on the following screenshot. Notice that the status of the newly created marketing list is *Inactive* by default.
 
-    ![](Images/activity_CRM_Mktg_Dynamic_Marketing_List_Copying_Members.png "A new static list with members copied from the dynamic marketing list")
 
 
 **Tip:** You can create a static marketing list by copying the members from a static marketing list as well.

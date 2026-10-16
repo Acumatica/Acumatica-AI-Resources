@@ -1,8 +1,8 @@
-# Customization Web API: publishEnd {#_3c488227-e436-4f16-b7f4-707912ce2e1d .concept}
+# Customization Web API: publishEnd
 
 You can check whether the publishing of customization projects has been completed in an Acumatica ERP instance.
 
-## HTTP Method and URL { .section}
+## HTTP Method and URL
 
 To check whether the publishing of customization projects has been completed in an Acumatica ERP instance, you use the `POST` HTTP method and the following URL.
 
@@ -12,19 +12,45 @@ POST http(s)://<Acumatica ERP Instance URL>/CustomizationApi/publishEnd
 
 You replace *&lt;Acumatica ERP instance URL&gt;* with the URL of your Acumatica ERP instance.
 
-## Request Body { .section}
+## Request Body
 
 You do not need to pass any data in the request body.
 
-## Response Body { .section}
+## Response Body
 
 The following table lists the fields that the system returns in the body of the response.
 
-|Field|Description|
-|-----|-----------|
-|`isCompleted`|A Boolean value that indicates \(if it is set to *true*\) that the publishing has been completed.|
-|`isFailed`|A Boolean value that indicates \(if it is set to *true*\) that the publishing has been completed with at least one error.|
-|`log`|An array of log records. Each element of the array has the following fields:
+<table id="_e6d1b0ab-812e-411c-8440-4a0bb60f8edb"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+`isCompleted`
+
+</td><td>
+
+A Boolean value that indicates \(if it is set to *true*\) that the publishing has been completed.
+
+</td></tr><tr><td>
+
+`isFailed`
+
+</td><td>
+
+A Boolean value that indicates \(if it is set to *true*\) that the publishing has been completed with at least one error.
+
+</td></tr><tr><td>
+
+`log`
+
+</td><td>
+
+An array of log records. Each element of the array has the following fields:
 
 -   `timestamp`: The date and time when the information about the performed operation was added to the log
 -   `logType`: The type of the log message, which can be one of the following:
@@ -34,9 +60,10 @@ The following table lists the fields that the system returns in the body of the 
     -   *error*
 -   `message`: The log message
 
-|
+</td></tr></tbody>
+</table>
 
-## Example { .section}
+## Example
 
 The following request shows an example of a check for the result of the publication of customization projects.
 
@@ -45,6 +72,7 @@ The following request shows an example of a check for the result of the publicat
 ```
 POST /<Acumatica ERP Instance URL>/CustomizationApi/PublishEnd HTTP/1.1
 Host: localhost
+Authorization: Bearer <access token>
 Content-Type: application/json
 ```
 
@@ -70,7 +98,7 @@ If the response is *200 OK*, it contains the body, which is shown in the followi
 }
 ```
 
-## Usage Notes { .section}
+## Usage Notes
 
 The publication of a customization project through the web API is implemented asynchronously. You should publish a customization project as follows:
 

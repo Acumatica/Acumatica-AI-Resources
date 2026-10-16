@@ -1,4 +1,4 @@
-# Purchases with Sales Taxes: Tax Amount Validation {#_b945e47c-7c21-4a69-99f2-c3022c28b1fe .concept}
+# Purchases with Sales Taxes: Tax Amount Validation
 
 According to legal rules and requirements, all amounts—such as total amount, tax amount, and taxable amount—of a document that you enter into the system must exactly match the corresponding amounts specified in the source \(original\) document received from the vendor. To help you ensure that correct tax amount is specified in the document that you enter in the system manually, Acumatica ERP provides you with a validation function. With this function, you can enter the control tax amount into a document, which the system validates.
 
@@ -13,7 +13,7 @@ With this check box selected, after you have added all the required detail lines
 
 If there is a discrepancy between the tax amount that you have entered in the **Tax Amount** box and the tax amount computed by the system \(that is shown in the **Tax Amount** column on the **Tax Details** tab\), the system does not allow you to process the document until you correct the tax amount. In that case, you correct the tax amount manually on the **Tax Details** tab.
 
-## Tax Amount Discrepancies {#section_pxj_fjv_vxb .section}
+## Tax Amount Discrepancies
 
 Some discrepancies can appear between the tax amount computed by the system on the document entry form and the tax amount specified in the original vendor document. These discrepancies may be caused due to rounding differences—for example, when the tax amount of the original document was calculated in another system in which the rounding rules are set up differently. The discrepancies can be minor differences in decimals, but nevertheless they should be corrected.
 
@@ -31,7 +31,7 @@ In that case, the GL transaction will look as shown in the following example.
 
 To account for the discrepancy amount, you need to specify the maximum amount of the difference that can appear due to rounding in the **Rounding Limit** box on the [General Ledger Preferences](GL_10_20_00.md) \(GL101000\) form. The system will validate this amount against the discrepancy amount, and if the discrepancy amount does not exceed the limit, the discrepancy amount will be posted to the GL accounts specified in the **Rounding Gain Account/Subaccount** box or the **Rounding Loss Account/Subaccount** box on the [General Ledger Preferences](GL_10_20_00.md) form.
 
-## Tax-Exclusive and Tax-Inclusive Amounts in Document Detail Lines {#section_uxj_fjv_vxb .section}
+## Tax-Exclusive and Tax-Inclusive Amounts in Document Detail Lines
 
 Before entering amounts in the detail lines of a document that you enter into the system, you must consider the type of amounts specified in the original vendor document. Depending on the business requirements of the applicable vendor, a document can contain in its detail lines amounts that are either tax-inclusive \(net\) or tax-exclusive \(gross\). In Acumatica ERP, you need to specify the tax calculation mode that the system should use during the validation process. The selected mode defines how the system will compute the tax and taxable amounts for the document.
 
@@ -54,7 +54,7 @@ For details on how default values work in the system, see [Vendors: Vendor Locat
 
 **Note:** If the tax zone of a vendor contains a withholding tax \([Withholding Taxes: General Information](../ImplementationGuide/Taxes_Configuring_WithholdingTax_GeneralInfo.md)\), the system automatically sets the tax calculation mode to *Gross* and makes the **Tax Calculation Mode** box unavailable for editing. If the tax zone of a vendor contains a use tax, the system automatically sets the tax calculation mode to *Net* in documents, and makes the **Tax Calculation Mode** box unavailable for editing.
 
-## One-Line Document and Multiline Document {#section_byj_fjv_vxb .section}
+## One-Line Document and Multiline Document
 
 To speed the process of entering data on a document entry form, the system suggests a possible amount in each line that you add. For example, when you add the first line, the system automatically inserts in the **Ext. Cost** column of the line the amount that you have entered in the amount validation box in the summary area of the document entry form.
 

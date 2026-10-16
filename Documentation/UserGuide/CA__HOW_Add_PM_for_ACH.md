@@ -1,4 +1,4 @@
-# To Add a Payment Method for ACH Payments \(Export Scenarios\) {#_03b95332-5391-44cb-bf7b-af3d867e1f09 .task}
+# To Add a Payment Method for ACH Payments \(Export Scenarios\)
 
 You use the [Payment Methods](CA_20_40_00.md) \(CA204000\) form to create a payment method to be used for Automated Clearing House \(ACH\) payments in one of the following ways:
 
@@ -10,11 +10,11 @@ This procedure describes how to manually create a payment method based on an exp
 
 **Note:** Alternatively, you can create a payment method based on the U.S. ACH plug-in. For details, see [To Add a Payment Method for the U.S. ACH Plug-In](CA__HOW_Add_PM_for_ACH_Plug-In.md).
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Review the cash accounts you have and decide which ones you are going to use as the source of payments to your vendors. You will specify these in Step 9 of the next section.
 
-## To Add a Payment Method for ACH Payments { .section}
+## To Add a Payment Method for ACH Payments
 
 To add a payment method that uses an export scenario, do the following:
 
@@ -39,17 +39,14 @@ To add a payment method that uses an export scenario, do the following:
     4.  Select the **Release Batch Payment Before Export** check box if you want to export ACH payment batches after they are released. If you want to export batches before release, leave this check box cleared.
     5.  In the **Payment Method Details** table, add the elements shown in the following screenshot, which will appear on the [Vendors](AP_30_30_00.md) \(AP303000\) form so users can enter the ACH credentials specific to the particular vendor.
 
-        ![](Images/ACH_Vendor_PM.png)
 
 11. On the **Remittance Settings** tab, add the elements shown in the following screenshots, which will appear on the [Cash Accounts](CA_20_20_00.md) \(CA202000\) form so users can enter your company's ACH credentials for each cash account.
 
     If you create a payment method to export payments to unbalanced file, add the following elements:
 
-    ![](Images/ACH_PM_Remittance_Info.png)
 
     If you create a payment method to export payments to balanced file, add the following elements:
 
-    ![](Images/FEDWIREBA_PM.png)
 
 12. On the form toolbar, click **Save**.
 

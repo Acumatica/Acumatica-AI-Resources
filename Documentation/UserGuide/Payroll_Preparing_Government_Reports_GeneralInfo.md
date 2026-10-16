@@ -1,16 +1,16 @@
-# Preparing Government Reports: General Information {#_80f1883e-4345-4b27-af1e-257a2616ce91 .concept}
+# Preparing Government Reports: General Information
 
 On the [Government Reporting](PR_50_40_00.md) \(PR504000\) form, you can choose on which company or branch you want to report on, the reporting period, and the state, and then select the report form that you want to submit. The report form opens on the Aatrix website where you need to log in to be able to edit and submit the report.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to prepare and electronically submit reports to the appropriate government body through the Aatrix website.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You use government reporting to fill the proper reporting forms or to gather the necessary data to be compliant with the law.
 
-## Preparation of Government Reports { .section}
+## Preparation of Government Reports
 
 In the Selection area of the [Government Reporting](PR_50_40_00.md) \(PR504000\) form, you can select the EIN on which you want to report, and then you can sort the forms shown in the table by state and reporting period or choose to show only federal forms.
 

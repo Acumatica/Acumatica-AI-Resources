@@ -1,10 +1,10 @@
-# Contract Management: To Upgrade a Contract {#_2c076112-ab88-42f8-83fd-e7c1da9ab498 .task}
+# Contract Management: To Upgrade a Contract
 
 In this activity, you will learn how to modify terms of the contract and activate the contract upgrade.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that on *3/1/2026*, the Unifruit LLC customer asks the SweetLife Fruits &amp; Jams company to deploy juicers in the newly opened restaurant. SweetLife supplies Unifruit with equipment for a juice production and provides deployment, maintenance support service, and consulting. A regular deployment contract includes such terms as a two–month contract span, the activation date as the starting point of the billing schedule, a monthly billing period, a recurring billing amount of $300, the ability to be renewed, a 10-day grace period, and the *CI00000001 \(Deployment of juicers\)* contract item.
 
@@ -14,7 +14,7 @@ According to the upgraded terms of the contract, when the contract is upgraded, 
 
 Acting as a sales manager, first you will create a new non-stock item and a contract item for the additional consulting service to define new terms of the contract. Then you will activate the contract upgrade.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -23,11 +23,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *UNIFRUIT \(Unifruit LLC\)* customer has been created.
 -   On the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, the *79000* expense account \(*Contract Expenses*\) and the *40800* \(*Contracts - Trainings*\) sales account have been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, you will create a new non-stock item and specify recurring settings for it. On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, you will then create a contract item for an additional consulting service. On the [Customer Contracts](CT_30_10_00.md) \(CT301000\) form, you will modify the contract and activate the contract upgrade.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
@@ -35,7 +35,7 @@ To prepare to perform the instructions of this activity, do the following:
 2.  Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as the sales manager David Chubb by using the *chubb* username and the *123* password.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *4/2/2026*. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating a Non-Stock Item {#section_eg5_vnz_jt .section}
+## Step 1: Creating a Non-Stock Item
 
 To create the non-stock item for the additional consulting service, proceed as follows:
 
@@ -58,7 +58,7 @@ To create the non-stock item for the additional consulting service, proceed as f
     -   **Sales Account**: *40800* \(*Contracts - Trainings*\)
 6.  On the form toolbar, click **Save** to save the non-stock item.
 
-## Step 2: Creating a Contract Item {#section_kyx_1lq_ls .section}
+## Step 2: Creating a Contract Item
 
 Now you will create a contract item for an additional contract service. You will then include this contract item in the existing deployment contract to modify it. To create a new contract item, do the following:
 
@@ -74,7 +74,7 @@ Now you will create a contract item for an additional contract service. You will
     -   **Recurring Pricing**: *Use Item Price*
 5.  On the form toolbar, click **Save**.
 
-## Step 3: Modifying the Contract Terms {#section_oyq_glq_ls .section}
+## Step 3: Modifying the Contract Terms
 
 To modify terms of the deployment contract for the Unifruit LLC customer, proceed as follows:
 
@@ -83,7 +83,6 @@ To modify terms of the deployment contract for the Unifruit LLC customer, procee
 3.  On the **Details** tab, add a new row to the table, and in the **Item Code** column, select *CI00000002 \(Additional consulting service\)*.
 4.  In the **Effective From** box, specify *4/2/2026*. This is the date when your company is going to start providing the additional services \(see the following screenshot\).
 
-    ![](Images/CustomerContractsUpgradeProcedure.png "Details tab during the upgrade procedure")
 
 5.  Click **Save** on the form toolbar.
 
@@ -91,7 +90,7 @@ Now you can activate the contract upgrade.
 
 **Attention:** Whether you are upgrading a contract, the process is performed in two stages: preparation and activation. During the preparation stage, while you are modifying the terms of the contract, the contract can be billed and services can be provided in accordance with the initial settings of the contract. The system starts using the settings you specify only after the contract upgrade has been activated.
 
-## Step 4: Activating the Contract Upgrade {#section_kjv_zrq_ls .section}
+## Step 4: Activating the Contract Upgrade
 
 On the [Customer Contracts](CT_30_10_00.md) \(CT301000\) form, open the *0000000001 \(Unifruit - Deployment of juicers\)* contract, and do the following:
 
@@ -105,7 +104,6 @@ On the [Customer Contracts](CT_30_10_00.md) \(CT301000\) form, open the *0000000
 
     The details of this invoice \(see below\) include a newly added service in the amount of $400. In the Summary area of the invoice, review the value in the **Detail Total** box, which is $77.42 because the company has rendered an additional service to the Unifruit LLC customer from *4/2/2026* through *4/8/2026* after activation of the upgrade.
 
-    ![](Images/CustomerContractsInvoiceAfterActivatedUpgrade.png "Invoice generated after activating of the contract upgrade")
 
 
 Starting on the next billing date \(*4/8/2026*\), recurring invoices will be issued according to the contract billing schedule for upgraded services in the amount of $700 \($300 + $400\).

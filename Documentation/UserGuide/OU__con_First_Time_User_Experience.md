@@ -1,4 +1,4 @@
-# First-Time User Experience {#_aae2adce-5b80-4675-b3bf-0dde750a8afc .concept}
+# First-Time User Experience
 
 During the very first run of the Acumatica add-in on your device, you are redirected to the first-time user experience screen. This screen may appear in both Outlook on the Web and Outlook Client.
 

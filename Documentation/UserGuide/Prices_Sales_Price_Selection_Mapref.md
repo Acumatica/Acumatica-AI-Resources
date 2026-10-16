@@ -1,4 +1,4 @@
-# Exploring Automatic Price Selection in Documents {#_5884470f-dc8b-47c4-aef4-4a2aeacf5503 .concept}
+# Exploring Automatic Price Selection in Documents
 
 In this topic, you will learn how the system selects the appropriate price when a user creates a sales or AR document.
 

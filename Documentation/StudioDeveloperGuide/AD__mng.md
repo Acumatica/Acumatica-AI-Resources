@@ -1,4 +1,4 @@
-# Accessing Data {#_cc602399-bac4-46bf-b23c-79e86251c521 .concept}
+# Accessing Data
 
 The topics in this part of the guide explain how an application based on Acumatica Framework can access data from the application database and the data stored in the session.
 

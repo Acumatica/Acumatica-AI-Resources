@@ -1,17 +1,21 @@
-# Managing Pivot Tables {#_39a5abfe-16d3-4438-8fa7-b5a7d645f49a .concept}
+# Managing Inquiry Result Data Views
 
-In Acumatica ERP, you can compose pivot tables based on the data of generic inquiry results. Pivot tables are a technique in data processing that you can use to reorganize and summarize data in a generic inquiry, to view this data from different perspectives. A pivot table can automatically sort, count total, or present the average of the data obtained in a generic inquiry, displaying the results in a separate table. You can configure and change the structure of pivot tables by dragging their fields.
+In Acumatica ERP, inquiry results can be displayed using different data representations: table, pivot table, or grouped table. Users can create and save multiple data views based on these representations and switch among them.
 
-In this part of the guide, you will learn how to create and configure pivot tables in Acumatica ERP.
+In this part of the guide, you will learn how to select, create, configure, and manage data views for generic inquiries.
 
--   **[Pivot Tables: General Information](../UserGuide/Pivot_Tables_GeneralInfo.md)**  
+-   **[Data Views: General Information](../UserGuide/Pivot_Tables_GeneralInfo.md)**  
 
--   **[Pivot Tables: Creation of a Pivot Table](../UserGuide/Pivot_Tables_Pivot_As_FilterTab.md)**  
+-   **[Data Views: Creating and Configuring Pivot Tables](../UserGuide/Pivot_Tables_Creating.md)**  
 
--   **[Pivot Tables: Data Presentation](../UserGuide/Pivot_Tables_DataPresentation.md)**  
+-   **[Data Views: Creating and Configuring Grouped Tables](../UserGuide/Grouped_Tables_Creating.md)**  
 
--   **[Pivot Tables: To Create a Pivot Table](../UserGuide/Pivot_Tables_Activity_CreatingAsTab.md)**  
+-   **[Data Views: Format Options for Fields](../UserGuide/Pivot_Tables_DataPresentation.md)**  
 
--   **[Pivot Tables: To Delete a Pivot Table](../UserGuide/SM__how_Delete_Pivot_Table.md)**  
+-   **[Data Views: To Create and Configure a Pivot Table View](../UserGuide/Pivot_Tables_Activity_CreatingAsTab.md)**  
+
+-   **[Data Views: To Create and Configure a Grouped Table View](../UserGuide/Grouped_Tables_Activity_Creating.md)**  
+
+-   **[Data Views: To Delete a Data View](../UserGuide/SM__how_Delete_Pivot_Table.md)**  
 
 

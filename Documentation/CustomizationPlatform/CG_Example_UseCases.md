@@ -1,4 +1,4 @@
-# Use Cases {#_00c6c358-c01c-4c11-8bc7-cd7e22410ede .concept}
+# Use Cases
 
 The topics of this section present common scenarios of customizing Acumatica ERP. Each topic provides a description of a use case, details on its possible implementation, and links to source code of Acumatica ERP with examples of the same use case.
 

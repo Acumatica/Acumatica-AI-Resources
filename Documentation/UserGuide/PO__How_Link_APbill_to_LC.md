@@ -1,8 +1,8 @@
-# To Link a Bill Line to Landed Cost Document {#_70440a4e-ad41-45d6-a8cc-751224e9063b .task}
+# To Link a Bill Line to Landed Cost Document
 
 To link a particular line of an existing Accounts Payable bill to a line of landed cost document, you use the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 
-## To Link an Accounts Payable Bill to Landed Cost Document { .section}
+## To Link an Accounts Payable Bill to Landed Cost Document
 
 1.  Open the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 2.  In the **Type** box, select *Bill*, and select the needed bill by its reference number.
@@ -11,7 +11,7 @@ To link a particular line of an existing Accounts Payable bill to a line of land
 5.  Optional: Correct the **Ext. Cost** of the bill line, if needed.
 6.  Click **Save** to save your changes.
 
-## Notes About the Procedure { .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

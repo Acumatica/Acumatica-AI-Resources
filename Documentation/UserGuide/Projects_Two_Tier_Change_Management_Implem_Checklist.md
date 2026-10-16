@@ -1,32 +1,85 @@
-# Change Requests: Implementation Checklist {#_9270d45a-8a6b-a1b1-8a73-3341abc3b8a6 .concept}
+# Change Requests: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for the processing of change requests, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you initially create change requests, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
-|Form|Tasks to Perform|
-|----|----------------|
-|[Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form|Make sure that the *Projects*, *Change Orders*, and *Change Requests* features are enabled.|
-|[Projects Preferences](PM_10_10_00.md) \(PM101000\) form|Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see [Basic Project Configuration: General Information](../ImplementationGuide/config_Project_Basic_GeneralInfo.md).Also, make sure that the default markups are specified on the **General** tab \(**Markups** section\). For more information about configuring markups, see [Change Requests: Configuration of Markups](Projects_Two_Tier_Change_Management_Markups.md).
+<table id="_75f5a845-9a95-409c-9ffd-7c022ec672dc"><thead><tr><th>
 
-|
-|[Change Order Classes](PM_20_30_00.md) \(PM203000\) form|Make sure that all needed change order classes have been configured and the **Two-Tier Change Management** check box has been selected for these classes in the Summary area.|
-|[Account Groups](PM_20_10_00.md) \(PM201000\) form|Make sure that the default line markup is specified for all the needed account groups of the *Expense* type in the **Default Line Markup \(%\)** box on the **Change Request Settings** tab.|
-|[Non-Stock Items](IN_20_20_00.md) \(IN202000\) form|Make sure that the default price markup is specified for all the needed inventory items in the **Markup %** box on the **Price/Cost** tab \(**Price Management** section\).|
-|[Stock Items](IN_20_25_00.md) \(IN202500\) form|Make sure that the default price markup is specified for all the needed inventory items in the **Markup %** box on the **Price/Cost** tab \(**Price Management** section\).|
-|[Projects](PM_30_10_00.md) \(PM301000\) form|Make sure that the project has been created, as described in [Project Creation and Processing: General Information](Projects_Process_GeneralInfo.md).
+Form
+
+</th><th>
+
+Tasks to Perform
+
+</th></tr></thead><tbody><tr><td>
+
+[Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form
+
+</td><td>
+
+Make sure that the *Projects*, *Change Orders*, and *Change Requests* features are enabled.
+
+</td></tr><tr><td>
+
+[Projects Preferences](PM_10_10_00.md) \(PM101000\) form
+
+</td><td>
+
+Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see [Basic Project Configuration: General Information](../ImplementationGuide/config_Project_Basic_GeneralInfo.md).Also, make sure that the default markups are specified on the **General** tab \(**Markups** section\). For more information about configuring markups, see [Change Requests: Configuration of Markups](Projects_Two_Tier_Change_Management_Markups.md).
+
+</td></tr><tr><td>
+
+[Change Order Classes](PM_20_30_00.md) \(PM203000\) form
+
+</td><td>
+
+Make sure that all needed change order classes have been configured and the **Two-Tier Change Management** check box has been selected for these classes in the Summary area.
+
+</td></tr><tr><td>
+
+[Account Groups](PM_20_10_00.md) \(PM201000\) form
+
+</td><td>
+
+Make sure that the default line markup is specified for all the needed account groups of the *Expense* type in the **Default Line Markup \(%\)** box on the **Change Request Settings** tab.
+
+</td></tr><tr><td>
+
+[Non-Stock Items](IN_20_20_00.md) \(IN202000\) form
+
+</td><td>
+
+Make sure that the default price markup is specified for all the needed inventory items in the **Markup %** box on the **Price/Cost** tab \(**Price Management** section\).
+
+</td></tr><tr><td>
+
+[Stock Items](IN_20_25_00.md) \(IN202500\) form
+
+</td><td>
+
+Make sure that the default price markup is specified for all the needed inventory items in the **Markup %** box on the **Price/Cost** tab \(**Price Management** section\).
+
+</td></tr><tr><td>
+
+[Projects](PM_30_10_00.md) \(PM301000\) form
+
+</td><td>
+
+Make sure that the project has been created, as described in [Project Creation and Processing: General Information](Projects_Process_GeneralInfo.md).
 
  Also, make sure that the **Change Order Workflow** check box is selected on the **Summary** tab \(**Project Properties** section\) and the document markups are configured properly on the **Defaults** tab \(**Document Markups** table\).
 
-|
+</td></tr></tbody>
+</table>
 
-## Project Commitment Checklist { .section}
+## Project Commitment Checklist
 
 If you want to use the functionality of change requests to manage changes in commitments, make sure that all the needed features have been enabled and settings have been specified, as described in [Committed Costs: Implementation Checklist](Projects_Commitments_Implem_Checklist.md).
 
-## Other Settings That Affect the Workflow { .section}
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of managing changes in projects by specifying additional settings as follows:
 
@@ -42,7 +95,7 @@ You can affect the workflow of managing changes in projects by specifying additi
 
 With these settings specified, users in your company can process change requests quickly and accurately with a minimum of manual actions.
 
-## Validation of Configuration { .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that you process a change request by performing instructions similar to those described in [Change Requests: Process Activity](Projects_Two_Tier_Change_Management_Process_Activity.md).
 

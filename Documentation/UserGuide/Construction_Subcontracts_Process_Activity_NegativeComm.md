@@ -1,16 +1,16 @@
-# Subcontracts: To Update a Negative Line in a Subcontract {#_1d5e819d-e3db-4496-a89c-12e0841a8b38 .task}
+# Subcontracts: To Update a Negative Line in a Subcontract
 
 In this activity, you will learn how you can update a negative line in a subcontract with a change order.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_i2l_mxc_tpb .section}
+## Story
 
 Suppose that on *3/22/2026*, the ToadGreen company hires a subcontractor, Standard Hardware Company, to perform a part of work for the hotel that is being built by ToadGreen. According to contract, Standard Hardware Company will install the watering system for the hotel and the price of performed work will be $450,000. The subcontractor agrees to provide the discount for the subcontract in the amount of $1,500.
 
 Later, because of minor scheduling issues, Standard Hardware Company has agreed to increase the discount amount to $1,600. Acting as the construction project manager, you will process all the needed documents in the system.
 
-## Configuration Overview {#section_qkw_q4s_dnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -19,11 +19,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Projects](PM_30_10_00.md#) \(PM301000\) form, the *HOTEL* project has been created. On the **Summary** tab, the **Change Order Workflow** check box is selected.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *SUBCONTR* non-stock item, which represents the work performed by subcontractors, has been created.
 
-## Process Overview {#section_a35_f1d_tpb .section}
+## Process Overview
 
 To record the work performed by a subcontractor for the project, you will create a subcontract document on the [Subcontracts](SC_30_10_00.md) \(SC301000\) form. Then on the [Change Orders](PM_30_80_00.md) \(PM308000\) form, you will create and process a change order with the negative line for this subcontract. On the [Commitments](PM_30_60_00.md) \(PM306000\) form, you will review the resulting commitments that the system has created based on the subcontract.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
@@ -32,7 +32,7 @@ To prepare to perform the instructions of this activity, do the following:
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *3/22/2026*. If a different date is displayed, click the Business Date menu button, and select *3/22/2026* on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 4.  Open the [Projects Preferences](PM_10_10_00.md) \(PM101000\) form, and on the **General** tab \(**General Settings** section\), make sure the **Internal Cost Commitment Tracking** check box is selected.
 
-## Step 1: Entering a Subcontract {#section_anp_w1d_tpb .section}
+## Step 1: Entering a Subcontract
 
 To create a subcontract, do the following:
 
@@ -53,7 +53,7 @@ To create a subcontract, do the following:
 5.  On the form toolbar, click **Remove Hold** to assign the subcontract the *Open* status. The system creates commitments to the project based on the subcontract lines.
 6.  On the [Projects](PM_30_10_00.md#) \(PM301000\) form, open the *HOTEL* project and review the cost budget of the project. On the **Cost Budget** tab, make sure the budget line with the *02-510* cost code has appeared in the cost budget, and notice that the committed open amount for the lines equals the amount of the subcontract that you have processed \($448,500\). The original committed values of the line equals the revised committed values.
 
-## Step 2: Processing Changes to the Subcontract {#section_yr2_12n_5pb .section}
+## Step 2: Processing Changes to the Subcontract
 
 To change the project commitments by processing a change order to subcontract, while you are still viewing the [Projects](PM_30_10_00.md) \(PM301000\) form, do the following:
 
@@ -74,7 +74,6 @@ To change the project commitments by processing a change order to subcontract, w
 
     The **Commitment Change Total** in the Summary area must be equal to -$100, as shown below.
 
-    ![](Images/activity_Construction_Subcontracts_Process_Activity_NegativeComm.png "Changes to project commitments")
 
 7.  On the form toolbar, click **Remove Hold** to assign the change order the *Open* status, and then click **Release** to release the change order.
 8.  On the [Subcontracts](SC_30_10_00.md) \(SC301000\) form, open the subcontract that you have created earlier in this activity, and on the **Details** tab, review the subcontract lines. Notice that the **Ext. Cost** of the line with the *Discount on installation* description is now *-1,600*. In the Summary area, notice that the total amount of subcontract has been adjusted and is now *$448,400.00*.

@@ -1,4 +1,4 @@
-# Creating Employee Payroll Classes {#_44e8dc2d-a597-461c-8622-fd6bd619f013 .concept}
+# Creating Employee Payroll Classes
 
 This chapter describes how you create and set up employee payroll classes.
 

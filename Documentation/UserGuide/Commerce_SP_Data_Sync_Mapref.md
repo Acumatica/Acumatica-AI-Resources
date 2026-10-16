@@ -1,4 +1,4 @@
-# Overview of Data Synchronization {#_3f65e47d-9cac-43be-9139-5dc968caa82e .concept}
+# Overview of Data Synchronization
 
 In this chapter, you will learn how the synchronization of data between Acumatica ERP and Shopify works.
 

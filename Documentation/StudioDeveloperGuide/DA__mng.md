@@ -1,4 +1,4 @@
-# Designing the Application {#_7e631d16-e6c2-4d16-bc39-10d2d6780110 .concept}
+# Designing the Application
 
 During the development of Acumatica Framework-based applications, you have to perform the following steps of application design:
 

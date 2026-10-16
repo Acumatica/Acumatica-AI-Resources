@@ -1,8 +1,8 @@
-# To Exclude Strings from Translation {#_94050b82-52db-44fa-b485-4c0d66014a0c .task}
+# To Exclude Strings from Translation
 
 In Acumatica ERP, you can exclude from the translation process strings that do not need to be translated by using the [Translation Dictionaries](SM_20_05_40.md) \(SM200540\) form, as described in the procedure below. For more information, see [Translation Process](SM__con_Translation_Process.md).
 
-## To Exclude Strings from Translation { .section}
+## To Exclude Strings from Translation
 
 1.  Open the [Translation Dictionaries](SM_20_05_40.md) \(SM200540\) form.
 2.  In the **Language** box, select the check boxes for the language or languages to which you want to translate the strings.

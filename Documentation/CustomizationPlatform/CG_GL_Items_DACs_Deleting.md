@@ -1,4 +1,4 @@
-# To Delete a DAC Item from a Project {#_f3606f06-f86f-425e-aae0-71c95fd45bc6 .concept}
+# To Delete a DAC Item from a Project
 
 To remove changes to an existing data access class from a project, perform the following actions:
 

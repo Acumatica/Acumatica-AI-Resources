@@ -1,4 +1,4 @@
-# Assigning Opportunities to Owners and Workgroups {#_6175f9f1-d9d3-47df-85a8-f9d4cae0e05e .concept}
+# Assigning Opportunities to Owners and Workgroups
 
 In this chapter, you will find information about assigning opportunities to owners and workgroups.
 

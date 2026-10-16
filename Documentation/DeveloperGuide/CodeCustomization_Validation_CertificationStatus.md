@@ -1,10 +1,10 @@
-# Validation of Customization Projects: Certification Status of Projects {#_18ac1eee-694c-4993-8517-c69bb6c3913c .concept}
+# Validation of Customization Projects: Certification Status of Projects
 
 If a customization project doesn’t pass technical validation, it may negatively affect the performance of Acumatica ERP. To prevent this performance degradation, the system verifies the certification status of the customization projects that you create or upload.
 
 **Attention:** This functionality is available for only licensed Acumatica ERP instances and is turned off by default. To use it, contact your Acumatica support provider.
 
-## Validating the Certification Status of Customization Projects { .section}
+## Validating the Certification Status of Customization Projects
 
 To validate the certification status of customization projects, you perform the following steps:
 
@@ -19,7 +19,7 @@ Each customization project has one of these certification statuses in the Acumat
 -   *Certified*: The project has been imported and is available in the database with the certified customization projects.
 -   *Not Certified*: The project has been imported but isn’t available in the database with the certified customization projects.
 -   *Not Verified*: The project has been:
-    -   Uploaded before the upgrade to 2026 R1
+    -   Uploaded before the upgrade to 2026 R2
     -   Created manually
     -   Certified—but then a customizer modified it
 -   *Not Certified for Current Version*: The project has been imported and is available in the database with the certified customization projects. However, it was certified for a different major version than the major version of the current Acumatica ERP instance.

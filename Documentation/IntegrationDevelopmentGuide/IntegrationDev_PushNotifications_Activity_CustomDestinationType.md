@@ -1,16 +1,16 @@
-# Push Notifications: To Create a Custom Destination Type {#_2cdef9b1-d4ef-48b4-8a92-093e7ea39552 .task}
+# Push Notifications: To Create a Custom Destination Type
 
 The following activity shows you how to create a custom destination type for push notifications.
 
-## Story { .section}
+## Story
 
 Suppose that predefined types of push notification destinations that are available in Acumatica ERP \(which are webhook, message queue, SignalR hub, and commerce push destination\) do not satisfy the requirements of your integration application. You need to create a custom type in code.
 
-## Process Overview { .section}
+## Process Overview
 
 In a project of your Acumatica ERP extension library, you will define a class that implements the [PX.PushNotifications.NotificationSenders.IPushNotificationSender](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=d5661882-b157-f3a5-9e18-3419037685d7) interface and a class that implements the [PX.PushNotifications.NotificationSenders.IPushNotificationSenderFactory](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=aa343e77-bff3-8643-6545-b0877a71b910) interface.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -18,7 +18,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  Create a customization project, as specified in the [Customization Projects: To Create a Customization Project](../CustomizationPlatform/CustomizationProjects_GettingStarted_Activity_CreateProject.md) prerequisite activity.
 3.  Create an extension library, as described in the [To Create an Extension Library](../CustomizationPlatform/cg_platform_tocreateextensionlib.md) prerequisite activity.
 
-## Step: Creating a Custom Destination Type { .section}
+## Step: Creating a Custom Destination Type
 
 To create a custom destination type, do the following:
 

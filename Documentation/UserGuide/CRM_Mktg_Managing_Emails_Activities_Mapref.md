@@ -1,4 +1,4 @@
-# Managing Emails and Activities {#_ea2ee26d-d453-4e48-8569-2e6dca22198b .concept}
+# Managing Emails and Activities
 
 In this chapter, you will find information about managing emails, activities, tasks, and events in Acumatica ERP, while tracking communication with your leads, contacts, prospects, and existing customers.
 

@@ -1,4 +1,4 @@
-# To Delete a Child UI Element {#_36ecc137-64ed-4252-be08-8263522dc60a .concept}
+# To Delete a Child UI Element
 
 You can delete a child UI element from a container. To do this, perform the following actions:
 
@@ -7,7 +7,6 @@ You can delete a child UI element from a container. To do this, perform the foll
 3.  Select the UI element to be deleted.
 4.  On the toolbar of the Control Tree, click **Remove &gt; Remove**, as the following screenshot shows.
 
-    ![](images/CG_GL_UI_PXForm_DeleteControl.png "Deleting an UI element")
 
     The platform deletes all child elements of the deleted object.
 

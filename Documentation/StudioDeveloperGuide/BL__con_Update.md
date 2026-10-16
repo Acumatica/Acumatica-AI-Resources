@@ -1,4 +1,4 @@
-# Update of a Data Record {#_d648f7e1-6680-4252-9a41-2ed03e48ca0a .concept}
+# Update of a Data Record
 
 When you modify a data record in code, you should update the data record in the cache by calling the Update\(\) method of the data view or cache. When the user modifies data fields in the UI and the modifications are committed to the server, the Update\(\) method is called automatically.
 

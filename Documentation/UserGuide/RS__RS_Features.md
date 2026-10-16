@@ -1,4 +1,4 @@
-# Overview of Row-Level Security {#_749f774f-720d-4fcb-9c48-4df263bc1bd6 .concept}
+# Overview of Row-Level Security
 
 Acumatica ERP implements a role-based, task-oriented approach to security. You assign roles to users and give the roles appropriate access rights to the system resources—such as modules, specific forms, form elements, and toolbar buttons—that the users need to perform their work tasks. For more information about user roles, see [Configuring User Roles](User_Roles_Mapref.md).
 
@@ -9,7 +9,7 @@ To give your organization the ability to apply more complex security policies, A
 
 In the sections of this topic, you can find brief information on restriction groups in general, types of restriction groups, and common usage scenarios for restriction groups.
 
-## Restriction Groups { .section}
+## Restriction Groups
 
 You can use restriction groups to control the visibility of system entities to employees of your organization. For more information about restriction groups, see [Restriction Groups in Acumatica ERP](SM__con_Overview_of_Restriction_Groups.md).
 
@@ -22,11 +22,11 @@ Your work with restriction groups includes the following tasks:
 
 For details on all operations with restriction groups, see [Operations with Restriction Groups](RS__con_Operations_Restriction_Groups.md).
 
-## Types of Restriction Groups { .section}
+## Types of Restriction Groups
 
 Acumatica ERP provides two basic types of restriction groups—A and B. Restriction groups of both types can limit the visibility of system entities in a direct way \(types *A* and *B*\) and an inverse way \(types *A Inverse* and *B Inverse*\). The differences between *A* and *B* and between *A Inverse* and *B Inverse* are in how these groups work if the same entity is added to multiple groups. For details, see [Types of Restriction Groups](SM__con_Types_of_Restriction_Groups.md).
 
-## Combinations of Restriction-Group Entities { .section}
+## Combinations of Restriction-Group Entities
 
 Acumatica ERP supports a variety of scenarios of configuring the visibility of entities within the system. With the most common scenarios, you can create restriction groups that include the following system entities:
 

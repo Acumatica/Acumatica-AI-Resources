@@ -1,4 +1,4 @@
-# Interbranch Account Mapping {#_3ed4a109-0f5b-4b10-8710-6cb0ce3f788a .concept}
+# Interbranch Account Mapping
 
 When an organization consists of multiple companies or branches, it often has documents and transactions that involve different companies or branches. It is necessary to set up the proper processing of interbranch transactions to eliminate the risk of balances being calculated incorrectly.
 

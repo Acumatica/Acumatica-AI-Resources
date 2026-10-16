@@ -1,4 +1,4 @@
-# To Navigate to the Wiki Form {#_61ccc86b-386d-44e8-8f9c-87a6613ed84e .concept}
+# To Navigate to the Wiki Form
 
 You might need to add a new wiki or edit an existing one in Acumatica ERP during customization. To manage wikis in Acumatica ERP, you use the [Wiki](../UserGuide/SM_20_20_05.md) \(SM202005\) form.
 

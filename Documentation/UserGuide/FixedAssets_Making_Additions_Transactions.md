@@ -1,8 +1,8 @@
-# Additions to Assets: Generated Transactions {#_5685c1cf-f9d2-4678-85af-fa0e577cba7a .concept}
+# Additions to Assets: Generated Transactions
 
 As you make an addition to an asset, the system creates *Purchasing+* and *Reconciliation+* transactions. To update the cost of the fixed asset, the system generates the GL transaction described in the following sections.
 
-## Transactions Generated for An Addition to a Fixed Asset {#section_wld_ljv_vxb .section}
+## Transactions Generated for An Addition to a Fixed Asset
 
 When you release a transaction that records an addition to an asset, the system generates the following general ledger transaction.
 

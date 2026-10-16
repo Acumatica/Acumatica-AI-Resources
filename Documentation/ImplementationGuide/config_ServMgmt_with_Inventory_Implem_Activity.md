@@ -1,14 +1,14 @@
-# Basic Service Management Configuration: Implementation Activity {#_41c105f2-33db-406c-bc24-a15ff54d3e4e .task}
+# Basic Service Management Configuration: Implementation Activity
 
 In this implementation activity, you will learn how to enable the *Service Management* feature and review the basic service management settings.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Imagine you are an administrative user of the SweetLife Service and Equipment Sales Center. Your task is to configure the essential functionality needed to prepare the system for processing service orders and for scheduling and managing appointments.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -18,7 +18,7 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   On the [Work Calendar](../UserGuide/CS_20_90_00.md) \(CS209000\) form, the *MAIN* work calendar has been created to reflect the work days and times, and the unpaid break time of staff members.
 -   On the [Service Management Preferences](../UserGuide/FS_10_01_00.md) \(FS100100\) form, the needed numbering sequences and work calendar have been specified.
 
-## Process Overview { .section}
+## Process Overview
 
 In this lesson, you will configure the basic service management settings by performing the following tasks:
 
@@ -27,11 +27,11 @@ In this lesson, you will configure the basic service management settings by perf
 3.  On the [Work Calendar](../UserGuide/CS_20_90_00.md) \(CS209000\) form, you will review the calendar with the staff members' work days and work times for each day.
 4.  On the [Service Management Preferences](../UserGuide/FS_10_01_00.md) \(FS100100\) form, you will ensure that the numbering sequences and the work calendar are specified.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start, launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. Use the *gibbs* username and *123* password to sign in as a system administrator.
 
-## Step 1: Enabling the Service Management Feature { .section}
+## Step 1: Enabling the Service Management Feature
 
 To enable the *Service Management* feature, do the following:
 
@@ -40,7 +40,7 @@ To enable the *Service Management* feature, do the following:
 3.  Select the **Service Management** check box.
 4.  On the form toolbar, click **Enable**. This saves your changes and enables the currently selected features.
 
-## Step 2: Reviewing Numbering Sequences {#section_xpq_4rx_vtb .section}
+## Step 2: Reviewing Numbering Sequences
 
 To review the numbering sequences that have been created for service management batches, do the following:
 
@@ -61,7 +61,7 @@ To review the numbering sequences that have been created for service management 
 
 In Step 4 of this activity, you will make sure that the *FSPOST - SM Posting Batches* and *FSSCHEDULE - Staff Members' Schedules* sequences are specified on the [Service Management Preferences](../UserGuide/FS_10_01_00.md) \(FS100100\) form. You will specify the *FSSO - Service Orders* sequence on the [Service Order Types](../UserGuide/FS_20_23_00.md) \(FS202300\) form when you create the service order types.
 
-## Step 3: Reviewing the Work Calendar {#section_ypq_4rx_vtb .section}
+## Step 3: Reviewing the Work Calendar
 
 To review the work calendar, do the following:
 
@@ -74,7 +74,7 @@ To review the work calendar, do the following:
 4.  In the boxes of the **Start Time** column, ensure that *10:00 AM* is specified for all the selected days of the week.
 5.  In the boxes of the **End Time** column, ensure that *6:00 PM* is specified for all the selected days of the week.
 
-## Step 4: Reviewing the Service Management Preferences { .section}
+## Step 4: Reviewing the Service Management Preferences
 
 To make it possible for the service management functionality to be used, the numbering sequences and work calendar need to be specified in the service management preferences. Do the following:
 
@@ -84,7 +84,6 @@ To make it possible for the service management functionality to be used, the num
     -   **Staff Schedule Numbering Sequence**: *FSSCHEDULE - Staff Members' Schedules* \(Item 2\)
 3.  On the **Calendars &amp; Maps** tab \(Item 3\), in the **Calendar Settings** section, make sure that *MAIN - Main Calendar* is selected in the **Work Calendar** box.
 
-![](Images/ServMgmt_Service_Management_Preferences_2.png "Service management settings")
 
 If these configuration steps have been performed, the service management forms are available, and the system is set up for the use of the service management capabilities.
 

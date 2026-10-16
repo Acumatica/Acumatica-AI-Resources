@@ -1,8 +1,8 @@
-# Correction of a Bill for a Subcontract: Generated Transactions {#_7eab6d7a-fc3f-4044-a98b-1b86a5138cb4 .concept}
+# Correction of a Bill for a Subcontract: Generated Transactions
 
 To correct billed amounts and quantities for a subcontract, you create and process a debit adjustment to decrease the balance of a vendor in the system. When the debit adjustment is released, the system generates the transactions and updates the project budget as described in the following sections.
 
-## General Ledger Transactions Generated on Debit Adjustment Release {#section_j5x_by4_xnb .section}
+## General Ledger Transactions Generated on Debit Adjustment Release
 
 On release of a debit adjustment with one subcontract line, a batch of the following general ledger transactions is generated.
 
@@ -13,7 +13,7 @@ On release of a debit adjustment with one subcontract line, a batch of the follo
 
 The batch created on release of the debit adjustment is numbered in accordance with the numbering sequence selected in the **Batch Numbering Sequence** box on the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form. The batch number is specified on the **Financial** tab of the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 
-## Project Transaction Generated on Debit Adjustment Release {#_7f9dc79b-95dc-460d-b73a-31c065929f39 .section}
+## Project Transaction Generated on Debit Adjustment Release
 
 On release of a batch created on release of the debit adjustment, the system generates the project transaction shown in the following table.
 
@@ -23,7 +23,7 @@ On release of a batch created on release of the debit adjustment, the system gen
 
 You can review the created project transaction on the [Project Transaction Details](PM_40_10_00.md) \(PM401000\) form. In the Selection area of this form, you select the project in the **Project** box. In the table, you can find the project transaction with the *Debit Adjustment* type in the **Orig. Doc. Type** column and the reference number of the debit adjustment in the **Orig. Doc. Nbr.** column.
 
-## Update of the Project Budget Lines {#section_u3s_vjx_xnb .section}
+## Update of the Project Budget Lines
 
 On release of the debit adjustment created for the subcontract, the system updates the corresponding project budget values as follows in the columns on the **Cost Budget** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form:
 

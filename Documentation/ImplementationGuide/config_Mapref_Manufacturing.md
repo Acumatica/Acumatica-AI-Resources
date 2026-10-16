@@ -1,4 +1,4 @@
-# Implementing Manufacturing {#_95dfc75e-ea99-4c0c-b581-9f80d66a9b75 .concept}
+# Implementing Manufacturing
 
 This part of the guide describes the minimum required configuration of Acumatica ERP Manufacturing Edition.
 

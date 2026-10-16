@@ -1,8 +1,8 @@
-# To Attach a File to a Record {#_286cb1ea-a5df-48c8-a093-3ace3414b842 .task}
+# To Attach a File to a Record
 
 You can attach a file, such as a scanned document with a signature, to a record \(that is, an entity or a document created on a data entry form\), as described in this topic.
 
-## To Attach a File to a Record { .section}
+## To Attach a File to a Record
 
 To attach a file to a record, use one of the following methods:
 
@@ -16,6 +16,4 @@ To attach a file to a record, use one of the following methods:
     4.  Select the file you want to attach, click **Open**, and then click **Upload**.
 
 The system attaches the file to the record and increments the counter of files attached to the selected record.
-
-**Parent topic:**[Using Forms](../InterfaceGuide/Forms__con_Working_with_forms.md)
 

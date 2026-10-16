@@ -1,4 +1,4 @@
-# To Delete a System Locale from a Project {#_f77ced1d-bbf7-4a1f-b910-d1c61b689d01 .concept}
+# To Delete a System Locale from a Project
 
 To remove a *Locale* item from a project, perform the following actions:
 

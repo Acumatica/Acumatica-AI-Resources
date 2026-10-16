@@ -1,4 +1,4 @@
-# Tree: Markup of a Tree Node Using HTML {#_0ccd17e7-b2a5-4509-9f73-bda7052b6baf .concept}
+# Tree: Markup of a Tree Node Using HTML
 
 You can mark up the text of a node using HTML. For that purpose, you need to do the following:
 
@@ -7,7 +7,6 @@ You can mark up the text of a node using HTML. For that purpose, you need to do 
 
 For example, suppose that in a tree node, you need to display part of the text in italics, as shown in the following screenshot.
 
-![](Images/UIDevRef_Tree_HTML.png "A tree node with HTML markup")
 
 For that purpose, you need to generate the following text of the node in backend.
 

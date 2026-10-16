@@ -1,4 +1,4 @@
-# To Limit API Connections of a Particular Application {#_963b7051-f415-4531-8e6d-d3c9df46dc65 .task}
+# To Limit API Connections of a Particular Application
 
 On the [Users](../UserGuide/SM_20_10_10.md) \(SM201010\) form, you can specify a limit for the number of sessions used by a particular integrated application.
 
@@ -6,7 +6,7 @@ On the [Users](../UserGuide/SM_20_10_10.md) \(SM201010\) form, you can specify a
 
 If a limit is specified on the [Users](../UserGuide/SM_20_10_10.md) form for a user account associated with an integrated application, this limit overrides any limit specified on the [User Types](../UserGuide/EP_20_25_00.md) form. If no limit is specified on the [Users](../UserGuide/SM_20_10_10.md) form for a user account associated with an integration application, any limit specified on the [User Types](../UserGuide/EP_20_25_00.md) form is used.
 
-## To Limit API Connections of a Particular Application { .section}
+## To Limit API Connections of a Particular Application
 
 1.  Open the [Users](../UserGuide/SM_20_10_10.md) \(SM201010\) form.
 2.  For the user account that the integration application uses, type the account's maximum number of sessions in the **Max. Number of Concurrent Logins** box.

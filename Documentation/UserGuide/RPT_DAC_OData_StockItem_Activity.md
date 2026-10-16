@@ -1,18 +1,18 @@
-# DAC-Based OData: To Retrieve Data by Using the $expand, $select, and $filter Parameters {#_81a945c0-5ed8-4712-a0aa-cffa86713a2e .task}
+# DAC-Based OData: To Retrieve Data by Using the $expand, $select, and $filter Parameters
 
 This activity will walk you through the process of retrieving data by using a `GET` request with the *$expand*, *$select*, and *$filter* URL parameters through the DAC-based OData interface.
 
-## Story { .section}
+## Story
 
 In the business intelligence \(BI\) application of the MyStore company, a warehouse manager should be able to view the statistics of the items available in a particular warehouse. To make it possible for the BI application to display these statistics, you need to retrieve from Acumatica ERP information about the quantities of stock items that are available in any warehouse. You also need to retrieve these statistics for a particular stock item. You want to use the DAC-based OData interface to obtain this data.
 
 In Acumatica ERP, item availability data is displayed on the [Inventory Summary](IN_40_10_00.md) \(IN401000\) form. To view the on-hand and available quantities of any stock item on this form, you select the item in the Selection area of the form. Item availability data is available in the Item Availability Data \(INGI0002\) generic inquiry, which has been preconfigured for use in this activity.
 
-## Process Overview { .section}
+## Process Overview
 
 You will review the Item Availability Data \(INGI0002\) generic inquiry. To get the data provided by this generic inquiry, in a DAC-based OData request, you will specify the DACs on which the generic inquiry is based. To specify a value of the parameter of the generic inquiry, you will use the *$filter* parameter of the HTTP request.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -21,7 +21,9 @@ Before you begin performing the steps of this activity, do the following:
 3.  Complete the following prerequisite activity: [DAC-Based OData: To Sign In to Acumatica ERP and Retrieve the Metadata](../Shared/../UserGuide/RPT_DAC_OData_SignIn_Activity.md).
 4.  If you have created a Postman collection with the basic authentication configured, add a new request to the collection and configure the request to inherit the authorization type from the parent collection.
 
-## Step 1: Reviewing the Generic Inquiry { .section}
+Before you send the request in this activity, you need to sign in to Acumatica ERP, as described in [DAC-Based OData: To Sign In to Acumatica ERP and Retrieve the Metadata](../Shared/../UserGuide/RPT_DAC_OData_SignIn_Activity.md). If you have created a Postman collection with the basic authentication configured, add a new request to the collection and configure the request to inherit the authorization type from the parent collection.
+
+## Step 1: Reviewing the Generic Inquiry
 
 The Item Availability Data \(INGI0002\) generic inquiry is based on the [PX.Objects.IN.INSiteStatus](https://help.acumatica.com/dacBrowser/PX.Objects.IN/INSiteStatus) data access class and has one parameter, which you can use to extract the stock item by its inventory ID. To review this generic inquiry and make sure it includes the needed elements, do the following:
 
@@ -32,7 +34,7 @@ The Item Availability Data \(INGI0002\) generic inquiry is based on the [PX.Obje
     -   On the **Results Grid** tab, the DAC fields included in the generic inquiry results
 3.  Click **View Inquiry** on the form toolbar to view the resulting generic inquiry form.
 
-## Step 2: Retrieving the Quantities of Items { .section}
+## Step 2: Retrieving the Quantities of Items
 
 To retrieve the quantities of items, do the following:
 
@@ -41,24 +43,49 @@ To retrieve the quantities of items, do the following:
     -   URL: *http://localhost/MyStoreInstance/t/MyStore/api/odata/dac/PX\_Objects\_IN\_INSiteStatus*
     -   Parameters: The parameters shown in the following table
 
-        |Key|Value|
-        |---|-----|
-        |*$select*|`QtyOnHand,QtyAvail`|
-        |*$expand*|        ```
+<table id="_29bc54f6-b61a-4607-9873-5103e71df35e"><thead><tr><th>
+
+Key
+
+</th><th>
+
+Value
+
+</th></tr></thead><tbody><tr><td>
+
+*$select*
+
+</td><td>
+
+`QtyOnHand,QtyAvail`
+
+</td></tr><tr><td>
+
+*$expand*
+
+</td><td>
+
+```
 InventoryItemByInventoryID($select=InventoryCD,Descr),
 INSiteBySiteID($select=SiteCD)
-        ```
+```
 
-|
-        |*$filter*|        ```
+</td></tr><tr><td>
+
+*$filter*
+
+</td><td>
+
+```
 InventoryID eq 41
-        ```
+```
 
-|
+</td></tr></tbody>
+</table>
 
 2.  Send the request. If the request is successful, the response contains the `200 OK` status code. The result is shown in the following code.
 
-    ```language-json
+    ```json
     {
       "@odata.context": 
         "http://localhost/MyStoreInstance/t/MyStore/api/odata/dac/$metadata

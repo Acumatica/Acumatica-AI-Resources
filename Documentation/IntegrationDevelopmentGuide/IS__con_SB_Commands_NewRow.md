@@ -1,4 +1,4 @@
-# Commands for Adding Detail Lines {#_f5638d5c-17e8-49ff-92d2-435c9f3078cf .concept}
+# Commands for Adding Detail Lines
 
 When you need to add a detail line to an Acumatica ERP form, you can use one of the following approaches:
 
@@ -7,7 +7,7 @@ When you need to add a detail line to an Acumatica ERP form, you can use one of 
 
 In this topic, you will find the description of the NewRow command, which imitates the first approach listed above in the screen-based API. The second approach is described in [Commands for Pop-Up Panels](IS__con_SB_PopupPanel.md#).
 
-## NewRow Service Command { .section}
+## NewRow Service Command
 
 When you are specifying the sequence of commands in an array of Command objects for a processing method and you need to add a new detail line to a document, you should use commands as follows:
 

@@ -1,4 +1,4 @@
-# Automated Item and Storage Lookup {#_33fafbab-deeb-4bee-9fcc-c57e4f1b2eac .concept}
+# Automated Item and Storage Lookup
 
 In Acumatica ERP, you can look up stock items in an automated mode by scanning item and location barcodes with barcode scanners or mobile devices with a scanning option on the [Item Lookup](IN_20_25_20.md) \(IN202520\) or [Storage Lookup](IN_40_90_20.md) \(IN409020\) forms, or the corresponding screens in the Acumatica mobile app. This functionality becomes available when the *Inventory Operations* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 

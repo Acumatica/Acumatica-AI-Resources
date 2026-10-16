@@ -1,21 +1,21 @@
-# Tax Entry from GL: General Information {#_994cb004-6439-428a-b4c4-31646ceb5a82 .concept}
+# Tax Entry from GL: General Information
 
 In Acumatica ERP, you can configure automatic tax calculation in documents that you create in the system. You can also create tax-related transactions manually in the general ledger. These transactions update the balances of the GL accounts specified for each journal entry of the transaction.
 
 **Attention:** The manual creation of tax-related transactions is available only if the *Tax Entry from GL Module* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Learning Objectives {#section_rph_fjv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Configure a withholding tax
 -   Process a taxable transaction with the new tax in the general ledger
 
-## Applicable Scenarios {#section_tph_fjv_vxb .section}
+## Applicable Scenarios
 
 You create taxable transactions directly in the general ledger if you are required to withhold taxes from GL transactions and create tax-related transactions manually.
 
-## Manual Creation of a Tax-Related Journal Transaction {#section_vph_fjv_vxb .section}
+## Manual Creation of a Tax-Related Journal Transaction
 
 To create a tax-related journal transaction, you use the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form. On this form, when you enter transaction data, you select the **Create Tax Transactions** check box, which causes the additional **Tax ID** and **Tax Category** columns to appear in the table.
 
@@ -27,7 +27,7 @@ Each tax-related transaction should contain at least three journal entries:
 
 With a transaction entered in the general ledger, the system does not calculate taxes; it uses the tax amount entered by the user. For details, see [Tax Entry from GL: Generated Transactions](Taxes_Tax_Entry_from_GL_Transactions.md).
 
-## Calculation of Tax Amounts {#section_zph_fjv_vxb .section}
+## Calculation of Tax Amounts
 
 When you specify the account \(and subaccount, if applicable\) to which the tax amount is recorded in the **Account** \(and **Subaccount**, if any\) column on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form, the system automatically enters the tax associated with this account \(and subaccount, if any\) in the **Tax ID** column.
 
@@ -35,13 +35,13 @@ When you specify the account \(and subaccount, if applicable\) to which the tax 
 
 While you are adding a journal entry, you can overwrite the default **Tax ID** value.
 
-## Calculation of Taxable Amounts {#section_dqh_fjv_vxb .section}
+## Calculation of Taxable Amounts
 
 When you select the account to which the taxable amount will be recorded in the **Account** column on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form, the system automatically enters the tax category associated with the general ledger account. The associated tax category is the one that is assigned to the selected general ledger account in the **Tax Category** column on the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form.
 
 **Attention:** Before you create a tax-related transaction, a tax category has to be specified for the general ledger account that you select in the **Account** column.
 
-## Entry of Amounts to the Tax Report {#section_gqh_fjv_vxb .section}
+## Entry of Amounts to the Tax Report
 
 The tax-related amounts will be reflected in the appropriate tax report only if the number of the document related to the journal transaction is specified for each journal entry in the **Ref. Number** column of the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
@@ -49,7 +49,7 @@ If the **Ref. Number** column is empty, the tax and taxable amounts will not be 
 
 **Tip:** You can define this column to be mandatory by selecting the **Require Ref. Numbers for GL Documents with Taxes** check box on the [General Ledger Preferences](GL_10_20_00.md) \(GL102000\) form.
 
-## Creation of a Tax Transaction Involving Multiple Branches { .section}
+## Creation of a Tax Transaction Involving Multiple Branches
 
 If the lines of tax-related journal transaction that you create on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form involve multiple branches of the company, you enter the lines as follows:
 

@@ -1,8 +1,8 @@
-# To Reopen a Financial Period in Accounts Payable {#_b8cc1fdf-b99f-45ee-be2f-ef2129b46b6a .task}
+# To Reopen a Financial Period in Accounts Payable
 
 You may need to reopen a financial period if it has been closed by mistake or if you need to post any adjustments to this period. To reopen a financial period in the accounts payable subledger, you use the [Close Financial Periods](AP_50_60_00.md) \(AP506000\) form.
 
-## To Reopen a Financial Period in Accounts Payable {#section_uhp_njv_vxb .section}
+## To Reopen a Financial Period in Accounts Payable
 
 1.  Open the [Close Financial Periods](AP_50_60_00.md) \(AP506000\) form.
 2.  In the **Company** box of the Selection area, select the company for which you want to reopen a financial period.

@@ -1,22 +1,22 @@
-# Table \(Grid\): Configuration of the Table Toolbar {#_f9220c5c-9c83-4a59-aa77-4962bc24b373 .concept}
+# Table \(Grid\): Configuration of the Table Toolbar
 
 In this topic, you can learn how to configure actions on the table toolbar.
 
-## Definition of Actions { .section}
+## Definition of Actions
 
 The actions of the table toolbar must be defined in TypeScript. You use the PXActionState in the grid view class, which is the inheritor of the PXView class. \(See the example below.\) Actions of the table toolbar are not displayed on the form toolbar.
 
-```language-javascript
+```javascript
 export class SOLine extends PXView {
     AddInvoice: PXActionState;
 }
 ```
 
-## State and Appearance of Actions {#_d671781c-b74b-4fb1-8ab4-25de9e9d543f .section}
+## State and Appearance of Actions
 
 You can also handle the state and appearance of any action that corresponds to a button or command on the table toolbar by using the actionsConfig property of the gridConfig decorator, as shown in the following examples.
 
-```language-javascript
+```javascript
 // Hides the Refresh button from the table toolbar.
 @gridConfig({
   actionsConfig: { refresh: { hidden: true } }
@@ -37,11 +37,10 @@ export class POLine extends PXView
 
 You can also use the [actionConfig](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=674b9f3a-47ad-c975-e0ea-0707ced9c420) decorator to specify properties of an action that is explicitly defined in the view class for the table.
 
-## More Button { .section}
+## More Button
 
 If all buttons of the table toolbar cannot be displayed on the screen because of the screen’s width, you can make the system show the More button in the table toolbar, as shown in the following screenshot.
 
-![](Images/UIDevRef_Grid_TableMoreMenu.png "The More button")
 
 To display the More button for the table toolbar, you use the wrapToolbar property of the gridConfig decorator, as the following code shows.
 
@@ -52,11 +51,10 @@ To display the More button for the table toolbar, you use the wrapToolbar proper
 export class SOLine extends PXView
 ```
 
-## Menu Button { .section}
+## Menu Button
 
 You may need to group multiple commands under one menu button, as shown with the **Create Activity** menu button in the following screenshot.
 
-![](Images/UIDevRef_Grid_MenuButton.png "Menu button")
 
 If you need to configure a menu button with static commands for the table toolbar, you use the topBarItems property of the gridConfig decorator, as the following example shows.
 
@@ -113,7 +111,7 @@ public static class Messages
 }
 ```
 
-## Table Toolbar Button That Opens a Dialog Box {#_b58e4acd-ca7b-40a5-a493-ac7a925eebd8 .section}
+## Table Toolbar Button That Opens a Dialog Box
 
 You can add a button that opens a dialog box to the table toolbar by using the topBarItems property of the gridConfig decorator. The action that corresponds to this button can be defined only in frontend and has no corresponding action in the graph.
 
@@ -128,7 +126,7 @@ To implement an action that opens a dialog box, in the topBarItems property of t
 
 For example, suppose that you need to define an action that opens the `PanelRef` dialog box \(which is defined with the qp-panel control in HTML\). An example of such action is shown in the following code.
 
-```language-javascript
+```javascript
 @gridConfig({
   topBarItems: {
     PanelRef: {
@@ -145,7 +143,7 @@ For example, suppose that you need to define an action that opens the `PanelRef`
 
 For details about wrappers for such action, see [Testing of the Modern UI: Frontend Actions in Wrappers](UIDev_Testing_FrontendActions_Concept.md).
 
-## Standard Buttons { .section}
+## Standard Buttons
 
 When you define a table on the form, a set of buttons is added to the table toolbar by default. The following table lists the names of the buttons and names of corresponding actions in code.
 

@@ -1,8 +1,8 @@
-# To Create Ship via Codes for the Integrated Carrier {#_72b79bef-5f03-4822-90a1-25eda30d8164 .task}
+# To Create Ship via Codes for the Integrated Carrier
 
 In Acumatica ERP, you can create multiple ship via codes for an integrated carrier, each based on a service method provided by the carrier and used by your company. You create ship via codes by using the [Ship via Codes](CS_20_75_00.md) \(CS207500\) form. Perform the following steps for each ship via code you define.
 
-## To Create a Ship via Code for the Carrier { .section}
+## To Create a Ship via Code for the Carrier
 
 1.  Open the [Ship via Codes](CS_20_75_00.md) \(CS207500\) form.
 2.  Enter the ship via code, which is an alphanumerical string of up to 15 characters. Consider using *UPS*, or *FedEx* plus a string indicating the specific service method.

@@ -1,8 +1,8 @@
-# Order Synchronization: Marketplace-Fulfilled Orders {#_aafda182-cad9-450b-b23f-8d79362d48bb .concept}
+# Order Synchronization: Marketplace-Fulfilled Orders
 
 For marketplace-fulfilled orders, Amazon handles order fulfillment. Such orders are imported to Acumatica ERP as sales orders of the *Invoice* type. Shipments are neither created in Acumatica ERP nor exported to the Amazon seller account. The sections of below explain how to set up the synchronization of marketplace-fulfilled orders.
 
-## Setting Up the Import of Marketplace-Fulfilled Orders { .section}
+## Setting Up the Import of Marketplace-Fulfilled Orders
 
 To set up the synchronization of data for marketplace-fulfilled orders, you perform the following general steps:
 
@@ -12,7 +12,7 @@ To set up the synchronization of data for marketplace-fulfilled orders, you perf
 
 2.  Activate the entities.
 
-    To synchronize seller-fulfilled orders, the following entities should be activated on the **Entities** tab of the [Amazon Stores](BC_20_10_20.md) \(BC201020\) form:
+    To synchronize marketplace-fulfilled orders, the following entities should be activated on the **Entities** tab of the [Amazon Stores](BC_20_10_20.md) \(BC201020\) form:
 
     -   *Marketplace-Fulfilled Order*
     -   *Payment*
@@ -51,9 +51,9 @@ To set up the synchronization of data for marketplace-fulfilled orders, you perf
     Map the payment methods set up in the Amazon seller account with the payment methods defined in Acumatica ERP, as described in [Order Synchronization: Import of Payments](Commerce_AZ_Syncing_Orders_Importing_Payments.md).
 
 
-## Synchronizing Marketplace-Fulfilled Orders { .section}
+## Synchronizing Marketplace-Fulfilled Orders
 
-Seller-fulfilled orders are imported from an Amazon seller account during the synchronization of the *Marketplace-Fulfilled Order* entity. Only marketplace-fulfilled orders that have been fully shipped are imported to Acumatica ERP. For details about data synchronization, see [Data Synchronization: General Information](Commerce_AZ_Data_Sync_GeneralInfo.md).
+Marketplace-fulfilled orders are imported from an Amazon seller account during the synchronization of the *Marketplace-Fulfilled Order* entity. Only marketplace-fulfilled orders that have been fully shipped are imported to Acumatica ERP. For details about data synchronization, see [Data Synchronization: General Information](Commerce_AZ_Data_Sync_GeneralInfo.md).
 
 During the data processing stage of the order import, a sales order is created on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form with the following settings:
 
@@ -62,7 +62,7 @@ During the data processing stage of the order import, a sales order is created o
 -   On the **Details** tab, the warehouse and the warehouse location are inserted for the imported items o based on the settings specified in the **Marketplace-Fulfilled Order** section of the **Orders** tab.
 -   On the **Details** tab, a line with the shipping price item is added. The system inserts the non-stock item based on the value in the **Shipping Price Item** box on the **Orders** tab.
 
-## Importing Replacement Orders { .section}
+## Importing Replacement Orders
 
 Amazon creates a replacement order when a user replaces any products in an existing order in the Amazon seller account. Replacement orders are imported from the Amazon seller account during the synchronization of the *Sales Order* entity.
 

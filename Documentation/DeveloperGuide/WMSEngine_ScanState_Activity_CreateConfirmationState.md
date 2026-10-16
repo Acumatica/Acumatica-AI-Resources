@@ -1,8 +1,8 @@
-# Barcode Scan States: To Create the Confirmation State {#_f5872e55-bc01-4005-a854-3fa3eddfca94 .task}
+# Barcode Scan States: To Create the Confirmation State
 
 This activity will walk you through the creation of the confirmation scan state.
 
-## Story { .section}
+## Story
 
 Suppose that you are implementing a scan mode for a custom barcode-driven form. The barcode scan class of this form uses the WarehouseManagementSystem&lt;TSelf,TGraph&gt; base scan class.
 
@@ -13,13 +13,13 @@ For this scan mode, you need to define the confirmation scan state. You need to 
 -   `ConfirmRow()`: The method that contains the main logic of confirmation
 -   `FindDetailRow()`: The helper method that can be altered
 
-## Process Overview { .section}
+## Process Overview
 
 You will create a WMSBase.ConfirmationState class descendant. In this class, you will define a ScanExtension class that will implement the confirmation logic.
 
 In the PerformConfirmation\(\) method, you will then get the ScanExtension object by using the Get&lt;TExtension&gt;\(\) method and call its entry point method.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -28,7 +28,7 @@ Before you begin performing the steps of this activity, do the following:
 3.  Create the scan mode and define its required properties by performing the [Barcode Scan Mode: To Define the Required Properties](WMSEngine_ScanMode_CreateScanMode_Activity.md) prerequisite activity.
 4.  Create the set of scan states by performing the [Barcode Scan States: To Create the Set of Scan States](WMSEngine_ScanState_Activity_CreateSetOfStates.md) prerequisite activity.
 
-## Step 1: Defining the Required Member { .section}
+## Step 1: Defining the Required Member
 
 To create the confirmation state, do the following:
 
@@ -68,7 +68,7 @@ To create the confirmation state, do the following:
     ```
 
 
-## Step 2: Implementing the Confirmation Process { .section}
+## Step 2: Implementing the Confirmation Process
 
 Implement the confirmation process as follows:
 

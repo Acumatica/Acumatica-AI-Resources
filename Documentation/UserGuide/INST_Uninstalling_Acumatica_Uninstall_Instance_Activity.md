@@ -1,20 +1,20 @@
-# Uninstalling of Acumatica ERP: To Delete an Instance {#_8bb7da7a-4884-4f44-950b-54a8d26e8466 .task}
+# Uninstalling of Acumatica ERP: To Delete an Instance
 
 The following activity will walk you through the process of deleting an Acumatica ERP application instance.
 
-## Story { .section}
+## Story
 
 Suppose that you are the system administrator of your company, and need to delete the existing Acumatica ERP application instance.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will delete the Acumatica ERP application instance.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin deleting the Acumatica ERP application instance, make sure that you have completed the [Instance Deployment: To Deploy an Instance with Demo Data](INST_Deploying_Instances_Deploy_Tenant_With_Demodata_Activity.md) or [Instance Deployment: To Deploy an Out-of-the-Box Instance](INST_Deploying_Instances_Deploy_Tenant_Without_Demodata_Activity.md) prerequisite activity.
 
-## Step: Deleting an Application Instance { .section}
+## Step: Deleting an Application Instance
 
 To delete the Acumatica ERP application instance, do the following:
 

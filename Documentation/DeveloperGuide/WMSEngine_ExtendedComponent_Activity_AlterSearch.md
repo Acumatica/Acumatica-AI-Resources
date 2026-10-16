@@ -1,16 +1,16 @@
-# Extension of Scan Components: To Add an Alternate Way to Search for Entities {#_dbeb994f-7f90-4d61-9221-fc4129492f3d .task}
+# Extension of Scan Components: To Add an Alternate Way to Search for Entities
 
 This activity will walk you through the implementation of an alternate way to search for entities.
 
-## Story { .section}
+## Story
 
 Suppose that on the [Receive and Put Away](../UserGuide/PO_30_20_20.md) \(PO302020\) form, you need to be able to search purchase receipts by their date because you have only one unreleased purchase receipt per day.
 
-## Process Overview { .section}
+## Process Overview
 
 You will override the DecorateScanState method by using the PXOverride attribute, and in this method, you will intercept the HandleAbsence method by using the ByAppend strategy. You will not override the GetByBarcode method, but instead will override the HandleAbsence method because it contains the logic of entity searching if the entity has not been found by the GetByBarcode method.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the step of this activity, do the following:
 
@@ -20,7 +20,7 @@ Before you begin performing the step of this activity, do the following:
     -   *Warehouse Management*
     -   *Receiving*
 
-## Step: Adding an Alternate Way to Search for Entities { .section}
+## Step: Adding an Alternate Way to Search for Entities
 
 To add another way to search for entities, do the following:
 

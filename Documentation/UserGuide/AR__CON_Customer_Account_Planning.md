@@ -1,10 +1,10 @@
-# Customers: Customer Account Planning {#_662bbeea-96c7-46e9-9709-2fcd952e1422 .concept}
+# Customers: Customer Account Planning
 
 Before you begin preparing to set up customer accounts in Acumatica ERP, you need to gather information and make decisions that you will use when setting up customer accounts and their supporting entities.
 
 In this topic, you will read about the steps you have to perform with regard to customer account setup.
 
-## Customer Account Planning Steps {#section_xcl_4jv_vxb .section}
+## Customer Account Planning Steps
 
 You need to perform the following planning steps regarding your relations with customers:
 

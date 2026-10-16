@@ -1,8 +1,8 @@
-# Order Synchronization: General Information {#_768a9f42-92b5-4db3-a2e4-ac0b29155dc4 .concept}
+# Order Synchronization: General Information
 
 You can import sales orders placed in the BigCommerce store to Acumatica ERP for further processing.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -11,11 +11,11 @@ In this chapter, you will learn how to do the following:
 -   Import sales orders with payments from the BigCommerce store to Acumatica ERP
 -   Configure the card payment processing in Acumatica ERP and BigCommerce
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 The synchronization of orders is the main scenario for the integration between an ERP system and an external ecommerce system. You set up the import of orders from the BigCommerce store to Acumatica ERP so that you can process the imported orders further, for example, create a shipment for it, invoice the customer, and process the payment.
 
-## Minimal Configuration of Order Synchronization {#_65ecd054-d7e0-4630-93e2-d977470c8503 .section}
+## Minimal Configuration of Order Synchronization
 
 To start importing sales orders from the BigCommerce store, you need to activate the required entities and specify the minimal settings for the activated entities on the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form.
 
@@ -27,7 +27,7 @@ On the **Entities** tab, you activate the *Sales Order* and *Customer* entities,
 
 If shipments created and processed in Acumatica ERP for the imported order should be synchronized with the BigCommerce store, you need to activate the *Shipment* entity.
 
-## Import of Orders Without Customers { .section}
+## Import of Orders Without Customers
 
 If you do not need to process the customer data in Acumatica ERP, you can import orders from the BigCommerce store without importing customers using a generic guest customer instead.
 
@@ -39,23 +39,23 @@ To configure the synchronization of orders without customers for the BigCommerce
 
 When the system imports orders from the BigCommerce store, the guest customer is assigned as the customer for each created sales order. The system does not import customers from the store and does not create new customer records. On the **Addresses** tab of the [Sales Orders](SO_30_10_00.md) \(SO301000\), the system selects the **Override Contact** and **Override Address** check boxes and fills in the ship-to and bill-to information with the corresponding customer's data from the BigCommerce store.
 
-## The Order Time Zone { .section}
+## The Order Time Zone
 
 While you are performing the initial configuration of the BigCommerce store, on the **Orders** tab of the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form, you should specify the **Order Time Zone** that the system will use for each sales order imported from the BigCommerce store when it is created in Acumatica ERP. The order time zone is needed to determine the correct date and time of the order if Acumatica ERP and the BigCommerce store are located in different time zones.
 
-## Limiting the Date Range for Order Import { .section}
+## Limiting the Date Range for Order Import
 
 If you have had the BigCommerce store for a while before implementing Acumatica ERP, you might want to prevent old orders from being imported to Acumatica ERP when you start synchronizing orders. On the **Orders** tab of the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form, you specify the **Earliest Order Date**. Orders created before this date in the BigCommerce store are excluded from synchronization between Acumatica ERP and the BigCommerce store. Payments and shipments created for such orders are excluded from synchronization too.
 
-## Tracking Imported Sales Orders in the BigCommerce Store { .section}
+## Tracking Imported Sales Orders in the BigCommerce Store
 
 You might want to have information about the orders that have already been imported to Acumatica ERP available in the BigCommerce store. On the **Orders** tab of the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form, you select the **Tag Ext. Order with ERP Order Nbr.** check box. When a sales order is imported from the BigCommerce store and assigned an order number in Acumatica ERP, the Acumatica ERP order number is exported and saved as a metafield of the sales order in BigCommerce.
 
-## Mapping of Shipping Options { .section}
+## Mapping of Shipping Options
 
 You define the mapping of each shipping option \(which is a combination of a shipping zone and shipping method\) defined in BigCommerce to the ship via code, and optionally, shipping zone and shipping terms defined in Acumatica ERP the table on the **Shipping** tab of the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form. The **Store Shipping Zone** and **Store Shipping Method** columns of the table are populated with the settings from BigCommerce automatically for shipping options defined in the BigCommerce store.
 
-## Synchronization of Sales Orders and Payments { .section}
+## Synchronization of Sales Orders and Payments
 
 Orders are imported from a BigCommerce store during the synchronization of the *Sales Order* entity. During the data processing stage of the order import, the system does the following in Acumatica ERP:
 
@@ -75,13 +75,12 @@ Orders are imported from a BigCommerce store during the synchronization of the *
     For information about the synchronization of payments, see [Order Synchronization: Non-Card Payments](Commerce_BC_Syncing_Orders_Payments.md) and [Order Synchronization: Card Payments](Commerce_BC_Syncing_Orders_Card_Payments.md).
 
 
-## Workflow of Importing a Sales Order with a Manual Payment { .section}
+## Workflow of Importing a Sales Order with a Manual Payment
 
 The following diagram illustrates the workflow of importing a sales order to Acumatica ERP from a BigCommerce store where it was placed and paid by a manual payment method or a card payment method without integrated card processing.
 
-![](Images/diag_Commerce_BC_Importing_Order_NonCard_Payment.png)
 
-## Use of the Guest Customer Account { .section}
+## Use of the Guest Customer Account
 
 If you want to allow placing orders in your store without providing the customer's phone number or email address and want to import such orders into Acumatica ERP, you need to fill in the **Generic Guest Customer** box on the **Customer Settings** tab of the [BigCommerce Stores](../Shared/../UserGuide/BC_20_10_00.md) \(BC201000\) form. This customer account appears on imported sales orders that have been placed in the BigCommerce store without customer details.
 

@@ -1,4 +1,4 @@
-# Implementing Workflow Events {#_1e9f23da-2084-4129-a9b6-c9f26354a6bb .concept}
+# Implementing Workflow Events
 
 In this chapter, you will learn how to use events to trigger a transition of a workflow. You will learn about using Workflow API to work with existing events and to create new ones.
 

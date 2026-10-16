@@ -1,4 +1,4 @@
-# Tracking Project Inventory by Warehouse Location {#_c7d57529-f542-abcd-99de-b944cbe50a85 .concept}
+# Tracking Project Inventory by Warehouse Location
 
 This chapter describes how to configure and use separate warehouse locations for tracking the inventory items \(that is, the materials and services\) that are sold or purchased for a project.
 

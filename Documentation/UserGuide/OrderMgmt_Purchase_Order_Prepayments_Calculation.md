@@ -1,4 +1,4 @@
-# Prepayments for Purchase Orders: Calculation of the Prepayment Amount {#_3571e58e-6cb5-41cc-bb53-ef469d74d54c .concept}
+# Prepayments for Purchase Orders: Calculation of the Prepayment Amount
 
 In some cases, you need to prepay a percent of the cost of a purchase order before the vendor produces, ships, or delivers the goods to your company. While you are working with the purchase order on the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form, you can click **Create Prepayment Request** on the More menu. The system opens the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form with a new prepayment request linked to the purchase order, with the lines of the purchase order copied to the **Details** tab and the prepayment amount inserted in each prepayment request line.
 

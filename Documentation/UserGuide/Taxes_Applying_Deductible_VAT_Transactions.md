@@ -1,8 +1,8 @@
-# Applying Deductible VAT: Generated Transactions {#_bbf9afdb-52b5-4a7d-a421-0ef4ebdbab9f .concept}
+# Applying Deductible VAT: Generated Transactions
 
 As you apply a deductible VAT, you create and process an AP bill. To update the vendor balance and the amounts of taxes payable and taxes claimable, the system generates the GL transactions described in the following sections.
 
-## Transaction Generated for an AP Document \(Dedicated GL Account\) {#section_mbp_fjv_vxb .section}
+## Transaction Generated for an AP Document \(Dedicated GL Account\)
 
 If the non-deductible tax amounts are recorded to the dedicated GL account, when the taxable AP document is released, the system generates the following general ledger transaction:
 
@@ -15,7 +15,7 @@ If the non-deductible tax amounts are recorded to the dedicated GL account, when
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Bills and Adjustments](AP_30_10_00.md) form.
 
-## Transaction Generated for an AP Document \(Expense Account\) {#section_pbp_fjv_vxb .section}
+## Transaction Generated for an AP Document \(Expense Account\)
 
 If the non-deductible tax amounts are recorded to the expense account specified for the AP document line, when the taxable AP document is released, the system generates the following general ledger transaction:
 

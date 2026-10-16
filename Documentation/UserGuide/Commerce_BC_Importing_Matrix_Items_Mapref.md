@@ -1,4 +1,4 @@
-# Importing Products with Variants {#_a1a11d4c-fd0b-4b4b-1298-9813753b0784 .concept}
+# Importing Products with Variants
 
 In the topics of this chapter, you will read about the importing of products with variants from the BigCommerce store to Acumatica ERP, where the corresponding template items and matrix items will be created.
 

@@ -1,14 +1,14 @@
-# To Import the Count Data From an Excel Spreadsheet {#_3fb1c22b-162f-4c7c-a201-40a9fa718daa .task}
+# To Import the Count Data From an Excel Spreadsheet
 
 You can import the count data from Excel spreadsheets by using the [Physical Inventory Review](IN_30_50_00.md) \(IN305010\) form.
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Review the Excel spreadsheets with the count results. Make sure the resulting quantities are displayed without any typos, and correct any errors you find.
 
-## To Import the Count Data From an Excel Spreadsheet { .section}
+## To Import the Count Data From an Excel Spreadsheet
 
 1.  Open the [Physical Inventory Review](../Shared/../UserGuide/IN_30_50_00.md) \(IN305000\) form.
 2.  In the **Reference Nbr.** box, select the identifier of the count you are participating in.

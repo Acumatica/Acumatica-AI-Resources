@@ -1,8 +1,8 @@
-# Overdue Charges: Implementation Checklist {#_9739a40e-eb4e-4f25-8165-0298cfd5e51d .concept}
+# Overdue Charges: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for calculating overdue charges, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you initially set up the overdue charges functionality, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -13,7 +13,7 @@ We recommend that before you initially set up the overdue charges functionality,
 |[Customers](AR_30_30_00.md) \(AR303000\)|You have verified the existence of the customer accounts for the customers for which you will create *Overdue Charge* documents. For details, see [Customers: Implementation Activity](Customer_Implem_Activity.md).|
 |[Statement Cycles](AR_20_28_00.md) \(AR202800\)|You have verified the existence of the statement cycle for which overdue charged will be generated. For details, see [Accounts Receivable: To Create a Statement Cycle](../ImplementationGuide/config_Basic_Company_Implem_Activity_Statement_Cycles.md).|
 
-## Other Settings That Affect the Workflow { .section}
+## Other Settings That Affect the Workflow
 
 The processing of overdue charges causes batches to be produced by the system on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form. The settings on the [General Ledger Preferences](GL_10_20_00.md) \(GL102000\) form can affect the processing workflow of each batch as follows:
 
@@ -28,7 +28,7 @@ The following options located on the [Accounts Receivable Preferences](AR_10_10_
 -   **Apply Payments to Overdue Charges First**: If this check box is selected, payments will be applied first to overdue charges and only then to outstanding invoices, starting with those having the earliest dates. A payment can be applied to a particular invoice only if the **Auto-Apply Payments** check box is selected for the customer on the [Customers](AR_30_30_00.md) \(AR303000\) form.
 -   **Calculate on Overdue Charges Documents**: If this check box is selected, the system will calculate overdue charges on invoices and debit memos and additionally on previously generated *Overdue Charge* documents if they are overdue. If this check box is cleared, the system will calculate overdue charges on only invoices and debit memos.
 
-## Validation of Configuration { .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you calculate and apply overdue charges by performing instructions similar to those described in [Overdue Charges: Process Activity](Finance_Overdue_Charges_Process_Activity.md).
 

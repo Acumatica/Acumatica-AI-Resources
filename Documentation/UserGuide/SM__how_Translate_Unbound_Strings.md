@@ -1,8 +1,8 @@
-# To Translate Unbound Strings {#_16dcc9cd-e2e4-4a5a-9b26-e5d5d3c4b7c9 .task}
+# To Translate Unbound Strings
 
 In Acumatica ERP, to translate collected strings, you use the [Translation Dictionaries](SM_20_05_40.md) \(SM200540\) form. See below for details on translating unbound strings \(those that are not bound to a form\). For more information, see [Translation Process](SM__con_Translation_Process.md).
 
-## To Translate Unbound Strings { .section}
+## To Translate Unbound Strings
 
 1.  Open the [Translation Dictionaries](SM_20_05_40.md) \(SM200540\) form.
 2.  In the **Language** box, select the check boxes for the language to which you want to translate the strings.

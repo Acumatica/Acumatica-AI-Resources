@@ -1,4 +1,4 @@
-# Modern Customer Portal for Administrators {#_44189df7-b4cd-47c4-9294-9c1321731245 .concept}
+# Modern Customer Portal for Administrators
 
 Acumatica ERP provides the Modern Customer Portal: a dedicated web portal that lets your customers interact with your company online. From the portal, your customers’ employees—portal users—can place orders, submit support cases, review financial information, and perform other tasks based on the access rights you give them.
 

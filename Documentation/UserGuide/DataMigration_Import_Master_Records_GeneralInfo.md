@@ -1,8 +1,8 @@
-# Migration of Master Records: General Information {#_4c7bee01-b129-4f78-998a-99738814ac94 .concept}
+# Migration of Master Records: General Information
 
 You import master records from the old system with their IDs that were exported from the old system. For customers and vendors, you can then enable auto-numbering so that new vendor and customer accounts will automatically get new IDs from the specified sequence.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,11 +12,11 @@ In this chapter, you will learn how to do the following:
 -   Import non-stock items to the system
 -   Enable auto-numeration for the master records
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You migrate master records from a legacy system before you start to use Acumatica ERP as an ERP system.
 
-## Import of Master Records { .section}
+## Import of Master Records
 
 You can review the predefined import scenarios on the [Import Scenarios](SM_20_60_25.md) \(SM206025\) form and update them according to the needs of the company being migrated. To import master records into the system, the following predefined import scenarios are provided with the system:
 
@@ -29,7 +29,7 @@ You can review the predefined import scenarios on the [Import Scenarios](SM_20_6
     **Attention:** Vendor locations are excluded from the data template provided for this import scenario. We strongly recommend that you import vendor locations separately from the main vendor data by using the *ACU Import Vendor Locations* import scenario.
 
 
-## Auto-Numbering of the Master Records { .section}
+## Auto-Numbering of the Master Records
 
 If in the previous system, the master records \(vendors, customer, or inventory items\) were auto-numbered, you may want to keep the original IDs from the legacy system and continue the numeration in the newly implemented system by using the established format. To keep the original identifiers, you need to disable the auto-numbering of particular types of records before the import.
 
@@ -47,7 +47,7 @@ After the records are imported, you enable auto-numbering and configure the numb
 
 For more information about numbering sequences and segmented keys, see [Managing Segmented Keys](SM__con_Managing_Segmented_Keys.md).
 
-## Import of Inventory Items { .section}
+## Import of Inventory Items
 
 To simplify the process of importing stock and non-stock items, you can use item classes. Item classes are available in the system if the *Inventory* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. In an item class, you predefine common item settings, such as the valuation method, the base unit of measure, and the posting class. You can plan item classes so that they contain the maximum possible settings for the groups of similar inventory items.
 

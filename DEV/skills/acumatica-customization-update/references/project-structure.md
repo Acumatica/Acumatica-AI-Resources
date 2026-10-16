@@ -36,7 +36,8 @@ Modern (Aurelia-based) UI source for the same screens:
   declared in the matching `.ts`.
 
 These two together define the modern-UI rendering and must be kept in sync with the graph's views and
-DACs — and with the classic `.aspx`. Acumatica generates neither UI from the other.
+DACs — and with the classic `.aspx`. The Classic-to-Modern converter can scaffold initial
+Modern UI definitions, but subsequent edits do not automatically synchronize the two UIs.
 
 ### `/_project/`
 
@@ -121,7 +122,7 @@ directly and re-zip with `Compress-Archive` (or equivalent) before re-uploading.
    direct links to topics can't be looked up automatically — browse Developer Resources and search
    from there.
 4. **Help & Training Examples** — official samples from the developer guides and training courses.
-   Check out the branch matching the ERP version (e.g. `2026R1`):
+   Check out the branch matching the ERP version (e.g. `2026R2`):
    https://github.com/Acumatica/Help-and-Training-Examples
 5. **HTTP Request Example** — calling an external API from graph code, with per-version branches:
    https://github.com/Acumatica/httpRequestExample — see `authoring-patterns.md` for the verbatim

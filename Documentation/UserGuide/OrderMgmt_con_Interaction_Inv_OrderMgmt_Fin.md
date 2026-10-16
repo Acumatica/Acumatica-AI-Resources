@@ -1,10 +1,9 @@
-# Reviewing the Interaction of Inventory and Order Management with Financials {#_9b62fd6d-4451-4847-8b05-d505caa8c4c6 .concept}
+# Reviewing the Interaction of Inventory and Order Management with Financials
 
 To support financial accounting processes, maintain data consistency during the sales and purchase operations, and track items' costs, the inventory and order management is tightly integrated with financials. The system also provides instant access to accurate inventory allocation information and notifies the user if the item quantity specified in an order is not available.
 
 The following diagram illustrates the general workflow of sales and purchase processes performed in Acumatica ERP, the documents that are produced, and the interaction between inventory, order management, and financials during the order fulfillment processes.
 
-![](Images/diag_InvMgmt_OrderMgmt_Interaction_with_Financials.png)
 
 The purchase process \(shown in the diagram above\) consists of the following steps:
 

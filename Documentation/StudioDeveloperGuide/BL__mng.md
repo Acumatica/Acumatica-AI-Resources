@@ -1,4 +1,4 @@
-# Implementing Business Logic {#_6aea8e6f-3cc6-4f61-88a3-d7f49cd6c4b7 .concept}
+# Implementing Business Logic
 
 The topics in this part of the guide explain how to implement business logic of an application based on Acumatica Framework.
 

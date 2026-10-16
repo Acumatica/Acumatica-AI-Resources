@@ -1,16 +1,16 @@
-# Expense Claims: To Release an Expense Claim {#_931f6fd0-1b1a-4561-98a4-5bb9b373f86a .task}
+# Expense Claims: To Release an Expense Claim
 
 The following activity will walk you through the process of releasing an expense claim.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that David Chubb, an employee of the sales department at the SweetLife Fruits &amp; Jams company, had a business lunch with Chris Rea, the manager at Blue Cafe and discussed the Blue Cafe's purchase of new juicers. David paid $20 for Chris’s lunch and $12 for a taxi by using a personal credit card. Chris asked David to submit these expenses and bill Blue Cafe for reimbursement.
 
 Acting as David Chubb, you will enter the expenses into the system and claim them. Then you will release the expense claim and bill the customer to request reimbursement from Blue Cafe.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -19,18 +19,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Employees](EP_20_30_00.md) \(EP203000\) form, the account for David Chubb has been created and associated with the *chubb* user account.
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *BLUECAFE* customer has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create an expense claim on the [Expense Claims](EP_30_10_30.md) \(EP301030\) form and add to it two expense receipts claimed by Chubb: one for the business lunch and one for the taxi. After that, you will submit the claim and release the expense claim. You will bill the customer on the [Bill Expense Claims](EP_50_20_00.md) \(EP502000\) form and review the link to the AP bill on the [Expense Claim](EP_30_10_00.md) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in as David Chubb by using the *chubb* username and the *123* password.
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to today’s date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating an Expense Claim { .section}
+## Step 1: Creating an Expense Claim
 
 To create an expense claim for the business lunch and taxi payments, do the following:
 
@@ -77,7 +77,7 @@ To create an expense claim for the business lunch and taxi payments, do the foll
     The status of the expense receipt changes to *Open*.
 
 
-## Step 2: Releasing an Expense Claim { .section}
+## Step 2: Releasing an Expense Claim
 
 To release the expense claim, do the following:
 
@@ -95,7 +95,7 @@ To release the expense claim, do the following:
     The status of the expense claim has changed to *Released*.
 
 
-## Step 3: Billing a Customer { .section}
+## Step 3: Billing a Customer
 
 To bill the *BLUECAFE* customer for the incurred expenses, do the following:
 

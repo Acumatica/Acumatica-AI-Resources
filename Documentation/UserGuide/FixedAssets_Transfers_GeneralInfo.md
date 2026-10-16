@@ -1,15 +1,15 @@
-# Asset Transfers: General Information {#_ff692150-9364-41c2-8dca-f570340be7e5 .concept}
+# Asset Transfers: General Information
 
 When you create a fixed asset, you assign it to a specific company department in one of the company branches. The branch and the department to which a particular fixed asset belongs are shown on the **General** tab of the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form for the selected fixed asset. If the location of the fixed asset changes, you need to transfer the fixed asset from one department to another, or from one company branch to another.
 
-## Learning Objectives {#section_u22_ljv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Transfer fixed assets
 -   Release transfer transactions
 
-## Applicable Scenarios {#section_w22_ljv_vxb .section}
+## Applicable Scenarios
 
 You transfer a fixed asset in the following cases:
 
@@ -17,7 +17,7 @@ You transfer a fixed asset in the following cases:
 -   An asset is moved from one branch to another.
 -   The asset class of an asset is changed. For example, a building that was under construction is ready for use and you need to move it from the asset class for under-construction assets to the *Building* asset class to start depreciating it.
 
-## Fixed Asset Transfers {#section_y22_ljv_vxb .section}
+## Fixed Asset Transfers
 
 There are two possible ways of performing asset transfer in Acumatica ERP:
 
@@ -33,7 +33,7 @@ If the *Multiple Base Currencies* feature is enabled on the [Enable/Disable Feat
 
 All final asset transfers affect the general ledger. After release of a fixed asset transaction reflecting the transfer, a historical record of the transactions is created. You can view the details of this record on the **Locations** tab of the [Fixed Assets](FA_30_30_00.md) form, in the [Transfers](FA_64_00_00.md) \(FA640000\) report, and in other reports.
 
-## Categories of Asset Transfers {#section_cf2_ljv_vxb .section}
+## Categories of Asset Transfers
 
 In Acumatica ERP, any transfer of assets falls into one of the following categories:
 

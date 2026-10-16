@@ -1,4 +1,4 @@
-# Managing Segmented Keys {#_f56166d3-7509-4572-b83c-1a7ca3b3f6d0 .concept}
+# Managing Segmented Keys
 
 Acumatica ERP provides you with the capability to specify the structure of identifiers of different objects in the system, such as general ledger accounts and subaccounts, customer and vendor accounts, warehouses, locations, and item classes. These structured identifiers usually consist of multiple parts separated by a predefined character \(such as a hyphen or slash\). In the system, these parts are called *segments*, and the structure definition of the object identifier is called a *segmented key*. You can use segmented keys to help users remember long identifiers and enter the identifiers on data entry forms, because smaller parts are easier to remember and enter than long sequences of letters and digits are.
 
@@ -8,7 +8,7 @@ Acumatica ERP also provides automatic numbering capabilities for segmented keys.
 
 Acumatica ERP provides you a number of preconfigured segmented keys. You can use preconfigured segmented keys, either as they have been designed or with changes to the settings to better meet your needs. You can also configure your own segmented keys.
 
-## Preconfigured Segmented Keys { .section}
+## Preconfigured Segmented Keys
 
 Acumatica ERP provides the following built-in segmented keys, which can be used for only the types of system objects for which they were designed:
 

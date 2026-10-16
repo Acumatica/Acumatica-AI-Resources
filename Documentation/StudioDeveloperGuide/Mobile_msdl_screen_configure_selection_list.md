@@ -1,4 +1,4 @@
-# Providing a Selection List {#_f5245c75-63af-43e9-b478-3e1b2066542b .reference}
+# Providing a Selection List
 
 In a list of records in the Acumatica mobile app, users can review key data for each record and act upon records, depending on how you’ve configured the list.
 
@@ -11,7 +11,6 @@ To use the SelectionList container type, you specify `Type = SelectionList` for 
 
 Below you can see a list of records based on this container.
 
-![](Images/RN_2026_R1_Mobile_NewScreenMarkup_SelectionList.png "Use of a SelectionList container")
 
 **Parent topic:**[Configuring a Screen Layout](../StudioDeveloperGuide/MOBILE_MSDL_Layout.md)
 

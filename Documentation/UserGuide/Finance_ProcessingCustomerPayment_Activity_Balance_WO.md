@@ -1,16 +1,16 @@
-# Payments with Write-Offs: To Create a Payment with a Balance Write-Off {#_c5b0d632-f89e-4a89-a5c1-c5407d56dca1 .task}
+# Payments with Write-Offs: To Create a Payment with a Balance Write-Off
 
 The following activity will walk you through the processing of a payment with a balance write-off.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that on January 30, 2026, SweetLife Fruits &amp; Jams received a payment from Morning Cafe in the amount of $195. The payment should be applied to a $199 invoice dated 1/6/2026.
 
 Acting as a SweetLife accountant, you need to create the payment in the system and apply it to the outstanding invoices of this customer. As you are processing the payment, you need to create a balance write-off for the remaining invoice balance of $4 and apply it to the payment.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -18,11 +18,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *MORNINGCAF* customer has been created. For the customer, the **Enable Write-Offs** check box has been selected on the **Financial** tab of the [Customers](AR_30_30_00.md) form.
 -   On the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, the $199 invoice that will be paid in the activity has been created for the customer.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, you will create a payment, apply it to the customer's invoice, and create a balance write-off on the **Documents to Apply** tab of the form. You will then release the payment and its application and review the generated GL transaction on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## System Preparation {#section_rv2_hjv_vxb .section}
+## System Preparation
 
 To prepare the system for the processing of the customer payment, do the following:
 
@@ -32,7 +32,7 @@ To prepare the system for the processing of the customer payment, do the followi
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026*. For simplicity, in this exercise, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Creating a Payment {#section_tv2_hjv_vxb .section}
+## Step 1: Creating a Payment
 
 To create a payment received from the customer, do the following:
 
@@ -45,7 +45,7 @@ To create a payment received from the customer, do the following:
     -   **Payment Amount**: `195`
     -   **Description**: `Payment received on January 30`
 
-## Step 2: Applying the Payment to an Invoice and Creating a Balance Write-Off {#section_vv2_hjv_vxb .section}
+## Step 2: Applying the Payment to an Invoice and Creating a Balance Write-Off
 
 To apply the payment to the customer's invoice and create a balance write-off, do the following:
 
@@ -57,11 +57,10 @@ To apply the payment to the customer's invoice and create a balance write-off, d
     -   **Write-Off Reason Code**: *BALWOFF*
 4.  On the form toolbar, click **Save** to save your changes. The saved payment is illustrated in the following screenshot.
 
-    ![](Images/activity_Finance_Payment_with_Balance_Write-Off.png "Payment with a balance write-off")
 
 5.  Review the Summary area of the form. The **Applied to Documents** box now displays *195.00*, the **Write-Off Amount** box displays *4.00*, and the **Available Balance** box displays *0.00*.
 
-## Step 3: Releasing the Payment and Its Application {#section_xv2_hjv_vxb .section}
+## Step 3: Releasing the Payment and Its Application
 
 To release the payment and its application to the invoice, do the following:
 

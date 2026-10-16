@@ -1,4 +1,4 @@
-# Step 2: Investigate Application Server Time and Database Server Time in the Request Profiler {#_da5d271c-a2d5-4f91-84c9-ea6aca1a3e20 .task}
+# Step 2: Investigate Application Server Time and Database Server Time in the Request Profiler
 
 Either the application server or the database server may be working slowly, causing performance issues.
 

@@ -1,4 +1,4 @@
-# Shared Filters {#_5e509a16-c6f8-4d0f-b5c6-eb4b7a839c73 .concept}
+# Shared Filters
 
 Users can create reusable filters, which are available on processing and inquiry forms in Acumatica ERP, to filter the data in the table part of the form; these filters can be reused anytime after creation. Reusable filters can be shared among all users of the system.
 

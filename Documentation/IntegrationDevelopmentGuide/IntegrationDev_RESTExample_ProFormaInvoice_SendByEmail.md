@@ -1,8 +1,8 @@
-# Send a Pro Forma Invoice by Email {#_a6a0d09a-e695-4b25-a639-2cea565613f8 .concept}
+# Send a Pro Forma Invoice by Email
 
 By using the REST API, you can create pro forma invoices and send them by email. For details about pro forma invoices, see [Pro Forma Invoices: General Information](../UserGuide/Projects_Pro_Forma_Invoices_GeneralInfo.md).
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to configure your client application and the Acumatica ERP instance to be used as follows:
 
@@ -21,7 +21,7 @@ Before you test the code below, you need to configure your client application an
     8.  [Retrieve the List of Pro Forma Invoices of a Project](IntegrationDev_RESTExample_Project_GetProFormaInvoices.md)
     9.  [Send a Pro Forma Invoice by Email](IntegrationDev_RESTExample_ProFormaInvoice_SendByEmail.md)
 
-## Requests { .section}
+## Requests
 
 You can use the following sequence of examples of HTTP requests to send a pro forma invoice by email through the contract-based REST API. You will use the `RefNbr` value of the pro forma invoice that is retrieved in [Retrieve the List of Pro Forma Invoices of a Project](IntegrationDev_RESTExample_Project_GetProFormaInvoices.md).
 
@@ -32,7 +32,7 @@ Do the following:
 1.  Send the pro forma invoice by email.
 
     ```
-    POST /entity/Default/25.200.001/ProFormaInvoice/EmailProFormaInvoice 
+    POST /entity/Default/26.200.001/ProFormaInvoice/EmailProFormaInvoice 
          HTTP/1.1
     Host: <Acumatica ERP host>
     Accept: application/json
@@ -52,7 +52,7 @@ Do the following:
 2.  Monitor the status of the operation until the system returns the *204 No Content* code.
 
     ```
-    GET /entity/Default/25.200.001/ProFormaInvoice/EmailProFormaInvoice
+    GET /entity/Default/26.200.001/ProFormaInvoice/EmailProFormaInvoice
         /status/a4caa455-0eed-4c11-a5a9-2a8333e53db1 HTTP/1.1
     Host: <Acumatica ERP host>
     Accept: application/json
@@ -60,7 +60,7 @@ Do the following:
     ```
 
 
-## Usage Notes { .section}
+## Usage Notes
 
 By using the REST API, you can create pro forma invoices and send them by email. For details about pro forma invoices, see [Pro Forma Invoices: General Information](../Shared/../UserGuide/Projects_Pro_Forma_Invoices_GeneralInfo.md).
 

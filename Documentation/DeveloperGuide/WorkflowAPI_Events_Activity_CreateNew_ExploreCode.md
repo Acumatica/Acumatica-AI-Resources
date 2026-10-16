@@ -1,8 +1,8 @@
-# Step 3: Exploring the Acumatica ERP Source Code {#_f6910fb1-d67d-4370-9283-36e01739e6dc .task}
+# Step 3: Exploring the Acumatica ERP Source Code
 
 In this step, you will explore the source code of the [Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\) and [Payments and Applications](../UserGuide/AR_30_20_00.md) \(AR302000\) forms of Acumatica ERP. You will explore the code of these forms to learn the field names and methods you need to use in order to determine where and when to fire the event that triggers the transition from the `PendingPayment` state to the `ReadyForAssignment` state.
 
-## Learning Field Names { .section}
+## Learning Field Names
 
 To determine whether an invoice has been prepaid and whether the workflow event that triggers the transition from the `PendingPayment` workflow state to the `ReadyForAssignment` workflow state should be fired, you need to calculate the percentage of the invoice amount that has been prepaid.
 
@@ -20,7 +20,7 @@ To calculate this percentage, you need the outstanding amount of the invoice and
     **Tip:** If you do not see the **Amount** box on the form, you need to select the **Validate Document Totals on Entry** check box on the [Accounts Receivable Preferences](../UserGuide/AR_10_10_00.md) \(AR101000\) form, open or refresh the [Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\) form, and then perform this instruction.
 
 
-## Exploring the Source Code of the Release Method { .section}
+## Exploring the Source Code of the Release Method
 
 To fire the workflow event that triggers the transition from the `PendingPayment` to `ReadyForAssignment` workflow state, you need to first override the method where the outstanding amount of the invoice \(which you just explored\) is calculated and updated. This recalculation is performed on release of the prepayment that is applied to an invoice. Thus, to find the method to override, you need to explore the code of the action that is associated with the **Release** button on the [Payments and Applications](../UserGuide/AR_30_20_00.md) \(AR302000\) form.
 

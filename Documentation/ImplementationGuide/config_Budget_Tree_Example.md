@@ -1,8 +1,8 @@
-# Budget Tree: Example {#_d0dd07ae-8109-464f-86e6-b6c18b6fe4e2 .concept}
+# Budget Tree: Example
 
 Suppose that one company—North Serpent Company, with stores in the mountainous areas of California and Nevada—sells skis and snowboards and offers rental services. The company's stores are too small to function as branches, so the *Branch Accounting* feature is disabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md#) \(CS100000\) form.
 
-## Defining the Account Structure of the Company { .section}
+## Defining the Account Structure of the Company
 
 The organizational structure of the company is reflected in the subaccounts. In Acumatica ERP, if the *Subaccounts* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md#) \(CS100000\) form, subaccounts are used with accounts to virtually split accounts into more specific accounts for detailed tracking and reporting. In our example, the subaccounts have the following structure \(see [Subaccounts: Example of Planning Subaccount Identifiers](config_Subaccounts_Example.md)\):
 
@@ -19,7 +19,7 @@ The organizational structure of the company is reflected in the subaccounts. In 
     -   *SB* \(snowboards\)
     -   *00* \(non-specific\)
 
-## Configuring a Budget Structure { .section}
+## Configuring a Budget Structure
 
 Suppose the North Serpent Company prepares the budgets with the following major budget articles:
 
@@ -58,7 +58,7 @@ These major budget articles will be represented as nodes on the [Budget Configur
 | | |Repairs and Maintenance–Nevada|5570|NV-????-?? \(Aggregation\)|5570|NV-0000-00|
 | | |Repairs and Maintenance–California|5580|CA-????-?? \(Aggregation\)|5580|CA-0000-00|
 
-## Defining Account-Subaccount Pairs and Masks { .section}
+## Defining Account-Subaccount Pairs and Masks
 
 For the major node, account and subaccount masks are not specified because these nodes are divided into multiple nodes. For each subnode, the account and subaccount masks are specified. These masks specify the group of budget articles that can be added under the node. The articles with the account and subaccount that match the masks are automatically placed under the node when you preload articles for a budget on the [Budgets](../UserGuide/GL_30_20_10.md) \(GL302010\) form.
 

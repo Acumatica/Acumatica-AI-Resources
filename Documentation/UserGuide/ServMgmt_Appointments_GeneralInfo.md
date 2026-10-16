@@ -1,4 +1,4 @@
-# Appointment Creation: General Information {#_5dc9b087-77f5-4d80-b47c-f53f627de0bd .concept}
+# Appointment Creation: General Information
 
 In Acumatica ERP, an *appointment* is a document that represents a single in-person visit to perform one or multiple services. You can create an appointment either from a service order or independently. When an appointment is created separately, the system automatically generates a related service order once the appointment is saved.
 
@@ -8,7 +8,7 @@ In some situations, such as an urgent repair request, the need for service may a
 
 In this chapter, you will create and schedule an appointment without first creating a service order. You will learn to do this in several ways.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -16,11 +16,11 @@ In this chapter, you will learn how to do the following:
 -   Assign staff member to specific services in an existing appointment.
 -   Create an appointment on the [Calendar Board](FS_30_03_00.md#) \(FS300300\) form and assign it to a staff member whose skills meet the appointment requirements. You'll review how the system alerts you when a staff member’s skills don’t match.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create an appointment in a wide variety of scenarios. In the most common scenario, you receive a call from your customer informing your company of a problem for which your company's services are requested. The service manager of your company creates the appointment and assigns an appropriate staff member to perform the service or services.
 
-## The Steps of the Workflow { .section}
+## The Steps of the Workflow
 
 In general, the processing of an appointment consists of the following steps \(for simplicity, these steps describe one appointment with one staff member assigned and without a service order being created first\):
 
@@ -34,11 +34,10 @@ In general, the processing of an appointment consists of the following steps \(f
 
 After each step has been performed, you can notify the customer and the staff member about appointment details by sending them notification emails. Before an appointment has been assigned, you can also send notification emails to staff members of the service area where the appointment takes place.
 
-## Workflow of Appointment Creation and Processing { .section}
+## Workflow of Appointment Creation and Processing
 
 The typical process of creating and processing an appointment that does not have an existing service order involves the actions and generated documents shown in the following diagram.
 
-![](Images/diag_ServMgmt_Create_and_Process_Appointment.png "Appointment creation and processing")
 
 **Parent topic:**[Creating Appointments](../UserGuide/ServMgmt_Processing_Appointments_Mapref.md)
 

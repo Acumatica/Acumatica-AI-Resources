@@ -1,8 +1,8 @@
-# Service Orders with a Single Appointment: General Information {#_269ae777-4a28-43b2-ad3e-ec42ca2ad6f9 .concept}
+# Service Orders with a Single Appointment: General Information
 
 A service order, created on the [Service Orders](FS_30_01_00.md) \(FS300100\) form, contains information about the services planned for a customer and any related appointments. In Acumatica ERP, you can create service orders, schedule appointments, and process billing for each service order.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -11,11 +11,11 @@ In this chapter, you will learn how to do the following:
 -   Start and complete the appointment
 -   Close the appointment and process billing for the service order
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create and process a service order with an appointment if your company sells services and has customers that request services from time to time.
 
-## Workflow of Service Order Processing { .section}
+## Workflow of Service Order Processing
 
 If the customer’s billing cycle specifies that billing documents should be generated for service orders instead of appointments, processing a service order with a single appointment involves the following steps: \(which are shown in the diagram of the next section\):
 
@@ -46,7 +46,7 @@ If the customer’s billing cycle specifies that billing documents should be gen
     If any additional changes should be made in the service order, the service manager can unclose the service order by clicking **Unclose** on the More menu of the [Service Orders](FS_30_01_00.md#) form. This causes the service order to be assigned the *Completed* status, and information in the service order can be edited.
 
 
-## Billing Documents { .section}
+## Billing Documents
 
 **Tip:** In the context of Acumatica ERP's service management functionality, a *billing document* refers to a document or transaction that is generated when the billing process is executed for a service document. Depending on the settings of the service order type, it can be a sales order, sales invoice, AR invoice or project transaction.
 
@@ -67,11 +67,10 @@ When a service order is billed on the [Service Orders](FS_30_01_00.md#) or the [
 
 -   *None*: No document is generated for a service orders or appointment of this service order type, and the other settings of the **Billing Settings** section do not appear on the form.
 
-## Process Diagram { .section}
+## Process Diagram
 
 The typical workflow of service order processing is shown in the following diagram.
 
-![](Images/diag_ServMgmt_Service_Order_Process_Overview.png "Processing of a service order")
 
 **Parent topic:**[Processing Service Orders with a Single Appointment](../UserGuide/ServMgmt_Processing_Service_Orders_Mapref.md)
 

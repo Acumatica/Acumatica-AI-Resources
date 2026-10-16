@@ -1,4 +1,4 @@
-# Modification of Periods for a Year {#_cd9585bb-1334-4c97-8cbd-7dc22d234772 .concept}
+# Modification of Periods for a Year
 
 After financial periods are defined, the same periods will be used for all subsequent financial years. If needed, you can modify the financial periods of a year on the [Master Financial Calendar](GL_20_10_00.md) \(GL201000\) form. You can change the settings of a financial period if you did not post any transactions to the period you need to modify.
 
@@ -6,7 +6,7 @@ After financial periods are defined, the same periods will be used for all subse
 
 In this topic, you will read about how to edit periods, add an adjustment period, and delete periods in the system.
 
-## Editing Periods {#section_n5f_mjv_vxb .section}
+## Editing Periods
 
 You can perform some modifications of financial periods by selecting the **User-Defined Periods** check box on the [Master Financial Calendar](GL_20_10_00.md) \(GL201000\) form.
 
@@ -22,7 +22,7 @@ After you have modified the periods, the last period may end on a different date
 
 After you save the changes, you can review periods and change them once again if necessary, or proceed to perform financial operations for these periods.
 
-## Modifying Week-Based Periods {#section_u5f_mjv_vxb .section}
+## Modifying Week-Based Periods
 
 If you edit the end date for periods based on weeks on the [Master Financial Calendar](GL_20_10_00.md) \(GL201000\) form, the day of week on which the last period ends can differ from the day on which other periods end. When you save your changes, the system opens the **Update Financial Year** dialog box. In the dialog box, you select how to make the year end as described in the section above. You can also set the system to move the start date of a financial period to another day of the week by selecting the **Move Start Date of Financial Period** check box.
 
@@ -30,11 +30,11 @@ If you edit the end date for periods based on weeks on the [Master Financial Cal
 
 If you do not want to change the end day that is already configured, you clear the **Move Start Date of Financial Period** check box. The system adjusts the end date of the period so that it meets the configuration of the financial year.
 
-## Adding an Adjustment Period {#section_y5f_mjv_vxb .section}
+## Adding an Adjustment Period
 
 To post adjustment transactions, you can add an adjustment period after the last period. The adjustment period is one-day period, the start and end days of which are the same as the end date of the last period of the current financial year. To add an adjustment period, you select the **User-Defined Periods** check box and click **Add Row** on the table toolbar of the [Master Financial Calendar](GL_20_10_00.md) \(GL201000\) form. The system automatically selects the check box in the **Adjustment Period** column. The adjustment period will be added only for this particular year.
 
-## Deleting Periods {#section_avf_mjv_vxb .section}
+## Deleting Periods
 
 If you have realized that a period is unnecessary for the financial year \(for example, an adjustment period\), you can delete it on the [Master Financial Calendar](GL_20_10_00.md) \(GL201000\) form if no transactions have been posted to it yet. To do so, you select the **User-Defined Periods** check box, select a period in the table and click **Delete Row** on the table toolbar for the form.
 

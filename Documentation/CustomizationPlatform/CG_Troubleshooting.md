@@ -1,4 +1,4 @@
-# Troubleshooting Customization {#_77cf9e6f-7d3d-4501-95d2-bf8c8b0bb7af .concept}
+# Troubleshooting Customization
 
 This part is intended to describe how to solve issues that occur while you are developing or applying a customization. It will be under ongoing development to cover all the approaches and ways required to solve each typical issue that is result of an error in customization or a misunderstanding of the platform features.
 

@@ -1,24 +1,24 @@
-# GL Consolidation Configuration: General Information {#_1dc0ec81-0965-4fc3-b789-bdc737e01bac .concept}
+# GL Consolidation Configuration: General Information
 
 The functionality of GL consolidation allows you to consolidate data from a subsidiary company \(a consolidation unit\) into a specific branch in the parent tenant or from specific branches of a subsidiary company into a specific branch of the parent tenant. You can configure which data should be consolidated and how exactly the data should be consolidated. After consolidation has been configured, you can consolidate the data as often as you need to within each financial period.
 
 This functionality is available only if the *General Ledger Consolidation* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Learning Objectives {#section_o5l_mjv_vxb .section}
+## Learning Objectives
 
 In this lesson, you will learn how to do the following:
 
 -   Perform initial configuration in the parent company
 -   Create a tenant for a subsidiary company without branches and perform initial configuration in it
 
-## Applicable Scenarios {#section_q5l_mjv_vxb .section}
+## Applicable Scenarios
 
 You perform GL consolidations in the following cases:
 
 -   The parent company has one or multiple subsidiaries implemented as separate tenants and needs GL consolidation for reporting purposes. \(This scenario is used in the activities that follow.\)
 -   The parent company has one or multiple subsidiaries that use the base currency that differs from the parent's base currency and are implemented as separate tenants. The parent company needs GL consolidation for reporting purposes.
 
-## Consolidation Process {#section_s5l_mjv_vxb .section}
+## Consolidation Process
 
 The consolidation process in the general ledger includes three stages:
 
@@ -28,11 +28,11 @@ The consolidation process in the general ledger includes three stages:
 
 Each time the consolidation data is imported, a batch of the *Consolidation* type is created on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## Restriction on Financial Periods {#section_v5l_mjv_vxb .section}
+## Restriction on Financial Periods
 
 During the import, consolidation data is grouped by the financial periods of the reporting unit. Thus, financial periods in the consolidation units and in the parent company should be defined similarly; otherwise, the consolidated data will be incorrect.
 
-## Configuration Requirements {#section_vv2_1y4_y4b .section}
+## Configuration Requirements
 
 Before you get started, you should review the hierarchy of the companies whose data should be consolidated, and determine which companies report to which. We consider only a two-level hierarchy: a parent company and the subsidiary or subsidiaries that report to it. \(In Acumatica ERP, subsidiaries that are consolidated are referred to as *consolidation units*.\) This simple hierarchy can be used as a part of a more complicated hierarchy, with the consolidation process going from the bottom to the top and with parent companies consolidating data from the units beneath them and then becoming units of the parent company above them. This topic is based on the assumption that the parent company and its subsidiaries use Acumatica ERP.
 
@@ -47,14 +47,14 @@ For correct consolidated data, the following requirements should be met:
 2.  The parent company and its subsidiaries should have a similar structure for their charts of accounts, with fewer accounts on the parent chart. Data from multiple accounts used in a subsidiary can be consolidated into one account of the parent company.
 3.  A subsidiary should have a subaccount structure similar to that of the parent company. The parent company may have one additional segment \(compared to the subsidiary\) with values designating subsidiaries.
 
-## Configuration of the Parent Company {#section_bvl_mjv_vxb .section}
+## Configuration of the Parent Company
 
 Before performing the consolidation for the first time, you configure the parent company as follows:
 
 1.  You specify the access data for each consolidation unit on the [Consolidation](GL_10_30_00.md) \(GL103000\) form of the parent company.
 2.  You synchronize the data on the same form and select source ledgers for each consolidation unit in the **Source Ledger** box.
 
-## Configuration of Consolidation Units {#section_dvl_mjv_vxb .section}
+## Configuration of Consolidation Units
 
 Before performing the consolidation for the first time, each consolidation unit whose data will be exported to the parent company has to be configured as follows:
 

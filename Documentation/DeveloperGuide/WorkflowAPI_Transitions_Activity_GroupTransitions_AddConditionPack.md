@@ -1,4 +1,4 @@
-# Step 1: Adding a Condition {#_0325185c-3d44-4c13-94a5-86170209395b .task}
+# Step 1: Adding a Condition
 
 To implement a transition from the `OnHold` workflow state to the `ReadyForAssignment` or `PendingPayment` workflow state, based on the properties of the current repair work order, you need to define a condition that is true when a repair work order requires prepayment. You will use the logical NOT C\# operator and this condition to define a condition that is true when a repair work order does not require prepayment.
 
@@ -9,7 +9,7 @@ To declare the condition, do the following:
 1.  In the `RSSVWorkOrderEntry_Workflow` class, add the `Conditions` region.
 2.  In the `Conditions` region, declare a condition class, as the following code shows.
 
-    ```language-csharp
+    ```csharp
             public class Conditions : Condition.Pack
             {
             }
@@ -17,7 +17,7 @@ To declare the condition, do the following:
 
 3.  In the `Conditions` class, declare a condition that is true when the repair work order requires prepayment, as the following code shows.
 
-    ```language-csharp
+    ```csharp
                 public Condition RequiresPrepayment => GetOrCreate(condition => 
                     condition.FromBql<Where<RSSVRepairService.prepayment
                         .FromSelectorOf<RSSVWorkOrder.serviceID>.IsEqual<True>>>());
@@ -27,7 +27,7 @@ To declare the condition, do the following:
 
 4.  In the static Configure method, create an instance of the Conditions class, as the following code shows.
 
-    ```language-csharp
+    ```csharp
                 // Create an instance of the Conditions class
                 var conditions = context.Conditions.GetPack<Conditions>();
     ```

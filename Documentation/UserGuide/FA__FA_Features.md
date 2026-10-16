@@ -1,20 +1,20 @@
-# Fixed Assets Overview {#_fd255a28-5747-4935-a342-1548afa50de2 .concept}
+# Fixed Assets Overview
 
 By using the fixed asset functionality, you can create fixed assets, track them through their useful life, depreciate them, and dispose of them.
 
 The primary features of the fixed asset functionality are described briefly below and extensively in other topics.
 
-## Quick Conversion from Acquired Items to Fixed Assets {#section_ipb_ljv_vxb .section}
+## Quick Conversion from Acquired Items to Fixed Assets
 
 In Acumatica ERP, if your company has acquired new assets, you can quickly convert these items into fixed assets. The acquired items can be converted as separate assets or as components of an existing asset. Alternatively, you can add a fixed asset by entering the required information manually. For more details, see [Conversion of a Purchase: General Information](FixedAssets_Converting_Purchase_GeneralInfo.md).
 
-## Fixed Asset Classes {#section_kpb_ljv_vxb .section}
+## Fixed Asset Classes
 
 You can configure fixed asset classes, which let you group similar fixed assets for processing and reporting. Once you assign a new asset to a specific class, the default values from the class are automatically filled in, streamlining the creation of the fixed asset. Many essential settings—such as the asset's useful life, the depreciation method, and the depreciation books that can be used to depreciate the asset—must be defined for a fixed asset class.
 
 To be able to maintain a fixed asset in Acumatica ERP, on acquiring the asset, you need to create a fixed asset record in the system. When you create a fixed asset, you select the fixed asset class to which it belongs, and the system automatically fills in the type of asset, the recovery period, the depreciation settings, and the GL accounts that are specified for the selected fixed asset class. For more information, see [Fixed Assets: Fixed Asset Classes](../ImplementationGuide/config_FixedAssets_FA_classes.md).
 
-## Fixed Asset Hierarchy {#section_npb_ljv_vxb .section}
+## Fixed Asset Hierarchy
 
 In Acumatica ERP, the fixed asset hierarchy is a group of relationships between parent and child assets. A fixed asset can have an unlimited number of child assets \(also referred to as *components*\) and only one parent asset. For example, the renovation of a unit of equipment or a building represents an individual fixed asset that is a component of the equipment or building, which is the parent fixed asset.
 
@@ -32,31 +32,31 @@ When you define a child asset on the [Fixed Assets](FA_30_30_00.md) form, you ca
 
 You can also organize the hierarchy of fixed assets as you convert purchased items into fixed assets. You can specify units of items that you want to convert as components of selected assets on the [Convert Purchases to Assets](FA_50_45_00.md) form on the **Reconciliation** tab of the [Fixed Assets](FA_30_30_00.md) form.
 
-## Depreciation Methods {#section_wpb_ljv_vxb .section}
+## Depreciation Methods
 
 Acumatica ERP provides multiple built-in depreciation methods that are allowed by law in the United States. Additionally, you can configure your own depreciation methods. For the same asset, different depreciation methods can be used for financial reporting and tax reporting. For details, see [Depreciation Configuration](FA__cnf_Depreciation_Methods.md).
 
-## Built-in Averaging Conventions {#section_ypb_ljv_vxb .section}
+## Built-in Averaging Conventions
 
 Acumatica ERP provides a number of built-in averaging conventions to be used for calculating depreciation for the financial periods within which an asset was acquired or disposed. You can select the averaging convention that suits the specific depreciation method. For more information, see [Averaging Conventions](FA__con_Averaging_Conventions.md).
 
-## Flexible Options for Depreciation Calculation {#section_aqb_ljv_vxb .section}
+## Flexible Options for Depreciation Calculation
 
 You can automate depreciation calculations for all types of assets by creating schedules for depreciation. You can run these schedules for a particular asset or for multiple assets. If needed, you can suspend the depreciation of specific assets for an unspecified number of periods. For more details, see [Asset Depreciation: General Information](FixedAssets_Depreciation_GeneralInfo.md).
 
-## Support for Fixed Asset Depreciation in the United States {#section_cqb_ljv_vxb .section}
+## Support for Fixed Asset Depreciation in the United States
 
 Acumatica ERP fully supports United States-based tax reporting requirements, and you can perform depreciation according to the requirements of the tax authorities of your country. For information on how to set up tax benefits to be calculated during fixed asset depreciation, see [U.S.-Based Fixed Asset Depreciation](FA__con_US-Based_Fixed_Asset_Depreciation.md).
 
-## Mass-Transfer of Fixed Assets {#section_eqb_ljv_vxb .section}
+## Mass-Transfer of Fixed Assets
 
 By using Acumatica ERP, you can transfer the assets between branches one by one or through mass processing. For details, see [Asset Transfers: Mass Processing](FixedAssets_Transfers_Mass_Processing.md).
 
-## Mass-Disposal of Fixed Assets {#section_gqb_ljv_vxb .section}
+## Mass-Disposal of Fixed Assets
 
 By using Acumatica ERP, you can perform mass disposal and one-by-one disposal of fixed assets. To learn more about the disposal methods and the ways fixed assets can be disposed of with Acumatica ERP, see [Asset Disposal: General Information](FixedAssets_Disposal_GeneralInfo.md).
 
-## Other Features and Options {#section_iqb_ljv_vxb .section}
+## Other Features and Options
 
 The fixed asset functionality, you can also do the following:
 

@@ -1,8 +1,8 @@
-# Transactions with Subaccounts: Process Activity {#_727b9fc3-40c7-459e-9ca2-70b10dce7f12 .task}
+# Transactions with Subaccounts: Process Activity
 
 In this activity, you will learn how to create a GL batch with journal entries to the same account split by subaccount—that is, these entries have the same account but different subaccounts specified. You will also release and post the batch and review its details.
 
-## Story {#section_ar3_mjv_vxb .section}
+## Story
 
 Suppose that in January 2026, the SweetLife Fruits &amp; Jams company paid its employees a total of $38,300.
 
@@ -15,7 +15,7 @@ Acting as a SweetLife accountant, you need to enter a batch for a payment in the
 
 In the batch, you need to record a separate entry for each department so that you can later view the expenses of each department in reports.
 
-## Configuration Overview {#section_er3_mjv_vxb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed for the purposes of this activity:
 
@@ -27,11 +27,11 @@ In the *U100* dataset, the following tasks have been performed for the purposes 
 -   On the [Ledgers](GL_20_15_00.md) \(GL201500\) form, the *ACTUAL* ledger has been added.
 -   On the [Segmented Keys](CS_20_20_00.md) \(CS202000\) form, the *SUBACCOUNT* segmented key has been created.
 
-## Process Overview {#section_hr3_mjv_vxb .section}
+## Process Overview
 
 In this activity, you will enter a batch directly on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form, release and post the batch, and note the status of the batch at each step. Then you will review the batch’s details by using the [Account by Subaccount](GL_40_30_00.md) \(GL403000\) form.
 
-## System Preparation {#section_jr3_mjv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -40,7 +40,7 @@ Before you begin performing the steps of this activity, do the following:
 3.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu button to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 4.  As a prerequisite to the current activity, make sure you have completed [Subaccounts: Implementation Activity](../ImplementationGuide/config_Subaccounts_Implem_Activity.md) to enable the *Subaccounts* feature on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form and define the *SUBACCOUNT* segmented key on the [Segmented Keys](CS_20_20_00.md) \(CS202000\) form.
 
-## Step 1: Processing a Batch of Transactions with Subaccounts {#section_lr3_mjv_vxb .section}
+## Step 1: Processing a Batch of Transactions with Subaccounts
 
 To process a batch of transactions that include subaccounts, do the following:
 
@@ -81,7 +81,7 @@ To process a batch of transactions that include subaccounts, do the following:
     Note that the batch’s status has changed to *Posted*.
 
 
-## Step 2: Reviewing the Account and Subaccount Balances {#section_or3_mjv_vxb .section}
+## Step 2: Reviewing the Account and Subaccount Balances
 
 To review the details of the batch, do the following:
 

@@ -1,10 +1,10 @@
-# Managing Commissions: Process Activity {#_727a3a96-3c35-4d99-9d75-a7e2c5dd7654 .task}
+# Managing Commissions: Process Activity
 
 The following activity will walk you through the process of setting up and calculating salesperson commissions.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the management of SweetLife Fruits &amp; Jams has decided to introduce commission payments to its salespeople. According to the company's commission plan, each salesperson will earn a monthly 10% commission on every sale. Commissions should be calculated on each invoice amount.
 
@@ -12,7 +12,7 @@ Further suppose that after the plan became effective, Grace Norman sold training
 
 Acting as the SweetLife chief accountant, you need to set up commissions in the system, create an invoice with Grace Norman specified as a salesperson for it, and calculate this salesperson's commission for January.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -27,7 +27,7 @@ On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *ABAKERY \(Allen's Bak
 
 On the [Employees](EP_20_30_00.md) \(EP203000\) form, the *Grace Norman* employee record has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will perform the following steps:
 
@@ -39,7 +39,7 @@ In this activity, you will perform the following steps:
 6.  On the [Calculate Commissions](AR_50_55_00.md) \(AR505500\) form, prepare commissions for January.
 7.  On the [Close Commission Period](AR_50_65_00.md) \(AR506500\) form, close the commission period.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin the setup and calculation of commissions, do the following:
 
@@ -47,7 +47,7 @@ Before you begin the setup and calculation of commissions, do the following:
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step 1: Enabling the Needed Feature { .section}
+## Step 1: Enabling the Needed Feature
 
 To enable the *Commissions* feature, do the following:
 
@@ -56,7 +56,7 @@ To enable the *Commissions* feature, do the following:
 3.  Select the **Commissions** check box in the **Advanced Financials** group of features.
 4.  On the form toolbar, click **Enable** to enable the feature.
 
-## Step 2: Reviewing the Accounts Receivable Preferences { .section}
+## Step 2: Reviewing the Accounts Receivable Preferences
 
 To review the commission-related settings, do the following:
 
@@ -65,7 +65,7 @@ To review the commission-related settings, do the following:
     -   **Salesperson Commission By**: *Invoice*
     -   **Commission Period Type**: *Monthly*
 
-## Step 3: Specifying the Salesperson's Default Commission { .section}
+## Step 3: Specifying the Salesperson's Default Commission
 
 To create the salesperson and specify her default commission percentage, do the following:
 
@@ -86,7 +86,7 @@ To create the salesperson and specify her default commission percentage, do the 
 
 4.  On the form toolbar, click **Save**.
 
-## Step 4: Updating the Customer's Settings { .section}
+## Step 4: Updating the Customer's Settings
 
 To specify Grace Norman as the default salesperson for the customer, do the following:
 
@@ -94,7 +94,7 @@ To specify Grace Norman as the default salesperson for the customer, do the foll
 2.  On the **Salespersons** tab, notice that Grace Norman has been added as a salesperson for this customer. Select the **Default** check box in this row, which is the only row on the tab.
 3.  On the form toolbar, click **Save**.
 
-## Step 5: Creating a Commissionable Invoice { .section}
+## Step 5: Creating a Commissionable Invoice
 
 To create an invoice in which Grace Norman’s commission will be specified, do the following:
 
@@ -116,7 +116,7 @@ To create an invoice in which Grace Norman’s commission will be specified, do 
 
 5.  On the form toolbar, click **Remove Hold** and then click **Release** to release the invoice.
 
-## Step 6: Preparing Commissions { .section}
+## Step 6: Preparing Commissions
 
 To prepare commissions for Grace Norman, do the following:
 
@@ -131,7 +131,7 @@ To prepare commissions for Grace Norman, do the following:
     The system processes the commission and changes the status of the commission period to *Prepared*.
 
 
-## Step 7: Closing the Commission Period { .section}
+## Step 7: Closing the Commission Period
 
 To close the *01-2026* commission period, do the following:
 

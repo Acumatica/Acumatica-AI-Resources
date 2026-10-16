@@ -1,8 +1,8 @@
-# Create a Shipment for Two Sales Orders with Allocations and Package Specifications {#_ab83de33-505c-476e-b8b8-99f2a98e142c .concept}
+# Create a Shipment for Two Sales Orders with Allocations and Package Specifications
 
 By using the REST API, you can create a shipment with allocations and package specifications in a single API call.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to do the following to configure your client application and the Acumatica ERP instance to be used:
 
@@ -25,15 +25,15 @@ Also, in this example, a shipment will be created for two sales orders. Before y
 |**UOM** column \(in the only row on the **Details** tab\)|*PIECE*|*BOX*|
 |**Warehouse** column \(in the only row on the **Details** tab\)|*WHOLESALE*|*WHOLESALE*|
 
-## Request { .section}
+## Request
 
 You can use the following example of an HTTP request to create a shipment for the two sales orders that you created. For the first sales order \(in this example, its ID is *000071*; if the sales order you added has a different number, it should be used in the code\), you take one jar of jam from the *L2R3S1* location and another jar of jam from the *L3R2S1* location. For the second sales order \(in this example, its ID is *000072*; if the sales order you added has a different number, it should be used in the code\), you take jars of jam from the *L1R3S2* location. Also, you indicate that all jars of jam of both sales orders should be packed into one large box.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-PUT /entity/Default/25.200.001/Shipment?
-    $expand=Details,Details/Allocations,Packages,Packages/PackageContents 
+PUT /entity/Default/26.200.001/Shipment?
+    $expand=Details($expand=Allocations),Packages($expand=PackageContents)
     HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
@@ -114,7 +114,7 @@ Content-Type: application/json
 }
 ```
 
-## Usage Notes { .section}
+## Usage Notes
 
 **Attention:**
 

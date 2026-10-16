@@ -1,4 +1,4 @@
-# Tree {#_17c2609f-ab76-4a21-a9fc-6434f4c79468 .concept}
+# Tree
 
 In this chapter, you will learn how to configure trees on Acumatica ERP forms. The chapter also includes information about conversion of tree controls from ASPX to HTML and TypeScript.
 

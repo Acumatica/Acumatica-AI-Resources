@@ -1,12 +1,12 @@
-# Purchase Requisition Configuration: Configuration Prerequisites {#_4c78718d-ddc7-4d58-9fd9-8025a0a0c557 .concept}
+# Purchase Requisition Configuration: Configuration Prerequisites
 
 Before you start configuring the purchase requisition functionality in Acumatica ERP, you should be sure that the needed features have been enabled, settings have been specified, and entities have been created, as described in the following sections.
 
-## Enabling the Needed Feature { .section}
+## Enabling the Needed Feature
 
 On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, the *Purchase Requisitions* feature must be enabled.
 
-## Configuring the System { .section}
+## Configuring the System
 
 You need to make sure that the following tasks have been performed in Acumatica ERP before you begin to configure purchase requisitions:
 

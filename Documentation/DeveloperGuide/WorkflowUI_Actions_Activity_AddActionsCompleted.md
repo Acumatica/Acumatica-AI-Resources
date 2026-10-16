@@ -1,18 +1,18 @@
-# Action Configuration: To Create a Workflow Action That Displays a Dialog Box {#_ff131c20-a41f-4ed9-bc3d-8e4ed4dc0601 .task}
+# Action Configuration: To Create a Workflow Action That Displays a Dialog Box
 
 The following activity will walk you through the process of adding a workflow action that displays a dialog box.
 
-## Story { .section}
+## Story
 
 When a task on the [Task](../UserGuide/CR_30_60_20.md) \(CR306020\) form has the *Completed* status, only one action should be available: the `Reopen` action. When a user clicks the **Reopen** button or command, you want the system to display the **Reopen** dialog box, in which the user must specify the percent of the task completion.
 
 Acting as the technical specialist, you need to create an action and add it to the `Completed` state.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Actions](../UserGuide/AU_20_10_50.md) page, you will create an action that displays a dialog box. On the [Workflow \(Tree View\)](../UserGuide/AU_20_10_30.md) page, you will then add the action to the `Completed` state.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin adding actions to the workflow states, do the following:
 
@@ -22,7 +22,7 @@ Before you begin adding actions to the workflow states, do the following:
 
 2.  Make sure that you have completed the [Workflow Elements: To Add a Dialog Box](WorkflowUI_ConfiguringWorkflowElements_Activity_AddDialogBox.md) and [Action Configuration: To Add a Category to the More Menu](WorkflowUI_Actions_Activity_AddCategory.md) activities.
 
-## Step 1: Creating an Action { .section}
+## Step 1: Creating an Action
 
 To create the `Reopen` action, do the following in the Customization Project Editor for the *TaskWorkflow* project:
 
@@ -39,7 +39,7 @@ To create the `Reopen` action, do the following in the Customization Project Edi
     -   **Category**: *Processing*
 4.  Click **Save** to close the dialog box and save your changes.
 
-## Step 2: Adding the New Action to the Completed State { .section}
+## Step 2: Adding the New Action to the Completed State
 
 To add the `Reopen` action to the `Completed` state, do the following:
 

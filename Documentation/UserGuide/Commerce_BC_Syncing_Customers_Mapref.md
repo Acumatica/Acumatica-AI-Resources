@@ -1,8 +1,14 @@
-# Synchronizing Customers {#_7410bff7-d035-4a36-9119-71b1193d0b03 .concept}
+# Synchronizing Individual and Business Customers
 
-In the topics of this chapter, you will read about customer synchronization between Acumatica ERP and the BigCommerce store.
+In the topics of this chapter, you will read about the synchronization of individual customers and business customers between Acumatica ERP and the BigCommerce store.
 
 -   **[Synchronizing Customers: General Information](../UserGuide/Commerce_BC_Syncing_Customers_GeneralInfo.md)**  
+
+-   **[Synchronizing Customers: Default Settings](../UserGuide/Commerce_BC_Syncing_Customers_Settings.md)**  
+
+-   **[Synchronizing Customers: Individual Customers](../UserGuide/Commerce_BC_Syncing_Customers_Individual.md)**  
+
+-   **[Synchronizing Customers: Business Customers](../UserGuide/Commerce_BC_Syncing_Customers_Companies.md)**  
 
 -   **[Synchronizing Customers: Implementation Checklist](../UserGuide/Commerce_BC_Syncing_Customers_Implem_Checklist.md)**  
 

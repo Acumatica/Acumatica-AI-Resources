@@ -1,8 +1,8 @@
-# To Discover the Cause of Performance Degradation {#_11666144-db7d-4055-ad71-bd4906f4fc65 .concept}
+# To Discover the Cause of Performance Degradation
 
 Suppose that after publishing a customization project, you notice that the Acumatica ERP performance on a customized form is being degraded. To check whether the content of the customization project is the cause of the performance degradation and to find the code fragment that is affecting system performance, you can use the Request Profiler.
 
-## To Check Whether a Customization Project Affects System Performance {#_fe5fdf6e-4727-4249-910c-3468945f90cb .section}
+## To Check Whether a Customization Project Affects System Performance
 
 To check whether a customization project is degrading the Acumatica ERP performance, perform the following actions:
 
@@ -25,7 +25,7 @@ To check whether a customization project is degrading the Acumatica ERP performa
 
 4.  On the form toolbar of the [Request Profiler](../UserGuide/SM_20_50_70.md) form, click **Clear Log** to delete the logged data from the database.
 
-## To Find the Code Fragment That Is Affecting System Performance {#_3f9fa934-c620-4e17-8fbe-ede97555f53d .section}
+## To Find the Code Fragment That Is Affecting System Performance
 
 If you have confirmed that the system performance is being degraded on a customized form, you can use the Request Profiler to discover the code fragment that is causing the performance degradation. To do this, perform the following actions:
 

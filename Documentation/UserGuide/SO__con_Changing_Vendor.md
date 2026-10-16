@@ -1,10 +1,10 @@
-# Changing the Vendor in a Purchase Order {#_a5902079-d0ed-4a29-80c7-9b0726d4db2d .concept}
+# Changing the Vendor in a Purchase Order
 
 You may want to change the vendor in the existing purchase order—for example, if you want to compare the order total for different vendors, or if the wrong vendor was selected in the purchase order. To change the vendor, you need to change the vendor ID specified for the purchase order.
 
 You change the vendor ID in the **Vendor** box of the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form for a purchase order that has the *On Hold* status, check the settings of the purchase order that have changed, and save your changes. The following sections describe the settings that are and are not preserved, as well as the restrictions on changing the vendor in a document.
 
-## Settings that Are Preserved When the Vendor Is Changed { .section}
+## Settings that Are Preserved When the Vendor Is Changed
 
 When you change the vendor ID of the purchase order on the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form, the system preserves the following settings in the Summary area:
 
@@ -24,7 +24,7 @@ The system also preserves the following information in the appropriate columns o
 -   The state of the **Completed** and **Canceled** check boxes
 -   Files and notes that have been attached to the line
 
-## Settings that Are Changed When the Vendor Is Changed { .section}
+## Settings that Are Changed When the Vendor Is Changed
 
 When you change the vendor ID in the purchase order on the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form, the system updates the following information in the Summary area based on the new date and on the settings of the newly selected vendor on the [Vendors](AP_30_30_00.md) \(AP303000\) form:
 
@@ -55,7 +55,7 @@ On the **Details** tab, the system also updates information in the appropriate c
 
 The system does not automatically save the document after you change the vendor ID, so you can easily cancel these changes by clicking **Cancel** on the form toolbar.
 
-## Restrictions on Changing the Vendor { .section}
+## Restrictions on Changing the Vendor
 
 You cannot save the purchase order after changing the vendor in any of the following cases:
 

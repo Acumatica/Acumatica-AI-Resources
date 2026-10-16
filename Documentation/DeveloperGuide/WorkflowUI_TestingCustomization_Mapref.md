@@ -1,4 +1,4 @@
-# Testing the Customization {#_e8679511-6451-4679-9fb3-a8022fa5a1ce .concept}
+# Testing the Customization
 
 In this chapter, you will learn how to test the workflow customization you have created for the [Task](../UserGuide/CR_30_60_20.md) \(CR306020\) form. You need to publish the customization project before performing these tests on the form.
 

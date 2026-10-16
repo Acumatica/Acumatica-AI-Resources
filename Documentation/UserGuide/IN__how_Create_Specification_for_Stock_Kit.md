@@ -1,15 +1,15 @@
-# To Create a Specification for a Stock Kit {#_cca6ecba-7a89-455b-9f80-6d547378e28f .task}
+# To Create a Specification for a Stock Kit
 
 After you have created a stock kit, you must add the needed stock and non-stock items to the kit \(that is, create a kit specification\) by using the [Kit Specifications](IN_20_95_00.md) \(IN209500\) form, as described in this topic.
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 -   Make sure that the stock kit for which you want to add a specification has been created on the [Stock Items](IN_20_25_00.md) \(IN202500\) form.
 -   Make sure that stock and non-stock items that you want to add to the kit have been created on the [Stock Items](IN_20_25_00.md) \(IN202500\) and [Non-Stock Items](IN_20_20_00.md) \(IN202000\) forms.
 
-## To Create a Specification for a Stock Kit { .section}
+## To Create a Specification for a Stock Kit
 
 1.  Open the [Kit Specifications](../Shared/../UserGuide/IN_20_95_00.md) \(IN209500\) form.
 2.  In the **Kit Inventory ID** box of the Summary area, select the stock kit for which you want to create a specification.

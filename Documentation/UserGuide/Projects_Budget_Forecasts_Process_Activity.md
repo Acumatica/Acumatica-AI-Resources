@@ -1,10 +1,10 @@
-# Project Budget Forecasts: Process Activity {#_c53c0111-16c1-4385-a86e-d9cecd31d1c0 .task}
+# Project Budget Forecasts: Process Activity
 
 This activity will walk you through the process of creating and processing a project budget forecast.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the HM's Bakery and Cafe customer has ordered 80 hours of new-employee training on operating juicers from the SweetLife Fruits &amp; Jams company. SweetLife's project manager has created a project to account for the provided training.
 
@@ -12,7 +12,7 @@ The project accountant of SweetLife has been asked to prepare a budget forecast 
 
 Acting as the project accountant, you will create a project budget forecast. Distributing the budget across periods, you will realize that the budget requires an update. You will update the project budget based on the budget forecast. When the training takes place, you will update the progress of the project and review the budget forecast.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -20,11 +20,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Projects](PM_30_10_00.md#) \(PM301000\) form, the *HMBAKERY13* project has been created and the *TRAINING* project task has been created for the project. Also, the revenue budget and the cost budget are defined for the project with a line with the *TRAINING* inventory item and the *LABOR* account group.
 -   On the [Project Transactions](PM_30_40_00.md) \(PM304000\) form, the *PM00000020* batch of project transactions related to the project has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create the first revision of the budget forecast and generate periods for the revision on the [Project Budget Forecast](PM_20_96_00.md#) \(PM209600\) form. On this form, you will then distribute budgeted amounts by period and update the project budget based on the distributed values. You will update actual values of the project by releasing transactions on the [Project Transactions](PM_30_40_00.md) \(PM304000\) form. You will finally update the budget forecast on the [Project Budget Forecast](PM_20_96_00.md#) form based on the updated actual values.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, perform the following instructions to prepare the system:
 
@@ -35,7 +35,7 @@ Before you begin performing the steps of this activity, perform the following in
 5.  In the **Projects** group of features, select the **Budget Forecast** check box to enable the *Budget Forecast* feature, which gives you the ability to create budget forecasts for projects.
 6.  On the form toolbar, click **Enable**.
 
-## Step 1: Creating a Project Budget Forecast and Generating Periods { .section}
+## Step 1: Creating a Project Budget Forecast and Generating Periods
 
 To create a forecast revision for the project, do the following:
 
@@ -65,7 +65,7 @@ To create a forecast revision for the project, do the following:
 7.  In the Summary area, select *All* in the **Type** box. The system displays in the table all the budget lines of the forecast revision. As a result, the revenue budget line with the *REVENUE* account group has again appeared in the table. Notice that no period lines have been added to the revenue budget line.
 8.  Save your changes to the forecast revision.
 
-## Step 2: Distributing Amounts Across the Periods { .section}
+## Step 2: Distributing Amounts Across the Periods
 
 To distribute budgeted amounts across periods of the forecast revision, do the following:
 
@@ -91,7 +91,7 @@ To distribute budgeted amounts across periods of the forecast revision, do the f
 7.  On the [Projects](PM_30_10_00.md#) form, open the *HMBAKERY13* project.
 8.  On the **Cost Budget** tab, notice that the **Original Budgeted Quantity** and **Revised Budgeted Quantity** of the cost budget line are 70 and the **Original Budgeted Amount** and **Revised Budgeted Amount** are $2,800.
 
-## Step 3: Updating Actual Values of the Project { .section}
+## Step 3: Updating Actual Values of the Project
 
 To upload and process the transactions that represent the training provided within the project, do the following:
 
@@ -118,7 +118,6 @@ To upload and process the transactions that represent the training provided with
     -   01-2026: The company provided 10 hours of training less than it was planned.
     -   02-2026: The training was performed as it was planned.
     -   03-2026: The company provided 10 hours of training more than it was planned.
-    ![](Images/activity_Projects_Budget_Forecasts.png "Tracking budget performance by periods")
 
 9.  Save your changes to the forecast revision.
 

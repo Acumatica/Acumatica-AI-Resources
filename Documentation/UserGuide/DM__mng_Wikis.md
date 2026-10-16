@@ -1,10 +1,10 @@
-# Managing Wikis {#_a7187950-7068-464d-8935-ce38c79d789f .concept}
+# Managing Wikis
 
 In Acumatica ERP, a wiki is a repository of working materials or a knowledge base where you can store such information as Help articles, internal manuals, instructions, marketing materials, and plans. You can create and maintain a number of wikis of different purposes.
 
 The topics in this chapter contain basic information that you can use as you create, edit, manage, and delete wikis and wiki articles.
 
-## In This Chapter { .section}
+## In This Chapter
 
 -   [Wiki Overview](SM__con_Wiki_Management.md)
 -   [Wiki Access Management](SM__con_Wiki_Access_Setup.md)

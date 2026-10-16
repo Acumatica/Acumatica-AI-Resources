@@ -1,10 +1,10 @@
-# Scheduling Appointments: Calendar Board {#_42742860-763d-405c-b88d-af5190a58195 .concept}
+# Scheduling Appointments: Calendar Board
 
 In field services, appointments are at the core of daily operations, and the calendar is the main tool for managing them. In this topic, you’ll learn how the calendar board helps you schedule, view, and manage appointments efficiently to support smooth service delivery.
 
 **Important:** This topic describes the calendar board available in the modern UI of Acumatica ERP.
 
-## From Unscheduled to Scheduled: Easy Appointment Creation {#section_iss_fbm_dgc .section}
+## From Unscheduled to Scheduled: Easy Appointment Creation
 
 On the [Calendar Board](FS_30_03_00.md) \(FS300300\) form, the left pane shows these tabs:
 
@@ -21,34 +21,29 @@ You can create an appointment for either a service order or a specific service b
 
 **Tip:** Gray dotted time blocks on the calendar represent a staff member’s non-working hours. The white area represents working hours, which are configured on the [Staff Schedule Rules](FS_20_20_01.md) \(FS202001\) form.
 
-![](Images/FieldService_Calendar_Unscheduled_Tab.png "Service orders and services on the Unscheduled tab")
 
 You can search for a service order by using the **Search** box. The system will search based on the string you enter, which can include the service order number, description, customer ID, customer name, address, phone number, email, service order detail description, and problem description. Additionally, you can filter the list of service orders by using the Acumatica ERP’s simple or advanced filtering capabilities.
 
 To view more details about a service order, simply click its reference number in the tile to open the quick view panel \(see below\).
 
-![](Images/FieldService_Calendar_Unscheduled_Quick_View.png "Quick view panel for a service order")
 
-## Appointments at a Glance {#section_ikb_422_kfc .section}
+## Appointments at a Glance
 
 The **Scheduled** tab of the left pane of the [Calendar Board](FS_30_03_00.md) \(FS300300\) form shows a complete list of all scheduled appointments. Click an appointment tile in the list to:
 
 -   Highlight the appointment on the calendar in its corresponding day and time slot
 -   Highlight the appointment location on the map \(see below\)
 
-![](Images/FieldService_Calendar_Scheduled_on_Calendar.png "An appointment on the calendar")
 
 You can search for the needed appointment in the list by using the appointment number, description, related service order description, customer ID, customer name, address \(from the service order’s address line 1\), phone, email, and problem description. Additionally, you can filter the list of appointments by using Acumatica ERP’s simple or advanced filtering capabilities.
 
 To quickly review appointments scheduled for today, click today's date at the bottom of the Date Picker window \(see below\), which opens when you click the date on the calendar pane toolbar. The system updates the calendar to display today’s appointments.
 
-![](Images/FieldService_Calendar_Today.png "The Date Picker window")
 
-## Appointment Viewing and Management {#section_kdm_ylh_yfc .section}
+## Appointment Viewing and Management
 
 For efficient management of your appointments on the [Calendar Board](FS_30_03_00.md) \(FS300300\) form, you can quickly perform actions for an appointment. To view the corresponding menu commands, right-click the appointment tile on the **Scheduled** tab or the calendar pane \(see below\).
 
-![](Images/FieldService_Calendar_Appointment_Actions.png "Available menu commands for an appointment")
 
 Click one of these menu commands:
 
@@ -59,7 +54,7 @@ Click one of these menu commands:
 -   **Validate by Dispatcher**/**Clear Validation**: Validates or removes validation for the appointment. The system selects or clears the **Validated by Dispatcher** check box on **Settings** tab of the [Appointments](FS_30_02_00.md) form.
 -   **Confirm**/**Unconfirm**: Confirms or removes confirmation for the appointment. The system selects or clears the **Confirmed** check box on **Settings** tab of the [Appointments](FS_30_02_00.md) form.
 
-## Unassigned Appointments on the Calendar {#section_t5z_pj2_yfc .section}
+## Unassigned Appointments on the Calendar
 
 If no staff member is assigned to an appointment, it appears in the **Unassigned** row at the top of the calendar on the [Calendar Board](FS_30_03_00.md) \(FS300300\) form \(see below\). You can easily assign a staff member by dragging the appointment tile from the **Unassigned** row to the staff member's row. The appointment will then appear in the corresponding staff member's row, within the appropriate time slot.
 
@@ -69,25 +64,95 @@ The list of staff members displayed in the calendar area is sorted alphabeticall
 
 The size of the appointment tile reflects the scheduled duration. You can adjust the duration by resizing the tile, as well as change the scheduled start time and date by dragging the appointment to the needed time slot.
 
-![](Images/FieldService_Calendar_Scheduled_Unassigned.png "Scheduled appointments with no staff assigned")
 
-## Color Coding of Appointments {#section_s25_hth_yfc .section}
+## Color Coding of Appointments
 
 On the [Calendar Board](FS_30_03_00.md) \(FS300300\) form, the color and pattern of the appointment tiles displayed on the **Scheduled** tab and in the calendar pane can vary, providing a quick visual cue about the appointment's state. These variations depend on whether the appointment:
 
 -   Has been confirmed
 -   Is assigned to a staff member
 
-|Indicator|Description|Meaning|
-|---------|-----------|-------|
-|**Plain tile colors without stripes** indicate that the appointment **is confirmed**—meaning that the **Confirmed** check box is selected on the [Appointments](FS_30_02_00.md) \(FS300200\) form. The color reflects whether the appointment is assigned.|
-|![](Images/FieldService_Calendar_Color_Coding_Tile_White_Plain.png)|White tile \(Item 1 below\)|The appointment is confirmed and unassigned.|
-|![](Images/FieldService_Calendar_Color_Coding_Tile_Blue_Plain.png)|Light blue tile \(Item 2\)|The appointment is confirmed and assigned to a staff member.|
-|**Zebra-striped** tiles always indicate that the appointment is **not confirmed**—meaning the **Confirmed** check box is cleared on the [Appointments](FS_30_02_00.md) \(FS300200\) form.|
-|![](Images/FieldService_Calendar_Color_Coding_Tile_White_Zebra_Striped.png)|White zebra-striped tile \(Item 3\)|The appointment is unconfirmed and unassigned to any staff member.|
-|![](Images/FieldService_Calendar_Color_Coding_Tile_Blue_Zebra_Striped.png)|Dark blue zebra-striped tile \(Item 4\)|The appointment is unconfirmed but assigned to a staff member.|
-|A gray tile indicates that the appointment is finalized.|
-|![](Images/FieldService_Calendar_Color_Coding_Tile_Gray_Plain.png)|Gray tile \(Item 5\)|The appointment is completed, closed, billed, or canceled.|
+<table id="table_xjl_dyj_1gc"><thead><tr><th>
+
+Indicator
+
+</th><th>
+
+Description
+
+</th><th>
+
+Meaning
+
+</th></tr></thead><tbody><tr><td colspan="3">
+
+**Plain tile colors without stripes** indicate that the appointment **is confirmed**—meaning that the **Confirmed** check box is selected on the [Appointments](FS_30_02_00.md) \(FS300200\) form. The color reflects whether the appointment is assigned.
+
+</td></tr><tr><td>
+
+
+</td><td>
+
+White tile \(Item 1 below\)
+
+</td><td>
+
+The appointment is confirmed and unassigned.
+
+</td></tr><tr><td>
+
+
+</td><td>
+
+Light blue tile \(Item 2\)
+
+</td><td>
+
+The appointment is confirmed and assigned to a staff member.
+
+</td></tr><tr><td colspan="3">
+
+**Zebra-striped** tiles always indicate that the appointment is **not confirmed**—meaning the **Confirmed** check box is cleared on the [Appointments](FS_30_02_00.md) \(FS300200\) form.
+
+</td></tr><tr><td>
+
+
+</td><td>
+
+White zebra-striped tile \(Item 3\)
+
+</td><td>
+
+The appointment is unconfirmed and unassigned to any staff member.
+
+</td></tr><tr><td>
+
+
+</td><td>
+
+Dark blue zebra-striped tile \(Item 4\)
+
+</td><td>
+
+The appointment is unconfirmed but assigned to a staff member.
+
+</td></tr><tr><td colspan="3">
+
+A gray tile indicates that the appointment is finalized.
+
+</td></tr><tr><td>
+
+
+</td><td>
+
+Gray tile \(Item 5\)
+
+</td><td>
+
+The appointment is completed, closed, billed, or canceled.
+
+</td></tr></tbody>
+</table>
 
 The **colored vertical bar** \(Item 6\) on the tile indicates the appointment's status \(for example, *Not Started*, *In Process*, *Paused*, and *Billed*\). On the **Status Color** tab of [Calendar Preferences](FS_10_05_00.md) \(FS100500\) form, you can change:
 
@@ -96,9 +161,8 @@ The **colored vertical bar** \(Item 6\) on the tile indicates the appointment's 
 
 Below you can see the color coding applied to appointment tiles.
 
-![](Images/FieldService_Calendar_Color_Coding.png "Color indications on the calendar")
 
-## Appointment Viewing on the Map {#section_gl3_lrw_xfc .section}
+## Appointment Viewing on the Map
 
 Map functionality is built into the new calendar on the [Calendar Board](FS_30_03_00.md) \(FS300300\) form. This visual representation of appointments helps you easily track and manage staff locations, optimize routes, and enhance scheduling efficiency.
 
@@ -110,22 +174,19 @@ By using the map, you can:
 
     **Tip:** You can collapse or expand the map pane.
 
-    ![](Images/FieldService_Calendar_Map.png "The appointment location on the map")
 
 -   **View the route on the map between appointments** for the selected staff member. If you click the staff member's name on the calendar \(Item 1 below\), the system shows the route between the appointments assigned to that staff member for the selected day, based on the scheduled start times.
 
-    ![](Images/FieldService_Calendar_Map_Route.png "The staff member’s route between appointments")
 
 -   **View routes on the map for multiple selected staff members**. By holding the Shift or Ctrl key, you can select multiple staff members on the calendar \(Item 1 below\). The system displays the routes between their appointments for the selected day, based on the scheduled start times. Each staff member's route is identified by a distinct color \(Item 2\).
 
-    ![](Images/FieldService_Calendar_Map_Multiple_Routes.png "Multiple routes of selected staff members")
 
 
 **Tip:** You can customize the map theme by selecting an icon of your favorite style in the top-right corner of the map pane.
 
-## See Where Your Staff Members Are Right Now {#section_zch_f2h_bgc .section}
+## See Where Your Staff Members Are Right Now
 
-In Acumatica ERP 2026 R1, you can configure real-time GPS tracking for staff members who are using the Acumatica mobile app. With this functionality in place, the new calendar —integrated with Azure Maps —displays the current locations of staff members. This gives the field service manager a clear view of where technicians are at this moment.
+In Acumatica ERP 2026 R2, you can configure real-time GPS tracking for staff members who are using the Acumatica mobile app. With this functionality in place, the new calendar —integrated with Azure Maps —displays the current locations of staff members. This gives the field service manager a clear view of where technicians are at this moment.
 
 You can view the current location of a staff member on the map only if the following conditions are met:
 
@@ -139,7 +200,7 @@ You can view the current location of a staff member on the map only if the follo
 
 Each selected **staff member** is displayed as an icon on the calendar, shown in a **unique**, system-assigned **color**. This color coding helps you distinguish staff members on the calendar. When a staff member is selected, the system highlights their appointments and the routes between them by using the same color as their icon, making it easier to track their schedule and daily routes.
 
-## Smart Assignments {#section_ycd_dyf_kfc .section}
+## Smart Assignments
 
 To ensure that the right staff member is assigned to the right appointment, you can control the assignment of appointments based on their skills, licenses, and service areas directly on the calendar board. This enhances service quality and reduces the risk of errors or delays. You can:
 
@@ -149,21 +210,18 @@ To ensure that the right staff member is assigned to the right appointment, you 
 
 Here's how it works: On the [Service Management Preferences](FS_10_01_00.md) \(FS100100\) form, you specify *Do Not Validate*, *Warn*, or *Prevent* in any \(or all\) of these boxes: **Skills**, **Service Areas**, and **Licenses** box \(see below\).
 
-![](Images/FieldService_Skill_Assignment_on_Calendar.png "The skill validation options")
 
 The options mean the following:
 
 -   *Do Not Validate*: You’ll be able to assign an appointment **to any staff member** on the calendar without restrictions.
 -   *Warn*: You’ll still be able to assign an appointment to any staff member, even if the skills required for the appointment services do not match the staff member’s skills. In this case, the *Skill Mismatch* **warning will appear** next to the staff member, and the staff member will be highlighted in yellow on the board \(see below\).
 
-    ![](Images/FieldService_Calendar_Warn_Assigning_Staff.png "Warning indication for skill, license, or service area mismatch")
 
 -   *Prevent*: You can assign an appointment to a staff member **only if their skills, service areas, or licenses match** the ones required for the appointment. If there’s a mismatch, the system will display the corresponding warning next to the staff member and highlight them in red on the calendar \(see below\). The system will prevent you from scheduling the appointment if the staff member doesn’t have the required skills, service areas, or licenses for the services to be scheduled.
 
-    ![](Images/FieldService_Calendar_Prevent_Assigning_Staff.png "Warning of a mismatch")
 
 
-## Customized Calendar View {#section_wg1_dz4_xfc .section}
+## Customized Calendar View
 
 On the new [Calendar Board](FS_30_03_00.md) \(FS300300\) form, you can create customized calendar views that align with your needs. You can easily switch between different filtered views \(such as **My Team**, **All Staff**, or specific skills or branch locations\). See the following items in the example shown below:
 
@@ -171,11 +229,10 @@ On the new [Calendar Board](FS_30_03_00.md) \(FS300300\) form, you can create cu
 -   Items 2 and 3: The **filter criteria** for a created filter tab.
 -   Item 4: A **filtered list of staff members**, limited by the specified criteria.
 
-![](Images/FieldService_Filter_Tabs.png "Calendar with the list of staff members limited by filter criteria")
 
 If a filter is created based on the branch and branch location settings, appointments assigned to branches not selected in the filter will still appear on the calendar board in gray. This ensures that appointments are not double-booked.
 
-## Scheduling of the Project-Related Appointments {#section_vgm_1m2_yfc .section}
+## Scheduling of the Project-Related Appointments
 
 **Important:** This functionality is available when the *Projects* feature is enabled in your system.
 
@@ -183,7 +240,6 @@ To ensure that only the appropriate staff members are assigned to appointments l
 
 If the check box is selected, the system displays *Not in Project* next to any staff member not added to the **Employees** tab of the specified project. These staff members are highlighted in red \(shown below\), and the system will prevent you from assigning the appointment to them.
 
-![](Images/FieldService_Staff_Member_Not_in_Project.png "The indication of the Not in Project staff")
 
 **Parent topic:**[Scheduling with Modern Calendar Board](../UserGuide/ServMgmt_Scheduling_with_Calendar_Board_mapref.md)
 

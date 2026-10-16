@@ -1,12 +1,12 @@
-# To Notify Customers About Expiring Cards {#_d3d68e81-dd9b-47ac-80d7-086de2ccf6ca .task}
+# To Notify Customers About Expiring Cards
 
 You can monitor how soon customer credit cards will expire and send customers notifications about the coming expiration of the card by using the [Notify About Expiring Cards](AR_51_20_00.md) \(AR512000\) form.
 
-## Before You Proceed {#section_m1t_4jv_vxb .section}
+## Before You Proceed
 
 Before you can notify customers about expiring cards, the notification about expiring cards has to be configured in the system, as described in [To Set Up a Mailing About Credit Card Expiration](AR__HOW_Configure_CCExpiration_Mailing.md).
 
-## To Notify On Expiring Cards {#section_o1t_4jv_vxb .section}
+## To Notify On Expiring Cards
 
 1.  Open the [Notify About Expiring Cards](../Shared/../UserGuide/AR_51_20_00.md) \(AR512000\) form.
 2.  In the **Starting** box of the **Expiration Period** section, select the start date of the interval specified in the **Expire in \(days\)** box.

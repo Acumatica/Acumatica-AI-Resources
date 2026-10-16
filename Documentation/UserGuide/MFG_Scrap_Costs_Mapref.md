@@ -1,4 +1,4 @@
-# Calculating Costs of Scrapped Items {#_6f2586ce-9017-4416-8c6a-c1582dcfd1c0 .concept}
+# Calculating Costs of Scrapped Items
 
 Reviewing costs of scrapped items can be important for production accountants when they analyze production costs and search for the ways to optimize the costs. In this chapter, you will find information about how the system calculates costs of scrap with various production settings and how you can view the scrap costs in the system.
 

@@ -1,4 +1,4 @@
-# Formula Editor: General Information {#_f9b43e45-2b10-4bc1-8061-0667c4fabfa2 .concept}
+# Formula Editor: General Information
 
 The formula editor is a control that gives a user the ability to select or compose a formula. The formula editor control is composed of a*formula box* and *Formula Editor dialog box*.
 
@@ -11,39 +11,36 @@ The formula editor control is implemented with the [qp-formula-editor](https://h
 -   PXFormulaEditor
 -   PXFormulaCombo
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn the following about the formula editor:
 
 -   The design guidelines for the formula editor, including the naming conventions and layout recommendations
 -   The proper configuration of the formula editor for specific cases, such as custom options in the Formula Editor dialog box
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure the formula editor in the following cases:
 
 -   You need to give users the ability to select an existing formula from a combo box
 -   You need to give users the ability to compose custom formulas
 
-## Formula Box { .section}
+## Formula Box
 
 A*formula box* is a box of the formula editor where the formula is displayed. The formula box can be added as a column or as a box in a fieldset.
 
 The formula box can behave like a text box or a combo box depending on the attributes on the corresponding DAC field. The following screenshot shows an example of formula boxes.
 
-![](Images/UIDevRef_FormulaEditor_BoxesExamples.png "Formula boxes")
 
 In the following screenshot, you can see an example of a formula box in a column.
 
-![](Images/UIDevRef_FormulaEditor_ColumnExamples.png "A formula box in a column")
 
 You can also configure the formula editor control to be displayed as a combo box, as shown in the following screenshot. For details, see [Formula Editor: Configuration of a Combo Box Field for the Formula Editor](UIDevRef_FormulaEditor_ComboBox_Concept.md).
 
-## Formula Editor Dialog Box { .section}
+## Formula Editor Dialog Box
 
 A *Formula Editor dialog box* is a dialog box where a user can compose a formula. The dialog box \(see the following screenshot\) opens when a user clicks the Edit button in a formula box.
 
-![](Images/UIDevRef_FormulaEditor_DialogExamples.png "The Formula Editor dialog box")
 
 The formula editor can be implemented with the following tags:
 
@@ -52,7 +49,7 @@ The formula editor can be implemented with the following tags:
 
 However, you do not need to add these tags to the HTML template; the dialog box is displayed by default.
 
-## Configuration of a Formula Editor { .section}
+## Configuration of a Formula Editor
 
 You can configure the formula box and Formula Editor dialog box in the following locations:
 

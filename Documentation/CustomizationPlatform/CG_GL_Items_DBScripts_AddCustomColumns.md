@@ -1,10 +1,10 @@
-# To Add a Custom Column to an Existing Table {#_c4f3f7d3-d071-4962-8e12-c1421548f87a .task}
+# To Add a Custom Column to an Existing Table
 
 You use the Database Scripts page of the Customization Project Editor to add custom columns of an existing table of Acumatica ERP to a customization project. If you add custom fields to a data access class by using the [Data Class](../UserGuide/AU_DataClassEditor.md), you do not need to add the custom columns to the database table manually; the Acumatica Customization Platform adds these columns automatically. You may need to add a column manually if you added a custom field to a data access class in code.
 
 We recommend that you not write custom SQL scripts to add changes to the database schema. If you add a custom SQL script, you must adhere to platform requirements that apply to custom SQL scripts, such as the support of multitenancy and the support of SQL dialects of the target database management systems. If you use the approach described in this topic, during the publication of the customization project, the platform generates SQL statements to alter the existing table so that this statement conforms to all platform requirements.
 
-## To Add a Custom Column to an Existing Table { .section}
+## To Add a Custom Column to an Existing Table
 
 To add a custom column, do the following:
 
@@ -18,7 +18,7 @@ To add a custom column, do the following:
 
 The Acumatica Customization Platform adds the columns to the customization project as a *Table* item.
 
-## To Specify the Default Value for a Column { .section}
+## To Specify the Default Value for a Column
 
 **Attention:** The information in this section is provided for informational purposes only. We recommend that you not use this approach, which goes against established best practices, to specify default values for table columns that you update or add in a table schema of your customization project. This approach could result in these default values not being applied because the internal mechanism of the database engine sometimes fails to set the specified column default values, especially nonzero values, at the database level. Default values of *0* for columns are generally supported, but in some edge cases, they may not be set correctly. To reliably set column default values for a table, you should use the approach described in [Best Practices](CG_GL_Items_DBScripts_Best_Practices.md).
 

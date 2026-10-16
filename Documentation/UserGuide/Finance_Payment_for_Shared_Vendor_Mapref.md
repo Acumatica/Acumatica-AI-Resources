@@ -1,4 +1,4 @@
-# Processing Payments for a Shared Vendor {#_8c531214-6ced-499d-8d1c-9ff0ab9d5f75 .concept}
+# Processing Payments for a Shared Vendor
 
 In Acumatica ERP, you can process payments for a vendor that is shared by different companies.
 

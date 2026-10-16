@@ -1,4 +1,4 @@
-# Item Costs and Valuation Methods: Items with a Negative On-Hand Quantity {#_09bcbd57-730c-4d3a-aefe-f89ddb107213 .concept}
+# Item Costs and Valuation Methods: Items with a Negative On-Hand Quantity
 
 A negative quantity of a stock item is allowed at a warehouse if the **Allow Negative Quantity** check box is selected in the **General** tab of the [Item Classes](IN_20_10_00.md) \(IN201000\) form for the item's class.
 

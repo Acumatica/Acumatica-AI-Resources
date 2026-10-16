@@ -1,4 +1,4 @@
-# Price Synchronization: Volume-Based Prices {#_fa59ab44-010a-471b-8a11-43ca95edffdf .concept}
+# Price Synchronization: Volume-Based Prices
 
 In Acumatica ERP, if the *Volume Pricing* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can define prices that are dependent on the quantity of the products being purchased by a customer. These prices can be defined for all customers \(that is, they have the *Base* type\) or for particular customer classes \(that is, they have the *Customer Price Class* type\). For more information on how volume-based pricing works in Acumatica ERP, see [Sales Prices: To Explore Volume-Based Prices](Prices_Sales_Price_Selection_Activity_Volume.md).
 

@@ -1,10 +1,10 @@
-# Loading of Bank Feeds from BAI2 Files {#_c857c45b-7572-449d-be4c-f80ff6e5b787 .concept}
+# Loading of Bank Feeds from BAI2 Files
 
 Acumatica ERP supports the Bank Administration Institute Version 2 \(BAI2\) format of bank statements. The Balance and Transaction Reporting Standard \(BTRS\) improves upon the BAI2 format. The BAI2 and BTRS formats are banking industry standards for communicating bank statements electronically.
 
 The BAI2 and BTRS file formats are supported by bank feeds. When a user retrieves bank feed transactions, the system detects a new file with transactions exported to it by a bank and creates bank transactions for the specified cash account. If a corporate card and employee are specified in the bank feed settings, the system creates expense receipts for them.
 
-## Setup of BAI2 Transaction Retrieval { .section}
+## Setup of BAI2 Transaction Retrieval
 
 To set up the functionality of retrieving BAI2 transactions from a bank feed, an administrative user does the following:
 
@@ -16,32 +16,173 @@ To set up the functionality of retrieving BAI2 transactions from a bank feed, an
 
 For details, see [To Set Up Bank Feeds Loaded from the BAI2 Format](CA__HOW_Set_Up_BankFeeds_from_BAI2.md).
 
-## Mapping Rules { .section}
+## Mapping Rules
 
 On the **Source File** tab \(**Mapping Rules** section\) of the [Bank Feeds](CA_20_55_00.md) \(CA205500\) form, the system inserts the following settings.
 
-|Active|Target Field|Source Field or Value|
-|------|------------|---------------------|
-|Selected|*Bank Account Name*|*Customer Account Number*|
-|Selected|*Ext. Tran. ID*|*Bank Reference Number*|
-|Selected|*Tran. Date*|*As-of-date*The format of this value is *YYMMDD*.
+<table id="_eb0dd811-808b-4723-8f0f-b42994a182ce"><thead><tr><th>
 
-|
-|Selected|*Transaction Amount*|*Amount*|
-|Selected|*Tran. Desc*|*=Concat\( \[Tran Desc\], \[Additional Tran Desc\]\)*|
+Active
+
+</th><th>
+
+Target Field
+
+</th><th>
+
+Source Field or Value
+
+</th></tr></thead><tbody><tr><td>
+
+Selected
+
+</td><td>
+
+*Bank Account Name*
+
+</td><td>
+
+*Customer Account Number*
+
+</td></tr><tr><td>
+
+Selected
+
+</td><td>
+
+*Ext. Tran. ID*
+
+</td><td>
+
+*Bank Reference Number*
+
+</td></tr><tr><td>
+
+Selected
+
+</td><td>
+
+*Tran. Date*
+
+</td><td>
+
+*As-of-date*The format of this value is *YYMMDD*.
+
+</td></tr><tr><td>
+
+Selected
+
+</td><td>
+
+*Transaction Amount*
+
+</td><td>
+
+*Amount*
+
+</td></tr><tr><td>
+
+Selected
+
+</td><td>
+
+*Tran. Desc*
+
+</td><td>
+
+*=Concat\( \[Tran Desc\], \[Additional Tran Desc\]\)*
+
+</td></tr></tbody>
+</table>
 
 The required fields are added by the system when the data provider is created and cannot be edited.
 
-|Active|Target Field|Source Field or Value|
-|------|------------|---------------------|
-|Cleared|*Card Number*||
-|Cleared|*Ext. Ref. Nbr.*|*Bank Reference Number* The *Bank Reference Number* source field is optional in the BAI2 format, but is required in Acumatica ERP because it is mapped to the transaction ID. The transaction ID is used by the system to identify transactions and avoid duplicate records.
+<table id="_d1e0c038-fe1b-4735-8f1b-666197fe2463"><thead><tr><th>
 
-|
-|Cleared|*Custom Tran. Desc.*| |
-|Cleared|*Invoice Nbr.*|*Customer Reference Number*|
-|Cleared|*Payee/Payer*| |
-|Cleared|*Tran. Code*|*Type Code*|
+Active
+
+</th><th>
+
+Target Field
+
+</th><th>
+
+Source Field or Value
+
+</th></tr></thead><tbody><tr><td>
+
+Cleared
+
+</td><td>
+
+*Card Number*
+
+</td><td>
+
+
+
+</td></tr><tr><td>
+
+Cleared
+
+</td><td>
+
+*Ext. Ref. Nbr.*
+
+</td><td>
+
+*Bank Reference Number* The *Bank Reference Number* source field is optional in the BAI2 format, but is required in Acumatica ERP because it is mapped to the transaction ID. The transaction ID is used by the system to identify transactions and avoid duplicate records.
+
+</td></tr><tr><td>
+
+Cleared
+
+</td><td>
+
+*Custom Tran. Desc.*
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Cleared
+
+</td><td>
+
+*Invoice Nbr.*
+
+</td><td>
+
+*Customer Reference Number*
+
+</td></tr><tr><td>
+
+Cleared
+
+</td><td>
+
+*Payee/Payer*
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Cleared
+
+</td><td>
+
+*Tran. Code*
+
+</td><td>
+
+*Type Code*
+
+</td></tr></tbody>
+</table>
 
 The optional fields are also added by the system when the data provider is created. The mapping of these fields can be updated by the system administrator.
 

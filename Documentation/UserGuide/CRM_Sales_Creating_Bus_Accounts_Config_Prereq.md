@@ -1,15 +1,15 @@
-# Business Accounts: Configuration Prerequisites {#_5e65018a-e919-451e-bd03-948d19d0c938 .concept}
+# Business Accounts: Configuration Prerequisites
 
 Before you start creating business accounts in Acumatica ERP, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the following features must be enabled.
 
 -   *Customer Management*: This feature provides the customer relationship management \(CRM\) functionality, including lead and customer tracking, as well as the handling of sales opportunities, contacts, marketing lists, and campaigns.
 -   *Duplicate Validation* in the *Customer Management* group of features: Provides the duplicate validation functionality.
 
-## Configuring the System { .section}
+## Configuring the System
 
 Before you start creating business accounts in Acumatica ERP, you need to make sure that the following tasks have been performed:
 

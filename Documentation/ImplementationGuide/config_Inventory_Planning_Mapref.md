@@ -1,4 +1,4 @@
-# Configuring Inventory Planning {#_570d7b44-bcfa-442a-942d-ae0ce8511161 .concept}
+# Configuring Inventory Planning
 
 This chapter describes the minimum configuration of the inventory planning functionality that is required for Acumatica ERP users to maintain optimal inventory levels in warehouses.
 

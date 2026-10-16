@@ -1,8 +1,8 @@
-# Asset Transfers: Generated Transactions {#_7700f267-3b4e-4156-9244-d35648677d9e .concept}
+# Asset Transfers: Generated Transactions
 
 As you transfer fixed assets, you create and process transfer transactions. To track the locations of items and update the GL balances, the system generates the GL transactions described in the following sections.
 
-## Transaction Generated for Asset Transfer {#section_f32_ljv_vxb .section}
+## Transaction Generated for Asset Transfer
 
 When you create and release a transfer transaction from one branch to another branch, the system generates the following general ledger transaction.
 

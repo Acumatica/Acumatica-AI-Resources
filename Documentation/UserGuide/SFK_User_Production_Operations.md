@@ -1,10 +1,10 @@
-# Shop Floor Kiosk: Production Operations {#_827256d4-8e49-4417-8411-6e54be76ff8c .concept}
+# Shop Floor Kiosk: Production Operations
 
 The **Production Reporting** page is the primary workspace where you perform production reporting tasks for a selected operation. From this page, you can review operation details, monitor progress, record labor time, report quantities, issue materials, and access related files and work instructions.
 
-## Opening the Production Reporting Page { .section}
+## Opening the Production Reporting Page
 
-You can open the **Production Reporting** page for the selected operation from multiple workflows in the Shop Floor Kiosk, depending on how work is assigned on your shop floor.
+You can open the **Production Reporting** page for the selected operation from multiple workflows in the Shop Floor Kiosk, depending on how work is assigned on your shop floor. For details, see [Shop Floor Kiosk: Work Selection](SFK_User_Work_Selection.md).
 
 **Opening an Operation from Work in Process**
 
@@ -30,6 +30,8 @@ Use the **Production Orders** workflow when you work from travelers, job packets
 2.  Select a production order.
 3.  Select an operation.
 
+**Attention:** If the selected production order contains only one accessible operation, the system immediately opens this operation on the **Production Reporting** page bypassing the operation selection page.
+
 **Opening an Operation from Recent Activity**
 
 Use the **Recent Activity** page to quickly resume recently worked operations.
@@ -38,7 +40,7 @@ Use the **Recent Activity** page to quickly resume recently worked operations.
 2.  Locate the recent transaction or operation.
 3.  Select the operation link.
 
-## Understanding Operation Information { .section}
+## Understanding Operation Information
 
 The top area of the **Production Reporting** page displays information about the selected production order and operation.
 
@@ -66,24 +68,21 @@ If another operation follows the current operation, the page displays:
 
 If the current operation is the final routing step, the page displays an indicator showing that this is the last operation in the production order.
 
-## Viewing Operation Progress { .section}
+## Viewing Operation Progress
 
-The **Production Reporting** page includes a concentric gauge widget that visually displays operation progress.
+The **Production Reporting** page includes a concentric gauge that shows quantity and labor time progress for the selected operation. The gauge reflects activity reported by all employees working on the operation, including active clock entries and previously reported transactions.
 
-The gauge combines quantity progress and labor time progress into a single visual indicator so that you can quickly understand the current state of the operation.
+The **outer ring** shows production quantity progress. The gauge displays the completed and remaining quantities. As completed quantities are reported, the outer ring fills clockwise toward the planned quantity:
 
-The **outer ring** of the gauge represents quantity progress. The gauge displays:
+-   *Gray* indicates that no quantity has been reported.
+-   *Green* indicates that the reported quantity is within the planned quantity.
+-   *Dark green* indicates that the reported quantity exceeds the planned quantity.
 
--   Completed quantity
--   Remaining quantity
+The **inner ring** shows labor time progress. The gauge displays the remaining planned labor time for the operation. As labor time is consumed, the inner ring decreases clockwise:
 
-As completed quantities are reported, the outer ring fills clockwise toward the planned quantity. If reported quantities exceed the planned quantity, the gauge displays an overrun indicator.
-
-The **inner ring** of the gauge represents labor time progress. The gauge displays the remaining planned labor time for the operation.
-
-As labor time is consumed, the inner ring decreases clockwise. If actual labor time exceeds the planned labor time, the gauge displays a labor overrun indicator.
-
-The gauge reflects activity reported by all employees working on the operation, including active clock entries and previously reported transactions.
+-   *Gray* indicates that no labor time has been recorded.
+-   *Yellow* indicates that labor time is within the planned amount.
+-   *Red* indicates that actual labor time exceeds the planned amount.
 
 **Parent topic:**[Shop Floor Kiosk](../UserGuide/MFG_SFK_Mapref.md)
 

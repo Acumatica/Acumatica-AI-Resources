@@ -1,16 +1,16 @@
-# Drawing Logs: Process Activity {#_d6cf110c-fdc7-4856-a051-f4b190bd5c45 .task}
+# Drawing Logs: Process Activity
 
 This activity will walk you through the process of working with a drawing log.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the ToadGreen architect has prepared a floor plan blueprint for the Beach Hotel and Condominiums, the project that the ToadGreen company is working on. Then the architect has submitted a request for information about the plan of the first floor to make sure that the current location of the storage room \(next to the service elevator\) is correct. Based on the submitted request for information, a new revision of the blueprint should be created and linked to the original drawing, and the original blueprint must be marked as obsolete.
 
 Acting as the architect, you will process all required documents in the system with the assumption that these changes will not affect the schedule, cost, and design.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -19,11 +19,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Projects](PM_30_10_00.md#) \(PM301000\) form, the *HOTEL* project has been created with multiple project tasks.
 -   On the [Employees](EP_20_30_00.md) \(EP203000\) form, the *EP00000033 – Ellen Watson* and *EP00000013 – Anna Johnson* employee records have been created.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create a drawing log with the initial floor plan on the [Drawing Log](PJ_30_30_00.md) \(PJ303000\) form. You will then create a request for information on the [Request for Information](PJ_30_10_00.md) \(PJ301000\) form and send an email to the person responsible for receiving the needed information. After that, based on the answer to the request for information that you have received, you will create a new drawing log on the [Drawing Log](PJ_30_30_00.md) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
@@ -32,7 +32,7 @@ To prepare to perform the instructions of this activity, do the following:
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *3/15/2026*. If a different date is displayed, click the Business Date menu button, and select *3/15/2026* on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 4.  Download the [Floor\_Plan\_Revision\_1.jpg](Files/Floor_Plan_Revision_1.jpg) and [Floor\_Plan\_Revision\_2.jpg](Files/Floor_Plan_Revision_2.jpg) files to your device.
 
-## Step 1: Creating a Drawing Log { .section}
+## Step 1: Creating a Drawing Log
 
 To create a drawing log, do the following:
 
@@ -52,7 +52,7 @@ To create a drawing log, do the following:
 5.  On the table toolbar of the **Drawings** tab, click **Files**.
 6.  In the **Files** dialog box, which opens, click **Upload Files**, select the `Floor_Plan_Revision_1.jpg` file, and close the dialog box. Notice that the line with the uploaded drawing has appeared in the table.
 
-## Step 2: Linking a Request for Information to the Drawing Log { .section}
+## Step 2: Linking a Request for Information to the Drawing Log
 
 To create a request for information, do the following:
 
@@ -75,7 +75,7 @@ To create a request for information, do the following:
 
 8.  On the form toolbar, click **Send** to send the email, and return to the [Request for Information](PJ_30_10_00.md) form with the request for information that you have created earlier.
 
-## Step 3: Creating a Revision { .section}
+## Step 3: Creating a Revision
 
 To create a new revision of the drawing log with the updated floor plan, do the following:
 
@@ -87,7 +87,6 @@ To create a new revision of the drawing log with the updated floor plan, do the 
 6.  On the table toolbar of the **Drawings** tab, click **Files**.
 7.  In the **Files** dialog box, which opens, click **Upload Files**, select the `Floor Plan Revision 2.jpg` file,, and close the dialog box. Notice that the **Latest Revision** check box is selected for the new revision of the drawing log, as shown below.
 
-    ![](Images/activity_Construction_Drawing_Log.png "The new revision of the drawing log")
 
 8.  In the Summary area, click the link in the **Original Drawing** box. The [Drawing Log](PJ_30_30_00.md#) form opens with the original drawing log.
 9.  In the Summary area of the form, select *Inactive* in the **Status** box.

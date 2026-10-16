@@ -24,7 +24,7 @@ body:
     attributes:
       label: Acumatica release
       description: Identify the release branch where the problem occurs.
-      placeholder: 2026R1
+      placeholder: 2026R2
     validations:
       required: true
 

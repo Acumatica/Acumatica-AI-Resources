@@ -1,4 +1,4 @@
-# add {#_bd8dcd67-29fa-461b-9ccc-f438e53c1b30 .concept}
+# add
 
 In the mobile site map of the Acumatica ERP instance, appends the referenced object as a child to the object that was processed by a previous instruction with an opening brace.
 

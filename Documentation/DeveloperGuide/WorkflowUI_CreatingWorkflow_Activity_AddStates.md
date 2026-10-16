@@ -1,12 +1,12 @@
-# Workflow Creation: To Add States {#_66048756-eeeb-4ab7-bd2e-d9b76a877bde .task}
+# Workflow Creation: To Add States
 
 The following activity will walk you through the process of adding new and predefined states to the workflow.
 
-## Story {#section_fkj_tcp_jhc .section}
+## Story
 
 Acting as the technical specialist, you need to add predefined states and a new state to the workflow you have defined for the [Task](../UserGuide/CR_30_60_20.md) \(CR306020\) form.
 
-## Process Overview {#section_gkj_tcp_jhc .section}
+## Process Overview
 
 By using the [Workflow \(Tree View\)](../UserGuide/AU_20_10_30.md) page, you will add the following predefined states to the *Task* workflow:
 
@@ -17,7 +17,7 @@ By using the [Workflow \(Tree View\)](../UserGuide/AU_20_10_30.md) page, you wil
 
 You will also add the new `Postponed` state to the workflow.
 
-## System Preparation {#section_hkj_tcp_jhc .section}
+## System Preparation
 
 Before you begin adding states to the workflow, do the following:
 
@@ -27,7 +27,7 @@ Before you begin adding states to the workflow, do the following:
 
 2.  Make sure that you have completed the [Workflow Creation: To Add a Workflow](WorkflowUI_CreatingWorkflow_Activity_CreateWorkflow.md) activity.
 
-## Step 1: Adding the Predefined States to Your Workflow {#section_ikj_tcp_jhc .section}
+## Step 1: Adding the Predefined States to Your Workflow
 
 To add the predefined states to your workflow, in the Customization Project Editor for the *TaskWorkflow* project, do the following:
 
@@ -51,7 +51,7 @@ To add the predefined states to your workflow, in the Customization Project Edit
 
 7.  On the page toolbar, click **Save**.
 
-## Step 2: Adding a New State to Your Workflow {#section_jkj_tcp_jhc .section}
+## Step 2: Adding a New State to Your Workflow
 
 In this step, you will add a new state to your workflow. While you are still working on the CR306020 \(Task\) State Diagram: Task page of the Customization Project Editor, do the following:
 
@@ -66,7 +66,6 @@ In this step, you will add a new state to your workflow. While you are still wor
     -   **Parent State**: Empty
     The dialog box should look as shown in the following screenshot.
 
-    ![](Images/WorkflowUI_CreatingWorkflow_TaskWorkflow_AddPostponed.png "The Add State dialog box")
 
 3.  Click **Add** to close the dialog box and add the new state to the **States and Transitions** pane.
 4.  On the page toolbar, click **Save**.
@@ -77,7 +76,6 @@ In this step, you will add a new state to your workflow. While you are still wor
 6.  On the page toolbar, click **Combo Box Values**.
 7.  In the **Combo Box Values** dialog box, which is opened, notice that the new value \(*Postponed*\) has been added to it \(Item 2\). When a new state is added to a workflow, for the state-identifying field, the system adds a value with the same name.
 
-    ![](Images/WorkflowUI_CreatingWorkflow_TaskWorkflow_Fields.png "The Fields page with the added field")
 
 8.  Close the dialog box.
 

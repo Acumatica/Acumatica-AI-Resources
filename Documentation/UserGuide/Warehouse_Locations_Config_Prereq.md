@@ -1,12 +1,12 @@
-# Warehouse Locations and Single-Step Transfers: Configuration Prerequisites {#_775f57cf-d45e-427a-ad0f-78f13dd4b3c0 .concept}
+# Warehouse Locations and Single-Step Transfers: Configuration Prerequisites
 
 Before starting to create warehouse locations, you must be sure that the required actions have been performed in the system, as described in the following sections.
 
-## Enabling the Needed Feature { .section}
+## Enabling the Needed Feature
 
 On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Multiple Warehouse Locations* feature must be enabled.
 
-## Configuring the System { .section}
+## Configuring the System
 
 Before you start creating warehouse locations, you need to make sure that on the [Inventory Preferences](IN_10_10_00.md) \(IN101000\) form, all required preferences have been configured. For an example of this configuration, see [Configuration of Order Management: Implementation Activity](../ImplementationGuide/config_InvMgmt_Basic_Implem_Activity.md).
 

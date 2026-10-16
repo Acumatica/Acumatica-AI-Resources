@@ -1,8 +1,8 @@
-# Committed Costs: General Information {#_c17cd444-2ac9-4e6e-a687-fa3ccdaa1e16 .concept}
+# Committed Costs: General Information
 
 Acumatica ERP supports the tracking of purchase orders for each project as project cost commitments, which gives you the ability to control purchases made for projects. When the commitments are created, the system uses them to populate the cost budget for the corresponding project, project task, inventory item, and account group.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,11 +10,11 @@ In this chapter, you will learn how to do the following:
 -   Create commitments by creating a purchase order for a project
 -   Review how the commitments affect the project cost budget during the processing of the purchase order
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You set up commitment tracking if you want to distinguish purchases within the cost budget of a project. When you process a purchase order with detail lines related to the project, the system tracks this purchase as a commitment to the project and updates the cost budget of the project with the purchased services and materials. The commitment values are shown in separate columns in the cost budget.
 
-## Tracking of Committed Costs for Projects {#section_akq_jg5_v1b .section}
+## Tracking of Committed Costs for Projects
 
 If the **Internal Cost Commitment Tracking** check box is selected on the **General** tab \(**General Settings** section\) of the [Projects Preferences](PM_10_10_00.md) \(PM101000\) form, the system tracks project-related purchase orders as commitments to these projects and exposes these commitments on the [Commitments](PM_30_60_00.md) \(PM306000\) form.
 
@@ -42,11 +42,10 @@ When an inventory receipt that corresponds to the purchase receipt with the purc
 
 After a purchase order line is assigned the *Closed* status, the **Committed Open Quantity** and **Committed Open Amount** of the corresponding commitment become *0*. If a purchase order has been canceled, the incomplete amounts are subtracted from the **Committed Open Amount**.
 
-## Workflow of Commitments {#section_i3l_d4p_mcb .section}
+## Workflow of Commitments
 
 The following diagram illustrates the workflow of processing a commitment and the ways the commitment affects the project budget.
 
-![](Images/diag_Projects_Commitments_Workflow.png)
 
 **Parent topic:**[Tracking Cost Commitments](../UserGuide/Projects_Commitments_Mapref.md)
 

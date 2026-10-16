@@ -1,22 +1,22 @@
-# Payroll Payments: General Information {#_fc60dce8-6893-4dd7-a9f4-0709ca91738f .concept}
+# Payroll Payments: General Information
 
 When paychecks have been calculated, you need to create a payment batch to be able to print checks or generate an ACH file and send money to the bank, depending on the payment method used.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to create and process payment batches in payroll.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create and process payment batches when you need to print checks or create direct deposit payments for your employees.
 
-## Creation of Payment Batches { .section}
+## Creation of Payment Batches
 
 You use the [Create Payroll Payment](PR_50_50_00.md) \(PR505000\) form for mass processing of the paychecks with the *Pending Payment* status. First, you select a payment method and a corresponding cash account, and then the system displays the list of relevant documents. A payment batch is created after you have processed the listed documents. You can review or process a payment batch by using the [Payment Batches](PR_30_50_00.md) \(PR305000\) form.
 
 If you process multiple checks or direct deposit paychecks at once, the system generates a single batch and redirects you to the [Payment Batches](PR_30_50_00.md) form for further processing. On the [Payment Batches](PR_30_50_00.md) form, depending on the used payment method, you can print the paychecks by using the **Print Checks** command or generate ACH files by using the **Export** command.
 
-## Processing of Payment Batches { .section}
+## Processing of Payment Batches
 
 A payment batch may have one of the following statuses:
 
@@ -33,7 +33,7 @@ The **Print Checks** command is available only for payment batches that contain 
 
 The **Export** command is available for a batch with the *Ready for Export*, *Paid*, or *Closed* status. This command is not available for a batch with the *Check* payment method specified.
 
-## Paychecks in a Payment Batch { .section}
+## Paychecks in a Payment Batch
 
 In the **Payment Batch** box on the [Create Payroll Payment](PR_50_50_00.md) \(PR505000\) form, you can select a payment batch with the *Ready for Export* or *Waiting Paycheck Calculation* status. Only payment batches with the specified payment method and cash account are available for selection. If you select a payment batch and then process the paychecks selected in the table on this form, the system will include these paychecks in the payment batch and update the statistical values in the Summary area. If you do not select a payment batch but process the selected paychecks, the system will create a new payment batch for the processed paychecks.
 
@@ -41,7 +41,7 @@ You can make changes to a paycheck with the *Added to Payment Batch* status. Aft
 
 In a paycheck with the *Added to Payment Batch* status, you cannot change the specified payment method and cash account.
 
-## Prenotes { .section}
+## Prenotes
 
 On the [Payment Batches](PR_30_50_00.md) \(PR305000\) form, you can export the batch of payments as a prenote, which is an ACH file with a zero net pay amount specified for each transaction in the batch details. A prenote can be used for the validation of the payment information by the bank before the release of the payment. You can create a prenote by using the **Export as Prenote** command. This command is available for a batch with the *Ready for Export*, *Paid*, or *Closed* status. This command is not available for a batch with the *Check* payment method specified.
 
@@ -49,7 +49,7 @@ On the **Export History** tab, the system maintains the history of all export an
 
 If you select an entry on the **Export History** tab and click **Export Details** on the table toolbar, the **Export Details** dialog box opens showing the username, log time, and reason, along with a list of the paychecks included in the export.
 
-## Release of Paychecks in a Batch { .section}
+## Release of Paychecks in a Batch
 
 You can release the paychecks included in a payment batch by using the **Release** command on the [Payment Batches](PR_30_50_00.md) \(PR305000\) form. To release paychecks in multiple payment batches at a time, you can use the [Process Payroll Documents](PR_50_10_00.md) \(PR501000\) form with the *Release* option selected in the **Action** box.
 

@@ -1,4 +1,4 @@
-# Managing User Access {#_58acde23-caf5-4a49-9e39-d8bd48779f16 .concept}
+# Managing User Access
 
 An individual must have a user account in the system to access Acumatica ERP. Access to information is controlled primarily by the roles assigned to the user who logs in to the system. Roles generally correspond to the particular job assignments or functions of groups of users. When they sign in, the users authenticate themselves, and the associated roles determine which system resources they may access.
 

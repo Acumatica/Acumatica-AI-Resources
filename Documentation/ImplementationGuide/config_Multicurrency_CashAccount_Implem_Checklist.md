@@ -1,8 +1,8 @@
-# Multicurrency Cash Account: Implementation Checklist {#_051d65a0-a72c-456c-8cd6-db89c21139ff .concept}
+# Multicurrency Cash Account: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for configuring a cash account in a foreign currency, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you initially configure a cash account, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -16,7 +16,7 @@ We recommend that before you initially configure a cash account, you make sure t
 
 For details on configuring the functionality, see [Multicurrency Functionality: Implementation Activity](config_Multicurrency_Basic_Implem_Activity.md). For details on configuring currency rates, see [Configuration of Rate Types and Rates: To Configure Rates](config_Multicurrency_Configuring_Rates_Activity1.md) and [Configuration of Rate Types and Rates: To Set Up Refreshing of Rates](config_Multicurrency_Configuring_Rates_Activity2.md).
 
-## Other Settings That Affect the Workflow { .section}
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of configuring foreign currency cash accounts by specifying additional settings as follows:
 
@@ -26,7 +26,7 @@ You can affect the workflow of configuring foreign currency cash accounts by spe
 
 -   To cause all saved batches to be saved with the *Balanced* status, clear the **Hold Batches on Entry** check box on the [General Ledger Preferences](../UserGuide/GL_10_20_00.md) form. If the check box is selected, a batch is saved with the *On Hold* status by default. If the batch is on hold, you should click **Remove Hold** on the toolbar of the [Journal Transactions](../UserGuide/GL_30_10_00.md) \(GL301000\) form for the batch so you can process it further.
 
-## Validation of Configuration { .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you create a GL transaction with a cash account denominated in a foreign currency by performing instructions similar to those described in [Multicurrency Cash Accounts: To Process a GL Transaction](config_Multicurrency_CashAccount_Process_Activity.md).
 

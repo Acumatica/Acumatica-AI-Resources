@@ -1,35 +1,33 @@
-# Barcode Scan Mode: General Information {#_aeb82445-150f-4318-bb5c-d85097646dec .concept}
+# Barcode Scan Mode: General Information
 
 A barcode scan mode is the main scan component of the Acumatica barcode-driven engine.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to define the required properties of the barcode scan mode.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create a barcode scan mode in the following cases:
 
 -   You are creating a custom barcode-driven form. You have defined a barcode scan class for this form and created an instance of the descendant of the ScanMode class in the CreateScanModes\(\) method implementation. Now you need to define this descendant itself.
 -   You need to add a scan mode to an existing barcode-driven form. You have created a scan extension of a barcode scan class and overridden the CreateScanModes\(\) method to return the new scan mode, as described in [Extension of Scan Components: Customization of Components](WMSEngine_ExtendedComponent_CustomizedComponents.md). Now you need to implement this new mode.
 
-## Barcode Scan Components { .section}
+## Barcode Scan Components
 
 All barcode scan components except ScanMode&lt;TScanBasis&gt; are descendants of the ScanComponent&lt;TScanBasis&gt; class. ScanComponent&lt;TScanBasis&gt; provides access to the barcode scan class via its `Basis` property. The class also contains information about the mode to which it belongs.
 
 The following diagram shows all barcode scan components and the relations between them. For details on the properties of the components, see the API Reference.
 
-![](Images/diag_WMSEngine_ScanComponents.png)
 
-## Scan Mode { .section}
+## Scan Mode
 
 ScanMode&lt;TScanBasis&gt; is the main component of the BarcodeDrivenStateMachine and the base class for all modes. It provides access to all other components and defines their structure and the relationships between them.
 
 The following diagram shows the structure of the scan mode. For details on the properties and methods, see [ScanMode&lt;TScanBasis&gt; Class](https://help.acumatica.com/(W(9))/Help?ScreenId=ShowWiki&pageid=55a078e8-2c69-ef63-57a9-6084fad1d81c).
 
-![](Images/diag_WMSEngine_ScanMode.png)
 
-## Recommendations for Scan Components {#section_vv2_1y4_y4b .section}
+## Recommendations for Scan Components
 
 All scan components that you create should be either `abstract` classes or `sealed` classes. You can introduce an `abstract` component to provide a base implementation that is shared by multiple `sealed` components. We recommend this approach to prevent other developers from using inheritance to alter the behavior of the components defined in your code. Inheritance should be used only when the developer creates a new scan mode or a new barcode-driven Acumatica ERP form from scratch. To alter the behavior of scan components, the developer should use the method interception approach because this approach makes it possible to apply multiple customizations to one component. For details on this approach, see [Extension of Scan Components: Method Interceptors](WMSEngine_ExtendedComponent_MethodInterceptors.md).
 
@@ -37,7 +35,7 @@ All scan components that you create should be either `abstract` classes or `seal
 
 Because scan components are strictly bound to a specific barcode-driven form, you can nest these components within the barcode scan class or even within each other. For example, you can nest the following: scan modes within the barcode scan class; scan states, scan transitions, and scan commands within the scan mode; and scan extensions within the components that use them.
 
-## Implementation of a Scan Mode { .section}
+## Implementation of a Scan Mode
 
 You implement a scan mode as follows:
 

@@ -1,20 +1,20 @@
-# Tenant Maintenance: To Delete a Tenant {#_57db7663-2759-4a47-9037-7e18afdf8d8b .task}
+# Tenant Maintenance: To Delete a Tenant
 
 The following activity will walk you through the process of deleting a tenant.
 
-## Story { .section}
+## Story
 
 Suppose that you are the system administrator of your company, and you need to delete an unneeded tenant from an existing Acumatica ERP application instance.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will delete a tenant from an existing instance.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the step of this activity, perform the following prerequisite activity: [Tenant Maintenance: To Create an Additional Tenant](INST_Maintaning_Tenants_Creating_Additional_Tenant_Activity.md).
 
-## Step: Deleting a Tenant { .section}
+## Step: Deleting a Tenant
 
 If you need to delete a tenant, do the following:
 

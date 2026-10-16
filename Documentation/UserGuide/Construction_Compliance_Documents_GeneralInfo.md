@@ -1,8 +1,8 @@
-# Compliance Documents: General Information {#_f615d7a4-a621-4c49-b981-e1b560d6f7b6 .concept}
+# Compliance Documents: General Information
 
 Companies that manage construction projects have requirements to protect their customers, vendors, suppliers, and partners from potential issues associated with compliance. These compliance issues might be associated with federal, state, and local governmental requirements, but may also be legal and procedural. By tracking compliance, a company can establish the compliance documents that should be captured for different types of entities, so that this information can be used for in-place warnings to users and for reports on project exposure.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,11 +10,11 @@ In this chapter, you will learn how to do the following:
 -   Enter compliance documents for a vendor
 -   Track expired compliance documents
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You apply a compliance document to an entity in the system when it is necessary to warn users about potential issues associated with compliance.
 
-## Creation of Compliance Types { .section}
+## Creation of Compliance Types
 
 You can use compliance types—that is, types of compliance documents—for tracking and reporting on compliance issues. The following compliance types are predefined on the **Custom Attributes** tab of the [Compliance Preferences](CL_30_10_00.md#) \(CL301000\) form:
 
@@ -27,7 +27,7 @@ You can use compliance types—that is, types of compliance documents—for trac
 
 You define the values of the custom attributes for any of the listed compliance types on the [Compliance Preferences](CL_30_10_00.md#) form. On the **Common Attributes** tab of the form, you can also configure common attributes that are available for all types of compliance documents. Once attribute values have been configured for a compliance type, you can enter and view compliance documents of that type on the [Compliance Management](CL_40_10_00.md#) \(CL401000\) form.
 
-## Creation of Compliance Documents { .section}
+## Creation of Compliance Documents
 
 Each compliance document can be associated with various types of documents and with multiple entities, such as project, project task, cost code, vendor, and customer. You add compliance documents manually in the following ways:
 

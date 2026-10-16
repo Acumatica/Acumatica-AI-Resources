@@ -1,25 +1,25 @@
-# Initial Configuration: To Establish the Store Connection with a Public App {#_85560111-5bd0-4161-9692-d4662ae7ed2d .task}
+# Initial Configuration: To Establish the Store Connection with a Public App
 
 The following activity will walk you through the process of connecting your Shopify store to your Acumatica ERP instance.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company wants to sell jam in its online store deployed on the Shopify platform. SweetLife is already using Acumatica ERP and now needs to integrate its instance with a new Shopify store. As SweetLife's implementation consultant, you need to install the Acumatica Cloud ERP app from the Shopify App Store and establish the connection between Acumatica ERP and the Shopify store.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will install the Acumatica Cloud ERP app from the Shopify App Store and then use it to connect Acumatica ERP to your Shopify store.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start this activity, make sure of the following:
 
 1.  You have deployed an Acumatica ERP instance and made it publicly accessible through the internet.
 2.  You have set up a Shopify store, as described in [Initial Configuration: To Set Up a Shopify Store](Commerce_SP_Initial_Configuration_To_Set_Up_a_Shopify_Store.md).
 
-## Step 1: Installing the Acumatica Cloud ERP App { .section}
+## Step 1: Installing the Acumatica Cloud ERP App
 
 To install the Acumatica Cloud ERP app, while you are signed in to your Shopify store, do the following:
 
@@ -39,7 +39,7 @@ To install the Acumatica Cloud ERP app, while you are signed in to your Shopify 
     **Tip:** You can open the Acumatica Cloud ERP app by clicking the app name in the **Installed apps** section of the **Apps** page. You navigate to this page by clicking **Apps** in the left menu.
 
 
-## Step 2: Connecting the Acumatica ERP Instance { .section}
+## Step 2: Connecting the Acumatica ERP Instance
 
 To connect Acumatica ERP to your Shopify store, while you are viewing the first step of the connection wizard, do the following:
 

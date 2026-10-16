@@ -1,27 +1,59 @@
-# Photo Logs: Implementation Checklist {#_3a8434e9-a21d-4b41-b67c-3873ca49876a .concept}
+# Photo Logs: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for working with photo logs, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 Before you begin working with photo logs, you should make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
-|Form|Criteria to Check|
-|----|-----------------|
-|[Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form|Make sure that the *Construction*, and *Construction Project Management* features are enabled.|
-|**Photo Logs** tab of the [Project Management Preferences](PJ_10_10_00.md) \(PJ101000\) form|Make sure that statuses have been configured for photo logs. The *N/A* status, which is the only predefined status in the system, is specified by default for a new photo log. This status cannot be deleted, but you can change its name and description, if needed.
+<table id="_75f5a845-9a95-409c-9ffd-7c022ec672dc"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Criteria to Check
+
+</th></tr></thead><tbody><tr><td>
+
+[Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form
+
+</td><td>
+
+Make sure that the *Construction*, and *Construction Project Management* features are enabled.
+
+</td></tr><tr><td>
+
+**Photo Logs** tab of the [Project Management Preferences](PJ_10_10_00.md) \(PJ101000\) form
+
+</td><td>
+
+Make sure that statuses have been configured for photo logs. The *N/A* status, which is the only predefined status in the system, is specified by default for a new photo log. This status cannot be deleted, but you can change its name and description, if needed.
 
 For instructions, see [Photo Logs: Implementation Activity](Construction_Photo_Logs_Implem_Activity.md).
 
-|
-|[File Upload Preferences](SM_20_25_50.md) \(SM202550\) form|Review the list of the supported image extensions on the form and add additional ones, if needed.
+</td></tr><tr><td>
+
+[File Upload Preferences](SM_20_25_50.md) \(SM202550\) form
+
+</td><td>
+
+Review the list of the supported image extensions on the form and add additional ones, if needed.
 
  After you have saved any changes to the file upload preferences, to apply the changes in the list of file extensions supported for upload, you must clear the system cache by clicking **Reset Caches** on the More menu of the [Apply Updates](SM_20_35_10.md) \(SM203510\) form.
 
-|
-|[Projects](PM_30_10_00.md#) \(PM301000\) form|Make sure that the necessary projects have been created.|
+</td></tr><tr><td>
 
-## Other Settings That Affect the Workflow {#section_hpn_w2y_l5b .section}
+[Projects](PM_30_10_00.md#) \(PM301000\) form
+
+</td><td>
+
+Make sure that the necessary projects have been created.
+
+</td></tr></tbody>
+</table>
+
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of daily field reports by specifying additional settings as follows:
 

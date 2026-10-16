@@ -1,8 +1,8 @@
-# Drivers: To Add a Driver {#_7d4734ea-3828-4766-ad9c-5c000c8a9409 .task}
+# Drivers: To Add a Driver
 
 You use the [Employees](../UserGuide/EP_20_30_00.md) \(EP203000\) form to define an employee as a driver. You can go directly to this form, as described in the procedure below, or invoke the form from the [Staff](../UserGuide/FS_20_55_00.md) \(FS205500\) form by clicking **Add Employee** on the form toolbar and then performing Steps 2–5 of the procedure below.
 
-## To Define an Employee as a Driver { .section}
+## To Define an Employee as a Driver
 
 1.  Open the [Employees](../UserGuide/EP_20_30_00.md) \(EP203000\) form.
 2.  In the **Employee ID** box of the Summary area, select the identifier of the employee you want to define as a driver.

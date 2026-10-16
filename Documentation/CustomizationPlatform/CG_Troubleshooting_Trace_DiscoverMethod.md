@@ -1,4 +1,4 @@
-# To Discover the Method That Has Thrown an Exception {#_a466e076-68db-4557-bd42-1366310a18d2 .concept}
+# To Discover the Method That Has Thrown an Exception
 
 If an exception has occurred at run time and a message box with an error or a warning has been displayed on the form, you can easily discover the method that has thrown the exception. To do this, perform the following actions:
 

@@ -1,12 +1,12 @@
-# Bills of Material: Configuration Prerequisites {#_bce6ca60-31f5-482f-b8cf-007be1ddcbeb .concept}
+# Bills of Material: Configuration Prerequisites
 
 Before starting to create a bill of material, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Feature { .section}
+## Enabling the Needed Feature
 
 On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Manufacturing* feature must be enabled.
 
-## Configuring the System { .section}
+## Configuring the System
 
 You need to make sure the following tasks have been performed in Acumatica ERP before you begin to create bills of material:
 

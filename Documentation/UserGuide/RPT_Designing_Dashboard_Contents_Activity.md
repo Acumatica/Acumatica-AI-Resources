@@ -1,14 +1,14 @@
-# Dashboard Design: To Modify a Dashboard {#_afe2eeb1-ade0-4aa1-9f92-bca77f099c54 .task}
+# Dashboard Design: To Modify a Dashboard
 
 The following activity will show you how to modify your copy of an Acumatica ERP dashboard.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Gladys Peters, a new manager of the SweetLife Fruits &amp; Jams company workshop. You have been using the predefined *AR Clerk* dashboard to stay informed about accounts receivable. However this dashboard displays too many parameters and you need to adjust it to your liking.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -18,11 +18,11 @@ In this activity, you will do the following:
 4.  Resize widgets
 5.  Specify the dashboard as your Acumatica ERP home page
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start modifying the dashboard, launch the Acumatica ERP website, and sign in to a tenant with the *U100* dataset preloaded as workshop manager Gladys Peters with the *peters* username and the *123* password.
 
-## Step 1: Switching On Design Mode for the Predefined Dashboard { .section}
+## Step 1: Switching On Design Mode for the Predefined Dashboard
 
 Suppose that you need to save a copy of the dashboard and switch to design mode so that you can modify it for your personal use.
 
@@ -40,14 +40,13 @@ To switch on design mode for the dashboard, do the following:
 4.  Click the **Design** button. You have switched the dashboard to design mode.
 5.  Click the **Design** button again to switch to view mode for the dashboard.
 
-## Step 2: Removing Widgets from the Dashboard { .section}
+## Step 2: Removing Widgets from the Dashboard
 
 Suppose that in your copy of the *AR Clerk* dashboard, you do not need the following widgets, which are related to documents and cash inflow: *Documents on Hold*, *Unreleased Documents in Prior Months*, *Documents to Release* and two *Cash Inflow for 7 Days* widgets. Also you do not need to view the *Overdue by Salesperson* and *Top 10 Overdue Balances* charts.
 
 To remove these widgets from the dashboard, do the following:
 
 1.  While you are still viewing the *AR Clerk* dashboard in view mode, click the **Design** button on the dashboard title bar to switch on design mode for the dashboard.
-2.  On the widget title bar of the *Documents on Hold* widget, click the **Remove** button \(![](Images/GS_dashboards_remove_button.png)\) which is located at the right of the widget.
 3.  In the warning dialog box that opens click **OK**. The widget is removed from the dashboard, and the remaining widgets are automatically rearranged.
 4.  By performing similar actions to those in the previous two instructions, delete the following widgets from your dashboard:
 
@@ -58,11 +57,10 @@ To remove these widgets from the dashboard, do the following:
     -   *Top 10 Overdue Balances*
     You can see the modified dashboard in the following screenshot.
 
-    ![](Images/activity_RPT_Designing_Dashboard_Removed_Widgets.png "The dashboard without the document-related and cash inflow widgets")
 
 5.  On the dashboard title bar, click the **Design** button to switch to view mode for the dashboard.
 
-## Step 3: Rearranging Widgets on the Dashboard { .section}
+## Step 3: Rearranging Widgets on the Dashboard
 
 Suppose that you want to move the *Total AR* widget to the upper-left part of the dashboard, and move the *AR Aging* widget to the upper-right part of the dashboard. Also, you want to move the *AR Overdue* and *Average Days to Pay* widgets to the right working area, and place the *Statements to Email* widget next to the *Statements to Print* one.
 
@@ -76,9 +74,8 @@ To rearrange the widgets on the dashboard, do the following:
 
 You can see the modified dashboard in the following screenshot.
 
-![](Images/activity_RPT_Designing_Dashboard_Rearranged_Widgets.png "The dashboard with the relocated widgets")
 
-## Step 4: Resizing Widgets { .section}
+## Step 4: Resizing Widgets
 
 Suppose that you want to resize the *Total AR* widget, so that it had the same height as the *AR Aging* widget. Also, you want to make the *Days Sales Outstanding* widget wider, so that the left working area had no empty gaps.
 
@@ -91,11 +88,10 @@ To resize these widgets, do the following:
 
     **Tip:** The width of the widgets and number of available widget placeholders depend on the size of your browser window. You may need to resize other widgets as well to get the same arrangement.
 
-    ![](Images/activity_RPT_Designing_Dashboard_Resized_Widgets.png "The dashboard with the resized widgets")
 
 3.  On the dashboard title bar, click the **Design** button to switch to view mode for the dashboard.
 
-## Step 5: Defining the Dashboard as Your Acumatica ERP Home Page { .section}
+## Step 5: Defining the Dashboard as Your Acumatica ERP Home Page
 
 To make your modified *AR Clerk* dashboard your home page in Acumatica ERP, do the following:
 

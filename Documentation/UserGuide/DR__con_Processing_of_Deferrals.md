@@ -1,4 +1,4 @@
-# Processing Deferrals {#_7850a36b-459d-42f9-ab6d-449983f9415e .concept}
+# Processing Deferrals
 
 This chapter provides detailed information on how you can manage deferrals in Acumatica ERP.
 

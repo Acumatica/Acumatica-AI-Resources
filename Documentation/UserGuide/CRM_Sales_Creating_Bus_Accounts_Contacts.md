@@ -1,14 +1,14 @@
-# Business Accounts: Association with a Contact {#_eec596a8-5447-4a65-8f27-c6456db041b2 .concept}
+# Business Accounts: Association with a Contact
 
 Once a business account has been created, you can associate one or multiple contacts with the business account and select a primary contact for it, as described in the following sections.
 
-## Creation of Contacts Associated with a Business Account { .section}
+## Creation of Contacts Associated with a Business Account
 
 When you create a business account on the [Leads](CR_30_10_00.md) \(CR301000\) or [Contacts](CR_30_20_00.md) \(CR302000\) form by specifying the business account and contact settings in the **Create Account** dialog box, the system also creates a contact and associates this contact with the business account. On the [Business Accounts](CR_30_30_00.md) \(CR303000\) form, you can view and modify the address details of the contact on the **General** tab and view the contact settings of the contact on the **Contacts** tab. On the **Contacts** tab, you can also create as many contacts associated with the business account as needed.
 
 We recommend that you specify a primary contact associated with the business account, as described in the following section.
 
-## Primary Contact for a Business Account { .section}
+## Primary Contact for a Business Account
 
 In Acumatica ERP, you can specify a primary contact for a business account. A primary contact is the contact whose contact and address settings the system uses as the default contact for the associated records and documents that have contact settings on them, such as an opportunity created for the business account on the [Opportunities](CR_30_40_00.md) \(CR304000\) form, thus ensuring that the contact who officially represents the business is used in these records. A primary contact gives you the following abilities:
 

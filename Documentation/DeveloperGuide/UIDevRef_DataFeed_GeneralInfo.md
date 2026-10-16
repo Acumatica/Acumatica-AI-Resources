@@ -1,25 +1,24 @@
-# Data Feed: General Information {#_2fcaa224-1ac2-47d3-a676-11254437fe3f .concept}
+# Data Feed: General Information
 
 In this topic, you’ll learn what a data feed control is and what its basic components are.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you’ll learn the following about the data feed control:
 
 -   Its design guidelines, including naming conventions and layout recommendations
 -   The proper configuration of the control for specific cases, such as defining templates of the control
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure the data feed control when you want to display a list of entities, such as activities or tasks, where each item in the list contains a short summary of the entity.
 
-## Overview of the Data Feed Control { .section}
+## Overview of the Data Feed Control
 
 A data feed control lets users view multiple entities of different types and apply actions to these entities. The control offers flexibility in displaying, filtering, and organizing entities through configuration in both HTML and TypeScript. For example, you can configure a data feed control to show each entity on a separate tile and group entities by one of their properties.
 
 The following example shows a data feed control configured to display activities of different types.
 
-![](Images/UIDevRef_DataFeed_Components.png "The data feed control")
 
 The data feed control includes the following components:
 
@@ -41,7 +40,6 @@ The data feed control includes the following components:
 
 You can group entities in the data feed control based on a condition—for example, the entity’s status. For each group, you can configure an HTML template that specifies which properties of the entity and which commands are displayed on the tile. The following example shows such a data feed where tiles are grouped by the status of an entity.
 
-![](Images/UIDevRef_DataFeed_Groups.png "A group with a list of entities")
 
 Each container includes of the following components:
 
@@ -54,7 +52,7 @@ For information on configuring tiles, see [Data Feed: Configuration of Tiles](UI
 
 The data feed control is implemented with the [qp-data-feed](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=6bf8e4aa-120b-dd25-f692-b1133f232b07) control in the Modern UI. The control does not have an analogue in the Classic UI.
 
-## Defining the Data Feed Control { .section}
+## Defining the Data Feed Control
 
 The implementation of the data feed control is based on a table \(grid\). So to define a data feed control in TypeScript, you use the same approach as you use to define a table: Define a view class with the table’s columns and actions, and specify the table properties in the gridConfig decorator. In HTML, you add the data feed control by using the qp-data-feed tag. For information on configuring the table in TypeScript, see [Table \(Grid\): Configuration of the Table and Its Columns](UIDevRef_Grid_Configuration.md).
 
@@ -74,7 +72,7 @@ To define the data feed control:
 8.  Optional: To define a bottom toolbar, add the footer tag in the qp-data-feed tag and specify the toolbar layout in it. For details, see [Data Feed: Configuration of Bottom Toolbar](UIDevRef_DataFeed_Footer.md).
 9.  Configure the message displayed in an empty data feed: In the qp-data-feed tag, specify the message in the placeholderTemplate property.
 
-## Data Feed ID { .section}
+## Data Feed ID
 
 The data feed control is based on a table control and was represented by a table in the Classic UI. That’s why the data feed control’s ID should have the same structure and consist of:
 
@@ -82,14 +80,14 @@ The data feed control is based on a table control and was represented by a table
 
 -   The semantic name, which describes the control's purpose. For example, a table that shows transactions can have the `gridActivities` ID, as the following code shows.
 
-    ``` {#codeblock_b3p_x2v_ghc}
+    ```
     <qp-data-feed caption="Activities" id="gridActivities">
     ```
 
 
 The controls inside a qp-data-feed control must have unique IDs. To ensure this, you specify IDs for all nested elements with the `$index` suffix, as shown in the following example.
 
-``` {#codeblock_jl2_b4k_xgc}
+```
 <qp-data-feed id="MyDataFeed" ... >
     <template>
         <qp-template id="template_${$index}" name="record-1">

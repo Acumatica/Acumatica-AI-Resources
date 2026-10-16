@@ -1,4 +1,4 @@
-# Customizing Actions {#_360c2858-9649-4c60-92f6-d49e6362997e .concept}
+# Customizing Actions
 
 Actions can be customized in numerous ways to fit a customization requirement. You can customize both the appearance and the behavior of an action as needed.
 

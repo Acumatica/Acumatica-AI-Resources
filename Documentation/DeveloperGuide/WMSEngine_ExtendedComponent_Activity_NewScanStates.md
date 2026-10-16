@@ -1,8 +1,8 @@
-# Extension of Scan Components: To Extend Predefined Scan States for a Custom Form {#_b21a618c-fe2c-4e69-9dca-f638153eecd8 .task}
+# Extension of Scan Components: To Extend Predefined Scan States for a Custom Form
 
 This activity will walk you through the process of altering predefined scan states.
 
-## Story { .section}
+## Story
 
 Suppose that you are creating a scan mode for a custom barcode-driven form. You have inherited the following input states from the base barcode scan class: `LocationState`, `InventoryItemState`, and `LotSerialState`. You need to modify these states to use them in your scan mode as follows:
 
@@ -10,7 +10,7 @@ Suppose that you are creating a scan mode for a custom barcode-driven form. You 
 -   For the `InventoryItemState` scan state, you want to add an additional absence handler that is specific to this scan mode.
 -   You want the `LotSerialState` to be active only when it is already active and when the lot or serial number is entered on receipt.
 
-## Process Overview { .section}
+## Process Overview
 
 You will implement the following ways of altering the logic of the predefined components:
 
@@ -18,7 +18,7 @@ You will implement the following ways of altering the logic of the predefined co
 -   You will inject the logic when `InventoryItemState` is created.
 -   You will inject the logic when `LotSerialState` is decorated.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -27,7 +27,7 @@ Before you begin performing the steps of this activity, do the following:
 3.  Create the scan mode and define its required properties by performing the [Barcode Scan Mode: To Define the Required Properties](WMSEngine_ScanMode_CreateScanMode_Activity.md) prerequisite activity.
 4.  Create the set of scan states by performing the [Barcode Scan States: To Create the Set of Scan States](WMSEngine_ScanState_Activity_CreateSetOfStates.md) prerequisite activity.
 
-## Step 1: Introducing a Descendant { .section}
+## Step 1: Introducing a Descendant
 
 To alter a scan state by introducing a descendant, do the following:
 
@@ -106,7 +106,7 @@ To alter a scan state by introducing a descendant, do the following:
     In `CountMode`, you need only locations that are present in the physical inventory that the user is currently processing. Therefore, you add additional validation logic in the Validate\(\) method. You execute the base validation first. The custom validation is performed only if the base validation is passed.
 
 
-## Step 2: Injecting the Logic When the Component Is Created { .section}
+## Step 2: Injecting the Logic When the Component Is Created
 
 To alter a scan state by injecting the logic when the scan state is created, in the `CountMode` class, modify the CreateStates\(\) method as follows.
 
@@ -139,7 +139,7 @@ public class INScanCount : WMSBase
 
 In the CreateStates\(\) method, you intercept the HandleAbsence method. You use the ByAppend interception strategy because you want to register an additional absence handler without affecting the existing ones. In `CountMode`, you need the ability to switch the location even if the current input state is `InventoryItemState`. You also configure the `LocationState` state to try handle the input.
 
-## Step 3: Injecting the Logic When the Component Is Decorated { .section}
+## Step 3: Injecting the Logic When the Component Is Decorated
 
 To alter a scan state by injecting the logic when the scan state is decorated, in the `CountMode` class, add the DecorateScanState\(\) method as follows.
 

@@ -1,4 +1,4 @@
-# Opportunity Management: Products and Services in an Opportunity {#_bd2f29d4-7262-4a15-a557-e15ce142da1a .concept}
+# Opportunity Management: Products and Services in an Opportunity
 
 On the **Details** tab of the [Opportunities](CR_30_40_00.md) \(CR304000\) form, you can add to the selected opportunity the products or services that you want to sell to the prospect or customer. Based on these products or services, you can create any of the following documents: a sales quote, a sales order, a service order, and an invoice.
 

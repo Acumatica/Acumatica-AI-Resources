@@ -1,16 +1,16 @@
-# Test Method:To Debug a Test Method {#_25b03612-7baf-4488-a169-649e0d137284 .task}
+# Test Method:To Debug a Test Method
 
 The following activity will walk you through the process of debugging a test method.
 
-## Story { .section}
+## Story
 
 Suppose that you have a test method implemented in a test class. You need to debug the test method in order to detect possible errors.
 
-## Process Overview { .section}
+## Process Overview
 
 In Visual Studio, you will set breakpoints both in the code being tested and in the test method, launch the debugging for the test method from the **Test Explorer** window, and check that the values of the fields are as expected.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin debugging the test method, make sure that you have performed the following prerequisite activities:
 
@@ -19,14 +19,14 @@ Before you begin debugging the test method, make sure that you have performed th
 3.  [Test Project and Test Class: To Create a Test Class](UnitTest_TestProject_Activity_CreateClass.md), to create the `RSSVRepairServiceMaintTests` test class
 4.  [Test Method: To Create a Test Method Without Parameters](UnitTest_TestMethod_Activity_CreateTestMethodNoParam.md), to create the `PreliminaryCheckAndWalkInServiceFlags_AreOpposite` test method
 
-## Step: Debugging a Test Method { .section}
+## Step: Debugging a Test Method
 
 To debug the `PreliminaryCheckAndWalkInServiceFlags_AreOpposite` method, do the following:
 
 1.  In the `PhoneRepairShop_Code``.Tests` project, open the `RSSVRepairServiceMaintTests.cs` file.
 2.  Move the caret to the following line.
 
-    ```language-csharp
+    ```csharp
     repairService.WalkInService = false;
     ```
 
@@ -34,7 +34,7 @@ To debug the `PreliminaryCheckAndWalkInServiceFlags_AreOpposite` method, do the 
 4.  In the `PhoneRepairShop_Code` project, open the `RSSVRepairServiceMaint.cs` file.
 5.  In the `_(Events.FieldUpdated<RSSVRepairService, RSSVRepairService.walkInService> e)` method, move the caret to the following line.
 
-    ```language-csharp
+    ```csharp
     row.PreliminaryCheck = !(row.WalkInService == true);
     ```
 

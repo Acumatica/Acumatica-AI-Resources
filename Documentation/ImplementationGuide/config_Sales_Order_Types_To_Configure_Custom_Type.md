@@ -1,8 +1,8 @@
-# Sales Order Types: To Configure a Custom Order Type {#_83bbfeaa-7e62-447b-882e-2b42061c783a .task}
+# Sales Order Types: To Configure a Custom Order Type
 
 In Acumatica ERP, if the *Custom Order Types* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, you can create custom order types if the predefined order types do not fit your company's processes and requirements. A custom order type, which you configure on the [Order Types](../UserGuide/SO_20_10_00.md) \(SO201000\) form, is generally based on one of the existing templates.
 
-## To Configure a Custom Order Type { .section}
+## To Configure a Custom Order Type
 
 1.  Open the [Order Types](../UserGuide/SO_20_10_00.md) \(SO201000\) form.
 2.  Optional: If you want to create a custom order type based on any of the predefined order types, open the needed order type, and click **Clipboard &gt; Copy** on the form toolbar to copy its settings.
@@ -24,7 +24,7 @@ In Acumatica ERP, if the *Custom Order Types* feature is enabled on the [Enable/
 13. Optional: Select the **Allow Quick Process** check box if you want to use quick processing for the orders of this type.
 14. Click **Save** on the form toolbar to save the created order.
 
-## Notes About the Procedure { .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

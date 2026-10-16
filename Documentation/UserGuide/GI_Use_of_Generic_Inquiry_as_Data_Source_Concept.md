@@ -1,8 +1,8 @@
-# Data from Multiple Data Sources: Use of Generic Inquiry as Data Source {#_ec13bad9-956f-4985-ad85-c4eedfd9c366 .concept}
+# Data from Multiple Data Sources: Use of Generic Inquiry as Data Source
 
 You can specify generic inquiries as data sources for a generic inquiry. That is, you can create multiple simple generic inquiries and reuse them as data sources for a generic inquiry. You build a complex request by combining the simple inquiries into one.
 
-## Adding a Generic Inquiry as a Data Source {#section_tbr_4nv_j1c .section}
+## Adding a Generic Inquiry as a Data Source
 
 When you use generic inquiries as data sources for other inquiries, the system does not limit the number of levels of nesting. It ensures only that an inquiry is not a parent to another inquiry that uses it as data source.
 
@@ -18,7 +18,7 @@ For each added data source, you specify the relations between pairs of data sour
 
 **Tip:** The **Related Tables** dialog box, which can be used to add relations between tables, is not available for adding relations between inquiries. When you select a row with an inquiry in the table on the **Data Sources** tab or in the **Table Relations** table on the **Relations** tab, the **Add Related Table** button becomes unavailable.
 
-## Adding Fields from a Source Inquiry to the Results Grid {#section_wc5_jvg_j1c .section}
+## Adding Fields from a Source Inquiry to the Results Grid
 
 When you add a generic inquiry as a data source on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form, the system does not add its fields to the **Results Grid** tab of the form. You should manually add the needed fields.
 
@@ -35,7 +35,7 @@ For the rest of the settings the system inserts default values. The system modif
 
 The system does not copy the navigation settings for the fields from the source inquiry. However, if such a field has customized navigation settings \(that is, different from the default behavior\), the system will use these settings. These settings will apply for all parent inquiries where this field is added to the **Results Grid** tab. You can modify the navigation settings for the current inquiry to achieve the needed behavior.
 
-## Using Parameters from a Source Inquiry {#section_xgy_c34_j1c .section}
+## Using Parameters from a Source Inquiry
 
 The system does not add parameters from source inquiries automatically to the **Parameters** tab of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form. You can add any needed parameters manually. As with the field names, the system will display parameter names with the alias of the source inquiry preceding the parameter name.
 
@@ -49,21 +49,20 @@ If you change the name of the parameter with the linked source, the system remov
 
 You can also use the parameter values from source inquiries. When you define a parameter for a child inquiry and the **From Schema** check box isn’t selected, the **Default Value** column displays a drop-down list with the values of the parent inquiry parameters. \(See the child inquiry below.\) The parameter names are displayed in brackets to avoid confusion with text values.
 
-![](Images/GI_Getting_Data_from_Mult_DACs_Parent_Parameter_Value.png "Specifying a parameter value for a child inquiry")
 
-## Application of Access Rights {#section_dhm_sk4_j1c .section}
+## Application of Access Rights
 
 A user with access rights to view a generic inquiry will see all the data that this inquiry returns, regardless of the user's access rights to the source inquiries that are included in the query.
 
 If data from the source inquiry is restricted through the use of restriction group settings, the system may limit the display of data based on these settings.
 
-## Modifying an Inquiry Used as a Data Source {#section_kw5_skg_j1c .section}
+## Modifying an Inquiry Used as a Data Source
 
 After a generic inquiry has been added to the table on the **Data Sources** tab of [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form, its name is displayed as a link. If you click the link, the [Generic Inquiry](SM_20_80_00.md) form opens in a new browser tab with the inquiry selected. The system will display a warning indicating that the inquiry is used as a data source for another inquiry. If you modify the inquiry used as a data source, the system opens the **Copy Generic Inquiry** dialog box. The dialog box asks you if you want to create a copy to save modifications \(which leaves the original inquiry intact\) rather than overwriting it.
 
 If you click **Copy**, the system saves a copy of the original inquiry with the modifications; it adds after the original value in **Inquiry Title** a hyphen and a number. The system increments the number each time a copy of that inquiry is saved.
 
-## Deleting an Inquiry Used as a Data Source {#section_l41_khh_j1c .section}
+## Deleting an Inquiry Used as a Data Source
 
 You may want to delete an inquiry that is used as a data source by opening this inquiry on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form and clicking **Delete** on the form toolbar. The system displays a warning that lists the inquiries that use this inquiry as a data source.
 
@@ -71,7 +70,7 @@ If you choose to delete this inquiry, the system will mark its fields with a war
 
 Similarly, if you delete a field on the **Results Grid** tab of a source inquiry that is somehow used in its parent inquiry, the system will display a warning for the deleted fields when you open a parent inquiry on the [Generic Inquiry](SM_20_80_00.md) form.
 
-## Exporting and Importing Inquiries {#section_rb2_5mn_j1c .section}
+## Exporting and Importing Inquiries
 
 When you export a generic inquiry that has other inquiries as data sources, the system includes all the inquiries from the chain of sources in the export file.
 

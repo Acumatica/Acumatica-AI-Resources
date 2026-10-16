@@ -1,10 +1,10 @@
-# Inventory Planning with MRP: Planning Transfers in MRP {#_0cbdaa8c-5046-4183-85d0-4eea3516efb7 .concept}
+# Inventory Planning with MRP: Planning Transfers in MRP
 
 In your production environment, items may be stored in multiple warehouses, such as when items are produced in one warehouse but stored and shipped in another warehouse. In this case, you may want the system to create planning recommendations for the transfer of items during inventory planning. In Acumatica ERP Manufacturing Edition, the system creates planning recommendations for available item transfers during inventory planning if proper settings have been specified, as described in [Inventory Planning Configuration: General Information](../ImplementationGuide/config_Inventory_Planning_GeneralInfo.md).
 
 In the following sections, you will read about planning recommendations for transfers that the system creates during inventory planning.
 
-## Planning Recommendations for Transfers { .section}
+## Planning Recommendations for Transfers
 
 The system generates a planning recommendation for an item during inventory planning when both of the following are true:
 
@@ -28,13 +28,13 @@ When the planning engineer analyzes the inventory planning results, the engineer
 -   A planning recommendation for a transfer order to transfer materials for two juicers from the New Jersey warehouse to the Ohio warehouse
 -   A planning recommendation for a transfer order to transfer seven juicers from the Ohio warehouse to the New York warehouse
 
-## Calculation of an Action Date for Planning Recommendations for Transfer Orders { .section}
+## Calculation of an Action Date for Planning Recommendations for Transfer Orders
 
 If the transfer lead time between the warehouse selected in a demand document and the transfer warehouse has been specified during the system configuration, then the system subtracts the transfer lead time from the requested date in the demand document when calculating the action date for the planning recommendation for a transfer order. For example, suppose that transferring of items between warehouses takes two days. If a sales order has a requested date of January 30, then the action date for the planned transfer order is January 28.
 
 **Tip:** You can specify the transfer lead time between warehouses on the **Manufacturing** tab of the [Warehouses](IN_20_40_00.md) \(IN204000\) form. You can also override this time on the **Manufacturing** tab of the [Item Warehouse Details](IN_20_45_00.md) \(IN204500\) form for a particular item.
 
-## Creation of a Transfer Order Based on Planning Recommendations { .section}
+## Creation of a Transfer Order Based on Planning Recommendations
 
 If you decide to transfer items according to the planning recommendations resulting from the inventory planning process, on the [Inventory Planning Display](AM_40_00_00.md) \(AM400000\) form, you select the needed records in the table and click **Transfer** on the form toolbar. The system creates a transfer order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form with a number of lines on the **Details** tab that is equal to the number of the selected records and a **Ship On** date for each line that is the same as the action date of each planning recommendation for a transfer order that you selected.
 

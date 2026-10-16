@@ -1,8 +1,8 @@
-# Automatic Customer Discounts: Application of Automatic Discounts {#_cce98dfa-0a13-4052-99b7-41aeae9d3b58 .concept}
+# Automatic Customer Discounts: Application of Automatic Discounts
 
 In this topic, you will read about the application of automatic discounts in Acumatica ERP.
 
-## Order of Automatic Discount Application Order { .section}
+## Order of Automatic Discount Application Order
 
 In Acumatica ERP, the system always applies automatic discounts in the following order when a user saves a document:
 
@@ -13,7 +13,7 @@ In Acumatica ERP, the system always applies automatic discounts in the following
     **Tip:** You can use group discounts as document discounts. For example, if you create a group discount that is applicable to a specific customer price class, it will work as a document discount affecting each line of a document.
 
 
-## Additional Settings for Discount Application { .section}
+## Additional Settings for Discount Application
 
 On the [Discount Codes](AR_20_90_00.md) \(AR209000\) form, you can specify the following settings for the line and group discounts, which affect the rules of discount application and calculation:
 

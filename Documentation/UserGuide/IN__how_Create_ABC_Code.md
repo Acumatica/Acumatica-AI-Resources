@@ -1,14 +1,14 @@
-# To Create ABC Codes {#_4392b9b3-5aa7-471f-bc11-293ec8673874 .task}
+# To Create ABC Codes
 
 In Acumatica ERP, you can use ABC codes to group inventory items based on their stock value and configure physical inventory by ABC codes. You create ABC codes by using the [ABC Codes](IN_20_85_00.md) \(IN208500\) form, as described in this topic.
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Make sure that the *Advanced Physical Counts* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## To Create ABC Codes { .section}
+## To Create ABC Codes
 
 1.  Open the [ABC Codes](../Shared/../UserGuide/IN_20_85_00.md) \(IN208500\) form.
 2.  On the table toolbar, click **Add Row**.

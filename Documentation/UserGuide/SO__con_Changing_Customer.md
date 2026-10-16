@@ -1,4 +1,4 @@
-# Changing the Customer in a Sales Order {#_046d07ad-72e5-4dcc-86b2-bc0d5d042919 .concept}
+# Changing the Customer in a Sales Order
 
 To simplify entering an order and minimize errors on data entry, you may start to create a sales order by copying and pasting another sales order, which you use as a template. In this case, you need to change the customer ID specified for the sales order to another one. You can change the customer ID in the **Customer** box of the [Sales Orders](SO_30_10_00.md) \(SO301000\) form for a sales order that has one of the following statuses:
 
@@ -11,7 +11,7 @@ You can also change the customer ID in a return order that does not have lines l
 
 The following sections describe the specifics of changing the customer in a document.
 
-## Information Kept After the Customer Is Changed { .section}
+## Information Kept After the Customer Is Changed
 
 When you change the customer ID in the sales order, the system preserves the following information:
 
@@ -23,7 +23,7 @@ When you change the customer ID in the sales order, the system preserves the fol
 -   Hard allocations of inventory
 -   Notes, activities, and attachments
 
-## Information Updated After the Customer Is Changed { .section}
+## Information Updated After the Customer Is Changed
 
 When you change the customer ID in the sales order, the system updates the following document information by using the settings of the newly selected customer:
 
@@ -37,7 +37,7 @@ When you change the customer ID in the sales order, the system updates the follo
 
 The system does not automatically save the document after you change the customer ID, so you can easily cancel these changes.
 
-## Restrictions on Customer Override { .section}
+## Restrictions on Customer Override
 
 There are some restrictions on changing the customer in a sales order. You cannot save the sales order after changing the customer in any of the following cases:
 

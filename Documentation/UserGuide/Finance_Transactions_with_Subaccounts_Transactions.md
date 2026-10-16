@@ -1,4 +1,4 @@
-# Transactions with Subaccounts: Generated Transactions {#_640dd232-76b1-431c-8ac4-a56b31b73987 .concept}
+# Transactions with Subaccounts: Generated Transactions
 
 On the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form, you can view the details of the GL batch of transactions with subaccounts. In the following table, you can find an example of such a GL batch.
 

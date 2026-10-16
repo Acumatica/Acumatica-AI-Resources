@@ -1,8 +1,8 @@
-# Drop-Ship Vendor Returns: Generated Transactions {#_43c6584b-be99-4486-9901-9c8efa241736 .concept}
+# Drop-Ship Vendor Returns: Generated Transactions
 
 When you process a drop-ship vendor return, you create and process a debit adjustment and credit memo. To update customer and vendor balances, the system generates the GL transactions described in the following sections.
 
-## Transactions Generated for a Debit Adjustment { .section}
+## Transactions Generated for a Debit Adjustment
 
 When you create and release a debit adjustment, the system generates the following general ledger transactions.
 
@@ -11,7 +11,7 @@ When you create and release a debit adjustment, the system generates the followi
 |Accounts Payable account|Vendor|Amount|0.00|
 |Purchase Accrual account|Settings on the [Posting Classes](IN_20_60_00.md) \(IN206000\) form|0.00|Amount|
 
-## Transactions Generated for a Credit Memo { .section}
+## Transactions Generated for a Credit Memo
 
 When you create and release a credit memo, the system releases an inventory issue, which generates the following general ledger transactions.
 

@@ -1,4 +1,4 @@
-# Configuring Route Management {#_681ca01d-7d5d-4340-814d-e06db4de96fb .concept}
+# Configuring Route Management
 
 Before you start creating entities and processing documents related to route management in Acumatica ERP, you must perform the necessary configuration. This configuration includes enabling the necessary features and specifying the route management preferences
 

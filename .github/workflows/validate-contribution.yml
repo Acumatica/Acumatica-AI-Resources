@@ -2,9 +2,9 @@ name: Validate contribution
 
 on:
   pull_request:
-    branches: [2026R1]
+    branches: [2026R2]
   push:
-    branches: [2026R1]
+    branches: [2026R2]
   workflow_dispatch:
 
 permissions:

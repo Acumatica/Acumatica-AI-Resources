@@ -1,4 +1,4 @@
-# Configuring Equipment Management {#_c5dd4ded-7e86-46eb-becd-cb60011ac55b .concept}
+# Configuring Equipment Management
 
 Before you start creating entities and processing documents related to equipment management in Acumatica ERP, you must perform the necessary configuration. This configuration includes enabling the necessary features and specifying the equipment management preferences.
 

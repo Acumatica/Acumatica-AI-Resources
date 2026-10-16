@@ -1,8 +1,8 @@
-# To Configure an Input Mask and a Display Mask for a Field {#_d0758787-4c73-423b-8566-11c83f3acde8 .task}
+# To Configure an Input Mask and a Display Mask for a Field
 
 In this topic, you can learn how to create a field on a form of an Acumatica Framework-based application so that its value is displayed in a specific format and how to govern what a user can enter as a value of this field. You can specify input and display masks for fields of the string and date and time types. For fields of the string type, you specify only the input mask, which defines both the format in which the user enters the value and the way the value is then displayed. For the date and time fields, you can specify different input and display masks.
 
-## To Specify an Input Mask and a Display Mask for a String Field {#_0cc62625-b0fe-49a1-a170-5c17572f1e2d .section}
+## To Specify an Input Mask and a Display Mask for a String Field
 
 1.  In the data access class \(DAC\), add a new field or modify an existing `string` field as follows:
     1.  Add one of the string attributes \([PXDBString](https://help.acumatica.com/(W(24))/Main?ScreenId=ShowWiki&pageid=cf21368f-4969-18b4-8722-5789e5fc9c2a) or [PXString](https://help.acumatica.com/(W(24))/Main?ScreenId=ShowWiki&pageid=7bf59b5d-a6dc-9ca3-aa20-4350136c9cb8)\) to the property field.
@@ -33,7 +33,7 @@ In this topic, you can learn how to create a field on a form of an Acumatica Fra
     ```
 
 
-## To Specify an Input and a Display Mask for a String Field at Runtime { .section}
+## To Specify an Input and a Display Mask for a String Field at Runtime
 
 To specify the input mask for a string field at runtime, use a SetInputMask method of the [PXDBString](https://help.acumatica.com/(W(24))/Main?ScreenId=ShowWiki&pageid=cf21368f-4969-18b4-8722-5789e5fc9c2a) or [PXString](https://help.acumatica.com/(W(24))/Main?ScreenId=ShowWiki&pageid=7bf59b5d-a6dc-9ca3-aa20-4350136c9cb8) attribute. You use the same conventions to define the mask as those described for the InputMask property in [To Specify an Input Mask and a Display Mask for a String Field](#_0cc62625-b0fe-49a1-a170-5c17572f1e2d).
 
@@ -51,7 +51,7 @@ protected virtual void GLBudgetTree_IsGroup_FieldSelecting(PXCache sender,
 }
 ```
 
-## To Specify an Input or a Display Mask for a Date and Time Field { .section}
+## To Specify an Input or a Display Mask for a Date and Time Field
 
 1.  In the data access class \(DAC\), add a new field or modify an existing data and time field as follows:
 

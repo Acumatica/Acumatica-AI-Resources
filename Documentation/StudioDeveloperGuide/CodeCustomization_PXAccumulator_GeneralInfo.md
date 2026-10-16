@@ -1,22 +1,22 @@
-# PXAccumulator: General Information {#_885a0cce-af5f-4a0d-9330-95e572a85625 .concept}
+# PXAccumulator: General Information
 
 An accumulator attribute is the [PXAccumulator](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=b95bb57b-03ec-43b4-3d36-334d6662711c) attribute or any attribute derived from it. The use of accumulator attributes is a specific Acumatica Framework technique for fields that are updated frequently \(and often concurrently by multiple users\). An accumulator attribute changes the SQL query that is executed when data is updated in the database.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you'll learn how to do the following:
 
 -   Implement a custom attribute derived from the PXAccumulator attribute.
 -   Specify the values of the fields updated by a PXAccumulator attribute.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You can use an accumulator attribute in either of the following cases:
 
 -   To update a field or multiple fields of a data record without checking for the version of the data record in the database. \(In an ordinary update, the framework generates the SQL statement that checks the time stamp column, if this column exists in the table.\)
 -   To define a specific update policy for a column—for instance, to calculate the sum of values in a column on every update. You can also specify restrictions for a column that will be checked by the database during update.
 
-## DAC for Accumulated Values { .section}
+## DAC for Accumulated Values
 
 Database access classes \(DACs\) that are used exclusively for storing accumulated values usually do not contain audit, time stamp, or NoteID fields. The base [PXAccumulatorAttribute](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=b95bb57b-03ec-43b4-3d36-334d6662711c) class \(on which custom attributes are based\) is capable of handling fields of the DateTime type only if they are decorated with one of the following attributes:
 
@@ -25,11 +25,11 @@ Database access classes \(DACs\) that are used exclusively for storing accumulat
 -   PXDBLastModifiedByScreenIDAttribute
 -   PXDBLastModifiedByIDAttribute
 
-## Base PXAccumulator Attribute { .section}
+## Base PXAccumulator Attribute
 
 The base [PXAccumulator](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=b95bb57b-03ec-43b4-3d36-334d6662711c) attribute has two parameters in the constructor. This attribute applies the Summarize policy to the specified decimal or double fields \(that is, on each update, the new value is added to the database value\) and the Initialize policy to other fields. To override this policy or to set restrictions, you derive a custom attribute class from PXAccumulator and override the PrepareInsert\(\) method in the custom attribute class.
 
-## Use of a PXAccumulator Attribute { .section}
+## Use of a PXAccumulator Attribute
 
 You can add an accumulator attribute directly to a DAC that is updated only from code and not through the UI.
 

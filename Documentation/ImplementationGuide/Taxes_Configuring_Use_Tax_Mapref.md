@@ -1,4 +1,4 @@
-# Use Tax {#_95fee3b0-df58-44ef-bfd7-15b3bc6c868c .concept}
+# Use Tax
 
 The topics of this chapter describe how to configure a use tax in Acumatica ERP.
 

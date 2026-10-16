@@ -1,17 +1,50 @@
-# Subcontracts: Implementation Checklist {#_76e20714-f567-4535-9f36-b80aa15947b2 .concept}
+# Subcontracts: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for working with subcontracts, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you work with subcontracts, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
-|Form|Tasks to Perform|
-|----|----------------|
-|[Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form|Make sure the *Construction* feature is enabled.|
-|[Subcontracts Preferences](SC_10_10_00.md#) \(SC101000\) form|Make sure the default settings are saved.|
-|[Projects](PM_30_10_00.md) \(PM301000\) form|Make sure that the project has been created and has the *Active* status. For more details, see [Project Creation and Processing: General Information](Projects_Process_GeneralInfo.md).|
-|[Non-Stock Items](IN_20_20_00.md#) \(IN202000\) form|Make sure that the non-stock items that are going to be used in subcontracts have been defined in the system. In the item settings, the following settings should be specified: -   On the **General** tab, the **Require Receipt** check box is cleared.
+<table id="_75f5a845-9a95-409c-9ffd-7c022ec672dc"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Tasks to Perform
+
+</th></tr></thead><tbody><tr><td>
+
+[Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form
+
+</td><td>
+
+Make sure the *Construction* feature is enabled.
+
+</td></tr><tr><td>
+
+[Subcontracts Preferences](SC_10_10_00.md#) \(SC101000\) form
+
+</td><td>
+
+Make sure the default settings are saved.
+
+</td></tr><tr><td>
+
+[Projects](PM_30_10_00.md) \(PM301000\) form
+
+</td><td>
+
+Make sure that the project has been created and has the *Active* status. For more details, see [Project Creation and Processing: General Information](Projects_Process_GeneralInfo.md).
+
+</td></tr><tr><td>
+
+[Non-Stock Items](IN_20_20_00.md#) \(IN202000\) form
+
+</td><td>
+
+Make sure that the non-stock items that are going to be used in subcontracts have been defined in the system. In the item settings, the following settings should be specified: -   On the **General** tab, the **Require Receipt** check box is cleared.
 
 For more information, see [Service Items: General Information](Services_GeneralInfo.md), [Labor Items: General Information](Non_Stock_Item_Projects_GeneralInfo.md).
 
@@ -20,9 +53,10 @@ For more information, see [Service Items: General Information](Services_GeneralI
 For more information, see [Project Material Management: Accrual of a Non-Stock Item’s Cost](Construction_Project_Materials_Mgmt_Item_Cost_Accrual.md).
 
 
-|
+</td></tr></tbody>
+</table>
 
-## Other Settings That Affect the Workflow { .section}
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of working with subcontracts by specifying additional settings as follows:
 

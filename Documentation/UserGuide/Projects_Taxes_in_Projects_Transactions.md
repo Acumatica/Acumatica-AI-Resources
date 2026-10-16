@@ -1,8 +1,8 @@
-# Taxes in Projects: Generated Transactions {#_11e31746-b359-4202-a355-8254fe2b7ab8 .concept}
+# Taxes in Projects: Generated Transactions
 
 As you work with projects, you create and process documents that may be subject to different types of taxes. When these documents are released, to update the account balances and record the taxes to the project budget, the system generates the GL transaction described in the following sections.
 
-## Transaction Generated for an AR Invoice {#section_es3_fjv_vxb .section}
+## Transaction Generated for an AR Invoice
 
 When you release a project-related AR invoice that is subject to taxes on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, the system generates the following GL transaction.
 
@@ -14,7 +14,7 @@ When you release a project-related AR invoice that is subject to taxes on the [I
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Invoices and Memos](AR_30_10_00.md) form.
 
-## Transaction Generated for an AP Bill {#section_nzj_fjv_vxb .section}
+## Transaction Generated for an AP Bill
 
 When you release a project-related AP bill that is subject to sales taxes on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, the system generates the following GL transaction.
 

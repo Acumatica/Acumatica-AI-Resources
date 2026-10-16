@@ -1,4 +1,4 @@
-# Constants {#_0ce10922-e085-45ad-987c-a8f9b264f670 .concept}
+# Constants
 
 The following types of constants are supported in MSDL.
 

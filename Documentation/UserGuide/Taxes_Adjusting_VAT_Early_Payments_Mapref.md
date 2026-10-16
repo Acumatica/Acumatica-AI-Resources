@@ -1,4 +1,4 @@
-# Adjusting VAT for Early Payments {#_8ac4a790-6d3f-45e5-83b0-6eba4f00deac .concept}
+# Adjusting VAT for Early Payments
 
 The topics of this chapter describe how value-added taxes are adjusted for invoices paid within the cash discount period.
 

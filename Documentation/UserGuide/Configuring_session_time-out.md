@@ -1,12 +1,12 @@
-# To Configure the Session Timeout {#_54775fb6-60d7-4995-99c0-8349f9b5d356 .task}
+# To Configure the Session Timeout
 
 You can configure the session timeout value for your Acumatica ERP website. To change the timeout value, you change the session timeout and cookie timeout values in the `web.config` file of the application instance website. Also, you must make sure that the Application Pool Idle Time-out value in the Internet Information Services \(IIS\) Manager is greater than the session timeout and cookie timeout values for your website. This step is required, because IIS can recycle the application pool before the session has expired.
 
-CAUTION:
+**CAUTION:**
 
 Make sure that all users of your website are warned about the site restart so that they can save all documents.
 
-## To Configure the Session Time-Out { .section}
+## To Configure the Session Time-Out
 
 1.  Open the `web.config` file for the instance. Usually it can be located in **%Program Files%\\Acumatica ERP\\&lt;instance name&gt;**, where *&lt;instance name&gt;* is the name of the application instance website.
 2.  Change the session timeout to the appropriate value \(in minutes\), as shown below.

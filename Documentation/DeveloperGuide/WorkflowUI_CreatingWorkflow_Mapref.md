@@ -1,4 +1,4 @@
-# Creating Workflows {#_5ff48cbb-1fd1-4423-9804-636b7dd721d0 .concept}
+# Creating Workflows
 
 In this chapter, you will learn how to create a workflow from scratch. Creating a workflow rather than customizing one may be the best option when the Acumatica ERP form for which you need a workflow does not have one, or when the needed workflow is too different from the predefined workflow or workflows of the form. No coding is required for the workflow creation process.
 

@@ -1,4 +1,4 @@
-# To Create a Request for Information by Using the Acumatica Add-In {#_ff3eed33-5af3-499c-b513-973ecb6726be .task}
+# To Create a Request for Information by Using the Acumatica Add-In
 
 To create a new request for information based on an email, do the following:
 

@@ -1,4 +1,4 @@
-# Processing AP Documents with Retainage {#_cd6fb519-2a85-4a64-984a-12fb5d9b22f3 .concept}
+# Processing AP Documents with Retainage
 
 In some industries, such as construction, it is necessary to withhold a portion of the contract amount until the work has been completed to ensure that the vendor will satisfy its obligations and complete a particular project. In Acumatica ERP, if the *Retainage Support* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can process bills and debit adjustments with retained amounts and track retainage by document line.
 

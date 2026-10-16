@@ -1,10 +1,10 @@
-# General Ledger: Actual Ledger {#_1f0bd0a0-bb42-4e75-ae57-9d8e2b9486c6 .concept}
+# General Ledger: Actual Ledger
 
 In Acumatica ERP, a ledger of the *Actual* type is at the core of your company’s financial records. The records in the actual ledger make up the history of all financial transactions of your organization. The system updates the actual ledger every time you release and post a financial transaction in the system.
 
 In this topic, you will read about creating actual ledgers in the system.
 
-## Creation of an Actual Ledger { .section}
+## Creation of an Actual Ledger
 
 You can specify only one ledger of the *Actual* type for each company. You add a new actual ledger in either of the following ways:
 

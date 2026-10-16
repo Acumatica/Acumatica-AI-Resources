@@ -1,4 +1,4 @@
-# Contract Billing: Mass-Processing {#_7faa9502-47f7-4d4a-b4d7-79c336e24ca7 .concept}
+# Contract Billing: Mass-Processing
 
 In Acumatica ERP, you can perform mass-processing billing \(to bill multiple contracts simultaneously\) for a contract after contract usage has been recorded or you can perform mass-processing billing for a contract with no usage.
 

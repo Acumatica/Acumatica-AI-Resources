@@ -1,4 +1,4 @@
-# Configuring Cash Accounts in Foreign Currencies {#_70bd4396-a524-4685-8e76-7cbfc088639c .concept}
+# Configuring Cash Accounts in Foreign Currencies
 
 The topics of this chapter describe how to configure a cash account denominated in a foreign currency and create a GL transaction by using this account.
 

@@ -1,8 +1,8 @@
-# UI Field Configuration {#_9fa848ae-704a-4332-95bd-0beac0180ddb .concept}
+# UI Field Configuration
 
 By using the [PXUIField](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=79a99243-7926-f570-87ed-536a04ccfe32) attribute, you can configure the layout of input controls and buttons. The attribute is mandatory for all data access class \(DAC\) fields displayed in the user interface.
 
-## Setting of the PXUIField Attribute { .section}
+## Setting of the PXUIField Attribute
 
 You can add the PXUIField attribute in the following ways:
 
@@ -30,7 +30,7 @@ You can add the PXUIField attribute in the following ways:
 
 The attribute's properties determine the control layout in the user interface. You can specify the display name, specify whether the control is visible and available, set the error marker, and specify the access rights to view and use the control.
 
-## Setting of the Properties of the PXUIField Attribute at Runtime { .section}
+## Setting of the Properties of the PXUIField Attribute at Runtime
 
 You can use the static methods \(such as SetEnabled and SetRequired\) of the PXUIFieldAttribute class to set the properties of a control at runtime. The PXUIFieldAttribute static methods can be called in the graph constructor or the RowSelected event handlers.
 

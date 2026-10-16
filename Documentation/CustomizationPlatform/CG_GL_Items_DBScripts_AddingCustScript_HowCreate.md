@@ -1,10 +1,10 @@
-# Creating a Custom SQL Script {#_416914ca-25c9-4ab7-8d31-fe5c02d9a6aa .concept}
+# Creating a Custom SQL Script
 
 To create database objects other than custom tables or to insert data into tables, you can add custom SQL scripts to a customization project.
 
 When you publish a customization project that contains a database script, the Acumatica Customization Platform executes the script during the first publication. The platform keeps information about each script that has been executed at least once and has not since been changed in the database, and omits the repeated execution of these scripts for optimization purposes. If you run the **Publish with Cleanup** operation, the platform cleans all the information about previously executed scripts of the customization project, and executes this script once more while publishing the project. See [Customization Project Editor](../UserGuide/SM_20_45_10.md) for details.
 
-## Creating Custom Scripts { .section}
+## Creating Custom Scripts
 
 As you write scripts, keep the following guidelines in mind:
 

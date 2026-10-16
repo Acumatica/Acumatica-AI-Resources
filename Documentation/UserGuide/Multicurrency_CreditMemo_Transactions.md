@@ -1,8 +1,8 @@
-# Credit Memos in Foreign Currencies: Generated Transactions {#_cc4bcfc7-81da-4131-9097-5c9d71787f9e .concept}
+# Credit Memos in Foreign Currencies: Generated Transactions
 
 To be able to decrease customer balances in foreign currencies, you create and process credit memos. To update customer balances, the system generates the GL transactions described in the following sections.
 
-## Transaction Generated for a Credit Memo {#section_ndx_3jv_vxb .section}
+## Transaction Generated for a Credit Memo
 
 When you create and release a credit memo, the system generates the following GL transaction.
 
@@ -13,7 +13,7 @@ When you create and release a credit memo, the system generates the following GL
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 
-## Transactions Generated for a Credit Memo Application Producing RGOL {#section_qdx_3jv_vxb .section}
+## Transactions Generated for a Credit Memo Application Producing RGOL
 
 When you release a credit memo application to an invoice in a foreign currency, the difference in currency rates can produce a realized gain or loss \(RGOL\).
 

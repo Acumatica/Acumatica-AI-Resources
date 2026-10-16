@@ -1,4 +1,4 @@
-# To Create an XML Data Provider {#_3fa49466-c99e-47ac-a32a-4d1a4bc2fe99 .task}
+# To Create an XML Data Provider
 
 You use the [Data Providers](SM_20_60_15.md) \(SM206015\) form to create a data provider, which defines the structure of external data and is used by Acumatica ERP during data import or data export.
 
@@ -6,7 +6,7 @@ You use the [Data Providers](SM_20_60_15.md) \(SM206015\) form to create a data 
 
 This procedure describes how to create a data provider that works with the records in an XML file.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Make sure the XML file for which you are going to create a data provider has one of the following formats:
 
@@ -64,7 +64,7 @@ Make sure the XML file for which you are going to create a data provider has one
 
 If you need to use another XML format, you should develop a custom data provider by using the API provided by Acumatica ERP or use the contract-based API to import or export the data. For details about the contract-based API, see [Configuring the REST API](../IntegrationDevelopmentGuide/IS__mng_Contract_Based_Web_Services.md).
 
-## To Create an XML Data Provider { .section}
+## To Create an XML Data Provider
 
 1.  Review the file for which you need to create the data provider to identify the needed parameters of the provider \(the file format and file encoding\) and the external data schema.
 2.  On the [Data Providers](SM_20_60_15.md) \(SM206015\) form, create a provider, and specify the following settings:

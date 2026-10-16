@@ -1,20 +1,20 @@
-# Upgrading of Acumatica ERP: To Schedule the System Lockout {#_20186ba0-1542-41fb-b8b6-4589e1469295 .task}
+# Upgrading of Acumatica ERP: To Schedule the System Lockout
 
 The following activity will walk you through the process of scheduling a system lockout before the upcoming Acumatica ERP upgrade or update.
 
-## Story { .section}
+## Story
 
 Suppose that you are the system administrator of your company, and you need to lock out the system before upgrading or updating the existing Acumatica ERP application instance to the next version.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will schedule the lockout of the Acumatica ERP instance before its upgrade or update.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing this activity, make sure that you have completed the [Instance Deployment: To Deploy an Instance with Demo Data](INST_Deploying_Instances_Deploy_Tenant_With_Demodata_Activity.md) or [Instance Deployment: To Deploy an Out-of-the-Box Instance](INST_Deploying_Instances_Deploy_Tenant_Without_Demodata_Activity.md) prerequisite activity.
 
-## Step: Scheduling the System Lockout { .section}
+## Step: Scheduling the System Lockout
 
 To schedule the Acumatica ERP lockout, do the following:
 

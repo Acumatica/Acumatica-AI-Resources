@@ -1,4 +1,4 @@
-# Construction Reports: AIA Reports for Released Retainage {#_567860e1-bfb9-4049-ab2b-07fee33d64ff .concept}
+# Construction Reports: AIA Reports for Released Retainage
 
 The topic provides information on how you can print the AIA report for released retainage.
 

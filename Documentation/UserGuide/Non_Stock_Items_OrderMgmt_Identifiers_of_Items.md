@@ -1,4 +1,4 @@
-# Non-Stock Items: Identifiers of Items {#_a2cfcfb6-4e3a-4859-8ec6-c6d21946adbf .concept}
+# Non-Stock Items: Identifiers of Items
 
 Each stock or non-stock item is tracked in the system by its inventory ID. This unique identifier can be just a number, or you can configure it to provide basic information about the item type, brand, or use. Inventory IDs can be designed to help you sort and group items for reports.
 

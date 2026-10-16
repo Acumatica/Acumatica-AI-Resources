@@ -1,8 +1,8 @@
-# Invoke Project Billing {#_b814f256-d720-4926-bb96-25e8808a7f49 .concept}
+# Invoke Project Billing
 
 By using the REST API, you can invoke project billing to create a pro forma invoice.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to configure your client application and the Acumatica ERP instance to be used as follows:
 
@@ -12,7 +12,7 @@ Before you test the code below, you need to configure your client application an
 4.  To sign in to the instance in the client application, use the tenant name that you specified when you created the instance and the *HEADOFFICE* branch.
 5.  Implement the [Specify the Progress of a Project Task](IntegrationDev_RESTExample_ProjectBudget_SetProgress.md) example as a prerequisite to the current example.
 
-## Requests { .section}
+## Requests
 
 You can use the following sequence of examples of HTTP requests to run project billing and check the completeness of this operation through the contract-based REST API:
 
@@ -21,7 +21,7 @@ You can use the following sequence of examples of HTTP requests to run project b
 1.  Invoke project billing to create a pro forma invoice.
 
     ```
-    POST /entity/Default/25.200.001/Project/RunProjectBilling HTTP/1.1
+    POST /entity/Default/26.200.001/Project/RunProjectBilling HTTP/1.1
     Host: <Acumatica ERP host>
     Accept: application/json
     Content-Type: application/json
@@ -40,7 +40,7 @@ You can use the following sequence of examples of HTTP requests to run project b
 2.  Monitor the status of the operation until the system returns the *204 No Content* code.
 
     ```
-    GET /entity/Default/25.200.001/Project/RunProjectBilling
+    GET /entity/Default/26.200.001/Project/RunProjectBilling
         /status/6952c6d1-04be-4330-a26e-c6b855ba332c HTTP/1.1
     Host: <Acumatica ERP host>
     Accept: application/json
@@ -48,7 +48,7 @@ You can use the following sequence of examples of HTTP requests to run project b
     ```
 
 
-## Usage Notes { .section}
+## Usage Notes
 
 By using the REST API, you can create pro forma invoices and send them by email. For details about pro forma invoices, see [Pro Forma Invoices: General Information](../Shared/../UserGuide/Projects_Pro_Forma_Invoices_GeneralInfo.md).
 

@@ -1,4 +1,4 @@
-# Defining Opportunity Classes {#_43cdd9b6-4d56-4f7f-909b-f7f12e50179d .concept}
+# Defining Opportunity Classes
 
 In this chapter, you will find information about defining opportunity classes in Acumatica ERP.
 

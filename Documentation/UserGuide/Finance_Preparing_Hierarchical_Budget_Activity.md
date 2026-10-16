@@ -1,24 +1,24 @@
-# Hierarchical Budget: Process Activity {#_f40ad1e4-3c44-41ec-b073-60741852bff5 .task}
+# Hierarchical Budget: Process Activity
 
 In this activity, you will learn how to prepare a hierarchical budget.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_etk_mjv_vxb .section}
+## Story
 
 Suppose that for the SweetLife Fruits &amp; Jams company, the budget structure has been defined in the system. Acting as an accountant, you need to prepare a hierarchical budget for the *Service and Equipment Sales Center* branch in the system for the financial years 2026 and 2021.
 
-## Configuration Overview {#section_gtk_mjv_vxb .section}
+## Configuration Overview
 
 For the purposes of this lesson, the *Subaccounts* feature has been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. On the [Segmented Keys](CS_20_20_00.md) \(CS202000\) form, the *SUBACCOUNT* segmented key has been defined according to your the company business needs. For details, see [Subaccounts: Implementation Activity](../ImplementationGuide/config_Subaccounts_Implem_Activity.md).
 
 On the [Ledgers](GL_20_15_00.md) \(CS202000\) form, a ledger with the *Budget* type has been defined for the SweetLife Fruits &amp; Jams company. For details, see [Budget Ledger: Implementation Activity](../ImplementationGuide/BudgetLedger_Implem_Activity.md).
 
-## Process Overview {#section_jtk_mjv_vxb .section}
+## Process Overview
 
 To create a hierarchical budget, you preload the budget structure on the [Budgets](GL_30_20_10.md) \(GL302010\) form. For 2026, you will upload the budget amounts from a file and distribute these amounts over the periods of the year on the [Budgets](GL_30_20_10.md) form. You will then post the 2026 budget to a budget ledger by releasing the budget articles on the [Release Budgets](GL_50_55_10.md) \(GL505510\) form.
 
-## System Preparation {#section_ltk_mjv_vxb .section}
+## System Preparation
 
 Before you prepare the hierarchical budget, do the following:
 
@@ -31,7 +31,7 @@ Before you prepare the hierarchical budget, do the following:
 7.  In the **To Year** box, select *2021*.
 8.  On the form toolbar, click **Process All**.
 
-## Step 1: Preloading the Budget Structure {#section_ntk_mjv_vxb .section}
+## Step 1: Preloading the Budget Structure
 
 To preload the budget structure for 2026, do the following:
 
@@ -45,7 +45,7 @@ To preload the budget structure for 2026, do the following:
 5.  In the dialog box, click **Yes** to confirm that you want to preload the budget articles. The system closes the dialog box and populates the budget articles on the [Budgets](GL_30_20_10.md) form according to the budget tree configuration.
 6.  In the Summary area of the form, make sure the **Tree View** check box is selected.
 
-## Step 2: Defining the Budget Amounts for 2026 and Releasing the Budget {#section_qtk_mjv_vxb .section}
+## Step 2: Defining the Budget Amounts for 2026 and Releasing the Budget
 
 To define the budget amounts and release the budget, do the following:
 

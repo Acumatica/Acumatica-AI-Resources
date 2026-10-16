@@ -1,4 +1,4 @@
-# From a Method {#_3a427466-1925-4799-8fee-fe34a77021d0 .concept}
+# From a Method
 
 You can access the extension instance through the base \(original\) DAC object by using one of the following generic methods:
 

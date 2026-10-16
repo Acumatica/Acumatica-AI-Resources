@@ -1,4 +1,4 @@
-# Processing Expense Returns to Corporate Cards {#_9f37abd4-c2d0-43e4-847d-79c59befbb53 .concept}
+# Processing Expense Returns to Corporate Cards
 
 Acumatica ERP supports the use of corporate credit cards in expense receipts and claims. In this chapter, you will find topics that explain how to process an expense return: a return of expenses that have been paid with a corporate card.
 
@@ -14,6 +14,4 @@ Acumatica ERP supports the use of corporate credit cards in expense receipts and
 
 -   **[Expense Returns with Corporate Cards: To Process an Expense Return to a Corporate Card](../UserGuide/TimeExpenses_Expense_Returns_Process_Activity_Constr.md)**  
 
-
-**Parent topic:**[Time and Expenses](../UserGuide/TM_00_00_00.md)
 

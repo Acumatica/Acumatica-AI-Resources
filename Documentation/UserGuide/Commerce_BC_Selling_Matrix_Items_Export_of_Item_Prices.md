@@ -1,16 +1,16 @@
-# Selling Matrix Items: Export of Item Prices {#_3ae66b12-2349-4926-8787-163daca97c26 .concept}
+# Selling Matrix Items: Export of Item Prices
 
 In Acumatica ERP, you can add sales prices for matrix items and export these prices to your BigCommerce store.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this section, you will learn how to export the sales prices of matrix items from Acumatica ERP to the BigCommerce store.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You export the sales prices of matrix items from Acumatica ERP to the BigCommerce store if you keep the sales prices of matrix items in Acumatica ERP and want to quickly update the sales prices of the corresponding products in BigCommerce.
 
-## Types of Prices that Can Be Synchronized for Matrix Items {#_763fd053-6263-4006-9add-1319dfa039f3 .section}
+## Types of Prices that Can Be Synchronized for Matrix Items
 
 The following types of prices that you keep in Acumatica ERP can be synchronized with the BigCommerce store for matrix items:
 
@@ -25,7 +25,7 @@ The following types of prices that you keep in Acumatica ERP can be synchronized
     In BigCommerce, the sales price has a higher priority than the default price. Therefore, when the **Sale Price** column is populated for an item, the price specified in this column is the effective price of the item.
 
 
-## Limitations of Sales Price Synchronization for Matrix Items { .section}
+## Limitations of Sales Price Synchronization for Matrix Items
 
 The following price types maintained in Acumatica ERP are not exported to the BigCommerce store for matrix items:
 

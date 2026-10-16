@@ -1,4 +1,4 @@
-# Company Without Branches {#_2942b1b3-fa19-449e-8c68-5ad3c0982d20 .concept}
+# Company Without Branches
 
 This chapter describes the configuration of a company that has just one office, including the minimum set of features that has to be enabled for this configuration. The chapter also contains an implementation checklist that users can refer to when they are preparing for implementation and configuring the basic Acumatica ERP functionality for the company.
 

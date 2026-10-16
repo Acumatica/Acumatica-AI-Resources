@@ -1,4 +1,4 @@
-# Upgrading Workflows {#_29ca07ea-9dfb-48fc-84b2-e674edb1cf5e .concept}
+# Upgrading Workflows
 
 Acumatica developers may modify the predefined workflows associated with inherited workflows that you have modified. In this chapter, you will learn how to upgrade the inherited workflows after these updates have been made to the predefined workflows they are based on.
 

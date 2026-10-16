@@ -1,19 +1,19 @@
-# Balance Reconciliation: General Information {#_0c3eabf5-3b9c-4aff-af3d-f7eb19a5cf0e .concept}
+# Balance Reconciliation: General Information
 
 After you have imported data to the system, you need to reconcile the balances.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Identify which accounts should be reconciled after data migration
 -   Reconcile the balance of accounts after data migration
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 To verify the results of data migration and to ensure that data is complete and accurate and the system is ready to be used in a production environment, you need to make sure that the uploaded balances are the same as those in the legacy system.
 
-## Reconciliation of Migrated Data { .section}
+## Reconciliation of Migrated Data
 
 The process of reconciling the data migrated from a legacy system includes the following general steps:
 

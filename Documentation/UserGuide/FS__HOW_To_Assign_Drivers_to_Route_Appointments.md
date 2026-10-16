@@ -1,12 +1,12 @@
-# To Assign Drivers to Execute Routes {#_b84a7596-61b6-4eb3-a32d-8c2ff4606cb9 .task}
+# To Assign Drivers to Execute Routes
 
 You can assign drivers to a particular route execution on the [Route Document Details](FS_30_40_00.md) \(FS304000\) form, or you can assign drivers to multiple route executions for a specific date range on the [Route Document Worksheets](FS_40_39_00.md) \(FS403900\) form.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Before you start assigning drivers to route executions, make sure that the necessary drivers have been added to the list of drivers that can execute a route on the [Routes](FS_20_37_00.md) \(FS203700\) form.
 
-## To Assign Drivers to a Particular Route Execution { .section}
+## To Assign Drivers to a Particular Route Execution
 
 1.  Open the [Route Document Details](FS_30_40_00.md) \(FS304000\) form.
 2.  In the **Route Nbr.** box, select the route execution to which you want to assign the driver.
@@ -20,7 +20,7 @@ Before you start assigning drivers to route executions, make sure that the neces
     -   In the **Additional Driver** lookup table, which opens, click the line with the necessary driver and then click **Select**.
 6.  Click **Save**.
 
-## To Assign Drivers to Multiple Route Executions { .section}
+## To Assign Drivers to Multiple Route Executions
 
 1.  Open the [Route Document Worksheets](FS_40_39_00.md) \(FS403900\) form.
 2.  In the **From** box, select the start date of the range for which the route executions will be displayed in the table.

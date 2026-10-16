@@ -1,16 +1,16 @@
-# Bill Prepayments: To Process a Prepayment {#_603e0aa1-81fc-48a0-ab9f-2803999068c8 .task}
+# Bill Prepayments: To Process a Prepayment
 
 The following activity will walk you through the process of creating a prepayment request, making a payment based on the prepayment request, and applying the prepayment to a bill.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_wtn_njv_vxb .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company has ordered a new design for the company's printed labels and paper bags from Wingman Printing Company. They requested an advance payment of $425 for these services. Further suppose that the prepayment that SweetLife made on January 18, 2026 has to be applied to an AP bill from Wingman Printing Company.
 
 Acting as a SweetLife accountant, you have to record a request for an advance payment of $425 to the *PRINTICO* vendor. You then need to make a payment for the request, and then apply this prepayment to the bill.
 
-## Configuration Overview {#section_ztn_njv_vxb .section}
+## Configuration Overview
 
 For the purposes of this activity, the following features have been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form:
 
@@ -22,11 +22,11 @@ On the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form, the **H
 
 On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *PRINTICO \(Wingman Printing Company\)* vendor has been defined. This vendor has the *CHECK* payment method specified as the default one.
 
-## Process Overview {#section_d5n_njv_vxb .section}
+## Process Overview
 
 To create a prepayment request and a payment, you will enter the vendor's prepayment request on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. Then you will create a payment for this prepayment request on the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form, and release the payment on the [Release Payments](AP_50_52_00.md) \(AP505200\) form. You will apply the prepayment to an AP bill on the [Checks and Payments](AP_30_20_00.md) form and release the application.
 
-## System Preparation {#section_f5n_njv_vxb .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -36,7 +36,7 @@ To prepare the system, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business Date menu button and select *1/18/2026*. For simplicity, in Step 1 and Step 2 of this process activity, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Creating and Releasing a Prepayment Request {#section_h5n_njv_vxb .section}
+## Step 1: Creating and Releasing a Prepayment Request
 
 To create and release a prepayment request, do the following:
 
@@ -58,7 +58,7 @@ To create and release a prepayment request, do the following:
 4.  On the form toolbar, click **Remove Hold**.
 5.  On the form toolbar, click **Release** to release the prepayment request.
 
-## Step 2: Creating a Payment to Pay for the Prepayment Request {#section_k5n_njv_vxb .section}
+## Step 2: Creating a Payment to Pay for the Prepayment Request
 
 To create a payment to pay for the prepayment request, do the following:
 
@@ -76,7 +76,6 @@ To create a payment to pay for the prepayment request, do the following:
     -   **Amount Paid**: `425`
 4.  On the form toolbar, click **Remove Hold**, then click **Save** to save the payment. The following screenshot illustrates the payment prepared to pay the prepayment request.
 
-    ![](Images/activity_ProcessingPrepayments_Prepayment.png "The payment prepared to pay the prepayment request")
 
 5.  On the form toolbar, click **Print/Process**.
 6.  On the [Process Payments / Print Checks](AP_50_50_00.md) \(AP505000\) form, which is opened, notice that the system has added a row with the payment and selected the unlabeled check box for it. On the form toolbar, click **Process**.
@@ -90,7 +89,7 @@ To create a payment to pay for the prepayment request, do the following:
 8.  Close the browser tab.
 9.  On the [Release Payments](AP_50_52_00.md) \(AP505200\) form, which is opened, click **Process**. In the **Processing** pop-up window, which is opened, click **Close**.
 
-## Step 3: Applying the Prepayment to a Bill {#section_o5n_njv_vxb .section}
+## Step 3: Applying the Prepayment to a Bill
 
 To apply the prepayment to a bill, do the following:
 
@@ -108,7 +107,6 @@ To apply the prepayment to a bill, do the following:
     -   **Amount Paid**: 425 \(filled in automatically\)
     The following screenshot shows the prepayment that has been applied to a bill, but not yet released.
 
-    ![](Images/activity_ProcessingPrepayments_Application_to_Bill.png "The prepayment applied to the AP bill")
 
 6.  On the form toolbar, click **Release** to release the prepayment application to the bill.
 

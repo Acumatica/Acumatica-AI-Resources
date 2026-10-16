@@ -1,4 +1,4 @@
-# Replacing Attributes for DAC Fields in CacheAttached {#_65fc0b8f-f9d9-4e15-9879-247458429937 .concept}
+# Replacing Attributes for DAC Fields in CacheAttached
 
 The attributes specified in a data access class \(DAC\) apply to this class in every graph of the application unless a graph replaces them with other attributes. In some graphs, you may need attributes that differ from what is declared in the DAC. In this chapter, you will learn how to replace the attributes for DAC fields in a graph.
 

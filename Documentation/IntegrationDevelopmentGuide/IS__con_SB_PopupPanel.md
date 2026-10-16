@@ -1,4 +1,4 @@
-# Commands for Pop-Up Panels {#_0ff94cd6-a46e-4cf7-8b97-51b79a6b3257 .concept}
+# Commands for Pop-Up Panels
 
 In some instances, when you click a specific button on some form, the system opens a pop-up panel, where you can set the values of needed elements. This pop-up panel looks like a dialog box and does not contain an Acumatica ERP form. For example, if you click **Add Order** on the table toolbar of the **Details** tab of the [Shipments](../UserGuide/SO_30_20_00.md) \(SO302000\) form, the system displays the **Add Sales Order** pop-up panel.
 

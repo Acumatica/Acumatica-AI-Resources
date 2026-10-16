@@ -1,16 +1,16 @@
-# Batch Picking: Process Activity {#_14cbf88c-7a75-4241-a360-5faf8f0473ab .task}
+# Batch Picking: Process Activity
 
 In the following activity, you will learn how to process shipments in a batch by using the [Pick, Pack, and Ship](SO_30_20_20.md) \(SO302020\) form.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the Wholesale warehouse of SweetLife was temporarily closed because of inventory counting. During this time, multiple orders have been entered into the system, and they now require shipping. The warehouse manager wants to speed up the process of picking and packing items by creating a batch picking worksheet and assigning this work to multiple pickers. After the warehouse workers pick the items and transfer them to a sorting location, a warehouse worker acting as the packer needs to pack the items and confirm the shipments.
 
 You will perform these actions, acting as all of these employees.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -27,7 +27,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, the following sales orders have been created for multiple customers: *000047*, *000048*, *000049*, *000050*, *000051*, *000052*, *000053*, *000054*, *000055*, *000056*, *000057*, *000058*, and *000059*.
 -   On the [Shipments](SO_30_20_00.md) \(SO302000\) form, the following shipment documents have been created for these sales orders: *000046*, *000047*, *000048*, *000049*, *000050*, *000051*, *000052*, *000053*, *000054*, *000055*, *000056*, *000057*, and *000058*.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -41,7 +41,7 @@ In this activity, you will do the following:
 
 **Tip:** In any working mode, you enter a command or barcode by typing it in the **Scan** box and pressing Enter. In production systems, you will scan the appropriate barcodes rather than manually entering them.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start the automated picking and packing operations, you need to perform the following instructions:
 
@@ -49,7 +49,7 @@ Before you start the automated picking and packing operations, you need to perfo
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the **Warehouse Management** tab of the [Sales Orders Preferences](SO_10_10_00.md) \(SO101000\) form, make sure that the **Display the Pick Tab** and the **Display the Pack Tab** check boxes are selected.
 
-## Step 1: Preparing the Batch Picking Worksheet { .section}
+## Step 1: Preparing the Batch Picking Worksheet
 
 As the warehouse manager, prepare the batch picking worksheet as follows:
 
@@ -61,16 +61,14 @@ As the warehouse manager, prepare the batch picking worksheet as follows:
 6.  On the form toolbar, click **Process**. The system processes the shipments. Close the **Processing** dialog box after the processing has completed.
 7.  On the [Picking Worksheets](SO_30_25_00.md) \(SO302500\) form, review the details of the created worksheet of the *Batch* type with the *Open* status \(see the following screenshot\). The **Details** tab lists all the items that have to be packed in the batch. Notice that *&lt;SPLIT&gt;* is shown in the **Location** column for all lines, indicating that each item has to be picked from multiple locations. You can select any line and then click **Line Details** on the table toolbar to review the list of locations from which the items will be picked.
 
-    ![](Images/activity_WMS_Batch_Wsh_Details.png "Items to be picked for all the shipments included in the worksheet")
 
 8.  Review the **Pickers** tab. The system has calculated the optimal path and determined that the appropriate number of pickers is four \(see Item 1\).
 9.  Click the first line in the table, and click **View Pick List** \(Item 2\) on the table toolbar to review the items included in the pick list for the first picker \(Item 3\).
 
-    ![](Images/activity_WMS_Batch_Wsh_Pickers.png "List of pickers of the shipments")
 
 10. Sign out of the system.
 
-## Step 2a: Picking the Items in a Batch \(Picker 1\) { .section}
+## Step 2a: Picking the Items in a Batch \(Picker 1\)
 
 Acting as the first picker in the picking worksheet, you will do the following:
 
@@ -101,7 +99,7 @@ Acting as the first picker in the picking worksheet, you will do the following:
 
 9.  Sign out of the system.
 
-## Step 2b: Picking the Items in a Batch \(Picker 2\) { .section}
+## Step 2b: Picking the Items in a Batch \(Picker 2\)
 
 Acting as the second picker in the picking worksheet, you will do the following:
 
@@ -128,7 +126,7 @@ Acting as the second picker in the picking worksheet, you will do the following:
 
 8.  Sign out of the system.
 
-## Step 2c: Picking the Items in a Batch \(Picker 3\) { .section}
+## Step 2c: Picking the Items in a Batch \(Picker 3\)
 
 Acting as the third picker in the picking worksheet, you will do the following:
 
@@ -159,7 +157,7 @@ Acting as the third picker in the picking worksheet, you will do the following:
 
 9.  Sign out of the system.
 
-## Step 2d: Picking the Items in a Batch \(Picker 4\) { .section}
+## Step 2d: Picking the Items in a Batch \(Picker 4\)
 
 Acting as the fourth picker in the picking worksheet, you will do the following:
 
@@ -196,23 +194,21 @@ Acting as the fourth picker in the picking worksheet, you will do the following:
 
 You have picked all the items for the picking worksheet, and now you can proceed with packing the shipments.
 
-## Step 3: Preparing the Packing Slips { .section}
+## Step 3: Preparing the Packing Slips
 
 You will now act as the pack line operator who prepares packing slips for the processed shipments. Do the following:
 
 1.  Sign in to the system as a pack line operator by using the *rueb* username and the *123* password.
 2.  On the [Picking Worksheets](SO_30_25_00.md) \(SO302500\) form, open the batch picking worksheet, and review the **Pickers** tab. The usernames of the workers who performed the picking operations are shown in the **User** column \(Item 1 below\); the selected check boxes in each line of the **Confirmed** \(Item 2\) column indicate that each picker has confirmed the completion of the picking. The values in the **Sorting Location** column \(Item 3\) indicate that the pickers have finished the picking and taken the picked items to the sorting location.
 
-    ![](Images/activity_WMS_Batch_Wsh_Picked.png "The users who confirmed the picking of the batch")
 
 3.  Review the **Shipments** tab, as shown in the following screenshot. All shipments have been picked, as the selected check boxes in the **Picked** column indicate; the picking worksheet now is assigned the *Picked* status.
 
-    ![](Images/activity_WMS_Batch_Wsh_Shipments.png "Shipments ready for packing")
 
 4.  On the form toolbar, click **Print Packing Slips**. The system opens the printable packing slips on the [Batch Packing Slip](SO_64_40_05.md) \(SO644005\) report form. In the production system, you would print the packing slips and give them to a warehouse worker who will perform packing of shipments.
 5.  Sign out of the system.
 
-## Step 4: Packing Items for a Shipment in the Batch { .section}
+## Step 4: Packing Items for a Shipment in the Batch
 
 At this point in the batch picking, all of the shipments from the batch can be packed. For the purposes of this activity, you will pack just one of the shipments, acting as a warehouse worker who handles packing.
 

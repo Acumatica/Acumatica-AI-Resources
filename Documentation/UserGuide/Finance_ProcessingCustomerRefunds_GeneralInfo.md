@@ -1,8 +1,8 @@
-# Refunds: General Information {#_787e1440-10f0-448b-8cff-8f92c07141d1 .concept}
+# Refunds: General Information
 
 In this topic, you will learn how to process AR documents with the *Refund* type.
 
-## Learning Objectives {#section_bnp_4jv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,7 +10,7 @@ In this chapter, you will learn how to do the following:
 -   Void a refund
 -   Create a refund and partially apply a prepayment to the refund
 
-## Applicable Scenarios {#section_fnp_4jv_vxb .section}
+## Applicable Scenarios
 
 Refunds can be created in the following cases:
 
@@ -20,13 +20,19 @@ Refunds can be created in the following cases:
 
 Refunds can be voided if errors have been made or if the refunds are otherwise invalid. Voiding a refund reverses the original refund transactions. You can use the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form to void a refund that has been applied to customer payments, prepayments, credit memos, invoices, debit memos, and overdue charges.
 
-## Creation of a Refund {#section_inp_4jv_vxb .section}
+## Creation of a Refund
 
 To create and process a refund, you use the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form. Alternatively, you can use the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, where you can select a credit memo and then click **Refund** \(under **Processing**\) on the More menu.
 
-When you are recording a refund, you can apply its available balance fully or partially to an open payment, prepayment, credit memo, or sales order—or to multiple documents of these types—before or after you release the refund. For step-by-step instructions, see [Refunds: To Create a Refund and Apply a Credit Memo to It](Finance_ProcessingCustomerRefunds_Activity1.md). To perform a refund for a closed payment document, first reverse the applications of the payment document, and then create a refund for the payment document.
+When you are recording a refund, you can apply its available balance fully or partially to an open payment, prepayment, credit memo, or sales order—or to multiple documents of these types—before or after you release the refund. For step-by-step instructions, see [Refunds: To Create a Refund and Apply a Credit Memo to It](Finance_ProcessingCustomerRefunds_Activity1.md). To perform a refund for a closed payment document, first reverse the applications of the payment document, and then create a refund for the payment.
 
-## Release of a Refund {#section_lnp_4jv_vxb .section}
+## Creation of Refunds for Payments Released in Closed Financial Periods
+
+When you create a refund for a payment that was released in a closed financial period, the system determines the financial period of the refund based on the current business date. If the **Restrict Access to Closed Periods** check box is selected on the [General Ledger Preferences](GL_10_20_00.md) \(GL102000\) form and a valid open financial period is available for the current business date, the system assigns the current business date and the corresponding open financial period to the refund instead of using the financial period of the original payment.
+
+If the financial period that includes the current business date is inactive, locked, or closed, the system displays a period restriction error when you click **Refund** on the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form. In this case, you need assistance from a user with the *Financial Supervisor* role. The user with this role reopens or unlocks the period, or creates the refund directly according to your organization’s procedures. For more information, see [Finance: Creating a Refund for a Payment with a Closed Financial Period](Finance_Refund_in_Closed_Periods.md).
+
+## Release of a Refund
 
 On the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, you can create and release a document with the *Refund* type without applying it to another document. When the refund is released, its status is changed to *Open*, the refund has an open balance \(that is, the **Available Balance** box shows a nonzero amount\), and the refund can be applied to a payment, prepayment, or credit memo on the **Documents to Apply** tab.
 
@@ -40,13 +46,13 @@ When you release a refund to which documents have been applied, the system does 
 -   Decreases the customer's prepayment balance by the refund amount if the refund is applied to a payment document of the *Prepayment* type.
 -   Generates a GL batch to update the involved asset accounts.
 
-## Application of a Refund {#section_pnp_4jv_vxb .section}
+## Application of a Refund
 
 Customer refunds often involve a combination of invoices and credits, especially when customers have been over-credited. On the **Documents to Apply** tab of the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, you can apply customer refunds to documents of the following types: *Invoice*, *Debit Memo*, *Overdue Charge*, *Credit Memo*, *Payment*, and *Prepayment*.
 
 The system calculates the application amount as follows.
 
-``` {#codeblock_ebx_5g2_13c}
+```
 Applied to Documents = Amount Paid (Credit Memo) + Amount Paid (Prepayment) + Amount Paid (Payment) - Amount Paid (Invoice) - Amount Paid (Debit Memo) - Amount Paid (Overdue Charge)
 ```
 
@@ -56,7 +62,7 @@ When you’re working with parent and child customer accounts, you can apply ref
 
 On the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, a refund with the *Open* status can be applied to a credit memo if the credit memo has not been released. Regardless of the status of the credit memo and the refunds applied to it, all applications of documents to this credit memo are displayed on the **Applications** tab. For details, see [AR Invoice Correction: To Create a Credit Memo and Apply a Refund to It](Finance_CorrectingARInvoices_Process_Activity3.md).
 
-## Correction of a Refund {#section_snp_4jv_vxb .section}
+## Correction of a Refund
 
 You can correct a released refund by voiding it and recording the correct refund. For step-by-step instructions, see [Refunds: To Void a Refund](Finance_ProcessingCustomerRefunds_Activity2.md).
 
@@ -68,15 +74,13 @@ On release of the voided refund, the system changes the status of the refund to 
 
 If the original document for which the refund has been applied has the *Closed* status, when the refund is voided, the system changes the document’s status to *Open*. You can again apply documents to the original document.
 
-## Workflow of Processing Refunds {#section_ynp_4jv_vxb .section}
+## Workflow of Processing Refunds
 
 The following diagram illustrates the workflow of creating a refund and fully applying a credit memo to it. \(This process is described in [Refunds: To Create a Refund and Apply a Credit Memo to It](Finance_ProcessingCustomerRefunds_Activity1.md).\)
 
-![](Images/diag_Finance_Customer_Refund_Fully_Applied.png "Workflow of creating a refund and applying a credit memo to it in full")
 
 The following diagram illustrates the workflow of creating a refund and partially applying it to a prepayment. \(This process is described in [Refunds: To Create and Partially Apply a Refund](Finance_ProcessingCustomerRefunds_Activity3.md).\)
 
-![](Images/diag_Finance_Customer_Refund_Partially_Applied.png "Workflow of creating a refund and partially applying it to a prepayment")
 
 **Parent topic:**[Processing Refunds](../UserGuide/Finance_ProcessingCustomerRefunds_Mapref.md)
 

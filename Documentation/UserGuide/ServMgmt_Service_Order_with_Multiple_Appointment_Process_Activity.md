@@ -1,16 +1,16 @@
-# Service Orders with Additional Services and Appointments: Process Activity {#_19f26123-fe47-488d-88cd-fea32d67f358 .task}
+# Service Orders with Additional Services and Appointments: Process Activity
 
 In this activity, you will learn how to add an appointment and a service to an existing service order.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the FourStar Coffee &amp; Sweets Shop customer contacts the SweetLife Service and Equipment Sales Center to request a training service in addition to the juicer installation service previously ordered. The service manager has already created a service order that includes the installation service.
 
 Acting as the service manager \(Maia Davis\), you'll open the existing service order, add the new training service, and create an additional appointment to provide it.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -28,11 +28,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
     -   *INSTALL*: On the **Price/Cost** tab, the *Flat Rate* billing rule is selected.
 -   On the [Service Orders](FS_30_01_00.md) \(FS300100\) form, the service order with the *000036* reference number has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Service Orders](FS_30_01_00.md) \(FS300100\) form, you'll open an existing service order and add an additional service on the **Details** tab. Then, from the same form, you'll create a new appointment for the added service.
 
-## System Preparation {#section_vpf_g2y_1hc .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -40,7 +40,7 @@ Before you start this activity, do the following:
 2.  In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date *1/30/2026*. For simplicity, you will use this business date to create and process all documents in this activity.
 3.  After signing in, make sure that the *Service Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form.
 
-## Step 1: Adding an Additional Service to an Existing Service Order { .section}
+## Step 1: Adding an Additional Service to an Existing Service Order
 
 To add another service to the service order that already exists in the system, do the following:
 
@@ -51,7 +51,7 @@ To add another service to the service order that already exists in the system, d
     -   In the **Inventory ID** column, select *TRAINING*.
 4.  On the form toolbar, click **Save**.
 
-## Step 2: Adding a Staff Member with the Required Skills { .section}
+## Step 2: Adding a Staff Member with the Required Skills
 
 First, review the skills of the staff member already assigned to the service order. While viewing the *000036* service order on the [Service Orders](FS_30_01_00.md) \(FS300100\) form, do the following:
 
@@ -70,7 +70,7 @@ First, review the skills of the staff member already assigned to the service ord
 
 *EP00000043 \(Edward Smith\)* will perform both services \(installation and training\) included in the service order.
 
-## Step 3: Adding an Extra Appointment to the Service Order { .section}
+## Step 3: Adding an Extra Appointment to the Service Order
 
 In this step, you will add a second appointment to the service order that was created earlier. This appointment is intended for delivering the *TRAINING* service.
 
@@ -88,7 +88,6 @@ To create another appointment for the existing service order, do the following:
 
     Notice that two appointments \(Item 2\) are now listed for the service order.
 
-    ![](Images/ServMgmt_Service_Order_with_Added_Appointment.png "The two created appointments")
 
 
 **Parent topic:**[Adding Services to Existing Service Orders](../UserGuide/ServMgmt_Processing_Service_Orders_with_Multiple_Appointments_Mapref.md)

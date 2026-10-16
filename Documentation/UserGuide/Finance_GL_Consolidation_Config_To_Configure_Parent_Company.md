@@ -1,14 +1,14 @@
-# GL Consolidation Configuration: To Configure the Parent Company {#_5c30449f-88cb-4a38-81a4-235d4a9f318a .task}
+# GL Consolidation Configuration: To Configure the Parent Company
 
 In the following implementation activity, you will learn how to configure the parent company to prepare it for GL consolidation.
 
-## Story {#section_kyl_mjv_vxb .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company has established a subsidiary in Arizona that has been implemented in a separate tenant of Acumatica ERP as a company without branches. The parent company, SweetLife, has to consolidate data from this company with its own data for reporting purposes.
 
 Acting as a system administrator, you need to perform the needed configuration in SweetLife to prepare it for GL consolidation.
 
-## Process Overview {#section_nyl_mjv_vxb .section}
+## Process Overview
 
 In this activity, you will enable the *General Ledger Consolidation* feature on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
@@ -16,13 +16,13 @@ On the [Companies](CS_10_15_00.md) \(CS101500\) form, you will create a subsidia
 
 On the [Ledgers](GL_20_15_00.md) \(GL201500\) form, you will create a consolidation ledger. You will then update the chart of accounts on the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, and set up the consolidation on the [Consolidation](GL_10_30_00.md) \(GL103000\) form.
 
-## System Preparation {#section_ryl_mjv_vxb .section}
+## System Preparation
 
 Before you start configuring the parent company, launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded.
 
 You should sign in as a system administrator Kimberly Gibbs by using the *gibbs* username and the *123* password.
 
-## Step 1: Enabling the Needed Feature {#section_wyl_mjv_vxb .section}
+## Step 1: Enabling the Needed Feature
 
 To enable the *General Ledger Consolidation* feature, do the following:
 
@@ -31,7 +31,7 @@ To enable the *General Ledger Consolidation* feature, do the following:
 3.  Select the **General Ledger Consolidation** check box in the **Advanced Financials** group.
 4.  On the form toolbar, click **Enable** to enable the selected feature.
 
-## Step 2: Creating an Access Role for Subsidiaries {#section_yyl_mjv_vxb .section}
+## Step 2: Creating an Access Role for Subsidiaries
 
 To create an access role that you will use for the subsidiary entity, do the following:
 
@@ -46,7 +46,7 @@ To create an access role that you will use for the subsidiary entity, do the fol
 4.  Click **Add Row** again, and select *pasic* in the **Username** column. This is the username of the accountant who will import consolidation data to the parent tenant.
 5.  On the form toolbar, click **Save** to save your changes.
 
-## Step 3: Creating the Subsidiary Entity {#section_bzl_mjv_vxb .section}
+## Step 3: Creating the Subsidiary Entity
 
 To create the subsidiary entity that represents SweetLife AZ, do the following:
 
@@ -60,7 +60,7 @@ To create the subsidiary entity that represents SweetLife AZ, do the following:
 5.  In the **Access Role** box \(**Configuration Settings** section\), select *Subsidiaries*.
 6.  On the form toolbar, click **Save** to save your changes.
 
-## Step 4: Creating the Consolidation Ledger {#section_dzl_mjv_vxb .section}
+## Step 4: Creating the Consolidation Ledger
 
 To create the consolidation ledger to which the data from SweetLife AZ should be collected, do the following:
 
@@ -72,7 +72,7 @@ To create the consolidation ledger to which the data from SweetLife AZ should be
 3.  On the **Companies** tab, click **Add Row** on the table toolbar, and in the **Company** column, select *AZENTITY* \(the company you created in the previous step\).
 4.  On the form toolbar, click **Save** to save your changes.
 
-## Step 5: Opening Financial Periods in the Subsidiary Entity {#section_fzl_mjv_vxb .section}
+## Step 5: Opening Financial Periods in the Subsidiary Entity
 
 To open the periods of the 2025 financial year in the subsidiary entity that you created in Step 3, do the following:
 
@@ -88,7 +88,7 @@ To open the periods of the 2025 financial year in the subsidiary entity that you
 7.  On the form toolbar, click **Process**. The system displays the **Processing** dialog box.
 8.  Close the **Processing** dialog box when the processing is completed.
 
-## Step 6: Updating the Chart of Accounts {#section_izl_mjv_vxb .section}
+## Step 6: Updating the Chart of Accounts
 
 To add a GL account that will consolidate the balances of all cash accounts from the subsidiary company, do the following:
 
@@ -101,7 +101,7 @@ To add a GL account that will consolidate the balances of all cash accounts from
     -   **Post Option**: *Summary*
 3.  On the form toolbar, click **Save**.
 
-## Step 7: Setting up the Consolidation {#section_kzl_mjv_vxb .section}
+## Step 7: Setting up the Consolidation
 
 To set up GL consolidation in the parent company, do the following:
 
@@ -121,7 +121,6 @@ To set up GL consolidation in the parent company, do the following:
 6.  Make sure that the check box in the **Active** column of the added row is selected.
 7.  Select the unlabeled check box for the row in the table, as shown in the following screenshot.
 
-    ![](Images/activity_Fin_GLConsolidations_Consolidation_created.png "The consolidation rule that has been created")
 
 8.  On the form toolbar, click **Synchronize**.
 
@@ -133,7 +132,6 @@ To set up GL consolidation in the parent company, do the following:
     -   **Start Period**: *11-2025*
 10. On the form toolbar, click **Save**. The consolidation-related data in the parent and child tenants has been synchronized. As a result of the synchronization, the parent company has received information about the subsidiary consolidation ledger and the branches that use the ledger, while the child tenant has received the list of the consolidated accounts for mapping. The consolidation result is shown in the following screenshot.
 
-    ![](Images/activity_Fin_GLConsolidations_Consolidation_synched.png "The consolidation rule that has been synchronized")
 
 
 **Parent topic:**[Configuring GL Consolidation](../UserGuide/Finance_GL_Consolidation_Configuration_Mapref.md)

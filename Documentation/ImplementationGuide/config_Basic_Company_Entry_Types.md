@@ -1,8 +1,8 @@
-# Cash Management: Entry Types {#_db6258e1-3609-4dcd-b3be-7d8fcefe8505 .concept}
+# Cash Management: Entry Types
 
 In Acumatica ERP, you use entry types to classify cash transactions for correct processing and to provide default values for transaction settings.
 
-## Entry Types { .section}
+## Entry Types
 
 An entry type functions like a transaction template, providing default values for a transaction and indicating how the transaction should be processed in the system. When you define an entry type on the [Entry Types](../UserGuide/CA_20_30_00.md) \(CA203000\) form, you specify the type of transactions and documents for which the entry type can be used in the **Module** column, selecting one of the following options:
 

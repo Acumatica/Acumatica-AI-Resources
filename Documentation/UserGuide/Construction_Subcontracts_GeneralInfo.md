@@ -1,8 +1,8 @@
-# Subcontracts: General Information {#_092fdfc8-b353-49d2-ad0d-402968d77afc .concept}
+# Subcontracts: General Information
 
 In Acumatica ERP Construction Edition, subcontract is a document that represents a commitment with a third-party vendor \(subcontractor\) to provide services for a project.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -13,11 +13,11 @@ In this chapter, you will learn how to do the following:
 -   Review the generated general ledger transactions and project transactions
 -   Review how the processed subcontract affects the project budget
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You enter and process subcontracts for a project when your company hires another company to perform a part of the work for a project.
 
-## Subcontract Processing { .section}
+## Subcontract Processing
 
 In general, the [Subcontracts](SC_30_10_00.md) \(SC301000\) form is the starting point for creating a subcontract. In a newly created subcontract, you should first select the vendor \(that is, the subcontractor who will provide the services\). Then on the **Details** tab, you list the lines that represent the work and services that will be performed by the subcontractor.
 
@@ -29,11 +29,10 @@ Once the services have been provided by the subcontractor, you need to process a
 
 **Tip:** If the **Internal Cost Commitment Tracking** check box is selected on the **General** tab of the [Projects Preferences](PM_10_10_00.md) \(PM101000\) form, the system tracks subcontracts as commitments to related projects. For more information, see [Committed Costs: General Information](Projects_Commitments_GeneralInfo.md) and [Change Orders for Commitments: General Information](Projects_Changes_to_Commitments_GeneralInfo.md).
 
-## Workflow of the Processing of a Subcontract { .section}
+## Workflow of the Processing of a Subcontract
 
 The typical process of working with subcontracts involves the actions and generated documents shown in the following diagram.
 
-![](Images/diag_Construction_Working_with_Subcontracts.png)
 
 **Parent topic:**[Processing Subcontracts](../UserGuide/Construction_Subcontracts_Mapref.md)
 

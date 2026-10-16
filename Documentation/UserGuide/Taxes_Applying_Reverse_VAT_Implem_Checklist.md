@@ -1,8 +1,8 @@
-# Applying Reverse VAT: Implementation Checklist {#_b6c27e99-73d9-4f49-b679-f1688eb1145c .concept}
+# Applying Reverse VAT: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for processing purchases with reverse VAT, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist {#section_yhp_fjv_vxb .section}
+## Implementation Checklist
 
 We recommend that before you initially process purchases with reverse VAT, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -16,7 +16,7 @@ We recommend that before you initially process purchases with reverse VAT, you m
 |[Taxes](TX_20_50_00.md) \(TX205000\)|A reverse VAT with the *Output* type and the general VAT with the *Input* type with the needed settings should be created, as described in [Value-Added Taxes: To Create a Reverse VAT](../ImplementationGuide/Taxes_Configuring_VAT_Implem_Activity_ReverseVAT.md).|
 |[Vendors](AP_30_30_00.md) \(AP303000\)|The needed vendors should be configured. Depending on the geographical location of the purchase transaction, different taxes can be applied to the document. To define which taxes are applied in the location of your vendor, you should assign the appropriate tax zone to each new or existing vendor.|
 
-## Other Settings That Affect the Workflow {#section_a3p_fjv_vxb .section}
+## Other Settings That Affect the Workflow
 
 The following settings and entities should be specified and defined, respectively:
 
@@ -28,7 +28,7 @@ The following settings and entities should be specified and defined, respectivel
     -   Clear the **Require Vendor Reference** check box in the **Data Entry Settings** section. This setting means that you do not have to enter a payment reference number in the **Vendor Ref.** box when creating an AP bill on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
     -   Make sure that the **Automatically Post on Release** check box is selected in the **Posting Settings** section. This setting causes AP bills to be automatically posted to the general ledger once they are released.
 
-## Validation of Configuration {#section_c3p_fjv_vxb .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you process purchases with reverse VAT by performing instructions similar to those described in [Applying Reverse VAT: Process Activity](Taxes_Applying_Reverse_VAT_Process_Activity.md).
 

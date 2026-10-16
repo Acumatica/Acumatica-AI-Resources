@@ -1,8 +1,8 @@
-# Billing Rates: General Information {#_45d7ee10-04e3-41fa-befc-51cd732b8552 .concept}
+# Billing Rates: General Information
 
 You must establish an adequate pricing model in the project that you are managing to ensure that business outcomes are met, the project budget is used effectively, and project revenues and costs are properly balanced. In Acumatica ERP, you can implement virtually any pricing model by using billing rates for configuring complex billing rules.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -11,7 +11,7 @@ In this chapter, you will learn how to do the following:
 -   Define a rate table with particular rates
 -   Use billing rates for billing projects with different billing rates
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure and use billing rates if you need to perform project billing so that the system applies the appropriate rate based on the dates when the work has been performed, as well as any of the following factors:
 
@@ -20,7 +20,7 @@ You configure and use billing rates if you need to perform project billing so th
 -   Certain inventory items
 -   Specific employees
 
-## Billing Rate Configuration { .section}
+## Billing Rate Configuration
 
 A billing rate is an exact value used for calculating the amount and quantity of the invoice lines that are created by the billing rule steps of the *Time and Material* type. The process of defining a billing rate includes the configuration of rate table codes, rate types, rate codes, and rate sequences.
 
@@ -30,7 +30,7 @@ In a rate table, for each rate type, you can define any number of rate sequences
 
 Also, in each rate table, you can add rate codes, which represent an additional dimension in a rate table that you use to simplify the configuration of the rate table. By using multiple rate codes with one sequence, you can reduce the number of sequences that need to be configured for each pair of a rate table and a rate type. For example, instead of creating multiple sequences, each including the applicable rates for a particular employee, you can create only one rate sequence with the **Employee** check box selected on the [Rate Table Sequences](PM_20_50_00.md) \(PM205000\) form and create separate rate codes for each employee. As another example, suppose that you want to use different rates for three projects. Instead of creating multiple sequences with the **Project** check box selected in the table on the [Rate Table Sequences](PM_20_50_00.md) form and specifying a rate for each sequence under one rate code, you can use only one sequence and three rate codes to define different rates for these three projects.
 
-## Workflow of Rate Table Configuration { .section}
+## Workflow of Rate Table Configuration
 
 You configure a rate table with rates by performing the following general steps:
 

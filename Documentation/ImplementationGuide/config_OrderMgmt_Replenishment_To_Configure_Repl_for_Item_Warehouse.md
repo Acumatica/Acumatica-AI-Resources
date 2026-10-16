@@ -1,16 +1,16 @@
-# Configuration of Replenishment: To Configure Replenishment for an Item–Warehouse Pair {#_d62835f0-9485-49e5-bd48-1b8b338e8d9a .task}
+# Configuration of Replenishment: To Configure Replenishment for an Item–Warehouse Pair
 
 In the following implementation activity, you will configure replenishment for an item–warehouse pair in Acumatica ERP.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Service and Equipment Sales Center branch of SweetLife Fruits &amp; Jams company provides repair services and stores the required spare parts for juicers. The branch orders these spare parts directly from vendors and stores them in the *EQUIPHOUSE* warehouse.
 
 Acting as purchasing manager Matt Parker, you need to configure the replenishment functionality to regularly restock the spare parts that the company uses for juicer maintenance and repair. The branch should have no more than 70 juicing screens in the *EQUIPHOUSE* warehouse, and purchasing managers should order juicing screens when 30 items or fewer are left in stock. You also need to review the settings that the system will use to calculate the replenishment of the juicing screens in the *EQUIPHOUSE* warehouse.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -21,7 +21,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Warehouses](../UserGuide/IN_20_40_00.md) \(IN204000\) form, the *EQUIPHOUSE* warehouse in the SweetLife Service and Equipment Sales Center branch has been created.
 -   On the [Item Classes](../UserGuide/IN_20_10_00.md) \(IN201000\) form, the *JCRSPRPRT* \(juicer spare parts\) item class has been created for juicer spare parts.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -31,11 +31,11 @@ In this activity, you will do the following:
 4.  On the [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\) form, create the *JSCREEN* stock item of the *JCRSPRPRT* item class.
 5.  On the [Prepare Replenishment](../UserGuide/IN_50_80_00.md) \(IN508000\) form, process the *JSCREEN* stock item.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring replenishment through purchases for an item‒warehouse pair, you should launch the Acumatica ERP website and sign in to a company with the *U100* dataset preloaded. You should sign in as purchasing manager Matt Parker by using the *parker* username and the *123* password.
 
-## Step 1: Creating the Replenishment Class { .section}
+## Step 1: Creating the Replenishment Class
 
 To create the *SPAREPART* replenishment class, do the following:
 
@@ -48,7 +48,7 @@ To create the *SPAREPART* replenishment class, do the following:
 
 5.  On the form toolbar, click **Save**.
 
-## Step 2: Specifying the Replenishment Class for the Warehouse { .section}
+## Step 2: Specifying the Replenishment Class for the Warehouse
 
 To specify the replenishment class for the *EQUIPHOUSE* warehouse, where spare parts for juicers are stocked, do the following:
 
@@ -59,7 +59,7 @@ To specify the replenishment class for the *EQUIPHOUSE* warehouse, where spare p
 
 3.  On the form toolbar, click **Save**.
 
-## Step 3: Specifying Replenishment Settings for the Item Class { .section}
+## Step 3: Specifying Replenishment Settings for the Item Class
 
 Suppose that you need to add some new spare parts of the *JCRSPRPRT* \(juicer spare parts\) item class for juicers to your inventory stock. You plan to replenish these stock items. Thus, you need to specify replenishment settings for the item class so that the system copies these settings to each newly created stock item of the class.
 
@@ -81,7 +81,7 @@ To specify replenishment settings for the *JCRSPRPRT* item class, do the followi
 
 5.  On the form toolbar, click **Save**.
 
-## Step 4: Creating a Stock Item of the Class { .section}
+## Step 4: Creating a Stock Item of the Class
 
 To create a stock item to represent the juicing screen, do the following:
 
@@ -118,7 +118,7 @@ To create a stock item to represent the juicing screen, do the following:
 
 8.  On the form toolbar, click **Save**.
 
-## Step 5: Reviewing Stock Items Requiring Replenishment { .section}
+## Step 5: Reviewing Stock Items Requiring Replenishment
 
 To make sure that the *JSCREEN* stock item requires replenishment in the *EQUIPHOUSE* warehouse and review the item's settings, do the following:
 
@@ -140,7 +140,6 @@ To make sure that the *JSCREEN* stock item requires replenishment in the *EQUIPH
 
         This is the quantity to be replenished in the destination warehouse.
 
-    ![](Images/config_OrderMgmt_Replenishment_To_Configure_Repl_for_Item_Warehouse_Prep_Repl_form.png "The settings on the Prepare Replenishment form")
 
     **Tip:** If you need to change the order of columns in any table, you can drag a column by its header to the new place in the table.
 

@@ -1,4 +1,4 @@
-# To Add a Layout Rule {#_dfbe0e68-a4fd-438e-8ce1-cb89cc5d004f .concept}
+# To Add a Layout Rule
 
 In a container with multiple controls, the PXLayoutRule component is used to provide the following UI customization capabilities:
 
@@ -25,7 +25,6 @@ To add a layout rule to a container, perform the following actions:
 3.  Click the **Add Controls** tab item \(see the screenshot below\).
 4.  From the **Layout Rules** group, drag the required type of the rule to the needed location in the Control Tree within the container, as shown in the following screenshot.
 
-    ![](images/CG_GL_UI_PXForm_AddLayoutRule.png "Adding a layout rule to a container")
 
     **Tip:** A layout rule is visible on the customized form only if it contains at least one visible control.
 

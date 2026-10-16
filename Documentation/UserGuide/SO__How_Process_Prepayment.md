@@ -1,8 +1,8 @@
-# To Enter a New Prepayment for an Order {#_f09efbb4-8dad-4a8b-a2fa-19c56b950ef6 .task}
+# To Enter a New Prepayment for an Order
 
 You can enter a customer prepayment intended for a particular sales order directly from the [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 
-## To Enter a New Prepayment for an Order { .section}
+## To Enter a New Prepayment for an Order
 
 1.  Open the [Sales Orders](../Shared/../UserGuide/SO_30_10_00.md) \(SO301000\) form.
 2.  In the **Order Type** box, select the order type.

@@ -1,8 +1,8 @@
-# Report Creation: Report Sections {#_4c43f727-df45-449c-a576-9f5c5a45be93 .concept}
+# Report Creation: Report Sections
 
 By default, a newly created report includes the main sections, which are described in this topic. You can add new sections, as well as delete, hide, and duplicate sections.
 
-## Sections in the Report Layout { .section}
+## Sections in the Report Layout
 
 The layout of any newly created report always consists of the following main sections:
 
@@ -19,7 +19,6 @@ All these sections are briefly described below:
 -   The page header and page footer sections, located at the top and bottom of every page of the report, are the best place for information that the reader may need when reading every page. For example, you can use the page header to display the column headers of a table that is continued from the previous page. You can use the page footer to display the number of the current page.
 -   The report header and report footer sections are the only types of report sections that are printed once per report. The report header is the second section of the report on the first page; when the report is printed, the report header is placed right after the page header. The report header is the best place to display the report name, the company logo, the date range of the report, and similar information. The report footer, which finalizes the informative part of the report, is placed before the page footer on the last page of the report. It is a good place for totals or conclusions.
 
-![](Images/RD_Creating_Report_GeneralInfo.png "Sections of a report layout")
 
 You can do the following with a report section:
 
@@ -31,7 +30,6 @@ You can do the following with a report section:
 -   Duplicate it: You may need to duplicate a section if, for example, you want to display content in the section conditionally. To duplicate any section, you right-click the section header and then select **Duplicate Section**.
 -   Hide it: You may need to hide a section if data from the section is used in calculations but you do not need to display the content of the section. To hide any section, you set the **Visible** property of the section to *False*. You also can hide a section if a condition is met; in this case, you specify an expression for the **VisibleExpr** property.
 
-![](Images/RD_Layout2.png "Deletion of a section")
 
 **Parent topic:**[Creating a Report](../UserGuide/RD_Creating_Report_Mapref.md)
 

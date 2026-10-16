@@ -1,16 +1,16 @@
-# Interbranch Invoices with Balancing: Process Activity {#_05644160-8d16-424b-8d58-4d8b54133143 .task}
+# Interbranch Invoices with Balancing: Process Activity
 
 In this activity, you will learn how to process an invoice for items provided by multiple branches that require balancing; you will then review account balances.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_klr_4jv_vxb .section}
+## Story
 
 On March 1, 2026, the Muffins &amp; Cakes company issued an invoice to the GoodFood One Restaurant customer in the amount of $600 for baking-related goods and services delivered to the customer by both branches. \(Transactions for these branches require balancing.\) The Muffins Head Office &amp; Wholesale Center branch has provided baking classes in the amount of $100, and the Muffins Retail Shop branch has provided ingredients for baking in the amount of $500.
 
 Acting as a Muffins accountant, you need to create an invoice in the system and then release the invoice, which causes a batch to be generated for it.
 
-## Configuration Overview {#section_mcf_jyv_3pb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -21,13 +21,13 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *GOODFOOD* customer has been created.
 -   On the [Inter-Branch Account Mapping](GL_10_10_10.md) \(GL101010\) form, the account mapping rules between the Muffins &amp; Cakes head office branch \(*MHEAD*\) and the Muffins &amp; Cakes retail store branch \(*MRETAIL*\) have been defined.
 
-## Process Overview {#section_plr_4jv_vxb .section}
+## Process Overview
 
 To process an interbranch invoice for branches that need to be balanced, you will create and release the invoice on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. You will then review the generated batch on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form and check the account balances on the [Account Summary](GL_40_10_00.md) \(GL401000\) form.
 
 Optionally, you will generate the trial balance report by using the [Trial Balance Summary](GL_63_20_00.md) \(GL632000\) report form.
 
-## System Preparation {#section_slr_4jv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -35,7 +35,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *3/1/2026*. If a different date is displayed, click the Business Date menu button and select *3/1/2026*.
 3.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *MHEAD - Muffins Head Office &amp; Wholesale Center* branch.
 
-## Step 1: Creating and Processing an Invoice Between Branches Requiring Balancing {#section_ulr_4jv_vxb .section}
+## Step 1: Creating and Processing an Invoice Between Branches Requiring Balancing
 
 To create and process an AR invoice for goods and services provided by multiple branches \(*MHEAD* and *MRETAIL*\) that require balancing, do the following:
 
@@ -66,12 +66,11 @@ To create and process an AR invoice for goods and services provided by multiple 
 
     When you released the invoice, the system generated and posted the related GL transaction. The AR account of the originating branch of the invoice has been debited and accounts from each document line are credited in the destination branch specified in the related line. Notice that the system added the balancing entries to the batch during the posting process \(see the following screenshot\). The balancing entries have been created based on the mapping rule that has been configured on the [Inter-Branch Account Mapping](GL_10_10_10.md) \(GL101010\) form.
 
-    ![](Images/activity_Finance_Interbranch_Invoice_Transactions_With_Balancing.png "GL balancing entries")
 
 
 In the next step, you will check the balances of these accounts.
 
-## Step 2: Reviewing the Account Balances {#section_amr_4jv_vxb .section}
+## Step 2: Reviewing the Account Balances
 
 To review the account balances for the branches in the *03-2026* financial period, do the following:
 
@@ -86,7 +85,7 @@ To review the account balances for the branches in the *03-2026* financial perio
 
 Now you will review the balances for the financial period for the company as a whole.
 
-## Step 3 \(Optional\): Reviewing the Balances for the Financial Period {#section_ezh_m1c_jpb .section}
+## Step 3 \(Optional\): Reviewing the Balances for the Financial Period
 
 To review the balances for the *03-2026* financial period, do the following:
 
@@ -102,7 +101,6 @@ To review the balances for the *03-2026* financial period, do the following:
 5.  Run the same report for the whole company. To do so, in the **Company/Branch** box of the **Report Parameters** tab, select *MUFFINS*.
 6.  Review the account balances. Notice the amount in the **Credit** column for the *40000 - Sales Revenue* account and the amount in the **Debit** column for the *26000 - Due to Related Entity* account, which are shown in the following screenshot.
 
-![](Images/activity_InterCompany_InvoiceswithBalancing.png "The account balances of the MUFFINS company specified for the financial period")
 
 In this activity, you have created and processed an invoice between branches that require balancing, and you have learned how to review the relevant account balances.
 

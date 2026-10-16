@@ -1,24 +1,24 @@
-# Sales Taxes: To Create a Sales Tax for Use in AR {#_d92c920e-73ed-4e6a-a7a2-1f51f5d59c79 .task}
+# Sales Taxes: To Create a Sales Tax for Use in AR
 
 By performing this implementation activity, you will learn how to configure a sales tax that will be used in AR documents and sales orders.
 
-## Story { .section}
+## Story
 
 The Muffins &amp; Cakes company, which operates in Denver, Colorado, provides services subject to a 8.31% sales tax. You need to configure the sales tax, assign it to the *TAXABLE* category and the *DENVER* tax zone, and specify the tax calculation method for this tax.
 
 You also need to define a 0% sales tax, because you have to report exempt sales in your tax report. This tax indicates that a sale should be reported as tax exempt.
 
-## Configuration Overview {#section_chl_5gs_hrb .section}
+## Configuration Overview
 
 For the purposes of this activity, in the *U100* dataset, on the [Tax Categories](../UserGuide/TX_20_55_00.md) \(TX205500\) form, the *TAXABLE* and *EXEMPT* tax categories have been configured.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Taxes](../UserGuide/TX_20_50_00.md) \(TX205000\) form, you will create a sales tax and specify its tax rate, tax category and tax zone. On the same form, you will also create a sales tax of 0% to represent exempt sales in the tax report. On the [Tax Zones](../UserGuide/TX_20_60_00.md) \(TX206000\) form, you will then review the list of taxes assigned to the tax zone, and on the [Tax Categories](../UserGuide/TX_20_55_00.md) \(TX205500\) form, you will review the taxes assigned to each tax category.
 
 **Important:** Before configuring a sales tax in the production environment, you should know exactly which calculation method should be applied in the **Calculation Rule** box \(**Tax Settings** tab\) of the [Taxes](../UserGuide/TX_20_50_00.md) \(TX205000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -26,7 +26,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  As a prerequisite activity, make sure the *DENVER* tax zone has been configured as described in [Tax Zones and Categories: To Review Tax Categories and Create a Tax Zone for Sales Taxes](TaxZones_and_Categories_SalesTax_Implem_Activity.md).
 3.  As a prerequisite activity, make sure the *COTAXDEP* tax agency has been configured as described in [Tax Agency: To Set Up a Tax Agency for Sales Taxes](TaxAgency_SalesTaxes_Implem_Activity.md).
 
-## Step 1: Creating a Sales Tax { .section}
+## Step 1: Creating a Sales Tax
 
 To create a sales tax, proceed as follows:
 
@@ -56,7 +56,7 @@ To create a sales tax, proceed as follows:
 
 7.  On the form toolbar, click **Save** to save your changes.
 
-## Step 2: Creating a 0% Sales Tax { .section}
+## Step 2: Creating a 0% Sales Tax
 
 To create a 0% \(exempt\) sales tax, proceed as follows:
 
@@ -75,7 +75,7 @@ To create a 0% \(exempt\) sales tax, proceed as follows:
 4.  On the **Zones** tab, click **Add Row** on the table toolbar, and select *DENVER* in the **Tax Zone ID** column.
 5.  On the form toolbar, click **Save** to save your changes.
 
-## Step 3: Reviewing the List of Taxes { .section}
+## Step 3: Reviewing the List of Taxes
 
 To review the list of taxes now available for the Denver tax zone, proceed as follows:
 

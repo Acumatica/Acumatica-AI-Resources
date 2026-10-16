@@ -1,8 +1,8 @@
-# Inventory Planning with DRP: Processing of Documents {#_cc8b8412-ca52-4f8e-b8ba-25e82637a574 .concept}
+# Inventory Planning with DRP: Processing of Documents
 
 When inventory planning is performed, the system analyzes particular data based on the inventory planning settings and the existing open documents that may influence the planning. In this topic, you will find information about how documents are processed in inventory planning in Acumatica ERP when you are using distribution requirements planning \(DRP\)—that is, inventory planning that does not include production orders.
 
-## Documents Used in Inventory Planning { .section}
+## Documents Used in Inventory Planning
 
 During inventory planning, the system analyzes the following documents:
 
@@ -24,14 +24,14 @@ All of the following documents and data may be used in inventory planning:
 
 You manage the set of entities included in inventory planning at the warehouse level. For details, see [Inventory Planning Configuration: General Information](../ImplementationGuide/config_Inventory_Planning_GeneralInfo.md).
 
-## Order Dates Used in Inventory Planning { .section}
+## Order Dates Used in Inventory Planning
 
 The system uses the following dates, which are specified in supply and demand documents, during inventory planning:
 
 -   In sales orders and transfer orders, the **Ship On** date in each document line on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form
 -   In purchase orders, the **Promised** date in each document line on the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form
 
-## Consolidation of Demand Documents { .section}
+## Consolidation of Demand Documents
 
 If the **Use Days of Supply to Consolidate Orders** check box is selected in the **Consolidation** section of the [Inventory Planning Preferences](AM_10_00_00.md) \(AM100000\) form, the system consolidates items with the same ID from multiple demand documents into a single planning recommendation during inventory planning. \(For more information, see [Inventory Planning Configuration: System-Wide Settings](../ImplementationGuide/config_Inventory_Planning_System_Settings.md).\) The system uses the earliest requested date from the demand documents of the group as the action date of the planning recommendation.
 

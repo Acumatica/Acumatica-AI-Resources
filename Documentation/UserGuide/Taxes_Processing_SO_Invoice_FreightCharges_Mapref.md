@@ -1,4 +1,4 @@
-# Processing Taxable Sales with Freight Charges {#_196eea9c-4677-41ee-ab51-53f9b0e78404 .concept}
+# Processing Taxable Sales with Freight Charges
 
 The topics of this chapter describe how to process a sales order and an invoice with freight charges, to which a value-added tax is applied.
 

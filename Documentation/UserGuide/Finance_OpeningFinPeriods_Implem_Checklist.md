@@ -1,4 +1,4 @@
-# Opening Financial Periods: Implementation Checklist {#_983d2b17-ca3a-40bc-995a-8a6c9fb85f08 .concept}
+# Opening Financial Periods: Implementation Checklist
 
 To ensure that the system has been configured properly for the opening of financial periods, make sure that the criteria listed in the table have been met in the system as described.
 
@@ -7,7 +7,7 @@ To ensure that the system has been configured properly for the opening of financ
 |[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)|Make sure the minimal features have been enabled, as described in [Company Without Branches: General Information](../ImplementationGuide/config_Basic_Company_GeneralInfo.md).| |
 |[Master Financial Calendar](GL_20_10_00.md) \(GL201000\)|Make sure that the financial year for which you need to generate periods exists. For details, see [To Add the Next Financial Year and Generate Its Periods](GL__HOW_To_Add_Next_FinYear.md).| |
 
-## Settings That Affect the Workflow {#section_p3j_mjv_vxb .section}
+## Settings That Affect the Workflow
 
 The following settings and entities should be specified and defined, respectively:
 

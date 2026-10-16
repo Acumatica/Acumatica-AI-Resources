@@ -1,10 +1,10 @@
-# Configuration of Landed Cost Codes {#_1d956146-dd65-4f1f-bfd6-026c312e7c09 .concept}
+# Configuration of Landed Cost Codes
 
 The total cost of goods purchased generally includes the purchase price and additional charges, such as freight or other shipping costs and insurance; for an international shipment, it may also include customs duties and other taxes. All these charges, often referred to as *landed costs*, affect the total product cost. Landed costs are the costs incurred, beyond the purchase price the vendor charges for the goods, in the process of bringing the goods to one of your company's warehouses.
 
 To accurately calculate the total product cost, you must consider all landed costs. By accurately analyzing total product cost statistics, your company can assign the most appropriate prices to the products you sell.
 
-## Landed Cost Code Definition { .section}
+## Landed Cost Code Definition
 
 In Acumatica ERP, landed cost codes are used to capture various types of landed costs. For each type of landed costs your company may encounter, create a landed cost code to be used to enter and process that type of landed costs.
 
@@ -20,7 +20,7 @@ In Acumatica ERP, you create and maintain landed cost codes by using the [Landed
 
 A landed cost code is not associated with any specific currency, so if multicurrency support has been enabled in the system, landed costs are considered as specified in the currency of the document.
 
-## Landed Cost Allocation Method { .section}
+## Landed Cost Allocation Method
 
 The allocation method of a landed cost defines how the landed cost is distributed among lines of the documents specified in the landed cost document. When you are creating a landed cost code for specific type of landed cost, you can select one of the following allocation methods:
 

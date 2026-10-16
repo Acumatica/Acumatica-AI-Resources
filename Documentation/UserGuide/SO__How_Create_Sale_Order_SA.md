@@ -1,8 +1,8 @@
-# To Create a Sales Order with Automatic Allocation \(SA\) {#_691db6ab-1bb5-4a14-8963-2f0707b1a329 .task}
+# To Create a Sales Order with Automatic Allocation \(SA\)
 
 You create a sales order of the predefined *SA* type with automatic stock reservation by using the [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 
-## To Create a Sales Order with Allocations { .section}
+## To Create a Sales Order with Allocations
 
 1.  Open the [Sales Orders](../Shared/../UserGuide/SO_30_10_00.md) \(SO301000\) form.
 
@@ -28,7 +28,7 @@ You create a sales order of the predefined *SA* type with automatic stock reserv
 14. If needed, on the **Details** tab, select the needed order line, and click **Line Details** on the table toolbar to review how the system has allocated the quantities of the items for the order.
 15. On the form toolbar, click **Save**.
 
-## Notes About the Procedure { .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

@@ -1,4 +1,4 @@
-# PXCommandLine Tool: ExportSnapshot {#_1a8c839d-9f2d-49a3-b27b-19999a5b7a50 .concept}
+# PXCommandLine Tool: ExportSnapshot
 
 You can use the `ExportSnapshot` value of the `/method` parameter to create a snapshot in the XML format by using a snapshot configuration file and to export the snapshot to the `Snapshots` directory of your Acumatica ERP instance. You must specify the path to the snapshot configuration file that you want to use by using the `/config` parameter. This file must have the `.esc` file extension.
 

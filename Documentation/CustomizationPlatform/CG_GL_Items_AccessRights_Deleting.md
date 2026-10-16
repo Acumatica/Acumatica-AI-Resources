@@ -1,4 +1,4 @@
-# To Delete Access Rights from a Project {#_b1ffe336-5851-4499-a135-7c26462b807b .concept}
+# To Delete Access Rights from a Project
 
 To remove a *ScreenWithRights* item from a project, perform the following actions:
 

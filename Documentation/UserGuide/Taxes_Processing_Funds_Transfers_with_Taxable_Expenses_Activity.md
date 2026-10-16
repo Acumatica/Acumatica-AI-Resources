@@ -1,14 +1,14 @@
-# Funds Transfers with Taxable Fees: Process Activity {#_8dba8161-f2b2-481c-943f-82ab4754304c .task}
+# Funds Transfers with Taxable Fees: Process Activity
 
 The following activity will walk you through the process of performing a funds transfer with taxable fees.
 
-## Story {#section_ijj_fjv_vxb .section}
+## Story
 
 Suppose that in January 2026, the Head office of SweetLife needs to transfer $5,000 to the company's account in Cathay Bank \(*10300WH*\), which is currently empty. The bank fee for this funds transfer is $20 and is taxable.
 
 Acting as a SweetLife accountant, you need to perform the funds transfer from the *10200WH \(Wholesale Checking\)* account to the *10300WH - Cathay Bank Savings* and record the taxable bank fee that should be paid from the *10200WH* account.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -19,11 +19,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Tax Categories](TX_20_55_00.md) \(TX205500\) form, the *TAXABLE* tax category has been created and *NYSTATETAX* has been added to it.
 -   On the [Cash Management Preferences](CA_10_10_00.md) \(CA101000\) form, the **Automatically Post to GL on Release** is selected.
 
-## Process Overview {#section_mjj_fjv_vxb .section}
+## Process Overview
 
 In this activity, you will first modify the settings of the *10200WH* cash account on the [Cash Accounts](CA_20_20_00.md) \(CA202000\) form by adding the tax zone to the *BANKFEE* entry type of this cash account. Then on the [Funds Transfers](CA_30_10_00.md) \(CA301000\) form, you will record a funds transfer in the amount of $5,000 from the *10200WH* cash account to the *10300WH* cash account. On the form table, you will add a bank fee for this transfer and specify the tax zone and tax category for this line. You will then open the **Expense Taxes** dialog box to review the tax that has been automatically applied by the system to this expense line.
 
-## System Preparation {#section_ojj_fjv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -31,7 +31,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step 1: Specifying the Tax Zone for the Entry Type {#section_qjj_fjv_vxb .section}
+## Step 1: Specifying the Tax Zone for the Entry Type
 
 To specify the tax zone for the *Disbursement* entry type used by the *10200WH* account, do the following:
 
@@ -41,7 +41,7 @@ To specify the tax zone for the *Disbursement* entry type used by the *10200WH* 
 4.  In the **Tax Zone** column for the *BANKFEE* entry type, select *NYSTATE*.
 5.  On the form toolbar, click **Save** to save your changes.
 
-## Step 2: Processing a Funds Transfer {#section_sjj_fjv_vxb .section}
+## Step 2: Processing a Funds Transfer
 
 To process a funds transfer with a bank fee, do the following:
 
@@ -75,7 +75,6 @@ To process a funds transfer with a bank fee, do the following:
 
 6.  In the **Tax Amount** column, click the link that the system has inserted. The **Expense Taxes** dialog box opens, as shown in the following screenshot.
 
-    ![](Images/activity_Tax_Funds_Transfers_with_Taxable_Fees_Expense_Taxes.png "The Expense Taxes dialog box")
 
 7.  Review the tax that the system has automatically applied to this bank fee and click **OK** to close the dialog box.
 8.  On the form toolbar, click **Save** to save the funds transfer.

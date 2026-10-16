@@ -1,8 +1,8 @@
-# Create a Sales Invoice in a Non-Base Currency {#_d72dde27-f3bb-4a71-bc6c-fb9a277d3acb .concept}
+# Create a Sales Invoice in a Non-Base Currency
 
 By using the REST API, you can create a sales invoice in a non-base currency in Acumatica ERP. You can view the currency of the created invoice on the [Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to do the following to configure your client application and the Acumatica ERP instance to be used:
 
@@ -35,7 +35,7 @@ Before you test the code below, you need to do the following to configure your c
 
 6.  Enable currency overriding and rate overriding for the *FRUITICO* customer by executing the [Enable Currency Overriding and Rate Overriding for a Customer](IntegrationDev_RESTExample_Customer_CurrencyRateOverriding.md) request.
 
-## Request { .section}
+## Request
 
 You can use the following request example to create an invoice in euros for the *FRUITICO* customer through the contract-based REST API. This invoice contains the following detail lines:
 
@@ -46,14 +46,14 @@ You can use the following request example to create an invoice in euros for the 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-PUT /entity/Default/25.200.001/SalesInvoice?$expand=Details HTTP/1.1
+PUT /entity/Default/26.200.001/SalesInvoice?$expand=Details HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
 Content-Type: application/json
 
 {
     "CustomerID": {"value": "FRUITICO"},
-    "Type": {"value": "Invoice"},
+    "Type": {"value": { "id": "INV" }},
     "Currency": {"value": "EUR"},
     "Hold": {"value": false},
     "Details":
@@ -84,7 +84,7 @@ Content-Type: application/json
 }
 ```
 
-## Usage Notes { .section}
+## Usage Notes
 
 A point-of-sale \(POS\) system can create and process direct sales invoices—that is, invoices for which neither a sales order nor a shipment has been created—in a currency that differs from the default currency of the customer account. The POS system creates the direct sales invoice in the needed currency and releases the invoice.
 

@@ -1,14 +1,14 @@
-# Mass Emails: To Create and Send a Mass Email {#_be2b3603-f714-4056-ab36-a7cc8ee41f15 .task}
+# Mass Emails: To Create and Send a Mass Email
 
 The following activity demonstrates how to create and send a mass email.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Bill Owen, a marketing manager of the SweetLife Fruits &amp; Jams company. You need to introduce a new product \(a commercial juicer\) to the company's customers and want to create and send a mass email for this purpose.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -19,11 +19,11 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Marketing Lists](CR_20_40_00.md) \(CR204000\) form, the *NEWJUICER* marketing list has been created. The marketing list includes customers \(that is, business accounts that have the *Customer* type\).
 -   A schedule for periodic runs of the *Send and Receive Email* process has been created on the [Automation Schedules](SM_20_50_20.md) \(SM205020\) form.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Mass Emails](CR_30_80_00.md) \(CR308000\) form, you will create and send a mass email to the SweetLife customers.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating and sending a mass email, do the following:
 
@@ -32,7 +32,7 @@ Before you start creating and sending a mass email, do the following:
     -   **Password**: *123*
 2.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Creating a Mass Email { .section}
+## Step 1: Creating a Mass Email
 
 To create a mass email, do the following:
 
@@ -49,7 +49,7 @@ To create a mass email, do the following:
 
 You have created a mass email. Now you can prepare the mass email to be sent and send it to the recipients.
 
-## Step 2: Sending a Mass Email to the SweetLife Customers { .section}
+## Step 2: Sending a Mass Email to the SweetLife Customers
 
 To prepare a mass email to be sent to the SweetLife customers, do the following:
 

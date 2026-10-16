@@ -1,4 +1,4 @@
-# Implementing DeviceHub {#_1d1c5e17-c4ac-4f64-a91e-76d58c0d5a98 .concept}
+# Implementing DeviceHub
 
 This part of the guide provides information about the installation and basic configuration of DeviceHub, the operations in Acumatica ERP that can be performed with DeviceHub, and the process of adding printers, scanners, and digital scales to DeviceHub.
 

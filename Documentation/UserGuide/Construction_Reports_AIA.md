@@ -1,8 +1,8 @@
-# Construction Reports: AIA Reports {#_0e81288d-518b-4217-8f32-6627883e070b .concept}
+# Construction Reports: AIA Reports
 
 This topic describes the structure of the American Institute of Architects \(AIA\) report in Acumatica ERP Construction Edition and the available report variations. Also, the topic provides information on how you can reflect historic retainage and the release of change orders for the project.
 
-## AIA Report Structure {#section_j3j_qpv_qmb .section}
+## AIA Report Structure
 
 The AIA report consists of a signed summary sheet \(AIA Document G702™–1992, Application and Certificate for Payment\), followed by a schedule of values \(G703™–1992, Continuation Sheet\) that details the project tasks that have been completed and billed to date. Together, these documents are considered an application for payment, because the recipient can review the schedule of values and either accept or dispute the billed amount. If the recipient or contractor disagrees, they will send back redlines so that the contractor can revise and resubmit the AIA billing application. The prepared document that includes both the application sheet \(G702\) and continuation sheet \(G703\) is called an AIA report.
 
@@ -13,7 +13,7 @@ Also, the AIA report includes the following sheets:
 -   The AR Invoices sheet. The sheet lists released original AR invoices and AR retainage invoices, which include the amount of payment currently being requested—the Current Payment Due amount on the application sheet \(G702\). The invoice date of the original AR invoices and AR retainage invoices is earlier than or the same as the invoice date of the pro forma invoice for which the AIA report is prepared.
 -   The Change Orders sheet. The sheet lists change orders included in pro forma invoices with details, such as reference number, description, status, dates, amounts, and quantities \(if applicable\).
 
-## Configuration of AIA Report Parameters for a Project {#section_tkv_pn4_qmb .section}
+## Configuration of AIA Report Parameters for a Project
 
 Based on project requirements, for a particular project, you define the format in which the AIA report will be prepared. To prepare a printable version of the AIA report, you select the line with the needed pro forma invoice in the table on the **Invoices** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form, and click **AIA Report** on the table toolbar; you can instead open the pro forma invoice on the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form and click **AIA Report** on the form toolbar.
 
@@ -21,7 +21,7 @@ By default, a newly created project has the **AIA Level** set to *Summary* and t
 
 If you need to include quantities in the lines of the continuation sheet of the AIA report prepared for a project, in the settings of the project on the [Projects](PM_30_10_00.md) form, you select the **Show Quantity in AIA Report** check box, so that the system will create the [AIA Report with Quantity](PM_64_45_00.md) \(PM644500\) report. To list the continuation sheet lines without grouping them by project tasks \(that is, as the lines are presented in the corresponding pro forma invoice\), select *Detail* in the **AIA Level** box.
 
-## Date-Sensitive Data in AIA Reports {#section_pbt_tqy_rmb .section}
+## Date-Sensitive Data in AIA Reports
 
 AIA reports are date-sensitive, which means that the particular amounts are included or not included in the report based on the report date; this in turn could lead to differences between the calculation of amounts in AIA reports and the financial calculations in other documents. The date on which the AIA report is prepared affects the amounts in the AIA application sheet as follows:
 

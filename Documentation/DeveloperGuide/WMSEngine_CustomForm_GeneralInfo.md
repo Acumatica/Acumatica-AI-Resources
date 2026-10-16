@@ -1,16 +1,16 @@
-# Custom Barcode-Driven Form: General Information {#_860d04a3-a388-46ca-9f83-42074ba65908 .concept}
+# Custom Barcode-Driven Form: General Information
 
 A user interacts with a barcode-driven form mostly via text commands that the user enters or scans into a special field of the form. The form guides the user through a certain input route by showing different input prompts.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to create a custom barcode-driven form.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create a custom barcode-driven form when you need to simplify the work with the form to the level of sequential text inputs.
 
-## Creation of a Custom Barcode-Driven Form { .section}
+## Creation of a Custom Barcode-Driven Form
 
 When you create a custom barcode-driven form, you perform the following steps:
 
@@ -31,7 +31,7 @@ When you create a custom barcode-driven form, you perform the following steps:
     2.  If you want to add logic that handles quantity input, add quantity support command, as specified in [Barcode Scan Commands: To Add Quantity Support](WMSEngine_Command_Activity_AddQuantitySupport.md).
 6.  Add an ASPX page, as shown in [Custom Barcode-Driven Form: To Create an ASPX Page](WMSEngine_CustomForm_Activity_CreateASPXPage.md).
 
-## ASPX Page of the Form { .section}
+## ASPX Page of the Form
 
 In the ASPX code of the page, you need to include the following required parts:
 

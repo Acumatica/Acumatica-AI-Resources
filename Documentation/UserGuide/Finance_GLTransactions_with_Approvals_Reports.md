@@ -1,14 +1,14 @@
-# Transactions with Approval: Related Report and Inquiry Form {#_f074a493-c4d3-4e70-b490-f6db39e9ca6f .concept}
+# Transactions with Approval: Related Report and Inquiry Form
 
 In the following sections, you can find details about the reports and inquiry form you may want to review to gather information about GL transactions of batches with the *Pending Approval* and *Rejected* statuses.
 
 **Attention:** If you don’t see a particular report or form that is described, you may have signed in to the system with a user account that doesn’t have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms.
 
-## Reviewing Account Details {#section_qz3_mjv_vxb .section}
+## Reviewing Account Details
 
 You can find GL transactions of batches created for particular accounts on the [Account Details](GL_40_40_00.md) \(GL404000\) form. If the **Include Unreleased** check box is selected in the Summary area on the form, the inquiry shows GL transactions of batches that have the *Pending Approval* and *Rejected* statuses.
 
-## Reviewing GL Transactions on Financial Reports {#section_sz3_mjv_vxb .section}
+## Reviewing GL Transactions on Financial Reports
 
 You can review GL transactions of batches with the *Pending Approval* and *Rejected* statuses by running the following reports:
 

@@ -1,10 +1,10 @@
-# Implementing Bills of Material: General Process {#_e11a085c-1a86-499f-9f33-f6b4d312476b .concept}
+# Implementing Bills of Material: General Process
 
 The primary entity defined in Acumatica ERP Manufacturing Edition is a *bill of material* that contains the details of the process of producing a particular stock item. The bill of material includes the operations involved in production, the materials used in the operations, the more detailed steps of the operations, and the factors that must be included in the cost of the finished goods.
 
 In this topic, you will find information about the general process of implementing bills of material in Acumatica ERP Manufacturing Edition. You can also find the implementation checklist for bills of material in [Bills of Material: Implementation Checklist](../UserGuide/BOM_Implem_Checklist.md).
 
-## Manufacturing Entities to Be Created { .section}
+## Manufacturing Entities to Be Created
 
 You need to create the following entities before users can start processing production transactions in Acumatica ERP Manufacturing Edition:
 
@@ -21,7 +21,6 @@ You need to create the following entities before users can start processing prod
 
 Thus, the order in which you create entities is important, because some entities derive settings from other entities or use them in other ways. You first create the entities that provide cost rates \(materials, tools, overhead, labor codes, and machines\) in any order; you then create shifts and work calendars. After that, you create work centers, and finally, you create a bill of material. \(See the following diagram.\)
 
-![](Images/diag_BOM_Implementation.png "The order in which you create manufacturing entities")
 
 **Parent topic:**[Implementing Manufacturing](../ImplementationGuide/config_Mapref_Manufacturing.md)
 

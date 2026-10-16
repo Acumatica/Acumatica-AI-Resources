@@ -1,16 +1,16 @@
-# Action Configuration: To Add a Category to the More Menu {#_d606d66b-ea3c-46f7-8590-04ed48e653de .task}
+# Action Configuration: To Add a Category to the More Menu
 
 The following activity will walk you through the process of adding a category to the More menu.
 
-## Story { .section}
+## Story
 
 Suppose that you want to add all the actions in the new workflow for the [Task](../UserGuide/CR_30_60_20.md) \(CR306020\) form to the **Processing** category of the More menu. However, this form does not have any categories specified for the menu, and the More menu is not displayed. Acting as the technical specialist, you need to add a category to the More menu of this form.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will use the [Actions](../UserGuide/AU_20_10_50.md) page to add the **Processing** category to the More menu.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin adding a category to the More menu, do the following:
 
@@ -20,7 +20,7 @@ Before you begin adding a category to the More menu, do the following:
 
 2.  Make sure that you have completed the [Workflow Creation: To Add States](WorkflowUI_CreatingWorkflow_Activity_AddStates.md) activity.
 
-## Step: Adding a Category to the More Menu { .section}
+## Step: Adding a Category to the More Menu
 
 To add the **Processing** category, do the following in the Customization Project Editor for the *TaskWorkflow* project:
 

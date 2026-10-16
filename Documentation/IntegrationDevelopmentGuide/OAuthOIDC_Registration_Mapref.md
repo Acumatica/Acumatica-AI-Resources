@@ -1,4 +1,4 @@
-# Registering Client Applications That Support OAuth 2.0 or OIDC {#_ff95236f-4221-49f7-8cec-9471458f261b .concept}
+# Registering Client Applications That Support OAuth 2.0 or OIDC
 
 Before a client application that implements OAuth 2.0 or OpenID Connect \(OIDC\) can work with Acumatica ERP, you need to register the application in the system. In this chapter, you will learn how to register a client application in Acumatica ERP and which options are available during registration.
 

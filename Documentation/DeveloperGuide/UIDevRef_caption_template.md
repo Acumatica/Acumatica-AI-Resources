@@ -1,12 +1,11 @@
-# Caption: Caption of a Template {#_47fb3c6c-cd5c-49e8-b8ea-f0ddbe333028 .concept}
+# Caption: Caption of a Template
 
 To specify a caption for a group of fields inside a template, as shown with the **Attribute** caption in the following screenshot, you use the `qp-caption` control.
 
-![](Images/UIDevRef_Caption_Template.png "A caption for a template")
 
 The following code example implements this approach.
 
-```language-xml
+```xml
 <qp-caption caption="Contacts"></qp-caption>
 <qp-template name="1-1-1" id="SyncPolicy_tab_Contacts" wg-container>
     <qp-fieldset id="contacts_left" slot="A" view.bind="SyncPolicy">

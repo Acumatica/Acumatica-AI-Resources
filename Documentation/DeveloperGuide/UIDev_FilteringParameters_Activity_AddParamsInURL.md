@@ -1,33 +1,33 @@
-# Filtering Parameters:To Display the Filter Values in the URL {#_e31b7716-a90f-4b82-a5a6-d2d0c9ec540f .task}
+# Filtering Parameters:To Display the Filter Values in the URL
 
 When a form contains filtering parameters, it can be useful to have the selected parameter values in the form URL so that the same form \(that is, the form with the same selections made\) can be opened elsewhere without the filter parameter values needing to be entered again.
 
-## Story { .section}
+## Story
 
 Suppose that the users of the custom Open Payment Summary \(RS401000\) inquiry form would like to easily share filtered inquiry results with other users by just sharing a link to the form without specifying which values need to be selected. You need to implement this functionality for the form.
 
-## Process Overview { .section}
+## Process Overview
 
 You will implement this behavior by adding the PageLoadBehavior property and setting its value to `PopulateSavedValues` in the graphInfo decorator in the TypeScript file of the form. The filter values of the primary view will be placed in the form URL. You’ll then test the implemented behavior.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
-1.  Prepare an Acumatica ERP instance by performing the [Test Instance for Customization: To Deploy an Instance with a Custom Form that Implements a Workflow](../StudioDeveloperGuide/CodeCustomization_PrepareInstance_Activity_DeployInstanceT240.md) prerequisite activity.
+1.  Prepare an Acumatica ERP instance by performing the [Test Instance for Customization: To Deploy an Instance with a Custom Form That Implements a Workflow](../StudioDeveloperGuide/CodeCustomization_PrepareInstance_Activity_DeployInstanceT240.md) prerequisite activity.
 2.  Complete the steps described in the following prerequisite activities:
     1.  [Inquiry Forms: To Set Up an Inquiry Form](UIDev_InquiryForm_Activity_SetupForm.md)
     2.  [Inquiry Forms: To Create the UI of an Inquiry Form with Only a Grid](UIDev_InquiryForm_Activity_UI.md)
     3.  [Filtering Parameters: To Add a Filter for an Inquiry Form](UIDev_FilteringParameters_Activity_ConfigureFilter.md)
 
-## Step 1: Displaying the Filter Values in the URL of the Inquiry Form { .section}
+## Step 1: Displaying the Filter Values in the URL of the Inquiry Form
 
 To display the filter values in the URL of the form, do the following:
 
 1.  In the `RS401000.ts` file, add PXPageLoadBehavior to the list of import directives.
 2.  Add the PageLoadBehavior property in the graphInfo decorator, as the following code shows.
 
-    ```language-javascript
+    ```javascript
     @graphInfo({
     	graphType: "PhoneRepairShop.RSSVPaymentPlanInq",
     	primaryView: "Filter",
@@ -41,7 +41,7 @@ To display the filter values in the URL of the form, do the following:
 
 3.  Publish the customization project.
 
-## Step 2: Testing the Filtering Parameters of the Inquiry Form { .section}
+## Step 2: Testing the Filtering Parameters of the Inquiry Form
 
 In this step, you’ll test the Open Payment Summary \(RS401000\) inquiry form with the filtering parameters. To test the filtering parameters, do the following:
 
@@ -49,7 +49,6 @@ In this step, you’ll test the Open Payment Summary \(RS401000\) inquiry form w
 
     The form should look as shown below. Notice that the form contains a form toolbar, the Selection area with UI elements that correspond to the filtering parameters, and a table with a toolbar.
 
-    ![](Images/activity_UIDev_FilterInquiryForm_Test.png "The revised Open Payment Summary form")
 
 2.  On the Repair Work Orders \(RS301000\) form, do the following:
     1.  Create a repair work order and specify the following settings:

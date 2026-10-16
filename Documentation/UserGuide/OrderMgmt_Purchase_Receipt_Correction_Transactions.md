@@ -1,8 +1,8 @@
-# Purchase Receipt Correction: Generated Transactions {#_72c57925-02a5-4965-9581-f38676420dca .concept}
+# Purchase Receipt Correction: Generated Transactions
 
 To correct a purchase receipt, you create and process a correction purchase receipt. To track the movements of items, the system generates the GL transactions described in the following sections.
 
-## Transactions Generated for a Correction Purchase Receipt { .section}
+## Transactions Generated for a Correction Purchase Receipt
 
 On release of the correction receipt, the system generates a correction inventory issue transaction with lines that have the *Issue* and *Receipt* transaction type. Additionally, the system may include a line with the *Adjustment* type. When an inventory issue with lines of the *Issue*, *Receipt*, and *Adjustment* transaction types is released, the system generates the following general ledger transactions.
 

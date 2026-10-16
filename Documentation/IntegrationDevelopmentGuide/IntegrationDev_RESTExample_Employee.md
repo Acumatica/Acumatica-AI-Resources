@@ -1,4 +1,4 @@
-# Employee {#_8745ada9-27bf-4d22-a6e9-aed11c5ca424 .concept}
+# Employee
 
 This chapter presents code examples showing requests that use the `Employee` entity.
 

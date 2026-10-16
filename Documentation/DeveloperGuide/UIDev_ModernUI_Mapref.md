@@ -1,4 +1,4 @@
-# Getting Started with the Modern UI {#_c3fd1c12-e944-4f4b-bdfa-75b55a45f003 .concept}
+# Getting Started with the Modern UI
 
 In this part, you will find an overview of the main principles of the Modern UI of Acumatica ERP and learn about its architecture and features. You’ll also learn how to:
 

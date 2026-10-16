@@ -1,10 +1,10 @@
-# Composite States: To Modify a Workflow with a Composite State {#_5756bdc9-c09d-4004-bd75-660e2b0ffdaf .task}
+# Composite States: To Modify a Workflow with a Composite State
 
 The following activity will walk you through the process of modifying a composite state in the invoice workflow.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you need to implement the following behavior on the [Invoices](../Shared/../UserGuide/SO_30_30_00.md) \(SO303000\) form:
 
@@ -15,11 +15,11 @@ On the [Invoices](../Shared/../UserGuide/SO_30_30_00.md) \(SO303000\) form, the 
 
 You also need to specify a skip condition for the new workflow state and add a transition from this workflow state to the next state in the workflow. The skip condition will check for no cash discount being applied to the invoice.
 
-## Process Overview { .section}
+## Process Overview
 
 By using the [Workflows](../UserGuide/AU_20_10_20.md) page, you will create an inherited workflow for the [Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\) form. By using the [Workflow \(Tree View\)](../UserGuide/AU_20_10_30.md) page, you will add a nested state to the workflow. On the [Conditions](../UserGuide/AU_20_10_10.md) page, you will specify a condition that the system will use to skip this state. You will then add a transition from the state to the next nested state on the [Workflows](../UserGuide/AU_20_10_20.md) page.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -33,7 +33,7 @@ Before you begin performing the steps of this activity, do the following:
     2.  On the form toolbar, click **Unpublish All**.
 4.  On the [Customization Projects](../UserGuide/SM_20_45_05.md) \(SM204505\) form, create a customization project named *Invoices*.
 
-## Step 1: Adding a Form to the List of Customized Screens { .section}
+## Step 1: Adding a Form to the List of Customized Screens
 
 Add the [Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\) form to the list of customized screens as follows:
 
@@ -47,7 +47,7 @@ Add the [Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\) form to the list of
 5.  In the **Customize Existing Screen** dialog box, which is opened, select *Invoices*.
 6.  Click **OK** to close the dialog box.
 
-## Step 2: Creating an Inherited Workflow for the Form { .section}
+## Step 2: Creating an Inherited Workflow for the Form
 
 Create a customized workflow for the [Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\) form as follows:
 
@@ -75,7 +75,7 @@ Create a customized workflow for the [Invoices](../UserGuide/SO_30_30_00.md) \(S
     The SO303000 \(Invoices\) State Diagram: Invoices page opens.
 
 
-## Step 3: Adding a Condition { .section}
+## Step 3: Adding a Condition
 
 To add a skip condition that the system will use to skip the `Postponed` state, perform the following instructions:
 
@@ -96,7 +96,7 @@ To add a skip condition that the system will use to skip the `Postponed` state, 
     The added condition appears in the list of conditions on the Conditions: SO303000 \(Invoices\) page.
 
 
-## Step 4: Adding a Nested State { .section}
+## Step 4: Adding a Nested State
 
 To add a new nested state to the composite state, perform the following instructions:
 
@@ -120,7 +120,7 @@ To add a new nested state to the composite state, perform the following instruct
 
 7.  On the page toolbar, click **Save**.
 
-## Step 5: Adding a Transition { .section}
+## Step 5: Adding a Transition
 
 To add a transition from the added state to the next nested state of the composite state, perform the following instructions:
 
@@ -151,14 +151,14 @@ To add a transition from the added state to the next nested state of the composi
 
 10. On the page toolbar, click **Save**.
 
-## Step 6: Publishing the Customization Project { .section}
+## Step 6: Publishing the Customization Project
 
 Publish the customization project as follows:
 
 1.  On the menu of the Customization Project Editor, click **Publish** &gt; **Publish Current Project**.
 2.  After the system finishes updating the required data, click **Close Compilation Pane**.
 
-## Step 7: Testing Your Changes { .section}
+## Step 7: Testing Your Changes
 
 Test your changes as follows:
 

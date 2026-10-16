@@ -1,4 +1,4 @@
-# Duplicate Validation: General Information {#_5f0a5e14-0b12-43c6-8eb5-29a1fd5bb417 .concept}
+# Duplicate Validation: General Information
 
 Acumatica ERP provides flexible tools for eliminating duplicate records. An implementation consultant or a system administrator can configure duplicate validation for lead, contact, business account, customer, and vendor records. To prevent the creation of duplicate records, the system can validate leads, contacts, business accounts, customers, and vendors for duplicates before a user does either of the following:
 
@@ -7,21 +7,21 @@ Acumatica ERP provides flexible tools for eliminating duplicate records. An impl
 
 This topic provides general information about configuring duplicate validation in Acumatica ERP.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Configure duplicate validation for leads, contacts, business accounts, customers, and vendors
 -   Calculate validation scores \(grams\) for leads, contacts, business accounts, customers, and vendors
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to configure duplicate validation in scenarios that include the following:
 
 -   You have initially implemented Acumatica ERP, the *Customer Management* feature is included in your license, and you need to give users the ability to use the duplicate validation functionality.
 -   You need to change the current duplicate validation settings in the system.
 
-## Duplicate Validation in Acumatica ERP {#_b367349b-5a4a-475c-9fd0-1c05a60f750b .section}
+## Duplicate Validation in Acumatica ERP
 
 When a new lead, contact, business account, customer, or vendor is created in the system, Acumatica ERP can check a record for duplicates automatically or at the request of the user. The system can check a record for duplicates on entry \(before the record is saved at least once\) and prevent the creation of duplicate records. The system also checks the changed record for duplicates and inserts *Possible Duplicate* in the **Duplicate** box of the saved record \(except a customer or vendor\) if at least one possible duplicate was found.
 

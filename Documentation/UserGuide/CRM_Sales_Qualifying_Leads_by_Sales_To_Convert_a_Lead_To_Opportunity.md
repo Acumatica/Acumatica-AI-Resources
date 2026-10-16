@@ -1,14 +1,14 @@
-# Lead Qualification by Sales Teams: To Convert a Lead to an Opportunity {#_e0a41c8b-e20a-411f-b382-815bf4f72399 .task}
+# Lead Qualification by Sales Teams: To Convert a Lead to an Opportunity
 
 The following activity demonstrates how to convert a lead to an opportunity in Acumatica ERP.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are David Chubb, a sales manager of the SweetLife Fruits &amp; Jams company. You have obtained a lead from the marketing team, which has qualified the lead and your manager has assigned the lead to you. Christina Taylor, a manager at SweetTooth Cafe, visited the company’s official website, chose a pro series juicer made by Squeezo Inc., and would like to buy the juicer. You need to get in touch with the lead and find out if Christina is interested in the product. If so, you need to convert the lead to an opportunity.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -19,11 +19,11 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Opportunity Classes](CR_20_90_00.md) \(CR209000\) form, the *PRODUCT* opportunity class has been created.
 -   On the [Leads](CR_30_10_00.md) \(CR301000\) form, the *Christina Taylor* lead has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will convert a lead to an opportunity on the [Leads](CR_30_10_00.md) \(CR301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start converting the lead to an opportunity, you should do the following:
 
@@ -33,7 +33,7 @@ Before you start converting the lead to an opportunity, you should do the follow
     -   **Password**: *123*
 3.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step: Converting a Lead to an Opportunity { .section}
+## Step: Converting a Lead to an Opportunity
 
 To convert the *Christina Taylor* lead to an opportunity, do the following:
 
@@ -65,7 +65,6 @@ To convert the *Christina Taylor* lead to an opportunity, do the following:
 
 4.  On the **Relations** tab, in the table, view the summary information of the business account, contact, and opportunity associated with the lead, as shown in the following screenshot. For details, see [Managing Relations](CRM_Managing_Relations_Mapref.md).
 
-    ![](Images/activity_CRM_Mktg_Convert_Lead_to_Opportunity.png "The business account, contact, and opportunity associated with the lead")
 
 
 You have converted the lead to an opportunity.

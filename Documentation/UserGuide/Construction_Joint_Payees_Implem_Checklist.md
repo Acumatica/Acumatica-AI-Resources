@@ -1,8 +1,8 @@
-# Joint Payments: Implementation Checklist {#_b8b8720c-8edf-4441-a2f0-7d3d81d7d4b1 .concept}
+# Joint Payments: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for processing joint payments, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you initially processing joint payments, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -13,7 +13,7 @@ We recommend that before you initially processing joint payments, you make sure 
 |[Projects](PM_30_10_00.md#) \(PM301000\) form|Make sure that the necessary project and project tasks have been created.|
 |[Non-Stock Items](IN_20_20_00.md) \(IN202000\)|Verify the existence of non-stock items that can be used when creating AP bills. For details, see [Labor Items: General Information](Non_Stock_Item_Projects_GeneralInfo.md).|
 
-## Settings That Affect the Workflow { .section}
+## Settings That Affect the Workflow
 
 You can affect the joint payment processing workflow by specifying additional system settings as follows:
 
@@ -31,7 +31,7 @@ You can affect the joint payment processing workflow by specifying additional sy
 
 With these settings specified and entities defined, users in your company can record and process joint payments in Acumatica ERP quickly and accurately, with a minimum of manual actions.
 
-## Testing of Settings { .section}
+## Testing of Settings
 
 To make sure that all settings are configured correctly, we recommend that you process joint payments, as described in [Joint Payments: Process Activity](Construction_Joint_Payees_Process_Activity.md).
 

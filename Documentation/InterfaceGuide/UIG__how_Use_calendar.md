@@ -1,4 +1,4 @@
-# To Select a Date by Using the Calendar {#_2ba1c286-256c-4e74-9cdc-10b9b32c983d .task}
+# To Select a Date by Using the Calendar
 
 To select a date in a date box by using the Calendar dialog box, do the following:
 
@@ -11,6 +11,4 @@ To select a date in a date box by using the Calendar dialog box, do the followin
 3.  Click on a day to select the date and close the dialog box.
 
 The selected date is now displayed in the date box.
-
-**Parent topic:**[Calendar Dialog Box](../InterfaceGuide/Calendar.md)
 

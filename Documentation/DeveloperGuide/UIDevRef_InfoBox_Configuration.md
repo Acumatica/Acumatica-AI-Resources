@@ -1,12 +1,12 @@
-# Error, Warning, or Informational Notification: Configuration {#_25fb70a4-48d3-4794-9d05-c6dfd26b5fe8 .concept}
+# Error, Warning, or Informational Notification: Configuration
 
 In this topic, you can find information about how to configure an error, warning, or informational notification to be displayed on an Acumatica ERP form.
 
-## Configuration from the Backend { .section}
+## Configuration from the Backend
 
 To display an error, warning, or informational notification on an Acumatica ERP form, you generally do not need to explicitly add the qp-info-box control in the frontend code of an Acumatica ERP form. Instead, you should validate the data on the backend and throw an exception of the PXSetPropertyException type, as described in [Data Validation: Validation of Field Values](../StudioDeveloperGuide/CodeCustomization_DataValidation_FieldValuesValidation.md) and [Data Validation: Validation of a Data Record](../StudioDeveloperGuide/CodeCustomization_DataValidation_DataRecordValidation.md). In this case, the notification is displayed automatically for the field or data record for which the exception has been thrown.
 
-## Notification Defined in the Frontend { .section}
+## Notification Defined in the Frontend
 
 You may need to display a static notification on an Acumatica ERP form or display a notification in a specific place on the form. In this case, you can explicitly define the qp-info-box control in the HTML code of an Acumatica ERP form.
 

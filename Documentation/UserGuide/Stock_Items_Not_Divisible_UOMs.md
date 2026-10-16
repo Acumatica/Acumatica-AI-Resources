@@ -1,14 +1,14 @@
-# Stock Items: Units of Measure That Are Not Divisible {#_077d419b-96c6-46be-aee4-f697b3b4927d .concept}
+# Stock Items: Units of Measure That Are Not Divisible
 
 For stock items, you can configure units of measure \(UOMs\) for items that can be measured only in integer quantities, as described in the following sections. Defining of UOMs that are not divisible helps to eliminate errors in inventory, sales, and purchase documents.
 
-## Units of Measure That Are Not Divisible { .section}
+## Units of Measure That Are Not Divisible
 
 To specify that a UOM of a stock item is not divisible, you clear the **Divisible Unit** check box on the **General** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\). If the *Multiple Units of Measure* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can manage the value of this check box for base, sales, and purchase UOMs of the stock item separately.
 
 Users can add decimal quantities of the item to inventory, sales, and purchase documents when the check box is selected for all three UOMs \(if the *Multiple Units of Measure* feature is enabled\) or for the base UOM \(if the *Multiple Units of Measure* feature is disabled\).
 
-## Base UOMs That Are Not Divisible { .section}
+## Base UOMs That Are Not Divisible
 
 For a stock item, when the **Divisible Unit** check box is cleared on the [Stock Items](IN_20_25_00.md) \(IN202500\) form for the base UOM, users can specify only integer quantities of this item in the base UOM in the following documents:
 
@@ -34,7 +34,7 @@ The system performs validation of quantities in base UOMs on the following forms
 -   [Shipments](SO_30_20_00.md) \(SO302000\)
 -   [Purchase Receipts](PO_30_20_00.md) \(PO302000\)
 
-## Sales UOMs That Are Not Divisible { .section}
+## Sales UOMs That Are Not Divisible
 
 For a stock item, when the **Divisible Unit** check box is cleared on the [Stock Items](IN_20_25_00.md) \(IN202500\) form for the sales UOM, users can specify only integer quantities of the item in the sales UOM in sales orders, shipments, and SO invoices. If the item can be sold in other UOMs, the system validates the quantity of each item converted to the sales UOM to be sure that it is an integer.
 
@@ -48,7 +48,7 @@ The system performs validation of quantities in sales UOMs on the following form
 
 As an example of the use of a sales UOM that is not divisible, suppose that an organization sells lemonade wholesale by boxes of 10 bottles. Sales managers cannot sell less than a box of lemonade \(even if they specify the quantity in bottles when entering a sales order\). Suppose also that on the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the sales UOM for lemonade is *BOX10* and the **Divisible Unit** check box for this UOM is cleared. Further suppose that a sales manager has received an order from a customer for 15 bottles of lemonade. The manager creates a sales order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form and adds 1.5 boxes of lemonade to the document. The system displays an error message, and the sales manager cannot save this sales order without specifying a quantity that is an integer.
 
-## Purchase UOMs That Are Not Divisible { .section}
+## Purchase UOMs That Are Not Divisible
 
 For a stock item, when the **Divisible Unit** check box is cleared on the [Stock Items](IN_20_25_00.md) \(IN202500\) form for the purchase UOM, users can specify only integer quantities of the item in the purchase UOM in purchase orders and receipts. If the item can be purchased in other UOMs, the system does not validate the quantity of the item converted to the purchase UOM to be sure that it is an integer.
 

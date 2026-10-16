@@ -1,16 +1,16 @@
-# Shift Codes: Implementation Activity {#_15fdbe06-a590-485e-9724-4ba44bef6804 .task}
+# Shift Codes: Implementation Activity
 
 In the following implementation activity, you will learn how to create shift codes.
 
-## Story { .section}
+## Story
 
 Suppose that some employees of the SweetLife company may work regular hours, graveyard shifts, or weekend shifts. Employee pay rate is increased by $5 for graveyard shifts or by 50% for weekend shifts. Acting as an administrator, you need to define shift differentials for work outside regular hours.
 
-## Process Overview { .section}
+## Process Overview
 
 First, you enable the *Shift Differential* feature on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form to be able to define shift differentials in the system. Then you create necessary shift codes by using the [Shift Codes](EP_10_30_00.md) \(EP103000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating shift codes, you should launch the Acumatica ERP website and sign in as a system administrator by using the following credentials:
 
@@ -21,11 +21,11 @@ As a prerequisite activity, in the company to which you are signed in, be sure y
 
 As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course.
 
-## Step 1: Enabling the Shift Differential Feature { .section}
+## Step 1: Enabling the Shift Differential Feature
 
 On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, enable the *Shift Differential* feature.
 
-## Step 2: Creating a Graveyard Shift Code { .section}
+## Step 2: Creating a Graveyard Shift Code
 
 To create a shift code for graveyard shifts, with the pay rate increased by an amount, do the following:
 
@@ -40,7 +40,7 @@ To create a shift code for graveyard shifts, with the pay rate increased by an a
     -   **Costing Amount**: `5.00`
 3.  On the form toolbar, click **Save**.
 
-## Step 3: Creating a Weekend Shift Code { .section}
+## Step 3: Creating a Weekend Shift Code
 
 To create a shift code for weekend shifts with the pay rate increased by percent, while you are still viewing shift codes on the [Shift Codes](EP_10_30_00.md) \(EP103000\) form, do the following:
 

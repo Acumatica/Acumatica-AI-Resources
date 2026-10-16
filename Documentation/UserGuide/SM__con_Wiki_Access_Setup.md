@@ -1,10 +1,10 @@
-# Wiki Access Management {#_f0708bda-251d-45e2-823a-62a48f7df7eb .concept}
+# Wiki Access Management
 
 In Acumatica ERP, you configure all access, including access to the wiki, by using roles. Each role is collection of functions a user with the role may access. Acumatica ERP provides several built-in roles and a number of predefined roles with names and abilities that vary by reseller. Your company may need to redefine roles or create new roles to effectively separate employee duties in accordance with established internal policies.
 
 Wiki access management involves configuring new roles, modifying existing roles, and assigning roles to users to allow them to perform the required tasks in the wikis.
 
-## Role Setup { .section}
+## Role Setup
 
 Generally, for roles whose users work with wikis, access should be configured to the following:
 
@@ -23,7 +23,7 @@ For example, a small or mid-sized company might have the following wiki-related 
 
 Your company may create additional wikis for corporate use. When you create new wikis, wiki folders, and articles, the existing roles will not have access to them. You will need to establish proper access rights to those items by modifying existing roles or creating new ones.
 
-## Access for Wiki Articles { .section}
+## Access for Wiki Articles
 
 You set the access each role has to the wikis available in your company by using the [Wiki Access by Role](SM_20_20_15.md) \(SM202015\) form. If the company has multiple wikis, you set access for each of the wikis separately. You can set access rights to a particular article or folder by using the **Access Rights** tab when you open the article in the Wiki Editor form.
 
@@ -46,18 +46,18 @@ For users whose roles allow them to edit articles \(with *Edit* or higher access
 
 **Tip:** You can set the access rights of the role by using the [Access Rights by Role](SM_20_10_25.md) \(SM201025\) form.
 
-## Role Configuration for Wikis { .section}
+## Role Configuration for Wikis
 
 When you configure a role for the users who will be working with wikis, you give access to:
 
 -   The wiki management forms by using the [Access Rights by Role](SM_20_10_25.md) \(SM201025\), [Access Rights by Screen](SM_20_10_20.md) \(SM201020\), or [Wiki](SM_20_20_05.md) \(SM202005\) form.
 -   The wiki articles by using the [Wiki Access by Role](SM_20_20_15.md) \(SM202015\) form. By using this form, a user will be able to configure access only to wikis this user has access to.
 
-## Access to Help Topics { .section}
+## Access to Help Topics
 
 Although most wikis are created to be modified by multiple users, Acumatica ERP Help \(system wikis\) should be protected from unnecessary modifications. We recommend setting the *View Only* access to wikis delivered with the system. Modification of system wiki articles will prevent their update during upgrades. The system will update only articles that have not been modified.
 
-## Access to Wiki Management Forms { .section}
+## Access to Wiki Management Forms
 
 Typically, content management may include the following tasks: creating articles or folders, editing the text, publishing the articles for other users to read, removing outdated materials, moving articles and folders, setting up a new wiki, and defining the styles. The users with any roles that performs such duties will require *Edit* \(or higher\) access rights to the following forms:
 
@@ -69,7 +69,7 @@ Typically, content management may include the following tasks: creating articles
 
 For more information, see [Configuring User Roles](User_Roles_Mapref.md).
 
-## Access to Wiki Administration { .section}
+## Access to Wiki Administration
 
 You might want to give users with a particular role the ability to perform wiki administration, which involves the following tasks:
 

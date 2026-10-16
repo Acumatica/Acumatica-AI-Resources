@@ -1,4 +1,4 @@
-# Working with Drawing Logs {#_74a69160-69e6-411d-86ec-d2febe385510 .concept}
+# Working with Drawing Logs
 
 Drawing logs are used to store all drawings and design files that are related to a project. The topics of this chapter explain how to work with drawing logs in the system.
 

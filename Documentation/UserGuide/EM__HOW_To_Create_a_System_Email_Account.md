@@ -1,8 +1,8 @@
-# To Create a System Email Account {#_703c2d6e-5e43-4122-896b-160f2c9d4aaf .task}
+# To Create a System Email Account
 
 By using the [Email Accounts](SM_20_40_02.md) \(SM204002\) form, you can create an email account to send and receive emails through Acumatica ERP. You can create as many system email accounts as you need and can even use an individual account for each specific purpose, but only one account can be set up as the default system email account to be used for sending automatic emails.
 
-## To Create a System Email Account { .section}
+## To Create a System Email Account
 
 1.  Open the [Email Accounts](SM_20_40_02.md) \(SM204002\) form.
 2.  On the form toolbar, click **Add New Record**.
@@ -45,7 +45,7 @@ By using the [Email Accounts](SM_20_40_02.md) \(SM204002\) form, you can create 
     **Note:** If the testing fails, you may have to check the security settings of the account that you want to use as the system email account.
 
 
-## To Set Up the Default System Email Account { .section}
+## To Set Up the Default System Email Account
 
 1.  Open the [Email Preferences](SM_20_40_01.md) \(SM204001\) form.
 2.  In the **Default Email Account** box, select the system email account that you want to be used for sending automatic emails.

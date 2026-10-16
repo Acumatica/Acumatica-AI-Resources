@@ -1,4 +1,4 @@
-# Overriding a Graph Method {#_93141b0b-4ef6-463f-af1a-7662e4bf638d .concept}
+# Overriding a Graph Method
 
 Acumatica Framework provides a way to override graph methods. You may need to override graph methods when you need to adjust business logic implemented in these methods. The topics of this chapter explain how to override graph methods and in particular the Persist method.
 

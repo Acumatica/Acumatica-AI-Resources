@@ -1,4 +1,4 @@
-# Managing Marketing Lists {#_abe79e69-3cd7-4e61-b2c1-53a409dbaf18 .concept}
+# Managing Marketing Lists
 
 In this chapter, you will find information about managing marketing lists.
 

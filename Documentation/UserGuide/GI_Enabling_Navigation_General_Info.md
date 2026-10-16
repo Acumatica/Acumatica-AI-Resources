@@ -1,10 +1,10 @@
-# Navigation Configuration: General Information {#_30994ae2-7c9b-4814-b4e7-86e1ab49c51a .concept}
+# Navigation Configuration: General Information
 
 When you design a generic inquiry by using the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form, you can define navigation options that give users of the inquiry form the ability to quickly access related information and work more effectively. You can add a side panel with tabs that can display Acumatica ERP forms and external webpages related to a selected record on the inquiry form. You can also define any column of the results grid of the inquiry form to contain links to an Acumatica ERP form or to an external webpage; on the inquiry form, a user can click the link in the column to view the listed record on the form where it was created or the external webpage.
 
 This topic presents information about the configuration of all types of navigation, as well as the specifics of navigation through the links in columns of the inquiry form, and the [Navigation Configuration: Side Panel](GI_Enabling_Navigation_Side_Panel_Configuration_Concept.md) topic provides additional details about configuring a side panel.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to specify different navigation options from generic inquiries by doing the following:
 
@@ -14,7 +14,7 @@ In this chapter, you will learn how to specify different navigation options from
 -   Managing the ways the system should open the target forms or webpages
 -   Managing the visibility of tabs defined on the side panel
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may find the information in this chapter useful when you work on the customization of Acumatica ERP in your company, including developing and modifying generic inquiries to give users information they need to do their jobs. You may want to give users flexible ways to navigate from generic inquiry forms to other Acumatica ERP forms and to webpages, according to your business requirements.
 
@@ -22,7 +22,7 @@ For example, as you are creating a generic inquiry form that lists purchase orde
 
 The ability to navigate to external webpages can be very useful, for example, in ecommerce solutions to monitor entities whose state can change. For example, suppose that your company uses the FedEx delivery services company to deliver packages. You can design a generic inquiry that lists the packages in shipments and the packages' FedEx tracking numbers. In this generic inquiry, you can configure navigation to a tracking page on the FedEx website. In the results grid of the inquiry form, in the column with tracking numbers, a user can click the link in a row of any package and open the page on the FedEx website that corresponds to the tracking number.
 
-## Default Navigation {#section_otk_mbc_qrb .section}
+## Default Navigation
 
 For any column of the results grid of the generic inquiry form, you can turn on or turn off the default navigation—that is, the user's ability to click a link to navigate to the field’s default form. You do this by using the **Default Navigation** check box on the **Results Grid** tab of the [Generic Inquiry](../Shared/../UserGuide/SM_20_80_00.md) \(SM208000\) form.
 
@@ -32,7 +32,7 @@ With the **Default Navigation** check box selected, values of these fields are s
 
 When you add a new row to the table on the **Results Grid** tab, the check box is selected by default.
 
-## Specification of Navigation Settings {#section_jqf_dcd_qrb .section}
+## Specification of Navigation Settings
 
 Whether users will access the navigation target through a side panel of the generic inquiry or a link in the inquiry results, the specification of navigation settings for a target involves three general steps: You specify the target to which you want to provide navigation, you select the navigation mode, and you specify the data field the system should pass to the target.
 
@@ -61,13 +61,12 @@ In most cases, you need to pass the key fields, which are displayed on the UI an
 
 For example, if the [Sales Orders](SO_30_10_00.md) \(SO301000\) form is the selected navigation target, you need to pass the order type and the order number, which are the key fields. In the **Field** column, the system provides the key fields of the [Sales Orders](SO_30_10_00.md) form for selection, as shown in the following screenshot.
 
-![](Images/GI_Enabling_Navigation_GS_with_GI_Navigation_Parameters.png "Key fields the system provides for selection")
 
 If you specify an inquiry, a report form, or a dashboard as a navigation target and parameters have been defined for the target, the system instead provides the list of these parameters for selection in the **Field** column of the **Navigation Parameters** tab.
 
 In the **Link** column of the table in the **Navigation Targets** pane, you can specify the same Acumatica ERP inquiry, dashboard, or report form more than once. For each row in which you list the same inquiry, dashboard, or report, you can specify different parameters in the table on the **Navigation Parameters** tab.
 
-## Navigation to a Particular Form or Webpage { .section}
+## Navigation to a Particular Form or Webpage
 
 You use the **Navigation** tab of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form to specify the list of navigation targets: Acumatica ERP forms and webpages to which users can navigate from the generic inquiry form. For each navigation target you list, you specify navigation settings—in particular, the mode in which the system opens the form or page. For the navigation targets with a mode other than *Side Panel*, you need to associate a data field that should be displayed in the generic inquiry results as a link.
 
@@ -75,7 +74,7 @@ After you have finished specifying the navigation settings for the target, you s
 
 **Attention:** If you were to leave the **Default Navigation** check box selected, the target selected in the **Navigate To** column would be ignored—that is, if a user clicked a link in the column of the inquiry results, the system would open the default form \(if any was defined for the data field\). If you were to clear the **Default Navigation** check box and not specify a form in the **Navigate To** column for the data field, the data field would not be displayed as a link.
 
-## Specification of Navigation Settings for a Webpage {#section_ts4_zts_jrb .section}
+## Specification of Navigation Settings for a Webpage
 
 The process of configuring an external webpage as a navigation target is the same as that for a form, as detailed in the previous section. This section describes and illustrates the specifics of this process for a webpage.
 

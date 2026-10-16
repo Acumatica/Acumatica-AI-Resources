@@ -1,25 +1,25 @@
-# DeviceHub: To Set Up the Connection Between DeviceHub and the Acumatica Instance {#_6e59cf1a-59f6-4291-a75a-d08f10d43036 .task}
+# DeviceHub: To Set Up the Connection Between DeviceHub and the Acumatica Instance
 
 In the following implementation activity, you will learn how to set up the connection between the Acumatica ERP instance and the DeviceHub application.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist in your company and you have installed DeviceHub. Now you need to perform the initial configuration of the application to connect DeviceHub to the Acumatica ERP instance that your company uses.
 
-## Process Overview { .section}
+## Process Overview
 
 On the **Connection** tab of the configuration window of DeviceHub, you will configure connection settings.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start setting up the connection of DeviceHub and the Acumatica ERP instance, you should do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as the system administrator with the *admin* username and the *123* password.
 2.  Make sure that DeviceHub has been installed on your computer, as described in [DeviceHub: To Install DeviceHub](Devicehub_To_Install_DeviceHub_Implem_Activity.md).
 
-## Step 1: Enabling the Needed Feature { .section}
+## Step 1: Enabling the Needed Feature
 
 To enable the *DeviceHub* feature, do the following.
 
@@ -28,7 +28,7 @@ To enable the *DeviceHub* feature, do the following.
 3.  Under the **Monitoring &amp; Automation** group, select the **DeviceHub** check box.
 4.  On the form toolbar, click **Enable**.
 
-## Step 2: Connecting DeviceHub with Acumatica ERP { .section}
+## Step 2: Connecting DeviceHub with Acumatica ERP
 
 To set up the connection of the DeviceHub application and the Acumatica ERP instance, do the following:
 

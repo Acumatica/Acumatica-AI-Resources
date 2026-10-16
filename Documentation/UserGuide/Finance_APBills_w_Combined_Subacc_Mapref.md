@@ -1,4 +1,4 @@
-# Processing AP Bills with Combined Subaccounts {#_cc6932e5-e4de-41ea-a9c4-9d0d81c65e9c .concept}
+# Processing AP Bills with Combined Subaccounts
 
 The topics of this chapter describe how to process AP bills with combined subaccounts, if subaccounts are used in your system.
 

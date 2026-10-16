@@ -1,16 +1,16 @@
-# Preparing an Instance: To Enable Features and Activate the License {#_9d9e039a-59ff-4b03-9246-68bcb75e4395 .task}
+# Preparing an Instance: To Enable Features and Activate the License
 
 In the following activity, you will learn how to enable features in Acumatica ERP, activate the license, and review the license information.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company has purchased an Acumatica ERP subscription in Acumatica Business Cloud. The instance has been installed by SaaS engineers. You, as a system administrator, have received the instance URL and the credentials to the *admin* user. Now you need to prepare the instance for implementation. You are the first one to sign in to the instance, and activate and license it with the product key you have obtained from the sales representative. The company has purchased the S1 license tier with three concurrent users and five tenants. In addition to the default set of features, your company has purchased the basic functionality associated with the *Inventory and Order Management* group of features.
 
-## Process Overview { .section}
+## Process Overview
 
 To begin using the system after the installation, you will use the [Enable/Disable Features](../UserGuide/CS_10_00_00.md#) \(CS100000\) form to enable the standard set of features, which gives you the ability to access the [Activate License](../UserGuide/SM_20_15_10.md#) \(SM201510\) form. When you enable the features, you are still in trial mode. To remove the restrictions of the trial mode, you need to activate the license and enable the features that you bought in addition to the standard set.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you perform the steps of this activity, make sure that the following tasks have been performed:
 
@@ -23,7 +23,7 @@ Before you perform the steps of this activity, make sure that the following task
     **Tip:** When you sign in for the first time, the system requires you to change the password.
 
 
-## Step 1: Enabling Features for the First Time { .section}
+## Step 1: Enabling Features for the First Time
 
 To enable features in Acumatica ERP for the first time, do the following:
 
@@ -31,16 +31,14 @@ To enable features in Acumatica ERP for the first time, do the following:
 
     Notice that a number of features are selected by default and the activation status is *Pending Activation*, as shown in the following screenshot.
 
-    ![](Images/config_SA_Prep_Instance_for_Implem_PendingActivation.png "Activation status of initial features")
 
 2.  On the toolbar, click **Enable** to activate the selected features.
 
     The activation status of the currently selected set of features is now *Validated*. On the main menu \(the panel on the left side of the screen\), notice that new workspace menu items \(**Time and Expenses**, **Finance**, **Banking**, **Payables**, and **Receivables**\) have appeared that correspond to the features you have enabled, as the following screenshot demonstrates. You can now navigate to the forms in these workspaces.
 
-    ![](Images/config_SA_Prep_Instance_for_Implem_Features_Activated.png "Activation status of the enabled features")
 
 
-## Step 2: Activating the License { .section}
+## Step 2: Activating the License
 
 To activate the license, do the following:
 
@@ -63,7 +61,7 @@ To activate the license, do the following:
 
 5.  On the form toolbar, click **Apply License** to activate your license, and the system will restart the instance.
 
-## Step 3: Enabling Additional Features { .section}
+## Step 3: Enabling Additional Features
 
 To enable additional features in Acumatica ERP, do the following:
 
@@ -78,18 +76,15 @@ To enable additional features in Acumatica ERP, do the following:
     The status of the currently selected feature set is now *Validated*. On the main menu, notice that new workspace menu items \(**Sales Orders**, **Purchases**, and **Inventory**\) have appeared that correspond to the feature you have enabled. You can now navigate to the forms in these workspaces.
 
 
-## Step 4: Reviewing the License Information { .section}
+## Step 4: Reviewing the License Information
 
 To review the license information—which includes the license status and limitations, statistics about the commercial transactions, warnings, and statistics for constraints—do the following:
 
 1.  Open the [License Monitoring Console](../UserGuide/SM_60_40_00.md#) \(SM604000\) form.
-2.  On the **License** tab, which is shown in the screenshot below, review the information about your license.
-
+2.  On the **License and Constraints** tab, review the information about your license.
     -   In the **License Status** read-only box, verify that the license status is *Valid*, which means that the instance is licensed and has been activated.
     -   In the **License Details** section, review the instance limitations.
     -   In the **Recommended Maximums** section, notice that the value in the **Concurrent Users** box is set to *3*. This means that three users can work in the system at the same time.
-    ![](Images/config_SA_Prep_Instance_for_Implem_License_Monitoring_Console.png "License Monitoring Console")
-
 
 **Parent topic:**[Preparing an Instance for Implementation](../ImplementationGuide/config_SA_Prep_Instance_for_Implem_Mapref.md)
 

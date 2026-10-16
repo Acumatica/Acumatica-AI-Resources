@@ -1,4 +1,4 @@
-# Producing Items with Backflushing {#_ea61ee3d-dd22-4361-bb20-79dcba450d74 .concept}
+# Producing Items with Backflushing
 
 Your organization may use backflushing to minimize the number of manual entries in production, such as the releasing of materials, the recording of labor amount, and the recording of produced items for each operation. With backflushing configured in Acumatica ERP Manufacturing Edition, the system automatically issues materials, records labor hours, or performs both actions.
 

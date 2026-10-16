@@ -1,14 +1,14 @@
-# Bill with Combined Subaccounts: Process Activity {#_e919195f-b5f4-48a0-b6c4-9da90d43a849 .task}
+# Bill with Combined Subaccounts: Process Activity
 
 The following activity will walk you through the process of creating and releasing an AP bill that contains combined subaccounts.
 
-## Story {#section_w23_njv_vxb .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company purchased billboard advertising from the Blueline Advertisement company and additional printed booklets that are not tracked in the system as non-stock items.
 
 Acting as a SweetLife accountant, you need to create an AP bill on behalf of Bill Owen, who works in the Marketing department. You then need to release the bill and then review the balances of the involved accounts, which are broken down by subaccounts.
 
-## Configuration Overview {#section_z23_njv_vxb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed for the purposes of this activity:
 
@@ -23,11 +23,11 @@ In the *U100* dataset, the following tasks have been performed for the purposes 
 -   On the [Segmented Keys](CS_20_20_00.md) \(CS202000\) form, the *SUBACCOUNT* segmented key has been defined.
 -   On the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form, the subaccount mask to be used in AP documents has been defined.
 
-## Process Overview {#section_df3_njv_vxb .section}
+## Process Overview
 
 In this activity, you will create an AP bill on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. In the bill, you will specify the vendor, the document details, and the owner. When the bill is ready, you will release the document. Finally, on the [Trial Balance Detailed](GL_63_25_00.md) \(GL632500\) form, you will run a report to review the balance of the *61000* account.
 
-## System Preparation {#section_ff3_njv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -37,7 +37,7 @@ Before you begin performing the steps of this activity, do the following:
 4.  Make sure that the *SUBACCOUNT* segmented key has been modified, as described in [Subaccounts: Implementation Activity](../ImplementationGuide/config_Subaccounts_Implem_Activity.md).
 5.  Make sure that you have performed the [Combined Subaccounts: To Define a Subaccount Mask for AP Documents](../ImplementationGuide/config_Combined_Subaccounts_Implem_Activity_2.md) prerequisite activity.
 
-## Step 1: Creating an AP Bill {#section_hf3_njv_vxb .section}
+## Step 1: Creating an AP Bill
 
 To create an AP bill to see how the combined subaccount functionality works, do the following:
 
@@ -69,7 +69,7 @@ To create an AP bill to see how the combined subaccount functionality works, do 
 
 6.  On the form toolbar, click **Save**.
 
-## Step 2: Releasing the AP Bill {#section_nf3_njv_vxb .section}
+## Step 2: Releasing the AP Bill
 
 To release the bill, do the following while you are still viewing the bill on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form:
 
@@ -79,7 +79,7 @@ To release the bill, do the following while you are still viewing the bill on th
     The system changes the status of the bill to *Open*.
 
 
-## Step 3: Reviewing the Expense Account {#section_qf3_njv_vxb .section}
+## Step 3: Reviewing the Expense Account
 
 To review the balance of the *61000* account, which was used as the expense account, and check the amounts the system tracked for each subaccount, do the following:
 
@@ -93,7 +93,6 @@ To review the balance of the *61000* account, which was used as the expense acco
 3.  On the form toolbar, click **Run Report**.
 4.  In the generated report, on the report toolbar, click the **Go to Next Page** arrow button, and review the balances of the *61000* account. Notice the amount in the **Debit** column for the *000-MKT* and *NSS-MKT* subaccounts of this account \($250 and $500, respectively\), as shown in the following screenshot.
 
-    ![](Images/activity_Bill_Combined_Subs_Trial_Balance.png "Balances of the account")
 
 
 **Parent topic:**[Processing AP Bills with Combined Subaccounts](../UserGuide/Finance_APBills_w_Combined_Subacc_Mapref.md)

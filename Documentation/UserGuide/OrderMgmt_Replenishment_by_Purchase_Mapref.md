@@ -1,4 +1,4 @@
-# Replenishing Inventory Through Purchases {#_65d47bf5-f39e-43b2-baf6-402e5a7bfc16 .concept}
+# Replenishing Inventory Through Purchases
 
 A company can replenish stock items by purchasing them from various vendors when the stock is below a certain level. The topics of this chapter explain the general workflow of item replenishment through purchases.
 

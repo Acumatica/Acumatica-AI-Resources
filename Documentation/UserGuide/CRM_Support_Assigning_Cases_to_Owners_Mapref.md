@@ -1,4 +1,4 @@
-# Assigning Cases to Owners and Workgroups {#_60a1fe0d-b4e1-4647-a6fe-4fd000313588 .concept}
+# Assigning Cases to Owners and Workgroups
 
 In this chapter, you will find information about assigning cases to owners and workgroups.
 

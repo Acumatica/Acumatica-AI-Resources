@@ -1,4 +1,4 @@
-# To Start the Customization of a Data Access Class {#_81300776-772d-40cf-bcc9-bf3fb2e564ad .concept}
+# To Start the Customization of a Data Access Class
 
 **Note:** Before you start a DAC customization, we recommend that you check the possibility to use the appropriate business entity attributes, which can be defined on the [Attributes](../UserGuide/CS_20_50_00.md) \(CS205000\) form, instead of custom fields. See [Use of Entity Attributes Instead of Custom Fields](CG_Examples_AttribVSCustomFields.md) for details.
 
@@ -14,7 +14,7 @@ If you know the name of the data access class to be customized, you can first ad
 
 You usually start the customization of a data access class on a form that contains boxes used by users to work with data of an appropriate business entity, such as a sales order invoice.
 
-## To Start DAC Customization { .section}
+## To Start DAC Customization
 
 To start the customization of a DAC from a form, perform the following actions:
 
@@ -27,7 +27,6 @@ To start the customization of a DAC from a form, perform the following actions:
 4.  In the **Data Class** box of the dialog box, view the name of the DAC for the element you clicked \(see Item 1 in the following screenshot\). If you are not sure that this DAC is the needed one, click **Cancel** and repeat Step 3.
 5.  Click **Actions** &gt; **Customize Data Fields** \(Item 2\).
 
-    ![](images/CG_GL_Items_DACs_Adding_CustMent.png "Using the Element Properties dialog box to start the customization of the class")
 
 6.  If there is no currently selected customization project and the Element Inspector opens the [Table 1](../UserGuide/AU_CustomizationMenu.md#_6adfabb5-9264-4273-938a-db4a41510b1c), select an existing customization project or create a new one.
 

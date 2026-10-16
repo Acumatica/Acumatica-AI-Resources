@@ -1,4 +1,4 @@
-# Configuring Predefined Mailings for Customers {#_7f0f6d19-370e-4c88-bfc1-611e907847ea .concept}
+# Configuring Predefined Mailings for Customers
 
 The functionality enabling you to send documents of a specific type by email is referred to as a *mailing*. Acumatica ERP provides predefined mailings that you can configure for customers in the sales orders and accounts receivable subledgers.
 

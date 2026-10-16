@@ -1,22 +1,22 @@
-# Debit Adjustments in Foreign Currencies: General Information {#_d7c141a7-5625-4528-a045-9480c22a9d05 .concept}
+# Debit Adjustments in Foreign Currencies: General Information
 
 In Acumatica ERP, once an AP document has been released, it cannot be edited or deleted; to correct it, you can issue an adjustment. Debit adjustments decrease the accounts payable balance of a vendor.
 
-## Learning Objectives {#section_vgy_3jv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Create a debit adjustment in a foreign currency
 -   Apply a payment and the debit adjustment to a bill in a foreign currency
 
-## Applicable Scenarios {#section_xgy_3jv_vxb .section}
+## Applicable Scenarios
 
 You create a debit adjustment in a foreign currency in the following cases:
 
 -   You need to adjust the balance of a released multicurrency bill.
 -   You need to decrease the amount your company owes to a vendor.
 
-## Processing of a Debit Adjustment {#section_zgy_3jv_vxb .section}
+## Processing of a Debit Adjustment
 
 You can enter a debit adjustment by using the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. The summary of a debit adjustment includes information about the vendor, the vendor location, and the currency used for the transaction.
 
@@ -24,7 +24,7 @@ Generally, a debit adjustment is not linked to a bill or another document to whi
 
 Released debit adjustments appear on the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form and can be applied against credit adjustments and bills.
 
-## Application of RGOL Amounts to Bills {#section_dhy_3jv_vxb .section}
+## Application of RGOL Amounts to Bills
 
 A realized gain or loss \(RGOL\) is calculated when a debit adjustment in a foreign currency is applied to an AP document. The system compares the exchange rate of the document to the exchange rate on the date of settlement and calculates the realized gain or loss. When a debit adjustment is applied to a document, the RGOL amount is processed by the system as follows:
 

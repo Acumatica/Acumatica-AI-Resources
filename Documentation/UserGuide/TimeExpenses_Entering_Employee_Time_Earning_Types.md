@@ -1,4 +1,4 @@
-# Employee Time Entry: Earning Types {#_8062edfe-a98a-405e-92d6-c3de2c7443d8 .concept}
+# Employee Time Entry: Earning Types
 
 In Acumatica ERP, an activity's earning type determines how the system calculates the cost of employee labor. If the **Track Time and Costs** check box is selected on the [Activity](CR_30_60_10.md) \(CR306010\) or [Email Activity](CR_30_60_15.md) \(CR306015\) form, you must specify an earning type in the **Earning Type** box. By default, the *RG - Regular Hours* earning type is selected.
 

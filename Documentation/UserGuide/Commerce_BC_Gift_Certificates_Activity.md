@@ -1,23 +1,23 @@
-# Gift Certificates: Process Activity {#_67ebfd50-74e0-40e5-9201-c4d3e498a08d .task}
+# Gift Certificates: Process Activity
 
 In this activity, you will learn how to implement gift certificates in the BigCommerce store and explore how gift certificates can be used to pay, in full or in part, for an online purchase in the BigCommerce store.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that a sales manager of SweetLife wants to give its online customers the ability to purchase gift certificates and use these certificates when purchasing goods in the SweetLife online store. You also want to track payments made with gift certificates in Acumatica ERP by using a dedicated payment method.
 
 As an implementation consultant, you need to set up a non-stock item that will be used to record a sale of a gift certificate as well as a payment method that will be used to track payments made with gift certificates.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *GIFTCERT* non-stock item has been created to represent gift certificates sold in the online store.
 -   On the [Payment Methods](CA_20_40_00.md) \(CA204000\) form, the *GIFTCARDS* payment method has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 You will do the following:
 
@@ -31,7 +31,7 @@ You will do the following:
 8.  On the [Prepare Data](BC_50_10_00.md) form, prepare the sales order data for synchronization, and on the [Process Data](BC_50_15_00.md) form, you will process the prepared data.
 9.  On the [Sales Orders](SO_30_10_00.md) form, review the imported sales order corresponding to your order on the storefront that was partially paid for with the gift certificate.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring the gift certificates, do the following:
 
@@ -42,7 +42,7 @@ Before you start configuring the gift certificates, do the following:
     -   **Username**: *gibbs*
     -   **Password**: *123*
 
-## Step 1: Configuring the Store Settings { .section}
+## Step 1: Configuring the Store Settings
 
 To specify the gift certificate settings in Acumatica ERP, perform the following instructions:
 
@@ -58,7 +58,7 @@ To specify the gift certificate settings in Acumatica ERP, perform the following
     -   **Release Payments and Refunds**: Cleared \(default state\)
 4.  On the form toolbar, click **Save**.
 
-## Step 2: Configuring Gift Certificates in the Store { .section}
+## Step 2: Configuring Gift Certificates in the Store
 
 To enable the gift certificate functionality, in the BigCommerce store, do the following:
 
@@ -70,7 +70,7 @@ To enable the gift certificate functionality, in the BigCommerce store, do the f
     -   `25.00`
 5.  In the lower right, click **Save** to save your changes.
 
-## Step 3: Purchasing a Gift Certificate { .section}
+## Step 3: Purchasing a Gift Certificate
 
 To create an order in which you purchase a $25 gift certificate in the BigCommerce store, while you are still signed in to the control panel of the BigCommerce store, do the following:
 
@@ -114,7 +114,7 @@ To create an order in which you purchase a $25 gift certificate in the BigCommer
     The order has the *$25.00* value in the **Total** column and the **Status** of the order is set to *Completed*. An email with the gift certificate code has been sent to the gift certificate recipient's email address \(**Recipient's Email**\) that you specified in the order with the certificate.
 
 
-## Step 4: Importing the Order with the Gift Certificate { .section}
+## Step 4: Importing the Order with the Gift Certificate
 
 To import the order to Acumatica ERP, do the following:
 
@@ -128,7 +128,7 @@ To import the order to Acumatica ERP, do the following:
 6.  On the form toolbar, click **Process**.
 7.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 5: Reviewing the Imported Order { .section}
+## Step 5: Reviewing the Imported Order
 
 To review the details of the imported sales order in Acumatica ERP, do the following:
 
@@ -143,7 +143,7 @@ To review the details of the imported sales order in Acumatica ERP, do the follo
 
 5.  Close the pup-up window with the [Sales Orders](SO_30_10_00.md) form.
 
-## Step 6: Paying for the Order with a Gift Certificate { .section}
+## Step 6: Paying for the Order with a Gift Certificate
 
 To create an order and pay for part of it with the gift certificate, in the control panel of the BigCommerce store, do the following:
 
@@ -180,7 +180,7 @@ To create an order and pay for part of it with the gift certificate, in the cont
     On the confirmation page, notice that the reference number of the created order.
 
 
-## Step 7: Importing the Sales Order Paid with the Gift Certificate { .section}
+## Step 7: Importing the Sales Order Paid with the Gift Certificate
 
 To import the sales order, in Acumatica ERP, do the following:
 
@@ -194,7 +194,7 @@ To import the sales order, in Acumatica ERP, do the following:
 6.  On the form toolbar, click **Process**.
 7.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 8: Reviewing the Imported Sales Order { .section}
+## Step 8: Reviewing the Imported Sales Order
 
 To review the settings of the imported sales order, do the following:
 
@@ -207,7 +207,6 @@ To review the settings of the imported sales order, do the following:
 
     On the **Payments** tab, notice that two prepayments have been applied to the order: a credit card payment \(mapped to the *ONLINE* payment method\) and a gift card payment \(mapped to the *GIFTCARDS* payment method\).
 
-    ![](Images/activity_Commerce_BC_Gift_Certificates_Activity_SO.png "The prepayment and the gift certificate applied to the order")
 
 5.  In the row of the gift card payment, which has an applied amount of $25, click the link in the **Reference Nbr.** column.
 6.  On the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, which opens in a pop-up window, review the payment details.

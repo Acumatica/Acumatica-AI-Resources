@@ -1,28 +1,28 @@
-# Managing Project Files: General Information {#_a9aac385-b491-40d0-9a7e-e920051bd2ce .concept}
+# Managing Project Files: General Information
 
 You can work with all of a project’s files centrally—whether they relate to the entire project or a project-related record. You can view, filter, and preview files, as well as upload new versions and link files to records.
 
 **Attention:** The functionality is available in the Modern UI when the *Document Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 -   Configure tags for project files and control access to them
 -   Create project tag templates and assign them to projects
 -   Manage all files related to a project centrally
 -   Manage all files related to a project's records centrally
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You use project file management in Acumatica ERP to organize project documents, control access to sensitive documentation, and make critical project information easy to find.
 
-## Configuring Project File Management { .section}
+## Configuring Project File Management
 
 To configure project file management in Acumatica ERP, you perform the following general steps:
 
 1.  Configuring tags for project files and file access, as described in [Managing Project Files: Tag and File Access Setup](Projects_File_Management_Configuration.md)
 2.  Creating project tag templates and assigning them to projects, as described in [Managing Project Files: Project Tag Templates](Projects_File_Managment_Project_Tag_Template_Setup.md)
 
-## Viewing All Project Files by Tag { .section}
+## Viewing All Project Files by Tag
 
 The [Manage Project Files by Tag](PM_50_90_00.md) \(PM509000\) form brings together all files attached to a project and its related records. You can work with files by tag based on your access rights to each tag.
 
@@ -38,7 +38,7 @@ The central pane displays the number of the files with the selected tag, includi
 
 To preview a PDF file or image, click the file row; its contents are shown in the **File Details** pane. Clicking a previewed image opens it in a full-screen view.
 
-## Viewing Options for Project Files { .section}
+## Viewing Options for Project Files
 
 On the [Manage Project Files by Tag](PM_50_90_00.md) \(PM509000\) form, you can switch between list view and tile view.
 
@@ -53,7 +53,7 @@ To open the row-level More menu, you hover over the tile and click the button th
 
 To see the list of the files again, you click **Switch to List View**.
 
-## Viewing Project Files by Record Type { .section}
+## Viewing Project Files by Record Type
 
 You can view and manage all the files attached or linked to a project and its related records—such as change orders, project issues, or tasks—on the [Manage Project Files by Record Type](PM_50_95_50.md) \(PM509500\) form. This form displays both the files attached to a record and those attached to its detail lines.
 
@@ -65,7 +65,7 @@ To view all files attached to records of a type:
 2.  In the **Record Types** pane, click a record type. The central pane shows the files associated with records of that type. For each file, you’ll see the record ID, file name, size, uploader, associated tags, and latest version details.
 3.  To preview any PDF file or image, click the file row to view its contents in the **File Details** pane. Click the image to open a full-screen view.
 
-## Finding Project Files by Record Type { .section}
+## Finding Project Files by Record Type
 
 If you're looking for a specific file or set of files attached to a project-related record, you can narrow the list or find the file you need:
 
@@ -79,7 +79,7 @@ Finding files works differently depending on what you’ve selected in the **Rec
 -   **Bills and Adjustments**, **Compliance Documents**, **Purchase Orders**, **Purchase Receipts**, and **Subcontracts** record types: The central pane shows the linked document's reference number and the vendor identifier. If you need to find files related to a particular vendor, you use the **Vendor** filter.
 -   **Expense Claims**, **Expense Receipts**, and **Employee Time Cards** record types: The central pane shows the linked document's reference number and the employee identifier. To find files related to a specific employee, you use the **Employee** filter.
 
-## Viewing and Changing File Information { .section}
+## Viewing and Changing File Information
 
 To review or edit file information, use the **File Details** pane of the [Manage Project Files by Tag](PM_50_90_00.md) \(PM509000\) or [Manage Project Files by Record Type](PM_50_95_50.md) \(PM509500\) form. The pane has the following tabs:
 

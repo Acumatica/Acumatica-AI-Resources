@@ -1,10 +1,10 @@
-# Configuring the Mobile Site Map {#_64460c7d-b5da-4872-958f-9c1f290168bc .concept}
+# Configuring the Mobile Site Map
 
 You develop the code that creates or changes the mobile site map in the memory of the Acumatica ERP server by using Mobile Site Map Definition Language \(MSDL\).
 
 **Note:** Before Acumatica Framework 2021 R2, XML was used to configure the mobile site map.
 
-## MSDL Overview { .section}
+## MSDL Overview
 
 MSDL provides the capability to configure the user interface of the Acumatica mobile app. It transcends XML in terms of its flexibility of usage for the mobile site map, because you can apply MSDL code multiple times for any Acumatica ERP form, whether it is a custom, customized, or original form. In contrast with XML, Acumatica Mobile Framework can successively apply MSDL code for a form from multiple customizations without problems or restrictions.
 
@@ -12,16 +12,16 @@ If you already have an XML site map in MSDL format, you should convert the XML m
 
 See the [MSDL](MOBILE_Ref_MSDL.md) section of [Mobile Site Map Reference](MOBILE_Reference.md) for details about MSDL syntax, object types, and instructions.
 
-## User Interface Structure { .section}
+## User Interface Structure
 
 You can modify the elements of the Acumatica mobile app’s UI by using MSDL. This UI has the following structure:
 
 -   [Main Menu](MOBILE_MainMenu.md#): You can customize the main menu by using instructions that work with the Folder and Screen objects.
 -   [Screens](MOBILE_Screens.md#): You can customize the mobile app screens by using instructions that work with Container, Field, Action, and other objects.
 
-**Important:** In previous versions of Acumatica ERP, you could customize the sidebar menu by populating it with links to favorite records and screens. As of Acumatica ERP 2026 R1, the sidebar menu has been deprecated. Customization projects that contain sidebar modification will no longer work. We recommend that you use the workspace functionality and add the required records and screens to Favorites. \(For details, see [Home Screen](mobile_msdl_mainmenu.md).\)
+**Important:** In previous versions of Acumatica ERP, you could customize the sidebar menu by populating it with links to favorite records and screens. As of Acumatica ERP 2026 R2, the sidebar menu has been deprecated. Customization projects that contain sidebar modification will no longer work. We recommend that you use the workspace functionality and add the required records and screens to Favorites. \(For details, see [Home Screen](mobile_msdl_mainmenu.md).\)
 
-## How to Use the MSDL Examples of This Chapter { .section}
+## How to Use the MSDL Examples of This Chapter
 
 In this chapter, each example contains a list of MSDL instructions that modify the mobile site map for your instance of Acumatica ERP.
 

@@ -1,16 +1,16 @@
-# Drop-Ship Vendor Returns: Process Activity {#_948311f9-ed62-42b2-ab6e-27f0332e9426 .task}
+# Drop-Ship Vendor Returns: Process Activity
 
 The following activity will walk you through the processing of a drop-ship vendor return.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife's retail store regularly drop-ships a variety of green, black, and fruit teas from the Tea &amp; Spices \(*TEACOMPANY*\) vendor to the FourStar Coffee &amp; Sweets Shop \(*COFFEESHOP*\) customer. Based on a customer satisfaction survey, a manager of the FourStar Coffee &amp; Sweets Shop has found out that the demand for the fruit tea is very low. Thus, the FourStar Coffee &amp; Sweets Shop has decided to stop buying the fruit tea from the SweetLife store. Also, the FourStar Coffee &amp; Sweets Shop wants to return the fruit tea from its last order.
 
 To complete the customer’s request, acting as the sales and purchasing manager of the SweetLife store, you need to process the drop-ship vendor return for the Tea &amp; Spices \(*TEACOMPANY*\) vendor by creating and processing the needed documents in the system.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following features have been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form:
 
@@ -25,13 +25,13 @@ Also, the following entities, which you will use in this activity, have been con
 
 Additionally, the purchase documents for which you will process a drop-ship purchase return have been created and processed in the system.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, to process a drop-ship vendor return, you will first create a sales order of the *RC* type \(that is, a return order\) on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form; on the **Details** tab, you will add a line with *FRUITTEA12* stock item to be returned by selecting it from the invoice. Because you want the customer to return the item directly to the *TEACOMPANY* vendor without receiving it at your warehouse, you will select the check box in the **Mark for PO** column. You will create a purchase return—a purchase receipt of the *Return* type— for the vendor on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form and then release it.
 
 Then you will prepare a debit adjustment for the vendor on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. When the vendor receives the returned items, you will release the debit adjustment. Finally, you will prepare a credit memo for the customer on the [Invoices](SO_30_30_00.md) \(SO303000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Do the following:
 
@@ -39,7 +39,7 @@ Do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to*1/30/2026*. If a different date is displayed, click the Business Date menu button, and select *1/30/2026* from the calendar. For simplicity, in this activity, you will create and process all documents in the system during this business date.
 3.  On the Company and Branch Selection menu in the top pane of the Acumatica ERP screen, select the *SweetLife Store* branch.
 
-## Step 1: Creating a Return Order { .section}
+## Step 1: Creating a Return Order
 
 To create a return order \(a sales order of the *RC* type\), do the following:
 
@@ -55,7 +55,7 @@ To create a return order \(a sales order of the *RC* type\), do the following:
     4.  Click **Add and Close** to add this line to the return order and close the dialog box.
 4.  On the form toolbar, click **Save**.
 
-## Step 2: Creating and Releasing a Direct Purchase Return { .section}
+## Step 2: Creating and Releasing a Direct Purchase Return
 
 To create a direct purchase return for the vendor, do the following:
 
@@ -75,7 +75,7 @@ To create a direct purchase return for the vendor, do the following:
 5.  On the **Details** tab, review the only line \(for which relevant settings have been copied from the sales order line\), and notice that it has the *Goods for Drop-Ship* value in the **Line Type** column.
 6.  On the form toolbar, click **Release**.
 
-## Step 3: Entering the Debit Adjustment { .section}
+## Step 3: Entering the Debit Adjustment
 
 To process the debit adjustment for the items that have been returned to the vendor, do the following:
 
@@ -86,7 +86,7 @@ To process the debit adjustment for the items that have been returned to the ven
 2.  On the form toolbar, click **Remove Hold**, and then click **Release**.
 3.  Close the window with the current form.
 
-## Step 4: Preparing and Releasing a Credit Memo for the Customer { .section}
+## Step 4: Preparing and Releasing a Credit Memo for the Customer
 
 To process the return of money to the customer, do the following:
 
@@ -99,7 +99,6 @@ To process the return of money to the customer, do the following:
 
     Return to the sales order of the *RC* type on the [Sales Orders](SO_30_10_00.md) form, and on the **Shipments** tab, review the only line, which has the shipment for the order. The following screenshot shows the resulting drop-ship return order, which has the *Completed* status.
 
-    ![](Images/activity_OrderMgmt_Drop-Ship_Return_Order.png "The drop-ship return order after it has been processed to completion")
 
 
 **Parent topic:**[Processing Drop-Ship Vendor Returns](../UserGuide/OrderMgmt_Drop_Ship_Vendor_Returns_Mapref.md)

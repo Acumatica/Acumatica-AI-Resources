@@ -1,10 +1,10 @@
-# Invoice Prepayments: Release of Prepayments {#_a909ed0c-bd72-43d2-b4f1-a6f9777fbdb3 .concept}
+# Invoice Prepayments: Release of Prepayments
 
 In Acumatica ERP, payment documents that can be released manually have the following document types on the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form: *Payment*, *Prepayment*, *Prepayment Invoice*, *Refund*, and *Voided Payment*. The information in this topic applies to documents of the *Prepayment* type.
 
 This topic describes the forms you may use to release a prepayment and the details of releasing prepayments and their application records.
 
-## Releasing a Prepayment {#section_rtw_skl_2w .section}
+## Releasing a Prepayment
 
 In Acumatica ERP, if a prepayment has the *Balanced* status, you can release the prepayment by using one of the following forms:
 
@@ -13,7 +13,7 @@ In Acumatica ERP, if a prepayment has the *Balanced* status, you can release the
 
 For details on the generated GL transactions, see [Invoice Prepayments: Generated Transactions](Finance_ProcessingPrepaymentsAR_Transactions.md).
 
-## Releasing a Prepayment Without Applications {#section_q2p_4jv_vxb .section}
+## Releasing a Prepayment Without Applications
 
 When you record a prepayment, you may not specify any outstanding documents on the **Documents to Apply** tab of the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form. Thus, the available balance of the prepayment is equal to the prepayment amount. When you release such a prepayment, the system does the following:
 
@@ -24,7 +24,7 @@ When you record a prepayment, you may not specify any outstanding documents on t
 
 In this case, the system generates a GL batch that contains only prepayment transactions and transactions for any bank charges. For details, see [Releasing a Prepayment](#section_rtw_skl_2w) and [Invoice Prepayments: Generated Transactions](Finance_ProcessingPrepaymentsAR_Transactions.md).
 
-## Releasing a Partially Applied Prepayment {#section_t2p_4jv_vxb .section}
+## Releasing a Partially Applied Prepayment
 
 When you record a prepayment, you may specify some outstanding documents on the **Documents to Apply** tab of the [Payments and Applications](AR_30_20_00.md) form. The system creates application records for each document listed on the tab; the records include the applied amount. Thus, the available balance of the prepayment becomes less than the prepayment amount. When you release such a prepayment, the system does the following:
 
@@ -37,7 +37,7 @@ When you record a prepayment, you may specify some outstanding documents on the 
 
 For details on the generated batch, see [Batch Generated for a Partially Applied Prepayment](Finance_ProcessingPrepaymentsAR_Transactions.md#_654af9d4-b7a2-4545-bb8e-70092d92ba26).
 
-## Releasing a Fully Applied Prepayment {#section_w2p_4jv_vxb .section}
+## Releasing a Fully Applied Prepayment
 
 When you record a prepayment you may fully apply its available balance to any number of outstanding documents.
 
@@ -51,7 +51,7 @@ You distribute the entire available prepayment balance among the outstanding doc
 
 For details on the generated batch, see [Batch Generated for a Fully Applied Prepayment](Finance_ProcessingPrepaymentsAR_Transactions.md#_49f4f6a1-23ec-4d73-b462-6f23e6c1ae2a).
 
-## Releasing a Prepayment Associated with a Project {#section_afp_4jv_vxb .section}
+## Releasing a Prepayment Associated with a Project
 
 When you release a prepayment document that has a project and project task specified on the **Financial** tab of the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, the system generates the batch of transactions that are associated with the non-project code, which is specified on the [Projects Preferences](PM_10_10_00.md) \(PM101000\) form, and no project task. That is, the generated transactions do not affect the project and project task.
 

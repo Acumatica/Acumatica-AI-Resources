@@ -1,4 +1,4 @@
-# Integrating Acumatica ERP with Vertex Tax Provider {#_28da5815-c3d3-4c1b-9664-becbc2f9e3ef .concept}
+# Integrating Acumatica ERP with Vertex Tax Provider
 
 In Acumatica ERP, you can configure the automatic calculation of taxes by setting up online integration with the Tax Calculation service provided by Vertex.
 

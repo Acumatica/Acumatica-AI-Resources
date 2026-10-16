@@ -1,4 +1,4 @@
-# Dashboards {#_a0681f51-bdd2-433e-881d-ed5d862483bd .concept}
+# Dashboards
 
 You use the Dashboards page of the [Customization Project Editor](../UserGuide/SM_20_45_10.md) to manage *Dashboard* items in the customization project. A *Dashboard* item contains the dataset of a custom or customized dashboard.
 
@@ -6,13 +6,13 @@ The Dashboards page displays the list of the dashboards that have been added to 
 
 **Note:** You can customize *Dashboard* items for the Self-Service Portal as well.
 
-## Adding a Dashboard to a Customization Project { .section}
+## Adding a Dashboard to a Customization Project
 
 You can add to a customization project a dashboard that is saved in the database for the current tenant. Alongside with Dashboard item, the system adds Generic Inquiry, Site Map, and Wiki items for inquiries, site map nodes, and wiki pages associated with the dashboard. If an inquiry, a site map node, or a wiki page is already added to the customization project, it is not duplicated.
 
 **Tip:** The system automatically includes in the customization project information about the workspace to which the dashboard have been added in the UI along with other information about the dashboard.
 
-## Removing a Dashboard from a Customization Project { .section}
+## Removing a Dashboard from a Customization Project
 
 If you delete a *Dashboard* item from the project, the dashboard remains in the system unless you delete the dashboard by using the [Classic Dashboards](../UserGuide/SM_20_86_00.md) \(SM208600\) form.
 

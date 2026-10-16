@@ -1,4 +1,4 @@
-# Single-Tier Change Management: Revenue Change Order Number {#_63a25b5a-d87a-9573-bbd1-03a8937d40cd .concept}
+# Single-Tier Change Management: Revenue Change Order Number
 
 Each project has its own numbering sequence for revenue change numbers: the numbers assigned to the change orders that can affect the revenue of the project. This topic explains how you can change the revenue change numbers for a particular project.
 

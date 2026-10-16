@@ -1,14 +1,14 @@
-# Services: To Create a Service Billed by Time {#_3c4e77fd-1a20-4ee5-b4bf-0d9160ddb621 .task}
+# Services: To Create a Service Billed by Time
 
 In this implementation activity, you will learn how to create a service that is billed based on time.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Service and Equipment Sales Center has decided to offer a set of educational services that will be billed based on time. These services include teaching, coaching, and instruction. As the administrative user, you will create the *Training Course* service and specify its typical duration and hourly rate.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -23,11 +23,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   On the [Tax Categories](../UserGuide/TX_20_55_00.md) \(TX205500\) form, the *EXEMPT* tax category has been created.
 -   On the [Item Classes](../UserGuide/IN_20_10_00.md#) \(IN201000\) form, the *TRAINING* service class \(that is, an item class with the *Service* item type\) has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 By using the [Services](../UserGuide/FS_40_08_00.md) \(FS400800\) form as a starting point, you will add a new record. The system will open the [Non-Stock Items](../UserGuide/IN_20_20_00.md) \(IN202000\) form, on which you will specify the settings of the new *Training course* service. Then you will confirm that the service has been added to the list on the [Services](../UserGuide/FS_40_08_00.md) \(FS400800\) form.
 
-## System Preparation {#section_k34_qgy_1hc .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -35,7 +35,7 @@ Before you start this activity, do the following:
 2.  On the Company and Branch Selection menu in the top pane of the Acumatica ERP screen, select the Service and Equipment Sales Center branch.
 3.  Make sure that the *Service Management* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md#) \(CS100000\) form.
 
-## Step: Creating a Service Billed by Time { .section}
+## Step: Creating a Service Billed by Time
 
 To create a service that is billed by time, do the following:
 

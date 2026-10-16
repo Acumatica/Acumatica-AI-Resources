@@ -1,4 +1,4 @@
-# Customizing the User Interface {#_774107f8-a149-4676-9c78-0c884edd19cb .concept}
+# Customizing the User Interface
 
 In Acumatica ERP, you can flexibly customize the user interface \(in particular, main menu items and workspace links\) that all users will see to adjust it to the business processes of your organization. Your customization of the user interface will make it easier for users to find and begin working with the required forms and reports, speeding document processing in the system.
 

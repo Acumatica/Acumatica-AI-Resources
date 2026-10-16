@@ -1,14 +1,14 @@
-# Prepayments for Purchase Orders: Linking Documents {#_22d14fb8-845a-474f-9658-6ad278210eb2 .concept}
+# Prepayments for Purchase Orders: Linking Documents
 
 The following sections describe how you can establish connections between existing prepayments and related finance and purchase documents.
 
-## Linking a Prepayment to Bills and Prepayment Requests { .section}
+## Linking a Prepayment to Bills and Prepayment Requests
 
 When you enter a vendor prepayment as a document of the *Prepayment* type on the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form, you can add the finance documents to which the prepayment will be applied on release to the **Documents to Apply** tab. You can add accounts payable bills, credit adjustments, and prepayment requests. Prepayment requests are added only manually. To add accounts payable bills and credit adjustments, you can click **Load Documents** on the table toolbar, so that the system will find the needed documents and add them to the table.
 
 **Attention:** A prepayment request is always paid in the full amount; you cannot pay it partially.
 
-## Linking Prepayment to Purchase Orders and Related Bills { .section}
+## Linking Prepayment to Purchase Orders and Related Bills
 
 According to the business processes established in your company, you may need to reserve a prepayment for a purchase order for which the related accounts payable bill has not yet been received.
 
@@ -16,7 +16,7 @@ When you enter a vendor prepayment as a document of the *Prepayment* type on the
 
 After the prepayment and prepayment application are released, the **Applied to Order** column on the **Orders** tab of the [Checks and Payments](AP_30_20_00.md) form shows the amount that was prepaid for the purchase order. When an accounts payable bill is prepared for the purchase order and released, the prepaid amount is applied to the bill balance; this amount is shown in the **Transferred to Bill** column on the **Orders** tab.
 
-## Linking Accounts Payable Bills to Prepaid Purchase Orders { .section}
+## Linking Accounts Payable Bills to Prepaid Purchase Orders
 
 You can create an AP bill manually on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, and add to this bill the lines of any number of purchase documents of the vendor that is specified in the bill. If any of the added purchase documents has any linked prepayments, these prepayments appear on the **Applications** tab and on release of the bill are applied automatically to the bill. You can add the lines of purchase documents to a bill in the following ways:
 

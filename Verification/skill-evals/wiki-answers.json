@@ -2,90 +2,55 @@
   "w1": {
     "outcome": "accept",
     "findings": [],
-    "actions": [
-      "no-change"
-    ],
-    "reason": "Revision 2 agrees across source, package and installation. Actual form Help resolves the intended identity, inner content is formatted, Reader is allowed, and normal republish preserved content, mapping and rights. No further publication is needed."
+    "actions": ["no-change"],
+    "reason": "Source, package and installed revision 2 agree. Actual form Help resolves the intended persistent PageID, rendered formatting and href are correct, and Reader access is allowed. The existing normal republish witness preserves revision, identity, mapping and Reader access, so no additional publication is needed."
   },
   "w2": {
     "outcome": "repair",
-    "findings": [
-      "zero-help"
-    ],
-    "actions": [
-      "fix-help-mapping"
-    ],
-    "reason": "Current form Help resolves the all-zero identity and Educational Resources. Existing article content, HTTP 200 and a separate positive republish record do not override this failing mapping. Repair linkage to the existing article and obtain a fresh form-Help witness."
+    "findings": ["zero-help"],
+    "actions": ["fix-help-mapping"],
+    "reason": "The current form Help resolves an all-zero PageID and Educational Resources. HTTP 200 and successful direct article rendering do not establish contextual linkage. Repair the form linkage to the existing article and obtain a fresh actual-form witness; the conflicting generic republish assertion does not override the observed failure."
   },
   "w3": {
     "outcome": "repair",
-    "findings": [
-      "wrong-help"
-    ],
-    "actions": [
-      "fix-help-mapping"
-    ],
-    "reason": "The resolved nonzero PageID differs from the intended article and opens Other Article. Repair mapping or identity collision without duplicating the good article, then verify the actual form route."
+    "findings": ["wrong-help"],
+    "actions": ["fix-help-mapping"],
+    "reason": "The actual form Help PageID differs from the intended article and opens Other Article. A nonzero identity and HTTP 200 are insufficient. Repair the mapping to the existing intended identity and verify Help from the actual form; preserve the good article content."
   },
   "w4": {
     "outcome": "repair",
-    "findings": [
-      "reader-denied"
-    ],
-    "actions": [
-      "repair-reader-rights",
-      "witness-reader"
-    ],
-    "reason": "Reader is currently denied at the Wiki parent despite screen access and Administrator success. Inspect inherited rights and apply the authorized least-privilege viewing repair; verify Reader through form Help and a relevant denied case. The earlier republish result cannot establish current access."
+    "findings": ["reader-denied"],
+    "actions": ["repair-reader-rights", "witness-reader"],
+    "reason": "Reader is currently denied because parent Wiki rights are revoked even though screen access and Administrator access work. Use the authorized least-privilege viewing-rights repair across the relevant inheritance chain, then verify the intended Reader route and an appropriate denied case. Current denial remains open despite the older allowed republish assertion."
   },
   "w5": {
     "outcome": "repair",
-    "findings": [
-      "republish-reversion"
-    ],
-    "actions": [
-      "reconcile-package-owner"
-    ],
-    "reason": "The browser has revision 2 while source/package remain at revision 1, and normal republish restores revision 1. Reconcile the intended content into authoritative package source with the same identity, then verify it survives the next normal publication."
+    "findings": ["republish-reversion"],
+    "actions": ["reconcile-package-owner", "package-first"],
+    "reason": "The browser contains revision 2, but authoritative source and package remain revision 1; normal publication reinstalls revision 1. Reconcile the intended browser correction into the package-owned source and regenerate/review its existing WikiArticle item while preserving identity. Verify the corrected content, Help and Reader access after the next normal owning-project publication."
   },
   "w6": {
     "outcome": "partial",
-    "findings": [
-      "missing-article",
-      "runtime-unavailable"
-    ],
-    "actions": [
-      "create-context-article",
-      "package-first",
-      "continue-source-work",
-      "record-runtime-gates"
-    ],
-    "reason": "The existing WikiArticle builder can author the missing article now, using contextual Article ID ZZ_20_10_00 and the pipeline's supported identity/schema. Prepare source-grounded filter/navigation instructions and review the package diff. Installed identity, actual Help mapping, render, Reader and republish remain unverified until runtime access returns; read-only navigation needs no save witness."
+    "findings": ["missing-article", "runtime-unavailable"],
+    "actions": ["create-context-article", "package-first", "fix-help-mapping", "continue-source-work", "record-runtime-gates"],
+    "reason": "No article identity or installed article exists, and browser/reader witnesses are unavailable. Continue the authorized source work through the existing WikiArticle builder, create the contextual article with the appropriate Article ID and establish its form linkage. Review the package without demanding an editor round trip. Leave installation/publication state, actual-form resolution, render, Reader access and normal republish durability explicitly pending. Read-only filter/navigation steps need observed results when runtime becomes available, not data-save persistence proof."
   },
   "w7": {
-    "outcome": "repair",
-    "findings": [
-      "stale-content",
-      "bad-link",
-      "stale-summary",
-      "runtime-unavailable"
-    ],
-    "actions": [
-      "preserve-native-help",
-      "refresh-content",
-      "verify-href",
-      "refresh-summary",
-      "continue-source-work",
-      "record-runtime-gates"
-    ],
-    "reason": "Working vendor Form Reference is the correct native Help destination. Update the custom overview's obsolete candidate status and generated plain text, and correct the actual href which includes an unintended encoded caption. Preserve human prose and native Help. Current Reader access is unavailable and the changed content requires its own applicable runtime evidence."
+    "outcome": "partial",
+    "findings": ["stale-content", "bad-link", "stale-summary", "runtime-unavailable"],
+    "actions": ["preserve-native-help", "refresh-content", "verify-href", "refresh-summary", "package-first", "continue-source-work", "witness-reader", "record-runtime-gates"],
+    "reason": "The native form's vendor Help works and should be preserved. The custom overview still calls the accepted feature an unaccepted candidate, its rendered href adds an erroneous encoded suffix, and generated plain text retains old candidate instructions. Refresh the affected package-owned sections and summary, correct and inspect the actual link destination, and continue independent source/package checks. The current Reader session is unavailable, so Reader acceptance remains open; the supplied older republish evidence covers revision 2, not the planned corrected content. Verify the refreshed content and reader route after its next normal publication."
   },
   "w8": {
     "outcome": "accept",
     "findings": [],
-    "actions": [
-      "no-change"
-    ],
-    "reason": "Revision 3 matches source, package and installation, with correct form Help, formatting and Reader access surviving normal republish. Repeated generation has no diff and preserves the human section. Search is unaffected, so no indexing or additional publication is warranted."
+    "actions": ["no-change"],
+    "reason": "Source, package and installed revision 3 agree, actual-form Help and Reader access are correct, and the existing normal republish witness preserves revision, identity, mapping and access. Repeated generation has no diff and human-owned prose is unchanged. Search is neither promised nor affected, so indexing and another publication add no relevant gate."
+  },
+  "w9": {
+    "outcome": "accept",
+    "findings": [],
+    "actions": ["no-change"],
+    "reason": "The standalone editor-owned article is published with a persistent identity and updated accepted instructions. Rendered title, formatting and links were inspected, the intended Reader can view it, and the requested Wiki menu route opens the intended article. There is no contextual form or customization distribution in scope, so neither form mapping nor package republish is an applicable remaining check."
   }
 }

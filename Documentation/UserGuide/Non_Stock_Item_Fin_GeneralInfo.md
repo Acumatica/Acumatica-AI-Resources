@@ -1,19 +1,19 @@
-# Non-Stock Item: General Information {#_054919f5-29c5-492f-a5dc-0b7a71b7a44b .concept}
+# Non-Stock Item: General Information
 
 Non-stock items are used for goods that you purchase from vendors or sell to customers but do not want to reflect in your company's inventory. Since non-stock items do not require tracking of quantities, you can maintain only standard costs and base price information for them. For each non-stock item, you can specify and periodically update purchase prices and sales prices. Also, you can specify the standard cost of a non-stock item, which can be used in purchase orders and accounts payable bills if the vendor price is not specified. You can use the same non-stock items in accounts payable, accounts receivable, inventory, purchase orders, service orders, and sales orders.
 
-## Learning Objectives {#section_scm_4jv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to create a new non-stock item of the *Charge* type, with a standard cost.
 
-## Applicable Scenarios {#section_ucm_4jv_vxb .section}
+## Applicable Scenarios
 
 You may need to create a non-stock item in any of the following cases:
 
 -   When you initially configure Acumatica ERP with the *Inventory* feature disabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form
 -   When you are going to sell or purchase new goods
 
-## Types of Non-Stock Items {#section_wcm_4jv_vxb .section}
+## Types of Non-Stock Items
 
 Acumatica ERP supports the following types of non-stock items:
 
@@ -23,7 +23,7 @@ Acumatica ERP supports the following types of non-stock items:
 -   *Charge*: A non-stock item that represents specific type of charges
 -   *Expense*: A non-stock item that represents specific type of expense
 
-## Settings for Non-Stock Items {#section_ycm_4jv_vxb .section}
+## Settings for Non-Stock Items
 
 You can maintain information about non-stock items and their properties by using the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form available in accounts receivable and accounts payable. The list below describes some of the settings that you can provide for a non-stock item by using this form:
 
@@ -39,7 +39,7 @@ You can maintain information about non-stock items and their properties by using
 -   **Price information**: For non-stock items of all types, you can specify price classes and assign prices that become effective on specific dates.
 -   **Attributes**: You can track additional information for non-stock items by using the attributes functionality.
 
-## Non-Stock Item Costs {#section_cdm_4jv_vxb .section}
+## Non-Stock Item Costs
 
 To make it possible to enter the non-stock item cost and use it in the non-stock item price calculation, Acumatica ERP enables you to maintain standard costs for non-stock items.
 
@@ -47,7 +47,7 @@ The standard costs are determined outside of the system by cost experts, and the
 
 If you want to update standard costs for non-stock items, use the **Price/Cost** tab of the [Non-Stock Items](IN_20_20_00.md) form: Enter a pending cost and the date for the new cost, and on the More menu \(under **Other**\), click **Update Cost**. The system displays only the last cost and current cost. The historical costs that were effective before the last cost are not stored in the database.
 
-## Prices for Non-Stock Items {#section_gdm_4jv_vxb .section}
+## Prices for Non-Stock Items
 
 The current price of an item is automatically inserted into the lines of sales orders and invoices for which you select the item, which results in quicker and more accurate data entry. If the item price has changed, you can automatically recalculate the document amounts based on the updated price.
 

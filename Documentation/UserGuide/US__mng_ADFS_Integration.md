@@ -1,4 +1,4 @@
-# Integrating Acumatica ERP with AD FS {#_c0f5673c-c0ba-479d-b863-125a2993f58f .concept}
+# Integrating Acumatica ERP with AD FS
 
 The integration of Acumatica ERP with Microsoft Active Directory Federation Services \(AD FS\) provides centralized user and access management \(by using Active Directory\) and single sign-on \(SSO\) for your domain users. You can integrate Acumatica ERP with AD FS if you use an Acumatica ERP instance that is deployed on the internet but not in the your organization's intranet. With this integration in place, users of Acumatica ERP can access the instance with their domain credentials.
 

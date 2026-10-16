@@ -1,4 +1,4 @@
-# To Delete a Project {#_4c712a63-6f89-453a-8364-16ab1aa171b0 .concept}
+# To Delete a Project
 
 If a customization project is not published, you can delete the project from the instance of Acumatica ERP by using the [Customization Projects](../UserGuide/SM_20_45_05.md) \(SM204505\) form.
 

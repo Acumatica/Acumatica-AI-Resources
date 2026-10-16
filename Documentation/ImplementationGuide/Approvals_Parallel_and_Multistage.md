@@ -1,10 +1,10 @@
-# Approvals: Parallel and Multistage Approvals {#_626576bc-02e9-4516-bc53-f6841aa94c9e .concept}
+# Approvals: Parallel and Multistage Approvals
 
 Acumatica ERP provides flexible and efficient tools to configure and manage various approval workflows, including parallel, multistage, and combined approval processes, enabling organizations to tailor workflows to their specific requirements.
 
 Parallel approvals are suited for scenarios where multiple approvers must approve a record either simultaneously or in any order. Multistage approvals are used in workflows where approvals must follow a fixed, sequential order. Additionally, combined approvals can be configured to blend parallel and multistage approaches, allowing for complex workflows where some stages require simultaneous approvals while others follow a specific sequence.
 
-## Configuring a Workflow for Parallel Approvals { .section}
+## Configuring a Workflow for Parallel Approvals
 
 Parallel approvals are applicable to the cases when the order in which multiple approvers approve a record does not matter. For instance, in smaller companies, a purchase may require approval from both the accountant and the CFO. To configure this in Acumatica ERP, you need to create an approval map for purchase orders, defining both the accountant and the CFO as approvers. You can also specify conditions for submitting purchase orders for approval based on document properties, such as the document amount, vendor, or branch. If no conditions are specified, all purchase orders will be independently assigned to the defined approvers.
 
@@ -17,7 +17,7 @@ When setting up an approval map for parallel approvals, ensure the following:
 
 For an example of how to configure an approval map for parallel approvals, see [To Create an Approval Map for the Parallel Approval](Approvals__How_Configure_Parallel_Approvals.md).
 
-## Configuring a Workflow for Multistage Approvals { .section}
+## Configuring a Workflow for Multistage Approvals
 
 Multistage approvals are applicable to the cases when it is critical that approvers review and approve a record in a specific sequential order. For example, if all cash transactions in your organization require initial approval by at least one accountant and subsequent approval by at least one top manager for transactions exceeding a specified threshold, you can set up a multistage approval workflow. In this scenario, if at least one accountant approves the transaction at the first stage, the approval progresses to the next stage for review by at least one top manager, provided the transaction meets the conditions specified for that stage.
 
@@ -31,7 +31,7 @@ When setting up an approval map for multistage approvals, ensure the following:
 
 For an example of how to configure an approval map for multistage approvals, see [To Create an Approval Map for the Multistage Approval](Approvals__How_Configure_Multistage_Approvals.md).
 
-## Configuring a Workflow for Combined Approvals { .section}
+## Configuring a Workflow for Combined Approvals
 
 Combined approval workflows, which merge parallel and multistage approaches, are applicable when approval processes involve multiple stages, some requiring simultaneous approvals from multiple approvers and others necessitating sequential execution in a specific order. For instance, suppose that in a retail company, discount promotions for products require a combined approval process. At the first stage, the marketing team and the sales team must both approve the proposed promotion in parallel to ensure alignment with marketing strategy and sales goals. Once both teams approve, the process moves to the second stage, where the inventory team reviews and approves the request to confirm that sufficient stock is available to support the promotion.
 

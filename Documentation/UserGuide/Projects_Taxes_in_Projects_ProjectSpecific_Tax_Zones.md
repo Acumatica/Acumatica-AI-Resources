@@ -1,10 +1,10 @@
-# Taxes in Projects: Project-Specific Tax Zones {#_ddaec080-8640-4762-b911-01832aafef88 .concept}
+# Taxes in Projects: Project-Specific Tax Zones
 
 Calculating taxes based on the address of the project site is particularly useful for construction, engineering, and other project-based industries where projects may span multiple locations with varying tax rates. By using this approach, organizations can accurately account for tax liabilities, maintain transparency in financial transactions, and ensure compliance with tax laws in each project's specific jurisdiction.
 
 This topic explains how you can calculate taxes in project-related documents based on the location of the project site where the work for the project is performed.
 
-## Configuration of Project-Specific Taxes { .section}
+## Configuration of Project-Specific Taxes
 
 The tax jurisdiction used for the calculation of sales taxes, use taxes, or value-added taxes \(VAT or GST\) may depend on the following locations:
 
@@ -33,7 +33,7 @@ The project-specific tax zones are used in the following documents:
 -   Expense receipts and expense claims if the **Allow Mixed Tax Settings in Claims** check box is selected on the [Time and Expenses Preferences](EP_10_10_00.md) \(EP101000\) form
 -   Service orders and appointments
 
-## Rules of Shipping Address Selection { .section}
+## Rules of Shipping Address Selection
 
 If the **Calculate Project-Specific Taxes** check box is selected on the [Projects Preferences](PM_10_10_00.md) \(PM101000\) form, the system determines the address in the **Ship-To Address** section of a project-related document by using the following rules:
 

@@ -1,8 +1,8 @@
-# Extension of Scan Components: Customization of Components {#_312f548a-4819-4b5a-9250-61649db0567a .concept}
+# Extension of Scan Components: Customization of Components
 
 In this topic, you can find information about how to customize particular scan components.
 
-## Set of Scan Modes { .section}
+## Set of Scan Modes
 
 If you need to change the set of modes of the barcode-driven engine, such as when you are adding a new mode, you override the CreateScanModes method by using the PXOverride attribute and add your new mode, as shown in the following code.
 
@@ -27,7 +27,7 @@ public class MyScanExtension : SomeWMS.ScanExtension
 }
 ```
 
-## Scan Mode { .section}
+## Scan Mode
 
 If you need to change the configuration of the scan mode, you override the DecorateScanMode method by using the PXOverride attribute and intercept the logic of the mode in this method, as shown in the following code.
 
@@ -76,7 +76,7 @@ public class MyScanExtension : SomeWMS.ScanExtension
 }
 ```
 
-## Scan Command { .section}
+## Scan Command
 
 If you need to change the simple configuration logic of the scan command, you override the DecorateScanCommand method by using the PXOverride attribute and intercept the logic of the component in this method, as shown in the following code.
 
@@ -109,7 +109,7 @@ public class MyScanExtension : SomeWMS.ScanExtension
 }
 ```
 
-## Mode Redirect { .section}
+## Mode Redirect
 
 If you need to change the simple configuration logic of the mode redirect, you override the DecorateScanRedirect method by using the PXOverride attribute and intercept the logic of the component in this method, as shown in the following code.
 
@@ -142,7 +142,7 @@ public class MyScanExtension : SomeWMS.ScanExtension
 }
 ```
 
-## Scan Question { .section}
+## Scan Question
 
 If you need to change the simple configuration logic of the scan question, you override the DecorateScanQuestion method by using the PXOverride attribute and intercept the logic of the component in this method, as shown in the following code.
 
@@ -176,7 +176,7 @@ public class MyScanExtension : SomeWMS.ScanExtension
 }
 ```
 
-## Scan State { .section}
+## Scan State
 
 If you need to change the simple configuration logic of the scan state, you override the DecorateScanState method by using the PXOverride attribute and intercept the logic of the component in this method, as shown in the following code.
 
@@ -248,7 +248,7 @@ public class MyScanExtension : SomeWMS.ScanExtension
 }
 ```
 
-## Complex Logic { .section}
+## Complex Logic
 
 If you need to change the complex logic used by the barcode-driven engine or by any of its components, you create a nested extension that overrides the member of the particular ScanExtension component.
 

@@ -1,8 +1,8 @@
-# Accounts Receivable: Statement Cycles {#_780169a6-b692-41fd-a5ba-775cc9135810 .concept}
+# Accounts Receivable: Statement Cycles
 
 In Acumatica ERP, you can define any number of statement cycles to be used for collecting payments from customers. At the end of each statement cycle, the company prepares statements and sends them to its customers. Statements provide customers with records of their financial activity for a specific period, including the ending balance.
 
-## Statement Cycle Setup { .section}
+## Statement Cycle Setup
 
 You use the [Statement Cycles](../UserGuide/AR_20_28_00.md) \(AR202800\) form to create new statement cycles and modify existing ones. For each statement cycle, you define the following:
 

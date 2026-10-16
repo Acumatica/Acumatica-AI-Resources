@@ -1,4 +1,4 @@
-# Processing Two-Step Inventory Transfers {#_9ca06cd8-90e8-40b2-bc44-12c518103a76 .concept}
+# Processing Two-Step Inventory Transfers
 
 In organizations that store stock items in multiple warehouses, stock items can be transported from one warehouse to another to meet internal needs \(that is, for purposes that are unrelated to sales of the items\). To track these movements in Acumatica ERP, you use inventory transfers that are performed in two steps—you issue items from a source warehouse and then receive the items in the destination warehouse.
 

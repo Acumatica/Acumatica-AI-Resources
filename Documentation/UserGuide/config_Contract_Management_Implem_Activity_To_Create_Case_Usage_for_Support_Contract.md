@@ -1,10 +1,10 @@
-# Contract Usage: To Create Case Usage \(Support Contract\) {#_f2beca0b-a900-4b25-8be4-57a1737b3453 .task}
+# Contract Usage: To Create Case Usage \(Support Contract\)
 
 In this activity, you will learn how to create case usage for a support contract.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company, in addition to deploying juicers, also specializes in providing maintenance. The Unifruit LLC customer previously purchased juicers and now needs to enter into a maintenance support contract. On *3/8/2026*, the support contract was signed by both parties.
 
@@ -14,18 +14,18 @@ The service of maintenance specialists costs $120 per hour, and the price is not
 
 Now you have an empty support contract in the system. Acting as a sales manager, you will create case usage for the support contract.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Cases](CR_30_60_00.md) \(CR306000\) form, you will create, resolve, and release a case to reflect the rendering service in the system. Then on the [Contract Usage](CT_30_30_00.md) \(CT303000\) form, you will review the contract usage to make sure the usage of contract has been created in the system.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Contract Management* feature has been enabled.
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *UNIFRUIT \(Unifruit LLC\)* customer has been created.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
@@ -33,7 +33,7 @@ To prepare to perform the instructions of this activity, do the following:
 2.  Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as the sales manager David Chubb by using the *chubb* username and the *123* password.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *3/10/2026*.
 
-## Step 1: Entering a Case {#section_rvl_whz_js .section}
+## Step 1: Entering a Case
 
 To enter a support case, proceed as follows:
 
@@ -55,12 +55,11 @@ To enter a support case, proceed as follows:
 
     When you save the case, the system fills in the read-only **Resolution Due** box in the Summary area. This box is also shown on the **Additional Info** tab, as you can see in the screenshot. The inserted time is based on the settings of the *REGULARSUP* case class, which indicate that cases with medium severity should be resolved within eight hours after the case was initially saved.
 
-    ![](Images/CustomerContractsSupportContractCaseCreated_2.png "Case created for the support contract")
 
 6.  On the form toolbar, click **Open** to open the case.
 7.  In the **Open** dialog box, leave *In Process* in the **Reason** box, and click **OK**. Now the case has the *Open* status.
 
-## Step 2: Resolving and Releasing the Case {#section_rfr_xhz_js .section}
+## Step 2: Resolving and Releasing the Case
 
 While remaining on the [Cases](CR_30_60_00.md) \(CR306000\) form viewing the case you have created, do the following to resolve the case:
 
@@ -75,7 +74,7 @@ While remaining on the [Cases](CR_30_60_00.md) \(CR306000\) form viewing the cas
     The status of the case has changed to *Released*. The released case creates contract usage of the contract, so if you bill the contract now, the resulting invoice will contain information about the case.
 
 
-## Step 3: Reviewing the Contract Usage {#section_sdx_zhz_js .section}
+## Step 3: Reviewing the Contract Usage
 
 Before billing the contract, you may want to review the contract usage so that you know what exactly will be included in the invoice. For these purposes, on the [Contract Usage](CT_30_30_00.md) \(CT303000\) form, do the following:
 

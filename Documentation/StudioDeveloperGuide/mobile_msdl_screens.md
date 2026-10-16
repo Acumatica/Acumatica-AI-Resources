@@ -1,4 +1,4 @@
-# Screens {#_29a4f3b6-e302-47d7-b714-5fa58c321b05 .concept}
+# Screens
 
 This section consists of the following topics, which describe different tasks of configuring screens in the mobile application:
 

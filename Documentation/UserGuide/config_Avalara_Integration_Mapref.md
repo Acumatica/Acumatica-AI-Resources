@@ -1,4 +1,4 @@
-# Integrating Acumatica ERP with Avalara Avatax {#_f048ad33-3308-49aa-aac8-fec1a470fc0f .concept}
+# Integrating Acumatica ERP with Avalara AvaTax
 
 The integration of Acumatica ERP with the Avalara AvaTax service offers your company the following benefits:
 

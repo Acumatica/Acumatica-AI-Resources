@@ -1,21 +1,21 @@
-# Volume Vendor Discounts: General Information {#_57733e25-09aa-4708-91e8-36d4467dd112 .concept}
+# Volume Vendor Discounts: General Information
 
 Vendors you purchase from can offer *simple* discounts, which are applicable to any amount or quantity, or *volume \(or tiered\)* discounts, which may apply based on the quantities of items or on the amounts in documents.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this section, you will learn:
 
 -   How to configure volume vendor discounts based on the ordered quantities or amounts
 -   How automatic volume vendor discounts are applied when you save new documents
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 To configure discounts for vendors, the *Vendor Discounts* feature must be enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
 You can configure customer discounts that are automatically applied to lines of documents of various types, including AP bills and purchase orders. Applying discounts to purchase orders is possible only if the *Inventory and Order Management* group of features and the *Inventory* feature are enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Tiered Discounts { .section}
+## Tiered Discounts
 
 In a sequence, you can configure a simple discount, which is applicable to any amount or quantity, or a tiered discount, for which you can specify different percents or fixed amounts based on the quantities of items or on the amounts. To configure tiers for a discount, you specify the break points that define the ranges of amounts or quantities for which different discount percentages, amounts, or quantities of free items are applicable.
 
@@ -54,7 +54,7 @@ Suppose that Vendor C provides your organization with a fixed-amount discount ba
 |$2000|$25|
 |$3000|$40|
 
-## Calculation of Document-Level Discounts with Tiers Defined by Amounts { .section}
+## Calculation of Document-Level Discounts with Tiers Defined by Amounts
 
 For document-level discounts, which are unconditional, the discount tiers can be created only by break points defined as amounts, and the discount can be defined as a percentage of the document amount or as a fixed amount. When the system processes a purchase order or bill and finds a qualifying discount sequence, the discountable amount is compared to the break points in the discount sequence as follows:
 
@@ -82,7 +82,7 @@ For a document with a $900 total, the discount is $0. For a document with a $250
 
 For purchase orders with amounts less than $1000, your company receives a discount of $0. The discount for an order with a total between $1000 and $1999.99 is $100, the discount on an order between $2000 and $2999.99 is $225, and the discount for an order of $3000 or more is $350.
 
-## Calculation of Line-Level Discounts for Tiers Defined by Amounts { .section}
+## Calculation of Line-Level Discounts for Tiers Defined by Amounts
 
 The tiers for line-level discounts can be defined by amounts or by quantities. The method of calculation of line-level discounts depends on whether the discount should be applied to the unit prices of items or to the extended prices of the items. Based on the information received from each vendor, you select the appropriate option in the **Apply Line-Discounts to** box on the **Calculation Settings** tab of the [Vendor Discount Codes](AP_20_40_00.md) \(AP204000\) form for this vendor.
 

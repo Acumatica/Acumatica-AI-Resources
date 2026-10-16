@@ -1,14 +1,14 @@
-# To Enter a Bill with Retainage Paid by Line {#_d2b3aa6a-c411-46ec-9c4b-ade6acba0555 .task}
+# To Enter a Bill with Retainage Paid by Line
 
 You enter a vendor bill with retainage on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. You use this procedure if you want to be able to pay multiple lines of this bill separately and to track the retainage by line.
 
 You can enter a bill with retainage, which can be paid by line only if the *Retainage Support* and *Payment Application by Line* features are enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Before You Proceed {#section_w2m_njv_vxb .section}
+## Before You Proceed
 
 Make sure that the vendor for whom you are creating a bill has the **Pay by Line** check box selected in the **Default Payment Settings** section on the **Payment** tab of the [Vendors](AP_30_30_00.md) \(AP303000\) form.
 
-## To Enter a Bill with Retainage To Be Paid by Line {#section_y2m_njv_vxb .section}
+## To Enter a Bill with Retainage To Be Paid by Line
 
 1.  Open the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 2.  On the form toolbar, click **Add New Record**.

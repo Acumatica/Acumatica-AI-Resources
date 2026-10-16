@@ -1,22 +1,49 @@
-# Acumatica Add-In for Outlook: System Requirements for the Add-In Installation {#_66c37967-4834-46f7-b0bb-36a41fc360df .concept}
+# Acumatica Add-In for Outlook: System Requirements for the Add-In Installation
 
 This topic describes the software, configuration, and feature requirements for installing and using the Acumatica add-in for Outlook.
 
-## Software Requirements { .section}
+## Software Requirements
 
 You must have a Microsoft 365 or Exchange account to use the Acumatica add-in for Outlook.
 
 Other software requirements are listed in the following table.
 
-|Software|Requirements|
-|--------|------------|
-|Outlook client|Outlook 2016 or Outlook 2019 with a retail license; Outlook 2021 or Outlook for Microsoft 365 with any type of license; Outlook on the web**Tip:** You can use the add-in with the [new Outlook for Windows](https://support.microsoft.com/en-us/office/getting-started-with-the-new-outlook-for-windows-656bb8d9-5a60-49b2-a98b-ba7822bc7627) if users and system administrators perform the additional steps described in [Additional Prerequisites with the New Outlook for Windows](#_894252cc-7d4c-451d-9da5-21ed7f5f8fc6). However, while the new Outlook is still in preview for commercial customers, full functionality can't be guaranteed.
+<table id="table_pgb_bmb_ww"><thead><tr><th>
 
-|
-|Operating system|Windows 7 or later; Windows Server 2016 or later; Mac OS|
-|Browser|Safari 9 or later; the latest version of Google Chrome; the latest version of Mozilla Firefox; the latest version of Microsoft Edge|
+Software
 
-## Prerequisites { .section}
+</th><th>
+
+Requirements
+
+</th></tr></thead><tbody><tr><td>
+
+Outlook client
+
+</td><td>
+
+Outlook 2016 or Outlook 2019 with a retail license; Outlook 2021 or Outlook for Microsoft 365 with any type of license; Outlook on the web**Tip:** You can use the add-in with the [new Outlook for Windows](https://support.microsoft.com/en-us/office/getting-started-with-the-new-outlook-for-windows-656bb8d9-5a60-49b2-a98b-ba7822bc7627) if users and system administrators perform the additional steps described in [Additional Prerequisites with the New Outlook for Windows](#_894252cc-7d4c-451d-9da5-21ed7f5f8fc6). However, while the new Outlook is still in preview for commercial customers, full functionality can't be guaranteed.
+
+</td></tr><tr><td>
+
+Operating system
+
+</td><td>
+
+Windows 7 or later; Windows Server 2016 or later; Mac OS
+
+</td></tr><tr><td>
+
+Browser
+
+</td><td>
+
+Safari 9 or later; the latest version of Google Chrome; the latest version of Mozilla Firefox; the latest version of Microsoft Edge
+
+</td></tr></tbody>
+</table>
+
+## Prerequisites
 
 The Acumatica add-in for Outlook works only if the *Outlook Integration* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
@@ -39,7 +66,7 @@ By default, the add-in lets you create and view contacts from an email, log emai
 
 The add-in also requires your Acumatica ERP instance to be hosted over HTTPS. For more information, see [Preparation for the Acumatica ERP Installation: System Environment](INST_Preparing_Installation_System_Environment.md).
 
-## Additional Prerequisites with the New Outlook for Windows {#_ee1a808c-0f58-4bf0-84a3-df478dc2188c .section}
+## Additional Prerequisites with the New Outlook for Windows
 
 The Acumatica add-in for Outlook can be used with the new Outlook for Windows only if both end users and administrators have performed additional steps.
 

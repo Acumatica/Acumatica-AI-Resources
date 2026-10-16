@@ -1,8 +1,8 @@
-# System Preparation for Manufacturing Implementation: General Information {#_2fdbd4d4-6195-4c85-80a9-8a260873ac0a .concept}
+# System Preparation for Manufacturing Implementation: General Information
 
 Before you start implementing the manufacturing functionality in Acumatica ERP, you need to prepare the system—that is, specify the general settings that will be used by particular manufacturing processes—as described in the following sections.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,14 +10,14 @@ In this chapter, you will learn how to do the following:
 -   Specify the required settings to prepare the system for implementing manufacturing
 -   Create the stock items involved in manufacturing
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure the general settings for manufacturing in either or both of the following cases:
 
 -   When you are initially implementing Acumatica ERP, and the *Manufacturing* feature is included in your license
 -   When you have purchased the *Manufacturing* feature, and you need to configure manufacturing in the existing Acumatica ERP system
 
-## Prerequisites { .section}
+## Prerequisites
 
 Before you start preparing the system for implementing manufacturing, you should make sure that the following criteria have been met:
 
@@ -25,7 +25,7 @@ Before you start preparing the system for implementing manufacturing, you should
 2.  Inventory and order management functionality have been configured. For details, see [Configuration of Order Management: Implementation Activity](config_InvMgmt_Basic_Implem_Activity.md).
 3.  For integration with projects, the project management functionality has been configured, as described in [Basic Project Configuration: General Information](config_Project_Basic_GeneralInfo.md).
 
-## System Preparation for Manufacturing Implementation { .section}
+## System Preparation for Manufacturing Implementation
 
 To implement the general configuration of manufacturing in Acumatica ERP, you perform the following steps:
 
@@ -47,7 +47,7 @@ To implement the general configuration of manufacturing in Acumatica ERP, you pe
 13. On the [Order Types](../UserGuide/SO_20_10_00.md) \(SO201000\) form, you configure the sales order types that will be used in production management.
 14. On the [User Roles](../UserGuide/SM_20_10_05.md) \(SM201005\) form, you assign user roles dedicated for manufacturing functionality to users involved in production.
 
-## Posting Settings { .section}
+## Posting Settings
 
 A variety of GL accounts must be created in the system on the [Chart of Accounts](../UserGuide/GL_20_25_00.md) \(GL202500\) form and then specified on the forms that provide posting settings for transactions related to manufacturing processes. You need to create specific GL accounts and specify them in the system as follows:
 
@@ -63,7 +63,7 @@ A variety of GL accounts must be created in the system on the [Chart of Accounts
     -   [Tools](../UserGuide/AM_20_55_00.md) \(AM205500\): A GL account used for tool costs
     -   [Reason Codes](../UserGuide/CS_21_10_00.md) \(CS211000\): The GL account to be used for scrap costs \(after you have created a reason code specifically for scrap\)
 
-## Warehouse Settings { .section}
+## Warehouse Settings
 
 You need to define each warehouse and its locations where the stock items involved in manufacturing will be stored. You may use an existing warehouse or create a separate one.
 
@@ -77,20 +77,20 @@ You use the [Warehouses](../UserGuide/IN_20_40_00.md) \(IN204000\) form to defin
 
 For more information about warehouses and warehouse locations, see [Warehouses: General Information](../UserGuide/Warehouses_GeneralInfo.md) and [Warehouse Locations and Single-Step Transfers: General Information](../UserGuide/Warehouse_Locations_GeneralInfo.md).
 
-## Availability Calculation Settings { .section}
+## Availability Calculation Settings
 
 For each item to be added to manufacturing transactions, you need to specify whether it will be available for issuing. For this purpose, on the [Availability Calculation Rules](../UserGuide/IN_20_15_00.md) \(IN201500\) form, you create or modify an availability calculation rule, in which you also select or clear check boxes for plan types related to manufacturing. You can include or deduct the quantities of items added to production orders in the available quantities of items.
 
 For details about availability calculation, see [Availability Calculation Rules: General Information](../UserGuide/Availability_Calculation_Rules_GeneralInfo.md).
 
-## Replenishment Settings { .section}
+## Replenishment Settings
 
 To indicate that a stock item is manufactured and must be included in inventory planning, you specify replenishment settings as follows:
 
 -   If you use the replenishment functionality in Acumatica ERP—that is, the *Inventory Replenishment* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form—on the [Replenishment Classes](../UserGuide/IN_20_88_00.md) \(IN208800\) form, you create two replenishment classes: one for a source of *Purchase* and another for a source of *Manufacturing*, because these are the two key source types inventory planning will use. Then you will specify the appropriate replenishment class, which depends on whether the item will be manufactured or purchased, in the replenishment settings of particular item classes, items, or both.
 -   If the *Inventory Replenishment* feature is disabled, you select the needed replenishment source in the **Source** box of the **Inventory Planning** tab on the [Item Classes](../UserGuide/IN_20_10_00.md) \(IN201000\) form for the item class or in the **Source** box on the **Inventory Planning** tab of the [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\) form for the item.
 
-## Settings of Items Involved in Manufacturing { .section}
+## Settings of Items Involved in Manufacturing
 
 Items involved in manufacturing can be purchased \(these items are usually components used in the production process\) or manufactured \(these items are usually the finished goods to be sold to customers\). To provide default settings for groups of similar items, you create item classes on the [Item Classes](../UserGuide/IN_20_10_00.md) \(IN201000\) form. For each item class, you specify the following settings:
 
@@ -128,13 +128,13 @@ For each item that has warehouse-specific settings, on the [Item Warehouse Detai
     -   If the feature is enabled, on the **Inventory Planning** tab, you make sure that the replenishment class and the replenishment source are specified correctly in the **Replenishment Class** and **Replenishment Source** boxes respectively.
     -   If the feature is disabled, on the **Inventory Planning** tab, you make sure that the needed replenishment source is specified in the **Source** box.
 
-## Settings of Employees Involved in Manufacturing { .section}
+## Settings of Employees Involved in Manufacturing
 
 To record the labor expenses for employees involved in manufacturing, on the [Employees](../UserGuide/EP_20_30_00.md) \(EP203000\) form, you select the **Production Employee** check box on the **General Info** tab.
 
 If you want to post labor transactions by using the employee cost, on the [Labor Rates](../UserGuide/PM_20_99_00.md) \(PM209900\) form, you create the needed cost rates and then specify a cost rate for each employee involved in manufacturing.
 
-## Settings of Sales Documents { .section}
+## Settings of Sales Documents
 
 If the business process of your organization involves users creating production orders directly from sales orders, you must configure this functionality for each order type you use. On the **General** tab of the [Order Types](../UserGuide/SO_20_10_00.md) \(SO201000\) form, you do the following:
 
@@ -145,80 +145,213 @@ Order types typically used to create production orders are based on the followin
 
 **Attention:** We recommend that you not select this check box for other order types because estimates may include non-inventory items that cannot be shipped or issued.
 
-## Predefined User Roles for Manufacturing { .section}
+## Predefined User Roles for Manufacturing
 
 When you configure user access to manufacturing-related forms, you can use the predefined user roles that provide access to the forms needed in the everyday work of particular employees. You can modify the role permissions to meet the organization's access policies. You can also apply multiple roles to the same user who takes over multiple duties.
 
 In the following table, you can view the details of the predefined user roles dedicated for manufacturing.
 
-|Role Name|Description|Responsibilities|
-|---------|-----------|----------------|
-|*MFG Engineer*|A manufacturing engineer who supports the shop floor|-   Creates and maintains bills of materials
+<table id="_b5ff9e32-ddc6-446d-8ea8-11738361903c"><thead><tr><th>
+
+Role Name
+
+</th><th>
+
+Description
+
+</th><th>
+
+Responsibilities
+
+</th></tr></thead><tbody><tr><td>
+
+*MFG Engineer*
+
+</td><td>
+
+A manufacturing engineer who supports the shop floor
+
+</td><td>
+
+-   Creates and maintains bills of materials
 -   Initiates engineering change requests and executes engineering change orders
 -   Suggests cost-effective alternate processes and materials when possible
 
-|
-|*MFG Engineering MGR*|A manager of manufacturing engineers who sets up engineering change control and monitors changes in bills of material|-   Sets preferences related to engineering
+</td></tr><tr><td>
+
+*MFG Engineering MGR*
+
+</td><td>
+
+A manager of manufacturing engineers who sets up engineering change control and monitors changes in bills of material
+
+</td><td>
+
+-   Sets preferences related to engineering
 -   Creates and maintains bills of material \(except creating labor codes, overhead, and shifts\)
 -   Handles mass changes and cost rolling
 
-|
-|*MFG Shop Floor*|A shop floor worker whose time is typically value-added|-   Performs the manufacturing of items
+</td></tr><tr><td>
+
+*MFG Shop Floor*
+
+</td><td>
+
+A shop floor worker whose time is typically value-added
+
+</td><td>
+
+-   Performs the manufacturing of items
 -   Clocks in and out of jobs
 -   Views work center schedules and production dashboards
 
-|
-|*MFG Production MGR*|A manufacturing production manager who resolves problems for the shop floor and ensures that production is moving along|-   Works with planning, scheduling, engineering, and warehouse personnel to resolve problems
+</td></tr><tr><td>
+
+*MFG Production MGR*
+
+</td><td>
+
+A manufacturing production manager who resolves problems for the shop floor and ensures that production is moving along
+
+</td><td>
+
+-   Works with planning, scheduling, engineering, and warehouse personnel to resolve problems
 -   Creates and changes production orders
 -   Approves clock entries of production workers
 -   Specifies production settings \(except labor codes\)
 
-|
-|*MFG Scheduler*|A manufacturing scheduler who sets up and reviews the production schedule; this person also adjusts constraints and communicates completion dates|-   Identifies and resolves scheduling conflicts in advance
+</td></tr><tr><td>
+
+*MFG Scheduler*
+
+</td><td>
+
+A manufacturing scheduler who sets up and reviews the production schedule; this person also adjusts constraints and communicates completion dates
+
+</td><td>
+
+-   Identifies and resolves scheduling conflicts in advance
 -   Has the primary KPI to keep the on-time delivery percent high
 -   Uses inventory planning tools
 -   Regenerates inventory planning
 -   Runs rough-cut planning
 
-|
-|*MFG Scheduling MGR*|A manufacturing scheduling manager who defines the scheduling methodology and monitors the scheduling and planning process|-   Sets the preferences for scheduling
+</td></tr><tr><td>
+
+*MFG Scheduling MGR*
+
+</td><td>
+
+A manufacturing scheduling manager who defines the scheduling methodology and monitors the scheduling and planning process
+
+</td><td>
+
+-   Sets the preferences for scheduling
 -   Maintains advanced planning and scheduling
 -   Works closely with the planner and the production manager to make sure the planning, production, and scheduling areas align
 -   Regenerates inventory planning
 -   Runs rough-cut planning
 
-|
-|*MFG Planner*|A manufacturing planner who regularly evaluates the requirements needed to successfully execute both customer- and replenishment-driven production orders|-   Uses statistical analysis to suggest stocking levels for raw materials, semi-finished goods, and finished goods
+</td></tr><tr><td>
+
+*MFG Planner*
+
+</td><td>
+
+A manufacturing planner who regularly evaluates the requirements needed to successfully execute both customer- and replenishment-driven production orders
+
+</td><td>
+
+-   Uses statistical analysis to suggest stocking levels for raw materials, semi-finished goods, and finished goods
 -   Makes recommendations on staffing levels based on trends and data
 -   Generates and manages forecasts
 
-|
-|*MFG Planning MGR*|A manufacturing planning manager who develops production plans in adherence to the organization's budget and deadlines|-   Uses statistical analysis to suggest stocking levels for raw materials, semi-finished goods, and finished goods
+</td></tr><tr><td>
+
+*MFG Planning MGR*
+
+</td><td>
+
+A manufacturing planning manager who develops production plans in adherence to the organization's budget and deadlines
+
+</td><td>
+
+-   Uses statistical analysis to suggest stocking levels for raw materials, semi-finished goods, and finished goods
 -   Makes recommendations on staffing levels based on trends and data
 -   Generates and manages forecasts
 -   Uses master production schedules for planning
 
-|
-|*MFG Sales Engineer*|A manufacturing sales engineer who works closely with sales or independently|-   Takes customer requirements and applies information to an estimate
+</td></tr><tr><td>
+
+*MFG Sales Engineer*
+
+</td><td>
+
+A manufacturing sales engineer who works closely with sales or independently
+
+</td><td>
+
+-   Takes customer requirements and applies information to an estimate
 -   Has a primary key performance indicator \(KPI\) of an estimate or request for quotation \(RFQ\) turnaround time
 -   Has secondary KPIs of winning percent and profitability percent
 -   Uses estimating functionality \(except for preferences\)
 -   Creates inventory items from non-inventory items
 -   Converts estimates to bills of material
 
-|
-|*MFG Warehouse*|A manufacturing warehouse worker who supports production|-   Primarily performs cycle counts, picking of material, and moving of items in production from one location to another
+</td></tr><tr><td>
+
+*MFG Warehouse*
+
+</td><td>
+
+A manufacturing warehouse worker who supports production
+
+</td><td>
+
+-   Primarily performs cycle counts, picking of material, and moving of items in production from one location to another
 -   Helps place material on shelves
 -   Issues materials to production orders
 -   Supports the traceability of items by lot or serial number
 
-|
-|*MFG Viewer*|An employee outside of the production department who needs to view manufacturing processes, monitoring milestones and the statuses of specific production orders|-   Tracks the progress of production orders to inform customers
+</td></tr><tr><td>
+
+*MFG Viewer*
+
+</td><td>
+
+An employee outside of the production department who needs to view manufacturing processes, monitoring milestones and the statuses of specific production orders
+
+</td><td>
+
+-   Tracks the progress of production orders to inform customers
 -   Tracks the progress of production for projects
 
-|
-|*MFG Admin*|A manufacturing administrator; this person may be a production manager or an employee of an IT department|Maintains and oversees all manufacturing settings|
-|*MFG Cost Accountant*|A manufacturing cost accountant|Reviews and adjusts production orders before closing the production order|
+</td></tr><tr><td>
+
+*MFG Admin*
+
+</td><td>
+
+A manufacturing administrator; this person may be a production manager or an employee of an IT department
+
+</td><td>
+
+Maintains and oversees all manufacturing settings
+
+</td></tr><tr><td>
+
+*MFG Cost Accountant*
+
+</td><td>
+
+A manufacturing cost accountant
+
+</td><td>
+
+Reviews and adjusts production orders before closing the production order
+
+</td></tr></tbody>
+</table>
 
 The following forms and reports show details about access to forms:
 

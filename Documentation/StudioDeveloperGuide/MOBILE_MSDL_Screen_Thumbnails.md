@@ -1,12 +1,11 @@
-# Displaying Thumbnails {#_0a346082-bc2f-4bbe-b589-79ad3f2788a3 .concept}
+# Displaying Thumbnails
 
 In Acumatica ERP, the system can display thumbnails—that is, small images—for the records in the list view of a mobile app screen. For each listed record, a thumbnail can be displayed next to the record description if the record includes a field containing an image. An example is shown in the following screenshot, where thumbnails are displayed for each record in the Photo Log list view.
 
-![](Images/Mobile_Screens_Thumbnails.png "Thumbnails in the list view")
 
 When the app displays the list view with the images, it asynchronously downloads the images for each record and displays them in the list. If an image is not available, the icon of an image file is displayed instead \(see the second record in the screenshot above\).
 
-## Configuring Thumbnails { .section}
+## Configuring Thumbnails
 
 For thumbnails to be displayed in the list view of the mobile screen, you need to configure the mapping of the list in MSDL: In the list mapping, specify `elementType = FilePreview` in the field object that contains the image file.
 

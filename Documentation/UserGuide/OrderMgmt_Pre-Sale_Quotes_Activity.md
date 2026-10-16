@@ -1,14 +1,14 @@
-# Presales Quotes: Process Activity {#_b462a879-5662-4f9d-9358-4c8e79d71fac .task}
+# Presales Quotes: Process Activity
 
 The following activity demonstrates how to process a quote.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Pam Brawner, a sales manager at the SweetLife Fruits &amp; Jams company. Your customer, Allen's Bakery, would like to purchase five juicers, and would like an quote to compare it with other vendors' quotes and choose the best one. You and the customer agreed on a 5% discount for the juicers. You need to prepare a quote and email it to the customer. Further suppose that the customer decided to choose SweetLife's offer. Now you need to create a sales order from the quote for the customer.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -19,11 +19,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *ABAKERY* \(Allen's Bakery\) customer has been created.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *JUICER15* \(Commercial juicer with a production rate of 1.5 liters per minute\) stock item has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create an order of the *QT* type on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form. You will add the stock item to the quote. You will print the quote and email it to the customer. You will then create a sales order from the quote to the customer.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start processing a quote, do the following:
 
@@ -31,7 +31,7 @@ Before you start processing a quote, do the following:
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  In the company to which you are signed in, be sure that you have performed the [Sales Order Types: To Activate the QT Order Type](../ImplementationGuide/config_Sales_Order_Types_To_Activate_QT_Order_Type.md) prerequisite activity to activate the *QT* order type.
 
-## Step 1: Creating a Quote { .section}
+## Step 1: Creating a Quote
 
 To create the quote for Allen's Bakery, do the following:
 
@@ -51,7 +51,7 @@ To create the quote for Allen's Bakery, do the following:
 4.  On the **Shipping** tab, notice that 2/13/2026 is inserted in the **Cancel By** box. Because on the [Order Types](SO_20_10_00.md) \(SO201000\) form, *14* days has been specified in the **Days To Keep** box, the expiration date has been calculated as 14 days after the business date that you specified in the system.
 5.  On the form toolbar, click **Save**.
 
-## Step 2: Printing and Emailing the Quote to the Customer { .section}
+## Step 2: Printing and Emailing the Quote to the Customer
 
 To email a ready-to-print version of the quote to Allen's Bakery, do the following:
 
@@ -63,7 +63,7 @@ To email a ready-to-print version of the quote to Allen's Bakery, do the followi
 3.  On the form toolbar, click **Send**. The system adds an email activity associated with the quote to the outgoing mail. If a schedule has been configured in the system, the email will be sent automatically to the customer email address from the default system email account the next time this schedule is executed.
 4.  Return to the [Sales Orders](SO_30_10_00.md) form with the quote open. You can view the email by clicking **Activities** on the form title bar and then clicking the link in the **Tasks &amp; Activities** dialog box, which opens.
 
-## Step 3: Creating a Sales Order from the Quote { .section}
+## Step 3: Creating a Sales Order from the Quote
 
 To create a sales order from the quote, do the following:
 
@@ -75,11 +75,9 @@ To create a sales order from the quote, do the following:
     4.  On the form toolbar, click **Save**.
 3.  Open the **Financial** tab. Notice that the system has inserted the link to the quote in the **Orig. Order Nbr.** box \(**Other Information** section\), as shown in the following screenshot.
 
-    ![](Images/OrderMgmt_Pre-Sale_Quotes_Activity_Link_to_Quote_in_SO.png "The link to the quote in the sales order")
 
 4.  Open the *Sale of commercial juicers* quote. Notice that now it has a status of *Completed*, as shown in the following screenshot.
 
-    ![](Images/OrderMgmt_Pre-Sale_Quotes_Activity_Completed_Quote.png "The quote with the Completed status")
 
 
 **Parent topic:**[Processing Pre-Sale Quotes](../UserGuide/OrderMgmt_Pre-Sale_Quotes_Mapref.md)

@@ -1,4 +1,4 @@
-# To Merge Multiple Projects {#_97662a5f-54c4-43b1-80b8-92430ebe46fa .concept}
+# To Merge Multiple Projects
 
 As a rule, it is better to have multiple customization projects instead of a single one. But if you have two or more customization projects that contain changesets with the same items, and if you are sure that each project is valid and that the merged customization applies to the website properly, we recommend that you merge the projects. You use the [Customization Projects](../UserGuide/SM_20_45_05.md) \(SM204505\) form as a starting point.
 

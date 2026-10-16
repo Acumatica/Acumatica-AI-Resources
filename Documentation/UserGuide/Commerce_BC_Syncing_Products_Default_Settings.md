@@ -1,8 +1,8 @@
-# Product Synchronization: Default Store Settings {#_d341a85b-e6fe-434e-80eb-4191b4ea5c6b .concept}
+# Product Synchronization: Default Store Settings
 
 When you set up a connection to a BigCommerce store on the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form, you specify the availability and visibility settings that are applied by default to all items synchronized with the BigCommerce store.
 
-## Default Product Availability Settings {#_4d5d29fd-f3c9-46a6-829a-c0d265fc1e6b .section}
+## Default Product Availability Settings
 
 On the **Inventory** tab of the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form, you define the default availability status that is assigned to items exported from Acumatica ERP. This status determines whether the exported item can be purchased in the BigCommerce store. To define the default availability status, you select one of the following options in the **Default Availability** box:
 
@@ -27,7 +27,7 @@ If you select the *Set as Available \(Track Qty.\)* option in the **Default Avai
 
 If you have synchronized the *Product Availability* entity, when you modify any of the settings described in this section, the system resets the availability synchronization status for all synchronized items in the BigCommerce store, and you need to perform the full synchronization of the *Product Availability* entity again.
 
-## Default Visibility Settings { .section}
+## Default Visibility Settings
 
 You can specify visibility settings that will be applied by default to each item exported to the BigCommerce store on the **Inventory** tab of the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form. To instruct the system to make all items by default immediately available on the storefront after they are exported to the BigCommerce store, you select *Visible* in the **Default Visibility** box. To make items by default available for management in the store's control panel but hidden from the storefront, you select *Invisible* in this box. To make items visible on the storefront and included in the group of featured products \(which are displayed in specific places across the storefront, depending on the theme set up for the store\), you select *Featured* in this box.
 

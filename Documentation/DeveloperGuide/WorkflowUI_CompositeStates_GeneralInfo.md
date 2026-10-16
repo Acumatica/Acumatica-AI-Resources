@@ -1,16 +1,16 @@
-# Composite States: General Information {#_d60893e8-27ae-48f6-9da0-3d3ef2a4fa41 .concept}
+# Composite States: General Information
 
 This topic provides information about composite states in workflows in Acumatica ERP.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn what a composite state is and how to modify it in an inherited workflow.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You use composite states if you want to specify common settings for a group of states in your workflow.
 
-## Composite States in Workflows { .section}
+## Composite States in Workflows
 
 A composite state of a workflow, which can also be referred to as a *parent workflow state*, is a workflow state that contains an ordered sequence of nested workflow states and the transitions to and from these states. With composite workflow states, you can specify common settings \(actions, fields to be updated, and transitions\) for a group of workflow states only once—in the composite state that includes these workflow states.
 
@@ -31,15 +31,14 @@ The workflow for a record created on a form cannot be in a composite state; it c
 
 If no skip condition is specified, the system uses the configuration for this workflow state. This means that the transitions are triggered only by actions or event handlers, and the system does not check the skip condition again while the workflow for the record remains in this state.
 
-## Creation of a Composite State { .section}
+## Creation of a Composite State
 
 To add a composite state, you first add a new or a predefined state, and then specify a parent state for it in the **Change Parent State** dialog box, which is available on the [Workflow \(Tree View\)](../UserGuide/AU_20_10_30.md) page of the Customization Project Editor.
 
-## Example of a Composite State { .section}
+## Example of a Composite State
 
 The screenshot below shows the default workflow of the [Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\) form on the [Workflow \(Tree View\)](../UserGuide/AU_20_10_30.md) page of the Customization Project Editor. The composite state \(see Item 1 in the screenshot\) contains nested states \(Item 2\) that are part of a typical invoice workflow, as well as transitions \(Item 3\) to and from the composite state and the nested states. Notice that the `Balanced` nested state also contains transitions \(Item 4\).
 
-![](Images/WorkflowUI_UsingCompositeStates_CompositeState.png "A composite state in the invoice workflow")
 
 **Tip:** For a workflow with composite states, the diagram view of the page is not available, and the **Diagram View** button is not displayed on the More menu of the [Workflow \(Tree View\)](../UserGuide/AU_20_10_30.md) page.
 

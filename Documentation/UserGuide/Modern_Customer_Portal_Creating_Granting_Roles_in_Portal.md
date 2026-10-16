@@ -1,4 +1,4 @@
-# Modern Customer Portal: Role Assignment in the Portal {#_d032bfe4-860b-439a-adbd-83d98a4a7288 .concept}
+# Modern Customer Portal: Role Assignment in the Portal
 
 After you create a contact, you must assign roles before the employee can sign in to the system. These roles determine access rights.
 
@@ -13,7 +13,7 @@ You can assign roles directly in the Modern Customer Portal, as described in thi
 
 This simple process is described below.
 
-## Assigning Roles to a Contact in the Portal { .section}
+## Assigning Roles to a Contact in the Portal
 
 On the [Company Contact](SP_20_10_20.md) \(SP201020\) form of the Modern Customer Portal, select the contact you want to assign roles to. In the **Portal Access** section, click the **Grant Access** button.
 
@@ -27,7 +27,6 @@ Then select the check boxes for:
 
 -   At least one additional role that matches the employee’s position and assigned responsibilities.
 
-    ![](Images/Modern_Customer_Portal_Assigning_Roles.png "Assignment of user roles")
 
     **Tip:** For more information, see [Modern Customer Portal: Access Rights Through Predefined Roles](Modern_Customer_Portal_Access_Rights_User_Guide.md).
 
@@ -36,7 +35,7 @@ If you select only the *Portal User* role for a contact, this user can access on
 
 Save your changes. The system creates the contact’s user account on the [Users](SM_20_10_10.md) \(SM201010\) form of Acumatica ERP.
 
-## What's Next? { .section}
+## What's Next?
 
 The portal user can now sign in to the Modern Customer Portal, view or edit contact information on the [My Profile](SP_10_10_00.md) \(SP101000\) form, and perform tasks based on the assigned roles. The remaining chapters of this guide describe these tasks.
 

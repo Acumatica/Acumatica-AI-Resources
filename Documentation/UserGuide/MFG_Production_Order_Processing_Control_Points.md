@@ -1,4 +1,4 @@
-# Production Processing: Control Point Operations {#_34066685-2233-4629-9995-0aa594b447a1 .concept}
+# Production Processing: Control Point Operations
 
 Generally, workers who process or produce items according to production orders are not obliged to record the quantity of completed items for each operation except the last one. If you have many operations in production routing and want to make the production progress more visible or improve data recording accuracy for production orders, you can mark particular operations in routing as control points. For these operations, the system will force workers to record the completed quantity by using the [Labor](AM_30_10_00.md) \(AM301000\) or [Move](AM_30_20_00.md) \(AM302000\) form before the workers can record the completed quantity for the last operation.
 
@@ -8,7 +8,7 @@ To mark an operation as a control point, you select the **Control Point** check 
 
 In the following sections, you will read about operations marked as control points.
 
-## Production Process with Control Point Operations { .section}
+## Production Process with Control Point Operations
 
 Suppose that a production order has the operations defined in the Operations table of the [Production Order Details](AM_20_90_00.md) \(AM209000\) form with the settings shown in the following table.
 
@@ -20,7 +20,6 @@ Suppose that a production order has the operations defined in the Operations tab
 
 In the following diagram, you can view the actions and generated documents for this production order.
 
-![](Images/diag_MFG_Production_Order_Control_Points.png)
 
 The employees involved do the following to process the production order and the related transactions:
 
@@ -49,13 +48,13 @@ The employees involved do the following to process the production order and the 
     On the [Close Production Orders](AM_50_60_00.md) \(AM506000\) form, the production manager closes the production order.
 
 
-## Verification of Item Quantities { .section}
+## Verification of Item Quantities
 
 If multiple routing operations are marked as control points, when a worker enters the quantity of completed items on the [Labor](AM_30_10_00.md) \(AM301000\) or [Move](AM_30_20_00.md) \(AM302000\) form for the control point operations, the system verifies that the quantity entered for the current operation is less than or equal to the quantity recorded for the preceding control point operation. If this condition is not met, the system displays an error message and does not release the labor or move transaction until the worker enters the correct item quantity.
 
 For example, suppose that a production order for producing a base unit contains four operations: *0010 Cutting*, *0020 Form*, *0030 Assembly*, and *0040 Inspection*; the *0010* and *0030* operations are control points. Further suppose that on the [Move](AM_30_20_00.md) form, a worker creates a move transaction for Operation *0010* and enters `7` as the completed quantity. Then another worker, when specifying the completed quantity of the item for Operation *0030* on the same form, mistakenly enters `70` instead of `7` as the quantity. The system does not release the move transaction until the worker enters a quantity of `7` or less.
 
-## Reversal of Item Quantities { .section}
+## Reversal of Item Quantities
 
 When a worker would like to revert the quantity of completed items for some operation and enters a negative quantity value on the [Move](AM_30_20_00.md) \(AM302000\) form for this operation, the system verifies that the completed quantity after the reversal is more than or equal to the completed quantity recorded for the next operation marked as a control point. If the validation fails, the system displays an error message and does not release the transaction until the worker enters the correct quantity to be reversed.
 

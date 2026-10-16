@@ -1,8 +1,8 @@
-# To Approve Invoices, Debit Memos, and Credit Memos {#_c61b72c2-dba2-43bc-9712-990b004ae3b8 .task}
+# To Approve Invoices, Debit Memos, and Credit Memos
 
 You approve AR invoices, credit memos, and debit memos on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 
-## To Approve an AR Document {#section_cqm_4jv_vxb .section}
+## To Approve an AR Document
 
 1.  Open the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 2.  In the **Reference Nbr.** box, select the number of the document that should be approved.

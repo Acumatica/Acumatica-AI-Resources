@@ -1,8 +1,8 @@
-# Basic Project Configuration: Implementation Checklist {#_f5e5cf75-b160-4797-b23b-fb11a6b9a745 .concept}
+# Basic Project Configuration: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for project accounting in Acumatica ERP, and to specify settings that affect the processing workflows.
 
-## Mandatory Configuration { .section}
+## Mandatory Configuration
 
 To ensure that the basic project accounting configuration has been implemented properly, make sure that the necessary features have been enabled and settings have been specified, as described in the following checklist.
 
@@ -12,9 +12,21 @@ To ensure that the basic project accounting configuration has been implemented p
 |[Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form|Make sure that the *Projects* feature is enabled.|
 |[Projects Preferences](../UserGuide/PM_10_10_00.md) \(PO101000\) form|Save the default settings.|
 
-|Form|Criteria to Check|
-|----|-----------------|
-|[Projects Preferences](../UserGuide/PM_10_10_00.md) \(PO101000\) form|Make sure that the following settings have been specified on the**General** tab:-   In the **Non-Project Code** box \(**General Settings** section\), the non-project code is specified. This code must be specified in transactions, documents and document lines that are not related to any project. For convenience, the non-project code should be distinctly different from project IDs and should be short, such as the single character *X*, which is used by default.
+<table id="_1a310629-1570-4e2c-9bb8-ce078684a34f"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Criteria to Check
+
+</th></tr></thead><tbody><tr><td>
+
+[Projects Preferences](../UserGuide/PM_10_10_00.md) \(PO101000\) form
+
+</td><td>
+
+Make sure that the following settings have been specified on the**General** tab:-   In the **Non-Project Code** box \(**General Settings** section\), the non-project code is specified. This code must be specified in transactions, documents and document lines that are not related to any project. For convenience, the non-project code should be distinctly different from project IDs and should be short, such as the single character *X*, which is used by default.
 
 **Important:** The non-project code should be consistent with the structure of the *PROJECT* segmented key and cannot exceed its length. \(The system uses this key for the identifiers of projects.\) Also, you cannot create a non-project code whose ID matches an existing contract ID because the *CONTRACT* segmented key inherits its structure from the *PROJECT* segmented key. For more information, see [Project Creation and Processing: Configuration Prerequisites](../Shared/../UserGuide/Projects_Process_Config_Prereq.md).
 
@@ -25,9 +37,10 @@ To ensure that the basic project accounting configuration has been implemented p
 -   In the **Empty Item UOM** box \(**General Settings** section\), the default unit of measure of the empty item code is specified. The default value is *HOUR*.
 -   In the **Visibility Settings** section, the check boxes are selected for the areas of the system in which the projects should be visible.
 
-|
+</td></tr></tbody>
+</table>
 
-## Other Settings That Affect the Workflow {#section_bmn_gk5_t5b .section}
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of projects by specifying additional settings on the **General** tab of the [Projects Preferences](../UserGuide/PM_10_10_00.md) \(PO101000\) form as follows:
 

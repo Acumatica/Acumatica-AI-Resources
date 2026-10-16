@@ -1,10 +1,10 @@
-# To Use Categories in Wikis {#_da440cce-6ab7-45db-a0fa-95f67ed27d83 .task}
+# To Use Categories in Wikis
 
 *Categories* are distinct classes that divide wiki articles into types. You can use the [Wiki Categories](SM_20_05_23.md) \(SM200523\) form to define categories for wiki articles and manage articles included in a category.
 
 When you create a new article, you can select one category or multiple categories for it, based on the article content. You can assign one category to articles in different wikis. When you perform a search, you can select the category of the articles to be searched.
 
-## To Add a New Category { .section}
+## To Add a New Category
 
 You can add a category on the [Wiki Categories](SM_20_05_23.md) \(SM200523\) form as follows:
 
@@ -13,7 +13,7 @@ You can add a category on the [Wiki Categories](SM_20_05_23.md) \(SM200523\) for
 3.  In the **Category Name** box, type a more descriptive name for the new category.
 4.  On the form toolbar, click **Save**.
 
-## To Assign Categories to Articles { .section}
+## To Assign Categories to Articles
 
 You can assign articles to a particular category on the [Wiki Categories](SM_20_05_23.md) \(SM200523\) form as follows:
 

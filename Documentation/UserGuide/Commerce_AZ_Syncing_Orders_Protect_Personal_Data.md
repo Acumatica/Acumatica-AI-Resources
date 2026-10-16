@@ -1,4 +1,4 @@
-# Order Synchronization: Protection of Personal Data {#_eb4bc55f-db80-458a-807a-1af51960db76 .concept}
+# Order Synchronization: Protection of Personal Data
 
 Amazon requires that companies not store the customer's personal data related to sales orders imported from Amazon for more than 30 days after the order's creation. This data includes the ship-to address, bill-to address, ship-to contact, and bill-to contact in an imported order as well as its related shipment and invoice. To comply with this requirement, you can erase or pseudonymize personal data in sales orders imported from Amazon Seller Central as well as in related invoices and shipments \(if applicable\) by using the [Protect Personal Data](BC_50_20_00.md) \(BC502000\) form.
 

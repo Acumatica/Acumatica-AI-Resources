@@ -1,4 +1,4 @@
-# To Restore a Deleted Article {#_3da9ec52-d545-48e8-9b07-da574c9478d6 .task}
+# To Restore a Deleted Article
 
 Once authorized users have deleted an article, the system places it in the **Deleted Items** folder in the navigation pane. Deleted articles remain in this folder until they are permanently deleted.
 

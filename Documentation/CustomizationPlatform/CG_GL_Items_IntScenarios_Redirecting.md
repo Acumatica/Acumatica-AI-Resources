@@ -1,4 +1,4 @@
-# To Navigate to the Import Scenarios Form {#_71699c6e-cce1-4e96-b604-84cc9ea9c736 .concept}
+# To Navigate to the Import Scenarios Form
 
 You might need to add an import or export scenario to Acumatica ERP during customization. To manage import scenarios in Acumatica ERP, you use the [Import Scenarios](../UserGuide/SM_20_60_25.md) \(SM206025\) form.
 

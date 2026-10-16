@@ -1,4 +1,4 @@
-# Item Classes for Stock Items: Implementation Activity {#_afd0a9ab-a2f0-48de-bc33-9fcecec26bcf .task}
+# Item Classes for Stock Items: Implementation Activity
 
 In this implementation activity, you will learn how to create an item class with basic settings for stock items.
 
@@ -8,15 +8,15 @@ The following activity is based on the *U100 Basic Company* dataset. If you are 
 
 If you want to perform this activity in an out-of-the-box company instead of creating a tenant with the dataset, you need to prepare a company with the basic settings, as described in [Company Without Branches: General Information](../Shared/../ImplementationGuide/config_Basic_Company_GeneralInfo.md).
 
-## Story { .section}
+## Story
 
 Suppose that you are an implementation manager. You are configuring inventory for the SweetLife Fruits &amp; Jams company, which produces and sells bottled juice. All juice items will have similar settings, so you will create an item class to provide these settings to these stock items.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create an item class for stock items on the [Item Classes](IN_20_10_00.md) \(IN201000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating an item class for stock items, you should do the following:
 
@@ -29,7 +29,7 @@ Before you start creating an item class for stock items, you should do the follo
 
 **Tip:** If you have not configured a company with basic settings and you want to practice creating an item class, you can perform the activity in this topic by using the *U100* dataset. If you do this, you should use the *FDI* posting class and the *FOOD* availability calculation rule instead of the *JUICE* posting class and the *JUICE* availability calculation rule.
 
-## Step: Creating an Item Class { .section}
+## Step: Creating an Item Class
 
 To create an item class for juices, do the following:
 
@@ -50,7 +50,7 @@ To create an item class for juices, do the following:
 
 Now that you have created the item class for juice, you can create stock items to which the item class will be assigned, as described in [Stock Items: Implementation Activity](Stock_Items_Implem_Activity.md). For the full list of inventory entities that need to be created in a system before users can start processing documents related to inventory, see [Configuration of Order Management: General Information](../ImplementationGuide/config_InvMgmt_Basic_GeneralInfo.md).
 
-## Activity Recap { .section}
+## Activity Recap
 
 In this activity, we have illustrated how the implementation manager has done the following:
 

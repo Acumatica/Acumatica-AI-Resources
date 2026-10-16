@@ -1,4 +1,4 @@
-# Physical Inventory Counts {#_6bbf61ce-f4f3-4b4e-ac0f-d4ba7486dc5e .concept}
+# Physical Inventory Counts
 
 The physical inventory process in a particular warehouse includes the following stages:
 
@@ -9,7 +9,7 @@ The physical inventory process in a particular warehouse includes the following 
 
 These stages are described in detail in the following sections, along with other key information about physical inventory counts.
 
-## Physical Inventory Preparation {#_c47e0a7e-5101-46fd-a6bb-073831910ec7 .section}
+## Physical Inventory Preparation
 
 **Note:** Before you prepare any physical counts, make sure that all inventory documents have been released.
 
@@ -27,7 +27,7 @@ You can export the list of items for counting to an Excel file by using the [Phy
 
 For more information, see [Preparation for Physical Count](IN__con_Preparation_for_Physical_Count.md).
 
-## Counting of Items {#_a9ad80d3-f72e-4341-9263-333405393080 .section}
+## Counting of Items
 
 Employees involved in physical inventory can start counting items after you distribute count sheets and count tags \(if you use tags in physical counting\) to the employees. The counting process includes the following steps:
 
@@ -39,7 +39,7 @@ After the counting process is finished,you can start entering counting data into
 
 Acumatica ERP provides you with ability to automate counting by using barcode scanners or mobile devices with barcode scanning support. For details, see [Counting in Physical Inventory: General Information](WMS_Scan_and_Count_GeneralInfo.md).
 
-## Entry of Counting Data {#_992b7a9a-11c3-45fd-b593-9cc681a1bbb5 .section}
+## Entry of Counting Data
 
 The process of entering counting data includes the following steps:
 
@@ -63,7 +63,7 @@ Once the entered data is verified, you can indicate to the system that the data 
 
 Completing or canceling the physical inventory unfreezes the inventory items involved in the count.
 
-## Adjustment Generation {#_987bcfbe-1bd7-4335-b7c7-07665f779acf .section}
+## Adjustment Generation
 
 If the **Release PI Adjustment Automatically** check box is selected on the [Inventory Preferences](IN_10_10_00.md) \(IN101000\) form, when you complete the physical inventory, the system changes the status of the physical inventory document to *Completed* and generates the inventory adjustments to correct the on-hand quantities. An adjustment is generated for each item with a nonzero quantity variance, including the items with no associated transactions. The system uses the current costs of the items to calculate the cost variance. The reference numbers of these documents are displayed on the **Adjustment Info** tab of the [Physical Inventory Review](IN_30_50_00.md) \(IN305000\) form; the status of these documents is *Balanced*. You can review the generated adjustments on the **Adjustments** tab of this form.
 
@@ -74,7 +74,7 @@ If the **Release PI Adjustment Automatically** check box is cleared, the system 
 -   You can delete an adjustment before the adjustment is released. After the adjustment is deleted, the status of the physical inventory document changes to *Data Entering* on the [Physical Inventory Review](IN_30_50_00.md) form. You can edit the physical inventory document and then create a new adjustment.
 -   When you successfully release an adjustment on the [Adjustments](IN_30_30_00.md) form, the system updates the values of the **Final Ext. Variance Cost** column in the item line of the physical inventory document and changes the status of the physical inventory document to *Completed* on the [Physical Inventory Review](IN_30_50_00.md) form.
 
-## Cost Calculation After Counting { .section}
+## Cost Calculation After Counting
 
 The system specifies values in the **Unit Cost** and **Estimated Ext. Variance Cost** columns on the [Physical Inventory Review](IN_30_50_00.md) \(IN305000\) form when you click **Finish Counting** on the form toolbar. The system also updates these columns when users change the physical quantity while entering data.
 

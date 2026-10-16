@@ -1,8 +1,8 @@
-# Managing Assignment Maps {#_81a4c534-9bc8-4e11-9296-70ab5ae76240 .concept}
+# Managing Assignment Maps
 
 Acumatica ERP gives you the capability to automatically assign records \(such as leads and cases\) to employees for processing, to appropriately distribute work. When assigning a record to an employee, the system follows the rules and conditions specified in a previously created assignment map.
 
-## Supported Types of Maps { .section}
+## Supported Types of Maps
 
 Acumatica ERP supports various types of maps that may include any number of steps, rules, and conditions for assigning a record to a qualified employee for processing or for assigning a document to an authorized employee for approval. Each map has a type, which can be one of the following:
 
@@ -11,7 +11,7 @@ Acumatica ERP supports various types of maps that may include any number of step
 
 By using the **Add Assignment Map** button on the form toolbar of the [Assignment and Approval Maps](EP_20_55_00.md) \(EP205500\) form, you can start creating an assignment map, which opens on a separate entry form.
 
-## Assignment Maps { .section}
+## Assignment Maps
 
 Assignment maps are created and modified on the [Assignment Maps](EP_20_50_10.md) \(EP205010\) form.
 
@@ -23,7 +23,7 @@ If a condition or rule is no longer required in an assignment map, you can tempo
 
 **Note:** If conditions allow the same documents to be assigned to two or more groups, all assignments will be performed in the group that is positioned higher than the other groups in the assignment map, and the documents would never reach the other groups.
 
-## Map Application { .section}
+## Map Application
 
 In Acumatica ERP, you can specify an assignment map for a particular type of record or document by using one of the following forms:
 
@@ -32,9 +32,7 @@ In Acumatica ERP, you can specify an assignment map for a particular type of rec
 
 Users can assign such records as leads, contacts, business accounts, opportunities, and cases in bulk by using the appropriate mass-processing form, such as [Assign Leads](CR_50_30_10.md) \(CR503010\) or [Assign Cases](CR_50_32_10.md) \(CR503210\).
 
-## Map Execution Issues { .section}
+## Map Execution Issues
 
 Any issues that occur during the execution of an assignment map are recorded in the Acumatica ERP trace log. You can open the trace log by clicking **Help** &gt; **Trace** on the form title bar.
-
-**Parent topic:**[Organization Structure](../UserGuide/OS_00_00_00.md)
 

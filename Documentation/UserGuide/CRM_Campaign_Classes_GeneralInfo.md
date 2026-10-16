@@ -1,24 +1,24 @@
-# Campaign Classes: General Information {#_4e7d7237-75b4-4387-905c-e30f589853b5 .concept}
+# Campaign Classes: General Information
 
 In Acumatica ERP, you can group marketing campaigns into classes based on specific characteristics. Campaign classes help you quickly and effectively manage your marketing and sales processes. These include the creation of marketing campaigns, the tracking of expenses related to a marketing campaign, and viewing of campaign statistics.
 
 This topic provides information about campaign classes.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Create a campaign class
 -   Use campaign classes and attributes
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to learn how to create campaign classes in scenarios that include the following:
 
 -   You need to give users the ability to group campaigns of various types, such as marketing events, mass mailing, and outdoor advertising.
 -   You need to give users the ability to group marketing and sales campaigns.
 
-## Defining of Campaign Classes {#section_ntc_z4f_bhc .section}
+## Defining of Campaign Classes
 
 In Acumatica ERP, a campaign class is a way to group marketing campaigns that share at least one common characteristic. Campaign classes make campaign creation faster and more accurate by providing default settings for new campaigns.
 
@@ -28,13 +28,13 @@ You create campaign classes on the [Campaign Classes](CR_20_25_00.md) \(CR202500
 
 A campaign class has a brief description and may include a set of attributes that store additional information about the campaigns in the class. An attribute is a configurable UI element for tracking a campaign characteristic that’s important to your company but isn’t already on the [Marketing Campaigns](CR_20_20_00.md) \(CR202000\) form. For more details, see [Attributes](CS__con_Attributes.md).
 
-## How the Class Affects Campaign Creation {#section_otc_z4f_bhc .section}
+## How the Class Affects Campaign Creation
 
 When you create a marketing campaign on the [Marketing Campaigns](CR_20_20_00.md) \(CR202000\) form, you can first select a campaign class. The system inserts the campaign’s default values based on the class settings. If attributes have been defined for the selected campaign class, they appear on the **Attributes** tab as additional elements.
 
 You can change the class of an existing campaign. If the new class includes any of the same attributes as the previous one, the system preserves their values. All other attributes from the previous class are removed.
 
-## Example of Campaign Classes and Attributes { .section}
+## Example of Campaign Classes and Attributes
 
 Consider the following example of the use of campaign classes and attributes.
 

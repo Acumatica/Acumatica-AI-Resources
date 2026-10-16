@@ -1,4 +1,4 @@
-# Barcode Editor {#_48c563c5-2153-4b70-a29c-08643868e896 .concept}
+# Barcode Editor
 
 In this chapter, you will learn about the configuration of a barcode editor. You will learn when to use a barcode editor and how to organize a layout that includes a barcode editor.
 

@@ -1,4 +1,4 @@
-# Appointment Creation: Calendar Board Form {#_4fc74fb8-e8bd-43d2-9fbb-250a576233ff .concept}
+# Appointment Creation: Calendar Board Form
 
 In this topic, you will read about creating an appointment on the calendar board.
 
@@ -13,7 +13,7 @@ For information about the Modern UI calendar board, see [Scheduling Appointments
 -   *Staff Appointments on Map \(FS301100\)* form
 -   *Appointment History on Map \(FS301200\)* form
 
-## Scheduling of Appointments on Calendar Boards { .section}
+## Scheduling of Appointments on Calendar Boards
 
 In Acumatica ERP, you can do the following by using calendar boards:
 
@@ -22,26 +22,26 @@ In Acumatica ERP, you can do the following by using calendar boards:
 
 The following sections describe the available calendar boards in Acumatica ERP and their use.
 
-## The Calendar Board Form { .section}
+## The Calendar Board Form
 
 On the [Calendar Board](FS_30_03_00.md) \(FS300300\) form, you see the work schedules of the staff members of your company. To select the right staff members to perform services, you can filter staff members by any needed skills, license types, services, and service areas related to the service for which you want to schedule an appointment. Based on the available working times of staff members, you decide who will perform services and when, assign selected staff members, and create appointments. You can also assign staff members to perform existing appointments.
 
 For an example of scheduling by using the Calendar Board, see [Scheduling Appointments: To Create a Skill-Matched Appointment on the Calendar](ServMgmt_Creating_Appointment_on_Calendar_Board_Process_Activity.md).
 
-## The Staff Calendar Board Form { .section}
+## The Staff Calendar Board Form
 
 On the [Staff Calendar Board](FS_30_04_00.md) \(FS300400\) form, you see the work schedule of a particular staff member of your company. You can filter service orders and appointments by any of the following: skills, license types, and service classes. Based on the available working times of the staff member, you can do the following:
 
 -   Decide which services, service orders, and appointments this staff member will be assigned to and when this staff member's work will occur
 -   Create any needed appointments
 
-## The Room Calendar Board Form { .section}
+## The Room Calendar Board Form
 
 On the [Room Calendar Board](FS_30_07_00.md) \(FS300700\) form, you can see the availability of the rooms in your company's branch location. Based on this information, you can select which services will be performed in which room of the selected branch location and when, and you can create any needed appointments. \(If appointments have already been created, you just assign a room to them.\) Rooms are usually used for service orders if the services are performed on-site \(that is, those for which the services are performed at your company location\), and they can also be used for internal service orders.
 
 **Tip:** To be able to use rooms for services, you must have the **Enable Rooms** check box selected on the [Service Management Preferences](FS_10_01_00.md) \(FS100100\) form.
 
-## Viewing of Appointments on Calendar Boards { .section}
+## Viewing of Appointments on Calendar Boards
 
 You can view the appointments assigned to staff members of your company by using the calendar board forms in the following ways:
 

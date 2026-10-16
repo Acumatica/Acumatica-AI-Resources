@@ -1,8 +1,8 @@
-# Integration with HubSpot: To Configure the HubSpot Enhanced Data Provider {#_7c283561-17dd-4ad0-8e7a-9acd803359ca .task}
+# Integration with HubSpot: To Configure the HubSpot Enhanced Data Provider
 
 When integrating HubSpot and Acumatica ERP, you need to specify the appropriate data provider. To export leads to HubSpot or to import leads from HubSpot, you can use the preconfigured *HubSpot Enhanced Provider* data provider. In this activity, you will learn how to configure this data provider.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring the integration between HubSpot and Acumatica ERP, perform the following preparatory tasks:
 
@@ -16,7 +16,7 @@ Before you start configuring the integration between HubSpot and Acumatica ERP, 
 
 Now you can launch the Acumatica ERP website, and sign in to the necessary tenant.
 
-## Step: Configuring the HubSpot Data Provider { .section}
+## Step: Configuring the HubSpot Data Provider
 
 To configure the HubSpot data provider, you need to do the following:
 

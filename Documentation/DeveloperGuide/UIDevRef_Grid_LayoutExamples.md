@@ -1,41 +1,38 @@
-# Table \(Grid\): Layout Examples {#_7df86966-f2e2-4941-a0be-23478f14bae0 .concept}
+# Table \(Grid\): Layout Examples
 
 In this topic, you can find examples of various layouts with tables.
 
-## Table in a Gray Section { .section}
+## Table in a Gray Section
 
 Suppose that you need to place a table in a gray section, as shown in the following screenshot.
 
-![](Images/UIDevRef_Grid_InGraySection.png "A table in a gray section")
 
 To define a table in a gray section, you specify `class="framed-section"` for the qp-grid tag, as shown in the following code.
 
-```language-xml
+```xml
 <qp-grid slot="B" id="gridSerialNumbers" 
   view.bind="MasterSplits" class="framed-section">
 </qp-grid>
 ```
 
-## Table with a Title {#_966685f5-5a79-43a8-93a4-90466ff32b38 .section}
+## Table with a Title
 
 Suppose that you need to define a table with a title, as shown in the following screenshot.
 
-![](Images/UIDevRef_Grid_WithCaption.png "A table with a title")
 
 To define a table with a title, you specify the caption attribute in the qp-grid tag, as shown in the following code.
 
-```language-xml
+```xml
 <qp-grid id="gridOrders"
   view.bind="BlanketOrderChildrenDisplayList"
   caption="Grid Caption">
 </qp-grid>
 ```
 
-## Table with Elements Above It in a Gray Section { .section}
+## Table with Elements Above It in a Gray Section
 
 Suppose that for a table in a gray section, you need to place elements, such as boxes, above the table and inside the gray section, as shown in the following screenshot.
 
-![](Images/UIDevRef_Grid_WithFieldsInGraySection.png "A table with boxes in a gray section")
 
 To define a table with elements above it in a gray section, you do the following in the HTML code:
 
@@ -50,7 +47,7 @@ To define a table with elements above it in a gray section, you do the following
 
 The following code implements this approach.
 
-```language-xml
+```xml
 <qp-fieldset id="groupID" view.bind="View1" caption="Fieldset Caption">
   <field name="Field1"></field>
   <field name="Field2></field>
@@ -62,15 +59,14 @@ The following code implements this approach.
 
 **Attention:** You generally don't need to explicitly specify the width for the table. However, you may need to do so in cases where the table's width doesn't automatically match the width of its outer container. You can specify `class="col-12"` in the `qp-grid` tag to force the table to match the width of its outer container. Thus, in the preceding code example, you would specify the `qp-grid` tag as follows.
 
-```language-xml
+```xml
 <qp-grid id="gridSomeGrid" view.bind="View2" class="col-12"></qp-grid>
 ```
 
-## Table with a Title and Elements Above It in a Gray Section { .section}
+## Table with a Title and Elements Above It in a Gray Section
 
 Suppose that for a table in a gray section, you need to specify a table title; further suppose that you need to add elements above the table inside the gray section, as shown in the following screenshot.
 
-![](Images/UIDevRef_Grid_WithFieldsAndTitleInGraySection.png "A table with a title and with elements above it in a gray section")
 
 To implement this layout, you need to do the following in HTML code:
 
@@ -86,7 +82,7 @@ To implement this layout, you need to do the following in HTML code:
 
 The following code implements this approach.
 
-```language-xml
+```xml
 <qp-fieldset id="groupID" view.bind="View1" caption="Fieldset Caption">
   <field name="Field1"></field>
   <field name="Field2></field>
@@ -99,7 +95,7 @@ The following code implements this approach.
 
 **Attention:** You generally don't need to explicitly specify the width for the table. However, you may need to do so in cases where the table's width doesn't automatically match the width of its outer container. You can specify `class="col-12"` in the `qp-grid` tag to force the table to match the width of its outer container. Thus, in the preceding code example, you would specify the `qp-grid` tag as follows.
 
-```language-xml
+```xml
 <qp-grid 
   id="gridSomeGrid"
   view.bind="View2"
@@ -108,11 +104,11 @@ The following code implements this approach.
 </qp-grid>
 ```
 
-## Table with a Fixed Height { .section}
+## Table with a Fixed Height
 
 By default, the grid is stretched over the whole width of the area. If a grid should not occupy the whole tab or form, you specify `class="fixed-height"` for it, as shown in the following example.
 
-```language-xml
+```xml
 <qp-grid id="gridSomeGrid" view.bind="GridView" class="fixed-height">
 </qp-grid>
 ```

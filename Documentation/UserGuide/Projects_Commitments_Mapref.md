@@ -1,4 +1,4 @@
-# Tracking Cost Commitments {#_c7d57529-f542-49c2-99de-b944cbe50a85 .concept}
+# Tracking Cost Commitments
 
 If you need to control purchases on projects by project budget lines, you can process purchase orders by project as project cost commitments. The topics of this chapter explain how you can prepare and process commitments.
 

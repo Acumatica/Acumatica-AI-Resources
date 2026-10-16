@@ -1,24 +1,24 @@
-# Configuration of Production with Backflushing: General Information {#_cef0d96f-682d-486a-b416-731d2e59e84c .concept}
+# Configuration of Production with Backflushing: General Information
 
 Acumatica ERP Manufacturing Edition provides you with the ability to backflush materials or labor within the production process. The following sections describe the configuration of the production with material or labor backflushing in the system.
 
 For details on processing production orders with material or labor backflushing, see [Production with Backflushing: General Information](../UserGuide/MFG_Backflushing_GeneralInfo.md).
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Create a work center with the default settings for backflushing materials or labor
 -   Create a bill of material for producing items and backflushing materials or labor for some operations
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure the production process with material or labor backflushing in the following cases:
 
 -   When you are initially implementing Acumatica ERP Manufacturing Edition and your organization uses material or labor backflushing for all or some production operations
 -   When your organization already uses Acumatica ERP Manufacturing Edition and has recently started to backflush materials or labor for some or all production operations
 
-## Default Settings for Material or Labor Backflushing { .section}
+## Default Settings for Material or Labor Backflushing
 
 To specify the default settings that will be used for material and labor backflushing, you do the following:
 

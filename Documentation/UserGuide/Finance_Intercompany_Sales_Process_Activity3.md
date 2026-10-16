@@ -1,14 +1,14 @@
-# Intercompany Sales: To Pay an Intercompany Invoice {#_8e65e73c-8eb5-4a97-bab2-ccc158799bd4 .task}
+# Intercompany Sales: To Pay an Intercompany Invoice
 
 The following activity will walk you through the process of creating a payment for an intercompany invoice.
 
-## Story {#section_y2s_4jv_vxb .section}
+## Story
 
 Suppose that on February 15, 2026, the Head Office of the Muffins &amp; Cakes \(*MHEAD*\) branch paid for the juicer installation services that it purchased from the Service and Equipment Sales Center \(*SWEETEQUIP*\) branch, and on February 18, 2026, the *SWEETEQUIP* branch received this payment.
 
 Acting as an accountant of the *SWEETEQUIP* branch, you need to create an AR payment in the system to record this payment to the branch's cash account.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -21,11 +21,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Companies](CS_10_15_00.md) \(CS101500\) form, the *MUFFINS* and *SWEETLIFE* companies have been defined.
 -   On the [Branches](CS_10_20_00.md) \(CS102000\) form, the *SWEETEQUIP* and *MHEAD* branches have been defined.
 
-## Process Overview {#section_efs_4jv_vxb .section}
+## Process Overview
 
 In this activity, you will open an intercompany invoice on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form and create a payment for this invoice. After releasing the payment, you will review the generated GL transaction on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## System Preparation {#section_gfs_4jv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -36,7 +36,7 @@ Before you begin performing the steps of this activity, do the following:
 5.  Make sure an intercompany AR invoice has been processed, as described in [Intercompany Sales: To Process an Intercompany Invoice](Finance_Intercompany_Sales_Process_Activity.md).
 6.  Make sure the intercompany AP bill has been paid, as described in [Intercompany Sales: To Pay an Intercompany Bill](Finance_Intercompany_Sales_Process_Activity2.md).
 
-## Step: Paying an AR Invoice Between Branches of Different Companies {#section_ifs_4jv_vxb .section}
+## Step: Paying an AR Invoice Between Branches of Different Companies
 
 To create an AR payment for an intercompany AR invoice, do the following:
 

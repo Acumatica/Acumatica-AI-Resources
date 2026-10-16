@@ -1,8 +1,8 @@
-# Opportunity Assignment to Owners and Workgroups: Implementation Checklist {#_5756885a-ae45-46d9-bf58-27b82a346e97 .concept}
+# Opportunity Assignment to Owners and Workgroups: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for assigning opportunities to owners, and to understand \(and change, if needed\) the settings that affect the opportunity assignment workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you start assigning opportunities to owners, you make sure that the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -15,11 +15,11 @@ We recommend that before you start assigning opportunities to owners, you make s
 |[Employees](EP_20_30_00.md) \(EP203000\)|Employee records have been created in the system.|
 |[Opportunity Classes](CR_20_90_00.md) \(CR209000\)|Opportunity classes have been created with the necessary settings and attributes, including **Default Owner** on the **Details** tab \(**Data Entry Settings** section\).|
 
-## Other Settings That Affect the Workflow { .section}
+## Other Settings That Affect the Workflow
 
 You can affect the opportunity assignment workflow by including the sending of email notifications. If you want email notifications to be sent to the responsible employees when an opportunity is assigned to an employee or when the status of the opportunity is changed, an administrator can set up email or push notifications on the [Business Events](SM_30_20_50.md) \(SM302050\) form so that the employee receives a notification by email, by SMS, or in Acumatica mobile app. For details, see [Business Events](../CustomizationPlatform/CG_GL_Items_BusinessEvents.md).
 
-## Validation of Configuration { .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you practice assigning opportunities to owners by performing instructions similar to those described in [Opportunity Assignment to Owners and Workgroups: Process Activity](CRM_Sales_Assigning_Opportunities_to_Owners_Process_Activity.md).
 

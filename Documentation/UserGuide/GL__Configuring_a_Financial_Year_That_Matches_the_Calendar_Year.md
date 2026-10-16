@@ -1,8 +1,8 @@
-# To Configure a Financial Year that Matches the Calendar Year {#_5c6221df-6510-4fc8-852e-fe65105ba19a .task}
+# To Configure a Financial Year that Matches the Calendar Year
 
 You use the [Financial Year](GL_10_10_00.md) \(GL101000\) form to configure a financial year that matches the calendar year.
 
-## To Configure a Financial Year that Coincides with the Calendar Year {#section_bqf_mjv_vxb .section}
+## To Configure a Financial Year that Coincides with the Calendar Year
 
 1.  Open the [Financial Year](../Shared/../UserGuide/GL_10_10_00.md) \(GL101000\) form.
 2.  In the **Financial Year Starts On** box, specify the start date as *January 1* of the first financial year your company wants to keep records in Acumatica ERP.

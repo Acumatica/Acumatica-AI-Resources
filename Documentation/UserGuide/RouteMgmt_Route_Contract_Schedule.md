@@ -1,10 +1,10 @@
-# Route Service Contracts: Contract Schedules {#_fdd30acf-50ba-466f-bd63-6018ae7351d4 .concept}
+# Route Service Contracts: Contract Schedules
 
 With Acumatica ERP, you can manage the schedules of the route service contracts. A route service contract schedule defines the route service \(or services\), inventory items, and other settings that the generated appointments of route executions will have, as well as the recurrence of the generation.
 
 In this topic, you will read about creating a schedule and specifying its settings.
 
-## Creating a Route Service Contract Schedule { .section}
+## Creating a Route Service Contract Schedule
 
 You create a new service contract schedule by using the [Route Service Contract Schedules](FS_30_56_00.md) \(FS305600\) form, which opens when you click **Add Schedule** on the table toolbar on the **Schedules** tab of the [Route Service Contracts](FS_30_08_00.md) \(FS300800\) form. \(You can also open this form to view or edit an existing schedule by clicking a link in the **Schedule ID** column on this tab.\)
 
@@ -18,7 +18,7 @@ In the **Service Order Type** box of the [Route Service Contract Schedules](FS_3
 
 For a route service contract, you can create one schedule or multiple schedules. The system generates the reference numbers for schedules based on the reference number of the related route service contract and the sequence number of the schedule created for this route service contract \(*1* for the first schedule, *2* for the second, and so on\). For example, if the route service contract has the reference number *000001* in the system and you create the first schedule for this route service contract, the reference number of the schedule will be *000001-1*. You can view the list of schedules that have been created for a particular route service contract on the **Schedules** tab of the [Route Service Contract Schedules](FS_30_56_00.md) form.
 
-## Defining Schedule Settings {#_52d6d59c-7f64-4c98-bad3-b30206db5aad .section}
+## Defining Schedule Settings
 
 On the [Route Service Contract Schedules](FS_30_56_00.md) \(FS305600\) form, for each schedule, you have to specify the recurrence frequency type and the schedule settings. Frequency type defines how often the schedule appointments can be generated for the schedule.
 

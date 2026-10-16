@@ -1,4 +1,4 @@
-# To Navigate a Custom Report in a Project {#_6941012a-5855-4fc7-a0ba-e4b81d41b7ce .concept}
+# To Navigate a Custom Report in a Project
 
 If you have used Acumatica Report Designer to change a custom report included in the customization project, you have to update the appropriate item in the project. To do this, perform the following actions:
 

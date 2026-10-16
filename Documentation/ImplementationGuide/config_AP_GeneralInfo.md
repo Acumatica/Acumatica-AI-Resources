@@ -1,23 +1,23 @@
-# Accounts Payable: General Information {#_94b88557-fb99-494e-b27c-b931f2feb4cf .concept}
+# Accounts Payable: General Information
 
 For users to be able to define vendors and enter and process documents to vendors in the system, the accounts payable functionality has to be implemented in Acumatica ERP. The implementation process includes creating vendor classes and specifying the accounts payable preference settings.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to implement the basic configuration of the accounts payable functionality for a company.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You perform the basic configuration of the accounts payable functionality during the implementation of Acumatica ERP, after a company has been configured in the system and the general ledger functionality and cash management functionality have been implemented.
 
-## Workflow of the Implementation of the Accounts Payable Functionality { .section}
+## Workflow of the Implementation of the Accounts Payable Functionality
 
 To implement the accounts payable functionality, you perform the following general steps:
 
 1.  On the [Vendor Classes](../UserGuide/AP_20_10_00.md) \(AP201000\) form, you create the default vendor class, which will be used to provide default values for vendor accounts of the class when these vendors are created and for other vendor classes that may be created. For details, see [Accounts Payable: To Create a Vendor Class](config_Basic_Company_Implem_Activity_Vendor_Classes.md).
 2.  On the [Accounts Payable Preferences](../UserGuide/AP_10_10_00.md) \(AP101000\) form, you specify the necessary settings \(and any optional settings\) to be used in accounts payable. For details, see [Accounts Payable: To Specify Accounts Payable Preferences](config_Basic_Company_Implem_Activity_AP_Preferences.md).
 
-## Speeding Data Entry {#section_ekg_njv_vxb .section}
+## Speeding Data Entry
 
 To help make data entry easier and more accurate, you can use the following settings on the **General** tab \(**Data Entry Settings** section\) of the [Accounts Payable Preferences](../UserGuide/AP_10_10_00.md) \(AP101000\) form:
 

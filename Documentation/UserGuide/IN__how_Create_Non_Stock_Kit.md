@@ -1,16 +1,16 @@
-# To Create a Non-Stock Kit {#_e3e5e5ce-9c57-4423-b383-1af069c6cc3a .task}
+# To Create a Non-Stock Kit
 
 If your organization offers non-stock kits \(that is, bundles of stock and non-stock components that are neither produced in advance nor tracked in inventory\) to its customers, you must create these non-stock kits in the system to be able to include them in sales orders. In this topic, you will find information on how to create a non-stock kit with basic settings by using the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form.
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 -   Make sure the *Kit Assembly* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 -   If you use item classes for non-stock kits, make sure that you have created an item class that provides default settings for the kit.
 -   If you do not use item classes, make sure that the following have been created in the system: the posting class, tax category, and units of measure that you want to use for the kit.
 
-## To Create a Non-Stock Kit { .section}
+## To Create a Non-Stock Kit
 
 1.  Open the [Non-Stock Items](../Shared/../UserGuide/IN_20_20_00.md) \(IN202000\) form.
 

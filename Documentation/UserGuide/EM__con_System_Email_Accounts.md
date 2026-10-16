@@ -1,10 +1,10 @@
-# System Email Accounts {#_b8a9d5f6-be82-47ee-bcfa-06b17f54fda6 .concept}
+# System Email Accounts
 
 In Acumatica ERP, you can configure and manage system email accounts by using the [Email Accounts](SM_20_40_02.md) \(SM204002\) form. You can create as many accounts as you may need, each serving a different purpose—for instance, one account for communications with your customer support department, and another account for sending newsletters. For each system email account, you specify the outgoing mail server, the incoming mail server \(optional\), and the protocol to be used. Also, you must specify ports, sign-in information for servers of both types, and the type of encrypted connection \(if required by the server\).
 
 For any system account, you can enable the processing of incoming mail and select processing options that define how emails received to the account should be processed, such as whether to create a case for each email message or a new lead record \(for details, see [Incoming Mail Processing](EM__con_Mail_Processing.md)\). Also, you can specify the types of attachments that are permitted, if attachments are permitted at all. You can allow the deletion of processed emails or forbid it \(if your organization requires emails to be kept for a particular period of time, for instance\). If needed, you can set up the automatic confirmation of received emails or automatic replies to unassigned emails.
 
-## Default Account for Outgoing Emails {#section_xh5_bsr_n5b .section}
+## Default Account for Outgoing Emails
 
 To make it faster for users to select a system email account for sending emails on the related forms, you can specify an email account to be used by the system by default. To determine the default email account, the system proceeds as follows until it finds a value:
 
@@ -12,7 +12,7 @@ To make it faster for users to select a system email account for sending emails 
 2.  If the email is specified in the **Default Email Account** box on the [Lead Classes](CR_20_70_00.md) \(CR207000\), [Contact Classes](CR_20_50_00.md) \(CR205000\), [Business Account Classes](CR_20_80_00.md) \(CR208000\), or [Opportunity Classes](CR_20_90_00.md) \(CR209000\) form, copies this value. For a business account, the system also copies the **Mailing &amp; Printing** class settings from the following forms: [Customer Classes](AR_20_10_00.md) \(AR201000\), [Vendor Classes](AP_20_10_00.md) \(AP201000\), and [Business Account Classes](CR_20_80_00.md) \(CR208000\).
 3.  If the email is specified in the **Default Email Account** box on the [Email Preferences](SM_20_40_01.md) \(SM204001\) form, copies this value.
 
-## Support of OAuth 2.0 for System Email Accounts { .section}
+## Support of OAuth 2.0 for System Email Accounts
 
 If you use MS Exchange Server in the Azure cloud, have a subscription to MS Office 365, use Google Suite or Gmail, you can configure the system to use the OAuth 2.0 authentication method for accessing a system email account.
 

@@ -1,16 +1,16 @@
-# Workflow Dialog Boxes: To Implement a Transition with a Dialog Box {#_b907e756-ca53-40b9-8022-3e0be5e2e177 .task}
+# Workflow Dialog Boxes: To Implement a Transition with a Dialog Box
 
 This activity will walk you through the process of creating a workflow dialog box and implementing a transition that uses the values the user provides in this dialog box.
 
-## Story { .section}
+## Story
 
 On the Repair Work Orders \(RS301000\) form, a user should be able to assign a repair work order when it has the *Ready For Assignment* status. To do this, the user will click the **Assign** button on the form toolbar \(or the equivalent command on the More menu\) and enter the name of the assignee in the dialog box. When the user clicks **OK**, the repair work order will get the *Assigned* status. You need to implement these changes in the customization project.
 
-## Process Overview { .section}
+## Process Overview
 
 In the workflow code, you will define the **Assign** workflow dialog box. To do this, you will define the `Assign` action, register it in the workflow, and specify the dialog box for it. You will also define the `Assigned` workflow state and the transition from the `ReadyForAssignment` workflow state to the `Assigned` workflow state.
 
-## System Preparation { .section}
+## System Preparation
 
 Make sure that you have done the following:
 

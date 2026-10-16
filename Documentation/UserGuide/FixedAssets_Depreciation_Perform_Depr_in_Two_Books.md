@@ -1,14 +1,14 @@
-# Asset Depreciation: To Calculate Depreciation in Two Books {#_65463fbf-a8d4-4591-ae67-ea794fad983a .task}
+# Asset Depreciation: To Calculate Depreciation in Two Books
 
 The following activity will walk you through the process of depreciating fixed assets by using two depreciation books.
 
-## Story { .section}
+## Story
 
 Suppose that on May 2, 2026, SweetLife Fruits &amp; Jams paid $9,000 to Blueline Advertisement for the development of a new website. You want to process the website as a new fixed asset of the *SOFTWARE* type and depreciate it through three years. For the company's internal accounting, you want to use the straight-line depreciation method, and for tax reporting, you want to depreciate the asset by using the *MACRS3-Y* method.
 
 To be able to depreciate the fixed asset with two different methods at the same time, acting as a SweetLife accountant, you need to create a separate book to be used for taxes and depreciate this asset in two books.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -16,13 +16,13 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, the needed GL accounts have been created.
 -   On the [Fixed Assets Preferences](FA_10_10_00.md) \(FA101000\) form, the **Automatically Release Depreciation Transactions** check box has been cleared.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create a non-posting book on the [Books](FA_20_50_00.md) \(FA205000\) form, generate a calendar on the [Book Calendars](FA_30_40_00.md) \(FA206000\) form, and generate years for the calendar on the [Generate Book Calendars](FA_50_10_00.md) \(FA501000\) form. On the [Fixed Asset Classes](FA_20_10_00.md) \(FA201000\) form, you will update the *SOFTWARE* asset class by adding the non-posting book to it.
 
 On the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you will create a purchase of the website; then you will convert this purchase to a fixed asset on the [Convert Purchases to Assets](FA_50_45_00.md) \(FA504500\) form. Finally, on the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form, you will calculate depreciation of the fixed asset in the posting book and non-posting book.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin calculating the depreciation of an asset in two books, do the following:
 
@@ -32,7 +32,7 @@ Before you begin calculating the depreciation of an asset in two books, do the f
 4.  Make sure that you have created the fixed assets by performing the following prerequisite activities: [Conversion of a Purchase: To Convert a Purchase to an Asset](FixedAssets_Converting_Purchase_To_Convert_to_Asset.md), [Conversion of a Purchase: To Convert a Purchase to Multiple Assets](FixedAssets_Converting_Purchase_To_Convert_to_Multiple_Assets.md), [Fixed Asset Creation: To Create and Reconcile an Asset](FixedAssets_Adding_Fixed_Asset_To_Create_Fixed_Asset.md), [Fixed Asset Creation: To Create an Asset with Multiple Units](FixedAssets_Adding_Fixed_Asset_To_Add_FA_with_Multiple_Units.md), and [Non-Default Asset Settings: Process Activity](FixedAssets_Changing_Default_Settings_Process_Activity.md).
 5.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step 1: Creating a Non-Posting Book { .section}
+## Step 1: Creating a Non-Posting Book
 
 To create a new book for calculating depreciation for tax reporting and to generate the calendar, do the following:
 
@@ -56,7 +56,7 @@ To create a new book for calculating depreciation for tax reporting and to gener
 8.  In the **From Year** box, enter *2026*, and in the **To Year** box, enter `2030`.
 9.  Select the unlabeled check box in the row of the *TAX* book, and click **Process** on the form toolbar. The system generates the calendar for the *TAX* book from 2026 through 2030.
 
-## Step 2: Updating the Settings of the Fixed Asset Class { .section}
+## Step 2: Updating the Settings of the Fixed Asset Class
 
 To depreciate a fixed asset in two books, you must assign the corresponding fixed asset class to both books. Because the *SOFTWARE* fixed asset class has already been created, you need to update its settings and assign it to the new depreciation book. Do the following:
 
@@ -69,7 +69,7 @@ To depreciate a fixed asset in two books, you must assign the corresponding fixe
     -   **Averaging Convention**: *Mid Year*
 3.  On the form toolbar, click **Save** to save your changes.
 
-## Step 3: Creating a Fixed Asset for the Website { .section}
+## Step 3: Creating a Fixed Asset for the Website
 
 To create a fixed asset for the website, do the following:
 
@@ -100,7 +100,7 @@ To create a fixed asset for the website, do the following:
     The system has generated a pair of reconciliation and acquisition transactions for each book. All transactions were released automatically, because the **Automatically Release Acquisition Transactions** check box is selected on the [Fixed Assets Preferences](FA_10_10_00.md) \(FA101000\) form. The transactions generated for the *TAX* book are not posted to the general ledger, so they do not have batch numbers specified in the **Batch Nbr.** column.
 
 
-## Step 4: Updating the Fixed Asset Preferences { .section}
+## Step 4: Updating the Fixed Asset Preferences
 
 To update the fixed asset preferences, do the following:
 
@@ -112,7 +112,7 @@ To update the fixed asset preferences, do the following:
 
 4.  On the form toolbar, click **Save**.
 
-## Step 5: Calculating Depreciation in Two Books { .section}
+## Step 5: Calculating Depreciation in Two Books
 
 To calculate depreciation for the *SweetLife website* asset, do the following:
 
@@ -122,7 +122,6 @@ To calculate depreciation for the *SweetLife website* asset, do the following:
 
     The **FIN Calculated** column displays the depreciation that was calculated for the *FIN* book. Because the book uses the straight-line method, the system spreads the amount of $9,000 across 36 months \(3 years\)—that is, the depreciation expense for each month is $250 \($9,000 / 36 = $250\). The **TAX Calculated** column displays the depreciation that was calculated for the *TAX* book. The system uses a different method of calculating depreciation for the *TAX* book \(*MACRS3-Y*\), so the depreciation expenses differ from those calculated for the *FIN* book.
 
-    ![](Images/activity_FA_Depreciation_Depreciation_in_Two_Books.png "Depreciation calculated for the SweetLife website fixed asset")
 
 
 **Parent topic:**[Depreciating Fixed Assets](../UserGuide/FixedAssets_Depreciation_Mapref.md)

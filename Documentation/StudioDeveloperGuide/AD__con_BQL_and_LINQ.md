@@ -1,4 +1,4 @@
-# BQL and LINQ {#_63ce6aaa-0620-4993-a9a3-a49469eb906a .concept}
+# BQL and LINQ
 
 When a data request occurs, the system creates an instance of a business logic controller \(also referred as a *graph*\). The graph contains the data views that you define in code. In these data views, you define the queries to be executed to retrieve the requested data by using business query language \(BQL\), which is provided by Acumatica Framework. You also use BQL to define the data queries directly in code and in attributes.
 
@@ -6,7 +6,7 @@ BQL is written in C\#; it is based on generic class syntax, which is similar to 
 
 You can also use language-integrated query \(LINQ\) provided by the `System.Linq` library when you need to select records from the database in the code of Acumatica Framework-based applications or if you want to apply additional filtering to the data of a BQL query. However, you still have to use BQL to define the data views in graphs and to specify the data queries in the attributes of data fields.
 
-## Fluent BQL and Traditional BQL { .section}
+## Fluent BQL and Traditional BQL
 
 Acumatica Framework provides two dialects of BQL: fluent BQL and traditional BQL. Traditional BQL was the initial language for data queries in Acumatica Framework; it provides the benefits described above. Fluent BQL provides the following advantages as compared to traditional BQL:
 
@@ -41,7 +41,7 @@ WHERE Product.AvailQty IS NOT NULL
 
 Acumatica Framework explicitly enumerates the columns of the database table in the SQL query. For details on which columns are enumerated, see [Translation of a BQL Command to SQL](../Shared/../StudioDeveloperGuide/AD__con_BQL_Translation_to_SQL.md#).
 
-## LINQ { .section}
+## LINQ
 
 To configure a LINQ query, you can use the following variants of syntax:
 

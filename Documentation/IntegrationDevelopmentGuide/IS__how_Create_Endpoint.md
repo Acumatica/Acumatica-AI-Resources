@@ -1,10 +1,10 @@
-# To Create a Custom Endpoint {#_709351cc-566a-47b3-b153-3a9fdd690ce0 .task}
+# To Create a Custom Endpoint
 
 You use the [Web Service Endpoints](../UserGuide/SM_20_70_60.md) \(SM207060\) form to create a custom endpoint.
 
 If you need to use a custom endpoint, you can either create an endpoint from scratch or extend an existing endpoint with the needed API. This procedure describes how to create a custom endpoint from scratch. To learn how to extend an existing endpoint, see [To Extend an Existing Endpoint](IS__how_Extend_Endpoint.md#).
 
-## To Create an Endpoint from Scratch { .section}
+## To Create an Endpoint from Scratch
 
 **Tip:** You can create an endpoint that has the latest version of the contract only.
 
@@ -17,7 +17,7 @@ If you need to use a custom endpoint, you can either create an endpoint from scr
 4.  Add the needed entities, fields, and actions to the contract of the created endpoint, as described in the sections below.
 5.  Click **Save** on the form toolbar.
 
-## To Add a Top-Level Entity to the Contract of the Endpoint {#_6a9f4811-906d-43f5-9815-de770f5fe3b6 .section}
+## To Add a Top-Level Entity to the Contract of the Endpoint
 
 1.  In the **Endpoint Name** box, select the name of the endpoint to which you want to add an entity.
 2.  In the **Endpoint Version** box, select the version of the endpoint to which you want to add an entity.
@@ -32,7 +32,7 @@ If you need to use a custom endpoint, you can either create an endpoint from scr
     4.  Click **OK**.
 5.  Add the needed fields, actions, or nested entities to the entity, as described in the sections below.
 
-## To Add a Report Entity to the Contract of the Endpoint { .section}
+## To Add a Report Entity to the Contract of the Endpoint
 
 1.  In the **Endpoint Name** box, select the name of the endpoint to which you want to add an entity.
 2.  In the **Endpoint Version** box, select the version of the endpoint to which you want to add an entity.
@@ -50,7 +50,7 @@ If you need to use a custom endpoint, you can either create an endpoint from scr
 
 5.  Optional: Modify the list of fields, as described in [To Add Fields to an Entity](#_6b4c3dab-6732-41f3-8cad-0ba5a92f6d79).
 
-## To Add a Linked or Detail Entity to Another Entity {#_7718d822-4723-412a-aa36-32a7a61fe2cd .section}
+## To Add a Linked or Detail Entity to Another Entity
 
 1.  In the **Endpoint Name** box, select the name of the endpoint to which you want to add an entity.
 2.  In the **Endpoint Version** box, select the version of the endpoint to which you want to add an entity.
@@ -65,7 +65,7 @@ If you need to use a custom endpoint, you can either create an endpoint from scr
 6.  Click **OK**. The new entity appears in the contract.
 7.  Add fields to the created entity, as described in the following section.
 
-## To Add Fields to an Entity {#_6b4c3dab-6732-41f3-8cad-0ba5a92f6d79 .section}
+## To Add Fields to an Entity
 
 1.  In the **Endpoint Name** box, select the name of the endpoint to which you want to add an entity.
 2.  In the **Endpoint Version** box, select the version of the endpoint to which you want to add an entity.
@@ -80,7 +80,7 @@ If you need to use a custom endpoint, you can either create an endpoint from scr
     -   For details on the characters that can be used in the field names, see [Naming Rules for Endpoints](IS__con_Endpoint_Naming_Rules.md).
 5.  Click **Save** on the form toolbar.
 
-## To Add an Action to an Entity {#_ac4ef926-d0da-4d37-83f6-6fe92bf38001 .section}
+## To Add an Action to an Entity
 
 **Attention:** You can add actions that are performed on multiple records \(such as the removal of all records or those the user selects\) to processing forms only. Actions that can be performed on multiple records are not supported for data entry and maintenance forms.
 

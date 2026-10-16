@@ -1,8 +1,8 @@
-# Selection of a Group of Records for Export {#_90f13bb6-3207-4483-a0ba-f6c17ba7a1d9 .concept}
+# Selection of a Group of Records for Export
 
 Each record in the system is identified by the values of the key elements on the applicable Acumatica ERP form. For example, a record on the [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\) form is identified by the value of the **Inventory ID** key element. Key elements are available through the Summary object of a form. You can use the key element or elements of the form to select all records of the form for export. The other way to specify a group of records for export is to use the elements of the Summary area of the form in custom filters. Both ways of selecting records are described in detail below.
 
-## Export of All Records from a Form { .section}
+## Export of All Records from a Form
 
 If you want to export every record from an Acumatica ERP form, in the array of Command objects that you pass to the Export\(\) method, you should insert the service command of the EveryValue type for the corresponding key element on the form. The EveryValue service command is available through the ServiceCommands subobject of the Summary object of the Content object that corresponds to the form. This service command specifies that every record of the specific type should be processed during export.
 
@@ -17,7 +17,7 @@ var commands = new Command[]
 };
 ```
 
-## Export of a Group of Records from a Form { .section}
+## Export of a Group of Records from a Form
 
 You can filter the data available in the Acumatica ERP database to select the records for export. For example, you can configure the system to export only the records that have a particular status.
 

@@ -1,16 +1,16 @@
-# Test Method:To Register a Service {#_83427471-c909-4771-90ca-96045ef0b064 .task}
+# Test Method:To Register a Service
 
 The following activity will walk you through the process of registering a mock service in a test class.
 
-## Story { .section}
+## Story
 
 Suppose that running a test method leads to the generation of the `Autofac.Core.Registration.ComponentNotRegisteredException` exception. When this exception occurs, the error message specifies which component \(interface\) is not registered. You need to register the service that implements the specified interface.
 
-## Process Overview { .section}
+## Process Overview
 
 To get rid of the exception, you will add the use of the Autofac library and override the `TestBase.RegisterServices` method in the test class. In the overridden `RegisterServices` method, you will register the needed service that implements the interface specified in the exception message.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin implementing the registration of a service, do the following:
 
@@ -20,7 +20,7 @@ Before you begin implementing the registration of a service, do the following:
 4.  Make sure that you have performed the [Test Method: To Create a Test Method with Parameters](UnitTest_TestMethod_Activity_CreateTestMethodWithParams.md) prerequisite activity to create the `RepairItemTypeEnabled_WhenRepairItemSelected` test method.
 5.  Run the `RepairItemTypeEnabled_WhenRepairItemSelected` test method.
 
-## Step: Registering a Service { .section}
+## Step: Registering a Service
 
 When the test method created in [Test Method: To Create a Test Method with Parameters](UnitTest_TestMethod_Activity_CreateTestMethodWithParams.md) is run, the following error message is generated if a proper service is not registered \(only part of the error message is quoted\).
 
@@ -31,7 +31,7 @@ To register this service, do the following:
 1.  In the `PhoneRepairShop_Code.Tests.csproj` project, add a reference to `Autofac.dll` from the `Bin` folder of the Acumatica ERP instance if it has not been added yet. For details, see [Test Project and Test Class: To Create a Test Project](UnitTest_TestProject_Activity_CreateProject.md).
 2.  In the `InventoryItemMaintTests` class, override the TestBase.RegisterServices method as follows.
 
-    ```language-csharp
+    ```csharp
             protected override void RegisterServices(ContainerBuilder builder)
             {
                 base.RegisterServices(builder);
@@ -42,7 +42,7 @@ To register this service, do the following:
 
 3.  Make sure the following `using` directives have been added to the `InventoryItemMaintTests.cs` file.
 
-    ```language-csharp
+    ```csharp
     using Autofac;
     using PX.Objects.CM.Extensions;
     ```

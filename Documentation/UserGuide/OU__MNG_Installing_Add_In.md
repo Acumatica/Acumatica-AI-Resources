@@ -1,10 +1,10 @@
-# Installing and Updating the Acumatica Add-In for the AcumaticaClassic UI {#_082f29d2-be4d-4186-80fe-07ceb2865300 .concept}
+# Installing and Updating the Acumatica Add-In for the AcumaticaClassic UI
 
 To install the Acumatica add-in, you must use a manifest file that contains deployment instructions. The system generates a manifest file individually for each user. Before you start the installation, you need to make sure that you have performed all necessary preparatory steps.
 
 This chapter describes how you install and, if needed, update the add-in.
 
-## In This Chapter { .section}
+## In This Chapter
 
 -   [Requirements and Prerequisites](OU__con_Requirements_Prerequisites.md)
 -   [Preparatory Steps](OU__con_Preparatory_Steps.md)

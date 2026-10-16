@@ -1,8 +1,8 @@
-# Project Billing Preparation: Mass Processing {#_21a73326-a715-480b-811b-c1606f4c052b .concept}
+# Project Billing Preparation: Mass Processing
 
 This topic explains how to perform mass-processing operations related to project billing, and how the system generates, changes, or works with documents as a result of the mass processing.
 
-## Mass-Billing Projects { .section}
+## Mass-Billing Projects
 
 Multiple projects can be billed at the same time on the [Run Project Billing](PM_50_30_00.md) \(PM503000\) form. On this form, you can run billing for multiple projects that are pending billing as of the **Invoice Date**, which is selected in the Summary area of the form. You can also narrow the projects to be shown by specifying the project status, statement cycle, customer class, customer, and project template in the Selection area of the form. For more information on preparing projects for billing, see [Project Billing Preparation: General Information](Projects_Project_Billing_Preparation_GeneralInfo.md).
 

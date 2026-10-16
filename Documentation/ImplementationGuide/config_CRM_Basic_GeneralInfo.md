@@ -1,10 +1,10 @@
-# Configuring CRM Functionality: General Information {#_a1341cdc-0933-4501-8e13-ae3ed6ea83d5 .concept}
+# Configuring CRM Functionality: General Information
 
 You can perform the initial configuration of customer relationship management \(CRM\) functionality in Acumatica ERP when a basic company has been configured in the system. This initial configuration includes enabling the required features and specifying the required settings to be used in the system for the CRM functionality. In a production environment, before you configure CRM, you perform broader Acumatica ERP implementation, which includes enabling features and specifying the basic settings for the general ledger, cash management, accounts payable, and accounts receivable functionality.
 
 This topic provides an overview of the tasks required for the initial Acumatica ERP implementation in a production environment and shows the initial configuration of CRM functionality.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -14,14 +14,14 @@ In this chapter, you will do the following:
 -   Enable the feature required for the setup of CRM functionality
 -   Review and save the predefined basic settings for the CRM functionality
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may need to learn how to configure CRM functionality in scenarios that include the following:
 
 -   You are an implementation consultant who has performed other Acumatica ERP implementations and needs to configure the system so that users can start using the CRM functionality.
 -   You are an implementation consultant who is new to Acumatica ERP and needs to learn how to configure CRM functionality.
 
-## Customer Relationship Management in Acumatica ERP { .section}
+## Customer Relationship Management in Acumatica ERP
 
 Customer relationship management functionality helps companies manage their interactions with current and potential customers to effectively identify and address customers' needs, and build strong mutual relationships.
 
@@ -33,7 +33,7 @@ By using the CRM functionality, your sales personnel can qualify leads, assign l
 
 Finally, the CRM functionality gives your customer support personnel the ability to create support cases, assign cases to owners, and process cases.
 
-## Workflow of the CRM Implementation { .section}
+## Workflow of the CRM Implementation
 
 After you install a new instance of Acumatica ERP, the system needs to be prepared for further implementation. When you sign in to a new Acumatica ERP instance, the only form you can access is the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, which you use to enable the needed features, in accordance with your company’s license.
 
@@ -45,7 +45,7 @@ To prepare the system for CRM implementation, you perform the following general 
 4.  On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) form, you enable the *Customer Management* feature and the needed features in this group of features. For details, see [Features for Setting Up CRM Functionality](#_7c985208-ad48-407a-a31e-4dcd83708f8c).
 5.  On the [Customer Management Preferences](../UserGuide/CR_10_10_00.md) \(CR101000\) form, you review \(or review and modify, as needed\) the numbering sequences and save these settings in the system. For details, see [Selection of Numbering Sequences](#_6dd71d7a-cb48-4da1-9360-94cc6d7ae3a1).
 
-## Features for Setting Up CRM Functionality {#_7c985208-ad48-407a-a31e-4dcd83708f8c .section}
+## Features for Setting Up CRM Functionality
 
 As mentioned in the previous section, at minimum, you need to enable the *Customer Management* feature on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form in order to use basic CRM functionality. Enabling this feature gives you the ability to also enable the following additional features:
 
@@ -68,7 +68,7 @@ You can also use the following features, which enhance the CRM functionality:
 
 For more information, see [Preparing an Instance: Acumatica ERP Features](config_SA_Prep_Instance_for_Implem_Features_Overview.md).
 
-## Selection of Numbering Sequences {#_6dd71d7a-cb48-4da1-9360-94cc6d7ae3a1 .section}
+## Selection of Numbering Sequences
 
 Acumatica ERP uses numbering sequences to automatically generate identifiers \(IDs\) for new records of a certain type when they are created either manually by users or automatically by the system. Numbering sequences are used to generate IDs for records used in CRM, such as opportunities, sales quotes, and cases. You can use predefined numbering sequences or create new ones if needed. For more information, see [Use of Numbering Sequences](../UserGuide/CS__con_Multiple_Numbering_Sequences.md).
 

@@ -1,8 +1,8 @@
-# PXCommandLine Tool: General Information {#_01dc39fa-c2a2-49cc-be32-281dd67e569e .concept}
+# PXCommandLine Tool: General Information
 
 The PX.CommandLine tool is a console application that can be used to work with customization packages in automated scenarios, such as continuous integration \(CI\) scripts. It gives developers the ability to integrate a number of operations that are performed in the Customization Project Editor into scripts—such as building, uploading, and deleting customization projects.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following by using the PXCommandLine tool:
 
@@ -17,11 +17,11 @@ In this chapter, you will learn how to do the following by using the PXCommandLi
 -   Run the `CustomizationPlugin.UpdateDatabase` methods from customization plug-ins of all published customization projects
 -   Update the pages and files of the website by using a customization package file
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You use the PXCommandLine tool if you need to work with customization projects in automated scenarios.
 
-## Use of the PX.CommandLine Tool { .section}
+## Use of the PX.CommandLine Tool
 
 The PX.CommandLine tool is an executable file \(`PX.CommandLine.exe`\) located in the `\Bin` folder of your customization project.
 

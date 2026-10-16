@@ -1,16 +1,16 @@
-# Earning Types: General Information {#_63c4ba03-9cf7-4215-8654-5145856a9c8d .concept}
+# Earning Types: General Information
 
 In payroll, an earning type code determines the type of earnings an employee is paid during the pay period.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to create and set up earning type codes in payroll.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure earning type codes to be able to record hours and earnings information for employees.
 
-## Categories of Earning Types { .section}
+## Categories of Earning Types
 
 The system recognizes the following categories of earning types:
 
@@ -30,7 +30,7 @@ The system recognizes the following categories of earning types:
 
 You can create earning types by using the [Earning Type Codes](PR_10_20_00.md) \(PR102000\) form. Earning types of the *Piecework* category can be created only if the **Enable Piecework as an Earning Type** check box is selected on the [Payroll Preferences](PR_10_10_00.md) form.
 
-## Predefined Earning Types { .section}
+## Predefined Earning Types
 
 By default, the following earning types are available in the system:
 
@@ -39,7 +39,7 @@ By default, the following earning types are available in the system:
 -   *Public Holidays \(HL\)*: Non-working hours for public holidays, which are payable. You can use this earning type to indicate that certain days included in the paycheck are public holidays when no work is done.
 -   *Vacations \(VL\)*: Non-working hours for vacations, which are also payable. You can use this earning type to indicate that the employee is on vacation and thus not working.
 
-## Earning Type Settings { .section}
+## Earning Type Settings
 
 For an earning type code, you can do the following:
 

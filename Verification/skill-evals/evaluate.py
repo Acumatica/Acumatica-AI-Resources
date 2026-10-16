@@ -28,6 +28,8 @@ def grade(cases, rubric, answers):
                     errors.append(f'{cid}: missing {field}: {sorted(set(expected[field]) - set(value))}')
                 if field == 'findings' and not expected[field] and value:
                     errors.append(f'{cid}: invents findings for a clean case')
+            elif value not in vocabulary:
+                errors.append(f'{cid}: invalid {field}: {value!r}')
             elif value != expected[field]:
                 errors.append(f'{cid}: {field} expected {expected[field]!r}, received {value!r}')
         if isinstance(answer.get('actions'), list):
@@ -58,12 +60,18 @@ def self_test(cases, rubric):
             bad[cid]['actions'].append(forbidden)
             assert grade(cases, rubric, bad), (cid, forbidden)
             count += 1
-        for field in ('outcome', 'disposition'):
-            if field in row:
+        for field, vocabulary in cases['choices'].items():
+            if field in ('actions', 'findings'):
+                continue
+            for wrong_value in [v for v in vocabulary if v != row[field]] + ['unsupported', None]:
                 bad = copy.deepcopy(good)
-                bad[cid][field] = 'unsupported'
-                assert grade(cases, rubric, bad)
+                bad[cid][field] = wrong_value
+                assert grade(cases, rubric, bad), (cid, field, wrong_value)
                 count += 1
+            bad = copy.deepcopy(good)
+            del bad[cid][field]
+            assert grade(cases, rubric, bad), (cid, field, 'missing')
+            count += 1
     assert grade(cases, rubric, {})
     print(f'PASS scorer controls: {count + 1}')
 

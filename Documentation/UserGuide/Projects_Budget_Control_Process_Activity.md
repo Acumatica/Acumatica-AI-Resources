@@ -1,16 +1,16 @@
-# Project Budget Control: To Review the Budget Overruns {#_c53c0b58-16c1-4385-a86e-d9cecdcec4c0 .task}
+# Project Budget Control: To Review the Budget Overruns
 
 This activity will walk you through the process of receiving notifications that indicate whether a newly entered document fits the existing project budget.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the West BBQ Restaurant customer has ordered a juicer from the SweetLife Fruits &amp; Jams company, along with the following services: juicer installation, and employee training on operating the juicer. The SweetLife company has contracted the Squeezo Inc. vendor to perform all the services. SweetLife's project accountant has created the project. The vendor has delivered and installed the juicer, and Squeezo's consultant has provided the training. Then suppose that the project accountant noticed that the juicer has cost an extra $200 beyond the budgeted amount, and that the installation and the training have taken two hours more than the budgeted number of hours.
 
 Acting as SweetLife's project accountant, you will enter a change order to adjust the cost of the juicer, an accounts payable bill for the provided training, and a purchase order for the installation service. As you enter these project-related documents, you will check whether the costs are within the project budget.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -23,11 +23,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *JUICER15* stock item has been defined.
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *SQUEEZO* vendor has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will capture project costs by processing a change order on the [Change Orders](PM_30_80_00.md) \(PM308000\) form, an accounts payable bill on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, and a purchase order on the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form. While you process these documents, you will review potential budget overruns on the entry forms. You will then review all the project budget overruns at once on the [Potential Project Budget Overruns](PM_40_40_00.md) \(PM404000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
@@ -40,7 +40,7 @@ To sign in to the system and prepare to perform the instructions of the activity
 
 5.  Save your changes to the project accounting preferences.
 
-## Step 1: Creating a Change Order for the Project { .section}
+## Step 1: Creating a Change Order for the Project
 
 To review the project and create a change order for the project, do the following:
 
@@ -70,10 +70,9 @@ To review the project and create a change order for the project, do the followin
     -   The amount by which the change exceeds the available budget \(*Remaining*\) is *200*.
     A warning is also shown in the Summary area of the form.
 
-    ![](Images/activity_Projects_BudgetControl.png "Warnings indicating a budget overrun for a change order")
 
 
-## Step 2: Creating a Bill for the Project { .section}
+## Step 2: Creating a Bill for the Project
 
 To create a bill for the project, do the following:
 
@@ -98,7 +97,7 @@ To create a bill for the project, do the following:
     А warning has also appeared in the Summary area of the form.
 
 
-## Step 3: Creating a Purchase Order for the Project { .section}
+## Step 3: Creating a Purchase Order for the Project
 
 To create a purchase order for the project, do the following:
 
@@ -123,7 +122,7 @@ To create a purchase order for the project, do the following:
     А warning has also appeared in the Summary area of the form.
 
 
-## Step 4: Reviewing Potential Budget Overruns { .section}
+## Step 4: Reviewing Potential Budget Overruns
 
 To review all the budget overruns for the project in a single place, do the following:
 
@@ -131,7 +130,6 @@ To review all the budget overruns for the project in a single place, do the foll
 2.  In the **Project** box, select *WESTBBQ2*.
 3.  On the form toolbar, click **Calculate** to review all project-related documents that exceed the budget \(see below\).
 
-![](Images/activity_Projects_BudgetControl2.png "Budget overruns of the project")
 
 You have configured the tracking of budget overruns and found the documents that exceed the project budget. In the next step of the process in a production environment, which is beyond the scope of this activity, a project manager would approve or reject these changes to the budgeted amounts.
 

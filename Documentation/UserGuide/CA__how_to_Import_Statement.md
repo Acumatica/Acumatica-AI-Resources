@@ -1,4 +1,4 @@
-# To Import a Bank Statement in Excel {#_b8242f36-4c6b-4f93-a3e1-da72ae84629c .task}
+# To Import a Bank Statement in Excel
 
 If you have an Excel file with a single statement, on the [Import Bank Transactions](CA_30_65_00.md) \(CA306500\) form, you can import the bank transactions for this statement by clicking the **Load Records from File** standard button on the table toolbar.
 
@@ -6,7 +6,7 @@ This procedure describes how to import a single bank statement from a Microsoft 
 
 **Tip:** If you have an Excel file that holds multiple statements, you can import these statements by using a scenario based on the built-in data provider for Excel files. To create this scenario, you use the [Import Scenarios](SM_20_60_25.md) \(SM206025\) form. You can adjust the sample scenario for importing bank statements, which is available with the demo data supplied with Acumatica ERP.
 
-## To Import the Bank Statement {#section_ard_kjv_vxb .section}
+## To Import the Bank Statement
 
 1.  Open the [Import Bank Transactions](CA_30_65_00.md) \(CA306500\) form.
 2.  In the **Cash Account** box, select the bank account for which you want to import the statement.

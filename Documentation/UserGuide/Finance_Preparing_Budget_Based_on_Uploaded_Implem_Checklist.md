@@ -1,8 +1,8 @@
-# Budget Based on an Existing Budget: Implementation Checklist {#_e7328501-405e-48d7-8231-516d2b1634eb .concept}
+# Budget Based on an Existing Budget: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for preparing a budget based on an uploaded budget, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist {#section_qnk_mjv_vxb .section}
+## Implementation Checklist
 
 We recommend that before you initially prepare a budget, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -16,7 +16,7 @@ We recommend that before you initially prepare a budget, you make sure the neede
 |[Master Financial Calendar](GL_20_10_00.md) \(GL201000\)|Be sure that calendars for the financial years for which budgets will be created have been generated.|
 |[Budgets](GL_30_20_10.md) \(GL302010\)|Make sure that a simple budget has been created and released as described in [Simple Budget: Process Activity](Finance_Preparing_Simple_Budget_Activity.md).|
 
-## Additional Configuration {#_c518cb6d-2320-42b8-a73d-c17b246be1e2 .section}
+## Additional Configuration
 
 The following table provides details of additional configuration needed for the preparation of a simple budget.
 
@@ -24,7 +24,7 @@ The following table provides details of additional configuration needed for the 
 |----|-----------------|-----|
 |Multiple forms|If your company uses subaccounts, the subaccounts have to be configured, as described in [Subaccounts: Implementation Activity](../ImplementationGuide/config_Subaccounts_Implem_Activity.md).| |
 
-## Validation of Configuration {#section_tnk_mjv_vxb .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you prepare a budget based on an uploaded budget by performing instructions similar to those described in [Budget Based on an Existing Budget: Process Activity](Finance_Preparing_Budget_Based_on_Uploaded_Process_Activity.md).
 

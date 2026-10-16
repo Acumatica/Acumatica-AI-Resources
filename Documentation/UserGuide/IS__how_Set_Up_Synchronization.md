@@ -1,4 +1,4 @@
-# To Set Up Data Synchronization in Acumatica ERP {#_fc527a0a-77cb-4deb-9a9c-52841109add4 .task}
+# To Set Up Data Synchronization in Acumatica ERP
 
 On the [Salesforce Sync Entities](SF_20_50_20.md) \(SF205020\) form, review the predefined list of entities available for synchronization with Salesforce. If needed \(for instance, if you have created new integration scenarios that you want to be used for data synchronization instead of the built-in scenarios\), modify the settings specified for a particular entity by doing the following:
 

@@ -1,21 +1,21 @@
-# Vendor Relations: General Information {#_59fb000e-e055-4516-819c-3c1601f579d3 .concept}
+# Vendor Relations: General Information
 
 In Acumatica ERP, you can track the vendor that receives payment and the vendor that supplies the needed items if these vendors are different. You can specify these vendor relations on the [Vendors](AP_30_30_00.md) \(AP303000\) form so that the system will handle the relations in documents \(such as purchase orders, purchase receipts, and AP bills and debit adjustments\).
 
 **Attention:** This functionality is available in the system if the *Vendor Relations* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. If your business uses purchase orders, the *Inventory and Order Management* group of features must be enabled.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Set up the vendor relations functionality
 -   Process a purchase from one vendor and the payment for this purchase to a different vendor
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You set up vendor relations in the system if the vendor that receives payments and the vendor that supplies goods or services are different and you need the system to automatically handle these relations in AP documents.
 
-## Setup of Vendor Relations { .section}
+## Setup of Vendor Relations
 
 In Acumatica ERP, you can define the appropriate vendor settings to set up vendor relations. With this configuration, once you use a particular vendor in a purchase order or purchase receipt \(the supplied-by vendor\), the system will insert the appropriate vendor account in the AP document based on that purchase order \(the pay-to vendor\).
 
@@ -24,7 +24,7 @@ To establish vendor relations, a particular vendor account can be defined as the
 -   The *supplied-by vendor*: A vendor that the system indicates in documents and reports as a supplier of goods or services that are paid for.
 -   The *pay-to vendor*: A vendor that the system uses by default in documents \(such as AP bills\) as the recipient of payments when one of this vendor's supplied-by vendors provides billed goods or services.
 
-## Setup of a Pay-to Vendor {#section_t1h_njv_vxb .section}
+## Setup of a Pay-to Vendor
 
 For each vendor that supplies \(but does not directly receive payment for\) goods or services and that should be involved in the vendor relations, you specify this vendor's pay-to vendor on the **Payment** tab of the [Vendors](AP_30_30_00.md) \(AP303000\) form. In the **Pay-to Vendor** box, you select the vendor to which the payment should be made for the goods or services supplied by the vendor currently selected on the form.
 
@@ -32,7 +32,7 @@ With this setting specified, when an accounts payable bill or debit adjustment i
 
 **Attention:** A pay-to vendor can be overridden directly in a particular document \(such as purchase order, purchase receipt, AP bill, or debit adjustment\).
 
-## Pay-to Vendor Restrictions {#section_v1h_njv_vxb .section}
+## Pay-to Vendor Restrictions
 
 When you attempt to select a vendor account in the **Pay-to Vendor** box of the [Vendors](AP_30_30_00.md) form, the following vendor accounts are not available in this list:
 
@@ -41,13 +41,13 @@ When you attempt to select a vendor account in the **Pay-to Vendor** box of the 
 -   Vendor accounts with the statuses of *On Hold* and *Inactive*.
 -   Tax agencies, labor unions, and 1099 vendors. That is, a vendor is not listed if any of the following check boxes is selected in the vendor's settings on the **General** tab of the [Vendors](AP_30_30_00.md) form: **Vendor Is Tax Agency**, **Vendor Is Labor Union**, and **1099 Vendor**.
 
-## Supplied-By Vendors List {#section_x1h_njv_vxb .section}
+## Supplied-By Vendors List
 
 On the [Vendors](AP_30_30_00.md) form, if you open an account of a pay-to vendor, the **Supplied-By Vendors** tab appears on the form. On this tab, you can see the list of vendors for which the selected vendor has been specified as a pay-to vendor. Note that this list cannot be edited.
 
 The system automatically adds a vendor to the list on the **Supplied-By Vendors** tab for the pay-to vendor once you specify a pay-to vendor in the settings of supplied-by vendor.
 
-## Example of Vendor Relations {#section_lzg_njv_vxb .section}
+## Example of Vendor Relations
 
 Suppose that two small companies \(Company 1 and Company 2\) want to order office supplies from a big vendor \(Office Supplies Co.\). If they collectively order supplies, they can get a discount for a large number of items in this joint purchase. The companies organize into an alliance to place their orders with the vendor, with a bigger company \(Good Hardware Corp.\) making payments to this vendor. The flow of documents between these vendors consists of the following general steps, whose numbers correspond to the numbers in the screenshot below:
 
@@ -59,7 +59,6 @@ Suppose that two small companies \(Company 1 and Company 2\) want to order offic
 
 The following diagram illustrates the flow of documents between the companies and the vendors in this vendor relations workflow.
 
-![](Images/VendorRelationsDiagram_2017R2.png "Document flow with vendor relations")
 
 **Parent topic:**[Managing Vendor Relations](../UserGuide/Finance_Managing_Vendor_Relations_Mapref.md)
 

@@ -1,10 +1,10 @@
-# Dunning Process Setup: Implementation Activity {#_1dd76c25-ee75-45e8-9f98-7f17a12dec20 .task}
+# Dunning Process Setup: Implementation Activity
 
 In the following implementation activity, you will learn how to implement the dunning process.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_eyd_hjv_vxb .section}
+## Story
 
 Suppose that SweetLife Fruits &amp; Jams decided to implement the dunning process in the system, which the Credit Control team can use to streamline its work. In the system, the following dunning levels should be used:
 
@@ -16,15 +16,15 @@ Suppose that SweetLife Fruits &amp; Jams decided to implement the dunning proces
 
 Acting as an implementation consultant \(Kimberly Gibbs\), you need to enable the needed feature and set up the dunning process on the **Dunning** tab of the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form.
 
-## Process Overview {#section_hyd_hjv_vxb .section}
+## Process Overview
 
 In this activity, you will first enable the *Dunning Letter Management* feature on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. On the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, you will update the dunning settings for accounts receivable. Finally, on the [Customer Classes](AR_20_10_00.md) \(AR201000\) form, you will set up dunning letter levels for the *DEFAULT* customer class.
 
-## System Preparation {#section_jyd_hjv_vxb .section}
+## System Preparation
 
 Before you start implementing the dunning process, launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as Kimberly Gibbs with the *gibbs* username and the *123* password.
 
-## Step 1: Enabling the Needed Feature {#section_lyd_hjv_vxb .section}
+## Step 1: Enabling the Needed Feature
 
 To enable the *Dunning Letter Management* feature, do the following:
 
@@ -32,7 +32,7 @@ To enable the *Dunning Letter Management* feature, do the following:
 2.  In the *Advanced Financials* group of features, select the **Dunning Letter Management** check box.
 3.  On the form toolbar, click **Enable**.
 
-## Step 2: Updating the Accounts Receivable Preferences {#section_nyd_hjv_vxb .section}
+## Step 2: Updating the Accounts Receivable Preferences
 
 To set up the dunning process, do the following:
 
@@ -45,7 +45,7 @@ To set up the dunning process, do the following:
     -   **Automatically Release Dunning Fee Documents**: Selected
 3.  On the form toolbar, click **Save** to save your changes.
 
-## Step 3: Specifying Dunning Settings for a Customer Class {#section_pyd_hjv_vxb .section}
+## Step 3: Specifying Dunning Settings for a Customer Class
 
 To specify the dunning settings for the *DEFAULT* customer class, do the following:
 

@@ -1,14 +1,14 @@
-# Copying Service Contracts: Process Activity {#_afecdff7-b9a8-4b26-862c-f338c8215c42 .task}
+# Copying Service Contracts: Process Activity
 
 The following activity will walk you through the process of copying a service contract.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that HM's Bakery and Cafe customer has opened a new office in a new location, and wants to create a service contract for a new location with similar conditions as those specified in the existing service contract. Acting as the service manager \(Maia Davis\) of the *Service and Equipment Sales Center* branch, you need to make a copy of the service contract. In the copied contract, you need to update the start and end dates, the customer location, and schedule frequency settings. Then you will generate and send the forecast quote report to the customer for approve, and after the customer approves the changes, you will activate the new service contract.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following configuration tasks have been performed to prepare the system for this activity to be performed:
 
@@ -25,11 +25,11 @@ In the *U100* dataset, the following configuration tasks have been performed to 
 -   On the [Customer Locations](AR_30_30_20.md) \(AR303020\) form, the *MAIN2* location has been configured.
 -   On the [Service Contracts](FS_30_57_00.md) \(FS305700\) form, the *FCT00000001* contract has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Service Contracts](FS_30_57_00.md) \(FS305700\) form, you will copy a service contract. In the copied service contract, on the [Service Contracts](FS_30_57_00.md) form, you will change the customer location, and on the [Service Contract Schedules](FS_30_51_00.md) \(FS305100\) form, you will change the schedule settings. Then, on the [Service Contracts](FS_30_57_00.md) form, you will generate a forecast report, and send it to customer for approve. We assume that a customer has approved the new service contract, so that on the [Service Contracts](FS_30_57_00.md) form, you will activate the contract.
 
-## System Preparation { .section}
+## System Preparation
 
 Do the following:
 
@@ -37,7 +37,7 @@ Do the following:
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, ensure the *Service and Equipment Sales Center* branch under the *SweetLife Fruits &amp; Jams* company is selected.
 
-## Step 1: Copying a Service Contract { .section}
+## Step 1: Copying a Service Contract
 
 To copy a service contract, do the following:
 
@@ -49,7 +49,7 @@ To copy a service contract, do the following:
     The system has opened a new service contract with the *Draft* status assigned. The system copied the settings of the original service contract including the summary information \(such as a customer, description, and project\), the schedule generated for the contract added on the **Schedules** tab, and the service included in the contract on the **Services per Period** tab.
 
 
-## Step 2: Modifying the Settings in the Copied Service Contract { .section}
+## Step 2: Modifying the Settings in the Copied Service Contract
 
 The customer has asked to specify a new location in the service contract, and to change the frequency settings of the schedule. Do the following:
 
@@ -58,7 +58,7 @@ The customer has asked to specify a new location in the service contract, and to
 3.  On the [Service Contract Schedules](FS_30_51_00.md) \(FS305100\) form that opens, on the **Recurrence** tab, clear **Monday** check box, and select **Tuesday** and **Friday**.
 4.  On the form toolbar, click **Save**, and close the [Service Contract Schedules](FS_30_51_00.md) form.
 
-## Step 3: Generating and Emailing a Forecast Report { .section}
+## Step 3: Generating and Emailing a Forecast Report
 
 Before activating the new service contract, you want to send a service contract quote report to the customer to get approve for the contract terms. To generate a forecast report, and email it to the customer, do the following:
 
@@ -70,7 +70,6 @@ Before activating the new service contract, you want to send a service contract 
 
     The system has generated and opened the quote report in the printed view \(as the following screenshot shows\).
 
-    ![](Images/EquipMgmt_Service_Contracts_Quote_Report.png "Service Contract Quote report")
 
 3.  Return to the [Service Contracts](FS_30_57_00.md) form, and on the More menu, click **Email Report**.
 4.  Click **Activities** at the right top corner of the [Service Contracts](FS_30_57_00.md) form. In the **Tasks &amp; Activities** dialog box that opens, click the link, and review the email sent to the customer.
@@ -80,7 +79,7 @@ Before activating the new service contract, you want to send a service contract 
     **Tip:** If you have made any changes in the contract after generating the quote, you need to use the **Forecast &amp; Print Quote** command once again before emailing the quote report to the customer.
 
 
-## Step 4: Activating a Service Contract { .section}
+## Step 4: Activating a Service Contract
 
 Once the customer has approved the new service contract, you activate the contract. Do the following:
 

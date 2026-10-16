@@ -1,20 +1,20 @@
-# Tenant Maintenance: To Create an Additional Tenant {#_8d7fb15d-6361-445d-aa54-31235910b415 .task}
+# Tenant Maintenance: To Create an Additional Tenant
 
 The following activity will walk you through the process of creating an additional tenant.
 
-## Story { .section}
+## Story
 
 Suppose that you are the system administrator of your company, and you have been asked to create an additional tenant in an existing Acumatica ERP application instance.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create an additional tenant in an existing instance.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the step of this activity, make sure that you have performed one of the following prerequisite activities: [Instance Deployment: To Deploy an Instance with Demo Data](INST_Deploying_Instances_Deploy_Tenant_With_Demodata_Activity.md) or [Instance Deployment: To Deploy an Out-of-the-Box Instance](INST_Deploying_Instances_Deploy_Tenant_Without_Demodata_Activity.md).
 
-## Step: Creating an Additional Tenant { .section}
+## Step: Creating an Additional Tenant
 
 If you have already deployed an Acumatica ERP instance, you can add an additional tenant to the instance as follows:
 

@@ -1,14 +1,14 @@
-# Simple Budget: Process Activity {#_52ca8dc0-0b33-42ba-aed8-f6215dbf666e .task}
+# Simple Budget: Process Activity
 
 In this activity, you will learn how to prepare simple budgets by uploading data from Excel files.
 
-## Story {#section_gjk_mjv_vxb .section}
+## Story
 
 Suppose that the sales manager of SweetLife Fruits &amp; Jams has prepared an Excel file with the sales budget for the SweetLife company. The sales budget contains the amounts of each stock and non-stock item \(jams, fruit, equipment, services, and other products\) that the company's stores plan to sell in 2026.
 
 Further suppose that the production manager of SweetLife has prepared an Excel file with a production budget for SweetLife, with amounts based on the sales budget. Acting as a SweetLife accountant, you have to upload these budgets to the system.
 
-## Configuration Overview {#section_jjk_mjv_vxb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed for the purposes of this activity:
 
@@ -16,11 +16,11 @@ In the *U100* dataset, the following tasks have been performed for the purposes 
 -   On the [Branches](CS_10_20_00.md) \(CS102000\) form, the *HEADOFFICE* branch of the *SWEETLIFE* company has been created.
 -   On the [Ledgers](GL_20_15_00.md) \(GL201500\) form, the *BUDGET* ledger has been added.
 
-## Process Overview {#section_mjk_mjv_vxb .section}
+## Process Overview
 
 In this activity, on the [Budgets](GL_30_20_10.md) \(GL302010\) form, you will specify the basic settings of a simple budget \(branch, ledger, and financial year\) and add the budget articles to the table. You will then post the budgets to a budget ledger by releasing the budget articles on the [Release Budgets](GL_50_55_10.md) \(GL505510\) form.
 
-## System Preparation {#section_ojk_mjv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -28,7 +28,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  To define the needed budget ledger, make sure that you have performed the following prerequisite activity: [Budget Ledger: Implementation Activity](../ImplementationGuide/BudgetLedger_Implem_Activity.md).
 3.  Make sure that no budget tree has been configured on the [Budget Configuration](GL_20_50_00.md) \(GL205000\) form. You cannot complete this activity if a budget tree has been configured.
 
-## Step 1: Uploading Budget Data {#section_qjk_mjv_vxb .section}
+## Step 1: Uploading Budget Data
 
 To upload the budgets from the respective Excel files, do the following:
 
@@ -55,7 +55,7 @@ To upload the budgets from the respective Excel files, do the following:
 
 16. On the form toolbar, click **Save** to save the uploaded budget.
 
-## Step 2: Releasing the Budgets {#section_ujk_mjv_vxb .section}
+## Step 2: Releasing the Budgets
 
 To release the budgets, do the following:
 

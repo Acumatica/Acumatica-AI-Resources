@@ -1,4 +1,4 @@
-# Configuring Containers {#_e62f99c6-20a7-4f27-929b-b5743c1d0d67 .concept}
+# Configuring Containers
 
 In this chapter, you can find information about the configuration of different types of containers, such as PXFormView, PXGrid, PXTab, PXTreeView, and PXPanel.
 

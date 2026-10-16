@@ -1,4 +1,4 @@
-# Record Validation for Duplicates: Merging of Duplicate Records {#_658acae1-9861-458f-8f9c-af2b2af3950b .concept}
+# Record Validation for Duplicates: Merging of Duplicate Records
 
 Suppose that you’ve performed duplicate validation for a record and at least one duplicate record has been found. Each duplicate record is listed in the **Records for Merging** table on the **Duplicates** tab of one of these forms:
 
@@ -8,7 +8,7 @@ Suppose that you’ve performed duplicate validation for a record and at least o
 -   [Customers](AR_30_30_00.md) \(AR303000\)
 -   [Vendors](AP_30_30_00.md) \(AP303000\)
 
-## Merging of Records on the Duplicates Tab {#_e5c77f3d-093b-4eb4-bc9d-4ff252988c54 .section}
+## Merging of Records on the Duplicates Tab
 
 In the **Records for Merging** table of the **Duplicates** tab of the needed data entry form, you can merge the lead, contact, or business account with their duplicate records of the same type. You can merge the customer or vendor record with a duplicate record of only the *Business Account* type.
 
@@ -36,7 +36,7 @@ If the duplicate record has any associated activities or attached files, the sys
 
 For details about merging duplicate records, see [Record Validation for Duplicates: To Validate a Lead for Duplicates](CRM_Mktg_Validating_Recs_Duplicates_Validating_Lead.md).
 
-## Copying of Relations from a Duplicate Record to a Target Record { .section}
+## Copying of Relations from a Duplicate Record to a Target Record
 
 When a target record is merged with the duplicate record, the system copies the relations with associated records from a duplicate record and adds to a target record as follows:
 

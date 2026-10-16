@@ -1,12 +1,12 @@
-# Employee Payroll Classes: Configuration Prerequisites {#_911eab0b-d069-46c6-8bc3-168a5621f598 .concept}
+# Employee Payroll Classes: Configuration Prerequisites
 
 Before you start creating employee payroll classes, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Payroll* feature has been enabled.
 
-## Configuring the System { .section}
+## Configuring the System
 
 The following tasks have been performed in Acumatica ERP:
 

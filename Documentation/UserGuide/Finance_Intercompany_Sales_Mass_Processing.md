@@ -1,8 +1,8 @@
-# Intercompany Sales: Mass Processing {#_a379846b-5e5c-495b-8ffe-3146ae79168f .concept}
+# Intercompany Sales: Mass Processing
 
 This topic explains how to automatically generate AP bills from multiple AR invoices.
 
-## Mass Processing of AR Invoices {#section_whs_4jv_vxb .section}
+## Mass Processing of AR Invoices
 
 You use the [Generate Intercompany Documents](AP_50_35_00.md) \(AP503500\) form for the mass generation of AP documents based on AR documents from the selling company.
 

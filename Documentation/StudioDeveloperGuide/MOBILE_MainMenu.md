@@ -1,4 +1,4 @@
-# Main Menu {#_372f52b4-f6b3-41e3-946f-cc5b4291ed21 .concept}
+# Main Menu
 
 The main menu of the Acumatica mobile application consists of links to folders and screens. Clicking on a folder link opens the folder, which may include links to screens and other folders. Thus, the folders have a hierarchy, as the folders in file systems do. The main menu provides access to screens in the mobile site map, and folders are used to organize the screens.
 
@@ -8,7 +8,7 @@ The start page of the main menu contains all child tags of the sm:SiteMap tag.
 
 In this topic, you can read about and perform several simple examples that demonstrate how to build the main menu of the mobile application.
 
-## Example: Viewing the Simplest Configuration of the Mobile Application { .section}
+## Example: Viewing the Simplest Configuration of the Mobile Application
 
 To see an example of the mobile application with a simple configuration, copy the code below to an `.xml` file, place the file in the `\App_Data\Mobile` folder of the Acumatica ERP website, and start the mobile application.
 
@@ -30,11 +30,10 @@ To see an example of the mobile application with a simple configuration, copy th
 
 On a mobile device, the mobile application will look like the application shown in the following screenshots.
 
-![](Images/new-1.png "The simple mobile application")
 
 Notice that the main menu contains only the link to the **Projects** screen; there are no folders on the menu.
 
-## Example: Adding a Screen to a Folder { .section}
+## Example: Adding a Screen to a Folder
 
 In this example, you will add a screen to a folder. If you copy the code below to an *.xml* file in the `\App_Data\Mobile` folder, the **Projects** screen will be located in the **Organization** folder.
 
@@ -62,7 +61,6 @@ In this example, you will add a screen to a folder. If you copy the code below t
 
 The screenshots below show the results of this code on the mobile device.
 
-![](Images/new-2.png "The main menu, the contents of the folder, and the screen")
 
 **Note:** A folder must include at least one screen.
 
@@ -73,7 +71,7 @@ A folder can be of one of the following types, which determine how the folder co
 
 **Note:** Nested folders of the HubFolder type are not supported. That is, you may not add a folder of the HubFolder type within another folder of HubFolder type.
 
-## Example: Creating a Folder of the HubFolder Type { .section}
+## Example: Creating a Folder of the HubFolder Type
 
 In this example, you will create a folder of the HubFolder type and add two screens to it. Copy the code below to an `.xml` file in the `\App_Data\Mobile` folder, and start the mobile application.
 
@@ -115,15 +113,13 @@ In this example, you will create a folder of the HubFolder type and add two scre
 
 In the following screenshots, you can see the results of this code on a mobile device.
 
-![](Images/new-3.png "The main menu and the folder of HubFolder type")
 
 When you tap the **Organization** icon, the mobile application opens the folder with the **Projects** and **Tasks** lists in it. You can switch between these lists by swiping right and left.
 
-## Example: Configuring Screens with Tabs { .section}
+## Example: Configuring Screens with Tabs
 
 Some Acumatica ERP forms display lists on multiple tabs \(as the following screenshot shows\).
 
-![](Images/111.png "Acumatica ERP form with multiple tabs")
 
 In the mobile application, such a form is represented as multiple screens, with each screen corresponding to a single tab. However, you have to configure the screen only once because the mobile API server automatically performs the screen expansion into multiple screens.
 
@@ -151,7 +147,6 @@ Copy the code below to an `.xml` file in the `\App_Data\Mobile` folder, and star
 
 The following screenshots show the result of this code on a mobile device.
 
-![](Images/new-4.png "The multi-tab screen represented as a folder")
 
 **Parent topic:**[Configuring the Mobile Site Map by Using XML \(deprecated\)](../StudioDeveloperGuide/MOBILE_UIStructure.md)
 

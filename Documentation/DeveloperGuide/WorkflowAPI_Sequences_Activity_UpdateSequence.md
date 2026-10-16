@@ -1,8 +1,8 @@
-# Composite Workflow States: To Update a Composite State {#_498d11c5-ae85-415e-9b16-92318ed1e586 .concept}
+# Composite Workflow States: To Update a Composite State
 
 This activity will walk you through the process of adding a nested workflow state to a composite state of a predefined workflow.
 
-## Story { .section}
+## Story
 
 Suppose that you need to implement the following behavior on the [Invoices](../Shared/../UserGuide/SO_30_30_00.md) \(SO303000\) form:
 
@@ -13,11 +13,11 @@ On the [Invoices](../Shared/../UserGuide/SO_30_30_00.md) \(SO303000\) form, the 
 
 You also need to specify a skip condition for the new workflow state and add a transition from this workflow state to the next state in the workflow. The skip condition will check for no cash discount being applied to the invoice.
 
-## Process Overview { .section}
+## Process Overview
 
 In the extension of the predefined workflow for the [Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\) form, you will implement an action \(and the corresponding button on the form toolbar and command on the More menu\) that will trigger a transition from the new state. You will also add a nested workflow state, specify a condition that the system will use to skip this state, and then add a transition from this state to the next nested workflow state.
 
-## System Preparation { .section}
+## System Preparation
 
 Make sure that you have done the following:
 

@@ -1,4 +1,4 @@
-# Requirements for an Extension Table Schema {#_d5881298-51ce-4ed9-8cef-2dddbb09261f .concept}
+# Requirements for an Extension Table Schema
 
 You should ensure that the following requirements are met when you create an extension table:
 

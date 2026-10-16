@@ -1,4 +1,4 @@
-# Creating a Barcode Scan Class {#_bdb73e53-e39d-4768-a1e7-a59b5e880d5d .concept}
+# Creating a Barcode Scan Class
 
 In this chapter, you will learn about a barcode scan class, which is the main class of a barcode-driven form. You will also create a barcode scan class.
 

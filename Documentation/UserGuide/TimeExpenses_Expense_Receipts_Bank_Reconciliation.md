@@ -1,8 +1,8 @@
-# Expense Receipts with Corporate Cards: Bank Reconciliation for a Corporate Card {#_a394c60d-5b80-44cb-acc4-34602b8efd71 .concept}
+# Expense Receipts with Corporate Cards: Bank Reconciliation for a Corporate Card
 
 You can maintain internal control over corporate credit cards by performing regular reconciliations of the cash account configured for corporate cards. Generally, the goal of reconciliation is to find discrepancies between account balances tracked by different means, locate any errors, and make needed corrections or adjustments. Reconciliation is usually done at the end of each period or more frequently. For more information on the reconciliation process, see [Bank Reconciliation: General Information](Finance_Bank_Reconciliation_GenInfo.md).
 
-## Learning Objectives {#section_nt2_tpm_wpb .section}
+## Learning Objectives
 
 In this topic, you will learn how to do the following:
 
@@ -10,11 +10,11 @@ In this topic, you will learn how to do the following:
 -   Reconcile a bank statement for the corporate credit card
 -   Create and release a bill for the bank
 
-## Importing of Bank Transactions { .section}
+## Importing of Bank Transactions
 
 On the [Import Bank Transactions](CA_30_65_00.md) \(CA306500\) form, you upload bank statement records for the liability cash account of corporate cards. If a bank statement record contains the corporate card number in text format, this number is shown in the **Card Number** column on the form. A single bank statement may contain the transactions of all the corporate cards associated with the same cash account. For more information about importing bank transactions, see [Bank Reconciliation: Uploading and Processing of Bank Transactions](Finance_Bank_Reconciliation_Preparation.md) and [Importing Transactions](CA__CON_ImportBankTrans.md).
 
-## Processing of Imported Bank Transactions { .section}
+## Processing of Imported Bank Transactions
 
 On the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form, for the selected liability cash account configured for corporate cards, you match an uploaded bank statement record to an existing payment, AP bill, or expense receipt, as well as create a cash transaction if such a transaction has not been found in the system. For details about matching bank transactions, see [Processing Imported Transactions](CA__CON_ProcessingImportTrans.md).
 
@@ -46,14 +46,14 @@ If none of the conditions above has been met, there is no best match for the tra
 
 When the imported transactions are matched, you click **Process** on the form toolbar of the [Process Bank Transactions](CA_30_60_00.md) form to complete reconciliation. An expense receipt and a corresponding bank statement record that have been matched and processed are no longer displayed on the form.
 
-## Limitations of the Matching Process { .section}
+## Limitations of the Matching Process
 
 The matching process on the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form has the following limitations:
 
 -   If you match a bank transaction to an expense receipt in a different currency with an amount that is within the amount difference threshold, release the corresponding claim, and the cash transaction is posted, and then you unmatch the bank transaction from the expense receipt, the cash transaction will not appear as a candidate for matching because the amounts differ.
 -   If a cash transaction originates from an expense claim, the cash transaction date in the system is the same as the expense claim date. There can be a significant delay between the date of the bank statement transaction and the date of the cash transaction in the system, which should be considered in the filter of dates in the **Transaction Match Settings** dialog box.
 
-## Calculation of the Relevance Rate for Expense Receipts { .section}
+## Calculation of the Relevance Rate for Expense Receipts
 
 Unlike the relevance calculation for payments and invoices, for calculating the relevance rate for expense receipts on the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form, the system includes in the calculation the amount weight instead of the payee weight, by using the following formula:
 

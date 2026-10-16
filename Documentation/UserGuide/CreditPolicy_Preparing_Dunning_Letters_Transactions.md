@@ -1,8 +1,8 @@
-# Preparation of Dunning Letters: Generated Transactions {#_c4478a4b-22c2-4b2d-b9b1-4abb1090b38d .concept}
+# Preparation of Dunning Letters: Generated Transactions
 
 As you prepare dunning letters, depending on the system settings, the system can create and release dunning fee invoices. To update customer balances, when releasing a dunning fee invoice, the system generates the GL transactions described in the following sections.
 
-## Transactions Generated for a Dunning Fee Invoice \(Without Tax\) {#section_w22_hjv_vxb .section}
+## Transactions Generated for a Dunning Fee Invoice \(Without Tax\)
 
 When a dunning fee invoice is released, the system generates the following general ledger transaction:
 
@@ -13,7 +13,7 @@ When a dunning fee invoice is released, the system generates the following gener
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 
-## Transactions Generated for a Dunning Fee Invoice \(Tax Applied\) {#section_z22_hjv_vxb .section}
+## Transactions Generated for a Dunning Fee Invoice \(Tax Applied\)
 
 When a dunning fee invoice with a tax applied is released, the system generates the following general ledger transaction:
 

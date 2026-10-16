@@ -1,10 +1,10 @@
-# Customization Web API: delete {#_9209661b-07a0-4529-b7bd-9c67ae3499a6 .concept}
+# Customization Web API: delete
 
 If a customization project is not currently published, you can delete the project in an Acumatica ERP instance through the web API.
 
 When a customization project is deleted, the platform deletes from the database the project data and the data of the project items. The platform does not delete the files and the objects that were added to the projects from the database, such as site map nodes, reports, user access rights, and integration scenarios.
 
-## HTTP Method and URL { .section}
+## HTTP Method and URL
 
 To delete a customization project in an Acumatica ERP instance, you use the `POST` HTTP method and the following URL.
 
@@ -14,7 +14,7 @@ POST http(s)://<Acumatica ERP Instance URL>/CustomizationApi/delete
 
 You replace *&lt;Acumatica ERP instance URL&gt;* with the URL of your Acumatica ERP instance.
 
-## Request Body { .section}
+## Request Body
 
 In the request body in JSON format, you can use the field described in the following table.
 
@@ -22,13 +22,25 @@ In the request body in JSON format, you can use the field described in the follo
 |-----|-----------|
 |`projectName`|Required. The name of the customization project to be removed.|
 
-## Response Body { .section}
+## Response Body
 
 The following table describes the field that the system returns in the body of the response.
 
-|Field|Description|
-|-----|-----------|
-|`log`|An array of log records. Each element of the array has the following fields:
+<table id="_e6d1b0ab-812e-411c-8440-4a0bb60f8edb"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+`log`
+
+</td><td>
+
+An array of log records. Each element of the array has the following fields:
 
 -   `timestamp`: The date and time when the information about the performed operation was added to the log
 -   `logType`: The type of the log message, which can be one of the following:
@@ -38,9 +50,10 @@ The following table describes the field that the system returns in the body of t
     -   *error*
 -   `message`: The log message
 
-|
+</td></tr></tbody>
+</table>
 
-## Example { .section}
+## Example
 
 The following request shows an example of removal of the *PhoneRepairShop* customization project.
 
@@ -49,6 +62,7 @@ The following request shows an example of removal of the *PhoneRepairShop* custo
 ```
 POST /<Acumatica ERP Instance URL>/CustomizationApi/delete HTTP/1.1
 Host: localhost
+Authorization: Bearer <access token>
 Accept: application/json
 Content-Type: application/json
 Content-Length: 42

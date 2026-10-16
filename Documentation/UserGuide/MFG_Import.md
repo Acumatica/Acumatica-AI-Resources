@@ -1,10 +1,10 @@
-# Importing Master Data into Manufacturing {#_bfe88c25-729f-418f-87b8-c63d03952afe .concept}
+# Importing Master Data into Manufacturing
 
 You can import master data related to manufacturing by using import scenarios on the [Import by Scenario](SM_20_60_36.md) \(SM206036\) form. In this topic, you will find information that will help you to import data. Also, you will find the Excel spreadsheets that you can use during import.
 
 **Tip:** The format of all time values \(Setup, Run, Machine, and Move\) is specified in the **Operation Time Format** box on the [BOM Preferences](AM_10_10_00.md) form. Times are now entered or displayed as in days, hours, and minutes. Regardless of the format, you can enter the time as 0000 for HHMM or 000000 for DDHHMM. Time values are actually stored as minutes in the tables. For importing, enter the time as HHMM; e,g. 0010 for 10 minutes, 0130 for 1 hour 30 minutes, 011013 for 1 day, 10 hours, 13 minutes.
 
-## General Information { .section}
+## General Information
 
 Almost all of the master data is related to bills of material functionality consisting of the bills of material for each assembly and their supporting data such as work centers, tools, machines, and overhead. For details, see [Importing Bills of Material Master Data](MFG_Import_BOM_Data.md).
 
@@ -19,7 +19,7 @@ Data providers and import scenarios are provided for each of the following; the 
 
 Additionally, you must specify BOM preferences on the [BOM Preferences](AM_10_10_00.md) \(AM101000\) form and enter the following required data first in order to import work centers.
 
-## Required Data { .section}
+## Required Data
 
 The following data is required even if you do not intend to include labor and indirect costs for your bills of material and to post them to production orders:
 
@@ -29,7 +29,7 @@ The following data is required even if you do not intend to include labor and in
 
 Data providers and import scenarios are not supplied for *Shifts*, *Labor Codes*, or *Overhead* since most users will have only a few of each. If you need to create one, then enter one of each type on the appropriate form and export the data to Excel. You then can use that spreadsheet to create the data provider and import scenario since it will have all of the columns available and the correct values for drop-down lists and check boxes. In Acumatica ERP, you enter the drop-down list caption and not codes and either *True* \(selected\) or *False* \(cleared\) for check boxes. Your reseller can assist you in creating data providers and import scenarios.
 
-## Optional Data { .section}
+## Optional Data
 
 The following data are completely optional:
 
@@ -39,7 +39,7 @@ The following data are completely optional:
 
 Once you have entered the required and optional data the next step is to create or import your work centers. In bills of material, components, as wells as tools, are tied to operations and operations require a work center.
 
-## Importing Machines, Tools, or Work Centers { .section}
+## Importing Machines, Tools, or Work Centers
 
 The import scenarios for the following entities will default values for required form elements not supplied or left blank in the spreadsheet. To override the default value, specify a value in the spreadsheet.
 
@@ -56,7 +56,7 @@ The import scenarios for the following entities will default values for required
 |*Work Center &gt; Backflush Matls*|False|
 |*Work Center &gt; Backflush Labor*|False|
 
-## Sample Excel Files { .section}
+## Sample Excel Files
 
 [Machines](Files/MFG_Import_Machines.xlsx)
 

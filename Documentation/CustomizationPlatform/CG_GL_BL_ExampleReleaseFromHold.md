@@ -1,4 +1,4 @@
-# Putting a Sales Order on Credit Hold Status Programmatically {#_16b635ee-9b9f-4ba0-9fa4-7f0064fd8128 .concept}
+# Putting a Sales Order on Credit Hold Status Programmatically
 
 When you create a sales order programmatically on the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form, this sales order is assigned the *Open* status by default.
 

@@ -1,4 +1,4 @@
-# Altering the BLC of a Processing Form {#_61657507-0dec-408a-989a-b7ce3df31c82 .concept}
+# Altering the BLC of a Processing Form
 
 For most processing forms of Acumatica ERP, the processing method, the button captions that are displayed on the toolbar of the form are set up during the BLC initialization \(*business logic controller*, also referred to as *graph*\)—that is, in the constructor of the BLC that provides the logic for the processing form, or in the `RowSelected` event handler of the main view data access class \(DAC\). To modify the logic that is executed during the BLC initialization, you have to create a BLC extension class and implement the needed logic in the Initialize\(\) method overridden in the extension class; do not use the constructor for that.
 
@@ -6,7 +6,6 @@ For example, to disable the **Release All** button and modify the functionality 
 
 1.  Open the Release IN Documents form to see its original view \(see the screenshot below\). Notice that the **Release** and **Release All** buttons are both available for clicking.
 
-    ![](images/AlteringProcBLC.png "Analyzing the original Release IN Documents form")
 
 2.  Select the business logic controller for customization, on the **Customization** menu, by clicking **Inspect Element** and selecting any element on the form, for example, the **Release** button. The system should retrieve the following information that appears in the **Element Properties** dialog box:
     -   **Business Logic**: *INDocumentRelease*. The business logic controller that provides the logic for the *Release IN Documents* form.
@@ -14,7 +13,6 @@ For example, to disable the **Release All** button and modify the functionality 
 
     The Code Editor opens for customization of the business logic code of the form \(see the screenshot below\). The system generates the BLC extension class in which you can develop the customization code. \(See [Graph Extensions](CG_Platform_TO_Code_CS_GraphExtensions.md) for details.\)
 
-    ![](images/AlteringProcBLC2.png "The BLC extension class generated for customization of the business logic code executed for the Release IN Documents form")
 
 4.  Override the Initialize\(\) method. In the method, disable the **Release All** button on the toolbar of the form, set the processing method, and set the method for asking the confirmation from the user before running the process.
 

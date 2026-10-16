@@ -1,31 +1,54 @@
-# AR Invoices with Retainage: Implementation Checklist {#_184abf09-a826-4bdc-9906-79cb2a1340dc .concept}
+# AR Invoices with Retainage: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for processing AR invoices with retainage, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you begin processing AR invoices with retainage, you make sure that the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklists.
 
-|Form|Criteria to Check|
-|----|-----------------|
-|[Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form|The following features have been enabled:-   *Retainage Support*
+<table id="_75f5a845-9a95-409c-9ffd-7c022ec672dc"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Criteria to Check
+
+</th></tr></thead><tbody><tr><td>
+
+[Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form
+
+</td><td>
+
+The following features have been enabled:-   *Retainage Support*
 -   *Payment Application by Line*
 -   *Projects*
 -   *Construction*
 
-|
-|[Customers](AR_30_30_00.md#) \(AR303000\) form|The customer accounts for the customers for which you will create AR invoices have been defined. Also, make sure that the following retainage settings have been specified for each customer:-   On the **Financial** tab, the **Apply Retainage** check box is selected. Optionally, the default retainage percentage is specified in the **Retainage Percent** box.
+</td></tr><tr><td>
+
+[Customers](AR_30_30_00.md#) \(AR303000\) form
+
+</td><td>
+
+The customer accounts for the customers for which you will create AR invoices have been defined. Also, make sure that the following retainage settings have been specified for each customer:-   On the **Financial** tab, the **Apply Retainage** check box is selected. Optionally, the default retainage percentage is specified in the **Retainage Percent** box.
 -   On the **GL Accounts** tab, the **Retainage Receivable Account** is specified.
 
 For details, see [AR Invoices with Retainage: Configuration of the Default Retainage Settings](Construction_ARInvoice_with_Retainage_GeneralInfo2.md).
 
-|
-|[Projects](PM_30_10_00.md#) \(PM301000\) form, **Summary** tab \(**Retainage** section\)|The necessary projects and their project tasks have been created. Also, make sure that the following retainage settings have been specified for the project: -   The retainage mode is selected in the **Retainage Mode** box.
+</td></tr><tr><td>
+
+[Projects](PM_30_10_00.md#) \(PM301000\) form, **Summary** tab \(**Retainage** section\)
+
+</td><td>
+
+The necessary projects and their project tasks have been created. Also, make sure that the following retainage settings have been specified for the project: -   The retainage mode is selected in the **Retainage Mode** box.
 -   The **Retainage \(%\)** box contains the percent of the amount of an invoice issued for the project that is retained by the customer.
 
-|
+</td></tr></tbody>
+</table>
 
-## Other Settings That Affect the Workflow { .section}
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of processing AR invoices with retainage as follows:
 

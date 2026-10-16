@@ -1,18 +1,18 @@
-# Tabular Reports: To Create a Tabular Report {#_6f8991a4-fa7e-4c69-8e58-ca8cb8d95fb2 .task}
+# Tabular Reports: To Create a Tabular Report
 
 In the following activity, you will learn how to create a tabular report.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist in your company who is working on simple customizations. A sales manager has requested a report that shows the quantity of inventory items ordered by customers. You have looked through the reports in the **Sales Orders** workspace and suggested that the manager use the [Sales Order Details by Customer](SO_61_10_00.md) \(SO611000\) report. The sales manager said that the requested report should give salespeople the ability to compare the quantities of inventory items for different customers—that is, to display the quantities of an inventory item for different customers in the same row, with a separate row for each inventory item.
 
-## Process Overview { .section}
+## Process Overview
 
 In the Report Designer, you will open the `SO6110C1.RPX` report, which is a copy of the [Sales Order Details by Customer](SO_61_10_00.md) \(SO611000\) report, and modify the copy to make the report a tabular one. You will change the grouping conditions for the data in the report, and delete the groups and text boxes that you do not need from the report layout. \(You will not make any modifications in the Schema Builder.\)
 
-## System Preparation { .section}
+## System Preparation
 
 Before you perform the steps of this activity, make sure that the following tasks have been performed:
 
@@ -33,14 +33,13 @@ Also, to prepare for use the file that is intended for this activity, do the fol
     The report is saved on the server.
 
 
-## Step 1: Changing the Grouping Conditions for the Report { .section}
+## Step 1: Changing the Grouping Conditions for the Report
 
 Because the data in the report should display the quantities of inventory items for different customers, you need to group data in the report by inventory item and by customer. That is, you need to change the grouping conditions for the report.
 
 Do the following:
 
 1.  In the Report Designer, make sure that the *SO6110C1* report \(which you have saved to the server\) is open.
-2.  In the top left corner of the Design pane of the Report Designer, click the ![](Images/Defining_the_Data_Groups_for_a_Report_Using_FiltersReportSelectionIcon.PNG) icon to select the report; then in the **Data** &gt; **Groups** property, click the More button.
 3.  In the Group Collection Editor, which opens, in the **Members** pane, select `group1`.
 4.  In the **group1 properties** pane on the right side of the Group Collection Editor, in the **Behavior** &gt; **Grouping** property, click the More button.
 5.  In the GroupExp Collection Editor, which opens, in the **Members** pane, select the second **PX.Reports.GroupExp** member. For this member, in the right pane, the **Misc** &gt; **DataField** property is set to **BAccount.AcctName**. Click **Remove** to delete this member.
@@ -52,7 +51,7 @@ Do the following:
 11. Click **OK** to close the Group Collection Editor.
 12. On the Report Designer window toolbar, click **Save**.
 
-## Step 2: Modifying the Report Layout { .section}
+## Step 2: Modifying the Report Layout
 
 To modify the report layout, while you are still working with the *SO6110C1* report in the Report Designer, do the following:
 
@@ -85,28 +84,24 @@ To modify the report layout, while you are still working with the *SO6110C1* rep
 
     **Tip:** Viewing the report before you make it a tabular one will ease troubleshooting.
 
-    ![](Images/RD_Tabular_Reports_InterResult_activity.png "The modified Sales Order Details by Customer report")
 
 
-## Step 3: Specifying the Properties of the Report and Its Elements { .section}
+## Step 3: Specifying the Properties of the Report and Its Elements
 
 To specify the properties of the report and its elements, while you are still working with the *SO6110C1* report in the Report Designer, do the following:
 
-1.  In the top left corner of the Design pane of the Report Designer, click the ![](Images/Defining_the_Data_Groups_for_a_Report_Using_FiltersReportSelectionIcon.PNG) icon to select the report. In the **Behavior** &gt; **TabularReport** property, select *True* to make the report a tabular one.
 2.  In the **Behavior** &gt; **TabularFreeze** property, type `150px`.
 
     A red vertical line is displayed in the report. To the right of the red line, the customers and the quantity of ordered items will be displayed in the generated report. Make sure that no element crosses the red line.
 
 3.  Move the text box with the `=[BAccount.AcctCD]` value \(in `groupHeaderSection1 (Header of group1)`\) and the text box with the `=Sum(isnull([SOLine.OrderQty]*-[SOLine.InvtMult],0))` value \(in `groupHeaderSection2 (Header of group2)`\) so that they are located next to the red line. Remove the horizontal lines that were located below these text boxes.
-4.  In the top left corner of the Design pane of the Report Designer, click the ![](Images/Defining_the_Data_Groups_for_a_Report_Using_FiltersReportSelectionIcon.PNG) icon to select the report. In the **Layout** &gt; **Width** property, type `320px`.
 5.  For a uniform alignment of elements in the report, in `groupHeaderSection2 (Header of group2)`, select the text box with the `=Sum(isnull([SOLine.OrderQty]*-[SOLine.InvtMult],0))` value, and for its **Appearance** &gt; **Style** &gt; **TextAlign** property, select *NotSet*. Repeat the same action for the text box with the same value in the `groupFooterSection1 (Footer of group1)` section.
 6.  On the Report Designer window toolbar, click **Save**.
 
 The report in design mode is shown in the following screenshot.
 
-![](Images/RD_tabular_report_design.png "The tabular report in design mode")
 
-## Step 4: Viewing the Report { .section}
+## Step 4: Viewing the Report
 
 To view the report, do the following:
 
@@ -119,7 +114,6 @@ To view the report, do the following:
 
 Make sure that the report displays data for all customers and that the data about the quantity of orders for each customer is displayed in a separate column. \(You can compare the lists of customers in the *SO6110C1* and *SO611000* reports with the same name.\) The resulting report is shown in the following screenshot.
 
-![](Images/RD_tabular_report_result.png "The Sales Order Details by Customer (SO6110C1) tabular report")
 
 **Parent topic:**[Developing Tabular Reports](../UserGuide/RD_Tabular_Reports_Mapref.md)
 

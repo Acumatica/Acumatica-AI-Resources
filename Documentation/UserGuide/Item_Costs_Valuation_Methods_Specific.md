@@ -1,4 +1,4 @@
-# Item Costs and Valuation Methods: Specific Method {#_e5dc69d6-fb74-40d8-835c-9978a0bf7173 .concept}
+# Item Costs and Valuation Methods: Specific Method
 
 You use the *Specific* valuation method to track each unit of an item in inventory and assign costs to units individually instead of grouping the units together. The cost of each purchased or produced unit of an item is determined by the item's lot or serial number. The *Specific* valuation method is widely used by manufacturers and retailers of technical equipment, healthcare, and medical device companies for precise identification of medical equipment and its parts.
 
@@ -6,7 +6,7 @@ One of the key benefits of the *Specific* method is its precise tracking of inve
 
 You assign this valuation method to a stock item by selecting *Specific* in the **Valuation Method** box on the **General** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form. You can assign the *Specific* valuation method to stock items only if the *Lot and Serial Tracking* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Cost Tracking for Items with the Specific Method { .section}
+## Cost Tracking for Items with the Specific Method
 
 If the *Specific* valuation method is assigned to a stock item, the item's quantity and unit cost are recorded in layers. Each cost layer is identified by a serial or lot number of the stock item. When units of the stock item are received in a warehouse, the unit cost assigned to each unit of the item will remain the same until the item unit is issued, used as a component, or sold. For an item with the same lot number, if a new the receiving document number is released, the cost of the layer is updated.
 
@@ -16,7 +16,7 @@ If an item has the *Specific* valuation method assigned, the costs of its units 
 
 You can view a lot or serial-tracked item's cost for each lot or serial number in the **Estimated Unit Cost** column on the [Inventory Summary](IN_40_10_00.md) \(IN401000\) form if the **Expand by Lot Serial Number** check box is selected.
 
-## Example of Cost Calculation for the Specific Method { .section}
+## Example of Cost Calculation for the Specific Method
 
 Suppose that a stock item was purchased as follows:
 

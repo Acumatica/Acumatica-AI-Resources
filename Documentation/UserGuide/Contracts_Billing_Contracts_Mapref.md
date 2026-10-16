@@ -1,4 +1,4 @@
-# Billing Contracts {#_962fcd95-4944-49b1-869e-89a4d71af8a2 .concept}
+# Billing Contracts
 
 The topics of this chapter describe process of billing for contract usage. You begin to run the contact billing after contract usage has been recorded.
 

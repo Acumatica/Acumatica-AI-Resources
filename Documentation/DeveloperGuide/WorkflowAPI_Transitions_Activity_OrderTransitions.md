@@ -1,4 +1,4 @@
-# Step 4 \(Optional\): Specifying the Order of Transitions {#_31003b8b-781a-4274-bacf-1a4e20bf1110 .task}
+# Step 4 \(Optional\): Specifying the Order of Transitions
 
 Transitions are checked based on their order of declaration in code. To specify that a transition should be checked before or after another transition, you should call the PlaceBefore or PlaceAfter method,
 
@@ -11,7 +11,7 @@ Suppose that you want to make sure that the transition to the `pendingPayment`wo
 
 To explicitly specify this order of transitions, call the PlaceBefore method in the definition of the transition from the `onHold` workflow state to the `pendingPayment` workflow state, as the following code shows.
 
-```language-csharp
+```csharp
                     .WithTransitions(transitions =>
                     {
                         transitions.AddGroupFrom<States.onHold>(transitionGroup =>

@@ -1,4 +1,4 @@
-# Working with Taxes in Projects {#_52716902-e835-49d8-82ff-477765e678db .concept}
+# Working with Taxes in Projects
 
 This chapter describes the specifics of configuring taxes of different types to be automatically applied for taxable documents that are related to projects.
 
@@ -13,6 +13,8 @@ This chapter describes the specifics of configuring taxes of different types to 
 -   **[Taxes in Projects: Project-Specific Tax Zones](../UserGuide/Projects_Taxes_in_Projects_ProjectSpecific_Tax_Zones.md)**  
 
 -   **[Taxes in Projects: Tax Calculation in Change Orders](../UserGuide/Projects_Taxes_in_Projects_CO_Tax_Calculation.md)**  
+
+-   **[Taxes in Projects: Tax Calculation in Change Requests](../UserGuide/Projects_Taxes_in_Projects_CR_Tax_Calculation.md)**  
 
 -   **[Taxes in Projects: Generated Transactions](../UserGuide/Projects_Taxes_in_Projects_Transactions.md)**  
 

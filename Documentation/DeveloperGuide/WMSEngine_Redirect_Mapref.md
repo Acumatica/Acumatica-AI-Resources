@@ -1,4 +1,4 @@
-# Defining the Set of Scan Mode Redirects {#_a23ae4f5-8864-423a-a960-da7928122e4c .concept}
+# Defining the Set of Scan Mode Redirects
 
 In this chapter, you will learn about scan mode redirects, which you can use to change the mode of a barcode-driven form. You will also learn how to define the set of scan mode redirects.
 

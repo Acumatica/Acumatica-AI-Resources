@@ -1,8 +1,8 @@
-# Drawing Logs: Implementation Checklist {#_3a8434e9-a21d-4b41-b57c-3873ca49876a .concept}
+# Drawing Logs: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for working with drawing logs, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 Before you begin working with drawing logs, you should make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 

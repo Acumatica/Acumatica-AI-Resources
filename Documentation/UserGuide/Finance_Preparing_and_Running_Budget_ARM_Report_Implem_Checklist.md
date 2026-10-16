@@ -1,8 +1,8 @@
-# Budget vs Actual ARM Report: Implementation Checklist {#_df87da66-6478-46f6-a577-2c3a505d4026 .concept}
+# Budget vs Actual ARM Report: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for preparing and running an ARM report, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist {#section_ghl_mjv_vxb .section}
+## Implementation Checklist
 
 We recommend that before you initially prepare and run an ARM report, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -15,7 +15,7 @@ We recommend that before you initially prepare and run an ARM report, you make s
 |[Budget Configuration](GL_20_50_00.md) \(GL205000\)|Make sure that the relevant budget structure has been configured, as described in [Budget Tree: Implementation Activity](../ImplementationGuide/config_Budget_Tree_Implem_Activity.md).| |
 |[Budgets](GL_30_20_10.md) \(GL302010\)|Make sure that a hierarchical budget has been created, as described in [Conversion of a Simple Budget to a Hierarchical Budget: Process Activity](Finance_Converting_Budget_Activity.md) or [Hierarchical Budget: Process Activity](Finance_Preparing_Hierarchical_Budget_Activity.md).| |
 
-## Validation of Configuration {#section_ihl_mjv_vxb .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you prepare and run an ARM report by performing instructions similar to those described in [Budget vs. Actual ARM Report: Process Activity](Finance_Preparing_and_Running_Budget_ARM_Report_Process_Activity.md).
 

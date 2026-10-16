@@ -1,10 +1,10 @@
-# To Enter a Credit Memo with Retainage {#_1704da83-3af2-4090-a488-b43623740b89 .task}
+# To Enter a Credit Memo with Retainage
 
 You create a credit memo with retainage by using the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 
 **Note:** You can enter a credit memo with retainage only if the *Retainage Support* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## To Enter a Credit Memo with Retainage {#section_gpq_4jv_vxb .section}
+## To Enter a Credit Memo with Retainage
 
 1.  Open the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 2.  On the form toolbar, click **Add New Record** to initiate a database entry for a new document.
@@ -29,7 +29,7 @@ You create a credit memo with retainage by using the [Invoices and Memos](AR_30_
 13. On the form toolbar, click **Save**.
 14. To release the credit memo, click **Release** on the form toolbar.
 
-## Notes About the Procedure {#section_ipq_4jv_vxb .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

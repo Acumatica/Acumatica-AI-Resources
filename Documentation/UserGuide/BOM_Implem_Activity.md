@@ -1,25 +1,25 @@
-# Bills of Material: Implementation Activity {#_baf33d8b-6f79-4cdd-8694-cd2003c37483 .task}
+# Bills of Material: Implementation Activity
 
 In the following implementation activity, you will learn how to create a bill of material \(BOM\).
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Fruits &amp; Jams has decided to assemble customized juicers according to customers' specifications. Assembly will take place in the Workhouse warehouse of the Service and Equipment Sales Center branch, in a specific work center. The process of assembling a juicer consists of one assembly operation and requires juicer parts as materials and a hammer and screwdriver as tools. Overhead costs have been specified at the work center level; you do not need to specify them on the bill of material. In the work center, two workers are involved in juicer assembly. Each worker produces three juicers per hour.
 
 As an implementation manager, you will create the bill of material for the assembly process of the configurable juicer for citrus fruits.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 The following entities, which you will use in this activity, have been predefined in the *U100* dataset:
 
 -   On the [Warehouses](IN_20_40_00.md) \(IN204000\) form, the *WORKHOUSE* warehouse
 -   The following items on the [Stock Items](IN_20_25_00.md) \(IN202500\) form: *CFJCITRUS*, *JCREAMER*, *JUICECUP1L*, *MRBASEHIGH*, *STRBASKET*, and *SPLGUARD*
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Bill of Material](AM_20_80_00.md) \(AM208000\) form, you will create the bill of material for the configurable juicer for citrus fruits. You will add the assembly operation, which is performed in the dedicated work center. Then you will add materials, steps, and tools for the operation. After that you will make the bill of material active and default for the juicer stock item. Finally, you will view the total cost of the bill of material.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start performing the activity, do the following:
 
@@ -28,7 +28,7 @@ Before you start performing the activity, do the following:
     2.  [Configuring Work Centers: Implementation Activity](../ImplementationGuide/config_MFG_Work_Centers_Implem_Activity.md) so that the needed work center has been created in this company
 2.  Sign in to this company \(in which the prerequisite activities have been performed\) as a system administrator with the *gibbs* username and *123* password.
 
-## Step 1: Creating a Bill of Material { .section}
+## Step 1: Creating a Bill of Material
 
 To create a bill of material, do the following:
 
@@ -46,7 +46,7 @@ To create a bill of material, do the following:
     -   **End Date**: Empty
 3.  On the form toolbar, click **Save**.
 
-## Step 2: Adding an Operation { .section}
+## Step 2: Adding an Operation
 
 To add the assembly operation to the bill of material, do the following:
 
@@ -62,7 +62,7 @@ To add the assembly operation to the bill of material, do the following:
     -   **Run Time**: `01:00`
 3.  On the form toolbar, click **Save**.
 
-## Step 3: Adding Materials { .section}
+## Step 3: Adding Materials
 
 To add the materials required for the operation, do the following:
 
@@ -80,7 +80,7 @@ To add the materials required for the operation, do the following:
 
 4.  On the form toolbar, click **Save**.
 
-## Step 4: Adding the Steps { .section}
+## Step 4: Adding the Steps
 
 To add steps required to perform the operation, do the following:
 
@@ -95,7 +95,7 @@ To add steps required to perform the operation, do the following:
 
 2.  On the form toolbar, click **Save**.
 
-## Step 5: Adding the Tools { .section}
+## Step 5: Adding the Tools
 
 To add the tools involved in the assembly process \(you created these tools in [Configuring Production Cost Drivers: Implementation Activity](../ImplementationGuide/config_MFG_Production_Cost_Drivers_Implem_Activity.md)\) to the operation settings, do the following:
 
@@ -108,7 +108,7 @@ To add the tools involved in the assembly process \(you created these tools in [
 
 2.  On the form toolbar, click **Save**.
 
-## Step 6: Activating the Bill of Material { .section}
+## Step 6: Activating the Bill of Material
 
 To make the created bill of material active and specify it as the default bill of material for the *CFJCITRUS* item, do the following:
 
@@ -127,7 +127,7 @@ To make the created bill of material active and specify it as the default bill o
     -   The [Stock Items](IN_20_25_00.md) \(IN202500\) form for the *CFJCITRUS* item
     -   The [Item Warehouse Details](IN_20_45_00.md) \(IN204500\) form for the *CFJCITRUS* item and *WORKHOUSE* warehouse
 
-## Step 7: Viewing Total Cost of Bill of Material { .section}
+## Step 7: Viewing Total Cost of Bill of Material
 
 To make sure that you have specified all settings of the bill of material correctly, you will view the total cost of the bill of material. Do the following:
 
@@ -135,7 +135,6 @@ To make sure that you have specified all settings of the bill of material correc
 2.  In the **BOM Cost Settings** dialog box, which opens, keep the default settings and click **OK**.
 3.  In the **BOM Cost Summary** dialog box, which opens, make sure that the **Total Cost** value is *498.5167* \(shown below\).
 
-    ![](Images/activity_MFG_BOM.png "BOM Cost Summary dialog box")
 
 4.  Click **OK** to close the dialog box.
 

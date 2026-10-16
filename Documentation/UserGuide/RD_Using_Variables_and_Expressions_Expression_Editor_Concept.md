@@ -1,8 +1,8 @@
-# Variables and Expressions: Expression Editor {#_e0616a90-ae22-4a6f-8faa-3ebc85dbbf80 .concept}
+# Variables and Expressions: Expression Editor
 
 You use the Expression Editor—that is, the **Expression Editor** dialog box—to define expressions in reports and generic inquiries.
 
-## Expression Editor { .section}
+## Expression Editor
 
 In the Report Designer, you can open the Expression Editor in any of the following places:
 
@@ -19,7 +19,6 @@ The **Expression Editor** dialog box consists of the following four panes:
 -   The right pane of the dialog box \(Item 3\) contains the parameters, operators, functions, or variables in the group you have selected in the middle pane.
 -   The bottom pane of the dialog box \(Item 4\) is used to compose and edit the expression. You can double-click data fields listed in the left pane and items listed in the right pane to add them to the bottom pane.
 
-![](Images/RD_ExpressionEditor.png "The Expression Editor")
 
 You perform the following steps \(repeating the steps as needed\) to enter an expression in the Expression Editor:
 

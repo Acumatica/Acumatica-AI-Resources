@@ -1,4 +1,4 @@
-# Defining a Setup Form {#_60f136b8-052a-4cb2-8299-32b57c30d9b1 .concept}
+# Defining a Setup Form
 
 This part provides instructions on configuring a setup form and recommendations on organizing the layout of the form.
 

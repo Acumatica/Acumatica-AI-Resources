@@ -1,4 +1,4 @@
-# Input Controls {#_87817ddf-d7ad-4ece-b151-c88c434b7318 .concept}
+# Input Controls
 
 You can add input controls and columns to a container in the Screen Editor of the Customization Project Editor or directly in the ASPX code of the form in Visual Studio. The Screen Editor generates control definitions based on the attributes of DAC fields. It also lists data fields and controls based on the field state.
 
@@ -23,7 +23,7 @@ Particular types of controls may need additional properties, which are shown in 
 |Date-time picker|`[PX(DB)Date]`|`<px:PXDateTimeEdit ID=...> </px:PXDateTimeEdit>`|
 |Time span edit box|`[PXDBTimeSpan]`|`<px:PXDateTimeEdit ID=... TimeMode="True"> </px:PXDateTimeEdit>`|
 
-## Field State { .section}
+## Field State
 
 On each round trip, the system generates a *field state* object for each data field that is displayed in the UI. The field state object is initialized and configured on the FieldSelecting event, which happens each time the data is prepared for displaying in the UI. All of the following attributes implement FieldSelecting event handlers and take part in the configuration of the field state object:
 

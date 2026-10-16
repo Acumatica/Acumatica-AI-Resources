@@ -1,4 +1,4 @@
-# Implementing Route Management {#_59d8b6a4-fc87-44e8-a3a6-d971eef04258 .concept}
+# Implementing Route Management
 
 This part of the guide describes the minimum required configuration of the route management functionality in Acumatica ERP.
 

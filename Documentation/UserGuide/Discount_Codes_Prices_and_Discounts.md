@@ -1,4 +1,4 @@
-# Customer Discounts: Discount Codes {#_6d414677-feb3-40f4-9022-b4c368b053ee .concept}
+# Customer Discounts: Discount Codes
 
 In Acumatica ERP, a customer discount is defined by the combination of settings specified for the following:
 
@@ -10,7 +10,7 @@ In Acumatica ERP, a customer discount is defined by the combination of settings 
 
 In this topic, you will read about discount codes you create in Acumatica ERP.
 
-## Line, Group, and Document Discounts { .section}
+## Line, Group, and Document Discounts
 
 For a discount code that you create on the [Discount Codes](AR_20_90_00.md) \(AR209000\) form, in the **Discount Type** column, you select the level at which this discount is applied, which is one of the following:
 
@@ -29,7 +29,7 @@ For a discount code that you create on the [Discount Codes](AR_20_90_00.md) \(AR
 -   Transfer orders
 -   Orders of an order type that has the *RMA Order* automation behavior and *No Update* selected in the **AR Document Type** box on the **Template** tab of the [Order Types](../Shared/../UserGuide/SO_20_10_00.md) \(SO201000\) form
 
-## Automatic and Manual Discounts { .section}
+## Automatic and Manual Discounts
 
 For a discount code, you can specify if the system should apply this discount automatically or a user needs to apply the discount manually.
 
@@ -44,7 +44,7 @@ You can view the details of the automatic or manual document-level and group-lev
 
 For details, see [Manual Customer Discounts: Application of Manual Discounts](Prices_Customer_Discounts_Application_of_Manual_Discounts.md) and [Automatic Customer Discounts: Application of Automatic Discounts](Prices_Customer_Discounts_Application_of_Automatic_Discounts.md).
 
-## Conditional and Unconditional Discounts { .section}
+## Conditional and Unconditional Discounts
 
 In the table of the [Discount Codes](AR_20_90_00.md) \(AR209000\) form \(**Applicable To** column\), for each discount code, you can specify whether the discount is applicable to an entity or multiple entities \(that is, the discount is conditional\) or it is applicable to any entity \(that is, the discount is unconditional\).
 

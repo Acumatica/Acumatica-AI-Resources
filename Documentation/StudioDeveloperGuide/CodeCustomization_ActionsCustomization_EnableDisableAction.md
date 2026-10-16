@@ -1,4 +1,4 @@
-# Action Customization: Disabling or Enabling of an Action {#_f4670986-f434-436d-85d6-1393259821e7 .concept}
+# Action Customization: Disabling or Enabling of an Action
 
 To disable or enable an action, you can use the Enabled parameter of the PXUIField attribute for the action. When the action is disabled, a user cannot click the corresponding button, command, or both. When the action is enabled, the corresponding button, command, or both can be clicked. However, we recommend that you change the attribute dynamically at run time in the Initialize\(\) method of the graph extension.
 

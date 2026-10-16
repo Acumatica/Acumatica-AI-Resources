@@ -1,12 +1,12 @@
-# Assets with Depreciation: To Transfer Assets {#_41245bed-f78c-4e11-9998-05693b125874 .task}
+# Assets with Depreciation: To Transfer Assets
 
 The following activity will walk you through the process of transferring an asset with depreciation from one branch to another branch.
 
-## Story {#section_sjg_ljv_vxb .section}
+## Story
 
 Suppose that now that the software license has been split, you need to transfer one computer and one office software license from the Administrative department of the Head Office branch to the Development department of the Retail branch of SweetLife Fruits &amp; Jams. Acting as a SweetLife accountant, you need to perform this transfer.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -14,11 +14,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, the needed GL accounts have been created.
 -   On the [Fixed Assets Preferences](FA_10_10_00.md) \(FA101000\) form, the **Automatically Release Transfer Transactions** check box has been selected.
 
-## Process Overview {#section_vjg_ljv_vxb .section}
+## Process Overview
 
 In this activity, you will transfer assets to another branch on the [Transfer Assets](FA_50_70_00.md) \(FA507000\) form and review the generated transactions on the **Transactions** tab of this form. On the [Asset Balance by Accounts](FA_40_30_00.md) \(FA403000\) form, you will review the settings of one of the transferred assets, and on the [Asset Transaction History](FA_40_40_00.md) \(FA404000\) form, you will review the transactions that updated this fixed asset.
 
-## System Preparation {#section_xjg_ljv_vxb .section}
+## System Preparation
 
 Before you begin transferring assets with depreciation, do the following:
 
@@ -30,7 +30,7 @@ Before you begin transferring assets with depreciation, do the following:
 6.  Make sure that you have split the *Office software* asset by performing the [Assets with Depreciation: To Split an Asset](FixedAssets_Managing_Depreciable_FA_To_Split.md) prerequisite activity.
 7.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step 1: Reviewing the Fixed Asset Preferences {#section_zjg_ljv_vxb .section}
+## Step 1: Reviewing the Fixed Asset Preferences
 
 To review the fixed asset preferences, do the following:
 
@@ -38,7 +38,7 @@ To review the fixed asset preferences, do the following:
 2.  In the **Posting Settings** section, make sure that the **Automatically Release Transfer Transactions** check box is selected.
 3.  On the form toolbar, click **Save**.
 
-## Step 2: Transferring the Assets {#section_bkg_ljv_vxb .section}
+## Step 2: Transferring the Assets
 
 To transfer the assets from the Head Office branch to the Retail branch, do the following:
 
@@ -61,14 +61,13 @@ To transfer the assets from the Head Office branch to the Retail branch, do the 
 5.  On the form toolbar, click **Process**. The system generates the transfer transactions. It also releases them because the **Automatically Release Transfer Transactions** check box is selected on the [Fixed Assets Preferences](FA_10_10_00.md) \(FA101000\) form.
 6.  On the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form, open the *Desktop computer* asset and review the **Transactions** tab, as shown in the following screenshot.
 
-    ![](Images/activity_FA_Managing_Assets_Transferred_Asset.png "Transfer transactions on the Transactions tab")
 
     The system has created and released two transactions:
 
     -   A *Transfer Purchasing* transaction that records the transfer of the asset from one branch to another branch. This transaction debits the Fixed Asset account \(*15300*\) in the amount of the asset's current cost, and credits the Fixed Asset account \(*15300*\) in the same amount.
     -   A *Transfer Depreciation* transaction that transfers the accumulated depreciation between the branches. This transaction credits the Accumulated Depreciation account \(*16300*\) in the amount of the depreciation accumulated for the asset, and debits the Accumulated Depreciation account \(*16300*\) in the same amount.
 
-## Step 3: Reviewing the Account Balances for an Asset {#section_fkg_ljv_vxb .section}
+## Step 3: Reviewing the Account Balances for an Asset
 
 To review the account balances for one of the transferred assets, do the following:
 
@@ -83,7 +82,6 @@ To review the account balances for one of the transferred assets, do the followi
 3.  In the table, click the line for the *15400* account, and on the form toolbar, click **Asset Transaction History**.
 4.  On the [Asset Transaction History](FA_40_40_00.md) \(FA404000\) form, which the system has opened, review the transactions that update the selected account through the *07-2026* period, as shown in the following screenshot.
 
-    ![](Images/activity_FA_Managing_Assets_Transferred_Asset_Tran_History.png "Transactions for the selected account")
 
 
 **Parent topic:**[Managing Fixed Assets with Depreciation](../UserGuide/FixedAssets_Managing_Depreciable_FA_Mapref.md)

@@ -1,11 +1,11 @@
-# To Add a Report Title {#_ba36e1e9-81ab-4ff6-99e2-900a9da419f4 .task}
+# To Add a Report Title
 
 The report title generally contains the name of the report and other information that will appear only at the beginning of the report. You create a report title in one of the following ways:
 
 -   Create a header for the column set selected for the report, and use it as the report title. This is the preferred method to define the title for a report that has a hierarchical structure. With this method, you can include variable data in the report title.
 -   Define a caption in the first row of the row set selected for the report. This method can be used when the report has a flat structure and variable data should not be used in the report title.
 
-## To Use a Column Set Header to Specify the Report Title { .section}
+## To Use a Column Set Header to Specify the Report Title
 
 1.  Open the [Column Sets](CS_20_60_20.md) \(CS206020\) form.
 2.  In the **Code** box of the Summary area, select the code of the column set used in the report.
@@ -23,7 +23,7 @@ The report title generally contains the name of the report and other information
 9.  On the table toolbar of the upper table, use the **Shift Up** and **Shift Down** buttons to move the report title to the top position in the list of headers.
 10. Click **Save** on the form toolbar.
 
-## To Use the Row Set Captions to Specify the Report Title { .section}
+## To Use the Row Set Captions to Specify the Report Title
 
 1.  Open the [Row Sets](CS_20_60_10.md) \(CS206010\) form.
 2.  In the **Code** box of the Summary area, select the code of the row set used in the report.

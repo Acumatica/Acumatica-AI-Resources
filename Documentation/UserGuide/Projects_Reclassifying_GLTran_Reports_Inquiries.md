@@ -1,10 +1,10 @@
-# Transaction Reclassification: Related Report and Inquiry Forms {#_3bbe7d60-1dcd-420e-a275-6f646195d2a0 .concept}
+# Transaction Reclassification: Related Report and Inquiry Forms
 
 In this topic, you can find the list of reports and inquiries that help you to collect information about project-related GL transactions that have been reclassified.
 
 **Attention:** If you don’t see a particular report or form that is described, you may have signed in to the system with a user account that doesn’t have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms.
 
-## Viewing the Reclassification History of a Transaction {#section_opr_frv_35b .section}
+## Viewing the Reclassification History of a Transaction
 
 You can view the reclassification history for a transaction on the [Reclassification History](../Shared/../UserGuide/GL_40_50_00.md) \(GL405000\) form.
 
@@ -15,7 +15,7 @@ You can open this form by clicking the **Reclassification History** button in ei
 
 You can reclassify only the last transaction in the list of transactions on the [Reclassification History](../Shared/../UserGuide/GL_40_50_00.md) form by clicking **Reclassify** on the form toolbar.
 
-## Finding Reclassification Transactions for a Particular Account {#section_ikj_lrv_35b .section}
+## Finding Reclassification Transactions for a Particular Account
 
 On the [Account Details](../Shared/../UserGuide/GL_40_40_00.md) \(GL404000\) form, to include in the list of entries the journal entries that have been reclassified for a selected GL account within the specified period, select the **Include Reclassified** check box in the Summary area. In the **Reclass. Batch Number** column, each of the reclassified entries has a link to the appropriate *Reclassification* transaction.
 

@@ -1,8 +1,8 @@
-# Product Availability: Calculation of Available Quantities {#_b37a41a4-1992-4306-b8ed-1aa42e3ce4fd .concept}
+# Product Availability: Calculation of Available Quantities
 
 When you set up the synchronization of product availability, you select the rules of calculating the available quantities for items whose availability should be tracked, which includes selecting the type of quantity to export and the warehouses to be included in the availability calculation.
 
-## Selection of the Availability Mode {#_a562b5a4-3e91-4790-9e0f-0724513bea7d .section}
+## Selection of the Availability Mode
 
 During the configuration of Acumatica ERP Retail Edition, you can specify which item quantity in Acumatica ERP you want to be synchronized with the Shopify store for the items whose quantities are tracked. To do so, you select one of the following options in the **Availability Mode** box on the **Inventory** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form:
 
@@ -14,7 +14,7 @@ For more information, see [Availability Calculation Rules: General Information](
 
 The connector exports product quantities only from regular cost layers. Quantities from special orders and project-related cost layers are excluded from the product availability export. For more information about cost layers, see [Tracking of Costs at Warehouses and Locations](Item_Costs_Valuation_Methods_GeneralInfo.md#_07036e51-9d23-4c59-bcc5-e13acf977b46).
 
-## Selection of the Warehouse Mode { .section}
+## Selection of the Warehouse Mode
 
 You also select whether quantity calculations should include available quantities from all warehouses or from only the specified warehouses or warehouse locations. To do so, in the **Warehouse Mode** box on the **Inventory** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form, you select one of the following options:
 
@@ -38,7 +38,7 @@ You also select whether quantity calculations should include available quantitie
 
 If you have synchronized the *Product Availability* entity, when you modify any of the settings described in this section, the system resets the availability synchronization status for all synchronized items in the Shopify store, and you need to perform the full synchronization of the *Product Availability* entity again.
 
-## Adjustment of Available Quantities { .section}
+## Adjustment of Available Quantities
 
 You can manually adjust the available quantity calculated for an item by specifying a value in the **Availability Adjustment** box on the **eCommerce** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form.
 

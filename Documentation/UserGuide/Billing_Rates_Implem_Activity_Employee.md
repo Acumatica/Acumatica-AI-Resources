@@ -1,16 +1,16 @@
-# Billing Rates: To Configure Employee-Specific Rates {#_c42c0ab3-1421-4225-a42e-d9ce4224d4c0 .task}
+# Billing Rates: To Configure Employee-Specific Rates
 
 In this activity, you will learn how you can define item-specific billing rates by using rate tables, and how to bill a project by using these billing rates.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the West BBQ Restaurant customer has ordered from the SweetLife Fruits &amp; Jams company a training session for its employees on how to use juicers that were previously purchased. Alberto Jimenez, a SweetLife junior consultant, has provided six hours of training, and Todd Bloom, a SweetLife senior consultant, has provided two hours of training. The standard rate of the training service, which applies to junior consultants, is $50 per hour, while the rate for the training provided by the senior consultants is $60 per hour.
 
 Acting as the SweetLife project accountant, Pam Brawner, you need to configure the rate table that will provide billing rates based on the employee who performed the work and configure the appropriate billing rule that will establish the complex pricing model.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -18,18 +18,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Account Groups](PM_20_10_00.md) \(PM201000\) form, the *LABOR* account group has been defined.
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *CONSULTJR* and *CONSULTSR* non-stock items have been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create a rate a rate table code on the [Rate Table Codes](PM_20_42_00.md) \(PM204200\) form. Then on the [Rate Table Sequences](PM_20_50_00.md) \(PM205000\) form, you will define a rate sequence and the combination of settings that will be used for searching for the appropriate billing rate. Then you will create the rate table code on the [Rate Tables](PM_20_60_00.md) \(PM206000\) form, and specify employee-specific rate values. Finally, on the [Billing Rules](PM_20_70_00.md) \(PM207000\) form, you will configure a billing rule that uses the rate table with the applicable billing rates.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
 1.  Launch the Acumatica ERP website and sign in to the system as the project accountant by using the *brawner* username and the *123* password.
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business Date menu button, and select *1/1/2026* on the calendar.
 
-## Step 1: Creating Rate Table Codes and Rate Sequences { .section}
+## Step 1: Creating Rate Table Codes and Rate Sequences
 
 To create a rate table and specify rate sequences with employee-specific billing rates, do the following:
 
@@ -48,7 +48,7 @@ To create a rate table and specify rate sequences with employee-specific billing
         -   **Inventory**: Selected
     3.  Save the rate sequence.
 
-## Step 2: Specifying Billing Rates { .section}
+## Step 2: Specifying Billing Rates
 
 To specify billing rates for different sets of settings, do the following:
 
@@ -76,7 +76,7 @@ To specify billing rates for different sets of settings, do the following:
         -   **Rate**: `50.00`
     4.  Save the rate table.
 
-## Step 3: Creating a Billing Rule {#section_i4k_scm_wmb .section}
+## Step 3: Creating a Billing Rule
 
 To create a billing rule that uses employee-specific billing rates, do the following:
 

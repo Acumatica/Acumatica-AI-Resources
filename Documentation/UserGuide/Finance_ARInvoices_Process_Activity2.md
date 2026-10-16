@@ -1,14 +1,14 @@
-# AR Invoices: To Create an AR Invoice and Apply a Payment to It {#_98ae7b16-40ff-4829-b480-c32f819ad61b .task}
+# AR Invoices: To Create an AR Invoice and Apply a Payment to It
 
 The following activity will walk you through the process of creating an AR invoice, applying a payment to it, and releasing the invoice and its application.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_hfn_4jv_vxb .section}
+## Story
 
 Suppose that on January 26, 2026, Cakeado Cafe made a payment of $429 to SweetLife Fruits &amp; Jams for a training course that its employees were going to take on January 30, 2026. Acting as a SweetLife accountant, you need to create an AR invoice for the customer, apply the payment to it, and release the invoice and the payment application.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following configuration tasks have been performed to prepare the system for this activity to be performed:
 
@@ -16,11 +16,11 @@ In the *U100* dataset, the following configuration tasks have been performed to 
 -   On the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, the **Hold Documents on Entry** check box has been selected in the **Data Entry Settings** section.
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *CAKEADO \(Cakeado Cafe\)* customer has been configured.
 
-## Process Overview {#section_kfn_4jv_vxb .section}
+## Process Overview
 
 In this activity, on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will create an AR invoice, and apply a payment to it. You will then release the invoice and the payment application to close both the invoice and the payment. On the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, you will review the payment to make sure that its status is *Closed*.
 
-## System Preparation {#section_mfn_4jv_vxb .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -28,7 +28,7 @@ To prepare the system, do the following:
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the Company and Branch Selection menu, on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step 1: Creating an AR Invoice {#section_ofn_4jv_vxb .section}
+## Step 1: Creating an AR Invoice
 
 To create an AR invoice, do the following:
 
@@ -53,7 +53,7 @@ To create an AR invoice, do the following:
 
 The invoice has been saved with the *On Hold* status.
 
-## Step 2: Applying the Payment to the Invoice {#section_sfn_4jv_vxb .section}
+## Step 2: Applying the Payment to the Invoice
 
 To apply the payment that has been already created in the system to the invoice, do the following:
 
@@ -66,10 +66,9 @@ To apply the payment that has been already created in the system to the invoice,
 
     The following screenshot illustrates the unreleased AR invoice to which the payment has been applied.
 
-    ![](Images/activity_Finance_Unreleased_Invoice_wth_Applied_Payment.png "The invoice with the payment applied to it")
 
 
-## Step 3: Releasing the Invoice and Payment Application {#section_vfn_4jv_vxb .section}
+## Step 3: Releasing the Invoice and Payment Application
 
 To release the invoice and its application to the payment, do the following:
 

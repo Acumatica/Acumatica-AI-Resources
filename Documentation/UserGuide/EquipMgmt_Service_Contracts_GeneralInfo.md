@@ -1,10 +1,10 @@
-# Service Contracts: General Information {#_cb4c6f7d-739b-4db0-bf6e-bcbfbbf5a5c5 .concept}
+# Service Contracts: General Information
 
 In Acumatica ERP, you can create and process contracts for the services requested by your company's customers. A service contract is a document that contains information about the customer, the services to be provided, and the schedule or schedules determining when your service staff will perform these services. You can use service contracts for creating appointment schedules for a piece of target equipment and generating periodic appointments.
 
 In Acumatica ERP, you can create service contracts with different billing options, which you set up depending on the company's needs.
 
-## Learning Objectives {#section_f3t_45s_kdc .section}
+## Learning Objectives
 
 In this chapter, you will learn how to create and process a service contract by doing the following:
 
@@ -12,15 +12,14 @@ In this chapter, you will learn how to create and process a service contract by 
 -   Creating a service contract that is billed at the end of the billing period and processing an appointment with no additional items \(those that are not covered by a service contract\)
 -   Creating and processing a service contract that is billed at the beginning of the billing period
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create a service contract when a customer requires services to be performed periodically at the customer's place.
 
-## Processing Workflow { .section}
+## Processing Workflow
 
 This diagram represents the lifecycle of a service contract in service management. It illustrates the key steps—from creating and activating a contract to generating service orders and billing—as well as the possible contract status changes.
 
-![](Images/diag_EquipMgmt_Service_Contracts_At_Time_of_Service.png "Processing a service contract billed at the time of service")
 
 The following steps and optional steps are involved in the creation and processing of a service contract:
 
@@ -32,7 +31,7 @@ The following steps and optional steps are involved in the creation and processi
 6.  Suspending the contract \(optional\): If it is necessary to pause the service delivery and billing for the contract temporarily, the service manager can suspend the contract.
 7.  Canceling the contract \(optional\): If the service manager has activated the contract but the services for the contract will no longer be provided for some reason, the contract can be canceled. This step can be performed before or after your company has started to provide services according to the contract.
 
-## Service Contract Billing Types {#section_myy_1vs_kdc .section}
+## Service Contract Billing Types
 
 When you create a service contract, you can select how its billing is performed. On the [Service Contracts](FS_30_57_00.md) \(FS305700\) form, four options are available in the **Billing Type** box:
 

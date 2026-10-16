@@ -1,26 +1,26 @@
-# Photo Logs: Implementation Activity {#_4b78eeec-b783-45ff-a412-01960a9c0904 .task}
+# Photo Logs: Implementation Activity
 
 This activity will walk you through the process of specifying the statuses that can be used for photo logs.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the ToadGreen company needs to keep photo logs in the system. Acting as a system administrator, you need to define the statuses to be used for photo logs.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 For the purposes of this activity, the *Construction* and *Construction Project Management* features have been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Process Overview {#section_qjw_hdr_v4b .section}
+## Process Overview
 
 You will specify the numbering sequences to be used for photo logs and photos on the [Project Management Preferences](PJ_10_10_00.md) \(PJ101000\) form. You will also configure a list of statuses to be used for the photo logs on the same form.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as a system administrator by using the *gibbs* username and the *123* password.
 
-## Step: Specifying Photo Log Settings { .section}
+## Step: Specifying Photo Log Settings
 
 Specify the photo log settings by doing the following:
 

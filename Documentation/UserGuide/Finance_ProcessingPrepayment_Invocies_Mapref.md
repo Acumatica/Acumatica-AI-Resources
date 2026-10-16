@@ -1,4 +1,4 @@
-# Processing Prepayment Invoices {#_ab3c581a-2732-484c-8032-9cd2cbfd774b .concept}
+# Processing Prepayment Invoices
 
 Everyday business operations often involve prepayments to vendors, particularly when suppliers require deposits before delivering goods or services. In some countries, legislation requires value-added tax \(VAT\) to be recognized and reported in tax reports at the time a prepayment is paid. This chapter explains how to create prepayment invoices in Accounts Payable that support VAT recognition at the time of prepayment.
 

@@ -1,10 +1,10 @@
-# Synchronizing Customers: To Perform Bidirectional Synchronization {#_d29ca3d4-440f-49d7-b189-ba31cbc8910b .task}
+# Synchronizing Customers: To Perform Bidirectional Synchronization
 
 The following activity will walk you through the process of setting up the bidirectional synchronization of customers and performing the synchronization of customers between Acumatica ERP and the BigCommerce store.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company has multiple corporate customers from the United States and Canada in the system. The company management wants customer records for US customers to be exported from Acumatica ERP to the BigCommerce store. At the same time, new customers that place orders in the BigCommerce store should be imported to Acumatica ERP.
 
@@ -12,7 +12,7 @@ Because an email address is a key field for a customer in BigCommerce, customers
 
 Acting as an implementation consultant helping SweetLife to set up the integration of Acumatica ERP with the BigCommerce store, you need to configure the bidirectional synchronization of customers, and configure the filtering conditions to export only records for US customers that have an email specified.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -22,7 +22,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
     -   *JAMIFIQUE*: On the **General** tab, notice that in the **Primary Contact** section, the name of the contact \(*Colleen Plunkett*\) has been filled in. In the **Additional Account Info** section, the account's email address and phone number have been specified.
 -   On the [Numbering Sequences](CS_20_10_10.md) \(CS201010\) form, the *ECCUSTOMER* numbering sequence has been defined.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will perform the following steps:
 
@@ -33,7 +33,7 @@ In this activity, you will perform the following steps:
 5.  On the [Sync History](BC_30_10_00.md) \(BC301000\) form, review the synchronization status of the processed synchronization records.
 6.  In the BigCommerce store, review the customers that have been imported from Acumatica ERP.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you complete the instructions in this activity, do the following:
 
@@ -45,7 +45,7 @@ Before you complete the instructions in this activity, do the following:
     -   **Password**: *123*
 3.  Sign in to the control panel of the BigCommerce store as the store administrator.
 
-## Step 1: Reviewing the Synchronization Settings of the Customer Entity { .section}
+## Step 1: Reviewing the Synchronization Settings of the Customer Entity
 
 To review the synchronization settings of the *Customer* entity, do the following:
 
@@ -65,7 +65,7 @@ To review the synchronization settings of the *Customer* entity, do the followin
 
 4.  If you have changed any of the settings, click **Save** on the form toolbar to save your changes.
 
-## Step 2:Configuring the Filtering Condition { .section}
+## Step 2:Configuring the Filtering Condition
 
 To configure the export of only customer records that are assigned to the *COMMERCEBB* customer class, do the following:
 
@@ -87,7 +87,7 @@ To configure the export of only customer records that are assigned to the *COMME
     Now when you prepare the *Customer* entity for synchronization and process the prepared customer data, only the customers that have the *COMMERCEBB* customer class and an email address specified will be exported to the *SweetStore - BC* store.
 
 
-## Step 3: Preparing the Customer Data for Synchronization { .section}
+## Step 3: Preparing the Customer Data for Synchronization
 
 To prepare the customer data for synchronization, do the following:
 
@@ -100,7 +100,7 @@ To prepare the customer data for synchronization, do the following:
     Notice that the **Prepared Records** column shows the number of synchronization records that have been prepared and are ready to be processed.
 
 
-## Step 4: Processing the Prepared Customer Data { .section}
+## Step 4: Processing the Prepared Customer Data
 
 To process the customer data you have prepared for synchronization, do the following:
 
@@ -111,7 +111,7 @@ To process the customer data you have prepared for synchronization, do the follo
 2.  On the form toolbar, click **Process All** to process both synchronization records displayed in the table.
 3.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 5:Reviewing the Synchronization Status { .section}
+## Step 5:Reviewing the Synchronization Status
 
 To review the synchronization status of the synchronization records that you processed in the previous step, do the following:
 
@@ -122,10 +122,9 @@ To review the synchronization status of the synchronization records that you pro
 
     The table shows the items that have been synchronized with the *SweetStore - BC* store \(see the following screenshot\). For each customer of the *COMMERCEBB* customer class that you processed, the system displays an identifier in the **External ID** column. The **Last Operation** column is set to *Inserted Externally* and the time stamp in the **Last Attempt** column now shows the date and time when you ran data processing on the [Process Data](BC_50_15_00.md) \(BC501500\) form.
 
-    ![](Images/activity_Commerce_BC_Syncing_Customers_To_Perform_Bidirectional_Sync.png "Synchronization records for processed customer entities")
 
 
-## Step 6:Viewing Exported Customer Records { .section}
+## Step 6:Viewing Exported Customer Records
 
 1.  While you are still viewing the [Sync History](BC_30_10_00.md) \(BC301000\) form, locate the row with *JAMIFIQUE, Jamifique factory* in the **ERP ID** column, and click the link in the **External ID** column of that row.
 
@@ -149,5 +148,5 @@ To review the synchronization status of the synchronization records that you pro
     The **Edit customer** page opens. Because the **Name** box of the **Primary Contact** section was empty for this customer on the [Customers](AR_30_30_00.md) \(AR303000\) form, the **First name** and **Last name** boxes on the **Customer details** tab have been filled in with the information from the **Legal Name** box of the **Account Information** section on the [Customers](AR_30_30_00.md) form \(*Fruitico* and *Coffee and Cakes*, respectively\).
 
 
-**Parent topic:**[Synchronizing Customers](../UserGuide/Commerce_BC_Syncing_Customers_Mapref.md)
+**Parent topic:**[Synchronizing Individual and Business Customers](../UserGuide/Commerce_BC_Syncing_Customers_Mapref.md)
 

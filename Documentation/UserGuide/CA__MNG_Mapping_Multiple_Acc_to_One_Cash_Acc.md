@@ -1,4 +1,4 @@
-# Mapping of Multiple Bank Accounts to One Cash Account {#_5f438151-fb81-44ed-b073-b262a5181441 .concept}
+# Mapping of Multiple Bank Accounts to One Cash Account
 
 You can set up bank feeds to map multiple bank accounts to one cash account in Acumatica ERP. With this functionality, users can do the following:
 
@@ -8,7 +8,7 @@ You can set up bank feeds to map multiple bank accounts to one cash account in A
 
 This functionality is available in the system if the *Bank Feeds* and *Mapping of Multiple Accounts for Bank Feeds* features are enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Setup Overview { .section}
+## Setup Overview
 
 To set up this functionality, you perform the following general steps:
 
@@ -19,7 +19,7 @@ To set up this functionality, you perform the following general steps:
     For details, see [To Set Up Plaid Integration](CA__HOW_Set_Up_Plaid_Integration.md) and [To Set Up MX Integration](CA__HOW_Set_Up_MX_Integration.md).
 
 
-## Date Selection Rules { .section}
+## Date Selection Rules
 
 When you select the **Map Multiple Bank Accounts to One Cash Account** check box for a bank feed on the [Bank Feeds](CA_20_55_00.md) \(CA205500\) form, multiple bank accounts can be matched to a single cash account. With this check box selected, for each mapped bank account in the bank feed, the system does the following on the [Bank Feeds](CA_20_55_00.md) form:
 
@@ -41,7 +41,7 @@ When you select the **Map Multiple Bank Accounts to One Cash Account** check box
     **Tip:** If you need to revert to the date calculated by the system, you need to manually clear the entered value in the **Import Transactions From** column. The system will recalculate the dates and populate the date in the **Import Transactions From** column.
 
 
-## Transaction Retrieval of Plaid Bank Feeds { .section}
+## Transaction Retrieval of Plaid Bank Feeds
 
 **Attention:** In the production environment for Plaid bank feeds, the Plaid data provider does not allow the same bank feed to be called more than 30 times per minute. To avoid this limitation, Acumatica ERP’s API requests combine accounts into one bank feed while the API requests new transactions from Plaid.
 

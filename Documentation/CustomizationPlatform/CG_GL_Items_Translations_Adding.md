@@ -1,4 +1,4 @@
-# To Add a System Locale to a Project {#_2db2cd74-3dca-4e65-9c1c-fcaed25822fe .concept}
+# To Add a System Locale to a Project
 
 You can add a system locale to a customization project. To do this, perform the following actions:
 
@@ -12,12 +12,10 @@ You can add a system locale to a customization project. To do this, perform the 
 5.  In the dialog box, click **OK** to add each selected locale to the page table.
 6.  On the page toolbar, click **Save** to save the changes to the customization project.
 
-    ![](images/CG_GL_Items_Translations_Adding_01.png "Adding the system locale to the customization project")
 
 
 The system adds to the project the data from the database for each selected system locale. You can view each new *Locale* item in the Project Items table of the [Edit Project Items](../UserGuide/AU_ItemXMLEditor.md), as shown in the following screenshot.
 
-![](images/CG_GL_Items_Translations_02.png "Viewing the XML code of the Locale item included in the project")
 
 **Parent topic:**[System Locales](../CustomizationPlatform/CG_GL_Items_Translations.md)
 

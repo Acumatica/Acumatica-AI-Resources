@@ -1,8 +1,8 @@
-# Multicurrency Cash Accounts: To Configure an Account {#_c5235bc2-af63-40ce-8a7c-5570d3898c4c .task}
+# Multicurrency Cash Accounts: To Configure an Account
 
 In this implementation activity, you will learn how to create a denominated cash account.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company has opened a bank account in Canadian dollars \(the *CAD* currency defined in the system\), because it has customers and a few big vendors in Canada and wants to use Canadian dollars for payments to these partners.
 
@@ -11,7 +11,7 @@ Acting as a SweetLife accountant, you need to configure the following accounts:
 -   A GL account denominated in *CAD* to which the cash account will be linked
 -   A cash account denominated in *CAD* and an entry type for processing bank charges
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -27,11 +27,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Payment Methods](../UserGuide/CA_20_40_00.md) \(CA204000\) form, the *WIRE* payment method for wire transfers has been predefined.
 -   On the [Currency Rate Types](../UserGuide/CM_20_10_00.md) \(CM201000\) form, the *SPOT* rate type has been defined.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Chart of Accounts](../UserGuide/GL_20_25_00.md) \(GL202500\) form, you will manually create a GL account denominated in *CAD*. On the [Cash Accounts](../UserGuide/CA_20_20_00.md) \(CA202000\) form, you will create a cash account linked to the new GL account and add the *BANKFEE* entry type for this cash account.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin creating GL and cash accounts, do the following:
 
@@ -40,7 +40,7 @@ Before you begin creating GL and cash accounts, do the following:
 3.  Make sure that the settings of the base currency \(*USD*\) and the foreign currencies \(*CAD* and *EUR*\) have been defined on the [Currencies](../UserGuide/CM_20_20_00.md) \(AP101000\) form, as described in [Multicurrency Functionality: Implementation Activity](config_Multicurrency_Basic_Implem_Activity.md).
 4.  Make sure that currency rates for *CAD* and *EUR* have been created, as described in [Configuration of Rate Types and Rates: To Configure Rates](config_Multicurrency_Configuring_Rates_Activity1.md).
 
-## Step 1: Creating a GL Account { .section}
+## Step 1: Creating a GL Account
 
 To create a GL account, do the following:
 
@@ -59,7 +59,7 @@ To create a GL account, do the following:
 
 3.  On the form toolbar, click **Save** to save your changes.
 
-## Step 2: Creating a Cash Account { .section}
+## Step 2: Creating a Cash Account
 
 To create a cash account denominated in *CAD*, do the following:
 

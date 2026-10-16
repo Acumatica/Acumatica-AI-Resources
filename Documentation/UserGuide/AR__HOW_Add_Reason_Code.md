@@ -1,12 +1,12 @@
-# To Configure a Reason Code {#_62b05076-c875-4ebf-83af-e073ff926b02 .task}
+# To Configure a Reason Code
 
 You define reason codes on the [Reason Codes](CS_21_10_00.md) \(CS211000\) form. For each reason code, you must specify with what transaction it will be used. The transaction type determines the Acumatica ERP functional area in which the reason code can be used in. You can define the reason codes for the following types of transactions originating in the accounts receivable functional area: credit write-off and balance write-off.
 
-## Before You Proceed {#section_km2_hjv_vxb .section}
+## Before You Proceed
 
 Make sure that the general ledger accounts and subaccounts you are going to use for write-offs have been configured.
 
-## To Add a Reason Code {#section_mm2_hjv_vxb .section}
+## To Add a Reason Code
 
 1.  Open the [Reason Codes](CS_21_10_00.md) \(CS211000\) form.
 2.  On the form toolbar, click **Add New Record**.

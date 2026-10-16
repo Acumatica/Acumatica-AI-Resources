@@ -1,4 +1,4 @@
-# Contract-Based REST API {#_735fad82-9cf3-4a2c-8538-1c8344aba844 .concept}
+# Contract-Based REST API
 
 The contract-based REST API operates with business logic objects that do not depend on Acumatica ERP forms or their properties and methods. \(In this context, *contract-based* means based on the object model that the REST API provides.\) Each REST API contract is fixed and does not change based on system customization, localization, or any other changes made to Acumatica ERP.
 

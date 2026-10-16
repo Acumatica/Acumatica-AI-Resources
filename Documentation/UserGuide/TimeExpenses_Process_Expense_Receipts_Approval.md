@@ -1,8 +1,8 @@
-# Expense Receipts: Expense Receipt Approval {#_6464a09f-a8f0-44b2-9d08-f39c8c79cf80 .concept}
+# Expense Receipts: Expense Receipt Approval
 
 Depending on company policy, expense receipts may require approval by authorized employees before they are released. The approval functionality is available if the *Approval Workflow* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Assignment for Approval { .section}
+## Assignment for Approval
 
 Expense receipts can be submitted for approval once they have been taken off hold and meet all of the following conditions:
 
@@ -22,7 +22,7 @@ If any of these conditions are not met, the expense receipt is automatically con
 
 **Tip:** If the *Approval Workflow* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can configure the approval of both expense receipts and expense claims; however, the requirement to approve the same expenses twice may involve too much redundancy in effort. For effective processing of expenses, it may be sufficient to set up the approval of only one type of expense document. For example, if you want all expenses related to a particular project to be approved by the project manager, you can configure the approval of only expense receipts associated with the project.
 
-## Approval of Expense Receipts { .section}
+## Approval of Expense Receipts
 
 You can approve or reject an expense receipt on the [Expense Receipt](EP_30_10_20.md) \(EP301020\) form by clicking **Approve** or **Reject** on the form toolbar if the receipt meets one of the following conditions:
 

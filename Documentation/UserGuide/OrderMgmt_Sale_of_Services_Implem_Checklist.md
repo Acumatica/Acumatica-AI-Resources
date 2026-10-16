@@ -1,8 +1,8 @@
-# Sales of Services: Implementation Checklist {#_1d1d23cb-0840-46cf-971e-07d45bbe9593 .concept}
+# Sales of Services: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for the processing of sales of services, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 Before you begin processing sales of services, you should make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -13,11 +13,11 @@ Before you begin processing sales of services, you should make sure the needed f
 |[Customers](AR_30_30_00.md) \(AR303000\)|Make sure that all needed customers have been defined in the system, as described in [Customers: Implementation Activity](Customer_Implem_Activity.md).|
 |[Non-Stock Items](IN_20_20_00.md) \(IN202000\)|Make sure that all non-stock items have been defined in the system, as described in [Non-Stock Items: Implementation Activity](Non_Stock_Items_OrderMgmt_Implem_Activity.md).|
 
-## Other Settings That Affect the Workflow { .section}
+## Other Settings That Affect the Workflow
 
 To cause general ledger batches generated during the processing of sales documents to be posted automatically, select the **Automatically Post on Release** check box on the [General Ledger Preferences](GL_10_20_00.md) \(GL102000\) form. For information on processing general ledger batches, see [GL Transactions: General Information](Finance_Processing_Batch_GeneralInfo.md).
 
-## Validation of Configuration { .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you process a sale of services by performing instructions similar to those described in [Sales of Services: Process Activity](OrderMgmt_Sale_of_Services_Activity.md).
 

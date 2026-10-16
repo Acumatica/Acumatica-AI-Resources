@@ -1,16 +1,16 @@
-# Importing an Order with Freight Charges: Activity {#_bca40511-f23b-41b3-9391-d74c5a254f7c .task}
+# Importing an Order with Freight Charges: Activity
 
 The following activity will walk you through the process of configuring a shipping method in the BigCommerce store and mapping it to an existing ship via code in Acumatica ERP. You will also create a sales order for stock items that need to be shipped to the customer's location, import the order to Acumatica ERP, and then review the results of the import.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that you are an implementation consultant helping the SweetLife Fruits &amp; Jams company to configure the integration with the BigCommerce store. As part of the implementation process, you want to explore how freight charges added to an online order in the BigCommerce store are imported to Acumatica ERP. For testing purposes, you need to configure a shipping zone that will correspond to Manhattan, where SweetLife's head office and main warehouse are also located. For shipments to this area, you will charge a small handling fee of $5. You need to create at least one shipping method for the shipping zone. For simplicity, you will charge a $30 shipping fee per order. Before processing an order placed with the shipping method, you need to map it to the ship via code and shipping terms defined in Acumatica ERP.
 
 To test the configuration, you need to create a BigCommerce order that requires a shipment; you will then synchronize it with Acumatica ERP and review the details of the imported order. For training purposes, you will process a purchase of a cherry jam for the GoodFood One Restaurant customer. GoodFood is located in Manhattan and the shipping option corresponding to the created shipping rule will be available to this customer in the cart and at checkout.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -21,7 +21,7 @@ In this activity, you will do the following:
 5.  On the [Process Data](BC_50_15_00.md) \(BC501500\) form, you will synchronize sales order data.
 6.  On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, you will review the imported sales order and analyze how the freight fees have been imported to Acumatica ERP.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you complete the steps described in this activity, do the following:
 
@@ -32,7 +32,7 @@ Before you complete the steps described in this activity, do the following:
     -   The first synchronization of data has been completed manually, as described in [Data Synchronization: To Perform the First Synchronization](Commerce_BC_Data_Sync_First_Sync.md).
 -   Sign in to the control panel of the BigCommerce store as an administrator.
 
-## Step 1: Configuring a Shipping Rule in the BigCommerce Store { .section}
+## Step 1: Configuring a Shipping Rule in the BigCommerce Store
 
 To configure a shipping rule in the BigCommerce store, do the following:
 
@@ -59,7 +59,7 @@ To configure a shipping rule in the BigCommerce store, do the following:
     -   **Type**: *Per Order*
 11. Click **Submit** to save your changes and close the dialog box.
 
-## Step 2: Updating the Store's Settings in Acumatica ERP { .section}
+## Step 2: Updating the Store's Settings in Acumatica ERP
 
 To map the shipping rule you created in Step 1 with the ship via code in Acumatica ERP, do the following:
 
@@ -71,7 +71,7 @@ To map the shipping rule you created in Step 1 with the ship via code in Acumati
 
 4.  On the form toolbar, click **Save**.
 
-## Step 3: Creating a Sales Order { .section}
+## Step 3: Creating a Sales Order
 
 To create a sales order for the *GOODFOOD* customer in the BigCommerce store, do the following:
 
@@ -106,7 +106,7 @@ To create a sales order for the *GOODFOOD* customer in the BigCommerce store, do
 8.  At the bottom of the page, click **Save &amp; Process Payment**.
 9.  On the **View Orders** page, which opens, notice that the order has been created.
 
-## Step 4: Importing the Sales Order { .section}
+## Step 4: Importing the Sales Order
 
 To import the sales order you created in Step 3 to Acumatica ERP, do the following:
 
@@ -121,7 +121,7 @@ To import the sales order you created in Step 3 to Acumatica ERP, do the followi
 7.  On the [Process Data](BC_50_15_00.md) \(BC501500\) form, on the form toolbar, click **Process All** to process all out-of-sync synchronization records.
 8.  In the **Processing** dialog box, which opens, review the results of the processing, and click **Close** to close the dialog box.
 
-## Step 5: Reviewing the Imported Sales Order { .section}
+## Step 5: Reviewing the Imported Sales Order
 
 To review how the freight charges are displayed in the imported sales order, do the following:
 

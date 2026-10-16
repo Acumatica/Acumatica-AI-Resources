@@ -1,18 +1,47 @@
-# Reclassification of Expenses: Implementation Checklist {#_b1140a81-1741-490b-b467-715afbc6c72f .concept}
+# Reclassification of Expenses: Implementation Checklist
 
 The following sections provide details that you can use to ensure that the system is configured properly for performing the reclassification of expenses, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you initially reclassify expenses, you make sure that the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
-|Form|Criteria to Check|
-|----|-----------------|
-|[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)|Make sure the minimum set of features has been enabled, as described in [Company Without Branches: General Information](../ImplementationGuide/config_Basic_Company_GeneralInfo.md), [Company with Branches that Do Not Require Balancing: General Information](../ImplementationGuide/config_Company_with_Branches_No_Balancing_GeneralInfo.md), and [Company with Branches that Require Balancing: General Information](../ImplementationGuide/config_Company_with_Branches_with_Balancing_GeneralInfo.md).|
-|[Vendors](AP_30_30_00.md) \(AP303000\)|Verify the existence of the vendor accounts for the vendors for which you want to reclassify bills. For details, see [Vendors: Implementation Activity](Vendor_Implem_Activity.md).|
-|[Chart of Accounts](GL_20_25_00.md) \(GL202500\)|Make sure that a reclassification account with the *Expense* type has been created. The system will use this account when you post a pre-released document.|
+<table id="_75f5a845-9a95-409c-9ffd-7c022ec672dc"><thead><tr><th>
 
-## Other Settings That Affect the Workflow {#section_hd3_njv_vxb .section}
+Form
+
+</th><th>
+
+Criteria to Check
+
+</th></tr></thead><tbody><tr><td>
+
+[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)
+
+</td><td>
+
+Make sure the minimum set of features has been enabled, as described in [Company Without Branches: General Information](../ImplementationGuide/config_Basic_Company_GeneralInfo.md), [Company with Branches that Do Not Require Balancing: General Information](../ImplementationGuide/config_Company_with_Branches_No_Balancing_GeneralInfo.md), and [Company with Branches that Require Balancing: General Information](../ImplementationGuide/config_Company_with_Branches_with_Balancing_GeneralInfo.md).
+
+</td></tr><tr><td>
+
+[Vendors](AP_30_30_00.md) \(AP303000\)
+
+</td><td>
+
+Verify the existence of the vendor accounts for the vendors for which you want to reclassify bills. For details, see [Vendors: Implementation Activity](Vendor_Implem_Activity.md).
+
+</td></tr><tr><td>
+
+[Chart of Accounts](GL_20_25_00.md) \(GL202500\)
+
+</td><td>
+
+Make sure that a reclassification account with the *Expense* type has been created. The system will use this account when you post a pre-released document.
+
+</td></tr></tbody>
+</table>
+
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of reclassifying expenses in AP bills and cash purchases by specifying additional settings as follows:
 
@@ -23,11 +52,11 @@ You can affect the workflow of reclassifying expenses in AP bills and cash purch
     -   Clear the **Require Vendor Reference** check box in the **Data Entry Settings** section. This setting means that users do not have to enter a vendor reference number in the **Vendor Ref.** box when creating an AP bill on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form or a cash purchase on the [Cash Purchases](AP_30_40_00.md) \(AP304000\) form.
     -   Make sure that the **Automatically Post on Release** check box is selected in the **Posting Settings** section. This setting indicates that AP documents will be automatically posted to the general ledger once they are released.
 
-## Validation of Configuration { .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you reclassify expenses by performing instructions similar to those described in [Reclassification of Expenses: Process Activity](Finance_Reclassification_of_Expenses_Process_Activity.md).
 
-## Known Process Limitations { .section}
+## Known Process Limitations
 
 Pending expense reclassification is not supported for the following types of bills:
 
@@ -35,5 +64,5 @@ Pending expense reclassification is not supported for the following types of bil
 -   Bills based on lines of purchase orders
 -   Bills generated automatically from purchase orders
 
-**Parent topic:**[Configuring Reclassification of Expenses](../UserGuide/Finance_Reclassification_of_Expenses_Mapref.md)
+**Parent topic:**[Reclassification of Expenses](../UserGuide/Finance_Reclassification_of_Expenses_Mapref.md)
 

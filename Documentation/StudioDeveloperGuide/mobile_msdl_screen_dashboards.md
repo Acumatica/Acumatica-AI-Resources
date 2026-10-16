@@ -1,4 +1,4 @@
-# Mapping Dashboards {#_da5fdd07-4e9c-4fe3-873b-72503e30182d .concept}
+# Mapping Dashboards
 
 To map a dashboard to the mobile app, you have to do the following:
 
@@ -18,7 +18,7 @@ A screen of the *Dashboard* type can display the following types of dashboard wi
 
 Widgets of other types are not available in the mobile app. For details on widget types, see [Configuring Widgets](../UserGuide/RPT_Configuring_Widgets_Mapref.md).
 
-## Example: Adding a Dashboard Screen { .section}
+## Example: Adding a Dashboard Screen
 
 In this example, you will add the Controller \(DB000015\) screen with a set of dashboard widgets. Do the following:
 
@@ -48,7 +48,6 @@ In this example, you will add the Controller \(DB000015\) screen with a set of d
 
 The following screenshot displays the Controller \(DB000015\) screen for that is defined in an instance of Acumatica ERP. If you click on any widget, the screen is not displayed because the appropriate screens were not added to the mobile site map. You can add them to the mobile site map later.
 
-![](Images/MOBILE_Dashboards.png "Viewing a dashboard screen")
 
 **Parent topic:**[Screens](../StudioDeveloperGuide/mobile_msdl_screens.md)
 

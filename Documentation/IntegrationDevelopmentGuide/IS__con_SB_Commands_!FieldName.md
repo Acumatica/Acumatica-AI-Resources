@@ -1,8 +1,8 @@
-# Commands for Record Searching: Custom Field {#_a4fa7888-f76f-4ad2-ae57-42ba31b17e0a .concept}
+# Commands for Record Searching: Custom Field
 
 To search for a record, you have to imitate the use of a column of a **Select** dialog box, declare a custom key, or declare a custom field in the sequence of commands that you pass to a processing method. In this topic, you will find a detailed description of the declaration of a custom field. You can find descriptions of two other approaches in [Commands for Record Searching: Filter Service Command](IS__con_SB_Commands_Filter.md#) and [Commands for Record Searching: Key Command](IS__con_SB_Commands_Key.md#).
 
-## Custom Field { .section}
+## Custom Field
 
 Acumatica ERP does not include `Filter` service commands for all selector columns that are available on Acumatica ERP forms. To use the needed selector column for record searching, you can create a custom field as follows:
 

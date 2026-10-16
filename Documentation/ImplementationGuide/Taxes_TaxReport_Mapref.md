@@ -1,4 +1,4 @@
-# Tax Report {#_cccd37c1-84fe-4a19-83e1-dd26ddd68173 .concept}
+# Tax Report
 
 The topics of this chapter describe how to configure a tax report in Acumatica ERP to be sent to a particular tax agency.
 

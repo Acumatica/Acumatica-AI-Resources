@@ -1,4 +1,4 @@
-# Financial Periods: Posting Transactions {#_f7321673-2c63-449a-886e-26ce9e6e0784 .concept}
+# Financial Periods: Posting Transactions
 
 In general, the process of posting transactions to financial periods consists of the following steps:
 
@@ -18,7 +18,6 @@ In general, the process of posting transactions to financial periods consists of
 
 The following diagram illustrates the process of posting transactions to a financial period.
 
-![](Images/GL_Posting_Transactions_Workflow.png "Process of posting transactions to financial periods")
 
 **Parent topic:**[Managing Financial Periods](../UserGuide/Finance_ManagingPeriods_Mapref.md)
 

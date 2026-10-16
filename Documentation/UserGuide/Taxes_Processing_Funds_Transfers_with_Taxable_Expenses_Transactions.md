@@ -1,8 +1,8 @@
-# Funds Transfers with Taxable Fees: Generated Transactions {#_33b1e514-4462-4f80-a05c-88993bb16cae .concept}
+# Funds Transfers with Taxable Fees: Generated Transactions
 
 To be able to perform funds transfers with taxable fees, you create and process the documents on the [Funds Transfers](CA_30_10_00.md) \(CA301000\) form. To track the movements of funds between cash accounts, the system generates GL transactions described in the following sections.
 
-## Transaction Generated for a Funds Transfer with Taxable Expenses {#section_zkj_fjv_vxb .section}
+## Transaction Generated for a Funds Transfer with Taxable Expenses
 
 When you create and release a funds transfer with a taxable service fee paid from the source account, the system generates the following GL transaction, if the applied tax is exclusive:
 

@@ -1,4 +1,4 @@
-# UI Definition in HTML and TypeScript: Backend Action with Parameters {#_11119cb7-974d-408f-a6f7-bda8d06c79ac .concept}
+# UI Definition in HTML and TypeScript: Backend Action with Parameters
 
 You can execute an action defined in backend with parameters passed from the frontend. For that purpose, you need to create an object of the ServerCommand type and pass it to the screenService.executeCommand method.
 
@@ -18,7 +18,7 @@ In TypeScript code of the screen, do the following:
     ```
 
 
-## Example { .section}
+## Example
 
 Suppose that you have defined an action in a graph, as shown in the following code. The name of the action property is `MatrixGridCellChanged`.
 

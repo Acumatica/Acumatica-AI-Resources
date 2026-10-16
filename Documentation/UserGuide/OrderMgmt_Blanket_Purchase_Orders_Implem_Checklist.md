@@ -1,8 +1,8 @@
-# Blanket Purchase Orders: Implementation Checklist {#_56c37f15-611e-474a-9651-47c863c9afad .concept}
+# Blanket Purchase Orders: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for the processing of blanket purchase orders, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you initially process blanket purchase orders, you make sure that the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -15,7 +15,7 @@ We recommend that before you initially process blanket purchase orders, you make
 |[Stock Items](IN_20_25_00.md) \(IN202500\)|All the needed stock items have been created, as demonstrated in [Stock Items: Implementation Activity](Stock_Items_Implem_Activity.md).|
 |[Non-Stock Items](IN_20_20_00.md) \(IN202000\)|All the needed non-stock items have been created, as demonstrated in [Non-Stock Items: Implementation Activity](Non_Stock_Items_OrderMgmt_Implem_Activity.md)|
 
-## Other Settings That Affect the Workflow { .section}
+## Other Settings That Affect the Workflow
 
 You can affect the workflow in which blanket purchase orders are processed by specifying additional settings on the **General** tab of the [Purchase Orders Preferences](PO_10_10_00.md) \(PO101000\) form as follows:
 
@@ -29,7 +29,7 @@ You can affect the workflow in which blanket purchase orders are processed by sp
 
 Also, to cause the system to automatically post general ledger batches generated during the processing of purchase documents, select the **Automatically Post on Release** check box on the [General Ledger Preferences](GL_10_20_00.md) \(GL102000\) form. For information on processing general ledger batches, see [GL Transactions: General Information](Finance_Processing_Batch_GeneralInfo.md).
 
-## Validation of Configuration { .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you process a blanker purchase order by performing instructions similar to those described in [Blanket Purchase Orders: Process Activity](OrderMgmt_Blanket_Purchase_Orders_Activity.md).
 

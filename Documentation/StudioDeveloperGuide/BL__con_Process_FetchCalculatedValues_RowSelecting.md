@@ -1,29 +1,29 @@
-# To Fetch Calculated Data from a Non-Scalar Source \(in RowSelecting\) {#_5ac28730-f0bc-490d-b6ae-c7bcac636753 .task}
+# To Fetch Calculated Data from a Non-Scalar Source \(in RowSelecting\)
 
 The following activity will walk you through the process of fetching calculated data from a non-scalar source by using the RowSelecting event handler.
 
-## Story { .section}
+## Story
 
 Suppose that you need to fetch the values for the **Number of Assigned Work Orders** column, which is displayed on the Assign Work Orders \(RS501000\) form. \(You have developed this form for the Smart Fix company.\) You need to write a fluent BQL query that fetches the number of assigned work orders from the `RSSVEmployeeWorkOrderQty` DAC for the employee selected in the `AssignTo` field of the `RSSVWorkOrder` DAC.
 
-## Process Overview { .section}
+## Process Overview
 
 To fetch the needed values, you'll use the RowSelecting event handler. In the event handler, you'll retrieve the number of assigned work orders for the employee selected in the `AssignTo` field of the `RSSVWorkOrder` DAC.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin defining the logic for fetching data from a non-scalar source, perform the following prerequisite activities:
 
-1.  [Test Instance for Customization: To Deploy an Instance with a Custom Form that Implements a Workflow](CodeCustomization_PrepareInstance_Activity_DeployInstanceT240.md)
+1.  [Test Instance for Customization: To Deploy an Instance with a Custom Form That Implements a Workflow](CodeCustomization_PrepareInstance_Activity_DeployInstanceT240.md)
 2.  [Processing Operations: To Implement a Processing Operation by Using a Delegate](CodeCustomization_ProcessingOperations_Activity_CreateWithoutFilter_withDelegate.md)
 
-## Step 1: Extending the RSSVWorkOrder DAC { .section}
+## Step 1: Extending the RSSVWorkOrder DAC
 
 Add the new field to the `RSSVWorkOrder` DAC as follows:
 
 1.  Define the `NbrOfAssignedOrders` field, as the following code shows.
 
-    ```language-csharp
+    ```csharp
             #region NbrOfAssignedOrders
             [PXInt]
             [PXUIField(DisplayName = "Number of Assigned Work Orders")]
@@ -36,7 +36,7 @@ Add the new field to the `RSSVWorkOrder` DAC as follows:
 
 2.  Build the project.
 
-## Step 2: Fetching Values for the NbrOfAssignedOrders Field { .section}
+## Step 2: Fetching Values for the NbrOfAssignedOrders Field
 
 Modify the `RSSVAssignProcess` graph as follows:
 

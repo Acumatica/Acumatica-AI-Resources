@@ -1,4 +1,4 @@
-# To Provide Hyperlinks for a Grid Column {#_b58cf22a-054d-4cec-971a-8a7c3d24e338 .concept}
+# To Provide Hyperlinks for a Grid Column
 
 To provide hyperlinks for an existing column in a grid, perform the following actions:
 

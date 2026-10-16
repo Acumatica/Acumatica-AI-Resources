@@ -1,4 +1,4 @@
-# Data from Multiple Data Sources: Discovery of Key Fields {#_2e4a1992-7372-4eac-a3b2-ef301b16c006 .concept}
+# Data from Multiple Data Sources: Discovery of Key Fields
 
 On the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form, you can manually configure the relation between each pair of tables that you are going to use in your inquiry form. In this case, you should perform the following actions: to decide what type of join to use, to discover the key fields of the tables, and to define how to link the discovered fields to get the desired output.
 
@@ -8,7 +8,7 @@ In this topic, you will read about the ways to discover key fields of a table th
 
 **Tip:** You can use any fields to join the tables. We recommend using the key and foreign key fields because it allows the system to retrieve the data more quickly.
 
-## Discovery of Key Fields by Using the DAC Schema Browser {#section_qjb_ljk_xrb .section}
+## Discovery of Key Fields by Using the DAC Schema Browser
 
 Suppose that you need to create an inquiry that shows a list of AR invoices with detailed information about customers and the branch related to each AR invoice. You need to select the correct DACs for this inquiry and to specify the correct fields to link these DACs.
 
@@ -16,17 +16,14 @@ Your primary goal is to show the list of AR invoices. You open the [Invoices and
 
 In the DAC Schema Browser, in the **Name** column of the **Fields** table, you look for the fields that hold information about the branch and customer of an AR invoice. These fields are *BranchID* and *CustomerID*, which are foreign keys, which means that there are DACs that reference these fields \(listed in the **Foreign Reference** column, as shown in the following screenshot\).
 
-![](Images/GI_Getting_Data_from_Multiple_Tables_SchemaBrowser_ARInvoice.png "Details of the BranchID field")
 
 For the *BranchID* field, the *Branch* DAC is listed as a foreign reference. You can view the details of this DAC by clicking its link. You may want to make sure that this is the class that holds information about branches and it has all the fields you need for your inquiry. If you are satisfied with the DAC, you should look for it either in the **Incoming References** or **Outgoing References** section to find its key field that you should use for linking. \(See the following screenshot.\)
 
 **Tip:** The first column in the **Incoming References** and **Outgoing References** sections lists the fields of the selected DAC.
 
-![](Images/GI_Getting_Data_from_Multiple_Tables_SchemaBrowser_ARInvoice_KeyFields.png "The information about the Branch DAC and its key field")
 
 For the *CustomerID* field, the *BAccount* and *Customer* DACs are listed. While reading about the *BAccount* DAC, you find out that it is the base class for the *Customer* DAC. That is, the *Customer* DAC uses information from the *BAccount* DAC and has additional fields. So, if the information about the customers that you need is available in the *BAccount* class, you should use this class for the performance reasons. Otherwise, you should use the *Customer* class. Suppose that you need to show only a customer's identifier, name, and default address. All this information is present in the *BAccount* class. You search for the *BAccount* class either in the **Incoming References** or **Outgoing References** section to find its key field that you should use for linking \(see the following screenshot\).
 
-![](Images/GI_Getting_Data_from_Multiple_Tables_SchemaBrowser_ARInvoice_KeyFields_2.png "The information about BAccount DAC and its key field")
 
 Thus, you determine that the following relations should be used for the selected DACs:
 
@@ -37,7 +34,7 @@ With this information, you add the DACs to the **Data Tables** tab and specify t
 
 For details on DAC Schema Browser, see [Data from Multiple Data Sources: DAC Schema Browser](GI_Discovering_DACs_DAC_Schema_Browser_Concept.md).
 
-## Discovery of Key Fields on the Source Code Form { .section}
+## Discovery of Key Fields on the Source Code Form
 
 The information about each key field—the field in the applicable record that holds unique data identifying that record from all the other records in the database—of the data access class you need is stored in the source code. You can get more information about the data access class you need on the [Source Code](SM_20_45_70.md) \(SM204570\) form, which you can access in the following ways:
 
@@ -46,7 +43,6 @@ The information about each key field—the field in the applicable record that h
 
 All fields of a data access class are listed on the **Data Access** tab, as shown in the following screenshot. You can explore any field further as you look for the key field; you generally focus on fields whose names seem to allude to numbers or identifiers. In the example shown in the screenshot, you would click `#region OrderNbr` to expand its attributes \(Item 2 in the screenshot\). Here you can find the string `IsKey = true`, which means that *OrderNbr* is included in the key of this class \(Item 3\).
 
-![](Images/GI_Getting_Data_from_Multiple_Tables_InspectElement2.png "Exploration of a data access class on the Source Code form")
 
 Particular types of key fields are distinguished as follows:
 

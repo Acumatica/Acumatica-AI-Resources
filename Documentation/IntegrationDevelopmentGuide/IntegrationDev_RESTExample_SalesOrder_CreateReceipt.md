@@ -1,8 +1,8 @@
-# Create a Shipment with the Receipt Operation Type {#_a0257153-3f15-4563-8cf0-5a269b0008db .concept}
+# Create a Shipment with the Receipt Operation Type
 
 By using the REST API, you can create a receipt \(that is, an incoming shipment with the *Receipt* operation type\) for a return that is part of an RMA order \(a return order of the *RM* type\). A user starts the process of creating a receipt for a return while viewing the RMA order on the [Sales Orders](../UserGuide/SO_30_10_00.md#) \(SO301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to do the following to configure your client application and the Acumatica ERP instance to be used:
 
@@ -12,14 +12,14 @@ Before you test the code below, you need to do the following to configure your c
 4.  On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md#) \(CS100000\) form, make sure that the *Inventory and Order Management* feature is enabled.
 5.  Execute the [Create an RMA Order for a Return](IntegrationDev_RESTExample_SalesOrder_CreateRM.md) request.
 
-## Request { .section}
+## Request
 
 You can use the following request example to create a shipment with the *Receipt* operation type from the *000127* return order of the *RM* type through the REST API. In the `WarehouseID` parameter, you specify the destination warehouse for the items that will be returned.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-POST /entity/Default/25.200.001/SalesOrder/SalesOrderCreateReceipt HTTP/1.1
+POST /entity/Default/26.200.001/SalesOrder/SalesOrderCreateReceipt HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
 Content-Type: application/json
@@ -31,12 +31,12 @@ Content-Type: application/json
   },
   "parameters": {
     "ShipmentDate":  {"value": "2025-04-11T00:00:00+03:00"},
-    "WarehouseID":  {"value": "WHOLESALE"}
+    "WarehouseID":  {"value": "RETAIL"}
   }
 }
 ```
 
-## Usage Notes for an RMA Order with Shipments { .section}
+## Usage Notes for an RMA Order with Shipments
 
 If a customer is returning an inventory item for replacement at a different price, a point-of-sale \(POS\) system can create an RMA order to perform this customer return. \(An RMA order is a return order of the *RM* predefined order type.\) Shipments for both the return and the replacement are performed.
 

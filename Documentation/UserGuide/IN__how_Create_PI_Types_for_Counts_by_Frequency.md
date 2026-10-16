@@ -1,10 +1,10 @@
-# To Create a Physical Inventory Type for Cycle Counts by Frequency {#_57f27dc0-51be-43fb-9ccd-fc60bd8bbb54 .task}
+# To Create a Physical Inventory Type for Cycle Counts by Frequency
 
 For physical inventory counts to be performed for multiple cycles at once, you can create a PI type by using the [Physical Inventory Types](IN_20_89_00.md) \(IN208900\) form, as described in this topic.
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## To Create a PI Type for Cycle Counts by Frequency { .section}
+## To Create a PI Type for Cycle Counts by Frequency
 
 1.  Open the [Physical Inventory Types](../Shared/../UserGuide/IN_20_89_00.md) \(IN208900\) form.
 

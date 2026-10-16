@@ -1,16 +1,16 @@
-# Event Handlers: To Invoke Events Triggered by Field Changes {#_89f16e2a-663b-46d0-b7f4-86a3abe0e9a3 .task}
+# Event Handlers: To Invoke Events Triggered by Field Changes
 
 The following activity will walk you through the process of configuring an event handler for an event that is triggered by a field change on the UI.
 
-## Story { .section}
+## Story
 
 Suppose that you are customizing the workflow for the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form, and you want the status of a case to change automatically to *Open* if a user specifies the owner of the case. To implement this behavior, you need to create an event handler for the event that is triggered by the field change.
 
-## Process Overview { .section}
+## Process Overview
 
 By using the [Workflows](../UserGuide/AU_20_10_20.md) page, you will create an inherited workflow for the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form. On the [Event Handlers](../UserGuide/AU_20_10_70.md) page, you will create the event handler. You will then add a transition that this event handler triggers on the [Workflows](../UserGuide/AU_20_10_20.md) page.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin modifying the event handler, do the following:
 
@@ -26,7 +26,7 @@ Before you begin modifying the event handler, do the following:
 
 3.  Create a customization project named *Cases*.
 
-## Step 1: Adding a Form to the List of Customized Screens { .section}
+## Step 1: Adding a Form to the List of Customized Screens
 
 Add the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form to the list of customized screens in the new customization project as follows:
 
@@ -43,7 +43,7 @@ Add the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form to the list of cu
     The Screen Editor \(CR306000\) Cases page of the Customization Project Editor opens. Notice that the system has added the screen to this page.
 
 
-## Step 2: Creating an Inherited Workflow for the Form { .section}
+## Step 2: Creating an Inherited Workflow for the Form
 
 Create a customized workflow for the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form as follows:
 
@@ -67,7 +67,7 @@ Create a customized workflow for the [Cases](../UserGuide/CR_30_60_00.md) \(CR30
 
 6.  On the page toolbar, click **Save**.
 
-## Step 3: Creating an Event Handler { .section}
+## Step 3: Creating an Event Handler
 
 Create an event handler as follows:
 
@@ -95,7 +95,7 @@ Create an event handler as follows:
     The added event handler appears in the table on the CR306000 \(Cases\) Event Handlers page.
 
 
-## Step 4: Adding a Transition { .section}
+## Step 4: Adding a Transition
 
 Add a transition that is triggered by the created event handler as follows:
 
@@ -116,7 +116,7 @@ Add a transition that is triggered by the created event handler as follows:
     **Tip:** The system also adds the *Owner Specified* event handler to the table on the **Handlers** tab for the *New* state.
 
 
-## Step 5: Testing the Customization { .section}
+## Step 5: Testing the Customization
 
 Test your changes to the workflow as follows:
 

@@ -1,10 +1,10 @@
-# To Form a List of Applications Manually {#_3ef0087f-f9db-4640-9ac6-1c4975bd55e3 .task}
+# To Form a List of Applications Manually
 
 You can apply a customer payment or prepayment to any number of invoices, debit memos, and overdue charges by using the [Payments and Applications](../Shared/../UserGuide/AR_30_20_00.md) \(AR302000\) form. If there are open credit memos for the customer, they also can be used in payment application.
 
 In the Summary area of the form, the **Available Balance** box holds the balance of the payment that is available for further application, and the **Applied to Documents** box contains the balance that has been applied.
 
-## To Form a List of Outstanding Documents Manually {#section_yy4_4jv_vxb .section}
+## To Form a List of Outstanding Documents Manually
 
 1.  Open the [Payments and Applications](../Shared/../UserGuide/AR_30_20_00.md) \(AR302000\) form.
 2.  In the **Type** box of the Summary area, select *Payment* or *Prepayment*, depending on the document you want to apply.

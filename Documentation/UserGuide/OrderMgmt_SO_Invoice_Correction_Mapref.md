@@ -1,4 +1,4 @@
-# Correcting Sales Invoices {#_e0e55dac-daaa-41e4-987f-ed489fd016b6 .concept}
+# Correcting Sales Invoices
 
 In some cases, you may need to correct a sales invoice that has already been released to change some significant data. You can do this either by creating a correction invoice \(which replaces the original invoice\) or by canceling the invoice and then creating a replacement invoice. In some situations, you may also need to cancel an invoice at the customer's request and not create any replacement invoice.
 

@@ -1,4 +1,4 @@
-# To Create a System Email Account for Gmail with OAuth 2.0 {#_c10df548-1207-468a-ad82-887ff6b02148 .task}
+# To Create a System Email Account for Gmail with OAuth 2.0
 
 To mitigate the possibility of access being turned off for less secure apps \(LSAs\) in Google Suite, Acumatica ERP supports Modern Authentication \(OAuth 2.0\) for the IMAP, POP3, and SMTP protocols.
 
@@ -12,7 +12,7 @@ By using the [Email Accounts](SM_20_40_02.md) \(SM204002\) form, you can create 
 -   The vendor of the third-party software may change the user interface and settings. Therefore, the form elements and setting names you see may differ from the ones described in the procedure.
 -   The procedure will be updated each time information is made available about new common scenarios and changes in the user interface and settings.
 
-## Step 1: To Register an OAuth Application with Google {#section_hjv_gly_l5b .section}
+## Step 1: To Register an OAuth Application with Google
 
 To create an OAuth application, do the following:
 
@@ -29,12 +29,10 @@ To create an OAuth application, do the following:
     3.  Click **Create**.
 3.  On the **OAuth Overview** page, click **Get Started** \(see below\).
 
-    ![](Images/Email_Register_Gmail_OAuth_Consent.png "The OAuth Overview page of Google Cloud Platform Console")
 
 4.  On the **Project configuration** page, which opens, do the following:
     1.  Enter your app name and support email, as shown below.
 
-        ![](Images/Email_Register_Gmail_OAuth_App_Registration.png "App information")
 
     2.  Enter the email address that will be displayed to users on the consent screen.
     3.  Click **Next**.
@@ -42,7 +40,6 @@ To create an OAuth application, do the following:
     5.  Click **Next**.
     6.  Enter the developer's email address, as shown below.
 
-        ![](Images/Email_Register_Gmail_OAuth_App_Registration_Dev_Contact.png "Developer contact information")
 
     7.  Click **Next**.
     8.  Confirm the user data policy of the Google API Services and click **Create**.
@@ -54,51 +51,43 @@ To create an OAuth application, do the following:
         -   *userinfo.profile*
         -   *openid*
     2.  Click **Update**
-    ![](Images/Email_Register_Gmail_OAuth_App_Registration_Scopes.png "Application scopes")
 
 7.  Click **Save**.
 8.  On the **Audience** page of the registered application, click **Add Users** and specify all the users you want to be authorized to use this app \(see below\). Click **Save**.
 
-    ![](Images/Email_Register_Gmail_OAuth_App_Registration_Users.png "Addition of authorized users")
 
 9.  On the **Audience** page, click **Publish App** \(shown below\) and confirm the publish.
 
-    ![](Images/Email_Register_Gmail_OAuth_App_Registration_Publish.png "Publication of the app")
 
 10. Verify that the **Publishing status** changed to *In production* \(shown below\).
 
-    ![](Images/Email_Register_Gmail_OAuth_App_Registration_Published.png "Publishing status of the app")
 
 
-## Step 2: To Obtain OAuth 2.0 Credentials from Google {#section_mtx_j1c_l5b .section}
+## Step 2: To Obtain OAuth 2.0 Credentials from Google
 
 After you registered the application with Google, you set up OAuth 2.0 credentials:
 
 1.  While you are still have the Google Cloud Platform Console opened, go to the **Clients** page and click **Create Client** \(see below\).
 
-    ![](Images/Email_Register_Gmail_OAuth_Credentials.png "Creation of OAuth client ID")
 
 2.  On the *Create OAuth client ID* page which opens, do the following:
 
     1.  In the **Application type** box, select *Web application*.
     2.  In the **Name** box, type in a meaningful application name.
-    ![](Images/Email_Register_Gmail_OAuth_Client_ID.png "Application details for OAuth client ID creation")
 
 3.  In the **Authorized redirect URIs** section, click **Add URI** and type a redirect URI, as shown below. This value can be found by clicking **View Redirect URI** on the [External Applications](SM_30_10_00.md) \(SM301000\) form in Acumatica ERP.
 
-    ![](Images/Email_Register_Gmail_OAuth_RedirectURI.png "Specification of the redirect URI")
 
 4.  Click **Create**.
 5.  On the *OAuth client created* dialog box which opens, copy the following values which will be used for registering an external application in Acumatica ERP.
 
     1.  *Client ID*
     2.  *Client Secret*
-    ![](Images/Email_Register_Gmail_OAuth_Created_Credentials.png "Created credentials for OAuth client")
 
     **Tip:** You can keep the browser page with the *OAuth client created* dialog box open and copy the values directly to Acumatica ERP when you will register the application on the [External Applications](SM_30_10_00.md) \(SM301000\) form.
 
 
-## Step 3: To Specify the General Settings of the Email Account {#section_jtx_j1c_l5b .section}
+## Step 3: To Specify the General Settings of the Email Account
 
 To specify the general settings of the account, do the following in Acumatica ERP:
 
@@ -109,7 +98,7 @@ To specify the general settings of the account, do the following in Acumatica ER
     2.  In the **Email Address** box, type the email address of the account that will be used as the system email account.
     3.  Optional: In the **Reply Address** box, type the email address that will be used for automatic replies.
 
-## Step 4: To Specify the Servers {#section_ktx_j1c_l5b .section}
+## Step 4: To Specify the Servers
 
 To specify the settings of the servers, do the following:
 
@@ -124,7 +113,7 @@ To specify the settings of the servers, do the following:
 4.  In the **Outgoing Mail Server** box, type `smtp.gmail.com`.
 5.  On the form toolbar, click **Save**.
 
-## Step 5: To Configure Authentication Through OAuth 2.0 {#section_w2l_csz_l5b .section}
+## Step 5: To Configure Authentication Through OAuth 2.0
 
 To configure authentication through OAuth 2.0, do the following:
 
@@ -139,7 +128,7 @@ To configure authentication through OAuth 2.0, do the following:
 9.  In the **Token Endpoint** box, type `https://oauth2.googleapis.com/token`.
 10. On the [External Applications](SM_30_10_00.md) form, click **Save and Close** on the form toolbar. The system closes the window with the form and specifies the configured application in the **External Application** box on the [Email Accounts](SM_20_40_02.md) form.
 
-## Step 6: To Configure Port Numbers {#section_ntx_j1c_l5b .section}
+## Step 6: To Configure Port Numbers
 
 Finally, you need to specify the advanced settings email account. Do the following:
 

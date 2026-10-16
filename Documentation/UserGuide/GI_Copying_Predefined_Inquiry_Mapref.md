@@ -1,4 +1,4 @@
-# Copying a Predefined Inquiry {#_1b6e6d3f-a830-4bc7-81c0-67f8118e0d79 .concept}
+# Copying a Predefined Inquiry
 
 Acumatica ERP includes predefined generic inquiries, which are customizable data inquiry forms.
 

@@ -1,11 +1,11 @@
-# To Enter a Prepayment in the Simplified Way {#_7595dbdc-d6ba-49a4-af1f-00c3bc619577 .task}
+# To Enter a Prepayment in the Simplified Way
 
 In Acumatica ERP, you can enter prepayments to vendors in the following ways, which are described in detail in this topic:
 
 -   Standard way: You enter the vendor's prepayment request on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form as an Accounts Payable document of the *Prepayment* type. Then you create a payment to pay for this prepayment request on the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form \(for details, see [AP Bill Payments: Process Activity](Finance_PayingAPBills_Process_Activity.md)\). For details describing the standard way of creating a prepayment, see [Bill Prepayments: To Process a Prepayment](Finance_ProcessingPrepayments_Process_Activity.md).
 -   Simplified way: You create a document of the *Prepayment* type directly by using the [Checks and Payments](AP_30_20_00.md) form.
 
-## To Enter a Prepayment: Simplified Way {#2 .section}
+## To Enter a Prepayment: Simplified Way
 
 1.  Open the [Checks and Payments](../Shared/../UserGuide/AP_30_20_00.md) \(AP302000\) form.
 
@@ -21,7 +21,7 @@ In Acumatica ERP, you can enter prepayments to vendors in the following ways, wh
 6.  In the **Payment Amount** box \(if it appears\), specify the total amount of the prepayment.
 7.  On the form toolbar, click **Save** to save the prepayment.
 
-## Notes About the Procedure {#section_jyn_njv_vxb .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

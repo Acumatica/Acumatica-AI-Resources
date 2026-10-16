@@ -1,10 +1,10 @@
-# To Complete the Physical Inventory Count {#_6d88dab1-3793-4197-8132-cdd4c31afbca .task}
+# To Complete the Physical Inventory Count
 
 Once the physical inventory count has been completed by all involved employees and all the available data has been entered, you can complete the physical inventory and generate all the required adjustments by using the [Physical Inventory Review](IN_30_50_00.md) \(IN305000\) form, as described in this topic.
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## To Complete the Physical Inventory Count { .section}
+## To Complete the Physical Inventory Count
 
 1.  Open the [Physical Inventory Review](../Shared/../UserGuide/IN_30_50_00.md) \(IN305000\) form.
 2.  In the **Reference Nbr.** box, select the physical inventory count to be completed.

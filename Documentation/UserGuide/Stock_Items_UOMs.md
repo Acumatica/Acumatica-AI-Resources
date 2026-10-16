@@ -1,8 +1,8 @@
-# Stock Items: Units of Measure {#_5921dc97-50ab-4231-9b36-baa5254b32c5 .concept}
+# Stock Items: Units of Measure
 
 When you define each stock item in the system, you should specify the units of measure \(UOMs\) in which the item will be tracked in a warehouse and specified in documents. In the following sections, you can find information about units of measure for stock items.
 
-## UOMs for Stock Items { .section}
+## UOMs for Stock Items
 
 If the *Multiple Units of Measure* feature is not enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can use one UOM for each stock item. The system uses this UOM, called the *base UOM*, to track item quantities in the system and calculate item costs. The base UOM, which is a required setting for a stock item, is specified in the **Units of Measure** section of the **General** tab on the [Stock Items](IN_20_25_00.md) \(IN202500\) form.
 
@@ -16,7 +16,7 @@ If the item can be sold or purchased in UOMs that are not the base, sales, or pu
 
 You can configure units of measure \(UOMs\) for items that can be measured only in quantities that are integers. For details, see [Stock Items: Units of Measure That Are Not Divisible](Stock_Items_Not_Divisible_UOMs.md).
 
-## Basic Process of UOM Configuration { .section}
+## Basic Process of UOM Configuration
 
 When the *Multiple Units of Measure* feature is disabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the process of configuring UOMs for stock items is the following:
 
@@ -30,7 +30,7 @@ When the *Multiple Units of Measure* feature is disabled on the [Enable/Disable 
     **Attention:** If you enter a new UOM on the [Stock Items](IN_20_25_00.md) form, the system copies this UOM to the [Units of Measure](CS_20_35_00.md) form.
 
 
-## Base Unit Selection {#_788b67e9-65bb-4801-b40c-34dff40b2cc9 .section}
+## Base Unit Selection
 
 When the *Multiple Units of Measure* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can sell or purchase a stock item in multiple UOMs. In this case, you need to select the appropriate base UOM to simplify calculations of the item quantities in the system. For each item, we recommend that you select a base UOM that is the smallest unit you would ever use when tracking, buying, or selling the item, so that you can avoid any data inconsistencies caused by rounding.
 
@@ -40,7 +40,7 @@ Further suppose that two customers want to buy 5 cans each. In both cases, the s
 
 Inappropriately selected base UOMs may cause incorrect situations during physical inventory because counting is performed in base units. If the base unit for the product is not the smallest UOM applicable to the item, employees involved in counting may encounter difficulties. In the example with the canned juice, counting only boxes can result in an incorrect total number of cans because some of the boxes may not be full. In this example, we recommend that you select a can as the base UOM for the canned juice item.
 
-## Conversion Rules {#_2b2f0ac2-a287-4a74-8eb4-70dbea077777 .section}
+## Conversion Rules
 
 If the same item can be measured in multiple UOMs, you should define conversion rules between these UOMs so that the system can recalculate item quantities to the base UOM of the item. For system-wide UOMs, you add conversion rules to the settings of a unit on the [Units of Measure](../Shared/../UserGuide/CS_20_35_00.md) \(CS203500\) form. If you specify different UOMs for base, sales, and purchase units for an item on the [Stock Items](../Shared/../UserGuide/IN_20_25_00.md) \(IN202500\) form, you need to add conversion rules for the sales and purchase UOMs with respect to the base UOM on this form.
 

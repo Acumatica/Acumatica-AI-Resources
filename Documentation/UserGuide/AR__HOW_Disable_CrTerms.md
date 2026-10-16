@@ -1,8 +1,8 @@
-# To Disable Credit Terms {#_208eabf6-d58f-448f-a71d-3a1c31925b55 .task}
+# To Disable Credit Terms
 
 You use the [Credit Terms](CS_20_65_00.md) \(CS206500\) form to define each set of credit terms, as well as to change the target audience for which the terms are visible or disable a particular set of credit terms.
 
-## To Disable Credit Terms {#section_jgd_hjv_vxb .section}
+## To Disable Credit Terms
 
 1.  Open the [Credit Terms](CS_20_65_00.md) \(CS206500\) form.
 2.  In the **General Settings** section, in the **Terms ID** box, select the identifier of the credit terms that you want to disable.

@@ -1,8 +1,8 @@
-# To Create a Retainage Document \(Release Retainage\) {#_f23704c1-20ad-4ee9-8723-bdfe648461b1 .task}
+# To Create a Retainage Document \(Release Retainage\)
 
 You release retainage for a particular bill or a debit adjustment from which a part of an amount has been retained on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. Once the retainage is released, the system creates a retainage bill with the specified amount and opens it on the same form. For a negative **Retainage to Release** amount, the system creates a retainage debit adjustment.
 
-## To Create a Retainage Document \(Release Retainage\) {#section_k3m_njv_vxb .section}
+## To Create a Retainage Document \(Release Retainage\)
 
 1.  Open the [Bills and Adjustments](../Shared/../UserGuide/AP_30_10_00.md) \(AP301000\) form.
 2.  In the **Type** box of the Summary area, select *Bill* if you are releasing retainage for a bill, or *Debit Adj.* if you are releasing retainage for a debit adjustment.

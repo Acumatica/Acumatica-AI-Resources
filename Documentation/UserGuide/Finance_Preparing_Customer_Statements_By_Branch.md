@@ -1,4 +1,4 @@
-# Customer Statements: Statements for Specific Branches {#_220de609-69c4-4eb1-be75-d96d92ed8124 .concept}
+# Customer Statements: Statements for Specific Branches
 
 If you need to configure the printing of customer statements for specific branches, you do it on the **Mailing &amp; Printing** tab of the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form. To do so, you perform the following instruction for each branch:
 

@@ -1,8 +1,8 @@
-# Modern UI Troubleshooting: Build Options {#_5413718a-ab8b-434d-8bf9-2252fbe4623e .concept}
+# Modern UI Troubleshooting: Build Options
 
 For troubleshooting errors during building of the Modern UI, you can use additional build options, which are described in the following sections.
 
-## Log Level for Building the Source Code { .section}
+## Log Level for Building the Source Code
 
 You can specify the log level in the build command, as shown in the following example. The log level determines the minimum threshold at which a logging method should be enabled.
 
@@ -23,7 +23,7 @@ For more details on log levels, see [documentation of the pino logger](https://g
 
 When the build is completed, the links to the log files are displayed along with the result of the build.
 
-## Building of the Source Code for a Particular Tenant { .section}
+## Building of the Source Code for a Particular Tenant
 
 As described in [Customization Project with UI Changes: How UI Customization Works](UIDev_CustomizationProject_HowWorks.md), the source code for published changes to the Modern UI in a particular tenant is located in the `FrontendSources\screen\src\customizationScreens\<Tenant Name>\screens` folder. For troubleshooting errors during building of the Modern UI changes of a particular tenant of your instance, you can run the following command in the `FrontendSources` folder, where *TenantName* is the tenant name in the **Login Name** box of the [Tenants](../UserGuide/SM_20_35_20.md) \(SM203520\) form.
 

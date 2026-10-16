@@ -1,4 +1,4 @@
-# Project Templates and Common Tasks: Implementation Checklist {#_d14a0111-16a1-4385-a86e-d9aead34d4c0 .concept}
+# Project Templates and Common Tasks: Implementation Checklist
 
 To ensure that the system is configured properly for creating project templates and common tasks, make sure that the features and settings listed in the table are configured as described in the following table.
 

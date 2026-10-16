@@ -1,14 +1,14 @@
-# Initial Configuration: To Configure the Store Connection {#_bef4f510-cce8-417a-994c-27b1abea3dcc .task}
+# Initial Configuration: To Configure the Store Connection
 
 In this activity, you will learn how to perform the initial configuration of the synchronization between Acumatica ERP and the Shopify store.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company wants to sell jam in its online store deployed on the Shopify platform. SweetLife has already connected Acumatica ERP and its Shopify store. As SweetLife's implementation consultant, you need to perform the minimum configuration required for synchronization of data between Acumatica ERP and the Shopify store.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -23,11 +23,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Cash Accounts](CA_20_20_00.md) \(CA202000\) form, the *10250ST* cash account has been configured for the *RETAIL* branch and the *USD* currency.
 -   On the [Payment Methods](CA_20_40_00.md) \(CA204000\) form, the *ONLINE* payment method has been set up to be used with the *10250ST* cash account.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form, you perform the minimum configuration of the settings required for the synchronization of data between Acumatica ERP and the Shopify store.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -39,7 +39,7 @@ Before you start this activity, do the following:
     -   **Username**: *gibbs*
     -   **Password**: *123*
 
-## Step 1: Activating the Needed Entities { .section}
+## Step 1: Activating the Needed Entities
 
 Do the following to specify the entity settings:
 
@@ -54,7 +54,7 @@ Do the following to specify the entity settings:
     Leave the default settings of the activated entities as they are.
 
 
-## Step 2: Specifying the Customer Settings { .section}
+## Step 2: Specifying the Customer Settings
 
 To specify the settings that will be used by default for importing customers from the Shopify store to Acumatica ERP, do the following:
 
@@ -69,7 +69,7 @@ To specify the settings that will be used by default for importing customers fro
         This numbering sequence has been configured in Acumatica ERP to automatically generate identifiers for customer records imported from the Shopify store.
 
 
-## Step 3: Specifying the Order Settings { .section}
+## Step 3: Specifying the Order Settings
 
 To specify the order-related settings, do the following:
 
@@ -97,7 +97,7 @@ To specify the order-related settings, do the following:
 
 5.  On the form toolbar, click **Save** to save your changes.
 
-## Step 4: Reviewing the Payment Method Mapping { .section}
+## Step 4: Reviewing the Payment Method Mapping
 
 If you want to import payments based on a particular payment method activated in the Shopify store to Acumatica ERP, you need to map the payment method to a corresponding payment method configured in Acumatica ERP. To configure the payment method mapping, do the following:
 
@@ -112,7 +112,7 @@ If you want to import payments based on a particular payment method activated in
 
 3.  On the form toolbar, click **Save** to save your changes.
 
-## Step 5: Specifying the Shipping Settings { .section}
+## Step 5: Specifying the Shipping Settings
 
 To map the shipping methods defined in Shopify with the Ship Via codes defined in Acumatica ERP, do the following:
 

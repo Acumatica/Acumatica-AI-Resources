@@ -1,8 +1,8 @@
-# Subcontracts: Generated Transactions {#_1b2a71fd-76be-48ed-890b-c19806b1584d .concept}
+# Subcontracts: Generated Transactions
 
 To record the services provided by a subcontractor for a particular project and update the balance of the vendor in the system, you create and process a subcontract and an AP bill. On release of the AP bill, the system generates GL transactions and project transactions described in the following sections.
 
-## General Ledger Transactions Generated on AP Bill Release {#section_j5x_by4_xnb .section}
+## General Ledger Transactions Generated on AP Bill Release
 
 On release of a bill with one subcontract line, a batch of the following general ledger transactions is generated.
 
@@ -13,7 +13,7 @@ On release of a bill with one subcontract line, a batch of the following general
 
 The batch created on release of the accounts payable bill is numbered in accordance with the numbering sequence selected in the **Batch Numbering Sequence** box on the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form. The batch number is specified on the **Financial** tab of the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 
-## Project Transaction Generated on AP Bill Release {#_7f9dc79b-95dc-460d-b73a-31c065929f39 .section}
+## Project Transaction Generated on AP Bill Release
 
 On release of a batch created on release of the AP bill, the system generates the project transaction shown in the following table.
 
@@ -23,7 +23,7 @@ On release of a batch created on release of the AP bill, the system generates th
 
 You can review the created project transaction on the [Project Transaction Details](PM_40_10_00.md) \(PM401000\) form. In the Selection area of this form, you select the corresponding project in the **Project** box. In the table, you can find the project transaction with the *Bill* type in the **Orig. Doc. Type** column and the reference number of the AP bill in the **Orig. Doc. Nbr.** column.
 
-## Update of the Project Budget Lines {#section_u3s_vjx_xnb .section}
+## Update of the Project Budget Lines
 
 On release of the accounts payable bill created for the subcontract, the system updates the corresponding project budget values as follows in the columns on the **Cost Budget** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form:
 

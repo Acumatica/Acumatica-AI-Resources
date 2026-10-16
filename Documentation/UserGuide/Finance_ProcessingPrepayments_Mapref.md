@@ -1,4 +1,4 @@
-# Processing Prepayments for a Bill {#_16619f1b-50d6-4170-924a-d754ea8d88f8 .concept}
+# Processing Prepayments for a Bill
 
 In this chapter, you will find general information on how to create prepayments, a checklist for system implementation, an activity that describes how to create a prepayment request, release a prepayment, apply the prepayment to a bill, an activity that describes how to process a refund for a prepayment, and report and inquiries that can be useful to find and view created transactions.
 

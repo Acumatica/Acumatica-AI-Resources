@@ -1,10 +1,10 @@
-# Representation of a Record in JSON Format {#_7b104d41-3457-42f8-8010-165d9d931d3f .concept}
+# Representation of a Record in JSON Format
 
 By using the contract-based REST API, you obtain existing records from Acumatica ERP, create new records, update, and delete them. You work with the records in Acumatica ERP by using the entities that are defined in the contract of the endpoint that you use to access the service. You pass records to and receive them from the contract-based REST API in JavaScript object notation \(JSON\) format. JSON is a text format for transmitting data objects that consist of key-value pairs.
 
 To represent a record in JSON format, you use the rules that are described in the following sections. You do not need to specify the values of all fields of an entity; you can specify the values of only the needed fields.
 
-## System Fields { .section}
+## System Fields
 
 You specify the value of a system field \(such as `id` or `rowNumber`\) of an entity in the following format.
 
@@ -20,7 +20,7 @@ For example, if you need to specify the row number *1* for an entity, you use th
 
 You specify the value of the `note` field in the same way as you would any general field \(see the next section\).
 
-## General Fields {#7053e05c-3dfe-429c-8c5d-4a07339447eb .section}
+## General Fields
 
 You specify the value of a general field \(that is, a field that is not a system field\) of an entity in the following format.
 
@@ -34,7 +34,66 @@ For example, if you need to specify *JOHNGOOD* as the customer ID of a customer 
 "CustomerID" : {"value" : "JOHNGOOD"}
 ```
 
-## Linked Entities { .section}
+## Drop-Down Fields in Contract Version 5
+
+In Contract Version 5, a selected value of a drop-down field contains an internal id and a description. Use the ID to process the value and to specify the value in a request. You can use the description to display the value in an application.
+
+A response represents a single-select field as one structured value, as shown in the following example.
+
+```json
+"Status": {
+  "value": {
+    "id": "CL",
+    "description": "Completed"
+  }
+}
+```
+
+In a request, specify the ID, as shown in the following example.
+
+```json
+"Status": {
+  "value": {
+    "id": "CL"
+  }
+}
+```
+
+The value property of a multi-select field is always an array, including when only one value is selected. A response can contain the following fragment.
+
+```json
+"Color": {
+  "value": [
+    { "id": "Y", "description": "Yellow" },
+    { "id": "R", "description": "Red" }
+  ]
+}
+```
+
+In a request, specify an array of IDs, as shown in the following example.
+
+```json
+"Color": {
+  "value": [
+    { "id": "Y" },
+    { "id": "R" }
+  ]
+}
+```
+
+String and integer single-select fields have the StringSingleSelectValue and IntSingleSelectValue types, respectively. String-based multi-select fields have the StringMultiSelectValue type. Contract Version 5 does not provide an integer-based multi-select type.
+
+## Date-Only Fields
+
+A field that represents a calendar date without a time component can have the DateOnlyValue type. Send and receive the value in the *YYYY-MM-DD* format, without a time or time zone, as shown in the following example:
+
+```json
+"Date": {
+  "value": "2026-09-09"
+}
+```
+
+## Linked Entities
 
 You specify the values of the fields of a linked entity in the following format.
 
@@ -62,7 +121,7 @@ For example, if you need to specify the values of an email address and the addre
     } 
 ```
 
-## Detail Entities { .section}
+## Detail Entities
 
 You specify the values of the fields of a detail entity in the following format.
 
@@ -96,7 +155,7 @@ For example, if you need to specify the values of two detail lines of a sales or
 ]
 ```
 
-## Custom Fields {#_336108cb-34f8-4c42-ab5d-b5ec36c30a30 .section}
+## Custom Fields
 
 You specify the values of the custom fields \(that is, the fields that are not included in the contract of the endpoint\) in the following format.
 
@@ -120,9 +179,9 @@ You specify the values of the custom fields \(that is, the fields that are not i
   }
 ```
 
-You use this block in the JSON representation of the entity \(top-level, detail, or linked\) that contains this custom field.
+In Contract Version 5, the type property is required for every custom field that you send in a request body; specify it together with the value property. You use this block in the JSON representation of the entity \(top-level, detail, or linked\) that contains this custom field.
 
-**Note:** For details on how to find out the field name and the name of the data view, see [Custom Fields](IS__con_CB_Custom_Fields.md#).
+**Tip:** For details on how to find out the field name and the name of the data view, see [Custom Fields](IS__con_CB_Custom_Fields.md#).
 
 For example, suppose that you added the **Personal ID** element to the **Main Contact** area of the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form in a customization project. The `Contact` entity, which is available through the `MainContact` property of the `Customer` entity, contains the **Personal ID** custom element. This element has the `UsrPersonalID` field name and belongs to the `DefContact` data view. To specify the value *AB123456* of the **Personal ID** custom element for the customer with ID *JOHNGOOD* through the REST API, you use the following request body.
 
@@ -145,6 +204,8 @@ For example, suppose that you added the **Personal ID** element to the **Main Co
     }
 }
 ```
+
+In Contract Version 5, a custom string or integer single-select field has the CustomStringSingleSelectField or CustomIntSingleSelectField type, respectively. The value contains an id and a description. A custom string-based multi-select field has the CustomStringMultiSelectField type and contains an array of structured values.
 
 **Parent topic:**[Configuring the REST API](../IntegrationDevelopmentGuide/IS__mng_Contract_Based_Web_Services.md)
 

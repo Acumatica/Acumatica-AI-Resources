@@ -1,10 +1,10 @@
-# Allocating Landed Costs {#_682b3203-18ed-4258-821a-61a82117d65f .concept}
+# Allocating Landed Costs
 
 In Acumatica ERP, you can design and maintain the landed cost codes to be used to account for various types of additional costs that your company incurs when purchased goods are being shipped to your company warehouses, or when a transfer of certain stock is performed between warehouses via an external carrier. Landed cost amounts may depend on specific items or on items' weight or volume.
 
 This chapter describes how you can configure and process landed cost documents in Acumatica ERP, and how the cost of inventory items is updated on release of the landed cost documents.
 
-## In This Chapter { .section}
+## In This Chapter
 
 -   [Processing Landed Cost Documents](PO__con_Landed_Cost_Tracking.md)
 -   [Adjusting the Landed Cost Variance](PO__con_LC_Postponed.md)

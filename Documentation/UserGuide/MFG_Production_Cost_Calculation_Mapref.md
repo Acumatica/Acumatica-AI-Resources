@@ -1,4 +1,4 @@
-# Calculating the Costs of Produced Items {#_7e88d8e9-cc95-4dbd-aae6-6dfdcde40556 .concept}
+# Calculating the Costs of Produced Items
 
 Production cost is an important indicator that helps you to estimate effectiveness and profitability of production. In this chapter, you can find information about how Acumatica ERP Manufacturing Edition calculates the costs of your company's produced items.
 

@@ -1,14 +1,14 @@
-# Configuration of Production with Backflushing: Implementation Activity {#_84922725-2ece-4fa4-bbd0-71a508e5a4a7 .task}
+# Configuration of Production with Backflushing: Implementation Activity
 
 In this implementation activity, you will learn how to implement production processes with the backflushing of materials and labor.
 
-## Story { .section}
+## Story
 
 Suppose that the production department of SweetLife Fruits &amp; Jams started to pack the assembled juicers before shipping them to customers. So the production process will include the assembly operation and the packing operation. Each operation is performed in a specific work center. In the work center where packing is performed, workers put each assembled juicer in a box, fill in the box with packing peanuts, and seal the box with packing tape. For packing a juicer, the following materials are required: one packing box, approximately 3 meters of packing tape, and approximately 2 liters of packing peanuts. The exact quantity of the peanuts and the tape is not known until the workers finish packing, so these materials should be backflushed, as should the box so that production managers do not release any materials for the packing operation manually. Also, the workers of this work center pack not only juicers but other items, so the time they spend on packing juicers should also be backflushed.
 
 Acting as an implementation manager, you need to implement the production of juicers with material and labor backflushing in the system—that is, create a work center dedicated to the packing operation and a bill of material to be used for the assembly and packing of the juicers.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -16,14 +16,14 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\) form, the *CFJFRUIT*, *PULPCONT1L*, *JUICECUP05L*, *MRBASE*, *FNSIEVE*, *GRDISC01*, *PACKTAPE*, *PPEANUTS*, and *PACKBOX* stock items have been defined.
 -   On the [Work Calendar](../UserGuide/CS_20_90_00.md) \(CS209000\) form, the *MAIN* work calendar has been defined, which is used for standard working hours.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
 1.  On the [Work Centers](../UserGuide/AM_20_70_00.md) \(AM207000\) form, create a work center for packing.
 2.  On the [Bill of Material](../UserGuide/AM_20_80_00.md) \(AM208000\) form, create a bill of material for the assembly and packing of the juicers.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start performing the activity, do the following:
 
@@ -32,7 +32,7 @@ Before you start performing the activity, do the following:
     2.  [Configuring Work Centers: Implementation Activity](config_MFG_Work_Centers_Implem_Activity.md) so that the work center for the assembly operation has been created in the same company with the *U100* dataset preloaded
 2.  Sign in to this company \(in which the prerequisite activities have been performed\) as a system administrator with the *gibbs* username and *123* password.
 
-## Step 1: Creating a Work Center { .section}
+## Step 1: Creating a Work Center
 
 To create a work center where the packing operation will be performed, do the following:
 
@@ -67,7 +67,7 @@ To create a work center where the packing operation will be performed, do the fo
         -   Notice that the **Diff Type** column contains *Amount* and the **Shift Diff** column contains *0.0000*. These values have been copied from the shift settings on the [Shifts](../UserGuide/AM_20_50_00.md) \(AM205000\) form.
 5.  On the form toolbar, click **Save**.
 
-## Step 2: Creating a Bill of Material { .section}
+## Step 2: Creating a Bill of Material
 
 To create a bill of material that includes the packing operation, do the following:
 

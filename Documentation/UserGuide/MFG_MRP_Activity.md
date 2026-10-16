@@ -1,14 +1,14 @@
-# Inventory Planning with MRP: Process Activity {#_008875d2-45e9-4a9f-9fb5-231363f007a2 .task}
+# Inventory Planning with MRP: Process Activity
 
 The following activity will walk you through the process of running inventory planning.
 
-## Story { .section}
+## Story
 
 Suppose that GoodFood One Restaurant ordered five citrus juicers from SweetLife Fruits &amp; Jams. The company does not have the juicers in stock, so the juicers must be assembled to satisfy the customer's order. The company also does not have the components required for the juicer assembly in stock, so the components must be ordered from the Jalooza Inc. vendor. The default lead time of the vendor is seven days.
 
 Acting as the sales manager, you need to create the sales order with the juicers and then create a production order to request the production of the juicers. Acting as the planning manager, you need to run inventory planning, analyze the results, and take the required actions to cause the juicers to be produced and shipped to the customer by the requested date.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -16,7 +16,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *JALOOZA* vendor has been configured.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *CFJCITRUS*, *JCREAMER*, *JUICECUP1L*, *MRBASEHIGH*, *STRBASKET*, and *SPLGUARD* stock items have been predefined.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, to perform inventory planning and process the results, you will do the following:
 
@@ -28,7 +28,7 @@ In this activity, to perform inventory planning and process the results, you wil
 6.  On the [Sales Orders](SO_30_10_00.md) form, change the requested date for the juicers to be shipped to the customer; on the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form, change the promised date to an earlier date to meet the date the customer wanted the juicers to be shipped; on the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form, change the production end date \(at which the juicers will be ready for shipping\).
 7.  On the [Regenerate Inventory Planning](AM_50_50_00.md) form, rerun inventory planning, and on the [Inventory Planning Exceptions](AM_40_30_00.md) form, make sure that no exception messages are listed.
 
-## System Preparation { .section}
+## System Preparation
 
 Do the following:
 
@@ -38,7 +38,7 @@ Do the following:
 2.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as the sales and planning manager by using the *peters* username and the *123* password.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to today’s date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating a Sales Order { .section}
+## Step 1: Creating a Sales Order
 
 To create a sales order for the GoodFood One Restaurant customer with five citrus juicers, do the following:
 
@@ -53,7 +53,7 @@ To create a sales order for the GoodFood One Restaurant customer with five citru
     -   **Unit Price**: `2000`
 4.  On the form toolbar, click **Save**.
 
-## Step 2: Creating a Production Order { .section}
+## Step 2: Creating a Production Order
 
 To create a production order from the sales order, do the following:
 
@@ -70,7 +70,7 @@ To create a production order from the sales order, do the following:
     On the **General** tab, notice that today's date plus 1 day is specified in the **Due Date** box.
 
 
-## Step 3: Running Inventory Planning and Viewing Exception Messages { .section}
+## Step 3: Running Inventory Planning and Viewing Exception Messages
 
 To run inventory planning and view exception messages, do the following:
 
@@ -79,7 +79,7 @@ To run inventory planning and view exception messages, do the following:
 3.  Open the [Inventory Planning Exceptions](AM_40_30_00.md) \(AM403000\) form.
 4.  Notice that no exception messages are displayed in the table.
 
-## Step 4: Creating a Purchase Order { .section}
+## Step 4: Creating a Purchase Order
 
 To create a purchase order for the components, do the following:
 
@@ -97,7 +97,7 @@ To create a purchase order for the components, do the following:
     Notice that the **Promised On** box contains the date that is today's date plus 7 days, which is the default lead time of the *JALOOZA* vendor. This purchase order does not satisfy the demand of the sales order because the components will be delivered later than the customer expected to receive the juicers.
 
 
-## Step 5: Rerunning Inventory Planning and Viewing Exception Messages { .section}
+## Step 5: Rerunning Inventory Planning and Viewing Exception Messages
 
 You will view how the list of inventory planning exception messages has changed because of the creation of the purchase order. Do the following:
 
@@ -108,7 +108,7 @@ You will view how the list of inventory planning exception messages has changed 
     Notice that the *Expedite* messages for the component lines from the purchase order have appeared in the list. This means that to satisfy the demand, you need to negotiate an earlier delivery date with the vendor or a later shipping date with the customer \(or both\).
 
 
-## Step 6: Changing the Dates in the Documents { .section}
+## Step 6: Changing the Dates in the Documents
 
 Suppose that you have negotiated with the vendor an earlier delivery date of 2 days after today's date for the juicer components. Do the following to change the date in the purchase order:
 
@@ -117,7 +117,7 @@ Suppose that you have negotiated with the vendor an earlier delivery date of 2 d
 3.  In the dialog box with the warning message that appears, click **Yes**.
 4.  On the form toolbar, click **Save**.
 
-## Step 7: Rerunning Inventory Planning and Viewing Exceptions { .section}
+## Step 7: Rerunning Inventory Planning and Viewing Exceptions
 
 You will rerun inventory planning and make sure that all exception messages have been processed. Do the following:
 

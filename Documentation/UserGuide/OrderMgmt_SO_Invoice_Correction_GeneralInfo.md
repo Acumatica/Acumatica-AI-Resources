@@ -1,10 +1,10 @@
-# Sales Invoice Correction: General Information {#_20e87c72-4ac9-4e40-a94f-557484c30f4e .concept}
+# Sales Invoice Correction: General Information
 
 After items have been shipped to a customer, you create and release a sales invoice, which increases the customer's debt. Once the sales invoice has been released, the settings of the invoice, including the invoice amounts, cannot be changed directly in the sales invoice.
 
 In Acumatica ERP, there are two ways to correct a sales invoice that has been released \(which in this context is the *original invoice*\): either create correction invoice, or cancel the original sales invoice and then create a new invoice with the correct settings.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -13,7 +13,7 @@ In this chapter, you will learn how to do the following:
 -   Review the correction and cancellation documents
 -   Review the GL transactions generated on release of correction or cancellation documents
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You correct sales invoices in any of the following cases:
 
@@ -22,7 +22,7 @@ You correct sales invoices in any of the following cases:
 -   You need to cancel a sales invoice because the customer decided to negate the sale.
 -   You need to cancel a sales invoice and create a new one if some significant data in the invoice needs to be changed \(for example, if you need to add more lines to this invoice\).
 
-## Correction of a Sales Invoice { .section}
+## Correction of a Sales Invoice
 
 You can correct a sales invoice on the [Invoices](SO_30_30_00.md) \(SO303000\) form if it has the *Open* status. If a payment or credit memo has been applied to the sales invoice, you must first reverse the application and then correct the invoice.
 
@@ -36,13 +36,12 @@ The following documents are involved in the process of correcting a sales invoic
 
 **Tip:** Although the documents are created on the [Invoices](SO_30_30_00.md) form, after they have been released, they can also be viewed on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 
-## Workflow of Invoice Correction { .section}
+## Workflow of Invoice Correction
 
 The following diagram illustrates the workflow related to the correction of a sales invoice.
 
-![](Images/diag_OrderMgmt_SO_Invoice_Correction.png)
 
-## Known Process Limitations { .section}
+## Known Process Limitations
 
 The following limitations apply to the processes of correcting and canceling sales invoices that have been created on the [Invoices](SO_30_30_00.md) \(SO303000\) form:
 

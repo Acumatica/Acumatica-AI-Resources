@@ -1,4 +1,4 @@
-# Form Container \(PXFormView\) {#_d49d0866-5443-4ed8-b85b-62cad5d2ea8a .concept}
+# Form Container \(PXFormView\)
 
 PXFormView is a data-bound UI container control that renders a single record from its associated data source.
 
@@ -8,7 +8,6 @@ An ASPX page can contain PXFormView as a main container. A form container, as th
 -   PXTabItem
 -   PXSmartPanel
 
-![](images/CG_GL_Forms_ASPX_Containers_PXFormView.png "Nesting rules for a PXFormView container in an ASPX page")
 
 A form container can include multiple ASPX objects of the following types:
 

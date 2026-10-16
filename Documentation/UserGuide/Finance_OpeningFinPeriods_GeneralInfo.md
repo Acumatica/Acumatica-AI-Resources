@@ -1,4 +1,4 @@
-# Opening Financial Periods: General Information {#_73db4512-8c28-4a8f-b653-113a55a0ac7e .concept}
+# Opening Financial Periods: General Information
 
 You have to open the financial periods to which users will post transactions and documents. If you need to review the statuses of periods before opening periods, you open the [Master Financial Calendar](GL_20_10_00.md) \(GL201000\) form if the *Centralized Period Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, or the [Company Financial Calendar](GL_20_11_00.md) \(GL201100\) form if this feature is disabled. On either form, you click **Open Periods** on the More menu to navigate to the [Manage Financial Periods](GL_50_30_00.md) \(GL503000\) form. You can also navigate to this form directly if you do not need to review the statuses of periods.
 
@@ -6,7 +6,7 @@ You have to open the financial periods to which users will post transactions and
 
 After you have opened periods, they can be used in the general ledger module and subledgers of Acumatica ERP. At any time, you can have multiple open periods; opening one period does not require you to close the previous one.
 
-## Statuses of Financial Periods { .section}
+## Statuses of Financial Periods
 
 Every financial period belongs to a range of periods that have a particular status—*Inactive*, *Open*, *Closed*, or *Locked*. The system can contain four period ranges, each with a different status.
 
@@ -17,28 +17,78 @@ The example shown in the following screenshot illustrates multiple period ranges
 -   *05-2025* to *10-2025*, whose periods have the *Open* status
 -   *11-2025* to *13-2025*, whose periods have the *Inactive* status
 
-![](../Shared/Images/process_GL_Financial_Period_Statuses_example.png "Ranges of financial periods with particular statuses")
 
 The following table lists the possible statuses of financial periods, describes each status, and presents the action or actions that you can perform to change the statuses of periods of each listed status. You can perform actions on periods on the [Manage Financial Periods](../Shared/../UserGuide/GL_50_30_00.md) \(GL503000\) form by clicking buttons on the form toolbar or the equivalent commands on the More menu.
 
-|Status|Description of a Period with This Status|Actions That Can Be Performed|
-|------|----------------------------------------|-----------------------------|
-|*Inactive*|An inactive period has been generated in the system but has not yet been opened. Transactions cannot be posted to the period.|Open the period by clicking **Open**|
-|*Open*|An open period can be selected in records, and transactions can be posted to it.|Close the period by clicking **Close** or deactivate it by clicking **Deactivate**|
-|*Closed*|A closed period cannot be selected in records, and users can be restricted from posting to it.
+<table id="_0497c6fd-6b5c-4d1c-9c09-3f24d493914d"><thead><tr><th>
+
+Status
+
+</th><th>
+
+Description of a Period with This Status
+
+</th><th>
+
+Actions That Can Be Performed
+
+</th></tr></thead><tbody><tr><td>
+
+*Inactive*
+
+</td><td>
+
+An inactive period has been generated in the system but has not yet been opened. Transactions cannot be posted to the period.
+
+</td><td>
+
+Open the period by clicking **Open**
+
+</td></tr><tr><td>
+
+*Open*
+
+</td><td>
+
+An open period can be selected in records, and transactions can be posted to it.
+
+</td><td>
+
+Close the period by clicking **Close** or deactivate it by clicking **Deactivate**
+
+</td></tr><tr><td>
+
+*Closed*
+
+</td><td>
+
+A closed period cannot be selected in records, and users can be restricted from posting to it.
 
  If the **Restrict Access to Closed Periods** check box is selected on the [General Ledger Preferences](../Shared/../UserGuide/GL_10_20_00.md) \(GL102000\) form, transactions can be posted to a closed period by only users to whom the *Financial Supervisor* role has been assigned. If this check box is cleared, any user can post to closed periods.
 
-|Lock the period by clicking **Lock** or reopen it by clicking **Reopen**|
-|*Locked*|A locked period cannot be selected in a record, and transactions cannot be posted to it in any subledger.
+</td><td>
+
+Lock the period by clicking **Lock** or reopen it by clicking **Reopen**
+
+</td></tr><tr><td>
+
+*Locked*
+
+</td><td>
+
+A locked period cannot be selected in a record, and transactions cannot be posted to it in any subledger.
 
  You lock a period to prevent changes to period-specific data that has been verified and disclosed in reports.
 
-|Unlock the period by clicking **Unlock**|
+</td><td>
+
+Unlock the period by clicking **Unlock**
+
+</td></tr></tbody>
+</table>
 
 The following diagram illustrates the statuses in the lifetime of financial periods in the system, along with the actions that change the statuses of these periods.
 
-![](../Shared/Images/diag_GL_Financial_Period_Lifetime.png)
 
 The lifetime of a financial period in the system includes the following actions:
 

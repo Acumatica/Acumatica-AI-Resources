@@ -1,4 +1,4 @@
-# Inclusive VAT Support in Purchase Orders {#_c8e88218-b5b6-4aad-aa0e-bf58c50a2aaa .concept}
+# Inclusive VAT Support in Purchase Orders
 
 The Purchase Orders module supports value added taxes \(VATs\) on purchased items if the *VAT Reporting* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
@@ -10,7 +10,7 @@ On the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form, the document details
 
 **Note:** Correcting taxes in a purchase order does not affect the taxes in documents \(purchase receipts and Accounts Payable bills\) created from this purchase order. The taxes for each document are calculated when the document is created based on the tax settings of this document.
 
-## Example of Inclusive Tax Processing { .section}
+## Example of Inclusive Tax Processing
 
 Consider an example in which a company purchases 100 motherboards at $22 each with a 10% VAT included. The total amount is $2200, and the VAT amount calculated for the document is $200.
 

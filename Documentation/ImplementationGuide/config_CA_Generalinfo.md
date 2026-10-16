@@ -1,16 +1,16 @@
-# Cash Management: General Information {#_ec369a9a-a57f-41e5-a954-a5f57c1ca928 .concept}
+# Cash Management: General Information
 
 For users to be able to record cash transactions in the system and for you to continue implementing financial functionality in the system, the cash management functionality has to be implemented in Acumatica ERP. The process of implementing the cash management functionality includes specifying cash management preference settings, creating entry types for cash transactions, creating cash accounts, and modifying the payment methods that have been predefined in the system.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to implement the basic configuration of the cash management for a company.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You perform the basic configuration of the cash management functionality during the implementation of Acumatica ERP, after a company has been configured in the system and the general ledger functionality has been implemented, and before other parts of the system have been configured.
 
-## Workflow of the Implementation of the Cash Management Functionality { .section}
+## Workflow of the Implementation of the Cash Management Functionality
 
 To implement the cash management functionality, you perform the following general steps:
 

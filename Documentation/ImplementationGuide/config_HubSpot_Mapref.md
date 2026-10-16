@@ -1,4 +1,4 @@
-# Integration with HubSpot {#_c2dececa-3313-4755-8275-387ad3f5e4d0 .concept}
+# Integration with HubSpot
 
 Many Acumatica ERP users use [HubSpot](http://www.hubspot.com/) as a marketing automation solution to manage their leads and prospects. The HubSpot integration solution provided by Acumatica ERP gives users the ability to transfer marketing data into Acumatica ERP from HubSpot and to transfer relevant data back to HubSpot from Acumatica ERP.
 

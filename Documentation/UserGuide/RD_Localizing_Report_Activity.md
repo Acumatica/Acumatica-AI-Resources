@@ -1,18 +1,18 @@
-# Report Localization: To Localize a Report {#_7b47372d-f42e-4e52-ac04-5540e3ee3d32 .task}
+# Report Localization: To Localize a Report
 
 In the following activity, you will learn how to localize a report.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist in your company who is working on simple customizations. A sales manager of your company has requested that you localize the predefined [Vendor Summary](AP_65_50_00.md) \(AP655000\) report to the Italian language. You will localize a copy of the predefined report, starting with a test of the capability in which you localize the report header and table header.
 
-## Process Overview { .section}
+## Process Overview
 
 In the Report Designer, you will open the `AP6550C5.RPX` report, which is a copy of the [Vendor Summary](AP_65_50_00.md) \(AP655000\) report, and make sure that it can be localized. On the [System Locales](SM_20_05_50.md) \(SM200550\) form, you will add the Italian language. On the [Translation Dictionaries](SM_20_05_40.md) \(SM200540\) form, you will collect strings, select the language, and type a translation for the strings related to the needed report. To experiment with the capability, as a translation, you will use the same strings as the original ones with *$$* as a prefix and suffix. You will localize the report header and the table header in the report.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you perform the steps of this activity, make sure that the following tasks have been performed:
 
@@ -33,12 +33,11 @@ Also, to prepare for use the file that is intended for this activity, do the fol
     The report is saved on the server.
 
 
-## Step 1: Localizing the Report { .section}
+## Step 1: Localizing the Report
 
 To localize the report, do the following:
 
 1.  In the Report Designer, make sure that the *AP6550C5* report \(which you have saved to the server\) is open.
-2.  In the top left corner of the Design pane, click the ![](Images/Defining_the_Data_Groups_for_a_Report_Using_FiltersReportSelectionIcon.PNG) icon to select the report, and make sure that the **Behavior** &gt; **Localizable** property of the **Properties** tab is set to *True* \(which is the default value\).
 3.  In Acumatica ERP, open the [System Locales](SM_20_05_50.md) \(SM200550\) form.
 4.  Add a new row, and specify the following settings in the added row:
     1.  **Locale Name**: *it-IT*
@@ -92,7 +91,7 @@ To localize the report, do the following:
     |*Balance Currency*|*textBox4*|
 
 
-## Step 2: Viewing the Report { .section}
+## Step 2: Viewing the Report
 
 To view the report, do the following:
 
@@ -105,7 +104,6 @@ To view the report, do the following:
 
 The following screenshot displays the localized report. Make sure that the report heading and each column header has *$$* as a prefix and a suffix.
 
-![](Images/RD_localized_report.png "The localized AP6550C5 report")
 
 **Parent topic:**[Localizing Reports](../UserGuide/RD_Localization_of_Reports_Mapref.md)
 

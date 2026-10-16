@@ -1,8 +1,8 @@
-# Automatic Credit Verification: Process Activity {#_65d7d661-f25d-46c2-9f7a-e8fe179da026 .task}
+# Automatic Credit Verification: Process Activity
 
 The following activity will walk you through the process of analyzing how credit verification rules affect customers' credit check and removing credit hold for an invoice.
 
-## Story {#section_jxc_hjv_vxb .section}
+## Story
 
 Suppose that credit verification rules have been defined for some of SweetLife customers. On January 30, 2026, the *COFFEESHOP* customer bought online training services, but failed the credit check. On the same date, the *GOODFOOD* customer bought consulting services, but also failed the credit check.
 
@@ -10,7 +10,7 @@ Yona Jones called the *COFFEESHOP* customer and they told him that they sent the
 
 Acting as Yona Jones, you need to create two invoices for these customers and analyze how the credit verification rules set up earlier affect the customers’ credit check. Then you need to remove credit hold for an invoice of the *COFFEESHOP* customer.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -20,11 +20,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *GOODFOOD \(GoodFood One Restaurant\)* and *COFFEESHOP \(FourStar Coffee &amp; Sweets Shop\)* customers have been configured.
 
 
-## Process Overview {#section_qxc_hjv_vxb .section}
+## Process Overview
 
 In this activity, on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will create two invoices for customers that failed the credit check. On the same form, you will remove credit hold for one of the invoices and release the invoice.
 
-## System Preparation {#section_sxc_hjv_vxb .section}
+## System Preparation
 
 Before you begin analyzing automatic credit verification, do the following:
 
@@ -33,7 +33,7 @@ Before you begin analyzing automatic credit verification, do the following:
 3.  As a prerequisite activity, in the company to which you are signed in, be sure you have set up credit verification rules, as described in [Credit Verification Rules: Implementation Activity](CreditPolicy_Credit_Verification_Rules_Implem_Activity.md).
 4.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step 1: Creating AR Invoices {#section_uxc_hjv_vxb .section}
+## Step 1: Creating AR Invoices
 
 To create an AR invoice for each customer, do the following:
 
@@ -70,7 +70,7 @@ To create an AR invoice for each customer, do the following:
 9.  On the form toolbar, click **Save** to save your changes.
 10. On the form toolbar, click **Remove Hold**. The status of the document has also changed to *Credit Hold*. You now need to remove the credit hold for this document.
 
-## Step 2: Removing Credit Hold for the Document {#section_yxc_hjv_vxb .section}
+## Step 2: Removing Credit Hold for the Document
 
 To remove the credit hold for the document, do the following:
 

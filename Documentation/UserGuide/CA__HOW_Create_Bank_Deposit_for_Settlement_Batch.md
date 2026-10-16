@@ -1,4 +1,4 @@
-# To Manually Create a Bank Deposit {#_f4e282e9-e38d-44f1-b206-d2497b3e13ec .task}
+# To Manually Create a Bank Deposit
 
 On the [Settlement Batches](CA_30_70_00.md) \(CA307000\) form, if the selected settlement batch has the *Processed* status, you can create a bank deposit based on the transactions selected automatically by the system. Only transactions with the *Settled Successfully* and *Refund Settled Successfully* settlement states will be included in the bank deposit.
 
@@ -6,7 +6,7 @@ If you have specified a fee type on the **Fees** tab of the [Processing Centers]
 
 **Tip:** If needed, once you have created a bank deposit, you can manually add to it a document that is linked to a transaction with the *Voided* settlement status.
 
-## To Create a Bank Deposit for a Settlement Batch {#section_xq2_kjv_vxb .section}
+## To Create a Bank Deposit for a Settlement Batch
 
 1.  Open the [Import Settlement Batches](CA_50_70_00.md) \(CA507000\) form.
 2.  In the table, find the needed batch and click the link in the **Reference Number** column. The system opens the batch on the [Settlement Batches](CA_30_70_00.md) \(CA307000\) form.

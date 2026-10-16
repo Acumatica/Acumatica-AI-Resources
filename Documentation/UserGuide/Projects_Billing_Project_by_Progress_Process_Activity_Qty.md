@@ -1,10 +1,10 @@
-# Progress Billing: To Bill a Project by Quantity and Amount {#_f0740aad-d4cd-4d46-b9ea-dc4d4aee0cf0 .task}
+# Progress Billing: To Bill a Project by Quantity and Amount
 
 This activity will walk you through the process of performing progress billing for a project based on the pending amounts and quantities.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that ToadGreen Building Group, a general contractor, is building an Italian restaurant for its customer, the Italian Company. A ToadGreen manager has agreed upon a budget with the customer and decided that the project manager will bill the customer monthly based on the progress of work for each project task during the billing period. The work on the project starts on March 1, 2026.
 
@@ -16,7 +16,7 @@ At the start of the project, the construction project manager made sure that the
 
 Acting as a system administrator, you need to create the new project and make sure that billing settings are specified correctly for the project. Then acting as a construction project manager, you need to record the current progress of the project and perform billing for the first billing period.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -25,18 +25,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Billing Rules](PM_20_70_00.md) \(PM207000\) form, the *PROGRESS* billing rule has been defined. This rule is defined to gradually bill the projects at a fixed contract amount based on the progress of performed work.
 -   On the [Project Templates](PM_20_80_00.md) \(PM208000\) form, the *PROGRQ* project template has been configured with multiple project template tasks, revenue budget lines, and cost budget lines.
 
-## Process Overview { .section}
+## Process Overview
 
 Acting as a system administrator, on the [Projects](PM_30_10_00.md) \(PM301000\) form, you will create a new project based on a project template and review the billing settings that apply to particular revenue budget lines. Then acting as a construction project manager, you will specify the pending invoice amounts and quantities on the [Projects](PM_30_10_00.md#) \(PM301000\) form to indicate the project's progress and run the project billing. On the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will review and release the prepared AR invoice. Finally, you will review the project budget again and make sure that the project balances have been updated with the actual values.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as a system administrator by using the *gibbs* username and the *123* password.
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *3/1/2026*. If a different date is displayed, click the Business Date menu button, and select *3/1/2026* on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating a Project and Specifying Its General Settings { .section}
+## Step 1: Creating a Project and Specifying Its General Settings
 
 To create a new project and specify the basic settings for it, do the following:
 
@@ -61,7 +61,7 @@ To create a new project and specify the basic settings for it, do the following:
 9.  Save your changes to the project. In the Summary area, notice that it has the *In Planning* status.
 10. On the form toolbar, click **Activate** to activate the project.
 
-## Step 2: Billing the Project Based on Progress { .section}
+## Step 2: Billing the Project Based on Progress
 
 To perform progress billing by quantity and amount, while reviewing the project on the [Projects](PM_30_10_00.md#) \(PM301000\) form, do the following:
 
@@ -77,7 +77,6 @@ To perform progress billing by quantity and amount, while reviewing the project 
 7.  On the form toolbar, click **Release** to release the invoice.
 8.  On the [Projects](PM_30_10_00.md) form, open the *ITALIANQ* project, and on the **Revenue Budget** tab, review the actual values in the budget lines that have been updated as the result of the billing \(see below\).
 
-    ![](Images/activity_Projects_Billing_Project_Process_Activity_Quantity.png "The updated values of the project revenue budget")
 
 
 You have finished billing the project's progress based on the quantities and amounts in the budget lines.

@@ -1,4 +1,4 @@
-# Formula Editor {#_3274fc79-23dc-427b-b7f7-24d4f374f5d3 .concept}
+# Formula Editor
 
 In this chapter, you will learn about the configuration of the formula editor. You'll learn when to use this control and how to organize it in a layout.
 

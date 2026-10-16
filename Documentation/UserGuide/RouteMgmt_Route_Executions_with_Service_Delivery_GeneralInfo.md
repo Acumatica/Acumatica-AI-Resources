@@ -1,8 +1,8 @@
-# Route Executions with Service Delivery: General Information {#_af0a4446-a568-4087-8e90-9da1671cee8b .concept}
+# Route Executions with Service Delivery: General Information
 
 A route execution is a predefined path with some stops to perform services or deliver and receive inventory items. Each stop in a route execution represents a route appointment, which is an appointment associated with a service order type configured with the *Route* behavior. A route execution is created for each specific day that route services are provided.
 
-## Learning Objectives {#section_y3r_scb_ldc .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,18 +12,18 @@ In this chapter, you will learn how to do the following:
 -   Start, complete, and close the route execution
 -   Run route appointment billing
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create routes and route executions when your company provides on-site services or deliveries to customers on specified service days.
 
-## Ways of Creating Route Executions {#section_ppj_xcb_ldc .section}
+## Ways of Creating Route Executions
 
 To process each route executed by your company, you have to create a route execution document in the system for each specific day when a particular route is executed. Route executions can be created in the following ways:
 
 -   Manual creation: If your company performs services for a customer rarely or does not have a contract that defines the details of the services provided, you can create route execution documents manually.
 -   Automated creation: If your company regularly provides route services for a customer on a contract basis, you can create a route service contract. The system will then automatically generate route execution documents based on the contract schedule.
 
-## Manual Entry of a Route Execution {#section_e3f_ycb_ldc .section}
+## Manual Entry of a Route Execution
 
 You enter a route execution on the [Route Document Details](FS_30_40_00.md) \(FS304000\) form. For the route execution, you specify the following information:
 
@@ -39,7 +39,7 @@ After you have specified and saved this information, you can add appointments to
 
 By default, the system assigns a new route execution document the *Open* status. Reference numbers for new route execution documents are generated according to the numbering sequence specified in the **Route Numbering Sequence** box on the **General** tab of the [Route Management Preferences](FS_10_04_00.md) \(FS100400\) form.
 
-## Statuses of Route Executions {#section_pxw_ycb_ldc .section}
+## Statuses of Route Executions
 
 The statuses of route executions keep managers informed about the route service delivery. The system changes the status of each route execution based on user actions. A route execution has one of the following statuses, which is displayed for the route execution on the [Route Document Details](FS_30_40_00.md) \(FS304000\) form:
 
@@ -48,11 +48,10 @@ The statuses of route executions keep managers informed about the route service 
 3.  *Completed*: The driver has finished all the activities related to the route execution. A route execution document with this status can be reopened \(returned to the *In Process* status\) or closed.
 4.  *Closed*: A manager has reviewed the record and confirmed that everything has been done. All administrative activities for this route execution document are over. The document cannot be editedunless you reopen the route execution, which causes it to be assigned the *Open* status.
 
-## Process Workflow {#section_k3k_zcb_ldc .section}
+## Process Workflow
 
 The process of executing a route in the system is shown in the diagram below.
 
-![](Images/diag_RouteMgmt_Processing_Routes.png "Route processing flow")
 
 In general, the simplest way of executing a route involves the following steps:
 

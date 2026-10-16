@@ -1,21 +1,21 @@
-# Dashboards: General Information {#_9a2198f4-cf48-4da9-973c-59fd6dbad3eb .concept}
+# Dashboards: General Information
 
 In Acumatica ERP, a dashboard is a collection of widgets—small components you configure to display a particular type of information—that are displayed on a single form and are designed to give you needed information at a glance.
 
 When you create a dashboard, which is also an Acumatica ERP form, you can click buttons to perform dashboard-specific actions. You can share a dashboard with other users as you can other forms.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Create a dashboard
 -   Manage access rights for the viewing and configuration of a dashboard
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 You administer dashboards if you’re responsible for system administration or for the customization of Acumatica ERP in your company.
 
-## Dashboards in the Modern UI {#section_mz3_1pf_kgc .section}
+## Dashboards in the Modern UI
 
 In the Modern UI, dashboards have a sleeker design, faster performance, and a more intuitive experience for both dashboard creators and users. These dashboards represent a complete redesign from the Classic UI dashboards.
 
@@ -23,13 +23,13 @@ The new [Dashboards](SM_20_86_10.md) \(SM208610\) form provides a centralized pl
 
 You can manage Classic UI dashboards through the renamed [Classic Dashboards](SM_20_86_00.md) \(SM20860\) form. Design of these dashboards works as it did in previous versions of Acumatica ERP.
 
-## Creation of a New Dashboard { .section}
+## Creation of a New Dashboard
 
 On the [Dashboards](SM_20_86_10.md) \(SM208610\) form, you add a record for the dashboard to be created and enter its internal identifier in the **Name** box.
 
 In the **Owner Role** box, you select a user role. All users that have the selected role assigned are the owners of the dashboard. That is, the **Design** button on the dashboard title bar is available to these users. If they click the button, the dashboard switches to design mode. In this mode, an owner of the dashboard can populate the dashboard with widgets, modify the dashboard layout, and edit widget properties.
 
-## Publication of a Dashboard {#section_rnv_gts_31c .section}
+## Publication of a Dashboard
 
 You publish a dashboard to make it available to users. To do this, on the form toolbar of the [Dashboards](SM_20_86_10.md) \(SM208610\) form, you click the **Publish to the UI** button. The system opens the **Publish to the UI** dialog box.
 
@@ -51,11 +51,11 @@ After you specify the needed settings and click **Publish** in the dialog box, t
 
 After the dashboard has been published, you can adjust access to the dashboard on the **Visible To** tab of the [Dashboards](SM_20_86_10.md) form.
 
-## Configuration of Dashboard Visibility { .section}
+## Configuration of Dashboard Visibility
 
 On the **Visible To** tab of the [Dashboards](SM_20_86_10.md) \(SM208610\) form, you specify the access levels for the roles defined in the system. To give access, you select the *Granted* access level for the roles for which the dashboard should be available. Users that do not have a role with the *Granted* access level is specified will not be able to view the dashboard.
 
-## Ability to Personalize a Dashboard {#_2af3dc70-7707-45b6-ad2c-5c83d67b7f7f .section}
+## Ability to Personalize a Dashboard
 
 You can also control whether users who can view the dashboard can personalize it—that is, create a personal copy of the dashboard and configure and modify the copied widgets. To provide users with this capability, you need to select the **Allow Users to Personalize** check box on the [Dashboards](SM_20_86_10.md) \(SM208610\) form for the particular dashboard. With this check box selected, the **Create User Copy** button will be displayed on the title bar of the dashboard. A user clicks the button to create a personal copy of the dashboard.
 
@@ -63,21 +63,21 @@ If a user has created a personal copy of the dashboard and made modifications to
 
 A user who manages a particular dashboard can reset all user copies of the dashboard at once by clicking **Reset All User Copies** on the More menu of the [Dashboards](SM_20_86_10.md) form.
 
-## Ability to Deactivate Widgets { .section}
+## Ability to Deactivate Widgets
 
 In Acumatica ERP, you can deactivate a widget that consumes a lot of memory, malfunctions, or currently isn’t needed. On the **Widgets** tab of the [Dashboards](SM_20_86_10.md) \(SM208610\) form, the list of widgets of the selected dashboard is shown. By default, the **Active** check box is selected for each widget, meaning that it’s shown on the dashboard. You can deactivate a widget on the dashboard by clearing the **Active** check box for it. If you clear the check box, the widget is no longer shown on the dashboard in either view mode or design mode.
 
 **Attention:** A user with the dashboard owner role or a user who has created a personalized copy of a dashboard can drag a widget to the place of an inactive widget. If the inactive widget is activated again, it may not reappear on the dashboard. In this case, you may need to know the hidden widget's coordinates so that you can quickly locate it and rearrange the widgets on the dashboard. Widget coordinates are shown in the **Row** and **Column** table columns on the **Widgets** tab of the [Dashboards](SM_20_86_10.md) form for the dashboard. For details, see [Dashboards: Widget Location Within a Working Area](RPT_Administering_Dashboard_Forms_Widget_Coordinates.md).
 
-## Ability to Delete Widgets { .section}
+## Ability to Delete Widgets
 
 On the **Widgets** tab of the [Dashboards](SM_20_86_10.md) \(SM208610\) form, you can delete a widget from a dashboard by selecting its row and clicking the **Delete Row** button on the table toolbar.
 
-## Exposure to the Acumatica Mobile App { .section}
+## Exposure to the Acumatica Mobile App
 
 If a dashboard should be displayed in the Acumatica mobile app connected to your Acumatica ERP site, you select the **Expose to the Mobile Application** check box on the [Dashboards](SM_20_86_10.md) \(SM208610\) form for the particular dashboard.
 
-## Export of a Dashboard { .section}
+## Export of a Dashboard
 
 On the [Dashboards](SM_20_86_10.md) \(SM208610\) form, you can prepare a dashboard as an XML file to export it to another tenant of your Acumatica ERP site. You can do this by opening the needed dashboard and clicking the **Export as XML** command on the **Clipboard** menu of the form toolbar. Then in the other tenant, you open the [Dashboards](SM_20_86_10.md) form and click the **Import from XML** command on the **Clipboard** menu of the form toolbar.
 

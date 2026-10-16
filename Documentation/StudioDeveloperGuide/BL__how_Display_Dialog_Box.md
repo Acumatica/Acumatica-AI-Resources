@@ -1,8 +1,8 @@
-# To Display a Dialog Box {#_0893a861-ee7d-49f5-84ea-1740df9f11d6 .task}
+# To Display a Dialog Box
 
 When a user clicks a button on a form of an Acumatica Framework-based application, you may need to display a dialog box that displays the settings related to the action to be performed. For example, on the [Companies](../UserGuide/CS_10_15_00.md) \(CS101500\) form, if you click **Create Ledger**, the system opens the **Create Ledger** dialog box, where a user can specify the setting related to the action.
 
-## To Display a Dialog Box { .section}
+## To Display a Dialog Box
 
 1.  In the graph that corresponds to the form, add the action and the delegate for the button that opens the dialog box, as shown in the following example.
 

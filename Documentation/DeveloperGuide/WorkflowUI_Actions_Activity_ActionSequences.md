@@ -1,19 +1,19 @@
-# Action Configuration: To Configure Sequential Action Execution {#_3b3ad8da-34ee-4443-b60e-2599ac673065 .task}
+# Action Configuration: To Configure Sequential Action Execution
 
 The following activity will walk you through the process of configuring a sequence of actions for the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist working on simple customizations in your company. Further suppose that you have been asked to make the following modifications to the case processing workflow:
 
 -   After a user takes a case, the status of this case should change from *New* to *Open*. As a reason for the change, the system should specify the *In Process* value.
 -   If a user closes a billable case, the system should release this case. That is, the status of this case should change from *Closed* to *Released*. After that, the system should display the invoice for the case—that is, invoke the **View Invoice** command.
 
-## Process Overview { .section}
+## Process Overview
 
 By using the [Conditions](../UserGuide/AU_20_10_10.md) page, you will create a condition that checks if a case is billable. By using the [Actions](../UserGuide/AU_20_10_50.md) page, you will add subscribers for the `takeCase` action and the `Close` action. You will then publish the customization project and test the changes.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -27,7 +27,7 @@ Before you begin performing the steps of this activity, do the following:
     2.  On the form toolbar, click **Unpublish All**.
 4.  On the [Customization Projects](../UserGuide/SM_20_45_05.md) \(SM204505\) form, create a customization project named *ActionSequences*.
 
-## Step 1: Adding a Form to the List of Customized Screens { .section}
+## Step 1: Adding a Form to the List of Customized Screens
 
 Add the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form to the list of customized screens as follows:
 
@@ -44,7 +44,7 @@ Add the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form to the list of cu
     The Screen Editor: \(CR306000\) Cases page of the Customization Project Editor opens.
 
 
-## Step 2: Creating a Condition { .section}
+## Step 2: Creating a Condition
 
 To create a condition that checks if a case is billable, do the following:
 
@@ -65,7 +65,7 @@ To create a condition that checks if a case is billable, do the following:
     The added condition appears in the list of conditions on the Conditions: CR306020 \(Task\) page. You will use this condition to check if a case is billable.
 
 
-## Step 3: Adding a Subscriber for the takeCase Action { .section}
+## Step 3: Adding a Subscriber for the takeCase Action
 
 To add the `Open` action as a subscriber to the `takeCase` action, do the following:
 
@@ -98,7 +98,7 @@ To add the `Open` action as a subscriber to the `takeCase` action, do the follow
 6.  Click **Close** to close the dialog box.
 7.  In the **Action Properties** dialog box, to which you return, click **Save** to close it and save your changes.
 
-## Step 4: Adding Subscribers for the Close Action { .section}
+## Step 4: Adding Subscribers for the Close Action
 
 To add the `Release` and `View Invoice` actions as subscribers to the `Close` action, do the following:
 
@@ -125,7 +125,7 @@ To add the `Release` and `View Invoice` actions as subscribers to the `Close` ac
     -   **Stop on Error**: Cleared
 5.  Click **Save** to close the dialog box and save your changes.
 
-## Step 5: Publishing the Customization Project { .section}
+## Step 5: Publishing the Customization Project
 
 To publish the *ActionSequences* customization project, do the following:
 
@@ -136,7 +136,7 @@ To publish the *ActionSequences* customization project, do the following:
 
 3.  After the system finishes updating the required data, click **Close Compilation Pane** in the **Compilation** pane.
 
-## Step 6: Testing the takeCase Action { .section}
+## Step 6: Testing the takeCase Action
 
 In Acumatica ERP, test the modified `takeCase` action as follows:
 
@@ -160,7 +160,7 @@ In Acumatica ERP, test the modified `takeCase` action as follows:
     The system did not display the **Details** dialog box when the status of the case changed from *New* to *Open*. Instead, the system used the value \(*In Process*\) that you have specified in the **Dialog Box Values** dialog box for the `Open` action.
 
 
-## Step 7: Testing the Close Action { .section}
+## Step 7: Testing the Close Action
 
 While you are still viewing the created case on the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form, test the modified `takeCase` action as follows:
 

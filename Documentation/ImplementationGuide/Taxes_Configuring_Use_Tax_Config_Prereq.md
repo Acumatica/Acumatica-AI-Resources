@@ -1,8 +1,8 @@
-# Use Taxes: Configuration Prerequisites {#_0ad1f031-b7fc-4fef-88e6-cc6e0a9b5be4 .concept}
+# Use Taxes: Configuration Prerequisites
 
 Before starting the configuration of a use tax, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Configuring the System { .section}
+## Configuring the System
 
 Before you configure a use tax, you need to make sure that the following configuration tasks have been performed in the system:
 

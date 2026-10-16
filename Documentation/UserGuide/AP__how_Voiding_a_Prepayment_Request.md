@@ -1,4 +1,4 @@
-# To Void a Prepayment Request {#_1a495306-dc28-42b7-9de7-d2a71c042d23 .task}
+# To Void a Prepayment Request
 
 You enter a prepayment in the standard way in two stages. First, you create a document of the *Prepayment* type by using the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, and then you create a payment to pay for this prepayment by using the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form. The prepayment is then released.
 
@@ -6,7 +6,7 @@ In some situations, you might want to void a prepayment that was not paid—for 
 
 This topic describes how to void a prepayment —that is, a document with the *Prepayment* type created on the [Bills and Adjustments](AP_30_10_00.md) form.
 
-## To Void a Prepayment {#section_rc4_njv_vxb .section}
+## To Void a Prepayment
 
 1.  Open the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 2.  In the **Type** box, select *Prepayment*.

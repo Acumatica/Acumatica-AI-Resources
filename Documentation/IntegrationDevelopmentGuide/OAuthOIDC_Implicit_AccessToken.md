@@ -1,8 +1,8 @@
-# Implicit Flow: Obtaining of an Access Token and ID Token {#_c93ae0ae-73f4-4342-bb1f-fe20874d7ed8 .concept}
+# Implicit Flow: Obtaining of an Access Token and ID Token
 
 To obtain an access token, an ID token, or both, a client application that implements the Implicit flow connects to the authorization endpoint of Acumatica ERP with the `GET` method. For details on the request and the response, see the following sections.
 
-## HTTP Method and URL { .section}
+## HTTP Method and URL
 
 The client application connects to the authorization endpoint of Acumatica ERP with the `GET` method. The client application can use one of the following options for the URL:
 
@@ -23,22 +23,53 @@ The client application connects to the authorization endpoint of Acumatica ERP w
     ```
 
 
-## Parameters { .section}
+## Parameters
 
 The client application should specify the following URL parameters.
 
-|Parameter|Description|
-|---------|-----------|
-|response\_type|The type of the flow. The type can be one of the following:
+<table id="_d3e143b7-85b9-4f88-a0cb-a3d9ae7c616a"><thead><tr><th>
+
+Parameter
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+response\_type
+
+</td><td>
+
+The type of the flow. The type can be one of the following:
 
  -   *token*: Is used for OAuth 2.0 to retrieve an access token. You must include *api* in the scope parameter.
 -   *id\_token*: Is used for OIDC to retrieve an ID token. No access token is returned. Do not include *api* in the scope parameter.
 -   *id\_token token*: Is used for OIDC to retrieve an ID token and access token. You must include *api* in the scope parameter.
 
-|
-|client\_id|The client ID that was assigned to the client application during the registration of the application in Acumatica ERP. The client ID must have the format in which the ID was generated during the registration of the application. That is, the client ID must include an auto-generated string and the ID of the tenant, such as *88358B02-A48D-A50E-F710-39C1636C30F6@MyTenant*. The client application will have access to the data of the tenant specified in the client ID.|
-|redirect\_uri|The URI in the client application to which the response to the request should be sent. The URI must exactly match one of the values specified for the application in the **Redirect URI** column on the **Redirect URIs** tab of the [Connected Applications](../Shared/../UserGuide/SM_30_30_10.md#) \(SM303010\) form.|
-|scope|The access scope that is requested by the client application. The scope can be a combination of the following values, delimited by spaces:
+</td></tr><tr><td>
+
+client\_id
+
+</td><td>
+
+The client ID that was assigned to the client application during the registration of the application in Acumatica ERP. The client ID must have the format in which the ID was generated during the registration of the application. That is, the client ID must include an auto-generated string and the ID of the tenant, such as *88358B02-A48D-A50E-F710-39C1636C30F6@MyTenant*. The client application will have access to the data of the tenant specified in the client ID.
+
+</td></tr><tr><td>
+
+redirect\_uri
+
+</td><td>
+
+The URI in the client application to which the response to the request should be sent. The URI must exactly match one of the values specified for the application in the **Redirect URI** column on the **Redirect URIs** tab of the [Connected Applications](../Shared/../UserGuide/SM_30_30_10.md#) \(SM303010\) form.
+
+</td></tr><tr><td>
+
+scope
+
+</td><td>
+
+The access scope that is requested by the client application. The scope can be a combination of the following values, delimited by spaces:
 
  -   openid: Requests access to the personal information of the user. If this scope is granted, the OpenID Connect authorization mechanism is used. Without this scope, OAuth 2.0 is used.
 -   email: Requests disclosure of the user's email address.
@@ -50,26 +81,77 @@ The client application should specify the following URL parameters.
 
 If this scope is granted and the api:concurrent\_access scope is not granted, Acumatica ERP manages the sessions of the application through tokens. The system uses a single session for each access granted to the client application.
 
--   api:concurrent\_access: Requests permission for the concurrent use of multiple types of web service APIs. If a user grants this scope to the application, the client application can access data in Acumatica ERP in concurrent mode. In this case, Acumatica ERP can maintain multiple sessions for the client application, managing session IDs through cookies. We recommend that the client application request this scope only if concurrent access is required for the client application. For details about the license limitations related to the number of sessions for client applications, see [License Restrictions for API Users](../Shared/../IntegrationDevelopmentGuide/IS__con_License_Restrictions_API_Users.md).
+-   api:concurrent\_access: Requests permission for the concurrent use of multiple types of web service APIs. If a user grants this scope to the application, the client application can access data in Acumatica ERP in concurrent mode. In this case, Acumatica ERP can maintain multiple sessions for the client application, managing session IDs through cookies. We recommend that the client application request this scope only if concurrent access is required for the client application. For details about the license limitations related to the number of sessions for client applications, see [License Restrictions for API Sessions and Requests](../Shared/../IntegrationDevelopmentGuide/IS__con_License_Restrictions_API_Users.md).
 
  **Note:** The offline\_access scope is not supported for the Implicit flow.
 
-|
-|nonce|A string value that is used to associate a client session with an ID token, and to mitigate replay attacks. This parameter is required if the *id\_token* or *id\_token token* response type is specified.|
+</td></tr><tr><td>
 
-## Response { .section}
+nonce
+
+</td><td>
+
+A string value that is used to associate a client session with an ID token, and to mitigate replay attacks. This parameter is required if the *id\_token* or *id\_token token* response type is specified.
+
+</td></tr></tbody>
+</table>
+
+## Response
 
 Once the user grants access to the requested scopes, Acumatica ERP redirects the client application to the redirect\_uri address, which was specified in the request, and adds the requested data in the fragment section of the redirect URL. The redirect URL includes the following fragment parameters.
 
-|Parameter|Description|
-|---------|-----------|
-|token\_type|The type of the access token, which is *Bearer*. The parameter is returned only if the api scope was granted.|
-|access\_token|The access token. The parameter is returned only if the api scope was granted.|
-|expires\_in|The period of time \(in seconds\) during which the access token is valid. The parameter is returned only if the api scope was granted.|
-|scope|The scope for which the access token and ID token are provided. The returning of this parameter is optional.|
-|id\_token|The ID token associated with the authenticated session. The ID token contains three parts, which are separated by periods. The parts are Base64 encoded. The second part contains the claims to which the user granted access. For details on the ID token structure, see [https://openid.net/specs/openid-connect-core-1\_0.html\#IDToken](https://openid.net/specs/openid-connect-core-1_0.html#IDToken) and [https://www.rfc-editor.org/rfc/rfc7519.html](https://www.rfc-editor.org/rfc/rfc7519.html). We recommend that you use the existing standard libraries for parsing the tokens. The parameter is returned only if the openid scope was granted.|
+<table id="_dc2096a3-af1b-49f8-a580-f26674cc082d"><thead><tr><th>
 
-## Example: openid, email, and api Scopes { .section}
+Parameter
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+token\_type
+
+</td><td>
+
+The type of the access token, which is *Bearer*. The parameter is returned only if the api scope was granted.
+
+</td></tr><tr><td>
+
+access\_token
+
+</td><td>
+
+The access token. The parameter is returned only if the api scope was granted.
+
+</td></tr><tr><td>
+
+expires\_in
+
+</td><td>
+
+The period of time \(in seconds\) during which the access token is valid. The parameter is returned only if the api scope was granted.
+
+</td></tr><tr><td>
+
+scope
+
+</td><td>
+
+The scope for which the access token and ID token are provided. The returning of this parameter is optional.
+
+</td></tr><tr><td>
+
+id\_token
+
+</td><td>
+
+The ID token associated with the authenticated session. The ID token contains three parts, which are separated by periods. The parts are Base64 encoded. The second part contains the claims to which the user granted access. For details on the ID token structure, see [https://openid.net/specs/openid-connect-core-1\_0.html\#IDToken](https://openid.net/specs/openid-connect-core-1_0.html#IDToken) and [https://www.rfc-editor.org/rfc/rfc7519.html](https://www.rfc-editor.org/rfc/rfc7519.html). We recommend that you use the existing standard libraries for parsing the tokens. The parameter is returned only if the openid scope was granted.
+
+</td></tr></tbody>
+</table>
+
+## Example: openid, email, and api Scopes
 
 The following example requests the *openid*, *email*, and *api* scopes. \(Line breaks are for display purposes only.\)
 
@@ -93,7 +175,7 @@ id_token=ey...rvE
 &scope=openid%20email%20api
 ```
 
-## Example: openid and email Scopes { .section}
+## Example: openid and email Scopes
 
 The following example requests the *openid* and *email* scopes. \(Line breaks are for display purposes only.\)
 
@@ -114,7 +196,7 @@ id_token=eyJh...3YNA
 &scope=openid
 ```
 
-## Example: api Scope { .section}
+## Example: api Scope
 
 The following example requests the *api* scope. \(Line breaks are for display purposes only.\)
 

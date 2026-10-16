@@ -1,4 +1,4 @@
-# Value-Added Taxes: Inclusive Output and Input VATs at the Document Level {#_c983cdb6-245f-4db7-915d-a23ef1e8918d .concept}
+# Value-Added Taxes: Inclusive Output and Input VATs at the Document Level
 
 You can create AR and AP documents in which the total inclusive tax will be extracted from the document amount but not totaled from the taxes calculated for the document lines.
 
@@ -14,7 +14,7 @@ The system calculates and rounds inclusive tax amounts based on document amounts
 
 To prepare journal entries posted to GL on release of a document with inclusive VAT at the document level, the system still calculates line-level taxes for each line to get the amounts before taxes that are posted to the revenue or expense account specified in the lines. Because the document-level tax posted to the tax payable account may differ from the total of tax amount of each line, to balance the transaction, the system posts the difference to a special gain and loss account, which is specified on the [Tax Preferences](../UserGuide/TX_10_30_00.md) \(TX103000\) form.
 
-## Usage Example { .section}
+## Usage Example
 
 The example below illustrates how the system calculates the amount before taxes and the tax amount for each line.
 
@@ -49,7 +49,7 @@ In the next step of calculations, the system calculates the document amount befo
 
 As a result of the calculations, there is a difference between the amount before taxes by lines \(**257.35**\) and the document amount before taxes \(**257.34**\). The difference will be posted to the Tax Rounding Gain/Loss account.
 
-## Generated Transactions { .section}
+## Generated Transactions
 
 With this way of configuring the inclusive output or input VAT, as a result of the given calculation, the system will create the following GL transactions on release of a taxable AR and AP documents.
 
@@ -73,7 +73,7 @@ With this way of configuring the inclusive output or input VAT, as a result of t
 |Tax Rounding Gain/Loss| |0.01|
 | |306.25|306.25|
 
-## System Configuration for Inclusive VATs at the Document Level { .section}
+## System Configuration for Inclusive VATs at the Document Level
 
 You configure and maintain these types of VAT as follows:
 

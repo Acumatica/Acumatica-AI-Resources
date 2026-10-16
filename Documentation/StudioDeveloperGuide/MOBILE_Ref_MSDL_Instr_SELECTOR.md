@@ -1,4 +1,4 @@
-# selector {#_666041b0-2ca5-4f2a-ba2b-5d953381c00b .concept}
+# selector
 
 In a field in the mobile site map of the Acumatica ERP instance, switches the MSDL interpreter to editing mode for the selector content.
 

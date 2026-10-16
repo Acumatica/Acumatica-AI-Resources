@@ -1,16 +1,16 @@
-# Inventory Planning Configuration: To Implement DRP {#_91349161-e616-4a0e-8d59-585f7a4c72ae .task}
+# Inventory Planning Configuration: To Implement DRP
 
 In the following implementation activity, you will configure distribution requirements planning \(DRP\)—that is, inventory planning that does not include production order planning—and review the planning recommendations for an item–warehouse pair.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are an implementation manager at the SweetLife Fruits &amp; Jams company, and you need to prepare the system for the DRP type of inventory planning.
 
 Your company sells juicers but does not manufacture them. SweetLife buys juicers to the wholesale warehouse and then transfers the needed quantities of juicers to the warehouse for equipment storage. You will use the *Safety Stock* stocking method for replenishing goods. You need to configure the warehouses involved in inventory planning, including the settings that cause the system to consider sales orders on hold during inventory planning.
 
-## Configuration Overview {#_59ac3ed3-9150-44d0-a52d-ed0a06cc65bc .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -22,7 +22,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Item Warehouse Details](../UserGuide/IN_20_45_00.md) \(IN204500\) form, inventory planning settings have been specified for the *JUICER15C* stock item at the *EQUIPHOUSE* warehouse.
 -   On the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form, a sales order for the *DELIENERGY* customer has been created and assigned the *On Hold* status. The order has 5 units of the *JUICER15C* stock item and is dated 1/29/2026.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -33,11 +33,11 @@ In this activity, you will do the following:
 5.  On the [Item Warehouse Details](../UserGuide/IN_20_45_00.md) \(IN204500\) form, review the inventory planning settings for the item–warehouse pair.
 6.  On the [Regenerate Inventory Planning](../UserGuide/AM_50_50_00.md) \(AM505000\) form, perform inventory planning. On the [Inventory Planning Display](../UserGuide/AM_40_00_00.md) \(AM400000\) form, review the list of planning recommendations based on the last execution of inventory requirements planning.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring inventory planning, launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as a system administrator with the *gibbs* username and the *123* password.
 
-## Step 1: Enabling the Needed Feature { .section}
+## Step 1: Enabling the Needed Feature
 
 To enable the *Distribution Requirements Planning* feature, do the following:
 
@@ -46,7 +46,7 @@ To enable the *Distribution Requirements Planning* feature, do the following:
 3.  In the **Inventory and Order Management** group, select the **Distribution Requirements Planning** check box.
 4.  On the form toolbar, click **Enable**.
 
-## Step 2: Specifying General Inventory Planning Settings { .section}
+## Step 2: Specifying General Inventory Planning Settings
 
 To specify the general system settings that affect inventory planning, do the following:
 
@@ -63,7 +63,7 @@ To specify the general system settings that affect inventory planning, do the fo
     -   **Include Expired Blanket Sales Orders**: Cleared
 4.  On the form toolbar, click **Save**.
 
-## Step 3: Specifying the Inventory Planning Settings for a Source Warehouse { .section}
+## Step 3: Specifying the Inventory Planning Settings for a Source Warehouse
 
 To specify the inventory planning settings for the *WHOLESALE* warehouse, to which juicers are bought, do the following:
 
@@ -77,7 +77,7 @@ To specify the inventory planning settings for the *WHOLESALE* warehouse, to whi
     -   **Sales Orders**: Selected
 4.  On the form toolbar, click **Save**.
 
-## Step 4: Specifying Inventory Planning Settings for a Destination Warehouse { .section}
+## Step 4: Specifying Inventory Planning Settings for a Destination Warehouse
 
 To specify the inventory planning settings for the *EQUIPHOUSE* warehouse, to which juicers are transferred, do the following:
 
@@ -95,7 +95,7 @@ To specify the inventory planning settings for the *EQUIPHOUSE* warehouse, to wh
     -   **Transfer Lead Time \(Days\)**: `3`
 6.  On the form toolbar, click **Save**.
 
-## Step 5: Reviewing Inventory Planning Settings for an Item–Warehouse Pair { .section}
+## Step 5: Reviewing Inventory Planning Settings for an Item–Warehouse Pair
 
 To review inventory planning settings for an item–warehouse pair, do the following:
 
@@ -114,7 +114,7 @@ To review inventory planning settings for an item–warehouse pair, do the follo
     With these settings, you replenish the *JUICER15C* stock item in the *EQUIPHOUSE* warehouse by transferring the needed quantities of the item from the *WHOLESALE* warehouse. When inventory planning has been performed, the item appears in the list of items on the [Inventory Planning Display](../UserGuide/AM_40_00_00.md) \(AM400000\) form when you have 15 pieces or fewer of the item in stock.
 
 
-## Step 6: Performing Inventory Planning and Reviewing Planning Recommendations { .section}
+## Step 6: Performing Inventory Planning and Reviewing Planning Recommendations
 
 To perform inventory planning and review planning recommendations for the *JUICER15C* stock item, do the following:
 
@@ -127,7 +127,6 @@ To perform inventory planning and review planning recommendations for the *JUICE
     -   Line 3: The line shows the recommendation of the *Transfer* source and *Safety Stock* type, meaning that 15 juicers should be transferred to the *EQUIPHOUSE* warehouse from the *WHOLESALE* warehouse when the juicers have been bought.
     -   Line 4: The line shows the recommendation of the *Purchase* source and *Planned Transfer Demand* type, meaning that 15 juicers should be purchased to the *WHOLESALE* warehouse and then transferred to the *EQUIPHOUSE*.
     -   Line 5: Because the **Safety Stock** in the *WHOLESALE* warehouse is *50* and the on-hand quantity is 0, the recommendation of the *Safety Stock* type is shown for this warehouse. The **Action Date** is the date when the inventory planning was performed, and the system suggests that the needed quantity is purchased on the same date.
-    ![](Images/config_Inventory_Planning_Implem_Activity_Inv_Plan_Display.png "Planning recommendations for the stock item")
 
 
 **Parent topic:**[Configuring Inventory Planning](../ImplementationGuide/config_Inventory_Planning_Mapref.md)

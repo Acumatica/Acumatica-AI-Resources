@@ -1,14 +1,14 @@
-# Card Payments {#_df8b048c-059f-4ef3-9174-6d8d1dab91e0 .concept}
+# Card Payments
 
 Before processing payments, you configure processing centers in Acumatica ERP, as described in [Configuring Payment Processing](CA__MNG_Payment_Processing.md). This topic describes how the processing of card payments typically unfolds.
 
-## Processing Payments {#section_oks_4jv_vxb .section}
+## Processing Payments
 
 Payments can be collected automatically from customers with default payment methods based on credit cards. For details on configuring automatic payment processing, see [Automatic Payment Collection](AR__con_Automatic_Payment_Collection.md).
 
 For invoices that have credit card customer payment methods selected for the payments, you use the following forms to process payments:
 
--   [Generate Payments](AR_51_10_00.md) \(AR511000\) form: To generate payment documents for the invoices you select. You can select customer invoices that have due dates approaching or that are overdue and generate payment documents for selected invoices.
+-   [Generate Payments](AR_51_10_00.md) \(AR511000\) form: To generate payments for the documents you select. You can select documents that have due dates approaching or that are overdue and generate payments for the selected documents.
 -   [Capture Payments](AR_51_15_00.md) \(AR511500\) form: To perform the mass-processing of customer payments by using the customers' default cards and a specific processing center.
 
 For each customer with at least one valid credit card, any document may be paid by using the card, with the payment process initiated on a per-document basis. To process a payment for a particular document, use either of the following forms:
@@ -16,11 +16,17 @@ For each customer with at least one valid credit card, any document may be paid 
 -   [Payments and Applications](AR_30_20_00.md) \(AR302000\): On this form, you create a payment by using a customer card as a payment method. You then click **Capture** on the form toolbar to initiate the payment process through the appropriate processing center. When the system receives a response about the capture transaction being successful, the system releases the payment.
 -   [Cash Sales](AR_30_40_00.md) \(AR304000\): On this form, you create an invoice with a credit card payment method to record cash sales of goods that are paid immediately by credit card. You then click **Capture** on the form toolbar to initiate the payment process through an appropriate processing center. When the system receives a response about the capture transaction being successful, the system releases the cash sale invoice.
 
-## Processing Payments from New Credit Cards {#section_uks_4jv_vxb .section}
+## Generating Refunds
+
+When you process payments on the [Generate Payments](AR_51_10_00.md) \(AR511000\) form, the system evaluates the total amount of the documents you have selected. If that total is negative, the system automatically creates a refund and applies all selected documents to it.
+
+This behavior lets you handle credit scenarios—such as a combination of invoices and credit memos that results in a net amount owed to the customer—without manually creating and linking a refund document. The system manages the application of documents for you as part of the payment generation process.
+
+## Processing Payments from New Credit Cards
 
 In Acumatica ERP, you can enter information about a new credit card while processing a payment on the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form. For details on configuring a processing center for Acumatica Payments, see [To Configure Acumatica Payments](AR__HOW_To_Configure_Acumatica_Payments.md).
 
-When you need to accept a payment from a customer's credit card that is not stored in Acumatica ERP, the processing of the payment occurs as follows:
+When you need to accept a payment from a customer's credit card that isn’t stored in Acumatica ERP, the processing of the payment occurs as follows:
 
 1.  You create a payment or prepayment on the [Payments and Applications](AR_30_20_00.md) form and initiate the processing of a credit card payment by clicking **Capture** or **Authorize** on the More menu \(under **Card Processing**\).
 2.  Acumatica ERP displays the hosted form filled in with the payment amount and customer address.
@@ -30,7 +36,7 @@ When you need to accept a payment from a customer's credit card that is not stor
 
 For details on entering a payment from a new credit card, see [To Enter a Payment from a New Credit Card](AR__how_Enter_Payment_from_New_Card.md).
 
-## Processing Credit Card Transactions Held for Review by the Processing Center {#section_yks_4jv_vxb .section}
+## Processing Credit Card Transactions Held for Review by the Processing Center
 
 Some transactions are considered suspicious by the processing center, with the conditions defining which transactions should be held for review defined in the fraud detection terms of the specific processing center. If a user enters a suspicious transaction, Acumatica ERP displays a warning message, assigns the *Held for Review \(Authorization\)* or *Held for Review \(Capture\)* status to this payment, and assigns the *Held for Review* status to this transaction, which should then be approved. You can view these statuses in the following elements on the mentioned forms:
 
@@ -61,13 +67,13 @@ To avoid manual validation of credit card transactions held for review by proces
 -   Run the validation process for individual credit card transactions as needed for the processing of particular payments with which these transactions are associated.
 -   Run the validation process for all transactions on the [Validate Card Payments](AR_51_30_00.md) form at least once a day.
 
-## Handling Failed Transactions {#section_hls_4jv_vxb .section}
+## Handling Failed Transactions
 
 By using Acumatica ERP inquiry forms, authorized users can view successful and failed credit card transactions and handle them properly. On the [Payment Method Transaction History](AR_40_60_00.md) \(AR406000\) form, you can perform inquiries on transactions that occurred during a particular interval or with a particular credit card.
 
 You can also review failed transactions by using the [Payment Processing Log](AR_40_65_00.md) \(AR406500\) form. Note the response reason code from the processing center and the processing status of the failed transaction. If a transaction has failed because of a technical reason, such as a failed connection, repeat this transaction by using the [Capture Payments](AR_51_15_00.md) \(AR511500\) form. If a transaction has failed because of card expiration or insufficient funds, review the credit card issue with the customer and, if the issue with the credit card has been resolved, capture the payment again, or reassign another card \(if one is available\) to the payment, and capture the payment by using the new card.
 
-## Handling Transactions that Require Manual Processing {#_80f96f0e-31c5-4ab6-88f9-e8f89b48d035 .section}
+## Handling Transactions that Require Manual Processing
 
 In some cases, payment transactions cannot be processed automatically by the system. You may need to review and manually process such transactions in the following cases:
 
@@ -84,7 +90,7 @@ You use the [Card Payments Pending Review](CA_40_30_00.md) \(CA403000\) form to 
 
 When a document has been successfully processed, it disappears from the list on the [Card Payments Pending Review](CA_40_30_00.md) form.
 
-## Manually Recording Credit Card Authorizations Obtained Externally {#section_nls_4jv_vxb .section}
+## Manually Recording Credit Card Authorizations Obtained Externally
 
 When you charge a customer for a particular invoice, perform a refund, or review a failed transaction, you can get the transaction number and an authorization code by calling the processing center. In this case, you can manually enter into the system the information received from the processing center for the transaction as follows:
 
@@ -96,7 +102,7 @@ When you charge a customer for a particular invoice, perform a refund, or review
     The system initiates the capture of the specified amount for the payment by using the entered authorization number.
 
 
-## Processing Card Payments with Optional Saving of Payment Profiles {#_73183e3f-84dd-4999-8ced-2e9906490547 .section}
+## Processing Card Payments with Optional Saving of Payment Profiles
 
 You can configure the system in such a way that payment profile data is not saved when card payments are processed; optionally, the data could be saved if a customer wants it to be saved. The system can authorize, capture, refund, and void credit card payments for which a payment profile is not saved in the system.
 
@@ -127,7 +133,7 @@ To configure the system to create customer payment methods by a user's request, 
     By default, the system will not save a payment profile when accepting a new card payment from a customer of the class, but you can manually indicate that the card for a particular payment or prepayment should be saved by selecting the **Save Card** check box, which appears on the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form when this option is selected. A customer payment method for the customer selected in the payment or prepayment will be created on the [Customer Payment Methods](AR_30_30_10.md) \(AR303010\) form. Credit cards matched to this customer can be processed on the [Synchronize Cards](CA_20_60_00.md) \(CA206000\) form.
 
 
-## Managing Void and Refund Operations {#section_yls_4jv_vxb .section}
+## Managing Void and Refund Operations
 
 In some cases, you may need to void or refund a payment made by credit card.
 
@@ -151,7 +157,7 @@ To void a cash sale paid by a credit card, do the following:
     The voided transactions will be processed along with regular cash sales transactions.
 
 
-## Processing Refunds Not Linked to the Original Card Transaction {#section_gms_4jv_vxb .section}
+## Processing Refunds Not Linked to the Original Card Transaction
 
 In some cases, you may need to process a card refund without linking it to any previous card transaction.
 

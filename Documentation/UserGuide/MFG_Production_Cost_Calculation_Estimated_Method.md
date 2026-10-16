@@ -1,4 +1,4 @@
-# Cost Calculation for Produced Items: Estimated Costing Method {#_5ee062c2-5708-4b01-aafc-6945244d84d2 .concept}
+# Cost Calculation for Produced Items: Estimated Costing Method
 
 You specify a production order's costing method on the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form. The *Estimated* costing method can be most beneficial for calculating production costs when all of the following describe the manufacturing business process of your organization:
 
@@ -8,7 +8,7 @@ You specify a production order's costing method on the [Production Order Mainten
 
 In this topic, you will read information about how the system calculates production costs when the *Estimated* costing method is specified.
 
-## Cost Calculation with the Estimated Costing Method { .section}
+## Cost Calculation with the Estimated Costing Method
 
 You can use the *Estimated* costing method to calculate costs for produced items with the *Average*, *FIFO*, or *Specific* valuation method, which is specified on the **General** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form. For information about valuation methods, see [Item Costs and Valuation Methods: General Information](Item_Costs_Valuation_Methods_GeneralInfo.md).
 

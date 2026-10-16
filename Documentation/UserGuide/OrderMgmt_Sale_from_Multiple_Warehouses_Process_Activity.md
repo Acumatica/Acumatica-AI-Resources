@@ -1,16 +1,16 @@
-# Sales from Multiple Warehouses: Process Activity {#_71de77ee-4bfc-48b6-9f09-35bd12a1ea7b .task}
+# Sales from Multiple Warehouses: Process Activity
 
 In the following activity, you will process a sales order with items allocated in multiple warehouses.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the FourStar Coffee &amp; Sweets Shop customer ordered cherry jam in 32-ounce jars and lemon jam in 96-ounce jars at SweetLife’s retail store. When entering this sales order, a sales manager has noticed that the 32-ounce jars of cherry jam are currently out of stock in the retail warehouse, and has decided to allocate the unavailable quantity of jam in the SweetLife’s wholesale warehouse.
 
 To complete the customer’s request, acting as sales manager of the SweetLife store Regina Wiley, you need to enter the sales order and allocate the needed items, process a transfer of cherry jam from the wholesale warehouse to the SweetLife store's warehouse, and then process the sales order to completion.
 
-## Configuration Overview {#section_qnv_sty_clb .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -23,7 +23,7 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *CHERJAM32* and *LEMJAM96* stock items have been created.
 -   On the [Order Types](SO_20_10_00.md) \(SO201000\) form, the *TR* order type has been configured.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, to perform a sale of stock items from multiple warehouses, you will create a sales order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, select the customer to which the items are being sold, and add items to the order. Then you will allocate the unavailable items in the warehouse in which these items are currently on hand.
 
@@ -34,7 +34,7 @@ To transfer items from the source warehouse to the destination warehouse, you wi
 
 On the [Shipments](SO_30_20_00.md) form, you will create a shipment document for the sales order and confirm the shipment. You then will use the [Invoices](SO_30_30_00.md) \(SO303000\) form to prepare the corresponding invoice for the customer and release it.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start performing a sale of stock items from multiple warehouses, you should do the following:
 
@@ -43,7 +43,7 @@ Before you start performing a sale of stock items from multiple warehouses, you 
 3.  On the Company and Branch Selection menu in the top pane of the Acumatica ERP screen, select the *SweetLife Store* branch.
 4.  Make sure that you have completed the [Sales Order Types: To Activate the TR Order Type](../ImplementationGuide/config_Sales_Order_Types_To_Activate_TR_Order_Type.md).
 
-## Step 1: Creating the Sales Order { .section}
+## Step 1: Creating the Sales Order
 
 To create the sales order, do the following:
 
@@ -65,7 +65,7 @@ To create the sales order, do the following:
 
 Now you can reserve 32-ounce jars of cherry jam, which are not available in the SweetLife Store warehouse, in a warehouse which has a sufficient quantity of the item.
 
-## Step 2: Allocating the Items in Another Warehouse { .section}
+## Step 2: Allocating the Items in Another Warehouse
 
 To allocate the items that are not available in the *RETAIL* warehouse, while you are still viewing the sales order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, do the following:
 
@@ -81,7 +81,7 @@ To allocate the items that are not available in the *RETAIL* warehouse, while yo
 
 Now you can create a transfer order to move the items from the Wholesale warehouse to the SweetLife's Store warehouse.
 
-## Step 3: Creating the Transfer Order { .section}
+## Step 3: Creating the Transfer Order
 
 To create the transfer order for the allocated items from the sales order, do the following:
 
@@ -93,7 +93,7 @@ To create the transfer order for the allocated items from the sales order, do th
 
 Now you can process the created transfer order to completion.
 
-## Step 4: Processing the Transfer Order { .section}
+## Step 4: Processing the Transfer Order
 
 To process the transfer order to completion, do the following:
 
@@ -105,7 +105,7 @@ To process the transfer order to completion, do the following:
 6.  On the **Orders** tab, click the link in the **Inventory Ref. Nbr.** column in the only row.
 7.  On the [Transfers](IN_30_40_00.md) \(IN304000\) form, which opens in a pop-up window, make sure that the generated inventory transfer has the *Released* status.
 
-## Step 5: Processing the Transfer Receipt {#section_ng4_fwy_clb .section}
+## Step 5: Processing the Transfer Receipt
 
 To process the transfer receipt, do the following:
 
@@ -122,7 +122,7 @@ To process the transfer receipt, do the following:
 
 Now you can finish processing the sales order, because all of the ordered items are on hand in the SweetLife’s Store warehouse.
 
-## Step 6: Processing the Shipment { .section}
+## Step 6: Processing the Shipment
 
 To create and process the shipment that is associated with the sales order, do the following:
 
@@ -133,7 +133,7 @@ To create and process the shipment that is associated with the sales order, do t
 
 The shipment is assigned the *Confirmed* status, and now you can prepare the invoice to bill the customer and increase the customer's debt in the system.
 
-## Step 7: Processing the Sales Invoice for the Customer { .section}
+## Step 7: Processing the Sales Invoice for the Customer
 
 To complete the processing of a sale, you need to generate an invoice to the customer. Do the following:
 
@@ -142,7 +142,6 @@ To complete the processing of a sale, you need to generate an invoice to the cus
 3.  On the form toolbar, click **Release** to release the invoice.
 4.  Return to the sales order of the *SO* type on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form that you created in Step 1, and notice that the order is now assigned the *Completed* status, as shown in the following screenshot.
 
-    ![](Images/activity_OrderMgmt_Sale_from_Multiple_Warehouses.png "Sale from multiple warehouses completed")
 
 
 **Parent topic:**[Processing Sales from Multiple Warehouses](../UserGuide/OrderMgmt_Sale_from_Multiple_Warehouses_Mapref.md)

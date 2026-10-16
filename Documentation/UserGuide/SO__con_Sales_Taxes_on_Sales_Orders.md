@@ -1,4 +1,4 @@
-# Tax Application in Sales Documents {#_39c67aca-9e64-47f3-bed5-08227508e62c .concept}
+# Tax Application in Sales Documents
 
 Based on where items are ordered from, they may be subject to particular sales taxes. The rate and the amount of the sales taxes that apply to sales orders and sales invoices can depend on many factors, including the types of items purchased, the delivery address of the customer, the address of the selling branch, and the business presence of your organization in the customer location.
 
@@ -6,7 +6,7 @@ If automatic calculation of taxes is configured in your system, the system deter
 
 With Acumatica ERP, to minimize tax-related errors that users make when they enter sales orders, cash sales, and invoices, you can provide default values for the tax zones used for tax calculation, as described in this topic.
 
-## Sales Taxes on Sales Orders { .section}
+## Sales Taxes on Sales Orders
 
 You enter customers' sales orders on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form. The system inserts the default tax zone \(displayed in the **Customer Tax Zone** box on the **Financial** tab\) into the sales order, copying it as follows:
 
@@ -26,13 +26,13 @@ You enter customers' sales orders on the [Sales Orders](SO_30_10_00.md) \(SO3010
 
 If you know exactly which tax zone should be used for a specific sales order, you can override the default setting and select it in the **Customer Tax Zone** box. For details, see [Taxable Sales with Freight Charges: Process Activity](Taxes_Processing_SO_Invoice_FreightCharges_Activity.md).
 
-## Taxes Applicable to Freight Sales { .section}
+## Taxes Applicable to Freight Sales
 
 If your company provides freight as an additional service that is subject to taxes, you configure a ship via code for the shipping options provided by your company \(that is, a ship via code with the **Common Carrier** check box cleared on the [Ship via Codes](CS_20_75_00.md) \(CS207500\) form\), in the ship via code settings, you can specify the appropriate tax category that applies to freight. The list of taxes that apply to the freight includes the taxes that are present both in the tax category of the ship via code and in the tax zone of the branch that sold the goods.
 
 If the goods are being shipped by an integrated carrier, the tax category is applied to only the amount of freight that exceeds the freight cost. The list of taxes applied to the specified amount consists of the taxes from both the tax category and the tax zone of the customer's delivery address \(the specified tax zone of the customer location or, if one has not been specified, the tax zone automatically determined by the ZIP code of the delivery address\). For details, see [Taxable Sales with Freight Charges: Process Activity](Taxes_Processing_SO_Invoice_FreightCharges_Activity.md).
 
-## Sales Taxes on Sales Invoices { .section}
+## Sales Taxes on Sales Invoices
 
 When a sales order is shipped, you create a related sales invoice, which you can view on the [Invoices](SO_30_30_00.md) \(SO303000\) form. For these invoices, the system copies all the details from the associated sales orders. Sales orders with different tax zones cannot be added to the same invoice. When you mass-create invoices for multiple sales orders by using the *Prepare Invoice* action on the [Process Orders](SO_50_10_00.md) \(SO501000\) form, the system groups the sales orders by tax zone.
 
@@ -57,7 +57,7 @@ On release of the sales invoice, the system generates a batch of the following g
 |Sales account| |Amount|
 |Tax Payable account| |Tax amount|
 
-## Tax Calculation with Specialized Third-Party Software { .section}
+## Tax Calculation with Specialized Third-Party Software
 
 If your system is integrated with the AvaTax service of Avalara or another third-party tax calculation software, the applicable taxes are calculated by this service or software and recorded to the sales order or invoice when you save the document.
 
@@ -92,7 +92,7 @@ In an sales invoice that was created from a sales order, on the [Invoices](SO_30
 
 For an overview of the integration with Avalara AvaTax and instructions on how to configure the integration, see [Setup of Online Integration with Avalara AvaTax](TX__con_Integrating_with_AvaTax.md).
 
-## Disabled Calculation of Taxes on Sales Orders and Sales Invoices {#section_ltl_xsm_hwb .section}
+## Disabled Calculation of Taxes on Sales Orders and Sales Invoices
 
 If automatic calculation of taxes is configured in your system, Acumatica ERP always calculates taxes when you create a sales order and recalculates taxes when you update the order \(for example, when you adjust quantities in lines of a sales order or create an invoice or shipment for this order\).
 

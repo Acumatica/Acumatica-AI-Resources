@@ -1,10 +1,10 @@
-# To Enter an Invoice with Retainage \(with Line Totals\) {#_63bb52ee-fe81-4d7e-921a-d8606ef78d83 .task}
+# To Enter an Invoice with Retainage \(with Line Totals\)
 
 You create an AR invoice by using the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. You use this procedure if you are specifying line totals in the detail lines of the invoice. If you are instead specifying the items' quantities and unit costs in the detail lines, you should use [To Enter an Invoice with Retainage \(with Items' Quantities and Unit Costs\)](AR__HOW_To_Create_Invoice_with_Retainage.md).
 
-**Note:** You can enter an invoice with retainage only if the *Retainage Support* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
+**Attention:** You can enter an invoice with retainage only if the *Retainage Support* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## To Enter an Invoice with Retainage \(with Line Totals\) {#section_i4q_4jv_vxb .section}
+## To Enter an Invoice with Retainage \(with Line Totals\)
 
 1.  Open the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 2.  On the form toolbar, click **Add New Record** to initiate a database entry for a new document.
@@ -27,7 +27,7 @@ You create an AR invoice by using the [Invoices and Memos](AR_30_10_00.md) \(AR3
 11. If you want to save the document with the *Balanced* status, if the **Amount** box of the Summary area is available on the form, enter the total amount reduced by the retained amount of the invoice in this box. On the form toolbar, click **Remove Hold**.
 12. On the form toolbar, click **Save**.
 
-## Notes About the Procedure {#section_k4q_4jv_vxb .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

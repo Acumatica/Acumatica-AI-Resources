@@ -1,4 +1,4 @@
-# Processing Recurring Transactions {#_39d86fc9-c2d2-4749-a0e0-fde4dfd4ec94 .concept}
+# Processing Recurring Transactions
 
 In this chapter, you will read about creating schedules and running and processing schedules.
 

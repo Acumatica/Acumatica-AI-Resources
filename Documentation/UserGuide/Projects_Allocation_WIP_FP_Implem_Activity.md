@@ -1,31 +1,31 @@
-# WIP Labor Costs in Fixed-Price Projects: Implementation Activity {#_fc52ceac-43ab-45fe-b774-dfe89ff18b2a .task}
+# WIP Labor Costs in Fixed-Price Projects: Implementation Activity
 
 The following implementation activity will walk you through the process of configuring an allocation rule for work-in-progress labor.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company needs to process projects in accordance with the GAAP matching principle—that is, the expenses related to the revenue have to be recorded to the same financial period as the revenue even if the expenses have been already posted to the system.
 
 Acting as SweetLife’s administrative user, you will configure an allocation rule that can temporarily allocate the project labor costs to a work-in-progress account group. To reverse the costs back you will not use the allocation rule.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Projects* feature has been enabled to support the project management functionality.
 -   On the [Account Groups](PM_20_10_00.md) \(PM201000\) form, the *WIP* account group has been created; the *12400 - Work in Progress* account has been mapped to the account group.
 
-## Process Overview { .section}
+## Process Overview
 
 You will configure an allocation rule for work-in-progress labor on the [Allocation Rules](PM_20_75_00.md) \(PM207500\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of the activity, launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded; you should sign in as system administrator by using the *gibbs* username and the *123* password.
 
-## Step: Configuring an Allocation Rule { .section}
+## Step: Configuring an Allocation Rule
 
 To configure an allocation rule used for allocating work-in-progress labor costs, perform the following instructions:
 

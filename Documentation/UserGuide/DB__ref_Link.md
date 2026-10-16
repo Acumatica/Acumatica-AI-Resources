@@ -1,16 +1,28 @@
-# Add Widget Dialog Box for Link Widgets {#_51586095-4ad0-447b-b02b-25125ae2a914 .reference}
+# Add Widget Dialog Box for Link Widgets
 
 You use the **Add Widget** dialog box to add a widget to a dashboard and to modify an existing widget. The settings that you need to specify depend on the widget type.
 
 When you add a new widget by using this dialog box, you perform two steps. In the first step, you select the type of the widget that you want to add to the dashboard; the system brings up the version of the **Add Widget** dialog box that is specific to the widget type. In the second step, you specify the properties that are specific to the selected widget type. When you modify an existing widget, you perform only the second step. \(In this case, the system immediately brings up the appropriate version of the dialog box.\)
 
-## Add Widget Dialog Box: Step 1 {#section_a3z_dpq_q4b .section}
+## Add Widget Dialog Box: Step 1
 
 When you want to add a new widget to a dashboard, you first need to select the option button representing the type of the widget in the **Add Widget** dialog box. The elements of this dialog box are described in the following table.
 
-|Element|Description|
-|-------|-----------|
-|**Widget Type**|The type of widget to be added to the dashboard, which can be one of the following:-   **Chart**: A graphical representation of data from an Acumatica ERP form. You can use charts of the following types:
+<table id="_9cab714c-efd3-42ea-b0db-f18314b2681d"><thead><tr><th>
+
+Element
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+**Widget Type**
+
+</td><td>
+
+The type of widget to be added to the dashboard, which can be one of the following:-   **Chart**: A graphical representation of data from an Acumatica ERP form. You can use charts of the following types:
     -   **Doughnut**
     -   **Line**
     -   **Column**
@@ -29,35 +41,122 @@ When you want to add a new widget to a dashboard, you first need to select the o
 -   **Header**: A title that can be added to the widget section.
 -   **Power BI**: A chart, scorecard, or other analytical information that is represented on a Power BI dashboard designed by your organization.
 
-|
-|The dialog box has the following buttons.|
-|**Cancel**|Cancels the changes and closes the dialog box.|
-|**Next**|Goes to the next step of the **Add Widget** dialog box for the selected widget type.|
+</td></tr><tr><td colspan="2">
 
-## Add Widget Dialog Box: Step 2 {#section_b4k_fpq_q4b .section}
+The dialog box has the following buttons.
 
-After you select the **Link** widget type in the **Add Widget** dialog box, or when you click Edit \(![](Images/Icons_Form_Grid_Views.png)\) on the widget toolbar, the **Widget Properties** dialog box opens. In this dialog box, you need to specify the properties that are specific to the link widget. For more information about link widgets, see [Specific Widgets: Link Widgets](RPT_Configuring_Widgets_Link_Widgets_Concept.md).
+</td></tr><tr><td>
 
-|Element|Description|
-|-------|-----------|
-|**Icon**|Required. The icon to be displayed before the link title on the dashboard.|
-|**Form**|Required. The form to which navigation will occur.|
-|**Parameters**|The form-specific parameters of the address line that the system adds to the form link when a user clicks the tile.|
-|**Window Mode**|The setting, which defines how the system should open the form once you click the link widget. The following options are available:-   *Same Tab*
+**Cancel**
+
+</td><td>
+
+Cancels the changes and closes the dialog box.
+
+</td></tr><tr><td>
+
+**Next**
+
+</td><td>
+
+Goes to the next step of the **Add Widget** dialog box for the selected widget type.
+
+</td></tr></tbody>
+</table>
+
+## Add Widget Dialog Box: Step 2
+
+
+<table id="_d864e3ad-1e2a-41bc-b5e7-df70205dc589"><thead><tr><th>
+
+Element
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+**Icon**
+
+</td><td>
+
+Required. The icon to be displayed before the link title on the dashboard.
+
+</td></tr><tr><td>
+
+**Form**
+
+</td><td>
+
+Required. The form to which navigation will occur.
+
+</td></tr><tr><td>
+
+**Parameters**
+
+</td><td>
+
+The form-specific parameters of the address line that the system adds to the form link when a user clicks the tile.
+
+</td></tr><tr><td>
+
+**Window Mode**
+
+</td><td>
+
+The setting, which defines how the system should open the form once you click the link widget. The following options are available:-   *Same Tab*
 -   *New Tab*
 -   *Pop-Up Window*
 
-|
-|**Description**|A description of the widget.|
-|**Caption**|The name of the widget on the dashboard.
+</td></tr><tr><td>
+
+**Description**
+
+</td><td>
+
+A description of the widget.
+
+</td></tr><tr><td>
+
+**Caption**
+
+</td><td>
+
+The name of the widget on the dashboard.
 
  By default, the system displays the name of the form, but you can override it.
 
-|
-|The dialog box has the following buttons.|
-|**Finish**|Saves the changes and closes the dialog box.|
-|**Previous**|Returns to the previous step of the dialog box without saving your changes. The button appears only when you are adding a widget.|
-|**Cancel**|Cancels your changes and closes the dialog box.|
+</td></tr><tr><td colspan="2">
+
+The dialog box has the following buttons.
+
+</td></tr><tr><td>
+
+**Finish**
+
+</td><td>
+
+Saves the changes and closes the dialog box.
+
+</td></tr><tr><td>
+
+**Previous**
+
+</td><td>
+
+Returns to the previous step of the dialog box without saving your changes. The button appears only when you are adding a widget.
+
+</td></tr><tr><td>
+
+**Cancel**
+
+</td><td>
+
+Cancels your changes and closes the dialog box.
+
+</td></tr></tbody>
+</table>
 
 **Parent topic:**[Specific Widgets: Widget Reference](../UserGuide/RPT_Widgets_Reference.md)
 

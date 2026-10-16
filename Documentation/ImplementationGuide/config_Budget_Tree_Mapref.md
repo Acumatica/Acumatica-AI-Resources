@@ -1,4 +1,4 @@
-# Budget Tree {#_970daac8-126a-472f-8ab1-2d01cd39dd6c .concept}
+# Budget Tree
 
 In Acumatica ERP, if budget articles should be grouped to give users the ability to review the overall budget amount for each particular group, you can configure a budget structure. In the configuration, you have to create nodes, which represent a group of budget articles, and leaves, which represent the budget articles of a node. This configuration will then be used for creating a budget in the system.
 

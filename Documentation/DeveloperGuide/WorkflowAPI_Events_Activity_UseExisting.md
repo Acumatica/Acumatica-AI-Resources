@@ -1,16 +1,16 @@
-# Workflow Events: To Use an Existing Event {#_aff59b63-2763-40a7-8672-21c10f91cb85 .task}
+# Workflow Events: To Use an Existing Event
 
 The following activity will walk you through the process of creating a workflow event handler for an existing workflow event and implementing a transition that is triggered by this event.
 
-## Story { .section}
+## Story
 
 Suppose that on the Repair Work Orders \(RS301000\) form, a repair work order should be assigned the *Paid* status when the invoice created for the order is fully paid—that is, when the invoice is assigned the *Closed* status. You need to implement the needed changes for this system behavior.
 
-## Process Overview { .section}
+## Process Overview
 
 To change the status of the repair work order from *Completed* to *Paid*, you will use an existing workflow event that is fired when the invoice document is assigned the *Closed* state. First, you will explore the code of the [Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\) form to find the workflow event that is fired. Then, in your extension library, you will create a workflow event handler for this event, bind it to the workflow on the Repair Work Orders \(RS301000\) form, and implement the transition. You will also implement the `Paid` workflow state and override the Persist method on the [Invoices](../UserGuide/SO_30_30_00.md) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Make sure that you have done the following:
 

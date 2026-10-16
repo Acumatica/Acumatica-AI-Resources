@@ -1,18 +1,18 @@
-# Diagram View: General Information {#_588b05f1-ac0a-4f5d-846a-13099195f542 .concept}
+# Diagram View: General Information
 
 In addition to using the [Workflow \(Tree View\)](../UserGuide/AU_20_10_30.md) page, you can use the [Workflow \(Diagram View\)](../UserGuide/AU_20_10_30_VisualEditor.md) page \(also referred to as the *Workflow Visual Editor*\) to work with a particular workflow.
 
 **Tip:** For a workflow with composite states, the diagram view is not available—that is, the **Diagram View** button is not displayed on the More menu of the [Workflow \(Tree View\)](../UserGuide/AU_20_10_30.md) page. For details, see [Composite States: General Information](WorkflowUI_CompositeStates_GeneralInfo.md).
 
-## Learning Objectives {#section_vns_plp_jhc .section}
+## Learning Objectives
 
 In this chapter, you will learn about the use of the [Workflow \(Diagram View\)](../UserGuide/AU_20_10_30_VisualEditor.md) page to customize workflows.
 
-## Applicable Scenarios {#section_wns_plp_jhc .section}
+## Applicable Scenarios
 
 You use the [Workflow \(Diagram View\)](../UserGuide/AU_20_10_30_VisualEditor.md) page to create or modify workflows if you prefer to use a visual representation of a workflow instead of its tree view.
 
-## Working with the Diagram View {#section_xns_plp_jhc .section}
+## Working with the Diagram View
 
 The diagram view is structured like a traditional workflow, with visual representations of the states of the record and the transitions between them. To access the diagram view, while you are working with the tree view of the particular inherited, custom, or predefined workflow on the page, you click **Diagram View** on the page toolbar.
 
@@ -26,7 +26,6 @@ You add transitions from one state to another by drawing lines between these sta
 
 The following screenshot shows the [Workflow \(Diagram View\)](../UserGuide/AU_20_10_30_VisualEditor.md) page for the Opportunities workflow. Notice that the page name is *CR304000 \(Opportunities\) State Diagram: Default Workflow*. The form number and its name \(in parentheses\) precede *State Diagram*, which is followed by a colon and the workflow name of the predefined workflow \(*Default Workflow* in this case\).
 
-![](Images/WorkflowUI_CustomizingPredefinedWorkflow_DiagramView_Opportunities_ModernUI.png "The Workflow (Diagram View) page")
 
 **Tip:** For a particular workflow, the tree view and diagram view of this page have the same page name.
 

@@ -1,8 +1,8 @@
-# Cost Codes: General Information {#_07d3480c-4934-484e-8d33-d4efbdb44eb0 .concept}
+# Cost Codes: General Information
 
 A cost code represents an additional classification level for project revenues and costs in a construction project. You can associate cost codes with documents and document lines in which projects are referenced, such as general ledger transactions, accounts payable bills, purchase orders, accounts receivable invoices, expense entries, time cards, and lines of project budgets.
 
-## Learning Objectives {#section_xvd_ssj_1qb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,11 +12,11 @@ In this chapter, you will learn how to do the following:
 -   Configure cost code tracking in the cost budget lines of the project budget
 -   Deactivate a cost code that is no longer being used
 
-## Applicable Scenarios {#section_yvd_ssj_1qb .section}
+## Applicable Scenarios
 
 You create cost codes and configure a project to use these cost codes if you need to further classify revenues and expenses in a budget of a construction project.
 
-## Cost Code Configuration {#section_ffb_gkv_gmb .section}
+## Cost Code Configuration
 
 By tracking revenues and expenses by cost codes, you can analyze how much each project task costs, what the revenue is, and how the tracked values compare with the budgeted ones.
 
@@ -29,7 +29,7 @@ To define the cost codes to be used in your projects, you need to perform the fo
 
 You can prepare the list of cost codes in an `.xlsx` or `.csv` file and upload the file to the [Cost Codes](../UserGuide/PM_20_95_00.md) form. Alternatively, you can add cost codes one by one on the form.
 
-## Project Budget Tracking by Cost Codes {#section_yfj_1rt_gmb .section}
+## Project Budget Tracking by Cost Codes
 
 When you create a document or a document line \(or both\) that you want to associate with a particular cost code, you first specify the applicable GL account, project, and project task for the line; you then assign the appropriate cost code to the line. In the lookup table that opens when you click the selector button on the applicable form, the system lists the cost codes that are used in budget lines of the project you have selected for the document or document line. The lookup table also lists the budget lines that have the same project task and the account group that corresponds to the GL account selected for the document or document line. You can select any of the available cost codes, or select a cost code that has not yet been used for the combination of project, project task, and account group.
 
@@ -40,7 +40,7 @@ For a project, on the **Summary** tab \(**Project Properties** section\) of the 
 
 You can change the cost code for each cost budget or revenue budget line manually, if needed.
 
-## Deactivation of Cost Codes { .section}
+## Deactivation of Cost Codes
 
 Sometimes a particular cost code is no longer needed—for example, if this is a single-use cost code added solely for one particular project, and all work related to it has been completed. If a user has the *Project Accountant* role assigned on the [User Roles](../UserGuide/SM_20_10_05.md) \(SM201005\) form, they can deactivate this cost code on the [Cost Codes](../UserGuide/PM_20_95_00.md) \(PM209500\) form.
 

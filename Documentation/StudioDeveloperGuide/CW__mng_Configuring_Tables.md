@@ -1,4 +1,4 @@
-# Configuring Tables {#_32679a53-e50a-4321-929c-6596712fb754 .concept}
+# Configuring Tables
 
 In this chapter, you can learn how to configure tables \(grids\) on ASPX pages by using the PXGrid and PXGridColumn ASPX objects.
 

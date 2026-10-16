@@ -1,4 +1,4 @@
-# Project Budgets with Cost Codes {#_8cf11037-2d06-40de-9633-75118eb35f63 .concept}
+# Project Budgets with Cost Codes
 
 The topics of this chapter explain how to define the cost codes to be used for classifying expenses and revenues in projects.
 

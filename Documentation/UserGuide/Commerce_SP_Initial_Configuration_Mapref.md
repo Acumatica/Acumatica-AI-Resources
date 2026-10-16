@@ -1,4 +1,4 @@
-# Initial Configuration of a Shopify Store {#_cd08c73a-36d8-477a-a80e-f2b68761a366 .concept}
+# Initial Configuration of a Shopify Store
 
 In this section, you will learn about the initial configuration that must be performed in a Shopify store and in Acumatica ERP to set up the integration between these systems.
 

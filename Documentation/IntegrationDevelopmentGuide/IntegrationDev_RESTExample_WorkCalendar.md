@@ -1,4 +1,4 @@
-# WorkCalendar {#_2fbc7663-b9c5-40b6-839d-40cd7d0e3d12 .concept}
+# WorkCalendar
 
 This chapter presents code examples showing requests that use the `WorkCalendar` entity.
 

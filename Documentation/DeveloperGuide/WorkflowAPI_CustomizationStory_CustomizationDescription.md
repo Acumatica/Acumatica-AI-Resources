@@ -1,12 +1,11 @@
-# Customization Description {#_a700d54a-17a4-4167-83e6-847e725e19fb .concept}
+# Customization Description
 
 This topic describes the changes that will be implemented as part of the customization for the Smart Fix company.
 
-## Custom Workflow for the Repair Work Orders Form { .section}
+## Custom Workflow for the Repair Work Orders Form
 
 A review of the company's business processes has illustrated that the workflow for both services \(one of which requires prepayment and one of which does not\) can be united into a single workflow, which is shown in the following diagram. In the activities of this guide, you will implement this workflow for the Repair Work Orders \(RS301000\) form.
 
-![](Images/WorkflowAPI_State_Diagram_Full.png "The workflow on the Repair Work Orders form")
 
 In the workflow, you will implement the following items:
 
@@ -35,13 +34,11 @@ You will also customize an existing Acumatica ERP graph to implement a transitio
 
 The resulting Repair Work Orders \(RS301000\) form will appear as shown in the following screenshot.
 
-![](Images/WorkflowAPI_RepairWorkOrders_Result_ModernUI_2025R2.png "The resulting form")
 
-## Customized Workflow for the Invoices Form { .section}
+## Customized Workflow for the Invoices Form
 
 To continue working on a repair work order after an invoice has been prepaid, a user needs an action that opens the corresponding repair work order from the [Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\) form. Accordingly, you need to customize the predefined workflow of that form. The command corresponding to the action should be named **View Repair Work Order** and should be displayed on the More menu under the **Repair Work Orders** category, as shown in the following screenshot.
 
-![](Images/WorkflowAPI_View_Repair_Work_Orders_Command_ModernUI_2025R2.png "The View Repair Work Order action")
 
 To implement this task, you will extend the graph to define the action and customize the predefined workflow of the [Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\) form. In the customized workflow, you will do the following:
 

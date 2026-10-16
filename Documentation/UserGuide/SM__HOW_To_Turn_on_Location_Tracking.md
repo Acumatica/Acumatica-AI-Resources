@@ -1,10 +1,10 @@
-# To Turn On Location Tracking of a User {#_89a87bbb-5fe5-495a-9000-73e849f8cd26 .task}
+# To Turn On Location Tracking of a User
 
 You use the [Users](SM_20_10_10.md) \(SM201010\) form to turn on and configure location tracking for a particular user. With this location tracking turned on, the user's past location coordinates can be viewed on the [Location Tracking History](SM_20_20_00.md) \(SM202000\) form.
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## To Turn On Location Tracking for a User { .section}
+## To Turn On Location Tracking for a User
 
 1.  Open the [Users](SM_20_10_10.md) \(SM201010\) form.
 2.  In the **Login** box, select the user whose location you want to track.

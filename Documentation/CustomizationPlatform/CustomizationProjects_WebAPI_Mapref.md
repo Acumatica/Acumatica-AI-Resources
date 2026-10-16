@@ -1,4 +1,4 @@
-# Managing Customization Projects by Using the Web API {#_bdda0305-9c24-43cd-8f99-a7a9b1122292 .concept}
+# Managing Customization Projects by Using the Web API
 
 You can use the web API for managing customization projects from code, such as for automation of deployment of customization packages to local and remote instances of Acumatica ERP. In this chapter, you will learn how to access this API and how you can work with customization projects through the API.
 

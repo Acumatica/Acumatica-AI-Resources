@@ -1,12 +1,12 @@
-# To Set Up Bank Feeds Loaded from the BAI2 Format {#_a70ed94d-90af-4da2-abcb-b88280bb69fd .task}
+# To Set Up Bank Feeds Loaded from the BAI2 Format
 
 You use the [Bank Feeds](CA_20_55_00.md) \(CA205500\) form to set up bank feeds that load bank transactions from a BAI2 or BTRS file. On the same form, you connect to the SFTP folder where source files are stored and specify the mapping between the optional fields of the source file and the settings in Acumatica ERP.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Make sure that the *Bank Feed Integration* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. On the [Activate License](SM_20_15_10.md) \(SM201510\) form, make sure that the needed license is activated.
 
-## To Set Up a Bank Feed { .section}
+## To Set Up a Bank Feed
 
 1.  On the [Bank Feeds](CA_20_55_00.md) \(CA205500\) form, create a new record.
 2.  In the Summary area, specify the following settings:

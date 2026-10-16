@@ -1,4 +1,4 @@
-# Service Order Types for Inventory Sales {#_e9844de2-5686-44c6-95f6-3faa866a03a7 .concept}
+# Service Order Types for Inventory Sales
 
 If you plan to offer the provision of inventory items as part of providing field services, you must define the necessary settings related to the configuration of inventory management and sales order management. The topics of this chapter explain how to configure service order types for service orders and appointments which will include the sale of the inventory items.
 

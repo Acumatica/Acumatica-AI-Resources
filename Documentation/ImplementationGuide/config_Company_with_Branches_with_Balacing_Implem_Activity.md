@@ -1,8 +1,8 @@
-# Company with Branches that Require Balancing: Implementation Activity {#_8d5a0e00-c471-4c28-85dd-75d630569d43 .task}
+# Company with Branches that Require Balancing: Implementation Activity
 
 In this activity, you will learn how to enable the necessary set of features, define settings for a company with branches that require balancing, and define settings for the branches of the company.
 
-## Story { .section}
+## Story
 
 Suppose that as an administrator, you are going to start configuring the Muffins &amp; Cakes company with the following branches, which require balancing:
 
@@ -11,11 +11,11 @@ Suppose that as an administrator, you are going to start configuring the Muffins
 
 The company is going to use the default features and the *Multibranch Support*, *Multicompany Support*, and *Inter-Branch Transactions* features; you need to enable these features. You then need to configure a company entity in Acumatica ERP for the Muffins &amp; Cakes company with these two offices in Denver.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring a company with branches that require balancing, sign in to a tenant with the out-of-the-box company as a system administrator with the *admin* login.
 
-## Step 1: Enabling the Minimum Set of Features { .section}
+## Step 1: Enabling the Minimum Set of Features
 
 To enable the minimum set of features, do the following:
 
@@ -34,7 +34,7 @@ To enable the minimum set of features, do the following:
 
 In a production environment, after the features are enabled and before you proceed with implementation, you have to activate the Acumatica ERP license by using the [Activate License](../UserGuide/SM_20_15_10.md) \(SM201510\) form. In this practice activity, you are using Acumatica ERP under the trial license, which doesn't require activation and provides all available features.
 
-## Step 2: Defining a Company With Branches that Require Balancing { .section}
+## Step 2: Defining a Company With Branches that Require Balancing
 
 To configure the company without branches for Muffins &amp; Cakes, do the following:
 
@@ -57,7 +57,7 @@ To configure the company without branches for Muffins &amp; Cakes, do the follow
 
 6.  On the form toolbar, click **Save** to save your changes.
 
-## Step 3: Defining Branches for the Company { .section}
+## Step 3: Defining Branches for the Company
 
 To configure branches for Muffins &amp; Cakes, do the following:
 
@@ -85,7 +85,7 @@ To configure branches for Muffins &amp; Cakes, do the following:
 
 The system returns you to the [Companies](../UserGuide/CS_10_15_00.md) form, on which you can now create an actual ledger for the company and branches you have created. For details, see [General Ledger: To Create an Actual Ledger](config_Basic_Company_Implem_Activity_Actual_Ledger.md).
 
-## Step 4: Reviewing the Base Currency Settings { .section}
+## Step 4: Reviewing the Base Currency Settings
 
 To review the settings of the company's base currency that you selected previously, do the following:
 

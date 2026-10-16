@@ -1,8 +1,8 @@
-# Application of Vendor Discounts {#_1a2fbb93-09c7-48bc-9704-025b600e1589 .concept}
+# Application of Vendor Discounts
 
 When a document \(such as a bill\) is saved, vendor discounts of all levels are applied to the document automatically, except for the discounts for which the **Manual** check box is selected on the [Vendor Discount Codes](AP_20_40_00.md) \(AP204000\) form. This topic provides details about the automatic and manual application of vendor discounts.
 
-## Application of Automatic Discounts { .section}
+## Application of Automatic Discounts
 
 The system always applies the automatic discounts in the following order when a user saves a document:
 
@@ -15,7 +15,7 @@ The following settings, which are specified on the [Vendor Discount Codes](AP_20
 -   **Exclude from Discountable Amount**: If this check box \(which is available only for line-level discounts\) is selected, the discountable amount of the line-level discount is excluded from the discountable amount for higher-level \(group or document\) discounts. For example, suppose that your vendor provides a line-level clearance discount of 75% and a document-level discount of 5% for documents with a total of more than $2000. You select this check box if the vendor does not provide an additional document-level discount of 5% to the already-discounted line amounts.
 -   **Skip Document Discount**: If this check box \(which is available only for group-level discounts\) is selected, the system does not apply document discounts when this group discount is applied to the document. For example, suppose that the following discounts have been defined: a group-level discount that is applicable to multiple lines and significantly reduces the document total, and a document-level discount. You select this check box if you do not want to apply the document-level discount to the documents to which this group-level discount has been applied.
 
-## Application of Manual Discounts { .section}
+## Application of Manual Discounts
 
 If some vendors provide discounts that do not have formal conditions for automatic application \(that is, document-specific discounts\), you can enter line-level and document-level discounts manually in each document on the following forms:
 
@@ -40,7 +40,7 @@ If you change the line quantities when adding manual discounts, the manual disco
 
 If the *Vendor Discounts* feature is disabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can enter a manual document-level discount in the **Document Discounts** box in the Summary area of an appropriate data entry form.
 
-## Application of External Discounts { .section}
+## Application of External Discounts
 
 In Acumatica ERP, you can apply to a document discounts that were created in external systems. For external discounts, you can create a discount code on the [Vendor Discount Codes](AP_20_40_00.md) \(AP204000\) form or enter a discount and specify the code of the external discount manually on a document.
 

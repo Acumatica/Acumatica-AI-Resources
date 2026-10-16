@@ -1,16 +1,16 @@
-# Corporate Cards: To Configure a Corporate Card {#_6293f77b-5c56-4171-a9c5-11c81ef5941c .task}
+# Corporate Cards: To Configure a Corporate Card
 
 This activity will walk you through the process of creating the necessary entities for processing of expense receipts with corporate credit cards.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that Jon Waite and Alberto Jimenez—employees of the SweetLife Fruits &amp; Jams company—can use a corporate credit card for charging their business expenses. Acting as an implementation manager of SweetLife, you need to create an account, payment method, and cash account for company corporate cards, as well as to create the corporate card itself in the system.
 
 **Attention:** This activity explains how to configure a corporate card if the *Expense Management* feature is included in your license. If the feature is not available, configure the card issuer as a vendor, as described in [Corporate Cards: To Configure a Vendor for a Corporate Card](Corporate_Card_Implem_Activity_CardIssuer.md).
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -18,15 +18,15 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Entry Types](../UserGuide/CA_20_30_00.md) \(CA203000\) form, the *BANKFEE* entry type has been added.
 -   On the [Employees](../UserGuide/EP_20_30_00.md) \(EP203000\) form, the accounts for Jon Waite and Alberto Jimenez have been created.
 
-## Process Overview { .section}
+## Process Overview
 
 To create a corporate card, you will first create a GL account on the [Chart of Accounts](../UserGuide/GL_20_25_00.md) \(GL202500\) form. You will create a payment method for the card on the [Payment Methods](../UserGuide/CA_20_40_00.md) \(CA204000\) form. You will specify the GL account and payment method for a cash account, which you will create on the [Cash Accounts](../UserGuide/CA_20_20_00.md) \(CA202000\) form. Finally, you will create a corporate credit card on the [Corporate Cards](../UserGuide/CA_20_25_00.md) \(CA202500\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of the activity, launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded as an implementation manager by using the *gibbs* username and the *123* password.
 
-## Step 1: Creating a GL Account for a Corporate Card { .section}
+## Step 1: Creating a GL Account for a Corporate Card
 
 Create a GL account as follows:
 
@@ -39,7 +39,7 @@ Create a GL account as follows:
     -   **Post Option**: *Detail*
 3.  Save your changes.
 
-## Step 2: Creating a Payment Method { .section}
+## Step 2: Creating a Payment Method
 
 To create a payment method for the corporate credit card, do the following:
 
@@ -63,7 +63,7 @@ To create a payment method for the corporate credit card, do the following:
 
 5.  Save the payment method.
 
-## Step 3: Creating a Cash Account { .section}
+## Step 3: Creating a Cash Account
 
 Create a cash account as follows:
 
@@ -79,7 +79,7 @@ Create a cash account as follows:
 4.  On the **Entry Types** tab, on the table toolbar, click **Add Row**, and in the **Entry Type ID** column, select *BANKFEE*.
 5.  Save the created cash account.
 
-## Step 4: Creating the Corporate Credit Card { .section}
+## Step 4: Creating the Corporate Credit Card
 
 To create the corporate credit card, do the following:
 

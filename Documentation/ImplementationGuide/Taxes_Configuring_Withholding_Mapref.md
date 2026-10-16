@@ -1,4 +1,4 @@
-# Withholding Taxes {#_0c2b7ebc-92bb-42b7-8412-f055bba8ed01 .concept}
+# Withholding Taxes
 
 The topics of this chapter describe how to configure a withholding tax in Acumatica ERP.
 

@@ -1,16 +1,16 @@
-# Project Budget: To Configure and Update the Budget {#_fb50755a-1813-11fd-9fe8-df13c321b13b .task}
+# Project Budget: To Configure and Update the Budget
 
 In this activity, you will learn how to configure the project budget, update actual values of the project budget, and review project performance.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the Thai Food Restaurant customer has ordered a juicer along with the site review and installation services from the SweetLife Fruits &amp; Jams company. SweetLife's project accountant has created a project to handle the tracking and billing of the provided materials and services.
 
 Acting as the project accountant, you will configure the revenue budget for the project to plan the expected revenue and the cost budget to plan the materials and services to be spent on the project. Then, when the juicer is delivered and the services are provided, you will enter project transactions to capture project costs and will check the expenses within the budget values. You will then bill the project and compare the project income with the budgeted values.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -20,11 +20,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *SITEREVIEW*, *INSTALL* and *TRAINING* non-stock items have been configured.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *JUICER15* stock item has been configured.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will configure the project budget on the [Projects](PM_30_10_00.md) \(PM301000\) form. You will then release project transactions on the [Project Transactions](PM_30_40_00.md) \(PM304000\) form that will update the actual values of the project budget. You will then bill the project on the [Projects](PM_30_10_00.md) \(PM301000\) form and release the created accounts receivable invoice on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
@@ -36,7 +36,7 @@ To sign in to the system and prepare to perform the instructions of the activity
     -   **Cost Budget Update**: *Detailed*
 5.  Save your changes to the project accounting preferences.
 
-## Step 1: Configuring the Project Budget { .section}
+## Step 1: Configuring the Project Budget
 
 To specify the revenue and cost budgets for the project, do the following:
 
@@ -68,7 +68,7 @@ To specify the revenue and cost budgets for the project, do the following:
 4.  On the form toolbar, click **Save**.
 5.  In the table selection area, select the **Group by Task** check box. In the table, the only line to which the system grouped budget lines is shown. The **Original Budgeted Amount** of the line with the *INSTALL* project task is *2,400.00*.
 
-## Step 2: Uploading Project Transactions { .section}
+## Step 2: Uploading Project Transactions
 
 To upload and process the transactions to update actual values of the cost budget of the project, do the following:
 
@@ -88,11 +88,10 @@ To upload and process the transactions to update actual values of the cost budge
 
     On the **Cost Budget** tab, review the cost budget of the project. Notice that the system has created a new budget line with the *TRAINING* item because the *Detailed* level of the cost budget update is specified in the project accounting preferences. The system has also updated the **Actual Quantity** and **Actual Amount** of the budget lines based on the released transactions \(see below\). You can compare revised budgeted values with actual ones and track the performance by budget line in the **Performance \(%\)** column.
 
-    ![](Images/activity_Project_Budget.png "The cost budget of the project updated by released transactions")
 
 11. While remaining on the **Cost Budget** tab, in the table selection area, select the **Group by Task** check box and review totals by project task. The revised budgeted amount for the project task is *2,400.00*, while the actual amount is *2,360.00*.
 
-## Step 3: Billing the Project { .section}
+## Step 3: Billing the Project
 
 To bill the project and process the invoice, do the following:
 
@@ -109,7 +108,6 @@ To bill the project and process the invoice, do the following:
 
 4.  On the **Balances** tab, review the project budget by account group \(see below\). You can track the performance by account group as well as by income and expense totals in the **Performance \(%\)** column.
 
-    ![](Images/activity_Project_Budget2.png "Project budget balances divided by account group")
 
 
 You have finished working with the project budget.

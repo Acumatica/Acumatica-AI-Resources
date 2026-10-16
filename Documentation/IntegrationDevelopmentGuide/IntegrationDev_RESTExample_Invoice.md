@@ -1,4 +1,4 @@
-# Invoice {#_38bf9b1a-8424-46f3-b30c-164502a8ffd9 .concept}
+# Invoice
 
 This chapter presents code examples showing requests that use the `Invoice` entity.
 

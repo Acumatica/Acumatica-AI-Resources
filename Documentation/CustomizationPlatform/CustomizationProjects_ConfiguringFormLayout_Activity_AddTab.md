@@ -1,25 +1,25 @@
-# Form Layout: To Add a New Tab to a Form {#_cbb635f4-b657-435a-9e20-dec512ba9d16 .task}
+# Form Layout: To Add a New Tab to a Form
 
 The following activity will walk you through the process of adding a new tab to a form and then adding new boxes to this tab.
 
-## Story { .section}
+## Story
 
 Suppose that you want to add the new **Problem Type** and **Comments** boxes to the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form. Further suppose that you want to arrange these boxes on a separate **Problem Summary** tab \(which should be placed after the **Closure Notes** tab\). By using the added tab and boxes, the employees will be able to specify and view information related to the closure of the case \(such as the type of the problem and customer's comments\).
 
 Because the boxes do not yet exist in the system, you need to create the underlying fields. Then you need to add the corresponding boxes to the form.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Screens](../UserGuide/AU_20_10_00.md) page, you will add the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form so that it can be customized. By using the [Data Access](../UserGuide/AU_20_30_01.md) page, you will add the fields that will underlie the new boxes on the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form. By using the [Modern UI Editor](../UserGuide/AU_20_10_80.md) page, you will add a new tab for this form, and add the created fields to this tab. Finally, you will publish the customization project and test the new layout.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
 1.  Prepare an Acumatica ERP instance by performing the [Customization Projects: To Deploy an Instance](CustomizationProjects_GettingStarted_Activity_CreateInstance.md) prerequisite activity.
 2.  Create the *Yogifon* customization project by performing the [Customization Projects: To Create a Customization Project](CustomizationProjects_GettingStarted_Activity_CreateProject.md) prerequisite activity.
 
-## Step 1: Modifying the List of Customized Screens { .section}
+## Step 1: Modifying the List of Customized Screens
 
 To add a new tab on the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form, you first need to add the form to the list of customized screens. Do the following:
 
@@ -39,7 +39,7 @@ To add a new tab on the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form, 
     The [Cases](../UserGuide/CR_30_60_00.md) form is added to the list of forms on the [Screens](../UserGuide/AU_20_10_00.md) page, and the Screen Editor: CR306000 \(Cases\) page opens.
 
 
-## Step 2: Adding New Fields { .section}
+## Step 2: Adding New Fields
 
 To add new fields, do the following in the Customization Project Editor:
 
@@ -78,7 +78,6 @@ To add new fields, do the following in the Customization Project Editor:
     -   *Maintenance*
     For more details about the `PXStringList` attribute, see [PXStringListAttribute](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=eb18681d-a07f-87ae-3738-cb6452c24260).
 
-    ![](images/CustomizationProjects_AddingNewTabsColumns_Cases_AddAttribute.png "The Customize Attributes area with the added attribute")
 
 8.  Save your changes.
 9.  On the page toolbar, click **Create New Field** again.
@@ -98,14 +97,13 @@ To add new fields, do the following in the Customization Project Editor:
 12. Save your changes.
 13. On the [Database Scripts](../UserGuide/AU_20_90_00.md) page, notice that the system has generated a script to add the two created fields to the database table \(see the following screenshot\).
 
-    ![](images/CustomizationProjects_AddingNewTabsColumns_Cases_GeneratedScript.png "The generated script on the Database Scripts page")
 
 14. Publish the customization project by clicking **Publish** &gt; **Publish Current Project** on the main menu of the Customization Project Editor.
 
     You need to publish your project before you proceed to make the system generate the specified fields, so that you can then add boxes for them to the form.
 
 
-## Step 3: Adding New Fields to the List of Available Fields { .section}
+## Step 3: Adding New Fields to the List of Available Fields
 
 To add a new tab to the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form, do the following in the Customization Project Editor:
 
@@ -123,7 +121,6 @@ To add a new tab to the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form, 
 
 4.  Select the unlabeled check boxes in the rows with the UsrComments and UsrProblemType fields \(see the following screenshot\).
 
-    ![](images/CustomizationProjects_AddingNewTabsColumns_Cases_AddFields.png "Selection of the new fields")
 
 5.  Click **Save to Extension**.
 6.  Click **Save**.
@@ -134,16 +131,15 @@ To add a new tab to the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form, 
 
     The system displays the added fields. Notice that *Customized* is displayed to the right of each of the added fields \(see below\), which means that these are custom fields.
 
-    ![](images/CustomizationProjects_AddingNewTabsColumns_Cases_Customized.png "The added custom fields")
 
 
-## Step 4: Adding a New Tab { .section}
+## Step 4: Adding a New Tab
 
 In this step, you will add to the new tab the boxes that correspond to the fields you have created in Step 2. In the Customization Project Editor, do the following:
 
 1.  On the **HTML** tab of the page, locate the following code:
 
-    ``` {#codeblock_jw2_w2d_wfc .language-xml}
+    ```xml
     <qp-tab id="closure_tab" caption="Closure Notes">
           <qp-rich-text-editor
               id="edClosureNote"
@@ -156,7 +152,7 @@ In this step, you will add to the new tab the boxes that correspond to the field
 
 2.  Add the following code after this code:
 
-    ``` {#codeblock_tll_hfd_wfc .language-xml}
+    ```xml
     <template>
     <qp-tab id="problemSummary_tab" caption="Problem Summary" after="#closure_tab">
     <qp-template id="problemSummary_template" name="7-10-7" class="equal-height" qp-collapsible="">
@@ -182,11 +178,10 @@ In this step, you will add to the new tab the boxes that correspond to the field
 
     The resulting code is shown in the following screenshot.
 
-    ![](images/CustomizationProjects_AddingNewTabsColumns_Cases_AddedCode.png "The code for the Problem Summary tab")
 
 5.  On the page toolbar, click **Save**.
 
-## Step 5: Testing the Layout { .section}
+## Step 5: Testing the Layout
 
 Finally, you will publish the customization project and then test the layout of the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form as follows:
 
@@ -195,7 +190,6 @@ Finally, you will publish the customization project and then test the layout of 
 3.  On the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form, open the case with the *000002* ID.
 4.  Go to the **Problem Summary** tab, which you have added to the form. Make sure that the tab contains the **Problem Type** and **Comments** boxes \(see the following screenshot\).
 
-    ![](images/CustomizationProjects_AddingNewTabsColumns_Cases_AddedTab.png "The added Problem Summary tab")
 
 5.  In the **Problem Type** box, make sure that the following options are available for selection:
     -   *Functionality*

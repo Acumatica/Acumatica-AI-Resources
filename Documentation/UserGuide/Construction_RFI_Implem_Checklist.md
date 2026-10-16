@@ -1,8 +1,8 @@
-# Requests for Information: Implementation Checklist {#_86c7a5a5-87c7-4889-b8f7-b1b6c01881cc .concept}
+# Requests for Information: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for processing a request for information, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 Before you begin processing request for information, you should make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 

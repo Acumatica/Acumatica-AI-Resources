@@ -1,12 +1,12 @@
-# To Reopen a 1099 Year {#_36b4fd5b-7f34-4d30-b6c0-857a5816c94d .task}
+# To Reopen a 1099 Year
 
 After a 1099 year has been closed, you may discover that it was closed by mistake. You can reopen a 1099 year on the [Close 1099 Year](AP_50_70_00.md) \(AP507000\) form.
 
-## Before You Proceed {#section_ivp_njv_vxb .section}
+## Before You Proceed
 
 Make sure that the user logged in to the system has been assigned to the *Financial Supervisor* role on the [User Roles](SM_20_10_05.md) \(SM201005\) form.
 
-## To Reopen a 1099 Year {#section_kvp_njv_vxb .section}
+## To Reopen a 1099 Year
 
 1.  Open the [Close 1099 Year](AP_50_70_00.md) \(AP507000\) form.
 2.  In the **Company** box, select a company for which you need to reopen the year.

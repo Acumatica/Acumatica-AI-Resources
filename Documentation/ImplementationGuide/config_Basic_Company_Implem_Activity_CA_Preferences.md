@@ -1,23 +1,23 @@
-# Cash Management: To Specify Cash Management Preferences {#_a519da15-93a5-4d02-a008-23c76e003497 .task}
+# Cash Management: To Specify Cash Management Preferences
 
 In this activity, you will learn how to specify the basic settings to be used for the cash management functionality.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife company with an actual ledger has been created and the company's chart of accounts has been defined in Acumatica ERP. Acting as an administrator, you need to specify the cash management preference settings. You will specify the cash-in-transit account to be used, which is mandatory in the system, and the settings that make it easier for users to create entities when using the cash management functionality.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will specify cash management preferences on the [Cash Management Preferences](../UserGuide/CA_10_10_00.md) \(CA101000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start specifying the cash management preference settings, make sure that the following tasks have been performed in the system:
 
 1.  The company has been created and its actual ledger has been specified; see [Company Without Branches: To Configure a Company Without Branches](config_Basic_Company_Implem_Activity_Enabling_Features.md) and [General Ledger: To Create an Actual Ledger](config_Basic_Company_Implem_Activity_Actual_Ledger.md).
 2.  The account that you plan to specify as the cash-in-transit account has been created, as described in [General Ledger: To Create a Chart of Accounts](config_Basic_Company_Implem_Activity_COA.md).
 
-## Step: Specifying the Cash Management Preferences { .section}
+## Step: Specifying the Cash Management Preferences
 
 You specify the basic settings the system will use for the cash management functionality as follows:
 

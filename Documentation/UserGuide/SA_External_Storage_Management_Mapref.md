@@ -1,4 +1,4 @@
-# Managing External Storage for File Attachments {#_a5989c03-43df-4f31-bd2d-db6d79be31c8 .concept}
+# Managing External Storage for File Attachments
 
 Acumatica ERP provides functionality for managing various file attachments and their versions. Attachments may take up a lot of database space, so your company may decide to use external storage for attachments.
 

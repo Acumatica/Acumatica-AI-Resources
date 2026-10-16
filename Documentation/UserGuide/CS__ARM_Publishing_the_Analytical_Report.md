@@ -1,8 +1,8 @@
-# To Publish the Analytical Report {#_7c526367-736f-4a8d-b191-e8c980124435 .task}
+# To Publish the Analytical Report
 
 An analytical report can be published on the Acumatica ERP site to become available to the Acumatica ERP application users. To publish the report, use the [Report Definitions](CS_20_60_00.md) \(CS206000\) form.
 
-## To publish an Analytical Report using Report Definitions Form { .section}
+## To publish an Analytical Report using Report Definitions Form
 
 1.  Open the [Report Definitions](CS_20_60_00.md) \(CS206000\) form.
 2.  In the **Code** box, select the report to publish.

@@ -1,4 +1,4 @@
-# Merge of the Records with PXCache {#_0ff0b223-66ff-4b55-af97-fe88580ec6e5 .concept}
+# Merge of the Records with PXCache
 
 For the queries defined with business query language \(BQL\) or with BQL and LINQ, the system merges the records retrieved from the database with the modified records stored in PXCache as follows:
 
@@ -12,7 +12,6 @@ For the queries defined with business query language \(BQL\) or with BQL and LIN
 
 The following diagram illustrates the database records being merged with PXCache.
 
-![](Images/BQL_MergeWithDB.png "Merge with PXCache")
 
 **Parent topic:**[Querying Data in Acumatica Framework](../StudioDeveloperGuide/AD__mng_Querying_Data.md)
 

@@ -1,4 +1,4 @@
-# Processing Interbranch Bills Without Balancing {#_a9217d43-999d-4538-91f3-803b6351bcbb .concept}
+# Processing Interbranch Bills Without Balancing
 
 Multiple branches of a company may be involved in a single bill. If branches do not require balancing, the general process and transactions are similar to those of a single-branch bill.
 

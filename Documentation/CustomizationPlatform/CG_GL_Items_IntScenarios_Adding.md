@@ -1,4 +1,4 @@
-# To Add an Integration Scenario to a Project {#_6ce18c9d-2097-4cb3-b25a-083e75a212ea .concept}
+# To Add an Integration Scenario to a Project
 
 You can add a custom integration scenario to a customization project. To do this, perform the following actions:
 
@@ -12,12 +12,10 @@ You can add a custom integration scenario to a customization project. To do this
 5.  In the dialog box, click **OK** to add each selected integration scenario to the page table.
 6.  On the page toolbar, click **Save** to save the changes to the customization project.
 
-    ![](images/CG_GL_Items_IntScenarios_Adding_01.png "Adding an integration scenario to the customization project")
 
 
 The system adds to the project the data from the database for each selected integration scenario. You can view each new *XportScenario* item in the Project Items table of the [Edit Project Items](../UserGuide/AU_ItemXMLEditor.md), as shown in the following screenshot.
 
-![](images/CG_GL_Items_IntScenarios_Adding_02.png "Viewing the XML code of the XportScenario item included in the project")
 
 An *XportScenario* item contains all the data required for the integration scenario. Therefore, the item includes the data of the data provider.
 

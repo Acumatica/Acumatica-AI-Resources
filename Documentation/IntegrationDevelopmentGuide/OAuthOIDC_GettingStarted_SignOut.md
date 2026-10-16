@@ -1,8 +1,8 @@
-# OAuth 2.0 and OIDC: Session Management {#_1a864bb9-3e45-4e94-82e1-a4d52331c3d6 .concept}
+# OAuth 2.0 and OIDC: Session Management
 
 If you authorize your integration application to work with Acumatica ERP through OAuth 2.0, the sign-out is not always required after you have finished your work with Acumatica ERP. \(This is opposed to the situation when your integration application uses the API methods for the sign-in in Acumatica ERP—that is, uses cookies to manage the application sessions. For these applications, the sign-out is required to close the session each time the work with Acumatica ERP is finished.\)
 
-## Requirements for the Sign Out { .section}
+## Requirements for the Sign Out
 
 Whether or not the sign-out is required depends on the access scope that the user has granted to the application as follows:
 
@@ -17,11 +17,11 @@ For details on the scopes that are available for each of the flows, see the desc
 -   [Resource Owner Password Credentials Flow: Obtaining of an Access Token](OAuthOIDC_ResourceOwner_AccessToken.md)
 -   [Hybrid Flow: Obtaining of an Authorization Code, Access Token, and ID Token from the Authorization Endpoint](OAuthOIDC_Hybrid_AuthorizationEndpoint.md)
 
-## Troubleshooting {#_3461deb7-e4ae-4f15-b51b-c56883ceb53b .section}
+## Troubleshooting
 
 You can get the *API Login Limit* error when your application requests access to the Acumatica ERP REST API through OAuth 2.0. For an application that uses OAuth 2.0 for authorization in Acumatica ERP, this error appears if all of the following are true:
 
--   The API login limit is specified in the Acumatica ERP license. The license restriction for the API users is shown in the **Maximum Number of Web Services API Users** box on the **License** tab of the [License Monitoring Console](../UserGuide/SM_60_40_00.md) \(SM604000\) form.
+-   The API login limit is specified in the Acumatica ERP license. The license restriction for the API sessions is shown in the **Maximum Number of API Sessions** box on the **License and Constraints** tab of the [License Monitoring Console](../UserGuide/SM_60_40_00.md) \(SM604000\) form.
 -   The number of unclosed sessions \(that is, the sessions in which you have signed in to Acumatica ERP through the web services API or obtained access to the Acumatica ERP web services API through OAuth 2.0 and have not signed out from Acumatica ERP\) equals the API login limit in the license.
 -   You try to request access to the web services API through OAuth 2.0 once more.
 

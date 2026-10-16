@@ -1,4 +1,4 @@
-# Multicurrency Projects: Unit Rates in the Project Budget {#_43d811fa-89ba-46fc-9731-efd3f7900dc1 .concept}
+# Multicurrency Projects: Unit Rates in the Project Budget
 
 This topic describes how the system selects unit rates in the project budget.
 
@@ -6,7 +6,6 @@ When you create a new project budget line on the **Revenue Budget** tab of the [
 
 The following diagram illustrates how the system searches for unit rates for multicurrency projects.
 
-![](Images/diag_Projects_Multicurrency_Projects_UnitRates.png)
 
 If the project currency \(which is specified in the **Project Currency** box on the **Summary** tab\) is the same as the base currency, the system searches the sales prices in the system for an applicable price of the inventory item in the base currency that is effective on the document date or the start date of the project. For more details on how the system searches for the price, see [Sales Prices: Rules of Price Selection](Prices_Sales_Price_Selection_GeneralInfo.md). If the effective sales price was not found, the system specifies the default price of the item as the unit rate.
 

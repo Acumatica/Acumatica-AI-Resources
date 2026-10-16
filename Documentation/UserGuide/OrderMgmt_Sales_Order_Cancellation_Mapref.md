@@ -1,4 +1,4 @@
-# Canceling Sales Orders {#_4f7b64f5-33e9-4e4d-ab8c-e27db85ea99a .concept}
+# Canceling Sales Orders
 
 In some cases, you may need to cancel a sales order or reopen a sales order that has previously been canceled.
 

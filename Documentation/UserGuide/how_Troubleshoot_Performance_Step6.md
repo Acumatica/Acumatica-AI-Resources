@@ -1,4 +1,4 @@
-# Step 6: Submit a Case to Acumatica Support {#_ea0f4c50-55f4-4c36-b81b-372a30fc3546 .task}
+# Step 6: Submit a Case to Acumatica Support
 
 If you have not found a solution for your issue, create a case for the Acumatica support team and provide as much information in it as you can, which may include the following information:
 

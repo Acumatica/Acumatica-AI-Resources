@@ -1,4 +1,4 @@
-# Configuration of Replenishment: General Information {#_6fd9f00f-9ed5-4f00-8bb2-9cdfee222074 .concept}
+# Configuration of Replenishment: General Information
 
 You can configure inventory replenishment in Acumatica ERP when a basic company has been configured in the system. This configuration includes enabling the required features and specifying the required settings to be used in the system for the replenishment functionality.
 
@@ -6,7 +6,7 @@ In a production environment, before you configure replenishment, you perform bro
 
 You can configure automatic replenishment for stock items at a single warehouse or at multiple warehouses. If particular warehouses will be used only for sales, you can configure the system so that these warehouses will be replenished from the distribution centers. They are the warehouses to which purchases are received.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -18,7 +18,7 @@ In this chapter, you will do the following:
 -   Configure replenishment for a stock item in a particular warehouse
 -   Set up the calculation of replenishment parameters for a stock item that requires replenishment in a particular warehouse
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may need to configure replenishment in the following cases:
 
@@ -26,7 +26,7 @@ You may need to configure replenishment in the following cases:
 -   Your company has historical purchasing and sales data, including the time it takes your vendors to supply goods. You need to automatically calculate replenishment parameters based on this data to optimize the replenishment of stock and to purchase stock items at the right time when a certain level of stock still remains.
 -   Your company's sales are affected by high and low seasons, and you need to automatically adjust the replenishment of stock based on the season.
 
-## Replenishment in Acumatica ERP { .section}
+## Replenishment in Acumatica ERP
 
 The replenishment functionality in Acumatica ERP gives you the ability to maintain the needed level of stock at warehouses by purchasing the appropriate quantity of stock items from vendors or by transferring that quantity from other warehouses to the needed warehouses. The functionality that supports replenishment is available if the *Inventory Replenishment* feature and one or both of the following features are enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form:
 
@@ -39,7 +39,7 @@ Acumatica ERP supports replenishment at a fixed quantity and replenishment betwe
 
 **Note:** In Acumatica ERP, only basic replenishment functionality is implemented. If complex replenishment is needed, we recommend that you use ISV solutions instead of basic functionality.
 
-## General Steps of the Replenishment Configuration {#section_vv2_1y4_y4b .section}
+## General Steps of the Replenishment Configuration
 
 To configure replenishment, you perform the following general steps:
 
@@ -59,7 +59,7 @@ To configure replenishment, you perform the following general steps:
 8.  Optional: You specify the vendors from which the item has been or can be purchased and the replenishment parameters for the item on the **Vendors** tab of the [Stock Items](../UserGuide/IN_20_25_00.md) form. Also, you make sure that the default vendor for the item is selected on this tab \(that is, the **Default** check box is selected in the row of the vendor\). This vendor will be used to replenish the stock of the inventory item unless you select another preferred vendor for the item at a specific warehouse on the [Item Warehouse Details](../UserGuide/IN_20_45_00.md) form \(see the following step\).
 9.  Optional: You adjust the replenishment settings for item–warehouse pairs. If multiple warehouses are used in your system and items are stocked in multiple warehouses, on the **Inventory Planning** tab of the [Item Warehouse Details](../UserGuide/IN_20_45_00.md) form, you can review and adjust the replenishment parameters to be used for the particular item at the selected warehouse. In the **Preferred Vendor** box of this tab, you can specify the preferred vendor for the item–warehouse pair.
 
-## Processing of Replenishment Requests { .section}
+## Processing of Replenishment Requests
 
 In Acumatica ERP, a replenishment request is an internal record that the system creates when you process the stock items on the [Prepare Replenishment](../UserGuide/IN_50_80_00.md) \(IN508000\) form. The prepared replenishment requests can then be processed as follows, depending on how you replenish stock items:
 
@@ -74,7 +74,7 @@ When the replenishment is configured, and you have processed records on the [Pre
 
 On the [Prepare Replenishment](../UserGuide/IN_50_80_00.md) form, the quantity to process is calculated in the base unit of measure \(UOM\). On the [Create Purchase Orders](../UserGuide/PO_50_50_00.md) and [Create Transfer Orders](../UserGuide/SO_50_90_00.md) forms, the quantity specified in the **Quantity** column is recalculated in the purchase UOM and displayed in the **UOM** column. For example, if ten stock items should be purchased in one box, then the quantity of ten UOMs is converted to one box to be purchased.
 
-## Specification of Vendors for a Stock Item { .section}
+## Specification of Vendors for a Stock Item
 
 The **Vendors** tab of the [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\) form contains a list of the vendors from which the selected item has been or can be purchased, along with the settings of the item if it is purchased from the vendor. On this tab, you can specify the following vendor-specific replenishment settings for the stock item:
 

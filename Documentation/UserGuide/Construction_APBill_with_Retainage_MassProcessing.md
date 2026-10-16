@@ -1,8 +1,8 @@
-# AP Bills with Retainage: Mass-Processing of Documents {#_7571067a-583b-48bf-bbd6-3d47328ce4e3 .concept}
+# AP Bills with Retainage: Mass-Processing of Documents
 
 The following section explains how to release retainage bills for multiple AP bills.
 
-## Mass-Releasing Retainage { .section}
+## Mass-Releasing Retainage
 
 To release retainage for multiple bills, you use the [Release AP Retainage](AP_51_00_00.md#) \(AP510000\) form. In the Selection area, you select the date for which you want to release the retainage. You can specify other selection criteria to filter the documents in the table, such as vendor and reference number.
 

@@ -1,4 +1,4 @@
-# Modern Customer Portal: Placing and Reviewing Orders {#_44f71345-ad38-4f30-ac95-aaafbcb429d7 .concept}
+# Modern Customer Portal: Placing and Reviewing Orders
 
 In the Modern Customer Portal, you can quickly review orders, make adjustments, enter or confirm shipping and payment details, and place the order.
 
@@ -12,7 +12,7 @@ In this topic, you’ll learn how to place orders in the Modern Customer Portal.
 
 **Who does this:** An authorized portal user of your company, typically with the *Customer Portal Manager* or *Customer Portal Order Manager* role and involved in purchasing.
 
-## About the Cart { .section}
+## About the Cart
 
 As you shop in the Modern Customer Portal, you can:
 
@@ -21,10 +21,9 @@ As you shop in the Modern Customer Portal, you can:
 
 
 
-    ![](Images/Modern_Customer_Portal_Cart_Capabilities_2.png)
 
 
-## Placing an Order {#section_uwf_3dq_xgc .section}
+## Placing an Order
 
 Suppose that you’ve added some items to the cart, as described in [Modern Customer Portal: Browsing the Catalog](Modern_Customer_Portal_Browsing_Catalog.md). To place an order in the portal, do the following:
 
@@ -33,7 +32,6 @@ Suppose that you’ve added some items to the cart, as described in [Modern Cust
 
 
 
-    ![](Images/Modern_Customer_Portal_Cart_2.png)
 
 3.  On the Review Order \(SP504004\) form, which opens \(see below\), review the order’s details and click **Place Order** \(Item 1\).
 
@@ -44,7 +42,6 @@ Suppose that you’ve added some items to the cart, as described in [Modern Cust
     -   Enter your company’s order number and description \(Item 4\)
 
 
-    ![](Images/Modern_Customer_Portal_Review_Order_2.png)
 
     The system processes the order and submits it to the portal owner. The order is visible in both the Modern Customer Portal and Acumatica ERP.
 
@@ -53,11 +50,10 @@ The Order \(SP504000\) form opens, showing the order \(Item 1 below\). If needed
 
 
 
-![](Images/Modern_Customer_Portal_New_Order_3.png)
 
 **Tip:** Need to create an order that’s similar to or the same as a past order? Start by opening the past order. Then click **Copy Order to Cart** \(Item 3\), and all items and quantities will be added to your cart.
 
-## Viewing All Orders {#section_xwf_3dq_xgc .section}
+## Viewing All Orders
 
 On the Orders \(SP504010\) form, you can use intuitive filter tabs to view:
 
@@ -67,9 +63,8 @@ On the Orders \(SP504010\) form, you can use intuitive filter tabs to view:
 
 You can also use the Search box to quickly find a particular order.
 
-![](Images/Modern_Customer_Portal_Filters_Orders.png "Elements for finding orders easily")
 
-## What’s Next? { .section}
+## What’s Next?
 
 To learn how to make payments directly through the Modern Customer Portal, see [Modern Customer Portal: Paying Sales Orders and Invoices](Modern_Customer_Portal_Paying_Orders_and_Invoices.md).
 

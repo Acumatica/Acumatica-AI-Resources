@@ -1,14 +1,14 @@
-# Initial Configuration: To Prepare the Acumatica ERP Instance {#_a13d0a8a-c5cc-4914-af3b-937ec4ce1a82 .task}
+# Initial Configuration: To Prepare the Acumatica ERP Instance
 
 In this activity, you will go through the settings that need to be specified in the Acumatica ERP instance before you set up the connection to the Shopify store.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 SweetLife Fruits &amp; Jams is planning on opening an online store built on the Shopify platform. The warehouse from which the goods will be shipped is based in New York. The company maintains the prices of its products in United States dollars and delivers products across New York by using the company's own vehicles. As an implementation consultant helping SweetLife to implement the integration between Shopify and Acumatica ERP, you want to make sure that the features required for the ecommerce functionality are enabled and the necessary entities are created and configured in the Acumatica ERP instance.
 
-## Process Overview { .section}
+## Process Overview
 
 The Acumatica ERP instance with the *U100* dataset already contains most of the settings and data that you will need to specify when you start configuring the store connection. In this activity, you will review the following settings or entities on the following forms of the Acumatica ERP instance:
 
@@ -21,14 +21,14 @@ The Acumatica ERP instance with the *U100* dataset already contains most of the 
 -   [Cash Accounts](CA_20_20_00.md) \(CA202000\): The cash account to be used for ecommerce orders
 -   [Payment Methods](CA_20_40_00.md) \(CA204000\): The payment method to which payment methods from the Shopify store will be mapped
 
-## System Preparation { .section}
+## System Preparation
 
 Sign in to the Acumatica ERP instance with the *U100* dataset preloaded by using the following credentials:
 
 -   **Username**: *gibbs*
 -   **Password**: *123*
 
-## Step 1: Enabling the Needed Features { .section}
+## Step 1: Enabling the Needed Features
 
 To make sure the needed features for ecommerce functionality have been enabled, do the following:
 
@@ -44,7 +44,7 @@ To make sure the needed features for ecommerce functionality have been enabled, 
     **Note:** Depending on the setup of your Shopify store and the inventory and order management processes in your company, you might need to enable additional features. For more information, see [Initial Configuration: Implementation Checklist](Commerce_SP_Initial_Configuration_Implem_Checklist.md).
 
 
-## Step 2: Reviewing the Customer Class for Customers Imported from Shopify { .section}
+## Step 2: Reviewing the Customer Class for Customers Imported from Shopify
 
 During the process of establishing and configuring the connection between Acumatica ERP and the Shopify store, you will need to specify the customer class that will be assigned to customer records imported from the Shopify store and that will provide the default settings for the imported customers. You can use an existing customer class or create a new one with a different set of default settings to be used specifically for online customers. In the instance with the *U100* data preloaded, a dedicated customer class for online customers has already been created.
 
@@ -56,7 +56,7 @@ To review the customer class that will be used for customers imported from the S
     In a subsequent activity, you will specify this customer class in the store settings so that the system will use the settings of this customer class to populate customer records for new customers that will be imported from the Shopify store to Acumatica ERP.
 
 
-## Step 3: Reviewing the Numbering Sequences for Customers and Customer Locations { .section}
+## Step 3: Reviewing the Numbering Sequences for Customers and Customer Locations
 
 To review the numbering sequences that Acumatica ERP will use to assign identifiers to customers and customer locations \(addresses\) imported from the Shopify store, do the following:
 
@@ -72,7 +72,7 @@ To review the numbering sequences that Acumatica ERP will use to assign identifi
 
 In a subsequent activity, you will specify these numbering sequences in the store settings so that the system will use them to create identifiers for customers and customer locations imported from the Shopify store to Acumatica ERP.
 
-## Step 4: Reviewing the Order Settings { .section}
+## Step 4: Reviewing the Order Settings
 
 To review the order type created for the orders coming from the Shopify store, do the following:
 
@@ -82,7 +82,7 @@ To review the order type created for the orders coming from the Shopify store, d
     In the **Order Template** box notice that this order type is based on the *SO* order template. In a subsequent activity, you will configure the system to assign this order type to all orders imported from the Shopify store.
 
 
-## Step 5: Reviewing the Shipping Settings { .section}
+## Step 5: Reviewing the Shipping Settings
 
 To review the Acumatica ERP shipping settings that you will need to specify during the configuration of the store connection, do the following:
 
@@ -92,7 +92,7 @@ To review the Acumatica ERP shipping settings that you will need to specify duri
     Because SweetLife is going to deliver the products by using only its own fleet of vehicles, you will specify this shipping option when you configure the store connection.
 
 
-## Step 6: Reviewing the Cash Account and Payment Method Settings { .section}
+## Step 6: Reviewing the Cash Account and Payment Method Settings
 
 To review the payment method in Acumatica ERP that will be mapped to the Shopify payment methods configured in the online store, do the following:
 

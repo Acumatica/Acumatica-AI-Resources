@@ -1,10 +1,10 @@
-# Integration with Carriers: Pacejet Implementation Checklist {#_7df5668b-c497-453c-9bf9-34c6c77f2476 .concept}
+# Integration with Carriers: Pacejet Implementation Checklist
 
 Before you configure integration with the Pacejet carrier service, your organization should have an account with the carrier and a signed license agreement. The settings for the plug-in are specified in accordance with the information available in the agreement and the settings of your Pacejet account.
 
 The following sections provide details you can use to ensure that the system is configured properly for processing shipments with the Pacejet carrier service, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you initially process shipments with the Pacejet carrier service, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -21,7 +21,7 @@ We recommend that before you initially process shipments with the Pacejet carrie
 |[Carriers](CS_20_77_00.md) \(CS207700\) form|Make sure that a carrier with the *PX.PacejetCarrier.PacejetCarrier* plug-in has been configured in the system.|
 |[Ship via Codes](CS_20_75_00.md) \(CS20750\) form|Make sure that a Ship Via code for each service method of the carrier service that you are going to use to deliver shipments has been configured in the system.|
 
-## Other Settings That Affect the Workflow { .section}
+## Other Settings That Affect the Workflow
 
 You can affect the processing of shipments delivered the Pacejet carrier service by specifying additional settings as follows:
 

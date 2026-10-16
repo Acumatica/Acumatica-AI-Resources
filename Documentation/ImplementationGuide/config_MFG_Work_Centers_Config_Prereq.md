@@ -1,12 +1,12 @@
-# Configuring Work Centers: Configuration Prerequisites {#_23b07a65-11f6-4bd6-af7e-9ac105a950e5 .concept}
+# Configuring Work Centers: Configuration Prerequisites
 
 Before starting to create work centers, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Feature { .section}
+## Enabling the Needed Feature
 
 On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, the *Manufacturing* feature must be enabled.
 
-## Configuring the System { .section}
+## Configuring the System
 
 You need to make sure the following tasks have been performed in Acumatica ERP before you begin to create work centers:
 

@@ -1,4 +1,4 @@
-# To Import a REST Schema to a Visual Studio Solution {#_41be41d9-05cb-4536-a7a8-b38610760065 .task}
+# To Import a REST Schema to a Visual Studio Solution
 
 You can create a Visual Studio project and use the REST schema contained in the Acumatica ERP `swagger.json` files for interaction with Acumatica ERP. \(For details about the `swagger.json` files, see [OpenAPI 3.0](../Shared/../IntegrationDevelopmentGuide/IS__IS_CB_REST_Endpoint_API_Reference.md).\) You import the REST schema to a Visual Studio solution in two stages:
 
@@ -7,7 +7,7 @@ You can create a Visual Studio project and use the REST schema contained in the 
 
 The following sections provide instructions on these stages, as well as an example of the use of the imported REST schema.
 
-## To Generate Visual Studio Packages from a REST Schema { .section}
+## To Generate Visual Studio Packages from a REST Schema
 
 1.  Obtain the `swagger.json` file you need.
 2.  Open the website [https://editor.swagger.io](https://editor.swagger.io).
@@ -28,7 +28,7 @@ The following sections provide instructions on these stages, as well as an examp
 
 **Note:** To compile the *IO.Swagger* and *IO.Swagger.Test* projects, you may have to explicitly specify the path to the `RestSharp.dll` library. In addition, you may get compilation errors related to the misuse of the `override` keyword and the absence of the `BaseValidate` method. To fix these errors, remove the misused `override` keyword and the entire command that contains the nonexistent `BaseValidate` method.
 
-## To Add the Generated Projects to a Visual Studio Solution { .section}
+## To Add the Generated Projects to a Visual Studio Solution
 
 1.  In Visual Studio, create a C\# project.
 2.  In your project, add a reference to the `Newtonsoft.Json` library as follows:

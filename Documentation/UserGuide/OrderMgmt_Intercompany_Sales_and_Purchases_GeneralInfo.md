@@ -1,8 +1,8 @@
-# Intercompany Purchases and Returns: General Information {#_38760818-c1d3-467a-bac1-256cbeb00ea9 .concept}
+# Intercompany Purchases and Returns: General Information
 
 If the intercompany sales functionality is configured in Acumatica ERP, you can automatically generate a sales order for each purchase order from a company or branch within the same tenant to process a sale of stock or non-stock items.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -11,11 +11,11 @@ In this chapter, you will learn how to do the following:
 -   Process an intercompany drop-ship purchase of stock items
 -   Process and intercompany drop-ship return of stock items
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You use the intercompany sales functionality if there are multiple companies defined in the same tenant and one of the companies \(the purchasing company\) has ordered a service or purchased stock items from another company \(the selling company\).
 
-## Processing an Intercompany Purchase { .section}
+## Processing an Intercompany Purchase
 
 Once the intercompany sales functionality has been configured, as described in [Intercompany Sales Setup: Implementation Activity](../ImplementationGuide/Finance_Intercompany_SalesSetup_Implem_Activity.md), the sale and purchase documents between the selling and purchasing companies can be processed.
 
@@ -29,11 +29,10 @@ The manager of the selling company bills the purchasing company for the shipped 
 
 When the AR invoice is released, the manager of the purchasing company opens the [Generate Intercompany Documents](AP_50_35_00.md) \(AP503500\) form and generates an AP bill by selecting the unlabeled check box in the line with the purchase receipt and clicking **Process**. Then the manager of the purchasing company releases the AP bill on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 
-## Workflow of the Intercompany Purchase {#section_vv2_1y4_y4b .section}
+## Workflow of the Intercompany Purchase
 
 For an intercompany purchase between the branches of two different companies, the typical process involves the actions and generated documents shown in the following diagram.
 
-![](Images/diag_OrderMgmt_Cross-Company_Sales.png)
 
 **Parent topic:**[Processing Intercompany Purchases and Returns](../UserGuide/OrderMgmt_Intercompany_Sales_and_Purchases_Mapref.md)
 

@@ -1,8 +1,8 @@
-# To Email a T4A Slip {#_d5a995f1-0972-45cd-b242-a07dfd425e86 .task}
+# To Email a T4A Slip
 
 You email T4A slips on the [Print/Email T4A Slips](AP_50_76_10.md) \(AP507610\) form.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Make sure that a T4A report has been sent to the Canada Revenue Agency \(CRA\) for the needed calendar year and vendor.
 
@@ -11,7 +11,7 @@ Also, ensure that the vendor to which you’re going to email the slip has the f
 -   On the **Financial** tab \(**Vendor Properties** section\), the **Email T4A Slip Consent** check box is selected.
 -   On the **Mailing &amp; Printing** tab, the *T4A SLIP* mailing ID with the *T4A Slip* email template has been added and is active. In the **Recipients** table, the email recipient has been specified.
 
-## To Email a T4A Slip { .section}
+## To Email a T4A Slip
 
 1.  Open the [Print/Email T4A Slips](AP_50_76_10.md) \(AP507610\) form.
 2.  In the Selection area, specify the following settings:

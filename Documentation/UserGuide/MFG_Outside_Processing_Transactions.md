@@ -1,8 +1,8 @@
-# Outside Processing: Generated Transactions {#_b852d641-2c03-45d1-82ff-b3a71ad73b09 .concept}
+# Outside Processing: Generated Transactions
 
 When you process production orders that include outside operations, you record payments for the subcontractor services \(which may include material costs\) by creating and processing purchase orders and the related documents and transactions. To track these expenses, the system generates the GL transactions described in the following section.
 
-## Transactions Generated for Non-Stock Items Used as Materials { .section}
+## Transactions Generated for Non-Stock Items Used as Materials
 
 Suppose that for a non-stock item that is used as a material for outside processing \(that is, a subcontractor service\), the **Accrue Cost** check box is selected on the **Price/Cost** tab of the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, and the **Require Receipt** check box is selected on the **General** tab of the same form. As a result, the system posts to the Expense Accrual account the costs of materials when the items are received to a warehouse of your organization and a production order is released. Transactions generated on release of the inventory receipt are listed in the following table.
 

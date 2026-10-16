@@ -1,14 +1,14 @@
-# Report Creation: To Create a Report Based on One DAC {#_911ae3dc-0331-457c-8708-fb570c19a84b .task}
+# Report Creation: To Create a Report Based on One DAC
 
 In the following activity, you will create a report based on one DAC.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist in your company who is working on simple customizations. An accountant of your company has requested a report that collects data about invoices and memos. The accountant wants a simple report that displays columns with the document type, the invoice reference number, and the balance of the invoice with that number.
 
-## Process Overview { .section}
+## Process Overview
 
 You will first inspect the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form to explore which data access classes you can use to access the needed data: the document type, reference number, and balance.
 
@@ -16,7 +16,7 @@ With the knowledge you have obtained, you will create the report and add the col
 
 When the report is created and all the necessary settings are specified, you will preview and then publish the report.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you perform the steps of this activity, make sure that the following tasks have been performed:
 
@@ -27,7 +27,7 @@ Before you perform the steps of this activity, make sure that the following task
     **Tip:** The *gibbs* user is assigned the *Administrator* role and the *Report Designer* role. Thus, this user has sufficient access rights to manage system configuration and to preview, save, and publish reports.
 
 
-## Step 1: Discovering DACs and Data Fields { .section}
+## Step 1: Discovering DACs and Data Fields
 
 To inspect the user interface elements whose data you will use for your report, do the following:
 
@@ -47,7 +47,7 @@ To inspect the user interface elements whose data you will use for your report, 
 
 You have discovered that the data access class you need is *ARInvoice* and the data fields are *DocType*, *RefNbr*, and *CuryDocBal*.
 
-## Step 2: Loading the Database Schema { .section}
+## Step 2: Loading the Database Schema
 
 To load the database schema, do the following:
 
@@ -75,7 +75,7 @@ To load the database schema, do the following:
     The Schema Builder is closed.
 
 
-## Step 3: Adding Data to the Report { .section}
+## Step 3: Adding Data to the Report
 
 To add data to the report, while you are still working with the report in the Report Designer, do the following:
 
@@ -98,11 +98,10 @@ To add data to the report, while you are still working with the report in the Re
 
 The following screenshot shows the report you have designed.
 
-![](Images/RD_Creating_Report_Creating_Simple_Report_MyFirstReport.png "The report designed to display data about invoices and memos")
 
 Before saving the report, preview it. In the Design pane of the Report Designer, go to the **Preview** tab. If you are not satisfied with the design of the report, move the text boxes to align them.
 
-## Step 4: Saving the Report { .section}
+## Step 4: Saving the Report
 
 To save the report on your Acumatica ERP website, do the following:
 
@@ -115,7 +114,7 @@ To save the report on your Acumatica ERP website, do the following:
 4.  In the **Name of Report to Save** box, enter the report name: `AR308000`.
 5.  Click **OK**.
 
-## Step 5: Publishing the Report { .section}
+## Step 5: Publishing the Report
 
 To publish the report, do the following:
 
@@ -132,7 +131,7 @@ To publish the report, do the following:
     2.  In the right pane, select *Granted* in the **Access Rights** column for the *ReportDesigner*, *AR Admin*, and *Accountant* roles.
     3.  On the form toolbar, click **Save**.
 
-## Step 6: Viewing the Report { .section}
+## Step 6: Viewing the Report
 
 To view and run the report you have created, do the following:
 
@@ -142,7 +141,6 @@ To view and run the report you have created, do the following:
 
 The created report with the information about invoices and memos is displayed. The following screenshot shows the resulting report.
 
-![](Images/RD_Creating_Report_Creating_Simple_Report_MyFirstReport_results.png "The resulting report displaying information about invoices and memos")
 
 **Parent topic:**[Creating a Report](../UserGuide/RD_Creating_Report_Mapref.md)
 

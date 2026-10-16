@@ -1,10 +1,10 @@
-# To Enter an Invoice with Retainage that Can Be Paid by Line {#_ae630c03-9143-4e63-9800-e8f70a5bc705 .task}
+# To Enter an Invoice with Retainage that Can Be Paid by Line
 
 You enter an AR invoice with retainage that can be paid by line on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. You use this procedure if you are specifying items' quantities and unit costs \(as opposed to only line totals\) in the detail lines of the invoice. To correct the amount of an original invoice with retainage, which has been released, you add a line with a negative extended price to an invoice.
 
 You can enter an invoice with retainage to be paid by line only if the *Payment Application by Line* and *Retainage Support* features have been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## To Enter an Invoice with Retainage that Can Be Paid by Line {#section_owq_4jv_vxb .section}
+## To Enter an Invoice with Retainage that Can Be Paid by Line
 
 1.  Open the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 2.  On the form toolbar, click **Add New Record**.
@@ -35,7 +35,7 @@ You can enter an invoice with retainage to be paid by line only if the *Payment 
 13. If you want to save the document with the *Balanced* status, if the **Amount** box of the Summary area is available on the form, enter the total amount minus the retained amount of the invoice in this box. On the form toolbar, click **Remove Hold**.
 14. On the form toolbar, click **Save**.
 
-## Notes About the Procedure {#section_qwq_4jv_vxb .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

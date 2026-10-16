@@ -1,12 +1,12 @@
-# UDFields {#_477ed21f-0f7e-4ba3-a93c-cbbff0b95044 .concept}
+# UDFields
 
 An object that maps user-defined fields of a form to the equivalent screen in the mobile app. A single use of the UDFields object maps all user-defined fields of a particular screen.
 
-## Attributes { .section}
+## Attributes
 
 The object contains no attributes.
 
-## Example { .section}
+## Example
 
 The following example maps user-defined fields of the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form to the Cases screen. *UDFInline* is an arbitrary name that has not been used anywhere else in the mapping.
 

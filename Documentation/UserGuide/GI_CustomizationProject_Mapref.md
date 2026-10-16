@@ -1,4 +1,4 @@
-# Including Generic Inquiries in a Customization Project {#_03617820-bc32-481c-9e7c-73a0852c19b7 .concept}
+# Including Generic Inquiries in a Customization Project
 
 You may need to distribute the changes that you have made to generic inquiries in your Acumatica ERP instance to other instances, such as other Acumatica ERP instances of the company. As a part of this process, you need to create a customization project and include all the generic inquiries that you have modified in this customization project. You then export the project as a ZIP file. In the target instance, you import the file and publish this customization project.
 

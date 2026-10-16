@@ -1,4 +1,4 @@
-# Creating and Using Resource Equipment {#_c341d85d-b801-4c48-9a45-b9b5dcbf99fe .concept}
+# Creating and Using Resource Equipment
 
 In this chapter, you will learn how to create equipment types, assign an equipment type to a service, and how to create an equipment records in the system.
 
@@ -14,6 +14,4 @@ You will also learn how to add resource equipment in an appointment, and how to 
 
 -   **[Resource Equipment: Related Report and Inquiry Forms](../UserGuide/ServMgmt_Resource_Equipment_Reports_Inquiries.md)**  
 
-
-**Parent topic:**[Service Management](../UserGuide/FS_00_00_01.md)
 

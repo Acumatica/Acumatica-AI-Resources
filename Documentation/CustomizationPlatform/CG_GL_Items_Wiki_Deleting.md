@@ -1,4 +1,4 @@
-# To Delete a Custom Wiki from a Project {#_5fb3c06e-eb24-474f-bb9d-15ad18f95113 .concept}
+# To Delete a Custom Wiki from a Project
 
 To remove a *WikiArticle* item from a project, perform the following actions:
 

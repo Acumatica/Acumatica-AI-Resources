@@ -1,10 +1,10 @@
-# Relations: Process Activity {#_a7c08690-4868-41f2-b8b4-4c10e4d68c66 .task}
+# Relations: Process Activity
 
 The following activity demonstrates how to manage relations in Acumatica ERP.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are David Chubb, a sales manager of the SweetLife Fruits &amp; Jams company. You have obtained a qualified lead from the marketing team, and your manager has assigned the lead to you. Kim Frey, a manager at the MyAvocado Lounge chain of restaurants, visited SweetLife’s official website, chose a pro series juicer made by Squeezo Inc., and would like to buy five juicers of this kind. You have contacted Kim Frey and she has confirmed her interested in the product. You have also discussed the financial terms of the deal with Erica Spencer, who is the director of operations at the MyAvocado Lounge chain of restaurants, and agreed to give the chain a 5% discount on the purchase. You need to do the following:
 
@@ -12,7 +12,7 @@ Suppose that you are David Chubb, a sales manager of the SweetLife Fruits &amp; 
 -   Specify the decision maker for the deal in the opportunity
 -   Create a sales order based on the opportunity
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -23,7 +23,7 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Contacts](CR_30_20_00.md) \(CR302000\) form the *Erica Spencer* contact has been created.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *JUICER15* stock item, which holds the settings of a commercial juicer, has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -34,7 +34,7 @@ In this activity, you will do the following:
     3.  Create a sales order.
 3.  On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, view the record associated with the sales order on the **Relations** tab.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start performing the activity, you should do the following:
 
@@ -43,7 +43,7 @@ Before you start performing the activity, you should do the following:
     -   **Password**: *123*
 2.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Converting a Lead to an Opportunity { .section}
+## Step 1: Converting a Lead to an Opportunity
 
 To convert the *Kim Frey* lead to an opportunity, do the following:
 
@@ -69,7 +69,7 @@ To convert the *Kim Frey* lead to an opportunity, do the following:
 
 You have converted the lead to an opportunity.
 
-## Step 2: Reviewing the Relations Between the Opportunity and the Associated Lead { .section}
+## Step 2: Reviewing the Relations Between the Opportunity and the Associated Lead
 
 To review the relations between the lead and the opportunity it was converted to, do the following:
 
@@ -85,7 +85,7 @@ To review the relations between the lead and the opportunity it was converted to
     Also, notice that the system has created one more relation with the *Derivative* role for the associated contact.
 
 
-## Step 3: Adding a Product to the Opportunity { .section}
+## Step 3: Adding a Product to the Opportunity
 
 To add a product to the opportunity, do the following:
 
@@ -105,7 +105,7 @@ To add a product to the opportunity, do the following:
 
 You have added the product and the applicable discount and quantity to the opportunity.
 
-## Step 4: Specifying a Role for a Customer Contact in the Opportunity { .section}
+## Step 4: Specifying a Role for a Customer Contact in the Opportunity
 
 Suppose that you have confirmed the model and the number of juicers with Kim Frey and now need to discuss financial terms with Erica Spencer, who is the director of operations at the MyAvocado Lounge chain of restaurants. Further suppose that you have created a contact in the system. You need to associate the contact with the *MYAVOCADO* business account and specify Erica's role in the deal for the opportunity.
 
@@ -126,7 +126,7 @@ To add the *Decision-Maker* relation to the opportunity, do the following:
 
 2.  On the form toolbar, click **Save**.
 
-## Step 5: Creating a Sales Order Associated with the Opportunity { .section}
+## Step 5: Creating a Sales Order Associated with the Opportunity
 
 To create a sales order for the *MYAVOCADO* customer, do the following:
 
@@ -138,7 +138,7 @@ To create a sales order for the *MYAVOCADO* customer, do the following:
 
 You have created a sales order. Now you can view the relations between the opportunity and the sales order.
 
-## Step 6: Reviewing the Relations Between the Opportunity and the Sales Order { .section}
+## Step 6: Reviewing the Relations Between the Opportunity and the Sales Order
 
 To review the relations between the opportunity and the sales order, do the following:
 
@@ -149,7 +149,6 @@ To review the relations between the opportunity and the sales order, do the foll
     -   **Document**: The reference number of the opportunity, which is a link to it
     -   **Account**: *MYAVOCADO*, which is a link to the customer's account
     -   **Contact**: *Kim Frey*, which is a link to the customer's contact specified in the opportunity
-    ![](Images/activity_CRM_Mktg_Relations.png "The relations in the sales order")
 
 2.  Click the link in the **Document** column.
 3.  On the [Opportunities](CR_30_40_00.md) \(CR304000\) form, which opens in a new browser tab, open the **Relations** tab. In addition to the lead that was converted to the opportunity and the decision maker that you have added earlier in this activity, notice that a row with the settings of the associated sales order has been added.

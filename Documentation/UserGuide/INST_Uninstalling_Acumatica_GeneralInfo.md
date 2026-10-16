@@ -1,10 +1,10 @@
-# Uninstalling of Acumatica ERP: General Information {#_f3d0f1d8-eefb-4b66-b540-894c1bcc5bd9 .concept}
+# Uninstalling of Acumatica ERP: General Information
 
 In Acumatica ERP, you can use the Acumatica ERP Configuration wizard to remove an existing application instance. If you no longer need the Acumatica ERP Configuration wizard \(for example, if you need another version of the wizard\), you can uninstall it.
 
 This topic provides an overview of the processes of deleting instances and uninstalling the Acumatica ERP Configuration wizard.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -12,20 +12,20 @@ In this chapter, you will do the following:
 -   Learn about uninstalling the Acumatica ERP Configuration wizard
 -   Delete an application instance by using the Acumatica ERP Configuration wizard
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may need to learn how to delete an application instance or Acumatica ERP Configuration wizard in scenarios that include the following:
 
 -   You are a system administrator who needs to remove an unneeded Acumatica ERP application instance.
 -   You are a system administrator who needs to uninstall the Acumatica ERP Configuration wizard to install an earlier version of Acumatica ERP.
 
-## Deletion of an Instance { .section}
+## Deletion of an Instance
 
 Deleting an Acumatica ERP application instance removes this website from Internet Information Services and cleans up the virtual folder related to the website. The instance's database stays untouched—you can delete it by using the database management tools, if needed. Deletion of an instance also does not delete any customized pages or files.
 
 You can delete an application instance by using the Acumatica ERP Configuration wizard. On the Application Maintenance page of the wizard, you select the Acumatica ERP instance that you want to delete and then click **Delete**. For details, see [Uninstalling of Acumatica ERP: To Delete an Instance](INST_Uninstalling_Acumatica_Uninstall_Instance_Activity.md).
 
-## Uninstalling of the Acumatica ERP Configuration Wizard { .section}
+## Uninstalling of the Acumatica ERP Configuration Wizard
 
 You might need to uninstall the Acumatica ERP Configuration wizard if you want to install earlier versions of Acumatica ERP. If you uninstall the current version and then install the needed earlier version, you will be able to deploy application instances with earlier versions. Existing application instances or databases will not be removed or altered; instead, the red circle with a white X instead of the green check mark will be shown for them on the Application Maintenance page of the Acumatica ERP Configuration wizard. For details, see [Instance Maintenance: Possible Update Statuses of an Instance](INST_Maintaning_Instances_States_Instances.md).
 

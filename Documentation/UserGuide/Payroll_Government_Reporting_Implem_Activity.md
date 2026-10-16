@@ -1,19 +1,19 @@
-# Government Reporting: Implementation Activity {#_0d91b22b-3404-4e84-8350-71d6c93491fd .task}
+# Government Reporting: Implementation Activity
 
 In the following implementation activity, you will learn how to enable government reporting in Acumatica ERP.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife company wants to electronically file federal and state forms to the appropriate government body. Acting as a system administrator, you need to set up the system and enroll for Aatrix to enable the government reporting functionality.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, to set up government reporting in payroll, you will do the following:
 
 1.  On the [Companies](CS_10_15_00.md) \(CS101500\) form, you will enter the company's Employer Identification Number.
 2.  On the Aatrix website, you will enroll for Aatrix.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring government reporting, you should launch the Acumatica ERP website and sign in as a system administrator by using the following credentials:
 
@@ -24,7 +24,7 @@ As a prerequisite activity, in the company to which you are signed in, be sure y
 
 As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course.
 
-## Step 1: Specifying the Company's Employer Identification Number { .section}
+## Step 1: Specifying the Company's Employer Identification Number
 
 To specify the company's Employer Identification Number, do the following:
 
@@ -32,7 +32,7 @@ To specify the company's Employer Identification Number, do the following:
 2.  On the **Company Details** tab, in the **Tax Registration ID** box, type the EIN of the company \(for example, `12-3456789`\).
 3.  On the form toolbar, click **Save**.
 
-## Step 2: Enrolling for Aatrix { .section}
+## Step 2: Enrolling for Aatrix
 
 Enroll for Aatrix by doing the following:
 

@@ -1,4 +1,4 @@
-# To Override a Data View Delegate {#_d50ee403-753c-41b9-b996-90dad1f2e98e .concept}
+# To Override a Data View Delegate
 
 You can modify the data view delegate—that is, the method that is invoked when the records are retrieved through the data view. To do this, perform the following actions:
 

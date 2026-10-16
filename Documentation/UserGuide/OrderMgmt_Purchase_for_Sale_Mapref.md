@@ -1,4 +1,4 @@
-# Processing Purchases for Sale {#_47b49436-efbe-43c0-9ac9-178b2291fbc7 .concept}
+# Processing Purchases for Sale
 
 Your company may purchase certain items from vendors only when those items are added to a sales order. In Acumatica ERP, you can add these items to a sales order and mark them for purchase. When you create a purchase order for these items, it will be linked to the sales order. The topics of this chapter explain how to create and process sales orders whose goods are intended for purchasing.
 

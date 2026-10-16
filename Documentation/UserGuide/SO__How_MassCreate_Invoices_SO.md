@@ -1,8 +1,8 @@
-# To Create Invoices for Multiple Orders {#_fb6a0ae3-2d0a-4eb6-a14b-586c2e06694c .task}
+# To Create Invoices for Multiple Orders
 
 You can mass-create invoices for multiple orders simultaneously on the [Process Orders](SO_50_10_00.md) \(SO501000\) form.
 
-## To Create Invoices for Multiple Orders { .section}
+## To Create Invoices for Multiple Orders
 
 1.  Open the [Process Orders](../Shared/../UserGuide/SO_50_10_00.md) \(SO501000\) form.
 2.  In the **Action** box, select *Prepare Invoice*.

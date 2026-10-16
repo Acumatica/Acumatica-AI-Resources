@@ -1,4 +1,4 @@
-# Maintaining Tenants {#_08622135-ef6c-4ae5-9192-e9fdb8b3ff81 .concept}
+# Maintaining Tenants
 
 In this chapter, you will learn how to add and delete tenants within an Acumatica ERP application instance. Additionally, you will explore various modifications that can be made to tenants to meet your company's requirements.
 

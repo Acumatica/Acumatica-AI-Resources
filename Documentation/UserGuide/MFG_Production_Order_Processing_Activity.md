@@ -1,12 +1,12 @@
-# Production Processing: To Process Production-Related Documents and Transactions {#_cf1dfe9e-7ae6-40ef-8e41-5aaa5324e1a1 .task}
+# Production Processing: To Process Production-Related Documents and Transactions
 
 The following activity will walk you through the creating and processing of a production order and the related documents and transactions.
 
-## Story { .section}
+## Story
 
 Suppose that based on the analyzed demand from previous periods of sales, the sales department of SweetLife has asked the production department to produce 12 juicers for citrus. Acting as a production manager, you will create a production order for producing 12 citrus juicers, order the juicer parts that are out of stock from the vendor, and process all related transactions. Further suppose that the production of juicers should start on today's date and the scheduling priority is standard \(you do not need to produce the juicers faster or slower than the other items in the queue\).
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -14,7 +14,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *CFJCITRUS*, *JCREAMER*, *JUICECUP1L*, *MRBASEHIGH*, *STRBASKET*, and *SPLGUARD* stock items have been defined.
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *JALOOZA* vendor has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, to process the documents and transactions related to the production of the citrus juicers, you will do the following:
 
@@ -29,7 +29,7 @@ In this activity, to process the documents and transactions related to the produ
 9.  On the [Production Order Maintenance](AM_20_15_00.md) form, view the labor and costs recorded for the production order
 10. On the [Close Production Orders](AM_50_60_00.md) \(AM506000\) form, close the production order
 
-## System Preparation { .section}
+## System Preparation
 
 Do the following:
 
@@ -39,7 +39,7 @@ Do the following:
 2.  Launch the Acumatica ERP website, and sign in to the company in which the prerequisite activities have been performed. You should sign in as the production manager by using the *peters* username and the *123* password.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to today’s date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating the Production Order { .section}
+## Step 1: Creating the Production Order
 
 To create the production order for 12 citrus juicers, do the following:
 
@@ -60,12 +60,11 @@ To create the production order for 12 citrus juicers, do the following:
 
     In the **Planned** section of the **Totals** tab, review the planned labor time and the planned costs for production of the juicers \(see the following screenshot\). The system calculates the planned time based on the values you have specified in the bill of material on the [Bill of Material](AM_20_80_00.md) \(AM208000\) form. The planned costs are calculated based on the planned time and on the settings of the production cost drivers. \(See [Configuring Production Cost Drivers: Implementation Activity](../ImplementationGuide/config_MFG_Production_Cost_Drivers_Implem_Activity.md) for details.\)
 
-    ![](Images/activity_MFG_Production_Order_Processing_Planned_Costs.png "The Totals tab of the Production Order Maintenance form")
 
 
 The production order is ready to be processed further.
 
-## Step 2: Creating a Purchase Order for Out-of-Stock Components { .section}
+## Step 2: Creating a Purchase Order for Out-of-Stock Components
 
 In this step, you will view the list of components that are required for the production of the juicers and are out of stock, and you will create a purchase order to purchase the components from the *JALOOZA* vendor. Do the following:
 
@@ -78,7 +77,7 @@ In this step, you will view the list of components that are required for the pro
 4.  In the **Create Purchase Order** dialog box, which opens, review the settings, and click **Create**. The system creates a purchase order and opens it on the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form.
 5.  On the form toolbar, click **Remove Hold**. The status of the purchase order changes to *Open*.
 
-## Step 3: Receiving the Components in a Warehouse { .section}
+## Step 3: Receiving the Components in a Warehouse
 
 Suppose that you have received the ordered components from the *JALOOZA* vendor and need to create a purchase receipt. The items have been received to the *MTL* location in the *WORKHOUSE* warehouse \(this location is dedicated to the storing of components\). Do the following:
 
@@ -95,7 +94,7 @@ Suppose that you have received the ordered components from the *JALOOZA* vendor 
 
 You have received the required components into stock and now you can continue processing the production order.
 
-## Step 4: Issuing the Components for the Production Order { .section}
+## Step 4: Issuing the Components for the Production Order
 
 In this step, you will issue the components for the production order. Do the following:
 
@@ -108,7 +107,7 @@ In this step, you will issue the components for the production order. Do the fol
 5.  On the form toolbar, click **Release**. The system releases the material transaction and changes the status of the transaction to *Released*.
 6.  On the [Issues](IN_30_20_00.md) \(IN302000\) form, make sure that the inventory issue with the components from the production order has been created and released.
 
-## Step 5: Recording the Labor and Produced Items { .section}
+## Step 5: Recording the Labor and Produced Items
 
 Suppose that Carlos Cruz, a worker in the work center, spent 30 minutes setting up the working environment for juicer assembly and assembled 5 juicers for 1 hour and 40 minutes. Another work center worker, Casey Burrows, assembled 6 juicers for the same amount of time. The assembled juicers have been moved to the *MGI* location of the *WORKHOUSE* warehouse. To record the time spent on juicer assembly and the movement of the assembled juicers, do the following:
 
@@ -139,7 +138,7 @@ Suppose that Carlos Cruz, a worker in the work center, spent 30 minutes setting 
     3.  Clear the **Hold** check box. The system changes the transaction status to *Balanced*.
 7.  On the form toolbar, click **Release**. The system creates and releases the cost transaction to record labor costs, the inventory receipt to record the movement of the assembled juicers to the warehouse location, and the labor transaction itself.
 
-## Step 6: Viewing the Availability of Juicers { .section}
+## Step 6: Viewing the Availability of Juicers
 
 To make sure that the assembled juicers have been moved to the *MGI* warehouse location, do the following:
 
@@ -154,10 +153,9 @@ To make sure that the assembled juicers have been moved to the *MGI* warehouse l
     -   **Location**: *MGI*
     Notice that the value in the **On Hand** column of the only row listed in the table is *11*, as shown below.
 
-    ![](Images/activity_MFG_Production_Order_Processing_Juicer_Availability.png "The on-hand quantity of the juicers on the Inventory Summary form")
 
 
-## Step 7: Viewing the Changes to the Production Order { .section}
+## Step 7: Viewing the Changes to the Production Order
 
 In this step, you will view the changes the system made to the production order as a result of the previous steps. Do the following:
 
@@ -169,10 +167,9 @@ In this step, you will view the changes the system made to the production order 
 
     Notice that records for material, cost, and labor transactions are displayed in the table.
 
-    ![](Images/activity_MFG_Production_Order_Processing_Events.png "The Events tab of the Production Order Maintenance form")
 
 
-## Step 8: Recording the Produced Items { .section}
+## Step 8: Recording the Produced Items
 
 Suppose that you have been informed that Carlos Cruz produced 6 juicers— not 5, as you recorded earlier in this activity. To record the receipt of one more juicer to the warehouse location, create a move transaction as follows:
 
@@ -194,7 +191,7 @@ Suppose that you have been informed that Carlos Cruz produced 6 juicers— not 5
     In the Summary area, notice that the **Qty. Complete** box contains *12* and the **Qty. Remaining** box contains *0*, and the status of the order is *Completed*.
 
 
-## Step 9: Viewing Production Order Totals { .section}
+## Step 9: Viewing Production Order Totals
 
 Before closing the production order, you will view the actual recorded labor time and costs on the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form, as follows:
 
@@ -207,10 +204,9 @@ Before closing the production order, you will view the actual recorded labor tim
 
 2.  Review the difference between the planned and actual labor time and costs in the **Variance** section, which is shown in the following screenshot. Notice that the workers spent 40 minutes of work less than the planned time.
 
-    ![](Images/activity_MFG_Production_Order_Processing_Actual_Costs.png "Actual and variance costs of the production order")
 
 
-## Step 10: Closing the Production Order { .section}
+## Step 10: Closing the Production Order
 
 Now you will close the production order. Do the following:
 

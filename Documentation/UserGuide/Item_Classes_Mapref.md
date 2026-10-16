@@ -1,4 +1,4 @@
-# Creating Item Classes for Stock Items {#_de8bd3b2-2d68-4d1f-a654-0261b40be336 .concept}
+# Creating Item Classes for Stock Items
 
 In Acumatica ERP, item classes are used to group inventory items with similar properties. Item classes are also used to provide default settings for newly created items: When you are creating a new item, you select its item class, and the system fills in the settings specified for the class \(most of which can be overridden, if needed\).
 

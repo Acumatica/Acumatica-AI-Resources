@@ -1,10 +1,10 @@
-# Retainage with a Cap: Process Activity {#_1771d899-3dd0-4ee7-86dc-ac126d92cdc9 .task}
+# Retainage with a Cap: Process Activity
 
 This activity will walk you through the process of performing progress billing for a project with contract cap retainage.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the ToadGreen Building Group company is a general contractor that is building a hotel for The Equity Group Investors. The project manager has created a fixed-price project; for this project, the customer will be billed once a month based on the progress of the performed work. Also, in the project, the project manager has defined the original project budget, which was also agreed upon with the customer. According to the contract, the customer retains 5% from each invoice, which guarantees to the customer that the ToadGreen company will meet its obligations in building the hotel.
 
@@ -12,7 +12,7 @@ Because the ToadGreen company, as a general contractor, needs to have enough res
 
 Acting as the project manager, you need to make sure that the pro forma invoices prepared for the customer include the correct retainage amounts, and that the retainage is no longer held after the cap has been reached.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -24,15 +24,15 @@ In the *U100* dataset, the following tasks have been performed to support this a
     For the project, three billing iterations have been performed. The pro forma invoices and the corresponding AR invoices have been prepared and released on the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) and [Invoices and Memos](AR_30_10_00.md#) \(AR301000\) forms, respectively; in each invoice, the retainage amount has been calculated.
 
 
-## Process Overview { .section}
+## Process Overview
 
 You will review the billing details of a previously prepared pro forma invoice by using the [Projects](PM_30_10_00.md) \(PM301000\) and [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) forms. You will then perform billing while the cap has not been reached by using the same forms, and review the retainage that the system will calculate for the invoice. After that, you will perform billing when the cap has been reached so that retainage is not calculated for this invoices.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as a construction project manager by using the *ewatson* username and the *123* password.
 
-## Step 1: Reviewing the Retainage Details of the Project { .section}
+## Step 1: Reviewing the Retainage Details of the Project
 
 Review the details of the project as follows:
 
@@ -44,10 +44,9 @@ Review the details of the project as follows:
 
     The **Retainage Total** in the Summary area of the invoice \(see below\) is the sum of the **Retainage Amount** column values for this pro forma invoice. The total project retainage \(held for all three invoices prepared for the project by this moment\) is shown in the **Allocated Retained Total** box in the Summary area; this amount is the sum of the **Allocated Retained Amount** column values.
 
-    ![](Images/activity_Construction_CapRetainage.png "The pro forma invoice with the retainage calculated")
 
 
-## Step 2: Billing a Project Based on Progress { .section}
+## Step 2: Billing a Project Based on Progress
 
 Bill a project by doing the following:
 
@@ -61,7 +60,6 @@ Bill a project by doing the following:
 
     Notice that the **Allocated Retained Total** equals *992,886.42*: This is the maximum retainage amount that can be held for the project. To avoid exceeding the retainage cap, for this invoice, the system has calculated the rest of the retainage that can be held and has reallocated it proportionally between the invoice lines.
 
-    ![](Images/activity_Construction_CapRetainage_2.png "The pro forma invoice with retainage")
 
 4.  On the form toolbar, click **Remove Hold**, and then click **Release**.
 5.  On the **Financial** tab, click the **AR Ref. Nbr.** link to open the created AR invoice on the [Invoices and Memos](AR_30_10_00.md#) \(AR301000\) form.

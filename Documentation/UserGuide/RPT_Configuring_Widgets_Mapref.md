@@ -1,8 +1,10 @@
-# Configuring Widgets {#_8c29d265-5f12-4d07-82a6-369f0e49ddb1 .concept}
+# Configuring Widgets
 
 Dashboards may serve different purposes, and if you have appropriate permissions, you can create dashboards that display information from a variety of sources, including Acumatica ERP inquiry forms, wiki articles, and even external pages. If the source of the information shown on the dashboard is an Acumatica ERP inquiry form, the data from the form can be displayed in various types of charts and tables, with the data filtered to meet the particular selection criteria according to your needs.
 
 In this chapter, you can find information about the supported types of widgets.
+
+For information about generating and refining widgets with AI Assistant and adding them to dashboards, see [Working with AI Assistant](RPT_Working_with_AI_Assistant_Mapref.md).
 
 -   **[Widget Settings: General Information](../UserGuide/RPT_Configuring_Widgets_Widget_Types_GeneralInfo.md)**  
 

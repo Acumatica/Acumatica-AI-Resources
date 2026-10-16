@@ -1,8 +1,8 @@
-# Order Orchestration: Sales Order Workflow {#_a20229ca-cbe1-4f2b-8474-47291980e406 .concept}
+# Order Orchestration: Sales Order Workflow
 
 Order orchestration in sales orders is the process where the system automatically selects the most suitable warehouse or combination of warehouses to fulfill each item in the order. You can orchestrate orders individually on the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form or process multiple orders at once on the [Process Orders](../UserGuide/SO_50_10_00.md) \(SO501000\) form, with the option to schedule orchestration for high-volume scenarios.
 
-## Start the Orchestration { .section}
+## Start the Orchestration
 
 To orchestrate a sales order, you click **Orchestrate Order** on the More menu of the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form. This command is available only if the sales order meets the following conditions:
 
@@ -27,7 +27,7 @@ The system also excludes lines with the following items:
 -   Non-stock kit
 -   Non-stock
 
-## Complete the Orchestration { .section}
+## Complete the Orchestration
 
 If you agree with the suggestions in the **Orchestrate Order** dialog box of the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form, you click **Save**. The system closes the dialog box and does the following in the sales order:
 
@@ -38,7 +38,7 @@ If you agree with the suggestions in the **Orchestrate Order** dialog box of the
     -   Selects the **Allocated** check box in the **Line Details** dialog box
 -   Changes the orchestration status on the **Shipping** tab to *Processed*.
 
-## Mass-Orchestrate Orders { .section}
+## Mass-Orchestrate Orders
 
 You can also orchestrate multiple sales orders simultaneously on the [Process Orders](../UserGuide/SO_50_10_00.md) \(SO501000\) form. To do this, you select *Orchestrate Order* in the **Action** box and do one of the following:
 

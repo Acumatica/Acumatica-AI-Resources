@@ -5,12 +5,14 @@ This repository contains reusable AI skills and supporting resources for Acumati
 - Use `DEV/skills/acumatica-customization-update/SKILL.md` for updating, upgrading, validating, or publishing customization projects and packages.
 - Use `DEV/skills/acumatica-integration-diagnostics/SKILL.md` for integration modernization and diagnostics.
 - Use `DEV/skills/acumatica-modern-ui-control-builder/SKILL.md` for Modern UI custom controls.
+- Use `DEV/skills/acumatica-classic-to-modern-ui-conversion/SKILL.md` for screen disposition, conversion, and behavioral parity checks.
+- Use `DEV/skills/acumatica-wiki-authoring/SKILL.md` for built-in Wiki articles, contextual Help, and reader verification.
 - Use `Common/agent-tooling/skills/distill/SKILL.md` to extract reusable guidance from an interaction.
 - Use `Common/agent-tooling/skills/verifying-skills/SKILL.md` to verify a skill package.
 
 Keep skills tool-agnostic. Put platform-specific discovery metadata in the platform adapter or manifest, not in the canonical workflow. When changing a canonical skill, keep its Copilot adapter description synchronized, update the plugin version in all platform manifests, and update its report under `Verification/`.
 
-Do not add, edit, move, rename, or delete anything under `Documentation/` in an external contribution. It is a read-only snapshot of official Acumatica 2026 R1 documentation. Send documentation feedback to training@acumatica.com.
+Do not add, edit, move, rename, or delete anything under `Documentation/` in an external contribution. It is a read-only snapshot of official Acumatica 2026 R2 documentation. Send documentation feedback to training@acumatica.com.
 
 External pull requests must target the latest published Acumatica release branch. Follow `CONTRIBUTING.md`, including proposal requirements and DCO sign-off. Before submitting changes, run `.github/scripts/validate-contribution.ps1` in PowerShell and the relevant GitHub Actions checks.
 

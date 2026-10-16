@@ -1,4 +1,4 @@
-# PXCommandLine Tool: BuildProject {#_0a4c1fd3-9798-4a79-9f7d-492a894a6bc1 .concept}
+# PXCommandLine Tool: BuildProject
 
 You can use the *BuildProject* value of the `/method` parameter to build a customization package. You must also specify values for the `/in` and `/out` parameters.
 

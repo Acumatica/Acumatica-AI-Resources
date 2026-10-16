@@ -1,14 +1,14 @@
-# Case Management: To Process a Billable Case {#_ce913b7d-0788-465e-abe6-96947096eb7b .task}
+# Case Management: To Process a Billable Case
 
 The following activity demonstrates how to process a billable case that has the *Per Case* billing mode in Acumatica ERP.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Jeffrey Vega, a technician at the SweetLife Fruits &amp; Jams company.You have received by email a request for the repair of a juicer from your customer Tonya Lawrence, a buyer at Storehut, a chain of supermarkets in New York. You have created a case in the system based on the email from Tonya and assigned the case to yourself. You need to repair the juicer, record the results of the repair in the system, and release the case for billing, causing an invoice to be created for the fixing of the juicer.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -19,7 +19,7 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Cases](CR_30_60_00.md) \(CR306000\) form, a case has been created that has the *Request for juicer repair from Storehut* in the **Subject** column.
 -   On the [Business Accounts](CR_30_30_00.md) \(CR303000\) form, the *STOREHUT* business account record has been created and extended as a customer, with its settings specified on the [Customers](AR_30_30_00.md) \(AR303000\) form.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -30,7 +30,7 @@ In this activity, you will do the following:
 5.  Release the case for billing on the [Cases](CR_30_60_00.md) form, which causes the system to generate an AR invoice on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 6.  View the AR invoice on the [Invoices and Memos](AR_30_10_00.md) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start working on the billable case, you should do the following:
 
@@ -41,7 +41,7 @@ Before you start working on the billable case, you should do the following:
 3.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 4.  Make sure that the business date in your system is set to 1/30/2026. If a different date is displayed, click the Business Date menu button in the top pane of the Acumatica ERP screen, and select 1/30/2026 in the calendar.
 
-## Step 1: Opening the Case { .section}
+## Step 1: Opening the Case
 
 To open the case for the request from the *STOREHUT* customer, do the following:
 
@@ -54,7 +54,7 @@ To open the case for the request from the *STOREHUT* customer, do the following:
 
 You have opened the case. Notice that in the Summary area of the [Cases](CR_30_60_00.md) form, the system has inserted *Open* in the **Status** box and *In Process* in the **Reason** box.
 
-## Step 2: Creating a Billable Email Associated with the Case { .section}
+## Step 2: Creating a Billable Email Associated with the Case
 
 Suppose that you have fixed the juicer and need to record the billable time for the repair in the system and inform the customer about the result of the repair and the time for the delivery of the juicer. For simplicity, you will create one email for these purposes.
 
@@ -96,7 +96,7 @@ To create a billable email associated with the case, do the following:
 9.  On the form toolbar, click **Save**.
 10. Close the form. The system returns you to the [Cases](CR_30_60_00.md) form with the case open.
 
-## Step 3: Creating a Billable Activity of the Work Item Type Associated with the Case { .section}
+## Step 3: Creating a Billable Activity of the Work Item Type Associated with the Case
 
 Suppose that your customer has confirmed the delivery of the juicer that you have repaired and you need to record the time for the delivery in the system.
 
@@ -116,7 +116,7 @@ To create a billable activity of the *Work Item* type, do the following:
 12. On the form toolbar, click **Save**.
 13. Close the form. The system returns you to the [Cases](CR_30_60_00.md) form. Notice that a row with the *Work Item* type has been added to the table on the **Activities** tab of the [Cases](CR_30_60_00.md) form for the case.
 
-## Step 4: Closing the Case { .section}
+## Step 4: Closing the Case
 
 To close the case for the *STOREHUT* customer, do the following:
 
@@ -127,7 +127,7 @@ To close the case for the *STOREHUT* customer, do the following:
 
 You have closed the case. Now you can bill your customer for the repair of the juicer by releasing the case, which causes the system to create an invoice. Notice that in the Summary area of the [Cases](CR_30_60_00.md) form, the system has inserted *Closed* in the **Status** box and *Resolved* in the **Reason** box.
 
-## Step 5: Releasing the Case { .section}
+## Step 5: Releasing the Case
 
 To release the *Request for juicer repair from Storehut* case, do the following:
 
@@ -145,7 +145,7 @@ To release the *Request for juicer repair from Storehut* case, do the following:
     It may take some time for the system to release the case. When the case has been released, you will see a notification with a green vertical bar and a message indicating successful processing. In the **Status** box of the Summary area, the system changes the status of the case to *Released*. On the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, the system creates an invoice associated with the case.
 
 
-## Step 6: Viewing the Case-Based Invoice { .section}
+## Step 6: Viewing the Case-Based Invoice
 
 To view the invoice associated with the *Request for juicer repair from Storehut* case, do the following:
 
@@ -156,7 +156,6 @@ To view the invoice associated with the *Request for juicer repair from Storehut
     -   **Unit Price**: The rate for the works performed
     -   **UOM**: HOUR
     -   **Quantity**: The number of hours that were spent to resolve the case
-    ![](Images/activity_CRM_Mktg_Case-Based_Invoice.png "The case-based invoice")
 
 
 **Parent topic:**[Managing Cases](../UserGuide/CRM_Support_Managing_Cases_Mapref.md)

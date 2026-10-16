@@ -1,4 +1,4 @@
-# Date and Time {#_125457f6-3fd1-4f3a-8686-0210713c0bb4 .concept}
+# Date and Time
 
 In this chapter, you will learn about the configuration of date and time controls. You will develop an understanding of when to use date and time controls and how to name them.
 

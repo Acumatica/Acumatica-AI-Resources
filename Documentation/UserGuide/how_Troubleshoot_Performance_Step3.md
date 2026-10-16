@@ -1,4 +1,4 @@
-# Step 3: Check the Configuration of the Application Server {#_3476d2eb-0feb-404c-9a3a-51996bd11162 .task}
+# Step 3: Check the Configuration of the Application Server
 
 Several settings of the application server may be configured incorrectly, leading to the performance slowdown.
 
@@ -12,7 +12,6 @@ You should enable dynamic content compression, which is disabled by default. The
 
 Click **Start** &gt; **Control Panel** &gt; **Programs** &gt; **Turn Windows features on or off**. In the **Windows Features** dialog box, which opens, select the **Dynamic Content Compression** check box \(**Internet Information Services** &gt; **World Wide Web Services** &gt; **Performance Features**\), which is shown in the following screenshot.
 
-![](Images/DynamicContentCompression.png "Dynamic Content Compression option")
 
 **To use a dedicated application pool:**
 

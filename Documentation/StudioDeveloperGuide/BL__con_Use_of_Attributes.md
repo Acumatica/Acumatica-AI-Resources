@@ -1,8 +1,8 @@
-# Use of Attributes {#_5a036000-ca13-4c75-be1c-ac02d819ddce .concept}
+# Use of Attributes
 
 To apply the attribute business logic to an entity, you should place the attribute on the entity declaration. At runtime, you can call the static methods of a particular attribute to adjust the attribute's behavior.
 
-## Attributes on the Entity Declaration { .section}
+## Attributes on the Entity Declaration
 
 An attribute may be placed on a declaration of a class or a class member, with or without parameters. The parameters that are possible for an attribute depend on the constructor parameters and the properties defined in the attribute. The parameters of the selected constructor are placed first without names, and the named property settings follow them, as shown in the following example.
 
@@ -13,7 +13,7 @@ public virtual Boolean? Released { get; set; }
 
 Here the PXDefault attribute is created with the constructor that takes a Boolean-type parameter \(set to false\). Additionally, the PersistingCheck property is specified.
 
-## Setting of Attribute Properties at Runtime { .section}
+## Setting of Attribute Properties at Runtime
 
 You should call static methods defined in the attribute class to change the properties at runtime. The static methods can affect a single attribute instance or multiple attribute instances related to a specific data record or all data records in a particular cache object. The following example shows an invocation of a static method.
 

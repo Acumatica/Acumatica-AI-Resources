@@ -1,8 +1,8 @@
-# Screen Configuration: Restrictions of the Configure Method {#_a938fce2-cb74-4690-806c-dbd686d86af4 .concept}
+# Screen Configuration: Restrictions of the Configure Method
 
 You should be aware of the limitations of the Configure method when you are working with it. These limitations are described in the following sections.
 
-## Creation of Graph Instances and Base Graph Access { .section}
+## Creation of Graph Instances and Base Graph Access
 
 Inside the Configure method, you should not create a graph instance or access the `Base` graph because either of these actions can lead to deadlocks. If you need to read data from the database, you can use database slots by doing the following:
 
@@ -42,7 +42,7 @@ The code above has done the following:
 
 For more information on database slots, see [Use of Slots to Cache Data Objects](../StudioDeveloperGuide/AD__con_Using_Slots_to_Cache_Data.md).
 
-## Customization with the PXOverride Mechanism { .section}
+## Customization with the PXOverride Mechanism
 
 The Configure method cannot be customized with the PXOverride mechanism, despite being a public virtual extension method. The place in the platform where the Configure method is called does not support PXOverride extensions of the method. Thus, we recommend that you explicitly use the `sealed` modifier in C\# when you are overriding the Configure method. The following code shows the recommended way of overriding the Configure method.
 
@@ -56,7 +56,7 @@ Configure(config.GetScreenConfigurationContext<TGraph, TPrimaryEntity>());
 
 ```
 
-## Access to an Instance State { .section}
+## Access to an Instance State
 
 The Configure method is executed on uninitialized graphs and graph extensions. You cannot access an instance state of a graph or a graph extension within the Configure method or within any methods called from it. This also means that you cannot access any instance fields or properties, including views and actions, of a graph or a graph extension, within the Configure method. You should thus configure a workflow in a static context, which means configuring it in a static method. This technique is illustrated in the following sample code, which expands on the code example in the preceding section of this topic.
 
@@ -79,7 +79,7 @@ public sealed override void Configure(PXScreenConfiguration config) =>
 
 **Important:** In addition to the restrictions regarding access to an instance state, current best practices forbid calling any instance methods from the Configure method. However, it should be noted that calling instance methods from the Configure method will not cause an error by itself, whereas accessing the instance state will lead to a runtime error.
 
-## Graph Class Hierarchy { .section}
+## Graph Class Hierarchy
 
 The Configure method is present both in graphs and graph extensions. The methods have the same signature. However, there are notable differences in how they behave at runtime. The Configure method in a graph is treated more like a static method than an instance virtual method by the Acumatica Framework. You can notice this phenomenon when working with a graph class hierarchy. Suppose that you have a `Base` graph and a `Derived` graph that is derived from the `Base` graph. The `Base` graph declares a workflow as shown in the following code.
 
@@ -105,7 +105,7 @@ The code above has defined the screen configuration for the base graph. However,
 
 It is important to note that overriding a graph's Configure method in a derived graph, as shown in the preceding code example, is not allowed. We recommend that you explicitly seal the `Base` graph's Configure method to prevent such override attempts. When the Configure method is used in graph extensions, the Acumatica Framework treats it like a normal virtual method. The caveats discussed above with regard to the Configure method in a graph do not apply in this instance, but you still should avoid relying on the Configure method's virtuality in a graph extension. You should instead explicitly seal the Configure method in graph extensions as well.
 
-## Order of Execution { .section}
+## Order of Execution
 
 The Configure method override in a graph is always executed first. The order of execution for multiple Configure methods declared in several graph extensions is defined by the way the graph extensions are chained and their explicit sort order. For more details, see [To Sort Multiple Generic Graph Extensions](../StudioDeveloperGuide/BL__how_Sort_Generic_Graph_Extensions.md)
 

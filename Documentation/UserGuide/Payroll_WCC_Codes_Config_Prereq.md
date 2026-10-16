@@ -1,12 +1,12 @@
-# Workers' Compensation Codes: Configuration Prerequisites {#_3646933c-1fcf-4b43-9fc6-c7167b146a68 .concept}
+# Workers' Compensation Codes: Configuration Prerequisites
 
 Before you start creating workers' compensation class codes, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Payroll* feature has been enabled.
 
-## Configuring the System { .section}
+## Configuring the System
 
 The following tasks have been performed in Acumatica ERP:
 

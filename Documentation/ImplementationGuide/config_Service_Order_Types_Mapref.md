@@ -1,4 +1,4 @@
-# Service Order Types {#_145c3da1-7cd5-443e-a36f-8e679f6a611b .concept}
+# Service Order Types
 
 As part of the minimum configuration of service management, you need to configure service order types, which provide the general settings for service orders and appointments of a particular type. Service order types make it easier to define service orders and appointments in the system and specify the appropriate settings for them.
 

@@ -1,8 +1,8 @@
-# Approval Configuration: Approval Maps {#_d2db53f8-d3ed-47fd-b34e-c743a59a4b83 .concept}
+# Approval Configuration: Approval Maps
 
 If the *Approval Workflow* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, you can use approval maps to assign records \(such as cash transactions, expense claims, time cards, and purchase orders\) to authorized employees for approval.
 
-## Supported Types of Maps { .section}
+## Supported Types of Maps
 
 Acumatica ERP supports multiple types of maps that may include any number of steps, rules, and conditions for assigning a record to a qualified employee for processing or for approval. The [Assignment and Approval Maps](../UserGuide/EP_20_55_00.md) \(EP205500\) form is the staring point for creating maps and viewing the maps that currently exist in the system. You can click the link in the **Map Name** column to open the map on the form where it was created.
 
@@ -14,7 +14,7 @@ Each map listed on the form has a map type, which can be one of the following:
 
 By clicking the **Add Approval Map** button on the form toolbar of the [Assignment and Approval Maps](../UserGuide/EP_20_55_00.md) form, you can open a separate entry form, [Approval Maps](../UserGuide/EP_20_50_15.md) \(EP205015\), where you can start creating a new approval map.
 
-## Approval Maps { .section}
+## Approval Maps
 
 You can create a new approval map or modify an existing one by using the [Approval Maps](../UserGuide/EP_20_50_15.md) \(EP205015\) form.
 
@@ -34,17 +34,17 @@ For example, suppose that in a small business, all purchase orders with an amoun
 
 When approvals have been configured for a particular record type, the approval details are shown on the approval-related tab \(labeled as **Approval** or **Approvals**\) of the corresponding entry form. While viewing a record on this form, users can go to this tab to view all approvers assigned to the record, along with the approval date, status, and reason for each approver. By using the **Column Configuration** dialog box, users can also view columns showing which approval map and which step and rule in this map caused this approver to be assigned.
 
-## Map Execution Issues { .section}
+## Map Execution Issues
 
 Any issues that occur during the execution of an approval map are recorded in the Acumatica ERP trace log. You can open the trace log by clicking **Help** &gt; **Trace** on the form title bar.
 
-## Document Approval { .section}
+## Document Approval
 
 The appointed approvers can approve documents by using the [Approvals](../UserGuide/EP_50_30_10.md) \(EP503010\) form; only users authorized to approve documents should have access rights to this form.
 
 **Tip:** Alternatively, a user can approve a record by opening it on the appropriate entry form if they have the needed access rights to the form.
 
-## Reassignment of Approvals { .section}
+## Reassignment of Approvals
 
 In Acumatica ERP, employees can reassign their approval requests to other employees or create additional approval requests as exceptions to the normal approval flow on a temporary basis.
 

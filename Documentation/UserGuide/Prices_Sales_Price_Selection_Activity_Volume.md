@@ -1,10 +1,10 @@
-# Sales Prices: To Explore Volume-Based Prices {#_cee56c19-e21c-4e5b-91e1-d880f94ab506 .task}
+# Sales Prices: To Explore Volume-Based Prices
 
 In this activity, you will learn how to define volume-based sales prices for a particular stock item.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that on December 2, 2025, the SweetLife Fruits &amp; Jams company decided to introduce volume-based prices for 32-ounce jars of orange jam.
 
@@ -14,7 +14,7 @@ Acting as SweetLife's accountant, you need to define the following prices in the
 -   From 5 to 9 pieces: $12.00
 -   More than 9 pieces: $10.00
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -25,13 +25,13 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the **Shipping** tab of the [Customers](AR_30_30_00.md) \(AR303000\) form, the *GOODFOOD* customer has been created and assigned to the *LOCAL* customer price class.
 -   On the [Warehouses](IN_20_40_00.md) \(IN204000\) form, the *WHOLESALE* warehouse has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 First, you will view the sales prices that have been defined for a particular stock item on the [Sales Prices](AR_20_20_00.md) \(AR202000\) form. Then on the same form, you will enter volume-based prices for this stock item.
 
 To test the volume-based prices you have entered, you will create a sales order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, and add lines with different quantities to make sure that the system uses the needed prices for each line.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -39,7 +39,7 @@ To prepare the system, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *12/2/2025*. If a different date is displayed, click the Business Date menu button and select *12/2/2025*. For simplicity, in this lesson, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu button to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Viewing the Sales Prices of a Particular Stock Item { .section}
+## Step 1: Viewing the Sales Prices of a Particular Stock Item
 
 To view the sales price that has been defined for the *ORJAM32* stock item and set its expiration date, do the following:
 
@@ -51,7 +51,7 @@ To view the sales price that has been defined for the *ORJAM32* stock item and s
 3.  In the **Expiration Date** column, select *12/1/2025.*
 4.  On the form toolbar, click **Save**. Notice that the price has disappeared from the list because it is no longer active on the date that is selected in the **Effective As Of** box.
 
-## Step 2: Defining Volume-Based Prices for a Particular Stock Item { .section}
+## Step 2: Defining Volume-Based Prices for a Particular Stock Item
 
 To define volume-based prices for the *ORJAM32* stock item, do the following.
 
@@ -85,7 +85,7 @@ To define volume-based prices for the *ORJAM32* stock item, do the following.
     -   $12.00 for 5 to 9 pieces
     -   $10.00 for more than 9 pieces
 
-## Step 3: Creating a Sales Order {#section_lzq_3z5_3pb .section}
+## Step 3: Creating a Sales Order
 
 To begin the creation of a sales order in order to test the prices of different quantities of the *ORJAM32* stock item, do the following:
 
@@ -123,7 +123,6 @@ To begin the creation of a sales order in order to test the prices of different 
     -   **Quantity**: `15`
     In the **Unit Price** column, the system has inserted the price you specified in Step 2 on the [Sales Prices](AR_20_20_00.md) form for the break quantity of *10*, which means that the unit price is $10 when the quantity of this stock item in the order line is 10 or more \(see the following screenshot\).
 
-    ![](Images/activity_Prices_Sales_Price_Selection_Volume.png "The suggested unit price based on the ordered quantity")
 
 6.  Close the form without saving your changes to the sales order, which was created solely for testing purposes.
 

@@ -1,14 +1,14 @@
-# Route Service Contracts: Renewal of a Service Contract {#_b31bf0f2-1776-43e7-a867-4a5d51224dfb .concept}
+# Route Service Contracts: Renewal of a Service Contract
 
 In Acumatica ERP, you can create and process a renewable service contract.
 
 In the following sections of this topic, the capability is described in detail for service contracts created on the [Service Contracts](../Shared/../UserGuide/FS_30_57_00.md) \(FS305700\) form. The capability works similarly for a route service contract created on the [Route Service Contracts](../Shared/../UserGuide/FS_30_08_00.md) \(FS300800\) form.
 
-## Creation of a Renewable Service Contract { .section}
+## Creation of a Renewable Service Contract
 
 You create a renewable service contract on the [Service Contracts](../Shared/../UserGuide/FS_30_57_00.md) \(FS305700\) form. When creating a service contract, on the **Summary** tab of the form, you select the *Renewable* option in the **Expiration Type** box, which causes the **Duration** box to appear on the form. In this box, you specify the time period until the next expiration date. Once you save and activate the service contract, the system inserts the date in the **Expiration Date** box, which is calculated based on the specified duration.
 
-## Renewal of a Service Contract { .section}
+## Renewal of a Service Contract
 
 You can renew a service contract with the *Active* status before or after its expiration date. On the More menu of the [Service Contracts](../Shared/../UserGuide/FS_30_57_00.md) \(FS305700\) form, you click the **Renew** command \(under **Processing**\). This command is available when a renewable service contract—one with *Renewable* selected in the **Expiration Type** box in the **Contract Settings** section—has been activated.
 

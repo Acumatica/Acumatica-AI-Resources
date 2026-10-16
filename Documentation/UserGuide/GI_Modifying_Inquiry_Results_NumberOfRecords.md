@@ -1,8 +1,8 @@
-# Modification of Inquiry Results: The Number of Records Shown {#_262af0ec-bdd2-4f41-8edf-16aa5cc17f21 .concept}
+# Modification of Inquiry Results: The Number of Records Shown
 
 On the **Interface Options** tab of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form, you can limit the number of records to be listed in the inquiry results.
 
-## Maximum Number of Records to Be Displayed { .section}
+## Maximum Number of Records to Be Displayed
 
 In the **Select Top** box on the **Interface Options** tab of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form, you specify the maximum number of records to be displayed in the table showing the inquiry results. The remaining rows of the inquiry results will not be shown at all. For example, if the specified value is *20*, the system displays the first 20 results.
 
@@ -14,7 +14,7 @@ For details, see [Applying Sorting and Grouping](GI_Sorting_and_Grouping_Mapref.
 
 **Tip:** When a user is viewing a generic inquiry form, if the number of displayed records is limited by the **Select Top** box, a warning icon is displayed indicating this.
 
-## Number of Records per Page { .section}
+## Number of Records per Page
 
 In the **Records per Page** box on the **Interface Options** tab of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form, you specify the number of records the system displays per page in the inquiry results. You specify this setting to make it convenient for users to view the inquiry results. If you specify a number of records that cannot fit on a page, a scroll bar will be shown.
 

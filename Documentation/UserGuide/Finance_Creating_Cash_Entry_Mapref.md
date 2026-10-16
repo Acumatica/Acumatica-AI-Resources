@@ -1,4 +1,4 @@
-# Processing Cash Entries {#_09ac85d6-31bb-4f8f-b39a-ac042991561b .concept}
+# Processing Cash Entries
 
 In the topics of this chapter, you will read about how to record cash entries of the *Disbursement* and *Receipt* types and how the system processes them further.
 

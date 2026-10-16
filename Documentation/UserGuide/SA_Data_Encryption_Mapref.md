@@ -1,4 +1,4 @@
-# Encrypting Data with Digital Certificates {#_c89c647d-d5ae-4360-9157-731dba978ee0 .concept}
+# Encrypting Data with Digital Certificates
 
 With Acumatica ERP, you can encrypt the most sensitive data and use encryption certificates to sign the generated PDF files.
 

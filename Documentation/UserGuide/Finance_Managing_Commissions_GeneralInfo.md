@@ -1,4 +1,4 @@
-# Managing Commissions: General Information {#_19132e46-6ca0-4a58-8c47-de4babe65733 .concept}
+# Managing Commissions: General Information
 
 Commission configuration involves defining commission periods, creating salesperson accounts, assigning salespeople to customers, and specifying general commission calculation options.
 
@@ -8,7 +8,7 @@ On the [Salespersons](AR_20_50_00.md) form, you also assign a default commission
 
 Generally, AR invoices, sales invoices, and sales orders contain information about the salespeople associated with the sale and their commissions.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -16,11 +16,11 @@ In this chapter, you will learn how to do the following:
 -   Enter a commissionable invoice
 -   Prepare and calculate a commission for a salesperson
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You set up commissions in your system if you want to pay commissions to salespeople for released invoices or released payments for invoices.
 
-## Commission Setup { .section}
+## Commission Setup
 
 Generally, commission is calculated once in a commission period, just before the period is closed. In Acumatica ERP, you specify the commission period for all salespeople on the **General** tab of the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, with the following options available: *By Financial Period*, *Monthly*, *Quarterly*, and *Yearly*.
 
@@ -31,7 +31,7 @@ Some businesses pay commissions calculated on invoice amounts, while other busin
 -   *Invoice*: Commission is calculated on the invoice amount when the invoice is released.
 -   *Payment*: Commission is calculated for each full or partial payment made for the invoice when the payment is released. The commission base equals the paid amount.
 
-## Commission Preparation {#section_vdt_4jv_vxb .section}
+## Commission Preparation
 
 Before calculating commissions to salespeople for the commission period, you need to collect commission information over all invoices that were released \(or closed if commissions are based on paid invoices\) during the commission period. Each document contains the commission details calculated based on the commission percentages of salespeople associated with the document. Commissions are prepared on the [Calculate Commissions](AR_50_55_00.md) \(AR505500\) form.
 
@@ -43,7 +43,7 @@ During commission preparation, the documents \(invoices or payments\) for which 
 
 Once commissions have been prepared, the commission period should be closed on the [Close Commission Period](AR_50_65_00.md) \(AR506500\) form. On this form, you can also view information about commissions earned by salespeople during any of the closed commission periods.
 
-## Commission Calculation { .section}
+## Commission Calculation
 
 To calculate commissions for the commission period, you use the [Calculate Commissions](AR_50_55_00.md) \(AR505500\) form.
 
@@ -59,7 +59,7 @@ Suppose that the commission percentage is 2%, a $1,000 credit memo with a $30 ca
 
 **Attention:** If commissions are calculated by payments, payment documents with the *Balance Write-Off* and *Voided Balance Write-Off* types are not included in the commission calculation. For example, if the invoice total is $1,000, $990 was paid, and $10 was written off, the $10 amount will be excluded from commission calculation.
 
-## Selection of a Salesperson at the Document Level { .section}
+## Selection of a Salesperson at the Document Level
 
 You can select a salesperson or multiple salespeople for a particular document or document line. To do this, you perform the following instructions on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\), [Invoices](SO_30_30_00.md) \(SO303000\), or [Sales Orders](SO_30_10_00.md) \(SO301000\) form:
 
@@ -69,7 +69,7 @@ You can select a salesperson or multiple salespeople for a particular document o
 
 2.  In the **Commission %** column of the **Commissions** tab, you manually specify the needed commission percentage for each of the added salespeople. By default, the system will insert the customer-specific percentage specified on the **Salespersons** tab of the [Customers](AR_30_30_00.md) form, if one has been specified. The commission percentage for each salesperson is also displayed on the **Customers** tab of the [Salespersons](AR_20_50_00.md) \(AR205000\) form. If no customer-specific percentage has been specified, the system will insert the commission percentage specified for the salesperson in the Summary area of the [Salespersons](AR_20_50_00.md) form.
 
-## Commission Recalculation {#section_d2t_4jv_vxb .section}
+## Commission Recalculation
 
 If errors in assigning documents to salespeople are detected or important documents arrive later, you may need to recalculate commissions.
 

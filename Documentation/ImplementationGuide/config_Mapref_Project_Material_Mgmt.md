@@ -1,4 +1,4 @@
-# Implementing Project Material Management {#_15628391-fcde-4634-ba21-a3d2d686b310 .concept}
+# Implementing Project Material Management
 
 The topics of this chapter describe the minimum configuration of project material management.
 

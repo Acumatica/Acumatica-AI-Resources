@@ -97,7 +97,7 @@ The DLL was compiled against an older `PX.Objects.dll` whose types moved or were
 No need to hand-craft the Files-node XML schema. `BuildProject`'s `/include` / `/includeDirectory` are
 built for exactly this:
 
-```bash
+```powershell
 PX.CommandLine.exe /website "<site>" /method BuildProject /in "<project folder>" /out "<package.zip>" /include "<dll path>" "Bin\<dll name>"
 ```
 

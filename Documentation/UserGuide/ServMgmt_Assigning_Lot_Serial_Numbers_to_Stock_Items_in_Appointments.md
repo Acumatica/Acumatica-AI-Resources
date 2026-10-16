@@ -1,8 +1,8 @@
-# Assigning Lot and Serial Numbers in Appointments {#_75296e58-be30-41ae-8edb-2bcc2907ae1b .concept}
+# Assigning Lot and Serial Numbers in Appointments
 
 In Acumatica ERP, you can assign lot or serial numbers to stock items directly in an appointment on the [Appointments](FS_30_02_00.md) \(FS300200\) form. This is useful when the specific unit to be installed or used at a customer site is not known until the technician performs the work.
 
-## Before You Begin { .section}
+## Before You Begin
 
 To assign lot or serial numbers in appointments, the following conditions must be met:
 
@@ -12,7 +12,7 @@ To assign lot or serial numbers in appointments, the following conditions must b
     -   *When Used* selected as the assignment method.
 -   The functionality applies only if the customer has a billing cycle set up to process billing for appointments.
 
-## Methods for Generating Lot or Serial Numbers on the Appointments Form { .section}
+## Methods for Generating Lot or Serial Numbers on the Appointments Form
 
 On the [Appointments](FS_30_02_00.md) \(FS300200\) form, you can view or generate lot or serial numbers for a stock item by clicking the item on the **Details** tab and then clicking **Lot/Serial Nbrs.** on the table toolbar. Lot or serial numbers for stock items can be generated either manually or automatically, depending on the state of the **Auto-Generate Next Number** check box in the stock item's lot or serial class on the [Lot/Serial Classes](IN_20_70_00.md) \(IN207000\) form:
 
@@ -24,7 +24,6 @@ On the [Appointments](FS_30_02_00.md) \(FS300200\) form, you can view or generat
 
     When you click **Generate**, the system generates lot or serial numbers for the specified quantity of the stock item and displays the numbers in the **Lot/Serial Nbr.** column. In the following screenshot, serial numbers have been generated. \(Note that the system generates a single lot number for all units of the selected item and lists it in the only row.\)
 
-    ![](Images/ServMgmt_Appointment_New_Elements_Lot_Serial_Numbers_Generated.png "The generated serial numbers")
 
     If a serial number is generated for a single unit of the stock item, the system creates one serial number and inserts it in the **Lot/Serial Nbr.** column of the item's line on the **Details** tab of the [Appointments](FS_30_02_00.md) form.
 

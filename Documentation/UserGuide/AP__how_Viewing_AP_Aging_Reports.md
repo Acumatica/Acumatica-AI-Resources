@@ -1,4 +1,4 @@
-# To Run AP Aging Reports {#_f40ed477-c0a3-4fd4-a769-7d132c175264 .task}
+# To Run AP Aging Reports
 
 You can use multiple AP aging reports, depending on such factors as which currency you would like to view outstanding and past due balances in, and whether balances will be broken down by days outstanding or days past due. This topic provides instructions for using the following reports:
 
@@ -8,7 +8,7 @@ You can use multiple AP aging reports, depending on such factors as which curren
 -   [AP Coming Due MC](AP_63_16_00.md) \(AP631600\)
 -   [AP Aged Period-Sensitive](AP_63_05_00.md) \(AP630500\)
 
-## To Run the AP Aging Report in the Base Currency {#1 .section}
+## To Run the AP Aging Report in the Base Currency
 
 1.  Open the [AP Aging](../Shared/../UserGuide/AP_63_10_00.md) \(AP631000\) report.
 2.  On the **Report Parameters** tab, do the following:
@@ -25,7 +25,7 @@ You can use multiple AP aging reports, depending on such factors as which curren
     The report displays the list of vendors with past-due balances. Balances are broken down by days past due on the specified date, and all amounts are displayed in the base currency.
 
 
-## To Run the Multicurrency AP Aging MC Report {#2 .section}
+## To Run the Multicurrency AP Aging MC Report
 
 1.  Open the [AP Aging MC](../Shared/../UserGuide/AP_63_11_00.md) \(AP631100\) report.
 2.  On the **Report Parameters** tab, do the following:
@@ -41,7 +41,7 @@ You can use multiple AP aging reports, depending on such factors as which curren
     The report displays the list of the vendors with past-due balances, which are broken down by days past due on the specified aging date. The amounts are displayed in the documents' currencies and in the base currency.
 
 
-## To Run the AP Coming Due Report in the Base Currency {#3 .section}
+## To Run the AP Coming Due Report in the Base Currency
 
 1.  Open the [AP Coming Due](../Shared/../UserGuide/AP_63_15_00.md) \(AP631500\) report.
 2.  On the **Report Parameters** tab, do the following:
@@ -57,7 +57,7 @@ You can use multiple AP aging reports, depending on such factors as which curren
     The report displays the list of the vendors with outstanding balances, which are broken down by days outstanding with respect to the specified aging date. The amounts are displayed in the base currency.
 
 
-## To Run the Multicurrency AP Coming Due Report {#4 .section}
+## To Run the Multicurrency AP Coming Due Report
 
 1.  Open the [AP Coming Due MC](../Shared/../UserGuide/AP_63_16_00.md) \(AP631600\) report.
 2.  On the **Report Parameters** tab, do the following:
@@ -73,7 +73,7 @@ You can use multiple AP aging reports, depending on such factors as which curren
     The report displays the list of the vendors with outstanding balances, which are broken down by days outstanding with respect to the specified aging date. The amounts are displayed in the documents' currencies and in the base currency.
 
 
-## To Run the AP Aged Period Sensitive Report {#5 .section}
+## To Run the AP Aged Period Sensitive Report
 
 1.  Open the [AP Aged Period-Sensitive](AP_63_05_00.md) \(AP630500\) report.
 2.  In the **Financial Period** box, select a financial period. The system uses the selected period to calculate the aging categories for the documents.

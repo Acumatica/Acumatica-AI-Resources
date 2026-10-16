@@ -1,15 +1,15 @@
-# To Configure a Package {#_35b08cd3-94ab-456c-8132-fdf1a1a7c812 .task}
+# To Configure a Package
 
 You use the [Non-Stock Items](IN_20_20_00.md) \(IN202500\) or [Stock Items](IN_20_25_00.md) \(IN202000\) form to configure a package \(that is, a *multiple-deliverable arrangement*\) in the system.
 
-## Before You Proceed {#section_wwb_3jv_vxb .section}
+## Before You Proceed
 
 Before you configure the package, make sure of the following:
 
 -   All required deferral codes designed for configuring packages have been created in the system. For details, see [Managing Recognition for Packages](DR__con_Revenue_Recognition_for_Packages.md).
 -   All required items \(stock items or non-stock items\) to be part of the package have been created in the system.
 
-## To Create a Package {#section_zwb_3jv_vxb .section}
+## To Create a Package
 
 **Attention:** This section describes how to configure a package by using the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form. You can create a package similarly on the [Stock Items](IN_20_25_00.md) \(IN202500\) form.
 

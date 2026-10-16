@@ -1,4 +1,4 @@
-# Creating Billing Rules {#_a1fb6503-65b7-45a5-9239-597cdf8ef2e5 .concept}
+# Creating Billing Rules
 
 The billing procedure in Acumatica ERP is based on billing rules that specify the conditions for which the system calculates the amounts to be billed to customers. The topics of this chapter describe how to configure billing rules for projects.
 

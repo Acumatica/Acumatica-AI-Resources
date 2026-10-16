@@ -1,4 +1,4 @@
-# Setting Up the Dunning Process {#_487748f9-0af8-41d8-806f-5642b2a39437 .concept}
+# Setting Up the Dunning Process
 
 In this chapter, you will find general information on how to set up the dunning process, configuration prerequisites, and an activity that describes how to implement the dunning process for specific customers.
 

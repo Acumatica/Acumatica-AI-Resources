@@ -1,8 +1,8 @@
-# Sales with Returns: Mixed Orders and Related Documents {#_a8b8565f-23ed-441a-843d-aa9602185928 .concept}
+# Sales with Returns: Mixed Orders and Related Documents
 
 When you need to process a sale and a return in the same order, you create a mixed order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, create a payment or refund, and then create an invoice or credit memo. The following sections describe this processing in detail, including key settings of these documents.
 
-## Creation of a Mixed Order { .section}
+## Creation of a Mixed Order
 
 A mixed order in Acumatica ERP has an order type for which the *Mixed Order* automation behavior is specified on the **Template** tab of the [Order Types](SO_20_10_00.md) \(SO201000\) form. You can use the predefined *MO* order type, which has this automation behavior, for the processing of mixed orders. A mixed order does not support shipments because you use this order for counter sales. For details about order types, see [Sales Order Types: General Information](../ImplementationGuide/config_Sales_Order_Types_GeneralInfo.md).
 
@@ -17,7 +17,7 @@ You can add an item to be returned from the original invoice by clicking **Add I
 
 Depending on whether the order has a positive or negative balance, you then process either a customer payment or a customer refund. For details, see the next section.
 
-## Preparation of a Customer Payment or Refund for a Mixed Order { .section}
+## Preparation of a Customer Payment or Refund for a Mixed Order
 
 If a mixed order has the *Open* status, you can create a payment or refund by using the **Payments** tab of the [Sales Orders](SO_30_10_00.md) \(SO301000\) form as a starting point as follows:
 
@@ -28,7 +28,7 @@ You can delete an unreleased payment or unreleased refund from the system by cli
 
 Also, if a payment was made by credit card and the payment has the *Open* status, you can void the payment on the **Payments** tab of the [Sales Orders](SO_30_10_00.md) form by clicking the line with the payment, and then clicking the **Void Card Payment** button on the table toolbar.
 
-## Preparation of an Invoice or Credit Memo for a Mixed Order { .section}
+## Preparation of an Invoice or Credit Memo for a Mixed Order
 
 To prepare an invoice or a credit memo for a mixed order, you can click **Prepare Invoice** on the form toolbar of the [Sales Orders](SO_30_10_00.md) \(SO301000\) form. Depending on the order's balance, the system will create a document on the [Invoices](SO_30_30_00.md) \(SO303000\) form as follows:
 
@@ -37,7 +37,7 @@ To prepare an invoice or a credit memo for a mixed order, you can click **Prepar
 
 **Tip:** The type of document created depends on whether the **AR Document Type** setting on the **Template** tab of the [Order Types](SO_20_10_00.md) \(SO201000\) form contains *Invoice/Credit Memo* or *Cash Sale/Cash Return*.
 
-## Tracking of Return Documents Related to a Sales Order { .section}
+## Tracking of Return Documents Related to a Sales Order
 
 You can the track return documents related to a sales order on the Return Documents Related to Sales Order \(SO4010SP\) inquiry form. You open the form by clicking **Related Return Documents** on the side panel of either of the following:
 

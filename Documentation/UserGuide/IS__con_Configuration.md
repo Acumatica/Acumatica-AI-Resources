@@ -1,4 +1,4 @@
-# Configuration {#_54cba765-c5a7-43ce-be52-bc6d3b5984fb .concept}
+# Configuration
 
 Because Acumatica ERP provides built-in integration scenarios and a data provider that has been configured to work with basic installations of Acumatica ERP and Salesforce, you can quickly configure the integration of these systems. Immediately after configuration, you can start synchronizing the data between the two products.
 
@@ -8,7 +8,7 @@ In Salesforce, an administrator should configure authentication and create the c
 
 For details on the configuration process, see [Quick Configuration Steps](IS__con_Configuration_of_Integration.md).
 
-## Salesforce Sync Data Provider { .section}
+## Salesforce Sync Data Provider
 
 Acumatica ERP uses the *Salesforce Sync* data provider in the following cases:
 
@@ -21,18 +21,84 @@ In the case of synchronization through an integration scenario, a proper type of
 -   *Incremental - All Records*: Any record for which a matching record has been found in the other system becomes updated accordingly. For a record without a match, a matching record is created.
 -   *Incremental - New Only*: For any record for which no matching record has been found in the other system, such a matching record is created.
 
-## Specific Functions Available for Integration Scenarios { .section}
+## Specific Functions Available for Integration Scenarios
 
 The table below provides a list of specific functions that may be used in formulas in an integration scenario that uses the *Salesforce Sync* data provider. \(For more information about functions, see [Functions](IS__con_IS_Functions.md).\)
 
-|Scenario Type|Function|Description|
-|-------------|--------|-----------|
-|Export|GetEntityId\(\)|Returns the CD of the record that is being exported. Used as a value for a key field.|
-|GetSalesforceId\(\)|Returns the ID of the record in Salesforce that corresponds to the specified CD of the record in Acumatica ERP. Throws an exception when nothing is found.|
-|GetSalesforcePricebookEntryId\(\)|Returns the *PriceBookEntry* value that corresponds to the specified *ProductCode* and *PriceBookID* values, which are the identifiers of the matching records in Salesforce. Throws an exception when nothing is found.|
-|Import|GetEntityId\(\)|Returns the CD of the record that is being imported. Returns *0* if no local entity is found by *RemoteID*. Used as a value for a key field.|
-|GetEntityIdBySalesforceId\(string SalesforceID\)|Returns the CD of the record in Acumatica ERP that corresponds to the specified ID of the record in Salesforce. Throws an exception when nothing is found. Specified in key fields during the import of data.|
-|Any|SplitAddressStreet\(string Address, int maxLength, int index\)|Splits an address line into multiple text lines whose length does not exceed the *maxLength* value. *Index* indicates which of these lines should be used in the target record.|
+<table id="table_vd1_x32_3db"><thead><tr><th>
+
+Scenario Type
+
+</th><th>
+
+Function
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td rowspan="3">
+
+Export
+
+</td><td>
+
+GetEntityId\(\)
+
+</td><td>
+
+Returns the CD of the record that is being exported. Used as a value for a key field.
+
+</td></tr><tr><td>
+
+GetSalesforceId\(\)
+
+</td><td>
+
+Returns the ID of the record in Salesforce that corresponds to the specified CD of the record in Acumatica ERP. Throws an exception when nothing is found.
+
+</td></tr><tr><td>
+
+GetSalesforcePricebookEntryId\(\)
+
+</td><td>
+
+Returns the *PriceBookEntry* value that corresponds to the specified *ProductCode* and *PriceBookID* values, which are the identifiers of the matching records in Salesforce. Throws an exception when nothing is found.
+
+</td></tr><tr><td rowspan="2">
+
+Import
+
+</td><td>
+
+GetEntityId\(\)
+
+</td><td>
+
+Returns the CD of the record that is being imported. Returns *0* if no local entity is found by *RemoteID*. Used as a value for a key field.
+
+</td></tr><tr><td>
+
+GetEntityIdBySalesforceId\(string SalesforceID\)
+
+</td><td>
+
+Returns the CD of the record in Acumatica ERP that corresponds to the specified ID of the record in Salesforce. Throws an exception when nothing is found. Specified in key fields during the import of data.
+
+</td></tr><tr><td>
+
+Any
+
+</td><td>
+
+SplitAddressStreet\(string Address, int maxLength, int index\)
+
+</td><td>
+
+Splits an address line into multiple text lines whose length does not exceed the *maxLength* value. *Index* indicates which of these lines should be used in the target record.
+
+</td></tr></tbody>
+</table>
 
 **Parent topic:**[Overview of Synchronization with Salesforce](../UserGuide/IS__con_Integration_with_Salesforce.md)
 

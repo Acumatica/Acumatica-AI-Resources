@@ -1,10 +1,10 @@
-# Compliance Documents: Related Reports {#_93d7be53-1af8-46c3-b38d-02b5258d73f1 .concept}
+# Compliance Documents: Related Reports
 
 In the following sections, you can find details about the reports you may want to review to gather information about compliance.
 
 **Attention:** If you don’t see a particular report or form that is described, you may have signed in to the system with a user account that doesn’t have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms.
 
-## Printing Reports and Documents { .section}
+## Printing Reports and Documents
 
 To prepare a printable form of the compliance documents, you can use one of the following reports:
 

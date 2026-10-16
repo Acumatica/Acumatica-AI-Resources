@@ -1,4 +1,4 @@
-# Entry Types {#_97ab1f13-a528-4adf-9719-2b459a973d6c .concept}
+# Entry Types
 
 You use entry types to classify cash transactions for correct processing and to provide default values for transaction settings. Currently, entry types are user-defined only; future versions of Acumatica ERP may contain some predefined entry types.
 
@@ -14,7 +14,7 @@ You need to configure separate entry types for each operation listed below:
 
 In this topic, you will read about the configuration of entry types and the details of processing cash transactions that use entry types.
 
-## Configuration of Entry Types {#section_tr1_kjv_vxb .section}
+## Configuration of Entry Types
 
 In general, the configuration of entry types consists of the following steps:
 
@@ -27,7 +27,7 @@ In general, the configuration of entry types consists of the following steps:
 
 After configuration is done, you can proceed with recording cash transactions. The Acumatica ERP forms used for recording transactions that involve entry types are described for each particular entry type later in this topic and in the topics listed in the introduction.
 
-## Entry Types for Recording Cash Entries {#entry_types_for_cash .section}
+## Entry Types for Recording Cash Entries
 
 You use the [Cash Transactions](CA_30_40_00.md) \(CA304000\) form to record transactions that affect the balances of GL accounts. These transactions have the *Cash Entry* type. You can record customer payments, payments to vendors, bank charges, or interest earned. For details, see [Cash Entry Processing](CA__CON_CashEntry_Processing.md).
 
@@ -40,7 +40,7 @@ To configure an entry type for recording cash entries, you specify the following
 
 After you have created the entry type for recording cash entries, you need to associate it with the cash accounts that are involved in the respective cash transactions.
 
-## Entry Types for Recording Transactions {#entry_types_transactions .section}
+## Entry Types for Recording Transactions
 
 You use the **Create Transaction** button on the [Cash Account Details](CA_30_30_00.md) \(CA303000\) form to record a transaction for the cash account you select. On this form, you can record transactions that affect the balances of customers or vendors, as well as cash entry transactions. For details, see [Cash Entry Processing](CA__CON_CashEntry_Processing.md).
 
@@ -64,7 +64,7 @@ Here, too, there is no need to specify a default offset account or subaccount, b
 
 After you have created the entry type for recording transactions, you need to associate it with the cash accounts that are involved in the respective cash transactions.
 
-## Entry Types for Recording Finance Charges {#et_for_fin_charges .section}
+## Entry Types for Recording Finance Charges
 
 You use the following forms to record various finance charges:
 
@@ -90,7 +90,7 @@ To configure an entry type for recording finance charges, you specify the follow
 
 After you have created the entry type for recording finance charges, you need to associate it with the cash accounts that are involved in the respective cash transactions.
 
-## Entry Types for Recording Unknown Payments {#unknown_payments_et .section}
+## Entry Types for Recording Unknown Payments
 
 You use the [Cash Transactions](CA_30_40_00.md) \(CA304000\) form to record unknown payments. Such transactions have the *Cash Entry* type. For details on further processing, see [Reclassification of Unknown Payments](CA__con_Reclassification_of_Payments.md).
 

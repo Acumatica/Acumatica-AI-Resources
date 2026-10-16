@@ -1,4 +1,4 @@
-# Integrating with Esignature Providers {#_f33c7f1f-c5a5-4866-ae26-3b28c0d4b4ae .concept}
+# Integrating with Esignature Providers
 
 This lesson explains the setup of electronic document signing in Acumatica ERP—from obtaining API credentials in the provider's portal to configuring signing accounts and sending documents for signature. You will also learn how to track signing requests and retrieve signed documents back to the system.
 

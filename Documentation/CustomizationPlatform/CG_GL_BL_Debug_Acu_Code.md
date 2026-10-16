@@ -1,14 +1,14 @@
-# To View and Debug Acumatica ERP Source Code {#_40fcc931-64ac-4016-9d05-7426a22712da .task}
+# To View and Debug Acumatica ERP Source Code
 
 Acumatica ERP has open source code and you can easily view it with the Source Code browser. For details, see [Source Code](../UserGuide/SM_20_45_70.md) browser.
 
 However, in some cases, for example, when you need to find a method to override, it is helpful to debug Acumatica ERP source code with breakpoints and see which breakpoint is hit in which scenario. To be able to debug Acumatica ERP code, you should configure your extension library in Visual Studio.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 You can view and debug Acumatica ERP source code inside an extension library. Before you start configuring your extension library in Visual Studio, create it. For details, see [To Create an Extension Library](cg_platform_tocreateextensionlib.md).
 
-## To Configure the Extension Library { .section}
+## To Configure the Extension Library
 
 1.  Check whether the Acumatica debugger tools are installed and remember their location.
 
@@ -51,7 +51,7 @@ You can view and debug Acumatica ERP source code inside an extension library. Be
 
     5.  Click **OK**.
 
-## To Browse and Debug the Source Code { .section}
+## To Browse and Debug the Source Code
 
 After you have configured the extension library, you can view and debug source code of Acumatica ERP. Do the following:
 
@@ -73,7 +73,7 @@ After you have configured the extension library, you can view and debug source c
 
 6.  In Acumatica ERP, open a form on which the method being debugged is called and perform actions to hit the added breakpoint.
 
-## Other Tips on Debugging Acumatica ERP Code { .section}
+## Other Tips on Debugging Acumatica ERP Code
 
 Besides action methods like the `ARPaymentEntry.Release` method, you can debug event handlers implemented for attributes \(located in the `PX.Data` namespace\) and `{Get; Set;}` methods of DAC properties.
 

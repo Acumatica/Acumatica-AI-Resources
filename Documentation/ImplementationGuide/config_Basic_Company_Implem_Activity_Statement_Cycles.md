@@ -1,20 +1,20 @@
-# Accounts Receivable: To Create a Statement Cycle {#_98d9bb2a-43ff-40b7-bfbc-f0b49c771e6f .task}
+# Accounts Receivable: To Create a Statement Cycle
 
 In this activity, you will learn how to define a statement cycle in the system.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife company informs its customers about their current balances and outstanding documents by sending customers statements at the end of every month. In the statements, the outstanding customer documents should be broken down by the following aging periods: 0 to 10 days, 11 to 20 days, 21 to 30 days, and more than 30 days. The outstanding documents are aged based on their due dates. Acting as an administrator, you need to define the statement cycle in the system.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create a statement cycle on the [Statement Cycles](../UserGuide/AR_20_28_00.md) \(AR202800\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start defining statement cycles, make sure that the company has been created and its actual ledger has been specified; see [Company Without Branches: To Configure a Company Without Branches](config_Basic_Company_Implem_Activity_Enabling_Features.md) and [General Ledger: To Create an Actual Ledger](config_Basic_Company_Implem_Activity_Actual_Ledger.md).
 
-## Step: Defining a Statement Cycle { .section}
+## Step: Defining a Statement Cycle
 
 To define a statement cycle, do the following:
 

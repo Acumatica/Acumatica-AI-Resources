@@ -1,8 +1,8 @@
-# To Create a Cash Purchase {#_62296a88-19b5-468a-9460-91efd6b930d4 .task}
+# To Create a Cash Purchase
 
 You create can a cash purchase on the [Cash Purchases](AP_30_40_00.md) \(AP304000\) form.
 
-## To Create a Cash Purchase {#section_gkj_njv_vxb .section}
+## To Create a Cash Purchase
 
 1.  Open the [Cash Purchases](../Shared/../UserGuide/AP_30_40_00.md) \(AP304000\) form.
 2.  On the form toolbar, click **Add New Record**.
@@ -23,7 +23,7 @@ You create can a cash purchase on the [Cash Purchases](AP_30_40_00.md) \(AP30400
 10. In the **Payment Amount** box of the Summary area, enter the total amount of the cash purchase.
 11. On the form toolbar, click **Save** to save the document.
 
-## Notes About the Procedure {#section_hkj_njv_vxb .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

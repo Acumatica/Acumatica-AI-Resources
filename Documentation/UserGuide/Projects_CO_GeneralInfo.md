@@ -1,10 +1,10 @@
-# Single-Tier Change Management: General Information {#_63a25b5a-d87a-1234-bbd1-03a8937d40cd .concept}
+# Single-Tier Change Management: General Information
 
 In Acumatica ERP, you can use change orders to track changes to a project's budgeted and committed values and to control the profitability of each customer-initiated change. A change order is a document used for profitability analysis and for auditing changes to the project’s revenue budget, commitments, and cost budget.
 
 Change orders do not directly alter the original project values. They are tracked in separate project budget columns.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -15,13 +15,13 @@ In this chapter, you will learn how to do the following:
 -   Prevent direct purchases for a project
 -   Cancel a change order
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You want to control and track changes to the project budget and commitments at the budget level. To modify the project budget, you create change orders—which don’t alter the original budgeted and committed values.
 
 You want to prevent the direct creation of purchase orders for a project and instead create them through change orders. This approach tracks purchases as changes to the project budget.
 
-## Change Order Classes {#section_qkr_hkx_mcb .section}
+## Change Order Classes
 
 A change order class determines which project data—the revenue budget, the cost budget, commitments, or any combination of these—can be adjusted with a change order of this class.
 
@@ -41,7 +41,7 @@ Once you’ve created change order classes, you can specify the default change o
 
 In a new change order, you can override the default change order class. If no default change order class has been specified on the [Projects Preferences](PM_10_10_00.md) form, you must select the class manually on the [Change Orders](PM_30_80_00.md) \(PM308000\) form.
 
-## Preparing the System for the Change Order Workflow {#section_pbd_zbq_mcb .section}
+## Preparing the System for the Change Order Workflow
 
 To make it possible for users to track a project’s changes by using change orders, you select the **Change Order Workflow** check box on the **Summary** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form.
 
@@ -49,7 +49,7 @@ Once you’ve turned on this workflow for a project, you can create a change ord
 
 **Tip:** You can view a project’s latest change order number in the **Last Revenue Change Order Nbr.** box \(**Summary** tab\) of the [Projects](PM_30_10_00.md) form.
 
-## General Steps of Managing Changes to the Project Budget { .section}
+## General Steps of Managing Changes to the Project Budget
 
 Managing changes to the project budget consists of the following general steps:
 
@@ -68,11 +68,10 @@ Managing changes to the project budget consists of the following general steps:
 
 **Attention:** You can cancel a change order by clicking **Cancel** on the form toolbar of the [Change Orders](PM_30_80_00.md) form. The system assigns the change order the *Canceled* status and decreases the project’s potential change order \(CO\) values of the corresponding revenue and cost budget lines on the [Projects](PM_30_10_00.md) form.
 
-## Workflow of Managing Changes to the Project Budget {#section_i2l_d4p_mcb .section}
+## Workflow of Managing Changes to the Project Budget
 
 The following diagram illustrates the workflow of managing changes to the project budget.
 
-![](Images/diag_Projects_CO_Budget.png)
 
 **Parent topic:**[Tracking Changes to the Project Budget](../UserGuide/Projects_CO_Mapref.md)
 

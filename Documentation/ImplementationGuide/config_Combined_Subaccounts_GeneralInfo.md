@@ -1,36 +1,89 @@
-# Combined Subaccounts: General Information {#_f9429f96-d2fb-45fe-bc49-d15b996f1f7f .concept}
+# Combined Subaccounts: General Information
 
 With the combined subaccount functionality provided by Acumatica ERP, you can define masks that the system uses to form a combined subaccount from multiple subaccounts to track costs more specifically.
 
 When a user enters a document, such as a vendor bill or a customer invoice, into the system, multiple subaccounts are involved, such as the subaccount associated with the product being purchased or sold in each line, the subaccount associated with the employee entering the document, and the subaccount associated with the vendor or customer involved. If you have configured the combined subaccount functionality, the system will insert a particular subaccount that is a combination of the involved subaccounts that you have specified. During this configuration, you specify the masks that the system uses to compose new subaccount identifiers by using the segment values of each of the specified subaccounts.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to specify combined subaccount masks for different types of documents.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 If subaccounts have been configured in your system, you can speed up the entry of subaccounts by setting up the combined subaccount functionality for the types of documents listed in the following table. The combined subaccounts will be inserted into the appropriate columns on the listed forms for the corresponding document types.
 
-|Document Type|Forms and UI Elements Where Subaccounts Will Be Used|
-|-------------|----------------------------------------------------|
-|AP documents|[Bills and Adjustments](../UserGuide/AP_30_10_00.md) \(AP301000\): **Details** tab, **Subaccount** column|
-|AR documents|[Invoices and Memos](../UserGuide/AR_30_10_00.md) \(AR301000\): **Details** tab, **Subaccount** column|
-|Inventory transactions|[Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\): **GL Accounts** tab
+<table id="_82fb27b2-aff9-4cc6-8396-694929b25612"><thead><tr><th>
+
+Document Type
+
+</th><th>
+
+Forms and UI Elements Where Subaccounts Will Be Used
+
+</th></tr></thead><tbody><tr><td>
+
+AP documents
+
+</td><td>
+
+[Bills and Adjustments](../UserGuide/AP_30_10_00.md) \(AP301000\): **Details** tab, **Subaccount** column
+
+</td></tr><tr><td>
+
+AR documents
+
+</td><td>
+
+[Invoices and Memos](../UserGuide/AR_30_10_00.md) \(AR301000\): **Details** tab, **Subaccount** column
+
+</td></tr><tr><td>
+
+Inventory transactions
+
+</td><td>
+
+[Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\): **GL Accounts** tab
 
  [Item Warehouse Details](../UserGuide/IN_20_45_00.md) \(IN204500\): **General** tab, **Inventory Sub.** box
 
-|
-|Invoices prepared for sales orders|[Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\): **Details** tab, **Subaccount** column|
-|Bills prepared for purchase orders|[Bills and Adjustments](../UserGuide/AP_30_10_00.md) \(AP301000\): **Details** tab, **Subaccount** column|
-|Expense claims and expense receipts|[Expense Claim](../UserGuide/EP_30_10_00.md) \(EP301000\): **Details** tab, **Expense Sub.** box
+</td></tr><tr><td>
+
+Invoices prepared for sales orders
+
+</td><td>
+
+[Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\): **Details** tab, **Subaccount** column
+
+</td></tr><tr><td>
+
+Bills prepared for purchase orders
+
+</td><td>
+
+[Bills and Adjustments](../UserGuide/AP_30_10_00.md) \(AP301000\): **Details** tab, **Subaccount** column
+
+</td></tr><tr><td>
+
+Expense claims and expense receipts
+
+</td><td>
+
+[Expense Claim](../UserGuide/EP_30_10_00.md) \(EP301000\): **Details** tab, **Expense Sub.** box
 
  [Expense Receipt](../UserGuide/EP_30_10_20.md) \(EP301020\): **Details** tab, **Expense Sub.** box
 
-|
-|Project transactions|[Project Transactions](../UserGuide/PM_30_40_00.md) \(PM304000\): **Details** tab, **Debit Subaccount** and **Credit Subaccount** columns|
+</td></tr><tr><td>
 
-## Configuration of Combined Subaccounts { .section}
+Project transactions
+
+</td><td>
+
+[Project Transactions](../UserGuide/PM_30_40_00.md) \(PM304000\): **Details** tab, **Debit Subaccount** and **Credit Subaccount** columns
+
+</td></tr></tbody>
+</table>
+
+## Configuration of Combined Subaccounts
 
 For each type of documents for which you want to configure combined subaccounts, you specify the subaccount mask in the appropriate box on the Acumatica ERP form with the configuration settings for the functional area of the document type. \(In most cases, the needed form has a name that ends with *Preferences*.\) For example, to specify the combined expense subaccount to be used for AP document lines, you enter the mask in the **Combine Expense Sub. From** box on the [Accounts Payable Preferences](../UserGuide/AP_10_10_00.md) \(AP101000\) form.
 

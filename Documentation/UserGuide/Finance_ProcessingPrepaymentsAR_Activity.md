@@ -1,16 +1,16 @@
-# Invoice Prepayments: To Process a Prepayment {#_d169f522-d6eb-48d0-a2d5-2a789d1e0054 .task}
+# Invoice Prepayments: To Process a Prepayment
 
 In this activity, you will learn how to create a prepayment and apply it to an invoice.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_uhp_4jv_vxb .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company received a prepayment of $2,300 from one of its customers, Morning Cafe \(*MORNINGCAF*\) on January 12, 2026. On January 31, SweetLife sold a juicer to Morning Cafe and an invoice for $2,300 was entered in the system.
 
 Acting as a SweetLife accountant, you need to create and release a prepayment, and later, apply this prepayment to the customer's invoice, and then release the prepayment application.
 
-## Configuration Overview {#section_xhp_4jv_vxb .section}
+## Configuration Overview
 
 For the purposes of this activity, the following features have been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form:
 
@@ -22,11 +22,11 @@ On the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, the 
 
 On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *MORNINGCAF \(Morning Cafe\)* customer has been defined.
 
-## Process Overview {#section_b3p_4jv_vxb .section}
+## Process Overview
 
 On the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, you will create and release a prepayment for the needed customer. You will review the generated GL transaction on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form. You will then apply the prepayment manually to the customer's invoice and release the prepayment application. Finally, on the [Journal Transactions](GL_30_10_00.md) form, you will review the transaction generated on release of the prepayment application.
 
-## System Preparation {#section_d3p_4jv_vxb .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -36,7 +36,7 @@ To prepare the system, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/12/2026*. If a different date is displayed, click the Business Date menu button and select *1/12/2026*.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Creating and Releasing a Prepayment {#section_f3p_4jv_vxb .section}
+## Step 1: Creating and Releasing a Prepayment
 
 To create and release a prepayment, do the following:
 
@@ -60,7 +60,7 @@ To create and release a prepayment, do the following:
     The *10200* cash account specified for the prepayment has been debited with $2,300, while the *22100 \(Customer Deposit\)* account specified for the customer as the prepayment account has been credited in the same amount.
 
 
-## Step 2: Applying the Prepayment to an Invoice {#section_k3p_4jv_vxb .section}
+## Step 2: Applying the Prepayment to an Invoice
 
 To apply the prepayment to an invoice, do the following:
 
@@ -79,10 +79,9 @@ To apply the prepayment to an invoice, do the following:
 
     The released prepayment applied to the invoice is shown in the following screenshot.
 
-    ![](Images/activity_Finance_Processing_Prepayment_AR.png "The prepayment applied to the invoice before release of the prepayment application")
 
 
-## Step 3: Releasing the Prepayment Application {#section_p3p_4jv_vxb .section}
+## Step 3: Releasing the Prepayment Application
 
 To release the prepayment application to the invoice, do the following:
 

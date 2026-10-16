@@ -1,4 +1,4 @@
-# Preparing Entities for Synchronization: Updating Product Details {#_f70237b1-b8e9-445c-9548-21aa8844fab1 .concept}
+# Preparing Entities for Synchronization: Updating Product Details
 
 Before you export stock items and non-stock items to the online store, you might want to specify commerce-related settings that are specific to a particular product or specify commerce-related information.
 
@@ -10,8 +10,11 @@ For each stock or non-stock item, on the **eCommerce** tab, you can define the f
 
 -   The visibility of the product in the online store.
 
-    You define visibility by selecting the appropriate option in the **Visibility** box: *Visible* to make the product visible on the storefront, *Invisible* to hide it from customers.
+    You define visibility by selecting the appropriate option in the **Visibility** box:
 
+    -   *Visible*: Makes the product visible on the storefront
+    -   *Invisible*: Hides he product from customers
+    -   *Unlisted*: Hides the product from store search, collections, sales channels, internet searches, and Shopify catalog. Customers can still access the product through a direct URL.
     **Attention:** Shopify does not support featuring products, so the third option, *Featured*, will make the product visible on the storefront \(same as the *Visible* option\).
 
 -   The availability assigned to the item when it is exported to the online store.

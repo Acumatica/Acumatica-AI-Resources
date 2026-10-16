@@ -1,24 +1,24 @@
-# Corporate Cards: To Configure a Vendor for a Corporate Card {#_8f50f603-63b1-4cff-a44a-8837e4a6b8fd .task}
+# Corporate Cards: To Configure a Vendor for a Corporate Card
 
 In the following implementation activity, you will learn how to create the entities necessary for processing of expense receipts with corporate credit cards.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_c2l_njv_vxb .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company has opened a Visa corporate credit card issued by Key Bank to use the card to pay small amounts \(for example, for books purchased for the company\). The company's chief accountant wants to process and reconcile these payments in the system. Acting as an implementation manager, you need to configure the cash account and the payment method for tracking outgoing payments made through a corporate credit card.
 
 **Attention:** This activity explains how to configure the card issuer as a vendor. If the *Expense Management* feature is included in your license, you can instead configure a corporate credit card as described in [Corporate Cards: To Configure a Corporate Card](Corporate_Card_Implem_Activity_CorpCard.md).
 
-## Process Overview {#section_e2l_njv_vxb .section}
+## Process Overview
 
 In this activity, on the [Chart of Accounts](../UserGuide/GL_20_25_00.md) \(GL202500\) form, you will create a GL account for a corporate credit card. On the [Payment Methods](../UserGuide/CA_20_40_00.md) \(CA204000\) form, you will create a payment method for corporate credit cards. On the [Cash Accounts](../UserGuide/CA_20_20_00.md) \(CA202000\) form, you will create a cash account for the corporate credit card and specify the new payment method for it. Finally, on the [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\) form, you will create a vendor that represents the bank that issued the corporate credit card.
 
-## System Preparation {#section_g2l_njv_vxb .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as Kimberly Gibbs, an implementation manager, by using the *gibbs* username and the *123* password.
 
-## Step 1: Creating a GL Account for a Corporate Credit Card {#section_i2l_njv_vxb .section}
+## Step 1: Creating a GL Account for a Corporate Credit Card
 
 To create a GL account for a corporate credit card, do the following:
 
@@ -31,7 +31,7 @@ To create a GL account for a corporate credit card, do the following:
     -   **Post Option**: *Detail*
 3.  On the form toolbar, click **Save**.
 
-## Step 2: Creating a Payment Method {#section_k2l_njv_vxb .section}
+## Step 2: Creating a Payment Method
 
 To create a payment method for the corporate credit card, do the following:
 
@@ -59,7 +59,7 @@ To create a payment method for the corporate credit card, do the following:
 
 5.  On the form toolbar, click **Save**.
 
-## Step 3: Creating a Cash Account {#section_q2l_njv_vxb .section}
+## Step 3: Creating a Cash Account
 
 To create a cash account for a corporate credit card, do the following:
 
@@ -79,7 +79,7 @@ To create a cash account for a corporate credit card, do the following:
 6.  Click **Add Row** again and select *INTEREST* in the **Entry Type ID** column.
 7.  On the form toolbar, click **Save**.
 
-## Step 4: Creating a Vendor {#section_s2l_njv_vxb .section}
+## Step 4: Creating a Vendor
 
 To create a vendor that will represent the bank of the corporate credit card in the system, do the following:
 

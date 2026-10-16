@@ -1,10 +1,10 @@
-# Project Inventory Tracking by Warehouse Location: Purchases of Materials and Services {#_777935c4-458d-4663-ab7e-33ed0dd10f58 .concept}
+# Project Inventory Tracking by Warehouse Location: Purchases of Materials and Services
 
 In Acumatica ERP, you can purchase materials and services for a particular project so that these purchases will be recorded as commitments to the cost budget of the project. This helps you to track the amount of money and resources spent on the project against the budgeted values and the project profitability.
 
 The following sections explain how you process purchases for a project in which separate warehouse locations are configured for each project task.
 
-## Purchase of Materials and Services for a Project {#section_ewp_x4s_qqb .section}
+## Purchase of Materials and Services for a Project
 
 To process a purchase of materials and services for a project with these items being received to a warehouse, you use a purchase order of the *Normal* type. On the **Details** tab of the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form, to associate a purchase order line with a project, you specify the project and project task in the line. It is possible to process purchases for multiple projects with a single purchase order.
 
@@ -26,11 +26,10 @@ When the bill is released, for the purchase order lines of the *Service* type, t
 
 **Tip:** For the stock items, the system will record the actual values in the cost budget lines of the project when the items will be used for the project \(that is, when the inventory issue with these items will be released\).
 
-## Workflow of Purchasing Materials and Services for Projects {#section_i3l_d4p_mcb .section}
+## Workflow of Purchasing Materials and Services for Projects
 
 The following diagram illustrates the workflow of purchasing materials and services for projects using purchase orders.
 
-![](Images/diag_Projects_Purchases_PO.png)
 
 **Parent topic:**[Tracking Project Inventory by Warehouse Location](../UserGuide/Projects_Inventory_Locations_Mapref.md)
 

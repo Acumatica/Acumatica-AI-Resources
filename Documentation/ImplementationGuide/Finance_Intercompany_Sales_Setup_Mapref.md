@@ -1,4 +1,4 @@
-# Intercompany Sales {#_cc41f55b-7d62-48a1-bc23-3302c588d0e8 .concept}
+# Intercompany Sales
 
 The topics of this chapter describe how to set up the intercompany sales functionality in Acumatica ERP, which gives users the ability to record the sales of goods and services between related companies or branches of related companies.
 

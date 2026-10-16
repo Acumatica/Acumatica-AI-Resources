@@ -1,4 +1,4 @@
-# Revising a Budget: Implementation Checklist {#_adfa6ab5-5551-4de7-9635-0af9937c6691 .concept}
+# Revising a Budget: Implementation Checklist
 
 The following table provides details you can use to ensure that the system is configured properly for the revising of a budget.
 

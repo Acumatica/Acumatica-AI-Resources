@@ -1,8 +1,8 @@
-# Pro Forma Invoices: Generated Transactions {#_ac5ef55a-4321-4a8b-ac25-6b22618a71ba .concept}
+# Pro Forma Invoices: Generated Transactions
 
 The release of a pro forma invoice does not generate general ledger transactions or project transactions directly. When you release the pro forma invoice, the system creates a corresponding accounts receivable invoice with all the information copied from the pro forma invoice. On release of the accounts receivable invoice, the system generates the general ledger transactions and project transactions described in the following sections.
 
-## GL Transactions Generated on Release of an AR Invoice { .section}
+## GL Transactions Generated on Release of an AR Invoice
 
 When an accounts receivable invoice that has been created based on a pro forma invoice is released, the system generates a batch of the general ledger transactions shown in the table below.
 
@@ -18,7 +18,7 @@ The system uses the following accounts as the source accounts in the GL batch it
 
 You can view the details of the batch associated with the release of an invoice by clicking the link in the **Batch Nbr.** box on the **Financial** tab \(**Link to GL** section\) of the [Invoices and Memos](AR_30_10_00.md) form. The system opens the batch on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## Project Transactions Generated on Release of the GL Batch { .section}
+## Project Transactions Generated on Release of the GL Batch
 
 On release of the batch of general ledger transactions, the system generates a corresponding batch of the project transactions shown in the following table.
 

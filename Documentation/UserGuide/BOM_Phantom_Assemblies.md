@@ -1,10 +1,10 @@
-# Bills of Material: Phantom Assemblies {#_2c8f752b-95c8-4818-8f87-41985f5f346d .concept}
+# Bills of Material: Phantom Assemblies
 
 A multilevel bill of material \(BOM\) can include *phantom assemblies*, which are used to represent intermediate structures and processing steps without requiring separate production or inventory tracking.
 
 A phantom assembly is an assembly that serves as a logical grouping of components rather than a physical item that is built, stocked, or issued independently. When an assembly is defined as phantom, the system does not create a separate production order for it. Instead, the phantom assembly explodes into its components when a production order is created for the parent item.
 
-## Phantom Assemblies { .section}
+## Phantom Assemblies
 
 Phantom assemblies are commonly used to:
 
@@ -18,7 +18,7 @@ Because phantom assemblies are defined structurally but processed dynamically:
 -   Schedule durations may vary depending on phantom assembly quantity requirements
 -   Production costs increase proportionally as phantom assemblies roll up across BOM levels
 
-## Configuring Phantom Assemblies { .section}
+## Configuring Phantom Assemblies
 
 In Acumatica ERP, an assembly is treated as a phantom assembly when all of the following settings are specified on the **Materials** tab of the [Bill of Material](AM_20_80_00.md) \(AM208000\) form:
 
@@ -33,7 +33,7 @@ Depending on the selected phantom routing option, routing operations defined for
 
 This configuration allows phantom assemblies to contribute operational time, cost, and scheduling information without creating a separate manufacturing step.
 
-## Phantom Assembly Behavior { .section}
+## Phantom Assembly Behavior
 
 When a production order is created from a BOM, estimate, or configuration that includes phantom assemblies, the system processes them as follows:
 
@@ -44,13 +44,13 @@ When a production order is created from a BOM, estimate, or configuration that i
 
 This behavior ensures that production planning reflects the full material and processing requirements without increasing the number of production orders that must be managed.
 
-## Phantom Assemblies in BOMs { .section}
+## Phantom Assemblies in BOMs
 
 Phantom assemblies rely on the multilevel structure of the BOM. Their effect on required quantities, operation times, and costs is cumulative when phantom assemblies are nested within one another.
 
 As phantom assemblies appear at deeper levels of the BOM, the total quantity required by the production order may exceed the quantity shown at any single level.
 
-## Phantom Prior Level Quantity { .section}
+## Phantom Prior Level Quantity
 
 To support accurate quantity, time, and cost calculations, the system determines a **Phantom Prior Level Quantity** for each phantom assembly.
 

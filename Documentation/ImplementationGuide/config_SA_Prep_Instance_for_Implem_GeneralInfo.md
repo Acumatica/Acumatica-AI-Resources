@@ -1,8 +1,8 @@
-# Preparing an Instance: General Information {#_42207667-be6a-4ecc-8c92-0c4ace4e6c71 .concept}
+# Preparing an Instance: General Information
 
 When you install a new blank instance of Acumatica ERP, the product features are disabled and the Acumatica ERP instance is in trial mode. To start implementation, you need to activate the instance by enabling the default set of features. Then you apply the license and enable any purchased features that are not in the default set. We also recommend that you configure system-wide security policies and create user accounts for every person who will be involved in further implementation to secure access to the system and track the activities performed by the people who access the system.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,11 +12,11 @@ In this chapter, you will learn how to do the following:
 -   Configure system-wide security policies
 -   Create users for people to be involved in further implementation
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 You prepare an instance when you initially implement Acumatica ERP.
 
-## Workflow of Instance Preparation { .section}
+## Workflow of Instance Preparation
 
 To prepare a new blank instance of Acumatica ERP for further implementation, you perform the following general steps:
 

@@ -1,8 +1,8 @@
-# Prepayment Invoices: Mass Creation {#_aea09048-c47c-4c1e-a144-d8d136a8f1f9 .concept}
+# Prepayment Invoices: Mass Creation
 
 Acumatica ERP supports the mass creation of prepayment invoices for multiple sales orders at once. Instead of creating prepayment invoices individually for each sales order, you can generate multiple prepayment invoices in a single operation.
 
-## Generating Multiple Prepayment Invoices { .section}
+## Generating Multiple Prepayment Invoices
 
 When you use mass creation, the system creates a separate prepayment invoice for each processed sales order. Each prepayment invoice is calculated and populated according to the settings of the corresponding sales order, including the customer’s credit terms, the required prepayment percent or amount, and unbilled order lines.
 

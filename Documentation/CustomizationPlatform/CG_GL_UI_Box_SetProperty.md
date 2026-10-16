@@ -1,4 +1,4 @@
-# To Set a Box Property {#_4705bea7-63cb-4359-9343-e2e99fec46d0 .concept}
+# To Set a Box Property
 
 To include in a customization project changes to properties of a box, you have to modify the properties by using the [Screen Editor](../UserGuide/AU_20_45_20.md). To start setting the properties of a box, perform the following actions:
 

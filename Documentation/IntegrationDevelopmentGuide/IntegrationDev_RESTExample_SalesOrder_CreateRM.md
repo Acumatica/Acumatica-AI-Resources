@@ -1,8 +1,8 @@
-# Create an RMA Order for a Return {#_83c0e442-ce9e-4e57-8a52-b8b22f56fcbe .concept}
+# Create an RMA Order for a Return
 
 By using the REST API, you can create a return merchandise authorization \(RMA\) order—that is, a return order of the *RM* type. You can view the created RMA order on the [Sales Orders](../UserGuide/SO_30_10_00.md#) \(SO301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to do the following to configure your client application and the Acumatica ERP instance to be used:
 
@@ -20,14 +20,14 @@ Before you test the code below, you need to do the following to configure your c
     4.  On the [Shipments](../Shared/../UserGuide/SO_30_20_00.md#) \(SO302000\) form, which opens, click **Confirm Shipment** and then click **Prepare Invoice**.
     5.  On the [Invoices](../Shared/../UserGuide/SO_30_30_00.md#) \(SO303000\) form, which opens, click **Release**. In this example, the invoice number is supposed to be *000126*.
 
-## Request { .section}
+## Request
 
 You can use the following example of an HTTP request to create a return order of the *RM* type for the *FRUITICO* customer. The returned *SWB-32OZ-GBT* item is linked to a sales order and shipment. In the return order, you add a line from the previously issued sales invoice that contains the returned item and a line that contains the newly ordered item.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-PUT /entity/Default/25.200.001/SalesOrder?$expand=Details HTTP/1.1
+PUT /entity/Default/26.200.001/SalesOrder?$expand=Details HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
 Content-Type: application/json
@@ -37,7 +37,7 @@ Content-Type: application/json
     "OrderType": { "value": "RM" },
     "Details": [
         {
-            "InvoiceType": { "value": "Invoice" },
+            "InvoiceType": { "value": { "id": "INV" } },
             "InvoiceNbr": { "value": "000126" },
             "Operation": { "value": "Receipt" },
             "InvoiceLineNbr": { "value": "1" },
@@ -57,7 +57,7 @@ Content-Type: application/json
 }
 ```
 
-## Usage Notes for an RMA Order with Shipments { .section}
+## Usage Notes for an RMA Order with Shipments
 
 If a customer is returning an inventory item for replacement at a different price, a point-of-sale \(POS\) system can create an RMA order to perform this customer return. \(An RMA order is a return order of the *RM* predefined order type.\) Shipments for both the return and the replacement are performed.
 

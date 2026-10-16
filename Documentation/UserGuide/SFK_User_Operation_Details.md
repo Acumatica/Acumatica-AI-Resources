@@ -1,8 +1,8 @@
-# Shop Floor Kiosk: Operation Details and Resources {#_9d5535bf-488e-4853-b3f7-786cf0062a58 .concept}
+# Shop Floor Kiosk: Operation Details and Resources
 
 The Shop Floor Kiosk provides access to operation-related instructions and supporting documents directly from the **Production Reporting** page. While you are working on an operation, you can review production steps, setup notes, drawings, PDFs, and other attached files without leaving the kiosk workflow. The kiosk displays this information in a read-only format to help you follow established production procedures and reference supporting documentation as needed.
 
-## Viewing Operation Steps { .section}
+## Viewing Operation Steps
 
 The **Steps** tab of the **Production Reporting** page displays the operation instructions that are associated with the selected production order operation. These instructions are the same step records that are maintained in Acumatica ERP for the operation.
 
@@ -30,7 +30,7 @@ The kiosk supports scrolling through all available steps and related content. At
 -   Step information is displayed in read-only mode.
 -   Image thumbnails for step attachments are not supported.
 
-## Viewing Attached Files and Documents { .section}
+## Viewing Attached Files and Documents
 
 The **Files** tab of the **Production Reporting** page provides centralized access to files related to the selected production order operation. The kiosk combines attachments from multiple production records into a single file list so that you can quickly locate supporting documentation during production.
 

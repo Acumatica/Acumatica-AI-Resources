@@ -1,8 +1,8 @@
-# Taxable Sales with Freight Charges: Generated Transactions {#_27234ef0-cc3b-4b6c-9339-c7fbb1dfaa51 .concept}
+# Taxable Sales with Freight Charges: Generated Transactions
 
 As you process a taxable sale with freight charges, you create and process a sales order, a shipment, and an AR invoice. To track the movements of items and update the customer's balance, the system generates the GL transactions described in the following sections.
 
-## Transaction Generated for an Inventory Document {#section_lzl_fjv_vxb .section}
+## Transaction Generated for an Inventory Document
 
 When you create and release a shipment, the system generates the following general ledger transaction:
 
@@ -13,7 +13,7 @@ When you create and release a shipment, the system generates the following gener
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Issues](IN_30_20_00.md) \(IN302000\) form.
 
-## Transaction Generated for an AR Invoice {#section_ozl_fjv_vxb .section}
+## Transaction Generated for an AR Invoice
 
 When you prepare and release an AR invoice for a sales order, the system generates the following general ledger transaction:
 

@@ -1,4 +1,4 @@
-# Acumatica ERP Installation in a Data Center: To Install Acumatica ERP on Amazon EC2 {#_5f0fd7ee-e57e-4083-96c9-cf59af691d52 .task}
+# Acumatica ERP Installation in a Data Center: To Install Acumatica ERP on Amazon EC2
 
 The following activity will walk you through the process of installing the Acumatica ERP Configuration wizard and deploying an Acumatica ERP instance on the Amazon Elastic Compute Cloud \(Amazon EC2\) instance.
 
@@ -7,19 +7,19 @@ The following activity will walk you through the process of installing the Acuma
 -   The vendor of the third-party software may change the user interface and settings. Therefore, the form elements and setting names that you see may differ from the ones described in the activity.
 -   The activity will be updated to describe changes in the user interface and settings.
 
-## Story { .section}
+## Story
 
 Suppose that you are the system administrator, and you need to deploy an Acumatica ERP instance on the Amazon EC2 instance.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will install the Acumatica ERP Configuration wizard and deploy an Acumatica ERP instance on the Amazon EC2 instance.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin deploying an Acumatica ERP instance on the Amazon EC2 instance, make sure that you have performed the following prerequisite activities: [Acumatica ERP Installation in a Data Center: To Launch an Amazon EC2 Instance](INST_Installing_Launch_Amazon_Instance_Activity.md) and [Acumatica ERP Installation in a Data Center: To Create a Database Instance on Amazon RDS](INST_Installing_Create_Database_on_Amazon_RDS_Activity.md).
 
-## Step: Deploying Acumatica ERP on the Amazon EC2 Instance { .section}
+## Step: Deploying Acumatica ERP on the Amazon EC2 Instance
 
 To deploy Acumatica ERP on Amazon EC2, do the following:
 
@@ -75,9 +75,8 @@ To deploy Acumatica ERP on Amazon EC2, do the following:
     3.  **Virtual Directory Name**: `AcumaticaAWS`
     4.  **Compile the Site**: Selected
     5.  **Install Node.js**: Selected
-    6.  **Use Modern UI as Default**: Selected
-    7.  **Use Existing Application Pool**: Selected
-    8.  **Available Application Pools**: *DefaultAppPool*
+    6.  **Use Existing Application Pool**: Selected
+    7.  **Available Application Pools**: *DefaultAppPool*
 17. Click **Next**.
 18. On the RabbitMQ Configuration page, make sure the **Set up RabbitMQ on this server automatically** option is selected and then click **Next**.
 19. On the Confirmation of Configuration page, check the configuration settings you have specified, and click **Finish** to deploy this Acumatica ERP instance.

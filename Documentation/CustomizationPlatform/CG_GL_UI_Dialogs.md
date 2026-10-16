@@ -1,4 +1,4 @@
-# Dialog Box \(PXSmartPanel\) {#_2fe4a5bb-c249-4d30-b117-af8d1671a589 .concept}
+# Dialog Box \(PXSmartPanel\)
 
 PXSmartPanel is a UI container control that renders a dialog box.
 
@@ -12,7 +12,6 @@ A PXSmartPanel container can include multiple ASPX objects of the following type
 -   A layout rule: PXLayoutRule
 -   Another control: PXPanel, PXGroupBox, PXLabel, PXButton, and PXJavaScript
 
-![](images/CG_GL_Forms_ASPX_Containers_PXSmartPanel.png "Nesting rules for a PXSmartPanel container in an ASPX page")
 
 **Note:** A box for a data field cannot be added immediately to a dialog box because this type of container cannot be bound to a data view.
 

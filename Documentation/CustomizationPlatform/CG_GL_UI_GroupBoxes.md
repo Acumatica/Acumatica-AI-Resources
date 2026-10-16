@@ -1,4 +1,4 @@
-# Group Box \(PXGroupBox\) {#_f76ac3c5-3751-49d6-baf1-b5fa786f92f7 .concept}
+# Group Box \(PXGroupBox\)
 
 In a container with controls for a single data record, you can use a PXGroupBox element as a container with a caption to group controls. However we recommend that you use the PXLayoutRule component for this purpose. \(See [Layout Rule \(PXLayoutRule\)](CG_GL_UI_LayoutRules.md) for details.\)
 

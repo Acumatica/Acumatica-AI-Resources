@@ -1,4 +1,4 @@
-# Creating Cases {#_f92793b0-f651-42f1-a460-5e2f753aa80b .concept}
+# Creating Cases
 
 In this chapter, you will find information about the creation of cases in Acumatica ERP.
 

@@ -1,4 +1,4 @@
-# To Configure the Salesforce Data Provider {#_55dfcc00-529f-430f-8cf3-62490b9347eb .task}
+# To Configure the Salesforce Data Provider
 
 To configure the *Salesforce Sync* data provider, which is predefined in the system, perform the following steps on the [Data Providers](SM_20_60_15.md) \(SM206015\) form:
 

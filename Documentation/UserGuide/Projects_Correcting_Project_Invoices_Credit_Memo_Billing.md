@@ -1,8 +1,8 @@
-# Project Invoice Correction: Credit Memos for Projects {#_60390b47-317e-4bf7-bf9b-9554c7c6b09b .concept}
+# Project Invoice Correction: Credit Memos for Projects
 
 To correct the actual amounts of a project that has been overcharged during the previous billing, you can create a credit memo for the project, either manually or during the project billing procedure.
 
-## Project Billing with Credit Memo { .section}
+## Project Billing with Credit Memo
 
 If on the **Summary** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form, the **Create Pro Forma Invoice on Billing** check box is selected for the project, the system creates a credit memo on release of the pro forma invoice if the total amount of the pro forma invoice is negative.
 
@@ -11,7 +11,7 @@ During the billing of each processed project, the system creates a credit memo o
 -   On the **Summary** tab, the **Create Pro Forma Invoice on Billing** check box is cleared.
 -   The project has a negative **Pending Invoice Amount Total** on the **Revenue Budget** tab.
 
-## Credit Terms in Credit Memos { .section}
+## Credit Terms in Credit Memos
 
 The system fills in the credit terms for the credit memo as follows:
 

@@ -1,4 +1,4 @@
-# Displaying Any Field as a Text Field {#_5b66b94e-06c5-4f23-839b-a84df4f37f79 .concept}
+# Displaying Any Field as a Text Field
 
 The mobile API gives you the ability to map a control of any type from an Acumatica ERP form to a text box in the mobile application. This ability can be useful when both of the following conditions are met:
 

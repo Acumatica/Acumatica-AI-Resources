@@ -1,14 +1,14 @@
-# Digital Certificates: To Encrypt the Database {#_93d85f70-6822-4cc4-ba2a-c3fba42174e8 .task}
+# Digital Certificates: To Encrypt the Database
 
 The following activity will walk you through the process of replacing the default encryption algorithm used in Acumatica ERP with your encryption certificate.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Fruits &amp; Jams company has decided to replace the default encryption algorithm used in Acumatica ERP to encrypt sensitive data stored in the database with some other encryption certificate because of company security polices. You, as a system administrator, have been asked to configure the replacement.
 
-## Process Overview { .section}
+## Process Overview
 
 You will use the [Encryption Certificates](SM_20_05_30.md) \(SM200530\) form to register and upload the [AcumaticaTrainingEncryption.pfx](Files/AcumaticaTrainingEncryption.pfx) digital certificate with the `Aw34esz` password to be used for database encryption.
 
@@ -18,14 +18,14 @@ On the [Certificate Replacement](SM_20_05_35.md) \(SM200535\) form, you will spe
 
 Additionally, you will restore the database encryption method to the default one by removing the specified certificate and clicking **Replace Certificate** once again.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start performing the steps of this activity, do the following:
 
 1.  Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as a system administrator by using the *gibbs* username and the *123* password.
 2.  Open the [File Upload Preferences](SM_20_25_50.md) \(SM202550\) form and verify that `.pfx` is on the list of allowed extensions. Make sure that the check box in the **Forbidden** column is cleared for this extension.
 
-## Step 1: To Import a Certificate {#section_m2w_bjr_4pb .section}
+## Step 1: To Import a Certificate
 
 To register and upload a certificate, do the following:
 
@@ -40,7 +40,7 @@ To register and upload a certificate, do the following:
     3.  Click **Upload** to import the certificate.
     4.  Close the **Files** dialog box.
 
-## Step 2: To Encrypt the Database { .section}
+## Step 2: To Encrypt the Database
 
 To encrypt the database, do the following:
 
@@ -55,7 +55,7 @@ To encrypt the database, do the following:
 
 4.  Close the dialog box after the processing completes.
 
-## Step 3: To Restore the Default Database Encryption { .section}
+## Step 3: To Restore the Default Database Encryption
 
 Perform the following instructions to restore the default database encryption:
 

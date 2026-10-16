@@ -1,10 +1,10 @@
-# To Link a Deferral Schedule to a Document {#_193e6587-e64f-4bb4-ac52-e3b762bd1779 .task}
+# To Link a Deferral Schedule to a Document
 
 You use the [Deferral Schedule](DR_20_15_00.md) \(DR201500\) form, which you access by clicking **Add New Deferral Schedule** on the [Deferral Schedules](DR_20_15_10.md) \(DR201510\) form, to create a deferral schedule for a selected document.
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## To Link a Deferral Schedule To a Document {#section_h5b_3jv_vxb .section}
+## To Link a Deferral Schedule To a Document
 
 1.  Open the [Deferral Schedules](DR_20_15_10.md) \(DR201510\) form.
 2.  On the table toolbar, click **Add New Deferral Schedule**.

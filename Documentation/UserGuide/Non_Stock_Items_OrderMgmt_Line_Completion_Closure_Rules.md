@@ -1,4 +1,4 @@
-# Non-Stock Items: Rules of Line Completion and Closure {#_3165177a-1ede-43da-b108-733e7173bab9 .concept}
+# Non-Stock Items: Rules of Line Completion and Closure
 
 Lines of the *Non-Stock* type on the **Details** tab of the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form are completed and closed based on the completion rule specified for the applicable non-stock item in the **Close PO Line** box. The system determines if a line of the *Non-Stock* type should be closed and completed by using the following rules:
 

@@ -1,16 +1,16 @@
-# Push Notifications: To Connect to the SignalR Hub {#_2f1c56c2-f893-4467-92a3-a03c5bf5c61a .task}
+# Push Notifications: To Connect to the SignalR Hub
 
 The following activity shows you how to connect the external application to the SignalR hub.
 
-## Story { .section}
+## Story
 
 Suppose that you want your external application to receive push notifications from Acumatica ERP but you cannot publish a webhook \(for example, for security reasons\). Instead you need to configure the system to send notifications to the SignalR hub, from which any connected application can receive the notifications.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create a push notification destination and implement the code for connecting to the SignalR hub and processing the notifications.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -19,7 +19,7 @@ Before you begin performing the steps of this activity, do the following:
 
 **Tip:** You can find the final code of this activity in the [Program.cs](https://github.com/Acumatica/Help-and-Training-Examples/tree/HEAD/IntegrationDevelopment/Help/ConfiguringPushNotifications/SignalRHub/Program.cs) file in the Help-and-Training-Examples repository on GitHub.
 
-## Step 1: Creating a Push Notification Definition { .section}
+## Step 1: Creating a Push Notification Definition
 
 To configure the system to send push notifications to the SignalR hub, create a push notification definition as follows:
 
@@ -39,7 +39,7 @@ To configure the system to send push notifications to the SignalR hub, create a 
             3.  In the **Field Name** column, select the name of the field that the system should track.
 4.  On the form toolbar, click **Save**.
 
-## Step 2: Connecting to the SignalR Hub { .section}
+## Step 2: Connecting to the SignalR Hub
 
 To connect to the SignalR hub, do the following:
 
@@ -49,7 +49,7 @@ To connect to the SignalR hub, do the following:
     -   `Microsoft.Extensions.Logging.Console` \(to use the standard logging provider\)
 3.  Set up a Basic authentication token to authenticate the application in Acumatica ERP, as shown in the following code.
 
-    ```language-csharp
+    ```csharp
     ﻿using Microsoft.AspNetCore.Http.Connections;
     using Microsoft.AspNetCore.SignalR.Client;
     using Microsoft.Extensions.Logging;
@@ -74,7 +74,7 @@ To connect to the SignalR hub, do the following:
 
 4.  Configure connection to the SignalR hub, as shown in the following code.
 
-    ```language-csharp
+    ```csharp
     class Program
     {
         static async Task Main(string[] args)
@@ -103,7 +103,7 @@ To connect to the SignalR hub, do the following:
 
 5.  Subscribe to the push notification destination that was defined on the [Push Notifications](../UserGuide/SM_30_20_00.md#) \(SM302000\) form in Step 1 and process push notifications.
 
-    ```language-csharp
+    ```csharp
     
     class Program
     {

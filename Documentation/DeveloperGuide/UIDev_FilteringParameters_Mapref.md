@@ -1,4 +1,4 @@
-# Adding Filtering Parameters to a Form {#_9b129422-9404-4c33-a521-7e04db2985c2 .concept}
+# Adding Filtering Parameters to a Form
 
 You can configure a filter for an inquiry or processing form to display data narrowed by the selection criteria that is specified in the filter. To define the selection criteria, you use filtering parameters. In this chapter, you will learn how to modify an inquiry or a processing form so that it has filtering parameters.
 

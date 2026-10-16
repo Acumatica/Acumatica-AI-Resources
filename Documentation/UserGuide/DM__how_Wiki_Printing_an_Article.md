@@ -1,4 +1,4 @@
-# To Print an Article {#_feb4afb6-5783-46b3-9611-1fc4db5f4077 .task}
+# To Print an Article
 
 To print any wiki article, do the following:
 

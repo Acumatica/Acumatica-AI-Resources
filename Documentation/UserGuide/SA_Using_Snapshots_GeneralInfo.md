@@ -1,10 +1,10 @@
-# Snapshots: General Information {#_1c08a5ce-c9c0-4b36-904e-b2cbae9473ea .concept}
+# Snapshots: General Information
 
 A snapshot is the full or partial data of an Acumatica ERP tenant saved locally in the database of the instance to which the tenant belongs, or in a specified location. Snapshots can also be used as tenant templates when you need to add to an Acumatica ERP instance new tenants that are similar in configuration. Additionally, you can use snapshots to set up a test environment for your company where you test the configuration changes required for your company before you apply them to your production tenant.
 
 A tenant that is used to take a snapshot is called a *source tenant*, and a tenant where you plan to restore a snapshot is called a *destination tenant*. Source and destination tenants may belong to the same instance or to different instances.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -14,7 +14,7 @@ In this chapter, you will learn how to do the following:
 -   Import a snapshot
 -   Restore a snapshot in a destination tenant
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You use snapshots in the following cases:
 
@@ -22,7 +22,7 @@ You use snapshots in the following cases:
 -   Your company has decided to test new Acumatica ERP functionality in a copy of your production tenant. Because you are a system administrator, you have been asked to create a test instance and import production data to it. You take a snapshot of the production tenant and restore it on an instance dedicated to testing.
 -   You are a system administrator, and you have been tasked with creating a tenant with a training dataset for a new employee of your company. You download a snapshot with a training dataset and restore it on the test tenant dedicated to the employee training.
 
-## Snapshot Contents { .section}
+## Snapshot Contents
 
 When you take a snapshot on the [Tenants](SM_20_35_20.md) \(SM203520\) form, the snapshot contains the data from the SQL database tables included in the snapshot. The set of tables to be included in a snapshot is defined by the export mode that you select in the **Export Mode** box of the **Create Snapshot** dialog box. The following predefined export modes are available:
 
@@ -52,7 +52,7 @@ You select the export mode based on the intended use of the snapshot. If you nee
 
 You can add a custom export mode if the predefined set does not suit your needs \(for example, for data security reasons\). For details, see [Snapshots: Custom Snapshot Configurations](SA_Using_Snapshots_Modification_of_Content_Options_Concept.md).
 
-## Snapshot Creation { .section}
+## Snapshot Creation
 
 You take a snapshot of the configuration and data of a tenant by using the [Tenants](SM_20_35_20.md) \(SM203520\) form. For a snapshot, you specify which data you want to include by selecting one of the available export modes. Data from published customizations is a part of the database and is always included in snapshots. When you take a snapshot, any previously taken snapshots are not included in the new snapshot.
 
@@ -64,7 +64,7 @@ The process of creating a snapshot may take a significant amount of time because
 
 After creating a snapshot, you need to manually switch off maintenance mode \(that is, unlock the system\) by clicking **Stop Maintenance** on the form toolbar of the [Apply Updates](SM_20_35_10.md) \(SM203510\) form.
 
-## Snapshot Storage, Upgrade, and Deletion { .section}
+## Snapshot Storage, Upgrade, and Deletion
 
 Once a snapshot is created, it appears on the **Snapshots** tab of the [Tenants](SM_20_35_20.md) \(SM203520\) form. Tenant snapshots are stored in the database as tenants with special tenant IDs \(negative integers\). When you upgrade the application and the database, the stored snapshots are upgraded as well.
 
@@ -74,7 +74,7 @@ To free disk space, you can export snapshots to store them in external storage, 
 
 Deleting a snapshot is a permanent operation—you will not be able to recover a deleted snapshot.
 
-## Snapshot Visibility Across Tenants { .section}
+## Snapshot Visibility Across Tenants
 
 In a multitenant configuration, you can sign in to one tenant and then take a snapshot of any tenant available to you, whether it is the tenant you signed in to or another tenant that you can access. The snapshots you take are stored within the tenant you are signed in to when you take them; you will not be able to access them if you sign in to another tenant.
 
@@ -84,7 +84,7 @@ To make the snapshot available for export or restoration regardless of the selec
 
 Also, you can move a snapshot between tenants \(for security reasons, for example\). You can take a snapshot of the source tenant, remove the association, select the destination tenant in the **Tenant ID** box of the Summary area, and click **Change Visibility** on the table toolbar of the **Snapshots** tab for the selected snapshot. The system associates the snapshot with the destination tenant, and the snapshot is not available for other tenants of the system, even its source tenant.
 
-## Snapshot Restoration { .section}
+## Snapshot Restoration
 
 When you take a snapshot, it is saved to the tenant to which you are currently signed in. In a multitenant configuration, you can sign in to one tenant and move or share snapshots between other tenants, which you can access by changing snapshot visibility. Alternatively, you can export a snapshot, store it in an external location, and import it to the needed tenant. For details on exporting and importing snapshots, see [Snapshots: Export and Import](SA_Using_Snapshots_Export_and_Import_Concept.md).
 

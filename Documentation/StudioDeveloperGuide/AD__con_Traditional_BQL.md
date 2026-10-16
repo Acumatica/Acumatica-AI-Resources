@@ -1,4 +1,4 @@
-# Traditional Business Query Language {#_9daff8e3-c057-4633-8bf3-fcbacf652123 .concept}
+# Traditional Business Query Language
 
 When you compose a query with the traditional business query language \(BQL\), you work with the following classes:
 

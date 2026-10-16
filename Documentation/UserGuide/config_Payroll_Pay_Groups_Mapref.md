@@ -1,4 +1,4 @@
-# Defining Pay Groups, Payroll Calendars, and Pay Periods {#_effd55a3-591c-4b37-bd82-ebf6c4eb4ba0 .concept}
+# Defining Pay Groups, Payroll Calendars, and Pay Periods
 
 In this chapter, you will learn how to set up pay groups, payroll calendars, and pay periods for the defined pay groups.
 

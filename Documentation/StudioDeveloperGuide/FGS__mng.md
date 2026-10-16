@@ -1,14 +1,14 @@
-# Getting Started with Acumatica Framework {#_009b7519-160a-4a00-9524-c74fa925b851 .concept}
+# Getting Started with Acumatica Framework
 
 In this part of the guide, you can find the information that you may need to start development with Acumatica Framework.
 
-## Application Design { .section}
+## Application Design
 
 For the information about the design of the database structure and user interface of applications based on Acumatica Framework, see [Designing the Application](DA__mng.md).
 
-## Development of the Application Code { .section}
+## Development of the Application Code
 
-Before you begin developing application code, we recommend that you complete the following training courses in Acumatica Open University:
+Before you begin developing application code, we recommend that you complete the following training courses:
 
 -   *T200 Maintenance Forms*
 -   *T210 Customized Forms and Master-Details Relationships*
@@ -29,7 +29,7 @@ In the Acumatica Framework Guide, you can find reference information and additio
 
 For a detailed description of the Acumatica Framework API, see [API Reference](https://help.acumatica.com/(W(16))/Main?ScreenId=ShowWiki&pageid=8bf11f7b-4163-ba3c-3f7a-7b2da343530c).
 
-## Website Management { .section}
+## Website Management
 
 If you want to modify the position of a form in the UI, add a form to a workspace, or remove a form from the UI, you configure the UI as described in [Customizing the User Interface](../UserGuide/SA_Customizing_UI_Mapref.md).
 

@@ -1,4 +1,4 @@
-# To Provide Multilanguage Support for a Field {#_ac951f15-9c6c-4b58-9a24-6f04a8084df7 .concept}
+# To Provide Multilanguage Support for a Field
 
 Acumatica ERP supports locale-specific settings and the translation of the strings used on the application interface. Acumatica ERP also provides the functionality to translate user input to multiple languages and store translations in the database. \(See [Locales and Languages](../UserGuide/SM__CON_Locales_and_Languages.md) for details.\)
 
@@ -13,7 +13,7 @@ To declare a text field as a multilanguage one, in the data access class, you sh
 
 You can provide multilanguage support for an original or custom text field, as described in the following sections.
 
-## To Provide Multilanguage Support for an Original Field on the DAC Level {#_1a95ac32-1599-4105-a9b4-41389790801d .section}
+## To Provide Multilanguage Support for an Original Field on the DAC Level
 
 To provide multilanguage support for a field used on multiple forms, you should customize the original attributes of the field in the data access class extension. To do this, perform the following actions:
 
@@ -32,9 +32,8 @@ For example, after you perform these actions for the **Description** field on th
 [PXRemoveBaseAttribute(typeof(PXDBStringAttribute))]
 ```
 
-![](images/CG_GL_BL_MultiLanguageField.png "Providing multilanguage support for the Description field of the Sales Orders form")
 
-## To Provide MultiLanguage Support for an Original Field on the Graph Level {#_85b6159e-d4e9-4e86-8fad-8f444b5999ee .section}
+## To Provide MultiLanguage Support for an Original Field on the Graph Level
 
 To provide multilanguage support for a field used on a single form, you should customize the original attributes of the field in the graph extension. To do this, perform the following actions:
 
@@ -51,7 +50,7 @@ To provide multilanguage support for a field used on a single form, you should c
 
 3.  Click **Save** on the editor toolbar to save the changes to the customization project.
 
-## To Provide Multilanguage Support for a Custom Field {#_1e21988c-9e40-4800-a52e-6447655322e2 .section}
+## To Provide Multilanguage Support for a Custom Field
 
 If you need to create a custom text box with multilanguage support, first you create a custom field with the PXDBString attribute. Then in the DAC, you replace this attribute name with PXDBLocalizableString.
 

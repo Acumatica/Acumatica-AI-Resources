@@ -1,4 +1,4 @@
-# Defining Acumatica ERP Forms in HTML and TypeScript {#_6a156130-e8ba-414c-8503-74ab327c18e2 .concept}
+# Defining Acumatica ERP Forms in HTML and TypeScript
 
 In this part, you will learn about the main components of the Modern UI, which include the definition of views of the form in TypeScript and the layout definition in HTML. You can also find information about how to convert an ASPX file of an Acumatica ERP form to HTML and TypeScript.
 

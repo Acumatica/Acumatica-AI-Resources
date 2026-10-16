@@ -1,8 +1,8 @@
-# Asset Disposal: Mass Processing {#_3a8ce02d-ea04-420c-a401-69d455437d3d .concept}
+# Asset Disposal: Mass Processing
 
 This topic describes how to dispose of multiple fixed assets simultaneously.
 
-## Disposing of Multiple Assets {#section_odf_ljv_vxb .section}
+## Disposing of Multiple Assets
 
 You use the [Dispose Assets](FA_50_50_00.md) \(FA505000\) form to dispose of any number of assets. You can dispose of multiple assets that are associated with the same branch if the disposal parameters are the same for all assets; the only setting you may specify for each asset individually is the proceeds amount.
 

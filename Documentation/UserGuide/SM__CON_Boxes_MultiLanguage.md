@@ -1,4 +1,4 @@
-# Boxes That Have Multilanguage Support {#_837d92c1-eeba-4023-8f83-23a7023a48c7 .concept}
+# Boxes That Have Multilanguage Support
 
 Once you have enabled multilingual user input, the system displays a link with a language ISO code next to the supported text boxes in the system. When you click the link, the **Translations** dialog box appears, where you can enter translations.
 
@@ -6,7 +6,7 @@ By default, the system supports multilingual user input for the boxes listed in 
 
 In this topic, you will find lists, broken down by module, of the boxes that have multilanguage support.
 
-## Projects { .section}
+## Projects
 
 You can localize values for the following text boxes on the project-related forms:
 
@@ -16,7 +16,7 @@ You can localize values for the following text boxes on the project-related form
 -   The **Description** box in the Summary area of the [Account Groups](PM_20_10_00.md) \(PM201000\) form
 -   The **Description** column on the [Cost Codes](PM_20_95_00.md) \(PM209500\) form
 
-## General Ledger { .section}
+## General Ledger
 
 You can localize values for the following text boxes on the general ledger forms:
 
@@ -34,18 +34,18 @@ You can localize values for the following text boxes on the general ledger forms
     -   The Formula columns in the upper table and the **Description** and **Value** lines on the [Column Sets](CS_20_60_20.md) \(CS206020\) form
     -   The **Description** and **Value** columns on the [Unit Sets](CS_20_60_30.md) \(CS206030\) form
 
-## Cash Management { .section}
+## Cash Management
 
 You can localize values for the following text boxes on the cash management forms:
 
 -   The **Description** box in the Summary area of the [Cash Accounts](CA_20_20_00.md) \(CA202000\) form
 -   The **Description** box in the Summary area of the [Payment Methods](CA_20_40_00.md) \(CA204000\) form
 
-## Taxes { .section}
+## Taxes
 
 You can localize values for the **Description** box on the [Taxes](TX_20_50_00.md) \(TX205000\) form.
 
-## Accounts Receivable { .section}
+## Accounts Receivable
 
 You can localize values for the following text boxes on the accounts receivable forms:
 
@@ -62,7 +62,7 @@ You can localize values for the following text boxes on the accounts receivable 
 -   The **Line Description** column on the [Customer Contracts](CT_30_10_00.md) \(CT301000\) form
 -   The **Credit Memo Description** box on the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form
 
-## Inventory { .section}
+## Inventory
 
 You can localize values for the following text boxes on the inventory forms:
 
@@ -73,7 +73,7 @@ You can localize values for the following text boxes on the inventory forms:
 -   The **Description** box on the [Kit Specifications](IN_20_95_00.md) \(IN209500\) form
 -   The **Description** box on the [Item Sales Categories](IN_20_40_60.md) \(IN204060\) form
 
-## Order Management { .section}
+## Order Management
 
 You can localize values for the following text boxes on the order management forms:
 
@@ -81,7 +81,7 @@ You can localize values for the following text boxes on the order management for
 -   The **Description** column on the [FOB Points](CS_20_85_00.md) \(CS208500\) form
 -   The **Description** box on the [Shipping Terms](CS_20_80_00.md) \(CS208000\) form
 
-## Common Settings { .section}
+## Common Settings
 
 You can localize values for the following text boxes in the common settings:
 
@@ -89,7 +89,7 @@ You can localize values for the following text boxes in the common settings:
 -   The **Description** box and the **Description** column on the [Attributes](CS_20_50_00.md) \(CS205000\) form
 -   The **New Number Symbol** box on the [Numbering Sequences](CS_20_10_10.md) \(CS201010\) form
 
-## Customization { .section}
+## Customization
 
 You can localize values for the following text boxes on the customization forms:
 
@@ -97,7 +97,7 @@ You can localize values for the following text boxes on the customization forms:
 -   The **Display** column on the **Parameters** tab of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form
 -   The **Caption** column on the **Results Grid** tab of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form
 
-## Dashboards { .section}
+## Dashboards
 
 If you have rights to edit a particular dashboard, you can localize values for the following text boxes in the **Widget Properties** dialog box:
 

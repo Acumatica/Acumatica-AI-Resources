@@ -1,12 +1,12 @@
-# Assets with Depreciation: To Dispose of an Asset {#_31bc7db9-b2e3-451b-a034-373ad2b9be05 .task}
+# Assets with Depreciation: To Dispose of an Asset
 
 The following activity will walk you through the process of disposing of an asset with accumulated depreciation.
 
-## Story { .section}
+## Story
 
 Suppose that on August 1, 2027, the management of the SweetLife Fruits &amp; Jams company decided to sell one desktop computer for $75 to Cakeado Cafe. Acting as a SweetLife accountant, you need to dispose of the asset and create an invoice for the buyer of the computer.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -14,11 +14,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, the needed GL accounts have been created.
 -   On the [Fixed Assets Preferences](FA_10_10_00.md) \(FA101000\) form, the **Automatically Release Disposal Transactions** check box has been cleared.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will dispose of the fixed asset on the [Dispose Assets](FA_50_50_00.md) \(FA505000\) form. On the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form, you will review the settings of the disposed asset and the generated transactions. Finally, on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will create an AR invoice to record the sale of this fixed asset.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin disposing of a fixed asset with depreciation, do the following:
 
@@ -28,7 +28,7 @@ Before you begin disposing of a fixed asset with depreciation, do the following:
 4.  Make sure that you have created the fixed assets by performing the [Conversion of a Purchase: To Convert a Purchase to Multiple Assets](FixedAssets_Converting_Purchase_To_Convert_to_Multiple_Assets.md) prerequisite activity.
 5.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step 1: Updating the Fixed Asset Preferences { .section}
+## Step 1: Updating the Fixed Asset Preferences
 
 To update the fixed asset preferences so that the system releases disposal transactions, do the following:
 
@@ -36,7 +36,7 @@ To update the fixed asset preferences so that the system releases disposal trans
 2.  In the **Posting Settings** section, select the **Automatically Release Disposal Transactions** check box.
 3.  On the form toolbar, click **Save** to save your changes.
 
-## Step 2: Disposing of the Fixed Asset { .section}
+## Step 2: Disposing of the Fixed Asset
 
 To dispose of the fixed asset, do the following:
 
@@ -66,10 +66,9 @@ To dispose of the fixed asset, do the following:
 
     The status of the fixed asset has changed to *Disposed*. In the **Disposal Info** section, the **Disposal Date**, **Disposal Method**, and **Disposal Amount** boxes show disposal information for this asset.
 
-    ![](Images/activity_FA_Managing_Assets_Dispose_Disposed_Asset.png "Asset with the Disposed status")
 
 
-## Step 3: Creating an Invoice for the Sale of the Fixed Asset { .section}
+## Step 3: Creating an Invoice for the Sale of the Fixed Asset
 
 To create an invoice to record the sale of the desktop computer, do the following:
 

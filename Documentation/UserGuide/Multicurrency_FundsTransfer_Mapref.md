@@ -1,4 +1,4 @@
-# Processing Funds Transfers in Foreign Currencies {#_732e60da-cc12-4c2b-9968-8627af36cdad .concept}
+# Processing Funds Transfers in Foreign Currencies
 
 The topics of this chapter describe how to process a funds transfer in a foreign currency.
 

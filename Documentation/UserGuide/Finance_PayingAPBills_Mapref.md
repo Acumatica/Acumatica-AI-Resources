@@ -1,4 +1,4 @@
-# Paying AP Bills {#_085e9460-cebd-454e-8a8b-74b591bccfc1 .concept}
+# Paying AP Bills
 
 In this chapter, you will find general information on how to pay individual and multiple AP bills, a checklist for system implementation, an activity that describes how to process a payment, and report and inquiries that can be useful to find and view created transactions.
 

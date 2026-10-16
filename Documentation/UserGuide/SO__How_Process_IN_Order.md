@@ -1,8 +1,8 @@
-# To Process an Invoice Order {#_7ac06382-6c95-481a-a393-ff577263e58a .task}
+# To Process an Invoice Order
 
 To record a sale of stock items that have been already shipped to customer, you process an invoice order \(that is, an order of the *IN* order type\) by using the [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 
-## To Process an Invoice Order { .section}
+## To Process an Invoice Order
 
 1.  Open the [Sales Orders](../Shared/../UserGuide/SO_30_10_00.md) \(SO301000\) form.
 2.  Select the order by specifying its type \(*IN*\) and its reference number.

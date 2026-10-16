@@ -1,8 +1,8 @@
-# To Implement Multifactor Authentication {#_01ccdc1a-2ba6-4072-9ab1-a86d1c853a26 .task}
+# To Implement Multifactor Authentication
 
 Implementing multifactor authentication in Acumatica ERP involves several steps, as this topic describes.
 
-## To Implement Multifactor Authentication { .section}
+## To Implement Multifactor Authentication
 
 1.  Obtain a Multifactor Authentication Provider Account.
 

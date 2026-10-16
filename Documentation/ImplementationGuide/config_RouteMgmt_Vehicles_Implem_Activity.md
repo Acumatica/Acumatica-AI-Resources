@@ -1,23 +1,23 @@
-# Vehicles: To Create Vehicles {#_abba7366-4df6-4ef4-9f4c-6d43d8c54cba .task}
+# Vehicles: To Create Vehicles
 
 In Acumatica ERP, a *vehicle* is a record created on the [Vehicles](../UserGuide/FS_20_36_00.md) \(FS203600\) form that contains the details of a particular vehicle used by your company to perform route services for customers. When you create a new vehicle, the system automatically creates a corresponding piece of equipment on the [Equipment](../UserGuide/FS_20_50_00.md) \(FS205000\) form with the **Vehicle** check box selected; on this form, however, the details of the equipment are read-only.
 
-## Story {#section_zbj_yw1_ldc .section}
+## Story
 
 Suppose that the SweetLife Equipment and Service Center has multiple types of vehicles that they use for providing route services. Acting as an administrative user, you will create vehicle records in Acumatica ERP.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Vehicles](../UserGuide/FS_20_36_00.md) \(FS203600\) form, you will create two vehicle records and then find the newly created vehicle records in the list of equipment on the [Equipment](../UserGuide/FS_20_50_00.md) \(FS205000\) form.
 
-## System Preparation {#section_xyr_cbv_3dc .section}
+## System Preparation
 
 Before you start creating vehicles, do the following:
 
 1.  On the Acumatica ERP website, sign in to a company with the *U100* dataset preloaded as a system administrator by using the *gibbs* username and the *123* password.
 2.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SWEETEQUIP - Service and Equipment Sales Center* branch.
 
-## Step 1: Creating Vehicles {#section_l1x_yw1_ldc .section}
+## Step 1: Creating Vehicles
 
 Perform the following instructions:
 
@@ -42,7 +42,7 @@ Perform the following instructions:
     Notice that the system has inserted the vehicle ID in the **Vehicle ID** box.
 
 
-## Step 2: Reviewing the Equipment {#section_k3l_zw1_ldc .section}
+## Step 2: Reviewing the Equipment
 
 Perform the following instructions:
 

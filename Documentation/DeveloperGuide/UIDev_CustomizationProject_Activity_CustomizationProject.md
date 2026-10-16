@@ -1,16 +1,16 @@
-# Customization Project with UI Changes:To Include Source Files in a Customization Project {#_aa97eea3-3fe8-48db-a03d-ba268dee1401 .task}
+# Customization Project with UI Changes:To Include Source Files in a Customization Project
 
 This activity will walk you through the process of including source files in a customization project.
 
-## Story { .section}
+## Story
 
 Suppose that for the Smart Fix company, you’ve migrated multiple forms to the Modern UI and added elements to the Modern UI of particular forms. You need to include all these changes in a customization project to be able to distribute the changes to the Acumatica ERP instances that are used by employees of the Smart Fix company.
 
-## Process Overview { .section}
+## Process Overview
 
 You will rebuild all your changes and include them in a customization project.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin including Modern UI source files in a customization project, do the following:
 
@@ -27,15 +27,15 @@ Before you begin including Modern UI source files in a customization project, do
     -   [UI Customization Development: To Add Elements to an Acumatica ERP Form](UIDev_Customization_Activity_CustomFields.md)
     -   [UI Customization Development: To Add a Tab to an Acumatica ERP Form](UIDev_Customization_Activity_CustomTab.md)
 
-## Step 1: Building the Source Files { .section}
+## Step 1: Building the Source Files
 
 To build the source code of the Modern UI for the current tenant, including the customization code, execute the following command in the `FrontendSources` folder.
 
-```language-bourne
+```bourne
 npm run build-dev
 ```
 
-## Step 2: Including Files in the Customization Project { .section}
+## Step 2: Including Files in the Customization Project
 
 You use the `development` folder located in the `FrontendSources\screen\src\` folder of your instance to customize forms for the Modern UI. Once you've finished, you can include these files in your customization project.
 

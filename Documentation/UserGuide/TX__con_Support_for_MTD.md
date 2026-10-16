@@ -1,4 +1,4 @@
-# Configuring Support for Making Tax Digital \(MTD\) {#_ead5746d-beb4-4e47-afb6-9a778c36ac7f .concept}
+# Configuring Support for Making Tax Digital \(MTD\)
 
 Making Tax Digital \(MTD\) for VAT came into effect on April 1, 2019 in the United Kingdom and is supported by Acumatica ERP. This chapter describes the system configuration to enable you to transfer VAT return information to His Majesty's Revenue and Customs \(HMRC\).
 
@@ -24,7 +24,7 @@ The following table lists the tax boxes submitted to HMRC.
 
 To set up the system for MTD support, you first enable the *UK Localization* feature on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. On the [External Applications](SM_30_10_00.md) \(SM301000\) form, you create a connection to HMRC. You then specify the tax registration ID and the MTD external application of the company or the branch on the [Companies](CS_10_15_00.md) \(CS101500\) or [Branches](CS_10_20_00.md) \(CS102000\) form, respectively. Finally, on the [Reporting Settings](TX_20_51_00.md) \(TX205100\) form, you assign the appropriate tax box numbers to the lines of the tax report. These steps are described later in this topic.
 
-## To Enable the Needed Feature {#section_uxp_fjv_vxb .section}
+## To Enable the Needed Feature
 
 To enable the *UK Localization* feature, do the following:
 
@@ -33,7 +33,7 @@ To enable the *UK Localization* feature, do the following:
 3.  In the list of features, select the **UK Localization** check box.
 4.  On the form toolbar, click **Enable** to enable the feature.
 
-## To Create the Connection to HMRC {#section_wxp_fjv_vxb .section}
+## To Create the Connection to HMRC
 
 To create a connection to HMRC, do the following:
 
@@ -44,7 +44,7 @@ To create a connection to HMRC, do the following:
 3.  On the form toolbar, click **Sign In**. The system displays the **HMRS Tax Platform** dialog box.
 4.  Click **Sign in to Government Gateway** in this dialog box and enter the credentials for your HMRC account.
 
-## To Specify the Company or Branch Settings {#section_yxp_fjv_vxb .section}
+## To Specify the Company or Branch Settings
 
 To specify the tax registration ID and the connection to HMRC for a company or branch, do the following:
 
@@ -74,7 +74,7 @@ If the *Multibranch Support* feature has been enabled on the [Enable/Disable Fea
 
 5.  On the form toolbar, click **Save** to save the branch configuration.
 
-## To Configure the Tax Boxes for the Tax Report {#_c34c75f9-6f72-44a5-b3be-e79713e10b05 .section}
+## To Configure the Tax Boxes for the Tax Report
 
 To configure the needed tax boxes for the tax report, do the following:
 
@@ -84,11 +84,9 @@ To configure the needed tax boxes for the tax report, do the following:
 
     The following screenshot shows an example of this configuration for a tax report.
 
-    ![](Images/concept_Taxes_MTD_ReportingSettings_Report_Lines.png "The Report Lines tab for a tax report")
 
 4.  On the **Reporting Groups** tab, add the needed reporting groups. The following screenshot shows an example of this configuration for a tax report.
 
-    ![](Images/concept_Taxes_MTD_ReportingSettings_Reporting_Groups.png "The Reporting Groups tab for a tax report")
 
 5.  On the form toolbar, click **Save** to save the tax report you have configured.
 

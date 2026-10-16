@@ -1,4 +1,4 @@
-# To Create a Connected App in Salesforce Lightning {#_e0de5d66-d975-4544-b08b-00bc8e5bcb03 .task}
+# To Create a Connected App in Salesforce Lightning
 
 To create a connected app in Salesforce, which will enable the integration of Acumatica ERP with Salesforce through the Salesforce API, do the following:
 

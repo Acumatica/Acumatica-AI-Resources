@@ -1,4 +1,4 @@
-# Creating Stock Items {#_136ce96b-46cf-4d32-8b6a-8982eb2e200c .concept}
+# Creating Stock Items
 
 If the *Inventory* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form of Acumatica ERP, you can create stock items on the [Stock Items](IN_20_25_00.md) \(IN202500\) form. Stock items are physical goods that you purchase or manufacture and then sell to your customers. Examples of stock items include computers, cell phones, cables, and auto parts. The system automatically tracks stock items and maintains availability data. Also, stock items can be tracked by their costs.
 

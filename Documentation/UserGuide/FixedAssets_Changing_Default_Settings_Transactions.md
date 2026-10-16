@@ -1,8 +1,8 @@
-# Non-Default Asset Settings: Generated Transactions {#_a26efa1b-067e-4cf2-a99f-e37a8899ebb5 .concept}
+# Non-Default Asset Settings: Generated Transactions
 
 As you create a fixed asset, you create and process purchasing transactions. To update GL balances, the system generates the GL transactions described in the following sections.
 
-## Transaction Generated for the Fixed Asset Purchase {#section_cgd_ljv_vxb .section}
+## Transaction Generated for the Fixed Asset Purchase
 
 When you create a fixed asset on the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form, the system generates the following general ledger transaction.
 
@@ -13,7 +13,7 @@ When you create a fixed asset on the [Fixed Assets](FA_30_30_00.md) \(FA303000\)
 
 You can view the reference number of the GL batch in the **Batch Nbr.** column on the [Fixed Asset Transactions](FA_30_10_00.md) \(FA301000\) form. The reference number is also a link that you can click to view the GL batch on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## Transaction Generated for Fixed Asset Reconciliation {#section_fgd_ljv_vxb .section}
+## Transaction Generated for Fixed Asset Reconciliation
 
 When you reconcile a fixed asset with the GL account generated on release of an AP bill, the system generates the following general ledger transaction.
 

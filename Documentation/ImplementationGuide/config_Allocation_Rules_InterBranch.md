@@ -1,4 +1,4 @@
-# Allocation Rules: Interbranch Allocations {#_06dd5e7e-ad4f-47af-8d2c-3b57047bcfda .concept}
+# Allocation Rules: Interbranch Allocations
 
 You can perform allocations among accounts of different companies or branches. For each allocation, in the Summary area of the [Allocations](../UserGuide/GL_20_45_00.md) \(GL204500\) form, you should select the company or branch to which the allocation transaction is related. For each account involved in allocation, you then select a company or branch on the **Source Accounts** and **Destination Accounts** tabs.
 

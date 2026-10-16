@@ -1,31 +1,31 @@
-# Billing Rules: To Configure a Combined Billing Rule {#_87926a55-27fb-4552-bc9c-f87ca952cfca .task}
+# Billing Rules: To Configure a Combined Billing Rule
 
 The following implementation activity will walk you through the process of configuring a combined billing rule so that you can bill a fixed-price project in two stages based on the time and material that was spent.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the Thai Food Restaurant customer has ordered a juicer from the SweetLife Fruits &amp; Jams company, along with the installation and training of the company's employees on operating the juicer. Both companies have agreed that the customer will be billed in two stages. In the first stage, the customer will pay for the juicer, and for 40% of the services, which have a fixed price. In the second stage \(after the project is completed\), the customer will pay for the remainder of the services.
 
 Acting as the project accountant, you need to configure the appropriate billing rule.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Projects* feature has been enabled to support the project management functionality.
 -   On the [Account Groups](PM_20_10_00.md) \(PM201000\) form, the *MATERIAL*, *LABOR*, and *SUBCON* account groups of the expense type have been configured. These account groups will aggregate the expenses posted to particular GL accounts.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create a combined billing rule on the [Billing Rules](PM_20_70_00.md) \(PM207000\) form to be able to bill different stages of a project with different billing settings.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring a billing rule, you need to launch the Acumatica ERP website and sign in to a company with the *U100* dataset preloaded. To sign in as a project accountant, use the *brawner* username and the *123* password.
 
-## Step 1: Configuring a Billing Rule and a Step with Billing for Progress { .section}
+## Step 1: Configuring a Billing Rule and a Step with Billing for Progress
 
 To configure a billing rule and add a step to bill the customer for progress, do the following:
 
@@ -48,7 +48,7 @@ To configure a billing rule and add a step to bill the customer for progress, do
 5.  On the **Billing Settings** tab, clear the **Create Lines with Zero Amount and Quantity** check box.
 6.  Save your changes.
 
-## Step 2: Configuring a Billing Rule Step to Bill for Materials { .section}
+## Step 2: Configuring a Billing Rule Step to Bill for Materials
 
 To add and configure a step to bill the customer for materials, do the following:
 
@@ -80,7 +80,7 @@ To add and configure a step to bill the customer for materials, do the following
 3.  On the **Billing Settings** tab, clear the **Create Lines with Zero Amount and Quantity** check box.
 4.  Save your changes.
 
-## Step 3: Configuring a Billing Rule Step with Billing for Labor { .section}
+## Step 3: Configuring a Billing Rule Step with Billing for Labor
 
 To add and configure a step to bill the customer for employees’ labor, do the following:
 
@@ -112,7 +112,7 @@ To add and configure a step to bill the customer for employees’ labor, do the 
 3.  On the **Billing Settings** tab, clear the **Create Lines with Zero Amount and Quantity** check box.
 4.  Save your changes.
 
-## Step 4: Configuring a Billing Rule Step with Billing for Subcontractors’ Services { .section}
+## Step 4: Configuring a Billing Rule Step with Billing for Subcontractors’ Services
 
 To add and configure a fourth step to the billing rule for billing customers on services provided by subcontractors, do the following:
 

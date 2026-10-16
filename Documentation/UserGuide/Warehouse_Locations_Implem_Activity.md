@@ -1,24 +1,24 @@
-# Warehouse Locations and Single-Step Transfers: Implementation Activity {#_191790db-67df-4dc2-906a-7ca81cc698a5 .task}
+# Warehouse Locations and Single-Step Transfers: Implementation Activity
 
 In the following implementation activity, you will learn how to create warehouse locations.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company has organized separate storage areas for spices and write-off items \(such as items that are damaged or past their sell-by dates\) in the retail warehouse and needs to track these items by warehouse locations. Further suppose that you are an implementation manager. You will create two warehouse locations for spices and write-off items.
 
 **Tip:** A third location of the warehouse is the default location, *MAIN*, which is where items are initially received and items not stored in the other areas are stored.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, as you create locations for spices and write-off items for the retail warehouse by using the [Warehouses](IN_20_40_00.md) \(IN204000\) form, you will specify a location identifier and appropriate settings for each location.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating warehouse locations, you should launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as implementation manager Kimberly Gibbs, by using the *gibbs* username and the *123* password.
 
-## Step: Creating Warehouse Locations { .section}
+## Step: Creating Warehouse Locations
 
 You will leave the settings of the *MAIN* location as they are because *MAIN* is a default location for all stock items in the retail warehouse. To create locations for spices and write-off items, do the following:
 

@@ -1,8 +1,8 @@
-# To Process a Transaction Held for Review by the Processing Center {#_8fb40422-531d-49f9-8613-57ed24ba68d1 .task}
+# To Process a Transaction Held for Review by the Processing Center
 
 This procedure describes how to process a credit card transaction held for review by the processing center. You perform this processing on the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form.
 
-## To Process a Transaction Held for Review by the Processing Center {#section_gts_4jv_vxb .section}
+## To Process a Transaction Held for Review by the Processing Center
 
 1.  Open the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form.
 2.  In the **Reference Nbr.** box, select the number of a payment with a transaction that was held for review.

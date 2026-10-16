@@ -1,14 +1,14 @@
-# To Modify a Branch's Configuration for 1099 Reports {#_75ab8b85-4628-46a2-bc5d-14e926d56316 .task}
+# To Modify a Branch's Configuration for 1099 Reports
 
 If your organization consists of legal entities that are configured as branches requiring balancing and are consolidated under a company, you can prepare 1099-MISC reports by branch. In this case, each branch is a separate reporting entity.
 
 To be able to generate the [1099-MISC Form](AP_65_30_00.md) \(AP653000\) report and any other 1099 reports, you should modify the configuration of the branch that you will select as a report parameter for all required 1099 reports.
 
-## Before You Proceed {#section_tnp_njv_vxb .section}
+## Before You Proceed
 
 Make sure that the *1099 Reporting* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## To Modify a Branch's Configuration for 1099 Reports {#section_vnp_njv_vxb .section}
+## To Modify a Branch's Configuration for 1099 Reports
 
 1.  Open the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form.
 2.  On the **1099 Settings** tab, review the tax boxes, and specify minimum report amounts for the applicable tax boxes in the **Minimum Report Amount** column and the associated accounts in the **Account** column.

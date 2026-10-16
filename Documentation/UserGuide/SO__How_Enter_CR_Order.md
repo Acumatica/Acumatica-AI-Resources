@@ -1,8 +1,8 @@
-# To Create a Cash Return Order \(CR\) {#_fadddc1f-629c-414a-ae1b-2a7f1aface13 .task}
+# To Create a Cash Return Order \(CR\)
 
 To process a return of items that were sold on a cash sale, you create a cash return order \(that is, an order of the *CR* order type\) by using the [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 
-## To Create a Cash Return Order { .section}
+## To Create a Cash Return Order
 
 1.  Open the [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 2.  In the Summary area, select *CR* as the order type.

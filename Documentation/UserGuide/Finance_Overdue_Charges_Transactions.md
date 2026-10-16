@@ -1,8 +1,8 @@
-# Overdue Charges: Generated Transactions {#_c015b196-ab7c-4e9f-8a85-583cc2dd833e .concept}
+# Overdue Charges: Generated Transactions
 
 As you apply overdue charges, you create and process documents of the *Overdue Charge* type. You release this document by using the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. When you release an overdue document, to update customer balances, the system generates a GL transaction described in the following section.
 
-## Transactions Generated for *Overdue Charge* Documents { .section}
+## Transactions Generated for *Overdue Charge* Documents
 
 When you create and release an overdue charge, the system generates the following general ledger transaction:
 

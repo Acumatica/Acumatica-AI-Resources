@@ -1,4 +1,4 @@
-# Multiple Base Currencies {#_d60242d1-d4c9-4ee8-9631-91977e974891 .concept}
+# Multiple Base Currencies
 
 The topics of this chapter describe how to configure the support of multiple base currencies in one tenant and set up the needed entities.
 

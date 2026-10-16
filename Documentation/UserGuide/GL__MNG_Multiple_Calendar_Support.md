@@ -1,10 +1,9 @@
-# Multiple Calendar Support {#_8b5e547a-7940-4e11-b986-744cf4676cb0 .concept}
+# Multiple Calendar Support
 
 In Acumatica ERP, you can implement multiple legal entities within the same tenant, and the entities can have different fiscal year-end dates. With the *Multiple Calendar Support* feature enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can configure multiple companies with different fiscal year-end dates within one tenant.
 
 The following diagram illustrates the relations between the master calendar and a company calendar with financial periods that differ from those in the master calendar. The financial calendar of Company A starts two months later than that of the master calendar \(for example, if the financial year of the master calendar starts in January and ends in December, the financial year of Company A starts in March and ends in February\).
 
-![](Images/GL_Master_and_Company_Calendars.png "Master calendar and company calendar")
 
 To create a new company with financial year start and end dates that are different from those of the master calendar, you perform the following steps:
 

@@ -1,4 +1,4 @@
-# Setting Up Payment Processing By Using the U.S. ACH Plug-In {#_8d732e41-e79e-4a60-9f2d-6388d71cc797 .concept}
+# Setting Up Payment Processing By Using the U.S. ACH Plug-In
 
 In Acumatica ERP, you can use the flexible U.S. ACH plug-in. The plug-in provides the flexibility to adjust ACH export settings according to known variations in customers' and banks' requirements for exported US ACH files. This flexibility includes the following capabilities:
 

@@ -1,4 +1,4 @@
-# To Prepare BACS Payments {#_660505c8-5c87-4bb2-97b2-a0ad1c544e4c .task}
+# To Prepare BACS Payments
 
 To pay a vendor through Bankers Automated Clearing Service \(BACS\), you perform the following steps:
 
@@ -6,13 +6,13 @@ To pay a vendor through Bankers Automated Clearing Service \(BACS\), you perform
 2.  Export the batch into a file, as described in [To Export BACS Payments](AP__how_Exporting_BACS_Payments.md).
 3.  Email the file to the BACS operator for further processing.
 
-## Before You Proceed {#section_jp4_njv_vxb .section}
+## Before You Proceed
 
 Make sure the appropriate payment documents have been created on the [Checks and Payments](AP_30_20_00.md) \(AP302000\) but not yet released. The payment method to be used for BACS payments must be associated with these payments.
 
 Acumatica ERP provides the *Direct Debit* type for payment methods to be used for BACS payments. You should associate this payment method with each vendor that prefers BACS payments. In addition, the file export functionality must be set up in the system to export batches as a file. For more information, see [Processing BACS Payments](AP__con_BACS_Payment_Support.md).
 
-## To Prepare BACS Payments for Export {#section_mp4_njv_vxb .section}
+## To Prepare BACS Payments for Export
 
 To prepare BACS payments for export, do the following:
 

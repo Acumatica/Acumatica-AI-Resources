@@ -1,10 +1,10 @@
-# Sales of Stock Items: Stock Allocation with Multiple UOMs {#_f03af8f5-644d-4788-8533-5868174eea59 .concept}
+# Sales of Stock Items: Stock Allocation with Multiple UOMs
 
 If the *Multiple Units of Measure* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can specify multiple units of measure \(UOMs\) for a stock item on the [Stock Items](IN_20_25_00.md) \(IN202500\) form.
 
 During stock allocation, if an item’s sales UOM is not divisible and the ordered quantity is not fully available in the warehouse specified in the line, the system divides the order line’s quantity into an integer quantity in the line's UOM and the remaining quantity in the base UOM.
 
-## Allocation of Stock Items in Multiple UOMs { .section}
+## Allocation of Stock Items in Multiple UOMs
 
 In a sales order, when the system partially allocates an item that is either lot tracked or not tracked, it checks the divisibility of the item's sales unit. That is, the system checks the state of the **Divisible Unit** check box right of the **Sales Unit** box on the **General** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form.
 
@@ -25,7 +25,7 @@ For a serial-tracked item, the system always splits lines on the [Sales Orders](
 
 In an order with a type whose automation behavior is *Blanket Order* on the [Order Types](SO_20_10_00.md) \(SO201000\) form, the system always uses the UOM of the order line when the line is partially allocated and split.
 
-## Processing of a Sales Order with Partially Allocated Quantities { .section}
+## Processing of a Sales Order with Partially Allocated Quantities
 
 When you have created the sales order with partially allocated quantities, you create a transfer order on the [Create Transfer Orders](SO_50_90_00.md) \(SO509000\) form to move the allocated items to the needed warehouse. In the transfer order, the system adds the split lines with the UOMs specified in the **Line Details** dialog box of the [Sales Orders](SO_30_10_00.md) \(SO301000\) form for the sales order.
 
@@ -38,7 +38,7 @@ On shipment confirmation, the system sums the splits of an order line. When the 
 -   If the sum of all line splits is an integer \(that is, it can be fully converted to the order line's UOM\), inserts the order line's UOM in the corresponding line of the sales invoice
 -   If the sum of all line splits is not an integer, inserts the base UOM in the invoice line
 
-## Example of Stock Allocation { .section}
+## Example of Stock Allocation
 
 Suppose that a company sells computers and accessories, including 1 TB hard drives. It sells hard drives by piece and in boxes of 10 pieces per box. The base and sales units of measure are *EA* \(each\), and a conversion to *BOX10* \(a box of 10 pieces\) is specified in the item's settings on the **General** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form.
 

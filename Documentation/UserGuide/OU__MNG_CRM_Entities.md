@@ -1,8 +1,8 @@
-# Handling Acumatica ERP Entities {#_98759c09-b164-443f-bf10-3b34212cb8f7 .concept}
+# Handling Acumatica ERP Entities
 
 Once you have installed the Acumatica add-in for Outlook, you can start handling various Acumatica ERP entities, such as contacts, business accounts, cases, and opportunities; you can create new entities linked to particular emails and log your communication activities in Acumatica ERP.
 
-## In This Chapter { .section}
+## In This Chapter
 
 -   [Record Entry](OU__con_Creating_Leads_Contacts.md)
 -   [Review of Record Details](OU__con_Viewing_Record_Details.md)

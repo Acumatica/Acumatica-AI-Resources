@@ -1,16 +1,16 @@
-# Related Items in Sales Orders: To Sell a Cross-Sell Item {#_aad990f2-a964-48f1-b70d-15b42a6d82ee .task}
+# Related Items in Sales Orders: To Sell a Cross-Sell Item
 
 The following activity will walk you through the processing of a sales order with a cross-sell item.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the FourStar Coffee &amp; Sweets Shop customer orders three 96-ounce jars of raspberry jam from the SweetLife retail store. When the sales manager enters the sales order, she notices that the raspberry jam has cinnamon specified as a cross-sell item for the raspberry jam. The sales manager offers to add the cinnamon to the order, and the purchasing manager of FourStar Coffee &amp; Sweets Shop agrees to buy one pound of the spice.
 
 Acting as the sales manager of SweetLife Fruits &amp; Jams, you need to enter and process the sales order for the original item and the cross-sell item.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following configuration tasks have been performed to prepare the system for this activity to be performed:
 
@@ -19,13 +19,13 @@ In the *U100* dataset, the following configuration tasks have been performed to 
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *COFFEESHOP \(FourStar Coffee &amp; Sweets Shop\)* customer has been defined.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *RASPJAM96* and *CINNAMON* stock items have been defined.
 
-## Process Overview {#section_yfn_1bc_dwb .section}
+## Process Overview
 
 In this activity, to process a sales order with the original item and a cross-sell item, you will first create a sales order of the *SO* type on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form and add a line with the original item to the sales order. You will then review the suggestions and add the cross-sell item.
 
 Then you will save the sales order and click **Prepare Invoice** on the form toolbar. The system will create an sales invoice and open it on the [Invoices](SO_30_30_00.md) \(SO303000\) form. Finally, you will release the invoice.
 
-## System Preparation { .section}
+## System Preparation
 
 Do the following:
 
@@ -33,7 +33,7 @@ Do the following:
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the company and branch selection menu, on the top pane of the Acumatica ERP screen, select the *SweetLife Store* branch.
 
-## Step 1: Entering the Sales Order { .section}
+## Step 1: Entering the Sales Order
 
 To create the sales order for FourStar Coffee &amp; Sweets Shop, do the following:
 
@@ -55,7 +55,7 @@ To create the sales order for FourStar Coffee &amp; Sweets Shop, do the followin
 
 Notice that on the table toolbar, the system displays a warning message that this item has a cross-sell item.
 
-## Step 2: Adding the Cross-Sell Item { .section}
+## Step 2: Adding the Cross-Sell Item
 
 In this step, you need to add the cross-sell item to the sales order. While you are still viewing the sales order that you have created on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, do the following:
 
@@ -70,7 +70,7 @@ In this step, you need to add the cross-sell item to the sales order. While you 
     -   **Unit Price**: *12.99*
 5.  On the form toolbar, click **Save**.
 
-## Step 3: Creating the Shipment { .section}
+## Step 3: Creating the Shipment
 
 While you are still viewing the sales order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, process the shipment for it as follows:
 
@@ -79,7 +79,7 @@ While you are still viewing the sales order on the [Sales Orders](SO_30_10_00.md
 
 The system creates a shipment and opens it on the [Shipments](SO_30_20_00.md) \(SO302000\) form.
 
-## Step 4: Confirming the Shipment { .section}
+## Step 4: Confirming the Shipment
 
 To confirm the shipment you have created, do the following, while you are still viewing the shipment on the [Shipments](SO_30_20_00.md) \(SO302000\) form:
 
@@ -88,7 +88,7 @@ To confirm the shipment you have created, do the following, while you are still 
 
 The shipment is assigned the *Confirmed* status, and now you can prepare the invoice to bill the customer and increase the customer's debt in the system.
 
-## Step 5: Processing the Invoice { .section}
+## Step 5: Processing the Invoice
 
 To prepare and release the invoice related to the sales order and shipment, do the following:
 
@@ -99,7 +99,6 @@ To prepare and release the invoice related to the sales order and shipment, do t
 5.  On the **Shipments** tab, in the only row, click the link in the **Inventory Ref. Nbr.** column to view the inventory issue that was generated when you released the invoice.
 6.  On the [Issues](IN_30_20_00.md) \(IN302000\) form, which opens, review the details of the inventory issue, which is shown in the following screenshot. Make sure the issue has the *Released* status, which means that the issue has been released and the items' quantities in inventory have been decreased appropriately.
 
-    ![](Images/activity_OrderMgmt_Sales_of_Related_Items_Cross-Sell.png "The inventory issue generated on release of the invoice")
 
 
 The processing of the sales order is now complete.

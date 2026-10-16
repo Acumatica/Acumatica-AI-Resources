@@ -1,4 +1,4 @@
-# Billing Projects for Time and Material {#_3bb0b7f8-845b-4ca7-807f-7097d60d3458 .concept}
+# Billing Projects for Time and Material
 
 In Acumatica ERP, if you need to bill customers for the services provided as a part of a project, you can generate invoices based on the information collected in the project’s accounting data. This chapter describes how you can bill projects for time and material.
 

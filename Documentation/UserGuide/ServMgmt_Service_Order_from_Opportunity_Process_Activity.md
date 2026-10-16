@@ -1,16 +1,16 @@
-# Opportunity-Related Service Orders: Process Activity {#_b6916f61-524b-4f75-be4b-cb19811a2f03 .task}
+# Opportunity-Related Service Orders: Process Activity
 
 This activity will walk you through the process of creating a service order from an opportunity with a quote that the customer has agreed to.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the Thai Food Restaurant customer has called and requested a proposal for some products of the SweetLife Service and Equipment Sales Center, along with installation services for the products. The service manager \(Maia Davis\) has received the opportunity and needs to enter it into the system. She then needs to prepare a sales quote and send it to the customer for review.
 
 Further suppose that after reviewing the proposal, the customer decides to procure the company for the services and products, making the opportunity won. The service manager then needs to prepare a service order based on the opportunity, and schedule an appointment for a staff member. You will act as the service manager in performing all of these actions.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -30,11 +30,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   On the [Customers](AR_30_30_00.md#) \(AR303000\) form, the *TOMYUM \(Thai Food Restaurant\)* customer has been defined. The *AP SO* billing cycle has been selected for this customer in the **Service Management** section of the **Billing** tab.
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *INSTALL* non-stock item of the *Service* type has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create a new opportunity on the [Opportunities](CR_30_40_00.md#) \(CR304000\) form and add the applicable service to be performed and stock item to be sold to this opportunity. You will then create a sales quote for the customer and send it to the customer. Finally, you will create a service order based on the opportunity and schedule an appointment.
 
-## System Preparation {#section_xjy_vpq_ghc .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -42,7 +42,7 @@ Before you start this activity, do the following:
 2.  In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date *1/30/2026*. For simplicity, you will use this business date to create and process all documents in this activity.
 3.  After signing in, make sure that the *Service Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form.
 
-## Step 1: Creating an Opportunity { .section}
+## Step 1: Creating an Opportunity
 
 To create an opportunity, do the following:
 
@@ -59,7 +59,7 @@ To create an opportunity, do the following:
 6.  Add another row with the *JUICER15* inventory item and a quantity of `1`.
 7.  On the form toolbar, click **Open**. In the **Details** dialog box, which is opened, click **OK**. The opportunity is created.
 
-## Step 2: Sending a Quote to the Customer { .section}
+## Step 2: Sending a Quote to the Customer
 
 To create a sales quote and send it to the customer, do the following:
 
@@ -70,7 +70,7 @@ To create a sales quote and send it to the customer, do the following:
 
 3.  On the More menu \(under **Processing**\), click **Send**.
 
-## Step 3: Creating a Service Order from the Opportunity { .section}
+## Step 3: Creating a Service Order from the Opportunity
 
 Suppose that the customer has accepted the sales quote that was sent. To create a service order, do the following:
 
@@ -85,7 +85,7 @@ Suppose that the customer has accepted the sales quote that was sent. To create 
 
 Now you can process the service order by scheduling an appointment.
 
-## Step 4: Creating an Appointment { .section}
+## Step 4: Creating an Appointment
 
 To create an appointment, do the following:
 
@@ -105,7 +105,6 @@ To create an appointment, do the following:
     The appointment is now scheduled, and the staff member has been assigned to it \(see below\).
 
 
-![](Images/ServMgmt_Appointment_from_Opportunity_on_the_Modern_Calendar.png "The scheduled appointment")
 
 **Parent topic:**[Creating a Service Order from an Opportunity](../UserGuide/ServMgmt_Service_Order_from_Opportunity_Mapref.md)
 

@@ -1,16 +1,16 @@
-# AR Invoice Correction: To Create a Debit Memo and Apply a Payment to It {#_ae03deb1-c096-40f2-a542-4a39f8016653 .task}
+# AR Invoice Correction: To Create a Debit Memo and Apply a Payment to It
 
 The following activity will walk you through the process of creating a debit memo and applying a payment to it.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_cyn_4jv_vxb .section}
+## Story
 
 Suppose that an invoice sent by SweetLife Fruits &amp; Jams company to FourStar Coffee &amp; Sweets Shop for a three-day training in the amount of $135 undercharged the customer, because the number of trainees was higher than the agreed-on number. The amount to be additionally charged from the customer for this training is $67.50.
 
 Acting as a SweetLife accountant, you need to create a debit memo in the amount of $67.50 and process the customer's payment of the debit memo.
 
-## Configuration Overview {#section_fyn_4jv_vxb .section}
+## Configuration Overview
 
 For the purposes of this activity, the following features have been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form:
 
@@ -22,11 +22,11 @@ On the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, the 
 
 On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *COFFEESHOP \(FourStar Coffee &amp; Sweets Shop\)* customer has been configured.
 
-## Process Overview {#section_jyn_4jv_vxb .section}
+## Process Overview
 
 In this activity, you will create and release a debit memo on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form and apply a payment to it on the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form.
 
-## System Preparation {#section_lyn_4jv_vxb .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -36,7 +36,7 @@ To prepare the system, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026*. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Creating and Releasing a Debit Memo {#section_nyn_4jv_vxb .section}
+## Step 1: Creating and Releasing a Debit Memo
 
 To create and release a debit memo, do the following:
 
@@ -57,7 +57,7 @@ To create and release a debit memo, do the following:
 4.  Click **Remove Hold** on the form toolbar.
 5.  Click **Release** on the form toolbar to release the debit memo.
 
-## Step 2: Applying a Payment to the Debit Memo {#section_qyn_4jv_vxb .section}
+## Step 2: Applying a Payment to the Debit Memo
 
 To apply a payment to the debit memo, do the following:
 
@@ -69,7 +69,6 @@ To apply a payment to the debit memo, do the following:
 3.  In the Summary area, review the value in the **Payment Method** box and make sure that the **Payment Amount** is *67.50*.
 4.  On the **Documents to Apply** tab, make sure that the debit memo you have created is shown. The payment with the debit memo applied to it is shown in the following screenshot.
 
-    ![](Images/activity_Finance_Creating_Debit_Memo.png "The payment with the debit memo applied to it")
 
 5.  On the form toolbar, click **Remove Hold**.
 6.  On the form toolbar, click **Release** to release the payment.

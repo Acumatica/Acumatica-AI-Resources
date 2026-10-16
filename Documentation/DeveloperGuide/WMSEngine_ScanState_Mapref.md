@@ -1,4 +1,4 @@
-# Implementing Barcode Scan States {#_d850aaff-5ad8-4911-a709-a5bdee27d423 .concept}
+# Implementing Barcode Scan States
 
 In this chapter, you will learn about the implementation of barcode scan states, which contain the logic for handling a non-fixed input on a barcode-driven form. This input might include, for example, a barcode, quantity, or date.
 

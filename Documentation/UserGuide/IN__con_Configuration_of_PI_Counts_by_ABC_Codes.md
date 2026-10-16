@@ -1,4 +1,4 @@
-# Configuration of Physical Inventory Counts by ABC Codes {#_7905ea88-acb3-402d-8d64-99d9daad7210 .concept}
+# Configuration of Physical Inventory Counts by ABC Codes
 
 If your company uses ABC codes to identify items that are critical to your business, you can set up physical inventory counts based on the ABC codes assigned to stock items. Counting by ABC codes may be the best method for maintaining accurate inventory counts if in your business, a small number of items accounts for the largest value of stock; with this method, you count the high-value items most frequently. For more information on using ABC codes in Acumatica ERP, see [Inventory Ranking Methods](IN__con_Inventory_Ranking_Methods.md).
 
@@ -8,7 +8,7 @@ If you plan to use counting by ABC codes, we recommend that you set up physical 
 
 In this topic, you will find information about configuration of physical inventory by ABC codes.
 
-## Configuration of PI Counts by ABC Codes { .section}
+## Configuration of PI Counts by ABC Codes
 
 The configuration of counting based on ABC codes includes the following stages:
 

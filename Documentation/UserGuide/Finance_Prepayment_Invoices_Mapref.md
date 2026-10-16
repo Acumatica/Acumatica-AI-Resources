@@ -1,4 +1,4 @@
-# Processing Prepayment Invoices in AR {#_b7f22ebb-63c6-44ec-ab0a-57550e4e1311 .concept}
+# Processing Prepayment Invoices in AR
 
 In some countries, prepayments are subject to tax reporting requirements. When a company receives a prepayment from a customer, it is typically required to report taxes on that prepayment in its tax return for the period in which the prepayment was received. This means that the company must account for the prepayment tax as part of its overall tax obligations.
 

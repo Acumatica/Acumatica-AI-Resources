@@ -1,4 +1,4 @@
-# Attributes on DACs {#_feec5367-994f-482c-b662-1006346d61c6 .concept}
+# Attributes on DACs
 
 You can place the attributes listed in the following table on the data access class \(DAC\) declaration.
 

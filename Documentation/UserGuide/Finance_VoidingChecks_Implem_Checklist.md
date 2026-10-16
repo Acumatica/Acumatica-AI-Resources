@@ -1,8 +1,8 @@
-# Voiding Payments: Implementation Checklist {#_a3fbed9c-ea82-4fd7-a6e7-0547d8f2956d .concept}
+# Voiding Payments: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for voiding payments, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist {#section_exj_njv_vxb .section}
+## Implementation Checklist
 
 We recommend that before you void payments, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -12,7 +12,7 @@ We recommend that before you void payments, you make sure the needed features ha
 |[Vendors](AP_30_30_00.md) \(AR303000\)|Verify the existence of the vendor accounts for the vendors whose payments you want to void. For details, see [Vendors: Implementation Activity](Vendor_Implem_Activity.md).|
 |[Payment Methods](CA_20_40_00.md) \(CA204000\)|Make sure that the *CHECK* payment method has been specified when creating a payment.|
 
-## Other Settings That Affect the Workflow {#section_gxj_njv_vxb .section}
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of payment voiding by specifying additional settings as follows:
 
@@ -21,7 +21,7 @@ You can affect the workflow of payment voiding by specifying additional settings
 -   To give the created payments the *On Hold* status, select the **Hold Documents on Entry** check box in the **Data Entry Settings** section on the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form.
 -   Make sure that the **Automatically Post on Release** check box is selected in the **Posting Settings** section on the [Accounts Payable Preferences](AP_10_10_00.md) form. This setting indicates that payments will be automatically posted to the general ledger once they are released.
 
-## Testing of Settings {#section_ixj_njv_vxb .section}
+## Testing of Settings
 
 To make sure that all settings are configured correctly, we recommend that you void a payment as described in [Voiding Payments: Process Activity](Finance_VoidingChecks_Activity.md).
 

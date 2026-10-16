@@ -1,8 +1,8 @@
-# To Link a Sales Order to an Existing Purchase Order {#_16c0136c-943e-4bf3-a3aa-4aaca0529f86 .task}
+# To Link a Sales Order to an Existing Purchase Order
 
 To link an existing sales order with items marked for purchasing to an existing purchase order, you use the [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 
-## To Link a Sales Order to an Existing Purchase Order { .section}
+## To Link a Sales Order to an Existing Purchase Order
 
 1.  Open the [Sales Orders](../Shared/../UserGuide/SO_30_10_00.md) \(SO301000\) form.
 2.  In the **Order Type** box, select the order type.

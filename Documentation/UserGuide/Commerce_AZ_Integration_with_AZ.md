@@ -1,4 +1,4 @@
-# Integration with Amazon {#_65795e45-9eb4-4fd5-8d3f-ddf6c68bab68 .concept}
+# Integration with Amazon
 
 This part of the guide describes the minimum configuration of the Amazon integration, as well as the implementation of the ecommerce functionality in Acumatica ERP.
 

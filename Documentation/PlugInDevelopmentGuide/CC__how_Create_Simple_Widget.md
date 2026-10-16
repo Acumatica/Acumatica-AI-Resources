@@ -1,10 +1,10 @@
-# To Create a Simple Widget {#_1ea88afb-8f3e-4c07-b8be-fb29c108e18f .task}
+# To Create a Simple Widget
 
 A simple widget displays information from a single data source and does not require calculations or comprehensive data retrieval. Multiple simple widgets, such as wiki widgets or embedded page widgets, are available in Acumatica ERP by default.
 
 To create a simple widget, you need to perform the basic steps that are described in this topic.
 
-## To Create a Simple Widget { .section}
+## To Create a Simple Widget
 
 1.  In the project of your Acumatica ERP extension library or your Acumatica Framework-based application, create a data access class \(DAC\), which stores the parameters of the widget. The DAC must extend the PXBqlTable class and implement the IBqlTable interface; you can use any DAC attributes with this DAC.
 

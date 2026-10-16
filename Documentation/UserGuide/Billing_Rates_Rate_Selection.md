@@ -1,4 +1,4 @@
-# Billing Rates: Rate Selection Rules {#_4a7c387c-22cf-4614-949e-12485b7019e1 .concept}
+# Billing Rates: Rate Selection Rules
 
 When a project transaction is billed or an allocation is run, the system finds the applicable rate—that is, the value of the *@Rate* parameter specified in the billing rule formula. This selection is based on the combination of the rate type assigned to the current step of a billing rule \(or allocation rule\) and the rate table code that is assigned to the project task to which the billed or allocated transaction corresponds.
 
@@ -15,7 +15,6 @@ The system may not find an applicable rate in all sequences defined in the syste
 
 The following diagram shows how the system selects the value of the *@Rate* parameter if the account group specified in the project transaction is the same as the account group of the billing rule step.
 
-![](Images/diag_Projects_Billing_Rates.png)
 
 **Parent topic:**[Managing Billing Rates](../UserGuide/Billing_Rates_Mapref.md)
 

@@ -1,8 +1,8 @@
-# Taxes in Projects: Tax Calculation in Change Orders {#_37297ca5-3a6d-4732-be17-caa20aa2a68d .concept}
+# Taxes in Projects: Tax Calculation in Change Orders
 
 In construction, change orders are legally binding amendments to project agreements. To keep contractors and customers aligned and to avoid disputes, it’s critical to clearly communicate both the total revenue impact and the calculated taxes.
 
-## Supported Tax Types and Required Features { .section}
+## Supported Tax Types and Required Features
 
 You can review the full financial impact of a change order—including taxes—before you send it to the customer. You can calculate sales tax or VAT for a change order by using the system’s internal tax functionality or through an external tax provider.
 
@@ -14,7 +14,7 @@ You can review the full financial impact of a change order—including taxes—b
     -   *VAT Reporting* for VAT calculation
     -   *External Tax Calculation Integration* for tax calculation through an external provider, such as Avalara AvaTax or Vertex
 
-## Reviewing Taxes in Change Orders { .section}
+## Reviewing Taxes in Change Orders
 
 When taxes have been configured, you can specify a tax category in the **Tax Category** column on the **Revenue Budget** tab of the [Change Orders](PM_30_80_00.md) \(PM308000\) form for each line. Taxes are calculated for only the revenue budget lines with a tax category specified.
 
@@ -33,7 +33,7 @@ Taxes are automatically recalculated on the [Change Orders](PM_30_80_00.md) form
 -   The amounts or tax categories in change order lines on the **Revenue Budget** tab
 -   The tax settings on the **Taxes** tab
 
-## Calculating Retained Taxes { .section}
+## Calculating Retained Taxes
 
 Suppose that your customer retains a part of the amount of invoices prepared for change orders. To reflect this, you’ve enabled the *Retainage Support* feature on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
@@ -44,7 +44,7 @@ Retained amounts are calculated on the **Revenue Budget** tab of the [Change Ord
 
 **Attention:** Retainage of taxes isn't supported if you use an external tax provider.
 
-## Applying Taxes Calculated by External Tax Providers { .section}
+## Applying Taxes Calculated by External Tax Providers
 
 Your company may be calculating taxes by using an external tax provider, such as Avalara AvaTax or Vertex. Taxes are calculated for a change order on the [Change Orders](PM_30_80_00.md) \(PM308000\) form when you do any of these:
 
@@ -54,9 +54,9 @@ Your company may be calculating taxes by using an external tax provider, such as
 
 You can review the tax settings and the calculated taxes on the **Taxes** tab.
 
-For details, see [Integrating Acumatica ERP with Avalara Avatax](config_Avalara_Integration_Mapref.md) and [Integrating Acumatica ERP with Vertex Tax Provider](config_Vertex_Integration_Mapref.md).
+For details, see [Integrating Acumatica ERP with Avalara AvaTax](config_Avalara_Integration_Mapref.md) and [Integrating Acumatica ERP with Vertex Tax Provider](config_Vertex_Integration_Mapref.md).
 
-## Viewing the Calculated Taxes for a Project { .section}
+## Viewing the Calculated Taxes for a Project
 
 Suppose that you've created a new project task from a change order on the [Change Orders](PM_30_80_00.md) \(PM308000\) form. You've added a taxable revenue budget line and specified the retainage percentage in this line.
 
@@ -71,7 +71,7 @@ On the **Change Orders** tab, you can review these amounts for each change order
 -   **Revenue Budget Tax Total**: The tax amount calculated for the change order
 -   **Revenue Budget Change Total**: The change order amount, including tax
 
-## Reversing a Change Order with Taxes { .section}
+## Reversing a Change Order with Taxes
 
 When you reverse a change order, all tax-related settings are copied from the original change order to the reversing change order—the one that’s reversing the original order. These settings include:
 

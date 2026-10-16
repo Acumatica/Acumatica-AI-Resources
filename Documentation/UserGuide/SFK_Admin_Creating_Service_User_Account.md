@@ -1,6 +1,6 @@
-# Shop Floor Kiosk Administration: Setting Up and Starting the Kiosk {#_c3aafba4-8416-4780-9014-e6110c712662 .concept}
+# Shop Floor Kiosk Administration: Setting Up and Starting the Kiosk
 
-## Creating the Service User Account { .section}
+## Creating the Service User Account
 
 The kiosk outer session is maintained by a dedicated service user account. A supervisor or administrator signs in to the kiosk URL with this account to start the application and keep it running. This account is not used for production reporting.
 
@@ -16,11 +16,11 @@ To create the service user account, do the following:
 
 **Note:** The *SFK App Access* role grants only the access needed to start the kiosk and view the landing page. It does not provide access to any Acumatica ERP functionality or to the kiosk inner session.
 
-## Launching the Kiosk { .section}
+## Launching the Kiosk
 
 Once the service user account has been created, a supervisor or administrator opens the kiosk URL in a browser and signs in using that account. This action starts the outer session and displays the kiosk landing page, which is then available for production employees to sign in to their individual inner sessions.
 
-## Session Behavior { .section}
+## Session Behavior
 
 The outer session is designed to run without interruption. The kiosk landing page refreshes automatically every 60 seconds to keep the **Operations in Progress** list current and to prevent the outer session from timing out. There is no sign-out button on the landing page; this is by design, as the kiosk is intended to remain available on the workstation throughout the shift.
 

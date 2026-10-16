@@ -1,4 +1,4 @@
-# Managing Field-Level Auditing {#_5732218e-d1ad-4d3b-b6c3-47ed62d23a87 .concept}
+# Managing Field-Level Auditing
 
 An audit trail is a series of records of activities in an application. In Acumatica ERP, you can keep different audit trails, each devoted to a particular type of activity, such as system events and user activities. For details on monitoring system events, see [Managing System-Wide Security Auditing](SA_System_Wide_Security_Auditing_Mapref.md).
 

@@ -1,14 +1,14 @@
-# Bill Prepayments: To Refund a Prepayment {#_a50b04f1-f769-4502-8f48-668f05096a2f .task}
+# Bill Prepayments: To Refund a Prepayment
 
 The following activity will walk you through the process of creating a refund for a prepayment.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_rvn_njv_vxb .section}
+## Story
 
 Suppose that on January 30, 2026, the SweetLife Fruits &amp; Jams company received a refund of $25 from Compulink and Co. for the unused amount of the $190 prepayment. Acting as a SweetLife accountant, you need to process this refund in the system.
 
-## Configuration Overview {#section_tvn_njv_vxb .section}
+## Configuration Overview
 
 For the purposes of this activity, the following features have been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form:
 
@@ -20,11 +20,11 @@ On the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form, the **H
 
 On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *COMPULINK \(Compulink and Co.\)* vendor has been configured. This vendor has the *CHECK* payment method specified as the default one.
 
-## Process Overview {#section_xvn_njv_vxb .section}
+## Process Overview
 
 In this activity, you will create and release a refund on the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form.
 
-## System Preparation {#section_zvn_njv_vxb .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -34,7 +34,7 @@ To prepare the system, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026*. For simplicity, in this process activity, you will create and process the document in the system on this business date.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Creating the Refund for the Prepayment {#section_bwn_njv_vxb .section}
+## Step 1: Creating the Refund for the Prepayment
 
 To create the refund for the prepayment, do the following:
 
@@ -55,7 +55,7 @@ To create the refund for the prepayment, do the following:
     -   **Amount Paid \(USD\)**: 25.00 \(filled in automatically\)
 4.  On the form toolbar, click **Save**.
 
-## Step 2: Releasing the Refund {#section_ewn_njv_vxb .section}
+## Step 2: Releasing the Refund
 
 To release the refund, do the following:
 
@@ -64,7 +64,6 @@ To release the refund, do the following:
 
     On the **Application History** tab, the released refund applied to the prepayment has appeared \(see the following screenshot\). The amount of the refund is shown in the **Amount Paid \(USD\)** column whereas the **Balance** column shows the balance of the prepayment.
 
-    ![](Images/activity_ProcessingPrepayments_Refund.png "The Application History tab of the Checks and Payments form")
 
 
 **Parent topic:**[Processing Prepayments for a Bill](../UserGuide/Finance_ProcessingPrepayments_Mapref.md)

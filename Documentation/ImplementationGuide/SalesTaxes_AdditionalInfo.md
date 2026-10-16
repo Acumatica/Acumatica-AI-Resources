@@ -1,12 +1,12 @@
-# Sales Taxes: Additional Settings for Sales Taxes {#_21976fac-e198-43f9-9aed-4a69c267de1d .concept}
+# Sales Taxes: Additional Settings for Sales Taxes
 
 This topic lists the settings that can be applied when creating sales taxes.
 
-## First-Level and Second-Level Taxes { .section}
+## First-Level and Second-Level Taxes
 
 Sometimes multiple taxes should be applied to one document. *First-level taxes* are those taxes that should be applied to the net amount of the document \(the net price of the included goods or services\). *Second-level taxes* are those taxes that should be applied to the sum of the document’s taxable amount and the first-level tax amount. A second-level tax is sometimes called *tax-on-tax calculation*.
 
-## Defining How Cash Discounts Are Applied { .section}
+## Defining How Cash Discounts Are Applied
 
 In the **Cash Discount** box on the [Taxes](../Shared/../UserGuide/TX_20_50_00.md) form, you can specify the method of calculating the taxable amount if a cash discount is applied to the document. You can select one of the following options:
 
@@ -16,7 +16,7 @@ In the **Cash Discount** box on the [Taxes](../Shared/../UserGuide/TX_20_50_00.m
 -   *Does Not Affect Taxable Amount* \(selected by default\): The discount amount doesn’t affect the taxable amount. That is, the base for tax calculation is the same as the base for discount calculation. As in the previous example, consider a price of $100, a discount of 20%, and a tax of 10%. Because the taxable amount is not affected by the discount, it is $100. The tax amount is $10. Thus, the document amount is $110.
 -   *Reduces Taxable Amount on Early Payment* \(this option is available for the taxes of the VAT type only\). The system recalculates the taxable amount in the document if the full payment has been received within the cash discount period. The documents that have been fully paid within the cash discount period are listed on the [Generate AR Tax Adjustments](../Shared/../UserGuide/AR_50_45_00.md) \(AR504500\) form. On this form, you can generate credit memos that will be automatically applied to the corresponding documents upon release. For details, see [VAT for Early Payments: To Process a Payment with a Cash Discount](../Shared/../UserGuide/Taxes_Adjusting_VAT_Early_Payments_Process_Activity.md).
 
-## Defining the Reporting Group { .section}
+## Defining the Reporting Group
 
 If you plan to use the built-in tax reporting functionality in Acumatica ERP, you should select the reporting group that you have created for the tax agency specified in the **Tax Agency ID** box on the [Taxes](../Shared/../UserGuide/TX_20_50_00.md) form. For details, see [Tax Report](../Shared/../ImplementationGuide/Taxes_TaxReport_Mapref.md).
 

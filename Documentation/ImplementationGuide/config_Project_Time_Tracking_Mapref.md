@@ -1,4 +1,4 @@
-# Employee Time Tracking {#_e0754496-4f72-4680-a1bd-035870a1e013 .concept}
+# Employee Time Tracking
 
 The topics of this chapter describe how to configure the tracking of employee time spent on projects so that you can bill projects based on the logged time.
 

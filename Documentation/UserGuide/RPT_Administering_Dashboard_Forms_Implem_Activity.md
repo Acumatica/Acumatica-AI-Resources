@@ -1,14 +1,14 @@
-# Dashboards: To Add a Dashboard {#_db5ed0df-1709-4b0b-b36c-d36591ff75e4 .task}
+# Dashboards: To Add a Dashboard
 
 The following activity will show you how to create a dashboard and share it with other users.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Kimberly Gibbs, a technical specialist in your company who is working on simple customizations. A sales manager of your company has requested a dashboard named *Sales Mgr Dashboard*. Every sales manager would like to have the capability to create a personal copy of the dashboard and populate it with widgets on their own. The dashboard should be visible to sales managers only and made available through a link in the **Opportunities** workspace under the **Dashboards** category.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -16,13 +16,13 @@ In this activity, you will do the following:
 2.  Review how the access rights assigned to the dashboard are working. You will try to view the created dashboard as a technical specialist \(with the *Administrator* role\) and then as a sales manager \(with the *Sales Manager* role\).
 3.  Change access rights to the dashboard so that users with the *Administrator* role can open the dashboard in order to begin adding widgets to it.
 
-## System Preparation {#section_xwj_fpr_jrb .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to a tenant with the *U100* dataset preloaded as system administrator Kimberly Gibbs. You should sign in by using the *gibbs* username and the *123* password.
 
 **Tip:** The *gibbs* user is assigned the *Administrator* role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards.
 
-## Step 1: Creating a Dashboard { .section}
+## Step 1: Creating a Dashboard
 
 To create the dashboard that the sales managers need, do the following:
 
@@ -49,7 +49,7 @@ To create the dashboard that the sales managers need, do the following:
 
 You have created an empty dashboard, which will later be designed and populated with widgets. Because a workspace and category have been specified, a user with the *Sales Manager* role can access the dashboard through the workspace.
 
-## Step 2: Accessing the Dashboard { .section}
+## Step 2: Accessing the Dashboard
 
 To review how the access rights you have specified for the dashboard are working, do the following:
 
@@ -69,9 +69,8 @@ To review how the access rights you have specified for the dashboard are working
     The system opens the dashboard, indicating that users with the *Sales Manager* role can access the dashboard. On the dashboard title toolbar, notice that the **Create User Copy** button is available \(as shown in the following screenshot\). This illustrates that users with the *Sales Manager* role can create a personal copy of the dashboard.
 
 
-![](Images/AdminDashboards_Dashboards_SalesRep.png "Sales Mgr Dashboard viewed by a sales manager")
 
-## Step 3: Changing the Assess Rights to the Dashboard { .section}
+## Step 3: Changing the Assess Rights to the Dashboard
 
 Now you need to change the access rights of the dashboard so that users with the *Administrator* role can open the dashboard in order to begin adding widgets. To change the access rights to the dashboard, do the following:
 
@@ -89,7 +88,6 @@ Now you need to change the access rights of the dashboard so that users with the
     The system opens the dashboard, indicating that you have the needed access rights to view the dashboard. On the dashboard title toolbar, notice that the **Design** button is displayed \(as shown in the following screenshot\). This means that as an owner of the dashboard, you can populate it with widgets.
 
 
-![](Images/AdminDashboards_Dashboards_SalesRepAdmin.png "Sales Mgr Dashboard viewed by the owner of the dashboard")
 
 **Parent topic:**[Administering Dashboards](../UserGuide/RPT_Administering_Dashboards_Mapref.md)
 

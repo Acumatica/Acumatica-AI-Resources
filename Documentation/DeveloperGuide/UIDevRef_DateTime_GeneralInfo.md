@@ -1,12 +1,11 @@
-# Date and Time Control: General Information {#_2fcf43aa-d155-4149-9251-f843890357eb .concept}
+# Date and Time Control: General Information
 
 A date and time control displays the date and the time, only the time, or only the date. By clicking the calendar button in the date box, a user can select the date in the calendar, as shown in the following screenshot. By clicking the clock button in the time box, a user can select the time from the drop-down list.
 
-![](Images/UIDevRef_DateTime_Intro.png "A date and time control")
 
 A date and time control is defined by PXDateTimeEdit in the Classic UI. In the Modern UI, you use the `field` tag inside a fieldset. If you need to display the date and the time separately in two boxes, you also use a nested `qp-field` control inside the `field` tag. The control type in the Modern UI is defined automatically from the backend code. In rare cases, you may need to explicitly use the [qp-datetime-edit](https://help.acumatica.com/(W(7))/Help?ScreenId=ShowWiki&pageid=7f98e5a2-cc4d-663c-e8e4-3706beb062b5) or [qp-datetime-edit-utc](https://help.acumatica.com/(W(7))/Help?ScreenId=ShowWiki&pageid=3c5e1e2a-d98f-e9df-20f0-3cd93486b460) tag.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn the following about a date and time control:
 
@@ -14,7 +13,7 @@ In this chapter, you will learn the following about a date and time control:
 -   The proper configuration of a date and time control for specific cases, such as a control with both the date and the time
 -   A detailed description of each property of a date and time control
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You use date and time controls in the following scenarios:
 
@@ -24,7 +23,7 @@ You use date and time controls in the following scenarios:
 -   In the implementation of notifications. Users can make the system trigger automated actions at specified dates and times.
 -   In automated processes, such as scheduled tasks, which frequently rely on date and time controls to initiate actions at predefined intervals.
 
-## Date and Time Control ID { .section}
+## Date and Time Control ID
 
 The field tag doesn’t have an ID. If the control is defined as a field with a nested qp-field, the qp-field tag has an ID that consists of two parts, the `field` prefix and the semantic name. The semantic name describes the purpose of the element. For example, a time field for the contact export date and time control can have the `fieldContactExportTime` ID, as the following code shows.
 
@@ -38,17 +37,29 @@ The field tag doesn’t have an ID. If the control is defined as a field with a 
 </field>
 ```
 
-## UI Naming Conventions { .section}
+## UI Naming Conventions
 
 The following table shows the UI naming conventions for date and time controls.
 
-|Naming Convention|Example|
-|-----------------|-------|
-|Use nouns or noun phrases that describe the content of a date and time control. Preferably, box names should consist of no more than two words.|The **Date** box on the [Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\) form, which is shown in the following screenshot![](Images/UIDevRef_DateTime_NounPhase.png)
+<table id="_089af7a6-2da4-42eb-9eba-f0d962e85451"><thead><tr><th>
 
-|
+Naming Convention
 
-## Date Format Settings { .section}
+</th><th>
+
+Example
+
+</th></tr></thead><tbody><tr><td>
+
+Use nouns or noun phrases that describe the content of a date and time control. Preferably, box names should consist of no more than two words.
+
+</td><td>
+
+
+</td></tr></tbody>
+</table>
+
+## Date Format Settings
 
 When the year of the date is displayed with two digits—for example, *25*—the actual year is calculated as follows:
 

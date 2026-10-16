@@ -1,8 +1,8 @@
-# Specific Widgets: KPI Widgets: Scorecard, Meter, and Trend Card {#_cdccb0cf-5212-472f-8f2c-1155fd594498 .concept}
+# Specific Widgets: KPI Widgets: Scorecard, Meter, and Trend Card
 
 A KPI widget is a ticker that will give you an immediate overview of a particular key performance indicator \(KPI\). In Acumatica ERP, you can configure a scorecard, meter, or trend card widget to track KPI.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You use KPI widgets to show any of the following:
 
@@ -10,7 +10,7 @@ You use KPI widgets to show any of the following:
 -   Progress against a key business indicator, such as the current number of deals against the goal number
 -   A trend of metrics that change over time, such as the total sum of closed deals in the current month in comparison to the sum in the previous month, so you can see if it is increasing or decreasing
 
-## Data Source for KPI Widgets { .section}
+## Data Source for KPI Widgets
 
 The source of the calculation of a KPI is data collected by an inquiry from the system database. You select a source inquiry in the **Inquiry Screen** box of the **Widget Properties** dialog box for a KPI widget \(see Item 1 in the screenshot below\). You can use a predefined inquiry or develop one that suits your needs by using the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form.
 
@@ -18,9 +18,8 @@ Each column of a generic inquiry is a data field configured in the inquiry setti
 
 By using data fields from the generic inquiry specified as a source for the widget you are configuring, you define the metric to track with the widget in the **Field to Aggregate** box \(Item 2\). Also, you can use data fields to define thresholds of KPI if you select the *Inquiry Field* option in the **Normal Level Type** or **Alarm Level Type** box \(Item 3\).
 
-![](Images/RPT_Configuring_Widgets_KPI_Inquiry_Source.png "The settings of KPI widgets where a user can use data fields of a source inquiry")
 
-## Operations Used to Calculate a KPI { .section}
+## Operations Used to Calculate a KPI
 
 A KPI is a measurement that evaluates the performance of a business activity. To measure the business activity, you need to define the data field and the operation to perform upon the values provided by the field.
 
@@ -34,7 +33,7 @@ In the **Widget Properties** dialog box for a KPI widget, you specify a data fie
 
 The system performs the selected operation on the data from the specified column and displays the result on the KPI widget.
 
-## Threshold Values of KPI Widgets { .section}
+## Threshold Values of KPI Widgets
 
 To measure the performance of a business activity, you need to define thresholds that help you gauge success and failure \(that is, what number is considered to be successful performance and what number is considered unsuccessful\).
 
@@ -48,7 +47,7 @@ To define the upper bound of the normal range or the lower bound of the alarm ra
 
 You select a source type for both the normal level \(success\) and the alarm level \(failure\) and then specify the exact values. You can select different source types for both levels if it works for your KPI.
 
-## Background Colors of KPI Widgets { .section}
+## Background Colors of KPI Widgets
 
 The background color of the KPI widgets is used to convey the trend of the KPI. The color helps viewers to instantly understand whether immediate action is needed or the KPI is under control.
 
@@ -56,13 +55,12 @@ In Acumatica ERP, you can specify colors for the normal, warning, or alarm level
 
 If a number you are tracking is for informational purposes only and its change does not require any action, you can specify the same color for all three KPI positions.
 
-## Scorecard Widget { .section}
+## Scorecard Widget
 
 A scorecard is a rectangle with a number and title in the upper right corner. Optionally, it can display an icon of your choice in the upper left corner and a different header color to indicate a change in the value it is showing.
 
 A scorecard widget is useful when you need to monitor single parameters that are critical for particular business processes in your organization. For example, a scorecard can display the number of orders to be shipped \(see the following screenshot\).
 
-![](Images/DB__con_Scorecard_Widget_new.png "Scorecard widget")
 
 To add a scorecard widget, you select the **Scorecard** widget type in the **Add Widget** dialog box, which opens when you click **New Widget** in a widget placeholder. You specify the following information in the **Widget Properties** dialog box:
 
@@ -75,21 +73,18 @@ To add a scorecard widget, you select the **Scorecard** widget type in the **Add
 
 The following screenshot shows an example of the configuration of a scorecard that displays the number of open invoices in the system.
 
-![](Images/RPT_Configuring_Widgets_ScoreCard_Properties.png "Properties of a scorecard widget")
 
-## Meter Widget { .section}
+## Meter Widget
 
 A meter widget uses a needle and colors to show data similarly to a reading on a speedometer. Meters are useful when you need to monitor multiple levels of the data \(normal, warning, and alarm\), with the colors and values that the user designing the widget has assigned to each level. For an example of a meter KPI widget, see the following screenshot.
 
-![](Images/DB__con_Meter_Widget.png "Meter KPI widget")
 
 The system builds the view of each widget automatically, based on the properties specified for the widget in the **Widget Properties** dialog box. You can explicitly specify the values for the **Minimum** and **Maximum** levels and add any number of target values between them \(shown below\).
 
-![](Images/RPT_Configuring_Widgets_Meter_Properties.png "Properties of a meter widget")
 
 For each level you can select its own color, and how it will be calculated \(fixed value, inquiry field, percentage of other value\).
 
-## Trend Card Widget { .section}
+## Trend Card Widget
 
 The KPI values to be displayed on the trend card KPI widget are calculated based on the selected period, the aggregate function, and the current business date.
 
@@ -99,7 +94,6 @@ For example, suppose that you want to display the sum of net sales and compare i
 
 The following screenshot shows an example of a trend card KPI widget and its elements.
 
-![](Images/DB__con_TrendCard_Widget_new.png "Trend card widget")
 
 The trend card widget consists of the following parts:
 
@@ -122,7 +116,6 @@ To add a trend card widget, you select the **Trend Card** widget type in the **A
 
 The following screenshot shows an example of the configuration of the trend card widget to calculate the number of created cases in a month in comparison to the previous month.
 
-![](Images/RPT_Configuring_Widgets_Trend_Card_Properties.png "Properties of a trend card widget")
 
 **Parent topic:**[Configuring Widgets](../UserGuide/RPT_Configuring_Widgets_Mapref.md)
 

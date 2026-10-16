@@ -1,23 +1,22 @@
-# Upgrading a Default Component of Equipment to Be Sold: General Information {#_46e10edb-7a6e-4f80-884b-6f8a7fa7957b .concept}
+# Upgrading a Default Component of Equipment to Be Sold: General Information
 
 With Acumatica ERP, you can handle customer requests for purchasing and installing equipment, upgrading default components \(as described in this topic\), and providing on-site installation services.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this lesson, you will learn how to upgrade a default component of a piece of equipment being sold.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You upgrade a default component of equipment in the following cases:
 
 -   A customer requests the sale and installation of a piece of equipment, including an upgrade of one of its default components.
 -   A customer requests an upgrade to a component of equipment they already own.
 
-## Workflow of Model Equipment Sale and Default Component Upgrade {#section_b34_ztj_jdc .section}
+## Workflow of Model Equipment Sale and Default Component Upgrade
 
 In the diagram below, you can see the process of selling a piece of equipment and upgrading one of its default components.
 
-![](Images/diag_EquipMgmt_Sale_of_Model_Equipment_and_Upgrading_of_Default_Component.png "The sale of model equipment and the upgrading of a default component")
 
 When a customer request is received, a service manager enters a service order on the [Service Orders](FS_30_01_00.md) \(FS300100\) form. In the service order, the service manager specifies the customer from which the request has been received, the branch and branch location to provide services, and the services that should be performed.
 

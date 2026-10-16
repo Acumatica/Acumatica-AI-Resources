@@ -1,10 +1,10 @@
-# Purchase Requests and Requisitions: General Information {#_c0e20bb0-0d77-43c8-b883-026d8e55dbfc .concept}
+# Purchase Requests and Requisitions: General Information
 
 In Acumatica ERP, you can create purchase requisitions directly on the [Requisitions](RQ_30_20_00.md) \(RQ302000\) form or first create purchase requests on the [Requests](RQ_30_10_00.md) \(RQ301000\) form. Each request is associated with the specific customer or employee that wants the item, so requests are described as *customer requests* or *employee requests*.
 
 You can create customer purchase requests, create purchase requisitions based on these requests, and solicit bids from multiple vendors so that you can select the best bid. You can also create employee purchase requests, validate requests against the budget, create purchase requisitions based on these requests, and solicit bids from multiple vendors so that you can select the best bid.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -15,7 +15,7 @@ In this chapter, you will do the following:
 -   Process a purchase requisition based on employee requests
 -   Process a purchase requisition that is not based on requests
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You process a purchase requisition in the following cases:
 
@@ -23,7 +23,7 @@ You process a purchase requisition in the following cases:
 -   You offer products directly from manufacturers.
 -   You purchase products by using invitations to bid.
 
-## Creation of Purchase Requests { .section}
+## Creation of Purchase Requests
 
 A purchase request on the [Requests](RQ_30_10_00.md) \(RQ301000\) form has the list of stock items to be purchased on the **Details** tab. After you have created the requests, you can create a requisition document based on them.
 
@@ -37,13 +37,13 @@ If you already work with a vendor that gives your company the best prices and di
 
 **Tip:** If a default vendor is selected on the [Stock Items](IN_20_25_00.md) \(IN202500\) form for a stock item added to a request, the system populates the **Vendor** and **Alternate ID** \(hidden by default\) columns on the **Details** tab of the [Requests](RQ_30_10_00.md) form.
 
-## Budget Validation { .section}
+## Budget Validation
 
 If your organization allocates budgets for internal purchases, you can use budget validation for employee requests to prevent cost overruns of requested goods and services. Before you can use budget validation, you should make sure that the budgets have been created and released in the system on the [Budgets](GL_30_20_10.md) \(GL302010\) form.
 
 On the **Budget** tab of the [Requests](RQ_30_10_00.md) \(RQ301000\) form, you can see if the cost of the stock items included in a request complies with the budget. If the cost exceeds the budget, you can edit the list of items in the request, reject the request, or process it in the next financial period.
 
-## Creation of a Purchase Requisition { .section}
+## Creation of a Purchase Requisition
 
 On the [Requisitions](RQ_30_20_00.md) \(RQ302000\) form, you add items for purchase and select the vendors from which the items will be purchased. The process of creating a requisition can begin differently depending on whether you have already created purchase requests on the [Requests](RQ_30_10_00.md) \(RQ301000\) form for the items to be included in the requisition:
 
@@ -60,11 +60,11 @@ If you create a requisition from requests by using the [Create Requisitions](RQ_
 
 In an existing requisition, you can merge lines manually on the **Details** tab of the [Requisitions](RQ_30_20_00.md) form by selecting the Included check box for the lines in the list and clicking **Merge Lines** on the table toolbar.
 
-## Requesting of Bids { .section}
+## Requesting of Bids
 
 If you will be obtaining bids from vendors and choosing the best offers, you send requests for proposal to vendors once the requisition contains all the needed information. On the form toolbar of the [Requisitions](RQ_30_20_00.md) \(RQ302000\) form, you click **Send Requests for Proposal**. The system creates a PDF file that contains a request for proposal, generates an email to each vendor listed on the **Bidding** tab of the form, attaches the file to the email, and adds the email to the outgoing mail. If a schedule has been configured in the system, the email will be sent automatically the next time this schedule is executed. Alternatively, you can send a request to a particular vendor. On the **Bidding** tab, you select a vendor in the **Bidding Vendors** table and click **Send Request** on the table toolbar.
 
-## Selection and Acceptance of Bids { .section}
+## Selection and Acceptance of Bids
 
 If you have requested bids from multiple vendors for a requisition, you can process these bids from multiple vendors to select the best offers with the lowest prices. You start the selection process by entering these responses into the system on the [Bidding Responses](RQ_30_30_00.md) \(RQ303000\) form.
 
@@ -79,7 +79,7 @@ After you have analyzed and corrected the bidding results, you accept the result
 -   If one vendor is selected for a requisition, you can view the vendor's settings on the **Vendor Info** tab of the [Requisitions](RQ_30_20_00.md) form.
 -   If more than one vendor is selected for a requisition, you can click **View Bidding** on the More menu \(which opens the [Complete Bidding](RQ_50_30_00.md) form\) and view the selected vendors on the **Bidding Results** tab.
 
-## Processing of Purchase Requisitions { .section}
+## Processing of Purchase Requisitions
 
 To process a purchase requisition, you perform the following general steps:
 
@@ -113,13 +113,11 @@ To process a purchase requisition, you perform the following general steps:
     **Tip:** If you are instead providing the stock items to employees, you create and process inventory transactions for issuing the items to the employees of your organization by using the [Issues](IN_30_20_00.md) \(IN302000\) form.
 
 
-## Workflow of a Purchase Requisition {#section_vv2_1y4_y4b .section}
+## Workflow of a Purchase Requisition
 
 The following diagrams illustrate the workflow of a purchase requisition, which may or may not be based on requests.
 
-![](Images/diag_OrderMgmt_Purchase_Requisition_Workflow_Part_1.png)
 
-![](Images/diag_OrderMgmt_Purchase_Requisition_Workflow_Part_2.png)
 
 **Parent topic:**[Processing Purchase Requests and Requisitions](../UserGuide/OrderMgmt_Purchase_Requests_Mapref.md)
 

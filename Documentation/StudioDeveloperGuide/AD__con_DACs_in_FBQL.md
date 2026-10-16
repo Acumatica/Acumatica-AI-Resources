@@ -1,4 +1,4 @@
-# Data Access Classes in Fluent BQL {#_957f950d-22cd-4b2f-81ca-77464d0c9eff .concept}
+# Data Access Classes in Fluent BQL
 
 The data access classes \(DACs\) that are used in fluent BQL differ from the DACs that are used in traditional BQL in the declarations of the class fields. For the general information about the declaration of DACs for both traditional BQL and fluent BQL, see [Data Access Classes](AD__con_BQL_DAC.md).
 
@@ -46,7 +46,7 @@ public class Product : PX.Data.PXBqlTable, PX.Data.IBqlTable
 }
 ```
 
-## Simultaneous Use of DACs in Fluent BQL and Traditional BQL { .section}
+## Simultaneous Use of DACs in Fluent BQL and Traditional BQL
 
 The DAC fields declared in fluent BQL style can be used in traditional BQL queries without any modifications.
 

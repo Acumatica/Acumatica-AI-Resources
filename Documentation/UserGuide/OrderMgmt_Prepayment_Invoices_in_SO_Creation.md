@@ -1,8 +1,8 @@
-# Prepayment Invoices: Creation of Prepayment Invoices from Sales Orders {#_62395ae0-313c-4448-9fe1-a1c8d05ce0c4 .concept}
+# Prepayment Invoices: Creation of Prepayment Invoices from Sales Orders
 
 In Acumatica ERP, you can create prepayment invoices directly from sales orders to request full or partial prepayments from customers. When a prepayment invoice is created from a sales order, the system determines the prepayment percentage and amount based on the customer’s credit terms, generates the prepayment invoice with information copied from the sales order, and links the document to the originating order for further processing.
 
-## Prepayment Invoice from a Sales Order {#section_o2p_zzd_13c .section}
+## Prepayment Invoice from a Sales Order
 
 When a sales order is created and saved on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, you can create a prepayment invoice to request a full or partial prepayment for the sales order. On the **Payments** tab of the form, you click the **Create Prepayment Invoice** button.
 

@@ -1,14 +1,14 @@
-# Expense Returns with Corporate Cards: To Process an Expense Return to a Corporate Card {#_e05f8f66-7eee-43bb-be83-12a10b1bcde2 .task}
+# Expense Returns with Corporate Cards: To Process an Expense Return to a Corporate Card
 
 This activity will walk you through the processing of an expense return for expenses that were paid for with a corporate card.
 
-## Story { .section}
+## Story
 
 Suppose that the ToadGreen Building Group company is building a hotel for the Equity Group Investors customer. A ToadGreen project manager, Ellen Watson, has planned a business trip to the customer office, which is located in another state. On January 30, 2026, she bought airplane tickets for this visit, which was scheduled in mid-March. Then on February 20, 2026, the customer asked Ellen to cancel the visit, so she needs to return the tickets and return funds to the corporate card.
 
 Acting as this employee, you will process the needed documents in the system to enter the travel expenses related to a project and then record a return of expenses to corporate card.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -17,11 +17,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Employees](EP_20_30_00.md#) \(EP203000\) form, the *EP00000033 \(Ellen Watson\)* account has been created.
 -   On the [Projects](PM_30_10_00.md) \(PM301000\) form, the *HOTEL* project has been created with multiple project tasks.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create an expense receipt for purchasing airplane tickets on the [Expense Receipts](EP_30_10_10.md#) \(EP301010\) form and process an expense claim for this expense receipt on the [Expense Claim](EP_30_10_00.md#) \(EP301000\) form. Then you will create an expense receipt with a negative amount on the [Expense Receipts](EP_30_10_10.md#) form and process the expense claim with a negative amount on the [Expense Claim](EP_30_10_00.md#) form. Finally, you will review the project budget on the [Projects](PM_30_10_00.md) \(PM301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
@@ -29,7 +29,7 @@ To prepare to perform the instructions of this activity, do the following:
 2.  Launch the Acumatica ERP website, and sign in as Ellen Watson by using the *ewatson* username and the *123* password.
 3.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Processing Expenses { .section}
+## Step 1: Processing Expenses
 
 To record the expenses paid with a corporate card, do the following:
 
@@ -52,7 +52,7 @@ To record the expenses paid with a corporate card, do the following:
 
 7.  On the More menu, click **Submit**, and then click **Release**. On the **Financial** tab, review the table, and notice that the system has generated a cash purchase document, which now has the *Closed* status.
 
-## Step 2: Processing an Expense Refund { .section}
+## Step 2: Processing an Expense Refund
 
 To process a return of expenses paid with a corporate card, you will do the following:
 
@@ -80,7 +80,6 @@ To process a return of expenses paid with a corporate card, you will do the foll
 
     On the [Project Transaction Details](PM_40_10_00.md) \(PM401000\) form, review the lines that have been created on release of the processed documents, as shown in the following screenshot. The expense return has been processed and recorded to the project budget.
 
-    ![](Images/activity_TimeExpenses_Expense_Returns_Process_Activity_Constr.png "Project transactions related to travel expenses")
 
 
 **Parent topic:**[Processing Expense Returns to Corporate Cards](../UserGuide/TimeExpenses_Expense_Returns_Mapref.md)

@@ -1,4 +1,4 @@
-# Creating Leads {#_f66ac3e6-9536-4cbb-a558-0e31ab9baa10 .concept}
+# Creating Leads
 
 In this chapter, you will find information about different ways of creating leads in Acumatica ERP.
 

@@ -1,10 +1,10 @@
-# Cash Account Configuration {#_0ee2a8e0-c249-4ef4-8143-981e58443b10 .concept}
+# Cash Account Configuration
 
 In the Cash Management module, you work with cash accounts. Cash accounts are used to keep records of the outgoing and incoming payments and cash. To distinguish cash accounts maintained in the Cash Management module from accounts that are in the chart of accounts, we call the latter *GL accounts*, where *GL* represents the General Ledger module.
 
 In this topic, you will read about the configuration process of cash accounts and the details of implementation, which may vary depending on your company's organization and financial operations.
 
-## Configuration of Cash Accounts {#section_h41_kjv_vxb .section}
+## Configuration of Cash Accounts
 
 You can create cash accounts that represent bank accounts, amounts of cash on hand, or amounts of cash in transit. The details of configuration depend on the type of cash account you need. For information about the types of cash accounts, see [Cash Account Types](CA__CON_CashAccountsTypes.md).
 
@@ -28,17 +28,17 @@ This configuration is enough for you to start making funds transfers between you
 
 If you want to reconcile a cash account balance, the additional configuration is required. For details, see the [Reconciliation of Cash Accounts](#cash_account_recon) section in this topic.
 
-## Identifiers of Cash Accounts {#section_o41_kjv_vxb .section}
+## Identifiers of Cash Accounts
 
 Identifiers for GL accounts are defined by the *ACCOUNT* segmented key, while identifiers for cash accounts are defined by the *CASHACCOUNT* segmented key. You can use the [Segmented Keys](CS_20_20_00.md) \(CS202000\) form to define the structure of the *CASHACCOUNT* segmented key.
 
 The *CASHACCOUNT* segmented key is not related to the *ACCOUNT* key, and you can define identifiers for cash accounts differently than identifiers of GL accounts. For example, you can define the *CASHACCOUNT* key as having an additional segment \(with respect to the *ACCOUNT* key\) to designate the branch that is the owner of the cash account. Then for the GL account 10101, you can have a cash account *10101-MN* in the Main branch and *10101-NR* in the North branch, both of which are linked to the 10101 account. Alternatively, you can define cash account identifiers to be like the identifiers of the GL accounts.
 
-## Currency of Cash Accounts {#section_r41_kjv_vxb .section}
+## Currency of Cash Accounts
 
 Each cash account is denominated in a particular currency. If the *Multicurrency Accounting* feature is disabled in your system on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the currency of a cash account is taken from the branch it belongs to. If the *Multicurrency Accounting* feature is enabled, you can maintain cash accounts for each currency used, because the currency is taken from a GL account used for cash transactions, which must be denominated. The balances of foreign currency cash accounts are maintained in the currency of denomination as well as in the base currency and should be periodically revalued in the base currency for the balance sheet. For details, see [Denominated Accounts](GL__con_Denominated_Accounts.md) and [Revaluation of Bank Accounts: General Information](Multicurrency_RevaluationGL_GeneralInfo.md).
 
-## Balance of Cash Accounts {#section_t41_kjv_vxb .section}
+## Balance of Cash Accounts
 
 In Acumatica ERP, the balance of a cash account can be presented in different ways. You can view the balance of the GL account linked to the cash account. This balance, called the **GL Balance** on the system interface, is calculated as the sum of all posted transactions for the selected financial period. Additionally, you can view the available balance of a cash account. This balance, called the **Available Balance** on the system interface, is calculated as the sum of all released and cleared receipts and disbursements, regardless of the selected date or financial period. The available balance is the amount of money you can spend right now.
 
@@ -50,7 +50,7 @@ You can control how the system calculates the available balance of cash accounts
 
 By having control over the calculation of the available balance, you can more effectively evaluate your funds when you prepare payments on the [Prepare Payments](AP_50_30_00.md) \(AP503000\) form or move funds between accounts by using the [Funds Transfers](CA_30_10_00.md) \(CA301000\) form.
 
-## Reconciliation of Cash Accounts {#cash_account_recon .section}
+## Reconciliation of Cash Accounts
 
 Reconciliation of a cash account is a useful procedure in controlling cash transactions. You can keep records about cash transactions both in Acumatica ERP and in a third-party system \(for instance, a bank where you have accounts\) or in the form of cash register receipts. To reconcile the cash account, at the end of each financial period, you compare the system records with a bank statement or other documents confirming the transactions to find discrepancies between the account balances tracked by different means.
 
@@ -62,13 +62,13 @@ In Acumatica ERP, you mark cash accounts that require reconciliation by selectin
 
 For details on reconciliation of cash accounts, see [Bank Reconciliation: To Reconcile a Cash Account](Finance_Bank_Reconciliation_Activity.md).
 
-## Maintenance of Cash Accounts in a Multibranch Company {#section_ap1_kjv_vxb .section}
+## Maintenance of Cash Accounts in a Multibranch Company
 
 If the organization has branches, each branch maintains its cash accounts separately from the cash accounts of other branches. To be able to maintain a unified chart of account for all branches, you define cash accounts separately and link them to specific GL accounts in the chart of accounts \(you can link multiple cash accounts from different branches to one GL account\). Thus, a multibranch company can have a unified chart of accounts—all the accounts on the chart can be used by all branches, and each branch can have its own cash accounts, access to which is allowed for only the users who have access to the branch.
 
 Once cash accounts have been configured, cash documents in each branch are created for a cash account that belongs to the branch, but the transactions generated by these documents are posted to the GL account. Although the cash accounts are separated by branches, the GL account provides the consolidated balance over all linked cash accounts.
 
-## Usage of Subaccounts with Cash Accounts {#section_dp1_kjv_vxb .section}
+## Usage of Subaccounts with Cash Accounts
 
 If you use subaccounts in your organization, you can also use these subaccounts with cash accounts for further analysis. You define the list of available subaccounts in the General Ledger module.
 

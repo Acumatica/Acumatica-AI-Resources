@@ -1,18 +1,18 @@
-# Combined Subaccounts: To Define a Subaccount Mask for AR Documents {#_0538f8a0-0e2e-4b84-afc5-b5d5e97a2fd8 .task}
+# Combined Subaccounts: To Define a Subaccount Mask for AR Documents
 
 In this activity, you will learn how to configure automatically combined subaccounts in accounts receivable documents. You do this by defining a subaccount mask in the accounts receivable preferences and by specifying subaccounts for the needed entities.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you need to configure the combined subaccounts to be used in customer documents, to speed up their processing. Acting as an administrator, you have to specify the subaccount mask that will be used for these documents, and then specify the sales subaccount for some of the source records. The first segment of the subaccount should be taken from the non-stock item selected in the document line. The second segment should be taken from the customer selected in the document.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start to specify a subaccount mask, in a tenant with the *U100* dataset preloaded, be sure subaccounts have been configured to be used in the system, as described in [Subaccounts: Implementation Activity](config_Subaccounts_Implem_Activity.md). This configuration involves enabling the appropriate feature to use subaccounts, defining the structure of subaccounts, and specifying the values for subaccount segments in the system.
 
-## Step 1: Defining the Mask for Combined Subaccounts in AR Documents { .section}
+## Step 1: Defining the Mask for Combined Subaccounts in AR Documents
 
 To define the subaccount mask in the accounts receivable preferences, do the following:
 
@@ -32,7 +32,7 @@ To define the subaccount mask in the accounts receivable preferences, do the fol
 
 6.  Click **Save** on the form toolbar.
 
-## Step 2: Specifying the Sales Subaccount for Non-Stock Items { .section}
+## Step 2: Specifying the Sales Subaccount for Non-Stock Items
 
 For the *OFLCOURSE* and *ONLCOURSE* non-stock items, you will specify the sales subaccount, which the system will use to form the combined subaccount when that item is selected in a document. \(In a production system, you would specify the appropriate sales subaccount for all stock and non-stock items.\) To specify the sales subaccount for the non-stock items, do the following:
 
@@ -42,7 +42,7 @@ For the *OFLCOURSE* and *ONLCOURSE* non-stock items, you will specify the sales 
 4.  On the form toolbar, click **Save**.
 5.  Repeat Instructions 2 through 4 for the *ONLCOURSE* non-stock item.
 
-## Step 3: Specifying the Sales Subaccount for Customers { .section}
+## Step 3: Specifying the Sales Subaccount for Customers
 
 For the *COFFEESHOP*, *GOODFOOD*, and *HMBAKERY* customers, you will specify the sales subaccount, which the system will use to form the combined subaccount if the customer is selected in a document. \(In a production system, you would specify the appropriate sales subaccount for all customers.\) To specify the sales subaccount for customers, do the following:
 

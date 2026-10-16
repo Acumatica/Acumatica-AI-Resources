@@ -1,26 +1,26 @@
-# Project Cost Projections: To Create a Cost Projection Class {#_9cd001d9-6d2b-431d-9c7a-b6a69909a092 .task}
+# Project Cost Projections: To Create a Cost Projection Class
 
 This activity will walk you through the process of creating a cost projection class.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_ojw_hdr_v4b .section}
+## Story
 
 Suppose that you are the construction project manager of the ToadGreen Building Group company, and you need to create a cost projection class to be used for estimating the costs of a project. The cost projection class must provide the ability to estimate the costs at the task, item, and account group levels of detail.
 
-## Configuration Overview {#section_pjw_hdr_v4b .section}
+## Configuration Overview
 
 For the purposes of this activity, the *Construction* feature has been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Process Overview {#section_qjw_hdr_v4b .section}
+## Process Overview
 
 You will create a cost projection class on the [Cost Projection Classes](PM_20_35_00.md) \(PM203500\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating a cost projection class, you need to launch the Acumatica ERP website and sign in to a company with the *U100* dataset preloaded. You should sign in as a construction project manager by using the *ewatson* username and the *123* password.
 
-## Step: Creating a Cost Projection Class {#section_sjw_hdr_v4b .section}
+## Step: Creating a Cost Projection Class
 
 To define a cost projection class that will be used for creating cost projections, do the following:
 

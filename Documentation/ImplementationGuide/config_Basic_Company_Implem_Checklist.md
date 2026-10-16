@@ -1,4 +1,4 @@
-# Company Without Branches: Implementation Checklist {#_6f192ff4-17ae-47d4-a4ba-9e0b688873e6 .concept}
+# Company Without Branches: Implementation Checklist
 
 You can use the tables in this topic to quickly check whether the basic company configuration steps are being performed in Acumatica ERP. The following tables cover both mandatory configuration steps and recommended configuration steps.
 
@@ -21,32 +21,60 @@ You can use the tables in this topic to quickly check whether the basic company 
 |[Customer Classes](../UserGuide/AR_20_10_00.md) \(AR201000\) form|Make sure that the default customer class, which provides the default values for customer accounts and for other customer classes, has been created.|
 |[Accounts Receivable Preferences](../UserGuide/AR_10_10_00.md) \(AR101000\) form|Make sure that all necessary settings to use the accounts receivable functionality have been specified.|
 
-|Form|Criteria to Check|
-|----|-----------------|
-|[General Ledger Preferences](../UserGuide/GL_10_20_00.md) \(GL102000\) form|Make sure that the following settings have been specified:-   The **Automatically Post on Release** check box is selected.
+<table id="_1a310629-1570-4e2c-9bb8-ce078684a34f"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Criteria to Check
+
+</th></tr></thead><tbody><tr><td>
+
+[General Ledger Preferences](../UserGuide/GL_10_20_00.md) \(GL102000\) form
+
+</td><td>
+
+Make sure that the following settings have been specified:-   The **Automatically Post on Release** check box is selected.
 -   The **Hold Batches on Entry** check box is cleared.
 
-|
-|[Cash Management Preferences](../UserGuide/CA_10_10_00.md) \(CA102000\) form|Make sure that the following settings have been specified:-   The **Automatically Post to GL on Release** check box is selected.
+</td></tr><tr><td>
+
+[Cash Management Preferences](../UserGuide/CA_10_10_00.md) \(CA102000\) form
+
+</td><td>
+
+Make sure that the following settings have been specified:-   The **Automatically Post to GL on Release** check box is selected.
 -   The **Hold Transactions on Entry** check box is cleared.
 -   The **Require Document Ref. Nbr. on Entry** check box is cleared.
 
-|
-|[Accounts Payable Preferences](../UserGuide/AP_10_10_00.md) \(AP101000\) form|Make sure that the following settings have been specified:-   The **Automatically Post on Release** check box is selected.
+</td></tr><tr><td>
+
+[Accounts Payable Preferences](../UserGuide/AP_10_10_00.md) \(AP101000\) form
+
+</td><td>
+
+Make sure that the following settings have been specified:-   The **Automatically Post on Release** check box is selected.
 -   A vendor class, which will be used to provide default values for vendor accounts, is selected in the **Default Vendor Class ID** box.
 -   The **Hold Documents on Entry** check box is cleared.
 -   The **Require Approval of Bills Prior to Payment** check box is cleared.
 -   The **Validate Document Totals on Entry** check box is cleared.
 -   The **Require Vendor Reference** check box is cleared.
 
-|
-|[Accounts Receivable Preferences](../UserGuide/AR_10_10_00.md) \(AR101000\) form|Make sure that the following settings have been specified:-   The **Automatically Post on Release** check box is selected.
+</td></tr><tr><td>
+
+[Accounts Receivable Preferences](../UserGuide/AR_10_10_00.md) \(AR101000\) form
+
+</td><td>
+
+Make sure that the following settings have been specified:-   The **Automatically Post on Release** check box is selected.
 -   A customer class, which will be used to provide default values for customer accounts, has been selected in the **Default Customer Class ID** box.
 -   The **Hold Documents on Entry** check box is cleared.
 -   The **Validate Document Totals on Entry** check box is cleared.
 -   The **Require Payment Reference on Entry** check box is cleared.
 
-|
+</td></tr></tbody>
+</table>
 
 **Parent topic:**[Company Without Branches](../ImplementationGuide/config_Basic_Company_Mapref.md)
 

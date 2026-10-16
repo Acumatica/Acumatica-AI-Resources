@@ -1,4 +1,4 @@
-# GL Transactions: Implementation Checklist {#_dafe4bbe-3ff5-4b85-a768-77c0bf631820 .concept}
+# GL Transactions: Implementation Checklist
 
 Before users begin processing GL batches, you must make sure that the system has been configured properly and that all required entities have been created, as described in the following table
 
@@ -9,7 +9,7 @@ Before users begin processing GL batches, you must make sure that the system has
 |[Chart of Accounts](../Shared/../UserGuide/GL_20_25_00.md) \(GL202500\) form|Check whether the necessary accounts have been created.| |
 |[Company Financial Calendar](../Shared/../UserGuide/GL_20_11_00.md) \(GL201100\) form|Be sure that the financial periods for which transactions will be created have a status of *Open*.|You can generate the necessary periods on the [Master Financial Calendar](../Shared/../UserGuide/GL_20_10_00.md) \(GL201000\) form.|
 
-## Settings That Can Affect the Processing Workflow {#section_tsg_mjv_vxb .section}
+## Settings That Can Affect the Processing Workflow
 
 The settings on the [General Ledger Preferences](../Shared/../UserGuide/GL_10_20_00.md) \(GL102000\) form can affect the processing workflow as follows:
 

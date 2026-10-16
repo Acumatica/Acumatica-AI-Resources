@@ -1,4 +1,4 @@
-# Override of Event Handlers {#_d316d773-1548-4a23-b542-a4bf7aa4ecc6 .concept}
+# Override of Event Handlers
 
 You can override an event handler with or without calling the base method.
 
@@ -6,7 +6,7 @@ You can override an event handler with or without calling the base method.
 
 To override an event handler without invocation of the base method, use code based on the following template.
 
-```language-csharp
+```csharp
 protected virtual _(Events.[EventName]<[DACName], [FieldName]> e) 
 {
   … 
@@ -15,7 +15,7 @@ protected virtual _(Events.[EventName]<[DACName], [FieldName]> e)
 
 To override an event handler with invocation of the base method, use code based on the following template.
 
-```language-csharp
+```csharp
 protected virtual void _(
     Events.[EventName]<[DACName], [FieldName]> e, 
     PX[EventName] baseMethod)
@@ -29,18 +29,18 @@ protected virtual void _(
 
 For example, to override an event handler for the RowSelected event of the `CurrencyInfo` class, use the following code.
 
-```language-csharp
+```csharp
 protected virtual void _(Events.RowSelected<CurrencyInfo> e, PXRowSelected baseMethod)
 {
   baseMethod(e.Cache, e.Args);
 }
 ```
 
-## Overriding Event Handlers with Delegate Parameters That Have the Generic Delegate Signature { .section}
+## Overriding Event Handlers with Delegate Parameters That Have the Generic Delegate Signature
 
 The Acumatica Framework’s event handler override mechanism supports only event handlers whose delegate parameters' signature matches the signature of a graph’s classic event handler \(shown below\).
 
-```language-csharp
+```csharp
 protected virtual void _(Events.FieldUpdating<APInvoice, APInvoice.docBal> e, 
   PXFieldUpdating fieldUpdatingBase)
 {
@@ -51,7 +51,7 @@ Here, the second parameter has a classic delegate type: `PXFieldUpdating`.
 
 The mechanism doesn't support overrides whose delegate parameters' signature matches the signature of a graph’s generic event handler, such as `Action<Events.FieldUpdating<…>>` in the following example.
 
-```language-csharp
+```csharp
 protected virtual void _(Events.FieldUpdating<APInvoice, APInvoice.docBal> e,
     Action<Events.FieldUpdating<APInvoice, APInvoice.docBal>> fieldUpdatingBase)
 {
@@ -66,7 +66,7 @@ Note that it's not the exact delegate type that matters—that is, whether it’
 
 If your delegate parameters' signature matches the signature of a graph’s classic event handler, the system will detect the override and wire it up correctly. Thus, the system recognizes the following override even though it doesn’t use the `PXFieldUpdating` delegate type.
 
-```language-csharp
+```csharp
 protected virtual void _(Events.FieldUpdating<APInvoice, APInvoice.docBal> e,
     Action<PXCache, PXFieldUpdatingEventArgs> fieldUpdatingBase)
 {

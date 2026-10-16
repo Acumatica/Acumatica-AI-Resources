@@ -1,10 +1,10 @@
-# To Use Products in Wikis {#_ae15f234-f540-46a8-8aeb-3617bb02ba80 .task}
+# To Use Products in Wikis
 
 In wikis, you can group articles based on the *product* the articles apply to. When you create a new article, you can apply it to one product or multiple products, based on the article content. When you perform a search, you can select the product that the articles you're seeking apply to.
 
 You can use the [Wiki Products](SM_20_05_24.md) \(SM200524\) form to define products for wiki articles and manage the articles that apply to a product.
 
-## To Add a New Product { .section}
+## To Add a New Product
 
 You can add product by using the [Wiki Products](SM_20_05_24.md) form as follows:
 
@@ -13,7 +13,7 @@ You can add product by using the [Wiki Products](SM_20_05_24.md) form as follows
 3.  In the **Product Name** box, type a descriptive name for the new product.
 4.  On the form toolbar, click **Save**.
 
-## To Apply Products to Articles { .section}
+## To Apply Products to Articles
 
 You can assign articles to a particular product on the [Wiki Products](SM_20_05_24.md) form as follows:
 

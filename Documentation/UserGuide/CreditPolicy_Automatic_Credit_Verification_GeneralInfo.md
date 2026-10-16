@@ -1,21 +1,21 @@
-# Automatic Credit Verification: General Information {#_be6653db-700a-4453-9738-6ee166974f4b .concept}
+# Automatic Credit Verification: General Information
 
 You may encounter an unfortunate situation when a customer has not paid for a long time and has not responded to any inquiries or requests for payment. You might have notified the customer about due invoices with a sequence of dunning letters or in some other way. In this case, you can put a hold on the customer's credit until the issue is resolved.
 
-## Learning Objectives {#section_msc_hjv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Analyze how credit verification rules affect customers' credit check
 -   Remove credit hold for an invoice
 
-## Putting AR Documents and Customers on Credit Hold {#section_osc_hjv_vxb .section}
+## Putting AR Documents and Customers on Credit Hold
 
 On the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you can put an AR document on credit hold, even if the customer for whom the document is created is not on credit hold and has passed credit verification.
 
 An employee who is authorized to manage customer credit can apply credit holds to applicable customers by using the [Manage Credit Holds](AR_52_30_00.md) \(AR523000\) form. Once a credit hold has been applied to a customer account, no new sales orders or invoices can be created for this customer.
 
-## Removing Credit Hold for AR Documents and Customers {#section_rsc_hjv_vxb .section}
+## Removing Credit Hold for AR Documents and Customers
 
 On the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, when you save an AR invoice \(or other document on the form\) for the customer or click **Remove Hold** on the form toolbar, the system validates the customer's credit limit and places the invoice on credit hold if the validation has failed \(which can occur when the credit limit has been exceeded or a document is long past due\). When the system places the invoice on credit hold, it changes the status of the document to *Credit Hold*.
 

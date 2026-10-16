@@ -1,4 +1,4 @@
-# Processing AP Bills with Retainage {#_64f6e01e-dd05-494d-bc1c-f6853cabfea4 .concept}
+# Processing AP Bills with Retainage
 
 A company may need to withhold a portion of the billed amount until the work has been completed to assure that the vendor will satisfy its obligations and complete a particular project. The use of AP bills with retainage is especially common in the construction industry.
 

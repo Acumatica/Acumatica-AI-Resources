@@ -1,10 +1,10 @@
-# Project Security {#_acb29e28-bbd7-4e7d-8f1d-984b580e47a8 .concept}
+# Project Security
 
 Many organizations use projects to achieve their business objectives efficiently. An organization may have multiple projects in progress at a given time. By limiting users' access to and visibility of information about particular projects and related transactions, managers can properly organize the work on each project. In Acumatica ERP, you can use roles to provide access to forms based on employees' responsibilities and restriction groups and to limit the visibility of particular projects to only the responsible team, as described in this topic.
 
 **Tip:** In Acumatica ERP, you can configure groups with direct and inverse restriction. In this topic, for simplicity, groups with direct restriction are used in examples. You can use inverse restriction groups in the same way as you use direct restriction groups. For details on the types of restriction groups, see [Types of Restriction Groups](../Shared/../UserGuide/SM__con_Types_of_Restriction_Groups.md).
 
-## Usage Scenarios { .section}
+## Usage Scenarios
 
 The most common scenarios of securing projects are the following:
 
@@ -17,7 +17,7 @@ The most common scenarios of securing projects are the following:
 -   Controlling the visibility of projects by area of the system: If a project should be associated with transactions in a particular functional area of the system \(such as accounts payable\), you can make the project visible only within this area. For details, see [Visibility of Projects by Area](#_6995d0a0-1ccb-4f49-8de6-e3312b55a3ea).
 -   Managing the visibility of project transactions by account group: If you need to limit the visibility of sensitive project transactions so that only particular users can see and work with these transactions, you can configure access to the project transactions by account group. For details, see [Visibility of Project Transactions by Account Group](#pmtran_accountgroup).
 
-## Access to Forms Based on Roles {#_b98eee64-b49f-4c4d-9cad-6ff721e34697 .section}
+## Access to Forms Based on Roles
 
 By using the user security forms, you can configure access rights to the project-related forms for each employee, in accordance with the employee's typical responsibilities. For more information about user roles, see [User Roles: General Information](../Shared/../UserGuide/User_Roles_GeneralInfo.md).
 
@@ -28,7 +28,7 @@ For example, you can create the following roles for employees of your organizati
 -   *Project Accountant*: A role for an employee who plans and executes the project budget and enters project transactions. This role should have access to project-related forms—that is, the forms in the **Projects** workspace—including those listed in the **Transactions** and **Profiles** categories. Users with this role may also create project groups.
 -   *Project Team Member:* A role for an employee who works on a project and enters time sheets and time cards. This role should have access to project-related forms—that is, the forms in the **Projects** workspace—including those listed in the **Transactions** and **Profiles** categories. It should also have access to the forms listed in the **Time Tracking** category of the **Time and Expenses** workspace.
 
-## Visibility of Project Groups {#_34d05b94-b159-425f-b3ed-fd8aecc7bcf6 .section}
+## Visibility of Project Groups
 
 By default, employees who have access to the [Projects](../Shared/../UserGuide/PM_30_10_00.md) \(PM301000\) form can view or edit all the projects available in your organization. You may need to limit the visibility of specific projects to only employees of a particular project team. You can organize projects into *project groups*: groups of projects to which you configure access for a particular set of users by using restriction groups. You can define project groups on the [Project Groups](../Shared/../UserGuide/PM_20_25_00.md) \(PM202500\) form. By using the row-level security forms of Acumatica ERP, you can configure the system to hide or display particular project groups for particular employees.
 
@@ -52,7 +52,7 @@ With this configuration, user *AM* can work with all projects, including the con
 
 As a system administrator, you can further narrow the visibility of particular projects by user, as described in the next section.
 
-## Visibility of Projects by User {#_6c297192-d05e-4099-8e3e-e406666b50de .section}
+## Visibility of Projects by User
 
 By using the row-level security forms of Acumatica ERP, you can configure the system to hide or display particular projects for employees, in addition to implementing task-based roles and access based on project groups. For details on restriction groups, see [Restriction Groups in Acumatica ERP](../Shared/../UserGuide/SM__con_Overview_of_Restriction_Groups.md).
 
@@ -76,7 +76,7 @@ With the restriction groups you have created, the users’ visibility of project
 -   Users *E1* and *E2* can see only *Project Y*.
 -   Users *E3* and *E4* can see only *Project Z*.
 
-## Visibility of Projects by Branch { .section}
+## Visibility of Projects by Branch
 
 Restriction groups configured for branches do not affect the visibility of projects that have these branches specified on the **Summary** tab of the [Projects](../Shared/../UserGuide/PM_30_10_00.md) \(PM301000\) form. However, you can use the project group functionality to configure branch-based restrictions for user access to projects and project-related forms.
 
@@ -95,7 +95,6 @@ The following restrictions should be applied to employees of the company:
 
 The following diagram illustrates the structure and restrictions to be configured.
 
-![](../Shared/Images/diag_Project_Security_by_Groups_and_Branches.png)
 
 To configure this security, the system administrator performs the following general steps in the system:
 
@@ -125,7 +124,7 @@ To configure this security, the system administrator performs the following gene
     -   The users will not be able to select the restricted projects on any project-related forms—that is, on the forms that are exclusive for the project and construction functionality, such as the [Change Orders](../Shared/../UserGuide/PM_30_80_00.md) \(PM308000\) form and [Pro Forma Invoices](../Shared/../UserGuide/PM_30_70_00.md) \(PM307000\) form.
     -   The users will still be able to work with existing documents that are related to restricted projects \(such as financial documents\). For example, if an AP bill is related to a project that is restricted for a user, but the user has access to the [Bills and Adjustments](../Shared/../UserGuide/AP_30_10_00.md) \(AP301000\) form and has access to the branch that is specified on the document level of the bill, the user can see this AP bill.
 
-## Visibility of Projects by Area {#_6995d0a0-1ccb-4f49-8de6-e3312b55a3ea .section}
+## Visibility of Projects by Area
 
 After you have created a project in Acumatica ERP, the project is available system-wide by default. You can control the visibility of projects within functional areas of the system in the following ways:
 
@@ -133,7 +132,7 @@ After you have created a project in Acumatica ERP, the project is available syst
 -   Display or hide a project: If the project transactions of a particular project should be performed within a particular area \(for example, inventory\), you can make the project visible in this area and hidden in other areas, so that users can select only appropriate projects when they are preparing documents. You can select areas in the **Visibility Settings** section of the **Summary** tab on the [Projects](../Shared/../UserGuide/PM_30_10_00.md) \(PM301000\) form. After you have selected an area, users can select the project in documents generated on the related forms, and the release of these documents automatically updates the project data.
 -   Display or hide the tasks of a project: If the users perform particular tasks of a project in a certain area \(for example, the *Warehouse operations* task requires users to enter inventory transactions, and the *Customer payments* task requires users to enter accounts receivable documents\), you can select the areas where the task will be displayed in the settings of the project task. You select these areas in the **Visibility Settings** section of the **Summary** tab on the [Project Tasks](../Shared/../UserGuide/PM_30_20_00.md) \(PM302000\) form.
 
-## Visibility of Project Transactions by Account Group {#pmtran_accountgroup .section}
+## Visibility of Project Transactions by Account Group
 
 By using the [Project Transaction Visibility by Account Group](../Shared/../UserGuide/PM_10_30_00.md) \(PM103000\) form, you can configure the system to hide particular lines of project transactions that contain sensitive information by configuring user access by account group.
 
@@ -161,7 +160,7 @@ To configure the described security scenario, the system administrator does the 
 
 With this configuration, User *A* enters project transactions with employee labor related to project and selects the *LABOR* account group. Access to this account group is restricted for User *P*, who is able to review the project transaction lines with the *MATERIAL* and *SUBCON* account groups but cannot view the lines with *LABOR* account group on data entry forms and in reports.
 
-## Forms for Project Security { .section}
+## Forms for Project Security
 
 In the following table, you can find the list of the forms that you can use to manage restriction groups with projects. The table also includes the task that you can perform by using each form.
 

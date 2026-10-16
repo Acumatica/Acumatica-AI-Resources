@@ -1,4 +1,4 @@
-# To Delete a Custom Form from a Project {#_22ef2138-f3bd-4461-83dc-3f6f038e89f4 .concept}
+# To Delete a Custom Form from a Project
 
 To remove a custom form from a customization project, you have to delete all the items that have been added to the project for the form.
 

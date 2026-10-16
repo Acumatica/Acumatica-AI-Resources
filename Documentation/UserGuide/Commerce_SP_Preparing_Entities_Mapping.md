@@ -1,8 +1,8 @@
-# Preparing Entities for Synchronization: Field Mapping {#_376382b1-6b7d-434d-9dd0-aefad1b48d6a .concept}
+# Preparing Entities for Synchronization: Field Mapping
 
 In this topic, you will learn how you can map fields between Acumatica ERP and Shopify to override the standard field mapping or define an additional mapping to suit your synchronization requirements.
 
-## Mapping of Fields for Export { .section}
+## Mapping of Fields for Export
 
 Acumatica ERP Retail Edition provides you with the ability to map fields, which are related to synchronized entities, in Acumatica ERP with fields in the Shopify store. You can define additional mappings of standard or custom fields as well as override the standard mappings provided with the Shopify integration.
 
@@ -27,7 +27,7 @@ To map two fields that will be processed during the export, you specify values i
     The list of available options depends on the selected entity and the ERP object.
 
 
-## Mapping of Fields for Import { .section}
+## Mapping of Fields for Import
 
 Acumatica ERP Retail Edition provides you with the ability to map fields, which are related to synchronized entities, in Acumatica ERP with fields in Shopify. You can define additional mappings of standard or custom fields, as well as override the standard mappings provided with the Shopify integration.
 
@@ -52,7 +52,7 @@ To map two fields that will be processed during the import process, you specify 
     The list of available options depends on the selected entity, the ecommerce connector, and the external object.
 
 
-## Removing Standard Mapping for a Field { .section}
+## Removing Standard Mapping for a Field
 
 You can remove the mapping for fields that you do not want to be synchronized between Acumatica ERP and the external system. You perform the unmapping for import and export directions separately as follows:
 
@@ -64,7 +64,7 @@ You can remove the mapping for fields that you do not want to be synchronized be
     During the synchronization, the system will not pull data from the unmapped fields or record data to these fields.
 
 
-## Using of Formulas in Field Mapping { .section}
+## Using of Formulas in Field Mapping
 
 When you define mappings between fields in Acumatica ERP and in the external system on the [Entities](../Shared/../UserGuide/BC_20_20_00.md) \(BC202000\) form, you can use formulas to calculate the values to be displayed in the target fields. Formulas give you the ability to use advanced calculations and data transformation functions if some values are calculated or depend on the data from other sources.
 
@@ -79,7 +79,7 @@ In the Formula Editor dialog box, the *Fields* group includes the following opti
 -   `Unmap`: Explicitly removes the field mapping. If you unmap a required field, the connector uses either the default value or `NULL` if there is no default value defined.
 -   `DefaultMapping`: References the default field mapping defined for the connector. When the keyword is applied, the system follows the default behavior as though no manual mapping is configured. This keyword is especially useful when you want to preserve or conditionally apply the default behavior.
 
-## Import Mapping of Sales Order Details { .section}
+## Import Mapping of Sales Order Details
 
 You can map the fields with information about the products included in an order in Shopify with the fields used in sales order detail lines in Acumatica ERP.
 
@@ -92,7 +92,7 @@ To use a sales order detail field in import mapping, on the **Import Mapping** t
 3.  In the **External Object** column, select the *Order Data → Line Item* option.
 4.  In the **External Field / Value** column, select a field from the list of fields holding information about products in Shopify orders.
 
-## Example 1 { .section}
+## Example 1
 
 Suppose that you do not want inventory IDs of stock items maintained in Acumatica ERP to be publicly displayed as SKU names on the storefront of your Shopify store. Instead, you want to show IDs maintained for stock items in a custom field, `UsrExtInvID`, which you show in the **External Inventory ID** box added to the [Stock Items](IN_20_25_00.md) \(IN202500\) form. To map the external inventory IDs of stock items in Acumatica ERP to SKUs in Shopify, on the **Export Mapping** tab of the [Entities](BC_20_20_00.md) \(BC202000\) form, you select the store and the *Stock Item* entity, and in the table row, you specify the conditions corresponding to the settings shown in the following table.
 
@@ -100,7 +100,7 @@ Suppose that you do not want inventory IDs of stock items maintained in Acumatic
 |------|---------------|--------------|----------|-----------------|
 |Selected|*Product*|*Stock Keeping Unit*|*Stock Items → Advanced*|*ItemSettings.UsrExtInvID*|
 
-## Example 2 { .section}
+## Example 2
 
 Suppose that you keep the information about template items along with their matrix items in Acumatica ERP and synchronize this information with the Shopify store. However, the information about the matrix items' weights is updated directly in the Shopify store. To avoid the override of the weights during the synchronization of the *Template Item* entity, you need to unmap the corresponding field. To do this, you select the *Template Item* entity in the Summary area of the [Entities](BC_20_20_00.md) \(BC202000\) form, and on the **Export Mapping** tab, you specify the conditions corresponding to the settings shown in the following table.
 
@@ -108,7 +108,7 @@ Suppose that you keep the information about template items along with their matr
 |------|---------------|--------------|----------|-----------------|
 |Selected|*Product → Product Variants*|*Weight*|*&lt;&lt;Unmap&gt;&gt;*|Cleared|
 
-## Example 3 { .section}
+## Example 3
 
 Suppose you process domestic and international orders using different order types in Acumatica ERP to support different tax, fulfillment, and accounting workflows. You want Shopify orders shipped to the US and imported into Acumatica ERP to be assigned the corresponding *SO* order type automatically based on the shipping country.
 

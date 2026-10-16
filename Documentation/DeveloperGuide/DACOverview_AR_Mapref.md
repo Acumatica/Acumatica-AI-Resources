@@ -1,4 +1,4 @@
-# Reviewing Accounts Receivable DACs {#_81e694db-5edb-41f6-90c4-22105abcc467 .concept}
+# Reviewing Accounts Receivable DACs
 
 By using the accounts receivable functionality in Acumatica ERP, you can effectively manage receivables and automate customer billing and payment collection. In this chapter, you can find an overview of the data access classes \(DACs\) that are used in accounts receivable and learn about the relationships between them.
 

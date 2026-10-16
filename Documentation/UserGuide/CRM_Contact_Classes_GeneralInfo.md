@@ -1,17 +1,17 @@
-# Contact Classes: General Information {#_3c00a5b8-dc0d-4906-a20a-7eb0ce702b7b .concept}
+# Contact Classes: General Information
 
 In Acumatica ERP, you can group contacts into classes based on specific characteristics. Contact classes help you quickly and effectively manage your marketing and sales processes. These include lead acquisition, contact creation, conversion of leads to opportunities, creation of customers, and preparation of financial reports.
 
 This topic provides information about contact classes.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Create a contact class
 -   Select the contact class that the system will use by default for each new contact
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to learn how to create contact classes in scenarios that include the following:
 
@@ -20,7 +20,7 @@ You may want to learn how to create contact classes in scenarios that include th
 -   You need to give users the ability to group contacts that have been acquired through such sources as organic search, marketing campaign, or purchased list.
 -   You need to set up the system to automatically assign new contacts to the appropriate owners.
 
-## Defining of Contact Classes { .section}
+## Defining of Contact Classes
 
 In Acumatica ERP, a contact class is a way to group contacts that share at least one common characteristic. Contact classes make contact creation faster and more accurate by providing default settings for new contacts.
 
@@ -35,7 +35,7 @@ You define each contact class on the [Contact Classes](CR_20_50_00.md) \(CR20500
 
 If your company no longer needs a particular contact class, you can remove it from the system only if no existing contacts have that contact class specified.
 
-## How the Class Affects Contact Creation { .section}
+## How the Class Affects Contact Creation
 
 When you create a contact on the [Contacts](CR_30_20_00.md) \(CR302000\) form and select a contact class, the system inserts the contact’s default settings based on the class settings. \(You can override these default settings.\)
 
@@ -47,7 +47,7 @@ If one contact class is used more frequently than the others, you can specify it
 
 **Tip:** You can also create a contact by using a dialog box on the [Leads](CR_30_10_00.md) \(CR301000\) or [Opportunities](CR_30_40_00.md) \(CR304000\) form. In this case, the system may insert a different class than the default contact class. If a contact class is specified on the [Lead Classes](CR_20_70_00.md) \(CR207000\) or [Opportunity Classes](CR_20_90_00.md) \(CR209000\) form for the source lead or opportunity class, the system inserts this contact class.
 
-## Example of Contact Classes and Attributes { .section}
+## Example of Contact Classes and Attributes
 
 Consider the following example of the use of contact classes and attributes.
 

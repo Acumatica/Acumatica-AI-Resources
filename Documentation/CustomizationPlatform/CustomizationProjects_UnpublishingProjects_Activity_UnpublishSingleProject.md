@@ -1,16 +1,16 @@
-# Project Unpublishing: To Unpublish a Single Project {#_d9034d17-70af-48a0-adb0-f37c63a90c61 .task}
+# Project Unpublishing: To Unpublish a Single Project
 
 The following activity will walk you through the process of unpublishing a single customization project.
 
-## Story { .section}
+## Story
 
 Suppose that you have published two customization projects \(*Yogifon* and *OpportunitiesForm*\) in your Acumatica ERP instance, and you want to revert the changes introduced by the *OpportunitiesForm* project. You need to unpublish this customization project.
 
-## Process Overview { .section}
+## Process Overview
 
 By using the [Customization Projects](../UserGuide/SM_20_45_05.md) \(SM204505\) form of the *Yogifon\_Staging* instance, you will unpublish the *OpportunitiesForm* project.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -23,7 +23,7 @@ Before you begin performing the steps of this activity, do the following:
     -   [`Yogifon.zip`](https://training.acumatica.com/University/W140/Yogifon.zip)
     -   [`OpportunitiesForm.zip`](https://training.acumatica.com/University/W140/Yogifon.zip)
 
-## Step 1: Publishing the Customization Projects { .section}
+## Step 1: Publishing the Customization Projects
 
 Before unpublishing a customization project, you will import the deployment packages to the staging environment and publish the customization projects as follows:
 
@@ -51,7 +51,7 @@ Before unpublishing a customization project, you will import the deployment pack
     The changes of the customization project are applied to the instance.
 
 
-## Step 2: Unpublishing a Customization Project { .section}
+## Step 2: Unpublishing a Customization Project
 
 To unpublish the *OpportunitiesForm* project, do the following in the *Yogifon\_Staging* instance:
 

@@ -1,4 +1,4 @@
-# Review of Record Details {#_49441bfb-9c94-4280-a005-2cfe30297787 .concept}
+# Review of Record Details
 
 When reviewing the information about a contact or lead on the add-in form, you may want to view or adjust the details of the contact or lead record or linked entities \(if any\). You can do any of the following:
 

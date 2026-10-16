@@ -1,14 +1,14 @@
-# Asset Disposal: Process Activity {#_79274762-bd4e-4a72-bb70-0ab5624e7e8a .task}
+# Asset Disposal: Process Activity
 
 The following activity will walk you through the process of disposing of a fixed asset.
 
-## Story { .section}
+## Story
 
 Suppose that the management of SweetLife Fruits &amp; Jams has decided to sell a part of the land near the Head Office building for $75,000. After the split of the original *Land* asset, the land near the building is now represented by the *Land - split from 00000001* fixed asset, which has a current cost of $72,000.
 
 To process the sale of the land, acting as a SweetLife accountant, you need to dispose of the fixed asset by using the *SOLD* disposal method, which you created earlier.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -16,11 +16,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, the needed GL accounts have been created.
 -   On the [Fixed Assets Preferences](FA_10_10_00.md) \(FA101000\) form, the **Automatically Release Disposal Transactions** check box has been cleared. Thus, disposal transactions are created with the *On Hold* status, and you will have to release these transactions manually on the [Release FA Transactions](FA_50_30_00.md) \(FA503000\) form.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form, you will dispose of a fixed asset and release the disposal transaction on the [Release FA Transactions](FA_50_30_00.md) \(FA503000\) form. On the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will create an AR invoice to account for the sale of the asset. Finally, on the [Account Summary](GL_40_10_00.md) \(GL401000\) form, you will review the balances of the GL accounts involved in the disposal of the asset.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin disposing of a fixed asset, do the following:
 
@@ -31,7 +31,7 @@ Before you begin disposing of a fixed asset, do the following:
 5.  Make sure that you have split the *Land* fixed asset by performing [Splitting of Assets: Process Activity](FixedAssets_Splitting_Process_Activity.md), which is also a prerequisite.
 6.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step 1: Disposing of a Fixed Asset { .section}
+## Step 1: Disposing of a Fixed Asset
 
 To dispose of a fixed asset, do the following:
 
@@ -52,10 +52,9 @@ To dispose of a fixed asset, do the following:
     -   A *Sale/Dispose+* transaction that credits the Gain/Loss on Fixed Asset Disposal account \(*90000*\) in the amount of $75,000 \(proceeds amount\), and debits the Proceeds account \(*11010*\) in the proceeds amount of $75,000. Because you have disposed of a non-depreciable asset, no transaction has been generated to update the accumulated depreciation account.
 8.  On the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form, open the *Land - split from 00000001* asset. Notice that this asset now has a status of *Disposed*, as shown in the following screenshot.
 
-    ![](Images/activity_FA_Disposal_Disposed_Asset.png "Status of the disposed asset")
 
 
-## Step 2: Creating an AR Invoice { .section}
+## Step 2: Creating an AR Invoice
 
 To create an AR invoice for the buyer of the land, do the following:
 
@@ -72,7 +71,7 @@ To create an AR invoice for the buyer of the land, do the following:
     -   **Account**: *11010 \(AR Accrual Account\)*
 4.  On the form toolbar, click **Remove Hold** and click **Release** to release the invoice.
 
-## Step 3: Reviewing the Account Balances { .section}
+## Step 3: Reviewing the Account Balances
 
 To review the account balances, do the following:
 

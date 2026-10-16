@@ -1,4 +1,4 @@
-# Extension Library {#_a3278167-2285-4c92-8404-367952b42d9e .concept}
+# Extension Library
 
 An extension library is a Microsoft Visual Studio project that contains customization code and can be individually developed and tested.
 
@@ -14,7 +14,6 @@ Extension library `.dll` files must be located in the website’s `Bin` folder. 
 
 During the first initialization of a base class, the Acumatica Customization Platform automatically discovers extensions for the class in memory and applies these extensions by replacing the base class with the merged result of the base class and the discovered extensions.
 
-![](images/CG_Platform_TO_Code_CS_ExtLibrary.png "Actual approach to the use of an extension library for a customization")
 
 The use of extension libraries that are precompiled provides a measure of protection for your source code and intellectual property.
 

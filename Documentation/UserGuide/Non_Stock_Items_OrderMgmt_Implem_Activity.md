@@ -1,24 +1,24 @@
-# Non-Stock Items: Implementation Activity {#_d0a61b1a-f146-429c-812b-c5fa2502cd01 .task}
+# Non-Stock Items: Implementation Activity
 
 The following implementation activity will walk you through the process of creating a non-stock item.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_vfr_kpy_mlb .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company is holding a promotion in which customers who buy a certain quantity of fruits in the SweetLife Store also receive a teddy bear toy. The company needs to buy a certain number of these toys from a manufacturer. The promotion is temporary, and the SweetLife Store does not need to track the quantity of distributed toys; thus, the teddy bear will be registered in the system as a non-stock item.
 
 Acting as a SweetLife sales and purchasing manager, you need to create the new non-stock item and specify the needed settings for it.
 
-## Process Overview {#section_wfr_kpy_mlb .section}
+## Process Overview
 
 In this activity, you will create a non-stock item on the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, specify the needed settings and save the created non-stock item.
 
-## System Preparation {#section_xfr_kpy_mlb .section}
+## System Preparation
 
 Before you start creating the non-stock item, launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in to the system as a sales and purchasing manager. You should sign in by using the *wiley* username and the *123* password.
 
-## Step: Creating a Non-Stock Item {#section_yfr_kpy_mlb .section}
+## Step: Creating a Non-Stock Item
 
 To create a non-stock item, do the following:
 

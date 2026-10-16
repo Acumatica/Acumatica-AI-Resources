@@ -1,4 +1,4 @@
-# Initial Configuration of a BigCommerce Store {#_5f26a7cf-e2f8-4bcb-b0d0-d64fc474ce10 .concept}
+# Initial Configuration of a BigCommerce Store
 
 In this section, you will learn about the initial configuration that must be performed in a BigCommerce store and in Acumatica ERP to set up integration between these systems.
 

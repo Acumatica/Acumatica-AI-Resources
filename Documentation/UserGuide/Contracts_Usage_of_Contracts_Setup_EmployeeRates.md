@@ -1,4 +1,4 @@
-# Contract Usage: Labor Items for Billing Contracts {#_5e9bc747-8a26-4db9-868a-515a2abac90a .concept}
+# Contract Usage: Labor Items for Billing Contracts
 
 In Acumatica ERP, you can associate the work of your employees with a contract by associating employee activities with a case \(an employee activity associated with a case is called a *case activity*\) or by associating non-case-related employee activities directly with a contract.
 
@@ -12,7 +12,7 @@ You can specify the non-stock item to be used to create a usage transaction by u
 -   [Customer Contracts](CT_30_10_00.md) \(CT301000\)
 -   [Employees](EP_20_30_00.md) \(EP203000\)
 
-## Finding the Labor Item to Bill a Case Activity {#section_vbq_pd3_35b .section}
+## Finding the Labor Item to Bill a Case Activity
 
 If the activity is associated with a case, when you release the activity, the system determines the labor item to be used in the contract usage transaction as follows:
 
@@ -30,7 +30,7 @@ After the system determines the labor item, it adds a usage transaction for the 
 
 For more details, see [Contract Billing: To Bill a Support Contract by Case Usage](config_Contract_Management_Implem_Activity_To_Bill_Contract_by_Case_Usage.md).
 
-## Finding the Labor Item to Bill the Employee Activity {#section_xbq_pd3_35b .section}
+## Finding the Labor Item to Bill the Employee Activity
 
 If the activity is associated with a contract, when you release the activity, the system determines the labor item to be used in the contract usage transaction as follows:
 

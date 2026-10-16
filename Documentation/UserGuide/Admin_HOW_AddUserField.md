@@ -1,41 +1,106 @@
-# To Add User-Defined Fields to a Form {#_810b4857-2ffe-4764-aebf-4d657334f0be .task}
+# To Add User-Defined Fields to a Form
 
-You can add user-defined fields to a form that supports this functionality. If you do, the added field will be displayed on the **User-Defined Fields** tab. The fields are visible for all users of the Acumatica ERP instance with access to this form. The value of each user-defined field is added to the data of the record when you enter or edit the value and save your changes. Information about added fields is stored in your Acumatica ERP instance.
+This activity will walk you through the process of associating user-defined fields with a form and adding them to the form.
 
-**Attention:** Only users with the *Customizer* user role can add user-defined fields. Adding user-defined fields is available to a limited number of forms. For details, see [User-Defined Fields](CS__con_User_Defined_Fields.md).
+**Attention:** This activity is performed in the Modern UI based on the *U100* dataset. If you’re using the Classic UI, some features may not be available, which could affect processing. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Before You Proceed { .section}
+## Story
 
-Before adding a new fields to a screen, you should define the attributes for the field or be sure they are already defined on the [Attributes](CS_20_50_00.md) \(CS205000\) form.
+Suppose that you are Kimberly Gibbs, a system administrator and customizer at the SweetLife Fruits &amp; Jams company. You were asked to add the **Interest** and **Model** user-defined fields to the [Opportunities](CR_30_40_00.md) \(CR304000\) form so that users can specify their values while working on opportunities. The **Interest** user-defined field must be hidden for the *SERVICE* class, while the **Model** user-defined field must be shown and required for this class.
 
-**Tip:** The text entered in the **Description** box of the [Attributes](CS_20_50_00.md) form will be used as the caption for the field. We recommend using title-style capitalization for consistency with other UI elements.
+You need to associate user-defined fields with the [Opportunities](CR_30_40_00.md) form and specify their settings. You then need to add them to the Summary area.
 
-## To Add User-Defined Fields to a Form { .section}
+## Configuration Overview
 
-1.  In your Acumatica ERP instance, open the form for which you want to add a field.
-2.  On the form title bar, click **Customization** &gt; **Manage User-Defined Fields**. The system opens the [Edit User-Defined Fields](cs_20_50_20.md) \(CS205020\) form.
-3.  Do the following for each user-defined field you want to add to the original form:
-    1.  On the form toolbar, click **Add User-Defined Field**.
-    2.  In the **User-Defined Field Parameters** dialog box, which opens, in the **Attribute ID** box, select the attribute corresponding to the field you want to add. In the **Column** and **Row** boxes, specify the position the field will have on the **User-Defined Fields** tab of the form for which you are adding this field.
-    3.  Click **OK** to close the dialog box.
+In the *U100* dataset, the following tasks have been performed to support this activity:
 
-        The added field appears on the **User Defined Fields** tab of the [Edit User-Defined Fields](cs_20_50_20.md) form. You can edit its parameters by clicking the Edit button right of the box for the field.
+-   On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Customer Management* feature has been enabled.
+-   On the [Opportunity Classes](CR_20_90_00.md) \(CR209000\) form, the *SERVICE* opportunity class has been created.
+-   On the [Attributes](CS_20_50_00.md) \(CS205000\) form, the *INTEREST* and *MODEL* attributes have been created.
 
-4.  On the **Properties** tab, specify the settings for the added user-defined fields as follows:
+## Process Overview
 
-    1.  In the **Document** box, select the document type to which the settings should be applied, or select *&lt;All&gt;* to apply the settings to all document types.
-    2.  In the table, select or clear the check boxes in each of the following columns for the user-defined attribute in the row:
-        -   **Hidden**, which you select if the user-defined field should not be displayed on the form.
-        -   **Required**, which you select if the user-defined field should be mandatory.
-    3.  In the **Default** row of the table, specify the default values for the required user-defined attributes. These values will be displayed on the form when you edit the user-defined fields.
-    **Tip:** For the particular form for which you are editing user-defined fields, the system saves the states of the **Hidden** and **Required** check boxes, as well as the values in the **Default** column, for all listed fields for the selected document type only. If you select *&lt;All&gt;* in the **Document** box, the new settings you specify in the table override any specific settings that have been used for certain document types.
+By using UI Configuration mode on the [Opportunities](CR_30_40_00.md) \(CR304000\) form, you will associate the user-defined fields with the form. By using the **Section Configuration** dialog box, you will then add these field to the Summary area.
 
-5.  Return to the form for which you added the user-defined field.
+## System Preparation
 
-    **Tip:** You can also add the attribute right from the [Edit User-Defined Fields](cs_20_50_20.md) form. On the form toolbar, click **Manage Attributes** to open the [Attributes](CS_20_50_00.md) form, where you can manage an existing attribute or add a new one.
+Before you begin performing the steps of this activity, do the following:
 
-    On the form for which you added user-defined fields, the Summary area now consists of two tabs: **Document** and **User-Defined Fields**. The elements formerly in the Summary area, which display the summary information of the record, are displayed on the **Document** tab. The added user-defined fields are displayed on the **User-Defined Fields** tab. On this tab, the fields for which you have selected the **Required** check box are marked with an asterisk \(\*\). The fields for which the **Hidden** check box has been selected are not displayed. The fields for which you have specified the **Default** values now contain these values.
+1.  Launch the Acumatica ERP website with the *U100* dataset preloaded.
+2.  Sign in to the system as Kimberly Gibbs by using the following credentials:
+    -   **Username**: *gibbs*
+    -   **Password**: *123*
 
+## Step 1: Associating User-Defined Fields with the Form
+
+To associate the *INTEREST* and *MODEL* attributes with the [Opportunities](CR_30_40_00.md) \(CR304000\) form and specify their properties, do the following:
+
+1.  On the [Opportunities](CR_30_40_00.md) form, add a new record.
+
+    UI Configuration mode is activated, and the **UI Configuration** pane appears at the top of the form.
+
+3.  On the **UI Configuration** pane, click **Manage User-Defined Fields**.
+
+    The **Manage User-Defined Fields** dialog box opens, as shown below.
+
+
+4.  In the **Added User-Defined Fields** pane of the dialog box, add a new row.
+
+    **Important:** You can add a user-defined field only if it has first been created on the [Attributes](CS_20_50_00.md) \(CS205000\) form.
+
+5.  In the **Attribute ID** column for the added row , select the *INTEREST* user-defined field.
+6.  In the **Properties** pane of the dialog box, in the row with the *SERVICE* opportunity class, select the check box in the **Hidden** column, as shown below.
+
+
+7.  In the **Added User-Defined Fields** pane, add another row.
+8.  In the **Attribute ID** column for the added row, select *MODEL*.
+9.  In the **Properties** pane, in the row with the *SERVICE* opportunity class, select the check box in the **Required** column, as shown below.
+
+
+10. Click **Apply**.
+
+    The system applies the changes.
+
+
+## Step 2: Adding the User-Defined Fields to the Form
+
+To add the associated user-defined fields to the [Opportunities](CR_30_40_00.md) \(CR304000\) form, do the following:
+
+1.  While you are still on the [Opportunities](CR_30_40_00.md) form with UI Configuration mode activated, click the Settings button.
+
+    The **Section Configuration** dialog box opens.
+
+2.  In the **Available Elements** pane of the dialog box, locate the **User-Defined Fields** group and click the arrow icon next to its name to expand it.
+3.  Click **Interested In** in the expanded **User-Defined Fields** group, and then click the arrow that appears to the right of its name \(see below\).
+
+
+    The system moves **Interested In** to the **Selected Elements** pane.
+
+4.  In the **Available Elements** pane, select **Model of a Juicer** in the expanded **User-Defined Fields** group, and then click the arrow.
+
+    The system moves **Model of a Juicer** to the **Selected Elements** pane after the **Interested In** user-defined field \(see below\).
+
+
+5.  Click **Apply**.
+
+    The system closes the dialog box and adds both user-defined fields to the second section of the Summary area.
+
+6.  In the **UI Configuration** pane, click **Apply to All**.
+7.  In the **Apply to All** dialog box, which opens, click **Preserve Personal Configuration**.
+
+    The system closes the **UI Configuration** pane and applies the changes.
+
+
+## Step 3: Verifying the User-Defined Fields
+
+To verify the user-defined fields and their properties, do the following:
+
+1.  While you are still on the [Opportunities](CR_30_40_00.md) form, select *PRODUCT* in the **Opportunity Class** box.
+2.  In the Summary area, verify that the **Interested In** and **Model of a Juicer** fields are displayed \(see below\).
+
+
+3.  In the **Opportunity Class** box, select *SERVICE*.
+4.  Verify that the **Interested In** field is no longer displayed and the **Model of a Juicer** field is required.
 
 **Parent topic:**[Managing Attributes and User-Defined Fields](../UserGuide/CS__con_Attributes_and_User_Defined_Fields.md)
 

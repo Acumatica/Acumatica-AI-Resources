@@ -1,8 +1,8 @@
-# Purchases of Stock Items: Generated Transactions {#_ac5ef55a-9fc9-4a8b-ac25-6b22618a71ba .concept}
+# Purchases of Stock Items: Generated Transactions
 
 To process a purchase of items, you create a purchase order and process a purchase receipt and an AP bill. On release of purchase receipt, an inventory receipt transaction is generated and released. On release of the AP bill and inventory receipt, the system generates GL transactions described in the following sections.
 
-## Transactions Generated on Inventory Receipt Release { .section}
+## Transactions Generated on Inventory Receipt Release
 
 When an inventory receipt generated from a purchase receipt is released, the system generates a batch of the following transactions.
 
@@ -13,7 +13,7 @@ When an inventory receipt generated from a purchase receipt is released, the sys
 
 You can view the reference number of the GL batch generated for a particular inventory receipt in the **Batch Nbr.** box on the **Financial** tab of the [Receipts](IN_30_10_00.md) \(IN301000\) form. You can click the link in this box to view the details of the batch on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## Transactions Generated on AP Bill Release { .section}
+## Transactions Generated on AP Bill Release
 
 When an accounts payable bill prepared for a purchase order \(or for purchase receipt\) is released, the system creates a batch of the following transactions.
 

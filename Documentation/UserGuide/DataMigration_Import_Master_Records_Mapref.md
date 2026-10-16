@@ -1,4 +1,4 @@
-# Migrating Master Records {#_652680a0-a071-4151-9a2f-52800fd91acc .concept}
+# Migrating Master Records
 
 In this chapter, you will learn how to import business accounts and non-stock items into the system by using predefined import scenarios.
 

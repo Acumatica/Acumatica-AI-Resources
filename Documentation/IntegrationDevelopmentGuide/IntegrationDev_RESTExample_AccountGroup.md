@@ -1,4 +1,4 @@
-# AccountGroup {#_92e21de7-7cdc-4507-95d4-537361e6569b .concept}
+# AccountGroup
 
 This chapter presents code examples showing requests that use the `AccountGroup` entity.
 

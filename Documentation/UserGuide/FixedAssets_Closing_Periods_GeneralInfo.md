@@ -1,4 +1,4 @@
-# Fixed Asset Period Closing: General Information {#_e28e7a41-d28f-4266-936d-be2243b1cf60 .concept}
+# Fixed Asset Period Closing: General Information
 
 To close any number of financial period in the fixed asset subledger, you use the [Close Financial Periods](FA_50_90_00.md) \(FA509000\) form. You can close a financial period only if there are no unreleased documents dated in this period.
 
@@ -7,21 +7,21 @@ To close any number of financial period in the fixed asset subledger, you use th
 -   In Acumatica ERP, if the **Restrict Access to Closed Periods** check box is selected on the [General Ledger Preferences](GL_10_20_00.md) \(GL102000\) form, only users to which the *Financial Supervisor* role is assigned on the [User Roles](SM_20_10_05.md) \(SM201005\) form can post transactions to closed periods. If this check box is cleared, other users can post to closed periods as well.
 -   Alternatively, you can close the periods in any subledger on the [Manage Financial Periods](GL_50_30_00.md) \(GL503000\) form when you close the periods in the general ledger.
 
-## Learning Objectives {#section_gpg_ljv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Reconcile the fixed asset subledger with the general ledger
 -   Close the financial periods in the fixed asset subledger
 
-## Applicable Scenarios {#section_ipg_ljv_vxb .section}
+## Applicable Scenarios
 
 You close active financial periods in the fixed asset subledger in the following cases:
 
 -   To prevent transactions from being posted to these periods
 -   To be able to close these financial periods in the general ledger
 
-## Workflow of Period Closing {#section_vv2_1y4_y4b .section}
+## Workflow of Period Closing
 
 To close a financial period in the fixed asset subledger, you perform the following general steps:
 

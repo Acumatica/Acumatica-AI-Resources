@@ -1,8 +1,8 @@
-# Purchases of Services Without Receipts: Generated Transactions {#_c6054cb4-557f-4501-9706-3684efd26c2b .concept}
+# Purchases of Services Without Receipts: Generated Transactions
 
 To process a purchase of services without a purchase receipt, you create an AP bill. On release of the AP bill, the system generates GL transactions described in the following section.
 
-## Transaction Generated on AP Bill Release {#section_q5n_cks_hlb .section}
+## Transaction Generated on AP Bill Release
 
 When an AP bill prepared for a purchase order is released, the system creates a batch of the following entries.
 

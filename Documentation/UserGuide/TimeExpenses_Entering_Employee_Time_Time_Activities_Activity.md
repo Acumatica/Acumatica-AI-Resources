@@ -1,34 +1,34 @@
-# Employee Time Entry: To Create a Time Activity {#_c7bb1136-029b-4210-8c08-01b018b6927a .task}
+# Employee Time Entry: To Create a Time Activity
 
 The following activity will walk you through the process of creating a time activity.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that David Chubb, an employee of the sales department at the SweetLife Fruits &amp; Jams company, prepared an email about the purchase of new juicers for the Blue Cafe customer. This took about 20 minutes, and David needs to record this time in the system and then complete the time activity.
 
 Acting as David Chubb, you will create an email, record the time spent on it, and complete the created time activity.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   The *Time Management* and *Customer Management* features have been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 -   On the [Employees](EP_20_30_00.md) \(EP203000\) form, the account for David Chubb has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create an email for Blue Cafe on the [Email Activity](CR_30_60_15.md) \(CR306015\) form, record the time spent on its creation, and then complete the created time activity.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
 -   Launch the Acumatica ERP website, and sign in as David Chubb by using the *chubb* username and the *123* password.
 -   In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to today’s date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating an Email { .section}
+## Step 1: Creating an Email
 
 To create an email for Blue Cafe, do the following:
 
@@ -56,7 +56,7 @@ To create an email for Blue Cafe, do the following:
 
 6.  On the form toolbar, click **Save**.
 
-## Step 2: Entering a Time Activity { .section}
+## Step 2: Entering a Time Activity
 
 To record the time David Chubb spent preparing the email for Blue Cafe, do the following:
 
@@ -67,7 +67,7 @@ To record the time David Chubb spent preparing the email for Blue Cafe, do the f
 5.  Clear the **Billable** check box because you do not need to bill the customer for this activity.
 6.  On the form toolbar, click **Save**.
 
-## Step 3: Completing the Time Activity { .section}
+## Step 3: Completing the Time Activity
 
 To review the settings of the time activity created in Step 2 and change its status, do the following:
 

@@ -1,4 +1,4 @@
-# Applying Payments to Particular Lines: Support of Taxes {#_f882ab1b-3d0b-4d73-b639-6b4ed6ad5e2e .concept}
+# Applying Payments to Particular Lines: Support of Taxes
 
 Acumatica ERP supports the ability to enter and release an AP document with automatically calculated taxes if the document can be paid by line. These taxes may include value-added taxes \(VATs\), sales taxes, and use taxes. For taxes at both the line level and the document level, the document tax amount is split proportionally between document lines and is included in the line balance on document release. These tax amounts are shown in the **Tax Amount** column, which appears on the **Details** tab of the [Bills and Adjustments](AP_30_10_00.md) form after the document has been released.
 

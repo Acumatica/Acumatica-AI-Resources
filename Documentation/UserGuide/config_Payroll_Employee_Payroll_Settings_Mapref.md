@@ -1,4 +1,4 @@
-# Specifying Employee Payroll Settings {#_6f40a6a4-486b-4a17-bf98-f5e7444fd722 .concept}
+# Specifying Employee Payroll Settings
 
 In this chapter, you will find information about employee payroll settings.
 

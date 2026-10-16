@@ -1,21 +1,21 @@
-# Production with Backflushing: Process Activity {#_3a6705c8-0dc2-4ff5-a0fd-cb84bcbec174 .task}
+# Production with Backflushing: Process Activity
 
 The following activity will walk you through the process of producing items with backflushed materials and labor.
 
-## Story { .section}
+## Story
 
 Suppose that GoodFood One Restaurant has ordered three juicers from the SweetLife Fruits &amp; Jams company. The production process includes the assembly and packing of the juicers. In the production process of SweetLife Fruits &amp; Jams, materials and labor are backflushed for the packing operation. Further suppose that all components required for the juicer assembly and packing are available in SweetLife Fruits &amp; Jams's warehouse.
 
 Acting as a production manager, you will create a production order for producing the juicers and process all transactions related to production.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Warehouses](IN_20_40_00.md) \(IN204000\) form, the *WORKHOUSE* warehouse has been defined, and its locations include *MGI* and *MTL*.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *CFJFRUITBF*, *PULPCONT1L*, *JUICECUP05L*, *MRBASE*, *FNSIEVE*, *GRDISC01*, *PACKTAPE*, *PPEANUTS*, and *PACKBOX* stock items have been defined.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, to process the documents and transactions related to the production of the juicers, you will do the following:
 
@@ -28,7 +28,7 @@ In this activity, to process the documents and transactions related to the produ
 7.  On the [Production Order Maintenance](AM_20_15_00.md) form, review the production order balances after you have completed the order
 8.  On the [Close Production Orders](AM_50_60_00.md) \(AM506000\) form, close the production order
 
-## System Preparation { .section}
+## System Preparation
 
 Do the following:
 
@@ -36,7 +36,7 @@ Do the following:
 2.  Launch the Acumatica ERP website, and sign in to the company in which the prerequisite activities have been performed. You should sign in as the production manager by using the *peters* username and the *123* password.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to today’s date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating the Production Order { .section}
+## Step 1: Creating the Production Order
 
 To create the production order for three juicers, do the following:
 
@@ -55,7 +55,7 @@ To create the production order for three juicers, do the following:
 3.  On the form toolbar, click **Save**.
 4.  On the form toolbar, click **Release Order**. The order's status changes to *Released*.
 
-## Step 2: Issuing Materials for the Assembly Operation { .section}
+## Step 2: Issuing Materials for the Assembly Operation
 
 In this step, you will issue the materials for the assembly operation of the production order. Do the following:
 
@@ -66,7 +66,7 @@ In this step, you will issue the materials for the assembly operation of the pro
     2.  Clear the **Hold** check box. The system changes the transaction's status to *Balanced*.
 4.  On the form toolbar, click **Release**. The system releases the material transaction and changes the status of the transaction to *Released*.
 
-## Step 3: Recording the Labor and Produced Items for the Assembly Operation { .section}
+## Step 3: Recording the Labor and Produced Items for the Assembly Operation
 
 Suppose that Carlos Cruz, a worker in the work center, spent 30 minutes setting up the working environment for juicer assembly and assembled three juicers for one hour. To record the time spent on juicer assembly and the assembled quantity of juicers, do the following:
 
@@ -87,7 +87,7 @@ Suppose that Carlos Cruz, a worker in the work center, spent 30 minutes setting 
     3.  Clear the **Hold** check box. The system changes the transaction's status to *Balanced*.
 5.  On the form toolbar, click **Release**. The system creates and releases a cost transaction to record the labor costs and releases the labor transaction.
 
-## Step 4: Reviewing the Production Order Balance { .section}
+## Step 4: Reviewing the Production Order Balance
 
 To review the production order balance after you have recorded the completion of the assembly operation, do the following:
 
@@ -108,10 +108,9 @@ To review the production order balance after you have recorded the completion of
         -   **Material**: *-11.16*
         These costs relate to the packing operation and the system has not applied the costs to the production order yet.
 
-    ![](Images/activity_MFG_Backflushing_Totals_After_Assembly.png "Production order balances after the first operation")
 
 
-## Step 5: Recording the Produced Items for the Packing Operation { .section}
+## Step 5: Recording the Produced Items for the Packing Operation
 
 Suppose that a worker in the packing work center has packed all three assembled juicers. To record the completion of the packing operation, do the following:
 
@@ -122,14 +121,13 @@ Suppose that a worker in the packing work center has packed all three assembled 
     3.  Clear the **Hold** check box. The system changes the transaction's status to *Balanced*.
 3.  On the form toolbar, click **Release**. The system releases the move transaction.
 
-## Step 6: Reviewing the Transactions for the Packing Operation { .section}
+## Step 6: Reviewing the Transactions for the Packing Operation
 
 In this step, you will review the transactions that the system created and released when you released the move transaction for the packing operation. Do the following:
 
 1.  On the [Materials](AM_30_00_00.md) \(AM300000\) form, open the transaction for the materials needed for the packing operation with the total amount of $11.16 \(shown in the following screenshot\).
 2.  Notice that in the **Orig. Batch Nbr.** box, the reference number of the move transaction, which caused the creation of the material transaction, is displayed.
 
-    ![](Images/activity_MFG_Backflushing_Material_Transaction_for_Packing.png "The material transaction for the packing operation")
 
 3.  On the [Cost Transactions](AM_30_90_00.md) \(AM309000\) form, open the transaction with the total amount of $1482.33.
 4.  Notice that in the **Orig. Batch Nbr.** box, the reference number of the move transaction, which triggered the creation of the cost transaction, is displayed.
@@ -138,7 +136,7 @@ In this step, you will review the transactions that the system created and relea
     -   *Operation MFG to Inventory* for an extended cost of $23.16: The receipt took the cost from the *0020* operation and applied it to the inventory receipt cost.
     -   *Operation MFG to Inventory* for an extended cost of $1447.17: The receipt took the cost from the *0010* operation and applied it to the inventory receipt cost.
 
-## Step 7: Reviewing the Production Order Balance { .section}
+## Step 7: Reviewing the Production Order Balance
 
 To review the production order balance after you have recorded the completion of the packing operation, do the following:
 
@@ -148,10 +146,9 @@ To review the production order balance after you have recorded the completion of
     1.  Notice that in the **Actual** section, the **Labor** box contains *42.00*, which is the full labor cost for two operations.
     2.  Notice that the **Material** box contains *1403.67*, which is the full cost of the materials for two operations.
     3.  Notice that in the **Variance** section, the values in the **Total Variance** and **WIP Balance** boxes are *0.00*.
-    ![](Images/activity_MFG_Backflushing_Totals_Before_Closing.png "Production order balances after the completion of the order")
 
 
-## Step 8: Closing the Production Order { .section}
+## Step 8: Closing the Production Order
 
 Now you will close the production order. Do the following:
 

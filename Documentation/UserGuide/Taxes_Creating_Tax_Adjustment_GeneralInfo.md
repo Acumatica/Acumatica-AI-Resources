@@ -1,4 +1,4 @@
-# Sales Tax Adjustments: General Information {#_2472ba4d-87b7-4985-a81e-cf73400df0c5 .concept}
+# Sales Tax Adjustments: General Information
 
 Once you have prepared the tax report on the [Prepare Tax Report](TX_50_10_00.md) \(TX501000\) form, the [Release Tax Report](TX_50_20_00.md) \(TX502000\) form opens. Before you release the tax report \(which closes the corresponding tax period and generates the appropriate AP bill, as described in [Release of Sales Tax Report: Process Activity](Taxes_Releasing_a_Tax_Report_Activity.md)\), you can perform the following operations:
 
@@ -6,21 +6,21 @@ Once you have prepared the tax report on the [Prepare Tax Report](TX_50_10_00.md
 -   View different revisions of the tax reports \(which can also be done after the tax report is released\)
 -   Void the tax report, as illustrated in [Voiding of a Sales Tax Report: Process Activity](Taxes_Voiding_a_Tax_Report_Activity.md)
 
-## Learning Objectives {#section_kvn_fjv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to create a tax adjustment to a tax report.
 
-## Applicable Scenarios {#section_mvn_fjv_vxb .section}
+## Applicable Scenarios
 
 You create tax adjustments to a tax report if you want to adjust the taxable or tax amounts to be reported without processing additional AR or AP documents. For example, this may happen if a customer has gone bankrupt and your company determines that their invoices need to be written off.
 
-## Numbering Sequence for Tax Adjustments {#section_ovn_fjv_vxb .section}
+## Numbering Sequence for Tax Adjustments
 
 In Acumatica ERP, a predefined numbering sequence \(*TXADJUST*\) is available and can be used for tax adjustments of both the *Adjust Output* and *Adjust Input* types.
 
 Before users start to work with the tax functionality, an administrative user can select the *TXADJUST* numbering sequence in the **Tax Adjustment Numbering Sequence** box on the [Tax Preferences](TX_10_30_00.md) \(TX103000\) form. A different numbering sequence can instead be specified in this box as long as it has first been created on the [Numbering Sequences](CS_20_10_10.md) \(CS201010\) form. This numbering sequence will be used by the system for tax adjustments created on the [Tax Adjustments](TX_30_10_00.md) \(TX301000\) form.
 
-## Adjustments to the Tax Report {#section_rvn_fjv_vxb .section}
+## Adjustments to the Tax Report
 
 You can create a tax adjustment document manually to adjust the appropriate tax amounts or taxable amounts \(or both\) in the prepared tax report. A tax adjustment can be created for a past tax period. In this case, the system will include this tax adjustment document in the tax report prepared for the next open period. If a tax adjustment date belongs to a future period, the system will include this tax adjustment document when it prepares a tax report for this period.
 

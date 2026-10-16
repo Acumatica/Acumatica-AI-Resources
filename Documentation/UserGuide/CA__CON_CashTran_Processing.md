@@ -1,10 +1,10 @@
-# Cash Transaction Processing {#_6fa6ed46-bee2-4919-a871-4c365673df94 .concept}
+# Cash Transaction Processing
 
 On the [Cash Account Details](CA_30_30_00.md) \(CA303000\) form, you can quickly add transactions that record customer payments, refunds received from vendors, bank charges and fees, cash withdrawals, and various adjustments. Also, you can use this form to monitor cash accounts and effectively manage cash transactions.
 
 In this topic, you will read about how to quickly record cash transactions of any type and how the system processes them further.
 
-## Understanding Cash Transaction Types {#section_qw1_kjv_vxb .section}
+## Understanding Cash Transaction Types
 
 Depending on the purpose of the transaction, in the Cash Management module, you can record and process cash transactions of the following types:
 
@@ -26,9 +26,9 @@ Depending on the purpose of the transaction, in the Cash Management module, you 
 
 On the [Cash Account Details](CA_30_30_00.md) form, you can quickly record transactions of the *Cash Entry*, *Prepayment*, *Refund*, and *Payment* types for a particular account, and track transactions of any type.
 
-In Acumatica ERP, separate forms are specifically designed for recording *Cash Entry* transactions, funds transfer transactions, and deposit transactions. For details, see [Cash Entry Processing](CA__CON_CashEntry_Processing.md), [Funds Transfers: General Information](Finance_Performing_Funds_Transfer_GenInfo.md), and [Preparation of Deposits](CA__CON_Preparation_of_Deposits.md).
+In Acumatica ERP, separate forms are specifically designed for recording *Cash Entry* transactions, funds transfer transactions, and deposit transactions. For details, see [Cash Entry Processing](CA__CON_CashEntry_Processing.md), [Funds Transfers: General Information](Finance_Performing_Funds_Transfer_GenInfo.md), and [Preparation of Bank Deposits](CA__CON_Preparation_of_Deposits.md).
 
-## Recording Cash Transactions {#section_ww1_kjv_vxb .section}
+## Recording Cash Transactions
 
 Before you start recording cash transactions, make sure entry types, which serve as the templates of the transactions, are defined in your system. For details on entry types, see [Entry Types](CA__CON_EntryTypes.md).
 
@@ -43,7 +43,7 @@ You can record a cash transaction by selecting a cash account for the transactio
 
 For details on how cash transactions of the *Cash Entry* type are processed, see [Cash Entry Processing](CA__CON_CashEntry_Processing.md).
 
-## Processing Accounts Payable Documents {#section_bx1_kjv_vxb .section}
+## Processing Accounts Payable Documents
 
 After you save a cash transaction related to a refund, you have to apply the appropriate documents, such as prepayments or debit adjustments, to the refund in the Accounts Payable module. For more details on recording refunds, see [Bill Prepayments: To Refund a Prepayment](Finance_ProcessingPrepayments_Process_Activity2.md).
 
@@ -63,7 +63,7 @@ Accounts Payable transactions may be posted when they are released if the **Auto
 
 When an Accounts Payable transaction is released, all the further processing of it is performed in the Accounts Payable module. Released vendor prepayments get the *Open* status and can be applied to a document, unapplied, or voided in this module. For details, see [Bill Prepayments: General Information](Finance_ProcessingPrepayments_GeneralInfo.md). Released refunds get the *Closed* status; they can be voided later if necessary.
 
-## Processing Accounts Receivable Documents {#section_gx1_kjv_vxb .section}
+## Processing Accounts Receivable Documents
 
 After you save cash transactions related to refunds, you have to apply the appropriate documents, such as payments or credit memos, to the refund in the Accounts Receivable module. For more details on recording refunds, see [Refunds: To Create a Refund and Apply a Credit Memo to It](Finance_ProcessingCustomerRefunds_Activity1.md).
 
@@ -83,18 +83,15 @@ Accounts Receivable transactions may be posted when they are released if the **A
 
 When an Accounts Receivable transaction is released, all further processing of it is performed in the Accounts Receivable module. Released customer payments get the *Open* status and can be applied to a document, unapplied, or voided. Released refunds get the *Closed*; they can be voided later if necessary.
 
-## Recording and Processing Transactions During Bank Reconciliation {#section_lx1_kjv_vxb .section}
+## Recording and Processing Transactions During Bank Reconciliation
 
 You can quickly add cash-related transactions during the process of bank statement reconciliation by clicking **Create Adjustment** on the table toolbar of the [Reconciliation Statements](CA_30_20_00.md) \(CA302000\) form and adding cash transaction details in the **Quick Transaction Entry** dialog box. For details on performing reconciliation, see [Bank Reconciliation: To Reconcile a Cash Account](Finance_Bank_Reconciliation_Activity.md).
 
-## Viewing Transaction Details {#section_nx1_kjv_vxb .section}
+## Viewing Transaction Details
 
 On the [Cash Account Details](CA_30_30_00.md) form, you can view all cash transactions for any cash account during the date range you specify. You can view the details of the generated documents by clicking the link corresponding to the transaction in the **Orig. Doc. Number** column. You can also view the details of the batch associated with a transaction by clicking the batch number in the **Batch Number** column.
 
 Also, you can find and view Accounts Payable and Accounts Receivable documents directly in these modules by selecting the transaction reference numbers in the **Reference Nbr.** boxes on the [Checks and Payments](AP_30_20_00.md) \(AP302000\) and [Payments and Applications](AR_30_20_00.md) \(AR302000\) forms, respectively.
-
--   **[Cash Entry Processing](../UserGuide/CA__CON_CashEntry_Processing.md)**  
-
 
 **Parent topic:**[Managing Cash Transactions](../UserGuide/CA__MNG_CashTransactions.md)
 

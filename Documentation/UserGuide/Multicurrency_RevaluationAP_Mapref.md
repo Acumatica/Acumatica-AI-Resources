@@ -1,4 +1,4 @@
-# Revaluing Open AP Documents {#_53ef04f6-873e-4125-8822-f751aaf66302 .concept}
+# Revaluing Open AP Documents
 
 The topics of this chapter describe how to revalue open AP documents created in foreign currencies.
 

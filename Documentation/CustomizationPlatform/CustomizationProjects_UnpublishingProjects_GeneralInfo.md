@@ -1,19 +1,19 @@
-# Project Unpublishing: General Information {#_f615b416-8313-4439-ae98-14fbb1edefce .concept}
+# Project Unpublishing: General Information
 
 If the changes that you have made to the website are no longer required, you can revert them by unpublishing your customization project or projects.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to unpublish customization projects.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You unpublish customization projects in the following cases:
 
 -   You have published multiple customization projects, and you want to unpublish all of them
 -   You have published multiple customization projects, and you want to unpublish only certain projects
 
-## Rollback of Changes Made by Customization Projects { .section}
+## Rollback of Changes Made by Customization Projects
 
 Each time you publish a customization project or multiple projects, the system unpublishes all previously published projects that were not selected for publication. Thus, you can also unpublish any number of projects. To unpublish unneeded projects, you publish all other projects without the projects that you want to unpublish.
 
@@ -40,7 +40,7 @@ There is no difference in the unpublishing process for a single-tenant site and 
 
 When you unpublish a customization project that contains system-wide configuration of a form, this system-wide form configuration stays in place. You can reverse these modifications only in UI Configuration mode \(by clicking **Reset to Default** on the UI Configuration pane\).
 
-## Steps to Unpublish a Customization Project or Multiple Projects {#section_vv2_1y4_y4b .section}
+## Steps to Unpublish a Customization Project or Multiple Projects
 
 If there are multiple customization projects published in an instance of Acumatica ERP, you can unpublish all of these projects or some of them.
 

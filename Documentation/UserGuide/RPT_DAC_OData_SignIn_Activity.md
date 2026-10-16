@@ -1,23 +1,23 @@
-# DAC-Based OData: To Sign In to Acumatica ERP and Retrieve the Metadata {#_88440ef2-0feb-4af8-89f2-47d69c5e68be .task}
+# DAC-Based OData: To Sign In to Acumatica ERP and Retrieve the Metadata
 
 This activity will walk you through the process of signing in to Acumatica ERP and retrieving the metadata when you use the DAC-based OData interface.
 
-## Story { .section}
+## Story
 
 Suppose that you are a developer who needs to investigate the options available in Acumatica ERP for integration with business intelligence \(BI\) applications. As a part of this task, you need to test the DAC-based OData interface. To send requests to Acumatica ERP through the DAC-based OData interface, you need to sign in to Acumatica ERP.
 
-## Process Overview { .section}
+## Process Overview
 
 You will configure a Postman collection to use the basic authentication. To test the sign-in, you will retrieve the full list of DACs, their fields, the fields' types, and the navigation properties of DACs, which are relationships between the DACs.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing this activity, do the following:
 
 1.  Deploy an instance of Acumatica ERP with the name *MyStoreInstance* and a tenant that has the *MyStore* name and contains the *T100* data.
 2.  Make sure the Postman application is installed on your computer. To download and install Postman, follow the instructions on [https://www.postman.com/downloads/](https://www.postman.com/downloads/).
 
-## Step 1: Signing In to Acumatica ERP { .section}
+## Step 1: Signing In to Acumatica ERP
 
 For sign-in in Acumatica ERP, you will use basic authorization. To configure basic authorization in Postman, do the following:
 
@@ -32,7 +32,7 @@ For sign-in in Acumatica ERP, you will use basic authorization. To configure bas
     2.  In the **Username** and **Password** boxes, type the credentials that you are using to access the Acumatica ERP instance for the training course.
 3.  Click **Save**.
 
-## Step 2: Retrieving the Metadata { .section}
+## Step 2: Retrieving the Metadata
 
 To test the sign-in and retrieve the metadata, do the following:
 
@@ -52,7 +52,7 @@ To test the sign-in and retrieve the metadata, do the following:
 
     **Tip:** Because of the large number of metadata, the request can take a significant amount of time.
 
-    ```language-xml
+    ```xml
     <?xml version="1.0" encoding="utf-8"?>
     <edmx:Edmx Version="4.0" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
       <edmx:DataServices>
@@ -63,11 +63,23 @@ To test the sign-in and retrieve the metadata, do the following:
             <Key>
               <PropertyRef Name="Name"/>
             </Key>
-            <Property Name="MobileWorkspaceID" Type="Edm.Guid"/>
-            <Property Name="Owner" Type="Edm.String"/>
-            <Property Name="Name" Type="Edm.String"/>
-            <Property Name="DisplayName" Type="Edm.String"/>
-            <Property Name="SortOrder" Type="Edm.Int32" Nullable="false"/>
+            <Property Name="MobileWorkspaceID" Type="Edm.Guid">
+              <Annotation Term="Org.OData.Core.V1.Description" 
+                String="MobileWorkspaceID" />
+            </Property>
+            <Property Name="Owner" Type="Edm.String" />
+            <Property Name="Name" Type="Edm.String">
+              <Annotation Term="Org.OData.Core.V1.Description" 
+                String="Workspace ID" />
+            </Property>
+            <Property Name="DisplayName" Type="Edm.String">
+              <Annotation Term="Org.OData.Core.V1.Description" 
+                String="Display Name" />
+            </Property>
+            <Property Name="SortOrder" Type="Edm.Int32" Nullable="false">
+              <Annotation Term="Org.OData.Core.V1.Description" 
+               String="SortOrder" />
+            </Property>
             ...
             <NavigationProperty Name="UsersByCreatedByID" Type="PX.SM.Users">
               <ReferentialConstraint Property="CreatedByID" 

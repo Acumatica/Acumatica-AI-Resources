@@ -1,4 +1,4 @@
-# Mail Editor: Configuration {#_8ee22f9e-aacc-4972-9fcf-e2b2df6561fc .concept}
+# Mail Editor: Configuration
 
 The configuration parameters for the mail editor control are defined in the IMailEditorControlConfig interface. To configure a mail editor, you typically use the `field` tag with the control type specified as `qp-mail-editor`, as shown in the following code example.
 

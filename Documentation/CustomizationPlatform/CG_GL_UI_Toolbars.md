@@ -1,4 +1,4 @@
-# Toolbars, Action Buttons, and Menus {#_775da237-a59a-4235-bb00-28c8adfc8c73 .concept}
+# Toolbars, Action Buttons, and Menus
 
 On an Acumatica ERP form, toolbars, buttons, and menus are the types of UI elements that are created and processed by the graph that is specified in the TypeName property of the PXDataSource control and provides business logic for the form. Therefore, these UI elements cannot be created or customized by using the Screen Editor. See [Customizing Business Logic](CG_GL_BL.md) for details.
 

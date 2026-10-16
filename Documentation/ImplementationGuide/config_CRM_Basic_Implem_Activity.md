@@ -1,16 +1,16 @@
-# Configuring CRM Functionality: Implementation Activity {#_66084c1e-1181-497a-b790-a0e38740f36e .task}
+# Configuring CRM Functionality: Implementation Activity
 
 In this implementation activity, you will learn how to perform initial configuration of the customer relationship management \(CRM\) functionality in Acumatica ERP.
 
-## Story { .section}
+## Story
 
 Suppose that you, as the system administrator of the SweetLife Fruits &amp; Jams company, need to configure the minimum settings required for using the CRM functionality in the system.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start performing initial configuration of the CRM functionality, sign in to a tenant with the out-of-the-box company as a system administrator with the *admin* username.
 
-## Step 1: Enabling the Customer Management Feature { .section}
+## Step 1: Enabling the Customer Management Feature
 
 To enable the feature required for using CRM functionality, do the following:
 
@@ -18,7 +18,7 @@ To enable the feature required for using CRM functionality, do the following:
 2.  Select the check box left of the *Customer Management* feature.
 3.  On the form toolbar, click **Enable**.
 
-## Step 2: Saving the Settings Required for CRM Functionality { .section}
+## Step 2: Saving the Settings Required for CRM Functionality
 
 Among the customer relationship management preferences that can be tailored to the needs of your company, you can specify the numbering sequences the system uses when assigning identifiers to records related to CRM.
 

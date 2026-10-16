@@ -1,4 +1,4 @@
-# To Configure Validation Rules in Salesforce {#_5bffe0a5-4164-4024-afff-bff02b1c9206 .task}
+# To Configure Validation Rules in Salesforce
 
 This topic explains how you can configure validation rules for the billing country and state fields. You should use similar expressions to configure the shipping address fields.
 
@@ -6,7 +6,7 @@ To configure lead and contact validation rules, you navigate to the appropriate 
 
 For information about other validation formulas that you may find useful, see the [Examples of Validation Rules](https://help.salesforce.com/articleView?id=fields_useful_field_validation_formulas.htm&type=0) topic in Salesforce Help.
 
-## To Configure Validation Rules { .section}
+## To Configure Validation Rules
 
 1.  In **Setup** mode, select **Build** &gt; **Customize** &gt; **Accounts** &gt; **Validation Rules**.
 2.  Click **New**.

@@ -1,14 +1,14 @@
-# To Import Settlement Batches {#_c1b1d120-6bf3-45aa-9493-e28519c14e7c .task}
+# To Import Settlement Batches
 
 On the [Import Settlement Batches](CA_50_70_00.md) \(CA507000\) form, you start the import of settlement batches from a processing center to Acumatica ERP.
 
-## Before You Proceed {#section_ep2_kjv_vxb .section}
+## Before You Proceed
 
 If you’re using Stripe, make sure that the *Integrated Card Processing* and *Stripe Payment Plug-In* features are enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
 Make sure that the processing center from which you are going to import transactions has been set up, as described in [To Set Up a Processing Center for Settlement of Credit Card Payments](CA__HOW_Setup_Proc_Center_for_Settlement_of_CC_Payments.md) or [To Create the Stripe Processing Center](CA__HOW_Create_Stripe_Processing_Center.md).
 
-## To Import Settlement Batches from a Processing Center {#section_gp2_kjv_vxb .section}
+## To Import Settlement Batches from a Processing Center
 
 1.  Open the [Import Settlement Batches](CA_50_70_00.md) \(CA507000\) form.
 2.  In the **Proc. Center ID** box of the Summary area, select the processing center from which you want to import batches.

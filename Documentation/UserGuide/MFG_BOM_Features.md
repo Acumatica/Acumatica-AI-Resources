@@ -1,4 +1,4 @@
-# Bills of Material: Key Features {#_16ed7dcb-8920-432b-a210-1d3f4e12aac6 .concept}
+# Bills of Material: Key Features
 
 The bill of material is the building block of the manufacturing software. It is where the operations and work centers are defined, along with materials, steps, overhead, and tools and/or machines. This is where the production order needs can be defined for your inventory items to become that finished good.
 
@@ -7,7 +7,7 @@ What this section will cover:
 -   The key features of bills of materials
 -   The relationship of bills of material to other Acumatica ERP functional areas
 
-## Key Features { .section}
+## Key Features
 
 -   BOM / Routing Maintenance: The BOM / Routing provides the ability to directly update the bills of material and routing information by using the [Bill of Material](AM_20_80_00.md) \(AM208000\) form.
 -   Planning Bills of Material: This process facilitates the forecast, or master production schedule, of product families and/or to order assemblies where the specific configuration is not known until you receive the customer order. For details, see [Bills of Material: Planning BOMs](MFG_PlanningBills.md).
@@ -35,7 +35,7 @@ What this section will cover:
     -   Working times by shift
     -   Shift differential
 
-## Relationship to Other Functional Areas { .section}
+## Relationship to Other Functional Areas
 
 |Area|Usage|
 |----|-----|

@@ -1,4 +1,4 @@
-# To Start a Customization of a Form {#_2f7d1f55-8c8c-4c12-9129-cac12043df90 .concept}
+# To Start a Customization of a Form
 
 To start the customization of a form, you have to open the form in the [Screen Editor](../UserGuide/AU_20_45_20.md). To do this, you commonly perform the following operations:
 

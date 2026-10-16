@@ -1,8 +1,8 @@
-# To Process a Cash Sale Order \(CS\) {#_0a5c6ea6-7c43-438a-a12a-040b1863f08c .task}
+# To Process a Cash Sale Order \(CS\)
 
 You process an order of the predefined *CS* type to record a sale of stock items that is immediately paid by cash and does not require shipping. You process a *CS* order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 
-## To Process a Cash Sale { .section}
+## To Process a Cash Sale
 
 1.  Open the [Sales Orders](../Shared/../UserGuide/SO_30_10_00.md) \(SO301000\) form.
 2.  Select the order by specifying its type \(*CS*\) and its reference number.

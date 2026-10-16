@@ -1,8 +1,8 @@
-# Purchases of Stock Items: Implementation Checklist {#_3f90fa36-8672-4d37-acc6-6b3bf53c9db2 .concept}
+# Purchases of Stock Items: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for the processing of purchases of stock items, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you initially process purchases of stock items, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -12,7 +12,7 @@ We recommend that before you initially process purchases of stock items, you mak
 |[Vendors](AP_30_30_00.md) \(AP303000\)|Make sure that all needed vendors have been configured as described in [Vendors: General Information](Vendor_GeneralInfo.md).|
 |[Stock Items](IN_20_25_00.md) \(IN202500\)|Make sure that all stock items have been configured as described in [Stock Items: General Information](Stock_Items_GeneralInfo.md).|
 
-## Other Settings That Affect the Workflow { .section}
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of processing purchases by specifying additional settings:
 
@@ -25,7 +25,7 @@ You can affect the workflow of processing purchases by specifying additional set
 -   To cause the system to automatically release inventory receipts generated on release of purchase receipts, select the **Release IN Documents Automatically** check box on the [Purchase Orders Preferences](PO_10_10_00.md) form.
 -   To cause the system to automatically post general ledger batches generated during processing purchase documents, select the **Automatically Post on Release** check box on the [General Ledger Preferences](GL_10_20_00.md) \(GL102000\) form. For information on processing general ledger batches, see [GL Transactions: General Information](Finance_Processing_Batch_GeneralInfo.md).
 
-## Validation of Configuration { .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you process a purchase order, as described in [Purchases of Stock Items: Process Activity](OrderMgmt_Standard_Inventory_Purchase_Process_Activity.md).
 

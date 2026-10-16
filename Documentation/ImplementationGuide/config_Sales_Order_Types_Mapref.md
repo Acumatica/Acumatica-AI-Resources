@@ -1,4 +1,4 @@
-# Sales Order Types {#_4b3bc059-2379-43b0-8b37-fb7d24f7130e .concept}
+# Sales Order Types
 
 Acumatica ERP provides a number of predefined order types. Each order type determines the information to be entered for an order of the type, the processing operations to be performed for the completion of an order of the type, and the documents to be generated during the processing of an order of the type. This chapter describes how to activate and configure the predefined order types.
 

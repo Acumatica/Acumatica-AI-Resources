@@ -1,4 +1,4 @@
-# Shopify Mapping Reference {#_d308d13b-b0ca-4d60-ba20-42990f8c1af5 .concept}
+# Shopify Mapping Reference
 
 In this chapter, you will find reference topics that show the field mapping used during the synchronization of entities between Acumatica ERP and Shopify. The mapping settings described in these topics are preconfigured and available in Acumatica ERP Retail Edition out of the box. You can override the standard mapping or map additional fields on the [Entities](BC_20_20_00.md) \(BC202000\) form, as described in [Preparing Entities for Synchronization](Commerce_SP_Preparing_Entities_Mapref.md).
 

@@ -1,8 +1,8 @@
-# Returns for Replacement at Another Price: General Information {#_8fbc134e-da4b-48ff-946b-e508797c5766 .concept}
+# Returns for Replacement at Another Price: General Information
 
 Acumatica ERP supports returns of goods for replacement with goods that differ from those that are returned. The returns may include freight, shipping, and handling charges, and the goods may be returned at higher or lower prices. To process such a return, you use a return merchandise authorization \(RMA\) order, which is an order with the *RM* predefined order type.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -10,11 +10,11 @@ In this chapter, you will do the following:
 -   Create an RMA order
 -   Process an RMA order
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 You create a return for replacement at another price \(that is, an order of the *RM* predefined order type\) to perform a customer return in which you return an inventory item for replacement. The customer returns the rejected goods, the goods are returned to inventory, and the customer receives a replacement for the rejected goods at another price. For this RMA order, different items than those returned may be included for replacement; freight, shipping, and handling charges may be included, and the replacement items have higher or lower prices than the returned items. Because the items are replaced at a different price, you also need to process AR documents.
 
-## General Steps of Returns for Replacement at Another Price { .section}
+## General Steps of Returns for Replacement at Another Price
 
 This section describes the general workflow of a return for replacement at another price; for simplicity, a single item is returned and replaced in this workflow.
 
@@ -58,11 +58,10 @@ To process a return of a stock item for replacement at another price, you perfor
         The generated inventory issues are released automatically if the **Automatically Release IN Documents** check box is selected on the [Sales Orders Preferences](SO_10_10_00.md) \(SO101000\) form. If this check box is cleared, you have to release each inventory issue manually by clicking **Release** on the form toolbar of the [Issues](IN_30_20_00.md) \(IN302000\) form. On release of each inventory issue, a batch of GL transactions is generated.
 
 
-## Workflow of a Return for Replacement at Another Price {#section_vv2_1y4_y4b .section}
+## Workflow of a Return for Replacement at Another Price
 
 A general workflow of a return for replacement at another price involves the steps and generated documents shown in the following diagram.
 
-![](Images/diag_OrderMgmt_Return_for_Replacement_at_Another_Price.png)
 
 **Parent topic:**[Processing Customer Returns for Replacement at Another Price](../UserGuide/OrderMgmt_Returns_for_Replacement_at_Another_Price_Mapref.md)
 

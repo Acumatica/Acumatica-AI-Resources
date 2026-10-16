@@ -1,8 +1,8 @@
-# To Set Up the Approval of AP Documents {#_ce4db688-9755-47d4-b5f4-313024f45316 .task}
+# To Set Up the Approval of AP Documents
 
-You set up the approval workflow for AP documents by using the [Accounts Payable Preferences](../UserGuide/AP_10_10_00.md) \(AP101000\) form. For more information on these approvals, see [Specific Approvals: Accounts Payable Documents](config_Approvals_AP_Documents.md).
+You set up the approval workflow for AP documents by using the [Accounts Payable Preferences](../UserGuide/AP_10_10_00.md) \(AP101000\) form. For more information on these approvals, see [Specific Approvals: Vendors and Accounts Payable Documents](config_Approvals_AP_Documents.md).
 
-## Before You Proceed {#section_wgh_njv_vxb .section}
+## Before You Proceed
 
 Before you set up the approval of AP documents in your system do the following steps:
 
@@ -13,7 +13,7 @@ Before you set up the approval of AP documents in your system do the following s
 
 **Attention:** The approval map defines the employees designated for approving AP documents and the conditions that AP documents must match to be assigned for approval.
 
-## To Specify the Approval Settings for AP Documents {#section_ygh_njv_vxb .section}
+## To Specify the Approval Settings for AP Documents
 
 1.  Open the [Accounts Payable Preferences](../UserGuide/AP_10_10_00.md) \(AP101000\) form.
 2.  Go to the **Approval** tab of this form.

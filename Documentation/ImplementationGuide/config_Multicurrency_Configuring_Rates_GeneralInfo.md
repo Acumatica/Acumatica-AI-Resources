@@ -1,4 +1,4 @@
-# Configuration of Rate Types and Rates: General Information {#_fce5bf02-bdfc-46d6-96cc-3d7ad15f9820 .concept}
+# Configuration of Rate Types and Rates: General Information
 
 In Acumatica ERP, you can create any necessary currency. For each pair of active currencies, you can specify effective exchange rates for any selected date. Additionally, you can specify the date when the currency rate becomes effective and assign a rate type, which determines how long the rate will remain valid for that currency pair. A currency rate type also defines how exchange rates are applied in foreign currency transactions, specifying which rate to use in different scenarios. For example, it can determine whether to apply the current exchange rate for immediate transactions, the average exchange rate over a period, or a historical exchange rate. You can create multiple rate types to meet various business needs.
 
@@ -6,7 +6,7 @@ For a particular rate type, you can turn on the online currency rate synchroniza
 
 This chapter provides information on configuring and maintaining the currency rates and rate types in Acumatica ERP.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -14,18 +14,18 @@ In this chapter, you will learn how to do the following:
 -   Manually configure currency rates for foreign currencies
 -   Configure rates for a foreign currency by using the rate synchronization functionality
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure currency rates in the system in the following cases:
 
 -   You want to have multiple custom currency rate types in addition to the default rate type. For example, you can use one rate type in bills and invoices, another rate type for bank account revaluations, and yet another rate type for translations of financial statements.
 -   You want to use a separate rate type to be assigned to particular customers or vendors; this rate type will be used in documents created for these customers and vendors.
 
-## System Default Rate Type { .section}
+## System Default Rate Type
 
 The system automatically creates the default *SPOT* currency rate type when you specify the base currency on the [Companies](../UserGuide/CS_10_15_00.md#) \(CS101500\) form. The *SPOT* currency rate is the current rate of exchange between two currencies \(that is, the rate at which the currencies can be exchanged immediately\). Although delivery is theoretically immediate, the conventions of currency markets allow for up to two days for the settlement of a transaction.
 
-## Custom Rate Types { .section}
+## Custom Rate Types
 
 You can create the following currency rate types to use with different vendors, customers, and for revaluations and translations:
 
@@ -54,7 +54,7 @@ You configure rate types on the [Currency Rate Types](../UserGuide/CM_20_10_00.m
 
 Once you have defined the needed currency rate types, you assign an appropriate rate type to each currency rate that you create on the [Currency Rates](../UserGuide/CM_30_10_00.md) \(CM301000\) form.
 
-## General Guidelines for Defining Currency Rates { .section}
+## General Guidelines for Defining Currency Rates
 
 In Acumatica ERP, the following guidelines are applied to currency rates:
 
@@ -64,7 +64,7 @@ In Acumatica ERP, the following guidelines are applied to currency rates:
 
 -   To set up different exchange rates that can be used in the same date range for the same currency pair, you need to create different rate types on the [Currency Rate Types](../UserGuide/CM_20_10_00.md) \(CM201000\) form. You then can select different rate types for the same currency pair and specify different exchange rates on the [Currency Rates](../UserGuide/CM_30_10_00.md) form.
 
-## Selection of the Conversion Operation {#_0abf1692-3b49-40a7-a960-6f489ba7ab44 .section}
+## Selection of the Conversion Operation
 
 When you define a currency rate on the **Currency Rate Entry** tab of the [Currency Rates](../UserGuide/CM_30_10_00.md) \(CM301000\) form, you need to select an operation in the **Mult./Div.** column. The selected operation \(*Multiply* or *Divide*\) is performed on the number of units of the **From Currency**, by using the currency rate, to convert it to the number of units in the **To Currency** specified in the Summary area.
 

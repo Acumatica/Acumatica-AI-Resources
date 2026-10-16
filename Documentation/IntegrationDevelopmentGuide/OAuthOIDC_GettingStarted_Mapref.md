@@ -1,4 +1,4 @@
-# Getting Started with OAuth 2.0 and OpenID Connect Authorization {#_a5a25d1d-e345-4154-a398-3bff4898836c .concept}
+# Getting Started with OAuth 2.0 and OpenID Connect Authorization
 
 OAuth 2.0 and OpenID Connect \(OIDC\) are the protocols that can be used for authentication and authorization in Acumatica ERP.
 

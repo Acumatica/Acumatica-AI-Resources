@@ -1,8 +1,8 @@
-# Retrieve an Invoice Related to a Shipment {#_50f988ff-e3c5-4f67-81c1-6446167c4176 .concept}
+# Retrieve an Invoice Related to a Shipment
 
 By using the REST API, you can retrieve an invoice that is related to a shipment. A user can view the number of the invoice that is related to a shipment on the **Orders** tab of the [Shipments](../UserGuide/SO_30_20_00.md) \(SO302000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to do the following to configure your client application and the Acumatica ERP instance to be used:
 
@@ -16,16 +16,16 @@ Before you test the code below, you need to do the following to configure your c
     3.  [Confirm a Shipment](IntegrationDev_RESTExample_Shipment_Confirm.md)
     4.  [Prepare an Invoice for a Shipment](IntegrationDev_RESTExample_Shipment_CreateInvoice.md)
 
-## Request { .section}
+## Request
 
 You can use the following request example to retrieve the number of the invoice that is related to a shipment that has the *Invoiced* status through the REST API. In this example, the shipment has the *000069* number.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-GET /entity/Default/25.200.001/Shipment?
-    $expand=Orders&$filter=ShipmentNbr eq '000069'&
-    $select=ShipmentNbr,Orders/InvoiceNbr,Orders/InvoiceType HTTP/1.1
+GET /entity/Default/26.200.001/Shipment?
+    $expand=Orders($select=InvoiceNbr,InvoiceType)&$filter=ShipmentNbr eq '000069'&
+    $select=ShipmentNbr HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
 Content-Type: application/json

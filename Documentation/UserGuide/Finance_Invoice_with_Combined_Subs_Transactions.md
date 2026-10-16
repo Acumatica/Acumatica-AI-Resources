@@ -1,4 +1,4 @@
-# Invoice with Combined Subaccounts: Generated Transactions {#_13b8d884-5b07-4ce0-b6ed-b18eb8349c9d .concept}
+# Invoice with Combined Subaccounts: Generated Transactions
 
 When you release an invoice, the system generates a transaction to reflect the sale in the general ledger. The invoice includes all the information the system needs to generate the transaction.
 

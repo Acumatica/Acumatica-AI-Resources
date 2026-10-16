@@ -1,10 +1,10 @@
-# Contract Billing: To Bill a Support Contract by Case Usage {#_8158722b-b0a8-4757-84bf-d5049c54a63b .task}
+# Contract Billing: To Bill a Support Contract by Case Usage
 
 In this activity, you will learn how to bill support contract by case usage.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company, in addition to deploying juicers, also specializes in providing maintenance. The Unifruit LLC customer previously purchased juicers and now needs to enter into a maintenance support contract. On *3/8/2026*, the support contract was signed by both parties.
 
@@ -14,7 +14,7 @@ The service of maintenance specialists costs $120 per hour, and the price is not
 
 Acting as an accountant, on *4/8/2026*, you will bill support contract by case usage.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -22,11 +22,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, on the **General** tab \(**Data Entry Settings** section\), the **Hold Documents on Entry** check box has been cleared.
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *UNIFRUIT \(Unifruit LLC\)* customer has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Customer Contracts](CT_30_10_00.md) \(CT301000\) form, you will bill a contract by case usage. Then on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will release the resulting invoice.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
@@ -34,7 +34,7 @@ To prepare to perform the instructions of this activity, do the following:
 2.  Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as the accountant Anna Johnson by using the *johnson* username and the *123* password.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *4/8/2026*. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Billing the Contract Usage {#section_msc_h3z_js .section}
+## Step 1: Billing the Contract Usage
 
 To initiate contract billing, do the following:
 
@@ -44,13 +44,12 @@ To initiate contract billing, do the following:
     When the billing operation has completed successfully, the **Next Billing Date** is set to *5/8/2026*, and the system has generated the invoice in the amount of $480 for the billed contract usage. You can see the invoice on the **AR History** tab. The invoice has the *Balanced* status.
 
 
-## Step 2: Releasing the Invoice {#section_hlp_33z_js .section}
+## Step 2: Releasing the Invoice
 
 Do the following to release the invoice for the support contract:
 
 1.  While you are still viewing the contract on the [Customer Contracts](CT_30_10_00.md) \(CT301000\) form, on the **AR History** tab, click the **Reference Nbr.** link in the only row to open the invoice on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. Review the settings of the invoice \(see the following screenshot\). The balance of the invoice is $480, which is the cost of services rendered to the customer by case usage.
 
-    ![](Images/CustomerContractsSupportContractInvoice.png "Invoice for the support contract")
 
     **Tip:** An invoice issued at contract billing includes all the contract's unbilled usage whose dates precede the billing date.
 

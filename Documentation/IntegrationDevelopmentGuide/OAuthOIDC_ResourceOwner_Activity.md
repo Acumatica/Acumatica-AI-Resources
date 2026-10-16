@@ -1,18 +1,18 @@
-# Resource Owner Password Credentials Flow: To Configure a REST Application to Use OAuth 2.0 {#_638b2743-8ca8-49a8-96d5-e2f0601b0827 .task}
+# Resource Owner Password Credentials Flow: To Configure a REST Application to Use OAuth 2.0
 
 This activity will walk you through the process of configuring a Postman collection to use the OAuth 2.0 authorization for the requests to Acumatica ERP.
 
-## Story { .section}
+## Story
 
 Suppose that you need to configure the MyStoreIntegration application, which is a Postman collection, to use the Resource Owner Password Credentials flow.
 
-## Process Overview { .section}
+## Process Overview
 
 You will connect to the token endpoint, pass the client ID and client secret in the authorization header, and request access to the web service APIs \(that is, you will request the api scope\). You will receive the access token from Acumatica ERP to use it in subsequent requests to Acumatica ERP. You will not request the refresh token, which the client application can use to request a new access token when the access token has expired.
 
 **Tip:** In Postman, you cannot use the discovery endpoint, because Postman does not support OpenID Connect Discovery.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -20,7 +20,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  To sign in to the instance in the client application, use the tenant name \(which you specified when you created the instance\) and the *MYSTORE* branch.
 3.  Complete the following prerequisite activity: [Registration of an OAuth 2.0 or OIDC ApplicationActivity 1.1.1: To Register the Application in Acumatica ERP](OAuthOIDC_Registration_Activity.md).
 
-## Step: Configuring a Postman Collection { .section}
+## Step: Configuring a Postman Collection
 
 To configure a Postman collection to use the OAuth 2.0 authorization in Acumatica ERP, do the following:
 

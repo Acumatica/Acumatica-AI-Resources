@@ -1,4 +1,4 @@
-# Processing Reversing Transactions {#_43c4a0dc-247e-4606-ac13-16d2d1df31ec .concept}
+# Processing Reversing Transactions
 
 If a batch with the *Unposted* or *Posted* status is incorrect, you can reverse the batch and enter a correct one.
 

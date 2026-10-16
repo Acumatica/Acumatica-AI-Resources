@@ -1,8 +1,8 @@
-# Multicurrency Funds Transfers: Mass Processing {#_8ebdc85a-e805-4184-87c0-f4da163236d1 .concept}
+# Multicurrency Funds Transfers: Mass Processing
 
 This topic explains how to release multiple funds transfers at once.
 
-## Mass Release of Funds Transfers {#section_wmw_3jv_vxb .section}
+## Mass Release of Funds Transfers
 
 You can release multiple funds transfers as follows:
 

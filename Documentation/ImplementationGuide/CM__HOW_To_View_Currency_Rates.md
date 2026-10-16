@@ -1,8 +1,8 @@
-# To View the Effective Currency Rates {#_25d77b41-575d-4a53-bf7b-080740f7db3e .task}
+# To View the Effective Currency Rates
 
 You use the [Currency Rates](../UserGuide/CM_30_10_00.md) \(CM301000\) form to view the exchange rates for a particular currency that are currently in effect. You view these rates by target currency \(that is, the currency to which the conversion is performed\).
 
-## To View the Effective Currency Rates { .section}
+## To View the Effective Currency Rates
 
 1.  Open the [Currency Rates](../UserGuide/CM_30_10_00.md) \(CM301000\) form.
 2.  In the Selection area, in the **To Currency** box, select the target currency \(by its ID\) of the currency rates you want to view.

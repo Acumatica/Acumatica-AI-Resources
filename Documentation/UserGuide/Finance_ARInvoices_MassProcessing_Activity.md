@@ -1,8 +1,8 @@
-# AR Invoices: To Mass-Print Invoices {#_73e3e74b-18cc-486b-ab5c-10f69c1e1e84 .task}
+# AR Invoices: To Mass-Print Invoices
 
 You use the [Print/Email AR Documents](AR_50_80_00.md) \(AR508000\) form to print AR invoices.
 
-## To Print Invoices {#section_bkn_4jv_vxb .section}
+## To Print Invoices
 
 1.  Make sure the printer is connected to your computer and ready for printing.
 2.  Open the [Print/Email AR Documents](AR_50_80_00.md) \(AR508000\) form.

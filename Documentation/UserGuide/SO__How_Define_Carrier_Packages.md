@@ -1,8 +1,8 @@
-# To Define a Box {#_aa25c84d-6b75-4488-9053-6de15aa38c25 .task}
+# To Define a Box
 
 To send shipments via different delivery services and carriers, including integrated carriers \(UPS, or FedEx\), you need to define the types of boxes used by each of the carriers. You can define boxes by using the [Boxes](CS_20_76_00.md) \(CS207600\) form.
 
-## To Define a Box { .section}
+## To Define a Box
 
 1.  Open the [Boxes](CS_20_76_00.md) \(CS207600\) form.
 2.  On the table toolbar, click **Add Row**.
@@ -15,7 +15,7 @@ To send shipments via different delivery services and carriers, including integr
 9.  Make sure the **Active by Default** check box is selected for the box if boxes of this type are used for shipping by most of the carriers and should appear by default on the list of boxes used for any ship via code on the [Ship via Codes](CS_20_75_00.md) \(CS207500\) form.
 10. Click **Save** on the form toolbar.
 
-## Notes About the Procedure { .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

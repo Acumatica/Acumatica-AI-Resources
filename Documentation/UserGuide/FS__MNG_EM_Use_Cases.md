@@ -1,4 +1,4 @@
-# Equipment Management Use Cases {#_e3f92a31-a941-4cf7-b584-f54a3f1b8eaf .concept}
+# Equipment Management Use Cases
 
 With the equipment management functionality, you can perform equipment-related actions while you are working with sales orders, service orders, or appointments.
 
@@ -18,6 +18,4 @@ In this chapter, you will read about some possible use cases of registering sale
 
 -   **[Selling a Stock Item that Does Not Require Record in Equipment Management](../UserGuide/FS__CON_Selling_Stock_Item.md)**  
 
-
-**Parent topic:**[Equipment Management](../UserGuide/FS_00_00_02.md)
 

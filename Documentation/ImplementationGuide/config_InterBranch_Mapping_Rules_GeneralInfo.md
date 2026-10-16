@@ -1,4 +1,4 @@
-# Interbranch Account Mapping: General Information {#_96d6e9bb-8217-432e-80b2-a4cedf883723 .concept}
+# Interbranch Account Mapping: General Information
 
 Organizations can be configured in Acumatica ERP in a variety of ways, with multiple companies and multiple branches within companies. As such, multiple branches or companies may be involved in a particular transaction.
 
@@ -6,11 +6,11 @@ In interbranch or intercompany transactions, because credit and debit amounts ar
 
 **Tip:** If you have extended a branch as a customer or as a vendor and want to use them in AP and in AR documents, you do not need to configure the account mapping. For more details on how to extend a branch as a customer and as a vendor, review [Intercompany Sales Setup: Implementation Activity](Finance_Intercompany_SalesSetup_Implem_Activity.md).
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 You will learn how to configure account mapping rules for transactions between companies and between branches that require balancing.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You need to configure account mapping if you need to post GL transactions with different lines associated with different companies or branches, and you need to balance the transactions in the books of each company or branch.
 
@@ -20,7 +20,7 @@ For details on processing such interbranch and intercompany documents, see the f
 -   [Interbranch Invoices with Balancing: General Information](../UserGuide/Finance_Invoice_Between_Branches_Requiring_Balancing_GeneralInfo.md)
 -   [Intercompany Funds Transfers: General Information](../UserGuide/Finance_Funds_Transfer_Between_Companies_GeneralInfo.md)
 
-## Interbranch Balancing Entries { .section}
+## Interbranch Balancing Entries
 
 You need to set up the generation of balancing entries for interbranch transactions if any of the following transactions can be generated in the organization:
 
@@ -32,7 +32,7 @@ In these cases, transactions should be balanced in each company or branch involv
 
 **Important:** Balancing entries between Due To and Due From accounts cannot be used for entities with different base currencies. If you need to create a transaction between entities in different base currencies, you should first extend the involved companies to customers or vendors, and then create transactions for these customers or vendors. For details on extending companies to be customers or vendors, see [Intercompany Sales: General Information](../UserGuide/Finance_Intercompany_Sales_GeneralInfo.md).
 
-## Configuration of Interbranch Transactions with Balancing Entries { .section}
+## Configuration of Interbranch Transactions with Balancing Entries
 
 To configure in the system the rules the system will use to generate balancing entries, you have to do the following:
 

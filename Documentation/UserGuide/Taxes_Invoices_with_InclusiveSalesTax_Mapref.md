@@ -1,4 +1,4 @@
-# Processing Invoices with Inclusive Sales Taxes {#_32f0b569-7fb3-4fc2-9581-d5069ea67246 .concept}
+# Processing Invoices with Inclusive Sales Taxes
 
 The topics of this chapter describe how to set up an inclusive document-level sales tax and how to process an AR invoice with this tax applied.
 

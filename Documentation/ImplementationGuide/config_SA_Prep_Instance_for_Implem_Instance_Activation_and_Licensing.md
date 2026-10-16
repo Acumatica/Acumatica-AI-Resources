@@ -1,10 +1,10 @@
-# Preparing an Instance: Activation and Licensing {#_b02c0745-5052-4cce-927f-2b1ac61c0be6 .concept}
+# Preparing an Instance: Activation and Licensing
 
 To start implementation, you need to activate the instance by enabling the default set of features. Then you apply the license and enable any purchased features that are not in the default set.
 
 In this topic, you will read about the first sign-in to a new blank instance, feature enabling, and the limitations of trial and license modes.
 
-## Obtaining of a License { .section}
+## Obtaining of a License
 
 In Acumatica ERP, you can request the purchased license by creating a support case through the [Partner Portal](https://portal.acumatica.com/). You should specify the following settings in the case:
 
@@ -19,7 +19,7 @@ You apply the key to your instance by clicking **Enter License Key** on the form
 
 To apply the license file, you should click **Upload License File** on the form toolbar of the [Activate License](../Shared/../UserGuide/SM_20_15_10.md) form, and then select and upload the license file by using the **Upload New License File** dialog box. If you use a license file, the system validates the license without contacting the licensing server.
 
-## First Sign-In to Acumatica ERP { .section}
+## First Sign-In to Acumatica ERP
 
 Preparing an instance is performed under the only active user account \(*admin*\) that comes with every Acumatica ERP instance. This user has sufficient access rights to perform the instance preparation.
 
@@ -27,7 +27,7 @@ The initial credentials for the default user account are *admin* for the usernam
 
 When you sign in to a new Acumatica ERP instance for the first time and attempt to navigate to any form, the system brings up the [Enable/Disable Features](../Shared/../UserGuide/CS_10_00_00.md#) \(CS100000\) form \(the only form you can access\), which you use to enable the default set of features. After you do this, you can access the [Activate License](../Shared/../UserGuide/SM_20_15_10.md#) \(SM201510\) form, where you can activate your license key if you want to remove the trial mode restrictions. If you want to proceed with the trial mode, you can enable any other features that are available.
 
-## Product Features { .section}
+## Product Features
 
 Acumatica ERP provides scalable core system functionality and offers a range of add-on features. On the [Enable/Disable Features](../Shared/../UserGuide/CS_10_00_00.md#) \(CS100000\) form, you can view and modify the list of enabled features according to your license limitations.
 
@@ -42,7 +42,7 @@ Before you start implementing Acumatica ERP, you may find it helpful to become f
 
 **Attention:** You can also use the [Enable/Disable Features](../Shared/../UserGuide/CS_10_00_00.md) form to disable individual features in Acumatica ERP. We recommend that you *not* disable any feature after it has been enabled and used in the live system; this may cause unexpected results, including data loss.
 
-## Trial and License Modes { .section}
+## Trial and License Modes
 
 By default, Acumatica ERP is installed in trial mode. Although all features are available in this mode, the mode has the following restrictions:
 

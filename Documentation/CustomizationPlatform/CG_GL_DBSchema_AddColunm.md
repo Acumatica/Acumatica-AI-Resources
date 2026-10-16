@@ -1,4 +1,4 @@
-# To Create a Custom Column in an Existing Table {#_78783859-14f5-4b5d-a4a4-03cca2772ad2 .task}
+# To Create a Custom Column in an Existing Table
 
 Because you can need a new column in an existing database table only for a bound data field, the Acumatica Customization Platform automatically creates a custom column when you create a custom bound data field by using the New Field wizard.
 

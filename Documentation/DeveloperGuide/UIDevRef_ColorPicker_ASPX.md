@@ -1,14 +1,22 @@
-# Color Picker: Conversion from ASPX to HTML and TypeScript {#_87131e49-ca7c-4b96-99b7-c5f3d0ce6476 .concept}
+# Color Picker: Conversion from ASPX to HTML and TypeScript
 
 The following table will help you to convert the ASPX element for the color picker control to an HTML element.
 
-## PXTextEdit { .section}
+## PXTextEdit
 
 The following table shows the correspondence between the PXTextEdit element and the HTML or TypeScript elements. During the conversion of ASPX pages to HTML and TypeScript, you need to replace these ASPX elements with their analogs in HTML or TypeScript.
 
-|ASPX|HTML or TypeScript|
-|----|------------------|
-|PXTextEdit```
+<table id="_53b158c3-95c7-4d0b-b468-cfb18f27756e"><thead><tr><th>
+
+ASPX
+
+</th><th>
+
+HTML or TypeScript
+
+</th></tr></thead><tbody><tr><td>
+
+PXTextEdit```
 <px:PXTextEdit
   ID="edPrimaryColor"
   runat="server"
@@ -17,7 +25,9 @@ The following table shows the correspondence between the PXTextEdit element and 
   TextMode="Color" />
 ```
 
-|HTML template:```
+</td><td>
+
+HTML template:```
 <qp-fieldset>
   <field name="PrimaryColor">
   </field>
@@ -34,7 +44,8 @@ PrimaryColor:
 
 **Note:** You need to specify `control-type="qp-color-picker"` in HTML unless the field has the PXColorList attribute specified in the DAC.
 
-|
+</td></tr></tbody>
+</table>
 
 **Parent topic:**[Color Picker](../DeveloperGuide/UIDevRef_ColorPicker_Mapref.md)
 

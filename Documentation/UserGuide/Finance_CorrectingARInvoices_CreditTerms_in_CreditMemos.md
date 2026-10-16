@@ -1,10 +1,10 @@
-# AR Invoice Correction: Support for Credit Terms in Credit Memos {#_f72a5fbd-d241-4d64-b6ab-c9bb70bf13f7 .concept}
+# AR Invoice Correction: Support for Credit Terms in Credit Memos
 
 Credit memos created in Acumatica ERP can have credit terms specified for them; thus, they can have cash discounts. If you reverse an original invoice with a cash discount, the created credit memo will also have this cash discount. Credit memos with discounts can also be used in cash flow forecasting.
 
 To turn on the support for credit terms for credit memos, you select the **Use Credit Terms in Credit Memos** check box on the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form.
 
-## Insertion of Credit Memo Settings { .section}
+## Insertion of Credit Memo Settings
 
 When you create a credit memo on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form by copying an existing credit memo, the system inserts the settings as follows, depending on whether the **Use Credit Terms in Credit Memos** check box is selected on the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form:
 

@@ -1,14 +1,14 @@
-# Statistical Ledgers {#_e0c11116-ad1b-4400-a43f-ea07a150d1d2 .concept}
+# Statistical Ledgers
 
 A ledger of the *Statistical* type can be used to store statistical information about a branch's operations. Each organization can have multiple statistical ledgers, each for a different type of information. If your organization has multiple branches, all branches can use the same statistical ledgers with the information in ledgers arranged by branch, or each branch can use separate statistical ledgers created for the branch.
 
 In this topic, you will read about using and updating data in statistical ledgers.
 
-## Statistical Ledger Usage {#section_im2_mjv_vxb .section}
+## Statistical Ledger Usage
 
 You can use statistical data to better understand and analyze your company's financial data. Statistical ledgers can be a source of data for reporting, for calculation of allocations, or for consolidations. With Acumatica ERP, your organization can define an unlimited number of statistical ledgers to store statistical information.
 
-## Entry Update in a Statistical Ledger {#section_km2_mjv_vxb .section}
+## Entry Update in a Statistical Ledger
 
 The system uses the same chart of accounts to post transactions to a statistical ledger as to an actual ledger. Depending on the policies established in your organization, you can create special accounts to be used for statistical information and use only those accounts with statistical ledgers, or you can use the same accounts as you use for financial data. Balances for each account are calculated by a ledger. For details on accounts, see [Modification of the Chart of Accounts](GL__CON_Modification_of_Cart_of_Accounts.md).
 

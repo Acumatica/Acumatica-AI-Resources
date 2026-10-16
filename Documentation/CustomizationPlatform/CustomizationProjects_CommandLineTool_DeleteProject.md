@@ -1,4 +1,4 @@
-# PXCommandLine Tool: DeleteProject {#_b2abef76-1354-490e-b7f1-3702a2054f28 .concept}
+# PXCommandLine Tool: DeleteProject
 
 You can use the *DeleteProject* value of the `/method` parameter to delete a customization project from your instance and from the instance's database. You must use the `/name` parameter to specify the name of the customization project that you want to delete.
 

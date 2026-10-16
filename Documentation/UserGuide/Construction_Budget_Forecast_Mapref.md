@@ -1,4 +1,4 @@
-# Working with Project Budget Forecast {#_7fd3db1f-3dfd-4609-a0eb-30c3a0e5b107 .concept}
+# Working with Project Budget Forecast
 
 This chapter describes how to create project budget forecasts and compare these forecasts with the actual project costs and incomes for each financial period.
 

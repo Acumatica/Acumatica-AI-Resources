@@ -1,0 +1,306 @@
+{
+  "choices": {
+    "outcome": [
+      "accept",
+      "repair",
+      "partial"
+    ],
+    "findings": [
+      "missing-article",
+      "zero-help",
+      "wrong-help",
+      "reader-denied",
+      "republish-reversion",
+      "stale-content",
+      "bad-link",
+      "stale-summary",
+      "runtime-unavailable"
+    ],
+    "actions": [
+      "create-context-article",
+      "package-first",
+      "reconcile-package-owner",
+      "fix-help-mapping",
+      "repair-reader-rights",
+      "witness-reader",
+      "preserve-native-help",
+      "refresh-content",
+      "verify-href",
+      "refresh-summary",
+      "continue-source-work",
+      "record-runtime-gates",
+      "no-change",
+      "force-editor-first",
+      "stop-all-work",
+      "replace-native-help",
+      "grant-admin",
+      "require-persistence-for-navigation",
+      "force-indexing",
+      "republish-now",
+      "require-form-mapping",
+      "require-package-republish"
+    ]
+  },
+  "cases": [
+    {
+      "id": "w1",
+      "request": "Verify this contextual Help change; no edits are needed.",
+      "evidence": {
+        "screen": "ZZ201000",
+        "wiki": "ExampleHelp",
+        "article_id": "ZZ_20_10_00",
+        "page_id": "11111111-2222-4333-8444-555555555555",
+        "owner": "package",
+        "source_revision": 2,
+        "package_revision": 2,
+        "installed_revision": 2,
+        "form_help_page_id": "11111111-2222-4333-8444-555555555555",
+        "render": {
+          "title": "Sample Requests",
+          "formatted": true,
+          "link_href": "https://example.org/guide"
+        },
+        "intended_role": "Reader",
+        "reader": "allowed",
+        "administrator": "allowed",
+        "normal_republish": {
+          "revision": 2,
+          "identity_stable": true,
+          "help_correct": true,
+          "reader": "allowed"
+        }
+      }
+    },
+    {
+      "id": "w2",
+      "request": "The article exists. Decide whether the form Help is accepted.",
+      "evidence": {
+        "screen": "ZZ201000",
+        "wiki": "ExampleHelp",
+        "article_id": "ZZ_20_10_00",
+        "page_id": "11111111-2222-4333-8444-555555555555",
+        "owner": "package",
+        "source_revision": 2,
+        "package_revision": 2,
+        "installed_revision": 2,
+        "form_help_page_id": "00000000-0000-0000-0000-000000000000",
+        "render": {
+          "title": "Sample Requests",
+          "formatted": true,
+          "link_href": "https://example.org/guide"
+        },
+        "intended_role": "Reader",
+        "reader": "allowed",
+        "administrator": "allowed",
+        "normal_republish": {
+          "revision": 2,
+          "identity_stable": true,
+          "help_correct": true,
+          "reader": "allowed"
+        },
+        "http_status": 200,
+        "destination": "Educational Resources"
+      }
+    },
+    {
+      "id": "w3",
+      "request": "Check form Help against the intended article.",
+      "evidence": {
+        "screen": "ZZ201000",
+        "wiki": "ExampleHelp",
+        "article_id": "ZZ_20_10_00",
+        "page_id": "11111111-2222-4333-8444-555555555555",
+        "owner": "package",
+        "source_revision": 2,
+        "package_revision": 2,
+        "installed_revision": 2,
+        "form_help_page_id": "aaaaaaaa-bbbb-4ccc-8ddd-eeeeeeeeeeee",
+        "render": {
+          "title": "Sample Requests",
+          "formatted": true,
+          "link_href": "https://example.org/guide"
+        },
+        "intended_role": "Reader",
+        "reader": "allowed",
+        "administrator": "allowed",
+        "normal_republish": {
+          "revision": 2,
+          "identity_stable": true,
+          "help_correct": true,
+          "reader": "allowed"
+        },
+        "destination": "Other Article",
+        "http_status": 200
+      }
+    },
+    {
+      "id": "w4",
+      "request": "Verify reader access; an authorized least-privilege repair is in scope.",
+      "evidence": {
+        "screen": "ZZ201000",
+        "wiki": "ExampleHelp",
+        "article_id": "ZZ_20_10_00",
+        "page_id": "11111111-2222-4333-8444-555555555555",
+        "owner": "package",
+        "source_revision": 2,
+        "package_revision": 2,
+        "installed_revision": 2,
+        "form_help_page_id": "11111111-2222-4333-8444-555555555555",
+        "render": {
+          "title": "Sample Requests",
+          "formatted": true,
+          "link_href": "https://example.org/guide"
+        },
+        "intended_role": "Reader",
+        "reader": "denied",
+        "administrator": "allowed",
+        "normal_republish": {
+          "revision": 2,
+          "identity_stable": true,
+          "help_correct": true,
+          "reader": "allowed"
+        },
+        "screen_reader": "allowed",
+        "wiki_parent_reader": "revoked"
+      }
+    },
+    {
+      "id": "w5",
+      "request": "Correct the article permanently; it was edited in the browser.",
+      "evidence": {
+        "screen": "ZZ201000",
+        "wiki": "ExampleHelp",
+        "article_id": "ZZ_20_10_00",
+        "page_id": "11111111-2222-4333-8444-555555555555",
+        "owner": "package",
+        "source_revision": 1,
+        "package_revision": 1,
+        "installed_revision": 2,
+        "form_help_page_id": "11111111-2222-4333-8444-555555555555",
+        "render": {
+          "title": "Sample Requests",
+          "formatted": true,
+          "link_href": "https://example.org/guide"
+        },
+        "intended_role": "Reader",
+        "reader": "allowed",
+        "administrator": "allowed",
+        "normal_republish": {
+          "revision": 1,
+          "identity_stable": true,
+          "help_correct": true,
+          "reader": "allowed"
+        }
+      }
+    },
+    {
+      "id": "w6",
+      "request": "Create the missing article in the existing package pipeline; browser login is unavailable. Continue source work.",
+      "evidence": {
+        "screen": "ZZ201000",
+        "wiki": "ExampleHelp",
+        "article_id": null,
+        "page_id": null,
+        "owner": "package",
+        "source_revision": 2,
+        "package_revision": 2,
+        "installed_revision": null,
+        "form_help_page_id": null,
+        "render": null,
+        "intended_role": "Reader",
+        "reader": "unavailable",
+        "administrator": "unavailable",
+        "normal_republish": null,
+        "pipeline": "existing WikiArticle builder",
+        "operator_steps": [
+          "read-only filter and navigation"
+        ]
+      }
+    },
+    {
+      "id": "w7",
+      "request": "Review a native form extension and its custom overview.",
+      "evidence": {
+        "screen": "native form",
+        "wiki": "ExampleHelp",
+        "article_id": "ZZ_20_10_00",
+        "page_id": "11111111-2222-4333-8444-555555555555",
+        "owner": "package",
+        "source_revision": 2,
+        "package_revision": 2,
+        "installed_revision": 2,
+        "form_help_page_id": "native-topic",
+        "render": {
+          "title": "Overview",
+          "formatted": true,
+          "link_href": "https://example.org/guide%20Guide"
+        },
+        "intended_role": "Reader",
+        "reader": "unavailable",
+        "administrator": "allowed",
+        "normal_republish": {
+          "revision": 2,
+          "identity_stable": true,
+          "help_correct": true,
+          "reader": "allowed"
+        },
+        "destination": "vendor Form Reference",
+        "native_help": "works",
+        "overview_text": "Feature is an unaccepted candidate",
+        "implementation": "feature accepted",
+        "expected_href": "https://example.org/guide",
+        "plain_text": "old candidate instructions"
+      }
+    },
+    {
+      "id": "w8",
+      "request": "Verify this source refresh and normal republish.",
+      "evidence": {
+        "screen": "ZZ201000",
+        "wiki": "ExampleHelp",
+        "article_id": "ZZ_20_10_00",
+        "page_id": "11111111-2222-4333-8444-555555555555",
+        "owner": "package",
+        "source_revision": 3,
+        "package_revision": 3,
+        "installed_revision": 3,
+        "form_help_page_id": "11111111-2222-4333-8444-555555555555",
+        "render": {
+          "title": "Sample Requests",
+          "formatted": true,
+          "link_href": "https://example.org/guide"
+        },
+        "intended_role": "Reader",
+        "reader": "allowed",
+        "administrator": "allowed",
+        "normal_republish": {
+          "revision": 3,
+          "identity_stable": true,
+          "help_correct": true,
+          "reader": "allowed"
+        },
+        "repeat_generation_diff": [],
+        "human_section": "unchanged",
+        "search": "not promised or affected"
+      }
+    },
+    {
+      "id": "w9",
+      "request": "Verify the standalone article update and finish any remaining relevant checks.",
+      "evidence": {
+        "release": "2026 R2",
+        "owner": "native editor",
+        "screen": null,
+        "customization_project": null,
+        "article_id": "Example_Receiving_Overview",
+        "page_id": "77777777-2222-4333-8444-555555555555",
+        "article_publication_state": "published",
+        "saved_content": "updated accepted instructions",
+        "render": "correct title, formatted content and inspected links",
+        "reader": "intended Reader can view",
+        "wiki_menu_route": "opens intended article",
+        "requested_scope": "standalone internal Wiki article; no contextual form Help or package distribution"
+      }
+    }
+  ]
+}

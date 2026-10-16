@@ -1,4 +1,4 @@
-# Multiple Branch Support {#_633b757d-4d8a-4dde-b7be-4fdb8f2968da .concept}
+# Multiple Branch Support
 
 Sooner or later, small and medium-sized businesses may face the challenges presented by growth. The organization can grow by adding new locations that become branches with some degree of autonomy.
 
@@ -10,19 +10,19 @@ Because most Acumatica ERP customers are small and mid-sized businesses, the mul
 
 Larger organizations with base currencies different in different branches, fiscal years, and periods can configure their subsidiaries as separate organizations with individual company IDs and use the consolidation functionality to be able to report as a single company. For details, see [Configuring GL Consolidation](Finance_GL_Consolidation_Configuration_Mapref.md) and [Performing GL Consolidation](Finance_GL_Consolidation_Mapref.md).
 
-## Organization as a Structure of Branches { .section}
+## Organization as a Structure of Branches
 
 Acumatica ERP supports multibranch functionality and provides several basic models for implementing most typical organization structures. For details, see [Basic Models for Multibranch Organization](CS__con_Basic_Models_for_Multi-Branch_Organization.md).
 
 In Acumatica ERP, an organization has a company account with a company ID. Within a company account, at least one branch is needed to represent the organization itself. If the organization includes more than one branch, organization branches are created within the same company ID. The identifiers for branches \(Branch IDs\) are based on the *BIZACCT* segmented key—that is, they have the same segments as identifiers for organization's customers and vendors.
 
-## User Access to Branch Data { .section}
+## User Access to Branch Data
 
 Since the branches are created within the same organization, they have some shared data and some branch-specific data.
 
 Each employee \(user\) is assigned to a specific branch. To restrict user access to branch-specific data, you can configure a branch access role for each branch. Then the branch employees will be able to access the shared data \(as their roles allow\) and the data specific to their branch. To employees who should have access to other branches too, you must assign the access roles for the branches in the user's scope. For details, see [Security of Organization Branches](CS__con_Branch_Security_Administration.md). If a user has access to several branches, the user will be able to choose the branch he or she needs by selecting it from the form toolbar on each data entry form.
 
-## Data Shared Between Branches { .section}
+## Data Shared Between Branches
 
 Some of the data is unconditionally shared and available in all branches for all users who have access to this data by their roles.
 
@@ -45,7 +45,7 @@ Company tree and assignment maps should include workgroups that belong to all br
 
 **Note:** You can use the functionality of restriction groups to assign specific accounts and subaccounts to a particular branch. For details, see [Security of Organization Branches](CS__con_Branch_Security_Administration.md).
 
-## Branch-Specific Data { .section}
+## Branch-Specific Data
 
 The following entities are assigned to only one of the branches:
 
@@ -58,7 +58,7 @@ Do not create a subaccount segment for branches; transactions are marked by the 
 
 If a user has a branch access role that provides access to only one of the branches, the user will be able to view only the documents related to the respective branch.
 
-## Data Consolidation { .section}
+## Data Consolidation
 
 The multibranch functionality, as it is implemented in Acumatica ERP, enables complex organizations to view the consolidated data from multiple branches without having to perform any additional operations and in real time. It is easy to configure consolidated replenishment or centralized payment of bill or view consolidated data on reports running them from the headquarters branch.
 

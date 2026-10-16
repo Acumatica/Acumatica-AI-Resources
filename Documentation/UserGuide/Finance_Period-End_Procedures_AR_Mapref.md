@@ -1,4 +1,4 @@
-# Performing Period-End Procedures {#_e65daa16-6b11-4204-abae-55dfc50f4934 .concept}
+# Performing Period-End Procedures
 
 Before you close a period in the subledger, you should make sure that there are no unreleased documents that are to be posted to this period. To close periods, you use the [Close Financial Periods](AR_50_90_00.md) \(AR509000\) form. When you close a given financial period in the AR subledger, all preceding open periods will be closed in the subledger as well.
 

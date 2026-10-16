@@ -1,8 +1,8 @@
-# Business Events: Subscribers {#_a0558ab9-930d-4a92-b40d-d8a428129d80 .concept}
+# Business Events: Subscribers
 
 You configure the system to perform some actions once a business event has occurred. In the system, these actions are defined as *subscribers*. The system can notify interested parties about the occurrence of the event by sending an email, push, or SMS notification. Also, the system can execute an import scenario or create and assign multiple tasks.
 
-## Specification of a Subscriber {#section_ph5_rly_zrb .section}
+## Specification of a Subscriber
 
 To define the actions that the system should perform in the system once the business event has occurred, you specify the subscriber or subscribers of this business event on the **Subscribers** tab of the [Business Events](SM_30_20_50.md) \(SM302050\) form. If needed, you can specify multiple subscribers, with one in each row. You can add a subscriber that has already been created on the appropriate form or create a new subscriber.
 
@@ -14,7 +14,7 @@ Also, you can open the appropriate Acumatica ERP form and configure a subscriber
 
 If you plan to use a data entry form as a source for a business event, you can create a notification template \(for email, push, or SMS notifications\) directly from the entry form. You can link these notification templates as subscribers for business events created for the form. For details, see [Business Events: Use of a Data Entry Form as a Source](SA_Using_Business_Events_Data_Entry_Source_Concept.md).
 
-## Configuration of an Import Scenario as a Subscriber {#section_a1z_wqx_bwb .section}
+## Configuration of an Import Scenario as a Subscriber
 
 You configure a subscriber of the *Import Scenario* type on the [Import Scenarios](SM_20_60_25.md) \(SM206025\) form. We recommend that you open this form to create the subscriber from the **Subscribers** tab of the [Business Events](SM_30_20_50.md) \(SM302050\) form: You click **Create Subscriber** &gt; **Import Scenario** on the table toolbar and specify the name of the scenario in the **Create Import Scenario Subscriber** dialog box, which opens.
 
@@ -32,7 +32,7 @@ Alternatively, you can create an import scenario on the [Import Scenarios](SM_20
 
 **Tip:** You can add to a business event only an import scenario that has a data provider of the *Business Process Provider* type that uses the same generic inquiry as the business event uses.
 
-## Configuration of an Action Execution as a Subscriber {#section_hqv_vwp_pwb .section}
+## Configuration of an Action Execution as a Subscriber
 
 You configure a subscriber of the *Action Execution* type on the [Action Executions](SM_20_40_07.md) \(SM204007\) form. We recommend that you open this form to create the subscriber from the **Subscribers** tab of the [Business Events](SM_30_20_50.md) \(SM302050\) form: You click **Create Subscriber** &gt; **Action Execution** on the table toolbar, and the system opens the [Action Executions](SM_20_40_07.md) \(SM204007\) form in a pop-up window with the data source \(inquiry or data entry form\) specified for the business event populated in the **Event Screen ID** box of the form.
 
@@ -44,7 +44,7 @@ If a selected action requires some additional data for the execution, on the **F
 
 When all the needed settings are specified, you save the configured action execution and close the pop-up window. The system displays the configured subscriber on the **Subscribers** tab of the [Business Events](SM_30_20_50.md) form for the business event.
 
-## Processing of a Subscriber {#section_ncg_nhy_zrb .section}
+## Processing of a Subscriber
 
 When the business event occurs, the system processes the subscribers specified on the **Subscribers** tab of the [Business Events](SM_30_20_50.md) \(SM302050\) form one by one. The system extracts the values of the fields used as placeholders and uses these values to compose the notification, task, import scenario, or action execution. Then the system processes the created record based on the subscriber type: sends the notifications to the recipients, assigns tasks to their owners, or executes a scenario or action.
 
@@ -52,7 +52,7 @@ If the processing of a subscriber has been successful, the system adds a record 
 
 If you have specified multiple subscribers on the **Subscribers** tab of the [Business Events](SM_30_20_50.md) form for the business event, you can select the **Stop on Error** check box in the row of each subscriber to direct the system to process subsequent subscribers in the list only if no error has occurred while the system was processing the current subscriber.
 
-## Use of Data Fields as Placeholders {#section_cht_3xy_bwb .section}
+## Use of Data Fields as Placeholders
 
 When you configure a notification template \(for email, push, or SMS notifications\) or task template, you specify the data source \(a form or a generic inquiry\) that the system should use as a source of the data fields. You can use these data fields as placeholders to personalize the content of a notification or a task. Also, placeholders can be used to specify multiple recipients or task owners. When the business event occurs, if values for the used data fields are available in the record created with a data entry form or in the results of the generic inquiry, the system retrieves these values and uses them to compose the notification, task, or import scenario.
 
@@ -71,7 +71,7 @@ For example, for notifications and tasks that you configure by using the [Email 
 
 **Attention:** If an email template is used as subscriber of a business event of the *Trigger by Record Change* type and a data field that contains a time value is used as a placeholder, the system converts the time value according to the time zone specified for the *admin* user in the **Time Zone** box on the **Personal Settings** tab of the [Users](../Shared/../UserGuide/SM_20_10_10.md) \(SM201010\) form or on the [User Profile](../Shared/../UserGuide/SM_20_30_10.md) \(SM203010\) form. Otherwise, the system uses the time zone specified in the **Login Time Zone** box of the [Site Preferences](../Shared/../UserGuide/SM_20_05_05.md) \(SM200505\) form.
 
-## Attaching an Email as an Activity {#section_cj5_kxy_bwb .section}
+## Attaching an Email as an Activity
 
 For an email template that is used as a subscriber of a business event, you can specify whether the system should link a sent email as an activity of the *Email* type to a record defined in the system, such as a customer, a vendor, a contact, or a document.
 
@@ -87,7 +87,7 @@ To attach a sent email as an activity to a system record, you use one of the fol
 
 You can then view the activity on the **Activities** tab of the corresponding form or in the **Tasks &amp; Activities** dialog box, which opens if you click **Activities** on the form title bar. For details about activities, see [Emails and Activities: General Information](CRM_Mktg_Managing_Emails_Activities_GeneralInfo.md).
 
-## Attaching a Task as an Activity {#section_vqx_nbk_sqb .section}
+## Attaching a Task as an Activity
 
 For a task template that is used as a subscriber of a business event, you can specify whether the system should link a created task as an activity of the *Task* type to a record defined in the system, such as a customer, a vendor, a contact, or a document.
 
@@ -98,7 +98,7 @@ To attach a created task as an activity to a system record, you use one of the f
 
 You can then view the activity on the **Activities** tab of the corresponding form or in the **Tasks &amp; Activities** dialog box, which opens if you click **Activities** on the form title bar. For details about activities, see [Emails and Activities: General Information](CRM_Mktg_Managing_Emails_Activities_GeneralInfo.md).
 
-## Attaching a Report to an Email Notification {#section_dj5_kxy_bwb .section}
+## Attaching a Report to an Email Notification
 
 For email templates that are used as subscribers of business events, you can select a report or multiple reports to attach to the email on the **Attached Reports** tab of the [Email Templates](SM_20_40_03.md) \(SM204003\) form. On the tab, you can specify the report format and parameters. If no parameter values are specified, the default values of the parameters will be used when the report is generated.
 

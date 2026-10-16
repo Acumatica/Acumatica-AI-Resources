@@ -1,16 +1,16 @@
-# Interbranch Bills with Balancing: Process Activity {#_b7be8e9b-a0c6-4e4d-b39d-39db66f23832 .task}
+# Interbranch Bills with Balancing: Process Activity
 
 In this activity, you will learn how to create and process a bill for branches requiring balancing. You will then review the relevant account balances.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_hcn_njv_vxb .section}
+## Story
 
 The head office of the Muffins &amp; Cakes company needs to process a $350 bill that it has received from the Spectra Stationery Office vendor on March 1, 2026. The bill is for stationery that is being purchased for the head office branch in the amount of $250 and for the retail store branch in the amount of $100; these entries need to be balanced.
 
 Acting as a Muffins accountant, you need to create a bill in the system to reflect the bill received from the vendor, and then release the bill, which causes a batch to be generated for it.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -21,13 +21,13 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *STATOFFICE* vendor has been created.
 -   On the [Inter-Branch Account Mapping](GL_10_10_10.md) \(GL101010\) form, the account mapping rules between the Muffins &amp; Cakes head office branch \(*MHEAD*\) and the Muffins &amp; Cakes retail store branch \(*MRETAIL*\) have been defined.
 
-## Process Overview {#section_mcn_njv_vxb .section}
+## Process Overview
 
 To process an interbranch bill between branches requiring balancing, you will create and release the bill on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. You will then review the generated batch on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form and check the account balances on the [Account Summary](GL_40_10_00.md) \(GL401000\) form.
 
 Finally, you will generate the trial balance report by using the [Trial Balance Summary](GL_63_20_00.md) \(GL632000\) report form.
 
-## System Preparation {#section_pcn_njv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -35,7 +35,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *3/1/2026*. If a different date is displayed, click the Business Date menu button and select *3/1/2026*.
 3.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *MHEAD - Muffins Head Office &amp; Wholesale Center* branch.
 
-## Step 1: Creating and Processing a Bill for Branches Requiring Balancing {#section_rcn_njv_vxb .section}
+## Step 1: Creating and Processing a Bill for Branches Requiring Balancing
 
 To create and process an AP bill for stationery purchased for multiple branches \(*MHEAD* and *MRETAIL*\) that require balancing, do the following:
 
@@ -66,12 +66,11 @@ To create and process an AP bill for stationery purchased for multiple branches 
 
     When you released the bill, the system generated and posted the related GL transaction. The AP account of the originating branch of the bill has been credited and accounts from each document line have been debited in the destination branch specified in detail lines. Notice that the system added the balancing entries to the batch during the posting process \(see the following screenshot\). The balancing entries have been created based on the mapping rule that has been configured on the [Inter-Branch Account Mapping](GL_10_10_10.md) \(GL101010\) form.
 
-    ![](Images/activity_Finance_InterBranch_Bill_Transactions_With_Balancing.png "The balancing entries added to the batch")
 
 
 You have added an AP bill that includes items purchased for two branches requiring balancing, and you have released this bill and reviewed the batch created when the bill was released. In the next step, you will check the account balances in each of the branches.
 
-## Step 2: Reviewing the Account Balances {#section_xcn_njv_vxb .section}
+## Step 2: Reviewing the Account Balances
 
 To review the account balances for the *MHEAD* and *MRETAIL* branches and the *03-2026* financial period, do the following:
 
@@ -86,7 +85,7 @@ To review the account balances for the *MHEAD* and *MRETAIL* branches and the *0
 
 You have reviewed the account balances for the branches for which goods were purchased in the AP bill you created. Now you will review the balances for the financial period for the company as a whole.
 
-## Step 3 \(Optional\): Reviewing the Balances for the Financial Period {#section_hwy_knw_3pb .section}
+## Step 3 \(Optional\): Reviewing the Balances for the Financial Period
 
 To review the balances for the *03-2026* financial period, do the following:
 
@@ -102,7 +101,6 @@ To review the balances for the *03-2026* financial period, do the following:
 5.  Run the same report for the whole company. To do so, in the **Company/Branch** box of the **Report Parameters** tab, select *MUFFINS*.
 6.  In the generated report, review the account balances. Notice the amount in the **Ending Balance** column for the *62400 - Office Expense* account and the *26000 - Due to Related Entity* account, which are shown in the following screenshot.
 
-![](Images/activity_InterCompany_BillsWithBalance.png "The ending balance of the MUFFINS company for the specified financial period")
 
 In this activity, you have created and processed a bill that includes items purchased for branches that require balancing, and you have learned how to review the relevant account balances.
 

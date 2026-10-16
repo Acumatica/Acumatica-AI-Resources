@@ -1,4 +1,4 @@
-# Processing Bills in Foreign Currencies {#_9c40afeb-e02e-44f5-a662-a9c3bb7627c8 .concept}
+# Processing Bills in Foreign Currencies
 
 The topics of this chapter describe how to process and pay an AP bill in a foreign currency.
 

@@ -1,14 +1,14 @@
-# Voiding of a Sales Tax Report: Process Activity {#_d54e9d34-0e7f-4a3d-9e84-fe114790c378 .task}
+# Voiding of a Sales Tax Report: Process Activity
 
 The following activity will walk you through the process of voiding a tax report and creating a document that was missing in the system, so that the tax report can be prepared again.
 
-## Story {#section_hrn_fjv_vxb .section}
+## Story
 
 Suppose that while reviewing the prepared tax report \(which you had not yet released\), you realize that the report is missing one invoice for Morning Cafe, which has to be dated February 28, 2026.
 
 To report its tax amount, acting as a SweetLife accountant, you need to void the tax report, process the needed invoice, and again prepare the tax report.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -19,11 +19,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Reporting Settings](TX_20_51_00.md) \(TX205100\) form, a tax report has been configured for the *NYTAXDEP* tax agency.
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *MORNINGCAF* customer account has been configured, and the *NYSTATE* tax zone has been added for the customer on the **Shipping** tab of this form.
 
-## Process Overview {#section_lrn_fjv_vxb .section}
+## Process Overview
 
 In this activity, on the [Release Tax Report](TX_50_20_00.md) \(TX502000\) form, you will void the tax report that has been prepared for *02-2026* but has not been released. On the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will create and release an AR invoice that should update the tax report. You then prepare the tax report for the *02-2026* period again on the [Prepare Tax Report](TX_50_10_00.md) \(TX501000\) form.
 
-## System Preparation {#section_nrn_fjv_vxb .section}
+## System Preparation
 
 Before you begin to void the tax report, do the following:
 
@@ -32,7 +32,7 @@ Before you begin to void the tax report, do the following:
 3.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu button to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 4.  As a prerequisite activity, prepare a tax report, as described in [Tax Report Preparation: Process Activity](Taxes_Preparing_a_Tax_Report_Activity.md).
 
-## Step 1: Updating the Tax Zone {#section_prn_fjv_vxb .section}
+## Step 1: Updating the Tax Zone
 
 For the purposes of this and the following lessons, you need the *NYSTATETAX* and *NYNOTAX* taxes. As you earlier removed them from the *NYSTATE* tax zone, you need to set them up for this tax zone once again. To do it, proceed as follows:
 
@@ -43,7 +43,7 @@ For the purposes of this and the following lessons, you need the *NYSTATETAX* an
 5.  Click **Add Row** again and add a row with the *NYNOTAX* tax.
 6.  On the form toolbar, click **Save** to save your changes.
 
-## Step 2: Voiding the Tax Report {#section_rrn_fjv_vxb .section}
+## Step 2: Voiding the Tax Report
 
 To void the tax report, proceed as follows:
 
@@ -57,7 +57,7 @@ To void the tax report, proceed as follows:
     The system voids the prepared tax report for the *02-2026* period, so that the tax period becomes open again, and the [Prepare Tax Report](TX_50_10_00.md) \(TX501000\) form opens. \(If necessary, you can review the status of the tax period in the **Status** column on the [Tax Periods](TX_20_70_00.md) \(TX207000\) form.\)
 
 
-## Step 3: Creating an Invoice with a Sales Tax {#section_urn_fjv_vxb .section}
+## Step 3: Creating an Invoice with a Sales Tax
 
 To create a taxable AR invoice to be included in the tax report, proceed as follows:
 
@@ -79,7 +79,7 @@ To create a taxable AR invoice to be included in the tax report, proceed as foll
 4.  On the form toolbar, click **Remove Hold** to give the invoice the *Balanced* status and then click **Release** to release the invoice.
 5.  Review the **Taxes** tab. Notice that the *NYSTATETAX* has been applied to the invoice.
 
-## Step 4: Preparing the Tax Report Again {#section_wrn_fjv_vxb .section}
+## Step 4: Preparing the Tax Report Again
 
 To prepare the tax report again, proceed as follows:
 

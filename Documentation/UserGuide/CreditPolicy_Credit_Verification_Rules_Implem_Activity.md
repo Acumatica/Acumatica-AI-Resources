@@ -1,24 +1,24 @@
-# Credit Verification Rules: Implementation Activity {#_529e5069-3f59-4c55-bfc4-e1bb7d850060 .task}
+# Credit Verification Rules: Implementation Activity
 
 In the following implementation activity, you will learn how to set up credit verification rules for specific customers.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_z4c_hjv_vxb .section}
+## Story
 
 Suppose that SweetLife Fruits &amp; Jams has decided to start tracking credit limits and days past due for some of the customers. The *COFFEESHOP* customer has multiple unpaid documents and a large balance. This customer should be put on credit hold if the total balance of its open documents exceeds $2,000. For this customer, the *Credit Limit* verification rule should be used.
 
 The *GOODFOOD* customer sometimes fails to pay the documents in time, so the *Days Past Due* verification rule should be used for this customer. Acting as Yona Jones, an accountant in charge of the Credit Control team, you need to set up the credit verification rules for these customers.
 
-## Process Overview {#section_cpc_hjv_vxb .section}
+## Process Overview
 
 In this activity, on the [Customers](AR_30_30_00.md) \(AR303000\) form, you will set up credit verification rules for the *COFFEESHOP* and *GOODFOOD* customers. On the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, you will review the accounts receivable preferences settings and make sure that the **Hold Document on Failed Credit Check** check box is selected.
 
-## System Preparation {#section_epc_hjv_vxb .section}
+## System Preparation
 
 Before you start setting up credit verification rules, launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as an accountant with the *jones* username and the *123* password.
 
-## Step 1: Setting Up Credit Verification Rules {#section_gpc_hjv_vxb .section}
+## Step 1: Setting Up Credit Verification Rules
 
 To set up credit verification rules for specific customers, do the following:
 
@@ -36,7 +36,7 @@ To set up credit verification rules for specific customers, do the following:
     -   **Credit Days Past Due**: `15`
 6.  On the form toolbar, click **Save** to save the changes.
 
-## Step 2: Reviewing the Accounts Receivable Preferences {#section_jpc_hjv_vxb .section}
+## Step 2: Reviewing the Accounts Receivable Preferences
 
 To review the accounts receivable preferences, do the following:
 

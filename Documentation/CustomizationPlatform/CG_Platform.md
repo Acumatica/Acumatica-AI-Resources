@@ -1,4 +1,4 @@
-# Acumatica Customization Platform {#_5f620d95-62e0-4041-b153-8dee5e519518 .concept}
+# Acumatica Customization Platform
 
 To customize Acumatica ERP, you can use the following parts of the Acumatica Customization Platform:
 

@@ -1,4 +1,4 @@
-# To Update a Custom System Locale in a Project {#_7cd1251d-16f4-4f28-a739-334a6faf72e2 .concept}
+# To Update a Custom System Locale in a Project
 
 If you have used the [System Locales](../UserGuide/SM_20_05_50.md#) \(SM200550\) form to change a system locale included in a customization project, you have to update the appropriate item in the project. To do this, perform the following actions:
 

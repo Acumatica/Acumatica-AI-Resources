@@ -1,16 +1,16 @@
-# Construction Project Budget: To Track Project Budget Overrun {#_3dd15d88-fb1f-4e2b-8c20-967e49aeab81 .task}
+# Construction Project Budget: To Track Project Budget Overrun
 
 The following activity will walk you through the process of tracking the budget overrun for a project.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that ToadGreen Building Group is a general contractor building an Italian restaurant for its customer, Italian Company. The ToadGreen project manager has created a project for the work to be performed, and the budget has been agreed on with the customer. On February 15, 2026, the purchasing agent has negotiated a subcontract for mechanical piping with the Harmon Installation subcontractor at a better price than was initially planned, thus reserving some budget. The subcontractor has started working, and on February 25, 2026, it notified the project manager that an extra 20 hours is necessary to complete the work.
 
 Acting as a project manager, you need to enter all the related documents and review the budget overruns.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -18,11 +18,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *HARMINT \(Harmon Installation\)* vendor has been defined.
 -   On the [Change Order Classes](PM_20_30_00.md) \(PM203000\) form, the *DEFAULT* change order class has been created and specified as the default change order class on the [Projects Preferences](PM_10_10_00.md) \(PM101000\) form.
 
-## Process Overview { .section}
+## Process Overview
 
 You will enter a subcontract related to a project on the [Subcontracts](SC_30_10_00.md) \(SC301000\) form. Then you will create the change order for this subcontract on the [Change Orders](PM_30_80_00.md) \(PM308000\) form. After that, you will create an accounts payable bill on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. Finally, on the [Potential Project Budget Overruns](PM_40_40_00.md) \(PM404000\) form, you will review the documents that have exceeded the project budget.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
@@ -33,7 +33,7 @@ To prepare to perform the instructions of this activity, do the following:
 3.  Save your changes.
 4.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *2/15/2026*. If a different date is displayed, click the Business Date menu button, and select *2/15/2026* on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Recording a Vendor Commitment {#section_ews_vyv_2nb .section}
+## Step 1: Recording a Vendor Commitment
 
 To record the commitment to the project, do the following:
 
@@ -66,7 +66,7 @@ To record the commitment to the project, do the following:
     -   In the line with the *15* project task, the *15–100* cost code, and *LABOR* account group, the **Original Committed Amount** is now *14,500*.
     -   In the line with the *15* project task, the *15–100* cost code, and the *MATERIAL* account group, the **Original Committed Amount** is now *17,000*.
 
-## Step 2: Recording the Extra Work {#section_fws_vyv_2nb .section}
+## Step 2: Recording the Extra Work
 
 To process the extra work needed for the project, create and process a change order by doing the following:
 
@@ -86,11 +86,10 @@ To process the extra work needed for the project, create and process a change or
 
     Because you have only $500 of the budget available and the change amount exceeds the available budget by $2,400, the overbudget warning is displayed, as shown below. The *Consumed* amount in the warning indicates the total of open commitments and already-processed actual amounts for the project.
 
-    ![](Images/activity_Construction_Project_Budget_Overrun_1.png "A warning indicating a budget overrun")
 
 6.  Save the change order, which has the *On Hold* status.
 
-## Step 3: Creating a Vendor Bill {#section_hws_vyv_2nb .section}
+## Step 3: Creating a Vendor Bill
 
 Enter an AP bill for the subcontract as follows:
 
@@ -109,7 +108,7 @@ Enter an AP bill for the subcontract as follows:
     -   **Cost Code**: `15-100`
 3.  Save the bill, which has the **On Hold** status, and review the overbudget warning displayed in the **Ext. Cost** column. The amount to be paid by the bill exceeds the budget by $500.
 
-## Step 4: Viewing Documents Exceeding the Project Budget {#section_iws_vyv_2nb .section}
+## Step 4: Viewing Documents Exceeding the Project Budget
 
 To view all documents that exceed the budgeted amounts, do the following:
 
@@ -119,7 +118,6 @@ To view all documents that exceed the budgeted amounts, do the following:
     -   **Date Range**: *2/1/2026*, *2/28/2026*
 3.  On the form toolbar, click **Calculate**. The system shows the list of documents, along with the document amounts and the amounts that exceed the budgeted amounts. Notice that the subcontract that you have processed does not exceed the budgeted amounts, and thus is not shown in the table.
 
-    ![](Images/activity_Construction_Project_Budget_Overrun_2.png "List of documents that exceed the budgeted amounts")
 
 
 You have entered the documents for the project and reviewed the budget overruns.

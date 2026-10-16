@@ -1,4 +1,4 @@
-# Inventory Planning Configuration: Monitoring of Calculated Item Quantities by Period {#_6d818d4f-4878-46e1-aa38-8be1a289d1a3 .concept}
+# Inventory Planning Configuration: Monitoring of Calculated Item Quantities by Period
 
 On the [Inventory Planning Requirements by Item](../UserGuide/AM_40_12_00.md) \(AM401200\) form, users can monitor the past and present supply of stock items and demand for items. To give users the ability to view item plans by time periods on this form, you should first create inventory planning buckets that correspond to periods of time—such as days, weeks, months, or years—on the [Inventory Planning Buckets](../UserGuide/AM_20_12_00.md) \(AM201200\) form.
 

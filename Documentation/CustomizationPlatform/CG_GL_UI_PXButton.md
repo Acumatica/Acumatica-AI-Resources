@@ -1,4 +1,4 @@
-# Button \(PXButton\) {#_54a2a223-b5ee-4e10-96af-a1a0853b6ce6 .concept}
+# Button \(PXButton\)
 
 In Acumatica ERP, the PXButton element is used for the following purposes:
 
@@ -15,7 +15,6 @@ A button, as the diagram below shows, can be immediately added to the following 
 -   PXSmartPanel
 -   PXPanel
 
-![](images/CG_GL_Forms_ASPX_PXButton.png "Nesting rules for a button in an ASPX page")
 
 To create a button in a container, follow the instructions described in [To Add Another Supported Control](CG_GL_UI_PXForm_AddStControl.md).
 

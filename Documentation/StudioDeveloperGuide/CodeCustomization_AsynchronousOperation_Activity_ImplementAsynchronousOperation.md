@@ -1,14 +1,14 @@
-# Asynchronous Operations: To Implement an Asynchronous Operation {#_22d18d41-8307-48e7-8104-2bebfbe2f523 .task}
+# Asynchronous Operations: To Implement an Asynchronous Operation
 
 The following activity will walk you through the process of implementing a long-running action and executing it asynchronously.
 
-## Story { .section}
+## Story
 
 Suppose that as part of the *PhoneRepairShop* customization project, you need to create an action that users can invoke to validate the prices of the repair items. These items are listed on the **Repair Items** tab of the Services and Prices \(RS203000\) form. Price validation will be performed by an external service and may take a long time to complete—so it should be executed asynchronously.
 
 To implement this, you need to define an action in the graph of the form and configure the associated button on the table toolbar. You also need to write the code that will validate the prices and execute this code asynchronously by using the LongOperationManager.StartOperation method.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create an action \(and the associated button on the table toolbar\) and execute it asynchronously by performing the following steps:
 
@@ -16,7 +16,7 @@ In this activity, you will create an action \(and the associated button on the t
 2.  Defining the logic that validates the repair item prices in the `ValidatePrices` method, implementing the `ValidateItemPrices` action to run the `ValidatePrices` method asynchronously, and creating the associated **Validate Prices** button on the table toolbar.
 3.  Testing the **Validate Prices** button and the underlying action.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -29,13 +29,13 @@ Before you begin performing the steps of this activity, do the following:
     1.  In the navigation pane, click **Database Scripts**.
     2.  On the More menu of the [Database Scripts](../UserGuide/AU_20_90_00.md) page, which opens, click **Reload from Database**.
 
-## Step 1: Updating the Services and Prices \(RS203000\) Form to Display the Price Validated Column and the Validate Prices Button { .section}
+## Step 1: Updating the Services and Prices \(RS203000\) Form to Display the Price Validated Column and the Validate Prices Button
 
 In this step, you’ll add the `IsPriceValidated` field to the `RSSVRepairItem` DAC. You’ll also update the corresponding TypeScript file to show the **Price Validated** column in the table and the **Validate Prices** button on the table toolbar of the **Repair Items** tab. Do the following:
 
 1.  Add the following code to the `RSSVRepairItem.cs` file after the `BasePrice` field definition.
 
-    ```language-csharp
+    ```csharp
             #region IsPriceValidated
             [PXDBBool]
             [PXDefault(false)]
@@ -51,7 +51,7 @@ In this step, you’ll add the `IsPriceValidated` field to the `RSSVRepairItem` 
 2.  Open the `RS203000.ts` file in the **Modern UI Files** node of the Customization Project Editor, and do the following:
     1.  Add the following code in the `RSSVRepairItem` view class after the `BasePrice` field.
 
-        ```language-javascript
+        ```javascript
         	IsPriceValidated: PXFieldState;
         ```
 
@@ -59,7 +59,7 @@ In this step, you’ll add the `IsPriceValidated` field to the `RSSVRepairItem` 
 
     2.  Specify the PXActionState property with the name of the `ValidateItemPrices` action \(which you’ll declare in Step 3\) in the `RSSVRepairItem` view class, as shown in the following code.
 
-        ```language-javascript
+        ```javascript
             ValidateItemPrices: PXActionState;
         ```
 
@@ -68,7 +68,7 @@ In this step, you’ll add the `IsPriceValidated` field to the `RSSVRepairItem` 
     3.  Add PXActionState to the list of imports if it has not been added yet.
 3.  Save your changes.
 
-## Step 2: Defining the Logic Used to Validate Prices { .section}
+## Step 2: Defining the Logic Used to Validate Prices
 
 Next, you’ll define the method in which the repair items prices are validated, and then you’ll call this method in the LongOperationManager.StartOperation method.
 
@@ -76,7 +76,7 @@ To define the method in which the repair items prices are validated, do the foll
 
 1.  Add the `ValidatePrices` static method to the `RSSVRepairPriceMaint` graph. The `ValidatePrices` method validates the repair items prices for the selected record on the Services and Prices \(RS203000\) form.
 
-    ```language-csharp
+    ```csharp
             private static void ValidatePrices(RSSVRepairPrice repairPriceItem)
             {
                 // Create an instance of the RSSVRepairPriceMaint graph
@@ -113,14 +113,14 @@ To define the method in which the repair items prices are validated, do the foll
 
 2.  Make sure the following `using` directives have been added to the `RSSVRepairPriceMaint.cs` file.
 
-    ```language-csharp
+    ```csharp
     using System.Collections;
     using System.Collections.Generic;
     using System.Threading;
     ```
 
 
-## Step 3: Defining the ValidateItemPrices Action { .section}
+## Step 3: Defining the ValidateItemPrices Action
 
 Now you’ll define the `ValidateItemPrices` action, which:
 
@@ -129,7 +129,7 @@ Now you’ll define the `ValidateItemPrices` action, which:
 
 Add the following code to the `RSSVRepairPriceMaint` graph.
 
-```language-csharp
+```csharp
         #region Actions
         public PXAction<RSSVRepairPrice> ValidateItemPrices = null!;
         [PXButton(DisplayOnMainToolbar = false, CommitChanges = true)]
@@ -162,7 +162,7 @@ Add the following code to the `RSSVRepairPriceMaint` graph.
 
 **Attention:** To perform a background operation, an action method needs to have a parameter of the PXAdapter type and return IEnumerable.
 
-## Step 4: Testing the Validate Prices Button and the Associated Action { .section}
+## Step 4: Testing the Validate Prices Button and the Associated Action
 
 To test the **Validate Prices** button and the underlying action, do the following:
 
@@ -177,11 +177,9 @@ To test the **Validate Prices** button and the underlying action, do the followi
 
     A notification appears indicating the status of the processing, as shown below.
 
-    ![](Images/Test_ValidatePrices_ModernUI.png "Validation of the prices of repair items")
 
     When the process is complete, the **Price Validated** check box for each repair item is selected on the **Repair Items** tab, as shown below.
 
-    ![](Images/Test_ValidatePricesCompleted_ModernUI.png "Update of the Price Validated column")
 
 
 **Parent topic:**[Implementing an Asynchronous Operation](../StudioDeveloperGuide/CodeCustomization_AsynchronousOperation_Mapref.md)

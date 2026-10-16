@@ -1,8 +1,8 @@
-# To Load Bank Transactions from a File {#_3cfd9024-123f-4c3d-8e23-32484b808756 .task}
+# To Load Bank Transactions from a File
 
 You use the [Retrieve Bank Feed Transactions](CA_50_75_00.md) \(CA507500\) form to load bank transactions from a file. Alternatively, you can use the [Import Bank Transactions](CA_30_65_00.md) \(CA306500\) or [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form. You can load transactions for a bank feed that has the *Active* status.
 
-## To Load Bank Transactions on the Retrieve Bank Feed Transactions Form { .section}
+## To Load Bank Transactions on the Retrieve Bank Feed Transactions Form
 
 To use the [Retrieve Bank Feed Transactions](CA_50_75_00.md) \(CA507500\) form as a starting point for loading bank transactions, do the following:
 
@@ -16,7 +16,7 @@ To use the [Retrieve Bank Feed Transactions](CA_50_75_00.md) \(CA507500\) form a
 
 For details on matching bank transactions to documents in the system and creating new transactions, see [Bank Reconciliation: To Process a Bank Statement in OFX Format \(Part 1\)](Finance_Bank_Reconciliation_Activity2.md) and [Bank Reconciliation: To Process a Bank Statement in OFX Format \(Part 2\)](Finance_Bank_Reconciliation_Activity3.md).
 
-## To Load Bank Transactions on the Import Bank Transactions Form { .section}
+## To Load Bank Transactions on the Import Bank Transactions Form
 
 To use the [Import Bank Transactions](CA_30_65_00.md) \(CA306500\) form as a starting point for loading bank transactions, do the following:
 
@@ -33,7 +33,7 @@ To use the [Import Bank Transactions](CA_30_65_00.md) \(CA306500\) form as a sta
     For details on matching bank transactions to documents in the system and creating new transactions, see [Bank Reconciliation: To Process a Bank Statement in OFX Format \(Part 1\)](Finance_Bank_Reconciliation_Activity2.md) and [Bank Reconciliation: To Process a Bank Statement in OFX Format \(Part 2\)](Finance_Bank_Reconciliation_Activity3.md).
 
 
-## To Load Bank Transactions on the Process Bank Transactions Form { .section}
+## To Load Bank Transactions on the Process Bank Transactions Form
 
 To use the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form as a starting point for loading bank transactions, do the following:
 
@@ -44,7 +44,7 @@ To use the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form as a st
     The system populates the table in the left pane with the transactions from the source file. You can match these transactions to documents in the system or create new documents for the transactions. For details, see [Bank Reconciliation: To Process a Bank Statement in OFX Format \(Part 1\)](Finance_Bank_Reconciliation_Activity2.md) and [Bank Reconciliation: To Process a Bank Statement in OFX Format \(Part 2\)](Finance_Bank_Reconciliation_Activity3.md).
 
 
-## To Process Bank Transactions Loaded from a File { .section}
+## To Process Bank Transactions Loaded from a File
 
 To process bank transactions that the system has loaded from a file, do the following:
 

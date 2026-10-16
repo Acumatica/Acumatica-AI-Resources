@@ -1,4 +1,4 @@
-# Applying Payments to Particular Lines of AP Documents {#_62c6d65e-1af1-4dde-af37-f663822fe290 .concept}
+# Applying Payments to Particular Lines of AP Documents
 
 In many industries, organizations need to manage expenses and payments at a granular level—that is, down to the individual lines of accounts payable bills.
 

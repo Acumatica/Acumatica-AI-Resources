@@ -1,10 +1,10 @@
-# Warehouses in Acumatica ERP {#_432a19ba-d2e0-4cd2-9ccd-a3a7ba2e39b7 .concept}
+# Warehouses in Acumatica ERP
 
 If your organization keeps any physical items on site that are currently unused but expected to be used or sold, it uses storage for these items. Your storage can be as small as a shelf with dozens of office supplies in a back office or as large as multiple physical warehouses with billions of goods situated in different regions or even countries.
 
 If you want to track your stored items in Acumatica ERP, you can use the functionality of warehouses and locations and choose the approach that best fits your business. You can configure a single warehouse or multiple warehouses. Within each warehouse, you can define a single location or multiple locations. In this topic, you will find general information about warehouses in Acumatica ERP.
 
-## Warehouses and Locations in Acumatica ERP { .section}
+## Warehouses and Locations in Acumatica ERP
 
 In Acumatica ERP, a warehouse does not necessarily represent a physical building where your inventory is stocked. You can divide a large physical storage space into multiple areas and define each area as a warehouse in Acumatica ERP. A warehouse can even be virtual: for example, you might want to treat all goods that are on the way from the supplier to you as though they are located in a goods-in-transit warehouse.
 
@@ -18,7 +18,7 @@ You can use any of the following structures of warehouses and locations and defi
 
 For more information, see [Warehouses: General Information](Warehouses_GeneralInfo.md) and [Warehouse Locations and Single-Step Transfers: General Information](Warehouse_Locations_GeneralInfo.md).
 
-## Basic Warehouse Structure {#_97deb92b-0ac5-4a9e-8bd1-7c38e8471e63 .section}
+## Basic Warehouse Structure
 
 When you have just a few items to keep in a small storage area, you can use the basic warehouse functionality in Acumatica ERP. The basic functionality is available when you have the following license settings on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form:
 

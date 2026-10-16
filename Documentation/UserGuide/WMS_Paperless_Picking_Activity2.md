@@ -1,16 +1,16 @@
-# Paperless Picking: To Process Wave Pick Lists {#_c011505f-22de-4200-9bc9-2a89fd146350 .task}
+# Paperless Picking: To Process Wave Pick Lists
 
 In the following activity, you will learn how to process a wave pick list. That is, you will prepare, pick, and pack a pick list of the *Wave* type in the paperless picking workflow.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the FourStar Coffee &amp; Sweets customer of SweetLife has ordered items in four sales orders. Those orders have been entered into the system, and they now need to be picked, packed, and shipped.
 
 The warehouse manager wants to speed up the process of picking and packing items by creating wave pick lists and assigning this work to multiple pickers. After the warehouse workers pick the items in a wave, a warehouse worker acting as the packer needs to pack the items and confirm the shipments. You will perform these actions, acting as all of these employees.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -30,7 +30,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, the following sales orders have been created for the *COFFEESHOP* customer: *000067*, *000068*, *000069*, and *000070*.
 -   On the [Shipments](SO_30_20_00.md) \(SO302000\) form, the following shipment documents have been created for these sales orders: *000062*, *000063*, *000064*, and *000065*.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -42,7 +42,7 @@ In this activity, you will do the following:
 
 **Tip:** In any working mode, you enter a command or barcode by typing it in the **Scan** box and pressing Enter. In production systems, you will scan the appropriate barcodes rather than manually entering them.
 
-## System Preparation { .section}
+## System Preparation
 
 Before performing the steps of this activity, do the following:
 
@@ -51,7 +51,7 @@ Before performing the steps of this activity, do the following:
 3.  As a prerequisite, perform [Paperless Picking: Implementation Activity](WMS_Paperless_Picking_Implem_Activity.md) to enable the *Paperless Picking* feature.
 4.  On the **Warehouse Management** tab of the [Sales Orders Preferences](SO_10_10_00.md) \(SO101000\) form, make sure that the **Display the Pick Tab**, **Display the Pack Tab**, and **Add Totes to Shipments on the Fly** check boxes are selected.
 
-## Step 1: Creating Wave Pick Lists { .section}
+## Step 1: Creating Wave Pick Lists
 
 To create wave pick lists, acting as the warehouse manager, do the following:
 
@@ -75,7 +75,7 @@ To create wave pick lists, acting as the warehouse manager, do the following:
 
 13. Sign out of the system.
 
-## Step 2a: Picking Items in a Wave \(Picker 1\) { .section}
+## Step 2a: Picking Items in a Wave \(Picker 1\)
 
 To pick the items in one of the wave pick lists, do the following:
 
@@ -121,7 +121,7 @@ To pick the items in one of the wave pick lists, do the following:
 
 13. Sign out of the system.
 
-## Step 2b: Picking Items in a Wave \(Picker 2\) { .section}
+## Step 2b: Picking Items in a Wave \(Picker 2\)
 
 To pick the items in another wave pick list, do the following:
 
@@ -163,7 +163,7 @@ To pick the items in another wave pick list, do the following:
 
 10. Sign out of the system.
 
-## Step 3: Packing a Shipment for the Wave {#section_p24_jvr_mwb .section}
+## Step 3: Packing a Shipment for the Wave
 
 At this point in the wave picking, all of the shipments from the wave can be packed. For the purposes of this activity, you will pack just one of the shipments \(*000064*\) from the wave, acting as a warehouse worker who handles packing. You will create several packages because the quantity of items in the shipment is too large to pack them into one box. To pack the shipment from the wave, do the following:
 
@@ -200,7 +200,6 @@ At this point in the wave picking, all of the shipments from the wave can be pac
 20. Sign out of the system, and sign in again as a warehouse manager by using the *angelo* username and the *123* password.
 21. On the [Shipments](SO_30_20_00.md) \(SO302000\) form, open the *000064* shipment, which you packed. Notice that it is now assigned the *Confirmed* status \(Item 1 below\). The **Packages** tab lists each box in which the items were packed \(Item 2\). For the box whose row is selected in this table, the items packed into this box \(Item 3\) are listed in the **Contents of Selected Package** table.
 
-    ![](Images/activity_WMS_Paperless_Wave_Shipment_Packed.png "Packing details for the shipment")
 
 
 **Parent topic:**[Paperless Fulfillment of Orders](../UserGuide/WMS_Paperless_Picking_Mapref.md)

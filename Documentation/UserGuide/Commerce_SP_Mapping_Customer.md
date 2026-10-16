@@ -1,16 +1,16 @@
-# Customer Entity {#_cea7345a-d6af-41da-b89b-c27762ab8ee4 .concept}
+# Customer Entity
 
 This topic provides reference information about the standard filtering and field mapping used for the *Customer* entity during the synchronization between Acumatica ERP and Shopify. The topic also contains information about the merging of duplicate records during the synchronization.
 
-## Customer Filtering { .section}
+## Customer Filtering
 
 During the export of the *Customer* entity from Acumatica ERP, the guest customer account—which is the account selected in the **Generic Guest Customer** box on the **Customers** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form—is excluded from synchronization.
 
-## Merging of Duplicates { .section}
+## Merging of Duplicates
 
 During the synchronization of the *Customer* entity \(for both the *Export* direction and the *Import* direction\), a customer record in the source system is merged with an existing customer record in the target system if both records have the same email address or the same phone number \(if there is no email address\).
 
-## Customer Export Mapping { .section}
+## Customer Export Mapping
 
 The following table shows the mapping of Acumatica ERP fields to Shopify fields that is used during the export of customer data to Shopify.
 
@@ -37,47 +37,488 @@ The following table shows the mapping of Acumatica ERP fields to Shopify fields 
 |**Postal Code**|**General** tab &gt; **Account Address** section|**ZIP code**|**New customer** page &gt; **Address** section| |
 |Phone 1|**General** tab &gt; **Additional Account Info** section|**Phone**|**New customer** page &gt; **Address** section| |
 
-## Customer Import Mapping { .section}
+## Customer Import Mapping
 
 The following table shows the mapping of Shopify fields to Acumatica ERP fields that is used during the import of customer data from Shopify.
 
-|**Source Fields \(Shopify\)**|**Target Fields \(Acumatica ERP\)**|
-|Field Name|Page Object|Field Name|Form Object|Notes|
-|-----------------------------|-----------------------------------|
-|----------|-----------|----------|-----------|-----|
-| | |[Customers](AR_30_30_00.md) \(AR303000\) form|
-| | |**Customer ID**|Summary area|Auto-numbering of customers must be enabled, and a numbering sequence must be selected on the **Customers** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form.|
-| | |**Customer Status**|Summary area|By default, a customer imported from a Shopify store is assigned the *Active* status.|
-| | |**Customer Class**|Summary area|The default customer class that is specified on the **Customers** tab of the [Shopify Stores](BC_20_10_10.md) form is used.|
-| | |**Customer Category**|Summary area|*Individual*|
-| | |**General** tab &gt; **Account Info** section|
-|**Company**|Customer page &gt; **Default Address** section|**Account Name**|**General** tab &gt; **Account Info** section| |
-| | |**General** tab &gt; **Primary Contact** section|
-|**First Name**|Customer page &gt; **Customer** section|**Name** \(part before the first space\)|**General** tab &gt; **Primary Contact** section| |
-|**Last Name**|Customer page &gt; **Customer** section|**Name** \(part after the first space\)|**General** tab &gt; **Primary Contact** section| |
-| | |**General** tab &gt; **Additional Account Info** section|
-|**Email**|Customer page &gt; **Customer** section|**Account Email**|**General** tab &gt; **Additional Account Info** section| |
-|**Phone number**|Customer page &gt; **Customer** section|Phone 1|**General** tab &gt; **Additional Account Info** section| |
-|**Phone**|Customer page &gt; **Default address** section|Phone 2|**General** tab &gt; **Additional Account Info** section| |
-|Customer ID|Visible in the page URL \(admin.shopify.com/store/&lt;store URL&gt;/customers/&lt;Customer ID&gt;\)|**Ext. Ref. Nbr.**|**General** tab &gt; **Additional Account Info** section|The value in the **Ext. Ref. Nbr.** box consists of the customer ID from the customer's page URL in Shopify, a hyphen, and the name of the Shopify store.|
-| | |**General** tab &gt; **Account Address** section|
-|**Address**|Customer page &gt; **Default address** section|**Address Line 1**|**General** tab &gt; **Additional Account Info** section| |
-|**Apartment, suite, etc.**|Customer page &gt; **Default address** section|**Address Line 2**|**General** tab &gt; **Additional Account Info** section| |
-|**City**|Customer page &gt; **Default address** section|**City**|**General** tab &gt; **Additional Account Info** section| |
-|**Country/region**|Customer page &gt; **Default address** section|**Country**|**General** tab &gt; **Additional Account Info** section|The country name is transformed to the ISO country code.|
-|**State/Province**|Customer page &gt; **Default address** section|**State**|**General** tab &gt; **Additional Account Info** section|The state name is transformed to the state code.|
-|**ZIP code**|Customer page &gt; **Default address** section|**Postal Code**|**General** tab &gt; **Additional Account Info** section| |
-| | |**General** tab &gt; **Additional Account Info** section|
-|**Email**|Customer page &gt; **Customer** section|**Send Invoices by Email**|**Billing** tab &gt; **Print and Email Settings** section|If the customer has no email specified in the external system, the check box is cleared.
+<table id="_40592531-e981-4b25-bf09-3661038c45f3"><thead><tr><th colspan="2">
+
+**Source Fields \(Shopify\)**
+
+</th><th colspan="3">
+
+**Target Fields \(Acumatica ERP\)**
+
+</th></tr><tr><th>
+
+Field Name
+
+</th><th>
+
+Page Object
+
+</th><th>
+
+Field Name
+
+</th><th>
+
+Form Object
+
+</th><th>
+
+Notes
+
+</th></tr></thead><tbody><tr><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td colspan="3">
+
+[Customers](AR_30_30_00.md) \(AR303000\) form
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+**Customer ID**
+
+</td><td>
+
+Summary area
+
+</td><td>
+
+Auto-numbering of customers must be enabled, and a numbering sequence must be selected on the **Customers** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form.
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+**Customer Status**
+
+</td><td>
+
+Summary area
+
+</td><td>
+
+By default, a customer imported from a Shopify store is assigned the *Active* status.
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+**Customer Class**
+
+</td><td>
+
+Summary area
+
+</td><td>
+
+The default customer class that is specified on the **Customers** tab of the [Shopify Stores](BC_20_10_10.md) form is used.
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+**Customer Category**
+
+</td><td>
+
+Summary area
+
+</td><td>
+
+*Individual*
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td colspan="3">
+
+**General** tab &gt; **Account Info** section
+
+</td></tr><tr><td>
+
+**Company**
+
+</td><td>
+
+Customer page &gt; **Default Address** section
+
+</td><td>
+
+**Account Name**
+
+</td><td>
+
+**General** tab &gt; **Account Info** section
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td colspan="3">
+
+**General** tab &gt; **Primary Contact** section
+
+</td></tr><tr><td>
+
+**First Name**
+
+</td><td>
+
+Customer page &gt; **Customer** section
+
+</td><td>
+
+**Name** \(part before the first space\)
+
+</td><td>
+
+**General** tab &gt; **Primary Contact** section
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**Last Name**
+
+</td><td>
+
+Customer page &gt; **Customer** section
+
+</td><td>
+
+**Name** \(part after the first space\)
+
+</td><td>
+
+**General** tab &gt; **Primary Contact** section
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td colspan="3">
+
+**General** tab &gt; **Additional Account Info** section
+
+</td></tr><tr><td>
+
+**Email**
+
+</td><td>
+
+Customer page &gt; **Customer** section
+
+</td><td>
+
+**Account Email**
+
+</td><td>
+
+**General** tab &gt; **Additional Account Info** section
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**Phone number**
+
+</td><td>
+
+Customer page &gt; **Customer** section
+
+</td><td>
+
+Phone 1
+
+</td><td>
+
+**General** tab &gt; **Additional Account Info** section
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**Phone**
+
+</td><td>
+
+Customer page &gt; **Default address** section
+
+</td><td>
+
+Phone 2
+
+</td><td>
+
+**General** tab &gt; **Additional Account Info** section
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Customer ID
+
+</td><td>
+
+Visible in the page URL \(admin.shopify.com/store/&lt;store URL&gt;/customers/&lt;Customer ID&gt;\)
+
+</td><td>
+
+**Ext. Ref. Nbr.**
+
+</td><td>
+
+**General** tab &gt; **Additional Account Info** section
+
+</td><td>
+
+The value in the **Ext. Ref. Nbr.** box consists of the customer ID from the customer's page URL in Shopify, a hyphen, and the name of the Shopify store.
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td colspan="3">
+
+**General** tab &gt; **Account Address** section
+
+</td></tr><tr><td>
+
+**Address**
+
+</td><td>
+
+Customer page &gt; **Default address** section
+
+</td><td>
+
+**Address Line 1**
+
+</td><td>
+
+**General** tab &gt; **Additional Account Info** section
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**Apartment, suite, etc.**
+
+</td><td>
+
+Customer page &gt; **Default address** section
+
+</td><td>
+
+**Address Line 2**
+
+</td><td>
+
+**General** tab &gt; **Additional Account Info** section
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**City**
+
+</td><td>
+
+Customer page &gt; **Default address** section
+
+</td><td>
+
+**City**
+
+</td><td>
+
+**General** tab &gt; **Additional Account Info** section
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**Country/region**
+
+</td><td>
+
+Customer page &gt; **Default address** section
+
+</td><td>
+
+**Country**
+
+</td><td>
+
+**General** tab &gt; **Additional Account Info** section
+
+</td><td>
+
+The country name is transformed to the ISO country code.
+
+</td></tr><tr><td>
+
+**State/Province**
+
+</td><td>
+
+Customer page &gt; **Default address** section
+
+</td><td>
+
+**State**
+
+</td><td>
+
+**General** tab &gt; **Additional Account Info** section
+
+</td><td>
+
+The state name is transformed to the state code.
+
+</td></tr><tr><td>
+
+**ZIP code**
+
+</td><td>
+
+Customer page &gt; **Default address** section
+
+</td><td>
+
+**Postal Code**
+
+</td><td>
+
+**General** tab &gt; **Additional Account Info** section
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td colspan="3">
+
+**General** tab &gt; **Additional Account Info** section
+
+</td></tr><tr><td rowspan="4">
+
+**Email**
+
+</td><td rowspan="4">
+
+Customer page &gt; **Customer** section
+
+</td><td>
+
+**Send Invoices by Email**
+
+</td><td rowspan="4">
+
+**Billing** tab &gt; **Print and Email Settings** section
+
+</td><td rowspan="4">
+
+If the customer has no email specified in the external system, the check box is cleared.
 
  If the customer has an email specified, the state of the check box is defined by the settings of the customer class specified in the **Customer Class** box on the **Customers** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form.
 
  For consequent synchronizations, if the check box state has been changed for the customer or for the customer class specified for the customer, the connector uses the latest changes.
 
-|
-|**Send Statements by Email**|
-|**Print Invoices**|
-|**Print Statements**|
+</td></tr><tr><td>
+
+**Send Statements by Email**
+
+</td></tr><tr><td>
+
+**Print Invoices**
+
+</td></tr><tr><td>
+
+**Print Statements**
+
+</td></tr></tbody>
+</table>
 
 **Parent topic:**[Shopify Mapping Reference](../UserGuide/Commerce_SP_Mapping_Reference.md)
 

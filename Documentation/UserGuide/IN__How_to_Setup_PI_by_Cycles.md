@@ -1,10 +1,10 @@
-# To Create Physical Inventory Cycles {#_f43e867e-505e-4351-8664-ee4dc277c6d1 .task}
+# To Create Physical Inventory Cycles
 
 When you configure cycle counting of physical inventory, you must first create the physical inventory cycles by using the [Physical Inventory Cycles](IN_20_87_00.md) \(IN208700\) form, as described in this topic.
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## To Create Physical Inventory Cycles { .section}
+## To Create Physical Inventory Cycles
 
 1.  Open the [Physical Inventory Cycles](../Shared/../UserGuide/IN_20_87_00.md) \(IN208700\) form.
 

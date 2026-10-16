@@ -1,12 +1,12 @@
-# Billing Rates: Configuration Prerequisites {#_3a92a1a8-8727-40e4-bdb3-afeaa84de644 .concept}
+# Billing Rates: Configuration Prerequisites
 
 Before starting to define the billing rates to be used in billing and allocation rules, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Projects* feature must be enabled.
 
-## Configuring the System { .section}
+## Configuring the System
 
 You need to make sure the following tasks have been performed in Acumatica ERP before you begin to specify billing rate values in a rate table:
 

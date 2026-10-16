@@ -1,10 +1,10 @@
-# To Enter a Voucher Code {#_0e486497-9bda-4bb5-817f-e1b19e7a91d7 .task}
+# To Enter a Voucher Code
 
 You use the [Voucher Entry Codes](GL_10_60_00.md) \(GL106000\) form to enter new transaction codes.
 
 **Tip:** On this form, you can also upload the [Voucher Entry Codes](Files/Document_Quick_Entry_via_Document_Batches_L_Transaction_Codes_20120510.xlsx) file, which contains transaction codes provided by Acumatica ERP.
 
-## To Enter a Voucher Code {#section_p2j_mjv_vxb .section}
+## To Enter a Voucher Code
 
 1.  Open the [Voucher Entry Codes](../Shared/../UserGuide/GL_10_60_00.md) \(GL106000\) form.
 2.  On the form toolbar, click **Add Row**.

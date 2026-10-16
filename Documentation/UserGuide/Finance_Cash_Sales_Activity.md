@@ -1,16 +1,16 @@
-# Cash Sales and Cash Returns: Process Activity {#_053ee98d-1b18-4fcb-ad25-aea1f7d7226d .task}
+# Cash Sales and Cash Returns: Process Activity
 
 The following activity will walk you through the process of recording a cash sale and a cash return.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that on 1/30/2026, Allen's Bakery decided to buy $100 gift certificates for its employees from SweetLife Fruits &amp; Jams. The company's representative bought the certificates at the SweetLife store and paid $ 1,200 by cash. Further suppose that on 2/3/2026, Allen's Bakery returned one gift certificate.
 
 Acting as SweetLife's accountant, you need to record the cash sale in the system, and then record a cash return for one certificate.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -25,11 +25,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, the **Hold Documents on Entry** check box has been selected in the **Data Entry Settings** section.
 
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create a cash sale on the [Cash Sales](AR_30_40_00.md) \(AR304000\) form. On the same form, you will create a cash return for the same customer.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin processing a cash sale and a cash return, do the following:
 
@@ -37,7 +37,7 @@ Before you begin processing a cash sale and a cash return, do the following:
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Store* branch.
 
-## Step 1: Creating a Cash Sale { .section}
+## Step 1: Creating a Cash Sale
 
 To create a cash sale, do the following:
 
@@ -60,7 +60,7 @@ To create a cash sale, do the following:
 5.  On the form toolbar, click **Save**.
 6.  On the form toolbar, click **Remove Hold** and then click **Release** to release the cash sale.
 
-## Step 2: Creating a Cash Return { .section}
+## Step 2: Creating a Cash Return
 
 To create a cash return for $100, do the following:
 

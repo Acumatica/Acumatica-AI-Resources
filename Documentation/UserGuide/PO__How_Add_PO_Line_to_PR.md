@@ -1,8 +1,8 @@
-# To Add Purchase Order Lines to an Existing Purchase Receipt {#_be390122-0257-4328-9688-a09baa04952e .task}
+# To Add Purchase Order Lines to an Existing Purchase Receipt
 
 On the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form, you can add any number of lines from a particular purchase order or multiple purchase orders to an existing purchase receipt of the same vendor specified for the purchase order or orders.
 
-## To Add a Purchase Order Line to an Existing Purchase Receipt { .section}
+## To Add a Purchase Order Line to an Existing Purchase Receipt
 
 1.  Open the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form.
 2.  Select the needed purchase receipt by its reference number.

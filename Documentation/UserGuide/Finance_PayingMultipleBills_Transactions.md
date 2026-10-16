@@ -1,4 +1,4 @@
-# Multiple Bill Payments: Generated Transactions {#_2b6fb18c-8725-40ab-83a4-618a9a10fd1d .concept}
+# Multiple Bill Payments: Generated Transactions
 
 When a payment is released, a batch is created with transactions reducing the balances of the cash account and the vendor's accounts payable account.
 

@@ -1,4 +1,4 @@
-# Duplicate Validation: Calculation of Validation Scores {#_cfa60e21-00a7-4420-9bb7-a6e0d1eb1b18 .concept}
+# Duplicate Validation: Calculation of Validation Scores
 
 In Acumatica ERP, grams are used for the calculation of the validation score that is specified on the [Duplicate Validation](../UserGuide/CR_10_30_00.md) \(CR103000\) form for each lead, contact, business account, customer, or vendor. Each record has a number of settings—such as *Last Name*, *Email*, and *Account Name*—that are common across these types of records. The gram value assigned to a field of a particular record is calculated based on the total number of settings that are involved in the calculation of the validation score.
 

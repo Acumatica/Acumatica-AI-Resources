@@ -1,4 +1,4 @@
-# To Find Vendors and Customers with Discrepancies Between the General Ledger and a Subledger {#_807ef9c9-0f4a-4ce2-981b-78003f5e16d1 .task}
+# To Find Vendors and Customers with Discrepancies Between the General Ledger and a Subledger
 
 You use the [Discrepancies by Vendor](AP_40_90_20.md) \(AP409020\) and [Discrepancies by Customer](AR_40_90_20.md) \(AR409020\) forms to show vendor and customer accounts with discrepancies between the accounts' balances in the subledger \(accounts payable or accounts receivable\) and the total of the transactions posted to the general ledger by the vendor or customer documents in the selected financial period.
 
@@ -6,7 +6,7 @@ You can search for or navigate to these forms directly. Also, the system navigat
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## To Find Vendors and Customers with Discrepancies Between the General Ledger Accounts and Subledger Accounts {#section_ulm_mjv_vxb .section}
+## To Find Vendors and Customers with Discrepancies Between the General Ledger Accounts and Subledger Accounts
 
 1.  Open the [Discrepancies by Vendor](AP_40_90_20.md) \(AP409020\) or [Discrepancies by Customer](AR_40_90_20.md) \(AR409020\) form.
 2.  In the **Branch** box, select the branch for which you want to view data.
@@ -21,7 +21,7 @@ You can search for or navigate to these forms directly. Also, the system navigat
 8.  In the table, view the list of vendors or customers that meet the selection criteria you have specified. Notice the discrepancies between each vendor or customer's balances in the subledger and the total of the transactions posted to GL by the vendor or customer's documents in the selected period.
 9.  Optional: Click the link in the **Discrepancy** column for a particular row to open the [Discrepancies by Document](AP_40_90_30.md) \(AP409030\) or [Discrepancies by Document](AR_40_90_30.md) \(AR409030\) form to view more details.
 
-## Notes About the Procedure {#section_vlm_mjv_vxb .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

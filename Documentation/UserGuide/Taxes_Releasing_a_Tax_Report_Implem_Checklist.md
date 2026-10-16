@@ -1,4 +1,4 @@
-# Release of Sales Tax Report: Implementation Checklist {#_01b5eca8-6fba-4197-90a3-b955f69152be .concept}
+# Release of Sales Tax Report: Implementation Checklist
 
 To ensure that the system is configured properly for releasing a tax report, make sure that the criteria listed in the table have been met in the system as described.
 

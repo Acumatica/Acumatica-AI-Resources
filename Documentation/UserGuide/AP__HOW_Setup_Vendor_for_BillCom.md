@@ -1,12 +1,12 @@
-# To Set Up a Vendor for External Payment Processing {#_1ddc03da-a115-48de-8c52-0bfb392805da .task}
+# To Set Up a Vendor for External Payment Processing
 
 You set up a vendor for external payment processing \(BILL\) on the [Vendors](AP_30_30_00.md) \(AP303000\) form.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Make sure that a payment method for external payment processing has been created as described in [To Create a Payment Method for External Payment Processing](AP__HOW_Create_PayMethod_BillCom.md).
 
-## To Set Up a Vendor for External Payment Processing { .section}
+## To Set Up a Vendor for External Payment Processing
 
 1.  Open the [Vendors](AP_30_30_00.md) \(AP303000\) form.
 2.  In the **Vendor ID** box, select the vendor's ID.

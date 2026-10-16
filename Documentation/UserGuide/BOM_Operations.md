@@ -1,10 +1,10 @@
-# Bills of Material: Operations {#_c992fa9a-a252-46b7-9af9-e146e8d1b324 .concept}
+# Bills of Material: Operations
 
 Operations are an essential part of a bill of material \(BOM\). When you create a bill of material or change an existing BOM on the [Bill of Material](AM_20_80_00.md) \(AM208000\) form, you must add at least one operation to the Operations table.
 
 In this topic, you will read about operations for bills of material.
 
-## Operations in Bills of Material {#_95324c9c-e48c-424c-aa20-0dd805b11e1b .section}
+## Operations in Bills of Material
 
 Each operation is assigned to a work center and represents the activities performed in this work center. In the Operations table of the [Bill of Material](AM_20_80_00.md) \(AM208000\) form, you list the included operations in the order in which they will be performed during production.
 
@@ -38,7 +38,7 @@ For each operation, you specify the following:
 -   Product-specific overhead costs that must be considered when the system calculates costs for the operation. Overhead costs are usually specified for a work center instead of for a bill of material. For more information, see [Configuring Production Cost Drivers: General Information](../ImplementationGuide/config_MFG_Production_Cost_Drivers_GeneralInfo.md).
 -   Outside process settings, if the operation is involved in an outside process. For details, see [Outside Processing: General Information](MFG_Outside_Processing_GeneralInfo.md).
 
-## Operation Identifiers {#_5b2c04dc-4ca2-4573-9054-063b6c5a3dcb .section}
+## Operation Identifiers
 
 We recommend that you consider the following points regarding the operation identifiers, which are specified in the **Operation ID** column of the Operations table:
 
@@ -53,7 +53,7 @@ We recommend that you consider the following points regarding the operation iden
 
 **Attention:** When a user creates a production order, the system generates operation identifiers, which may differ from those in the bill of material on which the order is based. During the generation of operation IDs for the production order, the system maintains the order of operations specified in the bill of material. In the production order, the system assigns *0010* as the identifier of the first operation and then increases the identifier of each new operation by 10. Thus, the second operation ID will be *0020* and the third operation ID will be *0030*.
 
-## Materials Used in Operations {#_6994e377-ed89-4834-a26f-c23534453878 .section}
+## Materials Used in Operations
 
 Materials are the stock or non-stock items used to produce one base unit of an item. On the **Materials** tab of the [Bill of Material](AM_20_80_00.md) \(AM208000\) form, you add the materials that are used when a worker performs the particular operation selected in the Operations table.
 
@@ -61,7 +61,7 @@ Two system settings for bills of material, which are specified on the **General*
 
 For each item added to the **Materials** tab on the [Bill of Material](AM_20_80_00.md) form, you specify the identifier of a stock or non-stock item that represents the material and the quantity of the item required for the operation. The quantity is defined by values of the **Qty. Required**, **Batch Size**, and **UOM** columns, as described in the following section.
 
-## Calculation of the Quantity of Material Required for Production {#_7fd4bf64-a7e1-450b-a861-df53aae8281f .section}
+## Calculation of the Quantity of Material Required for Production
 
 When a user creates a production order for a bill of material, the system calculates the quantities of the materials required for production. The required quantity of each item listed on the **Materials** tab of the [Bill of Material](AM_20_80_00.md) \(AM208000\) form is based on the combination of the **Qty. Required** and **Batch Size** settings as follows:
 
@@ -81,7 +81,7 @@ Suppose that 2 pounds of apples and 1 pound of sugar are required for the produc
 |Sugar|5 pounds|5|10 pounds|
 |Dish-washing liquid|0.8 liquid ounces|0|0.8 liquid ounces|
 
-## Reference Designators { .section}
+## Reference Designators
 
 A reference designator identifies a component on drawings or work instructions. The designator may also be used as a reference to a list of components used multiple times on a drawing like a fastener. In electronics manufacturing, the designators are often used to indicate the position of a component on a circuit board.
 

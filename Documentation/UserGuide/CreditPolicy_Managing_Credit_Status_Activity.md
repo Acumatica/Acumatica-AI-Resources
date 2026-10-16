@@ -1,8 +1,8 @@
-# Credit Status: Process Activity {#_87d93cf9-52ed-4456-b43f-d771ba3b3076 .task}
+# Credit Status: Process Activity
 
 The following activity will walk you through the process of managing the credit status of a customer.
 
-## Story {#section_mk2_hjv_vxb .section}
+## Story
 
 Suppose that the Credit Control team of SweetLife Fruits &amp; Jams regularly reviews a list of customers that have not paid for a long time and have ignored dunning letters. One of the customers, *GOODFOOD* has already received two dunning letters, but failed to pay the outstanding invoices. This customer has be put on credit hold to prevent users from creating documents for it.
 
@@ -10,18 +10,18 @@ Further suppose that on May 15, 2026 the customer called SweetLife to inform the
 
 Acting as Yona Jones, you need to generate the final dunning letter for *GOODFOOD*, put this customer on credit hold, and remove the credit hold for the customer.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Dunning Letter Management* feature has been enabled.
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *GOODFOOD* customer has been created and assigned to the *DEFAULT* customer class.
 
-## Process Overview {#section_rk2_hjv_vxb .section}
+## Process Overview
 
 In this activity, you will prepare the final dunning letter on the [Prepare Dunning Letters](AR_52_10_00.md) \(AR521000\) form and print it on the [Print/Release Dunning Letters](AR_52_20_00.md) \(AR522000\) form. On the [Manage Credit Holds](AR_52_30_00.md) \(AR523000\) form, you will put the customer on credit hold and review its status on the [Customers](AR_30_30_00.md) \(AR303000\) form. Finally, on the [Manage Credit Holds](AR_52_30_00.md) form, you will remove the credit hold for the customer.
 
-## System Preparation {#section_tk2_hjv_vxb .section}
+## System Preparation
 
 Before you begin preparing dunning letters, do the following:
 
@@ -31,7 +31,7 @@ Before you begin preparing dunning letters, do the following:
 4.  As a prerequisite activity, be sure that you have prepared dunning letters for the customer, as described in [Preparation of Dunning Letters: To Prepare Dunning Letters](CreditPolicy_Preparing_Dunning_Letters_To_Prepare_Letters.md).
 5.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step 1: Preparing the Final Dunning Letter {#section_vk2_hjv_vxb .section}
+## Step 1: Preparing the Final Dunning Letter
 
 To prepare the final dunning letter for the *GOODFOOD* customer, do the following:
 
@@ -58,7 +58,7 @@ To prepare the final dunning letter for the *GOODFOOD* customer, do the followin
     The dunning letter lists all of the customer's outstanding documents. The generated letter shows seven overdue invoices, including the dunning fee invoice, and asks the customer to settle the documents by 4/6/2026, which is the dunning letter date of 4/3/2026 plus 3 days. The 3 days is the **Days to Settle** that you have specified for level 3 of dunning letters on the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form.
 
 
-## Step 2: Putting the Customer on Credit Hold {#section_bl2_hjv_vxb .section}
+## Step 2: Putting the Customer on Credit Hold
 
 To put the customer on credit hold, do the following:
 
@@ -71,10 +71,9 @@ To put the customer on credit hold, do the following:
 
 3.  Select the check box for the only row in the table, and on the form toolbar, click **Process** to put the selected customer on credit hold.
 
-    ![](Images/activity_CreditPolicy_Manage_Credit_Hold.png "Customer to be put on credit hold")
 
 
-## Step 3: Reviewing the Customer Record {#section_el2_hjv_vxb .section}
+## Step 3: Reviewing the Customer Record
 
 To review the settings of the *GOODFOOD* customer, do the following:
 
@@ -84,7 +83,7 @@ To review the settings of the *GOODFOOD* customer, do the following:
     Notice that the customer record has *Credit Hold* displayed in the **Customer Status** box. Because of this status, users cannot create new invoices and debit memos for this customer. On the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, the customer record does not appear in the lookup table of the **Customer** box.
 
 
-## Step 4: Removing Credit Hold for the Customer {#section_hl2_hjv_vxb .section}
+## Step 4: Removing Credit Hold for the Customer
 
 To remove the credit hold for the *GOODFOOD* customer, do the following:
 

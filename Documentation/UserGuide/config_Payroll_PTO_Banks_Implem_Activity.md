@@ -1,16 +1,16 @@
-# Paid Time Off: Implementation Activity {#_906b45a6-1764-49d1-85b1-ebec7491d435 .task}
+# Paid Time Off: Implementation Activity
 
 In the following implementation activity, you will learn how to create PTO banks for accrual of paid time off.
 
-## Story { .section}
+## Story
 
 Suppose that in the SweetLife company, paid time off can be accrued and used for employees' personal time and vacation. Acting as a system administrator, you need to create corresponding PTO banks.
 
-## Process Overview { .section}
+## Process Overview
 
 You create PTO banks by using the [PTO Banks](PR_20_40_00.md) \(PR204000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating deduction and benefit codes, you should launch the Acumatica ERP website and sign in as a system administrator by using the following credentials:
 
@@ -21,7 +21,7 @@ As a prerequisite activity, in the company to which you are signed in, be sure y
 
 As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course.
 
-## Step 1: Creating a Personal Time PTO Bank { .section}
+## Step 1: Creating a Personal Time PTO Bank
 
 To create a PTO bank to accrue hours of personal time, do the following:
 
@@ -52,7 +52,7 @@ To create a PTO bank to accrue hours of personal time, do the following:
 5.  On the **Applicable Earning Types** tab, in the **Accrue Time Off Based On** box in the Summary area, select the *All Earning Types Except Selected* option. Leave the table empty so that the system will use all the earning types configured in the system on the [Earning Type Codes](PR_10_20_00.md) \(PR102000\) form to accrue time off for the PTO bank.
 6.  On the form toolbar, click **Save**.
 
-## Step 2: Creating a Vacation PTO Bank { .section}
+## Step 2: Creating a Vacation PTO Bank
 
 To create a PTO bank to accrue hours of vacation time, while you are still on the [PTO Banks](PR_20_40_00.md) \(PR204000\) form, do the following :
 

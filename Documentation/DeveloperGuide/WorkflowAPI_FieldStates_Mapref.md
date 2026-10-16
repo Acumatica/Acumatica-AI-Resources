@@ -1,4 +1,4 @@
-# Configuring Field States {#_24f33297-927b-4b87-a9ea-852e40f19705 .concept}
+# Configuring Field States
 
 This chapter describes how to configure field states in a screen configuration. For details on configuring field states in a workflow state, see [Workflow States: General Information](WorkflowAPI_States_GeneralInfo.md).
 

@@ -1,4 +1,4 @@
-# Importing Non-Card Refunds: Item-Level Refunds {#_693642db-6186-48dc-b977-6e13f10a52f9 .concept}
+# Importing Non-Card Refunds: Item-Level Refunds
 
 A refund of an ordered item may be issued if, for example, a customer wants to amend a not-yet-shipped order to decrease the quantity of a purchased item or because they want to return the item whose condition or performance is unsatisfactory.
 
@@ -9,7 +9,6 @@ During the import of item refunds, if the original sales order has the *Open* or
 
 The following diagram illustrates the processing of an item refund for a non-card payment method when the refund is issued before the sales order has been shipped.
 
-![](Images/diag_BigCommerce_Refund_Offline_NotShipped_ItemRefund.png)
 
 If the original sales order has the *Completed* status on the [Sales Orders](SO_30_10_00.md) form, the following actions occur:
 
@@ -19,7 +18,6 @@ If the original sales order has the *Completed* status on the [Sales Orders](SO_
 
 The following diagram illustrates the processing of an item return for non-card payment methods when this return is issued after the sales order has been shipped.
 
-![](Images/diag_BigCommerce_Refund_Offline_Shipped_ItemReturn.png)
 
 If the original sales order has a status other than *Open*, *On Hold*, or *Completed* on the [Sales Orders](SO_30_10_00.md) form, the system displays an error message saying that the refund cannot be applied.
 

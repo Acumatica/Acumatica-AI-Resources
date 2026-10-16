@@ -1,4 +1,4 @@
-# Step 1: Adding the OrderType Field and Corresponding Box to the UI {#_baf1cfee-4226-411b-ae6c-cd45df691400 .task}
+# Step 1: Adding the OrderType Field and Corresponding Box to the UI
 
 To add multiple workflows to a form, you need to define a workflow-identifying field, which will hold a value that defines a particular workflow to be used for a record. In this step, you will add the workflow-identifying field to the Repair Work Orders \(RS301000\) form.
 
@@ -19,7 +19,7 @@ Do the following:
     5.  Publish the customization project to apply the database script.
 2.  In the `Constants.cs` file, add the list of possible values for the `UsrOrderType` field as shown in the following code.
 
-    ```language-csharp
+    ```csharp
         //Constants for the repair work order types
         public static class WorkOrderTypeConstants
         {
@@ -31,7 +31,7 @@ Do the following:
 
 3.  In the `Messages.cs` file, add the list of UI string values corresponding to the added constant strings as shown in the following code.
 
-    ```language-csharp
+    ```csharp
             //Work order types 
             public const string Simple = "Simple";
             public const string Standard = "Standard";
@@ -83,7 +83,7 @@ Do the following:
 
     4.  Add the following code in the `RS301000_PhoneRepairShop_UsrOrderType.ts` file.
 
-        ```language-javascript
+        ```javascript
         import {
           PXFieldState,
           fieldInfo
@@ -108,7 +108,7 @@ Do the following:
 
     5.  Add the following code in the `RS301000_PhoneRepairShop_UsrOrderType.html` file.
 
-        ```language-xml
+        ```xml
         <template>
             <field name="WorkOrders.UsrOrderType" 
         	       before="#fsColumnA-Order FIELD[name='OrderNbr']">
@@ -122,7 +122,7 @@ Do the following:
         1.  Open a terminal \(such as Command Prompt\) in the `FrontendSources\screen` folder of your instance.
         2.  In the terminal, run the following command.
 
-            ```language-powershell
+            ```powershell
             npm run build-dev --- --env customFolder=development screenIds=RS301000
             ```
 

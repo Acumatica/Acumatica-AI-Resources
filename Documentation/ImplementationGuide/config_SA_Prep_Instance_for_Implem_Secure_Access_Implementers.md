@@ -1,10 +1,10 @@
-# Preparing an Instance: System-Wide Security Policy {#_562b7e1c-ef7b-4a3e-93ef-3ff34df5f6ed .concept}
+# Preparing an Instance: System-Wide Security Policy
 
 Acumatica ERP provides a wide range of tools for security control. You can implement your organization's security regulations by configuring and maintaining system-wide security policies for user accounts, passwords, and security auditing.
 
 In this topic, you will read about the tools we recommend that you use for ensuring that access to your tenant in implementation is secure.
 
-## User Accounts for Implementers { .section}
+## User Accounts for Implementers
 
 Initially, the only active user account \(*admin*\) is available for signing in to a new instance. We do not recommend using this account for implementation purposes, however. The account should be used only for activating and licensing the instance and configuring secure access for the people involved in the implementation.
 
@@ -16,7 +16,7 @@ You add user accounts for people involved in the implementation by using the [Us
 
 At this point, a system email account is not configured yet, and you need to find a secure way to pass user credentials \(username and initial password\) to the people.
 
-## System-Wide Password Policies {#section_ohp_pbm_5j .section}
+## System-Wide Password Policies
 
 In Acumatica ERP, you can use the [Security Preferences](../UserGuide/SM_20_10_60.md) \(SM201060\) form to set up the password policies for all user accounts defined in the system.
 
@@ -45,7 +45,7 @@ You can set up the system password policy to control the following:
 
 To improve password security, a hashing algorithm is used to process passwords, and only hash values are stored in the database.
 
-## System-Wide Account Lockout Policies { .section}
+## System-Wide Account Lockout Policies
 
 You can configure the system to lock out a user account after a particular number of failed sign-in attempts. This configuration option helps to stop an unauthorized person who might be trying to gain system access by guessing a user's password.
 

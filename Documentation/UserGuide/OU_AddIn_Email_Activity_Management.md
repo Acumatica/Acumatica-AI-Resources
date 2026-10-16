@@ -1,20 +1,19 @@
-# Acumatica Add-In for Outlook: Email Activity Management {#_d77a1211-70f4-4c1c-a85d-52cdf1d0a24e .concept}
+# Acumatica Add-In for Outlook: Email Activity Management
 
 Keeping all communication with customers or partners in one place helps keep your work organized and transparent. The Acumatica add-in for Outlook lets you easily store email correspondence along with the relevant records in Acumatica ERP.
 
 While viewing an email in Outlook, you click the Acumatica on the toolbar to open the add-in panel. From there, you can link the email to one or more records on the Related Records form. The same email can be saved multiple times, if needed.
 
-## Linking an Email to Records { .section}
+## Linking an Email to Records
 
 You use the Related Records form of the Acumatica add-in panel to link the email you're viewing to records. On this form, select one or more records and click **Link Email to Selected Records**; the Email Activity form opens.
 
 If the Linked Records form is initially displayed on the add-in panel, click **Link Email to ERP Records** to open the Related Records form. Then you can link the email, as shown below.
 
-![](Images/OU_AddIn_Linked_Email_1.png "Linking an email to a record")
 
 **Tip:** You can select only one record of each type in the **Profiles** group and only one record from any other group of records at a time.
 
-## Finishing Email Activity Creation { .section}
+## Finishing Email Activity Creation
 
 To finish the process of linking records to the email, you finish creating the email activity on the Email Activity form \(see below\). Depending on the type of record you selected on the Related Records form, the following boxes of the email activity may be filled in automatically:
 
@@ -27,17 +26,14 @@ To finish the process of linking records to the email, you finish creating the e
 
 **Important:** The **Track Time and Costs** check box is now available only for outgoing emails.
 
-![](Images/OU_AddIn_Link_with_Profiles.png "The Email Activity form")
 
 After you save the email activity, the add-in automatically returns you to the Linked Records form. All records to which the email has been linked are displayed in the **Email Attached To** section \(see below\).
 
-![](Images/OU_AddIn_Linked_Email.png "The records linked to the email")
 
 In Acumatica ERP, the saved email activity appears on the **Activities** tab of the data entry form for the record selected in the **Related Entity** box, as shown below. Any email attachments are saved as files and linked to the email activity. The activity’s status is changed to *Completed*, and **Completed On** is populated with the current date and time.
 
-![](Images/OU_AddIn_Saved_Email_Activity.png "The saved email activity")
 
-## Access Rights { .section}
+## Access Rights
 
 Internal employees with the following user roles have the *Delete* access rights to the Email Activity form:
 

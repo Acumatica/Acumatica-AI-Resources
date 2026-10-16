@@ -1,4 +1,4 @@
-# Maintaining Instances {#_af0f351f-cb7a-42f8-ad6d-efac6f09bc52 .concept}
+# Maintaining Instances
 
 In this chapter, you will learn how to perform maintenance tasks with the Acumatica ERP instances and their databases.
 

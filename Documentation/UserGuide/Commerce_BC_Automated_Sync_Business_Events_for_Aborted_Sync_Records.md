@@ -1,4 +1,4 @@
-# Automated Synchronization: Business Events for Aborted Records {#_f5fe3f29-d664-489f-bf1f-344912945371 .concept}
+# Automated Synchronization: Business Events for Aborted Records
 
 Acumatica ERP provides a set of predefined business events that can be activated to trigger the sending of an email notification to the administrator of an online store about aborted synchronization records. Each of the predefined business events is defined for one of the following entities: *Sales Order*, *Payment*, *Shipment*, or *Refund*. The notification is sent when the commerce connector fails to process a synchronization record related to the entity if the maximum allowed number of failed attempts has been exceeded. The administrator specifies the maximum allowed number of failed attempts for each entity on the [Entities](BC_20_20_00.md) \(BC202000\) form or on the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form.
 

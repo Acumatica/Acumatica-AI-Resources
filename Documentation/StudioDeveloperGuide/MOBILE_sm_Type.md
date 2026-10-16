@@ -1,4 +1,4 @@
-# &lt;sm:Type&gt; {#_6bb3f060-622c-4e6a-aa44-d4a71e9fbbbe .concept}
+# &lt;sm:Type&gt;
 
 The sm:Type tag has the following attribute.
 

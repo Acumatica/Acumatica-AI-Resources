@@ -1,8 +1,8 @@
-# Purchases to the Project Site with a Receipt: Implementation Checklist {#_54191052-0009-4261-a456-4b23ac415685 .concept}
+# Purchases to the Project Site with a Receipt: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for the processing of purchases for projects with drop-shipping to the project site and with receipt processing, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist {#section_ulm_zxs_4qb .section}
+## Implementation Checklist
 
 Before you initially process a project-related purchase to a project site with receipt processing, you should make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -14,18 +14,35 @@ Before you initially process a project-related purchase to a project site with r
 |[Stock Items](IN_20_25_00.md) \(IN202500\) form|Make sure that the needed stock items have been configured, as described in [Stock Items: Implementation Activity](Stock_Items_Implem_Activity.md).|
 |[Non-Stock Items](IN_20_20_00.md) \(IN202000\) form|Make sure that the needed non-stock items have been configured, as described in [Non-Stock Items: Implementation Activity](Non_Stock_Items_OrderMgmt_Implem_Activity.md).|
 
-## Project Settings {#section_usx_ntz_4qb .section}
+## Project Settings
 
 Before you initially process a purchase for a project with drop shipping and receipt processing, you should make sure that the project accounting functionality is configured and the project has specific settings, as summarized in the following checklist.
 
-|Form|Criteria to Check|
-|----|-----------------|
-|[Projects Preferences](PM_10_10_00.md) \(PM101000\) form|Make sure that all necessary settings related to project accounting have been specified, as described in [Basic Project Configuration: General Information](../ImplementationGuide/config_Project_Basic_GeneralInfo.md).
+<table id="table_nqt_4tz_4qb"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Criteria to Check
+
+</th></tr></thead><tbody><tr><td>
+
+[Projects Preferences](PM_10_10_00.md) \(PM101000\) form
+
+</td><td>
+
+Make sure that all necessary settings related to project accounting have been specified, as described in [Basic Project Configuration: General Information](../ImplementationGuide/config_Project_Basic_GeneralInfo.md).
 
  Also, select the **Internal Cost Commitment Tracking** check box to track purchase orders as project cost commitments and to see committed values in the project cost budget.
 
-|
-|[Projects](PM_30_10_00.md) \(PM301000\)|Make sure that the necessary projects and project tasks have been created, and that the following settings have been specified for the projects on the **Defaults** tab:-   **Drop-Ship Receipt Processing**: *Generate Receipt*
+</td></tr><tr><td>
+
+[Projects](PM_30_10_00.md) \(PM301000\)
+
+</td><td>
+
+Make sure that the necessary projects and project tasks have been created, and that the following settings have been specified for the projects on the **Defaults** tab:-   **Drop-Ship Receipt Processing**: *Generate Receipt*
 
 With this setting, the processing of a purchase order of the *Project Drop-Ship* type involves the processing of a purchase receipt.
 
@@ -34,9 +51,10 @@ With this setting, the processing of a purchase order of the *Project Drop-Ship*
 With this setting, purchase expenses will be recorded to the project on release of the purchase receipt.
 
 
-|
+</td></tr></tbody>
+</table>
 
-## Other Settings That Affect the Workflow {#section_vlm_zxs_4qb .section}
+## Other Settings That Affect the Workflow
 
 You can affect the processing workflow by specifying additional settings as follows:
 
@@ -52,7 +70,7 @@ You can affect the processing workflow by specifying additional settings as foll
 
 With these settings specified, users in your company can process purchases on projects quickly and accurately with a minimum of manual actions.
 
-## Known Project Drop-Ship Limitations { .section}
+## Known Project Drop-Ship Limitations
 
 The following limitations apply to the project drop-ship functionality:
 

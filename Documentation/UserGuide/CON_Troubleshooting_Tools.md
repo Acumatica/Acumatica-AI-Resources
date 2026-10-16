@@ -1,8 +1,8 @@
-# Troubleshooting Acumatica ERP {#_13eeac71-6c88-462b-a645-514422054d70 .concept}
+# Troubleshooting Acumatica ERP
 
 This chapter explains how you can use various tools and methods to troubleshoot Acumatica ERP, both during installation and later, during production use.
 
-## In This Chapter { .section}
+## In This Chapter
 
 -   [Troubleshooting Performance](how_Troubleshoot_Performance.md)
 -   [Using Logs](CON_Troubleshooting_Tools_Logs.md)

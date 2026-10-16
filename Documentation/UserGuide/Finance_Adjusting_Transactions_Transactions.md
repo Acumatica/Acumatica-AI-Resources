@@ -1,4 +1,4 @@
-# Adjusting Transactions: Generated Transactions {#_c2c69569-e67b-4f7c-aca8-f07b4568890f .concept}
+# Adjusting Transactions: Generated Transactions
 
 On the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form, you can view the details of the original GL batch and its automatically created reversing batch. For the following GL batch recorded to the general ledger, the system will create the auto-reversing GL batch below in the general ledger at the end of the period next to the post period of the original transaction.
 

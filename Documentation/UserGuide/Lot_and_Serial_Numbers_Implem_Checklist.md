@@ -1,8 +1,8 @@
-# Items with Lot and Serial Numbers: Implementation Checklist {#_90b9130e-1467-41e5-a874-db01d70702c1 .concept}
+# Items with Lot and Serial Numbers: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for processing items with lot and serial numbers.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 Before you begin processing purchase and sales documents that include stock items with lot and serial numbers, you should make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -14,7 +14,7 @@ Before you begin processing purchase and sales documents that include stock item
 |[Item Classes](IN_20_10_00.md) \(IN201000\)|Make sure that the needed lot or serial classes are specified in settings of item classes, as you will learn to do in [Items with Lot and Serial Numbers: Implementation Activity](Lot_and_Serial_Numbers_Implem_Activity.md).|
 |[Stock Items](IN_20_25_00.md) \(IN202500\)|Make sure that the needed lot or serial classes are specified in settings of stock items, as you will learn to do in [Items with Lot and Serial Numbers: Implementation Activity](Lot_and_Serial_Numbers_Implem_Activity.md).|
 
-## Validation of Configuration { .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you process a purchase and a sale of stock items with lot or serial numbers by performing instructions similar to those described in the following activities:
 
@@ -22,7 +22,7 @@ To make sure that all configuration has been performed correctly, we recommend t
 -   [Items with Lot and Serial Numbers: To Sell Items in Lots](Lot_and_Serial_Numbers_Process_Activity2.md)
 -   [Items with Lot and Serial Numbers: To Purchase and Sell Lot-Numbered Items that Expire](Lot_and_Serial_Numbers_Process_Activity3.md)
 
-## Known Process Limitations { .section}
+## Known Process Limitations
 
 The following limitations apply to the processing of sales that include items with lot or serial numbers:
 

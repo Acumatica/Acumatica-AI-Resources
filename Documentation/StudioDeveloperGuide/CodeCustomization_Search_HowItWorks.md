@@ -1,4 +1,4 @@
-# Search Customization: How the Search in DACs Works {#_869f3174-502e-4d7b-b11d-5036beb9cc38 .concept}
+# Search Customization: How the Search in DACs Works
 
 The search in records of data access classes \(DACs\) is built on top of the database search engine. The search process can be divided into the following stages:
 

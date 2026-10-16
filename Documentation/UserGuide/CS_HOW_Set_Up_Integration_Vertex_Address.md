@@ -1,8 +1,8 @@
-# To Set Up Integration with a Vertex Address Validation Provider {#_51e01be5-7c50-44bb-802e-927547e2bc99 .task}
+# To Set Up Integration with a Vertex Address Validation Provider
 
 The following topic will walk you through the process of setting up integration with the Vertex address validation plug-in.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 To get access to the service, you need to obtain the following from Vertex:
 
@@ -12,7 +12,7 @@ To get access to the service, you need to obtain the following from Vertex:
 
 Before you configure the integration with Vertex address validation plug-in in Acumatica ERP, make sure that the *Address Validation Integration* feature is enabled in your system on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## To Set Up an Address Validation Provider { .section}
+## To Set Up an Address Validation Provider
 
 1.  Open the [Address Providers](CS_10_30_00.md) \(CS103000\) form.
 2.  On the form toolbar, click **Add New Record**.
@@ -31,7 +31,7 @@ Before you configure the integration with Vertex address validation plug-in in A
 
 13. Click **Save**.
 
-## To Set Up Address Verification { .section}
+## To Set Up Address Verification
 
 1.  Open the [Countries/States](CS_20_40_00.md) \(CS204000\) form.
 2.  In the **Country ID** box of the Summary area, select *US*.

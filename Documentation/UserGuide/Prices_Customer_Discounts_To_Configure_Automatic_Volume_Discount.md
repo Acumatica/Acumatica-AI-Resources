@@ -1,10 +1,10 @@
-# Automatic Customer Discounts: To Set Up Automatic Volume Line Discounts {#_c4c185c9-718b-465d-bf47-b43081f7d9ba .task}
+# Automatic Customer Discounts: To Set Up Automatic Volume Line Discounts
 
 In this activity, you will learn how to set up an automatic volume line discount for a particular stock item, and you will explore how it is applied to a sales order.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that at the end of January, warehouse personnel at SweetLife Fruits &amp; Jams found out that the Wholesale warehouse \(*WHOLESALE*\) contains a large lot of 32-ounce jars of orange jam with an approaching expiration date. Company personnel have decided to sell these jars at the following discounts:
 
@@ -16,7 +16,7 @@ Because no one can predict when the entire lot will be sold, this discount shoul
 
 Acting as SweetLife's accountant, you need to configure this discount in the system and create a sales order to see how the discount is applied. You will then deactivate the discount.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -25,7 +25,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *COFFEESHOP* customer has been created.
 -   On the [Warehouses](IN_20_40_00.md) \(IN204000\) form, the *WHOLESALE* warehouse has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 To set up an automatic volume discount for a particular stock item, you will create the needed discount code on the [Discount Codes](AR_20_90_00.md) \(AR209000\) form. Then you will define an automatic volume discount for the particular item on the [Discounts](AR_20_95_00.md) \(AR209500\) form.
 
@@ -33,7 +33,7 @@ To see how the discount is applied, on the [Sales Orders](SO_30_10_00.md) \(SO30
 
 Finally, you will deactivate the discount.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -41,7 +41,7 @@ To prepare the system, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026*. For simplicity, in this lesson, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu button to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Configuring the Automatic Volume Discount { .section}
+## Step 1: Configuring the Automatic Volume Discount
 
 To set up the automatic volume discount on the 32-ounce jars of orange jam, do the following:
 
@@ -96,7 +96,7 @@ To set up the automatic volume discount on the 32-ounce jars of orange jam, do t
     On the **Discount Breakpoints** tab, notice that the system has cleared the **Pending Date** column and the **Effective Date** column now contains *1/30/2026*.
 
 
-## Step 2: Creating a Sales Order and Exploring the Application of the Discount { .section}
+## Step 2: Creating a Sales Order and Exploring the Application of the Discount
 
 To create a sales order for testing purposes and explore how the automatic volume line discount is applied, do the following:
 
@@ -137,12 +137,11 @@ To create a sales order for testing purposes and explore how the automatic volum
     -   **Unit Price**: `13`
     In the **Discount Percent** column, which is shown in the following screenshot, notice that the 20% discount you configured in Step 1 has been applied, because the quantity in the line is more than 20.
 
-    ![](Images/activity_Prices_To_Configure_Automatic_Volume_Discount.png "Automatic volume line discount applied to the sales order")
 
     You do not need to save or process the sales order. You created it solely to learn how the discounts are applied.
 
 
-## Step 3: Making the Created Discount Inactive { .section}
+## Step 3: Making the Created Discount Inactive
 
 1.  Open the [Discounts](AR_20_95_00.md) \(AR209500\) form.
 2.  In the Summary area, specify the following settings:

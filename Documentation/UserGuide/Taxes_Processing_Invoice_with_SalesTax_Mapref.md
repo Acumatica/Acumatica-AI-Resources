@@ -1,4 +1,4 @@
-# Processing Invoices with Sales Taxes {#_9401b19c-9f3c-4bae-8e80-6872184607b4 .concept}
+# Processing Invoices with Sales Taxes
 
 The topics of this chapter describe how to create and release an AR invoice with sales taxes.
 

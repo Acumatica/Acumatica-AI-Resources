@@ -1,8 +1,8 @@
-# Reset of Barcode Scan Mode: To Define the Resetting Logic {#_a3665b34-aaa6-4d71-b023-32eab8d16303 .task}
+# Reset of Barcode Scan Mode: To Define the Resetting Logic
 
 This activity will walk you through the resetting of the scan mode logic.
 
-## Story { .section}
+## Story
 
 Suppose that you are creating a custom barcode-driven form. You have defined a barcode scan class for this form and implemented the scan mode, including its required properties and its states, which are `LotSerialState`, `InventoryItemState`, `LocationState`, and `RefNbrState`. Now you need to define how the scan mode is cleared.
 
@@ -12,11 +12,11 @@ You want `LotSerialState` and `InventoryItemState` to be cleared with a soft res
 
 You don't want to clear the current document's number, even when a user clicks the **Reset** button, because the document defines the flow itself.
 
-## Process Overview { .section}
+## Process Overview
 
 You will override the ScanMode.ResetMode\(\) method. In the method, you will define the clearing condition for each state of the mode. To define the clearing condition, you will use the `when` pattern instead of the `if` pattern.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin creating a scan mode, do the following:
 
@@ -25,7 +25,7 @@ Before you begin creating a scan mode, do the following:
 3.  Define the required properties of the scan mode by performing the [Barcode Scan Mode: To Define the Required Properties](WMSEngine_ScanMode_CreateScanMode_Activity.md) prerequisite activity.
 4.  Define the input states of the scan mode by performing the [Barcode Scan States: To Create the Input State](WMSEngine_ScanState_Activity_CreateInputState.md) and [Extension of Scan Components: To Extend Predefined Scan States for a Custom Form](WMSEngine_ExtendedComponent_Activity_NewScanStates.md) prerequisite activities.
 
-## Step: Defining the Resetting Logic { .section}
+## Step: Defining the Resetting Logic
 
 In the `CountMode` class, define how the mode should be cleared as follows:
 

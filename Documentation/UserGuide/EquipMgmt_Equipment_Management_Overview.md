@@ -1,8 +1,8 @@
-# Overview of Equipment Types {#_fc612ffc-3070-458e-a440-6ba094413bb3 .concept}
+# Overview of Equipment Types
 
 By using the equipment management functionality, you can maintain and track information about the equipment that your company uses to provide services, as well as the equipment for which your company provides services. For equipment that requires regular maintenance, you can create service contracts that include customer visit schedules and specify the billing period for each customer. Additionally, you can manage service orders and appointments associated with equipment maintenance contracts.
 
-## Equipment Categories in Acumatica ERP {#section_oym_gs4_hxb .section}
+## Equipment Categories in Acumatica ERP
 
 In Acumatica ERP, equipment is divided into two major categories, based on how the equipment is related to the service:
 
@@ -13,13 +13,13 @@ In some cases, one piece of equipment can be both target equipment and resource 
 
 The following sections describe both of these types of equipment in greater detail.
 
-## Resource Equipment Creation {#section_v4d_bxs_mdc .section}
+## Resource Equipment Creation
 
 In Acumatica ERP, you can enter and keep information about resource equipment. Resource equipment is a physical resource of your company that staff members use to perform services.
 
 You add each specific piece of resource equipment \(for example, a specific screwdriver or drill\) that will be used to perform services as a record on the [Equipment](FS_20_50_00.md) \(FS205000\) form. In the Summary area of the form, you define this record as resource equipment by selecting the **Resource Equipment** check box; you also select the equipment type, and specify that your company owns the equipment by selecting the **Company** option button \(under **Owner**\). To maintain the relevant details of each equipment record that you add to the system, you can enter additional information, such as general, manufacturing, and purchase settings.
 
-## Target Equipment Creation and Tracking {#section_bz4_bxs_mdc .section}
+## Target Equipment Creation and Tracking
 
 In Acumatica ERP, you can enter and maintain information about target equipment: equipment that needs to be serviced at the customer site or at your company. This equipment can be created in the system in the following ways:
 
@@ -29,6 +29,4 @@ In Acumatica ERP, you can enter and maintain information about target equipment:
 A piece of target equipment may have components for which stock items with the **Component** equipment class are created on the [Stock Items](IN_20_25_00.md) \(IN202500\) form. A component is a part of a piece of equipment that may have its own warranty and serial number.
 
 In Acumatica ERP, you can track the serial numbers of equipment after it is sold. You can track the warranties, upgrades, and other pertinent information for the equipment. You can also track its service history, including every part that has been added to it. The system also supports the tracking of multiple serial numbers for the same equipment record and the tracking of serial numbers for different components.
-
-**Parent topic:**[Equipment Management](../UserGuide/FS_00_00_02.md)
 

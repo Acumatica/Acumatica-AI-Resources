@@ -1,8 +1,8 @@
-# VAT for Early Payments: Generated Transactions {#_d141da93-5b6c-452a-90c4-6514a0c52eb6 .concept}
+# VAT for Early Payments: Generated Transactions
 
 As you adjust VAT for early payments of AR invoices, you create and process a taxable AR invoice, a payment for this invoice with a cash discount, and a credit memo to adjust the VAT amount. To update the customer's balance and adjust the output taxes, the system generates the GL transactions described in the following sections.
 
-## Transaction Generated for an AR Invoice {#section_fym_fjv_vxb .section}
+## Transaction Generated for an AR Invoice
 
 When you create and release an AR invoice, the system generates the following general ledger transaction:
 
@@ -14,7 +14,7 @@ When you create and release an AR invoice, the system generates the following ge
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 
-## Transaction Generated for an AR Payment with a Cash Discount {#section_iym_fjv_vxb .section}
+## Transaction Generated for an AR Payment with a Cash Discount
 
 When you create and release a payment for the invoice within the cash discount period, the system generates the following general ledger transaction:
 
@@ -25,7 +25,7 @@ When you create and release a payment for the invoice within the cash discount p
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Payments and Applications](AR_30_20_00.md) form.
 
-## Transaction Generated for a VAT Credit Memo {#section_lym_fjv_vxb .section}
+## Transaction Generated for a VAT Credit Memo
 
 When you create and release a credit memo to adjust the output VAT, the system generates the following general ledger transaction:
 

@@ -1,10 +1,10 @@
-# Stock Items: Attributes {#_f2ea392e-5710-4e11-8148-902a861f773d .concept}
+# Stock Items: Attributes
 
 For each stock item, Acumatica ERP provides a basic set of characteristics or qualities of the item. These characteristics or qualities include the item's identifier, description, price, cost, units of measure, default warehouse, and default vendor information.
 
 Stock items can have additional characteristics, known as *attributes* in Acumatica ERP, that do not affect item processing but may help your organization analyze stock movements or item sales. Attributes may differ for different types of stock items.
 
-## Types of Attributes { .section}
+## Types of Attributes
 
 In Acumatica ERP, product attributes are completely customizable. A system administrator can create attributes on the [Attributes](CS_20_50_00.md) \(CS205000\) form. They can decide what attributes are needed, what values are allowed for each, and what type of control \(element\) is used to implement the attribute in the interface. Attributes may have any of the following types of control:
 
@@ -18,7 +18,7 @@ In Acumatica ERP, product attributes are completely customizable. A system admin
 
 Also, an administrator can define an attribute as an optional or required. This allows items to have no value for the attribute. Alternatively, they can define a special value such as *None* or *N/A* \(not applicable\) for use with such items. For details, see [Attributes](CS__con_Attributes.md).
 
-## Attribute Assignment { .section}
+## Attribute Assignment
 
 You assign attributes at the item class level by using the **Attributes** tab of the [Item Classes](IN_20_10_00.md) \(IN201000\) form. The same attribute can be used for one or several item classes. The attributes for a newly created item class are by default those of the parent item class. If the created item class has no parent, the default attributes are those of the class that is specified in the **Default Stock Item Class** box \(if you are creating a stock item class\) or the **Default Non-Stock Item Class** box \(if you are creating a non-stock item class\) on the [Inventory Preferences](IN_10_10_00.md) \(IN101000\) form.
 

@@ -1,12 +1,11 @@
-# Selector Control: Configuration of the Lookup Table {#_889916fd-4b77-421e-ac54-747dc48f9420 .concept}
+# Selector Control: Configuration of the Lookup Table
 
 You can configure the lookup table that is displayed when a user clicks the magnifier icon in the selector box.
 
-## Configuring the Add New Record Button { .section}
+## Configuring the Add New Record Button
 
 You can specify which action is executed when a user clicks the **Add New Record** button in the lookup table, as shown in the following screenshot. By default, the system opens the relevant form with an empty record \(that is, no values except default ones are filled in\). To specify the action, use the addCommand property of the qp-selector config property.
 
-![](Images/UIDevRef_Selector_LookupTable.png "The lookup table of the selector control")
 
 Suppose that when a user clicks the **Add New Record** button in the selector control, the system needs to open a new record with prefilled values that depend on the user's data. For that purpose, you need to do the following:
 
@@ -22,7 +21,7 @@ Suppose that when a user clicks the **Add New Record** button in the selector co
     ```
 
 
-## Sorting Rows in the Lookup Table {#_3b4e567d-a1c2-49df-8233-0bcf6cd0d251 .section}
+## Sorting Rows in the Lookup Table
 
 By default, the rows in the lookup table are sorted as follows:
 

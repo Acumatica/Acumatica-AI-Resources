@@ -1,4 +1,4 @@
-# To Add Another Supported Control {#_db3af871-a97f-4d59-b662-aafd486e4c2d .concept}
+# To Add Another Supported Control
 
 You use the [Screen Editor](../UserGuide/AU_20_45_20.md) to add to a container a control of any of the following types, which are supported in the Acumatica Customization Platform \(listed under **Other Controls** on the **Add Controls** tab item\):
 
@@ -20,7 +20,6 @@ To add a control of one of the listed types to a container, perform the followin
 3.  Click the **Add Controls** tab item \(see the screenshot below\).
 4.  From the **Other Controls** group, drag the required control type to the needed location in the Control Tree within the container, as shown in the following screenshot.
 
-    ![](images/CG_GL_UI_PXForm_AddStControl.png "Adding a layout rule to a container")
 
 5.  If required, specify properties for the new control.
 6.  Click **Save** to save your changes in the customization project.

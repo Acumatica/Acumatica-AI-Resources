@@ -1,10 +1,10 @@
-# Contract Usage: To Create Employee Activity Usage \(Consulting Contract\) {#_a863f04f-14f7-447c-9cc8-8043561dfa43 .task}
+# Contract Usage: To Create Employee Activity Usage \(Consulting Contract\)
 
 In this activity, you will learn how to create contract usage by employee activities \(cases\), and then you will create and release a case.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that after purchasing the juicers, the Healthy Drink Alley customer needs a consulting contract to teach employees about the proper use of juicers and related equipment. This service is provided by the SweetLife Fruits &amp; Jams company's consultants of different qualifications: senior consultants, whose services cost $120 per hour, and consultants, whose services cost $100 per hour.
 
@@ -12,18 +12,18 @@ According to the terms of the contract, on *4/10/2026* the customer obtains cons
 
 Acting as a sales manager, you have created an empty contract whose terms determine prices depending on the skills and position of the consulting specialist, who can be a regular specialist or a senior consultant. You will create contract usage to reflect rendering services in the system.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Cases](CR_30_60_00.md) \(CR306000\) form, you will create a case and then on the [Activity](CR_30_60_10.md) \(CR306010\) form, you will create case activities of employees with different qualifications. On the [Activity](CR_30_60_10.md) form, you will release activities simultaneously creating contract usage you will bill later.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Contract Management* feature has been enabled.
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *HDALLEY \(Healthy Drink Alley\)* customer has been created.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
@@ -31,7 +31,7 @@ To prepare to perform the instructions of this activity, do the following:
 2.  To prepare to perform the instructions of this activity, launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as the sales manager David Chubb using the *chubb* username and the *123* password.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *4/10/2026*. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating a Case {#section_j4k_gyr_js .section}
+## Step 1: Creating a Case
 
 To create the case for the consulting contract, do the following:
 
@@ -44,10 +44,9 @@ To create the case for the consulting contract, do the following:
 4.  In the **Open** dialog box, make sure *In Process* is selected in the **Reason** box, and click **OK**. Notice that the system has assigned the *Open* status to the case.
 5.  On the **Additional Info** tab, make sure that the contract with description *Hdalley - Consulting services by employee rates* is selected in the **Contract** box. The system selects the contract automatically because it is the only contract associated with the selected customer.
 
-    ![](Images/CustomerContractsConsultingContractCaseCreated_2.png "Created case for the consulting contract")
 
 
-## Step 2: Creating Employee Case Activities {#section_d3l_lyr_js .section}
+## Step 2: Creating Employee Case Activities
 
 In Acumatica ERP, *time activities* are activities for which employees report the time that they have spent on them. You use case activities, which are billable time activities of employees, to create contract usage.
 
@@ -63,7 +62,6 @@ To create billable time activities for the case you created, do the following:
     -   **Billable Time**: *20:00*
 4.  In the **Owner** box of the **Details** tab, specify *William Perkins*.
 
-    ![](Images/CustomerContractsConsultingContractCaseActivityWilliams.png "Created case activity for the consulting contract")
 
 5.  On the form toolbar, click **Save** and then click **Complete** to complete the activity.
 
@@ -81,24 +79,22 @@ To create billable time activities for the case you created, do the following:
 
     Notice that both activities are listed on the **Activities** tab.
 
-    ![](Images/CustomerContractsConsultingContractCaseActivities_2.png "Created case activities for the consulting contract")
 
 
-## Step 3: Releasing Case Activities {#section_ns5_dzr_js .section}
+## Step 3: Releasing Case Activities
 
 To release the case activities for a future billing, do the following:
 
 1.  Open the [Release Time Activities](EP_50_70_20.md) \(EP507020\) form.
 2.  In the Summary area, in the **Contract** box, select the contract with description *Hdalley - Consulting services by employee rates*. The list now shows activities for only this contract. Select the check boxes for both case activities in the table as shown in the following screenshot.
 
-    ![](Images/CustomerContractsConsultingContractReleaseActivitiesForm.png "Releasing the activities for the consulting contract")
 
 3.  On the form toolbar, click **Release**.
 
     The released activities created usages for the consulting contract. If you bill the contract, the resulting invoice will contain information about each of the activities.
 
 
-## Step 4: Viewing Contract Usage Details {#section_ets_fzr_js .section}
+## Step 4: Viewing Contract Usage Details
 
 To view the generated contract usages, do the following:
 

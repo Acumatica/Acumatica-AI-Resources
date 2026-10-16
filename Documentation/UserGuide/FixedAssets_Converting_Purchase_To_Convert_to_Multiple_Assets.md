@@ -1,12 +1,12 @@
-# Conversion of a Purchase: To Convert a Purchase to Multiple Assets {#_e70bc5e2-6f05-4db2-acfa-45a45787dc0e .task}
+# Conversion of a Purchase: To Convert a Purchase to Multiple Assets
 
 The following activity will walk you through the process of converting a purchase to multiple fixed assets.
 
-## Story {#section_xqc_ljv_vxb .section}
+## Story
 
 Suppose that on February 1, 2026, SweetLife Fruits &amp; Jams purchased three desktop computers for the *HEADOFFICE* branch, one server, and five anti-virus software licenses. Acting as a SweetLife accountant, you need to convert this purchase to multiple fixed assets.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -15,11 +15,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *COMPULINK* vendor has been created.
 -   On the [Fixed Assets Preferences](FA_10_10_00.md) \(FA101000\) form, the **Automatically Release Acquisition Transactions** check box has been cleared. With this check box cleared, acquisition transactions are created with the *On Hold* status, and you will have to release these transactions manually on the [Release FA Transactions](FA_50_30_00.md) \(FA503000\) form.
 
-## Process Overview {#section_arc_ljv_vxb .section}
+## Process Overview
 
 In this activity, on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you will create an AP bill with three lines for the purchase of computer equipment. On the [Convert Purchases to Assets](FA_50_45_00.md) \(FA504500\) form, you will convert the bill lines to fixed assets. On the [Release FA Transactions](FA_50_30_00.md) \(FA503000\) form, you will release the purchasing transactions. Finally, on the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form, you will review one of the created assets; then you will review the settings of its depreciation method on the [Depreciation Table Methods](FA_20_26_00.md) \(FA202600\) form.
 
-## System Preparation {#section_crc_ljv_vxb .section}
+## System Preparation
 
 Before you begin converting a purchase to multiple fixed assets, do the following:
 
@@ -28,7 +28,7 @@ Before you begin converting a purchase to multiple fixed assets, do the followin
 3.  In the company to which you are signed in, be sure that you have implemented the fixed asset functionality by performing the following prerequisite activities: [Fixed Assets: To Set Up the System for Fixed Asset Management](../ImplementationGuide/config_FixedAssets_Implem_Activity_System.md), [Fixed Assets: To Configure the Fixed Asset Functionality](../ImplementationGuide/config_FixedAssets_Implem_Activity_FixedAssets_Subledger.md), and [Fixed Assets: To Create Fixed Asset Classes](../ImplementationGuide/config_FixedAssets_Implem_Activity_FixedAsset_Classes.md).
 4.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step 1: Creating a Purchasing Transaction {#section_erc_ljv_vxb .section}
+## Step 1: Creating a Purchasing Transaction
 
 In this step, you will create an AP bill to record the purchase of the items. This bill causes the purchasing transaction to be generated. To create the bill, do the following:
 
@@ -60,7 +60,7 @@ In this step, you will create an AP bill to record the purchase of the items. Th
 6.  On the form toolbar, click **Save** to save your changes.
 7.  On the form toolbar, click **Remove Hold**, and then click **Release** to release the AP bill.
 
-## Step 2: Converting Fixed Assets {#section_grc_ljv_vxb .section}
+## Step 2: Converting Fixed Assets
 
 To covert the lines of the AP bill to fixed assets, do the following:
 
@@ -83,7 +83,6 @@ To covert the lines of the AP bill to fixed assets, do the following:
     -   **Transaction Description**: `Desktop computer`
     Notice that in the **Purchase Transactions** table, the **Selected Amount** is now *1,350.00*. The following screenshot shows the three converted fixed assets.
 
-    ![](Images/activity_FA_Convert_Purchase_3_Assets_Converted.png "A bill converted into three fixed assets")
 
 8.  To convert the server to a fixed asset, in the **Fixed Assets** table, click **Add Row** on the table toolbar, and specify the following settings in the added row:
     -   **Asset Class**: *COMPUTERS* \(inserted automatically\)
@@ -96,14 +95,14 @@ To covert the lines of the AP bill to fixed assets, do the following:
 10. On the form toolbar, click **Process**.
 11. Open the [Asset Summary](FA_40_20_00.md) \(FA402000\) form to review the converted assets.
 
-## Step 3: Releasing the Purchasing Transactions { .section}
+## Step 3: Releasing the Purchasing Transactions
 
 To release the purchasing transactions, do the following:
 
 1.  Open the [Release FA Transactions](FA_50_30_00.md) \(FA503000\) form.
 2.  Select the unlabeled check box for the only *Purchasing* transaction in the table and on the form toolbar, click **Release**.
 
-## Step 4: Reviewing the Fixed Asset Settings {#section_lrc_ljv_vxb .section}
+## Step 4: Reviewing the Fixed Asset Settings
 
 To review the settings of one of the new fixed assets, do the following:
 
@@ -120,7 +119,6 @@ To review the settings of one of the new fixed assets, do the following:
 
     The table at the bottom of the form lists fixed deprecation percents for each recovery year. Year 1 is the year when the asset is acquired, and Year 6 is the year when the asset will be disposed of.
 
-    ![](Images/activity_FA_Convert_Purchase_Depreciation_Method.png "Settings of the MACRS5 table method")
 
 
 **Parent topic:**[Converting Purchases to Fixed Assets](../UserGuide/FixedAssets_Converting_Purchase_Mapref.md)

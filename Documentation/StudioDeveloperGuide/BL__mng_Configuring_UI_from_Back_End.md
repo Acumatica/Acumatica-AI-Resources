@@ -1,4 +1,4 @@
-# Configuring the UI from the Backend {#_be859525-1515-4b35-8ac4-19250ea1b144 .concept}
+# Configuring the UI from the Backend
 
 In this chapter, you can find information about configuration of the user interface of an Acumatica Framework-based application that involves not only the changing of the ASPX code of the form \(as described in [Configuring ASPX Pages and Reports](CW__mng.md)\) but also the implementation of business logic in the corresponding graph.
 

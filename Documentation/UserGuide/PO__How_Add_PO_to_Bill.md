@@ -1,8 +1,8 @@
-# To Manually Create an Accounts Payable Bill for a Purchase Order {#_88a38369-bcf8-4b68-b805-79124a22787c .task}
+# To Manually Create an Accounts Payable Bill for a Purchase Order
 
 In Acumatica ERP, you can create an AP bill and add to this bill a particular purchase order or multiple purchase orders of the same vendor specified in the bill. To create a bill for a purchase order, you use the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 
-## To Manually Create an Accounts Payable Bill for a Purchase Order { .section}
+## To Manually Create an Accounts Payable Bill for a Purchase Order
 
 1.  Open the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 2.  On the form toolbar, click **Add New Record**.
@@ -23,7 +23,7 @@ In Acumatica ERP, you can create an AP bill and add to this bill a particular pu
 11. In the table on the **Document Details** tab \(where the lines of the selected purchase orders have been added\), check the items' quantities and costs, and correct them, if needed.
 12. On the form toolbar, click **Save**.
 
-## Notes About the Procedure { .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

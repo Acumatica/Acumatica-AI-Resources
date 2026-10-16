@@ -1,4 +1,4 @@
-# To Work with a Code Item {#_bb254435-c33a-453a-bc58-9d0798deba59 .concept}
+# To Work with a Code Item
 
 The [Code Editor](../UserGuide/AU_20_40_00_CodeEditor.md) does not provide facilities you can use in Microsoft Visual Studio to develop and debug any source code in customization projects. To start working with a *Code* item in Visual Studio, perform the following instructions:
 

@@ -1,4 +1,4 @@
-# Cancellation of Attribute Event Handlers {#_93f78385-4879-433f-808a-96c04a43757d .concept}
+# Cancellation of Attribute Event Handlers
 
 In this topic, you can learn about cancellation of attribute event handlers.
 
@@ -9,7 +9,7 @@ Event handlers can be defined in a graph and in attributes. Graph event handlers
 
 For example, if you need to change the default value set by the PXDefault attribute for a field, you can define a FieldDefaulting event handler in the graph. In this graph event handler, you can assign a different default value and set e.Cancel to true to prevent the execution of the FieldDefaulting event handler defined in the PXDefault attribute \(see the following code\).
 
-```language-csharp
+```csharp
 protected virtual void ShipmentLine_Gift_FieldDefaulting(
     PXCache sender, PXFieldDefaultingEventArgs e)
 {

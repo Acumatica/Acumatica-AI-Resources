@@ -1,8 +1,8 @@
-# Bills with Withholding Tax: Generated Transactions {#_025f1d73-6b1f-4ee2-b0d5-68a1a15415f3 .concept}
+# Bills with Withholding Tax: Generated Transactions
 
 As you process a bill with a withholding tax applied, you create an AP bill and a payment. To update the vendor's balance, the system generates the GL transactions described in the following sections.
 
-## Transaction Generated for an AP Bill {#section_nqm_fjv_vxb .section}
+## Transaction Generated for an AP Bill
 
 When you create and release an AP bill, the system generates the following general ledger transaction:
 
@@ -13,7 +13,7 @@ When you create and release an AP bill, the system generates the following gener
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Bills and Adjustments](AP_30_10_00.md) form.
 
-## Transaction Generated for a Payment {#section_qqm_fjv_vxb .section}
+## Transaction Generated for a Payment
 
 When you create and release a payment, the system generates the following general ledger transaction:
 

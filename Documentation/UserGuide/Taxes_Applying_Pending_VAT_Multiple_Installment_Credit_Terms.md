@@ -1,8 +1,8 @@
-# Applying a Pending VAT: Processing of Documents with Multiple Installments {#_f2ff2515-cae8-4986-8e13-64198dd12de0 .concept}
+# Applying a Pending VAT: Processing of Documents with Multiple Installments
 
 Acumatica ERP supports pending VAT recognizable on payment in AR and AP documents with multiple-installment credit terms.
 
-## Workflow of the Pending VAT Recognition in AP {#section_vv2_1y4_y4b .section}
+## Workflow of the Pending VAT Recognition in AP
 
 For recognition of pending VAT applied to a line of an AP bill with multiple-installment credit terms, the typical process involves the actions and generated documents described below.
 
@@ -30,7 +30,7 @@ When a debit adjustment is applied to an AP bill \(and both of those documents a
 
 For more information, see [Applying a Pending VAT: To Apply a Pending VAT to an AP Bill with Multiple Installments](Taxes_Applying_Pending_VAT_Process_MultipleInstallments.md).
 
-## Workflow of the Pending VAT Recognition in AR {#section_h4p_fjv_vxb .section}
+## Workflow of the Pending VAT Recognition in AR
 
 For recognition of pending VAT applied to a line of an AR invoice with multiple-installment credit terms, the typical process involves the actions and generated documents described below.
 

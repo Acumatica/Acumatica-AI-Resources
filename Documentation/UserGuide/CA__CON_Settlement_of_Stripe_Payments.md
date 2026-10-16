@@ -1,4 +1,4 @@
-# Settlement of Stripe Payments {#_fc6bf52a-1f49-49f8-84ab-4831541bca71 .concept}
+# Settlement of Stripe Payments
 
 If your business operates outside the US or Canada and uses the Stripe processing center, you can seamlessly import settlement batches directly from Stripe into Acumatica ERP. The Stripe payment plug-in:
 
@@ -11,13 +11,13 @@ If your business operates outside the US or Canada and uses the Stripe processin
 
 -   Includes adjustments and their fees in the bank deposit. The **Adjustment Amount** box on the [Bank Deposits](CA_30_50_00.md) \(CA305000\) form includes the balance of adjustments. The **Adjustments Account** box is populated with the clearing account, which must be set up for a deposit account and a payment method on the **Clearing Accounts** tab of the [Cash Accounts](CA_20_20_00.md) \(CA202000\) form. Both the deposit account and the payment method must be linked to the Stripe processing center.
 
-## Settlement of Credit Card Payments { .section}
+## Settlement of Credit Card Payments
 
 The system automatically creates bank deposits based on payments settled with a bank. It imports settlement batches from the Stripe processing center and creates bank deposits based on these batches.
 
 For more information on the setup of the Stripe processing center, see [Setup of the Stripe Processing Center](CA__CON_Setup_Stripe_Proc_Center.md).
 
-## Import of Settlement Batches { .section}
+## Import of Settlement Batches
 
 You import settlement batches on the [Import Settlement Batches](CA_50_70_00.md) \(CA507000\) form. When the process completes, you click a link in the **Reference Number** column to open the batch on the [Settlement Batches](CA_30_70_00.md) \(CA307000\) form.
 
@@ -25,7 +25,7 @@ On this form, the net amount shown in the Summary area matches the payout amount
 
 If the batch includes adjustments, they’re shown on the **Adjustments** tab, and the number of adjustments is displayed in the **Adjustment Count** box of the Summary area.
 
-## Bank Deposit Creation { .section}
+## Bank Deposit Creation
 
 The way the system creates a deposit on the [Settlement Batches](CA_30_70_00.md) \(CA307000\) form depends on the type of payout:
 

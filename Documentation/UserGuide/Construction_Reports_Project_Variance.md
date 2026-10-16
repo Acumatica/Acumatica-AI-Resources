@@ -1,4 +1,4 @@
-# Construction Reports: Project Variance {#_92fe6043-5342-4e0d-a89e-dcbd4282cd09 .concept}
+# Construction Reports: Project Variance
 
 The [Project Variance](PM_65_10_20.md) \(PM651020\) generic inquiry form shows you where and why the project is over or under budget, schedule, or scope. Also, you can compare budgeted or scheduled values with actual values—a key step in keeping projects on track.
 
@@ -9,7 +9,7 @@ The [Project Variance](PM_65_10_20.md) \(PM651020\) generic inquiry form shows y
 
 This ensures that the system’s calculations include data from project-related documents that have been processed.
 
-## Review of a Project’s Revenue and Expenses { .section}
+## Review of a Project’s Revenue and Expenses
 
 On the [Project Variance](PM_65_10_20.md) \(PM651020\) generic inquiry form, you can see how quantity and unit rates drive project cost and revenue variances. It shows this information as of the date you specify—even before project tasks are complete. The system uses a factor analysis method to calculate the variance.
 
@@ -34,9 +34,9 @@ By comparing values in the following columns, you can easily identify overspendi
 
 You can also view project total amounts in the table footer.
 
-**Tip:** For a different perspective, you can create a pivot view of the table to group the data by task, cost code, and item. For details, see [Pivot Tables: Creation of a Pivot Table](Pivot_Tables_Pivot_As_FilterTab.md).
+**Tip:** For a different perspective, you can create a data view of the table to group the data by task, cost code, and item. For details, see [Data Views: General Information](Pivot_Tables_GeneralInfo.md).
 
-## Calculation of the Project Variance { .section}
+## Calculation of the Project Variance
 
 The system calculates values for all reporting groups in a consistent way. For example, let’s look at the formulas for the overall project expenses.
 

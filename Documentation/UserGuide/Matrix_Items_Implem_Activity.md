@@ -1,10 +1,10 @@
-# Matrix Items: Implementation Activity {#_2269b44e-6e51-4584-8d11-c3fe6cf1f57d .task}
+# Matrix Items: Implementation Activity
 
 In the following implementation activity, you will learn how to create attributes, template items, and matrix items. In addition, you will learn how to delete matrix items and apply changes to multiple related matrix items.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Fruit &amp; Jams company has decided to extend the assortment of items it sells, and to sell various packed nuts of two brands: Bronko's Nuts and Merry Squirrel. Packed nuts of the Bronko's Nuts brand have multiple variants, with each variant defined by the type of nut, the package weight, the specialty \(salted, spicy, roasted, raw, yogurt-covered, or chocolate-covered\), and the state of the shell. The Merry Squirrel brand has the same variants of packed nuts as the Bronko's nuts brand excluding the shell state because all nuts of this brand are always shelled. For now, sales managers are going to sell Merry Squirrel nuts in packages of 4 ounces; depending on sales, other sizes may be available in the future. The following combinations of specialty and nut type will be available initially:
 
@@ -18,7 +18,7 @@ Further suppose that according to the naming policy of matrix items, the identif
 
 You as an implementation manager have a task to prepare the system for these nuts to be purchased and sold. You will use the functionality of matrix items.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 For the purposes of this lesson, the following features have been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form:
 
@@ -31,7 +31,7 @@ The following entities, which you will use in this activity, have been predefine
 -   The *MNUTS* item class on the [Item Classes](IN_20_10_00.md) \(IN201000\) form
 -   The following attributes on the [Attributes](CS_20_50_00.md) \(CS205000\) form: *WEIGHT*, *SPECIALTY*, and *SHELL*.
 
-## Process Overview { .section}
+## Process Overview
 
 As you create matrix items and specify the related settings to prepare the system for matrix items to be purchased and sold, you will do the following:
 
@@ -51,14 +51,14 @@ As you create matrix items and specify the related settings to prepare the syste
 8.  On the [Template Items](IN_20_30_00.md) form, delete a matrix item
 9.  On the [Template Items](IN_20_30_00.md) form, modify the settings of the created matrix items through the template item
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating template items and matrix items, do the following:
 
 1.  Download the [Matrix\_Items\_Nutype\_Attribute](Files/Matrix_Items_Nutype_Attribute.xlsx) file, which holds the values of the *NUTYPE* attribute; you will create this attribute in this activity and upload the values.
 2.  Sign in to a company with the *U100* dataset preloaded; you should sign in as a system administrator with the *gibbs* login and *123* password.
 
-## Step 1: Creating an Attribute { .section}
+## Step 1: Creating an Attribute
 
 You will first create the attribute for nut types, which you will later add to the item class and use for the creating matrix items. Do the following:
 
@@ -76,7 +76,7 @@ You will first create the attribute for nut types, which you will later add to t
 
 You have created the attribute for nut types that will be used for creation of matrix items and uploaded the values of the attribute.
 
-## Step 2: Reviewing the Settings of Existing Attributes { .section}
+## Step 2: Reviewing the Settings of Existing Attributes
 
 Review the settings of the *WEIGHT*, *SPECIALTY*, and *SHELL* attributes, which have already been defined in the dataset, as follows:
 
@@ -116,7 +116,7 @@ Review the settings of the *WEIGHT*, *SPECIALTY*, and *SHELL* attributes, which 
 
 All attributes required for creating the matrix items for nuts have been defined.
 
-## Step 3: Adding Attributes to the Needed Item Class { .section}
+## Step 3: Adding Attributes to the Needed Item Class
 
 In this step, you will add the attributes to be used for matrix items to the *MNUTS* item class, which will provide default settings for the template item, as follows:
 
@@ -132,7 +132,7 @@ In this step, you will add the attributes to be used for matrix items to the *MN
 
 You have added the attributes to the item class and specified the *Variant* category for the attributes.
 
-## Step 4: Creating a Template Item { .section}
+## Step 4: Creating a Template Item
 
 Now you will create the template item that for the Bronko's Nuts brand. Do the following:
 
@@ -172,7 +172,7 @@ Now you will create the template item that for the Bronko's Nuts brand. Do the f
 
 You have created the template item that will provide default settings for the matrix items representing the variants of nuts.
 
-## Step 5: Creating Another Template Item {#section_bsc_cwn_4wb .section}
+## Step 5: Creating Another Template Item
 
 Now you will create the template item that for the Merry Squirrel brand. Do the following:
 
@@ -208,7 +208,7 @@ Now you will create the template item that for the Merry Squirrel brand. Do the 
 
 10. On the form toolbar, click **Save**.
 
-## Step 6: Creating the Matrix Items { .section}
+## Step 6: Creating the Matrix Items
 
 Now that you have configured the template item that contains the settings for the group of matrix items, you will create the matrix items as follows:
 
@@ -249,7 +249,7 @@ Now that you have configured the template item that contains the settings for th
 
 You have created all of the matrix items that are based on the *NUTS* template.
 
-## Step 7: Reviewing the Settings of a Matrix Item { .section}
+## Step 7: Reviewing the Settings of a Matrix Item
 
 Review the settings of the *ALD-CHT-04OZ* matrix item as follows:
 
@@ -258,14 +258,14 @@ Review the settings of the *ALD-CHT-04OZ* matrix item as follows:
 3.  On the **Attributes** tab, view the list of attribute values specific to this matrix item.
 4.  Close the window with the [Stock Items](IN_20_25_00.md) form.
 
-## Step 8: Deleting a Matrix Item { .section}
+## Step 8: Deleting a Matrix Item
 
 Suppose that you were told that spicy peanuts cannot be supplied by the vendor, so this item is not needed. To delete the stock item for the spicy peanuts, do the following:
 
 1.  While you are still viewing the **Matrix Items** tab on the [Template Items](IN_20_30_00.md) \(IN203000\) form with the *NUTS* template item selected, select the check box in the unlabeled column for the *PNT-SPC-04OZ* row.
 2.  On the table toolbar, click **Delete**. The item is deleted.
 
-## Step 9: Changing the Settings of the Template Item { .section}
+## Step 9: Changing the Settings of the Template Item
 
 Suppose that you were told that by default, all nuts will be stored in the wholesale warehouse. You will specify the warehouse in the template item settings and apply this change to existing matrix items based on this template. Do the following:
 

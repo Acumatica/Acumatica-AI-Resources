@@ -1,4 +1,4 @@
-# Preparing an On-Demand Statement {#_80d4dee1-fbec-41ea-aecb-5f7a67799eb9 .concept}
+# Preparing an On-Demand Statement
 
 In this chapter, you will find general information on how to prepare on-demand statements, a checklist for system implementation, and an activity that describes how to prepare an on-demand statement.
 

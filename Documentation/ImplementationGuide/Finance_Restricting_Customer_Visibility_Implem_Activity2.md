@@ -1,14 +1,14 @@
-# Customer Visibility: To Restrict Visibility to a New Company {#_786a44af-4e53-4918-a57d-31b2458747d2 .task}
+# Customer Visibility: To Restrict Visibility to a New Company
 
 The following activity will walk you through the process of restricting the visibility of a customer to a particular company with a base currency that is different from the base currency of the other companies in the tenant.
 
-## Story { .section}
+## Story
 
 Suppose that the management of SweetLife Fruits &amp; Jams has decided to implement multiple base currencies in Acumatica ERP. The implementation consultant has already set up a company with the CAD base currency and added all the companies that use the USD base currency to one company group. The company using the CAD base currency—SweetLife Canada—should work only with the Canadian customers.
 
 Acting as the implementation consultant, you need to limit the visibility of *EASYDINER* \(a Canadian customer\) to the SweetLife Canada company. You then need to verify that this customer can be selected in the documents for this company. To do this, you need to process a document and review the transaction posted to the general ledger. You will then update the settings of the rest of the customers by using an import scenario.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -19,13 +19,13 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form, the *EASYDINER* and *ABAKERY* customers have been configured.
 -   On the [Import Scenarios](../UserGuide/SM_20_60_25.md) \(SM206025\) form, the *Import Customers with Restricted Visibility* import scenario has been configured.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will restrict the visibility of a customer to the SweetLife Canada company on the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form. You will then sign in as a user who does not have access to the SweetLife Canada company and make sure that the customer is not visible for this user. You will sign in as a user with access to SweetLife Canada company, and on the [Invoices and Memos](../UserGuide/AR_30_10_00.md) \(AR301000\) form, you will process a document for the *EASYDINER* customer, selecting SweetLife Canada as the originating branch.
 
 Finally, on the [Import by Scenario](../UserGuide/SM_20_60_36.md) \(SM206036\) form, you will run a preconfigured import scenario to update the **Restrict Visibility To** setting for regular customers.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -35,7 +35,7 @@ Before you begin performing the steps of this activity, do the following:
 4.  On the [Branches](../UserGuide/CS_10_20_00.md) \(CS102000\) form, for the *SLCANADA* branch, be sure that the *Branch SLCanada* role, which is associated with the branch, is specified in the **Access Role** box \(**Configuration Settings** section\) on the **Branch Details** tab.
 5.  On the [Branches](../UserGuide/CS_10_20_00.md) form, be sure that the *MHEAD* branch has been extended as a customer. For details, see [Intercompany Sales Setup: Implementation Activity](Finance_Intercompany_SalesSetup_Implem_Activity.md).
 
-## Step 1: Restricting the Visibility of the Customer { .section}
+## Step 1: Restricting the Visibility of the Customer
 
 To restrict the visibility of the *EASYDINER* customer to SweetLife Canada, do the following:
 
@@ -51,7 +51,7 @@ To restrict the visibility of the *EASYDINER* customer to SweetLife Canada, do t
 
 5.  On the form toolbar, click **Save**.
 
-## Step 2: Reviewing the Visibility of the Customer { .section}
+## Step 2: Reviewing the Visibility of the Customer
 
 To review how the visibility of the customer has been restricted, do the following:
 
@@ -64,7 +64,7 @@ To review how the visibility of the customer has been restricted, do the followi
     Notice that the *EASYDINER* customer is not listed and that you cannot find it by using the Search box. This customer is not visible for the current user, because this user is assigned to the role that has access to the SweetLife Fruits &amp; Jams company only and is not assigned to the *Branch SLCanada* role, which is the access role of the company specified for the customer.
 
 
-## Step 3: Processing an Invoice for the Customer with Restricted Visibility { .section}
+## Step 3: Processing an Invoice for the Customer with Restricted Visibility
 
 To process an invoice for the *EASYDINER* customer, which has restricted visibility to the branch, do the following:
 
@@ -97,7 +97,7 @@ To process an invoice for the *EASYDINER* customer, which has restricted visibil
     The transaction has been posted for the *SLCANADA* branch, and the transaction currency specified in the **Currency** box is *CAD* because you selected this currency on the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form.
 
 
-## Step 4: Updating Customer Settings by Using an Import Scenario { .section}
+## Step 4: Updating Customer Settings by Using an Import Scenario
 
 Because the *Multiple Base Currencies* feature has been enabled after some customers were created in the system and the **Restrict Visibility To** box became required, this box has to be filled in for all the customers. You can use an import scenario to fill in the box for multiple customers quickly and easily. To update the **Restrict Visibility To** setting for regular customers, do the following:
 

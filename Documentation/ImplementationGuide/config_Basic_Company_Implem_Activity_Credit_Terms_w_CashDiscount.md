@@ -1,20 +1,20 @@
-# Credit Terms: To Define Credit Terms with a Cash Discount {#_428940dc-5fc4-4927-b2c6-c2d42d23a063 .task}
+# Credit Terms: To Define Credit Terms with a Cash Discount
 
 In this activity, you will learn how to define credit terms with a cash discount, which can be used by vendors in their relations with the company and by the company in its relations with customers.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife has agreements with its vendors stipulating that the company pays the full amount of each document within 30 days. A 3% cash discount is provided by the vendor if a document is fully paid within 10 days. Acting as an administrator, you have to define one set of credit terms, which indicate that the full amount of each document must be paid within 30 days and a cash discount can be taken if a document is paid within 10 days.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Credit Terms](../UserGuide/CS_20_65_00.md) \(CS206500\) form, you will create the credit terms for the new company.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start defining the credit terms, make sure that the company and its actual ledger has been created, as described in [Company Without Branches: To Configure a Company Without Branches](config_Basic_Company_Implem_Activity_Enabling_Features.md) and [General Ledger: To Create an Actual Ledger](config_Basic_Company_Implem_Activity_Actual_Ledger.md).
 
-## Step: Defining Credit Terms with a Cash Discount { .section}
+## Step: Defining Credit Terms with a Cash Discount
 
 To define the needed set of credit terms, do the following:
 

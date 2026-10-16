@@ -1,28 +1,36 @@
-# To Correct 1099 Amounts and Boxes {#_0649f535-882d-46ef-ad2f-6dc52bc6ba4d .task}
+# To Correct 1099 Amounts and Boxes
 
 You may need to change an amount or 1099 box to be reported on Form 1099-MISC after a bill from a 1099 vendor has been paid in the following cases:
 
 -   You have specified the 1099 box for the wrong line in the bill.
 
-    **Note:** You don't have to specify the 1099 box for every detail line of a bill that you process from a 1099 vendor. You have to specify the 1099 box in only the needed lines; you leave the **1099 Box** column empty for the lines that you don't want to include in the 1099-MISC or 1099-NEC form on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
+    **Tip:** You don't have to specify the 1099 box for every detail line of a bill that you process from a 1099 vendor. You have to specify the 1099 box in only the needed lines; you leave the **1099 Box** column empty for the lines that you don't want to include in the 1099-MISC or 1099-NEC form on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 
 -   You have specified the incorrect amount in the bill line for which the 1099 box is specified.
 -   You have specified the incorrect 1099 box \(or no 1099 box\) for a line in the bill for which a particular 1099 box should have been specified.
 
-    **Note:** You can correct 1099 boxes for released and paid bills if the corresponding 1099 year has not yet been closed.
+    **Attention:** You can correct 1099 boxes for released and paid bills if the corresponding 1099 year has not yet been closed.
 
+-   A bill with a 1099 box specified in one or more of its lines has a debit adjustment applied to it.
 
-In this topic, you will find the high-level steps you need to perform to correct a paid bill that has incorrect 1099-related lines.
+    In 1099 reports, only actual payments made for bills with 1099 boxes in their lines are included. Debit adjustments applied to a bill are not considered payments and are excluded from the reports. This means that if a debit adjustment covers part of the bill amount, the 1099-reported amount will be less than the full 1099 line amount. Thus, for such a bill, the amount will be reported according to the following formula: *Amount = \(1099 line amount \* Payment amount\) / Total amount of all lines*.
 
-**Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
+    To ensure that the full 1099 line amount is reported, do the following:
 
-## To Correct 1099 Amounts in a Bill {#section_qtp_njv_vxb .section}
+    1.  On the [Bills and Adjustments](AP_30_10_00.md) form, reverse the application of the debit adjustment to the bill.
+    2.  On the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form, create a payment for the amount that was previously covered by the debit adjustment.
+    3.  On the [Checks and Payments](AP_30_20_00.md) form, create a refund to offset the payment created in the previous step.
+    4.  Apply the refund to the debit adjustment.
+
+Below, you will find the high-level steps you need to perform to correct a paid bill that has incorrect 1099-related lines.
+
+## To Correct 1099 Amounts in a Bill
 
 1.  Open the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 2.  Do the following:
     1.  Reverse the incorrect bill. For step-by-step instructions, see [To Reverse a Bill](AP__how_Reversing_a_Bill.md).
 
-        **Note:** The system generates a debit adjustment that decreases the vendor's accounts payable balance.
+        **Attention:** The system generates a debit adjustment that decreases the vendor's accounts payable balance.
 
     2.  Verify the details of the debit adjustment, which should be generated with the exact lines from the reversed bill, and release the debit adjustment.
     3.  Copy the wrong bill to a new bill. For the new bill, correct the needed lines—change the incorrect amount or the **1099 Box** column value for a line—and release the new bill.
@@ -32,7 +40,7 @@ In this topic, you will find the high-level steps you need to perform to correct
     3.  Release the payment applications \(the correct bill application and the reversing entry for the application to the wrong bill\) by clicking **Release**.
     4.  Locate the debit adjustment that was created as a result of reversing the incorrect bill, and apply it to the incorrect bill to close the documents.
 
-## To Correct a 1099 Box in a Released or Paid Bill {#section_stp_njv_vxb .section}
+## To Correct a 1099 Box in a Released or Paid Bill
 
 1.  Open the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 2.  Open the bill for which you want to correct the 1099 box. \(This bill must have the *Open* or *Closed* status.\)

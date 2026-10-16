@@ -1,4 +1,4 @@
-# Integration with AD FS {#_61a9e2ba-009c-4254-b09e-efe803d42a39 .concept}
+# Integration with AD FS
 
 You integrate Acumatica ERP with Microsoft Active Directory Federation Services \(AD FS\) when you want to manage users and access rights using Active Directory \(AD\) and your Acumatica ERP instance is deployed on the Internet but not in your organization's intranet.
 
@@ -9,7 +9,7 @@ Integration of Acumatica ERP with AD FS also provides single sign-on for domain 
 -   This functionality is available only if the *Active Directory and Other External SSO* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) form.
 -   We do not recommend using the AD FS authentication simultaneously with the OpenID authentication.
 
-## Requirements { .section}
+## Requirements
 
 To seamlessly integrate your AD FS server and your Acumatica ERP instance, make sure that the following requirements are met.
 
@@ -17,7 +17,7 @@ To seamlessly integrate your AD FS server and your Acumatica ERP instance, make 
 -   AD FS is configured to provide access to external web services.
 -   The domain users have preconfigured email addresses.
 
-## Configuration Steps { .section}
+## Configuration Steps
 
 You can configure integration with AD FS when you implement Acumatica ERP or at any later time. To integrate an instance of Acumatica ERP with AD FS, you perform the following steps:
 
@@ -32,7 +32,7 @@ You can configure integration with AD FS when you implement Acumatica ERP or at 
 4.  Optional: If required, override the roles assigned to any user automatically by selecting the required roles manually. For details, see [To Set Up Role Assignment for Domain Users](US__how_ADFS_Groups_Override.md).
 5.  Optional: If you want to use the AD FS service as the default identity provider, enable silent logon with AD FS, as described in [To Enable Silent Logon](US__how_ADFS_Silent_Logon_Enable.md).
 
-## User Accounts of Domain Users in Acumatica ERP { .section}
+## User Accounts of Domain Users in Acumatica ERP
 
 After you have enabled integration with the identity management system, user accounts for domain users are created automatically when the users sign in to your Acumatica ERP instance for the first time.
 
@@ -47,11 +47,10 @@ To speed up the authentication of users, the information about AD groups is auto
 
 The **Reload AD Groups** button appears only when you have integrated the Acumatica ERP instance with AD or Microsoft Entra ID and when the number of user groups in AD or Entra ID is greater than or equal to the value of the `ADGroupCacheLimit` parameter specified in the `web.config` file. If the number of users and groups in AD is less than the value of the `ADGroupCacheLimit` parameter, Acumatica ERP retrieves the lists of users and groups directly from AD.
 
-## Domain User Authentication { .section}
+## Domain User Authentication
 
 After integration of Acumatica ERP with AD FS users use single sign-on \(SSO\) with the domain to sign in to Acumatica ERP. By default, the users do the following to authenticate themselves:
 
-1.  On the Sign-In page of your Acumatica ERP instance, the user selects the Entra ID icon \(![](Images/AD_AzureAD.png)\) to open the AD FS sign-in page.
 2.  On the sign-in page, the user enters the domain credentials in the following format: `<User_Name>@<Domain_Name>`, where *&lt;User\_Name&gt;* is the user account name in the integrated domain and *&lt;Domain\_Name&gt;* is the UPN suffix, also known as the domain name.
 
 To simplify the procedure, you can configure silent logon with the AD FS server. For more information, see [To Enable Silent Logon](US__how_ADFS_Silent_Logon_Enable.md).
@@ -60,7 +59,7 @@ To simplify the procedure, you can configure silent logon with the AD FS server.
 
 You need to ensure that all users can sign in to that first company. If they cannot, they will not be able to select a different company to sign in to.
 
-## Domain User Authorization { .section}
+## Domain User Authorization
 
 When a domain user tries to access Acumatica ERP, user authorization occurs as follows:
 
@@ -74,7 +73,7 @@ When a domain user tries to access Acumatica ERP, user authorization occurs as f
 
 For more information about authentication in Acumatica ERP, see [Managing User Access](../Shared/../UserGuide/SA_Managing_User_Access_Mapref.md). For details about roles and access rights in Acumatica ERP, see [Configuring User Roles](../Shared/../UserGuide/User_Roles_Mapref.md).
 
-## Access Rights of Domain Users { .section}
+## Access Rights of Domain Users
 
 Domain users inherit access rights from the AD groups that you have mapped to Acumatica ERP user roles. In addition, you can assign specific user roles to each domain user if the access rights for this user should differ from the AD group rights.
 

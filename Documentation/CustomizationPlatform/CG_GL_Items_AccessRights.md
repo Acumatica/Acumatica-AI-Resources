@@ -1,4 +1,4 @@
-# Access Rights {#_10902b74-6f4a-46c0-be0d-6765625e7499 .concept}
+# Access Rights
 
 In Acumatica ERP, you can control access to system objects at broad and granular levels, down to the control of form elements, such as buttons, text boxes, and check boxes. Users are assigned the roles, and you give these roles the appropriate levels of access rights to system objects—functional areas, forms, and form elements. For more information, see [Managing User Access](../UserGuide/SA_Managing_User_Access_Mapref.md).
 

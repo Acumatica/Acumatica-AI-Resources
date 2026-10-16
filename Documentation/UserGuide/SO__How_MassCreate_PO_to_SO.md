@@ -1,8 +1,8 @@
-# To Create a Purchase Order for Multiple Sales Orders {#_b776d5e5-4a9c-4beb-8ac3-eef7173d50ea .task}
+# To Create a Purchase Order for Multiple Sales Orders
 
 You can create purchase orders for multiple sales orders that have lines marked for purchasing at once by using the [Create Purchase Orders](PO_50_50_00.md) \(PO505000\) form, as described in this topic.
 
-## To Create a Purchase Order for Multiple Sales Orders { .section}
+## To Create a Purchase Order for Multiple Sales Orders
 
 1.  Open the [Create Purchase Orders](../Shared/../UserGuide/PO_50_50_00.md) \(PO505000\) form.
 2.  If needed, change the **Creation Date**, which is the date that the system will insert for the generated purchase order.

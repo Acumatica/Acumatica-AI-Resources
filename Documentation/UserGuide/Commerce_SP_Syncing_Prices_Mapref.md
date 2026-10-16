@@ -1,4 +1,4 @@
-# Synchronizing Sales Price Lists {#_edbdce1d-ae8d-41f8-a35e-df76ab1f8de7 .concept}
+# Synchronizing Sales Price Lists
 
 In this chapter, you will learn how sales price lists are synchronized between Acumatica ERP and the Shopify store.
 

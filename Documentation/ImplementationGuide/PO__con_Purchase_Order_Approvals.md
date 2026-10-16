@@ -1,4 +1,4 @@
-# Specific Approvals: Purchase Orders {#_2011994b-501a-405a-82a7-515ebd2ffea2 .concept}
+# Specific Approvals: Purchase Orders
 
 Most companies have established their own processes of reviewing and approving purchase orders. Generally, all purchase orders require at least one approval, and orders with amounts above a particular threshold require at least one additional approval.
 
@@ -6,7 +6,7 @@ With Acumatica ERP, you can set up as many approvals as your company's policies 
 
 **Note:** Purchase orders are available if the *Order Management* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form.
 
-## Configuration of Approval for Purchase Orders { .section}
+## Configuration of Approval for Purchase Orders
 
 To make it possible to set up the approval functionality of purchase orders, perform the following general steps:
 
@@ -21,7 +21,7 @@ To make it possible to set up the approval functionality of purchase orders, per
 
 For details on setting up the approval of purchase orders, see [To Set Up the Approval of Purchase Orders](PO__how_Set_Up_Approval.md).
 
-## General Rules for Configuring Parallel Approvals { .section}
+## General Rules for Configuring Parallel Approvals
 
 If your company requires multiple independent approvals for a purchase order of a specific type, you can configure parallel approvals. In this case, every purchase order of the type is approved by multiple employees in any order; the number of required approvals can depend on the document total, specific vendor, particular item, or other conditions. For example, in a small company, each purchase order might be approved by a buyer, purchasing manager, and CFO independently. In this case, you will need three maps, each of which assigns all orders unconditionally to one of these approvers.
 
@@ -29,7 +29,7 @@ To set up parallel approvals for any purchase order type \(normal, drop-ship, pr
 
 **Note:** For each order type, you can configure one approval map per required approval. You can also assign the same approval map to multiple order types.
 
-## Parallel Approval Workflow { .section}
+## Parallel Approval Workflow
 
 After parallel approval has been configured for a specific type of purchase orders in your system, an order of the type will be processed as follows. When a user removes a purchase order from hold by clicking **Remove Hold** on the form toolbar of the [Purchase Orders](../UserGuide/PO_30_10_00.md) \(PO301000\) form, the system applies all the applicable approval maps to select the appropriate approvers for the order and changes the status of the order to *Pending Approval*. The system shows the approvers for the order on the **Approvals** tab of the form.
 
@@ -41,7 +41,7 @@ Each approver may approve or reject the order by using either the [Approvals](..
 
 If a purchase order of a particular type should be approved by multiple employees, the order's status does not indicate whether the order has been approved by some users or has not yet been approved at all. Once an order is assigned for approval, it has the *Pending Approval* status until all approvals have been completed. Detailed information about multiple approvals appears on the **Approvals** tab of the [Purchase Orders](../UserGuide/PO_30_10_00.md) form. The order is assigned the *Open* status only after all required approvals have been received. Open purchase orders may be emailed, or printed and mailed, to the vendor.
 
-## General Rules for Configuring Multistage Approvals { .section}
+## General Rules for Configuring Multistage Approvals
 
 If a purchase order of a specific type should be approved sequentially by multiple people in your company, you should configure multistage approval of these orders.
 
@@ -55,7 +55,7 @@ Consider an example of multistage approvals. You might require that all purchase
 
 The assignment rules for multistage approval should be designed in such a way that an order, when it is saved, is assigned to *Buyer* workgroup only if its current approval group is *none*, to *Purchase Manager* workgroup when its current approval group is *Buyer*, and to the *CFO* workgroup when its current approval group is *Purchase Manager* and only if the order total is greater than $5000. For each approval level, you can add as many level-specific conditions as needed \(such as whether the order amount exceeds a specific threshold amount or whether it includes specific items\).
 
-## Multistage Approval Workflow { .section}
+## Multistage Approval Workflow
 
 After multistage approval has been configured in your system, an order of the type will be processed as follows: When a user removes a purchase order from hold by clicking **Remove Hold** on the form toolbar of the [Purchase Orders](../UserGuide/PO_30_10_00.md) \(PO301000\) form, the system applies the specified rules to select the initial approver for the order and changes the status of the order from *On Hold* to *Pending Approval*. The system shows the approvers for the order on the **Approvals** tab of the [Purchase Orders](../UserGuide/PO_30_10_00.md) form.
 

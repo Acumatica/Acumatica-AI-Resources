@@ -1,4 +1,4 @@
-# Automating Synchronization {#_80522460-4e2d-4b80-bf62-3d02fd1b3e9f .concept}
+# Automating Synchronization
 
 In this section, you will learn how to automate the synchronization of entities between Acumatica ERP and the Shopify store by setting up automation schedules or by turning on real-time synchronization.
 

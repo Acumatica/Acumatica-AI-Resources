@@ -1,4 +1,4 @@
-# To Add Business Events to a Project {#_cde8431d-2785-4453-a7ba-54c25f6f92d3 .task}
+# To Add Business Events to a Project
 
 You can add any number of business events to a customization project as *BpEvent* items. A *BpEvent* item contains all the data required to recreate the corresponding business event in any instance of Acumatica ERP.
 

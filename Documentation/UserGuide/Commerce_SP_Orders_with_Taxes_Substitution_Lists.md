@@ -1,8 +1,8 @@
-# Import of Taxes: Substitution Lists {#_c3958f2a-1324-48e1-bc3f-89550d870c5c .concept}
+# Import of Taxes: Substitution Lists
 
 When you set up the synchronization of taxes between Acumatica ERP and the Shopify store, you specify the substitution lists in the **Substitution Lists** section of the **Orders** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form. The following sections describe how substitution lists specified in these boxes are used during the synchronization of orders and stock and non-stock items.
 
-## Substitution List for Taxes { .section}
+## Substitution List for Taxes
 
 If you use Acumatica ERP for tax reporting \(without an external tax provider\), when you configure tax synchronization, you need to make sure that all taxes that might be applied in the Shopify store have also been set up on the [Taxes](TX_20_50_00.md) \(TX205000\) form. Taxes whose IDs do not match the IDs of taxes in the Shopify store should be mapped with external tax IDs in a substitution list as follows: Taxes whose IDs in the Shopify store do not match the IDs of taxes in Acumatica ERP or taxes with the same ID but different rates in the Shopify store should be mapped with tax IDs in Acumatica ERP in a substitution list as follows:
 
@@ -26,7 +26,7 @@ When an order containing taxes is being imported to Acumatica ERP, for each tax 
 
 If the tax has been found, the system adds it to the imported order. Otherwise, the synchronization of the order fails and an error is displayed for the order's synchronization record on the [Sync History](BC_30_10_00.md) \(BC301000\) form.
 
-## Substitution List for Tax Categories { .section}
+## Substitution List for Tax Categories
 
 In Acumatica ERP, you can assign tax categories to stock and non-stock items. To make sure taxes are calculated correctly when an item is ordered in a Shopify store, you need to map the tax categories in Acumatica ERP to the tax categories in the Shopify store by using a substitution list as follows:
 

@@ -1,12 +1,12 @@
-# Graph Extensions: Enabling a Graph Extension Conditionally \(with IsActive\) {#_cd70b408-b389-4bd8-8502-3d9c12b11112 .concept}
+# Graph Extensions: Enabling a Graph Extension Conditionally \(with IsActive\)
 
 You need to disable a graph extension when it isn’t required by the system logic \(for example, when the feature that uses the extension is not enabled\). When an extension is constantly active, it can impair the system's performance. You can also disable a graph extension for a specific derived graph.
 
-## Enabling a Graph Extension Conditionally { .section}
+## Enabling a Graph Extension Conditionally
 
 To disable or enable a graph extension depending on a condition, you need to implement the public static bool IsActive method in the extension. The following code shows an example of the implementation of the IsActive method.
 
-```language-csharp
+```csharp
 public static bool IsActive()
 {
     return PXAccess.FeatureInstalled<FeaturesSet.rutRotDeduction>();
@@ -23,7 +23,7 @@ If the IsActive method returns false for an extension, this extension is not loa
 
 **Attention:** If a graph extension has higher-level extensions, to disable each higher-level extension, you need to implement the IsActive method in it as well. If the base graph extension is disabled while the higher-level extension is not, an error is thrown. For details on higher-level extensions, see [Graph Extensions: General Information](CodeCustomization_GraphExtension_GeneralInfo.md).
 
-## Disabling a Graph Extension for the Base Graph and All Derived Graphs { .section}
+## Disabling a Graph Extension for the Base Graph and All Derived Graphs
 
 Suppose that you have the following graph and graph extensions \(shown in the diagram below\):
 
@@ -31,11 +31,10 @@ Suppose that you have the following graph and graph extensions \(shown in the di
 -   The SOInvoiceEntry and ARSpecificInvoiceEntry graphs, which are derived from ARInvoiceEntry
 -   The ARInvoiceEntryAdvanceTaxesExt graph extension, which has been declared for ARInvoiceEntry
 
-![](../Shared/Images/diag_CodeCustomization_GraphExtension_IsActive.png "Relations between graphs")
 
 The IsActive method in a graph extension controls whether the graph extension is enabled and applied to the graph specified in the graph extension’s declaration and all of the graph’s inheritors. In the current example, if the IsActive method is declared in ARInvoiceEntryAdvanceTaxesExt and returns false, then the ARInvoiceEntryAdvanceTaxesExt graph extension is disabled for all of the following graphs: ARInvoiceEntry, ARSpecificInvoiceEntry, and SOInvoiceEntry.
 
-## Disabling a Graph Extension for a Derived Graph { .section}
+## Disabling a Graph Extension for a Derived Graph
 
 Sometimes you may need to have more granular control over the graph extension activity. That is, you may want to do the following:
 
@@ -44,7 +43,7 @@ Sometimes you may need to have more granular control over the graph extension ac
 
 The IsActive method does not help in these cases. To support these scenarios, you need to declare a public static bool-returning generic method named IsActiveForGraph&lt;TGraph&gt;, as the following code shows.
 
-```language-csharp
+```csharp
 public static bool IsActiveForGraph<TGraph>()
 ```
 
@@ -54,14 +53,14 @@ You can implement the two cases described above as follows:
 
 -   **Disabling the graph extension for a specific graph inheritor**: If you don’t want to apply the logic from ARInvoiceEntryAdvanceTaxesExt to SOInvoiceEntry, for example, the implementation of the IsActiveForGraph method should be coded as follows.
 
-    ```language-csharp
+    ```csharp
     public static bool IsActiveForGraph<TGraph>() 
         => typeof(TGraph) != typeof(SOInvoiceEntry);
     ```
 
 -   **Disabling a graph extension for only derived graphs**: If you want the ARInvoiceEntryAdvanceTaxesExt graph extension to be applied to only the ARInvoiceEntry graph, for example, the implementation of the IsActiveForGraph method should be coded as follows.
 
-    ```language-csharp
+    ```csharp
     public static bool IsActiveForGraph<TGraph>() 
         => typeof(TGraph) == typeof(ARInvoiceEntry);
     ```
@@ -69,7 +68,7 @@ You can implement the two cases described above as follows:
 
 The full code of the ARInvoiceEntryExt graph extension in this example looks as follows.
 
-```language-csharp
+```csharp
 public class ARInvoiceEntryExt : PXGraphExtension<ARInvoiceEntry>
 {
 	public static bool IsActive()
@@ -86,13 +85,13 @@ public class ARInvoiceEntryExt : PXGraphExtension<ARInvoiceEntry>
 }
 ```
 
-## Disabling a Generic Graph Extension {#section_ikj_n5y_1nb .section}
+## Disabling a Generic Graph Extension
 
 If you have a generic graph extension and graph extensions derived from this generic graph extension, to disable them, you implement the IsActive method in each of the derived graph extensions.
 
 For example, suppose you have a generic graph extension declared as shown the following code.
 
-```language-csharp
+```csharp
 public class GraphExtBase<TGraph, TDac> : PXGraphExtension<TGraph>
     where TGraph : PXGraph
     where TDac : class, IBqlTable
@@ -101,14 +100,14 @@ public class GraphExtBase<TGraph, TDac> : PXGraphExtension<TGraph>
 
 The following code shows the derived graph extension.
 
-```language-csharp
+```csharp
 public class GraphExtAPInvoice : 
     GraphExtBase<APInvoiceEntry, APInvoice>{}
 ```
 
 To disable the `GraphExtAPInvoice` graph extension, you need to implement the IsActive method, as the following code shows.
 
-```language-csharp
+```csharp
 public class GraphExtAPInvoice : 
     GraphExtBase<APInvoiceEntry, APInvoice>
 {
@@ -121,7 +120,7 @@ public class GraphExtAPInvoice :
 
 For details on generic graph extensions, see [Generic Graph Extensions: General Information](CodeCustomization_GenericExtension_GeneralInfo.md).
 
-## Restrictions in the IsActive Method { .section}
+## Restrictions in the IsActive Method
 
 Inside the IsActive method, you shouldn’t create a graph instance because it can lead to deadlocks. If you need to read data from the database, you can use database slots by doing the following:
 
@@ -130,7 +129,7 @@ Inside the IsActive method, you shouldn’t create a graph instance because it c
 
 For example, suppose that you need to enable the extension in the IsActive method only if the `InspectionEnabled` property of `SOSetup` DAC is true. The following code shows how you can access the `InspectionEnabled` property by using a database slot.
 
-```language-csharp
+```csharp
 private class SOSetupInspection : IPrefetchable
 {
     public static bool InspectionEnabled =>

@@ -1,4 +1,4 @@
-# Items with Lot and Serial Numbers: Lot and Serial Attributes {#_602d6356-ac18-42a2-ab32-223e5d2fa975 .concept}
+# Items with Lot and Serial Numbers: Lot and Serial Attributes
 
 Your company may need to specify and track attributes for individual units of items that are assigned lot or serial numbers. An attribute is a quality or characteristic that provides information that is important to your company. For example, for lot-controlled textiles, you may need attributes such as length, thickness, and style. Similarly, for serial-tracked items, such as digital cameras, you may need attributes such as manufacturer, year, and model.
 
@@ -6,7 +6,7 @@ In Acumatica ERP, you can track additional information about units of stock item
 
 **Attention:** This functionality is available only if the *Lot/Serial Attributes* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Setup of Lot and Serial Attributes { .section}
+## Setup of Lot and Serial Attributes
 
 Before you begin using lot or serial attributes, you need to define each attribute on the [Attributes](CS_20_50_00.md) \(CS205000\) form. Then you define the attributes to be used for the items of a lot or serial class by adding the attributes in the **Attributes** section of the [Lot/Serial Classes](IN_20_70_00.md) \(IN207000\) form.
 
@@ -18,7 +18,7 @@ On the **Attributes** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form
 
 **Important:** You cannot delete a lot or serial attribute from the [Stock Items](IN_20_25_00.md) or [Lot/Serial Classes](IN_20_70_00.md) form if at least one unit with a lot or serial number has been added to an unprocessed sales order.
 
-## Specification of Values for Lot and Serial Attributes { .section}
+## Specification of Values for Lot and Serial Attributes
 
 When a unit of a stock item with a lot or serial number has been purchased, you can specify attribute values for this unit in the **General** table of the **Line Details** dialog box on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) or [Receipts](IN_30_10_00.md) \(IN301000\) form. You open this dialog box by clicking the line on the **Details** tab of the form and clicking **Line Details** on the table toolbar. The table contains the attributes and attribute values that are specified for each unit of the stock item selected in the line.
 
@@ -26,7 +26,7 @@ When a unit of a stock item with a lot or serial number has been purchased, you 
 
 For each lot or serial number, you can specify different attribute values. If the values for all listed units are the same, you can assign all the attribute values from the first line to all the units in the table by clicking **Use Attributes from First Line** on the table toolbar. Also, for each lot or serial number, you can specify the manufacturer's lot or serial number in the **Manufacturer Lot/Serial Nbr.** column.
 
-## Viewing and Modification of Lot or Serial Details for a Unit of a Stock Item { .section}
+## Viewing and Modification of Lot or Serial Details for a Unit of a Stock Item
 
 On the [Lot/Serial Details](IN_20_96_00.md) \(IN209600\) form, you can view the settings of a particular unit of a stock item with a lot or serial number, such as the lot or serial class, the expiration date, and the manufacturer's lot or serial number. You can view a unit on this form only if the unit either is in stock or has been issued from the warehouse and has the following settings specified on the [Lot/Serial Classes](IN_20_70_00.md) \(IN207000\) form:
 
@@ -35,7 +35,7 @@ On the [Lot/Serial Details](IN_20_96_00.md) \(IN209600\) form, you can view the 
 
 On the **Attributes** tab of the [Lot/Serial Details](IN_20_96_00.md) form, you can view and modify the attribute values of a unit. On the **Description** tab, you can add or update an extended description of the item and upload its image. On the **History** tab, you can review the history of the related inventory documents.
 
-## Specification of a Sales Price and Description for a Unit of a Stock Item { .section}
+## Specification of a Sales Price and Description for a Unit of a Stock Item
 
 Different units of a stock item may have different prices depending on each unit's attribute values. If the **Specify Lot/Serial Price and Description** check box is selected for the lot or serial class of an item on the [Lot/Serial Classes](IN_20_70_00.md) \(IN207000\) form, you can define the sales price, MSRP, and description for a particular unit in the Summary area of the [Lot/Serial Details](IN_20_96_00.md) \(IN209600\) form.
 
@@ -53,7 +53,7 @@ When you add a unit of a stock item to a line on the **Details** tab of the [Sal
 
 **Attention:** This capability is available for an order on the [Sales Orders](SO_30_10_00.md) form as long as the order type does not have *Blanket Order* or *Quote* specified as its automation behavior on the **Template** tab of the [Order Types](SO_20_10_00.md) \(SO201000\) form.
 
-## Selection of a Lot- or Serial-Tracked Item in Documents { .section}
+## Selection of a Lot- or Serial-Tracked Item in Documents
 
 You can select a unit of a stock item with a lot or serial number in the following documents:
 
@@ -65,6 +65,10 @@ You can select a unit of a stock item with a lot or serial number in the followi
 To select the unit, you click **Add Lot/Serial Nbr.** on the table toolbar of the **Details** tab. In the **Add Lot/Serial Nbr.** dialog box, which opens, you can view item availability and select units. The table in the dialog box displays columns with the attribute values of each unit with a particular lot or serial number. In the **Search** box, you can search for units with lot or serial numbers by typing text strings that may be included in attribute values or other columns with information about the item.
 
 When you add a unit with a lot or serial number to a sales order, the system inserts each unit with a lot or serial number in a separate line on the **Details** tab. Also, the system allocates the unit with this lot or serial number for this order.
+
+## Updating Attributes After Re-Enabling the Feature
+
+If the *Lot/Serial Attributes* feature is re-enabled after being disabled, the **Update Attributes** button becomes available on the [Lot/Serial Details](IN_20_96_00.md) \(IN209600\) form. When you click the button for any lot or serial number, the system initializes the related attribute records for all applicable lot and serial numbers, making them available for selection on the form.
 
 **Parent topic:**[Managing Items with Lot and Serial Numbers](../UserGuide/Lot_and_Serial_Numbers_Mapref.md)
 

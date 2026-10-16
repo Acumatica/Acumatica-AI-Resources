@@ -1,10 +1,9 @@
-# Dialog Box: Configuration {#_2a6496fa-4d66-4403-9335-dacde369bc3b .concept}
+# Dialog Box: Configuration
 
 A dialog box can contain a Summary area, a grid, and a footer with buttons, as shown in the following screenshot.
 
-![](Images/UIDevRef_Popup_Layout.png "Sample layout of a dialog box")
 
-## View Definition of a Dialog Box { .section}
+## View Definition of a Dialog Box
 
 The following code shown an example of a view declaration and initialization for a dialog box.
 
@@ -71,7 +70,7 @@ export class SOSiteStatusSelected extends PXView {
 }
 ```
 
-## Layout of a Dialog Box { .section}
+## Layout of a Dialog Box
 
 To define the layout of the Summary area of a dialog box, you use one of the predefined templates. For details, see [Form Layout: Predefined Templates](UIDev_DesigningLayout_Templates.md). The following code shown an example of the HTML for the dialog box in the preceding screenshot.
 
@@ -110,7 +109,7 @@ To define the layout of the Summary area of a dialog box, you use one of the pre
 </qp-panel>
 ```
 
-## Width and Height of a Dialog Box { .section}
+## Width and Height of a Dialog Box
 
 Generally, you do not need to specify the width and height of a dialog box. If you need to change the width and height of the dialog box that are detected by default, you can use the `width` and `height` attributes of the qp-panel tag.
 
@@ -159,7 +158,7 @@ The following code shows an example of configuring adaptive height in a dialog b
 </qp-panel>
 ```
 
-## Buttons of a Dialog Box {#_8a131a0d-6156-43fa-adab-03ed35c80ad4 .section}
+## Buttons of a Dialog Box
 
 To add a button to the dialog box, you do the following:
 

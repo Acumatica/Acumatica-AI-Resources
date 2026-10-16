@@ -1,4 +1,4 @@
-# Preparing Data for Import and Export by Using Scenarios {#_f4d438bd-9c2a-40ea-b9bf-6df0c6cbce6a .concept}
+# Preparing Data for Import and Export by Using Scenarios
 
 Before you import data to or export data from Acumatica ERP, you must define to the Acumatica ERP system the format of the data in the external system or file. For this purpose, you use data providers in the system.
 

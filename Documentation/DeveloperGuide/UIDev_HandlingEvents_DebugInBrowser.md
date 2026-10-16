@@ -1,4 +1,4 @@
-# UI Events: Debugging the UI Code in the Browser {#_8016ed6d-54c7-4a74-8e0b-e5640511f21b .concept}
+# UI Events: Debugging the UI Code in the Browser
 
 You can debug any typescript code including the code of event handlers using developer tools.
 
@@ -10,7 +10,6 @@ You can set a breakpoint in the code. When the breakpoint is hit, in the **Conso
 
 For example, in the following screenshot, the TypeScript code of the [Bills and Adjustments](../UserGuide/AP_30_10_00.md) \(AP301000\) form is open, as Item 1 shows. A breakpoint is set for a line in the code \(Item 2\). This breakpoint is hit during the opening of the form, and the debugger has stopped on this line. In the console, the `row.DeferredCode` name has been entered, and the value of this variable is displayed \(Item 3\).
 
-![](Images/UIDev_Troubleshooting_BrowserTools_Sources.png "Debugging in the web browser")
 
 **Parent topic:**[Handling UI Events](../DeveloperGuide/UIDev_HandlingEvents_Mapref.md)
 

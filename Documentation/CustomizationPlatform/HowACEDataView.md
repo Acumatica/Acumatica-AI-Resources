@@ -1,4 +1,4 @@
-# Modifying a BLC Data View {#_7e9c3596-6a89-4580-b509-fe1b77556e5e .concept}
+# Modifying a BLC Data View
 
 A *data view* is a PXSelect BQL expression declared in a business logic controller \(BLC, also referred to as *graph*\) for accessing and manipulating data. A data view may contain a delegate that is used to extend data access. To modify the data view, you have to alter the appropriate PXSelect BQL expression.
 
@@ -6,7 +6,6 @@ Suppose that you need to filter the rows on the **Vendors** tab of the Stock Ite
 
 Your task is to modify the selection of records for the **Vendors** tab so that only the records that have a non-zero **Lot Size** value are retrieved to the tab. To resolve this customization task, you have to redeclare the data view that provides the data displayed on the tab.
 
-![](images/CustomizeDataView.png "Viewing the original Stock Items form")
 
 The data for the **Vendors** tab is provided by the VendorItems data view that is defined in the InventoryItemMaint class—that is, the business logic controller for the Stock Items form. To resolve the customization task, you have to redefine the VendorItems data view in the BLC extension for the business logic controller of the form as follows:
 
@@ -17,7 +16,6 @@ The data for the **Vendors** tab is provided by the VendorItems data view that i
 
     The Code Editor opens for customization of the business logic code of the form \(see the screenshot below\). The system generates the BLC extension class in which you can develop the customization code. \(See [Graph Extensions](CG_Platform_TO_Code_CS_GraphExtensions.md) for details.\)
 
-    ![](images/CustomizeDataView2.png "The BLC extension class generated for customization of the business logic code executed for the Stock Items form")
 
 4.  In the BLC extension class for InventoryItemMaint, redefine the `VendorItems` data view, as listed below.
 

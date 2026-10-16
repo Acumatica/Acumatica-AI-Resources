@@ -20,7 +20,7 @@ Identify the source and license of any third-party material. Describe any AI ass
 
 ## Checklist
 
-- [ ] This pull request targets `2026R1`, the latest published release branch.
+- [ ] This pull request targets `2026R2`, the latest published release branch.
 - [ ] The change is focused and links an accepted proposal when required.
 - [ ] No file under `Documentation/` is added, edited, moved, renamed, or deleted.
 - [ ] Every added or changed skill was reviewed with `verifying-skills`.

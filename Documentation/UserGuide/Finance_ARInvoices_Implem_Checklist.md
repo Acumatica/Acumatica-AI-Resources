@@ -1,8 +1,8 @@
-# AR Invoices: Implementation Checklist {#_03123a62-51f7-4476-82c1-424a098c100d .concept}
+# AR Invoices: Implementation Checklist
 
 To ensure that the system has been configured properly for the processing of AR invoices, make sure that the criteria listed in the table have been met in the system as described.
 
-## Implementation Checklist {#section_jcn_4jv_vxb .section}
+## Implementation Checklist
 
 We recommend that before you initially process AR invoices, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -12,7 +12,7 @@ We recommend that before you initially process AR invoices, you make sure the ne
 |[Customers](AR_30_30_00.md) \(AR303000\)|Be sure that the customer accounts for the customers for which you will create AR invoices have been defined.| |
 |[Non-Stock Items](IN_20_20_00.md) \(IN202000\), [Stock Items](IN_20_25_00.md) \(IN202500\)|Verify the existence of non-stock items or stock items that can be used when you are creating AR invoices. For details, see [Non-Stock Item: Implementation Activity](Non_Stock_Item_Fin_Implem_Activity.md).| |
 
-## Settings That Affect the Workflow {#section_lcn_4jv_vxb .section}
+## Settings That Affect the Workflow
 
 In general, you use accounts receivable forms specifically for sales made on credit. The following settings and entities should be specified and defined, respectively:
 

@@ -1,32 +1,32 @@
-# Payroll Basic Configuration: Implementation Activity {#_7db9bdfb-f4d6-4b72-8686-3ef5c1eb364e .task}
+# Payroll Basic Configuration: Implementation Activity
 
 In the following implementation activity, you will learn how to prepare the system to support the processing of payroll documents.
 
 **Attention:** The following activity is based on the *U100 Payroll* snapshot. If you are using another dataset, or if any system settings have been changed in *U100 Payroll*, these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the *U100 Payroll* snapshot to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you, as an implementation manager, need to specify the minimum settings that are required to start using the payroll functionality in the system.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, to prepare the system for the implementation of the payroll functionality, you will do the following:
 
 1.  On the [Numbering Sequences](CS_20_10_10.md) \(CS201010\) form, you will create numbering sequences for payroll entities because the system offers no predefined numbering sequences to be used by default.
 2.  On the [Payroll Preferences](PR_10_10_00.md) \(PR101000\) form, you will specify the numbering sequences and save the settings.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start performing the initial configuration of the payroll functionality, you should launch the Acumatica ERP website and sign in as a system administrator by using the following credentials:
 
 -   Username: *gibbs*
 -   Password: *123*
 
-## Step 1: Enabling the Payroll Feature { .section}
+## Step 1: Enabling the Payroll Feature
 
 On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, enable the *Payroll* feature and the *US Payroll* subfeature.
 
-## Step 2: Creating Numbering Sequences { .section}
+## Step 2: Creating Numbering Sequences
 
 To create numbering sequences for payroll batches, transactions, and PTO adjustments, do the following:
 
@@ -67,7 +67,7 @@ To create numbering sequences for payroll batches, transactions, and PTO adjustm
     2.  **End Number**: `PRP9999999` \(inserted automatically\)
 13. On the form toolbar, click **Save**.
 
-## Step 3: Specifying the Payroll Preferences { .section}
+## Step 3: Specifying the Payroll Preferences
 
 To specify the numbering sequences and other payroll preferences that are required for using the payroll functionality, do the following:
 

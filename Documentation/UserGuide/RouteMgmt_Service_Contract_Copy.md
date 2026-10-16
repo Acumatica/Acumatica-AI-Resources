@@ -1,10 +1,10 @@
-# Route Service Contracts: Copying a Service Contract {#_26e9cf6f-3a5b-4f19-a3a5-ac4adfdaccb9 .concept}
+# Route Service Contracts: Copying a Service Contract
 
 A service contract can be copied. You may need to copy a service contract when a customer is due for renewal but some settings of the existing contract should be changed, or you just need another service contract with the similar settings.
 
 In the following sections of this topic, the capability is described in detail for service contracts created on the [Service Contracts](../Shared/../UserGuide/FS_30_57_00.md) form. The capability work similarly for a route service contract created on the [Route Service Contracts](../Shared/../UserGuide/FS_30_08_00.md) form.
 
-## Copying a Service Contract { .section}
+## Copying a Service Contract
 
 You copy a service contract by clicking **Copy** on the More menu on the [Service Contracts](../Shared/../UserGuide/FS_30_57_00.md) \(FS305700\) form \(or on the [Route Service Contracts](../Shared/../UserGuide/FS_30_08_00.md) \(FS300800\) form\). Once you click **Copy**, the **Copy Contract** dialog box opens. In the dialog box, you specify the start date of the new service contract and of any schedules that have been generated for the service contract.
 

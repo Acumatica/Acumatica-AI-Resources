@@ -1,12 +1,12 @@
-# Capable to Promise: Process Activity {#_5b14d52c-9ad4-4827-899a-452e43ccad96 .task}
+# Capable to Promise: Process Activity
 
 The following activity will walk you through the process of calculating projected dates for producing ordered items by using the capable-to-promise functionality.
 
-## Story { .section}
+## Story
 
 Suppose that on January 30, 2026, the Thai Food Restaurant customer has ordered two configurable citrus juicers and 10 pounds of oranges from the main office of SweetLife. Further suppose that the customer wanted the juicers to be shipped in three weeks. You, as the customer service manager, need to make sure that the production department can produce the juicers by the requested date and negotiate a new shipping datewith the customer if the requested shipping date cannot be met.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -15,21 +15,21 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *CFJCITRUS* and *ORANGES* stock items have been predefined.
 -   On the [Warehouses](IN_20_40_00.md) \(IN204000\) form, the *WORKHOUSE* and *WHOLESALE* warehouses have been predefined.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, to calculate the projected date by using the capable-to-promise functionality, on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, you will create a sales order with the items the customer has ordered and use the **Process CTP** command to open the [Process Capable to Promise](AM_51_50_00.md) \(AM515000\) form for the sales order. On this form, the system will calculate the projected date for the configurable citrus juicers, and you will view available quantities of the juicer and reject the projected date. Then on the [Sales Orders](SO_30_10_00.md) form, you will change the requested date for the configurable citrus juicer and again open the [Process Capable to Promise](AM_51_50_00.md) form. On this form, the system will recalculate the projected date, which you will accept. Finally, on the [Sales Orders](SO_30_10_00.md) form, you will view the changes the system made to the sales order.
 
-## System Preparation { .section}
+## System Preparation
 
 Do the following:
 
 1.  As a prerequisite to the current activity, complete [Capable to Promise: Implementation Activity](MFG_CTP_Implem_Activity.md), so that the system is configured for you to use the capable-to-promise \(CTP\) functionality in a company with the *U100* dataset preloaded.
 2.  Sign in to the company in which the prerequisite activities have been performed as a customer service manager by using the *blevy* username and *123* password.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button, and select *1/30/2026* on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date.
-4.  On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, make sure that the *Advanced Planning and Scheduling* feature has been enabled.
+4.  On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, make sure that the *Advanced Planning and Scheduling \(Classic\)* or *Advanced Planning and Scheduling \(Optimized\)* feature has been enabled.
 5.  On the **General** tab \(**Manufacturing Settings** section\) of the [Order Types](SO_20_10_00.md) \(SO201000\) form for the *SO* order type, make sure that the **Enable Linking to Production Orders** check box is selected and that the *Open* and *On Hold* statuses are specified in the **Linkable Sales Order Statuses** list.
 
-## Step 1: Creating a Sales Order { .section}
+## Step 1: Creating a Sales Order
 
 To create a sales order, do the following:
 
@@ -52,7 +52,7 @@ To create a sales order, do the following:
 
 You have created the sales order, and now you will calculate the projected date for the *CFJCITRUS* item. The *ORANGES* item has not been configured to be included in calculation of CTP dates so you could immediately create a shipment for this item, which is outside of the scope of this activity.
 
-## Step 2: Calculating the Projected Date { .section}
+## Step 2: Calculating the Projected Date
 
 To calculate the projected date on which the *CFJCITRUS* stock item can be shipped to the customer, do the following:
 
@@ -67,7 +67,7 @@ To calculate the projected date on which the *CFJCITRUS* stock item can be shipp
     Notice that the system has specified the type and reference number of the planning order \(which the system has created during processing\) in the **Prod. Order Type** and **Prod. Order Nbr.** columns. In the **CTP Date** column, notice that the system has calculated the projected date as *3/2/2026*, which is 12 days later than the customer expected the juicers to be shipped.
 
 
-## Step 3: Viewing the Available Quantities { .section}
+## Step 3: Viewing the Available Quantities
 
 Suppose that you would like to see if any configurable citrus juicers are available in a warehouse or in production, so that you can negotiate a new requested date with the customer. Do the following on the [Process Capable to Promise](AM_51_50_00.md) \(AM515000\) form, which is still open:
 
@@ -75,7 +75,7 @@ Suppose that you would like to see if any configurable citrus juicers are availa
 2.  In the **Quantity Available** dialog box, which opens, notice that all quantities except **Requested** are *0*. This means that the *CFJCITRUS* stock item is not currently available.
 3.  Close the dialog box.
 
-## Step 4: Rejecting the Projected Date { .section}
+## Step 4: Rejecting the Projected Date
 
 Suppose that you have decided to reject the projected date, call the customer, and negotiate the new requested date. Do the following on the [Process Capable to Promise](AM_51_50_00.md) \(AM515000\) form, which is still open:
 
@@ -85,7 +85,7 @@ Suppose that you have decided to reject the projected date, call the customer, a
 
 Now you need to negotiate a new requested date with the customer.
 
-## Step 5: Recalculating the Projected Date { .section}
+## Step 5: Recalculating the Projected Date
 
 Suppose that the customer has agreed to receive the juicers on *3/2/2026* and you need to recalculate the projected date and send the order to production. Do the following:
 
@@ -106,7 +106,7 @@ Suppose that the customer has agreed to receive the juicers on *3/2/2026* and yo
 
 Now you can accept the projected date and send the order to production.
 
-## Step 6: Accepting the Projected Date { .section}
+## Step 6: Accepting the Projected Date
 
 To accept the projected date, do the following on the [Process Capable to Promise](AM_51_50_00.md) \(AM515000\) form, which is still open:
 
@@ -124,7 +124,7 @@ To accept the projected date, do the following on the [Process Capable to Promis
 
 You have accepted the projected date, and now you will view the changes the system made in the sales order.
 
-## Step 7: Viewing the Sales Order { .section}
+## Step 7: Viewing the Sales Order
 
 To view the changes the system made in the sales order when you accepted the CTP date, do the following:
 

@@ -1,12 +1,11 @@
-# Inherited Workflows: Planning the Customization of a Workflow {#_cc2d59c5-3808-4358-b40b-a450a031a5d5 .concept}
+# Inherited Workflows: Planning the Customization of a Workflow
 
 If the predefined workflow for a form does not fit your business processes, you might want to make modifications to it. This topic describes this process by using the example of the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form.
 
-## Overview of the Customized Workflow for the Opportunities Form {#section_c1y_1lp_jhc .section}
+## Overview of the Customized Workflow for the Opportunities Form
 
 The predefined workflow for the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form includes the states, actions, and transitions shown in the following screenshot.
 
-![](Images/WorkflowUI_InheritedWorkflows_OpportunitiesDefaultWorkflow.png "The predefined workflow for opportunities")
 
 **Tip:** The diagram view of the workflow shown above is available in only the Classic UI.
 
@@ -22,7 +21,6 @@ When a user clicks **Accept** or **Reject**, the user should provide the reason 
 
 The modified workflow would look like the one shown in the following screenshot.
 
-![](Images/WorkflowUI_CustomizingInheritedWorkflow_OpportunitiesUpdatedDiagram.png "The modified workflow for opportunities")
 
 **Parent topic:**[Working with Inherited Workflows](../DeveloperGuide/WorkflowUI_InheritedWorkflows_Mapref.md)
 

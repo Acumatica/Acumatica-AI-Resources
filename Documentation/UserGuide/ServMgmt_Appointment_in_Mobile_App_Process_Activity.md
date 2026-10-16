@@ -1,4 +1,4 @@
-# Appointments in the Mobile App: To Process an Appointment Assigned to a Staff Member {#_dbd6e37b-93d1-4949-a76f-644342b07766 .task}
+# Appointments in the Mobile App: To Process an Appointment Assigned to a Staff Member
 
 This activity will walk you through the process of starting and completing an appointment that requires additional service to be added during the appointment, and a customer signature in the Acumatica mobile app.
 
@@ -6,13 +6,13 @@ This activity will walk you through the process of starting and completing an ap
 
 **Tip:** The appearance and functionality of the Acumatica mobile app UI may slightly differ for iOS and Android devices.
 
-## Story { .section}
+## Story
 
 Suppose that Alberto Jimenez uses the Acumatica mobile app to process the appointments he attends. On January 31, 2026, he arrives at a customer location and processes the appointment by using the mobile app. He starts the appointment, adds one more service, and shows the appointment report to the customer. The customer signs the report in the app. Alberto Jimenez then completes the appointment and sends the signed appointment to the customer.
 
 Acting as Alberto Jimenez, you will perform these actions in the mobile app.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -24,11 +24,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   On the [Service Order Types](FS_20_23_00.md#) \(FS202300\) form, the *TRN* service order type has been configured to generate AR invoices to bill customers for provided services. That is, *AR Invoices* has been selected under **Generated Billing Documents** in the **Billing Settings** section \(**General** tab\).
 -   On the [Appointments](FS_30_02_00.md#) \(FS300200\) form, the *000044-1* appointment has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In the Acumatica mobile app, you will open the Appointment List screen and specify the filter criteria to find the needed appointment assigned to Alberto Jimenez. You will then start the appointment, add an additional service on the **Details** tab, review the appointment report, obtain the customer's signature by tapping **Sign Report**, complete the appointment, and send the signed report to the customer.
 
-## Preparation { .section}
+## Preparation
 
 Sign in to the mobile app as follows:
 
@@ -41,7 +41,7 @@ Sign in to the mobile app as follows:
 
 3.  Sign in as staff member Alberto Jimenez by using the *jimenez* username and the *123* password.
 
-## Step 1: Viewing Appointments Assigned to a Staff Member { .section}
+## Step 1: Viewing Appointments Assigned to a Staff Member
 
 You will start by viewing the appointments assigned to *Alberto Jimenez*, the staff member whose actions you are performing in the mobile app.
 
@@ -55,11 +55,10 @@ In the mobile app, do the following:
 3.  In the list of appointments assigned to Alberto Jimenez, tap the *000044-1* appointment to open it.
 4.  On the Summary tab, tap **View on Map**. A map showing the location of the appointment opens, as shown below.
 
-    ![](Images/ServMgmt_Mobile_App_View_on_Map.png)
 
 5.  Close the map and return to the appointment.
 
-## Step 2: Starting the Appointment and Adding an Additional Service { .section}
+## Step 2: Starting the Appointment and Adding an Additional Service
 
 To start the appointment and add an additional service, do the following:
 
@@ -77,10 +76,9 @@ To start the appointment and add an additional service, do the following:
     -   **Actual Quantity**: 1 \(inserted by default\)
 6.  Tap **Update** and save your changes on the Details screen. The additional *REPAIR* service has been added to the appointment, as shown below.
 
-    ![](Images/ServMgmt_MobileApp_Added_Additional_Service.png)
 
 
-## Step 3: Obtaining the Customer's Signature and Completing the Appointment { .section}
+## Step 3: Obtaining the Customer's Signature and Completing the Appointment
 
 Sign the appointment on behalf of the customer and complete it, acting as *Alberto Jimenez*, as follows:
 
@@ -88,12 +86,10 @@ Sign the appointment on behalf of the customer and complete it, acting as *Alber
 
     The report appears on the screen \(see below\). *Alberto Jimenez* would now show this report to the customer to verify that all information has been entered correctly.
 
-    ![](Images/ServMgmt_Mobile_App_Preview_Report_2.png)
 
 2.  Close the report, and tap the **Additional** tab \(see below\).
 3.  In the **Signature** section, in the **Full Name** box, specify `Douglas Kim`, and tap **Save**.
 
-    ![](Images/ServMgmt_MobileApp_Signing_Report_1.png)
 
 4.  On the More menu, tap **Sign Report**.
 5.  In the form view of the appointment, leave a signature \(see below\) and tap **Done**. \(In this exercise, you are signing the appointment on behalf of the customer. In actual use, the customer would sign the appointment.\)
@@ -102,12 +98,10 @@ Sign the appointment on behalf of the customer and complete it, acting as *Alber
 
 
 
-    ![](Images/ServMgmt_MobileApp_Signed_Report_New.png)
 
 6.  On the **Summary** tab, in the **Date and Time** section, specify the actual start date and time and actual end date and time.
 7.  In the Summary area, select **Finished** \(see below\).
 
-    ![](Images/ServMgmt_MobileApp_Selecting_Finished.png)
 
 8.  Tap the **Complete** button.
 

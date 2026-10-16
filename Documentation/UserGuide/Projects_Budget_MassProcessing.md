@@ -1,8 +1,8 @@
-# Project Budget: Mass Processing of Documents {#_3df2509f-3344-1122-80fc-406cd07baa17 .concept}
+# Project Budget: Mass Processing of Documents
 
 This topic explains how to perform mass-processing operations related to project budgets, and how the system generates, changes, or works with documents as a result of the mass processing.
 
-## Mass-Recalculating Project Budgets { .section}
+## Mass-Recalculating Project Budgets
 
 In some cases, you may need to validate the project budgets to bring them in line with the underlying transactions. This might be useful, for instance, if project data has been modified through external tools or import scenarios.
 

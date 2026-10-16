@@ -1,4 +1,4 @@
-# Managing Contracts {#_6e75cec6-e263-48d4-87f2-80ca68b10e21 .concept}
+# Managing Contracts
 
 This chapter will help you to use contracts after their initial creation, setup, and activation. The topics of this chapter describe such stages of the contract lifecycle as renewing a contract and terminating it.
 

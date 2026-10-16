@@ -1,4 +1,4 @@
-# Screen-Based Web Services API {#_b7a98ec4-46c2-4a27-9687-c36c6d22a678 .concept}
+# Screen-Based Web Services API
 
 The screen-based web services API is a part of Acumatica ERP integration services, which provides integration with external data sources and third-party systems by using a SOAP interface.
 

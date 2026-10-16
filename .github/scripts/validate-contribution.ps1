@@ -325,10 +325,7 @@ if (-not [string]::IsNullOrWhiteSpace($BaseSha)) {
 $approvedSensitiveFiles = [System.Collections.Generic.Dictionary[string, string]]::new(
     [System.StringComparer]::Ordinal
 )
-$approvedSensitiveFiles.Add(
-    "Documentation/UserGuide/Files/AcumaticaTrainingEncryption.pfx",
-    "DF6CF321C42607A42ABF89C442552F3D6C3A906D8DFA354CA5C09D9D5EA30A46"
-)
+# No sensitive files are approved in the 2026 R2 snapshot.
 
 foreach ($approvedFile in $approvedSensitiveFiles.GetEnumerator()) {
     $fullPath = Join-Path $repositoryRoot $approvedFile.Key

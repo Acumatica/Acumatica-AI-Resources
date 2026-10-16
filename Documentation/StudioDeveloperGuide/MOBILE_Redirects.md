@@ -1,4 +1,4 @@
-# Redirecting to Different Screens and Containers {#_7244493f-a03a-4efa-9cef-18f2d4f08682 .concept}
+# Redirecting to Different Screens and Containers
 
 You can redirect the user to different screens and containers in a mobile application in one of the following ways:
 
@@ -7,7 +7,7 @@ You can redirect the user to different screens and containers in a mobile applic
 
 These ways are described in the following sections.
 
-## Allowing a Redirection That Is Implemented in Acumatica ERP { .section}
+## Allowing a Redirection That Is Implemented in Acumatica ERP
 
 While executing an action, you may need to redirect the application from the current screen to a different screen or to an external URL. As a rule, the business logic of Acumatica ERP handles redirection to a screen by using the PXRedirectRequiredException and PXPopupRedirectException exceptions.
 
@@ -75,7 +75,7 @@ If an action on an Acumatica ERP form provides redirection to an external URL, y
 
 On a mobile device, such action launches the default browser and passes the URL, which is obtained from the Acumatica ERP server, to the browser that opens the webpage specified in the URL.
 
-## Creating a New Redirection to a Screen or Container { .section}
+## Creating a New Redirection to a Screen or Container
 
 You can create a redirection to any container or screen in the mobile application when the redirection is absent in Acumatica ERP. For example, you can do this to implement pop-up windows in the mobile application.
 
@@ -163,7 +163,7 @@ In this example, the RedirectToContainer value consists of the following parts:
     -   Form: Open as a form \(default\)
 -   If the second parameter is set explicitly to List, in the rest of the string, you can specify an additional container that is used as a filter for the data records in the main container.
 
-CAUTION:
+**CAUTION:**
 
 To use the expanded way of configuring a redirection, you should clearly understand how the target screen works, how its business logic operates, and how the state of the business logic objects changes after any of the actions is executed.
 

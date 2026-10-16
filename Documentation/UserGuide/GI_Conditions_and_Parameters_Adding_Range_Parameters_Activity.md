@@ -1,14 +1,14 @@
-# Conditions and Parameters: To Add Period-Range Parameters to the Selection Area {#_b1ed5c97-7ab9-401f-9798-e499054a8cdc .task}
+# Conditions and Parameters: To Add Period-Range Parameters to the Selection Area
 
 In this activity, you will learn how to modify an existing generic inquiry to give users the ability to limit the data displayed to a specific range of financial periods—that is, to add boxes corresponding to parameters to define the range.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist in your company who is working on simple customizations, including those involving the creation, modification, and use of generic inquiries. An accountant of your company has requested an inquiry form that displays data about invoices and memos. You have offered the predefined Invoices and Memos \(AR3010PL\) inquiry form, but the accountant has asked you to design the inquiry form to give users the ability to limit the results to a user-defined range of financial periods—that is, a user should be able to specify the needed range of periods.
 
-## Configuration Overview {#section_ayf_13q_3rb .section}
+## Configuration Overview
 
 You will work with a copy of the predefined Invoices and Memos \(AR3010PL\) inquiry form, which has the *AR-Invoices and Memos* inquiry title and the *Invoices and Memos* site map title specified on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form.
 
@@ -16,17 +16,17 @@ You will work with a copy of the predefined Invoices and Memos \(AR3010PL\) inqu
 
 The copy you will work with has the *DB4-ARInvoicesMemos* inquiry title and the *S130 Invoices and Memos* site map title specified on the [Generic Inquiry](SM_20_80_00.md) form.
 
-## Process Overview { .section}
+## Process Overview
 
 On the **Results Grid** tab of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form for the copied inquiry, you will look for the row that corresponds to the **Post Period** column of the inquiry and note the value in the **Data Field** column. You will add two parameters \(*Period From* and *Period To*\) on the **Parameters** tab. Then you will specify how the system should apply the values of these parameters to the inquiry results by adding a condition on the **Conditions** tab.
 
-## System Preparation {#section_oj2_bpr_jrb .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to a tenant with the *U100* dataset preloaded as system administrator Kimberly Gibbs. You should sign in by using the *gibbs* username and the *123* password.
 
 **Tip:** The *gibbs* user is assigned the *Administrator* role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards.
 
-## Step 1: Inspecting the UI Elements { .section}
+## Step 1: Inspecting the UI Elements
 
 To inspect the UI element, do the following:
 
@@ -37,7 +37,7 @@ To inspect the UI element, do the following:
 
 3.  Close the dialog box.
 
-## Step 2: Adding Parameters { .section}
+## Step 2: Adding Parameters
 
 To modify the generic inquiry to add parameters, do the following:
 
@@ -59,7 +59,7 @@ To modify the generic inquiry to add parameters, do the following:
     -   **Default Value**: *02-2026*
 7.  On the form toolbar, click **Save**.
 
-## Step 3: Adding a Condition for the Parameters { .section}
+## Step 3: Adding a Condition for the Parameters
 
 To modify the generic inquiry by adding a condition, do the following:
 
@@ -72,10 +72,9 @@ To modify the generic inquiry by adding a condition, do the following:
 2.  On the form toolbar, click **Save**.
 3.  Click the eye icon on the side panel to preview how your changes have affected the inquiry. The system has added the boxes corresponding to the parameters to the Selection area \(see the following screenshot\). You can specify a range of financial periods and view only the invoices and memos within the range of specified financial periods.
 
-    ![](Images/GI_Conditions_and_Parameters_Parameters_Area.png "Generic inquiry with parameters that define a range")
 
 
-## Self-Test Exercise { .section}
+## Self-Test Exercise
 
 Now that you have learned about conditions and parameters, you should change the condition for the inquiry you have developed in this activity, so that the inquiry will return records if a user has cleared either box or both boxes in the Selection area.
 

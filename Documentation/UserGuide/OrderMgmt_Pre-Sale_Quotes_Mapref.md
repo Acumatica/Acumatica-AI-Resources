@@ -1,4 +1,4 @@
-# Processing Pre-Sale Quotes {#_a2d06ba4-3939-4dc8-9f4f-dedc43d57abb .concept}
+# Processing Pre-Sale Quotes
 
 You create a quote of the predefined *QT* type on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form to record a customer's interest in possibly purchasing goods.
 

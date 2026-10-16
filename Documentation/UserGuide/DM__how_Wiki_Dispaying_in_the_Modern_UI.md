@@ -1,10 +1,10 @@
-# To Display and Hide a Wiki in the UI {#_e05f4aad-c2db-4bb4-b801-0d59ca110d90 .task}
+# To Display and Hide a Wiki in the UI
 
 If you want to make a wiki available for other users, you can add a card for it to the Help dashboard; you can also hide a card for a wiki from the Help dashboard if it is already displayed there. You might want to display a wiki card on the Help dashboard if any users in your system may use the Acumatica ERP UI.
 
 To display or hide a wiki, you use the [Wiki](SM_20_20_05.md) \(SM202005\) form.
 
-## To Display a Wiki in the UI { .section}
+## To Display a Wiki in the UI
 
 1.  Open the [Wiki](../Shared/../UserGuide/SM_20_20_05.md) \(SM202005\) form.
 2.  In the Summary area of the form, in the **ID** box of the **General** section, select the identifier of the wiki that you want to make visible on the Help dashboard.
@@ -23,7 +23,7 @@ To display or hide a wiki, you use the [Wiki](SM_20_20_05.md) \(SM202005\) form.
     2.  In the **Site Map Title** box, type the title of wiki on the site map.
 8.  On the form toolbar, click **Save**.
 
-## To Hide a Wiki in the UI { .section}
+## To Hide a Wiki in the UI
 
 1.  Open the [Wiki](../Shared/../UserGuide/SM_20_20_05.md) \(SM202005\) form.
 2.  In the Summary area of the form, in the **ID** box of the **General** section, select the identifier of the wiki that you want to hide from the Help dashboard.

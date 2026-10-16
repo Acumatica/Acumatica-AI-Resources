@@ -1,10 +1,10 @@
-# To Create a Physical Inventory Type for Counts by ABC Code and Frequency {#_48a7384c-5507-48ef-b257-3b03cb773903 .task}
+# To Create a Physical Inventory Type for Counts by ABC Code and Frequency
 
 When you use ABC codes for stock items, you can include in the physical inventory not only items with a particular ABC code assigned but also items that are due based on the frequencies associated with ABC codes. To configure this type of physical inventory, you create a physical inventory type by using the [Physical Inventory Types](IN_20_89_00.md) \(IN208900\) form, as described in this topic.
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## To Create a Physical Inventory Type for Counts by ABC Code and Frequency { .section}
+## To Create a Physical Inventory Type for Counts by ABC Code and Frequency
 
 1.  Open the [Physical Inventory Types](../Shared/../UserGuide/IN_20_89_00.md) \(IN208900\) form.
 

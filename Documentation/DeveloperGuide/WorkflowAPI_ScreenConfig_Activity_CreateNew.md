@@ -1,12 +1,12 @@
-# Screen Configuration: To Prepare a Screen Configuration for a Form Without a Predefined Workflow {#_e51e1c0e-c119-43c7-a0de-6ffd437eb3e2 .task}
+# Screen Configuration: To Prepare a Screen Configuration for a Form Without a Predefined Workflow
 
 This activity will walk you through the process of performing the initial steps for implementing a workflow for a form that has no predefined workflows.
 
-## Story { .section}
+## Story
 
 Suppose that you need to define a workflow for the Repair Work Orders \(RS301000\) form, which has no predefined workflows.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will prepare the basic components of a workflow by performing the following steps in the extension library:
 
@@ -15,7 +15,7 @@ In this activity, you will prepare the basic components of a workflow by perform
 3.  Overriding the screen configuration method
 4.  Specifying the state-identifier field
 
-## System Preparation { .section}
+## System Preparation
 
 Configure your instance by performing the following prerequisite activities:
 

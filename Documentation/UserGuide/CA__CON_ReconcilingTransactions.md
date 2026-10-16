@@ -1,4 +1,4 @@
-# Bank Reconciliation: Optional Reconciliation Operations {#_9a953704-db79-493c-9ddc-8e85b462a3aa .concept}
+# Bank Reconciliation: Optional Reconciliation Operations
 
 Reconciliation is the process of comparing the cash transactions recorded in the system to the records of the same transactions tracked by third parties or by other means. For instance, if you reconcile a bank account, you use the bank statements for comparison. To reconcile a petty cash account, you might use the cash register receipts or point-of-sale reports for reference.
 
@@ -6,7 +6,7 @@ In Acumatica ERP, you mark cash accounts that require reconciliation by selectin
 
 In this topic, you will read about additional operations that will help you perform the reconciliation.
 
-## Handling Voided Transactions {#section_qb2_kjv_vxb .section}
+## Handling Voided Transactions
 
 You can indicate to the system how you want to handle voided transactions by using the **Skip Voided Transactions** check box on the [Cash Management Preferences](CA_10_10_00.md) \(CA101000\) form:
 
@@ -23,7 +23,7 @@ When you save a reconciliation statement for the first time and the system assig
 2.  Adjust the state of the **Skip Voided Transactions** check box.
 3.  Create a new reconciliation statement.
 
-## Voiding of a Reconciliation Statement {#section_wb2_kjv_vxb .section}
+## Voiding of a Reconciliation Statement
 
 Only one open reconciliation statement on the [Reconciliation Statements](CA_30_20_00.md) \(CA302000\) form is allowed for each cash account. If you find an error in an earlier statement for a cash account, delete the open statement \(which is not released\), locate the last released statement, and void it. Voiding the statement removes the reconciliation marks from the documents and makes the documents available again for proper reconciliation. Note that voiding doesn't change the status of the documents that were created during the reconciliation process.
 

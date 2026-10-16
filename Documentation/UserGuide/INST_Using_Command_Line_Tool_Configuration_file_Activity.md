@@ -1,16 +1,16 @@
-# Acumatica ERP Command-Line Tool: To Deploy an Instance by Using the Configuration File {#_2baa8327-ffa8-4928-a6ae-724d635a53f4 .task}
+# Acumatica ERP Command-Line Tool: To Deploy an Instance by Using the Configuration File
 
 The following activity will walk you through the process of preparing a configuration file by using the Acumatica ERP Configuration wizard. You will then deploy an Acumatica ERP instance from this configuration file by using the Acumatica ERP command-line tool.
 
-## Story { .section}
+## Story
 
 Suppose that you are the system administrator of your company and you need to deploy an out-of-the-box Acumatica ERP instance from a configuration file by using the command-line tool.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create a configuration file by using the Acumatica ERP Configuration wizard. Then you will deploy an out-of-the-box Acumatica ERP instance from this configuration file by using the command-line tool.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the step of this activity, you should do the following:
 
@@ -20,7 +20,7 @@ Before you begin performing the step of this activity, you should do the followi
     **Tip:** You can use Command Prompt, the built-in command-line utility for Microsoft Windows.
 
 
-## Step 1: Creating the Configuration File by Using the Acumatica ERP Configuration Wizard { .section}
+## Step 1: Creating the Configuration File by Using the Acumatica ERP Configuration Wizard
 
 To create a configuration file with the settings of an Acumatica ERP instance, do the following:
 
@@ -35,7 +35,7 @@ To create a configuration file with the settings of an Acumatica ERP instance, d
 
 4.  Save the `InstallConfig.xml` on your computer.
 
-## Step 2: Deploying an Instance by Using the Command-Line Tool { .section}
+## Step 2: Deploying an Instance by Using the Command-Line Tool
 
 To deploy an out-of-the-box Acumatica ERP instance with the settings specified in the prepared configuration file, do the following:
 

@@ -1,18 +1,18 @@
-# Access Rights to Generic Inquiries: General Information {#_f91fd245-9627-430d-bcc1-b684573567dc .concept}
+# Access Rights to Generic Inquiries: General Information
 
 In Acumatica ERP, you create user accounts to manage user access to system resources. Based on users' job responsibilities, you can control their access to forms, entities created through these forms, and operations on these entities. Rather than assigning each individual user access rights to each object that the user must access, you define roles, which are sets of access rights that fit the job responsibilities in your company; you then assign these roles to individual users. Roles help you easily manage access rights for groups of users in the system. Changing one role alters the access rights for all users to whom this role is assigned.
 
 Users are assigned one role or multiple roles, and based on these assignments, the users are then granted the appropriate levels of access to system objects. To be able to create, delete, or modify generic inquiries, you need a role that provides sufficient access rights \(the *Delete* level\) to the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form. By default, the built-in *Administrator* role provides the needed access rights for working with generic inquiries by using this form.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to set up access rights to generic inquiries.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may find the information in this chapter useful when you are responsible for administering user access to Acumatica ERP in your company. You need to manage access rights to different generic inquiries that your colleagues may need to do their jobs as efficiently as possible.
 
-## Access Rights to Inquiry Forms { .section}
+## Access Rights to Inquiry Forms
 
 You set up access rights to a generic inquiry during the publication process. You click the **Publish to the UI** command on the toolbar of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form—the system opens the **Publish to the UI** dialog box.
 
@@ -24,7 +24,7 @@ In the **Access Rights** section of the dialog box, you select one of the follow
 
 After the inquiry is published, for each user role, you can modify the defined levels of access rights. You specify the levels of access to any form in the [Access Rights by Screen](SM_20_10_20.md) \(SM201020\) form.
 
-## Access Rights to Inquiries as Substitute Forms { .section}
+## Access Rights to Inquiries as Substitute Forms
 
 A generic inquiry can be configured as a substitute form to a data-entry form. That is, on the **Entry Point** tab of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form, the **Entry Screen** box is filled in and the **Replace Entry Screen with This Inquiry in Menu** check box is selected for the inquiry.
 
@@ -33,6 +33,27 @@ If a particular generic inquiry form replaces an entry form \(that is, if it fun
 Also, you can define access rights to the data entry form when you publish its substitute inquiry. In this case, the system shows a warning in the **Publish to the UI** dialog box. The warning explains that the inquiry is a substitute form and access rights that you select for this inquiry will be applied to its data entry form. If you do not need to change access rights to the data entry form, you select the *Copy Access Rights from Screen* option and specify the data entry form for this option.
 
 If a generic inquiry defined as a substitute form is no longer defined as one—that is, if on the **Entry Point** tab of the [Generic Inquiry](SM_20_80_00.md) form, the **Replace Entry Screen with This Inquiry in Menu** check box is cleared—the access rights to the inquiry form revert to the initial state \(that is, the access rights the inquiry had before you used it to replace a data entry form\).
+
+## Access Rights to DACs
+
+You can restrict the data available in the [DAC Schema Browser](DAC_Schema_Browser_Reference.md) and in the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form while designing inquiries. To do so, enable the **DAC-Level Data Security** option on the [Security Preferences](SM_20_10_60.md) \(SM201060\) form.
+
+With DAC-level security enabled, users can continue working with the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form, but they can't retrieve data from DACs associated with screens they don't have permission to access.
+
+If an inquiry includes a DAC that the current user can't access, the system prevents actions that could expose restricted data, including:
+
+-   Previewing the inquiry
+-   Saving the inquiry
+-   Publishing the inquiry
+-   Exporting the inquiry as a report
+
+The system also displays messages identifying the restricted data source so that users understand why the action is unavailable.
+
+Some DACs are associated with multiple screens. When users have access to only some of those screens, they can still build and use generic inquiries based on the DAC.
+
+In these cases, the system automatically filters the inquiry results so that users see only the record types they are authorized to access. An informational message indicates that some records may be hidden because of the user's screen permissions.
+
+You can review how DAC access is determined by using the [Access Rights by DAC](SM_20_10_76.md) \(SM201076\) form.
 
 **Parent topic:**[Managing Access Rights To Generic Inquiries](../UserGuide/GI_Access_Rights_Mapref.md)
 

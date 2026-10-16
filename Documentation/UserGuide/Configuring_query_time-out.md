@@ -1,12 +1,12 @@
-# To Configure the Query Time-Out {#_62b4944b-22d6-48d6-955d-f672b8ba1057 .task}
+# To Configure the Query Time-Out
 
 By default, the query time-out is set to 30 seconds. If you need to, you can increase the query time-out.
 
-CAUTION:
+**CAUTION:**
 
 Make sure that all users of your website are warned about the site restart so that they can save all documents.
 
-## To Configure the Query Time-Out { .section}
+## To Configure the Query Time-Out
 
 1.  Open the `web.config` file for the site instance. Usually it is located in **%Program Files%\\Acumatica ERP\\&lt;instance name&gt;**, where *&lt;instance name&gt;* is the name of the application instance website.
 2.  In the file, find the following line, where *...* represents the other parameters, which depend on your website settings.

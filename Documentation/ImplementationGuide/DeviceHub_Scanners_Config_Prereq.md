@@ -1,12 +1,12 @@
-# Scanners: Configuration Prerequisites {#_25101887-157b-4806-a868-2a7a38a96ad2 .concept}
+# Scanners: Configuration Prerequisites
 
 Before starting to configure scanners in DeviceHub, you should be sure that the needed feature has been enabled in Acumatica ERP, DeviceHub have been configured, and a scanner has been configured in Windows, as described in the following sections.
 
-## Enabling the Needed Feature { .section}
+## Enabling the Needed Feature
 
 On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, the *DeviceHub* feature must be enabled.
 
-## Configuring the System { .section}
+## Configuring the System
 
 You need to make sure the following tasks have been performed in Acumatica ERP before you begin to configure printers in DeviceHub:
 
@@ -16,7 +16,7 @@ You need to make sure the following tasks have been performed in Acumatica ERP b
     -   [Scan Jobs](../UserGuide/SM_20_65_05.md) \(SM206505\)
     -   All forms on which you are going to scan and upload documents
 
-## Configuring the Application { .section}
+## Configuring the Application
 
 You need to make sure the following tasks have been performed in DeviceHub before you begin to configure scanners:
 
@@ -29,7 +29,7 @@ You need to make sure the following tasks have been performed in DeviceHub befor
     For more information about configuring the methods of retrieving scan jobs, see [DeviceHub: To Configure Methods of Retrieving Print and Scan Jobs](DeviceHub_To_Configure_Push_Notifications_Implem_Activity.md).
 
 
-## Configuring Hardware Devices { .section}
+## Configuring Hardware Devices
 
 You need to make sure a scanner has been configured in your Windows operating system.
 

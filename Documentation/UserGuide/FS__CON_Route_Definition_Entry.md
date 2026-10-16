@@ -1,8 +1,8 @@
-# Routes: Entry of a Route {#_248e8365-555e-4266-976a-2f6b0e511a9d .concept}
+# Routes: Entry of a Route
 
 In this topic, you will read about entering a route into the system and specifying appropriate settings for the route.
 
-## Entering a Route { .section}
+## Entering a Route
 
 You enter a route on the [Routes](FS_20_37_00.md) \(FS203700\) form. For the route, you specify an identifier and a description, along with the following information:
 
@@ -13,7 +13,7 @@ You enter a route on the [Routes](FS_20_37_00.md) \(FS203700\) form. For the rou
 
 After you have created a route in the system, when you create route executions or schedules for the route service contracts and select the route, the system fills in appropriate settings. You can edit routes at any time; the edits will not affect route executions that have already been created based on the route.
 
-## Specifying the Start and End Points of the Route { .section}
+## Specifying the Start and End Points of the Route
 
 The start location of the route is a branch location form where a driver departs to execute a route. You specify the branch and its location in the **Branch** and **Branch Location** boxes of the **Start Location** section on the [Routes](FS_20_37_00.md) \(FS203700\) form.
 
@@ -23,7 +23,7 @@ The ending location of the route is a branch location to where a driver arrives 
 
 For each route execution created in the system, the start and end locations are defined by the route specified for the route execution. You cannot change the locations for a particular route.
 
-## Specifying a Schedule { .section}
+## Specifying a Schedule
 
 For the route, you specify the possible schedule when the executions of this route can be performed on the **Execution Days** tab of the [Routes](FS_20_37_00.md) \(FS203700\) form. You define a schedule as follows:
 
@@ -33,7 +33,7 @@ For the route, you specify the possible schedule when the executions of this rou
 
 **Tip:** Route executions do not necessarily have to be generated or created for all the days specified for the route. But the route executions can be created for *only*the days specified for the route associated with the route execution.
 
-## Adding Drivers to a Route { .section}
+## Adding Drivers to a Route
 
 In the system, you create the general routes, and for each particular execution of the route, you create route executions.
 
@@ -47,7 +47,7 @@ The lower the digit you specify in this column, the higher the priority for a dr
 
 **Tip:** If you do not assign any drivers to a route, you will not be able to select a driver when you create a route execution based on this route.
 
-## Specifying Attributes for Routes { .section}
+## Specifying Attributes for Routes
 
 An attribute is a site-defined property \(for instance, area or problem type\) that gives users the ability to specify information for objects in the system beyond the preconfigured settings on the data entry forms. You can specify attributes for the classification of route executions by defining them for a particular route on the **Attributes** tab of the [Routes](FS_20_37_00.md) \(FS203700\) form.
 

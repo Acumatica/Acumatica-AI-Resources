@@ -1,14 +1,14 @@
-# To Disassemble a Stock Kit {#_f9b73679-7bae-41a5-aa1a-fed929d99d4d .task}
+# To Disassemble a Stock Kit
 
 After you have assembled a stock kit you can disassemble it \(for example, if any of the stock components are expired\) by using the [Kit Assembly](IN_30_70_00.md) \(IN307000\) form, as described in this topic.
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Make sure that the reason code you want to use for this disassembly has been created on the [Reason Codes](CS_21_10_00.md) \(CS211000\) form.
 
-## To Disassemble a Stock Kit { .section}
+## To Disassemble a Stock Kit
 
 1.  Open the [Kit Assembly](../Shared/../UserGuide/IN_30_70_00.md) \(IN307000\) form.
 

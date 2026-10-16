@@ -1,18 +1,18 @@
-# Funds Transfers: Process Activity {#_0ceddeea-ec98-4631-9e45-4851b0ae47a5 .task}
+# Funds Transfers: Process Activity
 
 In this activity, you will learn how to record a funds transfer from one checking account to another.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_vhc_kjv_vxb .section}
+## Story
 
 In February 2026, one of SweetLife's branches, the Service and Equipment Sales Center, is planning on purchasing additional juicer equipment and parts. As the SweetLife accountant, you have approved the expenditures in the amount of $70,000 for these items, which is roughly $25,000 more than the amount available in the *10200EQ - Equipment Checking* cash account. To increase the available balance of the *10200EQ* cash account, you need to transfer $25,000 from the *10200WH - Wholesale Checking* account.
 
-## Process Overview {#section_xhc_kjv_vxb .section}
+## Process Overview
 
 In this activity, you will first review the available balances of the *10200WH* and *10200EQ* cash accounts on the [Cash Account Summary](CA_63_30_00.md) \(CA633000\) report form. Then on the [Funds Transfers](CA_30_10_00.md) \(CA301000\) form, you will record a funds transfer in the amount of $25,500 from the *10200WH* cash account to the *10200EQ* cash account. Finally, you will review the balances of both accounts on the [Cash Account Details](CA_30_30_00.md) \(CA303000\) form to make sure the transfer is recorded correctly.
 
-## System Preparation {#section_zhc_kjv_vxb .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -23,7 +23,7 @@ To prepare the system, do the following:
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu button to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 4.  On the [Cash Management Preferences](CA_10_10_00.md) \(CA101000\) form, in the **Posting and Release Settings** section, make sure that the **Automatically Post to GL on Release** check box is selected.
 
-## Step 1: Reviewing the Balances of the Source and Destination Cash Accounts {#section_b3c_kjv_vxb .section}
+## Step 1: Reviewing the Balances of the Source and Destination Cash Accounts
 
 To review the balances of the cash accounts, do the following:
 
@@ -37,7 +37,7 @@ To review the balances of the cash accounts, do the following:
 3.  On the report form toolbar, click **Run Report**.
 4.  In the report, review the ending balances of the *10200WH* cash account and the *10200EQ* cash account.
 
-## Step 2: Processing a Funds Transfer {#section_d3c_kjv_vxb .section}
+## Step 2: Processing a Funds Transfer
 
 To process a funds transfer from the *10200WH* cash account to the *10200EQ* cash account, do the following:
 
@@ -58,7 +58,6 @@ To process a funds transfer from the *10200WH* cash account to the *10200EQ* cas
     -   **Receipt Date**: *2/1/2026*
     These settings indicate that the funds will be transferred to the *10200EQ* account, which is defined as the checking account for the SweetLife Service and Equipment Sales Center, as shown in the following screenshot.
 
-    ![](Images/activity_Finance_Funds_Transfers.png "The created funds transfer")
 
 5.  On the form toolbar, click **Save** to save the funds transfer.
 6.  On the form toolbar, click **Remove Hold**, and then click **Release** to release the funds transfer.
@@ -69,7 +68,7 @@ To process a funds transfer from the *10200WH* cash account to the *10200EQ* cas
     The system has posted the batch to the general ledger on release of the funds transfer because during the system preparation, you selected the **Automatically Post to GL on Release** check box on the [Cash Management Preferences](CA_10_10_00.md) \(CA101000\) form.
 
 
-## Step 3: Reviewing the Balances of the Cash Accounts {#section_k3c_kjv_vxb .section}
+## Step 3: Reviewing the Balances of the Cash Accounts
 
 To see how the funds transfer is reflected in the cash accounts, do the following:
 

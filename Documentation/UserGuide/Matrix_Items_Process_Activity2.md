@@ -1,16 +1,16 @@
-# Matrix Items: To Sell Matrix Items {#_970be9a0-64c0-41f1-bd6a-de97bd80e181 .task}
+# Matrix Items: To Sell Matrix Items
 
 The following activity will walk you through the process of creating and processing sales documents that contain matrix items.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that HM's Bakery &amp; Cafe have ordered from SweetLife Fruits &amp; Jams cherry, peach, and strawberry juice in glass bottles of 32 fluid ounces, ordering 10 units of each. You, as a sales manager of SweetLife, will process the appropriate sales documents that contain these items.
 
 **Note:** For simplicity, in this activity, you will create and process all documents in the system during the same business date.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 For the purposes of this lesson, the following features have been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form:
 
@@ -26,11 +26,11 @@ The following entities, which you will use in this activity, have been predefine
 -   The *JUICE* template item on the [Template Items](IN_20_30_00.md) \(IN203000\) form
 -   The following matrix items on the [Stock Items](IN_20_25_00.md) \(IN202500\) form: *CHR-32OZ-GBT*, *PCH-32OZ-GBT*, and *SWB-32OZ-GBT* \(that is, the matrix items for cherry, peach, and strawberry juice, respectively, in glass bottles of 32 fluid ounces, all of which are available in stock\)
 
-## Process Overview { .section}
+## Process Overview
 
 To perform the sale of matrix items in this activity, you will create a sales order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, select an order type that supports quick processing, select the customer to which the items are being sold, and add the juice bottles to the order by using the **Add Matrix Item** dialog box. You will click **Quick Process** on the form toolbar, review the quick processing settings, and correct them, if needed. Then you will run quick processing, during which the system will process the sales order to completion and generate all needed documents. When the quick processing completes, you will review the generated documents and verify them.
 
-## System Preparation { .section}
+## System Preparation
 
 Do the following:
 
@@ -38,7 +38,7 @@ Do the following:
 2.  On the Company and Branch Selection menu, on the top pane of the Acumatica ERP screen, make sure that the SweetLife Head Office and Wholesale Center branch is selected.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to today’s date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating a Sales Order { .section}
+## Step 1: Creating a Sales Order
 
 To create a sales order, do the following:
 
@@ -69,7 +69,7 @@ To create a sales order, do the following:
 
 You have created a sales order with matrix items.
 
-## Step 2: Processing Shipment and Invoice { .section}
+## Step 2: Processing Shipment and Invoice
 
 To create and process the shipment and invoice related to the created sales order, do the following:
 

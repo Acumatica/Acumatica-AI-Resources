@@ -1,4 +1,4 @@
-# Case {#_3cb9b4b1-8c78-4b16-a026-c55a11953e00 .concept}
+# Case
 
 This chapter presents code examples showing requests that use the `Case` entity.
 

@@ -2,12 +2,16 @@
 name: acumatica-modern-ui-control-builder
 description: Design, implement, review, and troubleshoot custom frontend controls for the Acumatica ERP Modern UI using Aurelia, TypeScript, HTML, SCSS, screen extensions, and appropriate backend field patterns. Use when building reusable Modern UI controls, binding DAC or graph-specific values, extending existing Acumatica screens, or diagnosing custom-control behavior and styling.
 metadata:
-  version: 1.0.1
+  version: 1.1.0
 ---
 
 # Acumatica Modern UI Control Builder
 
+This skill targets Acumatica ERP 2026 R2.
+
 Use this skill to help users design and implement Acumatica ERP Modern UI custom frontend controls. Produce a practical implementation plan with code, not an internal course/activity format.
+
+Use the 2026 R2 [custom-control guidance](../../../Documentation/DeveloperGuide/UIDev_CustomModernUIControls_GeneralInfo.md) and the target build's typings. Verify compilation and behavior on that build before claiming runtime compatibility.
 
 ## First response workflow
 
@@ -82,6 +86,9 @@ Prefer this for read-only, graph-specific, virtual values used only on one scree
 Use the pattern:
 
 ```csharp
+using PX.Data;
+using PX.Objects.Common;
+
 public class panelStatus :
     PXFieldAttachedTo<MyDac>.By<MyGraph>.AsString.Named<panelStatus>
 {
@@ -142,7 +149,7 @@ When generating TypeScript for a control:
 - Use `@bindable` for configurable properties.
 - Use internal fields for presentation state.
 - Dispose subscriptions in `detached()`.
-- Avoid unsupported or unapproved event mechanisms. Do not recommend custom application-level events with Aurelia `EventAggregator` unless the user explicitly asks and confirms their project allows it.
+- Use bindables for inputs from the host screen. For screen context updates, 2026 R2 documents Aurelia `EventAggregator` with `screen-updated`, `IScreenApiResult`, dependency injection and subscription disposal; use the [event lifecycle pattern](references/patterns.md#screen-context-events) when needed. Check the target typings and project conventions before introducing other event names or payloads.
 - Use Modern UI event handlers with `@handleEvent(...)` only for screen-level runtime UI behavior, not as a replacement for custom-control bindables.
 
 When generating HTML:

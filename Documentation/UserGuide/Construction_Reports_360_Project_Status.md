@@ -1,4 +1,4 @@
-# Construction Reports: Project Status {#_0c42943c-9710-419d-aa40-2488ca9645c7 .concept}
+# Construction Reports: Project Status
 
 Acumatica ERP Construction Edition includes the [Project Status](PM_30_15_00.md) \(PM301500\) form, which puts all of a project’s information in one place—from high-level metrics to financials, documents, and project reports. These reports help you stay on top of the project’s cash flow, committed and forecasted costs, variance versus plan, and work in process \(WIP\).
 
@@ -6,7 +6,7 @@ By using this form, you can monitor KPIs, review project-related records, and dr
 
 **Attention:** The form is available in the Modern UI only if the *360 Dashboards* feature in the *Construction* feature group is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Explore a Full Project View { .section}
+## Explore a Full Project View
 
 On the [Project Status](PM_30_15_00.md) \(PM301500\) form, you have a unified view that offers you access to:
 
@@ -16,7 +16,7 @@ On the [Project Status](PM_30_15_00.md) \(PM301500\) form, you have a unified vi
 -   Details about the customer, project contacts, and activities via the side panel
 -   Key financial reports, documents, and transactions through the More menu
 
-## View Key Metrics { .section}
+## View Key Metrics
 
 On the *Summary* dashboard of the [Project Status](PM_30_15_00.md) \(PM301500\) form, you can track the project's performance. The upper part of the dashboard shows general, revenue, and cost metrics. You can view the status of your budget, profit, and project completion.
 
@@ -28,7 +28,7 @@ Here are some things you can do:
 
 Each scorecard displays a key metric—and you can click the metric to view the full data.
 
-## Follow Up on Operational Details { .section}
+## Follow Up on Operational Details
 
 The lower part of the *Summary* dashboard of the [Project Status](PM_30_15_00.md) \(PM301500\) form gives you access to additional insights that help you stay on top of project activity, follow up on pending items, and respond to open questions or delays. You can:
 
@@ -42,7 +42,7 @@ The lower part of the *Summary* dashboard of the [Project Status](PM_30_15_00.md
 
 -   Review the **Recent Invoices** table to see the last five invoices created for the project. Click the table title to open the full list of invoices and follow up, if needed.
 
-## Dive Into Project Financials and Documents { .section}
+## Dive Into Project Financials and Documents
 
 On the [Project Status](PM_30_15_00.md) \(PM301500\) form, you can click the nodes on the navigation pane to access pages with the corresponding project-related documents—such as change orders, purchase orders, or daily field reports. The nodes are organized by the following project areas:
 

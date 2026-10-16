@@ -1,27 +1,27 @@
-# Taxes Included in the Cost of Items: Implementation Activity {#_2893c921-339d-4dc6-b93d-871c95cb6ce3 .task}
+# Taxes Included in the Cost of Items: Implementation Activity
 
 In the following implementation activity, you will learn how to configure the inclusion of taxes in the cost of purchased items.
 
-## Story {#section_g1l_fjv_vxb .section}
+## Story
 
 Suppose that you, as an implementation manager, need to update the settings of the New York State tax \(defined as *NYSTATETAX* in the system\) so that the taxes calculated on purchases will be automatically included in the costs of the applicable items. First, you need to create a reason code for tax-related inventory adjustment transactions; you then specify this reason code in the purchase order management preferences.
 
-## Configuration Overview {#section_i1l_fjv_vxb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, the *65100 - Other Tax Expenses* account has been created.
 -   On the [Taxes](TX_20_50_00.md) \(TX205000\) form, the *NY State Tax* has been configured and assigned to the *TAXABLE* category and the *NYSTATE* tax zone.
 
-## Process Overview {#section_k1l_fjv_vxb .section}
+## Process Overview
 
 In this implementation activity, you will create the *POTAXCODE* reason code on the [Reason Codes](CS_21_10_00.md) \(CS211000\) form. Then on the [Purchase Orders Preferences](PO_10_10_00.md) \(PO101000\) form, in the **Tax Reason Code** box, you will select the reason code you have created \(*POTAXCODE*\). Finally, on the [Taxes](TX_20_50_00.md) \(TX205000\) form, you will update the settings of the *NYSTATETAX* tax.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as a system administrator Kimberly Gibbs by using the *gibbs* username and the *123* password.
 
-## Step 1: Creating Reason Code for Posting Taxes {#section_o1l_fjv_vxb .section}
+## Step 1: Creating Reason Code for Posting Taxes
 
 To create a reason code for tax-related inventory adjustments, do the following:
 
@@ -39,7 +39,7 @@ To create a reason code for tax-related inventory adjustments, do the following:
 5.  On the **General** tab, in the **Tax Reason Code** box \(**Other** section\), select the reason code you have created \(*POTAXCODE*\).
 6.  On the form toolbar, click **Save** to save your changes.
 
-## Step 2: Updating the Tax Settings {#section_q1l_fjv_vxb .section}
+## Step 2: Updating the Tax Settings
 
 To set up inclusion of the tax in the item costs, proceed as follows:
 

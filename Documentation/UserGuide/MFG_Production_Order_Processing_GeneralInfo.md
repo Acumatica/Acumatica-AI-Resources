@@ -1,10 +1,10 @@
-# Production Processing: General Information {#_e71d9d1c-0316-4242-90da-0da67ad0e972 .concept}
+# Production Processing: General Information
 
 The production management functionality of Acumatica ERP Manufacturing Edition is used to control and track the transformation of raw materials and component parts into finished items and subassemblies. You create production orders of a regular type and the related transactions to record the production of items and their costs.
 
 In this topic, you will find details about the standard workflow of processing production orders when backflushing and scrap reporting are not used.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -14,15 +14,14 @@ In this chapter, you will learn how to do the following:
 -   Track the produced quantity of items and the employee time spent on producing the items
 -   Record the movement of items from a work center to a warehouse
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You process production orders of a regular type when you need to produce a certain number of items.
 
-## Standard Production Process { .section}
+## Standard Production Process
 
 The standard process of the production of items involves the actions and generated documents shown in the following diagram.
 
-![](Images/diag_MFG_Production_Order_Standard_Process_2024R1.png)
 
 The employees involved do the following to process the production order and the related transactions:
 

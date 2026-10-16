@@ -1,4 +1,4 @@
-# Importing Card Refunds {#_fa675d69-f989-4979-ab47-e16064032894 .concept}
+# Importing Card Refunds
 
 In this chapter, you will learn how to configure the Acumatica ERP instance for importing card refunds from the BigCommerce store. You will also explore how card refunds are imported and applied to imported sales orders.
 

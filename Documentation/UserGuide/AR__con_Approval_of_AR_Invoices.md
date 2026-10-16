@@ -1,4 +1,4 @@
-# Approval of Accounts Receivable Documents {#_186b674c-d428-4445-9bf9-9af1898f7bc1 .concept}
+# Approval of Accounts Receivable Documents
 
 In most companies, approval of accounts receivable documents by the designated employees is required before the documents are processed in the accounting systems and paid. Approvals prevent, for example, invoices that were entered more than once, or payments of inaccurate or fraudulent invoices. Additionally, to maintain effective control over your cash flow, you can implement an approval workflow for cash returns and customer refunds.
 
@@ -8,7 +8,7 @@ In this topic you will read about setting up an approval workflow for AR documen
 
 **Note:** The functionality is available only if the *Approval Workflow* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Document Types to be Approved {#section_l4m_4jv_vxb .section}
+## Document Types to be Approved
 
 In Acumatica ERP, the approval process can be configured for the following accounts receivable documents, which are created or generated on the listed forms:
 
@@ -25,7 +25,7 @@ In Acumatica ERP, the approval process can be configured for the following accou
 
 **Note:** This approval functionality is not applicable to credit write-offs, overdue charges, or invoices generated from the forms related to sales orders.
 
-## Configuration of Approval for Accounts Receivable Documents {#section_o4m_4jv_vxb .section}
+## Configuration of Approval for Accounts Receivable Documents
 
 To implement the approval of accounts receivable documents from start to finish, you need to complete the following instructions:
 
@@ -37,7 +37,7 @@ To implement the approval of accounts receivable documents from start to finish,
 
 Once you have set up the approval process, accounts receivable documents that meet the conditions for approval cannot be released until they are approved by the assigned approvers. For step-by-step instructions, see [To Set Up the Approval of AR Documents](../ImplementationGuide/AR__HOW_Set_Up_Approvals_for_AR_Documents.md).
 
-## Processing AR Documents with Approvals Set Up {#section_r4m_4jv_vxb .section}
+## Processing AR Documents with Approvals Set Up
 
 On the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, for a document of a document type that requires approval—that is, a document for which a relevant approval map is specified for the document type on the **Approval** tab of the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form—approval of the document proceeds as follows:
 

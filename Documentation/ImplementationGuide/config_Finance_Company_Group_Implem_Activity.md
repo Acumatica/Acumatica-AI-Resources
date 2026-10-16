@@ -1,8 +1,8 @@
-# Company Groups: Implementation Activity {#_a7d31e4c-f4b8-40a7-a347-77b18cd806fd .task}
+# Company Groups: Implementation Activity
 
 In this implementation activity, you will learn how to create a company group, add companies to it, and restrict the visibility of a customer and a vendor to this company group.
 
-## Story { .section}
+## Story
 
 Three related companies have been configured in the *U100* dataset—SweetLife Fruits &amp; Jams, Muffins &amp; Cakes, and ToadGreen Building Group. The first two companies are involved in food production, while the third is a construction company. All three companies are using the same base currency—the United States dollar \(*USD*\). The SweetLife and Muffins &amp; Cakes companies share some customers and vendors, FourStar Coffee &amp; Sweets Shop \(*COFFEESHOP*\) and Good Fruits More \(*GOODFRUITS*\) among them. Also, the SweetLife Canada company with the *CAD* \(Canadian dollar\) base currency has been implemented.
 
@@ -11,7 +11,7 @@ Acting as an implementation consultant, you need to do the following:
 -   Create a company group that includes all the companies that use the *USD* base currency: SweetLife, Muffins &amp; Cakes, and ToadGreen Building Group
 -   Restrict the *COFFEESHOP* customer and *GOODFRUITS* vendor to this company group
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -19,11 +19,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form, the *COFFEESHOP* customer has been created.
 -   On the [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\) form, the *GOODFRUITS* vendor has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Company Groups](../UserGuide/CS_10_25_00.md) \(CS102500\) form, you will create a company group and add three companies to it. On the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form, you will restrict the visibility of the *COFFEESHOP* customer to the new group, and on the [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\) form, you will restrict the visibility of the *GOODFRUITS* vendor to the new group.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating a company group, do the following:
 
@@ -31,7 +31,7 @@ Before you start creating a company group, do the following:
 -   Make sure that on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, the *Multicompany Support*, *Multicurrency Accounting*, *Customer and Vendor Visibility Restriction*, and *Multiple Base Currencies* features have been enabled, as described in [Multiple Base Currencies: Implementation Activity](config_Multicurrency_MultipleBaseCurrencies_Implem_Activity.md).
 -   Make sure that the SweetLife Canada company has been configured, as described in [Multiple Base Currencies: Implementation Activity](config_Multicurrency_MultipleBaseCurrencies_Implem_Activity.md).
 
-## Step 1: Creating a Company Group { .section}
+## Step 1: Creating a Company Group
 
 To create a company group, do the following:
 
@@ -49,7 +49,7 @@ To create a company group, do the following:
 6.  Click **Add Row**, and in the **Company ID** column of the row, select *TOADGREEN*.
 7.  On the form toolbar, click **Save** to save your changes.
 
-## Step 2: Restricting the Visibility of a Customer to the Company Group { .section}
+## Step 2: Restricting the Visibility of a Customer to the Company Group
 
 To restrict the visibility of the *COFFEESHOP* customer to the new company group, do the following:
 
@@ -58,7 +58,7 @@ To restrict the visibility of the *COFFEESHOP* customer to the new company group
 3.  In the **Restrict Visibility To** box on the **Financial** tab, select *USCOMP*.
 4.  On the form toolbar, click **Save** to save your changes.
 
-## Step 3: Restricting the Visibility of a Vendor to the Company Group { .section}
+## Step 3: Restricting the Visibility of a Vendor to the Company Group
 
 To restrict the visibility of the *GOODFRUITS* vendor to the new company group, do the following:
 

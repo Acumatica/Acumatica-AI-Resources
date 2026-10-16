@@ -1,8 +1,8 @@
-# Shop Floor Kiosk Administration: General Information {#_2dbc3cb7-9c6c-4a19-bcc1-2bd78d329989 .concept}
+# Shop Floor Kiosk Administration: General Information
 
 The Shop Floor Kiosk is a production data collection application designed for the shop floor. It runs as a Modern Portal instance that shares the same database as your Acumatica ERP installation, and provides operators with a focused, simplified interface for capturing labor time, reporting quantities, and issuing materials without requiring them to interact directly with Acumatica ERP.
 
-## Session Architecture { .section}
+## Session Architecture
 
 The kiosk operates through a dual-session architecture.
 
@@ -11,18 +11,18 @@ The kiosk operates through a dual-session architecture.
 
 This architecture means that operators never need Acumatica ERP credentials. The service account maintains the connection to the database; operators identify themselves only within the kiosk application.
 
-## Single-Form Design { .section}
+## Single-Form Design
 
 The Shop Floor Kiosk is built on a single form, *Shop Floor Kiosk \(AM000000\)*, whose layout and available actions change dynamically based on the operator's context—for example, whether they are clocked in to an operation, selecting work from a dispatch list, or reviewing recent activity. Because the entire kiosk experience is delivered through this one form, production employees need access only to this form, and no additional form-level permissions need to be configured.
 
-## Predefined Roles { .section}
+## Predefined Roles
 
 When you enable the *Shop Floor Kiosk* feature on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, two predefined kiosk-specific roles become available for user access configuration.
 
 -   *SFK App Access*: Assigned to the service user account that starts the outer session and keeps the kiosk running.
 -   *SFK User*: Assigned to production employees who sign in to the inner session to perform production reporting.
 
-## Portal Administration Sequence { .section}
+## Portal Administration Sequence
 
 To set up the Shop Floor Kiosk, you perform the following tasks in order:
 

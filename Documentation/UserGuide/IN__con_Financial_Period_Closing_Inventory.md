@@ -1,10 +1,10 @@
-# Financial Period Closing in the Inventory Subledger {#_8e12cb48-8772-47eb-8f89-f152642f473a .concept}
+# Financial Period Closing in the Inventory Subledger
 
 If your organization prepares financial reports on a regular basis, accountants should close financial periods in all subledgers that your organization uses in Acumatica ERP. Before the reports can be prepared for a financial period, the accountants have to verify the account balances, process all necessary transactions for the period, and then close the financial period for further transaction processing.
 
 In this topic, you will read about the process of closing financial periods in Inventory.
 
-## Closing Financial Periods in Inventory { .section}
+## Closing Financial Periods in Inventory
 
 Closing a financial period in a subledger is a technical procedure that prevents the posting of new transactions from this subledger to the closed period, which is undesirable or might be even forbidden after all figures have been verified and disclosed in the reports.
 

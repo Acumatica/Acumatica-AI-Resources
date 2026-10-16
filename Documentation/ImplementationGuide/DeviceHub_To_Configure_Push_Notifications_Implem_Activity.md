@@ -1,20 +1,20 @@
-# DeviceHub: To Configure Methods of Retrieving Print and Scan Jobs {#_ff6a5295-162f-4d75-a400-38825e191c16 .task}
+# DeviceHub: To Configure Methods of Retrieving Print and Scan Jobs
 
 In the following implementation activity, you will learn how to configure methods of retrieving print and scan jobs by setting up push notifications and polling in DeviceHub.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist in your company and you have installed DeviceHub. Now you need to configure the methods DeviceHub uses to receive print and scan jobs to ensure fast and reliable document printing and scanning.
 
-## Process Overview { .section}
+## Process Overview
 
 On the **General** tab of the configuration window of DeviceHub, you will configure methods of retrieving print and scan jobs.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring methods of retrieving print and scan jobs, make sure that DeviceHub has been installed on your computer, as described in [DeviceHub: To Install DeviceHub](Devicehub_To_Install_DeviceHub_Implem_Activity.md)
 
-## Step 1: Enabling Push Notifications { .section}
+## Step 1: Enabling Push Notifications
 
 To enable push notifications, do the following:
 
@@ -28,7 +28,7 @@ To enable push notifications, do the following:
     The application will now receive push notifications sent by Acumatica ERP.
 
 
-## Step 2: Configuring Polling { .section}
+## Step 2: Configuring Polling
 
 To configure polling of Acumatica ERP for print and scan jobs, do the following in the **Configuration** window, which has been opened in the previous step:
 

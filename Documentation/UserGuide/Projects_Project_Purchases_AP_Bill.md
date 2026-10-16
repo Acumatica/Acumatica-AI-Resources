@@ -1,4 +1,4 @@
-# Purchasing Services for Projects {#_c7d57529-f542-a12d-99de-b944cbe50a85 .concept}
+# Purchasing Services for Projects
 
 This chapter describes how to purchase services for projects by processing accounts payable bills.
 

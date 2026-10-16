@@ -1,4 +1,4 @@
-# To Delete a Container {#_fee6e99d-bf07-4948-9598-ff0eeaa88661 .concept}
+# To Delete a Container
 
 You can delete a container from an Acumatica ERP form. To do this, perform the following actions:
 

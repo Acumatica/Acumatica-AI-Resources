@@ -1,4 +1,4 @@
-# Route Executions: Entry of Route Executions {#_a74d4218-8981-4b6e-88d0-91ab6a1818d5 .concept}
+# Route Executions: Entry of Route Executions
 
 To process the routes that are executed by your company, you have to create route execution documents in the system for each specific day when the route services are provided. You can create route executions in one of the following ways:
 
@@ -7,7 +7,7 @@ To process the routes that are executed by your company, you have to create rout
 
 In this topic, you will learn how to enter a route execution manually.
 
-## Entering a Route Execution Manually { .section}
+## Entering a Route Execution Manually
 
 You enter a route execution on the [Route Document Details](FS_30_40_00.md) \(FS304000\) form. For the route execution, you specify the following information:
 
@@ -23,7 +23,7 @@ After you have specified and saved this information, you can create and add appo
 
 By default, the system assigns a new route execution document the *Open* status. Reference numbers for new route execution documents are generated according to the numbering sequence specified in the **Route Numbering Sequence** box on the **Routes** tab of the [Service Management Preferences](FS_10_01_00.md) \(FS100100\) form.
 
-## Viewing Route Statistics { .section}
+## Viewing Route Statistics
 
 The route execution statistics contain information about the number of appointments and services related to the executed route, the duration of activities related to it, and the total distance traveled. In the Summary area of the [Route Document Details](FS_30_40_00.md) \(FS304000\) form \(**Route Statistics** section\), you can view the route statistics for the selected route execution.
 

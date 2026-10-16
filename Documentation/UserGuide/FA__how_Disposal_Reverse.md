@@ -1,8 +1,8 @@
-# To Reverse Asset Disposal {#_224676d2-72a6-4190-bab2-e5b8fa4eb739 .task}
+# To Reverse Asset Disposal
 
 If you have specified disposal parameters incorrectly or erroneously disposed of an asset, you can reverse the disposal of this asset by using the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form.
 
-## To Reverse Asset Disposal {#section_hgf_ljv_vxb .section}
+## To Reverse Asset Disposal
 
 1.  On the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form, open the fixed asset whose disposal you want to reverse.
 2.  On the More menu \(under **Corrections**\), click **Reverse Disposal**.

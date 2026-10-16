@@ -1,8 +1,8 @@
-# General Ledger: General Information {#_de1256fd-7e02-465d-9009-9bc8f3769b71 .concept}
+# General Ledger: General Information
 
 When you initially implement Acumatica ERP, you implement the general ledger functionality that makes it possible for system implementation to proceed and for users to record and track GL transactions in the system. The implementation process includes creating an actual ledger for a company you have created, defining the chart of accounts, specifying the general ledger preference settings, and defining the company's financial year in the system.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to implement the basic configuration of the general ledger functionality for a company. In particular, you will learn how to do the following:
 
@@ -13,11 +13,11 @@ In this chapter, you will learn how to implement the basic configuration of the 
 -   Generate periods for the financial year
 -   Open the generated periods in the system
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You perform the basic configuration of the general ledger functionality during the implementation of Acumatica ERP, after a company has been configured in the system and before other parts of the system have been configured.
 
-## Workflow of the Implementation of the General Ledger Functionality { .section}
+## Workflow of the Implementation of the General Ledger Functionality
 
 To implement the general ledger functionality in Acumatica ERP, you perform the following general steps:
 

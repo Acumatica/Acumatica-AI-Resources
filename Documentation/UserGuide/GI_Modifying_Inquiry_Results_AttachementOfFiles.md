@@ -1,4 +1,4 @@
-# Modification of Inquiry Results: Attachments to Generic Inquiry Rows {#_0efb49a4-05a0-4440-80eb-d37a5a019396 .concept}
+# Modification of Inquiry Results: Attachments to Generic Inquiry Rows
 
 While working with a list of records on a generic inquiry form, a user can attach a file or note to a particular row of the table if this capability is permitted. For example, the user can attach a scanned document with a signature or important information for colleagues about a listed customer. When you design the generic inquiry, you can select the database table to which files and notes should be attached on the resulting generic inquiry form; you can instead prohibit any attachments.
 

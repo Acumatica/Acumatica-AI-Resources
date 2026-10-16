@@ -1,8 +1,8 @@
-# Authorization Code Flow: Obtaining of an Access Token and ID Token {#_81fe7518-a332-4629-bc63-e3459a116703 .concept}
+# Authorization Code Flow: Obtaining of an Access Token and ID Token
 
 To obtain an access token, an ID token, or both, a client application that implements the Authorization Code flow connects to the token endpoint of Acumatica ERP with the `POST` method. For details on the request and the response, see the following sections.
 
-## HTTP Method and URL {#_76d8934a-3c19-4ee8-b537-005719690be4 .section}
+## HTTP Method and URL
 
 The client application connects to the token endpoint of Acumatica ERP with the `POST` method. The client application can use one of the following options for the URL:
 
@@ -23,7 +23,7 @@ The client application connects to the token endpoint of Acumatica ERP with the 
     ```
 
 
-## HTTP Header { .section}
+## HTTP Header
 
 You use the following HTTP header.
 
@@ -31,37 +31,151 @@ You use the following HTTP header.
 |---|-----|
 |`Content-Type`|`application/x-www-form-urlencoded`|
 
-## Request Body { .section}
+## Request Body
 
 You specify the following parameters in the request body.
 
-|Parameter|Description|
-|---------|-----------|
-|grant\_type|The type of the OAuth 2.0 flow, which must be set to *authorization\_code* for the Authorization Code flow.|
-|client\_id|The client ID that was assigned to the client application during the registration of the application in Acumatica ERP. The client ID must have the format in which the ID was generated during the registration of the application. That is, the client ID must include an auto-generated string and the ID of the tenant, such as *88358B02-A48D-A50E-F710-39C1636C30F6@MyTenant*. The client application will have access to the data of the tenant specified in the client ID.|
-|code|The authorization code that the client application has received from the authorization endpoint.|
-|client\_secret|For a client application that uses a shared secret, the value of the secret that was created for the client application during the registration of the application in Acumatica ERP.|
-|client\_assertion\_type|For a client application that uses JSON Web Token \(JWT\) bearer tokens, the client assertion type, which must be set to *urn:ietf:params:oauth:client-assertion-type:jwt-bearer*.|
-|client\_assertion|For a client application that uses JSON Web Token \(JWT\) bearer tokens, a single JWT.|
-|code\_verifier|For a client application that uses the proof key for code exchange \(PKCE\), the code verifier for which the client application sent the code challenge during the request for the authorization code. For details about the code verifier and the code challenge, see [https://www.rfc-editor.org/rfc/rfc7636](https://www.rfc-editor.org/rfc/rfc7636).|
-|redirect\_uri|The URI in the client application to which the response to the request should be sent. The URI must exactly match one of the values specified for the application in the **Redirect URI** column on the **Redirect URIs** tab of the [Connected Applications](../Shared/../UserGuide/SM_30_30_10.md#) \(SM303010\) form.|
+<table id="_3c6af2e6-02dd-432c-990e-5d5a629cd17b"><thead><tr><th>
 
-## Response { .section}
+Parameter
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+grant\_type
+
+</td><td>
+
+The type of the OAuth 2.0 flow, which must be set to *authorization\_code* for the Authorization Code flow.
+
+</td></tr><tr><td>
+
+client\_id
+
+</td><td>
+
+The client ID that was assigned to the client application during the registration of the application in Acumatica ERP. The client ID must have the format in which the ID was generated during the registration of the application. That is, the client ID must include an auto-generated string and the ID of the tenant, such as *88358B02-A48D-A50E-F710-39C1636C30F6@MyTenant*. The client application will have access to the data of the tenant specified in the client ID.
+
+</td></tr><tr><td>
+
+code
+
+</td><td>
+
+The authorization code that the client application has received from the authorization endpoint.
+
+</td></tr><tr><td>
+
+client\_secret
+
+</td><td>
+
+For a client application that uses a shared secret, the value of the secret that was created for the client application during the registration of the application in Acumatica ERP.
+
+</td></tr><tr><td>
+
+client\_assertion\_type
+
+</td><td>
+
+For a client application that uses JSON Web Token \(JWT\) bearer tokens, the client assertion type, which must be set to *urn:ietf:params:oauth:client-assertion-type:jwt-bearer*.
+
+</td></tr><tr><td>
+
+client\_assertion
+
+</td><td>
+
+For a client application that uses JSON Web Token \(JWT\) bearer tokens, a single JWT.
+
+</td></tr><tr><td>
+
+code\_verifier
+
+</td><td>
+
+For a client application that uses the proof key for code exchange \(PKCE\), the code verifier for which the client application sent the code challenge during the request for the authorization code. For details about the code verifier and the code challenge, see [https://www.rfc-editor.org/rfc/rfc7636](https://www.rfc-editor.org/rfc/rfc7636).
+
+</td></tr><tr><td>
+
+redirect\_uri
+
+</td><td>
+
+The URI in the client application to which the response to the request should be sent. The URI must exactly match one of the values specified for the application in the **Redirect URI** column on the **Redirect URIs** tab of the [Connected Applications](../Shared/../UserGuide/SM_30_30_10.md#) \(SM303010\) form.
+
+</td></tr></tbody>
+</table>
+
+## Response
 
 Acumatica ERP verifies the provided application credentials and issues an access token, an ID token, and a refresh token if they have been requested by the application. The client application should provide the access token with each data request to Acumatica ERP.
 
 A successful response includes the following parameters in the response body.
 
-|Parameter|Description|
-|---------|-----------|
-|token\_type|The type of the access token, which is *Bearer*. The parameter is returned only if the api scope was granted.|
-|access\_token|The access token. The parameter is returned only if the api scope was granted.|
-|expires\_in|The period of time \(in seconds\) during which the access token is valid. The parameter is returned only if the api scope was granted.|
-|scope|The scope for which the access token and ID token are provided. The returning of this parameter is optional.|
-|refresh\_token|The refresh token. The parameter is returned only if the offline\_access scope was granted.|
-|id\_token|The ID token associated with the authenticated session. The ID token contains three parts, which are separated by periods. The parts are Base64 encoded. The second part contains the claims to which the user granted access. For details on the ID token structure, see [https://openid.net/specs/openid-connect-core-1\_0.html\#IDToken](https://openid.net/specs/openid-connect-core-1_0.html#IDToken) and [https://www.rfc-editor.org/rfc/rfc7519.html](https://www.rfc-editor.org/rfc/rfc7519.html). We recommend that you use the existing standard libraries for parsing the tokens. The parameter is returned only if the openid scope was granted.|
+<table id="_dc2096a3-af1b-49f8-a580-f26674cc082d"><thead><tr><th>
 
-## Example { .section}
+Parameter
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+token\_type
+
+</td><td>
+
+The type of the access token, which is *Bearer*. The parameter is returned only if the api scope was granted.
+
+</td></tr><tr><td>
+
+access\_token
+
+</td><td>
+
+The access token. The parameter is returned only if the api scope was granted.
+
+</td></tr><tr><td>
+
+expires\_in
+
+</td><td>
+
+The period of time \(in seconds\) during which the access token is valid. The parameter is returned only if the api scope was granted.
+
+</td></tr><tr><td>
+
+scope
+
+</td><td>
+
+The scope for which the access token and ID token are provided. The returning of this parameter is optional.
+
+</td></tr><tr><td>
+
+refresh\_token
+
+</td><td>
+
+The refresh token. The parameter is returned only if the offline\_access scope was granted.
+
+</td></tr><tr><td>
+
+id\_token
+
+</td><td>
+
+The ID token associated with the authenticated session. The ID token contains three parts, which are separated by periods. The parts are Base64 encoded. The second part contains the claims to which the user granted access. For details on the ID token structure, see [https://openid.net/specs/openid-connect-core-1\_0.html\#IDToken](https://openid.net/specs/openid-connect-core-1_0.html#IDToken) and [https://www.rfc-editor.org/rfc/rfc7519.html](https://www.rfc-editor.org/rfc/rfc7519.html). We recommend that you use the existing standard libraries for parsing the tokens. The parameter is returned only if the openid scope was granted.
+
+</td></tr></tbody>
+</table>
+
+## Example
 
 The following example shows a request for an access token with a shared secret provided with the request. \(Line breaks are for display purposes only.\)
 
@@ -81,9 +195,10 @@ A successful response has the body shown in the following example.
 
 ```
 {
-    "access_token": "u39uoZj9A4fj2T80Zx0Qirznr0oqNb1qK92c48ZdxUg",
+    "access_token": "IqJ-G7mSVfXkxX8xrZsju6q2MTvNsD8HCDWzuF6J6Aw",
     "expires_in": 3600,
     "token_type": "Bearer",
+    "refresh_token": "RkFfKezZWLkd68O9R0xz0Z50mZ8DdEXrpEnKZr41Zgg",
     "scope": "api offline_access"
 }
 ```

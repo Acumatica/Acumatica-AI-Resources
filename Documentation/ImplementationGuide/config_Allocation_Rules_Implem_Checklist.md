@@ -1,4 +1,4 @@
-# Allocation Rules: Implementation Checklist {#_89f959e7-a660-41a4-a37c-681dc78effaa .concept}
+# Allocation Rules: Implementation Checklist
 
 The following tables provide details that you can use to ensure that the system is configured properly for the creation of allocation rules.
 
@@ -9,7 +9,7 @@ The following tables provide details that you can use to ensure that the system 
 |[Ledgers](../UserGuide/GL_20_15_00.md) \(GL201500\) form|Make sure that the ledgers used for allocations have been created.| |
 |[Chart of Accounts](../UserGuide/GL_20_25_00.md) \(GL202500\) form|Check whether the necessary accounts have been created, and create them if not.| |
 
-## Additional Configuration to Confirm {#_c518cb6d-2320-42b8-a73d-c17b246be1e2 .section}
+## Additional Configuration to Confirm
 
 If your company uses subaccounts, the subaccounts have to be configured, as described in [Subaccounts: Implementation Activity](config_Subaccounts_Implem_Activity.md).
 

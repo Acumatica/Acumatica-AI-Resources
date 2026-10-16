@@ -1,8 +1,8 @@
-# Automatic Group Vendor Discounts: Implementation Activity {#_203a1351-0558-489a-92e9-d71665bc13f5 .task}
+# Automatic Group Vendor Discounts: Implementation Activity
 
 In this activity, you will learn how to configure and apply an automatic vendor discount that is based on the amount or quantity in one line or in a group of document lines.
 
-## Story { .section}
+## Story
 
 Starting in January 2026, Blueline Advertising introduced a new discounting policy, offering its customers a 10% discount if they order billboard production and installation services worth of $3000 or more.
 
@@ -10,7 +10,7 @@ On January 30, 2026 SweetLife Fruits &amp; Jams company purchased the developmen
 
 Acting as the SweetLife's accountant, you first create the group vendor discount. Then you create a bill for Blueline reflecting the purchase, and after that you review how the group discount is applied to the bill.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -18,13 +18,13 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *BILLBDESIG*, *BILLBPROD*, and *BILLBINSTA* non-stock items have been created.
 -   On the [Vendors](AP_30_30_00.md) \(AR303000\) form, the *BLUELINE* vendor has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 To configure a group-level vendor discount, you create a discount code on the [Vendor Discount Codes](AP_20_40_00.md) \(AP204000\) form and then configure a discount sequence on the [Vendor Discounts](AP_20_50_00.md) \(AP205000\) form.
 
 On the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you create an AP bill with lines to which these discounts may be applied. You then review how the discounts you have configured are applied automatically.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -32,7 +32,7 @@ To prepare the system, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026*. For simplicity, in this lesson, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Configure the Group Vendor Discount by Percent { .section}
+## Step 1: Configure the Group Vendor Discount by Percent
 
 To configure an automatic group discount by amount for the *BILLBPROD* and *BILLBINSTA* non-stock items purchased from Blueline, do the following:
 
@@ -75,7 +75,7 @@ To configure an automatic group discount by amount for the *BILLBPROD* and *BILL
 10. On the form toolbar, click **Update Discounts**.
 11. In the **Update Discounts** dialog box, which opens, leave the default value \(*1/30/2026*\) in the **Filter Date** box, and click **OK**.
 
-## Step 2: Create the AP Bill for Blueline and Explore Discount Application { .section}
+## Step 2: Create the AP Bill for Blueline and Explore Discount Application
 
 To create the bill for Blueline Advertising and explore how the automatic group discount is applied, do the following:
 
@@ -112,7 +112,7 @@ To create the bill for Blueline Advertising and explore how the automatic group 
     The *20000 - Accounts Payable* account is credited and the *61000 - Advertising Expense* account is debited in the amount of the bill. Notice that the discount applied to the group of lines is credited to the *49000 - Discount Taken* account.
 
 
-## Step 3: Make the Created Discounts Inactive { .section}
+## Step 3: Make the Created Discounts Inactive
 
 To make the discounts you created in this activity inactive so that they will not affect other documents later, do the following:
 

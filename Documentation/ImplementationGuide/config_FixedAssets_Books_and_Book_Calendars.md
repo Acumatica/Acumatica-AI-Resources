@@ -1,10 +1,10 @@
-# Fixed Assets: Books and Book Calendars {#_e1888694-3ffe-4208-943c-68eded1b296e .concept}
+# Fixed Assets: Books and Book Calendars
 
 In Acumatica ERP, books are used to record fixed asset transactions. Every asset must be assigned to at least one book that will hold the transaction history of the asset.
 
 In accordance with your company policy, you may need to depreciate an asset by using different depreciation methods at the same time, such as for reporting and statistical purposes. To achieve this goal, you can define multiple books in the fixed asset subledger, and then assign one book or multiple books to an asset. Thus, the same asset may have different depreciation expenses for the same period according to the books being used.
 
-## Creation of Books { .section}
+## Creation of Books
 
 You create the fixed asset books on the [Books](../UserGuide/FA_20_50_00.md) \(FA205000\) form. For each book, you specify the book title and the rules for determining the middle of the period to be used for averaging conventions. \(The averaging convention determines how fixed assets will be depreciated for the periods within which assets were acquired or disposed; for details, see [Averaging Conventions](../UserGuide/FA__con_Averaging_Conventions.md).\)
 
@@ -18,7 +18,7 @@ The posting book uses the financial year structure configured in the general led
 
 On the [Books](../UserGuide/FA_20_50_00.md) form, you can also create any number of non-posting books \(those that do not update general ledger accounts\). For these books, you leave the **Posting Book** check box cleared. Once you have created a non-posting book, you need to set up the structure of the calendar to be used for this book. Once the structure is defined, you can generate a book calendar on the [Generate Book Calendars](../UserGuide/FA_50_10_00.md) form.
 
-## Support of Different Calendars in Fixed Assets { .section}
+## Support of Different Calendars in Fixed Assets
 
 If the *Multiple Calendar Support* feature has been enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, the companies within one tenant can use different financial calendars. Thus, you can configure an open posting book and multiple non-posting books that are shared across these companies. For details, see [Multiple Calendar Support](../UserGuide/GL__MNG_Multiple_Calendar_Support.md).
 
@@ -32,7 +32,7 @@ If the *Multiple Calendar Support* feature is enabled, note the following about 
 
 If you disable the *Multiple Calendar Support* feature on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) form, the system checks whether each period of an active company in the company's posting book has a matching period in the general ledger calendar. \(Only the IDs of the periods are compared.\) If this condition is not met, the system displays an error message on this form. For details on company statuses, see [Companies and Branches](../UserGuide/OS__con_Companies.md).
 
-## Creation of a Book Calendar { .section}
+## Creation of a Book Calendar
 
 For each book, you need to generate a book calendar on the [Generate Book Calendars](../UserGuide/FA_50_10_00.md) \(FA501000\) form. Before generating a calendar for a non-posting book, you should define the structure of the calendar on the [Book Calendar Setup](../UserGuide/FA_20_60_00.md) \(FA206000\) form by specifying the start calendar date and the type of the periods to be used in this calendar. Then on the [Generate Book Calendars](../UserGuide/FA_50_10_00.md) form, you generate a calendar for a selected book. The calendar will be based on the calendar structure that you have defined.
 
@@ -42,7 +42,7 @@ A calendar is used to record depreciation expenses according to the calendar per
 
 The financial year may be set as a calendar year starting January 1, or may be different. You select the **Belongs to Next Year** check box on the [Book Calendar Setup](../UserGuide/FA_20_60_00.md) form when the financial year starts later in the calendar year than January 1. The system calculates the ending date of the financial year automatically as the ending date of the last period.
 
-## Setup of Book Calendar Periods { .section}
+## Setup of Book Calendar Periods
 
 The book calendar year is divided into periods, which may have equal or different durations. The total length of all periods may or may not be equal to the year. You can set up the calendar periods for a non-posting book by using the [Book Calendar Setup](../UserGuide/FA_20_60_00.md) \(FA206000\) form.
 
@@ -54,15 +54,15 @@ For a book calendar year with week-long periods, to process the difference betwe
 
 For details on adding a calendar, see [To Define a Book Calendar with Week-Based Periods](FA__How_Add_Calendar_Week_based.md). For details on generating periods for book calendars, see [Fixed Assets: To Configure the Fixed Asset Functionality](config_FixedAssets_Implem_Activity_FixedAssets_Subledger.md).
 
-## Shifting of the First Book Calendar Year { .section}
+## Shifting of the First Book Calendar Year
 
 Fixed assets may have a long useful life. For example, buildings can be used for decades. If your company owns an asset whose depreciation started before you started working with Acumatica ERP, you may want to configure a book calendar to start when the asset depreciation started. You can shift the first year of the book calendar one year earlier and then generate periods for the added year. For details, see [Fixed Asset Troubleshooting: To Shift the First Year One Year Earlier](../UserGuide/FA__how_Shift_One_Year_Earlier.md).
 
-## Deletion of a Book { .section}
+## Deletion of a Book
 
 On the [Books](../UserGuide/FA_20_50_00.md) \(FA205000\) form, you can delete the selected book by clicking **Delete Row** on the table toolbar. The book can be deleted only if there are no transactions posted in the selected book. Once the book is deleted, the calendar generated for this book on the [Book Calendar Setup](../UserGuide/FA_20_60_00.md) form will be deleted as well.
 
-## Closing of Financial Periods { .section}
+## Closing of Financial Periods
 
 On the [Close Financial Periods](../UserGuide/FA_50_90_00.md) \(FA509000\) form, you close financial periods in the fixed assets subledger to prevent users from posting transactions to these periods.
 

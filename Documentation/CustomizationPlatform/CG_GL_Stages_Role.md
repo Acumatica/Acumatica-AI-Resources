@@ -1,4 +1,4 @@
-# To Assign the Customizer Role to a User Account {#_8977603a-5e95-44bb-8b4a-6deae315de1f .concept}
+# To Assign the Customizer Role to a User Account
 
 Specialists who will work on customization projects should be assigned the *Customizer* role in the application instance that is to be customized and tested, as well as in the production application that should be updated with the customization project. With this role assigned, the specialists can use the customization tools and facilities of the Acumatica Customization Platform, and upload and publish customization projects.
 

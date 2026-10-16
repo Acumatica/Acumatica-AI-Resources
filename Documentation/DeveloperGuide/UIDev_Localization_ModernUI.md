@@ -1,4 +1,4 @@
-# UI Localization: TypeScript and HTML Code of the Modern UI {#_b510e5fb-72c3-42f5-a48c-39dda10f0acc .concept}
+# UI Localization: TypeScript and HTML Code of the Modern UI
 
 The following items in the TypeScript and HTML code of the Modern UI are localized automatically—that is, you do not need to specify anything for them in the TypeScript or HTML code:
 
@@ -7,11 +7,11 @@ The following items in the TypeScript and HTML code of the Modern UI are localiz
 
 If you want to localize any other text in the TypeScript or HTML code, you need to use one of the approaches described in the following sections.
 
-## Localizing Strings in TypeScript Code {#_227ade16-ab04-418b-a806-4149a5fb2415 .section}
+## Localizing Strings in TypeScript Code
 
 If you need to localize the value of an HTML attribute, such as `text` or `toolTip`, you need to declare a class with the strings for localization and use the [localizable](https://help.acumatica.com/(W(1))/Help?ScreenId=ShowWiki&pageid=996daf88-0f99-e5b7-2dd6-37e53ad89736) decorator on this class, as shown in the following example.
 
-```language-javascript
+```javascript
 import { 
   localizable
 } from "client-controls";
@@ -53,7 +53,7 @@ export class GIRelation extends PXView { ... }
 
 You can also use the localizable decorator to mark a localizable string, as shown in the following examples.
 
-```language-javascript
+```javascript
 export class QpDacBrowserCustomElement {
     @localizable
     static NothingFoundMsg: string = 
@@ -63,20 +63,20 @@ export class QpDacBrowserCustomElement {
 
 You can also specify the context for the message in the parameter of the decorator, as shown in the following code. The value of the parameter is displayed in the **Key** column of the **Key-Specific Values** tab of the [Translation Dictionaries](../UserGuide/SM_20_05_40.md#) \(SM200540\) form. For example, the value of the parameter can help to distinguish two messages if they have the same identifiers and are declared in the classes with the same names.
 
-```language-javascript
+```javascript
 @localizable("PX.Objects.AP.Messages")
 class Messages {
     static LinesHintSingleLine = "line selected";
 }
 ```
 
-## Using Localizable Strings Defined in TypeScript in HTML Code { .section}
+## Using Localizable Strings Defined in TypeScript in HTML Code
 
 If in HTML code you need to use the localizable string that is defined in TypeScript, you need to do the following:
 
 1.  You define a property in the screen class that corresponds to the class with localizable messages, as shown in the following example.
 
-    ```language-javascript
+    ```javascript
     //The class with localizable messages
     @localizable
     export class LocalizableStrings {
@@ -97,7 +97,7 @@ If in HTML code you need to use the localizable string that is defined in TypeSc
 
 2.  You use this property in HTML code, as shown in the following example.
 
-    ```language-xml
+    ```xml
     <qp-button id="btnPrevDataField" 
       caption="Insert Previous Data Field" 
       tooltip.bind = 'LocalizableStrings.btnPrevDataField_tooltip'>
@@ -105,11 +105,11 @@ If in HTML code you need to use the localizable string that is defined in TypeSc
     ```
 
 
-## Localizing Strings in HTML Code { .section}
+## Localizing Strings in HTML Code
 
 To make the content of a tag in HTML localizable, you mark the tag with the i18n attribute, as shown in the following example. This is the standard attribute for the localization of HTML code.
 
-```language-xml
+```xml
 <a id="UserPrefs_form2_OutlookLink" 
   href="~/../../../OutlookAddinManifest" i18n>
   Download Outlook Add-In Manifest
@@ -118,7 +118,7 @@ To make the content of a tag in HTML localizable, you mark the tag with the i18n
 
 You can also mark any attribute in HTML with the .i18n attribute suffix to make the value of the attribute localizable, as shown in the following example.
 
-```language-xml
+```xml
 <custom-tag text.i18n="Hello, World!"></custom-tag>
 ```
 

@@ -1,10 +1,10 @@
-# To Configure Workspaces in the Acumatica ERP Instance {#_911d5e97-b703-4e3a-9835-6193add5e719 .concept}
+# To Configure Workspaces in the Acumatica ERP Instance
 
 You configure the workspaces and their screens of the Acumatica mobile app in your Acumatica ERP instance by using the [Mobile Workspaces](../UserGuide/AU_22_00_12.md) \(AU220012\) and [Mobile Workspace](../UserGuide/AU_22_00_13.md) \(AU220013\) forms, as well as the Customization Project Editor. This topic describes the way you can configure the workspaces of the mobile app.
 
 This configuration applies to all copies of the Acumatica mobile app connected to the current tenant in an Acumatica ERP instance. To perform this configuration, you need to have the *Administrator* or *Customizer* predefined role. To view the applied changes, if you are signed in to the mobile app, you need to sign out and then to sign in again.
 
-## To Add a Workspace { .section}
+## To Add a Workspace
 
 You can add a workspace to the mobile app so that its tile is shown on the Home screen. Do the following:
 
@@ -15,7 +15,7 @@ You can add a workspace to the mobile app so that its tile is shown on the Home 
 3.  Make sure that the **Visible** check box is selected in the row of the added workspace.
 4.  Save your changes.
 
-## To Change the Order of Workspaces { .section}
+## To Change the Order of Workspaces
 
 To change the order in which the workspaces are displayed on the Home screen of the mobile app, perform the following steps:
 
@@ -24,7 +24,7 @@ To change the order in which the workspaces are displayed on the Home screen of 
 3.  On the form toolbar, click **Move Row Up** or **Move Row Down** to change the position of the workspace.
 4.  Save your changes.
 
-## To Remove a Workspace from the List of Workspaces { .section}
+## To Remove a Workspace from the List of Workspaces
 
 To remove a workspace from the Home screen of the mobile app, perform the following steps:
 
@@ -36,7 +36,7 @@ To remove a workspace from the Home screen of the mobile app, perform the follow
 
 4.  Save your changes.
 
-## To Add a Screen to a Workspace { .section}
+## To Add a Screen to a Workspace
 
 To add a screen to a workspace, perform the following steps:
 
@@ -53,7 +53,7 @@ To add a screen to a workspace, perform the following steps:
 5.  Make sure the **Visible** check box is selected for the added screen.
 6.  Save your changes.
 
-## To Change the Position of a Screen in a Workspace { .section}
+## To Change the Position of a Screen in a Workspace
 
 To change the position of any screen in a workspace, perform the following steps:
 
@@ -62,7 +62,7 @@ To change the position of any screen in a workspace, perform the following steps
 3.  On the form toolbar, click **Move Row Up** or **Move Row Down** to change the position of the screen.
 4.  Save your changes.
 
-## To Remove a Screen from a Workspace { .section}
+## To Remove a Screen from a Workspace
 
 To remove a screen from a workspace, perform the following steps:
 
@@ -74,7 +74,7 @@ To remove a screen from a workspace, perform the following steps:
 
 4.  Save your changes.
 
-## To Add a Widget to a Workspace { .section}
+## To Add a Widget to a Workspace
 
 To add a widget to a workspace, perform the following steps:
 
@@ -85,7 +85,7 @@ To add a widget to a workspace, perform the following steps:
 5.  In the row, make sure the **Visible** check box is selected.
 6.  Save your changes.
 
-## To Change the Position of a Widget in a Workspace { .section}
+## To Change the Position of a Widget in a Workspace
 
 To change the position of any widget in a workspace, perform the following steps:
 
@@ -94,7 +94,7 @@ To change the position of any widget in a workspace, perform the following steps
 3.  On the table toolbar, click **Move Row Up** or **Move Row Down** to change the position of the widget.
 4.  Save your changes.
 
-## To Remove a Widget from a Workspace { .section}
+## To Remove a Widget from a Workspace
 
 To remove a widget from a workspace, perform the following steps:
 

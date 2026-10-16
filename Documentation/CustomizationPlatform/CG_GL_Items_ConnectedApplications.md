@@ -1,4 +1,4 @@
-# Connected Applications {#_86240844-4835-46e0-a28c-93335ea8b70f .concept}
+# Connected Applications
 
 If you need to use a client application that implements the OAuth 2.0 or OpenID Connect authorization mechanism with other Acumatica ERP instances, you need to include the information about this client application in a customization project and publish this customization project to these instances. To include the information about the registered client application in a customization project, you use the [Connected Applications](../Shared/../UserGuide/AU_21_00_30.md) page of the Customization Project Editor.
 

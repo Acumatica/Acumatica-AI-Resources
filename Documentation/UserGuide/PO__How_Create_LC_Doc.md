@@ -1,8 +1,8 @@
-# To Create a Landed Cost Document {#_a2d06105-5af2-45cd-9b7a-e73496500e2b .task}
+# To Create a Landed Cost Document
 
 To allocate landed costs among items of either purchase receipts or transfer receipts, you create a landed cost document on the [Landed Costs](PO_30_30_00.md) \(PO303000\) form.
 
-## To Create a Purchase Order { .section}
+## To Create a Purchase Order
 
 1.  Open the [Landed Costs](PO_30_30_00.md) \(PO303000\) form.
 2.  Select the landed cost vendor in the **Vendor** box.

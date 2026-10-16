@@ -1,8 +1,8 @@
-# To Process Missing Transactions {#_953cbc76-f82c-423a-a07c-180785a08751 .task}
+# To Process Missing Transactions
 
 The **Missing Transactions** tab of the [Settlement Batches](CA_30_70_00.md) \(CA307000\) form, which you access from the [Import Settlement Batches](CA_50_70_00.md) \(CA507000\) form, shows missing transactions—those that were recorded by the processing center but not found in Acumatica ERP. You can perform multiple processing tasks with missing transactions, as detailed below.
 
-## To Record a Transaction in the System {#section_zp2_kjv_vxb .section}
+## To Record a Transaction in the System
 
 To record a missing transaction in the system \(that is, create a document based on the transaction\), do the following:
 
@@ -18,7 +18,7 @@ To record a missing transaction in the system \(that is, create a document based
 7.  On the [Payments and Applications](AR_30_20_00.md) form, fill in other needed document settings, and make sure that the document amount is the same as the transaction amount.
 8.  On the form toolbar, click **Release** to release the document.
 
-## To Hide a Transaction {#section_cq2_kjv_vxb .section}
+## To Hide a Transaction
 
 To hide a missing transaction in the system \(that is, exclude it from further processing\), do the following:
 
@@ -41,7 +41,7 @@ To hide a missing transaction in the system \(that is, exclude it from further p
     **Tip:** To include the hidden transaction in processing again, on the **All Transactions** tab, select the Included check box for this transaction, and click **Unhide** on the table toolbar.
 
 
-## To Restart the Matching Process for All Missing Transactions in a Batch {#section_iq2_kjv_vxb .section}
+## To Restart the Matching Process for All Missing Transactions in a Batch
 
 To restart the matching process for all transactions listed on the **Missing Transactions** tab, do the following:
 

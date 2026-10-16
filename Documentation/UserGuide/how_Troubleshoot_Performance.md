@@ -1,4 +1,4 @@
-# Troubleshooting Performance {#_1e173168-12d7-43cf-82e4-a140237a700c .concept}
+# Troubleshooting Performance
 
 In this topic and the steps within it, you can find a detailed description of the steps you need to perform to resolve performance issues on the client side and, if necessary, to gather information to provide it to the Acumatica support team.
 

@@ -1,16 +1,16 @@
-# Migration of Financial Documents: To Import AR Documents {#_f4adb2e1-c963-4c11-81ef-a6fdba47320b .task}
+# Migration of Financial Documents: To Import AR Documents
 
 The following activity will walk you through the process of importing AR documents to Acumatica ERP.
 
 **Attention:** This activity is based on the *U100 Basic Company* dataset. If you are using another dataset, or if any system settings have been changed in *U100 Basic Company*, these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the *U100 Basic Company* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are an implementation consultant of the SweetLife Fruits &amp; Jams company, and you are performing data migration from the legacy ERP system to Acumatica ERP. You have imported the following master records: customers, vendors, and non-stock items.
 
 Now you need to import accounts receivable documents: open and closed invoices, along with open and closed AR payments. Also suppose that you have decided to import all AR invoices with their original reference numbers and then continue numbering new invoices starting with the reference number that follows the number of the last imported document.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100 Basic Company* dataset, the following tasks have been performed for the purposes of this activity:
 
@@ -18,13 +18,13 @@ In the *U100 Basic Company* dataset, the following tasks have been performed for
 -   On the [Companies](CS_10_15_00.md) \(CS101500\) form, the SweetLife company without branches has been configured by performing the steps described in [Company Without Branches: To Configure a Company Without Branches](../ImplementationGuide/config_Basic_Company_Implem_Activity_Enabling_Features.md).
 -   On multiple forms, the required financial configuration has been performed, as described in the [Implementing Basic Financials](../ImplementationGuide/config_GL_Mapref.md) chapter of the Implementation Guide.
 
-## Process Overview { .section}
+## Process Overview
 
 You will review the Excel file with the open and closed invoices to be imported. On the [Import by Scenario](SM_20_60_36.md) \(SM206036\) form, you will import the prepared invoices. You will release the imported invoices on the [Release AR Documents](AR_50_10_00.md) \(AR501000\) forms. Then on the [Numbering Sequences](CS_20_10_10.md) \(CS201010\) form, you will update the settings of the numbering sequences for invoices so that they are numbered automatically.
 
 After that, you will review the Excel file with the payments to be imported. You will import open and closed payments on the [Import by Scenario](SM_20_60_36.md) form. You will release the imported payments on the [Release AR Documents](AR_50_10_00.md) forms. After all documents are imported, you will review imported customer balances on the [Customer Summary](AR_40_10_00.md) \(AR401000\) inquiry form. Finally, you will deactivate migration mode for the AR subledger on the [Accounts Receivable Preferences](AR_10_10_00.md) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
@@ -39,7 +39,7 @@ To prepare to perform the instructions of this activity, do the following:
     -   In the table, delete the only row with the subsequence from the table.
     -   Save your changes. With these settings, the documents will be imported with the reference number from the legacy system.
 
-## Step 1: Migrating AR Invoices { .section}
+## Step 1: Migrating AR Invoices
 
 To import AR invoices into the system, do the following:
 
@@ -53,7 +53,6 @@ To import AR invoices into the system, do the following:
 
     Notice that on the **Financial** tab, *MIGRATED* is shown in the **Batch Nbr.** box \(Item 3\), which indicates that this document has been imported in migration mode.
 
-    ![](Images/activity_DataMigration_Import_Financial_AR_Documents_Invoice.png "The imported AR invoice")
 
 8.  On the same form, open the invoice with the *INV000033* reference number and review its details. The total amount of the invoice in the **Detail Total** box of the Summary area is $23,400.00, while the open balance of the invoice is $2,400. On release of the invoice, the system will assign it the *Open* status and update the customer balance without producing any general ledger transactions.
 9.  On the form toolbar of the [Release AR Documents](AR_50_10_00.md) \(AR501000\) form, click **Release All** to release all the imported documents at once.
@@ -75,7 +74,7 @@ To import AR invoices into the system, do the following:
     This indicates that the next invoice will be automatically assigned a number based on the *ARINVOICE* numbering sequence that you have configured.
 
 
-## Step 2: Migrating AR Payments { .section}
+## Step 2: Migrating AR Payments
 
 To import the accounts receivable payments with open balances, proceed as follows:
 
@@ -89,17 +88,15 @@ To import the accounts receivable payments with open balances, proceed as follow
 
     Notice that on the **Financial** tab, *MIGRATED* is shown in the **Batch Nbr.** box \(Item 3\), which indicates that this document has been imported in migration mode.
 
-    ![](Images/activity_DataMigration_Import_Financial_AR_Documents_Payment.png "The imported payment")
 
 8.  On the form toolbar of the [Release AR Documents](AR_50_10_00.md) \(AR501000\) form, click **Release All** to release all the imported payments at once.
 
-## Step 3: Reviewing Customer Balances { .section}
+## Step 3: Reviewing Customer Balances
 
 To review how imported documents affected customer balances, do the following:
 
 1.  On the [Customer Summary](AR_40_10_00.md) \(AR401000\) inquiry form, select the 11-2025 financial period, clear the **Customers with Balance Only** check box, and review the list of customers and customer balances that have been initialized after you imported the documents. In the Selection area, make sure that the total customer balance is $18,200, as shown in the following screenshot.
 
-    ![](Images/activity_DataMigration_Import_Financial_AR_Documents_ARBalance.png "Customer balances in the 11-2024 period")
 
 2.  On the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, clear the **Activate Migration Mode** check box. You are done migrating the AR documents, so this mode is no longer needed.
 3.  Save your changes to the form.

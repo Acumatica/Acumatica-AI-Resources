@@ -1,8 +1,8 @@
-# Wiki Style Examples {#_71ccf63b-a9d5-483f-b4ef-76055ed78919 .concept}
+# Wiki Style Examples
 
 In Acumatica ERP, you can easily modify the styles used to display the articles in wikis and the styles used to print wiki articles.
 
-## Definition of Wiki Help Style { .section}
+## Definition of Wiki Help Style
 
 ```
 .wiki
@@ -421,7 +421,7 @@ table.listtable td.boldcol
 } 
 ```
 
-## Definition of Styles Used for Printing Wiki Articles { .section}
+## Definition of Styles Used for Printing Wiki Articles
 
 ```
 .wiki

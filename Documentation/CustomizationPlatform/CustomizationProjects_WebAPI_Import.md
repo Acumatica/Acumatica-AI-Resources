@@ -1,10 +1,10 @@
-# Customization Web API: import {#_eb79f77e-f49c-4dc3-b230-84cb41558b94 .concept}
+# Customization Web API: import
 
 You can import a customization package \(that is, a ZIP archive\) to an Acumatica ERP instance.
 
 During the import, the platform uploads the customization package, creates the corresponding customization project, and saves the project in the database. As a result, the new customization project appears in the list on the [Customization Projects](../Shared/../UserGuide/SM_20_45_05.md) \(SM204505\) form. After the import is completed, you can access the project data and manage the project.
 
-## HTTP Method and URL { .section}
+## HTTP Method and URL
 
 To import a customization package to an Acumatica ERP instance, you use the `POST` HTTP method and the following URL.
 
@@ -14,7 +14,7 @@ POST http()://<Acumatica ERP Instance URL>/CustomizationApi/import
 
 You replace *&lt;Acumatica ERP instance URL&gt;* with the URL of your Acumatica ERP instance.
 
-## Request Body { .section}
+## Request Body
 
 In the request body in JSON format, you can use the fields listed in the following table.
 
@@ -26,13 +26,25 @@ In the request body in JSON format, you can use the fields listed in the followi
 |`projectDescription`|The description of the customization project.|
 |`projectContentBase64`|The contents of the customization package in Base64 format. If you do not specify the value of this field, the system will try to remove the specified customization project.|
 
-## Response Body { .section}
+## Response Body
 
 The following table describes the field that the system returns in the body of the response.
 
-|Field|Description|
-|-----|-----------|
-|`log`|An array of log records. Each element of the array has the following fields:
+<table id="_e6d1b0ab-812e-411c-8440-4a0bb60f8edb"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+`log`
+
+</td><td>
+
+An array of log records. Each element of the array has the following fields:
 
 -   `timestamp`: The date and time when the information about the performed operation was added to the log
 -   `logType`: The type of the log message, which can be one of the following:
@@ -42,9 +54,10 @@ The following table describes the field that the system returns in the body of t
     -   *error*
 -   `message`: The log message
 
-|
+</td></tr></tbody>
+</table>
 
-## Example { .section}
+## Example
 
 The following request shows an example of the importing of the *PhoneRepairShop* customization project.
 
@@ -53,6 +66,7 @@ The following request shows an example of the importing of the *PhoneRepairShop*
 ```
 POST /<Acumatica ERP Instance URL>/CustomizationApi/import HTTP/1.1
 Host: localhost
+Authorization: Bearer <access token>
 Content-Type: application/json
 {
     "projectLevel": 1,

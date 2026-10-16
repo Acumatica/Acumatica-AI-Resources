@@ -1,8 +1,10 @@
-# Managing Mass Emails {#_1faa26fd-6d27-4a50-bf71-d5b4009771e7 .concept}
+# Managing Mass Emails
 
 In this chapter, you will find information about managing mass emails.
 
 -   **[Mass Emails: General Information](../UserGuide/CRM_Mktg_Managing_Mass_Emails_General_Info.md)**  
+
+-   **[Mass Emails: Marketing Categories](../UserGuide/CRM_Mktg_Managing_Mass_Emails_Marketing_Categories.md)**  
 
 -   **[Mass Emails: Implementation Checklist](../UserGuide/CRM_Mktg_Managing_Mass_Emails_Implem_Checklist.md)**  
 

@@ -1,8 +1,8 @@
-# Tax Report for VAT: Generated Transactions {#_99f11410-a67f-4a0f-a93b-f0a6b127b3fd .concept}
+# Tax Report for VAT: Generated Transactions
 
 As you release a tax report, you create and process an AP bill. To update the balance of the vendor \(tax agency\), the system generates the GL transaction described in the following section.
 
-## Transaction Generated for an AP Bill for the Tax Agency {#section_cq4_fjv_vxb .section}
+## Transaction Generated for an AP Bill for the Tax Agency
 
 When you create and release an AP bill, the system generates the following general ledger transaction:
 

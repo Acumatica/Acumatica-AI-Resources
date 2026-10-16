@@ -1,20 +1,20 @@
-# Test Project and Test Class:To Create a Test Project {#_d8e18ef2-d47c-4d69-8efc-83c2509b6ce3 .task}
+# Test Project and Test Class:To Create a Test Project
 
 The following activity will walk you through the process of creating and configuring a test project.
 
-## Story { .section}
+## Story
 
 Suppose that you have an extension library implemented in the `PhoneRepairShop_Code.csproj` Visual Studio project. You need to create a test project in which you will develop unit tests for graphs and graph extensions in this extension library. You will use the `xUnit.net` library and the Acumatica Unit Test Framework in the unit tests.
 
-## Process Overview { .section}
+## Process Overview
 
 In Visual Studio, you will create a test project in the same solution with the extension library that implements the graphs and graph extensions being tested. You will add the required NuGet packages to the test project. You will also add the `PX.Tests.Unit.dll` library and other libraries from the Acumatica ERP instance to the test project.
 
-## System Preparation { .section}
+## System Preparation
 
 As a prerequisite, before you begin creating a test project, make sure that you have performed the [Test Instance for Unit Testing: To Deploy an Instance](UnitTest_InitialConfiguration_Activity_DeployInstance.md) activity.
 
-## Step 1: Creating a Test Project { .section}
+## Step 1: Creating a Test Project
 
 To create the `PhoneRepairShop_Code.Tests.csproj` project, proceed as follows:
 
@@ -33,7 +33,7 @@ To create the `PhoneRepairShop_Code.Tests.csproj` project, proceed as follows:
     -   Nullable: *enable*
     An example of the configuration is shown in the following code.
 
-    ```language-csharp
+    ```csharp
       <PropertyGroup>
         <TargetFramework>net48</TargetFramework>
         <RootNamespace>PhoneRepairShop_Code.Tests</RootNamespace>
@@ -41,18 +41,18 @@ To create the `PhoneRepairShop_Code.Tests.csproj` project, proceed as follows:
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
         <OutputPath>bin\$(Configuration)</OutputPath>
         <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-        <FileVersion>25.201.0166</FileVersion>
-        <InformationalVersion>25.201.0166</InformationalVersion>
+        <FileVersion>26.100.0217</FileVersion>
+        <InformationalVersion>26.100.0217</InformationalVersion>
         <LangVersion>9.0</LangVersion>
         <Nullable>enable</Nullable>
-        <Copyright>Copyright © 2005-2025 Acumatica, Inc. All rights reserved.</Copyright>
+        <Copyright>Copyright © 2005-2026 Acumatica, Inc. All rights reserved.</Copyright>
       </PropertyGroup>
     ```
 
 10. Delete the `Class1.cs` item from the `PhoneRepairShop_Code.Tests.csproj` project. You will create the required C\# classes later.
 11. Save your changes.
 
-## Step 2: Adding NuGet Packages { .section}
+## Step 2: Adding NuGet Packages
 
 Do the following to add the necessary NuGet packages to the `PhoneRepairShop_Code.Tests.csproj` project:
 
@@ -61,11 +61,11 @@ Do the following to add the necessary NuGet packages to the `PhoneRepairShop_Cod
     -   `xunit` \(Version 2.4.2\)
     -   `xunit.runner.visualstudio` \(Version 2.4.5\)
     -   `System.Runtime.CompilerServices.Unsafe` \(Version 6.1.2\)
-    -   `Microsoft.Bcl.AsyncInterfaces` \(Version 10.0.0\)
-    -   `Microsoft.Extensions.Configuration` \(Version 10.0.0\)
+    -   `Microsoft.Bcl.AsyncInterfaces` \(Version 10.0.7\)
+    -   `Microsoft.Extensions.Configuration` \(Version 10.0.7\)
     -   `Moq` \(Version 4.20.72\)
 
-## Step 3: Adding References to the Customization Code and Acumatica ERP Libraries { .section}
+## Step 3: Adding References to the Customization Code and Acumatica ERP Libraries
 
 To add references to the customization project and Acumatica ERP libraries to the `PhoneRepairShop_Code.Tests.csproj` project, proceed as follows:
 

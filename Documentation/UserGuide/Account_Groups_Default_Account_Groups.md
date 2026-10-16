@@ -1,4 +1,4 @@
-# Account Groups: Default Account Groups {#_bd784c5e-ce16-4151-9642-a88c0186552e .concept}
+# Account Groups: Default Account Groups
 
 When your company uses multiple income or expense account groups, Acumatica ERP inserts the default account groups in:
 
@@ -7,7 +7,7 @@ When your company uses multiple income or expense account groups, Acumatica ERP 
 
 **Tip:** By using *multiple income or expense account groups*, we mean that you have more than one active account group of the *Income* or *Expense* type on the [Account Groups](PM_20_10_00.md) \(PM201000\) form.
 
-## Account Groups in Revenue Budget Lines of Projects and Project Templates { .section}
+## Account Groups in Revenue Budget Lines of Projects and Project Templates
 
 **Use case:** Your company has multiple income account groups and tracks a project's revenue budget at the item level. You’re entering the revenue budget lines of a project or project template.
 
@@ -17,7 +17,7 @@ When you add a line and select an item on the **Revenue Budget** tab of the [Pro
 
 **Attention:** The system inserts the default account group—which you can change, if needed—only when the **Account Group** column is empty.
 
-## Account Groups in Revenue Budget Lines of Change Orders { .section}
+## Account Groups in Revenue Budget Lines of Change Orders
 
 **Use case:** Your company has multiple income account groups, tracks the project's revenue budget at the item level, and uses change orders. You’re entering the revenue budget lines of a change order.
 
@@ -32,7 +32,7 @@ When you add a revenue budget line and fill in the **Project Task** column, the 
 
 **Attention:** The system inserts the default account group—which you can override—only when the **Account Group** column is empty.
 
-## Account Groups in Cost Budget Lines of Change Orders { .section}
+## Account Groups in Cost Budget Lines of Change Orders
 
 **Use case:** Your company has multiple expense account groups, tracks the project's cost budget at the item level, and uses change orders. You’re entering the cost budget lines of a change order.
 
@@ -49,7 +49,7 @@ When you add a cost budget line to a change order and select a task in the **Pro
 
 **Attention:** The system inserts the default account group—which you can override—only when the **Account Group** column is empty.
 
-## Account Groups in Budget Lines of Change Requests { .section}
+## Account Groups in Budget Lines of Change Requests
 
 When you're creating a change request, the system uses either the item or the project task to determine which account group to insert in a budget line.
 

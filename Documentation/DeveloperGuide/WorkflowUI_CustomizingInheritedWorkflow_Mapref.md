@@ -1,4 +1,4 @@
-# Customizing Workflows with the Diagram View {#_60c384ce-c94c-4155-abe9-ad2b3db25df5 .concept}
+# Customizing Workflows with the Diagram View
 
 In the topics of this chapter, you will learn how to customize a predefined workflow by using the diagram view of the Workflow page \(also referred to as the Workflow Visual Editor\). The diagram view provides visual representations of the states, actions, and transitions of the workflow.
 

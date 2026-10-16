@@ -1,4 +1,4 @@
-# Workflow Actions: Opening of a Side Panel {#_15dc6c1a-59e6-471f-b81c-f33d6ccb3637 .concept}
+# Workflow Actions: Opening of a Side Panel
 
 You can create an action in a workflow and configure it to open a side panel. A side panel is a navigation option that you can use to drill down to relevant details about any record listed on a form. The action that you configure in a workflow to open a side panel appears as a tab icon in the side panel on the UI when the relevant form is opened.
 

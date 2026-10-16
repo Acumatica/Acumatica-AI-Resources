@@ -1,4 +1,4 @@
-# SalesOrder {#_22f2d9a6-c0d8-4909-a430-415d21d50eb1 .concept}
+# SalesOrder
 
 This chapter presents code examples showing requests that use the `SalesOrder` entity.
 

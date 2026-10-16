@@ -1,10 +1,10 @@
-# Snapshots: Export and Import {#_35882433-8f5b-42e7-abec-bb5116d63dd1 .concept}
+# Snapshots: Export and Import
 
 Snapshots are stored in the database. To free disk space, you can export snapshots to store them in external storage, and then delete obsolete and already-exported snapshots. Exported snapshots can later be imported back into the instance.
 
 Also, to move a snapshot to another instance, you export the snapshot from the source instance and import it to the destination instance. In this topic, you will read about the details of snapshot export and import.
 
-## Snapshot Export {#export_snapshot .section}
+## Snapshot Export
 
 Before it can be exported to external storage, a snapshot should be *prepared*—that is, the snapshot's data should be saved to a file. You can save it in binary or XML format. A snapshot in binary format takes less space. Saving the snapshot in XML format may be useful if you need to compare snapshot contents line by line.
 
@@ -16,7 +16,7 @@ When you export a snapshot, the system copies the prepared file to external stor
 
 An exported snapshot is saved as a ZIP archive. It contains the exported data in a collection of files with the `.adb` or `.xml` extension and the description of the snapshot in the `manifest.xml` file.
 
-## Validation of the Snapshot Before Import { .section}
+## Validation of the Snapshot Before Import
 
 The `Manifest.xml` file includes the snapshot details that were generated when the snapshot was created. If you need to import the data of a snapshot to a tenant from an instance that is different from the instance of its source tenant, you need to determine whether the destination instance is compatible with the snapshot. In the `manifest.xml` file, you can find the following information, which can help you understand whether your instance is compatible with a snapshot:
 
@@ -29,7 +29,7 @@ The version of the snapshot \(that is, the version of the instance used to take 
 
 If the snapshot's version is later, you need to upgrade the destination instance to match the snapshot's version. Conversely, if the snapshot's version is earlier, you should first upgrade the source instance to align with the version of the destination instance and then export the snapshot.
 
-## Snapshot Import {#import_snapshot .section}
+## Snapshot Import
 
 You can restore snapshots that are saved in the database of the instance of a destination tenant.
 

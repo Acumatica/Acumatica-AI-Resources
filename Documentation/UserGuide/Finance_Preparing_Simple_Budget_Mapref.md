@@ -1,4 +1,4 @@
-# Preparing a Simple Budget {#_45dbce17-2405-4812-9ab8-440bae134381 .concept}
+# Preparing a Simple Budget
 
 You can prepare a yearly budget with a single-level structure in Acumatica ERP.
 

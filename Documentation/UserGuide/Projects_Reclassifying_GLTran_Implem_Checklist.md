@@ -1,4 +1,4 @@
-# Transaction Reclassification: Implementation Checklist {#_f594eb3c-8a3a-4c00-a43e-fa3ee9125ff4 .concept}
+# Transaction Reclassification: Implementation Checklist
 
 Before users begin reclassifying GL batches related to projects, you must make sure that the system has been configured properly, as described in the following table.
 
@@ -8,7 +8,7 @@ Before users begin reclassifying GL batches related to projects, you must make s
 |[Projects Preferences](PM_10_10_00.md) \(PM101000\) form|Make sure that all necessary settings related to project accounting have been specified. For more information about the configuration steps that you have to perform before you can start accounting for projects, see [Basic Project Configuration: General Information](../ImplementationGuide/config_Project_Basic_GeneralInfo.md).|
 |[User Roles](SM_20_10_05.md) \(SM201005\)|Make sure that each user that will perform reclassification of general ledger transactions related to projects is assigned the *Project Accountant* role.|
 
-## Settings That Can Affect the Processing Workflow {#section_mhy_t2k_2qb .section}
+## Settings That Can Affect the Processing Workflow
 
 The settings on the [General Ledger Preferences](../Shared/../UserGuide/GL_10_20_00.md) \(GL102000\) form can affect the processing workflow as follows:
 

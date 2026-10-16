@@ -1,12 +1,12 @@
-# Withholding Taxes: Configuration Prerequisites {#_de386c1c-6f54-40ed-8e8e-a90983e76df4 .concept}
+# Withholding Taxes: Configuration Prerequisites
 
 Before starting to create a withholding tax, you should be sure that the settings have been specified and entities have been created, as described in the following sections.
 
-## Enabling the Needed Feature { .section}
+## Enabling the Needed Feature
 
 On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, the *VAT Reporting* feature must be enabled.
 
-## Configuring the System { .section}
+## Configuring the System
 
 You need to make sure the following tasks have been performed in Acumatica ERP before you begin to create a withholding tax:
 

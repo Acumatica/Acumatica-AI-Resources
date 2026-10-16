@@ -1,8 +1,8 @@
-# PM DACs: Reference Data {#_91108132-81d1-41f0-a481-3ee5fada55f6 .concept}
+# PM DACs: Reference Data
 
 In this topic, you can find information about the data access classes \(DACs\) that contain reference data that is used in most other DACs in project accounting.
 
-## Project Accounting Preferences {#section_vv2_1y4_y4b .section}
+## Project Accounting Preferences
 
 The [PMSetup](https://help.acumatica.com/dacBrowser/PX.Objects.PM/PMSetup) DAC contains the general project accounting preferences, which are specified on the [Projects Preferences](../UserGuide/PM_10_10_00.md) \(PM101000\) form.
 
@@ -17,7 +17,7 @@ WHERE
     s.CompanyID = 2
 ```
 
-## Account Groups { .section}
+## Account Groups
 
 The [PMAccountGroup](https://help.acumatica.com/dacBrowser/PX.Objects.PM/PMAccountGroup) DAC contains account groups for projects. The account groups are defined on the [Account Groups](../UserGuide/PM_20_10_00.md) \(PM201000\) form.
 
@@ -33,7 +33,7 @@ WHERE
     AND a.type='E'
 ```
 
-## Rules for Project Billing { .section}
+## Rules for Project Billing
 
 The [PMBillingRule](https://help.acumatica.com/dacBrowser/PX.Objects.PM/PMBillingRule) DAC contains the list of rules for project billing, which are defined on the [Billing Rules](../UserGuide/PM_20_70_00.md) \(PM207000\) form.
 
@@ -48,7 +48,7 @@ WHERE
     b.type='T'
 ```
 
-## Change Order Classes { .section}
+## Change Order Classes
 
 The [PMChangeOrderClass](https://help.acumatica.com/dacBrowser/PX.Objects.PM/PMChangeOrderClass) DAC contains the change order class data, which is defined on the [Change Order Classes](../UserGuide/PM_20_30_00.md) \(PM203000\) form.
 
@@ -63,7 +63,7 @@ WHERE
     c.ClassID = 'DEFAULT'
 ```
 
-## Project Rate Tables { .section}
+## Project Rate Tables
 
 If a project is billed with the *Time and Material* step of the billing rule and the *@Rate* parameter is used in the billing rule formula, the relevant rate from the configured rate table is used in the pro forma invoices.
 
@@ -86,9 +86,8 @@ For details on the configuration of billing rates, see [Billing Rates: General I
 
 The following diagram shows the relationships between the project rate tables.
 
-![](Images/diag_DACOverview_ProjectRateTables.png "Project rate tables")
 
-## Projects, Project Templates, Customer Contracts, and Contract Templates { .section}
+## Projects, Project Templates, Customer Contracts, and Contract Templates
 
 The [Contract](https://help.acumatica.com/dacBrowser/PX.Objects.CT/Contract) DAC contains the master data of the entities that are created and edited on the following data entry forms:
 
@@ -125,7 +124,7 @@ The following examples show how to obtain entities that satisfy particular condi
     ```
 
 
-## Project Tasks { .section}
+## Project Tasks
 
 The [PMTask](https://help.acumatica.com/dacBrowser/PX.Objects.PM/PMTask) DAC contains the tasks that are defined in the table on the **Tasks** tab of the [Projects](../UserGuide/PM_30_10_00.md) \(PM301000\) form—that is, the tasks of a particular project.
 
@@ -158,7 +157,7 @@ The following examples illustrate the selection of project tasks that meet speci
 
 The [PMTaskAllocTotal](https://help.acumatica.com/dacBrowser/PX.Objects.PM/PMTaskAllocTotal) DAC contains the quantity and the previously allocated amount for the project tasks with the *Allocate Budget* allocation method specified on the **Calculation Rules** tab of the [Allocation Rules](../UserGuide/PM_20_75_00.md) \(PM207500\) form. \(The previously allocated amount, which is expressed in the project currency, is stored in the PMTaskAllocTotal.Amount field.\) The class contains data that is not available in the UI but that can be useful for troubleshooting and data migration.
 
-## Project Budget Lines { .section}
+## Project Budget Lines
 
 The [PMBudget](https://help.acumatica.com/dacBrowser/PX.Objects.PM/PMBudget) DAC contains the project budget lines that are defined on the following forms:
 
@@ -207,7 +206,7 @@ The selection of project budget lines that meet particular conditions is illustr
     ```
 
 
-## Change Order Budgets { .section}
+## Change Order Budgets
 
 The [PMChangeOrderBudget](https://help.acumatica.com/dacBrowser/PX.Objects.PM/PMChangeOrderBudget) DAC contains the lines that are defined on the **Revenue Budget** and **Cost Budget** tabs of the [Change Orders](../UserGuide/PM_30_80_00.md) \(PM308000\) form.
 

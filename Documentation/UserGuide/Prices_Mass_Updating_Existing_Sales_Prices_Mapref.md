@@ -1,4 +1,4 @@
-# Mass-Update of Sales Prices {#_7d9255de-2078-450b-9f8b-5266ffe5a254 .concept}
+# Mass-Update of Sales Prices
 
 This topic describes how you can mass-recalculate prices that already exist in the system by using various criteria.
 

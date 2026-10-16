@@ -1,10 +1,10 @@
-# To Add a Wiki {#_c82c0ace-03e7-421c-9ca5-bc13270f4bb0 .task}
+# To Add a Wiki
 
 You can create new wikis to meet the evolving needs of your organization. You can use a wiki to easily share often-used content, such as an employee manual or internal processing instructions, that you need to change with minimal lag time. By using a wiki, you can also organize collaboration on a multi-participant project, such as a business plan or budget, that needs to be managed across distance and time.
 
 Whatever the purpose of your wiki, you can set it up easily by using the [Wiki](SM_20_20_05.md) \(SM202005\) form, as described below.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Before you create a new wiki, you need to plan its use, usually in cooperation with other affected parties. You probably have already considered the most basic questions:
 
@@ -24,7 +24,7 @@ Before you begin setting up the wiki, you need to consider other questions as we
 
 Also, you will need to define the style \(that is, the look and formatting\) that will be used for all articles in the wiki. The style is defined by a file with the `.css` extension. For examples of styles, see [Wiki Style Examples](../Shared/../UserGuide/SM__con_Style_Examples.md).
 
-## To Add a Wiki { .section}
+## To Add a Wiki
 
 To create a wiki, you use the [Wiki](../Shared/../UserGuide/SM_20_20_05.md) \(SM202005\) form. You can complete the setup of a wiki all at once or in stages, skipping the optional steps. To add a wiki and specify the required settings for it, do the following:
 

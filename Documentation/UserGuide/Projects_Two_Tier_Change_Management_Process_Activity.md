@@ -1,8 +1,8 @@
-# Change Requests: Process Activity {#_c42c0444-1421-4225-a42e-d9ce4224d4c0 .task}
+# Change Requests: Process Activity
 
 In this activity, you will learn how you can turn on the change order workflow for a project and manage changes to the project’s budgeted values by creating change requests and including these change requests to change orders.
 
-## Story { .section}
+## Story
 
 Suppose that the West BBQ Restaurant customer has ordered a juicer, along with the following services from the SweetLife Fruits &amp; Jams company: two hours of site review, four hours of installation, and eight hours of employee training on operating the juicers. The SweetLife company has contracted the Squeezo Inc. vendor to provide the juicer and perform the installation, while SweetLife will perform the services of site review and training.
 
@@ -10,7 +10,7 @@ Acting as SweetLife's project accountant, you will create a project. SweetLife's
 
 You will make the needed corrections to the project budget by using change requests.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -21,11 +21,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *JUICER15* stock item has been defined.
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *SQUEEZO* vendor has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create the project on the [Projects](PM_30_10_00.md) \(PM301000\) form and configure the document-level markups for it. To make changes to the project budget, you will create change requests on the [Change Requests](PM_30_85_00.md) \(PM308500\) form. When an agreement with the customer about the changes is reached, you will add open change requests to two change orders on the [Change Orders](PM_30_80_00.md) \(PM308000\) form; you will then release the change orders.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
@@ -33,7 +33,7 @@ To sign in to the system and prepare to perform the instructions of the activity
 2.  Sign in to the system as Pam Brawner by using the *brawner* username and the *123* password.
 3.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Creating a Project { .section}
+## Step 1: Creating a Project
 
 To create a project and define the project-specific document markups, do the following:
 
@@ -70,7 +70,7 @@ To create a project and define the project-specific document markups, do the fol
 10. Save the project.
 11. On the form toolbar, click **Activate**. The system assigns the project the *Active* status.
 
-## Step 2: Creating a Change Request { .section}
+## Step 2: Creating a Change Request
 
 To make changes to the project budget with a change request, do the following:
 
@@ -135,7 +135,7 @@ To make changes to the project budget with a change request, do the following:
 6.  Make sure that **Price Total** in the Summary area is *409.65* and save the change request.
 7.  On the form toolbar, click **Remove Hold** to assign the change request the *Open* status.
 
-## Step 3: Creating the Second Change Request { .section}
+## Step 3: Creating the Second Change Request
 
 To create one more change request for additional two hours of training, do the following:
 
@@ -161,10 +161,9 @@ To create one more change request for additional two hours of training, do the f
     -   On the **Change Requests** tab, make sure that both of the related change requests have the *Open* status \(see below\).
     -   On the **Cost Budget** tab, review the values in the **Potential CO Quantity** and **Potential CO Amount** columns, which the system has filled in based on the estimation lines of the open change requests for the rows with the *SITEREVIEW*, *TRAINING*, and *INSTALL* inventory items.
     -   On the **Revenue Budget** tab, review the values in the **Potential CO Amount** column, which is $633.51. This amount equals the total price of both change requests \($409.65 + $223.86\) and includes markup totals calculated at the document level.
-    ![](Images/activity_Projects_Two_Tier_Change_Management.png "Change requests related to the project")
 
 
-## Step 4: Processing the Cost Part of the Change Request { .section}
+## Step 4: Processing the Cost Part of the Change Request
 
 To create a cost change order based on the first change request you created, do the following:
 
@@ -184,7 +183,7 @@ To create a cost change order based on the first change request you created, do 
 7.  Save the change order.
 8.  On the form toolbar, click **Remove Hold** to assign the change order the *Open* status.
 
-## Step 5: Processing the Revenue Part of the Change Requests { .section}
+## Step 5: Processing the Revenue Part of the Change Requests
 
 Suppose that the agreement with the customer has been reached. To create a revenue change order based on both change requests, do the following:
 
@@ -203,12 +202,11 @@ Suppose that the agreement with the customer has been reached. To create a reven
 7.  On the table toolbar, click **View Change Request Details**.
 8.  In the **Change Request Details** dialog box, which opens, review the change request lines and the markups that correspond to the selected change order line \(see below\). There are three estimation lines and eight markup lines that affect the same revenue budget line.
 
-    ![](Images/activity_Projects_Two_Tier_Change_Management_Markups.png "Lines of the change request and corresponding markups")
 
 9.  Close the dialog box.
 10. On the form toolbar, click **Remove Hold** to assign the change order the *Open* status.
 
-## Step 6: Reviewing the Project Budget { .section}
+## Step 6: Reviewing the Project Budget
 
 To review the project and the related change requests you have processed, do the following:
 
@@ -224,7 +222,7 @@ To review the project and the related change requests you have processed, do the
 4.  On the **Change Requests** tab, click the link in the **Reference Nbr.** column in the row with the *Additional time for training* description to open the second change request. On the [Change Requests](PM_30_85_00.md) form, which opens, review the change request. In the Summary area, notice that change request has only the **Change Order Nbr.** box filled in \(the **Cost Change Order Nbr.** box is hidden\) because both the revenue part and the cost part of the change request have been processed with a single change order.
 5.  Return to the *WESTBBQ3* project on the [Projects](PM_30_10_00.md) form.
 
-## Step 7: Releasing the Change Orders { .section}
+## Step 7: Releasing the Change Orders
 
 To release the change orders, do the following:
 

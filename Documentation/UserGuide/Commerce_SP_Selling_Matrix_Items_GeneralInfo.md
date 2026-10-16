@@ -1,21 +1,21 @@
-# Sale of Matrix Items: General Information {#_4f27081c-3fd2-470d-8ca5-6aacdd30c446 .concept}
+# Sale of Matrix Items: General Information
 
 Acumatica ERP Retail Edition provides you with the ability to export template items, along with the matrix items that were generated based on these template items, from Acumatica ERP to the Shopify store if the *Matrix Items* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form..
 
 For details about managing template items in Acumatica ERP, see [Managing Matrix Items](Matrix_Items_Mapref.md).
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do export template items and matrix items from Acumatica ERP to the Shopify store.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You export matrix items from Acumatica ERP to an external system in the following cases:
 
 -   You are initially configuring the external system and need to transfer template items \(and matrix items based on these template items\) that have already been defined in Acumatica ERP
 -   If you manage template and matrix items in Acumatica ERP, have updated any of the settings of a template item or matrix item in Acumatica ERP after the template item was synchronized with the external system, and need the changes to be reflected in the product settings in the external system
 
-## Configuration of Template Item Synchronization { .section}
+## Configuration of Template Item Synchronization
 
 Before exporting template items defined in Acumatica ERP to the Shopify store, you need to perform the following general steps:
 
@@ -23,7 +23,7 @@ Before exporting template items defined in Acumatica ERP to the Shopify store, y
 2.  Configure the default visibility and purchasability settings for items exported to the Shopify store. For details, see [Product Synchronization: Default Store Settings](Commerce_SP_Syncing_Products_Default_Settings.md).
 3.  Determine which template items and matrix items should be exported and define the visibility and purchasability settings for individual items.
 
-## Synchronization of Template Items { .section}
+## Synchronization of Template Items
 
 Template items are exported to the Shopify store during the synchronization of the *Template Item* entity. Matrix items \(both stock items and non-stock items\) based on a template item are synchronized along with the template item.
 
@@ -31,7 +31,7 @@ During the export, the system updates the availability and visibility settings o
 
 For details about the information exported to the Shopify store during the synchronization of a template item, see [Template Item Entity](Commerce_SP_Mapping_TemplateItem.md).
 
-## Excluding Items from Synchronization { .section}
+## Excluding Items from Synchronization
 
 The template item is exported to the Shopify store if it meets the following criteria:
 
@@ -47,13 +47,13 @@ You can clear the **Export to External System** check box for an individual matr
 
 If the matrix item's status in Acumatica ERP is *Inactive*, *No Sales*, or *Marked for Deletion*—that is, if the matrix item has one of these statuses selected in the **Status** box of the Summary area of the [Non-Stock Items](IN_20_20_00.md) form or the [Stock Items](IN_20_25_00.md) form—it is not exported and does not appear in the **Variants** table on the product management page of the template item.
 
-## Visibility of an Exported Template Item { .section}
+## Visibility of an Exported Template Item
 
-You can specify the visibility settings for an individual template item on the **eCommerce** tab of the [Template Items](IN_20_30_00.md) \(IN203000\) form. To make the item visible on the storefront immediately after it is exported, you select *Visible* in the **Visibility** box. To make the item available in the admin area of Shopify store but hidden from the storefront, you select *Invisible* in this box.
+You can specify the visibility settings for an individual template item on the **eCommerce** tab of the [Template Items](IN_20_30_00.md) \(IN203000\) form. To make the item visible on the storefront immediately after it is exported, you select *Visible* in the **Visibility** box. To make the item available in the admin area of Shopify store but hidden from the storefront, you select *Invisible* in this box. To hide the item from store search, collections, sales channels, internet searches, and Shopify catalog while allowing customers to access it through a direct URL, you select *Unlisted* in the box.
 
 The option selected in the **Visibility** box for a particular template item takes precedence over the default visibility setting specified for the store. If *Store Default* is selected, the store's default visibility setting applies.
 
-## Availability Settings of Exported Matrix Items { .section}
+## Availability Settings of Exported Matrix Items
 
 For products with variants in Shopify, available item quantities are tracked on the level of each product variant, not for an entire product. Because of this, availability settings specified for a template item on the **eCommerce** of the [Template Items](IN_20_30_00.md) \(IN203000\) form are not applied when the *Template Item* entity is synchronized with a Shopify store.
 
@@ -62,7 +62,7 @@ You can specify the settings for each matrix item to determine if the item's qua
 -   To track the quantity of the item, you select *Set as Available \(Track Qty.\)* in the **Availability** box. In Shopify, on the product management page for the matrix item, the system selects the **Track quantity** check box in the **Inventory** section.
 -   To allow including the item in orders even if its quantity is zero, you select *Set as Pre-Order/Continue Selling* in the **When Qty. Unavailable** box \(which is available only if *Set as Available \(Track Qty.\)* is selected in the **Availability** box. In Shopify, on the product management page for the matrix item, the system selects the **Continue selling when out of stock** check box in the **Inventory** section.
 
-## Tax Settings of an Exported Item { .section}
+## Tax Settings of an Exported Item
 
 In Acumatica ERP, you assign a tax category to a template item in the **Tax Category** box on the **General** tab of the [Template Items](IN_20_30_00.md) \(IN203000\) form.
 

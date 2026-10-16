@@ -1,8 +1,8 @@
-# Conditions and Transitions: To Add Transitions {#_c3e48fdb-0ee9-4040-89c2-8fe2eb7f7253 .task}
+# Conditions and Transitions: To Add Transitions
 
 The following activity will walk you through the process of creating transitions between the states of the workflow.
 
-## Story { .section}
+## Story
 
 You can use the same action to trigger transitions from one state to different states. To do so, you need to use conditions for these transitions. If a condition is fulfilled, the system performs the transition that is first in the list of transitions from the current state. \(This list is displayed on the **States and Transitions** pane of the [Workflow \(Tree View\)](../UserGuide/AU_20_10_30.md) page.\) If the condition is not fulfilled, the system switches to the next transition in the list and checks its condition.
 
@@ -13,11 +13,11 @@ When a record is in the `Postponed` state, you will use the same action \(`Open`
 
 To implement these transitions, you will use the NotStarted and Completed conditions, which you have created in [Conditions and Transitions: To Add Conditions](WorkflowUI_ConditionsTransitions_Activity_AddConditions.md).
 
-## Process Overview { .section}
+## Process Overview
 
 By using the [Workflow \(Tree View\)](../UserGuide/AU_20_10_30.md) page, you will add the transitions from the `Draft` state to the `Open` state and to the `Postponed` state. You will also add the transitions from the `Open` state to the `Processing` state, the `Postponed` state, and the `Completed` state.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin adding transitions to the workflow, do the following:
 
@@ -27,7 +27,7 @@ Before you begin adding transitions to the workflow, do the following:
 
 2.  Make sure that you have completed the activity [Conditions and Transitions: To Add Conditions](WorkflowUI_ConditionsTransitions_Activity_AddConditions.md) and [Action Configuration: To Create a Workflow Action That Displays a Dialog Box](WorkflowUI_Actions_Activity_AddActionsCompleted.md) activities.
 
-## Step 1: Adding the Simple Transitions \(for the Draft State\) { .section}
+## Step 1: Adding the Simple Transitions \(for the Draft State\)
 
 To add the transitions from the `Draft` state to the `Open` state and the `Postponed` state, in the Customization Project Editor for the *TaskWorkflow* project, perform the following instructions:
 
@@ -55,7 +55,7 @@ To add the transitions from the `Draft` state to the `Open` state and the `Postp
     4.  Click **Add** to close the dialog box.
     5.  On the page toolbar, click **Save**.
 
-## Step 2: Adding the Simple Transitions \(for the Open State\) { .section}
+## Step 2: Adding the Simple Transitions \(for the Open State\)
 
 In this step, you will add the transitions from the `Open` state to the `Processing` state, the `Postponed` state, and the `Completed` state. While you are still in the tree view of the CR306020 \(Task\) State Diagram: Task page, perform the following instructions:
 
@@ -85,7 +85,7 @@ In this step, you will add the transitions from the `Open` state to the `Process
     4.  Click **Add** to close the dialog box.
 4.  On the page toolbar, click **Save**.
 
-## Step 3: Adding the Auto-Run Transitions \(for the Processing State\) { .section}
+## Step 3: Adding the Auto-Run Transitions \(for the Processing State\)
 
 To add the transitions from the `Processing` state to the `Completed` state and the `Postponed` state, while you are still in the tree view of the CR306020 \(Task\) State Diagram: Task page, perform the following instructions:
 
@@ -113,7 +113,7 @@ To add the transitions from the `Processing` state to the `Completed` state and 
 
 5.  On the page toolbar, click **Save**.
 
-## Step 4: Adding the Transitions That Depend on a Condition \(for the Postponed State\) { .section}
+## Step 4: Adding the Transitions That Depend on a Condition \(for the Postponed State\)
 
 To implement transitions from the Postponed state, while you are still in the tree view of the CR306020 \(Task\) State Diagram: Task page, do the following:
 
@@ -135,7 +135,7 @@ To implement transitions from the Postponed state, while you are still in the tr
 
 9.  On the page toolbar, click **Save**.
 
-## Step 5: Adding a Transition That Causes Update of a Field After the Transition \(for the Completed State\) { .section}
+## Step 5: Adding a Transition That Causes Update of a Field After the Transition \(for the Completed State\)
 
 To add the transitions from the `Completed` state to the `Open` state, while you are still in the tree view of the CR306020 \(Task\) State Diagram: Task page, perform the following instructions:
 

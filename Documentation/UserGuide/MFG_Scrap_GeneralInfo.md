@@ -1,4 +1,4 @@
-# Scrap and Waste in Production: General Information {#_08603d65-2867-4363-99e6-c89231782bae .concept}
+# Scrap and Waste in Production: General Information
 
 In Acumatica ERP Manufacturing Edition, a produced item is considered to be scrap when it does not meet the item specifications or quality requirements. If the business processes of your organization require that scrap costs affect production costs, shop-floor employees can record the quantities of scrapped items along with the quantities of completed items during their daily routines in the system.
 
@@ -8,7 +8,7 @@ The system must be configured properly for the processing of scrap and waste, as
 
 In the following sections, you can find information about item production that includes scrapped items.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn the following:
 
@@ -17,7 +17,7 @@ In this chapter, you will learn the following:
 -   How the system selects the default warehouses and warehouse locations for scrap
 -   How to enter quantities of scrapped items that are lot- or serial-tracked in a labor or move transaction for operations with various scrap actions
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You process production orders and record scrapped items for operations in the following cases:
 
@@ -25,7 +25,7 @@ You process production orders and record scrapped items for operations in the fo
 -   In production operations, scrap is rare, but if scrapped items appear, shop-floor employees must record the quantities of scrapped items in the system.
 -   Production managers need to review the costs of production orders that may include scrapped items or material waste.
 
-## Scrap Recording Without Quarantine { .section}
+## Scrap Recording Without Quarantine
 
 For operations with the *No Action* or *Write-Off* scrap action, you do the following to enter the scrap quantity when you enter the quantity of completed items for a particular operation of a production order on the [Labor](AM_30_10_00.md) \(AM301000\) or [Move](AM_30_20_00.md) \(AM302000\) form:
 
@@ -36,7 +36,7 @@ For operations with the *No Action* or *Write-Off* scrap action, you do the foll
 
 You can create a separate labor or move transaction to record only scrapped items.
 
-## Scrap Recording with Movement to Quarantine { .section}
+## Scrap Recording with Movement to Quarantine
 
 For an operation with the *Quarantine* scrap action, you do the following to enter the scrap quantity when you enter the quantity of completed items for a particular production order operation on the [Labor](AM_30_10_00.md) \(AM301000\) or [Move](AM_30_20_00.md) \(AM302000\) form:
 
@@ -52,11 +52,11 @@ For an operation with the *Quarantine* scrap action, you do the following to ent
     For more information about the transactions, see [Scrap Cost Calculation: Generated Transactions](MFG_Scrap_Costs_Transactions.md).
 
 
-## Inclusion of Scrapped Quantity in the Completed Quantity { .section}
+## Inclusion of Scrapped Quantity in the Completed Quantity
 
 Depending on the state of the **Include Scrap in Completions** check box on the [Production Preferences](AM_10_20_00.md) \(AM102000\) form, the system does not consider the scrapped quantity in the quantity of completed items \(if the check box is cleared\) or includes the scrapped quantity in the quantity of completed items \(if the check box is selected\). With the check box selected, the system will regard an operation as completed when the sum of the completed items and scrapped items entered for a production operation equals the quantity of items to be produced.
 
-## Selection of the Default Values for the Scrap Warehouse and Location { .section}
+## Selection of the Default Values for the Scrap Warehouse and Location
 
 When the scrap action for an operation of a production order is *Quarantine*, the system may insert the values of the **Scrap Warehouse** and **Scrap Location** boxes of each new production order on the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form. The values to be inserted depend on the option selected in the **Scrap Source** box of the **General** tab on the [Production Order Types](AM_20_11_00.md) \(AM201100\) form. For details, see [Configuration of Scrap, Waste, and By-Products in Production: Scrap Quarantine](../ImplementationGuide/config_MFG_Scrap_Storage.md).
 
@@ -66,7 +66,7 @@ The system copies the warehouse and warehouse location specified in a production
 
 The functionality of selecting a warehouse and warehouse location for scrapped items is available only when the *Multiple Warehouses* and *Multiple Warehouse Locations* features are enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. If the features are disabled, the scrapped items are moved to the only warehouse and warehouse location, which are not displayed in the system.
 
-## Scrap Recording for Lot- or Serial-Tracked Items { .section}
+## Scrap Recording for Lot- or Serial-Tracked Items
 
 If an item that you record as scrap is lot- or serial-tracked, you may need to assign a lot or serial number to the scrapped item in a labor transaction on the [Labor](AM_30_10_00.md) \(AM301000\) form or a move transaction on the [Move](AM_30_20_00.md) \(AM302000\) form, depending on the scrap action specified for an operation of a production order for which scrapped quantity has been entered as follows:
 
@@ -76,7 +76,7 @@ If an item that you record as scrap is lot- or serial-tracked, you may need to a
     **Important:** If you preassign lot or serial numbers to production orders and lot- or serial-tracked items can be scrapped, we recommend that you select the **Include Scrap in Completions** check box on the [Production Preferences](AM_10_20_00.md) \(AM102000\) form. Otherwise, if you record extra scrapped items, you will not be able to assign lot or serial numbers to these items because the quantity of items with assigned lot or serial numbers must be equal to the quantity being produced.
 
 
-## Waste Cost Calculation { .section}
+## Waste Cost Calculation
 
 If a nonzero waste percentage is specified in the **Scrap Factor** box of a material row in the **Materials** table for a production order on the [Production Order Details](AM_20_90_00.md) \(AM209000\) form, the system increases the material cost by the specified percentage.
 

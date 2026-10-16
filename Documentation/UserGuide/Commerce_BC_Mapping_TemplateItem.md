@@ -1,15 +1,15 @@
-# Template Item Entity {#_6decb101-7ce3-4819-b085-47718ab50f14 .concept}
+# Template Item Entity
 
 This topic provides reference information about the standard filtering and field mapping used for the *Template Item* entity during the synchronization between Acumatica ERP and BigCommerce. The topic also contains information about the merging of duplicate records during the synchronization.
 
-## Merging of Duplicates { .section}
+## Merging of Duplicates
 
 During the export of template items from Acumatica ERP, a template item is merged with an existing product in BigCommerce if at least of the following conditions is met:
 
 -   The template item's description in Acumatica ERP—that is, the value in the **Description** box on the [Template Items](IN_20_30_00.md) \(IN203000\) form—matches the **Product Name** of the product in BigCommerce.
 -   The template item's ID in Acumatica ERP—that is, the value in the **Inventory ID** box on the [Template Items](IN_20_30_00.md) form—matches the **SKU** of the product in BigCommerce.
 
-## Template Item Export Mapping { .section}
+## Template Item Export Mapping
 
 The following table shows the mapping of Acumatica ERP fields to BigCommerce fields that is used during the export of template items to BigCommerce.
 
@@ -35,6 +35,7 @@ The following table shows the mapping of Acumatica ERP fields to BigCommerce fie
 |**Visibility**: *Visible*|**eCommerce** tab|**Visible on Storefront**|Product management page &gt; **Basic Information** section|The **Visible on Storefront** check box is selected.|
 |**Visibility**: *Featured*|**eCommerce** tab|**Set as a Featured Product on my Storefront**|Product management page &gt; **Storefront Details** section|The **Visible on Storefront** check box is selected, and the **Set as a Featured Product on my Storefront** is selected.|
 |**Visibility**: *Invisible*|**eCommerce** tab|**Visible on Storefront**|Product management page &gt; **Basic Information** section|The **Visible on Storefront** check box is cleared.|
+|**Visibility**: *Unlisted*|**eCommerce** tab|**Visible on Storefront**|Product management page &gt; **Basic Information** section|The **Visible on Storefront** check box is cleared.|
 |**Search Keywords**|**eCommerce** tab|**Search Keywords**|Product management page &gt; **Storefront Details** section| |
 |**Page Title**|**eCommerce** tab|**Page Title**|Product management page &gt; **Search Engine Optimization** section| |
 |**Meta Description**|**eCommerce** tab|**Meta Description**|Product management page &gt; **Search Engine Optimization** section| |
@@ -53,31 +54,200 @@ The following table shows the mapping of Acumatica ERP fields to BigCommerce fie
 
 The following table includes the mapping of Acumatica ERP fields to BigCommerce fields that is used during the export of matrix items to BigCommerce as part of the synchronization of the *Template Item* entity.
 
-|**Source Fields \(Acumatica ERP\)**|**Target Fields \(BigCommerce\)**|
-|Field Name|Form Object|Field Name|Page Object|Notes|
-|-----------------------------------|---------------------------------|
-|----------|-----------|----------|-----------|-----|
-|[Stock Items](IN_20_25_00.md) form \(if the matrix item is a stock item\) or [Non-Stock Items](IN_20_20_00.md) form \(if the matrix item is a non-stock item\)| |
-|**Description**|Summary area|**Variant**|Product management page &gt; **Variations** section &gt; **Variants** table| |
-|**Inventory ID**|Summary area|**SKU**|Product management page &gt; **Variations** section &gt; **Variants** table| |
-|**Default Price**|**Price/Cost** tab &gt; **Price Management** section|**Default Price**|Product management page &gt; **Variations** section &gt; **Variants** table|If the *Multiple Base Currencies* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the system exports the default price defined in the currency of the branch selected on the **Orders** tab of the [BigCommerce Stores](BC_20_10_00.md) form.|
-|**MSRP**|**Price/Cost** tab &gt; **Price Management** section|**MSRP**|Product management page &gt; **Variations** section &gt; **Variants** table|If the *Multiple Base Currencies* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the system exports the MSRP defined in the currency of the branch selected on the **Orders** tab of the [BigCommerce Stores](BC_20_10_00.md) form.|
-|**Cross-Reference** tab| |
-|**Alternate Type**: *Vendor Part Number*|**Cross-Reference** tab|**MPN**|Product management page &gt; **Variations** section &gt; **Variants** table|The first row for *Vendor Part Number* with the default vendor is used.|
-|**Alternate Type**: *Barcode*|**Cross-Reference** tab|**UPC/EAN**|Product management page &gt; **Variations** section &gt; **Variants** table|The system searches for the matching cross-reference of the *Barcode* type to export as follows:
+<table id="_bd8d674c-ba23-4d72-84f1-41e635b4de52"><thead><tr><th colspan="2">
+
+**Source Fields \(Acumatica ERP\)**
+
+</th><th colspan="3">
+
+**Target Fields \(BigCommerce\)**
+
+</th></tr><tr><th>
+
+Field Name
+
+</th><th>
+
+Form Object
+
+</th><th>
+
+Field Name
+
+</th><th>
+
+Page Object
+
+</th><th>
+
+Notes
+
+</th></tr></thead><tbody><tr><td colspan="2">
+
+[Stock Items](IN_20_25_00.md) form \(if the matrix item is a stock item\) or [Non-Stock Items](IN_20_20_00.md) form \(if the matrix item is a non-stock item\)
+
+</td><td colspan="3">
+
+ 
+
+</td></tr><tr><td>
+
+**Description**
+
+</td><td>
+
+Summary area
+
+</td><td>
+
+**Variant**
+
+</td><td>
+
+Product management page &gt; **Variations** section &gt; **Variants** table
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**Inventory ID**
+
+</td><td>
+
+Summary area
+
+</td><td>
+
+**SKU**
+
+</td><td>
+
+Product management page &gt; **Variations** section &gt; **Variants** table
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**Default Price**
+
+</td><td>
+
+**Price/Cost** tab &gt; **Price Management** section
+
+</td><td>
+
+**Default Price**
+
+</td><td>
+
+Product management page &gt; **Variations** section &gt; **Variants** table
+
+</td><td>
+
+If the *Multiple Base Currencies* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the system exports the default price defined in the currency of the branch selected on the **Orders** tab of the [BigCommerce Stores](BC_20_10_00.md) form.
+
+</td></tr><tr><td>
+
+**MSRP**
+
+</td><td>
+
+**Price/Cost** tab &gt; **Price Management** section
+
+</td><td>
+
+**MSRP**
+
+</td><td>
+
+Product management page &gt; **Variations** section &gt; **Variants** table
+
+</td><td>
+
+If the *Multiple Base Currencies* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the system exports the MSRP defined in the currency of the branch selected on the **Orders** tab of the [BigCommerce Stores](BC_20_10_00.md) form.
+
+</td></tr><tr><td colspan="2">
+
+**Cross-Reference** tab
+
+</td><td colspan="3">
+
+ 
+
+</td></tr><tr><td>
+
+**Alternate Type**: *Vendor Part Number*
+
+</td><td>
+
+**Cross-Reference** tab
+
+</td><td>
+
+**MPN**
+
+</td><td>
+
+Product management page &gt; **Variations** section &gt; **Variants** table
+
+</td><td>
+
+The first row for *Vendor Part Number* with the default vendor is used.
+
+</td></tr><tr><td>
+
+**Alternate Type**: *Barcode*
+
+</td><td>
+
+**Cross-Reference** tab
+
+</td><td>
+
+**UPC/EAN**
+
+</td><td>
+
+Product management page &gt; **Variations** section &gt; **Variants** table
+
+</td><td>
+
+The system searches for the matching cross-reference of the *Barcode* type to export as follows:
 
  1.  With the sales UOM
 2.  With the base UOM
 3.  With no UOM \(or any other UOM\)
 
-|
-|**Alternate Type**: *GTIN/EAN/UPC/ISBN*|**Cross-Reference** tab|**GTIN**|Product management page &gt; **Variations** section &gt; **Variants** table|The system searches for the matching cross-reference of the *GTIN/EAN/UPC/ISBN* type to export as follows:
+</td></tr><tr><td>
+
+**Alternate Type**: *GTIN/EAN/UPC/ISBN*
+
+</td><td>
+
+**Cross-Reference** tab
+
+</td><td>
+
+**GTIN**
+
+</td><td>
+
+Product management page &gt; **Variations** section &gt; **Variants** table
+
+</td><td>
+
+The system searches for the matching cross-reference of the *GTIN/EAN/UPC/ISBN* type to export as follows:
 
  1.  With the sales UOM
 2.  With the base UOM
 3.  With no UOM \(or any other UOM\)
 
-|
+</td></tr></tbody>
+</table>
 
 **Parent topic:**[BigCommerce Mapping Reference](../UserGuide/Commerce_BC_Mapping_Reference.md)
 

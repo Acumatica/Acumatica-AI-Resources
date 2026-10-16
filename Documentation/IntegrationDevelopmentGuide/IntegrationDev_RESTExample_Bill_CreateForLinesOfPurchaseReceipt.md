@@ -1,8 +1,8 @@
-# Create a Bill for Particular Lines of a Purchase Receipt {#_dadf0b5e-6ff5-4fb3-b089-60be8c8514b2 .concept}
+# Create a Bill for Particular Lines of a Purchase Receipt
 
 By using the REST API, you can create bills for particular lines of purchase receipts, which are available on the [Purchase Receipts](../UserGuide/PO_30_20_00.md) \(PO302000\) form. You can view the created bill on the [Bills and Adjustments](../UserGuide/AP_30_10_00.md) \(AP301000\) form. For details about the processing of inventory purchases, see [Purchases of Stock Items: General Information](../UserGuide/OrderMgmt_Standard_Inventory_Purchase_GeneralInfo.md).
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to do the following to configure your client application and the Acumatica ERP instance to be used:
 
@@ -13,15 +13,15 @@ Before you test the code below, you need to do the following to configure your c
 
 **Tip:** Make sure the financial periods are open for the year for which you are creating an AP bill. If the financial periods are not open, the creation of the AP fill fails with an error, such as *Post Period cannot be empty*. For details about how to open financial periods, see an example in [Opening Financial Periods: Process Activity](../UserGuide/Finance_OpeningFinPeriods_Process_Activity.md).
 
-## Request { .section}
+## Request
 
 You can use the following example of an HTTP request to create an AP bill for a line of a purchase receipt.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-PUT /entity/Default/25.200.001/Bill?
-    $select=ReferenceNbr,Details&$expand=Details HTTP/1.1
+PUT /entity/Default/26.200.001/Bill?
+    $select=ReferenceNbr&$expand=Details($select=POReceiptNbr,InventoryID,Qty) HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
 Content-Type: application/json
@@ -49,7 +49,7 @@ Content-Type: application/json
 }
 ```
 
-## Usage Notes { .section}
+## Usage Notes
 
 To create an AP bill for particular lines of a purchase receipt, you need to specify the line numbers in the request by using the POReceiptLine property of the BillDetail detail entity of the Bill entity.
 

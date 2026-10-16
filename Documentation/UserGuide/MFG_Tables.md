@@ -1,10 +1,10 @@
-# Using Manufacturing Data in Inquiries and Reports {#_1ce567e9-7d64-4f0d-aa14-d894a35a8fc3 .concept}
+# Using Manufacturing Data in Inquiries and Reports
 
 This is not a complete list of all of the data access classes \(DACs\) used by the manufacturing forms for Acumatica ERP. All DAC and the underlying database tables start with *AM*; for example, `JAMS.AM.AMBatch` is the DAC and `AMBatch` is the table.
 
 All columns added to Acumatica ERP forms as a customization are stored in extension tables. The name of an extension table is `<base table>AMExtension`, such as `InventoryItemAMExtension`. Each added column has *AM* as the prefix, such as `AMBOMID`. For example, if you wanted to get a list of the bills of material by a warehouse, you would access the `PX.Objects.IN.INItemSite` DAC and use the `AMBOMID` column.
 
-## Production Transactions { .section}
+## Production Transactions
 
 The following tables contain all of the production transactions. You should always have the `AMBatch` table in generic inquiries if you wish to open the original document. A batch consists only of transactions of the same document type.
 
@@ -46,7 +46,7 @@ The following tables contain all of the production transactions. You should alwa
 |XVV|WIP Variance|W|
 |XXX|WIP Adjustment|W|
 
-## Production Management { .section}
+## Production Management
 
 In the following table, you can find the key tables used for production orders.
 
@@ -78,7 +78,7 @@ In the following table, you can find the key tables used for production orders.
 |`AMClockItem`|A single record for each production employee showing if they are clocked in and what production order they are or were working on|EmployeeID|
 |`AMClockTran`|Listing of all clocked-out transactions|EmployeeID|
 
-## Production Configurator Master Files { .section}
+## Production Configurator Master Files
 
 |DAC|Description|Columns to Use for Joins|
 |---|-----------|------------------------|
@@ -91,7 +91,7 @@ In the following table, you can find the key tables used for production orders.
 |`AMConfigurationAttribute`|Attributes for a configuration|ConfigurationID, Revision, LineNbr, AttributeID|
 |`AMConfigurationDefault`|*Reserved for future use*|ConfigurationID, Revision, DefaultID|
 
-## Product Configurator Results { .section}
+## Product Configurator Results
 
 |**DAC**|**Description**|**Columns to Use for Joins**|
 |-------|---------------|----------------------------|
@@ -127,7 +127,7 @@ For CRM opportunities or CRM quotes, you use the following:
     -   `OpportunityQuoteID` to `QuoteID`
     -   `OpportunityLineNbr` to `LineNbr`
 
-## Bill of Material { .section}
+## Bill of Material
 
 In the following table, the primary tables for the bill of material master data are listed. The bill of material table structure was redesigned in 2018R2 Manufacturing Edition.
 
@@ -163,7 +163,7 @@ In the following table, the primary tables for the bill of material master data 
 |`AMWCMach`|Machines for a work center|WCID, MachID|
 |`AMWCOvhd`|Overheads for a work center|WCID, OvhdID|
 
-## Engineering Change Control { .section}
+## Engineering Change Control
 
 The Engineering Change Requests \(ECR\) and Engineering Change Orders \(ECO\) can be found in a single DAC, `AMECOItem`.
 

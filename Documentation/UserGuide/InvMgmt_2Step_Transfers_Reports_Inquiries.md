@@ -1,8 +1,8 @@
-# Two-Step Transfers: Related Report and Inquiry Forms {#_68ef08df-1510-4aac-8c47-a56ecd6a40a1 .concept}
+# Two-Step Transfers: Related Report and Inquiry Forms
 
 In the following section, you can find details about report and inquiry forms that you may want to review to gather information about two-step transfers of stock items that are being processed in the system.
 
-## Viewing Items in Transit { .section}
+## Viewing Items in Transit
 
 If you want to see a list of items that are in transit \(that is, items that are being transferred to other warehouses in two steps and have not yet been received at the destination warehouse\), you can use the [Goods in Transit](IN_61_65_00.md) \(IN616500\) report.
 

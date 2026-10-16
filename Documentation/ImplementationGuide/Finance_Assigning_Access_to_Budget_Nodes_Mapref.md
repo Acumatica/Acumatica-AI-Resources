@@ -1,4 +1,4 @@
-# Access to Budget Nodes {#_0b8bbd8b-f8f1-4ad8-a639-54636220a6a5 .concept}
+# Access to Budget Nodes
 
 In this chapter, you will learn how to assign access to budget nodes to multiple user roles in Acumatica ERP.
 

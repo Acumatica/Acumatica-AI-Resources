@@ -1,16 +1,16 @@
-# Authorization Code Flow: General Information {#_ff780860-09c2-46c9-bdd7-c6c3b1fc442c .concept}
+# Authorization Code Flow: General Information
 
 When you implement OAuth 2.0 or OpenID Connect \(OIDC\) in a client application to make the application work with Acumatica ERP, you can use the Authorization Code flow. With this authorization flow, the client application never gets the credentials of the applicable Acumatica ERP user. After the user is authenticated in Acumatica ERP, the client application receives an authorization code, exchanges it for an access token, and then uses the access token to work with data in Acumatica ERP.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to implement a client application that uses the Authorization Code flow.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You implement the Authorization Code flow in a client application when you want to securely obtain an access token without exposing the user's credentials to the client application.
 
-## Authorization Code Flow { .section}
+## Authorization Code Flow
 
 For the support of the Authorization Code flow, you implement the following general steps in the application:
 
@@ -62,11 +62,10 @@ For details on the OAuth 2.0 authorization mechanism, see the specification at [
 
 **Tip:** The configuration of the OpenID Connect protocol that is used by an Acumatica ERP website can be displayed by a request to the following URL: *\[&lt;Acumatica ERP instance URL&gt;\]/identity/.well-known/openid-configuration*. \(In this request, *\[&lt;Acumatica ERP instance URL&gt;\]* stands for the URL of the Acumatica ERP website.\)
 
-## Authorization Code Flow Diagram { .section}
+## Authorization Code Flow Diagram
 
 The following diagram illustrates the Authorization Code flow.
 
-![](Images/diag_AuthorizationCodeFlow.png "Authorization Code flow")
 
 **Parent topic:**[Implementing the Authorization Code Flow](../IntegrationDevelopmentGuide/OAuthOIDC_AuthorizationCode_Mapref.md)
 

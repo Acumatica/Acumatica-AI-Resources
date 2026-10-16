@@ -1,28 +1,28 @@
-# Generic Inquiry Access Through OData: To Access an Exposed Inquiry in Microsoft Excel {#_9145f675-c897-42bf-9683-dcaee14f877c .task}
+# Generic Inquiry Access Through OData: To Access an Exposed Inquiry in Microsoft Excel
 
 In this activity, you will learn how to access a generic inquiry that was exposed through OData in Microsoft Excel.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist in your company who is working on simple customizations, including those involving the creation, modification, and use of generic inquiries. An accountant of your company has asked to have access in Excel to the predefined Invoices and Memos \(AR3010PL\) generic inquiry form. This form, which is a list of records, has the *AR-Invoices and Memos* inquiry title and the *Invoices and Memos* site map title specified on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form. The accountant uses Excel for building reports based on the data of this generic inquiry and wants the data to always be up to date.
 
 You have exposed the requested generic inquiry, and now you need to verify that it can be accessed through Excel.
 
-## Process Overview { .section}
+## Process Overview
 
 On [Access Rights by User](SM_20_10_55.md) \(SM201055\) form, you will verify that your user account has sufficient access rights \(the *Delete* level\) to the predefined Invoices and Memos \(AR3010PL\) generic inquiry.
 
 You will then open Microsoft Excel and import data from the exposed inquiry to a spreadsheet.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to a tenant with the *U100* dataset preloaded as system administrator Kimberly Gibbs. You should sign in by using the *gibbs* username and the *123* password.
 
 **Tip:** The *gibbs* user is assigned the *Administrator* role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards.
 
-## Step 1: Verifying the Access Rights { .section}
+## Step 1: Verifying the Access Rights
 
 To verify that your user account has the appropriate level of access rights to the exposed inquiry, do the following:
 
@@ -37,7 +37,7 @@ To verify that your user account has the appropriate level of access rights to t
     **Tip:** If a user account has multiple roles assigned to it, the user account’s level of access rights to a particular form is the most permissive level of the active roles.
 
 
-## Step 2: Viewing a Generic Inquiry in Excel { .section}
+## Step 2: Viewing a Generic Inquiry in Excel
 
 To access the exposed inquiry through Microsoft Excel, do the following:
 

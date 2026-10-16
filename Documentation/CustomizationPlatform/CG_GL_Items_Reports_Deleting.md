@@ -1,4 +1,4 @@
-# To Delete a Custom Report from a Project {#_03a8fa03-47e8-4c45-b8ec-63877a2210bf .concept}
+# To Delete a Custom Report from a Project
 
 To remove a custom report from a project, perform the following actions:
 

@@ -1,14 +1,13 @@
-# Displaying the Available Actions In a List of Records {#_e88f5b0d-5382-47b5-a22b-71bfe0f4a3cd .reference}
+# Displaying the Available Actions In a List of Records
 
 Screens of the Acumatica mobile app often display lists of records, such as the details of a document or all records created on a particular screen. While viewing a list of records, a user may want to act upon individual records.
 
 In this topic, you’ll learn how to display each record’s available actions in a list of records.
 
-## Displaying the Available Actions for a Record { .section}
+## Displaying the Available Actions for a Record
 
 You can display the available actions for each record in a list of records by setting the showActionsOnList property to `True` in the MSDL code of the corresponding container. The available actions are rendered at the bottom of each record, as shown below.
 
-![](Images/RN_2026_R1_Mobile_NewScreenMarkup_ActionsOnGrid.png "An action for a record in a list")
 
 The following MSDL code uses the showActionsOnList property for the list of records shown in the preceding screenshot
 

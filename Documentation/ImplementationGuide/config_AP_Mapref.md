@@ -1,4 +1,4 @@
-# Accounts Payable {#_3cc687f2-d52a-4672-9380-fd948b2603fe .concept}
+# Accounts Payable
 
 Before users can start adding vendors and documents related to vendors in Acumatica ERP, the basic accounts payable functionality has to be implemented in the system. This chapter describes the basic configuration to be performed, including creating vendor classes and specifying the preference settings for accounts payable.
 

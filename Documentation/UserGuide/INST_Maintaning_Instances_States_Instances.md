@@ -1,10 +1,9 @@
-# Instance Maintenance: Possible Update Statuses of an Instance {#_953a6182-dbd9-48d6-b70a-7d53ce81c635 .concept}
+# Instance Maintenance: Possible Update Statuses of an Instance
 
 In Acumatica ERP, you can see which instances and databases you need to update.
 
 You can check the update status of your application instances and databases on the Application Maintenance page of the Acumatica ERP Configuration wizard, as shown in the following screenshot.
 
-![](Images/activity_INST_Maintenance_Instance_Instance_States.png "The icons indicating the update statuses of instances")
 
 In the list of installed sites, you can see the following icons indicating the update status of each application instance:
 

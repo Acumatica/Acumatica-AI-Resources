@@ -1,14 +1,14 @@
-# To Add a Payment Method for BACS HSBC Plug-In {#_ff5e4907-14d4-4f1a-99e0-59de666036e5 .task}
+# To Add a Payment Method for BACS HSBC Plug-In
 
 You use the [Payment Methods](CA_20_40_00.md) \(CA204000\) form to create a payment method to be used for export of a BACS HSBC file through the BACS HSBC plug-in.
 
 **Tip:** As an alternative to adding a payment method, you can use the predefined *Direct Deposit* payment method that is provided in an out-of-the-box instance of Acumatica ERP.
 
-## Before You Proceed {#section_jp4_njv_vxb .section}
+## Before You Proceed
 
 Make sure that the *UK Localization* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## To Add a Payment Method for the BACS HSBC Plug-In { .section}
+## To Add a Payment Method for the BACS HSBC Plug-In
 
 To add a payment method that uses the BACS HSBC plug-in, do the following:
 
@@ -42,7 +42,7 @@ To add a payment method that uses the BACS HSBC plug-in, do the following:
 
 Next, you will specify the remittance details for the cash account that uses this payment method.
 
-## To Add Remittance Details to the Cash Account { .section}
+## To Add Remittance Details to the Cash Account
 
 To add remittance details to each cash account that is linked to the BACS payment method, do the following:
 
@@ -60,7 +60,7 @@ To add remittance details to each cash account that is linked to the BACS paymen
 
 Now you will specify BACS credentials for each vendor that agreed to receive your payments through BACS.
 
-## To Add Payment Details for a Vendor { .section}
+## To Add Payment Details for a Vendor
 
 To add payment details for a vendor that will receive your payments, do the following:
 

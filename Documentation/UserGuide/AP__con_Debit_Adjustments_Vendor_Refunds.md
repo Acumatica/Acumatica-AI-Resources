@@ -1,4 +1,4 @@
-# Debit and Credit Adjustments: Refunds {#_93fefa07-d12c-410d-b03c-5269dff26f53 .concept}
+# Debit and Credit Adjustments: Refunds
 
 In accounts payable, refunds often arise when credit adjustments exceed outstanding bills. A vendor refund can settle all related AP documents at once.
 
@@ -8,7 +8,7 @@ If you click **Load Documents** on the table toolbar, the system loads documents
 
 The system calculates the application amount as follows.
 
-``` {#codeblock_wcb_ng2_13c}
+```
 Application Amount = Amount Paid (Debit Adj.) + Amount Paid (Prepayment) - Amount Paid (Bill) - Amount Paid (Credit Adj.)
 ```
 
@@ -23,7 +23,7 @@ Releasing a refund creates the following transaction.
 
 If a refund is paid in a foreign currency, the realized gain or loss account may also be updated by the amount resulting from the differences in exchange rates for the original debit adjustment and the refund.
 
-## Correction of a Refund {#section_z33_njv_vxb .section}
+## Correction of a Refund
 
 You can correct a released refund by voiding it and recording the correct refund. For step-by-step instructions, see [To Void a Refund](AP__HOW_To_Void_Vendor_Refund.md).
 

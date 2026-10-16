@@ -1,4 +1,4 @@
-# Configuring Reclassification of Expenses {#_45e1c174-65e0-47c8-8f21-3faef15c9e6b .concept}
+# Reclassification of Expenses
 
 Correct classification of expenses affects the accuracy of reporting. In many organizations, authorized accountants later review the entered documents for approval and reclassification of expenses. This chapter describes the reclassification of expenses.
 

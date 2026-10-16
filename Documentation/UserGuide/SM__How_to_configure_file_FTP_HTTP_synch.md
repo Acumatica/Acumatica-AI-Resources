@@ -1,8 +1,8 @@
-# To Configure File Synchronization Through FTP or HTTP {#_af052351-3acd-4614-981c-b001a320582c .task}
+# To Configure File Synchronization Through FTP or HTTP
 
 You can synchronize files stored in Acumatica ERP with files stored on a File Transfer Protocol \(FTP\) or Hypertext Transfer Protocol \(HTTP\) server.
 
-## To Configure File Synchronization \(FTP or HTTP\) { .section}
+## To Configure File Synchronization \(FTP or HTTP\)
 
 1.  Open the [Search in Files](SM_20_25_20.md) \(SM202520\) form.
 2.  To find the file, in the Selection area, specify criteria to help you find the file. These criteria can include the file name \(or part of the file name\), the time interval of the import, and the name of the user who imported the file or checked it out. The table lists the files that match the criteria you have specified.

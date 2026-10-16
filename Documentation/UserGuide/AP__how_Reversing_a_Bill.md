@@ -1,8 +1,8 @@
-# To Reverse a Bill {#_9559dcd7-f430-4cc2-bcfd-0e9217cf9df1 .task}
+# To Reverse a Bill
 
 You reverse a released bill on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form
 
-## To Reverse a Bill {#section_xzh_njv_vxb .section}
+## To Reverse a Bill
 
 1.  Open the [Bills and Adjustments](../Shared/../UserGuide/AP_30_10_00.md) \(AP301000\) form.
 2.  Open the bill to be reversed, which must have the *Open* or *Closed* status.
@@ -14,7 +14,7 @@ You reverse a released bill on the [Bills and Adjustments](AP_30_10_00.md) \(AP3
 5.  If needed, in the **Vendor Ref.** box, change the reference to the vendor document.
 6.  On the form toolbar, click **Release** to release the debit adjustment.
 
-## Notes About the Procedure {#section_yzh_njv_vxb .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

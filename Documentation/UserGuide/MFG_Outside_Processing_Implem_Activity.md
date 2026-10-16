@@ -1,14 +1,14 @@
-# Outside Processing: Implementation Activity {#_9eab45fa-ec47-419d-bc7e-fc7d3ca96e4c .task}
+# Outside Processing: Implementation Activity
 
 In this implementation activity, you will learn how to implement production processes that include outside operations.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Fruits &amp; Jams has started to receive many customer orders for assembled juicers. The current capacity of work centers has been reached, so the production manager has decided to outsource the assembly of some of the juicers to an outside vendor, Custom Assembly Services. The materials required for juicer assembly will still be stored at the SweetLife Fruits &amp; Jams warehouse and will be shipped to the vendor. The materials are the same as for in-house assembly. The vendor will use their own tools and charge SweetLife Fruits &amp; Jams for their service in the amount of $50 per juicer. The assembled juicers will be received to the warehouse and then inspected by a warehouse worker. Suppose that the warehouse worker inspects four juicers per hour and no specific setup or tools are required for this operation.
 
 Acting as the implementation manager, you need to configure outside processing for juicer assembly in the system. That is, you need to create a work center for outside processing, a work center for inspection, and a bill of material to be used for the outside assembly of juicers.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 The following entities, which you will use in this activity, have been predefined in the *U100* dataset:
 
@@ -18,7 +18,7 @@ The following entities, which you will use in this activity, have been predefine
 -   On the [Work Calendar](CS_20_90_00.md) \(CS209000\) form, the *MAIN* work calendar, which is used for standard working hours
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *MFGSUBCON* non-stock item
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -27,7 +27,7 @@ In this activity, you will do the following:
 3.  On the same form, create a work center for inspecting the juicers assembled by the subcontractor.
 4.  On the [Bill of Material](AM_20_80_00.md) \(AM208000\) form, create a bill of material for producing juicers that will be assembled by the subcontractor.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start performing the activity, do the following:
 
@@ -37,7 +37,7 @@ Before you start performing the activity, do the following:
     3.  [Configuring Work Centers: Implementation Activity](../ImplementationGuide/config_MFG_Work_Centers_Implem_Activity.md) so that the shift for standard working hours has been created
 2.  Sign in to the company in which the prerequisite activities have been performed. You should sign in as a system administrator by using the *gibbs* username and *123* password.
 
-## Step 1: Reviewing Default Settings for Outside Processing { .section}
+## Step 1: Reviewing Default Settings for Outside Processing
 
 In a production system, you would need to specify the settings related to outside processing before you start processing production orders that include outside operations. These settings have been predefined in the *U100* dataset for simplicity. In this step, you will review them settings. On the [Production Preferences](AM_10_20_00.md) \(AM102000\) form, do the following:
 
@@ -46,7 +46,7 @@ In a production system, you would need to specify the settings related to outsid
     -   **Hold Shipments on Entry**: Selected
     -   **Validate Shipment Total on Confirmation**: Cleared
 
-## Step 2: Creating a Work Center for Outside Processing { .section}
+## Step 2: Creating a Work Center for Outside Processing
 
 To create a work center for outside processing, do the following:
 
@@ -81,7 +81,7 @@ To create a work center for outside processing, do the following:
     3.  Notice that the **Diff Type** column contains *Amount* and the **Shift Diff** column contains *0.0000*. These values have been copied from the shift settings on the [Shifts](AM_20_50_00.md) \(AM205000\) form.
 5.  On the form toolbar, click **Save**.
 
-## Step 3: Creating a Work Center for Inspection { .section}
+## Step 3: Creating a Work Center for Inspection
 
 To create a work center for inspection of juicers assembled by the outsource vendor, do the following on the [Work Centers](AM_20_70_00.md) \(AM207000\) form:
 
@@ -109,7 +109,7 @@ To create a work center for inspection of juicers assembled by the outsource ven
     2.  Notice that the **Diff Type** column contains *Amount* and the **Shift Diff** column contains *0.0000*. These values have been copied from the shift settings on the [Shifts](AM_20_50_00.md) \(AM205000\) form.
 5.  On the form toolbar, click **Save**.
 
-## Step 4: Creating a Bill of Material with the Outside Processing Operation { .section}
+## Step 4: Creating a Bill of Material with the Outside Processing Operation
 
 To create a bill of material that includes an outside processing operation, do the following:
 

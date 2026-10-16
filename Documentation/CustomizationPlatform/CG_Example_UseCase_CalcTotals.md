@@ -1,16 +1,14 @@
-# Calculating Field Values \(with PXFormula\) {#_d75dbfeb-65d2-4f73-80cf-d3d5240a807b .concept}
+# Calculating Field Values \(with PXFormula\)
 
 This topic describes how to calculate values on a form of Acumatica ERP.
 
-## Customization Description { .section}
+## Customization Description
 
 Suppose that you need to calculate the total price of a provided service based on the stock and non-stock items included in the service. For example, suppose that you are developing the custom Service and Prices \(RS203000\) maintenance form with several tabs, including **Repair Items** and **Labor** \(where a user adds the stock items and non-stock items, respectively, included in the service\). The total price, displayed in the **Approximate Price** box of the Summary area of the form, is a sum of all stock and non-stock items added to the service.
 
 The following screenshots show an example of this form \(which is developed in the *T210 Customized Forms and Master-Details Relationships* training course\). On the **Repair Items** tab \(shown in the first screenshot\), a user can add stock items. In the second screenshot, you can see the **Labor** tab, where a user can add non-stock items and specify their quantities.
 
-![](images/CG_EX_CalcTotals_RepairItems.png "The Repair Items tab of the custom form")
 
-![](images/CG_EX_CalcTotals_Labor.png "The Labor tab of the custom form")
 
 The value in the **Approximate Price** box should be changed when the user adds a new item or deletes an item on a **Repair Items** or **Labor** tabs.
 
@@ -68,7 +66,7 @@ public class RSSVRepairPrice : PXBqlTable, IBqlTable
 }
 ```
 
-## Implementation { .section}
+## Implementation
 
 You can calculate values in one of the following ways:
 
@@ -116,23 +114,66 @@ To implement the calculation of the field values, do the following:
 
 3.  In the ASPX file of the form, set the CommitChanges attribute to *True* for the **Quantity** column of the grid to be able to calculate the `ExtPrice` value.
 
-## Summary { .section}
+## Summary
 
 To calculate values, you use the PXFormula attribute on the fields that are used in the calculations. As a parameter of the PXFormula attribute, you provide a function that specifies how to calculate the resulting value and in which field the resulting value should be stored.
 
 You can see the complete list of functions in the [Calculation of Field Values](../StudioDeveloperGuide/BL__con_Attr_Calculations.md) topic. For more information on the PXFormula attribute, see the [PXFormulaAttribute Class](https://help.acumatica.com/(W(2))/Help?ScreenId=ShowWiki&pageid=dbafa6c6-e444-206f-6d5e-8f5606b4b69e) topic in the API Reference.
 
-## Examples in Acumatica ERP Source Code { .section}
+## Examples in Acumatica ERP Source Code
 
 The following table lists similar examples of calculating values in Acumatica ERP forms.
 
-|Form|Location on the Form|Location in Source Code|
-|----|--------------------|-----------------------|
-|[Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\)|Multiple calculations are made on this form. For example, the value in the **Ext. Price** box of the Summary area is calculated based on the values in the **Quantity** and **Unit Price** columns on the **Document Details** tab.|The PX.Objects.AR.ARTran DAC|
-|[Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\)|Multiple calculations are made on this form. For example, the value of the **Ext. Price** box of the Summary area is calculated based on the values in the **Quantity** and **Unit Price** columns on the **Document Details** tab.You can see more complex calculations that use the PXFormula attribute with the `SOLing.UnbilledQty` field.
+<table id="_50790ba2-75c2-4b66-8526-9fdc6f674079"><thead><tr><th>
 
-|The PX.Objects.SO.SOLine DAC|
-|[Bills and Adjustments](../UserGuide/AP_30_10_00.md) \(AP301000\)|Multiple calculations. For example, the value of the **Ext. Cost** box of the Summary area is calculated based on the values of the **Quantity** and **Unit Cost** columns on the **Document Details** tab.|The PX.Objects.AP.APTran DAC|
+Form
+
+</th><th>
+
+Location on the Form
+
+</th><th>
+
+Location in Source Code
+
+</th></tr></thead><tbody><tr><td>
+
+[Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\)
+
+</td><td>
+
+Multiple calculations are made on this form. For example, the value in the **Ext. Price** box of the Summary area is calculated based on the values in the **Quantity** and **Unit Price** columns on the **Document Details** tab.
+
+</td><td>
+
+The PX.Objects.AR.ARTran DAC
+
+</td></tr><tr><td>
+
+[Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\)
+
+</td><td>
+
+Multiple calculations are made on this form. For example, the value of the **Ext. Price** box of the Summary area is calculated based on the values in the **Quantity** and **Unit Price** columns on the **Document Details** tab.You can see more complex calculations that use the PXFormula attribute with the `SOLing.UnbilledQty` field.
+
+</td><td>
+
+The PX.Objects.SO.SOLine DAC
+
+</td></tr><tr><td>
+
+[Bills and Adjustments](../UserGuide/AP_30_10_00.md) \(AP301000\)
+
+</td><td>
+
+Multiple calculations. For example, the value of the **Ext. Cost** box of the Summary area is calculated based on the values of the **Quantity** and **Unit Cost** columns on the **Document Details** tab.
+
+</td><td>
+
+The PX.Objects.AP.APTran DAC
+
+</td></tr></tbody>
+</table>
 
 **Parent topic:**[Use Cases](../CustomizationPlatform/CG_Example_UseCases.md)
 

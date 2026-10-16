@@ -1,10 +1,10 @@
-# Tenant Maintenance: General Information {#_c1cd9475-be30-40fb-855e-565c14386071 .concept}
+# Tenant Maintenance: General Information
 
 Acumatica ERP provides you with the ability to create additional tenants, maintain them, and delete them by using the Acumatica ERP Configuration wizard.
 
 This topic describes the ways of adding tenants by using the Acumatica ERP Configuration wizard, provides an overview of the System and custom parent tenants, and explains various changes that can be made to tenants.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -16,7 +16,7 @@ In this chapter, you will do the following:
 -   Learn about restrictions on tenant access
 -   Delete a tenant
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may need to learn how to maintain tenants of the Acumatica ERP instance in scenarios that include the following:
 
@@ -24,7 +24,7 @@ You may need to learn how to maintain tenants of the Acumatica ERP instance in s
 -   You are an implementation consultant who needs to know what the System tenant is and how to create a custom parent tenant.
 -   You are a system administrator who needs to restrict access to some tenants within the Acumatica ERP instance for employees of the company.
 
-## The System Tenant and Tenant Hierarchy { .section}
+## The System Tenant and Tenant Hierarchy
 
 When you deploy an Acumatica ERP application instance, the hidden System tenant is always created automatically. The System tenant has an **ID** of *1* in the **Parent Tenant ID** column on the Tenant Setup page of the Acumatica ERP Configuration wizard.
 
@@ -38,7 +38,7 @@ When you create a new tenant, its parent tenant must be selected; the System ten
 
 You cannot delete the System tenant.
 
-## Creation of Additional Tenants { .section}
+## Creation of Additional Tenants
 
 For an Acumatica ERP instance, you can create additional tenants on the Tenant Setup page of the Acumatica ERP Configuration wizard during or after the initial deployment of an instance.
 
@@ -46,7 +46,7 @@ You can add an additional tenant to the instance by clicking **Create** on the A
 
 Also, you can create tenants and view information about their settings on the [Tenants](SM_20_35_20.md) \(SM203520\) form. For details, see [Managing Tenants by Using the Web Interface](SA_Managing_Tenants_Using_Web_Mapref.md).
 
-## A Custom Parent Tenant { .section}
+## A Custom Parent Tenant
 
 An application update or upgrade replaces all the data available in the System tenant, while the data created by users in user-created tenants remains unchanged. If you would like to replace preconfigured data, such as roles and numbering sequences, similarly for multiple new tenants, you can create a *custom parent tenant*: a parent tenant that will be used instead of the System tenant for your new tenants.
 
@@ -56,7 +56,7 @@ You can create a custom parent tenant that is a child of another parent tenant. 
 
 **Tip:** You can create new tenants based on the custom parent tenant only by using the Acumatica ERP Configuration wizard. If you create new tenants on the [Tenants](../Shared/../UserGuide/SM_20_35_20.md) \(SM203520\) form, the System tenant is assigned as its parent automatically. Due to technical limitations, you can have a maximum of 127 tenants on an Acumatica ERP instance. This includes all types of tenants, irrespective of their statuses.
 
-## Restriction of Access to Tenants { .section}
+## Restriction of Access to Tenants
 
 In a multitenant Acumatica ERP instance, the tenant selection box appears on the Sign-In page by default, allowing users to select the tenant to sign in from the list of all available tenants.
 
@@ -70,11 +70,11 @@ If you want to restrict the list of tenants a user can see to only those the use
     **Attention:** If you are using multiple tenants and SSO authentication and the **Secure Tenant on the Sign-In Page** check box is selected, ensure that all users can sign in to the first tenant listed on the [Tenant List](../Shared/../UserGuide/SM_20_35_30.md) \(SM203530\) form. If a user cannot sign in to the first listed tenant, they will not be able to select a different tenant to sign in to.
 
 
-## Visibility of Tenants { .section}
+## Visibility of Tenants
 
 You can define the visibility of tenants for users on the Sign-In page of the Acumatica ERP instance. You do this by clearing or selecting the check box in the **Visible** column in the row of the tenant on the Tenant Setup page of the Acumatica ERP Configuration wizard. For details, see [Tenant Maintenance: To Change Tenant Visibility](INST_Maintaning_Tenants_Changing_Visibility_Tenants_Activity.md)
 
-## Deletion of Tenants { .section}
+## Deletion of Tenants
 
 You may need to delete an existing tenant. You can do this by using the Acumatica ERP Configuration wizard. On the Tenant Setup page of the wizard, you can select the tenant you want to remove and click **Delete**. For details, see [Tenant Maintenance: To Delete a Tenant](INST_Maintaning_Tenants_Deleting_Tenants_Activity.md).
 

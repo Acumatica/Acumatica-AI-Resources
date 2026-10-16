@@ -1,4 +1,4 @@
-# Synchronizing Product Availability {#_c6629fe6-bff5-4ba2-9a00-b2edf57a789a .concept}
+# Synchronizing Product Availability
 
 The topics of this chapter explain the availability settings of stock items and non-stock items that are sold in Amazon.
 

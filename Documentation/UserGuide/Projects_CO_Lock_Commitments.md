@@ -1,4 +1,4 @@
-# Single-Tier Change Management: Locking Commitments {#_c17cd444-9753-4e6e-a687-fa3abcda1e16 .concept}
+# Single-Tier Change Management: Locking Commitments
 
 If internal cost commitment tracking is configured in the system and the change order workflow is configured for a particular project, after the purchases on the project have been agreed on with vendors and entered into the system, you can lock the commitments for the project.
 

@@ -1,16 +1,16 @@
-# Diagram View: To Remove Unneeded Parts of the Workflow {#_4f802b0c-2d7a-45fe-8584-08e36baf7dae .task}
+# Diagram View: To Remove Unneeded Parts of the Workflow
 
 The following activity will walk you through the process of removing unneeded elements of the workflow on the [Workflow \(Diagram View\)](../UserGuide/AU_20_10_30_VisualEditor.md) page.
 
-## Story { .section}
+## Story
 
 Acting as the technical specialist, you need to remove the transition and the action that are not required in the workflow of the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form anymore.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Workflow \(Diagram View\)](../UserGuide/AU_20_10_30_VisualEditor.md) page, you will remove the predefined direct transition from the `New` state to the `Open` state, because it is no longer required. \(In the modified workflow, this transition will not be used.\) You will also remove the `Open` action, which triggers this transition, from the `New` state.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin adding a new state, do the following:
 
@@ -20,7 +20,7 @@ Before you begin adding a new state, do the following:
 
 2.  Make sure that you have completed the [Diagram View: To Modify the Added Actions](WorkflowUI_CustomizingInheritedWorkflow_Activity_ModifyActions.md) activity.
 
-## Step 1: Removing a Transition { .section}
+## Step 1: Removing a Transition
 
 In this step, you will remove the transition from the `New` state to the `Open` state. In the Customization Project Editor for the *Opportunities* customization project, perform the following instructions:
 
@@ -37,7 +37,7 @@ In this step, you will remove the transition from the `New` state to the `Open` 
     Notice that the box with the `New` state no longer contains the `Open` action. The action itself is not removed from the state; you should remove it manually.
 
 
-## Step 2: Removing an Action { .section}
+## Step 2: Removing an Action
 
 To remove the `Open` action from the `New` state, while you are still in the diagram view of the CR304000 \(Opportunities\) State Diagram: OpportunitiesAssigned page, perform the following instructions:
 

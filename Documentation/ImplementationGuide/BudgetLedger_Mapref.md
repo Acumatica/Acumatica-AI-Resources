@@ -1,4 +1,4 @@
-# Budget Ledger {#_65bf7202-4294-4ec6-90fb-9dd8971359ea .concept}
+# Budget Ledger
 
 In Acumatica ERP, you can create ledgers of the *Budget* type to keep budgets so that user can then prepare budget-related reports and compare budgets. In this chapter, you will find general information on budget ledgers, configuration prerequisites, and an activity you can use to practice the creation of budget ledgers.
 

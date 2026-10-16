@@ -1,4 +1,4 @@
-# Service Commands in Import and Export Scenarios {#_11c25c0f-6cb8-4d86-9030-a1620baee5fc .concept}
+# Service Commands in Import and Export Scenarios
 
 For key fields and the first field that has a commit among the fields of a detail table, the system adds *service commands* on the **Mapping** tab of the scenario you are creating on the [Import Scenarios](SM_20_60_25.md) \(SM206025\) form or the [Export Scenarios](SM_20_70_25.md) \(SM207025\) form. Service commands are commands that invoke hidden actions in the system, such as searching for the record by the key field, refreshing the form, and adding a new line to the detail table. The system automatically adds service commands to the scenario immediately before the commands that invoke them.
 

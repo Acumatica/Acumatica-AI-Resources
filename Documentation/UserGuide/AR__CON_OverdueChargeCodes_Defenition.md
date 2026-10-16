@@ -1,4 +1,4 @@
-# Overdue Charges: Charge Codes {#_d2a54aa4-2cd1-4590-a89c-c61a6a51d396 .concept}
+# Overdue Charges: Charge Codes
 
 By using the [Overdue Charges](AR_20_45_00.md) \(AR204500\) form, you can create an unlimited number of overdue charge codes—particular overdue charge entities with their own rates and settings. Overdue charges are applied in either the base currency or the currency of the overdue document.
 
@@ -9,7 +9,7 @@ You plan the overdue charge code or codes needed to suit your company's credit p
 -   Deciding on the amount of the overdue fee, if you plan to charge one
 -   Defining the criteria for creation of a document of the *Overdue Charge* type for this code
 
-## Calculation Methods {#calc_methods .section}
+## Calculation Methods
 
 The system provides three calculation methods you can use to define the amount that is subject to overdue charges based on the number of days after the due date. The charges can be calculated either for open documents \(those that are not fully paid\) or for closed documents \(those that are fully paid\). The base all the methods use for calculation is the open balance of the overdue document.
 
@@ -21,11 +21,11 @@ For each overdue charge code, you select one of the following options in the **C
 
 The calculation method is used along with the charging method, described in the next section of this topic, to determine how overdue documents are charged for a particular overdue charge code.
 
-## Charging Methods {#charge_amount .section}
+## Charging Methods
 
 A charging method defines how the system charges an overdue document. An overdue charge can be defined either as a fixed amount or as a percentage \(annual rate\) on an open balance for the number of days late. If the overdue charge is a percentage, the following formula is used to calculate overdue charges, based on the number of days past due.
 
-``` {#codeblock_bcf_hjv_vxb}
+```
 Charge Amount = (Percent Rate) * (Number of Days Past Due) * Open Balance / (365 * 100)
 ```
 
@@ -69,7 +69,7 @@ An overdue charge can be defined as a fixed amount. To define an overdue charge 
 
 Thus, if an open balance of an overdue document is greater than zero, the system charges the specified fixed amount.
 
-## Overdue Fees {#section_mcf_hjv_vxb .section}
+## Overdue Fees
 
 Some companies charge a fixed amount \(a fee\) for processing documents of the *Overdue Charge* type. In these cases, a customer must pay the fee amount in addition to the amount of calculated overdue charges.
 

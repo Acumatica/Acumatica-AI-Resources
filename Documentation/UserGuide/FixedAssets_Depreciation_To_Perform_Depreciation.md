@@ -1,12 +1,12 @@
-# Asset Depreciation: To Depreciate Assets {#_50ddea02-195e-43b1-af68-ed2cc6f83aab .task}
+# Asset Depreciation: To Depreciate Assets
 
 The following activity will walk you through the process of depreciating fixed assets.
 
-## Story {#section_bnf_ljv_vxb .section}
+## Story
 
 Suppose that the accountant of SweetLife Fruits &amp; Jams has calculated the depreciation of the company's fixed assets through September 2026 and made sure that the calculation is correct. Acting as the SweetLife accountant, you need to depreciate the fixed assets through February 2026.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -14,11 +14,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, the needed GL accounts have been created.
 -   On the [Fixed Assets Preferences](FA_10_10_00.md) \(FA101000\) form, the **Automatically Release Depreciation Transactions** check box has been cleared. Depreciation transactions are created with the *On Hold* status and you will have to release these transactions manually on the [Release FA Transactions](FA_50_30_00.md) \(FA503000\) form.
 
-## Process Overview {#section_enf_ljv_vxb .section}
+## Process Overview
 
 In this activity, you will depreciate fixed assets on the [Calculate Depreciation](FA_50_20_00.md) \(FA502000\) form. On the [Release FA Transactions](FA_50_30_00.md) \(FA503000\) form, you will release the depreciation transactions. On the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form, you will review the depreciation amount for one of the assets.
 
-## System Preparation {#section_gnf_ljv_vxb .section}
+## System Preparation
 
 Before you begin depreciating fixed assets, do the following:
 
@@ -29,7 +29,7 @@ Before you begin depreciating fixed assets, do the following:
 5.  Make sure that you have split the *Land* fixed asset by performing the [Splitting of Assets: Process Activity](FixedAssets_Splitting_Process_Activity.md) prerequisite.
 6.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step 1: Depreciating Fixed Assets {#section_inf_ljv_vxb .section}
+## Step 1: Depreciating Fixed Assets
 
 To depreciate fixed assets, do the following:
 
@@ -47,7 +47,7 @@ To depreciate fixed assets, do the following:
 
 3.  On the form toolbar, click **Process All**. For each asset in the table, the system calculates depreciation through the specified period and generates the depreciation transaction, which is not released yet.
 
-## Step 2: Releasing the Depreciation Transactions {#section_mnf_ljv_vxb .section}
+## Step 2: Releasing the Depreciation Transactions
 
 To release the generated depreciation transactions, do the following:
 
@@ -55,7 +55,6 @@ To release the generated depreciation transactions, do the following:
 2.  Click the link in the **Reference Number** column for the only row displayed in the table.
 3.  On the [Fixed Asset Transactions](FA_30_10_00.md) \(FA301000\) form, which the system has opened, review the entries of the fixed asset transaction generated for the 02-2026 period, as shown in the following screenshot.
 
-    ![](Images/activity_FA_Depreciation_Depreciation_Transactions.png "Depreciation calculated for fixed assets")
 
     The generated fixed asset transaction includes entries of the *Calculated+* type—one for each fixed asset for the *02-2026* period.
 
@@ -63,10 +62,9 @@ To release the generated depreciation transactions, do the following:
 
     The system has released and posted the fixed asset transaction and displayed the corresponding GL batch number in the **Batch Nbr.** column for each depreciation entry, as the following screenshot shows. The type of each entry was changed from *Calculated+* to *Depreciation+* as these entries were posted. Each *Depreciation+* entry debits the Depreciation Expense account \(*64000*\) in the amount of the depreciation calculated for the period for the particular asset, and credits the Accumulated Depreciation contra account specified for the fixed asset in the same amount.
 
-    ![](Images/activity_FA_Depreciation_Depreciation_Transactions_Released.png "Released depreciation transactions")
 
 
-## Step 3: Reviewing a Depreciated Fixed Asset {#section_qnf_ljv_vxb .section}
+## Step 3: Reviewing a Depreciated Fixed Asset
 
 To review a depreciated fixed asset, do the following:
 

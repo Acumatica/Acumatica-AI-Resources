@@ -1,4 +1,4 @@
-# Exploring the Source Code {#_8b029e01-6b17-401a-b680-46f9ab69c4cb .concept}
+# Exploring the Source Code
 
 Before you start to customize an Acumatica ERP application instance, you should analyze your business requirements to identify the changes in business processes that must be made and to identify the application objects for the customization. We recommend that you learn about the structure of the involved webpages by exploring the `.aspx` pages \(if you are using the Classic UI\) or the HTML and TypeScript files \(if you are using the Modern UI\). Further, we recommend that you explore the code of the business logic controllers \(BLCs\) and the data access classes \(DACs\) that are used within the BLCs.
 

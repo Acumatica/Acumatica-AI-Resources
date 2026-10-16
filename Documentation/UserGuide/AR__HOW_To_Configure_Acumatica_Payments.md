@@ -1,8 +1,8 @@
-# To Configure Acumatica Payments {#_7f8613be-52c8-444a-9048-dcaece4aaad3 .task}
+# To Configure Acumatica Payments
 
 This topic describes the configuration steps that you need to perform in the system to set up Acumatica payments.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Before you start configuring Acumatica payments in Acumatica ERP, your organization needs to contact the Acumatica Payments sales team. Your sales representative will provide actual payment processing rates and guide your organization through concluding the agreement, obtaining the merchant account ID, and migrating tokens from the previous payment gateway to Acumatica ERP.
 
@@ -15,7 +15,7 @@ You will need the following settings of the merchant account to perform the conf
 
 On the [Cash Accounts](CA_20_20_00.md) \(CA202000\) form, make sure that the needed cash accounts have been created.
 
-## To Enable the Needed Feature { .section}
+## To Enable the Needed Feature
 
 To enable the *Acumatica Payments* feature, do the following:
 
@@ -24,7 +24,7 @@ To enable the *Acumatica Payments* feature, do the following:
 3.  In the **Integrated Card Processing** group of features, select the **Acumatica Payments** check box.
 4.  On the form toolbar, click **Enable** to enable the feature.
 
-## To Create a Payment Method { .section}
+## To Create a Payment Method
 
 To create a payment method for Acumatica payments, do the following:
 
@@ -39,7 +39,7 @@ To create a payment method for Acumatica payments, do the following:
 4.  For the cash account, select the **Use in AR** check box.
 5.  On the form toolbar, click **Save** to save the changes.
 
-## To Create a Processing Center { .section}
+## To Create a Processing Center
 
 To create a processing center for Acumatica payments, do the following:
 
@@ -73,7 +73,7 @@ To create a processing center for Acumatica payments, do the following:
 5.  On the form toolbar, click **Test Credentials** to make sure that the credentials are accepted by the processing center. In the **Result** dialog box, which is displayed, click **OK**.
 6.  On the form toolbar, click **Save** to save the changes.
 
-## To Link the Processing Center to a Payment Method { .section}
+## To Link the Processing Center to a Payment Method
 
 To link the new processing center to the payment method, do the following:
 
@@ -82,7 +82,7 @@ To link the new processing center to the payment method, do the following:
 3.  In the **Proc. Center ID** column, select the processing center for Acumatica payments, which you created earlier.
 4.  On the form toolbar, click **Save** to save the changes.
 
-## To Configure Support of Payment Links { .section}
+## To Configure Support of Payment Links
 
 To set up the settings for payment links, do the following:
 
@@ -106,7 +106,7 @@ To set up the settings for payment links, do the following:
 4.  On the form toolbar, click **Create/Update Webhook**. The system creates a webhook and populates the **Webhook ID** box with its ID. If the webhook has already been created, clicking this button will synchronize the webhook parameters in Acumatica ERP and the merchant account.
 5.  On the form toolbar, click **Save** to save the changes.
 
-## To Set Up a Customer Class { .section}
+## To Set Up a Customer Class
 
 You need to update the settings of each customer class to indicate whether payment links are turned on for the customers and if so, which payment link settings apply to the customers. For each customer class, do the following:
 
@@ -118,7 +118,7 @@ You need to update the settings of each customer class to indicate whether payme
 3.  Optional: Select the **Enable Delivery Method Override** check box if you want users to be able to override the delivery method for a particular document.
 4.  On the form toolbar, click **Save** to save the changes.
 
-## Optional: To Set Up Remainder Authorization After Payment Capture { .section}
+## Optional: To Set Up Remainder Authorization After Payment Capture
 
 You can set up authorization of the remainder for partially captured payments. With this configured, when a payment is partially captured for a sales invoice, the system will keep the remaining sales order amount pre-authorized. For each needed order type, do the following:
 

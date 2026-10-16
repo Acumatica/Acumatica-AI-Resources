@@ -1,4 +1,4 @@
-# Validating Records for Duplicates {#_5dee80de-522c-4c32-aa39-1368a81f51b6 .concept}
+# Validating Records for Duplicates
 
 In this chapter, you will find information about validating leads, contacts, and business accounts for duplicates.
 

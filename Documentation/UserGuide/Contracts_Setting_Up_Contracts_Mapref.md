@@ -1,4 +1,4 @@
-# Setting Up and Activating Contracts {#_cd969982-5293-44bb-bd6e-401bfbec0280 .concept}
+# Setting Up and Activating Contracts
 
 This chapter will help you learn what tasks must be performed before a contract becomes active. It describes contract setup and activation, which are the key parts of the contract lifecycle.
 

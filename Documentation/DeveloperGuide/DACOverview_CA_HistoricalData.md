@@ -1,4 +1,4 @@
-# CA DACs: Historical Data {#_b5924a85-f13a-479c-90ff-cffc93e7c0c1 .concept}
+# CA DACs: Historical Data
 
 The [CADailySummary](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CADailySummary) data access class \(DAC\) keeps historical data about daily cash account balances. The CADailySummary records are updated on every [CATran](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CATran) update that affects the date or status of a transaction.
 

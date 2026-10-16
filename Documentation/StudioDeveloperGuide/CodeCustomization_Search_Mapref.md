@@ -1,4 +1,4 @@
-# Customizing the Acumatica ERP Search {#_b9eb47de-9c7d-44dc-9904-6395f70e9fa5 .concept}
+# Customizing the Acumatica ERP Search
 
 With Acumatica ERP’s universal search capabilities, you can search for data in the fields of data access classes \(DACs\). By customizing this search, you can include DAC records in the search index.
 

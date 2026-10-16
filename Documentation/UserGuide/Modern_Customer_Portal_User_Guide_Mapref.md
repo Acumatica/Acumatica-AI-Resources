@@ -1,8 +1,8 @@
-# Modern Customer Portal: General Information {#_560ac549-bec0-4776-aec3-c3126237990e .concept}
+# Modern Customer Portal: General Information
 
 The Modern Customer Portal provides access to selected data from the portal owner’s Acumatica ERP system in a modern, intuitive interface. Through the portal, users in your company can browse products, place orders, make payments, and communicate with the portal owner, depending on their assigned roles.
 
-## Roles and User Access {#section_dr2_m52_k3c .section}
+## Roles and User Access
 
 To sign in to the portal, each user must be defined as a contact of your company and assigned at least one predefined role. A portal user’s roles determine what they can see and do in the Modern Customer Portal.
 
@@ -13,7 +13,7 @@ Roles can be set up in either of the following ways:
 -   Directly in the Modern Customer Portal by a portal manager—an employee of your company with administrative access rights.
 -   By request, through a case created in the portal. An Acumatica ERP administrator assigns the requested roles, which are applied in the portal.
 
-## Portal Capabilities {#section_wcc_12f_k3c .section}
+## Portal Capabilities
 
 Depending on their assigned roles, portal users can do the following:
 
@@ -42,7 +42,7 @@ In addition, some functionality is available only if the administrator has selec
 
 The check boxes must also be selected for the available portal forms in these categories.
 
-## Portal Workspace View { .section}
+## Portal Workspace View
 
 When portal users work in the Modern Customer Portal, they can use the workspaces to open the forms they need. By default, the Modern Customer Portal includes the following workspaces: **Catalog**, **Orders**, **Balance Overview**, **Statement History**, and **Support**.
 

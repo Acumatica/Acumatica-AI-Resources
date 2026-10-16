@@ -1,14 +1,43 @@
-# AP Bills: Implementation Checklist {#_63c30b0d-6e2a-4f28-bbed-37fef70560a7 .concept}
+# AP Bills: Implementation Checklist
 
 To ensure that the system is configured properly for processing AP bills, make sure that the criteria listed in the table have been met in the system as described.
 
-|Form|Criteria to Check|
-|----|-----------------|
-|[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)|Make sure the minimum set of features has been enabled as described in [Company Without Branches: General Information](../ImplementationGuide/config_Basic_Company_GeneralInfo.md), [Company with Branches that Do Not Require Balancing: General Information](../ImplementationGuide/config_Company_with_Branches_No_Balancing_GeneralInfo.md), and [Company with Branches that Require Balancing: General Information](../ImplementationGuide/config_Company_with_Branches_with_Balancing_GeneralInfo.md)|
-|[Vendors](AP_30_30_00.md) \(AP303000\)|Verify the existence of the vendor accounts for the vendors for which you will create AP bills. For details, see [Vendors: Implementation Activity](Vendor_Implem_Activity.md).|
-|[Non-Stock Items](IN_20_20_00.md) \(IN202000\)|Verify the existence of non-stock items that can be used when creating AP bills. For details, see [Non-Stock Item: Implementation Activity](Non_Stock_Item_Fin_Implem_Activity.md).|
+<table id="_372a749e-9a86-49e7-a8e8-c05d80d82d9e"><thead><tr><th>
 
-## Settings That Affect the Workflow {#section_dph_njv_vxb .section}
+Form
+
+</th><th>
+
+Criteria to Check
+
+</th></tr></thead><tbody><tr><td>
+
+[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)
+
+</td><td>
+
+Make sure the minimum set of features has been enabled as described in [Company Without Branches: General Information](../ImplementationGuide/config_Basic_Company_GeneralInfo.md), [Company with Branches that Do Not Require Balancing: General Information](../ImplementationGuide/config_Company_with_Branches_No_Balancing_GeneralInfo.md), and [Company with Branches that Require Balancing: General Information](../ImplementationGuide/config_Company_with_Branches_with_Balancing_GeneralInfo.md)
+
+</td></tr><tr><td>
+
+[Vendors](AP_30_30_00.md) \(AP303000\)
+
+</td><td>
+
+Verify the existence of the vendor accounts for the vendors for which you will create AP bills. For details, see [Vendors: Implementation Activity](Vendor_Implem_Activity.md).
+
+</td></tr><tr><td>
+
+[Non-Stock Items](IN_20_20_00.md) \(IN202000\)
+
+</td><td>
+
+Verify the existence of non-stock items that can be used when creating AP bills. For details, see [Non-Stock Item: Implementation Activity](Non_Stock_Item_Fin_Implem_Activity.md).
+
+</td></tr></tbody>
+</table>
+
+## Settings That Affect the Workflow
 
 You use accounts payable forms to record purchases you make on credit. The following settings and entities should be specified and defined, respectively:
 

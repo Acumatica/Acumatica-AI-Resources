@@ -1,4 +1,4 @@
-# Caption {#_39702333-3b65-4c47-ad81-acadb4602d53 .concept}
+# Caption
 
 In this chapter, you will learn about the configuration of captions. You will learn when to use captions and how to organize a layout that includes them.
 

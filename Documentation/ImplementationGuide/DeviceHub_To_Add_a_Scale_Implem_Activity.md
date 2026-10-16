@@ -1,14 +1,14 @@
-# Scales: To Add a Scale to DeviceHub {#_e0bd1b50-60b0-4f42-a8b8-5144328a8035 .task}
+# Scales: To Add a Scale to DeviceHub
 
 In the following implementation activity, you will learn how to add a scale to DeviceHub, view the result of weighing, and add this result to a shipment.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you need to configure a scale that will be used for weighing in your company.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -21,18 +21,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\) form, the *STRAWJAM32* stock item has been defined.
 -   On the [Warehouses](../UserGuide/IN_20_40_00.md) \(IN204000\) form, the *WHOLESALE* warehouse has been defined. In this warehouse, sufficient quantities of the *STRAWJAM32* item are on hand.
 
-## Process Overview { .section}
+## Process Overview
 
 On the **Scales** tab of the DeviceHub **Configuration** window, you will add a new scale. Then you will sign in to an Acumatica ERP instance and review the results of weighing on the [Scales](../UserGuide/SM_20_65_30.md) \(SM206530\) form. After that, you will configure the settings of weighing and add the results of the weighing a package to the shipment on the [Pick, Pack, and Ship](../UserGuide/SO_30_20_20.md) \(SO302020\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start adding scales to DeviceHub, you should do the following:
 
 -   On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, make sure that the *DeviceHub* feature is enabled.
 -   Make sure that you have completed the following prerequisite activity: [DeviceHub: To Set Up the Connection Between DeviceHub and the Acumatica Instance](Devicehub_To_Set_Up_the_Connection_Implem_Activity.md).
 
-## Step 1: Adding a Scale to DeviceHub { .section}
+## Step 1: Adding a Scale to DeviceHub
 
 To add a scale in the settings of the application, do the following:
 
@@ -47,7 +47,7 @@ To add a scale in the settings of the application, do the following:
     -   **Device**: One of the digital scale devices detected in the system
 5.  Click **OK** to close the **Configuration** window.
 
-## Step 2: Reviewing the Results of Weighing in Acumatica ERP { .section}
+## Step 2: Reviewing the Results of Weighing in Acumatica ERP
 
 To review the results of weighing in Acumatica ERP, do the following:
 
@@ -61,7 +61,7 @@ To review the results of weighing in Acumatica ERP, do the following:
 
 **Tip:** A scale that has been configured in DeviceHub appears in this table when Acumatica ERP receives a nonzero weight from the scale for the first time.
 
-## Step 3: Specifying User Settings for Weighing Packages { .section}
+## Step 3: Specifying User Settings for Weighing Packages
 
 Before you start using the scale for weighing and adding the results of weighing to packages in shipments, you need to specify the default scales that will be used for the user account on the [Pick, Pack, and Ship](../UserGuide/SO_30_20_20.md) \(SO302020\) form. This action should be performed for each user who is going to use the scale.
 
@@ -75,7 +75,7 @@ To perform this step, do the following:
 3.  In the **Settings** dialog box, select the **Use Digital Scale** check box.
 4.  In the **Scale** box, specify the identifier of the scale that you have configured in Step 1.
 
-## Step 4: Adding the Results of Weighing to a Shipment { .section}
+## Step 4: Adding the Results of Weighing to a Shipment
 
 To weigh a package and specify its weight in a shipment, do the following:
 

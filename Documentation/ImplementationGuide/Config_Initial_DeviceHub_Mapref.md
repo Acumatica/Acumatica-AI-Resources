@@ -1,4 +1,4 @@
-# Getting Started with DeviceHub {#_7576beac-79d7-47f0-b418-321c5b767ffb .concept}
+# Getting Started with DeviceHub
 
 In the topics of this chapter, you will learn how to install DeviceHub and perform the initial configuration, including the connection with Acumatica ERP. You will also learn about the methods of retrieving print and scan jobs, the logging of technical information, and the user interface of DeviceHub.
 

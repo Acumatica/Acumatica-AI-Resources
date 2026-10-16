@@ -1,8 +1,8 @@
-# Grouping Fields on a Form {#_1ee7cd7b-7f4c-4f06-9129-b3a72772e671 .concept}
+# Grouping Fields on a Form
 
 You can combine fields into groups, as the following example shows, to make data entry more logical and intuitive.
 
-## Example: Grouping Fields { .section}
+## Example: Grouping Fields
 
 To see an example of grouping fields into groups, copy the code below to an `.xml` file, put the file in the `\App_Data\Mobile` folder of the Acumatica ERP website, and start the mobile application.
 
@@ -46,7 +46,6 @@ While entering data, the user may collapse or expand a particular group of field
 
 You can see the result in the mobile application in the following screenshots.
 
-![](Images/new-9.png "A collapsible group on a screen")
 
 The left screenshot shows the **Details** group that is initially collapsed. If the user clicks on the header of the group, the group will expand, as shown in the right screenshot.
 

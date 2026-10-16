@@ -1,4 +1,4 @@
-# Publishing Customization Projects {#_e6a2428f-23e1-4765-8746-bcf5848eb467 .concept}
+# Publishing Customization Projects
 
 To apply a customization project to an instance of Acumatica ERP, you have to publish the customization project. You can also publish multiple customization projects at once; see [Publishing Customization Projects](CustomizationProjects_PublishingProjects_Mapref.md) for details.
 
@@ -14,7 +14,7 @@ You can cancel the publication of the project and publish the project again, whi
 
 We recommend that you lock out the system for the time you publish customization projects \(see [Upgrading of Acumatica ERP: To Schedule the System Lockout](../UserGuide/INST_Upgrading_System_Lockout.md) for details\). After the publishing is complete, unlock the system \(see [Upgrading of Acumatica ERP: To Unlock an Acumatica ERP Instance](../UserGuide/INST_Upgrading_Unlock_System.md) for details\).
 
-## Publication in Acumatica ERP and on the Self-Service Portal {#section_tlx_mdn_t5b .section}
+## Publication in Acumatica ERP and on the Self-Service Portal
 
 You can publish a customization project on the [Customization Projects](../Shared/../UserGuide/SM_20_45_05.md) \(SM204505\) form of Acumatica ERP and the Self-Service Portal. Although Acumatica ERP and the Self-Service Portal share a database, customization projects published on the Self-Service Portal are independent from the Acumatica ERP instance due to a special column in the database tables that store customization items. This column identifies whether each customization item belongs to Acumatica ERP or to the Self-Service Portal.
 

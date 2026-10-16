@@ -1,20 +1,20 @@
-# Tax Calculation Methods: To Apply a Second-Level Tax {#_b5df06c9-250d-4892-8496-cd266f56bb91 .task}
+# Tax Calculation Methods: To Apply a Second-Level Tax
 
 The following activity will walk you through the process of configuring a second-level tax and applying it to a document.
 
-## Story {#section_klh_fjv_vxb .section}
+## Story
 
 Suppose that you want to configure a second-level tax with the *Compound Line-Level* calculation method in the system and review how it is applied to documents. You are going to use the Candyy Cafe customer for the activities in this lesson.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the *CANDYY* customer account has been configured on the [Customers](AR_30_30_00.md) \(AR303000\) form.
 
-## Process Overview {#section_nlh_fjv_vxb .section}
+## Process Overview
 
 In this activity, you will create a new tax category on the [Tax Categories](TX_20_55_00.md) \(TX205500\) form. You will then create a second-level tax on the [Taxes](TX_20_50_00.md) \(TX205000\) form, and assign it and the *EXLINELEVEL* tax to the created tax category. On the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will create an invoice with two lines, select the created tax category in the invoice lines, and analyze how the taxes assigned to the tax category are applied to the invoice.
 
-## System Preparation {#section_plh_fjv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -23,7 +23,7 @@ Before you begin performing the steps of this activity, do the following:
 3.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu button to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 4.  As a prerequisite activity, configure the tax zone, tax category, and taxes as described in [Tax Calculation Methods: To Create Taxes](Taxes_Selecting_Tax_Calc_Methods_Activity1.md).
 
-## Step 1: Creating a Tax Category {#section_rlh_fjv_vxb .section}
+## Step 1: Creating a Tax Category
 
 To create a tax category for a second-level tax, proceed as follows:
 
@@ -36,7 +36,7 @@ To create a tax category for a second-level tax, proceed as follows:
     -   **Description**: `Second-level tax`
 3.  On the form toolbar, click **Save** to save the tax category.
 
-## Step 2: Creating a Second-Level Tax and Assigning it to the Tax Zone {#section_tlh_fjv_vxb .section}
+## Step 2: Creating a Second-Level Tax and Assigning it to the Tax Zone
 
 To create a second-level tax and assign it to the tax zone, proceed as follows:
 
@@ -59,7 +59,7 @@ To create a second-level tax and assign it to the tax zone, proceed as follows:
 9.  Remove the *EXDOCLEVEL* and *INCLINELEVEL* taxes from the table.
 10. On the form toolbar, click **Save** to save the tax zone.
 
-## Step 3: Adding Taxes to the Tax Category {#section_vlh_fjv_vxb .section}
+## Step 3: Adding Taxes to the Tax Category
 
 To add taxes to the created tax category, proceed as follows:
 
@@ -70,7 +70,7 @@ To add taxes to the created tax category, proceed as follows:
     -   **Tax ID**: *LINELEVEL2*
 4.  On the form toolbar, click **Save** to save the changes to the tax category.
 
-## Step 4: Creating an Invoice and Analyzing How the Second-Level Tax is Applied {#section_xlh_fjv_vxb .section}
+## Step 4: Creating an Invoice and Analyzing How the Second-Level Tax is Applied
 
 To create an invoice and analyze how the second-level tax is applied to it, proceed as follows:
 

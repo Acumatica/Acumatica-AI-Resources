@@ -1,8 +1,8 @@
-# Sign Out from the Service {#_f6701ec1-2296-4155-8242-03d29006bf6e .concept}
+# Sign Out from the Service
 
 Each time your application finishes working with the Acumatica ERP contract-based REST service, you have to sign out from Acumatica ERP. To sign out from Acumatica ERP, you access the needed URL address with the `POST` HTTP method. See the following sections for details on the request and the response.
 
-## HTTP Method and URL { .section}
+## HTTP Method and URL
 
 When you need to sign out from Acumatica ERP, you use the `POST` HTTP method and the following URL.
 
@@ -14,40 +14,94 @@ You replace *&lt;Acumatica ERP instance URL&gt;* with the URL of your Acumatica 
 
 For example, suppose that you want to sign out from a local Acumatica ERP instance with the name *AcumaticaDB*. You should use the following URL: *http://localhost/AcumaticaDB/entity/auth/logout*.
 
-## Parameters { .section}
+## Parameters
 
 You do not need to use parameters when you sign out from Acumatica ERP.
 
-## Request Headers { .section}
+## Request Headers
 
-|Header|Description|
-|------|-----------|
-|Cookie|Specifies the cookies that you have received during the sing-in to Acumatica ERP with the login method. For details on this method, see [Sign In to the Service](../Shared/../IntegrationDevelopmentGuide/IntegrationDev_RESTExample_Basic_Login.md).
+<table id="_40bf8194-174d-41e1-9ba1-dce56cf597b4"><thead><tr><th>
 
- You must use the Cookie header in any of the following cases:
+Header
 
- -   You have used the login method to sign in to Acumatica ERP.
--   You are using the OAuth 2.0 or OpenID Connect \(OIDC\) authorization with the api:concurrent\_access scope and need to manage session IDs through cookies.
+</th><th>
 
-|
-|Authorization|Contains the access token that the application has received during the authorization with OAuth 2.0 or OIDC.
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Cookie
+
+</td><td>
+
+Specifies the cookies that you’ve received during the sign-in to Acumatica ERP with the login method. For details on this method, see [Sign In to the Service](../Shared/../IntegrationDevelopmentGuide/IntegrationDev_RESTExample_Basic_Login.md).
+
+ You must use the Cookie header if:
+
+ -   You’ve used the login method to sign in to Acumatica ERP.
+-   You’re using the OAuth 2.0 or OpenID Connect \(OIDC\) authorization with the api:concurrent\_access scope and need to manage session IDs through cookies.
+
+</td></tr><tr><td>
+
+Authorization
+
+</td><td>
+
+Contains the access token that the application has received during the authorization with OAuth 2.0 or OIDC.
 
  You must pass the Authorization header only if you are using the OAuth 2.0 or OIDC authorization.
 
-|
+</td></tr></tbody>
+</table>
 
-## Response Status Codes { .section}
+## Response Status Codes
 
 The following table lists the HTTP status codes that the system returns for a sign-out request.
 
-|Code|Description|
-|----|-----------|
-|*204*|The request has been completed successfully.|
-|*400*|The data specified in the request is invalid.|
-|*429*|The number of requests has exceeded the limit imposed by the license \(see [License Restrictions for API Users](../Shared/../IntegrationDevelopmentGuide/IS__con_License_Restrictions_API_Users.md)\).|
-|*500*|An internal server error has occurred.|
+<table id="_970da984-282e-41b1-b56c-841acaa6b024"><thead><tr><th>
 
-## Example { .section}
+Code
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+*204*
+
+</td><td>
+
+The request has been completed successfully.
+
+</td></tr><tr><td>
+
+*400*
+
+</td><td>
+
+The data specified in the request is invalid.
+
+</td></tr><tr><td>
+
+*429*
+
+</td><td>
+
+The number of requests has exceeded the limit imposed by the license \(see [License Restrictions for API Sessions and Requests](../Shared/../IntegrationDevelopmentGuide/IS__con_License_Restrictions_API_Users.md)\).
+
+</td></tr><tr><td>
+
+*500*
+
+</td><td>
+
+An internal server error has occurred.
+
+</td></tr></tbody>
+</table>
+
+## Example
 
 The following request shows an example of a sign-out from Acumatica ERP through the REST API.
 
@@ -58,7 +112,7 @@ POST /entity/auth/logout HTTP/1.1
 Host: [<Acumatica ERP host>]
 ```
 
-## Usage Notes { .section}
+## Usage Notes
 
 For each attempt to sign in to Acumatica ERP, you must implement the signing out from the service after you finish your work with Acumatica ERP to close the session. If the session is not closed, you may have issues with subsequent sign-ins to Acumatica ERP through the REST API.
 

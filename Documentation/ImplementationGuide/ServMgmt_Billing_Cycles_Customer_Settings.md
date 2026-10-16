@@ -1,10 +1,10 @@
-# Billing Cycles: Assignment of Multiple Billing Cycles {#_34cb68d6-7384-4521-8005-c59e16f34565 .concept}
+# Billing Cycles: Assignment of Multiple Billing Cycles
 
 In Acumatica ERP, you can specify either one billing cycle or multiple billing cycles for a customer. You specify one billing cycle for a customer if you want to generate billing documents in the same way and with the same details for all types of service orders. You specify multiple billing cycles for a customer account if you want to apply different invoicing or grouping settings depending on the type of the service order.
 
 In this topic, you will read how to set up multiple billing cycles for a customer account.
 
-## Setting Up the Ability to Use Multiple Billing Cycles { .section}
+## Setting Up the Ability to Use Multiple Billing Cycles
 
 To set up multiple billing cycles for particular customers during the configuration of the field service functionality, you perform the following general steps:
 
@@ -19,7 +19,7 @@ To set up multiple billing cycles for particular customers during the configurat
     When you create a new customer in the system, you can select the customer class, so that the new customer will be assigned with the settings of the customer class including the billing cycles specified for the customer class.
 
 
-## Specifying Multiple Billing Cycles for a Customer { .section}
+## Specifying Multiple Billing Cycles for a Customer
 
 If you have used one billing cycle for each of your customers, you might later decide to turn on the ability to use different billing cycles for different service order types for select customers. To do so, you first select the **Manage Multiple Billing Options per Customer** check box on the [Service Management Preferences](../UserGuide/FS_10_01_00.md) \(FS100100\) form.
 

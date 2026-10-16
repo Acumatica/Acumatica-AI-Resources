@@ -1,8 +1,8 @@
-# Scrap Cost Calculation: To Process a Production Order That Includes Written-Off Scrap {#_0681c80e-a777-422c-a5f5-a175be1ecf52 .task}
+# Scrap Cost Calculation: To Process a Production Order That Includes Written-Off Scrap
 
 The following activity will walk you through the process of recording item production that includes scrapped items; the cost of scrapped items must be written off to a specific GL account.
 
-## Story { .section}
+## Story
 
 Suppose that the GoodFood One Restaurant has ordered three juicers from the SweetLife Fruits &amp; Jams company. Initially, the production process includes the assembly and packing of the juicers but the customer does not need the juicers to be packed. Further suppose that components for the juicers are available in SweetLife Fruits &amp; Jams's warehouse.
 
@@ -14,14 +14,14 @@ Acting as a production manager, you will create a production order for producing
 
 Also, acting as a production accountant, you will review the cost of the scrapped juicer.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Warehouses](IN_20_40_00.md) \(IN204000\) form, the *WORKHOUSE* warehouse has been defined, and its locations include *MGI* and *MTL*.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *CFJFRUITBF*, *PULPCONT1L*, *JUICECUP05L*, *MRBASE*, *FNSIEVE*, and *GRDISC01* stock items have been defined.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, to process the documents and transactions related to the production of the juicers, you will do the following:
 
@@ -31,7 +31,7 @@ In this activity, to process the documents and transactions related to the produ
 4.  On the [Production Order Maintenance](AM_20_15_00.md) form, review the production order balance after you have completed the order and on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form, review the GL transaction related to scrap costs.
 5.  On the [Close Production Orders](AM_50_60_00.md) \(AM506000\) form, close the production order.
 
-## System Preparation { .section}
+## System Preparation
 
 Do the following:
 
@@ -39,7 +39,7 @@ Do the following:
 2.  Launch the Acumatica ERP website, and sign in to the company in which the prerequisite activities have been performed. You should sign in as the production manager by using the *peters* username and the *123* password.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to today’s date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating the Production Order { .section}
+## Step 1: Creating the Production Order
 
 To create the production order for three juicers, do the following:
 
@@ -67,7 +67,7 @@ To create the production order for three juicers, do the following:
     **Tip:** You open the More menu by clicking the More button \(…\) on the form toolbar.
 
 
-## Step 2: Issuing Materials for the Assembly Operation { .section}
+## Step 2: Issuing Materials for the Assembly Operation
 
 Suppose that you have been informed that the shop-floor worker had to assemble one extra juicer because one of the assembled juicers did not work. Therefore the worker used more materials than it was planned. In this step, you will issue the needed material quantity for the assembly operation of the production order. Do the following:
 
@@ -79,7 +79,7 @@ Suppose that you have been informed that the shop-floor worker had to assemble o
     2.  Clear the **Hold** check box. The system changes the transaction's status to *Balanced*.
 5.  On the form toolbar, click **Release**. The system releases the material transaction and changes the status of the transaction to *Released*.
 
-## Step 3: Recording the Labor, Produced Items, and Scrapped Items for the Assembly Operation { .section}
+## Step 3: Recording the Labor, Produced Items, and Scrapped Items for the Assembly Operation
 
 Suppose that Carlos Cruz, a worker in the work center, spent 30 minutes setting up the working environment for juicer assembly and assembled three juicers for one hour; one of the juicers does not work and must be recorded as scrap. To fulfill the production order, Carlos assembled one more juicer for 20 minutes. To record the time spent on juicer assembly, the assembled quantity of juicers, and the scrapped juicer, do the following:
 
@@ -101,7 +101,7 @@ Suppose that Carlos Cruz, a worker in the work center, spent 30 minutes setting 
     3.  Clear the **Hold** check box. The system changes the transaction's status to *Balanced*.
 7.  On the form toolbar, click **Release**. The system creates and releases the cost transaction to record the labor costs, creates and released the WIP adjustment transaction to move scrap costs to the scrap GL account, and releases the labor transaction.
 
-## Step 4: Reviewing the Production Order Balance and the GL Transaction for Scrap Cost { .section}
+## Step 4: Reviewing the Production Order Balance and the GL Transaction for Scrap Cost
 
 In this step, acting as a production accountant, you will review the balance of the completed production order. You will also review the GL transaction that the system created and released when the WIP adjustment transaction has been released. Do the following:
 
@@ -132,7 +132,6 @@ In this step, acting as a production accountant, you will review the balance of 
         -   **WIP Balance**: *0.00*
         The variance is caused by the costs of the scrapped juicer.
 
-    ![](Images/activity_MFG_Scrap_Costs_Final_Balance_2.png "Production order balance after the completion of the order")
 
 3.  On the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form, open the GL transaction with the following settings:
     -   **Module**: *GL*
@@ -143,10 +142,9 @@ In this step, acting as a production accountant, you will review the balance of 
 
     The system created and released this transaction when the WIP adjustment transaction for the scrap cost has been released on the [WIP Adjustment](AM_30_80_00.md) \(AM308000\) for the production order.
 
-    ![](Images/activity_MFG_Scrap_Costs_GL_Transaction_2.png "GL transaction for writing off the scrap cost")
 
 
-## Step 5: Closing the Production Order { .section}
+## Step 5: Closing the Production Order
 
 Now you will close the production order. Do the following:
 

@@ -1,14 +1,14 @@
-# Integration with Web Map Services: Implementation Activity {#_6e288e35-6afe-4659-8530-dc20a339175a .task}
+# Integration with Web Map Services: Implementation Activity
 
 The following activity will help you set up integration with the Google Maps web map service.
 
 **Tip:** You can perform similar steps to set up integration with Azure Maps instead.
 
-## Story { .section}
+## Story
 
 You, as administrator, need to set up integration with the Google Maps web map service to give users the ability to add new addresses, update existing addresses, and fill in the missing address information of a company or a person.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -17,7 +17,7 @@ In this activity, you will do the following:
 3.  Select this address provider on the [Site Preferences](SM_20_05_05.md) \(SM200505\) form.
 4.  Optional: Select this address provider on the *Portal Preferences \(SP800000\)* form of the Acumatica Self-Service Portal.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start setting up integration with an address provider, you need to do the following:
 
@@ -32,7 +32,7 @@ Before you start setting up integration with an address provider, you need to do
     -   *Customer Management*: Provides the customer relationship management \(CRM\) functionality, including lead and customer tracking, as well as the handling of sales opportunities, contacts, marketing lists, and marketing campaigns.
     -   *Address Lookup Integration*: Provides the address enrichment functionality, which gives users the ability to add new addresses, update existing addresses, and fill in the missing address information on all the forms that have address information.
 
-## Step 1: Creating an Address Provider Based On the Google Maps Plug-In { .section}
+## Step 1: Creating an Address Provider Based On the Google Maps Plug-In
 
 To create an address provider based on the Google Maps plug-in, do the following:
 
@@ -56,7 +56,7 @@ To create an address provider based on the Google Maps plug-in, do the following
 
 You have created an address provider based on the Google Maps plug-in.
 
-## Step 2: Selecting Google Maps as the Address Provider to Be Used { .section}
+## Step 2: Selecting Google Maps as the Address Provider to Be Used
 
 To select the Google Maps web map service you have created as the address provider to be used in the system, you need to select the address provider in the preference settings of the Acumatica ERP website. Do the following:
 
@@ -70,7 +70,7 @@ To select the Google Maps web map service you have created as the address provid
 
 You have selected the Google Maps web map service as the address provider to be used by the system. Now the address enrichment functionality is available to the users.
 
-## Step 3: Selecting Google Maps as the Address Provider in the Acumatica Self-Service Portal { .section}
+## Step 3: Selecting Google Maps as the Address Provider in the Acumatica Self-Service Portal
 
 To select the Google Maps web map service as the address provider to be used in the Acumatica Self-Service Portal, do the following:
 

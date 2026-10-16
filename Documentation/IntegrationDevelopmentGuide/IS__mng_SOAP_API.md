@@ -1,4 +1,4 @@
-# Working with the SOAP API {#_e322162d-35d1-4400-b50d-700d59316289 .concept}
+# Working with the SOAP API
 
 In this chapter, you will find information about Acumatica ERP screen-based SOAP API.
 

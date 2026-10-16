@@ -1,8 +1,8 @@
-# Validation of Customization Projects: Compatibility Validation Errors {#_4eb6d966-ce64-4131-85a2-bfcdb8266b0c .concept}
+# Validation of Customization Projects: Compatibility Validation Errors
 
 This topic explains the error messages that may occur during the validation of the customization code’s compatibility with the code of Acumatica ERP.
 
-## Failed to resolve method reference { .section}
+## Failed to resolve method reference
 
 This error occurs if a custom DLL has a reference to a method that either no longer exists in Acumatica ERP or has a different signature.
 
@@ -20,7 +20,7 @@ Because the customization code was written for a previous version of Acumatica E
 
 **To fix the error:** In the code of the specified extension library, refer to an appropriate method declared in the current assembly.
 
-## Failed to resolve type reference { .section}
+## Failed to resolve type reference
 
 This error occurs if a custom DLL refers to a type whose declaration no longer exists in Acumatica ERP.
 
@@ -36,7 +36,7 @@ PX.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3b136cac2f602b8e
 
 **To fix the error:** In the extension library, refer to an appropriate type declared in the current assembly.
 
-## Could not resolve { .section}
+## Could not resolve
 
 This error occurs if the validation process finds a reference to a custom DLL that it can’t locate.
 
@@ -50,7 +50,7 @@ ADODB, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 
 **To fix the error:** In the extension library, refer to a DLL file located in the `Bin` folder of the website.
 
-## Declaring Type missing { .section}
+## Declaring Type missing
 
 This error occurs if the customization code in the `App_RuntimeCode` folder contains a reference to a type whose declaration doesn’t exist in Acumatica ERP.
 
@@ -65,7 +65,7 @@ PX.Objects.EP.CRBaseActivityMaint`1<PX.Objects.CR.CRTaskMaint>
 
 **To fix the error:** In the corresponding *Code* or *DAC* item of the customization project, refer to an appropriate type.
 
-## Referenced Field missing { .section}
+## Referenced Field missing
 
 This error occurs if the customization code in the `App_RuntimeCode` folder contains a field that’s undeclared in the data access class \(DAC\).
 

@@ -1,16 +1,15 @@
-# Fieldset: Layout Examples {#_ea732ea9-69ea-4e08-9a2e-a000514fe612 .concept}
+# Fieldset: Layout Examples
 
 In this topic, you will find cases of complicated layouts inside a fieldset and instructions on how to implement them.
 
-## Check Boxes Next to Particular Controls { .section}
+## Check Boxes Next to Particular Controls
 
 If you need to put check boxes next to particular controls and define them to occupy half of the control space, as shown in the following screenshot, add the qp-field tag inside the `field` tag, and specify `class="col-6"` for the nested control.
 
-![](Images/UIDevRef_Fieldset_Example_1.png "Check boxes next to particular controls")
 
 The following code implements this approach.
 
-```language-xml
+```xml
 <qp-fieldset id="groupFields" view.bind="View1">
   <field name="Field1">
     <qp-field control-state.bind="View1.Override1" class="col-6" >
@@ -29,15 +28,14 @@ The following code implements this approach.
 </qp-fieldset>
 ```
 
-## Check Boxes Next to All Controls { .section}
+## Check Boxes Next to All Controls
 
 If you need to put check boxes next to all controls \(as the following screenshot shows\), add the `qp-field` tag inside the `field` tag. There is no need to specify the class.
 
-![](Images/UIDevRef_Fieldset_Example_2.png "Check boxes next to all controls")
 
 The following code illustrates this approach.
 
-```language-xml
+```xml
 <qp-fieldset id="groupFields" view.bind="View1">
   <field name="Field1">
     <qp-field control-state.bind="View1.Override1"></qp-field>
@@ -51,15 +49,14 @@ The following code illustrates this approach.
 </qp-fieldset>
 ```
 
-## Complicated Layout with Multiple Controls in a Row { .section}
+## Complicated Layout with Multiple Controls in a Row
 
 Suppose that you need to organize a complicated layout with multiple controls in a row, as shown in the following screenshot.
 
-![](Images/UIDevRef_Fieldset_Example_3.png "Complicated layout")
 
 The following code implements the layout above.
 
-```language-xml
+```xml
 <qp-fieldset id="groupAgingSettings-ARStatementCycleRecord"
   view.bind="ARStatementCycleRecord" Caption="Aging Settings">
     <field name="UseFinPeriodForAging">
@@ -131,15 +128,14 @@ The following code implements the layout above.
 </qp-fieldset>
 ```
 
-## Multiple Columns in a Fieldset { .section}
+## Multiple Columns in a Fieldset
 
 Suppose that you need to implement the layout that is shown in the following screenshot.
 
-![](Images/UIDevRef_Fieldset_Example_4.png "Multiple columns in a fieldset")
 
 The following code implements the layout above.
 
-```language-xml
+```xml
 <qp-fieldset id="RouteSelected_10"
   view.bind="RouteSelected">
     <field name="fake01" unbound replace-content>

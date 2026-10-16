@@ -1,4 +1,4 @@
-# Button: Grid Dependent Buttons {#_2705e65f-403d-4c8a-b404-b2f7e63e764c .concept}
+# Button: Grid Dependent Buttons
 
 A grid dependent button is a button which state depends on the row selected in the table, data feed, or a tree \(meaning, any control bound to PXViewCollection\). The state of the action means all properties of the action, such as visibility and display name.
 
@@ -18,7 +18,7 @@ To define a grid dependent button, do the following in TypeScript:
 
 The following code shows how to change the state of an action depending on the value of a field of the current record of the same view. In this example, the `ItemAvailability` action is enabled or disabled depending on the value of the `IsStockItem` field.
 
-``` {#codeblock_w4d_555_djc}
+```
 export class SOLine extends PXView {
 
   IsStockItem: PXFieldState<PXFieldOptions.Hidden>;

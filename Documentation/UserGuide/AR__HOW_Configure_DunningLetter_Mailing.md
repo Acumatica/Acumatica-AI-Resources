@@ -1,14 +1,14 @@
-# To Set Up a Dunning Letter Mailing {#_fa034fe5-7633-4012-801f-974405be58d7 .task}
+# To Set Up a Dunning Letter Mailing
 
 You use the default mailing with the *DUNNINGLETTER* identifier to send dunning letters via email. To configure a mailing for a group of customers, you can create a customer class or use an existing class. In this case, the mailing configuration is copied to each customer account of this customer class.
 
-## Before You Proceed {#section_ezd_hjv_vxb .section}
+## Before You Proceed
 
 You should set up dunning process on the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form. For details, see [Dunning Process Setup: Implementation Activity](CreditPolicy_Dunning_Process_Setup_Implem_Activity.md).
 
 Make sure that the text of the email template *DunningLetterNotification* \(used for the *DUNNINGLETTER* mailing\) complies with your corporate policies. To do this, open the template by using the [Email Templates](SM_20_40_03.md) \(SM204003\) form, and edit the template, if required. The look and feel of the attachment is defined with the [Dunning Letter](AR_66_10_00.md) \(AR661000\) report.
 
-## To Configure a Dunning Letter Mailing for Customers of an Existing Customer Class {#section_hzd_hjv_vxb .section}
+## To Configure a Dunning Letter Mailing for Customers of an Existing Customer Class
 
 1.  Open the [Customer Classes](AR_20_10_00.md) \(AR201000\) form.
 2.  In the **Class ID** box, select the customer class you want to configure the mailing for.

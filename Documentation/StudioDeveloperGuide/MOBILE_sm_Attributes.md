@@ -1,4 +1,4 @@
-# &lt;sm:Attributes&gt; {#_e1ea3a0e-8123-4fbe-bcfe-64a8ab00c2bb .concept}
+# &lt;sm:Attributes&gt;
 
 The sm:Attributes tag has the following attributes.
 

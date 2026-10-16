@@ -1,4 +1,4 @@
-# MSDL {#_0d4f5b50-7959-4532-8b0e-6352d2a8ee84 .concept}
+# MSDL
 
 Mobile Site Map Definition Language \(MSDL\) can be used for the following purposes:
 

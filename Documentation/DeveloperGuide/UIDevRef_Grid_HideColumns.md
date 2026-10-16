@@ -1,4 +1,4 @@
-# Table \(Grid\): Changing of Column Properties Dynamically {#_ab7ed7de-3a99-4ffb-b2fe-8ade93ac09a0 .concept}
+# Table \(Grid\): Changing of Column Properties Dynamically
 
 You can change column properties dynamically in a table by using an event handler.
 
@@ -15,7 +15,7 @@ To implement the dynamic change of these properties when the table is loaded, yo
 
     The following code shows an example of changing the allowShowHide and visible properties. The event handler is defined in the screen class and accepts the condition for showing the column as a parameter.
 
-    ```language-javascript
+    ```javascript
     @graphInfo({ 
       graphType: "PX.Objects.AM.MRPDisplay", 
       primaryView: "Detailrecs" 
@@ -41,12 +41,12 @@ To implement the dynamic change of these properties when the table is loaded, yo
 
     The following examples show the specification of the event handler with different parameter values.
 
-    ```language-xml
+    ```xml
     <qp-grid id="gridPurchaseDisplay" view.bind="ProcessRecords" 
       on-filter-columns.call="detailrecsOnFilterColumns(col, false)"></qp-grid>
     ```
 
-    ```language-xml
+    ```xml
     <qp-grid id="gridManufactureDisplay" view.bind="ProcessRecords" 
       on-filter-columns.call="detailrecsOnFilterColumns(col, true)"></qp-grid>
     ```

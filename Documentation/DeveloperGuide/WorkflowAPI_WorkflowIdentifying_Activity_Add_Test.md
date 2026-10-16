@@ -1,4 +1,4 @@
-# Step 4: Testing the Workflow {#_237aec17-9609-4baa-9fa4-aee5169d056d .task}
+# Step 4: Testing the Workflow
 
 To test the implemented workflow, do the following:
 

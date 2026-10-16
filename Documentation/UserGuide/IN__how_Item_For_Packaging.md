@@ -1,13 +1,13 @@
-# To Configure a Stock Item for Automatic Packaging {#_8345f485-2d64-44ee-b87a-2bb035ac1335 .task}
+# To Configure a Stock Item for Automatic Packaging
 
 To enable the system to determine optimal packages for any sales order or shipment, you must specify packaging settings for each stock item on the [Stock Items](IN_20_25_00.md) \(IN202500\) form. If the *Automatic Packaging* feature is not enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can use these settings for the calculation of weight and volume of each sales order and shipment, and users will be able to select the boxes for each order manually.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 1.  On the [Companies](CS_10_15_00.md) \(CS101500\) form, make sure that the base weight UOM is selected in the **Weight UOM** box and that the base volume UOM is selected in the **Volume UOM** box.
 2.  On the [Units of Measure](CS_20_35_00.md) \(CS203500\) form, make sure that the UOM to measure the weight of the item's base unit is defined and that a conversion factor to convert this UOM to the base weight UOM is specified. Also, make sure that the UOM to measure the volume of the item's base unit is defined and that the conversion factor to convert this UOM to the base volume UOM is specified.
 
-## To Configure a Stock Item for Automatic Packaging { .section}
+## To Configure a Stock Item for Automatic Packaging
 
 1.  Open the [Stock Items](IN_20_25_00.md) \(IN202500\) form.
 2.  In the **Inventory ID** box, select a stock item.

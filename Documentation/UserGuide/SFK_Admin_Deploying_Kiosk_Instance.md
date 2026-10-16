@@ -1,4 +1,4 @@
-# Shop Floor Kiosk Administration: Deploying a Kiosk Instance {#_53a7ed2a-390d-41a6-8a06-8b49349d2d98 .concept}
+# Shop Floor Kiosk Administration: Deploying a Kiosk Instance
 
 **At a glance**: Kiosk deployment
 
@@ -6,7 +6,7 @@
 2.  Edit the `web.config` file of the ERP installation.
 3.  Edit the `web.config` file of the kiosk installation.
 
-## Creating a Kiosk Portal Instance { .section}
+## Creating a Kiosk Portal Instance
 
 The Shop Floor Kiosk runs as a Modern Portal instance that is separate from your main Acumatica ERP site but shares the same database. You create it by using the Acumatica ERP Configuration wizard.
 
@@ -18,7 +18,7 @@ To deploy the kiosk instance, do the following:
 4.  On the **Instance Configuration** page, enter a name for the kiosk instance. Under the instance type options, select **Create Modern Portal**.
 5.  Complete the remaining steps of the wizard and click **Finish**.
 
-## Editing the Web.config Files { .section}
+## Editing the Web.config Files
 
 After the kiosk instance is deployed, you must add a parameter to the `web.config` files of both the ERP installation and the kiosk installation. This setting enables both applications to work with the same database.
 

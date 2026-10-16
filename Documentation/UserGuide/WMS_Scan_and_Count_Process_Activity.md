@@ -1,14 +1,14 @@
-# Counting in Physical Inventory: Process Activity {#_75c786eb-ed32-4b38-94ab-50487341a7e4 .task}
+# Counting in Physical Inventory: Process Activity
 
 In this activity, you will learn how to perform automated counting during physical inventory on the [Scan and Count](IN_30_50_20.md) \(IN305020\) form.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you, as a warehouse worker of the SweetLife Fruits &amp; Jams company, are assigned to perform a physical inventory count by entering barcodes of the stock items and locations. You will count the quantities of orange jam in particular warehouse locations added to the physical inventory document, which your manager has provided to you.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -25,7 +25,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Physical Inventory Types](IN_20_89_00.md) \(IN208900\) form, the *ORJCNT* physical inventory type has been created.
 -   On the [Prepare Physical Count](IN_50_40_00.md) \(IN504000\) form, the *000001* physical inventory document has been created, and it has the *Counting in Progress* status.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, as you count stock items during a physical inventory count, you will do the following using the [Scan and Count](IN_30_50_20.md) \(IN305020\) form:
 
@@ -36,14 +36,14 @@ In this activity, as you count stock items during a physical inventory count, yo
 
 **Tip:** In any working mode, you enter a command or barcode by typing it in the **Scan** box and pressing Enter. In production systems, you will scan the appropriate barcodes rather than manually entering them.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start counting stock items, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as a warehouse worker with the *perkins* username and the *123* password.
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Entering the Counted Quantities of Items { .section}
+## Step 1: Entering the Counted Quantities of Items
 
 Suppose that you are starting to count orange jam in the locations listed in the physical inventory document. To enter the counted quantities in the system, do the following:
 
@@ -81,7 +81,7 @@ Suppose that you are starting to count orange jam in the locations listed in the
     You have finished counting items in the *L1R3S3* location, which was the last location in your physical inventory document.
 
 
-## Step 2: Correcting Quantities in the Physical Inventory Document { .section}
+## Step 2: Correcting Quantities in the Physical Inventory Document
 
 Suppose that you have entered an extra box of *ORJAM32* item in the *L1R3S2* location by mistake \(suppose, for instance, that you had intended to set the quantity of the boxes to 2 instead of 3\), and now you need to correct the quantity in the document. Do the following:
 
@@ -91,7 +91,7 @@ Suppose that you have entered an extra box of *ORJAM32* item in the *L1R3S2* loc
 
 You have corrected the quantity of the *ORJAM32* item in the *L1R3S2* location.
 
-## Step 3: Adding Extra Lines to the Physical Inventory Document { .section}
+## Step 3: Adding Extra Lines to the Physical Inventory Document
 
 Suppose that in the *L1R3S3* location, you have found one jar of the *ORJAM08* item, which is not in the physical inventory document. To add this item to the document, do the following:
 
@@ -101,7 +101,7 @@ Suppose that in the *L1R3S3* location, you have found one jar of the *ORJAM08* i
 
 You have added the extra item to the physical inventory document. Now you will review the counted quantities and confirm the entered data.
 
-## Step 4: Reviewing the Quantities and Confirming the Entered Data { .section}
+## Step 4: Reviewing the Quantities and Confirming the Entered Data
 
 To review the quantities and confirm the entered data, do the following:
 
@@ -117,7 +117,6 @@ To review the quantities and confirm the entered data, do the following:
 2.  On the form toolbar, click **Confirm** to confirm the entered data. The system confirms the data and clears the physical inventory document number. The form is ready for a new count.
 3.  On the [Physical Inventory Count](IN_30_50_10.md) \(IN305010\) form, select *000001* in the **Reference Nbr.** box to open the physical inventory document for which you have performed count. In the **Physical Quantity** column, make sure all counted quantities are shown \(see the following screenshot\).
 
-    ![](Images/activity_WMS_Scan_and_Count.png "Counted items in the physical inventory document")
 
 
 You have successfully counted orange jam in the warehouse locations and entered data in the system.

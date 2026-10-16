@@ -1,10 +1,9 @@
-# Label: A Combo Box Control as a Label {#_0372de0c-e791-4183-85fc-8f9264ec7528 .concept}
+# Label: A Combo Box Control as a Label
 
 You can define a control, such as a combo box to occupy the space of a label.
 
 Suppose that you need to display a combo box in place of a label for another control, as shown in the following screenshot.
 
-![](Images/UIDevRef_Label_ComboBox.png "A combo box in place of a label")
 
 In the HTML template, you need to add a field for that label by using the `qp-field` tag and specify the following attributes for the field:
 

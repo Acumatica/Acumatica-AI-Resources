@@ -1,4 +1,4 @@
-# Regenerating Customer Statements {#_271e8998-1edd-42ce-b145-71ba5a06b5e6 .concept}
+# Regenerating Customer Statements
 
 In this chapter, you will find general information on how to regenerate statements, a checklist for system implementation, an activity that describes how to regenerate and print statements, and report and inquiries that can be useful to find and view created statements.
 

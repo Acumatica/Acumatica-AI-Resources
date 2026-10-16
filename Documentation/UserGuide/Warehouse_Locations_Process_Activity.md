@@ -1,14 +1,14 @@
-# Warehouse Locations and Single-Step Transfers: Process Activity {#_7abcb243-08fd-41ff-b17a-92afd9b20bbc .task}
+# Warehouse Locations and Single-Step Transfers: Process Activity
 
 In the following activity, you will learn how to move stock items between warehouse locations within the same warehouse by using a single-step transfer.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company has decided to move cinnamon and ginger from the default location of the retail warehouse \(to which the items have been received\) to the location of this warehouse that is dedicated to spices. You need to reflect these changes in inventory. Acting as a warehouse manager, you will create a single-step inventory transfer.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -19,7 +19,7 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Warehouses](IN_20_40_00.md) \(IN204000\) form, the *RETAIL* warehouse and the *MAIN* location in this warehouse have been created.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *CINNAMON* and *GINGER* stock items have been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -27,14 +27,14 @@ In this activity, you will do the following:
 2.  On the [Transfers](IN_30_40_00.md) \(IN304000\) form, create a single-step transfer.
 3.  On the [Inventory Summary](IN_40_10_00.md) form, make sure that the items are available in the destination locations.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start processing transfers between warehouse locations, you should do the following:
 
 1.  Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as warehouse manager Edith Carver by using the *carver* username and the *123* password.
 2.  On the [Warehouses](IN_20_40_00.md) \(IN204000\) form, make sure that the *SPICES* and *WRITEOFF* warehouse locations have been created in the *RETAIL* warehouse, as described in [Warehouse Locations and Single-Step Transfers: Implementation Activity](Warehouse_Locations_Implem_Activity.md).
 
-## Step 1: Viewing Item Availability { .section}
+## Step 1: Viewing Item Availability
 
 To check the availability of cinnamon and ginger in the default \(*MAIN*\) location, do the following:
 
@@ -45,7 +45,7 @@ To check the availability of cinnamon and ginger in the default \(*MAIN*\) locat
 5.  In the **Inventory ID** box, select *GINGER*.
 6.  In the **On Hand** table column, make sure that the on-hand quantity in the *MAIN* location is positive. Notice that the *SPICES* location is not displayed in the table, which means that it does not contain any ginger.
 
-## Step 2: Transferring Items Between Warehouse Locations { .section}
+## Step 2: Transferring Items Between Warehouse Locations
 
 Suppose that you have moved the cinnamon and ginger to the *SPICES* location. Further suppose that when you were moving the packages with cinnamon, you realized that two packages were broken and you moved these packages to the *WRITEOFF* location. The rest of the cinnamon packages were moved to the *SPICES* location. To record the movement of the items between these locations within the retail warehouse, do the following:
 
@@ -73,7 +73,7 @@ Suppose that you have moved the cinnamon and ginger to the *SPICES* location. Fu
 8.  On the form toolbar, click **Save**.
 9.  On the form toolbar, click **Release** to release the transfer.
 
-## Step 3: Viewing the Availability of Moved Items { .section}
+## Step 3: Viewing the Availability of Moved Items
 
 Now that you have moved items to the appropriate locations, you will make sure that cinnamon and ginger are available in the appropriate locations. Do the following:
 

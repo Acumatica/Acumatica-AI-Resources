@@ -1,4 +1,4 @@
-# Reviewing Sales Prices {#_665076da-0f4d-452b-96b1-14c6a8d008f3 .concept}
+# Reviewing Sales Prices
 
 This topic provides an overview of the sales pricing functionality in Acumatica ERP.
 

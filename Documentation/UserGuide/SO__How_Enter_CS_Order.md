@@ -1,8 +1,8 @@
-# To Enter a Cash Sale Order \(CS\) {#_c86a1986-a21f-48c0-a7de-bc73a548577b .task}
+# To Enter a Cash Sale Order \(CS\)
 
 You create an order of the predefined *CS* type to record a sale of stock items that is immediately paid by cash and does not require shipping. You use the [Sales Orders](SO_30_10_00.md) \(SO301000\) form to enter the *CS* order.
 
-## To Create a Cash Sale Order { .section}
+## To Create a Cash Sale Order
 
 1.  Open the [Sales Orders](../Shared/../UserGuide/SO_30_10_00.md) \(SO301000\) form.
 

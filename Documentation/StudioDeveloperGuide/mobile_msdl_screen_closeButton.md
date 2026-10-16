@@ -1,4 +1,4 @@
-# Configuring the Close Button of a Smart Panel {#_82af1b26-b033-4e78-9fda-e2bdeea62b0f .concept}
+# Configuring the Close Button of a Smart Panel
 
 A mobile screen that corresponds to a smart panel in the browser version of Acumatica ERP can have the Close button. This button corresponds to the X button on a screen toolbar on Android devices and to the Back \(**&lt;**\) button on iOS devices. By default, the button opens the previous container and does not have a callback to the server.
 
@@ -9,7 +9,7 @@ You can configure the Close button to have a callback to the server by specifyin
 
 **Note:** For each button, you can use only one of these approaches.
 
-## Specifying the Dialog Result in the CloseButtonDialogResult Attribute { .section}
+## Specifying the Dialog Result in the CloseButtonDialogResult Attribute
 
 You can specify the dialog result for a button in the CloseButtonDialogResult attribute of the [dialog](MOBILE_Ref_MSDL_ObjType_dialog.md) object. The possible values of the attribute correspond to the elements of the [WebDialogResult](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=85082ebd-9eeb-5668-7339-66127e6f41bd) enumeration. The following code shows an example of the dialog result value being specified for the `Close` action.
 
@@ -22,7 +22,7 @@ update screen SO301000 {
 }
 ```
 
-## Defining the Close Action { .section}
+## Defining the Close Action
 
 You can define the `Close` action by doing the following:
 

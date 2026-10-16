@@ -1,4 +1,4 @@
-# Working with Photo Logs {#_f2cb38fb-bc42-404f-a341-34d5ac73a6e2 .concept}
+# Working with Photo Logs
 
 Photo logs are used to store all photos that have been taken for a project. The topics of this chapter explain how to work with photo logs in the system.
 

@@ -1,8 +1,8 @@
-# Sales with Payments and Prepayments: Prepayments and Payments in Invoices {#_939fb4a4-987b-4c15-a951-3ef6a958cd57 .concept}
+# Sales with Payments and Prepayments: Prepayments and Payments in Invoices
 
 When you prepare an invoice for a shipment or sales order, any prepayments and payments that were applied to the sales order are transferred to the invoice. If the sales order has a pre-authorized credit card payment, it is also transferred to the invoice and can be captured on the [Invoices](SO_30_30_00.md) \(SO303000\) form.
 
-## Pre-Authorized Prepayments and Payments { .section}
+## Pre-Authorized Prepayments and Payments
 
 Suppose that for a sales order with the *Back Order Allowed* shipping rule specified on **Shipping** tab of the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, you have confirmed a partial shipment. When you prepare an invoice for the shipped goods in this sales order, the pre-authorized credit card payment is partially transferred to the invoice, with the remainder applied to the sales order. If the payment application amount that is transferred to the invoice is less than the pre-authorized payment amount and you click **Capture** on the **Applications** tab of the [Invoices](SO_30_30_00.md) \(SO303000\) form, only the amount applied to the invoice is captured.
 
@@ -25,7 +25,7 @@ A user can capture pre-authorized credit card payments applied to an invoice on 
 
 Credit card payments cannot be captured on the [Invoices](SO_30_30_00.md) form if they are applied to multiple documents.
 
-## Credit Hold in Invoices with a Required Prepayment Amount { .section}
+## Credit Hold in Invoices with a Required Prepayment Amount
 
 On the [Invoices](SO_30_30_00.md) \(SO303000\) form, the system validates the settings and unpaid balance of a sales invoice when you do one of the following:
 

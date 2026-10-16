@@ -1,4 +1,4 @@
-# Processing Purchase Returns at the Calculated Cost {#_0b4da852-1569-46ec-9558-2ef3accb0a1c .concept}
+# Processing Purchase Returns at the Calculated Cost
 
 In some cases, you may need to return purchased items to the vendor. You can issue the returned items from inventory at a cost calculated by the system. This chapter describes how you can create and process purchase returns of stock items at item costs that are calculated by the system.
 

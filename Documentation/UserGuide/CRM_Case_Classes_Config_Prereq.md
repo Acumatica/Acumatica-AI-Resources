@@ -1,8 +1,8 @@
-# Case Classes: Configuration Prerequisites {#_aee33208-711b-4b6c-9b2f-6a69ba5a4654 .concept}
+# Case Classes: Configuration Prerequisites
 
 Before you start creating case classes in Acumatica ERP, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the following features must be enabled:
 
@@ -10,7 +10,7 @@ On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the followin
 -   *Case Management* in the *Customer Management* group of features
 -   *Time Management* \(if you will be creating activities associated with a case\)
 
-## Configuring the System { .section}
+## Configuring the System
 
 Before you start creating case classes in Acumatica ERP, you need to make sure that the following tasks have been performed:
 

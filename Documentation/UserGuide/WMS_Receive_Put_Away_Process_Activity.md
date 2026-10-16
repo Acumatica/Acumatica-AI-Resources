@@ -1,14 +1,14 @@
-# Receiving and Putting Away Operations: To Receive and Put Away Items {#_7ae966bd-712b-4183-8a79-16ee075dcc2b .task}
+# Receiving and Putting Away Operations: To Receive and Put Away Items
 
 In the following activity, you will learn how to perform the receiving and putting away of items by using the [Receive and Put Away](PO_30_20_20.md) \(PO302020\) form.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a warehouse worker in the wholesale warehouse of the SweetLife Fruits &amp; Jams company. Your warehouse manager gives you a task to receive the purchased fruits \(80 pounds of apples and 60 pounds of oranges\) in the warehouse. In your organization, the receive and put away workflow is used, which means that you receive the purchased items at a receiving location of the warehouse, and then go through the warehouse locations and put away the items in the locations where the fruits are stored. Also suppose that you are putting away the apples and part of the oranges in one fruit location, and the rest of the oranges in another fruit location.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -27,7 +27,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form, the *000022* purchase order to the *ALLFRUITS* vendor has been created.
 -   On the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form, the *000018* purchase receipt has been prepared for this purchase order.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, acting as a warehouse worker, you will do the following:
 
@@ -37,14 +37,14 @@ In this activity, acting as a warehouse worker, you will do the following:
 
 **Tip:** In any working mode, you enter a command or barcode by typing it in the **Scan** box and pressing Enter. In production systems, you will scan the appropriate barcodes rather than manually entering them.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start the automated receiving and putting away operations, you need to perform the following instructions:
 
 1.  Sign in to a company with the *U100* dataset preloaded as a warehouse worker with the *perkins* username and the *123* password.
 2.  On the **Warehouse Management** tab of the [Purchase Orders Preferences](PO_10_10_00.md) \(PO101000\) form, make sure that the **Verify Receipts Before Release** check box is cleared.
 
-## Step 1: Receiving Items in the Receiving Location { .section}
+## Step 1: Receiving Items in the Receiving Location
 
 To record that items have been received in the receiving location of the warehouse, do the following:
 
@@ -67,7 +67,7 @@ To record that items have been received in the receiving location of the warehou
 
 You have received the items for the purchase receipt, and now you can proceed with putting away the received items in the storage locations.
 
-## Step 2: Putting Away the Received Items in the Storage Locations { .section}
+## Step 2: Putting Away the Received Items in the Storage Locations
 
 To record that items are being put away from the receiving location of the warehouse in the locations where these items will be stored, do the following:
 
@@ -90,14 +90,13 @@ To record that items are being put away from the receiving location of the wareh
 9.  Set the quantity to `20`, indicating that 20 pounds of oranges have been put away on the second shelf of the second refrigerator location. Now all items from the purchase receipt have been put away in the appropriate storage locations, and these actions have been reflected in the system.
 10. On the form toolbar, click **Release Transfer**.
 
-## Step 3: Reviewing the Inventory Transfer { .section}
+## Step 3: Reviewing the Inventory Transfer
 
 To review the results of the receiving and putting away operations and make sure that the transfer of the items has been recorded in the system, do the following:
 
 1.  On the **Transfers** tab of the [Receive and Put Away](PO_30_20_20.md) \(PO302020\) form, click the number of the transfer that has been generated as the result of the previous step in the **Reference Nbr.** column.
 2.  On the [Transfers](IN_30_40_00.md) \(IN304000\) form, which opens, review the details of the inventory transfer. Make sure that the document has been released.
 
-    ![](Images/activity_WMS_Put_Away_Transfer.png "The released inventory transfer")
 
 
 **Parent topic:**[Automated Receiving and Putting Away Operations](../UserGuide/WMS_Receive_Put_Away_Mapref.md)

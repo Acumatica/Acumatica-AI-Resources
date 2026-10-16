@@ -1,14 +1,13 @@
-# Service Lines in Purchase Orders {#_0b171431-9c8e-4ce7-afca-e46bdee351bf .concept}
+# Service Lines in Purchase Orders
 
 For each non-stock item, you define whether a purchase receipt is required by selecting or clearing the **Require Receipt** check box on the **General** tab of the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form. In a purchase order line on the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form, when you select a non-stock item that does not a require a purchase receipt, the system inserts *Service* as the line type; also, the system inserts the *Service* line type in purchase order lines with no item specified. Although the *Service* lines are not tracked in inventory and do not require a purchase receipt, if you want to list them in purchase receipts for informational purposes, you can configure the system so that these lines are added to purchase receipts.
 
 This topic describes how the system processes *Service* lines added to a purchase order, and explains how the lines with these items are completed.
 
-## General Workflow and Related Documents {#servlines .section}
+## General Workflow and Related Documents
 
 The following diagram illustrates how the *Service* lines in purchase orders can be processed depending on the system settings.
 
-![](Images/diag_OrderMgmt_PO_Service_Lines.png)
 
 The remainder of this topic describes in detail the processing steps shown in the diagram and issues related to how this processing unfolds. The processing of the service order consists of the following steps:
 
@@ -33,17 +32,17 @@ The remainder of this topic describes in detail the processing steps shown in th
     You prepare the AP bill by clicking **Enter AP Bill** on the form toolbar of the [Purchase Orders](PO_30_10_00.md) form. The system brings up the generated AP bill on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 
 
-## Processing of the Accounts Payable Bill for the Purchase Order { .section}
+## Processing of the Accounts Payable Bill for the Purchase Order
 
 The general workflow of processing purchase orders with lines of any type is to process a purchase receipt \(if it is needed\) before creating an AP bill \(see [Purchases of Stock Items: General Information](OrderMgmt_Standard_Inventory_Purchase_GeneralInfo.md) for details\). However, if you receive bills from a particular vendor before the ordered items are received to inventory, you can configure this vendor so that for the purchase orders of this vendor, you can create and process an AP bill before the purchase receipt is released.
 
 To do this, you need to select the **Allow AP Bill Before Receipt** check box in the vendor settings on the [Vendors](AP_30_30_00.md) \(AP303000\) form; in addition, you can select this check box for a particular vendor location on the [Vendor Locations](AP_30_30_10.md) \(AP303010\) form. The state of this check box is copied to each purchase order created for this vendor, and can be reviewed on the **Other** tab of the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form. For a detailed description on how to process a purchase order with the associated bill being prepared before the receipt, see [Purchases with Billing Before Receipt: General Information](OrderMgmt_Purchase_Bill_Before_Receipt_GeneralInfo.md).
 
-## Posting Accounts for Service Lines { .section}
+## Posting Accounts for Service Lines
 
 When you add a *Service* line to a purchase order on the **Details** tab of the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form, in the **Account** column, the system inserts the Expense account specified in the **Expense Account** box of the item on the **GL Accounts** tab of the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form. If the *Subaccounts* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, in the **Sub.** column of the [Purchase Orders](PO_30_10_00.md) form, the system inserts the subaccount composed as defined by the **Combine Expense Sub. From** box of the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form.
 
-## Rules for Closing and Completing Service Lines { .section}
+## Rules for Closing and Completing Service Lines
 
 The way the lines of the *Service* type \(including the *Service* lines with the **Inventory ID** column empty\) are completed and closed depends on whether the service lines are processed through receipts, and on the completion rule specified for each non-stock item in the **Close PO Line** box on the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form.
 

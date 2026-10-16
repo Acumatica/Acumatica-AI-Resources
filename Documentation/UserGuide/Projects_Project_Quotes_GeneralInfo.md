@@ -1,8 +1,8 @@
-# Project Quotes: General Information {#_9270d45a-8a6b-2434-8a73-5031ccc3b8a6 .concept}
+# Project Quotes: General Information
 
 In Acumatica ERP, you use a project quote for planning purposes before you create the corresponding project in the system and begin billing and accounting for revenues and costs. You can create a project quote to estimate the revenue and costs of a potential project and then send this quote to the customer for acceptance. You can modify the project quote as many times as is necessary until an agreement is reached. After the customer agrees to the terms of a quote, you convert the accepted quote to a project.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -13,11 +13,11 @@ In this chapter, you will learn how to do the following:
 -   Print the project quote and send it by email
 -   Create a project based on a project quote
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create a project quote if you want to send a proposal to the customer or potential customer before you create a project, or if you need to agree with the customer about the terms of a potential project before creating the project.
 
-## Creation of Project Quotes from Scratch {#section_fdf_x42_p2b .section}
+## Creation of Project Quotes from Scratch
 
 You create project quotes on the [Project Quotes](PM_30_45_00.md) \(PM304500\) form. In a new project quote, which initially has the *Draft* status, you specify the following settings:
 
@@ -33,7 +33,7 @@ You create project quotes on the [Project Quotes](PM_30_45_00.md) \(PM304500\) f
     -   An estimation line with an account group specified in the **Cost Account Group** column establishes costs; the **Ext. Cost** of the line is the estimated cost amount.
     -   Estimation lines with both the **Revenue Account Group** and the **Cost Account Group** specified establish revenue and costs at the same time.
 
-## Project Quote Processing { .section}
+## Project Quote Processing
 
 When you have finished modifying the project quote settings, you submit the quote by clicking **Submit** on the form toolbar of the [Project Quotes](PM_30_45_00.md) \(PM304500\) form. A submitted project quote is assigned the *Approved* status and is ready for further processing.
 
@@ -53,11 +53,10 @@ After you have specified the required settings, you click **Convert to Project**
 
 **Tip:** If you delete the project, the system changes the status of the project quote from *Closed* to *Approved*, so you can assign the *Draft* status to the project quote, edit it, and again create a project based on the project quote.
 
-## Workflow of Project Quotes {#section_i3l_d4p_mcb .section}
+## Workflow of Project Quotes
 
 The following diagram illustrates the workflow of a project quote being processed.
 
-![](Images/diag_Project_Quotes_Workflow.png)
 
 **Parent topic:**[Processing Project Quotes](../UserGuide/Projects_Project_Quotes_Mapref.md)
 

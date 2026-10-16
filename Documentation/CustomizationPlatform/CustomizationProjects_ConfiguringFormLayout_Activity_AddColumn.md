@@ -1,16 +1,16 @@
-# Form Layout: To Add a Column to a Lookup Table {#_8aaa00e7-4c49-488a-80f5-3fa6896b31c5 .task}
+# Form Layout: To Add a Column to a Lookup Table
 
 The following activity will walk you through the process of adding a new column to a lookup table. A lookup table opens when a user clicks the magnifier button for a box that has this button, and the information in the table can help the user find and select the needed record.
 
-## Story { .section}
+## Story
 
 Suppose that you want users to be able to select cases on the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form by the date on which they have been reported. You need to change the lookup table for the **Case ID** box on the form so that it contains the **Reported On** column.
 
-## Process Overview { .section}
+## Process Overview
 
 By using the [Data Access](../UserGuide/AU_20_30_01.md) and [Data Class](../UserGuide/AU_DataClassEditor.md) pages of the Customization Project Editor, you will add the column to the lookup table of the `CaseCD` field, which corresponds to the **Case ID** box of the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form. You will then publish the customization project and test the change on the form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -18,7 +18,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  Create the *Yogifon* customization project by performing the [Customization Projects: To Create a Customization Project](CustomizationProjects_GettingStarted_Activity_CreateProject.md) prerequisite activity.
 3.  Make sure that you have completed the [Form Layout: To Add a New Tab to a Form](CustomizationProjects_ConfiguringFormLayout_Activity_AddTab.md) prerequisite activity.
 
-## Step 1: Adding the Column to the Lookup Table { .section}
+## Step 1: Adding the Column to the Lookup Table
 
 To modify the settings of the lookup table for a box, do the following:
 
@@ -40,7 +40,7 @@ To modify the settings of the lookup table for a box, do the following:
 10. In the **Customize Selector Columns** dialog box, to which you return, click **OK**.
 11. Save your changes.
 
-## Step 2: Testing the Added Column { .section}
+## Step 2: Testing the Added Column
 
 Publish the customization project and test the added column as follows:
 
@@ -49,7 +49,6 @@ Publish the customization project and test the added column as follows:
 3.  On the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form, click the magnifier button of the **Case ID** box.
 4.  In the lookup table, make sure that the **Reported On** column is displayed, as shown in the following screenshot.
 
-    ![](images/CustomizationProjects_AddingNewTabsColumns_Cases_AddedSelectorColumn.png "The added Reported On column")
 
 
 **Parent topic:**[Configuring the Layout of Forms](../CustomizationPlatform/CustomizationProjects_ConfiguringFormLayout_Mapref.md)

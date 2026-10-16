@@ -1,10 +1,10 @@
-# User Roles: General Information {#_6aca93da-a187-4117-ae0a-bc7bbd39b2ce .concept}
+# User Roles: General Information
 
 User roles in Acumatica ERP are sets of access rights to system objects designed for convenient management of access for users with similar responsibilities in the system. In Acumatica ERP, you can set up access rights to such a system object as a particular form, a container of form elements, a form element, or a wiki.
 
 **Tip:** For details about managing access to wikis, see [Wiki Access Management](SM__con_Wiki_Access_Setup.md).
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -13,7 +13,7 @@ In this chapter, you will learn how to do the following:
 -   Give access to only particular forms in the system and revoke access to all other system objects
 -   Review the access rights a role has to system objects
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create or modify user roles in the following cases:
 
@@ -21,7 +21,7 @@ You create or modify user roles in the following cases:
 -   You, as a system administrator, were notified that the security policy of your company has changed and after a revision of the current set of roles, you need to modify access rights to Acumatica ERP elements.
 -   You, as a system administrator, were notified about a new position being created in your company, for which the current set of roles does not cover the job description.
 
-## Restriction Levels { .section}
+## Restriction Levels
 
 A user role in Acumatica ERP is a set of access rights to system objects. By defining access rights for a system object, you set the restriction level a user with the role will have for this object. The restriction level defines the set of operations a user may perform with the object. The highest restriction level allows a user to perform any operation with an object, up to its deletion, and the lowest restriction level denies access to an object.
 
@@ -29,7 +29,7 @@ The system objects are a particular form, a container of form elements, and a fo
 
 Restriction levels vary by object type. For some objects, you can specify a more granular level; for others, you can either allow or deny the access. For details, see [User Roles: Restriction Level Options](../Shared/../UserGuide/User_Roles_Access_Levels.md).
 
-## Access Propagation and Inheritance { .section}
+## Access Propagation and Inheritance
 
 In Acumatica ERP, as mentioned, the system objects are grouped in a tree with nodes. Each node is a system object that can nest other objects. At each level of nodes, either access rights are propagated to the nested objects or nested objects inherit access rights from their parents. The hierarchy of nesting is the following:
 
@@ -43,7 +43,7 @@ In Acumatica ERP, as mentioned, the system objects are grouped in a tree with no
 
 The propagation and inheritance mechanism saves time for administrators and simplifies the setting of access rights to system objects. You can change the propagated or inherited rights for any object at any time—that is, change the restriction level received from a parent object. For specifics about the restriction levels of a particular system object, see [User Roles: Restriction Level Options](User_Roles_Access_Levels.md).
 
-## Predefined Roles { .section}
+## Predefined Roles
 
 For ease of configuration and administration, Acumatica ERP provides a set of predefined roles. We recommend that you use these roles during implementation to configure users’ access to the system. For details on the available predefined roles, see [User Roles: Predefined Roles](User_Roles_Built_In_Roles.md).
 
@@ -64,7 +64,7 @@ We also recommend that you not modify existing access rights for the predefined 
 
 You can modify other predefined roles. Alternatively, you can copy a predefined role and modify the copy as needed—but keep in mind that duplicating a large number of predefined roles can affect system performance.
 
-## Role Planning { .section}
+## Role Planning
 
 Organizations have different kinds of valuable information that needs protecting, such as financial documents and customer and vendor information. Different employees need access to different subsets of this information to perform their duties. Before you start planning the set of user roles, we recommend that you make sure that job roles and responsibilities in your company are clearly defined. The job responsibilities of a user define the needed levels of access to forms, records, and operations on the records.
 
@@ -72,7 +72,7 @@ While planning the set of roles, take into account the objectives of internal co
 
 We highly recommend that you perform the planning of access configuration when the system is initially implemented and when there have been changes to the security policy of the organization. For detailed recommendations, see [User Roles: Planning of Access Configuration](User_Roles_Planning_Concept.md).
 
-## Role Creation { .section}
+## Role Creation
 
 You use the [User Roles](SM_20_10_05.md) \(SM201005\) form to create a role. By default, the system automatically sets the access rights for a new role to *Revoked* for all system objects. The nested objects \(containers and elements\) have the *Inherited* access level.
 
@@ -86,7 +86,7 @@ Alternatively, you can use the [Access Rights by Role](SM_20_10_25.md) form to c
 
 **Tip:** The process of defining task-based roles requires in-depth knowledge of both the organization's business processes and the Acumatica ERP approach to security.
 
-## Role Access Modification {#section_wgv_hbd_yl .section}
+## Role Access Modification
 
 During ongoing maintenance of Acumatica ERP, you may have tasks to change users' access rights to some system objects. To modify a role’s access you use either the [Access Rights by Screen](SM_20_10_20.md) \(SM201020\) form or the [Access Rights by Role](SM_20_10_25.md) \(SM201025\) form.
 

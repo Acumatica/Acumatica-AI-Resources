@@ -1,10 +1,10 @@
-# Order Synchronization: To Configure and Import Authorize.Net Payments {#_46a6adba-d21d-4bf8-b9b4-8f436169ca18 .task}
+# Order Synchronization: To Configure and Import Authorize.Net Payments
 
 The following activity will walk you through the process of configuring the system so that you can import card payments from the BigCommerce store to Acumatica ERP and then further process them, if necessary.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company wants to accept card payments in the BigCommerce store. The company already has the Authorize.Net account for processing card payments.
 
@@ -12,7 +12,7 @@ Acting as an implementation consultant helping SweetLife to set up the integrati
 
 **Important:** Because the support of the Authorize.Net plug-in has been deprecated in Acumatica ERP, you can import the payments processed with Authorize.Net only as non-card payments.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -20,7 +20,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Cash Accounts](CA_20_20_00.md) \(CA202000\) form, the *10250ST* cash account has been created.
 -   On the [Payment Methods](CA_20_40_00.md) \(CA204000\) form, the *ONLINE* payment method has been set up to be used with the *10250ST* cash account.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -31,7 +31,7 @@ In this activity, you will do the following:
 5.  On the [Prepare Data](BC_50_10_00.md) \(BC501000\) form, prepare the sales order for synchronization; on the [Process Data](BC_50_15_00.md) \(BC501500\) form, process the sales order data prepared for synchronization.
 6.  On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, review the imported sales order.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you complete the instructions in this activity, do the following:
 
@@ -47,7 +47,7 @@ Before you complete the instructions in this activity, do the following:
     -   **Password**: *123*
 4.  Sign in to the control panel of the BigCommerce store as the store administrator.
 
-## Step 1: Defining the Authorize.Net Payment Gateway in the BigCommerce Store { .section}
+## Step 1: Defining the Authorize.Net Payment Gateway in the BigCommerce Store
 
 To define the Authorize.Net payment method that the store will accept for the United States Dollar \(USD\) currency, in the BigCommerce control panel, do the following:
 
@@ -69,7 +69,7 @@ To define the Authorize.Net payment method that the store will accept for the Un
     -   **Test Mode**: *Yes*
 7.  In the lower right, click **Save** to save your changes.
 
-## Step 2: Creating the Mapping for the Authorize.Net Store Payment Method { .section}
+## Step 2: Creating the Mapping for the Authorize.Net Store Payment Method
 
 To configure the mapping for the Authorize.Net store payment method in Acumatica ERP, do the following:
 
@@ -84,7 +84,7 @@ To configure the mapping for the Authorize.Net store payment method in Acumatica
 
 3.  On the form toolbar, click **Save** to save your changes.
 
-## Step 3: Creating an Order Through the Storefront { .section}
+## Step 3: Creating an Order Through the Storefront
 
 To purchase a jar of jam, so that you can later import the order and review the credit card payment, in the BigCommerce control panel, do the following:
 
@@ -114,7 +114,7 @@ To purchase a jar of jam, so that you can later import the order and review the 
     Your order has been created, and on the confirmation page, the order number is displayed. You will process the order with this order number further in this activity.
 
 
-## Step 4: Reviewing the Sales Order in the Control Panel { .section}
+## Step 4: Reviewing the Sales Order in the Control Panel
 
 To review the sales order that you placed in the previous step, in the BigCommerce control panel, do the following:
 
@@ -124,7 +124,7 @@ To review the sales order that you placed in the previous step, in the BigCommer
     Notice that the **Status** of the order is set to *Awaiting Fulfillment*. The payment funds have been already captured because you have configured the *Authorize.Net* payment option to authorize and capture the payment amount when the order is placed.
 
 
-## Step 5: Importing the Sales Order { .section}
+## Step 5: Importing the Sales Order
 
 To prepare the sales order data for synchronization and then process it, do the following:
 
@@ -137,7 +137,7 @@ To prepare the sales order data for synchronization and then process it, do the 
 5.  In the table on the [Process Data](BC_50_15_00.md) form, select the unlabeled check box for the only row, and click **Process** on the form toolbar.
 6.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 6: Reviewing the Imported Sales Order { .section}
+## Step 6: Reviewing the Imported Sales Order
 
 To review the settings of the imported sales order, do the following:
 
@@ -154,7 +154,6 @@ To review the settings of the imported sales order, do the following:
 
     Notice that the payment document has the *Prepayment* type. It includes the external credit card transaction associated with the purchase. The number of the transaction is displayed in the **Payment Ref.** column.
 
-    ![](Images/activity_Commerce_BC_Syncing_Orders_To_Use_AuthNet_Payments.png "The prepayment applied to the order")
 
 6.  Click the link in the **Reference Nbr.** column to open the payment.
 7.  On the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, which opens in a pop-up window, review the payment details.

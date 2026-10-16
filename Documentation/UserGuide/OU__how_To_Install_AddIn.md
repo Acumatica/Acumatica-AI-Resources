@@ -1,4 +1,4 @@
-# To Install the Acumatica Add-In {#_837b732a-ac19-4bc4-a125-c56118869ae9 .task}
+# To Install the Acumatica Add-In
 
 To install the add-in, you need to sign in to your mailbox at Outlook on the Web and upload the add-in manifest. Do the following:
 

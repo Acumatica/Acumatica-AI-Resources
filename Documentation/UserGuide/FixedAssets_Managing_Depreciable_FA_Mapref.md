@@ -1,4 +1,4 @@
-# Managing Fixed Assets with Depreciation {#_ff9fd206-6b5f-43f7-aa7a-68e9ac28dd8b .concept}
+# Managing Fixed Assets with Depreciation
 
 In this chapter, you will find general information on how manage fixed assets with depreciation, a checklist for system implementation, an activity that describes how to split a part of a fixed asset with depreciation, an activity that describes how to transfer a fixed asset with depreciation from one branch to another, and an activity that describes how to dispose of a fixed asset with depreciation.
 

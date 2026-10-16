@@ -1,4 +1,4 @@
-# To Reorder Child UI Elements {#_e8c5d340-f996-4634-8f84-ce56198286c5 .concept}
+# To Reorder Child UI Elements
 
 You can reorder UI elements in a container manually by dragging them in the Control Tree of the [Screen Editor](../UserGuide/AU_20_45_20.md). However before you start to move elements, note the following simple rules:
 

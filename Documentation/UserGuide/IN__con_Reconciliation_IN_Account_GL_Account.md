@@ -1,10 +1,10 @@
-# Reconciliation of the Cost of Inventory with the Account Balance {#_6e75c202-2d22-4750-a543-26a03c493245 .concept}
+# Reconciliation of the Cost of Inventory with the Account Balance
 
 You can reconcile the inventory account balance by comparing the account balance calculated by inventory transactions with the account balance calculated by general ledger transactions. If you discover a mismatch, each transaction has to be carefully reviewed, and corrective actions have to be made to eliminate the mismatch. Reconciliation is a recommended practice before period closing to verify the account balance and the transactions in the inventory account.
 
 In this topic, you will find recommendations for performing reconciliation of the inventory account balance with the General Ledger account balance in Acumatica ERP and the list of forms and report you can use for reconciliation. For simplicity, the topic describes the reconciliation process for only one inventory account. If you have multiple accounts, you can repeat the procedure for each inventory account.
 
-## Reconciliation Process in Inventory { .section}
+## Reconciliation Process in Inventory
 
 Before starting reconciliation, you must you must decide which periods you want to close. In Acumatica ERP, you reconcile the inventory account balance for the *last activity period* \(that is, the period when the last transaction was performed\) and the *historical periods* \(that is, the periods that precede the last activity period\) separately. For the last activity period, the inventory account balance equals the cost of the inventory on hand.
 
@@ -16,7 +16,7 @@ In Acumatica ERP, you do the following to reconcile the balance of an inventory 
 
 For the list of Acumatica ERP forms and reports you can use in the reconciliation process, see [Reports and Forms Used for Reconciliation in the Inventory Subledger](#_eb01d874-4c04-4665-88ba-0ae3880b102b).
 
-## Reconciliation of the Inventory Account Balance for Historical Periods {#_7385631f-858e-4029-95dd-796b543341aa .section}
+## Reconciliation of the Inventory Account Balance for Historical Periods
 
 You reconcile the balance of an inventory account for a historical period as follows:
 
@@ -44,7 +44,7 @@ You reconcile the balance of an inventory account for a historical period as fol
     -   The balances agree: This means that the inventory account balance is reconciled for the selected period. You can start reconciling the same account for another historical period or for the last activity period, if the account balance is reconciled for all historical periods.
     -   The balances disagree: You investigate the reasons, as described in [Investigation of a Disagreement Between the Balances](#section_ky1_rmb_2t), and reconcile the account balance once again.
 
-## Reconciliation of the Inventory Account Balance for the Last Activity Period {#_f0d77834-bff7-443d-9403-2bafe45fe193 .section}
+## Reconciliation of the Inventory Account Balance for the Last Activity Period
 
 After you have reconciled the balance of an inventory account for historical periods, you can start reconciling the balance of this account for the last activity period as follows:
 
@@ -66,7 +66,7 @@ After you have reconciled the balance of an inventory account for historical per
     -   The balances agree: This means that the inventory account balance is reconciled for the last activity period. Now you can close these financial periods in the inventory subledger; for details, see [To Close Financial Periods in Inventory](IN__how_Close_Financial_Period.md).
     -   The balances disagree: You investigate the reasons, as described in [Investigation of a Disagreement Between the Balances](#section_ky1_rmb_2t), and reconcile the account balance once again.
 
-## Investigation of a Disagreement Between the Balances {#section_ky1_rmb_2t .section}
+## Investigation of a Disagreement Between the Balances
 
 If the balances don't agree, you have to review every transaction in the inventory and general ledger subledgers to find the entries that do not match. You do the following:
 
@@ -79,14 +79,14 @@ If the balances don't agree, you have to review every transaction in the invento
 
 After you have investigated the reasons for the disagreement, you can recalculate the balance of the inventory account, as described in the next section, to view changes in transactions on inventory forms and reports.
 
-## Recalculation of the Inventory Account Balance {#section_kpd_yz1_2t .section}
+## Recalculation of the Inventory Account Balance
 
 You can run the inventory validation process on the [Recalculate Inventory](IN_50_50_00.md) \(IN505000\) form to recalculate the inventory account balance for periods after you have corrected inventory transactions. \(This process doesn't affect the on-hand quantity of items in inventory, because this quantity is updated with every released inventory transaction and tracked separately from the inventory account balance.\) The inventory validation process performs the following operations:
 
 1.  Recalculates the available quantity and the subtotals by allocation type that are stored in the database and that you can view on the [Inventory Summary](IN_40_10_00.md) \(IN401000\) form. This operation is always performed when you run the process on the form.
 2.  Clears all transaction history details for the inventory account in the inventory subledger, which you can view in the [Historical Inventory Valuation](IN_61_70_00.md) \(IN617000\) report; the process then rebuilds the history again and recalculates the balance of the inventory account in the subledger by the released inventory transactions. To perform this operation, you have to select the **Rebuild Item History** check box on the form and specify the starting financial period. The system rebuilds the transaction history for each financial period starting from the specified one up to the last activity period in the subledger.
 
-## Reports and Forms Used for Reconciliation in the Inventory Subledger {#_eb01d874-4c04-4665-88ba-0ae3880b102b .section}
+## Reports and Forms Used for Reconciliation in the Inventory Subledger
 
 To review the ending balance of an inventory account for a historical period, you can use any of the following forms and reports:
 

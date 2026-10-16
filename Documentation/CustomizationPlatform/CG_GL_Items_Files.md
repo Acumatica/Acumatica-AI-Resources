@@ -1,8 +1,8 @@
-# Custom Files {#_d474f5d8-47a0-42b3-af00-8e0940e32b7f .concept}
+# Custom Files
 
 You can add to a customization project any custom file located in the website folder of your instance of Acumatica ERP. When you add a file to a project, the Acumatica Customization Platform stores a copy of the file in the database as a *File* item. A *File* item contains the path to the custom file and the GUID of the file content in the file storage of the database. The path is relative to the website folder. The platform then includes a copy of the file from the database in the deployment package.
 
-CAUTION:
+**CAUTION:**
 
 You must include in a customization package any custom files that you need to use with your instance of Acumatica ERP and publish this package on this instance. If you instead copy the files to the website folder of your instance of Acumatica ERP manually, the files will be removed while the instance is being updated or upgraded.
 

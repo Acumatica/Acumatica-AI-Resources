@@ -1,12 +1,12 @@
-# Production Order Types: General Information {#_3b562e48-71cc-4600-88ac-4f359700c3b8 .concept}
+# Production Order Types: General Information
 
 In Acumatica ERP Manufacturing Edition, a production order type provides default settings for production orders of the type and determines the workflow for these production orders. You use the [Production Order Types](../UserGuide/AM_20_11_00.md) \(AM201100\) form to create production order types, which are described further in this topic.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to create a production order type for each of the following categories of production orders: regular, planning, and disassembly.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure production order types in any of the following cases:
 
@@ -14,7 +14,7 @@ You configure production order types in any of the following cases:
 -   When you have purchased the *Manufacturing* feature, and you need to configure manufacturing in the existing Acumatica ERP system
 -   When you need to add new production order types or change the settings of existing order types to accommodate business process changes
 
-## Settings of Production Order Types { .section}
+## Settings of Production Order Types
 
 When you create a production order type, you specify the following settings for it on the [Production Order Types](../UserGuide/AM_20_11_00.md) \(AM201100\) form:
 
@@ -31,7 +31,7 @@ The settings of a production order type are inserted or used when a new producti
 
 In the following sections, you will find detailed information about the settings of a production order type.
 
-## Functions of Production Order Types {#_c9be96dd-98fd-4f4d-b056-18c64839dad6 .section}
+## Functions of Production Order Types
 
 The workflow of a production order in the system depends on the function specified in the production order type assigned to the production order. The following functions are available in the **Function** box of the [Production Order Types](../UserGuide/AM_20_11_00.md) \(AM201100\) form:
 
@@ -50,11 +50,11 @@ The workflow of a production order in the system depends on the function specifi
 
 You can create as many production order types as you need but you must create at least one *Regular* order type and one *Planning* order type.
 
-## GL Accounts for Production Order Types {#_9f0b4fca-dbe0-4e4e-b02a-1234f77e2f17 .section}
+## GL Accounts for Production Order Types
 
 In each production order type, you can select a specific Work in Progress and WIP Variance GL accounts in the **Work in Process Account** and **WIP Variance Account** boxes on the [Production Order Types](../UserGuide/AM_20_11_00.md) \(AM201100\) form accordingly. The system uses these GL accounts for posting amounts only if the accounts are not specified in posting classes assigned to the stock items that are included in the production order of this type.
 
-## Cost Calculation for Produced Items {#_39178698-8be5-468d-804c-8cf6e2d346a4 .section}
+## Cost Calculation for Produced Items
 
 In the **Costing Method** box of the [Production Order Types](../UserGuide/AM_20_11_00.md) \(AM201100\) form, you specify the costing method to be used for production orders of the type. The costing method determines how the cost of produced items is calculated for items with the *Average*, *FIFO*, or *Specific* valuation methods. You can select one of the following costing methods:
 
@@ -65,11 +65,11 @@ For production orders that include items with the *Standard* valuation method, t
 
 **Attention:** Before you select the costing method for a production order type, we recommend that you read detailed information about costing methods in [Cost Calculation for Produced Items: General Information](../UserGuide/MFG_Production_Cost_Calculation_GeneralInfo.md).
 
-## Data Entry Validation on Production Orders {#_589f99a7-ee41-40d0-bc19-cc2a279f454b .section}
+## Data Entry Validation on Production Orders
 
 A production order type provides settings that will help users minimize errors when they enter data to a production order assigned to this type; that is, the system can validate whether the appropriate quantity of items used as materials is specified in the production order and whether the production order has the appropriate status. You specify these settings in the **Data Entry Settings** section of the [Production Order Types](../UserGuide/AM_20_11_00.md) \(AM201100\) form.
 
-## Attributes of Production Orders {#_438cb3b2-7011-4839-ae18-9e5745ecb108 .section}
+## Attributes of Production Orders
 
 For a production order type, you can specify attributes for orders of the type, which may be informational or can require data entry. You first define the needed attributes on the [Attributes](../UserGuide/CS_20_50_00.md) \(CS205000\) form \(if they do not already exist\) and then add the attributes to the **Attributes** tab of the [Production Order Types](../UserGuide/AM_20_11_00.md) \(AM201100\) form.
 

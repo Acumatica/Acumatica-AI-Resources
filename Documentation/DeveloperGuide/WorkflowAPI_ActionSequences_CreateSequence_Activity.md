@@ -1,27 +1,27 @@
-# Action Sequences: To Define an Action Sequence {#_cae2d53d-4243-4046-ac3c-7fd9517bd728 .task}
+# Action Sequences: To Define an Action Sequence
 
 The following activity will walk you through the process of defining an action sequence.
 
-## Story { .section}
+## Story
 
 Suppose that when a user clicks the **Close** command on the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form, you need to execute the actions that correspond to the following commands on the form:
 
 -   **Release** to release the case
 -   **View Invoice** if the case is billable \(that is, if the **Billable** check box is selected on the **CRM Info** tab of the [Cases](../UserGuide/CR_30_60_00.md) form\)
 
-## Process Overview { .section}
+## Process Overview
 
 First, you will learn the internal names of the entities used in the workflow: the actions and fields, workflow class, graph, and DAC.
 
 Then you will extend the default workflow for the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form and define the action sequences in the extension. In order to define an action sequence for more than two actions, you need to define an action sequence for each pair. Thus, you will first define an action sequence for the Close and Release actions, and then an action sequence for the Release and View Invoice actions.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin, you should make sure that you have configured your instance of Acumatica ERP, as described in the [Preparing an Instance for Workflow Customization](WorkflowAPI_PrepareInstance_Mapref.md) chapter.
 
 You also need to create an extension library for the instance. For details, see [To Create an Extension Library](../CustomizationPlatform/cg_platform_tocreateextensionlib.md).
 
-## Step 1: Investigate the Internal Names of Elements on the Cases Form { .section}
+## Step 1: Investigate the Internal Names of Elements on the Cases Form
 
 To define a sequence of existing actions, you need to learn the internal names of these actions in the graph of the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form, as well as other relevant internal names. Do the following:
 
@@ -34,7 +34,7 @@ To define a sequence of existing actions, you need to learn the internal names o
 4.  By using the Element Inspector, learn the internal name for the **Billable** check box on the **CRM Info** tab: `CRCase.IsBillable`.
 5.  In the website project of the Visual Studio solution, find the source code of the PX.Objects.CR namespace, and find the class that defines the code of the workflow for the [Cases](../UserGuide/CR_30_60_00.md) form: The CaseWorkflow class is located in `App_Data/CodeRepository/PX.Objects/CR/Workflows/CaseWorkflow.cs`.
 
-## Step 2: Implement the First Action Sequence { .section}
+## Step 2: Implement the First Action Sequence
 
 To implement the first action sequence to be executed, do the following:
 
@@ -82,7 +82,7 @@ To implement the first action sequence to be executed, do the following:
 
 5.  Build the project.
 
-## Step 3: Implement the Second Action Sequence { .section}
+## Step 3: Implement the Second Action Sequence
 
 To implement an action sequence containing the release and viewInvoice actions, you need to add a separate sequence after the first one. Because the viewInvoice action should be executed only if the case is billable, you need to define a condition and specify it in the action sequence. Do the following:
 
@@ -122,7 +122,7 @@ To implement an action sequence containing the release and viewInvoice actions, 
 
 3.  Build the project.
 
-## Step 3: Test the Modified Workflow { .section}
+## Step 3: Test the Modified Workflow
 
 To test the implemented sequence, do the following:
 
@@ -144,11 +144,9 @@ To test the implemented sequence, do the following:
 
     Note that the form shows the **Processing Results** dialog box and the timer indicating a long-running operation. The **Processing Results** dialog box indicates that the action sequence is being performed. The timer indicates that the release action which contains the long-running operation is being performed.
 
-    ![](Images/WorkflowAPI_ActionsSequence_Processing.png "The system performing a long-running operation")
 
     After the sequence is completed, in the **Processing Results** dialog box, note the list of actions that have been performed: **Close**, **Release**, and **View Invoice**, as shown in the following screenshot. The [Invoices and Memos](../UserGuide/AR_30_10_00.md) \(AR301000\) form is opened in a new tab with the invoice created for the case.
 
-    ![](Images/WorkflowAPI_ActionsSequence_Results.png "The list of performed actions")
 
 7.  In the **Processing Results** dialog box, click **OK**.
 

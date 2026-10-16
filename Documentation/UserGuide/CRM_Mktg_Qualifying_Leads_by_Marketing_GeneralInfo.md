@@ -1,8 +1,8 @@
-# Lead Qualification by Marketing Teams: General Information {#_fb7aae63-3bf9-465e-ac9b-924e6d410c25 .concept}
+# Lead Qualification by Marketing Teams: General Information
 
 Marketing and sales teams rapidly adjust their processes and optimally use collected data, striving for the most effective work approaches. As such, they need their CRM systems to be flexible enough to support adjustments in processes without lengthy, costly development being required. Acumatica ERP provides flexible tools that marketing and sales teams can use to implement and customize workflows in the system without doing the coding.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -11,7 +11,7 @@ In this chapter, you will learn how to do the following:
 -   Disqualify a lead
 -   Reopen a disqualified lead
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to learn how to qualify leads in Acumatica ERP in scenarios that include the following:
 
@@ -20,7 +20,7 @@ You may want to learn how to qualify leads in Acumatica ERP in scenarios that in
 -   You have a list of cold leads \(individuals or organizations who never contacted your organization or expressed any interest in your products or services\) and you need to confirm these leads' contact information and gauge their current interest in buying.
 -   You need to pass a marketing-qualified lead to the sales team for further qualification.
 
-## Lead Qualification Process { .section}
+## Lead Qualification Process
 
 Lead qualification is the process of determining a lead to be one of the following:
 
@@ -31,17 +31,16 @@ When marketing personnel communicate with leads \(for example, during marketing 
 
 We recommend that marketing and sales teams work together to agree on the criteria of transferring leads from marketing to sales and regularly revise the criteria depending on company sales and other changing conditions. Based on this agreement, in Acumatica ERP, you can create your lead qualification workflow, which consists of stages \(identifiable phases, which can be required or optional\) in the workflow that relate to particular actions a marketing or a sales employee performs while qualifying each lead. Similarly, the lead proceeds through statuses in the system for each stage. The following sections describe this workflow and the ability to implement it in Acumatica ERP.
 
-## Lead Qualification Workflow { .section}
+## Lead Qualification Workflow
 
 CRM functional area in Acumatica ERP includes the lead qualification workflow that helps marketing and sales teams manage leads, add leads to marketing campaigns, qualify leads, associate multiple leads with the same business account and contact, return leads that require further nurturing to marketing and reopen a disqualified lead if needed. You can customize the workflow according to your company's lead qualification processes.
 
 The following diagram illustrates the lead qualification workflow.
 
-![](../Shared/Images/diag_CRM_Lead_Qualification_Workflow.png)
 
 In the lead qualification workflow, transitions between lead statuses are implemented as commands on the More menu of the [Leads](../Shared/../UserGuide/CR_30_10_00.md) \(CR301000\) form. You can click these commands on the More menu. A lead status is displayed in the **Status** box of the Summary area on the [Leads](../Shared/../UserGuide/CR_30_10_00.md) form. A system administrator can customize the workflow to define which statuses correspond to the *Active* \(nurtured\) status of the lead.
 
-## Lead Qualification as Performed by Marketing in Acumatica ERP { .section}
+## Lead Qualification as Performed by Marketing in Acumatica ERP
 
 When a lead is created in Acumatica ERP, a marketing team member can review and nurture the lead. The team member can then either disqualify the lead or accept and qualify the lead and pass this marketing-qualified lead \(MQL\) to a sales team for further qualification \(if the MQL is not ready to make a purchase\). If the MQL is ready to buy, the marketing team member can convert the lead to an opportunity and skip the stage of lead qualification by sales.
 
@@ -59,17 +58,16 @@ Lead qualification by a marketing team may include the following steps to move t
 
 **Tip:** Any of the stages listed above may be skipped as needed, depending on the company's lead qualification processes for marketing.
 
-## Lead Qualification Workflow \(Marketing\) { .section}
+## Lead Qualification Workflow \(Marketing\)
 
 The following diagram illustrates the lead qualification workflow as performed by a marketing team.
 
-![](Images/diag_CRM_Lead_Qualification_Marketing.png)
 
-## Lead Scoring { .section}
+## Lead Scoring
 
 Lead scoring, that may be part of the lead qualification process, helps you quickly and accurately assign a value to each lead based on various criteria. If you know where exactly leads are in your sales funnel, you can save time on working with leads of poor quality, develop more effective follow-up, and thus increase your return on investment. Calculating the marketing lead score can be done by members of a marketing team or automatically. Marketing teams can automate lead scoring and rating by using marketing automation solutions, such as [HubSpot](http://www.hubspot.com/), and import marketing-qualified leads to Acumatica ERP.
 
-## Lead Qualification Statuses { .section}
+## Lead Qualification Statuses
 
 As a lead is being processed by marketing and sales teams, it progresses through various statuses. Each lead status is displayed in the **Status** box in the Summary area of the [Leads](../Shared/../UserGuide/CR_30_10_00.md) \(CR301000\) form.
 

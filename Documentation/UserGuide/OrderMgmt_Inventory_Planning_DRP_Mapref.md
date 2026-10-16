@@ -1,4 +1,4 @@
-# Performing Inventory Planning with DRP {#_04069c3d-84ba-4b42-aa90-608aa92ccf66 .concept}
+# Performing Inventory Planning with DRP
 
 With its distribution requirements planning \(DRP\) capabilities, Acumatica ERP provides time-phased inventory planning and sales forecasting for handling orders within a supply chain. DRP inventory planning does not include the use of production orders. You can precisely plan your supply at the required time, minimizing the inventory stored in warehouses for orders placed well ahead of the needed date.
 

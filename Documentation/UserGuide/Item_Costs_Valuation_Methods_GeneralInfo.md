@@ -1,4 +1,4 @@
-# Item Costs and Valuation Methods: General Information {#_79edcbf8-e18b-4817-875f-6cbfd7a32384 .concept}
+# Item Costs and Valuation Methods: General Information
 
 Acumatica ERP automatically tracks the costs of stock items over time by using the valuation methods assigned to each item. The stock item's cost is used in valuing inventory, which is many companies’ most valuable asset. For manufacturing companies, the inventory cost reflects the direct cost to produce the product, such as raw materials and labor. For distributors, the inventory cost is the price paid for the product.
 
@@ -6,7 +6,7 @@ The item's cost is used to calculate the value of the inventory posted to the In
 
 Costs are tracked for items in base units of measure \(UOMs\)—that is, the UOMs in which items are stored at warehouses or moved between warehouses or warehouse locations. The valuation method defines how costs will be matched to revenues.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -14,11 +14,11 @@ In this chapter, you will do the following:
 -   Process sales documents with stock items that are assigned different valuation methods
 -   Review the calculated costs of stock items
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 You may need to assign a particular valuation method to a stock item to make the system track the item's cost based on how your company currently sells and purchases the item.
 
-## Valuation Methods { .section}
+## Valuation Methods
 
 You can assign valuation methods and track stock item costs if the *Inventory* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
@@ -42,7 +42,7 @@ You can change an item's valuation method only if the on-hand quantity of the it
 -   **Quantity Decimal Places**: For quantities
 -   **Price/Cost Decimal Places**: For prices and costs
 
-## Tracking of Costs at Warehouses and Locations {#_07036e51-9d23-4c59-bcc5-e13acf977b46 .section}
+## Tracking of Costs at Warehouses and Locations
 
 The calculation of costs for stock items is performed on a per-warehouse basis. When an item is received in a warehouse, its quantity and cost are recorded in a cost layer. In Acumatica ERP, a *cost layer* is a record of an item's quantity and cost that is calculated based on the valuation method assigned to this item.
 

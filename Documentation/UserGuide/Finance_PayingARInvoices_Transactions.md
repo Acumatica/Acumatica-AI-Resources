@@ -1,4 +1,4 @@
-# Invoice Payments: Generated Transactions {#_09e2cd88-64d5-4fe5-9d07-df6f805fc2f0 .concept}
+# Invoice Payments: Generated Transactions
 
 When you release a payment and its application, the system generates a general ledger batch to update the involved asset accounts with the payment transactions. The payment includes all the information the system needs to generate the batch. The following two accounts are usually involved:
 

@@ -1,8 +1,8 @@
-# Field States: General Information {#_d23ef630-ba57-4a55-b6cf-f98eec74f804 .concept}
+# Field States: General Information
 
 You can configure the states of fields, including default values and appearance, in a screen configuration.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,11 +10,11 @@ In this chapter, you will learn how to do the following:
 -   Specify the default value of a field
 -   Specify the set of values for a combo box field
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You define field states in a screen configuration when you need to configure the properties of this field for all workflows of a form.
 
-## Adding or Updating of a Field State { .section}
+## Adding or Updating of a Field State
 
 To add a state of a field to a screen configuration or update the state, you call the WithFieldStates method in the screen configuration \(that is, in the AddScreenConfigurationFor or UpdateScreenConfigurationFor method\). Inside the WithFieldStates method, you can do the following:
 
@@ -23,7 +23,7 @@ To add a state of a field to a screen configuration or update the state, you cal
 -   Replace the entire configuration of the field state by calling the Replace method
 -   Delete the entire configuration of the field state by calling the Remove method
 
-## Configuration of a Field State {#_fc3c7d35-b915-4583-a4b0-09de92768057 .section}
+## Configuration of a Field State
 
 You can configure a field state in the following ways:
 

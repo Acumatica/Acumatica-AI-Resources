@@ -1,8 +1,8 @@
-# Data from Multiple Data Sources: DAC Schema Browser {#_b6c3f441-a543-4345-a354-a27167f99d27 .concept}
+# Data from Multiple Data Sources: DAC Schema Browser
 
 During manual configuration of relations between tables when you are designing a generic inquiry or report, you can use the Acumatica ERP DAC Schema Browser to find information about any data access class \(DAC\). You can use this information to understand which DACs should be used in generic inquiries and reports, and how to join these DACs.
 
-## Ways to Access the Information {#section_z2t_bqk_xrb .section}
+## Ways to Access the Information
 
 You can open DAC Schema Browser by clicking one of the following:
 
@@ -12,11 +12,10 @@ You can open DAC Schema Browser by clicking one of the following:
 
 The system opens the DAC Schema Browser in a separate browser tab.
 
-## Parts of the DAC Schema Browser { .section}
+## Parts of the DAC Schema Browser
 
 The following screenshot demonstrates the DAC Schema Browser and its parts.
 
-![](Images/GI_Getting_Data_from_Multiple_Tables_DAC_Browser.png "DAC Schema Browser")
 
 1.  Search box \(see Item 1 in the screenshot\): By using this box, you can search for a DAC by its name or display name. When you search for a DAC by its name, you may notice that the search results contain more than one DAC. These DACs have the same names but different namespaces.
 

@@ -1,8 +1,8 @@
-# Submittals: General Information {#_24a07321-14a8-4bdc-b20f-f96aacd3a8e0 .concept}
+# Submittals: General Information
 
 The submittal functionality in Acumatica ERP Construction Edition is used to organize the tracking of the approval of the submittals related to documents and materials before they are fabricated and delivered for use in the project. With up-to-the minute knowledge of the progress and status of these approvals, you can ensure that the work on the project site uses approved specifications and materials.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -13,15 +13,15 @@ In this chapter, you will learn how to do the following:
 -   Create a new revision of a submittal
 -   Close the completed submittal
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You process a submittal when you want to track the process of verifying a document or material that is necessary for a particular construction project.
 
-## Submittal Types {#section_tkk_fc3_s4b .section}
+## Submittal Types
 
 If you need to categorize the submittals, you can create submittal types on the **Submittals** tab on the [Project Management Preferences](PJ_10_10_00.md) \(PJ101000\) form. In the **Submittal Types** table, the *Schedules* type is predefined. In the table, you add the necessary types of submittals; you can then filter the existing submittals by these types on the *Submittals \(PM3060PL\)* form.
 
-## Submittal Roles {#section_q2y_lvk_4pb .section}
+## Submittal Roles
 
 For each submittal, you can specify the people who perform functions in the processing of this particular submittal. You assign each specified person one of the following submittal roles:
 
@@ -30,7 +30,7 @@ For each submittal, you can specify the people who perform functions in the proc
 -   Approver: A person who reviews or needs to approve the submitted documents or materials. You can define multiple approvers for the submittal, if needed.
 -   Reviewer: A person who reviews the submitted documents or materials for informational purposes. You can define multiple reviewers for the submittal, if needed.
 
-## Submittal Processing Workflow { .section}
+## Submittal Processing Workflow
 
 You enter, modify, and process submittals on the [Submittals](PJ_30_60_00.md#) \(PJ306000\) form. The processing of a submittal in the system includes the following general steps:
 
@@ -53,7 +53,7 @@ You enter, modify, and process submittals on the [Submittals](PJ_30_60_00.md#) \
 8.  Informational review of the documents and materials \(optional\): After the submittal has been approved, the owner sends the submitted documents or materials for review to the reviewer.
 9.  Closing of the submittal: The owner indicates that the processing of the submittal has been completed by closing the submittal in the system. The submittal has the *Closed* status.
 
-## Entry of a Submittal {#section_bxw_cvk_4pb .section}
+## Entry of a Submittal
 
 When you create a new submittal \(acting as the owner\), in the Summary area of the [Submittals](PJ_30_60_00.md#) \(PJ306000\) form, you specify the applicable project and a short description of the submittal; optionally, you can also specify the submittal type and the project task and cost code to which the submittal relates. You can also specify the specification reference number, the related section in the specification, the date by which the submittal process must be finished, and the date when the documents and materials are required on site. On the **Description** tab, you can provide a more complete description of the submittal.
 
@@ -67,7 +67,7 @@ When you save the new submittal, the system assigns it the *New* status and auto
 
 When you have specified the summary settings and defined the people involved in the submittal workflow, you open the submittal by clicking **Open** on the form toolbar of the [Submittals](PJ_30_60_00.md#) form. The system changes the submittal's status to *Open*.
 
-## Submitting Documents {#section_cxw_cvk_4pb .section}
+## Submitting Documents
 
 To notify a person in the workflow about the need to perform a particular action, you send an email to each responsible person in the submittal by selecting the **Email To** check box on the **Submittal Workflow** tab of the [Submittals](PJ_30_60_00.md#) \(PJ306000\) form and clicking the **Email** button on the form toolbar. The system opens the [Email Activity](CR_30_60_15.md#) \(CR306015\) form in a pop-up window with the email address of this person or these people inserted in the **To** box. When you send the email, the system adds a row for this email on the **Activities** tab.
 
@@ -75,7 +75,7 @@ After you have sent an email to a submitter, in the corresponding row on the **S
 
 Once the person responsible for the submittal replies, the incoming email appears on the **Activities** tab of the [Submittals](PJ_30_60_00.md#) form. You change the status of the row on the **Submittal Workflow** tab to *Completed* and the reason in the Summary area to *Submitted* \(and attach the provided document to the submittal, if applicable\).
 
-## Approval or Rejection of Submitted Documents {#section_exw_cvk_4pb .section}
+## Approval or Rejection of Submitted Documents
 
 When the necessary documents or materials have been submitted, you send an email to the approver \(or multiple approvers\) of the submittal; you also attach the submittal to the email if it is in the form of a file. \(Physical materials are instead delivered to approvers.\)
 
@@ -85,7 +85,7 @@ Once an approver replies to the email, the incoming email appears on the **Activ
 
 If an approver rejects the submitted documents and asks for changes to be made in the submitted documents or materials, you change the status of the row on the **Submittal Workflow** tab to *Rejected*, and proceed to closing the submittal and creating a new submittal revision.
 
-## Reviewing of Submittal Documents {#section_fxw_cvk_4pb .section}
+## Reviewing of Submittal Documents
 
 After the submitted documents or materials have been approved, you send an email with the documents to the informational reviewer \(or multiple reviewers\), and on the [Submittals](PJ_30_60_00.md#) \(PJ306000\) form, change the status of the corresponding rows on the **Submittal Workflow** tab to *Pending*.
 
@@ -93,7 +93,7 @@ The system inserts the employee name of the reviewer in the **Ball in Court** bo
 
 Once a reviewer has completed the review and replies to the email, the incoming email appears on the **Activities** tab of the [Submittals](PJ_30_60_00.md#) form. You change the status of the corresponding row on the **Submittal Workflow** tab to *Completed*.
 
-## Closing of a Submittal {#section_hxw_cvk_4pb .section}
+## Closing of a Submittal
 
 Based on the replies received from approvers and reviewers, you close the submittal by clicking **Close** on the form toolbar of the [Submittals](PJ_30_60_00.md#) \(PJ306000\) form. In the **Details** dialog box, which opens, you specify the closure date in the **Date Closed** box, and one of the following closure reasons in the **Reason** box:
 

@@ -1,16 +1,16 @@
-# Customer Entity {#_2519b473-12ba-4caa-b723-7a4fcee7c4c7 .concept}
+# Customer Entity
 
 This topic provides reference information about the standard filtering and field mapping used for the *Customer* entity during the synchronization between Acumatica ERP and BigCommerce. The topic also contains information about the merging of duplicate records during the synchronization.
 
-## Customer Filtering { .section}
+## Customer Filtering
 
 During the export of the *Customer* entity from Acumatica ERP, the guest customer account—which is the account selected in the **Generic Guest Customer** box on the **Customers** tab of the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form—is excluded from synchronization.
 
-## Merging of Duplicates { .section}
+## Merging of Duplicates
 
 During the synchronization of the *Customer* entity \(for both the *Export* direction and the *Import* direction\), a customer record in the source system is merged with an existing customer record in the target system if both records have the same email address.
 
-## Customer Export Mapping { .section}
+## Customer Export Mapping
 
 The following table shows the mapping of Acumatica ERP fields to BigCommerce fields that is used during the export of customer data to BigCommerce.
 
@@ -37,7 +37,7 @@ The following table shows the mapping of Acumatica ERP fields to BigCommerce fie
 |Phone 1|**General** tab &gt; **Additional Account Info** section|**Phone Number**|**Edit Customer** page &gt; **Customer Address Book** section|This mapping applies if the *Customer Location* entity is activated on the **Entity Settings** tab of the [BigCommerce Stores](../Shared/../UserGuide/BC_20_10_00.md) \(BC201000\) form and the corresponding box is empty on the [Customer Locations](../Shared/../UserGuide/AR_30_30_20.md) \(AR303020\) form.|
 | | |**Address Type**|**Edit Customer Address** page &gt; **Customer Address Details** section|Default: *Residential*|
 
-## Customer Import Mapping { .section}
+## Customer Import Mapping
 
 The following table shows the mapping of BigCommerce fields to Acumatica ERP fields that is used during the import of customer data from BigCommerce.
 

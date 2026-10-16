@@ -1,8 +1,8 @@
-# Splitting Transactions: To Split a Transaction by Subaccounts {#_6fd903fe-3488-4503-9aa8-024151263e66 .task}
+# Splitting Transactions: To Split a Transaction by Subaccounts
 
 In this activity, you will learn how to reclassify a GL transaction and split it from one subaccount to multiple subaccounts.
 
-## Story {#section_sl3_mjv_vxb .section}
+## Story
 
 Suppose that on January 25, 2026, a GL batch for $620 was posted to the *62400 - Office Expenses* account and to the general *000-000* subaccount. The accountant then decided to split expenses between different departments so that reports would reflect the expense breakdown by departmental subaccounts. The departments in this batch have the following office expenses:
 
@@ -14,7 +14,7 @@ Suppose that on January 25, 2026, a GL batch for $620 was posted to the *62400 -
 
 Acting as a SweetLife accountant, you have to split the original transaction by subaccounts to record the applicable expenses for each department.
 
-## Configuration Overview {#section_vl3_mjv_vxb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed for the purposes of this activity:
 
@@ -24,11 +24,11 @@ In the *U100* dataset, the following tasks have been performed for the purposes 
 -   On the [Ledgers](GL_20_15_00.md) \(GL201500\) form, the *ACTUAL* ledger has been added.
 -   On the [Segmented Keys](CS_20_20_00.md) \(CS202000\) form, the *SUBACCOUNT* segmented key has been created.
 
-## Process Overview {#section_yl3_mjv_vxb .section}
+## Process Overview
 
 In this activity, you will find the GL transaction to be split on the [Account Details](GL_40_40_00.md) \(GL404000\) form. Then on the [Reclassify Transactions](GL_50_60_00.md) \(GL506000\) form, you will split the amounts of the original transaction. You will then release the transaction on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form. Finally, you will view the account balances that have been split by subaccounts on the [Account by Subaccount](GL_40_30_00.md) \(GL403000\) form.
 
-## System Preparation {#section_am3_mjv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -37,7 +37,7 @@ Before you begin performing the steps of this activity, do the following:
 3.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu button to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 4.  Make sure that the *SUBACCOUNT* segmented key has been modified, as described in [Subaccounts: Implementation Activity](../ImplementationGuide/config_Subaccounts_Implem_Activity.md).
 
-## Step 1: Finding the GL Transaction to be Split {#section_cm3_mjv_vxb .section}
+## Step 1: Finding the GL Transaction to be Split
 
 To find the GL transaction to be split, do the following:
 
@@ -51,7 +51,7 @@ To find the GL transaction to be split, do the following:
 5.  In the table, select the unlabeled check box for the line with the debit amount of $620.00.
 6.  On the form toolbar, click **Reclassify** to open the [Reclassify Transactions](GL_50_60_00.md) \(GL506000\) form with the line listed.
 
-## Step 2: Splitting the Transaction {#section_em3_mjv_vxb .section}
+## Step 2: Splitting the Transaction
 
 To split the transaction, perform the following actions:
 
@@ -97,12 +97,11 @@ To split the transaction, perform the following actions:
     -   **New Amount**: `150.00`
     Notice that the **New Amount** column for the original line has decreased by the sum of the new amounts of the five new lines and now shows *0.00*, as shown in the following screenshot.
 
-    ![](Images/activity_Finance_Splitting_Transaction_by_Subaccount.png "The transaction split by subaccounts before being processed")
 
 6.  On the form toolbar, click **Process**.
 7.  In the **Processing** dialog box, which opens, click the **Processed** tab to verify that the batch was generated. Do not close the **Processing** dialog box.
 
-## Step 3: Releasing the Transaction {#section_pm3_mjv_vxb .section}
+## Step 3: Releasing the Transaction
 
 To release the transaction, do the following:
 
@@ -110,7 +109,7 @@ To release the transaction, do the following:
 2.  On the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form, which opens, review the transaction, and click **Remove Hold** on the form toolbar.
 3.  On the form toolbar, click **Release** to release the batch.
 
-## Step 4: Reviewing the Account Balances by Subaccount {#section_rm3_mjv_vxb .section}
+## Step 4: Reviewing the Account Balances by Subaccount
 
 To review the account balances broken down by subaccount, do the following:
 

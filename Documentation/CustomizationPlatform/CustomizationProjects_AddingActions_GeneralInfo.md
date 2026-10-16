@@ -1,22 +1,22 @@
-# Actions on Forms: General Information {#_1e2a00c3-f622-4120-b3a8-5beaca58cac3 .concept}
+# Actions on Forms: General Information
 
 When you customize a form, you may need to add actions that invoke specific operations.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Add actions to a form, which appear on the form as buttons on the form toolbar and commands on the More menu
 -   Test the buttons and commands associated with the added actions
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You add actions to a form in the following cases:
 
 -   The default commands on the More menu and buttons on the form toolbar do not provide the needed functionality
 -   You want to give users quick access to operations that they need to perform regularly
 
-## Configuration of Actions for a Form { .section}
+## Configuration of Actions for a Form
 
 Before you start configuring actions for a particular form, you need to make sure that this form has been added to the customization project on the [Screens](../UserGuide/AU_20_10_00.md) page. You can configure the following types of actions:
 
@@ -27,15 +27,14 @@ Before you start configuring actions for a particular form, you need to make sur
 
 In this chapter, you will learn about the configuration of actions of the first two types. You can create graph actions only in the code \(see [Action Customization: General Information](../StudioDeveloperGuide/CodeCustomization_ActionsCustomization_GeneralInfo.md) for details\). For details on how to add actions that perform transitions in a workflow, see topics in the [Configuring Actions](../DeveloperGuide/WorkflowUI_Actions_Mapref.md) and [Implementing Workflow Actions](../DeveloperGuide/WorkflowAPI_Actions_Mapref.md) chapters.
 
-## Use of the Actions Page { .section}
+## Use of the Actions Page
 
 When you want to add an action to a form, you use the [Actions](../UserGuide/AU_20_10_50.md) page of the Customization Project Editor. The following screenshot shows the [Actions](../UserGuide/AU_20_10_50.md) page for the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form. This page contains predefined actions—that is, actions that are defined for the form in the out-of-the box system.
 
-![](images/CustomizationProjects_ConfiguringFormLayout_CasesActions.png "The Actions page of the Cases form")
 
 **Tip:** In the name that appears on the page, which is *CR306000 \(Cases\) Actions* in the screenshot, *Actions* is preceded by the form ID and then the form name in parentheses, so that you can always see at a glance which form's actions you are customizing.
 
-## Modification of the Form's Actions { .section}
+## Modification of the Form's Actions
 
 You modify a form's actions in any of the following ways:
 
@@ -64,7 +63,7 @@ You can also change the order in which the menu commands associated with the act
 
 If you have modified any predefined actions, you can view the changes by clicking **View Changes** on the More menu of the [Actions](../UserGuide/AU_20_10_50.md) page. You can also return the action properties to the original predefined state by clicking **Reverse Changes** on the More menu \(under **Changes**\).
 
-## Addition of Actions Defined in the Graph { .section}
+## Addition of Actions Defined in the Graph
 
 For a particular Acumatica ERP form, you can add actions that are defined in the graph that corresponds to the form. To add such action, you click **Add Existing Action** on the More menu of the [Actions](../UserGuide/AU_20_10_50.md) page opened for the form. By default, these actions are displayed on the form according to the properties of the [PXButton](https://help.acumatica.com/(W(124))/Help?ScreenId=ShowWiki&pageid=e1a6f32e-fa9b-010a-b85f-0b2c2ffa0fea) attribute specified for the action, which the *As Configured in Graph* option in the [Action Properties Dialog Box](../UserGuide/AU_20_10_50.md#_aa40d598-72fc-4232-b46b-ef3bc75825d2) indicates.
 

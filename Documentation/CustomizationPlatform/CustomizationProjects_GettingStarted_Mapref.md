@@ -1,4 +1,4 @@
-# Getting Started with Customization Projects {#_8c8555ba-2727-401a-97c3-8684dcd02667 .concept}
+# Getting Started with Customization Projects
 
 In this chapter, you will learn how to get started in your work with customization projects. This includes learning about the customization items that make up these projects and the tools that are used for the customization process. You will also learn about the system objects that can be modified or added. You will also become familiar with the creation of a customization project.
 

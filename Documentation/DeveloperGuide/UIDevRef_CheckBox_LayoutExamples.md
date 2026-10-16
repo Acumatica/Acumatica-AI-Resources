@@ -1,12 +1,11 @@
-# Check Box: Layout Examples {#_818730a5-318f-4e93-b5bc-f32a325f6935 .concept}
+# Check Box: Layout Examples
 
 In this topic, you can find examples of configurations of layouts with check boxes.
 
-## Check Box Next to a UI Element { .section}
+## Check Box Next to a UI Element
 
 Suppose that you want to place the **Canceled** check box next to the **Cancel By** box in the same row, as shown in the following screenshot.
 
-![](Images/UIDevRef_CheckBox_NextToField.png "A check box next to a box")
 
 You use the following code.
 
@@ -19,11 +18,10 @@ You use the following code.
 
 **Tip:** You do not need to specify `class="no-label"` for the second control to omit the empty label of the check box because `class="no-label"` is used by default for a qp-field tag inside a field tag.
 
-## Multiple Check Boxes in a Row { .section}
+## Multiple Check Boxes in a Row
 
 Suppose that you need to display three check boxes in a row, as shown in the following screenshot.
 
-![](Images/UIDevRef_CheckBox_MultipleInRow.png "Multiple check boxes in a row")
 
 The following code implements this layout.
 

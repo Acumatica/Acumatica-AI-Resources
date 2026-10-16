@@ -1,8 +1,8 @@
-# To Export Data to Excel {#_d0301d29-6e71-48cd-9019-83568684016b .task}
+# To Export Data to Excel
 
 You can export data from any table on any form to an Excel workbook.
 
-## To Export Data to Excel { .section}
+## To Export Data to Excel
 
 1.  Open the form whose data you want to export.
 2.  Use the form’s elements or navigation buttons to select the data displayed in the table.

@@ -1,16 +1,16 @@
-# AP Bill Payments: Process Activity {#_74572c90-a9a4-4ff5-89aa-5189e5d3c7fc .task}
+# AP Bill Payments: Process Activity
 
 The following activity will walk you through the process of creating a payment of an AP bill.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_icj_njv_vxb .section}
+## Story
 
 Suppose that on 1/30/2026, the SweetLife Fruits &amp; Jams company has to pay an AP bill in the amount of $177 for the purchase of office supplies from Spectra Stationery Office. The company usually pays such bills by check and sends the check to the vendor.
 
 Acting as a SweetLife accountant, you need to create a payment in the system, release it, and print the check to be sent to the vendor.
 
-## Configuration Overview {#section_lcj_njv_vxb .section}
+## Configuration Overview
 
 For the purposes of this activity, the following features have been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form:
 
@@ -22,11 +22,11 @@ On the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form, the **H
 
 On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *STATOFFICE \(Spectra Stationery Office\)* vendor has been configured. This vendor has the *CHECK* payment method specified as the default one.
 
-## Process Overview {#section_pcj_njv_vxb .section}
+## Process Overview
 
 In this activity, you will create a payment on the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form. You will then print the payment on the [Process Payments / Print Checks](AP_50_50_00.md) \(AP505000\) form and release the payment on the [Release Payments](AP_50_52_00.md) \(AP505200\) form.
 
-## System Preparation {#section_rcj_njv_vxb .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -36,7 +36,7 @@ To prepare the system, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026*. For simplicity, in this process activity, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Creating a Payment {#section_tcj_njv_vxb .section}
+## Step 1: Creating a Payment
 
 To create a payment, do the following:
 
@@ -57,9 +57,8 @@ To create a payment, do the following:
     The status of the payment has changed to *Pending Print*, as shown in the following screenshot.
 
 
-![](Images/activity_Finance_Paying_AP_Bill.png "The payment ready for printing")
 
-## Step 2: Printing the Payment {#section_xcj_njv_vxb .section}
+## Step 2: Printing the Payment
 
 To print the payment, do the following:
 
@@ -77,7 +76,7 @@ To print the payment, do the following:
     **Tip:** In a production setting, you would click **Print** on the form toolbar to print the check before closing the browser tab.
 
 
-## Step 3: Releasing the Payment {#section_cdj_njv_vxb .section}
+## Step 3: Releasing the Payment
 
 To release the payment, do the following:
 

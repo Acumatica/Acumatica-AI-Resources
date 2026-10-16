@@ -1,16 +1,16 @@
-# Accounts Payable: To Specify Accounts Payable Preferences {#_931e7038-3340-4b61-a88a-46de8670f376 .task}
+# Accounts Payable: To Specify Accounts Payable Preferences
 
 In this activity, you will learn how to specify the basic settings to be used in accounts payable.
 
-## Story { .section}
+## Story
 
 Suppose that as an administrator, you need to define preference settings for the accounts payable functionality. You need to specify the default vendor class and other settings that will make it easier for users to create AP documents.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Accounts Payable Preferences](../UserGuide/AP_10_10_00.md) \(AP101000\) form, you will specify accounts payable preferences.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start specifying the accounts payable preference settings, make sure that the following tasks have been performed in the system:
 
@@ -18,7 +18,7 @@ Before you start specifying the accounts payable preference settings, make sure 
 2.  The credit terms that are used by vendors have been created, as described in [Credit Terms: To Define Single-Installment Credit Terms](config_Basic_Company_Implem_Activity_Credit_Terms.md).
 3.  The default vendor class has been created, as described in [Accounts Payable: To Create a Vendor Class](config_Basic_Company_Implem_Activity_Vendor_Classes.md).
 
-## Step: Specifying the Accounts Payable Preferences { .section}
+## Step: Specifying the Accounts Payable Preferences
 
 To specify the required and recommended settings that apply to accounts payable, do the following:
 

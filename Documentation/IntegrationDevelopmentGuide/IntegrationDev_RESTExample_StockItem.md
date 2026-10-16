@@ -1,4 +1,4 @@
-# StockItem {#_f8def7ed-b7d2-4bd6-bec7-edea763f7741 .concept}
+# StockItem
 
 This chapter presents code examples showing requests that use the `StockItem` entity.
 

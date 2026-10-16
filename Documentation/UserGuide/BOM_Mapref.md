@@ -1,4 +1,4 @@
-# Managing Bills of Material {#_6309fa4d-9f77-449c-aa68-54af8805f9d9 .concept}
+# Managing Bills of Material
 
 The functionality of Acumatica ERP Manufacturing Edition is based upon the functionality related to bills of material. A *bill of material* is a list of the production operations required to build a single-level assembly or subassembly.
 

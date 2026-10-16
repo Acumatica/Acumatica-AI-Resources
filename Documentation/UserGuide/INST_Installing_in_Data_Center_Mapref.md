@@ -1,4 +1,4 @@
-# Installing Acumatica ERP in a Data Center {#_d47c488f-9d91-4309-9bd2-88f738ad291f .concept}
+# Installing Acumatica ERP in a Data Center
 
 In this chapter, you will find information about installing Acumatica ERP in a data center.
 

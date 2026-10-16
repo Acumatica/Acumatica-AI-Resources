@@ -1,10 +1,10 @@
-# Contract Template Creation: To Create a Regular Contract Template {#_056e6771-874e-4316-ba90-2014d0298deb .task}
+# Contract Template Creation: To Create a Regular Contract Template
 
 In this activity, you will learn how to create a contract template for a regular contract.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that from time to time, the SweetLife Fruits &amp; Jams company provides deployment, maintenance, and consulting services to different customers. In most cases, many of the terms of the contracts of SweetLife are the same. Thus, SweetLife needs to have one template in the system that the company's employees can use when creating an unlimited number of regular contracts.
 
@@ -14,25 +14,25 @@ Suppose that on *3/1/2026*, Unifruit asks the company to deploy juicers in the n
 
 Acting as a sales manager, you will create a contract template for a regular contract containing all the above terms. When you create a contract and select a contract template, the contract item or items specified for the template will be copied to the contract, along with other settings.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Contract Management* feature has been enabled.
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *UNIFRUIT \(Unifruit LLC\)* customer has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Contract Templates](CT_20_20_00.md) \(CT202000\) form, you will create a contract template for a regular service contract. The contract template will include the contract item *CI00000001 \(Deployment of juicers\)* that you have created in the [Contract Item Creation: To Create a Renewal Contract Item \(Regular Contract\)](config_Contract_Management_Implem_Activity_To_Configure_Contract_Item.md) activity.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
 1.  As a prerequisite to this activity, complete the [Contract Item Creation: To Create a Renewal Contract Item \(Regular Contract\)](config_Contract_Management_Implem_Activity_To_Configure_Contract_Item.md) to create the *CI00000001 \(Deployment of juicers\)* contract item you will use during the creation on the contract template.
 2.  Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as the sales manager David Chubb by using the *chubb* username and the *123* password.
 
-## Step: Creating a Contract Template {#section_bbw_kqp_dtb .section}
+## Step: Creating a Contract Template
 
 To create a contract template, do the following:
 
@@ -69,13 +69,11 @@ To create a contract template, do the following:
 
 6.  On the form toolbar, click **Save**. The settings of the contract template should look like those shown in the following screenshot.
 
-    ![](Images/ContractTemplate.png "Settings of the contract template")
 
 7.  To add the contract item to the contract template, on the **Details** tab, do the following:
     1.  On the table toolbar, click **Add Row**.
     2.  In the **Item Code** column, select *CI00000001 \(Deployment of juicers\)*. The system inserts the settings of the contract item in the corresponding columns \(as shown in the following screenshot\). You can change the item description and quantity within the allowed limits.
 
-        ![](Images/ContractTemplateDetails.png "Contract item added to the contract template")
 
 8.  In the Summary area, make sure the **Active** check box is selected. This indicates that contracts can be created based on the template.
 9.  On the form toolbar, click **Save**.

@@ -1,12 +1,12 @@
-# Matrix Items: Configuration Prerequisites {#_167be938-60e5-4d36-836a-d76b96284e52 .concept}
+# Matrix Items: Configuration Prerequisites
 
 Before starting to create matrix items, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 The ability to use the functionality of matrix items in the system becomes available when you enable the *Matrix Items* feature on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Configuring the System { .section}
+## Configuring the System
 
 Before you create matrix items in Acumatica ERP, you need to make sure that the following is done in the system:
 

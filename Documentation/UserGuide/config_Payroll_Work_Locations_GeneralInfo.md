@@ -1,18 +1,18 @@
-# Work Locations: General Information {#_fe9918f1-bf06-4b74-8a82-b94e7c9fe89b .concept}
+# Work Locations: General Information
 
 A work location includes an address and other information pertaining to a physical location where work is performed. This may be a business location of the employer, or it may be a job site where work is being carried out.
 
 Work locations are used in the calculation of state and local taxes and workers' compensation. All work locations where taxes may need to be withheld need to be set up, and the work associated with them needs to be tracked in payroll.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to create a work location.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 If your company has no branches, you create a single work location using the company's address. You configure multiple work locations if your company has business in multiple states and you need to calculate state and local taxes for each of those locations.
 
-## Configuration of Work Locations { .section}
+## Configuration of Work Locations
 
 You create and edit work locations on the [Work Locations](PR_10_10_40.md) \(PR101040\) form. For each location, you specify an address, including the postal code, which the system will use for the calculation of state and local taxes. You cannot edit a work location if it is already used in an employee class or employee payroll settings.
 

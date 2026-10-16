@@ -1,4 +1,4 @@
-# To Prepare an Environment {#_e8e3c952-463b-4c90-9829-5c6721523902 .concept}
+# To Prepare an Environment
 
 As you perform a customization task, you usually need to use three different sites:
 
@@ -8,7 +8,7 @@ As you perform a customization task, you usually need to use three different sit
 
 All environments are prepared in the same way as described in the following instruction.
 
-## To Prepare an Environment { .section}
+## To Prepare an Environment
 
 1.  Install Acumatica ERP.
 2.  In the Acumatica ERP Configuration wizard, which opens, select **Deploy a New Acumatica ERP Instance** to create a local instance of Acumatica ERP for the development environment.

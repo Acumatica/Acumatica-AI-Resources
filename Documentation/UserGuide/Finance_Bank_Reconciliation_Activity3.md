@@ -1,14 +1,14 @@
-# Bank Reconciliation: To Process a Bank Statement in OFX Format \(Part 2\) {#_0df7bd04-aac7-4cf7-ab1a-1b2d150e9ca5 .task}
+# Bank Reconciliation: To Process a Bank Statement in OFX Format \(Part 2\)
 
 In this activity, you will learn how to upload the second bank statement \(after the one that you worked with in [Bank Reconciliation: To Process a Bank Statement in OFX Format \(Part 1\)](Finance_Bank_Reconciliation_Activity2.md)\) and match the uploaded transactions to the existing documents or transactions in the system. This bank statement is also in OFX format.
 
-## Story {#section_kj2_kjv_vxb .section}
+## Story
 
 Suppose that on February 28, 2026, the accounting department of SweetLife Fruits &amp; Jams received another bank statement in Open Financial Exchange \(OFX\) format from KeyBank in the amount of $4,659.
 
 Acting as a SweetLife accountant, you need to perform bank statement reconciliation for February 2026 as you prepare to close the *02-2026* financial period in the general ledger. During reconciliation, you will match the records in the system \(the book balance\) and in the statement for the bank account \(the bank balance\).
 
-## Configuration Overview {#section_nj2_kjv_vxb .section}
+## Configuration Overview
 
 For the purposes of this lesson, the following features have been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form:
 
@@ -18,13 +18,13 @@ For the purposes of this lesson, the following features have been enabled on the
 
 Also, on the [Cash Accounts](CA_20_20_00.md) \(CA202000\) form, the *10210WH - KeyBank Checking* account has been created for the *HEADOFFICE \(SweetLife Head Office and Wholesale Center\)* branch.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will upload the OFX bank statement on the [Import Bank Transactions](CA_30_65_00.md) \(CA306500\) form and match the uploaded transactions with the transactions in the system on the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form.
 
 On this form, you will enter a transaction that reflects an amount included in the bank statement that has not been entered into the system. You will also create a disbursement cash transaction and match a receipt transaction to a debit adjustment found in the system. Finally, you will prepare a reconciliation statement on the [Reconciliation Statements](CA_30_20_00.md) \(CA302000\) form and review the transactions that have been reconciled.
 
-## System Preparation {#section_vj2_kjv_vxb .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -36,7 +36,7 @@ To prepare the system, do the following:
 4.  Download the `Bank_Statement_KeyBank_02282026.ofx` file, which you will import in Step 2.
 5.  Be sure that you have completed the following prerequisite activity: [Bank Reconciliation: To Process a Bank Statement in OFX Format \(Part 1\)](Finance_Bank_Reconciliation_Activity2.md).
 
-## Step 1: Uploading the Bank Statement for the Cash Account {#section_dk2_kjv_vxb .section}
+## Step 1: Uploading the Bank Statement for the Cash Account
 
 To upload the 2/28/2026 bank statement for the *10210WH - KeyBank Checking* cash account, do the following:
 
@@ -51,7 +51,6 @@ To upload the 2/28/2026 bank statement for the *10210WH - KeyBank Checking* cash
 
     The **Statement Date**, **Start Balance Date**, **End Balance Date**, and **Ending Balance** values have been imported from the OFX file. Because this is not the first statement for the cash account, the system uses the **Ending Balance** value of the previous bank statement as the current **Beginning Balance** value, as shown in the following screenshot.
 
-    ![](Images/activity_Finance_Bank_Rec_Uploaded_Bank_Transactions_Feb.png "February bank transactions uploaded from the OFX file")
 
 5.  Leave the **Beginning Balance** box as is \(*4,704.00*\).
 6.  On the form toolbar, click **Process Transactions**.
@@ -61,7 +60,7 @@ To upload the 2/28/2026 bank statement for the *10210WH - KeyBank Checking* cash
 7.  In the left pane, click the $520 transaction.
 8.  On the **Match to Payments** tab, review the payment that the system has found. Select the check box in the **Matched** column for this payment.
 
-## Step 2: Processing a Payment from a Customer {#section_pk2_kjv_vxb .section}
+## Step 2: Processing a Payment from a Customer
 
 To process the $415 payment from a customer, while remaining on the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form, do the following:
 
@@ -77,10 +76,9 @@ To process the $415 payment from a customer, while remaining on the [Process Ban
 
     The $415 payment transaction has the **Matched** check box selected because you have specified the information from which the system will create a payment when you run the processing of transactions. The following screenshot shows the matched transaction.
 
-    ![](Images/activity_Finance_Bank_Rec_Payment_from_Customer_Feb.png "A bank transaction matched to a new payment")
 
 
-## Step 3: Matching a Transaction to a Debit Adjustment { .section}
+## Step 3: Matching a Transaction to a Debit Adjustment
 
 To match a $125 receipt transaction to a debit adjustment, while remaining on the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form, do the following:
 
@@ -90,12 +88,11 @@ To match a $125 receipt transaction to a debit adjustment, while remaining on th
 4.  In the left pane, click the $125 transaction.
 5.  On the **Match to Invoices** tab, the system has displayed a debit adjustment, as shown in the following screenshot.
 
-    ![](Images/activity_Finance_Bank_Rec_Matched_to_DrAdj_Feb.png "A debit adjustment that can be matched to a bank transaction")
 
 6.  In the right pane, select the **Matched** check box for the debit adjustment.
 7.  On the form toolbar, click **Save**.
 
-## Step 4: Creating an AR Refund with an Open Balance {#section_al2_kjv_vxb .section}
+## Step 4: Creating an AR Refund with an Open Balance
 
 To create an AR refund with an open balance—that is, unapplied to any document—while remaining on the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form, do the following:
 
@@ -109,11 +106,10 @@ To create an AR refund with an open balance—that is, unapplied to any document
 
     Notice the $50 amount in the **Unapplied Balance** box in the Summary area, as shown in the following screenshot. When the system creates an AR refund based on the disbursement transaction, the document with the *Refund* type will not be applied to any document and will have an open balance.
 
-    ![](Images/activity_Finance_Bank_Rec_AR_Refund_Feb.png "A refund to be created for the bank transaction")
 
 4.  On the form toolbar, click **Save**.
 
-## Step 5: Creating a Disbursement Cash Transaction {#section_gl2_kjv_vxb .section}
+## Step 5: Creating a Disbursement Cash Transaction
 
 To create a disbursement cash transaction, while remaining on the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form, do the following:
 
@@ -129,7 +125,7 @@ To create a disbursement cash transaction, while remaining on the [Process Bank 
     The $15 bank service fee transaction has the **Matched** check box selected because you have specified the information the system will use to create the document when you run the processing of transactions.
 
 
-## Step 6: Preparing Bank Transactions for Reconciliation {#section_ll2_kjv_vxb .section}
+## Step 6: Preparing Bank Transactions for Reconciliation
 
 To process the bank transactions in preparation for reconciliation, while remaining on the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form, do the following:
 
@@ -154,7 +150,7 @@ To process the bank transactions in preparation for reconciliation, while remain
     **Attention:** In the **Reference Nbr.** column, you can find the reference numbers of the documents to which the bank transactions have been matched.
 
 
-## Step 7: Preparing the Reconciliation Statement {#section_sl2_kjv_vxb .section}
+## Step 7: Preparing the Reconciliation Statement
 
 To prepare the reconciliation statement for February 2026, do the following:
 
@@ -172,7 +168,6 @@ To prepare the reconciliation statement for February 2026, do the following:
 
     The **Reconciled Balance** is the same as the **Statement Balance**, as shown in the following screenshot; now you can release the reconciliation statement.
 
-    ![](Images/activity_Finance_Bank_Rec_Reconciled_Transactions_Feb.png "Reconciled bank transactions for February")
 
 6.  On the form toolbar, click **Save** to save the reconciliation statement.
 7.  On the form toolbar, click **Remove Hold** and then click **Release** to release the reconciliation statement.

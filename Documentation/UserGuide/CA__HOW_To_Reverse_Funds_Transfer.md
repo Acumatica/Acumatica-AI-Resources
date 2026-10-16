@@ -1,8 +1,8 @@
-# To Correct a Funds Transfer {#_88208693-bacd-485b-ac60-6c2502be3df5 .task}
+# To Correct a Funds Transfer
 
 If errors have been made in a funds transfer that has the *Released* status, you can correct these errors by reversing it. You use the [Funds Transfers](CA_30_10_00.md) \(CA301000\) form to reverse the funds transfer.
 
-## To Reverse a Funds Transfer {#section_pnc_kjv_vxb .section}
+## To Reverse a Funds Transfer
 
 1.  Open the [Funds Transfers](CA_30_10_00.md) \(CA301000\) form.
 2.  In the **Transfer Number** box in the Summary area, select the number of the funds transfer that you want to reverse.

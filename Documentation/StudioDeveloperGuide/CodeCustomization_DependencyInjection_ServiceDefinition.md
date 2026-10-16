@@ -1,12 +1,12 @@
-# Dependency Injection: Service Definition {#_8eaa39d4-1b6f-45f8-987d-8fa27d027c45 .concept}
+# Dependency Injection: Service Definition
 
 In this topic, you’ll learn about defining the service for dependency injection and injecting the current context into the service.
 
-## Defining the Service for Dependency Injection { .section}
+## Defining the Service for Dependency Injection
 
 To define the service for dependency injection, you define an interface for the service and a class that implements this interface. The following example shows a definition of a service for dependency injection.
 
-```language-csharp
+```csharp
 using System;
 using Autofac;
 using PX.Data;
@@ -29,7 +29,7 @@ namespace MyNamespace
 }
 ```
 
-## Injecting the Current Context into the Service { .section}
+## Injecting the Current Context into the Service
 
 You may need to support the automatic injection of the current context—such as the current PXGraph instance—into the service. To do this, you add a constructor of the implementation class of the service with the following context as the needed parameters:
 
@@ -41,7 +41,7 @@ You may need to support the automatic injection of the current context—such as
 
 The following code shows examples of constructors in the implementation class.
 
-```language-csharp
+```csharp
 public class MyService : IMyService
 {
     //A constructor with PXEventSubscriberAttribute

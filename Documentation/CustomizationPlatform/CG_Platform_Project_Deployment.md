@@ -1,10 +1,9 @@
-# Deployment of a Customization Result {#_2724d9c3-d60e-4e3d-8e54-f2613c343ed6 .concept}
+# Deployment of a Customization Result
 
 Once you’ve finished a customization project, you can export the project as a deployment package that can then be imported and published as a customization project in any Acumatica ERP instance.
 
 The following diagram shows the deployment of the result of customization to a target system.
 
-![](images/dev_targ_systems.png "Deployment of a customization result to a target system")
 
 A deployment package is a redistributable `.zip` file that includes the full content of a customization project. A deployment package consists of the `project.xml` file and any custom files that you have added to the project, such as external assemblies and custom ASPX pages. You can manually edit the `project.xml` file in an XML Editor in the file system. However we recommend that you modify the project items in the easiest and most reliable way: by using the [Customization Project Editor](../UserGuide/SM_20_45_10.md).
 

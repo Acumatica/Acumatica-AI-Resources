@@ -1,25 +1,25 @@
-# Preparation of Dunning Letters: General Information {#_f7d716c4-e289-4904-a23d-0873ce080a5f .concept}
+# Preparation of Dunning Letters: General Information
 
-In Acumatica ERP, the [Dunning Letter](AR_66_10_00.md) \(AR661000\) report is used to generate a printed version of a dunning letter. You can control the look and feel of this report in addition to the reporting functions. You can use the default report or customize the report by using the Acumatica Report Designer. You can provide settings specifying who will receive the report-based email and which format should be used, as well as possibly a specific template to be used as the email body \(for email personalization\). For details on modifying reports, see the [Acumatica Report Designer Guide](ReportDesigner_Main.md).
+In Acumatica ERP, the [Dunning Letter](AR_66_10_00.md) \(AR661000\) report is used to generate a printed version of a dunning letter. You can control the look and feel of this report in addition to the reporting functions. You can use the default report or customize the report by using the Acumatica Report Designer. You can provide settings specifying who will receive the report-based email and which format should be used, as well as possibly a specific template to be used as the email body \(for email personalization\). For details on modifying reports, see the [Acumatica Report Designer](ReportDesigner_Main.md).
 
-## Learning Objectives {#section_eb2_hjv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Run and review the [AR Aging](AR_63_10_00.md) \(AR631000\) report
 -   Prepare dunning letters by using the *By Customer* dunning process
 
-## Applicable Scenarios {#section_gb2_hjv_vxb .section}
+## Applicable Scenarios
 
 You prepare and send dunning letters if you want to remind your customers about overdue documents they must pay.
 
-## Appearance and Content of Dunning Letters {#section_ib2_hjv_vxb .section}
+## Appearance and Content of Dunning Letters
 
 By using the [Dunning Letter](AR_66_10_00.md) \(AR661000\) report form, you can print a dunning letter by using the **Print** action on the report toolbar or email it by using the **Send** action. By default, the system generates an email based on the *DunningLetterNotification* notification template, which you can edit by using the [Email Templates](SM_20_40_03.md) \(SM204003\) form.
 
 If you want to print or email multiple letters at once, you can use the [Print/Release Dunning Letters](AR_52_20_00.md) \(AR522000\) mass-processing form. The mass-emailing process requires the mailing with the *DUNNINGLETTER* identifier to be configured for the customer accounts that you plan to notify. For details on mailings, see [Mailings for Customers: General Information](Finance_PredefinedMailings_Customers_GeneralInfo.md). For details on the configuration of a dunning letter mailing, see [To Set Up a Dunning Letter Mailing](AR__HOW_Configure_DunningLetter_Mailing.md).
 
-## Documents Included in Dunning Letters {#section_lb2_hjv_vxb .section}
+## Documents Included in Dunning Letters
 
 You can include the following documents in dunning letters, in addition to overdue and open invoices and debit memos:
 
@@ -50,7 +50,7 @@ The amounts of the following documents that decrease the customer's balance are 
 -   Payments
 -   Prepayments
 
-## Letter Preparation {#dl_prepare .section}
+## Letter Preparation
 
 You use the [Prepare Dunning Letters](AR_52_10_00.md) \(AR521000\) form to prepare dunning letters. The table on this form lists the customer accounts that have at least one overdue document. You can generate dunning letters for all listed customers or only those you select.
 
@@ -65,14 +65,14 @@ If the *Multicurrency Accounting* feature is enabled on the [Enable/Disable Feat
 -   If the check box is cleared for the customer, the dunning letter is created in the customer's currency. This currency is specified in the **Currency ID** box on the **Financial** tab of this form.
 -   If the check box is selected for the customer, the dunning letter is created in your company’s base currency. This currency is specified in the **Base Currency ID** box on the **Company Details** tab of the [Companies](CS_10_15_00.md) \(CS101500\) form for the company to which you are signed in.
 
-## Dunning Letter Statuses {#section_qb2_hjv_vxb .section}
+## Dunning Letter Statuses
 
 During the processing of a dunning letter, the system changes the status of the letter as follows:
 
 -   *Released*: This status indicates that the dunning letter has been prepared and released and can be printed, sent by email, or voided. If a nonzero dunning fee was specified for the level of this letter on the **Dunning** tab of the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, the system also creates the invoice for the dunning fee during the release of the dunning letter. If the **Automatically Release Dunning Fee Documents** check box is selected on the **Dunning** tab of the [Accounts Receivable Preferences](AR_10_10_00.md) form, the system automatically releases the invoice when the corresponding dunning letter is released.
 -   *Voided*: This status indicates that the dunning letter has been voided, the system decreases the dunning level for each document that was included to this letter, and will process these documents when you prepare a dunning letter for this customer account again.
 
-## Letter Previewing and Sending {#dl_printing .section}
+## Letter Previewing and Sending
 
 You use the [Print/Release Dunning Letters](AR_52_20_00.md) form to print released dunning letters or initiate the emailing of them. On this form, you can print dunning letters to be sent through postal mail, or generate emails that you can preview before sending them on the [Emails Pending Processing](SM_50_70_00.md) \(SM507000\) form.
 

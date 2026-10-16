@@ -1,10 +1,10 @@
-# Processing of Inventory Receipts: General Information {#_3454fa73-07da-44be-bee8-414fb274bbc5 .concept}
+# Processing of Inventory Receipts: General Information
 
 If the *Inventory Operations* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can perform the automated receipt of inventory items to a particular warehouse location by using a barcode scanner or a mobile device with a scanning option.
 
 In this topic, you will read about the workflow for the automated receipt of inventory items in Acumatica ERP. The workflow in this topic is based on the assumption that your system has the recommended configuration described in [Processing of Inventory Receipts: Implementation Checklist](WMS_Scan_and_Receive_Implem_Checklist.md).
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -12,15 +12,14 @@ In this chapter, you will do the following:
 -   Learn the recommended settings that you can specify to make the system fit your business requirements
 -   Process a receipt of items to a warehouse in automated mode
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 You can use automated processing of inventory receipts when you need to move items to a warehouse location and, in your organization, all items and locations have barcodes and warehouse workers are equipped with barcode scanners or mobile devices with a scanning option.
 
-## Workflow for the Automated Receiving of Items { .section}
+## Workflow for the Automated Receiving of Items
 
 The automated processing of receiving inventory items involves the actions shown in the following diagram.
 
-![](Images/diag_WMS_Scan_Receive.png)
 
 To receive items by using a barcode scanner or a mobile device with a scanning option, you perform the following steps:
 

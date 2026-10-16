@@ -1,4 +1,4 @@
-# Extending Scan Components {#_938b6f05-4438-48a4-b9ca-6959f156f441 .concept}
+# Extending Scan Components
 
 In this chapter, you will learn how to customize scan components of existing forms. You will also learn how to alter predefined components before adding them to a custom form.
 

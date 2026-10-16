@@ -1,4 +1,4 @@
-# Interbranch Invoices with Balancing: Generated Transactions {#_91f9806c-66d1-455b-ac23-4b33ba3646d0 .concept}
+# Interbranch Invoices with Balancing: Generated Transactions
 
 When you release an invoice between branches that need to be balanced, the system generates a transaction in the general ledger. When this batch is posted, the system adds balancing entries to it. You can view the details of the batch associated with an invoice by clicking the link in the **Batch Nbr.** box on the **Financial** tab of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. The system opens the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form with the batch selected.
 

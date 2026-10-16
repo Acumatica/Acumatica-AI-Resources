@@ -1,8 +1,8 @@
-# Selling Matrix Items: Export of Product Availability Data {#_926a89ce-cbb8-4fe9-a5aa-3aaaf9a60e8e .concept}
+# Selling Matrix Items: Export of Product Availability Data
 
 Acumatica ERP Retail Edition provides you with the ability to track the available quantities of template items \(and matrix items based on them\) that you sell in the BigCommerce store and maintain in Acumatica ERP. You have the flexibility to specify which quantities of items should be included in calculations of the quantities available for sale in the online store.
 
-## Learning Objectives {#_2d17801d-5397-4a97-9fb3-f815abbe79e5 .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,11 +10,11 @@ In this chapter, you will learn how to do the following:
 -   Set up quantity tracking for template and matrix items exported to the BigCommerce store
 -   Synchronize the available quantities of exported template and matrix items for which quantity tracking is turned on
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You track available quantities of template items and matrix items exported to the BigCommerce store if you want to make these items available for purchase by shoppers through the storefront only if there is a sufficient quantity in stock.
 
-## Configuration of Product Availability Synchronization { .section}
+## Configuration of Product Availability Synchronization
 
 Before you start exporting available quantities of stock items between Acumatica ERP and a BigCommerce store, you need to perform the following general steps:
 
@@ -22,7 +22,7 @@ Before you start exporting available quantities of stock items between Acumatica
 2.  Specify the quantity calculation settings for the store on the **Inventory** tab of the [BigCommerce Stores](BC_20_10_00.md) form. For details, see [Product Availability: Calculation of Available Quantities](Commerce_BC_Syncing_Product_Availability_Quantity_Calculation.md).
 3.  Determine the template and matrix items for which available quantities should be exported.
 
-## Tracking Available Quantities of Exported Template and Matrix Items { .section}
+## Tracking Available Quantities of Exported Template and Matrix Items
 
 You can track available quantities of template items exported to a BigCommerce store and make them available for purchase via the storefront only when they are in stock. You can also determine how the system should handle items that go out of stock.
 
@@ -44,13 +44,13 @@ If you select the *Set as Available \(Track Qty.\)* option in the **Availability
 
 The available quantity of an exported template item is calculated as a sum of available quantities of its exported matrix items. To track the available quantity of an exported matrix item, on the **eCommerce** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form, you select *Set as Available \(Track Qty.\)* in the **Availability** box. With this setting selected, you need to specify the action that the system should perform with matrix item whose quantity becomes zero. If you select *Set as Unavailable* in the **When Qty. Unavailable** box, the **Purchasable** check box will be cleared for the matrix item. With any other option specified in this box, the check box will remain selected.
 
-## Synchronization of Availability Qualities { .section}
+## Synchronization of Availability Qualities
 
 The availability settings of a template item in the BigCommerce store are updated as part of the synchronization of the *Template Item* entity. During the export, the system updates the availability and visibility settings of each item exported to BigCommerce based on the settings specified for the template item on the **eCommerce** tab of the [Template Items](IN_20_30_00.md) \(IN203000\) form, for the matrix items on the **eCommerce** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form or on the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form and for the store on the **Inventory** tab of the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form.
 
 For template items whose quantities are tracked and have been synchronized with the BigCommerce store, during the synchronization of the *Template Item* entity, the system also checks if each of its matrix item is in stock. If the item has no available quantity \(that is, its calculated quantity is less than or equal to zero\), the system also updates the item's purchasability status according to the **When Qty. Unavailable** setting specified for the matrix item on the **eCommerce** tab of the [Stock Items](IN_20_25_00.md) form. If neither of the matrix items is in stock and the template item has no available quantity, the system updates the template item's purchasability status according to the **When Qty. Unavailable** setting specified for the template item on the **eCommerce** tab of the [Stock Items](IN_20_25_00.md) form.
 
-## Units of Measure of Available Item Quantities { .section}
+## Units of Measure of Available Item Quantities
 
 An item's available quantity is exported to the BigCommerce store in the item's sales unit of measure, which is defined on the **General** tab of the [Stock Items](../Shared/../UserGuide/IN_20_25_00.md) \(IN202500\) form. If an item's base UOM is different from its sales UOM, during the synchronization of the *Product Availability* entity, the item's available quantity is converted to the sales UOM before being exported to the BigCommerce store.
 

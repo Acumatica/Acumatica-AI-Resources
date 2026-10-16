@@ -28,20 +28,20 @@ exception occurred (the exception text goes to stdout).
 `BuildProject` → `UploadCustomization` → `PublishCustomization`. Never manually zip an
 export-to-folder layout — that layout is not the package `.zip` format the tool expects.
 
-```bash
+```powershell
 PX.CommandLine.exe /website "<site root>" /method BuildProject /in "<project folder>" /out "<package.zip>"
 ```
 
 (requires administrator privileges), then:
 
-```bash
+```powershell
 PX.CommandLine.exe /website "<site root>" /method UploadCustomization /path "<package.zip>" /name "ProjectName" /replace
 ```
 
 (`/name` is optional — defaults to the package file name without extension; `/replace` only needed if
 a project with that name already exists), then:
 
-```bash
+```powershell
 PX.CommandLine.exe /website "<site root>" /method PublishCustomization /name "ProjectName" /merge
 ```
 

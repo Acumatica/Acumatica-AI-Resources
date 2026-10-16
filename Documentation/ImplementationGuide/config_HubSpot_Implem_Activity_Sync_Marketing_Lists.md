@@ -1,12 +1,12 @@
-# Integration with HubSpot: To Synchronize Marketing List {#_f35be88c-0862-4f0e-9bb3-5fae3b467adc .task}
+# Integration with HubSpot: To Synchronize Marketing List
 
 In this activity, you will learn how to configure the synchronization of marketing list headers and marketing list membership between HubSpot and Acumatica ERP.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to the necessary tenant.
 
-## Step 1: Verifying the Marketing List Import Scenario { .section}
+## Step 1: Verifying the Marketing List Import Scenario
 
 To verify and modify \(if necessary\) the import scenario used for marketing lists, do the following:
 
@@ -20,7 +20,7 @@ To verify and modify \(if necessary\) the import scenario used for marketing lis
 5.  On the **Source Restrictions** tab, check the restrictions, and change them if necessary.
 6.  On the form toolbar, click **Save**.
 
-## Step 2: Verifying the Marketing List Export Scenario { .section}
+## Step 2: Verifying the Marketing List Export Scenario
 
 To verify and modify \(if necessary\) the export scenario used for marketing lists, do the following:
 
@@ -31,7 +31,7 @@ To verify and modify \(if necessary\) the export scenario used for marketing lis
 5.  On the **Source Restrictions** tab, check the restrictions, and change them if necessary.
 6.  On the form toolbar, click **Save**.
 
-## Step 3: Configuring the Real-Time Synchronization Profile for Marketing Lists { .section}
+## Step 3: Configuring the Real-Time Synchronization Profile for Marketing Lists
 
 Configure the real-time synchronization for marketing lists as follows:
 
@@ -44,7 +44,7 @@ Configure the real-time synchronization for marketing lists as follows:
     5.  In the **Master Source** column, select the source system.
 3.  On the form toolbar, click **Save**.
 
-## Step 4: Verifying the Synchronization { .section}
+## Step 4: Verifying the Synchronization
 
 Verifythe systems are correctly integrated with each other as follows:
 
@@ -55,7 +55,7 @@ Verifythe systems are correctly integrated with each other as follows:
 5.  In Acumatica ERP, return to the [Marketing Lists](../UserGuide/CR_20_40_00.md) form. On the table toolbar of the **HubSpot** tab, click **Sync with HubSpot**.
 6.  Verify that the value modified in HubSpot has been also modified in Acumatica ERP.
 
-## Step 5: Synchronizing Out-of-Sync Data { .section}
+## Step 5: Synchronizing Out-of-Sync Data
 
 Do the following to synchronize the data that has become out of sync
 
@@ -67,7 +67,7 @@ Do the following to synchronize the data that has become out of sync
     **Attention:** The process may be time-consuming if a large number of records is involved.
 
 
-## Step 6: Starting the Real-Time Synchronization Process { .section}
+## Step 6: Starting the Real-Time Synchronization Process
 
 To start the real-time synchronization, perform the following instructions:
 
@@ -75,7 +75,7 @@ To start the real-time synchronization, perform the following instructions:
 2.  In the table, select the Included check box in the row of the *Marketing List* entity.
 3.  On the form toolbar, click **Start**.
 
-## Step 7: Synchronizing the Marketing List Membership with the HubSpot Contact List { .section}
+## Step 7: Synchronizing the Marketing List Membership with the HubSpot Contact List
 
 Do the following:
 
@@ -92,7 +92,7 @@ Do the following:
 
 6.  On the form toolbar, click **Process All**.
 
-## Step 8: Synchronizing the HubSpot Contact List Membership with Acumatica Marketing List Membership { .section}
+## Step 8: Synchronizing the HubSpot Contact List Membership with Acumatica Marketing List Membership
 
 Do the following:
 

@@ -1,15 +1,15 @@
-# Barcode Scan States: Input State {#_63e66759-f99a-4f89-8166-94311a0deed5 .concept}
+# Barcode Scan States: Input State
 
 The input state is a barcode scan state that is used to transform a barcode to a particular entity, validate it and then apply it to the barcode-driven form, without changing a certain document.
 
-## Required Properties { .section}
+## Required Properties
 
 For an input state, you must define the following required properties:
 
 -   Code, which is the state identifier.
 -   StatePrompt, which is an input prompt. The input prompt should clearly explain what is expected from a user.
 
-## Cycle-Processing Methods { .section}
+## Cycle-Processing Methods
 
 You can also implement the following additional methods, which affect the order in which the states are executed: IsStateActive\(\) and IsStateSkippable\(\).
 
@@ -36,7 +36,6 @@ For details about these methods, see [EntityState&lt;TScanBasis,TEntity&gt; Clas
 
 The following diagram illustrates the processing cycle.
 
-![](Images/diag_WMSEngine_EntityState.Process.png "Input processing cycle")
 
 **Parent topic:**[Implementing Barcode Scan States](../DeveloperGuide/WMSEngine_ScanState_Mapref.md)
 

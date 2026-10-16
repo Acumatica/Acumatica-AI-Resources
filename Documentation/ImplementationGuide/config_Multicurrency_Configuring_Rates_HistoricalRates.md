@@ -1,10 +1,10 @@
-# Configuration of Rate Types and Rates: Historical Rates {#_892a6c30-1202-4fb5-baf0-6926435bc3a6 .concept}
+# Configuration of Rate Types and Rates: Historical Rates
 
 In Acumatica ERP, currency exchange rates can be specified as often as is needed for a particular currency pair. Each currency rate that is created is effective for a particular date range, after which it is considered a *historical rate*. A historical rate can be used as the effective rate for operations that have taken place during the date range when the rate was effective.
 
 In this topic, you will read about how the effective date range is defined, how to view historical rates in the system, and how to use historical rates.
 
-## The Date Range of a Currency Rate { .section}
+## The Date Range of a Currency Rate
 
 Each currency rate is effective for a particular date range, which is defined based on the setting for the related currency rate type in the **Days Effective** column on the [Currency Rate Types](../UserGuide/CM_20_10_00.md) \(CM201000\) form as follows:
 
@@ -13,7 +13,7 @@ Each currency rate is effective for a particular date range, which is defined ba
 
 When you enter the next record for the same rate type or when the specified number of effective days has passed, the rate becomes a *historical rate*.
 
-## Viewing of the Historical Currency Rates { .section}
+## Viewing of the Historical Currency Rates
 
 You can view the historical currency rates you most need at a given time by using targeted reports and forms:
 
@@ -30,7 +30,7 @@ You can view the historical currency rates you most need at a given time by usin
     On this form, select the target currency \(**To Currency**\) and the required date \(**Effective Date**\). The list of historical rates that were effective on the selected date appears in the table on the **Effective Currency Rates** tab. The list includes the rates \(and the currency rate types\) for all the source currencies \(**From Currency** column\) that have been specified for the target currency.
 
 
-## Use of the Historical Currency Rates { .section}
+## Use of the Historical Currency Rates
 
 You can use historical rates as follows:
 

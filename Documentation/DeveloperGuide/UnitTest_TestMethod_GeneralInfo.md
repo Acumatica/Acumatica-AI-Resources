@@ -1,8 +1,8 @@
-# Test Method: General Information {#_2c830385-d5fe-4138-9cf0-69b95e249bb3 .concept}
+# Test Method: General Information
 
 In a test class, which is intended for testing a graph or graph extension, you will create test methods, each of which will test a particular functionality. Through the xUnit.net library, which you will use for creating unit tests in the activities of this guide, you can create test methods without parameters and test methods with parameters. In addition to the presence or absence of parameters, these kinds of methods differ in the attributes they have and the number of unit tests they produce.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -15,11 +15,11 @@ In this chapter, you will learn how to do the following:
 -   Set values for the test parameters
 -   Create unit tests for graph extensions
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create a test method if you want to test some business logic of a graph or graph extension.
 
-## Development of a Test { .section}
+## Development of a Test
 
 A unit test is an automated test written by a software developer that tests some independent unit of code. A unit test usually launches some functionality of a software component and then compares the resulting values with the expected values. As you develop unit tests, the best practice is to create them according to the standard *AAA* pattern:
 
@@ -33,14 +33,14 @@ In the arrange part, you initialize the context until actions can be correctly e
 
 Some automated tests, typically referred to as *integration tests*, validate the interaction of multiple independent components. With Acumatica Unit Test Framework, you can implement these tests and check the interaction of multiple components within a graph.
 
-## Creation of Test Methods Without Parameters { .section}
+## Creation of Test Methods Without Parameters
 
 You create a test method without parameters as follows:
 
 -   You declare a method as `public void`.
 -   You assign the `[Fact]` attribute to the test method. This produces one test for the test method.
 
-## Creation of Test Methods with Parameters { .section}
+## Creation of Test Methods with Parameters
 
 When you create a test method with parameters, you declare it as `public void` and assign it the needed parameters. You assign the `[Theory]` attribute to the test method and add as many `[InlineData]` attributes as the method has parameters. This produces one test for each set of parameters provided in the `[InlineData]` attribute.
 
@@ -48,17 +48,17 @@ In each `[InlineData]` attribute, you specify constants separated by commas as t
 
 You can provide values for the method parameters in the `[ClassData]` or `[MemberData]` attributes instead of the `[InlineData]` attributes.
 
-## Testing of the Business Logic of a Graph { .section}
+## Testing of the Business Logic of a Graph
 
 In the test method, you create an instance of the tested graph by calling the `PXGraph.CreateInstance<>` generic method. In this generic method, you use the graph class as the type parameter.
 
 You create data access class \(DAC\) records in the graph cache \(PXCache objects\). You can address a specific cache of a graph either by the DAC name \(`<graph>.Caches[typeof(<DAC_name>)]`\) or by the graph view that contains the DAC objects \(`<graph>.<DACView>.Cache`\).
 
-## Creation of a Test Method for a Graph Extension { .section}
+## Creation of a Test Method for a Graph Extension
 
 In a test method for a graph extension that contains logic for a DAC extension, you get the DAC extension object with the `GetExtension<>` generic method. You alter the DAC extension object as you wish, and then you update the whole DAC object along with its extension in the cache by using the `PXCache.Update` method. This executes the logic implemented in the graph extension so that you can verify its correctness.
 
-## Assertions { .section}
+## Assertions
 
 You can use the methods of the `Xunit.Assert` class to make assertions in unit tests. For example, the Assert.True static method verifies that its argument is equal to *True*, and the Assert.False static method verifies that its argument is equal to *False*. The following table lists additional methods of the Xunit.Assert class that may be useful.
 
@@ -83,7 +83,7 @@ You can use the methods of the `Xunit.Assert` class to make assertions in unit t
 
 You can use another assertion library instead of the Xunit.Assert class.
 
-## Running and Debugging of Test Methods { .section}
+## Running and Debugging of Test Methods
 
 Visual Studio includes the Test Explorer tool, which you can use to run a test, a test method, a group of test methods, or all available test methods. You can also debug a single test or multiple tests.
 

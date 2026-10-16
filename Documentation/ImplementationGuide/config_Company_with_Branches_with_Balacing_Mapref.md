@@ -1,4 +1,4 @@
-# Company with Branches that Require Balancing {#_7f1f34b4-ff34-4a25-9e11-807de2038e7a .concept}
+# Company with Branches that Require Balancing
 
 This chapter describes the configuration of a company that has multiple branches in which reports are prepared separately for each branch. This configuration includes the minimum set of features that has to be enabled for this configuration. The chapter also contains an implementation checklist that users can refer to when they are preparing for implementation and configuring the basic Acumatica ERP functionality for the company.
 

@@ -1,16 +1,16 @@
-# Paychecks: General Information {#_cee53c3d-b0a1-464c-8fb0-92c3894e2e38 .concept}
+# Paychecks: General Information
 
 You can review and modify the details of an individual paycheck on the [Paychecks and Adjustments](PR_30_20_00.md) \(PR302000\) form. Depending on the selected type of the payment and its current status, you can use the form for a number of different purposes, all related to the maintenance of paycheck information.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to calculate regular employee paychecks and how to update a previously calculated paycheck.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You calculate regular paychecks to prepare necessary payroll information for a normal pay run.
 
-## Creation of Paychecks { .section}
+## Creation of Paychecks
 
 A payroll clerk usually creates multiple regular paychecks at a time for employees that belong to one pay group by releasing a payroll batch on the [Payroll Batches](PR_30_10_00.md) \(PR301000\) form. However, you can use the [Paychecks and Adjustments](PR_30_20_00.md) \(PR302000\) form to create an individual paycheck of one of the following types:
 
@@ -24,7 +24,7 @@ You can create only one paycheck of the *Regular* type for an employee during a 
 
 Also, you can use this form to review and process direct deposits. The settings on this form are used for both printed checks and direct deposits; depending on the payment method selected, the system will use the default settings specified on the [Employee Payroll Settings](PR_20_30_00.md) \(PR203000\) form.
 
-## Paycheck Calculation Logic { .section}
+## Paycheck Calculation Logic
 
 You can use the [Paychecks and Adjustments](PR_30_20_00.md) \(PR302000\) form for reviewing or modifying the details associated with a particular employee’s paycheck before it is printed or released. After changes are made, you need to click the **Calculate** command on the More menu.
 
@@ -36,11 +36,9 @@ For each pay period, the system will automatically calculate and use the right p
 
 If a salaried employee has started or stopped working in the middle of a pay period, the system uses the following formula to calculate the rate based on the number of days the employee worked during the period.
 
-![](Images/Mid_Period_Compensation_Formula.png)
 
 If a salaried employee's rate was changed in the middle of a pay period, the system calculates the average rate for the period by using the following formula.
 
-![](Images/Mid_Period_Compensation_Formula2.png)
 
 Once this rate is calculated, it will be compared to rates set for the certified project if the employee worked on a certified project or to rates set for a union if the employee is part of a union. The system will select the highest rate it could find and apply it to the hours linked with the union or the project.
 
@@ -50,7 +48,7 @@ The calculation process will launch the overtime rules validation and create new
 
 Calculation is not automatic after each change, but the system ensures that you are asked to recalculate the paycheck every time it is necessary.
 
-## Processing of Paychecks {#section_vv2_1y4_y4b .section}
+## Processing of Paychecks
 
 At various stages of processing, a paycheck can have the following statuses:
 

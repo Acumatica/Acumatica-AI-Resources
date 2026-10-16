@@ -1,23 +1,23 @@
-# UI Definition in HTML and TypeScript:To Convert an Acumatica ERP Form to the Modern UI with the Converter {#_f2bc25a1-e320-438c-baab-91c13236896a .task}
+# UI Definition in HTML and TypeScript:To Convert an Acumatica ERP Form to the Modern UI with the Converter
 
 The following activity will walk you through the conversion of an Acumatica ERP form from the Classic UI to the Modern UI. You will convert the form by using the form converter.
 
-## Story { .section}
+## Story
 
 Suppose that you’ve developed the Serviced Devices \(RS202000\) form for the Smart Fix company. The form has been developed for a previous version of Acumatica ERP and is displayed in the Classic UI. You need to convert the form to the Modern UI and want to use the form converter.
 
-## Process Overview { .section}
+## Process Overview
 
 You will modify the converter settings to fit your needs and convert the form to the Modern UI. You will then review the contents of the TypeScript and HTML files and adjust them. You will build the Modern UI sources for the form and review the resulting form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin converting the Serviced Devices \(RS202000\) form, do the following:
 
 1.  Complete the following prerequisite activity: [Modern UI Development: To Deploy an Instance with Custom Forms and the Modern UI](UIDev_ModernUI_Activity_PrepareInstance.md). The prepared instance contains the Serviced Devices \(RS202000\) form.
 2.  Perform the prerequisite actions and build the source code for the first time, as described in [Modern UI Development: To Build the Source Code of All Acumatica ERP Forms for Modern UI Development](UIDev_ModernUI_Activity_BuildingSourcesAll.md).
 
-## Step 1: Adjusting the Converter Settings { .section}
+## Step 1: Adjusting the Converter Settings
 
 The form converter comes with default settings. You need to adjust them to have the following results after conversion:
 
@@ -26,7 +26,7 @@ The form converter comes with default settings. You need to adjust them to have 
 
 To configure the converter, add the shouldFilesBeDownloaded and declareViewsInViewModelFile attributes in the `px.core\ui\screenConverter` tag of the `web.config` file of the instance, as shown in the following code.
 
-```language-xml
+```xml
 <ui>
   <screenConverter usingOfPXJoinSyntaxEnabled="true" 
     shouldFilesBeDownloaded="false" 
@@ -36,7 +36,7 @@ To configure the converter, add the shouldFilesBeDownloaded and declareViewsInVi
 
 **Tip:** The usingOfPXJoinSyntaxEnabled attribute is specified in the `web.config` file by default.
 
-## Step 2: Generating the Source Files with the Converter { .section}
+## Step 2: Generating the Source Files with the Converter
 
 Now you can generate the source files of the form by using the converter. To generate the files, do the following:
 
@@ -47,7 +47,7 @@ Now you can generate the source files of the form by using the converter. To gen
 
 3.  Close the notification by clicking **OK**.
 
-## Step 3: Adjusting the Generated TypeScript File { .section}
+## Step 3: Adjusting the Generated TypeScript File
 
 The generated TypeScript file may contain unnecessary import directives. To clean up the code, do the following:
 
@@ -62,7 +62,7 @@ The generated TypeScript file may contain unnecessary import directives. To clea
     3.  Adjust the name in the viewInfo decorator, which specifies the container name. \(This name is used as an object name during the configuration of the particular functionality, such as workflows and import and export scenarios.\)
     The resulting file looks as follows.
 
-    ```language-javascript
+    ```javascript
     import { 
     	createSingle, PXScreen, graphInfo, viewInfo, PXView, PXFieldState
     } from "client-controls";
@@ -86,7 +86,7 @@ The generated TypeScript file may contain unnecessary import directives. To clea
     ```
 
 
-## Step 4: Adjusting the Generated HTML File { .section}
+## Step 4: Adjusting the Generated HTML File
 
 The generated HTML file may contain unnecessary code elements and inaccurate IDs. To adjust the file, do the following:
 
@@ -107,7 +107,7 @@ The generated HTML file may contain unnecessary code elements and inaccurate IDs
     4.  Fix any formatting issues.
     The resulting HTML code looks as follows.
 
-    ```language-csharp
+    ```csharp
     <template>
       <qp-template id="form-ServDevices" name="1-1">
         <qp-fieldset id="fsColumnA" slot="A" view.bind="ServDevices">
@@ -121,7 +121,7 @@ The generated HTML file may contain unnecessary code elements and inaccurate IDs
     ```
 
 
-## Step 5: Building the Source Code and Viewing the Form { .section}
+## Step 5: Building the Source Code and Viewing the Form
 
 Now you can build the source files and view how the converted form looks in the Modern UI. Do the following:
 
@@ -129,7 +129,7 @@ Now you can build the source files and view how the converted form looks in the 
 
     If your files are located in the development folder, you can use the following command.
 
-    ``` {#codeblock_ljr_bnt_khc .language-bourne}
+    ```bourne
     npm run build-dev --- --env customFolder=development screenIds=RS202000
     ```
 
@@ -138,13 +138,11 @@ Now you can build the source files and view how the converted form looks in the 
 
     The lookup table opens, as shown in the following screenshot.
 
-    ![](Images/UIDev_UIDefinition_Activity_Converter_LookUpTable.png "The lookup table")
 
 4.  In the lookup table, select the *MotorRAZR* device.
 
     The rest of the elements on the form are filled in with the *MotorRAZR* device properties, as shown in the following screenshot.
 
-    ![](../Shared/Images/UIDev_UIDefinition_Activity_Converter_MotorRAZR.png "The device properties")
 
 5.  Clear the **Active** check box.
 6.  On the form toolbar, click **Save**.

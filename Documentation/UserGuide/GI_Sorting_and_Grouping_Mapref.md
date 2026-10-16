@@ -1,4 +1,4 @@
-# Applying Sorting and Grouping {#_9a7171d1-534a-423c-9896-b34cdc1c5796 .concept}
+# Applying Sorting and Grouping
 
 You can sort the results of an inquiry by using simple filters in column headers. You can also group the inquiry results by specifying grouping conditions and adding rows that return aggregated values for a group.
 

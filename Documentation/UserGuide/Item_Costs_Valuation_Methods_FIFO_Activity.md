@@ -1,10 +1,10 @@
-# Item Costs and Valuation Methods: To Sell Items with the FIFO Method {#_7c615d0c-4bf4-4b0f-b638-02f536f247fe .task}
+# Item Costs and Valuation Methods: To Sell Items with the FIFO Method
 
 The following activity demonstrates how to completely process a sale of stock item that is assigned the *FIFO* valuation method.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 SweetLife Fruits &amp; Jams is a midsize company that purchases fruit, jams, and spices from large fruit vendors and then sells these goods to wholesale customers such as restaurants and cafes. Clementines are among these goods. The *CLEMENTINES* stock item represents one pound of fresh clementines and has been assigned the *FIFO* valuation method in Acumatica ERP.
 
@@ -15,7 +15,7 @@ Previously SweetLife bought clementines as follows:
 
 Suppose that you are Regina Wiley, a sales manager at SweetLife. The FourStar Coffee &amp; Sweets Shop customer ordered 50 pounds of clementines. You need to process the sale and review the cost of the items issued from the warehouse.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -28,7 +28,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
     -   The *000099* receipt dated 1/5/2026 with 40 pounds of the *CLEMENTINES* item and a cost of $4.50 each
     -   The *0000100* receipt dated 1/15/2026 with 80 pounds of the *CLEMENTINES* item and a cost of $4.25 each
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -37,14 +37,14 @@ In this activity, you will do the following:
 3.  On the same form, quick-process the sales order.
 4.  On the [Inventory Transactions by Account](IN_40_30_00.md) form, review how the stock item has been issued and how its cost has been calculated.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start performing the steps of this activity, do the following:
 
 1.  Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as a sales manager by using the *wiley* username and the *123* password.
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Reviewing the Costs of the Purchased Item { .section}
+## Step 1: Reviewing the Costs of the Purchased Item
 
 To review the costs of the *CLEMENTINES* item at the *WHOLESALE* warehouse, do the following:
 
@@ -54,10 +54,9 @@ To review the costs of the *CLEMENTINES* item at the *WHOLESALE* warehouse, do t
     -   **Inventory ID**: *CLEMENTINES*
 3.  Review the items that were received at two different costs \(see the following screenshot\).
 
-    ![](Images/Item_Costs_Valuation_Methods_FIFO_Inv_Transactions_by_Account_Purchase.png "The stock items received in the wholesale warehouse")
 
 
-## Step 2: Creating a Sales Order { .section}
+## Step 2: Creating a Sales Order
 
 To create the sales order for the FourStar Coffee &amp; Sweets Shop, do the following:
 
@@ -75,7 +74,7 @@ To create the sales order for the FourStar Coffee &amp; Sweets Shop, do the foll
     -   **Quantity**: `50`
 5.  On the form toolbar, click **Save**.
 
-## Step 3: Quick-Processing the Sales Order { .section}
+## Step 3: Quick-Processing the Sales Order
 
 To process the sales order, do the following:
 
@@ -93,7 +92,7 @@ To process the sales order, do the following:
     5.  Click **OK**. The **Processing Results** dialog box opens. Wait for the system to create the documents.
     6.  Close the dialog box. Notice that the sales order now has the *Completed* status.
 
-## Step 4: Reviewing the Item's Costs { .section}
+## Step 4: Reviewing the Item's Costs
 
 To review how the system has calculated the costs for the issued *CLEMENTINES* item, do the following:
 
@@ -105,7 +104,6 @@ To review how the system has calculated the costs for the issued *CLEMENTINES* i
 
     -   For the 40 pounds that were received earlier, at the unit cost of $4.50
     -   For the 10 pounds that were received later, at the unit cost of $4.25
-    ![](Images/Item_Costs_Valuation_Methods_FIFO_Inv_Transactions_by_Account_Sale.png "The item costs on the Inventory Transactions by Account form")
 
 
 **Parent topic:**[Managing Item Costs and Valuation Methods](../UserGuide/Item_Costs_Valuation_Methods_Mapref.md)

@@ -1,18 +1,18 @@
-# Report Content: To Embed an Image in a Report {#_4b658e14-3d47-470b-9d46-3229efb076eb .task}
+# Report Content: To Embed an Image in a Report
 
 In the following activity, you will learn how to embed an image in a report.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist in your company who is working on simple customizations. A sales manager has requested that you add an image of his signature to a report that displays the details of an invoice or memo. You have decided to use the predefined [Invoice/Memo](AR_64_10_00.md) \(AR641000\) report as a base and modify it by adding the image of the signature, which the sales manager has sent to you as a PNG file.
 
-## Process Overview { .section}
+## Process Overview
 
 In the Report Designer, you will open the `AR6410C3.RPX` report, which is a copy of the [Invoice/Memo](AR_64_10_00.md) \(AR641000\) report, and add the *PictureBox* element to the report layout. You will specify the properties of this element to display the `facsimile.png` image.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you perform the steps of this activity, make sure that the following tasks have been performed:
 
@@ -35,7 +35,7 @@ Also, to prepare for use the file that you will need for this activity, do the f
 
 Finally, you should download the `facsimile.png` file and save it to any folder on your computer.
 
-## Step 1: Embedding the Image in the Report { .section}
+## Step 1: Embedding the Image in the Report
 
 To embed the image in the *AR6410C3* report, do the following:
 
@@ -46,7 +46,6 @@ To embed the image in the *AR6410C3* report, do the following:
 
 
 
-        ![](Images/RD_embedded_images_dialog_box.png)
 
 3.  Click **OK** to add the image that you have selected to the embedded images collection of the report and to close the **Embedded Images** dialog box. Now you can use this image in the report.
 4.  Select the `groupFooterSection2 (Footer of groupInvoice)` section and specify the `2.5cm` value for the **Appearance** &gt; **Height** property to increase the height of the section.
@@ -61,7 +60,7 @@ To embed the image in the *AR6410C3* report, do the following:
 
 7.  On the Report Designer window toolbar, click **Save**.
 
-## Step 2: Viewing the Report { .section}
+## Step 2: Viewing the Report
 
 To view the report, do the following:
 
@@ -75,7 +74,6 @@ To view the report, do the following:
 
 Make sure that the image you have added is displayed below the list of items in the invoice. The following screenshot displays the report.
 
-![](Images/RD_report_with_facsimile.png "The Invoice/Memo (IN6410C2) report with the image added")
 
 **Parent topic:**[Filling a Report with Content](../UserGuide/RD_Filling_with_Content_Mapref.md)
 

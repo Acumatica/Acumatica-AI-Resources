@@ -1,10 +1,10 @@
-# Service Order Types: To Configure Quick Processing for a Service Order Type {#_5b7c4b58-361d-453b-9401-6cc7b7536765 .task}
+# Service Order Types: To Configure Quick Processing for a Service Order Type
 
 In this implementation activity, you will learn how to configure quick processing for a service order type.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Acting as an administrative user of the SweetLife Service and Equipment Sales Center, you need to set up quick processing for an existing service order type. During quick processing for a service document of this type, the system must perform the following actions:
 
@@ -12,7 +12,7 @@ Acting as an administrative user of the SweetLife Service and Equipment Sales Ce
 -   Complete and close the service document
 -   Prepare and release the sales invoice, and send it by email to the customer
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -21,11 +21,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   On the [Service Management Preferences](../UserGuide/FS_10_01_00.md) \(FS100100\) form, the minimum settings have been specified, including specifying the numbering sequences and work calendar, for the service management functionality to be used.
 -   On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, the *Inventory and Order Management* and *Inventory* features have been enabled.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will set up quick processing for an existing service order type by modifying it on the [Service Order Types](../UserGuide/FS_20_23_00.md) \(FS202300\) form and specifying the necessary settings on the **Quick Processing** tab.
 
-## System Preparation {#section_krc_tgy_1hc .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -33,7 +33,7 @@ Before you start this activity, do the following:
 2.  On the Company and Branch Selection menu in the top pane of the Acumatica ERP screen, select the Service and Equipment Sales Center branch.
 3.  Make sure that the *Service Management* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md#) \(CS100000\) form.
 
-## Step: Configuring Quick Processing { .section}
+## Step: Configuring Quick Processing
 
 To configure quick processing for a service order type, do the following:
 

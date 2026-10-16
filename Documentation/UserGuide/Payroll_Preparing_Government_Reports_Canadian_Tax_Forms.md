@@ -1,4 +1,4 @@
-# Preparing Government Reports: Canadian Tax Forms {#_39076d64-a2d6-4a5b-832c-3306194dd328 .concept}
+# Preparing Government Reports: Canadian Tax Forms
 
 In Canada, an employer has to prepare T4 tax forms—and in Quebec, RL1 tax forms—and send them to the government on an annual basis. With these tax forms, the employer reports about the following:
 
@@ -10,7 +10,7 @@ In Canada, an employer has to prepare T4 tax forms—and in Quebec, RL1 tax form
 
 If the *Canadian Payroll* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can create necessary tax forms for Canadian employees by using the [Prepare Tax Forms](PR_50_20_00.md) \(PR502000\) form.
 
-## Preparing Tax Forms { .section}
+## Preparing Tax Forms
 
 The tax forms are prepared for all employees who received remuneration from the employer during the year if the following conditions have been met:
 
@@ -28,7 +28,7 @@ By using the [Prepare Tax Forms](PR_50_20_00.md) form, you can do the following:
 
 On the [Prepare Tax Forms](PR_50_20_00.md) form, you can review the following information. If a tax form has already been generated, the identifier of the employee's last published batch for submission is displayed in the **Published From** column, and all the batches for submission in which the employee is included are listed in the **Batch ID** column. In the **Tax Form** pane, the system displays a preview of the generated tax form for the employee that is selected in the table.
 
-## Submitting Tax Forms { .section}
+## Submitting Tax Forms
 
 By using the [Tax Form History](PR_30_40_PL.md) \(PR3040PL\) form, you can review existing batches for submission that have been generated through the [Prepare Tax Forms](PR_50_20_00.md) \(PR502000\) form.
 

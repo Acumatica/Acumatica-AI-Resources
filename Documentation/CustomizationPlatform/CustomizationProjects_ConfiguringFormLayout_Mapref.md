@@ -1,4 +1,4 @@
-# Configuring the Layout of Forms {#_0fdc8b1d-2f0a-4d27-b830-27de8edc36e3 .concept}
+# Configuring the Layout of Forms
 
 In this chapter, you will learn how to modify the layout of Acumatica ERP forms. This includes adding UI elements, grouping similar UI elements, and moving elements to different parts of the form for the placement that best fits users' needs and methods of working.
 

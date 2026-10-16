@@ -1,4 +1,4 @@
-# Staff Time in Appointments: Time Recording and Calculation {#_e5f14fdf-0f12-459d-8d96-a37d1071e37d .concept}
+# Staff Time in Appointments: Time Recording and Calculation
 
 If the *Time Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form, activities can be created on the [Employee Time Activities](EP_30_70_00.md#) \(EP307000\) form for each employee involved in an appointment when the appointment is completed.
 
@@ -10,7 +10,7 @@ Appointments are created on the [Appointments](FS_30_02_00.md#) \(FS300200\) for
 
 Depending on the nature of appointments and the way a scheduler or service manager assigns staff members to appointments, you may decide to always track employee time in the same way, or you may use different ways of tracking time for different appointments. You assign each of these types of appointments a service order type that has been configured on the [Service Order Types](FS_20_23_00.md) \(FS202300\) form for the type of time recording you will use, as described further in this topic.
 
-## Calculation of the Actual Service Duration { .section}
+## Calculation of the Actual Service Duration
 
 The system calculates the actual service duration of an appointment as the sum of the duration of the services included in the appointment, and inserts the duration in the **Actual Duration** box of the Summary area of the [Appointments](FS_30_02_00.md#) \(FS300200\) form. The system does not include in the actual service duration the time that has not been recorded to any service.
 
@@ -20,21 +20,18 @@ The following examples show how the system calculates the actual service duratio
 
 Suppose that you have attended an appointment that lasted an hour and a half, but you have spent only one hour on service delivery. Further suppose that in the system, you specify the start and end times of the service and the start and end times of the appointment. The system calculates the appointment's actual service duration as one hour \(see the following illustration of this calculation\).
 
-![](Images/diag_ServMgmt_Staff_Time_in_Appointments_1.png "Calculation of the actual service duration for Example 1")
 
 **Example 2**
 
 Suppose that you have attended an appointment that lasted an hour and a half, but you have spent only one hour on service delivery. Further suppose that in the system, you specify the actual duration of the service \(one hour; the start and end times of the service are not entered\) and the start and end times of the appointment. In this case, too, the system calculates the appointment's actual service duration as one hour \(see the following illustration of this calculation\).
 
-![](Images/diag_ServMgmt_Staff_Time_in_Appointments_2.png "Calculation of the actual service duration for Example 2")
 
 **Example 3**
 
 Suppose that you have attended an appointment that lasted an hour and a half. You delivered Service 1, and your colleague delivered Service 2 at the same time; each of you spent one hour on service delivery. In the system, you specify the start and end time of each service, as well as the start and end time of the appointment. The system calculates the actual service duration of the appointment as two hours \(the total of the duration of Service 1 and Service 2\), even though the services were performed in the same hour \(see the following illustration of this calculation\).
 
-![](Images/diag_ServMgmt_Staff_Time_in_Appointments_3.png "Calculation of the actual service duration for Example 3")
 
-## Recording of Staff Time for the Entire Appointment { .section}
+## Recording of Staff Time for the Entire Appointment
 
 If a staff member is working during the entire duration of an appointment, to record the working time, you assign the staff member to the appointment but do not associate this employee with any particular service of this appointment. That is, in the row for the staff member on the **Staff** tab of the [Appointments](FS_30_02_00.md#) \(FS300200\) form, you leave the **Detail Ref. Nbr.** and **Inventory ID** columns empty. The system starts recording the employee's time when a staff member clicks **Start** on the form toolbar of the form, and finishes recording the time when a staff member clicks **Complete** on the form toolbar.
 
@@ -49,7 +46,7 @@ To record time in this way, you need to base the appointment on a service order 
     On completion of an appointment, the *Completed* status will be assigned to each detail line.
 
 
-## Recording of Staff Time for a Part of the Appointment { .section}
+## Recording of Staff Time for a Part of the Appointment
 
 If a staff member is working on an appointment only during a specific part of the appointment but not during the entire appointment, to correctly track the staff time, you should assign the applicable staff member to the appointment, but you should not associate the person with any service. That is, on the [Appointments](FS_30_02_00.md#) \(FS300200\) form, you assign the necessary staff members to the appointment by adding rows for them on the **Staff** tab, but you leave the **Detail Ref. Nbr.** and **Inventory ID** columns empty for these staff members.
 
@@ -73,7 +70,7 @@ To record time in this way, you need to base the appointment on a service order 
     On completion of an appointment, the *In Process* status will remain on each detail line until you click **Complete** on the table toolbar of the **Details** tab for each line.
 
 
-## Recording of Staff Time Spent on Services for the Appointment { .section}
+## Recording of Staff Time Spent on Services for the Appointment
 
 To correctly track the time that staff members have spent on performing specific services \(or one service\) of the appointment, you can do either of the following:
 

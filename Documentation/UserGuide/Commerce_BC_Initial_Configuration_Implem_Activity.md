@@ -1,14 +1,14 @@
-# Initial Configuration: To Establish and Configure the Store Connection {#_1ec88ef6-8dc6-4df8-89bb-3d6d6c4666d3 .task}
+# Initial Configuration: To Establish and Configure the Store Connection
 
 In this activity, you will learn how to connect your Acumatica ERP instance to the BigCommerce store and perform the initial configuration of the connection.
 
 **Attention:** The following activity is based on the *U100* dataset. If you are using another dataset, or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity. To avoid any issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_gdc_2lh_gtb .section}
+## Story
 
 Suppose that the manager of the SweetLife company wants to sell jam in its online store deployed on the BigCommerce platform. SweetLife is already using Acumatica ERP and now needs to integrate it with a new BigCommerce store. As SweetLife's implementation consultant, you need to configure the connection to the BigCommerce store and perform the minimum configuration required for synchronization of data between Acumatica ERP and the BigCommerce store.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -22,11 +22,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Cash Accounts](CA_20_20_00.md) \(CA202000\) form, the *10250ST* cash account has been configured for the *RETAIL* branch and the *USD* currency.
 -   On the [Payment Methods](CA_20_40_00.md) \(CA204000\) form, the *ONLINE* payment method has been set up to be used with the *10250ST* cash account.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form, you will create a new connection to the online store by using the information you captured in [Initial Configuration: To Capture Store Connection Information](Commerce_BC_Initial_Configuration_To_Capture_Connection_Info.md). After the connection is successfully established, you will perform the minimum configuration of the store settings.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -42,7 +42,7 @@ Before you start this activity, do the following:
     -   **Password**: *123*
 3.  Sign in to the control panel of the BigCommerce store as the store administrator.
 
-## Step 1: Establishing a Connection Between Acumatica ERP and the BigCommerce Store {#section_kdc_2lh_gtb .section}
+## Step 1: Establishing a Connection Between Acumatica ERP and the BigCommerce Store
 
 To establish a connection with the BigCommerce store in your instance of Acumatica ERP, do the following:
 
@@ -70,7 +70,7 @@ Notice that the connection is established automatically, and the **Default Curre
 
 **Tip:** You can check if the specified connection settings are correct any time by clicking **Test Connection** on the form toolbar.
 
-## Step 2: Activating the Needed Entities {#section_mdc_2lh_gtb .section}
+## Step 2: Activating the Needed Entities
 
 To specify the entity settings, while you are still viewing the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form, do the following:
 
@@ -89,7 +89,7 @@ To specify the entity settings, while you are still viewing the [BigCommerce Sto
     Leave the default settings of the activated entities as they are.
 
 
-## Step 3: Specifying the Customer Settings {#section_ndc_2lh_gtb .section}
+## Step 3: Specifying the Customer Settings
 
 To specify the settings that will be used by default for importing customers from the BigCommerce store to Acumatica ERP, while you are still viewing the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form, do the following:
 
@@ -108,7 +108,7 @@ To specify the settings that will be used by default for importing customers fro
         This customer account, which has been created in Acumatica ERP, will appear on orders imported from the BigCommerce stores and placed by non-registered users.
 
 
-## Step 4: Specifying the Order Settings {#section_pdc_2lh_gtb .section}
+## Step 4: Specifying the Order Settings
 
 To specify the order-related settings, while you are still viewing the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form, do the following:
 
@@ -134,7 +134,7 @@ To specify the order-related settings, while you are still viewing the [BigComme
 
 5.  On the form toolbar, click **Save** to save your changes.
 
-## Step 5: Specifying the Payment Settings {#section_qdc_2lh_gtb .section}
+## Step 5: Specifying the Payment Settings
 
 To import payments based on a particular payment method configured in the BigCommerce store to Acumatica ERP, you need to map the payment method to a corresponding payment method configured in Acumatica ERP.
 
@@ -151,7 +151,7 @@ To configure the payment method mapping, while you are still viewing the [BigCom
 
 3.  On the form toolbar, click **Save** to save your changes.
 
-## Step 6: Specifying the Shipping Settings { .section}
+## Step 6: Specifying the Shipping Settings
 
 Now you need to map the shipping options that you set up in the BigCommerce store with the Ship Via codes defined in Acumatica ERP. Do the following:
 

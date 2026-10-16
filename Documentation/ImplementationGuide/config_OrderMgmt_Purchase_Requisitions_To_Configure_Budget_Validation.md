@@ -1,16 +1,16 @@
-# Purchase Requisition Configuration: To Set Up Budget Validation for Employee Requests {#_35e38e57-f862-430f-88ef-497ee32c298a .task}
+# Purchase Requisition Configuration: To Set Up Budget Validation for Employee Requests
 
 In the following implementation activity, you will configure budget validation for purchase requests of an employee request class.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company needs computers and computer accessories for its employees. The company has a budget limitation of $5000 per month for computers and accessories from which only $1500 have not been spent.
 
 Acting as purchasing manager Matt Parker, you need to create an employee request class and include a limited number of stock items in the class. Also, you need to set up budget validation for the requests of the class. You will then create an employee purchase request of the class and validate it against the budget.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -19,18 +19,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Purchase Requisitions Preferences](../UserGuide/RQ_10_10_00.md) \(RQ101000\) form, the required settings, budget ledger, and budget calculation settings have been specified.
 -   On the [Employees](../UserGuide/EP_20_30_00.md) \(EP203000\) form, the *Matt Parker* employee has been created and associated with the *parker* user account.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
 1.  On the [Request Classes](../UserGuide/RQ_20_10_00.md) \(RQ201000\) form, create an employee purchase request class.
 2.  On the [Requests](../UserGuide/RQ_30_10_00.md) \(RQ301000\) form, create an employee purchase request of the class.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating an employee purchase request class, you should launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You sign in as purchasing manager Matt Parker by using the *parker* username and the *123* password.
 
-## Step 1: Creating the Employee Purchase Request Class { .section}
+## Step 1: Creating the Employee Purchase Request Class
 
 To create the employee purchase request class for the requests for computers and accessories, do the following:
 
@@ -51,7 +51,7 @@ To create the employee purchase request class for the requests for computers and
     -   *KEYBOARD*
 4.  On the form toolbar, click **Save**.
 
-## Step 2: Configuring Budget Validation for the Request Class { .section}
+## Step 2: Configuring Budget Validation for the Request Class
 
 To configure budget validation for the employee purchase request class, do the following:
 
@@ -61,7 +61,7 @@ To configure budget validation for the employee purchase request class, do the f
     3.  **Expense Account:** *60000 - Purchase Expense*
 2.  On the form toolbar, click **Save**.
 
-## Step 3: Creating a Purchase Request and Validating It Against the Budget { .section}
+## Step 3: Creating a Purchase Request and Validating It Against the Budget
 
 To create an employee purchase request of the *INTCOMP* class, do the following:
 

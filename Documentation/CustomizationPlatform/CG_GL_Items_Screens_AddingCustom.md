@@ -1,4 +1,4 @@
-# To Add a New Custom Form to a Project {#_8c8ea690-7f06-4d4b-9f27-3c67db804008 .concept}
+# To Add a New Custom Form to a Project
 
 To add a new custom form to a customization project, perform the following actions:
 
@@ -11,7 +11,6 @@ To add a new custom form to a customization project, perform the following actio
     -   **Graph Namespace**: The namespace to which the new business logic class should be added
     -   **Page Title**: The title of the new form
     -   **Template**: The form template that provides the default set of containers on the form
-    -   **Create Modern UI Files**: Selected to create the necessary TypeScript and HTML files for the Modern UI version of the form
 5.  Click **Create**.
 
     **Tip:** Before you start editing the created screen in the Screen Editor, you must publish the customization project.

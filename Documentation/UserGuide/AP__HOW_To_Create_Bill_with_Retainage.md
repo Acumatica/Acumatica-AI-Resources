@@ -1,10 +1,10 @@
-# To Enter a Bill with Retainage \(with Items' Quantities and Unit Costs\) {#_8be5fa52-8d27-45a9-84b3-8c309e1d7e0c .task}
+# To Enter a Bill with Retainage \(with Items' Quantities and Unit Costs\)
 
 You enter a vendor bill with retainage on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. You use this procedure if you are specifying items' quantities and unit costs in the detail lines of the bill. If you are instead specifying the line total amounts in the detail lines, you should use [To Enter a Bill with Retainage \(with Line Totals\)](AP__HOW_To_Enter_Bill_with_Retainage_Line_Total.md).
 
 You can enter a bill with retainage only if the *Retainage Support* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## To Enter a Bill with Retainage \(with Items' Quantities and Unit Costs\) {#section_xbm_njv_vxb .section}
+## To Enter a Bill with Retainage \(with Items' Quantities and Unit Costs\)
 
 1.  Open the [Bills and Adjustments](../Shared/../UserGuide/AP_30_10_00.md) \(AP301000\) form.
 
@@ -35,7 +35,7 @@ You can enter a bill with retainage only if the *Retainage Support* feature is e
     -   If the **Amount** box is not available on the form, make sure the total amount of the document is displayed correctly in the **Balance** box.
 13. On the form toolbar, click **Save**.
 
-## Notes About the Procedure {#section_ybm_njv_vxb .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

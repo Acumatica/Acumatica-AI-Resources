@@ -1,4 +1,4 @@
-# Business Logic Controller Declaration {#_61e0a0e8-78e2-4ebf-a0f1-eae124a6283e .concept}
+# Business Logic Controller Declaration
 
 Working with the business data in Acumatica Framework is implemented through the *business logic controller* object also referred as *graph* \(graph is a mathematical term for a set of objects where some pairs of objects are connected by links\). A graph provides the interface for the presentation logic to operate with the business data and relies on Data Access Layer components to store and retrieve the business data from the database.
 

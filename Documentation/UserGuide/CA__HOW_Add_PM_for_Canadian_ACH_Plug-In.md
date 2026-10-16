@@ -1,14 +1,14 @@
-# To Add a Payment Method for the RBC ACH094 Plug-In {#_7a814a48-133c-45d5-9f29-e06869c2d65c .concept}
+# To Add a Payment Method for the RBC ACH094 Plug-In
 
 You use the [Payment Methods](CA_20_40_00.md) \(CA204000\) form to create a payment method that uses the RBC ACH094 plug-in.
 
 **Important:** The plug-in is available in the system if the *Canadian Localization* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Before You Proceed {#section_ek4_2n5_k2c .section}
+## Before You Proceed
 
 Review your cash accounts and decide which ones will be used as the payment source for your vendors. You will specify these in Step 9 below.
 
-## To Add a Payment Method for the RBC ACH094 Plug-In {#section_fk4_2n5_k2c .section}
+## To Add a Payment Method for the RBC ACH094 Plug-In
 
 To add a payment method that uses the RBC ACH094 plug-in, do the following:
 
@@ -39,7 +39,7 @@ To add a payment method that uses the RBC ACH094 plug-in, do the following:
 
 After the payment method is configured, specify your remittance information for each cash account listed on the **Allowed Cash Accounts** tab, and specify ACH credentials for each vendor who has agreed to receive payments through the ACH network.
 
-## To Add Payment Details for a Vendor {#section_gk4_2n5_k2c .section}
+## To Add Payment Details for a Vendor
 
 To add a payment method that uses the RBC ACH094 plug-in to a vendor, do the following:
 

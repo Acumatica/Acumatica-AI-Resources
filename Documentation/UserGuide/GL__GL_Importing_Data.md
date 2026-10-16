@@ -1,4 +1,4 @@
-# Importing Financial Data {#_6ef1dca7-4ca7-47b4-9adc-b67de5231d4f .concept}
+# Importing Financial Data
 
 Before you start working in Acumatica ERP, you can import into the system trial balances, general ledger transactions, vendor and customer records, and open documents from third-party software.
 

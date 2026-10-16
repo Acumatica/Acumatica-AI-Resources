@@ -1,10 +1,10 @@
-# Setup of the Stripe Processing Center {#_074bf7f6-358c-4899-8656-add8601a0f54 .concept}
+# Setup of the Stripe Processing Center
 
 Acumatica ERP can be configured to support integration with the Stripe processing center, which makes it possible for users to process card payments in the system via Stripe. You can use Stripe integration in the system if the *Stripe Payment Plug-In* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
 **Tip:** On the [Activate License](SM_20_15_10.md) \(SM201510\) form, the *Stripe Payment Plug-In* feature must be included and active. If the payment plug-in is not active in the applied license, the check box with the corresponding feature will not be visible on the [Enable/Disable Features](CS_10_00_00.md) form.
 
-## Stripe Plug-In { .section}
+## Stripe Plug-In
 
 The Stripe plug-in that is used by the Stripe processing center allows users to perform the following actions for B2B processes:
 
@@ -18,7 +18,7 @@ For over-the-counter sales, the Stripe plug-in supports the following actions:
 -   Accepting payments from new cards, with or without saving the card
 -   Refunding original payments partially or in full
 
-## Configuring Stripe Integration { .section}
+## Configuring Stripe Integration
 
 To configure Stripe integration, you perform the following steps:
 

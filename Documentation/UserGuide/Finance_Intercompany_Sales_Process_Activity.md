@@ -1,14 +1,14 @@
-# Intercompany Sales: To Process an Intercompany Invoice {#_0db4c77c-f877-471a-b025-db9fc303cb15 .task}
+# Intercompany Sales: To Process an Intercompany Invoice
 
 The following activity will walk you through the processing of intercompany invoice between branches of two companies within the same tenant.
 
-## Story {#section_xbs_4jv_vxb .section}
+## Story
 
 Suppose that the Head Office of the Muffins &amp; Cakes company has to purchase juicer installation services from the Service and Equipment Sales Center of SweetLife Fruits &amp; Jams. The system administrator has set up the intercompany sales functionality to generate AP bills based on AR invoices.
 
 Acting as an accountant of SweetLife, you need to create an AR invoice with the *MHEAD* branch as a customer, and automatically generate an AP bill based on this invoice.
 
-## Configuration Overview {#section_acs_4jv_vxb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -22,11 +22,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Branches](CS_10_20_00.md) \(CS102000\) form, the *SWEETEQUIP* and *MHEAD* branches have been defined.
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *INSTALL* non-stock item has been configured.
 
-## Process Overview {#section_fcs_4jv_vxb .section}
+## Process Overview
 
 In this activity, on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will create an AR invoice, specifying *MHEAD* as the customer, and release the invoice. You will then cause the system to automatically create an AP bill based on the AR invoice by clicking **Generate AP Document** on the More menu. On the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you will review the settings of the created bill and release it.
 
-## System Preparation {#section_hcs_4jv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -35,7 +35,7 @@ Before you begin performing the steps of this activity, do the following:
 3.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SWEETEQUIP - Service and Equipment Sales Center* branch.
 4.  Make sure the *SWEETEQUIP* branch has been extended as a vendor and the *MHEAD* branch has been extended as a customer, as described in [Intercompany Sales Setup: Implementation Activity](../ImplementationGuide/Finance_Intercompany_SalesSetup_Implem_Activity.md).
 
-## Step 1: Processing an AR Invoice from the Selling Branch to the Purchasing Branch {#section_jcs_4jv_vxb .section}
+## Step 1: Processing an AR Invoice from the Selling Branch to the Purchasing Branch
 
 To process an AR invoice from *SWEETEQIP* to *MHEAD*, do the following:
 
@@ -65,7 +65,7 @@ To process an AR invoice from *SWEETEQIP* to *MHEAD*, do the following:
 5.  On the form toolbar, click **Remove Hold** to give the invoice the *Balanced* status.
 6.  On the form toolbar, click **Release** to release the AR invoice.
 
-## Step 2: Automatically Creating an AP Bill Based on the AR Invoice {#section_ocs_4jv_vxb .section}
+## Step 2: Automatically Creating an AP Bill Based on the AR Invoice
 
 To create an AP bill based on the AR invoice from *SWEETEQIP* to *MHEAD*, do the following:
 
@@ -83,7 +83,6 @@ To create an AP bill based on the AR invoice from *SWEETEQIP* to *MHEAD*, do the
 6.  On the **Financial** tab, click link in the **Related AR Document** box \(**Intercompany Invoicing** section\), and review the invoice that opens on the [Invoices and Memos](AR_30_10_00.md) form.
 7.  On the **Financial** tab, review the link to the AP bill that the system has inserted in the **Related AP Document** box \(**Intercompany Invoicing** section\), as shown in the following screenshot.
 
-    ![](Images/activity_Finance_IntercompanySales_Automatically_Created_Bill.png "Link to the AP bill automatically created based on the AR invoice")
 
 
 **Parent topic:**[Processing Intercompany Sales](../UserGuide/Finance_Intercompany_Sales_Mapref.md)

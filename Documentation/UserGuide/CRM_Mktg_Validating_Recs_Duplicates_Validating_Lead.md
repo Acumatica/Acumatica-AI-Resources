@@ -1,14 +1,14 @@
-# Record Validation for Duplicates: To Validate a Lead for Duplicates {#_8154b2c7-c5bc-4690-87ff-0dca11f29d82 .task}
+# Record Validation for Duplicates: To Validate a Lead for Duplicates
 
 When you create a lead \(or another employee does so\), you may want to make sure that the lead has no duplicate leads in the system. If any duplicates have been found, you may want to eliminate a duplicate record. The following activity will show you how to validate a lead for duplicates.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Bill Owen, a marketing manager of the SweetLife Fruits &amp; Jams company.You have contact information for two new leads: Jeanne Martinez, a consultant at the BeeJet Store; and John Kimmel, a purchasing manager at the Honeywind Store. Before you start working with the leads in the system, you need to validate the leads for duplicates.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -21,14 +21,14 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Leads](CR_30_10_00.md) \(CR301000\) form, the *Jeanne Martinez* lead has been created. \(You will create a duplicate of this lead.\)
 -   On the [Contacts](CR_30_20_00.md) \(CR302000\) form, the *John K. Kimmel* contact has been created. \(You will create a lead that has duplicate settings of this contact.\)
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following by using the [Leads](CR_30_10_00.md) \(CR301000\) form:
 
 1.  Create a lead, validate the lead for duplicates, and merge the contact data of the newly created lead with the contact data of the existing lead. As a result, the system will save only one lead.
 2.  Create another lead, validate the lead for duplicates, and associate the lead record with the existing contact record.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start validating leads for duplicates, you should do the following:
 
@@ -38,7 +38,7 @@ Before you start validating leads for duplicates, you should do the following:
     -   **Password**: *123*
 3.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Performing Duplicate Validation for a Lead That Has a Duplicate Lead { .section}
+## Step 1: Performing Duplicate Validation for a Lead That Has a Duplicate Lead
 
 To create the *Jeanne Martinez* lead and validate this lead for duplicates, do the following:
 
@@ -56,7 +56,7 @@ To create the *Jeanne Martinez* lead and validate this lead for duplicates, do t
 
 You have created and validated the *Jeanne Martinez* lead for duplicates. On the **Duplicates** tab, the duplicate lead record \(which had already been created\) is listed.
 
-## Step 2: Merging Duplicate Leads { .section}
+## Step 2: Merging Duplicate Leads
 
 To merge two duplicate lead records that contain contact information of Jeanne Martinez, do the following:
 

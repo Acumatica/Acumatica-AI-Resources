@@ -1,8 +1,8 @@
-# Configuration of Replenishment: Configuration Prerequisites {#_ce25a2f1-3b59-4b96-b8e0-1335833bcd35 .concept}
+# Configuration of Replenishment: Configuration Prerequisites
 
 Before you start configuring replenishment in Acumatica ERP, you should be sure that the needed features have been enabled, settings have been specified, and entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, the following features have been enabled:
 
@@ -10,7 +10,7 @@ On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form,
 -   *Multiple Warehouse Locations* if your company uses multiple warehouse locations
 -   *Multiple Warehouses* if your company replenishes inventory through transfers
 
-## Configuring the System { .section}
+## Configuring the System
 
 You need to make sure that the following tasks have been performed in Acumatica ERP before you start to configure replenishment:
 
@@ -22,7 +22,7 @@ You need to make sure that the following tasks have been performed in Acumatica 
 -   On the [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\) form, the needed stock items have been created.
 -   Optional: On the [Replenishment Seasonality](../UserGuide/IN_20_66_00.md) \(IN206600\) form, the needed seasonalities have been created.
 
-## Identifiers for Replenishment Requests {#_6dd71d7a-cb48-4da1-9360-94cc6d7ae3a1 .section}
+## Identifiers for Replenishment Requests
 
 Acumatica ERP uses a numbering sequence to automatically generate identifiers for new replenishment requests. Replenishment requests are internal records that the system creates automatically when you process stock items on the [Prepare Replenishment](../UserGuide/IN_50_80_00.md) \(IN508000\) form. Thus, this numbering sequence is for internal use only.
 

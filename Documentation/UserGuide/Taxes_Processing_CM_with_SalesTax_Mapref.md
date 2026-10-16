@@ -1,4 +1,4 @@
-# Processing Credit Memos with Sales Taxes {#_7c95564d-4ab8-4cd0-9495-0b641dd32e44 .concept}
+# Processing Credit Memos with Sales Taxes
 
 The topics of this chapter describe how to process a credit memo with a sales tax.
 

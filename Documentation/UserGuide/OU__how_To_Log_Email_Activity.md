@@ -1,4 +1,4 @@
-# To Log an Email Activity {#_4f51a4d2-102b-4f8c-a2bc-c706a78606bf .task}
+# To Log an Email Activity
 
 To associate an email with the corresponding record and store it as an email activity in Acumatica ERP, do the following:
 

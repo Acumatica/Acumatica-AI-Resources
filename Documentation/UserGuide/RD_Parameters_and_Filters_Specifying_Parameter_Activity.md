@@ -1,18 +1,18 @@
-# Parameters and Filters: To Define a Parameter and a Filter {#_43976a2c-a9d7-4717-92e3-7d2f3e93a40f .task}
+# Parameters and Filters: To Define a Parameter and a Filter
 
 In the following activity, you will learn how to define parameters for a report and set a filter using the parameters.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist in your company who is working on simple customizations. A sales manager of your company has requested a report that displays data about vendors. You have offered the predefined [Vendor Summary](AP_65_50_00.md) \(AP655000\) report, but the sales manager has asked you to give users the ability to select a particular vendor class to view data about only the vendors of this class. If no vendor class is specified, the report should display the full list of vendors.
 
-## Process Overview { .section}
+## Process Overview
 
 In the Report Designer, you will open the `AP6550C2.RPX` report, which is a copy of the [Vendor Summary](AP_65_50_00.md) \(AP655000\) report. In the Schema Builder, on the **Tables** tab, you will look for the field that contains the vendor class; you will need this field to specify the parameter. You will add a new parameter to the **Parameters** tab. Then, on the **Filters** tab, you will add clauses to limit the data in the report. With this filter, the report will display only documents that relate to the specified vendor class.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you perform the steps of this activity, make sure that the following tasks have been performed:
 
@@ -33,7 +33,7 @@ Also, to prepare for use the file that is intended for this activity, do the fol
     The report is saved on the server.
 
 
-## Step 1: Defining the Parameter for the Report { .section}
+## Step 1: Defining the Parameter for the Report
 
 To define the parameter for the vendor class in the *AP6550C2* report, do the following:
 
@@ -57,12 +57,11 @@ To define the parameter for the vendor class in the *AP6550C2* report, do the fo
 
     The **Class** parameter on the **Parameters** tab of the Schema Builder is shown in the following screenshot.
 
-    ![](Images/RD_adding_parameter.png "Class parameter on the Parameters tab")
 
 15. Click **OK** to save the parameters defined for the report and close the Schema Builder.
 16. On the Report Designer window toolbar, click **Save**.
 
-## Step 2: Defining the Filter {#section_gch_skb_pvb .section}
+## Step 2: Defining the Filter
 
 To define the filter for the vendor class, while you are still working with the *AP6550C2* report in the Report Designer, do the following:
 
@@ -82,13 +81,12 @@ To define the filter for the vendor class, while you are still working with the 
     -   **Braces**: *\)*
     These two clauses are grouped into one expression by the *Or* operator \(see the following screenshot\).
 
-    ![](Images/RD_adding_filter.png "Adding the filter")
 
 4.  Click the **Apply** button.
 5.  Click **OK** to save the filter defined for the report and close the Schema Builder.
 6.  On the Report Designer window toolbar, click **Save**.
 
-## Step 3: Viewing the Report { .section}
+## Step 3: Viewing the Report
 
 To view the report, do the following:
 
@@ -103,7 +101,6 @@ To view the report, do the following:
 
 Make sure that the report contains only vendors of the class you have specified. The following screenshot displays the report generated for the *Product* vendor class.
 
-![](Images/RD_Report_with_filter.png "The S150 Vendor Summary (AP6550C2) report for the Product vendor class")
 
 **Parent topic:**[Using Parameters and Filters](../UserGuide/RD_Parameters_and_Filters_Mapref.md)
 

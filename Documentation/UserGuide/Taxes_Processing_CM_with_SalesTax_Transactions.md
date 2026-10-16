@@ -1,4 +1,4 @@
-# Credit Memos with Sales Taxes: Generated Transactions {#_bd147668-31bf-4989-a770-d6de8fd04b72 .concept}
+# Credit Memos with Sales Taxes: Generated Transactions
 
 When releasing a credit memo with a sales tax, the system records tax amounts to the GL account specified for a particular tax on the **GL Accounts** tab of the [Taxes](TX_20_50_00.md) \(TX205000\) form, and creates a GL batch shown in the following table.
 

@@ -1,4 +1,4 @@
-# Upload Files Button {#_5e620864-466b-49f9-85a8-83cfc034600d .concept}
+# Upload Files Button
 
 In this chapter, you will learn about the configuration of the upload files button control, which is used to select and upload any number of files to a record. You will learn when to use this control and how to use its properties.
 

@@ -1,4 +1,4 @@
-# Form Layout: Grid Presets {#_7e979f7d-cfac-44c3-9c23-f72635fc4f7f .concept}
+# Form Layout: Grid Presets
 
 To configure the appearance of a table \(which is also called *grid*\) on an Acumatica ERP form, you can specify a preset for the grid control. A preset is a predefined set of properties, such as `mergeToolbarWidth` or `syncPosition`, that define the appearance of the grid.
 
@@ -8,9 +8,17 @@ You should use presets because they unify the appearance of grids in the UI and 
 
 To specify the preset, you use the preset property of the `gridConfig` decorator, as shown in the following example.
 
-|Without Preset|With Preset|
-|--------------|-----------|
-|```language-javascript
+<table id="_14bf4deb-003a-4a19-b981-b7da93bee1e8"><thead><tr><th>
+
+Without Preset
+
+</th><th>
+
+With Preset
+
+</th></tr></thead><tbody><tr><td>
+
+```javascript
 
 @gridConfig({
     adjustPageSize: true,
@@ -29,7 +37,9 @@ export class GLHistoryEnquiryResult
     extends PXView
 ```
 
-|```language-javascript
+</td><td>
+
+```javascript
 @gridConfig({
     preset: GridPreset.ReadOnly
 })
@@ -37,19 +47,29 @@ export class GLHistoryEnquiryResult
     extends PXView
 ```
 
-|
+</td></tr></tbody>
+</table>
 
-## Available Presets { .section}
+## Available Presets
 
 The following table lists the values of the preset property and the designs they provide.
 
 **Tip:** If some of the properties of the preset do not fit your needs, you can override them in the gridConfig decorator.
 
-|Value|Description|
-|-----|-----------|
-|Primary![](Images/UIDev_DesignLayout_Preset_primary.png)
+<table id="_1ffc08b4-a91d-4e66-80bd-f0867c98fd04"><thead><tr><th>
 
-|An editable table, which includes the following components:
+Value
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+
+</td><td>
+
+An editable table, which includes the following components:
 
  -   Table toolbar: Merged with the form toolbar
 -   Filtering and search: Available and saved in the session
@@ -62,10 +82,12 @@ The following table lists the values of the preset property and the designs they
 
  Respective SkinID in ASPX: `Primary`
 
-|
-|Inquiry![](Images/UIDev_DesignLayout_Preset_primaryInquiry.png)
+</td></tr><tr><td>
 
-|A read-only table, which includes the following components:
+
+</td><td>
+
+A read-only table, which includes the following components:
 
  -   Table toolbar: Merged with the form toolbar
 -   Filtering and search: Available and saved in the session
@@ -80,10 +102,12 @@ The following table lists the values of the preset property and the designs they
 
  Respective SkinID in ASPX: `PrimaryInquiry`
 
-|
-|Processing![](Images/UIDev_DesignLayout_Preset_Processing.png)
+</td></tr><tr><td>
 
-|A read-only table, which includes the following components:
+
+</td><td>
+
+A read-only table, which includes the following components:
 
  -   Table toolbar: Merged with the form toolbar
 -   Filtering and search: The grid filters are shown on demand \(`showFilterBar: GridFilterBarVisibility.OnDemand`\)
@@ -97,10 +121,12 @@ The following table lists the values of the preset property and the designs they
 
  This preset does not have an analogue in ASPX.
 
-|
-|ReadOnly![](Images/UIDev_DesignLayout_Preset_inquiry.png)
+</td></tr><tr><td>
 
-|A read-only table, which includes the following components:
+
+</td><td>
+
+A read-only table, which includes the following components:
 
  -   Table toolbar: Displayed separately from the form toolbar
 -   Filtering and search: Only the Search box is available
@@ -114,10 +140,12 @@ The following table lists the values of the preset property and the designs they
 
  Respective SkinID in ASPX: `Inquiry`
 
-|
-|Details![](Images/UIDev_DesignLayout_Preset_details.png)
+</td></tr><tr><td>
 
-|An editable table, which includes the following components:
+
+</td><td>
+
+An editable table, which includes the following components:
 
  -   Table toolbar: Displayed separately from the form toolbar
 -   Filtering and search: Only the Search box is available
@@ -131,10 +159,12 @@ The following table lists the values of the preset property and the designs they
 
  Respective SkinID in ASPX: `Details`
 
-|
-|Attributes![](Images/UIDev_DesignLayout_Preset_attributes.png)
+</td></tr><tr><td>
 
-|A partially editable table with a predefined set of rows, but the cells can be editable. The table includes the following components:
+
+</td><td>
+
+A partially editable table with a predefined set of rows, but the cells can be editable. The table includes the following components:
 
  -   Table toolbar: Not displayed
 -   Filtering and search: Unavailable
@@ -148,10 +178,12 @@ The following table lists the values of the preset property and the designs they
 
  Respective SkinID in ASPX: `Attributes`
 
-|
-|ShortList![](Images/UIDev_DesignLayout_Preset_shortList.png)
+</td></tr><tr><td>
 
-|An editable table, which includes the following components:
+
+</td><td>
+
+An editable table, which includes the following components:
 
  -   Table toolbar: Displayed separately from the form toolbar
 -   Filtering and search: Unavailable
@@ -165,12 +197,18 @@ The following table lists the values of the preset property and the designs they
 
  Respective SkinID in ASPX: `ShortList`
 
-|
-|Empty|An empty preset that includes no settings.
+</td></tr><tr><td>
+
+Empty
+
+</td><td>
+
+An empty preset that includes no settings.
 
  Guideline: Use this preset if the preset property becomes mandatory and you need to use a custom set of properties.
 
-|
+</td></tr></tbody>
+</table>
 
 The default values of settings in each preset are described in the [attached file](Files/GridPresets.xlsx).
 

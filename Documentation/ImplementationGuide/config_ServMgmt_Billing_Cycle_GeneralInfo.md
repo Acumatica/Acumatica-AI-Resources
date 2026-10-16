@@ -1,19 +1,19 @@
-# Billing Cycles: General Information {#_304ae062-fe44-490f-b369-e3b38c8fc91a .concept}
+# Billing Cycles: General Information
 
 In service management, billing cycles define how customers are billed for the work performed. Each billing cycle specifies which service documents—service orders or appointments—are included in billing and how the resulting billing documents are grouped. Properly configured billing cycles ensure accurate and timely billing throughout the service delivery process.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Create a billing cycle
 -   Assign a billing cycle to a customer
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create a billing cycle or multiple billing cycles when you plan to provide services to customers and need to generate billing documents based on both customer preferences and your company’s billing practices.
 
-## Billing Cycle Settings { .section}
+## Billing Cycle Settings
 
 You create a billing cycle on the [Billing Cycles](../UserGuide/FS_20_60_00.md) \(FS206000\) form. On this form, you specify the **Run Billing For** setting as follows:
 
@@ -32,7 +32,7 @@ Then, you specify the **Group Billing Documents By** setting. You select one of 
 
 On the **Billing** tab of the [Customers](../UserGuide/AR_30_30_00.md#) \(AR303000\) form, you assign at least one billing cycle to each customer account that may receive services.
 
-## Multiple Billing Cycles {#section_hrl_zqj_fdc .section}
+## Multiple Billing Cycles
 
 In Acumatica ERP, you can assign multiple billing cycles to a single customer by linking different cycles to specific service order types. The system automatically applies the appropriate billing cycle based on the service order type specified in the customer’s service document.
 

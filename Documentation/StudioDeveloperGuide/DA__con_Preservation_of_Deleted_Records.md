@@ -1,4 +1,4 @@
-# Preservation of Deleted Records \(DeletedDatabaseRecord\) {#_4a1939a3-26aa-49e3-83c6-5bcc884e66b9 .concept}
+# Preservation of Deleted Records \(DeletedDatabaseRecord\)
 
 Acumatica Framework provides a low-level mechanism \(which is performed on the database level\) for preserving deleted data records in the database. With this mechanism, when an application initiates the deletion of a data record, the data access layer generates an SQL query that marks the data record as deleted but does not permanently remove the data record from the table. When data records are selected from the table, the data access layer generates the SQL query, which returns only data records that are not marked as deleted. The data records that are preserved in this way can be restored.
 

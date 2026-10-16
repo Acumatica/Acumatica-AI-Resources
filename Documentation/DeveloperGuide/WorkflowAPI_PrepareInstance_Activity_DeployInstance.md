@@ -1,16 +1,16 @@
-# Test Instance for Workflow Customization: To Deploy a Test Instance {#_cb9d9e82-2237-4c5a-aa50-7337b8f4d0f8 .task}
+# Test Instance for Workflow Customization: To Deploy a Test Instance
 
 The following activity will walk you through the process of preparing and deploying an Acumatica ERP instance that you can use to test workflow customization.
 
-## Story { .section}
+## Story
 
 Suppose that you need to perform customization tasks for the Smart Fix company, as described in [Company Story and Customization Description](WorkflowAPI_CustomizationStory.md). You need to deploy an instance of Acumatica ERP with the *PhoneRepairShop* customization project published.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will install tools that will help you to perform customization tasks and then deploy the instance of Acumatica ERP with the dataset from the *T220 Data Entry and Setup Forms* course.
 
-## Step 1: Preparing the Environment { .section}
+## Step 1: Preparing the Environment
 
 To prepare the environment, do the following:
 
@@ -23,7 +23,7 @@ To prepare the environment, do the following:
     **Tip:** If you’ve already installed Acumatica ERP without the debugger tools, you should uninstall it and install it again with the **Install Debugger Tools** check box selected. The reinstallation of Acumatica ERP doesn’t affect existing Acumatica ERP instances. You can also install the Acumatica ERP Tools separately. For details, see [Acumatica ERP Installation On-Premises: To Install the Acumatica ERP Tools \(Optional\)](../Shared/../UserGuide/INST_Installing_Configuration_Wizard_Install_Tools_Activity.md).
 
 
-## Step 2: Deploying the Instance { .section}
+## Step 2: Deploying the Instance
 
 To perform customization for the Smart Fix company as described in [Company Story and Customization Description](WorkflowAPI_CustomizationStory.md), you need deploy an instance of Acumatica ERP and publish the customization project prepared for the *T270 Workflow API* training course on the instance.
 
@@ -41,6 +41,8 @@ You deploy an Acumatica ERP instance and configure it as follows:
 2.  Make sure that a Visual Studio solution is available in the `App_Data\Projects\PhoneRepairShop` folder of the Acumatica ERP instance folder.
 
     This is the solution of the extension library that you’ll modify in the activities of this guide.
+
+    This is the solution of the extension library that you’ll modify in the activities of this training course.
 
 3.  Sign in to the new tenant by using the following credentials:
 

@@ -1,4 +1,4 @@
-# Service Order Types: General Information {#_7a858156-9573-4e05-9370-793931d45194 .concept}
+# Service Order Types: General Information
 
 Service documents can serve a variety of purposes across different companies. For example, a service order or appointment can be created to deliver standard services, such as repair or maintenance, at a customer’s location. Service documents can also be used for internal needs, such as scheduling in-house appointments or preparing service quotes for potential customers.
 
@@ -6,11 +6,11 @@ Regardless of the purpose, each service document requires specific general and b
 
 In Acumatica ERP, you can create service order types with different settings. When you create a service order or appointment and select a specific type, the general settings of that type are automatically copied to the document.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to create a service order type and define its required settings.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create service order types in the following cases:
 

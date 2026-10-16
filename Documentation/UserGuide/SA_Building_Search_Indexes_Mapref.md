@@ -1,4 +1,4 @@
-# Building Search Indexes {#_4f56d0b8-a098-4362-a8c0-fe545b9a0963 .concept}
+# Building Search Indexes
 
 Within Acumatica ERP, users can search wikis and various system entities, thus making the process of looking up for data quick and easy.
 

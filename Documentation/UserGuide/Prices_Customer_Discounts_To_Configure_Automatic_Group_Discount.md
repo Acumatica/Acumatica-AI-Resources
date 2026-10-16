@@ -1,10 +1,10 @@
-# Automatic Customer Discounts: To Set Up an Automatic Group Discount and a Free-Item Group Promotional Discount {#_78b11114-4206-48a5-8d7a-f86d257730c5 .task}
+# Automatic Customer Discounts: To Set Up an Automatic Group Discount and a Free-Item Group Promotional Discount
 
 In this activity, you will learn how to set up and apply an automatic group discount for particular stock items sold from a specific warehouse and a free-item group promotional discount, and how the system applies these discounts to a sales order.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that on January 30, 2026, the SweetLife Fruits &amp; Jams company starts selling 32-ounce and 96-ounce jars of apple jam at a 3% discount from the Wholesale warehouse \(*WHOLESALE*\). Also, for sales orders with dates from *1/30/2026* to *2/15/2026*, the company also wants to add a free jar of 96-ounce of lemon jam for the customers who have bought the apple jam for the amount of $350 and more.
 
@@ -12,7 +12,7 @@ Acting as SweetLife's accountant, you need to configure an automatic group disco
 
 **Tip:** A group discount is based on the amount or quantity that is in one line or the sum of multiple lines. In this case, a group discount is used because the free-item discount is based on the sum of amounts of the 32-ounce jars of apple jam and the 96-ounce jars of apple jam.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -21,7 +21,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *COFFEESHOP* customer has been created.
 -   On the [Warehouses](IN_20_40_00.md) \(IN204000\) form, the *WHOLESALE* warehouse has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 To set up a free-item group promotional discount and a warehouse-specific group discount, you will configure a discount code on the [Discount Codes](AR_20_90_00.md) \(AR209000\) form and then configure the needed discount on the [Discounts](AR_20_95_00.md) \(AR209500\) form.
 
@@ -29,7 +29,7 @@ To review how the discounts are applied to the sales order, you will then create
 
 Finally, you will deactivate the discounts.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start the lesson, do the following:
 
@@ -37,7 +37,7 @@ Before you start the lesson, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026*. For simplicity, in this lesson, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu button to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Configuring the Warehouse-Specific Group Discount for Particular Items { .section}
+## Step 1: Configuring the Warehouse-Specific Group Discount for Particular Items
 
 To configure the warehouse-specific group discount for particular stock items \(for the *WHOLESALE* warehouse and the *APJAM96* and *APJAM32* items\), do the following:
 
@@ -80,7 +80,7 @@ To configure the warehouse-specific group discount for particular stock items \(
     On the **Discount Breakpoints** tab, notice that the system has cleared the **Pending Date** column and that the **Effective Date** column now contains this date \(*1/30/2026*\).
 
 
-## Step 2: Configuring the Free-Item Group Promotional Discount { .section}
+## Step 2: Configuring the Free-Item Group Promotional Discount
 
 To configure the free-item group promotional discount in which the *LEMJAM96* stock item is the free item, do the following:
 
@@ -119,7 +119,7 @@ To configure the free-item group promotional discount in which the *LEMJAM96* st
 10. In the Summary area of the form, select the **Active** check box.
 11. On the form toolbar, click **Save**.
 
-## Step 3: Creating a Sales Order and Exploring an Application of the Automatic Group Discounts { .section}
+## Step 3: Creating a Sales Order and Exploring an Application of the Automatic Group Discounts
 
 To create a sales order for testing purposes and explore how the automatic group discounts are applied to it, do the following:
 
@@ -154,7 +154,6 @@ To create a sales order for testing purposes and explore how the automatic group
     -   **Unit Price**: `16.60`
     Notice that another row, which contains the *LEMJAM96* stock item, has been automatically added to the order, and the **Free Item** check box has been selected in the row \(see the following screenshot\).
 
-    ![](Images/activity_Prices_Details_Tab_Sales_Orders_Form_Free_Item_Discount.png "Details tab of the Sales Orders form with a free-item group promotional discount")
 
 6.  On the **Discounts** tab, review the discounts, which you configured earlier in this lesson and which have been applied to the sales order.
 
@@ -164,12 +163,11 @@ To create a sales order for testing purposes and explore how the automatic group
 
     As shown in the screenshot below, the free-item discount *FRITE00000* has been applied because the order date \(*1/30/2026*\) is within the range of effective dates of the promotional discount and the total price for *APJAM32* and *APJAM96* exceeds $350, the break point.
 
-    ![](Images/activity_Prices_To_Configure_Automatic_Group_Discount.png "The free-item group promotional discount applied to the sales order")
 
     You do not need to save or process this sales order; you created it solely to test how the discounts are applied.
 
 
-## Step 4: Making the Created Discounts Inactive { .section}
+## Step 4: Making the Created Discounts Inactive
 
 1.  Open the [Discounts](AR_20_95_00.md) \(AR209500\) form.
 2.  In the Summary area, specify the following settings:

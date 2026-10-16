@@ -1,4 +1,4 @@
-# SalesInvoice {#_1ceca4db-c82d-40ee-9f9e-3cca976fd91c .concept}
+# SalesInvoice
 
 This chapter presents code examples showing requests that use the `SalesInvoice` entity.
 

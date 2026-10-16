@@ -1,16 +1,16 @@
-# Cash Management: To Create Cash Accounts {#_df2987db-747f-452f-b2a8-21ec50f54750 .task}
+# Cash Management: To Create Cash Accounts
 
 In this activity, you will learn how to create cash accounts in the system.
 
-## Story { .section}
+## Story
 
 Suppose that as an administrator, you need to add cash accounts to the system, as requested by the accountant of the SweetLife company. You will create cash accounts that correspond to the following GL accounts: *10100 - Petty Cash* and *10200 - Company Checking Account*.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Cash Accounts](../UserGuide/CA_20_20_00.md) \(CA202000\) form, you will create a cash account and a company checking account to be used with this cash account.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating the cash accounts, make sure that the following tasks have been performed in the system:
 
@@ -18,7 +18,7 @@ Before you start creating the cash accounts, make sure that the following tasks 
 2.  The cash management preference settings have been defined, as described in [Cash Management: To Specify Cash Management Preferences](config_Basic_Company_Implem_Activity_CA_Preferences.md).
 3.  The entry types of cash operations has been defined in the system, as described in [Cash Management: To Create an Entry Type](config_Basic_Company_Implem_Activity_Entry_Types.md).
 
-## Step 1: Creating the Cash Register Account { .section}
+## Step 1: Creating the Cash Register Account
 
 To configure SweetLife's cash register account, do the following:
 
@@ -35,7 +35,7 @@ To configure SweetLife's cash register account, do the following:
 5.  In the **Payment Method** column, select *CASH*.
 6.  On the form toolbar, click **Save**.
 
-## Step 2: Creating the Company Checking Account { .section}
+## Step 2: Creating the Company Checking Account
 
 To configure a cash account to be used with the company checking account, do the following:
 

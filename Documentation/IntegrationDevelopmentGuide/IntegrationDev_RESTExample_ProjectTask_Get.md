@@ -1,8 +1,8 @@
-# Retrieve a Project Task {#_aa71a74c-9b66-4514-a96d-8530964af759 .concept}
+# Retrieve a Project Task
 
 By using the REST API, you can retrieve a project task that meets some conditions.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to configure your client application and the Acumatica ERP instance to be used as follows:
 
@@ -11,14 +11,14 @@ Before you test the code below, you need to configure your client application an
 3.  To sign in to the instance in the client application, use the tenant name \(which you specified when you created the instance\) and the *HEADOFFICE* branch.
 4.  If you are using Postman as the client application for testing, in the `IntegrationDevelopmentGuide.postman_collection.json` collection, make sure that the collection’s variables have the proper values. This collection is located in the `IntegrationDevelopment\Help` folder of the [Help-and-Training-Examples](https://github.com/Acumatica/Help-and-Training-Examples) repository on GitHub.
 
-## Request { .section}
+## Request
 
 You can use the following example of an HTTP request to retrieve a project task with the *TESTPR3* project ID and the *PHASE1* task ID through the contract-based REST API.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-GET /entity/Default/25.200.001/ProjectTask?
+GET /entity/Default/26.200.001/ProjectTask?
     $filter=ProjectID%20eq%20'TESTPR3'%20and%20ProjectTaskID%20eq%20'PHASE1' 
     HTTP/1.1
 Host: <Acumatica ERP host>
@@ -26,7 +26,7 @@ Accept: application/json
 Content-Type: application/json
 ```
 
-## Usage Notes { .section}
+## Usage Notes
 
 By using the REST API, you can create pro forma invoices and send them by email. For details about pro forma invoices, see [Pro Forma Invoices: General Information](../Shared/../UserGuide/Projects_Pro_Forma_Invoices_GeneralInfo.md).
 

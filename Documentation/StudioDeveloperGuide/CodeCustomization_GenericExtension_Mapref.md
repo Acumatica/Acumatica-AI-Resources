@@ -1,4 +1,4 @@
-# Reusing Business Logic with Generic Graph Extensions {#_76b8c160-89bd-4501-9f9f-1dabc648d417 .concept}
+# Reusing Business Logic with Generic Graph Extensions
 
 In an Acumatica Framework-based application, you may need to use the same business logic in multiple places. For example, Acumatica ERP supports the calculation of amounts in multiple currencies. Therefore, the business logic containers \(also called *graphs*\) that implement the multicurrency logic are included in different parts of the application.
 

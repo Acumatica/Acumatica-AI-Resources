@@ -1,4 +1,4 @@
-# Settings of the Canadian EFT Plug-In {#_1e6ea20f-8020-4496-a9c5-f37e3620ba28 .concept}
+# Settings of the Canadian EFT Plug-In
 
 You can specify the settings of the Canadian EFT plug-in on the **Plug-In Settings** tab of the [Payment Methods](CA_20_40_00.md) \(CA204000\) form.
 
@@ -6,26 +6,270 @@ You can specify the settings of the Canadian EFT plug-in on the **Plug-In Settin
 
 The following table lists the settings of the Canadian EFT plug-in.
 
-|Setting|Type of Control|Description|Required|Default Value|
-|-------|---------------|-----------|--------|-------------|
-|**General Settings** section|
-|**Compress to ZIP format**|Lookup box|The lookup table \(which opens when you click the magnifier button\) displays the remittance settings specified on the **Remittance Settings** tab of the [Payment Methods](CA_20_40_00.md) form.|No| |
-|**A: File Header Record** section|
-|**Originator's ID**|Lookup box|The originator of the file. The lookup table displays the remittance settings specified on the **Remittance Settings** tab of the [Payment Methods](CA_20_40_00.md) form.|Yes|*Originator ID*|
-|**Destination Data Center**|Lookup box|The data center to which the file is being delivered. The lookup table displays the remittance settings specified on the **Remittance Settings** tab of the [Payment Methods](CA_20_40_00.md) form.|Yes|*Data Center*|
-|**Creation Date**|Drop-down list|The creation date of the file, which can be one of the following options:-   *Batch Date*
+<table id="_8c48b5a9-2387-4296-bb9f-10786fb8a451"><thead><tr><th>
+
+Setting
+
+</th><th>
+
+Type of Control
+
+</th><th>
+
+Description
+
+</th><th>
+
+Required
+
+</th><th>
+
+Default Value
+
+</th></tr></thead><tbody><tr><td colspan="5">
+
+**General Settings** section
+
+</td></tr><tr><td>
+
+**Compress to ZIP format**
+
+</td><td>
+
+Lookup box
+
+</td><td>
+
+The lookup table \(which opens when you click the magnifier button\) displays the remittance settings specified on the **Remittance Settings** tab of the [Payment Methods](CA_20_40_00.md) form.
+
+</td><td>
+
+No
+
+</td><td>
+
+ 
+
+</td></tr><tr><td colspan="5">
+
+**A: File Header Record** section
+
+</td></tr><tr><td>
+
+**Originator's ID**
+
+</td><td>
+
+Lookup box
+
+</td><td>
+
+The originator of the file. The lookup table displays the remittance settings specified on the **Remittance Settings** tab of the [Payment Methods](CA_20_40_00.md) form.
+
+</td><td>
+
+Yes
+
+</td><td>
+
+*Originator ID*
+
+</td></tr><tr><td>
+
+**Destination Data Center**
+
+</td><td>
+
+Lookup box
+
+</td><td>
+
+The data center to which the file is being delivered. The lookup table displays the remittance settings specified on the **Remittance Settings** tab of the [Payment Methods](CA_20_40_00.md) form.
+
+</td><td>
+
+Yes
+
+</td><td>
+
+*Data Center*
+
+</td></tr><tr><td>
+
+**Creation Date**
+
+</td><td>
+
+Drop-down list
+
+</td><td>
+
+The creation date of the file, which can be one of the following options:-   *Batch Date*
 -   *Current Date*
 
-|Yes|*Current Date*|
-|**C: Entry Detail \(Deposit\) Record** section|
-|**Institutional Identification No. \(Bank\)**|Lookup box|The financial institution in which the payee maintains an account. The lookup table displays the payment details specified on the **Settings for Use in AP** tab of the [Payment Methods](CA_20_40_00.md) form.|Yes|*Bank*|
-|**Institutional Identification No. \(Branch\)**|Lookup box|The branch of the financial institution in which the payee maintains an account. The lookup table displays the payment details specified on the **Settings for Use in AP** tab of the [Payment Methods](CA_20_40_00.md) form.|Yes|*Branch*|
-|**Payee Account No.**|Lookup box|The payee's account with the financial institution. The lookup table displays the payment details specified on the **Settings for Use in AP** tab of the [Payment Methods](CA_20_40_00.md) form.|Yes|*Account*|
-|**Payee Name**|Lookup box|The payee’s name. The lookup table displays the payment details specified on the **Settings for Use in AP** tab of the [Payment Methods](CA_20_40_00.md) form.|Yes|*Beneficiary Name*|
-|**Originator's Short Name**|Lookup box|The short name of the originator of the transaction. The lookup table displays the remittance settings specified on the **Remittance Settings** tab of the [Payment Methods](CA_20_40_00.md) form.|Yes|*Short Name*|
-|**Originator's Long Name**|Lookup box|The long name of the originator of the transaction. The lookup table displays the remittance settings specified on the **Remittance Settings** tab of the [Payment Methods](CA_20_40_00.md) form.|Yes|*Name*|
-|**Originating Direct Clearer's User ID**|Lookup box|The identification code assigned to the user by the company’s direct clearer. The lookup table displays the remittance settings specified on the **Remittance Settings** tab of the [Payment Methods](CA_20_40_00.md) form.|No|*Originator ID*|
-|**Originator's Cross Reference No.**|Formula box|The formula used by the originator to identify the transaction.
+</td><td>
+
+Yes
+
+</td><td>
+
+*Current Date*
+
+</td></tr><tr><td colspan="5">
+
+**C: Entry Detail \(Deposit\) Record** section
+
+</td></tr><tr><td>
+
+**Institutional Identification No. \(Bank\)**
+
+</td><td>
+
+Lookup box
+
+</td><td>
+
+The financial institution in which the payee maintains an account. The lookup table displays the payment details specified on the **Settings for Use in AP** tab of the [Payment Methods](CA_20_40_00.md) form.
+
+</td><td>
+
+Yes
+
+</td><td>
+
+*Bank*
+
+</td></tr><tr><td>
+
+**Institutional Identification No. \(Branch\)**
+
+</td><td>
+
+Lookup box
+
+</td><td>
+
+The branch of the financial institution in which the payee maintains an account. The lookup table displays the payment details specified on the **Settings for Use in AP** tab of the [Payment Methods](CA_20_40_00.md) form.
+
+</td><td>
+
+Yes
+
+</td><td>
+
+*Branch*
+
+</td></tr><tr><td>
+
+**Payee Account No.**
+
+</td><td>
+
+Lookup box
+
+</td><td>
+
+The payee's account with the financial institution. The lookup table displays the payment details specified on the **Settings for Use in AP** tab of the [Payment Methods](CA_20_40_00.md) form.
+
+</td><td>
+
+Yes
+
+</td><td>
+
+*Account*
+
+</td></tr><tr><td>
+
+**Payee Name**
+
+</td><td>
+
+Lookup box
+
+</td><td>
+
+The payee’s name. The lookup table displays the payment details specified on the **Settings for Use in AP** tab of the [Payment Methods](CA_20_40_00.md) form.
+
+</td><td>
+
+Yes
+
+</td><td>
+
+*Beneficiary Name*
+
+</td></tr><tr><td>
+
+**Originator's Short Name**
+
+</td><td>
+
+Lookup box
+
+</td><td>
+
+The short name of the originator of the transaction. The lookup table displays the remittance settings specified on the **Remittance Settings** tab of the [Payment Methods](CA_20_40_00.md) form.
+
+</td><td>
+
+Yes
+
+</td><td>
+
+*Short Name*
+
+</td></tr><tr><td>
+
+**Originator's Long Name**
+
+</td><td>
+
+Lookup box
+
+</td><td>
+
+The long name of the originator of the transaction. The lookup table displays the remittance settings specified on the **Remittance Settings** tab of the [Payment Methods](CA_20_40_00.md) form.
+
+</td><td>
+
+Yes
+
+</td><td>
+
+*Name*
+
+</td></tr><tr><td>
+
+**Originating Direct Clearer's User ID**
+
+</td><td>
+
+Lookup box
+
+</td><td>
+
+The identification code assigned to the user by the company’s direct clearer. The lookup table displays the remittance settings specified on the **Remittance Settings** tab of the [Payment Methods](CA_20_40_00.md) form.
+
+</td><td>
+
+No
+
+</td><td>
+
+*Originator ID*
+
+</td></tr><tr><td>
+
+**Originator's Cross Reference No.**
+
+</td><td>
+
+Formula box
+
+</td><td>
+
+The formula used by the originator to identify the transaction.
 
  This is a standard formula box. You can edit the value by using the Formula Editor dialog box. The list of fields that can be added to the formula \(together with static text, operations, and functions\) include the following:
 
@@ -40,17 +284,100 @@ The following table lists the settings of the Canadian EFT plug-in.
 -   *\[Bill.Description\]*
 -   *\[Bill.Date\]*
 
-|Yes|*\[APPayment.Payment Ext Ref\]*|
-|**Institutional ID Number for Returns \(Bank\)**|Lookup box|The bank number to which returns and rejects are returned. The lookup table displays the remittance settings specified on the **Remittance Settings** tab of the [Payment Methods](CA_20_40_00.md) form.|Yes|*Bank*|
-|**Institutional ID Number for Returns \(Branch\)**|Lookup box|The branch number to which returns and rejects are returned. The lookup table displays the remittance settings specified on the **Remittance Settings** tab of the [Payment Methods](CA_20_40_00.md) form.|No|*Branch*|
-|**Account No. for Returns**|Lookup box|The account number to which returns and rejects are returned. The lookup table displays the remittance settings specified on the **Remittance Settings** tab of the [Payment Methods](CA_20_40_00.md) form.|No|*Account*|
-|**Originator's Sundry Information**|Formula box|The formula used by the originator to further identify the transaction.
+</td><td>
+
+Yes
+
+</td><td>
+
+*\[APPayment.Payment Ext Ref\]*
+
+</td></tr><tr><td>
+
+**Institutional ID Number for Returns \(Bank\)**
+
+</td><td>
+
+Lookup box
+
+</td><td>
+
+The bank number to which returns and rejects are returned. The lookup table displays the remittance settings specified on the **Remittance Settings** tab of the [Payment Methods](CA_20_40_00.md) form.
+
+</td><td>
+
+Yes
+
+</td><td>
+
+*Bank*
+
+</td></tr><tr><td>
+
+**Institutional ID Number for Returns \(Branch\)**
+
+</td><td>
+
+Lookup box
+
+</td><td>
+
+The branch number to which returns and rejects are returned. The lookup table displays the remittance settings specified on the **Remittance Settings** tab of the [Payment Methods](CA_20_40_00.md) form.
+
+</td><td>
+
+No
+
+</td><td>
+
+*Branch*
+
+</td></tr><tr><td>
+
+**Account No. for Returns**
+
+</td><td>
+
+Lookup box
+
+</td><td>
+
+The account number to which returns and rejects are returned. The lookup table displays the remittance settings specified on the **Remittance Settings** tab of the [Payment Methods](CA_20_40_00.md) form.
+
+</td><td>
+
+No
+
+</td><td>
+
+*Account*
+
+</td></tr><tr><td>
+
+**Originator's Sundry Information**
+
+</td><td>
+
+Formula box
+
+</td><td>
+
+The formula used by the originator to further identify the transaction.
 
  This is a formula box. You can edit the value by using the Formula Editor dialog box.
 
-|No| |
+</td><td>
 
-## Modification of the Payment-Related Information Formula {#_61f76be3-ff1d-4f9b-8804-c5894fc8c6c4 .section}
+No
+
+</td><td>
+
+ 
+
+</td></tr></tbody>
+</table>
+
+## Modification of the Payment-Related Information Formula
 
 On the **Plug-In Settings** tab of the [Payment Methods](CA_20_40_00.md)\(CA204000\) form, you can edit the formula specified for the **Originator's Cross Reference No.** and **Originator's Sundry Information** settings of the plug-in by performing the following general steps:
 

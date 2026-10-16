@@ -1,14 +1,14 @@
-# Service Classes: To Create a Service Class for Services Billed by Time {#_8d5be111-07dd-4874-bf61-4f4bae23f397 .task}
+# Service Classes: To Create a Service Class for Services Billed by Time
 
 In this implementation activity, you will learn how to create a service class intended to group services that are billed by time.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Service and Equipment Sales Center has decided to sell a set of educational services that will include teaching, coaching, and instructing. All these services are going to be billed by time. Acting as an administrative user, you need to create a service class that will contain the general settings of this group of services.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -23,11 +23,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   On the [Units of Measure](../UserGuide/CS_20_35_00.md) \(CS203500\) form, the *HOUR* unit has been created.
 -   On the [Tax Categories](../UserGuide/TX_20_55_00.md) \(TX205500\) form, the *EXEMPT* tax category has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Item Classes](../UserGuide/IN_20_10_00.md#) \(IN201000\) form, you will create a service class that is used to group services that are billed by the number of hours spent while providing a service.
 
-## System Preparation {#section_bpw_rgy_1hc .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -35,7 +35,7 @@ Before you start this activity, do the following:
 2.  On the Company and Branch Selection menu in the top pane of the Acumatica ERP screen, select the Service and Equipment Sales Center branch.
 3.  Make sure that the *Service Management* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md#) \(CS100000\) form.
 
-## Step: Creating a Service Class { .section}
+## Step: Creating a Service Class
 
 To create the service class, do the following:
 

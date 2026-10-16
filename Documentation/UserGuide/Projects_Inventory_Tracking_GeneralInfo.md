@@ -1,8 +1,8 @@
-# Project Inventory Tracking: General Information {#_c88fde12-24c2-4b9b-af43-25854318d4f9 .concept}
+# Project Inventory Tracking: General Information
 
 In Acumatica ERP, you can configure the project inventory \(that is, the inventory items to be used for a particular project\) so that all items purchased and sold for the project will be separated from other inventory and reserved for the project in the warehouse. This helps you to accurately capture inventory expenses and revenues related to the project inventory in a project budget. This also helps you to avoid any delays associated with items not being available when they are needed for the project.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,7 +10,7 @@ In this chapter, you will learn how to do the following:
 -   Process documents with stock items related to projects
 -   Review project and GL transactions generated during the processing of sales and purchases of items
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure the project inventory of particular projects if you are using stock items in these projects and want to track detailed information about the inventory to be used for these projects, as well as to be able to perform the following operations:
 
@@ -19,7 +19,7 @@ You configure the project inventory of particular projects if you are using stoc
 -   Track project-specific quantities for stock items, to prevent these items from being used for non-project purposes
 -   Use valuated costing for project-specific stock items to issue and receive project items at accurate costs that are not affected by the costs of non-project items
 
-## Configuration of Inventory Tracking in Projects {#section_iq3_qks_qqb .section}
+## Configuration of Inventory Tracking in Projects
 
 If you have enabled the *Inventory and Order Management* and *Inventory* features on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form and are using the related functionality, you can use the enhanced integration of projects with inventory by enabling the *Project-Specific Inventory* feature.
 
@@ -31,7 +31,7 @@ Once you have enabled the feature, you configure the applicable projects to use 
 
 In an existing project, you can change the inventory tracking mode only if no items have been received for the project yet.
 
-## Inventory Tracking in Projects {#section_m55_nts_qqb .section}
+## Inventory Tracking in Projects
 
 For a project in which the *Track by Project Quantity* or *Track by Project Quantity and Cost* inventory tracking mode is selected in the **Inventory Tracking** box of the [Projects](PM_30_10_00.md) \(PM301000\) form, you create and process documents with stock items as follows:
 
@@ -43,7 +43,7 @@ For a project in which the *Track by Project Quantity* or *Track by Project Quan
 
 -   To transfer leftover materials from the project stock to free stock, you create an inventory transfer on the [Transfer Project Inventory to Free Stock](PM_50_80_00.md) \(PM508000\) mass-processing form. For more information, see [Project Inventory Tracking: Mass Processing](Projects_Inventory_Tracking_MassProcessing.md).
 
-## Tracking Item Costs {#section_rrm_3wx_qqb .section}
+## Tracking Item Costs
 
 In a project with the *Track by Location* or *Track by Project Quantity* mode selected in the **Inventory Tracking** box of the [Projects](PM_30_10_00.md) \(PM301000\) form, the cost of the issued materials is not project-specific and is defined by general cost calculation rules. The cost of an item depends on the item valuation method and is affected by other factors: the warehouse location from which the item is issued, the account and subaccount, the selected subitem, and the lot or serial number of the item. For more information on how the system calculates item costs, see [Item Costs and Valuation Methods: General Information](Item_Costs_Valuation_Methods_GeneralInfo.md).
 

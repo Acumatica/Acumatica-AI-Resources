@@ -1,13 +1,13 @@
-# Tax Report Preparation: To Prepare a Tax Report for a Closed Tax Period {#_997c1b23-d74a-4ae7-9a5e-36a0543a7d8a .task}
+# Tax Report Preparation: To Prepare a Tax Report for a Closed Tax Period
 
 You use the [Prepare Tax Report](TX_50_10_00.md) \(TX501000\) form to generate a tax report for the closed reporting period.
 
-## Before You Proceed {#section_wmn_fjv_vxb .section}
+## Before You Proceed
 
 -   Make sure that the tax report is properly and fully configured for the particular tax agency. For details, see [Tax Report](../ImplementationGuide/Taxes_TaxReport_Mapref.md).
 -   Make sure that the **Update Closed Tax Periods** check box is selected for the tax agency on the [Vendors](AP_30_30_00.md) \(AP303000\) form.
 
-## To Prepare a Tax Report For a Closed Reporting Period {#section_ymn_fjv_vxb .section}
+## To Prepare a Tax Report For a Closed Reporting Period
 
 1.  Open the [Prepare Tax Report](../Shared/../UserGuide/TX_50_10_00.md) \(TX501000\) form.
 2.  In the **Company** box, select the company on behalf of which the tax report will be prepared.
@@ -21,7 +21,7 @@ You use the [Prepare Tax Report](TX_50_10_00.md) \(TX501000\) form to generate a
 
 As a result of the steps described in the procedure above, the system prepares another tax report for the specified tax agency and automatically opens the [Release Tax Report](TX_50_20_00.md) \(TX502000\) form. On this form, in the **Revision ID** box, the revision number of the tax report is incremented by 1. For details, see [Tax Report Preparation: Tax Report for a Closed Period](Taxes_Preparing_a_Tax_Report_Closed_Period.md) and [Releasing a Sales Tax Report](Taxes_Releasing_a_Tax_Report_Mapref.md).
 
-## Notes About the Procedure {#section_ann_fjv_vxb .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

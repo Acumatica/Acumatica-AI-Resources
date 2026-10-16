@@ -1,8 +1,8 @@
-# Sales with Returns: Generated Transactions {#_e19c289f-fd3f-4c9c-92a1-5543e24e26f6 .concept}
+# Sales with Returns: Generated Transactions
 
 To be able to process both a sale and a return of stock items in the same order, you create a mixed order \(that is, an order of the *MO* type\) on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form. The following sections describe the GL transactions generated during the processing of the documents for a sale of one stock item and a return of one stock item \(that is, a mixed order has one sales line and one return line\).
 
-## Transactions Generated for a Sales Invoice { .section}
+## Transactions Generated for a Sales Invoice
 
 If the **Order Total** of the related mixed order is positive, the system creates and releases a sales invoice with one sales line and one return line \(when you click **Prepare Invoice** on the form toolbar of the [Sales Orders](SO_30_10_00.md) \(SO301000\) form\). On release of the invoice, the system generates the following general ledger transactions:
 
@@ -14,7 +14,7 @@ If the **Order Total** of the related mixed order is positive, the system create
 |Sales account|Mixed order|0.00|Sales amount|
 |Sales account|Mixed order|Return Amount|0.00|
 
-## Transactions Generated for a Payment { .section}
+## Transactions Generated for a Payment
 
 If the **Order Total** of the mixed order is positive, you create and release a payment. The system generates the following general ledger transactions:
 
@@ -23,7 +23,7 @@ If the **Order Total** of the mixed order is positive, you create and release a 
 |Cash Account|Payment method|Payment amount|0.00|
 |Accounts Receivable account|Customer|0.00|Payment amount|
 
-## Transactions Generated for a Credit Memo { .section}
+## Transactions Generated for a Credit Memo
 
 If the **Order Total** of the mixed order is negative, you create and release a credit memo with one return line \(that is, a line with a positive amount\) and one sales line \(that is, a line with a negative amount\). The system generates the following general ledger transactions:
 
@@ -35,7 +35,7 @@ If the **Order Total** of the mixed order is negative, you create and release a 
 
 You can view the reference number of the GL batch in the **Batch Nbr.** box on the **Financial** tab of the [Invoices](SO_30_30_00.md) \(SO303000\) form. You can click the link in this box to view the details of the batch on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## Transactions Generated for a Refund { .section}
+## Transactions Generated for a Refund
 
 If the **Order Total** of the mixed order is negative, you create and release a refund. The system generates the following general ledger transactions:
 
@@ -44,7 +44,7 @@ If the **Order Total** of the mixed order is negative, you create and release a 
 |Cash Account|Payment method|0.00|Return amount|
 |Accounts Receivable account|Customer|Return amount|0.00|
 
-## Transactions Generated for an Inventory Issue { .section}
+## Transactions Generated for an Inventory Issue
 
 On release of the sales invoice, the system generates an inventory issue transaction with the line that has the *Invoice* transaction type. When an inventory issue with one line of the *Invoice* type is released, the system generates the following general ledger transactions:
 

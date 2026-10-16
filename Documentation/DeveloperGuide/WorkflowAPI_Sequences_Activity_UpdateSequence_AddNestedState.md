@@ -1,10 +1,10 @@
-# Step 5: Adding the Postponed Workflow State to the Composite State {#_62486186-acd5-4e49-bff4-f1a9e25c041f .concept}
+# Step 5: Adding the Postponed Workflow State to the Composite State
 
 To add the `Postponed` workflow state to the composite state, do the following:
 
 1.  In the `SOInvoiceRepairOrder_Workflow` class, add the `Postponed` workflow state in the WithFlowStates method, as shown in the following code.
 
-    ```language-csharp
+    ```csharp
                                 flowStates.UpdateSequence<ARDocStatus.HoldToBalance>(
                                     seq =>
                                 {

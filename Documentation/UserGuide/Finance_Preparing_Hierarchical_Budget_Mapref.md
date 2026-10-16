@@ -1,4 +1,4 @@
-# Preparing a Hierarchical Budget {#_88d74825-73a5-4ed0-9f05-e1870e9b8a1e .concept}
+# Preparing a Hierarchical Budget
 
 If a budget tree has been configured in Acumatica ERP, you can prepare a yearly budget with a hierarchical structure. In this chapter, you will read about simple hierarchical budgets and learn about how to prepare them and what related report you can use to obtain more information.
 

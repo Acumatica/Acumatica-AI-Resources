@@ -1,21 +1,21 @@
-# Automated Synchronization: To Activate a Predefined Business Event {#_19696be6-695e-4c25-b2ec-8ab90eaa3062 .task}
+# Automated Synchronization: To Activate a Predefined Business Event
 
 The following activity will walk you through the process of configuring a business event that sends an email notification to the store administrator when the synchronization of an order placed in the ecommerce system is aborted.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that you have configured the automated import of sales orders from the ecommerce store and want Jerald Stevens, an ecommerce manager of SweetLife, to be notified when the system has failed to process a synchronization record of a sales order too many times \(based on the setting specified in the system\) and has set its status to *Aborted*, which excludes the record from synchronization. To make the system send a notification to the ecommerce manager, Jerald Stevens, every time the synchronization of a sales order is aborted, you need to activate a predefined business event that will trigger the sending of an email message to the store administrator every time the status of a synchronization record of a sales order changes to *Aborted*. You also want to review the notification template to make sure it is sent to the correct recipient and contains the necessary data about the aborted records.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Email Templates](SM_20_40_03.md) \(SM204003\) form, the *Aborted Synchronization Record* notification template has been defined.
 -   On the [Users](SM_20_10_10.md) \(SM201010\) form, the *stevens* user record has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 You will do the following:
 
@@ -23,7 +23,7 @@ You will do the following:
 2.  On the [Business Events](SM_30_20_50.md) \(SM302050\) form, activate a predefined business event that will trigger the sending of an email when the system fails to process a sales order synchronization record more than the maximum number of synchronization attempts allowed, which by default is five.
 3.  On the [Email Templates](SM_20_40_03.md) \(SM204003\) form, review the notification template used for notifications about aborted sales orders.
 
-## System Preparation { .section}
+## System Preparation
 
 Do the following:
 
@@ -34,7 +34,7 @@ Do the following:
     -   **Username**: *gibbs*
     -   **Password**: *123*
 
-## Step 1: Specifying the Store Administrator { .section}
+## Step 1: Specifying the Store Administrator
 
 To specify the administrator of the *SweetStore - BC* store, do the following:
 
@@ -45,7 +45,7 @@ To specify the administrator of the *SweetStore - BC* store, do the following:
 
 3.  On the form toolbar, click **Save**.
 
-## Step 2: Activating the Business Event { .section}
+## Step 2: Activating the Business Event
 
 To activate the business event that will trigger the sending of email notifications to the store administrator, do the following:
 
@@ -62,7 +62,7 @@ To activate the business event that will trigger the sending of email notificati
 
 You have activated the business event that will trigger sending Jerald Stevens an email notification every time a synchronization record of the *Sales Order* entity is assigned the *Aborted* status.
 
-## Step 3: Reviewing the Notification Template { .section}
+## Step 3: Reviewing the Notification Template
 
 To review the template for notifications about aborted sales order synchronization records sent to the store administrator, do the following:
 

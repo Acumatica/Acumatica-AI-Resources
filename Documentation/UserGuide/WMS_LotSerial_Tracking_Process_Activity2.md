@@ -1,14 +1,14 @@
-# Automated Operations with Lot- and Serial-Tracked Items: To Count Items in Physical Inventory {#_f00788b5-82c1-414c-9223-da13e7ca7db0 .task}
+# Automated Operations with Lot- and Serial-Tracked Items: To Count Items in Physical Inventory
 
 In this activity, you will learn how to perform automated counting of lot-tracked items during a physical inventory.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a warehouse worker in the SweetLife Fruits &amp; Jams company, and you have been assigned to perform a physical inventory count by entering the barcodes of stock items and locations. You will count the quantities of coconuts in particular warehouse locations added to the physical inventory document, which your manager has provided to you.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -23,20 +23,20 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Physical Inventory Types](IN_20_89_00.md) \(IN208900\) form, the *CNCNT* inventory type has been created.
 -   On the [Prepare Physical Count](IN_50_40_00.md) \(IN504000\) form, the *000002* physical inventory document has been created, and it has the *Counting in Progress* status.
 
-## Process Overview { .section}
+## Process Overview
 
 As you count lot-tracked items within a physical inventory in this activity, you will scan the barcode of the physical inventory document; you will then scan the location barcode, the barcode of each item you find in this location, and the barcodes of the lot numbers that correspond to each item. When you have counted all items in all locations added to the physical inventory document, you will confirm the document.
 
 **Tip:** In any working mode, you enter a command or barcode by typing it in the **Scan** box and pressing Enter. In production systems, you will scan the appropriate barcodes rather than manually entering them.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start performing the activity, do the following:
 
 1.  Sign in to a company with the U100 dataset preloaded as a warehouse worker with the *perkins* username and the *123* password.
 2.  On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, make sure that the *Lot and Serial Tracking* feature is enabled.
 
-## Step 1: Entering the Counted Quantities of Items { .section}
+## Step 1: Entering the Counted Quantities of Items
 
 Suppose that you have started counting coconuts. Do the following to enter the counted quantities into the system:
 
@@ -63,7 +63,7 @@ Suppose that you have started counting coconuts. Do the following to enter the c
     You have finished counting items in the *F3S2* location and need to confirm the counted data.
 
 
-## Step 2: Reviewing the Quantities and Confirming the Entered Data { .section}
+## Step 2: Reviewing the Quantities and Confirming the Entered Data
 
 After you have entered the quantities of all items in the physical inventory document, you need to review the quantities and confirm the entered data. Do the following:
 
@@ -78,7 +78,6 @@ After you have entered the quantities of all items in the physical inventory doc
 2.  On the form toolbar, click **Confirm** to confirm the entered data. The system confirms the data and clears the physical inventory document number. The form is ready for a new count.
 3.  On the [Physical Inventory Count](IN_30_50_10.md) \(IN305010\) form, open the *000002* physical inventory document for which you have performed count. In the **Physical Quantity** column, make sure all counted quantities are shown \(see the screenshot below\).
 
-    ![](Images/activity_WMS_LotSerial_Tracking_Count.png "Physical inventory count")
 
 
 You have successfully counted coconuts in the warehouse locations and entered data into the system.

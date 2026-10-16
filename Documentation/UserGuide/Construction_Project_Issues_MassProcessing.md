@@ -1,8 +1,8 @@
-# Project Issue: Mass Processing {#_cb7b8c2e-560a-4a76-b542-73d95c08a98c .concept}
+# Project Issue: Mass Processing
 
 The following section explains how to mass-assign owners to project issues.
 
-## Mass-Assigning Owners to Project Issues { .section}
+## Mass-Assigning Owners to Project Issues
 
 You use the [Assign Project Issue](PJ_50_20_00.md) \(PJ502000\) form to assign owners to project issues. To do this, you select the check boxes in the unlabeled column for the project issues that you want to assign to owners and then click **Process** on the form toolbar. If you want to assign owners to all project issues, click **Process All**.
 

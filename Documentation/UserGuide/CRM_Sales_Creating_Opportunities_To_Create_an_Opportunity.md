@@ -1,14 +1,14 @@
-# Opportunities: To Create an Opportunity Manually {#_49b7dce9-5dbd-4354-9eef-ed936bca08f6 .task}
+# Opportunities: To Create an Opportunity Manually
 
 The following activity will help you create an opportunity manually in Acumatica ERP.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are David Chubb, a sales manager of the SweetLife Fruits &amp; Jams company.You have received a phone call from your customer Kevin Grey, who is a buyer at Groceriex, a chain of supermarkets in New York. Kevin would like to extend Groceriex’s contract with SweetLife and purchase 50 pounds of each of the following fresh fruits: apples, kiwis, oranges, and lemons.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -18,11 +18,11 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Opportunity Classes](CR_20_90_00.md) \(CR209000\) form, the *PRODUCT* opportunity class has been created.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *APPLES*, *KIWIS*, *ORANGES*, and *LEMONS* stock items \(which hold the settings of one pound of each of these fruits\) have been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create an opportunity for the existing customer on the [Opportunities](CR_30_40_00.md) \(CR304000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating opportunities manually, you should do the following:
 
@@ -32,7 +32,7 @@ Before you start creating opportunities manually, you should do the following:
     -   **Password**: *123*
 3.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step: Creating an Opportunity Manually { .section}
+## Step: Creating an Opportunity Manually
 
 To manually create an opportunity with Kevin Grey of *GROCERIEX*, do the following:
 

@@ -1,4 +1,4 @@
-# Project Mailing Configuration: Project Quotes {#_9270d45a-8a6b-4242-8a73-5031ccc3b8a6 .concept}
+# Project Mailing Configuration: Project Quotes
 
 You can email a project quote that has been submitted and approved \(if approval of project quotes is set up in the system\) to the customer for review if the status of the project quote is *Prepared* or *Sent*. To do this, while viewing the quote on the [Project Quotes](../UserGuide/PM_30_45_00.md) \(PM304500\) form, you invoke the **Email** action on the form toolbar. The system creates an email activity and lists the activity on the **Activities** tab of the form; it also attaches a printable version of the quote to the email, sends the email the recipient, and changes the status of the quote to *Sent*.
 

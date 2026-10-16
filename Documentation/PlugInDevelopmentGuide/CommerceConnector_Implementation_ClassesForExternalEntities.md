@@ -1,12 +1,12 @@
-# Connector Implementation: Classes for External Entities {#_bcc2705e-ece7-4ce2-aabf-2a48a7badd55 .concept}
+# Connector Implementation: Classes for External Entities
 
 You need to create a class for each external entity to be synchronized with Acumatica ERP through the connector. Classes for external entities are adapters for the entities of the API of the external system.
 
-## Base Class and Interface { .section}
+## Base Class and Interface
 
 You define a class that derives from the [PX.Commerce.Core.BCAPIEntity](https://help.acumatica.com/(W(25))/Help?ScreenId=ShowWiki&pageid=e99edea6-f3cb-04db-6c2f-9af83fc9af4c) base class, which implements the [PX.Commerce.Core.IExternEntity](https://help.acumatica.com/(W(24))/Help?ScreenId=ShowWiki&pageid=6839d3f9-050c-8463-e442-cd2e00a469ad) interface. In this class, you define the properties of the external API entity that you need to synchronize with the properties of the entity stored in Acumatica ERP.
 
-## Attributes of the Class and Its Properties { .section}
+## Attributes of the Class and Its Properties
 
 You assign the [PX.Commerce.Core.CommerceDescription](https://help.acumatica.com/(W(25))/Help?ScreenId=ShowWiki&pageid=490ee272-f67f-b635-a345-66da991bdcf2) attribute with the name of the entity to the class. Entity names are used as the names of the external objects on the [Entities](../UserGuide/BC_20_20_00.md) \(BC202000\) form.
 
@@ -21,13 +21,13 @@ You also assign the Newtonsoft.Json.JsonProperty attribute to the properties of 
 
 **Attention:** The external system determines which classes you need to implement and how the connector communicates with the external system.
 
-## Example { .section}
+## Example
 
 The following code shows an example of the declaration of a customer entity for the WooCommerce connector.
 
 **Tip:** You can see this code on [GitHub](https://github.com/Acumatica/Help-and-Training-Examples/blob/HEAD/PlugInDevelopment/Help/ImplementingConnector/WooCommerceTest/External/CustomerData.cs).
 
-```language-csharp
+```csharp
 ﻿using System;
 using System.Collections.Generic;
 using PX.Commerce.Core;

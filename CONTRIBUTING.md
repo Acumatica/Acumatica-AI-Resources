@@ -16,7 +16,7 @@ Keep each pull request focused on one contribution or closely related set of cha
 
 ## Documentation Is Read-Only
 
-On each Acumatica release branch, the `Documentation/` directory contains a Markdown conversion of the official documentation for that release. For example, the `2026R1` branch contains the documentation for Version 2026 R1. The directory is maintained by Acumatica and is not open to external contributions.
+On each Acumatica release branch, the `Documentation/` directory contains a Markdown conversion of the official documentation for that release. The `2026R2` branch contains the documentation for Version 2026 R2. The directory is maintained by Acumatica and is not open to external contributions.
 
 - Do not add, edit, move, rename, or delete files under `Documentation/` in an external pull request.
 - Pull requests containing changes under `Documentation/` will not be accepted.
@@ -32,7 +32,7 @@ The repository is organized by Acumatica release instead of using a single `main
 - `2026R1` for Acumatica 2026 R1.
 - `2026R2` for Acumatica 2026 R2.
 
-Each release branch contains the documentation and AI resources intended for that Acumatica version. External pull requests are accepted only for the latest published release branch. For example, after `2026R2` becomes the latest release branch, external pull requests must target `2026R2`; pull requests targeting `2026R1` or an earlier branch will not be accepted.
+Each release branch contains the documentation and AI resources intended for that Acumatica version. External pull requests are accepted only for the latest published release branch, `2026R2`. Pull requests targeting `2026R1` or an earlier branch will not be accepted.
 
 Before starting work:
 

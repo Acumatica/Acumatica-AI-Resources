@@ -1,4 +1,4 @@
-# Project Budget Control: Budget Locking {#_c12cd234-2ac9-2147-a687-fa3ccdaa1e16 .concept}
+# Project Budget Control: Budget Locking
 
 Once the project budget has been agreed upon, you can lock the original figures to prevent further editing. After the original budgeted values have been locked, you can still update the revised budgeted values. Because you maintain the original values, you can assess how accurately the budget was estimated. Because you can also make adjustments to the revised budget as additional information becomes known, budget revisions provide the most accurate and up-to-date estimation of the budget.
 

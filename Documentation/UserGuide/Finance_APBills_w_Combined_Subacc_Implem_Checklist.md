@@ -1,25 +1,73 @@
-# Bill with Combined Subaccounts: Implementation Checklist {#_e46a9ca8-e514-4373-9389-7fb50332e164 .concept}
+# Bill with Combined Subaccounts: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for processing AP bills with combined subaccounts, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist {#section_dd3_njv_vxb .section}
+## Implementation Checklist
 
 We recommend that before you initially process bills with combined subaccounts, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
-|Form|Criteria to Check|
-|----|-----------------|
-|[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)|Make sure that the minimal features have been enabled as described in [Company Without Branches: General Information](../ImplementationGuide/config_Basic_Company_GeneralInfo.md), [Company with Branches that Do Not Require Balancing: General Information](../ImplementationGuide/config_Company_with_Branches_No_Balancing_GeneralInfo.md), and [Company with Branches that Require Balancing: General Information](../ImplementationGuide/config_Company_with_Branches_with_Balancing_GeneralInfo.md)
+<table id="_75f5a845-9a95-409c-9ffd-7c022ec672dc"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Criteria to Check
+
+</th></tr></thead><tbody><tr><td>
+
+[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)
+
+</td><td>
+
+Make sure that the minimal features have been enabled as described in [Company Without Branches: General Information](../ImplementationGuide/config_Basic_Company_GeneralInfo.md), [Company with Branches that Do Not Require Balancing: General Information](../ImplementationGuide/config_Company_with_Branches_No_Balancing_GeneralInfo.md), and [Company with Branches that Require Balancing: General Information](../ImplementationGuide/config_Company_with_Branches_with_Balancing_GeneralInfo.md)
 
  Make sure that *Subaccounts* feature has been enabled.
 
-|
-|[Segmented Keys](CS_20_20_00.md#) \(CS202000\)|The *SUBACCOUNT* segmented key has been properly configured. For details, see [Subaccounts: Implementation Activity](../ImplementationGuide/config_Subaccounts_Implem_Activity.md).|
-|[Segment Values](CS_20_30_00.md) \(CS203000\)|The segment values for the *SUBACCOUNT* segmented key have been defined as described in [Subaccounts: Implementation Activity](../ImplementationGuide/config_Subaccounts_Implem_Activity.md).|
-|[Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\)|The subaccount mask to be used in AP documents has been defined, and subaccounts for non-stock items and an employee have been specified. For details, see [Combined Subaccounts: To Define a Subaccount Mask for AP Documents](../ImplementationGuide/config_Combined_Subaccounts_Implem_Activity_2.md).|
-|[Vendors](AP_30_30_00.md) \(AP303000\)|Verify the existence of the vendor accounts for the vendors for which you will create AP bills. For details, see [Vendors: Implementation Activity](Vendor_Implem_Activity.md).|
-|[Non-Stock Items](IN_20_20_00.md) \(IN202000\)|Verify the existence of non-stock items that can be used when creating AP bills. For details, see [Non-Stock Item: Implementation Activity](Non_Stock_Item_Fin_Implem_Activity.md).|
+</td></tr><tr><td>
 
-## Other Settings That Affect the Workflow {#section_hd3_njv_vxb .section}
+[Segmented Keys](CS_20_20_00.md#) \(CS202000\)
+
+</td><td>
+
+The *SUBACCOUNT* segmented key has been properly configured. For details, see [Subaccounts: Implementation Activity](../ImplementationGuide/config_Subaccounts_Implem_Activity.md).
+
+</td></tr><tr><td>
+
+[Segment Values](CS_20_30_00.md) \(CS203000\)
+
+</td><td>
+
+The segment values for the *SUBACCOUNT* segmented key have been defined as described in [Subaccounts: Implementation Activity](../ImplementationGuide/config_Subaccounts_Implem_Activity.md).
+
+</td></tr><tr><td>
+
+[Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\)
+
+</td><td>
+
+The subaccount mask to be used in AP documents has been defined, and subaccounts for non-stock items and an employee have been specified. For details, see [Combined Subaccounts: To Define a Subaccount Mask for AP Documents](../ImplementationGuide/config_Combined_Subaccounts_Implem_Activity_2.md).
+
+</td></tr><tr><td>
+
+[Vendors](AP_30_30_00.md) \(AP303000\)
+
+</td><td>
+
+Verify the existence of the vendor accounts for the vendors for which you will create AP bills. For details, see [Vendors: Implementation Activity](Vendor_Implem_Activity.md).
+
+</td></tr><tr><td>
+
+[Non-Stock Items](IN_20_20_00.md) \(IN202000\)
+
+</td><td>
+
+Verify the existence of non-stock items that can be used when creating AP bills. For details, see [Non-Stock Item: Implementation Activity](Non_Stock_Item_Fin_Implem_Activity.md).
+
+</td></tr></tbody>
+</table>
+
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of processing AP bills with combined subaccounts by specifying additional settings as follows:
 
@@ -30,7 +78,7 @@ You can affect the workflow of processing AP bills with combined subaccounts by 
     -   Clear the **Require Vendor Reference** check box in the **Data Entry Settings** section. This setting means that you do not have to enter a vendor reference number in the **Vendor Ref.** box when creating an AP bill on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
     -   Make sure that the **Automatically Post on Release** check box is selected in the **Posting Settings** section. This setting indicates that AP bills will be automatically posted to the general ledger once they are released.
 
-## Validation of Configuration {#section_jd3_njv_vxb .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you process AP bills with combined subaccounts by performing instructions similar to those described in [Bill with Combined Subaccounts: Process Activity](Finance_APBills_w_Combined_Subacc_Activity.md).
 

@@ -1,4 +1,4 @@
-# Creating Service Contracts {#_3024bdae-f73b-41b4-850b-5869052c67d8 .concept}
+# Creating Service Contracts
 
 Acumatica ERP's service contract billing is flexible to the timing that best fits your company's processes, including billing at the time the services are provided. The service contract billing depends on the options you specify when you create a service contract.
 
@@ -24,6 +24,4 @@ The topics of this chapter describe how to create and process service contracts 
 
 -   **[Service Contracts: Related Inquiry Forms](../UserGuide/Services_EndPeriod_Reports_Inquiries.md)**  
 
-
-**Parent topic:**[Equipment Management](../UserGuide/FS_00_00_02.md)
 

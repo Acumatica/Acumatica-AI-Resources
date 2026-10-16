@@ -1,19 +1,19 @@
-# Wizard: General Information {#_525fda55-c383-4045-b4dd-daa5cc3edc01 .concept}
+# Wizard: General Information
 
 You can configure a wizard control to divide multiple controls into several steps and make it easier for a user to provide values. In this topic, you will learn about the wizard control, its components, and its configuration.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn the following about the wizard control:
 
 -   The design guidelines for the wizard control, including the naming conventions and layout recommendations
 -   The proper configuration of the wizard control for specific cases
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure the wizard control when you want to a user to provide values for multiple fields and guide a user through a sequence of discrete steps.
 
-## Overview of the Wizard Control { .section}
+## Overview of the Wizard Control
 
 A wizard is a control that can consist of one step or multiple steps, each of which focuses on a part of a larger process. Each step may include instructions or prompts and a set of controls, such as boxes and tables, where users can view and enter data. A user can navigate between steps by clicking buttons at the bottom of the wizard.
 
@@ -30,13 +30,12 @@ The wizard control includes the following components:
     -   **Next**: This button is active on each step of the wizard except the last one.
     -   **Done**: This button is displayed only on the last step of the wizard.
 
-![](Images/UIDevRef_Wizard_Overview.png "A wizard control")
 
 A wizard is defined by PXWizard in the Classic UI. In the Modern UI, a wizard can be defined by the [qp-wizard](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=67eb60e0-a2c4-4420-e797-1556d7f4784e) control.
 
 To define each step of the wizard, you should use the [qp-tab](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=aac6d7aa-e2f9-aac3-838d-db12a2bcd4e3) control inside the [qp-wizard](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=67eb60e0-a2c4-4420-e797-1556d7f4784e) control.
 
-## Configuration of the Wizard Control { .section}
+## Configuration of the Wizard Control
 
 A wizard control is typically displayed inside a dialog box, but it can also be displayed in a container control of a form, such as a tab or the Summary area
 
@@ -48,7 +47,7 @@ To define a wizard control, do the following:
 
     The following code shows a configuration that specifies the title of the wizard and an action for the **Next** button of the wizard. For details, see [Wizard: Configuration of Buttons](UIDevRef_Wizard_Actions.md).
 
-    ```language-javascript
+    ```javascript
     export class GL302010 extends PXScreen {
       wizardConfig: IWizardConfig = { 
         caption: ImportMessages.WizardCaption,
@@ -59,7 +58,7 @@ To define a wizard control, do the following:
 
     **Note:** You can also define the properties from the IWizardConfig interface in HTML, as shown below.
 
-    ``` {#codeblock_uqy_4w5_qgc .language-xml}
+    ```xml
     <qp-wizard ... caption="Preload Budget Articles">
     ```
 
@@ -68,7 +67,7 @@ To define a wizard control, do the following:
 
     The following code shows how to specify the configuration that was defined in TypeScript.
 
-    ```language-xml
+    ```xml
     <qp-wizard id="wizardBudgetArticles" config.bind="wizardConfig">
     </qp-wizard>
     ```
@@ -79,7 +78,7 @@ To define a wizard control, do the following:
 
     To specify the title of the step, use the caption attribute of the qp-tab tag. The "Step X of Y:" prefix is calculated and added automatically to the caption string.
 
-    ```language-xml
+    ```xml
     <qp-tab id="tabWizardBudgetArticles-SourceParameters" 
       caption="Select the source parameters"">
       <qp-info-box caption="This wizard allows you to ..." type="info"></qp-info-box>
@@ -94,7 +93,7 @@ To define a wizard control, do the following:
 
     The overall structure of the qp-wizard control in HTML can look as shown in the following code.
 
-    ```language-xml
+    ```xml
     <qp-wizard ...>
       <qp-tab ... > <!-- step 1 --> </qp-tab>
       <qp-tab ... > <!-- step 2 --> </qp-tab>
@@ -103,11 +102,11 @@ To define a wizard control, do the following:
     ```
 
 
-## Wizard and Step IDs { .section}
+## Wizard and Step IDs
 
 An ID of a wizard in HTML consists of two parts: the `wizard` prefix and the semantic name. The semantic name describes the purpose of the element. For example, a wizard that helps users preload budget articles may have the `wizardBudgetArticles` ID, as the following code shows.
 
-```language-xml
+```xml
 <qp-wizard id="wizardBudgetArticles" config.bind="wizardConfig">
 ```
 
@@ -120,7 +119,7 @@ Each step of the wizard that you implement by using the [qp-tab](https://help.ac
 
 For example, a tab that step with the source parameters of a budget article may have the `tabWizardBudgetArticles-SourceParameters` ID, as the following code shows.
 
-```language-xml
+```xml
 <qp-wizard id="wizardBudgetArticles" config.bind="wizardConfig">
   <qp-tab id="tabWizardBudgetArticles-SourceParameters">
   </qp-tab>

@@ -1,16 +1,16 @@
-# Action Configuration: To Hide Unneeded Actions {#_9cd6f1a9-4b0a-4173-93e3-fe40acd5dfa0 .task}
+# Action Configuration: To Hide Unneeded Actions
 
 The following activity will walk you through the process of hiding actions that are not required for the workflow.
 
-## Story { .section}
+## Story
 
 In your workflow, you do not need the **Cancel**, **Complete**, and **Complete &amp; Follow-Up** buttons or the corresponding commands on the More menu of the [Task](../UserGuide/CR_30_60_20.md) \(CR306020\) form. Acting as a technical specialist, you are going to hide these buttons and menu commands on the form.
 
-## Process Overview { .section}
+## Process Overview
 
 By using the [Actions](../UserGuide/AU_20_10_50.md) page, you will hide the `Cancel`, `Complete`, and `Complete & Follow-Up` actions in all the workflow states.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin hiding unneeded actions, do the following:
 
@@ -20,7 +20,7 @@ Before you begin hiding unneeded actions, do the following:
 
 2.  Make sure that you have completed the [Workflow Creation: To Add States](WorkflowUI_CreatingWorkflow_Activity_AddStates.md) activity.
 
-## Step: Hiding Actions { .section}
+## Step: Hiding Actions
 
 To hide the actions, do the following in the Customization Project Editor for the *TaskWorkflow* project:
 

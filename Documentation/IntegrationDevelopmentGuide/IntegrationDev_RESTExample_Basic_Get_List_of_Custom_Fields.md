@@ -1,4 +1,4 @@
-# Retrieve the Schema of Custom Fields and Workflow Actions {#_64daacf1-75c4-4bfa-b57b-36222020e7c9 .concept}
+# Retrieve the Schema of Custom Fields and Workflow Actions
 
 Not all fields and actions that are available for an entity on the corresponding Acumatica ERP form may be included in the system endpoint. However, you can still work with some of these fields and actions through the REST API. For each top-level entity, the REST API provides the schema of custom fields and workflow actions.
 
@@ -14,7 +14,7 @@ Workflow actions are the actions defined in the workflow of the form. \(See more
 
 To retrieve this schema by using the REST API, you access the needed URL with the `GET` HTTP method. See the following sections for details on the request and the response.
 
-## HTTP Method and URL { .section}
+## HTTP Method and URL
 
 If you need to obtain the schema of custom fields of an entity, you use the `GET` HTTP method and the following URL.
 
@@ -27,49 +27,110 @@ The URL includes the following components:
 -   *&lt;Base endpoint URL&gt;* is the URL of the contract-based endpoint through which you are going to work with Acumatica ERP. This URL has the following format: *http://&lt;Acumatica ERP instance URL&gt;/entity/&lt;Endpoint name&gt;/&lt;Endpoint version&gt;/*.
 -   *&lt;Top-level entity&gt;* is the name of the entity for which you are going to retrieve the schema of custom fields.
 
-For example, suppose that you want to obtain the schema of custom fields of a stock item entity from a local Acumatica ERP instance with the name *AcumaticaDB* by using the system endpoint with the name *Default* and Version 25.200.001. You would use the following URL to retrieve the schema: *http://localhost/AcumaticaDB/entity/Default/25.200.001/StockItem/$adHocSchema*.
+For example, suppose that you want to obtain the schema of custom fields of a stock item entity from a local Acumatica ERP instance with the name *AcumaticaDB* by using the system endpoint with the name *Default* and Version 26.200.001. You would use the following URL to retrieve the schema: *http://localhost/AcumaticaDB/entity/Default/26.200.001/StockItem/$adHocSchema*.
 
-## Parameters { .section}
+## Parameters
 
 You use no parameters when you retrieve the schema of custom fields.
 
-## Request Headers { .section}
+## Request Headers
 
-|Header|Description|
-|------|-----------|
-|Accept|Specifies the format of the response body, which should be application/json.|
-|Cookie|Specifies the cookies that you have received during the sing-in to Acumatica ERP with the login method. For details on this method, see [Sign In to the Service](../Shared/../IntegrationDevelopmentGuide/IntegrationDev_RESTExample_Basic_Login.md).
+<table id="_40bf8194-174d-41e1-9ba1-dce56cf597b4"><thead><tr><th>
 
- You must use the Cookie header in any of the following cases:
+Header
 
- -   You have used the login method to sign in to Acumatica ERP.
--   You are using the OAuth 2.0 or OpenID Connect \(OIDC\) authorization with the api:concurrent\_access scope and need to manage session IDs through cookies.
+</th><th>
 
-|
+Description
 
-## Response Status Codes { .section}
+</th></tr></thead><tbody><tr><td>
+
+Accept
+
+</td><td>
+
+Specifies the format of the response body, which should be application/json.
+
+</td></tr><tr><td>
+
+Cookie
+
+</td><td>
+
+Specifies the cookies that you’ve received during the sign-in to Acumatica ERP with the login method. For details on this method, see [Sign In to the Service](../Shared/../IntegrationDevelopmentGuide/IntegrationDev_RESTExample_Basic_Login.md).
+
+ You must use the Cookie header if:
+
+ -   You’ve used the login method to sign in to Acumatica ERP.
+-   You’re using the OAuth 2.0 or OpenID Connect \(OIDC\) authorization with the api:concurrent\_access scope and need to manage session IDs through cookies.
+
+</td></tr></tbody>
+</table>
+
+## Response Status Codes
 
 The following table lists the HTTP status codes that the system returns for a request that retrieves the schema of the custom fields of an entity.
 
-|Code|Description|
-|----|-----------|
-|*200*|The request has been completed successfully. The response body contains:-   The custom fields in each entity with the view name, field name, and type of the custom fields
+<table id="_8cc67d24-02bc-4057-ab68-107a704eae35"><thead><tr><th>
+
+Code
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+*200*
+
+</td><td>
+
+The request has been completed successfully. The response body contains:-   The custom fields in each entity with the view name, field name, and type of the custom fields
 -   The \_workflowActions field with the names of workflow actions and information about their parameters, including the name and type of each parameter
 
-|
-|*401*|The user is not signed in to the system.|
-|*403*|The user has insufficient rights to access the Acumatica ERP form that corresponds to the API entity.|
-|*429*|The number of requests has exceeded the limit imposed by the license \(see [License Restrictions for API Users](../Shared/../IntegrationDevelopmentGuide/IS__con_License_Restrictions_API_Users.md)\).|
-|*500*|An internal server error has occurred.|
+</td></tr><tr><td>
 
-## Example { .section}
+*401*
+
+</td><td>
+
+The user is not signed in to the system.
+
+</td></tr><tr><td>
+
+*403*
+
+</td><td>
+
+The user has insufficient rights to access the Acumatica ERP form that corresponds to the API entity.
+
+</td></tr><tr><td>
+
+*429*
+
+</td><td>
+
+The number of requests has exceeded the limit imposed by the license \(see [License Restrictions for API Sessions and Requests](../Shared/../IntegrationDevelopmentGuide/IS__con_License_Restrictions_API_Users.md)\).
+
+</td></tr><tr><td>
+
+*500*
+
+</td><td>
+
+An internal server error has occurred.
+
+</td></tr></tbody>
+</table>
+
+## Example
 
 The following request shows an example of the retrieval of the schema of custom fields and workflow actions of the Opportunity entity.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-GET /entity/Default/25.200.001/Opportunity/$adHocSchema HTTP/1.1
+GET /entity/Default/26.200.001/Opportunity/$adHocSchema HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
 Content-Type: application/json
@@ -111,7 +172,7 @@ The following fragment of response shows an example of custom fields of the enti
 
 The following fragment of response shows an example of information about a workflow action of the entity.
 
-```language-json
+```json
 "_workflowActions": [
         {
             "Open": {

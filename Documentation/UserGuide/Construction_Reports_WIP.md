@@ -1,4 +1,4 @@
-# Construction Reports: WIP Reports {#_5b28abc6-5f9d-4cac-8fbc-156769dd0b92 .concept}
+# Construction Reports: WIP Reports
 
 When companies use the percentage-of-completion method for revenue recognition, they include a WIP \(which can indicate *work in progress* or *work in process*\) schedule with their financial statements. WIP reports are designed to track the current progress of a project, as well as the financial performance of particular project tasks. The tracking of WIP gives you the ability to determine whether a project task is overbilled or underbilled relative to its progress.
 
@@ -6,13 +6,13 @@ In Acumatica ERP, you can use the [Project WIP](PM_65_15_00.md) \(PM651500\) and
 
 For the complete list of columns in the WIP reports and formulas that are used for calculations, see the [Project WIP](PM_65_15_00.md) \(PM651500\) and [Project WIP Detail](PM_65_25_00.md) \(PM652500\) report reference topics.
 
-## Project Performance { .section}
+## Project Performance
 
 In the WIP reports, you can review the project data of the selected period range \(from *Period 1* to *Period 2*\) with the project actual values calculated through the period that is not in this period range \(*Period 3*\). For example, you can analyze the performance of a project through the current period, 01-2026, while the overall project details will be calculated for the previous financial year \(01-2025 through 12-2025\).
 
 In the [Project WIP Detail](PM_65_25_00.md) \(PM652500\) report, you can also analyze project performance with the report information broken down by cost codes and project tasks, or by project tasks only.
 
-## Project Progress { .section}
+## Project Progress
 
 In the WIP reports, you can analyze project progress for a particular range of periods based on the following report columns:
 
@@ -22,7 +22,7 @@ In the WIP reports, you can analyze project progress for a particular range of p
 -   **Revenue Backlog**
 -   **Remaining Contract**
 
-## Potential Costs { .section}
+## Potential Costs
 
 You can include cost projections in WIP reports to analyze the potential costs of every project phase and their impact on the overall project performance before these costs appear in the company profit and loss statements. The released cost projections can be included in calculations for the following columns:
 
@@ -34,7 +34,7 @@ You can include cost projections in WIP reports to analyze the potential costs o
 -   **% Complete**
 -   **Revenue Backlog**
 
-## Earned Revenue for the Period’s End { .section}
+## Earned Revenue for the Period’s End
 
 By using WIP reports, you can analyze the earned revenue of the project for the end of a financial period. You can also make adjustments to the profit and loss statements in order to comply with the matching principle of generally accepted accounting principles \(which states that the expenses related to the revenue have to be recorded to the same financial period in which the revenue has been recorded\).
 

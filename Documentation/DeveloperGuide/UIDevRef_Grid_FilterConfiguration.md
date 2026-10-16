@@ -1,8 +1,8 @@
-# Table \(Grid\): Configuration of the Search in the Table {#_096e4485-a909-4932-96f4-0cf99e56f5ad .concept}
+# Table \(Grid\): Configuration of the Search in the Table
 
 To configure the search in the table, you need to specify fast filter settings for the table. A fast filter is applied to the table when a user enters a value in the Search box of the table or in another box on an Acumatica ERP form if the field that corresponds to this box is used for fast filtering.
 
-## Hiding the Search Box or Changing Its Position { .section}
+## Hiding the Search Box or Changing Its Position
 
 By default, the Search box of a table is displayed on the filter bar of the table. You can hide the Search box or display it on the table toolbar by using the showFastFilter property in the gridConfig decorator, as the following example shows.
 
@@ -15,7 +15,7 @@ export class FieldValue
   extends PXView
 ```
 
-## Including Columns in the List of Searched Fields { .section}
+## Including Columns in the List of Searched Fields
 
 To include columns in the list of searched fields, you use the allowFastFilter property in the columnConfig decorator for the needed columns or the fastFilterByAllFields property in the gridConfig decorator. Take into account the following considerations:
 
@@ -23,7 +23,7 @@ To include columns in the list of searched fields, you use the allowFastFilter p
 -   To exclude particular columns from the search, `fastFilterByAllFields` is not needed; you need to use `allowFastFilter: false`.
 -   To have only particular columns searched, you can set `fastFilterByAllFields: false` and `allowFastFilter: true` for only these columns.
 
-## Using a Field Value for Fast Filtering { .section}
+## Using a Field Value for Fast Filtering
 
 You may need to filter records in the table by a value that a user has specified in a box on the Acumatica ERP form. To use a field value for fast filtering, you do the following:
 

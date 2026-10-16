@@ -1,8 +1,8 @@
-# To Add a New Translation Set {#_2cecda6a-5739-4762-92d7-e398de07a3dc .task}
+# To Add a New Translation Set
 
 To add a new translation set, you use the [Translation Sets](SM_21_15_00.md) \(SM211500\) form. For every translation set, you select the system resources \(that is, forms and form elements with which the strings are associated\) you want to include in the set. When you collect the strings of a translation set, the system collects the strings associated with the system resources included in the set. For more information, see [Translation Process](SM__con_Translation_Process.md).
 
-## To Add a New Translation Set { .section}
+## To Add a New Translation Set
 
 1.  Open the [Translation Sets](SM_21_15_00.md) \(SM211500\) form.
 2.  In the form toolbar, click **Add New Record**.

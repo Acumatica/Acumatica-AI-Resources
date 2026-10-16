@@ -1,20 +1,20 @@
-# Stock Items to Be Tracked Post-Sale: To Create Components {#_a2622301-f7d5-406d-92ff-fecef3eb49d5 .task}
+# Stock Items to Be Tracked Post-Sale: To Create Components
 
 In this activity, you will create components for a stock item. To do this, you will first create an item class that is intended to group and provide similar settings to components \(that is, stock items of a component equipment class\). Then you will create stock items based on this item class. You will also specify warranty settings for these components.
 
-## Story {#section_cnz_jns_kdc .section}
+## Story
 
 Suppose that the SweetLife Service and Equipment Sales Center is planning to sell cold press juicers with components. Acting as an administrative user, you will create the *CPRESSCOMP - Cold press juicer components* item class designed for components, which will group the components of cold press juicers. You will then create stock items based on this item class to represent the individual components for the cold press juicers.
 
-## Process Overview {#section_ssq_44v_3dc .section}
+## Process Overview
 
 On the [Item Classes](IN_20_10_00.md) \(IN201000\) form, you will create an item class with the **Component** option button selected on the **Service Management** tab. Then on the [Stock Items](IN_20_25_00.md) \(IN202500\) form, you will create stock items based on the newly created item class.
 
-## System Preparation {#section_z4x_b2b_ldc .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, on the Acumatica ERP website, sign in to a company with the *U100* dataset preloaded. You should sign in as a system administrator by using the *gibbs* username and the *123* password.
 
-## Step 1: Creating an Item Class for Components {#section_otl_f5v_3dc .section}
+## Step 1: Creating an Item Class for Components
 
 To create an item class for components, do the following:
 
@@ -37,7 +37,7 @@ To create an item class for components, do the following:
 
 Now you can create the stock items \(that is, the individual components\) in the item class that you have created.
 
-## Step 2: Creating Components {#section_nz5_lns_kdc .section}
+## Step 2: Creating Components
 
 In this step, you will create the components listed in the table below.
 

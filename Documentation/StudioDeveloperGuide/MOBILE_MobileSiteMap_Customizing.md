@@ -1,4 +1,4 @@
-# To Customize the Mobile Site Map for a Form {#_0e6f3728-57aa-447c-94ca-d412f9e4fbc9 .concept}
+# To Customize the Mobile Site Map for a Form
 
 Before you start to customize the original mobile site map, we recommend that you explore the files in the `\App_Data\Mobile` folder of the website to learn which forms of Acumatica ERP are used in the map. The folder can contain the files with the XML metadata and MSDL code of not only the original mobile site map but also any customizations that have been applied to the map.
 

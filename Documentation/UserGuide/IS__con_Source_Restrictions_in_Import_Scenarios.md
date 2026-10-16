@@ -1,4 +1,4 @@
-# Source Restrictions in Import Scenarios {#_6f6a125f-a9ab-464c-81ce-f240462904cf .concept}
+# Source Restrictions in Import Scenarios
 
 You can use source restrictions to filter the data that you want to extract from the source for processing by the import scenario. For example, some customer ID values in the source have *CUST* prefixes. You can specify a source restriction that selects only the records from the source that have the *CUST* prefix in the customer ID field.
 

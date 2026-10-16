@@ -1,4 +1,4 @@
-# Customization Guide {#_316b14fa-f406-4788-993c-7b043b1c5bd9 .concept}
+# Customization Guide
 
 This guide describes the scope of the Acumatica Customization Platform and provides guidelines on how to use the platform capabilities for the customization of Acumatica ERP.
 

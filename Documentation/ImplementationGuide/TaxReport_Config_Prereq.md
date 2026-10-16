@@ -1,8 +1,8 @@
-# Tax Report Configuration: Configuration Prerequisites {#_9b0c2264-628b-4c84-9d78-5cdb977261a5 .concept}
+# Tax Report Configuration: Configuration Prerequisites
 
 Before starting the creation of a tax report, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Configuring the System { .section}
+## Configuring the System
 
 Before you configure a tax report, you need to make sure that the following configuration tasks have been performed in the system:
 

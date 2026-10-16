@@ -1,8 +1,8 @@
-# To Configure Table Methods of Class Type {#_1bf004e5-b8bf-497c-986a-dde24db17d6f .task}
+# To Configure Table Methods of Class Type
 
 To add a new depreciation table method, first you use the [Depreciation Table Methods](FA_20_26_00.md) \(FA202600\) form to add a method of the class type that will be used to aggregate methods of asset type, as described in this topic.
 
-## To Configure a Table Method of the Class Type {#section_pcc_ljv_vxb .section}
+## To Configure a Table Method of the Class Type
 
 1.  Open the [Depreciation Table Methods](FA_20_26_00.md) \(FA202600\) form.
 2.  On the form toolbar, click **Add New Record**.

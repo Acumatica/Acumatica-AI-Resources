@@ -1,17 +1,17 @@
-# Auto-Applying Payments: General Information {#_1717f920-2056-4429-8d2b-9501b7559797 .concept}
+# Auto-Applying Payments: General Information
 
 Manually applying payment documents to invoices may require a significant amount of time if your company sells a lot in a financial period. To ease this process, Acumatica ERP provides the functionality to automate the application of payment documents.
 
 In this chapter, you will read about the auto-application options offered by the system, their configuration, and implementation details.
 
-## Learning Objectives {#section_wcq_4jv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Run the automatic payment application process
 -   Review and release the payment applications prepared by the system
 
-## Applicable Scenarios {#section_zcq_4jv_vxb .section}
+## Applicable Scenarios
 
 You use auto-application of payments to AR documents in the following cases:
 
@@ -19,7 +19,7 @@ You use auto-application of payments to AR documents in the following cases:
 -   You want to apply all open payment documents recorded in the system to outstanding documents at some particular time, such as before preparing customer statements. You use the [Auto-Apply Payments](AR_50_60_00.md) \(AR506000\) mass processing form for this purpose. For details, see [Auto-Application for Multiple Documents](#section_f3j_5nd_cw).
 -   It is common in your company to receive payments in advance and you want to apply open payments when you record the related invoice. For details on applying payments when recording invoices, see [AR Invoices: Invoice Recording](AR__CON_InvoiceRecording.md).
 
-## Auto-Application for a Customer Account {#section_uyd_bhd_cw .section}
+## Auto-Application for a Customer Account
 
 Suppose that your company has customers who purchase frequently and you want to save time on the application of their documents with the *Payment* type to outstanding documents. For such customers, you select the **Auto-Apply Payments** check box on the **General** tab of the [Customers](AR_30_30_00.md) \(AR303000\) form.
 
@@ -37,7 +37,7 @@ The system forms the list of outstanding documents and distributes the payment a
 
 The system creates application records for each paid outstanding document and releases the application records simultaneously with the payment.
 
-## Auto-Application for Multiple Documents {#section_f3j_5nd_cw .section}
+## Auto-Application for Multiple Documents
 
 Before you prepare statements for your customers, we recommend that you apply open payment documents from customers to any corresponding invoices and calculate any overdue charges, to avoid incorrect calculation of aged balances. For a statement cycle, if the **Require Payment Application Before Statement Processing** check box is selected on the [Statement Cycles](AR_20_28_00.md) \(AR202800\) form, the system will issue a warning if you try to process statements while there are open payments of customers involved in the statement cycle.
 
@@ -57,7 +57,7 @@ On this form, you select a statement cycle or multiple statement cycles to speci
 
 After the process is complete, for each payment, you can view the list of applications that have been saved but not yet released on the **Documents to Apply** tab of the [Payments and Applications](AR_30_20_00.md) form. You can track the history of released payment applications by using the **Application History** tab of the form.
 
-## Exclusion from the Automatic Application of Payments {#section_odq_4jv_vxb .section}
+## Exclusion from the Automatic Application of Payments
 
 The system excludes payments and prepayments from the list of payments that can be applied to outstanding documents if they meet at least one of the following criteria:
 

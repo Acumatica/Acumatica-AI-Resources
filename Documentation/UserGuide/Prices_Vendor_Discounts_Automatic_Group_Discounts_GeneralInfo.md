@@ -1,21 +1,21 @@
-# Automatic Group Vendor Discounts: General Information {#_84107c45-6ac0-4db4-ae6b-873c94b8c05a .concept}
+# Automatic Group Vendor Discounts: General Information
 
 Vendor discounts are an effective tool that allows you to take advantage of special offerings provided by the vendors you work with. If your vendors offer discounts that are applicable to specific items, you can set up such discounts in Acumatica ERP so that they are automatically applied in AP bills and purchase orders. An automatic group discount, as the name suggests, is applied automatically to a specific document line or a group of lines that match the criteria defined for this discount.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this section, you will learn:
 
 -   How to configure automatic group-level vendor discounts
 -   How automatic group-level vendor discounts are applied in documents
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 To configure discounts for vendors, the *Vendor Discounts* feature must be enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
 You can configure vendor discounts that can be manually applied to multiple lines of documents of various types, including AP bills and purchase orders. Applying discounts to purchase orders is possible only if the *Inventory and Order Management* group of features and the *Inventory* feature are enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Application of Automatic Discounts { .section}
+## Application of Automatic Discounts
 
 The system always applies automatic discounts in the following order when a user saves a document:
 

@@ -1,8 +1,8 @@
-# CA DACs: Reference Data {#_d279fe94-f27c-42d6-b9af-9f953843b0df .concept}
+# CA DACs: Reference Data
 
 In this topic, you can find information about the data access classes \(DACs\) that contain reference data that is used in most of the DACs in cash management.
 
-## Cash Management Setup { .section}
+## Cash Management Setup
 
 The following DACs are used for the configuration of the cash management functionality:
 
@@ -10,7 +10,7 @@ The following DACs are used for the configuration of the cash management functio
 -   [CASetupApproval](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CASetupApproval): Stores the map of persons that approve documents in cash management. The map contains a reference to the [EPAssignmentMap](https://help.acumatica.com/dacBrowser/PX.Objects.EP/EPAssignmentMap) DAC.
 -   [CAEntryType](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CAEntryType): Stores the list of entry types that can be used in cash management.
 
-## Reference DACs { .section}
+## Reference DACs
 
 The following table lists the reference DACs.
 

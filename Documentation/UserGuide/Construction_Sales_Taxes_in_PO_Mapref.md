@@ -1,4 +1,4 @@
-# Working with Sales Taxes in Purchase Orders {#_dc21e2ef-56d2-4138-8dd1-080c9f72ca58 .concept}
+# Working with Sales Taxes in Purchase Orders
 
 The topics of this chapter describe how to create a sales tax for purchases and how to process a purchase with a sales tax.
 

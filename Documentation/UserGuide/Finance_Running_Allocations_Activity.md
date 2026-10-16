@@ -1,14 +1,14 @@
-# Running of Allocations: Process Activity {#_0274dc48-5eb7-49ba-9699-a51be158a78a .task}
+# Running of Allocations: Process Activity
 
 In this activity, you will learn how to run allocations. You will also learn how to review and release the generated batches.
 
-## Story {#section_erl_mjv_vxb .section}
+## Story
 
 Suppose that as an accountant of the SweetLife company, you need to distribute advertising expenses, salaries for the Finance department, rent expenses, and Christmas bonuses according to the allocation rules created in the system.
 
 Acting as the accountant, you need to run allocations, and then release the generated batches.
 
-## Configuration Overview {#section_hrl_mjv_vxb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -18,11 +18,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Segmented Keys](CS_20_20_00.md) \(CS202000\) form, the *SUBACCOUNT* segmented key has been created.
 -   On the [Allocations](GL_20_45_00.md) \(GL204500\) form, the **Allocate Source Accounts Separately** check box has been cleared.
 
-## Process Overview {#section_nrl_mjv_vxb .section}
+## Process Overview
 
 To automatically distribute amounts according to the rule, you will first run the necessary allocations on the [Run Allocations](GL_50_45_00.md) \(GL504500\) form. The system will generate GL batches, which you will then release on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## System Preparation {#section_prl_mjv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -38,7 +38,7 @@ Before you begin performing the steps of this activity, do the following:
     -   [Allocation Rules: To Create an Allocation Rule That Uses a Dynamic Ratio of the Period-to-Date Account Balances](../ImplementationGuide/config_Allocation_Rules_Activity2.md)
     -   [Allocation Rules: To Create an Allocation Rule Based on Budget Data](../ImplementationGuide/config_Allocation_Rules_Activity3.md)
 
-## Step 1: Posting Transactions for Allocations {#section_rrl_mjv_vxb .section}
+## Step 1: Posting Transactions for Allocations
 
 To post transactions for allocations, do the following:
 
@@ -58,7 +58,7 @@ To post transactions for allocations, do the following:
 
 You have uploaded the head count to the statistical ledger.
 
-## Step 2: Running the Allocations {#section_vrl_mjv_vxb .section}
+## Step 2: Running the Allocations
 
 To run the allocations that you previously created, do the following:
 
@@ -79,7 +79,7 @@ To run the allocations that you previously created, do the following:
 
 The system has generated allocation transactions that have the *On Hold* status.
 
-## Step 3: Reviewing and Releasing the First Allocation Batch {#section_bsl_mjv_vxb .section}
+## Step 3: Reviewing and Releasing the First Allocation Batch
 
 To review and release the first allocation batch that you have generated, do the following:
 
@@ -91,7 +91,7 @@ To review and release the first allocation batch that you have generated, do the
 3.  On the form toolbar, click **Remove Hold**.
 4.  On the form toolbar, click **Release** to release the batch.
 
-## Step 4: Reviewing and Releasing the Second Allocation Batch {#section_esl_mjv_vxb .section}
+## Step 4: Reviewing and Releasing the Second Allocation Batch
 
 To review and release the second allocation batch that you have generated, do the following:
 
@@ -103,7 +103,7 @@ To review and release the second allocation batch that you have generated, do th
 3.  On the form toolbar, click **Remove Hold**.
 4.  On the form toolbar, click **Release** to release the batch.
 
-## Step 5: Reviewing and Releasing the Third Allocation Batch {#section_hsl_mjv_vxb .section}
+## Step 5: Reviewing and Releasing the Third Allocation Batch
 
 To review and release the third allocation batch that you have generated, do the following:
 
@@ -117,7 +117,7 @@ To review and release the third allocation batch that you have generated, do the
 5.  On the form toolbar, click **Remove Hold**.
 6.  On the form toolbar, click **Release** to release the batch.
 
-## Step 6: Reviewing and Releasing the Fourth Allocation Batch {#section_ksl_mjv_vxb .section}
+## Step 6: Reviewing and Releasing the Fourth Allocation Batch
 
 To review and release the fourth allocation batch that you have generated, do the following:
 

@@ -1,16 +1,16 @@
-# Scheduling Appointments: To Create a Skill-Matched Appointment on the Calendar {#_59099902-17cb-42f0-bf60-861b344f57cd .task}
+# Scheduling Appointments: To Create a Skill-Matched Appointment on the Calendar
 
 In this activity, you will create an appointment on the [Calendar Board](FS_30_03_00.md#) \(FS300300\) form. You will assign a staff member who meets the skill requirements for the appointment and observe how the system displays warnings for staff members whose skills do not match the required ones.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that GoodFood One Restaurant has a juicer and wants the SweetLife Service and Equipment Sales Center to perform repairs on the juicer. The service manager \(Maia Davis\) and the customer have agreed that a staff member will come to repair the juicer on January 30, 2026, at 8:00 AM. The assigned staff member must have a special skill to repair the juicer, as well as a license from the producer of the juicer.
 
 Acting as the service manager, you will create the appointment and assign a staff member who meets these requirements and can perform the work at the agreed-upon time.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -29,11 +29,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
     -   *EP00000004 \(Alberto Jimenez\)*: On the **General** tab \(**Employee Settings** section\), the **Staff Member in Service Management** check box has been selected. Also, the *REPAIRING* skill has been listed on the **Skills** tab, license *FSL00003* of the *INST&amp;REP* type has been listed on the **Licenses** tab, and *MANHATTAN* has been listed on the **Service Areas** tab.
     -   *EP00000003 \(Jon Waite\)*: On the **General** tab \(**Employee Settings** section\), the **Staff Member in Service Management** check box has been selected. Also, the *REPAIRING* skill has been listed on the **Skills** tab, license *FSL00002* of the *INST&amp;REP* license type has been listed on the **Licenses** tab, and *MANHATTAN* has been listed on the **Service Areas** tab.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Calendar Board](FS_30_03_00.md#) \(FS300300\) form, you will initiate the creation of an appointment. On the [Appointments](FS_30_02_00.md) \(FS300200\) form, you will add a service to the appointment and save it. Then, on the [Calendar Board](FS_30_03_00.md#) \(FS300300\) form, you will confirm the appointment and assign it to a staff member who has the skills required to perform the service.
 
-## System Preparation {#section_ahk_tdy_1hc .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -42,7 +42,7 @@ Before you start this activity, do the following:
 3.  After signing in, make sure that the *Service Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form.
 4.  On the [Service Management Preferences](FS_10_01_00.md) \(FS100100\) form, select *Warn* in the **Skills** box \(**Appointment Validation Settings** section\), and save it.
 
-## Step: To Initiate the Creation of an Appointment on the Calendar { .section}
+## Step: To Initiate the Creation of an Appointment on the Calendar
 
 To create the appointment, do the following:
 
@@ -67,7 +67,6 @@ To create the appointment, do the following:
 
     On the calendar, the newly created appointment appears in the topmost **Unassigned** row \(see below\).
 
-    ![](Images/ServMgmt_Appointment_Unassigned_on_Modern_Calendar_Board.png "An appointment in the Unassigned row")
 
     The color and pattern of the appointment tile indicates that the appointment has not been assigned to any staff member and has not yet been confirmed by the customer.
 
@@ -78,7 +77,6 @@ To create the appointment, do the following:
 
 14. Drag the tile to the *Alberto Jimenez* row. You’ll see that *Skill Mismatch* warnings appear next to the staff members who lack the required skill to perform the appointment’s service, and these staff members are highlighted in yellow \(see below\). You can still assign the appointment to any staff member because this is only a warning, not a restriction. However, in this instruction, you’ll assign the appointment to a qualified staff member without any warning. Notice that the tile’s color changes again \(now it’s blue\), indicating that the appointment is assigned to a staff member.
 
-    ![](Images/ServMgmt_Appointment_Modern_Calendar_Skill_Mismatch.png "An appointment assigned to a qualified staff member")
 
 
 **Parent topic:**[Creating Appointments](../UserGuide/ServMgmt_Processing_Appointments_Mapref.md)

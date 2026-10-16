@@ -1,4 +1,4 @@
-# Defining an Inquiry Form {#_4a117a35-76ef-436b-ab8f-3e9df40f1579 .concept}
+# Defining an Inquiry Form
 
 In this part, you can learn how to define a simple inquiry form.
 

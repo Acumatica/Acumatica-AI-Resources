@@ -1,4 +1,4 @@
-# Relationship Between Data with PrimaryKeyOf and ForeignKeyOf {#_67621706-e4f4-4423-b90f-84b3b6b189c4 .concept}
+# Relationship Between Data with PrimaryKeyOf and ForeignKeyOf
 
 To define a relationship between two tables, you need to define the primary keys of the parent and child tables. Also, in the child table, you need to define the foreign key that refers to the primary key of the parent table.
 
@@ -18,11 +18,11 @@ This approach, which is described in this topic, provides the following advantag
 -   These classes and methods have no other meanings and use cases; conversely, the PXForeignReference, PXSelector, and PXParent attributes can be used for other purposes.
 -   These classes and methods are optimized for the selection of records from the database; therefore, using them improves database access performance on record selection.
 
-## Definition of a Primary Key { .section}
+## Definition of a Primary Key
 
 You define a primary key of a DAC by using the PrimaryKeyOf&lt;Table&gt;.By&lt;keyFields&gt; class. With this class, you can define simple keys \(with one key field\) and compound keys \(with up to five key fields\). In the primary key definition, you have to define the `public` Find method, which calls the `protected` FindBy method. A definition of a compound key is shown in the following example.
 
-``` {#codeblock_w5n_gmk_f2c}
+```
 using PX.Data.ReferentialIntegrity.Attributes;
 
 public partial class SOLine : PX.Data.PXBqlTable, PX.Data.IBqlTable
@@ -40,7 +40,7 @@ public partial class SOLine : PX.Data.PXBqlTable, PX.Data.IBqlTable
 }
 ```
 
-## Definition of a Foreign Key {#_a65fe2e3-9eb0-4ffe-850d-b704d6111ac3 .section}
+## Definition of a Foreign Key
 
 You can define a foreign key based on the primary key of the referenced table, as shown in the following code.
 
@@ -70,18 +70,18 @@ public partial class SOLine : PX.Data.PXBqlTable, PX.Data.IBqlTable
 }
 ```
 
-## Selection of a Record by Key Fields { .section}
+## Selection of a Record by Key Fields
 
 If a primary key is defined for a DAC, you can select a record by using the values of the key fields of the record, as shown in the following example.
 
-``` {#codeblock_crc_fmk_f2c}
+```
 SOLine line = SOLine.PK.Find(
     this, split.OrderType, split.OrderNbr, split.LineNbr.Value);
 ```
 
 **Tip:** The Find method encapsulates a `PXSelectReadonly<Table, Where<...>>.SelectWindowed(graph, 0, 1, keys)` call. Therefore, the code above can replace the following code written using BQL.
 
-``` {#codeblock_lc4_2mk_f2c}
+```
 SOLine line = PXSelectReadonly<SOLine,
     Where<SOLine.orderType, Equal<Required<SOLine.orderType>>,
         And<SOLine.orderNbr, Equal<Required<SOLine.orderNbr>>,
@@ -91,20 +91,20 @@ SOLine line = PXSelectReadonly<SOLine,
 
 You can also select a record by using a record of the same type with the key fields specified, as shown in the following example.
 
-``` {#codeblock_f3v_dmk_f2c}
+```
 InventoryItem actualItem = InventoryItem.PK.Find(this, notActualItem);
 ```
 
 If a foreign key is defined for a DAC, you can select the parent and child records, as shown in the following code.
 
-``` {#codeblock_vw4_dmk_f2c}
+```
 //Selection of the parent record
 SOOrder order = SOLine.SOOrderFK.FindParent(this, soLine);
 //Selection of the child records
 IEnumerable<SOLine> lines = SOLine.SOOrderFK.SelectChildren(this, soOrder);
 ```
 
-## Use of Primary and Foreign Keys in Attributes { .section}
+## Use of Primary and Foreign Keys in Attributes
 
 You can use static foreign keys, defined as described in [Definition of a Foreign Key](#_a65fe2e3-9eb0-4ffe-850d-b704d6111ac3), for the configuration of the PXForeignReference and PXParent attributes, as shown in the following example.
 

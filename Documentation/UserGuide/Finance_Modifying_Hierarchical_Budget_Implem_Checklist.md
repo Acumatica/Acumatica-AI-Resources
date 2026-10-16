@@ -1,4 +1,4 @@
-# Modifying a Hierarchical Budget: Implementation Checklist {#_a40d21cb-8ae2-4f39-acbd-70d82fdb6748 .concept}
+# Modifying a Hierarchical Budget: Implementation Checklist
 
 The following table provides details you can use to ensure that the system is configured properly for the modification of a hierarchical budget, and to understand an additional configuration task that can affect the processing workflow.
 
@@ -12,11 +12,11 @@ The following table provides details you can use to ensure that the system is co
 |[Budget Configuration](GL_20_50_00.md) \(GL205000\)|Make sure that the relevant budget structure has been configured, as described in [Budget Tree: Implementation Activity](../ImplementationGuide/config_Budget_Tree_Implem_Activity.md).| |
 |[Budgets](GL_30_20_10.md) \(GL302010\)|Make sure that a hierarchical budget has been created, as described in [Conversion of a Simple Budget to a Hierarchical Budget: Process Activity](Finance_Converting_Budget_Activity.md) or [Hierarchical Budget: Process Activity](Finance_Preparing_Hierarchical_Budget_Activity.md).| |
 
-## Configuration Tasks That Can Affect the Processing Workflow {#_c518cb6d-2320-42b8-a73d-c17b246be1e2 .section}
+## Configuration Tasks That Can Affect the Processing Workflow
 
 If your company uses subaccounts, the *Subaccounts* feature has to be enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. In this case, make sure that the budget structure has all account-subaccount pairs that are used for budgeting on the [Budget Configuration](GL_20_50_00.md) \(GL205000\) form.
 
-## Validation of Configuration {#section_jbl_mjv_vxb .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you modify a hierarchical budget by performing instructions similar to those described in [Modification of a Hierarchical Budget: Process Activity](Finance_Modifying_Hierarchical_Budget_Process_Activity.md).
 

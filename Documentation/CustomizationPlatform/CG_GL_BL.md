@@ -1,4 +1,4 @@
-# Customizing Business Logic {#_4156b66b-6d81-4cdd-bb52-1bf76526b0fb .concept}
+# Customizing Business Logic
 
 Business logic is implemented by overloading certain methods invoked by the system in the process of manipulating data. For such procedures as inserting a data record or updating a data record, the cache controllers generate series of events causing invocation of the methods called event handlers. The application is able to interfere in the series of events on different stages. For this purpose, the application implements methods that are executed as event handlers. Business logic can be divided into common logic relevant to different parts of the application and the logic specific to an application form. The common logic is implemented through event handler methods defined in attributes, while the screen-specific logic is implemented as methods in the associated graph.
 

@@ -1,8 +1,8 @@
-# Promotional Vendor Discounts: Implementation Activity {#_be372c3d-4093-4385-85de-2df97123d819 .task}
+# Promotional Vendor Discounts: Implementation Activity
 
 In this activity, you will learn how to configure and apply a promotional vendor discount.
 
-## Story { .section}
+## Story
 
 Suppose that in December 2026, procurement manager of the SweetLife Fruits &amp; Jams company attended an exhibition, where sales representatives of Blueline Advertising offered all prospective and existing customers a 15% discount on billboard design services. The discount is effective only for purchases made in December 2025 and January 2026.
 
@@ -10,7 +10,7 @@ On January 15, 2026 SweetLife's marketing manager wants to take advantage of thi
 
 As the SweetLife's accountant, you need to define this discount in the system. Also, you need to create a bill for Blueline reflecting this purchase, and then apply the discount.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -18,13 +18,13 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *BILLBDESIG* non-stock item has been created.
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *BLUELINE* customer has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 You configure a discount code on the [Vendor Discount Codes](AP_20_40_00.md) \(AP204000\) form and then configure a discount sequence on the [Vendor Discounts](AP_20_50_00.md) \(AP205000\) form.
 
 On the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you create an AP bill with a line for the design of 3 new billboards to which the discount may be applied. You then manually apply the promotional discount to the document line.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Before you start the activity, do the following:
 
@@ -32,7 +32,7 @@ Before you start the activity, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to 1/30/2026. If a different date is displayed, click the Business Date menu button and select 1/30/2026. For simplicity, in this lesson, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Configure the Manual Promotional Discount { .section}
+## Step 1: Configure the Manual Promotional Discount
 
 To configure the promotional vendor discount, do the following:
 
@@ -72,7 +72,7 @@ To configure the promotional vendor discount, do the following:
 8.  On the **Items** tab, click **Add Row** and in the **Inventory ID** select *BILLBDESIG*. Since no other items are defined on this tab, this discount will be applied only to the *BILLBDESIG* non-stock item.
 9.  On the form toolbar, click **Save**.
 
-## Step 2: Create the AP Bill for Blueline Advertising and Review Discount Application { .section}
+## Step 2: Create the AP Bill for Blueline Advertising and Review Discount Application
 
 To create the AP bill for Blueline and apply the promotional discount to it, do the following:
 
@@ -98,7 +98,7 @@ To create the AP bill for Blueline and apply the promotional discount to it, do 
     Notice that the **Discount Percent** and **Discount Amount** columns now show zeroes, because the promotional discount is effective only until January 31 and cannot be applied to documents created after that date.
 
 
-## Step 3: Make the Created Discount Inactive { .section}
+## Step 3: Make the Created Discount Inactive
 
 To make the discounts you created in this activity inactive so that they will not affect other documents later, do the following:
 

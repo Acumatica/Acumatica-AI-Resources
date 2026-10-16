@@ -1,4 +1,4 @@
-# Export Scenario Creation {#_facc7b7c-fd57-42fc-af7c-936eceee8ffd .concept}
+# Export Scenario Creation
 
 You create export scenarios on the [Export Scenarios](SM_20_70_25.md) \(SM207025\) form.
 

@@ -1,14 +1,14 @@
-# Skills: To Assign a Skill to a Service {#_4498b8a4-00e7-4451-9514-d3d4ee657178 .task}
+# Skills: To Assign a Skill to a Service
 
 In this implementation activity, you will learn how to assign skills to a service.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Service and Equipment Sales Center has begun offering a cleaning service that is billed by the hour. The staff member performing this service must have strong skills in operating and cleaning juicers, so the manager needs to assign the right person for the job. As the administrative user, you will assign the *Cleaning* skill to the cleaning service. As a result, the scheduler will be able to assign staff members whose skills match the services included in the appointment.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -17,11 +17,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   On the [Services](../UserGuide/FS_40_08_00.md) \(FS400800\) form, the *CLEANING* service has been created.
 -   On the [Skills](../UserGuide/FS_20_06_00.md) \(FS200600\) form, the *CLEANING* skill has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Services](../UserGuide/FS_40_08_00.md) \(FS400800\) form, you click the service name link, and the system opens the [Non-Stock Items](../UserGuide/IN_20_20_00.md) \(IN202000\) form, which displays the non-stock item of the *Service* type. On this form, you assign the skill to the service.
 
-## System Preparation {#section_v3m_ngy_1hc .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -29,7 +29,7 @@ Before you start this activity, do the following:
 2.  On the Company and Branch Selection menu in the top pane of the Acumatica ERP screen, select the Service and Equipment Sales Center branch.
 3.  Make sure that the *Service Management* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md#) \(CS100000\) form.
 
-## Step: Assigning a Skill to a Service { .section}
+## Step: Assigning a Skill to a Service
 
 To assign a skill to a service, do the following:
 

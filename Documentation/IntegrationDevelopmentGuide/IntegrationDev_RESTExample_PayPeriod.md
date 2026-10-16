@@ -1,4 +1,4 @@
-# PayPeriod {#_9d154c76-804d-48f3-8f33-965aff6dd544 .concept}
+# PayPeriod
 
 This chapter presents code examples showing requests that use the `PayPeriod` entity.
 

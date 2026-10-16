@@ -1,4 +1,4 @@
-# Setting Up Taxes {#_d78a1034-fcaa-4299-8453-49495b66ea4b .concept}
+# Setting Up Taxes
 
 This chapter contains information about how you can set up automatic creation of all necessary taxes that will be assigned to payroll employees based on their resident addresses and work locations.
 

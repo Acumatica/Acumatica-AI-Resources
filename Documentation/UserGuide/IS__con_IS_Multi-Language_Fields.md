@@ -1,8 +1,8 @@
-# Multilanguage Fields in Import and Export Scenarios {#_480c1c3c-754e-4e51-a01e-60fedc7feb6b .concept}
+# Multilanguage Fields in Import and Export Scenarios
 
 For some text boxes on Acumatica ERP forms, users can type values in multiple languages if multiple locales are configured in Acumatica ERP. For example, if your Acumatica ERP instance has the English and French locales activated and multilingual user input configured, you can specify the value of the **Description** box on the [Stock Items](../Shared/../UserGuide/IN_20_25_00.md#) \(IN202500\) form in English or French.
 
-## Import of Localized Field Values { .section}
+## Import of Localized Field Values
 
 As you perform mapping for an import scenario on the [Import Scenarios](SM_20_60_25.md) \(SM206025\) form, when you need to import localized values of a field, you map this field to a source field that contains a string in JSON format with the localized values. In this string, you use the two-letter ISO code of the language with which the value should be associated.
 
@@ -16,7 +16,7 @@ In the example that is mentioned at the beginning of the topic, if you need to i
 
 If a source field that you map to a multilanguage field contains plain text, this text is saved as the value of the field in the current language of Acumatica ERP \(that is, the language that you selected on the Sign-In page of Acumatica ERP\).
 
-## Export of Localized Field Values { .section}
+## Export of Localized Field Values
 
 Each text field that supports multiple input languages has a corresponding field with the suffix *Translations* in its native name. This corresponding field contains all localized values of the text field. For example, the **Description** box on the [Stock Items](IN_20_25_00.md#) form corresponds to the field with native name *Descr*. The *Descr* field has the *DescrTranslations* corresponding field, which contains the localized descriptions of a stock item.
 

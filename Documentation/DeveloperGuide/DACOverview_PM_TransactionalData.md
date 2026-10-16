@@ -1,8 +1,8 @@
-# PM DACs: Transactional Data {#_ce2198fb-3639-489a-9ba4-340e4deed9c3 .concept}
+# PM DACs: Transactional Data
 
 In this topic, you can find an overview of the data access classes \(DACs\) that provide transactional data.
 
-## Project Transactions { .section}
+## Project Transactions
 
 The [PMRegister](https://help.acumatica.com/dacBrowser/PX.Objects.PM/PMRegister) table contains the transaction data that is defined in the Summary area of the [Project Transactions](../UserGuide/PM_30_40_00.md) \(PM304000\) form.
 
@@ -53,11 +53,11 @@ The selection of project transactions that meet specific conditions is illustrat
     ```
 
 
-## Pro Forma Invoices { .section}
+## Pro Forma Invoices
 
 Pro forma invoices are defined on the [Pro Forma Invoices](../UserGuide/PM_30_70_00.md) \(PM307000\) form. The [PMProforma](https://help.acumatica.com/dacBrowser/PX.Objects.PM/PMProforma) DAC contains the pro forma invoice data, which is specified in the Summary area of the form. The [PMProformaLine](https://help.acumatica.com/dacBrowser/PX.Objects.PM/PMProformaLine) DAC stores the pro forma line data, which is displayed on the **Progress Billing** and **Time and Material** tabs of the form.
 
-## Billing Records { .section}
+## Billing Records
 
 The [PMBillingRecord](https://help.acumatica.com/dacBrowser/PX.Objects.PM/PMBillingRecord) DAC contains the billing record data, which is displayed in the table on the **Invoices** tab of the [Projects](../UserGuide/PM_30_10_00.md) \(PM301000\) form.
 

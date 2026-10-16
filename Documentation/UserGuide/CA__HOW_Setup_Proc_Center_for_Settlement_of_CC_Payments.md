@@ -1,12 +1,12 @@
-# To Set Up a Processing Center for Settlement of Credit Card Payments {#_3b8420de-92d4-41a2-b85a-cf7ff6d6a02d .task}
+# To Set Up a Processing Center for Settlement of Credit Card Payments
 
 On the [Processing Centers](CA_20_50_00.md) \(CA205000\) form, you specify the settings of the processing center that you will use for automatic settlement of credit card payments.
 
-## Before You Begin {#section_i42_kjv_vxb .section}
+## Before You Begin
 
 The processing center you wish to set up for automatic settlement must already be defined in the system. For an example of processing center setup, see [To Configure Acumatica Payments](AR__HOW_To_Configure_Acumatica_Payments.md).
 
-## To Set Up a Processing Center for Settlement of Credit Card Payments {#section_k42_kjv_vxb .section}
+## To Set Up a Processing Center for Settlement of Credit Card Payments
 
 1.  Open the [Processing Centers](CA_20_50_00.md) \(CA205000\) form.
 2.  In the **Proc. Center ID** box of the Summary area, select a processing center.

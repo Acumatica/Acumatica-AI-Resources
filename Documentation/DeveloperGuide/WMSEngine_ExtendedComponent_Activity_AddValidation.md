@@ -1,16 +1,16 @@
-# Extension of Scan Components: To Implement Additional Entity Validation {#_b846cfaa-87e5-4435-8a61-fd35de9468c2 .task}
+# Extension of Scan Components: To Implement Additional Entity Validation
 
 This activity will walk you through the implementation of additional entity validation.
 
-## Story { .section}
+## Story
 
 Suppose that you need to forbid the receipt of items whose country of origin is Antarctica on the [Receive and Put Away](../UserGuide/PO_30_20_20.md) \(PO302020\) form.
 
-## Process Overview { .section}
+## Process Overview
 
 You will override the DecorateScanState method by using the PXOverride attribute, and in this method, you will intercept the Validation method. You need to add a validation method after all the already existing ones. Therefore, you will intercept the Validation method by using the ByAppend strategy.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the step of this activity, do the following:
 
@@ -20,7 +20,7 @@ Before you begin performing the step of this activity, do the following:
     -   *Warehouse Management*
     -   *Receiving*
 
-## Step: Implementing Additional Entity Validation { .section}
+## Step: Implementing Additional Entity Validation
 
 To implement additional entity validation, do the following:
 

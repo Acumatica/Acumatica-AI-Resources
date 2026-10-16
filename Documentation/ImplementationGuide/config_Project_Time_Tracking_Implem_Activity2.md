@@ -1,20 +1,20 @@
-# Time Tracking Configuration: To Track Time with Time Activities {#_f6496b77-a38d-44a9-bdd0-dcfcec899d8e .task}
+# Time Tracking Configuration: To Track Time with Time Activities
 
 In the following implementation activity, you will learn how to configure the system for tracking time in projects by using time activities.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_b3m_2q2_dmb .section}
+## Story
 
 Suppose that you, as an administrative user of SweetLife Fruits &amp; Jams company, are configuring accounting for projects. The manager of the company has decided to track employee time spent on each project and bill the customer based on employee time spent on work related to the customer's project. The employees should report their working time on a daily basis by using time activities.
 
 You must configure the system for using time activities for time tracking.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of the activity, launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded; you should sign in as system administrator by using the *gibbs* username and the *123* password.
 
-## Step: Configuring Time Reporting for Time Activities {#section_nby_scf_dmb .section}
+## Step: Configuring Time Reporting for Time Activities
 
 Do the following to make sure the minimum required configuration has been performed in the system for time reporting by using time activities:
 

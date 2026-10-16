@@ -1,10 +1,9 @@
-# Translations Dialog Box {#_29c5a338-6b62-49cf-85ec-bbc88a8eb833 .concept}
+# Translations Dialog Box
 
 The **Translations** dialog box is a localization tool that you use to provide multiple translations for text that users enter in the text boxes of the system, as well as to view existing translations for the text. This dialog box is available for multiple text boxes in the system; these text boxes are listed in [Boxes That Have Multilanguage Support](../UserGuide/SM__CON_Boxes_MultiLanguage.md).
 
 The **Translations** dialog box may contain one text box or multiple text boxes, with each box labeled with a language name, where you can enter translations, as shown in the screenshot below. You enter a translation or multiple translations, close the dialog box, and click **Save** on the form toolbar.
 
-![](Images/UIG_Translations_Box.png "Translations dialog box")
 
 1.  Language labels
 2.  Text boxes for entering translations
@@ -13,7 +12,7 @@ You can invoke the dialog box by clicking the link with an ISO code of a languag
 
 The number of boxes in the **Translations** dialog box is defined by the number of languages that are used in localization of user input. For details, see [Locales and Languages](../UserGuide/SM__CON_Locales_and_Languages.md).
 
-## The Order of the Languages in the Box {#_a8f85339-7996-465f-b4be-43ee1b833cb7 .section}
+## The Order of the Languages in the Box
 
 The order of the languages in the **Translations** dialog box depends on the locale you are currently logged in to. The system displays the languages of the boxes in the **Translations** dialog box in the following order:
 
@@ -41,6 +40,4 @@ The system determines which ISO code to display as follows:
 4.  If there are no available translations, the system does the following:
     -   Displays no value in the text box that has multilanguage support
     -   Displays the ISO code of the language associated with the locale you are currently signed in with as a link that you can click to invoke the **Translations** dialog box
-
-**Parent topic:**[Form Elements](../InterfaceGuide/Form_Fields.md)
 

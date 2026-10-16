@@ -1,8 +1,8 @@
-# Tax Agency: Configuration Prerequisites {#_a7e580ee-a5c7-4594-a781-28dd46144399 .concept}
+# Tax Agency: Configuration Prerequisites
 
 Before starting the creation of a tax agency, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Configuring the System { .section}
+## Configuring the System
 
 Before you configure a tax agency, you need to make sure that the following configuration tasks have been performed in the system:
 

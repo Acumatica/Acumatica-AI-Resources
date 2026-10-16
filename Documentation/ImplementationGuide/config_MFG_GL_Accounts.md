@@ -1,8 +1,8 @@
-# System Preparation for Manufacturing Implementation: General Ledger Accounts {#_ee26affe-a14c-4325-afca-5f96e563e3a1 .concept}
+# System Preparation for Manufacturing Implementation: General Ledger Accounts
 
 These are the accounts, and if configured, subaccounts used on the manufacturing forms specified directly or indirectly.
 
-## General Ledger Accounts Used in Manufacturing { .section}
+## General Ledger Accounts Used in Manufacturing
 
 The work in process \(WIP\) account and subaccount and the WIP Variance account and subaccount are required in order to create production orders. You specify where production orders should default these accounts from on the [Posting Classes](../UserGuide/IN_20_60_00.md) \(IN206000\) form. The [Production Order Types](../UserGuide/AM_20_11_00.md) \(AM201100\) form requires the WIP account and WIP Variance account to be specified in the event an WIP account was not specified from the preferred document source.
 

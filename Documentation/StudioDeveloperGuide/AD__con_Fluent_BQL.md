@@ -1,8 +1,8 @@
-# Fluent Business Query Language {#_ddc12506-3658-4f0a-b735-93bb0e035fd2 .concept}
+# Fluent Business Query Language
 
 Fluent business query language \(BQL\), which is described in this topic, is a dialect of BQL that is more similar to SQL than traditional BQL is. You can find all classes that can be used in fluent BQL in the PX.Data.BQL and PX.Data.BQL.Fluent namespaces.
 
-## Fluent BQL Structure { .section}
+## Fluent BQL Structure
 
 Fluent BQL uses nesting of generic classes. That is, each section of a fluent BQL query does not depend on the other sections and can appear in only specific places of the query. The order of the sections is shown in the following code.
 
@@ -14,11 +14,11 @@ SelectFrom&lt;&gt; is the only mandatory part of the query. You can add to the q
 
 The query defined with fluent BQL as described above is equivalent to the Select command in traditional BQL. To compose a query for different purposes \(such as to define a data view or to define a Search command in an attribute constructor\), you need to prepend additional elements to the query or append them to the query, as described in [Search and Select Commands and Data Views in Fluent BQL](AD__con_View_Select_Search_in_Fluent_BQL.md). You can find the equivalents of traditional BQL in fluent BQL in [Fluent BQL and Traditional BQL Equivalents](AD__con_FluentBQL_and_BQL_Equivalents.md).
 
-## SelectFrom&lt;&gt; Section { .section}
+## SelectFrom&lt;&gt; Section
 
 In the SelectFrom&lt;&gt; section of the query, you use the SelectFrom&lt;&gt; class, which uses a data access class \(DAC\) as the type parameter. For details on DACs, see [Data Access Classes in Fluent BQL](AD__con_DACs_in_FBQL.md).
 
-## Join Sections { .section}
+## Join Sections
 
 Each Join section of the fluent BQL query consists of the following components:
 
@@ -42,7 +42,7 @@ The following code fragments show the Join sections with different types of join
 
 Fluent BQL queries can contain any number of Join sections.
 
-## Where&lt;&gt; Section and On&lt;&gt; Subsection { .section}
+## Where&lt;&gt; Section and On&lt;&gt; Subsection
 
 Conditions in the query are defined in the Where&lt;&gt; section and the On&lt;&gt; subsections of the Join sections. The conditions can contain the following nested components:
 
@@ -64,7 +64,7 @@ The following code fragments show examples of an On&lt;&gt; subsection and a Whe
       EPActivityFilter.approverID.FromCurrent>>>>
 ```
 
-## AggregateTo&lt;&gt; and OrderBy&lt;&gt; Sections { .section}
+## AggregateTo&lt;&gt; and OrderBy&lt;&gt; Sections
 
 The AggregateTo&lt;&gt; and OrderBy&lt;&gt; sections of a fluent BQL query accept non-empty arrays of the specific base type as the only generic parameters. To make it easier for developers to write and read of the queries, fluent BQL includes groups of aliases that embed certain array usage. These aliases are pregenerated for arrays with up to 32 elements.
 

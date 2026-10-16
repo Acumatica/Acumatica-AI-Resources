@@ -1,10 +1,10 @@
-# Inventory Planning with DRP: Transfers {#_2a0ce059-5966-4175-a909-c1c64a2065e9 .concept}
+# Inventory Planning with DRP: Transfers
 
 Items may be stored in multiple warehouses, such as when items are purchased to one warehouse but stored in and shipped from another warehouse. In this case, you may want the system to create planning recommendations for the transfer of items during inventory planning.
 
 As you perform distribution requirements planning \(DRP\) in Acumatica ERP, the system creates planning recommendations for available item transfers during inventory planning if the proper settings have been specified, as described in the *Transfer Orders in Inventory Planning* section of [Inventory Planning Configuration: General Information](../ImplementationGuide/config_Inventory_Planning_GeneralInfo.md).
 
-## Planning Recommendations for Transfers { .section}
+## Planning Recommendations for Transfers
 
 The system generates a planning recommendation for an item during inventory planning when both of the following conditions are met:
 
@@ -27,7 +27,7 @@ When the planning manager analyzes the inventory planning results, they see the 
 -   A planning recommendation for a purchase order to purchase three juicers \(which will be shipped to the New Jersey warehouse\)
 -   A planning recommendation for a transfer order to transfer five juicers from the New Jersey warehouse to the New York warehouse
 
-## Creation of a Transfer Order Based on Planning Recommendations { .section}
+## Creation of a Transfer Order Based on Planning Recommendations
 
 If you decide to transfer items according to the planning recommendations resulting from the inventory planning process, on the [Inventory Planning Display](AM_40_00_00.md) \(AM400000\) form, you select the needed records in the table and click **Transfer** on the form toolbar. The system creates a transfer order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form. On the **Details** tab, each line has a number of lines that is equal to the number of the selected records and a **Ship On** date that is the same as the action date of each planning recommendation that you selected for the transfer order.
 

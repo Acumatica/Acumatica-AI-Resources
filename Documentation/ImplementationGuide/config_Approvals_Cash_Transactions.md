@@ -1,4 +1,4 @@
-# Specific Approvals: Cash Transactions {#_ab7546e7-e2d4-49a9-837e-85563edda6fc .concept}
+# Specific Approvals: Cash Transactions
 
 Maintaining strong control over cash flow is crucial for any company. Your company achieves this through several key practices: accurate recordkeeping, distinct separation of duties, and periodic reconciliation of bank accounts.
 
@@ -9,7 +9,7 @@ Your company can further strengthen internal controls by implementing an approva
 
 In Acumatica ERP, you can set up the approval functionality for cash transactions so that they can be released only after they have been approved by the authorized employees.
 
-## Configuration of the Approval Workflow for Cash Transactions { .section}
+## Configuration of the Approval Workflow for Cash Transactions
 
 To configure the approval workflow for cash transactions in Acumatica ERP, perform the following general steps:
 

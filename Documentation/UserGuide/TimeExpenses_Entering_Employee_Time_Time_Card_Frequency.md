@@ -1,8 +1,8 @@
-# Employee Time Entry: Time Card Frequencies {#_f56784f3-ffab-44e3-8b3c-d0bc293ed69c .concept}
+# Employee Time Entry: Time Card Frequencies
 
 In Acumatica ERP, you can create time cards for weekly, biweekly, semi-monthly, or monthly periods and assign different frequencies to different employees. You can also create time cards for custom weeks.
 
-## Setting Up The Time Card Frequency { .section}
+## Setting Up The Time Card Frequency
 
 To support the creation of time cards with weekly, biweekly, semi-monthly, or monthly frequencies, you specify the frequency settings in the **Time Cards** section of the **Time Reporting** tab on the [Time and Expenses Preferences](EP_10_10_00.md) \(EP101000\) form.
 
@@ -38,7 +38,7 @@ By using the following settings, you define the start day of periods with differ
 
 If you change the start day settings, the changes apply to time cards and activities created after the changes are saved for employees with the corresponding time card frequency.
 
-## Managing Employees’ Time Card Frequencies { .section}
+## Managing Employees’ Time Card Frequencies
 
 If your company uses different payroll periods for different employees, you can specify a time card frequency for each employee in the **Time Card Frequency** box of the [Employees](EP_20_30_00.md) \(EP203000\) form. This frequency applies to time activities and time cards created for the employee.
 
@@ -55,13 +55,13 @@ If you create a time activity by using an existing time card on the [Employee Ti
 
 You can add an existing time activity to a time card only if the frequency of the time activity matches the frequency of the time card.
 
-## Setting Up Custom Weeks { .section}
+## Setting Up Custom Weeks
 
 If you prefer to use custom weeks, you can select the **Custom Week Configuration** check box on the [Time and Expenses Preferences](EP_10_10_00.md) \(EP101000\) form and generate custom weeks on the **Custom Week** tab. In this case, the system creates time cards only for the custom weeks.
 
 When you create a time card on the [Employee Time Cards](EP_30_50_00.md) \(EP305000\), the system inserts *Weekly* in the **Frequency** box. The periods available in the **Period** box correspond to the custom weeks.
 
-## Approving Summaries of Time Activities with Different Frequencies { .section}
+## Approving Summaries of Time Activities with Different Frequencies
 
 When you narrow the list of time activity summaries on the [Approve Time Activity Summaries](EP_50_70_30.md) \(EP507030\) form by date range, a time activity summary appears if at least one day in its date range matches the specified date range on the form, regardless of its frequency. For time cards with a frequency other than weekly, the days’ columns are empty, and only the total time spent is calculated.
 

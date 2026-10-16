@@ -1,4 +1,4 @@
-# Estimating {#_cc17119a-2a80-416d-8915-729ec1c2b694 .concept}
+# Estimating
 
 The estimating functionality of Acumatica ERP Manufacturing Edition provides users with the ability to create quick and detailed manufacturing estimates with improved estimate accuracy and turnaround times. Users can accurately calculate costs and prices for new or existing parts by using material costs, work center rates, overheads, and other data. The part is integrated with customer management, sales orders, bill of material, and production management. Multiple quantity-based price breaks can be created within a single estimate.
 

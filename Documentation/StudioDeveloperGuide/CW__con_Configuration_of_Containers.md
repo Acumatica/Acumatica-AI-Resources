@@ -1,4 +1,4 @@
-# Configuration of Container Controls {#_ec57712c-8e1e-48aa-9d8f-4e24b026d702 .concept}
+# Configuration of Container Controls
 
 Acumatica Framework provides the following container controls:
 

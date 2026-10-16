@@ -1,12 +1,12 @@
-# To Create a Payment Processor {#_85fecccf-06d5-4c58-8672-353c250b818e .task}
+# To Create a Payment Processor
 
 You use the [External Payment Processor](AP_20_55_00.md) \(AP205500\) form to create a payment processor for the connection to BILL.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Make sure that the *BILL Integration* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## To Create a Payment Processor { .section}
+## To Create a Payment Processor
 
 1.  Open the [External Payment Processor](AP_20_55_00.md) \(AP205500\) form.
 2.  On the form toolbar, click **Add New Record**.

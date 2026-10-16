@@ -1,8 +1,8 @@
-# Disassembly Process {#_3f3a272b-cc4e-4418-bcba-472b6f039df1 .concept}
+# Disassembly Process
 
 Sometimes the products you produce need to be issued out of inventory and disassembled to salvage their components. The item may be obsolete, returned non-functional from a customer, have appearance flaws that would not be accepted. or maybe purchased just for the value of a component. The disassembly process allow users to manage and track the disassembly process of a product, capture related costs, and put the usable component parts back into inventory. Defective or non-recoverable components can be scrapped. Disassemble type production orders are used to capture the costs incurred and a single-step disassembly transaction, which can be processed by using the [Disassembly](AM_30_15_00.md) \(AM301500\) form, used to record the inventory issue, scrap, and component returns to stock.
 
-## Features { .section}
+## Features
 
 The following features are provided:
 
@@ -18,7 +18,7 @@ The following features are provided:
 -   Allow for entry of attribute values for disassembly transactions.
 -   Allows for override of the unit cost of materials returned to stock.
 
-## Processing Disassemble Production Orders { .section}
+## Processing Disassemble Production Orders
 
 Although production orders are used for disassembly the processing steps have been simplified.
 
@@ -31,7 +31,7 @@ Although production orders are used for disassembly the processing steps have be
 -   Labor transactions do allow selection of disassembly order types, but restrict entry to any quantity related fields. Disassembly orders do not require operations. Unlike Move/Labor transactions which are operation specific, the disassembly entry does not provide an entry for operation number for the production item.
 -   Disassemble orders use the same production order status codes as regular orders.
 
-## Configuration Requirements { .section}
+## Configuration Requirements
 
 The disassembly process is the part of production management. Before you can use the process the you must create a production order type with the *Disassemble* function on the [Production Order Types](AM_20_11_00.md) \(AM201100\) form.
 
@@ -42,7 +42,7 @@ The disassembly process is the part of production management. Before you can use
 
 **Note:** You may want to create a separate bill of material for disassembly production orders otherwise you may be adding additional costs for operations marked for backflush. Alternatively, remove the unnecessary operations, clear backflush, and/or set their run and machine times to zero.
 
-## Accounting { .section}
+## Accounting
 
 The costing method for disassemble production order is *Actual*. Any difference between the value of inventory issued and returned or scrap is booked to WIP Variance account when the production order is closed. When releasing the disassembly transaction the following accounting entries are generated:
 

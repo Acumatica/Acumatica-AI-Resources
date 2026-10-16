@@ -1,8 +1,8 @@
-# Vendor Visibility: Implementation Checklist {#_7fea3b8a-0a2d-40c0-b2a7-2a84a0b5a54b .concept}
+# Vendor Visibility: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for restricting the visibility of vendor records, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you initially restrict visibility of vendors, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -17,7 +17,7 @@ We recommend that before you initially restrict visibility of vendors, you make 
 |[Companies](../UserGuide/CS_10_15_00.md) \(CS101500\)|Make sure that for each company to which the visibility of any vendor should be limited, the appropriate role associated with the company is specified in the **Access Role** box \(**Configuration Settings** section\) on the **Company Details** tab.|
 |[Users](../UserGuide/SM_20_10_10.md) \(SM201010\) or [User Roles](../UserGuide/SM_20_10_05.md) \(SM201005\)|Make sure that the needed users have been assigned to the roles specified for branches and companies. For details, see [User Roles: General Information](../UserGuide/User_Roles_GeneralInfo.md).|
 
-## Validation of Configuration { .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you perform instructions similar to those described in [Vendor Visibility: To Restrict Visibility to a Branch](Finance_Restricting_Vendor_Visibility_Activity.md) and [Vendor Visibility: To Restrict Visibility to a New Company](Finance_Restricting_Vendor_Visibility_Activity2.md).
 

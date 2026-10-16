@@ -1,4 +1,4 @@
-# Managing System-Wide Security Auditing {#_e3afb04f-1e5a-4a97-828a-fa59eea4da6c .concept}
+# Managing System-Wide Security Auditing
 
 Acumatica ERP provides a wide range of tools for security control. You can implement your organization's security regulations by configuring and maintaining system-wide security policies for user accounts, passwords, and security auditing.
 

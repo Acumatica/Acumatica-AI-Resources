@@ -1,8 +1,8 @@
-# Acumatica ERP Installation in a Data Center: General Information {#_b9ad5f73-08c1-4e7f-a957-45e2c3b0232b .concept}
+# Acumatica ERP Installation in a Data Center: General Information
 
 You can install Acumatica ERP in a data center where the system and the associated databases are hosted by the provider. This approach ensures enhanced scalability, security, and performance in a stable environment.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -11,14 +11,14 @@ In this chapter, you will do the following:
 -   Create an Amazon Relational Database Service \(Amazon RDS\) instance on AWS to host the Acumatica ERP database
 -   Install Acumatica ERP on AWS and deploy an instance
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may need to learn how to install Acumatica ERP in a data center in scenarios that include the following:
 
 -   You are an implementation consultant who needs to install Acumatica ERP in a data center.
 -   You are an implementation consultant who needs to install Acumatica ERP on AWS with an independent database server.
 
-## Installing Acumatica ERP in a Data Center { .section}
+## Installing Acumatica ERP in a Data Center
 
 You can install Acumatica ERP in a data center by using hosting or cloud service providers to ensure that your data is securely stored in persistent and durable storage in the cloud. The installation process depends on the service provider you choose and can be one of the following:
 

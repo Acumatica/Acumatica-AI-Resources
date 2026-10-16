@@ -1,4 +1,4 @@
-# Processing Submittals {#_83dbb7f4-7501-4f96-b799-eb9af5f209a3 .concept}
+# Processing Submittals
 
 A submittal consists of written and physical products, such as equipment and materials, that a responsible party provides to the general contractor. These products are submitted to the appropriate personnel for approval before they are fabricated and delivered. Submittals can be presented in various formats, such as shop drawings, cut sheets on equipment, and material samples.
 

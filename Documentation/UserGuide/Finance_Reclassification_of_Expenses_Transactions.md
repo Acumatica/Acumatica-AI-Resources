@@ -1,8 +1,8 @@
-# Reclassification of Expenses: Generated Transactions {#_49b7defa-2550-40d3-8553-c23a1cdde995 .concept}
+# Reclassification of Expenses: Generated Transactions
 
 As you perform the reclassification of expenses, you create and process AP bills or cash purchases. To update vendor balances and balances of the appropriate accounts and subaccounts, the system generates GL transactions on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form. For the two-stage scenario of expense reclassification, the system generates two batches of transactions, which are described in the following sections.
 
-## Transactions Generated for the Pre-Release Stage { .section}
+## Transactions Generated for the Pre-Release Stage
 
 During the first stage of the scenario, once the bill has been pre-released, the system generates a pre-releasing batch that includes the following entries.
 
@@ -24,7 +24,7 @@ Once a cash purchase has been pre-released, the system generates a pre-releasing
 
 You can view the reference number of this batch in the **Pre-releasing Batch Nbr.** box on the **Financial** tab of the [Cash Purchases](AP_30_40_00.md) \(AP304000\) form.
 
-## Transaction Generated for the Release Stage { .section}
+## Transaction Generated for the Release Stage
 
 During the second stage of the scenario, once an accountant replaces the reclassification account with a specific expense account and releases the bill or cash purchase, the system generates the following transaction.
 
@@ -37,5 +37,5 @@ You can view the reference number of this batch in the **Batch Nbr.** box on the
 
 **Tip:** Depending on the policies established in your organization, you can configure the system so that users with a data entry role will not be able to release the entered documents and instead must pre-release them. For more information on roles, see [User Roles: General Information](User_Roles_GeneralInfo.md).
 
-**Parent topic:**[Configuring Reclassification of Expenses](../UserGuide/Finance_Reclassification_of_Expenses_Mapref.md)
+**Parent topic:**[Reclassification of Expenses](../UserGuide/Finance_Reclassification_of_Expenses_Mapref.md)
 

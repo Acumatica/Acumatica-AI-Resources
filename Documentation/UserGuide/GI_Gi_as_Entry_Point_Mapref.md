@@ -1,4 +1,4 @@
-# Making a Generic Inquiry a Substitute Form {#_a7f2f111-dfa5-437d-9d2f-ab21a0f188d9 .concept}
+# Making a Generic Inquiry a Substitute Form
 
 Sometimes you might need a faster way to access particular information in the system, such as the contacts of a particular vendor or the customers list. In Acumatica ERP, you can access such information through the corresponding data entry form. After you click the magnifier icon in the appropriate box, the list of records opens in the pop-up window. The data entry forms are convenient for entering new data, but once you have entered most data, you may need to view the list of records instead.
 

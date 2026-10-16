@@ -1,22 +1,76 @@
-# Payments with Write-Offs: Implementation Checklist {#_c6b92a46-8117-43ff-9b61-8eca736d8539 .concept}
+# Payments with Write-Offs: Implementation Checklist
 
 To ensure that the system is configured properly for creating a credit write-off when you process a payment, make sure that the criteria listed in the table have been met in the system as described.
 
-|Form|Criteria to Check|Notes|
-|----|-----------------|-----|
-|[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)|Make sure the basic features have been enabled, as described in [Company Without Branches: General Information](../ImplementationGuide/config_Basic_Company_GeneralInfo.md), [Company with Branches that Do Not Require Balancing: General Information](../ImplementationGuide/config_Company_with_Branches_No_Balancing_GeneralInfo.md), and [Company with Branches that Require Balancing: General Information](../ImplementationGuide/config_Company_with_Branches_with_Balancing_GeneralInfo.md).| |
-|[Customers](AR_30_30_00.md) \(AR303000\)|Verify the existence of the customer accounts for the customers whose payments you want to process. For details, see [Customers: Implementation Activity](Customer_Implem_Activity.md).
+<table id="_4fa83ee8-736b-466a-8e64-659f447c4dd5"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Criteria to Check
+
+</th><th>
+
+Notes
+
+</th></tr></thead><tbody><tr><td>
+
+[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)
+
+</td><td>
+
+Make sure the basic features have been enabled, as described in [Company Without Branches: General Information](../ImplementationGuide/config_Basic_Company_GeneralInfo.md), [Company with Branches that Do Not Require Balancing: General Information](../ImplementationGuide/config_Company_with_Branches_No_Balancing_GeneralInfo.md), and [Company with Branches that Require Balancing: General Information](../ImplementationGuide/config_Company_with_Branches_with_Balancing_GeneralInfo.md).
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+[Customers](AR_30_30_00.md) \(AR303000\)
+
+</td><td>
+
+Verify the existence of the customer accounts for the customers whose payments you want to process. For details, see [Customers: Implementation Activity](Customer_Implem_Activity.md).
 
  The needed customer accounts must be specified for write-offs in the **Financial Settings** section on the **Financial** tab as follows:
 
  -   The **Enable Write-Offs** check box must be selected.
 -   A **Write-Off Limit** value must be specified.
 
-| |
-|[Chart of Accounts](GL_20_25_00.md) \(GL202500\)|Verify the existence of the GL accounts to which the write-off amounts will be posted.|The account you use to post credit write-off amounts should be an *Income* account; the account you use to post balance write-off amounts should be an *Expense* account.|
-|[Reason Codes](CS_21_10_00.md) \(CS211000\)|Verify the existence of the reason codes to be used for write offs.| |
+</td><td>
 
-## Settings That Affect the Workflow {#section_sr2_hjv_vxb .section}
+ 
+
+</td></tr><tr><td>
+
+[Chart of Accounts](GL_20_25_00.md) \(GL202500\)
+
+</td><td>
+
+Verify the existence of the GL accounts to which the write-off amounts will be posted.
+
+</td><td>
+
+The account you use to post credit write-off amounts should be an *Income* account; the account you use to post balance write-off amounts should be an *Expense* account.
+
+</td></tr><tr><td>
+
+[Reason Codes](CS_21_10_00.md) \(CS211000\)
+
+</td><td>
+
+Verify the existence of the reason codes to be used for write offs.
+
+</td><td>
+
+ 
+
+</td></tr></tbody>
+</table>
+
+## Settings That Affect the Workflow
 
 Be sure that the appropriate settings have been defined as follows:
 

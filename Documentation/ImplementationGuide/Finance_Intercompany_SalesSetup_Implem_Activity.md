@@ -1,16 +1,16 @@
-# Intercompany Sales Setup: Implementation Activity {#_4f8bfd07-a771-4b94-8b51-92fa2d1da3b0 .task}
+# Intercompany Sales Setup: Implementation Activity
 
 The following activity will walk you through the process of setting up intercompany sales between branches of two companies within the same tenant.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the Head Office of the Muffins &amp; Cakes company has to purchase juicer installation services from the Service and Equipment Sales Center of SweetLife Fruits &amp; Jams. An accountant of SweetLife Fruits &amp; Jams issues an invoice to the Muffins &amp; Cakes company for the services. The corresponding AP bill needs to be processed in Muffins &amp; Cakes. Two documents have to be created in the system for a single transaction \(AR invoice in the selling company and AP bill in the purchasing company\), but the accountant does not want to enter both of them manually. To cause the system to create the AP bill automatically based on an AR invoice, the chief accountant of SweetLife has decided to use the intercompany sales functionality.
 
 Acting as a system administrator, you need to extend the *SWEEPEQUIP* branch of SweetLife to be a vendor and the *MHEAD* branch of Muffins &amp; Cakes to be a customer.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -25,15 +25,15 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Vendor Classes](../UserGuide/AP_20_10_00.md) \(AP201000\) form, the *INTERCO* vendor class for vendors extended from companies and branches has been configured.
 -   On the [Customer Classes](../UserGuide/AR_20_10_00.md) \(AR201000\) form, the *INTERCO* customer class for customers extended from companies and branches has been configured.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will review the AP and AR preferences on the [Accounts Payable Preferences](../UserGuide/AP_10_10_00.md) \(AP101000\) and [Accounts Receivable Preferences](../UserGuide/AR_10_10_00.md) \(AR101000\) forms. On the [Branches](../UserGuide/CS_10_20_00.md) \(CS102000\) form, you will extend the *SWEETEQUIP* branch to be a vendor and the *MHEAD* branch to be a customer. On the [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\) form, you will update the settings of the new vendor and on the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form, you will update the settings of the new customer.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as a system administrator Kimberly Gibbs by using the *gibbs* username and the *123* password.
 
-## Step 1: Reviewing the AP and AR Preferences { .section}
+## Step 1: Reviewing the AP and AR Preferences
 
 Before you start configuring the intercompany sales functionality, you need to review the related AP and AR preferences. Do the following:
 
@@ -48,7 +48,7 @@ Before you start configuring the intercompany sales functionality, you need to r
     In the box, *Customer Location* is specified, meaning that the system will use the sales account specified on the [Customer Locations](../UserGuide/AR_30_30_20.md) \(AR303020\) form for the customer location selected for the AR document.
 
 
-## Step 2: Extending a Branch as a Vendor { .section}
+## Step 2: Extending a Branch as a Vendor
 
 To extend the *SWEETEQUIP* branch as a vendor, do the following:
 
@@ -66,7 +66,7 @@ To extend the *SWEETEQUIP* branch as a vendor, do the following:
     **Tip:** For a branch that has been extended as a vendor, on the [Branches](../UserGuide/CS_10_20_00.md) form, the **View Vendor** command becomes available under **Company Management** on the More menu. You can click it to review the settings of the vendor created based on this branch on the [Vendors](../UserGuide/AP_30_30_00.md) form. Similarly, for a company that has been extended as a vendor, the **View Vendor** command becomes available on the [Companies](../UserGuide/CS_10_15_00.md) \(CS101500\) form.
 
 
-## Step 3: Extending a Branch as a Customer { .section}
+## Step 3: Extending a Branch as a Customer
 
 To extend the *MHEAD* branch as a customer, do the following:
 

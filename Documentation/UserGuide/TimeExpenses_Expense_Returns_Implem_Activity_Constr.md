@@ -1,14 +1,14 @@
-# Expense Returns with Corporate Cards: To Configure a Corporate Card {#_6293f77b-5c56-4171-a9c5-11c81ef5947c .task}
+# Expense Returns with Corporate Cards: To Configure a Corporate Card
 
 This activity will walk you through the process of creating the necessary entities for the processing of expenses for construction projects with corporate credit cards.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the employees of the ToadGreen company can use a corporate credit card for charging their business expenses. Acting as a system administrator, you need to prepare the system for payments by corporate credit card, and give Ellen Watson the ability to pay project-related expenses in this way.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -16,15 +16,15 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Entry Types](CA_20_30_00.md#) \(CA203000\) form, the *BANKFEE* entry type has been added.
 -   On the [Employees](EP_20_30_00.md#) \(EP203000\) form, the *EP00000033 \(Ellen Watson\)* account has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 You will first create a GL account to be used for the credit card payments on the [Chart of Accounts](GL_20_25_00.md#) \(GL202500\) form, and create the corresponding cash account on the [Cash Accounts](CA_20_20_00.md#) \(CA202000\) form. You will then create a payment method for the card on the [Payment Methods](CA_20_40_00.md#) \(CA204000\) form. Finally, you will create a corporate credit card on the [Corporate Cards](CA_20_25_00.md#) \(CA202500\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in as an administrator by using the *gibbs* username and the *123* password.
 
-## Step 1: Creating a GL Account for a Corporate Card { .section}
+## Step 1: Creating a GL Account for a Corporate Card
 
 Create a GL account as follows:
 
@@ -37,7 +37,7 @@ Create a GL account as follows:
     -   **Post Option**: *Detail*
 3.  On the form toolbar, click **Save**.
 
-## Step 2: Creating a Payment Method { .section}
+## Step 2: Creating a Payment Method
 
 To create a payment method for the corporate credit card, do the following:
 
@@ -59,7 +59,7 @@ To create a payment method for the corporate credit card, do the following:
 
 9.  Save the payment method.
 
-## Step 3: Creating a Cash Account { .section}
+## Step 3: Creating a Cash Account
 
 Create a cash account as follows:
 
@@ -75,7 +75,7 @@ Create a cash account as follows:
 4.  On the **Entry Types** tab, click **Add Row**, and in the **Entry Type ID** column, select *BANKFEE*.
 5.  Save the created cash account.
 
-## Step 4: Creating the Corporate Credit Card { .section}
+## Step 4: Creating the Corporate Credit Card
 
 To create the corporate credit card, do the following:
 

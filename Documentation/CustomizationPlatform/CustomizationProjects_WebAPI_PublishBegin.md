@@ -1,4 +1,4 @@
-# Customization Web API: publishBegin {#_ead25ada-37bd-45a6-9523-4c1bb597edf6 .concept}
+# Customization Web API: publishBegin
 
 You can initiate the publication of any number of customization projects in an Acumatica ERP instance.
 
@@ -6,7 +6,7 @@ When you publish a customization project, the system applies the changes in the 
 
 For details about the publishing of customization projects, see [Publishing Customization Projects](CG_GL_Projects_Publishing.md).
 
-## HTTP Method and URL { .section}
+## HTTP Method and URL
 
 To initiate the publication of a customization project in an Acumatica ERP instance, you use the `POST` HTTP method and the following URL.
 
@@ -16,31 +16,98 @@ POST http(s)://<Acumatica ERP Instance URL>/CustomizationApi/publishBegin
 
 You replace *&lt;Acumatica ERP instance URL&gt;* with the URL of your Acumatica ERP instance.
 
-## Request Body { .section}
+## Request Body
 
 In the request body in JSON format, you can use the fields listed in the following table.
 
-|Field|Description|
-|-----|-----------|
-|`isMergeWithExistingPackages`|A Boolean value that indicates \(if it is set to *true*\) that the currently published projects should be merged with the customization projects listed in the `projectNames` field and the result of the merge should be published. If the value is *false*, only the projects specified in the `projectNames` field will be the published projects.|
-|`isOnlyValidation`|A Boolean value that indicates \(if it is set to *true*\) that only validation of the customization project should be performed.|
-|`isOnlyDbUpdates`|A Boolean value that indicates \(if it is set to *true*\) that the changes should be applied only to the database. The field corresponds to the **Apply Changes Only to Database \(Skip Website Update\)** check box in the **Publish to Multiple Tenants** dialog box, which appears when you click **Publish to Multiple Tenants** on the form toolbar of the [Customization Projects](../UserGuide/SM_20_45_05.md) \(SM204505\) form.|
-|`isReplayPreviouslyExecutedScripts`|A Boolean value that indicates \(if it is set to *true*\) that the database scripts that were previously applied should be executed again. The field corresponds to the **Execute All Database Scripts \(Including Previously Executed\)** check box in the **Publish to Multiple Tenants** dialog box, which appears when you click **Publish to Multiple Tenants** on the form toolbar of the [Customization Projects](../UserGuide/SM_20_45_05.md) \(SM204505\) form.|
-|`projectNames`|Required. An array of the names of the customization projects that need to be published.|
-|`tenantMode`|The tenant for which the projects should be published. The field can have one of the following values:-   *Current*: The customization projects should be published for the tenant to which the user is currently signed in.
+<table id="_d1652ce3-f09a-4aae-a59b-fb8f661ea071"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+`isMergeWithExistingPackages`
+
+</td><td>
+
+A Boolean value that indicates \(if it is set to *true*\) that the currently published projects should be merged with the customization projects listed in the `projectNames` field and the result of the merge should be published. If the value is *false*, only the projects specified in the `projectNames` field will be the published projects.
+
+</td></tr><tr><td>
+
+`isOnlyValidation`
+
+</td><td>
+
+A Boolean value that indicates \(if it is set to *true*\) that only validation of the customization project should be performed.
+
+</td></tr><tr><td>
+
+`isOnlyDbUpdates`
+
+</td><td>
+
+A Boolean value that indicates \(if it is set to *true*\) that the changes should be applied only to the database. The field corresponds to the **Apply Changes Only to Database \(Skip Website Update\)** check box in the **Publish to Multiple Tenants** dialog box, which appears when you click **Publish to Multiple Tenants** on the form toolbar of the [Customization Projects](../UserGuide/SM_20_45_05.md) \(SM204505\) form.
+
+</td></tr><tr><td>
+
+`isReplayPreviouslyExecutedScripts`
+
+</td><td>
+
+A Boolean value that indicates \(if it is set to *true*\) that the database scripts that were previously applied should be executed again. The field corresponds to the **Execute All Database Scripts \(Including Previously Executed\)** check box in the **Publish to Multiple Tenants** dialog box, which appears when you click **Publish to Multiple Tenants** on the form toolbar of the [Customization Projects](../UserGuide/SM_20_45_05.md) \(SM204505\) form.
+
+</td></tr><tr><td>
+
+`projectNames`
+
+</td><td>
+
+Required. An array of the names of the customization projects that need to be published.
+
+</td></tr><tr><td>
+
+`tenantMode`
+
+</td><td>
+
+The tenant for which the projects should be published. The field can have one of the following values:-   *Current*: The customization projects should be published for the tenant to which the user is currently signed in.
 -   *All*: The customization projects should be published for all tenants.
 -   *List*: The customization projects should be published for the tenants specified in the `tenantLoginNames` field.
 
-|
-|`tenantLoginNames`|The list of tenants for which the customization projects should be published. This field is used only if the `tenantMode` field has the *List* value.|
+</td></tr><tr><td>
 
-## Response Body { .section}
+`tenantLoginNames`
+
+</td><td>
+
+The list of tenants for which the customization projects should be published. This field is used only if the `tenantMode` field has the *List* value.
+
+</td></tr></tbody>
+</table>
+
+## Response Body
 
 The following table describes the field that the system returns in the body of the response.
 
-|Field|Description|
-|-----|-----------|
-|`log`|An array of log records. Each element of the array has the following fields:
+<table id="_e6d1b0ab-812e-411c-8440-4a0bb60f8edb"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+`log`
+
+</td><td>
+
+An array of log records. Each element of the array has the following fields:
 
 -   `timestamp`: The date and time when the information about the performed operation was added to the log
 -   `logType`: The type of the log message, which can be one of the following:
@@ -50,9 +117,10 @@ The following table describes the field that the system returns in the body of t
     -   *error*
 -   `message`: The log message
 
-|
+</td></tr></tbody>
+</table>
 
-## Example { .section}
+## Example
 
 The following request shows an example of the publishing of the *PhoneRepairShop* customization project in the current tenant.
 
@@ -61,6 +129,7 @@ The following request shows an example of the publishing of the *PhoneRepairShop
 ```
 POST /<Acumatica ERP Instance URL>/CustomizationApi/PublishBegin HTTP/1.1
 Host: localhost
+Authorization: Bearer <access token>
 Content-Type: application/json
 Content-Length: 250
 
@@ -88,7 +157,7 @@ If the response is *200 OK*, it contains the body, which is shown in the followi
 }
 ```
 
-## Usage Notes { .section}
+## Usage Notes
 
 The publication of a customization project through the web API is implemented asynchronously. You should publish a customization project as follows:
 

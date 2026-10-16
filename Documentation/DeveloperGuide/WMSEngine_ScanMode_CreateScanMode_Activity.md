@@ -1,23 +1,23 @@
-# Barcode Scan Mode: To Define the Required Properties {#_365ee72f-d2f0-42fb-bdbb-315158ee5693 .task}
+# Barcode Scan Mode: To Define the Required Properties
 
 This activity will walk you through the implementation of the required properties of a scan mode.
 
-## Story { .section}
+## Story
 
 Suppose that you are creating a custom barcode-driven form. You have defined a barcode scan class for this form and created an instance of the descendant of the ScanMode class in the implementation of the CreateScanModes\(\) method. Now you need to define this descendant itself. You also need to define the constants for the values of the required properties of the scan mode and add these properties.
 
-## Process Overview { .section}
+## Process Overview
 
 You will define the class for the scan mode and define its required properties. For the Code property, you will provide both the `string` and the BQL constant. For the Description property, you will use a localizable message.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin creating a scan mode, do the following:
 
 1.  Prepare an Acumatica ERP instance by performing the [Test Instance: To Deploy an Instance](WMSEngine_InitialConfiguration_Activity_DeployInstance.md) prerequisite activity.
 2.  Create a barcode scan class by performing the [Barcode Scan Class: To Create a Barcode Scan Class](WMSEngine_BarcodeScanClass_Activity_CreateClass.md) prerequisite activity.
 
-## Step: Defining the Required Properties of the Scan Mode { .section}
+## Step: Defining the Required Properties of the Scan Mode
 
 To define the required properties of the scan mode, do the following:
 

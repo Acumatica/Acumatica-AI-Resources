@@ -1,8 +1,8 @@
-# Multiple Customer Discounts: To Create Multiple Discounts and Explore Their Application {#_8b47bf80-fbee-4c35-8206-dae111c7b95f .task}
+# Multiple Customer Discounts: To Create Multiple Discounts and Explore Their Application
 
 In this activity, you will create discounts of multiple types and learn how the system applies a combination of discounts to an AR invoice.
 
-## Story {#section_dt1_hck_gtb .section}
+## Story
 
 Starting in January 2026, the SweetLife Fruits &amp; Jams company is offering a discount of $100 to local customers who order 10 or more days of the offline training course.
 
@@ -14,7 +14,7 @@ Acting as SweetLife's accountant, you need to define the discounts for the *OFLC
 
 Finally, you need to create and post the AR invoice for FourStar Coffee &amp; Sweets Shop in the system, making sure that the three discounts are applied to this invoice.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -23,7 +23,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customer Price Classes](AR_20_80_00.md) \(AR208000\) form, the *LOCAL* customer price class has been created.
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *COFFEESHOP* customer has been created and assigned to the *LOCAL* customer price class.
 
-## Process Overview {#section_hzg_2nv_3pb .section}
+## Process Overview
 
 To configure a group discount for particular non-stock items, you will create a discount code on the [Discount Codes](AR_20_90_00.md) \(AR209000\) form, and then configure this discount on the [Discounts](AR_20_95_00.md) \(AR209500\) form. You will activate the automatic line discount \(*LIITE00000*\) and automatic unconditional document discount \(*UNCON00000*\), which you deactivated earlier.
 
@@ -31,7 +31,7 @@ You then will create an AR invoice on the [Invoices and Memos](AR_30_10_00.md) \
 
 Finally, you will deactivate the discounts.
 
-## System Preparation {#section_et1_hck_gtb .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -41,7 +41,7 @@ To prepare the system, do the following:
 4.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026*. For simplicity, in this lesson, you will create and process all documents in the system on this business date.
 5.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu button to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Activating the Automatic Line Discount by Amount for a Particular Customer Price Class {#section_ft1_hck_gtb .section}
+## Step 1: Activating the Automatic Line Discount by Amount for a Particular Customer Price Class
 
 To activate the *LIITE00000* automatic line discount by amount for a particular customer price class, do the following:
 
@@ -51,7 +51,7 @@ To activate the *LIITE00000* automatic line discount by amount for a particular 
 4.  In the Summary area, select the **Active** check box.
 5.  On the form toolbar, click **Save** to save your changes.
 
-## Step 2: Activating the Automatic Unconditional Document Discount {#section_gt1_hck_gtb .section}
+## Step 2: Activating the Automatic Unconditional Document Discount
 
 To activate the *UNCON00000* unconditional document discount, do the following:
 
@@ -61,7 +61,7 @@ To activate the *UNCON00000* unconditional document discount, do the following:
 4.  In the Summary area, select the **Active** check box.
 5.  On the form toolbar, click **Save** to save your changes.
 
-## Step 3: Configuring the Automatic Group Discount for Particular Non-Stock Items {#section_z2n_bdy_stb .section}
+## Step 3: Configuring the Automatic Group Discount for Particular Non-Stock Items
 
 To create the automatic group discount for the *OFLCOURSE* and *ONLCOURSE* non-stock items, do the following:
 
@@ -103,7 +103,7 @@ To create the automatic group discount for the *OFLCOURSE* and *ONLCOURSE* non-s
     On the **Discount Breakpoints** tab, notice that the system has cleared the **Pending Date** column and the **Effective Date** column now contains 1/30/2026.
 
 
-## Step 4: Creating the AR Invoice and Exploring Discount Application {#section_ht1_hck_gtb .section}
+## Step 4: Creating the AR Invoice and Exploring Discount Application
 
 To create the AR invoice for FourStar Coffee &amp; Sweets Shop and observe how the system automatically applies the discounts, do the following:
 
@@ -127,7 +127,6 @@ To create the AR invoice for FourStar Coffee &amp; Sweets Shop and observe how t
 
     The **Discount Amount** column shows the discount amount \($100\). The same amount is shown in the **Line Discounts** box in the Summary area \(see the screenshot below\).
 
-    ![](Images/activity_Prices_Invoice_With_Automatic_Line_Discount_Applied.png "Invoice with automatic line discount applied")
 
 4.  Click **Add Row** on the table toolbar, and specify the following settings in the added row:
 
@@ -142,7 +141,6 @@ To create the AR invoice for FourStar Coffee &amp; Sweets Shop and observe how t
 
         The **Discountable Amt.** for this discount is *505*, which is the total amount for the *OFLCOURSE* and *ONLCOURSE* non-stock items after the line discount is applied \($540 + $65 - $100\) \(see the **Ext. Price** and **Discount Amount** columns on the **Details** tab in the following screenshot\).
 
-        ![](Images/activity_Prices_Invoice_Details_Tab_With_Automatic_Line_Discount_Applied.png "Details tab of the Invoices and Memos form with the automatic line discount applied")
 
         The **Discount Percent** column of the **Discounts** tab contains the discount percent \(*12*\), and the **Discount Amt.** column contains the discount amount, which is automatically calculated by the system \(*60.60*\).
 
@@ -150,11 +148,10 @@ To create the AR invoice for FourStar Coffee &amp; Sweets Shop and observe how t
 
         The **Discountable Amt.** for this discount is *444.40*, which is the total amount for the *OFLCOURSE* and *ONLCOURSE* non-stock items after the group discount is applied \($505 - $60.60\). The **Discount Percent** column shows the discount percent \(*15*\), and the **Discount Amt.** column shows the discount amount \(*66.66*\), which is automatically calculated by the system \(see the following screenshot\).
 
-        ![](Images/activity_Prices_Application_of_Multiple_Discounts_Invoice.png "Invoice with multiple discounts applied")
 
 5.  On the form toolbar, click **Remove Hold** to assign the invoice the *Balanced* status, and then click **Save**.
 
-## Step 5: Releasing the AR Invoice and Reviewing the GL Transaction {#section_it1_hck_gtb .section}
+## Step 5: Releasing the AR Invoice and Reviewing the GL Transaction
 
 To release the invoice, review the corresponding GL transaction, and analyze which accounts were updated, do the following:
 
@@ -164,12 +161,11 @@ To release the invoice, review the corresponding GL transaction, and analyze whi
 
     The *40000 - Sales Revenue* account is credited in the amount of $505 \($440 + $65\), and the *11000 Accounts Receivable* account is debited in the amount of $377.74 \(the balance of the invoice\). The *53000 - Discount Given* account is debited in the amount of the group and document discounts applied to the invoice \($127.26\), as shown in the following screenshot.
 
-    ![](Images/activity_Prices_Application_of_Multiple_Discounts.png "GL batch with applied multiple discounts")
 
     **Tip:** The applied discounts and the document amounts may differ if you have skipped any steps in this activity or previously configured any other applicable discounts.
 
 
-## Step 6: Making the Created Discounts Inactive {#section_jt1_hck_gtb .section}
+## Step 6: Making the Created Discounts Inactive
 
 1.  Open the [Discounts](AR_20_95_00.md) \(AR209500\) form.
 2.  In the Summary area, specify the following settings:

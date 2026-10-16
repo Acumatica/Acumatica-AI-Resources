@@ -1,4 +1,4 @@
-# Overdue Charges: General Information {#_62b98449-6da7-4e5d-a19f-963c27527f11 .concept}
+# Overdue Charges: General Information
 
 In Acumatica ERP, you can set up the functionality that makes the system calculate overdue charges and show them on customer statements to inform customers of additional charges they have incurred for documents that are past due.
 
@@ -8,7 +8,7 @@ You can define multiple overdue charge codes \(particular overdue charge IDs\) w
 
 This functionality is available only if the *Overdue Charges* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -16,11 +16,11 @@ In this chapter, you will learn how to do the following:
 -   Process overdue charges and create the *Overdue Charge* documents for particular customers
 -   Prepare customer statements for particular customers and review how overdue charges are shown in the statements
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You use overdue charges if you want to charge your customers for overdue documents that have not been paid in time.
 
-## Setup of Overdue Charge Collection {#section_j1f_hjv_vxb .section}
+## Setup of Overdue Charge Collection
 
 You perform the following steps to configure the collection and processing of overdue charges:
 
@@ -32,7 +32,7 @@ You perform the following steps to configure the collection and processing of ov
     When a new customer account is created on the [Customers](AR_30_30_00.md) \(AR303000\) form and a customer class is selected, the customer class supplies the default state of the **Apply Overdue Charges** check box \(on the **General** tab\). You can change this default state for any customer account. If the customer account is subject to overdue charge collection \(that is, if this check box is selected for the customer\), for all of the customer's debit documents, the system displays the **Apply Overdue Charge** check box on the **Financial** tab of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. By default, the check box is selected, but you can clear the check box for a particular document.
 
 
-## Setup of Overdue Charge Calculation by Statement Cycle {#section_o1f_hjv_vxb .section}
+## Setup of Overdue Charge Calculation by Statement Cycle
 
 By default, the system uses the overdue charge code specified in the applicable customer class to calculate overdue charges. Alternatively, you can indicate to the system that the code should be copied from the applicable statement cycle to calculate charges.
 
@@ -41,11 +41,11 @@ Customer accounts are initially assigned the statement cycle, if any, specified 
 You perform the following steps to set up overdue charge calculation by using the code specified in the statement cycle:
 
 1.  On the [Statement Cycles](AR_20_28_00.md) \(AR202800\) form, you specify an overdue charge code for each statement cycle used in the system. You may associate different codes with different statement cycles or use the same code for all statement cycles.
-2.  On the [Accounts Receivable Preferences](AR_10_10_00.md) form, you select the **Set Default Overdue Charges by Statement Cycle** check box, to indicate to the system that the source of the overdue charge code is the statement cycle of the customer account.
+2.  On the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, you select the **Set Default Overdue Charges by Statement Cycle** check box, to indicate to the system that the source of the overdue charge code is the statement cycle of the customer account.
 
 After you have performed these configuration steps, the system will use the overdue charge code assigned to the applicable statement cycle to calculate overdue charges for customers and documents included in the charge collection process.
 
-## Processing of Overdue Documents {#section_t1f_hjv_vxb .section}
+## Processing of Overdue Documents
 
 You process the calculation of the overdue charges for the overdue documents \(that is, invoices and debit memos\) on the [Calculate Overdue Charges](AR_50_70_00.md) \(AR507000\) form. On this form, once you specify the criteria in the selection area, the system displays the documents that comply with the following requirements:
 
@@ -70,7 +70,7 @@ You further process this document of the *Overdue Charge* type by using the [Inv
 
 If the **Calculate on Overdue Charges Documents** check box is selected on the [Accounts Receivable Preferences](AR_10_10_00.md) form, the system searches for documents of the *Overdue Charge* type as well and calculates charge amounts the same way as it does for invoices and debit memos.
 
-## Exclusion of a Customer or a Document from Charge Collection {#section_gbf_hjv_vxb .section}
+## Exclusion of a Customer or a Document from Charge Collection
 
 To exclude a customer account from the charge collection process, you clear the **Apply Overdue Charges** check box for the customer on the **Financial** tab of the [Customers](AR_30_30_00.md) \(AR303000\) form.
 

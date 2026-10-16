@@ -1,4 +1,4 @@
-# Employee Time Entry: Creation of Time Activities from Project Time Logs {#_97b50710-ee43-4b02-a184-792ba15cba0b .concept}
+# Employee Time Entry: Creation of Time Activities from Project Time Logs
 
 If you work on a project task and track time by using the timer on the [Project Tasks](PM_30_20_00.md) \(PM302000\) form, the system records a time log every time you stop the timer.
 
@@ -11,7 +11,7 @@ You can review and update the logged time on the **Time Log** tab of the [Employ
 
 **Tip:** You can save the time card if the **Time Log** tab has at least one time log.
 
-## Updating the Time Log { .section}
+## Updating the Time Log
 
 For each time log entry on the [Employee Time Cards](EP_30_50_00.md) \(EP305000\) or [Daily Field Report](PJ_30_40_00.md) \(PJ304000\) form for which no time activity has been created yet, you can change:
 
@@ -30,7 +30,7 @@ You cannot change:
 
 If a time activity created based on the time log entry already exists, you must delete it before you make changes to the time log entry.
 
-## Creating Time Activities { .section}
+## Creating Time Activities
 
 Once you have reviewed an employee’s time logs, you can create time activities based on the time log entries, as follows:
 

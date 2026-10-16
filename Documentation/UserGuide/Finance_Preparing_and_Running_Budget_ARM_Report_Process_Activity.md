@@ -1,14 +1,14 @@
-# Budget vs. Actual ARM Report: Process Activity {#_75f7ba19-2c0b-47b1-81e7-4a9f6e10da01 .task}
+# Budget vs. Actual ARM Report: Process Activity
 
 The following activity will walk you through the process of preparing and running an ARM report that compares budgeted and actual amounts.
 
-## Story {#section_k3l_mjv_vxb .section}
+## Story
 
 Suppose that the management of the SweetLife Fruits &amp; Jams company wants to compare the budget for 2026 with the actual figures for this financial year.
 
 Acting as a system administrator, you need to prepare and run the Budget vs. Actual ARM report.
 
-## Configuration Overview {#section_n3l_mjv_vxb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed for the purposes of this activity:
 
@@ -18,18 +18,18 @@ In the *U100* dataset, the following tasks have been performed for the purposes 
 -   On the [Report Definitions](CS_20_60_00.md) \(CS206000\) form, the *DPL* report has been created.
 -   On the [Column Sets](CS_20_60_20.md) \(CS206020\) form, the *DPLP* column set has been configured.
 
-## Process Overview {#section_q3l_mjv_vxb .section}
+## Process Overview
 
 In this activity, you will prepare the actual data for SweetLife by uploading an Excel file on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form. On the [Column Sets](CS_20_60_20.md) \(CS206020\) form, you will copy the column set of an existing ARM report and update its settings. On the [Report Definitions](CS_20_60_00.md) \(CS206000\) form, you will copy the report definition of an existing report, update the report, and publish it. Finally, you will run the *SweetLife: Actual vs. Budget \(RM000001\)* report and review it.
 
-## System Preparation {#section_s3l_mjv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
 1.  Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as a system administrator Kimberly Gibbs by using the *gibbs* username and the *123* password.
 2.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu button to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Preparing the Actual Data of SweetLife for 2026 {#section_u3l_mjv_vxb .section}
+## Step 1: Preparing the Actual Data of SweetLife for 2026
 
 To prepare the actual data of SweetLife for 2026, you need to open the remaining closed financial periods, and then create and release a list of transactions. Do the following:
 
@@ -54,7 +54,7 @@ To prepare the actual data of SweetLife for 2026, you need to open the remaining
 11. On the form toolbar of the [Journal Transactions](GL_30_10_00.md) form, click **Remove Hold**.
 12. On the form toolbar, click **Release**.
 
-## Step 2: Copying and Updating the Column Set {#section_w3l_mjv_vxb .section}
+## Step 2: Copying and Updating the Column Set
 
 To copy a column set of an existing ARM report and update its settings, do the following:
 
@@ -81,10 +81,9 @@ To copy a column set of an existing ARM report and update its settings, do the f
     -   **Amount Type**: *Ending Balance*
 15. On the form toolbar, click **Save** to save your changes. The following screenshot illustrates the changes to the column set.
 
-    ![](Images/activity_Budget_ARM_ColumnSet.png "Changes to the column set")
 
 
-## Step 3: Copying and Updating the Report Definition {#section_z3l_mjv_vxb .section}
+## Step 3: Copying and Updating the Report Definition
 
 To copy an existing report definition and update its settings, do the following:
 
@@ -109,10 +108,9 @@ To copy an existing report definition and update its settings, do the following:
     -   **Category**: *Financial Statements* \(copied from the predefined report\)
 9.  On the form toolbar, click **Save** to save your changes. The following screenshot illustrates the changes to the report definition.
 
-    ![](Images/activity_Budget_ARM_ReportDefinition.png "Changes to the report definition")
 
 
-## Step 4: Publishing the ARM Report { .section}
+## Step 4: Publishing the ARM Report
 
 To publish the ARM report, do the following:
 
@@ -126,7 +124,7 @@ To publish the ARM report, do the following:
 3.  Click **Publish**.
 4.  Refresh the page.
 
-## Step 5: Running the ARM Report {#section_bjl_mjv_vxb .section}
+## Step 5: Running the ARM Report
 
 To run the P&amp;L: Actual vs. Budget report, do the following:
 
@@ -137,7 +135,6 @@ To run the P&amp;L: Actual vs. Budget report, do the following:
 3.  On the form toolbar, click **Run Report**.
 4.  In the report that is displayed, review the amounts in the **Actual** and **Budget** columns of the Profit &amp; Loss report generated for the SweetLife Fruits &amp; Jams company, as illustrated in the following screenshot.
 
-    ![](Images/activity_Budget_ARM_Actual_vs_Budget_Report.png "The Actual vs. Budget report")
 
 
 **Parent topic:**[Preparing and Running a Budget vs Actual ARM Report](../UserGuide/Finance_Preparing_and_Running_Budget_ARM_Report_Mapref.md)

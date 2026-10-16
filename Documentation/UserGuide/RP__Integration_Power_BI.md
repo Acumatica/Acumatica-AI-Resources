@@ -1,4 +1,4 @@
-# Managing Power BI Integration {#_bad301b5-ad56-4399-943e-f5b4a1e351b3 .concept}
+# Managing Power BI Integration
 
 You can build Microsoft Power BI reports into Acumatica ERP so that users can have these reports displayed as Acumatica ERP forms.
 

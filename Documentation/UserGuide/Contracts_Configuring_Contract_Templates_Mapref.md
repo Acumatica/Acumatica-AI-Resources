@@ -1,4 +1,4 @@
-# Creating Contract Templates {#_06a7434b-fd08-4fef-bc7e-8ce112f8d515 .concept}
+# Creating Contract Templates
 
 This chapter provides information about the initial steps required to create contracts in Acumatica ERP. You will learn about creating the contract templates that you will use for creating drafts of contracts.
 

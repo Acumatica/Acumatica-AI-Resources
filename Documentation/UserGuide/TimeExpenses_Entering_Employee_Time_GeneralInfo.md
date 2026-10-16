@@ -1,8 +1,8 @@
-# Employee Time Entry: General Information {#_36ce78ec-3e8c-45e2-a023-287cff8d69c7 .concept}
+# Employee Time Entry: General Information
 
 Acumatica ERP provides time entry capabilities so that your company can track the time employees spend on various activities.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,7 +12,7 @@ In this chapter, you will learn how to do the following:
 -   Use equipment time cards
 -   Enter and process time activities for crew members
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You report employee time if you are an employee who needs to enter time spent on a working activity.
 
@@ -20,7 +20,7 @@ You track employee time if you are a manager who needs to monitor the time emplo
 
 You process time activities and time cards if you are an accountant who needs to track employee time for payroll processing and compensation purposes.
 
-## Entry of Employee Time { .section}
+## Entry of Employee Time
 
 In Acumatica ERP, you can enter and track employee time spent on working activities by using the following functionality:
 
@@ -31,7 +31,7 @@ In Acumatica ERP, you can enter and track employee time spent on working activit
 
 -   Crew time entries: A crew time entry represents a time activity recorded for multiple employees \(that is, a crew\) at once. Instead of entering time individually for each employee, you can use a crew time entry on the [Weekly Crew Time Entry](EP_30_71_00.md) \(EP307100\) form to create identical time records in batches. This simplifies time tracking for teams working on shared tasks or projects and ensures consistency in reporting. For details, see [Employee Time Entry: Crew Time](Crew_Time_Reporting_GeneralInfo.md).
 
-## Employee Time Zone { .section}
+## Employee Time Zone
 
 When an employee creates a time activity and enters the date and time, the system stores this information in UTC along with the employee's current time zone. On most forms where activities can be created, UI elements display the date and time in both of these:
 

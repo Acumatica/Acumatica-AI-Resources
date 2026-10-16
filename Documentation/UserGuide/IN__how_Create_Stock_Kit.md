@@ -1,15 +1,15 @@
-# To Create a Stock Kit {#_d076d5bc-b603-4f42-bf2c-ee6e7ffb3caa .task}
+# To Create a Stock Kit
 
 If your organization sells kits \(that is, a combination of stock and non-stock items, which you want to track in the Inventory module\), you have to create stock kits in the system by using the [Stock Items](IN_20_25_00.md) \(IN202500\) form, as described in this topic.
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 -   Make sure the *Kit Assembly* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 -   Make sure that you have created an item class that provides the default settings for the item \(that is, the kit\).
 
-## To Create a Stock Kit { .section}
+## To Create a Stock Kit
 
 1.  Open the [Stock Items](../Shared/../UserGuide/IN_20_25_00.md) \(IN202500\) form.
 

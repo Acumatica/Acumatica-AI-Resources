@@ -1,10 +1,10 @@
-# To Define a Unique Key {#_76f191c0-c4d0-43b8-8d8b-50d8a460fcfb .concept}
+# To Define a Unique Key
 
 You can define the unique key of a data access class \(DAC\) by using the PrimaryKeyOf&lt;Table&gt;.By&lt;keyFields&gt; class. With this class, you can define simple keys \(with one key field\) and compound keys \(with up to eight key fields\) and select records by using these keys, as described in this topic.
 
 The primary key differs from unique keys only by two things: Its name is `PK`, and its set of fields consists of only DAC key properties \(DAC properties marked with `IsKey = true`\). The DAC should not have any unique key declarations without a primary key declaration.
 
-## To Define a Unique Key { .section}
+## To Define a Unique Key
 
 1.  In the DAC, declare a PrimaryKeyOf&lt;Table&gt;.By&lt;keyFields&gt; descendant with the `public` Find method, which calls the `protected` FindBy method, as shown in the following code.
 
@@ -30,7 +30,7 @@ The primary key differs from unique keys only by two things: Its name is `PK`, a
     The unique key declaration is similar to a primary key declaration: The only difference is that it specifies DAC fields that are different from the fields used in a DAC primary key. The unique key declaration uses the same Acumatica Framework classes, and all examples for primary keys can be used to declare unique keys.
 
 
-## Examples of Usage { .section}
+## Examples of Usage
 
 Suppose that a DAC has two different keys, and each of them can uniquely identify a record in the database. To declare them both, you need to declare one primary key named `PK` and one unique key named `UK`. An example is shown in the following code.
 
@@ -84,7 +84,7 @@ public partial class INUnit : PXBqlTable, IBqlTable
 }
 ```
 
-## Coding Conventions { .section}
+## Coding Conventions
 
 We recommend the following coding conventions, which are checked by Acuminator:
 

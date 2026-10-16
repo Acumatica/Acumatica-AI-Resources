@@ -1,12 +1,12 @@
-# Billing Rules: Configuration Prerequisites {#_4e324c8b-9951-4c76-9a3b-dd770f2e9d83 .concept}
+# Billing Rules: Configuration Prerequisites
 
 Before starting to create billing rules, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Projects* feature, which provides the basic project management functionality, must be enabled.
 
-## Configuring the System { .section}
+## Configuring the System
 
 You need to make sure the following tasks have been performed in Acumatica ERP before you begin to create billing rules:
 

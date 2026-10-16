@@ -1,4 +1,4 @@
-# Access Control {#_03d5ea15-1d8d-44fc-9c3b-acf797fce811 .concept}
+# Access Control
 
 The group mask value indicates the access rights a user should have in order to use a data record. To be able to set access rights for particular data records, you should use the [PXDBGroupMask](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=50184d9e-2939-3150-ed30-c0430827b779) attribute to mark the data access class \(DAC\) field that holds the group mask value.
 

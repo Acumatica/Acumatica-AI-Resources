@@ -1,23 +1,99 @@
-# Interbranch Bills with Balancing: Implementation Checklist {#_f112de93-7142-4a8b-a7d0-170f3ae7bcdf .concept}
+# Interbranch Bills with Balancing: Implementation Checklist
 
 Before users begin processing AP bills between branches that require balancing, you must make sure that the system has been configured properly and that all required entities have been created, as described in the following table.
 
-|Form|Settings to Check|Notes|
-|----|-----------------|-----|
-|[Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form|Make sure that the following features have been enabled:-   *Standard Financials*
+<table id="_1f63882e-3a95-4866-b1c2-d3b16644d855"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Settings to Check
+
+</th><th>
+
+Notes
+
+</th></tr></thead><tbody><tr><td>
+
+[Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form
+
+</td><td>
+
+Make sure that the following features have been enabled:-   *Standard Financials*
 -   *Multibranch Support*
 -   *Multicompany Support*
 -   *Advanced Financials*
 -   *Inter-Branch Transactions*
 
-| |
-|Multiple forms|Make sure that the minimum configuration of the company has been performed.| |
-|[Chart of Accounts](GL_20_25_00.md) \(GL202500\) form|Check whether the necessary accounts have been created.| |
-|[Inter-Branch Account Mapping](GL_10_10_10.md) \(GL101010\) form|Be sure that the account mapping rules have been specified for the branches.|For details on defining these rules, see [Interbranch Account Mapping: General Information](../ImplementationGuide/config_InterBranch_Mapping_Rules_GeneralInfo.md).|
-|[Company Financial Calendar](GL_20_11_00.md) \(GL201100\) form|Be sure that all financial periods for which AP bills for branches requiring balancing may occur have a status of *Open*.|You can generate the necessary periods on the [Master Financial Calendar](GL_20_10_00.md) \(GL201000\) form.|
-|[Vendors](AP_30_30_00.md) \(AP303000\) form|Ensure that all vendors that may be specified in these AP bills are defined in the system.| |
+</td><td>
 
-## Settings That Can Affect the Processing Workflow {#section_nzm_njv_vxb .section}
+ 
+
+</td></tr><tr><td>
+
+Multiple forms
+
+</td><td>
+
+Make sure that the minimum configuration of the company has been performed.
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+[Chart of Accounts](GL_20_25_00.md) \(GL202500\) form
+
+</td><td>
+
+Check whether the necessary accounts have been created.
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+[Inter-Branch Account Mapping](GL_10_10_10.md) \(GL101010\) form
+
+</td><td>
+
+Be sure that the account mapping rules have been specified for the branches.
+
+</td><td>
+
+For details on defining these rules, see [Interbranch Account Mapping: General Information](../ImplementationGuide/config_InterBranch_Mapping_Rules_GeneralInfo.md).
+
+</td></tr><tr><td>
+
+[Company Financial Calendar](GL_20_11_00.md) \(GL201100\) form
+
+</td><td>
+
+Be sure that all financial periods for which AP bills for branches requiring balancing may occur have a status of *Open*.
+
+</td><td>
+
+You can generate the necessary periods on the [Master Financial Calendar](GL_20_10_00.md) \(GL201000\) form.
+
+</td></tr><tr><td>
+
+[Vendors](AP_30_30_00.md) \(AP303000\) form
+
+</td><td>
+
+Ensure that all vendors that may be specified in these AP bills are defined in the system.
+
+</td><td>
+
+ 
+
+</td></tr></tbody>
+</table>
+
+## Settings That Can Affect the Processing Workflow
 
 The following settings on the [Accounts Payable Preferences](../Shared/../UserGuide/AP_10_10_00.md) \(AP101000\) form can affect the processing workflow:
 

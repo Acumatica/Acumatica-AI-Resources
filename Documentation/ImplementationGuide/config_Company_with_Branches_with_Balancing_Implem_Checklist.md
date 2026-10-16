@@ -1,4 +1,4 @@
-# Company with Branches that Require Balancing: Implementation Checklist {#_7d2615bd-ca38-4d51-9123-af50c3309978 .concept}
+# Company with Branches that Require Balancing: Implementation Checklist
 
 You can use the tables in this topic to quickly check whether the configuration steps for a company with branches that require balancing are being performed in Acumatica ERP. The following tables cover both the mandatory configuration steps and the recommended configuration steps.
 
@@ -22,32 +22,80 @@ You can use the tables in this topic to quickly check whether the configuration 
 |[Customer Classes](../UserGuide/AR_20_10_00.md) \(AR201000\) form|Make sure that the default customer class, which provides the default values for customer accounts and for other customer classes, has been created.| |
 |[Accounts Receivable Preferences](../UserGuide/AR_10_10_00.md) \(AR101000\) form|Make sure that all necessary settings to use the accounts receivable functionality have been specified.| |
 
-|Form|Things to Check|Notes|
-|----|---------------|-----|
-|[General Ledger Preferences](../UserGuide/GL_10_20_00.md) \(GL102000\) form|Make sure that the following settings have been specified:-   The **Automatically Post on Release** check box is selected.
+<table id="_1a310629-1570-4e2c-9bb8-ce078684a34f"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Things to Check
+
+</th><th>
+
+Notes
+
+</th></tr></thead><tbody><tr><td>
+
+[General Ledger Preferences](../UserGuide/GL_10_20_00.md) \(GL102000\) form
+
+</td><td>
+
+Make sure that the following settings have been specified:-   The **Automatically Post on Release** check box is selected.
 -   The **Hold Batches on Entry** check box is cleared.
 
-| |
-|[Cash Management Preferences](../UserGuide/CA_10_10_00.md) \(CA102000\) form|Make sure that the following settings have been specified:-   The **Automatically Post to GL on Release** check box is selected.
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+[Cash Management Preferences](../UserGuide/CA_10_10_00.md) \(CA102000\) form
+
+</td><td>
+
+Make sure that the following settings have been specified:-   The **Automatically Post to GL on Release** check box is selected.
 -   The **Hold Transactions on Entry** check box is cleared.
 -   The **Require Document Ref. Nbr. on Entry** check box is cleared.
 
-| |
-|[Accounts Payable Preferences](../UserGuide/AP_10_10_00.md) \(AP101000\) form|Make sure that the following settings have been specified:-   The **Automatically Post on Release** check box is selected.
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+[Accounts Payable Preferences](../UserGuide/AP_10_10_00.md) \(AP101000\) form
+
+</td><td>
+
+Make sure that the following settings have been specified:-   The **Automatically Post on Release** check box is selected.
 -   A vendor class, which will be used to provide default values for vendor accounts \(and for other vendor classes\), is selected in the **Default Vendor Class ID** box.
 -   The **Hold Documents on Entry** check box is cleared.
 -   The **Require Approval of Bills Prior to Payment** check box is cleared.
 -   The **Validate Document Totals on Entry** check box is cleared.
 -   The **Require Vendor Reference** check box is cleared.
 
-| |
-|[Accounts Receivable Preferences](../UserGuide/AR_10_10_00.md) \(AR101000\) form|Make sure that the following settings have been specified:-   The **Automatically Post on Release** check box is selected.
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+[Accounts Receivable Preferences](../UserGuide/AR_10_10_00.md) \(AR101000\) form
+
+</td><td>
+
+Make sure that the following settings have been specified:-   The **Automatically Post on Release** check box is selected.
 -   A customer class, which will be used to provide default values for customer accounts \(and for other customer classes\), has been selected in the **Default Customer Class ID** box.
 -   The **Hold Documents on Entry** check box is cleared.
 -   The **Validate Document Totals on Entry** check box is cleared.
 -   The **Require Payment Reference on Entry** check box is cleared.
 
-| |
+</td><td>
+
+ 
+
+</td></tr></tbody>
+</table>
 
 **Parent topic:**[Company with Branches that Require Balancing](../ImplementationGuide/config_Company_with_Branches_with_Balacing_Mapref.md)
 

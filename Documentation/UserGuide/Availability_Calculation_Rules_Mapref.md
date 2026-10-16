@@ -1,4 +1,4 @@
-# Creating Availability Calculation Rules {#_8cba7c90-3ff7-4fec-b310-0c35ccdea91b .concept}
+# Creating Availability Calculation Rules
 
 Acumatica ERP provides you with real-time visibility of the available inventory. By having the most accurate availability data, your company can optimally manage stock levels and deliver the promised items to customers.
 

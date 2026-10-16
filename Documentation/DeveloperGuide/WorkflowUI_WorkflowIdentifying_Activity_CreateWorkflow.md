@@ -1,18 +1,18 @@
-# Workflow-Identifying Fields: To Create an Inherited Workflow {#_2057642f-4c9a-4268-a2da-fcfa81505501 .task}
+# Workflow-Identifying Fields: To Create an Inherited Workflow
 
 The following activity will walk you through the process of creating an inherited workflow for the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form based on a predefined one. You will modify this workflow in other activities of this chapter to fit the company's preferred workflow for sales orders.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Acting as the technical specialist, you need to create a customized workflow for sales orders on the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form. This form uses the Behavior internal field as the workflow-identifying field. For sales orders, the Behavior field has the *SO* value, which is the type of the workflow for sales orders.
 
-## Process Overview { .section}
+## Process Overview
 
 By using the [Screens](../UserGuide/AU_20_10_00.md) page, you will add the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form to the list of customized screens. You will then create a customized workflow for it based on a predefined one by using the [Workflows](../UserGuide/AU_20_10_20.md) page.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -29,7 +29,7 @@ Before you begin performing the steps of this activity, do the following:
     2.  On the **General** tab, select the **Hold Orders on Entry** check box.
     3.  On the form toolbar, click **Save**.
 
-## Step 1: Adding a Screen to the List of Customized Screens { .section}
+## Step 1: Adding a Screen to the List of Customized Screens
 
 You will add the screen corresponding to the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form to the list of customized screens as follows:
 
@@ -46,7 +46,7 @@ You will add the screen corresponding to the [Sales Orders](../UserGuide/SO_30_1
     The SO301000 \(Sales Orders\) Workflows page of the Customization Project Editor opens. Notice that the table on the page contains multiple predefined workflows
 
 
-## Step 2: Creating an Inherited Workflow for the Form { .section}
+## Step 2: Creating an Inherited Workflow for the Form
 
 Create an inherited workflow for the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form as follows:
 

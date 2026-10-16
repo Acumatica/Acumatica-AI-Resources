@@ -1,4 +1,4 @@
-# Online Integration with Vertex Tax Calculation {#_4b2baf3e-867a-49cd-9d9b-9a658bf44025 .concept}
+# Online Integration with Vertex Tax Calculation
 
 If your company sells multiple types of products in many tax jurisdictions, configuring tax calculation and reporting in Acumatica ERP and maintaining up-to-date rates for all the taxes may require too much work and time. In this case, you might consider integrating with the Tax Calculation service by Vertex and then processing sales and VAT taxes online by using it. Acumatica ERP supports integration both with Vertex O Series \(On-Premise or On-Demand deployment\) and Vertex Cloud \(SaaS deployment\).
 
@@ -8,7 +8,7 @@ Because Acumatica ERP provides built-in support for online integration with Vert
 
 **Attention:** Make sure that the *External Tax Calculation Integration* feature is enabled in your system on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Account Configuration on the Vertex Website { .section}
+## Account Configuration on the Vertex Website
 
 You can configure the integration with the Vertex tax calculation service as soon as you have the following:
 
@@ -20,7 +20,7 @@ In your Vertex account, you should configure the company structure that correspo
 
 For more information, see [To Configure Your Vertex Account](TX__HOW_Setting_Up_Vertex_Integration.md).
 
-## Setup of Integration with Vertex Tax Calculation in Acumatica ERP { .section}
+## Setup of Integration with Vertex Tax Calculation in Acumatica ERP
 
 To set up the integration with the Vertex tax calculation service in Acumatica ERP, you should perform the following general tasks:
 
@@ -43,7 +43,7 @@ For instructions on configuring the integration with Vertex tax calculation serv
 
 **Tip:** We recommend that you use tax calculation either by configuring integration with the Vertex tax calculation service, or by setting up the tax calculation process within Acumatica ERP. Thus, you do not mix two tax calculation approaches in one system.
 
-## Document Processing { .section}
+## Document Processing
 
 Once integration with Vertex tax calculation service is configured and activated, documents are processed as follows:
 
@@ -55,7 +55,7 @@ Once integration with Vertex tax calculation service is configured and activated
 
 **Attention:** Taxes are calculated on sales orders only for informational purposes. Only taxes on invoices are actually reported.
 
-## Vertex Tax Calculation in AR Invoices { .section}
+## Vertex Tax Calculation in AR Invoices
 
 For sales tax calculation of an AR invoice, Acumatica ERP sends to Vertex the invoice amount and the information on two addresses used in Vertex: *Address From* and *Address To*.
 
@@ -75,7 +75,7 @@ For a document of the *Credit Memo* or *Cash Return* type, Acumatica ERP sends t
 
 If you need the system to use different logic in retrieving *Address To* for sales tax calculation in documents, you can override the appropriate method through customization of Acumatica ERP.
 
-## Tax Reporting { .section}
+## Tax Reporting
 
 By using the [Post Taxes](TX_50_15_00.md) \(TX501500\) form, you can select the documents to be reflected on your tax reports. This form displays the list of released transactions for which Vertex Tax has calculated the taxes. You can post to your Vertex account all the listed transactions or only those that you select, depending on the information you want Vertex to use on the tax reports for your organization. Each posted document will have a copy in Vertex.
 

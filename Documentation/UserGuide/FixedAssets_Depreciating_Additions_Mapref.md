@@ -1,4 +1,4 @@
-# Depreciating Additions to Fixed Assets {#_4dab125d-77dc-4948-94e4-0203580ba677 .concept}
+# Depreciating Additions to Fixed Assets
 
 In this chapter, you will find general information on how to fully depreciate fixed assets with additions, a checklist for system implementation, and an activity that shows you how to make an addition to a fixed asset and fully depreciate it.
 

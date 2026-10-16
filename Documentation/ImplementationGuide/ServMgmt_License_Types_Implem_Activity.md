@@ -1,16 +1,16 @@
-# License: To Create a License Type and Assign It to a Service {#_5c9c6d07-a9cc-40ef-8c07-9271c98a0a84 .task}
+# License: To Create a License Type and Assign It to a Service
 
 In this implementation activity, you will learn how to create a license type and then assign the license type to a service.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Service and Equipment Sales Center wants to keep track of the licenses its employees have. This will give service managers the ability to assign the right employee to each appointment, because for some services, a license can be a requirement for performing this service. Before adding license information to the system, you need to create the appropriate license types based on which the licenses will be added for individual users.
 
 Acting as an administrative user, you will create a license type and then assign this license type to a service to represent which license is required for a staff member who can perform this service.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -19,11 +19,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   On the [Service Management Preferences](../UserGuide/FS_10_01_00.md) \(FS100100\) form, the minimum settings have been specified, including specifying the numbering sequences and work calendar, for the service management functionality to be used.
 -   On the [Services](../UserGuide/FS_40_08_00.md) \(FS400800\) form, the *DELIVERY* service has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [License Types](../UserGuide/FS_20_09_00.md) \(FS200900\) form, you will add a new type for a license that is required for performing the delivery service. Then on the [Non-Stock Items](../UserGuide/IN_20_20_00.md) \(IN202000\) form, which you will open from the [Services](../UserGuide/FS_40_08_00.md) \(FS400800\) form, you will assign the newly created license type to the *DELIVERY* non-stock item of the *Service* type.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -31,7 +31,7 @@ Before you start this activity, do the following:
 2.  On the Company and Branch Selection menu in the top pane of the Acumatica ERP screen, select the *Service and Equipment Sales Center* branch.
 3.  Make sure that the *Service Management* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md#) \(CS100000\) form.
 
-## Step 1: Creating a License Type { .section}
+## Step 1: Creating a License Type
 
 To create a license type, do the following:
 
@@ -44,7 +44,7 @@ To create a license type, do the following:
 
 Now that you have added a license type to the system, you will assign this license type to a service that requires the person who performs the service to have a license of this type.
 
-## Step 2: Assigning a License Type to a Service { .section}
+## Step 2: Assigning a License Type to a Service
 
 To assign a license type to a service, do the following:
 

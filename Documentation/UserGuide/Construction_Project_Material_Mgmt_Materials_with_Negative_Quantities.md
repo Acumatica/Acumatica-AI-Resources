@@ -1,14 +1,14 @@
-# Project Material Management: Issuing Materials with Insufficient Quantity on Hand {#_c9fdb8b0-6ffd-4038-b05a-ce3e00141cfd .concept}
+# Project Material Management: Issuing Materials with Insufficient Quantity on Hand
 
 This topic describes how the system processes lines on the [Project Materials](PM_30_65_00.md) \(PM306500\) form when you initiate a material issue creation and the required quantity exceeds the quantity on hand.
 
-## Issuing Materials with a Negative Quantity Allowed { .section}
+## Issuing Materials with a Negative Quantity Allowed
 
 A stock item may belong to an item class for which the **Allow Negative Quantity** check box is selected on the [Item Classes](IN_20_10_00.md) \(IN201000\) form. In this case, when you click **Create Material Issue** on the [Project Materials](PM_30_65_00.md) \(PM306500\) form, the full required quantity is added to the material issue even if it exceeds the quantity on hand. The settings in the **Shipment Settings** section on the **General** tab of the [Sales Orders Preferences](SO_10_10_00.md) \(SO101000\) form aren't used.
 
 When you confirm the material issue and the generated inventory issue is released, the system creates a new cost layer for the quantity that exceeds the quantity on hand.
 
-## Issuing Materials with a Negative Quantity Not Allowed { .section}
+## Issuing Materials with a Negative Quantity Not Allowed
 
 A stock item may belong to an item class for which the **Allow Negative Quantity** check box is cleared on the [Item Classes](IN_20_10_00.md) \(IN201000\) form. In this case, if the required quantity exceeds the quantity on hand when you create a material issue, the system checks the settings in the **Shipment Settings** section on the [Sales Orders Preferences](SO_10_10_00.md) \(SO101000\) form as described below.
 

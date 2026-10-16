@@ -1,16 +1,16 @@
-# Modification of a Hierarchical Budget: General Information {#_abc99a14-70ee-4997-b199-3bcd2178f590 .concept}
+# Modification of a Hierarchical Budget: General Information
 
 In Acumatica ERP, you can create a hierarchical budget—that is, a budget that has multiple levels. Each level of the budget can be reviewed and analyzed.
 
-## Learning Objectives {#section_l1l_mjv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to modify a hierarchical budget by adding an article to a budget node.
 
-## Applicable Scenarios {#section_n1l_mjv_vxb .section}
+## Applicable Scenarios
 
 You modify a budget if you want to manually add a leaf budget article to a budget node.
 
-## Creation of Hierarchical Budgets {#section_p1l_mjv_vxb .section}
+## Creation of Hierarchical Budgets
 
 After you have configured the budget structure on the [Budget Configuration](../Shared/../UserGuide/GL_20_50_00.md) \(GL205000\) form, it is preloaded on the [Budgets](../Shared/../UserGuide/GL_30_20_10.md) \(GL302010\) form. For each budget that you create, you specify the following:
 
@@ -26,7 +26,7 @@ You can enter amounts for only leaf budget articles. To do so, do one of the fol
 
 The system calculates the amount for each node automatically as the sum of the amounts of all its leaf articles. The amounts for the nodes containing other nodes are also calculated automatically, based on the amounts of all leaf articles within those nodes.
 
-## Modification of Budget Articles {#section_q1l_mjv_vxb .section}
+## Modification of Budget Articles
 
 When you create a budget on the [Budgets](GL_30_20_10.md) \(GL302010\) form, the system automatically adds the nodes and the articles to the budget by using the preconfigured budget tree on the [Budget Configuration](GL_20_50_00.md) \(GL205000\) form.
 

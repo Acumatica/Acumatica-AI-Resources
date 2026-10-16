@@ -1,4 +1,4 @@
-# To Rename an Article {#_d57fc2a1-a2ba-427d-84eb-32b3d7484e5e .task}
+# To Rename an Article
 
 You can rename any article. An article is identified by its name and ID, and you can change either or both of these attributes. The system displays the article name in the wiki tree and at the top of the article. You use the article ID \(and, optionally, the name\) when you create links to the article.
 

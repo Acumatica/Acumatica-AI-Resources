@@ -1,4 +1,4 @@
-# Importing Settlement Reports {#_b6878d55-df46-5b19-bd2d-d2d1794a892c .concept}
+# Importing Settlement Reports
 
 In the topics of this chapter, you will read about the import of settlement reports from Amazon.
 

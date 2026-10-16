@@ -1,4 +1,4 @@
-# To Track Payments to Vendors {#_6cc87c79-6378-4562-ba5e-eb0184cc932c .task}
+# To Track Payments to Vendors
 
 To quickly check the history of payments to a vendor, you use the following forms, as described in the sections of this topic:
 
@@ -6,7 +6,7 @@ To quickly check the history of payments to a vendor, you use the following form
 -   [Vendor Details](AP_40_20_00.md) \(AP402000\): To view all payments to the vendor
 -   [Approve Bills for Payment](AP_50_20_00.md) \(AP502000\): To see whether a bill has been approved for payment
 
-## To Check Whether a Bill Has Been Paid {#section_p3j_njv_vxb .section}
+## To Check Whether a Bill Has Been Paid
 
 1.  Open the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 2.  In the **Type** box of the Summary area, select *Bill*.
@@ -15,7 +15,7 @@ To quickly check the history of payments to a vendor, you use the following form
     -   In the **Balance** box, check the amount to be paid for the bill. If the amount is zero, the bill has been paid in full.
     -   On the **Applications** tab, view all payments that have been applied to the bill.
 
-## To View All Payments to a Vendor {#section_q3j_njv_vxb .section}
+## To View All Payments to a Vendor
 
 1.  Open the [Vendor Details](AP_40_20_00.md) \(AP402000\) form.
 2.  In the **Branch** box of the Selection area, select the branch for which you want to view prepayments.
@@ -27,7 +27,7 @@ To quickly check the history of payments to a vendor, you use the following form
     -   In the **Balance by Documents** box of the Selection area, notice the total amount of the listed payments to the vendor. This balance is based on the criteria you have selected.
     -   In the **Current Balance** box, notice the total amount of payments to the vendor, as retrieved from the Accounts Payable account history records stored in the database.
 
-## To See Whether a Bill Has Been Approved for Payment {#section_r3j_njv_vxb .section}
+## To See Whether a Bill Has Been Approved for Payment
 
 1.  Open the [Approve Bills for Payment](AP_50_20_00.md) \(AP502000\) form.
 2.  In the **Selection Date** box of the Selection area, select the date of the document approval.

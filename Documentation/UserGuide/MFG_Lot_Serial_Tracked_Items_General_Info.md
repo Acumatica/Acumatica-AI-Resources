@@ -1,10 +1,10 @@
-# Production of Lot- or Serial-Tracked Items: General Information {#_c3a3ea21-4cb2-4943-bb40-5c6d775f9cc8 .concept}
+# Production of Lot- or Serial-Tracked Items: General Information
 
 Acumatica ERP Manufacturing Edition provides you with the ability to record the production of lot- or serial-tracked items and the usage of lot- or serial-tracked materials in production, as described in this topic.
 
 For more information about lot- or serial-tracked items, see [Items with Lot and Serial Numbers: General Information](Lot_and_Serial_Numbers_GeneralInfo.md).
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,7 +12,7 @@ In this chapter, you will learn how to do the following:
 -   Assign the lot or serial numbers of the produced item to the lot- or serial-tracked materials used for this item
 -   View the hierarchy of lot or serial numbers for produced items
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You track the production of lot- or serial-tracked items in the following cases:
 
@@ -21,7 +21,7 @@ You track the production of lot- or serial-tracked items in the following cases:
 -   When you produce items with expiration dates
 -   When you organize the produced items in lots
 
-## Assignment of Lot or Serial Numbers to Produced Items { .section}
+## Assignment of Lot or Serial Numbers to Produced Items
 
 Depending on the lifecycle of the lot- or serial-tracked items that your organization produces, you can assign lot or serial numbers to items at the following stages:
 
@@ -31,7 +31,7 @@ Depending on the lifecycle of the lot- or serial-tracked items that your organiz
     Also, during the processing of production transactions, you can assign the lot or serial numbers of produced items \(which have been preassigned\) to lot- or serial-tracked materials. For more information, see the *Assignment of Parent Lot or Serial Numbers to Materials* section below.
 
 
-## Preassignment of Lot or Serial Numbers to Produced Items { .section}
+## Preassignment of Lot or Serial Numbers to Produced Items
 
 To assign lot or serial numbers to the units of a produced item in a production order, on the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form, you do the following:
 
@@ -48,7 +48,7 @@ To assign lot or serial numbers to the units of a produced item in a production 
 
 You can release the production order only when you have assigned lot or serial numbers to all units of the produced item. Otherwise, the system displays an error message and does not release the order.
 
-## Assignment of Parent Lot or Serial Numbers to Materials { .section}
+## Assignment of Parent Lot or Serial Numbers to Materials
 
 You can assign the lot or serial number of the item being produced \(the *parent item*\) to lot- or serial-tracked materials when processing production transactions. You can also set up the system so that it verifies that the parent lot or serial number has been assigned to materials. To do this, you select the needed option in the **Require Parent Lot/Serial Number** box of the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form as follows:
 
@@ -61,7 +61,7 @@ You can assign the lot or serial number of the item being produced \(the *parent
 
 For a production order type, you can also specify the default option in the **Require Parent Lot/Serial Number** box on the [Production Order Types](AM_20_11_00.md) \(AM201100\) form; the system will initially insert this option for each production order of the type.
 
-## Assignment of Parent Lot or Serial Numbers on the Issue of Materials { .section}
+## Assignment of Parent Lot or Serial Numbers on the Issue of Materials
 
 To assign the lot or serial numbers of the item being produced to lot- or serial-tracked materials when you issue materials for a production order—which you do when the *On Issue* value is specified in the **Require Parent Lot/Serial Number** box of the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form for the production order—you do the following:
 
@@ -75,13 +75,12 @@ To assign the lot or serial numbers of the item being produced to lot- or serial
 
 If you do not assign the lot or serial numbers of the parent item to any lot- or serial-tracked materials, the system displays an error message and does not release the transaction.
 
-## Workflow of the Assignment of Parent Lot or Serial Numbers to Materials on Issue {#section_vv2_1y4_y4b .section}
+## Workflow of the Assignment of Parent Lot or Serial Numbers to Materials on Issue
 
 For preassigning lot or serial numbers to parent items and assigning parent lot or serial numbers to materials on issue of the materials, the typical process involves the actions and generated documents shown in the following diagram.
 
-![](Images/diag_MFG_Lot_Serial_Tracked_Items_On_Issue_2024R1.png)
 
-## Assignment of Parent Lot or Serial Numbers to Materials on Completion { .section}
+## Assignment of Parent Lot or Serial Numbers to Materials on Completion
 
 To assign the lot or serial numbers of the item to be produced to lot- or serial-tracked materials before you record movement of the produced parent item to stock—that is, when the *On Completion* value is specified in the **Require Parent Lot/Serial Number** box of the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form for the production order—you do the following:
 
@@ -95,13 +94,12 @@ To assign the lot or serial numbers of the item to be produced to lot- or serial
     4.  Repeat the previous subinstructions for each material to be allocated to the lot or serial number you have selected in the **Lot/Serial Nbr.** box.
 5.  When you have allocated all needed materials to parent lot or serial numbers, open the [Labor](AM_30_10_00.md) or [Move](AM_30_20_00.md) form, and release the transaction for the last operation.
 
-## Workflow of the Assignment of Parent Lot or Serial Numbers to Materials on Completion { .section}
+## Workflow of the Assignment of Parent Lot or Serial Numbers to Materials on Completion
 
 For preassigning lot or serial numbers to parent items and assigning parent lot or serial numbers to materials on completion of a production order with the parent items, the typical process involves the actions and generated documents shown in the following diagram.
 
-![](Images/diag_MFG_Lot_Serial_Tracked_Items_On_Completion_2024R1.png)
 
-## Assigning Lot and Serial Attribute Values to Finished Items { .section}
+## Assigning Lot and Serial Attribute Values to Finished Items
 
 You can capture lot or serial attribute values as you receive produced units of a lot- or serial-tracked item into stock on the [Move](AM_30_20_00.md) \(AM302000\) form.
 
@@ -111,7 +109,7 @@ To assign lot and serial attribute values, open the **Line Details** dialog box 
 
 Each lot or serial number can have its own attribute values. If all listed units share the same values, you can click **Use Attributes from First Line** on the table toolbar to assign the attribute values from the first line to all the units in the table.
 
-## Issuing Materials with Particular Lot or Serial Attribute Values { .section}
+## Issuing Materials with Particular Lot or Serial Attribute Values
 
 You can search for and select lot or serial numbers by their attribute values when issuing materials to a production order on the [Materials](AM_30_00_00.md) \(AM300000\) form.
 

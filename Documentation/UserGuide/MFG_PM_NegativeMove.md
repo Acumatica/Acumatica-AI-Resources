@@ -1,4 +1,4 @@
-# Reversal of Production Receipts {#_ed311f5b-9773-489a-bb74-71ba5df9d97b .concept}
+# Reversal of Production Receipts
 
 When a production order receipt is incorrect you can adjust production order and the inventory on hand balance by creating and releasing a negative move transaction on the [Move](AM_30_20_00.md) \(AM302000\) form. This also applies to labor transactions on the [Labor](AM_30_10_00.md) \(AM301000\) form when a quantity completed is reported. The receipt transaction cost have been incorrect for a number reasons:
 
@@ -6,7 +6,7 @@ When a production order receipt is incorrect you can adjust production order and
 -   The lot or serial numbers were incorrect.
 -   The receipt cost was wrong because transactions were not reported. This is particularly important when you are using Actual Costing.
 
-## Creating the Move or Labor Batch { .section}
+## Creating the Move or Labor Batch
 
 You can directly enter the transaction or paste the original batch into the form. In either case the quantity to be reversed is entered as a negative. The following must be observed:
 
@@ -19,7 +19,7 @@ You can directly enter the transaction or paste the original batch into the form
 
 These business rules are validated and enforced by the inventory adjustment on the [Adjustments](IN_30_30_00.md) \(IN303000\) form.
 
-## Transaction Processing Details { .section}
+## Transaction Processing Details
 
 If the transaction is valid, then:
 

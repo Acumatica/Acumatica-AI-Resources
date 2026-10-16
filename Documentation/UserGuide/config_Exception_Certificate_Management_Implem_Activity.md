@@ -1,10 +1,10 @@
-# Exception Certificate Management: Implementation Activity {#_ee45168e-268c-4a32-9de0-25dd0343f6b4 .task}
+# Exception Certificate Management: Implementation Activity
 
 In the following implementation activity, you will learn how to add customers existing in Acumatica ERP to the Avalara exemption certificate management \(ECM\) account, and how to request an exemption certificate from the customer.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife company, which sells juicers, has been expanding rapidly and has acquired a significant number of customers across various states in the US. As their customer base grows, SweetLife needs to ensure compliance with sales tax regulations in each jurisdiction where they conduct business.
 
@@ -12,14 +12,14 @@ Additionally, they have customers who qualify for tax exemptions. To streamline 
 
 Acting as the a system administrator, you need to configure the exemption certificate management functionality in Acumatica ERP.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
 1.  Add the Acumatica ERP tax-exempt customers to the ECM provider account.
 2.  Request an exemption certificate from a customer.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating customers and requesting exempt certificates, you need to launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as the system administrator, Kimberly Gibbs, with the *gibbs* username and the *123* password.
 
@@ -27,7 +27,7 @@ As a prerequisite activity, be sure you have configured the Avalara account and 
 
 As a prerequisite activity, be sure the needed feature has been enabled in Acumatica ERP, and settings have been specified, as described in [Exception Certificate Management: Configuration Workflow](config_Exception_Certificate_Management_Prereq.md).
 
-## Step 1: Adding Multiple Customers to the ECM Provider Account { .section}
+## Step 1: Adding Multiple Customers to the ECM Provider Account
 
 To create multiple Acumatica ERP customers in the Avalara ECM account, do the following:
 
@@ -41,7 +41,7 @@ To create multiple Acumatica ERP customers in the Avalara ECM account, do the fo
 
 Once the process is completed, the processed customers are created in the ECM provider, and the success message is displayed next to each customer on the **Processed** tab of the **Processing** dialog box. For these customers, the system populates the **Company Code** column in the table on the current form with the company code. If you click the **Go to Next Page** arrow button located at the bottom of the table, you can see that the **Company Code** column is empty for customers listed on the next page because you have not processed these customers.
 
-## Step 2: Creating a Single Customer in the ECM Provider { .section}
+## Step 2: Creating a Single Customer in the ECM Provider
 
 To create a particular customer in the ECM provider, do the following:
 
@@ -54,7 +54,7 @@ To create a particular customer in the ECM provider, do the following:
 
 For the purposes of this activity, the customer has already been added to Avalara, so the warning message notifies you about it. If the customer had not been added to Avalara before, you would have received a message about the successful creation of the customer in the ECM account.
 
-## Step 3: Requesting an Exemption Certificate for a Customer { .section}
+## Step 3: Requesting an Exemption Certificate for a Customer
 
 To have a customer's valid exemption certificate, you need to send an email to the customer with a request to upload the certificate to Avalara. To request an exemption certificate from a customer, do the following
 
@@ -73,7 +73,7 @@ To have a customer's valid exemption certificate, you need to send an email to t
 
 The success message is displayed in the upper right corner of the [Customers](AR_30_30_00.md) form. This means that an email request has been successfully sent to the customer containing a request to upload the valid exemption certificate; the email included the link the user can click to upload the certificate. Once the customer uploads the certificate to Avalara, it will be available in the list of customer certificates in the ECM account. From there, it can be retrieved and viewed in Acumatica ERP.
 
-## Retrieving a Certificate to Acumatica ERP { .section}
+## Retrieving a Certificate to Acumatica ERP
 
 In this step, you will retrieve an exemption certificate in Acumatica ERP.
 

@@ -1,10 +1,10 @@
-# Returns for Credit with Receipts: General Information {#_b74274c0-269c-4545-b5b5-7e8b87b41f9c .concept}
+# Returns for Credit with Receipts: General Information
 
 Acumatica ERP provides support for the most common types of return processes, which gives you the flexibility to manage various types of customer returns according to the return policies of your company.
 
 Returns for credit with receipt of items are one type of returns. These returns are processed in the system as return orders of the *RC* order type. With this type, a customer returns an item, which you need to receive to inventory. You then process a credit memo to adjust the customer's balance in the system.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -13,11 +13,11 @@ In this chapter, you will do the following:
 -   Create a credit memo for the original sales order
 -   Process the credit memo and the related inventory and AR documents
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 You create a return order for credit \(that is, an order with the *RC* predefined order type\) to perform a customer return for credit with the returned item or items received to inventory and the AR documents issued to adjust the customer balance in the system.
 
-## Processing of Returned Items for Credit { .section}
+## Processing of Returned Items for Credit
 
 The standard process of return for credit typically includes the entry of a return order, the addition of items to be returned, the processing of the receipt of the returned items to inventory, and the preparation of the related AR document to a customer.
 
@@ -27,11 +27,10 @@ The receipt of the items returned to inventory is processed in the system as an 
 
 To finish the return process, you need to process the AR credit memo to completion. You can apply the credit memo to the original invoice, or process a customer refund if the original invoice was already paid. For details on credit memo application, see [AR Invoice Correction: General Information](Finance_CorrectingARInvoices_GeneralInfo.md). For details on the processing of a customer refund, see [Refunds: To Create a Refund and Apply a Credit Memo to It](Finance_ProcessingCustomerRefunds_Activity1.md).
 
-## Workflow of a Return for Credit with a Receipt { .section}
+## Workflow of a Return for Credit with a Receipt
 
 The processing of a return order for credit involves the actions and generated documents shown in the following diagram.
 
-![](Images/diag_Return_for_Credit_With_Receipt.png)
 
 **Parent topic:**[Processing Customer Returns for Credit with Receipts](../UserGuide/OrderMgmt_Return_for_Credit_with_Receipt_Mapref.md)
 

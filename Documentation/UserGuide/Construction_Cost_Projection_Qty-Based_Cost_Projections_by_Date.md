@@ -1,10 +1,10 @@
-# Project Cost Projections: Cost Projections Based on Quantity and Unit Rate {#_76eb421b-b267-42f1-bd1a-e1e3972ee493 .concept}
+# Project Cost Projections: Cost Projections Based on Quantity and Unit Rate
 
 In Acumatica ERP Construction Edition, date-sensitive cost projections let you estimate project costs based on the remaining quantity of items in budget lines along with the projected unit rate.
 
 You can create a fully quantity-based cost projection or a mixed one, with some lines calculated by quantity and others by cost.
 
-## Setting Up Calculation by Quantity and Unit Rate { .section}
+## Setting Up Calculation by Quantity and Unit Rate
 
 To forecast a project’s costs by using quantity and unit rate, you must set up this calculation for the project and, if applicable, for the relevant account groups.
 
@@ -16,7 +16,7 @@ Also, at the account group level, you select the **Calculate Projected Cost by Q
 
 Optionally, you can select the **Calculate Projected Cost by Quantity** check box on the [Project Templates](PM_20_80_00.md) \(PM208000\) form for any project template. This check box will be selected for each project based on this template.
 
-## The Resulting Cost Projection Settings { .section}
+## The Resulting Cost Projection Settings
 
 For a project configured to calculate projected costs by quantity, you’ll see the following in the cost projection on the [Cost Projection by Date](PM_30_55_00.md) \(PM305500\) form:
 
@@ -37,14 +37,14 @@ For a project configured to calculate projected costs by quantity, you’ll see 
     -   **Completed by Quantity \(%\)**
     -   **UOM**
 
-## Creating a Quantity-Based Cost Projection { .section}
+## Creating a Quantity-Based Cost Projection
 
 To forecast project costs by quantity and unit rate on the [Cost Projection by Date](PM_30_55_00.md) \(PM305500\) form, you need to:
 
 1.  Ensure that the **Calculate Projected Cost by Quantity** check box in the Summary area is selected. If it's cleared, select it.
 2.  Verify that the **Calculate by Quantity** check box is selected for each line that should use quantity-based calculation. If needed, select it.
 
-## Quantity-Based Calculations in a Cost Projection { .section}
+## Quantity-Based Calculations in a Cost Projection
 
 With the **Calculate Projected Cost by Quantity** check box selected on the [Cost Projection by Date](PM_30_55_00.md) \(PM305500\) form, you can forecast a project's costs to complete and costs at completion based on quantity and unit rate.
 
@@ -65,7 +65,7 @@ If you change any of these values, the projected values are recalculated.
 
 If the cost budget level \(for example, account group, cost code, and project task\) of the project and cost projection match, the **Description** column shows the description of the corresponding cost budget line. Also, if a unit of measure is specified in a cost budget line, it appears in the **UOM** column; otherwise, the column is empty.
 
-## Quantity and Unit Rate Buckets in Cost Projections { .section}
+## Quantity and Unit Rate Buckets in Cost Projections
 
 On the [Cost Projection by Date](PM_30_55_00.md) \(PM305500\) form, you can review quantity- and rate-related values in the columns of the following buckets:
 
@@ -83,7 +83,7 @@ Additionally, you can view:
 -   The quantity-related performance percentage: The **Quantity Performance \(%\)**, **Anticipated Quantity Performance \(%\)** columns
 -   The variance values: The **Projected Quantity Variance** and **Projected Cost Variance** columns
 
-## Forecasting Quantity-Based Costs Using Cost Projection: Example { .section}
+## Forecasting Quantity-Based Costs Using Cost Projection: Example
 
 Suppose that your company is a contractor building a hotel. For this project, you track material costs by amount and subcontractor work by hours. The subcontractor's progress is calculated by quantity \(hours worked\).
 

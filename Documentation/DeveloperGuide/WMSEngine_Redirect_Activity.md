@@ -1,18 +1,18 @@
-# Scan Mode Redirects: To Define the List of Redirects {#_58f03e49-7db5-4c77-bd8b-9e32d018021d .task}
+# Scan Mode Redirects: To Define the List of Redirects
 
 This activity will walk you through the process of defining the list of mode redirects.
 
-## Story { .section}
+## Story
 
 Suppose that you are creating a custom scan mode for a barcode-driven form. You need to define the default set of redirects for the form. You also need to define the redirect class for the custom mode so that redirects to this mode can be performed from other barcode-driven forms.
 
-## Process Overview { .section}
+## Process Overview
 
 You will use the AllWMSRedirects.CreateFor&lt;TScanBasis&gt;\(\) method to specify the default set of mode redirects for the form.
 
 You will also define the redirect class. In this class, you will specify the Code property and the DisplayName property.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -20,7 +20,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  Create a barcode scan class by performing the [Barcode Scan Class: To Create a Barcode Scan Class](WMSEngine_BarcodeScanClass_Activity_CreateClass.md) prerequisite activity.
 3.  Create the scan mode and define its required properties by performing the [Barcode Scan Mode: To Define the Required Properties](WMSEngine_ScanMode_CreateScanMode_Activity.md) prerequisite activity.
 
-## Step 1: Defining the Default Set of Mode Redirects { .section}
+## Step 1: Defining the Default Set of Mode Redirects
 
 To define the default list of redirects, in the `CountMode` class, add the following code.
 
@@ -38,7 +38,7 @@ public sealed class CountMode : ScanMode
 }
 ```
 
-## Step 2: Adding the Redirect Class for the Mode { .section}
+## Step 2: Adding the Redirect Class for the Mode
 
 Add the redirect class as follows:
 

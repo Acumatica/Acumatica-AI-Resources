@@ -1,4 +1,4 @@
-# Setting Up U.S. ACH Payment Processing By Using Export Scenarios {#_175e318b-9f7a-4514-99b5-1ccd896e93a7 .concept}
+# Setting Up U.S. ACH Payment Processing By Using Export Scenarios
 
 In Acumatica ERP,you can use the predefined export scenarios to process ACH payments.
 

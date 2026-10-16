@@ -1,4 +1,4 @@
-# Reusing of UI Definitions: Creation of a Reusable UI Definition {#_600bd1a0-08bd-41ec-9fcf-a1d295a5e12c .concept}
+# Reusing of UI Definitions: Creation of a Reusable UI Definition
 
 To create a reusable definition. you need to do the following:
 
@@ -7,20 +7,20 @@ To create a reusable definition. you need to do the following:
 
 The sections below describe how to create reusable definitions depending on whether you’re reusing an entire screen or only specific components.
 
-## Defining the Reusable Definition for a Whole Screen { .section}
+## Defining the Reusable Definition for a Whole Screen
 
 To define a reusable UI definition based on a whole screen:
 
 1.  In a TypeScript file, declare an `abstract` class that extends the PXScreen class, as shown below.
 
-    ```language-javascript
+    ```javascript
     export abstract class BarcodeProcessingScreen extends PXScreen {
     }
     ```
 
 2.  In the abstract class, define the views and logic that will be reused, as the following example shows.
 
-    ```language-javascript
+    ```javascript
     import { ScanInfo, ScanLogs } from "./views";
     
     export abstract class BarcodeProcessingScreen extends PXScreen {
@@ -59,13 +59,13 @@ To define a reusable UI definition based on a whole screen:
 
 For details about inserting the reusable UI definition of a whole screen, see [Use of the Whole UI Definition of a Form](UIDev_UIDefinitionReuse_GeneralInfo.md#section_mtk_lsq_qgc).
 
-## Defining the Reusable Definition for Part of a Screen { .section}
+## Defining the Reusable Definition for Part of a Screen
 
 To define a reusable definition that contains independent components, such as a dialog box or a fieldset, without a screen class:
 
 1.  Define the view classes for the controls that are displayed in the reusable component.
 
-    ``` {#codeblock_yfx_nsq_qgc}
+    ```
     export class ChangeIDParameters extends PXView {
     	@fieldConfig({controlType: "qp-mask-editor"})
     	CD: PXFieldState;
@@ -74,7 +74,7 @@ To define a reusable definition that contains independent components, such as a 
 
 2.  If needed, define an abstract class and initialize the view there.
 
-    ``` {#codeblock_zfx_nsq_qgc}
+    ```
     export abstract class ChangeIDBase {
     	@viewInfo({ containerName: "Specify New ID" })
     	ChangeIDDialog = createSingle(ChangeIDParameters);
@@ -86,11 +86,11 @@ To define a reusable definition that contains independent components, such as a 
 
 For details about inserting the reusable UI definition that defines part of a screen, see [Use of a Reusable UI Definition That Defines Part of a Form](UIDev_UIDefinitionReuse_GeneralInfo.md#section_syr_lsq_qgc).
 
-## Defining the HTML Template { .section}
+## Defining the HTML Template
 
 In the HTML file with the same name as the TypeScript file, you define the reusable HTML code, as shown in the following example.
 
-```language-xml
+```xml
 <template>
 	<require from="screens/barcodeProcessing/styles.css"></require>
 

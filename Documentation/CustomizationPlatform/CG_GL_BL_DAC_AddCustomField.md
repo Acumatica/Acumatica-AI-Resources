@@ -1,4 +1,4 @@
-# To Add a Custom Data Field {#_5a2bddc7-dd58-4de4-a9f5-f4d5ce073b77 .concept}
+# To Add a Custom Data Field
 
 You can add a custom data field to an existing data access class by using the [Screen Editor](../UserGuide/AU_20_45_20.md) or [Data Class](../UserGuide/AU_DataClassEditor.md), as described in the following sections:
 
@@ -22,7 +22,7 @@ The detailed information is described in the following sections:
 
 To be able to create a control for the new field to be displayed on a form, you have to publish the project to make the system create the column in the database table and compile the customization code. After the publication, you can add the control for the new field to a form by using the Screen Editor. See [To Add a Box for a Data Field](CG_GL_UI_PXForm_AddBox.md) or [To Add a Column for a Data Field](CG_GL_UI_PXGrid_AddColumn.md) for details.
 
-## By Using the Data Class Editor {#_b4eba166-5f4f-4438-a03d-afa3f7ab6458 .section}
+## By Using the Data Class Editor
 
 You generally use the [Data Class](../UserGuide/AU_DataClassEditor.md) to add a custom field to a data access class \(DAC\) and store the changes in the customization project as a *DAC* item. To do this, perform the following actions:
 
@@ -31,7 +31,7 @@ You generally use the [Data Class](../UserGuide/AU_DataClassEditor.md) to add a 
 3.  In the **New Field** dialog box, which opens, specify the custom field parameters that are described in [Create New Field Dialog Box](../UserGuide/AU_DataClassEditor.md#_cdaebe06-9e8d-43fc-8dda-6850986501b6).
 4.  Click **OK** to save changes in the customization project.
 
-## By Using the Screen Editor {#_8d5cd29f-d409-447c-9853-ef3632b73e14 .section}
+## By Using the Screen Editor
 
 If you customize a form by using the [Screen Editor](../UserGuide/AU_20_45_20.md), you may need to create a custom data field to be used to create a new control on the form. By using the editor, you can create a new field in the main DAC of the data view that provides data for the object selected in the Control Tree. To do this, perform the following actions:
 
@@ -41,7 +41,7 @@ If you customize a form by using the [Screen Editor](../UserGuide/AU_20_45_20.md
 4.  In the **Create New Field** dialog box, which opens, specify the custom field parameters, which are described in [Create New Field Dialog Box](../UserGuide/AU_DataClassEditor.md#_cdaebe06-9e8d-43fc-8dda-6850986501b6).
 5.  Click **OK** to save your changes to the customization project.
 
-## To Add a Custom Field Without Mapping to the Database {#section_mzw_cx2_hq .section}
+## To Add a Custom Field Without Mapping to the Database
 
 To add a custom field without mapping to the database, perform the following actions:
 
@@ -51,7 +51,7 @@ To add a custom field without mapping to the database, perform the following act
 
 The New Field wizard includes an XML declaration of the new field in the *DAC* item for the modified data access class. The new field declaration contains the data type attribute that specifies an unbound field, such as `[PXString]`.
 
-## To Add a Custom Field as a New Column {#section_ihj_zw2_hq .section}
+## To Add a Custom Field as a New Column
 
 To add a custom field as a new column that will be appended to the original table of Acumatica ERP, perform the following actions:
 
@@ -61,7 +61,7 @@ To add a custom field as a new column that will be appended to the original tabl
 
 The New Field wizard includes an XML declaration of the new field in the *DAC* item for the modified data access class. If the *DAC* item for the modified data access class is absent in the customization project, the wizard creates the appropriate item. Also, the wizard creates a *Table* item with a description of the custom column to be created in the database table for the custom field.
 
-## To Add a Custom Field as a Name-Value Pair {#section_c5t_cx2_hq .section}
+## To Add a Custom Field as a Name-Value Pair
 
 To add a custom field a name-value pairs stored in a dedicated table of Acumatica ERP, perform the following actions:
 
@@ -71,7 +71,7 @@ To add a custom field a name-value pairs stored in a dedicated table of Acumatic
 
 The New Field wizard includes an XML declaration of the new field in the *DAC* item for the modified data access class. If the *DAC* item for the modified data access class is absent in the customization project, the wizard creates the appropriate item. The wizard doesn't generate any definitions to change the database schema.
 
-## To Delete a Custom Field {#section_qx1_dx2_hq .section}
+## To Delete a Custom Field
 
 To delete a custom field or custom attributes on a field from the data access class, open the data access class in the Data Class Editor and delete the custom field from the field list. If you work in Microsoft Visual Studio, publish the customization project to update the file with the customized data access class in the file system. After the project has been published, the customization will be removed from the data access class.
 

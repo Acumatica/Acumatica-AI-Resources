@@ -1,10 +1,10 @@
-# Sales with Payments and Prepayments: Generated Transactions {#_2f86b024-3f5f-497e-b27d-b124f9ff3f87 .concept}
+# Sales with Payments and Prepayments: Generated Transactions
 
 To be able to process a sale of items, you create and process a sales order. The following sections describe the GL transactions generated during the processing of the documents for a sale of an item.
 
 **Note:** Sales orders and shipment documents do not produce any GL transactions.
 
-## Transaction Generated for a Sales Invoice { .section}
+## Transaction Generated for a Sales Invoice
 
 When you create and release a sales invoice, the system generates the following general ledger transaction.
 
@@ -17,7 +17,7 @@ You can view the reference number of the GL batch in the **Batch Nbr.** box on t
 
 **Note:** Sales orders and shipment documents do not produce any GL transactions.
 
-## Transaction Generated on Release of Inventory Issue { .section}
+## Transaction Generated on Release of Inventory Issue
 
 When an inventory issue is created and released, the system generates the following general ledger transaction.
 

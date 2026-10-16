@@ -1,8 +1,8 @@
-# Order Management Basic Configuration: Implementation Checklist {#_1ee89b76-43ce-4c71-8492-2f61895871d7 .concept}
+# Order Management Basic Configuration: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for the processing of sales and purchases with non-stock items, and to specify settings that affect the processing workflow.
 
-## Prerequisites { .section}
+## Prerequisites
 
 Before you start configuring order management, you should make sure that the needed features have been enabled and settings have been specified, as described in the following checklist.
 
@@ -17,7 +17,7 @@ Before you start configuring order management, you should make sure that the nee
 |[Sales Orders Preferences](../UserGuide/SO_10_10_00.md) \(SO101000\) form|Save the default settings.|
 |[Purchase Orders Preferences](../UserGuide/PO_10_10_00.md) \(PO101000\)|Save the default settings.|
 
-## Settings That Affect the Workflow { .section}
+## Settings That Affect the Workflow
 
 When you are configuring order management, you can specify additional settings to configure the company to fit your business requirements:
 

@@ -1,4 +1,4 @@
-# To Set Up Mapping Rules {#_c69e5e52-0f17-4d7a-b0af-4db0b01f73d8 .task}
+# To Set Up Mapping Rules
 
 On the **Custom Mapping Rules** tab of the [Bank Feeds](CA_20_55_00.md) \(CA205500\) form, you can set up optional mapping between the bank feed fields and the bank transaction fields by specifying the source and target fields, respectively, and using formulas in the source field. You can specify your own mapping or set up the default mapping.
 
@@ -17,7 +17,7 @@ The following table shows the default mapping settings for MX bank feeds.
 
 If mapping is defined in the table for a target field and the **Active** check box is selected, the custom mapping rule will have a priority over the core program mapping, if it exists for this field. The specified rules will affect all bank transactions that will be created for all cash accounts from the current bank feed.
 
-## To Set Up Mapping Rules { .section}
+## To Set Up Mapping Rules
 
 To set up mapping rules, do the following:
 

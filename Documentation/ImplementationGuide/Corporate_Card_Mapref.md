@@ -1,4 +1,4 @@
-# Corporate Cards {#_54691470-9f17-49a9-bb6e-a6455858dc3d .concept}
+# Corporate Cards
 
 Acumatica ERP supports the use of corporate credit cards to pay expenses. In this chapter, you will learn how to set up a corporate card and allow employees to use this credit card for payments.
 

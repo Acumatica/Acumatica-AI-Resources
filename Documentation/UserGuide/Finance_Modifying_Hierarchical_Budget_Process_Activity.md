@@ -1,14 +1,14 @@
-# Modification of a Hierarchical Budget: Process Activity {#_67a922e9-3756-4854-bf0d-429ac1a620dc .task}
+# Modification of a Hierarchical Budget: Process Activity
 
 The following activity will walk you through the process of modifying a hierarchical budget by adding a leaf article to a budget node and uploading a budget based on the updated budget tree.
 
-## Story {#section_kcl_mjv_vxb .section}
+## Story
 
 Suppose that the management of SweetLife Fruits &amp; Jams needs to have a budget article that aggregates all travel expenses of the company. The hierarchical budget should include the *Travel Expenses* leaf that would aggregate budgeted amounts for accounts from *70000 \(Travel - Tickets\)* to *70020 \(Travel - Meals\)*. Further suppose that the budget for 2027 should be based on the configured budget tree and uploaded to the system.
 
 Acting as a system administrator, you need to add a leaf budget article to the **Production** node of the budget, add the budget amounts for travel expenses in 2026, and upload the budget for 2027 that already includes travel expenses.
 
-## Configuration Overview {#section_ncl_mjv_vxb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed for the purposes of this activity:
 
@@ -18,11 +18,11 @@ In the *U100* dataset, the following tasks have been performed for the purposes 
 -   On the [Ledgers](GL_20_15_00.md) \(GL201500\) form, the *BUDGET* ledger of the *Budget* type has been defined.
 -   On the [Segmented Keys](CS_20_20_00.md) \(CS202000\) form, the *SUBACCOUNT* segmented key has been defined.
 
-## Process Overview {#section_rcl_mjv_vxb .section}
+## Process Overview
 
 In this activity, you will add the *Travel Expenses* leaf to the **Production** node of the hierarchical budget on the [Budget Configuration](GL_20_50_00.md) \(GL205000\) form. On the [Budgets](GL_30_20_10.md) \(GL302010\) form, you will convert the 2026 budget based on the updated budget tree and update the *Travel Expenses* article. You will then release the modified budget article on the [Release Budgets](GL_50_55_10.md) \(GL505510\) form. Finally, on the [Budgets](GL_30_20_10.md) form, you will upload a budget for 2027 from an Excel file.
 
-## System Preparation {#section_tcl_mjv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -31,7 +31,7 @@ Before you begin performing the steps of this activity, do the following:
 3.  Make sure that you have performed the following prerequisite activity to create a hierarchical budget: [Conversion of a Simple Budget to a Hierarchical Budget: Process Activity](Finance_Converting_Budget_Activity.md).
 4.  Make sure that you have completed the following prerequisite activity to perform the needed configuration of subaccounts: [Subaccounts: Implementation Activity](../ImplementationGuide/config_Subaccounts_Implem_Activity.md).
 
-## Step 1: Adding the Travel Expenses Leaf {#section_vcl_mjv_vxb .section}
+## Step 1: Adding the Travel Expenses Leaf
 
 To add the *Travel Expenses* leaf to the **Production** node of the SweetLife budget, do the following:
 
@@ -50,7 +50,7 @@ To add the *Travel Expenses* leaf to the **Production** node of the SweetLife bu
     The system navigates to the [Restriction Groups by Budget Article](GL_10_50_20.md) \(GL105020\) form with the *Travel Expenses* budget article selected. Notice that the Included check box is selected for the row with the *ProductionBudget* group in the table. This means that the *Travel Expenses* article has been added to this restriction group.
 
 
-## Step 2: Converting the Budget by Using the Updated Budget Tree {#section_ycl_mjv_vxb .section}
+## Step 2: Converting the Budget by Using the Updated Budget Tree
 
 To convert the budget by using the updated budget tree, do the following:
 
@@ -64,7 +64,7 @@ To convert the budget by using the updated budget tree, do the following:
 4.  In the **Manage Budget** dialog box, which opens, select *Convert Budget Using Current Budget Configuration* in the **Select Action** box. Click **OK**, and in the warning message that is displayed, click **OK**.
 5.  On the form toolbar, click **Save** to save the changes.
 
-## Step 3: Updating the Travel Expenses Article {#section_adl_mjv_vxb .section}
+## Step 3: Updating the Travel Expenses Article
 
 To update the *Travel Expenses* article, do the following:
 
@@ -80,14 +80,14 @@ To update the *Travel Expenses* article, do the following:
 5.  Click **OK**. The amount that you have specified has been distributed evenly through the periods of the financial year.
 6.  On the form toolbar, click **Save** to save your changes.
 
-## Step 4: Releasing the Updated Budget {#section_ddl_mjv_vxb .section}
+## Step 4: Releasing the Updated Budget
 
 To release the updated budget, do the following:
 
 1.  Open the [Release Budgets](GL_50_55_10.md) \(GL505510\) form.
 2.  On the form toolbar, select the updated budget and click **Release**.
 
-## Step 5: Uploading and Releasing a Budget for 2027 {#section_fdl_mjv_vxb .section}
+## Step 5: Uploading and Releasing a Budget for 2027
 
 To upload and then release a budget for 2027 that should be based on the updated budget tree, do the following:
 

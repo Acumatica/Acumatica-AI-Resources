@@ -1,8 +1,8 @@
-# Pro Forma Invoices: General Information {#_c17cd234-2ac9-412e-a687-fa3ccdaa1e16 .concept}
+# Pro Forma Invoices: General Information
 
 Acumatica ERP provides pro forma \(draft\) invoice capabilities for project billing. A pro forma invoice, which you can view on the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form, is a draft document that you can edit and correct without affecting the accounts receivable subledger. A pro forma invoice can be printed and sent to a customer as many times as is necessary until an agreement is reached. With this process, you minimize corrections that directly affect the accounts receivable subledger.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -17,17 +17,17 @@ In this chapter, you will learn how to do the following:
 -   Create an accounts receivable invoice based on a pro forma invoice
 -   Configure the deferral of project revenue on release of an accounts receivable invoice
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create a pro forma invoice for a project if you need to reach agreement with the customer about the invoice. During negotiations, you modify the pro forma invoice as many times as is necessary until an agreement is reached, and then you prepare the accounts receivable invoice based on this pro forma invoice.
 
-## Enabling of the Pro Forma Invoice Workflow for a Project {#section_qpw_2qd_25b .section}
+## Enabling of the Pro Forma Invoice Workflow for a Project
 
 A pro forma invoice is a document that can be created through the process of billing a particular project. The system creates pro forma invoices during billing for the projects for which the pro forma invoice workflow is turned on—that is, the projects that have the **Create Pro Forma Invoice on Billing** check box selected on the **Summary** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form. By selecting or clearing this check box, you can turn on or turn off the pro forma invoice workflow for a project at any stage of the project execution.
 
 **Tip:** You can also manually enter new pro forma invoices on the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form. For more information, see [Pro Forma Invoices: Manual Creation of Pro Forma Invoices](Projects_Pro_Forma_Invoices_Manual_Creation.md).
 
-## Creation of Pro Forma Invoices { .section}
+## Creation of Pro Forma Invoices
 
 The system creates a pro forma invoice when you run project billing by clicking **Run Billing** on the form toolbar of the [Projects](PM_30_10_00.md) \(PM301000\) form. For a pro forma invoice created for a project, the system creates billable lines on the following tabs of the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form:
 
@@ -48,7 +48,7 @@ As a result of the creation of the pro forma invoice, the system updates the rev
 
 You can print a pro forma invoice with any status and email to the customer. To print the pro forma invoice, you click **Print** on the More menu of the [Pro Forma Invoices](PM_30_70_00.md) form. To email the pro forma invoice, you click **Email** on the More menu of the form.
 
-## Release of Pro Forma Invoices { .section}
+## Release of Pro Forma Invoices
 
 The pro forma invoices of a project can be released according to the following rules:
 
@@ -68,11 +68,10 @@ After you have reviewed the invoice details, you click **Release** on the form t
 -   The **Actual Quantity** and **Actual Amount** of the corresponding revenue budget line are increased by the line quantity and line amount of the released accounts receivable invoice.
 -   The **Draft Invoice Amount** and **Draft Invoice Quantity** of the corresponding revenue budget line is decreased by the line amount and line quantity of the released accounts receivable invoice, respectively.
 
-## Workflow of Pro Forma Invoices {#section_i3l_d4p_mcb .section}
+## Workflow of Pro Forma Invoices
 
 The following diagram illustrates the workflow of processing a pro forma invoice.
 
-![](Images/diag_Projects_Pro_Forma_Invoices_Workflow.png)
 
 **Parent topic:**[Processing Pro Forma Invoices](../UserGuide/Projects_Pro_Forma_Invoices_Mapref.md)
 

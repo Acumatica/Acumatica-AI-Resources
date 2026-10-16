@@ -1,10 +1,10 @@
-# Snapshots: Examples of Sensitive Data Being Excluded from Snapshots {#_0afd16eb-a811-4ddb-ac97-359893e43b5e .concept}
+# Snapshots: Examples of Sensitive Data Being Excluded from Snapshots
 
 The protection of sensitive data is critical to organizations and to users. Which data must be protected depends on many factors, including regulation \(which is often mandatory\), organizational policy, contractual obligations, and user expectations.
 
 Because snapshots may copy data that you identify as sensitive, Acumatica ERP provides a way to exclude this data from the snapshots. You can preserve the data from particular SQL tables down to particular table fields by configuring snapshot configuration files. Use the following examples to better understand and configure snapshot configuration files.
 
-## Exporting of a User Record { .section}
+## Exporting of a User Record
 
 If you want to export the *Baker* user record but no other user records, add the following section to the snapshot content file.
 
@@ -14,7 +14,7 @@ condition ="where Username = 'Baker'">
 </Include>
 ```
 
-## Exporting User Records with a Predefined Password { .section}
+## Exporting User Records with a Predefined Password
 
 If you want to export user records but change users' passwords to a predefined value \(*password* in this example\), add the following section to the snapshot content file.
 
@@ -24,7 +24,7 @@ If you want to export user records but change users' passwords to a predefined v
 </Include>
 ```
 
-## Prohibiting the Export of the BLOB Provider Settings { .section}
+## Prohibiting the Export of the BLOB Provider Settings
 
 If you do not want to export binary large object \(BLOB\) provider settings, add the following section to the snapshot content file.
 
@@ -33,7 +33,7 @@ If you do not want to export binary large object \(BLOB\) provider settings, add
 <Exclude table="BlobProviderSettings" preserve="true"/>
 ```
 
-## Prohibiting the Export of the Key of the BLOB Provider Settings { .section}
+## Prohibiting the Export of the Key of the BLOB Provider Settings
 
 To export all BLOB provider settings except for the provider key, add the following section to the snapshot content file.
 
@@ -43,7 +43,7 @@ To export all BLOB provider settings except for the provider key, add the follow
   condition="where Name <> 'Key'"/>
 ```
 
-## Replacing the Key of the BLOB Provider Settings on Export { .section}
+## Replacing the Key of the BLOB Provider Settings on Export
 
 To export all settings of the BLOB provider but empty the provider key value, add the following section to the snapshot content file.
 

@@ -1,14 +1,14 @@
-# Barcode Scan States: To Create the Input State {#_d827922f-1a4f-4137-af58-9989b3614de2 .task}
+# Barcode Scan States: To Create the Input State
 
 This activity will walk you through the creation of the input scan state.
 
-## Story { .section}
+## Story
 
 Suppose that you are implementing a scan mode for a custom barcode-driven form. The barcode scan class of this form uses the WarehouseManagementSystem&lt;TSelf,TGraph&gt; base scan class.
 
 For this scan mode, you need to define the input scan state, which handles the reference number of a document.
 
-## Process Overview { .section}
+## Process Overview
 
 Because you need the input state to belong to a certain mode, you will nest the input state in the `CountMode` scan mode class.
 
@@ -21,7 +21,7 @@ The base barcode scan class already has a blank class for creating a state that 
 
 In the Validate\(\) method, you will reuse the method introduced in [Barcode Scan Class: To Create a Barcode Scan Class](WMSEngine_BarcodeScanClass_Activity_CreateClass.md).
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -30,7 +30,7 @@ Before you begin performing the steps of this activity, do the following:
 3.  Create the scan mode and define its required properties by performing the [Barcode Scan Mode: To Define the Required Properties](WMSEngine_ScanMode_CreateScanMode_Activity.md) prerequisite activity.
 4.  Create the set of scan states by performing the [Barcode Scan States: To Create the Set of Scan States](WMSEngine_ScanState_Activity_CreateSetOfStates.md) prerequisite activity.
 
-## Step 1: Defining the Required Members { .section}
+## Step 1: Defining the Required Members
 
 To create the input state, do the following:
 
@@ -68,7 +68,7 @@ To create the input state, do the following:
     ```
 
 
-## Step 2: Implementing the Cycle-Processing Members { .section}
+## Step 2: Implementing the Cycle-Processing Members
 
 Implement the cycle-processing members of the state as follows:
 

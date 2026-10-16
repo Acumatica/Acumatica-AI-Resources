@@ -1,27 +1,27 @@
-# Tax Periods: Implementation Activity {#_46bdcdb1-c0b0-4fac-9b6d-381c8eab343b .task}
+# Tax Periods: Implementation Activity
 
 By performing the following implementation activity, you will learn how to configure tax periods for a particular tax agency and branch.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the Muffins &amp; Cakes company has to file excise taxes every quarter to the tax agency starting from 1/1/2026.
 
 Acting as an accountant of the Muffins &amp; Cakes company, you need to configure set up quarterly tax periods for this company.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Tax Periods](../UserGuide/TX_20_70_00.md) \(TX207000\) form, you select the company and the tax agency for which you want to set up tax periods different from the default ones and complete the configuration.
 
-## Initial Steps { .section}
+## Initial Steps
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. To sign in as an administrator, use the following credentials:
     -   Username: *gibbs*
     -   Password: *123*
 2.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *Muffins Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu to view the list of branches that you have access to, and then click *Muffins Head Office and Wholesale Center*.
 
-## Step 1: Configure Tax Periods and Tax Year { .section}
+## Step 1: Configure Tax Periods and Tax Year
 
 1.  Open the [Tax Periods](../UserGuide/TX_20_70_00.md) \(TX207000\) form.
 2.  In the Summary area of the form, specify the following settings:

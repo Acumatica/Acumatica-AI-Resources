@@ -1,4 +1,4 @@
-# Price Synchronization: To Export Prices for Customer Groups {#_d813040d-1277-4cd7-b324-6b94a25ac6da .task}
+# Price Synchronization: To Export Prices for Customer Groups
 
 In this activity, you will explore how sales prices of the *Customer Price Class* type are exported from Acumatica ERP to and saved in the BigCommerce store.
 
@@ -7,13 +7,13 @@ In this activity, you will explore how sales prices of the *Customer Price Class
 -   The following activity is based on the *U100* dataset.
 -   You can export price lists from Acumatica ERP only to BigCommerce stores on the *Enterprise* subscription plan. For information about BigCommerce subscription plans and available features, see the [Pricing](https://www.bigcommerce.com/essentials/pricing/) page.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Fruits &amp; Jams wants to maintain all of its sales prices, including the prices of products sold in the BigCommerce online store, in Acumatica ERP. As an implementation consultant, you want to export sales prices of the *Customer Price Class* type for different types of jam from Acumatica ERP to the BigCommerce store so that you can offer a product to various groups of customers at different prices.
 
 The company wants to sell the *Pear jam 96 oz* stock item at a discounted price of $43.70 to customers of the *LOCAL* customer price class and at a regular price of $45 to all other customers.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -27,7 +27,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 |*PEARJAM96*|*Base*|Empty|*PIECE*|*45.00*|
 |*PEARJAM96*|*Customer Price Class*|*LOCAL*|*PIECE*|*43.70*|
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -36,7 +36,7 @@ In this activity, you will do the following:
 3.  In the control panel of the BigCommerce store, review the customer groups, the exported prices of the item, the exported price list, and create a password for the customer account.
 4.  On the storefront, view the product page as a signed-in customer.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -57,7 +57,7 @@ Before you start this activity, do the following:
 8.  On the **Shipping** tab \(**Other Settings** section\), in the **Price Class** box, select *LOCAL*.
 9.  On the form toolbar, click **Save**.
 
-## Step 1: Preparing the Data { .section}
+## Step 1: Preparing the Data
 
 To synchronize the customer price classes and prices of the stock items that are specific to customer price classes, do the following:
 
@@ -76,7 +76,7 @@ To synchronize the customer price classes and prices of the stock items that are
 4.  On the form toolbar, click **Prepare**.
 5.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 2: Processing the Prepared Data { .section}
+## Step 2: Processing the Prepared Data
 
 To process the customer price class, customer, and price list data, do the following:
 
@@ -93,7 +93,7 @@ To process the customer price class, customer, and price list data, do the follo
 9.  On the form toolbar, click **Process**.
 10. In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 3: Reviewing the Customer Groups { .section}
+## Step 3: Reviewing the Customer Groups
 
 To review the customer groups, in the control panel of the BigCommerce store, do the following:
 
@@ -108,7 +108,7 @@ To review the customer groups, in the control panel of the BigCommerce store, do
     On the **View Customers** page, which opens, the system displays two customers assigned to the customer group, including the *FourStar Coffee &amp; Sweets Shop* customer.
 
 
-## Step 4: Reviewing the Exported Sales Prices of the Item { .section}
+## Step 4: Reviewing the Exported Sales Prices of the Item
 
 To review the sales prices of the *PEARJAM96* stock item in the BigCommerce store, do the following:
 
@@ -123,7 +123,7 @@ To review the sales prices of the *PEARJAM96* stock item in the BigCommerce stor
     On the product detail page, which opens for *Pear jam 96 oz*, notice that the sales price of $45.00 is displayed as the item's price, and the default price is displayed as the previous price.
 
 
-## Step 5: Reviewing the Exported Price List { .section}
+## Step 5: Reviewing the Exported Price List
 
 To review the *LOCAL* price list, which is specific to customers belonging to the *LOCAL* customer group, do the following:
 
@@ -138,7 +138,7 @@ To review the *LOCAL* price list, which is specific to customers belonging to th
     **Tip:** If the **New Sale Price** column is not displayed in the table, click **Edit column** in the upper right of the table and select the check box for the **New Sale Price** column.
 
 
-## Step 6: Creating a Password for the Customer { .section}
+## Step 6: Creating a Password for the Customer
 
 To create a password for the *FourStar Coffee &amp; Sweets Shop* customer, do the following:
 
@@ -147,7 +147,7 @@ To create a password for the *FourStar Coffee &amp; Sweets Shop* customer, do th
 3.  On the **Edit Customer** page, which opens, in the **Customer Password** section, specify the customer password of `!Q123456` in both the **Password** box and the **Confirm Password** box.
 4.  In the lower right, click **Save &amp; Exit** to save your changes.
 
-## Step 7: Viewing the Product Page as a Signed-In Customer { .section}
+## Step 7: Viewing the Product Page as a Signed-In Customer
 
 To view customer price, do the following:
 

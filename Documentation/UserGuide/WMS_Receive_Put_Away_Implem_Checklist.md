@@ -1,41 +1,91 @@
-# Receiving and Putting Away Operations: Implementation Checklist {#_bb865a83-cd02-4f49-afb1-892eb95f410f .concept}
+# Receiving and Putting Away Operations: Implementation Checklist
 
 This topic provides details you can use to ensure that the system is configured properly for the automated receiving and putting away of items.
 
-## Prerequisites { .section}
+## Prerequisites
 
 Before you start configuring automated warehouse operations, you should make sure that the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
-|Form|Criteria to Check|
-|----|-----------------|
-|[Purchase Orders Preferences](PO_10_10_00.md) \(PO101000\)
+<table id="_75f5a845-9a95-409c-9ffd-7c022ec672dc"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Criteria to Check
+
+</th></tr></thead><tbody><tr><td>
+
+[Purchase Orders Preferences](PO_10_10_00.md) \(PO101000\)
 
  [Inventory Preferences](IN_10_10_00.md) \(IN101000\)
 
-|Make sure that all necessary settings related to inventory and order management have been specified, as described in [Configuration of Order Management: General Information](../ImplementationGuide/config_InvMgmt_Basic_GeneralInfo.md).|
-|[Warehouses](IN_20_40_00.md) \(IN204000\)|Make sure that the following entities have been created:-   The required warehouses, as described in [Warehouses: Implementation Activity](Warehouses_Implem_Activity.md).
+</td><td>
+
+Make sure that all necessary settings related to inventory and order management have been specified, as described in [Configuration of Order Management: General Information](../ImplementationGuide/config_InvMgmt_Basic_GeneralInfo.md).
+
+</td></tr><tr><td>
+
+[Warehouses](IN_20_40_00.md) \(IN204000\)
+
+</td><td>
+
+Make sure that the following entities have been created:-   The required warehouses, as described in [Warehouses: Implementation Activity](Warehouses_Implem_Activity.md).
 -   The required locations, as described in [Warehouse Locations and Single-Step Transfers: Implementation Activity](Warehouse_Locations_Implem_Activity.md).
 
-|
-|[Stock Items](IN_20_25_00.md) \(IN202500\)|Make sure that the required stock items have been created, as described in [Stock Items: Implementation Activity](Stock_Items_Implem_Activity.md).|
+</td></tr><tr><td>
 
-## Minimum Workflow Settings { .section}
+[Stock Items](IN_20_25_00.md) \(IN202500\)
+
+</td><td>
+
+Make sure that the required stock items have been created, as described in [Stock Items: Implementation Activity](Stock_Items_Implem_Activity.md).
+
+</td></tr></tbody>
+</table>
+
+## Minimum Workflow Settings
 
 Before you start receiving and putting away items for shipments by using a barcode scanner or other device, you should make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following table.
 
-|Form|Criteria to Check|
-|----|-----------------|
-|[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)|Make sure that the following features are enabled:-   *Multiple Warehouse Locations*
+<table id="_cac4cf4b-1a1d-46eb-8937-e54646f19ee6"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Criteria to Check
+
+</th></tr></thead><tbody><tr><td>
+
+[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)
+
+</td><td>
+
+Make sure that the following features are enabled:-   *Multiple Warehouse Locations*
 -   *Warehouse Management*
 -   *Receiving*
 
-|
-|The **Warehouse Management** tab of the [Purchase Orders Preferences](PO_10_10_00.md) \(PO101000\) form|Make sure that the **Display the Receive Tab** check box is selected in the **Receiving Workflow** section.With this check box selected, the receiving workflow is configured so that a user processes the receipt of the items to the receiving location in Receive mode.
+</td></tr><tr><td>
 
-|
-|The **Cross-Reference** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form|Make sure that the barcodes have been specified for each item.|
+The **Warehouse Management** tab of the [Purchase Orders Preferences](PO_10_10_00.md) \(PO101000\) form
 
-## Recommended Workflow Settings { .section}
+</td><td>
+
+Make sure that the **Display the Receive Tab** check box is selected in the **Receiving Workflow** section.With this check box selected, the receiving workflow is configured so that a user processes the receipt of the items to the receiving location in Receive mode.
+
+</td></tr><tr><td>
+
+The **Cross-Reference** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form
+
+</td><td>
+
+Make sure that the barcodes have been specified for each item.
+
+</td></tr></tbody>
+</table>
+
+## Recommended Workflow Settings
 
 We recommend that you configure the workflow for the automated receiving and putting away items by specifying the following settings on the **Warehouse Management** tab of the [Purchase Orders Preferences](PO_10_10_00.md) \(PO101000\) form.
 
@@ -48,7 +98,7 @@ We recommend that you configure the workflow for the automated receiving and put
 |**Use Explicit Line Confirmation**|Cleared|With this check box cleared, the system does not request user confirmation for each line when the user is performing automated operations in Receive mode and Put Away mode.|
 |**Use Single Receiving Location**|Selected|With this check box selected, the system asks for the receiving location only once for each purchase receipt being processed; all items of this purchase receipt are received to this location.|
 
-## Printing Settings { .section}
+## Printing Settings
 
 If the *DeviceHub* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can configure the printing of documents by using the following settings on the **Warehouse Management** tab of the [Purchase Orders Preferences](PO_10_10_00.md) \(PO101000\) form.
 
@@ -57,7 +107,7 @@ If the *DeviceHub* feature is enabled on the [Enable/Disable Features](CS_10_00_
 |**Print Inventory Labels Automatically**|Selected|With this check box selected, the system automatically prints the inventory label for the purchase receipt being processed.|
 |**Print Purchase Receipts Automatically**|Selected|With this check box selected, the system automatically prints the processed purchase receipts.|
 
-## Other Settings That Affect the Workflow { .section}
+## Other Settings That Affect the Workflow
 
 You can affect the workflow for the automated receiving and putting away of items by specifying additional settings on the [Purchase Orders Preferences](PO_10_10_00.md) \(PO101000\) form:
 
@@ -75,8 +125,9 @@ You can affect the workflow for the automated receiving and putting away of item
 
     When the **Verify Receipts Before Release** check box is selected, the **Keep Zero Lines on Receipt Confirmation** check box becomes available for selection. With this check box selected, the system will keep lines with a receipt quantity of 0 in a purchase receipt on the [Purchase Receipts](PO_30_20_00.md) form after a user has confirmed the receipt of items.
 
+-   To give users the ability to verify a purchase return before release, select the **Verify Returns Before Release** check box. A warehouse worker confirms the return on the [Receive and Put Away](PO_30_20_20.md) \(PO302020\) form, and the system assigns the return the *Picked* status. A user verifies and releases the return on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form.
 
-## Known Process Limitations { .section}
+## Known Process Limitations
 
 Multiple users cannot simultaneously process unreleased transfer receipts with partial item quantities on the [Receive and Put Away](PO_30_20_20.md) form. However, if you have created and released a transfer receipt with a partial item quantity, the remaining quantity can be received in another transfer receipt.
 

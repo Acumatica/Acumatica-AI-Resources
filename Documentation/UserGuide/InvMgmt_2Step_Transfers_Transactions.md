@@ -1,8 +1,8 @@
-# Two-Step Transfers: Generated Transactions {#_09c0b607-65bb-4e6e-887d-19def37c8d1e .concept}
+# Two-Step Transfers: Generated Transactions
 
 To track a movement of stock items between warehouses, you create and release a two-step transfer on the [Transfers](IN_30_40_00.md) \(IN304000\) form and a related inventory receipt on the [Receipts](IN_30_10_00.md) \(IN301000\) form. To track these movements in a general ledger the system generates GL transactions described in the following section.
 
-## Transactions Generated for Two-Step Transfers { .section}
+## Transactions Generated for Two-Step Transfers
 
 When you create and release a two-step transfer, the system generates the following general ledger transactions:
 

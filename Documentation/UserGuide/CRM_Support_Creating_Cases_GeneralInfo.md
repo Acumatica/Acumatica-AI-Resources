@@ -1,8 +1,8 @@
-# Cases: General Information {#_b737d65e-c600-4bc7-8b35-65efcf4498ec .concept}
+# Cases: General Information
 
 Cases \(also referred to as *support cases* or *tickets*\) help your company track customer requests, questions, problems, and other inquiries submitted by email, phone, website, or live chat and find the solutions requested by your customers. Acumatica ERP gives you the ability to easily create and track cases based on your customers' requests. This topic provides information about creating cases in Acumatica ERP.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,14 +10,14 @@ In this chapter, you will learn how to do the following:
 -   Develop a general understanding of case settings
 -   Create a case manually
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to learn how to create cases in Acumatica ERP in scenarios that include the following:
 
 -   You have received a request from your customer about your company's products or services and need to create a case in the system.
 -   Your customer has created a case on the Acumatica Self-Service Portal, and you need to solve the customer's problem related to the product or service that your company offers.
 
-## Creation of Cases in Acumatica ERP {#_fda5d304-351f-4677-bd89-e9c46da1e073 .section}
+## Creation of Cases in Acumatica ERP
 
 In Acumatica ERP, a case is a record created and viewed on the [Cases](CR_30_60_00.md) \(CR306000\) form that represents a new, open, or closed request from a customer or employee. The case has a variety of settings, such as the customer, the status of the case, and the user responsible for the case \(that is, the owner of the case\).
 
@@ -30,7 +30,7 @@ A case can be created in any of the following ways:
 -   By a user through the Acumatica add-in for Outlook.
 -   Through import scenarios to import lists of cases on the [Import by Scenario](SM_20_60_36.md) \(SM206036\) form. You can use the predefined *Import Cases from Excel* import scenario.
 
-## Settings of a Case { .section}
+## Settings of a Case
 
 You can enter, view, and modify \(if applicable\) the following case settings on the [Cases](CR_30_60_00.md) \(CR306000\) form:
 
@@ -49,19 +49,19 @@ You can enter, view, and modify \(if applicable\) the following case settings on
 -   On the **Relations** tab, the list of records related to the case. You can also use this tab to quickly create an entity associated with the case. For details, see [Managing Relations](CRM_Managing_Relations_Mapref.md).
 -   On the **Closure Notes** tab, the case-related information. You can add, edit, and delete the information on this tab at any time.
 
-## The Initial Activity of a Case { .section}
+## The Initial Activity of a Case
 
 At the moment of a case’s creation, the system checks whether the case has been created based on an initial activity, such as an incoming email. If no initial activity is found, the system automatically creates an activity of the *System* type on the [Activity](CR_30_60_10.md) \(CR306010\) form and associates it with the case.
 
 The system uses the date and time of the initial activity’s creation to calculate the period of time for fulfilling the case’s commitments. For details about case commitments, see [Case Management: Tracking of Case Commitment Times](CRM_Support_Managing_Cases_Tracking_Commitments_Time.md).
 
-## Ability to Add User-Defined Fields to CRM Forms { .section}
+## Ability to Add User-Defined Fields to CRM Forms
 
 User-defined fields are site-specific elements that have been defined to track information deemed as important to the organization. An administrator and customizer—a user with particular access rights in the system—can add user-defined fields to CRM forms such as [Leads](../Shared/../UserGuide/CR_30_10_00.md) \(CR301000\), [Contacts](../Shared/../UserGuide/CR_30_20_00.md) \(CR302000\), and [Business Accounts](../Shared/../UserGuide/CR_30_30_00.md) \(CR303000\) form. For details, see [Adjustment of the Acumatica ERP UI: Managing User-Defined Fields](../Shared/../UserGuide/GS_Personalization_UI_User_Defined_Fields.md).
 
 .
 
-## Copying of User-Defined Fields Between Records { .section}
+## Copying of User-Defined Fields Between Records
 
 While viewing a record on some entry forms, you can create new records—such as CRM records \(for example, opportunities or business accounts\), project quotes, customers, and vendors—from the original record. If both records have user-defined fields, the system copies each field’s values only if both records have this field defined on their entry forms. For details, see [Adjustment of the Acumatica ERP UI: Managing User-Defined Fields](../Shared/../UserGuide/GS_Personalization_UI_User_Defined_Fields.md).
 

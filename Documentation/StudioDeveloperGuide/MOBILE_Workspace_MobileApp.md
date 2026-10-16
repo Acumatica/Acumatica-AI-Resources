@@ -1,10 +1,10 @@
-# To Tailor A User's Workspaces in the Mobile App {#_898d33fc-a6c4-422b-a7be-25be97428b25 .concept}
+# To Tailor A User's Workspaces in the Mobile App
 
 The configuration described in this topic is performed by a user of the Acumatica mobile app. The configuration applies to only this user's copy of the mobile app.
 
 **Note:** A workspace added on the [Mobile Workspaces](../UserGuide/AU_22_00_12.md) form is displayed on the Home screen of the mobile app only if this workspace contains at least one screen or one KPI widget that is available to the mobile app user.
 
-## To Change the Order of Workspaces { .section}
+## To Change the Order of Workspaces
 
 To change the order in which the workspaces are displayed on the Home screen of the mobile app for your user account, perform the following steps:
 
@@ -19,7 +19,7 @@ To change the order in which the workspaces are displayed on the Home screen of 
 3.  On the screen, tap and hold a tile, and then drag it to the required location.
 4.  Click the back arrow to save your changes and return to the Home screen.
 
-## To Change the Order of Screens { .section}
+## To Change the Order of Screens
 
 To change the order in which the screens are displayed within a workspace, perform the following steps:
 
@@ -35,7 +35,7 @@ To change the order in which the screens are displayed within a workspace, perfo
 4.  On the screen, tap and hold a tile, and then drag it to the required location.
 5.  Click the back arrow to save your changes and return to the workspace.
 
-## To Add KPI Widgets { .section}
+## To Add KPI Widgets
 
 On the Home screen of the mobile app and in each of the workspaces, you can add KPI widgets of the following types:
 
@@ -65,7 +65,7 @@ After you have added at least one widget to the workspace, the More \(…\) butt
 
 **Note:** You can see a widget only if the corresponding dashboard is visible and your user account has the needed privileges to view this dashboard.
 
-## To Add a Screen to Your List of Favorites { .section}
+## To Add a Screen to Your List of Favorites
 
 To add a screen to your list of favorites, perform the following steps:
 
@@ -81,7 +81,7 @@ To view the added screens, click **Favorites** on the bottom menu of the mobile 
 
 You can remove screens from favorites by performing steps similar to those you performed to add these items to favorites. You tap the More \(…\) buttonof an item, and then you tap **Remove Screen from Favorites**.
 
-## To Add a Record to Your List of Favorites { .section}
+## To Add a Record to Your List of Favorites
 
 To add a record to your list of favorites, perform the following steps:
 

@@ -1,8 +1,8 @@
-# Modern UI Editor: General Information {#_5edf94aa-6c31-43de-a89e-ed641a12ee9c .concept}
+# Modern UI Editor: General Information
 
 In the Customization Project Editor, you can use the [Modern UI Editor](../UserGuide/AU_20_10_80.md) page to customize the Modern UI forms that you’ve added to your customization project. These include custom forms that you’ve developed for the Modern UI from scratch, as well as existing Acumatica ERP forms that you’ve switched to the Modern UI in your instance.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you’ll learn how to do the following:
 
@@ -12,19 +12,22 @@ In this chapter, you’ll learn how to do the following:
 -   Add a view to a form
 -   Create a custom TypeScript extension for a form
 -   Customize the TypeScript properties of a view or field
+-   Create a custom HTML extension for a form
+-   Insert ready-to-use HTML layout control snippets
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You customize a form in the Modern UI by using the Modern UI Editor in the following cases:
 
--   You want to customize the layout of a new or existing form and automatically generate the necessary extension file.
+-   You want to customize the layout of a new or existing form and automatically generate the necessary HTML extension file.
 -   You’ve added a new field or a view to a form in the backend code, and you now need to configure it so that it’s accessible in the Modern UI of the form.
 -   You need to create a custom TypeScript extension for a form to address a specific scenario.
+-   You need to create a custom HTML extension for a form to address a specific scenario.
 -   You need to customize the TypeScript properties of a view or field by adding new decorators to it.
 
-## Overview of the Modern UI Editor { .section}
+## Overview of the Modern UI Editor
 
-The Modern UI Editor fits seamlessly into your customization process, as shown in the example below of customizing the [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\) form. To open the editor, click **Modern UI Editor** \(Item 1\) in the navigation pane under **Screens**.
+The Modern UI Editor fits seamlessly into your customization process, as shown in the example below of customizing the [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\) form. To open the editor, click the form's ID \(Item 1\) in the navigation pane under **Screens**.
 
 Here’s what you can do for any form that’s been migrated to the Modern UI:
 
@@ -34,17 +37,16 @@ Here’s what you can do for any form that’s been migrated to the Modern UI:
 
 -   **Navigate easily:**Browse all view classes and fields relevant to the form in the element tree \(Item 4\) or click **Customized** \(Item 5\) to show only the customized ones.
 -   **Customize a view or a field:** Select a view or field in the element tree; then view its original TypeScript properties or add new ones on the **View or Field Customization** tab \(Item 6\).
--   **Customize the HTML Code:** Edit the HTML code to add your customized fields and views. The system generates an HTML extension that implements the differences between the original and customized HTML code. You can preview these changes by clicking **Preview HTML Extension** on the tab toolbar \(Item 7\).
+-   **Customize the HTML Code:** Edit the HTML code to add your customized fields and views. The system generates an HTML extension that implements the differences between the original and customized HTML code. You can preview these changes by clicking **Preview HTML Extension** on the tab toolbar \(Item 7\). You can also use the **Insert Layout Control** drop-down menu \(Item 8\) to add snippets for commonly used layout controls at the current cursor position instead of typing the full HTML structure manually.
 
-![](Images/UIDev_ModernUIEditor_Overview.png "Basic Elements of the Modern UI Editor")
 
 But that’s not all: The page toolbar of the Modern UI Editor provides the following capabilities for quickly customizing any form that has been migrated to the Modern UI:
 
 -   **Add a field or view:**Add a field or view to your form \(Items 1 and 2 below\). When you save your changes, the system generates a TypeScript extension for new views and fields. The file names of these extensions have the `_generated` suffix.
 -   **Create and edit a custom TypeScript extension:**Click **Edit TypeScript Extension** \(Item 3\) to quickly create or edit a custom TypeScript extension. You can also view the code of system-generated TypeScript extensions, but you can’t edit them.
--   **Quickly save or cancel changes:** Use the **Save** and **Cancel** buttons on the page toolbar \(Item 4\) to save or discard changes that you’ve made to an HTML or TypeScript extension on the **HTML** or **View or Field Customization** tabs.
+-   **Create and edit a custom HTML extension:**Click **Edit HTML Extension** \(Item 4\) to quickly create or edit a custom HTML extension. You can also view or edit the code of system-generated HTML extensions.
+-   **Quickly save or cancel changes:** Use the **Save** and **Cancel** buttons on the page toolbar \(Item 5\) to save or discard changes that you’ve made to an HTML or TypeScript extension on the **HTML** or **View or Field Customization** tabs.
 
-![](Images/UIDev_ModernUIEditor_Overview_2.png "Page toolbar of the Modern UI Editor")
 
 The generated TypeScript and HTML extensions are automatically added to your customization project.
 

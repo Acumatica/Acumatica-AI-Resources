@@ -1,8 +1,8 @@
-# Contract Management: Implementation Checklist {#_f699bf39-f22d-427f-b6f2-2f0db6d3e74f .concept}
+# Contract Management: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for managing contracts, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you initially manage contracts, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 

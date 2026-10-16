@@ -1,4 +1,4 @@
-# Step 3: Overriding the Configure Method {#_e29874cb-b42f-474c-87e6-eb401bc9a43c .task}
+# Step 3: Overriding the Configure Method
 
 To implement a workflow for the Repair Work Orders \(RS301000\) form, in the workflow class, you will override the PXGraphExtension.Configure method, which accepts the PXScreenConfiguration instance. Inside the Configure\(PXScreenConfiguration config\) method, you will call the static Configure method. In the static Configure method, you will get the configuration context object for the Repair Work Orders \(RS301000\) form, which you will later use to add the new screen configuration.
 
@@ -8,7 +8,7 @@ Do the following:
 
 1.  In the `RSSVWorkOrderEntry_Workflow` class, declare the static Configure method as the following code shows.
 
-    ```language-csharp
+    ```csharp
             protected static void Configure(WorkflowContext<RSSVWorkOrderEntry, 
                                                             RSSVWorkOrder> context)
             {
@@ -19,7 +19,7 @@ Do the following:
 
 2.  Override the Configure\(PXScreenConfiguration config\) method and call the static Configure method inside it, as the following code shows.
 
-    ```language-csharp
+    ```csharp
             public sealed override void Configure (PXScreenConfiguration config)
             {
                 Configure(config.GetScreenConfigurationContext<RSSVWorkOrderEntry,
@@ -31,7 +31,7 @@ Do the following:
 
 3.  In the static Configure method, add a template for defining the default workflow, as the following code shows.
 
-    ```language-csharp
+    ```csharp
                 context.AddScreenConfigurationFor(screen => screen
                     .StateIdentifierIs<RSSVWorkOrder.status>()
                     .AddDefaultFlow(flow => ...)

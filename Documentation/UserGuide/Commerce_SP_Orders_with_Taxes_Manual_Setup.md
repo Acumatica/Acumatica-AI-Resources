@@ -1,4 +1,4 @@
-# Import of Taxes: Manual Tax Setup {#_1c04a334-c975-4470-9b46-e10c7a91718d .concept}
+# Import of Taxes: Manual Tax Setup
 
 If you plan to use only Acumatica ERP \(without a dedicated tax calculation provider\) for tax calculation and reporting, you perform the following general steps:
 
@@ -18,7 +18,7 @@ If you plan to use only Acumatica ERP \(without a dedicated tax calculation prov
     -   **Default Tax Zone**: The tax zone that the system will assign to the order if no tax zone has been identified during the order import.
     -   **Use as Primary Tax Zone**: Cleared
 
-## Determination of the Tax Zone { .section}
+## Determination of the Tax Zone
 
 During the import of an order, the system searches for the tax zone that should be used for tax calculation as follows, stopping the search when it finds a qualifying tax zone:
 
@@ -29,7 +29,6 @@ During the import of an order, the system searches for the tax zone that should 
 
 This process is illustrated in the following diagram.
 
-![](Images/diag_COM_Determining_Tax_Zone.png "Determining the tax zone for tax calculation")
 
 **Parent topic:**[Importing Orders with Taxes](../UserGuide/Commerce_SP_Orders_with_Taxes_Mapref.md)
 

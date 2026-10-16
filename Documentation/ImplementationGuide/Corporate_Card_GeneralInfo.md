@@ -1,8 +1,8 @@
-# Corporate Cards: General Information {#_9df9da7e-0d88-46bb-8c01-e73729cc660b .concept}
+# Corporate Cards: General Information
 
 By using Acumatica ERP, you can track payments to vendors, which your company or employees of your company have made by using a corporate credit card.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -11,13 +11,13 @@ In this chapter, you will learn how to do the following:
 -   Create a corporate credit card in the system
 -   Assign the corporate card to employees
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 If the *Expense Management* feature is not included in your license, you configure a card issuer as a vendor; then you can track the corporate credit card payments and reconcile the credit card balance in the system with the card statement balance.
 
 If the *Expense Management* feature is included in your license, you configure a corporate credit card to provide your employees with ability to pay work-related expenses from a corporate account.
 
-## Configuration of Accounts and Payment Methods { .section}
+## Configuration of Accounts and Payment Methods
 
 To track payments that have been made by using a corporate credit card, you need to create a cash account that represents the corporate credit card in the system, link the cash account to an accrued liability account, and create a payment method.
 
@@ -40,7 +40,7 @@ Although the cash account that is used for a corporate card must have only one a
 -   **Not Required** \(**Additional Processing** section\): Selected
 -   **Require Unique Payment Ref.** \(**Payment Settings** section\): Cleared
 
-## Configuration of Corporate Cards { .section}
+## Configuration of Corporate Cards
 
 To finish the configuration, you need to create an entity that represents the corporate card in the system and associate this entity with the liability account. You can do this in either of the following ways:
 

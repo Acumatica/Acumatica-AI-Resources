@@ -1,8 +1,8 @@
-# Report Creation: General Information {#_b78decec-1048-4c7c-8526-5640275383b9 .concept}
+# Report Creation: General Information
 
 By using the Acumatica Report Designer, you design a report to collect particular data from the Acumatica ERP database, using any report parameters that the user has specified. The report groups, sorts, filters, and displays the data based on the settings you have specified when designing the report, so that a user running the report does not have to perform all these steps manually. The Report Designer gives you the flexibility to gear the report design process and the resulting report to your users' needs for information.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following in the Report Designer:
 
@@ -12,14 +12,14 @@ In this chapter, you will learn how to do the following in the Report Designer:
 -   Update the database schema for reports
 -   Publish and view a report
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to create reports by using the Acumatica Report Designer in the following circumstances:
 
 -   You are responsible for the customization of Acumatica ERP in your company, including developing and modifying reports to give users the information they need to do their jobs.
 -   You need to deliver different reports that your colleagues may need to perform their job duties.
 
-## Report Development Stages { .section}
+## Report Development Stages
 
 The process of developing a report in the Report Designer consists of the following stages:
 
@@ -39,7 +39,7 @@ The process of developing a report in the Report Designer consists of the follow
 
 **Attention:** Only users with the *Report Designer* role are allowed to preview, save, and publish reports.
 
-## Data for a Report {#section_h2p_5dk_p1b .section}
+## Data for a Report
 
 You can load the database schema of all available data access classes from the application server that you use to work with Acumatica ERP. To load the database schema, you use the Schema Builder, which you invoke by clicking **File** &gt; **Build Schema** on the Report Designer menu bar. On the **Tables** tab, you specify the following settings:
 
@@ -48,11 +48,10 @@ You can load the database schema of all available data access classes from the a
 
 When you click the **Load Schema** button \(Item 3\), the Report Designer connects to the application server and loads the schema. When the schema is retrieved, the list of all data access classes defined in Acumatica ERP is displayed \(Item 4\).
 
-![](Images/RD_Creating_Report_GeneralInfo_SchemaBuilder.png "Loading of the schema of the data access classes")
 
 When you have loaded the database schema, you can select the data access classes you found for the report. If your report is to be based on multiple data access classes, you should specify the relationships between them. On the **Relationships** tab of the Schema Builder wizard, you specify the relationships between a pair of DACs in the upper table and the links between the DACs in the lower table.
 
-## Report Publication { .section}
+## Report Publication
 
 When a report is ready, you can publish it so that users of the system can run it. Publishing a report entails adding the URL of the report to the site map in Acumatica ERP—that is, adding information about the report to the [Site Map](SM_20_05_20.md) \(SM200520\) form and saving your changes. Also, you need to specify access rights to the report on the [Access Rights by Screen](SM_20_10_20.md) \(SM201020\) form.
 
@@ -66,13 +65,12 @@ On the [Site Map](SM_20_05_20.md) form, you add a new row with the following set
 
 By default, the system sets the report's access rights to *Revoked* for all user roles. To make the report visible to users of any specific user role, you need to set the role’s access rights to it to *Granted* on the [Access Rights by Screen](SM_20_10_20.md) \(SM201020\) form.
 
-## Report Viewing and Execution in Acumatica ERP { .section}
+## Report Viewing and Execution in Acumatica ERP
 
 To preview a report that has not been published yet, you use the **Preview** tab in the Report Designer. If your report requires parameters, they are ignored, and the report is displayed with random data.
 
 To view a report in Acumatica ERP, you open the workspace where the report is placed, and under the **Reports** category, you click the link with the report name. You can also open the report form by searching for its identifier. If needed, on the **Report Parameters** tab, you specify the report parameters. Then you click **Run Report** on the report toolbar.
 
-**Tip:** To return to the report form—for example, to change report parameters—you can click the **Parameters** button \(![](Images/RD_pen_icon.png)\) on the report toolbar.
 
 **Parent topic:**[Creating a Report](../UserGuide/RD_Creating_Report_Mapref.md)
 

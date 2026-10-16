@@ -1,4 +1,4 @@
-# Billing a Project with a Retainage Cap {#_20d37bb6-6256-43e5-8467-91f1577d0832 .concept}
+# Billing a Project with a Retainage Cap
 
 The topics of this chapter describe the process of billing a project with the contract cap retainage mode and the necessary configuration for this billing.
 

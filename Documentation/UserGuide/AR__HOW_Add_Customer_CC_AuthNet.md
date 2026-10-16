@@ -1,18 +1,21 @@
-# To Add a Credit Card Through Acumatica Payments {#_bb309084-2fd3-4c55-b3f4-af8215dfba7f .task}
+# To Add a Credit Card Through Acumatica Payments or Authorize.Net
 
 You use the [Customer Payment Methods](AR_30_30_10.md) \(AR303010\) form to add a payment method that is specific to the particular customer account.
 
 This procedure describes how you add a credit card by using a form hosted by the processing center.
 
-## Before You Proceed {#section_dsl_4jv_vxb .section}
+## Before You Proceed
 
-Make sure that you have configured integration with Acumatica Payments, as described in [Configuring and Using Acumatica Payments](AR__MNG_Acumatica_Payments.md) and established and tested the connection to the payment gateway.
+Make sure that you have done one of the following:
+
+-   Set up integration with Acumatica Payments, as described in [Configuring and Using Acumatica Payments](AR__MNG_Acumatica_Payments.md) and established and tested the connection to the payment gateway.
+-   Set up integration with Authorize.Net, as described in [Setup of Integration with Authorize.Net](CA__CON_CardProcessingScenario.md) and established and tested the connection to the payment gateway.
 
 Review the payment methods you have configured to be used as templates for a customer credit cards and make sure that they are configured as described in [Configuring Customer Payment Methods](AR__CON_Customer_PaymentMethods.md).
 
 Finally, collect from your customer the credit card details that are required for creating a card. These details are listed in the **Payment Method Details** table on the **Settings for Use in AR** tab of the [Payment Methods](CA_20_40_00.md) \(CA204000\) form for each payment method you have configured.
 
-## To Add a Credit Card to a Customer Account {#section_hsl_4jv_vxb .section}
+## To Add a Credit Card to a Customer Account
 
 1.  Open the [Customer Payment Methods](../Shared/../UserGuide/AR_30_30_10.md) \(AR303010\) form.
 2.  In the Summary area, do the following:
@@ -25,7 +28,7 @@ Finally, collect from your customer the credit card details that are required fo
 3.  On the **Payment Method Details** tab, click **Create New** on the table toolbar.
 4.  In the **Add Payment** hosted form, type the required details of the customer's credit card and click **Save**. The data is sent to the processing center for processing.
 
-The processing center returns the following values and the system automatically fills in corresponding boxes on the form:
+Authorize.Net returns the following values and the system automatically fills in corresponding boxes on the form:
 
 -   **Customer Profile ID**: The identifier that is associated with the customer account
 -   **Payment Profile ID**: The identifier that is associated with the customer payment method

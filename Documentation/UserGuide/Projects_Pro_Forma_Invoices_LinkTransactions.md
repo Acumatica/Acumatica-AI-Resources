@@ -1,16 +1,16 @@
-# Pro Forma Invoices: Links to Project Transactions {#_6d7f2eba-8637-4d02-85a5-f2468fd9e443 .concept}
+# Pro Forma Invoices: Links to Project Transactions
 
 For better cash flow control in your projects, you can link a pro forma invoice to the corresponding cost transactions.
 
-## Transactions Linked to a Pro Forma Invoice or Its Lines { .section}
+## Transactions Linked to a Pro Forma Invoice or Its Lines
 
 While viewing a pro forma invoice on the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form, you can click the **Linked Cost Transactions** icon on the side panel. This opens the Linked Cost Transactions \(PM307100\) inquiry form in the side panel with the **Project** and **Pro Forma Invoice Ref. Nbr.** boxes populated with the values from the pro forma invoice. The table of the inquiry form lists the cost transactions that are linked to the pro forma invoice, its time and material lines, and its progress billing lines.
 
-## Transactions Linked to Time and Material Lines { .section}
+## Transactions Linked to Time and Material Lines
 
 In the table in the Linked Cost Transactions \(PM307100\) inquiry form on the side panel of the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form, you can view the project transactions linked to time and material lines of the selected pro forma invoice. These are the cost transactions that have been used as the basis for billing. The system creates these links automatically; in the table, you can only review these links but cannot edit them.
 
-## Transactions Linked to Progress Billing Lines { .section}
+## Transactions Linked to Progress Billing Lines
 
 When a pro forma invoice is created during the billing procedure, the progress billing lines of this pro forma invoice on the **Progress Billing** tab of the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form are initially not linked to any cost transactions. You can link progress billing lines to cost transactions if the pro forma invoice has the *On Hold* status.
 
@@ -34,13 +34,13 @@ To link a project transaction to a pro forma invoice or to a particular pro form
 
 Each pro forma invoice or pro forma invoice line can be linked to any number of project transactions. Each project transaction, conversely, can be linked to only one pro forma invoice line \(or to one pro forma invoice\). Once you have linked a project transaction to any pro forma invoice line, it is no longer shown in the **Add Transactions** dialog box.
 
-## Removal of Existing Transaction Links { .section}
+## Removal of Existing Transaction Links
 
 You can remove the links of project transactions to progress billing lines if a pro forma invoice has the *On Hold* status on the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form. To unlink a cost transaction, in the side panel, you first click the cost transaction line in the table on the Linked Cost Transactions \(PM307100\) form. Then you click the **Remove Transaction** button on the table toolbar and save your changes on the Linked Cost Transactions form. The system removes the link so that the cost transaction can later be linked to another pro forma invoice.
 
 The links to time and material billing lines cannot be removed manually.
 
-## Automatic Update of Links { .section}
+## Automatic Update of Links
 
 The system automatically updates or removes the link between a cost transaction and a pro forma invoice \(or a pro forma invoice line\) as follows:
 

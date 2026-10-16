@@ -1,4 +1,4 @@
-# To Update a Shared Filter in a Project {#_4928e2cf-513f-4e66-b9da-61b1f68d8a10 .concept}
+# To Update a Shared Filter in a Project
 
 If you have used the [Filters](../UserGuide/CS_20_90_10.md) \(CS209010\) form or the form to which the filter is applied to change a shared filter included in a customization project, you have to update the appropriate item in the project. To do this, perform the following actions:
 

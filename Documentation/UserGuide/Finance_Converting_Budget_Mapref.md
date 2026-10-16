@@ -1,4 +1,4 @@
-# Converting a Simple Budget to a Hierarchical Budget {#_98e8bc1c-fd50-4132-8407-37a58ccb8351 .concept}
+# Converting a Simple Budget to a Hierarchical Budget
 
 If you are maintaining a simple budget and your company decides to keep a more detailed budget in the system, you can convert a simple budget to a hierarchical budget.
 

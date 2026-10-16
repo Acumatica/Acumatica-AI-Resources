@@ -1,4 +1,4 @@
-# Managing Item Costs and Valuation Methods {#_66e9b980-ba5a-48a5-a992-c1e8c8c62206 .concept}
+# Managing Item Costs and Valuation Methods
 
 In Acumatica ERP, you can assign a particular valuation method to a stock item to make the system track the item's cost differently from other items.
 

@@ -1,8 +1,8 @@
-# Specific Approvals: Reconciliation Statements {#_96eb7917-b324-4dd1-82be-3fe7e6ff5277 .concept}
+# Specific Approvals: Reconciliation Statements
 
 To fit the organization's internal control and financial audit procedures, administrators can set up the approval of the reconciliation statements that users create on the [Reconciliation Statements](../UserGuide/CA_30_20_00.md) \(CA302000\) form. With this configuration in place, the appropriate users can approve and reject reconciliation statements.
 
-## Configuration of the Approval Workflow for Reconciliation Statements { .section}
+## Configuration of the Approval Workflow for Reconciliation Statements
 
 To configure the approval workflow for reconciliation statements in Acumatica ERP, you perform the following general steps:
 

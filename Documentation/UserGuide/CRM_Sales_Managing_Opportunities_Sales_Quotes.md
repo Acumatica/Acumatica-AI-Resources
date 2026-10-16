@@ -1,12 +1,10 @@
-# Opportunity Management: Sales Quotes {#_de2d7075-64dc-418b-8548-97cb2f839502 .concept}
+# Opportunity Management: Sales Quotes
 
 In Acumatica ERP, you can use sales quotes to present an offer based on an opportunity to a prospect or customer; the sales quote includes a list of products and services offered at specific prices and with specific discounts, taxes, and other terms.
 
-## Creation of Sales Quotes { .section}
+## Creation of Sales Quotes
 
-A sales quote is a document you create in Acumatica ERP on the [Sales Quotes](CR_30_45_00.md) \(CR304500\) form. You can create sales quotes in the system if the *Sales Quotes* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
-
-You can create any number of sales quotes for an opportunity as you negotiate the deal with the prospect or customer. A sales quote can be printed or emailed to the specified customer for review. A sales quote can be selected as primary for an opportunity. When the customer accepts an offer, at least one sales quote must be selected as the primary one.
+A sales quote is a document you create in Acumatica ERP on the [Sales Quotes](CR_30_45_00.md) \(CR304500\) form. You can create sales quotes in the system if the *Sales Quotes* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. You can create any number of sales quotes for an opportunity as you negotiate the deal with the prospect or customer.
 
 You can start creating a sales quote in any of the following ways:
 
@@ -18,11 +16,19 @@ You can start creating a sales quote in any of the following ways:
 
 If you create a sales quote based on an opportunity or another sales quote, the system copies the settings specified on the **Contact**, **Additional Info**, **Addresses**, and **Taxes** tabs of the [Opportunities](CR_30_40_00.md) \(CR304000\) form and inserts them to a new sales quote that is generated on the [Sales Quotes](CR_30_45_00.md) form.
 
-If any automatic group and document discounts has been specified for lines on the **Details** tab on the [Sales Quotes](CR_30_45_00.md) form, the system will apply these discounts even if the value in the **Inventory ID** column for a line is empty.
+## Import of Sales Quote Lines
 
-## Primary Sales Quotes { .section}
+You can upload sales quote lines from an Excel file to a new or existing sales quote on the [Sales Quotes](CR_30_45_00.md) \(CR304500\) form. The system uses the combination of the **Inventory ID** and **Warehouse** values to determine whether an uploaded line matches an existing line.
 
-When a sales quote is created for an opportunity, the system sets this sales quote as primary by selecting the **Primary** check box in the Summary area on the [Sales Quotes](CR_30_45_00.md) \(CR304500\) form and in the row that has the settings of the sales quote on the **Quotes** tab of the [Opportunities](CR_30_40_00.md) \(CR304000\) form.
+When you click **Load Records from File** on the table toolbar of the **Details** tab, you can select one of the following options in the **Mode** box of the **Import Data** dialog box to specify how the system processes sales quote lines during the upload:
+
+-   *Update Existing* \(default\): The system updates each matching line and adds each line for which no match is found. If either the **Inventory ID** or **Warehouse** value in the uploaded file differs from the corresponding value in an existing line, the system adds a new line.
+-   *Bypass Existing*: The system skips matching lines without updating them and adds only lines for which no match is found.
+-   *Insert All Records*: The system adds all lines from the uploaded file without checking whether matching lines already exist. As a result, the sales quote may contain duplicate lines.
+
+## Primary Sales Quotes
+
+A sales quote can be selected as primary for an opportunity. When the customer accepts an offer, at least one sales quote must be selected as the primary one. When a sales quote is created for an opportunity, the system sets this sales quote as primary by selecting the **Primary** check box in the Summary area on the [Sales Quotes](CR_30_45_00.md) \(CR304500\) form and in the row that has the settings of the sales quote on the **Quotes** tab of the [Opportunities](CR_30_40_00.md) \(CR304000\) form.
 
 If multiple sales quotes are created for an opportunity, one of the sales quotes must be set as the primary, which you can do either during the creation of a quote or by clicking **Set as Primary** on the More menu of the [Sales Quotes](CR_30_45_00.md) form or on the table toolbar of the **Quotes** tab of the [Opportunities](CR_30_40_00.md) form.
 
@@ -30,11 +36,11 @@ An opportunity uses the primary sales quote as the source of various settings on
 
 If a sales quote is the primary one for the opportunity and its status has changed from *Draft* to any other status, the **Business Account** box is unavailable for editing both for the primary sales quote on the [Sales Quotes](CR_30_45_00.md) form and for the opportunity on the [Opportunities](CR_30_40_00.md) form. If the status of a non-primary sales quote has changed from *Draft* to any other status, the **Business Account** box is unavailable for editing only for this sales quote.
 
-## Sales Quote Activities { .section}
+## Sales Quote Activities
 
 On the **Activities** tab of the [Sales Quotes](CR_30_45_00.md) \(CR304500\) form, you can create activities associated with the selected sales quote. On the **Activities** tab of the [Opportunities](CR_30_40_00.md) \(CR304000\) form, activities related to the selected opportunity are listed, along with activities related to the sales quotes associated with the opportunity.
 
-## Processing of a Sales Quote Through Statuses { .section}
+## Processing of a Sales Quote Through Statuses
 
 In Acumatica ERP, as a sales quote is being processed by a salesperson, it progresses through various statuses. The current status of the sales quote is displayed in the **Status** box in the Summary area of the [Sales Quotes](CR_30_45_00.md) \(CR304500\) form. Because the system updates the status of the sales quote during processing, the **Status** box is unavailable for editing.
 
@@ -54,7 +60,7 @@ A sales quote can have one of the following statuses:
 
 You can also see the statuses of a particular opportunity’s sales quotes on the **Quotes** tab \(**Status** column\) of the [Opportunities](CR_30_40_00.md) \(CR304000\) form.
 
-## Approval of Sales Quotes { .section}
+## Approval of Sales Quotes
 
 Approval of sales quotes can be set up in the system if the *Approval Workflow* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
@@ -72,13 +78,13 @@ The following settings of a sales quote that has the *Pending Approval* status c
 
 An assigned approver can approve or reject the sales quote by clicking **Approve** or **Reject** on the form toolbar of the [Sales Quotes](CR_30_45_00.md) form. After a sales quote has been approved, it can be sent to the customer.
 
-## Emailing of a Sales Quote { .section}
+## Emailing of a Sales Quote
 
 You can send a sales quote to a contact of the customer or prospective customer for review by clicking **Send** on the More menu of the [Sales Quotes](CR_30_45_00.md) \(CR304500\) form. The system creates an activity of the *Email* type, attaches the [Sales Quote](CR_60_45_00.md) \(CR604500\) report \(which is a printable version of the sales quote\) to the email, sends the email, and changes the status of the quote to *Sent*. A row with the details of the email is added on the **Activities** tab of the [Sales Quotes](CR_30_45_00.md) form.
 
 The email is generated automatically in accordance with the mailing settings specified for customer relationship management \(CRM\) in Acumatica ERP, as described in [Emails and Activities: Emails](CRM_Mktg_Managing_Emails_Activities_Emails.md).
 
-## Mass-Emailing of Sales Quotes { .section}
+## Mass-Emailing of Sales Quotes
 
 You can email multiple sales quotes to each customer or prospective customer at once on the [Print/Email Sales Quotes](CR_50_45_45.md) \(CR504545\) form. To do this, select the *Send* action, and specify any other selection criteria to narrow the list of sales quotes.
 
@@ -94,17 +100,17 @@ To send emails with sales quotes, do one of the following:
 -   To email only particular sales quotes, select the unlabeled check boxes in the rows of the sales quotes you want to email. Then click **Process** on the form toolbar.
 -   To email all the listed sales quotes, click **Process All**.
 
-## Printing of a Sales Quote { .section}
+## Printing of a Sales Quote
 
 You can print a sales quote by clicking **Print Quote** on the More menu of the [Sales Quotes](CR_30_45_00.md) \(CR304500\) form. The system opens the printable version of the sales quote on the [Sales Quote](CR_60_45_00.md) \(CR604500\) form, where you can click *Print*.
 
-## Mass-Printing of Sales Quotes { .section}
+## Mass-Printing of Sales Quotes
 
 You can print multiple sales quotes on the [Print/Email Sales Quotes](CR_50_45_45.md) \(CR504545\) form. To do this, select the *Print Quote* action and specify any needed selection criteria to narrow the list of quotes to be displayed. If the *DeviceHub* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can select the printer and specify the number of copies to be printed.
 
 Then select the unlabeled check boxes in the rows of the quotes you want to print and click **Process** on the form toolbar. Alternatively, click **Process All** to print all listed quotes.
 
-## Location-Related Settings of a Sales Quote { .section}
+## Location-Related Settings of a Sales Quote
 
 The location-related settings of a sales quote are specified in the **Ship-To Address** and **Ship-To Contact** sections of the **Addresses** tab of the [Sales Quotes](CR_30_45_00.md) \(CR304500\) form. When you create the sales quote, the system inserts the location-related settings, which it copies from the same sections of the **Addresses** tab of the [Opportunities](CR_30_40_00.md) \(CR304000\) form for the associated opportunity.
 
@@ -113,7 +119,7 @@ On the **Addresses** tab of the [Sales Quotes](CR_30_45_00.md) form, the **Overr
 -   By selecting the **Override Contact** or **Override Address** check box in the **Ship-To Contact** or **Ship-To Address** section \(or in both sections\) and changing the settings manually.
 -   By specifying a different business account in the **Business Account** box or another location of the business account in the **Location** box of the Summary area.
 
-## Opportunities with Quotes for Multiple Business Accounts { .section}
+## Opportunities with Quotes for Multiple Business Accounts
 
 If an opportunity has multiple sales quotes, the business accounts specified for these sales quotes on the [Sales Quotes](CR_30_45_00.md) \(CR304500\) form can differ from the business account specified for the opportunity on the [Opportunities](CR_30_40_00.md) \(CR304000\) form.
 
@@ -128,9 +134,13 @@ In an opportunity that has sales quotes for different prospects or customers, on
 
 If the *Row-Level Security* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the access to a business account selected in an opportunity may be restricted for your current user account. In this case, access to any sales quotes associated with this opportunity will also be restricted. This applies even if the business account of the sales quote is different from the one in the opportunity, or if no business account is selected in the sales quote. You can only see these sales quotes on the **Quotes** and **Relations** tabs of the [Opportunities](CR_30_40_00.md) form for the associated opportunity.
 
-## Relations Between a Sales Quote and Its Associated Records { .section}
+## Relations Between a Sales Quote and Its Associated Records
 
 As you work with a sales quote in Acumatica ERP, you can track the records associated with the quote on the **Relations** tab of the [Sales Quotes](CR_30_45_00.md) \(CR304500\) form. For details, see [Managing Relations](CRM_Managing_Relations_Mapref.md).
+
+## Applying Discounts in Sales Quotes
+
+If any automatic group and document discounts has been specified for lines on the **Details** tab on the [Sales Quotes](CR_30_45_00.md) form, the system will apply these discounts even if the value in the **Inventory ID** column for a line is empty.
 
 **Parent topic:**[Managing Opportunities](../UserGuide/CRM_Sales_Managing_Opportunities_Mapref.md)
 

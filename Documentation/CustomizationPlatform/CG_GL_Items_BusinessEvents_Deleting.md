@@ -1,4 +1,4 @@
-# To Delete Business Events from a Project {#_214ca4c8-addd-4e88-8ad7-c101d5d0eb9d .task}
+# To Delete Business Events from a Project
 
 To remove a *BpEvent* item or multiple *BpEvent* items from a project, perform the following actions:
 

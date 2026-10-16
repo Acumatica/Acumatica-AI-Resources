@@ -1,14 +1,14 @@
-# Outside Processing: Process Activity {#_e2759030-a424-4b66-9261-69455dc5adfd .task}
+# Outside Processing: Process Activity
 
 The following activity will walk you through the process of creating and processing a production order that contains an outside processing operation.
 
-## Story { .section}
+## Story
 
 Suppose that GoodFood One Restaurant has ordered 10 juicers from the SweetLife Fruits &amp; Jams company. Production managers have analyzed the workload of the production department and decided to outsource the assembly of these juicers to a subcontractor, Custom Assembly Services. Further suppose that all components required for the assembly of the juicer are available in SweetLife Fruits &amp; Jams's warehouse and will be shipped to the subcontractor. Also, SweetLife Fruits &amp; Jams will pay $50 per juicer for the subcontractor's services by using a purchase order.
 
 Acting as a production manager, you will create a production order for producing 10 juicers, create a purchase order for the subcontractor's services, create a vendor shipment with the required materials for the juicer assembly, and process all transactions related to the production order.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -17,7 +17,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *CSEMBLY* vendor \(which provides the subcontractor services for juicer assembly\) has been defined.
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *MFGSUBCON* non-stock item has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, to process the documents and transactions related to the production of the juicers, you will do the following:
 
@@ -30,7 +30,7 @@ In this activity, to process the documents and transactions related to the produ
 7.  On the [Production Order Maintenance](AM_20_15_00.md) form, review the production order's balance
 8.  On the [Close Production Orders](AM_50_60_00.md) \(AM506000\) form, close the production order
 
-## System Preparation { .section}
+## System Preparation
 
 Do the following:
 
@@ -38,7 +38,7 @@ Do the following:
 2.  Launch the Acumatica ERP website, and sign in to the company in which the prerequisite activities have been performed. You should sign in as the production manager by using the *peters* username and the *123* password.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to today’s date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating the Production Order { .section}
+## Step 1: Creating the Production Order
 
 To create the production order for 10 juicers, do the following:
 
@@ -57,7 +57,7 @@ To create the production order for 10 juicers, do the following:
 3.  On the form toolbar, click **Save**.
 4.  On the form toolbar, click **Release Order**. The order status changes to *Released*.
 
-## Step 2: Creating a Purchase Order for the Subcontractor's Service { .section}
+## Step 2: Creating a Purchase Order for the Subcontractor's Service
 
 To create a purchase order for the subcontractor service, do the following:
 
@@ -69,11 +69,10 @@ To create a purchase order for the subcontractor service, do the following:
 
 4.  In the **Description** box of the Summary area, enter `Payment for the subcontractor service`.
 
-    ![](Images/activity_MFG_Outside_Processing_Purchase_Order.png "The purchase order for the subcontractor services")
 
 5.  On the form toolbar, click **Remove Hold**. The system changes the status of the purchase order to *Open*.
 
-## Step 3: Creating a Vendor Shipment { .section}
+## Step 3: Creating a Vendor Shipment
 
 To create a vendor shipment for the materials required for the juicer assembly, do the following:
 
@@ -83,7 +82,6 @@ To create a vendor shipment for the materials required for the juicer assembly, 
 
     Review the details of the vendor shipment \(shown in the screenshot below\) as follows. Notice that *CSEMBLY*, which is the subcontractor, is specified in the **Vendor** box of the Summary area. On the **Details** tab, notice that the system has added one row of the *WIP* type for the *CFJFRUIT* item and five rows of the *Material* type for each of the materials required for the juicer assembly.
 
-    ![](Images/activity_MFG_Outside_Processing_Vendor_Shipment.png "The vendor shipment on the Vendor Shipments form")
 
 4.  On the form toolbar, click **Remove Hold**. The system changes the status to *Open*.
 5.  On the form toolbar, click **Confirm**. The system changes the status to *Completed*.
@@ -91,10 +89,9 @@ To create a vendor shipment for the materials required for the juicer assembly, 
 
     On the **Totals** tab, notice that in the **Subcontract** box of the **Actual** section, *4,641.70* is specified, as shown in the following screenshot. This amount is the cost of the materials that have been shipped to the subcontractor.
 
-    ![](Images/activity_MFG_Outside_Processing_Totals_After_Shipment.png "The actual subcontract amount after the confirmation of the vendor shipment")
 
 
-## Step 4: Receiving Items from the Subcontractor { .section}
+## Step 4: Receiving Items from the Subcontractor
 
 Suppose that the subcontractor has assembled the juicers and delivered them to the warehouse. To record the receipt of the juicers, you will create the purchase receipt for the purchase order. Do the following:
 
@@ -102,7 +99,7 @@ Suppose that the subcontractor has assembled the juicers and delivered them to t
 2.  On the form toolbar, click **Enter PO Receipt**. The system creates a purchase receipt and opens it on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form.
 3.  On the form toolbar, click **Release**. The system changes the status of the purchase receipt to *Released*.
 
-## Step 5: Recording the Completion of the Outside Operation { .section}
+## Step 5: Recording the Completion of the Outside Operation
 
 To record the completion of the outside operation, create and release a move transaction as follows:
 
@@ -116,10 +113,9 @@ To record the completion of the outside operation, create and release a move tra
 5.  Close the window with the [Move](AM_30_20_00.md) form.
 6.  Go to the **Totals** tab of the [Production Order Maintenance](AM_20_15_00.md) form, and notice that in the **Subcontract** box of the **Actual** section, *5,141.70* is specified \(as shown in the following screenshot\), which is the cost of the materials that have been shipped to the subcontractor plus the cost of the services. Because the material used for subcontractor services was set up to be backflushed, the system has created and released the material transaction for the subcontracting non-stock item and added the amount to the actual subcontract amount when you recorded the operation completion.
 
-    ![](Images/activity_MFG_Outside_Processing_Totals_After_Move_010.png "The actual subcontract amount after the movement of the item for the outside operation")
 
 
-## Step 6: Recording the Inspected Items { .section}
+## Step 6: Recording the Inspected Items
 
 Suppose that a warehouse worker has inspected all 10 juicers and moved them to the *MGI* location of the *WORKHOUSE* warehouse. Labor is backflushed for this operation so you will record only the movement of the juicers. Do the following:
 
@@ -132,7 +128,7 @@ Suppose that a warehouse worker has inspected all 10 juicers and moved them to t
 4.  On the form toolbar, click **Release**. The system releases the move transaction.
 5.  Close the window with the [Move](AM_30_20_00.md) form.
 
-## Step 7: Reviewing the Production Order's Balance { .section}
+## Step 7: Reviewing the Production Order's Balance
 
 Before closing the production order, you will review its balance. Do the following:
 
@@ -146,12 +142,11 @@ Before closing the production order, you will review its balance. Do the followi
     3.  Notice that the **WIP Total** and **MFG to Inventory** boxes both contain *5,166.70*, which is the sum of the values in the **Labor** and **Subcontract** boxes.
     4.  Notice that in the **Variance** section, the **Total Variance** and **WIP Balance** boxes both contain *0*.
 
-        ![](Images/activity_MFG_Outside_Processing_Totals_Before_Closing.png "The balance of the production order")
 
 
 All costs have been applied correctly to the production order, so you can close the order.
 
-## Step 8: Closing the Production Order { .section}
+## Step 8: Closing the Production Order
 
 Now you will close the production order. Do the following:
 

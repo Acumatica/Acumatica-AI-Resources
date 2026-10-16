@@ -1,14 +1,14 @@
-# Configuration of Scrap, Waste, and By-Products in Production: Implementation Activity {#_91423762-7cb1-49d2-8f97-ee2e45f8fe5d .task}
+# Configuration of Scrap, Waste, and By-Products in Production: Implementation Activity
 
 In the following implementation activity, you will learn how to set up the processing of scrap in the system.
 
-## Story { .section}
+## Story
 
 Suppose that the production department of SweetLife Fruits &amp; Jams has decided to record the quantities of juicers that are damaged during assembly as scrapped items, write off scrap costs to a specific GL account, and store \(or quarantine\) the scrapped juicers in a dedicated location of the production warehouse. Further suppose that the quantity of completed items must exclude the quantity of scrapped items because juicers are usually assembled at the request of customers who expect to receive all the juicers they ordered.
 
 Acting as an implementation manager, you will configure the system according to the requirements for tracking scrap.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -16,7 +16,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Warehouses](../UserGuide/IN_20_40_00.md) \(IN204000\) form, the *WORKHOUSE* warehouse has been defined.
 -   On the [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\) form, the *CFJFRTSCR*, *PULPCONT1L*, *JUICECUP05L*, *MRBASE*, *FNSIEVE*, and *GRDISC01* stock items have been defined.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -28,7 +28,7 @@ In this activity, you will do the following:
 6.  On the [Work Centers](../UserGuide/AM_20_70_00.md) \(AM207000\) form, for the work center where the assembly operation is performed, specify the needed scrap action, which will be copied to new bills of materials that include the assembly operation.
 7.  On the [Bill of Material](../UserGuide/AM_20_80_00.md) \(AM208000\) form, create a bill of material for juicer assembly.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start performing the activity, do the following in a company with the U100 dataset preloaded:
 
@@ -38,7 +38,7 @@ Before you start performing the activity, do the following in a company with the
     3.  [Production Order Types: To Create a Regular Production Order Type](config_MFG_Production_Order_Types_Implem_Activity_RO.md) so that the RO production order type has been created
 2.  Sign in to this company as a system administrator with the *gibbs* username and *123* password.
 
-## Step 1: Reviewing the GL Account for Scrap Costs { .section}
+## Step 1: Reviewing the GL Account for Scrap Costs
 
 In a production system, you would need to create the GL account that will be used for posting scrap costs; this account has been predefined in the *U100* dataset for simplicity. In this step, you will make sure that this account has been created. Do the following:
 
@@ -47,14 +47,14 @@ In a production system, you would need to create the GL account that will be use
 
 You will specify this GL account in the settings of a reason code that you will create for scrap.
 
-## Step 2: Reviewing a Production Management Setting { .section}
+## Step 2: Reviewing a Production Management Setting
 
 You will review the setting that manages addition of scrap quantity to the quantity of completed items in production orders. Do the following:
 
 1.  Open the [Production Preferences](../UserGuide/AM_10_20_00.md) \(AM102000\) form.
 2.  Make sure that the **Include Scrap in Completions** check box in the **Data Entry Settings** section is cleared. This means that the scrapped quantity will not be included in the completed quantity and that shop-floor employees will have to record a quantity of completed items for the assembly operation that is equal to the quantity to produce in the production order.
 
-## Step 3: Creating a Reason Code for Scrap { .section}
+## Step 3: Creating a Reason Code for Scrap
 
 To create a reason code that will provide a GL account for posting scrap costs, do the following:
 
@@ -66,7 +66,7 @@ To create a reason code that will provide a GL account for posting scrap costs, 
     -   **Account**: *51600*
 3.  On the form toolbar, click **Save**.
 
-## Step 4: Creating a Warehouse Location for Scrap { .section}
+## Step 4: Creating a Warehouse Location for Scrap
 
 To create a warehouse location in the *WORKHOUSE* warehouse where scrapped items will be stored, do the following:
 
@@ -86,7 +86,7 @@ To create a warehouse location in the *WORKHOUSE* warehouse where scrapped items
     -   **Inventory Planning**: Cleared
 4.  On the form toolbar, click **Save**.
 
-## Step 5: Specifying Scrap Storage Settings { .section}
+## Step 5: Specifying Scrap Storage Settings
 
 Because the company plans to store all scrapped items in a single warehouse location, you will specify the default warehouse and warehouse location for scrap in the settings of a regular production order type on the [Production Order Types](../UserGuide/AM_20_11_00.md) \(AM201100\) form. Do the following:
 
@@ -97,7 +97,7 @@ Because the company plans to store all scrapped items in a single warehouse loca
     -   **Scrap Location**: *SCRAP*
 3.  On the form toolbar, click **Save**.
 
-## Step 6: Specifying a Scrap Action for a Work Center { .section}
+## Step 6: Specifying a Scrap Action for a Work Center
 
 In this step, you will specify the *Quarantine* scrap action in the settings of the work center in which the assembly operation is performed. This scrap action indicates that the system should write off the scrap cost to a specific GL account and move the scrapped items to a specific warehouse location. Do the following:
 
@@ -105,7 +105,7 @@ In this step, you will specify the *Quarantine* scrap action in the settings of 
 2.  In the **Scrap Action Default** box of the **General** tab, select *Quarantine*.
 3.  On the form toolbar, click **Save**.
 
-## Step 7: Creating a Bill of Material { .section}
+## Step 7: Creating a Bill of Material
 
 To create a bill of material that includes the assembly operation, do the following:
 

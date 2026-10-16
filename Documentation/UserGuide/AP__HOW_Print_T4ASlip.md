@@ -1,12 +1,12 @@
-# To Print a T4A Slip {#_2d083cba-32c8-4c42-9216-6a8c4412ceb5 .task}
+# To Print a T4A Slip
 
 You print T4A slips on the [Print/Email T4A Slips](AP_50_76_10.md) \(AP507610\) form.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Make sure that a T4A report has been sent to the Canada Revenue Agency \(CRA\) for the needed calendar year and vendor.
 
-## To Print a T4A Slip { .section}
+## To Print a T4A Slip
 
 1.  Open the [Print/Email T4A Slips](AP_50_76_10.md) \(AP507610\) form.
 2.  In the Selection area, specify the following settings:

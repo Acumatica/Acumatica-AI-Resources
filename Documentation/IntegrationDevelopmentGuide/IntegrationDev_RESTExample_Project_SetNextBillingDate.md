@@ -1,8 +1,8 @@
-# Specify the Next Billing Date for a Project {#_9b596bda-520a-4baf-ab93-687a67f3879e .concept}
+# Specify the Next Billing Date for a Project
 
 By using the REST API, you can specify various settings for a project, such as the next billing date. The next billing date of a project is specified on the **Summary** tab of the [Projects](../UserGuide/PM_30_10_00.md) \(PM301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to configure your client application and the Acumatica ERP instance to be used as follows:
 
@@ -12,14 +12,14 @@ Before you test the code below, you need to configure your client application an
 4.  To sign in to the instance in the client application, use the tenant name \(which you specified when you created the instance\) and the *HEADOFFICE* branch.
 5.  Implement the [Make a Project Active](IntegrationDev_RESTExample_Project_Activate.md) example as a prerequisite to the current example. Because of data validation in the project, NextBillingDate is specified for the project after it is assigned the *Active* status.
 
-## Request { .section}
+## Request
 
 You can use the following example of an HTTP request to specify the next billing date for a project.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-PUT /entity/Default/25.200.001/Project?
+PUT /entity/Default/26.200.001/Project?
     $expand=BillingAndAllocationSettings HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
@@ -29,12 +29,12 @@ Content-Type: application/json
     "ProjectID" : {"value" : "TESTPR3"},
     "BillingAndAllocationSettings" : 
     {
-        "NextBillingDate" : {"value" : "2025-06-15"}
+        "NextBillingDate" : {"value" : "2026-06-15"}
     }
 }
 ```
 
-## Usage Notes { .section}
+## Usage Notes
 
 By using the REST API, you can create pro forma invoices and send them by email. For details about pro forma invoices, see [Pro Forma Invoices: General Information](../Shared/../UserGuide/Projects_Pro_Forma_Invoices_GeneralInfo.md).
 

@@ -1,26 +1,26 @@
-# Compliance Documents: To Create Attributes for Compliance Documents {#_142aa17d-3fef-45e4-ae5e-62338fef170c .task}
+# Compliance Documents: To Create Attributes for Compliance Documents
 
 This activity will walk you through the process of specifying custom attributes for compliance documents.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the ToadGreen company needs to keep track of the insurance documents and certificates in the system. Acting as a ToadGreen system administrator, you need to specify the values for the custom attributes of the *Insurance*, *Certificate*, and *Status* compliance type, so that users can specify their values for the compliance documents.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 For the purposes of this activity, the *Construction* feature has been enabled in the *Projects* group of features on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Process Overview {#section_qjw_hdr_v4b .section}
+## Process Overview
 
 You will specify the values for the custom attributes on the [Compliance Preferences](CL_30_10_00.md#) \(CL301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in as a system administrator by using the *gibbs* username and the *123* password.
 
-## Step: Creating Document Categories and Statuses { .section}
+## Step: Creating Document Categories and Statuses
 
 To create document categories and statuses, do the following:
 

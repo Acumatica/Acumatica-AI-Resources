@@ -1,8 +1,8 @@
-# Product Configurator: Managing Configurations {#_6f446b03-97ac-4bfd-afae-277cf27bfb7d .concept}
+# Product Configurator: Managing Configurations
 
 This topic describes ways to manage configurations.
 
-## Managing Configurations and Revisions { .section}
+## Managing Configurations and Revisions
 
 Configuration definitions are linked to a single bill of material which in turn makes each definition specific to an inventory item and warehouse. The following rules are applied to configuration definitions:
 
@@ -30,11 +30,11 @@ The following table displays the possible status changes for revisions of a conf
 |*Active* with orders|Not Allowed|N/A|Allowed|
 |*Inactive*|Allowed|Allowed|N/A|
 
-## Fixing Incorrectly Configured Orders { .section}
+## Fixing Incorrectly Configured Orders
 
 Each configuration result has the configuration ID and revision level used, and although the configuration definition may be inactive, you can reconfigure the order and that definition and revision will be used. On the **References** tab of the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form, if the source of the item is a configuration, you can view the configuration ID and revision. At this time, you can only delete and reenter the sales order line but first delete the production order. For production orders, you can delete and recreate if no activity has occurred, or if in process, correct the production details for any incorrect materials similar to adjusting the order because the bill of material was incorrect.
 
-## Copying Sales Documents with Configured Items { .section}
+## Copying Sales Documents with Configured Items
 
 Additional columns have been added to the **Details** tab of the [Sales Orders](SO_30_10_00.md) \(SO301000\) form and the [Sales Quotes](CR_30_45_00.md) \(CR304500\) form to display information about configurable items. These include a column to identify if an item is configurable and if the configuration is complete and columns to link any supplemental items to their parent configured items. In the latter case, if you delete the line for a configured item, the supplemental items are also deleted; deletion of a supplemental item is disabled.
 

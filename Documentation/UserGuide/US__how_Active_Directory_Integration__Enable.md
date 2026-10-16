@@ -1,10 +1,10 @@
-# To Enable Active Directory Integration {#_b3e862f3-ca9c-4244-ad9b-0be65b8b44e6 .task}
+# To Enable Active Directory Integration
 
 To integrate you Acumatica ERP instance with Active Directory \(AD\) you should first enable integration in Acumatica ERP, as described in this topic. For a description of all steps required for integration with AD, see [Integration with Active Directory](US__con_Integration_with_Active_Directory.md).
 
 **Attention:** This functionality is available only if the *Active Directory and Other External SSO* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) form.
 
-## To Enable Active Directory Integration { .section}
+## To Enable Active Directory Integration
 
 1.  Create an AD user account that has *Read* permissions throughout the entire AD forest.
 

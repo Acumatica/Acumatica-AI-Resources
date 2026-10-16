@@ -1,10 +1,10 @@
-# To Enter the Count Data {#_8fb4ac5f-0088-4664-a4a9-b18d27cbce40 .task}
+# To Enter the Count Data
 
 After you have counted all items on the count sheet, you can enter the count data into the system line by line by using the [Physical Inventory Count](IN_30_50_10.md) \(IN305010\) form, as described in this topic.
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## To Enter the Count Data { .section}
+## To Enter the Count Data
 
 1.  Open the [Physical Inventory Count](../Shared/../UserGuide/IN_30_50_10.md) \(IN305010\) form.
 2.  In the **Reference Nbr.** box of the Summary area, select the count you are participating in.

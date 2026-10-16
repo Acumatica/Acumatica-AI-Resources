@@ -1,10 +1,10 @@
-# Invoice Payments: To Load AR Documents Automatically {#_62a55f03-6c40-4cf2-82b6-5c8afedf82f0 .task}
+# Invoice Payments: To Load AR Documents Automatically
 
 In this activity, you will explore how the system loads AR documents for payment application and how payment amounts can be automatically applied to multiple documents. You will also review how multiple payments can be automatically applied to an AR document.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_cw4_4jv_vxb .section}
+## Story
 
 On January 30, 2026, you received a $135 payment from the CoffeeShop company. Acting as a SweetLife accountant, you need to enter it in Acumatica ERP and apply it to the corresponding invoice.
 
@@ -14,7 +14,7 @@ CoffeeShop's accountant has asked you to use a $1800 prepayment to settle invoic
 
 The CoffeeShop company has bought another offline course from SweetLife. For this purchase, you need to apply an invoice, a credit memo, and the remainder of the prepayment.
 
-## Process Overview {#section_hw4_4jv_vxb .section}
+## Process Overview
 
 During the completion of this activity, on the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, you will start entering a new payment from a customer and analyze how the system automatically loads the AR documents to which the payment can be applied. In the list of loaded documents, you will select an invoice for payment application, and then update the payment amount to reflect the invoice amount.
 
@@ -24,7 +24,7 @@ Then on the same form, you will open an existing open prepayment, invoke the **L
 
 Finally, on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will create an invoice and load to the **Applications** tab the list of payments that can be applied to this invoice. You also explore how the auto-application of multiple payments works.
 
-## System Preparation {#section_mw4_4jv_vxb .section}
+## System Preparation
 
 Perform the following initial actions to prepare the system:
 
@@ -34,7 +34,7 @@ Perform the following initial actions to prepare the system:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026*. For simplicity, in this lesson, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu button to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Entering a Payment for a Particular Invoice {#section_ow4_4jv_vxb .section}
+## Step 1: Entering a Payment for a Particular Invoice
 
 To enter a payment for the $135 invoice for the *COFFEESHOP* customer, do the following:
 
@@ -61,7 +61,7 @@ To enter a payment for the $135 invoice for the *COFFEESHOP* customer, do the fo
 
 You do not have to process this payment any further. You have created it to observe how the system automatically loads AR documents for payment application and how you can quickly update the payment amount to reflect the amount applied to the documents.
 
-## Step 2: Entering a Payment and Auto-Applying It to Multiple Invoices {#section_ww4_4jv_vxb .section}
+## Step 2: Entering a Payment and Auto-Applying It to Multiple Invoices
 
 To enter a payment that covers multiple invoices for the *GOODFOOD* customer, do the following:
 
@@ -78,7 +78,6 @@ To enter a payment that covers multiple invoices for the *GOODFOOD* customer, do
 
     In the Summary area, notice that the **Available Balance** of the payment has become *0*, and the **Applied to Documents** amount is now *425*, as shown in the following screenshot.
 
-    ![](Images/activity_Finance_PayingARInvoices_Payment_Applied_to_Multiple_Invoices.png "Payment auto-application to invoices")
 
     The system has applied the full amount of the payment to the three invoices in the table as follows:
 
@@ -94,11 +93,10 @@ To enter a payment that covers multiple invoices for the *GOODFOOD* customer, do
     Notice that the system has reapplied the payment amount \($425\) to the three invoices in the table, and now the first two invoices are paid in full, as shown in the following screenshot.
 
 
-![](Images/activity_Finance_PayingARInvoices_Payment_Applied_to_Multiple_Invoices2.png "Payment auto-application after an invoice has been removed")
 
 You do not need to save or process this payment any further. You started entering it only to see how the system loads documents to which it can be applied and how auto-application of payment works.
 
-## Step 3: Applying an Existing Prepayment to Multiple Invoices {#section_fx4_4jv_vxb .section}
+## Step 3: Applying an Existing Prepayment to Multiple Invoices
 
 To apply a prepayment to multiple invoices for the *COFFEESHOP* customer, do the following:
 
@@ -143,9 +141,8 @@ To apply a prepayment to multiple invoices for the *COFFEESHOP* customer, do the
 
 The released prepayment is shown in the following screenshot.
 
-![](Images/activity_Finance_PayingARInvoices_Released_Prepayment.png "The released prepayment applied to an invoice")
 
-## Step 4: Creating an Invoice and Applying It to Multiple Payments {#section_sx4_4jv_vxb .section}
+## Step 4: Creating an Invoice and Applying It to Multiple Payments
 
 To create an an AR invoice and apply it to multiple payments that already exist in the system, do the following:
 
@@ -173,7 +170,6 @@ To create an an AR invoice and apply it to multiple payments that already exist 
     Notice that the **Amount Paid \(USD\)** in the row of the prepayment has changed from *1140* to *75*. Now the total of the applied amounts of the credit memo and the prepayment is equal to the invoice amount, as shown in the following screenshot.
 
 
-![](Images/activity_Finance_PayingARInvoices_Invoice_Applied_to_Multiple_Payments.png "An invoice applied to multiple payments")
 
 You do not need to save or process this invoice any further.
 

@@ -1,12 +1,12 @@
-# To Translate Filter Tab Captions {#_b80aa803-5204-496b-8dee-01335395470a .task}
+# To Translate Filter Tab Captions
 
 In Acumatica ERP, you can translate tab captions for filters with multiple tabs, as described in this topic. You need to use the [Filters](CS_20_90_10.md) \(CS209010\) form to perform this translation. For more information, see [Locales and Languages](SM__CON_Locales_and_Languages.md).
 
-## Before You Begin { .section}
+## Before You Begin
 
 You need to enable multilingual user input, as described in [Locales and Languages](../Shared/../UserGuide/SM__CON_Locales_and_Languages.md).
 
-## To Translate Filter Tab Captions { .section}
+## To Translate Filter Tab Captions
 
 1.  Open the [Filters](CS_20_90_10.md) \(CS209010\) form.
 2.  In the **Filter ID** box, select the name of the filter tab whose caption you want to translate.

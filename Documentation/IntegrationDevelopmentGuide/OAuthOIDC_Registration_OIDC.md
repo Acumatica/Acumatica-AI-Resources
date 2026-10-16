@@ -1,8 +1,8 @@
-# Registration of an OAuth 2.0 or OIDC Application: Acumatica ERP as an Identity Provider via OIDC {#_e3b36e51-ee22-4b7a-a5d6-2d135a8926e6 .concept}
+# Registration of an OAuth 2.0 or OIDC Application: Acumatica ERP as an Identity Provider via OIDC
 
 Acumatica ERP can be used as an identity provider via the OpenID Connect \(OIDC\) protocol. An OIDC client application uses the Acumatica ERP sign-in page for authentication. During the first sign-in, the client application requests access to the user attributes; for the application to be signed in, a user must confirm the granting of access to these attributes.
 
-## Registration of the Application { .section}
+## Registration of the Application
 
 On the [Connected Applications](../UserGuide/SM_30_30_10.md) \(SM303010\) form, support for OIDC is available for the Authorization Code, Hybrid, and Implicit flows.
 

@@ -1,8 +1,8 @@
-# Working with ARM Reports in Excel {#_2e5bbda9-df32-4b4a-99e8-d8241bfb8135 .concept}
+# Using InsightXL to Work with ARM Reports in Excel
 
-You can work with the ARM reports directly in Microsoft Excel—where many accountants prefer to work—while maintaining a live connection to your Acumatica ERP data.
+InsightXL is an Excel add-in for financial reporting that lets you work with ARM reports directly in Microsoft Excel—where many accountants prefer to work—while maintaining a live connection to your Acumatica ERP data.
 
-Learn how to prepare the instance for exporting connected ARM reports to Excel and how to install and use the Excel add-in.
+This chapter explains how to prepare the instance for InsightXL, install the Excel add-in, and use it to export and work with connected ARM reports in Excel.
 
 -   **[InsightXL: General Information](../UserGuide/ARM_InsightXL_GeneralInfo.md)**  
 

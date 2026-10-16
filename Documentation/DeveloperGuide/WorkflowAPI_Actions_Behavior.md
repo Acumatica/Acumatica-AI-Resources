@@ -1,4 +1,4 @@
-# Workflow Actions: Action's Behavior {#_130f3839-46aa-45e1-9be8-bf9945094191 .concept}
+# Workflow Actions: Action's Behavior
 
 You can specify the following behavior for a workflow action without implementing an action method in a graph:
 
@@ -27,7 +27,7 @@ You can specify the following behavior for a workflow action without implementin
 
 **Important:** You should define the behavior of an action either in the code of a graph or in the screen configuration. If you define the behavior of an action in a workflow, the action method in a graph should be empty.
 
-## Configuring an Action to Run Automatically { .section}
+## Configuring an Action to Run Automatically
 
 You can configure an action to run automatically in a workflow without the user having to click a button to trigger the action. This can be done in one of the following ways:
 

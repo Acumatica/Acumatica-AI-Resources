@@ -1,31 +1,281 @@
-# AP DACs: Transactional Data {#_31b26394-cca2-43e5-8e9b-d78be6cd9bd2 .concept}
+# AP DACs: Transactional Data
 
 In this topic, you can find an overview of the data access classes \(DACs\) that provide transactional data—that is, the DACs that store the accounts payable documents and related entities.
 
-## APRegister, APInvoice, and APPayment { .section}
+## APRegister, APInvoice, and APPayment
 
 All AP documents are stored in the [APRegister](https://help.acumatica.com/dacBrowser/PX.Objects.AP/APRegister) DAC. Depending on the type of the document \(which is specified in APRegister.DocType\), the APRegister DAC is extended by [APInvoice](https://help.acumatica.com/dacBrowser/PX.Objects.AP/APInvoice), by [APPayment](https://help.acumatica.com/dacBrowser/PX.Objects.AP/APPayment), or by both DACs. The following table shows how the APRegister DAC is extended depending on the document type specified on the data entry form. In this table, *+* indicates that the corresponding record exists for this document type, and *-* indicates that the record does not exist.
 
-|Document Type|APRegister.DocType|Purpose|APRegister|APInvoice|APPayment|
-|-------------|------------------|-------|----------|---------|---------|
-|*Bill*|*INV*|A bill from a vendor for goods and services shipped on credit.|+|+|-|
-|*Debit Adj.*|*ADR*|A memo indicating that money is owed by the vendor, due to such factors as a mistake in the bill.|+|+|+|
-|*Credit Adj.*|*ACR*|A memo that additional money is owed to the vendor, due to such factors as a mistake in the bill.
+<table id="_204e0000-f460-4306-8a6c-8331f60b7fca"><thead><tr><th>
+
+Document Type
+
+</th><th>
+
+APRegister.DocType
+
+</th><th>
+
+Purpose
+
+</th><th>
+
+APRegister
+
+</th><th>
+
+APInvoice
+
+</th><th>
+
+APPayment
+
+</th></tr></thead><tbody><tr><td>
+
+*Bill*
+
+</td><td>
+
+*INV*
+
+</td><td>
+
+A bill from a vendor for goods and services shipped on credit.
+
+</td><td>
+
++
+
+</td><td>
+
++
+
+</td><td>
+
+-
+
+</td></tr><tr><td>
+
+*Debit Adj.*
+
+</td><td>
+
+*ADR*
+
+</td><td>
+
+A memo indicating that money is owed by the vendor, due to such factors as a mistake in the bill.
+
+</td><td>
+
++
+
+</td><td>
+
++
+
+</td><td>
+
++
+
+</td></tr><tr><td>
+
+*Credit Adj.*
+
+</td><td>
+
+*ACR*
+
+</td><td>
+
+A memo that additional money is owed to the vendor, due to such factors as a mistake in the bill.
 
  Conceptually, this type is similar to a bill.
 
-|+|+|-|
-|*Prepayment*|*PPM*|A payment made in advance of goods and services shipped by the vendor.|+|Optional \(see details in [AP Prepayment Specifics](#_b675f4d3-c5cb-4537-88fe-93a3f19740b2)\)|+|
-|*Cash Purchase*|*QCK*|A purchase of goods and services for which a payment was made immediately.
+</td><td>
+
++
+
+</td><td>
+
++
+
+</td><td>
+
+-
+
+</td></tr><tr><td>
+
+*Prepayment*
+
+</td><td>
+
+*PPM*
+
+</td><td>
+
+A payment made in advance of goods and services shipped by the vendor.
+
+</td><td>
+
++
+
+</td><td>
+
+Optional \(see details in [AP Prepayment Specifics](#_b675f4d3-c5cb-4537-88fe-93a3f19740b2)\)
+
+</td><td>
+
++
+
+</td></tr><tr><td>
+
+*Cash Purchase*
+
+</td><td>
+
+*QCK*
+
+</td><td>
+
+A purchase of goods and services for which a payment was made immediately.
 
  Essentially, this type is a combination of a bill and a payment.
 
-|+|+|+|
-|*Voided Cash Purchase*|*VQC*|A reversing document for a cash purchase.|+|+|+|
-|*Payment*|*CHK*|A payment made to the vendor for goods or services shipped on credit.|+|-|+|
-|*Voided Payment*|*VCK*|A reversal document for a payment, which cancels the payment's impact on the system.|+|-|+|
-|*Refund*|*REF*|A full or partial refund of money received from the vendor.|+|-|+|
-|*Voided Refund*|*VRF*|A canceled refund.|+|-|+|
+</td><td>
+
++
+
+</td><td>
+
++
+
+</td><td>
+
++
+
+</td></tr><tr><td>
+
+*Voided Cash Purchase*
+
+</td><td>
+
+*VQC*
+
+</td><td>
+
+A reversing document for a cash purchase.
+
+</td><td>
+
++
+
+</td><td>
+
++
+
+</td><td>
+
++
+
+</td></tr><tr><td>
+
+*Payment*
+
+</td><td>
+
+*CHK*
+
+</td><td>
+
+A payment made to the vendor for goods or services shipped on credit.
+
+</td><td>
+
++
+
+</td><td>
+
+-
+
+</td><td>
+
++
+
+</td></tr><tr><td>
+
+*Voided Payment*
+
+</td><td>
+
+*VCK*
+
+</td><td>
+
+A reversal document for a payment, which cancels the payment's impact on the system.
+
+</td><td>
+
++
+
+</td><td>
+
+-
+
+</td><td>
+
++
+
+</td></tr><tr><td>
+
+*Refund*
+
+</td><td>
+
+*REF*
+
+</td><td>
+
+A full or partial refund of money received from the vendor.
+
+</td><td>
+
++
+
+</td><td>
+
+-
+
+</td><td>
+
++
+
+</td></tr><tr><td>
+
+*Voided Refund*
+
+</td><td>
+
+*VRF*
+
+</td><td>
+
+A canceled refund.
+
+</td><td>
+
++
+
+</td><td>
+
+-
+
+</td><td>
+
++
+
+</td></tr></tbody>
+</table>
 
 AP documents are defined on the following forms:
 
@@ -84,7 +334,7 @@ The selection of the following types of documents is illustrated in the queries 
     ```
 
 
-## AP Prepayment Specifics {#_b675f4d3-c5cb-4537-88fe-93a3f19740b2 .section}
+## AP Prepayment Specifics
 
 A user can create an AP prepayment on the [Checks and Payments](../UserGuide/AP_30_20_00.md) \(AP302000\) form. In this case, the full entity consists of the [APRegister](https://help.acumatica.com/dacBrowser/PX.Objects.AP/APRegister) record and the corresponding [APPayment](https://help.acumatica.com/dacBrowser/PX.Objects.AP/APPayment) record.
 
@@ -92,7 +342,7 @@ However, the user can also create a prepayment request on the [Bills and Adjustm
 
 The purpose of the prepayment request workflow is to specify the goods and services for which the prepayment is made. \(The goods and services are saved as the [APTran](https://help.acumatica.com/dacBrowser/PX.Objects.AP/APTran) lines of APInvoice.\) The APInvoice part of a prepayment request is a technical entity: It does not generate GL batches upon release.
 
-## Applications Between AP Documents { .section}
+## Applications Between AP Documents
 
 An [APAdjust](https://help.acumatica.com/dacBrowser/PX.Objects.AP/APAdjust) record indicates the application of one AP document to another, which results in an adjustment of the balances of both documents. This record contains the foreign key links between two documents, as well as the application amounts and other auxiliary information.
 
@@ -150,14 +400,14 @@ GROUP BY
     APRegister.DocBal 
 ```
 
-## Self-Applications { .section}
+## Self-Applications
 
 In the following cases, the system can create applications of the documents to themselves during the document release process:
 
 -   When the document has a nonzero initial migrated balance
 -   When the document combines the information about both the invoice and the corresponding payment
 
-## Currency Information { .section}
+## Currency Information
 
 A [CurrencyInfo](https://help.acumatica.com/dacBrowser/PX.Objects.CM/CurrencyInfo) record stores details about the currency rate of a given currency relative to the base currency, including how the currency rate has been obtained. The CurrencyInfo DAC can be joined to the DACs of accounts payable entities based on the foreign key CuryInfoID field in the entity DAC.
 
@@ -185,7 +435,7 @@ FROM
     APAdjust 
 ```
 
-## AP Invoice Lines { .section}
+## AP Invoice Lines
 
 The [APTran](https://help.acumatica.com/dacBrowser/PX.Objects.AP/APTran) DAC contains detail lines about goods and services associated with the revenue. The detail line number is identified by the APTran.LineNbr field.
 
@@ -225,7 +475,7 @@ GROUP BY
     APInvoice.CuryLineTotal 
 ```
 
-## Tax Details { .section}
+## Tax Details
 
 The [APTax](https://help.acumatica.com/dacBrowser/PX.Objects.AP/APTax) DAC stores auxiliary information about the tax codes and taxable amounts for every corresponding [APTran](https://help.acumatica.com/dacBrowser/PX.Objects.AP/APTran) document line.
 
@@ -249,13 +499,13 @@ WHERE
     AND APTax.RefNbr = '000537'
 ```
 
-## Discount Details { .section}
+## Discount Details
 
 An [APInvoiceDiscountDetail](https://help.acumatica.com/dacBrowser/PX.Objects.AP/APInvoiceDiscountDetail) record represents a document-level or group-level discount that has been applied to the bill or adjustment. The records of this type are usually created automatically when a user edits document details. However, these discount details can be edited on the [Bills and Adjustments](../UserGuide/AP_30_10_00.md) \(AP301000\) form.
 
 Line-level discounts do not create discount details and are specified in the line itself in APTran.DiscPct.
 
-## Address and Contact Details { .section}
+## Address and Contact Details
 
 [APPayment](https://help.acumatica.com/dacBrowser/PX.Objects.AP/APPayment) references the [APAddress](https://help.acumatica.com/dacBrowser/PX.Objects.AP/APAddress) and [APContact](https://help.acumatica.com/dacBrowser/PX.Objects.AP/APContact) DACs. These DACs store payment-specific remittance address and contact information. The default values of these address and contact are copied from the remittance address and contact referenced by the vendor location selected in the document. However, this data can be overridden by a user and is independent of changes to the original address and contact. The payment-specific address and contact information can be edited on the **Remittance** tab of the [Checks and Payments](../UserGuide/AP_30_20_00.md) \(AP302000\) and [Cash Purchases](../UserGuide/AP_30_40_00.md) \(AP304000\) forms.
 
@@ -278,7 +528,7 @@ FROM
         AND APPayment.RemitContactID = APContact.ContactID 
 ```
 
-## Cash Transactions { .section}
+## Cash Transactions
 
 The creation or removal of an [APPayment](https://help.acumatica.com/dacBrowser/PX.Objects.AP/APPayment) record in the system always involves the creation or removal of a corresponding cash account transaction \([CATran](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CATran)\).
 
@@ -298,7 +548,7 @@ FROM
 
 The CATran records are updated by the Acumatica ERP functionality \(such as general ledger, accounts payable, and accounts receivable\) that works with cash accounts. For details about cash transaction DACs, see [CA DACs: Transactional Data](DACOverview_CA_TransactionalData.md).
 
-## Recurring Transactions { .section}
+## Recurring Transactions
 
 The [Schedule](https://help.acumatica.com/dacBrowser/PX.Objects.GL/Schedule) DAC represents a schedule according to which documents are generated on a regular basis from a template document. The Schedule DAC contains the schedule parameters, such as the schedule type \(monthly, weekly, daily, or by the financial period\) and frequency. The DAC is used by different Acumatica ERP functional areas.
 
@@ -306,7 +556,7 @@ Template AP documents \(such as invoices, debit adjustments, and credit adjustme
 
 A user can edit accounts payable schedules on the [Recurring Transactions](../UserGuide/AP_20_35_00.md) \(AP203500\) form.
 
-## GL Transactions Generated by the Documents { .section}
+## GL Transactions Generated by the Documents
 
 Accounts payable documents generate general ledger transactions upon release, such as the following scenarios:
 
@@ -330,7 +580,7 @@ FROM
         AND APRegister.BatchNbr = GLTran.BatchNbr 
 ```
 
-## GL Transactions Generated by Applications { .section}
+## GL Transactions Generated by Applications
 
 Normally, the application of a check to a bill is an internal accounts payable operation that does not generate general ledger transactions.
 

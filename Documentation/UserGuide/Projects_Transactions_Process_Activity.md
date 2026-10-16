@@ -1,10 +1,10 @@
-# Project Transactions: Process Activity {#_c53c0111-16c1-4385-a86e-d9cecd34d4c0 .task}
+# Project Transactions: Process Activity
 
 This activity will walk you through the process of creating project transactions from general ledger transactions and from scratch.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the Thai Food Restaurant customer has ordered training from the SweetLife Fruits &amp; Jams company on how to use a juicer the company previously bought. Based on the agreement with the customer, SweetLife’s project accountant has created a project and has created the following tasks corresponding to the phases of training:
 
@@ -15,7 +15,7 @@ In the first phase, a consultant has provided eight hours of training and spent 
 
 Acting as the project accountant, you need to enter the general ledger transactions to directly capture the costs involved with delivering the first phase of training. The Thai Food Restaurant company covers travel expenses, so they should not affect the project budget. Then you need to enter the project transaction to capture the costs involved with delivering the second phase of training, but the costs should not affect the general ledger.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -24,18 +24,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Account Groups](PM_20_10_00.md) \(PM201000\) form, the *LABOR* account group has been created. The *54100 \(Project Labor Expense\)* account has been mapped to the account group.
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *TRAINING* non-stock item has been configured. The *54100 \(Project Labor Expense\)* account has been specified as the expense account of the item.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form, you will create a batch of general ledger transactions with the project and project task specified to record the work related to the first phase of the training. You will release the batch, which will generate the corresponding project transaction. Then you will review this transaction on the [Project Transaction Details](PM_40_10_00.md) \(PM401000\) form. Finally, on the [Project Transactions](PM_30_40_00.md) \(PM304000\) form, you will create and release a batch of project transactions that represents the second phase of the training and does not affect the general ledger.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as Pam Brawner by using the *brawner* username and the *123* password.
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Creating General Ledger Transactions { .section}
+## Step 1: Creating General Ledger Transactions
 
 To create a batch of general ledger transactions to represent the first phase of the training \(the *PHASE1* task\), do the following:
 
@@ -79,7 +79,7 @@ To create a batch of general ledger transactions to represent the first phase of
 
     -   The **Credit Account** and **Credit Account Group** columns are empty in the row.
 
-## Step 2: Creating a Project Transaction Without Posting to the General Ledger { .section}
+## Step 2: Creating a Project Transaction Without Posting to the General Ledger
 
 To create a project transaction that does not affect the general ledger and represents the training expenses within the second phase of the training \(the *PHASE2* task\), do the following:
 
@@ -102,7 +102,6 @@ To create a project transaction that does not affect the general ledger and repr
 
     Notice that the **GL Batch Nbr.** column is empty \(see below\) indicating that no corresponding general ledger transaction has been created.
 
-    ![](Images/activity_Projects_Transactions.png "The project transaction that produces no GL transaction")
 
 6.  On the [Projects](PM_30_10_00.md) \(PM301000\) form, open the *TOMYUM1* project, and on the **Cost Budget** tab, notice that the cost budget now includes two budget lines:
 

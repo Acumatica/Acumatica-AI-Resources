@@ -1,14 +1,13 @@
-# Overdue Charges: Example of Applying Calculation Methods {#_2c59328d-7341-4a41-9117-bb91221730b2 .concept}
+# Overdue Charges: Example of Applying Calculation Methods
 
 This topic provides examples of the overdue charge calculation methods that can be set up in the system.
 
 Suppose that a customer's invoice is due on April 1; its open balance is $500 as of the due date. The customer paid the invoice after the due date with three payments: $300 on April 22, $100 on April 29, and $100 on May 26. The system calculates overdue charges on the 10th day of each month. The overdue charge amount is an annual rate of 10% and no thresholds are configured. The overdue invoice timeline in the diagram below illustrates this example.
 
-![](Images/diag_Finance_Overdue_Charges_Overdue_Document_Timeline.png)
 
 The system calculates the overdue charges differently, as described in the following sections of this topic, depending on the calculation method set for the overdue charge code on the [Overdue Charges](AR_20_45_00.md) \(AR204500\) form.
 
-## *Interest on Balance* {#section_pdf_hjv_vxb .section}
+## *Interest on Balance*
 
 If you select *Interest on Balance* in the **Calculation Method** box on the [Overdue Charges](AR_20_45_00.md) form, the system calculates the overdue charges as follows:
 
@@ -19,7 +18,7 @@ If you select *Interest on Balance* in the **Calculation Method** box on the [Ov
     Overall, the system debited the customer's account for an additional $2.19 in overdue charges.
 
 
-## *Interest on Prorated Balance* {#section_sdf_hjv_vxb .section}
+## *Interest on Prorated Balance*
 
 If you select *Interest on Prorated Balance* in the **Calculation Method** box on the [Overdue Charges](AR_20_45_00.md) form, the system calculates the overdue charges as follows \(see the green lines in the figure above\):
 
@@ -30,7 +29,7 @@ If you select *Interest on Prorated Balance* in the **Calculation Method** box o
     Overall, the system debited the customer's account for an additional $4.13.
 
 
-## *Interest on Arrears* {#section_vdf_hjv_vxb .section}
+## *Interest on Arrears*
 
 If you select the *Interest on Arrears* option in the **Calculation Method** box on the [Overdue Charges](AR_20_45_00.md) form, the system calculates overdue charges when the document is fully paid \(in the figure, the point when the charges are calculated for the third time\).
 

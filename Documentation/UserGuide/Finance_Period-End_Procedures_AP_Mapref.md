@@ -1,4 +1,4 @@
-# Performing Period-End Procedures {#_8872da51-5bf0-419e-805f-848a27229cac .concept}
+# Performing Period-End Procedures
 
 In this chapter, you will find general information on how to perform period-end procedures in accounts payable, an activity that describes how to perform account reconciliation, and an activity that describes how to close a financial period in the subledger.
 

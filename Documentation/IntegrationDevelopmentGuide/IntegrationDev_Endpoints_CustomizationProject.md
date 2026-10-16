@@ -1,10 +1,10 @@
-# Web Service Endpoints: Endpoint in a Customization Project {#_41ab4560-87c1-4981-9b48-73e60ac95cef .concept}
+# Web Service Endpoints: Endpoint in a Customization Project
 
 If you need to transfer the configuration of a web service endpoint, which is defined on the [Web Service Endpoints](../UserGuide/SM_20_70_60.md) \(SM207060\) form, to another Acumatica ERP instance, you need to include the respective endpoint in a customization project.
 
 **Tip:** After you have included all needed items in a customization project, you export the project as a ZIP file. In the target instance, you import the file and publish this customization project. For details about importing, exporting, and publishing customization projects, see [Managing Customization Projects](../Shared/../CustomizationPlatform/CG_GL_Projects.md) and [Publishing Customization Projects](../Shared/../CustomizationPlatform/CG_GL_Projects_Publishing.md).
 
-## Web Service Endpoint in a Customization Project { .section}
+## Web Service Endpoint in a Customization Project
 
 You can configure contract-based web service endpoints in an instance of Acumatica ERP and then include the new configuration in a customization project on the [Web Service Endpoints](../UserGuide/AU_20_60_02.md) \(AU206002\) page of the Customization Project Editor.
 

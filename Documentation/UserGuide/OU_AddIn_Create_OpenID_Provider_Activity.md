@@ -1,4 +1,4 @@
-# Acumatica Add-In for Outlook: To Create an OpenID Provider {#_4328d228-8a42-48a1-ad65-37dcd3ac3cc8 .task}
+# Acumatica Add-In for Outlook: To Create an OpenID Provider
 
 You need to create an OpenID provider that will be used for authentication in the Acumatica add-in for Outlook with Microsoft 365.
 

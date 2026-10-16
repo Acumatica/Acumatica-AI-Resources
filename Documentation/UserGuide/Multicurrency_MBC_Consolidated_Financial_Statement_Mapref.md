@@ -1,4 +1,4 @@
-# Preparing a Consolidated Financial Statement {#_7821bb59-fe12-4a3f-a939-d008e4c125c0 .concept}
+# Preparing a Consolidated Financial Statement
 
 The topics of this chapter describe how to prepare consolidated financial data for a parent company and a subsidiary company that use different base currencies.
 

@@ -1,4 +1,4 @@
-# Sales Order Types: To Activate the RR Order Type {#_9b08ed4a-92a2-4ebf-8384-0800068e63f1 .task}
+# Sales Order Types: To Activate the RR Order Type
 
 By completing the following implementation activity, you will learn how to configure and activate the *RR* order type.
 
@@ -8,16 +8,16 @@ The following activity is based on the *U100 Basic Company* dataset. If you are 
 
 If you want to perform this activity in an out-of-the-box company instead of creating a tenant with the dataset, you need to prepare a company with the basic settings, as described in [Company Without Branches: General Information](../Shared/../ImplementationGuide/config_Basic_Company_GeneralInfo.md).
 
-## Story { .section}
+## Story
 
 Suppose that you, as the implementation manager, need to configure the processing of customer returns with the replacement of items for the same price. Thus, you need to activate the *RR* order type in the system.
 
-## System Preparation { .section}
+## System Preparation
 
 1.  In a new tenant, prepare the company with basic settings as described in [Company Without Branches: General Information](config_Basic_Company_GeneralInfo.md).
 2.  Launch the Acumatica ERP website, and sign in to the prepared company as *admin*.
 
-## Step: Activating an Order Type { .section}
+## Step: Activating an Order Type
 
 1.  Open the [Order Types](../UserGuide/SO_20_10_00.md) \(SO201000\) form.
 2.  Open the *RR* order type.

@@ -1,8 +1,8 @@
-# Real-Time Synchronization for a Connector: How Webhooks and Push Notifications Are Used {#_1f13e1c6-ed26-414f-ac6f-073cae4fbb6c .concept}
+# Real-Time Synchronization for a Connector: How Webhooks and Push Notifications Are Used
 
 In this topic, you can find information about the process of real-time synchronization through a connector between Acumatica ERP and an external system.
 
-## Processing of Commerce Webhooks { .section}
+## Processing of Commerce Webhooks
 
 When an administrator starts real-time synchronization on the [Entities](../UserGuide/BC_20_20_00.md) \(BC202000\) form by clicking **Start Real-Time Sync** on the form toolbar, the system calls the IConnector.StartWebhook method. The system uses this method to initialize the webhook scopes in the external system. Each webhook scope is a situation when the webhook, such as a customer update, is sent. The webhook scopes are specified in the Webhooks parameter of the BCProcessorRealtime attribute of the processor.
 
@@ -20,7 +20,7 @@ If you cannot configure the external system to send webhook requests in one of t
 
 When the administrator stops real-time synchronization on the [Entities](../UserGuide/BC_20_20_00.md) form by clicking **Stop Real-Time Sync** on the form toolbar, the system calls the IConnector.StopWebhook method.
 
-## Processing of Commerce Push Notifications { .section}
+## Processing of Commerce Push Notifications
 
 For real-time export, Acumatica ERP includes a number of predefined generic inquiries that define the data changes for which Acumatica ERP should send notifications to the Acumatica Commerce Framework. These generic inquiries are listed on the **Generic Inquiries** tab of the [Push Notifications](../UserGuide/SM_30_20_00.md) \(SM302000\) form for the *Commerce* notification destination, which is predefined in the system. The names of these generic inquiries begin with the *BC-PUSH* prefix.
 
@@ -32,7 +32,7 @@ An Acumatica ERP background thread processes the notifications from this queue a
 
 The notification destination of the *Commerce Push Destination* type processes the commerce notifications and places them in another queue in the queue broker \(which is RabbitMQ by default\). The queue has the *commerceQueue* prefix, and you can monitor its status on the [System Queue Monitor](../UserGuide/SM_30_20_10.md) \(SM302010\) form. The messages are then processed as described in the next section.
 
-## Real-Time Synchronization {#_56574e6a-b890-41fa-8a33-2823e98a42ab .section}
+## Real-Time Synchronization
 
 The commerce background thread processes the commerce notifications from the queue with the *commerceQueue* prefix. To improve the performance of the commerce connector, this thread works with a 20-second delay. That is, when the thread receives a message, it waits for 20 seconds before it starts to process this message. For example, if a user has saved a customer record three times in the last 15 seconds, the system generates three push notifications about the changes. Because the second and third modification all happened within the 20-second delay of the first push notification, the commerce connector synchronizes only the version of the customer record from the most recent push notification.
 

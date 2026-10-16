@@ -1,8 +1,8 @@
-# Pay Groups, Payroll Calendars, and Pay Periods: General Information {#_9c047250-7bd6-44aa-961d-2404497948b5 .concept}
+# Pay Groups, Payroll Calendars, and Pay Periods: General Information
 
 A pay group is a group of employees that have the same pay period frequency and pay dates, which are defined through a payroll calendar individually for each pay group. For a pay group that has a configured payroll calendar, pay periods are generated.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,17 +10,17 @@ In this chapter, you will learn how to do the following:
 -   Configure payroll calendars for pay groups
 -   Generate pay periods
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create pay groups to group employees that have the same pay period frequency \(for instance, once a month\) and pay dates. For each pay group, you need to create a pay schedule, which you do by configuring a template for pay periods \(that is, a payroll calendar\) and then generating pay periods for a particular year.
 
-## Pay Groups { .section}
+## Pay Groups
 
 You create pay groups by using the [Pay Groups](PR_20_50_00.md) \(PR205000\) form. Pay groups are used for grouping employees according to when they are paid during a specific pay run. For example, all hourly employees that are paid biweekly on Tuesdays might constitute a specific pay group. Pay groups can also be used to create different pay runs by location, department, or any other required category. An employee may be included in only one pay group at a time. A pay group may be assigned to an employee by default based on the employee class settings.
 
 **Attention:** Employees who work on certified projects must be paid hourly on a weekly basis so that they may be included in certified reporting. For more information, see [Certified Projects: General Information](CertifiedProject_GeneralInfo.md).
 
-## Payroll Data Visibility by Pay Group { .section}
+## Payroll Data Visibility by Pay Group
 
 In the **User Role** column on the [Pay Groups](PR_20_50_00.md) \(PR205000\) form, you can specify a user role for each pay group.
 
@@ -28,7 +28,7 @@ On the [Payroll Batches](PR_30_10_00.md) \(PR301000\), [Paychecks and Adjustment
 
 Also, on the [Payment Batches](PR_30_50_00.md) form, the batch total is not shown to a user whose access to payroll data is restricted for at least one employee from the batch. This user will not be able to delete, export, or release the batch.
 
-## Payroll Calendars { .section}
+## Payroll Calendars
 
 You create payroll calendars on the [Payroll Calendar](PR_20_60_00.md) \(PR206000\) form. You can open this form from the [Pay Groups](PR_20_50_00.md) form by selecting a pay group in the table and then clicking **Calendar** on the form toolbar.
 
@@ -42,7 +42,7 @@ Once you have specified the necessary settings, you can click **Create Periods**
 
 You can delete the calendar periods created for a particular pay group by clicking **Delete Pay Group Periods** on the More menu.
 
-## Pay Periods { .section}
+## Pay Periods
 
 After a payroll calendar has been configured for a pay group, you can generate pay periods for this pay group by using the [Pay Periods](PR_20_10_00.md) \(PR201000\) form.
 

@@ -1,4 +1,4 @@
-# Querying of the Data {#_9241a976-e062-4978-be14-2c1135642be2 .concept}
+# Querying of the Data
 
 The Acumatica Framework provides a custom language, **business query language \(BQL\)**, that developers can use for writing database queries. BQL is written in C\# and based on generic class syntax but is very similar to SQL syntax.
 
@@ -6,18 +6,18 @@ The framework provides two BQL dialects: **traditional BQL** and **fluent BQL**.
 
 **Tip:** You can also use LINQ to select records from the database or to apply additional filtering to the data of a BQL query. For details on which approach to use, see [Comparison of Fluent BQL, Traditional BQL, and LINQ](AD__con_Comparison_of_TBQL_FBQL_LINQ.md).
 
-## Business Query Language { .section}
+## Business Query Language
 
 BQL has almost the same keywords as SQL does, placed in the same order, as shown in the following BQL example.
 
-```language-csharp
+```csharp
 SelectFrom<Product>.Where<Product.availQty.IsNotNull.
         And<Product.availQty.IsGreater<Product.bookedQty>>>
 ```
 
 If the database provider is Microsoft SQL Server, the framework translates this expression into the following SQL query.
 
-```language-sql
+```sql
 SELECT * FROM Product 
 WHERE Product.AvailQty IS NOT NULL 
 AND Product.AvailQty > Product.BookedQty
@@ -29,11 +29,11 @@ BQL gives you the following benefits:
 -   It’s object-oriented and extendable.
 -   It provides compile-time syntax validation, which helps prevent SQL syntax errors.
 
-## Data Access Classes { .section}
+## Data Access Classes
 
 Because BQL is implemented on top of generic classes, you need data types that represent database tables: data access classes \(DACs\) in the Acumatica Framework. For example, you can define the Product DAC \(shown below\) to execute the SQL query from the previous code example.
 
-```language-csharp
+```csharp
 using System;
 using PX.Data;
 
@@ -67,11 +67,11 @@ Each table field is declared in a DAC in two ways, each for a different purpose:
 
 If the DAC is bound to the database, it must have the same class name as the database table has. DAC fields are bound to the database by means of data mapping attributes \(such as PXDBIdentity and PXDBDecimal\), using the same naming convention as fields in the database.
 
-## Request of a Data Record from the Database { .section}
+## Request of a Data Record from the Database
 
 The following code demonstrates how to obtain data records from the database.
 
-```language-csharp
+```csharp
 // Select Product records
 PXResultset<Product> res = SelectFrom<Product>.Where<Product.availQty.IsNotNull.
         And<Product.availQty.IsGreater<Product.bookedQty>>>.View.Select(graph);

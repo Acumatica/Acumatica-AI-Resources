@@ -1,4 +1,4 @@
-# To Update Business Events in a Project {#_846ac116-0257-4f62-a992-430b090a165a .task}
+# To Update Business Events in a Project
 
 If a business event included in a customization project has been changed \(or if multiple business events have been changed\) on the [Business Events](../UserGuide/SM_30_20_50.md) \(SM302050\) form, you have to update the appropriate item \(or items\) in the project. To do this, perform the following actions:
 

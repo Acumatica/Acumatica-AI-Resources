@@ -1,22 +1,22 @@
-# Project Creation and Processing: To Process a Cost-Plus Project {#_ff5069e7-47b7-4b20-9884-8d64dc6aed51 .task}
+# Project Creation and Processing: To Process a Cost-Plus Project
 
 This activity will walk you through the life cycle of a cost-plus project.
 
-## Story { .section}
+## Story
 
 Suppose that the Lake Cafe customer has ordered training of employees from the SweetLife Fruits &amp; Jams company. SweetLife's project accountant has created a cost-plus project to account for the provided services. Twenty hours of training sessions have been conducted in the period from *1/1/2026* through *1/30/2026*.
 
 Acting as the project accountant, you need to support the project during the entire project life cycle.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 For the purposes of this activity, on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Projects* feature has been enabled to support the project management functionality.
 
-## Process Overview { .section}
+## Process Overview
 
 You will activate the project to indicate that it has been started. Then you will create project-related transactions on the [Project Transactions](PM_30_40_00.md) \(PM304000\) form to record the provided services. You will run project billing for the project on the [Projects](PM_30_10_00.md) \(PM301000\) form and review the prepared AR invoice. Then you will complete the project.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
@@ -25,14 +25,14 @@ To sign in to the system and prepare to perform the instructions of the activity
 3.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded; you should sign in as Pam Brawner by using the *brawner* username and the *123* password.
 4.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Activating the Project { .section}
+## Step 1: Activating the Project
 
 To indicate that the *INSTLAKE02* project has been started, do the following:
 
 1.  On the [Projects](PM_30_10_00.md) \(PM301000\) form, open the *INSTLAKE02* project, which you have created in [Project Creation and Processing: To Create a Cost-Plus Project](Projects_Process_Implem_Activity_Cost_Plus.md).
 2.  On the form toolbar, click **Activate**. The system assigns the project the *Active* status.
 
-## Step 2: Uploading Project Transactions { .section}
+## Step 2: Uploading Project Transactions
 
 To upload and process the transactions of this project, do the following:
 
@@ -50,7 +50,7 @@ To upload and process the transactions of this project, do the following:
     On the **Cost Budget** tab, review the cost budget line that has been updated on release of the project transaction. The quantity and amount that were initially planned \(*16* and *640.00*\) are shown as the **Original Budgeted Quantity** and **Original Budgeted Amount**, while the **Actual Quantity** and **Actual Amount** columns have been populated with the amounts from the released project transactions \(*20* and *800*, respectively\).
 
 
-## Step 3: Billing a Project { .section}
+## Step 3: Billing a Project
 
 To create an accounts receivable invoice for the project, do the following:
 
@@ -58,12 +58,11 @@ To create an accounts receivable invoice for the project, do the following:
 
     Because the *TM* billing rule specified for the project task defines the line amount as the project transaction amount multiplied by 1.25, the customer is billed in the amount of $1,000.
 
-    ![](Images/activity_Projects_Process_Activity_Cost_Plus.png "The AR invoice created during the billing")
 
 2.  On the form toolbar, click **Remove Hold** to assign the accounts receivable invoice the *Balanced* status, and then click **Release**.
 3.  Return to the [Projects](PM_30_10_00.md) form with the *INSTLAKE02* project opened, and press Esc to refresh the form. Notice that the **Actual Income** box in the Summary area now shows *1,000.00*, which is the amount the customer has been billed. The calculated margin for the project is 20%, as has been planned. On the **Revenue Budget** tab, the revenue line with the *TRAINING* task and the **Actual Amount** of $1,000 has been added.
 
-## Step 4: Completing the Project { .section}
+## Step 4: Completing the Project
 
 To complete the project, do the following:
 

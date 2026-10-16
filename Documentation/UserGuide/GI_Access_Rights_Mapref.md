@@ -1,4 +1,4 @@
-# Managing Access Rights To Generic Inquiries {#_80ac7180-bdca-4401-9a50-9f25d2569383 .concept}
+# Managing Access Rights To Generic Inquiries
 
 Acumatica ERP is designed with particular attention to the collection, storage, and processing of sensitive corporate data that must be protected against unauthorized access, use, modification, and disclosure. As such, Acumatica ERP uses reasonable security measures, including access control to system resources.
 

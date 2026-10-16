@@ -1,4 +1,4 @@
-# Transaction Matching Settings {#_99faa10e-e414-4df5-9973-b715fd6c0d6f .concept}
+# Transaction Matching Settings
 
 In Acumatica ERP, you can tailor the settings of the automatic matching process to suit your company's needs.
 

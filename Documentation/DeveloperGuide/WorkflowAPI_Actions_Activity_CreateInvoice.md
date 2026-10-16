@@ -1,16 +1,16 @@
-# Workflow Actions: To Configure the Conditional Appearance of the Action {#_6b36e522-cbb9-4138-a2e0-a4c42015dc54 .task}
+# Workflow Actions: To Configure the Conditional Appearance of the Action
 
 This activity will walk you through the process of implementing an action that appears conditionally and adding it to a workflow.
 
-## Story { .section}
+## Story
 
 For a repair work order to be billed and then paid, a user needs to create an invoice for the order. An invoice can be created for a repair work order only if it has the *Pending Payment* or *Completed* status and no invoice has been created for this repair work order. You need to implement the `CreateInvoice` action, as well as to configure the conditional availability of the associated button on the form toolbar and the equivalent command on the More menu.
 
-## Process Overview { .section}
+## Process Overview
 
 In the customization code, first, you will define the `CreateInvoice` action in a graph. Then you will add this action to the screen configuration and to the states of the workflow where the action should be available. You will also define a condition depending on which the action should be available.
 
-## System Preparation { .section}
+## System Preparation
 
 Make sure that you have done the following:
 

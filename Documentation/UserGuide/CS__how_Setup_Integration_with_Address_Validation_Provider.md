@@ -1,12 +1,12 @@
-# To Set Up Integration with an Avalara Address Validation Provider {#_ac445ae6-333d-4b2f-9430-965534c1c65e .task}
+# To Set Up Integration with an Avalara Address Validation Provider
 
 The following topic will walk you through the process of setting up integration with the Avalara Address Validation plug-in.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Before you configure the integration with Avalara Address Validation plug-in in Acumatica ERP, make sure that the *Address Validation Integration* feature is enabled in your system on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## To Set Up an Address Validation Provider { .section}
+## To Set Up an Address Validation Provider
 
 1.  On the [Address Providers](../Shared/../UserGuide/CS_10_30_00.md) \(CS103000\) form, add a new record.
 2.  In the **Provider ID** box, type the identifier to be used for the provider.
@@ -23,7 +23,7 @@ Before you configure the integration with Avalara Address Validation plug-in in 
 
 11. On the form toolbar, click **Save**.
 
-## To Set Up Address Verification { .section}
+## To Set Up Address Verification
 
 1.  Open the [Countries/States](../Shared/../UserGuide/CS_20_40_00.md) \(CS204000\) form.
 2.  In the **Country ID** box of the Summary area, select *US*.

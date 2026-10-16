@@ -1,16 +1,16 @@
-# Sales with Returns: Process Activity {#_be1c4c94-cdc1-4385-92db-1ad22b3018b8 .task}
+# Sales with Returns: Process Activity
 
 The following activity demonstrates how to process to completion a sale with a return in the same order.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Regina Wiley, a sales manager at the SweetLife Fruits &amp; Jams company. On January 29, 2026, a representative of the Allen's Bakery customer came to the SweetLife's store and bought 30 jars of peach jam and 15 jars of cranberry jam. The next day, the representative came to the store again to return the 15 jars of cranberry jam because these jars were leaking. While returning the cranberry jam, the customer decided to also buy 10 jars of grape jam.
 
 Because the representative has come to the counter to perform both the sale and the return, you want to simplify the process by using a mixed order. SweetLife owes some money to Allen's Bakery because the total amount of the purchased items is less than the amount to be returned for the received items. After you create the order, you need to process the customer refund as well. Acting as the sales manager, you need to process the sale and the return of the jam.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -26,11 +26,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
     -   On the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, a payment dated 1/29/2026 and linked to the sales order has been created and released.
     -   On the [Invoices](SO_30_30_00.md) \(SO303000\) form, a sales invoice that is related to the sales order has been created and released.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create an order of the *MO* type on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form. You will add the returned stock item from the released sales invoice and a new stock item for sale. You will create a customer refund related to this order. You will release the customer refund on the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form. On the [Sales Orders](SO_30_10_00.md) form, you will initiate the creation of the credit memo linked to the mixed order; finally, you will release the credit memo on the [Invoices](SO_30_30_00.md) \(SO303000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start processing sales with returns in the same order, do the following:
 
@@ -38,7 +38,7 @@ Before you start processing sales with returns in the same order, do the followi
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the Company and Branch Selection menu in the top pane of the Acumatica ERP screen, select the *SweetLife Store* branch.
 
-## Step 1: Creating a Mixed Order { .section}
+## Step 1: Creating a Mixed Order
 
 To create the mixed order for Allen's Bakery, do the following:
 
@@ -74,7 +74,7 @@ To create the mixed order for Allen's Bakery, do the following:
 
 You have created the mixed order. Because the order balance is negative \(notice that **Order Total** in the Summary area is *-113.50*\), you need to process a customer refund for this order, which you will do in the next step.
 
-## Step 2: Processing a Customer Refund for the Mixed Order { .section}
+## Step 2: Processing a Customer Refund for the Mixed Order
 
 To create a customer refund for the mixed order, do the following:
 
@@ -90,7 +90,7 @@ To create a customer refund for the mixed order, do the following:
 6.  Close the [Payments and Applications](AR_30_20_00.md) form.
 7.  Refresh the webpage for the [Sales Orders](SO_30_10_00.md) form, to which you return.
 
-## Step 3: Processing a Credit Memo for the Mixed Order { .section}
+## Step 3: Processing a Credit Memo for the Mixed Order
 
 To process a credit memo for the mixed order, do the following:
 
@@ -99,7 +99,6 @@ To process a credit memo for the mixed order, do the following:
 3.  On the form toolbar, click **Release**. The credit memo is assigned the *Closed* status.
 4.  On the [Sales Orders](SO_30_10_00.md) form, return to the mixed order that you created earlier. Notice that the order now has the *Completed* status, as shown in the following screenshot.
 
-    ![](Images/OrderMgmt_Sale_with_Return_Activity_Mixed_Order_Completed.png "The mixed order with the Completed status")
 
 
 You have processed a sale with a return in the same order on the [Sales Orders](SO_30_10_00.md) form.

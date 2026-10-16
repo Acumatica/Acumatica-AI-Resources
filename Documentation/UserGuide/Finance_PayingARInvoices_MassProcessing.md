@@ -1,14 +1,14 @@
-# Invoice Payments: Mass Processing {#_c21b8879-5aab-48dc-925b-38244c5bb19a .concept}
+# Invoice Payments: Mass Processing
 
 This topic explains the way you can release multiple payment applications, the application of a payment to multiple AR documents, and the application of multiple payments to a single AR document.
 
-## Mass Release of Payments and Payment Applications {#section_ay4_4jv_vxb .section}
+## Mass Release of Payments and Payment Applications
 
 Multiple payments can be released at the same time on the [Release AR Documents](AR_50_10_00.md) \(AR501000\) form. On this form, you select the unlabeled check boxes next to the payments to be processed and click **Release** on the form toolbar to release the selected payments and their applications to documents or click **Release All** to release all the payments and applications shown in the table.
 
 **Attention:** The system creates a consolidated GL batch for all the released invoices and credit memos if the **Generate Consolidated Batches** check box is selected on the [General Ledger Preferences](GL_10_20_00.md) \(GL102000\) form.
 
-## Application of a Payment to Multiple AR Documents {#section_dy4_4jv_vxb .section}
+## Application of a Payment to Multiple AR Documents
 
 You can apply a single payment to multiple documents at once on the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form by performing the following general steps:
 
@@ -41,7 +41,7 @@ You can apply a single payment to multiple documents at once on the [Payments an
     Once you have specified the amount to be applied to each document that you want to pay, you can release or save the payment. When the payment is released or saved with the *On Hold* or *Balanced* status, the system removes from the table the documents that were added to the **Documents to Apply** tab but to which the payment has not been applied; only documents to which the payment has been applied are kept.
 
 
-## Application of Multiple Payments to a Single AR Document {#section_my4_4jv_vxb .section}
+## Application of Multiple Payments to a Single AR Document
 
 When you are working with a particular AR document on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you can apply multiple payments to it on the **Applications** tab by performing the following general steps:
 

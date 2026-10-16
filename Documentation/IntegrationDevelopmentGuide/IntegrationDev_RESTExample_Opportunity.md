@@ -1,4 +1,4 @@
-# Opportunity {#_7a071ddc-e212-407a-9978-24bc65ba2068 .concept}
+# Opportunity
 
 This chapter presents code examples showing requests that use the `Opportunity` entity.
 

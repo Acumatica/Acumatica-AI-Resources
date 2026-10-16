@@ -1,8 +1,8 @@
-# Sales of Stock Items: General Information {#_0720ea72-819e-4533-9cd8-72737f93b955 .concept}
+# Sales of Stock Items: General Information
 
 In a typical distribution organization, a customer order may be taken over the phone or received by email. In Acumatica ERP, you can process a sale of stock items by creating and processing a corresponding sales order. A sales order represents a customer request to buy particular goods in a specified quantity on a specified date.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -12,11 +12,11 @@ In this chapter, you will do the following:
 -   Create the invoice for the sales order
 -   Process the sales invoice and the related inventory and accounts receivable documents
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 You process a sales order with a stock item if you need to record the sale of goods with shipping the items to a customer, updating item quantities in inventory, and preparing an invoice to the customer for the sold goods.
 
-## Sale of Stock Items with Automatic or Manual Allocation { .section}
+## Sale of Stock Items with Automatic or Manual Allocation
 
 The standard sales process typically includes entering a sales order, processing a shipment of the items with items being issued from inventory, and preparing the related invoice to a customer. In Acumatica ERP, to process a sale that requires the items to be shipped before an invoice can be prepared, you can use a sales order of the *SO* or *SA* type on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form. Consider the following points as you decide which of the order types to use:
 
@@ -33,11 +33,10 @@ After you have prepared and confirmed the shipment or shipments related to the s
 
 An AR invoice on the [Invoices and Memos](AR_30_10_00.md) form is a financial document that does not contain links to the applicable shipments and sales orders, as the sales invoice does. The AR invoice and sales invoice have the same reference number, which the system prints in the customer statement. On both the [Invoices](SO_30_30_00.md) form and the [Invoices and Memos](AR_30_10_00.md) form, you can view the link to the batch of the general ledger transactions that was generated when the invoice was released. For more information on processing AR invoices, see [Processing AR Invoices](Finance_ARInvoices_Mapref.md).
 
-## Workflow of a Sale of Stock Items { .section}
+## Workflow of a Sale of Stock Items
 
 For a sales order of the *SO* or *SA* type that includes stock items, the typical processing involves the actions and generated documents shown in the following diagram.
 
-![](Images/diag_Inventory_Sale_With_Shipping.png)
 
 **Parent topic:**[Processing Sales of Stock Items](../UserGuide/OrderMgmt_Sale_of_Stock_Items_Mapref.md)
 

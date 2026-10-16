@@ -1,8 +1,8 @@
-# To Add Sales Orders to an Invoice {#_19ec5453-33e2-4cb6-9fc5-10dff52711f2 .task}
+# To Add Sales Orders to an Invoice
 
 You can create an invoice manually on the [Invoices](SO_30_30_00.md) \(SO303000\) form, and add to it the lines of one sales order or multiple sales orders of the same customer.
 
-## To Add Sales Orders to Invoice { .section}
+## To Add Sales Orders to Invoice
 
 1.  Open the [Invoices](SO_30_30_00.md) \(SO303000\) form.
 2.  In the **Type** box in the Summary area, select *Invoice*.

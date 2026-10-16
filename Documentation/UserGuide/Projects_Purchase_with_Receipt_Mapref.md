@@ -1,4 +1,4 @@
-# Purchasing Materials to Project Site with Receipt {#_37ac2e0c-0ac2-4be2-a5ac-9f6be8e4dd6b .concept}
+# Purchasing Materials to Project Site with Receipt
 
 This chapter describes how to purchase materials and services for projects with processing a purchase receipt to record that the materials has been delivered to the project site.
 

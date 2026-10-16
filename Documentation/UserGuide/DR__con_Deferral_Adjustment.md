@@ -1,4 +1,4 @@
-# Adjustment of Deferrals {#_ad02a9f5-48ee-4b3c-a26c-e3408541fefa .concept}
+# Adjustment of Deferrals
 
 Assume that you have a document \(such as AR invoice\), for which the deferral schedule has been already generated, but you need to cancel this document or to adjust its document amount. You cannot cancel or delete a document that is already being processed in the system. Instead, you can create an adjusting document, such as a credit memo for an invoice, or a debit adjustment for a bill, which allows you to either reverse the original document or to correct the document amount.
 

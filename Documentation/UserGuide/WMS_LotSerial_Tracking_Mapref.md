@@ -1,4 +1,4 @@
-# Automated Operations with Lot- and Serial-Tracked Items {#_596efa67-ec09-4ef9-91cf-187e1b4321d0 .concept}
+# Automated Operations with Lot- and Serial-Tracked Items
 
 Lot numbers and serial numbers are used to track certain types of inventory items as they are received, stored, manufactured, and shipped. If the *Lot and Serial Tracking* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can set up the tracking of stock items by lot or serial number, as well as by expiration date.
 

@@ -1,14 +1,14 @@
-# Service Order Prepayments: Process Activity {#_6a9970be-d11f-4fcd-bbfc-11bb1cd2fbf3 .task}
+# Service Order Prepayments: Process Activity
 
 This activity will walk you through the process of managing prepayments that have been made for a service order, including entering a prepayment while acting as a staff member attending an appointment. You will go through the whole process, starting from the creation of a service order and ending with the release of the invoice for the service order.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the GoodFood One Restaurant customer has contacted the service manager of the SweetLife Service and Equipment Sales Center to request installation services and a juicer. You will enter the service order into the system and create and schedule the related appointment. The customer has paid 20% of the service order total in advance when requesting the services and the item, and will prepay an additional 30% at the appointment. You will enter the prepayments at the appropriate times, process the appointment, and generate the billing documents.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -29,11 +29,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 
 -   On the [Cash Accounts](CA_20_20_00.md#) \(CA202000\) form, the *10200EQ \(Equipment Checking\)* cash account is assigned to the *SWEETEQUIP* branch.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create a service order on the [Service Orders](FS_30_01_00.md#) \(FS300100\) form and add the service to be performed. You will enter the initial prepayment for the service order on the [Payments and Applications](AR_30_20_00.md#) \(AR302000\) form and then create the related appointment on the [Appointments](FS_30_02_00.md#) \(FS300200\) form. You then will process the appointment, including entering the second prepayment on the [Payments and Applications](AR_30_20_00.md#) form. Finally, you will process an invoice on the [Invoices](SO_30_30_00.md#) \(SO303000\) form to bill the customer.
 
-## System Preparation {#section_isv_3sq_ghc .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -41,7 +41,7 @@ Before you start this activity, do the following:
 2.  In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date *1/30/2026*. For simplicity, you will use this business date to create and process all documents in this activity.
 3.  After signing in, make sure that the *Service Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form.
 
-## Step 1: Entering a Service Order { .section}
+## Step 1: Entering a Service Order
 
 To create a service order for the GoodFood One Restaurant, do the following:
 
@@ -57,7 +57,7 @@ To create a service order for the GoodFood One Restaurant, do the following:
     -   **Inventory ID**: *JUICER20C*
 5.  On the form toolbar, click **Save**.
 
-## Step 2: Entering a Prepayment for the Service Order { .section}
+## Step 2: Entering a Prepayment for the Service Order
 
 To create a prepayment for the service order, do the following:
 
@@ -75,7 +75,7 @@ To create a prepayment for the service order, do the following:
     On the [Service Orders](FS_30_01_00.md#) form, to which you return, notice that the prepayment you have created is now listed on the **Prepayments** tab.
 
 
-## Step 3: Creating an Appointment { .section}
+## Step 3: Creating an Appointment
 
 To create an appointment for the service order, do the following:
 
@@ -87,7 +87,7 @@ To create an appointment for the service order, do the following:
 3.  On the **Staff** tab, add *Alberto Jimenez* as a staff member.
 4.  On the form toolbar, click **Save**.
 
-## Step 4: Processing the Appointment with the Prepayment { .section}
+## Step 4: Processing the Appointment with the Prepayment
 
 To process the appointment, do the following on behalf of staff member Alberto Jimenez:
 
@@ -111,7 +111,7 @@ To process the appointment, do the following on behalf of staff member Alberto J
 
 The completion and closing of the appointment caused the service order to also be completed and closed because of the settings of the *INST* service order type on the [Service Order Types](FS_20_23_00.md#) \(FS202300\) form, as described in the *Configuration Overview* section.
 
-## Step 5: Generating an Invoice { .section}
+## Step 5: Generating an Invoice
 
 To generate an invoice, do the following \(while still acting as an accountant\):
 
@@ -124,7 +124,6 @@ To generate an invoice, do the following \(while still acting as an accountant\)
 
 3.  On the **Applications** tab \(Item 1 below\), notice that both prepayments are listed \(Item 2\).
 
-    ![](Images/ServMgmt_Service_Order_Prepayments.png "The Applications Tab")
 
     Also notice that the **Total Paid** and the **Unpaid Balance** amounts are indicated in the right panel of the **Application** tab. Verify that the **Total Paid** is 50% of total appointment billable amount.
 

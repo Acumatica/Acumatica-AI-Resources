@@ -1,4 +1,4 @@
-# To Configure Predefined Integration Scenarios {#_322799f8-ba40-40a7-84dc-45cb1822ba82 .task}
+# To Configure Predefined Integration Scenarios
 
 When configuring data synchronization between Acumatica ERP and Salesforce, you may need to review the following integration scenarios:
 

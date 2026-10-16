@@ -1,4 +1,4 @@
-# Project Budget Forecasts: Generation of Periods {#_bac9251a-3aa4-4cce-ccb7-9b136be2b013 .concept}
+# Project Budget Forecasts: Generation of Periods
 
 For a forecast revision selected on the [Project Budget Forecast](PM_20_96_00.md) \(PM209600\) form, you can make the system automatically add financial periods for all the project budget lines listed in the table according to the selection criteria specified in the Selection area.
 

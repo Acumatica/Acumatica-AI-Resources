@@ -1,4 +1,4 @@
-# Defining Case Classes {#_87d9fb39-2e46-4b75-ae9a-3045637459bb .concept}
+# Defining Case Classes
 
 In this chapter, you will find information about defining case classes in Acumatica ERP.
 

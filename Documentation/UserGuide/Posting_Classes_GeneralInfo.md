@@ -1,24 +1,24 @@
-# Posting Classes: General Information {#_88764275-a449-42b4-9153-2284efc1026d .concept}
+# Posting Classes: General Information
 
 Every inventory transaction creates an appropriate posting to the general ledger, depending on the particular inventory item, the type of transaction, the warehouse where the item is stocked, and other conditions. A posting class, which is a required setting for stock items, defines which accounts should be used to post specific transactions to the general ledger. Also, posting classes are used to provide the default GL accounts to be assigned to stock items that are created.
 
 During the configuration of Acumatica ERP, you create posting classes and then assign posting classes to item classes, which group items and provide settings for them. When you create each stock item, you specify an item class, which causes the system to insert default settings for the item, including the posting class \(which in turn causes the system to insert the accounts of the posting class for the item\). The insertion of these default accounts streamlines data entry.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
 -   Prepare the system for the creation of posting classes
 -   Create a posting class for stock items
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create posting classes in the following cases:
 
 -   You are initially configuring inventory management in Acumatica ERP before you create item classes and stock items.
 -   You need to create a new class of inventory items with specific posting settings.
 
-## Creation of Posting Classes { .section}
+## Creation of Posting Classes
 
 You can create posting classes by using the [Posting Classes](IN_20_60_00.md) \(IN206000\) form.
 
@@ -31,7 +31,7 @@ During the creation of a posting class, you specify the following:
 -   Posting settings for transactions: You specify which GL account the system must use for which type of transaction. For details, see [Posting Settings for General Ledger Accounts](#_ed9bd946-a9da-4535-a300-e89b86e26515).
 -   Physical inventory reason code: You specify the reason code that the system will use by default for physical inventory involving items associated with this posting class. For more information, see [Reason Codes: General Information](Reason_Codes_GeneralInfo.md).
 
-## General Ledger Accounts Used by Inventory Entities { .section}
+## General Ledger Accounts Used by Inventory Entities
 
 You can specify GL accounts in the settings of the following inventory entities: warehouses \(if you use multiple warehouses in the system\), posting classes \(which can be specified for stock and non-stock items\), stock items, and non-stock items. The specified GL accounts are used by the system to record inventory transactions that involve the respective entities. You specify the following GL accounts in the settings of inventory entities:
 
@@ -63,7 +63,7 @@ You can specify GL accounts in the settings of the following inventory entities:
     -   A liability account for a deferral code of the *Revenue* type
     -   An asset account for a deferral code of the *Expense* type
 
-## General Ledger Accounts of a Posting Class {#_5a666cd1-022d-4ffb-9b39-36b47e5d5e96 .section}
+## General Ledger Accounts of a Posting Class
 
 You specify the default general ledger accounts assigned to a posting class in the **Default GL Accounts** section of the [Posting Classes](IN_20_60_00.md) \(IN206000\) form. These default GL accounts simplify data entry on the [Stock Items](IN_20_25_00.md) \(IN202500\) and [Non-Stock Items](IN_20_20_00.md) \(IN202000\) forms. When a posting class is assigned to an item class, the system copies the GL accounts from the posting class to the new items in this class. In the settings of the item, you can override any of the default accounts, if needed.
 
@@ -71,7 +71,7 @@ If you change the posting class for an item, the system updates the GL accounts 
 
 **Important:** It is not recommended to change the posting class of an item that is included in existing transactions. For details on the change of accounts for such an item, see [Stock Items: Change of an Inventory Account for an Item](Stock_Items_Change_of_an_Inventory_Account_for_an_Item.md).
 
-## Posting Settings for General Ledger Accounts {#_ed9bd946-a9da-4535-a300-e89b86e26515 .section}
+## Posting Settings for General Ledger Accounts
 
 The GL accounts to be used for inventory transactions related to sales, purchases, and valuation of inventory items can be obtained from multiple sources, depending on the business processes established in your organization. On the **General** tab of the [Posting Classes](IN_20_60_00.md) \(IN206000\) form, for each type of account, you specify from which source the system will use this account for the posting class.
 
@@ -81,7 +81,7 @@ In Acumatica ERP, you can select one of the following sources, which determine t
 -   *Warehouse*: The Inventory account will vary depending on the warehouse where the inventory transaction is made. You select this source if you use multiple warehouses in the system and each warehouse has a specific Inventory account assigned.
 -   *Posting class*: The Inventory account assigned to the posting class itself \(as specified in the **Default GL Accounts** section of the [Posting Classes](IN_20_60_00.md) form\) will be used. You select this source when you need to replace the Inventory account in item settings with a new account.
 
-## Basic Scenarios of Configuring Posting Classes { .section}
+## Basic Scenarios of Configuring Posting Classes
 
 When you create posting classes, you can configure the following basic scenarios:
 

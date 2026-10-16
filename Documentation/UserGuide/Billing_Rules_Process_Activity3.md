@@ -1,16 +1,16 @@
-# Billing Rules: To Modify a Billing Rule to Track New Expenses {#_c53c0b58-16c1-4385-a11e-d9ce1234d110 .task}
+# Billing Rules: To Modify a Billing Rule to Track New Expenses
 
 This activity will walk you through the process of modifying a billing rule by adding a new step, so that you can bill a new type of expenses within projects.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the West BBQ Restaurant customer has contacted the SweetLife Fruits &amp; Jams company and requested a maintenance service for a juicer. This is a new type of service that the company has not previously provided for any customer. SweetLife's employee has visited the customer and provided two hours of the new maintenance service.
 
 Acting as the project accountant of SweetLife, you need to update the billing rule used in the project to track the new type of expenses and bill the customer for the provided services.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -22,15 +22,15 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *WESTBBQ* customer has been configured.
 -   On the [Projects](PM_30_10_00.md) \(PM301000\) form, the *WESTSERV* project has been created for the *WESTBBQ* customer, and the *SERVICE* project task has been added to the project. On the **Tasks** tab, the *STANDARD* billing rule has been specified for the project task.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Billing Rules](PM_20_70_00.md) \(PM207000\) form, you will add a new step to the billing rule; for the step, you will configure processing transactions related to the new maintenance service. Then you will create project transactions on the [Project Transactions](PM_30_40_00.md) \(PM304000\) form to record the provided maintenance work and update the actual project values. Finally, you will bill a project and review the prepared pro forma invoice on the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of the activity, launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded; you should sign in as project accountant by using the *brawner* username and the *123* password.
 
-## Step 1: Modifying a Billing Rule { .section}
+## Step 1: Modifying a Billing Rule
 
 To add to an existing billing rule a billing step to bill maintenance expenses with a fixed margin coefficient of 1.2, do the following:
 
@@ -63,7 +63,7 @@ To add to an existing billing rule a billing step to bill maintenance expenses w
 4.  On the **Billing Settings** tab, clear the **Create Lines with Zero Amount and Quantity** check box.
 5.  Save your changes to the billing rule.
 
-## Step 2: Creating and Processing a Project Transaction { .section}
+## Step 2: Creating and Processing a Project Transaction
 
 To update the actual values of the project, create and process a project transaction for two hours of maintenance work by doing the following:
 
@@ -81,7 +81,7 @@ To update the actual values of the project, create and process a project transac
 5.  On the form toolbar, click **Save**, and then click **Release**.
 6.  On the [Projects](PM_30_10_00.md) \(PM301000\) form, open the *WESTSERV* project, and on the **Cost Budget** tab, notice that a line with the cost of the provided maintenance service has appeared with an **Actual Amount** of $160.
 
-## Step 3: Billing the Project and Reviewing the Billed Amount { .section}
+## Step 3: Billing the Project and Reviewing the Billed Amount
 
 To bill the project and review the document prepared for the customer, do the following:
 
@@ -95,7 +95,6 @@ To bill the project and review the document prepared for the customer, do the fo
 5.  On the form toolbar, click **Remove Hold** to assign the accounts receivable invoice the *Balanced* status, and then click **Release**.
 6.  On the [Projects](PM_30_10_00.md) \(PM301000\) form, open and review the *WESTSERV* project \(see below\). Notice that in the Summary area, the **Actual Income** box now shows $192, which is the total amount of the invoice that you have processed. The **Actual Expenses** box shows the amount of the project transaction that you have processed earlier \($160\).
 
-    ![](Images/activity_Projects_Billing_Rules_Modify.png "Updated project balances")
 
 
 You have updated the project billing rule and billed the project for time and material by using this rule.

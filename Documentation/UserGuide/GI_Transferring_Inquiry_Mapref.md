@@ -1,4 +1,4 @@
-# Transferring an Inquiry {#_580cb297-5e86-48af-8c09-d88e971992bd .concept}
+# Transferring an Inquiry
 
 In the course of working with generic inquiries, you may need to transfer a generic inquiry to another company or application instance. You may also need to export inquiry results to an XLS file.
 

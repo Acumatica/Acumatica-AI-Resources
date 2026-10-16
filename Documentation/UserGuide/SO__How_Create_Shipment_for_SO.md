@@ -1,8 +1,8 @@
-# To Prepare an Invoice for a Sales Order {#_83557dfa-09a7-4832-9a4a-5c855ceed3c2 .task}
+# To Prepare an Invoice for a Sales Order
 
 If you need to prepare an invoice for a particular sales order, you can do this from the [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 
-## To Prepare an Invoice for a Sales Order { .section}
+## To Prepare an Invoice for a Sales Order
 
 1.  Open the [Sales Orders](../Shared/../UserGuide/SO_30_10_00.md) \(SO301000\) form.
 2.  In the **Order Type** box of the Summary area, select the order type of the order for which you want to create an invoice.
@@ -10,7 +10,7 @@ If you need to prepare an invoice for a particular sales order, you can do this 
 4.  On the form toolbar, click **Prepare Invoice**.
 5.  Review the details of the prepared invoice on the [Invoices](../Shared/../UserGuide/SO_30_30_00.md) \(SO303000\) form, which opens.
 
-## Notes About the Procedure { .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

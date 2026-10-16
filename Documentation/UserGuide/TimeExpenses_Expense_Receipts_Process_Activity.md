@@ -1,8 +1,8 @@
-# Expense Receipts with Corporate Cards: To Claim Expenses for a Project {#_e05f8f66-7eee-43bb-be83-12a10b1bcd12 .task}
+# Expense Receipts with Corporate Cards: To Claim Expenses for a Project
 
 This activity will walk you through the process of creating and processing expense receipts with corporate cards.
 
-## Story { .section}
+## Story
 
 Suppose that the West BBQ Restaurant customer ordered the installation service for previously bought juicers from the SweetLife Fruits &amp; Jams company. The project accountant of SweetLife created a project to account for the provided services.
 
@@ -12,7 +12,7 @@ The next day, January 30, another SweetLife employee, Alberto Jimenez, went to a
 
 Acting as Jon Waite, you will enter all related expenses into the system and file a claim for the reimbursement of expenses.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -21,11 +21,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Non-Stock Items](IN_20_20_00.md#) \(IN202000\) form, the *CABLE*, *MEAL*, and *TAXI* non-stock items with the *Expense* type have been created.
 -   On the [Employees](EP_20_30_00.md#) \(EP203000\) form, the accounts for Jon Waite and Alberto Jimenez have been created.
 
-## Process Overview { .section}
+## Process Overview
 
 First, you will create an expense receipt for Jon Waite paying for electric cable on the [Expense Receipts](EP_30_10_10.md#) \(EP301010\) form. You then will create an expense claim, which will also include expenses for the taxi and coffee, on the [Expense Claim](EP_30_10_00.md#) \(EP301000\) form. As the last step, you will create the second expense receipt, for Alberto Jimenez paying for the taxi, on the [Expense Receipts](EP_30_10_10.md#) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
@@ -33,7 +33,7 @@ To sign in to the system and prepare to perform the instructions of the activity
 2.  Launch the Acumatica ERP website, and sign in as Jon Waite by using the *waite* username and the *123* password.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/29/2026*. If a different date is displayed, click the Business Date menu button, and select *1/29/2026* from the calendar. For simplicity, in this activity, you will create and process all documents in the system during this business date.
 
-## Step 1: Creating the First Expense Receipt { .section}
+## Step 1: Creating the First Expense Receipt
 
 To create an expense receipt to enter the purchase of electric cable, do the following:
 
@@ -52,7 +52,7 @@ To create an expense receipt to enter the purchase of electric cable, do the fol
 6.  Save the receipt.
 7.  On the form toolbar, click **Submit**. Notice that the receipt has the *Open* status.
 
-## Step 2: Processing an Expense Claim for the Expense Receipt { .section}
+## Step 2: Processing an Expense Claim for the Expense Receipt
 
 To claim the expense receipt you have created, along with the cost of coffee and a taxi, do the following:
 
@@ -82,7 +82,6 @@ To claim the expense receipt you have created, along with the cost of coffee and
     -   **Project Task**: *INSTALL* \(inserted automatically\)
     -   **Cost Code**: *00-000*
     -   **Paid With**: *Personal Account*
-    ![](Images/activity_Projects_Expense_Receipts.png "The expenses to be claimed")
 
 4.  In the Summary area, make sure that the claim total is $43.
 5.  Save the expense claim.
@@ -106,7 +105,7 @@ To claim the expense receipt you have created, along with the cost of coffee and
     -   A $6 debit adjustment for the coffee
     -   A $10 bill for the taxi
 
-## Step 3: Creating the Second Expense Receipt { .section}
+## Step 3: Creating the Second Expense Receipt
 
 To create an expense receipt to enter the amount spent on the taxi by Alberto Jimenez, do the following:
 

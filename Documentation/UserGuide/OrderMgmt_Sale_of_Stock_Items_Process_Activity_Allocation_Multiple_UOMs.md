@@ -1,16 +1,16 @@
-# Sales of Stock Items: To Allocate Stock with Multiple UOMs and Process a Sale {#_cc0c3ce3-6503-4d60-9847-af078b43ac2e .task}
+# Sales of Stock Items: To Allocate Stock with Multiple UOMs and Process a Sale
 
 In the following activity, you will allocate stock and process a sales order whose item has a sales UOM that differs from the UOM specified in the sales order line.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Regina Wiley, a sales manager of the SweetLife Fruits &amp; Jams company. On January 30, 2026, the Four Stars Coffee and Sweets Shop has ordered four boxes of grape jam in eight-ounce jars from SweetLife’s retail store. Each box has 10 jars.
 
 When you allocated the jars for this sales order, you have noticed that only 25 jars \(two boxes and five jars\) are available in the retail warehouse. The other 15 jars are available in SweetLife’s wholesale warehouse. Because the company sells jams by boxes, you need to transfer the unavailable 15 jars \(one box and five jars\) from the wholesale warehouse to the retail warehouse and process the sale.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -28,7 +28,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Order Types](SO_20_10_00.md) \(SO201000\) form, the *SO* and *TR* order types have been configured.
 -   On the [Receipts](IN_30_10_00.md) \(IN301000\) form, a receipt dated 1/20/2026 has been created with 20 jars of the *GRAPEJAM08* item at a cost of $6.75 each.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -40,7 +40,7 @@ In this activity, you will do the following:
 6.  On the [Sales Orders](SO_30_10_00.md) form, create and quickly process the sales order with the allocated items.
 7.  On the [Shipments](SO_30_20_00.md) \(SO302000\) form, review the shipment, and on the [Invoices](SO_30_30_00.md) \(SO303000\) form, review the sales invoice.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start allocating stock items with multiple UOMs for a sales order and processing the sale, do the following:
 
@@ -48,7 +48,7 @@ Before you start allocating stock items with multiple UOMs for a sales order and
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the Company and Branch Selection menu in the top pane of the Acumatica ERP screen, select the *SweetLife Store* branch.
 
-## Step 1: Creating a Sales Order { .section}
+## Step 1: Creating a Sales Order
 
 To create a sales order, do the following:
 
@@ -66,7 +66,7 @@ To create a sales order, do the following:
     -   **Quantity**: `4`
 5.  On the form toolbar, click **Save**.
 
-## Step 2: Allocating the Items { .section}
+## Step 2: Allocating the Items
 
 To allocate the items for the sales order, do the following:
 
@@ -84,7 +84,7 @@ To allocate the items for the sales order, do the following:
 
 3.  On the form toolbar, click **Save**.
 
-## Step 3: Creating the Transfer Order { .section}
+## Step 3: Creating the Transfer Order
 
 Now you will create the transfer order to transfer the allocated items from the wholesale warehouse to the retail warehouse. Do the following:
 
@@ -94,7 +94,7 @@ Now you will create the transfer order to transfer the allocated items from the 
 4.  In the **Description** box in the Summary area, type `Transferred grape jam for a sales order from COFFEESHOP`.
 5.  On the form toolbar, click **Save**.
 
-## Step 4: Processing the Transfer Order { .section}
+## Step 4: Processing the Transfer Order
 
 To process the transfer order to completion, do the following:
 
@@ -106,7 +106,7 @@ To process the transfer order to completion, do the following:
 
 Now you can process the receipt of the items in the *RETAIL* warehouse.
 
-## Step 5: Processing the Transfer Receipt { .section}
+## Step 5: Processing the Transfer Receipt
 
 To process the transfer receipt, do the following:
 
@@ -119,7 +119,7 @@ To process the transfer receipt, do the following:
 5.  On the **Details** tab, review the added lines with the *GRAPEJAM08* item.
 6.  On the form toolbar, click **Release**.
 
-## Step 6: Creating and Quickly Processing Sales Documents { .section}
+## Step 6: Creating and Quickly Processing Sales Documents
 
 Now you will use quick processing to create and process the sales documents related to the sales order you created in Step 1. Do the following:
 
@@ -137,7 +137,7 @@ Now you will use quick processing to create and process the sales documents rela
     6.  Click **OK**.
     7.  After the system creates the shipment, issue, and invoice, close the **Processing Results** dialog box. Notice that the sales order now has the *Completed* status.
 
-## Step 7: Reviewing the Shipment and the Sales Invoice { .section}
+## Step 7: Reviewing the Shipment and the Sales Invoice
 
 To review the shipment and the sales invoice for the sales order, do the following:
 
@@ -145,12 +145,10 @@ To review the shipment and the sales invoice for the sales order, do the followi
 2.  Click the link in the **Document Nbr.** column of the only row.
 3.  On the [Shipments](SO_30_20_00.md) \(SO302000\) form, which opens, notice that the system has added the four split lines that were specified in the **Line Details** dialog box of the sales order \(see the following screenshot\).
 
-    ![](Images/OrderMgmt_Sale_of_Stock_Items_Activity_Allocation_Multiple_UOMs_Shipment.png "The shipment lines")
 
 4.  Return to the sales order, and click the link in the **Invoice Nbr.** column.
 5.  On the [Invoices](SO_30_30_00.md) \(SO303000\) form, which opens, notice that the system has summed the splits of the order line.
 
-    ![](Images/OrderMgmt_Sale_of_Stock_Items_Activity_Allocation_Multiple_UOMs_Invoice.png "The line of the sales invoice")
 
 
 You have completed processing the sales order.

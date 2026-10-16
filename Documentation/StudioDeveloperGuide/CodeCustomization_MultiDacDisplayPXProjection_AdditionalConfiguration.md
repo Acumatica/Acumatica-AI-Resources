@@ -1,8 +1,8 @@
-# Use of PXProjection: Additional Configuration of the PXProjection Attribute {#_e8f097ea-69a0-496d-84d1-807f21b072b4 .concept}
+# Use of PXProjection: Additional Configuration of the PXProjection Attribute
 
 The following sections describe various ways in which you can further configure and use the [PXProjection](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=d23f265e-1a4c-8ce1-d732-72fbaf8faf01) attribute.
 
-## Reducing the Field Count by Using a Projection { .section}
+## Reducing the Field Count by Using a Projection
 
 In many cases, such as when generating reports, you need only a subset of the corresponding DAC fields to be returned from the database. You can configure a projection to exclude the unnecessary fields and optimize your query. The following code shows an example of a projection that returns only the two fields that are defined by the `AdjgDocType` and `AdjgRefNbr` properties.
 
@@ -26,7 +26,7 @@ public class APAdjust3 : PXBqlTable, IBqlTable
 }
 ```
 
-## Filtering Rows with a Projection { .section}
+## Filtering Rows with a Projection
 
 You can configure a projection to return filtered data from a DAC. The following projection returns filtered data from the Vendor DAC based on the criteria in the Where clause of the BQL query passed to the [PXProjection](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=d23f265e-1a4c-8ce1-d732-72fbaf8faf01) attribute.
 
@@ -36,7 +36,7 @@ You can configure a projection to return filtered data from a DAC. The following
 public class SuppliedByVendor : Vendor { }
 ```
 
-## Persisting Data with a Projection { .section}
+## Persisting Data with a Projection
 
 By default, a projection is read-only—that is, it doesn’t save any data to the database. To make a projection mutable, set the Persistent property of the [PXProjection](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=d23f265e-1a4c-8ce1-d732-72fbaf8faf01) attribute to *true*. As a result, the table of the first DAC specified in the Select command of the projection's query will be mutable.
 
@@ -111,7 +111,7 @@ if (split != null)
 ...
 ```
 
-## Using a Projection in Another Projection { .section}
+## Using a Projection in Another Projection
 
 You can declare a projection and reference it in the projection query of another projection. The following code shows an example.
 
@@ -165,7 +165,7 @@ public class FABookHistoryRecon : PXBqlTable, IBqlTable
 }
 ```
 
-## Using Parameterized Elements in a Projection Query { .section}
+## Using Parameterized Elements in a Projection Query
 
 You can write a projection query with parameterized elements, such as the current value of a DAC fields. However, if your projection query uses the values of the DAC fields from the current DAC record for these elements, you must access those values by using the [CurrentValue](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=8948f322-2da1-6d6c-509a-984c4389bb49) BQL operator instead of the Current or Current2 BQL operator. If your query is written by using fluent BQL, you should use the `field.FromCurrent.Value` operator instead of the field.FromCurrent operator.
 
@@ -177,7 +177,7 @@ The following code shows an example of the field.FromCurrent.Value fluent BQL op
 public class SuppliedByVendor : Vendor { }
 ```
 
-## Using the CurrentMatch BQL Operator in a Projection Query { .section}
+## Using the CurrentMatch BQL Operator in a Projection Query
 
 To enable row-level security, use the [CurrentMatch](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=88262b82-2bb2-08cc-13db-373b1825f688) BQL operator instead of the Match BQL operator in your projection queries. This operator matches only the data records that the specified user has access to. The following code shows an example.
 

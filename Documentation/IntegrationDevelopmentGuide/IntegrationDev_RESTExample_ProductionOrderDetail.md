@@ -1,4 +1,4 @@
-# ProductionOrderDetail {#_59c10b4c-44e0-4ba6-a53c-6875be9200db .concept}
+# ProductionOrderDetail
 
 This chapter presents code examples showing requests that use the `ProductionOrderDetail` entity.
 

@@ -1,4 +1,4 @@
-# To Add a Form Container {#_ee674938-9f49-4f83-8ac7-1731a90944bb .concept}
+# To Add a Form Container
 
 You can add a new PXFormView container to a form of Acumatica ERP. To do this, perform the following actions:
 
@@ -6,7 +6,6 @@ You can add a new PXFormView container to a form of Acumatica ERP. To do this, p
 2.  In the editor, click the **Add Controls** tab item.
 3.  From the **Main Containers** group, drag the **Form** container to the required place in the Control Tree, as shown in the following screenshot.
 
-    ![](images/CG_GL_Forms_CustForm_AddContainer_Form_01.png "Adding a form container to a form")
 
     **Note:** The area of a form container is visible on a customized form only if it contains at least one visible control.
 

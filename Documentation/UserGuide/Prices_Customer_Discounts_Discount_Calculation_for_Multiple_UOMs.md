@@ -1,4 +1,4 @@
-# Customer Discounts: Calculation of Discounts for Multiple UOMs {#_68222792-b6fb-4c53-b930-e13d458a196c .concept}
+# Customer Discounts: Calculation of Discounts for Multiple UOMs
 
 In Acumatica ERP, you can set up any item to be sold in different units of measure \(UOMs\); this may influence the calculation of discounts defined by quantity. In this topic, you will read about application of external discounts in Acumatica ERP.
 

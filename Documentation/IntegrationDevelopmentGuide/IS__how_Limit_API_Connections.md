@@ -1,12 +1,12 @@
-# To Limit the Number of API Connections of Integrated Applications {#_a226e24d-6f61-47e7-b19b-3fb7cf78df06 .task}
+# To Limit the Number of API Connections of Integrated Applications
 
 On the [User Types](../UserGuide/EP_20_25_00.md) \(EP202500\) form, you limit the number of sessions \(that is, API connections\) used by each of the integrated applications. You can also specify a different limit for a particular integrated application as described in [To Limit API Connections of a Particular Application](IS__how_Limit_API_Connections_for_Particular_App.md).
 
-## Before You Proceed {#_c2e24184-7cae-4f51-b518-16e840d61657 .section}
+## Before You Proceed
 
 On the [User Roles](../UserGuide/SM_20_10_05.md) \(SM201005\) form, create a user role that will be used by integrated applications. For details about user roles, see [Configuring User Roles](../UserGuide/User_Roles_Mapref.md).
 
-## To Limit API Connections of Each Integrated Application { .section}
+## To Limit API Connections of Each Integrated Application
 
 1.  Open the [User Types](../UserGuide/EP_20_25_00.md) \(EP202500\) form.
 2.  Create a user type that will be used by integrated applications as described in [To Add a User Type](../UserGuide/US__how_Add_Contact_User_Type.md#). On the **Security Policies** tab, add the role that you created in the preliminary instructions \([Before You Proceed](#_c2e24184-7cae-4f51-b518-16e840d61657)\).

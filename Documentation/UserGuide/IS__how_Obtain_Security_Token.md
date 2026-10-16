@@ -1,4 +1,4 @@
-# To Obtain a Salesforce Security Token {#_612039e9-d12a-4d55-91ae-3b500a253052 .task}
+# To Obtain a Salesforce Security Token
 
 Each time a new user is created in Salesforce, the system sends the user an email with a user security token. If you have lost your security token, you can request a new one by doing the following:
 

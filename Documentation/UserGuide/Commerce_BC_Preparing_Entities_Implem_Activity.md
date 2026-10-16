@@ -1,10 +1,10 @@
-# Preparing Entities for Synchronization: Implementation Activity {#_027c5ae6-b4de-4c21-8bd1-e9df4bc340f7 .task}
+# Preparing Entities for Synchronization: Implementation Activity
 
 In this activity, you will define a subset of stock items maintained in Acumatica ERP that should be synchronized with the BigCommerce store. You will also learn how to exclude a particular customer from synchronization, and map a custom field on the customer registration form in BigCommerce to the corresponding attribute form in Acumatica ERP.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 As an implementation consultant helping SweetLife to set up the integration between Acumatica ERP and the online store deployed on the BigCommerce platform, you need to configure the synchronization of only a subset of stock items that will be available for sale on the ecommerce website. The SweetLife store is going to sell jams, and all stock items that need to be prepared for synchronization belong to the *Jam* item class.
 
@@ -12,7 +12,7 @@ You also need to configure the generic retail customer, *RETSALE*, to be exclude
 
 Additionally, you want to update the customer registration form in the BigCommerce store to have an additional field that you use to collect information about the size of your business customers. You want this information to be imported to Acumatica ERP along with the other customer data.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will first review the stock items that need to be exported to the BigCommerce store on the [Stock Items](IN_20_25_00.md) \(IN202500\) form. Then on the [Entities](BC_20_20_00.md) \(BC202000\) form, you will configure the filtering options for the *Stock Item* entity to include in the synchronization only stock items of the *Jam* item class.
 
@@ -20,14 +20,14 @@ While remaining on the [Entities](BC_20_20_00.md) form, you will set up the filt
 
 Finally, you will create a custom field on the customer registration form in the BigCommerce store, add the *ORGSIZE* attribute to the customer class of ecommerce customers \(that is, the *ECCUSTOMER* class\) on the [Customer Classes](AR_20_10_00.md) \(AR201000\) form, and map the attribute to the BigCommerce organization size field on the [Entities](BC_20_20_00.md) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start the synchronization process, do the following:
 
 -   Make sure the connection to the BigCommerce store has been established and the minimum configuration has been performed, as described in [Initial Configuration: To Establish and Configure the Store Connection](Commerce_BC_Initial_Configuration_Implem_Activity.md).
 -   Sign in to the Acumatica ERP instance with the *U100* dataset preloaded by using the *gibbs* username and the *123* password.
 
-## Step 1: Reviewing the Stock Items to Be Sold Online { .section}
+## Step 1: Reviewing the Stock Items to Be Sold Online
 
 To find the stock items that will be sold online, do the following:
 
@@ -41,7 +41,7 @@ To find the stock items that will be sold online, do the following:
     Now all stock items of the *Jam* item class are displayed. These are the stock items that will need to be exported to the BigCommerce store.
 
 
-## Step 2: Configuring the Stock Item Entity to Export a Subset of Stock Items { .section}
+## Step 2: Configuring the Stock Item Entity to Export a Subset of Stock Items
 
 To configure the *Stock Item* entity to export to the BigCommerce store only stock items of the *Jam* item class, do the following:
 
@@ -63,7 +63,7 @@ To configure the *Stock Item* entity to export to the BigCommerce store only sto
     **Attention:** Filtering rules do not affect data that has already been synchronized. For example, if you first synchronize the *Stock Item* entity without filters, apply the filter described above, and run the synchronization again, previously synchronized stock items will remain synchronized; however, they will be excluded from subsequent synchronizations.
 
 
-## Step 3: Configuring the Customer Entity to Not Sync a Particular Customer Record { .section}
+## Step 3: Configuring the Customer Entity to Not Sync a Particular Customer Record
 
 To configure the *Customer* entity to exclude the *RETSALE* customer from synchronization, do the following:
 
@@ -83,7 +83,7 @@ To configure the *Customer* entity to exclude the *RETSALE* customer from synchr
     Now when you synchronize the *Customer* entity, the *RETSALE* customer will be excluded from the process.
 
 
-## Step 4: Reviewing the Organization Size Attribute in Acumatica ERP { .section}
+## Step 4: Reviewing the Organization Size Attribute in Acumatica ERP
 
 To see how the *ORGSIZE* attribute has been set up in the Acumatica ERP instance, do the following:
 
@@ -96,7 +96,7 @@ To see how the *ORGSIZE* attribute has been set up in the Acumatica ERP instance
 4.  In the **Attribute ID** column, select the *ORGSIZE* attribute.
 5.  Click **Save &amp; Close** on the form toolbar to save your changes.
 
-## Step 5: Adding a Custom Field to the Customer Registration Form in BigCommerce { .section}
+## Step 5: Adding a Custom Field to the Customer Registration Form in BigCommerce
 
 To add a new field to the customer registration form in the BigCommerce store, do the following:
 
@@ -118,7 +118,7 @@ To add a new field to the customer registration form in the BigCommerce store, d
 
 5.  Click **Save** to save the new field.
 
-## Step 6: Mapping the ORGSIZE Customer Attribute in Acumatica ERP to the Custom Organization Size Field in BigCommerce { .section}
+## Step 6: Mapping the ORGSIZE Customer Attribute in Acumatica ERP to the Custom Organization Size Field in BigCommerce
 
 To map the *ORGSIZE* customer attribute that you configured in Step 4 to the **Organization Size** field that you configured in Step 5, do the following:
 

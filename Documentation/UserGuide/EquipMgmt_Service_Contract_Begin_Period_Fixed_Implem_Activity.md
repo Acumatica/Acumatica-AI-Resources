@@ -1,16 +1,16 @@
-# Service Contracts: To Create and Process a Service Contract with Beginning-Period Fixed Billing {#_33d32bd3-bc50-43f9-89c5-365f9544b492 .task}
+# Service Contracts: To Create and Process a Service Contract with Beginning-Period Fixed Billing
 
 In this activity, you will create a service contract with fixed billing at the beginning of the period, and you will generate appointments for the service contract.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_pzj_f1t_kdc .section}
+## Story
 
 Suppose that the GoodFood One Restaurant customer has decided to sign an annual maintenance contract with the SweetLife Service and Equipment Sales Center for a fixed price, which will be billed at the beginning of each billing period \(a month\). The contract will cover the full assistance during the contract period. The list of services covered by the service contract has been agreed upon; it includes the cleaning of a customer's equipment twice a week on Tuesday and Friday.
 
 The service manager \(Maia Davis\) needs to create a service contract with fixed billing at the beginning of each month, and to add schedules for the generation of appointments.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following configuration tasks have been performed to prepare the system for this activity to be performed:
 
@@ -30,18 +30,18 @@ In the *U100* dataset, the following configuration tasks have been performed to 
 -   On the [Employees](EP_20_30_00.md#) \(EP203000\) form, *EP00000040 \(Maia Davis\)* has been defined, and the **Staff Member in Service Management** check box has been selected on the **General Info** tab.
 -   On the [User Profile](SM_20_30_10.md) \(SM203010\) form, the *SWEETEQUIP* default branch and *WEST BRIGHTON* default branch location have been specified for *Maia Davis*.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create a service contract on the [Service Contracts](FS_30_57_00.md) \(FS305700\) form. Next, you will create two schedules for appointment generation on the [Service Contract Schedules](FS_30_51_00.md) \(FS305100\) form, and activate the contract on the [Service Contracts](FS_30_57_00.md) form. You will then generate a billing document for the first billing period on the [Run Service Contract Billing](FS_50_13_00.md) \(FS501300\) form. Finally, you will review the scheduled appointments on the [Appointment Summary](FS_40_01_00.md) \(FS400100\) form.
 
-## System Preparation {#section_jbg_hk3_1rb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as a service manager by using the *davis* username, and the *123* password.
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business Date menu button, and select the 1/30/2026 date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating a Service Contract with Fixed Billing at the Beginning of the Period {#section_uq1_h1t_kdc .section}
+## Step 1: Creating a Service Contract with Fixed Billing at the Beginning of the Period
 
 To create the service contract with fixed billing at the beginning of the contract period for the GoodFood One Restaurant, do the following:
 
@@ -68,9 +68,8 @@ To create the service contract with fixed billing at the beginning of the contra
 
 The first billing period for the contract is *1/30/2026*–*2/27/2026*, as the following screenshot shows.
 
-![](Images/EquipMgmt_Service_Contract_Beg_BillingPeriod.png "The active billing period")
 
-## Step 2: Creating an Appointment Schedule for the Cleaning Service and Generating Appointments {#section_emt_h1t_kdc .section}
+## Step 2: Creating an Appointment Schedule for the Cleaning Service and Generating Appointments
 
 To add a schedule for the cleaning service to the contract and generate an appointment for the first billing period, do the following:
 
@@ -106,7 +105,7 @@ To add a schedule for the cleaning service to the contract and generate an appoi
 
 The system has created a schedule and added it to the **Schedules** tab of the [Service Contracts](FS_30_57_00.md) form.
 
-## Step 3: Reviewing the Generated Appointments {#section_xvg_31t_kdc .section}
+## Step 3: Reviewing the Generated Appointments
 
 To review the generated appointments for the service contract, do the following:
 
@@ -118,7 +117,7 @@ To review the generated appointments for the service contract, do the following:
     The list of appointments generated for the selected service contract is shown in the table. The appointments for the cleaning services are generated to be performed each week on Tuesday and Friday during the billing period \(*1/30/2026*–*2/27/2026*\). Open the first appointment by clicking its reference number in the **Appointment Nbr.** column. The [Appointments](FS_30_02_00.md) \(FS300200\) form opens. In the appointment, notice that the *CLEANING* service has been added on the **Details** tab and the **Free Item** check box is selected for it, indicating that **this service is covered by the service contract.** Notice that in the **Summary** area, the appointment total is set to *0*.
 
 
-## Step 4: Running Service Contract Billing {#section_xyv_31t_kdc .section}
+## Step 4: Running Service Contract Billing
 
 To run service contract billing at the beginning of the contract period, do the following:
 
@@ -134,7 +133,7 @@ To run service contract billing at the beginning of the contract period, do the 
 
 8.  Close the [Invoices and Memos](AR_30_10_00.md) and [Service Contracts](FS_30_57_00.md) forms.
 
-## Step 5: Running Billing for the First Appointment of the Billing Period {#section_vwj_j1t_kdc .section}
+## Step 5: Running Billing for the First Appointment of the Billing Period
 
 In this step, you will run billing for the first appointment of the billing period and review the generated billing documents. Do the following:
 

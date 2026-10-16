@@ -1,10 +1,10 @@
-# Specific Approvals: GL Transactions {#_2c712df8-fead-49ca-a708-365d69712782 .concept}
+# Specific Approvals: GL Transactions
 
 In Acumatica ERP, you can set up the approval functionality for batches of GL transactions so that these batches can be released and posted only after they have been approved by an authorized employee.
 
 In Acumatica ERP, the approver for GL transactions is determined through an approval map. This map is created by a company administrator and then specified on the [General Ledger Preferences](../UserGuide/GL_10_20_00.md) \(GL102000\) form.
 
-## Approval Maps for GL Transactions { .section}
+## Approval Maps for GL Transactions
 
 As a system administrator, you have the ability to configure the approval maps in two ways:
 
@@ -15,7 +15,7 @@ When creating an approval map, you can establish rules for the approval process.
 
 You can specify approval maps for different types of transactions, including those generated during consolidation, trial balance entry, allocation, and reclassification.
 
-## Configuration of Approval for GL Transactions { .section}
+## Configuration of Approval for GL Transactions
 
 To set up the approval functionality of GL transactions, perform the following general steps:
 

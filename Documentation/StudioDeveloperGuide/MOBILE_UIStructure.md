@@ -1,6 +1,6 @@
-# Configuring the Mobile Site Map by Using XML \(deprecated\) {#_9b2ae176-5ff6-4e27-9cd2-527da3aa34ad .concept}
+# Configuring the Mobile Site Map by Using XML \(deprecated\)
 
-**Note:** Using XML for customizing the Mobile Site Map is deprecated starting in Acumatica 2026 R1. Use [Configuring the Mobile Site Map](MOBILE_MSDL.md) instead.
+**Note:** Using XML for customizing the Mobile Site Map is deprecated starting in Acumatica 2026 R2. Use [Configuring the Mobile Site Map](MOBILE_MSDL.md) instead.
 
 The user interface of the Acumatica mobile app has the following structure:
 

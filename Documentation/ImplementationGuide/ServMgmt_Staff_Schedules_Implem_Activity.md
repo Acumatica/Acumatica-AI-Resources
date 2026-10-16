@@ -1,14 +1,14 @@
-# Staff Schedules: To Create a Schedule Rule and Generate the Work Schedule {#_01d8043a-0539-41a1-87b3-f73ea43d6ad3 .task}
+# Staff Schedules: To Create a Schedule Rule and Generate the Work Schedule
 
 In this implementation activity, you’ll create a schedule rule for a staff member and generate their work schedule.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose an employee of the SweetLife Service and Equipment Sales Center works Monday through Friday, from 9:00 AM to 6:00 PM. As an administrative user, you need to create a schedule rule that defines this employee’s working hours so their schedule can be generated in the system and displayed on the schedule boards.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -19,11 +19,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   On the [Users](../UserGuide/SM_20_10_10.md) \(SM201010\) form, the *frank* user account has been created. The *EP00000042 \(Chase Frank\)* employee has been associated with the user account. That is, the employee name has been selected in the **Linked Entity** box.
 -   On the [Employees](../UserGuide/EP_20_30_00.md#) \(EP203000\) form, *EP00000042 \(Chase Frank\)* has been defined. On the **General** tab \(**Employee Settings** section\), the **Staff Member in Service Management** check box has been selected, so you can assign this employee to perform services.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Staff Schedule Rules](../UserGuide/FS_20_20_01.md) \(FS202001\) form, you will create a work schedule rule. Once the rule is generated, you will generate the work schedule on the [Generate Staff Schedules](../UserGuide/FS_50_04_00.md) \(FS500400\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -32,7 +32,7 @@ Before you start this activity, do the following:
 3.  On the Company and Branch Selection menu in the top pane of the Acumatica ERP screen, select the *Service and Equipment Sales Center* branch.
 4.  In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date *1/1/2026*. In this activity, you will create a work schedule rule on this business date.
 
-## Step 1: Creating a Schedule Rule { .section}
+## Step 1: Creating a Schedule Rule
 
 To create a work schedule rule for the *EP00000042 - Chase Frank* employee, do the following:
 
@@ -45,7 +45,7 @@ To create a work schedule rule for the *EP00000042 - Chase Frank* employee, do t
 7.  In the **Start Time** box, specify *9:00 AM*.
 8.  In the **End Time** box, specify *6:00 PM*.
 9.  For the **Schedule Type**, keep **Availability** selected. This option defines the days and times when the staff member is available to work.
-10. In the **Recurrence** section, specify settings as shown below::
+10. In the **Recurrence** section, specify settings as shown below:
     -   **Frequency**: *Weekly*
     -   **Every**: **1** week
     -   **Day of Week**:
@@ -57,7 +57,7 @@ To create a work schedule rule for the *EP00000042 - Chase Frank* employee, do t
     The schedule rule for *EP00000042 - Chase Frank* has been created. However, it has not been processed yet and it does not affect the working schedule. The rule will come into effect only after you apply it to the system by generating the staff working schedule.
 
 
-## Step 2: Generating the Staff Schedule { .section}
+## Step 2: Generating the Staff Schedule
 
 **Tip:** The staff schedule rules you create in the system aren’t applied automatically—you must generate the work schedule explicitly. You’ll need to generate it again if you later change an employee’s working hours, add a new rule to reflect planned time off, or hire a new staff member.
 

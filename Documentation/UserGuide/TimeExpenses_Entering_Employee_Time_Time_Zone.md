@@ -1,4 +1,4 @@
-# Employee Time Entry: Time Zones in Time Activities {#_e8e87994-f74c-45c4-aa60-66a5f346b3fd .concept}
+# Employee Time Entry: Time Zones in Time Activities
 
 A time zone reflects the local time for a specific geographic area. In Acumatica ERP, the system determines your current time zone and uses this time zone to display the date and time in a time activity you’re viewing. This is true of time activities created on the following forms:
 
@@ -11,7 +11,7 @@ A time zone reflects the local time for a specific geographic area. In Acumatica
 -   [Appointments](FS_30_02_00.md) \(FS300200\)
 -   [Create Labor Time Activities](AM_51_30_00.md) \(AM513000\)
 
-## Determination of the Time Zone { .section}
+## Determination of the Time Zone
 
 When you're viewing a time activity—whether it's one you're creating, one you've created in the past, or one created by another employee—the system fills the **Date** and **Time** UI elements by using your current time zone. To determine your current time zone, it checks the following forms and applies the first one it finds:
 
@@ -28,7 +28,7 @@ If no time zone is found, the system uses UTC+0.
 
 If you're creating the activity, the system determines the time zone by using this algorithm. Then it saves the time zone it has selected and stores the date and time in UTC.
 
-## Time-Related Data { .section}
+## Time-Related Data
 
 While viewing a time activity on most forms, you’ll see the date and time in both your current time zone and the zone where the activity was entered. The system displays the following columns:
 
@@ -49,7 +49,7 @@ You can view these columns on the following forms:
 
 When you review time activities on the [Employee Time Cards](EP_30_50_00.md), [Employee Time Activities](EP_30_70_00.md), and [Weekly Crew Time Entry](EP_30_71_00.md) forms, the system shows the particular time activities if their **Reported On** date falls within the specified week or week range.
 
-## Example: Time Zone Changes in Action { .section}
+## Example: Time Zone Changes in Action
 
 Suppose that you’ve specified the *GMT+1 \(Belgrade\)* time zone for your user account on the [User Profile](SM_20_30_10.md) \(SM203010\) form.
 
@@ -59,18 +59,16 @@ When you create a time activity on the [Employee Time Activities](EP_30_70_00.md
 -   The **Reported On** date and **Reported At** time match the **Date** and **Time** \(as shown below\) because you’re viewing the activity in the same time zone it was reported in.
 -   The **Reported in Time Zone** column confirms that the system has correctly saved your time zone as *\(GMT+1\)*.
 
-![](Images/TE_Time_Zone_Time_Activity_TZ1.png "The date and time in the original time zone")
 
 Later, while traveling for business, you manually change your time zone on the [User Profile](SM_20_30_10.md) form to *GMT-8 \(Pacific Time US &amp; Canada\)*. When you open the same time activity again, the system displays \(as shown below\):
 
 -   **Date** and **Time** in your current time zone *\(GMT-8\)*
 -   The **Reported On** date and **Reported At** time in the original time zone *\(GMT+1\)*
 
-![](Images/TE_Time_Zone_Time_Activity_TZ2.png "The date and time in the current and original time zones")
 
 This ensures that your reported time always reflects the correct date and time, even if you are in a different time zone.
 
-## Changes to Reported Data { .section}
+## Changes to Reported Data
 
 In some cases, you may need to update the values in either the **Reported On** or **Reported At** columns of a time activity \(or both of them\)—for example, to ensure that the correct date is reflected in a project transaction. To do this, update the **Date** and **Time** columns of the time activity.
 

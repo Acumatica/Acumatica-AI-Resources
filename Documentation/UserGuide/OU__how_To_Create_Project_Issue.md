@@ -1,4 +1,4 @@
-# To Create a Project Issue by Using the Acumatica Add-In {#_04cb0f78-5e14-4f98-9694-ab11e7335a4a .task}
+# To Create a Project Issue by Using the Acumatica Add-In
 
 To create a new project issue based on an email, do the following:
 

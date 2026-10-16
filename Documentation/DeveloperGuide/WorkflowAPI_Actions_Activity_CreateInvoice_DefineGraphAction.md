@@ -1,4 +1,4 @@
-# Step 1: Defining the Graph Action {#_d3315a20-3241-4ab4-8be1-5603cb128d9b .concept}
+# Step 1: Defining the Graph Action
 
 You should define the method in which an invoice is created, and then you can call this method in the `PXLongOperation.StartOperation` method.
 
@@ -10,7 +10,7 @@ To define the method in which the SO invoice is created and the respective actio
 
 1.  Add the following `using` directives to the `RSSVWorkOrderEntry.cs` file \(if they have not been added yet\).
 
-    ```language-csharp
+    ```csharp
     using System.Collections.Generic;
     using PX.Objects.SO;
     using PX.Objects.AR;
@@ -20,7 +20,7 @@ To define the method in which the SO invoice is created and the respective actio
 
 2.  Add the following static method, `CreateInvoice`, to the `RSSVWorkOrderEntry` graph. The `CreateInvoice` method creates the SO invoice for the current work order.
 
-    ```language-csharp
+    ```csharp
             private static void CreateInvoice(RSSVWorkOrder workOrder)
             {
                 using (var ts = new PXTransactionScope())
@@ -96,7 +96,7 @@ To define the method in which the SO invoice is created and the respective actio
 
     **Attention:** To perform a background operation, an action method needs to have a parameter of the PXAdapter type and return IEnumerable.
 
-    ```language-csharp
+    ```csharp
             public PXAction<RSSVWorkOrder> CreateInvoiceAction = null!;
             [PXButton]
             [PXUIField(DisplayName = "Create Invoice", Enabled = true)]

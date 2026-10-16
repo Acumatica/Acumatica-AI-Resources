@@ -1,12 +1,12 @@
-# Service Contracts with End-Period Billing: To Bill a Period with No Appointments {#_7f323d9d-995e-49c3-bb0a-36a06907490a .task}
+# Service Contracts with End-Period Billing: To Bill a Period with No Appointments
 
 In this activity, you will learn how to generate an invoice for the billing period of a service contract with the end-period billing if no appointments took place in this period.
 
-## Story { .section}
+## Story
 
 Suppose that the second billing period \(February 6, 2026 through February 12, 2026\) of the contract with the HM's Bakery and Cafe customer has passed. No appointments have been scheduled because it was canceled by the customer. The accountant of Service Equipment and Sales Center \(Yona Jones\) is generating an invoice for the second billing period. Acting as Yona Jones, you will perform the needed actions in the system.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following configuration tasks have been performed to prepare the system for this activity to be performed:
 
@@ -24,11 +24,11 @@ In the *U100* dataset, the following configuration tasks have been performed to 
 -   On the [Employees](EP_20_30_00.md) \(EP203000\) form, the *EP00000012 - Yona Jones* employee has been configured.
 -   A service contract has been created according to [Service Contracts: To Create and Process an End-Period Billing Service Contract \(Appointment with No Overage Items\)](EquipMgmt_Service_Contracts_End_Period_Process_Activity.md). For the service contract, the schedule has been created, and two appointments have been generated \(for the next two weeks\) according to the schedule. Then the appointment for *2/7/2026* has been canceled.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will specify the start and end date of the billing period and generate an invoice for the service contract by using the [Run Service Contract Billing](FS_50_13_00.md) \(FS501300\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Do the following:
 
@@ -36,7 +36,7 @@ Do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business Date menu button, and select the *2/13/2026* date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, select the *Service and Equipment Sales Center* branch under the *SweetLife Fruits &amp; Jams* company.
 
-## Step 1: Reviewing Appointments For the Second Billing Period { .section}
+## Step 1: Reviewing Appointments For the Second Billing Period
 
 To review an appointment generated for the second billing period of the service contract, do the following:
 
@@ -50,7 +50,7 @@ To review an appointment generated for the second billing period of the service 
     Notice that only an appointment with *Canceled* status is in the list. It was generated according to contract schedule, but later it was canceled.
 
 
-## Step 2: Generating a Billing Document for the Second Billing Period { .section}
+## Step 2: Generating a Billing Document for the Second Billing Period
 
 To generate a billing document for the second billing period, do the following:
 
@@ -74,7 +74,6 @@ To generate a billing document for the second billing period, do the following:
 
     The [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form opens, and you can review the generated invoice. The invoice includes the item that has been covered by the contract, as the following screenshot shows. It means that even if there are no appointments in the period, the contract item is billed.
 
-    ![](Images/EqipMgmt_Service_Contracts_End_Period_with_No_Appointments.png "The invoice for the second billing period of the service contract")
 
 9.  On the form toolbar, click **Remove Hold**, and then **Release**.
 10. On the [Service Contracts](FS_30_57_00.md) form, select the contract. On the **Billing Documents** tab, review the reference number of the invoice. On the **Service Per Period** tab, in the **Billing Period** box, click the lookup icon. Review that the status of the *02/06/2026 - 02/12/2026* period is *Invoiced*, and the next billing period is automatically created and set as *Active*.

@@ -1,8 +1,8 @@
-# CacheAttached:To Replace Field Attributes in CacheAttached {#_2bd76d3e-a88e-4615-8a1a-b1632143707c .task}
+# CacheAttached:To Replace Field Attributes in CacheAttached
 
 The following activity will walk you through the process of replacing field attributes in CacheAttached event handlers.
 
-## Story { .section}
+## Story
 
 The `RSSVWorkOrder` DAC holds the data of the Repair Work Orders \(RS301000\) data entry form. The data of this DAC is also displayed on the Assign Work Orders \(RS501000\) processing form. \(You have developed both of these forms for the Smart Fix company.\) You need to add the following fields to this DAC:
 
@@ -11,18 +11,18 @@ The `RSSVWorkOrder` DAC holds the data of the Repair Work Orders \(RS301000\) da
 
 On the Assign Work Orders form, you need to calculate the values of these fields by using attributes. You do not need these calculations for the data entry form.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you'll add attributes that calculate the values of the `DefaultAssignee` and `AssignedTo` fields of the `RSSVWorkOrder` DAC. Because you need these calculations only for the Assign Work Orders \(RS501000\) form, you'll add these attributes by using the CacheAttached event handler.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin replacing field attributes in CacheAttached event handlers, perform the following prerequisite activities:
 
-1.  [Test Instance for Customization: To Deploy an Instance with a Custom Form that Implements a Workflow](CodeCustomization_PrepareInstance_Activity_DeployInstanceT240.md)
+1.  [Test Instance for Customization: To Deploy an Instance with a Custom Form That Implements a Workflow](CodeCustomization_PrepareInstance_Activity_DeployInstanceT240.md)
 2.  [Processing Operations: To Implement a Processing Operation by Using a Delegate](CodeCustomization_ProcessingOperations_Activity_CreateWithoutFilter_withDelegate.md)
 
-## Step 1: Extending the DAC with New Fields { .section}
+## Step 1: Extending the DAC with New Fields
 
 Add the new fields to the `RSSVWorkOrder` DAC as follows:
 
@@ -52,7 +52,7 @@ Add the new fields to the `RSSVWorkOrder` DAC as follows:
 
 3.  Build the project.
 
-## Step 2: Replacing the Attributes { .section}
+## Step 2: Replacing the Attributes
 
 In this step, you'll add the attributes to the `RSSVWorkOrder` DAC fields by using the CacheAttached event handlers of these fields in the `RSSVAssignProcess` graph. These attributes will be used for the `RSSVWorkOrder` DAC fields only on the Assign Work Orders \(RS501000\) form. Instead of completely replacing attributes, you'll add the needed attributes to the fields by including the PXMergeAttributes attribute in the list of assigned attributes.
 
@@ -61,7 +61,7 @@ To implement the calculation of field values for the `RSSVAssignProcess` graph, 
 1.  In the `RSSVAssignProcess.cs` file, add the `PX.TM` `using` directives.
 2.  To add the PXDBScalar attribute to the `DefaultAssignee` field, add the following event handler to the `RSSVAssignProcess` graph.
 
-    ```language-csharp
+    ```csharp
             [PXMergeAttributes(Method = MergeMethod.Append)]
             [Owner(IsDBField = false, DisplayName = "Default Assignee")]
             [PXDBScalar(typeof(SelectFrom<OwnerAttribute.Owner>.

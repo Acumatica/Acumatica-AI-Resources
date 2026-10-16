@@ -1,10 +1,10 @@
-# To Create a Microsoft SQL Data Provider {#_9770d5a6-6ea8-4187-9d1e-ca5a28249eb1 .task}
+# To Create a Microsoft SQL Data Provider
 
 You use the [Data Providers](SM_20_60_15.md) \(SM206015\) form to create a data provider that defines the structure of external data for Acumatica ERP during data import or data export.
 
 This procedure describes how to create a Microsoft SQL data provider that is used to transfer data between Acumatica ERP and a table of a Microsoft SQL Server database.
 
-## To Create a Microsoft SQL Data Provider { .section}
+## To Create a Microsoft SQL Data Provider
 
 1.  Review the columns of the database table for which you need to create the data provider to identify the external data schema.
 2.  On the [Data Providers](SM_20_60_15.md) \(SM206015\) form, create a provider, and specify the following settings for it:
@@ -18,7 +18,6 @@ This procedure describes how to create a Microsoft SQL data provider that is use
     3.  Specify the login and password for accessing the SQL Server instance and the type of authentication that is used by the SQL Server instance \(either *SQL* or *Windows*\).
 4.  On the toolbar in the **Source Objects** pane of the **Schema** tab, click **Fill Schema Objects**. The system connects to the database, pulls the list of tables and views from it, and populates the **Source Objects** tab with the schema objects that correspond to tables and views.
 
-    **Tip:** If you don't see **Fill Schema Objects** on the toolbar, click ![](Images/How_to_Create_a_Provider_for_Data_Import_SM_20_60_15Icon_FillIn.gif), which displays any buttons that do not fit on the toolbar.
 
 5.  Select the **Active** check box for the needed object. On the toolbar of the **Source Fields** pane, click **Fill Schema Fields**. The system displays the column headers available in the source database table. Make sure the **Active** check box is selected for all needed fields.
 6.  Repeat the previous step for all objects \(SQL tables and views\) that you want to import data to and export data from.

@@ -1,10 +1,10 @@
-# Dashboard Design: General Information {#_e3c52cc1-556d-40d8-ac95-da223eccee32 .concept}
+# Dashboard Design: General Information
 
 An Acumatica ERP dashboard is a type of form that an administrative user can design to present relevant data in engaging ways.
 
 With dashboards, you can monitor current financial, operational, and organizational information of your company, and analyze real-time trends that relate to your job. On dashboards, different types of information can be displayed in various presentation forms—such as text, charts, graphs, and tables—depending on your preferences and the specific type of data you want to see.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -14,7 +14,7 @@ In this chapter, you will learn how to do the following:
 -   Define a dashboard as your home page
 -   Reset a dashboard
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 If you are responsible for tailoring Acumatica ERP to meet users' needs in your company, you may need to design a dashboard from scratch or modify a copy of a predefined dashboard in the following cases:
 
@@ -22,7 +22,7 @@ If you are responsible for tailoring Acumatica ERP to meet users' needs in your 
 -   The management of your company has set goals for each department, and the department managers need to track the progress toward these goals by monitoring key indicators and task completion.
 -   Employees of your company are using dashboards as a home page for performing their duties.
 
-## Preparation for Dashboard Design { .section}
+## Preparation for Dashboard Design
 
 Before you start designing a dashboard, you should decide what metrics users should be able to track by using the dashboard. When you decide on the metrics, you need to work on the data collection to gauge the metrics.
 
@@ -32,7 +32,7 @@ In Acumatica ERP, most types of widgets are based on data from generic inquiries
 
 With the data sources prepared, you need to plan how many widgets and which types you will add to the dashboard.
 
-## Dashboard Modes { .section}
+## Dashboard Modes
 
 In Acumatica ERP, a dashboard can be displayed in view or design mode. When you open a dashboard, it is displayed in view mode.
 
@@ -40,19 +40,17 @@ To modify a dashboard, you switch to design mode by clicking the **Design** butt
 
 If your user account does not have the role assigned and the owner of the dashboard has allowed its personalization, you can create a copy of it by clicking the **Create User Copy** button on the dashboard title bar. \(This button is displayed if the **Allow Users to Personalize** check box is selected on the [Dashboards](SM_20_86_10.md) form for the dashboard.\) Once you have created your copy of the dashboard, the **Design** button is displayed on the dashboard title bar instead of **Create User Copy**. You click **Design** to switch on design mode for the dashboard.
 
-## Simplified Design Mode in Modern UI {#section_kxh_dq3_4fc .section}
+## Simplified Design Mode in Modern UI
 
 In the Modern UI, you can create and modify dashboards efficiently, thanks to the responsive, clean design mode \(shown below\). It’s more responsive and visually cleaner.
 
-![](Images/RPT_Designing_Dashboard_Design.png "A Modern UI dashboard in design mode")
 
 The grid used to place widgets on a dashboard has been designed to ease dashboard design. You can move widgets effortlessly—they’ll snap into proper alignment without needing manual adjustments.
 
-## Basic Elements of a Dashboard in Design Mode { .section}
+## Basic Elements of a Dashboard in Design Mode
 
 When a dashboard is in design mode, it has the basic elements shown in the following screenshot.
 
-![](Images/GS_dashboards_basic_elements_in_editing_mode_ModernUI.png "Elements of a dashboard in design mode")
 
 The dashboard has the following elements, whose numbers correspond to those in the screenshot:
 
@@ -66,7 +64,7 @@ The dashboard has the following elements, whose numbers correspond to those in t
 8.  The **Design** button. You click this button to switch between design and view modes for the dashboard.
 9.  A working area, which is the major part of the dashboard. The number and placement of working areas determines the overall appearance of the dashboard and depends on the dashboard layout \(for details, see [Dashboard Design: Widget Arrangement](RPT_Designing_Dashboard_Contents_Widget_Arrangement_Concept.md)\).
 
-## The Dashboard Title Bar for an Administrative User { .section}
+## The Dashboard Title Bar for an Administrative User
 
 An administrative user can view additional buttons on the dashboard title bar if their user account is assigned both of the following roles:
 
@@ -75,14 +73,13 @@ An administrative user can view additional buttons on the dashboard title bar if
 
 The following screenshot shows an example of the dashboard title bar for an administrator.
 
-![](Images/GS_dashboards_basic_elements_in_editing_mode_ModernUI_Admin_user.png "Dashboard title bar")
 
 You can see the following buttons \(with the numbers corresponding to those in the screenshot\), which are not shown for users:
 
 1.  The **Switch to Classic UI** or **Switch to Modern UI** button. You click this button to switch between the Modern UI and the Classic UI version of the dashboard.
 2.  The **Properties** button. You click this button to open the [Dashboards](SM_20_86_10.md) form for the current dashboard.
 
-## Types of Widgets { .section}
+## Types of Widgets
 
 A widget is a dashboard component that provides a particular type of information, such as a real-time data view or wiki article.
 
@@ -107,7 +104,7 @@ You can add to a dashboard various types of widgets. In the **Add Widget** dialo
 -   **Header**: A title that can be added to the widget section.
 -   **Power BI**: A chart, scorecard, or other analytical information that is represented on a Power BI dashboard designed by your organization.
 
-## Actions with Widgets on Dashboards {#section_jxl_bz4_q4b .section}
+## Actions with Widgets on Dashboards
 
 In design mode of a dashboard, you can perform the following actions:
 

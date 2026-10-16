@@ -1,14 +1,14 @@
-# Leads: To Import Leads from a Purchased List {#_5a4f3103-59ae-448f-a86e-7bff8448d77e .task}
+# Leads: To Import Leads from a Purchased List
 
 The following activity demonstrates how to import a purchased list of leads to Acumatica ERP by using an import scenario.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Bill Owen, a marketing manager of the SweetLife Fruits &amp; Jams company.SweetLife uses purchased lists as sources of leads. The lists are imported into Acumatica ERP so that all records are stored in a single place, managed, and classified. You have acquired a new purchased list, `PurchasedLeadsStores.xlsx`, which has the contact information of employees at stores and supermarkets. You need to import these leads from the Microsoft Excel file to Acumatica ERP.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -17,11 +17,11 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Data Providers](SM_20_60_15.md) \(SM206015\) form, the *Import Leads from Excel* data provider has been added and configured.
 -   On the [Import Scenarios](SM_20_60_25.md) \(SM206025\) form, the *Import Leads from Excel* import scenario has been configured. This scenario can be used for the import of leads from a Microsoft Excel file to Acumatica ERP. The *Import Leads from Excel* data provider is used for this import scenario. The imported leads will belong to the *STORE* lead class. For details, see [Configuring Import Scenarios](IS__mng_Configuring_Import_Scenarios.md).
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Import by Scenario](SM_20_60_36.md) \(SM206036\) form, you will select the *Import Leads from Excel* import scenario and then upload to the system the Microsoft Excel file with the purchased list of leads. After that, you will prepare the data so that the system validates the rows of records, and then you will initiate the import process.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start importing leads from a purchased list to Acumatica ERP, do the following:
 
@@ -32,7 +32,7 @@ Before you start importing leads from a purchased list to Acumatica ERP, do the 
 3.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 4.  Download the file [PurchasedLeadsStores.xlsx](Files/PurchasedLeadsStores.xlsx) to your computer.
 
-## Step 1: Importing Leads from a Purchased List { .section}
+## Step 1: Importing Leads from a Purchased List
 
 To import leads from the purchased list in the [PurchasedLeadsStores.xlsx](Files/PurchasedLeadsStores.xlsx) file, do the following:
 
@@ -51,7 +51,7 @@ To import leads from the purchased list in the [PurchasedLeadsStores.xlsx](Files
 
 You have imported leads from the `PurchasedLeadsStores.xlsx` file to the system. On the [Leads](CR_30_10_00.md) \(CR301000\) form, you can see all newly imported leads.
 
-## Step 2: Reviewing the Data of a Newly Imported Lead { .section}
+## Step 2: Reviewing the Data of a Newly Imported Lead
 
 To review the data of the newly imported *Irene Baker* lead, do the following:
 

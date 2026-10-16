@@ -1,8 +1,8 @@
-# To Integrate an External Application {#_c367a962-0e04-4ba6-b823-b809f9c5432c .task}
+# To Integrate an External Application
 
 To integrate an external application with Acumatica ERP, you use [External Applications](SM_30_10_00.md) \(SM301000\) form. For more information about integrations with external applications, see [Integration with External Applications](SM__con_Integration_External_Applications.md).
 
-## To Integrate an External Application { .section}
+## To Integrate an External Application
 
 1.  Open the [External Applications](SM_30_10_00.md) \(SM301000\) form.
 2.  Click **View Redirect URI** on the form toolbar.

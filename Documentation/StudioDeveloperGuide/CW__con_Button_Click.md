@@ -1,12 +1,11 @@
-# Processing of a Button Click {#_a23d3b80-e763-46da-9beb-c1447ceae4b3 .concept}
+# Processing of a Button Click
 
 When a user clicks a button on an ASPX page, such as the **Save** button on the toolbar of a form, the webpage creates a postback HTTP request to the server. When processing the request, the application server does the following: commits changes \(if required by the operation initiated by the user\), executes the operation, and collects data for the response. Then the application server sends the response to the webpage, which renders the new data.
 
 The following diagram illustrates this process, which is described in more detail in the sections of this topic.
 
-![](Images/ButtonClick_MainSteps.png "Processing a button click")
 
-## Sending of the HTTP Request { .section}
+## Sending of the HTTP Request
 
 When the user clicks a button on a webpage, the page creates an HTTP request to the server. The request includes the following information:
 
@@ -18,26 +17,24 @@ The PXDataSource.TypeName property defines the graph that processes data for the
 
 The diagram below shows how the HTTP request is sent to the server.
 
-![](Images/ButtonClick_SendHttpRequest.png "Sending the HTTP request")
 
-## Commitment of Changes to the Cache { .section}
+## Commitment of Changes to the Cache
 
 If the callback command initiated by the user has the CommitChanges property set to `true` \(which is the default setting\) or the CommitChangesIDs property specified, the server commits the changes before executing the command. The graph instance commits the changes to the cache in the order in which the data views are defined in the graph, as shown in the following diagram.
 
-![](Images/ButtonClick_CommitChanges.png "Committing changes")
 
-## Execution of the Command { .section}
+## Execution of the Command
 
 After the changes have been committed, the graph instance executes the operation initiated by the user, such as saving data to the database. You can find details on the sequence of events raised when data is inserted, updated, deleted, or saved to the database in [Data Manipulation Scenarios](BL__con_Events_Scenarios.md).
 
-## Collection of the Data for the Response { .section}
+## Collection of the Data for the Response
 
 When the command execution is completed, the application server does the following:
 
 1.  If the RepaintControls or RepaintControlIDs property of PXDSCallbackCommand specifies any controls to be repainted after the command is executed, the application server includes in the response all information that is necessary to repaint these controls on the webpage. \(By default, the value of the PXDSCallbackCommand.RepaintControls property is All, which means that all controls on the page are repainted.\)
 2.  The application server executes the Select method for each data view of the graph.
 
-## Sending of the HTTP Response and Rendering of the Controls { .section}
+## Sending of the HTTP Response and Rendering of the Controls
 
 The application server sends the response to the page. The response includes data in XML format; the parameters that are necessary for the controls to be repainted are specified in JSON format, as shown in the following fragment of the response.
 
@@ -54,7 +51,7 @@ The application server sends the response to the page. The response includes dat
 
 The scripts in the browser \(the scripts from PX.Web.UI.Scripts\) find the controls to be repainted by IDs and repaint these controls by using the data provided in the response. Most of the scripts in PX.Web.UI.Scripts contain a class that works with one control. For example, `px_textEdit.js` includes the PXTextEdit class, which works with the PXTextEdit control.
 
-## Exceptions to the Process { .section}
+## Exceptions to the Process
 
 For the buttons not found on the main toolbar, the process described in this topic may slightly differ.
 

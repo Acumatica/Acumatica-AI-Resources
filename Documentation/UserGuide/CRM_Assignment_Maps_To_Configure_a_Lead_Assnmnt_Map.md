@@ -1,17 +1,17 @@
-# Assignment Maps: To Configure a Lead Assignment Map {#_0de8af13-9f4a-459c-aed1-6ff22e00cd5f .task}
+# Assignment Maps: To Configure a Lead Assignment Map
 
 The following implementation activity will show you how to configure a lead assignment map in Acumatica ERP.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are an implementation consultant at the SweetLife Fruits &amp; Jams company.You need to configure a lead assignment map in Acumatica ERP in order to provide the marketing team with the ability to assign groups of leads to owners as follows:
 
 -   The *Marketing Stores* workgroup will be working with leads that represent supermarkets and other stores.
 -   The *Marketing Food Services* workgroup will be working with leads that represent restaurants, cafes, bakeries, and other food service companies.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -24,14 +24,14 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
     -   *BAKERY* \(for leads that are bakeries\)
     -   *CAFE* \(which includes leads that are restaurants and cafes\)
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
 1.  Create a lead assignment map on the [Assignment Maps](EP_20_50_10.md) \(EP205010\) form
 2.  Specify the created assignment map as the default lead assignment map on the [Customer Management Preferences](CR_10_10_00.md) \(CR101000\) form
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring a lead assignment map, you should do the following:
 
@@ -41,7 +41,7 @@ Before you start configuring a lead assignment map, you should do the following:
     -   **Password**: *123*
 3.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Creating a Lead Assignment Map { .section}
+## Step 1: Creating a Lead Assignment Map
 
 To create a lead assignment map, do the following:
 
@@ -90,9 +90,8 @@ To create a lead assignment map, do the following:
 
 You have created and configured *Default Lead Assignment Map*, as shown in the following screenshot. Now you need to specify this map on the [Customer Management Preferences](CR_10_10_00.md) \(CR101000\) form.
 
-![](Images/activity_CRM_Mktg_Default_Lead_Assignment_Map.png "The created lead assignment map")
 
-## Step 2: Selecting a Default Lead Assignment Map { .section}
+## Step 2: Selecting a Default Lead Assignment Map
 
 To select a default lead assignment map, do the following:
 

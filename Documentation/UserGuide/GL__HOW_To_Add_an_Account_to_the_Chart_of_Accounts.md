@@ -1,14 +1,14 @@
-# To Add an Account to the Chart of Accounts {#_b78e9d89-6225-498a-a119-bc7fb42f597a .task}
+# To Add an Account to the Chart of Accounts
 
 You use the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form to add an account.
 
-## Before You Proceed {#section_y1f_mjv_vxb .section}
+## Before You Proceed
 
 -   Know your organization's agreements about account classes.
 -   On the [Account Classes](GL_20_20_00.md) \(GL202000\) form, make sure the list of account classes defined in the system contains the class to which you want to assign the new account.
 -   Review the structure of accounts and the meanings of their segment values in your organization. For more information about account identifiers, see [Segmented Identifiers](CS__con_Identifier_Segmentation.md) and [Account Identification](GL__con_Account_and_Subaccount_Identifiers.md).
 
-## To Add an Account {#section_abf_mjv_vxb .section}
+## To Add an Account
 
 1.  Open the [Chart of Accounts](../Shared/../UserGuide/GL_20_25_00.md) \(GL202500\) form.
 
@@ -30,7 +30,7 @@ You use the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form to add an acco
 13. If you need to denominate the account, select the currency in the **Currency** column, and specify the type of exchange rate in the **Revaluation Rate Type** column.
 14. On the form toolbar, click **Save**.
 
-## Notes About the Procedure {#section_bbf_mjv_vxb .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

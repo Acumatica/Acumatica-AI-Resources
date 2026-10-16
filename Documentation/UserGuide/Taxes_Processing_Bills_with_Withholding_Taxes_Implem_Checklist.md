@@ -1,8 +1,8 @@
-# Bills with Withholding Tax: Implementation Checklist {#_7a8bed76-b83f-4820-86ba-9791f8c0402d .concept}
+# Bills with Withholding Tax: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for processing a bill to which a withholding tax has been applied, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist {#section_bpm_fjv_vxb .section}
+## Implementation Checklist
 
 We recommend that before you initially process a bill with a withholding tax, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -16,7 +16,7 @@ We recommend that before you initially process a bill with a withholding tax, yo
 |[Taxes](TX_20_50_00.md) \(TX205000\)|A withholding tax has been configured as described in [Withholding Taxes: Implementation Activity](../ImplementationGuide/Taxes_Configuring_WithholdingTax_Implem_Activity.md).|
 |[Release Tax Report](TX_50_20_00.md) \(TX502000\)|A tax report for the *01-2026* period has been released as described in [Tax Report for VAT: Process Activity](Taxes_Preparing_a_Tax_Report_VAT_Process_Activity.md).|
 
-## Other Settings That Affect the Workflow {#section_dpm_fjv_vxb .section}
+## Other Settings That Affect the Workflow
 
 The following settings and entities should be specified and defined, respectively:
 
@@ -28,7 +28,7 @@ The following settings and entities should be specified and defined, respectivel
     -   Clear the **Require Vendor Reference** check box in the **Data Entry Settings** section. This setting means that you do not have to enter a payment reference number in the **Vendor Ref.** box when creating an AP bill on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
     -   Make sure that the **Automatically Post on Release** check box is selected in the **Posting Settings** section. This setting causes AP bills to be automatically posted to the general ledger once they are released.
 
-## Validation of Configuration {#section_fpm_fjv_vxb .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you process a bill with a withholding tax by performing instructions similar to those described in [Bills with Withholding Tax: Process Activity](Taxes_Processing_Bills_with_Withholding_Taxes_Process_Activity.md).
 

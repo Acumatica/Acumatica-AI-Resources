@@ -1,8 +1,8 @@
-# To Quickly Process an Order {#_28fe3440-642b-45e1-930d-e38457c0ade4 .task}
+# To Quickly Process an Order
 
 If you need to perform quick processing for particular sales order, you can do this by using the [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 
-## To Quickly Process an Order { .section}
+## To Quickly Process an Order
 
 1.  Open the [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 2.  In the **Order Type** box, select the order type of the order that you want to process.
@@ -13,7 +13,7 @@ If you need to perform quick processing for particular sales order, you can do t
 7.  Optional: Modify the processing steps in the **Shipping** and **Invoicing** sections, if required.
 8.  Click **OK** to close the dialog box and run processing of the order.
 
-## Notes About the Procedure { .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

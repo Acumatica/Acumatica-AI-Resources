@@ -1,4 +1,4 @@
-# Data for Controls {#_16fbe106-2f81-4bd3-8a44-fcca6a0d114e .concept}
+# Data for Controls
 
 In a graph, you have to define a separate data view for each container control on the ASPX page, including nested container controls. Each data view should refer to a unique main data access class \(DAC\) unless you want to display the same data record in multiple container controls.
 

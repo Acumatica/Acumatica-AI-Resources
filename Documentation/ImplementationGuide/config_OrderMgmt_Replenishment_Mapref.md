@@ -1,4 +1,4 @@
-# Replenishment for Stock Items {#_c53ea183-5811-4189-9a9c-e2f251cbf443 .concept}
+# Replenishment for Stock Items
 
 This chapter describes the minimum configuration of the replenishment functionality that is required for Acumatica ERP users to replenish stock items. Users can replenish stock items through purchases, through transfers, or through a distribution center.
 

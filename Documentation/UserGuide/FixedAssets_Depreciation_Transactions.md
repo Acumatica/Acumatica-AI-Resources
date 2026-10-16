@@ -1,8 +1,8 @@
-# Asset Depreciation: Generated Transactions {#_c5de3777-b0e2-4fde-9daf-45127b0535d8 .concept}
+# Asset Depreciation: Generated Transactions
 
 As you depreciate fixed assets, you create and process depreciation transactions. To update the balances of GL accounts, the system generates the GL transaction described in the following section.
 
-## Transaction Generated for Depreciation {#section_clf_ljv_vxb .section}
+## Transaction Generated for Depreciation
 
 When you depreciate a fixed asset and release the depreciation transaction, the system generates the following general ledger transaction.
 

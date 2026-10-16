@@ -1,12 +1,12 @@
-# Form Layout: To Add a Section to a Tab {#_0bcb4077-acd0-4460-93f9-4804c69769f2 .task}
+# Form Layout: To Add a Section to a Tab
 
 The following activity will walk you through the process of adding a section to a tab of a form and then adding UI elements to this section.
 
-## Story { .section}
+## Story
 
 Suppose that management has determined that Acumatica ERP would better fit the needs of your company if employees could find a customer's currency settings more easily on the **Financial** tab of the [Customers](../UserGuide/AR_30_30_00.md) form. You need to organize the currency-related UI elements on this tab so that they are grouped in a new **Currency** section, which should be placed below the **Financial Settings** section on the tab.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Screens](../UserGuide/AU_20_10_00.md) page, you will add the [Customers](../UserGuide/AR_30_30_00.md) \(CR303000\) form so that it can be customized.
 
@@ -19,7 +19,7 @@ You will do the following to add a new section to a tab:
 
 You will then test the new layout on the [Customers](../UserGuide/AR_30_30_00.md) \(CR303000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -27,7 +27,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  Create the *Yogifon* customization project by performing the [Customization Projects: To Create a Customization Project](CustomizationProjects_GettingStarted_Activity_CreateProject.md) prerequisite activity.
 3.  On the **Financial** tab of the [Customers](../UserGuide/AR_30_30_00.md) \(CR303000\) form, invoke the Element Inspector for the **Enable Write-Offs** check box to learn its internal name. You will use this name \(SmallBalanceAllow\) in Step 2.
 
-## Step 1: Modifying the List of Customized Screens { .section}
+## Step 1: Modifying the List of Customized Screens
 
 To add a section to a tab of the [Customers](../UserGuide/AR_30_30_00.md) \(CR303000\) form, you first need to add it to the list of customized screens. Do the following:
 
@@ -46,7 +46,7 @@ To add a section to a tab of the [Customers](../UserGuide/AR_30_30_00.md) \(CR30
     The [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form is added to the list of forms on the [Screens](../UserGuide/AU_20_10_00.md) page, and the Screen Editor: CR303000 \(Customers\) page opens.
 
 
-## Step 2: Adding the Section { .section}
+## Step 2: Adding the Section
 
 To add a new **Currency** section to the **Financial** tab of the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form, do the following:
 
@@ -59,11 +59,10 @@ To add a new **Currency** section to the **Financial** tab of the [Customers](..
 4.  In the navigation pane, click **Screens** &gt; **AR303000** &gt; **Modern UI Editor**.
 5.  On the HMTL tab of the editor, locate the code for the **Financial Settings** fieldset \(see the following screenshot\).
 
-    ![](images/CustomizationProjects_ConfiguringFormLayout_FinancialSettings.png "The groupFinancialSetting fieldset")
 
 6.  Add the following code for the **Currency** fieldset after the code for the **Financial Settings** fieldset:
 
-    ``` {#codeblock_ml3_gyx_vfc .language-xml}
+    ```xml
     <qp-fieldset id="groupCurrencySettings"
      view.bind="CurrentCustomer"
      caption="Currency"
@@ -74,7 +73,7 @@ To add a new **Currency** section to the **Financial** tab of the [Customers](..
 
 7.  In the code for the **Financial Settings** fieldset, cut the following code, and paste it in the code for the **Currency** fieldset:
 
-    ``` {#codeblock_tg1_q32_wfc .language-xml}
+    ```xml
     <field name="CuryID">
     <qp-field control-state.bind="CurrentCustomer.AllowOverrideCury" class="col-8"></qp-field>
      </field>
@@ -85,17 +84,16 @@ To add a new **Currency** section to the **Financial** tab of the [Customers](..
 
     The resulting code should look as follows:
 
-    ![](images/CustomizationProjects_ConfiguringFormLayout_CurrencyFieldset.png "The code of the Currency fieldset")
 
 8.  Click **Save** on the page toolbar.
 
-## Step 3: Moving the Check Box {#section_xkd_34l_wfc .section}
+## Step 3: Moving the Check Box
 
 To move the **Enable Write-Offs** check box to the right of the **Write-Off Limit** box, do the following:
 
 1.  Locate the code for the SmallBalanceLimit field and update it as follows:
 
-    ``` {#codeblock_dq4_nhl_wfc .language-xml}
+    ```xml
     <field name="SmallBalanceLimit">
     <qp-label slot="label" caption.bind="CurrentCustomer.SmallBalanceLimit_Label.value"></qp-label>
     <qp-field control-state.bind="CurrentCustomer.SmallBalanceAllow" config-enabled.bind="false"></qp-field>
@@ -112,7 +110,7 @@ To move the **Enable Write-Offs** check box to the right of the **Write-Off Limi
 4.  To apply the changes to the instance, on the main menu of the Customization Project Editor, click **Publish** &gt; **Publish Current Project**.
 5.  Wait until the *Website updated* row appears in the **Compilation** pane, and click **Close Compilation Pane**.
 
-## Step 4: Adjusting the Position of the Elements { .section}
+## Step 4: Adjusting the Position of the Elements
 
 To change the position of the boxes, do the following on the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form:
 
@@ -127,7 +125,7 @@ To change the position of the boxes, do the following on the [Customers](../User
 6.  On the form title bar, click **Apply to All**.
 7.  In the **Apply to All** dialog box, which opens, click **Overwrite Personal Configuration**.
 
-## Step 5: Testing the Layout { .section}
+## Step 5: Testing the Layout
 
 On [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form, review the layout of the **Financial** tab and make sure that the following criteria are met
 
@@ -142,7 +140,6 @@ On [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form, review the layout
 
 The following screenshot shows the modified tab.
 
-![](images/CustomizationProjects_ConfiguringFormLayout_Financial_Result.png "The modified Financial tab")
 
 **Parent topic:**[Configuring the Layout of Forms](../CustomizationPlatform/CustomizationProjects_ConfiguringFormLayout_Mapref.md)
 

@@ -3,6 +3,7 @@
 ## Table of Contents
 
 - [Control skeleton](#control-skeleton)
+- [Screen context events](#screen-context-events)
 - [Control HTML with qp-button](#control-html-with-qp-button)
 - [Attached field pattern](#attached-field-pattern)
 - [TypeScript extension pattern](#typescript-extension-pattern)
@@ -34,6 +35,47 @@ export class MySummaryPanelCustomElement {
 }
 ```
 
+## Screen context events
+
+Use bindables for host-provided values. When a control also needs the current
+screen context, 2026 R2 documents subscribing to `screen-updated` through Aurelia's
+`EventAggregator`. The following original example keeps that state separate from
+business data; confirm the imports and payload against the target build's typings.
+
+```ts
+import { EventAggregator } from "aurelia-event-aggregator";
+import { Disposable } from "aurelia-framework";
+import { autoinject, IScreenApiResult } from "client-controls";
+
+export class ScreenContextBadgeCustomElement {
+    @autoinject
+    public eventAggregator!: EventAggregator;
+
+    screenId = "";
+    private screenSubscription?: Disposable;
+
+    attached() {
+        this.screenSubscription?.dispose();
+        this.screenSubscription = this.eventAggregator.subscribe(
+            "screen-updated",
+            (context: IScreenApiResult) => { this.screenId = context.screenID; }
+        );
+    }
+
+    detached() {
+        this.screenSubscription?.dispose();
+        this.screenSubscription = undefined;
+    }
+}
+```
+
+After navigating away and back, verify one update per event and no callbacks to
+the detached instance. Test changes of record as well as screen navigation.
+This event supplies context; keep business rules on the backend. Other event names
+need their own supported contract rather than an assumed application-wide bus.
+
+See the 2026 R2 [control lifecycle guidance](../../../../Documentation/DeveloperGuide/UIDev_CustomModernUIControls_GeneralInfo.md).
+
 ## Control HTML with qp-button
 
 ```html
@@ -59,7 +101,13 @@ export class MySummaryPanelCustomElement {
 
 Use when values are graph-specific, read-only, virtual, and not stored in the database.
 
+Import `PX.Objects.Common` for `PXFieldAttachedTo` (defined in PX.Objects.dll),
+as well as `PX.Data` for the field and localization APIs.
+
 ```csharp
+using PX.Data;
+using PX.Objects.Common;
+
 // Acuminator disable once PX1016 ExtensionDoesNotDeclareIsActiveMethod extension should be constantly active
 public class panelStatus :
     PXFieldAttachedTo<MyDac>.By<MyGraph>.AsString.Named<panelStatus>
@@ -149,5 +197,6 @@ export class MyDac_Project_MyPanel {
 - Null or empty values do not break layout.
 - Buttons use `qp-button` and call expected methods.
 - Backend-derived states update when the current record changes.
+- If subscribed to screen context events, detach/reattach disposes the old subscription and creates only one new subscription.
 - Technical visual-state tokens map to frontend CSS classes.
 - Browser console has no TypeScript or binding errors.

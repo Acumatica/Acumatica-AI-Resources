@@ -1,8 +1,8 @@
-# Commands for Pop-Up Dialog Boxes and Pop-Up Forms {#_1efc8a35-443f-4133-884c-0f0c44beb29c .concept}
+# Commands for Pop-Up Dialog Boxes and Pop-Up Forms
 
 In this topic, you will learn how to enter data to pop-up dialog boxes and pop-up forms by using the screen-based SOAP API.
 
-## Pop-Up Dialog Boxes { .section}
+## Pop-Up Dialog Boxes
 
 When you update specific fields on some forms under certain circumstances, the system displays pop-up dialog boxes where you need to respond to a question \(by clicking a button\) in order to proceed. For example, when you update the **Customer Class** value on the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form for an existing customer, the system displays a **Warning** dialog box with the text *Please confirm if you want to update current customer settings with the customer class defaults. Otherwise, original settings will be preserved.* and the **Yes** and **No** buttons. You should click **Yes** to proceed with changing the customer class.
 
@@ -34,7 +34,7 @@ var commands = new Command[]
 };
 ```
 
-## Pop-Up Forms { .section}
+## Pop-Up Forms
 
 When you click specific buttons on some forms, the system opens a pop-up window with another Acumatica ERP form where you can specify or edit the values of elements as needed. For example, if you click **Add Contact** on the **Contacts** tab of the [Customers](../UserGuide/AR_30_30_00.md#) form, the system displays the [Contacts](../UserGuide/CR_30_20_00.md#) \(CR302000\) form.
 

@@ -1,6 +1,6 @@
-# Acumatica ERP PatchTool: General Information {#_651891d0-041c-4476-9cee-b96836742c60 .concept}
+# Acumatica ERP PatchTool: General Information
 
-This topic shows you how to use the PatchTool command-line utility to check for, apply, and roll back patches for your Acumatica ERP application instance.
+This topic shows you how to use the PatchTool command-line utility to check for, apply, and roll back patches for your Acumatica ERP application instance or the Acumatica ERP Configuration wizard.
 
 **Attention:**
 
@@ -9,7 +9,7 @@ This topic shows you how to use the PatchTool command-line utility to check for,
 -   Run PatchTool with administrator privileges, as these are necessary to modify files in the Acumatica ERP application instance folder.
 -   If there are several Acumatica ERP application instances installed, each instance should be patched or rolled back separately.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -17,12 +17,13 @@ In this chapter, you will learn how to do the following:
 -   Check if new patches are available for your Acumatica ERP application instance by using the utility
 -   Use PatchTool to download and apply patches for your Acumatica ERP application instance
 -   Roll back a previously installed patch by using PatchTool
+-   Apply patches to the Acumatica ERP Configuration wizard and roll back these patches
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 You may want to use the PatchTool utility if you’re a system administrator responsible for keeping your Acumatica ERP instance up to date.
 
-## Using PatchTool { .section}
+## Using PatchTool
 
 The PatchTool command-line utility is an executable file named `PatchTool.exe`. By default, the file is located in the `%Program Files%\Acumatica ERP\Data\PatchUtility\` folder on the computer with Acumatica ERP installed.
 
@@ -30,20 +31,20 @@ The PatchTool command-line utility is an executable file named `PatchTool.exe`. 
 
 When you run `PatchTool.exe`, you specify:
 
--   An action name \(`check`, `patch`, `download`, or `rollback`\)
+-   An action name \(`check`, `patch`, `download`, `rollback`, `patchInstaller`, or `rollbackInstaller` \)
 -   A set of command-line parameters, with each presented in the following format
 
-    ``` {#codeblock_cjt_54r_w2c}
+    ```
     -parameter "parameter value"
     ```
 
 
 When you pass a command-line command to PatchTool, use the following syntax.
 
-``` {#codeblock_fbd_y4r_w2c}
+```
 
-PatchTool.exe check|patch|download|rollback
--p|--path "path to the instance folder"
+PatchTool.exe check|patch|download|rollback|patchInstaller|rollbackInstaller
+-p|--path "path to the instance folder or wizard folder"
 [-z|--zip "path to the backup archive"] 
 [-a|--archive "path to the local patch archive"]
 [-b|--build "the build number (in XX.XXX.XXXX format) of the instance to be patched"]
@@ -57,11 +58,11 @@ PatchTool.exe check|patch|download|rollback
 
 For details, see [Acumatica ERP PatchTool: Parameters and Values](INST_Using_PatchTool_Parameters.md).
 
-## Checking for Patches {#section_vv2_1y4_y4b .section}
+## Checking for Patches
 
 You can check if new patches are available for the Acumatica ERP application instance by running the following command.
 
-``` {#codeblock_ibj_3vr_w2c}
+```
 PatchTool.exe check 
 --path "path to the instance folder"
 ```
@@ -71,11 +72,11 @@ PatchTool returns the following:
 -   If it finds a patch: `A new patch found: <*Build\_Number*>`.
 -   If no patches are available: `No patches are available for download`.
 
-## Applying Patches {#section_pdp_jxr_w2c .section}
+## Applying Patches
 
 To download the patch from the Acumatica website, create a `.zip` archive with backup files and apply the patch to the Acumatica ERP application instance by using the following command.
 
-``` {#codeblock_qxf_rxr_w2c}
+```
 PatchTool.exe patch 
 --path "path to the instance folder" 
 [--zip "path to the backup archive"]
@@ -83,7 +84,7 @@ PatchTool.exe patch
 
 If the machine where your Acumatica ERP instance is installed doesn’t have internet access, you can download the patch archive on another machine \(as described in the next section\). Copy the patch archive to the machine where your Acumatica ERP instance is installed locally and then use the following command.
 
-``` {#codeblock_qyy_b1s_w2c}
+```
 PatchTool.exe patch 
 --path "path to the instance folder" 
 --archive "path to the local patch archive" 
@@ -97,11 +98,11 @@ PatchTool returns the following:
 -   On successful application: `The patch with the <*Build\_Number*> version has been applied`.
 -   When no patches are available: `No patches are available for download`.
 
-## Downloading Patches {#section_edd_fcj_tgc .section}
+## Downloading Patches
 
 You can use the PatchTool utility to retrieve the patch as a `.zip` archive. This could be useful, for example, to copy patches to machines without internet access. To download the patch, use the following command.
 
-``` {#codeblock_tk3_11l_tgc}
+```
 PatchTool.exe download 
 --archive "path where to save the patch archive"
 --build "the build number (in the XX.XXX.XXXX format) of the instance to be patched" 
@@ -110,7 +111,7 @@ PatchTool.exe download
 
 If you launch PatchTool on the same machine where the Acumatica ERP application instance is installed, you can use an alternative syntax:
 
-``` {#codeblock_g2q_mcl_tgc}
+```
 PatchTool.exe download 
 --archive "path where to save the patch archive"
 --path "path to the instance folder" 
@@ -122,11 +123,11 @@ PatchTool returns the following:
 -   On successful download: `Download completed successfully. File saved to <*path*>`.
 -   When no patches are available: `No patches are available for download for the <*Build\_Number*> version`.
 
-## Uninstalling Patches {#section_mlf_lds_w2c .section}
+## Uninstalling Patches
 
 To roll back a patch and restore files from the backup archive, use the following command.
 
-``` {#codeblock_ngh_rds_w2c}
+```
 PatchTool.exe rollback 
 --path "path to the instance folder"  
 [--zip "path to the backup archive"]
@@ -140,6 +141,46 @@ PatchTool returns one of the following:
 -   When no patch had been applied: `Nothing to roll back. The site has not been patched.`
 
 You may roll back the Acumatica ERP instance as many times as patches have been applied. Each rollback restores the instance to its prior state.
+
+## Applying Patches to the Configuration Wizard
+
+To set up multiple new instances with a patch already applied, you can apply the patch to the Acumatica ERP Configuration wizard. This operation is supported in PatchTool 1.10.0.0 and later.
+
+```
+PatchTool.exe patchInstaller
+--path "path to the wizard folder"
+--zip "path to the backup archive"
+```
+
+The `-p|--path` parameter must specify the folder of the Acumatica ERP Configuration wizard. The `-z|--zip` parameter is required and must include a `.zip` file name. PatchTool stores the backup copy of the wizard files in this archive before it applies the patch.
+
+The following command shows an example of applying a patch to the Acumatica ERP Configuration wizard.
+
+```
+PatchTool.exe patchInstaller
+--path "C:\Program Files\Acumatica ERP"
+--zip "C:\Temp\backup.zip"
+```
+
+## Rolling Back Patches from the Configuration Wizard
+
+To roll back a patch applied to the Acumatica ERP Configuration wizard and restore the wizard files from the backup archive, use the following command. This operation is supported in PatchTool 1.10.0.0 and later.
+
+```
+PatchTool.exe rollbackInstaller
+--path "path to the wizard folder"
+--zip "path to the backup archive"
+```
+
+The `-p|--path` parameter must specify the folder of the Acumatica ERP Configuration wizard. The `-z|--zip` parameter is required and must point to the backup archive created when the patch was applied to the wizard.
+
+The following command shows an example of rolling back a patch from the Acumatica ERP Configuration wizard.
+
+```
+PatchTool.exe rollbackInstaller
+--path "C:\Program Files\Acumatica ERP"
+--zip "C:\Temp\backup.zip"
+```
 
 **Parent topic:**[Using the Acumatica ERP PatchTool utility](../UserGuide/INST_Using_PatchTool_Mapref.md)
 

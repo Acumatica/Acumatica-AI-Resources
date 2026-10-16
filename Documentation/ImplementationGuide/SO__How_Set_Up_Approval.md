@@ -1,8 +1,8 @@
-# To Set Up the Approval of Sales Orders {#_b151a5bd-8008-42e9-8800-fa39635933c7 .task}
+# To Set Up the Approval of Sales Orders
 
 For many businesses, the approval of sales orders is required for sales performed on credit. For more information on these approvals, see [Specific Approvals: Sales Orders](SO__con_Approvals.md). You can set up the approval of sales orders by using the [Sales Orders Preferences](../UserGuide/SO_10_10_00.md) \(SO101000\) form.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Before you set up the approval of sales orders, do the following in your system:
 
@@ -15,7 +15,7 @@ Before you set up the approval of sales orders, do the following in your system:
 
 5.  Optional: For each order type, create email templates for notifications about orders pending approval. These emails will be sent to employees authorized to approve sales orders of a specific type. You can create email templates by using the [Email Templates](../UserGuide/SM_20_40_03.md) \(SM204003\) form.
 
-## To Specify the Approval Settings for Sales Orders { .section}
+## To Specify the Approval Settings for Sales Orders
 
 1.  Open the [Sales Orders Preferences](../UserGuide/SO_10_10_00.md) \(SO101000\) form.
 2.  For each order type for which you need to specify an approval map, add it as follows:

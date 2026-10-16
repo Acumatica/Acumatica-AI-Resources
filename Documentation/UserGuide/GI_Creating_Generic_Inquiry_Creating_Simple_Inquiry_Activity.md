@@ -1,14 +1,14 @@
-# Creation of a Generic Inquiry: To Create an Inquiry Based on One DAC {#_4b966d58-7aac-4b80-b529-6cfb0f1025ac .task}
+# Creation of a Generic Inquiry: To Create an Inquiry Based on One DAC
 
 In this activity, you will learn how to create a simple generic inquiry that collects data from one data access class \(DAC\). The activity describes the steps of designing a sample generic inquiry for testing purposes, so that you can develop a better understanding of the process.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist in your company who is working on simple customizations, including the creation and modification of generic inquiry forms. An accountant of your company has requested an inquiry form that collects data about invoices and memos. You have offered the predefined Invoices and Memos \(AR3010PL\) generic inquiry form, but the accountant instead wants a simpler inquiry that displays columns with the document type, the reference number, and the balance of the invoice with that number. The accountant has asked you to maintain the default access rights to the inquiry.
 
-## Process Overview { .section}
+## Process Overview
 
 The generic inquiry that you are going to create will have three columns to display the invoice reference number, the balance, and the document type. Thus, you will start by inspecting the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form to explore which data access classes \(DACs\) you can use to access the needed data.
 
@@ -16,13 +16,13 @@ Once you obtain these details, you will create a generic inquiry on the [Generic
 
 When the inquiry has been created and all the necessary settings have been specified, you will preview and then publish the inquiry.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to a tenant with the *U100* dataset preloaded as system administrator Kimberly Gibbs. You should sign in by using the *gibbs* username and the *123* password.
 
 **Tip:** The *gibbs* user is assigned the *Administrator* role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards.
 
-## Step 1: Discovering DACs and Data Fields { .section}
+## Step 1: Discovering DACs and Data Fields
 
 To inspect the applicable user interface elements, do the following:
 
@@ -37,7 +37,7 @@ To inspect the applicable user interface elements, do the following:
     You have discovered that the data access class you need is *PX.Objects.AR.ARInvoice* and the data fields you need are *DocType*, *RefNbr*, and *CuryDocBal*.
 
 
-## Step 2: Creating the Generic Inquiry { .section}
+## Step 2: Creating the Generic Inquiry
 
 To begin the process of creating the generic inquiry, do the following:
 
@@ -54,7 +54,7 @@ To begin the process of creating the generic inquiry, do the following:
     Notice that the system has filled the **Alias** column with the predefined short name of the DAC \(that is, *ARInvoice*\).
 
 
-## Step 3: Configuring the Results Grid { .section}
+## Step 3: Configuring the Results Grid
 
 To configure the results grid \(that is, the columns showing the data in the generic inquiry form\), do the following:
 
@@ -75,11 +75,11 @@ To configure the results grid \(that is, the columns showing the data in the gen
 
 4.  On the form toolbar, click **Save**.
 
-## Step 4: Previewing the Generic Inquiry Form { .section}
+## Step 4: Previewing the Generic Inquiry Form
 
 To preview the generic inquiry form you have created, click the eye icon on the side panel of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form while you are viewing the generic inquiry. Once reviewed, close the side panel.
 
-## Step 5: Publishing the New Inquiry { .section}
+## Step 5: Publishing the New Inquiry
 
 To add the inquiry you have created to the site map, do the following:
 

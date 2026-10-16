@@ -1,14 +1,22 @@
-# Image Viewer: Conversion from ASPX to HTML and TypeScript {#_4661b6dd-ef73-49da-bbcf-312d2f98c7fe .concept}
+# Image Viewer: Conversion from ASPX to HTML and TypeScript
 
 The following table will help you to convert the ASPX elements that are related to image viewer control to HTML or TypeScript elements.
 
-## PXImageView { .section}
+## PXImageView
 
 The following table shows the correspondence between the PXImageView element and the HTML or TypeScript elements. During the conversion of ASPX pages to HTML and TypeScript, you need to replace these ASPX elements with their analogs in HTML or TypeScript.
 
-|ASPX|HTML or TypeScript|
-|----|------------------|
-|PXImageView```
+<table id="_53b158c3-95c7-4d0b-b468-cfb18f27756e"><thead><tr><th>
+
+ASPX
+
+</th><th>
+
+HTML or TypeScript
+
+</th></tr></thead><tbody><tr><td>
+
+PXImageView```
 <px:PXImageView
   ID="edTeamsMemberPhoto"
   runat="server"
@@ -18,7 +26,9 @@ The following table shows the correspondence between the PXImageView element and
 />
 ```
 
-|Use the qp-image-view tag, as shown in the following code. ```
+</td><td>
+
+Use the qp-image-view tag, as shown in the following code. ```
 <qp-image-view
   id="PhotoFileName"
   width="64px"
@@ -33,21 +43,32 @@ Alternatively, you can use the field tag and specify qp-image-view as the value 
 </field>
 ```
 
-|
-|Height|Use the height attribute of the qp-image-view tag.```
+</td></tr><tr><td>
+
+Height
+
+</td><td>
+
+Use the height attribute of the qp-image-view tag.```
 <qp-image-view  ...
   height="300px">
 </qp-image-view>
 ```
 
-|
-|Width|Use the width attribute of the qp-image-view tag.```
+</td></tr><tr><td>
+
+Width
+
+</td><td>
+
+Use the width attribute of the qp-image-view tag.```
 <qp-image-view  ...
   width="300px">
 </qp-image-view>
 ```
 
-|
+</td></tr></tbody>
+</table>
 
 **Parent topic:**[Image Viewer](../DeveloperGuide/UIDevRef_ImageViewer_Mapref.md)
 

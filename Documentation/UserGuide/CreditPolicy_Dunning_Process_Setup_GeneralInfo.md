@@ -1,4 +1,4 @@
-# Dunning Process Setup: General Information {#_8f9c35a7-ba07-4202-997a-8c63eecf02ea .concept}
+# Dunning Process Setup: General Information
 
 Acumatica ERP provides you with capabilities that ease the process of producing dunning letters. Dunning letters are letters of payment collection used to inform your customers of past-due invoices, debit memos, and overdue charges. The form and content of dunning letters generally vary depending on the country in which you perform business. Usually, multiple letters are sent in a sequence. For all customers, the dunning process checks customers' due documents and gives you the ability to prepare and send reminder letters of different levels of severity.
 
@@ -8,17 +8,17 @@ The functionality is available if the *Dunning Letter Management* feature is ena
 
 In this topic, you will read about the dunning process options offered by Acumatica ERP and the general steps of setting up the process.
 
-## Learning Objectives {#section_tvd_hjv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to implement the dunning process in the system.
 
-## Applicable Scenarios {#section_vvd_hjv_vxb .section}
+## Applicable Scenarios
 
 You implement the dunning process if you want to inform your customers about past-due documents by sending them dunning letters.
 
 You can create the text of successive dunning letters, varying in tone and content from a polite first letter informing the customer about unpaid invoices to a last letter mentioning all allowable collection options. We recommend that these letters be sent at carefully selected intervals so that a customer with intent to pay has enough time between letters to settle all invoices before the arrival of the next letter.
 
-## Dunning Process Options {#section_yvd_hjv_vxb .section}
+## Dunning Process Options
 
 In Acumatica ERP, you can select how the system prepares dunning letters: by grouping overdue documents by customer account \(the *By Customer* option\) or by grouping overdue documents by customer and by the dunning level of a document \(*By Document*\). You select the appropriate option in the **Dunning Process** box on the **Dunning** tab of the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form. By default, the *By Customer* option is selected. If you want more manual control over the process, you can select the *By Document* option.
 
@@ -29,7 +29,7 @@ You can use the following forms to view the history of dunning letters that have
 -   [Dunning Letter History by Customer](AR_40_80_00.md) \(AR408000\): Shows the history of dunning letters that have been produced for the selected customer account
 -   [Dunning Letter History by Document](AR_40_85_00.md) \(AR408500\): Displays the history of dunning letters that have been produced for documents of the selected customer account
 
-## Dunning Level of a Document {#section_cwd_hjv_vxb .section}
+## Dunning Level of a Document
 
 A dunning level is a rule that defines a range for days past due, days to settle, and the amount of the dunning fee. A dunning level acts as a filter when you print or email dunning letters. By default, dunning level 1 has 30 days past due and 3 days to settle, and each new dunning level has 30 more days past due. When specifying these dunning settings, you can override the default values.
 
@@ -37,7 +37,7 @@ A dunning level is associated with a particular document \(invoice or credit mem
 
 You can view the current dunning level of a document in the **Dunning Info** section on the **Financial** tab of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. Also, in this section, you can view the date of the last released dunning letter that included this document.
 
-## Dunning Level of a Customer Class {#section_gwd_hjv_vxb .section}
+## Dunning Level of a Customer Class
 
 On the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, you can define the dunning levels to be used by default for new customer classes, using the most typical levels. \(If you do not define them, they cannot be used for customer classes at all.\) If dunning levels have been specified in the AR settings, they can also be defined for specific customer classes. For example, different dunning processes can be required for business-to-business \(B2B\) customers and business-to-consumer \(B2C\) customers, for key customers and regular customers, and for customers located in different countries.
 
@@ -47,7 +47,7 @@ For the class you are defining, you can delete unneeded levels, change the setti
 
 The dunning levels specified on the [Accounts Receivable Preferences](AR_10_10_00.md) form are used for only the creation of new customer classes. If the dunning settings on the [Accounts Receivable Preferences](AR_10_10_00.md) form are changed, the dunning level settings defined for existing customer classes are not updated. To change the dunning levels for existing customers, you should update the dunning levels of the appropriate customer class on the [Customer Classes](AR_20_10_00.md) form.
 
-## Exclusion from the Dunning Process {#section_lwd_hjv_vxb .section}
+## Exclusion from the Dunning Process
 
 You can exclude a customer account from the dunning process, regardless of what option is selected for the dunning process. To do this for a customer, you clear both the **Send Dunning Letters by Email** and **Print Dunning Letters** check boxes in the **Print and Email Settings** section on the **Billing** tab of the [Customers](AR_30_30_00.md) \(AR303000\) form.
 
@@ -55,7 +55,7 @@ If you prepare dunning letters by document \(that is, if the *By Document* optio
 
 **Attention:** If you prepare dunning letters by customer, a particular document cannot be excluded from the dunning process.
 
-## Dunning Fee Collection {#section_pwd_hjv_vxb .section}
+## Dunning Fee Collection
 
 You may want to charge your customers for the expenses your company incurs while sending dunning letters. If you do this, you can specify a numbering sequence, which the system will use when it assigns numbers to dunning fees, in the **Dunning Fee Numbering Sequence** box on the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form. If you leave this box empty, when the system assigns numbers to dunning fees, it uses the numbering sequence specified in the **Invoice Numbering Sequence** box of the form.
 
@@ -71,7 +71,7 @@ If you do not need to adjust any dunning fee invoices, you can configure the aut
 
 **Attention:** The amount of the dunning fee is converted to the customer's currency if the **Enable Currency Override** check box is cleared on the [Customers](AR_30_30_00.md) form.
 
-## Dunning Process Configuration {#section_xwd_hjv_vxb .section}
+## Dunning Process Configuration
 
 You need to perform the following steps to set up the dunning process:
 

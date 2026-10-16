@@ -1,4 +1,4 @@
-# Implementing Workflow Dialog Boxes {#_b5fd2aba-3449-4db5-a769-f95c5ba005c3 .concept}
+# Implementing Workflow Dialog Boxes
 
 In this chapter, you will learn how to implement a dialog box that can be shown when a user clicks a button on the form toolbar or a command on the More menu to invoke a workflow action. In the workflow dialog box, the user provides particular field values, which can be used in a transition that is triggered by this action.
 

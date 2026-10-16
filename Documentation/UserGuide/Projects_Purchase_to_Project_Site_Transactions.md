@@ -1,8 +1,8 @@
-# Purchases to the Project Site: Generated Transactions {#_e32c7203-1ca3-4f38-bb9a-0e6d4eb485a5 .concept}
+# Purchases to the Project Site: Generated Transactions
 
 When you purchase items for a project that are drop-shipped to the project site and no purchase receipt is processed, you create and process a purchase order of the *Project Drop-Ship* type. To update the vendor balance and record the incurred expenses to the cost budget of the project, the system generates the GL transactions and project transactions described in the following sections.
 
-## GL Transactions Generated on Release of the AP Bill {#section_wrs_wst_pqb .section}
+## GL Transactions Generated on Release of the AP Bill
 
 When an accounts payable bill is released, the system creates a batch of the general ledger transactions shown in the following table.
 
@@ -13,7 +13,7 @@ When an accounts payable bill is released, the system creates a batch of the gen
 
 On the **Financial** tab \(**Link to GL** section\) of the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you can click the link in the **Batch Nbr.** box to view the details of the batch on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## Project Transaction Generated on Release of the AP Bill {#_7f9dc79b-95dc-460d-b73a-31c065929f39 .section}
+## Project Transaction Generated on Release of the AP Bill
 
 On release of the general ledger transactions, the system generates the project transaction shown in the following table.
 

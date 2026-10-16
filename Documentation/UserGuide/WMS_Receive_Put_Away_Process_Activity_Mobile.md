@@ -1,4 +1,4 @@
-# Receiving and Putting Away Operations: To Receive and Put Away Items \(Mobile\) {#_00258f48-26b6-458a-935f-a93b59c3e610 .task}
+# Receiving and Putting Away Operations: To Receive and Put Away Items \(Mobile\)
 
 In the following activity, you will learn how to perform the receiving and putting away of items on the Receive and Put Away screen of the Acumatica mobile app, which corresponds to the [Receive and Put Away](PO_30_20_20.md) \(PO302020\) form in Acumatica ERP.
 
@@ -6,11 +6,11 @@ In this activity, we use the Acumatica mobile app for Android devices. The appea
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a warehouse worker in the wholesale warehouse of the SweetLife Fruits &amp; Jams company. Your warehouse manager gives you a task to receive the purchased fruits \(70 pounds of apples and 50 pounds of oranges\) in the warehouse with the help of the Acumatica mobile app. In your organization, the receive and put away workflow is used, which means that you receive the purchased items at a receiving location of the warehouse, and then go through the warehouse locations and put away the items in the locations where the fruits are stored. Also suppose that you put away the apples and part of the oranges in one fruit location, and the rest of the oranges in another fruit location.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -24,13 +24,13 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form, a purchase order to the *ALLFRUITS* vendor has been created.
 -   On the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form, a purchase receipt has been created for this purchase order.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will open the Receive and Put Away screen in the Acumatica mobile app, switch to Receive mode, and scan the number of the purchase order. Then you will receive the items and scan their barcodes and quantities. After you finish receiving the items, you will switch to Put Away mode on the same form, scan the barcodes of the warehouse locations to which the items are being put away, scan the item barcodes, and correct the quantities. After you finish putting away items, you will release the transfer receipt.
 
 **Tip:** In any working mode, you enter a command or barcode by typing it in the Scan box and tapping Enter. In production systems, you will scan the appropriate barcodes rather than manually entering them.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start performing the automated receiving and putting away operations, do the following:
 
@@ -43,7 +43,7 @@ Before you start performing the automated receiving and putting away operations,
 
 **Attention:** The instructions in the activity steps below may slightly differ in the Acumatica mobile app depending on whether the device is running iOS or Android.
 
-## Step 1: Receiving Items in the Receiving Location { .section}
+## Step 1: Receiving Items in the Receiving Location
 
 To record the receipt of items in the warehouse, do the following in the Acumatica mobile app on your mobile device:
 
@@ -66,7 +66,7 @@ To record the receipt of items in the warehouse, do the following in the Acumati
 
 You have received the items for the purchase receipt, and now you can proceed with putting away the received items in the storage locations.
 
-## Step 2: Putting Away the Received Items in the Storage Locations { .section}
+## Step 2: Putting Away the Received Items in the Storage Locations
 
 To record that the received items are being put away in the appropriate locations, do the following in the Acumatica mobile app:
 

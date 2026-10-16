@@ -1,4 +1,4 @@
-# End-of-Year Actions {#_933ad755-8ef1-4291-a24b-7009dce8cdd1 .concept}
+# End-of-Year Actions
 
 At the end of the 1099 reporting year, you print or prepare electronic versions of 1099-MISC and 1099-NEC forms for each 1099 vendor by using the [1099-MISC Form](AP_65_30_00.md) \(AP653000\) and [1099-NEC Form](AP_65_31_00.md) \(AP653100\) forms. You then send the appropriate copies of the forms to vendors and the IRS.
 

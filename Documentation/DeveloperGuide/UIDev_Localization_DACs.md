@@ -1,4 +1,4 @@
-# UI Localization: DACs {#_6aa5f890-e9fb-49fd-924c-9da852f741f8 .concept}
+# UI Localization: DACs
 
 When the system localizes the fields of the data access classes \(DACs\) and DAC names, it collects the string constants that are specified in the following code elements:
 
@@ -7,13 +7,13 @@ When the system localizes the fields of the data access classes \(DACs\) and DAC
 
 To prepare each DAC for localization, you need to adjust its code as described in the following sections.
 
-## DAC Fields { .section}
+## DAC Fields
 
 To define the names of the UI elements that correspond to DAC fields to be localizable, you specify the DisplayName parameter of the PXUIField attribute for each visible field in the DAC, as shown in the following example.
 
 **Attention:** If you change the DisplayName value of the PXUIField attribute on the fly \(by creating your own PXFieldState\), you should localize the string independently.
 
-```language-csharp
+```csharp
 public new abstract class docType : PX.Data.IBqlField{}
 [PXDBString(3, IsKey = true, IsFixed = true)]
 [PXDefault()]
@@ -21,11 +21,11 @@ public new abstract class docType : PX.Data.IBqlField{}
 public override string DocType { get; set; }
 ```
 
-## Drop-Down Lists { .section}
+## Drop-Down Lists
 
 You specify the values that should be displayed in drop-down lists by using the PXStringList attribute, as shown in the following example.
 
-```language-csharp
+```csharp
 public abstract class lineSource : PX.Data.IBqlField{}
 [PXString(1, IsFixed = true)]        
 [PXStringList(
@@ -35,13 +35,13 @@ public abstract class lineSource : PX.Data.IBqlField{}
 public virtual string LineSource { get; set; }
 ```
 
-## Radio Buttons { .section}
+## Radio Buttons
 
 For localization of the list of strings used as radio button names in a group of radio buttons \(also known as an *option buttons*\), you specify the value of the DisplayName property of PXUIField for strings in PXStringListAttribute, as shown in the following example.
 
 **Attention:** The *-&gt;* character separates the name of the list from the command.
 
-```language-csharp
+```csharp
 public abstract class displayMode : 
   PX.Data.BQL.BqlString.Field<displayMode> 
 { 

@@ -1,4 +1,4 @@
-# Preparing an Instance for Workflow Customization {#_0abd4d31-a417-4415-9d23-754f4114ade9 .concept}
+# Preparing an Instance for Workflow Customization
 
 In this chapter, you will learn how to configure an instance of Acumatica ERP for testing the activities of this guide.
 

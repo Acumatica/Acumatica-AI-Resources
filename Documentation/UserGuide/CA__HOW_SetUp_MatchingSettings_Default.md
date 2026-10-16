@@ -1,8 +1,8 @@
-# To Set Up Default Transaction Matching Settings {#_a4c0444d-bfbd-47a3-a315-47b7e7d7de94 .task}
+# To Set Up Default Transaction Matching Settings
 
 On the [Cash Management Preferences](CA_10_10_00.md) \(CA101000\) form, you specify the default matching settings to be used by the automatic matching process on the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form by performing the following instructions.
 
-## To Set Up Default Matching Settings {#section_nxd_kjv_vxb .section}
+## To Set Up Default Matching Settings
 
 1.  Open the [Cash Management Preferences](CA_10_10_00.md) \(CA101000\) form.
 2.  On the **Bank Statements** tab, review the settings and change them if needed as follows:

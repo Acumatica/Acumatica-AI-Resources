@@ -1,4 +1,4 @@
-# Parent-Child Relationships: Related Reports {#_7f01c6a9-3500-450e-94f9-ee9a62c0f802 .concept}
+# Parent-Child Relationships: Related Reports
 
 In the following sections, you can find details about the reports you may want to review to gather information about the balances and documents of parent and child customer accounts.
 
@@ -6,7 +6,7 @@ With the *Parent-Child Customer Relationship* feature enabled on the [Enable/Dis
 
 **Important:** Only child accounts with the **Consolidate Balance** check box selected on the [Customers](AR_30_30_00.md) \(AR303000\) form are grouped under their parent account, and their balances are consolidated with the parent balance.
 
-## Generation of Consolidated Reports {#section_nwl_4jv_vxb .section}
+## Generation of Consolidated Reports
 
 On the **Report Parameters** tab of the following Acumatica ERP report forms, you can select a check box \(either **Group By Parent Account** or **Consolidate Data by Parent Account**\) to generate reports that show parent-child relations:
 

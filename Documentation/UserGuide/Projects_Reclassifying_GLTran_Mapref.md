@@ -1,4 +1,4 @@
-# Reclassifying Project-Related GL Transactions {#_21967c91-b080-45d5-803d-c0842f15304b .concept}
+# Reclassifying Project-Related GL Transactions
 
 If the batch was posted to the wrong GL account, subaccount, branch, project, project task, or cost code, you can correct it by reclassifying the batch.
 

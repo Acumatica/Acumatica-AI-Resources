@@ -1,4 +1,4 @@
-# Using Conditions and Parameters {#_513737c4-2f79-4b7f-ac27-79831ca6757f .concept}
+# Using Conditions and Parameters
 
 In the topics of this chapter, you will learn how to define conditions and parameters to limit the data to be displayed on a generic inquiry form.
 

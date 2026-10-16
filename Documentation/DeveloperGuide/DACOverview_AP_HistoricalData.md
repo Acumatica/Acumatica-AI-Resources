@@ -1,8 +1,8 @@
-# AP DACs: Historical Data {#_0fedf0fb-eb92-4809-a962-b95c0c08e4c2 .concept}
+# AP DACs: Historical Data
 
 Historical data access classes \(DACs\) keep historical data on vendors' balance and turnover by financial period.
 
-## APHistory { .section}
+## APHistory
 
 The [APHistory](https://help.acumatica.com/dacBrowser/PX.Objects.AP/APHistory) DAC keeps the history of vendor operations and the beginning and ending balances in the base currency. The data is aggregated by vendors, branches, AP accounts, AP subaccounts, and financial periods.
 
@@ -66,7 +66,7 @@ FROM
         AND APHistorySum.SubID = GLTransactionSum.SubID 
 ```
 
-## CuryAPHistory { .section}
+## CuryAPHistory
 
 The [CuryAPHistory](https://help.acumatica.com/dacBrowser/PX.Objects.AP/CuryAPHistory) DAC keeps the history of vendor operations and the beginning and ending balances in each currency. The data is aggregated by vendors, branches, AP accounts, AP subaccounts, financial periods, and currency ID.
 

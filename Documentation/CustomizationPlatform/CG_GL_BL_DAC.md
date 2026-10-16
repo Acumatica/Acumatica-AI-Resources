@@ -1,4 +1,4 @@
-# Data Access Class {#_c4ba7af4-1145-4781-8dc6-ab706dfc59de .concept}
+# Data Access Class
 
 A data access class \(DAC\) is used to represent a database table in the code of Acumatica ERP. If a DAC is bound to the database, it must have the same class name as the database table. A DAC must be declared with the `public` access modifier to be correctly recognized by the Acumatica Customization Platform. A DAC is inherited from the PXBqlTable class and the IBqlTable interface and contains data field declarations.
 

@@ -1,14 +1,14 @@
-# Service Areas: To Add a Service Area and Assign a Staff Member to It {#_572f45df-d4a9-454a-8328-5db6129e743f .task}
+# Service Areas: To Add a Service Area and Assign a Staff Member to It
 
 In this implementation activity, you will learn how to define a service area to the system.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are an administrative user of the SweetLife Service and Equipment Sales Center, and you need to add a new service area to the system. The company plans to use this area to provide services to customers in that region.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -17,11 +17,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   On the [Service Management Preferences](../UserGuide/FS_10_01_00.md) \(FS100100\) form, the minimum settings have been specified, including specifying the numbering sequences and work calendar, for the service management functionality to be used.
 -   On the [Employees](../UserGuide/EP_20_30_00.md) \(EP203000\) form, the *EP00000043 \(Edward Smith\)* and *EP00000044 - Ricardo Martinez* employees have been created and have been defined as a service management staff members. That is, the **Staff Member in Service Management** check box has been selected on the **General** tab for each employee.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Service Areas](../UserGuide/FS_20_19_00.md) \(FS201900\) form, you will create a new service area record; on the **Postal Codes** tab, you will add the list of ZIP codes related to the service area. Then on the **Employees** tab of this form, you will add the staff members who can perform services in the service area.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -33,7 +33,7 @@ Before you start this activity, do the following:
     **Important:** In this activity, you will use the list of postal codes provided in the sample Excel file. In a production environment, however, you will need to prepare your own Excel file containing the postal codes relevant to your service area.
 
 
-## Step 1: Adding a Service Area { .section}
+## Step 1: Adding a Service Area
 
 To add a service area to the system, do the following:
 
@@ -55,7 +55,7 @@ To add a service area to the system, do the following:
 6.  On the form toolbar, click **Save**.
 7.  In the **Service Area ID** box of the Summary area, click the magnifier button. In the lookup table that opens, you can see the list of service areas created in the system, including the *JAMAICA* service area, which you have created in this step.
 
-## Step 2: Assigning Employees to the New Service Area { .section}
+## Step 2: Assigning Employees to the New Service Area
 
 To assign staff members to particular geographical areas, you can assign each staff member to the service area where they are available for performing services.
 

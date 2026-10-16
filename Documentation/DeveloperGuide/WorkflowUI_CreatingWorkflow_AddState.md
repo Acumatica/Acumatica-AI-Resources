@@ -1,8 +1,8 @@
-# Workflow Creation: Configuration of States {#_e5229743-eed1-43c7-bfef-62435b464648 .concept}
+# Workflow Creation: Configuration of States
 
 States in a workflow for an Acumatica ERP form represent the statuses of a record that is created on this form.
 
-## State Configuration { .section}
+## State Configuration
 
 The states of a workflow appear on the **States and Transitions** pane of the [Workflow \(Tree View\)](../UserGuide/AU_20_10_30.md) page. You can change the location of any states by clicking the state and then clicking **Move Up** or **Move Down** on the pane toolbar. You specify how a record moves between those states by adding transitions.
 
@@ -14,7 +14,6 @@ For any state, you can specify the fields whose properties should be modified. Y
 
 The following screenshot shows the states on the **States and Transitions** pane for the opportunity workflow.
 
-![](Images/WorkflowUI_CreatingWorkflow_StatesAndTransitionsPane_States.png "States on the State and Transitions pane")
 
 **Parent topic:**[Creating Workflows](../DeveloperGuide/WorkflowUI_CreatingWorkflow_Mapref.md)
 

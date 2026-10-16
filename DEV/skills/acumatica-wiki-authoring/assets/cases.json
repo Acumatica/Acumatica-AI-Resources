@@ -1,9 +1,12 @@
 {
   "choices": {
-    "outcome": [
-      "accept",
-      "repair",
-      "partial"
+    "work_required": [
+      "none",
+      "repair"
+    ],
+    "verification_status": [
+      "complete",
+      "pending"
     ],
     "findings": [
       "missing-article",
@@ -288,7 +291,7 @@
       "id": "w9",
       "request": "Verify the standalone article update and finish any remaining relevant checks.",
       "evidence": {
-        "release": "2026 R1",
+        "release": "2026 R2",
         "owner": "native editor",
         "screen": null,
         "customization_project": null,
@@ -301,6 +304,29 @@
         "wiki_menu_route": "opens intended article",
         "requested_scope": "standalone internal Wiki article; no contextual form Help or package distribution"
       }
+    },
+    {
+      "id": "w10",
+      "request": "Assess this standalone article using the supplied evidence; the intended reader cannot log in today. Identify any required work and remaining verification.",
+      "evidence": {
+        "release": "2026 R2",
+        "owner": "native editor",
+        "screen": null,
+        "customization_project": null,
+        "article_id": "Example_Receiving_Overview",
+        "page_id": "77777777-2222-4333-8444-555555555555",
+        "article_publication_state": "published",
+        "saved_content": "updated accepted instructions",
+        "render": "correct title, formatted content and inspected links",
+        "reader": "unavailable",
+        "wiki_menu_route": "opens intended article",
+        "requested_scope": "standalone internal Wiki article; no contextual form Help or package distribution"
+      }
     }
-  ]
+  ],
+  "field_definitions": {
+    "work_required": "Classify the supplied current evidence before proposed repairs: none = no established defect needs content, mapping, ownership or rights changes; repair = an established defect needs such changes, including creating a missing article. Missing evidence alone does not prove a defect.",
+    "verification_status": "complete = all applicable current witnesses are available, even if they show a failure; pending = an applicable witness is unavailable or not yet obtained. An older witness does not close a current unavailable check. Do not classify hypothetical evidence after future work.",
+    "acceptance": "Acceptance requires work_required=none and verification_status=complete. These axes separately describe needed changes and evidence availability."
+  }
 }

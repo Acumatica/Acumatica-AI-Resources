@@ -1,4 +1,4 @@
-# Configuration of Project Material Management: Availability Calculation Rules {#_c95730fe-f2d8-4277-8f97-760c20502ed8 .concept}
+# Configuration of Project Material Management: Availability Calculation Rules
 
 Each document that affects inventory creates at least one *item plan*—a system record representing future increases or decreases in item quantity. Each item plan's *plan type* determines how that planned quantity affects item availability. You use availability calculation rules to define which plan types affect the calculation of available quantities of inventory items in the system. Depending on the item's plan type, available item quantity decreases or increases when you allocate or purchase project materials.
 

@@ -1,8 +1,8 @@
-# Adding Landed Costs to Items' Costs {#_3fb8f768-a8ea-44a8-9a4f-8b78ecb947e8 .concept}
+# Adding Landed Costs to Items' Costs
 
 On release of the landed cost document, the system generates the inventory adjustment that updates the items' cost in inventory according to the allocated landed cost amounts and the valuation method of these items. The following sections describe how the system updates costs for the items of purchase receipts and transfer receipts.
 
-## Cost Updating When Landed Costs Are Allocated to Purchase Receipts { .section}
+## Cost Updating When Landed Costs Are Allocated to Purchase Receipts
 
 Upon release, an inventory adjustment updates the inventory costs of items differently depending on the valuation method of the item:
 
@@ -19,7 +19,7 @@ Upon release, an inventory adjustment updates the inventory costs of items diffe
 
 -   For items with the *Standard* valuation method, the amount from the Landed Cost Accrual account is moved to the Landed Cost Variance account of the stock item. The system records the cost in a cost layer, which is identified by the warehouse.
 
-## Cost Updating When Landed Costs Are Allocated to Transfer Receipts { .section}
+## Cost Updating When Landed Costs Are Allocated to Transfer Receipts
 
 Upon release, an inventory adjustment updates the inventory costs of items differently depending on the valuation method of the item as follows:
 
@@ -42,20 +42,174 @@ Upon release, an inventory adjustment updates the inventory costs of items diffe
     -   If the layer still has the original quantity, the cost of all items in the layer is updated, and the landed cost amount from the Landed Cost Accrual account is transferred to the Inventory account assigned to the item.
     -   If the current quantity in the layer is less than the original quantity on the receipt, the landed cost amount is moved from the Landed Cost Accrual account to update the Landed Cost Variance account and the Inventory account in proportion to the sold and unsold quantities, respectively.
 
-## An Example of Cost Updating for a Transferred FIFO Item { .section}
+## An Example of Cost Updating for a Transferred FIFO Item
 
 If a stock item with the *FIFO* valuation method was transferred from one warehouse to another, a new cost layer for the transferred quantity is created with the date of the transfer receipt.
 
 The history of receipts in the table below illustrates how the landed costs update the cost of the transferred item with the *FIFO* valuation method.
 
-|N|Tran. Type|Date|Ref. Nbr.|Qty.|Warehouse|Unit Cost|Comment|
-|---|----------|----|---------|----|---------|---------|-------|
-|1|Receipt|February 01|RCP001|5|WHL1|300|A new cost layer for 5 units was created with the date February 1.|
-|2|Receipt|February 01|RCP001|7|WHL2|450|A new cost layer for 7 units was created with the date February 1.|
-|3|Transfer from warehouse WHL1|February 08|TRAN001|-3|WHL1|300|The cost layer was updated.|
-|4|Transfer receipt at warehouse WHL2Landed cost amount added: 240
+<table id="_5587037c-9916-4c36-a31b-40b79f497856"><thead><tr><th>
 
-|February 09|TRREC01|3|WHL2|\(3 \* 300 + 240\) / 3= 380|A new cost layer for 3 units was created with the date February 9.|
+N
+
+</th><th>
+
+Tran. Type
+
+</th><th>
+
+Date
+
+</th><th>
+
+Ref. Nbr.
+
+</th><th>
+
+Qty.
+
+</th><th>
+
+Warehouse
+
+</th><th>
+
+Unit Cost
+
+</th><th>
+
+Comment
+
+</th></tr></thead><tbody><tr><td>
+
+1
+
+</td><td>
+
+Receipt
+
+</td><td>
+
+February 01
+
+</td><td>
+
+RCP001
+
+</td><td>
+
+5
+
+</td><td>
+
+WHL1
+
+</td><td>
+
+300
+
+</td><td>
+
+A new cost layer for 5 units was created with the date February 1.
+
+</td></tr><tr><td>
+
+2
+
+</td><td>
+
+Receipt
+
+</td><td>
+
+February 01
+
+</td><td>
+
+RCP001
+
+</td><td>
+
+7
+
+</td><td>
+
+WHL2
+
+</td><td>
+
+450
+
+</td><td>
+
+A new cost layer for 7 units was created with the date February 1.
+
+</td></tr><tr><td>
+
+3
+
+</td><td>
+
+Transfer from warehouse WHL1
+
+</td><td>
+
+February 08
+
+</td><td>
+
+TRAN001
+
+</td><td>
+
+-3
+
+</td><td>
+
+WHL1
+
+</td><td>
+
+300
+
+</td><td>
+
+The cost layer was updated.
+
+</td></tr><tr><td>
+
+4
+
+</td><td>
+
+Transfer receipt at warehouse WHL2Landed cost amount added: 240
+
+</td><td>
+
+February 09
+
+</td><td>
+
+TRREC01
+
+</td><td>
+
+3
+
+</td><td>
+
+WHL2
+
+</td><td>
+
+\(3 \* 300 + 240\) / 3= 380
+
+</td><td>
+
+A new cost layer for 3 units was created with the date February 9.
+
+</td></tr></tbody>
+</table>
 
 If the item is moved within the same warehouse from a location with the **Cost Separately** check box selected on the [Warehouses](IN_20_40_00.md) \(IN204000\) form to a location with the **Cost Separately** check box cleared \(or if the reverse is true\), a new cost layer is created too; however, it has the date of the original receipt. In the above example, if a transfer was performed between the L1 and L2 locations \(which have different cost settings\) of the same warehouse, the cost layer mentioned in Row 4 would have the date February 1.
 

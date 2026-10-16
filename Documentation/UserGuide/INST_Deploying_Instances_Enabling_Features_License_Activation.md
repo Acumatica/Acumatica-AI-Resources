@@ -1,14 +1,14 @@
-# Instance Deployment: Feature Activation and Licensing {#_26e4dc0e-eff7-4dff-ba5f-21874c67141a .concept}
+# Instance Deployment: Feature Activation and Licensing
 
 After you have deployed an instance, you can start the implementation. You need to activate the instance by enabling the default set of features. Then you apply the license and enable any purchased features that are not in the default set.
 
 In this topic, you will read about the first sign-in to a new instance, license obtainment, feature enabling, and the limitations of trial and license modes.
 
-## First Sign-In to Acumatica ERP { .section}
+## First Sign-In to Acumatica ERP
 
 When you sign in to a new Acumatica ERP instance for the first time and attempt to navigate to any form, the system brings up the [Enable/Disable Features](../Shared/../UserGuide/CS_10_00_00.md#) \(CS100000\) form \(the only form you can access\), which you use to enable the default set of features. After you do this, you can access the [Activate License](../Shared/../UserGuide/SM_20_15_10.md#) \(SM201510\) form, where you can activate your license key if you want to remove the trial mode restrictions. If you want to proceed with the trial mode, you can enable any other features that are available.
 
-## Obtaining of a License { .section}
+## Obtaining of a License
 
 In Acumatica ERP, you can request the purchased license by creating a support case through the [Partner Portal](https://portal.acumatica.com/). You should specify the following settings in the case:
 
@@ -23,7 +23,7 @@ You apply the key to your instance by clicking **Enter License Key** on the form
 
 To apply the license file, you should click **Upload License File** on the form toolbar of the [Activate License](../Shared/../UserGuide/SM_20_15_10.md) form, and then select and upload the license file by using the **Upload New License File** dialog box. If you use a license file, the system validates the license without contacting the licensing server.
 
-## Product Features { .section}
+## Product Features
 
 Acumatica ERP provides scalable core system functionality and offers a range of add-on features. On the [Enable/Disable Features](../Shared/../UserGuide/CS_10_00_00.md#) \(CS100000\) form, you can view and modify the list of enabled features according to your license limitations.
 
@@ -38,7 +38,7 @@ Before you start implementing Acumatica ERP, you may find it helpful to become f
 
 **Attention:** You can also use the [Enable/Disable Features](../Shared/../UserGuide/CS_10_00_00.md) form to disable individual features in Acumatica ERP. We recommend that you *not* disable any feature after it has been enabled and used in the live system; this may cause unexpected results, including data loss.
 
-## Trial and License Modes { .section}
+## Trial and License Modes
 
 By default, Acumatica ERP is installed in trial mode. Although all features are available in this mode, the mode has the following restrictions:
 
@@ -64,7 +64,7 @@ When you obtain the license for using Acumatica ERP and apply this license to an
 
 If you use the Acumatica Self-Service Portal, you have to obtain a license for the Self-Service Portal instance, activate the license, and then activate the required Self-Service Portal features. For details, see [Configuring the Self-Service Portal](../Shared/../UserGuide/config_SSP_Admin_Mapref.md).
 
-## Multiple User Sessions for the Same Username { .section}
+## Multiple User Sessions for the Same Username
 
 You can define how an Acumatica ERP instance handles conventional users \(but not API users\) who try to sign in by using the same username—for example, from different browsers. In the site `web.config` settings, you can use the `<concurrentUserMode>` parameter to specify whether the system allows users to sign in multiple times under the same username.
 

@@ -1,4 +1,4 @@
-# Inventory Planning Configuration: Variable Manufacturing Lead Times {#_e88ea1e1-895a-4d01-adb1-8347dbad46a3 .concept}
+# Inventory Planning Configuration: Variable Manufacturing Lead Times
 
 When the system calculates demand for the materials used in production on the [Regenerate Inventory Planning](../UserGuide/AM_50_50_00.md) \(AM505000\) form, the system creates planning recommendations for materials that must be produced. For each planning recommendation, the system specifies the action date, which is the date when the production must start. To calculate the action dates, the system calculates the lead times required to produce the needed quantity of materials. The variable manufacturing lead time depends on the quantity of produced items in production orders for which inventory planning is performed. This lead lime consists of the lead times of operations in bills of material that provide the production routing for the materials. You specify the settings that determine the operation lead times on the [Bill of Material](../UserGuide/AM_20_80_00.md) \(AM208000\) form.
 
@@ -6,7 +6,7 @@ When the system calculates demand for the materials used in production on the [R
 
 In the following sections, you can find details about variable manufacturing lead times.
 
-## Components of the Variable Manufacturing Lead Time {#_f391f98f-33a2-4c3b-acc9-6cbe9641235b .section}
+## Components of the Variable Manufacturing Lead Time
 
 For each operation of a bill of material, you specify the settings that determine variable lead times in the Operations table of the [Bill of Material](../UserGuide/AM_20_80_00.md) \(AM208000\) form. The system uses the following factors that determine operation lead times while calculating the action dates of planning recommendations for materials to be produced:
 
@@ -19,7 +19,7 @@ For each operation of a bill of material, you specify the settings that determin
 -   Queue time, move time, and finish time, which you specify in the Operations table of the [Bill of Material](../UserGuide/AM_20_80_00.md) form
 -   Work center capacity, which is calculated as `Crew Size * Efficiency`, both of which are specified on the **Shifts** tab of the [Work Centers](../UserGuide/AM_20_70_00.md) form
 
-## Configuration of Variable Manufacturing Lead Time { .section}
+## Configuration of Variable Manufacturing Lead Time
 
 You configure the variable manufacturing lead time to be used in inventory planning as follows:
 
@@ -29,7 +29,7 @@ You configure the variable manufacturing lead time to be used in inventory plann
 2.  If machines are used in any work center, on the [Machines](../UserGuide/AM_20_45_00.md) \(AM204500\) form, make sure that the calendar specified for each machine has the same working hours as the work center to which the machine is assigned.
 3.  On the [Bill of Material](../UserGuide/AM_20_80_00.md) \(AM208000\) form, in the Operations table, you specify the lead time components for each operation when creating a bill of material.
 
-## Calculation of the Manufacturing Lead Time { .section}
+## Calculation of the Manufacturing Lead Time
 
 When calculating action dates for planning recommendations, the system calculates the time required for performing each operation in the routing by using one of the following formulas \(depending on whether run time or machine time is used\).
 

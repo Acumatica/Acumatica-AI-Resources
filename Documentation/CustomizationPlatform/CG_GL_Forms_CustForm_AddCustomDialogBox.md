@@ -1,4 +1,4 @@
-# To Add a Dialog Box {#_28f998fd-0fa5-4439-9bcc-239079ff4db7 .concept}
+# To Add a Dialog Box
 
 You can add a custom dialog box to an Acumatica ERP form. If the dialog box must contain controls for data fields, you should generally perform the following operations:
 
@@ -17,7 +17,6 @@ To add a new PXSmartPanel container to an ASPX page, perform the following actio
 2.  In the editor, click the **Add Controls** tab item.
 3.  From the **Main Containers** group of the tab item, drag the **Pop-up Panel** container into the **Dialogs** node in the Control Tree, as shown in the following screenshot.
 
-    ![](images/CG_GL_Forms_CustForm_AddCustomDialogBox.png "Adding a form container to a form")
 
     **Note:** A dialog box can be displayed if it contains at least one visible control.
 

@@ -1,10 +1,10 @@
-# Project Creation and Processing: To Create a Fixed-Price Project {#_6163391d-d61e-45ac-b5c4-17cd736cf370 .task}
+# Project Creation and Processing: To Create a Fixed-Price Project
 
 This activity will walk you through the process of initial creation of a simple fixed-price project.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the Lake Cafe customer has ordered a juicer from the SweetLife Fruits &amp; Jams company, along with two hours of site review and four hours of installation services. The work will start on *1/1/2026* and must be completed by *1/30/2026*. SweetLife's project accountant has decided to create a project to track costs and revenues for the performed work. The project will be completed in two phases: Phase 1 will be the site review, and phase 2 will involve the sale and installation of the juicer. To track the progress of each phase separately, the project accountant has decided to define the phases as separate project tasks. Also, the project accountant will specify the revenue budget information for each project task and inventory item.
 
@@ -12,7 +12,7 @@ The project will be billed once, when both of the project tasks are completed. A
 
 Acting as the project accountant, you will create the new project and specify all needed settings.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -21,18 +21,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *SITEREVIEW* and *INSTALL* non-stock items have been defined.
 -   On the [Billing Rules](PM_20_70_00.md) \(PM207000\) form, the *PROGRESS* billing rule has been defined. This rule is configured for gradually billing the projects at a fixed contract amount.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Projects](PM_30_10_00.md) \(PM301000\) form, you will create a new project and specify its general settings on the **Summary** tab. Then on the **Tasks** tab, you will add the project tasks that will be performed during the completion of a project. On the **Revenue Budget** tab, you will define the planned revenue budget for the project.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded; you should sign in as Pam Brawner by using the *brawner* username and the *123* password.
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/1/2026*. If a different date is displayed, click the Business Date menu button, and select 1/1/2026 on the calendar.
 
-## Step 1: Creating a Project and Specifying Its General Settings { .section}
+## Step 1: Creating a Project and Specifying Its General Settings
 
 To create a new project and specify basic settings for it, do the following:
 
@@ -74,7 +74,7 @@ To create a new project and specify basic settings for it, do the following:
 
 4.  Save your changes to the project \(which currently has the *In Planning* status shown in the **Status** box of the Summary area\).
 
-## Step 2: Adding Project Tasks { .section}
+## Step 2: Adding Project Tasks
 
 To add project tasks to the project, do the following:
 
@@ -93,7 +93,7 @@ To add project tasks to the project, do the following:
     Notice that the project still has the *In Planning* status even though you have activated both of its project tasks.
 
 
-## Step 3: Specifying the Project Revenue Budget { .section}
+## Step 3: Specifying the Project Revenue Budget
 
 To specify the project revenue budget, do the following:
 
@@ -108,7 +108,6 @@ To specify the project revenue budget, do the following:
 2.  Save your changes to the project.
 3.  Make sure that the original and revised values in the revenue budget lines have been calculated, as shown below.
 
-    ![](Images/activity_Projects_Process_Implem_Activity_Fixed_Price.png "Revenue budget of a fixed-price project")
 
     For each budget line, the system automatically calculated the **Original Budgeted Amount** as the **Original Budgeted Quantity** multiplied by the **Unit Rate**. The system also filled in the **Revised Budgeted Quantity** and **Revised Budgeted Amount** columns with the values of **Original Budgeted Quantity** and **Original Budgeted Amount** columns, respectively.
 

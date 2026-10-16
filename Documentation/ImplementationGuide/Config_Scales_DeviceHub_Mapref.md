@@ -1,4 +1,4 @@
-# Configuring Digital Scales {#_d5da82b4-0f46-4f36-9791-0a35243eda78 .concept}
+# Configuring Digital Scales
 
 In the topics of this chapter, you will learn how to add a digital scale to DeviceHub, review the results of measuring in Acumatica ERP, and use the scale for measuring a package. You will also learn how to configure default scales in Acumatica ERP.
 

@@ -1,10 +1,10 @@
-# Managing Project Files: Project Tag Templates {#_068518ab-7c54-429b-b79e-cc9366576131 .concept}
+# Managing Project Files: Project Tag Templates
 
 Projects often require different ways of organizing documents. To support this, you can use *project tag templates.*
 
 Each project tag template contains a reusable tag hierarchy that defines the project’s default tags and their arrangement. When you assign a tag template to a project \(or project template\), the system copies the tag hierarchy to the project \(or template\) so that you don’t need to build it from scratch. Then you can modify the assigned project tag template, if needed.
 
-## Defining a Tag Template for Projects { .section}
+## Defining a Tag Template for Projects
 
 You define tag templates on the [Project Tag Templates](PM_20_45_00.md) \(PM204500\) form. For each new tag template, you:
 
@@ -23,7 +23,7 @@ You add tags to a node in the **Tags** pane as follows:
 
 **Tip:** You can move any tag in the **Tags** pane to another position by dragging it.
 
-## Selecting a Tag Template for a Project { .section}
+## Selecting a Tag Template for a Project
 
 You assign a tag template to a project on the **Document Tag Setup** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form; the tab appears only in the Modern UI. When you select a template in the **Tag Template** box, the system inserts:
 
@@ -33,7 +33,7 @@ You assign a tag template to a project on the **Document Tag Setup** tab of the 
 
 **Tip:** You can also assign a tag template to a project template. On the **Summary** tab of the [Project Templates](PM_20_80_00.md) \(PM208000\) form, select a project tag template in the **Tag Template** box. When you create a project from this project template, the system copies the tag structure to the project.
 
-## Tailoring the Tag Template for a Project { .section}
+## Tailoring the Tag Template for a Project
 
 Once the tag template is assigned to a project on the [Projects](PM_30_10_00.md) \(PM301000\) form, you can tailor this template for the project without affecting the tag template. You can do the following:
 

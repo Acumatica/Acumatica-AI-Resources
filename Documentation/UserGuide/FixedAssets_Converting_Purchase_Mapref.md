@@ -1,4 +1,4 @@
-# Converting Purchases to Fixed Assets {#_19c20575-f449-4a01-a8e3-9681559a0950 .concept}
+# Converting Purchases to Fixed Assets
 
 Acumatica ERP gives you the ability to convert purchases to fixed assets, so that most of the asset's data is copied and you do not need to reenter it.
 

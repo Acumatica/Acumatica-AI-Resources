@@ -1,8 +1,8 @@
-# Expense Receipts with Corporate Cards: General Information {#_a394c60d-5b80-44cb-acc4-34602b8efd17 .concept}
+# Expense Receipts with Corporate Cards: General Information
 
 Acumatica ERP supports the use of corporate credit cards in expense receipts and expense claims. This helps employees to categorize and track expenses, including the expenses related to a project. For example, while in the field, employees can buy something that they want to charge on a project and pay for it with a corporate card. Employees can also have out-of-pocket expenses that are then reimbursed to these employees.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -13,13 +13,13 @@ In this chapter, you will learn how to do the following:
 -   Review the documents and transactions that are generated on release of the expense claim
 -   Reconcile the balance of the corporate credit card in the system
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You process an expense receipt with a corporate credit card if you are an employee who incurs expenses for the company and wants to record expenses paid by a company credit card.
 
 You process an expense claim for expense receipts, including receipts paid with corporate credit cards, if you are an accountant who wants to process the recorded expenses.
 
-## Payment of Expense Receipts with Corporate Cards { .section}
+## Payment of Expense Receipts with Corporate Cards
 
 On the [Expense Receipt](EP_30_10_20.md) \(EP301020\) form, you create expense receipts for the employee account that is associated with your user account. You can also create expense receipts for any subordinates. In each expense receipt, you specify the key settings as follows:
 
@@ -42,11 +42,22 @@ On the [Expense Receipt](EP_30_10_20.md) \(EP301020\) form, you create expense r
 -   In the **Ref. Nbr.** box, you enter the reference number that usually matches the number of the original receipt.
 -   In the **Project/Contract**, **Project Task**, and **Cost Code** boxes, you enter the contract, or the project budget key, if the incurred expenses are related to a particular project or contract.
 
-## Claiming of Expense Receipts Paid with Corporate Cards { .section}
+## Claiming of Expense Receipts Paid with Corporate Cards
 
 On the [Expense Claim](EP_30_10_00.md) \(EP301000\) form, you can claim with a single expense claim all of your expense receipts paid with corporate cards. Each expense claim line on the **Details** tab contains a link to an expense receipt. If you create a new expense claim line on the form that doesn’t originate from any expense receipt, on release of the expense claim, the system creates the corresponding expense receipt for that expense claim line and inserts the link into the expense claim.
 
-After you have added expense claim lines, you click **Submit** to assign the expense claim the *Approved* status. Then you click **Release**. The system assigns the expense claim the *Closed* status and creates the corresponding AP documents for the expenses. On release of the AP documents, the system generates a project transaction \(if expenses are related to a particular project\) and the corresponding GL transaction. On release of this project transaction, the system updates the actual amount in the corresponding project budget line to decrease the expenses recorded to the project budget and returns the refunded amount to the balance of the credit card.
+After you have added expense claim lines, you click **Submit** to assign the expense claim the *Approved* status. Then you click **Release**. The system assigns the expense claim the *Closed* status and creates the corresponding AP documents for the expenses.
+
+**Tip:**
+
+If a generated AP document \(cash purchase or bill\) contains a project-related line and an employee is specified as the vendor in the document, the system does not apply branch validation when releasing the AP document, provided that the following settings are specified on the [Projects Preferences](../Shared/../UserGuide/PM_10_10_00.md) \(PM101000\) form:
+
+-   **Branch in Project Documents**: *Use Project Branch*
+-   **Block Doc. Processing on Branch Mismatch**: Selected
+
+As a result, the generated AP document is released along with the expense claim even if the branch on the **Financial** tab of the [Expense Claim](../Shared/../UserGuide/EP_30_10_00.md) form differs from the project branch.
+
+On release of the AP documents, the system generates a project transaction \(if expenses are related to a particular project\) and the corresponding GL transaction. On release of this project transaction, the system updates the actual amount in the corresponding project budget line to decrease the expenses recorded to the project budget and returns the refunded amount to the balance of the credit card.
 
 The following table summarizes the types of the documents that are prepared on release of the expense claim, depending on the sign of the amount in the line and the value in the **Paid With** column.
 
@@ -66,11 +77,10 @@ For the lines that have the *Corporate Card, Company Expense* option selected in
 
 -   If the **Post Summarized Company Expenses by Corporate Card** check box is cleared, the system creates a separate AP document for each expense claim line with this **Paid With** option.
 
-## Workflow of Claiming Expenses Paid with Corporate Cards {#section_i3l_d4p_mcb .section}
+## Workflow of Claiming Expenses Paid with Corporate Cards
 
 The following diagram illustrates the workflow of an employee claiming an expense paid with a corporate credit card.
 
-![](Images/diag_Expense_Receipt_Workflow.png)
 
 **Parent topic:**[Processing Expense Receipts with Corporate Cards](../UserGuide/TimeExpenses_Expense_Receipts_Mapref.md)
 

@@ -1,4 +1,4 @@
-# To Update a Project {#_a65978cc-b25b-419f-9dd3-deaccfb692a6 .concept}
+# To Update a Project
 
 If you have modified an item of a customization project in the file system by using an integrated development environment \(IDE\), such as Microsoft Visual Studio, these changes may not be reflected in the customization project yet. You have to update the project in the database before the publication or export of the deployment package of the project.
 
@@ -12,7 +12,6 @@ To update a customization project, perform the following actions:
 
 4.  To update the selected files in the project, on the toolbar of the dialog box, click **Update Customization Project**, as the following screenshot shows.
 
-    ![](images/CG_GL_Project_Updating.png "Updating files in the project")
 
 
 **Parent topic:**[Managing Customization Projects](../CustomizationPlatform/CG_GL_Projects.md)

@@ -1,4 +1,4 @@
-# Customer Synchronization: Business Customers {#_991bd3b2-9afe-4143-8157-771fdc2b688c .concept}
+# Customer Synchronization: Business Customers
 
 In Shopify, it is possible to sell goods and services to business customers without using third-party apps. A business customer is set up in the Shopify store as a *company*. A company may have multiple locations, and multiple customers may be associated with the same company. Each customer that is associated with a company may be assigned either the *Ordering only* role or the *Location admin* role in any of the company's locations. When a customer associated with a company signs in to the Shopify store, they select the location for which they are placing an order, and they are offered the prices and payment terms that have been set up in the store for that company location.
 
@@ -8,9 +8,9 @@ For more information about setting up companies in Shopify, see [the Shopify doc
 
 You can synchronize business customers between Acumatica ERP and a Shopify store, as described in the sections below. You can also synchronize orders that have been placed by contacts associated with business customers, as described in [Order Synchronization: Orders for Companies](Commerce_SP_Syncing_Orders_for_Companies.md).
 
-**Important:** The synchronization of business customers is available if both the *Shopify Connector* feature and the *Shopify Business-to-Business Entities* feature are enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
+**Important:** The synchronization of business customers is available if both the *Shopify Connector* feature and the *Shopify B2B Integration* feature are enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Import of Business Customers { .section}
+## Import of Business Customers
 
 During the import of a company from a Shopify store to Acumatica ERP, the system does the following:
 
@@ -44,7 +44,7 @@ The created contacts are assigned settings as follows:
 
 If a customer associated with a company is deleted in the Shopify store after the company has been synchronized, during the next synchronization, the corresponding contact in Acumatica ERP becomes inactive. Similarly, if a location is deleted in the Shopify store, the corresponding customer location in Acumatica ERP becomes inactive.
 
-## Export of Business Customers {#_3fb81e38-3b6e-49f2-8eb3-d9a3b1bdaf03 .section}
+## Export of Business Customers
 
 If the synchronization direction is set to *Export* or *Bidirectional* for the *Company* entity for the store on the **Entities** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form, business customers can be exported to the Shopify store. Customers are exported only if the **Customer Category** box contains *Organization* on the [Customers](AR_30_30_00.md) \(AR303000\) form.
 
@@ -62,7 +62,7 @@ During the export of a business customer, the system does the following in the S
     If changes have been made to a contact after the company has been synchronized, these changes are exported to the Shopify store during the next synchronization. However, if the contact is deactivated or deleted in Acumatica ERP, the corresponding customer is not updated in the Shopify store.
 
 
-## Synchronization of Shopify Payment Terms { .section}
+## Synchronization of Shopify Payment Terms
 
 You can synchronize credit terms assigned to customers in Acumatica ERP \(on the **Financial** tab of the [Customers](AR_30_30_00.md) \(AR303000\) form\) with payment terms assigned to company locations in the Shopify store.
 
@@ -72,7 +72,7 @@ When the connection to the Shopify store is established, the connector imports t
 
 If you want Acumatica ERP to be the main system for managing credit terms, you select the **Always Export Credit Terms** check box on the **Customers** tab of the [Shopify Stores](BC_20_10_10.md) form. This ensures that during the export, the connector always overrides the payment terms of company locations in Shopify with the credit terms assigned to the corresponding customers in Acumatica ERP.
 
-## Import of Payment Terms from Shopify { .section}
+## Import of Payment Terms from Shopify
 
 If the synchronization direction is set to *Import* or *Bidirectional* for the *Company* entity for the store on the **Entities** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form, payment terms can be imported form the Shopify store. Only customers assigned to the *Organization* customer category on the **General** tab of the [Customers](AR_30_30_00.md) \(AR303000\) form are included in the sync.
 
@@ -82,7 +82,7 @@ The connector updates each customer's credit terms on the **Financial** tab of t
 
 **When payment terms are skipped**: The connector doesn't import payment terms from Shopify if different payment terms are assigned to one or more company locations. Instead, it assigns the imported customer the credit terms defined for the customer class selected on the **Customers** tab of the [Shopify Stores](BC_20_10_10.md) form.
 
-## Export of Credit Terms to Shopify { .section}
+## Export of Credit Terms to Shopify
 
 If the synchronization direction is set to *Export* or *Bidirectional* for the *Company* entity for the store on the **Entities** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form, credit terms can be exported to the Shopify store. Only customers assigned to the *Organization* customer category on the **General** tab of the [Customers](AR_30_30_00.md) \(AR303000\) form are included in the sync.
 
@@ -99,6 +99,19 @@ The system exports credit terms assigned to a customer on the **Financial** tab 
 -   The **Always Export Credit Terms** check box is cleared on the **Customers** tab of the [Shopify Stores](BC_20_10_10.md) form.
 -   The corresponding company already exists in Shopify.
 -   Different payment terms are assigned to one or more company locations.
+
+## Mapping of Metafields
+
+The Shopify connector supports mapping metafields defined for companies. You can configure these mappings for the *Company* entity on the **Import Mapping** and **Export Mapping** tabs of the [Entities](BC_20_20_00.md) \(BC202000\) form. You specify Shopify metafields in the **External Field** and **External Field/Value** boxes in the following format: `{namespace.key}`. For example, `{custom.NewMetafield}`
+
+When exporting company metafields, the connector can:
+
+-   Create a new metafield definition of the `Single Line Text` type if the definition does not exist in Shopify.
+-   Reuse an existing metafield definition if it’s available.
+-   Preserve unmapped metafields.
+-   Clear mapped metafields when the corresponding ERP field is cleared.
+
+When importing company metafields, the connector populates the corresponding mapped ERP field with the metafield value received from Shopify. If the metafield is cleared in Shopify, the connector clears the corresponding ERP field.
 
 **Parent topic:**[Synchronizing Individual and Business Customers](../UserGuide/Commerce_SP_Syncing_Customers_Mapref.md)
 

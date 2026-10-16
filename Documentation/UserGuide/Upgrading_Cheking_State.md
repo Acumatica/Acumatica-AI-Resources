@@ -1,8 +1,8 @@
-# To Check the State of Application Instances and Databases {#_12aa69ab-7b0f-4262-88e2-5c33124275d2 .task}
+# To Check the State of Application Instances and Databases
 
 You can check the state of your application instances and databases and see which instances and databases you need to update.
 
-## To Check the State of Application Instances and Databases { .section}
+## To Check the State of Application Instances and Databases
 
 1.  Run the Acumatica ERP Configuration wizard on the server where Acumatica ERP is installed. For example, select **Start &gt; Acumatica &gt; Acumatica ERP Configuration**.
 2.  On the Welcome page, click **Perform Application Maintenance**.

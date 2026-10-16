@@ -1,8 +1,8 @@
-# Employee Time Entry: Time Activities {#_a1b70da0-9f4e-4497-9504-d887b0b0dec6 .concept}
+# Employee Time Entry: Time Activities
 
 A time activity is a record that is created in Acumatica ERP to report time that you or another employee spent on a work activity. This functionality is available if the *Time Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Creating Time Activities { .section}
+## Creating Time Activities
 
 You can create a time activity in multiple ways:
 
@@ -26,7 +26,7 @@ You can create a time activity in multiple ways:
 
 When you release a time activity related to a project, the system may create a transaction to update the project cost budget, depending on the option selected in the **Posting Option for Non-Payroll Employees** box of the [Time and Expenses Preferences](EP_10_10_00.md) \(EP101000\). If the *Payroll* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can select the time posting option on the [Payroll Preferences](PR_10_10_00.md) \(PR101000\) form.
 
-## Approving Time Activities { .section}
+## Approving Time Activities
 
 If an activity is associated with a project that requires approval—either at the project level or at the project task level—a billable time activity must be approved before it can be released for billing. You can approve the time activity if you are the project task approver or the time activity approver.
 

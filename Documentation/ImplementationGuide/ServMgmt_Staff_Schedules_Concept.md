@@ -1,4 +1,4 @@
-# Staff Schedules: Overview of the Setup Process {#_dde74186-6894-475a-9dfd-dc76b4f887d4 .concept}
+# Staff Schedules: Overview of the Setup Process
 
 You create a staff schedule for each employee you have defined as a staff member.
 
@@ -6,7 +6,7 @@ To do this, first you need to configure a schedule rule defining either availabl
 
 **Tip:** You can create rules for staff members of the *Employee* type only. For details on staff member types, see [Staff Members: General Information](ServMgmt_Staff_Members_GeneralInfo.md).
 
-## Creating a Staff Schedule Rule {#_52d6d59c-7f64-4c98-bad3-b30206db5aad .section}
+## Creating a Staff Schedule Rule
 
 On the [Staff Schedule Rules](../UserGuide/FS_20_20_01.md) \(FS202001\) form, you select one of the following option buttons under **Scheduling Settings** to specify the type of the rule:
 
@@ -27,7 +27,7 @@ After you have selected an option button, you specify the settings below the gro
 -   If you selected the **Monthly** option button, in the **Monthly Settings** section, you have to specify the time interval in months and select the check boxes for the day or days of the month when the schedule applies. You can specify the day in either of the following ways: by the number of a specific day of the month, or by the week of the month and the day of the week. For example, you can specify that the schedule repeats every 2 months on the 15th of the month, or on the 3rd Monday of the month. You can specify up to four days for the **Monthly** frequency type.
 -   If you selected the **Yearly** frequency type, in the **Yearly Settings** section, you have to specify the time interval in years, the month or months of the year, and the day of the month when the schedule applies. You can specify the day of the month in either of the following ways: by the number of the day of the month \(for example, every 4 years on the 20th day of February and March\), or by the week of the month and the day of the week \(for example, every year on the 2nd Monday of February and March\).
 
-## Generating a Schedule { .section}
+## Generating a Schedule
 
 Once a schedule rule is created, you have to generate the schedule for a certain period of time for a staff member. This gives you the ability to select the staff member for performing a service by using accurate times when the staff member is available to perform services. You can generate schedules manually or create an automation schedule to generate these scheduling rules. For details, see [Automated Processing: General Information](../UserGuide/SA_Scheduling_Automated_Processing_GeneralInfo.md).
 
@@ -35,7 +35,7 @@ To generate schedules manually, you use the [Generate Staff Schedules](../UserGu
 
 Once you have generated staff schedules, you can assign staff members to appointments or service orders according to their schedules by using the calendar boards.
 
-## Viewing the Staff Schedule Rules and the Generated Schedules { .section}
+## Viewing the Staff Schedule Rules and the Generated Schedules
 
 You can use the following forms to view schedule rules:
 

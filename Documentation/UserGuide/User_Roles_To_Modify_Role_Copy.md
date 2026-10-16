@@ -1,24 +1,24 @@
-# User Roles: To Modify Access Rights for a Copied Role {#_01470ef4-37c0-48fd-8011-24bb36151eec .task}
+# User Roles: To Modify Access Rights for a Copied Role
 
 In the following activity, you will learn how to copy an existing role and modify access to system objects for the copied role.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a system administrator, and because of the company’s growth, you now have an assistant. Initially, the assistant will help you with the creation of user accounts for the new employees. Then you will decide what other responsibilities the assistant will have. To accommodate the assistant’s current job responsibilities, you have decided to copy your existing role \(*Administrator*\) and modify access rights for the copy.
 
-## Process Overview { .section}
+## Process Overview
 
 You will use the [Access Rights by Role](SM_20_10_25.md) \(SM201025\) form to create a copy of a role and then modify access rights for the copied role, which you will name *Junior Administrator*.
 
 You will revoke the access of the *Junior Administrator* role to all workspaces in the system. To allow users with this role to create a user, you will give the role full access to the [Users](SM_20_10_10.md) \(SM201010\), [Contacts](CR_30_20_00.md) \(CR302000\), and [Employees](EP_20_30_00.md) \(EP203000\) forms, which are needed for adding employees to the system. \(For details on the creation of user accounts, see [User Access: To Add a User Account](SA_Managing_User_Access_To_Add_User_Account_Activity.md).\) These forms are located in the **User Security**, **Marketing**, and **Configuration** workspaces, to which you have revoked access. The system displays the menu items for restricted workspaces on the main menu, but only links to allowed forms are visible when the user opens one of these workspaces.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as a system administrator, by using the *gibbs* username and the *123* password.
 
-## Step 1: Copying a Role { .section}
+## Step 1: Copying a Role
 
 To copy an existing role, do the following:
 
@@ -30,7 +30,7 @@ To copy an existing role, do the following:
     2.  Click **Copy** to copy the role and close the dialog box.
 5.  On the form toolbar, click **Save**.
 
-## Step 2: Modifying Access Rights for the Selected User Role { .section}
+## Step 2: Modifying Access Rights for the Selected User Role
 
 To modify access rights for the copied role, do the following:
 

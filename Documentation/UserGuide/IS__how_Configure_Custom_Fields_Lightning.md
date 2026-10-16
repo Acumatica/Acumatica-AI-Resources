@@ -1,4 +1,4 @@
-# To Create Custom Fields in Salesforce Lightning {#_f01a2ed6-a91f-4bd9-94f7-4f4ab3c12c4a .task}
+# To Create Custom Fields in Salesforce Lightning
 
 To create in Salesforce the custom fields required for successful data synchronization, do the following:
 

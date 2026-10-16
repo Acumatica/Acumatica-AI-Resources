@@ -1,14 +1,14 @@
-# Branch Locations: Implementation Activity {#_edfda857-0841-4347-8588-1b0749d4f227 .task}
+# Branch Locations: Implementation Activity
 
 In this implementation activity, you will learn how to create a branch location in the system.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 An administrative user of the SweetLife Service and Equipment Sales Center has already created the *WEST BRIGHTON* branch location in Acumatica ERP. This location represents the main office of the Service and Equipment Sales Center and corresponds to the *SWEETEQUIP* branch in the system. The company is now opening a new office under this branch to provide services. As the administrative user, you will create a branch location in the system for the new office.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -16,11 +16,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   The *SWEETLIFE* company has been created on the [Companies](../UserGuide/CS_10_15_00.md) \(CS101500\) form. This company has multiple branches created on the [Branches](../UserGuide/CS_10_20_00.md#) \(CS102000\) form, including *SWEETEQUIP \(Service and Equipment Sales Center\)*.
 -   On the [Service Management Preferences](../UserGuide/FS_10_01_00.md) \(FS100100\) form, the minimum settings have been specified, including specifying the numbering sequences and work calendar, for the service management functionality to be used.
 
-## Process Overview { .section}
+## Process Overview
 
 In this lesson, you will specify the settings for the new branch location on the [Branch Locations](../UserGuide/FS_20_25_00.md) \(FS202500\) form.
 
-## System Preparation {#section_l4h_xgy_1hc .section}
+## System Preparation
 
 Before you start the activity, do the following:
 
@@ -28,7 +28,7 @@ Before you start the activity, do the following:
 2.  On the Company and Branch Selection menu in the top pane of the Acumatica ERP screen, select the Service and Equipment Sales Center branch.
 3.  Make sure that the *Service Management* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md#) \(CS100000\) form.
 
-## Step: Creating a Branch Location { .section}
+## Step: Creating a Branch Location
 
 To create a new branch location, do the following:
 

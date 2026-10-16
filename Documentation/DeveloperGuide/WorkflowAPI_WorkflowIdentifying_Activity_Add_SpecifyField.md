@@ -1,4 +1,4 @@
-# Step 2: Specifying the Workflow-Identifying Field in the Workflow {#_ad7ab392-dcd7-47c9-b391-ac1ce98f8912 .task}
+# Step 2: Specifying the Workflow-Identifying Field in the Workflow
 
 In this step, you will extend the screen configuration of the Repair Work Orders \(RS301000\) form and specify the workflow-identifying field in it by calling the FlowTypeIdentifierIs method.
 
@@ -6,7 +6,7 @@ Do the following:
 
 1.  In the extension library, create an extension of the `RSSVWorkOrderEntry_Workflow` class as shown in the following code.
 
-    ```language-csharp
+    ```csharp
         public class RSSVWorkOrderEntry_Workflow_Extension :
             PXGraphExtension<RSSVWorkOrderEntry_Workflow, RSSVWorkOrderEntry>
         {
@@ -17,7 +17,7 @@ Do the following:
 
 2.  In the `RSSVWorkOrderEntry_Workflow_Extension` class, define the set of constant string values and corresponding classes for the value of the `UsrOrderType` field which as the following code shows.
 
-    ```language-csharp
+    ```csharp
             #region Constants 
             public static class OrderTypes
             {
@@ -45,7 +45,7 @@ Do the following:
 
 3.  In the `RSSVWorkOrderEntry_Workflow_Extension` class, override the Configure method as the following code shows.
 
-    ```language-csharp
+    ```csharp
             public sealed override void Configure(PXScreenConfiguration config)
             {
                 Configure(config.GetScreenConfigurationContext<RSSVWorkOrderEntry,
@@ -60,7 +60,7 @@ Do the following:
 
 4.  In the static `Configure` method, update the screen configuration and specify the workflow-identifying field as the following code shows.
 
-    ```language-csharp
+    ```csharp
                 context.UpdateScreenConfigurationFor(screen => screen
                     .FlowTypeIdentifierIs<RSSVWorkOrder_Extension.usrOrderType>());
     ```

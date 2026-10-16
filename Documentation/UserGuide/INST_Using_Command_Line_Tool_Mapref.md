@@ -1,4 +1,4 @@
-# Using the Acumatica ERP Command-Line Tool {#_d78ac822-79f1-4a9c-91df-b6459946a2ba .concept}
+# Using the Acumatica ERP Command-Line Tool
 
 In this chapter, you will learn about performing some maintenance tasks in the Acumatica ERP application instance by using the command-line tool.
 

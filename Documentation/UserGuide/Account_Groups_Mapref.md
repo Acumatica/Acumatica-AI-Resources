@@ -1,4 +1,4 @@
-# Creating Account Groups {#_672cb616-418c-4714-a5ed-41768eeaf907 .concept}
+# Creating Account Groups
 
 During the configuration of Acumatica ERP, you create account groups to facilitate the aggregation, tracking, control, and management of information related to the project budget, costs, and future revenues. This chapter explains how to define account groups and map general ledger accounts to these account groups.
 

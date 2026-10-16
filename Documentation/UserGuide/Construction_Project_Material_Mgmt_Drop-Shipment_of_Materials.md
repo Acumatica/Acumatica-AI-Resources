@@ -1,4 +1,4 @@
-# Project Material Management: Drop-Shipment of Materials {#_51068cac-5241-47bb-a4fc-af58dd76293d .concept}
+# Project Material Management: Drop-Shipment of Materials
 
 You may need to purchase items and have the vendor deliver them directly to the project site.
 

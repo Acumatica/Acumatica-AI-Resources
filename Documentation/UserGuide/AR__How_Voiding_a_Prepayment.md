@@ -1,8 +1,8 @@
-# To Void a Payment {#_d4c3352a-65c4-43b0-a1b8-2aa944d9738e .task}
+# To Void a Payment
 
 Incoming payments can be voided if errors were made or the payments are otherwise invalid. Voiding a payment reverses the original payment transactions. You can use the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form to void a customer payment or prepayment that has been applied to invoices.
 
-## To Void a Customer Payment or Prepayment {#section_obp_4jv_vxb .section}
+## To Void a Customer Payment or Prepayment
 
 1.  Open the [Payments and Applications](../Shared/../UserGuide/AR_30_20_00.md) \(AR302000\) form.
 2.  In the **Type** box, select the *Payment* or *Prepayment* document type.

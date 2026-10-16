@@ -1,4 +1,4 @@
-# To Replace the Content of a Project from a Package {#_85c31d18-5fbb-4bef-b043-2808af59d1f0 .concept}
+# To Replace the Content of a Project from a Package
 
 You might need to upload a newer version of the customization project that has been modified outside the system on which you are working, or upload the project from a backup copy.
 

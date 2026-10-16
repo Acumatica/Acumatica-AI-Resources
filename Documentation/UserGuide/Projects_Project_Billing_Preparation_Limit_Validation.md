@@ -1,8 +1,8 @@
-# Project Billing Preparation: Billing Limits {#_c17cd276-1245-4e6e-a687-fa3ccdaa1e16 .concept}
+# Project Billing Preparation: Billing Limits
 
 The following sections explain how you can set up billing limits for pro forma invoices.
 
-## Configuring Billing Limits {#section_onv_qdl_g2c .section}
+## Configuring Billing Limits
 
 On the [Projects Preferences](PM_10_10_00.md) \(PM101000\) form, you select the way the system controls the billing limits in the **Validate T&amp;M Revenue Budget Limits** box. The following options are available:
 
@@ -11,7 +11,7 @@ On the [Projects Preferences](PM_10_10_00.md) \(PM101000\) form, you select the 
 
 To turn on the billing limit control for pro forma invoices of a particular project, you select the **Use T&amp;M Revenue Budget Limits** check box on the **Summary** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form. Then on the **Revenue Budget** tab, you define the billing limit amounts for the revenue budget lines of the project. For each revenue budget line for which you have decided to limit the billed amounts, you select the **Limit Amount** check box and specify the maximum billing amount in the **Maximum Amount** column. The system will validate these limit amounts in the pro forma invoices created for the project.
 
-## Applying Limits to Pro Forma Invoices {#section_gcy_qdl_g2c .section}
+## Applying Limits to Pro Forma Invoices
 
 If a time and material line is linked to a progress billing line, the system calculates the maximum amount that is currently available for billing the customer based on the billing limit amount of the corresponding revenue budget line that is related to the selected revenue task. If the time and material line has no revenue task specified, the system calculates the maximum billable amount based on the project task in this line.
 

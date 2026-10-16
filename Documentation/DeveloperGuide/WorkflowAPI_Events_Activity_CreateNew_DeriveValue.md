@@ -1,4 +1,4 @@
-# Step 2: Deriving the Value of the Field {#_b93f8202-2eaa-4798-9110-f34ea6faaee2 .task}
+# Step 2: Deriving the Value of the Field
 
 You can implement the deriving of a field value from the `RSSVSetup` DAC and the copying of it to the `ARRegister` DAC by using one of the following:
 
@@ -11,7 +11,7 @@ To populate the `UsrPrepaymentPercent` field of the `ARRegister` DAC extension w
 
     You learned the name of the graph to extend in Instruction 1 of the previous step.
 
-    ```language-csharp
+    ```csharp
         public class ARPaymentEntry_Extension : PXGraphExtension<ARPaymentEntry>
         {
         }
@@ -19,7 +19,7 @@ To populate the `UsrPrepaymentPercent` field of the `ARRegister` DAC extension w
 
 2.  Add the following `using` directives.
 
-    ```language-csharp
+    ```csharp
     using PX.Data;
     using PX.Data.BQL.Fluent;
     using PX.Objects.AR;
@@ -28,7 +28,7 @@ To populate the `UsrPrepaymentPercent` field of the `ARRegister` DAC extension w
 3.  Use Acuminator to suppress the [PX1016](https://github.com/Acumatica/Acuminator/blob/master/docs/diagnostics/PX1016.md) error in a comment. In this course, for simplicity, the extension is always active.
 4.  Define the `FieldDefaulting` event handler for the `UsrPrepaymentPercent` field of the `ARRegister` extension, as shown in the following code.
 
-    ```language-csharp
+    ```csharp
             public virtual void _(Events.FieldDefaulting<ARPayment,
                           ARRegisterExt.usrPrepaymentPercent> e)
             {
@@ -45,7 +45,7 @@ To populate the `UsrPrepaymentPercent` field of the `ARRegister` DAC extension w
 
 Another way to derive the default value is to use the PXDefault attribute, which performs the same logic. If you use this approach, the PXDefault attribute for the `UsrPrepaymentPercent` field should look as follows.
 
-```language-csharp
+```csharp
 [PXDefault(typeof(Select<RSSVSetup>), 
   SourceField = typeof(RSSVSetup.prepaymentPercent), 
   PersistingCheck = PXPersistingCheck.Nothing)]

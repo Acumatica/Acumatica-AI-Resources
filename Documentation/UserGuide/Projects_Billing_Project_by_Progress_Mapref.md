@@ -1,4 +1,4 @@
-# Billing Projects by Progress {#_696eb358-4188-4969-acd1-4abe8dd19d7e .concept}
+# Billing Projects by Progress
 
 In Acumatica ERP, if you need to bill customers for the services provided as a part of a project, you can generate invoices based on the information collected in the project’s accounting data. This chapter describes how you can bill projects for progress.
 

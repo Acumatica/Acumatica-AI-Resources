@@ -1,19 +1,19 @@
-# Availability Calculation Rules: General Information {#_36d6e854-c66e-4d9f-b150-6abbf0ece76b .concept}
+# Availability Calculation Rules: General Information
 
 In Acumatica ERP, you can configure the way availability data is calculated in accordance with your company's policies. You define the availability calculation rules on the [Availability Calculation Rules](IN_20_15_00.md) \(IN201500\) form. For each item class, on the [Item Classes](IN_20_10_00.md) \(IN201000\) form, you need to specify the particular availability calculation rule, which defines the availability calculation options for this item class. These calculations cannot be overridden for individual stock items.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will configure the availability calculation rule that applies to inventory items.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create availability calculation rules in the following cases:
 
 -   You are initially configuring inventory in Acumatica ERP.
 -   You need to add an item class or inventory item with specific availability calculation settings.
 
-## Types of Quantities Calculated { .section}
+## Types of Quantities Calculated
 
 Acumatica ERP automatically updates the on-hand quantities of items at warehouses only when the documents that record inventory transactions have been released. On-hand quantities usually differ from the quantities that are actually available because documents may be processed after the actual operations with items have been performed in such cases as the following:
 
@@ -43,9 +43,8 @@ The quantities shown in the following diagram, such as *IN Issues*, represent *p
 
 Dotted lines around an entry in the diagram indicate plan types that are used to calculate a particular quantity.
 
-![](Images/diag_InvMgmt_Item_Availability.png)
 
-## Plan Types {#_87027d64-139d-474d-b097-379b2d80ab70 .section}
+## Plan Types
 
 For each item class, you select an availability calculation rule to define how you want the system to calculate the available quantities for items of the class. Each availability calculation rule, which you create on the [Availability Calculation Rules](IN_20_15_00.md) \(IN201500\) form, defines the plan types that affect the available quantities of items of the class. Documents with the *Released* and *Posted* statuses do not affect calculation of these quantities.
 

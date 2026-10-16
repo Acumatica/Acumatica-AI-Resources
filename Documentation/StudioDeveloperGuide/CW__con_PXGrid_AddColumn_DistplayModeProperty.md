@@ -1,4 +1,4 @@
-# Use of the DisplayMode Property of PXGridColumn {#_e375e4ed-73e6-47bc-a8e2-7366bc6eaf5d .concept}
+# Use of the DisplayMode Property of PXGridColumn
 
 The Acumatica Customization Platform supports the following values for the DisplayMode property of a column in a grid.
 

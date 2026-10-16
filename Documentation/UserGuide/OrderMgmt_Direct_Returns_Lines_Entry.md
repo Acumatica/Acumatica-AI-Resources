@@ -1,8 +1,8 @@
-# Direct Returns: Direct Return with Replacement {#_030aea5c-0c48-451b-8b44-c9a9ce790e0a .concept}
+# Direct Returns: Direct Return with Replacement
 
 If a customer returns stock items directly to the retail store and requests for the exact replacement of these items, you can process both return and replacement in a single document.
 
-## Processing Direct Return with Replacement { .section}
+## Processing Direct Return with Replacement
 
 To process a direct return with replacement, you create sales invoice or credit memo on the [Invoices](SO_30_30_00.md) \(SO303000\) form, and add to the document the lines with items to be returned and the lines with items for replacement.
 

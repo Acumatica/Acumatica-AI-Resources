@@ -1,4 +1,4 @@
-# TX DACs: Transactional Data {#_50235fc8-b09a-49a5-8a95-1c78878020c7 .concept}
+# TX DACs: Transactional Data
 
 The system calculates taxes for documents and document lines. There are two different types of tax calculation rules: item-level and document-level. The system, however, forms and stores tax data for both a document and its lines, regardless of the tax calculation rule.
 
@@ -7,11 +7,11 @@ The system stores tax calculation results in the following DACs:
 -   For a document line, in the XXTax DAC, where *XX* stands for the two-letter abbreviation of the functional area, such as *AR* or *AP*
 -   For a document, in the TaxTran DAC
 
-## XXTax { .section}
+## XXTax
 
 XXTax is a DAC that contains the tax amounts for each tax that is applied to a document line in the *XX* functional area of the document. For example, for AR invoice lines, the DAC is [ARTax](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARTax).
 
-## TaxTran { .section}
+## TaxTran
 
 [TaxTran](https://help.acumatica.com/dacBrowser/PX.Objects.TX/TaxTran) is a DAC that serves both of the following purposes at the same time:
 
@@ -25,7 +25,7 @@ XXTax is a DAC that contains the tax amounts for each tax that is applied to a d
 
 The TaxTran DAC contains amounts without the sign by which this tax report amount will be adjusted. The sign is available in the Sign field of the [TaxTranReport](https://help.acumatica.com/dacBrowser/PX.Objects.TX/TaxTranReport) projection DAC.
 
-## TaxTranReport { .section}
+## TaxTranReport
 
 The [TaxTranReport](https://help.acumatica.com/dacBrowser/PX.Objects.TX/TaxTranReport) DAC is a projection over [TaxTran](https://help.acumatica.com/dacBrowser/PX.Objects.TX/TaxTran). In addition to the fields of the TaxTran DAC, it contains the following two fields:
 
@@ -35,13 +35,13 @@ The [TaxTranReport](https://help.acumatica.com/dacBrowser/PX.Objects.TX/TaxTranR
     -   The sign of LineMult \(which is the update rule\) of the TaxReportLine record
     -   The amount that is specified in the TaxTran record
 
-## Tax Bill and Adjustments { .section}
+## Tax Bill and Adjustments
 
 A tax bill is a special document that creates a [TaxTran](https://help.acumatica.com/dacBrowser/PX.Objects.TX/TaxTran) record for an AP document. A tax bill has an [APInvoice](https://help.acumatica.com/dacBrowser/PX.Objects.AP/APInvoice) record as a header and TaxTran records as document lines. The TaxTran lines of a tax bill are not reportable.
 
 A record in the [TaxAdjustment](https://help.acumatica.com/dacBrowser/PX.Objects.TX/TaxAdjustment) DAC represents the header of a tax adjustment document. The lines of this document are represented by TaxTran records.
 
-## Tax Period and Tax Year { .section}
+## Tax Period and Tax Year
 
 The [TaxPeriod](https://help.acumatica.com/dacBrowser/PX.Objects.TX/TaxPeriod) DAC holds the records of the agency tax period for the tenant. The records of this type are created on the [Prepare Tax Report](../UserGuide/TX_50_10_00.md) \(TX501000\) form when the user selects a tax agency. All the periods of a year are created at the same time. If the user voids the tax report for the first period of a year, the system deletes all the tax periods for that year.
 

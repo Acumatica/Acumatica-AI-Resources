@@ -1,4 +1,4 @@
-# Site Map {#_424cd859-b216-4d88-ab5c-22fdba137f0c .concept}
+# Site Map
 
 You use the [Site Map](../UserGuide/AU_20_80_00.md) \(AU208000\) page of the [Customization Project Editor](../UserGuide/SM_20_45_10.md) to manage *SiteMapNode* items in the customization project.
 

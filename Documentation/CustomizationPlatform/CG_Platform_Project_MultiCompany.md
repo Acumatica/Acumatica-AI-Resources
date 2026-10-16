@@ -1,4 +1,4 @@
-# Publication of Customization Projects in a Multitenant Site {#_d1afb862-c7fe-4257-9978-886c7b05746a .concept}
+# Publication of Customization Projects in a Multitenant Site
 
 A customization project is stored in the instance database. The data of each tenant that uses the same instance of Acumatica ERP is isolated from the data of other tenants in the database. However, the website files of the instance are shared by all tenants.
 
@@ -8,13 +8,13 @@ When the project is published, the platform applies the customization project to
 
 Based on this approach, some customization items included in a customization project are applied only to the tenants to which the project is published. Other customization items are applied to the entire website, which means that the changes are made to all tenants. These two types of customization items are described in a greater detail below.
 
-## Publishing of Multiple Customization Projects to Multiple Tenants { .section}
+## Publishing of Multiple Customization Projects to Multiple Tenants
 
 You can publish a customization project or multiple projects for multiple tenants at once. On the [Customization Projects](../UserGuide/SM_20_45_05.md) \(SM204505\) form, you can select the customization projects that you need to publish to multiple tenants and click **Publish to Multiple Tenants** on the More menu \(under **Publish**\). This opens the **Publish to Multiple Tenants** dialog box, where you then select the required tenants and apply the selected customization projects to the selected tenants. \(See [Multitenant Customization: General Information](CustomizationProjects_CustomizingMultipleTenants_GeneralInfo.md) for details.\)
 
 On the [Customization Projects](../UserGuide/SM_20_45_05.md) form, you can view all customization projects that affect the entire website—that is, all tenants—by clicking **View Published** on the More menu \(under **Publish**\).
 
-## Customization Items That Are Applied to All Tenants { .section}
+## Customization Items That Are Applied to All Tenants
 
 The following customization items are applied to the entire website \(meaning all tenants\) after publication:
 
@@ -29,7 +29,7 @@ The following customization items are applied to the entire website \(meaning al
 
 For example, suppose you have signed in to the *MyTenant* tenant and have a customization project that contains only items of the *Page*, *DAC*, *Table*, *Code*, and *File* types. When you publish the project, it is applied to each tenant in the instance of Acumatica ERP. However, the customization project data is still available only in the *MyTenant* tenant.
 
-## Customization Items That Are Applied Only to a Single Tenant { .section}
+## Customization Items That Are Applied Only to a Single Tenant
 
 The following customization items affect only the tenant to which the customization project is published: *GenericInquiryScreen*, *Report*, *Dashboard*, *SiteMapNode*, *Locale*, *XportScenario*, *SharedFilter*, *ScreenWithRights*, *WikiArticle*, *EntityEndpoint*, *ReportDefinition*, *PushNotification*, *BpEvent*, *CSAttribute*, *MobileSiteMap*, *WebHook*, and *OAuthClient*.
 
@@ -37,7 +37,7 @@ If you publish a customization project that contains only items of these types \
 
 Suppose that a particular customization project includes only items of these types and is published to only one tenant of a multitenant instance. For the other tenants, on the Sign-In page and in the **About Acumatica** dialog box \(which opens when you click **Tools** &gt; **About** on the form title bar\), you can see that the website is customized, but you won't see this published project on the [Customization Projects](../UserGuide/SM_20_45_05.md) \(SM204505\) form. This form displays the customization projects that have been uploaded to the current tenant. Therefore, if a project has been uploaded and published to another tenant, it is not listed on this form.
 
-## Example of a Customization Project Published from a Different Tenant { .section}
+## Example of a Customization Project Published from a Different Tenant
 
 Suppose that on a multitenant site, a particular customization project was created on or uploaded to the *OtherTenant* tenant and published there, and you are signed in to the *MyTenant* tenant. The changes related to the customization project may differ on *MyTenant* based on whether or not the project was also published to *MyTenant*. The following table shows the differences in applying a customization project to a multitenant website depending on whether the customization project that has been published from *OtherTenant* is also published to *MyTenant*. The left column contains various questions related to *MyTenant* in this example, and the other two columns show the different responses based on whether the project is published on *MyTenant*.
 

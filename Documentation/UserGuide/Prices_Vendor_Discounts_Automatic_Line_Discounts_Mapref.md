@@ -1,4 +1,4 @@
-# Automatic Line Vendor Discounts {#_bb1a2928-8882-4a6e-b18c-b98c9fe20fc0 .concept}
+# Automatic Line Vendor Discounts
 
 Any discount in Acumatica ERP is defined by a combination of settings specified for a discount code and discount sequence. The discount code determines the level at which the discount is applied, whether it is applied automatically by the system or manually by the user, as well as entity types or types for which the discounts will be effective for. The discount sequence specifies further settings, such as specific entities to which the discount applies \(the types of these entities are determined by the discount code\), the method of discount calculation \(whether it is specified as a percentage or as an amount\), whether the discount is tiered and if so, what the tiers are based on.
 

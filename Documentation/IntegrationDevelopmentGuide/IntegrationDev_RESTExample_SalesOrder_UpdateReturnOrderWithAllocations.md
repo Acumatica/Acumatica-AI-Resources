@@ -1,8 +1,8 @@
-# Update Allocations in a Return for Credit {#_0933c953-e3c7-427d-a851-b32731cf77a2 .concept}
+# Update Allocations in a Return for Credit
 
 By using the REST API, you can update allocations in a return for credit in Acumatica ERP \(that is, a sales order of the *RC* type\). You may need to update allocations if multiple units of the returned item had different lot or serial numbers assigned. You can view the updated return for credit on the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to do the following to configure your client application and the Acumatica ERP instance to be used:
 
@@ -12,7 +12,7 @@ Before you test the code below, you need to do the following to configure your c
 4.  To sign in to the instance in the client application, use the tenant name \(which you specified when you created the instance\) and the *PRODWHOLE* branch.
 5.  Execute the request that is described in [Create a Return for Credit for Items with Lot or Serial Numbers](IntegrationDev_RESTExample_SalesOrder_CreateReturnOrderWithAllocations.md).
 
-## Request { .section}
+## Request
 
 You can use the following request example to update allocations in a return for credit through the REST API. In this example, you will update the *AR013967* return for credit, which was created in [Create a Return for Credit for Items with Lot or Serial Numbers](IntegrationDev_RESTExample_SalesOrder_CreateReturnOrderWithAllocations.md), as follows:
 
@@ -22,8 +22,8 @@ You can use the following request example to update allocations in a return for 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-PUT /entity/Default/25.200.001/SalesOrder?
-  $expand=Details,Details/Allocations HTTP/1.1
+PUT /entity/Default/26.200.001/SalesOrder?
+  $expand=Details($expand=Allocations) HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
 Content-Type: application/json

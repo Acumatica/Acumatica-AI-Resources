@@ -1,4 +1,4 @@
-# Replenishing Inventory Through Transfers {#_6d04a296-3720-4ed0-b403-3908679f494b .concept}
+# Replenishing Inventory Through Transfers
 
 A company that has multiple warehouses can replenish stock items by transferring them from a warehouse where they are available to a warehouse where they are needed. The topics of this chapter explain the general workflow of item replenishment through transfers.
 

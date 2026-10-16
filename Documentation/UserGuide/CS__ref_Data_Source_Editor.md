@@ -1,4 +1,4 @@
-# Data Source Editor {#_28570e16-55c2-43b8-824a-eef6dc409139 .reference}
+# Data Source Editor
 
 You use this dialog box to specify the data filtering criteria for the report. The report structure determines how the data filtering criteria is specified:
 
@@ -11,42 +11,144 @@ The **Data Source Editor** dialog box, shown below, includes pertinent elements 
 
 By using the data source editor, you can limit the data displayed in the report by using any of the elements described below.
 
-|Element|Description|
-|-------|-----------|
-|**Ledger**|The code of the ledger for which data will be displayed in the report.|
-|**Account Class**|The account class for which data will be displayed in the report. Only accounts in the account class will be included.|
-|**Start Account**|The starting account number in the account range to be reported on.|
-|**End Account**|The ending account number in the account range to be reported on.|
-|**Start Sub.**|The starting subaccount number in the subaccount range, if you specify one, to be reported on.|
-|**End Sub.**|The ending subaccount number in the subaccount range, if you specify one, to be reported on.|
-|**Start Branch**|The starting branch in the branch range to be reported on.|
-|**End Branch**|The ending branch in the branch range to be reported on.|
-|**Start Period**|The starting financial period in the period range, if you specify one.|
-|**Offset \(Year, Period\)**|The shift from the starting period specified by the **Start Period** value. In both **Offset** elements, positive offset numbers set the number of financial periods to be added to the **Start Period** and **End Period** values, while negative offset numbers set the number of financial periods to be subtracted from the **Start Period** and **End Period** values. Consider the following examples: -   Setting the *-1* number, shifts the starting period one period back from the period specified in the **Start Period** box.
+<table><thead><tr><th>
+
+Element
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+**Ledger**
+
+</td><td>
+
+The code of the ledger for which data will be displayed in the report.
+
+</td></tr><tr><td>
+
+**Account Class**
+
+</td><td>
+
+The account class for which data will be displayed in the report. Only accounts in the account class will be included.
+
+</td></tr><tr><td>
+
+**Start Account**
+
+</td><td>
+
+The starting account number in the account range to be reported on.
+
+</td></tr><tr><td>
+
+**End Account**
+
+</td><td>
+
+The ending account number in the account range to be reported on.
+
+</td></tr><tr><td>
+
+**Start Sub.**
+
+</td><td>
+
+The starting subaccount number in the subaccount range, if you specify one, to be reported on.
+
+</td></tr><tr><td>
+
+**End Sub.**
+
+</td><td>
+
+The ending subaccount number in the subaccount range, if you specify one, to be reported on.
+
+</td></tr><tr><td>
+
+**Start Branch**
+
+</td><td>
+
+The starting branch in the branch range to be reported on.
+
+</td></tr><tr><td>
+
+**End Branch**
+
+</td><td>
+
+The ending branch in the branch range to be reported on.
+
+</td></tr><tr><td>
+
+**Start Period**
+
+</td><td>
+
+The starting financial period in the period range, if you specify one.
+
+</td></tr><tr><td>
+
+**Offset \(Year, Period\)**
+
+</td><td>
+
+The shift from the starting period specified by the **Start Period** value. In both **Offset** elements, positive offset numbers set the number of financial periods to be added to the **Start Period** and **End Period** values, while negative offset numbers set the number of financial periods to be subtracted from the **Start Period** and **End Period** values. Consider the following examples: -   Setting the *-1* number, shifts the starting period one period back from the period specified in the **Start Period** box.
 -   Setting the *2* number, shifts the starting period two periods ahead from the period specified in the **Start Period** box.
 
-|
-|**End Period**|The ending financial period in the period range, if you specify one.|
-|**Offset \(Year, Period\)**|The shift from the ending period specified by the **End Period** value. Consider the following examples: -   Setting the *-1* number, shifts the ending period one period back from the period specified in the **End Period** box.
+</td></tr><tr><td>
+
+**End Period**
+
+</td><td>
+
+The ending financial period in the period range, if you specify one.
+
+</td></tr><tr><td>
+
+**Offset \(Year, Period\)**
+
+</td><td>
+
+The shift from the ending period specified by the **End Period** value. Consider the following examples: -   Setting the *-1* number, shifts the ending period one period back from the period specified in the **End Period** box.
 -   Setting the *2* number, shifts the ending period two periods ahead from the period specified in the **End Period** box.
 
 **Note:** The **Start Period**, **End Period**, and **Offset \(Year, Period\)** data filtering criteria are usually specified on different levels: the period values are set on the report level, and the offset values are specified for columns or rows.
 
 
-|
-|**Expand**|An option, present only if the **Data Source Editor** dialog box is opened on the [Row Sets](CS_20_60_10.md) \(CS206010\) form, that determines how data will be displayed. Select one of the following options: -   *Nothing*: The data related to the selected range of accounts and subaccounts will be displayed in a single row.
+</td></tr><tr><td>
+
+**Expand**
+
+</td><td>
+
+An option, present only if the **Data Source Editor** dialog box is opened on the [Row Sets](CS_20_60_10.md) \(CS206010\) form, that determines how data will be displayed. Select one of the following options: -   *Nothing*: The data related to the selected range of accounts and subaccounts will be displayed in a single row.
 -   *Account*: The data for each account in the selected range will be displayed in a separate row. This increases the number of rows in the report.
 -   *Sub*: The data for each subaccount in the selected range will be displayed in a separate row, increasing the number of rows in the report.
 
 When the *Account* or *Sub* option is selected in this box, the **Row Description** box becomes available in the Data Source Editor dialog box \(below the **Expand** box\).
 
-|
-|**Row Description**|This box is available only if the *Account* or *Sub* option is selected in the **Expand** box.
+</td></tr><tr><td>
+
+**Row Description**
+
+</td><td>
+
+This box is available only if the *Account* or *Sub* option is selected in the **Expand** box.
 
  An option that determines the description that will be displayed in the selected row. Select one of the following options: *Not Set*, *Code*, *Description*, and *Code-Description*.
 
-|
-|**Amount Type**|The amount type to be used to display or calculate the values in the report lines. If *GL* is selected in the **Type** box of the related form, select one of the following options: -   *Not Set*: No specific amount type is defined for the report.
+</td></tr><tr><td>
+
+**Amount Type**
+
+</td><td>
+
+The amount type to be used to display or calculate the values in the report lines. If *GL* is selected in the **Type** box of the related form, select one of the following options: -   *Not Set*: No specific amount type is defined for the report.
 -   *Turnover*: The turnover amounts should be included in the report.
 -   *Credit*: The credit amounts should be included in the report.
 -   *Debit*: The debit amounts should be included in the report.
@@ -79,7 +181,6 @@ If *PM* is selected in the **Type** box of the related form, select one of the f
 -   *Committed Invoiced Amount*: The amount of the released invoices of the original committed project budget.
 -   *Committed Invoiced Quantity*: The quantity of the released invoices of the original committed project budget.
 
-|
-
-**Parent topic:**[General Ledger Forms](../UserGuide/GL__GL_Form_Reference.md)
+</td></tr></tbody>
+</table>
 

@@ -1,4 +1,4 @@
-# Processing AR Invoices with Retainage {#_c7c6b96a-0c10-4191-b76c-dc7ddf8b33af .concept}
+# Processing AR Invoices with Retainage
 
 A customer can retain a part of an invoice amount until the necessary work has been completed and pay your company the retained amount when all the terms of the agreement have been met. In Acumatica ERP, you can process invoices with retained amounts if the *Retainage Support* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. The use of AR invoices with retainage is especially common in the construction industry.
 

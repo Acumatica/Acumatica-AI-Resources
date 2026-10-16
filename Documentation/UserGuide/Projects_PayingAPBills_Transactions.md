@@ -1,4 +1,4 @@
-# Vendor Payments for a Project: Generated Transactions {#_eb7b85ce-f84b-4dca-96a2-2c9bb1540102 .concept}
+# Vendor Payments for a Project: Generated Transactions
 
 When an AP payment is released, a batch of general ledger transactions is created; the generated transactions reduce the balances of the cash account used for the payment and the vendor's accounts payable account.
 

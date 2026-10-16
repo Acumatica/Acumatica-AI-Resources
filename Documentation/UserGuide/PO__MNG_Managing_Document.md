@@ -1,4 +1,4 @@
-# Managing Purchase Documents {#_d5081565-44f4-4335-9291-d65ba104bcb6 .concept}
+# Managing Purchase Documents
 
 The topics of this chapter describe the specifics of processing purchase orders and receipts, and the system settings that you can specify to control the processing flow of these documents. These topics also explain how to manage lines in the purchase documents.
 

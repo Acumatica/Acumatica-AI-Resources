@@ -1,10 +1,10 @@
-# Integration of Field Services and Projects: General Information {#_902061d8-f298-4672-b8be-888b0c2f0d09 .concept}
+# Integration of Field Services and Projects: General Information
 
 In Acumatica ERP, you can utilize the field service functionality when you are working with projects. Within a project, you can create a service document \(a service order or an appointment\) to perform the necessary services. In the service document, you can add lines with stock items and non-stock items \(including services\), associating each detail line with a particular project task. When the service document is billed, the system generates project transactions and updates the project cost budget.
 
 Performing project services through field services ensures that all costs related to the services provided—including labor, materials, and other expenses—are accurately tracked and allocated to the project budget.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -14,7 +14,7 @@ In this chapter, you will learn how to do the following:
 -   Create an appointment
 -   Review the project transactions that are generated when you are billing a service document and a project
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to integrate field services and project management if you are a project manager who handles projects involving multiple project tasks, each requiring different human resources and timelines to perform services. You can use Acumatica ERP for the management of both projects and field services.
 
@@ -24,13 +24,12 @@ The integration can be performed in the following scenarios:
 -   You are currently using Acumatica ERP to manage field services, and you plan to use it for project management as well.
 -   You are implementing Acumatica ERP, and you plan to use it for the management of projects and field services.
 
-## Workflow of Processing Service Documents Associated with Projects { .section}
+## Workflow of Processing Service Documents Associated with Projects
 
 The following diagram illustrates the workflow of processing a project with a service order and an appointment. This workflow is based on the assumption that the project has been created in the system with the needed settings for integration with service management.
 
-![](Images/diag_Serv_Mgmt_Projects_Processing_Serv_Documents_with_Projects.png)
 
-## Creation of a Project { .section}
+## Creation of a Project
 
 You create a project by using the [Projects](PM_30_10_00.md) \(PM301000\) form, as described in the [Project Creation and Processing: General Information](Projects_Process_GeneralInfo.md) topic. During project creation, you need to specify the settings that provide integration with service management as follows:
 
@@ -42,7 +41,7 @@ You create a project by using the [Projects](PM_30_10_00.md) \(PM301000\) form, 
 
 After the project has been created and the necessary settings have been specified, you can create any number of service orders and appointments to perform services associated with the project tasks.
 
-## Creation of a Service Order {#section_tnc_cyt_pcc .section}
+## Creation of a Service Order
 
 You can create a service order directly from the [Projects](PM_30_10_00.md) \(PM301000\) form by clicking **Create Service Order** on the More menu. In the **Create Service Order/Appointment** dialog box, which opens, you select the project-related service order type in the **Service Order Type** box. In the **Default Project Task** box, you specify the project task to be used by default in the service order. The branch, branch location, description, and project are automatically copied from the project’s settings and populated in the respective boxes. You do not need to fill in the **Service Order Settings** section of the dialog box at this stage; these settings can be specified later on the [Service Orders](FS_30_01_00.md) \(FS300100\) form.
 
@@ -56,7 +55,7 @@ To create an appointment for the project-related service order, you click one of
 
 Regardless of which form you use to create the appointment, the system inserts the project in the Summary area of the [Appointments](FS_30_02_00.md) form.
 
-## Creation of an Appointment {#section_glc_cyt_pcc .section}
+## Creation of an Appointment
 
 You can create an appointment directly from a project without first creating a service order. When the appointment is created, the system automatically creates the related service order, populating it with the settings and detail lines of the appointment.
 
@@ -68,7 +67,7 @@ At the bottom of the dialog box, you click **Create and Review**, and the system
 
 In the created appointment on the [Appointments](FS_30_02_00.md) form, on the **Details** tab, you add detail lines for the necessary services, as well as any non-stock items and stock items. In each line, you specify the project task \(if it is different from the default project task\). When you save the appointment, all added lines will be automatically included in the service order.
 
-## Transactions Generated During the Billing of a Service Order or an Appointment {#section_b3c_cyt_pcc .section}
+## Transactions Generated During the Billing of a Service Order or an Appointment
 
 Once an appointment has been completed, the billing process can be initiated. Billing can be processed for either appointments or service orders, depending on the settings of the customer's billing cycle.
 
@@ -100,7 +99,7 @@ You can view the project transactions associated with a particular project on th
 
 On the generation and release of the project transaction, the system updates the project's budget lines on the **Cost Budget** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form. The system updates the **Actual Quantity** and **Actual Amount** columns for these cost budget lines.
 
-## Reversal of a Project Transaction Created from a Service Document { .section}
+## Reversal of a Project Transaction Created from a Service Document
 
 You may need to reverse a project transaction that has been generated during the billing of a service order or an appointment. To do this, click **Reverse Bill** on the More menu of the [Service Orders](FS_30_01_00.md) \(FS300100\) or [Appointments](FS_30_02_00.md) \(FS300200\) form.
 

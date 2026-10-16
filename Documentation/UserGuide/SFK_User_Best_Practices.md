@@ -1,8 +1,8 @@
-# Shop Floor Kiosk: Best Practices {#_d033156c-4aa4-4a3c-9654-98bb81f0dd8c .concept}
+# Shop Floor Kiosk: Best Practices
 
 The following best practices can help you use the Shop Floor Kiosk efficiently and reduce reporting mistakes during daily production activities. These recommendations are based on the supported workflows and behaviors of the kiosk application.
 
-## Efficient Work Selection { .section}
+## Efficient Work Selection
 
 Use the workflow that best matches your production environment and assignment method. The kiosk supports both dispatch-list \(“pull”\) workflows and production-order \(“push”\) workflows.
 
@@ -24,15 +24,15 @@ The **Production Reporting** page displays this information to help you confirm 
 
 If your operation includes setup instructions, drawings, or supporting documents, review the **Steps** and **Files** tabs before beginning work.
 
-## Avoiding Reporting Errors { .section}
+## Avoiding Reporting Errors
 
 Review quantities carefully before submitting completed or scrap quantities. The kiosk immediately creates and processes production transactions after submission.
 
 To reduce reporting errors:
 
 -   Verify the completed quantity and remaining quantity shown on the **Production Reporting** page before entering new values.
--   Review lot or serial numbers carefully when reporting tracked items.
--   Confirm production attribute values before submission for operations that require attribute tracking.
+-   Review lot or serial numbers and their attribute values carefully when reporting tracked items.
+-   Make sure all required lot or serial attribute values are entered before submitting a completed or quarantined scrap quantity.
 -   Clock out before reporting final quantities on non-backflushed labor operations when required by the workflow.
 
 Use the **Recent Activity** page to verify:
@@ -45,6 +45,8 @@ Use the **Recent Activity** page to verify:
 The **Recent Activity** page helps you confirm that actions were processed successfully and avoid duplicate reporting.
 
 If you discover that completed quantities were entered incorrectly, use the **Subtract from Reported Qty.** button instead of creating compensating manual entries.
+
+When correcting a lot- or serial-tracked completed quantity, review the recorded attribute values in the **Subtract from Reported Qty.** dialog box before selecting the quantities to subtract. For a lot-tracked item, you can select one or more lots and enter the **Qty. to Subtract** for each selected lot. For a serial-tracked item, select the individual serial numbers that were reported incorrectly.
 
 When issuing materials:
 
@@ -60,7 +62,7 @@ Monitor the concentric gauge widget during work:
 
 Use these indicators to identify delays or reporting inconsistencies early.
 
-## Working in Shared Environments { .section}
+## Working in Shared Environments
 
 The kiosk is designed for shared workstations on the shop floor. Always verify the signed-in employee name before reporting labor or quantities.
 

@@ -1,4 +1,4 @@
-# Configuring Production Cost Drivers {#_69ab1d12-6732-40fb-a53d-b9b8cf1f3a2f .concept}
+# Configuring Production Cost Drivers
 
 In this chapter, you will find information about configuring the production cost drivers that can be included in the cost of the final product in Acumatica ERP Manufacturing Edition. These production cost drivers include materials, labor, tools, machines, and overhead.
 

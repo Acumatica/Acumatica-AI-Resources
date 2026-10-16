@@ -1,4 +1,4 @@
-# Managing Cases {#_0a63f48b-09bd-4108-9ce5-998407c15363 .concept}
+# Managing Cases
 
 You can create and manage cases in the Modern Customer Portal.
 

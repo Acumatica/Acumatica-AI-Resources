@@ -1,4 +1,4 @@
-# Monitoring System Health {#_41316850-e0a4-4ff6-903b-f8255cad47fb .concept}
+# Monitoring System Health
 
 By monitoring system performance, you can ensure that the system is running optimally and that users do not experience any problems as they are using the system to do their jobs.
 
@@ -11,6 +11,8 @@ In this chapter, you will find information about using Acumatica ERP to monitor 
 -   **[System Health: System Event Log](../UserGuide/SA_Monitoring_System_Health_System_Events_Concept.md)**  
 
 -   **[System Health: Request Profiler](../UserGuide/SA_Monitoring_System_Health_Request_Profiler_Concept.md)**  
+
+-   **[System Health: Monitoring and Troubleshooting API Requests](../UserGuide/SA_Monitoring_System_Health_API_Monitoring_Concept.md)**  
 
 -   **[System Health: To Monitor Performance](../UserGuide/SA_Monitoring_System_Health_To_Monitor_Performance.md)**  
 

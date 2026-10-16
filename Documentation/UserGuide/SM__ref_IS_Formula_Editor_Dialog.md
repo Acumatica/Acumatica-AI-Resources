@@ -1,4 +1,4 @@
-# Formula Editor Dialog Box {#_7f062f40-561a-41fd-99a4-19a1d9d59e4a .reference}
+# Formula Editor Dialog Box
 
 You use the Formula Editor dialog box to create formulas quickly. In the dialog box, you can enter the formula directly or compose it by selecting the appropriate parts of the formula.
 
@@ -6,7 +6,7 @@ You open the dialog box by clicking the Edit button in a formula box or column. 
 
 **Tip:** The name of the dialog box is the same as the name of the box or column from which you open it.
 
-## Formula Editor Dialog Box { .section}
+## Formula Editor Dialog Box
 
 The Formula Editor dialog box, which is shown in the screenshot below, includes the following panes:
 
@@ -23,13 +23,10 @@ The Formula Editor dialog box, which is shown in the screenshot below, includes 
     The formula may include the selected components, arguments of manually inserted components, and other elements, all arranged in accordance with the syntax of the formula.
 
 
-![](../Shared/Images/Formula_Editor_panes.png "Formula Editor dialog box")
 
 |Button|Description|
 |------|-----------|
 |**Validate**|Checks whether the formula typed in the Formula Text pane is valid.|
 |**OK**|Inserts the formula you have created into the formula box or column and closes the dialog box.|
 |**Cancel**|Closes the dialog box without saving your changes.|
-
-**Parent topic:**[Integration Forms](../UserGuide/IS__IS_Form_Reference.md)
 

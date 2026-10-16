@@ -1,4 +1,4 @@
-# Recurring Transactions: Implementation Checklist {#_cabd1e39-bc78-45fd-b520-fcbe84e85c69 .concept}
+# Recurring Transactions: Implementation Checklist
 
 To ensure that the system is configured properly for creating recurring batches, make sure that the features and settings listed in the table are configured as described in the following table.
 
@@ -9,7 +9,7 @@ To ensure that the system is configured properly for creating recurring batches,
 |[Chart of Accounts](../Shared/../UserGuide/GL_20_25_00.md) \(GL202500\) form|Check whether the necessary accounts have been created.| |
 |[Company Financial Calendar](../Shared/../UserGuide/GL_20_11_00.md) \(GL201100\) form|Be sure that the financial periods for which transactions will be created have a status of *Open*.|You can generate the necessary periods on the [Master Financial Calendar](../Shared/../UserGuide/GL_20_10_00.md) \(GL201000\) form.|
 
-## Settings That Affect Workflow {#section_crh_mjv_vxb .section}
+## Settings That Affect Workflow
 
 The following settings on the [General Ledger Preferences](GL_10_20_00.md) \(GL102000\) form can affect the processing workflow:
 

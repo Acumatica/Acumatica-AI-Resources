@@ -1,4 +1,4 @@
-# Creating a Non-Stock Item {#_653e824f-9dde-48d5-b298-7f200b7e7f51 .concept}
+# Creating a Non-Stock Item
 
 Non-stock items may be products that consist of no physical entity and thus cannot be stocked in warehouses \(as with labor, services, or charges\) or physical entities for which you do not need to track quantities in a warehouse because very small quantities are required. Many stores sell items that cannot be found on their shelves \(for instance, product warranties\) or services \(such as product assembly, installation, and customization\).
 

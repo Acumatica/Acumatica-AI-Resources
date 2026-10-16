@@ -1,4 +1,4 @@
-# To Create a Custom Data Access Class {#_e9fcaaaf-ae3c-4e8e-8109-48edfae405ab .concept}
+# To Create a Custom Data Access Class
 
 You can add a new data access class \(DAC\) to a customization project by generating the code from the definition of a database table.
 

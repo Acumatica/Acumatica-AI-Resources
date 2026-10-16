@@ -1,8 +1,8 @@
-# Upgrading a Default Component of Equipment to Be Sold: Process Activity {#_3b986076-a5fb-45be-893e-0a0a3b09f19b .task}
+# Upgrading a Default Component of Equipment to Be Sold: Process Activity
 
 The following activity will walk you through the process of selling model equipment, upgrading a default component, and providing installation services at the customer site.
 
-## Story {#section_gbk_ytj_jdc .section}
+## Story
 
 Suppose that the customer has requested the following from the SweetLife Service and Equipment Sales Center:
 
@@ -12,11 +12,11 @@ Suppose that the customer has requested the following from the SweetLife Service
 
 Acting as a service manager, you will create an appointment. You will then perform further processing, acting as the assigned staff member and then as the accountant who will prepare billing documents for the customer and will process them in the system. To keep this training simple, you will perform all instructions while signed in to the account of the service manager \(Maia Davis\).
 
-## Process Overview {#section_hh4_1tj_jdc .section}
+## Process Overview
 
 On the [Appointments](FS_30_02_00.md) \(FS300200\) form, you will create a new appointment, add the service along with the model equipment and component stock items, specify the equipment-related actions for each item, and process the appointment.
 
-## System Preparation {#section_ejp_d23_jdc .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -24,7 +24,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date to *1/30/2026*. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 3.  To perform this activity, make sure that you have performed the following prerequisite activities: [Stock Items to Be Tracked Post-Sale: To Create Components](EquipMgmt_Creating_Components_Process_Activity.md) and [Stock Items to Be Tracked Post-Sale: To Create Stock Items with Components](EquipMgmt_Creating_Equipment_with_Components_Process_Activity.md).
 
-## Step: Upgrading a Default Component of Equipment to Be Sold {#section_t24_h5j_jdc .section}
+## Step: Upgrading a Default Component of Equipment to Be Sold
 
 In this step, you will create an appointment \(causing the system to create the corresponding service order\) that includes the following items:
 
@@ -94,7 +94,6 @@ Perform the following instructions:
 18. In the **Target Equipment** column, click the reference number \(which is also a link\) of the equipment to open the [Equipment](FS_20_50_00.md) \(FS205000\) form.
 19. On the **Components** tab, verify that the system has replaced the default hopper with the component \(*30HOPPERJK - Hopper H30J metallic*\) that you selected when you created the appointment \(see the following screenshot\).
 
-    ![](Images/EquipMgmt_Sale_of_Target_Equip_with_Upgraded_Component.png "The equipment record with the non-default component")
 
 
 **Parent topic:**[Upgrading Default Component of Equipment to Be Sold](../UserGuide/EquipMgmt_Upgrading_Default_Component_of_Equipment_to_Be_Sold_Mapref.md)

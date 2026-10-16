@@ -1,16 +1,16 @@
-# Project Publication: To Publish Two Customization Projects {#_a2986150-5243-43d7-8349-d1f34d1c1648 .task}
+# Project Publication: To Publish Two Customization Projects
 
 The following activity will walk you through the process of publishing two customization projects.
 
-## Story { .section}
+## Story
 
 Suppose that you have two customization projects. The *Yogifon* project contains the modifications of various elements on the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\), [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\), [Leads](../UserGuide/CR_30_10_00.md) \(CR301000\), [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\), and [Customer Locations](../UserGuide/AR_30_30_20.md) \(AR303020\) forms. The *OpportunitiesForm* project adjusts the size of the **Description** box on the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form so that this box has the same length as other boxes in the Summary area. You need to publish these customization projects simultaneously to apply the changes from both projects.
 
-## Process Overview { .section}
+## Process Overview
 
 By using the [Customization Projects](../UserGuide/SM_20_45_05.md) \(SM204505\) form of the *Yogifon\_Staging* instance, you will publish the *Yogifon* and the *OpportunitiesForm* projects.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -23,7 +23,7 @@ Before you begin performing the steps of this activity, do the following:
     -   [`Yogifon.zip`](https://training.acumatica.com/University/W140/Yogifon.zip)
     -   [`OpportunitiesForm.zip`](https://training.acumatica.com/University/W140/Yogifon.zip)
 
-## Step 1: Importing the Customization Projects { .section}
+## Step 1: Importing the Customization Projects
 
 To import the deployment packages to the staging environment, do the following:
 
@@ -41,13 +41,12 @@ To import the deployment packages to the staging environment, do the following:
     The system uploads the project and adds it to the list on the [Customization Projects](../UserGuide/SM_20_45_05.md) form.
 
 
-## Step 2 : Publishing the Yogifon Project and the OpportunitiesForm Project { .section}
+## Step 2 : Publishing the Yogifon Project and the OpportunitiesForm Project
 
 To publish multiple customization projects, do the following on the [Customization Projects](../UserGuide/SM_20_45_05.md) \(SM204505\) form:
 
 1.  In the table, select the check boxes \(in the unlabeled column\) for the *Yogifon* and *OpportunitiesForm* projects, as shown in the following screenshot.
 
-    ![](images/CustomizationProjects_PublishingMultipleProjects_SelectMultipleProjects.png "Selection of the projects for publication")
 
     **Tip:** You can open this form directly in Acumatica ERP; you can also open it while you are working in the Customization Project Editor by clicking **Publish** &gt; **Multiple Projects**.
 
@@ -58,13 +57,12 @@ To publish multiple customization projects, do the following on the [Customizati
 
 4.  After the validation has completed, click **Publish** \(see the following screenshot\).
 
-    ![](images/CustomizationProjects_PublishingMultipleProjects_PublishMultiple.png "Selecting Publish in the Compilation pane")
 
     When the *Website updated* line and **Close Compilation Pane** button appear in the **Compilation** pane, the publication has completed.
 
 5.  Close the **Compilation** pane.
 
-## Step 3: Testing the Changes from the OpportunitiesForm Customization Project { .section}
+## Step 3: Testing the Changes from the OpportunitiesForm Customization Project
 
 To test the changes to the **Marketing Notes** box, do the following:
 
@@ -74,10 +72,9 @@ To test the changes to the **Marketing Notes** box, do the following:
 
 2.  In the Summary area, make sure that the **Marketing Notes** box appears, and that it is required \(see below\).
 
-    ![](images/CustomizationProjects_PublishingMultipleProjects_CustomizedOpportunities.png "Verification of the customized Opportunities form")
 
 
-## Step 4: Testing the Changes in the Yogifon Customization Project { .section}
+## Step 4: Testing the Changes in the Yogifon Customization Project
 
 To test the changes in the published *Yogifon* customization project, perform the following steps:
 

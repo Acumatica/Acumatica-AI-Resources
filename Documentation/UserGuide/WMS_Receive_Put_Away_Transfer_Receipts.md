@@ -1,4 +1,4 @@
-# Receiving and Putting Away Operations: Transfer Receipt Processing {#_a2dd0147-0932-4fcb-be03-a0f8ad7f0755 .concept}
+# Receiving and Putting Away Operations: Transfer Receipt Processing
 
 During the automated receiving of inventory items, you can create a transfer receipt based on a transfer shipment or transfer order by using the mobile app or the [Receive and Put Away](PO_30_20_20.md) \(PO302020\) form if both of the following are true:
 
@@ -7,7 +7,7 @@ During the automated receiving of inventory items, you can create a transfer rec
 
 You can receive a transfer receipt for a transfer shipment and put away the items. Other warehouse workers can also receive separate transfer receipts for the same shipment and put away their items.
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 A variety of scenarios can involve multiple warehouse workers simultaneously receiving transfer receipts for a transfer shipment and putting away items from these transfer receipts, including the following.
 
@@ -15,11 +15,10 @@ Suppose that goods should be transferred from a source warehouse to a destinatio
 
 Further suppose that two warehouse workers have copies of the same shipment confirmation report; one of these workers is responsible for receiving one item, and another worker is responsible for receiving another item. Each worker needs to receive the transferred items in the destination warehouse.
 
-## Workflow for the Automated Processing of a Transfer Receipt { .section}
+## Workflow for the Automated Processing of a Transfer Receipt
 
 The automated processing of a transfer receipt involves the actions shown in the following diagram.
 
-![](Images/diag_WMS_Receive_Put_Away_Receive_Transfer_Receipt.png)
 
 To receive transferred items in Receive Transfer mode, you perform the following steps:
 
@@ -47,7 +46,7 @@ To receive transferred items in Receive Transfer mode, you perform the following
 
 When the transfer receipt has been released, you can put away the items.
 
-## Duplicate Identifiers in Transfer Receipt Processing { .section}
+## Duplicate Identifiers in Transfer Receipt Processing
 
 In Receive Transfer mode on the [Receive and Put Away](PO_30_20_20.md) \(PO302020\) form, you can scan the identifiers \(that is, reference numbers\) of such documents as transfer shipments, transfer receipts, or transfer orders. Although documents of a particular type \(such as transfer receipts\) have unique identifiers, documents of different types \(such as a transfer receipt and a transfer order\) can share the same identifier. When an identifier is scanned, the system searches in the following order until it finds a document with the identifier:
 

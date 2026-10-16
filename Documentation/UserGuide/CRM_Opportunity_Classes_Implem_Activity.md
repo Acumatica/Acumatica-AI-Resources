@@ -1,14 +1,14 @@
-# Opportunity Classes: Implementation Activity {#_4f65d29b-7bc7-4bc8-9f02-9b4d6d9e822c .task}
+# Opportunity Classes: Implementation Activity
 
 In the following implementation activity, you will learn how to create an opportunity class.
 
 **Attention:** You will perform this activity by using the *U100* dataset. In *U100*, you can also view examples of CRM classes that have been already created and contain all additional settings. If you have configured a company with basic settings and you want to practice creating a CRM class in this company, use the *admin* user to complete the activity.
 
-## Story { .section}
+## Story
 
 Suppose that you are an implementation consultant for the SweetLife Fruits &amp; Jams company.You need to create a new opportunity class, *RENEW*, and make it the default class to be specified for each newly created opportunity. This class will be used for SweetLife's renewal opportunities with long-term customers.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -16,7 +16,7 @@ In this activity, you will do the following:
 2.  Define an opportunity stage for the opportunity class on the [Opportunity Classes](CR_20_90_00.md) form.
 3.  Select the created opportunity class as the default class on the [Customer Management Preferences](CR_10_10_00.md) \(CR101000\) form
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating an opportunity class, you should do the following:
 
@@ -26,7 +26,7 @@ Before you start creating an opportunity class, you should do the following:
     -   **Password**: *123*
 3.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Creating an Opportunity Class { .section}
+## Step 1: Creating an Opportunity Class
 
 To create the *RENEW* opportunity class, do the following:
 
@@ -41,7 +41,7 @@ To create the *RENEW* opportunity class, do the following:
 
 You have created the new opportunity class.
 
-## Step 2: Defining Opportunity Stages { .section}
+## Step 2: Defining Opportunity Stages
 
 To define opportunity stages for the *RENEW* opportunity class, do the following:
 
@@ -64,7 +64,7 @@ To define opportunity stages for the *RENEW* opportunity class, do the following
 
 You have defined the stages for the *RENEW* opportunity class.
 
-## Step 3: Specifying the Default Opportunity Class { .section}
+## Step 3: Specifying the Default Opportunity Class
 
 To select the *RENEW* opportunity class as the default class for newly created opportunities, do the following:
 

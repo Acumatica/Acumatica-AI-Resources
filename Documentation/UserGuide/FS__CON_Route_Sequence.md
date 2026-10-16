@@ -1,10 +1,10 @@
-# Routes: Sequence Definition {#_a28816ec-aa7e-4430-95db-23ef5bc32e0f .concept}
+# Routes: Sequence Definition
 
 The appointments for different contracts with the same route are generated automatically in one route execution for a specific date. Thus, you may need to define the order of appointments for each route execution.
 
 In this topic, you will read about how to define a route sequence in the system and how to reset the route order numbers of a sequence.
 
-## Route Sequence Definition {#_1ba16245-71ba-4a46-9793-51ac5b4237b8 .section}
+## Route Sequence Definition
 
 When you create a schedule on the [Route Service Contract Schedules](../Shared/../UserGuide/FS_30_56_00.md) \(FS305600\) form, the system assigns the order number to the schedule in the **Order** box of the **Routes** tab. You can change the order number as follows:
 
@@ -15,7 +15,7 @@ The number that defines the order of the appointment \(that is, the **Order** va
 
 Based on the sequence settings you specify, a route execution will be built and the route distances and travel time will be calculated. For a particular route execution, you can change the order of appointments manually.
 
-## Order Number Reset { .section}
+## Order Number Reset
 
 You can reset the order numbers to the numbering defined by default by the system \(that is, 00010, 00020, 00030, and so on\) by clicking **Reset Sequence** on the form toolbar. The order of appointments will not be changed \(only the numbering sequence\).
 

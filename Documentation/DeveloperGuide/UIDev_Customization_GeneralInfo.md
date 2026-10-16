@@ -1,14 +1,14 @@
-# UI Customization Development: General Information {#_ecd9634b-cb63-458a-bad2-4d1c5b382788 .concept}
+# UI Customization Development: General Information
 
 When you customize the UI of Acumatica ERP in TypeScript and HTML, you may add new Acumatica ERP forms or customize existing ones. For details on implementing a new form, see [UI Definition in HTML and TypeScript: General Information](UIDev_UIDefinition_GeneralInfo.md). For a form whose UI you need to customize, you add TypeScript and HTML files for customization extensions of the form. Each file name starts with the screen ID and ends with a postfix that indicates the purpose of the extension, as you can see in the `S0301000_Customization1.ts` file name.
 
 **Attention:** The Modern UI changes are defined for each tenant of an Acumatica ERP instance independently.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to add new elements, such as boxes and tabs, to the UI of an Acumatica ERP form in TypeScript and HTML.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may need to customize the UI of Acumatica ERP in TypeScript and HTML if any of the following scenarios apply:
 
@@ -16,7 +16,7 @@ You may need to customize the UI of Acumatica ERP in TypeScript and HTML if any 
 -   You are developing integration with an external system.
 -   Your customization project needs to support custom workflows that integrate multiple systems.
 
-## Extension in TypeScript { .section}
+## Extension in TypeScript
 
 To define an extension of an existing Acumatica ERP form in TypeScript, you use TypeScript mixins. For details about mixins, see [https://www.typescriptlang.org/docs/handbook/mixins.html\#alternative-pattern](https://www.typescriptlang.org/docs/handbook/mixins.html#alternative-pattern).
 
@@ -44,7 +44,7 @@ In the extension class, you do any of the following:
 
 An example is shown in the following code.
 
-```language-javascript
+```javascript
 import { featureInstalled, FeaturesSet } from "client-controls";
 import { GL401000 } from "src/screens/GL/GL401000/GL401000";
 
@@ -56,7 +56,7 @@ export class GL401000_MultiCurrency {
 
 For each data view that you need to modify, you add an interface and a class for the extension data view, as shown in the following example.
 
-```language-javascript
+```javascript
 import { featureInstalled, FeaturesSet } from "client-controls";
 import { GLHistoryEnqFilter } from "src/screens/GL/GL401000/GL401000";
 
@@ -70,11 +70,11 @@ export class GLHistoryEnqFilter_MultiCurrency {
 
 For more examples of adjustments of TypeScript code, see [UI Adjustments in HTML and TypeScript: TypeScript Examples](UIDev_AdjustmentInExtension_TS.md).
 
-## Extension in HTML { .section}
+## Extension in HTML
 
 In the HTML file of an extension, you can modify the layout of the screen, if necessary. The following code shows an example of a modification.
 
-```language-xml
+```xml
 <template>
     <field after="#columnSecond [name='SubCD']" name="ShowCuryDetail"></field>
 </template>

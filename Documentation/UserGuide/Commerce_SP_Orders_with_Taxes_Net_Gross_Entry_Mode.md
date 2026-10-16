@@ -1,4 +1,4 @@
-# Import of Taxes: Tax Calculation Mode {#_5bcb4e06-2321-4994-8df1-029309572a8a .concept}
+# Import of Taxes: Tax Calculation Mode
 
 If the *Net/Gross Entry Mode* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, for a sales order imported from a Shopify store, the **Tax Calculation Mode** setting on the **Financial** tab of the [Sales Orders](SO_30_10_00.md) \(SO301000\) form is determined based on the tax synchronization settings specified on the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form and the price settings specified in the Shopify store.
 

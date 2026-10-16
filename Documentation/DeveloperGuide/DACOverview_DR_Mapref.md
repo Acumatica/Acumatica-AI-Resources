@@ -1,4 +1,4 @@
-# Reviewing Deferred Revenue DACs {#_a747a09d-9b4f-4b02-9719-4a7dec94d6be .concept}
+# Reviewing Deferred Revenue DACs
 
 The primary purpose of the deferred revenue \(DR\) functionality in Acumatica ERP is the creation and recognition of deferred revenue and expense transactions. In this chapter, you can find an overview of the data access classes \(DACs\) that are used in deferred revenue and learn about the relationships between them.
 

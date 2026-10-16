@@ -1,4 +1,4 @@
-# Defining a Processing Form {#_c231efec-58d0-455c-9ed5-6b4929d234a1 .concept}
+# Defining a Processing Form
 
 This part provides instructions on configuring a processing form and recommendations on organizing the layout of the form.
 

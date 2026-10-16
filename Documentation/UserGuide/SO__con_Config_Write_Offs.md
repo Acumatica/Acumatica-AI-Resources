@@ -1,4 +1,4 @@
-# Configuration of Automatic Write-Offs in Invoices {#_6ed5e212-c200-401f-b917-aa426938f6cd .concept}
+# Configuration of Automatic Write-Offs in Invoices
 
 When a company is integrating its ecommerce system with Acumatica ERP, sales orders and their applied payments are imported to Acumatica ERP. The payment amounts are then transferred to the sales invoices created for these sales orders. In some cases, a small discrepancy can occur between the payment amount applied to a sales order and the amount of sales invoice created for this sales order \(for example, as a result of the system recalculating the applicable taxes in the sales invoice\). You can configure the system to write off these small discrepancies automatically when the sales invoice is released.
 

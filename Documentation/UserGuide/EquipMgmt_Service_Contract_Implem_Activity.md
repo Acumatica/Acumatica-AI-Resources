@@ -1,16 +1,16 @@
-# Service Contracts: To Create and Process a Service Contract Billed at Time of Service {#_28753ecf-0586-43ee-8d3d-68a5bf04c716 .task}
+# Service Contracts: To Create and Process a Service Contract Billed at Time of Service
 
 In this activity, you will create and process a service contract that is billed after each appointment has taken place based on what was done during the appointment.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_d4f_rys_kdc .section}
+## Story
 
 Suppose that the GoodFood One Restaurant customer requires appointments on Mondays and Fridays of each week for one year, starting next week, and is willing to sign a contract. The service to be performed is the cleaning of the customer's equipment. The service manager of the SweetLife Service and Equipment Sales Center \(Maia Davis\) needs to create a service contract in Acumatica ERP, and create a schedule of appointments, which will allow employees to generate appointments for each upcoming week.
 
 Acting as the service manager, you need to create a contract, create a schedule for the appointment generation, activate the contract, and generate the appointments for the first two weeks.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following configuration tasks have been performed to prepare the system for this activity to be performed:
 
@@ -29,11 +29,11 @@ In the *U100* dataset, the following configuration tasks have been performed to 
 -   On the [Employees](EP_20_30_00.md#) \(EP203000\) form, *EP00000040 \(Maia Davis\)* has been created, and the **Staff Member in Service Management** check box has been selected on the **General Info** tab.
 -   On the [User Profile](SM_20_30_10.md) \(SM203010\) form, the *SWEETEQUIP* default branch and *WEST BRIGHTON* default branch location have been specified for *Maia Davis*.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create a service contract on the [Service Contracts](FS_30_57_00.md) \(FS305700\) form, create an appointment schedule on the [Service Contract Schedules](FS_30_51_00.md) \(FS305100\) form, and then activate the contract on the [Service Contracts](FS_30_57_00.md) form. You will then generate appointments for the contract on the [Generate Maintenance from Contract Schedules](FS_50_03_00.md) \(FS500300\) form.
 
-## Step 1: Creating the Service Contract {#section_rpz_5ys_kdc .section}
+## Step 1: Creating the Service Contract
 
 To create the service contract billed at the time of service for the GoodFood One Restaurant, do the following:
 
@@ -49,7 +49,7 @@ To create the service contract billed at the time of service for the GoodFood On
 4.  In the **Billing Type** box of the **Billing Settings** section, make sure that *At Time of Service* is selected. This setting means that the service contract will be billed after an appointment generated for it has taken place, based on what was done during the appointment.
 5.  On the form toolbar, click **Save**.
 
-## Step 2: Creating an Appointment Schedule and Activating the Contract {#section_ifp_vys_kdc .section}
+## Step 2: Creating an Appointment Schedule and Activating the Contract
 
 Add a schedule to the service contract and activate the contract as follows:
 
@@ -76,7 +76,7 @@ Add a schedule to the service contract and activate the contract as follows:
     The system changes the status of the contract from *Draft* to *Active*.
 
 
-## Step 3: Generating Appointments from the Contract {#section_fq3_wys_kdc .section}
+## Step 3: Generating Appointments from the Contract
 
 To generate appointments from the service contract, do the following:
 
@@ -93,7 +93,7 @@ To generate appointments from the service contract, do the following:
 
 The appointments have been generated for the service contract until *2/13/2026*.
 
-## Step 4: Reviewing the Appointments Generated for the Service Contract {#section_s1d_xys_kdc .section}
+## Step 4: Reviewing the Appointments Generated for the Service Contract
 
 Review the appointments that have been generated for the service contract as follows:
 
@@ -104,7 +104,6 @@ Review the appointments that have been generated for the service contract as fol
 
     The list of appointments generated for the selected service contract is displayed in the table \(see the following screenshot\).
 
-    ![](Images/activity_EquipMgmt_Appointments_for_Service_Contract.png "The appointments generated for the service contract")
 
 5.  Click the reference number of any appointment in the **Appointment Nbr.** column. The system opens the [Appointments](FS_30_02_00.md) \(FS300200\) form. On the **Details** tab, confirm that the system has added the line from the **Details** tab of the [Service Contract Schedules](FS_30_51_00.md) \(FS305100\) form. On the **Settings** tab, notice that the reference numbers of the source service contract and source schedule are specified in the **Source Info** section.
 

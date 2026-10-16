@@ -1,4 +1,4 @@
-# Session {#_4009fc41-b1ec-4e2d-9940-c92a32d5ca9b .concept}
+# Session
 
 The Acumatica ERP server creates a separate session for each browser tab or window that opens an Acumatica ERP form.
 
@@ -12,7 +12,6 @@ When the user opens a form of Acumatica ERP in a new browser tab, the server cre
 
 The following diagram shows how the server of Acumatica ERP manages the shared session data that is used for multiple sessions of a single user.
 
-![](Images/OV_Architecture_SessionSplit.png "Use of shared data for multiple sessions of a user")
 
 If the session data has been changed during the processing of a request, the server updates the data in the shared session data store. For example, if the user clicks **Copy** on a form toolbar to copy the form data, the data is stored in the shared session, so that it is accessible for the **Paste** action in another session of the same user.
 

@@ -1,16 +1,16 @@
-# Employee Time Entry: To Approve a Time Card {#_beedee96-854e-4600-a9e9-74e3e065cb34 .task}
+# Employee Time Entry: To Approve a Time Card
 
 The following activity will walk you through the process of approving a time card.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that David Chubb, an employee of the sales department at the SweetLife Fruits &amp; Jams company, has completed a standard work week. David needs to record the working hours during the week. According to the SweetLife Fruits &amp; Jams time management policy, time cards for sales department employees must be approved by Ian Pick, the head of the sales department.
 
 Acting as David Chubb, you will first create a time card. Then acting as Ian Pick, you will approve the time card.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -20,18 +20,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Approval Maps](EP_20_50_15.md) \(EP205015\) form, the *Employee Time Cards* approval map has been created. In accordance with the approval map, time cards of sales department employees must be approved by Ian Pick, the head of the sales department.
 -   On the [Time and Expenses Preferences](EP_10_10_00.md) \(EP101000\) form, the *Employee Time Cards* approval map has been selected in the **Time Card Approval Map** box.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create a time card for David Chubb on the [Employee Time Cards](EP_40_60_00.md) \(EP406000\) form. Then you will approve the time card on the [Approvals](EP_50_30_10.md) \(EP503010\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
 -   Launch the Acumatica ERP website, and sign in as David Chubb by using the *chubb* username and the *123* password.
 -   In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to today’s date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating a Time Card { .section}
+## Step 1: Creating a Time Card
 
 To enter David Chubb's working hours, do the following:
 
@@ -54,7 +54,7 @@ To enter David Chubb's working hours, do the following:
 5.  On the form toolbar, click **Submit** to submit the time card. The status of the time card is changed to *Pending Approval*.
 6.  Sign out from the system.
 
-## Step 2: Approving the Time Card { .section}
+## Step 2: Approving the Time Card
 
 To approve David Chubb's time card, do the following:
 

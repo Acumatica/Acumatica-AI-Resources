@@ -1,10 +1,10 @@
-# VAT for Early Payments: General Information {#_a24a03fb-c39c-4ac2-8e5e-84c67b86605b .concept}
+# VAT for Early Payments: General Information
 
 To meet the requirements of European value-added tax \(VAT\) legislation on discounts for early payments \(also known as *prompt payment discounts*, or *cash discounts* in Acumatica ERP\), in documents \(such as invoices\) for which the full payment has been received within the cash discount period, the VAT amount must be calculated based on the discounted taxable amount. If the payment is received after the cash discount period, the VAT amount is calculated based on the non-discounted taxable amount of a document. Thus, VAT is to be calculated based on the payment that was actually received by the vendor; as a result, the customer recovers the amount of VAT that has been actually paid.
 
 This functionality is available only if the *VAT Reporting* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Learning Objectives {#section_p5m_fjv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -13,11 +13,11 @@ In this chapter, you will learn how to do the following:
 -   Generate a credit memo to adjust the VAT amount
 -   Prepare a new revision of the tax report
 
-## Applicable Scenarios {#section_r5m_fjv_vxb .section}
+## Applicable Scenarios
 
 You adjust VAT for early payments if a VAT on invoices settled within the cash discount period must be calculated based on the discounted taxable amount. Typically, when the invoice is entered into the system, the vendor \(your company\) does not know whether the cash discount will be taken. The invoice must show the entire amount \(without the cash discount applied\) and the VAT calculated on this amount. If the cash discount is taken, you must adjust the VAT charged by issuing a credit memo to reflect the actual amount paid for the goods or services.
 
-## Using VAT for Accounts Receivable {#section_t5m_fjv_vxb .section}
+## Using VAT for Accounts Receivable
 
 In Acumatica ERP, when you initially enter a document \(such as an invoice or credit memo\), the system shows the VAT amount calculated on the full document amount, because when you enter an invoice, you may not know whether the discount will be taken. However, in the document, you specify the appropriate cash discount terms \(in the **Terms** box\), so the system calculates the discounted taxable amount and tax amount that can be applied if the terms are met. You can view these discounted amounts \(**Tax on Discounted Price** and **Discounted Taxable Total**\) in the **Tax Totals** section on the **Taxes** tab of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, or on the **Totals** tab of the [Invoices](SO_30_30_00.md) \(SO303000\) form.
 
@@ -25,19 +25,18 @@ If the invoice or credit memo is fully paid within the cash discount period—th
 
 **Tip:** After you have generated a tax adjustment, the invoice will be closed automatically only if the **Automatically Release Tax Adjustments** check box is selected in the **VAT Recalculation Settings** section on the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form. Otherwise, you need to release the tax adjustment on the [Release AR Documents](AR_50_10_00.md) \(AR501000\) form manually.
 
-## Using VAT for Accounts Payable {#section_x5m_fjv_vxb .section}
+## Using VAT for Accounts Payable
 
 When you initially enter a document \(such as a bill\), the system shows the VAT amount calculated on the full document amount, because when you enter a bill on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you may not know whether the discount will be taken. However, in the **Terms** box for the bill, you specify the appropriate credit terms \(which determine the cash discount\), so the system calculates the discounted taxable amount and tax amount that can be applied if the terms are met. You can view these discounted amounts \(**Tax on Discounted Price** and **Discounted Taxable Total**\) in the **Cash Discount Info** section on the **Financial** tab of the [Bills and Adjustments](AP_30_10_00.md) form.
 
 If the bill is fully paid—that is, if a payment for the bill is released on the [Checks and Payments](AP_30_20_00.md) \(AP301000\) form—then the cash discount is to be applied to that bill. In this case, the system leaves the status of the bill as *Open* and makes its balance equal to the appropriate cash discount amount \(which has been specified in the **Cash Discount** box\). This bill appears in the list of documents on the [Generate AP Tax Adjustments](AP_50_45_00.md) \(AP504500\) form. On this form, you generate a debit adjustment for each bill or credit adjustment, or a credit adjustment for each debit adjustment in which the corresponding cash discount amount is specified. This VAT adjustment will be automatically applied to the bill, credit adjustment, or debit adjustment to which the system will assign the *Close* status.
 
-## Configuring a VAT Used for Documents That Are Paid Early {#section_avm_fjv_vxb .section}
+## Configuring a VAT Used for Documents That Are Paid Early
 
 If a VAT applies to your company and your company offers cash discounts on documents for which the payment is made in time to qualify for the discount, you need to configure the VAT appropriately in the system.
 
 For documents \(cash sales, cash returns, and cash purchases\) that record payments made immediately, the GL accounts involved in the transaction \(the tax, discount, and cash accounts\) are adjusted at the beginning with the discount percent. The following diagram illustrates how the system applies discounts to AR invoices \(by creating a credit memo\) and to cash sale documents \(by adjusting the amounts immediately\). In either case, the resulting balances of GL accounts are the same.
 
-![](Images/diag_Finance_TX_VAT_Reduce_Taxable_on_Early_Payment.png "Applying discounts for early payments")
 
 You configure this tax of the *VAT* type on the [Taxes](TX_20_50_00.md) \(TX205000\) form and select the *Reduce Taxable Amount on Early Payment* option in the **Cash Discount** box.
 
@@ -54,7 +53,7 @@ For details, see [Value-Added Taxes: To Create a General VAT and Exempt VAT](../
 
 Later, if a document with this tax applied is paid in full before the cash discount date specified in the invoice or the bill \(**Cash Discount Date**\), you can generate a credit memo or a debit adjustment to adjust the tax and taxable amounts of the invoice or the bill.
 
-## Generating Credit Memos and Tax Adjustments {#section_jvm_fjv_vxb .section}
+## Generating Credit Memos and Tax Adjustments
 
 On the [Generate AR Tax Adjustments](AR_50_45_00.md) \(AR504500\) form, you can view the list of the documents for which the full payment has been made before the final date of the cash discount period. On this form, you can process the generation of an AR tax adjustment \(for the document or documents that you select\) or tax adjustments \(for all listed documents\) by clicking **Process** or **Process All**, respectively.
 

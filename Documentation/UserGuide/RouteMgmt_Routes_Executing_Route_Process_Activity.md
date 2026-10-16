@@ -1,14 +1,14 @@
-# Route Executions: Executing a Route {#_47095313-ea86-4a48-89d6-ea81b86e1f14 .task}
+# Route Executions: Executing a Route
 
 In this activity, you will learn how to process a route execution in Acumatica ERP from starting it through closing it.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the driver of the Sweet Life Equipment company \(Peter Lai\) needs to execute a route on *1/30/2026*. He will start the route execution from the office and then go to each customer location of the route. After all appointments are completed, the driver needs to go back to the office, where he will review the route execution in the system and prepare it for billing. You will perform the needed actions in the system, acting as the driver.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -17,18 +17,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Employees](EP_20_30_00.md#) \(EP203000\) form, for *EP00000005 \(Peter Lai\)*, the **Staff Member in Service Management** check box has been selected on the **General Info** tab, and the *DRIVING* skill has been added on the **Skills** tab.
 -   On the [Routes](FS_20_37_00.md#) \(FS203700\) form, the *NY2* route has been configured with executions on Tuesdays and Thursdays starting at 9:00 AM. *Peter Lai* has been assigned to this route on the **Employees** tab.
 
-## Process Overview { .section}
+## Process Overview
 
 To execute a route, you start a route execution on the [Route Document Details](FS_30_40_00.md#) \(FS304000\) form, and then complete each appointment of the route execution on the [Appointments](FS_30_02_00.md#) \(FS300200\) form. You then complete the route execution on the [Route Document Details](FS_30_40_00.md#) form, and close it on the [Close Routes](FS_50_08_00.md#) \(FS500800\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded; you should sign in as a driver by using the *lai* username and the *123* password.
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button, and select the *1/30/2026* date from the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Starting the Route Execution { .section}
+## Step 1: Starting the Route Execution
 
 To start the route execution, do the following:
 
@@ -40,7 +40,7 @@ To start the route execution, do the following:
     Notice that the **Actual Start Time** value is set to the current time.
 
 
-## Step 2: Completing the Route Execution { .section}
+## Step 2: Completing the Route Execution
 
 To complete the route execution, do the following:
 
@@ -59,7 +59,7 @@ To complete the route execution, do the following:
     The status of the route execution document has changed to *Completed*.
 
 
-## Step 3: Closing the Route Execution Document { .section}
+## Step 3: Closing the Route Execution Document
 
 To close the route execution document, do the following:
 

@@ -1,20 +1,20 @@
-# Upgrading of Acumatica ERP: To Update an Instance {#_f7567572-cb19-4823-b322-87ca2ddd9a9f .task}
+# Upgrading of Acumatica ERP: To Update an Instance
 
-The following activity will walk you through the process of updating the database and site of an Acumatica ERP application instance to the next minor version by using Acumatica ERP Configuration wizard.
+The following activity will walk you through the process of upgrading the database and site of an Acumatica ERP application instance to the next major version or service pack by using Acumatica ERP Configuration wizard.
 
-## Story { .section}
+## Story
 
-Suppose that you are the system administrator of your company, and you need to update the existing Acumatica ERP application instance to the next minor version.
+Suppose that you are the system administrator of your company, and you need to update the existing Acumatica ERP application instance to the next major version or service pack.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will update the Acumatica ERP instance from the previous version to a newer version.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, make sure that you have completed the [Instance Deployment: To Deploy an Instance with Demo Data](INST_Deploying_Instances_Deploy_Tenant_With_Demodata_Activity.md) prerequisite activity.
 
-## Step 1: Obtaining an Installation Package with a Newer Version of Acumatica ERP { .section}
+## Step 1: Obtaining an Installation Package with a Newer Version of Acumatica ERP
 
 To download an installation package with a newer version of Acumatica ERP and install it, do the following:
 
@@ -22,19 +22,17 @@ To download an installation package with a newer version of Acumatica ERP and in
 
     You will need your partner's username and password to access the site.
 
-2.  On the **Product** menu at the top of the page, click **2026 R1**.
+2.  On the **Product** menu at the top of the page, click **2026 R2**.
 
-    The Acumatica ERP 2026 R1 Downloads and Release Notes page opens. On this page, you can find the latest release and prior releases of the selected version and read the release notes.
+    The Acumatica ERP 2026 R2 Downloads and Release Notes page opens. On this page, you can find the latest release and prior releases of the selected version and read the release notes.
 
-3.  To download the Acumatica 2026 R1 Update 1, click the *Show content* link in the **Prior Releases** section.
-4.  Click the *Acumatica 2026 R1 Update 1 Build ХХ.ХХХ.ХХХХ* link.
+3.  To download the Acumatica 2026 R2 Service Pack 1, click *Acumatica 2026 R2 Service Pack 1 Build ХХ.ХХХ.ХХХХ* link in the **Get access to our latest build** section.
 
-    The page with the release opens.
+    This will download the `AcumaticaERPInstall.msi` Windows installer package.
 
-5.  In the **Download Links** section, click the *Acumatica ERP 2026 R1 Update 1* link to download the `AcumaticaERPInstall.msi` Windows installer package.
-6.  Install the newer version of the Acumatica ERP Configuration wizard, as described in [Acumatica ERP Installation On-Premises: To Install the Acumatica ERP Configuration Wizard](INST_Installing_Configuration_Wizard_Activity.md).
+4.  Install the newer version of the Acumatica ERP Configuration wizard, as described in [Acumatica ERP Installation On-Premises: To Install the Acumatica ERP Configuration Wizard](INST_Installing_Configuration_Wizard_Activity.md).
 
-## Step 2: Updating an Instance { .section}
+## Step 2: Upgrading an Instance
 
 To update the Acumatica ERP instance from the previous version to one you have just installed, do the following:
 
@@ -43,7 +41,6 @@ To update the Acumatica ERP instance from the previous version to one you have j
 
     On the Application Maintenance page, which opens, in the list of existing application instances, notice that all the instances have yellow triangles with exclamation points, as shown in the following screenshot.
 
-    ![](Images/activity_INST_Upgrading_List_Instances.png "The list of instances")
 
 3.  In the list of application instances, click the row with the Acumatica ERP instance you want to update, and click the **Upgrade** button.
 4.  In the confirmation dialog box, click **Yes** to continue the update.

@@ -1,16 +1,16 @@
-# Conditions and Transitions: To Add Conditions {#_b5055f39-8096-43b4-9020-bfdc0c44b9c6 .task}
+# Conditions and Transitions: To Add Conditions
 
 The following activity will walk you through the process of creating conditions that modify actions.
 
-## Story { .section}
+## Story
 
 In your workflow for tasks created on the [Task](../UserGuide/CR_30_60_20.md) \(CR306020\) form, you need the system to perform the `Resolve` action automatically when the **Completion \(%\)** is set to *100*, which reflects that the task is complete. You also want the `Open` action to trigger transitions to different states depending on the percent of the task completion. In this activity, you will start this process by creating the conditions.
 
-## Process Overview { .section}
+## Process Overview
 
 You will use the [Conditions](../UserGuide/AU_20_10_10.md) page to add conditions that you will later use to modify the `Resolve` and `Open` actions.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin adding conditions, do the following:
 
@@ -20,7 +20,7 @@ Before you begin adding conditions, do the following:
 
 2.  Make sure that you have completed the [Action Configuration: To Create Workflow Actions and Add Them to the Workflow States](WorkflowUI_Actions_Activity_AddActions.md) activity.
 
-## Step 1: Adding the Completed Condition { .section}
+## Step 1: Adding the Completed Condition
 
 In this step, you will add the Completed condition, which you will later use to invoke the `Resolve` action automatically. Perform the following instructions in the Customization Project Editor for the *TaskWorkflow* project:
 
@@ -41,7 +41,7 @@ In this step, you will add the Completed condition, which you will later use to 
     The added condition appears in the list of conditions on the Conditions: CR306020 \(Task\) page. You will use this condition to automatically change the status of a task to *Completed* when the condition is met.
 
 
-## Step 2: Adding the NotStarted Condition { .section}
+## Step 2: Adding the NotStarted Condition
 
 In this step, you will add the NotStarted condition, which you will later use in the `Open` action to trigger transitions to different states. Perform the following instructions:
 

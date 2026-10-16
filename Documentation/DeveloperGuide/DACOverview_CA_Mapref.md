@@ -1,4 +1,4 @@
-# Reviewing Cash Management DACs {#_6d0108e6-7f2f-4ed2-818f-3247baa1ee64 .concept}
+# Reviewing Cash Management DACs
 
 By using the cash management functionality of Acumatica ERP, you can manage day-to-day cash operations, including funds transfers and daily deposits. In this chapter, you can find an overview of the data access classes \(DACs\) that are used in cash management and learn about the relationships between them.
 

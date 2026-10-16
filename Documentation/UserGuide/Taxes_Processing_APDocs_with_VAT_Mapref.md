@@ -1,4 +1,4 @@
-# Processing AP Documents with Value-Added Taxes {#_5dfb53f1-d796-4046-a153-f48cc89c8bef .concept}
+# Processing AP Documents with Value-Added Taxes
 
 The topics of this chapter describe how to create and release an AP bill and a debit adjustment with value-added taxes.
 

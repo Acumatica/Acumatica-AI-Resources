@@ -1,4 +1,4 @@
-# Creating LINQ Queries {#_8f8f3b86-935a-4ba0-bbb8-1e1a01f4ec4f .concept}
+# Creating LINQ Queries
 
 To query data from the database, you can use language-integrated query \(LINQ\), which is a part of .NET Framework. In the code of Acumatica Framework-based applications, you can use both the standard query operators \(provided by LINQ libraries\) and the Acumatica Framework-specific operators that are designed to query database data.
 

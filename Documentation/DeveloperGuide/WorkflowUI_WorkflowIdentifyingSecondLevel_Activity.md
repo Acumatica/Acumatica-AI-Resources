@@ -1,18 +1,18 @@
-# Workflow-Identifying Fields of the Second Level: Process Activity {#_215a0156-1820-4636-ac34-fa9b5efabac9 .task}
+# Workflow-Identifying Fields of the Second Level: Process Activity
 
 The following activity will walk you through the process of creating workflows for custom order types.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you want to give users the ability to create sales orders of the *In-Store Retail Order* and *Phone Order* types, and you do not want users to put the orders of the *In-Store Retail Order* type on hold. Further suppose that the orders of the *Phone Order* type should be confirmed. This means that when a user creates a phone order, its status should change to *Pending Confirmation*, and that the user should confirm the order to open it. You need to create separate workflows for these order types.
 
-## Process Overview { .section}
+## Process Overview
 
 By using the [Order Types](../UserGuide/SO_20_10_00.md) \(SO201000\) form, you will create two order types. By using the [Workflows](../UserGuide/AU_20_10_20.md) page of the Customization Project Editor, you will create separate workflows for these order types. On the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form, you will then test the customized workflow.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -23,7 +23,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  Make sure you have learned how to perform workflow customization, as described in [Inherited Workflows: General Information](WorkflowUI_InheritedWorkflows_GeneralInfo.md).
 3.  On the [Customization Projects](../UserGuide/SM_20_45_05.md) \(SM204505\) form, create a customization project named *SalesOrderTypes*.
 
-## Step 1: Creating Order Types { .section}
+## Step 1: Creating Order Types
 
 To add new order types, do the following:
 
@@ -47,7 +47,7 @@ To add new order types, do the following:
     -   **Freight Account** \(**Posting Settings** section\): *40010 \(Sales – Freight\)*
 7.  On the form toolbar, click **Save**.
 
-## Step 2: Creating the Workflow for the In-Store Retail Order Type { .section}
+## Step 2: Creating the Workflow for the In-Store Retail Order Type
 
 To create a workflow for the *In-Store Retail Order* type, which you have added in the previous step, do the following:
 
@@ -85,7 +85,7 @@ To create a workflow for the *In-Store Retail Order* type, which you have added 
 
 7.  On the page toolbar, click **Save**.
 
-## Step 3: Creating the Workflow for the Phone Order Type { .section}
+## Step 3: Creating the Workflow for the Phone Order Type
 
 To create a workflow for the *Phone Order* type, which you have added in Step 1, do the following:
 
@@ -113,7 +113,7 @@ To create a workflow for the *Phone Order* type, which you have added in Step 1,
 
 6.  On the page toolbar, click **Save**.
 
-## Step 4: Specifying Settings for the Sales Order: IS Workflow { .section}
+## Step 4: Specifying Settings for the Sales Order: IS Workflow
 
 Now that you have created the workflows for each of the new order types, you can specify different settings for these workflows. Do the following:
 
@@ -134,7 +134,7 @@ Now that you have created the workflows for each of the new order types, you can
 6.  Save your changes.
 7.  Publish the customization project.
 
-## Step 5: Specifying Settings for the Sales Order: PH Workflow { .section}
+## Step 5: Specifying Settings for the Sales Order: PH Workflow
 
 Specify the settings for the *Sales Order: PH* workflow as follows:
 
@@ -164,7 +164,7 @@ Specify the settings for the *Sales Order: PH* workflow as follows:
 12. On the **Transition Properties** tab, select *Pending Confirmation* in the **Target State** box, and save your changes.
 13. Publish the customization project.
 
-## Step 6: Testing the Customization { .section}
+## Step 6: Testing the Customization
 
 In Acumatica ERP, test your changes as follows:
 

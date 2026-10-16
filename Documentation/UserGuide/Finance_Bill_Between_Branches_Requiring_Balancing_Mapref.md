@@ -1,4 +1,4 @@
-# Processing Interbranch Bills With Balancing {#_293bad29-74e5-40f6-951b-bff6e8b1e255 .concept}
+# Processing Interbranch Bills With Balancing
 
 Multiple branches of a company may be involved in a single bill. If the branches require balancing, you should set up the proper processing of inter-branch transactions to eliminate the risk of balances being calculated incorrectly.
 

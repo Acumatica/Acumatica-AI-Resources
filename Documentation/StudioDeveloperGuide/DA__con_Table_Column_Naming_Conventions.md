@@ -1,11 +1,11 @@
-# Naming Conventions for Tables \(DACs\) and Columns \(Fields\) {#_74ee714c-b70a-4f67-8647-329c5b774b2c .concept}
+# Naming Conventions for Tables \(DACs\) and Columns \(Fields\)
 
 In this topic, you can learn how you should name the following:
 
 -   The tables and columns in a database that is used by an Acumatica Framework-based application
 -   The respective data access classes \(DACs\) and their fields in the code of the application
 
-## General Naming Conventions { .section}
+## General Naming Conventions
 
 When you are assigning names to tables, DACs, columns, and fields and developing naming conventions, you should consider the following suggestions:
 
@@ -21,7 +21,7 @@ When you are assigning names to tables, DACs, columns, and fields and developing
 -   Be sure that the length of a DAC name, including all namespaces, does not exceed 255 symbols.
 -   Use only English letters for DAC names.
 
-## Column and Field Naming Conventions { .section}
+## Column and Field Naming Conventions
 
 We recommend that you use the following suffixes in column names and the corresponding field names:
 
@@ -37,11 +37,11 @@ We recommend that you use the following suffixes in column names and the corresp
 -   *Time* for time points and time spans, such as `BillableTime`
 -   *Pct* for percentages, such as `DiscountPct`
 
-## Reserved Prefixes for Column and Field Names { .section}
+## Reserved Prefixes for Column and Field Names
 
 Certain prefixes for column and field names are forbidden because they are reserved for identity key fields. For example, the use of the `Company` prefix for a column name, which should be used only for a column that represents an identity key field \(such as CompanyID and CompanyMask, as described in the following section\). This means that you cannot have any other column with the `Company` prefix in your table.
 
-## Reserved Column and Field Names { .section}
+## Reserved Column and Field Names
 
 In Acumatica ERP, particular column and field names are reserved for system use, such as the following:
 

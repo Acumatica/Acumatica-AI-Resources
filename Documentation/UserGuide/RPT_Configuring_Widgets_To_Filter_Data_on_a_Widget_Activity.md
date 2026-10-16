@@ -1,8 +1,8 @@
-# Specific Widgets: To Filter Widget Data {#_4d3548bf-bffe-49c9-aa8c-9c641ac11ed0 .task}
+# Specific Widgets: To Filter Widget Data
 
 The following activity will show you how to filter widget data.
 
-## Story { .section}
+## Story
 
 Suppose that you are Kimberly Gibbs, a technical specialist in your company who is working on simple customizations. A sales manager of your company had previously requested a dashboard named *Sales Mgr Dashboard*, and you created the requested dashboard. After that, the sales manager requested that you add multiple widgets that track different KPIs and trends, and you added the needed widgets.
 
@@ -13,7 +13,7 @@ The sales manager has assessed the data displayed by the widgets and found the f
 
 Also, the sales manager has asked you to add one more scorecard with the number of orders whose requested date is earlier than today—*Late Orders*. Finally, the manager has requested that you add a dashboard parameter to make it possible for the data of the *Orders to Ship* and *Late Orders* widgets to be filtered by customer \(that is, showing only the data of the selected customer if the user makes a selection\).
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -24,7 +24,7 @@ In this activity, you will do the following:
     2.  Add the *Late Orders* scorecard by copying the similar widget.
     3.  Apply the shared filter to the widget data.
 
-## System Preparation {#section_g1x_5xn_wrb .section}
+## System Preparation
 
 Before you start adding the widgets, make sure that the following tasks have been performed:
 
@@ -38,7 +38,7 @@ Before you start adding the widgets, make sure that the following tasks have bee
 -   You have completed the [Specific Widgets: To Add Chart Widgets](RPT_Configuring_Widgets_To_Add_Chart_Widgets_Activity.md) activity.
 -   In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Adding the Dashboard Parameter { .section}
+## Step 1: Adding the Dashboard Parameter
 
 To add the dashboard parameter for the customer ID to be selected, do the following:
 
@@ -53,7 +53,7 @@ To add the dashboard parameter for the customer ID to be selected, do the follow
     -   **Display Name**: `Customer ID`
 4.  On the form toolbar, click **Save**.
 
-## Step 2: Adding a Shared Filter { .section}
+## Step 2: Adding a Shared Filter
 
 To add a shared filter, do the following:
 
@@ -72,7 +72,7 @@ To add a shared filter, do the following:
     Notice that the **Local Customers** filter has been added to the Filter List drop-down menu of the generic inquiry form.
 
 
-## Step 3: Configuring the Widget Filter and Using the Dashboard Parameter { .section}
+## Step 3: Configuring the Widget Filter and Using the Dashboard Parameter
 
 To configure filtering conditions for the *Sales Orders* widget and use the dashboard parameter to filter its data, do the following:
 
@@ -89,12 +89,11 @@ To configure filtering conditions for the *Sales Orders* widget and use the dash
     -   **Data Field**: *Status*
     -   **Condition**: *Equals*
     -   **Value 1**: *Open*
-    ![](Images/activity_RPT_Configuring_Widgets_Data_Filtering_Condition_1.png "Specifying filter for the Orders to Ship widget")
 
 7.  Click **Apply** to save your changes and close the dialog box.
 8.  In the **Widget Properties** dialog box, to which you return, click **Save**.
 
-## Step 4: Adding a Widget by Copying the Similar Widget { .section}
+## Step 4: Adding a Widget by Copying the Similar Widget
 
 To add a widget, do the following:
 
@@ -109,12 +108,11 @@ To add a widget, do the following:
     -   **Data Field**: *Requested On*
     -   **Condition**: *Is Less Than*
     -   **Value**: *@Today*
-    ![](Images/activity_RPT_Configuring_Widgets_Data_Filtering_Condition_2.png "Specifying filter for the Late Orders widget")
 
 8.  Click **Apply** to save your changes and close the dialog box.
 9.  Click **Save** to save your changes and close the **Widget Properties** dialog box.
 
-## Step 5: Applying the Shared Filter to the Widget Data { .section}
+## Step 5: Applying the Shared Filter to the Widget Data
 
 To apply the shared filter you created for the source inquiry to the widget data, do the following:
 
@@ -126,7 +124,6 @@ To apply the shared filter you created for the source inquiry to the widget data
 
 You have added the requested dashboard parameter, configured filter settings for the widgets and added one more scorecard widget. Now you can select a customer account in the **Customer ID** box and notice that the system changes the numbers on the *Orders to Ship* and *Late Orders* scorecards. \(See the following screenshot.\)
 
-![](Images/activity_RPT_Configuring_Widgets_Data_Filtering.png "The Sales Mgr Dashboard with the widget data filtered")
 
 **Parent topic:**[Configuring Widgets](../UserGuide/RPT_Configuring_Widgets_Mapref.md)
 

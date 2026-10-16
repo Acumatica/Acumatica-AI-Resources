@@ -1,12 +1,12 @@
-# To Deactivate Expired Credit Cards {#_bc4179b4-f472-497b-829d-47f702aaa596 .task}
+# To Deactivate Expired Credit Cards
 
 You can view information on customer credit cards that have already expired or will expire soon and deactivate them using the [Deactivate Expired Cards](AR_51_25_00.md) \(AR512500\) form.
 
-## Before You Proceed {#section_a5s_4jv_vxb .section}
+## Before You Proceed
 
 Make sure that the *Integrated Card Processing* feature has been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. With this feature enabled, the [Deactivate Expired Cards](AR_51_25_00.md) form appears in the system.
 
-## To Deactivate Expired Cards {#section_c5s_4jv_vxb .section}
+## To Deactivate Expired Cards
 
 1.  Open the [Deactivate Expired Cards](AR_51_25_00.md) \(AR512500\) form.
 2.  Select the latest card expiration date in the **Expiration Date** box.

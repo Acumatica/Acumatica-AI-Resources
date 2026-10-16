@@ -1,14 +1,14 @@
-# Documents in Different Base Currencies: To Process an AR Invoice {#_45e6c6fc-a643-4cd3-bdb8-c4334eec1a1b .task}
+# Documents in Different Base Currencies: To Process an AR Invoice
 
 The following activity will walk you through the process of processing an invoice between the branches that use different base currencies.
 
-## Story {#section_f5y_3jv_vxb .section}
+## Story
 
 Suppose that in January 2026, SweetLife Canada \(selling company\) provided 10 hours of consulting services to the employees of the *MHEAD* branch of the Muffins &amp; Cakes company \(purchasing company\).
 
 Acting as Kimberly Gibbs, an employee who has access to the Muffins and SweetLife Canada companies, you need to process an AR invoice from SweetLife Canada to *MHEAD*.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -17,11 +17,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Branches](CS_10_20_00.md) \(CS102000\) form, the *MHEAD* branch of the *MUFFINS* company has been created.
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *CONSULT* non-stock item has been configured.
 
-## Process Overview {#section_k5y_3jv_vxb .section}
+## Process Overview
 
 In this activity, on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will create an invoice originating from the *SLCANADA* branch for the *MHEAD* customer and review the invoice amounts in the base currencies of the branches. You will then release the invoice and review the generated GL transaction on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## System Preparation {#section_m5y_3jv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -34,7 +34,7 @@ Before you begin performing the steps of this activity, do the following:
 7.  On the [Customers](AR_30_30_00.md) form, be sure that the *MHEAD* customer has been extended from a branch, as described in [Intercompany Sales Setup: Implementation Activity](../ImplementationGuide/Finance_Intercompany_SalesSetup_Implem_Activity.md), which is a prerequisite activity.
 8.  On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, be sure that for the *CONSULT* item, the default price in *CAD* has been defined, as described in [Prices in Base Currencies: Process Activity](Finance_Prices_MBC_Process_Activity.md), which is a prerequisite activity.
 
-## Step: Processing an AR Invoice {#section_o5y_3jv_vxb .section}
+## Step: Processing an AR Invoice
 
 To process an AR invoice between branches that use different base currencies, do the following:
 

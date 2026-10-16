@@ -1,31 +1,54 @@
-# AP Bills with Retainage: Implementation Checklist {#_904721f9-0290-4ff0-9777-f715be44ebe4 .concept}
+# AP Bills with Retainage: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for processing AP bills with retainage, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you begin processing AP bills with retainage, you make sure that the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
-|Form|Criteria to Check|
-|----|-----------------|
-|[Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form|The following features have been enabled:-   *Retainage Support*
+<table id="_75f5a845-9a95-409c-9ffd-7c022ec672dc"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Criteria to Check
+
+</th></tr></thead><tbody><tr><td>
+
+[Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form
+
+</td><td>
+
+The following features have been enabled:-   *Retainage Support*
 -   *Payment Application by Line*
 -   *Projects*
 -   *Construction*
 
-|
-|[Vendors](AP_30_30_00.md#) \(AP303000\) form|The vendor accounts for the vendors for which you will create AP bills have been defined. Also, make sure that the following retainage settings have been specified for each vendor:-   On the **General** tab, the **Apply Retainage** check box is selected. Optionally, the default retainage percentage is specified in the **Retainage Percent** box.
+</td></tr><tr><td>
+
+[Vendors](AP_30_30_00.md#) \(AP303000\) form
+
+</td><td>
+
+The vendor accounts for the vendors for which you will create AP bills have been defined. Also, make sure that the following retainage settings have been specified for each vendor:-   On the **General** tab, the **Apply Retainage** check box is selected. Optionally, the default retainage percentage is specified in the **Retainage Percent** box.
 -   On the **GL Accounts** tab, the **Retainage Payable Account** is specified.
 
 For details, see [AP Bills with Retainage: Configuration of the Default Retainage Settings](Construction_APBill_with_Retainage_GeneralInfo2.md).
 
-|
-|[Projects](PM_30_10_00.md#) \(PM301000\) form, **Summary** tab \(**Retainage** section\)|The necessary projects and their project tasks have been created. Also, make sure that the following retainage settings have been specified for the project: -   The retainage mode is selected in the **Retainage Mode** box.
+</td></tr><tr><td>
+
+[Projects](PM_30_10_00.md#) \(PM301000\) form, **Summary** tab \(**Retainage** section\)
+
+</td><td>
+
+The necessary projects and their project tasks have been created. Also, make sure that the following retainage settings have been specified for the project: -   The retainage mode is selected in the **Retainage Mode** box.
 -   The **Retainage \(%\)** box contains the percent to be retained from the amount of the vendor’s bill lines issued for the project.
 
-|
+</td></tr></tbody>
+</table>
 
-## Other Settings That Affect the Workflow { .section}
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of processing AP bills with retainage by specifying additional settings as follows:
 

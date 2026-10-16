@@ -1,4 +1,4 @@
-# Box \(Control for a Data Field\) {#_c26bf6db-2dbd-4e3e-98f5-edf78a174e2e .concept}
+# Box \(Control for a Data Field\)
 
 You can use a control for a data field, also referred as a *box*, to display and edit the value of the field on a form.
 
@@ -22,7 +22,6 @@ A box, as the diagram below shows, can be immediately added to the following typ
 -   RowTeplate
 -   PXTabItem
 
-![](images/CG_GL_Forms_ASPX_Boxes.png "Nesting rules for a box bound to a data field")
 
 To create a box in a container, follow the instructions described in [To Add a Box for a Data Field](CG_GL_UI_PXForm_AddBox.md).
 

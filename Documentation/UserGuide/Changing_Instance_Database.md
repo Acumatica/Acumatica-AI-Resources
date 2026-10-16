@@ -1,8 +1,8 @@
-# To Change the Database of an Instance {#_4295d4fd-01a7-409e-a03d-00fb390ba31f .task}
+# To Change the Database of an Instance
 
 You can change the database of an Acumatica ERP instance—for example, if you want to switch to a backup database.
 
-## To Change the Database of an Instance { .section}
+## To Change the Database of an Instance
 
 1.  On the server where Acumatica ERP is installed, run the Acumatica ERP Configuration wizard. For example, select **Start &gt; Acumatica &gt; Acumatica ERP Configuration**.
 2.  On the Welcome page, click **Perform Application Maintenance**.
@@ -38,7 +38,7 @@ You can change the database of an Acumatica ERP instance—for example, if you w
 9.  Click **Next**.
 10. Optional: On the Tables Configuration page \(which is displayed only if you have selected the **Advanced Settings** check box on the Tenant Setup page\), specify whether you want the database tables to be shared by different tenants, and then click **Next**.
 
-    CAUTION:
+    **CAUTION:**
 
     Table configuration is a dangerous operation that can result in database corruption. Any changes you make are at your own risk. If you configure tables, be sure to first back up the database.
 

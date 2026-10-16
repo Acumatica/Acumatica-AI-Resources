@@ -1,4 +1,4 @@
-# PayrollBatch {#_2fcc83d9-fc0e-48c7-a79f-7d1f4557d9a0 .concept}
+# PayrollBatch
 
 This chapter presents code examples showing requests that use the `PayrollBatch` entity.
 

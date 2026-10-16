@@ -1,10 +1,10 @@
-# To Add a Credit Card by Using the Payment Profile ID {#_43bba385-3624-4fd9-84c5-ecb6350082f2 .task}
+# To Add a Credit Card by Using the Payment Profile ID
 
 You use the [Customer Payment Methods](AR_30_30_10.md) \(AR303010\) form to add a payment method that is specific to the particular customer account.
 
 This procedure describes how you add a credit card for a customer account by using a payment profile ID obtained in the Acumatica Payments processing center.
 
-## Before You Proceed {#section_ntl_4jv_vxb .section}
+## Before You Proceed
 
 Review the customer profile identifier and payment profile identifier you have received by registering a new customer credit card through Acumatica Payments.
 
@@ -12,7 +12,7 @@ Make sure that you have configured integration with Acumatica Payments, as descr
 
 Finally, review the payment methods you have configured to be used as templates for a customer credit cards and make sure that they are configured as described in [Payment Methods for Customers](CA__CON_PMs_for_Customers.md).
 
-## To Add a Credit Card to a Customer Account {#section_rtl_4jv_vxb .section}
+## To Add a Credit Card to a Customer Account
 
 1.  Open the [Customer Payment Methods](../Shared/../UserGuide/AR_30_30_10.md) \(AR303010\) form.
 2.  In the Summary area, do the following:

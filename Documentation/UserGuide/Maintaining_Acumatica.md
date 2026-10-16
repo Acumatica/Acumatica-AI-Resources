@@ -1,4 +1,4 @@
-# Maintaining Acumatica ERP Locally {#_1e754ddc-0db4-4cc1-8072-0cfb9f9aa699 .concept}
+# Maintaining Acumatica ERP Locally
 
 The topics in this section describe how to perform maintenance tasks that are associated with the Acumatica ERP instances and their databases:
 

@@ -1,25 +1,25 @@
-# Applying Reverse VAT: Process Activity {#_f5d7ccad-17d3-4e1e-8040-7781f54f7bf2 .task}
+# Applying Reverse VAT: Process Activity
 
 The following activity will walk you through the processing of a purchase with a reverse VAT applied to it.
 
-## Story {#section_ekp_fjv_vxb .section}
+## Story
 
 Suppose that on February 1, 2026, SweetLife Fruits &amp; Jams purchased office supplies to be used in the company's office from Cartridge World Inc. Further suppose that the vendor is not registered with tax authorities for paying VAT. SweetLife Fruits &amp; Jams will pay the VAT on the purchase and will later claim it from the tax agency.
 
 Acting as a SweetLife accountant, you need to process an AP bill to which a reverse VAT is applied and prepare a tax report for the 02-2026 period to make sure that these amounts are reflected there correctly.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following configuration tasks have been performed to prepare the system for this activity to be performed:
 
 -   On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *VAT Reporting* feature has been enabled.
 -   On the [Vendors](AP_30_30_00.md) form, the *CARTRIDGE* vendor has been configured.
 
-## Process Overview {#section_ikp_fjv_vxb .section}
+## Process Overview
 
 In this activity, on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you will process an AP bill with a reverse VAT applied to it. On the [Prepare Tax Report](TX_50_10_00.md) \(TX501000\) form, you will prepare a tax report for the 02-2026 period and review the prepared report on the [Release Tax Report](TX_50_20_00.md) \(TX502000\) form.
 
-## System Preparation {#section_kkp_fjv_vxb .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -32,7 +32,7 @@ To prepare the system, do the following:
 7.  As a prerequisite activity, in the company to which you are signed in, be sure you have configured a reverse VAT and a general VAT as described in [Value-Added Taxes: To Create a Reverse VAT](../ImplementationGuide/Taxes_Configuring_VAT_Implem_Activity_ReverseVAT.md).
 8.  As a prerequisite activity, be sure that you have specified the *CANADA* tax zone for the *CARTRIDGE* vendor on the [Vendors](AP_30_30_00.md) \(AP303000\) form as described in [Applying Deductible VAT: Process Activity](Taxes_Applying_Deductible_VAT_Process_Activity.md).
 
-## Step 1: Processing an AP Bill {#section_mkp_fjv_vxb .section}
+## Step 1: Processing an AP Bill
 
 To process an AP bill with a reverse VAT applied to it, do the following:
 
@@ -63,7 +63,7 @@ To process an AP bill with a reverse VAT applied to it, do the following:
     -   The Tax Claimable account specified for the input tax \(*17000*\) is debited in the amount of the input tax \(*GENERALVAT*\).
     -   The Tax Payable account specified for the output tax \(*24100*\) is credited in the amount of the output tax \(*REVERSEVAT*\).
 
-## Step 2: Preparing a Tax Report {#section_pkp_fjv_vxb .section}
+## Step 2: Preparing a Tax Report
 
 To prepare a tax report for the 02-2026 period, do the following:
 

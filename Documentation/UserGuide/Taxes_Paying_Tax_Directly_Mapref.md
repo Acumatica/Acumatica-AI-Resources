@@ -1,4 +1,4 @@
-# Paying Taxes Directly to the Tax Agency {#_8462fed4-49f4-42aa-81f0-50eceba56b2a .concept}
+# Paying Taxes Directly to the Tax Agency
 
 The topics of this chapter describe how to process a taxable purchase and create a tax bill for the tax agency.
 

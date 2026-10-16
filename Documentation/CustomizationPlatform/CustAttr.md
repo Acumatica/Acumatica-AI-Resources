@@ -1,4 +1,4 @@
-# Customizing DAC Attributes {#_6d084bb2-7346-4d9b-8a65-ce06137c1632 .concept}
+# Customizing DAC Attributes
 
 To modify or extend the behavior that is defined within a data access class \(DAC\), you should append or override the field attributes declared within the DAC.
 
@@ -7,7 +7,6 @@ Suppose that you have a customization task to modify the Invoices \(SO303000\) f
 1.  The **Customer Order** data field on the form area \(see the screenshot below\) must have the *None* value when the user has not specified the reference number of the customer.
 2.  The values of the **Discount Percent** column must be limited to a range of -30 to 25 percent instead of the original range of -100 to 100 percent.
 
-![](images/CustomizingAttrs.png "Viewing the original form")
 
 To begin implementing the first requirement, inspect the properties of the **Customer Order** UI control. To do this, on the **Customization** menu, select **Inspect Element** and click the box or label of the control on the form. The system should retrieve the following information of the control that will display in the **Element Properties** dialog box:
 
@@ -26,9 +25,8 @@ Suppose that you decided to append an attribute to the DAC field to specify the 
 2.  In the text area, type `[PXDefault("None")]`.
 3.  Save your changes in the Data Class Editor.
 
-**Note:** Acumatica Framework 2026 R1 provides advanced possibilities to control the field customization by using additional attributes in the DAC extension. See the [Customization of Field Attributes in DAC Extensions](CG_Platform_Framework_CS_DACExt_FieldAttributes.md) for details.
+**Note:** Acumatica Framework 2026 R2 provides advanced possibilities to control the field customization by using additional attributes in the DAC extension. See the [Customization of Field Attributes in DAC Extensions](CG_Platform_Framework_CS_DACExt_FieldAttributes.md) for details.
 
-![](images/CustomizingAttrs3.png "Appending an attribute to the DAC field")
 
 The system adds the customized data access class to the **Data Access** list of project items. For more information, see [Customized Data Classes](CG_GL_Items_DACs.md).
 
@@ -60,7 +58,6 @@ The `PXDBDecimal` attribute specifies the range of valid values for the field. A
 
 **Note:** If you replace attributes, you have to repeat all attributes that you want to remain on the data field.
 
-![](images/CustomizingAttrs5.png "Replacing attributes on the data field")
 
 The system adds the customized data access class to the **Data Access** list of project items. For more information, see [Customized Data Classes](CG_GL_Items_DACs.md).
 

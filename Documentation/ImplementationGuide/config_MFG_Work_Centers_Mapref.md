@@ -1,4 +1,4 @@
-# Configuring Work Centers {#_47810bf8-cbf3-49b1-9344-3766aa4f95e8 .concept}
+# Configuring Work Centers
 
 In organizations that produce items, specific areas are dedicated to operations involved in production, such as assembly or machine operations. In Acumatica ERP Manufacturing Edition, you need to create work centers that correspond to these areas. You assign people or machines to work centers, and you specify shifts and overhead costs. Work centers are required for bills of material.
 

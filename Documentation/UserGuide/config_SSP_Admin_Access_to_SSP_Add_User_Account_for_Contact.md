@@ -1,8 +1,8 @@
-# Managing Access to the Self-Service Portal: To Create User Accounts for Contacts {#_6610757d-3d97-464a-93be-aab271335504 .task}
+# Managing Access to the Self-Service Portal: To Create User Accounts for Contacts
 
 In the following implementation activity, you will create user accounts by using the [Users](SM_20_10_10.md) \(SM201010\) and [Contacts](CR_30_20_00.md) \(CR302000\) forms of Acumatica ERP.
 
-## Story { .section}
+## Story
 
 Suppose that your company has decided to provide the Self-Service Portal for users of customers' companies. As system administrator, you have already created user roles and user types. Now you need to create two user accounts in the Self-Service Portal for the following customer contacts of Storehut \(a chain of supermarkets\):
 
@@ -11,22 +11,22 @@ Suppose that your company has decided to provide the Self-Service Portal for use
 
 You will then verify that the created users have the proper access rights in the Self-Service Portal.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 For the purposes of this activity, the following tasks have been performed:
 
--   The Acumatica ERP application instance with the *U100\_SSP\_Admin\_2026 R1* dataset preloaded and the Self-Service Portal application instance have been deployed in the same database.
+-   The Acumatica ERP application instance with the *U100\_SSP\_Admin\_2026 R2* dataset preloaded and the Self-Service Portal application instance have been deployed in the same database.
 
     **Tip:** This deployment is outside of the scope of this training.
 
--   In the *U100\_SSP\_Admin\_2026 R1* dataset, on the [User Roles](SM_20_10_05.md) \(SM201005\) form of Acumatica ERP, the *Portal Admin* role has been assigned to the *gibbs* user account. The user account is associated with Kimberly Gibbs, the system administrator in the SweetLife Fruits &amp; Jams company. The role provides full administrative privileges in the Self-Service Portal.
+-   In the *U100\_SSP\_Admin\_2026 R2* dataset, on the [User Roles](SM_20_10_05.md) \(SM201005\) form of Acumatica ERP, the *Portal Admin* role has been assigned to the *gibbs* user account. The user account is associated with Kimberly Gibbs, the system administrator in the SweetLife Fruits &amp; Jams company. The role provides full administrative privileges in the Self-Service Portal.
 -   In Acumatica ERP, the *STORE* contact class—for the employees of supermarkets and other stores—has been defined on the [Contact Classes](CR_20_50_00.md) \(CR205000\) form.
 
     **Attention:** For the case classes that should be available for selection to customer contacts in the Self-Service Portal, the **Internal** check box in the Summary area of the [Contact Classes](CR_20_50_00.md) \(CR205000\) form should be cleared.
 
 -   In Acumatica ERP, the *Tonya Lawrence* contact has been created on the [Contacts](CR_30_20_00.md) \(CR302000\) form and associated with the *STOREHUT* business account, which has been created on the [Business Accounts](CR_30_30_00.md) \(CR303000\) form and extended to be a customer.
 
-## Process Overview { .section}
+## Process Overview
 
 For the two Storehut employees to whom you want to give access to the Self-Service Portal, you will create user accounts.
 
@@ -34,7 +34,7 @@ For Ray Newman, who does not have a related contact in Acumatica ERP, you will f
 
 For Tonya Lawrence, a contact already exists in Acumatica ERP, and you will use the [Users](SM_20_10_10.md) \(SM201010\) form to create Tonya's user account.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating user accounts for the Self-Service Portal, do the following:
 
@@ -44,7 +44,7 @@ Before you start creating user accounts for the Self-Service Portal, do the foll
 2.  Launch the Acumatica ERP instance that uses the same database and tenant as the Self-Service Portal to be configured.
 3.  Sign in as system administrator by using the *gibbs* username and the *123* password.
 
-## Step 1: Creating a User Account for a Contact {#section_gwx_cbb_54b .section}
+## Step 1: Creating a User Account for a Contact
 
 To create a user account for Tonya Lawrence, who already has a contact defined in the system, do the following:
 
@@ -70,7 +70,7 @@ To create a user account for Tonya Lawrence, who already has a contact defined i
 
 The system has created the user account for the *Tonya Lawrence* contact on the [Users](SM_20_10_10.md) form.
 
-## Step 2: Creating a Contact and a User Account for This Contact { .section}
+## Step 2: Creating a Contact and a User Account for This Contact
 
 To create a contact, *Ray Newman*, for the *STOREHUT* customer and create a user account of the *Customer User* type for this contact, do the following:
 
@@ -93,7 +93,7 @@ To create a contact, *Ray Newman*, for the *STOREHUT* customer and create a user
 
 **Tip:** In a production environment, if the system email account is configured in the Acumatica ERP instance, when you have added the user account for a contact and saved your changes, an email containing the username and password would be sent to the user's email account.
 
-## Step 3: Reviewing the Customer Administrator's Access to the Self-Service Portal { .section}
+## Step 3: Reviewing the Customer Administrator's Access to the Self-Service Portal
 
 To verify that the customer administrator user account you created has access rights to create contacts and edit company profile information in the Self-Service Portal, do the following:
 
@@ -112,7 +112,7 @@ To verify that the customer administrator user account you created has access ri
 
 8.  Sign out of the Self-Service Portal.
 
-## Step 4: Reviewing the Customer User's Access to the Self-Service Portal {#section_d35_nnf_w4b .section}
+## Step 4: Reviewing the Customer User's Access to the Self-Service Portal
 
 To verify that the customer user that you created can sign in to the Self-Service Portal and does not have access to modify the company's information, do the following:
 
@@ -122,6 +122,4 @@ To verify that the customer user that you created can sign in to the Self-Servic
 4.  Sign out of the Self-Service Portal.
 
 In Acumatica ERP, you have created two user accounts by using the [Users](SM_20_10_10.md) \(SM201010\) and [Contacts](CR_30_20_00.md) \(CR302000\) forms. For these user accounts, you have specified different user types, which caused different user roles to be assigned to them. Because of these differences, the created users have different levels of access rights to the same forms in the Self-Service Portal instance.
-
-**Parent topic:**[Managing Access to the Self-Service Portal](../UserGuide/config_SSP_Admin_Access_to_SSP_Mapref.md)
 

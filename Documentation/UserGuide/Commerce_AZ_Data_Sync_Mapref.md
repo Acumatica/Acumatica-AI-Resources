@@ -1,4 +1,4 @@
-# Overview of Data Synchronization {#_71dd7586-07ee-4dce-ac34-9f6257e5d0f9 .concept}
+# Overview of Data Synchronization
 
 In this chapter, you will learn how the synchronization of data between Acumatica ERP and Amazon works.
 

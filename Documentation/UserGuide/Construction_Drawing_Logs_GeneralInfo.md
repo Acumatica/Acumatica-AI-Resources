@@ -1,8 +1,8 @@
-# Drawing Logs: General Information {#_f6cb5d17-e5d8-43fb-a6b9-7a67597c9f3b .concept}
+# Drawing Logs: General Information
 
 A drawing log is a collection of drawings and designs related to a project. A member of a project team can create a drawing log, specify all relevant settings of the drawing log, and upload a drawing or a group of drawings to the drawing log.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -13,11 +13,11 @@ In this chapter, you will learn how to do the following:
 -   Email drawings and requests for information
 -   Create revisions of drawing logs
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create a drawing log when a new file with a drawing, design, or sketch needs to be associated with a project and no drawing log has already been created for the project.
 
-## Drawing Log Creation { .section}
+## Drawing Log Creation
 
 You can create a drawing log on one of the following forms:
 
@@ -32,7 +32,7 @@ Additionally, you can upload sketches \(that is, drafts of drawings\). When you 
 
 You can download multiple images attached to a drawing log document as a zip file by clicking **Export Drawings** on the form toolbar of the [Drawing Log](PJ_30_30_00.md#) \(PJ303000\) form or by selecting the unlabeled check box for the needed drawing log on the [Drawing Logs](PJ_40_30_00.md#) \(PJ403000\) form and then clicking **Export Drawings** on the form toolbar.
 
-## Related RFI and Project Issues { .section}
+## Related RFI and Project Issues
 
 To link a drawing log to a request for information \(RFI\), you click **Create RFI** on the More menu of the [Drawing Log](PJ_30_30_00.md#) \(PJ303000\) form. The system creates the RFI, whose settings you specify, and links this RFI to the drawing log. When you send an email with the RFI, you can attach drawings from the linked drawing log to the email. Also, from the [Drawing Logs](PJ_40_30_00.md#) \(PJ403000\) form, you can create an RFI that is linked to multiple drawing logs.
 

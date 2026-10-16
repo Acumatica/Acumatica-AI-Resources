@@ -1,4 +1,4 @@
-# To Create a Contact by Using the Acumatica Add-In {#_a8613f90-6f6c-42f1-b9d0-56228544c351 .task}
+# To Create a Contact by Using the Acumatica Add-In
 
 If you want to create a new contact by using the Acumatica add-in, do the following:
 

@@ -1,4 +1,4 @@
-# Preparing Cost Projections {#_97139415-7503-4043-ba08-0cc351f8c56a .concept}
+# Preparing Cost Projections
 
 This chapter explains how to create revisions of cost projections for a project and date-sensitive cost projections to analyze the project's progress and estimate planned costs. Also, you’ll learn about project WIP adjustments, which help you automatically adjust revenue for the reporting period.
 
@@ -6,11 +6,13 @@ This chapter explains how to create revisions of cost projections for a project 
 
 -   **[Project Cost Projections: Date-Sensitive Cost Projections](../UserGuide/Construction_Cost_Projection_CostProjections_byDate.md)**  
 
+-   **[Project Cost Projections: Cost Spreads by Month](../UserGuide/Construction_Cost_Projection_Cost_Spread_by_Month.md)**  
+
 -   **[Project Cost Projections: Cost Projections Based on Quantity and Unit Rate](../UserGuide/Construction_Cost_Projection_Qty-Based_Cost_Projections_by_Date.md)**  
 
--   **[Project Cost Projections: Cost Projections with Revisions](../UserGuide/Construction_Cost_Projection_CostProjections_Revisions.md)**  
-
 -   **[Project Cost Projections: Project WIP Adjustments](../UserGuide/Construction_Cost_Projection_Project_WIP_Adjustments.md)**  
+
+-   **[Project Cost Projections: Cost Projections with Revisions](../UserGuide/Construction_Cost_Projection_CostProjections_Revisions.md)**  
 
 -   **[Project Cost Projections: Implementation Checklist](../UserGuide/Construction_Cost_Projection_Implem_Checklist.md)**  
 

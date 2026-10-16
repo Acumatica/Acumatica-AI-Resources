@@ -1,4 +1,4 @@
-# InventorySummaryInquiry {#_41906c8c-d0b2-4c44-9495-58d15dbf10ae .concept}
+# InventorySummaryInquiry
 
 This chapter presents code examples showing requests that use the `InventorySummaryInquiry` entity.
 

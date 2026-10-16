@@ -1,4 +1,4 @@
-# Workflow Actions: Persisting Options {#_4690a540-406d-420f-b813-40b2b0f580f4 .concept}
+# Workflow Actions: Persisting Options
 
 In the code of a graph, you can save the changes to the database by calling the [PXGraph.Persist](https://help.acumatica.com/(W(3))/Help?ScreenId=ShowWiki&pageid=198bc715-56b2-37c5-895f-fd136023c404) method. When adding an action to a screen configuration, you can configure whether and when the current changes in the cache should be saved to the database—that is, when the system should invoke the Persist method. This configuration can be defined in the WithPersistOptions method by using the values of the [ActionPersistOptions](https://help.acumatica.com/(W(3))/Help?ScreenId=ShowWiki&pageid=ac196732-c068-f047-93e2-add0e7bc0de2) enumerator.
 

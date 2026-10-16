@@ -1,8 +1,10 @@
-# Managing Cases {#_216ab4fc-a111-4b7e-b523-5636de9d0848 .concept}
+# Managing Cases
 
 In this chapter, you will find information about the workflow of case management in Acumatica ERP.
 
 -   **[Case Management: General Information](../UserGuide/CRM_Support_Managing_Cases_GeneralInfo.md)**  
+
+-   **[Case Management: AI Response Priorities and AI Summaries](../UserGuide/CRM_Support_Managing_Cases_AI_Priorities_and_Summaries.md)**  
 
 -   **[Case Management: Billable Cases](../UserGuide/CRM_Support_Managing_Cases_Billable_Cases.md)**  
 

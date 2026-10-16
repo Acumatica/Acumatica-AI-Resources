@@ -1,4 +1,4 @@
-# Creating a Vendor {#_83b505c7-197e-4cff-b39c-b795e77a137b .concept}
+# Creating a Vendor
 
 The topics of this chapter describe how to create a new vendor.
 

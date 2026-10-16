@@ -1,14 +1,13 @@
-# Application Programming Overview {#_6c91a5d7-70d6-4a7e-9cfd-7d59faeae258 .concept}
+# Application Programming Overview
 
 In this topic, you’ll review the architecture of an application created based on the Acumatica Framework—such as Acumatica ERP, customizations of it, and applications based purely on the Acumatica Framework.
 
-## Runtime Structure and Components { .section}
+## Runtime Structure and Components
 
 An application written with the Acumatica Framework has an **n-tier architecture** with a clear separation of the presentation, business, and data access layers, as shown in the following diagram. You can find details about each layer in the sections below.
 
-![](Images/diag_CodeCustomization_ApplicationArchitecture.png)
 
-## Data Access Layer { .section}
+## Data Access Layer
 
 The data access layer of an application created with the Acumatica Framework is implemented as **a set of data access classes \(DACs\)**that wrap data from database tables or data received through external sources \(such as Amazon Web Services\).
 
@@ -16,7 +15,7 @@ The instances of DACs are maintained by the business logic layer. Between reques
 
 For details about data storage in a session, see [Session](AD__con_Session.md). To learn about working with the data access layer, see [Accessing Data](AD__mng.md).
 
-## Business Logic Layer { .section}
+## Business Logic Layer
 
 The business logic is implemented through **business logic controllers** \(also called *graphs*\). Graphs are classes derived from the special API class PXGraph and tied to one or more DACs.
 
@@ -34,7 +33,7 @@ Each graph can be accessed from the presentation layer or from application code 
 
 For details on working with the business logic layer, see [Implementing Business Logic](BL__mng.md).
 
-## Presentation Layer { .section}
+## Presentation Layer
 
 The presentation layer provides access to the application’s business logic through **the UI, web services, and the Acumatica mobile app**. The presentation layer is completely declarative and contains no business logic.
 

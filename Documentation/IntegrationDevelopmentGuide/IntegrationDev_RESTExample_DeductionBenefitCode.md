@@ -1,4 +1,4 @@
-# DeductionBenefitCode {#_4fba7b94-1844-43ae-a257-ac10ee1cfaf4 .concept}
+# DeductionBenefitCode
 
 This chapter presents code examples showing requests that use the `DeductionBenefitCode` entity.
 

@@ -1,10 +1,10 @@
-# Item Costs and Valuation Methods: To Sell Items with the Standard Method {#_969dcc00-3d20-463c-9c4e-523248bbbd5a .task}
+# Item Costs and Valuation Methods: To Sell Items with the Standard Method
 
 The following activity demonstrates how to completely process a sale of a stock item that is assigned the *Standard* valuation method.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 SweetLife Fruits &amp; Jams is a midsize company that purchases fruit, jams, and spices from large fruit vendors and then sells these goods to wholesale customers such as restaurants and cafes. Also, SweetLife offers colorful grocery bags from bamboo fabric for wrapping its goods. The standard cost for a bag is $3.75.
 
@@ -12,7 +12,7 @@ On January 15, 2026, the company bought 100 bags at the cost of $3.75 from a reg
 
 Acting as sales manager Regina Wiley, you need to review how the costs of the purchased bags have been recorded in the system. You will then process the sale, and review the cost of the bags issued from the warehouse.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -25,7 +25,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
     -   A purchase receipt dated 1/15/2026 for 100 pieces with a cost of $3.75
     -   A purchase receipt dated 1/25/2026 for 200 pieces with a cost of $3.50
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -34,14 +34,14 @@ In this activity, you will do the following:
 3.  On the same form, quick-process the sales order.
 4.  On the [Issues](IN_30_20_00.md) \(IN302000\) form, review the issue related to the sales order to see how the stock item has been issued and its cost has been calculated.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
 1.  Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as a sales manager by using the *wiley* username and the *123* password.
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Reviewing the Cost of the Purchased Item { .section}
+## Step 1: Reviewing the Cost of the Purchased Item
 
 To review the costs of the *BAMBOOBAG* stock item, do the following:
 
@@ -56,10 +56,9 @@ To review the costs of the *BAMBOOBAG* stock item, do the following:
     -   **Inventory ID**: *BAMBOOBAG*
 4.  Review the amounts in the table \(see the following screenshot\). Notice that in the receipt dated 1/15/2026 for 100 bags, the **In/Out Unit Cost \[\*\]** is *3.75*. This means that the standard unit cost of $3.75 was used. Also notice that in the receipt dated 1/25/2026 for 200 bags, the **In/Out Unit Cost \[\*\]** is *3.75*. Despite the unit cost of $3.5 for the purchased items the system has recorded the standard cost of $3.75.
 
-    ![](Images/Item_Costs_Valuation_Methods_Standard_Inv_Transaction_Details.png "The item costs on the Inventory Transaction Details form")
 
 
-## Step 2: Creating a Sales Order { .section}
+## Step 2: Creating a Sales Order
 
 To create the sales order for HM's Bakery &amp; Cafe, do the following:
 
@@ -77,7 +76,7 @@ To create the sales order for HM's Bakery &amp; Cafe, do the following:
     -   **Quantity**: `125`
 5.  On the form toolbar, click **Save**.
 
-## Step 3: Quick-Processing the Sales Order { .section}
+## Step 3: Quick-Processing the Sales Order
 
 To process the sales order, do the following:
 
@@ -95,14 +94,13 @@ To process the sales order, do the following:
     5.  Click **OK**. The **Processing Results** dialog box opens. Wait for the system to create the documents.
     6.  Close the dialog box. Notice that the sales order now has the *Completed* status.
 
-## Step 4: Reviewing the Item's Cost { .section}
+## Step 4: Reviewing the Item's Cost
 
 To review how the system has recorded the cost for the issued *BAMBOOBAG* item, do the following:
 
 1.  While you are still viewing the *Sale of 125 bamboo grocery bags* order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, open the **Shipments** tab.
 2.  In the **Inventory Ref. Nbr.** column, click the link. The issue opens on the [Issues](IN_30_20_00.md) \(IN302000\) form in a pop-up window. In the **Unit Cost** column, notice that the *3.75* standard cost is inserted.
 
-    ![](Images/Item_Costs_Valuation_Methods_Standard_Issue.png "The item's unit cost on the Issues form")
 
 
 **Parent topic:**[Managing Item Costs and Valuation Methods](../UserGuide/Item_Costs_Valuation_Methods_Mapref.md)

@@ -1,10 +1,10 @@
-# Fixed Assets: To Set Up the System for Fixed Asset Management {#_76cf52c2-081d-4d4b-b111-28ddc97315c2 .task}
+# Fixed Assets: To Set Up the System for Fixed Asset Management
 
 In the following implementation activity, you will learn how to set up the system for fixed asset management.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that in January 2026, SweetLife Fruits &amp; Jams purchased a license for fixed asset management, and the company’s management wants to start using this functionality in 2026. The implemented fixed assets must belong to the Administrative, Consulting, Sales, and Development departments of SweetLife; only one of these departments has been defined in the system.
 
@@ -12,17 +12,17 @@ The chart of accounts used by SweetLife has already been in use, but it does not
 
 Acting as an implementation consultant, you need to prepare the system for the configuration of fixed asset management, create the departments, and upload the accounts from an Excel file.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will enable the *Fixed Asset Management* feature on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form. On the [Departments](../UserGuide/EP_20_15_00.md) \(EP201500\) form, you will add the departments required for fixed asset accounting. Finally, on the [Chart of Accounts](../UserGuide/GL_20_25_00.md) \(GL202500\) form, you will upload the fixed asset accounts from an Excel file to update the existing chart of accounts.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring the system, you should launch the Acumatica ERP website and sign in to a company with the *U100* dataset preloaded. You should sign in as Kimberly Gibbs with the *gibbs* username and the *123* password.
 
 You should also download the [COA\_FixedAssets.xlsx](Files/COA_FixedAssets.xlsx) file, which you will upload in Step 3.
 
-## Step 1: Enabling the Needed Feature { .section}
+## Step 1: Enabling the Needed Feature
 
 To enable the *Fixed Asset Management* feature, do the following:
 
@@ -33,7 +33,7 @@ To enable the *Fixed Asset Management* feature, do the following:
 
 3.  On the form toolbar, click **Enable**.
 
-## Step 2: Creating Departments { .section}
+## Step 2: Creating Departments
 
 To create departments for the SweetLife company, do the following:
 
@@ -50,7 +50,7 @@ To create departments for the SweetLife company, do the following:
 
 3.  On the form toolbar, click **Save** to save the changes.
 
-## Step 3: Updating the Chart of Accounts { .section}
+## Step 3: Updating the Chart of Accounts
 
 To update the chart of accounts, do the following:
 

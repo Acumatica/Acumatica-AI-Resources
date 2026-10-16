@@ -1,10 +1,9 @@
-# Availability of Project-Specific Inventory in Service Documents {#_b093475c-4841-4df1-bd92-ec53255cd66f .concept}
+# Availability of Project-Specific Inventory in Service Documents
 
 **Important:** To manage the project-specific inventory items, the *Project-Specific Inventory* feature must be enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
 In service documents linked to a project, the system displays project-specific quantities for lines with stock items in the table footer of the **Details** tab on the [Service Orders](FS_30_01_00.md) and [Appointments](FS_30_02_00.md) forms. The following quantities are shown: *On Hand*, *Available*, *Available for Shipping*, and *Allocated* \(as shown in the following screenshot\).
 
-![](Images/ServMgmt_Service_Order_Project_Related_Inventory_Status.png "Item quantities on the table footer")
 
 The system displays line item quantities based on the inventory tracking mode set for the selected project in the **Inventory Tracking** box on the Summary tab of the [Projects](PM_30_10_00.md) form. If the project has the *Track by Project Quantity and Cost* or *Track by Project Quantity* inventory tracking mode specified, the quantities are shown as two values separated by a slash, as follows:
 

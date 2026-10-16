@@ -1,4 +1,4 @@
-# Purchase Receipt Correction: Correction Inventory Issue {#_52fa8fc4-a733-493e-bc5e-0098bb1d3fb9 .concept}
+# Purchase Receipt Correction: Correction Inventory Issue
 
 Inventory validation is performed on release of a correction purchase receipt for a normal purchase order. If the validation succeeds, the system generates and releases a corresponding correction inventory issue. You can find the link to this issue in the **IN Ref. Nbr.** box on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form. This issue will be released automatically, regardless of the state of the **Release IN Documents Automatically** check box on the [Purchase Orders Preferences](PO_10_10_00.md) \(PO101000\) form.
 
@@ -39,7 +39,7 @@ If the correction purchase receipt has lines with non-stock items, the system in
 -   **Accrual Account**
 -   **Accrual Sub.**
 
-## Example of a Correction Inventory Issue for Stock Items with FIFO and Specific Valuation Methods { .section}
+## Example of a Correction Inventory Issue for Stock Items with FIFO and Specific Valuation Methods
 
 The following example illustrates the process of the correction and the generated inventory issue for stock items with the *FIFO* and *Specific* valuation methods. Suppose that the company has the following items in stock:
 
@@ -77,7 +77,7 @@ The purchase manager releases the correction receipt, and the system generates a
 
 The system does not include the line with the lot-tracked item in the correction inventory issue because the purchase manager did not make any changes to this line in the correction purchase receipt.
 
-## Example of General Ledger Transactions for a Correction with Cost Adjustments { .section}
+## Example of General Ledger Transactions for a Correction with Cost Adjustments
 
 Suppose that on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form, a purchase manager has processed a purchase receipt with a line that contains 10 items with the *Average* valuation method and a unit cost of *10*. Once the purchase receipt is released, the on-hand quantity of the item is *10*, and its total cost is *100*.
 

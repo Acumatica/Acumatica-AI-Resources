@@ -1,14 +1,14 @@
-# Formulas {#_f03d234f-6813-4259-8f62-0a36a8320c2e .concept}
+# Formulas
 
 You can use formulas to calculate the values to be displayed in the rows and columns of each report. Formulas give you the ability to use advanced calculations and data transformation functions if some values in the report rows and columns are calculated or depend on the data from other sources \(such as rows, columns or individual cells included in the report\).
 
 The formulas used in the analytical reports are much like the formulas used in Excel. You can define parameters and construct a formula by using operators and functions. You can select the parameters used in the formula from the list of predefined parameters or enter them into the formula.
 
-## Editing of Formulas { .section}
+## Editing of Formulas
 
 To define formulas in analytical reports, you use the Formula Editor dialog box. You invoke this dialog box by clicking the magnifier icon in the appropriate **Value** cell on the [Row Sets](CS_20_60_10.md) \(CS206010\), [Column Sets](CS_20_60_20.md) \(CS206020\), or [Unit Sets](CS_20_60_30.md) \(CS206030\) form.
 
-## Formula Editor Dialog Box { .section}
+## Formula Editor Dialog Box
 
 The Formula Editor dialog box, which is shown in the screenshot below, includes the following panes:
 
@@ -25,7 +25,6 @@ The Formula Editor dialog box, which is shown in the screenshot below, includes 
     The formula may include the selected components, arguments of manually inserted components, and other elements, all arranged in accordance with the syntax of the formula.
 
 
-![](../Shared/Images/Formula_Editor_panes.png "Formula Editor dialog box")
 
 |Button|Description|
 |------|-----------|

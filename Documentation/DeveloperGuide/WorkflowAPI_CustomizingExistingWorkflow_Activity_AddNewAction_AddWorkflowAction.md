@@ -1,4 +1,4 @@
-# Step 3: Defining a Workflow Action {#_4c8476de-6273-4ef3-aaee-9269766b24bb .task}
+# Step 3: Defining a Workflow Action
 
 The **View Repair Work Order** command should be displayed in its own category on the More menu of the [Invoices](../UserGuide/SO_30_30_00.md) \(SO301000\) form. The action is displayed when the invoice is prepaid—that is, when the invoice has the *Open* status. In this step, you will define a custom category, add the action to the workflow, and make it available in the `Open` state of the workflow.
 
@@ -6,7 +6,7 @@ Do the following:
 
 1.  In the `SOInvoiceRepairOrder_Workflow.cs` file, define the class that contains information for custom categories, as the following code shows.
 
-    ```language-csharp
+    ```csharp
             public static class ActionCategories
             {
                 public const string RepairCategoryID = "Repair Work Orders Category";
@@ -25,7 +25,7 @@ Do the following:
 
 2.  In the static Configure\(WorkflowContext\) method, add the definition of the **Repair Work Orders** category and the `viewOrder` action, as the following code shows.
 
-    ```language-csharp
+    ```csharp
                 var repairCategory = context.Categories.CreateNew(
                     ActionCategories.RepairCategoryID,
                     category => category.DisplayName(
@@ -40,7 +40,7 @@ Do the following:
 
 3.  After the definitions of the category and the action, update the default workflow, as the following code shows.
 
-    ```language-csharp
+    ```csharp
                 context.UpdateScreenConfigurationFor(screen => screen
                     .UpdateDefaultFlow(flow =>
                     {

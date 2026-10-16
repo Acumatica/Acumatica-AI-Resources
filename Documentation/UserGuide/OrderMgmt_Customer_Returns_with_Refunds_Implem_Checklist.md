@@ -1,8 +1,8 @@
-# Customer Returns with Refunds: Implementation Checklist {#_5fab2dd5-da64-4cbc-98e7-01b4f09dd441 .concept}
+# Customer Returns with Refunds: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for processing customer returns with refunds. You will also learn about the settings that affect the processing workflow so that you can make any needed changes.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you initially create a customer return with a refund, you make sure that the needed features have been enabled, settings have been specified, and entities have been created. The following checklist summarizes the criteria you need to check.
 
@@ -14,7 +14,7 @@ We recommend that before you initially create a customer return with a refund, y
 |[Customers](AR_30_30_00.md) \(AR303000\)|All needed customers have been defined in the system, as described in [Customers: Implementation Activity](Customer_Implem_Activity.md).|
 |[Stock Items](IN_20_25_00.md) \(IN202500\)|All stock items have been defined in the system, as described in [Stock Items: Implementation Activity](Stock_Items_Implem_Activity.md).|
 
-## Other Settings That Affect the Workflow { .section}
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of processing customer returns with refunds by specifying additional settings as follows:
 
@@ -22,7 +22,7 @@ You can affect the workflow of processing customer returns with refunds by speci
 -   To cause shipments to be created with the *On Hold* status, select the **Hold Shipments on Entry** check box on the [Sales Orders Preferences](SO_10_10_00.md) \(SO101000\) form. When shipments have this status, a responsible user can verify entered shipments before they are processed.
 -   To cause general ledger batches generated during the processing of sales documents to be posted automatically, select the **Automatically Post on Release** check box on the [General Ledger Preferences](GL_10_20_00.md) \(GL102000\) form. For information on processing general ledger batches, see [GL Transactions: General Information](Finance_Processing_Batch_GeneralInfo.md).
 
-## Validation of Configuration { .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you process a customer return with a refund by performing instructions similar to those described in [Customer Returns with Refunds: Process Activity](OrderMgmt_Customer_Returns_with_Refunds_Process_Activity.md).
 

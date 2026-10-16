@@ -1,4 +1,4 @@
-# Mobile Application {#_ba454efd-c77e-4503-a6b7-0ad085d0323b .concept}
+# Mobile Application
 
 An Acumatica mobile client application uses the Mobile API to access the data of the forms that are mapped for mobile apps in the instance of Acumatica ERP. The metadata of the mobile site map is used to configure the user interface of the mobile client application. You can expose any form of Acumatica ERP on your mobile device if the mobile site map includes the metadata for the form. Accessing and using Acumatica ERP mobile app is provided by the Acumatica Mobile Framework.
 

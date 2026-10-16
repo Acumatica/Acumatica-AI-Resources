@@ -1,8 +1,8 @@
-# Customer Returns with Refunds: Generated Transactions {#_c166ce94-72de-4f27-8e94-0977a02b09ae .concept}
+# Customer Returns with Refunds: Generated Transactions
 
 As you process a customer return with a refund, you create and process a refund and a credit memo. To update customer balances and track the movements of items, the system generates the GL transactions described in the following sections.
 
-## Transactions Generated for a Refund { .section}
+## Transactions Generated for a Refund
 
 When you create and release a refund, the system generates the following general ledger transactions.
 
@@ -13,7 +13,7 @@ When you create and release a refund, the system generates the following general
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form.
 
-## Transactions Generated for a Credit Memo { .section}
+## Transactions Generated for a Credit Memo
 
 When you create and release a credit memo, the system generates the following general ledger transactions.
 

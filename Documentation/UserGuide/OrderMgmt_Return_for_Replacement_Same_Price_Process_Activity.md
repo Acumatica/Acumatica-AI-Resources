@@ -1,16 +1,16 @@
-# Returns for Replacement at the Same Price: Process Activity {#_708b8baf-3306-4ff1-976c-c687bb033482 .task}
+# Returns for Replacement at the Same Price: Process Activity
 
 The following activity demonstrates how to prepare and process to completion a customer return of items with the exact replacement of items \(that is, with the same items for the same price\), which does not require an invoice to be processed.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Grace Norman, a sales manager in the SweetLife Fruits &amp; Jams company. On January 30, 2026, the GoodFood One Restaurant customer asks for the replacement of five small jars of orange jam \(ordered on January 25, 2026\) with the same number of the same jam jars because the lids appeared to be dented. The returned jars must be temporarily placed to inventory so that the quality assurance would assess them to track the source of the damage. You authorize the return.
 
 Acting as the sales manager, you need to process the return of items to inventory with shipping the exact replacement of the returned items to the customer.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -26,13 +26,13 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
     -   On the [Invoices](SO_30_30_00.md) \(SO303000\) form, the invoice for the *GOODFOOD* customer has been created in the amount of $201.74.
     -   On the [Shipments](SO_30_20_00.md) \(SO302000\) form, the shipment to the *GOODFOOD* customer that includes the *ORJAM08* and *APJAM08* stock items and is dated *1/25/2026*
 
-## Process Overview { .section}
+## Process Overview
 
 To process a customer return with an exact replacement, you will create an order of the *RR* \(*Return with Replacement*\) type on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, and add to it the line or lines of the sales invoice that has been prepared for the sales order for which you need to process a return. You will receive the returned items to inventory by creating a shipment with the *Receipt* operation. Then you will process another shipment to record the delivery of the replacement items to the customer. Because the returned and replacement items have the same price, you will not need to process any accounts receivable documents.
 
 Finally, you will update the inventory by using the **Update IN** command on the [Process Shipments](SO_50_30_00.md) \(SO503000\) form; this action generates inventory documents that record the receiving and issuing of the items in this order.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start preparing and processing the customer return for replacement at the same price, do the following:
 
@@ -40,7 +40,7 @@ Before you start preparing and processing the customer return for replacement at
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, make sure the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Creating a Return Order of the RR Type { .section}
+## Step 1: Creating a Return Order of the RR Type
 
 To create a return order of the *RR* \(*Return with Replacement*\) type, do the following:
 
@@ -58,7 +58,7 @@ To create a return order of the *RR* \(*Return with Replacement*\) type, do the 
 
 You have created a sales order of the *RR* type, but have not added lines to it. Now you can add to the return order the line of the sales invoice that had been prepared for the sales order for which you need to process a return.
 
-## Step 2: Adding the Items to Be Returned { .section}
+## Step 2: Adding the Items to Be Returned
 
 To add the line of the sales invoice to return order for which you need to process a return, do the following:
 
@@ -73,7 +73,7 @@ To add the line of the sales invoice to return order for which you need to proce
 5.  Also, in the line, make sure that the **Auto Create Issue** check box is selected. With this check box selected, the line with the item for replacement will be created and added automatically to the return order on receipt confirmation.
 6.  On the form toolbar, click **Save**. Notice that the return order has the *Open* status.
 
-## Step 3: Receiving the Returned Items { .section}
+## Step 3: Receiving the Returned Items
 
 To process the receipt of items to inventory, do the following:
 
@@ -84,7 +84,7 @@ To process the receipt of items to inventory, do the following:
 
 Now you can process the shipping of the items replacement to the customer.
 
-## Step 4: Shipping the Replacement Items { .section}
+## Step 4: Shipping the Replacement Items
 
 To process the shipping of the items replacement to the customer, do the following:
 
@@ -96,7 +96,7 @@ To process the shipping of the items replacement to the customer, do the followi
 
 The replacement item has the same price and quantity, so no invoice to the customer is required. To record the movement of items and complete the process, you need to update the inventory.
 
-## Step 5: Updating Inventory { .section}
+## Step 5: Updating Inventory
 
 To update the inventory, do the following:
 
@@ -107,14 +107,13 @@ To update the inventory, do the following:
 5.  On the form toolbar, click **Process**. The **Processing** dialog box opens. Wait for the system to complete the operation. Close the dialog box. The table no longer lists any lines with shipments. For the selected shipment lines, the system generates two inventory issues: an issue with the *Return* transaction type for the receipt, and an issue with the *Issue* transaction type for the shipment of the replacement item.
 6.  Open the order of the *RR* type that you have prepared on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form and review the return order. The return order now has the *Completed* status, as you can see in the following screenshot. On the **Shipments** tab, make sure that the reference numbers of the issues generated for both the receipt and the shipment are shown in the **Inventory Ref. Nbr.** column \(also shown in the following screenshot\), which indicates that the corresponding inventory documents have been generated.
 
-    ![](Images/activity_OrderMgmt_Return_for_Replacement.png "Return order processed to completion")
 
 7.  Click the link in the **Inventory Ref Nbr.** column in the first line. On the [Issues](IN_30_20_00.md) \(IN302000\) form, which opens in a pop-up window, make sure that the issue has the *Released* status. Close the issue.
 8.  Click the link in the **Inventory Ref Nbr.** column in the second line. On the [Issues](IN_30_20_00.md) form, which opens in a pop-up window, make sure that the issue has the *Released* status. Close the issue.
 
 The customer return with replacement for the same price is now complete.
 
-## Activity Recap { .section}
+## Activity Recap
 
 In this activity, we have illustrated how the sales manager has done the following:
 

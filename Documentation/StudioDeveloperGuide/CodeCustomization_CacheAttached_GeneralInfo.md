@@ -1,16 +1,16 @@
-# CacheAttached: General Information {#_4ba5275c-853b-41cd-870c-6399ebde5bf4 .concept}
+# CacheAttached: General Information
 
 To replace attributes within a particular graph, you add new attributes to the `CacheAttached` event handler for the particular field defined in the graph.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to append and replace attributes on a specific data access class \(DAC\) field within a particular graph.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You replace attributes within a particular graph if in this graph, you need attributes that differ from the attributes declared in the DAC.
 
-## Attribute Replacement in a Graph { .section}
+## Attribute Replacement in a Graph
 
 Attributes specified in a data access class apply to this class in every graph of the application unless a graph replaces them with other attributes. In some graphs, you may need attributes that differ from what is declared in the DAC. To replace attributes within a particular graph, you add new attributes to the `CacheAttached` event handler for the particular field defined in the graph, as the following code shows.
 
@@ -27,7 +27,7 @@ protected virtual void _(Events.CacheAttached<Account.companyName> e)
 
 When you replace attributes, you have to redefine all attributes, including the type attribute. Instead of completely replacing attributes, you can add the needed attributes to the fields by including the PXMergeAttributes attribute in the list of assigned attributes.
 
-## Use of CacheAttached { .section}
+## Use of CacheAttached
 
 The attributes that you add to a data field in the DAC are initialized once, during the startup of the domain. You can replace attributes for a particular field by defining the `CacheAttached` event handler for this field in a graph. These attributes are also initialized once, on the first initialization of the graph where you define this method.
 
@@ -39,7 +39,6 @@ In a graph, each PXCache object stores attributes for the corresponding DAC \(se
 
 When you add an attribute to a DAC field, the attribute subscribes to particular events of the Acumatica Framework. In the corresponding event handlers, the attribute processes the field value based on the purpose of the attribute. For instance, the PXDefault attribute subscribes to the FieldDefaulting event and sets the default value every time the event is raised for the field. Multiple attributes can subscribe to the same event.
 
-![](Images/diag_CodeCustomization_CacheAttached.png "Attribute replacement in a graph")
 
 **Parent topic:**[Replacing Attributes for DAC Fields in CacheAttached](../StudioDeveloperGuide/CodeCustomization_CacheAttached_Mapref.md)
 

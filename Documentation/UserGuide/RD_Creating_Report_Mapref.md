@@ -1,4 +1,4 @@
-# Creating a Report {#_d99733eb-ec44-45c6-b1cb-5ddf24780563 .concept}
+# Creating a Report
 
 By using the Acumatica Report Designer, you can create a report that is customized to the needs of its users. The creation of a report consists of number of stages.
 
@@ -19,5 +19,5 @@ In the topics of this chapter, you will learn what the report development stages
 -   **[Report Creation: To Create a Report Based on One DAC](../UserGuide/RD_Creating_Report_Creating_Simple_Report_Activity.md)**  
 
 
-**Parent topic:**[Acumatica Report Designer Guide](../UserGuide/ReportDesigner_Main.md)
+**Parent topic:**[Acumatica Report Designer](../UserGuide/ReportDesigner_Main.md)
 

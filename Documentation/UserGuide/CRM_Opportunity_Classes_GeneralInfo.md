@@ -1,10 +1,10 @@
-# Opportunity Classes: General Information {#_15c06d98-fb27-4386-86f0-f4c471ed3fca .concept}
+# Opportunity Classes: General Information
 
 In Acumatica ERP, you can group opportunities into classes based on specific characteristics. Opportunity classes help you quickly and effectively manage your sales processes. These include conversion of leads to opportunities, estimation of probabilities of closing a deal, and preparation of financial reports.
 
 This topic provides information about opportunity classes.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -13,7 +13,7 @@ In this chapter, you will learn how to do the following:
 -   Select the opportunity class that the system will use by default for each new opportunity
 -   Define opportunity stages
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to learn how to create opportunity classes in scenarios where you need to give users the following abilities:
 
@@ -23,7 +23,7 @@ You may want to learn how to create opportunity classes in scenarios where you n
 -   Group primary and renewal opportunities
 -   Estimate the probabilities of closing a deal by using opportunity stages
 
-## Defining of Opportunity Classes {#section_o23_hpf_bhc .section}
+## Defining of Opportunity Classes
 
 In Acumatica ERP, an opportunity class is a way to group opportunities that share at least one common characteristic. Opportunity classes make opportunity creation faster and more accurate by providing default settings for new opportunities. Opportunity classes are also used for reporting purposes.
 
@@ -37,7 +37,7 @@ You define each opportunity class on the [Opportunity Classes](CR_20_90_00.md) \
 
 If your company no longer needs a particular opportunity class, you can remove it from the system only if no existing opportunities have that class specified.
 
-## How the Class Affects Opportunity Creation {#section_dcs_hwv_bhc .section}
+## How the Class Affects Opportunity Creation
 
 When you create an opportunity on the [Opportunities](CR_30_40_00.md) \(CR304000\) form and select an opportunity class, the system inserts the opportunity’s default settings based on the class settings. \(You can override these default settings.\)
 
@@ -49,7 +49,7 @@ If one opportunity class is used more frequently than the others, you can specif
 
 **Tip:** If you create an opportunity by using the [Leads](CR_30_10_00.md) \(CR301000\) or [Contacts](CR_30_20_00.md) \(CR302000\) form, the system may insert a different class than the default opportunity class. If an opportunity class is specified on the [Lead Classes](CR_20_70_00.md) \(CR207000\) or [Contact Classes](CR_20_50_00.md) \(CR205000\) form for the source lead or contact class, the system inserts this opportunity class.
 
-## Opportunity Stages { .section}
+## Opportunity Stages
 
 An opportunity typically progresses through several stages, each representing a step in the sales process and associated with a probability of successfully closing the deal. Tracking opportunities by stage helps sales teams estimate future sales revenue more accurately.
 
@@ -74,7 +74,7 @@ You can delete a stage only if it is inactive for all the existing opportunity c
 
 If an opportunity is created based on a contact on the [Contacts](CR_30_20_00.md) \(CR302000\) form, the system assigns it the opportunity stage that has been specified in the corresponding contact class. For details, see [Contact Classes: General Information](CRM_Contact_Classes_GeneralInfo.md).
 
-## Example of Opportunity Classes and Attributes { .section}
+## Example of Opportunity Classes and Attributes
 
 Consider the following example of the use of opportunity classes and attributes.
 

@@ -1,8 +1,8 @@
-# Tax Calculation Methods: To Create Taxes {#_e5aedb9e-af9b-43cd-a447-0ec63a4bb6a8 .task}
+# Tax Calculation Methods: To Create Taxes
 
 The following activity will walk you through the process of creating taxes with different calculation methods.
 
-## Story {#section_hgh_fjv_vxb .section}
+## Story
 
 Suppose that you, as an accountant of SweetLife Fruits &amp; Jams, want to explore different tax calculation methods of sales taxes. You want to configure a training tax zone and add taxes that use the following calculation methods:
 
@@ -12,19 +12,19 @@ Suppose that you, as an accountant of SweetLife Fruits &amp; Jams, want to explo
 
 To be able to compare the difference in how these taxes are applied, the taxes will use the same tax rate of 5%. You are going to use the same customer account \(Candyy Cafe\) in all activities of this lesson.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the *CANDYY* customer account has been configured on the [Customers](AR_30_30_00.md) \(AR303000\) form.
 
-## Process Overview {#section_lgh_fjv_vxb .section}
+## Process Overview
 
 In this activity, you will create a training tax zone for the purposes of this activity on the [Tax Zones](TX_20_60_00.md) \(TX206000\) form; you will then create the needed taxes on the [Taxes](TX_20_50_00.md) \(TX205000\) form and assign them to this tax zone. On the [Tax Categories](TX_20_55_00.md) \(TX205500\) form, you will add the created taxes to the *TRAINING* tax category.
 
-## System Preparation {#section_ngh_fjv_vxb .section}
+## System Preparation
 
 Before you begin to create taxes with different calculation rules, launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as an accountant Anna Johnson by using the *johnson* username and the *123* password.
 
-## Step 1: Creating a Tax Zone {#section_pgh_fjv_vxb .section}
+## Step 1: Creating a Tax Zone
 
 To create a separate tax zone in which you will later create taxes, proceed as follows:
 
@@ -34,7 +34,7 @@ To create a separate tax zone in which you will later create taxes, proceed as f
     -   **Description**: `Calculation rules`
 3.  On the form toolbar, click **Save** to save the created tax zone.
 
-## Step 2: Creating a Tax with the Exclusive Document-Level Method {#section_rgh_fjv_vxb .section}
+## Step 2: Creating a Tax with the Exclusive Document-Level Method
 
 To create a tax that uses the *Exclusive Document-Level* method, proceed as follows:
 
@@ -59,7 +59,7 @@ To create a tax that uses the *Exclusive Document-Level* method, proceed as foll
 5.  On the **GL Accounts** tab, select *24100* in the **Tax Payable Account** box.
 6.  On the form toolbar, click **Save** to save the created tax.
 
-## Step 3: Creating a Tax with the Exclusive Line-Level Method {#section_ugh_fjv_vxb .section}
+## Step 3: Creating a Tax with the Exclusive Line-Level Method
 
 To create a tax that uses the *Exclusive Line-Level* method, proceed as follows:
 
@@ -77,7 +77,7 @@ To create a tax that uses the *Exclusive Line-Level* method, proceed as follows:
 4.  On the **GL Accounts** tab, select *24100* in the **Tax Payable Account** box.
 5.  On the form toolbar, click **Save** to save the created tax.
 
-## Step 4: Creating a Tax with the Inclusive Line-Level Method {#section_wgh_fjv_vxb .section}
+## Step 4: Creating a Tax with the Inclusive Line-Level Method
 
 To create a tax that uses the *Inclusive Line-Level* method, proceed as follows:
 
@@ -95,7 +95,7 @@ To create a tax that uses the *Inclusive Line-Level* method, proceed as follows:
 4.  On the **GL Accounts** tab, select *24100* in the **Tax Payable Account** box.
 5.  On the form toolbar, click **Save** to save the created tax.
 
-## Step 5: Creating a Tax Category and Adding Taxes {#section_ygh_fjv_vxb .section}
+## Step 5: Creating a Tax Category and Adding Taxes
 
 To create a tax category and add the created taxes to it, proceed as follows:
 

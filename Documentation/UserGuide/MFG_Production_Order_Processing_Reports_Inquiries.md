@@ -1,20 +1,20 @@
-# Production Processing: Related Report and Inquiry Forms {#_107b725a-8a08-4cf8-b57d-8680a7760e0b .concept}
+# Production Processing: Related Report and Inquiry Forms
 
 In the following sections, you can find details about the reports and inquiry forms you may want to review to gather information about the production processing.
 
 **Attention:** If you don’t see a particular report or form that is described, you may have signed in to the system with a user account that doesn’t have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms.
 
-## Printing Production Tickets { .section}
+## Printing Production Tickets
 
 To prepare a printable form of the production order that is being processed, you can use the [Production Ticket](AM_62_50_00.md) \(AM625000\) or [Production Ticket with Barcode](AM_62_50_10.md) \(AM625010\) report.
 
-## Viewing Production Orders { .section}
+## Viewing Production Orders
 
 To view production orders that have the *Planned*, *Released*, or *In Process* status, you can use the [Production Summary](AM_62_52_00.md) \(AM625200\) report.
 
 You can also view all production orders created in the system by using the [Production Summary](AM_00_00_06.md) \(AM000006\) form.
 
-## Viewing Production Order Progress and Performance { .section}
+## Viewing Production Order Progress and Performance
 
 To analyze the progress and performance of all production orders or a particular production order, you can use the [Production Order Performance](AM_65_20_00.md) \(AM652000\) form. This report shows the following information:
 
@@ -22,7 +22,7 @@ To analyze the progress and performance of all production orders or a particular
 -   Material and labor transactions and costs
 -   Performance data by sales order demand
 
-## Viewing Production Transactions { .section}
+## Viewing Production Transactions
 
 To view information about production-related transactions \(such as labor and material transactions\), you can use the following reports and inquiries:
 
@@ -33,19 +33,19 @@ To view information about production-related transactions \(such as labor and ma
 
 You can also view the full list of production-related transactions in the system by using the [Transactions By Production Order](AM_00_00_11.md) \(AM000011\) form.
 
-## Viewing the Work-in-Process Balance { .section}
+## Viewing the Work-in-Process Balance
 
 To view the balance of the Work in Process account, which contains the costs of the items in production orders that have the *In Process* or *Completed* status, you can use the [Work in Process](AM_65_40_00.md) \(AM654000\) report.
 
-## Viewing Production Orders by Work Centers { .section}
+## Viewing Production Orders by Work Centers
 
 To view the list of operations in the production orders assigned to work centers, you can use the [Work Center Dispatch](AM_65_10_00.md) \(AM651000\) report or the [Work Center Dispatch](AM_00_00_07.md) \(AM000007\) form.
 
-## Viewing Labor Efficiency for Production Orders { .section}
+## Viewing Labor Efficiency for Production Orders
 
 To view and analyze the labor efficiency of the employees involved in production, you can use the [Production Order Labor Efficiency](AM_65_30_00.md) \(AM653000\) report.
 
-## Tracking Material Availability and Production Readiness { .section}
+## Tracking Material Availability and Production Readiness
 
 To quickly assess whether orders can be initiated based on material availability, you can use the [Production Orders by Build Capability](AM_40_90_00.md) \(AM409000\) form. Each production order displayed on this form is assigned a readiness status. Color coding is applied to highlight the readiness of production orders, particularly those with insufficient materials for production. The following readiness statuses are available:
 

@@ -1,4 +1,4 @@
-# Forecasting Budgets by Periods {#_c7127529-f542-5126-99de-b944cb120a85 .concept}
+# Forecasting Budgets by Periods
 
 This chapter describes how to create a budget forecast for a project and how to breakdown the project budget in the budget forecast by financial periods.
 

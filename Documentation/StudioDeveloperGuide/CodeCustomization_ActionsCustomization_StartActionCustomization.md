@@ -1,4 +1,4 @@
-# Action Customization: Customization of an Action {#_3e5693da-8e64-4586-9b82-dcfdda267e2c .concept}
+# Action Customization: Customization of an Action
 
 If you need to customize an action represented by a button on a toolbar or a command on the More menu, proceed as follows:
 
@@ -10,7 +10,6 @@ If you need to customize an action represented by a button on a toolbar or a com
 
         **Note:** If the action is only represented by a command on the More menu, open the More menu to display the command and use the keyboard shortcut Ctrl+Alt+Click to inspect the command in the More menu, as shown in the following screenshot.
 
-        ![](Images/CG_GL_BL_Action_ToStart.png "Displaying the action name in the Element Properties dialog box")
 
     4.  In the dialog box, click **Actions &gt; View Business Logic Source** to open the source code of the graph whose name is displayed in the **Business Logic** box of the dialog box.
 
@@ -18,7 +17,6 @@ If you need to customize an action represented by a button on a toolbar or a com
 
     5.  In the **Methods** list of the [Source Code](../UserGuide/SM_20_45_70.md) browser, which opens for the graph, find and click the action name to display the action delegate method in the work area of the browser, as the following screenshot shows.
 
-        ![](Images/CG_GL_BL_Action_ToStart_2.png "Viewing the action delegate method in the Source Code browser")
 
     6.  If you cannot find the action, try to find the action declaration in the base class of the graph.
     **Note:** If the button or command has an unique name, you can also find the action declaration in the Source Code Browser, as described in [To Find Source Code by a Fragment](../CustomizationPlatform/CG_GL_Stages_Explore_FindCode.md), by using the button or command name as a code fragment.

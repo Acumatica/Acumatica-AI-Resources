@@ -1,4 +1,4 @@
-# Filtering Records Dynamically with Data View Delegates {#_9366b5f6-a643-4174-b91c-ae4b3f1e5947 .concept}
+# Filtering Records Dynamically with Data View Delegates
 
 A *data view* is a PXSelect BQL expression declared in a graph for accessing and manipulating data. A data view may contain a delegate, which is an optional graph method that executes when the data view is requested. As an example of the use of a data view delegate, you can implement filtering of records on an inquiry or processing form dynamically in a data view delegate.
 

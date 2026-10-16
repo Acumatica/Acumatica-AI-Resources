@@ -1,8 +1,8 @@
-# Configuring Work Centers: Implementation Activity {#_a1eac3a5-bc97-4753-92ba-5fb8bcba85d1 .task}
+# Configuring Work Centers: Implementation Activity
 
 In the following implementation activity, you will learn how to create a work calendar, shifts, and work centers.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Fruits &amp; Jams has decided to assemble customized juicers according to customers' needs. Assembly will take place in the Workhouse warehouse of the Service and Equipment Sales Center branch, in a specific work center. Two workers and a manager will be involved in the assembly process, and no machines will be used in this work center. Administrative and payroll overhead costs must be included in the production costs for this work center. Normally, workers will work in the standard shift, but sometimes overtime work will be required, and usually one worker is involved in overtime work. Standard working hours are from Monday to Friday, 10:00 AM to 6:00 PM. Overtime work is from Monday to Friday, 6:00 PM to 9:00 PM.
 
@@ -10,14 +10,14 @@ In a separate work center, an injection molding machine has been installed, whic
 
 As an implementation manager, you need to create a work calendar for overtime \(a work calendar already exists for standard working hours\), shifts for standard working hours and for overtime, and work centers for juicer assembly and for the injection molding machine.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 The following entities, which you will use in this activity, have been predefined in the *U100* dataset:
 
 -   On the [Warehouses](../UserGuide/IN_20_40_00.md) \(IN204000\) form, the *WORKHOUSE* warehouse
 -   On the [Work Calendar](../UserGuide/CS_20_90_00.md) \(CS209000\) form, the *MAIN* work calendar, which is used for standard working hours
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -25,14 +25,14 @@ In this activity, you will do the following:
 2.  On the [Shifts](../UserGuide/AM_20_50_00.md) \(AM205000\) form, create shifts for standard working hours and for overtime work
 3.  On the [Work Centers](../UserGuide/AM_20_70_00.md) \(AM207000\) form, create work centers for juicer assembly and for the injection molding machine
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start performing the activity, do the following:
 
 1.  As a prerequisite to the current activity, complete [Configuring Production Cost Drivers: Implementation Activity](config_MFG_Production_Cost_Drivers_Implem_Activity.md) so that the needed machine, overhead entities, and labor codes have been created in a company with the *U100* dataset preloaded.
 2.  Sign in to this company \(that is, the company in which the prerequisite activity has been performed\) as a system administrator with the *gibbs* username and *123* password.
 
-## Step 1: Creating a Work Calendar { .section}
+## Step 1: Creating a Work Calendar
 
 To create a work calendar for overtime, do the following:
 
@@ -51,7 +51,7 @@ To create a work calendar for overtime, do the following:
 
 You have created a work calendar for overtime, which you will use in the work center settings along with the shift for overtime work.
 
-## Step 2: Creating Shifts { .section}
+## Step 2: Creating Shifts
 
 You will create a shift for standard working time and a shift for overtime work. Do the following:
 
@@ -75,7 +75,7 @@ You will create a shift for standard working time and a shift for overtime work.
 
 You have created shifts for standard working time and for overtime, and now you can create the needed work centers.
 
-## Step 3: Creating a Work Center for Juicer Assembly { .section}
+## Step 3: Creating a Work Center for Juicer Assembly
 
 To create a work center where the assembly of juicers will be performed, do the following:
 
@@ -131,7 +131,7 @@ To create a work center where the assembly of juicers will be performed, do the 
 
 You have created the work center that will be involved in the process of juicer assembly.
 
-## Step 4: Creating a Work Center for a Machine { .section}
+## Step 4: Creating a Work Center for a Machine
 
 While remaining on the [Work Centers](../UserGuide/AM_20_70_00.md) \(AM207000\) form, you will create a work center for the injection molding machine. Do the following:
 

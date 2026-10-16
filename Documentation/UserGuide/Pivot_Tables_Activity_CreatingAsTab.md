@@ -1,19 +1,19 @@
-# Pivot Tables: To Create a Pivot Table {#_d1d73984-a2a9-4c98-b95b-4551004a9ee3 .task}
+# Data Views: To Create and Configure a Pivot Table View
 
 In this activity, you will learn how to create a pivot table and share it with other users.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
-Suppose that you’re a technical specialist in your company who’s working on simple customizations, including the creation and modification of generic inquiry forms and pivot tables. A warehouse manager of your company has asked you to create a pivot table that:
+Suppose that you’re a technical specialist in your company who’s working on simple customizations, including the creation and modification of generic inquiry forms and data views. A warehouse manager of your company has asked you to create a pivot table view that:
 
 -   Groups stock keeping units \(SKUs\) by item class
 -   Shows the total number of all SKUs and the number of SKUs in each class
 
 Also, the pivot table should be available as a data view of the predefined Stock Items \(IN2025PL\) generic inquiry form \(list of records\). This form has the *IN-StockItem* inquiry title and the *Stock Items* site map title specified on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form.
 
-## Configuration Overview {#section_pgv_tmv_3rb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -22,17 +22,17 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, multiple stock items have been defined.
 -   The Stock Items \(IN2025PL\) generic inquiry form has been set up as a substitute form that is opened when you click the *Stock Items* link in a workspace or a list of search results. This form displays the list of the stock items that have been created on the [Stock Items](IN_20_25_00.md) \(IN202500\) form.
 
-## Process Overview { .section}
+## Process Overview
 
 In the activity, on the Stock Items \(IN2025PL\) generic inquiry form, you will create the requested pivot table and save it as a shared data view of this inquiry form.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to a tenant with the *U100* dataset preloaded as system administrator Kimberly Gibbs. You should sign in by using the *gibbs* username and the *123* password.
 
 **Tip:** The *gibbs* user is assigned the *Administrator* role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards.
 
-## Step 1: Creating the Pivot Table { .section}
+## Step 1: Creating the Pivot Table
 
 To create the pivot table as a data view, do the following:
 
@@ -40,15 +40,16 @@ To create the pivot table as a data view, do the following:
 2.  Open the View List drop-down menu and click **Create View**.
 3.  In the **Create View** dialog box, which opens, do the following:
 
-    1.  In the **Name** box, type `Items by Item Class`.
-    2.  Select the **Shared** check box.
-    3.  Click **Create** to add the shared data view.
-    The system opens the **Settings** dialog box, where you can configure the pivot table.
+    1.  In the **Type** box, select *Pivot Table*.
+    2.  In the **Name** box, type `Items by Item Class`.
+    3.  Select the **Shared** check box.
+    4.  Click **Create** to add the shared data view.
+    The system opens the **View Settings** dialog box, where you can configure the pivot table.
 
 
-## Step 2: Configuring the Pivot Table { .section}
+## Step 2: Configuring the Pivot Table
 
-Do the following in the **Settings** dialog box:
+Do the following in the **View Settings** dialog box:
 
 1.  To set up the rows of the pivot table, add fields to the pivot table as follows:
     1.  Drag *Item Class* from the **Fields** pane to the **Rows** pane. The identifiers of the item classes will be displayed as row headers in the pivot table.
@@ -63,14 +64,13 @@ Do the following in the **Settings** dialog box:
     2.  In the **Properties** pane, clear the **Show Total** check box.
 5.  Close the **Settings** dialog box to switch to view mode.
 
-    The system displays the pivot table, which aggregates SKUs by item class. Note that:
+The system displays the pivot table, which aggregates SKUs by item class. Note that:
 
-    -   Item class groups are collapsed by default, and the total number of SKUs in each group is displayed in the **Total** column.
-    -   The **Total SKUs** row, at the bottom of the table, shows the total number of SKUs available.
-    -   A user can expand a particular group by clicking the plus sign next to its name or click **Expand All** at the bottom of the form \(shown below\) to expand all groups at once.
-    -   The button next to **Expand All** is **Collapse All**.
-    ![](Images/Pivot_Tables_CollapsedGroups.png "A pivot table with the groups collapsed")
+-   Item class groups are collapsed by default, and the total number of SKUs in each group is displayed in the **Total** column.
+-   The **Total SKUs** row, at the bottom of the table, shows the total number of SKUs available.
+-   A user can expand a particular group by clicking the plus sign next to its name or click **Expand All** at the bottom of the form \(shown below\) to expand all groups at once.
+-   The button next to **Expand All** is **Collapse All**.
 
 
-**Parent topic:**[Managing Pivot Tables](../UserGuide/Pivot_Tables_Mapref.md)
+**Parent topic:**[Managing Inquiry Result Data Views](../UserGuide/Pivot_Tables_Mapref.md)
 

@@ -1,4 +1,4 @@
-# Data Field {#_b3d24079-bda4-4f82-9fbd-c444a8bcb733 .concept}
+# Data Field
 
 In a data access class \(DAC\), a data field declaration consists of the following elements:
 
@@ -17,7 +17,6 @@ On the graph level, you can define a new set of attributes for a field and apply
 
 The following diagram shows an example that demonstrates how the attributes of a field declared in a data access class can be changed on the DAC and graph levels for two forms.
 
-![](images/CG_GL_BL_DataField.png "Example of the customization of attributes for a data field on the DAC and graph levels")
 
 **Note:** In the example, as recommended in [Customization of Field Attributes in DAC Extensions](CG_Platform_Framework_CS_DACExt_FieldAttributes.md), the CacheAttached\(\) event handler is always used to merge the custom attributes of the field with the original ones instead of replacing them on the graph level.
 

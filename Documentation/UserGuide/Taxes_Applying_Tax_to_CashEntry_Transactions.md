@@ -1,4 +1,4 @@
-# Cash Entries with Taxes: Generated Transactions {#_4463c5a8-6641-4db0-a59a-7b6724d8644b .concept}
+# Cash Entries with Taxes: Generated Transactions
 
 For cash transactions created in the cash management subledger, the system records tax amounts to the GL account specified for a particular tax on the **GL Accounts** tab of the [Taxes](TX_20_50_00.md) \(TX205000\) form, as shown in the following table.
 

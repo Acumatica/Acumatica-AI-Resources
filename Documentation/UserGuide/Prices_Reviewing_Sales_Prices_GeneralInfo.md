@@ -1,20 +1,20 @@
-# Sales Prices: General Information {#_d63d6b6c-15ee-4576-bf27-8de69f8f5da6 .concept}
+# Sales Prices: General Information
 
 Acumatica ERP provides multiple mechanisms of maintaining sales prices. You can define a base price list, price lists that apply to a specific customer or a group of customers, and lists of promotional prices or prices that depend on the quantity of the product being sold.
 
 In addition to the price list functionality, you can specify a default price for the item. This price will be used for the item if no other price is defined for it in the system. For more information about the way the system determines the default price to be inserted, see [Sales Prices: Rules of Price Selection](Prices_Sales_Price_Selection_GeneralInfo.md).
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 You will learn how sales prices are defined in the system.
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 You may want to configure sales prices if your organization sells items and you want the system to reflect the way your organization establishes prices for these items.
 
 You can define sales prices for stock items if the *Inventory* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Non-Default Sales Prices { .section}
+## Non-Default Sales Prices
 
 You define items’ non-default sales prices and their effective dates by using the [Sales Prices](AR_20_20_00.md) \(AR202000\) or [Sales Price Worksheets](AR_20_20_10.md) \(AR202010\) form. You add a price \(that is, create a sales price record\) for an item by adding a row to the table of one of these forms.
 
@@ -44,7 +44,7 @@ On either of these forms, you can also define non-default sales prices as one or
 -   Warehouse-specific: Prices that are applicable to only units of the item that are stored in a particular warehouse. You can define these prices if the *Multiple Warehouses* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) form. These prices can have an effective date range, if needed.
 -   UOM-specific: Prices that are defined for only a specific unit of measure \(UOM\) in which the item is sold. You can define these prices if the *Multiple Units of Measure* feature has been enabled on the [Enable/Disable Features](CS_10_00_00.md) form. These prices can have an effective date range, if needed.
 
-## Default Sales Prices { .section}
+## Default Sales Prices
 
 A *default sales price* \(also referred to as a *default price*\) is a sales price of a stock or non-stock item that the system uses when no other price is defined for the item on the [Sales Prices](AR_20_20_00.md) \(AR202000\) or [Sales Price Worksheets](AR_20_20_10.md) \(AR202010\) form. That is, the system uses the default price when the item has no applicable price with the *Base*, *Customer Price Class*, or *Customer* type defined on one of these forms. Default prices can be maintained for the items whose prices do not vary depending on the customer, customer price class, purchased quantity, season, promotional period, or any other factor.
 

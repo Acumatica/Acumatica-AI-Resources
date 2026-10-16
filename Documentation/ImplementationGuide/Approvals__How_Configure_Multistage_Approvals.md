@@ -1,24 +1,24 @@
-# To Create an Approval Map for Multistage Approvals {#_5f862ca4-d72c-462a-9d0a-0a583da70c6f .task}
+# To Create an Approval Map for Multistage Approvals
 
 In this activity, you will configure an approval map for the multistage approval by using the [Approval Maps](../UserGuide/EP_20_50_15.md) \(EP205015\) form.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that according to the internal requirements of SweetLife Fruits &amp; Jams, each cash purchase must be initially approved by an accountant, and each cash purchase that has an amount exceeding $5000 \(in US dollars\) must also be approved by the CFO. Once an accountant has approved the cash purchase in the first stage, that cash purchase \(if it matches the conditions specified for the second stage\) goes to the CFO for the final approval.
 
 Acting as a system administrator, you need to set up the multistage approval workflow and configure an approval map for this type of purchase and set the workgroup that includes accountants and Maxwell Baker, CFO, as the approvers of these purchases.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will first enable the *Approval Workflow* feature on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form. On the [Approval Maps](../UserGuide/EP_20_50_15.md) \(EP205015\) form, you will create an approval map for the multistage approval, specifying the approvers, the conditions for cash purchase, and the actions to be performed on approval of the cash purchase that match those conditions. Finally, on the [Accounts Payable Preferences](../UserGuide/AP_10_10_00.md) \(AP101000\) form, you will add the approval map on the **Approval** tab.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring the multistage approval for cash purchases, launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as the system administrator with the *gibbs* username and the *123* password.
 
-## Step 1: Enabling the Needed Feature { .section}
+## Step 1: Enabling the Needed Feature
 
 To enable the *Approval Workflow* feature, do the following:
 
@@ -26,7 +26,7 @@ To enable the *Approval Workflow* feature, do the following:
 2.  Under the *Platform* group of features, select the **Approval Workflow** check box.
 3.  On the form toolbar, click **Enable** to enable the feature.
 
-## Step 2: Creating an Approval Map for Multistage Approvals { .section}
+## Step 2: Creating an Approval Map for Multistage Approvals
 
 To create and configure an approval map, do the following:
 
@@ -74,7 +74,7 @@ To create and configure an approval map, do the following:
     4.  **On Approval**: *Approve Document*
 11. Click **Save** on the form toolbar.
 
-## Step 3: Specifying Approval Settings for Cash Purchases { .section}
+## Step 3: Specifying Approval Settings for Cash Purchases
 
 To specify the settings for the multistage approval of cash purchases, do the following:
 

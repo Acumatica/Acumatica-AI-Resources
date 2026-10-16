@@ -1,8 +1,8 @@
-# Requirements and Prerequisites {#_b051c93a-5505-48dd-98ce-abdcfd43d002 .concept}
+# Requirements and Prerequisites
 
 The following requirements and prerequisites should be met so that you can start working with the solution that provides synchronization between Acumatica ERP and Salesforce .
 
-## Requirements { .section}
+## Requirements
 
 Acumatica ERP is integrated with Salesforce through the Salesforce API. Thus, you need to make sure that your organization uses one of the following Salesforce editions, in which the API is enabled by default:
 
@@ -15,7 +15,7 @@ For more information about these editions, see [Salesforce editions with API Acc
 
 For details on how to quickly get a free Salesforce instance so that you can explore the solution, see [To Quickly Obtain a Salesforce Instance](IS__how_Get_Salesforce_Instance.md).
 
-## Prerequisites { .section}
+## Prerequisites
 
 Before you start configuring the systems for synchronization, make sure that the following prerequisites are met:
 

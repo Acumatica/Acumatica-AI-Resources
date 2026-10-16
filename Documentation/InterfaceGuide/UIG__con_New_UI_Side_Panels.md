@@ -1,14 +1,13 @@
-# Side Panels on Forms {#_976195cd-3233-4cd3-b529-ca9aeaf00871 .concept}
+# Side Panels on Forms
 
 On particular forms in Acumatica ERP, you can simultaneously view forms or dashboards with information related to the selected record without navigating away from the form. These forms or dashboards are displayed in the side panel in the right part of a form.
 
 In this topic, you will find information about side panels.
 
-## UI Elements of the Side Panel { .section}
+## UI Elements of the Side Panel
 
 The following screenshot displays the main UI elements of the side panel. The screenshot shows the Business Accounts \(CR3030PL\) list of records, with the side panel showing information about the selected record \(the first record in the table\).
 
-![](Images/UIG_New_UI_Side_Panel_2.png "The interface of the side panel")
 
 1.  Record for which the side panel is shown
 2.  Side panel tabs
@@ -16,7 +15,7 @@ The following screenshot displays the main UI elements of the side panel. The sc
 4.  Form or dashboard title bar
 5.  Form or dashboard area
 
-## Record Whose Information Is Shown { .section}
+## Record Whose Information Is Shown
 
 Depending on the type of form with a side panel, the record whose information is shown in the side panel might be any of the following:
 
@@ -24,7 +23,7 @@ Depending on the type of form with a side panel, the record whose information is
 -   A record selected in a list of records, which is a type of form that shows the records created by using the corresponding data entry or maintenance form. On the side panel of the Stock Items \(IN2025PL\) list of records, for example, you can view the settings of the selected stock item on the [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\) form without leaving the list of records. The screenshot in the next section provides another example of a side panel for a list of records.
 -   A record selected in a table of details or inquiry results on a form. For example, the [Inventory Planning Exceptions](../UserGuide/AM_40_30_00.md) \(AM403000\) form has a table showing the list of exceptions generated during MRP that meet your selection criteria. You can continue to view that form while the side panel displays additional information related to the exception whose row is selected in the table.
 
-## Side Panel Tabs { .section}
+## Side Panel Tabs
 
 A side panel can contain one tab or multiple tabs. To view information in a side panel for a particular record, you select the entity on a form \(for an entry form\) or click the entity row in the list \(for a form with a list of records or other table\) and then click a tab icon in the side panel.
 
@@ -32,11 +31,11 @@ A tab can display a data entry form or a maintenance form, an inquiry form \(inc
 
 Tabs that have been predefined to appear on the side panel may or may not be displayed, depending on the set of features enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form and the settings of the selected record.
 
-## Expand or Collapse Button {#section_zdp_vfr_ssb .section}
+## Expand or Collapse Button
 
 By default, the side panel is collapsed and displays only the tab icons. By clicking the Expand button, you can expand the panel to the full width. By clicking the Collapse button, you can collapse the panel. When the panel is expanded, you can resize it by dragging its left border.
 
-## Form or Dashboard Title Bar {#section_cgy_rfr_ssb .section}
+## Form or Dashboard Title Bar
 
 The form or dashboard title bar may contains the following elements:
 
@@ -50,9 +49,7 @@ The form or dashboard title bar may contains the following elements:
 
 For details on the standard elements of the form title bar, see [Form Title Bar](Form_Title_Bar.md).
 
-## Form or Dashboard Area { .section}
+## Form or Dashboard Area
 
 The form or dashboard area displays the data related to the record that is open or selected on the main form.
-
-**Parent topic:**[Forms](../InterfaceGuide/Forms.md)
 

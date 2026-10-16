@@ -1,8 +1,8 @@
-# To Activate the Next Period for the End-Period Billing Contracts {#_32ee619c-f203-46da-8b3c-8f60cddd7bc2 .task}
+# To Activate the Next Period for the End-Period Billing Contracts
 
 You can activate the next billing period for a contract billed at the end of the billing period.
 
-## To Activate the Next Period for a Particular Contract { .section}
+## To Activate the Next Period for a Particular Contract
 
 1.  Open the [Service Contracts](../Shared/../UserGuide/FS_30_57_00.md) \(FS305700\) form.
 2.  In the **Service Contract ID** box of the Summary area, select the contract for which you want to activate the period.
@@ -11,7 +11,7 @@ You can activate the next billing period for a contract billed at the end of the
 
 Now you can generate a billing document for the activated period.
 
-## To Activate the Next Period for Multiple Contracts { .section}
+## To Activate the Next Period for Multiple Contracts
 
 1.  Open the [Process Service Contracts](../Shared/../UserGuide/FS_50_12_00.md) \(FS501200\) form.
 2.  In the **Action** box of the Summary area, select *Activate Upcoming Billing Period*.

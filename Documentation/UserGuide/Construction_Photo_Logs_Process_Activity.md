@@ -1,25 +1,25 @@
-# Photo Logs: Process Activity {#_fc284dc9-47de-4a6c-ae9f-dbb96ee1bc3b .task}
+# Photo Logs: Process Activity
 
 This activity will walk you through the process of working with a photo log.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that on March 15, 2026, the construction foreman has inspected the project site and taken progress photos. Acting as the construction foreman, you will create a photo log for the particular project and project task and upload the photos to this photo log. Then you will send the photos to the responsible person.
 
-## Configuration Overview {#section_k44_tw5_gnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Construction* and *Construction Project Management* features have been enabled.
 -   On the [Projects](PM_30_10_00.md#) \(PM301000\) form, the *HOTEL* project has been created, and the project tasks for the project have been specified on the **Tasks** tab, including the *02 – SITEWORK* project task.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create the photo log on the [Photo Log](PJ_30_50_00.md#) \(PJ305000\) form and upload the progress photos to the log by using the [Photo](PJ_30_50_10.md#) \(PJ305010\) form. You will then select the photos to be sent, prepare an email on the [Email Activity](CR_30_60_15.md#) \(CR306015\) form, and send the email with the attached ZIP archive with the photos.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
@@ -28,7 +28,7 @@ To prepare to perform the instructions of this activity, do the following:
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *3/15/2026*. If a different date is displayed, click the Business Date menu button, and select *3/15/2026* on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 4.  Download the [Photo\_Log\_Concrete\_Headwall.jpg](Files/Photo_Log_Concrete_Headwall.jpg), [Photo\_Log\_Erosion.jpg](Files/Photo_Log_Erosion.jpg), and [Photo\_Log\_Culvert.jpg](Files/Photo_Log_Culvert.jpg) files to your device.
 
-## Step 1: Creating a Photo Log {#section_khz_jlq_hnb .section}
+## Step 1: Creating a Photo Log
 
 To create the photo log, do the following:
 
@@ -45,7 +45,7 @@ To create the photo log, do the following:
     Notice that an identifier has been automatically generated for the photo log. The system generates this identifier in accordance with the numbering sequence specified on the **Photo Logs** tab of the [Project Management Preferences](PJ_10_10_00.md) \(PJ101000\) form.
 
 
-## Step 2: Uploading Photos to the Photo Log {#section_lhz_jlq_hnb .section}
+## Step 2: Uploading Photos to the Photo Log
 
 While you are still viewing the photo log that you have created on the [Photo Log](PJ_30_50_00.md) \(PJ305000\) form, upload the photos to the photo log by doing the following:
 
@@ -59,7 +59,7 @@ While you are still viewing the photo log that you have created on the [Photo Lo
 
 You have created a photo log with multiple photos for the project.
 
-## Step 3: Sending an Email with the Photos {#section_ivj_qmt_dpb .section}
+## Step 3: Sending an Email with the Photos
 
 To send the email, do the following:
 

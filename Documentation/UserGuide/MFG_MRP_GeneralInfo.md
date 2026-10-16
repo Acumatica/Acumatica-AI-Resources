@@ -1,4 +1,4 @@
-# Inventory Planning with MRP: General Information {#_b47187f3-3102-4b7e-af80-b4ed6d394850 .concept}
+# Inventory Planning with MRP: General Information
 
 Inventory planning helps your organization to balance item quantities on demand and supply documents by managing production based on data analysis. Acumatica ERP Manufacturing Edition provides you with the tools to maintain the data underlying inventory planning, run inventory planning, and analyze the results. This topic describes the inventory planning process and the related processes.
 
@@ -11,15 +11,15 @@ The inventory planning functionality is available only if one of the following f
 
 This topic describes how to perform inventory planning when the *Material Requirements Planning* is enabled on the [Enable/Disable Features](CS_10_00_00.md) form.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to run inventory planning, analyze its results, and create production orders, purchase orders, and transfer orders based on the results.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You perform inventory planning when you would like to plan production based on demand and supply data.
 
-## Performing of Inventory Planning { .section}
+## Performing of Inventory Planning
 
 Generally, it is recommended that you run inventory planning before each business day, after all of the previous day's sales and purchase orders have been entered and their transactions affecting inventory have been posted. Because this is a very resource-dependent process, it should be run in a time frame that does not conflict with database maintenance processes.
 
@@ -32,13 +32,12 @@ You do the following to perform inventory planning:
 5.  Review the results of inventory planning regeneration by using the [Inventory Planning Display](AM_40_00_00.md) \(AM400000\) form.
 6.  Create the required documents \(such as production orders, purchase orders, or transfer orders\) by using the same form.
 
-## Workflow of Inventory Planning { .section}
+## Workflow of Inventory Planning
 
 The typical process of inventory planning that includes production orders involves the actions and documents shown in the following diagram.
 
-![](Images/diag_MFG_MRP_process.png)
 
-## Inventory Planning Exception Analysis { .section}
+## Inventory Planning Exception Analysis
 
 Exception messages provide the reason for the exception according to inventory planning settings or suggest actions that you should take to balance supply and demand. You can view the exception messages on the [Inventory Planning Exceptions](AM_40_30_00.md) \(AM403000\) form after inventory planning has been regenerated. The types of exception messages that the system displays on this form are the following:
 
@@ -52,7 +51,7 @@ Exception messages provide the reason for the exception according to inventory p
 -   *Transfer without Repl. Warehouse*: You need to specify a warehouse in the **Source Warehouse** box on the **Inventory Planning** tab of the [Item Warehouse Details](IN_20_45_00.md) \(IN204500\) form for the item and source warehouse combination if you want to create a transfer order for the item.
 -   *Circular Transfer*: You need to change the transfer settings for the item on the [Item Warehouse Details](IN_20_45_00.md) form so that one or more warehouses do not make a closed loop for transferring the item.
 
-## Creation of Documents Suggested by Inventory Planning { .section}
+## Creation of Documents Suggested by Inventory Planning
 
 When inventory planning is regenerated \(manually or automatically\), the system creates a list of potential supply orders to meet the demand, or planning recommendations, which you then can convert to supply documents—that is, purchase, production, or transfer orders. Planning recommendations are temporary documents; the system deletes them once you convert them to supply documents. You can view the list of planning recommendations and create the supply documents by using the [Inventory Planning Display](AM_40_00_00.md) \(AM400000\) form.
 

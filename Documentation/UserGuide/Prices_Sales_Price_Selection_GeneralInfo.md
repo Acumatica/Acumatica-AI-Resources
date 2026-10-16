@@ -1,18 +1,18 @@
-# Sales Prices: Rules of Price Selection {#_e0863703-06d1-415e-8e5a-c736fc4a965f .concept}
+# Sales Prices: Rules of Price Selection
 
 In Acumatica ERP, the system automatically suggests a price in a sales order or an AR invoice from the sales prices existing in the system.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 You will learn how the system selects a price to suggest in a sales order or AR invoice based on the price’s priority.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 In Acumatica ERP, you can maintain sales prices for both non-stock items and stock items.
 
 You can maintain sales prices for stock items if the *Inventory* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Price Selection Rules { .section}
+## Price Selection Rules
 
 You can define multiple prices, each with a different goal, for an item. When a user selects an item in a document line \(or modifies the item's quantity\), the system searches for an applicable price that is effective on the date of the document. The system bases this search on the price’s priority \(highest to lowest\) and stops when it finds an applicable price for the item. The search proceeds as follows:
 
@@ -44,7 +44,6 @@ You can define multiple prices, each with a different goal, for an item. When a 
 
 Once the system finds an applicable price, it stops the search and inserts this price into the document, but you can override this price. The price search priority is illustrated in the diagram below.
 
-![](Images/Diagram_Search_Priority_for_Sales_Prices_2.png)
 
 **Parent topic:**[Exploring Automatic Price Selection in Documents](../UserGuide/Prices_Sales_Price_Selection_Mapref.md)
 

@@ -1,21 +1,21 @@
-# Drivers: General Information {#_addba304-2ece-45f3-956b-3524c6942213 .concept}
+# Drivers: General Information
 
 A driver is an employee of your company who has a driving skill assigned and who is responsible for delivering the route services that your company offers to customers.
 
 In this topic, you will read about adding drivers to the system and assigning drivers to routes.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Add drivers to the system
 -   Assign a skill to a staff member
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You add drivers to the system when you need to assign employees with driving skills to route services within your company. This is particularly useful when organizing the execution of deliveries or services, ensuring that the right person is assigned to each route.
 
-## Adding Drivers {#section_ug3_h5l_d2c .section}
+## Adding Drivers
 
 Before you add drivers to the system, you should add to the system the driving skills that apply to the drivers of your company on the [Skills](../UserGuide/FS_20_06_00.md) \(FS200600\) form. You might add just one driving skill if in your company all drivers require the same skill, or you might have multiple driving skills if you need to assign drivers with somewhat different skills to different routes.
 
@@ -26,7 +26,7 @@ If the staff members who will be designated as drivers have not been added to th
 
 You can also define an existing staff member of the *Employee* type as a driver by assigning a driver skill to the staff member on the **Skills** tab of the [Employees](../UserGuide/EP_20_30_00.md) \(EP203000\) form. When you assign a driving skill to the staff member, the system selects the **Driver** check box for the staff member on the **General Info** tab of the form.
 
-## Adding Drivers to a Route {#section_nt5_h5l_d2c .section}
+## Adding Drivers to a Route
 
 In the system, you create the general routes, and for each particular execution of the route, you create route executions.
 
@@ -40,7 +40,7 @@ The lower the digit you specify in this column, the higher the priority for a dr
 
 **Tip:** If you do not assign any drivers to a route, you will not be able to select a driver when you create a route execution based on this route.
 
-## Assigning Drivers to Execute a Route {#_09d0d223-82ee-401a-8e1e-ecb49752a4df .section}
+## Assigning Drivers to Execute a Route
 
 For each route execution defined in the system, you should select at least one driver as follows:
 

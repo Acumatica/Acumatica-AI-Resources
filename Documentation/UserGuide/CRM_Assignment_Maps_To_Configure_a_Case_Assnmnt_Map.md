@@ -1,10 +1,10 @@
-# Assignment Maps: To Configure a Case Assignment Map {#_506c3024-d85b-4d00-99b5-3b4644f1b0bc .task}
+# Assignment Maps: To Configure a Case Assignment Map
 
 The following implementation activity will show you how to configure a case assignment map in Acumatica ERP.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are an implementation consultant for the SweetLife Fruits &amp; Jams company.You need to configure a case assignment map in Acumatica ERP in order to provide the customer support team with the ability to assign cases to owners as follows:
 
@@ -12,7 +12,7 @@ Suppose that you are an implementation consultant for the SweetLife Fruits &amp;
 -   The *Delivery* workgroup will be working with cases for sale and delivery of company products, such as jam, fruits, and juicers.
 -   The *Technical Support* workgroup will be working with cases for cleaning, maintenance, and repair of juicers. This workgroup will also help answer all kinds of technical questions from potential clients and customers.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -23,7 +23,7 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Company Tree](EP_20_40_61.md) \(EP204061\) form, the company tree has been configured, and it includes the *Delivery* and the *Technical Support* workgroups in the *After-Sales* department.
 -   On the [Case Classes](CR_20_60_00.md) \(CR206000\) form, the *PRESALE*, *DELIVERY*, and *JREPAIR* case classes have been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -31,7 +31,7 @@ In this activity, you will do the following:
 2.  Select the default case assignment map on the [Customer Management Preferences](CR_10_10_00.md) \(CR101000\) form.
 3.  Assign cases to the owner on the [Assign Cases](CR_50_32_10.md) \(CR503210\) form; make sure that cases are assigned according to the default case assignment map.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring a case assignment map, you should do the following:
 
@@ -41,7 +41,7 @@ Before you start configuring a case assignment map, you should do the following:
     -   **Password**: *123*
 3.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Creating a Case Assignment Map { .section}
+## Step 1: Creating a Case Assignment Map
 
 To create a case assignment map, do the following:
 
@@ -96,9 +96,8 @@ To create a case assignment map, do the following:
 
 You have created and configured *Default Case Assignment Map*, as shown in the following screenshot. Now you need to specify this map on the [Customer Management Preferences](CR_10_10_00.md) \(CR101000\) form.
 
-![](Images/activity_CRM_Mktg_Default_Case_Assignment_Map.png "The created case assignment map")
 
-## Step 2: Selecting a Default Case Assignment Map { .section}
+## Step 2: Selecting a Default Case Assignment Map
 
 To select a default case assignment map, do the following:
 

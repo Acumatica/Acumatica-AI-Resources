@@ -1,8 +1,8 @@
-# To Shrink the Database {#_bf50db7f-8812-4355-a247-0b0586381ee0 .task}
+# To Shrink the Database
 
 Some companies may want to reduce the size of the database because not all of the data in the database is useful. Also, supporting and maintaining the large databases becomes expensive and labor-intensive. To dispose of the unnecessary data, you can shrink data using the Acumatica ERP Configuration wizard.
 
-## To Shrink the Database {#_eacfde5b-9b0e-4913-bd90-0dd1d49ecea5 .section}
+## To Shrink the Database
 
 1.  Run the Acumatica ERP Configuration wizard. For example, select **Start &gt; Acumatica &gt; Acumatica ERP Configuration**.
 2.  On the Welcome page, click **Perform Database Maintenance**.

@@ -1,14 +1,14 @@
-# Direct Tax Payment: To Create an AP Bill with a Direct-Entry Tax {#_628d1dac-128e-46a1-9851-81a976fe16c9 .task}
+# Direct Tax Payment: To Create an AP Bill with a Direct-Entry Tax
 
 The following activity will walk you through the process of creating an AP bill containing a line with a direct-entry tax.
 
-## Story {#section_ikm_fjv_vxb .section}
+## Story
 
 Suppose that on 1/20/2026, SweetLife Fruits &amp; Jams purchased two juicers from Jalooza Inc. in a total amount of $4,000. On 1/30/2026, SweetLife received a tax bill from the freight company \(Big Green Trucks Ltd.\) that assisted SweetLife with importing the goods from Canada and is SweetLife's customs agent. The bill includes a taxable fee for the company's services \($55\) and an import tax \($300\).
 
 Acting as a SweetLife accountant, you need to process two documents in the system—a purchase order for Jalooza, and an AP bill for Big Green Trucks, which includes both an expense line and a direct-entry tax.
 
-## Configuration Overview {#section_lkm_fjv_vxb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following configuration tasks have been performed to prepare the system for this activity to be performed:
 
@@ -17,11 +17,11 @@ In the *U100* dataset, the following configuration tasks have been performed to 
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *JALOOZA* and *GREENTRUCK* vendor accounts have been configured.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *JUICER15* stock item has been configured.
 
-## Process Overview {#section_nkm_fjv_vxb .section}
+## Process Overview
 
 In this activity, you will first update the settings of the vendors on the [Vendors](AP_30_30_00.md) \(AP303000\) form. On the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form, you will create and process a purchase order for the *JALOOZA* vendor. On the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you will review the AP bill that was generated automatically on release of the purchase receipt. On the [Tax Zones](TX_20_60_00.md) \(TX206000\) form, you will update the settings of the *FOREIGN* tax zone assigned to the *GREENTRUCK* vendor, so that this tax zone should include the *VAT* and *VATIM* taxes. On the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you will create a bill for the *GREENTRUCK* vendor with a line for taxable services and a tax line. After releasing the bill, you will review the generated transaction on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## System Preparation {#section_pkm_fjv_vxb .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -32,7 +32,7 @@ To prepare the system, do the following:
 5.  As a prerequisite activity, be sure that you have configured the tax report as described in [Tax Report Configuration: To Create a Tax Report for VAT](../ImplementationGuide/TaxReport_VAT_Implem_Activity.md).
 6.  As a prerequisite activity, be sure that you have created the direct-entry tax as described in [Direct Tax Payment: To Create a Tax Bill for a Tax Agency](Taxes_Paying_Tax_Directly_Create_Tax_Bill_Applied_to_Purchase.md).
 
-## Step 1: Updating the Vendors' Tax Zones {#section_rkm_fjv_vxb .section}
+## Step 1: Updating the Vendors' Tax Zones
 
 To update the tax zones of the *JALOOZA* and *GREENTRUCK* vendors, do the following:
 
@@ -44,7 +44,7 @@ To update the tax zones of the *JALOOZA* and *GREENTRUCK* vendors, do the follow
 6.  On the **Purchase Settings** tab, select *FOREIGN* in the **Tax Zone** box.
 7.  On the form toolbar, click **Save**.
 
-## Step 2: Processing a Purchase Order for Jalooza {#section_tkm_fjv_vxb .section}
+## Step 2: Processing a Purchase Order for Jalooza
 
 To process a purchase order for two juicers for Jalooza, do the following:
 
@@ -86,7 +86,7 @@ To process a purchase order for two juicers for Jalooza, do the following:
     On the **Taxes** tab, notice that a 7% VAT in the amount of $280 has been applied to the bill.
 
 
-## Step 3: Updating the Tax Zone Settings {#section_wkm_fjv_vxb .section}
+## Step 3: Updating the Tax Zone Settings
 
 To update the settings of the *FOREIGN* tax zone, do the following:
 
@@ -95,7 +95,7 @@ To update the settings of the *FOREIGN* tax zone, do the following:
 3.  On the **Applicable Taxes** tab, click **Add Row** on the table toolbar, and select *VAT* in the **Tax ID** column.
 4.  On the form toolbar, click **Save**.
 
-## Step 4: Creating an AP Bill for Big Green Trucks {#section_ykm_fjv_vxb .section}
+## Step 4: Creating an AP Bill for Big Green Trucks
 
 In this step, you will create an AP bill, which will have an expense line and a direct-entry tax, for Big Green Trucks. Do the following:
 

@@ -1,4 +1,4 @@
-# Invoices with Sales Taxes: Implementation Checklist {#_bb917624-ed6d-47fa-a228-e8c66b72c461 .concept}
+# Invoices with Sales Taxes: Implementation Checklist
 
 To ensure that the system is configured properly for creating an AR invoice with a sales tax applied automatically, make sure that the criteria listed in the table have been met in the system as described.
 
@@ -11,7 +11,7 @@ To ensure that the system is configured properly for creating an AR invoice with
 |[Stock Items](IN_20_25_00.md)\(IN202500\), [Non-Stock Items](IN_20_20_00.md) \(IN202000\)|To calculate tax amounts in the documents in which you specify inventory IDs, you should create stock items \(for goods\) and non-stock items \(for services\) and associate each item with the appropriate tax category.| |
 |[Customers](AR_30_30_00.md) \(AR303000\)|You should create needed customers in the Accounts Receivable subledger if they don't already exist. Depending on the geographical location of the sale transaction, different taxes can be applied to the document. To define which taxes are applied in the location of your customer, you should assign the appropriate tax zone to each new or existing customer.| |
 
-## Settings That Affect the Workflow {#section_ob3_fjv_vxb .section}
+## Settings That Affect the Workflow
 
 The following settings and entities should be specified and defined, respectively:
 

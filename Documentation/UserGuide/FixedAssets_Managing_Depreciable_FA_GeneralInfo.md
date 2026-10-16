@@ -1,8 +1,8 @@
-# Assets with Depreciation: General Information {#_85bed6c4-981d-46c8-a717-86694930f83b .concept}
+# Assets with Depreciation: General Information
 
 Assets with accumulated depreciation can be managed in the same way as assets that have not been depreciated yet. You can split them, transfer them, or dispose of them. When you split assets, the accumulated depreciation is also split in the specified proportions. When you transfer assets between branches, the accumulated depreciation is also transferred between the branches. When you dispose of a fixed asset with depreciation, the accumulated depreciation amount is recorded to the Gain/Loss of Fixed Asset Disposal account.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to perform the following operations over assets with accumulated depreciation:
 
@@ -10,7 +10,7 @@ In this chapter, you will learn how to perform the following operations over ass
 -   Transfer a fixed asset
 -   Dispose of a fixed asset
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You perform additional operations with a fixed asset with depreciation in the following cases:
 
@@ -18,7 +18,7 @@ You perform additional operations with a fixed asset with depreciation in the fo
 -   You transfer the asset if you need to move it from one department to another one or from one branch to another one
 -   You dispose of the asset if the asset is being taken out of service, was damaged, has had a reduction in productivity, or was sold
 
-## Splitting of a Part of an Asset with Depreciation { .section}
+## Splitting of a Part of an Asset with Depreciation
 
 You use the [Split Assets](FA_50_60_00.md) \(FA506000\) form to split an asset into parts—that is, to divide a single fixed asset consisting of a group of items into two or more separate assets. You can also use splitting for partial asset disposals and transfers.
 
@@ -32,7 +32,7 @@ For the asset that was created when the system split the original asset, the sys
 
 For the original asset, the system generates the appropriate *Purchasing–*, *Reconciliation–*, and *Depreciation Adjusting–* transactions to record the split of the asset's cost and the accumulated depreciation.
 
-## Transfer of an Asset with Depreciation { .section}
+## Transfer of an Asset with Depreciation
 
 When it is acquired, an asset belongs to a specific department under a particular company branch. The history of asset locations is displayed on the **Locations** tab of the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form.
 
@@ -53,7 +53,7 @@ When the asset is transferred, the system creates the following transactions:
     After the transfer transactions are released, the Fixed Asset subaccount and Accumulated Depreciation subaccount are changed on the **GL Accounts** tab on the [Fixed Assets](FA_30_30_00.md) form.
 
 
-## Disposal of an Asset with Depreciation { .section}
+## Disposal of an Asset with Depreciation
 
 On the [Dispose Assets](FA_50_50_00.md) \(FA505000\) form, you can dispose of an asset at any time for any reason. After the asset is disposed of, it has the net value of *0* and is assigned the *Disposed* status. If the fixed asset is assigned to multiple books, when you dispose of this asset, it is assigned the *Disposed* status in all these books.
 

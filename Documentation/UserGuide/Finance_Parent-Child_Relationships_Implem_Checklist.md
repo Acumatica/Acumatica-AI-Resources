@@ -1,8 +1,8 @@
-# Parent-Child Relationships: Implementation Checklist {#_96e1d757-36a2-45a9-9e7b-fba9f7e001a4 .concept}
+# Parent-Child Relationships: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for setting up parent and child customer relationships and processing these customers' documents. You will also learn about the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you initially set up the parent and child relationship, you make sure that the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -13,7 +13,7 @@ We recommend that before you initially set up the parent and child relationship,
 |[Payment Methods](CA_20_40_00.md) \(CA204000\)|Verify the existence of the payment method that you will use when creating invoices for the customers.|
 |[Statement Cycles](AR_20_28_00.md) \(AR202800\)|Verify the existence of the statement cycle that will be used for consolidated customer statements, if they are needed. For details, see [Accounts Receivable: To Create a Statement Cycle](../ImplementationGuide/config_Basic_Company_Implem_Activity_Statement_Cycles.md).|
 
-## Other Settings That Affect the Workflow { .section}
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of processing AR documents by specifying additional settings as follows:
 
@@ -24,7 +24,7 @@ You can affect the workflow of processing AR documents by specifying additional 
     -   Select the **Hold Documents on Entry** check box in the **Data Entry Settings** section. This setting gives the created documents the *On Hold* status.
     -   Make sure that the **Automatically Post on Release** check box is selected in the **Posting Settings** section. This setting causes documents to be automatically posted to the general ledger once they are released.
 
-## Validation of Configuration { .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you set up and use the parent-child relationship by performing instructions similar to those described in [Parent-Child Relationships: Process Activity](Finance_Parent-Child_Relationships_Activity.md).
 

@@ -1,4 +1,4 @@
-# To Add a Customization Plug-In to a Project {#_c69443fe-4d32-47a9-85aa-b2882aa259ef .concept}
+# To Add a Customization Plug-In to a Project
 
 As a part of a complex customization, you might need to make changes to the website beyond the customization project. For example, you might need to change the website configuration. In such situations, you can add a customization plug-in to the project with the code to be executed at the end of the publication process.
 
@@ -11,7 +11,6 @@ To add a customization plug-in, perform the following actions:
 5.  In the **Class Name** box, enter the name of the plug-in to be added to the project.
 6.  Click **OK**.
 
-    ![](images/CG_GL_Items_Code_AddingPlugIn.png "Adding a customization plug-in to the project")
 
 
 The system generates the plug-in code by template, as shown below.

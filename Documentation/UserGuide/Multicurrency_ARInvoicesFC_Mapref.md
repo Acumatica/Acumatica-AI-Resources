@@ -1,4 +1,4 @@
-# Processing Invoices in Foreign Currencies {#_d63b43f1-bca0-4036-a266-013d471f3022 .concept}
+# Processing Invoices in Foreign Currencies
 
 The topics of this chapter describe how to process an AR invoice in a foreign currency.
 

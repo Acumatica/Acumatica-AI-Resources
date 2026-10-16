@@ -1,4 +1,4 @@
-# Declaring or Altering a BLC Data View Delegate {#_06e2c0cd-cc6b-45c8-aa6f-2ca135ee9ca2 .concept}
+# Declaring or Altering a BLC Data View Delegate
 
 You can modify the data view delegate—that is, the method that is invoked when the records are retrieved through the data view.
 
@@ -8,7 +8,6 @@ For the Stock Items form, suppose that you have to make the system display the d
 
 Open the Stock Items form and select the **Warehouses** tab to view the original tab, which is shown in the screenshot below.
 
-![](images/CustomizeDataViewMethod.png "Viewing the original Stock Items form")
 
 To resolve this task, you have to modify the logic that retrieves the records to the **Warehouses** tab—that is, the modify the delegate of the data view that provides data for the tab. The data view that provides data for the tab is `itemsiterecords` that is defined in the business logic controller of the form. The business logic controller of the form is the InventoryItemMaint class. Do the following:
 
@@ -19,7 +18,6 @@ To resolve this task, you have to modify the logic that retrieves the records to
 
     The Code Editor opens for customization of the business logic code of the form \(see the screenshot below\). The system generates the BLC extension class in which you can develop the customization code. \(See [Graph Extensions](CG_Platform_TO_Code_CS_GraphExtensions.md) for details.\)
 
-    ![](images/CustomizeDataView2.png "The BLC extension class generated for customization of the business logic code executed for the Stock Items form")
 
     To resolve the customization task, you have to redefine the `itemsiterecords` data view and implement the needed logic in the `itemSiteRecords()` data view delegate.
 

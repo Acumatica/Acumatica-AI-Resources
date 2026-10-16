@@ -1,4 +1,4 @@
-# Value-Added Taxes: Pending VAT {#_07f0d8c8-abd4-4313-a225-bbd26764da0c .concept}
+# Value-Added Taxes: Pending VAT
 
 A *pending VAT* \(sometimes called a *suspended VAT*\) is applied to the documents whose tax amounts should be recognized later than the documents were released. Once a document subject to the pending VAT is released, the system records its tax amount to an intermediate account \(such as the Pending Tax Payable account or the Pending Tax Claimable account\), where the tax amount is kept until you initiate the process of recognizing the taxes. Suspended tax information is not included into the tax report until the taxes are recognized.
 
@@ -9,7 +9,7 @@ In Acumatica ERP, you can configure the tax agency so that pending VATs will be 
 
 By the recognition process, the system moves the tax amounts from the pending account to the actual Tax Payable or Tax Claimable account, and includes the tax information in the tax report prepared for the corresponding period. You initiate the tax recognition process by using the [Recognize Input VAT](../UserGuide/TX_50_35_00.md) \(TX503500\) form or the [Recognize Output VAT](../UserGuide/TX_50_30_00.md) \(TX503000\) form.
 
-## System Settings for Pending VAT { .section}
+## System Settings for Pending VAT
 
 To configure a pending VAT, on the [Taxes](../UserGuide/TX_20_50_00.md) \(TX205000\) form, you select *VAT* in the **Tax Type** box and select the **Pending VAT** check box.
 

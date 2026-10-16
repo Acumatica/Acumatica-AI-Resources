@@ -1,6 +1,6 @@
 {
   "name": "dev-toolkit",
-  "version": "1.2.0",
+  "version": "1.3.2",
   "description": "Skills and artifacts for Acumatica ERP developers",
   "author": {
     "name": "Acumatica"
@@ -19,13 +19,16 @@
     "modern-ui",
     "aurelia",
     "typescript",
-    "custom-controls"
+    "custom-controls",
+    "classic-to-modern",
+    "wiki",
+    "help"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Developer Toolkit",
-    "shortDescription": "Update Acumatica customizations, integrations, and Modern UI.",
-    "longDescription": "Update, validate, and publish Acumatica ERP customization projects, modernize integrations, and build or troubleshoot Modern UI controls.",
+    "shortDescription": "Acumatica customization, integration, Modern UI, and Wiki skills.",
+    "longDescription": "Update, validate, and publish Acumatica ERP customization projects, modernize integrations, build Modern UI controls, convert Classic screens, and author built-in Wiki articles and contextual Help.",
     "developerName": "Acumatica",
     "category": "Developer Tools",
     "capabilities": [
@@ -35,7 +38,9 @@
     "defaultPrompt": [
       "Upgrade and publish this Acumatica customization project.",
       "Modernize and validate an Acumatica integration.",
-      "Build an Acumatica Modern UI custom control."
+      "Build an Acumatica Modern UI custom control.",
+      "Convert an Acumatica Classic screen to Modern UI.",
+      "Create or update Acumatica Wiki articles and contextual Help."
     ]
   }
 }

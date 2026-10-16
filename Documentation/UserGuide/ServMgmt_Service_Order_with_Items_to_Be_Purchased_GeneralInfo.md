@@ -1,4 +1,4 @@
-# Service Orders with Items to Be Purchased: General Information {#_21bef0ef-46d5-491b-a527-51ffc47d4e96 .concept}
+# Service Orders with Items to Be Purchased: General Information
 
 A purchase order can be created from a service order when the required stock items are not available in any of your company’s warehouses, or when certain services or non-stock items are provided by a vendor.
 
@@ -6,7 +6,7 @@ This topic describes the steps involved in processing a service order together w
 
 **Tip:** In this topic, we focus on the purchasing of stock items for a service order. However, the same process applies when purchasing services or non-stock items from a vendor to include in a service order, for example, when a vendor provides specialized labor or materials at their own location.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -14,25 +14,24 @@ In this chapter, you will learn how to do the following:
 -   Create a purchase order for an item in a service order
 -   Process a purchase order linked to a service order
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create a service order and then generate a purchase order from it when your company needs to use stock items during an appointment but must first purchase those items from a vendor because they are not available in any warehouse.
 
-## Process Diagram { .section}
+## Process Diagram
 
 In the diagram below, you can see the entire workflow of processing a service order and the related purchase order. The sections below describe the steps of this workflow in more detail.
 
 **Tip:** Processes and job titles may be different in your company.
 
-![](Images/diag_ServMgmt_Service_Order_with_PO.png "Purchase order processing along with service order processing")
 
-## Creating a Service Order { .section}
+## Creating a Service Order
 
 When a service manager receives a customer request for services, the manager creates a service order with the *Open* status on the [Service Orders](FS_30_01_00.md) \(FS300100\) form. In the service order, the manager specifies details such as the customer who submitted the request, the branch and branch location, the services to be performed, and any stock items that need to be purchased for the job.
 
 As part of this step, the service manager checks the availability of the required stock items in the warehouse by selecting the warehouse and an inventory item in the corresponding columns on the **Details** tab. For any items not available in the warehouse, the manager selects the check box in the **Mark for PO** column. When at least one item is marked for purchase, the system automatically selects the **Waiting for Purchased Items** check box in the Summary area of the form, indicating that the service order includes items to be received.
 
-## Creating Purchase Orders { .section}
+## Creating Purchase Orders
 
 After confirming that all necessary items are marked for purchase from the appropriate vendors, the service manager clicks **Create Purchase Orders** on the More menu of the [Service Orders](FS_30_01_00.md) \(FS300100\) form. This actions opens the [Create Purchase Orders](PO_50_50_00.md) \(PO505000\) form, where the manager reviews the vendors and vendor locations for the items and creates the required purchase orders.
 
@@ -40,7 +39,7 @@ The system creates purchase orders of the *Normal* type with the *On Hold* statu
 
 **Tip:** The system creates one purchase order for all items associated with the same vendor and vendor location, and separate purchase orders for items with different vendors or locations.
 
-## Processing Purchase Orders { .section}
+## Processing Purchase Orders
 
 On the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form, the purchase manager processes the purchase orders, as described in [Purchases of Stock Items: General Information](OrderMgmt_Standard_Inventory_Purchase_GeneralInfo.md). The system assigns the *Open* status to each purchase order.
 
@@ -50,7 +49,7 @@ When the purchased stock items are received, the receiving clerk creates and pro
 
 The system also creates a bill with the *On Hold* status. An accountant now can process the bills related to the purchase orders on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 
-## Creating Service Appointments { .section}
+## Creating Service Appointments
 
 After the purchase order has been processed, the service manager schedules the necessary appointments to perform the customer’s requested services.
 

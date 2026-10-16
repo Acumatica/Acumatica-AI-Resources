@@ -1,10 +1,10 @@
-# AR Invoices with Retainage: General Information {#_215da004-edc1-49a5-ad9c-2e8d355c0004 .concept}
+# AR Invoices with Retainage: General Information
 
 A customer may retain a part of the amount of an invoice until your company has finished performing the work that is being billed. In this case, to process the total amount of the invoice, at least two invoices are created in Acumatica ERP: the invoice for which part of the amount is retained, and the retainage invoice, which contains the retained amount to be paid.
 
 The invoice with retainage is paid during the period of time agreed upon between your company and the customer. The retainage invoice contains the retained amount \(or a part of the retained amount\) to be paid; a retainage invoice is paid after the contractual work has been finished. Multiple retainage invoices can be created for one invoice with retainage.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -13,11 +13,11 @@ In this chapter, you will learn how to do the following:
 -   Process a retainage invoice
 -   Apply payments to AR invoices with retainage
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You process an invoice with retainage when the customer has withheld a part of the invoice amount until the work is substantially complete to assure that your company will satisfy its obligations and complete the project.
 
-## The Processing Workflow of an Invoice with Retainage { .section}
+## The Processing Workflow of an Invoice with Retainage
 
 Typically, an AR invoice with retainage goes through the following general steps during its life cycle:
 

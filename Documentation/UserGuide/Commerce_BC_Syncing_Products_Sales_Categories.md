@@ -1,4 +1,4 @@
-# Product Synchronization: Sales Categories {#_1821ca8f-0e21-4938-8564-99cc072f9557 .concept}
+# Product Synchronization: Sales Categories
 
 Items' sales categories are exported during the synchronization of the *Sales Category* entity. To synchronize the *Sales Category* entity with a BigCommerce store, it should be activated for the store on the **Entities** tab of the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form.
 

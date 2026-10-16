@@ -1,4 +1,4 @@
-# Troubleshooting Fixed Assets {#_604e4687-18ac-41ee-a242-40f0d89b524f .concept}
+# Troubleshooting Fixed Assets
 
 In this chapter, you will find general information on how to troubleshoot issues with fixed assets, a checklist for system implementation, an activity that describes how to change the useful life of an asset.
 

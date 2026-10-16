@@ -1,8 +1,8 @@
-# Barcode Scan Commands: General Information {#_0bf90006-ca50-40c5-8219-c19d98d57e65 .concept}
+# Barcode Scan Commands: General Information
 
 A barcode scan command is a piece of logic that can be executed in any scan state either by clicking a button associated with this command in the UI, or by scanning a fixed barcode associated with it. For example, this logic can change the current state of the barcode-driven engine or start a long-running process.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,7 +10,7 @@ In this chapter, you will learn how to do the following:
 -   Implement a custom barcode scan command
 -   Add to a scan mode the logic that handles an input of the quantity
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You define scan commands in the following cases:
 
@@ -18,7 +18,7 @@ You define scan commands in the following cases:
 -   You have added a new scan mode on an existing barcode-driven form and need to implement the set of scan commands of this mode.
 -   You have created a scan mode on a custom form and need to add to this scan mode the command for the input of the quantity
 
-## Scan Command Component { .section}
+## Scan Command Component
 
 The logic of a scan command is implemented in the ScanCommand component. You use `ScanCommand<TScanBasis>` to bind custom logic to a particular barcode command.
 
@@ -26,9 +26,8 @@ All commands produce a related `PXAction`. Therefore, the command can be execute
 
 The following diagram shows the classes and interfaces that are related to the scan command component. For details about the properties and methods of these classes and interfaces, see [ScanCommand&lt;TScanBasis&gt; Class](https://help.acumatica.com/(W(9))/Help?ScreenId=ShowWiki&pageid=2661025c-aa5a-7126-6553-fff43d52c32f).
 
-![](Images/diag_WMSEngine_ScanCommand.png "Scan command classes and interfaces")
 
-## Implementation of a Scan Command { .section}
+## Implementation of a Scan Command
 
 You create particular instances of this class in the `ScanMode<TScanBasis>.CreateCommands()` method.
 

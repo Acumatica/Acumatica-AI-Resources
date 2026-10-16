@@ -1,8 +1,8 @@
-# Expense Claims: Expense Claims in Different Currencies {#_17a653aa-668e-4964-ba3a-344c52fce9fe .concept}
+# Expense Claims: Expense Claims in Different Currencies
 
 If your company's employees incur expenses in different currencies, they can create expense receipts or expense claims in currencies other than the base currency if the *Multicurrency Accounting* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Prerequisite Settings { .section}
+## Prerequisite Settings
 
 A non-base currency can be used in expense receipts and expense claims if the **Active** check box is selected for that currency on the [Currencies](CM_20_20_00.md) \(CM202000\) form.
 
@@ -17,7 +17,7 @@ By selecting the following check boxes on the [Employees](EP_20_30_00.md) \(EP20
 
 However, an expense receipt can be created in any currency, regardless of the state of the **Enable Currency Override** check box.
 
-## An Expense Claim in the Base Currency { .section}
+## An Expense Claim in the Base Currency
 
 On the [Expense Claim](EP_30_10_00.md) \(EP301000\) form, the expense claim’s currency is specified in the Summary area.
 
@@ -29,13 +29,11 @@ On the **Details** tab of the [Expense Claim](EP_30_10_00.md) form, you can view
 -   **Claim Amount**. The amount in the receipt currency \(see below\).
 -   **Amount in Claim Curr.**. The amount in the claim currency \(also shown below\). The system automatically calculates this amount based on the exchange rate for the expense receipt's currency.
 
-![](Images/TE_Expense_Receipts_Different_Currencies.png "The amount of receipts in different currencies")
 
 When you release the expense claim, the system creates an AP document \(such as bill, debit adjustment, or cash purchase\) in the currency of the expense claim. The AP document lines on the **Details** tab—which represent the expense receipts—are also displayed in the currency of the AP document, as shown below.
 
-![](Images/TE_Expense_Receipts_Different_Currencies_Bill.png "The AP bill in the currency of the expense claim")
 
-## An Expense Claim in a Non-Base Currency { .section}
+## An Expense Claim in a Non-Base Currency
 
 If the employee's default currency differs from the company's base currency or an employee can override the currency, the expense claim can be created in a non-base currency. You can use the Currency Toggle button in the Summary area to view the expense claim either in the base currency or in another currency selected in the **Currency** box.
 
@@ -43,13 +41,11 @@ If the employee's default currency differs from the company's base currency or a
 
 The expense claim can include expense receipts created either in the same currency as the claim or in a different currency \(see below\).
 
-![](Images/TE_Expense_Claim_Different_Currency.png "The expense claim with receipts in multiple currencies")
 
 If you add a new line on the **Details** tab for an expense receipt, the currency in the line will be the same as the currency of the expense claim.
 
 When you release the expense claim, the system creates an AP bill in the currency of the expense claim. If the currency of the expense receipts included in the expanse claim differs from the claim currency, the amounts in the AP document lines are converted based on the exchange rate of the AP document currency \(see below\).
 
-![](Images/TE_Expense_Claim_Different_Currency_Bill.png "The currency and amount of the AP bill")
 
 **Parent topic:**[Processing Expense Claims](../UserGuide/TimeExpenses_Process_Expense_Claims_Mapref.md)
 

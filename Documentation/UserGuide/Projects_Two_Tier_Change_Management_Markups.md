@@ -1,4 +1,4 @@
-# Change Requests: Configuration of Markups {#_9c4c3432-b12a-132c-b9f2-46d728aff234 .concept}
+# Change Requests: Configuration of Markups
 
 You can configure markups to charge the customer with each created change request.
 
@@ -9,7 +9,7 @@ The following types of markup can be applied to a change request on the [Change 
 
 You can override all markups and delete document-level markups at the change request level.
 
-## Line-Level Markups { .section}
+## Line-Level Markups
 
 A price markup is an item-specific markup. When you select an inventory item in an estimation line on the **Estimation** tab of the [Change Requests](PM_30_85_00.md) \(PM308500\) form, the markup percent specified for the item is retrieved as the **Price Markup \(%\)** value. You can specify the price markup for the item on the **Price/Cost** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form or on the **Price/Cost** tab of the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form.
 
@@ -25,13 +25,13 @@ The line amount of an estimation line considers the line-level markups and is ca
 
 `Line Amount = Ext. Price + Ext. Price * Line Markup (%) / 100`
 
-## Document-Level Markups { .section}
+## Document-Level Markups
 
 On the **Markups** tab of the [Change Requests](PM_30_85_00.md) \(PM308500\) form, for a change request, you can define any number of document-level markups of the following types as well as define no markups:
 
 -   *%*: A markup whose amount is calculated as follows:
 
-    `Markup Amount = Line Total * % Markup Value / 100`
+    `Markup Amount = Amount Subject to Markup * % Markup Value / 100`
 
     You can define as many markups of this type as necessary.
 
@@ -46,9 +46,13 @@ On the **Markups** tab of the [Change Requests](PM_30_85_00.md) \(PM308500\) for
     You can define as many markups of this type as necessary.
 
 
-For each applicable markup shown on the **Markups** tab, the **Amount Subject to Markup** is calculated based on the **Line Amount** values in the estimation lines of the change request. A document-level markup applies to the total line amount of a change request if all the project budget key attributes in this line—project task, account group, and optionally, inventory item and cost code—are defined for the markup on the **Markups** tab of the [Change Requests](PM_30_85_00.md) form.
+For a markup of the *%* or *Flat Fee* type, shown on the **Markups** tab, the **Amount Subject to Markup** is calculated based on the **Line Amount** values in the estimation lines of the change request. If a line amount includes tax, the inclusive tax amount is deducted. For a markup of the *Cumulative \(%\)* type, the **Amount Subject to Markup** is the sum of the previously applied *%* markup amounts.
+
+A document-level markup applies to the total line amount of a change request if all the project budget key attributes in this line—project task, account group, and optionally, inventory item and cost code—are defined for the markup on the **Markups** tab of the [Change Requests](PM_30_85_00.md) form.
 
 A change request inherits the default document-level markup specified for the project on the **Defaults** tab \(**Document Markups** table\) of the [Projects](PM_30_10_00.md) \(PM301000\) form. The project inherits the default document markups from the **General** tab \(**Markup** section\) of the [Projects Preferences](PM_10_10_00.md) \(PM101000\) form. You can override any of the default markups.
+
+For each document-level markup, the **Tax Category** is inserted from the selected inventory item or, if the item has no tax category, from the selected project task. If neither has a tax category, you can select the tax category manually. This tax category is used to calculate tax on the markup amount.
 
 **Parent topic:**[Processing Change Requests](../UserGuide/Projects_Two_Tier_Change_Management_Mapref.md)
 

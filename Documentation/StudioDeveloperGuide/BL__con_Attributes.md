@@ -1,4 +1,4 @@
-# Code Reuse Through Attributes {#_4724097c-0097-40d2-bb80-98b62cf3a7dc .concept}
+# Code Reuse Through Attributes
 
 The following code implements the logic of updating a receipt total when a document transaction is updated in the system.
 

@@ -1,10 +1,10 @@
-# Applying AR Payments to Particular Lines: General Information {#_a294c829-bed7-4976-ac5d-3307503af1a8 .concept}
+# Applying AR Payments to Particular Lines: General Information
 
 Some industries track the expenses and cash flows of particular projects with a high degree of granularity. Project expenses are recorded in the lines of an invoice, with each line corresponding to a specific combination of a project, project task, and cost code \(if applicable\). In Acumatica ERP, you can create an AR payment that pays particular lines \(or one line\) of any number of AR invoices.
 
 You can use this functionality if the *Payment Application by Line* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,11 +12,11 @@ In this chapter, you will learn how to do the following:
 -   Process an AR invoice that can be paid by line
 -   Enter a payment for particular lines of the AR invoice
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create AR documents that can be paid by line if you want the ability to see which lines of a particular invoice were covered by a partial payment or to pay invoices in that way.
 
-## Configuration of Payment by Line { .section}
+## Configuration of Payment by Line
 
 For it to be possible to apply payments to individual lines, the needed configuration steps must be performed in Acumatica ERP as follows:
 
@@ -31,7 +31,7 @@ For it to be possible to apply payments to individual lines, the needed configur
 
 You can turn on the ability to pay documents by line for any customer class and any customer both during initial configuration and at any time thereafter. You can also turn off this capability for any class or customer, if needed.
 
-## Entry of Documents That Can be Paid by Line {#section_v5q_4jv_vxb .section}
+## Entry of Documents That Can be Paid by Line
 
 When you are entering an AR document \(invoice or credit memo\) that can be paid by line, you either select a customer for which the **Pay by Line** check box is selected or you select the **Pay by Line** check box for the document in the Summary area of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 
@@ -53,7 +53,7 @@ If you reverse applications of the positive credit memo lines, they will be proc
 
 You can also void payments and refunds applied to credit memo lines with the negative sign.
 
-## Entry of Lines with a Negative Extended Price {#_df65bff1-b5de-4e1d-97ee-e328a9001101 .section}
+## Entry of Lines with a Negative Extended Price
 
 Invoices paid by line can have lines with a negative extended price. You create these invoice lines if you want to correct previously billed amounts in the scope of the next billing without having to create a credit memo. \(If there will be no subsequent billing and you want to decrease the billed amount, you can create a credit memo.\) For invoices with retainage, the retainage amounts and taxable invoice lines will be calculated by the system based on the value specified in the **Ext. Price** column on the **Details** tab of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 
@@ -61,7 +61,7 @@ When retainage is released for all lines of the original invoice, including nega
 
 The system supports cash discounts for AR invoices that have lines with negative amounts.
 
-## Application of Payments to Negative Document Lines {#_bd1ecf27-2cab-40df-a9ed-74a591593556 .section}
+## Application of Payments to Negative Document Lines
 
 The system processes negative amounts in invoice lines in the same way as it processes lines of credit memos.
 
@@ -77,7 +77,7 @@ Documents that can be paid by line cannot have a document balance that is less t
 
 You cannot pay only Line 2 and Line 3 with a total balance of *700*, because in this case the document balance will become negative. Also, you cannot pay Line 1 separately, because in this case the document balance will become *700*, which is greater than its amount \($600\).
 
-## Overview of Payment by Line {#section_ovq_4jv_vxb .section}
+## Overview of Payment by Line
 
 When you create a payment for particular lines of an AR invoice, the process unfolds as follows:
 

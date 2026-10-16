@@ -1,12 +1,12 @@
-# Replacing Target Equipment: General Information {#_6eb4372a-e69a-42eb-a94d-6ebfd47342c8 .concept}
+# Replacing Target Equipment: General Information
 
 With Acumatica ERP, you can efficiently manage customer requests for replacing old target equipment with new models and performing the associated services.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this lesson, you will learn how to replace target equipment.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You process the replacement of target equipment in the following scenarios:
 
@@ -15,11 +15,10 @@ You process the replacement of target equipment in the following scenarios:
 
 In these situations, the service manager schedules an appointment, coordinates service actions, and collaborates with accounting to prepare and process billing documents for the customer.
 
-## Workflow of Target Equipment Replacement {#section_src_cwj_jdc .section}
+## Workflow of Target Equipment Replacement
 
 In the following diagram, you can see the complete process of replacing target equipment.
 
-![](Images/diag_EquipMgmt_Replacement_of_Target_Equipment.png "Replacement of target equipment")
 
 When a customer request is received, a service manager enters a service order by using the [Service Orders](FS_30_01_00.md) \(FS300100\) form. In the service order, the service manager specifies the customer from which the request has been received, the branch and branch location to provide services, and the services that should be performed.
 

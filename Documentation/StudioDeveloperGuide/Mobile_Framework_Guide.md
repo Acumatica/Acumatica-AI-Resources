@@ -1,4 +1,4 @@
-# Working with the Mobile Framework {#_5dacbf34-ac82-41b4-b498-839c173f587c .concept}
+# Working with the Mobile Framework
 
 By using Acumatica Mobile Framework, you can access and use Acumatica ERP through a mobile device wherever you are.
 
@@ -15,7 +15,6 @@ The framework contains the following components \(see the diagram below\):
 -   The native mobile client application that Acumatica provides for Android devices
 -   The Mobile API, which is a part of the Acumatica Framework API
 
-![](Images/Mobile_architecture_new.png "Acumatica Mobile Framework architecture")
 
 An Acumatica mobile client application uses the Mobile API to access the data of the forms that are mapped for mobile apps in the Acumatica ERP instance. The metadata of the mobile site map is used to configure the user interface of the mobile client application. You can expose any form of Acumatica ERP on your mobile device if the mobile site map includes the metadata for the form.
 

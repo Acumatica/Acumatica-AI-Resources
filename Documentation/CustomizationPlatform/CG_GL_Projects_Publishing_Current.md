@@ -1,4 +1,4 @@
-# To Publish the Current Project {#_4c750ed2-7741-47f6-9d54-136f7dc7198a .task}
+# To Publish the Current Project
 
 If you create a customization project in the [Customization Project Editor](../UserGuide/SM_20_45_10.md), the best way to publish a customization project that is under development is to use the **Publish Current Project** menu command provided by the editor. This publication does not influence the publication of other customization projects that exist in the application instance.
 

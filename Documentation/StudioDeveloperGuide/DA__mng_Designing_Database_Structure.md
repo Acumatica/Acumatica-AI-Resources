@@ -1,4 +1,4 @@
-# Designing the Database Structure and DACs {#_5659adfe-3e4a-45a6-a94a-a33c2f955194 .concept}
+# Designing the Database Structure and DACs
 
 This chapter covers the main aspects of database design used in Acumatica Framework.
 

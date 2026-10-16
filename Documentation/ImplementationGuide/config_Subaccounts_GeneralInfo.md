@@ -1,10 +1,10 @@
-# Subaccounts: General Information {#_0506cdb6-617d-414e-89fc-73f662ded3ab .concept}
+# Subaccounts: General Information
 
 In Acumatica ERP, you can use subaccounts in addition to accounts to record your financial data. You use subaccounts to virtually split accounts into smaller, more specific accounts to achieve finer classification for reporting and internal management purposes. Before you begin to use subaccounts, the system has to be properly configured.
 
 **Tip:** In a production system, we recommend that subaccounts be configured very early in the setup of Acumatica ERP, when you configure other general ledger settings, including the chart of accounts.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,11 +12,11 @@ In this chapter, you will learn how to do the following:
 -   Modify the predefined *SUBACCOUNT* segmented key
 -   Specify values for subaccount segments
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure subaccounts in the system when you need to provide more detailed breakdowns of data in reports. For example, if the company wants to report expenses by department and report revenue by sales region, you might configure subaccounts with at least two segments \(one for the department and another for the sales region\).
 
-## Implementation Workflow {#_5ffd7bb4-b7ad-4246-8085-6983f76e9927 .section}
+## Implementation Workflow
 
 To configure subaccounts in the system, you do the following:
 
@@ -27,7 +27,7 @@ To configure subaccounts in the system, you do the following:
 
 After you have performed these actions, users can start recording transactions to account–subaccount pairs. That is, users need to select both the appropriate account and the needed subaccount as they enter data.
 
-## Configuration of Subaccount Identifiers { .section}
+## Configuration of Subaccount Identifiers
 
 Acumatica ERP provides the predefined *SUBACCOUNT* segmented key, which determines the structure of subaccount identifiers and which you can view and edit on the [Segmented Keys](../UserGuide/CS_20_20_00.md) \(CS202000\) form. You can modify this segmented key so that the structure of subaccount identifiers meets your company’s business needs.
 
@@ -39,7 +39,7 @@ You use the table on the [Segmented Keys](../UserGuide/CS_20_20_00.md) form to c
 
 **Tip:** If you use allocation rules in your system, after allocations have been created, it is possible to change the structure of the *SUBACCOUNT* segmented key on the [Segmented Keys](../UserGuide/CS_20_20_00.md) form when no segment values have been entered yet. In this case, you need to manually update allocation rules on the [Allocations](../UserGuide/GL_20_45_00.md) form. For details, see [Allocation Rules: Allocation Between the Same Accounts and Subaccounts](config_Allocation_Rules_Reallocation_Between_Same_Subaccounts.md).
 
-## Validation of Entered Subaccounts { .section}
+## Validation of Entered Subaccounts
 
 The validation of subaccounts during data entry is controlled by the option selected in the **Lookup Mode** box in the Summary area of the [Segmented Keys](../UserGuide/CS_20_20_00.md) \(CS202000\) form for the *SUBACCOUNT* segmented key. Depending on whether you want to turn on validation, you do one of the following:
 

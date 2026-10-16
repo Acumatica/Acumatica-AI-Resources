@@ -1,8 +1,8 @@
-# User Roles: Calculation of the Restriction Level for a User {#_5b4ebfa6-7bb0-43be-a191-83843e9f808d .concept}
+# User Roles: Calculation of the Restriction Level for a User
 
 In this topic, you will learn how the system calculates a restriction level to a system object for a user with multiple roles assigned.
 
-## Calculation of the Restriction Level to Forms {#_2708bbea-95b1-4a47-8cc5-3bbcb3dc961f .section}
+## Calculation of the Restriction Level to Forms
 
 If a user has multiple roles assigned and the roles have different restriction levels to a system object, the following general rule is used: Acumatica ERP applies the most permissive level among the roles.
 
@@ -13,7 +13,7 @@ For example, suppose that a user is assigned the *Employee* and *Sales Manager* 
 |*Employee*|*Revoked*|*Granted*|
 |*Sales Manager*|*Granted*|
 
-## Calculation of the Restriction Level to a Form’s Nested Objects with the Inherited Level { .section}
+## Calculation of the Restriction Level to a Form’s Nested Objects with the Inherited Level
 
 If a user has multiple roles assigned and the roles have the *Inherited* restriction level to a particular container or form element, the resulting level is the most permissive level of the system object at a higher level for which a restriction level is specified explicitly—the form \(for a container\) or the form element container \(for a form element\).
 
@@ -24,7 +24,7 @@ Suppose that a user is assigned the *Employee* and the *Accountant* user roles. 
 |*Employee*|*Revoked*|*Inherited*|*Edit*|
 |*Accountant*|*Edit*|*Inherited*|
 
-## Calculation of the Restriction Level to a Form’s Nested Objects with a Specified Level { .section}
+## Calculation of the Restriction Level to a Form’s Nested Objects with a Specified Level
 
 If a user has multiple roles assigned and you have explicitly specified a restriction level to a particular form element container or form element for at least one role \(while the other roles have the *Inherited* level to this system object\), then the resulting level of access rights is the most permissive among the roles with explicitly defined restriction levels. \(In making this determination, the system ignores the levels of the roles with the *Inherited* level of access rights.\) This algorithm is used to optimize the speed of loading the form.
 

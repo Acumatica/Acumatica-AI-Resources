@@ -1,4 +1,4 @@
-# Consolidated Reports for Companies with Different Calendars {#_3e2c3941-c8a6-445e-8253-cf18097beb2e .concept}
+# Consolidated Reports for Companies with Different Calendars
 
 You may want to run consolidated reports and inquiries for related companies to receive a combined report on the financial condition of a group of companies. When you are running consolidated reports and inquiries for companies that use different financial calendars, the data in these reports and inquiries is consolidated based on either the financial period number or the end date of the financial period. These approaches are described in the following sections.
 
@@ -31,19 +31,17 @@ On the following reports and inquiries form, the **Use Master Calendar** check b
 -   [Customer Summary](AR_40_10_00.md) \(AR401000\)
 -   [Deferral Transaction Summary](DR_40_20_00.md) \(DR402000\)
 
-## By Period Number {#section_u1j_mjv_vxb .section}
+## By Period Number
 
 With this approach, the data in the reports and inquiries is consolidated based on the financial period number. To use this approach, on the appropriate report or inquiry form, you clear the **Use Master Calendar** check box on the **Report Parameters** tab or in the Selection area, respectively.
 
 Suppose that you are running a consolidated report for two companies: Company A, with a financial year starting on January 1, 2018 \(*01-2018*\) and ending on December 31, 2018 \(*12-2018*\); and Company B, with a financial year starting on March 1, 2018 \(*01-2018*\) and ending on February 28, 2019 \(*12-2018*\). The following diagram shows an example of a consolidated balance sheet for both companies for the 2018 financial year when you use the By Period Number approach.
 
-![](Images/GL_ConsolidatedReports_By_Period_Number.png "Consolidated Balance Sheet by period number")
 
-## By Period End Date {#section_x1j_mjv_vxb .section}
+## By Period End Date
 
 With this approach, the data in the reports and inquiries is based on the end date of the selected financial period of the master calendar. To use this approach, on the appropriate report or inquiry form, you select the **Use Master Calendar** check box on the **Report Parameters** tab or in the Selection area, respectively.
 
 For example, you are running consolidated reports for Company A and B \(using the assumptions presented in the previous section\) and the financial year in the master calendar starts on January 1, 2018 and ends on December 31, 2018. You specify a financial period of the master calendar, and the system will use the data as of the end date of the specified period for both companies. The following diagram shows an example of a consolidated balance sheet for both companies as of December 31, 2018 which is the end date of the 2018 financial year in the master calendar when you use the By Period End Date approach.
 
-![](Images/GL_ConsolidatedReports_By_Period_End_Date.png "Consolidated Balance Sheet by period end date")
 

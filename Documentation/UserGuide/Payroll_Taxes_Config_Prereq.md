@@ -1,12 +1,12 @@
-# Taxes: Configuration Prerequisites {#_53fbd8db-cc88-4f07-a494-d7b183b967b9 .concept}
+# Taxes: Configuration Prerequisites
 
 Before you start setting up taxes, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Payroll* feature has been enabled.
 
-## Configuring the System { .section}
+## Configuring the System
 
 The following tasks have been performed in Acumatica ERP:
 

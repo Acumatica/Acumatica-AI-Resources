@@ -1,14 +1,14 @@
-# Non-Default Asset Settings: Process Activity {#_e2249278-d864-49e2-9ba6-2c17b921ca6c .task}
+# Non-Default Asset Settings: Process Activity
 
 The following activity will walk you through the process of changing the default settings of a fixed asset when you are creating the fixed asset.
 
-## Story {#section_wgd_ljv_vxb .section}
+## Story
 
 Suppose that on March 12, 2026, SweetLife Fruits &amp; Jams purchased materials to use them for repairs in the office building. In March, the Frontsource Ltd. company repaired the roof by using part of the purchased materials; the company also installed downspouts. SweetLife paid for this work on March 30, 2026. The accountants have decided to capitalize the roof repair expense—that is, to create a fixed asset of the *BUILDING* class and depreciate it for five years.
 
 Acting as a SweetLife accountant, you need to create a fixed asset for the roof repair, with some settings that differ from those that the system copies from the *BUILDING* fixed asset class.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -17,11 +17,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *FRONTSRC* vendor has been created.
 -   On the [Fixed Assets Preferences](FA_10_10_00.md) \(FA101000\) form, the **Automatically Release Acquisition Transactions** check box has been selected.
 
-## Process Overview {#section_ahd_ljv_vxb .section}
+## Process Overview
 
 In this activity, on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you will create two AP bills: one for repair materials, and one for work. You will then release the bills on the [Release AP Documents](AP_50_10_00.md) \(AP501000\) form. On the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form, you will create a fixed asset and change a default setting that has been copied from the asset class. Finally, on the same form, you will reconcile the fixed asset with the purchasing transaction.
 
-## System Preparation {#section_chd_ljv_vxb .section}
+## System Preparation
 
 Before you begin creating a fixed asset, do the following:
 
@@ -31,7 +31,7 @@ Before you begin creating a fixed asset, do the following:
 4.  Be sure that you have created a purchasing transaction for the building by performing the [Fixed Asset Creation: To Create and Reconcile an Asset](FixedAssets_Adding_Fixed_Asset_To_Create_Fixed_Asset.md) prerequisite activity.
 5.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step 1: Creating Purchasing Transactions {#section_ehd_ljv_vxb .section}
+## Step 1: Creating Purchasing Transactions
 
 To create the purchasing transactions \(that is, the needed AP bills\), do the following:
 
@@ -69,7 +69,7 @@ To create the purchasing transactions \(that is, the needed AP bills\), do the f
 10. Open the [Release AP Documents](AP_50_10_00.md) \(AP501000\) form and select the unlabeled check boxes in the rows of the $6,750 bill for *FRONTSRC* and the $5,800 bill for *CSEMBLY*.
 11. On the form toolbar, click **Release** to release the two AP bills and create purchasing transactions.
 
-## Step 2: Entering and Reconciling a Fixed Asset {#section_ghd_ljv_vxb .section}
+## Step 2: Entering and Reconciling a Fixed Asset
 
 To create a fixed asset record for roof repair and reconcile the fixed asset, do the following:
 
@@ -103,7 +103,6 @@ To create a fixed asset record for roof repair and reconcile the fixed asset, do
 
     With the *Reconciliation+* transaction, the system updates the FA Accrual account and the account debited by the fixed asset purchase to reconcile the asset's cost with the corresponding GL transactions. For the $4,400 and $1,400 transactions, these accounts are the same, so these transactions are combined into one $5,800 transaction. For the $2,200 transaction, the system debits the *15010* account and credits the *62950* account to link the existing roof repair asset with the purchasing transaction.
 
-    ![](Images/activity_FA_Default_Settings_Transactions_tab.png "Reconciliation transactions")
 
 17. On the **Reconciliation** tab, review the **Unreconciled Amount**. Now it is equal to *0.00*, indicating that the asset has been reconciled.
 

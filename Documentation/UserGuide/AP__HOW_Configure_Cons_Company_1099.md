@@ -1,12 +1,12 @@
-# To Modify a Company's Configuration for 1099 Reports {#_796373f0-887c-43bf-bcb4-4a0a433d4853 .task}
+# To Modify a Company's Configuration for 1099 Reports
 
 To be able to generate the [1099-MISC Form](AP_65_30_00.md) \(AP653000\) report and any other 1099 reports, you should modify the configuration of the company that you will select as a report parameter for all required 1099 reports.
 
-## Before You Proceed {#section_omp_njv_vxb .section}
+## Before You Proceed
 
 Make sure that the *1099 Reporting* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## To Modify a Company's Configuration for 1099 Reports {#section_qmp_njv_vxb .section}
+## To Modify a Company's Configuration for 1099 Reports
 
 1.  Open the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form by searching for or navigating to it.
 2.  On the **1099 Settings** tab, review the tax boxes, and specify minimum report amounts for the applicable boxes in the **Minimum Report Amount** column and the associated accounts in the **Account** column.

@@ -1,4 +1,4 @@
-# Menu: Configuration of the Menu Control {#_0b75608b-9781-4fde-9903-a348983b26ef .concept}
+# Menu: Configuration of the Menu Control
 
 The configuration of the qp-menu control is stored in the config: IMenuControlConfig property and includes these properties:
 
@@ -11,7 +11,7 @@ To configure the qp-menu control, you perform these general steps, described in 
 1.  In TypeScript, define the configuration. You can do this either statically in a property of the IMenuControlConfig type or in a method if the set of options depends on some logic.
 2.  In the HTML template, specify the property or the method in the config.bind property of the qp-menu control.
 
-## Defining the Configuration Statically {#section_bsr_lwz_mgc .section}
+## Defining the Configuration Statically
 
 To define a static set of options:
 
@@ -28,7 +28,7 @@ To define a static set of options:
 
 The following example shows a configuration definition.
 
-``` {#codeblock_ccx_n22_ngc}
+```
 @observable	extensionsMenuConfig:IMenuControlConfig = {
 	id: "addSnippetActionsMenu",
 	text: Names.AddCodeSnippet,
@@ -65,14 +65,14 @@ After you’ve defined the configuration, you can bind it to the config property
   config.bind="extensionsMenuConfig" ...></qp-menu>
 ```
 
-## Defining the Configuration Dynamically {#section_v3f_mwz_mgc .section}
+## Defining the Configuration Dynamically
 
 If the set of options depends on a condition or other logic, you can define the configuration and populate the option array in a method. To define the configuration method:
 
 1.  In the screen class, declare a method.
 2.  In the method, define the option array and populate it with objects of the IMenuItem type by using the push method, as shown in the following example.
 
-    ``` {#codeblock_gkz_hq2_ngc}
+    ```
     getCustomizationTreeNodeMenuConfig() {
       const options = [];
       options.push({ 
@@ -89,7 +89,7 @@ If the set of options depends on a condition or other logic, you can define the 
 
 The following example shows a configuration method.
 
-``` {#codeblock_lmb_5q2_ngc}
+```
 getCustomizationTreeNodeMenuConfig(field: ICustomizationFieldListItem) {
   const options = [];
   if (field.deletable) {

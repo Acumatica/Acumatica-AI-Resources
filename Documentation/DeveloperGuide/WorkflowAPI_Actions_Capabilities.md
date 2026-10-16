@@ -1,4 +1,4 @@
-# Workflow Actions: Configuration of Actions {#_359ff4ec-5a62-4437-bb1d-5cb471bd7bc9 .concept}
+# Workflow Actions: Configuration of Actions
 
 You can configure workflow actions in the following ways:
 
@@ -22,7 +22,7 @@ You can configure workflow actions in the following ways:
 -   Map an action to the Acumatica mobile app.
 -   Display an action on a side panel by calling the IsSidePanelScreenmethod, as described in [Workflow Actions: Opening of a Side Panel](WorkflowAPI_Actions_SidePanel.md)
 
-## Levels of Action Configuration { .section}
+## Levels of Action Configuration
 
 You can configure an action on the following levels, which are listed in order:
 
@@ -48,7 +48,7 @@ The following table lists all possible configuration types and the levels where 
 |Run report, open a generic inquiry, create a new record|+|+| | |
 |Expose the action to the mobile app| |+| | |
 
-## Mapping a Workflow Action to the Mobile App {#_58dc09f1-7f23-43ae-bd25-6aa9e5f6e16b .section}
+## Mapping a Workflow Action to the Mobile App
 
 You can map a workflow action to the Acumatica mobile app without using MSDL. To map a workflow action, call the IsExposedToMobile method while adding an action to a screen configuration.
 

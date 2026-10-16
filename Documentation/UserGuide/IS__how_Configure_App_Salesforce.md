@@ -1,4 +1,4 @@
-# To Create a Connected App in Salesforce {#_13f38f30-6625-4774-b4cd-884d4c4a3641 .task}
+# To Create a Connected App in Salesforce
 
 To create a connected app in Salesforce, which will enable the integration of Acumatica ERP with Salesforce through the Salesforce API, do the following:
 

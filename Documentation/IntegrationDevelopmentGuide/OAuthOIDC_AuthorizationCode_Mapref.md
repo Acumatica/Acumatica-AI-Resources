@@ -1,4 +1,4 @@
-# Implementing the Authorization Code Flow {#_6c9de791-81bf-4a36-8f20-8076c13c40b3 .concept}
+# Implementing the Authorization Code Flow
 
 The Authorization Code flow is a secure method for authorization used in OAuth 2.0 and OpenID Connect \(OIDC\). This flow is typically used in scenarios where the client application needs to access resources on behalf of the user, but the client application itself is not trusted with the user's credentials. In this chapter, you can find details about the implementation of the Authorization Code flow.
 

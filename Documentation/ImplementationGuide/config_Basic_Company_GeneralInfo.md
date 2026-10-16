@@ -1,21 +1,21 @@
-# Company Without Branches: General Information {#_5bc4e520-2681-45af-8767-e22b3f80df94 .concept}
+# Company Without Branches: General Information
 
 When you initially implement Acumatica ERP, you perform the company configuration that makes it possible for system implementation to proceed. This configuration includes enabling the default set of features and configuring the company in the system. You can proceed to further Acumatica ERP implementation, which includes specifying the basic settings related to the general ledger and to cash management, accounts payable, and accounts receivable.
 
 When you configure a company in Acumatica ERP, it can be defined as being without branches, as consisting of branches that require balancing entries \(if transactions involve multiple branches\), or as having branches that do not require balancing entries. The topics of this chapter describe the configuration of a company without branches.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Enable the default set of features before you start the configuration of a company
 -   Perform the configuration of a company without branches
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure a company without branches if the company has only one business location. You perform this company configuration as a first phase of the implementation of Acumatica ERP, before the entities needed for business processes are created. You can also add a new company without branches to the existing companies in an existing tenant at any time.
 
-## Workflow of the Configuration of a Company Without Branches { .section}
+## Workflow of the Configuration of a Company Without Branches
 
 To implement the basic configuration of a company without branches in Acumatica ERP, you perform the following general steps:
 
@@ -39,7 +39,7 @@ To implement the basic configuration of a company without branches in Acumatica 
 15. On the [Accounts Receivable Preferences](../UserGuide/AR_10_10_00.md) \(AR101000\) form, you specify the settings to be used in accounts receivable. See [Accounts Receivable: To Specify Accounts Receivable Preferences](config_Basic_Company_Implem_Activity_AR_Preferences.md) for more information.
 16. On the [Tax Categories](../UserGuide/TX_20_55_00.md) \(TX205500\) form, you create the tax categories that will be used for calculating tax amounts in the documents that include stock or non-stock items for which these tax categories are specified.
 
-## Company Settings { .section}
+## Company Settings
 
 In Acumatica ERP, you can create new companies or maintain existing companies by using the [Companies](../UserGuide/CS_10_15_00.md) \(CS101500\) form. A company may have no branches, or it may consist of multiple branches, with each being a separate office or point of sale.
 

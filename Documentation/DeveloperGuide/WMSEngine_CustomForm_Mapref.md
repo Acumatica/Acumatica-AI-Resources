@@ -1,4 +1,4 @@
-# Creating a Custom Barcode-Driven Form {#_0e6ed2c5-0338-4a63-83cf-77024f6cb3df .concept}
+# Creating a Custom Barcode-Driven Form
 
 In this chapter, you will learn how to create a custom barcode-driven Acumatica ERP form.
 

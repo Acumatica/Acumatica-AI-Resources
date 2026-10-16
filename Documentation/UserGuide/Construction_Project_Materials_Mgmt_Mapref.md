@@ -1,4 +1,4 @@
-# Managing Project Materials {#_791c91e8-db54-473e-9159-eaffc31354d2 .concept}
+# Managing Project Materials
 
 The topics of this chapter describe how you can track the stock and non-stock items that are used for construction projects.
 
@@ -11,6 +11,10 @@ Project material management provides a centralized way to track the stock and no
 -   **[Project Material Management: Creation of a Material List](../UserGuide/Construction_Project_Material_Mgmt_Material_List.md)**  
 
 -   **[Project Material Management: Allocation of Materials for a Project](../UserGuide/Construction_Project_Material_Mgmt_Material_Allocation.md)**  
+
+-   **[Project Material Management: Provisioning Materials Through Production Orders](../UserGuide/Construction_Project_Material_Mgmt_Provisioning_Materials_Through_Prod_Orders.md)**  
+
+-   **[Project Material Management: Transferring Materials Between Warehouses or Locations](../UserGuide/Construction_Project_Material_Mgmt_Material_Transfer.md)**  
 
 -   **[Project Material Management: Drop-Shipment of Materials](../UserGuide/Construction_Project_Material_Mgmt_Drop-Shipment_of_Materials.md)**  
 

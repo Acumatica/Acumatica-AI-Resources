@@ -1,12 +1,12 @@
-# Form Layout: To Add a Box to a Form {#_aff90be2-4fb4-41a3-b68c-5995205d6a1e .task}
+# Form Layout: To Add a Box to a Form
 
 The following activity will walk you through the process of adding a new box to a form.
 
-## Story { .section}
+## Story
 
 Suppose that management has determined that Acumatica ERP would better fit the needs of your company if employees could specify the type of a customer’s address on the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form. The field that contains the address type is already available in the system. You need to add the corresponding box to the form.
 
-## Process Overview { .section}
+## Process Overview
 
 You will do the following to add a box for the customer's address type to the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form:
 
@@ -15,14 +15,14 @@ You will do the following to add a box for the customer's address type to the [C
 3.  Configure the added field's properties on the [Fields](../UserGuide/AU_20_10_60.md) page, and then publish the customization project.
 4.  Test the changes on the [Customers](../UserGuide/AR_30_30_00.md) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
 1.  Prepare an Acumatica ERP instance by performing the [Customization Projects: To Deploy an Instance](CustomizationProjects_GettingStarted_Activity_CreateInstance.md) prerequisite activity.
 2.  Create the *Yogifon* customization project by performing the [Customization Projects: To Create a Customization Project](CustomizationProjects_GettingStarted_Activity_CreateProject.md) prerequisite activity.
 
-## Step 1: Opening the Modern UI Editor Page from the Form { .section}
+## Step 1: Opening the Modern UI Editor Page from the Form
 
 To start customizing a form from the form itself, open the [Screen Editor](../UserGuide/AU_20_45_20.md) page for the form by doing the following:
 
@@ -32,7 +32,6 @@ To start customizing a form from the form itself, open the [Screen Editor](../Us
 
     The **Element Properties** dialog box opens \(see the following screenshot\).
 
-    ![](images/CustomizationProjects_ConfiguringFormLayout_ElementProperties.png "The Element Properties dialog box")
 
     **Tip:** As another way to open the dialog box, you can click the **General** tab while pressing Ctrl + Alt.
 
@@ -46,7 +45,6 @@ To start customizing a form from the form itself, open the [Screen Editor](../Us
 
 The [Modern UI Editor](../UserGuide/AU_20_10_80.md) page for the [Customers](../UserGuide/AR_30_30_00.md) form is shown in the following screenshot.
 
-![](images/CustomizationProjects_ConfiguringFormLayout_ScreenEditor_Customers.png "The Modern UI Editor page for the Customers form")
 
 Notice that the name that appears on the page is *AR303000 \(Customers\)*, which corresponds to the form that you have added.
 
@@ -54,7 +52,7 @@ Also notice that the **Screens** node on the navigation pane can be expanded. To
 
 **Tip:** You could instead start the customization of a particular form by adding the form on the [Screens](../UserGuide/AU_20_10_00.md) page, as described in Step 1 of [Form Layout: To Add a New Tab to a Form](CustomizationProjects_ConfiguringFormLayout_Activity_AddTab.md).
 
-## Step 2: Adding the Box to the Form { .section}
+## Step 2: Adding the Box to the Form
 
 In this step, you will add the box containing the address type to the **Account Address** section of the **General** tab of the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form. Do the following:
 
@@ -62,7 +60,6 @@ In this step, you will add the box containing the address type to the **Account 
 
     It is located in the first column of the **General** tab \(Item 2\). Locating the section on the tab will help you to find it on the [Modern UI Editor](../UserGuide/AU_20_10_80.md) page.
 
-    ![](images/CustomizationProjects_ConfiguringFormLayout_Customers_MainAddress.png "The location of the Account Address section")
 
 2.  In the navigation pane of the Customization Project Editor, click **Screens** &gt; **AR303000** &gt; **Modern UI Editor**.
 
@@ -76,7 +73,6 @@ In this step, you will add the box containing the address type to the **Account 
 
     The settings should look as shown in the following screenshot.
 
-    ![](images/CustomizationProjects_ConfiguringFormLayout_AddDataFields_DisplayName.png "Add Field dialog box")
 
 6.  In the dialog box, click **Save to Extension**, and then click **Save** on the page toolbar.
 
@@ -91,14 +87,13 @@ In this step, you will add the box containing the address type to the **Account 
 
     The system adds the AddressType field before the AddressLine1 field \(Item 3\).
 
-    ![](images/CustomizationProjects_ConfiguringFormLayout_HTML_tab.png "The HTML tab with the added field")
 
 10. Click **Save** on the page toolbar.
 
     **Tip:** The system adds the `AR303000_Yogifon_generated.html` file to the [Modern UI Files](../UserGuide/AU_20_46_00.md) page.
 
 
-## Step 3: Adjusting the Properties of the New Box { .section}
+## Step 3: Adjusting the Properties of the New Box
 
 In this step, you will specify the name of the **Address Type** box. Do the following:
 
@@ -122,13 +117,12 @@ In this step, you will specify the name of the **Address Type** box. Do the foll
 
     This name will be displayed on the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form for the box that corresponds to the added field.
 
-    ![](images/CustomizationProjects_ConfiguringFormLayout_AddDataFields_FieldsPage.png "Fields page of the screen")
 
 7.  On the page toolbar, click **Save**.
 8.  To apply the changes to the instance, on the main menu of the Customization Project Editor, click **Publish** &gt; **Publish Current Project**.
 9.  Wait until the *Website updated* row appears in the **Compilation** pane, and click **Close Compilation Pane**.
 
-## Step 4: Testing the New Element { .section}
+## Step 4: Testing the New Element
 
 To test the box added to the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form in Acumatica ERP, do the following:
 
@@ -138,7 +132,6 @@ To test the box added to the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000
 
 2.  The **Address Type** box appears in the **Account Address** section. View the list of options in this box \(see the following screenshot\).
 
-    ![](images/CustomizationProjects_ConfiguringFormLayout_Customers_AddressType.png "The Address Type box on the Customers form")
 
 
 **Parent topic:**[Configuring the Layout of Forms](../CustomizationPlatform/CustomizationProjects_ConfiguringFormLayout_Mapref.md)

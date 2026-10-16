@@ -1,4 +1,4 @@
-# Product Synchronization: Related Items {#_5d2dd906-e126-4f8f-b534-8553ccdfa03b .concept}
+# Product Synchronization: Related Items
 
 For each stock and non-stock item in Acumatica ERP, an organization can maintain a list of related items that shoppers might be interested in buying in addition to or instead of the original item. These items might include items complementary to the original item \(for example, a cover case or a mouse may be offered to the customer when a laptop is purchased\), additional services \(such as, assembly services for sold furniture\), items that are purchased by other shoppers with similar buying habits, and higher-priced variants of the original item.
 

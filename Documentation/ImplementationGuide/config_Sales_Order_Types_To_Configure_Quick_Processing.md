@@ -1,8 +1,8 @@
-# Sales Order Types: To Configure Quick Processing for an Order Type {#_f8034131-f30b-4254-9908-e9041cdad452 .task}
+# Sales Order Types: To Configure Quick Processing for an Order Type
 
 In Acumatica ERP, you can simplify multistep processing of orders of a particular order type by configuring quick processing for this order type on the [Order Types](../UserGuide/SO_20_10_00.md) \(SO201000\) form.
 
-## To Configure Quick Processing for an Order Type { .section}
+## To Configure Quick Processing for an Order Type
 
 1.  Open the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form.
 2.  In the **Order Type** box, select the identifier of the order type for which you want to allow quick processing.
@@ -25,7 +25,7 @@ In Acumatica ERP, you can simplify multistep processing of orders of a particula
 5.  Select the **Open All Created Documents in New Tabs** check box if you want the prepared documents to be automatically opened in new browser tabs after quick processing completes.
 6.  Optional: Select the **Download All Created Printable Documents** if you want to automatically download the prepared printable forms when a user opens the browser tabs after quick processing completes.
 
-## Notes About the Procedure { .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

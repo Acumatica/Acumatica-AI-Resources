@@ -1,17 +1,17 @@
-# Setup of Integration with BILL {#_56123cbf-6050-48c6-90bb-3ad460b60645 .concept}
+# Setup of Integration with BILL
 
-You can directly integrate Acumatica ERP with **BILL**—a trusted external payment processor that simplifies accounts payable. BILL handles the end-to-end processing of ACH payments, virtual cards, and checks, allowing you to securely delegate payment execution and focus on higher-value.
+You can directly integrate Acumatica ERP with **BILL**—a trusted external payment processor that simplifies accounts payable. BILL handles the end-to-end processing of ACH payments, virtual cards, and checks, allowing you to securely delegate payment execution and focus on higher-value tasks.
 
 With the integration with BILL, you:
 
--   Won't need to spend time on check printing and mailing, configuring an export scenario or a plug-in for Electronic Funds Transfers \(EFT\), and uploading files to your banks. BILL will do all of this.
--   Won't need to maintain vendors' bank account details in Acumatica ERP for vendors connected to BILL. BILL has a vendor database with prefilled bank account details and preferred payment methods. This database is kept up-to-date in case a vendor changes its name or address or goes out of business.
+-   Won't need to spend time on check printing and mailing, configuring an export scenario or a plug-in for Electronic Funds Transfers \(EFT\), and uploading files to your banks. BILL does all of this.
+-   Won't need to maintain vendors' bank account details in Acumatica ERP for vendors connected to BILL. BILL has a vendor database with prefilled bank account details and preferred payment methods. This database is kept up to date in case a vendor changes its name or address or goes out of business.
 
 **Attention:** This functionality is available in the system if the *BILL Integration* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-For information about processing payments through BILL, see [Creating Documents for External Payment Processing](AP__con_Create_Doc_External_Processing.md).
+For information about processing payments through BILL, see [Creating Documents for Processing in BILL](AP__con_Create_Doc_External_Processing.md).
 
-## Configuring the Connection to BILL { .section}
+## Configuring the Connection to BILL
 
 You configure the connection to BILL on the [External Payment Processor](AP_20_55_00.md) \(AP205500\) form. You create a payment processor and specify its settings, such as companies, users, and funding accounts. For details, see [To Create a Payment Processor](AP__HOW_Create_Payment_Processor.md).
 
@@ -45,13 +45,13 @@ To configure the connection to BILL, perform the following general steps:
 
     There are two ways of creating a funding account:
 
-    -   By using the Plaid processing center. You will need to log in with your credentials. The funding account will be created with the *Verified* status.
-    -   By entering bank details manually. In this case, after some time you will receive a bank transfer from BILL to your bank account. You should then enter this amount, which is usually less than a dollar, to verify that you really have access to that bank account.
+    -   By using the Plaid processing center. You need to log in with your credentials. The funding account is created with the *Verified* status.
+    -   By entering bank details manually. In this case, after some time you receive a bank transfer from BILL to your bank account. You should then enter this amount, which is usually less than a dollar, to verify that you really have access to that bank account.
     To enter bank details manually, you click the **Manage Accounts** button on the table toolbar. The system opens the **Funding Accounts** widget. You use it to create, manage, and verify the funding accounts under this organization ID. You can also identify yourself for those funding accounts.
 
     When you close the **Funding Accounts** widget, accounts are automatically refreshed. However, you can click **Refresh Accounts** to update the accounts that changed in BILL but weren't updated in Acumatica ERP.
 
-    **Attention:** If you click the **Disable** button or the **Delete** button on the **Funding Accounts** widget that you can open with the **Manage Accounts** button on the table toolbar, the selected funding account will be permanently disabled.
+    **Attention:** If you click the **Disable** button or the **Delete** button on the **Funding Accounts** widget that you can open with the **Manage Accounts** button on the table toolbar, the selected funding account is permanently disabled.
 
 5.  **Map a funding account to a cash account**.
 
@@ -64,7 +64,7 @@ To configure the connection to BILL, perform the following general steps:
     -   The cash account hasn't been mapped to another funding account even in a different company in the same processor
 6.  **Verify your identity for each company to use its verified accounts**.
 
-    Once you verify your identity on the company level, you'll be able to use all the accounts that were already verified or will be verified in future.
+    Once you verify your identity on the company level, you can use all accounts that are already verified or that are verified later.
 
     All users who are onboarded on a company are nominated for all the verified cash accounts in either of the following ways:
 
@@ -74,12 +74,12 @@ To configure the connection to BILL, perform the following general steps:
 
     You can click **Refresh Accounts** to update the users of the funding accounts that changed in BILL but weren't updated in Acumatica ERP.
 
-    **Attention:** If you click the **Disable** button, the selected user will be permanently disabled from using the funding account.
+    **Attention:** If you click the **Disable** button, the selected user is permanently disabled from using the funding account.
 
 
 For detailed steps of configuring the connection, see [To Configure a Connection to BILL](AP__HOW_Configure_Connection_to_BillCom.md).
 
-## Setting Up the Payment Method { .section}
+## Setting Up the Payment Method
 
 For integration with BILL, the *External Payment Processor* means of payment is used. You set up a payment method on the [Payment Methods](CA_20_40_00.md) \(CA204000\) form.
 
@@ -95,17 +95,7 @@ If you want to send payments through ACH, you must fill in the settings on the *
 
 For details, see [To Create a Payment Method for External Payment Processing](AP__HOW_Create_PayMethod_BillCom.md).
 
-## Verifying the Vendor Settings { .section}
-
-For a vendor to get connected to the BILL network, you should make sure that it has a correct name and address in Acumatica ERP.
-
-For vendors not connected to BILL, you should make sure that their bank details are up to date. These settings are located in the **Payment Instructions** section on the **Payment** tab of the [Vendors](AP_30_30_00.md) \(AP303000\) form.
-
-BILL will try to verify the bank account and if it gets verified \(usually within one or two working days\), they will start paying the vendor through ACH. If the verification fails, they will send a check to the vendor's address that you specified in Acumatica ERP.
-
-For details, see [To Set Up a Vendor for External Payment Processing](AP__HOW_Setup_Vendor_for_BillCom.md).
-
-## Specifying BILL as Default Payment Method for Vendors { .section}
+## Specifying BILL as Default Payment Method for Vendors
 
 When the *BILL Integration* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the system automatically creates:
 
@@ -122,6 +112,39 @@ If the **Update Open Documents** check box is selected on the form, the system u
 -   The document has a nonzero open balance.
 
 For details, see [To Update the Default Payment Method for Vendors](AP__HOW_Update_PM_with_BILL.md).
+
+## Verifying the Vendor Settings
+
+For a vendor to get connected to the BILL network, you should make sure that it has a correct name and address in Acumatica ERP.
+
+For vendors not connected to BILL, you should make sure that their bank details are up to date. These settings are located in the **Payment Instructions** section on the **Payment** tab of the [Vendors](AP_30_30_00.md) \(AP303000\) form.
+
+BILL verifies the bank account, usually within one or two working days. After the verification, BILL starts paying the vendor through ACH. If the verification fails, BILL sends a check to the vendor's address specified in Acumatica ERP.
+
+For details, see [To Set Up a Vendor for External Payment Processing](AP__HOW_Setup_Vendor_for_BillCom.md).
+
+## Updating a Domestic Vendor's Details in BILL
+
+For a vendor that is located in the United States, you can update the vendor's details in BILL without waiting for the next payment to this vendor. You keep the vendor's address in BILL up to date so that BILL delivers paper checks to the correct address. You update the vendor's bank details if the vendor is paid through ACH and the vendor's bank account has changed.
+
+For information about updating an international vendor in BILL, see the *Updating an International Vendor in BILL* section in [International Payments with BILL](AP__CON_BILL_International_Payments.md).
+
+To update the vendor's details, you do the following on the [Vendors](AP_30_30_00.md) \(AP303000\) or [Vendor Locations](AP_30_30_10.md) \(AP303010\) form:
+
+1.  On the **Payment** tab, specify the needed changes in the **Remit-To Address** and **Payment Instructions** sections.
+2.  Save your changes.
+3.  On the More menu, click **Update Vendor in BILL**.
+
+By updating the bank details, you also change the way BILL pays the vendor:
+
+-   If you delete the vendor's bank details from the **Payment Instructions** section, BILL starts paying the vendor by paper check.
+-   If you specify the vendor's bank details in the **Payment Instructions** section, BILL starts paying the vendor through ACH. The system displays the resulting method in the **Preferred Disbursement Method** box of the **External Payment Processing** section.
+
+**Tip:** The system may not display the vendor's updated details immediately. To retrieve the current details from BILL, on the More menu, click **Sync Vendor to Acumatica**.
+
+If you change the vendor's details but do not click **Update Vendor in BILL**, the system sends the changes to BILL with the next payment to this vendor.
+
+**Attention:** If the vendor is connected on the BILL network, you cannot update the vendor's details, because these details are maintained on the network side. To manage the details in Acumatica ERP again, you first click **Disconnect from Network** on the More menu.
 
 -   **[To Create a Payment Processor](../UserGuide/AP__HOW_Create_Payment_Processor.md)**  
 

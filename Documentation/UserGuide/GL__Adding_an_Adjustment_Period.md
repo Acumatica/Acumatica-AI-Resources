@@ -1,4 +1,4 @@
-# To Add an Adjustment Period {#_326db626-a9fd-405a-ab08-4a3004f9c612 .task}
+# To Add an Adjustment Period
 
 In Acumatica ERP, you can add an adjustment period for *each* year only during initial setup, when you configure your financial year and its periods. However, if required, you can easily add an adjustment period for the latest financial year.
 
@@ -6,7 +6,7 @@ In Acumatica ERP, you add an adjustment period on the [Master Financial Calendar
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## To Add an Adjustment Period {#section_jbg_mjv_vxb .section}
+## To Add an Adjustment Period
 
 1.  Open the [Master Financial Calendar](../Shared/../UserGuide/GL_20_10_00.md) \(GL201000\) form.
 2.  In the **Financial Year** box of the Summary area, select the latest financial year to which you want to add an adjustment period.

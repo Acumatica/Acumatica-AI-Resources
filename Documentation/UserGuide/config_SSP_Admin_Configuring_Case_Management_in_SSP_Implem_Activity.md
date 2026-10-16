@@ -1,25 +1,25 @@
-# Configuring Case Management in the Self-Service Portal: Implementation Activity {#_adc75c13-892d-4878-af0a-5ec8ec95aab3 .task}
+# Configuring Case Management in the Self-Service Portal: Implementation Activity
 
 In the following implementation activity, you will configure the case management functionality in the Acumatica Self-Service Portal.
 
-## Story { .section}
+## Story
 
 Suppose that you are Kimberly Gibbs, system administrator at the SweetLife Fruits &amp; Jams company. You need to configure the case management functionality in the SweetLife Self-Service Portal to give customers the ability to submit and track cases.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 For the purposes of this activity, the following tasks have been performed:
 
--   The Acumatica ERP application instance with the *U100\_SSP\_Admin\_2026 R1* dataset preloaded and the Self-Service Portal application instance have been deployed in the same database.
+-   The Acumatica ERP application instance with the *U100\_SSP\_Admin\_2026 R2* dataset preloaded and the Self-Service Portal application instance have been deployed in the same database.
 
     **Tip:** This deployment is outside of the scope of this training.
 
--   In the *U100\_SSP\_Admin\_2026 R1* dataset, on the [User Roles](SM_20_10_05.md) \(SM201005\) form of Acumatica ERP, the *Portal Admin* role has been assigned to the *gibbs* user account. The user account is associated with Kimberly Gibbs, the system administrator in the SweetLife Fruits &amp; Jams company. The role provides full administrative privileges in the Self-Service Portal.
+-   In the *U100\_SSP\_Admin\_2026 R2* dataset, on the [User Roles](SM_20_10_05.md) \(SM201005\) form of Acumatica ERP, the *Portal Admin* role has been assigned to the *gibbs* user account. The user account is associated with Kimberly Gibbs, the system administrator in the SweetLife Fruits &amp; Jams company. The role provides full administrative privileges in the Self-Service Portal.
 -   On the [Contact Classes](CR_20_50_00.md) \(CR205000\) form, the *STORE* contact class has been created.
 -   On the [Case Classes](CR_20_60_00.md) \(CR206000\) form, the *DELIVERY* and *JREPAIR* \(repair of juicers\) case classes have been created.
 -   On the [Cases](CR_30_60_00.md) \(CR306000\) form, the *Cleaning and maintenance of juicers* case has been created and assigned to Jeffrey Vega.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -28,11 +28,11 @@ In this activity, you will do the following:
 3.  In the Self-Service Portal, verify that a user can create a case.
 4.  In Acumatica ERP, verify that a case owner receives an email notification about a new comment in a case.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring case management in the Self-Service Portal, do the following:
 
-1.  Launch the Acumatica ERP website with the *U100\_SSP\_Admin\_2026 R1* dataset preloaded and sign in as system administrator by using the *gibbs* username and the *123* password.
+1.  Launch the Acumatica ERP website with the *U100\_SSP\_Admin\_2026 R2* dataset preloaded and sign in as system administrator by using the *gibbs* username and the *123* password.
 2.  In Acumatica ERP, for the *STOREHUT* business account on the [Business Accounts](CR_30_30_00.md) \(CR303000\) form, make sure that the *STORE* business account class is selected in the **Class** box.
 3.  Make sure that you have performed the following prerequisite activities:
     1.  [Configuring the Self-Service Portal: To License the Self-Service Portal Instance](config_SSP_Admin_To_License_SSP_Instance.md)
@@ -51,7 +51,7 @@ To be sure that the needed workspaces, forms, reports, and dashboards will be av
 
 You should also reload the webpages of the Acumatica ERP instance and the Self-Service Portal. Synchronization of the Acumatica ERP and Self-Service Portal instances may take some time.
 
-## Step 1: Enabling the Needed Features { .section}
+## Step 1: Enabling the Needed Features
 
 To enable the features needed for case management, do the following:
 
@@ -62,7 +62,7 @@ To enable the features needed for case management, do the following:
 5.  Make sure that the **Financials on Portal** check box is selected.
 6.  On the form toolbar, click **Enable** to enable the features.
 
-## Step 2: Specifying the Basic Case Management Settings { .section}
+## Step 2: Specifying the Basic Case Management Settings
 
 To specify the basic settings for case management in the Self-Service Portal, do the following:
 
@@ -74,7 +74,7 @@ To specify the basic settings for case management in the Self-Service Portal, do
     3.  In the **Default Contact Class** box, select *STORE*. This class will be inserted by default when a user creates a new contact, but the user can change the contact class.
 4.  On the form toolbar, click **Save**.
 
-## Step 3: Setting Up Email Notifications About a New Comment in a Case { .section}
+## Step 3: Setting Up Email Notifications About a New Comment in a Case
 
 You can set up the Self-Service Portal so that each time a user creates a new comment in a case, an email notification will be sent to the case owner \(an employee of your company\).
 
@@ -87,7 +87,7 @@ To set up these email notifications, do the following:
 2.  On the form toolbar, click **Save**.
 3.  Sign out of the Self-Service Portal.
 
-## Step 4: Verifying That a User Can Create a Case in the Self-Service Portal { .section}
+## Step 4: Verifying That a User Can Create a Case in the Self-Service Portal
 
 To create a case in the Self-Service Portal for testing purposes, do the following:
 
@@ -112,7 +112,7 @@ To create a case in the Self-Service Portal for testing purposes, do the followi
 
 You have verified that a portal user can create cases in the Self-Service Portal.
 
-## Step 5: Adding a Comment to a Case { .section}
+## Step 5: Adding a Comment to a Case
 
 To add a comment to the *Cleaning and maintenance of juicers* case, do the following:
 
@@ -131,7 +131,7 @@ To add a comment to the *Cleaning and maintenance of juicers* case, do the follo
 
 The system has added your comment as an activity of the *Note* type on the **Activities** tab of the form. Now you can verify that Jeffrey Vega, a technician at SweetLife and the owner of the case, has received an email notification about the new comment in the case.
 
-## Step 6: Verifying Receipt of the Email Notification About a New Comment in the Case { .section}
+## Step 6: Verifying Receipt of the Email Notification About a New Comment in the Case
 
 To make sure that the case owner *Jeffrey Vega* has received an email notification about a new comment in the case, do the following:
 
@@ -143,6 +143,4 @@ To make sure that the case owner *Jeffrey Vega* has received an email notificati
 
     **Tip:** The case number may be different depending on the number of cases you submitted.
 
-
-**Parent topic:**[Configuring Case Management in the Self-Service Portal](../UserGuide/config_SSP_Admin_Configuring_Case_Management_in_SSP_Mapref.md)
 

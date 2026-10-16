@@ -1,4 +1,4 @@
-# Preparing Dunning Letters {#_6d8783c1-4bce-42cb-a2a0-1235b65221c6 .concept}
+# Preparing Dunning Letters
 
 In this chapter, you will find general information on how to use the AR Aging report and prepare dunning letters, a checklist for system implementation, an activity that describes how to run the AR Aging report, an activity that describes how to prepare dunning letters, and other reports that can be useful to find and view past-due documents.
 

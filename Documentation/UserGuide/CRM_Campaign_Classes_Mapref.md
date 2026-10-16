@@ -1,4 +1,4 @@
-# Defining Campaign Classes {#_908fd001-bb9c-452c-9152-dbb4a28435c8 .concept}
+# Defining Campaign Classes
 
 In this chapter, you will find information about defining campaign classes in Acumatica ERP.
 

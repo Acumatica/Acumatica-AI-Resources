@@ -1,22 +1,22 @@
-# Customer Statements: General Information {#_eab5652c-c80d-4639-b4f3-39c91de333a6 .concept}
+# Customer Statements: General Information
 
 In Acumatica ERP, you can configure statement cycles to be used for collection procedures. At the end of a statement cycle, you prepare statements and send them to your customers. Statements provide customers with records of their financial activity for a specific period, including the ending balance. Customers can reconcile the balances of their accounts with the information in the statements.
 
-## Learning Objectives {#section_ngd_hjv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Prepare customer statements
 -   Print customer statements
 
-## Applicable Scenarios {#section_qgd_hjv_vxb .section}
+## Applicable Scenarios
 
 You prepare and print customer statements in the following cases:
 
 -   You want to remind your customers about outstanding invoices.
 -   You want to inform them about the ending balance so that they can reconcile the balances of their accounts.
 
-## Statement Cycle Settings {#section_sgd_hjv_vxb .section}
+## Statement Cycle Settings
 
 You use the [Statement Cycles](AR_20_28_00.md) \(AR202800\) form to create new statement cycles and modify existing ones. For each statement cycle, you define the following:
 
@@ -40,7 +40,7 @@ You use the [Statement Cycles](AR_20_28_00.md) \(AR202800\) form to create new s
 
 You can assign a statement cycle to a customer class by using the [Customer Classes](AR_20_10_00.md) \(AR201000\) form or directly to a customer by using the [Customers](AR_30_30_00.md) \(AR303000\) form.
 
-## Statement Types {#section_ygd_hjv_vxb .section}
+## Statement Types
 
 Acumatica ERP offers two types of statements:
 
@@ -49,7 +49,7 @@ Acumatica ERP offers two types of statements:
 
 You can assign either statement type to customer classes and to individual customers. You use the **Statement Type** box to set this option for a specific customer class on the [Customer Classes](AR_20_10_00.md) \(AR201000\) form and for an individual customer on the [Customers](AR_30_30_00.md) \(AR303000\) form.
 
-## Statement Processing Workflow {#section_bhd_hjv_vxb .section}
+## Statement Processing Workflow
 
 The statement processing workflow consists of the following stages:
 
@@ -61,7 +61,7 @@ The statement processing workflow consists of the following stages:
 -   Printing statements \(optional\). For details, see [Customer Statements: Process Activity](Finance_Preparing_Customer_Statements_Activity.md).
 -   Emailing statements \(optional\).
 
-## Preparing Statements \(Required\) {#section_dhd_hjv_vxb .section}
+## Preparing Statements \(Required\)
 
 Before you prepare statements, make sure that you have applied open payments from customers to the corresponding invoices \(if any\) and calculated any overdue charges to avoid incorrect calculation of aged balances. You can also run the payment application process for the customer accounts associated with the appropriate statement cycles, as described in [Auto-Applying Payments: Process Activity](Finance_AutoApplication_to_Documents_Activity.md).
 
@@ -73,17 +73,17 @@ Because the process of generating statements may require significant time, you s
 
 **Attention:** If the process of statements preparation was interrupted for some reason, the system will prepare statements for all customer accounts selected during the next run of the process. If some customers were excluded from the statement generation, a warning message is displayed to inform you of this.
 
-## Printing Statements \(Optional\) {#section_ihd_hjv_vxb .section}
+## Printing Statements \(Optional\)
 
 You can print statements on paper to send them to customers by postal mail, by using the [Print Statements](AR_50_35_00.md) \(AR503500\) form. The **Print Statement** action marks processed statements as printed—that is, the **Printed** check box of each statement is selected automatically.
 
 When a customer statement is printed on the [Print Statements](AR_50_35_00.md) form, the due date is printed for credit memos with credit terms. For credit memos without credit terms, the due date is not printed.
 
-## Emailing Statements \(Optional\) {#section_khd_hjv_vxb .section}
+## Emailing Statements \(Optional\)
 
 You can generate emails with statements by using the [Print Statements](AR_50_35_00.md) \(AR503500\) form. The **Email Statement** action marks processed statements as emailed—that is, the **Emailed** check box of each statement is selected automatically. The system generates the body of the email and the attachment according to the settings of the *STATEMENT* mailing. For details, see [Mailings for Customers: General Information](Finance_PredefinedMailings_Customers_GeneralInfo.md).
 
-## Deleting Statements \(Optional\) { .section}
+## Deleting Statements \(Optional\)
 
 You can delete the most recent customer statements of the selected statement cycle by clicking the **Delete Last Statement** button on the form toolbar of the [Statement Cycles](AR_20_28_00.md) \(AR202800\) form. Once the last customer statements are deleted, you can delete the statements that now have the latest date \(which became the most recent statements after the later customer statements were deleted\).
 

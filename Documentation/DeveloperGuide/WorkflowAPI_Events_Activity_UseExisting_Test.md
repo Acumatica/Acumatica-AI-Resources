@@ -1,4 +1,4 @@
-# Step 7: Testing the Transition {#_b114523a-508c-482b-8e31-624f01002c53 .task}
+# Step 7: Testing the Transition
 
 To test the transition from the `Completed` workflow state to the `Paid` workflow state, do the following:
 

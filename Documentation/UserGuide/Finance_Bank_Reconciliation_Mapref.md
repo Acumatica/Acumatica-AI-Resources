@@ -1,4 +1,4 @@
-# Performing Bank Reconciliation {#_2ae35273-c845-4edb-96ae-68ce6ff0ba54 .concept}
+# Performing Bank Reconciliation
 
 One way you can maintain internal control over the company cash is by performing regular account reconciliations. Generally, the goal of reconciliation is to find discrepancies between account balances tracked by different means \(in your company and by a third party\), locate any errors, and make needed corrections or adjustments.
 

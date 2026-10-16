@@ -1,4 +1,4 @@
-# Implementing Taxes {#_59d8b6a4-fc87-44e8-a3a6-d971eef04268 .concept}
+# Implementing Taxes
 
 This part of the guide describes how to configure tax management in Acumatica ERP.
 

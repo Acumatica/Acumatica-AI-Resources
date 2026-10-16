@@ -1,10 +1,10 @@
-# Execute an Action That Is Present in an Endpoint {#_91bf9106-062a-47a8-be1f-b48517a54324 .concept}
+# Execute an Action That Is Present in an Endpoint
 
 To perform an action that is present in an endpoint by using the contract-based REST API, you access the needed URL with the `POST` HTTP method; you then pass the record representation in JSON format and the parameters of the action in the request body.
 
 See the following sections for details on the request and the response.
 
-## HTTP Method and URL { .section}
+## HTTP Method and URL
 
 If you need to perform an action on an Acumatica ERP form, you use the `POST` HTTP method and the following URL.
 
@@ -18,30 +18,57 @@ The URL has the following components:
 -   *&lt;Top-level entity&gt;* is the name of the entity for which you are going to perform an action.
 -   *&lt;Action name&gt;* is the name of the action that you are going to perform.
 
-For example, suppose that you want to confirm a shipment in a local Acumatica ERP instance with the name *AcumaticaDB* by using the system endpoint with the name *Default* and Version 25.200.001. You would use the following URL to confirm a shipment: *http://localhost/AcumaticaDB/entity/Default/25.200.001/Shipment/ConfirmShipment*.
+For example, suppose that you want to confirm a shipment in a local Acumatica ERP instance with the name *AcumaticaDB* by using the system endpoint with the name *Default* and Version 26.200.001. You would use the following URL to confirm a shipment: *http://localhost/AcumaticaDB/entity/Default/26.200.001/Shipment/ConfirmShipment*.
 
-## Parameters { .section}
+## Parameters
 
 You use no parameters of the request when you execute an action by using the REST API.
 
-## Request Headers { .section}
+## Request Headers
 
 You can specify the following headers in the request.
 
-|Header|Description|
-|------|-----------|
-|Accept|Specifies the format of the response body, which should be application/json.|
-|Content-Type|Specifies the format of the request body, which should be application/json.|
-|Cookie|Specifies the cookies that you have received during the sing-in to Acumatica ERP with the login method. For details on this method, see [Sign In to the Service](../Shared/../IntegrationDevelopmentGuide/IntegrationDev_RESTExample_Basic_Login.md).
+<table id="_40bf8194-174d-41e1-9ba1-dce56cf597b4"><thead><tr><th>
 
- You must use the Cookie header in any of the following cases:
+Header
 
- -   You have used the login method to sign in to Acumatica ERP.
--   You are using the OAuth 2.0 or OpenID Connect \(OIDC\) authorization with the api:concurrent\_access scope and need to manage session IDs through cookies.
+</th><th>
 
-|
+Description
 
-## Request Body { .section}
+</th></tr></thead><tbody><tr><td>
+
+Accept
+
+</td><td>
+
+Specifies the format of the response body, which should be application/json.
+
+</td></tr><tr><td>
+
+Content-Type
+
+</td><td>
+
+Specifies the format of the request body, which should be application/json.
+
+</td></tr><tr><td>
+
+Cookie
+
+</td><td>
+
+Specifies the cookies that you’ve received during the sign-in to Acumatica ERP with the login method. For details on this method, see [Sign In to the Service](../Shared/../IntegrationDevelopmentGuide/IntegrationDev_RESTExample_Basic_Login.md).
+
+ You must use the Cookie header if:
+
+ -   You’ve used the login method to sign in to Acumatica ERP.
+-   You’re using the OAuth 2.0 or OpenID Connect \(OIDC\) authorization with the api:concurrent\_access scope and need to manage session IDs through cookies.
+
+</td></tr></tbody>
+</table>
+
+## Request Body
 
 You pass the record to which the action should be applied and the parameters of the action in the request body in JSON format as follows.
 
@@ -54,19 +81,73 @@ You pass the record to which the action should be applied and the parameters of 
 
 You can find details on how to represent a record in JSON format in [Representation of a Record in JSON Format](IS__con_REST_Entity_Representation_in_JSON.md#).
 
-## Response Status Codes { .section}
+## Response Status Codes
 
 The following table lists the HTTP status codes that the system returns for a request that performs an action.
 
-|Code|Description|
-|----|-----------|
-|*202*|The operation is in progress. The `Location` header of the response contains the URL that you can use to check the status of the operation by using the `GET` HTTP method. When the `GET` HTTP method with this URL returns *204 No Content*, the operation is completed.|
-|*204*|The operation that has been initiated by the action has completed or was not created.|
-|*400*|The data specified in the request is invalid.|
-|*401*|The user is not signed in to the system.|
-|*403*|The user has insufficient rights to access the Acumatica ERP form that corresponds to the API entity.|
-|*404*|An action with this name does not exist.|
-|*422*|The data specified in the request is invalid, and the validation errors are returned in the error fields of the response body, as shown in the following example.
+<table id="_970da984-282e-41b1-b56c-841acaa6b024"><thead><tr><th>
+
+Code
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+*202*
+
+</td><td>
+
+The operation is in progress. The `Location` header of the response contains the URL that you can use to check the status of the operation by using the `GET` HTTP method. When the `GET` HTTP method with this URL returns *204 No Content*, the operation is completed.
+
+</td></tr><tr><td>
+
+*204*
+
+</td><td>
+
+The operation that has been initiated by the action has completed or was not created.
+
+</td></tr><tr><td>
+
+*400*
+
+</td><td>
+
+The data specified in the request is invalid.
+
+</td></tr><tr><td>
+
+*401*
+
+</td><td>
+
+The user is not signed in to the system.
+
+</td></tr><tr><td>
+
+*403*
+
+</td><td>
+
+The user has insufficient rights to access the Acumatica ERP form that corresponds to the API entity.
+
+</td></tr><tr><td>
+
+*404*
+
+</td><td>
+
+An action with this name does not exist.
+
+</td></tr><tr><td>
+
+*422*
+
+</td><td>
+
+The data specified in the request is invalid, and the validation errors are returned in the error fields of the response body, as shown in the following example.
 
 ```
 "CustomerID": {
@@ -75,18 +156,33 @@ The following table lists the HTTP status codes that the system returns for a re
 }
 ```
 
-|
-|*429*|The number of requests has exceeded the limit imposed by the license \(see [License Restrictions for API Users](../Shared/../IntegrationDevelopmentGuide/IS__con_License_Restrictions_API_Users.md)\).|
-|*500*|An internal server error has occurred.|
+</td></tr><tr><td>
 
-## Examples { .section}
+*429*
+
+</td><td>
+
+The number of requests has exceeded the limit imposed by the license \(see [License Restrictions for API Sessions and Requests](../Shared/../IntegrationDevelopmentGuide/IS__con_License_Restrictions_API_Users.md)\).
+
+</td></tr><tr><td>
+
+*500*
+
+</td><td>
+
+An internal server error has occurred.
+
+</td></tr></tbody>
+</table>
+
+## Examples
 
 **Tip:** In the request examples below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 The following request shows an example of a *Completed* sales order being reopened through the REST API.
 
 ```
-POST /entity/Default/25.200.001/SalesOrder/ReopenSalesOrder HTTP/1.1
+POST /entity/Default/26.200.001/SalesOrder/ReopenSalesOrder HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
 Content-Type: application/json
@@ -105,7 +201,7 @@ Content-Type: application/json
 The following request shows an example of the ID of the *CANDYY* business account being changed to *CANDYYY* through the REST API.
 
 ```
-POST /entity/Default/25.200.001/BusinessAccount/ChangeBusinessAccountID 
+POST /entity/Default/26.200.001/BusinessAccount/ChangeBusinessAccountID 
      HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
@@ -121,7 +217,7 @@ Content-Type: application/json
 }
 ```
 
-## Usage Notes { .section}
+## Usage Notes
 
 Note the following about execution of an action:
 

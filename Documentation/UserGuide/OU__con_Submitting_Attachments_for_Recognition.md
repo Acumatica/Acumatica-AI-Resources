@@ -1,4 +1,4 @@
-# Submitting Documents for Recognition {#_3e762694-67cf-49f9-b32f-b5d4f2f4d437 .concept}
+# Submitting Documents for Recognition
 
 If the *AP Document Recognition Service* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the **Create AP Document** button appears on the add-in form for emails with PDF attachments.
 

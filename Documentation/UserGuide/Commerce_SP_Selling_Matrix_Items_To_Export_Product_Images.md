@@ -1,14 +1,14 @@
-# Sale of Matrix Items: To Export Product Images {#_37334b3e-e1a0-4919-afea-f3c938cc3ea3 .task}
+# Sale of Matrix Items: To Export Product Images
 
 The following activity will walk you through the process of exporting the product images added for a template item and for a matrix item in Acumatica ERP to the Shopify store.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company wants to export to the Shopify store the images it has added for the *JUICE* template and for one of its variants. Some images of the template item are stored in external storage. The others, however, are attached to items in Acumatica ERP. Acting as an implementation consultant helping SweetLife to set up the integration of Acumatica ERP with the Shopify store, you need to export to the Shopify store an image of the *JUICE* template item and a matrix item generated from this template item.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following steps have been performed:
 
@@ -16,7 +16,7 @@ In the *U100* dataset, for the purposes of this activity, the following steps ha
 -   On the [Template Items](IN_20_30_00.md) \(IN203000\) form, the *JUICE* template item has been created.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *PCH-32OZ-GBT* matrix item has been generated from the *JUICE* template item.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -28,7 +28,7 @@ In this activity, you will do the following:
 6.  On the [Prepare Data](BC_50_10_00.md) \(BC501000\) form, prepare the product image data for synchronization; on the [Process Data](BC_50_15_00.md) \(BC501500\) form, process the product image data.
 7.  In the admin area of the Shopify store, review the exported images.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you complete the instructions in this activity, do the following:
 
@@ -42,7 +42,7 @@ Before you complete the instructions in this activity, do the following:
     -   **Username**: *gibbs*
     -   **Password**: *123*
 
-## Step 1: Adding an Image to the Template Item { .section}
+## Step 1: Adding an Image to the Template Item
 
 To add an image to the *JUICE* template item, do the following:
 
@@ -60,7 +60,7 @@ To add an image to the *JUICE* template item, do the following:
 
 5.  On the form toolbar, click **Save**.
 
-## Step 2: Adding an Image to the Matrix Item { .section}
+## Step 2: Adding an Image to the Matrix Item
 
 To add an image to the *PCH-32OZ-GBT* stock item, which is a matrix item based on the *JUICE* template item, do the following:
 
@@ -72,7 +72,7 @@ To add an image to the *PCH-32OZ-GBT* stock item, which is a matrix item based o
 
 4.  On the form toolbar, click **Save**.
 
-## Step 3: Synchronizing the Template Item Data { .section}
+## Step 3: Synchronizing the Template Item Data
 
 To prepare and process the template item data \(which includes the data of the matrix items generated from the template item\) for synchronization, do the following:
 
@@ -91,7 +91,7 @@ To prepare and process the template item data \(which includes the data of the m
 8.  On the form toolbar, click **Process**.
 9.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 4: Reviewing the Synchronized Images { .section}
+## Step 4: Reviewing the Synchronized Images
 
 To review the images that have been exported to the Shopify store for the *Juice* template item, do the following:
 
@@ -102,7 +102,7 @@ To review the images that have been exported to the Shopify store for the *Juice
     On the product management page of the *Juice* product, which opens, notice that the **Media** section contains only one image; this is the image you added to the *Juice* template item as an external link in the **Media URLs** table on the **eCommerce** tab of the [Template Items](IN_20_30_00.md) \(IN203000\) form. Images added to this table are synchronized as part of the synchronization of the *Template Item* entity.
 
 
-## Step 5: Activating the Product Image Entity { .section}
+## Step 5: Activating the Product Image Entity
 
 You can skip this step if you have completed the following activity: [Product Synchronization: To Sync Product Images](Commerce_SP_Syncing_Products_To_Export_Images.md).
 
@@ -113,7 +113,7 @@ To activate the *Product Image* entity, do the following:
 3.  On the **Entities** tab, select the **Active** check box in the row of the *Product Image* entity.
 4.  On the form toolbar, click **Save**.
 
-## Step 6: Synchronizing the Product Image Data { .section}
+## Step 6: Synchronizing the Product Image Data
 
 To prepare and process the product image data \(which includes the data of the images attached to template items and matrix items\) for synchronization, do the following:
 
@@ -128,7 +128,7 @@ To prepare and process the product image data \(which includes the data of the i
 7.  On the toolbar of the [Process Data](BC_50_15_00.md) \(BC501500\) form, which opens with the *SweetStore - SP* store and the *Product Image* entity selected, click **Process All**.
 8.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 7: Reviewing the Exported Images { .section}
+## Step 7: Reviewing the Exported Images
 
 To review the images that have been exported to the Shopify store for the *Juice* template item and the matrix item, do the following:
 

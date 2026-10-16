@@ -1,4 +1,4 @@
-# OAuth 2.0 and OIDC: Comparison of the Flows {#_f7add280-bc3c-4e73-b242-580c94af10a2 .concept}
+# OAuth 2.0 and OIDC: Comparison of the Flows
 
 The table below summarizes the characteristics of the authorization flows supported by Acumatica ERP.
 

@@ -1,4 +1,4 @@
-# Processing Inventory Transactions {#_379918a0-cd68-4641-bcb4-510c9cd47287 .concept}
+# Processing Inventory Transactions
 
 Inventory transactions are used to account for inventory items that have been moved to or from a specific warehouse, between locations within a warehouse, or between warehouses. Purchases and sales also cause inventory item movements. In Acumatica ERP, all these kinds of item movements are also recorded as inventory transactions, receipts, issues, and transfers. This chapter describes the various types of inventory transactions.
 

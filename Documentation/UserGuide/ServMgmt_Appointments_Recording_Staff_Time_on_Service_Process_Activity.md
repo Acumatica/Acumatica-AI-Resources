@@ -1,16 +1,16 @@
-# Staff Time in Appointments: To Record Staff Time Spent on a Particular Service {#_33013904-66b2-42af-9233-b38b86106ff8 .task}
+# Staff Time in Appointments: To Record Staff Time Spent on a Particular Service
 
 The following activity will walk you through the process of recording in Acumatica ERP the time that a staff member spends providing a particular service. That is, you will learn how to record time if the staff member works on a particular service but not during the whole appointment.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the management of the SweetLife Service and Equipment Sales Center has decided to track the time activities of its employees based on service duration. Each staff member must keep accurate records on what service has been performed and enter the actual start and end times of the provided services in appointments.
 
 Acting as staff member Edward Smith, you will record the start and completion times of the service assigned to you and the service assigned to Chase Frank. You will then review the time activities that have been created for the appointment.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -29,11 +29,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
     -   On the **Time Behavior** tab, the **Set Start Time in Appointment** check box has been selected
 -   On the [Appointments](FS_30_02_00.md) \(FS300200\) form, the *000039-1* appointment has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Appointments](FS_30_02_00.md) \(FS300200\) form, you will enter the start and end times spent on the installation and training services of an existing appointment; you will then complete it. Then on the [Employee Time Activities](EP_30_70_00.md) \(EP307000\) form, you will review the time activities created for staff members for the services that were provided.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -41,7 +41,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  In the company to which you are signed in, ensure that the *Service Management* feature has been enabled on the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form.
 3.  In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date *1/30/2026*. For simplicity, you will use this business date to create and process all documents in this activity.
 
-## Step 1: Recording Staff Time Spent on Services { .section}
+## Step 1: Recording Staff Time Spent on Services
 
 Acting as Edward Smith, you will record the time that you and Chase Frank spend on the services of an existing appointment. To record this staff time, do the following:
 
@@ -82,10 +82,9 @@ Acting as Edward Smith, you will record the time that you and Chase Frank spend 
 
     The following screenshot shows the **Log** tab \(Item 1\) with the staff time spent on services \(Item 2\).
 
-    ![](Images/ServMgmt_Appointments_Staff_Time_on_Services.png "Staff time spent on services")
 
 
-## Step 2: Reviewing the Employee Time Activities Form { .section}
+## Step 2: Reviewing the Employee Time Activities Form
 
 To review the staff members' time, do the following:
 
@@ -95,7 +94,6 @@ To review the staff members' time, do the following:
 
     In the table, you can view the row representing the time activity related to the installation service performed in the appointment. In the **Time** column \(Item 1\), you can view the start time of the appointment; in the **Time Spent** column \(Item 2\), you can view the duration of the service provided. That is, for the *INSTALL* service, one hour was spent, starting at 2:00 PM.
 
-    ![](Images/ServMgmt_Appointments_Staff_Time_Activity.png "Employee time activity")
 
 4.  In the **Employee** box of the Summary area, select *EP00000042 \(Chase Frank\)*.
 5.  In the table, make sure a time activity is listed for the *TRAINING* service: one hour spent starting at 3:00 PM for the *GOODFOOD* customer.

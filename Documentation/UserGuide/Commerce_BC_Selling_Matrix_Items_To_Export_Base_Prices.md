@@ -1,14 +1,14 @@
-# Selling Matrix Items: To Export Base Prices {#_2fd6230c-2317-431b-9a15-4d11b3038ee3 .task}
+# Selling Matrix Items: To Export Base Prices
 
 In this activity, you will explore how the base sales prices defined for matrix items are exported from Acumatica ERP and saved in the BigCommerce store.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Fruits &amp; Jams keeps all of its sales prices, including the prices of matrix items sold in the BigCommerce store, in Acumatica ERP. As an implementation consultant, you want to export sales prices of the *Base* type for all variants of juice \(that is, for all matrix items based on the *JUICE* template item\) from Acumatica ERP to the BigCommerce store.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following entities have been created:
 
@@ -29,7 +29,7 @@ In the *U100* dataset, for the purposes of this activity, the following entities
 
 -   On the [Sales Price Worksheets](AR_20_20_10.md) \(AR202010\) form, a sales price worksheet with the base prices for the matrix items \(juice variants\)
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -38,7 +38,7 @@ In this activity, you will do the following:
 3.  On the [Prepare Data](BC_50_10_00.md) \(BC501000\) form, prepare the base sales price data for synchronization; on the [Process Data](BC_50_15_00.md) \(BC501500\) form, process the prepared data.
 4.  In the control panel of the BigCommerce store, review the exported prices of items.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you complete the instructions in this activity, do the following:
 
@@ -50,7 +50,7 @@ Before you complete the instructions in this activity, do the following:
     -   **Username**: *gibbs*
     -   **Password**: *123*
 
-## Step 1: Adding Base Sales Prices for the Matrix Items { .section}
+## Step 1: Adding Base Sales Prices for the Matrix Items
 
 To add sales prices of the *Base* type for the matrix items based on the *JUICE* template item, do the following:
 
@@ -69,7 +69,7 @@ To add sales prices of the *Base* type for the matrix items based on the *JUICE*
     Notice that the table displays all sales prices from the sales price worksheet you released in this step.
 
 
-## Step 2: Activating the Needed Entity { .section}
+## Step 2: Activating the Needed Entity
 
 To export sales prices of the base type, you need to activate the *Base Sales Price* entity as follows:
 
@@ -80,7 +80,7 @@ To export sales prices of the base type, you need to activate the *Base Sales Pr
 
 3.  On the form toolbar, click **Save**.
 
-## Step 3: Synchronizing the Base Sales Prices { .section}
+## Step 3: Synchronizing the Base Sales Prices
 
 To synchronize the base sales prices, do the following:
 
@@ -95,7 +95,7 @@ To synchronize the base sales prices, do the following:
 7.  On the [Process Data](BC_50_15_00.md) \(BC501500\) form, which opens with the *SweetStore - BC* store and the *Base Sales Price* entity selected, click **Process All** on the form toolbar.
 8.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 4: Reviewing the Exported Base Prices { .section}
+## Step 4: Reviewing the Exported Base Prices
 
 To view the exported prices of the matrix items based on the *JUICE* template item, do the following:
 

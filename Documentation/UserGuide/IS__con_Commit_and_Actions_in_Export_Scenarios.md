@@ -1,8 +1,8 @@
-# Data Modification During Export: Use of Commit and Actions {#_dfe91043-171f-43b6-83eb-f24d91dbad40 .concept}
+# Data Modification During Export: Use of Commit and Actions
 
 You can change the values of some fields or apply an action to a record during export. For example, you can change a description field of a record or delete a record as you are exporting it.
 
-## Changing the Value of a Field { .section}
+## Changing the Value of a Field
 
 If you need to change the values of some fields during export, you must perform a commit of these fields to the server. That is, on the **Mapping** tab of the [Export Scenarios](SM_20_70_25.md) \(SM207025\) form, you must select the **Commit** check box for each internal field whose data is modified. If you change the values of some fields during export, you also need to insert the `<Action: Save>` command at the end of the scenario to save the changes to Acumatica ERP.
 
@@ -12,7 +12,7 @@ If you configured the scenario to change the values of some fields in Acumatica 
 
 For example, suppose that you create a scenario that exports AR invoices from the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form and adds the string *Exported on 18.05.2015* to their descriptions in Acumatica ERP. As a result of the processing of this scenario, all invoices are exported, and only the invoices with the *Balanced* and *On Hold* statuses are modified. Modification of documents with other statuses is not allowed in the system, so these documents are exported without any change to their descriptions in Acumatica ERP.
 
-## Applying an Action { .section}
+## Applying an Action
 
 As you perform mapping for an export scenario, when you need to reflect the clicking of a button on a form, you should use the corresponding action. You can use the same actions in export scenarios as in import scenarios. For more information, see [Actions in Import Scenarios](IS__con_Actions_in_Import_Scenarios.md#).
 

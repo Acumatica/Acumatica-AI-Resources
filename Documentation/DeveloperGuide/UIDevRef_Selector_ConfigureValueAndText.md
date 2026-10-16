@@ -1,4 +1,4 @@
-# Selector Control: Manual Configuration of the Value and Text {#_6f485ba0-1034-437d-895a-e2b1193d397a .concept}
+# Selector Control: Manual Configuration of the Value and Text
 
 By default, the values selected and displayed in the selector control are determined by the settings in the PXSelector attribute on the DAC field as follows:
 

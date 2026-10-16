@@ -1,4 +1,4 @@
-# To Configure Validation Rules in Salesforce Lightning {#_d9fe88a8-6def-4b20-9204-de7034c281d9 .task}
+# To Configure Validation Rules in Salesforce Lightning
 
 This topic explains how you can configure validation rules for the billing country and state fields. You should use similar expressions to configure the shipping address fields.
 
@@ -6,7 +6,7 @@ To configure lead and contact validation rules, you navigate to the appropriate 
 
 For information about other validation formulas that you may find useful, see the [Examples of Validation Rules](https://help.salesforce.com/articleView?id=fields_useful_field_validation_formulas.htm&type=0) topic in Salesforce Help.
 
-## To Configure Validation Rules { .section}
+## To Configure Validation Rules
 
 1.  In **Setup** mode, select **Objects and fields** &gt; **Object Manager** &gt; **Accounts** &gt; **Validation Rules**.
 2.  Click **New**.

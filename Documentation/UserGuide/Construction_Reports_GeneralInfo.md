@@ -1,8 +1,8 @@
-# Construction Reports: General Information {#_640f50a8-abf5-4101-a9af-41eb467ab8fd .concept}
+# Construction Reports: General Information
 
 Acumatica ERP Construction Edition includes various reports that you can use to get a complete view of project data, effectively track project costs, and estimate current project performance.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,7 +12,7 @@ In this chapter, you will learn how to do the following:
 -   Prepare subcontract audit reports and understand what information is included in them
 -   Review the project lifecycle and performance with the help of Acumatica ERP Construction Edition reports
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may find construction-specific reports useful in your role as a project manager in the following scenarios:
 
@@ -21,17 +21,17 @@ You may find construction-specific reports useful in your role as a project mana
 -   You need to verify that the billed work has been completed according to the contract specifications.
 -   You need to estimate the current progress of a project and the financial performance of particular project tasks.
 
-## Substantiated Billing Reports { .section}
+## Substantiated Billing Reports
 
 In the construction industry, when contractors bill their customers, the customers may want to see proof of the costs. In this case, the contractors need to provide supporting documentation along with the customer statement or invoice. Acumatica ERP Construction Edition includes the [Substantiated Billing](PM_65_00_00.md) \(PM650000\) and [Substantiated Billing: Consolidated](PM_65_00_50.md) \(PM650050\) reports, which are specifically designed to display a detailed breakdown of the costs incurred during a specific date range, along with the supporting documentation. For a detailed description of the information included in substantiated billing reports, see [Construction Reports: Substantiated Billing Reports](Construction_Reports_SubstantiatedBilling.md).
 
-## AIA Reports {#section_skv_pn4_qmb .section}
+## AIA Reports
 
 The common construction billing format is known as AIA progress billing, named based on the American Institute of Architects, which produces the industry’s official forms. An AIA report serves as both the contractor’s application and the architect’s certification. Using an AIA report helps to expedite payment and reduces the possibility of errors. If the application is properly completed and acceptable to the architect, the architect’s signature certifies to the owner of the project that a payment in the amount indicated is due to the contractor. The form also gives the architect the ability to certify an amount that is different than the amount applied for and to provide a corresponding explanation.
 
 For a detailed description of the information included in AIA reports, see [Construction Reports: AIA Reports](Construction_Reports_AIA.md), [Construction Reports: AIA Reports for Released Retainage](Construction_Reports_AIA_Released_Retainage.md), and [Construction Reports: Time and Material Amounts in AIA Reports](Construction_Reports_AIA_TMLines.md).
 
-## Bonding Reports { .section}
+## Bonding Reports
 
 By using the [Construction Bonding Report](PM_65_05_00.md) \(PM650500\), you can gain an understanding of the work in progress for both ongoing and completed projects within a selected date range. This report provides a wide-angle snapshot of all the projects in the system and can be used by your company's management or bonding companies to assess the financial health of the projects and make informed decisions.
 
@@ -62,11 +62,11 @@ Depending on the option selected in the **Planned Cost Estimation** box of the r
 
 You can print the report or export it to a PDF or to Microsoft Excel.
 
-## WIP Reports { .section}
+## WIP Reports
 
 In the construction industry, some companies use the percentage-of-completion method for revenue recognition. These companies provide a work-in-progress \(WIP\) schedule along with their financial statements. A WIP schedule is a detailed report used in project management to track the progress of ongoing projects and their financial status. It provides a snapshot of all projects that are currently in progress and offers insights into their financial performance, including the costs incurred, the revenue earned, and the percentage of completion. For more information on how you can use the WIP reports provided in Acumatica ERP Construction Edition, see [Construction Reports: WIP Reports](Construction_Reports_WIP.md).
 
-## Subcontract Audit Reports { .section}
+## Subcontract Audit Reports
 
 Managers in the construction industry rely on subcontract audit reports to ensure accuracy in billing, verify that the work performed aligns with the contract terms, and maintain accountability. These reports help managers track costs, identify potential risks, and ensure effective workflows.
 

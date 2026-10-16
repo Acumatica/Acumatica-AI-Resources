@@ -1,16 +1,16 @@
-# Project Tasks: Configuration Prerequisites {#_d189b298-10ea-4a21-bdfa-f93b5ab73620 .concept}
+# Project Tasks: Configuration Prerequisites
 
 Before starting to create project tasks, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Projects* feature must be enabled.
 
-## Configuring Project Task Identifiers { .section}
+## Configuring Project Task Identifiers
 
 The *PROTASK* segmented key on the [Segmented Keys](CS_20_20_00.md) \(CS202000\) form defines the identifier of the project tasks. By default, this segmented key specifies that the project task identifier is an alphanumeric string of up to 10 characters. For the key, you can define how many segments it is to have, what values may be used, whether these values should be validated, and whether auto-numbering should be used in one of the segments. You can also divide item identifiers into segments with specific values. For more information on configuring segmented keys, see [Segmented Identifiers](CS__con_Identifier_Segmentation.md).
 
-## Configuring the System { .section}
+## Configuring the System
 
 You need to make sure the following tasks have been performed in Acumatica ERP before you begin creating project tasks:
 
@@ -20,7 +20,7 @@ You need to make sure the following tasks have been performed in Acumatica ERP b
     **Tip:** To make the system automatically associate additional project transactions that are generated \(such as discounts or freight charges\) with specific project tasks, map specific general ledger accounts to these project tasks within the project in the **Default Task for GL Account** section on the **Defaults** tab of the [Projects](PM_30_10_00.md) form.
 
 
-## Defining Additional Entities Related to Project Tasks { .section}
+## Defining Additional Entities Related to Project Tasks
 
 You can define the following entities, which are not mandatory for the creation of a new project task but are commonly specified in project tasks:
 

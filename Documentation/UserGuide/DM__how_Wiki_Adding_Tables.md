@@ -1,26 +1,95 @@
-# To Add a Table {#_729b902d-b375-482f-bdfc-e0fa31bba9a4 .task}
+# To Add a Table
 
 You can easily build a table by using wiki markup.
 
-## To Understand Table Markup { .section}
+## To Understand Table Markup
 
 See below for descriptions of the basic wiki markup for tables, which you should use at the beginning of a line.
 
-|Markup Element|Description|
-|--------------|-----------|
-|\{\||The beginning of the table. Table parameters may be defined on the first line.|
-|\|+|The table title \(caption\) line.|
-|\|\}|The end of the table.|
-|!|A column heading.|
-|!!|A column heading separator if headings are all specified on one line.|
-|\||The beginning of a table cell.|
-|\|\||A cell separator if all cells are specified on one line.|
-|\|-|A table row separator.|
-|width="x%"|Column width, where *x* is the predefined width in %. Insert the attribute before the column name, with column heading separators on both sides.
+<table id="table_cp1_5tk_mj"><thead><tr><th>
 
-|
+Markup Element
 
-## To Define a Simple Table { .section}
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+\{\|
+
+</td><td>
+
+The beginning of the table. Table parameters may be defined on the first line.
+
+</td></tr><tr><td>
+
+\|+
+
+</td><td>
+
+The table title \(caption\) line.
+
+</td></tr><tr><td>
+
+\|\}
+
+</td><td>
+
+The end of the table.
+
+</td></tr><tr><td>
+
+!
+
+</td><td>
+
+A column heading.
+
+</td></tr><tr><td>
+
+!!
+
+</td><td>
+
+A column heading separator if headings are all specified on one line.
+
+</td></tr><tr><td>
+
+\|
+
+</td><td>
+
+The beginning of a table cell.
+
+</td></tr><tr><td>
+
+\|\|
+
+</td><td>
+
+A cell separator if all cells are specified on one line.
+
+</td></tr><tr><td>
+
+\|-
+
+</td><td>
+
+A table row separator.
+
+</td></tr><tr><td>
+
+width="x%"
+
+</td><td>
+
+Column width, where *x* is the predefined width in %. Insert the attribute before the column name, with column heading separators on both sides.
+
+</td></tr></tbody>
+</table>
+
+## To Define a Simple Table
 
 See below for an example of the wiki markup to define a simple table. This example shows all the column headings in one line, separated by `!!`, with the row headings \(`1.x` and `2.x`\) on separate lines. All cells for each row are listed in one line.
 
@@ -56,11 +125,10 @@ If you have long phrases in the cells or in the headings, you can define each ce
 
 Both of the syntax examples above generate the same table, as shown below.
 
-![](Images/Adding_Tables_sample1.png)
 
 You can use parameters, described in the following sections, to affect how the table looks.
 
-## To Define Table Borders { .section}
+## To Define Table Borders
 
 You specify the parameters of the table borders, among other parameters, after the \{\| characters that designate the start of the table. See the following examples of the syntax to define table borders:
 
@@ -81,7 +149,6 @@ Use the syntax below to generate a table with a border around the outside and be
 |}
 ```
 
-![](Images/Adding_Tables_sample2.png)
 
 Use the syntax below to generate the table with a thick red border.
 
@@ -97,9 +164,8 @@ Use the syntax below to generate the table with a thick red border.
 |}
 ```
 
-![](Images/Adding_Tables_sample3.png)
 
-## To Add Cell Spacing and Padding { .section}
+## To Add Cell Spacing and Padding
 
 To add space to the cells and between cells, use the *cellspacing* and *cellpadding* parameters, as shown in the following examples:
 
@@ -120,9 +186,8 @@ Use the following syntax to generate the table \(shown below the syntax\) with e
 |}
 ```
 
-![](Images/Adding_Tables_sample4.png)
 
-## To Use Color { .section}
+## To Use Color
 
 Use the syntax below to generate a table \(shown below the syntax\) with text color set to brown, background color set to yellow, and enlarged spacing in the cells.
 
@@ -138,7 +203,6 @@ Use the syntax below to generate a table \(shown below the syntax\) with text co
 |}
 ```
 
-![](Images/Adding_Tables_sample5.png)
 
 Use the syntax below to generate a table with a gray background color for the table heading \(shown below the syntax\).
 
@@ -155,7 +219,6 @@ Use the syntax below to generate a table with a gray background color for the ta
 |}
 ```
 
-![](Images/Adding_Tables_sample6.png)
 
 You can also add color to the row headings. The following syntax sets the background color of the table heading to black, the text color of the table heading to gray, and the background color of the row headings to a different shade of gray.
 
@@ -174,7 +237,6 @@ You can also add color to the row headings. The following syntax sets the backgr
 
 The syntax above generates the table below.
 
-![](Images/Adding_Tables_sample7.png)
 
 **Parent topic:**[Wiki Content Procedures](../UserGuide/DM__mng_Wiki_How_To.md)
 

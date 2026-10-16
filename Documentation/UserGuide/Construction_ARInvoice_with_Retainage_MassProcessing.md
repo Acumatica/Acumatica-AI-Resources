@@ -1,8 +1,8 @@
-# AR Invoices with Retainage: Mass-Processing of Documents {#_227f871a-1ed5-4ce4-86a7-9eeab126d214 .concept}
+# AR Invoices with Retainage: Mass-Processing of Documents
 
 The following section explains how to release retainage for multiple AR invoices.
 
-## Mass-Releasing Retainage { .section}
+## Mass-Releasing Retainage
 
 To release retainage for multiple invoices, you use the [Release AR Retainage](AR_51_00_00.md) \(AR510000\) form. In the Selection area, you select the date for which you want to create the retainage invoices. You can specify other selection criteria to filter the documents in the table, such as customer, project, project task, account group, cost code, and inventory ID. In the **Retainage Percent** box, you also can specify the percentage of retainage to be released for all invoices in the table; this percentage can be overridden for any invoice.
 

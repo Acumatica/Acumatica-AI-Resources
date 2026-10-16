@@ -1,4 +1,4 @@
-# Processing Credit Card Payments {#_8c5a0b13-aeea-40d6-ae4b-af98dd5da9aa .concept}
+# Processing Credit Card Payments
 
 With Acumatica ERP, your company can collect information about customer credit cards and update the information as needed. This information can be used to collect payments for the invoices of customers that prefer to pay by credit card. You can perform mass-processing of automatic payments, and you can manually initiate card payments for any payment document.
 
@@ -16,6 +16,8 @@ By using Acumatica ERP, you can also easily identify and handle failed transacti
 
 -   **[Automatic Credit Card Surcharges](../UserGuide/AR__con_CCPayments_Surcharges.md)**  
 
+-   **[Processing Status Update for Credit Card Payments](../UserGuide/AR__con_CardPayments_Processing_Status_Update.md)**  
+
 -   **[To Charge Customers for Invoices](../UserGuide/AR__how_Charging_Customers_for_Invoices.md)**  
 
 -   **[To Enter a Payment from a New Credit Card](../UserGuide/AR__how_Enter_Payment_from_New_Card.md)**  
@@ -29,5 +31,7 @@ By using Acumatica ERP, you can also easily identify and handle failed transacti
 -   **[To Process a Transaction Held for Review by the Processing Center](../UserGuide/AR__HOW_To_Process_CCTransaction_Held_for_Review.md)**  
 
 -   **[To Deactivate Expired Credit Cards](../UserGuide/AR__how_Deactivating_Expired_Credit_Cards.md)**  
+
+-   **[To Update the Processing Status of Payments](../UserGuide/AR__HOW_Update_Processing_Status.md)**  
 
 

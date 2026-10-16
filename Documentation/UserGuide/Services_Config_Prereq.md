@@ -1,12 +1,12 @@
-# Service Items: Configuration Prerequisites {#_7497801b-b4e3-4559-85e3-444e202c10dd .concept}
+# Service Items: Configuration Prerequisites
 
 Before you start configuring a service item, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features {#section_qyg_msv_qlb .section}
+## Enabling the Needed Features
 
 To be able to process sales and purchase orders that include non-stock items, you need to enable the *Inventory and Order Management* feature on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. If you want to configure the processing of sales and purchases orders that include non-stock items with shipments and purchase receipts, you should also enable the *Inventory* feature. If the *Inventory* feature is not enabled, you can process sales and purchases only directly, by using AR invoices and AP bills rather than sales orders and purchase orders.
 
-## Configuring the System {#section_dgd_1yy_mlb .section}
+## Configuring the System
 
 You need to make sure the following tasks have been performed in Acumatica ERP before you begin creating non-stock items:
 

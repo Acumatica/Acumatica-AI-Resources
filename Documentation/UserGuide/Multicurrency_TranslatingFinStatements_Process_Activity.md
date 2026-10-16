@@ -1,12 +1,12 @@
-# Translation of Financial Statements: Process Activity {#_35846545-2364-42a0-9e44-3d27267a88cd .task}
+# Translation of Financial Statements: Process Activity
 
 The following activity will walk you through the process of translating financial statements into a foreign currency.
 
-## Story {#section_h11_jjv_vxb .section}
+## Story
 
 Suppose that after the configuration of a translation definition, the chief accountant of SweetLife Fruits &amp; Jams has decided to translate account balances from the base currency \(*USD*\) into a foreign currency \(*EUR*\) by using the configured translation definition. Acting as a SweetLife accountant, you have to translate the account balances for December 2025 and January 2026.
 
-## Configuration Overview {#section_mfx_3jv_vxb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -20,13 +20,13 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, the *32000 \(Retained Earnings\)* and *33000 \(Net Income\)* accounts have been created.
 -   On the [Currency Rate Types](CM_20_10_00.md) \(CM201000\) form, the *SPOT* rate type has been defined.
 
-## Process Overview {#section_m11_jjv_vxb .section}
+## Process Overview
 
 In this activity, you will prepare a translation for December 2025 on the [Prepare Translation](CM_50_10_00.md) \(CM501000\) form and release it on the [Translation Worksheets](CM_30_40_00.md) \(CM304000\) form. You will then review the balances of the reporting ledger on the [Account Summary](GL_40_10_00.md) \(GL401000\) form.
 
 Next, you will prepare a translation for January 2026 on the [Prepare Translation](CM_50_10_00.md) form, release it on the [Translation Worksheets](CM_30_40_00.md) form, and analyze how the system updated the balances.
 
-## System Preparation {#section_p11_jjv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -36,7 +36,7 @@ Before you begin performing the steps of this activity, do the following:
 4.  Make sure that the multicurrency accounting functionality has been configured as described in [Multicurrency Functionality: Implementation Activity](../ImplementationGuide/config_Multicurrency_Basic_Implem_Activity.md) and [Configuration of Rate Types and Rates: To Configure Rates](../ImplementationGuide/config_Multicurrency_Configuring_Rates_Activity1.md).
 5.  Make sure that you have created a translation definition as described in [Translation Definitions: Implementation Activity](../ImplementationGuide/config_Multicurrency_TranslationDefinition_Implem_Activity.md).
 
-## Step 1: Preparing a Translation for December 2025 {#section_s11_jjv_vxb .section}
+## Step 1: Preparing a Translation for December 2025
 
 To prepare a translation for the 12-2025 period, do the following:
 
@@ -65,7 +65,7 @@ To prepare a translation for the 12-2025 period, do the following:
     The system prepares the translation worksheet and displays it on the [Translation Worksheets](CM_30_40_00.md) \(CM304000\) form.
 
 
-## Step 2: Reviewing the Balances and Releasing the Translation {#section_ab1_jjv_vxb .section}
+## Step 2: Reviewing the Balances and Releasing the Translation
 
 To review the translated balances and release the translation, do the following:
 
@@ -97,7 +97,7 @@ To review the translated balances and release the translation, do the following:
     The *EUROTRANS* reporting ledger now contains account balances translated to *EUR*, so that you can use it for preparing financial statements and other reports in the *EUR* currency for the *12-2025* period.
 
 
-## Step 3: Reviewing the Balances of the Reporting Ledger {#section_lb1_jjv_vxb .section}
+## Step 3: Reviewing the Balances of the Reporting Ledger
 
 To review the balances of the *EUROTRANS* reporting ledger, do the following:
 
@@ -112,7 +112,7 @@ To review the balances of the *EUROTRANS* reporting ledger, do the following:
     Account balances have been translated to *EUR* and recorded to the reporting ledger. The amounts in the **Ending Balance** column are the same as those in the **Translated Balance** column of the translation worksheet that you released.
 
 
-## Step 4: Preparing and Releasing a Translation for January 2026 {#section_nb1_jjv_vxb .section}
+## Step 4: Preparing and Releasing a Translation for January 2026
 
 To prepare a translation for the *01-2026* period, do the following:
 
@@ -142,7 +142,7 @@ To prepare a translation for the *01-2026* period, do the following:
 8.  On the form toolbar, click **Run Report**.
 9.  Review the report. It lists the accounts whose balances were updated with the translation.
 
-## Step 5: Reviewing the Balances of the Reporting Ledger {#section_tb1_jjv_vxb .section}
+## Step 5: Reviewing the Balances of the Reporting Ledger
 
 To review the balances of the reporting ledger updated by the translation, do the following:
 

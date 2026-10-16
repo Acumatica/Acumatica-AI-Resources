@@ -1,23 +1,22 @@
-# Image Viewer: General Information {#_8e7be7c5-4350-4af9-9bb6-42b963c75623 .concept}
+# Image Viewer: General Information
 
 An image viewer is a control that is used to display an image. This control displays the image by using a URL that is stored in a field that is bound to this control. The following screenshot shown an example of an image viewer control.
 
-![](Images/UIDevRef_ImageViewer_SampleImage.png "The Image Viewer control")
 
 An image viewer control is defined by PXImageView in the Classic UI. In the Modern UI, an image viewer control is defined by the [qp-image-view](https://help.acumatica.com/(W(1))/Help?ScreenId=ShowWiki&pageid=b104948d-ac2a-f39d-5026-de79340d3cfd) tag.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn the following about an image viewer control:
 
 -   The various approaches to specifying the size of an image viewer control
 -   The conversion of the ASPX elements of an image viewer control to HTML or TypeScript
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure an image viewer control when a user needs to view images that are associated with a record.
 
-## Specifying the Size of an Image Viewer Control { .section}
+## Specifying the Size of an Image Viewer Control
 
 You can specify the size of an image viewer control in the following ways:
 

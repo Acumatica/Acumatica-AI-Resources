@@ -1,8 +1,8 @@
-# Sales with Returns: General Information {#_df1aa823-16a8-4aa2-b53a-13fa781fdea4 .concept}
+# Sales with Returns: General Information
 
 In Acumatica ERP, you can create a mixed order to process both a sale and a return in the same order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -10,7 +10,7 @@ In this chapter, you will do the following:
 -   Create a mixed order
 -   Process a sale with a return in a mixed order and the related documents
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 You may need to perform a sale and a return through a mixed order if all or most of the following are true for your company:
 
@@ -21,7 +21,7 @@ You may need to perform a sale and a return through a mixed order if all or most
 
 Because you perform these sales and returns at a counter, you process no shipments. You also need to process AR documents.
 
-## Processing of a Sale with a Return { .section}
+## Processing of a Sale with a Return
 
 This section describes the general workflow of a sale with a return in the same order; for simplicity, a single item is returned and a single item is sold in this workflow.
 
@@ -51,11 +51,10 @@ To process the sale of a stock item and the return of a stock item in the same m
     When the sales invoice or credit memo is released and assigned the *Closed* status, you can view this invoice or credit memo as an AR invoice or AR credit memo, respectively, on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 
 
-## Workflow of Processing a Sale with a Return {#section_vv2_1y4_y4b .section}
+## Workflow of Processing a Sale with a Return
 
 For a sale with a return in the same order, the typical process involves the actions and generated documents shown in the following diagram.
 
-![](Images/diag_OrderMgmt_Sales_with_Returns.png)
 
 **Parent topic:**[Processing Sales with Returns](../UserGuide/OrderMgmt_Sales_with_Returns_Mapref.md)
 

@@ -1,8 +1,8 @@
-# Payroll Batches: General Information {#_81524fd9-84c3-4554-90f1-0ba1a6b568cc .concept}
+# Payroll Batches: General Information
 
 Typically, employees are paid not on an individual basis but based on their membership in a pay group. In Acumatica ERP, you divide your workforce into pay groups that have the same schedule of pay period, such as weekly, biweekly, or monthly. You create a payroll batch to collect a pay group's payroll data, which is extracted from various sources, such as time activities, time cards, sales commissions, and employee default setup, and process it in batch mode. As a result of the payroll batch processing, the system creates one paycheck for each employee included in the batch.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -11,11 +11,11 @@ In this chapter, you will learn how to do the following:
 -   Import time activities from a file
 -   Release payroll batches
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You use payroll batches as a way to quickly create multiple paychecks for employees from one pay group.
 
-## Creating a Payroll Batch { .section}
+## Creating a Payroll Batch
 
 By using the [Payroll Batches](PR_30_10_00.md) \(PR301000\) form, you can create a payroll batch for a specific pay group. To create a payroll batch, first you need to select the type of batch you want to create \(regular or special\), specify a pay group, and then select a pay period.
 
@@ -23,7 +23,7 @@ You can add to a regular payroll batch only an employee that belongs to the sele
 
 For a special paycheck, no restrictions apply.
 
-## Processing of Payroll Batches { .section}
+## Processing of Payroll Batches
 
 A payroll batch can have one of the following statuses:
 
@@ -32,7 +32,7 @@ A payroll batch can have one of the following statuses:
 -   *Open*: The batch has been released and the paychecks have been created but not yet released.
 -   *Closed*: All the paychecks included in the payroll batch have been released.
 
-## Adding Employees { .section}
+## Adding Employees
 
 On the **Employee** tab of the [Payroll Batches](PR_30_10_00.md) \(PR301000\) form, you can add one employee or multiple employees at a time by clicking the **Add Employees** button on the table toolbar. In the **Add Employees** dialog box, which opens, you can do any of the following:
 
@@ -40,7 +40,7 @@ On the **Employee** tab of the [Payroll Batches](PR_30_10_00.md) \(PR301000\) fo
 -   Select the **Time Activities \(will override defaults as applicable\)** check box to import the time from the released time activities entered for the employee bringing all the details linked to them.
 -   Select the **Sales Commissions** check box to import the unpaid commission. It will create an amount-based earning line for each employee having unpaid commissions. The check box is available if the *Commissions* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Importing Time Worked from a File { .section}
+## Importing Time Worked from a File
 
 On the **Earning** tab of the [Payroll Batches](PR_30_10_00.md) \(PR301000\) form, you can upload earned hours from an Excel file directly to a payroll batch without having to use time cards. To do this, you need to use the **Load Records from File** button on the table toolbar. Only records related to employees who belong to the selected pay group and records whose date is within the specified pay period can be imported.
 
@@ -59,15 +59,15 @@ Similarly, the following happens during the import if the *Shift Differential* f
 
 The system allows importing time activities with negative hours specified, which may be useful in some cases. For instance, if you want to cancel an activity that was associated with a wrong project, you can enter a similar time activity for that project but with the negative time specified, and then you need to enter the same time activity with the positive number of hours and associate it with the correct project. However, the system does not allow releasing payroll batches with negative time entries; to be able to release such a batch, in the employee earning details, you need to manually change to *0* the time of the both positive and negative time activities associated with the wrong project.
 
-## Adjusting Earning Details {#section_vv2_1y4_y4b .section}
+## Adjusting Earning Details
 
 On the [Payroll Batches](PR_30_10_00.md) \(PR301000\) form, you can review, edit, remove, or enter earning details for each employee included in the batch by using the **Employee Earning Details** dialog box, which opens if you click **Employee Earning Details** on the table toolbar of the **Employee** tab, or by using the **Earning** tab. If you insert overtime hours for a salaried exempt employee or import time activities that include overtime hours for such an employee, an error message will be displayed until you delete the overtime record or change the employee type.
 
 When you have the gross pay calculated for each employee, you may want to exclude a specific deductions or benefits or to prevent the system from using an overtime rule for a specific batch of employees. On the **Deductions and Benefits** and **Overtime Rules** tabs, you can deactivate an item specifically for the payroll batch.
 
-You can edit a payroll batch only if its status is *On Hold*, which is when the **Hold** check box is selected for the batch in the Summary area of the [Payroll Batches](PR_30_10_00.md) form.
+You can edit a payroll batch only if its status is *On Hold*, which is when the **Hold** check box is selected for the batch in the Summary area of the [Payroll Batches](PR_30_10_00.md) form, or *Balanced*.
 
-## Releasing a Payroll Batch { .section}
+## Releasing a Payroll Batch
 
 If you have finished editing a payroll batch, you release it from hold by clearing the **Hold** check box in the Summary area of the [Payroll Batches](PR_30_10_00.md) \(PR301000\) form. Then you can release the batch by clicking **Release** on the form toolbar of the same form.
 

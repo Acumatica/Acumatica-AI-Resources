@@ -1,21 +1,21 @@
-# Lead Classes: Implementation Activity {#_595d851a-6477-42a4-9190-db9b4b55008b .task}
+# Lead Classes: Implementation Activity
 
 The following implementation activity will show you how to create a lead class.
 
 **Attention:** You will perform this activity by using the *U100* dataset. In *U100*, you can also view examples of CRM classes that have been already created and contain all additional settings. If you have configured a company with basic settings and you want to practice creating a CRM class in this company, use the *admin* user to complete the activity.
 
-## Story { .section}
+## Story
 
 Suppose that you are an implementation consultant for the SweetLife Fruits &amp; Jams company, and you need to create a new lead class, *MALL*, and make it the default class to be specified for each newly created lead. This class will be used for SweetLife's leads that represent employees from large shopping centers.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
 1.  Create a lead class on the [Lead Classes](CR_20_70_00.md) \(CR207000\) form
 2.  Specify the new class as the default lead class on the [Customer Management Preferences](CR_10_10_00.md) \(CR101000\) form
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating a lead class, you should do the following:
 
@@ -25,7 +25,7 @@ Before you start creating a lead class, you should do the following:
     -   **Password**: *123*
 3.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Creating a Lead Class { .section}
+## Step 1: Creating a Lead Class
 
 To create the *MALL* lead class, do the following:
 
@@ -39,7 +39,7 @@ To create the *MALL* lead class, do the following:
 
 You have created the new lead class.
 
-## Step 2: Specifying the Default Lead Class { .section}
+## Step 2: Specifying the Default Lead Class
 
 To select the *MALL* lead class as the default class for newly created leads, do the following:
 

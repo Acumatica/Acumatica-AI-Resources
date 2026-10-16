@@ -1,10 +1,10 @@
-# Grouping of Invoices: Process Activity {#_c53c0234-16c1-4385-a86e-d9cecd34d4c0 .task}
+# Grouping of Invoices: Process Activity
 
 This activity will walk you through the process of configuring project billing to create a single invoice for the project or to create multiple separate invoices. You will learn how to bill the project with different billing rules assigned to the project tasks, how to bill a project task separately from the other tasks of the project, and how to bill project transactions that are processed by particular steps of billing rules with a separate invoice.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the Thai Food Restaurant customer has ordered two juicers from the SweetLife Fruits &amp; Jams company, along with the following services: site review, installation, and employee training on operating the juicers. The project accountant of SweetLife has created the project to handle the tracking and billing of the provided materials and services. The project has three tasks that represent three phases of the project execution:
 
@@ -19,7 +19,7 @@ Acting as the project accountant, you will bill the customer with a single invoi
 -   Create a separate invoice for the third phase
 -   Create a separate invoice for the juicers
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -27,18 +27,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Projects](PM_30_10_00.md) \(PM301000\) form, the *TOMYUM9* project has been created and three project tasks have been configured.
 -   On the [Project Transactions](PM_30_40_00.md) \(PM304000\) form, the *PM00000005* batch of project transactions related to the project has been created and released.
 
-## Process Overview { .section}
+## Process Overview
 
 To bill a time and material project, you first will review and configure project invoices with the billing rule on the [Billing Rules](PM_20_70_00.md) \(PM207000\) form and with the project tasks on the [Projects](PM_30_10_00.md) \(PM301000\) form. Then you will bill the project on the [Projects](PM_30_10_00.md) form. Finally, you will review the created pro forma invoice on the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, perform the following instructions to prepare the system:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded; you should sign in as project accountant by using the *brawner* username and the *123* password.
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Billing a Project with Multiple Billing Rules { .section}
+## Step 1: Billing a Project with Multiple Billing Rules
 
 To bill the project with different billing rules assigned to the project tasks, do the following:
 
@@ -56,7 +56,7 @@ To bill the project with different billing rules assigned to the project tasks, 
 6.  On the **Time and Material** tab, review the invoice lines and notice that lines related to all the project tasks are in the same invoice, even though the project tasks have different billing rules assigned. You need to reconfigure the billing to prepare a separate pro forma invoice for each project task.
 7.  Delete the pro forma invoice, so you can bill this project again when you change the configuration of project billing.
 
-## Step 2: Billing Project Tasks Separately { .section}
+## Step 2: Billing Project Tasks Separately
 
 To bill the *PHASE3* project task separately from the other project tasks, do the following:
 
@@ -78,7 +78,7 @@ To bill the *PHASE3* project task separately from the other project tasks, do th
 
 You have deleted the pro forma invoices you created, so you are able to bill the project again when you change the configuration of project invoices again.
 
-## Step 3: Grouping Invoices by Steps of Billing Rules { .section}
+## Step 3: Grouping Invoices by Steps of Billing Rules
 
 To create a separate invoice for the juicers whose costs are tracked within the *MATERIAL* account group, do the following:
 
@@ -104,7 +104,6 @@ To create a separate invoice for the juicers whose costs are tracked within the 
 
     The system creates three pro forma invoices, and opens the Pro Forma Invoices \(PM3070PL\) list of records, as shown below. The system has created one more separate invoice based on unbilled transactions with the *MATERIAL* account group using the steps of the billing rules with the *MATERIAL* invoice group.
 
-    ![](Images/activity_Projects_Grouping_Invoices_Process_Activity.png "Pro forma invoices prepared during billing procedure")
 
 11. Click the link in the **Reference Nbr.** column to open the pro forma invoice with the total amount of $400 on the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form. On the **Time and Material** tab, notice that the invoice includes one line related to the *PHASE3* task. Click Back in the browser window to go back to the list of records.
 12. Click the link in the **Reference Nbr.** column to open the pro forma invoice with the total amount of $750 on the [Pro Forma Invoices](PM_30_70_00.md) form. On the **Time and Material** tab, notice that the invoice includes four lines related to the *PHASE1* and *PHASE2* tasks except the lines with juicers. Click Back in the browser window to go back to the list of records.

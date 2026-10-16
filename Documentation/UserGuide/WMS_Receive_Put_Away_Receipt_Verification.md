@@ -1,4 +1,4 @@
-# Receiving and Putting Away Operations: Receipt Verification {#_9bf72e01-2066-402f-bd75-96001d4560a5 .concept}
+# Receiving and Putting Away Operations: Receipt Verification
 
 If the *Receiving* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, during the automated receiving of stock and non-stock items, you can perform additional verification of a purchase receipt to ensure the correctness of its items and item quantities. When the **Verify Receipts Before Release** check box is selected on the [Purchase Orders Preferences](PO_10_10_00.md) \(PO101000\) form, a warehouse worker can no longer release a purchase receipt on the [Receive and Put Away](PO_30_20_20.md) \(PO302020\) form. Instead, the warehouse worker confirms the received quantities, which causes the receipt to be assigned the *Received* status. Then the warehouse manager \(or another user responsible for the verification\) verifies and releases the purchase receipt on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form.
 
@@ -6,11 +6,10 @@ If the *Receiving* feature is enabled on the [Enable/Disable Features](CS_10_00_
 
 In this topic, you will read about the workflow for the automated receiving of inventory items with the additional step of purchase receipt verification in Acumatica ERP. The workflow in this topic is based on the assumption that your system has the recommended configuration described in [Receiving and Putting Away Operations: Implementation Checklist](WMS_Receive_Put_Away_Implem_Checklist.md).
 
-## Workflow for the Automated Receipt of Items with Receipt Verification { .section}
+## Workflow for the Automated Receipt of Items with Receipt Verification
 
 The automated processing of receiving items with receipt verification involves the actions shown in the following diagram.
 
-![](Images/diag_WMS_Receive_Confirm_Receipt.png)
 
 To process the receipt of items \(and to use Receive mode\), the warehouse employees perform the following steps:
 

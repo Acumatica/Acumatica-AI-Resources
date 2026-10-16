@@ -1,4 +1,4 @@
-# Adding User-Defined Fields to Customization Projects {#_525ae6eb-c796-48ce-bba5-59ad3f8f8d3d .concept}
+# Adding User-Defined Fields to Customization Projects
 
 In this chapter, you will learn how to add user-defined fields to Acumatica ERP forms and add user-defined fields to a customization project.
 

@@ -1,12 +1,12 @@
-# Integration with HubSpot: To Resolve Synchronization Issues {#_e5f01da2-50af-4d3e-9875-29f74f051874 .task}
+# Integration with HubSpot: To Resolve Synchronization Issues
 
 In this activity, you will learn how to resolve issues that occur during the synchronization of entities between HubSpot and Acumatica ERP.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to the necessary tenant.
 
-## Step: Reviewing Errors and Resolving Issues { .section}
+## Step: Reviewing Errors and Resolving Issues
 
 To verify and modify \(if necessary\) the import scenario, do the following:
 

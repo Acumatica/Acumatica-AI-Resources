@@ -1,4 +1,4 @@
-# To Select Records by Using Fluent BQL {#_3a964dfb-df28-4bea-89d6-76439c44dae3 .task}
+# To Select Records by Using Fluent BQL
 
 You can select records from the database by constructing a fluent business query language \(BQL\) statement. To construct a fluent BQL statement, you use the SelectFrom&lt;&gt; class and append the needed clauses to the statement.
 
@@ -6,7 +6,7 @@ This topic describes how to compose Select statements by using fluent BQL. For d
 
 **Note:** In a SelectFrom&lt;&gt; class, you configure a query to the database. The actual request to the database is performed once you cast the result of the query execution to a DAC or an array of DACs, or when you iterate through DACs in the result with the `foreach` statement. For details, see [Data Query Execution](AD__con_Query_Execution.md).
 
-## Before You Proceed {#_1f0a8248-99eb-4897-be95-8bb852d09cbc .section}
+## Before You Proceed
 
 -   Make sure that the application database has the database tables from which you are going to request data, and that the application defines the data access classes \(DACs\) for these tables. For more information on defining DACs, see [Data Access Classes in Fluent BQL](AD__con_DACs_in_FBQL.md).
 -   Add references to `PX.Data.dll` and `PX.Data.BQL.Fluent.dll` in the project.
@@ -18,7 +18,7 @@ This topic describes how to compose Select statements by using fluent BQL. For d
     ```
 
 
-## To Compose a Fluent BQL Statement {#_7070d995-fef5-4f90-98ce-2918b02a9a19 .section}
+## To Compose a Fluent BQL Statement
 
 1.  Type the SelectFrom&lt;&gt; class with the needed DAC as the type parameter.
 

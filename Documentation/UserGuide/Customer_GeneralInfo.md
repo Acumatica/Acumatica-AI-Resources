@@ -1,22 +1,22 @@
-# Customers: General Information {#_f38972e8-a206-4279-8681-b9e2743759c0 .concept}
+# Customers: General Information
 
 In Acumatica ERP, each customer account stores all customer-related information you need to conduct business with your company’s customers. This information includes addresses, locations, contacts, and payment methods, as well as financial, billing, delivery, and mailing settings. Acumatica ERP provides you with different tools that ease the process of entering customer data and help you to organize this data on reports.
 
-## Learning Objectives {#section_rbl_4jv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
 -   Create a new customer based on the default customer class
 -   Review the default settings that the system has inserted from the customer class
 
-## Applicable Scenarios {#section_ubl_4jv_vxb .section}
+## Applicable Scenarios
 
 You add customer accounts in the following cases:
 
 -   When you initially configure Acumatica ERP and enter the customer base into the system
 -   When you need to create an account for a new customer of the company
 
-## Entities Needed for Customer Account Setup {#section_wbl_4jv_vxb .section}
+## Entities Needed for Customer Account Setup
 
 Before you start setting up customer accounts in Acumatica ERP, you need to configure the entities that will ease the processes of customer account creation and maintenance.
 

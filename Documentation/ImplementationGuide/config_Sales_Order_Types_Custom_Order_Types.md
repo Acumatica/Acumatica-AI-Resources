@@ -1,4 +1,4 @@
-# Sales Order Types: Custom Sales Order Types {#_e9d8ed9c-ce83-4de5-afba-388e983d193e .concept}
+# Sales Order Types: Custom Sales Order Types
 
 In addition to the predefined order types Acumatica ERP provides for common order processing operations, if the *Custom Order Types* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, you can create more order types to support business processes in your company that cannot be supported with the predefined order types. For example, you may need to configure a custom order type that uses different numbering sequences to determine order IDs and different sets of general ledger accounts and subaccounts. Also, this type might have different processing options specified, such as the setting that determines whether the system performs a credit check when the orders of this type are entered.
 
@@ -6,7 +6,7 @@ On the [Order Types](../UserGuide/SO_20_10_00.md) \(SO201000\) form, you can cre
 
 The sections below describe the creation of custom order types.
 
-## Order Types Created From Scratch { .section}
+## Order Types Created From Scratch
 
 You can create a new order type on the [Order Types](../UserGuide/SO_20_10_00.md) \(SO201000\) form. For the new order type, you should specify the following settings, which affect the general workflow of the orders of this type:
 
@@ -16,7 +16,7 @@ You can create a new order type on the [Order Types](../UserGuide/SO_20_10_00.md
 
 After you have specified the template settings, you configure additional processing options on the **General** tab of the form.
 
-## Order Types Based on Predefined Templates { .section}
+## Order Types Based on Predefined Templates
 
 On the [Order Types](../UserGuide/SO_20_10_00.md) \(SO201000\) form, you can create a custom order type that is based on the available templates, which generally involves creating a new order type with a predefined template and making slight changes to the order type settings. For example, you can create separate quote order types, based on the *QT \(Quote\)* template, for the customer price classes of wholesale, retail, and catalog customers.
 

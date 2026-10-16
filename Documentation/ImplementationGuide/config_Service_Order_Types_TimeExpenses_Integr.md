@@ -1,8 +1,8 @@
-# Service Order Types: Tracking of Staff Member Time {#_6007d631-c31b-4617-bfd4-fd8d7013cad4 .concept}
+# Service Order Types: Tracking of Staff Member Time
 
 The time that staff members spend on attending appointments or performing services can be reported automatically on the [Employee Time Activities](../UserGuide/EP_30_70_00.md) \(EP307000\) form. To enable the automatic reporting of time, you need to appropriately configure service order types related to appointments and services for which time has to be tracked.
 
-## Configuration of the Tracking of Time Activities for Staff Members { .section}
+## Configuration of the Tracking of Time Activities for Staff Members
 
 To make the system automatically create the applicable time activities for staff members on the [Employee Time Activities](../UserGuide/EP_30_70_00.md) \(EP307000\) form for the time they spend during the appointment, you should configure the system as follows:
 

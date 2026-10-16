@@ -1,4 +1,4 @@
-# Replenishing Inventory Through a Distribution Center {#_d3f30a87-9bd4-4f13-aca1-89021a2fb995 .concept}
+# Replenishing Inventory Through a Distribution Center
 
 A company that has multiple warehouses can replenish stock items by purchasing them through a distribution center and transferring them to a destination warehouse. The topics of this chapter explain the general workflow of item replenishment using a source warehouse as a distribution center.
 

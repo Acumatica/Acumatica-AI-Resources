@@ -1,4 +1,4 @@
-# Import and Export Scenarios {#_66b77217-fe2c-459a-a00d-3789b27d4dbb .concept}
+# Import and Export Scenarios
 
 You use the [Import and Export Scenarios](../UserGuide/AU_20_55_00.md) \(AU205500\) page of the [Customization Project Editor](../UserGuide/SM_20_45_10.md) to manage *XportScenario* items in the customization project.
 

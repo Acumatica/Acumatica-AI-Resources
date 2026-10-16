@@ -1,4 +1,4 @@
-# Production Processing: Selection of Warehouse Locations {#_3f87d102-4852-4596-af4d-0a06c0323c56 .concept}
+# Production Processing: Selection of Warehouse Locations
 
 Produced items and materials used in production are usually stored in warehouse locations. You assign a warehouse to each production order. The system uses this warehouse as the default warehouse to which the produced items are received to and from which the materials are issued. If the warehouse has multiple locations and the *Multiple Warehouse Locations* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, a warehouse location must be specified for each production order. This location is where produced items are received and materials are issued in production transactions.
 
@@ -6,7 +6,7 @@ In the following sections, you can find information about how the system selects
 
 **Important:** The **Use Item Default Location for Picking** check box on the **Locations** tab of the [Warehouses](IN_20_40_00.md) \(IN204000\) form does not affect the selection of default warehouse locations in production transactions.
 
-## Receipt of Completed Items { .section}
+## Receipt of Completed Items
 
 When you create a production order on the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form, the warehouse and the warehouse location to which the completed items will be received must be specified in the **Warehouse** and **Location** boxes of the Summary area. By default, the system inserts the warehouse specified in the **Default Warehouse** box of the **General** tab on [Stock Items](IN_20_25_00.md) \(IN202500\) form for the item to be produced. If no default warehouse is specified for the item, you must select the warehouse manually.
 
@@ -25,7 +25,7 @@ For each warehouse location that may be used for item receipt, you should make s
 -   **Active**
 -   **Production Allowed**
 
-## Issue of Materials { .section}
+## Issue of Materials
 
 The system can insert default warehouse locations for rows in a material transaction created on the [Materials](AM_30_00_00.md) \(AM300000\) form. If a warehouse location is specified in the **Location** column of the **Materials** tab on the [Production Order Details](AM_20_90_00.md) \(AM209000\) form in the material row for which you create the material transaction, the system copies this location to the **Location** column of the material row in the transaction. If the location column on the [Production Order Details](AM_20_90_00.md) form is empty, then the system uses the following rules for determining the default warehouse location in a material transaction:
 

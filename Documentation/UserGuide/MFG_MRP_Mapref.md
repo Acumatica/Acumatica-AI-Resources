@@ -1,4 +1,4 @@
-# Inventory Planning with MRP {#_33cf90fe-0c52-485e-9f37-857f477476d9 .concept}
+# Inventory Planning with MRP
 
 Balancing supply and demand is critical to any manufacturing organization. Inventory planning \(Material requirements planning or MRP\) in Acumatica ERP Manufacturing Edition provides powerful planning tools that help your organization to satisfy customer requirements while maintaining optimal inventory levels.
 

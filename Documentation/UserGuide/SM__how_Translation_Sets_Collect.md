@@ -1,8 +1,8 @@
-# To Collect the Strings of a Translation Set {#_ea9885a0-9d73-4e20-8dec-c8e3493a03c0 .task}
+# To Collect the Strings of a Translation Set
 
 You can collect strings for translation sets one set at a time by using the [Translation Sets](SM_21_15_00.md) \(SM211500\) form. You can also collect strings for multiple translation sets on the [Collect Translation Sets](SM_51_15_00.md) \(SM511500\) form, as described in [To Collect Strings of Multiple Translation Sets](SM__how_Translation_Sets_Collect_Multiple.md). For more information, see [Translation Process](SM__con_Translation_Process.md).
 
-## To Collect the Strings of a Translation Set { .section}
+## To Collect the Strings of a Translation Set
 
 1.  Open the [Translation Sets](SM_21_15_00.md) \(SM211500\) form.
 2.  In the **Translation Sets** box, select the translation set whose strings you want to collect.

@@ -1,4 +1,4 @@
-# Unpublishing Customization Projects {#_9cabde1f-8f20-4995-9d0f-42513f8d7e30 .concept}
+# Unpublishing Customization Projects
 
 In this chapter, you will learn how to unpublish customization projects that have been published on an Acumatica ERP instance.
 

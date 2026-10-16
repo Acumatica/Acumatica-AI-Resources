@@ -1,24 +1,24 @@
-# Check Reprinting: Process Activity {#_abdf6b04-5556-4cab-9cf2-1b0a7c492886 .task}
+# Check Reprinting: Process Activity
 
 The following activity will walk you through the process of printing, correcting, and reprinting a check.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_zrj_njv_vxb .section}
+## Story
 
 Suppose that in November 2025, the SweetLife Fruits &amp; Jams company bought glass jars and lids from Jar Co. in the amount of $410, and a check was entered in the system.
 
 Acting as a SweetLife accountant, you have to print the check to prepare it for further processing. Further suppose that after printing the check, you find out that the items in one of the two bills included in this check \(with an amount of $50\) have not been delivered. You have to exclude this bill from the check, reprint the check, and release the check.
 
-## Configuration Overview {#section_csj_njv_vxb .section}
+## Configuration Overview
 
 For the purposes of this activity, on the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form, the **Hold Documents on Entry** check box has been selected in the **Data Entry Settings** section.
 
-## Process Overview {#section_esj_njv_vxb .section}
+## Process Overview
 
 You will initially print a check on the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form. When you discover that the check you printed was in error, on the [Process Payments / Print Checks](AP_50_50_00.md) \(AP505000\) form, you will select the *Reprint* action for the check to change its status from *Printed* to *Pending Print*; this makes it possible to put the check on hold \(assign the *On Hold* status to it\) so that it can be edited. On the [Checks and Payments](AP_30_20_00.md) form, you will make necessary edits to the check. Then on the [Process Payments / Print Checks](AP_50_50_00.md) form, you will reprint the check on a new blank check with a new number. Finally, you will release the updated and reprinted check on the [Release Payments](AP_50_52_00.md) \(AP505200\) form.
 
-## System Preparation {#section_gsj_njv_vxb .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -28,7 +28,7 @@ To prepare the system, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026*. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Finding and Printing a Check {#section_isj_njv_vxb .section}
+## Step 1: Finding and Printing a Check
 
 To find a check and print it, do the following:
 
@@ -53,7 +53,7 @@ To find a check and print it, do the following:
     The system opens the [Release Payments](AP_50_52_00.md) \(AP505200\) form with the payment ready for release. Do not release the payment yet.
 
 
-## Step 2: Removing a Bill from the Check {#section_nsj_njv_vxb .section}
+## Step 2: Removing a Bill from the Check
 
 To remove the $50 bill, which contains the items not delivered, from the check, do the following:
 
@@ -84,7 +84,7 @@ To remove the $50 bill, which contains the items not delivered, from the check, 
     The payment's status has changed again to *Pending Print*.
 
 
-## Step 3: Reprinting the Check {#section_ssj_njv_vxb .section}
+## Step 3: Reprinting the Check
 
 To reprint the already-printed check with a new number, because the blank with the old number cannot be used, do the following:
 
@@ -94,7 +94,7 @@ To reprint the already-printed check with a new number, because the blank with t
     A separate browser tab is opened showing the printable version of the check, which has a new check number but the updated amount of $360. You have not yet sent the check, but you have printed it on a blank. So you should reprint it with the new number on a new blank.
 
 
-## Step 4: Releasing the Check {#section_vsj_njv_vxb .section}
+## Step 4: Releasing the Check
 
 To release the updated check, do the following:
 
@@ -105,7 +105,6 @@ To release the updated check, do the following:
 2.  On the form toolbar, click **Release** to release the payment.
 3.  Click the **Application History** tab and make sure that the payment was applied to one bill in the amount of $360, as shown in the following screenshot.
 
-![](Images/activity_Finance_Reprinting_Check.png "The released payment applied to the bill")
 
 **Parent topic:**[Check Correction and Reprinting](../UserGuide/Finance_CheckReprinting_Mapref.md)
 

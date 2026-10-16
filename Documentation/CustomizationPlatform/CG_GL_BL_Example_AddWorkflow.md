@@ -1,8 +1,7 @@
-# Defining a New Workflow {#_aabf52e0-9616-4883-bed4-548fa37d7cd7 .concept}
+# Defining a New Workflow
 
 In this example, defining workflows for working with a lead is described. Suppose, you need to define a workflow for a process of changing the status of a lead on the Leads \(CR301000\) form. Statuses and actions that switch the status are presented in the following diagram.
 
-![](images/Transitions_Example.png "Statuses and actions of a lead")
 
 A lead can have the following statuses:
 
@@ -21,7 +20,7 @@ Based on this description, you can define a workflow for a lead by doing the fol
 6.  For each state, you define a list of actions available for this state.
 7.  For each action, you define a transition that this action performs.
 
-## Add the Leads form to the List of Customized Screens { .section}
+## Add the Leads form to the List of Customized Screens
 
 To add the form in the list of customized screens, do the following:
 
@@ -36,7 +35,7 @@ To add the form in the list of customized screens, do the following:
 
 For details on adding a form to the list of customized screens, see [Workflow Creation: To Add a Workflow](../DeveloperGuide/WorkflowUI_CreatingWorkflow_Activity_CreateWorkflow.md).
 
-## Define Conditions { .section}
+## Define Conditions
 
 To define conditions for the **Close** action, do the following:
 
@@ -59,7 +58,7 @@ To define conditions for the **Close** action, do the following:
 
 For details on adding a condition, see [Conditions and Transitions: To Add Conditions](../DeveloperGuide/WorkflowUI_ConditionsTransitions_Activity_AddConditions.md) and [Conditions and Transitions: General Information](../DeveloperGuide/WorkflowUI_ConditionsTransitions_GeneralInfo.md).
 
-## Define Dialog Boxes { .section}
+## Define Dialog Boxes
 
 When a user opens a lead, he should specify a reason for opening it. The reason is stored in the `Reason` field of the Leads form. To request the `Reason` field value from the user when he selects the **Open** action, you define a dialog box as follows:
 
@@ -82,7 +81,7 @@ When a user opens a lead, he should specify a reason for opening it. The reason 
 
 For details on creating dialog boxes, see [Workflow Dialog Boxes: General Information](../DeveloperGuide/WorkflowAPI_DialogBox_GeneralInfo.md) and [Workflow Elements: To Add a Dialog Box](../DeveloperGuide/WorkflowUI_ConfiguringWorkflowElements_Activity_AddDialogBox.md).
 
-## Create a Workflow { .section}
+## Create a Workflow
 
 To create a new workflow, do the following:
 
@@ -108,7 +107,7 @@ To create a new workflow, do the following:
     The Workflow Editor page opens. Now you can proceed with defining states of a lead for the new workflow.
 
 
-## Define States for the Workflow { .section}
+## Define States for the Workflow
 
 To define statuses of a lead, do the following:
 
@@ -139,7 +138,7 @@ To define statuses of a lead, do the following:
     6.  On the page toolbar, click **Save**.
 3.  Define the *Open*, *Converted*, and *Closed* states of the workflow by following the same instruction.
 
-## Define Actions for Each State { .section}
+## Define Actions for Each State
 
 For the *New* state, the **Open** action changes the state of a lead to *Open*. To define this action, do the following:
 
@@ -163,7 +162,7 @@ According to the diagram of the workflow shown at the beginning of the example, 
 -   For the **Open** state: the **Convert to Contact** action
 -   For the **Converted** state: the **Close** action
 
-## Define a Transition for an Action { .section}
+## Define a Transition for an Action
 
 For the New action, define a transition as follows:
 

@@ -1,14 +1,14 @@
-# Automated Operations with Lot- and Serial-Tracked Items: To Issue Items {#_645a65fd-9c1e-47b3-89fc-6ab7285a222e .task}
+# Automated Operations with Lot- and Serial-Tracked Items: To Issue Items
 
 In this activity, you will learn how to perform automated issuing of lot-tracked items.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you, as a warehouse worker of the SweetLife Fruits &amp; Jams company, have a task to check the boxes of bananas in refrigerators in order to find rotten bananas and write them off. To record writing off boxes with rotten bananas in the system, you will create and process an inventory issue.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -20,20 +20,20 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Warehouses](IN_20_40_00.md) \(IN204000\) form, the *WHOLESALE* warehouse has been created. For this warehouse, on the **Locations** tab, the *F2S2* and *F3S2* warehouse locations have been added.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *BANANAS* stock item has been created. For this stock item, the *BBOX* unit of measure has been defined on the **General** tab and the *BNBOX* barcode has been defined on the **Cross-Reference** tab of the form.
 
-## Process Overview { .section}
+## Process Overview
 
 When you issue lot-tracked items in this activity, you will scan the barcode of the location where the items are stored; you then scan a barcode of each item to be issued and the barcodes of the lot numbers that correspond to each item. When you have added all items in all locations to the issue, you will release the issue.
 
 **Tip:** In any working mode, you enter a command or barcode by typing it in the **Scan** box and pressing Enter. In production systems, you will scan the appropriate barcodes rather than manually entering them.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start issuing lot-tracked items, do the following:
 
 1.  Sign in to a company with the *U100* dataset preloaded. You should sign in as warehouse worker with the *perkins* username and the *123* password.
 2.  On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, enable the *Lot and Serial Tracking* feature.
 
-## Step 1: Processing the Issue of Items { .section}
+## Step 1: Processing the Issue of Items
 
 Suppose that when you were checking the boxes with bananas in the refrigerator locations, as instructed by your manager, you have found four boxes with rotten bananas: two boxes with different lot numbers in the *F2S2* location, and two boxes with the same lot number in the *F3S2* location. To process the issue transaction in the system, do the following:
 
@@ -53,7 +53,7 @@ Suppose that when you were checking the boxes with bananas in the refrigerator l
 
 You have added four boxes of bananas to the issue. Now you will review the inventory issue and release the issue.
 
-## Step 2: Releasing and Reviewing the Issue { .section}
+## Step 2: Releasing and Reviewing the Issue
 
 To release and review the issue, do the following:
 
@@ -68,7 +68,6 @@ To release and review the issue, do the following:
 2.  On the form toolbar, click **Release** to release the inventory issue.
 3.  Click the Edit button next to the **Reference Nbr.** box, and on the [Issues](IN_30_20_00.md) \(IN302000\) form, which opens in a pop-up window, review the inventory issue transaction. Make sure that it includes the needed lines and is assigned the *Released* status, as shown in the screenshot below.
 
-    ![](Images/activity_WMS_LotSerial_Tracking_Issue.png "Inventory issue transaction")
 
 
 You have successfully created and released the inventory issue to record the removal of four boxes of bananas from their warehouse locations.

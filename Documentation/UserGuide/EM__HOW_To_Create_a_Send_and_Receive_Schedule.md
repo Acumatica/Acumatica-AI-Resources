@@ -1,4 +1,4 @@
-# To Create a Send and Receive Email Schedule {#_303282a4-487b-46a8-9362-d3320afebfec .task}
+# To Create a Send and Receive Email Schedule
 
 To schedule the process of sending and receiving emails in Acumatica ERP, do the following:
 

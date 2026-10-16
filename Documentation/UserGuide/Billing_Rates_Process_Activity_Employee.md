@@ -1,14 +1,14 @@
-# Billing Rates: To Bill a Project with Employee-Specific Rates {#_4b07afb3-1324-463a-a26b-20a4f70eebe2 .task}
+# Billing Rates: To Bill a Project with Employee-Specific Rates
 
 In this activity, you will learn how you can define employee-specific billing rates by using rate tables and how to bill a project by using these billing rates.
 
-## Story { .section}
+## Story
 
 Suppose that the West BBQ Restaurant customer has ordered from the SweetLife Fruits &amp; Jams company a training session for its employees on how to use juicers that were previously purchased from SweetLife. Alberto Jimenez, a junior consultant of SweetLife, has provided six hours of training, and Todd Bloom, a senior consultant of SweetLife, has provided two hours of training. Alberto's rate is $50 per hour, and Todd's is $60.
 
 Acting as the SweetLife project accountant, Pam Brawner, you need to create a project to account for the provided services, enter the project transaction to record the provided work, bill the customer, and verify that all services have been billed at the appropriate rates.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -17,11 +17,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *CONSULTJR* and *CONSULTSR* non-stock items have been created.
 -   On the [Account Groups](PM_20_10_00.md) \(PM201000\) form, the *LABOR* account group has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Projects](PM_30_10_00.md) \(PM301000\) form, you will create a new project, specify a billing rule and rate table for it, and define the project tasks. Then you will bill the project and review the billed amount and quantities in the prepared pro forma invoice on the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, you need to perform the following instructions to prepare the system:
 
@@ -29,7 +29,7 @@ Before you begin performing the steps of this activity, you need to perform the 
 2.  Sign in to a company with the *U100* dataset preloaded. You should sign in as Pam Brawner by using the *brawner* username and the *123* password.
 3.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Creating a Project { .section}
+## Step 1: Creating a Project
 
 To create a project, do the following:
 
@@ -58,7 +58,7 @@ To create a project, do the following:
 6.  Save the project.
 7.  On the form toolbar, click **Activate**. The system assigns the project the *Active* status.
 
-## Step 2: Creating Project Transactions { .section}
+## Step 2: Creating Project Transactions
 
 To enter the project transactions for the provided services, perform the following steps:
 
@@ -91,7 +91,7 @@ To enter the project transactions for the provided services, perform the followi
 7.  Save your changes.
 8.  On the form toolbar, click **Release** to release the project transaction.
 
-## Step 3: Billing the Project and Reviewing the Rates { .section}
+## Step 3: Billing the Project and Reviewing the Rates
 
 To bill the project and review the rates at which the provided services have been billed, do the following:
 
@@ -105,7 +105,6 @@ To bill the project and review the rates at which the provided services have bee
 
     -   The line with the *CONSULTJR* inventory item has a billed amount of $300, which has been calculated as 6 hours multiplied by $50.
     -   The line with the *CONSULTSR* inventory item has a billed amount of $120, which has been calculated as 2 hours multiplied by $60.
-    ![](Images/activity_Projects_Billing_Rates_Employee.png "Lines for employee labor billed by rates")
 
 
 You have created a pro forma invoice for the customer and verified that the appropriate rates have been selected for the provided services.

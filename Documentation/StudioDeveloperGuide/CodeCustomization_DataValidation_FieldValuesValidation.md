@@ -1,4 +1,4 @@
-# Data Validation: Validation of Field Values {#_f914ffdd-8e71-4fc6-b82c-4639d60b1c6a .concept}
+# Data Validation: Validation of Field Values
 
 If you want to independently validate a value inserted by a user, you should implement the FieldVerifying event handler for the data field. You can use this approach to check restrictions on the absolute value.
 
@@ -40,7 +40,7 @@ sender.RaiseExceptionHandling<ShipmentLine.lineQty>(
 
 You still have to initialize an instance of the PXSetPropertyException type. But this time you do not throw an exception; you provide this instance as a parameter to the RaiseExceptionHandling&lt;&gt;\(\) method. You should specify the error level if you want the message attached to the control to not be displayed with the default error sign. To attach a warning to the control, specify PXErrorLevel.Warning in the PXSetPropertyException constructor.
 
-## Formation of Strings { .section}
+## Formation of Strings
 
 You can insert a display name of a field in a message shown by using the RaiseExceptionHandling method and the PXSetPropertyException exception. The display name is taken from the DisplayName attribute of the PXUIField attribute attached to a DAC field.
 

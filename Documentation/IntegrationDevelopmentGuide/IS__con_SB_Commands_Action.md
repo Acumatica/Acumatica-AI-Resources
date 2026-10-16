@@ -1,4 +1,4 @@
-# Commands for Clicking Buttons on a Form {#_2b88f7ea-e3e9-4d94-a334-98dc054afd03 .concept}
+# Commands for Clicking Buttons on a Form
 
 As you specify the sequence of commands in an array of Command objects, when you need to reflect the clicking of a button on a form \(such as clicking **Save**, **Delete**, or **Release** to perform the action on a document\), you should use the corresponding Action command. Actions are available for all buttons on the form.
 

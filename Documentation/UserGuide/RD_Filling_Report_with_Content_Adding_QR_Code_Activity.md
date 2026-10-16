@@ -1,18 +1,18 @@
-# Report Content: To Add QR Codes to a Report {#_23255136-3ee7-4c21-978f-ac1781e76c63 .task}
+# Report Content: To Add QR Codes to a Report
 
 In the following activity, you will learn how to add QR codes to reports.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist in your company who is working on simple customizations. A sales manager has requested a report that displays the details of a particular invoice or memo, including the QR codes of the included items. You have decided to use the predefined [Invoice/Memo](AR_64_10_00.md) \(AR641000\) report as a base and modify it by adding the QR code of each item.
 
-## Process Overview { .section}
+## Process Overview
 
 In the Report Designer, you will open the `AR6410C2.RPX` report, which is a copy of the [Invoice/Memo](AR_64_10_00.md) \(AR641000\) report, and add the *PictureBox* element to the report layout. You will specify the properties of this element to display a QR code for each item in the report.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you perform the steps of this activity, make sure that the following tasks have been performed:
 
@@ -33,7 +33,7 @@ Also, to prepare for use the file that you will need for this activity, do the f
     The report is saved on the server.
 
 
-## Step 1: Adding the QR Code of Each Item { .section}
+## Step 1: Adding the QR Code of Each Item
 
 To add the QR code of each item in the *AR6410C2* report, do the following:
 
@@ -57,7 +57,7 @@ To add the QR code of each item in the *AR6410C2* report, do the following:
     -   **Layout** &gt; **Size**: `64px; 64px`.
 5.  On the Report Designer window toolbar, click **Save**.
 
-## Step 2: Viewing the Report { .section}
+## Step 2: Viewing the Report
 
 To view the report, do the following:
 
@@ -71,7 +71,6 @@ To view the report, do the following:
 
 Make sure that QR code is displayed for each item in the invoice, as shown in the following screenshot.
 
-![](Images/RD_report_with_QR_code.png "The S150 Invoice/Memo (AR6410C2) report with the QR codes of items")
 
 **Parent topic:**[Filling a Report with Content](../UserGuide/RD_Filling_with_Content_Mapref.md)
 

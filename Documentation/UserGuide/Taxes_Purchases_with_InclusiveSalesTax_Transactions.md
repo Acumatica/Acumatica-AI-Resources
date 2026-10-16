@@ -1,8 +1,8 @@
-# Purchases with Inclusive Sales Taxes: Generated Transaction {#_6c818312-dc24-4f2b-8b37-b9d7fe5ecf76 .concept}
+# Purchases with Inclusive Sales Taxes: Generated Transaction
 
 To be able to process inclusive document-level sales taxes, you create and process purchase orders and AP bills. When an AP bill is released, to update the vendor balance, the system generates a GL transaction described in the following sections.
 
-## Transaction Generated for an AP Bill {#section_rjk_fjv_vxb .section}
+## Transaction Generated for an AP Bill
 
 When you create and release an AP bill with a rounding difference, the system generates the following GL transaction.
 

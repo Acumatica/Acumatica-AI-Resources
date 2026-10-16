@@ -1,8 +1,8 @@
-# To Translate Bound Strings {#_10699086-d19e-45df-869b-99b0f32ded9e .task}
+# To Translate Bound Strings
 
 In Acumatica ERP, to translate collected strings, you use the [Translation Dictionaries](SM_20_05_40.md) \(SM200540\) form. See below for details on translating bound strings. For more information, see [Translation Process](SM__con_Translation_Process.md).
 
-## To Translate Strings Bound to a Form { .section}
+## To Translate Strings Bound to a Form
 
 1.  Open the [Translation Dictionaries](SM_20_05_40.md) \(SM200540\) form.
 2.  In the **Language** box, select the check boxes for the languages to which you want to translate the strings.

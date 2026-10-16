@@ -1,15 +1,15 @@
-# Shipment Entity {#_86d5916d-4da7-4345-ac7d-51497a236032 .concept}
+# Shipment Entity
 
 This topic provides reference information about the standard filtering and field mapping used for the *Shipment* entity during the synchronization between Acumatica ERP and Shopify.
 
-## Shipment Filtering { .section}
+## Shipment Filtering
 
 When shipments are exported to Shopify, a shipment is skipped if any of the following conditions are met:
 
 -   The status of the shipment is *Confirmed*, *Invoiced*, or *Completed*.
 -   The sales order related to the shipment has not been synchronized.
 
-## Shipment Export Mapping { .section}
+## Shipment Export Mapping
 
 The following table shows the mapping of Acumatica ERP fields to Shopify fields that is used during the export of shipment data to Shopify.
 

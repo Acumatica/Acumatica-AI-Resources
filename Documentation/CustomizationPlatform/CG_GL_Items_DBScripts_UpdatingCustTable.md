@@ -1,8 +1,8 @@
-# To Update Custom Tables in the Project {#_21dd174b-5412-44c0-80a8-d7b88ef25f4a .task}
+# To Update Custom Tables in the Project
 
 After you have added a custom table to the project, you might want to continue making changes to the table by using a database administration tool, such as SQL Server Management Studio. We recommend that you update the table schema in the customization project before you export the deployment package of the project or publish the project.
 
-## To Update the Schema of Custom Tables in the Project { .section}
+## To Update the Schema of Custom Tables in the Project
 
 To update the schema of custom tables, do the following:
 

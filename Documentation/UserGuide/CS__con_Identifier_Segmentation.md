@@ -1,8 +1,8 @@
-# Segmented Identifiers {#_a2f667ab-0de9-4738-9f05-58e9cbfc1735 .concept}
+# Segmented Identifiers
 
 Acumatica ERP provides a number of preconfigured segmented keys. Also you can configure your own segmented keys and the settings of the keys. In this topic, you will read about the preconfigured segmented keys, the steps you perform to configure segmented keys, and the settings of the keys.
 
-## Configuration and Maintenance of Segmented Keys { .section}
+## Configuration and Maintenance of Segmented Keys
 
 The process of configuring a segmented key consists of the following general steps:
 
@@ -11,7 +11,7 @@ The process of configuring a segmented key consists of the following general ste
 3.  On the [Segment Values](CS_20_30_00.md) \(CS203000\) form, you add the values of each segment that will not be auto-numbered. When you add new values for a segment on this form, the system automatically converts case of each value \(if the **Case Conversion** check box has been selected for the segment on the [Segmented Keys](CS_20_20_00.md) \(CS202000\) form\) and checks whether the value meets the input mask requirements \(which are specified in the **Edit Mask** column for the segment\). Users will use these segment values to create the object identifiers described by the segmented key and to enter the identifiers on data entry forms.
 4.  On the form that you use to manage the objects whose identifiers are described by the segmented key \(such as [Subaccounts](GL_20_30_00.md) \(GL203000\), which is used to manage subaccounts\), you add the objects and their identifiers. For details, see [Business Account Identifiers](CS__con_Business_Accounts_Identifiers.md).
 
-## Changes to the Structure of Segmented Keys {#_d4f43fb4-2390-4d6f-b250-9579986772a3 .section}
+## Changes to the Structure of Segmented Keys
 
 You can change the structure of the segmented key after the identifiers were created as follows:
 
@@ -22,7 +22,7 @@ You can change the structure of the segmented key after the identifiers were cre
 
 If you need to make other changes to the segmented keys, contact your Acumatica support provider.
 
-## Change of Segment Length {#_87152ff2-a86a-43e6-a549-aee450adacbf .section}
+## Change of Segment Length
 
 Due to changes in business processes of your organization, you may need to change a segment length. When you change the length of an existing segment, the system checks the following:
 

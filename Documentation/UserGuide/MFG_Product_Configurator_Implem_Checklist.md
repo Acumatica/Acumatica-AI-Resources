@@ -1,4 +1,4 @@
-# Product Configurator: Implementation Checklist {#_4c5929a4-4cee-4b44-b0e9-de354e4e8192 .concept}
+# Product Configurator: Implementation Checklist
 
 Before you start using the product configurator functionality, you must configure the system as described in the following table.
 

@@ -1,8 +1,8 @@
-# Discounted Sales Invoice: To Create a Sales Invoice with Automatic Document and Manual Discounts {#_a25f0d13-55b7-45eb-9e76-757b49134c73 .task}
+# Discounted Sales Invoice: To Create a Sales Invoice with Automatic Document and Manual Discounts
 
 In this activity, you will create three automatic document discounts and a manual discount in Acumatica ERP. You will then explore how these discounts are applied to sales invoices when the *Advanced SO Invoices* feature is enabled in the system.
 
-## Story { .section}
+## Story
 
 Suppose that starting in January *2026*, the SweetLife Fruits &amp; Jams company is offering the following discounts for fruit that the company's customers purchase:
 
@@ -16,7 +16,7 @@ Because the customer mentioned its plans to order fruit from SweetLife for its n
 
 Acting as SweetLife's sales manager, you need to create the necessary discounts in the system and create a sales invoice.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -26,7 +26,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *COFFEESHOP* customer has been created.
 -   On the [Warehouses](IN_20_40_00.md) \(IN204000\) form, the *WHOLESALE* warehouse has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 To set up discounts, you will define discount codes on the [Discount Codes](AR_20_90_00.md) \(AR209000\) form. You will then configure a line-item discount, group-item discount, and document discount on the [Discounts](AR_20_95_00.md) \(AR209500\) form. Then on the [Update Discounts](AR_50_25_00.md) \(AR502500\) form, you will update all these discounts to make multiple pending discounts effective at the same time.
 
@@ -34,7 +34,7 @@ To view how the discounts are automatically applied to the sales invoice, on the
 
 At the end of activity, you will make the discounts inactive.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start the lesson, do the following:
 
@@ -42,7 +42,7 @@ Before you start the lesson, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026*. For simplicity, in this lesson, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Store* branch is selected. If it is not selected, click the Company and Branch Selection menu button to view the list of branches that you have access to, and then click *SweetLife Store*.
 
-## Step 1: Creating Discount Codes { .section}
+## Step 1: Creating Discount Codes
 
 To configure the automatic discounts for the GoodFood One Restaurant customer, do the following:
 
@@ -84,7 +84,7 @@ To configure the automatic discounts for the GoodFood One Restaurant customer, d
 
 7.  On the form toolbar, click **Save**.
 
-## Step 2: Defining the Automatic Group Discount for Items { .section}
+## Step 2: Defining the Automatic Group Discount for Items
 
 To define the automatic group discount for particular stock items \(*ORANGES* and *GRAPEFRUIT*\), do the following:
 
@@ -109,7 +109,7 @@ To define the automatic group discount for particular stock items \(*ORANGES* an
 
 6.  On the form toolbar, click **Save**.
 
-## Step 3: Defining the Automatic Unconditional Document Discount { .section}
+## Step 3: Defining the Automatic Unconditional Document Discount
 
 To define the automatic unconditional document discount, do the following:
 
@@ -134,7 +134,7 @@ To define the automatic unconditional document discount, do the following:
 
 4.  On the form toolbar, click **Save**.
 
-## Step 4: Defining the Automatic Line Discount { .section}
+## Step 4: Defining the Automatic Line Discount
 
 To define the automatic line-item discount that applies to every 20 units of particular items \(*APPLES*\), do the following:
 
@@ -159,7 +159,7 @@ To define the automatic line-item discount that applies to every 20 units of par
 
 5.  On the form toolbar, click **Save**.
 
-## Step 5: Making the Pending Discounts Effective { .section}
+## Step 5: Making the Pending Discounts Effective
 
 In this step, you will make multiple pending discounts effective at the same time. Do the following:
 
@@ -170,12 +170,11 @@ In this step, you will make multiple pending discounts effective at the same tim
 
 3.  In the table, select the unlabeled check boxes in the rows with the *DOCD00000*, *GRITD00000*, and *LINED00000* discount codes \(as shown in the following screenshot\).
 
-    ![](Images/activity_Prices_and_Discounts_Mass_processing_updating.png "Updating of multiple discounts")
 
 4.  On the form toolbar, click **Process**. After processing has completed, close the **Processing** dialog box. Notice that in the **Last Update Date** column, the current date *1/30/2026* has appeared for the processed discounts.
 5.  Open the *DOCD00000*, *GRITD00000*, or *LINED00000* discount code on the [Discounts](AR_20_95_00.md) \(AR209500\) form. On the **Discount Breakpoints** tab, for the sequences *DOCD00001*, *GRITD00001*, or *LINED00001* accordingly notice that the system has cleared the **Pending Date** column and that the **Effective Date** column now contains the current date *1/30/2026*.
 
-## Step 6: Creating a Sales Invoice with Discounts { .section}
+## Step 6: Creating a Sales Invoice with Discounts
 
 To create a sales invoice for testing purposes and explore how the discounts are applied to it, do the following:
 
@@ -214,14 +213,12 @@ To create a sales invoice for testing purposes and explore how the discounts are
 
     In the **Discount Amount** column, you can see that the line discount is $10 for the apples. This is because the break point quantity is 20 units of measure \(UOMs\) and the *COFFESHOP* company has ordered 50 units \(so the 20-unit discount of $5 was applied twice\) as shown in the following screenshot.
 
-    ![](Images/activity_Prices_and_Discounts_Line_item_discount.png "Line discount applied to the sales invoice")
 
 8.  Go to the **Discounts** tab. Notice that the system has applied the automatic group discount \(*GRITD00000*\), which is 5% of the total cost of fruit \(oranges and grapefruit\) or $10.35. In addition, the system has applied the automatic document discount \(*DOCD00000*\) of 4% of the discountable amount \($311.65\) because the amount exceeds $300: 4% of $311.65 is $12.47 as shown in the following screenshot.
 
-    ![](Images/activity_Prices_and_Discounts_Group_and_Document_discounts.png "Group and document discounts applied to the sales invoice")
 
 
-## Step 7: Applying the External Manual Discount { .section}
+## Step 7: Applying the External Manual Discount
 
 To apply the external manual discount to the sales invoice, while you are still viewing the sales invoice on the [Invoices](SO_30_30_00.md) \(SO303000\) form, do the following:
 
@@ -231,11 +228,10 @@ To apply the external manual discount to the sales invoice, while you are still 
 
     Also, notice that the balance of the sales invoice has decreased from $325.73 to $315.55 \(see the following screenshot\):
 
-    ![](Images/activity_Prices_and_Discounts_External_manual_discount.png "Applying of the external manual discount")
 
 4.  Close the [Invoices](SO_30_30_00.md) form. You do not need to process this sales invoice; you created it solely to test how the discounts are applied.
 
-## Step 8: Making the Created Discounts Inactive { .section}
+## Step 8: Making the Created Discounts Inactive
 
 1.  Open the [Discounts](AR_20_95_00.md) \(AR209500\) form.
 2.  In the Summary area, specify the following settings:

@@ -1,18 +1,18 @@
-# Configuring CRA Reporting {#_4d7cd190-51cd-4f54-82f5-a3b186ec4bf1 .concept}
+# Configuring CRA Reporting
 
 To configure reporting for the Canada Revenue Agency \(CRA\) in your system, you need to perform the tasks described in this chapter.
 
-## Enabling the Canadian Localization Feature {#section_dyp_njv_vxb .section}
+## Enabling the Canadian Localization Feature
 
 In Acumatica ERP, you need to enable the *Canadian Localization* feature on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form to be able to configure T5018 and T4A vendors and transmitters.
 
 You configure CRA reporting once. Then over a calendar year, you record your payments to T5018 vendors and to T4A vendors. At the end of the year \(if you are using a calendar-year basis\) or at the end of the reporting period, you report payments by generating an electronic file in XML format on the [Create CRA E-File](AP_50_76_00.md) \(AP507600\) form and submit it to the CRA.
 
-## Specifying the Canadian Localization for Needed Companies {#section_hyp_njv_vxb .section}
+## Specifying the Canadian Localization for Needed Companies
 
 When the *Canadian Localization* feature is enabled, on the **Company Details** tab of the [Companies](CS_10_15_00.md) \(CS101500\) form, the system administrator must specify *Canada* in the **Localization** box for each company to which the Canadian localization will be applied.
 
-## Specifying Canadian Tax Reporting Settings {#section_jyp_njv_vxb .section}
+## Specifying Canadian Tax Reporting Settings
 
 When the Canadian localization is specified for a company, the system administrator must specify the following settings on the **Canadian Tax Reporting** tab, which appears on the [Companies](CS_10_15_00.md) \(CS101500\) form:
 
@@ -23,7 +23,7 @@ When the Canadian localization is specified for a company, the system administra
 
 On the **Canadian Tax Reporting** tab of the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form, the system administrator must specify the threshold amount to be used on the [Create CRA E-File](AP_50_76_00.md) form. The default value in the **Threshold Amount** box is *500* for both T5018 and T4A, but it can be overridden depending on the provincial and federal GST or HST rates.
 
-## Specifying the Tax Registration Number at the Company and Branch Level {#section_lyp_njv_vxb .section}
+## Specifying the Tax Registration Number at the Company and Branch Level
 
 When the Canadian localization is specified for a company, the system administrator must specify a tax registration ID number for the company by filling in the **Tax Registration ID** box on the **Company Details** tab \(**Tax Registration Info** section\) of the [Companies](CS_10_15_00.md) \(CS101500\) form. This tax registration ID will be used when generating a T5018 file on the [Create CRA E-File](AP_50_76_00.md) \(AP507600\) form.
 
@@ -41,11 +41,11 @@ The tax registration numbers specified on the [Companies](CS_10_15_00.md) and [B
 
 **Tip:** You can run Canadian versions of multiple reports for which a localized version exists in the system. For a report that has a localized version, the **Localization** box appears on the report form. To run a Canadian version of the report, you select *Canada* in the **Localization** box, specify the report parameters, and click **Run Report** on the report form toolbar.
 
-## Configuring a Canadian Tax Agency {#section_qyp_njv_vxb .section}
+## Configuring a Canadian Tax Agency
 
 You use the [Vendors](AP_30_30_00.md) \(AP303000\) form to create a Canadian tax agency. When creating an agency, you must specify *Canada* in the **Country** box \(**General** tab\) of the form. For more details about creating a tax agency, see [Tax Agency: To Set Up a Tax Agency for VAT](../ImplementationGuide/TaxAgency_VAT_Implem_Activity.md).
 
-## Configuring Printing Parameters for Taxes {#section_syp_njv_vxb .section}
+## Configuring Printing Parameters for Taxes
 
 On the **Printing Parameters** tab of the [Taxes](TX_20_50_00.md) \(TX205000\) form, you should specify short and long tax labels to be shown in printable versions of the following reports run from the corresponding processing forms:
 
@@ -61,7 +61,7 @@ If you want to have the long and short tax labels printed on the listed reports 
 
 **Tip:** You can run Canadian versions of multiple reports for which a localized version exists in the system. For a report that has a localized version, the **Localization** box appears in the Selection area of the report form. To run a Canadian version of the report, you select *Canada* in the **Localization** box, specify the report parameters, and click **Run Report** on the report form toolbar.
 
-## Configuring T5018 Vendors {#section_wyp_njv_vxb .section}
+## Configuring T5018 Vendors
 
 You use the [Vendors](AP_30_30_00.md) \(AP303000\) form to set up each T5018 contractor \(which is defined in the system as a vendor\) as follows:
 
@@ -74,7 +74,7 @@ You use the [Vendors](AP_30_30_00.md) \(AP303000\) form to set up each T5018 con
 
 The system uses the contractor's name, address, and **CRA Information Returns Account Number** or **SIN** to fill in the elements in the electronic XML file when it is generated on the [Create CRA E-File](AP_50_76_00.md) \(AP507600\) form.
 
-## Configuring T4A Vendors { .section}
+## Configuring T4A Vendors
 
 On the [Vendors](AP_30_30_00.md) \(AP303000\) form, set up each T4A vendor as follows:
 
@@ -90,7 +90,7 @@ On the [Vendors](AP_30_30_00.md) \(AP303000\) form, set up each T4A vendor as fo
 
 5.  On the form toolbar, click **Save** to save your changes.
 
-## Configuring Non-Stock Items and Item Classes { .section}
+## Configuring Non-Stock Items and Item Classes
 
 You use the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) and [Item Classes](IN_20_10_00.md) \(IN201000\) forms to set up specific non-stock items and item classes for CRA reporting.
 

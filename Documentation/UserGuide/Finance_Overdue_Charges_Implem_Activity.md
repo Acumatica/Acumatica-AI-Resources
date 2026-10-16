@@ -1,10 +1,10 @@
-# Overdue Charges: Implementation Activity {#_48a68dd9-0654-49bb-b106-100effd55c05 .task}
+# Overdue Charges: Implementation Activity
 
 In the following implementation activity, you will learn how to implement the overdue charges functionality.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that starting on January 1, 2025 the CFO of SweetLife Fruits &amp; Jams decided to start applying overdue charges to customer documents that are past due. Overdue charge documents should be generated for two customers that have multiple past due documents—*COFFEESHOP* and *GOODFOOD*. The overdue charges should be calculated for the days past due by using the outstanding balance of a document for each of these days. The annual rate for overdue charges is 10%.
 
@@ -12,15 +12,15 @@ Acting as the chief accountant, you need to enable the needed feature and set up
 
 **Tip:** In a production environment, you have to set up calculating overdue charges before you start creating and processing documents to avoid manual updates of settings for existing documents. For training purposes, this chapter will show how to manually update the settings of particular documents to apply overdue charges to them.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will first enable the *Overdue Charges* feature on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. On the [Overdue Charges](AR_20_45_00.md) \(AR204500\) form, you will create an overdue charge code and specify its settings. On the [Statement Cycles](AR_20_28_00.md) \(AR202800\) form, you will update the settings of the *EOM* statement cycle and select the new overdue charge code for it. On the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, you will update the AR settings to make the system calculate overdue charges by statement cycle. On the [Customers](AR_30_30_00.md) \(AR303000\) form, you will turn on the calculation of overdue charges for the *COFFEESHOP* and *GOODFOOD* customers. Finally, on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will apply calculation of overdue charges for particular open invoices of these customers.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start implementing the overdue charge functionality, launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as the chief accountant with the *johnson* username and the *123* password.
 
-## Step 1: Enabling the Needed Feature { .section}
+## Step 1: Enabling the Needed Feature
 
 To enable the *Overdue Charges* feature, do the following:
 
@@ -31,7 +31,7 @@ To enable the *Overdue Charges* feature, do the following:
 
 3.  On the form toolbar, click **Enable**.
 
-## Step 2: Creating an Overdue Charge Code { .section}
+## Step 2: Creating an Overdue Charge Code
 
 To create an overdue charge code for 10 annual rate, do the following:
 
@@ -72,7 +72,7 @@ To create an overdue charge code for 10 annual rate, do the following:
 
 7.  On the form toolbar, click **Save** to save the changes.
 
-## Step 3: Updating the Settings of the Statement Cycle { .section}
+## Step 3: Updating the Settings of the Statement Cycle
 
 To update the settings of the *EOM* statement cycle, do the following:
 
@@ -84,7 +84,7 @@ To update the settings of the *EOM* statement cycle, do the following:
 3.  In the **Overdue Charge ID** box, select the *OVERDUE10* code. The system will use this code when calculating overdue charges for customers that use the *EOM* statement cycle.
 4.  On the form toolbar, click **Save** to save the changes.
 
-## Step 4: Updating the Accounts Receivable Preferences { .section}
+## Step 4: Updating the Accounts Receivable Preferences
 
 To update the AR preferences, do the following:
 
@@ -92,7 +92,7 @@ To update the AR preferences, do the following:
 2.  In the **Data Processing Settings** section on the **General** tab, select the **Set Default Overdue Charges by Statement Cycle** check box.
 3.  On the form toolbar, click **Save** to save your changes.
 
-## Step 5: Setting Up the Calculation of Overdue Charges for Customers { .section}
+## Step 5: Setting Up the Calculation of Overdue Charges for Customers
 
 To update the settings of the *COFFEESHOP* and *GOODFOOD* customers, do the following:
 
@@ -106,7 +106,7 @@ To update the settings of the *COFFEESHOP* and *GOODFOOD* customers, do the foll
     The newly created invoices to *COFFEESHOP* and *GOODFOOD* will have the **Apply Overdue Charges** check box selected. The previously created invoices for these customers \(which were created before you enabled the calculation of overdue charges for the customers\) currently have the **Apply Overdue Charges** check box cleared. You need to select this check box in the invoices manually if you need to calculate the overdue charges for these invoices.
 
 
-## Step 6: Updating the Settings of Overdue Invoices { .section}
+## Step 6: Updating the Settings of Overdue Invoices
 
 To update the settings of existing overdue invoices to make the system calculate overdue charges for them, do the following:
 

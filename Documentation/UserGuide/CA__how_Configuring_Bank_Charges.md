@@ -1,8 +1,8 @@
-# To Add Entry Types for Charges {#_eac5286a-3e52-4868-89aa-2dc84ecf2621 .task}
+# To Add Entry Types for Charges
 
 You use the [Entry Types](CA_20_30_00.md) \(CA203000\) form to configure entry types that you will use to register finance charges. For the steps of the configuration process, see [Registration of Finance Charges](CA__CON_FinCharges.md).
 
-## To Add Entry Types for Charges {#section_v1d_kjv_vxb .section}
+## To Add Entry Types for Charges
 
 1.  Open the [Entry Types](CA_20_30_00.md) \(CA203000\) form.
 2.  On the table toolbar, click **Add Row** to append a new row to the table.

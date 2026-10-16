@@ -1,4 +1,4 @@
-# Sales Prices: Minimum Markup Validation in Sales Orders {#_7a45fb74-f2d3-479a-a4da-2e90c4ae60fd .concept}
+# Sales Prices: Minimum Markup Validation in Sales Orders
 
 To make sure that sales prices satisfy your gross profit requirements, you can set up the system to validate the minimum markup in sales orders. In this topic, you will read about the minimum markup validation for prices in Acumatica ERP.
 

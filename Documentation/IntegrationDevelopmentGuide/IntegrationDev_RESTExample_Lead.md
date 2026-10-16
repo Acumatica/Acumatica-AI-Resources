@@ -1,4 +1,4 @@
-# Lead {#_2eb731db-7a6b-4667-a80d-de1fd9906b3b .concept}
+# Lead
 
 This chapter presents code examples showing requests that use the `Lead` entity.
 

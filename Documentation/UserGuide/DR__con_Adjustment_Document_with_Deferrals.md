@@ -1,4 +1,4 @@
-# Creating an Adjustment Document {#_c8e2c478-4622-43bd-b55c-95268318e955 .concept}
+# Creating an Adjustment Document
 
 When you need to correct an amount of the document \(for example, AR invoice\), you can manually create an adjustment document, such as a credit memo, that will adjust the document amount and the amounts of recognition transactions of the deferred schedule generated for this document.
 
@@ -7,13 +7,13 @@ You can create a credit memo with the deferral schedule to be generated either i
 1.  Create an adjusting document \(for example, a credit memo on the [Invoices and Memos](AR_30_10_00.md) form\), and, in its detail lines, add items with the deferral codes assigned or add a deferral code in the **Deferral Code** column in each line manually. This document will be processed by the system independently of the original one according to its own deferral schedule as described in [Recognition of Revenue and Expenses](DR__con_Revenue_Expenses_Recognition.md).
 2.  Link the adjusting document to the deferral schedule generated for the original document \(as described below\), so that the adjusting amount is divided among the deferred portions of the original document.
 
-## Linking an Adjustment Document to the Original Document {#section_w5b_3jv_vxb .section}
+## Linking an Adjustment Document to the Original Document
 
 You link an adjustment document to the deferral schedule of the original document while creating an adjustment document. For a credit memo, on the [Invoices and Memos](AR_30_10_00.md) form, when you add an item that have deferral code assigned, select the schedule of the original document in the **Original Deferral Schedule** column. For a debit adjustment, on the [Bills and Adjustments](AP_30_10_00.md) form, when you add an item that have deferral code assigned, select the schedule in the **Original Deferral Schedule** column. Thus, the deferral schedule generated for the adjustment document is associated with the deferral schedule of the original document.
 
 You can view the associated schedules on the **Original Schedules** tab of the [Deferral Schedule](DR_20_15_00.md) \(DR201500\) form.
 
-## Example of Processing of Adjustment Schedules {#section_z5b_3jv_vxb .section}
+## Example of Processing of Adjustment Schedules
 
 Consider an example demonstrating the two ways of processing a credit memo: independently, and as linked to the original document's schedule. This example explores revenue recognition for an invoice of $1,000 that is dated April 1 and scheduled as follows:
 

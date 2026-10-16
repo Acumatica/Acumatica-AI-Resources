@@ -1,14 +1,14 @@
-# Fixed Asset Creation: To Create and Reconcile an Asset {#_3388c822-381b-4c49-b562-97873ebd4a04 .task}
+# Fixed Asset Creation: To Create and Reconcile an Asset
 
 The following activity will walk you through the process of manually creating and reconciling a fixed asset.
 
-## Story { .section}
+## Story
 
 Suppose that on January 10, 2026, SweetLife Fruits &amp; Jams invested in an office building for its Head Office, which it purchased for $165,000. However, at the time of purchase, the building was not ready for use. To prepare the building, SweetLife paid $15,000 to the Frontsource Ltd. company. After the work was completed, the building was ready to be placed in use on February 15, 2026.
 
 Acting as a SweetLife accountant, you need to manually create a fixed asset for the office building and reconcile the acquisition cost of the asset with the appropriate financial transactions for the asset acquisition \(the $165,000 GL entry and the $15,000 AP bill\).
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -17,11 +17,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *FRONTSRC* vendor has been created.
 -   On the [Fixed Assets Preferences](FA_10_10_00.md) \(FA101000\) form, the **Automatically Release Acquisition Transactions** check box has been cleared. With this check box cleared, acquisition transactions are created with the *On Hold* status. You will have to release these transactions manually on the [Release FA Transactions](FA_50_30_00.md) \(FA503000\) form.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will first update the fixed asset preferences on the [Fixed Assets Preferences](FA_10_10_00.md) \(FA101000\) form. On the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you will create an AP bill for the vendor that prepared the acquired building. On the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form, you will create the *BUILDING* asset and reconcile it with two GL transactions on the **Reconciliation** tab.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin creating a fixed asset, do the following:
 
@@ -31,7 +31,7 @@ Before you begin creating a fixed asset, do the following:
 4.  Be sure that you have performed the [Conversion of a Purchase: To Convert a Purchase to an Asset](FixedAssets_Converting_Purchase_To_Convert_to_Asset.md) prerequisite activity to create a purchasing transaction for the building.
 5.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step 1: Updating the Fixed Asset Preferences { .section}
+## Step 1: Updating the Fixed Asset Preferences
 
 To update the fixed asset preferences, do the following:
 
@@ -39,7 +39,7 @@ To update the fixed asset preferences, do the following:
 2.  In the **Posting Settings** section, select the **Automatically Release Acquisition Transactions** check box to make the system automatically release the acquisition transactions that you will create later.
 3.  On the form toolbar, click **Save** to save your changes.
 
-## Step 2: Creating an AP Bill { .section}
+## Step 2: Creating an AP Bill
 
 To create an AP bill for the building preparation, do the following:
 
@@ -58,7 +58,7 @@ To create an AP bill for the building preparation, do the following:
 4.  On the form toolbar, click **Save**.
 5.  On the form toolbar, click **Remove Hold**, and click **Release** to release the AP bill.
 
-## Step 3: Creating a Fixed Asset { .section}
+## Step 3: Creating a Fixed Asset
 
 To create the *BUILDING* fixed asset, do the following:
 
@@ -87,12 +87,11 @@ To create the *BUILDING* fixed asset, do the following:
 6.  On the form toolbar, click **Remove Hold** to remove the fixed asset from hold, and save it.
 7.  Review the **Transactions** tab, shown in the following screenshot. Because you have configured the system to automatically release acquisition transactions, the system automatically released the acquisition transaction when you released the asset from hold and saved your changes.
 
-    ![](Images/activity_FA_Create_Fixed_Asset_Transactions_tab.png "The generated acquisition transaction")
 
     The GL accounts to be used in transactions were copied from the fixed asset class when the asset was created. You can review the GL accounts specified for the asset on the **GL Accounts** tab of the [Fixed Assets](FA_30_30_00.md) form. The Fixed Asset account can be changed for a fixed asset with the *Active* status before a *Purchasing+* transaction is released; the Accumulated Depreciation account can be changed for an asset before the first *Depreciation+* transaction is released. Also, income and expense accounts can be changed for an asset at any time.
 
 
-## Step 4: Reconciling the Created Fixed Asset { .section}
+## Step 4: Reconciling the Created Fixed Asset
 
 To reconcile the created fixed asset, do the following:
 
@@ -101,13 +100,11 @@ To reconcile the created fixed asset, do the following:
 3.  In the table, select the unlabeled check boxes in the rows with **Orig. Amount** values of *165,000.00* and *15,000.00*, as shown in the following screenshot.
 4.  On the table toolbar, click **Process** to generate the reconciliation transactions.
 
-    ![](Images/activity_FA_Create_Fixed_Asset_Reconciliation_tab.png "The fixed asset cost before reconciliation")
 
 5.  On the form toolbar, click **Save** to save the created reconciliation transactions, and review them on the **Transactions** tab \(see the screenshot below\).
 
     The generated *Reconciliation+* transactions were automatically released because the **Automatically Release Acquisition Transactions** check box \(which is selected\) also applies to the reconciliation transactions that correspond to asset acquisition. The **Batch. Nbr.** box displays the number of the corresponding GL batch.
 
-    ![](Images/activity_FA_Create_Fixed_Asset_Reconciled_transactions.png "The reconciliation transactions generated for the fixed asset")
 
 6.  On the **Reconciliation** tab, review the **Unreconciled Amount**. It is now *0.00*—that is, the full amount of the asset has been reconciled.
 

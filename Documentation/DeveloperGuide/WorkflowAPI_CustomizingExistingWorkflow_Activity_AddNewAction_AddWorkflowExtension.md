@@ -1,4 +1,4 @@
-# Step 2: Adding a Workflow Extension {#_c67a32cf-0dfc-4ae3-9395-7892a1fd3816 .task}
+# Step 2: Adding a Workflow Extension
 
 In this step, you will create an extension for the workflow defined for the [Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\) form. Do the following:
 
@@ -9,7 +9,7 @@ In this step, you will create an extension for the workflow defined for the [Inv
 2.  In the `Workflows` folder of the `PhoneRepairShop_Code` project, create the `SOInvoiceRepairOrder_Workflow.cs` file.
 3.  In the `SOInvoiceRepairOrder_Workflow.cs` file, in the `PhoneRepairShop` namespace, define the `SOInvoiceRepairOrder_Workflow` class as the following code shows.
 
-    ```language-csharp
+    ```csharp
         public class SOInvoiceRepairOrder_Workflow : 
             PXGraphExtension<SOInvoiceEntry_Workflow, SOInvoiceEntry>
         {
@@ -30,7 +30,7 @@ In this step, you will create an extension for the workflow defined for the [Inv
 
 4.  Make sure that you have added the following `using` directives.
 
-    ```language-csharp
+    ```csharp
     ﻿using PX.Data.WorkflowAPI;
     using PX.Data;
     using PX.Objects.SO;

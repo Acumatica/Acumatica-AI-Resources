@@ -1,8 +1,8 @@
-# Cash Sales and Cash Returns: Generated Transactions {#_4f581a2e-8728-41fa-9e98-2ebabe91d620 .concept}
+# Cash Sales and Cash Returns: Generated Transactions
 
 As you process a cash sale, you create and process a document of the *Cash Sales* type. If you process a cash return, you create and process a document of the *Cash Return* type. To record the sale and the return, the system generates the GL transactions described in the following sections.
 
-## Transaction Generated for a Cash Sale { .section}
+## Transaction Generated for a Cash Sale
 
 When you create and release a *Cash Sale* document, the system generates the following general ledger transaction:
 
@@ -13,7 +13,7 @@ When you create and release a *Cash Sale* document, the system generates the fol
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Cash Sales](AR_30_40_00.md) \(AR304000\) form.
 
-## Transaction Generated for a Cash Return { .section}
+## Transaction Generated for a Cash Return
 
 When you create and release a *Cash Return* document, the system generates the following general ledger transaction:
 

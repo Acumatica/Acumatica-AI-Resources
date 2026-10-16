@@ -1,4 +1,4 @@
-# Processing Packages {#_50279419-74be-4155-bc9e-db82e782c880 .concept}
+# Processing Packages
 
 When you sell a package, you enter an invoice on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form and include the package \(appropriate non-stock item\) to the invoice detail line. Once the invoice is released, the system will generate as many schedules for the line as there are components in the package.
 
@@ -6,7 +6,7 @@ You can use the [Deferral Schedule](DR_20_15_00.md) \(DR201500\) form to view th
 
 **Attention:** The system performs processing of the packages described later when the *Revenue Recognition by IFRS 15/ASC 606* feature is disabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. For details on processing packages with this feature enabled, see [Recognition of Revenue from Customer Contracts](DR__con_Recognition_of_Revenue_from_Customer_Contracts.md).
 
-## Packages and Discounts {#section_qzb_3jv_vxb .section}
+## Packages and Discounts
 
 In Acumatica ERP, you can configure a discount that will be applied not only to the total package price but also to the value of the package components.
 
@@ -24,7 +24,7 @@ When you have configured such a discount, the system will automatically insert t
 
 **Attention:** If you manually edit the discount amount in the invoice, the system will apply the new discount to the total amount of the invoice only \(so that the amount of the residual component will be affected\). However, the new discount does not affect the value of a non-residual component, which will be calculated by using the discount percent recorded in the system on the [Discounts](AR_20_95_00.md) form.
 
-## Component Value {#section_zzb_3jv_vxb .section}
+## Component Value
 
 Often, a package contains two or more components, such as a product and some accompanying service \(for example, a maintenance contract\). Although these components can be sold separately and are configured in the system as separate items, in common practice, they are usually offered as a package, which has a price that is less than the sum of the individual prices of each component.
 
@@ -32,11 +32,11 @@ When you configure a package that consists of separate items \(components\), you
 
 The package price is considered to be 100 percent. For a package that contains two components, you can calculate the percentage of the total package price for each component by using the following formulas:
 
-``` {#codeblock_d1c_3jv_vxb}
+```
 The percentage of Item1 = *Item1 Price* / (*Item1 Price* + *Item2 Price*) * 100%
 ```
 
-``` {#codeblock_e1c_3jv_vxb}
+```
 The percentage of Item2 = *Item2 Price* / (*Item1 Price* + *Item2 Price*) * 100%
 ```
 
@@ -47,7 +47,7 @@ In these formulas:
 
 Examples of these calculations are considered in the next sections of this topic.
 
-## Calculation of the Component Value {#section_h1c_3jv_vxb .section}
+## Calculation of the Component Value
 
 Suppose that you sell a $1000 package that includes a product and a 12-month maintenance contract. The product and contract can be sold together in a package \(with two components included\) or as two separate items. When the items are sold separately, the product has a $950 price, and the contract has $100 price.
 
@@ -68,7 +68,7 @@ To recognize the sales amount of the product after the return period expires, yo
 
 Once the return period expires, you can recognize the remainder \(1 – *R*\) portion of the product's value.
 
-## Calculation of Component Value with the Residual Allocation Method Specified {#section_q1c_3jv_vxb .section}
+## Calculation of Component Value with the Residual Allocation Method Specified
 
 Suppose that you sell a $2,000 package that includes a product and a 12-month maintenance contract. You have configured a package by creating an item and adding two components, *Component1* and *Component2*, to that item. Also, suppose that you have defined settings for these components as follows:
 
@@ -86,7 +86,7 @@ To set up the revenue recognition schedule correctly, the system computes the va
 
 The *Component1* amount will be posted to the deferred account. The *Component2* amount will be posted to the sales account.
 
-## Calculation of Component Values When a Discount Should be Applied {#section_x1c_3jv_vxb .section}
+## Calculation of Component Values When a Discount Should be Applied
 
 Suppose that you sell a $1,000 package \(which includes a product and a 12-month maintenance contract, as in the previous examples\) to a distributor to which you always provide a 10% discount. You now want this discount to be applied to not only the total invoice amount, but also to the value of the non-residual components of the package. To apply the discount in this way, you have to perform the following steps in the system:
 

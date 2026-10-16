@@ -1,10 +1,10 @@
-# AR Documents with VAT: To Process an AR Invoice with a Cash Discount {#_b3ae5a67-d48b-4c3e-bbbb-5804e4c5f6c5 .task}
+# AR Documents with VAT: To Process an AR Invoice with a Cash Discount
 
 The following activity will walk you through the processing of an AR invoice with a cash discount and VAT applied to it.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that on January 10, 2026, SweetLife Fruits &amp; Jams provided support services to EasyDiner Co. in the amount of $1,000 and issued an invoice. The invoice amount is $1,000 plus the VAT \($70\). The credit terms of the invoice give the customer a 3% discount if the customer pays the invoice within 10 days.
 
@@ -12,7 +12,7 @@ On January 14, 2026, EasyDiner paid the invoice and took the 3% cash discount.
 
 Acting as a SweetLife accountant, you need to create and release the invoice, applying the cash discount to the taxable amount of the document and making sure that the VAT amount is not affected by the cash discount. Finally, you have to create the payment for the invoice.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following configuration tasks have been performed to prepare the system for this activity to be performed:
 
@@ -22,11 +22,11 @@ In the *U100* dataset, the following configuration tasks have been performed to 
 -   On the [Taxes](TX_20_50_00.md) \(TX205000\) form, the *VAT* tax has been defined and assigned to the *TAXABLE* category and the *CANADA* tax zone.
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *EASYDINER* customer account has been created, and on the **Shipping** tab, *CANADA* is selected in the **Tax Zone** box for the customer.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will update the company settings on the [Companies](CS_10_15_00.md) \(CS101500\) form. On the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will create and release an invoice with a cash discount. On the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form, you will review the GL transaction generated on release of the invoice. On the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, you will pay the invoice within the cash discount period. Finally, on the [Journal Transactions](GL_30_10_00.md) form, you will review the GL transaction generated on release of the payment.
 
-## System Preparation {#section_cll_fjv_vxb .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -35,7 +35,7 @@ To prepare the system, do the following:
 3.  On the Company and Branch Selection menu, on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 4.  In the company to which you are signed in, be sure that you have performed the [Value-Added Taxes: To Create a General VAT and Exempt VAT](../ImplementationGuide/Taxes_Configuring_VAT_Impem_Activity_General_VAT.md) prerequisite activity.
 
-## Step 1: Updating the Company Settings { .section}
+## Step 1: Updating the Company Settings
 
 To make the system apply cash discounts to the taxable amount of documents, you need to update the company settings. To update the settings of *SWEETLIFE*, do the following:
 
@@ -43,7 +43,7 @@ To make the system apply cash discounts to the taxable amount of documents, you 
 2.  On the **Company Details** tab, select *Document Amount Less Taxes* in the **Cash Discount Base** box.
 3.  On the form toolbar, click **Save**.
 
-## Step 2: Creating and Releasing an Invoice with a Cash Discount { .section}
+## Step 2: Creating and Releasing an Invoice with a Cash Discount
 
 To create and release an AR invoice with a cash discount and a VAT tax applied to it, proceed as follows:
 
@@ -79,7 +79,7 @@ To create and release an AR invoice with a cash discount and a VAT tax applied t
     -   **Cash Discount**: 32.10, which is calculated as the total document amount \(the total of all lines plus the tax\) multiplied by the cash discount percent—1,070 \* 3%
 7.  On the form toolbar, click **Remove Hold** and then click **Release** to release the invoice.
 
-## Step 3: Reviewing the GL Transaction Generated on Invoice Release { .section}
+## Step 3: Reviewing the GL Transaction Generated on Invoice Release
 
 To review the GL transaction that was generated when the system released the invoice, proceed as follows:
 
@@ -89,7 +89,7 @@ To review the GL transaction that was generated when the system released the inv
     -   The Sales Revenue account \(*40000*\) is credited in the amount specified in the document line \($1,000\).
     -   The Tax Payable account specified for the tax \(*24100*\) is credited in the calculated VAT amount \($70\).
 
-## Step 4: Paying the Taxable Invoice with the Cash Discount { .section}
+## Step 4: Paying the Taxable Invoice with the Cash Discount
 
 To create a payment for the taxable invoice with a cash discount, do the following:
 
@@ -104,7 +104,7 @@ To create a payment for the taxable invoice with a cash discount, do the followi
 
 5.  On the form toolbar, click **Remove Hold** and then click **Release** to release the payment.
 
-## Step 5: Reviewing the GL Transaction Generated on Payment Release { .section}
+## Step 5: Reviewing the GL Transaction Generated on Payment Release
 
 To review the GL transaction that was generated when the system released the payment, proceed as follows:
 

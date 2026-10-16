@@ -1,4 +1,4 @@
-# &lt;sm:Layout&gt; {#_cac63c59-8ab4-405d-b071-9ec5ed35e323 .concept}
+# &lt;sm:Layout&gt;
 
 The sm:Layout tag is used to arrange multiple UI elements on a screen of the mobile app. The tag can contain the following types of nested tags:
 
@@ -12,14 +12,33 @@ The sm:Layout tag is used to arrange multiple UI elements on a screen of the mob
 
 For details about the relationships between tag types in the mobile site map, see the diagram in [XML Tags](MOBILE_Ref_Tags.md).
 
-## Attributes { .section}
+## Attributes
 
 The sm:Layout tag has the following attributes.
 
-|Attribute|Description|
-|---------|-----------|
-|Name|The identifier of the line layout, as found in the WSDL schema.|
-|Template|The template that is used to define the layout. The following values can be used for this attribute:-   *HeaderFirstAttachment*: An indicator that the mobile app should arrange the UI elements, which are mapped by the nested tags, in a group-like header container with an attachment icon on the left. If you click the attachment icon, you can take a photo and attach the photo to the screen of the mobile app. The camera behavior is affected by the attributes of the sm:attachments tag. If the screen of the mobile app already has attachments, the first attachment thumbnail is shown instead of the attachment icon.
+<table id="_f5397edd-1b5b-4c20-804b-df224e8a5941"><thead><tr><th>
+
+Attribute
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+The identifier of the line layout, as found in the WSDL schema.
+
+</td></tr><tr><td>
+
+Template
+
+</td><td>
+
+The template that is used to define the layout. The following values can be used for this attribute:-   *HeaderFirstAttachment*: An indicator that the mobile app should arrange the UI elements, which are mapped by the nested tags, in a group-like header container with an attachment icon on the left. If you click the attachment icon, you can take a photo and attach the photo to the screen of the mobile app. The camera behavior is affected by the attributes of the sm:attachments tag. If the screen of the mobile app already has attachments, the first attachment thumbnail is shown instead of the attachment icon.
 
 The tag with the attribute set to *HeaderFirstAttachment* can include nested sm:Layout tags with `Template="Inline"`. The tags with the attribute set to *HeaderFirstAttachment* cannot be nested in other sm:Layout tags and can be nested only in sm:Container tags.
 
@@ -32,9 +51,10 @@ The tag with the attribute set to *HeaderSimple* can include nested sm:Layout ta
 The tag with the attribute set to *Inline* cannot include nested sm:Layout tags. The tags with the attribute set to *Inline* can be nested in other sm:Layout tags.
 
 
-|
+</td></tr></tbody>
+</table>
 
-## Examples { .section}
+## Examples
 
 In the following example, the `TotalAmount` field takes 3/6 of the total width, the `Save` action link takes 1/6, and the `Currency` field takes 2/6.
 

@@ -1,10 +1,10 @@
-# To Filter Records {#_afd13b51-3676-4cfb-bde6-ff563057014d .task}
+# To Filter Records
 
 You construct business query language \(BQL\) statements with filtering conditions by using the Where clause in a PXSelect class that has the Where type parameter. \(For more information on selecting the PXSelect class, see [To Select Records By Using Traditional BQL](AD__how_Construct_Statement.md#).\) One Where clause can contain multiple conditions chained to one another by logical operators \(Or, And, and Not\) and nested Where clauses \(these nested clauses are equivalent to placing conditions in brackets\).
 
 Typically, you construct a BQL statement with a condition to compare one field with another field or a constant, or to check if the field value has been specified \(that is, to compare the field value with null\). You can also use multiple conditions in the Where clause.
 
-## To Compare a Field with Another Field { .section}
+## To Compare a Field with Another Field
 
 To compare one field with another field in the Where clause, do the following:
 
@@ -24,7 +24,7 @@ To compare one field with another field in the Where clause, do the following:
     Acumatica Framework explicitly enumerates the columns of the database table in the SQL query. For details on which columns are enumerated, see [Translation of a BQL Command to SQL](../Shared/../StudioDeveloperGuide/AD__con_BQL_Translation_to_SQL.md#).
 
 
-## To Compare a Field with a Constant {#_32d3d633-c741-4cc3-8f49-f4a611f164cb .section}
+## To Compare a Field with a Constant
 
 To compare a field with a constant in the Where clause, do the following:
 
@@ -45,7 +45,7 @@ To compare a field with a constant in the Where clause, do the following:
     Acumatica Framework explicitly enumerates the columns of the database table in the SQL query. For details on which columns are enumerated, see [Translation of a BQL Command to SQL](../Shared/../StudioDeveloperGuide/AD__con_BQL_Translation_to_SQL.md#).
 
 
-## To Compare the Field Value with Null { .section}
+## To Compare the Field Value with Null
 
 To check whether a field value is specified, you compare the field value with null in one of the following ways:
 
@@ -95,7 +95,7 @@ To check whether a field value is specified, you compare the field value with nu
 
 **Important:** The predefined constant Null cannot be used in the Where clause with Equal to select records with null fields. The Null constant is used in Switch conditions.
 
-## To Use Multiple Conditions in One Where Clause { .section}
+## To Use Multiple Conditions in One Where Clause
 
 To specify multiple comparisons in one Where clause, do one of the following:
 

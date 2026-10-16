@@ -1,4 +1,4 @@
-# To Add an Actual Ledger {#_436a5d6f-ea0e-4fb0-a122-89bd98251cbb .task}
+# To Add an Actual Ledger
 
 In Acumatica ERP, you add a new ledger of the *Actual* type as follows:
 
@@ -7,7 +7,7 @@ In Acumatica ERP, you add a new ledger of the *Actual* type as follows:
 
 For details on actual ledgers, see [General Ledger: Actual Ledger](../ImplementationGuide/config_Basic_Company_Actual_Ledger.md).
 
-## To Add an Actual Ledger on the Ledgers Form {#section_gn2_mjv_vxb .section}
+## To Add an Actual Ledger on the Ledgers Form
 
 1.  Open the [Ledgers](../Shared/../UserGuide/GL_20_15_00.md) \(GL201500\) form.
 2.  On the form toolbar, click **Add New Record**.
@@ -20,7 +20,7 @@ For details on actual ledgers, see [General Ledger: Actual Ledger](../Implementa
     2.  In the **Company** column, select the identifier of the company.
 8.  On the form toolbar, click **Save**.
 
-## To Add an Actual Ledger on the Companies Form {#section_hn2_mjv_vxb .section}
+## To Add an Actual Ledger on the Companies Form
 
 1.  Open the [Companies](CS_10_15_00.md) \(CS101500\) form.
 2.  In the **Company ID** box of the Summary area, select the company for which you want to add a ledger.
@@ -32,7 +32,7 @@ For details on actual ledgers, see [General Ledger: Actual Ledger](../Implementa
 5.  Optional: In the **Description** box, check the description of the ledger, and change it if necessary.
 6.  Click **Create**.
 
-## Notes About the Procedure {#section_jn2_mjv_vxb .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

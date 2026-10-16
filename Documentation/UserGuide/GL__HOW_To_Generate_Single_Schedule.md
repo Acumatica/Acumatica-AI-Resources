@@ -1,4 +1,4 @@
-# To Generate Recurring Transactions for a Single Schedule {#_f501dfd6-a0ef-48d6-9234-a36eec341461 .task}
+# To Generate Recurring Transactions for a Single Schedule
 
 You can generate transactions for a particular schedule on the [Recurring Transactions](GL_20_35_00.md) \(GL203500\) form.
 
@@ -7,7 +7,7 @@ You can generate transactions for a particular schedule on the [Recurring Transa
 -   You can also generate batches for a single schedule on the [Generate Recurring Transactions](GL_50_40_00.md) \(GL504000\) form.
 -   You can search for a form by its name or its form ID \(without periods\).
 
-## To Generate Recurring Transactions for a Single Schedule {#section_cvh_mjv_vxb .section}
+## To Generate Recurring Transactions for a Single Schedule
 
 1.  Open the [Recurring Transactions](../Shared/../UserGuide/GL_20_35_00.md) \(GL203500\) form.
 2.  In the Summary area, in the **Schedule ID** box, select the schedule for which you want to generate transactions.

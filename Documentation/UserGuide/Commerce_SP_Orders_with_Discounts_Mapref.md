@@ -1,4 +1,4 @@
-# Importing Orders with Discounts {#_16a430a0-0471-49d6-80d5-47d8e0def302 .concept}
+# Importing Orders with Discounts
 
 In this chapter, you will learn how to set up the import of orders with discounts from the Shopify store to Acumatica ERP.
 

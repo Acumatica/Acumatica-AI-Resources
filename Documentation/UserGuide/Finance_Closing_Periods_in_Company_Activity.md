@@ -1,12 +1,12 @@
-# Closing a Financial Period in a Company: Process Activity {#_a073fec5-4f1c-46f1-b416-9520b3f1291d .task}
+# Closing a Financial Period in a Company: Process Activity
 
 In this activity, you will learn how to close a financial period in an individual company in all subledgers and the general ledger at the same time.
 
-## Story { .section}
+## Story
 
 Suppose that as an accountant, you need to close the *10-2025* financial period in the *2025* financial year in all the subledgers and the general ledger in the SweetLife Fruits &amp; Jams company and in the Muffins &amp; Cakes company.
 
-## Configuration Overview {#section_otc_kjv_vxb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -15,15 +15,15 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Centralized Period Management* feature has been disabled so periods can be managed separately in each company.
 -   On the [Inter-Branch Account Mapping](GL_10_10_10.md) \(GL101010\) form, the account mapping rules between the Muffins &amp; Cakes head office branch \(*MHEAD*\) and the SweetLife head office branch \(*HEADOFFICE*\) have been defined.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will review the statuses of financial periods on the [Company Financial Calendar](GL_20_11_00.md) \(GL201100\) form, and close the financial periods of the SweetLife and Muffins companies on the [Manage Financial Periods](GL_50_30_00.md) \(GL503000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as an accountant Nenad Pasic by using the *pasic* username and the *123* password.
 
-## Step 1: Reviewing the Statuses of Financial Periods { .section}
+## Step 1: Reviewing the Statuses of Financial Periods
 
 To review the statuses of financial periods, do the following:
 
@@ -35,7 +35,7 @@ To review the statuses of financial periods, do the following:
     Notice that all periods in the *2025* financial year are open.
 
 
-## Step 2: Closing a Financial Period in SweetLife Fruits &amp; Jams { .section}
+## Step 2: Closing a Financial Period in SweetLife Fruits &amp; Jams
 
 To close the *10-2025* financial period and the preceding periods in the SweetLife company, do the following:
 
@@ -60,7 +60,7 @@ To close the *10-2025* financial period and the preceding periods in the SweetLi
     The periods in the specified range have changed their status to *Closed* and the **Closed in AP**, **Closed in AR**, **Closed in IN**, and **Closed in CA** check boxes for these periods are selected.
 
 
-## Step 3: Closing a Financial Year in Muffins &amp; Cakes { .section}
+## Step 3: Closing a Financial Year in Muffins &amp; Cakes
 
 To close the *10- 2025* period of the 2025 financial year in the Muffins &amp; Cakes company, do the following:
 

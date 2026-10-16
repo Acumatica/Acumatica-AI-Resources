@@ -1,4 +1,4 @@
-# Defining Actions {#_2c9b9c92-b67b-4030-ba96-67eccfe19c14 .concept}
+# Defining Actions
 
 *Actions* are methods that can be invoked from outside of a graph, from the UI, or through the web service API. Actions are associated with buttons or commands \(or both\) on the user interface.
 

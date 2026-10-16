@@ -1,4 +1,4 @@
-# To Quickly Obtain a Salesforce Instance {#_2df6613c-4a61-4214-b160-ea4458e53370 .task}
+# To Quickly Obtain a Salesforce Instance
 
 If you want to quickly obtain a free Salesforce instance so that you can assess data synchronization between Acumatica ERP and Salesforce, you can do either of the following:
 

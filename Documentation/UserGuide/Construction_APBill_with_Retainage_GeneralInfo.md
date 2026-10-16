@@ -1,8 +1,8 @@
-# AP Bills with Retainage: General Information {#_407cc657-e66f-4a5c-97d1-155c5e41668d .concept}
+# AP Bills with Retainage: General Information
 
 In some situations, your company may opt to retain a part of the amount of an AP bill until the vendor’s work has been completed. In this case, to process the total amount of the bill, at least two bills are created in Acumatica ERP: the bill for which part of the amount is retained, and the retainage bill, which contains the retained amount to be paid.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -11,13 +11,13 @@ In this chapter, you will learn how to do the following:
 -   Enter a payment for a retainage bill
 -   Pay the outstanding balance of an original bill for which retainage was held
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create a bill with retainage when it is necessary to withhold a portion of the contract amount until the work has been completed to assure that the vendor will satisfy its obligations and complete a particular project or project task.
 
 **Important:** Retainage is not supported for AP documents created in a foreign currency.
 
-## The Processing Workflow of a Bill with Retainage { .section}
+## The Processing Workflow of a Bill with Retainage
 
 Typically, an AP bill with retainage goes through the following general steps during its life cycle:
 

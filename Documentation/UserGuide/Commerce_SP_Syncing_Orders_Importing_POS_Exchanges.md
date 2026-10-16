@@ -1,10 +1,10 @@
-# Order Synchronization: Import of POS Exchanges {#_978eca25-f761-4813-8b17-bf3d78d8ad8e .concept}
+# Order Synchronization: Import of POS Exchanges
 
 If your company uses Shopify point-of-sale \(POS\) functionality and imports POS orders from a Shopify store into Acumatica ERP, you can also configure the import of exchanges for POS orders into Acumatica ERP. The import of Shopify POS orders and exchanges is available only when the *Shopify POS Connector* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
 **Important:** Before you can import Shopify POS exchanges into Acumatica ERP, Shopify must enable API access for POS exchange data in the store itself. Contact Shopify to request access.
 
-## Configuring the Import of Shopify POS Exchanges { .section}
+## Configuring the Import of Shopify POS Exchanges
 
 To define the settings for importing Shopify POS exchanges, you perform the following general steps on the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form:
 
@@ -15,11 +15,18 @@ To define the settings for importing Shopify POS exchanges, you perform the foll
 
 **Tip:** Create dedicated order types for Shopify POS exchanges instead of modifying predefined order types.
 
-## Synchronizing Shopify POS Exchanges { .section}
+## Synchronizing Shopify POS Exchanges
 
-Exchanges for both direct and shipped Shopify POS orders are imported during the synchronization of the *Refund* entity, which you activate on the **Entities** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form. The import process is similar to the synchronization of other entities. For more information on data synchronization, see [Data Synchronization: General Information](Commerce_SP_Data_Sync_GeneralInfo.md).
+Exchanges for both direct and shipped Shopify POS orders are imported during the synchronization of the *Refund* entity, which you activate on the **Entities** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form.
 
-## Importing Direct POS Exchanges { .section}
+The return status of exchanges in Shopify is updated during the synchronization of the *Shipment* entity as follows:
+
+-   Exporting a confirmed shipment with the *Receipt* operation updates the restock status of the returned items.
+-   Exporting a confirmed shipment with the *Issue* operation updates the fulfillment status of the exchange items.
+
+The synchronization process is similar to the synchronization of other entities. For more information on data synchronization, see [Data Synchronization: General Information](Commerce_SP_Data_Sync_GeneralInfo.md).
+
+## Importing Direct POS Exchanges
 
 When a direct Shopify POS exchange is imported, the system processes the documents depending on the status of the Shopify POS order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 
@@ -46,7 +53,7 @@ If the sales order that has the *Completed* status, the system does the followin
 -   In the new order, inserts a line for the exchanged item with the *Receipt* operation, and a line for the new item with the *Issue* operation.
 -   If the price of the new item is different from the price of the original item, creates a payment for the additional amount or a refund for the amount that needs to be returned to the customer on the [Payments and Applications](AR_30_20_00.md) form.
 
-## Importing Shipped POS Exchanges { .section}
+## Importing Shipped POS Exchanges
 
 Items in a shipped POS order can be exchanged only if the order has been fully shipped. When a Shopify POS exchange is imported, the system does the following:
 

@@ -1,10 +1,10 @@
-# Business Logic Implementation {#_b02bd27f-3e86-4210-9e0f-c0df7aa701d9 .concept}
+# Business Logic Implementation
 
 The business logic of an Acumatica Framework-based application is implemented by overloading certain methods invoked by the system in the process of manipulating data. For such procedures as inserting a data record or updating a data record, the PXCache controllers generate series of events causing invocation of the methods called event handlers.
 
 The business logic can be divided into common logic relevant to different parts of the application and the logic specific to an application form \(webpage\). The common logic is implemented through event handler methods defined in attributes, while the form-specific logic is implemented as methods in the associated graph.
 
-## Common Business Logic { .section}
+## Common Business Logic
 
 You implement the common business logic by defining event handlers in attributes. If such attribute is added to the declaration of a data access class, attribute logic is applied to the data records of this type for any graph used to access this table.
 
@@ -53,7 +53,7 @@ public virtual string AvailQty { get; set; }
 
 For details about attributes, see [Working with Attributes](BL__mng_Working_With_Attributes.md).
 
-## Screen-Specific Business Logic { .section}
+## Screen-Specific Business Logic
 
 For a specific screen, the application can redefine the common logic or extend it. For this purpose, you should define event handlers in the graph associated with the screen. Each event handler method is tied to a particular table or a table field via the naming convention.
 

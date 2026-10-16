@@ -1,8 +1,8 @@
-# Payments with a Corporate Card: Implementation Checklist {#_e26ddfed-cffa-4e96-a857-e3770c40b9d8 .concept}
+# Payments with a Corporate Card: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for processing expenses with corporate cards, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist {#section_acl_njv_vxb .section}
+## Implementation Checklist
 
 We recommend that before you initially process expenses with the corporate cards, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -11,7 +11,7 @@ We recommend that before you initially process expenses with the corporate cards
 |[Corporate Cards](CA_20_25_00.md) \(CA202500\)|Make sure that the corporate card has been configured. For more information, see [Corporate Cards: General Information](../ImplementationGuide/Corporate_Card_GeneralInfo.md).|
 |[Vendors](AP_30_30_00.md) \(AP303000\)|Make sure that a vendor that represents the bank that issued the corporate credit card have been created. For this vendor, specify the accrued liability account as the **Expense Account**.|
 
-## Other Settings That Affect the Workflow {#section_dcl_njv_vxb .section}
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of processing expenses with corporate credit cards by specifying additional settings as follows:
 

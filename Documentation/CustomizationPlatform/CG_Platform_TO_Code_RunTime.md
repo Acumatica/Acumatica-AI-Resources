@@ -1,4 +1,4 @@
-# Run-Time Compilation {#_0f4b53d4-118b-403a-8a5b-076d35713e72 .concept}
+# Run-Time Compilation
 
 If you have created an extension for a business logic controller or a data access class in a customization project, during the project publication, the Acumatica Customization Platform stores the code of the class extension in a `.cs` file within the `App_RuntimeCode` folder of the website.
 

@@ -1,4 +1,4 @@
-# Managing Relations {#_b3190752-abdf-4780-831e-ca83bd74e69e .concept}
+# Managing Relations
 
 In this chapter, you will find information about managing relations between entities—such as leads, contacts, business accounts, opportunities, cases, sales quotes, sales orders, and invoices. For any of these records, on the **Relations** tab of the form where it was created, you can track the associated records and add any that are not listed.
 

@@ -1,10 +1,10 @@
-# Preparation of Dunning Letters: Related Reports {#_2aed2def-30aa-458f-b4df-903e20124fa9 .concept}
+# Preparation of Dunning Letters: Related Reports
 
 In the following sections, you can find details about the reports you may want to review to gather information about overdue documents.
 
 **Attention:** If you don’t see a particular report or form that is described, you may have signed in to the system with a user account that doesn’t have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms.
 
-## Reviewing the AR Aging by Project Report {#section_hh2_hjv_vxb .section}
+## Reviewing the AR Aging by Project Report
 
 You use the [AR Aging by Project](AR_63_12_00.md) \(AR631200\) report to determine which documents are overdue for payment and for how long.
 
@@ -24,7 +24,7 @@ Depending on the **Age Based On** setting of the statement cycle on the [Stateme
 
 Credit documents are aged based on their document date and the aging date specified for the report if the **Age Credits** check box is selected on the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form. By default, the check box is cleared, and the credit amounts are shown in the **Current** column of the report. With the check box selected, if the document date of a credit document is the same as or later than the aging date, the document balance is reflected in the current aging period of the report. Otherwise, the document balance is reflected in the aging period associated with the number of days that have passed since the document date.
 
-## Reviewing the AR Coming Due Report {#section_oh2_hjv_vxb .section}
+## Reviewing the AR Coming Due Report
 
 The [AR Coming Due](AR_63_15_00.md) \(AR631500\) report and its multicurrency version, [AR Coming Due MC](AR_63_16_00.md) \(AR631600\), are designed to show when you should expect to get payments for the open documents that are not overdue yet.
 
@@ -44,9 +44,8 @@ Depending on the **Age Based On** setting of the statement cycle on the [Stateme
 
 Credit documents are aged based on their document date and the aging date specified for the report if the **Age Credits** check box is selected on the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form. By default, the check box is cleared and the credit amounts are shown in the first aging period of the report. With the check box selected, if the document date of a credit document is earlier than the aging date, the document balance is reflected in the **Past Due** column \(the zero aging period\) of the report along with overdue invoices. Otherwise, the document balance is reflected in the aging period associated with the number of days until the document date.
 
-![](Images/diag_AR_Coming_Due_Report.png "AR Coming Due: aging debit and credit documents")
 
-## Reviewing the AR Aged Period-Sensitive Report {#section_vh2_hjv_vxb .section}
+## Reviewing the AR Aged Period-Sensitive Report
 
 You use the [AR Aged Period-Sensitive](AR_63_05_00.md) \(AR630500\) report to determine the state of the open documents at the end of a particular period.
 
@@ -54,7 +53,7 @@ The report shows the AR documents that are open at the end of the financial peri
 
 The report ages the balances of the debit and credit document in the same way as the [AR Aging](AR_63_10_00.md) \(AR631000\) report does. For details, see [Preparation of Dunning Letters: Using the AR Aging Report](AR__CON_Using_AR_Aging_Reports.md).
 
-## AR Aged Period-Sensitive by Project Report {#section_zh2_hjv_vxb .section}
+## AR Aged Period-Sensitive by Project Report
 
 You use the [AR Aged Period-Sensitive by Project](AR_63_06_00.md) \(AR630600\) report to see the documents that are outstanding at the end of the financial period that you have selected in the **Financial Period** box on this report form. These documents are grouped by project \(that is, the project assigned to each AR document\), by statement cycle, and by customer, and they are broken down by aging periods or financial periods, depending on the settings of the statement cycle specified for each customer.
 

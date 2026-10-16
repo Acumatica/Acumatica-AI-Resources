@@ -1,8 +1,8 @@
-# Multicurrency Payment of Bills: To Change the Payment Amount Instead of Cross Rate {#_cba673d2-17c6-4815-bee1-f2246cb33b09 .task}
+# Multicurrency Payment of Bills: To Change the Payment Amount Instead of Cross Rate
 
 This activity will walk you through the process of creating an AP bill in a foreign currency and paying it in another foreign currency. You will also change the amount paid in the payment currency, causing the system to recalculate the cross rate.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Fruits &amp; Jams buys professional services from Space Computers, Ltd., which operates in a multicurrency environment. SweetLife’s base currency is USD, but it conducts business using foreign currencies—specifically, EUR and GBP.
 
@@ -10,7 +10,7 @@ On April 1, 2026, a bill for EUR 1000 was entered in the system, which was USD 1
 
 Acting as a SweetLife accountant, you need to create a bill for EUR 1000, create a payment for GBP 840, and apply the payment to the bill to fully pay it.
 
-## Configuration Overview {#section_mfx_3jv_vxb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -24,14 +24,14 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, the *20000 \(Accounts Payable\)*, *83000 \(Realized Gain/Loss Currency\)* accounts have been created.
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *SPACECOMP* vendor has been defined.
 
-## Process Overview { .section}
+## Process Overview
 
 -   You will create currency rates on the [Currency Rates](CM_30_10_00.md) \(CM301000\) form.
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, you will update the vendor's settings.
 -   On the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you will create an AP bill in EUR.
 -   On the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form, you will create a payment in GBP and apply the bill to it in full to close the bill.
 
-## System Preparation {#section_yqy_3jv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -40,7 +40,7 @@ Before you begin performing the steps of this activity, do the following:
 3.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu button to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 4.  Make sure that the multicurrency accounting functionality has been configured as described in Steps 1 through 2 in [Multicurrency Payment of Invoices: To Change the Payment Amount Instead of the Cross Rate](Multicurrency_ARInvoiceByForeignCurrency_CrossRate_Activity.md).
 
-## Step 1: Creating Currency Rates { .section}
+## Step 1: Creating Currency Rates
 
 To define the currency rates between the base currency \(*USD*\), *GBP*, and *EUR* do the following:
 
@@ -65,7 +65,7 @@ To define the currency rates between the base currency \(*USD*\), *GBP*, and *EU
     -   **Mult./Div.**: *Multiply*
 7.  On the form toolbar, click **Save**.
 
-## Step 2: Updating the Vendor's Settings { .section}
+## Step 2: Updating the Vendor's Settings
 
 To update the vendor's settings, do the following:
 
@@ -80,7 +80,7 @@ To update the vendor's settings, do the following:
     -   **Cash Account**: *10610 - Checking Account GBP*
 4.  On the form toolbar, click **Save**.
 
-## Step 3: Creating an AP Bill in EUR { .section}
+## Step 3: Creating an AP Bill in EUR
 
 To create an AP bill in *EUR* and release it, do the following:
 
@@ -106,7 +106,7 @@ To create an AP bill in *EUR* and release it, do the following:
     -   The system calculates €1000 \* 1.1 and rounds the total.
 8.  Click **Remove Hold** and then click **Release**.
 
-## Step 4: Creating a Payment in GBP { .section}
+## Step 4: Creating a Payment in GBP
 
 To create a payment in *GBP* and apply it to the bill in *EUR*, do the following:
 

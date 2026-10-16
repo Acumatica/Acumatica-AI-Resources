@@ -1,10 +1,10 @@
-# Setting Up the RBC ACH094 Plug-In for Cross-Border Payment Processing {#_52b01ce0-4e91-4ab8-913a-0aeeac188bbf .concept}
+# Setting Up the RBC ACH094 Plug-In for Cross-Border Payment Processing
 
 The ACH094 file format, based on the ACH IAT standard, is accepted by the Royal Bank of Canada \(RBC\) for cross-border payments. In Acumatica ERP, the RBC ACH094 plug-in is available to configure payment processing from Canada to the United States.
 
 **Important:** The plug-in is available in the system when the *Canadian Localization* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Overview of the RBC ACH094 Plug-In Configuration {#section_zs4_hmm_k2c .section}
+## Overview of the RBC ACH094 Plug-In Configuration
 
 The RBC ACH094 plug-in in Acumatica ERP has been adjusted to meet the requirements of both customers and banks. It supports only the following ACH094 format setup:
 
@@ -31,7 +31,7 @@ For details, see [RBC ACH094 Plug-In Settings](CA__CON_Settings_of_Canadian_ACH_
 
 **Important:** The RBC ACH094 plug-in doesn't have an equivalent export scenario.
 
-## Setup of the RBC ACH094 Plug-In Payment Processing {#section_cc4_qmt_k2c .section}
+## Setup of the RBC ACH094 Plug-In Payment Processing
 
 To initiate payment processing by using the RBC ACH094 plug-in, you need to complete the following configuration tasks:
 

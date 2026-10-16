@@ -1,8 +1,8 @@
-# To Perform Database Maintenance {#_fc906c62-c65b-44d6-8210-13d9cea2b88d .task}
+# To Perform Database Maintenance
 
 You can create a new Acumatica ERP database, upgrade an existing database with a current version of the database schema, repair the database schema, and set up tenants. To perform these tasks, you use the **Perform Database Maintenance** option on the Welcome page of the Acumatica ERP Configuration wizard.
 
-## To Perform Database Maintenance { .section}
+## To Perform Database Maintenance
 
 1.  Run the Acumatica ERP Configuration wizard. For example, select **Start &gt; Acumatica &gt; Acumatica ERP Configuration**.
 2.  On the Welcome page, click **Perform Database Maintenance**.
@@ -35,7 +35,7 @@ You can create a new Acumatica ERP database, upgrade an existing database with a
 8.  Click **Next**.
 9.  Optional: On the Table Configuration page \(which is displayed only if you have selected the **Advanced Settings** check box on the Tenant Setup page\), specify whether you want the database tables to be shared by different tenants, and then click **Next**.
 
-    CAUTION:
+    **CAUTION:**
 
     Table configuration is a dangerous operation that can result in database corruption. Any changes you make are at your own risk. If you configure tables, be sure to first back up the database.
 

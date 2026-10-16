@@ -1,4 +1,4 @@
-# Multiple Bill Payments: Implementation Checklist {#_ca06c556-c36b-4283-8099-49cc5930b7b2 .concept}
+# Multiple Bill Payments: Implementation Checklist
 
 To ensure that the system is configured properly for processing a payment of multiple bills, make sure that the criteria listed in the table have been met in the system as described.
 
@@ -8,7 +8,7 @@ To ensure that the system is configured properly for processing a payment of mul
 |[Vendors](AP_30_30_00.md) \(AP303000\)|Verify the existence of the vendor accounts for the vendors whose bills you want to pay with one payment. For details, see [Vendors: Implementation Activity](Vendor_Implem_Activity.md).| |
 |[Payment Methods](CA_20_40_00.md) \(CA204000\)|Make sure the *CHECK* payment method has been selected when creating a payment.| |
 
-## Settings That Affect the Workflow {#section_dsk_njv_vxb .section}
+## Settings That Affect the Workflow
 
 The following settings and entities should be specified and defined, respectively:
 

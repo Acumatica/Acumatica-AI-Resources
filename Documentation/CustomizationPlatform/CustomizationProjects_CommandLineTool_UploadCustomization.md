@@ -1,4 +1,4 @@
-# PXCommandLine Tool: UploadCustomization {#_a63cdd10-5ec0-47c9-bab7-79207cca10d3 .concept}
+# PXCommandLine Tool: UploadCustomization
 
 You can use the *UploadCustomization* value of the `/method` parameter to upload a customization project from a customization package \(`.zip` archive\) to an Acumatica ERP instance.
 

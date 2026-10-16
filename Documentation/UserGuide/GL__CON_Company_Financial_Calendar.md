@@ -1,4 +1,4 @@
-# Companies' Financial Calendars {#_d403055e-3a02-4fcb-8d00-3392feda74be .concept}
+# Companies' Financial Calendars
 
 If the *Multiple Calendar Support* feature is disabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, when the master calendar is created on the [Master Financial Calendar](GL_20_10_00.md) \(GL201000\) form, the system also creates each company calendar automatically as a copy of the master calendar. If your organization supports a separate financial calendar for each company within the tenant when each company needs to close financial periods separately \(the *Centralized Period Management* feature is disabled on the [Enable/Disable Features](CS_10_00_00.md) form\), you use the [Company Financial Calendar](GL_20_11_00.md) \(GL201100\) form to review the statuses of financial periods for each company. After you have set up the master financial calendar and generated periods for it, you should open these periods separately in each company.
 
@@ -8,7 +8,7 @@ If the *Multiple Calendar Support* feature is enabled, you generate company cale
 
 If you disable the *Multiple Calendar Support* feature on the [Enable/Disable Features](CS_10_00_00.md) form, the system ensures that each period in the master calendar has a matching period in a company calendar for all active companies. \(This validation is not performed for companies that have the *Inactive* status.\) If this is not the case, the system displays an error message on the [Enable/Disable Features](CS_10_00_00.md) form that a company calendar differs from the master calendar, and the *Multiple Calendar Support* feature cannot be disabled. To resolve this issue, you need to make the company calendar the same as the master calendar for all the companies mentioned in the error message. For details on company statuses, see [Companies and Branches](OS__con_Companies.md).
 
-## Period Status Management {#section_hsf_mjv_vxb .section}
+## Period Status Management
 
 You use the [Company Financial Calendar](GL_20_11_00.md) \(GL201100\) form to review the statuses of financial periods. When the *Multiple Calendar Support* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you also generate company calendars by using this form. To manage financial periods, you use the [Manage Financial Periods](GL_50_30_00.md) \(GL503000\) form, where you can open, close, lock, deactivate, reopen, and unlock periods for the selected company.
 

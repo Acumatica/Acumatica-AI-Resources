@@ -1,14 +1,14 @@
-# Approving Financial Documents {#_e48029c1-9301-4515-b1c6-3b3529c938ed .concept}
+# Approving Financial Documents
 
 Most businesses have their own processes of reviewing and approving financial documents. AR documents such as invoices, credit memos, and debit memos should be approved before release by an authorized employee. With Acumatica ERP you can adjust the approval workflows as required by your organization's policies and set up approval for multiple types of documents.
 
 In the following sections, you can read about the mechanisms you can set up in Acumatica ERP to keep control of financial documents.
 
-## Invoice Approval for Payment {#section_inm_4jv_vxb .section}
+## Invoice Approval for Payment
 
 In some companies, authorized employees approve AR invoices for payment before other users can enter payments or apply memos to these invoices. With this mechanism enabled, all released invoices are available for payment only after being approved by an authorized person. This person performs the approval by using a specific form to which you should restrict access for all other employees, but the authorized ones. For details, see [To Approve Invoices, Debit Memos, and Credit Memos](AR__how_Approve_AR_Documents.md).
 
-## Approval Workflow {#section_knm_4jv_vxb .section}
+## Approval Workflow
 
 Acumatica ERP offers an easy-to-use, system-wide mechanism of configuring approval workflow for multiple types of documents. To use the functionality, you enable the *Approval Workflow* feature on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 

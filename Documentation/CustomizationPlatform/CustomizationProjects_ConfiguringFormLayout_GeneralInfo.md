@@ -1,8 +1,8 @@
-# Form Layout: General Information {#_1880667b-d7a4-40e9-a1d4-d83afd5eec15 .concept}
+# Form Layout: General Information
 
 Customization projects often include the addition of UI elements and the underlying data fields to a form, and the modification of these elements. You can also change the way elements are arranged on the form: You can add tabs and sections to group similar elements and move elements to different parts of the form.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you’ll learn how to do the following:
 
@@ -15,7 +15,7 @@ In this chapter, you’ll learn how to do the following:
 -   Create boxes and add these boxes to the new tabs
 -   Add columns to the lookup tables of the boxes on a form
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You modify the form layout in the following cases:
 
@@ -24,7 +24,7 @@ You modify the form layout in the following cases:
 -   You need to change the position of elements on the form or group the elements into sections.
 -   You want to filter records on the form by using certain values in the lookup table, and the default lookup table does contain the needed values.
 
-## Configuration of the Form Layout { .section}
+## Configuration of the Form Layout
 
 You configure the layout of a form in two ways:
 
@@ -44,15 +44,14 @@ You then use the [Modern UI Editor](../UserGuide/AU_20_10_80.md) page of the Cus
 
 For details on how to configure the form layout in the code, see [Form Layout: General Information](../DeveloperGuide/UIDev_DesigningLayout_GeneralInfo.md).
 
-## Use of the Element Inspector { .section}
+## Use of the Element Inspector
 
 You use the [Element Inspector](../UserGuide/AU_ElementInspector.md) to start the customization of a UI element that you inspect on a particular Acumatica ERP form. To activate the [Element Inspector](../UserGuide/AU_ElementInspector.md), you click **Settings** &gt; **Inspect Element** on the form title bar. You then click the element that you want to inspect on the form. This opens the **Element Properties** dialog box \(shown in the following screenshot\).
 
-![](images/CustomizationProjects_ConfiguringFormLayout_ElementInspectorDialogBox.png "The Element Properties dialog box")
 
 The dialog box displays various properties of the UI element that you clicked, such as its control type, data access class, data field, data view, business logic controller, actions, and drop-down control values. These properties define the visual appearance and business logic of the element. By clicking different buttons and menu commands in the **Element Properties** dialog box, you can view the source code of the element or start customizing it on the Screen Editor page. For more information, see [Modern UI Editor: General Information](../DeveloperGuide/UIDev_ModernUIEditor_GeneralInfo.md) and [UI Customization Development: General Information](../DeveloperGuide/UIDev_Customization_GeneralInfo.md).
 
-## Adding Form Configurations to the Customization Project {#section_bms_dnd_hhc .section}
+## Adding Form Configurations to the Customization Project
 
 In Acumatica ERP, users can easily personalize forms to meet their needs, and administrators can perform system-wide configuration. A *form configuration* is a set of these changes to a particular form. You can incorporate any form configuration in a customization project as a *UI configuration*. You do this by using the [UI Configurations](../UserGuide/AU_23_00_10.md) page of the Customization Project Editor.
 
@@ -66,7 +65,6 @@ A form configuration \(and the corresponding UI configuration\) can include such
 
 Below you can see an added UI configuration for the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form.
 
-![](images/CustomizationProjects_ConfiguringFormLayout_AddedSavedUIConfig.png "The added form configuration")
 
 You may have previously configured user-defined fields and added them to groups of elements while personalizing the form. These fields are automatically added to the [User-Defined Fields](../UserGuide/AU_23_00_00.md) page of the Customization Project Editor when you add the form configuration on the [UI Configurations](../UserGuide/AU_23_00_10.md) page. For details on how to add user-defined fields, see [User-Defined Fields in Customization Projects: General Information](CustomizationProjects_AddingUserDefinedFields_GeneralInfo.md).
 

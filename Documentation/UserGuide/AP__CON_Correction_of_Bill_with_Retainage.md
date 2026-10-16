@@ -1,4 +1,4 @@
-# Correction of a Bill with Retainage {#_48e35f4b-ca14-4a23-bf86-5cae9cd39dcd .concept}
+# Correction of a Bill with Retainage
 
 In Acumatica ERP, the details of the bill can be changed only if the bill has the *On Hold* or *Balanced* status. If the bill has *Open* status, you can edit only the cash discount date and the due date until the document is settled. The closed bill cannot be edited at all.
 
@@ -6,7 +6,7 @@ Thus, the correction of an open bill can be performed only by issuing an additio
 
 In this topic, you will read about the ways to correct a released bill with retainage.
 
-## Reversing a Bill with Retainage {#section_gyl_njv_vxb .section}
+## Reversing a Bill with Retainage
 
 You cannot reverse an original bill with retainage if:
 

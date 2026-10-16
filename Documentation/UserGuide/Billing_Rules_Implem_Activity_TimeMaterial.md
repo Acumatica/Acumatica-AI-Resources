@@ -1,14 +1,14 @@
-# Billing Rules: To Configure a Time and Material Rule {#_cec9de61-c897-4e4c-9cf3-229dd61f7e26 .task}
+# Billing Rules: To Configure a Time and Material Rule
 
 The following implementation activity will walk you through the process of configuring a time and material billing rule.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you, as the project accountant of the SweetLife Fruits &amp; Jams company, need to configure a billing rule to be used for billing customers for the materials that have been spent on providing services as part of the project, and for the time that has been spent by SweetLife's employees performing work for the project.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -17,15 +17,15 @@ In the *U100* dataset, the following tasks have been performed to support this a
     -   The *MATERIAL* account group of the expense type, which aggregates the amounts posted to the *50000 \(GOGS – Inventory\)* account
     -   The *LABOR* account group of the expense type, which aggregates the amounts posted to the *54100 \(Project Labor Expense\)* account.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create a billing rule for time and material billing on the [Billing Rules](PM_20_70_00.md) \(PM207000\) form, and add to this rule two steps for billing different account groups.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring a billing rule, you need to launch the Acumatica ERP website and sign in to a company with the *U100* dataset preloaded. To sign in as a project accountant, use the *brawner* username and the *123* password.
 
-## Step 1: Configuring a Billing Rule and Adding a Step { .section}
+## Step 1: Configuring a Billing Rule and Adding a Step
 
 To configure a billing rule to be used for time and material billing and then add a step for billing for materials, do the following:
 
@@ -60,7 +60,7 @@ To configure a billing rule to be used for time and material billing and then ad
 
 6.  Save your changes.
 
-## Step 2: Adding One More Step to the Billing Rule { .section}
+## Step 2: Adding One More Step to the Billing Rule
 
 To add and configure a step for billing for labor, do the following:
 

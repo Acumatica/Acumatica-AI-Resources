@@ -1,4 +1,4 @@
-# To Create an Opportunity by Using the Acumatica Add-In {#_b9a7ee8d-c3fc-4f6d-92a1-3bb64ceb6309 .task}
+# To Create an Opportunity by Using the Acumatica Add-In
 
 If you want to create an opportunity associated with an existing contact, do the following:
 
@@ -20,7 +20,7 @@ If you want to create an opportunity associated with an existing contact, do the
 10. In the **Branch** box, specify the branch to which the opportunity is related.
 11. Click **Create Opportunity**.
 
-## Notes { .section}
+## Notes
 
 References to the instruction:
 

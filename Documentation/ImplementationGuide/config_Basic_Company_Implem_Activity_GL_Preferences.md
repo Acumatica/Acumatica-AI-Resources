@@ -1,23 +1,23 @@
-# General Ledger: To Specify General Ledger Preferences {#_4bf5d099-3060-4f2a-8825-4a8ca71e3e43 .task}
+# General Ledger: To Specify General Ledger Preferences
 
 In this activity, you will learn how to specify the basic settings to be used for the general ledger functionality.
 
-## Story { .section}
+## Story
 
 Suppose that a company with an actual ledger has been created and a chart of accounts has been defined in Acumatica ERP. Acting as an administrator, you need to specify the preference settings related to the general ledger functionality. You will specify the accounts that are mandatory for the system and other settings that make it easier for users to create entities in the system.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will configure general ledger preferences on the [General Ledger Preferences](../UserGuide/GL_10_20_00.md) \(GL102000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start specifying the general ledger preference settings, make sure that the following tasks have been completed in the system:
 
 1.  The company has been created and its actual ledger has been specified; see [Company Without Branches: To Configure a Company Without Branches](config_Basic_Company_Implem_Activity_Enabling_Features.md) and [General Ledger: To Create an Actual Ledger](config_Basic_Company_Implem_Activity_Actual_Ledger.md).
 2.  The Net Income and Retained Earnings accounts have been added to the chart of accounts, as described in [General Ledger: To Create a Chart of Accounts](config_Basic_Company_Implem_Activity_COA.md).
 
-## Step: Specifying the General Ledger Preferences { .section}
+## Step: Specifying the General Ledger Preferences
 
 You specify the basic settings related to processing GL transactions as follows:
 

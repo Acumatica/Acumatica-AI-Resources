@@ -1,16 +1,16 @@
-# Report Creation: To Copy an Existing Report {#_640dfd1d-add0-474c-bbd9-023e48c45715 .task}
+# Report Creation: To Copy an Existing Report
 
 In the following activity, you will learn how to copy an existing report, which can be a predefined report or a report designed through the Acumatica Report Designer \(for example, a report created by a colleague who works on customizations\).
 
-## Story {#section_kvr_njz_dfc .section}
+## Story
 
 Suppose that you are a technical specialist in your company, and you are working on customizations. An accountant of the company has requested a report that displays the AR register. You have offered the accountant to use the [AR Register](AR_62_15_00.md) \(AR621500\) report, which is a predefined report in Acumatica ERP, but the accountant has asked for modifications to the report. You have decided to make a copy of the report and change the copy in the Report Designer rather than directly modifying the predefined report. As a first step, you will create and save the copy of the report.
 
-## Process Overview {#section_lvr_njz_dfc .section}
+## Process Overview
 
 In this activity, you will first open and examine the [AR Register](AR_62_15_00.md) \(AR621500\) report in Acumatica ERP. Then you will open the report in the Acumatica Report Designer and save a copy of it with a different name.
 
-## System Preparation {#section_mvr_njz_dfc .section}
+## System Preparation
 
 Before you perform the steps of this activity, make sure that the following tasks have been performed:
 
@@ -21,7 +21,7 @@ Before you perform the steps of this activity, make sure that the following task
     **Tip:** The *gibbs* user is assigned the *Administrator* role and the *Report Designer* role. Thus, this user has sufficient access rights to manage system configuration and to preview, save, and publish reports.
 
 
-## Step 1: Opening and Viewing the Existing Report in Acumatica ERP {#section_nvr_njz_dfc .section}
+## Step 1: Opening and Viewing the Existing Report in Acumatica ERP
 
 To open and view the [AR Register](AR_62_15_00.md) \(AR621500\) report, which is an existing report in Acumatica ERP, do the following:
 
@@ -38,7 +38,7 @@ To open and view the [AR Register](AR_62_15_00.md) \(AR621500\) report, which is
     The resulting report is displayed.
 
 
-## Step 2: Opening the Existing Report in the Acumatica Report Designer {#section_pvr_njz_dfc .section}
+## Step 2: Opening the Existing Report in the Acumatica Report Designer
 
 To open the existing report in the Acumatica Report Designer, do the following:
 
@@ -70,7 +70,7 @@ The dialog box is closed, and the opened report file is displayed in the Design 
 
 Note that this capability is available only if you are signed in to a user account with the *Report Designer* role.
 
-## Step 3: Saving a Copy of the Opened Report on the Acumatica ERP Server {#section_rvr_njz_dfc .section}
+## Step 3: Saving a Copy of the Opened Report on the Acumatica ERP Server
 
 To save the opened report in the Acumatica Report Designer to the Acumatica ERP server, do the following:
 

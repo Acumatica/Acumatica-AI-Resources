@@ -1,10 +1,10 @@
-# Asset Migration: Related Reports {#_a4a91753-c1ea-4d48-bfb5-8827ba3126f6 .concept}
+# Asset Migration: Related Reports
 
 In the following sections, you can find details about the reports you may want to review to gather information about imported assets.
 
 **Attention:** If you don’t see a particular report or form that is described, you may have signed in to the system with a user account that doesn’t have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms.
 
-## Reviewing the Results of Data Migration {#section_x1h_ljv_vxb .section}
+## Reviewing the Results of Data Migration
 
 After you have migrated fixed assets from a legacy system, you can review the list of migrated assets by running the [FA Balance](FA_63_00_00.md) \(FA630000\) report. The report shows the migrated assets with their accumulated depreciation and net value.
 

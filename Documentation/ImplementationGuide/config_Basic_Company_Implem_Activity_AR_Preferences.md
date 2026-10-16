@@ -1,16 +1,16 @@
-# Accounts Receivable: To Specify Accounts Receivable Preferences {#_7d50ea5c-cda7-44ca-8fc5-23c9f353297b .task}
+# Accounts Receivable: To Specify Accounts Receivable Preferences
 
 In this activity, you will learn how to define the basic settings to be used for the accounts receivable functionality.
 
-## Story { .section}
+## Story
 
 Suppose that as an administrator, you need to define the preference settings for the accounts receivable functionality. You need to specify the default customer class and other settings that will make it easier for users to create AR documents.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will specify accounts receivable preferences on the [Accounts Receivable Preferences](../UserGuide/AR_10_10_00.md) \(AR101000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start specifying accounts receivable preference settings, make sure that the following tasks have been performed in the system:
 
@@ -18,7 +18,7 @@ Before you start specifying accounts receivable preference settings, make sure t
 2.  The credit terms that are used by customers have been created, as described in [Credit Terms: To Define Single-Installment Credit Terms](config_Basic_Company_Implem_Activity_Credit_Terms.md).
 3.  The default customer class has been created, as described in [Accounts Receivable: To Create a Customer Class](config_Basic_Company_Implem_Activity_Customer_Classes.md).
 
-## Step: Specifying the Accounts Receivable Preferences { .section}
+## Step: Specifying the Accounts Receivable Preferences
 
 To specify the basic settings that will apply to accounts receivable, do the following:
 

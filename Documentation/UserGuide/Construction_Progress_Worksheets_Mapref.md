@@ -1,4 +1,4 @@
-# Tracking Project Progress by Unit {#_f406752d-de87-4c80-971e-478addd8e287 .concept}
+# Tracking Project Progress by Unit
 
 In this chapter, you will find information on how to track units that have been used on project site.
 

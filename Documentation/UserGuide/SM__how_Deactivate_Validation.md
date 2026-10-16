@@ -1,8 +1,8 @@
-# To Turn Off Validation of Translations {#_736710bc-c8cb-411c-ac00-3fc9941e201c .task}
+# To Turn Off Validation of Translations
 
 After you have translated all strings on the interface and validated the translations, you can turn off the validation of translations by using the [System Locales](SM_20_05_50.md) \(SM200550\) form. For more information, see [Translation Process](SM__con_Translation_Process.md).
 
-## To Turn Off Validation of Translations { .section}
+## To Turn Off Validation of Translations
 
 1.  Open the [System Locales](SM_20_05_50.md) \(SM200550\) form.
 2.  If necessary, use the **Column Configuration** dialog box to display the **Show Validation Warnings** column.

@@ -1,4 +1,4 @@
-# Personal Email Accounts {#_6ce134c7-90e6-4975-b377-cec4412b362d .concept}
+# Personal Email Accounts
 
 A *personal email account* is a company email account that belongs to a person and is used for work-related business. Personal email accounts cannot be used for automated email.
 
@@ -6,7 +6,7 @@ An email account becomes the personal email account of an Acumatica ERP user onc
 
 One user can have as many personal email accounts as needed. The procedures of adding a new personal account to the system and performing reauthorization in the external email services can be done by the user and normally do not require assistance of a system administrator.
 
-## Creating Personal Email Accounts { .section}
+## Creating Personal Email Accounts
 
 You use the [Email Accounts](SM_20_40_02.md) \(SM204002\) form to create a new personal email account. The procedure of creating a new personal email account is similar to the creation of a system email account, which is described in [To Create a System Email Account](EM__HOW_To_Create_a_System_Email_Account.md), with the following exceptions:
 
@@ -20,15 +20,14 @@ You use the [Email Accounts](SM_20_40_02.md) \(SM204002\) form to create a new p
 
 If the email address of the selected user differs from the email address that is specified in the **Email Address** box of the Summary area of the [Email Accounts](SM_20_40_02.md) form, the system shows a warning message next to the **Personal Account For** box.
 
-On the **Email Accounts** tab of the [Users](SM_20_10_10.md) \(SM201010\) form, you can review the list of all personal email accounts related to a selected user. You can add an email account by clicking **Add Email Account** \(![](Images/form_toolbar_buttons_Add_record.png)\) on the table toolbar of the tab. The system then opens the [Email Accounts](SM_20_40_02.md) form in a new browser tab with a new email account record. The **Personal Account For** box is initially filled in with the name of the user account that had been open on the [Users](SM_20_10_10.md) form.
 
 If a user has been deleted on the [Users](SM_20_10_10.md) form and the **Personal Account For** box for an email account on the [Email Accounts](SM_20_40_02.md) form had contained the name of the deleted user, the system clears this box.
 
-## Configuring Personal Email Accounts { .section}
+## Configuring Personal Email Accounts
 
 For each personal email account, you specify the outgoing mail server, the incoming mail server \(optional\), and the protocol to be used. Also, you must specify ports, sign-in information for servers of both types, and the type of encrypted connection \(if required by the server\). You can enable and set up the processing of incoming mail for a personal email account, as described in [Incoming Mail Processing](EM__con_Mail_Processing.md).
 
-## Restrictions of Using Personal Email Accounts { .section}
+## Restrictions of Using Personal Email Accounts
 
 To restrict the usage of the personal email accounts in mass emails, on the [Email Activity](CR_30_60_15.md) \(CR306015\) and [Mass Emails](CR_30_80_00.md) \(CR308000\) forms, the lookup table in the **From** box shows only those email accounts for which either of the following conditions is met:
 
@@ -76,7 +75,7 @@ If you change the user account in the **Personal Account For** box of the [Email
 
 If row-level security rules are applied in the system, the lists of email accounts can also be restricted based on these rules.
 
-## Managing Personal Email Accounts { .section}
+## Managing Personal Email Accounts
 
 A user can manage their personal email account by using the elements in the **Personal Email Accounts** section on the **Email Settings** tab of the [User Profile](SM_20_30_10.md) \(SM203010\) form. The table in this section contains the email accounts for which the currently logged-in user is selected in the **Personal Account For** box on the [Email Accounts](SM_20_40_02.md) form. The columns of the table \(excluding **Active**\) are filled in by the system based on the settings of the email account on the [Email Accounts](SM_20_40_02.md) form and are read-only. The state of the **Active** check box can be changed manually; if the user changes this state and then saves their changes, the system updates the state of the **Active** check box on the [Email Accounts](SM_20_40_02.md) form.
 

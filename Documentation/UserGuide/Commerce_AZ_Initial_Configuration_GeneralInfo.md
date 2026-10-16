@@ -1,12 +1,12 @@
-# Initial Configuration: General Information {#_0873da54-fbef-4515-b5bf-931b596d6cb5 .concept}
+# Initial Configuration: General Information
 
 Before you can start using the ecommerce functionality of Acumatica ERP Retail Edition, you need to establish a connection between the Acumatica ERP instance and the Amazon seller account, and perform the initial configuration.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this section, you will learn what general steps are involved in establishing a connection between Acumatica ERP and the Amazon seller account and in performing the initial configuration of these systems.
 
-## Steps for Establishing the Store Connection and Performing the Initial Configuration { .section}
+## Steps for Establishing the Store Connection and Performing the Initial Configuration
 
 In order to connect the Acumatica ERP instance to the Amazon seller account, you perform the following general steps:
 
@@ -15,7 +15,7 @@ In order to connect the Acumatica ERP instance to the Amazon seller account, you
 
 Each of these steps is described in greater detail below.
 
-## Establishing the Connection to the Amazon Seller Account { .section}
+## Establishing the Connection to the Amazon Seller Account
 
 Before you can connect Acumatica ERP to an Amazon seller account, you need to set it up first. For details on creating and setting up an Amazon seller account, see [the Amazon documentation](https://sell.amazon.com/sell).
 
@@ -35,7 +35,7 @@ Once the seller account is ready, you perform the following general steps to con
     As soon as the connection is established, you can test the connection to the seller account any time by clicking **Test Connection** on the form toolbar.
 
 
-## Activating and Setting Up the Supported Entities { .section}
+## Activating and Setting Up the Supported Entities
 
 For the entities that need to be synchronized between the Acumatica ERP instance and the Amazon seller account, you select the **Active** check box on the **Entities** tab of the [Amazon Stores](BC_20_10_20.md) \(BC201020\) form.
 
@@ -57,7 +57,7 @@ After the initial configuration has been completed, you can configure the mappin
 
 **Attention:** On the [Entities](BC_20_20_00.md) form, filtering and mapping are not available for the *Product \(Linking Only\)* and *Product Availability* entities.
 
-## Synchronization of Data { .section}
+## Synchronization of Data
 
 After you have performed the initial configuration, you can start to synchronize data between Acumatica ERP and the Amazon seller account. For information about synchronization, see [Overview of Data Synchronization](Commerce_AZ_Data_Sync_Mapref.md).
 

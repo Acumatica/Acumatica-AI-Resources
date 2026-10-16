@@ -1,4 +1,4 @@
-# Invoices with Sales Taxes: Generated Transactions {#_ca2d7cca-6665-4717-9108-71ec9704b1b9 .concept}
+# Invoices with Sales Taxes: Generated Transactions
 
 For documents created in the AR subledger, the system records tax amounts to the GL account specified for a particular tax on the **GL Accounts** tab of the [Taxes](TX_20_50_00.md) \(TX205000\) form, as shown in the following table.
 

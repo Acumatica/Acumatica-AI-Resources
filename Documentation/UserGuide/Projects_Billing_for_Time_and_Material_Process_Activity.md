@@ -1,14 +1,14 @@
-# Time and Material Billing: To Bill a Project for Time and Material {#_c53c0b58-26c1-4385-a86e-d9cecd34d4c0 .task}
+# Time and Material Billing: To Bill a Project for Time and Material
 
 This activity will walk you through the process of billing a project for time and material.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the HM's Bakery and Cafe customer has ordered a juicer from the SweetLife Fruits &amp; Jams company, along with the services of installation and employee training on operating the juicer. SweetLife's project accountant has created the project to handle the tracking and billing of the juicer and the provided services. Then the project accountant has entered a project transaction to record the delivery and installation of the juicer, and eight hours of training have been provided by SweetLife consultants on January 14, 2026. Acting as the project accountant, you need to bill the customer for the project so that the billing includes the materials used and the work time spent on the project.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -18,18 +18,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Projects](PM_30_10_00.md) \(PM301000\) form, the *HMBAKERY4* project has been created for the *HMBAKERY* customer, and the *PHASE1* and *PHASE2* tasks have been added to the project. On the **Tasks** tab, the *TM* billing rule has been specified for both project tasks. Also, on the **Summary** tab, the **Create Pro Forma Invoice on Billing** check box is selected, indicating that a pro forma invoice is created when the project is billed.
 -   On the [Project Transactions](PM_30_40_00.md) \(PM304000\) form, the *PM00000007* batch of project transactions related to the project has been created and released to record the services provided for the project.
 
-## Process Overview { .section}
+## Process Overview
 
 You will make sure that the project is pending billing and run the project billing on the [Projects](PM_30_10_00.md) \(PM301000\) form, which causes the system to create a pro forma invoice. On the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form, you will review the lines that have been added to this pro forma invoice and release it. Then you will review the corresponding accounts receivable invoice and release it on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, and review how this affects the project’s actual values. Finally, you'll review the project transactions and the updated project balance.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded; you should sign in as project accountant by using the *brawner* username and the *123* password.
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Reviewing Project Transactions Pending Billing {#section_ivm_hvl_yqb .section}
+## Step 1: Reviewing Project Transactions Pending Billing
 
 To review the project transactions that have not been billed yet, do the following:
 
@@ -42,7 +42,7 @@ To review the project transactions that have not been billed yet, do the followi
     Notice that in all lines, the **Billable** check box is selected and the **Billed** check box is cleared, indicating that these project transactions are pending billing.
 
 
-## Step 2: Billing the Project and Processing the Related Documents { .section}
+## Step 2: Billing the Project and Processing the Related Documents
 
 To bill the project, do the following:
 
@@ -56,7 +56,7 @@ To bill the project, do the following:
 5.  On the **Financial** tab, click the **AR Ref. Nbr.** link to open the accounts receivable invoice that has been created on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 6.  On the form toolbar, click **Remove Hold** to assign the invoice the *Balanced* status, and then click **Release**.
 
-## Step 3: Reviewing the Project Transactions and the Updated Project Balance { .section}
+## Step 3: Reviewing the Project Transactions and the Updated Project Balance
 
 To review the project transactions and project balance, do the following:
 
@@ -64,7 +64,6 @@ To review the project transactions and project balance, do the following:
 2.  On the [Projects](PM_30_10_00.md) \(PM301000\) form, open the *HMBAKERY4* project. In the Summary area, notice that the actual income is now $3,300. On the **Revenue Budget** tab, notice that the system has automatically created two revenue budget lines \(one for each project task\), and filled in the **Actual Amount** for the rows.
 3.  On the **Balances** tab \(see below\), review the project income and expenses aggregated by account groups.
 
-    ![](Images/activity_Projects_TMBilling.png "The project balances after project billing")
 
 
 You have billed the project for time and material.

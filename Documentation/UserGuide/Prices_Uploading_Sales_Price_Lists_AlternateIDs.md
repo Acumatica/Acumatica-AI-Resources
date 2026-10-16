@@ -1,4 +1,4 @@
-# Sales Prices: Price Lists with Alternate IDs {#_eec482e0-14fc-4bd3-9413-75bb51e02256 .concept}
+# Sales Prices: Price Lists with Alternate IDs
 
 In the system, you can make it possible to upload prices in worksheets with alternate IDs instead of item identifiers defined in the system, and to create alternate IDs for inventory items on release of worksheets. In this topic, you will read about entering the alternate IDs in price lists in Acumatica ERP.
 

@@ -1,4 +1,4 @@
-# Use of Slots to Cache Data Objects {#_7d60ac9e-ff6c-40fc-a593-52e1545493fe .concept}
+# Use of Slots to Cache Data Objects
 
 If you have to cache a data object from your code, you can use the slots provided by the PXContext and PXDatabase classes. By using these slots, you can cache any type of data object without restrictions.
 
@@ -10,7 +10,7 @@ If a PXDatabase slot is used to cache the data that is obtained from the databas
 
 For detailed information on using slots, see the sections of this topic.
 
-## Caching Data in PXContext Slots {#_d38fe24d-5e23-4635-8ade-ede9f4dca92b .section}
+## Caching Data in PXContext Slots
 
 If you need to keep a data object during a single HTTP request, we recommend that you cache the object in a slot provided by the PXContext class.
 
@@ -42,27 +42,46 @@ var MyData = PXContext.GetSlot<MyDataType>("MyData22");
 
 The following diagram illustrates how you can use a data object cached by using a slot provided by the PXContext class.
 
-![](Images/UsingSlotsToCacheData01.png "Caching data in a slot of the PXContext class")
 
 You do not need to delete the data saved in the PXContext class slots, because the system deletes these slots from the server memory along with the data of the current HTTP context created for the current request.
 
-## Caching Data in PXDatabase Slots {#_020dad6c-309a-4ecf-acd9-684fb03a39b3 .section}
+## Caching Data in PXDatabase Slots
 
 If you need to keep a data object in the server memory for a long time, we recommend that you cache the object in a slot provided by the PXDatabase class.
 
 You can use the following public static methods of the class to cache a data object in a slot and to get the cached object from the slot.
 
-|Method|Description|
-|------|-----------|
-|`public static ObjectType GetSlot<ObjectType> (string key, params Type[] tables)`|If the PXDatabase slots contain a valid data object of the specified type saved under the key defined by the first parameter, returns this data object. Otherwise, the method creates a new object of the specified type, saves this empty object in the slot under the key defined by the first parameter, and returns the data object that is used by the calling code to save the needed data. The list of the table types specified in the params parameter is used to invalidate the slot if any table of the list has been changed in the database.**Note:** If this method is used to cache a data object of an `ObjectType` class inherited from the IPrefetchable&lt;&gt; interface, the GetSlot&lt;&gt; method invokes the Prefetch method of the object without a parameter.
+<table id="_31a95fcc-9507-4952-bf43-09f403eb4cc4"><thead><tr><th>
 
-|
-|`public static ObjectType GetSlot<ObjectType, Parameter> (string key, Parameter parameter, params Type[] tables)`|Is used for caching a data object of an `ObjectType` class inherited from the IPrefetchable&lt;&gt; interface to provide automatic update of the object in the slot. If the PXDatabase slots contain a valid data object of the specified type saved under the key defined by the first parameter, the method returns this data object. Otherwise, the method does the following:1.  Creates a new object of the specified type
+Method
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+`public static ObjectType GetSlot<ObjectType> (string key, params Type[] tables)`
+
+</td><td>
+
+If the PXDatabase slots contain a valid data object of the specified type saved under the key defined by the first parameter, returns this data object. Otherwise, the method creates a new object of the specified type, saves this empty object in the slot under the key defined by the first parameter, and returns the data object that is used by the calling code to save the needed data. The list of the table types specified in the params parameter is used to invalidate the slot if any table of the list has been changed in the database.**Note:** If this method is used to cache a data object of an `ObjectType` class inherited from the IPrefetchable&lt;&gt; interface, the GetSlot&lt;&gt; method invokes the Prefetch method of the object without a parameter.
+
+</td></tr><tr><td>
+
+`public static ObjectType GetSlot<ObjectType, Parameter> (string key, Parameter parameter, params Type[] tables)`
+
+</td><td>
+
+Is used for caching a data object of an `ObjectType` class inherited from the IPrefetchable&lt;&gt; interface to provide automatic update of the object in the slot. If the PXDatabase slots contain a valid data object of the specified type saved under the key defined by the first parameter, the method returns this data object. Otherwise, the method does the following:1.  Creates a new object of the specified type
 2.  To create or update data in the object, invokes the Prefetch method with the parameter specified in the second parameter
 3.  Saves this object in the slot under the key defined by the first parameter
 4.  Returns the data object to the calling method
 
-The list of the table types specified in the params parameter is used to invalidate the slot in the case if any table of the list has been changed in the database. The use of this method is described below in the [Automatically Updating Data in a PXDatabase Slot](#_469c7eaf-0f4b-4cad-97f4-f4676e32419e) section.|
+The list of the table types specified in the params parameter is used to invalidate the slot in the case if any table of the list has been changed in the database. The use of this method is described below in the [Automatically Updating Data in a PXDatabase Slot](#_469c7eaf-0f4b-4cad-97f4-f4676e32419e) section.
+
+</td></tr></tbody>
+</table>
 
 The following example shows how you can use the GetSlot&lt;ObjectType&gt; \(string key, params Type\[\] tables\) method to cache data under the *MyData* key in the slot of the PXDatabase class.
 
@@ -104,7 +123,7 @@ PXDatabase.ResetSlot<MyDataType>(
             "MyData", typeof(Table1), typeof(Table2), typeof(Table3));
 ```
 
-## Automatically Updating Data in a PXDatabase Slot {#_469c7eaf-0f4b-4cad-97f4-f4676e32419e .section}
+## Automatically Updating Data in a PXDatabase Slot
 
 If a data object that is to be cached depends on data in the database, we recommend that you inherit the object class from the IPrefetchable&lt;&gt; interface and develop in this class the Prefetch method, to provide automatic updating of data in the object. Then the `GetSlot<ObjectType, Parameter>(string key, Parameter parameter, params Type[] tables)` method of the PXDatabase class will use the Prefetch method to update the data in the slot, if required. \(See the description of the method in [Caching Data in PXDatabase Slots](#_020dad6c-309a-4ecf-acd9-684fb03a39b3).\)
 
@@ -165,7 +184,6 @@ The code above contains declarations of the following classes:
 
 For the code above, the following diagram shows how the data object is cached and automatically updated in the PXDatabase slot.
 
-![](Images/UsingSlotsToCacheData02.png "Automatic update of the cached data")
 
 **Note:** If you have discovered that a PXDatabase slot returns legacy data, you can invoke the SelectTimeStamp\(\) public static method of the PXDatabase class to invalidate all the PXDatabase slots that contain data obtained from the database tables that have been changed. Then the GetSlot method invokes the Prefetch method and updates the data in the slot.
 

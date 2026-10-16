@@ -1,4 +1,4 @@
-# To Create a Case by Using the Acumatica Add-In {#_ec9c6e40-1a9a-4632-a2bd-36f38a89faf4 .task}
+# To Create a Case by Using the Acumatica Add-In
 
 To create a new case associated with the selected contact, do the following:
 

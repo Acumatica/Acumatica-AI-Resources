@@ -1,4 +1,4 @@
-# Using Snapshots {#_8b030702-d8aa-41af-9675-f95e7fafb299 .concept}
+# Using Snapshots
 
 Acumatica ERP is an application with multitenant architecture in which any instance includes at least one tenant that is a separate tenant. If you need to create multiple similar tenants, you do not have to configure each tenant from scratch; you can use snapshots instead.
 

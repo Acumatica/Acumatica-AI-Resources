@@ -1,8 +1,8 @@
-# Configuration of Replenishment: Classes and Sources of Replenishment {#_63ba985c-3c4a-4cf0-81ad-f509e328f2c1 .concept}
+# Configuration of Replenishment: Classes and Sources of Replenishment
 
 As an early step of configuring replenishment, you must create at least one replenishment class for each type of replenishment source that you will use. You will then specify replenishment classes for other entities you create during configuration.
 
-## Creation of a Replenishment Class {#section_m4f_rz5_2vb .section}
+## Creation of a Replenishment Class
 
 You create replenishment classes by using the [Replenishment Classes](../UserGuide/IN_20_88_00.md) \(IN208800\) form; for each class, you specify its name, description, and replenishment source.
 
@@ -17,7 +17,7 @@ As the replenishment source, you can select one of the following options:
 
 **Attention:** If you want to configure automatic calculation of replenishment parameters, you must use only replenishment classes with the *Purchase* or *Transfer* replenishment source. For details, see [Configuration of Replenishment: Replenishment Methods](config_OrderMgmt_Replenishment_Methods.md) and [Configuration of Replenishment: Demand Forecast Model](config_OrderMgmt_Replenishment_Demand_Forecast_Model.md).
 
-## Use of Replenishment Classes {#section_bff_q3v_2vb .section}
+## Use of Replenishment Classes
 
 You can specify a replenishment class for the following:
 

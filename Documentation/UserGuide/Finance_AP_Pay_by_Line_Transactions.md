@@ -1,8 +1,8 @@
-# Applying Payments to Particular Lines: Generated Transactions {#_594daaa4-765e-4331-bab7-e686c2de2af5 .concept}
+# Applying Payments to Particular Lines: Generated Transactions
 
 As you apply payments to particular lines of AP documents, you create and process payments. To update vendor balances, the system generates the GL transactions described in the following sections.
 
-## Transaction Generated for an AP Bill { .section}
+## Transaction Generated for an AP Bill
 
 When you create and release an AP bill paid by line, the system generates the following general ledger transaction.
 
@@ -13,7 +13,7 @@ When you create and release an AP bill paid by line, the system generates the fo
 
 On the **Financial** tab of the [Bills and Adjustments](AP_30_10_00.md) form, the **Batch Nbr.** box shows the reference number of the GL batch. You can click this link to view the GL batch on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## Transaction Generated for a Payment { .section}
+## Transaction Generated for a Payment
 
 When you create and release a payment that pays a bill partially or in full, the system generates the following general ledger transaction.
 

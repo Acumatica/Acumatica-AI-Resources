@@ -1,16 +1,16 @@
-# Diagram View: To Test the Inherited Workflow {#_08ef3160-7bc7-4ddb-ac7b-acce0d8aa3e3 .task}
+# Diagram View: To Test the Inherited Workflow
 
 The following activity will walk you through the process of testing the customized workflow that you have created for the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form.
 
-## Story { .section}
+## Story
 
 Acting as the technical specialist, you need to publish your customization project and then test your changes on the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form to make sure that the customized workflow works as expected.
 
-## Process Overview { .section}
+## Process Overview
 
 By starting on the [Customization Projects](../UserGuide/SM_20_45_05.md) \(SM204505\) form of Acumatica ERP, you will go to the Customization Project Editor for your customization project and publish it. On the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form, you will then test the customized workflow.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -21,7 +21,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  Make sure that you have learned how to test a customization, as described in [Testing of the Customization Project: General Information](WorkflowUI_TestingCustomization_GeneralInfo.md).
 3.  Make sure that you have completed the [Diagram View: To Adjust the System State](WorkflowUI_CustomizingInheritedWorkflow_Activity_UpdateSystemState.md) activity.
 
-## Step 1: Publishing the Customization Project { .section}
+## Step 1: Publishing the Customization Project
 
 Publish your customization project as follows:
 
@@ -31,7 +31,7 @@ Publish your customization project as follows:
 
 For details on publishing a customization project, see [To Publish a Single Project](../CustomizationPlatform/CG_GL_Projects_Publishing_Single.md).
 
-## Step 2: Testing the Assigned State and the Accept Action { .section}
+## Step 2: Testing the Assigned State and the Accept Action
 
 In Acumatica ERP, test your changes as follows:
 
@@ -56,7 +56,7 @@ In Acumatica ERP, test your changes as follows:
     Notice that the status of the opportunity has changed to *Open.*
 
 
-## Step 3: Testing the Reject Action { .section}
+## Step 3: Testing the Reject Action
 
 Test the `Reject` action as follows:
 

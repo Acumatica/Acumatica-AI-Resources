@@ -1,4 +1,4 @@
-# From a BQL Statement {#_433c1a7f-7e1a-4b0a-8d40-ffb1659584d1 .concept}
+# From a BQL Statement
 
 In BQL expressions, you have to refer to the custom field by its BQL name in the extension class.
 

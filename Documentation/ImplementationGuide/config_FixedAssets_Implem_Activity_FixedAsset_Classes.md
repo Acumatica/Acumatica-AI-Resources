@@ -1,8 +1,8 @@
-# Fixed Assets: To Create Fixed Asset Classes {#_c99bf5f7-a59b-4624-b06e-18f40609a4a0 .task}
+# Fixed Assets: To Create Fixed Asset Classes
 
 In the following implementation activity, you will learn how to create fixed asset classes.
 
-## Story { .section}
+## Story
 
 Suppose that the fixed asset functionality has been configured for SweetLife Fruits &amp; Jams. Before fixed asset records are created, fixed asset classes need to be planned and created. SweetLife needs to create and maintain fixed assets for land, buildings and building improvements, computers, and software. Each fixed asset class must have a particular fixed asset type assigned to it. The predefined asset types available in Acumatica ERP cover the types of fixed assets used by SweetLife.
 
@@ -15,11 +15,11 @@ Acting as an implementation consultant, you need to create the following fixed a
 |*COMPUTERS*|*COMPUTERS*|Yes|Yes|Computers and computer accessories|*MACRS*|*Mid Quarter*|*5*|
 |*SOFTWARE*|*SOFTWARE*|No|Yes|Software licensed with limited use time and website development|*SL \(Straight-Line\)*|*Full Period*|*3*|
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Fixed Asset Classes](../UserGuide/FA_20_10_00.md) \(FA201000\) form, you will create the needed fixed asset classes.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating fixed asset classes, launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as Kimberly Gibbs with the *gibbs* username and the *123* password.
 
@@ -27,7 +27,7 @@ As a prerequisite activity, in the company to which you are signed in, be sure y
 
 As a prerequisite activity, in the company to which you are signed in, be sure you have configured the fixed asset subledger, as described in [Fixed Assets: To Configure the Fixed Asset Functionality](config_FixedAssets_Implem_Activity_FixedAssets_Subledger.md).
 
-## Step: Creating Fixed Asset Classes { .section}
+## Step: Creating Fixed Asset Classes
 
 To create fixed asset classes, do the following:
 

@@ -1,16 +1,16 @@
-# Workflow-Identifying Fields: General Information {#_32292282-c60a-4feb-b632-4634963caca7 .concept}
+# Workflow-Identifying Fields: General Information
 
 You can add multiple workflows for a particular form so that each workflow is applied to all records that have a specific value in a particular field. This field is described as a *workflow-identifying field* because its value determines the workflow to be used.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will gain experience creating a workflow that is based on the specific value of a selected field.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You customize a workflow with a workflow-identifying field if you need to make changes to the workflow so that it is better suited for your business processes, and you do not want to create such a workflow from scratch.
 
-## Workflow Types {#section_vv2_1y4_y4b .section}
+## Workflow Types
 
 A form can have the following types of workflows:
 
@@ -23,7 +23,7 @@ A form can have the following types of workflows:
     **Attention:** If you have not defined a workflow for a value of the workflow-identifying field, the system applies the default workflow for a record if this value is selected for the record.
 
 
-## Definition of a Workflow-Identifying Field { .section}
+## Definition of a Workflow-Identifying Field
 
 You define a workflow-identifying field by specifying it in the screen configuration.
 
@@ -31,7 +31,7 @@ You define a workflow-identifying field by specifying it in the screen configura
 
 To specify a workflow-identifying field, you call the FlowTypeIdentifierIs method in the lambda expression for the AddScreenConfigurationFor or UpdateScreenConfigurationFor method and specify a string field from the primary DAC of the form as the type parameter. An example is shown in the following code.
 
-```language-csharp
+```csharp
 context.AddScreenConfigurationFor(screen =>
 {
   return screen
@@ -40,7 +40,7 @@ context.AddScreenConfigurationFor(screen =>
 });
 ```
 
-## Definition of a Workflow for the Specific Value of the Workflow-Identifying Field { .section}
+## Definition of a Workflow for the Specific Value of the Workflow-Identifying Field
 
 To define a workflow for the specific value of the workflow-identifying field, you do the following:
 
@@ -53,7 +53,7 @@ To define a workflow for the specific value of the workflow-identifying field, y
 
 An example of the workflow for the specific value of the workflow-identifying field is shown in the following code.
 
-```language-csharp
+```csharp
 context.UpdateScreenConfigurationFor(screen => screen
   .WithFlows(flows =>
   {

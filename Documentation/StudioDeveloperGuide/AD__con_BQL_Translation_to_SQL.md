@@ -1,8 +1,8 @@
-# Translation of a BQL Command to SQL {#_5bc68600-61ab-4a49-958c-da5d732b2ac2 .concept}
+# Translation of a BQL Command to SQL
 
 When the system executes a delayed query and calls the PXView.GetResult method to retrieve the data from the database, the system converts the business query language \(BQL\) command \(PX.Data.BqlCommand\) to the SQL query tree \(PX.Data.SQLTree.Query\), applies the needed restrictions on the SQL query tree \(such as company and branch restrictions\), and then converts the SQL query tree to the text of the SQL command for the target database type. This process is described in detail in the following sections.
 
-## Translation of a BQL Command to an SQL Query Tree {#_04b426bc-32b9-4925-8f60-cdad274abeb6 .section}
+## Translation of a BQL Command to an SQL Query Tree
 
 To request the SQL query tree of the command, the system recursively calls the following methods:
 
@@ -26,17 +26,15 @@ The BqlCommand.GetQuery method calls the BqlCommand.GetQueryInternal method, whi
 
 The following diagram shows the conversion of a BQL command to an SQL query tree.
 
-![](Images/BqlToSqlTreeQuery.png "Conversion of a BQL command to an SQL query tree")
 
-## SQL Tree Expression of a Field { .section}
+## SQL Tree Expression of a Field
 
 To obtain the SQL tree expression of each field of the BQL command, the BqlCommand instance creates a PXCache instance that corresponds to the data access class \(DAC\) to which the field belongs. The PXCache instance generates the OnCommandPreparing event with the specified PXDBOperation type \(which specifies the type of the database operation\). The attribute assigned to the DAC field \(that is, the attribute that implements the IPXCommandPreparingSubscriber interface\) handles the event and returns the PX.Data.SQLTree.SQLExpression instance that corresponds to the field or to the BQL statement that is defined by the field attribute. \(For example, the PXDBCalced and PXDBScalar attributes define BQL statements.\)
 
 The following diagram shows how BqlCommand obtains the SQL tree expression for the fields of a BQL command.
 
-![](Images/BQL_RequestSqlExpression.png "Retrieval of the SQL tree expression for the fields of a BQL command")
 
-## Translation of a BQL Command with Parameters to an SQL Query Tree {#_ff6436a7-d8a9-43c8-9201-d5ea9afbe2d5 .section}
+## Translation of a BQL Command with Parameters to an SQL Query Tree
 
 Before the system requests the SQL query tree of a BQL command, the PXView object retrieves the values of the parameters used in the query as follows:
 
@@ -51,7 +49,7 @@ Before the system requests the SQL query tree of a BQL command, the PXView objec
 
 When BqlCommand creates the SQL query tree that corresponds to the BQL command, IBqlCreator.AppendExpression \(which is implemented by the ParameterBase&lt;Field&gt; class\) includes the parameters in the SQL query tree. After BqlCommand has created the SQL query tree that corresponds to the BQL command, the system inserts into the SQL query tree the actual values of the parameters retrieved by PXView.
 
-## Translation of the SQL Query Tree to SQL Text {#_7334dc34-5bb3-4884-9b58-20054413bd59 .section}
+## Translation of the SQL Query Tree to SQL Text
 
 A PXGraph instance stores information about the target database type in its SqlDialect property. SQLTree.Query has the Connection property, which is responsible for the conversion of the SQL query tree to the SQL text in the format of the target database. To convert the SQL query tree to text, the system does the following:
 

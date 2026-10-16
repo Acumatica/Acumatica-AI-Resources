@@ -1,12 +1,12 @@
-# To Set Up a Connection with an Exchange Server {#_167404cb-a35f-4cda-9889-000e00e1492c .task}
+# To Set Up a Connection with an Exchange Server
 
 To set up a connection with an Exchange server, you add an account for the Exchange Server instance to your Acumatica ERP instance by using the [Exchange Integration Configuration](SM_20_40_15.md) \(SM204015\) form.
 
-## Prerequisites { .section}
+## Prerequisites
 
 You have to set up a delegate mailbox to be used for synchronization between the Exchange server and the Acumatica ERP instance. The delegate must have full access to the mailboxes of the users whose accounts should be synchronized.
 
-## To Add an Account for an Exchange Server { .section}
+## To Add an Account for an Exchange Server
 
 1.  Open the [Exchange Integration Configuration](SM_20_40_15.md) \(SM204015\) form.
 2.  In the **Name** box of the Summary area, type the name of the Exchange server account.
@@ -24,5 +24,5 @@ You have to set up a delegate mailbox to be used for synchronization between the
 11. Select the **Is Active** check box to allow synchronization with the Exchange server.
 12. On the form toolbar, click **Save** to save the account.
 
-**Parent topic:**[Synchronizing Acumatica ERP with Microsoft Exchange Server](../UserGuide/EM__mng_Exchange_server.md)
+**Parent topic:**[EWS Integration: Overview](../UserGuide/EM__con_Exchange_Integration_Overview.md)
 

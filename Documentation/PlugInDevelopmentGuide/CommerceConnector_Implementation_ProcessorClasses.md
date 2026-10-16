@@ -1,4 +1,4 @@
-# Connector Implementation: Processor Classes {#_9b3624d8-b77f-427b-b56c-8008b3520201 .concept}
+# Connector Implementation: Processor Classes
 
 For each pair of entities that you want to synchronize between an external system and Acumatica ERP, you need to create a processor class.
 
@@ -8,7 +8,7 @@ Processor classes perform the following functions:
 -   Providing of the default mapping logic
 -   Providing of the export and import logic
 
-## Base Classes and Interface { .section}
+## Base Classes and Interface
 
 A processor class implements the [PX.Commerce.Core.IProcessor](https://help.acumatica.com/(W(24))/Help?ScreenId=ShowWiki&pageid=e151c9c4-388b-ec00-2199-b02ddd0e30a2) interface and derives from one of the following base abstract classes:
 
@@ -17,14 +17,14 @@ A processor class implements the [PX.Commerce.Core.IProcessor](https://help.acum
 
 Both of these classes are graphs. Therefore, the processor class is a graph as well. In the processor base class, you pass as the type parameters of the class the graph itself, the bucket class, and the mapping class for the pair of entities that you want to synchronize.
 
-## Attributes of the Processor Class { .section}
+## Attributes of the Processor Class
 
 You assign the following attributes to the processor class:
 
 -   [BCProcessor](https://help.acumatica.com/(W(25))/Help?ScreenId=ShowWiki&pageid=3b44ecb0-baf0-f73a-b439-c58eb1357656), which specifies the basic functions of the processor, such as which directions of synchronization are supported by the processor
 -   Optional: [BCProcessorRealtime](https://help.acumatica.com/(W(25))/Help?ScreenId=ShowWiki&pageid=22c0fc7b-7923-e014-aa9d-414d52b0ec16), which specifies whether the processor works with push notifications and webhooks
 
-## Methods of the Processor Class { .section}
+## Methods of the Processor Class
 
 In the processor class, you implement the methods that perform the following functions:
 
@@ -39,13 +39,13 @@ In the processor class, you implement the methods that perform the following fun
 
 For details about the methods, see [PX.Commerce.Core.IProcessor](https://help.acumatica.com/(W(24))/Help?ScreenId=ShowWiki&pageid=e151c9c4-388b-ec00-2199-b02ddd0e30a2), [PX.Commerce.Core.BCProcessorSingleBase&lt;TGraph, TEntityBucket, TPrimaryMapped&gt;](https://help.acumatica.com/(W(25))/Help?ScreenId=ShowWiki&pageid=fc173f6c-4505-1c34-b73e-85e5d6090786), and PX.Commerce.Core.BCProcessorBulkBase&lt;TGraph, TEntityBucket, TPrimaryMapped&gt;.
 
-## Example { .section}
+## Example
 
 The following code shows an example of the processor implementation.
 
 **Tip:** You can see this code on [GitHub](https://github.com/Acumatica/Help-and-Training-Examples/blob/HEAD/PlugInDevelopment/Help/ImplementingConnector/WooCommerceTest/Sync/WooCustomerProcessor.cs).
 
-```language-csharp
+```csharp
 ﻿using PX.Api.ContractBased.Models;
 using PX.Commerce.Core;
 using PX.Commerce.Core.API;

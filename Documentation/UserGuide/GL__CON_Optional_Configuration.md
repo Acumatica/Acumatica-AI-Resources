@@ -1,4 +1,4 @@
-# Advanced GL Configuration {#_5477f831-6681-4c03-aa38-615089cfc9ad .concept}
+# Advanced GL Configuration
 
 If you want to perform any of the advanced activities in the General Ledger module—such as managing subaccounts, budgets, allocations, or consolidations—you should configure the necessary settings to make it possible for employees to perform these processes. You can perform most of the optional configuration tasks before you start using the system or when you are already using the system.
 
@@ -6,7 +6,7 @@ If you want to perform any of the advanced activities in the General Ledger modu
 
 In this topic, you will read about the optional configuration tasks in the General Ledger module, which give users in your system the ability to perform the advanced business processes.
 
-## Managing Subaccounts {#_5ffd7bb4-b7ad-4246-8085-6983f76e9927 .section}
+## Managing Subaccounts
 
 To better track the revenue and expenses of your company and keep your chart of accounts of a manageable size at the same time, you can use subaccounts to virtually split your accounts into smaller and more specific accounts. To use subaccounts in the system, you do the following:
 
@@ -21,7 +21,7 @@ After you have defined subaccounts, you can start recording transactions to acco
 
 **Note:** You can set up restriction groups to control which users can view or use certain General Ledger accounts and subaccounts. For details, see [Account and Subaccount Security](RS__con_Account_and_Subaccount_Security.md).
 
-## Managing Budgets {#section_oh2_mjv_vxb .section}
+## Managing Budgets
 
 To create and keep budgets in the system, you have to do the following:
 
@@ -33,7 +33,7 @@ To create and keep budgets in the system, you have to do the following:
 
 After you have prepared and reviewed a budget tree and budget ledger, you can create budgets in the system.
 
-## Managing Allocations {#section_sh2_mjv_vxb .section}
+## Managing Allocations
 
 For faster data entry, all transactions can be recorded to one account and then distributed between different accounts, or some operation expenses can be posted to one subaccount and then distributed between different subaccounts \(for example, between subaccounts related to a company's locations or departments\). To periodically distribute amounts between account-subaccount pairs, you can configure and run allocations as follows:
 
@@ -45,7 +45,7 @@ For faster data entry, all transactions can be recorded to one account and then 
 
 After you create the rule, you can run allocations for a specific period, which will create a batch of transactions according to the rule.
 
-## Managing Consolidations {#section_wh2_mjv_vxb .section}
+## Managing Consolidations
 
 To be able to import consolidation data to a parent company \(or to a company dedicated to holding consolidation data\), you perform the following steps:
 

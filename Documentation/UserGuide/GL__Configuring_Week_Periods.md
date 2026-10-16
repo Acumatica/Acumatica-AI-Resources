@@ -1,8 +1,8 @@
-# To Configure a Financial Year with Week-Based Periods {#_816cb9a4-0b48-43bd-a2b7-64f65ebd32d8 .task}
+# To Configure a Financial Year with Week-Based Periods
 
 In Acumatica ERP, you can configure a financial year with financial periods based on weeks by using the [Financial Year](GL_10_10_00.md) \(GL101000\) form.
 
-## To Configure a Financial Year {#section_fnf_mjv_vxb .section}
+## To Configure a Financial Year
 
 1.  Open the [Financial Year](../Shared/../UserGuide/GL_10_10_00.md) \(GL101000\) form.
 2.  In the **Financial Year Starts On** box, specify the start date of the first financial year in which your company wants to keep records in Acumatica ERP.
@@ -25,7 +25,7 @@ In Acumatica ERP, you can configure a financial year with financial periods base
     -   *Include &lt;Day of Week&gt; Nearest to the End of the Financial Year*: The system will add an additional period \(53rd week\) if the year's last period does not include the day of the week specified in the **Day of Week** box that is nearest to the end of the financial year. The system will add no additional period if the last period includes the day of the week that is nearest to the end of the financial year.
 8.  On the form toolbar, click **Save**.
 
-## Notes About the Instruction {#section_gnf_mjv_vxb .section}
+## Notes About the Instruction
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

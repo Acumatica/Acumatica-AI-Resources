@@ -1,8 +1,8 @@
-# Allocation Rules: General Information {#_3a030bc1-dec7-4c97-bcd2-59b1dfe83bff .concept}
+# Allocation Rules: General Information
 
 In Acumatica ERP, you can create and maintain allocation rules, which define how allocations are to be performed, and perform allocations automatically based on your rules.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to configure allocation rules that will distribute amounts based on the following:
 
@@ -11,11 +11,11 @@ In this chapter, you will learn how to configure allocation rules that will dist
 -   A dynamic ratio of the period-to-date account balances
 -   Budget data
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create an allocation rule to automate the process of periodically distributing amounts posted to a particular account–subaccount pair among different account–subaccount pairs. For example, suppose that users post expenses in bills to one account–subaccount pair instead of splitting these expenses among multiple account–subaccount pairs. You can create a rule to distribute these expenses.
 
-## Allocation Rule Settings { .section}
+## Allocation Rule Settings
 
 To distribute amounts, you have to configure allocation rules on the [Allocations](../UserGuide/GL_20_45_00.md) \(GL204500\) form. You generally specify the following information in each allocation rule:
 
@@ -33,13 +33,13 @@ You can also perform allocations between multiple branches if both of the follow
 
 **Important:** If the *Projects* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) form, keep in mind that the GL allocation mechanism does not support projects; it also does not support allocations to GL accounts that are included in account groups.
 
-## Allocation Periods {#_15800d24-47d0-4de9-9498-15e5479c2478 .section}
+## Allocation Periods
 
 You define the post periods for an allocation rule by specifying the periods in the **Start Period** and **End Period** boxes on the **Allocation** tab of the [Allocations](../UserGuide/GL_20_45_00.md) \(GL204500\) form. The allocation rule is applied to each period of the range defined by the start and end periods. You can leave the **End Period** box blank if you are not planning to stop using the rule.
 
 If the allocation needs to be performed every financial year for the same periods \(for example, in the last period of each year\), you can set the allocation to be recurring by selecting the **Recurring** check box. Recurring transactions can be run for the years after the year of the end period.
 
-## Ledgers for Performing Allocations {#_05de8c83-2509-46e3-8f20-230fe9c84ef4 .section}
+## Ledgers for Performing Allocations
 
 On the **Allocation** tab of the [Allocations](../UserGuide/GL_20_45_00.md) \(GL204500\) form, you have to specify at least the following ledgers:
 
@@ -48,26 +48,26 @@ On the **Allocation** tab of the [Allocations](../UserGuide/GL_20_45_00.md) \(GL
 
 If you are going to distribute amounts by using a dynamic ratio, in the **Base Ledger** box, you can specify the ledger that is used to calculate the proportions for distributing allocation amounts among the destination accounts. If you leave this box empty, the ledger that is specified in the **Allocation Ledger** box is used for calculating proportions.
 
-## Allocation Methods {#_3ad07d01-8a0d-41aa-ac2a-3efb76accc55 .section}
+## Allocation Methods
 
 In the **Allocation Method** box of the [Allocations](../UserGuide/GL_20_45_00.md) \(GL204500\) form, you can select the method that defines how the allocation amount should be collected from the source accounts as follows:
 
 -   If you want the period-to-date amount to be distributed during the allocation process, select *By Account PTD*.
 -   If you want the amount that has been accumulated on accounts since the last allocation to be distributed during the allocation process, select *From Prev. GL Allocation*.
 
-## Source Accounts and Subaccounts { .section}
+## Source Accounts and Subaccounts
 
 You specify the source accounts and subaccounts of an allocation rule on the **Source Accounts** tab of the [Allocations](../UserGuide/GL_20_45_00.md) \(GL204500\) form. You can select the source accounts by specifying each account and subaccount individually or by specifying a group of accounts or subaccounts.
 
 To select the source accounts and subaccounts by groups, you can use grouping masks. For details, see [Allocation Rules: Examples of Using Account and Subaccount Masks for Allocations](config_Allocation_Rules_Accounts.md).
 
-## Contra Accounts and Subaccounts { .section}
+## Contra Accounts and Subaccounts
 
 You can configure the system to deduct allocation amounts from accounts and subaccounts that differ from the source accounts and subaccounts. To do this, you specify contra accounts and subaccounts for each account and subaccount in the **Contra Account** and **Contra Subaccount** columns on the **Source Accounts** tab of the [Allocations](../UserGuide/GL_20_45_00.md) \(GL204500\) form. The source accounts and subaccounts will then be used to determine the total allocation amount, but the amount to be distributed will be copied from the contra accounts and subaccounts.
 
 You have to select contra accounts and subaccounts explicitly by selecting them from the list. You cannot define grouping masks for contra accounts and subaccounts.
 
-## Limits for Allocation Amounts {#_8f3f86af-9f3f-4a50-b0c1-2a4498e8409d .section}
+## Limits for Allocation Amounts
 
 The amount to be allocated is copied from all the specified source accounts \(the allocation pool\).
 
@@ -75,7 +75,7 @@ If the source accounts are specified explicitly on the **Source Accounts** tab o
 
 If accounts are selected by a group mask, the limit amount or percent \(depending on which is specified\) will be the same for each of the selected accounts.
 
-## Destination Accounts and Subaccounts { .section}
+## Destination Accounts and Subaccounts
 
 On the **Destination Accounts** tab of the [Allocations](../UserGuide/GL_20_45_00.md) \(GL204500\) form, you specify the destination accounts and subaccounts to which the allocation amount will be distributed. In addition to specifying the destination accounts and subaccounts, for the distribution methods that use a dynamic ratio, you can specify the base accounts and subaccounts to be used to calculate a proportion for distributing the allocation amount among the destination accounts. For details, see [Allocation Rules: Distribution Methods](config_Allocation_Rules_Distribution_Methods.md).
 

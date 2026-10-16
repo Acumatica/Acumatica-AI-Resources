@@ -1,16 +1,16 @@
-# Connector Implementation: General Information {#_cb1739c5-5bc7-4a78-9212-1ad431e55859 .concept}
+# Connector Implementation: General Information
 
 A connector between Acumatica ERP and an external system is a plug-in that synchronizes particular entities in Acumatica ERP with the corresponding entities in the external system. This synchronization can be performed based on a schedule or in real time.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to create a custom connector.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create a connector between Acumatica ERP and an external system if you need to synchronize data between Acumatica ERP and the external system.
 
-## Parts of the Connector { .section}
+## Parts of the Connector
 
 The connector consists of the following major parts, which are shown in the diagram below:
 
@@ -23,9 +23,8 @@ The connector consists of the following major parts, which are shown in the diag
 -   A connector's factory class, which initializes the connector. For details about the connector's factory class, see [Connector Implementation: Connector's Factory Class](CommerceConnector_Implementation_ConnectorFactoryClass.md).
 -   A configuration form where an administrator can specify the basic settings of the connector. For example, for the built-in BigCommerce connector, Acumatica ERP provides the [BigCommerce Stores](../UserGuide/BC_20_10_00.md) \(BC201000\) configuration form.
 
-![](Images/ConnectorArchitecture.png "Connector architecture")
 
-## Creation of a Connector for an External System { .section}
+## Creation of a Connector for an External System
 
 To create a connector for an external system, you need to perform the following general steps:
 

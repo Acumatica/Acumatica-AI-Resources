@@ -1,8 +1,8 @@
-# To Compose a BQL Statement from an SQL Statement {#_0c3be5f8-d333-4080-9180-f610b0f14757 .task}
+# To Compose a BQL Statement from an SQL Statement
 
 If you are familiar with the construction of SQL statements, you may want to first construct an SQL statement and then translate it to business query language \(BQL\). You can perform the instructions described in this topic to translate SQL statements to BQL statements.
 
-## To Translate an SQL Statement to BQL { .section}
+## To Translate an SQL Statement to BQL
 
 1.  Construct an SQL statement that selects the data you need.
 

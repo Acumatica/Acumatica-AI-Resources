@@ -1,8 +1,8 @@
-# Scrap Cost Calculation: To Process a Production Order That Includes Quarantined Scrap {#_4a1f3b71-adb9-4755-84f3-1613c596d332 .task}
+# Scrap Cost Calculation: To Process a Production Order That Includes Quarantined Scrap
 
 The following activity will walk you through the process of recording item production that includes scrapped items; the cost of scrapped items must be written off to a specific GL account, and the scrapped items must be moved to a specific warehouse location \(quarantined\).
 
-## Story { .section}
+## Story
 
 Suppose that based on the analyzed demand from previous periods of sales, the sales department of SweetLife has asked the production department to produce three juicers. Initially, the production process includes the assembly and packing of the juicers but the sales department does not need the juicers to be packed until they are sold. Further suppose that components for the juicers are available in SweetLife Fruits &amp; Jams's warehouse.
 
@@ -16,14 +16,14 @@ Acting as a production manager, you will create a production order for producing
 
 Also, acting as a production accountant, you will review the cost of the scrapped juicer.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Warehouses](IN_20_40_00.md) \(IN204000\) form, the *WORKHOUSE* warehouse has been defined, and its locations include *MGI* and *MTL*.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *CFJFRUITBF*, *PULPCONT1L*, *JUICECUP05L*, *MRBASE*, *FNSIEVE*, and *GRDISC01* stock items have been defined.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, to process the documents and transactions related to the production of the juicers, you will do the following:
 
@@ -34,7 +34,7 @@ In this activity, to process the documents and transactions related to the produ
 5.  On the [Production Order Maintenance](AM_20_15_00.md) form, review the production order balance after you have completed the order and on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form, review the GL transactions related to scrap costs.
 6.  On the [Close Production Orders](AM_50_60_00.md) \(AM506000\) form, close the production order.
 
-## System Preparation { .section}
+## System Preparation
 
 Do the following:
 
@@ -42,7 +42,7 @@ Do the following:
 2.  Launch the Acumatica ERP website, and sign in to the company in which the prerequisite activities have been performed. You should sign in as the production manager by using the *peters* username and the *123* password.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to today’s date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Setting Up the Scrapped Quantity to Be Included in the Completed Quantity { .section}
+## Step 1: Setting Up the Scrapped Quantity to Be Included in the Completed Quantity
 
 You will select the check box that causes the scrap quantity to be added to the quantity of completed items in production orders. Do the following:
 
@@ -50,7 +50,7 @@ You will select the check box that causes the scrap quantity to be added to the 
 2.  In the **Data Entry Settings** section, select the **Include Scrap in Completions** check box.
 3.  On the form toolbar, click **Save**.
 
-## Step 2: Creating the Production Order { .section}
+## Step 2: Creating the Production Order
 
 To create the production order for three juicers, do the following:
 
@@ -78,7 +78,7 @@ To create the production order for three juicers, do the following:
     **Tip:** You open the More menu by clicking the More button \(…\) on the form toolbar.
 
 
-## Step 3: Issuing Materials for the Assembly Operation { .section}
+## Step 3: Issuing Materials for the Assembly Operation
 
 In this step, you will issue the materials for the assembly operation of the production order. Do the following:
 
@@ -89,7 +89,7 @@ In this step, you will issue the materials for the assembly operation of the pro
     2.  Clear the **Hold** check box. The system changes the transaction's status to *Balanced*.
 4.  On the form toolbar, click **Release**. The system releases the material transaction and changes the status of the transaction to *Released*.
 
-## Step 4: Recording the Labor, Produced Items, and Scrapped Items for the Assembly Operation { .section}
+## Step 4: Recording the Labor, Produced Items, and Scrapped Items for the Assembly Operation
 
 Suppose that Carlos Cruz, a worker in the work center, spent 30 minutes setting up the working environment for juicer assembly, assembled three juicers for one hour, tested the juicers, and found out that one juicer does not work. This item must be entered as a scrapped item. To record the time spent on juicer assembly, the assembled quantity of juicers, and the scrapped juicer, do the following:
 
@@ -127,7 +127,7 @@ Suppose that Carlos Cruz, a worker in the work center, spent 30 minutes setting 
     3.  Clear the **Hold** check box. The system changes the transaction's status to *Balanced*.
 8.  On the form toolbar, click **Release**. The system creates and releases the cost transaction to record the labor costs, creates and released the WIP adjustment transaction to move scrap costs to the scrap GL account, and releases the labor transaction.
 
-## Step 5: Reviewing the Production Order Balance { .section}
+## Step 5: Reviewing the Production Order Balance
 
 In this step, acting as a production accountant, you will review the balance of the completed production order. You will also review the GL transactions that the system created and released to reflect movement of the scrap cost to the appropriate GL accounts. Do the following:
 
@@ -148,7 +148,6 @@ In this step, acting as a production accountant, you will review the balance of 
         According to the *Actual* costing method, the system calculated the scrap cost as follows: `1447.17 (the sum of actual costs) / 3 (the sum of the completed quantity and the scrapped quantity)`.
 
     2.  In the **Variance** section, make sure that all boxes contain *0.00*, which means that the planned costs are equal to the actual costs.
-    ![](Images/activity_MFG_Scrap_Costs_Final_Balance_3.png "Production order balance after the completion of the order")
 
 3.  On the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form, do the following:
     1.  Open the GL transaction that has the following settings:
@@ -160,7 +159,6 @@ In this step, acting as a production accountant, you will review the balance of 
 
         The system created and released this transaction when the WIP adjustment transaction for the scrap cost was released on the [WIP Adjustment](AM_30_80_00.md) \(AM308000\) for the production order.
 
-        ![](Images/activity_MFG_Scrap_Costs_GL_Transaction_3.png "GL transaction for writing off the scrap cost")
 
     3.  Open the GL transaction that has the following settings:
         -   **Module**: *IN*
@@ -171,10 +169,9 @@ In this step, acting as a production accountant, you will review the balance of 
 
         The system created and released this transaction when the inventory receipt that reflected movement of the scrapped item to the scrap location has been released on the [Receipts](IN_30_10_00.md) \(IN301000\) form.
 
-        ![](Images/activity_MFG_Scrap_Costs_IN_Transaction_3.png "The transaction for moving the cost of the quarantined scrap to the inventory account")
 
 
-## Step 6: Closing the Production Order { .section}
+## Step 6: Closing the Production Order
 
 Now you will close the production order. Do the following:
 

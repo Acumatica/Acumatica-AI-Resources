@@ -1,4 +1,4 @@
-# Posting Classes: Implementation Activity {#_b93c743c-462b-48e4-b35f-ee34b97e7ce1 .task}
+# Posting Classes: Implementation Activity
 
 In this implementation activity, you will learn how to create a posting class.
 
@@ -8,15 +8,15 @@ The following activity is based on the *U100 Basic Company* dataset. If you are 
 
 If you want to perform this activity in an out-of-the-box company instead of creating a tenant with the dataset, you need to prepare a company with the basic settings, as described in [Company Without Branches: General Information](../Shared/../ImplementationGuide/config_Basic_Company_GeneralInfo.md).
 
-## Story { .section}
+## Story
 
 Suppose that you are an implementation manager for the SweetLife Fruits &amp; Jams company, which produces and sells bottled juice. You are configuring inventory for the company. Before you can start creating stock items for juice in the system, you need to create a posting class that will provide default posting settings for juice items.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create a posting class on the [Posting Classes](IN_20_60_00.md) \(IN206000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating a posting class, you should do the following:
 
@@ -28,7 +28,7 @@ Before you start creating a posting class, you should do the following:
 
 **Tip:** If you have not configured a company with basic settings and you want to practice creating a posting class, you can perform the activity in this topic by using the *U100* dataset.
 
-## Step: Creating a Posting Class {#_380514f6-2ca4-4e1b-aeb3-8d62648613b6 .section}
+## Step: Creating a Posting Class
 
 To create a posting class for jams, do the following:
 
@@ -58,7 +58,7 @@ To create a posting class for jams, do the following:
 
 Now that you have created the posting class, you can create units of measure, as described in [Units of Measure: Implementation Activity](UOMs_Implem_Activity.md). For the full list of inventory entities to be created, see [Configuration of Order Management: General Information](../ImplementationGuide/config_InvMgmt_Basic_GeneralInfo.md).
 
-## Activity Recap { .section}
+## Activity Recap
 
 In this activity, we have illustrated how the implementation manager has done the following:
 

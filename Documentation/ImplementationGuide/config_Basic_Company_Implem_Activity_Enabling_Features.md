@@ -1,23 +1,23 @@
-# Company Without Branches: To Configure a Company Without Branches {#_082a5d06-0e65-44c0-8049-4df32ebf59d3 .task}
+# Company Without Branches: To Configure a Company Without Branches
 
 In this activity, you will learn how to enable the minimum set of features and define settings for a company without branches.
 
-## Story { .section}
+## Story
 
 Suppose that as an administrator, you are going to start configuring a new company without branches in Acumatica ERP. The company is going to use the default features. You need to enable these features and then you need to configure a company entity in Acumatica ERP for the SweetLife Fruits &amp; Jams company, which at this time has only one office in New York.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will enable the minimum set of features on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form. On the [Companies](../UserGuide/CS_10_15_00.md) \(CS101500\) form, you will create a company without branches and specify its settings. Finally, on the [Currencies](../UserGuide/CM_20_20_00.md) \(CM202000\) form, you will review the settings of the new company's base currency.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring a company without branches, sign in to a tenant with the out-of-the-box company as follows:
 
 -   Enter the *admin* username and the *setup* password. You will be asked to set up a new password.
 -   Change the password and confirm the new password, and click **Sign In**.
 
-## Step 1: Enabling the Minimum Set of Features { .section}
+## Step 1: Enabling the Minimum Set of Features
 
 To enable the minimum set of features, do the following:
 
@@ -26,7 +26,7 @@ To enable the minimum set of features, do the following:
 
 In a production environment, after the features are enabled and before you proceed with implementation, you have to activate the Acumatica ERP license by using the [Activate License](../UserGuide/SM_20_15_10.md) \(SM201510\) form. In this activity, you are using Acumatica ERP under the trial license, which does not require activation and provides all available features.
 
-## Step 2: Defining a Company Without Branches { .section}
+## Step 2: Defining a Company Without Branches
 
 To configure the company without branches for SweetLife, do the following:
 
@@ -56,7 +56,7 @@ To configure the company without branches for SweetLife, do the following:
 
 On the same form, you can now create an actual ledger for the company you have created. For details, see [General Ledger: To Create an Actual Ledger](config_Basic_Company_Implem_Activity_Actual_Ledger.md).
 
-## Step 3: Reviewing the Base Currency Settings { .section}
+## Step 3: Reviewing the Base Currency Settings
 
 To review the settings of the company's base currency, which you specified in Step 2, do the following:
 

@@ -1,16 +1,16 @@
-# Workers' Compensation Codes: General Information {#_c8495d0a-423a-437c-8937-418d23d4a1a4 .concept}
+# Workers' Compensation Codes: General Information
 
 Workers' compensation codes \(WCC codes\) are used to fairly distribute the costs of workers’ compensation insurance among employers. A WCC code determines the amount of the workers' compensation depending on the category of work performed by the workers.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to create workers' compensation codes.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create workers' compensation codes to determine the compensation rates for the types of jobs that your employees do.
 
-## Creating Workers' Compensation Codes { .section}
+## Creating Workers' Compensation Codes
 
 You create new workers' compensation codes by using the [Workers' Compensation Codes](PR_20_98_00.md) \(PR209800\) form. You may need to have one WCC code for each category of work performed by employees in your organization.
 
@@ -20,7 +20,7 @@ The system calculates workers' compensation through deduction and benefit codes.
 
 For each deduction code, you need to specify the effective date, which is the date when the specified rate comes into effect. A deduction code with an actual rate is marked as **Active**. The **Active** check box is cleared for a deduction code whose rate is no longer effective.
 
-## Specifying Sources for Workers' Compensation Codes { .section}
+## Specifying Sources for Workers' Compensation Codes
 
 By using the **Sources** pane on the [Workers' Compensation Codes](PR_20_98_00.md) \(PR209800\) form, you can specify the sources for the workers' compensation codes that the system inserts by default when a paycheck or a time activity is created.
 

@@ -1,8 +1,8 @@
-# Correction of a Bill for a Subcontract: General Information {#_337ff22e-8baf-4ece-9f36-c84be80a9caa .concept}
+# Correction of a Bill for a Subcontract: General Information
 
 In most cases, a subcontract is considered completed when the services have been provided and the corresponding accounts payable bill has been released to adjust the outstanding balance of the vendor \(subcontractor\). If the subcontract requires any changes, you may want to correct billed amounts and quantities in the subcontract fully or partially. Because a released accounts payable bill cannot be edited or deleted, to correct the billed amount and billed quantity, you need to process a debit adjustment that decreases the accounts payable balance.
 
-## Learning Objectives {#section_h3g_ypf_wnb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,11 +12,11 @@ In this chapter, you will learn how to do the following:
 -   Review the GL and project transactions generated on release of a debit adjustment
 -   Review how the project budget is updated on release of the debit adjustment
 
-## Applicable Scenarios {#section_i3g_ypf_wnb .section}
+## Applicable Scenarios
 
 You create a debit adjustment for a bill prepared for a subcontract to decrease the amount you owe to a vendor according to this subcontract.
 
-## Debit Adjustment Processing {#section_j3g_ypf_wnb .section}
+## Debit Adjustment Processing
 
 To decrease the full amount of a bill created for a subcontract, you can reverse the bill by clicking **Reverse** on the More menu of the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. When you reverse the bill, the system automatically creates a debit adjustment with the same details. To partially decrease the billed amount or billed quantity for a subcontract, you manually create a debit adjustment and specify the needed amount and quantity in the lines that are linked to the corresponding subcontract.
 
@@ -45,11 +45,10 @@ The released debit adjustment appears on the [Checks and Payments](AP_30_20_00.m
 
 Along with correcting billed amounts and quantities, you may need to process a change order for a subcontract to decrease its total amount and quantity. For more information on this, see [Change Orders for Commitments: General Information](Projects_Changes_to_Commitments_GeneralInfo.md).
 
-## Workflow of the Processing of a Debit Adjustment for a Subcontract {#section_i5c_bxf_wnb .section}
+## Workflow of the Processing of a Debit Adjustment for a Subcontract
 
 The following diagram represents the general workflow of the processing of a debit adjustment for a subcontract.
 
-![](Images/diag_Construction_Subcontract_Bill_Correction.png)
 
 **Parent topic:**[Correcting Subcontract Bills](../UserGuide/Construction_Subcontract_Bill_Correction_Mapref.md)
 

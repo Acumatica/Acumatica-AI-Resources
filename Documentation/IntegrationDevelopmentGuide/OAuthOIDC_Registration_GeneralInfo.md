@@ -1,18 +1,18 @@
-# Registration of an OAuth 2.0 or OIDC Application: General Information {#_84e7f6c6-3b0f-4526-a1aa-343e39aeebfe .concept}
+# Registration of an OAuth 2.0 or OIDC Application: General Information
 
 You use the [Connected Applications](../UserGuide/SM_30_30_10.md) \(SM303010\) form to register an OAuth 2.0 or OpenID Connect \(OIDC\) client application.
 
 To register a client application in Acumatica ERP, you need to know the authorization flow that this application implements. For more information on the flows, see [Authorization Code Flow: General Information](OAuthOIDC_AuthorizationCode_GeneralInfo.md#), [Implicit Flow: General Information](OAuthOIDC_Implicit_GeneralInfo.md), [Resource Owner Password Credentials Flow: General Information](OAuthOIDC_ResourceOwner_GeneralInfo.md), and [Hybrid Flow: General Information](OAuthOIDC_Hybrid_GeneralInfo.md).
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to register an OAuth 2.0 or OIDC client application in Acumatica ERP.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You are a developer who is implementing an OAuth 2.0 or OIDC client application. Before this application can work with an Acumatica ERP instance, you need to register the application in this instance.
 
-## Registration of a Client Application { .section}
+## Registration of a Client Application
 
 You register an OAuth 2.0 or OIDC client application in the Acumatica ERP instance so that the application can work with the instance.
 

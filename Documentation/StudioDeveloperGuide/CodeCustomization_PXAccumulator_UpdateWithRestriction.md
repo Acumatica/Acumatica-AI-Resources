@@ -1,4 +1,4 @@
-# PXAccumulator: Implementation of an Update with Restrictions {#_c7096bfc-de10-4e3d-8f68-771b8104f4f8 .concept}
+# PXAccumulator: Implementation of an Update with Restrictions
 
 When you use a custom accumulator attribute, you might need to check some restrictions during the update of the data in the database. You can specify the restriction conditions in the accumulator attribute. The attribute adds the conditions to the `WHERE` clause of the SQL query. When the framework executes the query, the record is not updated in the database if the condition is `false`. In this case, the database returns no affected rows, and the framework throws the PXLockViolationException exception.
 
@@ -7,7 +7,7 @@ You can add a restriction to a field value in the accumulator attribute in one o
 -   By using the Restrict\(\) method of the column collection in PrepareInsert\(\). The condition that you specify in the Restrict\(\) method is checked against the value stored in the database. You need to override the PersistInserted\(\) method to throw a more specific exception if a restriction violation occurs.
 -   By using the AppendException\(\) method of the column collection in PrepareInsert\(\). This method actually configures an exception that is thrown when the specified restriction is violated. The condition you specify is checked against the result after the new value is added to the value stored in the database.
 
-## Example with the Restrict\(\) Method { .section}
+## Example with the Restrict\(\) Method
 
 The following code example adds a restriction to the `ProductQty.AvailQty` field by using the Restrict\(\) method.
 
@@ -21,7 +21,7 @@ if (newQty.AvailQty < 0m)
 
 The restriction that is set with the Restrict\(\) method does not work on the insertion of the `ProductQty` data record. In the code above, you compare the existing value with `-newQty.AvailQty`.
 
-## Example with the AppendException\(\) Method { .section}
+## Example with the AppendException\(\) Method
 
 The following code example adds the same restriction \(that is, the restriction of the previous example\) to the `ProductQty.AvailQty` field by using the AppendException\(\) method.
 
@@ -38,7 +38,7 @@ if (newQty.AvailQty < 0m)
 
 The restriction that is set with the AppendException\(\) method works on the insertion and update of the `ProductQty` data record. In the code above, you compare the resulting value, `-newQty.AvailQty` plus the existing value, with `0m`.
 
-## Handling of PXLockViolationException { .section}
+## Handling of PXLockViolationException
 
 You override the PersistInserted\(\) method in the attribute and handle PXLockViolationException in it. In the overridden PersistInserted\(\) method, you first have to invoke the base method and then have to catch the PXLockViolationException exception that can be thrown in the base method.
 

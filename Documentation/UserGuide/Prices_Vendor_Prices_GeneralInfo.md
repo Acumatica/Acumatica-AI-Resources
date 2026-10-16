@@ -1,16 +1,16 @@
-# Vendor Prices: General Information {#_b8a92f04-1346-443b-aba0-9809a9d996e0 .concept}
+# Vendor Prices: General Information
 
 By maintaining vendor price lists in your system, you can take advantage of promotional prices and volume-based offers when planning your purchases and order items for the best available prices.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 You will learn how vendor prices are defined in Acumatica ERP and how you can upload a vendor price list by using a vendor price worksheet.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 In Acumatica ERP, you can maintain vendor prices for both non-stock items and stock items. Specifying vendor prices for stock items is possible only if the *Inventory* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Vendor Price Types { .section}
+## Vendor Price Types
 
 The following types of vendor prices can be defined in the system:
 

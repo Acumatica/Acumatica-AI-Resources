@@ -1,8 +1,8 @@
-# To Import a Trial Balance {#_9703c4ff-a6b5-4730-acf7-34f732c774c1 .task}
+# To Import a Trial Balance
 
 You use the [Trial Balance](GL_30_30_10.md) \(GL303010\) form to import the trial balance file to Acumatica ERP.
 
-## Before You Proceed {#section_a4g_mjv_vxb .section}
+## Before You Proceed
 
 Before importing trial balances, make sure of the following:
 
@@ -11,7 +11,7 @@ Before importing trial balances, make sure of the following:
 -   If the trial balance file to be imported contains subaccounts, the *Subaccounts* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. Also, subaccounts have to be configured in the system as described in [Managing Subaccounts](GL__CON_Optional_Configuration.md#_5ffd7bb4-b7ad-4246-8085-6983f76e9927).
 -   On the [General Ledger Preferences](GL_10_20_00.md) \(GL102000\) form, in the **Sign of the Trial Balance** box, the selected option \(*Normal* or *Reversed*\) corresponds to the balances that you are going to import.
 
-## To Import the Trial Balance {#section_c4g_mjv_vxb .section}
+## To Import the Trial Balance
 
 1.  Open the [Trial Balance](../Shared/../UserGuide/GL_30_30_10.md) \(GL303010\) form.
 2.  In the **Import Date** box, specify the date of the import.
@@ -46,7 +46,7 @@ Before importing trial balances, make sure of the following:
 
 11. Release and post the batch, as described in [Processing Transactions](../Shared/../UserGuide/Finance_Processing_Batch_Mapref.md).
 
-## Notes About the Procedure {#section_d4g_mjv_vxb .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

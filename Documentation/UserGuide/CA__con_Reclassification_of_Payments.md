@@ -1,10 +1,10 @@
-# Reclassification of Unknown Payments {#_0aa6d9d7-d41d-435d-8da1-475a0bc1d34b .concept}
+# Reclassification of Unknown Payments
 
 During a financial period, you can receive or download a list of the recent bank transactions, which helps you to clear documents in the system regularly. Regular reviews of such a list make visible to your company any transactions that you did not previously know about. These transactions include interest earned, bank charges, incoming Automated Clearing House \(ACH\) payments \(direct debits\), transactions with input errors, bounced checks, incoming wire transfers, and payments made automatically by the bank for standing orders. While you can easily identify some of these transactions, such as interest or bank charges, identification of others may take some time.
 
 Acumatica ERP provides functionality that you can use to record payments without details when they arrive \(or appear on the bank statement\) to special accounts and reclassify them later by adding the details that have become known.
 
-## Configuring Processing of Unknown Payments {#section_pvc_kjv_vxb .section}
+## Configuring Processing of Unknown Payments
 
 To enable this functionality, you configure the processing of unknown payments. Because accounts that temporarily store unknown payments and bank accounts to which you will later reclassify these payments are cash accounts denominated to specific currencies, the processing of unknown payments must be configured separately for each currency involved. For each currency, complete the following steps to configure processing of unknown payments:
 
@@ -17,7 +17,7 @@ Finally, on the **General** tab \(**Reconciliation Settings** section\) of the [
 
 Once the configuration is finished, you may proceed with the recording and further reclassification of the unknown payments.
 
-## Processing Unknown Payments {#section_uvc_kjv_vxb .section}
+## Processing Unknown Payments
 
 When you detect an unknown payment on the bank statement, you process it as follows:
 
@@ -29,7 +29,7 @@ When you detect an unknown payment on the bank statement, you process it as foll
 
 After reclassification, you have the correct transaction between the cash account and the AR or AP account, which can be reconciled with the bank statement and traced in the customer or vendor documents, and the amount on the temporary account is reversed. For details, see [Reclassification Results](CA__CON_ReclassifiedJournalTrans.md).
 
-## Searching for Unknown Payments {#section_yvc_kjv_vxb .section}
+## Searching for Unknown Payments
 
 You use the [Reclassify Payments](CA_50_65_00.md) \(CA506500\) form to view the released unrecognized payments \(reclassified or not\). As you record the unknown payments by using the dedicated entry type, you start your search by selecting the corresponding entry type in the **Entry Type** box of the form. Then you can further narrow the results by specifying a cash account and date range. The system displays only released unknown payments that require reclassification and have been recorded by using the selected entry type to the specified account.
 
@@ -42,9 +42,6 @@ If you want to view recorded unknown payments that have not been released yet, y
 -   [Release Cash Transactions](CA_50_20_00.md) \(CA502000\): You search for the payment by filtering the table records by cash account and transaction description.
 
 You can release a balanced unknown payment by using all of the forms listed above.
-
--   **[Reclassification Results](../UserGuide/CA__CON_ReclassifiedJournalTrans.md)**  
-
 
 **Parent topic:**[Tracking Cash Payments](../UserGuide/CA__MNG_TrackingCashPayments.md)
 

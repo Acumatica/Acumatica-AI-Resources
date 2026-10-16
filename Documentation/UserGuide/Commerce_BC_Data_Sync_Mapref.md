@@ -1,4 +1,4 @@
-# Overview of Data Synchronization {#_46eb0d10-e7f5-4da6-a7b6-cdb7067f7da0 .concept}
+# Overview of Data Synchronization
 
 In this chapter, you will learn how the synchronization of data between Acumatica ERP and BigCommerce works.
 

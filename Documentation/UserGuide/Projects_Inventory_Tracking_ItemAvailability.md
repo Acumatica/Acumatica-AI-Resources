@@ -1,16 +1,16 @@
-# Project Inventory Tracking: Item Availability Tracking {#_663ebfe5-9cfd-4fbb-997e-c6041759d473 .concept}
+# Project Inventory Tracking: Item Availability Tracking
 
 In Acumatica ERP, you can configure the way item availability data is calculated in accordance with your company's policies. If the *Project-Specific Inventory* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can also configure the way project-specific materials are calculated and track their availability.
 
 The following sections describe how availability configuration works and how you can make sure inventory has enough materials for processing project-related documents.
 
-## Reviewing the Availability Status of Stock Items {#section_m53_mls_rqb .section}
+## Reviewing the Availability Status of Stock Items
 
 For stock items, the system calculates the availability status based on availability calculation rules, which you define on the [Availability Calculation Rules](IN_20_15_00.md) \(IN201500\) form. To specify how the system calculates availability for particular items of an item class, you assign the availability calculation rules you’ve created to the class on the [Item Classes](IN_20_10_00.md) \(IN201000\) form. By default, each item of this item class is assigned this rule. You can override the default availability calculation rule for each particular stock item on the [Stock Items](IN_20_25_00.md) \(IN202500\) form.
 
 When the documents that record inventory transactions have been released, Acumatica ERP automatically updates the on-hand quantities of items at warehouses. On-hand quantities usually differ from the quantities that are actually available because documents may be processed after the actual operations with items have been performed. For more information about the configuration of availability rules, see [Availability Calculation Rules: General Information](Availability_Calculation_Rules_GeneralInfo.md).
 
-## Reviewing Project-Specific Availability Data { .section}
+## Reviewing Project-Specific Availability Data
 
 When a user adds a line with an inventory item to a sales order, shipment, purchase receipt, or inventory transaction, the system calculates and shows the availability quantities for each line in the table footer on the **Details** tab of the following forms:
 

@@ -1,23 +1,23 @@
-# Product Synchronization: To Synchronize Non-Stock Items with Attributes {#_aa93750e-a5bb-40b9-9740-582c815f2e95 .task}
+# Product Synchronization: To Synchronize Non-Stock Items with Attributes
 
 The following activity will walk you through the processes of creating an attribute for a non-stock item and synchronizing this item with the BigCommerce store.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company is going to start selling training courses in a few months. However, it wants to let the shoppers of its online store know when the courses will be available for purchase.
 
 Acting as an implementation consultant helping SweetLife to set up the integration of Acumatica ERP with the BigCommerce store, you need to define an attribute for the course availability date and then export this date to the BigCommerce store.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Item Classes](IN_20_10_00.md) \(IN201000\) form, the *TRAINING* item class has been defined.
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\), the *ONLCOURSE* non-stock item of the *TRAINING* item class has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will perform the following:
 
@@ -29,7 +29,7 @@ In this activity, you will perform the following:
 6.  On the [Process Data](BC_50_15_00.md) \(BC501500\) form, process the data prepared for synchronization.
 7.  In the control panel of the BigCommerce store, review the exported product.
 
-## System Preparation { .section}
+## System Preparation
 
 Before performing the instructions of this activity, do the following:
 
@@ -44,7 +44,7 @@ Before performing the instructions of this activity, do the following:
 5.  On the **Entities** tab, select the **Active** check box in the row of the *Non-Stock Item* entity and make sure that the *Export* sync direction is selected for the entity.
 6.  Save your changes.
 
-## Step 1: Creating an Attribute { .section}
+## Step 1: Creating an Attribute
 
 To create an attribute for the release date of a product that is a non-stock item, do the following:
 
@@ -55,7 +55,7 @@ To create an attribute for the release date of a product that is a non-stock ite
     -   **Control Type**: *Datetime*
 3.  On the form toolbar, click **Save**.
 
-## Step 2: Adding the Attribute to the Needed Item Class { .section}
+## Step 2: Adding the Attribute to the Needed Item Class
 
 To add the *Pre-Order Release Date* attribute to the *TRAINING* item class, do the following:
 
@@ -65,7 +65,7 @@ To add the *Pre-Order Release Date* attribute to the *TRAINING* item class, do t
 4.  In the added row, in the **Attribute ID** column, select *RELDATE*.
 5.  On the form toolbar, click **Save**.
 
-## Step 3: Assigning a Value to the Added Attribute { .section}
+## Step 3: Assigning a Value to the Added Attribute
 
 To assign a specific value to the created attribute for the *ONLCOURSE* non-stock item, do the following:
 
@@ -74,7 +74,7 @@ To assign a specific value to the created attribute for the *ONLCOURSE* non-stoc
 3.  On the **eCommerce** tab, in the **Availability** box, select *Set as Pre-Order*.
 4.  On the form toolbar, click **Save**.
 
-## Step 4: Mapping the Attribute to a Field in the BigCommerce Store { .section}
+## Step 4: Mapping the Attribute to a Field in the BigCommerce Store
 
 To map the release date attribute with the BigCommerce field, do the following:
 
@@ -93,7 +93,7 @@ To map the release date attribute with the BigCommerce field, do the following:
     -   **ERP Field / Value**: `=Year(CDate([NonStockItem -> Attributes.Pre-Order Release Date]))+'-'+Month(CDate([NonStockItem -> Attributes.Pre-Order Release Date]))+'-'+Day(CDate([NonStockItem -> Attributes.Pre-Order Release Date]))+'T00:00:00+00:00'`
 4.  On the form toolbar, click **Save**.
 
-## Step 5: Configuring the Export of a Subset of Non-Stock Items { .section}
+## Step 5: Configuring the Export of a Subset of Non-Stock Items
 
 To configure the *Non-Stock Item* entity to export to the BigCommerce store only stock items of the *TRAINING* item class, do the following:
 
@@ -104,7 +104,7 @@ To configure the *Non-Stock Item* entity to export to the BigCommerce store only
     -   **Value**: `Training`
 2.  On the form toolbar, click **Save**.
 
-## Step 6: Preparing Product Data for Synchronization { .section}
+## Step 6: Preparing Product Data for Synchronization
 
 To prepare the non-stock item data for synchronization, do the following:
 
@@ -120,7 +120,7 @@ To prepare the non-stock item data for synchronization, do the following:
     Notice that the **Ready to Process** column shows the number of synchronization records that have been prepared and are ready to be processed. The **Processed Records** column shows the number of records that have been processed \(that is, records that have been successfully synchronized\).
 
 
-## Step 7: Processing the Prepared Product Data { .section}
+## Step 7: Processing the Prepared Product Data
 
 To process the product data that has been prepared for synchronization, do the following:
 
@@ -131,7 +131,7 @@ To process the product data that has been prepared for synchronization, do the f
 2.  In the row of the *ONLCOURSE, Home canning courses online \(website session\)* non-stock item, select the unlabeled check box, and on the form toolbar, click **Process**.
 3.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 12: Viewing the Exported Product { .section}
+## Step 12: Viewing the Exported Product
 
 To view the exported product data in the BigCommerce store, do the following:
 
@@ -154,7 +154,6 @@ To view the exported product data in the BigCommerce store, do the following:
 
     The storefront page for the *Home canning courses online \(website session\)* product opens. Notice that the product is only available for pre-order, and that the message to customers indicates that the product will be available starting *2027 Jan 1st*. This date was specified as an attribute value in Acumatica ERP and exported during the synchronization of the *Non-Stock Item* entity.
 
-    ![](Images/activity_Commerce_BC_Syncing_Products_To_Export_NonStockItems_with_Attributes.png "The custom attribute shown on the storefront")
 
 
 **Parent topic:**[Synchronizing Products](../UserGuide/Commerce_BC_Syncing_Products_Mapref.md)

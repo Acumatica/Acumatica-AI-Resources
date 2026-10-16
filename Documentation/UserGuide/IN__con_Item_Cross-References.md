@@ -1,4 +1,4 @@
-# Item Cross-References {#_07b78589-6e40-4fb0-826c-7ed4d1e08e91 .concept}
+# Item Cross-References
 
 For convenience during the processing of purchase and sales orders, in Acumatica ERP, you can define the relationships between the inventory item identifiers maintained by your company and those used by your vendors and customers. These cross-references associate the internal inventory ID of an inventory item with an alternate ID for the item that is used by the vendor or customer. For information on inventory IDs, see [Stock Items: Identifiers of Items](Stock_Items_Identifiers_of_Items.md).
 
@@ -6,7 +6,7 @@ Once these cross-references are established in the system, when you enter a cust
 
 The types of cross-references that are supported in Acumatica ERP are described in the sections below.
 
-## Using Alternate IDs { .section}
+## Using Alternate IDs
 
 You can create cross-references for inventory items by using the **Cross-References** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form for a stock item and of the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form for a non-stock item. When you add a cross-reference to the table on the **Cross-References** tab, you select one of the following types in the **Alternate Type** column:
 
@@ -22,7 +22,7 @@ If subitems are not used in your system along with inventory IDs to identify inv
 
 The system does not verify the uniqueness of alternate IDs in the system. However, an alternate ID is unique for each vendor or customer, and you can find the items you want to add to an order by typing their alternate IDs in the **Inventory ID** column on the **Details** tab of the [Sales Orders](SO_30_10_00.md) \(SO301000\) or [Purchase Orders](PO_30_10_00.md) \(PO301000\) form.
 
-## Configuring the *INVENTORY* Segmented Key { .section}
+## Configuring the *INVENTORY* Segmented Key
 
 If you plan to use customer and vendor alternate IDs for stock and non-stock items, keep in mind that alternate IDs may have more characters than you have planned for your inventory IDs and that they may have different lengths in the systems of different vendors and customers. To avoid inserting unnecessary zeros or other characters in each inventory ID, take into account the following recommendations when you configure the *INVENTORY* segmented key on the [Segmented Keys](CS_20_20_00.md) \(CS202000\) form:
 
@@ -33,7 +33,7 @@ If you plan to use customer and vendor alternate IDs for stock and non-stock ite
     2.  In the **Numbering ID** box, select the numbering sequence to be used to generate identifiers for new items. This numbering sequence may be defined on [Numbering Sequences](CS_20_10_10.md) \(CS201010\) form with the **Start Number** and **End Number** that have fewer characters than the segment length.
 4.  If you plan to enter the inventory IDs for items manually, you should make sure the **Validate** check box is cleared for the segment—then the users will be able to enter identifiers with less characters than the specified segment length.
 
-## Using Customer Alternate IDs { .section}
+## Using Customer Alternate IDs
 
 Customer alternate IDs are inventory identifiers \(such as part numbers\) used by customers for the items. Because different customers may use different identifiers to refer to the same product \(defined as an item in Acumatica ERP\), you can create multiple alternate IDs for the product \(one for each customer per item\). You can specify a customer alternate ID for an item by using the **Cross-References** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form or the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form.
 
@@ -43,7 +43,7 @@ When you create a sales order, once you select the customer, you can add each it
 
 **Note:** The **Alternate ID** column in the **Inventory Lookup** dialog box becomes populated only after you have typed a string in the **Inventory** box and the system has performed a search for the items with inventory IDs, alternate IDs, and descriptions that match the string.
 
-## Using Vendor Alternate IDs { .section}
+## Using Vendor Alternate IDs
 
 Vendor alternate IDs are inventory identifiers used by your company's vendors for the product \(defined as an item in Acumatica ERP\). As with customer alternate IDs, you can maintain multiple vendor alternate IDs \(one for each vendor per item\) in the Inventory module. You can specify a vendor alternate ID for an item by using the **Cross-References** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form or the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form.
 
@@ -53,11 +53,11 @@ When you create a purchase order on the [Purchase Orders](PO_30_10_00.md) form, 
 
 **Note:** The **Alternate ID** column in the **Inventory Lookup** dialog box becomes populated only after you have typed a string in the **Inventory** box and the system has performed a search for the items with inventory IDs, alternate IDs, and descriptions that match the string.
 
-## Using Vendor Catalogs { .section}
+## Using Vendor Catalogs
 
 For inventory items your company frequently purchases from a particular vendor, you can maintain a vendor catalog on either the [Vendor Inventory](PO_20_10_00.md) \(PO201000\) form or the **Vendor Info** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form. Along with alternate IDs, you can specify the vendor's last prices for the items and update them with the prices quoted on vendor documents, such as receipts or even purchase orders. When they create purchase orders, users will be able to see the vendor's last prices for the items listed on the orders. For more information, see [Vendor Catalogs](PO__con_Vendor_Catalog.md).
 
-## Using Barcodes { .section}
+## Using Barcodes
 
 Most products \(items\) that are sold or purchased have barcodes. A barcode is a machine-readable graphical representation of data that contains information about the product to which the barcode is attached. A special scanner is used to read the information encoded in the image. Scanner software converts barcodes to alphanumeric strings. Barcodes are specific to the company that manufactures or resells the products. Different barcode standards are used for different types of products and in different world regions.
 
@@ -65,7 +65,7 @@ With Acumatica ERP, you can use barcodes as alternate IDs for inventory items. O
 
 Alternatively, barcodes can be entered manually or by using a scanner on the **Cross-References** tab of the [Stock Items](IN_20_25_00.md) form. Any number of barcodes can be entered for the same item. For barcodes, no association with a particular vendor or customer is required. For details, see [Barcode Support](PO__con_Barcode_Support.md).
 
-## Using Cross-Reference Units of Measure {#_119e97a3-c747-4cea-a699-ef56e2ead6b5 .section}
+## Using Cross-Reference Units of Measure
 
 The system provides you with the ability to define and use cross-reference units of measure other than the default sales or purchase units specified for the item. For an alternate ID of any type specified on the **Cross-References** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) or [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, you can specify the unit of measure in the **Unit of Measure** column.
 
@@ -73,7 +73,7 @@ When you add items to the sales order or purchase order by entering the alternat
 
 **Note:** In the **Unit of Measure** column, you can specify only those units of measure that are defined for the item in the **Unit Conversion** table on the **General** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) or [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form.
 
-## Uploading Prices with Alternate IDs and Creating Alternate IDs from Price Worksheets {#IDworksh .section}
+## Uploading Prices with Alternate IDs and Creating Alternate IDs from Price Worksheets
 
 In the system, you can make it possible to upload prices in worksheets with alternate IDs instead of item identifiers defined in the system, and to create alternate IDs for inventory items on release of worksheets. To be able to use alternate IDs in price lists, you need to do the following:
 

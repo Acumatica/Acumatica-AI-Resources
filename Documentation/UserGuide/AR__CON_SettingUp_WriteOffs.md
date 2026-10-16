@@ -1,4 +1,4 @@
-# Direct Write-Offs: Write-Off Setup {#_7ccc5a43-dbd8-4d44-80f2-5ef857163e6d .concept}
+# Direct Write-Offs: Write-Off Setup
 
 To use the write-off functionality, you need to configure the following entities:
 
@@ -8,7 +8,7 @@ To use the write-off functionality, you need to configure the following entities
 
 In this topic, you will read about setting up write-off functionality and additional information that you may need during configuration. For a description of how to configure automatic write-offs for SO invoices, see [Configuration of Automatic Write-Offs in Invoices](SO__con_Config_Write_Offs.md).
 
-## Write-Off Process Setup {#section_cm2_hjv_vxb .section}
+## Write-Off Process Setup
 
 To use the write-off functionality, you perform the following steps:
 
@@ -26,7 +26,7 @@ After configuration is done, you can:
 -   Write off balances or credits of several documents at once by using the [Write Off Balances and Credits](AR_50_50_00.md) \(AR505000\) form.
 -   Write off balances directly from an invoice when you apply a payment \(created to match a bank transaction\) to it by using the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form.
 
-## Default Reason Codes {#section_gm2_hjv_vxb .section}
+## Default Reason Codes
 
 By using the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, you can specify the reason codes to be used by default for writing off credits and balances. The system will fill in the reason codes specified here in the **Reason Code** box on the [Write Off Balances and Credits](AR_50_50_00.md) \(AR505000\) form, as well as on the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, when you select the type of write-off operation.
 

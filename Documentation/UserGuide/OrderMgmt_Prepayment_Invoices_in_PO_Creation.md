@@ -1,8 +1,8 @@
-# Prepayment Invoices: Creation of a Prepayment Invoice {#_f786ecdb-183a-4602-a4ef-68428f0c5895 .concept}
+# Prepayment Invoices: Creation of a Prepayment Invoice
 
 This topic describes how to create a prepayment invoice from a purchase order.
 
-## How to Create a Prepayment Invoice from a Purchase Order {#section_hwj_tqd_c3c .section}
+## How to Create a Prepayment Invoice from a Purchase Order
 
 **Important:** When the *VAT Recognition on AP Prepayments* feature is enabled, the **Create Prepayment Invoice** command replaces **Create Prepayment Request**. New prepayment requests can't be created; however, you can still process any existing prepayment requests.
 
@@ -10,7 +10,6 @@ You create a prepayment invoice on the [Purchase Orders](PO_30_10_00.md) \(PO301
 
 On the More menu, you click **Create Prepayment Invoice**. In the **Create Prepayment Invoice** dialog that opens, you specify the prepayment percent or the prepayment amount \(see below\).
 
-![](Images/Finance_Prepayment_Invoice_from_PO_Dialog_Box.png "The Create Prepayment Invoice dialog box")
 
 The default prepayment percent is determined as follows:
 
@@ -22,14 +21,14 @@ The default prepayment percent is determined as follows:
 
     The prepayment percent is calculated based on the remaining balances of the purchase order as follows.
 
-    ``` {#codeblock_hhs_bjl_13c}
+    ```
     Prepayment Percent = (Remaining Unpaid Amount ÷ Remaining Unbilled Amount) × 100
     ```
 
 
 You can modify the percent, if needed. Once the prepayment percent is specified, click **Create**.
 
-## What the Created Prepayment Invoice Looks Like {#section_gnc_fsd_c3c .section}
+## What the Created Prepayment Invoice Looks Like
 
 When you click **Create** in the **Create Prepayment Invoice** dialog box, the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form opens with a new document of the *Prepmt. Invoice* type. Its summary information—such as the vendor, document currency, location, and tax zone—is copied from the purchase order. The document date is set to the current business date.
 

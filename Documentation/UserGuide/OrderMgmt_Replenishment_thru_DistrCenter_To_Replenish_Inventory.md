@@ -1,16 +1,16 @@
-# Replenishment Through a Distribution Center: Process Activity {#_4c175555-2d87-4317-9b36-095522afc91f .task}
+# Replenishment Through a Distribution Center: Process Activity
 
 The following activity demonstrates how to prepare and perform the replenishment of goods through a distribution center.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Matt Parker, a purchasing manager at the SweetLife Fruits &amp; Jams company. The SweetLife Store branch regularly receives small orders for mangoes from a customer. To fill your stock, you order mangoes from the Glory Fruit Case vendor by using the replenishment functionality.
 
 In the SweetLife company, fruits are delivered to the Wholesale warehouse, which serves as a distribution center for the other warehouses. To make sure that mangoes are allocated for the Retail warehouse, you will purchase mangoes to the Wholesale warehouse and then transfer the fruits from the Wholesale warehouse to the Retail warehouse.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -21,7 +21,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *MANGOES* stock item has been created.
 -   On the [Order Types](SO_20_10_00.md) \(SO201000\) form, the *Transfer* \(*TR*\) order type, which can be selected on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form for a transfer order, has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -34,7 +34,7 @@ In this activity, you will do the following:
 7.  Prepare and process the sales order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form and the shipment on the [Shipments](SO_30_20_00.md) \(SO302000\) form to ship items from the *WHOLESALE* warehouse to the *RETAIL* warehouse.
 8.  Prepare and process the purchase receipt for the items in the *RETAIL* warehouse on the [Purchase Receipts](PO_30_20_00.md) form; the corresponding inventory receipt is automatically created on the [Receipts](IN_30_10_00.md) form and released.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start preparing and performing replenishment through a distribution center, you should do the following:
 
@@ -42,7 +42,7 @@ Before you start preparing and performing replenishment through a distribution c
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, make sure the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Specifying the Economic Order Quantity for the Stock Item { .section}
+## Step 1: Specifying the Economic Order Quantity for the Stock Item
 
 To specify the economic order quantity for the *MANGOES* stock item, do the following:
 
@@ -53,7 +53,7 @@ To specify the economic order quantity for the *MANGOES* stock item, do the foll
 
 For the *MANGOES* stock item, the *Fixed Reorder Quantity* replenishment method is used in the *RETAIL* warehouse. Based on this quantity, a request for replenishment for the same quantity can be generated on the [Prepare Replenishment](IN_50_80_00.md) \(IN508000\) form.
 
-## Step 2: Reviewing the Replenishment Settings of the Item-Warehouse Pair { .section}
+## Step 2: Reviewing the Replenishment Settings of the Item-Warehouse Pair
 
 To review the replenishment settings of the *MANGOES* stock item in the *RETAIL* warehouse, do the following:
 
@@ -73,7 +73,7 @@ To review the replenishment settings of the *MANGOES* stock item in the *RETAIL*
     With these settings, you replenish mangoes in the *RETAIL* warehouse by purchasing the item through the *WHOLESALE* warehouse. The *MANGOES* item appears in the list of items for replenishment on the [Prepare Replenishment](IN_50_80_00.md) \(IN508000\) form when you have 10 pounds \(which is the base unit of measure for this item\) or less of the item in the available stock. Also, 20 pounds of mangoes will be used as the fixed quantity for the calculation of replenishment parameters in the *RETAIL* warehouse.
 
 
-## Step 3: Preparing the Replenishment { .section}
+## Step 3: Preparing the Replenishment
 
 To prepare the replenishment for mangoes in the *RETAIL* warehouse, do the following:
 
@@ -103,7 +103,7 @@ To prepare the replenishment for mangoes in the *RETAIL* warehouse, do the follo
 
 Now you can create a transfer order.
 
-## Step 4: Creating the Transfer Order { .section}
+## Step 4: Creating the Transfer Order
 
 To create a transfer order for the 20 pounds of mangoes, do the following:
 
@@ -114,7 +114,7 @@ To create a transfer order for the 20 pounds of mangoes, do the following:
 
 3.  On the **Details** tab, for the *MANGOES* line, make sure that the **Mark for PO** check box is selected. This means that the order line is marked for purchasing.
 
-## Step 5: Creating the Purchase Order { .section}
+## Step 5: Creating the Purchase Order
 
 To create the purchase order to purchase mangoes from the Glory Fruit Case vendor, do the following:
 
@@ -128,7 +128,7 @@ To create the purchase order to purchase mangoes from the Glory Fruit Case vendo
 
 Suppose that you now print the purchase order and send it to the Glory Fruit Case vendor by mail.
 
-## Step 6: Receiving the Stock Items from the Vendor { .section}
+## Step 6: Receiving the Stock Items from the Vendor
 
 Suppose that the Glory Fruit Case vendor has delivered the mangoes to the Wholesale warehouse. To prepare the documents to reflect the receipt of the mangoes, do the following:
 
@@ -144,7 +144,7 @@ Suppose that the Glory Fruit Case vendor has delivered the mangoes to the Wholes
 
 The mangoes are ready for shipment to the *RETAIL* warehouse.
 
-## Step 7: Shipping the Stock Items from the Distribution Center { .section}
+## Step 7: Shipping the Stock Items from the Distribution Center
 
 To prepare the documents for shipping the mangoes from the *WHOLESALE* warehouse to the *RETAIL* warehouse, do the following:
 
@@ -154,7 +154,7 @@ To prepare the documents for shipping the mangoes from the *WHOLESALE* warehouse
 4.  On the form toolbar, click **Confirm Shipment**.
 5.  To update the inventory of the *WHOLESALE* warehouse and issue the items from the *WHOLESALE* warehouse, on the form toolbar, click **Update IN**. The system issues the mangoes from the *WHOLESALE* warehouse and changes the status of the shipment to *Completed*. On the **Orders** tab, in the **Inventory Ref. Nbr.** column, you can view the reference number of the created transfer order; if needed, you could click the link to open the transfer of the *2-Step* type on the [Transfers](IN_30_40_00.md) \(IN304000\) form.
 
-## Step 8: Receiving the Stock Items in the Warehouse { .section}
+## Step 8: Receiving the Stock Items in the Warehouse
 
 Suppose that the *RETAIL* warehouse receives the mangoes. To update the stock, do the following:
 
@@ -174,7 +174,6 @@ Suppose that the *RETAIL* warehouse receives the mangoes. To update the stock, d
     2.  **Warehouse**: *RETAIL*
     Notice that in the **On Hand** column, the quantity is *20*, as shown in the following screenshot.
 
-    ![](Images/OrderMgmt_Replenishment_thru_DistrCenter_To_Replenish_Inventory_Retail_warehouse.png "The stock item received in the RETAIL warehouse")
 
     **Tip:** If you need to change the order of columns in any table, you can drag a column by its header to the new place in the table.
 

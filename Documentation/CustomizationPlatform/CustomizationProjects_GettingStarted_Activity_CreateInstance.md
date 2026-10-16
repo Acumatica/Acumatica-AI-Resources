@@ -1,23 +1,23 @@
-# Customization Projects: To Deploy an Instance {#_64244873-0758-45b8-90bf-208cca9c6b0b .task}
+# Customization Projects: To Deploy an Instance
 
 This activity will walk you through the process of preparing the environment and deploying an Acumatica ERP instance that you can use to perform the activities of this guide.
 
-## Story { .section}
+## Story
 
 Suppose that you are a customizer in your company. Before you can start working on the customization project, you need to deploy an Acumatica ERP instance.
 
-## Process Overview { .section}
+## Process Overview
 
 You will deploy an Acumatica ERP instance with the *T100* dataset. On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, you will then enable the features that are required to test the customization projects in this guide.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin deploying an instance, do the following:
 
 1.  Make sure that the environment that you are going to use meets the [System Requirements for the Acumatica ERP Installation](../UserGuide/INST_Preparing_Installation_System_Requirements.md).
 2.  Make sure that the Web Server \(IIS\) features that are listed in [Preparation for the Acumatica ERP Installation: System Environment](../UserGuide/INST_Preparing_Installation_System_Environment.md) have been turned on.
 
-## Step 1: Deploying an Acumatica ERP Instance { .section}
+## Step 1: Deploying an Acumatica ERP Instance
 
 Open the Acumatica ERP Configuration wizard, and deploy a new application instance as follows:
 
@@ -43,7 +43,7 @@ Open the Acumatica ERP Configuration wizard, and deploy a new application instan
 
 In subsequent sign-ins to this account, you will be signed in to the *YOGIFON* branch.
 
-## Step 2: Enabling the Features { .section}
+## Step 2: Enabling the Features
 
 Enable the features that are required to test the customization projects by doing the following:
 

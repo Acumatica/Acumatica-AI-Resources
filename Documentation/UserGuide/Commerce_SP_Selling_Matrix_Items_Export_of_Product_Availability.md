@@ -1,8 +1,8 @@
-# Sale of Matrix Items: Export of Product Availability Data {#_484b638e-d150-4068-9e60-ef0bd592f747 .concept}
+# Sale of Matrix Items: Export of Product Availability Data
 
 Acumatica ERP Retail Edition provides you with the ability to track the availability of template items \(and matrix items based on them\) that you sell in the Shopify store and maintain in Acumatica ERP. You have the flexibility to configure which quantities of items should be included in calculations of the quantities available for sale in the online store.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,11 +10,11 @@ In this chapter, you will learn how to do the following:
 -   Set up quantity tracking for matrix items exported to the Shopify store
 -   Synchronize the available quantities of exported matrix items for which quantity tracking is turned on
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You track available quantities of matrix items exported to the Shopify store if you want to make these items available for purchase by shoppers through the storefront only if there is a sufficient quantity in stock.
 
-## Configuration of Product Availability Synchronization { .section}
+## Configuration of Product Availability Synchronization
 
 Before you start exporting available quantities of stock items between Acumatica ERP and a Shopify store, you need to perform the following general steps:
 
@@ -22,7 +22,7 @@ Before you start exporting available quantities of stock items between Acumatica
 2.  Specify the quantity calculation settings for the store on the **Inventory** tab of the [Shopify Stores](BC_20_10_10.md) form. For details, see [Product Availability: Calculation of Available Quantities](Commerce_SP_Syncing_Product_Availability_Quantity_Calculation.md).
 3.  Determine the matrix items for which available quantities should be exported.
 
-## Synchronization of Available Quantities { .section}
+## Synchronization of Available Quantities
 
 Available quantities of matrix items are exported to the Shopify store during the synchronization of the *Product Availability* entity.
 
@@ -32,7 +32,7 @@ During the synchronization, the system updates the matrix item's quantity in Sho
 
 If the matrix item has no available quantity \(that us its calculated quantity is less than or equal to zero\), the system updates the matrix item's purchasability settings according to the **When Qty. Unavailable** setting specified on the **eCommerce** tab of the [Stock Items](IN_20_25_00.md) form.
 
-## Units of Measure of Available Item Quantities { .section}
+## Units of Measure of Available Item Quantities
 
 An item's available quantity is exported to the Shopify store in the item's sales unit of measure, which is defined on the **General** tab of the [Stock Items](../Shared/../UserGuide/IN_20_25_00.md) \(IN202500\) form. If an item's base UOM is different from its sales UOM, during the synchronization of the *Product Availability* entity, the item's available quantity is converted to the sales UOM before being exported to the Shopify store,
 

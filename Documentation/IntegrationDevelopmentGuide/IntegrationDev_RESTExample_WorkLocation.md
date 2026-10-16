@@ -1,4 +1,4 @@
-# WorkLocation {#_2650e002-fccd-4128-a187-0c1467766f9d .concept}
+# WorkLocation
 
 This chapter presents code examples showing requests that use the `WorkLocation` entity.
 

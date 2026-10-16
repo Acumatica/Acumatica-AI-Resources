@@ -1,4 +1,4 @@
-# Canada’s Employment Insurance {#_b12efa94-0d51-4eca-a8b5-b552de118d61 .concept}
+# Canada’s Employment Insurance
 
 In this chapter, you’ll learn how to configure reduced premium rates for Canada’s Employment Insurance \(EI\) for eligible employers.
 

@@ -1,8 +1,8 @@
-# Migration of Financial Documents: General Information {#_72cd782c-da16-4784-8f01-84b9974fa6a4 .concept}
+# Migration of Financial Documents: General Information
 
 When migrating company data from a legacy system to Acumatica ERP, you need to import into the system accounts payable and accounts receivable documents; these documents may have already been settled in full or partially.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -11,17 +11,17 @@ In this chapter, you will learn how to do the following:
 -   Import AP document in migration mode by using predefined import scenarios
 -   Import AR documents in migration mode by using predefined import scenarios
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You import financial documents from a legacy system before you start to use Acumatica ERP as an ERP system to keep the history of documents and continue processing open documents in the new system. To import the documents without affecting the balances of general ledger accounts, you use data migration mode.
 
-## Preparation of Documents for Import { .section}
+## Preparation of Documents for Import
 
 Before you start the migration process in Acumatica ERP, you need to prepare the list of all accounts receivable and accounts payable documents that you want to migrate to the system. This list can contain both outstanding and closed documents \(the ones that have been already settled in full but you want to keep them in the new system as well for audit purposes\). For each document, you need to specify its original amount, document date, document line details, and the unpaid balance on the migration date. If the open balance of a document is *0*, the document will be assigned the *Closed* status after you release it.
 
 **Important:** If an open balance is not specified for a document in the import file, then the system will set this balance to *0*; on release, the document will get the *Closed* status.
 
-## Import of Accounts Receivable Documents { .section}
+## Import of Accounts Receivable Documents
 
 To load AR documents without affecting the general ledger, you have to first activate migration mode for the accounts receivable subledger. To turn on migration mode for the AR subledger, you select the **Activate Migration Mode** check box on the **General** tab of the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form and save your changes.
 
@@ -35,7 +35,7 @@ In migration mode, you import the needed documents with the *Balanced* status. T
 
 The documents created in migration mode can be edited and released only when migration mode is activated. You can mass-release the imported documents on the [Release AR Documents](AR_50_10_00.md) \(AR501000\) form. When the documents are released in migration mode, these documents update the customer balances only; they do not update GL account balances. After you have finished the import and released the imported AR documents, you deactivate migration mode.
 
-## Import of Accounts Payable Documents { .section}
+## Import of Accounts Payable Documents
 
 To load AP documents without affecting the general ledger, you have to first activate migration mode for the accounts payable subledger. To turn on migration mode for the AP subledger, you select the **Activate Migration Mode** check box on the **General** tab of the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form and save your changes.
 

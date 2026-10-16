@@ -1,4 +1,4 @@
-# Estimating: General Information {#_e46c2522-10c1-471f-b353-b13c0272b55f .concept}
+# Estimating: General Information
 
 The estimating functionality of Acumatica ERP provides the ability to create quick or detailed manufacturing estimates for improved estimate accuracy and turnaround times. An estimate is created for a single inventory or non-inventory item. You build an estimate from bills of materials, production orders, or other estimates to accurately calculate costs and prices for new or existing parts using material costs, work center rates, overheads, and other cost data. Alternatively, you can start by entering just summary cost data and later on add the details.
 
@@ -6,13 +6,13 @@ Estimating is designed to supplement and enhance the customer management process
 
 The estimating functionality is available only when the *Estimating* feature in the *Manufacturing* group of features is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Scenarios { .section}
+## Scenarios
 
 1.  A direct estimate, which is not linked to a quote, sales order, or opportunity
 2.  An estimate created from a quote or sales order
 3.  An estimate created from an opportunity
 
-## Features { .section}
+## Features
 
 -   Estimate data is tracked through revisions.
 -   Estimate detail can be created by copying an existing estimate revision, bill of material, or production order.
@@ -28,7 +28,7 @@ The estimating functionality is available only when the *Estimating* feature in 
 -   Estimates are not multilevel; that is, one estimate cannot be referenced by another estimate.
 -   Estimates may include multiple quantity-based price breaks. For details, see [Estimating: Price Breaks](MFG_Estimating_PriceBreaks.md).
 
-## Cost Levels and Calculations { .section}
+## Cost Levels and Calculations
 
 Estimate costs can be defined at the following levels: detail, operation, and estimate. The costs for an estimate always update the parent level totals. This includes any changes on the estimate or the estimate operation pages. The concept for calculating the cost types is the same as currently calculated for production planned costs on a production order with an exception that labor is broken out into fixed and variable. The extended information about the estimate cost levels is the following:
 

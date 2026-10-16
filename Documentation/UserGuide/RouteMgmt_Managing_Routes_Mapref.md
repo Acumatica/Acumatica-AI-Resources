@@ -1,4 +1,4 @@
-# Managing Routes {#_d8207644-3ae2-40f6-8e9e-3f0a613ab109 .concept}
+# Managing Routes
 
 In Acumatica ERP, you can maintain all the necessary information about the routes that your company executes and each specific route execution. The route contains common information for route executions performed by your company—that is, the starting and ending locations of the route, the schedule when it can be performed, and the employees \(drivers\) who can be assigned to execute the route.
 
@@ -12,6 +12,4 @@ In Acumatica ERP, you can maintain all the necessary information about the route
 
 -   **[Routes: To Add Drivers to a Route](../UserGuide/FS__HOW_To_Add_Drivers_to_Route_List.md)**  
 
-
-**Parent topic:**[Route Management](../UserGuide/FS_00_00_03.md)
 

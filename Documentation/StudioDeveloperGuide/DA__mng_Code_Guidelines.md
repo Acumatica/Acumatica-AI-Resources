@@ -1,4 +1,4 @@
-# Naming the Graphs and Event Handlers {#_aa5bcc83-1246-45e3-bd29-2e8a619eb27f .concept}
+# Naming the Graphs and Event Handlers
 
 In this chapter, you can find the naming conventions for the graphs and event handlers.
 

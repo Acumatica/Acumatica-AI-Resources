@@ -1,4 +1,4 @@
-# Processing AR Invoices {#_f5eea8b8-c260-4f1f-8603-d65e9bf25e9d .concept}
+# Processing AR Invoices
 
 In this chapter, you will find general information on how to process AR invoices, a checklist for system implementation, an activity that describes how to create and release an AR invoice, an activity that describes how to create an AR invoice, apply a payment to it and release the invoice and its application, and report and inquiries that can be useful to find and view created transactions.
 

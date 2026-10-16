@@ -1,12 +1,12 @@
-# Lien Waivers: To Process an AP Document with Lien Waivers {#_81816f40-baf1-42a8-89e1-4ba162254861 .task}
+# Lien Waivers: To Process an AP Document with Lien Waivers
 
 This activity will walk you through the process of working with lien waivers.
 
-## Story { .section}
+## Story
 
 Suppose that the ToadGreen company needs to pay a bill to a subcontractor, the Architectural Design Company. Acting as a project manager, you need to enter a subcontract, create and pay the bill in the system, and make sure that the related lien waiver has been generated and sent to the subcontractor.
 
-## Configuration Overview {#section_exc_ffw_gpb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -14,11 +14,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Non-Stock Items](IN_20_20_00.md#) \(IN202000\) form, the *CONCRMX* non-stock item has been created.
 -   On the [Projects](PM_30_10_00.md) \(PM301000\) form, the *HOTEL* project has been created with multiple project tasks, including *02 - SITEWORK*.
 
-## Process Overview {#section_qjw_hdr_v4b .section}
+## Process Overview
 
 You will enter a subcontract on the [Subcontracts](SC_30_10_00.md) \(SC301000\) form. Then you will create an accounts payable bill for this subcontract on the [Bills and Adjustments](AP_30_10_00.md#) \(AP301000\) form. You will pay the bill by preparing and releasing a payment on the [Checks and Payments](AP_30_20_00.md#) \(AP302000\) form. Finally, you will print the generated lien waiver on the [Print/Email Lien Waivers](CL_50_20_00.md) \(CL502000\) form, and mark the lien waiver as received on the [Compliance Management](CL_40_10_00.md#) \(CL401000\) form.
 
-## System Preparation {#section_it1_zzm_3nb .section}
+## System Preparation
 
 Before you start working with lien waivers, do the following:
 
@@ -26,7 +26,7 @@ Before you start working with lien waivers, do the following:
 2.  Launch the Acumatica ERP website, and sign in as a construction project manager by using the *ewatson* username and the *123* password.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *2/15/2026*. If a different date is displayed, click the Business Date menu button, and select *2/15/2026* on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step: Working with Lien Waivers { .section}
+## Step: Working with Lien Waivers
 
 You process a subcontract and review the generated lien waiver by doing the following:
 
@@ -58,7 +58,6 @@ You process a subcontract and review the generated lien waiver by doing the foll
 
 8.  On the form toolbar, click **Remove Hold**, and then click **Save**. The system automatically generates a lien waiver and adds a line on the **Compliance** tab, as shown below.
 
-    ![](Images/activity_Construction_Lien_Waiver.png "The lien waiver generated for the payment")
 
     **Tip:** The same lien waiver record also appears on the **Compliance** tab of the [Projects](PM_30_10_00.md#) \(PM301000\), [Vendors](AP_30_30_00.md#) \(AP303000\), [Subcontracts](SC_30_10_00.md) \(SC301000\), and [Bills and Adjustments](AP_30_10_00.md#) \(AP301000\) forms for the involved records. The record also appears on the [Compliance Management](CL_40_10_00.md#) \(CL401000\) form.
 

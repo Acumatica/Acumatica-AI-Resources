@@ -1,12 +1,12 @@
-# Production with Backflushing: General Information {#_4e5d9c24-fdd3-49fa-b8f9-2629b73525c9 .concept}
+# Production with Backflushing: General Information
 
 Backflushing is a method for issuing materials or applying labor costs to production orders when workers record the items produced at a specific operation. Acumatica ERP Manufacturing Edition gives you the ability to backflush material and labor costs during item production, as described in the following sections.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to process production orders with operations for which material and labor costs will be backflushed.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You process production orders with operations for which material and labor costs are backflushed in the following cases:
 
@@ -16,7 +16,7 @@ You process production orders with operations for which material and labor costs
 -   Workers record production at milestone operations but would like to also record materials being consumed at operations that are not milestones.
 -   Workers perform operations for multiple production orders simultaneously or in a continuous run. These operations might include cleaning, painting, or plating. In this case, it would be difficult to post labor costs to individual orders. A similar situation occurs in production areas—such as filling, testing, packing, or assembly—where multiple operators work on any item that appears at their work station, and these operators do not record their time against specific production orders.
 
-## Backflushing in Production { .section}
+## Backflushing in Production
 
 Backflushing is commonly referred to as *postproduction issuing*. This approach differs from *preproduction issuing*, for which materials are pulled from stores and issued to production orders prior to the start of an operation, and labor is directly reported for each operation.
 
@@ -33,7 +33,7 @@ Backflushing is not appropriate if any of the following conditions are met:
 5.  Material substitutions are common and allowed during the production process.
 6.  Labor transactions for each employee need to be reconciled with time and attendance for payroll purposes, or a shop data collection system is used.
 
-## The Production Process with Material and Labor Backflushing { .section}
+## The Production Process with Material and Labor Backflushing
 
 Suppose that a production order has the operations defined in the Operations table of the [Production Order Details](AM_20_90_00.md) \(AM209000\) form with the settings shown in the following table.
 
@@ -45,7 +45,6 @@ Suppose that a production order has the operations defined in the Operations tab
 
 In the following diagram, you can view the actions and generated documents for this production order.
 
-![](Images/diag_MFG_Backflushing_2024R1.png)
 
 The employees involved do the following to process the production order and the related transactions:
 
@@ -84,13 +83,13 @@ The employees involved do the following to process the production order and the 
     On the [Close Production Orders](AM_50_60_00.md) \(AM506000\) form, the production cost accountant closes the production order.
 
 
-## Material Transaction for Backflushed Materials { .section}
+## Material Transaction for Backflushed Materials
 
 When the system creates the material transaction for backflushed materials on the [Materials](AM_30_00_00.md) \(AM300000\) form, the system issues each material from the warehouse or warehouse location specified in the material row of the production order. If the warehouse or location is not specified, the system issues the items from the default issue location specified for each stock item that represents the material. For more information, see [Production Processing: Selection of Warehouse Locations](MFG_PM_BinLocations.md).
 
 If the on-hand quantity of any material in stock is less than the recorded quantity of the produced item, the system will not release the material transaction and will display an error message. If you want the system to be able to release transactions that will cause a negative quantity in stock, you should select the **Allow Negative Quantity** check box on the [Item Classes](IN_20_10_00.md) \(IN201000\) form for the item class selected on the [Stock Items](IN_20_25_00.md) \(IN202500\) form for the stock item that represents the material.
 
-## Material and Labor Cost Adjustments { .section}
+## Material and Labor Cost Adjustments
 
 The purpose of the material and labor cost adjustments is to reconcile the costs charged to the production order accordingly.
 

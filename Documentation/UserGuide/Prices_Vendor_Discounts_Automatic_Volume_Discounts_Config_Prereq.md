@@ -1,8 +1,8 @@
-# Volume Vendor Discounts: Configuration Prerequisites {#_d0b0419e-e782-4ccb-acb2-9c645e0591bb .concept}
+# Volume Vendor Discounts: Configuration Prerequisites
 
 This section explains how to prepare the system so that volume vendor discounts could be configured and applied to documents.
 
-## Enabling Features { .section}
+## Enabling Features
 
 In order to be able to apply volume vendor discounts to documents, the following features must be enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form:
 
@@ -10,7 +10,7 @@ In order to be able to apply volume vendor discounts to documents, the following
 -   *Vendor Discounts*, which provides the ability to maintain discounts offered by vendors
 -   *Inventory* \(optional\), which provides the functionality of maintaining stock items
 
-## Other Configuration Settings { .section}
+## Other Configuration Settings
 
 Make sure that the following settings are configured in the system:
 

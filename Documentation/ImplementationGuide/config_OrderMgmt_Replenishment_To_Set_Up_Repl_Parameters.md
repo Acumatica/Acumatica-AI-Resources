@@ -1,14 +1,14 @@
-# Configuration of Replenishment: To Calculate and Apply Replenishment Parameters {#_faa9f6eb-fb76-421c-9466-bbf837789422 .task}
+# Configuration of Replenishment: To Calculate and Apply Replenishment Parameters
 
 In the following implementation activity, you will set up automatic calculation of replenishment parameters for the reordering of a stock item in a particular warehouse based on historical sales data.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Matt Parker, a purchasing manager of the SweetLife Fruits &amp; Jams company, and you want the system to calculate replenishment parameters for reordering oranges based on the historical sales of the three previous weeks. Also, winter is high season for oranges, and SweetLife sells more oranges in the winter than it does in other seasons. You need to configure the system to calculate a demand forecast based on historical sales data and seasonality settings.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -20,7 +20,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\) form, the *ORANGES* stock item has been created.
 -   Also, the dataset includes sales orders on the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form and purchase orders on the [Purchase Orders](../UserGuide/PO_30_10_00.md) \(PO301000\) form for the previous three weeks.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -29,7 +29,7 @@ In this activity, you will do the following:
 3.  On the [Calculate Replenishment Parameters](../UserGuide/IN_50_85_00.md) \(IN508500\) form, calculate the replenishment parameters for the *ORANGES* stock item in the *WHOLESALE* warehouse.
 4.  On the [Apply Replenishment Parameters](../UserGuide/IN_50_95_00.md) \(IN509500\) form, apply the calculated parameters to the *ORANGES* stock item in the *WHOLESALE* warehouse.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start setting up the calculation of replenishment parameters, you should do the following:
 
@@ -37,7 +37,7 @@ Before you start setting up the calculation of replenishment parameters, you sho
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button, and select *1/30/2026* on the calendar.
 3.  On the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, make sure the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Creating the Replenishment Seasonality { .section}
+## Step 1: Creating the Replenishment Seasonality
 
 To create a seasonality for SweetLife's high-purchase season for citrus fruits, do the following:
 
@@ -57,7 +57,7 @@ To create a seasonality for SweetLife's high-purchase season for citrus fruits, 
 
 5.  On the form toolbar, click **Save**.
 
-## Step 2: Specifying Replenishment Settings for a Stock Item { .section}
+## Step 2: Specifying Replenishment Settings for a Stock Item
 
 To specify the settings that will be used to calculate replenishment parameters for oranges based on the moving average model of demand forecasting, do the following:
 
@@ -72,7 +72,7 @@ To specify the settings that will be used to calculate replenishment parameters 
 
 With these settings, during the calculation of the replenishment parameters for oranges, the system will analyze the three previous weeks of historical purchase and sales data.
 
-## Step 3: Calculating the Replenishment Parameters { .section}
+## Step 3: Calculating the Replenishment Parameters
 
 To calculate replenishment parameters for oranges in the *WHOLESALE* warehouse, do the following:
 
@@ -86,7 +86,7 @@ To calculate replenishment parameters for oranges in the *WHOLESALE* warehouse, 
 4.  On the form toolbar, click **Process**. The **Processing** dialog box opens, showing the progress and then the results. The system has calculated the replenishment parameters for oranges in the *WHOLESALE* warehouse based on the historical sales data of the three previous weeks.
 5.  Close the **Processing** dialog box. Notice that the row with the *ORANGES* stock item is no longer displayed in the table.
 
-## Step 4: Applying Replenishment Parameters to the Stock Item { .section}
+## Step 4: Applying Replenishment Parameters to the Stock Item
 
 To apply the calculated replenishment parameters to the *ORANGES* stock item in the *WHOLESALE* warehouse and adjust these parameters, do the following:
 

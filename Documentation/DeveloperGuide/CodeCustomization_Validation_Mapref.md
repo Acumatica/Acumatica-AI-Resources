@@ -1,4 +1,4 @@
-# Validating Customization Projects {#_fc1f68ba-b4d6-4207-bf20-3a18fa99120a .concept}
+# Validating Customization Projects
 
 A customization project must meet various technical requirements to integrate with and operate within the Acumatica ERP application. Also, the Acumatica ERP code is continuously updated to add or enhance functionality—so a customization project’s code can become inconsistent with the code of an upgraded instance of Acumatica ERP. To make sure your customization project stays compatible, you can validate customization projects.
 

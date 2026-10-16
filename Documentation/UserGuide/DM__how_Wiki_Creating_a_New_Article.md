@@ -1,11 +1,11 @@
-# To Add an Article {#_dcfdd521-a054-47f2-a9a6-026099301efd .task}
+# To Add an Article
 
 You can add a new article in one of the following ways:
 
 -   By using the wiki toolbar button.
 -   By using the **Create a New Article** link.
 
-## To Add an Article by Using the Wiki Toolbar Button {#_f2862694-ec3f-47f9-8538-61c998721d27 .section}
+## To Add an Article by Using the Wiki Toolbar Button
 
 To create an article in any folder or to create a wiki folder, do the following:
 
@@ -20,7 +20,7 @@ To create an article in any folder or to create a wiki folder, do the following:
 6.  Optional: On the **Properties** tab, fill in the **Summary** and **Keywords** boxes. This step helps users find information when they perform quick searches \(for which the system searches article properties and not full text\).
 7.  On the Wiki Editor form toolbar, click **Save**.
 
-## To Add an Article by Using the Create a New Article Link { .section}
+## To Add an Article by Using the Create a New Article Link
 
 To create a new article by using the link in the navigation pane, do the following:
 

@@ -1,10 +1,10 @@
-# Batch Picking: General Information {#_e706e2eb-9141-42a1-8cf4-a3b437835ff1 .concept}
+# Batch Picking: General Information
 
 If the *Advanced Picking* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can optimize and speed up the warehouse operations needed for fulfilling the order by using the batch picking workflow.
 
 In this topic, you will read about the batch picking workflow in Acumatica ERP. The workflow in this topic is based on the assumption that your system has the recommended configuration described in [Batch Picking: Implementation Checklist](WMS_Batch_Picking_Implem_Checklist.md).
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -15,15 +15,14 @@ In this chapter, you will do the following:
 -   Pick and pack items in a batch
 -   Confirm a shipment after packing the items
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 You use batch picking if you need to optimize the processes of picking and packing items for a group of orders to be shipped. With a batch picking flow, the warehouse manager prepares a batch picking worksheet with a batch of orders to be shipped, prints the related pick lists, and gives the pick lists to the pickers who will perform this work. In batch picking, each pick list generally includes items from multiple sales orders. The pickers collect the items listed in the pick lists from the specified warehouse locations and bring these items to the sorting location. A pack line operator prints packing slips for the shipments ready for packing and give these packing slips to a packer. The packer sorts the picked items by shipments and packs them into boxes.
 
-## General Process of Batch Picking { .section}
+## General Process of Batch Picking
 
 The workflow of fulfilling orders with batch picking is shown in the following diagram.
 
-![](Images/diag_WMS_Batch_General_Flow.png)
 
 Processing a batch includes the following processes performed by the following persons:
 
@@ -34,11 +33,10 @@ Processing a batch includes the following processes performed by the following p
 
 The following sections describe the workflow for a warehouse manager, a picker, a pack line operator, and a packer. By understanding the workflow for each of these employees, you can better understand the batch picking workflow as a whole in a warehouse.
 
-## Workflow for a Warehouse Manager { .section}
+## Workflow for a Warehouse Manager
 
 The workflow of a warehouse manager involves the actions shown in the following diagram.
 
-![](Images/diag_WMS_Batch_Warehouse_Manager.png)
 
 To prepare a batch picking worksheet, the warehouse manager performs the following steps:
 
@@ -59,7 +57,7 @@ To prepare a batch picking worksheet, the warehouse manager performs the followi
     On the form toolbar, the manager clicks **Process** to create the picking worksheet for the selected shipments and to print the pick lists for the batch. Then the manager gives these pick lists to the pickers \(that is, the warehouse workers who will perform the picking\).
 
 
-## Cancellation of a Picking Worksheet { .section}
+## Cancellation of a Picking Worksheet
 
 If a batch picking worksheet has the *Picking* status on the [Picking Worksheets](SO_30_25_00.md) \(SO302500\) form and none of its shipments have been completely picked yet, the warehouse manager can click **Cancel Worksheet** on the More menu to cancel this worksheet.
 
@@ -71,11 +69,10 @@ After cancellation, the shipments from the canceled worksheet are no longer asso
 
 The process of physically distributing already-picked goods back to their storage locations is not covered by the picking workflow; this should be done manually according to the pick lists of the canceled worksheet.
 
-## Workflow for a Picker { .section}
+## Workflow for a Picker
 
 The workflow for a picker involves the actions shown in the following diagram.
 
-![](Images/diag_WMS_Batch_Picker.png)
 
 To pick the items for a batch pick list, the picker performs the following steps:
 
@@ -125,7 +122,7 @@ To pick the items for a batch pick list, the picker performs the following steps
     After the picker finishes the batch picking and brings the items to the sorting location, the picker gives the batch pick list to a pack line operator.
 
 
-## Workflow for a Pack Line Operator { .section}
+## Workflow for a Pack Line Operator
 
 To start the packing of the batch, the pack line operator performs the following steps:
 
@@ -140,11 +137,10 @@ To start the packing of the batch, the pack line operator performs the following
     After the pack line operator prints the packing slips, this employee gives them to a packer working at the sorting location.
 
 
-## Workflow for a Packer { .section}
+## Workflow for a Packer
 
 The workflow of a packer involves the actions shown in the following diagram.
 
-![](Images/diag_WMS_Batch_Packer.png)
 
 To pack the items for shipping, the packer performs the following steps:
 

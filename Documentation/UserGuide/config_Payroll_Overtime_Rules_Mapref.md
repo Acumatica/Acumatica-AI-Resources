@@ -1,4 +1,4 @@
-# Configuring Overtime Rules {#_f51f1c32-a393-4071-8f87-d35032d35caf .concept}
+# Configuring Overtime Rules
 
 This chapter describes how you configure overtime rules used by the payroll functionality.
 

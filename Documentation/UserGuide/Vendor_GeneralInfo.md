@@ -1,22 +1,22 @@
-# Vendors: General Information {#_34b5a8f9-85fa-4a79-b68a-ae02e611b76f .concept}
+# Vendors: General Information
 
 Acumatica ERP provides you with different tools that ease the process of entering vendor data and help you to organize this data in reports. You use the [Vendors](AP_30_30_00.md) \(AP303000\) form to create vendors in Acumatica ERP.
 
-## Learning Objectives {#section_rmg_njv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
 -   Create a new vendor based on the default vendor class
 -   Review the default settings that the system has inserted from the vendor class
 
-## Applicable Scenarios {#section_umg_njv_vxb .section}
+## Applicable Scenarios
 
 You add vendor accounts in the following cases:
 
 -   When you initially configure Acumatica ERP and enter the vendor base into the system
 -   When you need to create an account for a new vendor of the company
 
-## Entities Needed for Vendor Account Setup {#section_wmg_njv_vxb .section}
+## Entities Needed for Vendor Account Setup
 
 Before you start setting up vendor accounts in Acumatica ERP, you need to configure the entities that will ease the processes of vendor account creation and maintenance.
 

@@ -1,8 +1,8 @@
-# To Use Parameters in Traditional BQL {#_d54a07cc-67d0-4ccb-8cf2-5be7210fb8ec .task}
+# To Use Parameters in Traditional BQL
 
 You may need to use BQL parameters if you need to relate data views to each other, to pass field values to the SQL query, to pass the external presentations of the values to the SQL query, or to pass values from UI controls to the SQL query. For more information on the BQL parameters, see [Parameters in Traditional BQL Statements](AD__con_Parameters.md#).
 
-## To Relate Data Views to One Another {#_def33638-9099-460b-b2d8-b93f75871625 .section}
+## To Relate Data Views to One Another
 
 To relate data views to one another, use the Current parameter, as shown in the following sample code.
 
@@ -30,7 +30,7 @@ WHERE DocTransaction.DocNbr = @P0
 
 Acumatica Framework explicitly enumerates the columns of the database table in the SQL query. For details on which columns are enumerated, see [Translation of a BQL Command to SQL](../Shared/../StudioDeveloperGuide/AD__con_BQL_Translation_to_SQL.md#).
 
-## To Pass a Field Value to the SQL Query {#_6e19063a-c756-4b7d-88a0-7d0100a187d9 .section}
+## To Pass a Field Value to the SQL Query
 
 To pass a specific value to the SQL query, use the Required parameter in the BQL statement and specify the needed value as the Select\(\) method argument. The value passed to Select\(\) must be of the same type as the type of the specified field.
 
@@ -61,7 +61,7 @@ WHERE Category.CategoryCD = @P0
 
 Acumatica Framework explicitly enumerates the columns of the database table in the SQL query. For details on which columns are enumerated, see [Translation of a BQL Command to SQL](../Shared/../StudioDeveloperGuide/AD__con_BQL_Translation_to_SQL.md#).
 
-## To Pass Multiple Field Values to the SQL Query {#_cc3c4e58-b049-4351-b3c6-ebd9e62a350d .section}
+## To Pass Multiple Field Values to the SQL Query
 
 To pass multiple values to the SQL query, use multiple Required parameters in the BQL statement and specify the needed values as the Select\(\) method arguments in the order in which the parameters are specified in the BQL statement. The number of Required parameters must match the number of parameters passed to the Select\(\) function.
 
@@ -94,7 +94,7 @@ WHERE Document.DocNbr = @P0
 
 Acumatica Framework explicitly enumerates the columns of the database table in the SQL query. For details on which columns are enumerated, see [Translation of a BQL Command to SQL](../Shared/../StudioDeveloperGuide/AD__con_BQL_Translation_to_SQL.md#).
 
-## To Provide External Presentation of the Field Value to the SQL Query {#_4473b629-e9a7-4f41-9041-c0442303d2be .section}
+## To Provide External Presentation of the Field Value to the SQL Query
 
 To substitute the value in the SQL query, do the following:
 
@@ -162,7 +162,7 @@ To substitute the value in the SQL query, do the following:
     Acumatica Framework explicitly enumerates the columns of the database table in the SQL query. For details on which columns are enumerated, see [Translation of a BQL Command to SQL](../Shared/../StudioDeveloperGuide/AD__con_BQL_Translation_to_SQL.md#).
 
 
-## To Pass a Value from a UI Control to a Data View {#_1f3bef64-92a7-469f-9fd2-89f0910565fe .section}
+## To Pass a Value from a UI Control to a Data View
 
 To pass a value from a UI control to a data view, do the following:
 

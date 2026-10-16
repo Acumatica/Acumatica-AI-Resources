@@ -1,4 +1,4 @@
-# Managing Tenants Locally {#_97ab7646-3f49-4990-a886-a6a2342c1076 .concept}
+# Managing Tenants Locally
 
 By using the Tenant Setup page of the Acumatica ERP Configuration wizard, you can do the following:
 
@@ -6,7 +6,7 @@ By using the Tenant Setup page of the Acumatica ERP Configuration wizard, you ca
 -   Hide or display an existing tenant. For more details, please see [To Hide or Display an Existing Tenant](SM__how_Hide_Display_Tenant.md).
 -   Delete an existing tenant. For details, see [To Delete an Existing Tenant by Using Acumatica ERP Configuration wizard](Managing_Companies_Deleting.md).
 
-## The System Tenant and Tenant Hierarchy { .section}
+## The System Tenant and Tenant Hierarchy
 
 When you deploy an Acumatica ERP application instance, the hidden System tenant is always created automatically. The System tenant has an **ID** of *1* in the **Parent Tenant ID** column on the Tenant Setup page of the Acumatica ERP Configuration wizard.
 
@@ -20,7 +20,7 @@ When you create a new tenant, its parent tenant must be selected; the System ten
 
 You cannot delete the System tenant.
 
-## A Custom Parent Tenant { .section}
+## A Custom Parent Tenant
 
 An application update or upgrade replaces all the data available in the System tenant, while the data created by users in user-created tenants remains unchanged. If you would like to replace preconfigured data, such as roles and numbering sequences, similarly for multiple new tenants, you can create a *custom parent tenant*: a parent tenant that will be used instead of the System tenant for your new tenants.
 
@@ -30,7 +30,7 @@ You can create a custom parent tenant that is a child of another parent tenant. 
 
 **Tip:** You can create new tenants based on the custom parent tenant only by using the Acumatica ERP Configuration wizard. If you create new tenants on the [Tenants](../Shared/../UserGuide/SM_20_35_20.md) \(SM203520\) form, the System tenant is assigned as its parent automatically. Due to technical limitations, you can have a maximum of 127 tenants on an Acumatica ERP instance. This includes all types of tenants, irrespective of their statuses.
 
-## Restriction of Access to Tenants { .section}
+## Restriction of Access to Tenants
 
 In a multitenant Acumatica ERP instance, the tenant selection box appears on the Sign-In page by default, allowing users to select the tenant to sign in from the list of all available tenants.
 
@@ -44,7 +44,7 @@ If you want to restrict the list of tenants a user can see to only those the use
     **Attention:** If you are using multiple tenants and SSO authentication and the **Secure Tenant on the Sign-In Page** check box is selected, ensure that all users can sign in to the first tenant listed on the [Tenant List](../Shared/../UserGuide/SM_20_35_30.md) \(SM203530\) form. If a user cannot sign in to the first listed tenant, they will not be able to select a different tenant to sign in to.
 
 
-## Tenant Snapshot with Custom Parent Tenant { .section}
+## Tenant Snapshot with Custom Parent Tenant
 
 If you create a snapshot of a tenant based on a custom parent that is not the System tenant, this snapshot will not contain the parent's data; when the snapshot is restored in another database with no custom parent tenant, the custom parent's data will be replaced by the original system data. To fully restore such a tenant from its snapshot in another database, perform the following steps:
 
@@ -53,7 +53,7 @@ If you create a snapshot of a tenant based on a custom parent that is not the Sy
 3.  Create the second new tenant, and select the first tenant as the parent tenant for the second tenant.
 4.  Restore the tenant snapshot with all the required data in this new tenant.
 
-## Restoration of a Snapshot {#section_hhq_ypq_w1c .section}
+## Restoration of a Snapshot
 
 Through the web interface, you can import snapshots only if their size does not exceed 1 GB, whether in binary or XML format. By using the Tenant Setup page of the Acumatica ERP Configuration wizard, you can restore snapshots larger than 1 GB, but only in XML format.
 

@@ -1,8 +1,8 @@
-# Progress Billing: Automated Revenue Percentage Calculation {#_943ec190-1948-42dd-9ca8-5aed573ac842 .concept}
+# Progress Billing: Automated Revenue Percentage Calculation
 
 Acumatica ERP automatically calculates the recommended completion percentages for revenue budget lines by using predefined rules. You can select the rule the system uses for these calculations: actual costs versus the revised budgeted amount, actual costs versus the projected costs at completion or actual quantity versus the revised budgeted quantity. You can also create your own rules to match your business workflows.
 
-## Grouping Logic of a Revenue Percentage Calculation Rule { .section}
+## Grouping Logic of a Revenue Percentage Calculation Rule
 
 In the **Group by Task** box on the [Revenue Percentage Calculation Rules](PM_20_65_00.md) \(PM206500\) form, you select the type of task to be used for grouping cost budget lines. With *Revenue Task* \(the default option\) selected, the system does the following for each revenue task:
 
@@ -18,7 +18,7 @@ If you instead select *Project Task* in this box, the system does the following 
 
 On the [Revenue Percentage Calculation Rules](PM_20_65_00.md) \(PM206500\) form.
 
-## Assigning the Rules { .section}
+## Assigning the Rules
 
 After you've chosen a revenue percentage calculation rule for a project that uses progress billing, you assign it to the project. That is, you select it in the **Revenue Percentage Calculation Rule** box on the **Summary** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form.
 
@@ -26,7 +26,7 @@ For each task of the *Revenue* or *Cost and Revenue* type added to the project, 
 
 You can specify the default revenue percentage calculation rule for a project task, common task, project template, or project template task. The rule assigned to a project task affects the calculation of the recommended revenue completion percentage for it, and if you change this rule, the system uses the new rule to recalculate the recommended percentage.
 
-## Creating a Revenue Percentage Calculation Rule { .section}
+## Creating a Revenue Percentage Calculation Rule
 
 You may want to create other rules on the [Revenue Percentage Calculation Rules](PM_20_65_00.md) \(PM206500\) form to support your company's business processes. Here's what you do:
 

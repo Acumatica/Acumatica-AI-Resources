@@ -1,4 +1,4 @@
-# Supported DAC Extension Formats {#_bbdc9242-e39a-49bc-bda3-558e27bd21d0 .concept}
+# Supported DAC Extension Formats
 
 You can keep a DAC customization in a customization project in any of the following ways:
 
@@ -19,7 +19,6 @@ By using the [Customization Project Editor](../UserGuide/SM_20_45_10.md), you ca
 
 If you have a customized data access class that is added to the project as a *DAC* item, then you can click **Convert to Extension** on the page toolbar of the Customized Data Classes page to convert the class changes into the class extension code used to complete the extension development in either the Code Editor or Microsoft Visual Studio \(see the diagram below\).
 
-![](images/CG_Platform_Features_DACFormats.png "Converting the code format of a DAC extension in a customization project")
 
 For a *Code* item included in a customization project, if you want to move the code to an extension library to compile it into a `.dll` file, you can click the **Move to Ext. Library** button on the page toolbar of the [Code Editor](../UserGuide/AU_20_40_00_CodeEditor.md). After the operation is complete, the *Code* item that is currently displayed in the work area of the Code Editor is removed from the customization project. The file with the same source code is appended to the extension library that is bound to the customization project. If the *Code* item name was CodeItemName, the name of the created file will be `CodeItemName.cs`.
 

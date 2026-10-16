@@ -1,4 +1,4 @@
-# Route Executions with Service Delivery {#_98987283-14cb-4fd3-8c6b-9b77c12fb404 .concept}
+# Route Executions with Service Delivery
 
 To process the routes that are executed by your company, you have to create route execution documents in the system for each specific day when route services are provided.
 
@@ -14,6 +14,4 @@ In this chapter, you will learn how to create and process a route execution docu
 
 -   **[Route Executions with Service Delivery: To Generate Invoices for Route Appointments](../UserGuide/RouteMgmt_Generating_Invoices_for_Route_Appointments_Process_Activity.md)**  
 
-
-**Parent topic:**[Route Management](../UserGuide/FS_00_00_03.md)
 

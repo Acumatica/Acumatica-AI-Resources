@@ -1,4 +1,4 @@
-# Saving of Changes to the Database {#_91f58a54-6929-4a5f-aeba-7f79d16f62db .concept}
+# Saving of Changes to the Database
 
 A graph provides transactional saving of changes from all cache objects to the database. The graph commits the data to the database when you invoke the Actions.PressSave\(\) method of the graph or when the user clicks **Save** in the UI. In both cases, the Persist\(\) method of the graph is invoked. The Actions.PressSave\(\) method also verifies that the Save action exists in the graph and is enabled. The Save action then invokes the Persist\(\) method.
 
@@ -19,9 +19,7 @@ In each iteration, the framework raises the RowPersisting event for a data recor
 
 When the SQL commands have been executed successfully for all modified \(inserted, updated, or deleted\) data records, the graph commits the transaction. Regardless of the result of the transaction, the graph raises the RowPersisted event, in which you can check the status of the transaction. A successful transaction has the Completed status. If an error or exception has occurred during the transaction, the transaction returns the Aborted status. If the transaction fails, the modified data remains in cache objects. On the RowPersisted event for an aborted transaction, you can revert changed records to the default values.
 
-![](Images/SavingChangestoDB.png "The overall process of saving changes from cache objects to the database")
 
-![](Images/SavingCachestoDB.png "The process of saving changes from a group of cache objects to the database")
 
 When the RowPersisting event is raised, you can cancel the saving of a particular row to the database by setting the e.Cancel property to `true` in the graph handler for the event. For the sequence of events raised for each modified row within the Persist\(\) method of the graph, see [Sequence of Events: Saving of Changes to the Database](BL__con_Events_Persist.md).
 

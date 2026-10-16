@@ -1,10 +1,10 @@
-# Approving Records {#_f4bf1749-cc54-4e4a-8acb-6997ac42cc6c .concept}
+# Approving Records
 
 Every organization has its own established processes of record review and approval. For records of specific types, more than one approval may be required. By enabling the *Approval Workflow* feature on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form and setting up approval maps in Acumatica ERP, your organization can reduce the time required for record assignment and routing because the system provides automatic assignment for all the required approvals.
 
 Also, Acumatica ERP streamlines the approval workflow by providing a single form, [Approvals](EP_50_30_10.md) \(EP503010\), that you can use as a starting point for all records that require approval. For details, see [Approval Configuration: Approval Maps](../ImplementationGuide/config_Approvals_Create_Approval_Maps.md).
 
-## Visibility Options { .section}
+## Visibility Options
 
 By using the [Approvals](EP_50_30_10.md) \(EP503010\) form, you can perform approvals of records of multiple types, including cash transactions, purchase orders, requisition requests, requisitions, expense claims, time cards, and equipment time cards.
 
@@ -16,7 +16,7 @@ By using the filter tabs on the form, you can view records grouped in any of the
 
 **Tip:** With some types of records, such as expense claims or employee time cards, although you are allowed to approve records assigned to other users of your workgroup, you may not be able to view the details of these records on the corresponding entry forms because of the specifics of the record visibility settings effective on these forms.
 
-## Approval or Rejection of Records { .section}
+## Approval or Rejection of Records
 
 As an approver, you can either reject or approve a particular record. You can approve or reject all the records listed on the [Approvals](EP_50_30_10.md) \(EP503010\) form or only the records you select. To approve particular records, you need to select the unlabeled check box for each record and then click **Approve**.
 

@@ -1,4 +1,4 @@
-# AP Bills: Generated Transactions {#_6cc123c9-d1a7-4b6b-8f03-1c16e1e301d5 .concept}
+# AP Bills: Generated Transactions
 
 When you release an AP bill, the system generates a batch of transactions to record the liability to the general ledger. The AP bill includes all the information the system needs to generate the batch.
 

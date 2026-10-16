@@ -1,20 +1,20 @@
-# Tax Calculation Methods: To Apply Taxes {#_721b73e5-93fc-4a4a-a802-64e82be20b39 .task}
+# Tax Calculation Methods: To Apply Taxes
 
 The following activity will walk you through the process of applying the created taxes to a document.
 
-## Story {#section_z3h_fjv_vxb .section}
+## Story
 
 Suppose that you want to analyze how the taxes are calculated depending on the selected rule. You want to use the *CANDYY* customer to create a document for it and apply the taxes with different calculation methods to this document. \(You do not need to save and release the document.\)
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the *CANDYY* customer account has been configured on the [Customers](AR_30_30_00.md) \(AR303000\) form.
 
-## Process Overview {#section_cjh_fjv_vxb .section}
+## Process Overview
 
 In this activity, on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will create an invoice with two lines and with the taxes of the *TRAINING* tax zone applied. You will remove and add the needed taxes on the **Taxes** tab, analyzing how the system calculated the taxes applied to the document.
 
-## System Preparation {#section_ejh_fjv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -23,7 +23,7 @@ Before you begin performing the steps of this activity, do the following:
 3.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu button to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 4.  As a prerequisite activity, configure the tax zone, tax category, and taxes as described in [Tax Calculation Methods: To Create Taxes](Taxes_Selecting_Tax_Calc_Methods_Activity1.md).
 
-## Step 1: Creating an Invoice and Applying the *INCLINELEVEL* Tax {#section_gjh_fjv_vxb .section}
+## Step 1: Creating an Invoice and Applying the *INCLINELEVEL* Tax
 
 To create an invoice and apply a tax with the *Inclusive Line-Level* calculation method to it, proceed as follows:
 
@@ -64,7 +64,7 @@ To create an invoice and apply a tax with the *Inclusive Line-Level* calculation
     |Document| |109.63 + 147.4 = **257.03**|5.48 + 7.37 = **12.85**|**269.88**|
 
 
-## Step 2: Applying the *EXDOCLEVEL* Tax to the Invoice {#section_kjh_fjv_vxb .section}
+## Step 2: Applying the *EXDOCLEVEL* Tax to the Invoice
 
 To apply a tax with the *Exclusive Document-Level* calculation method to the invoice, proceed as follows:
 
@@ -85,7 +85,7 @@ To apply a tax with the *Exclusive Document-Level* calculation method to the inv
     |**Document Amount**=Taxable Amount+Tax Amount| |115.11 + 154.77 = **269.88**|269.88 \* 0.05 = 13.494 ≈ **13.49**|269.88 + 13.49 = **283.37**|
 
 
-## Step 3: Applying the *EXLINELEVEL* Tax to the Invoice {#section_ojh_fjv_vxb .section}
+## Step 3: Applying the *EXLINELEVEL* Tax to the Invoice
 
 To apply a tax with the *Exclusive Line-Level* calculation method to the invoice, proceed as follows:
 

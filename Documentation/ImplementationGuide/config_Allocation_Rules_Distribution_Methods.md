@@ -1,17 +1,17 @@
-# Allocation Rules: Distribution Methods {#_0fe6e69f-2b96-49de-8e8d-8a40693311b4 .concept}
+# Allocation Rules: Distribution Methods
 
 To define how an allocation amount should be distributed among the destination accounts, you should select a distribution method when you create an allocation rule on the [Allocations](../UserGuide/GL_20_45_00.md) \(GL204500\) form. Depending on the distribution method, the allocation ratio can be fixed for destination accounts or can be calculated dynamically by period-to-date \(PTD\) or year-to-date \(YTD\) balances of the base or destination accounts.
 
 In this topic, you will read about distribution methods based on fixed and dynamic ratios.
 
-## Methods Based on a Fixed Distribution Ratio { .section}
+## Methods Based on a Fixed Distribution Ratio
 
 To distribute amounts by a fixed ratio, you select the distribution method in the **Distribution Method** box on the **Allocation** tab of the [Allocations](../UserGuide/GL_20_45_00.md) \(GL204500\) form as follows:
 
 -   To distribute the source amount by percentages, you select *By Percent*. You then specify the percent that is distributed to each account–subaccount pair in the **Weight/Percent** column of the **Destination Accounts** tab. The percents that you specify must add up to 100 percent.
 -   To distribute the source amount by user-defined coefficients, you select *By Weight*. You then have to specify the ratio that is distributed to each account–subaccount pair in the **Weight/Percent** column of the **Destination Accounts** tab. You can use any numbers to define a ratio.
 
-## Methods Based on a Dynamic Distribution Ratio {#_cf12551a-7a35-4569-b988-7ec69d60acd4 .section}
+## Methods Based on a Dynamic Distribution Ratio
 
 To distribute amounts by a dynamic ratio, you select the distribution method in the **Distribution Method** box on the **Allocation** tab of the [Allocations](../UserGuide/GL_20_45_00.md) \(GL204500\) form as follows:
 

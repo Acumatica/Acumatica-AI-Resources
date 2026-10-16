@@ -1,4 +1,4 @@
-# Action Customization: Changing of the Display Name of an Action {#_c1cbe9cb-cfca-4720-a16a-38e003055690 .concept}
+# Action Customization: Changing of the Display Name of an Action
 
 To change the display name of an action, you should change the DisplayName parameter of the PXUIField attribute for the action. This changes the name shown for the corresponding button, command, or both.
 
@@ -7,7 +7,7 @@ You can change the attributes of an action in one of the following ways:
 -   [Dynamically at run time, in the Initialize\(\) method of the graph extension](#_7ff62fb1-a453-4a27-925a-641eb6776463)
 -   [Statically, by overriding the action attributes in the graph extension](#_7651431c-dc11-4cd9-8ba2-98c8c3c29147)
 
-## To Change the Display Name of an Action Dynamically at Run Time {#_7ff62fb1-a453-4a27-925a-641eb6776463 .section}
+## To Change the Display Name of an Action Dynamically at Run Time
 
 To change the display name of an action dynamically at run time, you do the following:
 
@@ -28,7 +28,7 @@ To change the display name of an action dynamically at run time, you do the foll
 
 3.  In the added code, replace `MyAction` with the action name and specify the needed button name.
 
-## To Change the Display Name of an Action Statically {#_7651431c-dc11-4cd9-8ba2-98c8c3c29147 .section}
+## To Change the Display Name of an Action Statically
 
 To override action attributes in a graph extension statically, you should declare both the graph member of the PXAction type and the delegate. You should attach a new set of attributes to the action delegate, declared within the graph extension. Also, you need to invoke the Press\(\) method on the base graph action. Because this approach involves re-declaring the member of PXAction, you prevent the action delegate execution from infinite loops.
 

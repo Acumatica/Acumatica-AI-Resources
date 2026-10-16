@@ -1,8 +1,8 @@
-# To Print Shipment Confirmations for Multiple Shipments {#_c9a95f78-dc09-4e69-b317-a00a2e58f593 .task}
+# To Print Shipment Confirmations for Multiple Shipments
 
 Shipment confirmations can be printed on a per-shipment basis from the [Shipments](SO_30_20_00.md) \(SO302000\) form. Alternatively, you can print multiple shipment confirmations for multiple shipments by using the [Process Shipments](SO_50_30_00.md) \(SO503000\) form.
 
-## To Print Shipment Confirmations for Multiple Shipments { .section}
+## To Print Shipment Confirmations for Multiple Shipments
 
 1.  Open the [Process Shipments](../Shared/../UserGuide/SO_50_30_00.md) \(SO503000\) form.
 2.  In the **Action** box, select *Print Shipment Confirmation*.
@@ -11,7 +11,7 @@ Shipment confirmations can be printed on a per-shipment basis from the [Shipment
 5.  Review the printed shipment confirmations, which appear on the [Shipment Confirmation](../Shared/../UserGuide/SO_64_20_00.md) \(SO642000\) report.
 6.  On the report toolbar, click **Print** to print the shipment confirmations.
 
-## Notes About the Procedure { .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

@@ -1,4 +1,4 @@
-# Transaction Reclassification: Mass-Processing {#_a98cd060-d508-4223-9af9-049b088f8da5 .concept}
+# Transaction Reclassification: Mass-Processing
 
 This topic explains how to perform mass-processing operations related to transaction reclassification, and how the system generates, changes, or works with documents as a result of the mass processing.
 

@@ -1,4 +1,4 @@
-# Processing Drop-Ship Vendor Returns {#_b15949e3-86d3-4e1d-b903-82a2a504b8fd .concept}
+# Processing Drop-Ship Vendor Returns
 
 This chapter describes how you can process a return of drop-shipped items directly from a customer to a vendor, without receiving the items into your inventory.
 

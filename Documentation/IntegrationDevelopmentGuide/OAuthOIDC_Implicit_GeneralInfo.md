@@ -1,18 +1,18 @@
-# Implicit Flow: General Information {#_76861c67-265c-46f4-949d-c8d4509c99ec .concept}
+# Implicit Flow: General Information
 
 When you implement OAuth 2.0 or OpenID Connect \(OIDC\) in a client application to make the application work with Acumatica ERP, you can use the Implicit flow, which is a simplified variant of the Authorization Code flow.
 
 With the Implicit flow, the client application never gets the credentials of the applicable Acumatica ERP user. When the user is authenticated in Acumatica ERP, the client application does not receive an authorization code \(as with the Authorization Code flow\); instead, the client application directly receives an access token, and then uses the access token to work with data in Acumatica ERP. The access token is valid for a limited period of time and cannot be renewed.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to implement a client application that uses the Implicit flow.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You implement the Implicit flow in a client application when you want to securely obtain an access token without exposing the user's credentials to the client application. This flow can be used for clients using a scripting language \(such as JavaScript\) or for mobile clients.
 
-## Implicit Flow { .section}
+## Implicit Flow
 
 For the support of the Implicit flow, you implement the following general steps in the application:
 
@@ -49,11 +49,10 @@ For details on the OAuth 2.0 authorization mechanism, see the specification at [
 
 **Tip:** The configuration of the OpenID Connect protocol that is used by an Acumatica ERP website can be displayed by a request to the following URL: *\[&lt;Acumatica ERP instance URL&gt;\]/identity/.well-known/openid-configuration*. \(In this request, *\[&lt;Acumatica ERP instance URL&gt;\]* stands for the URL of the Acumatica ERP website.\)
 
-## Implicit Flow Diagram { .section}
+## Implicit Flow Diagram
 
 The following diagram illustrates the Implicit flow.
 
-![](Images/diag_ImplicitFlow.png "Implicit flow")
 
 **Parent topic:**[Implementing the Implicit Flow](../IntegrationDevelopmentGuide/OAuthOIDC_Implicit_Mapref.md)
 

@@ -1,4 +1,4 @@
-# Basic Customer Relationship Management {#_491f1b90-adf8-4080-89b0-6c6f44fd2969 .concept}
+# Basic Customer Relationship Management
 
 In this chapter, you will find information about configuring the basic customer relationship management \(CRM\) functionality in Acumatica ERP.
 

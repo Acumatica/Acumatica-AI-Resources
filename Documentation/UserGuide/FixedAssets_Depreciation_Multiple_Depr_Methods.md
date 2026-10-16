@@ -1,10 +1,10 @@
-# Asset Depreciation: Multiple Depreciation Methods for One Asset {#_5c8f9449-fcd3-4bea-b344-ed2c7ce7d9ed .concept}
+# Asset Depreciation: Multiple Depreciation Methods for One Asset
 
 Sometimes your company decides to adopt a new depreciation approach starting next year or next quarter. You can schedule the change so that the system continues from that point forward—without adjusting the depreciation amounts that have already been posted.
 
 You can plan depreciation method changes for fixed assets by period. Thus, when you switch methods for future periods on the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form, previously posted depreciation is left as-is; past periods aren’t recalculated just because you’ve changed the method going forward. You maintain a list of the applicable depreciation methods for each fixed asset book, and each method has its own **Start Period**.
 
-## Supported Depreciation Methods { .section}
+## Supported Depreciation Methods
 
 The table below lists the depreciation methods for which multiple methods are supported, along with their averaging conventions.
 
@@ -20,7 +20,7 @@ The table below lists the depreciation methods for which multiple methods are su
 |*Remaining Value by Days in Period*|*Full Day*|
 |*Remaining Value*|*Full Period*|
 
-## Setting Up Multiple Depreciation Methods { .section}
+## Setting Up Multiple Depreciation Methods
 
 To set up multiple depreciation methods for a specific fixed asset book, do the following:
 
@@ -41,7 +41,7 @@ To set up multiple depreciation methods for a specific fixed asset book, do the 
 3.  Repeat Instruction 2 as needed for each of the asset’s books that will use multiple-method scheduling.
 4.  Save your changes.
 
-## Restrictions of Multiple Methods { .section}
+## Restrictions of Multiple Methods
 
 For an asset on the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form, you can't select the **Multiple Methods** check box on the **Balance** tab if:
 
@@ -53,7 +53,7 @@ For an asset on the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form, you can't 
     **Tip:** If the asset is fully depreciated in one book but not in another and still has the *Active* status, you can edit the list of applicable methods in all the asset’s books, including the one where the asset is fully depreciated.
 
 
-## Managing the Applicable Methods List { .section}
+## Managing the Applicable Methods List
 
 In the **Applicable Methods** table on the **Balance** tab of the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form:
 
@@ -61,23 +61,23 @@ In the **Applicable Methods** table on the **Balance** tab of the [Fixed Assets]
 -   If the table contains more than one method, the **Multiple Methods** check box becomes selected and unavailable. Thus, to return to a single method, you must first delete all rows except the first one.
 -   If you reduce the asset’s useful life so that the depreciation’s end period would fall earlier than the last method's start period, the system will block the change and tell you to adjust the method list first.
 
-## Assets Under Construction { .section}
+## Assets Under Construction
 
 If an asset class has the **Under Construction** check box selected on the [Fixed Asset Classes](FA_20_10_00.md) \(FA201000\) form, you can't select the **Multiple Methods** check box for any asset of this class. Before adding multiple methods, you must move the asset to a class with the check box cleared.
 
-## Decreasing an Asset’s Useful Life { .section}
+## Decreasing an Asset’s Useful Life
 
 On the **Balance** tab of the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form, you can change the useful life of an asset. This causes the recalculation of the asset’s latest depreciation period \(**Depr. To Period**\). If multiple methods are configured and the new **Depr. To Period** is earlier than the last method’s start period, the system will display an error.
 
 You have to first modify the list of methods in the **Applicable Methods** table and then decrease the useful life of the asset.
 
-## Adjustment of Applicable Methods in Past and Future Periods { .section}
+## Adjustment of Applicable Methods in Past and Future Periods
 
 In the **Applicable Methods** table of the **Balance** tab of the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form, you can modify the list of methods—even for past periods where an asset was depreciated. If you modify the list of methods for any past periods when the asset was depreciated, the system generates a catch-up amount when the asset is depreciated again.
 
 If the changes in the table are related to future periods where the asset hasn't been depreciated, the system won't generate any catch-up amount.
 
-## Deletion of Applicable Methods { .section}
+## Deletion of Applicable Methods
 
 In the **Applicable Methods** table of the **Balance** tab of the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form, you can delete any row except for the first one with the earliest start period. Thus, when the **Multiple Methods** check box is selected, at least one row must be added to the **Applicable Methods** table.
 

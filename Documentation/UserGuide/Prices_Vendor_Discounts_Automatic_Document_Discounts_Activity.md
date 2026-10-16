@@ -1,8 +1,8 @@
-# Automatic Document Vendor Discounts: Implementation Activity {#_de946a5e-1c76-43cd-b199-5bb083c8a20a .task}
+# Automatic Document Vendor Discounts: Implementation Activity
 
 In this activity, you will learn how to configure an automatic document discount, and you will explore how it is applied to a AP bill.
 
-## Story { .section}
+## Story
 
 Suppose that starting in January 2026, Blueline Advertising provides its most valued customers, including SweetLife, an unconditional discount of 3% that is applied to any order.
 
@@ -10,7 +10,7 @@ On January 30, 2026 SweetLife purchased the installation of 10 billboards from B
 
 Acting as the SweetLife's accountant, you need to define the 3% discount. You then need to create a bill for Blueline for the purchased billboard installation services.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -18,13 +18,13 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *BILLBINSTA* non-stock item has been created.
 -   On the [Vendors](AP_30_30_00.md) \(AR303000\) form, the *BLUELINE* vendor has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 You configure a discount code on the [Vendor Discount Codes](AP_20_40_00.md) \(AP204000\) form and then configure a discount sequence on the [Vendor Discounts](AP_20_50_00.md) \(AP205000\) form.
 
 On the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you create an AP bill to which the discount may be applied. You then review the **Discount Details** tab of the form and review how the discount is applied.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start the activity, do the following:
 
@@ -32,7 +32,7 @@ Before you start the activity, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026*. For simplicity, in this lesson, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Create an Unconditional Document Discount by Percent { .section}
+## Step 1: Create an Unconditional Document Discount by Percent
 
 To configure an unconditional document discount by percent, do the following:
 
@@ -71,7 +71,7 @@ To configure an unconditional document discount by percent, do the following:
 9.  On the form toolbar, click **Update Discounts**.
 10. In the **Update Discounts** dialog box, which opens, leave the default value \(*1/30/2026*\) in the **Filter Date** box, and click **OK**.
 
-## Step 2: Create the AP Bill and Explore Discount Application { .section}
+## Step 2: Create the AP Bill and Explore Discount Application
 
 To create the bill for Blueline Advertising and explore how the automatic document discount is applied, do the following:
 
@@ -97,7 +97,7 @@ To create the bill for Blueline Advertising and explore how the automatic docume
     The *20000 - Accounts Payable* account is credited in the amount of $1,552 and the *61000 - Advertising Expense* account is debited in the amount of the bill \($1,600\). Notice that the discount applied to the entire document is credited to the *49000 - Discount Taken* account in the amount of $48.
 
 
-## Step 3: Make the Created Discounts Inactive { .section}
+## Step 3: Make the Created Discounts Inactive
 
 To make the discounts you created in this activity inactive so that they will not affect other documents later, do the following:
 

@@ -1,10 +1,10 @@
-# To Enter an Inventory Issue of the Invoice Type {#_67600bfa-17cf-4d6b-880e-755f63db9d81 .task}
+# To Enter an Inventory Issue of the Invoice Type
 
 You create an issue of the *Invoice* type by using the [Issues](IN_30_20_00.md) \(IN302000\) form, as described in this topic. When the issue of this type is released, the system creates the credit transaction to the inventory account and the debit transaction to the COGS account.
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## To Enter an Issue of the Invoice Type { .section}
+## To Enter an Issue of the Invoice Type
 
 1.  Open the [Issues](../Shared/../UserGuide/IN_30_20_00.md) \(IN302000\) form.
 2.  On the form toolbar, click **Add New Record**.

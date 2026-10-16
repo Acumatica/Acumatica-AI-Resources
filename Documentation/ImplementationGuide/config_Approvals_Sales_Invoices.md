@@ -1,10 +1,10 @@
-# Specific Approvals: Sales Invoices {#_aa10af12-0fe9-44ee-87fc-b4b2e215d6b9 .concept}
+# Specific Approvals: Sales Invoices
 
 Many businesses use sales orders as the approval point for sales documents. Some businesses may need to review and approve other sales documents. For example, a company may need to approve sales invoices entered directly at the point of sale on the [Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\) form. Other companies may consolidate lines from multiple sales orders into a single invoice and configure approval of the amount for all lines or specific items in this document.
 
 In Acumatica ERP, you can configure the approval functionality for sales invoices created on the [Invoices](../UserGuide/SO_30_30_00.md) form. You can also configure the approval of other types of documents that are created on this form, such as credit memos, debit memos, cash sales, or cash returns.
 
-## Configuration of Approval { .section}
+## Configuration of Approval
 
 To implement approvals for documents of any type that are created on the [Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\) form, you perform the following general steps:
 
@@ -34,7 +34,7 @@ To implement approvals for documents of any type that are created on the [Invoic
 
 Once you have set up the approval functionality, documents on the [Invoices](../UserGuide/SO_30_30_00.md) form that meet the conditions for approval cannot be released until they have been approved by the assigned approvers.
 
-## The Approval Workflow { .section}
+## The Approval Workflow
 
 If approvals have been activated for a type of a document on the **Approval** tab of the [Sales Orders Preferences](../UserGuide/SO_10_10_00.md) \(SO101000\) form, the system assigns the *On Hold* status to all new documents of this type on the [Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\) form. It assigns the status to these documents regardless of the following:
 

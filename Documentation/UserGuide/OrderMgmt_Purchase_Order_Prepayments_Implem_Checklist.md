@@ -1,8 +1,8 @@
-# Prepayments for Purchase Orders: Implementation Checklist {#_fbbcb945-a5c9-4357-a2d9-037f5097058f .concept}
+# Prepayments for Purchase Orders: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for the processing of prepayments for purchases of stock items, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you initially process prepayments for purchase orders, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -11,7 +11,7 @@ We recommend that before you initially process prepayments for purchase orders, 
 |[Purchase Orders Preferences](PO_10_10_00.md) \(PO101000\) form|Make sure that all necessary settings related to purchase order management have been specified as described in [Configuration of Order Management: Implementation Activity](../ImplementationGuide/config_InvMgmt_Basic_Implem_Activity.md).|
 |[Vendors](AP_30_30_00.md) \(AP303000\) form|Make sure that all needed vendors have been configured as described in [Vendors: General Information](Vendor_GeneralInfo.md).|
 
-## Vendor Settings Checklist { .section}
+## Vendor Settings Checklist
 
 Make sure that all needed vendors have been configured as described in [Vendors: General Information](Vendor_GeneralInfo.md). For a vendor, on the [Vendors](AP_30_30_00.md) \(AP303000\) form, you can specify the following settings, which affects the processing of prepayments.
 
@@ -22,7 +22,7 @@ Make sure that all needed vendors have been configured as described in [Vendors:
 
 To learn how to configure the settings, you can complete [Prepayments for Purchase Orders: Implementation Activity](OrderMgmt_Purchase_Order_Prepayments_Implem_Activity.md).
 
-## Other Settings That Affect the Workflow { .section}
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of processing purchases with prepayments by specifying additional settings as follows:
 
@@ -33,7 +33,7 @@ You can affect the workflow of processing purchases with prepayments by specifyi
 -   To cause the system to automatically release inventory receipts generated on release of purchase receipts, select the **Release IN Documents Automatically** check box on the [Purchase Orders Preferences](PO_10_10_00.md) form.
 -   To cause the system to automatically post general ledger batches generated during processing purchase documents, select the **Automatically Post on Release** check box on the [General Ledger Preferences](GL_10_20_00.md) \(GL102000\) form. For information on processing general ledger batches, see [GL Transactions: General Information](Finance_Processing_Batch_GeneralInfo.md).
 
-## Validation of Configuration { .section}
+## Validation of Configuration
 
 To make sure that all settings are configured correctly, you can process a prepayment for a purchase order, as described in [Prepayments for Purchase Orders: To Process a Prepayment](OrderMgmt_Purchase_Order_Prepayments_Process_Activity.md).
 

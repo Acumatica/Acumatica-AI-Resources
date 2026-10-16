@@ -1,8 +1,8 @@
-# Useful Tips {#_5bc1f3a3-a149-4c00-ade4-c6c3ff4b1f48 .concept}
+# Useful Tips
 
 Here are some tips and tools that you can use to simplify your development process.
 
-## Organize team development { .section}
+## Organize team development
 
 If several developers are working on the customization project, it is important to organize a continuous team development. Here are several essential points for it:
 
@@ -13,7 +13,7 @@ If several developers are working on the customization project, it is important 
 -   Developers may work on different features in separate branches and merge their work to the main branch only when the changes are completed and tested.
 -   You can do parts of continuous integration manually on your local machine and automatically on the build server from centralized repository.
 
-## Use Acuminator { .section}
+## Use Acuminator
 
 You can simplify customization development in Visual Studio by using Acuminator - a static code analysis and colorizer tool. Acuminator provides diagnostics and code fixes for common developer challenges related to Acumatica Framework. Also, Acuminator can colorize and format BQL statements, and can collapse attributes and parts of BQL queries.
 

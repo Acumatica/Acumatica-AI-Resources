@@ -1,8 +1,8 @@
-# Labor Items: Rules of Billing {#_f439c47f-fe49-4c5b-bc62-d2473f752df4 .concept}
+# Labor Items: Rules of Billing
 
 If the *Time Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can bill projects for employee time spent working on these projects. The system uses data from labor items for each invoice that the system generates when a time activity or case has been billed. The following sections explain in which order the system selects the labor items for activity billing and case billing.
 
-## Time Activity Billing { .section}
+## Time Activity Billing
 
 When time activities, which are created on the [Employee Time Activities](EP_30_70_00.md) \(EP307000\) form, are being billed, the system determines the labor item to be used in the invoice and inserts it automatically in each applicable line of the invoice on the **Document Details** tab of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. The system uses the first labor item that it finds in a search of the following places in the system \(listed in the order in which the system searches the location for a labor item value\):
 
@@ -10,7 +10,7 @@ When time activities, which are created on the [Employee Time Activities](EP_30_
 2.  The **Labor Item Overrides** tab of the [Employees](EP_20_30_00.md) \(EP203000\) form for the employee who is the owner of the activity being billed. In the table on this tab, a specific labor item can be specified for each earning type.
 3.  The **General Info** tab of the [Employees](EP_20_30_00.md) \(EP203000\) form for the employee who is the owner of the activity being billed: On this tab, a labor item can be specified that is to be used for the employee regardless of the earning type of the particular activity.
 
-## Case Billing { .section}
+## Case Billing
 
 During the billing of a case that has been created on the [Cases](CR_30_60_00.md) \(CR306000\) form, the system determines the labor item to be used in the invoice and inserts it automatically in the invoice line. For the cases whose case class has the *Per Case* billing mode specified, the system always uses the labor item and overtime labor item specified on the **Details** tab of the [Case Classes](CR_20_60_00.md) \(CR206000\) form.
 

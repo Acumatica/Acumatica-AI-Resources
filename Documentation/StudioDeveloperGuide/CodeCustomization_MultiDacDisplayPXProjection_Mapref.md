@@ -1,4 +1,4 @@
-# Displaying Data from Multiple DACs by Using PXProjection {#_84ad6299-7a72-4ac5-930a-444c9e24ac07 .concept}
+# Displaying Data from Multiple DACs by Using PXProjection
 
 In the Acumatica Framework, you can derive data from multiple DACs and display it on a single form or tab by using the PXProjection attribute. In this chapter, you will learn how to add a new tab to a form, as well as how to display data that is derived from different DACs on this tab.
 

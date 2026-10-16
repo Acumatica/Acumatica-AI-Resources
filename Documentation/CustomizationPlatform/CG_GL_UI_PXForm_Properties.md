@@ -1,4 +1,4 @@
-# To Set a Container Property {#_fb3feacd-463f-4ec5-8d3c-f1f443b2a10b .concept}
+# To Set a Container Property
 
 To include in a customization project changes to the properties of a container, you have to modify the properties by using the [Screen Editor](../UserGuide/AU_20_45_20.md). To start setting the properties of a container, perform the following actions:
 

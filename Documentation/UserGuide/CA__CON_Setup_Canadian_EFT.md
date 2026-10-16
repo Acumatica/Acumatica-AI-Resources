@@ -1,4 +1,4 @@
-# Setup of Canadian EFT {#_f78fc488-3326-4211-aa4e-57c566c1986f .concept}
+# Setup of Canadian EFT
 
 In Acumatica ERP, you can export batch payments to a CPA-005 file by using a Canadian EFT plug-in. CPA-005 is an electronic funds transfer \(EFT\) file format accepted by the major Canadian banks.
 
@@ -13,7 +13,7 @@ The EFT file generated for the Royal Bank of Canada includes the *RBC Header* re
 
 This functionality is available if the *Canadian Localization* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Setup of Batch Payment Processing by Using the Canadian EFT Plug-In { .section}
+## Setup of Batch Payment Processing by Using the Canadian EFT Plug-In
 
 To start paying your vendors by using the Canadian EFT plug-in, you should perform the following general steps:
 
@@ -22,7 +22,7 @@ To start paying your vendors by using the Canadian EFT plug-in, you should perfo
 3.  You set up the payment method to be used for EFT payments. For details, see [To Add a Payment Method for the Canadian EFT Plug-In](CA__HOW_Add_PM_for_Canadian_EFT_Plug-In.md).
 4.  On the [Vendors](AP_30_30_00.md) \(AP303000\) form, you specify the payment method intended for EFT payments as the default payment method for each vendor that will accept EFT payments. By using the EFT-related information that you collected from each vendor in Step 2, you fill in the settings of the payment method on the **Payment** tab. For details, see [To Add a Payment Method for the Canadian EFT Plug-In](CA__HOW_Add_PM_for_Canadian_EFT_Plug-In.md).
 
-## Export of Batches via the Canadian EFT Plug-In { .section}
+## Export of Batches via the Canadian EFT Plug-In
 
 When a user exports a batch of payments on the [Batch Payments](AP_30_50_00.md) \(AP305000\) form, the system uses the Canadian EFT plug-in if on the **Settings For Use in AP** tab of the [Payment Methods](CA_20_40_00.md)\(CA204000\) form, the *Canadian EFT Plug-in* option is selected in the **Export Method** box.
 
@@ -60,7 +60,7 @@ The system applies the following general rules to each EFT field if another mapp
 
 For details on how to prepare payments and export them to a file, see [Processing Canadian EFT Payments](AP__con_Canadian_EFT_Payment_Support.md).
 
-## Setup of Email Notifications { .section}
+## Setup of Email Notifications
 
 You can set up email notifications that will be sent to vendors after EFT files are generated. To set up email notifications in the system, you perform the following general instructions:
 
@@ -73,7 +73,7 @@ You can set up email notifications that will be sent to vendors after EFT files 
 
 On the [Batch Payments](AP_30_50_00.md) \(AP305000\) form, you initialize sending of email notifications by clicking **Send Notifications by Email** on the More menu.
 
-## Limitations { .section}
+## Limitations
 
 The following limitations are applied to the Canadian EFT plug-in:
 

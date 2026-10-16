@@ -1,4 +1,4 @@
-# Modern Customer Portal for Users {#_e7d35db3-a18a-4184-8ef7-79f8d611823c .concept}
+# Modern Customer Portal for Users
 
 The Modern Customer Portal gives your company a dedicated, user-friendly site to interact with the portal owner—for example, placing orders and submitting support cases.
 

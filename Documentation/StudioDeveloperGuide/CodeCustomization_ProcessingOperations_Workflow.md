@@ -1,8 +1,8 @@
-# Processing Operations: Specifying a Workflow Action {#_8a42da6a-2365-4e77-9b62-e84de29cfa3a .concept}
+# Processing Operations: Specifying a Workflow Action
 
 If a workflow is implemented for the records that you are going to process on a processing form, you need to specify a workflow action to define a processing operation for the form.
 
-## Specifying the Workflow Action { .section}
+## Specifying the Workflow Action
 
 To specify a workflow action for processing, you invoke one of the SetProcessWorkflowAction methods of the data view that has a type derived from [PXProcessingBase&lt;Table&gt;](https://help.acumatica.com/(W(2))/Help?ScreenId=ShowWiki&pageid=f74d0a85-e082-d824-66c1-8a229df51e96).
 
@@ -12,7 +12,7 @@ You can specify the workflow action to be used for processing in the RowSelected
 
 In the SetProcessWorkflowAction method, you specify the processing action, as shown in the following example. You can also pass the values that are specified in the filter on the processing form to the method.
 
-```language-csharp
+```csharp
 protected virtual void _(Events.RowSelected<RSSVWorkOrder> e)
 {
     WorkOrders.SetProcessWorkflowAction<RSSVWorkOrderEntry>(
@@ -20,7 +20,7 @@ protected virtual void _(Events.RowSelected<RSSVWorkOrder> e)
 }
 ```
 
-## Action Definition in the Workflow { .section}
+## Action Definition in the Workflow
 
 You modify the action definition in the workflow so that the action can be used on the processing form as follows:
 
@@ -29,7 +29,7 @@ You modify the action definition in the workflow so that the action can be used 
 
 See an example below.
 
-```language-csharp
+```csharp
 actions.Add(graph => graph.Assign, action => action
     .WithCategory(processingCategory)
     .MassProcessingScreen<RSSVAssignProcess>()

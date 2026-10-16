@@ -1,10 +1,10 @@
-# Product Availability: General Information {#_a3f20c5a-eb92-4947-9ea0-0dc9b6415da2 .concept}
+# Product Availability: General Information
 
 Acumatica ERP provides you with the ability to track the available quantities of stock items that you sell on Amazon and fulfill from your own warehouses. You have the flexibility to configure which quantities of a stock item should be included in calculations of the quantity available for sale on Amazon.
 
 **Attention:** Export of availability information is supported only for products that are marked as seller-fulfilled in the Amazon seller account.
 
-## Learning Objectives {#_2d17801d-5397-4a97-9fb3-f815abbe79e5 .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,11 +12,11 @@ In this chapter, you will learn how to do the following:
 -   Define how the system should calculate available item quantity that will be exported to the Amazon seller account
 -   Export the available item quantity to the Amazon seller account
 
-## Applicable Scenarios {#_babea2db-3c58-435a-9052-c0a9372bc31b .section}
+## Applicable Scenarios
 
 You might want to synchronize product availability information to track available quantities of items that you sell on Amazon and ship from your own warehouses.
 
-## Setting Up the Export of Product Availability Information { .section}
+## Setting Up the Export of Product Availability Information
 
 To export information about product availability to the Amazon seller account, you need to perform the following general steps:
 
@@ -45,7 +45,7 @@ To export information about product availability to the Amazon seller account, y
         **Important:** The functionality of multiple warehouses and multiple warehouse locations is available if the *Multiple Warehouses* and *Multiple Warehouse Locations* features are enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
 
-## Linking Seller-Fulfilled Products { .section}
+## Linking Seller-Fulfilled Products
 
 Before the information about stock levels can be exported to Amazon, a link must be established between stock items in Acumatica ERP and the items that are marked as seller-fulfilled in the Amazon seller account. This link is established during the synchronization of the *Product \(Linking Only\)* entity.
 
@@ -63,7 +63,7 @@ During the synchronization, for each seller-fulfilled product in the Amazon sell
 
 If a match is found, the system creates a synchronization record on the [Sync History](BC_30_10_00.md) \(BC301000\) form with the *Processed* status. If no match is found, the sync record is created with the *Failed* status, and the **Last Message** column displays a corresponding error message.
 
-## Exporting Product Availability Information { .section}
+## Exporting Product Availability Information
 
 The information about the stock levels is updated in the Amazon seller account during the synchronization of the *Product Availability* entity. The synchronization affects only the stock and template items for which the link has been successfully created during the synchronization of the *Product \(Linking Only\)* entity. The available item quantity to export is calculated based on the settings specified on the **Inventory** tab of the [Amazon Stores](BC_20_10_20.md) \(BC201020\) form. The quantity is exported in the item's sales UOM.
 

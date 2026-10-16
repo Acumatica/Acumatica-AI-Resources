@@ -1,4 +1,4 @@
-# Processing Payments with Write-Offs {#_4e8c4239-b0af-43e1-96c6-afb162c477f9 .concept}
+# Processing Payments with Write-Offs
 
 The topics of this chapter describe how to create a customer payment document, apply it to multiple invoices, and create a credit write-off while you are processing the payment. You will also learn how to create a balance write-off when creating a payment and applying it to an invoice.
 

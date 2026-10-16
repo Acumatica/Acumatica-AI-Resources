@@ -1,8 +1,7 @@
-# Sequence of Events: Deletion of a Data Record {#_0d160007-252e-44f8-a9cd-25b40b786dc1 .concept}
+# Sequence of Events: Deletion of a Data Record
 
 The figure below illustrates the sequence of events raised during the deletion of a data record.
 
-![](Images/Ref_Events_Delete.png "Deletion of a data record")
 
 A data record is deleted when a user deletes the record on the user interface, the deletion request is sent through the Web Service API, or the `Delete()` method of a data view is invoked in code. As a result of the deletion, the data record gets the Deleted status if it already exists in the database, or the InsertedDeleted status if the record has just been inserted into the PXCache object and deletion from the database is not required. The data record is later available through the Deleted and Dirty collections of the PXCache object.
 

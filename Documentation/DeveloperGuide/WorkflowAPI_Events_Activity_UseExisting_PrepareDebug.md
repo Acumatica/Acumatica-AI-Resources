@@ -1,4 +1,4 @@
-# Step 2: Preparing the Project for Debugging {#_d2480b9a-e8d8-4328-b090-1af75e63024b .task}
+# Step 2: Preparing the Project for Debugging
 
 To find the workflow event that you can use in a customization project, you can debug the Acumatica ERP source code with breakpoints and see which breakpoint is hit in which scenario. In this step, you will prepare the `PhoneRepairShop_Code` for debugging in Visual Studio.
 
@@ -15,7 +15,7 @@ To prepare the `PhoneRepairShop_Code` project for the debugging of the Acumatica
     2.  In the `<system.web>` tag of the file, locate the `<compilation>` element.
     3.  Set the debug attribute of the element to *True*, as shown in the following code.
 
-        ```language-xml
+        ```xml
         <system.web>
          <compilation debug="True" ...>
         ```
@@ -26,14 +26,12 @@ To prepare the `PhoneRepairShop_Code` project for the debugging of the Acumatica
     2.  On the main menu, select **Tools** &gt; **Options**.
     3.  In the **Debugging** &gt; **General** section, clear the **Enable Just My Code** check box, as shown in the following screenshot.
 
-        ![](../Shared/Images/WorkflowAPI_VS_EnableJustMyCode.png "The cleared Enable Just My Code check box")
 
     4.  In the **Debugging** &gt; **Symbols** section, in the **Symbols file \(.pdb\) locations** list, add the path to the location of the PDB files in your Acumatica ERP instance.
     5.  Click **OK**.
 4.  To view the source code of the `Release` action of the [Payments and Applications](../Shared/../UserGuide/AR_30_20_00.md) \(AR302000\) form, open the `PX.Objects.AR.ARPaymentEntry` graph: In the website folder in the Solution Explorer, select **App\_Data** &gt; **CodeRepository** &gt; **PX.Objects** &gt; **AR** &gt; **ARPaymentEntry.cs**, and go to the definition of the **Release** action—that is, the `IEnumerable Release(PXAdapter adapter)` method.
 5.  Add a breakpoint inside the `Release` method, as shown in the following screenshot.
 
-    ![](../Shared/Images/WorkflowAPI_Code_Release.png "The source code of the Release action")
 
 6.  Attach the Visual Studio debugger to the `w3wp.exe` running process.
 

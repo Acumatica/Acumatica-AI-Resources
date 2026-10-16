@@ -1,10 +1,10 @@
-# Contract Item Creation: To Create a Renewal Contract Item \(Regular Contract\) {#_3d56d3f8-7935-4f6b-b4b6-425a1f1c22a6 .task}
+# Contract Item Creation: To Create a Renewal Contract Item \(Regular Contract\)
 
 In this activity, you will learn how to create a contract item for a regular contract. You will later use this contract item for creating a contract template.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company supplies its Unifruit LLC customer with a piece of equipment for juice production and provides deployment service for the purchased equipment. A regular deployment fixed-price contract includes the deployment of equipment, a maintenance support service, and monthly consulting. In a fixed-price contract, payment amounts are constant and do not change depending on the costs incurred by SweetLife during the fulfillment of the contract. The start date of the contract is *3/1/2026*. The contract should span two months, with the possibility of renewal.
 
@@ -12,7 +12,7 @@ According to the terms of the contract, the customer will be billed in the amoun
 
 Acting as a sales manager, you need to create a renewal contract item to establish the prices and settings for the included services.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -20,18 +20,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *UNIFRUIT \(Unifruit LLC\)* customer has been created.
 -   On the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, the *79000* \(*Contract Expenses*\) expense account, *40600* \(*Contracts - Deployment of equipment*\), and the *40800* \(*Contracts - Trainings*\) sales accounts have been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, you will create new non-stock items and specify setup, renewal, and recurring settings. On the [Stock Items](IN_20_25_00.md) \(202500\) form, you will then create a renewal contract item that you will use in the process of template creation.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
 1.  As a prerequisite to this activity, complete the [Contract Functionality Implementation: Implementation Activity](config_ContractMgmt_Implem_Activity.md) to activate the needed features to use the contract functionality.
 2.  Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as the sales manager David Chubb by using the *chubb* username and the *123* password.
 
-## Step 1: Creating Non-Stock Items {#section_skm_dyf_dt .section}
+## Step 1: Creating Non-Stock Items
 
 To create non-stock items, do the following:
 
@@ -98,7 +98,7 @@ To create non-stock items, do the following:
         -   **Sales Account**: *40800* \(*Contracts - Trainings*\)
     6.  On the form toolbar, click **Save** to save the non-stock item.
 
-## Step 2: Creating a Contract Item {#section_l3p_2yf_dt .section}
+## Step 2: Creating a Contract Item
 
 In this step, you will create a renewal contract item to establish the prices and settings for the included services.
 
@@ -141,7 +141,6 @@ To create a contract item, do the following:
     5.  In the **Extra Usage Pricing** box, leave *Use Item Price*. No extra usage is planned for this item.
 6.  On the form toolbar, click **Save** to save the created contract item, which should look as shown in the following screenshot.
 
-    ![](Images/ContractItem.png "Settings of the contract item")
 
 
 You have created the *CI00000001 \(Deployment of juicers\)* renewal contract item, and now you can add this contract item to a contract template you will create in the next activity.

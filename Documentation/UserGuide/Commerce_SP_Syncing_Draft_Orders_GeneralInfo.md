@@ -1,8 +1,8 @@
-# Draft Order Synchronization: General Information {#_31141ba2-dcba-abcd-be95-c98e17dc8e4e .concept}
+# Draft Order Synchronization: General Information
 
 Draft orders in Shopify let you apply custom discounts, special shipping rates, and flexible invoice options—making them perfect for custom requests or complex sales scenarios. You can sync draft orders placed in the Shopify store to Acumatica ERP for further processing.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,11 +10,11 @@ In this chapter, you will learn how to do the following:
 -   Work with draft orders imported as sales quotes in Acumatica ERP
 -   Finalize a sales quote by converting it to a sales order and completing the quote in the process
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You set up the synchronization of draft orders if you want to keep your quote data accurate across platforms and track draft orders within Acumatica ERP.
 
-## Configuring the Synchronization { .section}
+## Configuring the Synchronization
 
 To set up the synchronization of Shopify draft orders as sales quotes, you update the store's settings on the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form:
 
@@ -31,7 +31,7 @@ To set up the synchronization of Shopify draft orders as sales quotes, you updat
 
     -   **Earliest Quote Order Date**: The earliest date for sales quotes to be synced. The system will import draft orders from Shopify or export sales quotes from Acumatica ERP that were created on or after this date.
 
-## Importing Sales Quotes { .section}
+## Importing Sales Quotes
 
 To import draft orders from Shopify, prepare and process the data for the *Sales Quote* entity by using the [Prepare Data](BC_50_10_00.md) \(BC501000\) and [Process Data](BC_50_15_00.md) \(BC501500\) forms. The system imports draft orders that:
 
@@ -40,7 +40,7 @@ To import draft orders from Shopify, prepare and process the data for the *Sales
 
 For each imported draft order, the system creates a sales quote on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form. It has the type specified in the **Quote Order Type for Import** box on the **Orders** tab of the [Shopify Stores](BC_20_10_10.md) form.
 
-## Exporting Sales Quotes { .section}
+## Exporting Sales Quotes
 
 To export sales quotes to Shopify, prepare and process the data for the *Sales Quote* entity by using the [Prepare Data](BC_50_10_00.md) \(BC501000\) and [Process Data](BC_50_15_00.md) \(BC501500\) forms. The system exports sales quotes that:
 
@@ -50,7 +50,7 @@ To export sales quotes to Shopify, prepare and process the data for the *Sales Q
 
 For each exported sales quote, the system creates a draft order in the Shopify store. The connector doesn't synchronize canceled or completed sales quotes. When synchronizing a quote that was already exported and then completed or canceled, the connector assigns the *Canceled* or *Completed* tag to the corresponding draft order in Shopify.
 
-## Working with Imported Sales Quotes { .section}
+## Working with Imported Sales Quotes
 
 You can edit an imported sales quote on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form and continue updating the corresponding draft order in the Shopify store. Changes made in both systems can be synchronized if bidirectional synchronization is used.
 
@@ -58,7 +58,7 @@ You can edit an imported sales quote on the [Sales Orders](SO_30_10_00.md) \(SO3
 
 To finalize a sales quote—that is, to convert it to a sales order and complete the quote in the process—you choose one of the following two workflows.
 
-## Finalizing Sales Quotes in Acumatica ERP { .section}
+## Finalizing Sales Quotes in Acumatica ERP
 
 To finalize a sales quote in Acumatica ERP, you do the following:
 
@@ -72,7 +72,7 @@ To finalize a sales quote in Acumatica ERP, you do the following:
 
 3.  Export the created sales order to the Shopify store.
 
-## Finalizing Sales Quotes in Shopify { .section}
+## Finalizing Sales Quotes in Shopify
 
 To finalize a sales quote in Shopify, you do the following:
 

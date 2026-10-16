@@ -1,8 +1,8 @@
-# Record Validation for Duplicates: Association of Leads and Contacts {#_4a010767-677e-457c-bc3d-52bb1cc0fe18 .concept}
+# Record Validation for Duplicates: Association of Leads and Contacts
 
 When you have performed duplicate validation for an individual lead or contact, or a group of leads or contacts, you can associate a lead with a duplicate contact, or a contact with a duplicate lead as described in the following sections.
 
-## Association of Leads with Contacts on the Duplicates Tab { .section}
+## Association of Leads with Contacts on the Duplicates Tab
 
 When you have performed duplicate validation for an individual lead or a group of leads, and at least one duplicate contact has been found for a lead, you can associate the lead with the contact on the **Duplicates** tab of the [Leads](CR_30_10_00.md) \(CR301000\) form. In the **Records for Association** table, you select the contact and click **Associate** on the table toolbar. You can select only one contact at a time to be associated with the lead currently being viewed on the form. The duplicate values of UI elements in the table are highlighted.
 
@@ -12,7 +12,7 @@ In the **Associate the Contact with the Lead** dialog box, which opens, you can 
 
 After the lead and the contact have been associated with each other, you can see the contact in the **Contact** box of the Summary area on the [Leads](CR_30_10_00.md) form.
 
-## Association of Contacts with Leads on the Duplicates Tab { .section}
+## Association of Contacts with Leads on the Duplicates Tab
 
 When you have performed duplicate validation for an individual contact or a group of contacts, and at least one duplicate lead has been found for a contact, you can associate the contact with the lead on the **Duplicates** tab of the [Contacts](CR_30_20_00.md) \(CR302000\) form. In the **Records for Association** table, you select the lead and click **Associate** on the table toolbar. You can select only one lead at a time to be associated with the contact currently being viewed on the form. The duplicate values of UI elements in the table are highlighted.
 

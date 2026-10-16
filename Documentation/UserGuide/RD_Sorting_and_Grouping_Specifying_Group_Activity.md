@@ -1,18 +1,18 @@
-# Data Sorting and Grouping: To Specify a Data Group in a Report {#_845deb53-2186-4539-9e74-9d0918a73f71 .task}
+# Data Sorting and Grouping: To Specify a Data Group in a Report
 
 In the following activity, you will specify a data group in a report.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist in your company who is working on customizations. A sales manager of your company has requested a report that displays data about vendors. You have offered the predefined [Vendor Summary](AP_65_50_00.md) \(AP655000\) report, but the sales manager wants the data to be grouped by vendor class. The sales manager has also asked you to display the total balance for each group. You will create the requested report by using a copy of the [Vendor Summary](AP_65_50_00.md) report.
 
-## Process Overview { .section}
+## Process Overview
 
 In the Report Designer, you will open the `AP6550C1.RPX` report, which is a copy of the [Vendor Summary](AP_65_50_00.md) \(AP655000\) report, and add a new group. You will specify a grouping condition and other properties for the new group. You will then modify the report layout and place necessary elements in the new group. Then in the Schema Builder, on the **Sorting and Grouping** tab, you will review the changes that you have made on the **Properties** tab of the Properties pane.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you perform the steps of this activity, make sure that the following tasks have been performed:
 
@@ -33,12 +33,11 @@ Also, to prepare for use the file that is intended for this activity, do the fol
     The report is saved on the server.
 
 
-## Step 1: Creating a Group in the Report { .section}
+## Step 1: Creating a Group in the Report
 
 To create the group in the *AP6550C1* report, perform the following steps:
 
 1.  In the Report Designer, make sure that the *AP6550C1* report \(which you have saved to the server\) is open.
-2.  In the top left corner of the Design pane, click the ![](Images/Defining_the_Data_Groups_for_a_Report_Using_FiltersReportSelectionIcon.PNG) icon to select the whole report as an object.
 3.  On the **Properties** tab of the Properties pane, in the **Data** &gt; **Groups** property, click the More button.
 4.  In the Group Collection Editor, which opens, in the **Members** pane on the left, click **Add**.
 
@@ -48,11 +47,10 @@ To create the group in the *AP6550C1* report, perform the following steps:
 
 On the report layout, notice that the new group is placed inside the existing `group1`.
 
-## Step 2: Specifying the Properties of the Group { .section}
+## Step 2: Specifying the Properties of the Group
 
 To specify the group properties, while you are still working with the *AP6550C1* report in the Report Designer, do the following:
 
-1.  In the top left corner of the Report Designer screen, click the ![](Images/Defining_the_Data_Groups_for_a_Report_Using_FiltersReportSelectionIcon.PNG) icon to select the whole report as an object.
 2.  On the **Properties** tab of the Properties pane, in the **Data** &gt; **Groups** property, click the More button.
 3.  In the Group Collection Editor, which opens, in the **Members** pane, select `group2`.
 4.  To the right of the **Members** pane, click the button with the arrow pointing upward to place `group2` at the top of the list.
@@ -71,7 +69,7 @@ To specify the group properties, while you are still working with the *AP6550C1*
 9.  Click **OK** to save your changes and close the GroupExp Collection Editor.
 10. Click **OK** to close the Group Collection Editor.
 
-## Step 3: Placing Elements in the New Group { .section}
+## Step 3: Placing Elements in the New Group
 
 To place elements in the new group, while you are still working with the *AP6550C1* report in the Report Designer, do the following:
 
@@ -93,13 +91,12 @@ To place elements in the new group, while you are still working with the *AP6550
     Make sure that the data of one group is displayed.
 
 
-## Step 4: Reviewing the Sorting and Grouping Settings in the Schema Builder { .section}
+## Step 4: Reviewing the Sorting and Grouping Settings in the Schema Builder
 
 While you are still working with the *AP6550C1* report in the Report Designer, in the Report Designer, click **File** &gt; **Build Schema**. In the Schema Builder, which opens, go to the **Sorting and Grouping** tab. Make sure that the settings on this tab are the same as those that you have specified in the Properties pane of the Report Designer. The settings are shown in the following screenshot.
 
-![](Images/RD_SchemaBuilder_Grouping.png "Grouping and sorting settings for the AP6550C1 report")
 
-## Step 5: Viewing the Report { .section}
+## Step 5: Viewing the Report
 
 In Acumatica ERP, open the S150 Vendor Summary \(AP6550C1\) report form by searching for its identifier.
 
@@ -107,7 +104,6 @@ In Acumatica ERP, open the S150 Vendor Summary \(AP6550C1\) report form by searc
 
 On the report form toolbar, click **Run Report**. Notice that the data in the report is grouped by vendor class and that a total balance is displayed for each class. The following screenshot shows the report.
 
-![](Images/RD_report_with_group.png "The S150 Vendor Summary (AP6550C1) report, with data grouped by vendor class")
 
 **Parent topic:**[Sorting and Grouping Data](../UserGuide/RD_Sorting_and_Grouping_Mapref.md)
 

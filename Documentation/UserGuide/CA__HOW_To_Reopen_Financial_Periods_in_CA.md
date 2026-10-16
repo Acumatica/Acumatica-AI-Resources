@@ -1,10 +1,10 @@
-# To Reopen a Financial Period in Cash Management {#_401030e2-a1d2-44f4-90da-8d3866b5a737 .task}
+# To Reopen a Financial Period in Cash Management
 
 You may need to reopen a financial period if it has been closed by mistake or if you need to post any adjustments to this period. To reopen a financial period in the cash management subledger, you use the [Close Financial Periods](CA_50_60_00.md) \(CA506000\) form.
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## To Reopen a Financial Period in Cash Management {#section_d52_kjv_vxb .section}
+## To Reopen a Financial Period in Cash Management
 
 1.  Open the [Close Financial Periods](CA_50_60_00.md) \(CA506000\) form.
 2.  In the **Company** box of the Selection area, select the company for which you want to reopen a financial period.

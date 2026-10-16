@@ -1,8 +1,8 @@
-# TX DACs: Reporting Data {#_ec04c758-7d6d-4ef3-9c20-2dfbce58aa0c .concept}
+# TX DACs: Reporting Data
 
 Reporting data is used to generate the next tax report, store the generated data, and represent the tax report itself.
 
-## Tax Reporting { .section}
+## Tax Reporting
 
 Tax reporting consists of the following processes:
 
@@ -12,7 +12,7 @@ Tax reporting consists of the following processes:
 
 A released tax report can be altered by a tax adjustment \(which is represented by a [TaxAdjustment](https://help.acumatica.com/dacBrowser/PX.Objects.TX/TaxAdjustment) record\). The report's lines are represented by TaxTran records.
 
-## Tax Report { .section}
+## Tax Report
 
 The structure of the tax report is defined by a set of report lines \(which are stored in the [TaxReportLine](https://help.acumatica.com/dacBrowser/PX.Objects.TX/TaxReportLine) DAC\). For tax report generation purposes, they are combined into reporting groups \(which are stored in the [TaxBucket](https://help.acumatica.com/dacBrowser/PX.Objects.TX/TaxBucket) DAC\).
 

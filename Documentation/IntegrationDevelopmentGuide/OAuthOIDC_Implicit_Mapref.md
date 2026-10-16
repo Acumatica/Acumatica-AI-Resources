@@ -1,4 +1,4 @@
-# Implementing the Implicit Flow {#_3141f521-3072-4345-b0aa-c734675af2ea .concept}
+# Implementing the Implicit Flow
 
 The Implicit flow is a type of OAuth 2.0 or OpenID Connect \(OIDC\) flow that is primarily used when the client application \(typically a web application running in a browser\) is incapable of keeping secrets confidential. In this flow, the access token is returned directly to the client application after authentication, without an intermediate step to exchange authorization code. In this chapter, you can find details about the implementation of the Implicit flow.
 

@@ -1,20 +1,19 @@
-# Receiving and Putting Away Operations: Purchase Return Processing {#_a244f74e-90d0-4ba2-acc0-ecf07e5f645e .concept}
+# Receiving and Putting Away Operations: Purchase Return Processing
 
 If the *Receiving* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can process the automated purchase return of stock and non-stock items to the vendor by using a barcode scanner or a mobile device with a scanning option. A purchase return is a purchase receipt of the *Return* type created on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form.
 
 In this topic, you will read about the workflow for the automated purchase returns of inventory items in Acumatica ERP. The workflow in this topic is based on the assumption that your system has the recommended configuration described in [Receiving and Putting Away Operations: Implementation Checklist](WMS_Receive_Put_Away_Implem_Checklist.md).
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 You can perform the automated processing of purchase returns of inventory items to the vendor if in your company's warehouses, all purchased items are received to a dedicated location. You issue items from this location while processing a purchase return. To track the operations as they are being performed, you scan the appropriate barcodes by using a barcode scanner or mobile device.
 
-You can perform automated returning of items for purchase returns with the *Balanced* status.
+You can perform automated returning of items for purchase returns with the *Balanced* status. Before the warehouse worker starts the return, you can print a pick list from the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form.
 
-## Workflow for the Automated Purchase Return of Items { .section}
+## Workflow for the Automated Purchase Return of Items
 
 The automated processing of a purchase return of items involves the actions shown in the following diagram.
 
-![](Images/diag_WMS_Return.png)
 
 To process the return of items in Return mode, you perform the following steps:
 
@@ -28,7 +27,7 @@ To process the return of items in Return mode, you perform the following steps:
 
 3.  *Scan the barcode of the location*.
 
-    You scan the barcode of the warehouse location from which the items are being issued.
+    You scan the barcode of the warehouse location from which the items are being picked. The location must be listed in the purchase return.
 
 4.  *Scan the item barcode*.
 
@@ -36,7 +35,7 @@ To process the return of items in Return mode, you perform the following steps:
 
 5.  Optional: *Scan the item quantity*.
 
-    To change the received quantity in the line that is currently being processed, you switch on Quantity Editing mode by scanning or entering the `*qty` barcode, and manually enter the quantity in the UOM defined by the barcode of the scanned item.
+    To change the picked quantity in the line that is currently being processed, you switch on Quantity Editing mode by scanning or entering the `*qty` barcode, and manually enter the quantity in the UOM defined by the barcode of the scanned item.
 
     **Tip:** The system updates the quantity of the item in the purchase return on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form only after you release this purchase return on the [Receive and Put Away](PO_30_20_20.md) form. If the issued quantity of the item on the [Receive and Put Away](PO_30_20_20.md) form differs from the quantity of the item on the [Purchase Receipts](PO_30_20_00.md) form, you need to verify if the purchase receipt is released on the [Receive and Put Away](PO_30_20_20.md) form.
 

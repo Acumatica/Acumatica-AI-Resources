@@ -1,10 +1,10 @@
-# To Enter an Inventory Adjustment {#_249d3ad9-7c51-477b-ab9a-ace269baa1a9 .task}
+# To Enter an Inventory Adjustment
 
 You create an inventory adjustment if you need to correct the quantity or cost of a particular stock item in inventory. You enter the adjustment by using the [Adjustments](IN_30_30_00.md) \(IN303000\) form, as described in this topic.
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## To Enter an Inventory Adjustment { .section}
+## To Enter an Inventory Adjustment
 
 1.  Open the [Adjustments](../Shared/../UserGuide/IN_30_30_00.md) \(IN303000\) form.
 

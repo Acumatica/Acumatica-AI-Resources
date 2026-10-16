@@ -1,22 +1,22 @@
-# Report Content: General Information {#_3ab85a5b-0313-484b-a923-8454a6458545 .concept}
+# Report Content: General Information
 
 The content of a report designed in the Acumatica Report Designer includes visual elements, which can contain text, data, and images. The visual elements are placed within the report sections, and their appearance and behavior are determined by both the properties of the visual elements themselves and the properties of the report section where they are placed.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following in the Report Designer:
 
 -   Add, delete, and move elements in the report layout
 -   Specify the properties of the elements added to the report layout
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to add content to reports you develop in the Acumatica Report Designer in the following circumstances:
 
 -   You are responsible for the customization of Acumatica ERP in your company, including developing and modifying reports to give users the information they need to do their jobs.
 -   You need to add content—that is, data, images, charts, and subreports—to predefined reports or to reports you create from scratch.
 
-## Types of Visual Elements in a Report Layout { .section}
+## Types of Visual Elements in a Report Layout
 
 You can add to the report layout the following visual elements:
 
@@ -27,7 +27,7 @@ You can add to the report layout the following visual elements:
 -   *Chart*: A chart is a graphical representation of data in the report. You can use different types of charts—for example, line, bar, or pie—to present information, such as sales by month and by sales manager.
 -   *SubReport*: You can use a subreport to include data from other reports in the current report. For example, you can define as a subreport the list of change orders in a project. By using subreports, you can reduce the time it takes to form a complex report that extracts data from multiple related tables.
 
-## Operations with Visual Elements in a Report { .section}
+## Operations with Visual Elements in a Report
 
 When you add content to a report, you generally perform the following steps:
 
@@ -56,7 +56,7 @@ To perform these actions with a visual element, you can do the following:
 
 For more information about the style of elements, see [Report Style: General Information](RD_Report_Style_GeneralInfo.md).
 
-## Text and Data in a Report { .section}
+## Text and Data in a Report
 
 For text and data in a report, you use the *TextBox* element. For this element, you use the **Appearance** &gt; **Value** property to specify the contents of the text box. You can specify text, a data field of the database table, or an expression. For more details about expressions, see [Variables and Expressions: General Information](RD_Using_Variables_and_Expressions_GeneralInfo.md).
 
@@ -64,7 +64,7 @@ You can add a *TextBox* element with a field name as its value in one action by 
 
 All parts of the text in a text box have the same formatting. If you need to have different formatting for different parts of the text, you should divide the text and use multiple text box elements, each of which has its own formatting.
 
-## Images in a Report {#section_dcd_ww5_vvb .section}
+## Images in a Report
 
 You use the *PictureBox* element to add an image to an Acumatica ERP report. You can do any of the following:
 
@@ -78,7 +78,7 @@ You use the *PictureBox* element to add an image to an Acumatica ERP report. You
     -   **Data** &gt; **Source**: *Database*
     -   **Data** &gt; **Value**: `=[UploadFile.Name]`
 
-## QR Codes and Barcodes {#section_ecd_ww5_vvb .section}
+## QR Codes and Barcodes
 
 The Report Designer considers QR codes and barcodes to be pictures. To add a QR to an Acumatica ERP report, you add a *PictureBox* element and specify the following properties for it:
 
@@ -111,11 +111,11 @@ Suppose that you manufactured new items and need to print labels to receive the 
 
 For more details on GS1-128 barcodes, see [GS1 Barcodes in Acumatica ERP](OrderMgmt_GS1_128_barcodes_in_Acumatica_ERP.md).
 
-## Charts in a Report { .section}
+## Charts in a Report
 
 You use the *Chart* element to define a chart in your report. For the element, you specify properties in the **Chart** and **ChartData** groups of properties.
 
-## Subreports { .section}
+## Subreports
 
 You can add any number of subreports to a single main report by using the *SubReport* element. If a *SubReport* element is placed in any report section, the entire subreport will be printed in that section, except for the page header and page footer sections.
 

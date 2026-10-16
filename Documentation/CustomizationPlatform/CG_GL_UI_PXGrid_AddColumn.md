@@ -1,4 +1,4 @@
-# To Add a Column for a Data Field {#_840d3850-9bff-4718-ba7e-721b761783ad .concept}
+# To Add a Column for a Data Field
 
 In a grid, you can create a column for a data field if the grid container is bound to a data view declared within the graph that provides business logic for the ASPX page. To bind a grid container to a data view, you must specify the properties as follows for the appropriate PXGrid object:
 
@@ -21,7 +21,7 @@ To add a column to a grid that is bound to a data view, perform the following ac
     -   You can select multiple data fields to create multiple columns simultaneously.
     -   In the **Field Name** column of the list, a data field of a joined data access class \(DAC\) has a name that consists of the DAC name, two underscore characters, and the field name, such as *Product\_\_Active*. If you create a grid column for this field, the new PXGridColumn element refers to the field as shown in the following ASPX code.
 
-        ``` {#codeblock_gjf_f1c_xgc}
+        ```
         <px:PXGridColumn DataField="Product__Active" ... />
         ```
 

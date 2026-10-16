@@ -1,8 +1,8 @@
-# Test Method:To Create a Test Method with Parameters {#_2622d6f8-f0ff-4814-ad89-ee220aabd32d .task}
+# Test Method:To Create a Test Method with Parameters
 
 The following activity will walk you through the process of creating a test method with parameters.
 
-## Story { .section}
+## Story
 
 Suppose that you want to make sure that the following behavior of the customized [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\) form has not changed:
 
@@ -11,11 +11,11 @@ Suppose that you want to make sure that the following behavior of the customized
 
 You need to create a test method that selects or clears the **Repair Item** check box and checks whether the **Repair Item Type** drop-down list is available or unavailable, respectively.
 
-## Process Overview { .section}
+## Process Overview
 
 To create the test method, you will create a `public void` method with one Boolean parameter. You will assign the method the `[Theory]` attribute and two `[InlineData]` attributes, each of which has the possible values of the method parameter \(*true* and *false*\). In the method, you will create an instance of the tested graph. In the cache of the graph, you will create a record. For this record, by using the `GetExtension` generic method, you will retrieve the extension, which contains custom fields. Depending on the method parameter, you will change the state of the check box, update the cache of the graph, and make sure that the availability of the drop-down list has been changed according to the tested logic of the graph.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin creating the test method, do the following:
 
@@ -23,28 +23,28 @@ Before you begin creating the test method, do the following:
 2.  Make sure that you have performed the [Test Project and Test Class: To Create a Test Project](UnitTest_TestProject_Activity_CreateProject.md) prerequisite activity to create and configure the `PhoneRepairShop_Code.Tests.csproj` test project.
 3.  Create the `InventoryItemMaintTests` test class. For an example that shows how to create a test class, see [Test Project and Test Class: To Create a Test Class](UnitTest_TestProject_Activity_CreateClass.md).
 
-## Step 1: Creating and Configuring a Test Method with Parameters { .section}
+## Step 1: Creating and Configuring a Test Method with Parameters
 
 To create and configure a method for testing the business logic of the `InventoryItemMaint` class, do the following:
 
 1.  In the `InventoryItemMaintTests` class, create a public void method, and name it *RepairItemTypeEnabled\_WhenRepairItemSelected*.
 2.  To specify that this unit test is called with parameters, assign the `[Theory]` attribute to the method as follows.
 
-    ```language-csharp
+    ```csharp
             [Theory]
             public void RepairItemTypeEnabled_WhenRepairItemSelected
     ```
 
 3.  Add the Boolean `enabled` parameter to the `RepairItemTypeEnabled_WhenRepairItemSelected` method as follows.
 
-    ```language-csharp
+    ```csharp
             public void RepairItemTypeEnabled_WhenRepairItemSelected
                 (bool enabled)
     ```
 
 4.  Add two `[InlineData]` attributes, which provide two values for the `enabled` parameter, as follows.
 
-    ```language-csharp
+    ```csharp
             [Theory]
             [InlineData(true)]
             [InlineData(false)]
@@ -55,19 +55,19 @@ To create and configure a method for testing the business logic of the `Inventor
     The `RepairItemTypeEnabled_WhenRepairItemSelected` method will be called twice: The first call will pass *true* as its argument, and the second will pass *false*.
 
 
-## Step 2: Implementing a Method for Testing the InventoryItemMaint Class { .section}
+## Step 2: Implementing a Method for Testing the InventoryItemMaint Class
 
 To test the business logic of the `InventoryItemMaint` class, do the following:
 
 1.  In the `RepairItemTypeEnabled_WhenRepairItemSelected` method, create an instance of the `InventoryItemMaint` graph by adding the following code.
 
-    ```language-csharp
+    ```csharp
                 var graph = PXGraph.CreateInstance<InventoryItemMaint>();
     ```
 
 2.  After the `InventoryItemMaint` graph is initialized, create an `InventoryItem` object as follows.
 
-    ```language-csharp
+    ```csharp
                 InventoryItem item =
                     (InventoryItem)graph.Caches[typeof(InventoryItem)].Insert(
                         new InventoryItem
@@ -79,13 +79,13 @@ To test the business logic of the `InventoryItemMaint` class, do the following:
 
 3.  Get the `InventoryItemExt` extension of the `InventoryItem` object as follows.
 
-    ```language-csharp
+    ```csharp
                 InventoryItemExt itemExt = item.GetExtension<InventoryItemExt>();
     ```
 
 4.  Select \(or clear\) the **Repair Item** check box by using the needed value of the `enabled` parameter, and make sure that the **Repair Item Type** drop-down list is available \(or, respectively, unavailable\) by adding the following code.
 
-    ```language-csharp
+    ```csharp
                 itemExt.UsrRepairItem = enabled;
                 graph.Caches[typeof(InventoryItem)].Update(item);
                 PXFieldState fieldState =
@@ -99,7 +99,7 @@ To test the business logic of the `InventoryItemMaint` class, do the following:
 
 As a result of the actions you have performed in this activity, the `InventoryItemMaintTests.cs` file contains the following code.
 
-```language-csharp
+```csharp
 using Xunit;
 using PX.Data;
 using PX.Tests.Unit;

@@ -1,4 +1,4 @@
-# Managing Visibility with Restriction Groups {#_d787c1c7-174d-46a4-aafe-dc676d9dfa54 .concept}
+# Managing Visibility with Restriction Groups
 
 In Acumatica ERP, you can use restriction groups in addition to role-based access rights to configure the security of information within the system. In this chapter, you will read about the ways of using restriction groups, the types of restriction groups, the operations that you can perform with the groups, and specific information about particular entities whose visibility you can control.
 

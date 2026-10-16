@@ -1,4 +1,4 @@
-# Managing Items with Lot and Serial Numbers {#_42840557-3480-47a5-90cb-dd03ec1c3060 .concept}
+# Managing Items with Lot and Serial Numbers
 
 Lot numbers and serial numbers are used to track certain types of inventory items as they are received, stored, manufactured, and shipped. Some products, such as food products and chemical compounds, are tracked by lot because they have expiration dates, while other products, such as medications, are tracked by lot because laws require manufacturers to keep accurate records about their distribution. Still other products—such as electronics, appliances, and cars—have serial numbers because they must be tracked individually from the manufacturer to the consumer because of safety and warranty issues. Regardless of the way your company or its vendors assign lot and serial numbers to particular products, Acumatica ERP provides support for these numbers and the ability to track stock items by lot or serial number, as well as by expiration date
 

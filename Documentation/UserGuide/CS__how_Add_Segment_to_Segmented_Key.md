@@ -1,8 +1,8 @@
-# To Add a Segment to an Existing Segmented Key {#_6036853d-c040-4d69-979a-f1745b8dba33 .task}
+# To Add a Segment to an Existing Segmented Key
 
 In Acumatica ERP, you have the ability to add a segment to a segmented key after identifiers have been created, as described in this topic.
 
-## To Add a Segment to an Existing Segmented Key { .section}
+## To Add a Segment to an Existing Segmented Key
 
 1.  Open the [Segmented Keys](CS_20_20_00.md) \(CS202000\) form.
 2.  In the **Segmented Key ID** box of the Summary area, select the segmented key whose structure you want to change by its ID \(for example, *SUBACCOUNT*\).
@@ -10,7 +10,7 @@ In Acumatica ERP, you have the ability to add a segment to a segmented key after
 4.  On the table toolbar, click **Add Row**.
 5.  In the new row, specify the settings for the new segment.
 
-    CAUTION:
+    **CAUTION:**
 
     Make sure the total length of all segments does not exceed the maximum length.
 

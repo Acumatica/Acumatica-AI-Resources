@@ -1,12 +1,12 @@
-# To Update the Default Payment Method for Vendors {#_0f374097-91f1-4875-897f-3c8412f6524f .task}
+# To Update the Default Payment Method for Vendors
 
 You update the default payment method and cash accounts for existing vendor locations on the [Update Vendor Payment Methods](AP_50_71_00.md) \(AP507100\) form. Optionally, you can update the payment method in the open AP documents of the selected vendors.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Make sure that a payment method has been created as described in [To Create a Payment Method for External Payment Processing](AP__HOW_Create_PayMethod_BillCom.md).
 
-## To Update the Default Payment Method and Cash Accounts { .section}
+## To Update the Default Payment Method and Cash Accounts
 
 1.  Open the [Update Vendor Payment Methods](AP_50_71_00.md) \(AP507100\) form.
 2.  In the **New Payment Method** box, select the BILL-related payment method that you set up earlier.

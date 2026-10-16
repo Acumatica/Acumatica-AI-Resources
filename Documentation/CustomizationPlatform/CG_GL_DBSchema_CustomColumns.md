@@ -1,4 +1,4 @@
-# To Create an Extension Table {#_5bed40cb-5224-404f-965e-a57880593de2 .task}
+# To Create an Extension Table
 
 The Acumatica Customization Platform provides the following options to create a custom column in a table of the database:
 

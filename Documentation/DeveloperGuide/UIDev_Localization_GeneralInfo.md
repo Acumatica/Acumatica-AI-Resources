@@ -1,10 +1,10 @@
-# UI Localization: General Information {#_fed18050-08f3-4af0-92e0-8c2acf961525 .concept}
+# UI Localization: General Information
 
 Acumatica ERP provides built-in localization functionality, so you can easily translate Acumatica ERP into any language without using third-party products. You can collect the strings used in the whole system or on a particular form, and translate them for any locale available in Acumatica ERP. Once the translated strings are entered and applied, the application does not require any recompilation or reinstallation.
 
 For more information about how to use the built-in localization functionality, see [Translation Process](../UserGuide/SM__con_Translation_Process.md). To support this functionality in the customization code, you must prepare data access classes \(DACs\) and the code.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -14,7 +14,7 @@ In this chapter, you will learn how to do the following:
 -   Implement multilanguage fields
 -   Optimize the memory consumption of localized data
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 Generally, you need to support localization of the user interface in the application code if you develop any code that affects the user interface of Acumatica ERP. Localization of the user interface is crucial if the code that you develop is included in a customization project that is used in the situations such as the following:
 
@@ -22,7 +22,7 @@ Generally, you need to support localization of the user interface in the applica
 -   In the region where the customization project is intended to be distributed, there are legal requirements to provide products and services in the local language.
 -   Your customization project is intended for use in an organization that operates in multiple countries.
 
-## Strings That Can Be Localized {#section_vv2_1y4_y4b .section}
+## Strings That Can Be Localized
 
 By using the [Translation Dictionaries](../UserGuide/SM_20_05_40.md#) \(SM200540\) form, you can add translations for the string constants that are collected from the code of the application, and save them to the database. When a user signs in with a specific language, the system loads the translations and displays the translated strings to the user. For more information on localization, see [Locales and Languages](../UserGuide/SM__CON_Locales_and_Languages.md#).
 

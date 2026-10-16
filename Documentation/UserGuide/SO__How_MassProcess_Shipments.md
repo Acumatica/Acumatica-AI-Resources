@@ -1,8 +1,8 @@
-# To Create Shipments for Multiple Orders {#_271ae72b-354c-4dd4-8dc2-b2cea6207832 .task}
+# To Create Shipments for Multiple Orders
 
 You can mass-create shipments for multiple orders simultaneously on the [Process Orders](SO_50_10_00.md) \(SO501000\) form.
 
-## To Create Shipments for Multiple Orders { .section}
+## To Create Shipments for Multiple Orders
 
 1.  Open the [Process Orders](../Shared/../UserGuide/SO_50_10_00.md) \(SO501000\) form.
 2.  In the **Action** box, select *Create Shipment*.
@@ -10,7 +10,7 @@ You can mass-create shipments for multiple orders simultaneously on the [Process
 4.  Click **Process** on the form toolbar.
 5.  In the **Processing** dialog box, click **Close** when processing completes.
 
-## Notes About the Procedure { .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

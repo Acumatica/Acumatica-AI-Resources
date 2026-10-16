@@ -1,4 +1,4 @@
-# Business Events {#_920e13d8-387c-404f-8b33-c200ac66df98 .concept}
+# Business Events
 
 To configure the system to monitor a business process, on the [Business Events](../Shared/../UserGuide/SM_30_20_50.md) \(SM302050\) form, you define a *business event* that relates to this business process and that causes the system to perform an action or multiple actions in the system. The business event is a data change or a set of conditions checked for on a schedule. For details on business events, see [Business Events: Data Change Processing](../Shared/../UserGuide/SA_Using_Business_Events_Event_By_Data_Change.md) and [Business Events: Scheduled Event Processing](../Shared/../UserGuide/SA_Using_Business_Events_By_Schedule.md).
 

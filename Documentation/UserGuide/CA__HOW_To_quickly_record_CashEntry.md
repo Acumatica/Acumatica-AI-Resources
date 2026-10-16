@@ -1,15 +1,15 @@
-# To Quickly Record a Cash Transaction {#_a8df17b5-1bbc-44ea-be27-1e7a25cff770 .task}
+# To Quickly Record a Cash Transaction
 
 To quickly record a cash transaction, you use the **Quick Transaction** dialog box. You can invoke the dialog box in one of the following ways:
 
 -   By clicking the **Create Transaction** button on the table toolbar of the [Cash Account Details](CA_30_30_00.md#) \(CA303000\) form.
 -   By clicking the **Create Adjustment** button on the table toolbar of the [Reconciliation Statements](CA_30_20_00.md#) \(CA302000\) form when you are performing the bank reconciliation of the cash account.
 
-## Before You Proceed {#section_v5b_kjv_vxb .section}
+## Before You Proceed
 
 Before you start recording a cash transaction, make sure all the necessary entry types are created on the [Entry Types](CA_20_30_00.md) \(CA203000\) form and associated with cash accounts on the [Cash Accounts](CA_20_20_00.md) \(CA202000\) form. For details on the entry types, see [Entry Types](CA__CON_EntryTypes.md).
 
-## To Quickly Record a Cash Entry {#section_x5b_kjv_vxb .section}
+## To Quickly Record a Cash Entry
 
 1.  Open the [Cash Account Details](../Shared/../UserGuide/CA_30_30_00.md) \(CA303000\) form.
 2.  In the **Cash Account** box of the Selection area, select the cash account for which you want to record the transaction.

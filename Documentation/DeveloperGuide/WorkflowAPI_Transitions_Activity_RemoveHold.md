@@ -1,14 +1,14 @@
-# Transitions: To Implement a Transition Triggered by an Action {#_8d04481d-a8f4-4146-9ade-69bdf463b685 .task}
+# Transitions: To Implement a Transition Triggered by an Action
 
 This activity will walk you through the process of implementing a transition that is triggered by an action.
 
-## Story { .section}
+## Story
 
 Suppose that a user should be able to remove a repair work order from hold when the order has the *On Hold* status. The user will be able to do this by clicking the **Remove Hold** button on the form toolbar or the corresponding command on the More menu. As a result, the status of the repair work order should be changed to *Ready For Assignment*.
 
 You need to implement a simple transition from the `OnHold` workflow state to the `ReadyForAssignment` workflow state. This transition is performed without the system considering the prepayment requirements.
 
-## Process Overview { .section}
+## Process Overview
 
 To implement a transition from the `OnHold` workflow state to the `ReadyForAssignment` workflow state, you will use or define the following components in the screen configuration:
 
@@ -23,7 +23,7 @@ To implement a transition from the `OnHold` workflow state to the `ReadyForAssig
 
 -   The transition.
 
-## System Preparation { .section}
+## System Preparation
 
 Make sure that you have done the following:
 
@@ -34,14 +34,14 @@ Make sure that you have done the following:
 3.  Defined the `ReleaseFromHold` action by performing the [Workflow Actions: To Implement a Simple Action](WorkflowAPI_Actions_Activity_RemoveHold.md) activity.
 4.  Defined the `OnHold` and `ReadyForAssignment` states by performing the [Workflow States: To Define a Workflow State](WorkflowAPI_States_Activity_DefiningState.md) activity.
 
-## Step 1: Defining a Transition { .section}
+## Step 1: Defining a Transition
 
 In this step, you will define a transition from the `OnHold` workflow state to the `ReadyForAssignment` workflow state. Do the following:
 
 1.  In the `RSSVWorkOrderEntry_Workflow` class, in the static Configure method, locate the AddDefaultFlow method.
 2.  Call the WithTransitions method in the lambda expression for the AddDefaultFlow method, as the following code shows.
 
-    ```language-csharp
+    ```csharp
                         .WithTransitions(transitions =>
                         {
                         })
@@ -49,7 +49,7 @@ In this step, you will define a transition from the `OnHold` workflow state to t
 
 3.  Inside the lambda expression of the WithTransitions method, add the transition by calling the Add method, as the following code shows.
 
-    ```language-csharp
+    ```csharp
                             transitions.Add(transition => transition
                                 .From<States.onHold>().To<States.readyForAssignment>()
                                 .IsTriggeredOn(graph => graph.ReleaseFromHold));
@@ -62,7 +62,7 @@ In this step, you will define a transition from the `OnHold` workflow state to t
     -   The entity that triggers the transition \(which is the `ReleaseFromHold` action\) in the IsTriggeredOn method
 4.  Save your changes.
 
-## Step 2: Testing the Transition { .section}
+## Step 2: Testing the Transition
 
 In this step, you will test the transition from the `OnHold` workflow state to the `ReadyForAssignment` workflow state. Do the following:
 
@@ -82,7 +82,6 @@ In this step, you will test the transition from the `OnHold` workflow state to t
 5.  On the form toolbar, click **Remove Hold**.
 6.  Notice that the status of the record has been changed to *Ready for Assignment* and that the **Customer ID**, **Service ID**, and **Device ID** boxes are unavailable, as shown in the following screenshot.
 
-    ![](Images/WorkflowAPI_Ready_for_Assignment_Status_ModernUI_2025R2.png "A record with the Ready for Assignment status")
 
 
 **Parent topic:**[Implementing Transitions](../DeveloperGuide/WorkflowAPI_Transitions_Mapref.md)

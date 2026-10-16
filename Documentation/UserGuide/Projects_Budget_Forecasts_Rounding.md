@@ -1,4 +1,4 @@
-# Project Budget Forecasts: Example of Rounding {#_9516601a-3aa4-4cce-ccb7-9b136be2b013 .concept}
+# Project Budget Forecasts: Example of Rounding
 
 When the system automatically distributes the quantities and amounts of a project budget line among period lines, the `DistibuteRound` distribution function rounds equally distributed values using the built-in logarithmic rounding algorithm.
 

@@ -1,4 +1,4 @@
-# Migrating Fixed Assets {#_90dc788a-99b7-4770-811b-2723b6f5b54e .concept}
+# Migrating Fixed Assets
 
 In this chapter, you will find information on how to migrate fixed assets from a legacy system to Acumatica ERP. This migration can be done through manual entry or an import scenario. You will learn how to manually create a partially depreciated asset, migrate fixed assets by using an import scenario, and apply a Section 179 deduction to a fixed asset's cost.
 

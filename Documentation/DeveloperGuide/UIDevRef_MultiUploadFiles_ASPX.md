@@ -1,19 +1,29 @@
-# Upload Files Button: Conversion from ASPX to HTML and TypeScript {#_551d2f8c-aa27-490c-8251-22793dc98ffc .concept}
+# Upload Files Button: Conversion from ASPX to HTML and TypeScript
 
 The following tables will help you to convert the ASPX elements that are related to the upload files button control to HTML or TypeScript elements.
 
-## PXFileUploader { .section}
+## PXFileUploader
 
 The following table shows the correspondence between the PXFileUploader element and the HTML or TypeScript elements. During the conversion of ASPX pages to HTML and TypeScript, you need to replace these ASPX elements with their analogs in HTML or TypeScript.
 
-|ASPX|HTML or TypeScript|
-|----|------------------|
-|PXFileUploader```
+<table id="_53b158c3-95c7-4d0b-b468-cfb18f27756e"><thead><tr><th>
+
+ASPX
+
+</th><th>
+
+HTML or TypeScript
+
+</th></tr></thead><tbody><tr><td>
+
+PXFileUploader```
 <px:FileUploader ID="fileUploaderControl" 
 runat="server" DataMember="uploadFiles" />
 ```
 
-|To attach files to a record, use the qp-multi-upload tag in the HTML template.```
+</td><td>
+
+To attach files to a record, use the qp-multi-upload tag in the HTML template.```
 <qp-multi-upload config.bind="{
   id: 'uploadFilesControl',
   action: 'attachFiles',
@@ -21,43 +31,53 @@ runat="server" DataMember="uploadFiles" />
 }"></qp-multi-upload>
 ```
 
-|
-|ID```
+</td></tr><tr><td>
+
+ID```
 <px:PXFileUploader 
 ID="uploadFilesDialog" ... />
 ```
 
-|Use the id property, which is available in the config attribute of the qp-multi-upload control.```
+</td><td>
+
+Use the id property, which is available in the config attribute of the qp-multi-upload control.```
 <qp-multi-upload 
 id="uploadFilesControl" ...>
 </qp-multi-upload>
 ```
 
-|
-|AllowedTypes```
+</td></tr><tr><td>
+
+AllowedTypes```
 <px:PXFileUploader  ...
 AllowedTypes=".jpg" />
 ```
 
-|Use the accept property, which is available in the config attribute of the qp-multi-upload control.```
+</td><td>
+
+Use the accept property, which is available in the config attribute of the qp-multi-upload control.```
 <qp-multi-upload ...
 accept=".jpg">
 </qp-multi-upload>
 ```
 
-|
-|SelectFileMessage```
+</td></tr><tr><td>
+
+SelectFileMessage```
 <px:PXFileUploader  ...
 SelectFileMessage="Upload Files Here" />
 ```
 
-|Neither TypeScript nor HTML provide an equivalent property that can be used to customize the text that is displayed on the qp-multi-upload control. However, you can specify this text between the opening tag and the closing tag of the control, as shown in the following code example.```
+</td><td>
+
+Neither TypeScript nor HTML provide an equivalent property that can be used to customize the text that is displayed on the qp-multi-upload control. However, you can specify this text between the opening tag and the closing tag of the control, as shown in the following code example.```
 <qp-multi-upload ...>
 Upload Files Here
 </qp-multi-upload>
 ```
 
-|
+</td></tr></tbody>
+</table>
 
 **Parent topic:**[Upload Files Button](../DeveloperGuide/UIDevRef_MultiUploadFiles_Mapref.md)
 

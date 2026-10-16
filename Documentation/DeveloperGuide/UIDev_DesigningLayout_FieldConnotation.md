@@ -1,12 +1,11 @@
-# Form Layout: Box Connotations {#_ff73e924-e9ba-41d8-a999-bd145cde58f3 .concept}
+# Form Layout: Box Connotations
 
 You can highlight a value in the textbox control with a color connotation. The color can change depending on the value in the box.
 
 In Acumatica ERP data entry forms with workflows, the **Status** box has default connotations. You can add new connotations or change existing ones. The following screenshot shows an example of the color connotation for the *Open* status.
 
-![](Images/UIDev_Layout_StatusColor.png "The highlighted status")
 
-## Changing the Default Color or Defining a New One { .section}
+## Changing the Default Color or Defining a New One
 
 You can specify a connotation for any box that has the [PXStringListAttribute](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=eb18681d-a07f-87ae-3738-cb6452c24260) attribute on the corresponding DAC field. Some forms, such as data entry forms with workflows, have default connotations defined in the `style.scss` file of the screen folder or in the `common` folder of the module.
 
@@ -36,7 +35,7 @@ You can change the default connotation or create a new one by doing the followin
     ```
 
 
-## Specifying the Connotation for a Box { .section}
+## Specifying the Connotation for a Box
 
 To specify connotations that have been defined in the `style.scss` file, do the following:
 

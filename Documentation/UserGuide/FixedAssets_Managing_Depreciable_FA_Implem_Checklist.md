@@ -1,8 +1,8 @@
-# Assets with Depreciation: Implementation Checklist {#_ce1c76f3-6a08-4e2c-b884-eb8fbcbd985f .concept}
+# Assets with Depreciation: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for performing additional operations with fixed assets, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist {#section_ygg_ljv_vxb .section}
+## Implementation Checklist
 
 We recommend that before you initially manage fixed assets with depreciation, you make sure that the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -13,7 +13,7 @@ We recommend that before you initially manage fixed assets with depreciation, yo
 |Multiple forms|The general ledger functionality has been implemented, as described in [General Ledger: General Information](../ImplementationGuide/config_GL_Generalinfo.md).|
 |[Customers](AR_30_30_00.md) \(AR303000\)|Customer accounts exist for all customers for which you will create an AR invoice. For details, see [Customers: Implementation Activity](Customer_Implem_Activity.md).|
 
-## Other Settings That Affect the Workflow {#section_ahg_ljv_vxb .section}
+## Other Settings That Affect the Workflow
 
 The processing of fixed assets causes batches to be produced by the system on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form. A user can also manually create batches on this form. The settings on the [General Ledger Preferences](GL_10_20_00.md) \(GL102000\) form can affect the processing workflow of each batch as follows:
 
@@ -32,7 +32,7 @@ The following settings on the [Fixed Assets Preferences](FA_10_10_00.md) \(FA101
 -   If the **Update GL** check box is selected, transactions associated with fixed assets are posted to the general ledger and affect the GL balances. If this check box is cleared, transactions associated with fixed assets are not posted to the general ledger.
 -   If the **Automatically Post on Release** check box is selected, transactions associated with fixed assets are automatically posted to the general ledger when they are released. This check box is selected by default.
 
-## Validation of Configuration {#section_ehg_ljv_vxb .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you manage fixed assets with depreciation by performing instructions similar to those described in [Assets with Depreciation: To Split an Asset](FixedAssets_Managing_Depreciable_FA_To_Split.md), [Assets with Depreciation: To Transfer Assets](FixedAssets_Managing_Depreciable_FA_To_Transfer.md), and [Assets with Depreciation: To Dispose of an Asset](FixedAssets_Managing_Depreciable_FA_To_Dispose.md).
 

@@ -1,10 +1,10 @@
-# To Create a Ship via Code {#_480f2b47-6ce4-4b3c-a69f-611066e3038d .task}
+# To Create a Ship via Code
 
 In Acumatica ERP, you can create a ship via code for each delivery service your organization uses and specify which boxes are used for this service and what the freight rates are.
 
 You create ship via codes by using the [Ship via Codes](CS_20_75_00.md) \(CS207500\) form. Perform the following steps for each ship via code you need to define.
 
-## To Create a Ship via Code { .section}
+## To Create a Ship via Code
 
 1.  Open the [Ship via Codes](CS_20_75_00.md) \(CS207500\) form.
 2.  Enter the ship via code \(which is an alphanumerical string of up to 15 characters\) clearly identifying the specific delivery service.

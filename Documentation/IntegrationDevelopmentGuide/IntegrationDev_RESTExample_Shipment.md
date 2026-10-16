@@ -1,4 +1,4 @@
-# Shipment {#_b6caac53-f98e-48aa-8571-eb0656100f5a .concept}
+# Shipment
 
 This chapter presents code examples showing requests that use the `Shipment` entity.
 

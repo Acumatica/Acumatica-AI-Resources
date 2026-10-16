@@ -1,26 +1,26 @@
-# Data Synchronization: General Information {#_311a7616-3f24-427e-9855-3109ea23ab19 .concept}
+# Data Synchronization: General Information
 
 After the connection between Acumatica ERP and the BigCommerce store has been established and the initial configuration performed, you can start synchronizing data between the two systems.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how data synchronization works and how to synchronize data manually.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You synchronize data between Acumatica ERP and the BigCommerce store manually in the following cases:
 
 -   During the implementation of the integration between Acumatica ERP and the BigCommerce store, when you test how the synchronization works
 -   When you troubleshoot synchronization issues and need to resynchronize specific data manually
 
-## Stages of the Synchronization Process { .section}
+## Stages of the Synchronization Process
 
 The process of the synchronization of data between Acumatica ERP and the ecommerce store consists of the following stages:
 
 -   Preparing out-of-sync data for synchronization. For details, see the [Preparation of Out-of-Sync Data for Synchronization](#_8186e13a-c817-4924-91ea-1d6a17d67733) section below.
 -   Processing out-of-sync data, as described in the [Processing of Out-of-Sync Data](#_a9afd843-28dd-41af-97e2-3d5f509403a7) section below.
 
-## Preparation of Out-of-Sync Data for Synchronization {#_8186e13a-c817-4924-91ea-1d6a17d67733 .section}
+## Preparation of Out-of-Sync Data for Synchronization
 
 During the preparation of data for synchronization, the system receives the data that needs to be synchronized between Acumatica ERP and the ecommerce system and puts it in the processing queue. The following mechanisms can be used for obtaining data:
 
@@ -42,9 +42,8 @@ During the preparation of data for synchronization, the system receives the data
 
 The following diagram shows the process of preparing data for synchronization.
 
-![](Images/diag_Commerce_Data_Preparation.png "Preparing data for synchronization")
 
-## Processing of Out-of-Sync Data {#_a9afd843-28dd-41af-97e2-3d5f509403a7 .section}
+## Processing of Out-of-Sync Data
 
 During the data processing stage, the system processes the synchronization records in the processing queue according to the synchronization settings defined for the corresponding entity on the [Entities](BC_20_20_00.md) \(BC202000\) form or on the **Entities** tab of the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form, and the synchronized data is saved in Acumatica ERP, in the BigCommerce store, or in both systems.
 
@@ -72,9 +71,8 @@ The processing of out-of-sync data can be started as follows:
 
 In the following diagram, you can see the flow of the processing of data prepared for synchronization.
 
-![](Images/diag_Commerce_Data_Processing.png "Processing prepared data")
 
-## Preparation of Deleted Records { .section}
+## Preparation of Deleted Records
 
 If a previously processed entity record is deleted in Acumatica ERP, in the external system, or in both systems, its synchronization record is assigned the *Deleted* status on the [Sync History](../Shared/../UserGuide/BC_30_10_00.md) \(BC301000\) form. When the entity is prepared, the synchronization record is assigned the *Prepared* status in the following cases:
 

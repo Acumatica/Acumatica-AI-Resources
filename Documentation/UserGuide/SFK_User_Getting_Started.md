@@ -1,8 +1,8 @@
-# Shop Floor Kiosk: Getting Started {#_f432a414-9704-4c59-afa0-c8b577ec45f8 .concept}
+# Shop Floor Kiosk: Getting Started
 
 In this topic, you’ll learn how to access the kiosk, identify yourself, work securely on shared workstations, and sign out when your work is complete.
 
-## Accessing the Kiosk { .section}
+## Accessing the Kiosk
 
 The Shop Floor Kiosk is accessed through a dedicated kiosk workstation, such as a shop floor tablet, touchscreen monitor, laptop, or shared production terminal. The kiosk runs continuously and remains available for production employees throughout the shift.
 
@@ -14,7 +14,7 @@ When the kiosk opens, the landing page displays:
 
 The landing page is visible before employee sign-in and is designed to remain continuously available on shared workstations.
 
-## Signing In { .section}
+## Signing In
 
 To begin working in the kiosk, you identify yourself as a production employee.
 
@@ -37,7 +37,7 @@ The options available to you depend on your assigned work centers and current pr
 
 **Attention:** If you cannot sign in or do not see expected options, contact your system administrator or production supervisor.
 
-## Understanding Shared Workstation Usage { .section}
+## Understanding Shared Workstation Usage
 
 The Shop Floor Kiosk is designed for shared production-floor workstations used by multiple employees during a shift. A workstation may be shared across multiple work centers or production areas.
 
@@ -49,13 +49,13 @@ Because multiple employees may use the same device throughout the day, you shoul
 
 The kiosk provides visual confirmation when an employee session is active and returns to the landing page when the workstation becomes available again.
 
-## Session Timeout { .section}
+## Session Timeout
 
 For security and operational consistency, employee sessions automatically time out after a period of inactivity. The default inactivity timeout is three minutes. After timeout, the kiosk returns to the landing page.
 
 If your session times out while you are still working on an operation, your production activity remains recorded in the system.
 
-## Signing Out { .section}
+## Signing Out
 
 When you finish working at the kiosk, you should sign out so that another employee can safely use the workstation.
 

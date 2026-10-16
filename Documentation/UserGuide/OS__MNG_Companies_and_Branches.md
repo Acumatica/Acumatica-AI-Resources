@@ -1,4 +1,4 @@
-# Managing Companies and Branches {#_f2e2d984-0954-4272-bc92-dee20623fa7d .concept}
+# Managing Companies and Branches
 
 In Acumatica ERP, a company represents a legal entity with an independent balance sheet and separate tax reporting. An organization may consist of one company or multiple companies.
 
@@ -6,7 +6,7 @@ A company may have no branches, or it may consist of multiple branches, each bei
 
 All branches within a tenant have the same chart of accounts, calendar, and base currency.
 
-## In This Chapter { .section}
+## In This Chapter
 
 -   [Companies and Branches](OS__con_Companies.md)
 -   [Multiple Branch Support](CS__con_Multiple_Branch_Support.md)
@@ -21,6 +21,4 @@ All branches within a tenant have the same chart of accounts, calendar, and base
 
 -   **[Security of Organization Branches](../UserGuide/CS__con_Branch_Security_Administration.md)**  
 
-
-**Parent topic:**[Organization Structure](../UserGuide/OS_00_00_00.md)
 

@@ -1,8 +1,8 @@
-# Data Providers {#_32b4f7df-08bf-4148-829e-3e08f4d945f6 .concept}
+# Data Providers
 
 You create data providers on the [Data Providers](SM_20_60_15.md) \(SM206015\) form. To create a provider, you specify its name and type, the access parameters to the source, and the data schema.
 
-## Data Provider Types {#_cf685b13-5eac-4de2-b700-759db25a63a2 .section}
+## Data Provider Types
 
 Excel spreadsheets or files in CSV format are generally used for data exchange between different ERP products, because most ERP products support exporting and importing data in these formats. Besides using files in an external format as a data source, you can import data from or export data to an external application directly. For example, you can connect to a Microsoft SQL Server and download data from it or upload data to it.
 
@@ -20,7 +20,7 @@ Acumatica ERP provides a number of built-in types of data providers through whic
     -   *HubSpot Provider* \(PX.DataSync.HubSpot.HSSYProvider\): For exporting leads to HubSpot for nurturing and importing leads to Acumatica ERP for processing. You can find more information in [Integration with HubSpot: General Information](../ImplementationGuide/config_HubSpot_GeneralInfo.md).
     -   *HubSpot Enhanced* \(PX.DataSync.HubSpot.HubSpotProvider\): For synchronization of data between Acumatica ERP and HubSpot. This data provider supports the use of the OAuth protocol for authorization in HubSpot. For details, see [Integration with HubSpot: Enhanced HubSpot Data Provider](../ImplementationGuide/config_HubSpot_Enhanced_Provider.md).
 -   Providers for exporting payment data to external payment systems:
-    -   *ACH Provider* \(PX.DataSync.ACHProvider\): For exporting data for processing in the Automated Clearing House \(ACH\) system. You can find more information in [Processing ACH Payments](AP__con_ACH_Payment_Support.md#).
+    -   *ACH Provider* \(PX.DataSync.ACHProvider\): For exporting data for processing in the Automated Clearing House \(ACH\) system. You can find more information in [ACH Payments](AP__con_ACH_Payment_Support.md#).
     -   *ACH Download Provider* \(PX.DataSync.ACHPDownloadrovider\): For exporting data for processing in the Automated Clearing House \(ACH\) system, with the ability to create prenotes.
     -   *Giro Payment Provider* \(PX.DataSync.Banks.GIROPaymentProvider\): For exporting data for processing in giro-based payment systems.
     -   *CPA 005 Provider* \(PX.Objects.Localizations.CA.DataSync.CPA005ExportProvider\): For exporting data for processing in the Electronic Funds Transfer \(EFT\) system \(used in the Canadian localization\).
@@ -31,7 +31,7 @@ Acumatica ERP provides a number of built-in types of data providers through whic
 
 To import data from other sources, you need to create a custom data provider by using the API provided by Acumatica ERP.
 
-## Provider Parameters {#_3a80b719-dd25-4324-82d1-f42f988fbb04 .section}
+## Provider Parameters
 
 To define a particular data source to be used for import or export, you define the parameters of the data provider on the [Data Providers](SM_20_60_15.md) \(SM206015\) form. The set of parameters depends on the data provider type, as described below:
 
@@ -44,7 +44,7 @@ To define a particular data source to be used for import or export, you define t
     Other parameters are specific to each provider type. These parameters are necessary for authentication on the remote resource.
 
 
-## External Data Schema {#_92ffbeb4-6154-4f16-9ac1-7505b6051193 .section}
+## External Data Schema
 
 Data that you are going to transfer between an external data source and Acumatica ERP usually has a table structure. That is, the data includes a number of data records, and each record has a list of parameters specified.
 
@@ -52,7 +52,7 @@ You specify the structure of an external data source for a data provider by defi
 
 Source fields are defined by the list of attributes that are specified for each record. For an Excel file, source fields correspond to columns on a spreadsheet. For each field you want to use the field in a scenario, you should select the **Active** check box in the **Source Fields** table on the **Schema** tab of the [Data Providers](SM_20_60_15.md) form.
 
-## Data Provider Creation {#_ade34784-8d89-421d-807d-38f1db4f3e65 .section}
+## Data Provider Creation
 
 You create data providers on the [Data Providers](SM_20_60_15.md) form. The process of creating a data provider consists of the following general steps:
 

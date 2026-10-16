@@ -1,19 +1,63 @@
-# Taxes Included in the Cost of Items: Generated Transactions {#_dc8d2355-7b34-41af-9059-2d53cd07b451 .concept}
+# Taxes Included in the Cost of Items: Generated Transactions
 
 To process the purchase of items, you create a purchase order, and then process the purchase receipt and AP bill related to the purchase order. The following sections describes the GL transactions that are generated for the lines of an AP bill that are subject to a tax that has the **Use Tax Expense Account** check box cleared on the **GL Accounts** tab of the [Taxes](TX_20_50_00.md) \(TX205000\) form.
 
 You can view the reference number of the GL batch generated for a particular AP bill in the **Batch Nbr.** box on the **Financial** tab of the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. You can click the link in this box to view the details of the batch on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## Transactions Generated for Stock Items {#section_jdl_fjv_vxb .section}
+## Transactions Generated for Stock Items
 
 If a purchase order includes any stock items with the *Average*, *Specific*, or *FIFO* valuation method selected on the **General** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form, on release of the AP bill prepared for the purchase order, an inventory adjustment transaction is automatically generated. The following cost-updating transactions are generated on release of this inventory adjustment.
 
-|Account|Source of Account|Debit|Credit|
-|-------|-----------------|-----|------|
-|Inventory account|Dependent on the setting of the posting class of the item specified in the **Use Inventory / Accrual Account From** box on the [Posting Classes](IN_20_60_00.md) \(IN206000\) form|Tax amount**Attention:** For a partially deductible VAT, only the expense part of the calculated tax is posted to the item's Inventory account.
+<table id="_f9226563-a088-4049-bea7-c9503ecde0ba"><thead><tr><th>
 
-|00.00|
-|PO Accrual account|Dependent on the setting of the posting class of the item specified in the **Use PO Accrual Account From** box on the [Posting Classes](IN_20_60_00.md) \(IN206000\) form|00.00|Tax amount|
+Account
+
+</th><th>
+
+Source of Account
+
+</th><th>
+
+Debit
+
+</th><th>
+
+Credit
+
+</th></tr></thead><tbody><tr><td>
+
+Inventory account
+
+</td><td>
+
+Dependent on the setting of the posting class of the item specified in the **Use Inventory / Accrual Account From** box on the [Posting Classes](IN_20_60_00.md) \(IN206000\) form
+
+</td><td>
+
+Tax amount**Attention:** For a partially deductible VAT, only the expense part of the calculated tax is posted to the item's Inventory account.
+
+</td><td>
+
+00.00
+
+</td></tr><tr><td>
+
+PO Accrual account
+
+</td><td>
+
+Dependent on the setting of the posting class of the item specified in the **Use PO Accrual Account From** box on the [Posting Classes](IN_20_60_00.md) \(IN206000\) form
+
+</td><td>
+
+00.00
+
+</td><td>
+
+Tax amount
+
+</td></tr></tbody>
+</table>
 
 If a purchase order includes any stock items that are not in stock or any stock items with the *Standard* valuation method selected on the **General** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the following cost updating transactions are generated on release of the AP bill prepared for the purchase order.
 
@@ -22,7 +66,7 @@ If a purchase order includes any stock items that are not in stock or any stock 
 |Tax reason code account|Reason code|Tax amount|00.00|
 |PO Accrual account|Dependent on the setting of the posting class of the item specified in the **Use PO Accrual Account From** box on the [Posting Classes](IN_20_60_00.md) \(IN206000\) form|00.00|Tax amount|
 
-## Transactions Generated for Non-Stock Items Requiring a Purchase Receipt {#section_ndl_fjv_vxb .section}
+## Transactions Generated for Non-Stock Items Requiring a Purchase Receipt
 
 If a purchase order includes any non-stock items with the **Require Receipt** check box selected on the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the following cost-updating transactions are generated on release of the AP bill prepared for the purchase order.
 

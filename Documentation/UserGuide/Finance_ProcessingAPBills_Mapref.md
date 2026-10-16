@@ -1,4 +1,4 @@
-# Processing AP Bills {#_8ba950cc-2db8-4f19-b6a7-b1281cb1db29 .concept}
+# Processing AP Bills
 
 In this chapter, you will find general information on how to create and release AP bills, a checklist for system implementation, an activity that describes how to process an AP bill, and report and inquiries that can be useful to find and view created transactions.
 

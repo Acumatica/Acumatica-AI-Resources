@@ -1,8 +1,8 @@
-# Configuring Lists {#_e8b287bf-ffbe-4c7f-84a1-894c3bdbac02 .concept}
+# Configuring Lists
 
 This topic describes how to configure a screen that contains a list of records.
 
-## Example: Creating a Simple List View Layout {#_95fe7b23-bce2-4ef8-b56e-8b142d413547 .section}
+## Example: Creating a Simple List View Layout
 
 A list of records is the simplest screen layout.
 
@@ -28,11 +28,9 @@ To complete an example of configuring the simplest screen layout, copy the code 
 
 This example uses the WSDL schema elements marked in the screenshot below.
 
-![](Images/555_1.png "WSDL schema elements used in the example")
 
 The following screenshot shows the resulting screen you will see in the mobile application.
 
-![](Images/5-1.png "List view layout")
 
 The FieldsToShow attribute of the sm:Container tag is used to limit the number of fields for a record that will be shown in the list. You use this attribute only when the same screen description is used for both the list view and form view.
 
@@ -42,13 +40,12 @@ Actions are divided into standard actions \(such as **Open**, **Save**, and **Ca
 
 The Context attribute is used to set the target of the action. For example, you can use an action with `Context="Selection"` when the multiple selection of records, as shown in the screenshot below, is activated.
 
-![](Images/5-2.png "Selection of multiple records")
 
 You use the Icon attribute to set the icon that is displayed on the UI.
 
 **Note:** See [&lt;sm:Action&gt;](MOBILE_sm_Action.md#) for more information about the attributes of the sm:Action tag.
 
-## Example: Creating a Screen with a Filtered List { .section}
+## Example: Creating a Screen with a Filtered List
 
 To see an example of configuring a screen with a filtered list, copy the code below to an `.xml` file, put the file in the `\App_Data\Mobile` folder of the Acumatica ERP website, and start the mobile application.
 
@@ -85,7 +82,6 @@ To configure a screen with a filtered list, do the following:
 
 As a result, in the mobile application, the screen will include a button that opens the filter. When you tap the button, you open the form so you can edit the filter fields \(see the screenshots below\).
 
-![](Images/new-6.png "Use of a filter on a screen")
 
 **Parent topic:**[Screens](../StudioDeveloperGuide/MOBILE_Screens.md)
 

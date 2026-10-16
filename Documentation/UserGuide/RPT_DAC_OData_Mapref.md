@@ -1,4 +1,4 @@
-# Accessing DACs Through OData {#_642945d9-df36-429b-8784-0f1bcf0e5495 .concept}
+# Accessing DACs Through OData
 
 Acumatica ERP provides the following types of OData interfaces:
 
@@ -9,7 +9,15 @@ This chapter describes the DAC-based OData interface. For details about the gene
 
 -   **[DAC-Based OData: General Information](../UserGuide/RPT_DAC_OData_GeneralInfo.md)**  
 
--   **[DAC-Based OData: Data Retrieval](../UserGuide/RPT_DAC_OData_DataRetrieval.md)**  
+-   **[DAC-Based OData: Basic Data Retrieval](../UserGuide/RPT_DAC_OData_DataRetrieval.md)**  
+
+-   **[DAC-Based OData: Filtering Records](../UserGuide/RPT_DAC_OData_FilteringRecords.md)**  
+
+-   **[DAC-Based OData: Retrieving Related Data](../UserGuide/RPT_DAC_OData_RelatedData.md)**  
+
+-   **[DAC-Based OData: Retrieving Localized and Custom Fields](../UserGuide/RPT_DAC_OData_LocalizedCustomFields.md)**  
+
+-   **[DAC-Based OData: Retrieving Archived and Removed Records](../UserGuide/RPT_DAC_OData_ArchivedRemovedRecords.md)**  
 
 -   **[DAC-Based OData: To Sign In to Acumatica ERP and Retrieve the Metadata](../UserGuide/RPT_DAC_OData_SignIn_Activity.md)**  
 

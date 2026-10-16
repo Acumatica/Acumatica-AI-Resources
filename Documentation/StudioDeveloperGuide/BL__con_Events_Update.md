@@ -1,8 +1,7 @@
-# Sequence of Events: Update of a Data Record {#_8f77ddc6-374b-4ad9-be20-a282febf88f8 .concept}
+# Sequence of Events: Update of a Data Record
 
 The figure below illustrates the sequence of events raised during the update of a data record.
 
-![](Images/Ref_Events_Update.png "Update of a data record")
 
 A data record is updated when a user modifies the data record on the user interface, the request is sent through the Web Service API, or the `Update()` method is invoked on the data view. Updated data records, which the system gives the Updated status, are later available through the Updated and Dirty collections of the appropriate PXCache object.
 

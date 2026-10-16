@@ -1,10 +1,10 @@
-# To Add the Next Financial Year and Generate Its Periods {#_5f242650-1512-4821-b5bb-ceba9de49526 .task}
+# To Add the Next Financial Year and Generate Its Periods
 
 In Acumatica ERP, you can add a new year and generate financial periods for each new year on the [Master Financial Calendar](GL_20_10_00.md) \(GL201000\) form.
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## To Generate Financial Periods {#section_rsj_mjv_vxb .section}
+## To Generate Financial Periods
 
 1.  Open the [Master Financial Calendar](../Shared/../UserGuide/GL_20_10_00.md) \(GL201000\) form.
 2.  On the form toolbar, click **Generate Calendar**.

@@ -1,4 +1,4 @@
-# Paying Multicurrency Bills {#_d13c9858-c97c-4019-b240-d1c9c307eac0 .concept}
+# Paying Multicurrency Bills
 
 The topics of this chapter describe how to pay a bill in a foreign currency by using the base currency and how to pay a bill in a foreign currency by using another foreign currency.
 

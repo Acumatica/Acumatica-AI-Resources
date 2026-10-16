@@ -1,8 +1,8 @@
-# Intercompany Purchases and Returns: Generated Transactions {#_48845810-4bec-4a27-8d0c-cfa9be195e20 .concept}
+# Intercompany Purchases and Returns: Generated Transactions
 
 As you perform intercompany purchases and returns, you create and process a purchase order, a sales order, a shipment, a purchase receipt, an AR invoice, and an AP bill. When you release the AR and AP documents, the system updates the customer's and vendor's balances. Inventory documents are used to track item movements. To update the account balances, the system generates and posts the GL transactions described in the following sections.
 
-## Transaction Generated for an AR Invoice { .section}
+## Transaction Generated for an AR Invoice
 
 When you create and release an AR invoice, the system generates the following general ledger transaction.
 
@@ -13,7 +13,7 @@ When you create and release an AR invoice, the system generates the following ge
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Invoices](SO_30_30_00.md) \(SO303000\) form and on the **Financial** tab of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 
-## Transaction Generated for an Issue { .section}
+## Transaction Generated for an Issue
 
 When the goods are issued from the warehouse of the selling branch, the system generates the following general ledger transaction.
 
@@ -24,7 +24,7 @@ When the goods are issued from the warehouse of the selling branch, the system g
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Issues](IN_30_20_00.md) \(IN302000\) form.
 
-## Transaction Generated on Release of PO Receipt {#section_oxc_hg3_wvb .section}
+## Transaction Generated on Release of PO Receipt
 
 When you process a purchase receipt, the system generates the following general ledger transaction on release of the inventory receipt.
 
@@ -35,7 +35,7 @@ When you process a purchase receipt, the system generates the following general 
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Receipts](IN_30_10_00.md) \(IN301000\) form.
 
-## Transaction Generated for an AP Bill { .section}
+## Transaction Generated for an AP Bill
 
 When the system creates an AP bill based on the AR invoice you created, the system generates the following general ledger transaction after release of this bill.
 
@@ -46,7 +46,7 @@ When the system creates an AP bill based on the AR invoice you created, the syst
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 
-## Transaction Generated on Release of PO Return { .section}
+## Transaction Generated on Release of PO Return
 
 When you process a purchase return, the system generates the following general ledger transaction on release of the return.
 
@@ -57,7 +57,7 @@ When you process a purchase return, the system generates the following general l
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Issues](IN_30_20_00.md) \(IN302000\) form.
 
-## Transaction Generated for an SO Credit Memo { .section}
+## Transaction Generated for an SO Credit Memo
 
 When you process a return of items, you create an SO credit memo. The system generates the following general ledger transaction after the release of the credit memo.
 
@@ -68,7 +68,7 @@ When you process a return of items, you create an SO credit memo. The system gen
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 
-## Transaction Generated for a Sales Return { .section}
+## Transaction Generated for a Sales Return
 
 When you process the return of items to the warehouse of the selling branch, the system generates the following general ledger transaction.
 
@@ -79,7 +79,7 @@ When you process the return of items to the warehouse of the selling branch, the
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Issues](IN_30_20_00.md) \(IN302000\) form.
 
-## Transaction Generated for a Debit Adjustment { .section}
+## Transaction Generated for a Debit Adjustment
 
 When you process a return of items, after the creation of an AR credit memo to adjust the customer's balance, you create a debit adjustment to adjust the vendor's balance. The system generates the following general ledger transaction after the release of the debit adjustment.
 

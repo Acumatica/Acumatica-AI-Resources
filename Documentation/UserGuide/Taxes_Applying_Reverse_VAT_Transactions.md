@@ -1,8 +1,8 @@
-# Applying Reverse VAT: Generated Transactions {#_a70c2589-90fd-4f79-b96c-493e66df9072 .concept}
+# Applying Reverse VAT: Generated Transactions
 
 As you process purchases with a reverse VAT, you create and process an AP bill. To update the vendor balance and calculate a reverse VAT that should be paid to and later claimed from the tax agency, the system generates the GL transactions described in the following section.
 
-## Transaction Generated for an AP Bill {#section_bjp_fjv_vxb .section}
+## Transaction Generated for an AP Bill
 
 When you create and release an AP bill with a reverse VAT applied, the system generates the following general ledger transaction:
 

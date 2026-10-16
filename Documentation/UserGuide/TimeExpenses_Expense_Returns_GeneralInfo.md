@@ -1,8 +1,8 @@
-# Expense Returns to Corporate Cards: General Information {#_93689c15-4c87-43d5-b436-4c719d061340 .concept}
+# Expense Returns to Corporate Cards: General Information
 
 Acumatica ERP supports the use of corporate credit cards on the [Expense Claim](EP_30_10_00.md) \(EP301000\) and [Expense Receipt](EP_30_10_20.md) \(EP301020\) forms. If an employee needs to return all or a portion of the funds for expenses that have been paid with a corporate card, the employee can make a return to the corporate card by processing a negative expense receipt.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,13 +10,13 @@ In this chapter, you will learn how to do the following:
 -   Process an expense claim for the negative expense receipt
 -   Review the documents and transactions that are generated on release of the expense claim
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You, as an employee who incurs expenses and creates the needed receipts and claims, need to process a refund to a corporate credit card if items have been purchased with the corporate card and then have been returned fully or partially.
 
 You, as an accountant who wants to process the recorded expenses and refunds, need to process an expense claim for expense receipts entered by an employee.
 
-## Entry of a Negative Expense Receipt { .section}
+## Entry of a Negative Expense Receipt
 
 To process a return to a corporate card, you need to create a negative expense receipt and then process an expense claim for it. On the [Expense Receipt](EP_30_10_20.md) \(EP301020\) form, you create an expense receipt for the employee account that is associated with your user account. In the expense receipt, you specify the key settings as follows:
 
@@ -29,7 +29,7 @@ To process a return to a corporate card, you need to create a negative expense r
 -   In the **Corporate Card** box, you select the corporate card with which the original expenses have been paid.
 -   In the **Project/Contract**, **Project Task**, and **Cost Code** box, you enter the contract, or the project budget key, if the incurred expenses are related to a particular project or contract.
 
-## Claiming of a Negative Expense Receipt { .section}
+## Claiming of a Negative Expense Receipt
 
 After you have specified the expense receipt details, you click **Claim** on the form toolbar. The system creates an expense claim and opens it on the [Expense Claim](EP_30_10_00.md) \(EP301000\) form. On the **Details** tab, the system adds a line with a negative amount that refers to the expense receipt that you have created.
 
@@ -53,11 +53,10 @@ For the lines that have the *Corporate Card, Company Expense* option selected in
 -   If the **Post Summarized Company Expenses by Corporate Card** check box is selected on the [Time and Expenses Preferences](EP_10_10_00.md) form, the system creates a single document for each group of expense claim lines with this **Paid With** option that have the same expense receipt date, receipt reference number, corporate card, and tax calculation mode.
 -   If the **Post Summarized Company Expenses by Corporate Card** check box is cleared, the system creates a separate AP document for each expense claim line with this **Paid With** option.
 
-## Workflow of Returning Expenses Paid with Corporate Cards {#section_vv2_1y4_y4b .section}
+## Workflow of Returning Expenses Paid with Corporate Cards
 
 For a scenario when an employee is refunding expenses paid with corporate cards, the typical process involves the actions and generated documents shown in the following diagram.
 
-![](Images/diag_TimeExpenses_Expense_Returns.png)
 
 **Parent topic:**[Processing Expense Returns to Corporate Cards](../UserGuide/TimeExpenses_Expense_Returns_Mapref.md)
 

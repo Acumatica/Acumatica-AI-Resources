@@ -1,25 +1,80 @@
-# Invoices with Inclusive Sales Taxes: Implementation Checklist {#_df33611d-3a0a-4afd-9bf7-66a626dd9dd2 .concept}
+# Invoices with Inclusive Sales Taxes: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for processing invoices with an inclusive sales tax, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist {#section_kk3_fjv_vxb .section}
+## Implementation Checklist
 
 We recommend that before you initially process invoices with an inclusive sales tax, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
-|Form|Tasks to Perform|
-|----|----------------|
-|[Taxes](TX_20_50_00.md) \(TX205000\)|You should create each inclusive sales tax that your company uses. The settings for each tax include the tax rate, the tax calculation method, and the tax validity period \(if any\). For details, see [Invoices with Inclusive Sales Taxes: Implementation Activity](Taxes_Invoices_with_InclusiveSalesTax_Implem_Activity.md).|
-|[Tax Zones](TX_20_60_00.md)\(TX206000\)|You should create all needed tax zones and include the taxes that should be applied in the corresponding location in each tax zone. You then associate an appropriate tax zone with each of your customers according to their locations. For details, see [Tax Zones and Categories: To Review Tax Categories and Create a Tax Zone for Sales Taxes](../ImplementationGuide/TaxZones_and_Categories_SalesTax_Implem_Activity.md).|
-|[Tax Categories](TX_20_55_00.md) \(TX205500\)|You should create the needed tax categories for all goods or services \(which are represented as stock items and non-stock items in Acumatica ERP\) that your company sells. For each tax category, you should add all taxes that should be applied to the corresponding category of goods and services in all geographical locations where your company conducts business. For details, see [Tax Zones and Categories: To Review Tax Categories and Create a Tax Zone for Sales Taxes](../ImplementationGuide/TaxZones_and_Categories_SalesTax_Implem_Activity.md).|
-|[Vendors](AP_30_30_00.md) \(AP303000\)|For each tax agency to which you will submit tax reports, you should create a vendor account with the **Vendor is Tax Agency** check box selected.|
-|[Stock Items](IN_20_25_00.md) \(IN202500\), [Non-Stock Items](IN_20_20_00.md) \(IN202000\)|To calculate tax amounts in the documents in which you specify inventory IDs, you should create stock items \(for goods\) and non-stock items \(for services\) and associate each item with the appropriate tax category.|
-|[Customers](AR_30_30_00.md) \(AR303000\)|You should create needed customers if they don't already exist. Depending on the geographical location of the sale transaction, different taxes can be applied to the document. To define which taxes are applied in the location of your customer, you should assign the appropriate tax zone to each new or existing customer.|
-|[Chart of Accounts](GL_20_25_00.md) \(GL202500\)|You should make sure that the following GL accounts that you will use for tax reporting purposes have been added:-   A liability account that will be used for accumulating the tax amounts to be paid to the tax agency in a tax period.
+<table id="_75f5a845-9a95-409c-9ffd-7c022ec672dc"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Tasks to Perform
+
+</th></tr></thead><tbody><tr><td>
+
+[Taxes](TX_20_50_00.md) \(TX205000\)
+
+</td><td>
+
+You should create each inclusive sales tax that your company uses. The settings for each tax include the tax rate, the tax calculation method, and the tax validity period \(if any\). For details, see [Invoices with Inclusive Sales Taxes: Implementation Activity](Taxes_Invoices_with_InclusiveSalesTax_Implem_Activity.md).
+
+</td></tr><tr><td>
+
+[Tax Zones](TX_20_60_00.md)\(TX206000\)
+
+</td><td>
+
+You should create all needed tax zones and include the taxes that should be applied in the corresponding location in each tax zone. You then associate an appropriate tax zone with each of your customers according to their locations. For details, see [Tax Zones and Categories: To Review Tax Categories and Create a Tax Zone for Sales Taxes](../ImplementationGuide/TaxZones_and_Categories_SalesTax_Implem_Activity.md).
+
+</td></tr><tr><td>
+
+[Tax Categories](TX_20_55_00.md) \(TX205500\)
+
+</td><td>
+
+You should create the needed tax categories for all goods or services \(which are represented as stock items and non-stock items in Acumatica ERP\) that your company sells. For each tax category, you should add all taxes that should be applied to the corresponding category of goods and services in all geographical locations where your company conducts business. For details, see [Tax Zones and Categories: To Review Tax Categories and Create a Tax Zone for Sales Taxes](../ImplementationGuide/TaxZones_and_Categories_SalesTax_Implem_Activity.md).
+
+</td></tr><tr><td>
+
+[Vendors](AP_30_30_00.md) \(AP303000\)
+
+</td><td>
+
+For each tax agency to which you will submit tax reports, you should create a vendor account with the **Vendor is Tax Agency** check box selected.
+
+</td></tr><tr><td>
+
+[Stock Items](IN_20_25_00.md) \(IN202500\), [Non-Stock Items](IN_20_20_00.md) \(IN202000\)
+
+</td><td>
+
+To calculate tax amounts in the documents in which you specify inventory IDs, you should create stock items \(for goods\) and non-stock items \(for services\) and associate each item with the appropriate tax category.
+
+</td></tr><tr><td>
+
+[Customers](AR_30_30_00.md) \(AR303000\)
+
+</td><td>
+
+You should create needed customers if they don't already exist. Depending on the geographical location of the sale transaction, different taxes can be applied to the document. To define which taxes are applied in the location of your customer, you should assign the appropriate tax zone to each new or existing customer.
+
+</td></tr><tr><td>
+
+[Chart of Accounts](GL_20_25_00.md) \(GL202500\)
+
+</td><td>
+
+You should make sure that the following GL accounts that you will use for tax reporting purposes have been added:-   A liability account that will be used for accumulating the tax amounts to be paid to the tax agency in a tax period.
 -   Expense accounts that will be used to record tax adjustments and expenses for the tax agency, and tax rounding gains and losses.
 
-|
+</td></tr></tbody>
+</table>
 
-## Other Settings That Affect the Workflow {#section_mk3_fjv_vxb .section}
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of processing invoices with an inclusive sales tax by specifying additional settings as follows:
 
@@ -35,7 +90,7 @@ You can affect the workflow of processing invoices with an inclusive sales tax b
     -   In the **Tax Rounding Gain Account** box, an account where the system will post amounts resulting from tax rounding gains
     -   In the **Tax Rounding Loss Account** box, an account where the system will post amounts resulting from tax rounding losses
 
-## Testing of Settings {#section_ok3_fjv_vxb .section}
+## Testing of Settings
 
 To make sure that all settings are configured correctly, we recommend that you process invoices with an inclusive sales tax by performing instructions similar to those described in [Invoices with Inclusive Sales Taxes: Process Activity](Taxes_Invoices_with_InclusiveSalesTax_Process_Activity.md).
 

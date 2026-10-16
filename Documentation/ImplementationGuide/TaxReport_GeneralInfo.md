@@ -1,16 +1,16 @@
-# Tax Report Configuration: General Information {#_2f9c4165-cf38-466e-a2de-8dca2946bdd0 .concept}
+# Tax Report Configuration: General Information
 
 A tax report is a document that contains tax information related to your business and that must be filed to a specific tax agency once per reporting period. The tax report is usually set up in a worksheet format that is determined by the particular tax agency. In Acumatica ERP, you can configure the content elements of the tax report based on the report form provided by the responsible tax agency, and define the rules for automatically filling the tax report with appropriate values. Although the tax reports differ depending on the taxes to be reported, generally the elements of the report form and the rules for filling the report are common.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to create and configure a tax report.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure a tax report in Acumatica ERP to set up the processes of accumulating taxes and preparing the tax report when it comes due. To configure a tax report, you should use as a template a blank tax report form from the particular tax collection agency, and create a tax report with a similar structure in Acumatica ERP.
 
-## Tax Report Configuration Process { .section}
+## Tax Report Configuration Process
 
 In Acumatica ERP, a tax report is represented as a table into which the system records the total tax amounts and taxable amounts for the period to be reported to the tax agency. When you configure a tax report in Acumatica ERP, you set up report lines that correspond to the tax agency’s report boxes. The resulting tax report is shown as a table consisting of these lines. Each row of the table holds an accumulated tax amount or taxable amount calculated on sales or purchases during the tax reporting period, or a sum or difference of these amounts. The number of lines in a particular tax report may vary depending on the number of taxes you need to report.
 
@@ -34,13 +34,13 @@ The type of reporting group you specify for a tax depends on the type of the par
 
 Once you have configured the elements of the tax report \(the report lines and reporting groups\), you need to add report lines to each reporting group you have created. You then associate each tax in the system with the appropriate reporting group, so that the taxes will be associated with the reporting groups, which in turn are related to some report lines. Thus, the tax amounts will be accumulated in the specific lines of the tax report.
 
-## Tax Reporting Period { .section}
+## Tax Reporting Period
 
 For each tax agency defined on the [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\) form, you can specify the frequency of tax report preparation in the **Default Tax Period Type** box on the **Tax Agency** tab; you can select *Half a Month*, *Month*, *Two Months*, *Quarter*, *Half a Year*, *Year*, or *Financial Period*.
 
 The selected tax period type determines the tax reporting periods defined for the tax agency. You can view these tax periods for each company on the [Tax Periods](../UserGuide/TX_20_70_00.md) \(TX207000\) form, where you can also change the tax period type for a particular company if the period type differs from the default one. These tax periods will be displayed in the **Reporting Period** box on the [Prepare Tax Report](../UserGuide/TX_50_10_00.md) \(TX501000\) form while you are preparing a tax report.
 
-## AP Bill to Pay the Reported Taxes { .section}
+## AP Bill to Pay the Reported Taxes
 
 You use the [Release Tax Report](../UserGuide/TX_50_20_00.md) \(TX502000\) form to release the prepared tax report. You can set up the system to automatically generate an AP bill on release of a tax report to a particular agency. The AP bill will contain the total tax amount that you must pay to the tax agency for the selected reporting period. To set up the system to generate an AP bill while releasing a tax report, you do the following:
 

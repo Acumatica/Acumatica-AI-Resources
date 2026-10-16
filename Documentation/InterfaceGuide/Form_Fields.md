@@ -1,8 +1,8 @@
-# Form Elements {#_c11be618-f8c5-4147-9b26-142dee670cd8 .concept}
+# Form Elements
 
 In Acumatica ERP, you use the form elements to enter settings, which the system stores in the database or uses as criteria to select what is displayed on the form.
 
-## Types of Form Elements { .section}
+## Types of Form Elements
 
 Acumatica ERP supports the following types of form elements:
 
@@ -16,26 +16,7 @@ Acumatica ERP supports the following types of form elements:
 
 If a box is marked with asterisk \(\*\), you must fill it in.
 
-## Unavailable Elements { .section}
+## Unavailable Elements
 
 When you enter data on the Acumatica ERP forms, you may notice that some elements are unavailable. Some of these unavailable elements are *info boxes*: read-only boxes that contain system-generated values, such as document statuses and total amounts. Other unavailable elements can be used only if a specific option is selected in another element on this form or on another form.
-
--   **[Date Boxes](../InterfaceGuide/Using_Date_Fields.md)**  
-
--   **[Calendar Dialog Box](../InterfaceGuide/Calendar.md)**  
-
--   **[Formula Boxes](../InterfaceGuide/UIG_Formula_Boxes.md)**  
-
--   **[Lookup Boxes](../InterfaceGuide/Using_Lookup_Fields.md)**  
-
--   **[Currency Boxes](../InterfaceGuide/Using_Currency_Fields.md)**  
-
--   **[Text Area](../InterfaceGuide/Using_Text_Area_with_Autosuggestions.md)**  
-
--   **[Translations Dialog Box](../InterfaceGuide/UIG__CON_TranslationBoxes.md)**  
-
--   **[Reminder Dialog Box](../InterfaceGuide/EP_50_60_00.md)**  
-
-
-**Parent topic:**[Forms](../InterfaceGuide/Forms.md)
 

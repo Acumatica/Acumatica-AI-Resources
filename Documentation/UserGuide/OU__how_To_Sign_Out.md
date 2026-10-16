@@ -1,4 +1,4 @@
-# To Sign Out {#_b77a4b71-1f6a-4481-9cda-6a0c2f5b94d4 .task}
+# To Sign Out
 
 If you want to sign in to the Acumatica ERP instance as a different user or to a different company, you need to sign out first.
 

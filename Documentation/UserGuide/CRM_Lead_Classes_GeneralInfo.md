@@ -1,17 +1,17 @@
-# Lead Classes: General Information {#_c2021679-f705-4e15-abb7-c24b8cceeb41 .concept}
+# Lead Classes: General Information
 
 In Acumatica ERP, you can group leads into classes based on specific characteristics. The use of lead classes may help you quickly and effectively manage your marketing and sales processes. These include lead acquisition, conversion of leads to opportunities, creation of customers, and preparation of financial reports.
 
 This topic provides information about lead classes.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Create a lead class
 -   Select the lead class that the system will use by default for each new lead
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to learn how to create lead classes in scenarios that include the following:
 
@@ -20,7 +20,7 @@ You may want to learn how to create lead classes in scenarios that include the f
 -   You need to give users the ability to group leads that have been acquired through such sources as an organic search, a marketing campaign, or a purchased list.
 -   You need to set up the system to automatically assign new leads to the appropriate owners.
 
-## Defining of Lead Classes { .section}
+## Defining of Lead Classes
 
 In Acumatica ERP, a lead class is a way to group leads that share at least one common characteristic. Lead classes make lead creation faster and more accurate by providing default settings for new leads.
 
@@ -37,7 +37,7 @@ You define each lead class on the [Lead Classes](CR_20_70_00.md) \(CR207000\) fo
 
 If your company no longer needs a particular lead class, you can remove it from the system only if no existing leads have that lead class specified.
 
-## How the Class Affects Lead Creation { .section}
+## How the Class Affects Lead Creation
 
 When you create a lead on the [Leads](CR_30_10_00.md) \(CR301000\) form and select a lead class, the system inserts the lead’s default settings based on the class settings. \(You can override these default settings.\)
 
@@ -49,7 +49,7 @@ If one lead class is used more frequently than the others, you can specify it as
 
 **Tip:** If you create a lead by using the [Contacts](CR_30_20_00.md) \(CR302000\) form, the system may insert a different lead class than the default one. If a lead class is specified on the [Contact Classes](CR_20_50_00.md) \(CR205000\) form for the source contact class, the system inserts this lead class.
 
-## Example of Lead Classes and Attributes { .section}
+## Example of Lead Classes and Attributes
 
 Consider the following example of the use of lead classes and attributes.
 

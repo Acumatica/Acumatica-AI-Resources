@@ -1,14 +1,14 @@
-# GL Consolidation Configuration: To Configure a Consolidation Unit {#_b131e5c1-ca39-49e5-8c0c-7076d91322f6 .task}
+# GL Consolidation Configuration: To Configure a Consolidation Unit
 
 In the following implementation activity, you will learn how to create a tenant with a consolidation unit and perform its initial configuration.
 
-## Story {#section_swl_mjv_vxb .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company has acquired a company in Arizona, which has to be implemented as a subsidiary in a separate tenant of Acumatica ERP. The data of the SweetLife AZ subsidiary should be used for GL consolidation in the parent company, SweetLife. Acting as the system administrator, you need to create a new tenant for the SweetLife AZ company and perform its initial configuration.
 
 **Attention:** For training purposes, you will create a company in a separate tenant to learn how to perform GL consolidation.
 
-## Process Overview {#section_vwl_mjv_vxb .section}
+## Process Overview
 
 In this activity, on the [Tenants](SM_20_35_20.md#) \(SM203520\) form, you will create a new tenant with the out-of-the-box company \(a company in a tenant without any dataset\). On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you will enable the features needed for a consolidation unit. On the [Companies](CS_10_15_00.md) \(CS101500\) form, you will create a company without branches and create an actual ledger for this company.
 
@@ -16,11 +16,11 @@ You will then update the length of the *ACCOUNT* segmented key on the [Segmented
 
 On the [Financial Year](GL_10_10_00.md) \(GL101000\) form, you will create the first financial year for the company and create periods for it. On the [Master Financial Calendar](GL_20_10_00.md) \(GL201000\) form, you will generate the calendar for this financial year and, finally, on the [Manage Financial Periods](GL_50_30_00.md) \(GL503000\) form, you will open the periods in the first financial year.
 
-## System Preparation {#section_axl_mjv_vxb .section}
+## System Preparation
 
 Before you start configuring the consolidation unit, make sure that you have downloaded the [AZ\_Subsidiary\_COA.xlsx](Files/AZ_Subsidiary_COA.xlsx) file with the chart of accounts of the SweetLife AZ company.
 
-## Step 1: Creating a Tenant with the Consolidation Unit {#section_lxl_mjv_vxb .section}
+## Step 1: Creating a Tenant with the Consolidation Unit
 
 To create a tenant with the out-of-the-box company where you will configure the consolidation unit, do the following:
 
@@ -46,7 +46,7 @@ To create a tenant with the out-of-the-box company where you will configure the 
     **Tip:** For training purposes, you will complete all activities in the *AZ\_Subsidiary* tenant by using the *admin* username. In a live system, you would use this username for initial system configuration, and then you would create usernames for specific users and assign the needed access rights to them.
 
 
-## Step 2: Enabling the Needed Set of Features {#section_rxl_mjv_vxb .section}
+## Step 2: Enabling the Needed Set of Features
 
 To enable the set of features needed for the consolidation unit, do the following:
 
@@ -66,7 +66,7 @@ To enable the set of features needed for the consolidation unit, do the followin
     -   *Third-Party Integrations*
 3.  On the form toolbar, click **Enable**.
 
-## Step 3: Creating a Company Without Branches {#section_txl_mjv_vxb .section}
+## Step 3: Creating a Company Without Branches
 
 To create a company without branches, do the following:
 
@@ -85,7 +85,7 @@ To create a company without branches, do the following:
 8.  In the **Primary Color** box, type the number sign followed by `31b4a5`.
 9.  On the form toolbar, click **Save** to save your changes.
 
-## Step 4: Creating an Actual Ledger {#section_wxl_mjv_vxb .section}
+## Step 4: Creating an Actual Ledger
 
 To create an actual ledger for the new company, which will also be the source of consolidation data, do the following:
 
@@ -102,7 +102,7 @@ To create an actual ledger for the new company, which will also be the source of
 4.  On the **Companies** tab, click **Add Row** and in the **Company** column, select *SWEETAZ*.
 5.  On the form toolbar, click **Save** to save your changes.
 
-## Step 5: Creating the Chart of Accounts {#section_zxl_mjv_vxb .section}
+## Step 5: Creating the Chart of Accounts
 
 Before you start creating the chart of accounts, you need to modify the *ACCOUNT* segmented key. Do the following:
 
@@ -117,7 +117,7 @@ Before you start creating the chart of accounts, you need to modify the *ACCOUNT
 9.  In Step 3 of the wizard, leave the current mapping and click **Finish**.
 10. On the form toolbar, click **Save**.
 
-## Step 6: Specifying GL Preferences {#section_byl_mjv_vxb .section}
+## Step 6: Specifying GL Preferences
 
 To specify the general ledger preferences for the SweetLife AZ company, do the following:
 
@@ -129,7 +129,7 @@ To specify the general ledger preferences for the SweetLife AZ company, do the f
 6.  In the **Data Entry Settings** section, clear the **Hold Batches on Entry** check box.
 7.  On the form toolbar, click **Save**.
 
-## Step 7: Creating a Financial Calendar for the Consolidation Unit {#section_dyl_mjv_vxb .section}
+## Step 7: Creating a Financial Calendar for the Consolidation Unit
 
 To set up the first financial year for the SweetLife AZ company and open the financial periods, do the following:
 

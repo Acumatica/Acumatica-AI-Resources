@@ -1,8 +1,8 @@
-# Multifactor Authentication in Acumatica ERP {#_ed1f84a2-e6af-4903-b591-4e597c5286d8 .concept}
+# Multifactor Authentication in Acumatica ERP
 
 This topic describes possible strategies to use multifactor authentication in Acumatica ERP.
 
-## Single Sign-On { .section}
+## Single Sign-On
 
 The best way to implement multifactor authentication in Acumatica ERP is to take advantage of Acumatica’s single sign-on \(SSO\) capabilities. Currently, Acumatica ERP supports SSO with the following multifactor authentication providers:
 
@@ -12,9 +12,8 @@ The best way to implement multifactor authentication in Acumatica ERP is to take
 
 With the use of one of these multifactor authentication providers, users sign in to a provider by using multiple authentication options. The user is then seamlessly signed into Acumatica ERP by using the SSO functionality \(see the following screenshot\).
 
-![](Images/AS__con_Authentication_multi_factor_in_Acumatica.png "User sign-in model")
 
-## Virtual Private Network \(VPN\) { .section}
+## Virtual Private Network \(VPN\)
 
 An alternate strategy involves setting up a virtual private network \(VPN\). The VPN serves as the first layer of authentication, while the Acumatica ERP username and password act as the second layer.
 

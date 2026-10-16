@@ -1,4 +1,4 @@
-# Configuration of Callbacks {#_417ca500-35a1-4f3d-9d76-e64a198126af .concept}
+# Configuration of Callbacks
 
 Events are generated on the server side of your application when the client side requests data or posts changes made by a user. When the client posts data to the server, the client is initiating a callback to the server. Callbacks are initiated in the following cases:
 

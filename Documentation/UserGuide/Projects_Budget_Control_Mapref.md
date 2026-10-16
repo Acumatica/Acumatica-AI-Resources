@@ -1,4 +1,4 @@
-# Controlling the Project Budget {#_48c344c2-dd9d-44ef-8316-38d40ab25bbb .concept}
+# Controlling the Project Budget
 
 This chapter explains how to prevent the original budget values of the project from being edited and how to verify that a newly entered document aligns with the agreed-on project budget.
 

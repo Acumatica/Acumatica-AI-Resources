@@ -1,4 +1,4 @@
-# Assigning Roles to Users in the Portal {#_6c9cce5b-e789-4eb6-88c3-a7f53937833b .concept}
+# Assigning Roles to Users in the Portal
 
 Roles determine which forms and actions are available to portal users in the Modern Customer Portal. Each role includes a defined set of access rights, and every portal user must have at least one role. Roles can be assigned to portal users by:
 

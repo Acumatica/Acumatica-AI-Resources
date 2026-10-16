@@ -1,16 +1,16 @@
-# Parent-Child Relationships: Relationship Removal {#_57584042-3b30-497e-9e40-78c43a49bae6 .concept}
+# Parent-Child Relationships: Relationship Removal
 
 The structure of companies may change over time, and these changes need to be reflected in the customer accounts in the system.
 
 In this topic, you will read about how to remove parent-child relationships and how this will affect the accounts and documents of the involved customers.
 
-## Deletion of the Relationship {#section_szl_4jv_vxb .section}
+## Deletion of the Relationship
 
 You can delete the parent-child relationship between customer accounts at any time. For the child customer account for which you want to sever this relationship, you delete the account selected in the **Parent Account** box on the [Customers](AR_30_30_00.md) \(AR303000\) form \(**Billing** tab\) and save your changes; this removes the relationship.
 
 **Tip:** Before you delete the relationship, make sure that all payment applications of any parent payment to a child document are released or reversed. You cannot save changes in the parent-child relationship if any applications of this type are not released. However, you can reverse the application of any parent payment to a child invoice or memo after the relationship has been changed or removed.
 
-## Impact on Accounts Involved {#section_vzl_4jv_vxb .section}
+## Impact on Accounts Involved
 
 The deletion of the relationship affects the following aspects of the customer accounts involved:
 

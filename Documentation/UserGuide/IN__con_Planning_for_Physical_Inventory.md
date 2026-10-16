@@ -1,10 +1,10 @@
-# Configuration of Physical Inventory {#_07846c5c-3f3c-4f53-9d18-29566c9090e9 .concept}
+# Configuration of Physical Inventory
 
 Physical inventory is an important process if your organization that sells items, because it gives you accurate numbers of goods in stock. Acumatica ERP provides you with various methods of physical inventory counts \(such as full physical inventory and cycle counting\). You set up physical inventory during configuration of the Inventory module in the system.
 
 In this topic, you will find basic information about configuring physical inventory in Acumatica ERP.
 
-## Configuration of Physical Inventory { .section}
+## Configuration of Physical Inventory
 
 In Acumatica ERP, you can create as many types of physical inventory counts \(called *physical inventory types*\) as you need by using the [Physical Inventory Types](IN_20_89_00.md) \(IN208900\) form. The physical inventory type defines the way the system selects inventory items for counting, and the order of count lines in the physical inventory document. For each physical count, you have to prepare the physical inventory document; you can also print the count sheets and count tags. You do the following to configure a physical inventory type:
 

@@ -1,4 +1,4 @@
-# Action Customization: Visibility of an Action {#_65b43077-9080-418e-8949-3c96a5bede68 .concept}
+# Action Customization: Visibility of an Action
 
 You can manage the visibility of an action on an Acumatica ERP form. The visibility determines whether the corresponding button on a toolbar or command on the More menu \(or both\) are hidden or shown.
 
@@ -13,7 +13,7 @@ You can change the attributes of an action in one of the following ways:
 
 -   [Statically, by overriding the action attributes in the graph extension](#_7651431c-dc11-4cd9-8ba2-98c8c3c29147).
 
-## To Set an Action's Visibility at Run Time \(Custom Graph\) {#section_fv3_dwj_nqb .section}
+## To Set an Action's Visibility at Run Time \(Custom Graph\)
 
 To set the visibility of an action's corresponding button on a toolbar or command on the More menu \(or both\), you need to use the SetVisible method. You should use the SetVisible method in the following locations:
 
@@ -42,7 +42,7 @@ Suppose that on a particular form, when the `Status` field of a document is chan
     The code above makes the `MyAction` action's corresponding button on the form toolbar and the command on the More menu visible when the status of a document is *Open*.
 
 
-## To Hide or Show a Button on a Form Toolbar {#section_dsc_s4m_4qb .section}
+## To Hide or Show a Button on a Form Toolbar
 
 The command corresponding to an action defined for a form is visible on the More menu.
 
@@ -70,7 +70,7 @@ You can also show an action as a button on the form toolbar of a particular form
 
 **Important:** The button corresponding to an action is displayed on the toolbar only if the action is enabled and the button fits on the toolbar.
 
-## To Hide or Show a Button of a Predefined Action at Run Time {#_7ff62fb1-a453-4a27-925a-641eb6776463 .section}
+## To Hide or Show a Button of a Predefined Action at Run Time
 
 Suppose that you need to hide the button corresponding to the `MyAction` action, which is defined in the original code of Acumatica ERP. The visibility of the `MyAction` action is defined by using the PXUIField attribute, and you need to hide this button by default. To do this, you need to change the visibility of the action in a graph extension by doing the following:
 
@@ -92,7 +92,7 @@ Suppose that you need to hide the button corresponding to the `MyAction` action,
     **Note:** To show the action button, use *true* instead of *false* for the SetVisible method call.
 
 
-## To Hide or Show the Button of an Action Statically {#_7651431c-dc11-4cd9-8ba2-98c8c3c29147 .section}
+## To Hide or Show the Button of an Action Statically
 
 To override action attributes in a graph extension statically, you should declare both the delegate and the graph member of the PXAction type. You should attach a new set of attributes to the action delegate declared within the graph extension. Also, you need to invoke the Press\(\) method on the base graph action. Because you have re-declared the member of PXAction, you prevent the execution of the action delegate from infinite loops.
 

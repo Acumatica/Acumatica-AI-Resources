@@ -1,10 +1,10 @@
-# Parent-Child Relationships: Process Activity {#_fa6b3615-c64c-4eee-9be7-2def1c6ee1ae .task}
+# Parent-Child Relationships: Process Activity
 
 The following activity will walk you through the process of setting up the parent-child relationship between three existing customer accounts.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that Food Clever, one of SweetLife customers, has acquired Blue Cafe and Cafe French Bun, which are also SweetLife customers. That is, Food Clever is now the parent company and Blue Cafe and Cafe French Bun are its subsidies. The companies have a consolidated balance and need to receive consolidated customer statements from SweetLife, but they do not share a credit policy.
 
@@ -12,7 +12,7 @@ Further suppose that Blue Cafe and Cafe French Bun bought training courses from 
 
 Acting as the chief accountant of SweetLife Fruits &amp; Jams, you need to update the settings of the customer accounts in the system, create the invoices for the child accounts, enter a payment from the parent account, and generate a consolidated report.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -23,11 +23,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, the **Hold Documents on Entry** check box has been selected in the **Data Entry Settings** section.
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *FOODCLVR \(Food Clever\)*, *BLUECAFE \(Blue Cafe\)*, and *FRBUN \(Cafe French Bun\)* customers have been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will first enable the *Parent-Child Customer Relationship* feature on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. You will then set up the parent and child relationships between customers by updating their settings on the [Customers](AR_30_30_00.md) \(AR303000\) form. You will create two invoices for child accounts on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. On the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, you will create the parent customer's payment for these two invoices. Finally, you will review the consolidated balance of the parent account by running the [AR Balance by Customer](AR_63_25_00.md) \(AR632500\) report.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -35,7 +35,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step 1: Enabling the Needed Feature { .section}
+## Step 1: Enabling the Needed Feature
 
 To enable the *Parent-Child Customer Relationship* feature, do the following:
 
@@ -44,7 +44,7 @@ To enable the *Parent-Child Customer Relationship* feature, do the following:
 3.  Select the **Parent-Child Customer Relationship** check box in the **Advanced Financials** group of features.
 4.  On the form toolbar, click **Enable** to enable the feature.
 
-## Step 2: Setting Up the Child Accounts { .section}
+## Step 2: Setting Up the Child Accounts
 
 To update the settings of the customers to be defined as child accounts, do the following:
 
@@ -60,7 +60,7 @@ To update the settings of the customers to be defined as child accounts, do the 
     -   **Consolidate Statements**: Selected
 8.  On the form toolbar, click **Save**.
 
-## Step 3: Reviewing the Parent Account { .section}
+## Step 3: Reviewing the Parent Account
 
 To review the settings of the parent account, do the following:
 
@@ -70,7 +70,7 @@ To review the settings of the parent account, do the following:
     The first row displays the settings of the parent account \(*FOODCLVR*\). The other two rows display the settings of the company's child accounts \(*BLUECAFE* and *FRBUN*\).
 
 
-## Step 4: Creating Invoices for Child Accounts { .section}
+## Step 4: Creating Invoices for Child Accounts
 
 To create invoices for the child accounts, do the following:
 
@@ -96,7 +96,7 @@ To create invoices for the child accounts, do the following:
     -   **Ext. Price**: `210`
 7.  On the form toolbar, click **Remove Hold** and then click **Release**.
 
-## Step 5: Creating a Payment for the Parent Company { .section}
+## Step 5: Creating a Payment for the Parent Company
 
 To create a payment from the parent company for the training course, do the following:
 
@@ -115,7 +115,7 @@ To create a payment from the parent company for the training course, do the foll
     -   **Reference Nbr.**: The reference number of the $210 invoice that you created in Step 4
 5.  On the form toolbar, click **Remove Hold** and then click **Release** to release the payment.
 
-## Step 6: Reviewing the Balance of the Parent Account { .section}
+## Step 6: Reviewing the Balance of the Parent Account
 
 To review the consolidated balance of the parent account, do the following:
 

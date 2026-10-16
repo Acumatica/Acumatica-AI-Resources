@@ -1,4 +1,4 @@
-# Debit and Credit Adjustments: Mass Processing {#_e58821b6-552a-440e-ba5e-a247ad30348b .concept}
+# Debit and Credit Adjustments: Mass Processing
 
 This topic explains how to release multiple AP debit and credit adjustments and the rules that the system uses to group the prepared documents.
 

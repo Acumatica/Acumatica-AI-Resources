@@ -1,4 +1,4 @@
-# To Add a Title for a Report Section {#_8f292dd7-6693-412a-8e68-f4fe06143dac .task}
+# To Add a Title for a Report Section
 
 A report can include multiple sections, with each having a header. Depending on the report structure, you can use either row captions or column headers to set up the headers for the report sections.
 
@@ -6,7 +6,7 @@ For a flat report structure, the report sections usually include rows from the w
 
 For a hierarchical report structure, you should use column set headers for each section in the report, as described in the third subprocedure.
 
-## To Specify a Report Section Title for a Flat Report Structure: Using a Column Set Header { .section}
+## To Specify a Report Section Title for a Flat Report Structure: Using a Column Set Header
 
 1.  Open the [Column Sets](CS_20_60_20.md) \(CS206020\) form.
 2.  In the **Code** box of the Summary area, select the code of the column set used in the report.
@@ -31,7 +31,7 @@ For a hierarchical report structure, you should use column set headers for each 
     4.  On the form toolbar, click **Save**.
 11. Return to the [Column Sets](CS_20_60_20.md) \(CS206020\) form, and on the form toolbar, click **Save**.
 
-## To Specify a Report Section Title for a Flat Report Structure: Using a Row Set Caption { .section}
+## To Specify a Report Section Title for a Flat Report Structure: Using a Row Set Caption
 
 1.  Open the [Row Sets](CS_20_60_10.md) \(CS206010\) form.
 2.  In the **Code** box of the Summary area, select the code of the row set used in the report.
@@ -41,7 +41,7 @@ For a hierarchical report structure, you should use column set headers for each 
 6.  In the **Style** column, click the magnifier icon, and in the dialog box that opens, select the parameter values to define the report section title formatting. Click **OK** to exit the dialog box.
 7.  Click **Save** on the form toolbar.
 
-## To Specify a Report Section Titles for a Hierarchical Report Structure { .section}
+## To Specify a Report Section Titles for a Hierarchical Report Structure
 
 1.  Open the [Column Sets](CS_20_60_20.md) \(CS206020\) form.
 2.  In the **Code** box of the Summary area, select the code of the column set used in the report.

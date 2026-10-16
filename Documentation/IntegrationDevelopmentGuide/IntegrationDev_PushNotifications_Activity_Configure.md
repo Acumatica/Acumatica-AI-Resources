@@ -1,30 +1,29 @@
-# Push Notifications: To Configure Push Notifications {#_a403e854-a30e-4964-8bfb-886f594fdd14 .task}
+# Push Notifications: To Configure Push Notifications
 
 This activity will walk you through the process of configuring Acumatica ERP to send push notifications to an HTTP address.
 
-## Story { .section}
+## Story
 
 The business intelligence \(BI\) application of the MyStore company needs to display up-to-date information about item availability in warehouses. You will configure Acumatica ERP to track the changes in item availability and to send notifications to an HTTP address when the availability of any item changes. \(The processing of these notifications in the BI application is outside of the scope of this activity.\)
 
-## Process Overview { .section}
+## Process Overview
 
 You will configure Acumatica ERP to monitor changes in the Item Availability Data \(INGI0002\) custom generic inquiry, which has been configured for this activity. You will then test how Acumatica ERP sends push notifications about the changes to an HTTP address in JSON format.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, deploy an instance of Acumatica ERP with the *MyStoreInstance* name and a tenant that has the *MyStore* name and contains the *T100* data.
 
-## Step 1: Obtaining an HTTP Address for Push Notifications { .section}
+## Step 1: Obtaining an HTTP Address for Push Notifications
 
 To test the push notifications that you will set up Acumatica ERP to send to an HTTP address, you will use the [https://webhook.site/](https://webhook.site/) website, which is an open-source service. To obtain the HTTP address that you will use for testing, do the following:
 
 1.  Open [https://webhook.site/](https://webhook.site/).
 2.  In the **Your unique URL** section, copy the HTTP address that the site has generated. An example of the address is shown in the following screenshot.
 
-    ![](Images/WebhookAddress.png "An HTTP address")
 
 
-## Step 2: Configuring Push Notifications { .section}
+## Step 2: Configuring Push Notifications
 
 To configure Acumatica ERP to send push notifications to an HTTP address, do the following:
 
@@ -47,10 +46,9 @@ To configure Acumatica ERP to send push notifications to an HTTP address, do the
 
 4.  On the form toolbar, click **Save**. The following screenshot shows the final configuration.
 
-    ![](Images/PushNotificationsForm.png "Push notification configuration")
 
 
-## Step 3: Testing Push Notifications { .section}
+## Step 3: Testing Push Notifications
 
 To test the configured notifications, do the following:
 
@@ -61,7 +59,7 @@ To test the configured notifications, do the following:
     4.  On the form toolbar, click **Save**.
 2.  On the [https://webhook.site/](https://webhook.site/) site, review the push notification that Acumatica ERP sent for the change in the available quantity for the *AALEGO500* inventory item. When you created a sales order, the available quantity of the *AALEGO500* inventory item was changed. The notification contains the information about the new value of the QtyAvailable field of the changed record in the `Inserted` element and the information about the previous value of this field in the `Deleted` element. An example of the notification is shown in the following code.
 
-    ```language-json
+    ```json
     {
       "Inserted":
       [

@@ -1,4 +1,4 @@
-# Data View and Cache {#_cd8f9db9-2965-4ce4-9ae8-4714898fdc44 .concept}
+# Data View and Cache
 
 Data views implement the interfaces for querying the data from the database and submitting modified data to the cache.
 
@@ -19,9 +19,8 @@ A *DAC cache* object in the Acumatica Framework is the primary interface for wor
 
 The diagram below shows the internal graph structure and responsibilities of the data view and the cache.
 
-![](Images/GraphStructure.png "The graph structure")
 
-## Master-Detail Relationship Between Data Views { .section}
+## Master-Detail Relationship Between Data Views
 
 The framework executes data views in the order requested by the form. You do not have to execute a data view explicitly to retrieve data for the UI.
 

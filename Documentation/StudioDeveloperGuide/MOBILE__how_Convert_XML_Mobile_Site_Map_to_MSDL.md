@@ -1,8 +1,8 @@
-# To Convert an XML Mobile Site Map to MSDL Format {#_4e35fe59-24fb-4ec7-940a-ee624278fa97 .task}
+# To Convert an XML Mobile Site Map to MSDL Format
 
 You can convert an XML mobile site map to MSDL format any time you want by using the `ac.exe` command-line utility, as described in this topic.
 
-## To Convert an XML Site Map to MSDL Format { .section}
+## To Convert an XML Site Map to MSDL Format
 
 Run the `ac.exe` command-line utility, which is located in the `Data` folder of your Acumatica ERP installation folder, with the MOBILESITEMAP command, the convert argument, and the following parameters:
 

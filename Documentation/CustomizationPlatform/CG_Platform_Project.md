@@ -1,4 +1,4 @@
-# Customization Project {#_0463a7f0-b67f-4a75-a976-583a2ad8b3d2 .concept}
+# Customization Project
 
 When you use the tools provided by the Acumatica Customization Platform, the platform uses a customization project as a container that holds each change you make during the customization.
 
@@ -11,7 +11,6 @@ A customization project is a set of changes to the user interface, configuration
 -   Changes in the application configuration \(site map changes, new system locales, integration scenarios, shared reusable filters, access rights of roles to forms, changes of wikis\) that are saved in the database for the current tenant
 -   Additional files that you need for Acumatica ERP customization
 
-![](images/CG_Platform_CustomizationProject.png "Content of a customization project")
 
 You develop and maintain customization projects by using the tools of the Acumatica Customization Platform \(see [Customization Tools](CG_Platform_Tools.md) for details\). This platform provides the mechanisms to develop, upgrade, publish, unpublish \(that is, cancel publication\), export, and import a customization project. The content of a customization project is stored in the database of the Acumatica ERP instance.
 

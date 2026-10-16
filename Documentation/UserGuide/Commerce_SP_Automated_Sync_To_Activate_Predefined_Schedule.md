@@ -1,18 +1,18 @@
-# Automated Synchronization: To Activate a Predefined Automation Schedule {#_d0dcbdb5-2aaf-4d99-bc18-8a828e907c6c .task}
+# Automated Synchronization: To Activate a Predefined Automation Schedule
 
 The following activity will walk you through the setup and activation of two predefined automation schedules that start the data preparation and data processing for sales orders.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that as an implementation consultant helping SweetLife to set up integration with Shopify, you want to configure continuous synchronization of entities. As part of the setup, you need to configure the system to capture new and changed sales orders in Shopify every 10 minutes and import these changes to Acumatica ERP.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will set up and activate the predefined automation schedule on the [Automation Schedules](SM_20_50_20.md) \(SM205020\) form to prepare sales order data. Then on the same form, you will set up and activate the predefined automation schedule for processing the prepared sales order data.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you perform the instructions of this activity, do the following:
 
@@ -24,7 +24,7 @@ Before you perform the instructions of this activity, do the following:
     -   **Password**: *123*
 3.  Sign in to the admin area of the Shopify store as the store administrator in the same browser.
 
-## Step 1: Activating and Setting Up the First Synchronization Schedule { .section}
+## Step 1: Activating and Setting Up the First Synchronization Schedule
 
 To set up and activate the first predefined synchronization schedule, which will start the data preparation process for the sales order data, do the following:
 
@@ -46,7 +46,7 @@ To set up and activate the first predefined synchronization schedule, which will
     Now when the schedule is executed, which will happen every 10 minutes until you deactivate or delete the schedule, any changes that have occurred in sales orders in *SweetStore - SP* since the previous data preparation, will be pulled to Acumatica ERP and placed in the processing queue. In the next step, you will set up an automation schedule that will start data processing for the prepared sales order data.
 
 
-## Step 2: Activating and Setting Up the Second Synchronization Schedule { .section}
+## Step 2: Activating and Setting Up the Second Synchronization Schedule
 
 To set up and activate the second predefined synchronization schedule, which will start data processing for the prepared sales order data, do the following:
 

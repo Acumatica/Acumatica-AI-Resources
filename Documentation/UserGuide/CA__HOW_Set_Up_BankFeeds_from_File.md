@@ -1,14 +1,14 @@
-# To Set Up Bank Feeds Loaded from a CSV File {#_155354ab-696c-403f-8797-dbded1188e16 .task}
+# To Set Up Bank Feeds Loaded from a CSV File
 
 You use the [Bank Feeds](CA_20_55_00.md) \(CA205500\) form to set up bank feeds that load bank transactions from a CSV file. On the same form, you connect to the SFTP folder where source files are stored and specify the mapping between the fields of the source file and the settings in Acumatica ERP.
 
 In the **Amount Format** box of the [Bank Feeds](CA_20_55_00.md) form \(**Source File** tab\), you select the option that describes the format of debit and credit amounts in the source file; the bank feed is set up slightly differently depending on the result in this file. The following sections describe how to set up bank feeds that use different amount formats.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Make sure that the *Bank Feed Integration* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. On the [Activate License](SM_20_15_10.md) \(SM201510\) form, make sure that the needed license is activated.
 
-## To Set Up a Bank Feed \(Debit/Credit in Same Column\) { .section}
+## To Set Up a Bank Feed \(Debit/Credit in Same Column\)
 
 To set up a bank feed that loads a source file with the *Debit/Credit in Same Column* amount format, do the following:
 
@@ -70,7 +70,7 @@ To set up a bank feed that loads a source file with the *Debit/Credit in Same Co
     .
 
 
-## To Set Up a Bank Feed \(Debit and Credit in Different Columns\) { .section}
+## To Set Up a Bank Feed \(Debit and Credit in Different Columns\)
 
 To set up a bank feed that loads a source file with the *Debit and Credit in Different Columns* amount format, do the following:
 
@@ -131,7 +131,7 @@ To set up a bank feed that loads a source file with the *Debit and Credit in Dif
     You can process this bank feed on the [Retrieve Bank Feed Transactions](CA_50_75_00.md) \(CA507500\) form. For details, see [To Load Bank Transactions from a File](CA__HOW_Load_BankFeeds_from_File.md).
 
 
-## To Set Up a Bank Feed \(Debit/Credit Property in Separate Columns\) { .section}
+## To Set Up a Bank Feed \(Debit/Credit Property in Separate Columns\)
 
 To set up a bank feed that loads a source file with the *Debit/Credit Property in Separate Columns* amount format, do the following:
 

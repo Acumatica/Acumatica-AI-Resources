@@ -1,10 +1,10 @@
-# WIP Labor Costs in Cost-Plus Projects: Process Activity {#_1b50755a-1ab3-461d-9fe8-d113c321b13b .task}
+# WIP Labor Costs in Cost-Plus Projects: Process Activity
 
 In this activity, you will learn how to temporarily allocate project expenses to a work-in-progress account group and then use the allocation transactions for billing.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that in January, the West BBQ Restaurant customer ordered training for new employees on the operation of juicers from the SweetLife Fruits &amp; Jams company. The customer didn’t know the exact number of employees or the number of training sessions that would be needed. The SweetLife company agreed with the customer to provide as many training sessions as the customer needed in January and February. Further, both parties agreed that on *2/25/2026*, the customer would pay for all the hours of training sessions that took place.
 
@@ -12,7 +12,7 @@ The project manager of SweetLife created a project for this work. Then suppose t
 
 Acting as SweetLife's project accountant, you need to bill the customer, and you want the project expense incurred in January to be recorded in the same financial period as the project revenue—that is, in February. You will allocate the project expenses and bill the project.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -26,18 +26,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Billing Rules](PM_20_70_00.md) \(PM207000\) form, the *WIP* billing rule has been created, which processes the allocated transactions from the *WIP* account group during the project billing.
 -   On the [Employee Time Cards](EP_30_50_00.md) \(EP305000\) form, the *0000001* time card, reflecting the work of Pam Brawner on the *WESTBBQ6A* project, has been created. The time card has also been released, and the *PM00000019* batch of project transactions that corresponds to the time card has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will first specify the allocation rule and billing rule for the project task on the [Project Tasks](PM_30_20_00.md) \(PM302000\) form. You will review existing project transactions to be allocated on the [Project Transaction Details](PM_40_10_00.md) \(PM401000\) form and then perform allocation for the project on the [Projects](PM_30_10_00.md) \(PM301000\) form. On the same form, you will bill the project and release the AR invoice created as a result of the billing on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. The system will create the reversing allocation transactions that you review on the [Project Transaction Details](PM_40_10_00.md) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded; you should sign in as project accountant by using the *brawner* username and the *123* password.
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *2/25/2026*. If a different date is displayed, click the Business Date menu button, and select *2/25/2026* on the calendar. For simplicity, in this activity, you will create and process all documents in the system during this business date.
 
-## Step 1: Configuring the Project for Allocation and Allocating the Project { .section}
+## Step 1: Configuring the Project for Allocation and Allocating the Project
 
 To configure the project for allocation and allocate project transactions, do the following:
 
@@ -78,7 +78,7 @@ To configure the project for allocation and allocate project transactions, do th
     -   **Allocated**: This check box is selected for the original transaction with the *Time Card* original document type, indicating that the transaction has been used as the source for allocation.
 7.  Close the form and return to the *WESTBBQ6A* project on the [Projects](PM_30_10_00.md) form.
 
-## Step 2: Billing the Project { .section}
+## Step 2: Billing the Project
 
 To bill the project, do the following:
 
@@ -92,7 +92,6 @@ To bill the project, do the following:
 
     In the table, notice that two new transactions have been created \(see below\).
 
-    ![](Images/activity_Projects_WIP_Allocation_With_Costs.png "Project transactions of the WESTBBQ6A project")
 
     Review the transactions, noticing the values in the following columns:
 

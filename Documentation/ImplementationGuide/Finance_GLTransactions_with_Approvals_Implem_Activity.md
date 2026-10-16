@@ -1,24 +1,24 @@
-# Approval Configuration: Implementation Activity {#_85dd01b5-fcac-435e-a254-2766ba3b48cc .task}
+# Approval Configuration: Implementation Activity
 
 In the following implementation activity, you will learn how to set up approvals for GL transactions—journal transactions entered directly in the general ledger.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_ax3_mjv_vxb .section}
+## Story
 
 Suppose that according to the internal requirements of SweetLife Fruits &amp; Jams, specific GL transactions have to be reviewed by a financial supervisor. The supervisor must approve each GL transaction with the *Normal* type that has an amount exceeding $150 \(in US dollars\) and is posted to the *81000 \(Other Expenses\)* account. If a transaction meets these conditions, this transaction can be posted after it has been approved by the financial supervisor. If the financial supervisor rejects the transaction, they must specify the reason for rejection.
 
 Acting as a system administrator, you need to configure an approval map for this type of transactions and assign Anna Johnson, a financial supervisor, as the approver of these transactions.
 
-## Process Overview {#section_dx3_mjv_vxb .section}
+## Process Overview
 
 In this activity, you will first enable the *Approval Workflow* feature on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form. On the [Approval Maps](../UserGuide/EP_20_50_15.md) \(EP205015\) form, you will create an approval map, specifying the approver, the conditions for GL transactions, and the actions to be performed on approval of the GL transactions that match those conditions. Finally, on the [General Ledger Preferences](../UserGuide/GL_10_20_00.md) \(GL102000\) form, you will add the approval map on the **Approval** tab and specify the email template for it.
 
-## System Preparation {#section_fx3_mjv_vxb .section}
+## System Preparation
 
 Before you start configuring approvals for GL transactions, launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as the system administrator with the *gibbs* username and the *123* password.
 
-## Step 1: Enabling the Needed Feature {#section_hx3_mjv_vxb .section}
+## Step 1: Enabling the Needed Feature
 
 To enable the *Approval Workflow* feature, do the following:
 
@@ -26,7 +26,7 @@ To enable the *Approval Workflow* feature, do the following:
 2.  Under **Platform**, select the **Approval Workflow** check box.
 3.  On the form toolbar, click **Enable** to enable the feature.
 
-## Step 2: Creating an Approval Map for GL Transactions {#section_jx3_mjv_vxb .section}
+## Step 2: Creating an Approval Map for GL Transactions
 
 To create an approval map, do the following:
 
@@ -66,7 +66,6 @@ To create an approval map, do the following:
 
     The following screenshot shows the conditions specified on the **Conditions** tab.
 
-    ![](Images/activity_Finance_Approval_Map_GL_Transactions_Conditions.png "The Conditions tab")
 
 10. On the **Rule Actions** tab, specify the following settings:
     -   **Approver**: *Employee*
@@ -74,7 +73,7 @@ To create an approval map, do the following:
     -   **Reason for Rejection**: *Is Required*
 11. On the form toolbar, click **Save** to save your changes.
 
-## Step 3: Specifying the Approval Settings for GL Transactions {#section_mx3_mjv_vxb .section}
+## Step 3: Specifying the Approval Settings for GL Transactions
 
 To specify the settings for approval of GL transactions, do the following:
 

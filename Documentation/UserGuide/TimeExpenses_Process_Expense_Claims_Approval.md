@@ -1,8 +1,8 @@
-# Expense Claims: Expense Claim Approval {#_a76fae1a-2728-4156-9875-eae5bc3e6217 .concept}
+# Expense Claims: Expense Claim Approval
 
 If the *Expense Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, a claim can be submitted for further processing if it includes at least one expense receipt with the *Open* status.
 
-## Assignment for Approval { .section}
+## Assignment for Approval
 
 After an expense claim has been submitted, it may be assigned to an authorized employee for approval in one of the following ways, depending on the *Approval Workflow* feature's state on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form:
 
@@ -25,7 +25,7 @@ If the expense claim requires no approval, it is assigned the *Open* status and 
 
 When the expense claim is assigned for approval, its status changes to *Pending Approval*. The claim will not be reassigned to another approver if you enable or disable the *Approval Workflow* feature on the [Enable/Disable Features](CS_10_00_00.md) form or if you modify the approval map specified for expense claims.
 
-## Approval of Expense Claims { .section}
+## Approval of Expense Claims
 
 You can approve or reject an expense claim on the [Expense Claim](EP_30_10_00.md) \(EP301000\) form by clicking **Approve** or **Reject** on the form toolbar if the claim meets one of the following conditions:
 

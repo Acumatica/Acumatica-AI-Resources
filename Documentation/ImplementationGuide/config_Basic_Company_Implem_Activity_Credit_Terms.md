@@ -1,20 +1,20 @@
-# Credit Terms: To Define Single-Installment Credit Terms {#_ecb8dcdd-729d-4f38-9e77-7b3c28f4e052 .task}
+# Credit Terms: To Define Single-Installment Credit Terms
 
 In this activity, you will learn how to define single-installment credit terms, which can be used by vendors in their relations with the company and by the company in its relations with customers.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife has agreements with its customers stipulating that the full amount of each document will be paid within 30 days; no cash discounts are provided. Acting as an administrator, you have to define one set of credit terms, which indicate that the full amount of each document must be paid within 30 days.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Credit Terms](../UserGuide/CS_20_65_00.md) \(CS206500\) form, you will create the credit terms for the new company.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start defining the credit terms, make sure that the company and its actual ledger has been created, as described in [Company Without Branches: To Configure a Company Without Branches](config_Basic_Company_Implem_Activity_Enabling_Features.md) and [General Ledger: To Create an Actual Ledger](config_Basic_Company_Implem_Activity_Actual_Ledger.md).
 
-## Step: Defining Credit Terms { .section}
+## Step: Defining Credit Terms
 
 To define the needed set of credit terms, do the following:
 

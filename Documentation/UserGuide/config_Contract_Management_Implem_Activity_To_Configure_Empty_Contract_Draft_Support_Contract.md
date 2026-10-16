@@ -1,10 +1,10 @@
-# Contract Setup and Activation: To Create and Activate an Empty Support Contract Draft {#_82afe9cb-d01a-4c10-9354-3c419e7be5db .task}
+# Contract Setup and Activation: To Create and Activate an Empty Support Contract Draft
 
 In this activity, you will learn how to create an empty contract draft for a support contract and activate it.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company, in addition to deploying juicers, also specializes in providing maintenance. The Unifruit LLC customer previously purchased juicers and now needs to enter into a maintenance support contract. On *3/8/2026*, the support contract was signed by both parties.
 
@@ -14,18 +14,18 @@ The service of maintenance specialists costs $120 per hour, and the price is not
 
 Acting as a sales manager, you will create an empty contract draft for a support contract and activate it.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Segmented Keys](CS_20_20_00.md) \(CS202000\) form, you will first configure the system to assign automatically numbered identifiers to contracts. On the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, you will configure the settings of the accounts receivable functionality. Then on the [Customer Contracts](CT_30_10_00.md) \(CT301000\) form, you will create an empty support contract with *Draft* status. Then you will set up and activate the contract simultaneously.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Contract Management* feature has been enabled.
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *UNIFRUIT \(Unifruit LLC\)* customer has been created.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
@@ -33,7 +33,7 @@ To prepare to perform the instructions of this activity, do the following:
 2.  Launch the Acumatica ERP website with the *U100* dataset preloaded, and for Step 1 and Step 2 sign in to the system as a system administrator Kimberly Gibbs by using the *gibbs* username and the *123* password. For Step 3 and Step 4 sign in as the sales manager David Chubb by using the *chubb* username and the *123* password.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *3/8/2026*.
 
-## Step 1: Enabling Auto-Numbering for Contracts {#section_it1_qf1_dt .section}
+## Step 1: Enabling Auto-Numbering for Contracts
 
 In Acumatica ERP, contract identifiers are created based on the *CONTRACT* segmented key. To configure the system to assign automatically numbered identifiers to contracts, on the [Segmented Keys](CS_20_20_00.md) \(CS202000\) form, do the following:
 
@@ -46,7 +46,7 @@ In Acumatica ERP, contract identifiers are created based on the *CONTRACT* segme
 
 5.  On the form toolbar, click **Save**.
 
-## Step 2: Configuring the Settings of the Accounts Receivable Functionality {#section_mss_4f1_dt .section}
+## Step 2: Configuring the Settings of the Accounts Receivable Functionality
 
 To be able to use the needed accounts receivable functionality, on the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, do the following:
 
@@ -56,7 +56,7 @@ To be able to use the needed accounts receivable functionality, on the [Accounts
 
 2.  On the form toolbar, click **Save**.
 
-## Step 3: Configuring an Empty Contract {#section_a3r_2zs_dtb .section}
+## Step 3: Configuring an Empty Contract
 
 To create an empty support contract, do the following:
 
@@ -67,7 +67,7 @@ To create an empty support contract, do the following:
     2.  In the **Customer** box, select *UNIFRUIT*.
 4.  On the form toolbar, click **Save**.
 
-## Step 4: Setting Up and Activating the Contract Simultaneously { .section}
+## Step 4: Setting Up and Activating the Contract Simultaneously
 
 To set up and activate the consulting contract simultaneously, do the following:
 
@@ -80,7 +80,6 @@ To set up and activate the consulting contract simultaneously, do the following:
     -   The **Expiration Date** is *6/7/2026* and the boxes in the **Billing Schedule** section have been populated based on the template settings and the activation date that you have specified.
     -   The next billing date is *4/8/2026*.
     -   No invoice has been generated on the initiation of an empty contract, so the table on the **AR History** tab of the form is still empty.
-    ![](Images/CustomerContractsSupportContractActivated.png "The activated support contract")
 
 
 You have created the empty support contract and activated it. Now you can proceed to creating the case usage for the support contract.

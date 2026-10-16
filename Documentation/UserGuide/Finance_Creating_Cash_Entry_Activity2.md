@@ -1,18 +1,18 @@
-# Cash Entries: To Create a Disbursement Cash Entry {#_3dfdf2a0-df63-4df4-b044-bad499c64e90 .task}
+# Cash Entries: To Create a Disbursement Cash Entry
 
 In this activity, you will learn how to create a cash entry of the *Disbursement* type.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_smb_kjv_vxb .section}
+## Story
 
 As a SweetLife accountant, you need to register a $15 service fee charged by your bank for a particular checking account, *Wholesale Checking*, on January 31, 2026.
 
-## Process Overview {#section_umb_kjv_vxb .section}
+## Process Overview
 
 In this activity, you will create a disbursement cash entry for the bank service fee on the [Cash Transactions](CA_30_40_00.md) \(CA304000\) form. Then you will release the cash entry and review the generated GL transactions on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## System Preparation {#section_wmb_kjv_vxb .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -23,7 +23,7 @@ To prepare the system, do the following:
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu button to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 4.  On the [Cash Management Preferences](CA_10_10_00.md) \(CA101000\) form, in the **Posting and Release Settings** section, clear the **Automatically Post to GL on Release** check box. On the form toolbar, click **Save** to save your changes.
 
-## Step 1: Creating and Releasing a Disbursement Cash Entry {#section_ymb_kjv_vxb .section}
+## Step 1: Creating and Releasing a Disbursement Cash Entry
 
 To create a disbursement cash entry for the $15 bank service fee charged to the *Wholesale Checking* account on January 31, 2026, do the following:
 
@@ -46,10 +46,9 @@ To create a disbursement cash entry for the $15 bank service fee charged to the 
 5.  On the form toolbar, click **Save** to save your changes.
 6.  On the form toolbar, click **Release** to release the cash entry. The system creates a batch to be posted to the general ledger. The released cash entry is shown in the following screenshot.
 
-    ![](Images/activity_Finance_Disbursement_Cash_Entry.png "The released Disbursement cash entry")
 
 
-## Step 2: Reviewing the Generated GL Batch {#section_bnb_kjv_vxb .section}
+## Step 2: Reviewing the Generated GL Batch
 
 To review the GL transaction generated when you released the cash entry created in Step 1, do the following:
 

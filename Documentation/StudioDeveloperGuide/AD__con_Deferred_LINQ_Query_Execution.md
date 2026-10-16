@@ -1,8 +1,8 @@
-# Deferred LINQ Query Execution {#_c086439e-08ff-4812-bc02-abcfc1279bea .concept}
+# Deferred LINQ Query Execution
 
 Queries defined with LINQ in Acumatica Framework implement the `IQueryable` interface—that is, for these queries, the system generates expression trees and executes the queries only when they are iterated over. For details about query execution, see [Data Query Execution](AD__con_Query_Execution.md).
 
-## Execution of the LINQ Query in Code { .section}
+## Execution of the LINQ Query in Code
 
 To execute the query, you do one of the following:
 
@@ -25,7 +25,7 @@ To execute the query, you do one of the following:
     ```
 
 
-## Explicit Merge of Records with PXCache { .section}
+## Explicit Merge of Records with PXCache
 
 The system merges with PXCache the records the system has retrieved from the database by using the LINQ queries, as described in [Merge of the Records with PXCache](AD__con_Merge_of_Records_with_PXCache.md).
 

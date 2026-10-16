@@ -1,4 +1,4 @@
-# Overview of ASPX Pages in Acumatica Framework {#_c5b04643-bdef-43ed-aa69-2d72e396c899 .concept}
+# Overview of ASPX Pages in Acumatica Framework
 
 In Acumatica Framework-based applications, you can configure the appearance of forms from the front end \(that is, by configuring ASPX pages\) and from the back end \(that is, by using the attributes and events provided by the Acumatica platform\).
 

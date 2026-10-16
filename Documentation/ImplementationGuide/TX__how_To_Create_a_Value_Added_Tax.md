@@ -1,14 +1,14 @@
-# Value-Added Taxes: To Create a Statistical VAT and Inclusive VATs {#_3dae9d95-d53d-4d1d-813d-b747135b8039 .task}
+# Value-Added Taxes: To Create a Statistical VAT and Inclusive VATs
 
 You use the [Taxes](../UserGuide/TX_20_50_00.md) \(TX205000\) form to create a value-added tax of any modification.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Make sure that the **VAT Reporting** feature is enabled in your system on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form.
 
 **Note:** Consider creating a convention for tax names to specify in the **Description** box. You may find it convenient to specify the tax rate percentage directly in the tax name—for instance, VAT\_16% for a tax with a 16% rate.
 
-## To Create a Statistical VAT { .section}
+## To Create a Statistical VAT
 
 1.  Open the [Taxes](../Shared/../UserGuide/TX_20_50_00.md) \(TX205000\) form.
 2.  On the form toolbar, click **Add New Record**.
@@ -41,7 +41,7 @@ Make sure that the **VAT Reporting** feature is enabled in your system on the [E
 
 The statistical VAT tax is created in the system. Now you need to set up tax calculation across the system. For details, see [Selecting Tax Calculation Methods](../UserGuide/Taxes_Selecting_Tax_Calc_Methods_Mapref.md).
 
-## To Create an Inclusive Document-Level Output VAT {#_ca8b2224-4fa3-4b23-b5e8-8971705b1660 .section}
+## To Create an Inclusive Document-Level Output VAT
 
 1.  Open the [Taxes](../UserGuide/TX_20_50_00.md) \(TX205000\) form.
 2.  On the form toolbar, click **Add New Record**.
@@ -62,7 +62,7 @@ The statistical VAT tax is created in the system. Now you need to set up tax cal
     4.  In the **Tax Claimable Subaccount** box, enter the number of the corresponding subaccount.
 6.  On the form toolbar, click **Save**.
 
-## To Create an Inclusive Document-Level Input VAT {#_5728024c-33f2-4219-9219-c681087831ac .section}
+## To Create an Inclusive Document-Level Input VAT
 
 1.  Open the [Taxes](../UserGuide/TX_20_50_00.md) \(TX205000\) form.
 2.  On the form toolbar, click **Add New Record**.

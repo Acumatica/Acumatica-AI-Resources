@@ -1,4 +1,4 @@
-# Route Executions {#_2bdd7ef9-6b9c-498c-9302-01468adec40b .concept}
+# Route Executions
 
 In this chapter, you will learn how to efficiently manage route executions. You will discover how to create a route execution on the fly, review the appointments assigned to a driver, and view the route execution on a map.
 
@@ -20,6 +20,4 @@ In this chapter, you will learn how to efficiently manage route executions. You 
 
 -   **[Route Executions: Related Report and Inquiry Forms](../UserGuide/FS__CON_Viewing_Routes.md)**  
 
-
-**Parent topic:**[Route Management](../UserGuide/FS_00_00_03.md)
 

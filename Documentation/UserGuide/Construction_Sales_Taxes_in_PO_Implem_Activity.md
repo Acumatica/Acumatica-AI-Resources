@@ -1,14 +1,14 @@
-# Purchases with a Sales Tax: To Configure a Sales Tax for Project Purchases {#_5e8e0da6-4b59-4b30-81b2-ab6121cfdd40 .task}
+# Purchases with a Sales Tax: To Configure a Sales Tax for Project Purchases
 
 This activity will walk you through the process of creating a sales tax in the system.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the ToadGreen company buys goods from its suppliers and pays sales tax on these purchases. The rate of the sales tax is 8.875%; the tax amount must be calculated on the sum of the line amounts to which this tax is applied. You need to configure a sales tax to be calculated for AP documents; the calculated tax amounts can then be claimed from a tax agency.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -16,11 +16,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Tax Categories](TX_20_55_00.md#) \(TX205500\) form, the *TAXABLE* category has been created.
 -   On the [Chart of Accounts](GL_20_25_00.md#) \(GL202500\) form, the *24100 - Tax Payable* and *69000 - Tax Expenses* accounts have been created. The *69000 - Tax Expenses* account is included in the *MATERIAL* account group.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in as a system administrator by using the *gibbs* username and the `123` password.
 
-## Step: Creating a Sales Tax { .section}
+## Step: Creating a Sales Tax
 
 To create a sales tax, proceed as follows:
 

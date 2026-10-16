@@ -1,16 +1,16 @@
-# Custom Barcode-Driven Form: To Create an ASPX Page {#_f206fbaf-0e75-4b5b-bd15-9e43397bc31f .task}
+# Custom Barcode-Driven Form: To Create an ASPX Page
 
 This activity will walk you through the creation of an ASPX page for a custom barcode-driven form.
 
-## Story { .section}
+## Story
 
 Suppose that you have implemented the business logic of a custom barcode-driven form. Now you need to create an ASPX page for the form so that the form is available in the UI of Acumatica ERP.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create an ASPX page form from an ASPX template that contains the scripts required for a barcode-driven form to work and adjust this template for the custom form. You will also add the ASPX and ASPX.CS files to the customization project, add the form to the site map, and create the Site Map item for the form in the customization project.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -31,7 +31,7 @@ Before you begin performing the steps of this activity, do the following:
     1.  Define custom commands by performing the [Barcode Scan Commands: To Add Quantity Support](WMSEngine_Command_Activity_AddQuantitySupport.md) prerequisite activity.
     2.  If you want to add logic that handles quantity input, add the quantity support command by performing the [Barcode Scan Commands: To Add Quantity Support](WMSEngine_Command_Activity_AddQuantitySupport.md) prerequisite activity.
 
-## Step 1: Creating the ASPX Page { .section}
+## Step 1: Creating the ASPX Page
 
 To create the ASPX page for a custom barcode-driven form, do the following:
 
@@ -234,7 +234,7 @@ To create the ASPX page for a custom barcode-driven form, do the following:
     ```
 
 
-## Step 2: Adding ASPX and ASPX.CS Files to the Customization Project { .section}
+## Step 2: Adding ASPX and ASPX.CS Files to the Customization Project
 
 To add the new files to the customization project, do the following:
 
@@ -243,7 +243,7 @@ To add the new files to the customization project, do the following:
 3.  On the page toolbar, click **Add New Record**.
 4.  In the **Add Files** dialog box, select the unlabeled check boxes for the `Pages\RS\RS302000.aspx` and `Pages\RS\RS302000.aspx.cs` items, and click **Save**.
 
-## Step 3: Adding the Form to the Site Map { .section}
+## Step 3: Adding the Form to the Site Map
 
 To be able to see the new form in the UI of Acumatica ERP, you need to add the new form to the site map. Do the following:
 
@@ -256,7 +256,7 @@ To be able to see the new form in the UI of Acumatica ERP, you need to add the n
     -   **Category**: *Automated Operations*
 3.  Save your changes and close the form.
 
-## Step 4: Adding the Site Map Item to the Customization Project { .section}
+## Step 4: Adding the Site Map Item to the Customization Project
 
 To add to the customization project the site map item that corresponds to the form, do the following:
 

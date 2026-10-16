@@ -1,21 +1,21 @@
-# Budget Tree: General Information {#_8b7efbe5-fc90-4dc0-b4e0-a81b74e83747 .concept}
+# Budget Tree: General Information
 
 In Acumatica ERP, you can define a hierarchical budget structure that will be used by all companies and branches. To do so, you configure a budget tree, in which budget articles are divided into groups.
 
 **Tip:** We recommend that you define a single budget tree instead of multiple simple budgets because a budget tree makes easier to prepare and analyze budgets. However, you can work with simple budgets, which are lists of budget articles, without first defining a budget tree. For details, see [Preparing a Simple Budget](../UserGuide/Finance_Preparing_Simple_Budget_Mapref.md).
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   The elements of a budget tree structure
 -   The ways the budget tree can be configured
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create a budget tree if hierarchical \(multilevel\) budgets are used by your organization to facilitate the preparation of the budget.
 
-## Configuration of a Budget Tree { .section}
+## Configuration of a Budget Tree
 
 Before you start configuring budgets in Acumatica ERP, you should consider the needs of all companies and branches defined in the tenant so that you can include all the budget levels used by your companies and branches. You will use the same tree for all companies, branches, and budget versions.
 
@@ -29,7 +29,7 @@ Each leaf article is defined by an account–subaccount pair \(or only accounts 
 
 The budget tree will be preloaded when you start creating a budget on the [Budgets](../UserGuide/GL_30_20_10.md) \(GL302010\) form. You can modify the preloaded structure for each budget.
 
-## Node Budget Articles { .section}
+## Node Budget Articles
 
 You define the budget articles that are represented as nodes on the **Subarticles** pane of the [Budget Configuration](../UserGuide/GL_20_50_00.md) \(GL205000\) form. For each node, you enter a description; you can also specify account or subaccount masks \(or both types of masks\). The check box in the **Node** column has to be selected for each node you create in the system.
 
@@ -37,7 +37,7 @@ The account and subaccount masks specified for the node in the **Account Mask** 
 
 You can further populate nodes with other nodes, or define leaf articles for each node.
 
-## Leaf Budget Articles { .section}
+## Leaf Budget Articles
 
 You add a budget article that is represented as leaf on the **Subarticles** pane of the [Budget Configuration](../UserGuide/GL_20_50_00.md) \(GL205000\) form. Each leaf budget article is defined by an account \(or by an account-subaccount pair, if subaccounts are used in your system\). You can add an account \(or an account-subaccount pair\) for each leaf in one of the following ways:
 

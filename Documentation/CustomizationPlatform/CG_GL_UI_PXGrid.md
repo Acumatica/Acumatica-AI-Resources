@@ -1,4 +1,4 @@
-# Grid Container \(PXGrid\) {#_439986fd-e616-43a0-84ca-f6e72a9c74a1 .concept}
+# Grid Container \(PXGrid\)
 
 PXGrid is a data-bound UI container control that renders a table with multiple records from its associated data source. For a single record, the object can be displayed in form view mode, which provides navigation buttons to move between records. For form view mode to be defined, PXGrid must include the RowTemplate element, which can contain controls for the record fields and layout rules for these controls.
 
@@ -8,7 +8,6 @@ An ASPX page can contain PXGrid as a main container that is included immediately
 -   PXTabItem
 -   PXSmartPanel
 
-![](images/CG_GL_Forms_ASPX_Containers_PXGrid.png "Nesting rules for a PXGrid container in an ASPX page")
 
 A grid container can include multiple PXGridColumn objects and a single RowTemplate element. In the ASPX code, grid columns are included in the Columns element, whereas controls for the form view of the grid belong to the RowTemplate element, as the following code snippet shows.
 

@@ -1,8 +1,8 @@
-# General Recommendations and Limitations of Data Import {#_f177d5e4-e915-42f2-b01b-f2c4ab05f831 .concept}
+# General Recommendations and Limitations of Data Import
 
 In this topic, you will find general recommendations for data import, including its limitations.
 
-## General Recommendations for Importing Accounts and Subaccounts { .section}
+## General Recommendations for Importing Accounts and Subaccounts
 
 When you import accounts and subaccounts to Acumatica ERP, consider the following general recommendations:
 
@@ -15,7 +15,7 @@ When you import accounts and subaccounts to Acumatica ERP, consider the followin
 
 -   If you import subaccounts from your subsidiary or parent company, consider the differences in their segment structures. You may need to add a segment when you're importing from a subsidiary or remove a segment when you're importing from a parent company.
 
-## General Recommendations for Importing Vendor and Customer Data { .section}
+## General Recommendations for Importing Vendor and Customer Data
 
 Here are some general recommendations for importing vendor and customer data to Acumatica ERP:
 
@@ -33,7 +33,7 @@ To use the functionality of classes while you are importing vendor or customer d
 -   If one group of settings can fit all customers or vendors, use just one default class. To use default values from the default vendor or customer class, you don't even need to do anything specific, such as mapping the **Vendor Class** field or **Customer Class** field to any data.
 -   To use default values from a particular class, in the **Field or Action** box of the [Import Scenarios](SM_20_60_25.md) \(SM206025\) form, you can assign the class to the **Vendor Class** field \(when you are importing vendor records\) or to the **Customer Class** field \(when you are importing customer records\) directly as a literal or assign a class conditionally, by using appropriate formulas that are based on customer or vendor properties. Filling in the class ID field requires a commit to the database and a form refresh.
 
-## General Recommendations for Importing Documents and Batches { .section}
+## General Recommendations for Importing Documents and Batches
 
 When you're importing batches, Accounts Payable documents, or Accounts Receivable documents, consider the following recommendations regarding the mapping:
 
@@ -45,15 +45,15 @@ When you're importing batches, Accounts Payable documents, or Accounts Receivabl
     -   *On Hold*, if the **Hold Batches on Entry** check box is selected on the [General Ledger Preferences](GL_10_20_00.md) form or the **Hold Documents on Entry** selected is selected on the [Accounts Receivable Preferences](AR_10_10_00.md) or [Accounts Payable Preferences](AP_10_10_00.md) form
     -   *Open*, if the **Hold Batches on Entry** or **Hold Documents on Entry** check box is not selected on the appropriate form
 
-## General Recommendations for Importing Attributes { .section}
+## General Recommendations for Importing Attributes
 
 Attributes in Acumatica ERP make it possible for users to specify additional properties \(those not already defined on the applicable Acumatica ERP form\) of entities, such as stock items, leads, opportunities, customers. The list of attributes is specified for an entity class, so that entities assigned to different classes may have different sets of attributes. To import data with attributes, you have to create a scenario for each class if the applicable classes have different sets of attributes. In the mapping of the scenario created to import entities of a particular class on the [Import Scenarios](SM_20_60_25.md) \(SM206025\) form, you should specify the name of the attribute as the source field for the **Attribute** target field and the value of this attribute as the source field for the **Value** target field.
 
-## General Recommendations for Importing Project Budgets { .section}
+## General Recommendations for Importing Project Budgets
 
 For the [Project Budget](PM_30_90_00.md) \(PM309000\) form, the system allows to import records by the project budget compound key, which is the project identifier, project task identifier, inventory identifier, and account group identifier. After records are imported to the [Project Budget](PM_30_90_00.md) form, to restructure budget records according to the revenue budget level of projects, you should run the validation process on the [Recalculate Project Balances](PM_50_40_00.md) \(PM504000\) form.
 
-## Limitations of Data Import { .section}
+## Limitations of Data Import
 
 By using import scenarios, you can perform the same commands on the form as you do during manual input, with the following exceptions:
 

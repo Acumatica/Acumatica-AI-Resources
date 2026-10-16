@@ -1,10 +1,10 @@
-# Tax Periods: Synchronization with Financial Periods {#_5f65c3a9-c160-4876-b7dd-ac409492e58b .concept}
+# Tax Periods: Synchronization with Financial Periods
 
 Acumatica ERP supports automatic synchronization of tax periods with financial periods. The tax periods for which *Financial Periods* is selected in the **Tax Period Type** box on the [Tax Periods](../UserGuide/TX_20_70_00.md) \(TX207000\) form can be synchronized with financial periods in the company calendar, regardless of the status of tax periods—*Prepared*, *Open*, or *Closed*.
 
 When an administrative user changes the user-defined financial periods on the [Master Financial Calendar](../UserGuide/GL_20_10_00.md) \(GL201000\) or on the [Company Financial Calendar](../UserGuide/GL_20_11_00.md) \(GL201100\) form if the *Multiple Calendar Support* feature is enabled, if *Financial Periods* is selected in the **Tax Period Type** box for the company specified in the **Company** box and the tax agency selected in the **Tax Agency** box, you should update tax periods based on the updated financial calendar in the following ways.
 
-## Correcting the Tax Period Structure for Tax Periods to be Prepared { .section}
+## Correcting the Tax Period Structure for Tax Periods to be Prepared
 
 On the [Prepare Tax Report](../UserGuide/TX_50_10_00.md) \(TX501000\) form, the system displays an error message if the start and end dates of the tax period to be prepared differ from those of the corresponding financial periods for the selected company or if the financial periods have been deleted.
 
@@ -17,7 +17,7 @@ To correct the tax period structure, do the following:
 5.  In the **Tax Period Type** box, make sure that *Financial Period* is selected.
 6.  On the More menu \(under **Period Management**\), click **Synchronize Periods with GL**.
 
-## Correcting the Tax Period Structure for Tax Periods to be Released { .section}
+## Correcting the Tax Period Structure for Tax Periods to be Released
 
 On the [Release Tax Report](../UserGuide/TX_50_20_00.md) \(TX502000\) form, if the start and end dates of the tax period to be released differ from the corresponding financial period of the selected company or if the financial periods have been deleted, the system displays an error message.
 

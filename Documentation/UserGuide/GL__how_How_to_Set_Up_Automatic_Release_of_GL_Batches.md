@@ -1,8 +1,8 @@
-# To Set Up Automatic Release of General Ledger Batches {#_eef4373d-8216-4fb4-9a72-eab8889804fc .task}
+# To Set Up Automatic Release of General Ledger Batches
 
 In Acumatica ERP, you can set up the release of balanced batches to be performed automatically at the specified time with specific periodicity. Suppose the internal policies at your company require that only batches with amounts less than a certain threshold amount \($1000\) can be released in bulk on the [Release Transactions](GL_50_10_00.md) \(GL501000\) form, while batches with larger amounts should be released individually through the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form, on which the **Release** action is enabled only for the users with *Batch Approver* role. Batches with smaller amounts are released automatically at the frequency you choose.
 
-## To Create a Schedule for Processing {#section_dxg_mjv_vxb .section}
+## To Create a Schedule for Processing
 
 1.  Open the [Release Transactions](GL_50_10_00.md) \(GL501000\) form.
 

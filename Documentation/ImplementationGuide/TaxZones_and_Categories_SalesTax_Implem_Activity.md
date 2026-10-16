@@ -1,14 +1,14 @@
-# Tax Zones and Categories: To Review Tax Categories and Create a Tax Zone for Sales Taxes {#_3d55038c-a5dc-46fe-9d67-b23d88ca1090 .task}
+# Tax Zones and Categories: To Review Tax Categories and Create a Tax Zone for Sales Taxes
 
 By performing the following implementation activity, you will review tax categories and their settings and learn how to create a tax zone for sales taxes.
 
-## Story { .section}
+## Story
 
 The Muffins &amp; Cakes company, which operates in Denver, Colorado, provides delivery services that are subject to a 8.31% sales tax. While two tax categories have been already created in Acumatica ERP \(*TAXABLE* and *EXEMPT*\), no other tax configuration has been performed.
 
 You need to assign the *TAXABLE* tax category to the needed non-stock item \(*DELIVERY*\). You also need to create a tax zone for Denver, Colorado, to which you will also assign the *TAXABLE* category as the default tax category of the tax zone.
 
-## Configuration Overview {#section_chl_5gs_hrb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -16,18 +16,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Taxes](../UserGuide/TX_20_50_00.md) \(TX205000\) form, the *NYSTATETAX* and *NYNOTAX* taxes has been configured.
 -   On the [Non-Stock Items](../UserGuide/IN_20_20_00.md) \(IN202000\) form, the *DELIVERY* item has been configured.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will first review the tax categories on the [Tax Categories](../UserGuide/TX_20_55_00.md) \(TX205500\) form and the taxes in these zones, and then assign the *TAXABLE* category to an item on the [Non-Stock Items](../UserGuide/IN_20_20_00.md) \(IN202000\) form. You will then create the needed tax zone on the [Tax Zones](../UserGuide/TX_20_60_00.md) \(TX206000\) form, assigning the appropriate default tax category to it.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin to work with tax categories and tax zones, do the following:
 
 1.  Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as a system administrator Kimberly Gibbs by using the *gibbs* username and the *123* password.
 2.  As a prerequisite activity, make sure a tax report has been configured as described in [Tax Report Configuration: To Create a Tax Report for Sales Taxes](TaxReport_SalesTaxes_Implem_Activity.md).
 
-## Step 1: Reviewing Tax Categories and Assigning a Tax Category to a Non-Stock Item { .section}
+## Step 1: Reviewing Tax Categories and Assigning a Tax Category to a Non-Stock Item
 
 To review the existing tax categories and assign a tax category to a non-stock item, proceed as follows:
 
@@ -58,7 +58,7 @@ To review the existing tax categories and assign a tax category to a non-stock i
 
 11. On the form toolbar, click **Save** to save your changes.
 
-## Step 2: Creating a Tax Zone { .section}
+## Step 2: Creating a Tax Zone
 
 Do the following to create the tax zone for Denver:
 

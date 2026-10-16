@@ -1,4 +1,4 @@
-# Creating Sales Tax Adjustments {#_47258d96-5912-4119-a37c-1ab731f3f29b .concept}
+# Creating Sales Tax Adjustments
 
 The topics of this chapter describe how to create a tax adjustment to a sales tax report.
 

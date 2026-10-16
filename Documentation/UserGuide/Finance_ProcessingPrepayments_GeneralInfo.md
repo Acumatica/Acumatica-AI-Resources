@@ -1,4 +1,4 @@
-# Bill Prepayments: General Information {#_4a4d967f-52ec-40c1-ac86-ecd522dd2b7a .concept}
+# Bill Prepayments: General Information
 
 A prepayment is a type of accounts payable document that you create to record advance payments or down payments to vendors. You can create a prepayment in one of the following ways:
 
@@ -7,7 +7,7 @@ A prepayment is a type of accounts payable document that you create to record ad
 
 To process a prepayment in the system, you have to first create and release the prepayment request, which denotes the vendor's request for prepayment in the system. A prepayment request is not a financial document; it is an internal document that can be approved \(if required in your system\) before the prepayment is actually paid to the vendor. The prepayment created through the request can then be applied to outstanding bills and credit adjustments.
 
-## Learning Objectives {#section_zmn_njv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -15,11 +15,11 @@ In this chapter, you will learn how to do the following:
 -   Apply the prepayment to a bill
 -   Enter a refund for a prepayment
 
-## Applicable Scenarios {#section_cnn_njv_vxb .section}
+## Applicable Scenarios
 
 You create a prepayment in the system when you need to pay a vendor for goods and services before they are provided. You apply a prepayment to a bill or multiple bills of this vendor and if the amount of the prepayment was not used by the vendor, you create a refund for the prepayment.
 
-## Creation of Prepayments in the Standard Way {#section_enn_njv_vxb .section}
+## Creation of Prepayments in the Standard Way
 
 The standard way of creating prepayments involves the following stages:
 
@@ -42,7 +42,7 @@ The standard way of creating prepayments involves the following stages:
 
 Prepayments created in this way can be paid by any payment method allowed for the particular vendor.
 
-## Creation of Prepayments in the Simplified Way {#section_lnn_njv_vxb .section}
+## Creation of Prepayments in the Simplified Way
 
 Alternatively, you can create a prepayment more simply by using the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form. This prepayment also may have line details or just one summary line, and you can attach all the related files.
 
@@ -52,13 +52,13 @@ Also, prepayments created in this way cannot be paid by a payment method that re
 
 For details, see [To Enter a Prepayment in the Simplified Way](AP__how_Entering_a_Prepayment.md).
 
-## Application of the Prepayments {#section_rnn_njv_vxb .section}
+## Application of the Prepayments
 
 You can apply the *Open* prepayment to bills and adjustments. A prepayment may have a balance after it is applied to bills and credit adjustments, and it can be released with a balance. When the prepayment application is released, appropriate journal entries to the general ledger are made automatically, and the links to appropriate batches are displayed on the **Application History** tab of the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form.
 
 If a prepayment was incorrectly applied to bills and adjustments and released, you can reverse the application if needed. To do this, you click the **Reverse Application** button on the **Application History** tab of the [Checks and Payments](AP_30_20_00.md) form. You can then apply the prepayment to other bills and adjustments.
 
-## Correction of Errors {#section_unn_njv_vxb .section}
+## Correction of Errors
 
 The way you can correct errors in a prepayment depends on the way you entered it.
 
@@ -74,11 +74,10 @@ If you need to void a prepayment that you created in the simplified way, you sel
 
 If a vendor did not use the prepayment or used it only partially, you can enter a refund and apply it against the prepayment. For details, see [Bill Prepayments: To Refund a Prepayment](Finance_ProcessingPrepayments_Process_Activity2.md).
 
-## Process Diagram {#section_a4n_njv_vxb .section}
+## Process Diagram
 
 The following diagram illustrates the workflow of prepayment processing.
 
-![](Images/process_Finance_ProcessingPrepayments_workflow_2023R1.png "Prepayment processing workflow")
 
 **Parent topic:**[Processing Prepayments for a Bill](../UserGuide/Finance_ProcessingPrepayments_Mapref.md)
 

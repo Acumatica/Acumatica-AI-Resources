@@ -1,4 +1,4 @@
-# Implementing Item Production with Backflushing {#_816097da-704e-4118-a802-d6e35c2c1106 .concept}
+# Implementing Item Production with Backflushing
 
 This chapter describes the minimum configuration of the item production with material and labor backflushing in Acumatica ERP Manufacturing Edition.
 

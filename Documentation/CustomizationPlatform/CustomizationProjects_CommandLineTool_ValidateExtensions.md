@@ -1,4 +1,4 @@
-# PXCommandLine Tool: ValidateExtensions {#_e0fcfc0c-14e8-49dc-9a46-1f089258d637 .concept}
+# PXCommandLine Tool: ValidateExtensions
 
 You can use the *ValidateExtensions* value of the `/method` parameter to run validations of all `PXGraph` and `PXCache` extensions in your instance's memory. If a validation error occurs, the tool exits with `Code 1`, and the validation error is written to the console.
 

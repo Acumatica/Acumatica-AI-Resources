@@ -1,8 +1,8 @@
-# Managing Ledgers {#_3d13cf61-bd54-4f32-ba51-8899e1ff8df2 .concept}
+# Managing Ledgers
 
 Acumatica ERP supports the use of multiple ledgers. Each company that has been created in the system may have one actual ledger and an unlimited number of ledgers of other types. Because you can keep ledgers of multiple types, you can record actual financial information and can store budgets, forecasts, and statistical and reporting information for all companies and branches \(if any\) of your organization.
 
-## Ledger Types {#section_c32_mjv_vxb .section}
+## Ledger Types
 
 Depending on the processes you are going to perform, you can create ledgers of different types in Acumatica ERP as follows:
 
@@ -13,7 +13,7 @@ Depending on the processes you are going to perform, you can create ledgers of d
 
 To start live operations in the system, you have to create at least one ledger of the *Actual* type. You can create other ledgers depending on your business needs.
 
-## Ledger Creation {#section_f32_mjv_vxb .section}
+## Ledger Creation
 
 You can create ledgers of any type on the [Ledgers](GL_20_15_00.md) \(GL201500\) form; when you create a ledger, you have to specify a ledger identifier, type, and currency \(if the *Multicurrency Accounting* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form\). On the [Companies](CS_10_15_00.md) \(CS101500\) form, for a new company, you can create a ledger of the *Actual* type by clicking **Create Ledger** on the form toolbar.
 

@@ -1,16 +1,16 @@
-# Australian Depreciation Methods {#_1afd6281-174f-4149-92c2-f3cc12a27b4c .concept}
+# Australian Depreciation Methods
 
 The sections of this topic describe custom depreciation methods for Australia, which can be configured in Acumatica ERP.
 
 **Tip:** If you want the system to ignore the salvage amount during depreciation for Australian methods, on the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form, you must set the **Salvage Amount** to *0*.
 
-## Remaining Value by Days in Period {#section_rxb_ljv_vxb .section}
+## Remaining Value by Days in Period
 
 This method, a modification of the *Straight-Line* method, is used in some Asia Pacific \(APAC\) countries, such as Australia, New Zealand, and Thailand. With this method, depreciation is calculated based on the exact number of days in each period within a financial year.
 
 Depreciation for each period of an asset's useful life is calculated according to the following formula.
 
-``` {#codeblock_vxb_ljv_vxb}
+```
 D = (Ac - Sa - Ad) * SL rate * N
 ```
 
@@ -24,7 +24,7 @@ The symbols in the formula have the following meanings:
 
 -   *Ad*: The accumulated depreciation of the asset.
 -   *SL rate*: The straight-line depreciation rate, which is calculated as follows.
--   ``` {#codeblock_byb_ljv_vxb}
+-   ```
 SL rate = 100% * (1/ N Remaining Useful Life)
 ```
 
@@ -35,19 +35,19 @@ SL rate = 100% * (1/ N Remaining Useful Life)
 
 This depreciation method is a custom one and should be added to the system manually. For details, see [To Configure the Remaining Value by Days in Period Method](FA__how_To_Configure_Australian_Depreciation_Methods.md#_edef2095-87d8-4f32-be12-11bc7978f1b8).
 
-## Australian Prime Cost {#section_fyb_ljv_vxb .section}
+## Australian Prime Cost
 
 This method, a modification of the *Straight-Line* method, calculates depreciation based on the specified **Percent per Year** setting of each particular asset. With this depreciation method specified, additions and deductions are not allowed.
 
 For each period of an asset's useful life, depreciation is calculated based on the following formula.
 
-``` {#codeblock_jyb_ljv_vxb}
+```
 D = Depr. Base * (Percent per Year / 100) * (N / 365)
 ```
 
 where
 
-``` {#codeblock_myb_ljv_vxb}
+```
 Depr. Base = (Ac – Sa) * Business Use, %
 ```
 
@@ -66,13 +66,13 @@ The symbols in the formulas have the following meanings:
 
 This is a custom depreciation method that should be added to the system manually if it is needed. For details, see [To Configure the Australian-Specific Methods](FA__how_To_Configure_Australian_Depreciation_Methods.md#_e6ac5bf3-d520-4374-98a7-0b4eb1321c7e).
 
-## Australian Diminishing Value {#section_pyb_ljv_vxb .section}
+## Australian Diminishing Value
 
 This method, a modification of the *Declining Balance* method, calculates depreciation based on the specified **Percent per Year** setting of each particular asset.
 
 For each period of an asset's useful life, depreciation is calculated based on the following formula.
 
-``` {#codeblock_tyb_ljv_vxb}
+```
 D = NBV_year * Percent per Year * (N / 365)
 ```
 

@@ -1,10 +1,10 @@
-# Route Executions: Assignment of Vehicles to Route Executions {#_919d28f0-fa95-448d-83d3-4524fbbf29c9 .concept}
+# Route Executions: Assignment of Vehicles to Route Executions
 
 To each route execution that you have created in the system, you have to assign at least one vehicle that is used to execute the route.
 
 In this topic, you will read about assigning a vehicle \(and possibly assigning additional vehicles\) to route executions.
 
-## Assigning the First Vehicle to Route Executions { .section}
+## Assigning the First Vehicle to Route Executions
 
 You select the first vehicle that will be used to execute the route as follows:
 
@@ -19,7 +19,7 @@ You select the first vehicle that will be used to execute the route as follows:
 
 In the **Vehicle Selector** dialog box, you select the first \(and perhaps only\) vehicle for the route of the document. This list contains all the vehicles that have not yet been assigned to any route on the day of the route execution. To select a particular vehicle, you click the line with the necessary vehicle in the table of the dialog box and click **Select Vehicle**.
 
-## Assigning Additional Vehicles to Routes { .section}
+## Assigning Additional Vehicles to Routes
 
 If additional vehicles are necessary to perform the route service, you can assign up to two additional vehicles as follows:
 

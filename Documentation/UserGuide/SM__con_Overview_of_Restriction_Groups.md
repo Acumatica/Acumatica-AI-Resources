@@ -1,10 +1,10 @@
-# Restriction Groups in Acumatica ERP {#_ad9a42c1-ff5d-4298-86d9-683039c18512 .concept}
+# Restriction Groups in Acumatica ERP
 
 Acumatica ERP provides you with restriction groups, which are flexible tools for limiting the visibility and use of entities, such as general ledger accounts, inventory items, and customer and vendor accounts.
 
 In this topic, you can find information about situations where restriction groups are useful, types of restriction groups, and types of entities that you can include in restriction groups.
 
-## Restriction Groups in Acumatica ERP { .section}
+## Restriction Groups in Acumatica ERP
 
 You can use restriction groups to do the following:
 
@@ -15,17 +15,16 @@ You can find details on configuring restriction groups in [Configuration of Rest
 
 In Acumatica ERP, you can use specific forms to create restriction groups, view the entities included in a group, and manage the list of entities of a particular type in a restriction group. For details on the typical operations you can perform with restriction groups, see [Operations with Restriction Groups](RS__con_Operations_Restriction_Groups.md).
 
-## Restriction Groups with Users {#_0af57538-82a6-4d16-af40-490af350626d .section}
+## Restriction Groups with Users
 
 To understand how restriction groups with users are used, consider a typical case with restriction groups that include users and General Ledger \(GL\) accounts. Suppose that a role allows all its users to access all GL accounts, but for two groups of accounts, you want to provide visibility to only particular users.
 
-![](Images/RestrictionGroups_Direct_Restriction.png "Restriction groups for GL accounts and users")
 
 The diagram above shows how restriction groups can address these security needs. You define Group 1 as a restriction group that includes only appropriate accountants \(User C and User D\) and accounts \(1, 2, and 3\). Similarly, you create Group 2, which includes User Y and User Z, as well as the accounts they should work with \(4, 5, and 6\).
 
 Among all users in the system, only User C and User D will see the first group of sensitive accounts \(1, 2, and 3\), and only User X and User Z will see the second group of sensitive accounts \(4, 5, and 6\). Users who are not assigned to any restriction group will not see the accounts associated with either group.
 
-## Restriction Groups Without Users {#_47c5a9b2-7df7-4186-980d-ceee777c8e94 .section}
+## Restriction Groups Without Users
 
 If a restriction group does not include users, all users may view the entities that are members of the group \(if their roles provide access to forms with these entities\), but entities included in the group become related in a way that limits their use. For example, suppose that you create two groups with GL accounts and subaccounts as follows:
 
@@ -41,11 +40,11 @@ The result of these settings is the following:
 
 **Tip:** If you are using restriction groups to control the accounts and subaccounts that can be used together, you must create at least two groups and include all subaccounts in either of the groups. For example, suppose that you need to restrict visibility of subaccounts for only one account. To solve this task, you create two restriction groups. In the first group with direct restriction \(type *A* group\), you include a GL account and the list of subaccounts that should be related to this account. In the second group with inverse restriction \(type *B Inverse* group\), you include the same account and subaccounts that should not be displayed after users select this account. As a result, when users select the account on a form, they will see only one of the subaccounts included in the first group.
 
-## Types of Restriction Groups { .section}
+## Types of Restriction Groups
 
 Acumatica ERP provides two basic types of restriction groups—A and B. Restriction groups of both types can limit the visibility of system entities in a direct way \(types *A* and *B*\) and an inverse way \(types *A Inverse* and *B Inverse* in the Acumatica ERP user interface\). The differences between *A* and *B* and between *A Inverse* and *B Inverse* are in how these groups work if the same entity is added to multiple groups. For detailed descriptions of each group type, see [Types of Restriction Groups](SM__con_Types_of_Restriction_Groups.md).
 
-## Combinations of Restriction-Group Entities { .section}
+## Combinations of Restriction-Group Entities
 
 Acumatica ERP supports a variety of scenarios of configuring the visibility of entities within the system. With the most common scenarios, you can create restriction groups that include the following system entities:
 

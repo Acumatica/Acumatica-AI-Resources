@@ -1,14 +1,14 @@
-# Resource Owner Password Credentials Flow: General Information {#_2930d2f7-e081-4d0e-8879-93907ce82607 .concept}
+# Resource Owner Password Credentials Flow: General Information
 
 When you implement OAuth 2.0 in a client application to make the application work with Acumatica ERP, you can use the Resource Owner Password Credentials flow.
 
 With the Resource Owner Password Credentials flow, the credentials \(username and password\) of the Acumatica ERP user are provided directly to the client application, which uses the credentials to obtain the access token. When the access token expires, the client application can request a new access token by providing a refresh token.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to implement a client application that uses the Resource Owner Password Credentials flow.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You can use the Resource Owner Password Credentials flow in environments where the client application can securely store user credentials and there is a high level of trust between the user and the client application, as with native mobile applications.
 
@@ -19,7 +19,7 @@ You can use the Resource Owner Password Credentials flow in environments where t
 
 Therefore, you should carefully consider the use of the Resource Owner Password Credentials flow, and prefer other authorization flows, such as Authorization Code flow, whenever possible.
 
-## Resource Owner Password Credentials Flow { .section}
+## Resource Owner Password Credentials Flow
 
 For the support of the Resource Owner Password Credentials flow, you implement the following general steps in the application:
 
@@ -44,11 +44,10 @@ When the access token expires, the client application can request a new access t
 
 For details on the OAuth 2.0 authorization mechanism, see the specification at [https://tools.ietf.org/html/rfc6749](https://tools.ietf.org/html/rfc6749).
 
-## Diagram of the Resource Owner Password Credentials Flow { .section}
+## Diagram of the Resource Owner Password Credentials Flow
 
 The following diagram illustrates the Resource Owner Password Credentials flow.
 
-![](Images/diag_ResourceOwnerPasswordCredentialsFlow.png "Resource Owner Password Credentials flow")
 
 **Parent topic:**[Implementing the Resource Owner Password Credentials Flow](../IntegrationDevelopmentGuide/OAuthOIDC_ResourceOwner_Mapref.md)
 

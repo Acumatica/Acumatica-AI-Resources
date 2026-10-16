@@ -1,4 +1,4 @@
-# Getting Started with Workflows {#_9119d257-8b29-4172-bf91-34fc3fff7c11 .concept}
+# Getting Started with Workflows
 
 In this chapter, you will learn what workflows are in Acumatica ERP and what these workflows consist of. You can use this understanding to create new workflows and customize existing ones so that the Acumatica ERP forms best fit the company's ways of working.
 

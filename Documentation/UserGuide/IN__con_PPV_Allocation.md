@@ -1,4 +1,4 @@
-# Allocating the Purchase Price Variance {#_f386321e-8a5a-4901-b95a-c02f37d929ce .concept}
+# Allocating the Purchase Price Variance
 
 The purchase price variance \(PPV\) amount is the difference between an item's actual unit cost on a purchase receipt \(calculated as the item extended cost divided by its quantity\) and its actual unit cost on a bill \(calculated as the extended cost divided by the quantity on the bill\) multiplied by the quantity of the item on the bill.
 
@@ -6,7 +6,7 @@ The purchase price variance \(PPV\) amount is the difference between an item's a
 
 The difference may occur for various reasons, such as exchange rate fluctuations or unplanned changes in the vendor price or delivery costs. Different businesses may use different approaches when accounting for the purchase price variance amounts. This topic describes the options available in Acumatica ERP for the allocation of the purchase price variance amounts for stock items.
 
-## PPV Calculation { .section}
+## PPV Calculation
 
 Generally, actual vendor prices and discounts change frequently, so when you enter a purchase receipt on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form and specify an item by its inventory ID, the exact vendor price and applicable discounts are not known. Even if the unit cost appears automatically in the **Unit Cost** column, you can manually enter only the item quantity and the extended cost \(which may include the vendor's current promotional price and discount for the specified quantity not yet configured in the system\); the extended cost will not be recalculated based on the unit cost. For the PPV calculation, the system will use the actual unit cost \(calculated as the extended amount per unit\), not the unit cost that is available in the system and was inserted automatically.
 
@@ -40,7 +40,7 @@ If the PPV appears, its amount is included in a GL transaction, which is generat
 
 The ways the calculated PPV amounts can be allocated depend on the item valuation method and the selected allocation mode, as described in the following sections.
 
-## PPV Allocation for Exchange Rate Changes { .section}
+## PPV Allocation for Exchange Rate Changes
 
 By default, in a purchase receipt, the system inserts the currency rate that is current on the purchase receipt date. If needed, you can override the default currency rate if all of the following are true:
 
@@ -57,11 +57,11 @@ On release of an AP bill that is linked to this purchase receipt, the system cal
 -   Subtracts the unit's actual cost on the bill from the unit's actual cost on the receipt
 -   Multiplies the difference by the quantity on the bill
 
-## PPV Allocation for Items with Standard Costs { .section}
+## PPV Allocation for Items with Standard Costs
 
 For stock items with *Standard* assigned as the cost valuation method on the [Stock Items](IN_20_25_00.md) \(IN202500\) form, any PPV amounts are allocated to the Purchase Price Variance account defined by the posting class of the item. For more information, see [Item Costs and Valuation Methods: Standard Method](Item_Costs_Valuation_Methods_Standard.md).
 
-## PPV Allocation Modes for Items with Other Valuation Methods { .section}
+## PPV Allocation Modes for Items with Other Valuation Methods
 
 In Acumatica ERP, you can select how you want to process the purchase price variance amounts for stock items with the following valuation methods: *Average*, *FIFO*, or *Specific*. On the [Purchase Orders Preferences](PO_10_10_00.md) \(PO101000\) form, you can select one of the following modes of PPV allocation:
 
@@ -70,7 +70,7 @@ In Acumatica ERP, you can select how you want to process the purchase price vari
 
 The modes of PPV allocation are discussed in detail in the sections below.
 
-## The Inventory Account Mode of PPV Allocation { .section}
+## The Inventory Account Mode of PPV Allocation
 
 If *Inventory Account* is selected as the mode of PPV allocation, on release of a bill, an inventory adjustment for the PPV amounts is generated automatically. You can view the reference number of the adjustment in the **PPV Ref. Nbr.** column on the **Document Details** tab of the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 
@@ -87,7 +87,7 @@ Consider a few scenarios that may occur with a received stock item \(with no lot
 
 On reversal of a bill linked to a purchase receipt, a PPV adjustment can be created depending on the amount difference between the purchase receipt and the bill. The new adjustment does not have a link to the original adjustment. The original adjustment remains in the system. The amount of the new adjustment depends on the amount difference between the purchase receipt and the debit adjustment.
 
-## The Purchase Price Variance Account Mode of PPV Allocation { .section}
+## The Purchase Price Variance Account Mode of PPV Allocation
 
 If *Purchase Price Variance Account* is selected as the mode of PPV allocation, on release of a bill, the entire PPV amount is recorded to the Purchase Price Variance account defined by the posting class of the item.
 

@@ -1,8 +1,8 @@
-# Conversion of a Purchase: Generated Transactions {#_7fa089cf-96fd-475a-a642-367646f581c2 .concept}
+# Conversion of a Purchase: Generated Transactions
 
 As you convert a purchase to a fixed asset, you create and process an acquisition transaction. To update the GL balances, the system generates the general ledger transaction described in the following section.
 
-## Transaction Generated for Fixed Asset Acquisition {#section_o4c_ljv_vxb .section}
+## Transaction Generated for Fixed Asset Acquisition
 
 When you create a fixed asset and release an acquisition transaction, the system generates the following GL transaction.
 

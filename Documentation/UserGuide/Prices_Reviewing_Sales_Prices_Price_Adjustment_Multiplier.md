@@ -1,4 +1,4 @@
-# Sales Prices: Price Adjustment Multiplier {#_461a8e6e-9d21-4646-8be0-2e727636e78b .concept}
+# Sales Prices: Price Adjustment Multiplier
 
 If your company has many items in a price list and each item can be sold in different units of measure, you may want to keep and update sales prices for only one unit of measure, and configure the system to update the prices for other units of measure automatically based on this price. In this topic, you will read about the price adjustment multiplier in Acumatica ERP.
 

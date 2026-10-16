@@ -1,8 +1,8 @@
-# Cash Purchases: Generated Transactions {#_994bae01-e01a-4a8c-959a-3753465f1896 .concept}
+# Cash Purchases: Generated Transactions
 
 As you process cash purchases, the system generates the GL transactions described in the following sections.
 
-## Transactions Generated for a Cash Purchase { .section}
+## Transactions Generated for a Cash Purchase
 
 When you release a cash purchase, the system generates the following general ledger transactions:
 

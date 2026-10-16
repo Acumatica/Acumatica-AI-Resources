@@ -1,20 +1,20 @@
-# Payment Methods: To Define a Direct Deposit Payment Method {#_3dc79aac-1d35-4735-8ef3-0e1eb48be538 .task}
+# Payment Methods: To Define a Direct Deposit Payment Method
 
 In the following implementation activity, you will learn how to define a direct deposit payment method.
 
-## Story { .section}
+## Story
 
 Suppose that some of the organization's employees should receive direct deposits. Acting as the system administrator, you need to define a new payment method that will be used in payroll for direct deposit payments.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100 Payroll* snapshot, for the purposes of this activity, the *10200WH* cash account has been created on the [Cash Accounts](CA_20_20_00.md) \(CA202000\) form.
 
-## Process Overview { .section}
+## Process Overview
 
 You define a new payment method on the [Payment Methods](CA_20_40_00.md) \(CA204000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start defining a new payment method, you should launch the Acumatica ERP website and sign in as a system administrator by using the following credentials:
 
@@ -25,7 +25,7 @@ As a prerequisite activity, in the company to which you are signed in, be sure y
 
 As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course.
 
-## Step 1: Defining a Direct Deposit Payment Method { .section}
+## Step 1: Defining a Direct Deposit Payment Method
 
 To define a direct deposit payment method, do the following:
 
@@ -61,7 +61,7 @@ To define a direct deposit payment method, do the following:
 
 6.  On the form toolbar, click **Save**.
 
-## Step 2: Updating Remittance Settings of the Cash Account { .section}
+## Step 2: Updating Remittance Settings of the Cash Account
 
 To enable a cash account for use in the payroll functional area, do the following:
 

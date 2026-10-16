@@ -1,8 +1,7 @@
-# Sequence of Events: Saving of Changes to the Database {#_e08a2496-d5fc-416a-966c-4a8b6332345c .concept}
+# Sequence of Events: Saving of Changes to the Database
 
 The following figure illustrates the sequence of events that are raised when a data record is saved.
 
-![](Images/Ref_Events_Persist.png "Save (commit) of a data record to the database")
 
 While a user is inserting, updating, or deleting a data record, no changes are committed to the database. The system stores the modified data records in the session, and you can access them through the appropriate PXCache object. The system commits the changes to the database when the user clicks **Save** in the user interface, the save request is sent through the Web Service API, or `Actions.PressSave()` is invoked on the business logic controller \(BLC\) instance. In both cases, the [Persist\(\)](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=198bc715-56b2-37c5-895f-fd136023c404) method of the graph is invoked. The Actions.PressSave\(\) method additionally checks that the Save action exists in the graph and is enabled. The Save action then invokes the Persist\(\) method.
 

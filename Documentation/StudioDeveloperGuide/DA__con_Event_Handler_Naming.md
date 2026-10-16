@@ -1,4 +1,4 @@
-# Naming Conventions for Event Handlers Defined in Graphs {#_b6ff1ff7-5bf6-4ce2-a164-7d1cc7baecd5 .concept}
+# Naming Conventions for Event Handlers Defined in Graphs
 
 In Acumatica Framework, you must adhere to the naming conventions for an event handler to be implemented in a graph or graph extension. The name of the event handler must include the event type and the object to be processed by the handler.
 

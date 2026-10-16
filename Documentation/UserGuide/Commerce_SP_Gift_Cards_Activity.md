@@ -1,18 +1,18 @@
-# Gift Cards: Process Activity {#_00b153fc-c613-4301-9168-a33234845149 .task}
+# Gift Cards: Process Activity
 
 In this activity, you will learn how to implement gift cards in the Shopify store and explore how gift cards can be used to pay, in full or in part, for an online purchase in the Shopify store.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife wants to give its online customers the ability to purchase gift cards and use these cards when purchasing goods in the SweetLife online store. As an implementation consultant, you need to configure the gift card functionality—that is, the ability to sell gift cards as items and use the cards as payment methods—and test it.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, on the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *GIFTCERT* non-stock item has been created to represent gift cards sold in the online store. All purchases of gift cards in the online store will be recorded in Acumatica ERP as purchases of this item.
 
-## Process Overview { .section}
+## Process Overview
 
 You will do the following:
 
@@ -27,7 +27,7 @@ You will do the following:
 9.  On the [Prepare Data](BC_50_10_00.md) form, prepare the sales order data for synchronization, and on the [Process Data](BC_50_15_00.md) form, process the prepared data.
 10. On the [Sales Orders](SO_30_10_00.md) form, review the imported sales order that was partially paid for with the gift card.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring the gift cards, do the following:
 
@@ -36,7 +36,7 @@ Before you start configuring the gift cards, do the following:
 3.  Make sure that the integration with the Shopify Payments payment provider has been implemented, as described in [Order Synchronization: To Configure and Import Shopify Payments](Commerce_SP_Syncing_Orders_To_Use_Shopify_Payments.md).
 4.  Sign in to the admin area of the Shopify store as the store administrator in the same browser.
 
-## Step 1: Configuring Gift Cards in the Store { .section}
+## Step 1: Configuring Gift Cards in the Store
 
 To enable the gift card functionality, in the Shopify store, do the following:
 
@@ -50,7 +50,7 @@ To enable the gift card functionality, in the Shopify store, do the following:
 
 4.  In the lower right, click **Save gift card product** to save your changes.
 
-## Step 2: Purchasing a Present and a Gift Card { .section}
+## Step 2: Purchasing a Present and a Gift Card
 
 To create an order in which you purchase a $25 gift card, in the Shopify store, do the following:
 
@@ -79,7 +79,7 @@ To create an order in which you purchase a $25 gift card, in the Shopify store, 
 6.  In the **Remember me** section, clear the **Save my information for a faster checkout** check box.
 7.  Click **Pay now** to place and pay your order. The confirmation page with the order number opens.
 
-## Step 3: Updating the Order Settings { .section}
+## Step 3: Updating the Order Settings
 
 To update the gift card settings, in Acumatica ERP, perform the following instructions:
 
@@ -87,7 +87,7 @@ To update the gift card settings, in Acumatica ERP, perform the following instru
 2.  On the **Orders** tab, in the **Gift Certificate Item** box, select *GIFTCERT*.
 3.  On the form toolbar, click **Save**.
 
-## Step 4: Importing the Order with the Gift Card { .section}
+## Step 4: Importing the Order with the Gift Card
 
 To import the created order, in Acumatica ERP, do the following:
 
@@ -102,7 +102,7 @@ To import the created order, in Acumatica ERP, do the following:
 7.  On the form toolbar, click **Process**.
 8.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 5: Reviewing the Imported Order { .section}
+## Step 5: Reviewing the Imported Order
 
 To review the details of the imported sales order in Acumatica ERP, do the following:
 
@@ -118,7 +118,7 @@ To review the details of the imported sales order in Acumatica ERP, do the follo
 
 For the purposes of this activity, you do not need to process the created sales order further.
 
-## Step 6: Sending the Gift Card to the Customer { .section}
+## Step 6: Sending the Gift Card to the Customer
 
 To send the gift card to the customer, in the admin area of the Shopify store, do the following:
 
@@ -130,7 +130,7 @@ To send the gift card to the customer, in the admin area of the Shopify store, d
     An email with the gift card code is sent to the email address that you have specified earlier in this activity.
 
 
-## Step 7: Updating the Payment Settings { .section}
+## Step 7: Updating the Payment Settings
 
 To update the payment settings, in Acumatica ERP, perform the following instructions:
 
@@ -141,7 +141,7 @@ To update the payment settings, in Acumatica ERP, perform the following instruct
     -   **Cash Account**: *10250ST*
 3.  On the form toolbar, click **Save**.
 
-## Step 8: Paying for the Order with the Gift Card { .section}
+## Step 8: Paying for the Order with the Gift Card
 
 **Tip:** Before you perform this step, make sure that you have the code of the gift card ready.
 
@@ -179,7 +179,7 @@ To create an order and pay for part of it with the gift card, in the admin area 
 
 11. Click **Pay now** to place and pay your order. The order confirmation page opens.
 
-## Step 9: Reviewing the Sales Order { .section}
+## Step 9: Reviewing the Sales Order
 
 To review the sales order, in the admin area of the Shopify store, do the following:
 
@@ -193,7 +193,7 @@ To review the sales order, in the admin area of the Shopify store, do the follow
     Under **Gift card**, notice the identifier of the gift card; under **Gift card last characters**, notice the last four characters of the gift card that was used to pay the order.
 
 
-## Step 10: Importing the Sales Order Paid with the Gift Card { .section}
+## Step 10: Importing the Sales Order Paid with the Gift Card
 
 To import the sales order, in Acumatica ERP, do the following:
 
@@ -208,7 +208,7 @@ To import the sales order, in Acumatica ERP, do the following:
 7.  On the form toolbar, click **Process**.
 8.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 11: Reviewing the Imported Sales Order { .section}
+## Step 11: Reviewing the Imported Sales Order
 
 To review the settings of the imported sales order, do the following:
 
@@ -219,7 +219,6 @@ To review the settings of the imported sales order, do the following:
 3.  In the table, in the row of the sales order that you have just imported, click the link in the **ERP ID** column.
 4.  On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, which opens in a pop-up window, review the settings of the order, as shown in the following screenshot.
 
-    ![](Images/activity_Commerce_SP_Gift_Cards_Activity.png "Payment by a gift card applied to the sales order")
 
     On the **Payments** tab, notice that two prepayments have been applied to the order: a credit card payment \(mapped to the *SHOPIFYPAY* payment method\) in the amount of $110.45 and a gift card payment \(mapped to the *GIFTCARDS* payment method\) in the amount of $25.
 

@@ -1,4 +1,4 @@
-# Adding Contacts and Payment Methods {#_ca680438-fa1e-410e-b443-9bcc38ca9c6d .concept}
+# Adding Contacts and Payment Methods
 
 Before assigning roles in the Modern Customer Portal, you—if you’re an authorized portal user—may need to perform these setup steps:
 

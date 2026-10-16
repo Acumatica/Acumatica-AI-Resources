@@ -1,4 +1,4 @@
-# Installing Acumatica ERP On-Premises {#_5e7ed6c4-03f3-4bd3-96e2-aeb6b7d56e0b .concept}
+# Installing Acumatica ERP On-Premises
 
 In this chapter, you will find information about downloading and installing the Acumatica ERP Configuration wizard.
 

@@ -1,10 +1,10 @@
-# To Increase the Size of a Column in an Existing Table {#_738485ba-ccb9-42a3-9daa-c1df69ea246f .task}
+# To Increase the Size of a Column in an Existing Table
 
 You use the Database Scripts page of the Customization Project Editor to increase the size of a text column of an existing table of Acumatica ERP.
 
 **Note:** If you publish the customization project, the changes remain in the Acumatica ERP database even if you unpublish the project.
 
-## To Increase the Size of a Column { .section}
+## To Increase the Size of a Column
 
 To increase the size of a column, do the following:
 

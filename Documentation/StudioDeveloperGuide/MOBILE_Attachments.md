@@ -1,8 +1,8 @@
-# Configuring Attachments {#_37205b0a-b4d9-4b2c-be4a-3c53112cccd0 .concept}
+# Configuring Attachments
 
 By default, the mobile application enables attachments and displays them on a screen if the screen supports the attachments. However, the default handling of attachments can be overridden.
 
-## Example: Configuring a Screen with Attachments { .section}
+## Example: Configuring a Screen with Attachments
 
 To see an example of changing the way attachments are handled, copy the code below to an `.xml` file, put the file in the `\App_Data\Mobile` folder of the Acumatica ERP website, and start the mobile application.
 
@@ -54,9 +54,8 @@ To disable attachments and configure the file types that are allowed, you use th
 
 The screenshot below shows the resulting screen in the mobile application.
 
-![](Images/10-1.png "A screen with attachments")
 
-## Enhancing Images Taken from the Camera { .section}
+## Enhancing Images Taken from the Camera
 
 The functionality of enhancing images taken from the camera of a mobile device is implemented in the Acumatica mobile app. This image enhancement makes the image look better and more readable. This functionality is useful for photos of expense receipts that may be attached to documents in Acumatica ERP.
 

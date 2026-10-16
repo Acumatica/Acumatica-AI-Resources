@@ -1,14 +1,14 @@
-# Importing Non-Card Refunds: Implementation Activity {#_9aeaf163-1ff7-4e10-8410-01034926ccbd .task}
+# Importing Non-Card Refunds: Implementation Activity
 
 The following activity will walk you through the configuration of refund import so that you can import to Acumatica ERP refunds and returns issued to a customer in the Shopify store for orders paid with non-card payment methods.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company sells several kinds of jams in its Shopify store and wants Acumatica ERP to keep information about the returns and refunds issued in the Shopify store. Acting as an implementation consultant, you need to set up the import of refunds from the Shopify store to Acumatica ERP.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following features have been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form:
 
@@ -22,7 +22,7 @@ The following entities, which you will use in this activity, have been predefine
 -   The *REFUNDAMT* non-stock item on the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form
 -   The *EREFUND* reason code on the [Reason Codes](CS_21_10_00.md) \(CS211000\) form
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -30,7 +30,7 @@ In this activity, you will do the following:
 2.  On the **Orders** tab, review the settings related to refund import.
 3.  On the **Payments** tab, activate the import of refunds for a non-card payment method \(*Manual*\).
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare the system for the steps of this activity, do the following:
 
@@ -39,7 +39,7 @@ To prepare the system for the steps of this activity, do the following:
     -   Username: *gibbs*
     -   Password: *123*
 
-## Step 1: Activating the Refund Entity { .section}
+## Step 1: Activating the Refund Entity
 
 Before you start importing refunds from the Shopify store to Acumatica ERP, you need to activate the *Refund* entity as follows:
 
@@ -51,7 +51,7 @@ Before you start importing refunds from the Shopify store to Acumatica ERP, you 
 
 4.  On the form toolbar, click **Save** to save your changes.
 
-## Step 2: Reviewing the Refund Import Settings { .section}
+## Step 2: Reviewing the Refund Import Settings
 
 To review the settings that will be applied to refunds imported from the Shopify store, do the following:
 
@@ -71,7 +71,7 @@ To review the settings that will be applied to refunds imported from the Shopify
 
 3.  On the form toolbar, click **Save** to save your changes.
 
-## Step 3: Activating the Import of Refunds for a Non-Card Payment Method { .section}
+## Step 3: Activating the Import of Refunds for a Non-Card Payment Method
 
 To turn on the import of refunds for the *Manual* payment method, which you have configured in [Initial Configuration: To Configure the Store Connection](Commerce_SP_Initial_Configuration_Implem_Activity.md), do the following:
 

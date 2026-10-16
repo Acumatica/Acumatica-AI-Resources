@@ -1,4 +1,4 @@
-# Using Third-Party Tools {#_ea2b191a-9333-46c8-bca5-2aade422f901 .concept}
+# Using Third-Party Tools
 
 This topic describes the following third-party tools, which may be useful for troubleshooting:
 
@@ -6,15 +6,15 @@ This topic describes the following third-party tools, which may be useful for tr
 -   [.NET Memory Profiler](#_df009414-950b-45fb-b639-14807e10cb38): A tool for analyzing an application's memory usage
 -   [WinDbg](#_095a927e-d9fe-4e3b-99a0-38013003f013): A powerful tool for analyzing process dump files
 
-## JetBrains dotTrace {#_48f477e3-8643-4fe2-9360-e7898b091afd .section}
+## JetBrains dotTrace
 
 JetBrains dotTrace is a tool for analyzing the performance of your application. In particular, by using this tool, you can view the average running time for the methods in your application.
 
-## .NET Memory Profiler {#_df009414-950b-45fb-b639-14807e10cb38 .section}
+## .NET Memory Profiler
 
 .NET Memory Profiler is another tool for monitoring and analyzing issues on your server. By using this tool, you can take snapshots of the Acumatica ERP memory and isolate memory leaks.
 
-## WinDbg {#_095a927e-d9fe-4e3b-99a0-38013003f013 .section}
+## WinDbg
 
 WinDbg is a powerful tool that can open and analyze process dump files.
 

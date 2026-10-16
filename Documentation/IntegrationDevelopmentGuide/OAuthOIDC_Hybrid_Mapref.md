@@ -1,4 +1,4 @@
-# Implementing the Hybrid Flow {#_254a70ba-bea9-4767-be6c-ee0ec9455692 .concept}
+# Implementing the Hybrid Flow
 
 The Hybrid flow offers a balance between security and usability by leveraging the advantages of both the Authorization Code flow \(such as secure token exchange\) and the Implicit flow \(such as immediate access tokens\). In this chapter, you can find details about the implementation of the Hybrid flow.
 

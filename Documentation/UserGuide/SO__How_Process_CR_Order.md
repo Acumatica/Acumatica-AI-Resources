@@ -1,8 +1,8 @@
-# To Process a Cash Return Order \(CR\) {#_8beafacb-1ccf-4716-88f7-0de18da27158 .task}
+# To Process a Cash Return Order \(CR\)
 
 To record a return of items that were sold in a cash sale, you process a cash return order \(that is, an order of the *CR* order type\) by using the [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 
-## To Process a Cash Return Order { .section}
+## To Process a Cash Return Order
 
 1.  Open the [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 2.  In the Summary area, select the order by specifying its type \(*CR*\) and reference number.

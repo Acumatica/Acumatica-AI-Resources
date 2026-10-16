@@ -1,8 +1,8 @@
-# To Print a Sales Orders Invoice or Memo {#_2e47e6c9-99f7-45c2-bf26-947528cdfc90 .task}
+# To Print a Sales Orders Invoice or Memo
 
 If you need to print a Sales Orders invoice or memo, you can do this from the [Invoices](SO_30_30_00.md) \(SO303000\) form.
 
-## To Print a Sales Orders invoice or Memo { .section}
+## To Print a Sales Orders invoice or Memo
 
 1.  Open the [Invoices](SO_30_30_00.md) \(SO303000\) form.
 2.  In the **Type** box, select the type of the document to be printed.

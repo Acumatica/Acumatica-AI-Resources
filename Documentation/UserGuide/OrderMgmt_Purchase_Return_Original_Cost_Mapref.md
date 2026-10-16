@@ -1,4 +1,4 @@
-# Processing Purchase Returns at the Original Cost {#_e3e6f9ca-f8ce-40ef-b80a-b8a565bab5a4 .concept}
+# Processing Purchase Returns at the Original Cost
 
 In some cases, you may need to return purchased items to the vendor. You can issue the returned items from inventory at the original item cost. This chapter describes how you can create and process purchase returns of stock items at the items' original cost.
 

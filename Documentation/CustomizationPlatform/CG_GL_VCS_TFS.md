@@ -1,4 +1,4 @@
-# To Integrate the Customization Project Editor with Source Control {#_ddf1e582-0abb-4720-825d-2d7867809a62 .concept}
+# To Integrate the Customization Project Editor with Source Control
 
 To start tracking changes in a customization project by using source control, perform the following actions:
 

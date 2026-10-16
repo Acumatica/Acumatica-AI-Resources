@@ -1,12 +1,12 @@
-# VAT for Early Payments: To Process a Payment with a Cash Discount {#_f61fdb59-0bba-41e1-b4a9-71a01f2e8cb1 .task}
+# VAT for Early Payments: To Process a Payment with a Cash Discount
 
 The following activity will walk you through the process of adjusting VAT for AR invoices paid within the cash discount period.
 
-## Story {#section_uzm_fjv_vxb .section}
+## Story
 
 Suppose that SweetLife Fruits &amp; Jams provided four hours of training to Lake Cafe on January 15, 2026. On 1/17/2026, Lake Cafe paid the invoice in full and received a cash discount. Acting as a SweetLife accountant, you need to record an AR invoice, process a payment with a cash discount, and generate a VAT credit memo.
 
-## Configuration Overview {#section_wzm_fjv_vxb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following configuration tasks have been performed to prepare the system for this activity to be performed:
 
@@ -16,11 +16,11 @@ In the *U100* dataset, the following configuration tasks have been performed to 
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *TRAINING* non-stock item has been configured.
 -   On the [Credit Terms](CS_20_65_00.md) \(CS206500\) form, the *310N30* credit terms have been configured.
 
-## Process Overview {#section_yzm_fjv_vxb .section}
+## Process Overview
 
 In this activity, you will first update the settings of the VAT tax on the [Taxes](TX_20_50_00.md) \(TX205000\) form and the review the settings of the TAXABLE tax category on the [Tax Categories](TX_20_55_00.md) \(TX205500\) form. You will update the settings of the *LAKECAFE* customer on the [Customers](AR_30_30_00.md) \(AR303000\) form and AR preferences on the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form. On the [Companies](CS_10_15_00.md) \(CS101500\) form, you will update the settings of the *SWEETLIFE* company. On the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will create an AR invoice for the customer, with VAT applied to the invoice. On the [Payments and Applications](AR_30_20_00.md) \(AR302000\) for, you will create a payment for this invoice with a cash discount taken by the customer. On the [Generate AR Tax Adjustments](AR_50_45_00.md) \(AR504500\) form, you will create a VAT credit memo to adjust the amount of the output VAT.
 
-## System Preparation {#section_a1n_fjv_vxb .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -31,7 +31,7 @@ To prepare the system, do the following:
 5.  As a prerequisite activity, be sure that you have created the *CANADA* tax zone on the [Tax Zones](TX_20_60_00.md) \(TX206000\) form as described in [Tax Zones and Categories: To Create a Tax Category and Tax Zone for VAT](../ImplementationGuide/TaxZones_and_Categories_VAT_Implem_Activity.md).
 6.  As a prerequisite activity, be sure you have configured VAT on the [Taxes](TX_20_50_00.md) \(TX205000\) form as described in [Value-Added Taxes: To Create a General VAT and Exempt VAT](../ImplementationGuide/Taxes_Configuring_VAT_Impem_Activity_General_VAT.md).
 
-## Step 1: Updating the Settings of VAT {#section_c1n_fjv_vxb .section}
+## Step 1: Updating the Settings of VAT
 
 To update the settings of the VAT, do the following:
 
@@ -40,7 +40,7 @@ To update the settings of the VAT, do the following:
 3.  In the **Cash Discount** box, select *Reduces Taxable Amount on Early Payment*.
 4.  On the form toolbar, click **Save**.
 
-## Step 2: Reviewing the Tax Category {#section_e1n_fjv_vxb .section}
+## Step 2: Reviewing the Tax Category
 
 To review the settings of the *TAXABLE* tax category, do the following:
 
@@ -48,7 +48,7 @@ To review the settings of the *TAXABLE* tax category, do the following:
 2.  In the **Tax Category ID** box, select *TAXABLE*.
 3.  In the table, make sure that *VAT* is selected in the **Tax ID** column.
 
-## Step 3: Updating the Customer's Settings {#section_g1n_fjv_vxb .section}
+## Step 3: Updating the Customer's Settings
 
 To update the customer's settings, do the following:
 
@@ -58,7 +58,7 @@ To update the customer's settings, do the following:
 4.  On the **Shipping** tab, select *CANADA* in the **Tax Zone** box.
 5.  On the form toolbar, click **Save**.
 
-## Step 4: Updating the Accounts Receivable Preferences {#section_i1n_fjv_vxb .section}
+## Step 4: Updating the Accounts Receivable Preferences
 
 To update the accounts receivable preferences, do the following:
 
@@ -74,7 +74,7 @@ To update the accounts receivable preferences, do the following:
 
 3.  On the form toolbar, click **Save**.
 
-## Step 5: Updating the Company Settings { .section}
+## Step 5: Updating the Company Settings
 
 To make the system apply cash discounts to the total amount of documents, you need to update the company settings. To update the settings of *SWEETLIFE*, do the following:
 
@@ -82,7 +82,7 @@ To make the system apply cash discounts to the total amount of documents, you ne
 2.  On the **Company Details** tab, select *Document Amount* in the **Cash Discount Base** box.
 3.  On the form toolbar, click **Save**.
 
-## Step 6: Creating an AR Invoice {#section_m1n_fjv_vxb .section}
+## Step 6: Creating an AR Invoice
 
 To create an AR invoice, do the following:
 
@@ -115,7 +115,7 @@ To create an AR invoice, do the following:
         Notice that the tax amount to be paid to the tax agency is calculated based on the undiscounted price of the services because the company's accountant does not know whether the discount will be taken on this particular invoice.
 
 
-## Step 7: Creating a Payment for the Invoice {#section_p1n_fjv_vxb .section}
+## Step 7: Creating a Payment for the Invoice
 
 To create an AR payment for the invoice within the cash discount period, do the following:
 
@@ -147,7 +147,7 @@ To create an AR payment for the invoice within the cash discount period, do the 
     The open balance of the invoice is still $22.47, which is the discount amount taken by the customer. Because the amount of the customer payment for the invoice is less than the full invoice amount, for which the VAT had been calculated and posted, you need to adjust the taxable and tax amounts to reflect the actual payment amount received for the services.
 
 
-## Step 8: Creating a VAT Tax Adjustment {#section_u1n_fjv_vxb .section}
+## Step 8: Creating a VAT Tax Adjustment
 
 To create a VAT tax adjustment, do the following:
 

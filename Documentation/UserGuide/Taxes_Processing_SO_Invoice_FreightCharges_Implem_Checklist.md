@@ -1,8 +1,8 @@
-# Taxable Sales with Freight Charges: Implementation Checklist {#_efceb8f9-9183-47e0-a4d8-924ada4a8df5 .concept}
+# Taxable Sales with Freight Charges: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for processing a taxable sales order and invoice with freight charges, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist {#section_fyl_fjv_vxb .section}
+## Implementation Checklist
 
 We recommend that before you initially process a taxable sales order, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -18,14 +18,14 @@ We recommend that before you initially process a taxable sales order, you make s
 |[Ship via Codes](CS_20_75_00.md) \(CS207500\)|The needed ship via code has been created; on the **Details** tab, the **Base Rate** and **Freight Sales Account** have been specified.|
 |[Customers](AR_30_30_00.md) \(AR303000\)|The needed customer account has been configured and the needed tax zone, shipping zone, and ship via code have been assigned to this customer on the **Shipping** tab.|
 
-## Other Settings That Affect the Workflow {#section_hyl_fjv_vxb .section}
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of processing taxable sales with freight charges by specifying additional settings as follows:
 
 -   To cause shipments to be created with the *On Hold* status \(so that the user can verify them before processing them further\), select the **Hold Shipments on Entry** check box on the [Sales Orders Preferences](SO_10_10_00.md) \(SO101000\) form.
 -   To cause general ledger batches generated during the processing of sales documents to be posted automatically, select the **Automatically Post on Release** check box on the [General Ledger Preferences](GL_10_20_00.md) \(GL102000\) form. For information on processing general ledger batches, see [GL Transactions: General Information](Finance_Processing_Batch_GeneralInfo.md).
 
-## Validation of Configuration {#section_jyl_fjv_vxb .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you process a taxable sale with freight charges by performing instructions similar to those described in [Taxable Sales with Freight Charges: Process Activity](Taxes_Processing_SO_Invoice_FreightCharges_Activity.md).
 

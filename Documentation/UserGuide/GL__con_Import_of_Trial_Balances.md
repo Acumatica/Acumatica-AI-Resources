@@ -1,4 +1,4 @@
-# Preparation for Importing Trial Balances {#_9fb11332-7bbb-4944-8d9e-995918abc51b .concept}
+# Preparation for Importing Trial Balances
 
 In Acumatica ERP, to initialize the system during initial implementation, you can import either a trial balance \(or balances\) or a number of GL transactions from a legacy system. Alternatively, you can import trial balances and then upload the GL transactions from subsequent periods. If you import the GL transactions, you do not need to import the trial balance because the trial balance will be computed by the system automatically based on the imported GL transactions. If you do not need to keep the history of GL transactions in Acumatica ERP, you can import the trial balance only.
 
@@ -8,7 +8,7 @@ In the legacy system, you should prepare the data to be imported. For each requi
 
 In this topic, you will read about preparing the file with a trial balance and configuring the system for importing.
 
-## Preparing and Editing the File to Be Imported {#section_ilg_mjv_vxb .section}
+## Preparing and Editing the File to Be Imported
 
 From the third-party software, you should export the prepared trial balance data to a CSV file or to an Excel spreadsheet. The file should have the following columns:
 
@@ -29,25 +29,25 @@ From the third-party software, you should export the prepared trial balance data
 
 You should not import the balance of the *YTD Net Income* account; Acumatica ERP calculates this balance automatically from the imported balances of income and expense accounts.
 
-## Configuring the System Before Importing a Trial Balance {#section_olg_mjv_vxb .section}
+## Configuring the System Before Importing a Trial Balance
 
 Depending on the way the account balances are presented in the trial balance in your legacy system \(from which you are importing the data\), you specify the sign of the trial balances in the **Sign of the Trial Balance** box in the **Chart of Accounts** section of the [General Ledger Preferences](GL_10_20_00.md) \(GL102000\) form as follows:
 
 -   If credit balances of liability and income accounts are presented with a plus sign, you select the *Normal* option. Normal balances satisfy the following validation criterion:
 
-    ``` {#codeblock_qlg_mjv_vxb}
+    ```
     Total Debit Balance of the (Assets + Expense) Accounts = Total Credit Balance of the (Income + Liabilities) Accounts
     ```
 
 -   If the credit balances of liability and income accounts are presented with a minus sign, you select the *Reversed* option. Reversed credit balances, which are implemented in some applications, satisfy the following validation criterion.
 
-    ``` {#codeblock_rlg_mjv_vxb}
+    ```
     Total Debit Balance of (Assets + Expense) Accounts = – Total Credit Balance of (Income + Liabilities) Accounts)
     ```
 
     This criterion can also be expressed as follows.
 
-    ``` {#codeblock_tlg_mjv_vxb}
+    ```
     Total Debit Balance of (Assets + Expense) Accounts + Total Credit Balance of (Income + Liabilities) Accounts = 0
     ```
 

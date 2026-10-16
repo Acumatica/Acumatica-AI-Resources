@@ -1,4 +1,4 @@
-# Step 7: Testing the Transition {#_89f3ae7f-cb97-4071-b878-f2088c9d7728 .concept}
+# Step 7: Testing the Transition
 
 To test the transition, do the following:
 
@@ -10,7 +10,6 @@ To test the transition, do the following:
 
     The status of the invoice changes to *Postponed*, as shown in the following screenshot. On the More menu, notice that only one command is available \(**Approve Discount**\). The equivalent button appears on the form toolbar.
 
-    ![](Images/WorkflowAPI_Postponed_ApproveDiscount_ModernUI_2025R2.png "The Postponed Status of an Invoice")
 
 6.  On the form toolbar, click **Approve Discount**.
 

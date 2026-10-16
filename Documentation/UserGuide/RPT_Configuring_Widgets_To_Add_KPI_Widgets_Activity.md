@@ -1,8 +1,8 @@
-# Specific Widgets: To Add KPI Widgets {#_1dd7bbf6-48e2-420f-aef5-0e5e6feeeb3a .task}
+# Specific Widgets: To Add KPI Widgets
 
 The following activity will show you how to add and configure scorecard, meter, and trend card widgets.
 
-## Story {#section_lcw_pl4_gtb .section}
+## Story
 
 Suppose that you are Kimberly Gibbs, a technical specialist in your company who is working on simple customizations. A sales manager of your company had previously requested a dashboard named *Sales Mgr Dashboard*, and you created it. The sales manager has now requested that you add the following widgets to the dashboard to track the described KPIs:
 
@@ -12,11 +12,11 @@ Suppose that you are Kimberly Gibbs, a technical specialist in your company who 
 
 Also, the new KPI widgets should be located in the upper left corner of the dashboard, and the *Orders to Ship* widget should be separated from the upper widgets, which have the *Sales Orders* header.
 
-## Process Overview {#section_mcw_pl4_gtb .section}
+## Process Overview
 
 In this activity, you will change the dashboard layout and rearrange the existing widgets to accommodate more widgets. Then you will add and configure widgets of the following types: trend card, meter, header, and scorecard.
 
-## System Preparation {#section_g1x_5xn_wrb .section}
+## System Preparation
 
 Before you start adding the widgets, make sure that the following tasks have been performed:
 
@@ -28,7 +28,7 @@ Before you start adding the widgets, make sure that the following tasks have bee
 3.  You have completed the [Specific Widgets: To Add Link, Table, and Embedded Page Widgets](RPT_Configuring_Widgets_To_Add_Header_Table_Link_and_Embedded_Page_Widgets_Activity.md) activity.
 4.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button, and select *1/30/2026* on the calendar.
 
-## Step 1: Modifying the Dashboard Layout {#section_ncw_pl4_gtb .section}
+## Step 1: Modifying the Dashboard Layout
 
 You previously added widgets to the *Sales Mgr Dashboard* dashboard. You need to rearrange the existing widgets to free up the upper left corner for KPIs. To change the layout, do the following:
 
@@ -39,10 +39,9 @@ You previously added widgets to the *Sales Mgr Dashboard* dashboard. You need to
 2.  On the dashboard title bar, click the **Design** button.
 3.  Move the *Customer Details*, *Customer Accounts*, and *Acumatica Website* widgets to the right working area, and modify their widths and heights to accommodate the information they display. The modified dashboard should be similar to the dashboard in the following screenshot.
 
-    ![](Images/activity_RPT_Configuring_Widgets_Rearranged_Widgets_Dashboard.png "The dashboard with the rearranged widgets")
 
 
-## Step 2: Adding a Trend Card Widget {#section_pcw_pl4_gtb .section}
+## Step 2: Adding a Trend Card Widget
 
 To add a trend card widget, do the following:
 
@@ -60,7 +59,7 @@ To add a trend card widget, do the following:
     -   **Falling Trend Color**: *Pink*
 4.  Click **Save** to save your changes and close the dialog box.
 
-## Step 3: Adding a Meter Widget {#section_qcw_pl4_gtb .section}
+## Step 3: Adding a Meter Widget
 
 To add a meter widget, do the following:
 
@@ -76,7 +75,7 @@ To add a meter widget, do the following:
     -   **Maximum**: *Fixed Value* as type, `50` as value and *Pink* as color
 4.  Click **Save** to save your changes and close the dialog box.
 
-## Step 4: Adding a Header Widget {#section_rcw_pl4_gtb .section}
+## Step 4: Adding a Header Widget
 
 To add a header widget, do the following:
 
@@ -86,7 +85,7 @@ To add a header widget, do the following:
 4.  Click **Save** to save your changes and close the dialog box.
 5.  Drag the left widget border to the left until it aligns with the left border of the working area.
 
-## Step 5: Adding a Scorecard Widget {#section_scw_pl4_gtb .section}
+## Step 5: Adding a Scorecard Widget
 
 To add a scorecard widget, do the following:
 
@@ -114,7 +113,6 @@ You have changed the dashboard layout and arranged the previously added widgets 
 
 **Tip:** The width of the widgets and number of available widget placeholders depend on the size of your browser window. You may need to resize other widgets as well to get the same arrangement.
 
-![](Images/activity_RPT_Configuring_Widgets_Trend_Meter_ScoreCard_Header_Dashboard.png "The Sales Mgr Dashboard with the changed layout and additional widgets")
 
 **Parent topic:**[Configuring Widgets](../UserGuide/RPT_Configuring_Widgets_Mapref.md)
 

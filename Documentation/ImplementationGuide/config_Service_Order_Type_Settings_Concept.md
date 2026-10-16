@@ -1,8 +1,8 @@
-# Service Order Types: General Settings {#_3b4b74c7-7afe-4e5e-8a70-0cd0e288d99c .concept}
+# Service Order Types: General Settings
 
 This topic explains the settings you need to specify when creating a service order type on the [Service Order Types](../UserGuide/FS_20_23_00.md) \(FS202300\) form.
 
-## Behavior of the Service Order Type { .section}
+## Behavior of the Service Order Type
 
 Each service order type has a behavior that defines the purpose of its service documents and determines which system settings apply to them.
 
@@ -18,7 +18,7 @@ You can select one of the following behaviors for a service order type:
 -   *Quote*: Used for service quotes, which can be converted into service orders if the customer accepts the quote. For this behavior, billing settings are not available on the form.
 -   *Route*: Used for service orders that include route settings between the locations where services are performed. For details on routes, see the Route Management guide.
 
-## Default Contact Information Settings { .section}
+## Default Contact Information Settings
 
 For service orders and appointments of a service order type, you can define the default source of address and contact information. On the [Service Order Types](../UserGuide/FS_20_23_00.md) \(FS202300\) form, in the **Default Settings** section of the **General** tab, you select one of the following options in the **Take Address and Contact Information From** box:
 
@@ -26,7 +26,7 @@ For service orders and appointments of a service order type, you can define the 
 -   *Contact*: The system copies the address and contact information from the **Contact** section of the [Contacts](../UserGuide/CR_30_20_00.md) \(CR302000\) form. To do this, you must first select a contact person in the **Contact** box on the **Settings** tab of the [Appointments](../UserGuide/FS_30_02_00.md) or [Service Orders](../UserGuide/FS_30_01_00.md) form.
 -   *Branch Location*: The system copies the address and contact information from the **Main Contact** and **Main Address** section of the **General** tab on the [Branch Locations](../UserGuide/FS_20_25_00.md) \(FS202500\) form. Use this option when appointments for the service order usually take place at the branch location’s address.
 
-## Billing Settings { .section}
+## Billing Settings
 
 The billing settings determine the type of a document or record generated for appointments or service orders of a specific service order type during billing. You specify these settings in the **Billing Settings** section of the **General** tab of the [Service Order Types](../UserGuide/FS_20_23_00.md) \(FS202300\) form. In the **Generated Billing Documents** box of this section, you select one of the following options:
 

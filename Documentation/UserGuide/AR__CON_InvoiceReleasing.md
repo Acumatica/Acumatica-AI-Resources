@@ -1,4 +1,4 @@
-# AR Invoices: Invoice Releasing {#_81f30233-f04e-44ce-b839-760bd0ae8467 .concept}
+# AR Invoices: Invoice Releasing
 
 In Acumatica ERP, invoices that can be released manually have the following document types on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form: *Invoice*, *Debit Memo*, and *Overdue Charge*. The information in this topic applies to documents of these types.
 
@@ -12,14 +12,14 @@ When you release an invoice, the system does the following:
 
 This topic describes the forms you may use to release an invoice and the generation of the General Ledger batch.
 
-## Releasing an Invoice {#section_q1n_4jv_vxb .section}
+## Releasing an Invoice
 
 You can release an invoice only if it has the *Balanced* status. In Acumatica ERP, you can release an invoice by using one of the following forms:
 
 -   [Invoices and Memos](AR_30_10_00.md): You release an invoice by clicking the **Release** button on the form toolbar. For details, see [AR Invoices: To Create an AR Invoice](Finance_ARInvoices_Process_Activity.md).
 -   [Release AR Documents](AR_50_10_00.md) \(AR501000\): You use this mass-processing form to release a particular invoice or multiple invoices at once.
 
-## Generating a GL Batch {#section_kms_xbm_4v .section}
+## Generating a GL Batch
 
 When you release an invoice, the system generates a batch of transactions to record the sale to the general ledger. The invoice includes all the information the system needs to generate the batch.
 

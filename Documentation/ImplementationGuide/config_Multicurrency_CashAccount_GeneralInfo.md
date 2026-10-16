@@ -1,8 +1,8 @@
-# Multicurrency Cash Accounts: General Information {#_4bb275d8-a597-494d-9b19-68edadad8296 .concept}
+# Multicurrency Cash Accounts: General Information
 
 Account balances in Acumatica ERP are always maintained in the base currency. When you post a transaction in a foreign currency to an account, the account balance is debited or credited in the appropriate amount in the base currency, based on the actual exchange rate.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,14 +10,14 @@ In this chapter, you will learn how to do the following:
 -   Specify the cash account as the default cash account for a customer and a vendor
 -   Create a GL transaction in a foreign currency
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure a cash account in a foreign currency in the following cases:
 
 -   You have opened a bank account in a foreign currency for settlements with foreign vendors.
 -   Some of your vendors have asked you to make payments to them in a particular foreign currency, and you do not want to use your bank account in the base currency for that purpose to avoid paying exchange rate commissions to the bank.
 
-## Management of Denominated Accounts { .section}
+## Management of Denominated Accounts
 
 To be able to maintain an account balance in two currencies, you need to denominate the account—that is, assign a particular currency \(base or foreign\) to this account. Once the account is denominated, you can post to it only in the assigned currency, which is called the currency of denomination. The balance of the denominated account is maintained in two currencies: the base currency and the currency of denomination.
 
@@ -34,7 +34,7 @@ Unlike ordinary accounts, denominated accounts have the following restrictions:
 
 Because of these restrictions, you should denominate only accounts that absolutely must be denominated.
 
-## Entry of Foreign Currency Transactions { .section}
+## Entry of Foreign Currency Transactions
 
 By default, the base currency of the company is used for GL transactions created on the [Journal Transactions](../UserGuide/GL_30_10_00.md) \(GL301000\) form. To record a GL transaction in a foreign currency, you select the needed currency in the **Currency** box. All the transactions in one batch use the same currency.
 
@@ -46,7 +46,7 @@ You can manually change the default rate type for a particular batch by clicking
 
 To review the batch amounts in the base currency, you can click **View Base** right of the Exchange Rate box. To view the batch amounts in the foreign currency again, you click **View Cury**.
 
-## Rounding Gains and Losses { .section}
+## Rounding Gains and Losses
 
 When you enter your journal transactions with debit and credit amounts in the foreign currency, the system automatically converts the amounts into the base currency based on the specified exchange rate. The base currency generally has fewer decimal places than the exchange rate, which has six decimal places. Thus, the debit and credit amounts calculated in the base currency may differ by a very small amount, causing the batch to not be balanced. In this case, the difference is recorded to one of the accounts \(or subaccounts if they are used in your system\) specified for each currency—the Rounding Gain account or Rounding Loss account—and the corresponding journal entry is automatically added to the batch.
 

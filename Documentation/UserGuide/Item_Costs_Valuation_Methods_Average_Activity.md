@@ -1,10 +1,10 @@
-# Item Costs and Valuation Methods: To Sell Items with the Average Method {#_ba20c8fa-a19b-41e0-8e87-7540c77dba94 .task}
+# Item Costs and Valuation Methods: To Sell Items with the Average Method
 
 The following activity demonstrates how to completely process a sale of a stock item that is assigned the *Average* valuation method.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 SweetLife Fruits &amp; Jams is a midsize company that purchases fruit, jams, and spices from large fruit vendors and then sells these goods to wholesale customers, such as restaurants and cafes. Peach jam is among these goods. The *PEACHJAM08* stock item represents an 8-ounce \(small\) jar of peach jam and has been assigned the *Average* valuation method in Acumatica ERP.
 
@@ -16,7 +16,7 @@ Previously, SweetLife bought peach jam as follows:
 
 On January 30, 2026, the FourStar Coffee &amp; Sweets Shop customer ordered 30 boxes of the jam. Acting as SweetLife's sales manager Regina Wiley, you need to process the sale and review the cost of the peach jam issued from the warehouse.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -34,7 +34,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
     -   A receipt dated 12/15/2025 for 10 units of the *PEACHJAM08* item with a cost of $90 each. The units have been received in the *MAIN* location.
     -   A receipt dated 12/20/2025 for 10 units of the *PEACHJAM08* item with a cost of $92.25 each. The units have been received in the *F4S1* location.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -43,14 +43,14 @@ In this activity, you will do the following:
 3.  On the same form, quick-process the sales order.
 4.  On the [Inventory Transaction Details](IN_40_40_00.md) \(IN404000\) form, review how the stock item has been issued and how its cost has been calculated.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start performing the steps of this activity, do the following:
 
 1.  Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as a sales manager by using the *wiley* username and the *123* password.
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Reviewing the Costs of the Purchased Item { .section}
+## Step 1: Reviewing the Costs of the Purchased Item
 
 To review the average costs of the *PEACHJAM08* item at the locations of the *WHOLESALE* warehouse, do the following:
 
@@ -62,10 +62,9 @@ To review the average costs of the *PEACHJAM08* item at the locations of the *WH
 
     -   The item's average cost in the *MAIN* location is $87.50. It was calculated as the total item cost divided by the total item quantity in the warehouse: \(10 \* 85 + 10 \* 90\) / 20 = 87.5.
     -   The item's average cost in the *F4S1* location, whose costs are tracked separately, is the same as the item's unit cost of $92.25.
-    ![](Images/Item_Costs_Valuation_Methods_Average_Activity_Inv_Summary_Purchased_Items.png "The stock item received in the wholesale warehouse")
 
 
-## Step 2: Creating a Sales Order { .section}
+## Step 2: Creating a Sales Order
 
 To create the sales order for the FourStar Coffee &amp; Sweets Shop, do the following:
 
@@ -83,7 +82,7 @@ To create the sales order for the FourStar Coffee &amp; Sweets Shop, do the foll
     -   **Quantity**: `30`
 5.  On the form toolbar, click **Save**.
 
-## Step 3: Quick-Processing the Sales Order { .section}
+## Step 3: Quick-Processing the Sales Order
 
 To process the sales order, do the following:
 
@@ -101,7 +100,7 @@ To process the sales order, do the following:
     5.  Click **OK**. The **Processing Results** dialog box opens. Wait for the system to create the documents.
     6.  Close the dialog box. Notice that the sales order now has the *Completed* status.
 
-## Step 4: Reviewing the Costs of the Sold Item { .section}
+## Step 4: Reviewing the Costs of the Sold Item
 
 To review how the system has calculated the costs for the issued *PEACHJAM08* item, do the following:
 
@@ -111,7 +110,6 @@ To review how the system has calculated the costs for the issued *PEACHJAM08* it
     -   **Inventory ID**: *PEACHJAM08*
 3.  Review the costs in the table \(see the following screenshot\). Notice that the cost of the 20 items issued from the *MAIN* location is *1,750.00*, which means that the system calculated the average unit cost of one item as $87.50 \(the average of $85 and $90\). Also notice that even though the warehouse is the same and the valuation method is *Average*, the system has issued the 10 items from the *F4S1* location at the separate unit cost of $92.25.
 
-    ![](Images/Item_Costs_Valuation_Methods_Average_Inv_Transaction_Details.png "The item costs on the Inventory Transaction Details form")
 
 
 **Parent topic:**[Managing Item Costs and Valuation Methods](../UserGuide/Item_Costs_Valuation_Methods_Mapref.md)

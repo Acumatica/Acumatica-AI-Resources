@@ -1,4 +1,4 @@
-# Processing Purchases of Non-Stock Items and Services with Receipts {#_dca90ba9-3c3b-4e3b-a42a-1e7382184d58 .concept}
+# Processing Purchases of Non-Stock Items and Services with Receipts
 
 If your company purchases items, including services, whose quantities will not be tracked in inventory, these items can be defined as non-stock items in Acumatica ERP. You can process purchases of these items by using purchase orders, which may have associated purchase receipts.
 

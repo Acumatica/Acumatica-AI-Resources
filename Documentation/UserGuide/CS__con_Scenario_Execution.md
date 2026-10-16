@@ -1,4 +1,4 @@
-# Scenario Execution {#_0703d306-d583-4296-b3e7-19f80ff8489d .concept}
+# Scenario Execution
 
 Scenario execution is managed under the site map location specified during scenario configuration. To execute a scenario, you need to complete the tasks on the [&lt;Scenario Name&gt;](WZ_20_15_00.md) \(WZ201500\) form. On this form, you can view the list of tasks with their current statuses. The statuses are assigned to the tasks during scenario activation and indicate whether the task is available for execution. For details, see [Scenario Configuration](CS__con_Scenario_Configuration.md).
 

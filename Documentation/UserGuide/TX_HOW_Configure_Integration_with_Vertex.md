@@ -1,4 +1,4 @@
-# To Set Up Integration With Vertex Tax Calculation {#_5afe84d2-efb3-43f3-b53e-f129cda8ae41 .task}
+# To Set Up Integration With Vertex Tax Calculation
 
 To set up integration between Acumatica ERP and Vertex tax calculation service, you need to do the following:
 
@@ -11,14 +11,14 @@ To set up integration between Acumatica ERP and Vertex tax calculation service, 
 
 These subprocedures are described below.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Before you configure the integration with Vertex tax calculation in Acumatica ERP, make sure of the following:
 
 -   Your Vertex account is configured. For details, see [To Configure Your Vertex Account](TX__HOW_Setting_Up_Vertex_Integration.md).
 -   The *External Tax Calculation Integration* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## To Set Up the Connection Between Acumatica ERP and Your Vertex Account { .section}
+## To Set Up the Connection Between Acumatica ERP and Your Vertex Account
 
 1.  Open the [Tax Providers](TX_10_20_00.md) \(TX102000\) form.
 2.  On the form toolbar, click **Add New Record**.
@@ -42,7 +42,7 @@ Before you configure the integration with Vertex tax calculation in Acumatica ER
 17. Repeat Steps 13–15 for each branch.
 18. Click **Save**.
 
-## To Set Up a Tax Agency { .section}
+## To Set Up a Tax Agency
 
 **Tip:** In Acumatica ERP, a tax agency is defined as a vendor.
 
@@ -57,7 +57,7 @@ Before you configure the integration with Vertex tax calculation in Acumatica ER
 
 7.  Click **Save**.
 
-## To Create the Needed Tax Zone { .section}
+## To Create the Needed Tax Zone
 
 1.  Open the [Tax Zones](TX_20_60_00.md) \(TX206000\) form.
 2.  Type `VERTEX` in the **Tax Zone ID** box, and then type a description.
@@ -66,7 +66,7 @@ Before you configure the integration with Vertex tax calculation in Acumatica ER
 5.  In the **Tax Agency ID** box, select the tax agency you created for this integration.
 6.  Click **Save**.
 
-## To Create Tax Categories for Tax Codes { .section}
+## To Create Tax Categories for Tax Codes
 
 1.  Open the [Tax Categories](TX_20_55_00.md) \(TX205500\) form.
 2.  On the form toolbar, click **Add New Record**.
@@ -74,7 +74,7 @@ Before you configure the integration with Vertex tax calculation in Acumatica ER
 4.  Click **Save**.
 5.  Repeat Steps 2–4 for each required tax code.
 
-## To Specify the Needed Settings for Each Customer { .section}
+## To Specify the Needed Settings for Each Customer
 
 1.  Open the [Customers](AR_30_30_00.md) \(AR303000\) form.
 2.  Select a customer for which sales taxes should be calculated by Vertex Tax.
@@ -89,7 +89,7 @@ Before you configure the integration with Vertex tax calculation in Acumatica ER
 8.  On the form toolbar, click **Save and Close**.
 9.  For each additional location, repeat Steps 4–8.
 
-## To Assign Tax Categories to Each Stock Item or Non-Stock Items { .section}
+## To Assign Tax Categories to Each Stock Item or Non-Stock Items
 
 1.  Open the [Stock Items](IN_20_25_00.md) \(IN202500\) or [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form.
 2.  Select the stock or non-stock item by its inventory ID.

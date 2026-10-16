@@ -1,20 +1,19 @@
-# UI Definition in HTML and TypeScript:To Create the UI of a Form {#_00801b5d-7339-4398-ae84-bbc0a78ea9be .task}
+# UI Definition in HTML and TypeScript:To Create the UI of a Form
 
 The following activity will walk you through the process of creating the UI of an Acumatica ERP form from scratch.
 
-## Story { .section}
+## Story
 
 The Repair Services \(RS201000\) form, which you will develop, will be used to view the list of services provided by the Smart Fix company. By clicking buttons on the form toolbar, users will be able to add a new service, edit an existing service, and delete a service. Below you can see what this form should look like.
 
-![](../Shared/Images/UIDev_UIDefinition_Activity_CreateForm.png "Service list on the Repair Services form")
 
 You have already implemented the backend for the form, which includes the `RSSVRepairServiceMaint` graph and the `RSSVRepairService` data access class \(DAC\). You have also already added the `RSSVRepairService` table to the application database.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create TypeScript and HTML files for the Repair Services \(RS201000\) form. In the TypeScript file, you will define the screen class and view class for the form. In the HTML file, you will define the layout of the form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin the creation of the UI of the Repair Services \(RS201000\) form, do the following:
 
@@ -24,7 +23,7 @@ Before you begin the creation of the UI of the Repair Services \(RS201000\) form
     -   The `RSSVRepairService` database table
 2.  Perform the prerequisite actions and build the source code for the first time, as described in [Modern UI Development: To Build the Source Code of All Acumatica ERP Forms for Modern UI Development](UIDev_ModernUI_Activity_BuildingSourcesAll.md).
 
-## Step 1: Creating Files for the Form { .section}
+## Step 1: Creating Files for the Form
 
 To create the Modern UI for the Repair Services \(RS201000\) form, you need to create the form’s TypeScript and HTML files as follows:
 
@@ -36,13 +35,13 @@ To create the Modern UI for the Repair Services \(RS201000\) form, you need to c
     -   `RS201000.ts`
     -   `RS201000.html`
 
-## Step 2: Defining the Screen Class in TypeScript { .section}
+## Step 2: Defining the Screen Class in TypeScript
 
 To define the view of the Repair Services \(RS201000\) form in TypeScript, define a screen class and a property for the data view of the form as follows:
 
 1.  In the `RS201000.ts` file, add the following import directives.
 
-    ```language-javascript
+    ```javascript
     import {
     	PXScreen, graphInfo, createCollection,
     } from "client-controls";
@@ -52,13 +51,13 @@ To define the view of the Repair Services \(RS201000\) form in TypeScript, defin
 
 2.  Define the screen class for the form as follows. The class name is the ID of the form.
 
-    ```language-javascript
+    ```javascript
     export class RS201000 extends PXScreen {}
     ```
 
 3.  For the screen class, add the graphInfo decorator, and specify the graph and the primary view of the form in the decorator properties, as shown below. Hide the **Note** and **Files** buttons on the form title bar by using the hideFilesIndicator and hideNotesIndicator properties. You don’t need notes and files for the whole form because each record in the table on the form has its own notes and files.
 
-    ```language-javascript
+    ```javascript
     @graphInfo({
     	graphType: "PhoneRepairShop.RSSVRepairServiceMaint",
     	primaryView: "RepairService",
@@ -70,20 +69,20 @@ To define the view of the Repair Services \(RS201000\) form in TypeScript, defin
 
 4.  Define the property for the data view of the form by using the following code. Because the data view is used to display a table, you need to initialize the property with the createCollection method. The input parameter of this method is an instance of the view class, which you’ll define in the next step.
 
-    ```language-javascript
+    ```javascript
     export class RS201000 extends PXScreen {
     	RepairService = createCollection(RSSVRepairService);
     }
     ```
 
 
-## Step 3: Defining the View Class in TypeScript { .section}
+## Step 3: Defining the View Class in TypeScript
 
 You need to define a view class for the single data view of the Repair Services \(RS201000\) form. Proceed as follows:
 
 1.  In the `RS201000.ts` file, update the list of import directives, as shown below.
 
-    ```language-javascript
+    ```javascript
     import {
     	PXScreen, graphInfo, createCollection,
     	PXView, PXFieldState,
@@ -93,13 +92,13 @@ You need to define a view class for the single data view of the Repair Services 
 
 2.  Define the view class as follows.
 
-    ```language-javascript
+    ```javascript
     export class RSSVRepairService extends PXView  {}
     ```
 
 3.  In the view class, specify the properties for all data fields of the data view, as shown below. You use the name of the data field as the property name.
 
-    ```language-javascript
+    ```javascript
     export class RSSVRepairService extends PXView  {
     	ServiceCD: PXFieldState;
     	Description: PXFieldState;
@@ -114,7 +113,7 @@ You need to define a view class for the single data view of the Repair Services 
 
 4.  Add the gridConfig decorator to the view class, as shown below. In the gridConfig decorator, you must specify the preset property. Because the table is the primary element of the Repair Services form, you use the *Primary* preset.
 
-    ```language-javascript
+    ```javascript
     @gridConfig({
     	preset: GridPreset.Primary
     })
@@ -129,11 +128,11 @@ You need to define a view class for the single data view of the Repair Services 
     ```
 
 
-## Step 4: Defining the Layout in HTML { .section}
+## Step 4: Defining the Layout in HTML
 
 The Repair Services \(RS201000\) form contains only a table. So to define the layout of the form, you need to include only the qp-grid element in the `RS201000.html` file, as the following code shows.
 
-```language-xml
+```xml
 <template>
   <qp-grid id="grid-RepairService" view.bind="RepairService"></qp-grid>
 </template>

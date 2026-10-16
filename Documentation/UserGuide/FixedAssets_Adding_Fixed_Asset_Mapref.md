@@ -1,4 +1,4 @@
-# Creating Fixed Assets {#_8c70f6e2-83c4-41ff-8a8e-431cb20c2c10 .concept}
+# Creating Fixed Assets
 
 In this chapter, you will learn about manually creating fixed asset records. You may want to create fixed assets manually before the corresponding AP bill is received or when you are migrating fixed asset data from a legacy system.
 

@@ -1,4 +1,4 @@
-# From a Field Attribute {#_42cc37fb-86ed-43e7-b962-234f2690ebd8 .concept}
+# From a Field Attribute
 
 In DAC extensions, you have to refer to a custom field by its BQL name.
 

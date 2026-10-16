@@ -1,8 +1,8 @@
-# Direct Tax Payment: To Create a Tax Bill for a Tax Agency {#_14e1fbc7-aad9-44fb-9dab-ff90554392f0 .task}
+# Direct Tax Payment: To Create a Tax Bill for a Tax Agency
 
 The following activity will walk you through the process of creating a tax bill for a tax agency.
 
-## Story {#section_q3m_fjv_vxb .section}
+## Story
 
 Suppose that on 1/15/2026, the SweetLife Fruits &amp; Jams company purchased office equipment in the amount of $750 from the Cartridge World Inc. company, which is located in Canada. Taxes on imported goods should be paid directly to a tax agency at the time of import; thus, the bill from the vendor does not include any taxes.
 
@@ -10,7 +10,7 @@ Further suppose that on 1/31/2026, SweetLife Fruits &amp; Jams received a bill f
 
 Acting as a SweetLife accountant, you need to process the purchase of the office equipment, process the tax bill to pay this amount to the tax agency and record the claimable amount that you will later include in the tax report, and pay taxes on this purchase.
 
-## Configuration Overview {#section_u3m_fjv_vxb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following configuration tasks have been performed to prepare the system for this activity to be performed:
 
@@ -18,11 +18,11 @@ In the *U100* dataset, the following configuration tasks have been performed to 
 -   On the [Tax Categories](TX_20_55_00.md) \(TX205500\) form, the *TAXABLE* tax category has been configured.
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *CARTRIDGE* vendor account has been configured.
 
-## Process Overview {#section_w3m_fjv_vxb .section}
+## Process Overview
 
 In this activity, you will first create a tax zone for foreign vendors on the [Tax Zones](TX_20_60_00.md) \(TX206000\) form and create a tax category on the [Tax Categories](TX_20_55_00.md) \(TX205500\) form. On the [Vendors](AP_30_30_00.md) \(AP303000\) form, you will update the settings of the Canada-based vendor. On the [Taxes](TX_20_50_00.md) \(TX205000\) form, you will create a value-added tax for imported goods. On the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you will create an AP bill to record the purchase of imported goods. On the [Tax Bills and Adjustments](TX_30_30_00.md) \(TX303000\) form, you will create a tax bill for the tax agency and apply the AP bill to it. After releasing the tax bill, you will review the generated GL transaction on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form. Finally, you will open the original AP bill from the [Tax Bills and Adjustments](TX_30_30_00.md) form and review the VAT applied to it after the release of the tax bill.
 
-## System Preparation {#section_y3m_fjv_vxb .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -33,7 +33,7 @@ To prepare the system, do the following:
 5.  As a prerequisite activity, be sure that you have configured a tax report as described in [Tax Report Configuration: To Create a Tax Report for VAT](../ImplementationGuide/TaxReport_VAT_Implem_Activity.md).
 6.  As a prerequisite activity, be sure that you have created a general VAT as described in [Value-Added Taxes: To Create a General VAT and Exempt VAT](../ImplementationGuide/Taxes_Configuring_VAT_Impem_Activity_General_VAT.md).
 
-## Step 1: Creating a Tax Zone {#section_ajm_fjv_vxb .section}
+## Step 1: Creating a Tax Zone
 
 To create a tax zone for foreign vendors, do the following:
 
@@ -43,7 +43,7 @@ To create a tax zone for foreign vendors, do the following:
     -   **Description**: `Foreign tax zone`
 3.  On the form toolbar, click **Save**.
 
-## Step 2: Creating a Tax Category for the Import Tax {#section_cjm_fjv_vxb .section}
+## Step 2: Creating a Tax Category for the Import Tax
 
 To create a tax category for the import tax, do the following:
 
@@ -54,7 +54,7 @@ To create a tax category for the import tax, do the following:
     -   **Active**: Selected
 3.  On the form toolbar, click **Save**.
 
-## Step 3: Updating the Vendor's Settings {#section_ejm_fjv_vxb .section}
+## Step 3: Updating the Vendor's Settings
 
 To update the setting for *CARTRIDGE* vendor, do the following:
 
@@ -63,7 +63,7 @@ To update the setting for *CARTRIDGE* vendor, do the following:
 3.  On the **Purchase Settings** tab, select *FOREIGN* in the **Tax Zone** box.
 4.  On the form toolbar, click **Save**.
 
-## Step 4: Creating a Value-Added Tax on Imported Goods {#section_gjm_fjv_vxb .section}
+## Step 4: Creating a Value-Added Tax on Imported Goods
 
 To create a value-added tax on imported goods, do the following:
 
@@ -88,7 +88,7 @@ To create a value-added tax on imported goods, do the following:
 5.  On the table toolbar of the **Zones** tab, click **Add Row** and select *FOREIGN* in the **Tax Zone ID** column.
 6.  On the form toolbar, click **Save**.
 
-## Step 5: Creating an AP Bill {#section_kjm_fjv_vxb .section}
+## Step 5: Creating an AP Bill
 
 To create an AP bill for the purchase of imported office equipment, do the following:
 
@@ -114,7 +114,7 @@ To create an AP bill for the purchase of imported office equipment, do the follo
 
 7.  On the form toolbar, click **Remove Hold** and click **Release** to release the bill.
 
-## Step 6: Creating a Tax Bill {#section_mjm_fjv_vxb .section}
+## Step 6: Creating a Tax Bill
 
 To create a tax bill, do the following:
 

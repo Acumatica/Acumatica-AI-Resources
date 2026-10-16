@@ -1,14 +1,14 @@
-# Overdue Charges: Process Activity {#_c401af2c-defe-47b2-a7e6-b522d0d4d7b3 .task}
+# Overdue Charges: Process Activity
 
 The following activity will walk you through the process of calculating overdue charges for overdue documents of particular customers.
 
-## Story { .section}
+## Story
 
 Suppose that in February 2026, SweetLife Fruits &amp; Jams started to send overdue charge documents to some of its customers and want these documents to be shown in customer statements. Further suppose that on February 15, 2026, *COFFEESHOP* made a payment of $2,000 that should be applied to one of the customer's outstanding documents. On February 28, an accountant of SweetLife prepared customer statements for February 2026, which is the next statement date according to the *EOM* statement cycle.
 
 Acting as the SweetLife accountant, you need to record the payment of $2,000 from *COFFEESHOP*, generate and release overdue charge documents for the *COFFEESHOP* and *GOODFOOD* customers, and generate customer statements for February 2026.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -16,11 +16,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *COFFEESHOP* and *GOODFOOD* customers have been created.
 -   On the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) and [Payments and Applications](AR_30_20_00.md) \(AR302000\) forms, multiple documents \(invoices, credit memos, payments, and prepayments\) for the *COFFEESHOP* and *GOODFOOD* customers have been created. These documents should be overdue and have the *Open* status.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, you will process a partial payment for one of the customers. On the [Calculate Overdue Charges](AR_50_70_00.md) \(AR507000\) form, you will calculate and generate overdue charges for the two customers. On the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will release the *Overdue Charge* documents. On the [Customer Details](AR_40_20_00.md) \(AR402000\) form, you will review the updated customer balances. Finally, on the [Prepare Statements](AR_50_30_00.md) \(AR503000\) form, you will prepare statements for the customers, print the statements, and review them.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin calculating overdue charges and generating customer statements, do the following:
 
@@ -29,7 +29,7 @@ Before you begin calculating overdue charges and generating customer statements,
 3.  As a prerequisite activity, in the company to which you are signed in, be sure you have configured the overdue charge functionality, as described in [Overdue Charges: Implementation Activity](Finance_Overdue_Charges_Implem_Activity.md).
 4.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step 1: Processing a Partial Payment { .section}
+## Step 1: Processing a Partial Payment
 
 To process a partial payment of $2,000 from the *COFFEESHOP* customer, do the following:
 
@@ -48,7 +48,7 @@ To process a partial payment of $2,000 from the *COFFEESHOP* customer, do the fo
 5.  On the form toolbar, click **Save** to save the payment.
 6.  On the form toolbar, click **Remove Hold** and then click **Release** to release the payment and its application.
 
-## Step 2: Calculating Overdue Charges { .section}
+## Step 2: Calculating Overdue Charges
 
 To calculate overdue charges, do the following:
 
@@ -62,14 +62,13 @@ To calculate overdue charges, do the following:
 
 3.  Review the two invoices that appear in the table, as shown in the following screenshot. On 2/28/2026, there are two overdue documents, which are the invoices to *COFFEESHOP* and *GOODFOOD*. The **Last Payment Date** column for the *COFFEESHOP* invoice shows the date of the most recent payment applied to the invoice, which is 2/15/2026.
 
-    ![](Images/process_Finance_Overdue_Charges_Calculated_Charges.png "Overdue charges after a partial payment has been applied")
 
 4.  On the form toolbar, click **Process All** to create *Overdue Charge* documents.
 
     **Tip:** If the system finds an unreleased overdue charge document for an invoice during overdue charge processing, the invoice is marked with an error and no new overdue charge document is created. You can select this invoice and click **View Last Charge** on the form toolbar to view and release the existing overdue charge document. Then you can calculate and process overdue charges for this invoice again.
 
 
-## Step 3: Releasing the Overdue Charges { .section}
+## Step 3: Releasing the Overdue Charges
 
 To release the overdue charge documents, do the following:
 
@@ -93,7 +92,7 @@ To release the overdue charge documents, do the following:
     On release of the overdue charge document, the system has updated the current balance of the customer and generated a batch to debit the AR account specified in the document and credit the specified income account. Because the *NYSTATE* tax zone is specified for the *COFFEESHOP* customer, an entry for the Tax Payable account has been added to the GL transaction. This entry has 0.00 debit and credit amounts because the *EXEMPT* tax category has been specified for the *OVERDUE10* charge code.
 
 
-## Step 4: Reviewing Customer Balances { .section}
+## Step 4: Reviewing Customer Balances
 
 To review the updated balances of the customers, do the following:
 
@@ -108,7 +107,7 @@ To review the updated balances of the customers, do the following:
     The *Overdue Charge* document in the amount of $351.98 is displayed in the list of open documents of the customer.
 
 
-## Step 5: Preparing and Reviewing Customer Statements { .section}
+## Step 5: Preparing and Reviewing Customer Statements
 
 To prepare and review customer statements for 2/28/2026, do the following:
 

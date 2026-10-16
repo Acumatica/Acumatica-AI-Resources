@@ -1,4 +1,4 @@
-# Customization of a Barcode-Driven Form: Barcode Scan Class {#_37754765-d3ca-4032-a219-2a297be6817a .concept}
+# Customization of a Barcode-Driven Form: Barcode Scan Class
 
 If you need to override the logic of the barcode scan class, you override the member of the class by using the PXOverride attribute, as shown in the following code.
 

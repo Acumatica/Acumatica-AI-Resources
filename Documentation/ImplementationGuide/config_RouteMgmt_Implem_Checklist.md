@@ -1,8 +1,8 @@
-# Route Management: Implementation Checklist {#_7de2ff31-18c0-43ce-a81d-59f94c34a325 .concept}
+# Route Management: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for the management of routes and the processing of route service contracts in the system.
 
-## Prerequisites { .section}
+## Prerequisites
 
 Before you start configuring route management, you should make sure that the needed configuration tasks have been performed, as summarized in the following checklist.
 
@@ -14,7 +14,7 @@ Before you start configuring route management, you should make sure that the nee
 |[Numbering Sequences](../UserGuide/CS_20_10_10.md) \(CS201010\) form|The numbering sequence for route executions has been created.|
 |[Employees](../UserGuide/EP_20_30_00.md) \(EP203000\) form|The employees that are drivers have been defined in the system.|
 
-## Required Steps { .section}
+## Required Steps
 
 To make it possible for users to execute routes and process route service contracts, you should navigate to the forms listed in the following table and perform the configuration actions that are described.
 
@@ -29,7 +29,7 @@ To make it possible for users to execute routes and process route service contra
 |[Vehicles](../UserGuide/FS_20_36_00.md) \(FS203600\) form|Create vehicle records.|
 |[Item Classes](../UserGuide/IN_20_10_00.md#) \(IN201000\) form|Modify the item classes to contain the default settings of the company's route services. Create at least one route service.|
 
-## Additional Settings { .section}
+## Additional Settings
 
 For faster data entry, you can specify a route service order type that will be selected on the data entry forms in the **Default Service Order Type** box of the [Route Management Preferences](../UserGuide/FS_10_04_00.md) \(FS100400\) form.
 

@@ -1,14 +1,22 @@
-# Image Uploader: Conversion from ASPX to HTML and TypeScript {#_b2fb227d-2e45-42f3-8e35-857da1ce0c9a .concept}
+# Image Uploader: Conversion from ASPX to HTML and TypeScript
 
 The following tables will help you to convert the ASPX elements that are related to the image uploader control to HTML or TypeScript elements.
 
-## PXImageUploader { .section}
+## PXImageUploader
 
 The following table shows the correspondence between PXImageUploader and HTML or TypeScript elements. During the conversion of ASPX pages to HTML and TypeScript, you need to replace these ASPX elements with their analogs in HTML or TypeScript.
 
-|ASPX|HTML or TypeScript|
-|----|------------------|
-|PXImageUploader```
+<table id="_53b158c3-95c7-4d0b-b468-cfb18f27756e"><thead><tr><th>
+
+ASPX
+
+</th><th>
+
+HTML or TypeScript
+
+</th></tr></thead><tbody><tr><td>
+
+PXImageUploader```
 <px:PXImageUploader
   Height="320px"
   Width="430px"
@@ -22,7 +30,9 @@ The following table shows the correspondence between PXImageUploader and HTML or
 />
 ```
 
-|Use the qp-image-uploader tag, as shown in the following code. ```
+</td><td>
+
+Use the qp-image-uploader tag, as shown in the following code. ```
 <qp-image-uploader
   id="ImageUrl"
   state.bind="Item.ImageUrl"
@@ -41,20 +51,35 @@ Alternatively, you can use the field tag and specify qp-image-uploader as the va
 />
 ```
 
-|
-|AllowNoImage```
+</td></tr><tr><td>
+
+AllowNoImage```
 <px:ImageUploader ID="imgUploader" ...
   AllowNoImage="True" />
 ```
 
-|Use the allowNull property of the config attribute.|
-|AllowUpload```
+</td><td>
+
+Use the allowNull property of the config attribute.
+
+</td></tr><tr><td>
+
+AllowUpload```
 <px:ImageUploader ID="imgUploader" ...
   AllowUpload="True" />
 ```
 
-|Use the readOnly property of the config attribute.|
-|DataField|Use the state and value attributes of the qp-image-uploader tag, as shown in the following code.
+</td><td>
+
+Use the readOnly property of the config attribute.
+
+</td></tr><tr><td>
+
+DataField
+
+</td><td>
+
+Use the state and value attributes of the qp-image-uploader tag, as shown in the following code.
 
  ```
 <qp-image-uploader
@@ -73,40 +98,69 @@ Alternatively, you can use the field tag and specify qp-image-uploader as the va
 </field>
 ```
 
-|
-|DataMember```
+</td></tr><tr><td>
+
+DataMember```
 <px:ImageUploader ID="imgUploader" ...
   DataMember="ItemSettings" />
 ```
 
-|Use the viewName property of the config attribute.|
-|Height|Use the height attribute of the qp-image-uploader tag.```
+</td><td>
+
+Use the viewName property of the config attribute.
+
+</td></tr><tr><td>
+
+Height
+
+</td><td>
+
+Use the height attribute of the qp-image-uploader tag.```
 <qp-image-uploader
   ...
   height="300px">
 </qp-image-uploader>
 ```
 
-|
-|Width|Use the width attribute of the qp-image-uploader tag.```
+</td></tr><tr><td>
+
+Width
+
+</td><td>
+
+Use the width attribute of the qp-image-uploader tag.```
 <qp-image-uploader
   ...
   width="300px">
 </qp-image-uploader>
 ```
 
-|
+</td></tr></tbody>
+</table>
 
-## Obsolete ASPX Control and Property { .section}
+## Obsolete ASPX Control and Property
 
 The following table lists the obsolete ASPX element that is related to the image uploader control. You do not need to replace this ASPX element with any HTML or TypeScript element.
 
-|ASPX Control|Properties|
-|------------|----------|
-|PXImageUploader|-   runat
+<table id="_41289709-97c0-49e8-889b-0b2cf1319062"><thead><tr><th>
+
+ASPX Control
+
+</th><th>
+
+Properties
+
+</th></tr></thead><tbody><tr><td>
+
+PXImageUploader
+
+</td><td>
+
+-   runat
 -   SuppressLabel
 
-|
+</td></tr></tbody>
+</table>
 
 **Parent topic:**[Image Uploader](../DeveloperGuide/UIDevRef_ImageUploader_Mapref.md)
 

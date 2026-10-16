@@ -1,14 +1,14 @@
-# Two-Step Transfers: Process Activity {#_cfc0d321-2547-47ff-afc0-fabe37f46596 .task}
+# Two-Step Transfers: Process Activity
 
 In the following activity, you will learn how to move stock items between warehouses by using a two-step transfer.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a purchasing manager in the retail shop of the SweetLife Fruits &amp; Jams company. You have ordered 50 pounds of apples directly from a supplier. When the apples were delivered to the warehouse of the retail shop, you realized that the warehouse has space only for 30 pounds of apples. To address this problem, you have decided to send 20 pounds of these apples to the wholesale warehouse. You will create all required documents in Acumatica ERP to register in the system these transactions.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -21,7 +21,7 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *APPLES* stock item has been created.
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *GLORYFRUIT* vendor has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -31,14 +31,14 @@ In this activity, you will do the following:
 4.  On the [Receipts](IN_30_10_00.md) \(IN301000\) form, create an inventory receipt.
 5.  On the [Inventory Allocation Details](IN_40_20_00.md) form, make sure that the items are available in the destination warehouse.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start processing two-step transfers, you should do the following:
 
 1.  Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as purchasing manager Regina Wiley by using the *wiley* username and the *123* password.
 2.  On the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, make sure that the *SweetLife Store* branch is selected.
 
-## Step 1: Ordering and Receiving Items in a Source Warehouse { .section}
+## Step 1: Ordering and Receiving Items in a Source Warehouse
 
 Before you can transfer apples from the *RETAIL* warehouse to the *WHOLESALE* warehouse, you need to process the purchasing documents. Do the following:
 
@@ -62,7 +62,7 @@ Before you can transfer apples from the *RETAIL* warehouse to the *WHOLESALE* wa
 
 You have processed the documents for ordering the apples from the vendor and receiving the apples to the retail warehouse.
 
-## Step 2: Reviewing the Availability of Items in the Source Warehouse { .section}
+## Step 2: Reviewing the Availability of Items in the Source Warehouse
 
 To make sure that the ordered apples have become available in the retail warehouse, do the following:
 
@@ -71,7 +71,7 @@ To make sure that the ordered apples have become available in the retail warehou
 3.  In the **Warehouse** box, select *RETAIL*.
 4.  Make sure that the value in the **On Hand** box in the Summary area has increased by 50.
 
-## Step 3: Creating a Two-Step Transfer { .section}
+## Step 3: Creating a Two-Step Transfer
 
 Now you need to register the movement of 20 pounds of the purchased apples to the wholesale warehouse. To create a two-step transfer, do the following:
 
@@ -93,7 +93,7 @@ Now you need to register the movement of 20 pounds of the purchased apples to th
 
 So far, you have processed the documents for registering movement of 20 pounds of apples from the retail warehouse. Now you will register their receipt in the wholesale warehouse.
 
-## Step 4: Creating an Inventory Receipt { .section}
+## Step 4: Creating an Inventory Receipt
 
 Suppose that apples have been delivered to the wholesale warehouse. Before processing the document to record this receipt, you need to view the initial on-hand quantity of apples in the *WHOLESALE* warehouse so that you can later make sure that this quantity is increased by the transferred quantity. To review this quantity and create the receipt, do the following:
 
@@ -106,7 +106,7 @@ Suppose that apples have been delivered to the wholesale warehouse. Before proce
 4.  On the **Details** tab, in the **Location** box of the only row, make sure that *MAIN* is selected \(which is the location to which you will receive the items in the *WHOLESALE* warehouse\).
 5.  On the form toolbar, click **Release**. The system releases the receipt and adds the item quantity from the receipt to the on-hand quantity of the *APPLES* item in the *WHOLESALE* warehouse \(which you will verify in the next step\).
 
-## Step 5: Reviewing Availability of Items in the Destination Warehouse { .section}
+## Step 5: Reviewing Availability of Items in the Destination Warehouse
 
 To make sure that the moved quantity of apples is now available in the wholesale warehouse, do the following:
 

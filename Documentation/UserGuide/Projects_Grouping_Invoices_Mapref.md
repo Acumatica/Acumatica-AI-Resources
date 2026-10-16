@@ -1,4 +1,4 @@
-# Grouping Invoices {#_c7d12329-f123-1232-99de-b123cbe50a85 .concept}
+# Grouping Invoices
 
 This chapter describes how the system groups invoices depending on the project settings and the settings of billing rules that are used for billing.
 

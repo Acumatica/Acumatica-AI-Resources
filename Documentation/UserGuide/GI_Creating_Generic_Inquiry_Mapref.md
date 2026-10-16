@@ -1,4 +1,4 @@
-# Creating a Generic Inquiry {#_3742f4d4-2895-4624-83bb-dd923cba2028 .concept}
+# Creating a Generic Inquiry
 
 In Acumatica ERP, a generic inquiry is a customizable data inquiry form that you can create. The creation of a generic inquiry consists of number of stages.
 

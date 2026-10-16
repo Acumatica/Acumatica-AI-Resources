@@ -1,8 +1,8 @@
-# To Specify Lot or Serial Numbers for Ordered Items {#_5fb3b992-6ac0-42ca-82d9-a316ebff8a91 .task}
+# To Specify Lot or Serial Numbers for Ordered Items
 
 If you need to specify lot numbers or serial numbers for the items in a particular order, you can do this on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, as described in the instructions below.
 
-## To Specify Lot or Serial Number For the Ordered Items { .section}
+## To Specify Lot or Serial Number For the Ordered Items
 
 1.  Open the [Sales Orders](../Shared/../UserGuide/SO_30_10_00.md) \(SO301000\) form.
 2.  In the **Order Type** box of the Summary area, select the order type of the order for which you want to specify lot or serial numbers.

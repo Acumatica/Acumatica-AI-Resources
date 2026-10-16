@@ -1,4 +1,4 @@
-# Add-In for Outlook: Modern UI {#_a73c89e4-366a-4970-a60a-f59e12fedb31 .concept}
+# Add-In for Outlook: Modern UI
 
 By using the Acumatica add-in for Outlook for the Modern UI, you can link emails to the existing records, and create new records such as contacts, business accounts, opportunities, cases, and requests for information based on the email.
 

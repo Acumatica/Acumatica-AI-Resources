@@ -1,23 +1,23 @@
-# Accounts Payable: To Create a Vendor Class {#_90a53490-44c9-42c8-8b4d-b3e036551c41 .task}
+# Accounts Payable: To Create a Vendor Class
 
 You will now define the default vendor class in the system, which will provide many of the settings for newly created vendors and for other vendor classes you create, thus easing the creation of these entities during the next phase of implementation. Among other settings for the vendor class, you will specify the credit terms you have created.
 
-## Story { .section}
+## Story
 
 Suppose that most of the vendors of the SweetLife company use the same settings, such as credit terms, payment method, cash account, AP account, and cash discount account. Acting as an administrator, you need to create a default vendor class with these settings so that it can supply default settings when vendors and other vendor classes are created in the system.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Vendor Classes](../UserGuide/AP_20_10_00.md) \(AP201000\) form, you will create a vendor class and specify the default settings for it.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating the vendor class, make sure that the following tasks have been performed in the system:
 
 1.  The company has been created and an actual ledger has been assigned to it; see [Company Without Branches: To Configure a Company Without Branches](config_Basic_Company_Implem_Activity_Enabling_Features.md) and [General Ledger: To Create an Actual Ledger](config_Basic_Company_Implem_Activity_Actual_Ledger.md).
 2.  The credit terms that are used by vendors have been created, as described in [Credit Terms: To Define Single-Installment Credit Terms](config_Basic_Company_Implem_Activity_Credit_Terms.md).
 
-## Step: Creating the Default Vendor Class { .section}
+## Step: Creating the Default Vendor Class
 
 To create the default vendor class, do the following:
 

@@ -1,14 +1,13 @@
-# Automated Operations with Lot- and Serial-Tracked Items: Picking and Packing Items {#_26399b30-72a2-4c3d-8249-8f3505f17ff0 .concept}
+# Automated Operations with Lot- and Serial-Tracked Items: Picking and Packing Items
 
 If the *Lot and Serial Tracking* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form and the tracking of stock items by lot or serial number has been configured in the system, when you pick and pack lot- or serial-tracked items by using the [Pick, Pack, and Ship](SO_30_20_20.md) \(SO302020\) form or the corresponding screen in the Acumatica mobile app, the system may prompt you to enter the lot or serial number during this process.
 
 In this topic, you will read about the workflow for the automated picking and packing of lot- and serial-tracked inventory items in Acumatica ERP. The workflow in this topic is based on the assumption that your system has the recommended configuration described in [Automated Operations with Lot- and Serial-Tracked Items: Implementation Checklist](WMS_LotSerial_Tracking_Implem_Checklist.md).
 
-## Workflow for the Automated Picking of Lot- and Serial-Tracked Items { .section}
+## Workflow for the Automated Picking of Lot- and Serial-Tracked Items
 
 The automated processing of picking lot- or serial-tracked items involves the actions shown in the following diagram.
 
-![](Images/diag_WMS_Pick_wLot.png)
 
 To process the picking of lot- or serial-tracked items in Pick mode, you perform the following steps:
 
@@ -51,11 +50,10 @@ To process the picking of lot- or serial-tracked items in Pick mode, you perform
     If you have finished the picking operation for the currently selected document, you scan the `@pack` barcode to switch to Pack mode and proceed with packing.
 
 
-## Workflow for the Automated Packing of Lot- and Serial-Tracked Items { .section}
+## Workflow for the Automated Packing of Lot- and Serial-Tracked Items
 
 The automated processing of packing lot- or serial-tracked items that have been picked involves the actions shown in the following diagram.
 
-![](Images/diag_WMS_Pack_wLot.png)
 
 To process the packing of lot- or serial-tracked items in Pack mode, you perform the following steps:
 

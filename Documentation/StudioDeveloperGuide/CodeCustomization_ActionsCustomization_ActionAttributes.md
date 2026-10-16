@@ -1,4 +1,4 @@
-# Action Customization: Action Attributes {#_d7f7a53e-2a1b-49a6-be49-d2b1844c5a00 .concept}
+# Action Customization: Action Attributes
 
 You can use attributes to configure a button or command that represents an action in the user interface.
 

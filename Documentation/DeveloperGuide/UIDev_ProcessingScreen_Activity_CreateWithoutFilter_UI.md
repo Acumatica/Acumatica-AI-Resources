@@ -1,22 +1,22 @@
-# Processing Form:To Create a Simple Processing Form {#_2f0f1a83-3e8a-4d3a-b871-eddfa315d253 .task}
+# Processing Form:To Create a Simple Processing Form
 
 The following activity will walk you through the process of creating the UI of a simple processing form that doesn’t have any filtering parameters defined.
 
-## Story { .section}
+## Story
 
 The Smart Fix company needs to have a custom Acumatica ERP form that the managers of the company will use to assign repair work orders to particular employees. For this purpose, you’ll create the Assign Work Orders \(RS501000\) processing form.
 
 This form will use the `RSSVWorkOrder` custom table, whose data will be displayed in the table on the form.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you'll create a form template, add the unbound `Selected` data field to the DAC that will be used for the table on the form, implement the screen class and view class for the form, and define the layout of the form in the HTML file of the form.
 
-## System Preparation { .section}
+## System Preparation
 
-Before you begin creating a processing form, prepare the Acumatica ERP instance as described in the following prerequisite activity: [Test Instance for Customization: To Deploy an Instance with a Custom Form that Implements a Workflow](../StudioDeveloperGuide/CodeCustomization_PrepareInstance_Activity_DeployInstanceT240.md).
+Before you begin creating a processing form, prepare the Acumatica ERP instance as described in the following prerequisite activity: [Test Instance for Customization: To Deploy an Instance with a Custom Form That Implements a Workflow](../StudioDeveloperGuide/CodeCustomization_PrepareInstance_Activity_DeployInstanceT240.md).
 
-## Step 1: Creating the Form \(Self-Guided Exercise\) { .section}
+## Step 1: Creating the Form \(Self-Guided Exercise\)
 
 In this step, you'll create the Assign Work Orders \(RS501000\) form on your own. Although this is a self-guided exercise, this step provides details and suggestions you can use as you create the form. The creation of a form is described in detail in the *T200 Maintenance Forms* training course.
 
@@ -30,7 +30,6 @@ If you are using the Customization Project Editor to complete the self-guided ex
         -   **Graph Namespace**: `PhoneRepairShop`
         -   **Page Title**: `Assign Work Orders`
         -   **Template**: *Grid \(GridView\)*
-        -   **Create Modern UI Files**: Selected
     3.  Move the generated `RSSVAssignProcess` graph to the extension library.
 2.  Make sure that the `RSSVWorkOrder` DAC is defined in the `PhoneRepairShop_Code` Visual Studio project.
 3.  Build the project in Visual Studio.
@@ -40,13 +39,13 @@ If you are using the Customization Project Editor to complete the self-guided ex
     -   Verify that the access rights for the Assign Work Orders form were automatically added on the [Access Rights](../UserGuide/AU_20_52_00.md) page
     -   Update the *SiteMapNode* item for the Assign Work Orders form
 
-## Step 2: Adding the Unbound Selected Data Field {#section_sfj_qv2_wfc .section}
+## Step 2: Adding the Unbound Selected Data Field
 
 Do the following:
 
 1.  In the `RSSVWorkOrder` DAC, add the unbound `Selected` data field, as shown in the following code.
 
-    ``` {#codeblock_onw_zv2_wfc .language-csharp}
+    ```csharp
             #region Selected
             public abstract class selected : PX.Data.BQL.BqlBool.Field<selected> { }
             [PXBool]
@@ -57,19 +56,19 @@ Do the following:
 
 2.  Rebuild the project.
 
-## Step 3: Defining the Data View { .section}
+## Step 3: Defining the Data View
 
 In this step, you'll define the data view in the `RSSVAssignProcess` graph, which works with the Assign Work Orders \(RS501000\) form. Do the following:
 
 1.  In the `RSSVAssignProcess.cs` file, add the following `using` directive.
 
-    ```language-csharp
+    ```csharp
     using PX.Data.BQL.Fluent;
     ```
 
 2.  In the `RSSVAssignProcess` graph, use the following code to define the `WorkOrders` data view, which provides the data records to be processed on the form.
 
-    ```language-csharp
+    ```csharp
             public 
                 SelectFrom<RSSVWorkOrder>.
                 // Inside the Where condition, use a fluent BQL statement 
@@ -82,13 +81,13 @@ In this step, you'll define the data view in the `RSSVAssignProcess` graph, whic
 
 3.  Rebuild the project.
 
-## Step 4: Defining the Buttons for the Form Toolbar { .section}
+## Step 4: Defining the Buttons for the Form Toolbar
 
 In this step, you'll define the toolbar buttons for the form. Do the following:
 
 1.  In the `RSSVAssignProcess` graph, define the `Cancel` action for the toolbar \(shown below\).
 
-    ```language-csharp
+    ```csharp
             public PXCancel<RSSVWorkOrder> Cancel = null!;
     ```
 
@@ -96,7 +95,7 @@ In this step, you'll define the toolbar buttons for the form. Do the following:
 
 2.  In the `RSSVAssignProcess` graph, change the default names of the processing buttons in the constructor of the graph as follows.
 
-    ```language-csharp
+    ```csharp
             public RSSVAssignProcess()
             {
                 WorkOrders.SetProcessCaption("Assign");
@@ -106,19 +105,19 @@ In this step, you'll define the toolbar buttons for the form. Do the following:
 
 3.  Rebuild the project.
 
-## Step 5: Defining the Screen Class of the Form { .section}
+## Step 5: Defining the Screen Class of the Form
 
 In the `RS501000.ts` file, define the view of the Assign Work Orders form by adding a screen class and a property for the data view of the form. Do the following:
 
 1.  Open the `RS501000.ts` file.
 
-    **Tip:** You can open a TypeScript file of a form from one of the following locations:
+    **Tip:** You can open a TypeScript file of a form:
 
-    -   On the [Modern UI Files](../Shared/../UserGuide/AU_20_46_00.md) page of the Customization Project Editor
+    -   On the [Modern UI Files](../Shared/../UserGuide/AU_20_46_00.md) page of the Customization Project Editor.
     -   In the `FrontendSources\screen\src\development\screens` folder of your Acumatica ERP instance. \(The files appear in the file system if you click **Export to Development Folder** on the toolbar of the [Modern UI Files](../Shared/../UserGuide/AU_20_46_00.md) page.\)
 2.  In the `RS501000.ts` file, make sure the following import directives are included.
 
-    ```language-javascript
+    ```javascript
     import {
     	PXScreen, createCollection, graphInfo,
     	viewInfo,
@@ -127,7 +126,7 @@ In the `RS501000.ts` file, define the view of the Assign Work Orders form by add
 
 3.  In the `RS501000` screen class, modify the graphInfo decorator, and specify the graph and the primary view of the form in the decorator properties, as the following code shows.
 
-    ```language-javascript
+    ```javascript
     @graphInfo({
     	graphType: "PhoneRepairShop.RSSVAssignProcess",
     	primaryView: "WorkOrders"
@@ -139,7 +138,7 @@ In the `RS501000.ts` file, define the view of the Assign Work Orders form by add
 
     **Attention:** The names of the data view properties should be the same as those in the graph. For example, if the `WorkOrders` view is declared in the `RSSVAssignProcess` graph, the property with the same name should be declared in the `RS501000` screen class.
 
-    ```language-javascript
+    ```javascript
     export class RS501000 extends PXScreen {
     	@viewInfo({containerName: "Work Orders to Assign"})
     	WorkOrders = createCollection(RSSVWorkOrder);
@@ -149,14 +148,14 @@ In the `RS501000.ts` file, define the view of the Assign Work Orders form by add
     In the viewInfo decorator, you’ve specified the name of the container for the table.
 
 
-## Step 6: Defining the View Class of the Form { .section}
+## Step 6: Defining the View Class of the Form
 
 In the TypeScript file of the form, define the `RSSVWorkOrder` view class for the table on the Assign Work Orders form. Proceed as follows:
 
 1.  In the `RS501000.ts` file, add gridConfig, columnConfig, and GridPreset to the list of import directives.
 2.  Define the `RSSVWorkOrder` view class as follows.
 
-    ```language-javascript
+    ```javascript
     export class RSSVWorkOrder extends PXView { 
     	@columnConfig({ allowCheckAll: true })
     	Selected: PXFieldState; 
@@ -184,7 +183,7 @@ In the TypeScript file of the form, define the `RSSVWorkOrder` view class for th
 
 3.  Add the gridConfig decorator to the `RSSVWorkOrder` view class, as the following code shows. In the gridConfig decorator, you must specify the preset property. Because the table is used on the processing form, you’ll use the *Processing* preset. For details about presets, see [Form Layout: Grid Presets](UIDev_DesigningLayout_GridPresets.md).
 
-    ```language-javascript
+    ```javascript
     @gridConfig({
     	preset: GridPreset.Processing,
     	autoAdjustColumns: true
@@ -198,7 +197,7 @@ In the TypeScript file of the form, define the `RSSVWorkOrder` view class for th
 
 4.  Save your changes.
 
-## Step 7: Creating the Layout of the Form { .section}
+## Step 7: Creating the Layout of the Form
 
 In this step, you’ll define the layout of the Assign Work Orders \(RS501000\) processing form.
 
@@ -212,7 +211,7 @@ In this step, you’ll define the layout of the Assign Work Orders \(RS501000\) 
 
     1.  Within the template tag, modify the qp-grid tag and bind it to the `WorkOrders` view, as the following code shows.
 
-        ``` {#codeblock_ogf_hjf_wfc .language-xml}
+        ```xml
           <qp-grid id="grid-WorkOrders" view.bind="WorkOrders"> </qp-grid>
         ```
 

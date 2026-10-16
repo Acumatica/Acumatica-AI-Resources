@@ -1,8 +1,8 @@
-# Multicurrency Functionality: General Information {#_55f2a7c2-322d-4854-83d8-c313ea68661a .concept}
+# Multicurrency Functionality: General Information
 
 To start working with multiple currencies, you have to configure this functionality in Acumatica ERP. This chapter describes how to prepare for the configuration and how to perform configuration that meets your business needs.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,7 +10,7 @@ In this chapter, you will learn how to do the following:
 -   Review the base currency and configure foreign currencies
 -   Manually configure a foreign currency
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure the multicurrency functionality if your company works with foreign vendors and customers and you want to perform the following processes in Acumatica ERP:
 
@@ -21,7 +21,7 @@ You configure the multicurrency functionality if your company works with foreign
 -   Revaluing bank account balances
 -   Translating financial statements into a foreign currency to meet reporting needs
 
-## Scope of the Multicurrency Functionality in Acumatica ERP { .section}
+## Scope of the Multicurrency Functionality in Acumatica ERP
 
 The following subledgers and functional areas of Acumatica ERP support the processing of documents and transactions in foreign currencies:
 
@@ -37,7 +37,7 @@ The following subledgers and functional areas of Acumatica ERP support the proce
 
 Transactions can be processed in the base currency only in functionality related to fixed assets, deferred revenue, inventory, and project accounting in Acumatica ERP.
 
-## Workflow of the Implementation of the Multicurrency Functionality { .section}
+## Workflow of the Implementation of the Multicurrency Functionality
 
 To implement the multicurrency functionality in Acumatica ERP, you perform the following general steps:
 

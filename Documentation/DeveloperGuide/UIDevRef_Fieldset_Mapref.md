@@ -1,4 +1,4 @@
-# Fieldset {#_e56376fe-819f-4ebf-b29c-17cce5d4cf00 .concept}
+# Fieldset
 
 In this chapter, you will learn about defining fieldsets and configuring fields inside them.
 

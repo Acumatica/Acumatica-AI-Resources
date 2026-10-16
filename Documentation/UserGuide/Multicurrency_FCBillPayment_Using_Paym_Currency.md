@@ -1,4 +1,4 @@
-# Multicurrency Payment of Bills: Entry of the Payment Amount Instead of the Cross Rate {#_f60f939c-1429-42dd-ba78-3789c5559d31 .concept}
+# Multicurrency Payment of Bills: Entry of the Payment Amount Instead of the Cross Rate
 
 When you create a payment on the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form, you can enter the amount paid, cash discount taken, and withholding tax in the document currency. You don't need to manually calculate the cross rate based on application amounts.
 
@@ -9,7 +9,7 @@ On this form, you can also:
 
 For more details, see [Multicurrency Payment of Bills: To Change the Payment Amount Instead of Cross Rate](Multicurrency_FCBillPayment_Cross_Rate_Activity.md).
 
-## Cross Rate Selection { .section}
+## Cross Rate Selection
 
 On the **Documents to Apply** tab of the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form, the value in the **Cross Rate** column is a link. If you click this link, the **Cross Rate Selection** dialog box opens.
 

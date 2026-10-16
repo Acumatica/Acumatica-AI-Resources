@@ -1,4 +1,4 @@
-# Applying a Pending VAT: General Information {#_cb8480bf-195f-4f13-8dce-1a7cefd90857 .concept}
+# Applying a Pending VAT: General Information
 
 On the [Taxes](TX_20_50_00.md) \(TX205000\) form of Acumatica ERP, you can configure a value-added tax \(VAT\) of the *Pending* type to be applied to those documents whose tax amounts should be recognized after the document has been released. Once a document that is subject to a *Pending* VAT is released, the system records its tax amount to an intermediate account \(such as the Pending Tax Payable account or the Pending Tax Claimable account\), where the tax amount is kept until a user initiates the process of recognizing the taxes. For details on configuring a value-added tax of the *Pending* type, see [Value-Added Taxes: To Create a Pending VAT](../ImplementationGuide/Taxes_Configuring_VAT_Implem_Activity_PendingVAT.md).
 
@@ -8,7 +8,7 @@ When you run the recognition process, the system generates a GL transaction that
 
 The functionality related to value-added taxes is available only if the *VAT Reporting* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Learning Objectives {#section_wmp_fjv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -19,18 +19,18 @@ In this chapter, you will learn how to do the following:
 -   Process an AP bill with multiple-installment credit terms, to which a pending VAT is applied
 -   Recognize the pending input VAT
 
-## Applicable Scenarios {#section_ymp_fjv_vxb .section}
+## Applicable Scenarios
 
 You process documents with pending VATs and recognize this type of VAT if the taxation laws of your country require VATs to be recognized not on the document date, but at a later time, such as when a payment is received or when services are provided.
 
-## Tax Recognition Methods {#section_anp_fjv_vxb .section}
+## Tax Recognition Methods
 
 In Acumatica ERP, you can use either of the following methods of recognizing the pending value-added taxes:
 
 -   *On Documents*: With this recognition method, the total tax amount of a document can be recognized on any needed date. The system does not take into account payments in this case. You load the released documents with the pending VAT applied on the [Recognize Output VAT](TX_50_30_00.md) \(TX503000\) or [Recognize Input VAT](TX_50_35_00.md) \(TX503500\) form, and then initiate the recognition process.
 -   *On Payments*: With this recognition method, the tax amount is recognized only when a payment is applied to a document. The tax amount can be recognized fully or partially, depending on whether the applied payment fully or partially covers the document amount. The partial tax amount to be recognized, if applicable, is calculated proportionally to the payment applied to a document. You load the released applications on the [Recognize Output VAT](TX_50_30_00.md) or [Recognize Input VAT](TX_50_35_00.md) form, and then initiate the recognition process for one application or multiple applications. Each tax amount is recognized on the date when the payment has been applied to document.
 
-## Setup of Recognition Methods {#section_cnp_fjv_vxb .section}
+## Setup of Recognition Methods
 
 To set up the recognition process, you specify the appropriate recognition method for each required tax agency on the **Tax Agency** tab of the [Vendors](AP_30_30_00.md) \(AP303000\) form. In the **VAT Recognition Method** box, you select either *On Documents* or *On Payments*.
 
@@ -38,7 +38,7 @@ You also select how the system assigns reference numbers to pending VAT entries 
 
 Before you initiate the VAT recognition process on the [Recognize Output VAT](TX_50_30_00.md) \(TX503000\) or [Recognize Input VAT](TX_50_35_00.md) \(TX503500\) form, you select a tax agency in the **Tax Agency** box. The system inserts the recognition method of the selected tax agency in the **VAT Recognition Method** box. If needed, you can change the recognition method manually before you run the recognition process.
 
-## Recognition of Pending VAT on Documents {#section_vv2_1y4_y4b .section}
+## Recognition of Pending VAT on Documents
 
 By using the *On Documents* VAT recognition method, you recognize tax amounts calculated in the unpaid documents that are subject to pending VAT. You can initiate the recognition process by using any needed date.
 
@@ -59,7 +59,7 @@ Once the documents are loaded to the table, you select one item or multiple item
 
 When you run the process of recognizing the pending VAT, the system generates a GL batch \(or multiple batches\) to move the tax amounts from the pending accounts to the actual tax payable \(or tax claimable\) accounts.
 
-## Recognition of Pending VAT on Payments {#section_nnp_fjv_vxb .section}
+## Recognition of Pending VAT on Payments
 
 In certain countries, there are legal requirements that VAT must be recognized, accrued, and included in the tax report at the time of payment.
 

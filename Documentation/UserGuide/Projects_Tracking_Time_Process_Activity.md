@@ -1,16 +1,16 @@
-# Employee Time Billing: Process Activity {#_c53c0444-16c1-4385-a86e-d9cecd34d214 .task}
+# Employee Time Billing: Process Activity
 
 This activity will walk you through the process of billing employee time spent on a particular project.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that Lake Cafe has requested 40 hours of training on operating juicers that were previously purchased from and installed by the SweetLife Fruits &amp; Jams company. Jon Waite, SweetLife's senior consultant, has provided 16 hours of training \(three hours on Monday, January 27, 2026; five hours on Tuesday, January 28; and eight hours on Thursday, January 30\).
 
 Acting as SweetLife's project accountant, Pam Brawner, you need to create a project to account for the provided services. Then acting as Jon Waite, you need to enter a time card to log the work related to the project. Finally, again acting as Pam Brawner, you need to bill the project and review the invoice prepared for the customer.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -20,11 +20,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *LAKECAFE \(Lake Cafe\)* customer has been created.
 -   On the [Projects](PM_30_10_00.md) \(PM301000\) form, the *TRAINCAF* project has been configured.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create and release a time card on the [Employee Time Cards](EP_40_60_00.md) \(EP406000\) form. You will review the project transaction generated based on the time card on the [Project Transactions](PM_30_40_00.md) \(PM304000\) form. Next, you will bill the project on the [Projects](PM_30_10_00.md) \(PM301000\) form, and release both the prepared pro forma invoice on the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form and the AR invoice on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. Finally, on the [Projects](PM_30_10_00.md) form, you will make sure that the project cost and revenue budget have been updated with the billed employee time.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
@@ -32,7 +32,7 @@ To sign in to the system and prepare to perform the instructions of the activity
 2.  Sign in to a company with the *U100* dataset preloaded. You should sign in as Jon Waite by using the *waite* username and the *123* password.
 3.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *2/5/2026*. If a different date is displayed, click the Business Date menu button and select *2/5/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Entering an Employee Time Card { .section}
+## Step 1: Entering an Employee Time Card
 
 In this step, you will enter Jon Waite's working hours for the project by creating an employee time card as follows:
 
@@ -63,7 +63,7 @@ In this step, you will enter Jon Waite's working hours for the project by creati
 
 8.  Sign out of the system.
 
-## Step 2: Billing the Project { .section}
+## Step 2: Billing the Project
 
 To review the cost budget of the project and bill the project on behalf of the project accountant, do the following:
 
@@ -73,7 +73,6 @@ To review the cost budget of the project and bill the project on behalf of the p
 
     On the **Cost Budget** tab, notice that the system has updated the actual quantity and amount with the data of the project transaction that was generated on release of the time card, as shown below.
 
-    ![](Images/activity_Projects_Tracking_Process_Activity_CostBudgetUpd.png "The cost budget updated based on the released time card")
 
 4.  On the form toolbar, click **Run Billing**. The system creates a pro forma invoice and opens it on the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form.
 

@@ -1,4 +1,4 @@
-# Service Areas {#_ca093cb2-4df7-4eea-9951-ba95962a3819 .concept}
+# Service Areas
 
 The topics of this chapter explain how to configure service areas. A service area in Acumatica ERP is a region that represents the territory where the company's services can be delivered.
 

@@ -1,14 +1,14 @@
-# Service Order Types: To Create a Service Order Type for Route Appointments {#_1f9e5cf5-5026-435c-a30b-f27286d9436e .task}
+# Service Order Types: To Create a Service Order Type for Route Appointments
 
 In this implementation activity, you will learn how to create a service order type for the company's service orders and appointments that are a part of route management.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Service and Equipment Sales Center periodically performs route management. Acting as an administrative user, you need to create a service order type for route appointments.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -16,11 +16,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   The minimum configuration of the service management functionality has been performed, as described in [Basic Service Management Configuration: Implementation Activity](config_ServMgmt_with_Inventory_Implem_Activity.md).
 -   On the [Credit Terms](../UserGuide/CS_20_65_00.md) \(CS206500\) form, the *30D - 30 Days* credit terms have been defined.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create a service order type for service orders and appointments that are a part of route management on the [Service Order Types](../UserGuide/FS_20_23_00.md) \(FS202300\) form and specify the needed settings.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring a service order type, do the following:
 
@@ -28,7 +28,7 @@ Before you start configuring a service order type, do the following:
 2.  As a prerequisite activity, in the company to which you are signed in, be sure you have enabled the *Service Management* feature on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md#) \(CS100000\) form.
 3.  On the Company and Branch Selection menu, on the top pane of the Acumatica ERP screen, select the Service and Equipment Sales Center branch.
 
-## Step: Creation of the Service Order Type { .section}
+## Step: Creation of the Service Order Type
 
 To create the new service order type for route appointments, do the following:
 

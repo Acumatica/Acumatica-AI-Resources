@@ -1,8 +1,8 @@
-# Customer Returns with Refunds: General Information {#_93b237a8-6328-425e-beb6-d7446824b387 .concept}
+# Customer Returns with Refunds: General Information
 
 A traceable refund for items returned by customers is an essential part of sales. In Acumatica ERP, you can create refunds directly in a return order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form or a credit memo on the [Invoices](SO_30_30_00.md) \(SO303000\) form. These refunds are automatically applied to the return order or credit memo.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -11,11 +11,11 @@ In this chapter, you will do the following:
 -   Process an incoming shipment \(receipt\) for goods that the customer returns
 -   Process a credit memo for the return order
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may need to create return orders or credit memos and apply a refund to them if your company sells goods, and customers pay for these goods but may later request a return. You need to refund the customers' payments and ensure that these refunds are applied to the related return orders or credit memos.
 
-## Processing of a Refund for a Return Order { .section}
+## Processing of a Refund for a Return Order
 
 In general, the [Sales Orders](SO_30_10_00.md) \(SO301000\) form is the starting point for a customer return. On this form, you create a new return order for a customer and add the items to be returned.
 
@@ -27,7 +27,7 @@ The receipt of the items returned to inventory is processed in the system as a s
 
 When you create a credit memo for a return order, the application of the refund is automatically transferred from the sales order to this credit memo. When you release the credit memo, the application of the released refund is also released.
 
-## Processing of a Refund for a Credit Memo { .section}
+## Processing of a Refund for a Credit Memo
 
 While refunds can be processed through return orders, you can create and process a refund for a credit memo instead. This method is commonly used when you can issue the refund only after the returned goods have been received to the inventory, meaning that the return order has already been completed. Another applicable scenario for refunds on credit memos is a direct sale, for which you do not create a sales order.
 
@@ -35,7 +35,7 @@ On the [Invoices](SO_30_30_00.md) \(SO303000\) form, you create a new invoice of
 
 After you have processed the refund, you release the credit memo on the [Invoices](SO_30_30_00.md) form; when you release it, the application of the released refund is also released.
 
-## Settings of Return Documents for Processing a Refund { .section}
+## Settings of Return Documents for Processing a Refund
 
 If a refund is created in a return order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, the return order must have an order type for which settings have been specified as follows on the [Order Types](SO_20_10_00.md) \(SO201000\) form:
 
@@ -49,11 +49,10 @@ In Acumatica ERP, the predefined *RC*, *CM*, and *MO* order types meet these cri
 
 On the [Invoices](SO_30_30_00.md) \(SO303000\) form, you create a refund for a credit memo, which is an invoice of the *Credit Memo* type.
 
-## Workflow of Processing a Refund for a Return Order {#section_vv2_1y4_y4b .section}
+## Workflow of Processing a Refund for a Return Order
 
 The processing of a customer return with a refund involves the actions and generated documents shown in the following diagram.
 
-![](Images/diag_Return_With_Customer_Refund.png)
 
 **Parent topic:**[Processing Customer Returns with Refunds](../UserGuide/OrderMgmt_Customer_Returns_with_Refunds_Mapref.md)
 

@@ -1,8 +1,8 @@
-# Data Synchronization: Manual Synchronization {#_966d3f4f-d5e2-457e-903e-bb087657b582 .concept}
+# Data Synchronization: Manual Synchronization
 
 Manual synchronization might be useful when you need to synchronize data during the initial configuration or when data has not been synchronized for some reason and manual troubleshooting is needed.
 
-## Manual Data Preparation { .section}
+## Manual Data Preparation
 
 To manually start the data preparation process, you perform the following general steps:
 
@@ -17,7 +17,7 @@ To manually start the data preparation process, you perform the following genera
 
 4.  In the table, you select the unlabeled check box in the rows of the needed entities, and on the form toolbar, you click **Prepare**.
 
-## Manual Data Processing { .section}
+## Manual Data Processing
 
 To manually start data processing, you perform the following general steps:
 

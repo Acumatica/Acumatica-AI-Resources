@@ -1,8 +1,8 @@
-# Grouping of Invoices: General Information {#_c17cd234-2ac9-4e6e-a687-fa3ccdaa1e16 .concept}
+# Grouping of Invoices: General Information
 
 In Acumatica ERP, the billing procedure provides opportunities for grouping invoices and creating separate invoices depending on the project settings and the settings of billing rules.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 You will learn how to do the following:
 
@@ -11,11 +11,11 @@ You will learn how to do the following:
 -   Bill a project task separately from the other tasks of the project
 -   Bill project transactions that are associated with particular account groups separately from the other
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You bill a project with separate invoices if, for example, the customer has asked you to provide a separate invoice for a particular project task, or if you need to create a separate invoice for a particular type of expenses.
 
-## Grouping of Invoices { .section}
+## Grouping of Invoices
 
 When you run project billing for a particular project, the system creates a single invoice for all project tasks that have the same customer location selected in the **Location** box on the [Project Tasks](PM_30_20_00.md) \(PM302000\) form.
 

@@ -1,11 +1,11 @@
-# GL Consolidation \(Optional\): To Configure Consolidation in a Consolidation Unit with Subaccounts {#_9550872d-dc57-418e-b796-3247a4b28218 .task}
+# GL Consolidation \(Optional\): To Configure Consolidation in a Consolidation Unit with Subaccounts
 
 This topic describes additional steps that you perform to set up consolidation with the parent tenant for each subsidiary that uses subaccounts. You should perform the following actions:
 
 -   Verify that all accounts have been mapped.
 -   If subaccounts are used in the parent tenant, map the subsidiary subaccount segments to the parent tenant subaccounts by using the [Segmented Keys](CS_20_20_00.md) \(CS202000\) and [Segment Values](CS_20_30_00.md) \(CS203000\) forms.
 
-## To Verify That All Accounts Have Been Mapped {#section_ojm_mjv_vxb .section}
+## To Verify That All Accounts Have Been Mapped
 
 1.  Open the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form.
 2.  On the table toolbar, click the **Filter Settings** button.
@@ -19,7 +19,7 @@ This topic describes additional steps that you perform to set up consolidation w
 
 8.  Map any accounts, and save the changes.
 
-## To Map Subaccounts to the Parent Company Subaccounts {#section_rjm_mjv_vxb .section}
+## To Map Subaccounts to the Parent Company Subaccounts
 
 You can provide mapping for any subaccount structure in the parent or subsidiary; for details, see [GL Consolidation: Subaccount Mapping](Finance_GL_Consolidation_Subaccount_Mapping.md). For simplicity, we have based the following procedure on these assumptions:
 

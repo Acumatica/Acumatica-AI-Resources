@@ -1,4 +1,4 @@
-# Field-Level Auditing: General Information {#_3963c624-94ce-4f5b-b849-caa28e75260b .concept}
+# Field-Level Auditing: General Information
 
 The development of automatic data processing has made it necessary for companies to consider protecting sensitive information. In certain highly regulated industries, these companies must implement auditing to address identity-management concerns related to compliance issues. Regulations such as Sarbanes-Oxley \(SOX\) Act, the Health Insurance Portability and Accountability Act \(HIPAA\), and the Payment Card Industry Data Security Standard \(PCI DSS\) all have extensive requirements on the auditing of user identity and access to system resources.
 
@@ -6,7 +6,7 @@ By using the field-level auditing functionality, which provides auditing at the 
 
 **Attention:** The functionality is available if the *Field-Level Audit* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -15,14 +15,14 @@ In this chapter, you will learn how to do the following:
 -   Turn on and off auditing for a specific form
 -   Review the audit trail for a specific record
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You use field-level auditing in the following cases:
 
 -   Your company must comply with auditing regulations and needs to implement corresponding auditing procedures.
 -   Your company wants to ensure accountability and the ability to track user actions in the system.
 
-## Configuration of Access to Field-Level Auditing Functionality { .section}
+## Configuration of Access to Field-Level Auditing Functionality
 
 User access to field-level auditing should be configured to support business processes without exposing the company to undue risks. The audit trails may contain sensitive information, so only authorized users should have access to this functionality. As you plan the configuration of this access, we recommend that you consider the following user scenarios:
 
@@ -38,13 +38,12 @@ Alternatively, you can create a role that will cover only viewing the complete a
 
 For details on the planning of access configuration, see [User Roles: Planning of Access Configuration](User_Roles_Planning_Concept.md).
 
-## Forms That Support Auditing { .section}
+## Forms That Support Auditing
 
 Field-level auditing is configured on a per-form basis. A form supports this auditing if the **Audit History** menu command is available on the **Settings** menu, as demonstrated in the following screenshot. If the **Audit History** command is not shown, the selected form does not support field-level auditing.
 
-![](Images/SA_Managing_Field_Level_Auditing_Audit_History_Command.png "The available Audit History command for the Journal Transactions form")
 
-## Setup of Auditing of a Form { .section}
+## Setup of Auditing of a Form
 
 You use the [Audit](SM_20_55_10.md) \(SM205510\) form to configure auditing for a particular form. On this form, you can configure the following levels of auditing granularity:
 
@@ -56,7 +55,7 @@ You use the [Audit](SM_20_55_10.md) \(SM205510\) form to configure auditing for 
 
 You can view the list of forms for which auditing is configured on the Audit \(SM2055PL\) form. For any audited form, you can quickly navigate to the [Audit](SM_20_55_10.md) \(SM205510\) form, where you can turn on or off the auditing of particular database tables and fields associated with the form.
 
-## Turning On and Off of Auditing of a Form { .section}
+## Turning On and Off of Auditing of a Form
 
 After the form auditing is configured, you can turn on and off auditing of the form by selecting or clearing the **Active** check box on the [Audit](SM_20_55_10.md) \(SM205510\) form.
 
@@ -64,7 +63,7 @@ When you turn on the auditing, every time a user makes changes to a record assoc
 
 When you turn off the auditing of the form, the monitoring of the changes is turned off, but the configuration of the auditing remains without changes.
 
-## Viewing of an Audit Trail { .section}
+## Viewing of an Audit Trail
 
 When auditing is turned on for a form, you can select a record and view its audit trail—that is, the changes made to the record—directly from the form by clicking **Tools** &gt; **Audit History** on the form title bar. This opens the [Audit History by Screen](SM_20_55_30.md) \(SM205530\) form on a new tab, where you can see the audit trail for the selected record. You can click the arrow icon to view the detailed data of the modification. For each change, you can see who modified the record and when, what form was used, when the modification took place, and what changes were made.
 
@@ -72,11 +71,15 @@ When auditing is turned on for a form, you can select a record and view its audi
 
 On the [Audit History by Screen](SM_20_55_30.md) inquiry form, you can view a full audit trail for the records of the form. That is, you can view all the changes made to the records of the audited form since auditing was turned on for the form. You can filter the modifications that you are viewing by user, by database table associated with the form, and by date range.
 
-## Viewing of General Information About a Record { .section}
+## Viewing of General Information About a Record
 
 If the currently opened form supports field-level auditing but auditing was not configured or is turned off for the form, you can still view some information in the **Update History** dialog box, which opens when the user clicks **Tools** &gt; **Audit History** on the form title bar. This dialog box does not show an audit trail; it provides only general information about the creation and the last modification of the selected record.
 
 If you have access to the [Audit](SM_20_55_10.md) \(SM205510\) form, you will see the **Enable Field Level Audit** button in the **Update History** dialog box. You can click this button to navigate to the [Audit](SM_20_55_10.md) form, where you can configure and turn on auditing for the currently opened form.
+
+## Purging Audit History
+
+Collecting audit trails for multiple forms can significantly increase the system database size. For forms with field-level auditing enabled, the system keeps audit trail records for the period specified by the **Purge After \(Months\)** setting on the [Purge Audit History](SM_50_55_50.md) \(SM505550\) form. On this form, you can calculate the current number of audit history records, change the retention period, purge obsolete records on demand, or schedule an automated purging.
 
 **Parent topic:**[Managing Field-Level Auditing](../UserGuide/SA_Managing_Field_Level_Auditing_Mapref.md)
 

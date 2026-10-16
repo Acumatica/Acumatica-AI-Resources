@@ -1,23 +1,23 @@
-# Conditional Properties: To Require an Element {#_dc202219-82d3-4946-b23d-ead502351280 .task}
+# Conditional Properties: To Require an Element
 
 The following activity will walk you through the process of conditionally making a box required on a form.
 
-## Story { .section}
+## Story
 
 Suppose that employees of your company often work with the [Leads](../UserGuide/CR_30_10_00.md) \(CR301000\) form. Further suppose that if a lead comes from a campaign, you want the user to specify the identifier of the marketing campaign from which the lead was generated on the [Leads](../UserGuide/CR_30_10_00.md) \(CR301000\) form. That is, you need to require the user to select an identifier in the **Source Campaign** box if *Campaign* is selected as the **Source**.
 
-## Process Overview { .section}
+## Process Overview
 
 By invoking the **Element Properties** dialog box on the [Leads](../UserGuide/CR_30_10_00.md) \(CR301000\) form, you will learn the internal name of the element that will be used in the condition \(that is, of the **Source Campaign** box\). By using the [Screens](../UserGuide/AU_20_10_00.md) page of the Customization Project Editor, you will add the [Leads](../UserGuide/CR_30_10_00.md) form so that it can be customized. By using the [Conditions](../UserGuide/AU_20_10_10.md) page, you will create a condition that uses the value of the **Source Campaign** box. On the [Fields](../UserGuide/AU_20_10_60.md) page, you will specify the created condition for the *Required* property for the **Source Campaign** box; you will then publish the project. Finally, you will test the condition on the [Leads](../UserGuide/CR_30_10_00.md) \(CR301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
 1.  Prepare an Acumatica ERP instance by performing the [Customization Projects: To Deploy an Instance](CustomizationProjects_GettingStarted_Activity_CreateInstance.md) prerequisite activity.
 2.  Create the *Yogifon* customization project by performing the [Customization Projects: To Create a Customization Project](CustomizationProjects_GettingStarted_Activity_CreateProject.md) prerequisite activity.
 
-## Step 1: Learning the Internal Name of the Element { .section}
+## Step 1: Learning the Internal Name of the Element
 
 First, you need to learn the internal name of the element that will be used in the condition; on the [Leads](../UserGuide/CR_30_10_00.md) \(CR301000\) form, this is the **Source Campaign** box. Do the following:
 
@@ -26,12 +26,11 @@ First, you need to learn the internal name of the element that will be used in t
 
     The **Element Properties** dialog box opens, as shown in the following screenshot. The internal name of the field is displayed in the **Data Field** box.
 
-    ![](images/CustomizationProjects_DisplayingElementsConditions_Leads_SourceCampaignName.png "The properties of the Source Campaign element")
 
     As you can see, the box contains `CampaignID`. Close the dialog box.
 
 
-## Step 2: Modifying the List of Customized Screens { .section}
+## Step 2: Modifying the List of Customized Screens
 
 To add a condition for a box on the [Leads](../UserGuide/CR_30_10_00.md) \(CR301000\) form, you need to add the form to the list of customized screens. In the Customization Project Editor, do the following:
 
@@ -46,7 +45,7 @@ To add a condition for a box on the [Leads](../UserGuide/CR_30_10_00.md) \(CR301
     Notice that the [Leads](../UserGuide/CR_30_10_00.md) \(CR301000\) form is added to the list of customized screens on the page.
 
 
-## Step 3: Defining the Condition { .section}
+## Step 3: Defining the Condition
 
 To define the condition, do the following in the Customization Project Editor:
 
@@ -64,7 +63,7 @@ To define the condition, do the following in the Customization Project Editor:
     -   **Value**: *Campaign*
 6.  Click **Save** to save your changes and close the dialog box.
 
-## Step 4: Specifying the Condition for the Required Property { .section}
+## Step 4: Specifying the Condition for the Required Property
 
 To specify the condition you have defined as the value for the **Required** property of the `Source Campaign` field, do the following:
 
@@ -87,7 +86,7 @@ To specify the condition you have defined as the value for the **Required** prop
 7.  To apply the changes to the instance, on the main menu of the Customization Project Editor, click **Publish** &gt; **Publish Current Project**.
 8.  Wait until the *Website updated* row appears in the **Compilation** pane, and click **Close Compilation Pane**.
 
-## Step 5: Testing the Condition { .section}
+## Step 5: Testing the Condition
 
 To test the condition, do the following on the [Leads](../UserGuide/CR_30_10_00.md) \(CR301000\) form of Acumatica ERP:
 

@@ -1,4 +1,4 @@
-# To Develop a Customization Project {#_df3b1865-51dd-46fe-8d83-d0a421150c16 .concept}
+# To Develop a Customization Project
 
 During the development stage, you develop the customization, which involves implementing your planned changes by using the framework and tools provided by the Acumatica Customization Platform.
 

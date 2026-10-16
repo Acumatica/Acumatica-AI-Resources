@@ -1,4 +1,4 @@
-# Authorizing Client Applications to Work with Acumatica ERP {#_a8f71c44-9f5c-4af8-9d47-bc815c8a58e7 .concept}
+# Authorizing Client Applications to Work with Acumatica ERP
 
 Acumatica ERP supports the OAuth 2.0 mechanism of authorization and OpenID Connect \(OIDC\) authentication protocol for applications that are integrated with Acumatica ERP through web services application programming interfaces \(APIs\) or OData. When a client application of Acumatica ERP uses OAuth 2.0 or OIDC, the client application does not operate with the Acumatica ERP credentials to sign a user in to Acumatica ERP; instead, the application obtains an access token from Acumatica ERP and uses this token when it requests data from Acumatica ERP.
 

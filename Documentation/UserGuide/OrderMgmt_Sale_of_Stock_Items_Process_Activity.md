@@ -1,14 +1,14 @@
-# Sales of Stock Items: Process Activity {#_45433ef7-a12c-49aa-8721-007ea09401df .task}
+# Sales of Stock Items: Process Activity
 
 The following activity demonstrates how to prepare and process to completion a sales order with manual allocation of stock items.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Grace Norman, a sales manager of the SweetLife Fruits &amp; Jams company. On January 30, 2026, the GoodFood One Restaurant wholesale customer has ordered a large amount of orange and apple jams in 96-ounce jars from the main office of SweetLife, where you are employed, for the café's baking needs. The ordered jams are stored in the warehouse of the SweetLife’s main office. You, as a sales manager, need to enter and process the appropriate documents.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -20,11 +20,11 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *APJAM96* and *ORJAM96* stock items have been configured.
 -   On the [Warehouses](IN_20_40_00.md) \(IN204000\) form, in the *WHOLESALE* warehouse, which has been configured, sufficient quantities of the *APJAM96* and *ORJAM96* items are on hand.
 
-## Process Overview { .section}
+## Process Overview
 
 To perform a sale of stock items with manual allocation, you create a sales order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, select the customer to which the items are being sold, add items to the order, and reserve the items in inventory. Then you create a shipment document on the [Shipments](SO_30_20_00.md) \(SO302000\) form. On this form, you confirm the settings that the system has inserted automatically based on the sales order, and then confirm the shipment. After shipment confirmation, you use the [Invoices](SO_30_30_00.md) \(SO303000\) form to prepare a corresponding invoice to the customer and release it.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start performing a sale of stock items with manual allocation, you should do the following:
 
@@ -32,7 +32,7 @@ Before you start performing a sale of stock items with manual allocation, you sh
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, make sure the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Creating a Sales Order { .section}
+## Step 1: Creating a Sales Order
 
 To create a sales order, do the following:
 
@@ -61,7 +61,7 @@ To create a sales order, do the following:
 
 The sales order is saved with the *Open* status.
 
-## Step 2: Allocating Inventory Items { .section}
+## Step 2: Allocating Inventory Items
 
 To manually allocate the inventory items for the sales order you have created, while you are still viewing the sales order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, do the following:
 
@@ -82,14 +82,14 @@ To manually allocate the inventory items for the sales order you have created, w
 
 You have manually allocated the inventory items for the sales order. Now you need to create a shipment document for the sales order.
 
-## Step 3: Creating a Shipment { .section}
+## Step 3: Creating a Shipment
 
 To create a shipment, do the following:
 
 1.  While you are still viewing the sales order you have created on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, on the form toolbar, click **Create Shipment**.
 2.  In the **Specify Shipment Parameters** dialog box, which opens, make sure that the *1/30/2026* date and the *WHOLESALE* warehouse are selected, and click **OK**. The system closes the dialog box, creates a shipment, and opens it on the [Shipments](SO_30_20_00.md) \(SO302000\) form.
 
-## Step 4: Confirming the Shipment { .section}
+## Step 4: Confirming the Shipment
 
 To confirm the shipment, do the following:
 
@@ -99,7 +99,7 @@ To confirm the shipment, do the following:
 
 The shipment is assigned the *Confirmed* status. Now you can prepare the invoice to bill the customer and increase the customer's debt in the system.
 
-## Step 5: Processing the Invoice { .section}
+## Step 5: Processing the Invoice
 
 To prepare and release the invoice, do the following:
 
@@ -110,12 +110,11 @@ To prepare and release the invoice, do the following:
 5.  On the **Shipments** tab, in the only row, click the link in the **Inventory Ref. Nbr.** column to view the inventory issue that was generated when you released the invoice.
 6.  On the [Issues](IN_30_20_00.md) \(IN302000\) form, which opens in a pop-up window, review the details of the inventory issue, shown in the following screenshot. Make sure that the issue has the *Released* status, which means that the issue has been released and the quantities of items in inventory have been decreased appropriately.
 
-    ![](Images/activity_OrderMgmt_Sale_of_Stock_Items.png "Inventory issue generated on release of the invoice")
 
 
 The sales order processing is now complete.
 
-## Activity Recap { .section}
+## Activity Recap
 
 In this activity, we have illustrated how the sales manager has done the following:
 

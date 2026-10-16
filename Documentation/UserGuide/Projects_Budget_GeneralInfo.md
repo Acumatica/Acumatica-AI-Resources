@@ -1,10 +1,12 @@
-# Project Budget: General Information {#_c17cd234-2ac9-2949-a687-fa3ccdaa1e16 .concept}
+# Project Budget: General Information
 
 The project budget is used to provide both a financial plan and cost constraints for a project. That is, you define the amount of money and resources to be spent on the project. As the project progresses, you can continuously track actual project costs and either adjust expenditures or revise the budget.
 
-## Learning Objectives {#section_x4x_lkd_crb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
+
+In this lesson, you will learn how to do the following:
 
 -   Configure the revenue budget and the cost budget for a project
 -   Update the actual values of the project budget
@@ -13,7 +15,7 @@ In this chapter, you will learn how to do the following:
 -   Control whether AP bills, purchase orders, and change orders created for a project may exceed the project budget
 -   Restructure the budget before and after billing
 
-## Applicable Scenarios {#section_y4x_lkd_crb .section}
+## Applicable Scenarios
 
 You configure a project budget in any of the following cases:
 
@@ -21,7 +23,7 @@ You configure a project budget in any of the following cases:
 -   If you want to plan and control the amount of money and resources spent on a project
 -   If you want to configure a fixed-price project that is billed for progress
 
-## Budget Planning {#section_z4x_lkd_crb .section}
+## Budget Planning
 
 You plan a project budget during the estimation stage of the project, before any project transaction occurs. To estimate the project income, you add lines to the revenue budget of the project. To estimate the resources to be spent on the project, you add lines to the cost budget. During the execution stage of the project, when you process project transactions and bill the project, the actual values of the project budget are updated so that you can control the project execution and compare the actual values against the budgeted ones.
 
@@ -39,11 +41,11 @@ Other information that you can specify in a budget line includes the original bu
 
 The revised budgeted quantity and amount are initially equal to the original budgeted values. During the estimation, acceptance, or execution stages of the project, you may want to revise the budget but keep the original budgeted amounts and quantities unchanged. This gives you the ability to analyze the accuracy of your original estimates while also adjusting the revised budgeted quantities and amounts. For more information, see [Project Budget Control: Budget Locking](../Shared/../UserGuide/Projects_Budget_Lock.md).
 
-## Budget Tracking {#section_apx_lkd_crb .section}
+## Budget Tracking
 
 As a project is being processed, you create project-related documents, such as AP bills, purchase orders, or AR invoices. The release of these project-related documents causes the creation of project transactions. When these transactions are released, the system updates the **Actual Quantity** and **Actual Amount** on the **Revenue Budget** and **Cost Budget** tabs of the [Projects](../Shared/../UserGuide/PM_30_10_00.md) \(PM301000\) form.
 
-**Note:** The system also updates the project budget when a change order line is released, a commitment line is added, a pro forma invoice line is added, an accounts receivable invoice line is added, and a new change request line is added or linked to a change order.
+**Tip:** The system also updates the project budget when a change order line is released, a commitment line is added, a pro forma invoice line is added, an accounts receivable invoice line is added, and a new change request line is added or linked to a change order.
 
 The system uses the project budget key to match the project transaction with a project budget line. If a budget line with the same combination exists, the system updates the actual values of the existing line. For a new combination that does not exist in the project budget, the system creates a new budget line.
 
@@ -65,6 +67,16 @@ You track the **Actual Amount** of project budget lines on the [Projects](../Sha
 -   For an account group on the **Balances** tab
 
 Similarly, you can compare the actual quantity of project budget lines with the revised budgeted quantity to control how the project execution fits the planned quantity. The actual quantity is updated only if the UOM is specified in the budget line and if the system can convert the UOM of the corresponding project transaction to the UOM of the budget line by using the list of unit conversions defined on the [Units of Measure](../Shared/../UserGuide/CS_20_35_00.md) \(CS203500\) form.
+
+## Values in Automatically Created Budget Lines
+
+When the system creates a revenue or cost budget line from a change request, change order, or project transaction, the **Copy Settings on Budget Line Creation From** setting on the [Projects Preferences](../Shared/../UserGuide/PM_10_10_00.md) \(PM101000\) form determines how the **Description**, **UOM**, and **Unit Rate** are populated.
+
+If *Default Values* is selected, the system uses the standard defaulting rules. If *Source Document* is selected, the system uses values from the source document according to the rules described below.
+
+The *Source Document* option applies to budget lines created after the option has been selected. If the system processes a change request, change order, or project transaction for a matching existing budget line, it fills in the **Description** or **UOM** from the source document only if the corresponding value in the budget line is empty. The system does not update the **Unit Rate** of an existing budget line.
+
+**Attention:** The **Copy Settings on Budget Line Creation From** setting does not change the processing of budget lines created by other processes, such as pro forma invoice processing or commitments. These processes preserve their existing behavior.
 
 **Parent topic:**[Managing the Project Budget](../UserGuide/Projects_Budget_Mapref.md)
 

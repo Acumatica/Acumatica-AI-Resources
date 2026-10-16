@@ -1,25 +1,25 @@
-# Emails and Activities: To Create a Task {#_b4040799-f2e5-402d-98b2-c22376163699 .task}
+# Emails and Activities: To Create a Task
 
 The following activity will demonstrate how to create a task.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are David Chubb, a sales manager of the SweetLife Fruits &amp; Jams company.Donna Coleman, a buyer at Yummy Supplies supermarket, is searching for a new supplier of fresh fruit and would like to meet you in order to discuss the company’s products and services. You need to prepare for the meeting with Donna and to create a task in the system that records the progress and the results of the preparation.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
 -   On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Customer Management* feature has been enabled. This feature provides the customer relationship management \(CRM\) functionality, including lead and customer tracking, as well as the handling of sales opportunities, contacts, marketing lists, and campaigns.
 -   On the [Leads](CR_30_10_00.md) \(CR301000\) form, the *Donna Coleman* lead has been added to the system.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create a task on the **Activities** tab of the [Leads](CR_30_10_00.md) \(CR301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating a task, you should do the following:
 
@@ -29,7 +29,7 @@ Before you start creating a task, you should do the following:
     -   **Password**: *123*
 3.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step: Creating a Task { .section}
+## Step: Creating a Task
 
 To create a task related to the *Donna Coleman* lead, do the following:
 

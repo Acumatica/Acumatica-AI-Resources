@@ -1,16 +1,16 @@
-# Processing of Inventory Receipts: Process Activity {#_8facc395-35ba-4126-90ed-39fdd3afe734 .task}
+# Processing of Inventory Receipts: Process Activity
 
 In the following activity, you will learn how to receive stock items by using the [Scan and Receive](IN_30_10_20.md) \(IN301020\) form.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you, as a warehouse worker of the SweetLife Fruits &amp; Jams company, have a task to put apple, orange, and lemon jam, which you recently have received from production, to appropriate warehouse locations and process an inventory receipt to register this operation in the system.
 
 Suppose that you have received the following jam, which you will move to appropriate locations: three boxes of apple jam in 8-ounce jars and four boxes of orange jam in 8-ounce jars \(you will put these boxes to the *L2R3S1* location\); two boxes of apple jam in 96-ounce jars, three boxes of orange jam in 96-ounce jars, and one box of lemon jam in 96-ounce jars \(you will put these boxes to the *L2R3S3* location\).
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -29,7 +29,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
     -   *ORJAM96*, which has the *OJ96B* barcode
     -   *LEMJAM96*, which has the *LJ96B* barcode
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, acting as a warehouse worker, you will do the following:
 
@@ -38,11 +38,11 @@ In this activity, acting as a warehouse worker, you will do the following:
 
 **Tip:** In any working mode, you enter a command or barcode by typing it in the **Scan** box and pressing Enter. In production systems, you will scan the appropriate barcodes rather than manually entering them.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start receiving stock items, you need to sign in to a company with the U100 dataset preloaded as a warehouse worker with the *perkins* username and the *123* password.
 
-## Step 1: Creating an Inventory Receipt { .section}
+## Step 1: Creating an Inventory Receipt
 
 To create an inventory receipt with the received jam, do the following:
 
@@ -64,7 +64,7 @@ To create an inventory receipt with the received jam, do the following:
 
 You have added the required items to the receipt. Now you will review the receipt and release it.
 
-## Step 2: Releasing and Reviewing the Receipt { .section}
+## Step 2: Releasing and Reviewing the Receipt
 
 To release and review the receipt, do the following:
 
@@ -81,7 +81,6 @@ To release and review the receipt, do the following:
 2.  On the form toolbar, click **Release** to release the inventory receipt.
 3.  Click the link in the **Reference Nbr.** box, and on the [Receipts](IN_30_10_00.md) \(IN301000\) form, which opens, review the inventory receipt document. Make sure it includes the needed lines and is assigned the *Released* status, as shown in the following screenshot.
 
-    ![](Images/activity_WMS_Scan_and_Receive.png "The released inventory receipt")
 
 
 You have successfully created and released the inventory receipt to record the addition or received jam to the warehouse locations.

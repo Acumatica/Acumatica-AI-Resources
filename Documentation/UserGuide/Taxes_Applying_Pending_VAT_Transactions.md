@@ -1,8 +1,8 @@
-# Applying a Pending VAT: Generated Transactions {#_de2ac41a-f46f-4814-a6f5-b368f401d855 .concept}
+# Applying a Pending VAT: Generated Transactions
 
 As you process documents with pending VAT, you create and process an AR invoice and an AR payment. When recognizing pending VAT, the system automatically generates a GL transaction. To update the customer's balance and calculate the pending VAT, the system generates the GL transactions described in the following sections.
 
-## Transaction Generated for an AR Invoice {#section_ssp_fjv_vxb .section}
+## Transaction Generated for an AR Invoice
 
 When you create and release an AR invoice with pending VAT, the system generates the following general ledger transaction:
 
@@ -14,7 +14,7 @@ When you create and release an AR invoice with pending VAT, the system generates
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 
-## Transaction Generated for an AR Payment {#section_vsp_fjv_vxb .section}
+## Transaction Generated for an AR Payment
 
 When you create and release an AR payment for the invoice with pending VAT, the system generates the following general ledger transaction:
 
@@ -25,7 +25,7 @@ When you create and release an AR payment for the invoice with pending VAT, the 
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form.
 
-## Transactions Generated When Pending VAT is Recognized {#section_ysp_fjv_vxb .section}
+## Transactions Generated When Pending VAT is Recognized
 
 When you recognize pending VAT, the system generates the following general ledger transactions:
 
@@ -39,7 +39,7 @@ When you recognize pending VAT, the system generates the following general ledge
 |Tax Claimable account|The Tax Payable account of the pending input VAT specified on the [Taxes](TX_20_50_00.md) form|Tax amount|0.00|
 |Pending Tax Claimable account|The Pending Tax Claimable account of the pending input VAT specified on the [Taxes](TX_20_50_00.md) form|0.00|Tax amount|
 
-## Example of GL Transactions Generated When Pending Taxes Are Processed {#section_atp_fjv_vxb .section}
+## Example of GL Transactions Generated When Pending Taxes Are Processed
 
 This section provides an example of the GL transactions that the system generates when it processes an AR invoice that is subject to pending VAT.
 
@@ -62,7 +62,7 @@ You can view the generated GL transactions on the [Journal Transactions](GL_30_1
 
 The amounts posted to the Tax Payable or Tax Claimable account will be included in the tax report, which you create it on the [Prepare Tax Report](TX_50_10_00.md) \(TX501000\) form.
 
-## Example of GL Transactions Generated When Partial Payment Has Been Applied {#section_gtp_fjv_vxb .section}
+## Example of GL Transactions Generated When Partial Payment Has Been Applied
 
 This section provides an example of the GL transactions that the system generates when a partial payment has been applied and recognized.
 

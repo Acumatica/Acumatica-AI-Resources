@@ -1,10 +1,10 @@
-# Workflow-Identifying Fields: To Add Conditions with User-Defined Fields {#_9a435db9-f007-47a0-9e29-4811bc3d3a0b .task}
+# Workflow-Identifying Fields: To Add Conditions with User-Defined Fields
 
 The following activity will walk you through the process of creating workflow conditions with user-defined fields.
 
 *User-defined fields* are fields an organization can add directly to the Acumatica ERP data entry forms to gather information that is important to the organization but does not already appear on the form. The fields can be displayed on the **User-Defined Fields** tab if the user should enter their values, or they can be hidden if they will be used internally. These fields are based on predefined and site-specific attributes that have been defined in the system. For details on user-defined fields, see [Managing Attributes and User-Defined Fields](../UserGuide/CS__con_Attributes_and_User_Defined_Fields.md).
 
-## Story {#section_f44_vpp_jhc .section}
+## Story
 
 Acting as a technical specialist, you need to add the following conditions to the workflow of sales orders on the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form:
 
@@ -13,7 +13,7 @@ Acting as a technical specialist, you need to add the following conditions to th
 
 The system does not store information about whether the sales order has been reviewed or whether it has been put on hold manually. Therefore, you need to create user-defined fields for the workflow of sales orders with the *SO* order type. One user-defined field will be used to check if a sales order has been put on hold manually, and another will be used to check whether it has already been removed from hold. Because these fields will be used only internally, you will define them to be hidden.
 
-## Process Overview {#section_g44_vpp_jhc .section}
+## Process Overview
 
 On the [Attributes](../UserGuide/CS_20_50_00.md) \(CS205000\) form, you will create the attributes that you will use for user-defined fields. You will then add user-defined fields for these attributes on the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form. As an optional step, you will add the created fields to the customization project on the [UI Configurations](../UserGuide/AU_23_00_10.md) page of the Customization Project Editor.
 
@@ -21,7 +21,7 @@ By using the [Fields](../UserGuide/AU_20_10_60.md) page, you will make the field
 
 By using the [Conditions](../UserGuide/AU_20_10_10.md) page, you will add the conditions that use the user-defined fields.
 
-## System Preparation {#section_h44_vpp_jhc .section}
+## System Preparation
 
 Before you begin adding a new state, do the following:
 
@@ -32,7 +32,7 @@ Before you begin adding a new state, do the following:
 2.  Make sure that you have learned how to configure conditions, as described in [Conditions and Transitions: General Information](WorkflowUI_ConditionsTransitions_GeneralInfo.md).
 3.  Make sure that you have completed the [Workflow-Identifying Fields: To Create an Inherited Workflow](WorkflowUI_WorkflowIdentifying_Activity_CreateWorkflow.md) activity.
 
-## Step 1: Creating Attributes {#section_i44_vpp_jhc .section}
+## Step 1: Creating Attributes
 
 In this step, you will create the attributes that will correspond to the user-defined fields. In Acumatica ERP, perform the following instructions:
 
@@ -53,7 +53,7 @@ In this step, you will create the attributes that will correspond to the user-de
 
 4.  On the form toolbar, click **Save**.
 
-## Step 2: Adding User-Defined Fields to the Form {#section_j44_vpp_jhc .section}
+## Step 2: Adding User-Defined Fields to the Form
 
 In this step, you will add to the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form the user-defined fields that correspond to the attributes you have created. In Acumatica ERP, perform the following instructions:
 
@@ -82,7 +82,7 @@ In this step, you will add to the [Sales Orders](../UserGuide/SO_30_10_00.md) \(
 
 **Tip:** For specified types of sales orders, you can control whether each added user-defined field is required, whether it is hidden, and whether its default value should be used. To do so, you use the **Properties** pane of the **Manage User-Defined Field Fields** dialog box. In the table on this pane, you select any of the following check boxes for each field for the needed sales order type: **Required**, **Hidden**, and **Default Value**.
 
-## Step 3 \(Optional\): Adding the Form Configuration to the Customization Project {#section_l44_vpp_jhc .section}
+## Step 3 \(Optional\): Adding the Form Configuration to the Customization Project
 
 As an optional step, you can add the form configuration \(which contains the user-defined fields\) to your customization project. In this case, it will be possible to export the customization project and then import and publish it on another instance without the need to create and add user-defined fields on this instance manually. Do the following:
 
@@ -98,7 +98,7 @@ As an optional step, you can add the form configuration \(which contains the use
     The selected form configuration is added to the customization project.
 
 
-## Step 4: Hiding the User-Defined Fields from the Form {#section_m44_vpp_jhc .section}
+## Step 4: Hiding the User-Defined Fields from the Form
 
 To add the user-defined fields to the workflow and hide them on the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form, in the Customization Project Editor for the *SalesOrdersCheckHold* customization project, perform the following instructions:
 
@@ -127,10 +127,9 @@ To add the user-defined fields to the workflow and hide them on the [Sales Order
 
     The SO30100 \(Sales Orders\) Fields page with the added fields should look as shown in the following screenshot.
 
-    ![](Images/WorkflowUI_WorkflowIdentifying_FieldsPage.png "The SO30100 (Sales Orders) Fields page")
 
 
-## Step 5: Adding Conditions {#section_o44_vpp_jhc .section}
+## Step 5: Adding Conditions
 
 In this step, you will add conditions to be used for *SO* sales orders in the *SalesOrdersCheckHold* customization project. In the Customization Project Editor for this customization project, perform the following instructions:
 
@@ -161,7 +160,6 @@ In this step, you will add conditions to be used for *SO* sales orders in the *S
 
     The condition should look as shown in the following screenshot.
 
-    ![](Images/WorkflowUI_WorkflowIdentifying_ConditionLessThan800.png "The TotalLessThan800 condition")
 
 
 **Parent topic:**[Customizing Workflows with a Workflow-Identifying Field](../DeveloperGuide/WorkflowUI_WorkflowIdentifying_Mapref.md)

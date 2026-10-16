@@ -1,14 +1,14 @@
-# Vendor Visibility: To Restrict Visibility to a Branch {#_1194223f-5265-4e15-8eb9-05364876789e .task}
+# Vendor Visibility: To Restrict Visibility to a Branch
 
 In this implementation activity, you will learn how to restrict the visibility of a vendor record to a particular branch.
 
-## Story { .section}
+## Story
 
 Suppose that the management of SweetLife Fruits &amp; Jams has decided to implement the restriction of vendor visibility. One of vendors, Squeezo Inc., supplies juicers for the Service and Equipment Sales Center branch of SweetLife Fruits &amp; Jams company, and users who are employees of other branches and companies should not have access to this vendor record. In other words, after the implementation of this restriction, Pam Brawner, who is the Service Manager of the *SWEETEQUIP* branch, should be able to access the Squeezo Inc. vendor and Eric Killian, the Purchase Requisitions Manager in the Wholesale and Retail branches, should not be able to access this vendor.
 
 Acting as a system administrator, you need to restrict the visibility of the *SQUEEZO* vendor to the *SWEETEQUIP \(Service and Equipment Sales Center\)* branch only and make sure the appropriate access role has been specified for this branch. You then need to verify that a user without this access role cannot access the vendor, and that a user with this access role can access the vendor. Acting as an accountant, you need to create an AP document selecting the *SWEETEQUIP* branch as the originating branch and specifying this vendor.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -17,18 +17,18 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Users](../UserGuide/SM_20_10_10.md) \(SM201010\) form, for the *brawner* login, the *Branch SweetEquip* role is selected on the **Roles** tab. For the *killian* login, the *Branch SweetEquip* role is not selected on the **Roles** tab.
 -   On the [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\) form, the *SQUEEZO* vendor account has been configured.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Branches](../UserGuide/CS_10_20_00.md) \(CS102000\) form, you will make sure that the access role for the *SWEETEQUIP* branch has been set up, and on the [Users](../UserGuide/SM_20_10_10.md) \(SM201010\) form, you will make sure that it has been assigned to one of the users. On the [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\) form, you will set up a visibility restriction for the needed vendor. You will then sign in to the tenant by using a username that is not assigned to the needed branch access role and then a username that is assigned to the branch access role; in both cases, you will check for the ability to view the *SQUEEZO* vendor. Finally, on the [Bills and Adjustments](../UserGuide/AP_30_10_00.md) \(AP301000\) form, you will create a bill for the *SQUEEZO* vendor and make sure that you can select this vendor for a document if the originating branch is *SWEETQEUIP*.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start restricting the visibility of a vendor record, sign in to a company with the *U100* dataset preloaded as a system administrator by using the following credentials:
 
 -   Username: *gibbs*
 -   Password: *123*
 
-## Step 1: Reviewing Branch Access Roles of the Users { .section}
+## Step 1: Reviewing Branch Access Roles of the Users
 
 To review the access roles assigned to the *brawner* and *killian* users, do the following:
 
@@ -43,7 +43,7 @@ To review the access roles assigned to the *brawner* and *killian* users, do the
 6.  In the **Login** box, select *killian*.
 7.  In the table on the **Roles** tab, review the access roles assigned to this user. Notice that the *Branch SweetEquip* access role has the **Selected** check box cleared for its row; this access role has not been assigned for this user.
 
-## Step 2: Restricting the Visibility of a Vendor { .section}
+## Step 2: Restricting the Visibility of a Vendor
 
 To restrict the visibility of the *SQUEEZO* vendor, do the following:
 
@@ -52,7 +52,7 @@ To restrict the visibility of the *SQUEEZO* vendor, do the following:
 3.  On the **Financial** tab \(**Financial Settings** section\), select *SWEETEQUIP* in the **Restrict Visibility To** box. This is the Service and Equipment Sales Center branch of the SweetLife Fruits &amp; Jams company.
 4.  On the form toolbar, click **Save** to save your changes.
 
-## Step 3: Reviewing the Visibility of the Vendor Record { .section}
+## Step 3: Reviewing the Visibility of the Vendor Record
 
 To review the visibility of the vendor record, do the following:
 
@@ -74,7 +74,7 @@ To review the visibility of the vendor record, do the following:
     On the [Bills and Adjustments](../UserGuide/AP_30_10_00.md) \(AP301000\) form, when you are creating an AP document and select a vendor, the system automatically populates the **Branch** box on the **Financial** tab with the default branch of the selected location. \(This branch is considered the originating branch of the document.\) If the default branch is not specified, the originating branch is the current branch to which you are signed in.
 
 
-## Step 4: Creating a Bill for the Squeezo Vendor { .section}
+## Step 4: Creating a Bill for the Squeezo Vendor
 
 To create a bill for the *SQUEEZO* vendor whose visibility has been restricted, do the following:
 

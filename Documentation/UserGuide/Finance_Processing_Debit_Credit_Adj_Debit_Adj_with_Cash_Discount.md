@@ -1,8 +1,8 @@
-# Debit and Credit Adjustments: Debit Adjustments with Cash Discounts {#_bec9fed5-2bb0-468b-867a-cd570ca11d5b .concept}
+# Debit and Credit Adjustments: Debit Adjustments with Cash Discounts
 
 Debit adjustments that you create in Acumatica ERP can have credit terms specified. As a result, these documents can include a cash discount.
 
-## Ability to Apply Cash Discounts to Debit Adjustments { .section}
+## Ability to Apply Cash Discounts to Debit Adjustments
 
 To turn on the application of cash discounts in debit adjustments, on the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form, you select the **Use Credit Terms in Debit Adjustments** check box in the **Data Entry Settings** section.
 
@@ -14,7 +14,7 @@ You create debit adjustments with a cash discount on the [Bills and Adjustments]
 |Released \(*Open*\)|Unavailable|Available|Available|Unavailable|
 |Closed \(*Closed* or *Voided*\)|Unavailable|Unavailable|Unavailable|Unavailable|
 
-## Cash Discount Settings in Debit Adjustments { .section}
+## Cash Discount Settings in Debit Adjustments
 
 When you create a debit adjustment on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form by copying an existing one, the system inserts the settings as follows:
 

@@ -1,12 +1,12 @@
-# To Enter a Bill with Landed Costs {#_01d1d5ff-1500-4804-95bd-80534eb1a7ba .task}
+# To Enter a Bill with Landed Costs
 
 An accounts payable bill to a landed cost vendor is usually created automatically on release of a landed cost document. If you have specified the appropriate settings to not create a bill automatically \(for example, because you haven't received an invoice from the landed cost vendor yet\), you need to create this bill manually on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form and add the line or lines of the landed cost document to this bill.
 
-## Before You Proceed {#section_azh_njv_vxb .section}
+## Before You Proceed
 
 In accordance with your company's policies, in a particular landed cost code on the [Landed Cost Codes](PO_20_20_00.md) \(PO202000\) form, you must specify how the landed cost amounts should be allocated among the items in a purchase receipt.
 
-## To Create a Bill with Landed Costs {#section_czh_njv_vxb .section}
+## To Create a Bill with Landed Costs
 
 1.  Open the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 2.  Click **Add New Record**.
@@ -27,7 +27,7 @@ In accordance with your company's policies, in a particular landed cost code on 
 11. On the form toolbar, click **Remove Hold**.
 12. On the form toolbar, click **Save**.
 
-## Notes About the Procedure {#section_fzh_njv_vxb .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

@@ -1,4 +1,4 @@
-# Correcting Subcontract Bills {#_cde22dfb-2566-4ab3-b95d-e7310907a354 .concept}
+# Correcting Subcontract Bills
 
 In this chapter, you will learn about correcting bills that have been prepared for subcontracts.
 

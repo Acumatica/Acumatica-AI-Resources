@@ -1,14 +1,14 @@
-# Marketing Lists: To Create a Static Marketing List {#_0591adb9-7609-47d2-aa51-b29da69e3e50 .task}
+# Marketing Lists: To Create a Static Marketing List
 
 The following activity demonstrates how to create static marketing lists and add members to it.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Bill Owen, a marketing manager of the SweetLife Fruits &amp; Jams company.You need to create a new marketing list that includes leads from bakeries and restaurants with confirmed contact information, contacts and leads from a previously prepared marketing list, and members of one of the company's existing marketing campaigns. These members will receive a special offer from the company with 30 percent off the price of citrus juicers.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -19,7 +19,7 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Marketing Lists](CR_20_40_00.md) \(CR204000\) form, the *Cooks* marketing list with five members has been defined.
 -   On the [Marketing Campaigns](CR_20_20_00.md) \(CR202000\) form, the *Juice for Bakeries* marketing campaign with four members has been added.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Marketing Lists](CR_20_40_00.md) \(CR204000\) form, you will do the following:
 
@@ -30,7 +30,7 @@ In this activity, on the [Marketing Lists](CR_20_40_00.md) \(CR204000\) form, yo
 5.  Add members to the marketing list by using another marketing campaign
 6.  For some members of the created marketing list, cancel the subscription
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating marketing lists, you should do the following:
 
@@ -40,7 +40,7 @@ Before you start creating marketing lists, you should do the following:
     -   **Password**: *123*
 3.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Creating a Static Marketing List { .section}
+## Step 1: Creating a Static Marketing List
 
 To create a static marketing list, do the following:
 
@@ -53,7 +53,7 @@ To create a static marketing list, do the following:
 
 You have created a static marketing list. You can now add and remove list members, or unsubscribe them from the marketing emails according to your needs or preferences, as described in the following steps.
 
-## Step 2: Adding Individual Members to a Static Marketing List { .section}
+## Step 2: Adding Individual Members to a Static Marketing List
 
 Now you will manually add two members, Leslie Walker and Leonard Hemmings, to the static marketing list you created. While you are still viewing the *Citrus Juicers at a 30% Discount* marketing list on the [Marketing Lists](CR_20_40_00.md) \(CR204000\) form, do the following:
 
@@ -67,13 +67,12 @@ Now you will manually add two members, Leslie Walker and Leonard Hemmings, to th
 
 You have added two members to the marketing list manually.
 
-## Step 3: Adding Multiple Members to a Static Marketing List by Using a Generic Inquiry { .section}
+## Step 3: Adding Multiple Members to a Static Marketing List by Using a Generic Inquiry
 
 To add multiple members to the marketing list by using a generic inquiry, while you are still viewing the *Citrus Juicers at a 30% Discount* list on the [Marketing Lists](CR_20_40_00.md) \(CR204000\) form, do the following:
 
 1.  On the table toolbar of the **List Members** tab, click **Add Members** &gt; **Add from Generic Inquiry**, as shown in the following screenshot.
 
-    ![](Images/activity_CRM_Mktg_Static_Marketing_List_Add_Members_Inquiry.png "Addition of the members by using the generic inquiry")
 
 2.  In the **Add Members from Inquiry** dialog box, which opens, do the following:
     1.  In the **Generic Inquiry** box, select the *BI-Leads* generic inquiry, which is predefined \(available in an out-of-the-box system\).
@@ -89,7 +88,7 @@ To add multiple members to the marketing list by using a generic inquiry, while 
 
 You have added multiple members to the marketing list by using a generic inquiry.
 
-## Step 4: Adding Multiple Members to a Static Marketing List by Using a Marketing List {#section_lc4_g3s_h5b .section}
+## Step 4: Adding Multiple Members to a Static Marketing List by Using a Marketing List
 
 To add multiple members to the marketing list by using another marketing list, while you are still viewing the *Citrus Juicers at a 30% Discount* list on the [Marketing Lists](CR_20_40_00.md) \(CR204000\) form,do the following:
 
@@ -97,18 +96,16 @@ To add multiple members to the marketing list by using another marketing list, w
 2.  In the **Add Members from Marketing Lists** dialog box, which opens, do the following:
     1.  Select the Selected check box in the row with the *Cooks* marketing list, as shown in the following screenshot.
 
-        ![](Images/activity_CRM_Mktg_Static_Marketing_List_Add_Members_MarketingList.png "Addition of the members through a marketing list")
 
         **Tip:**
 
         -   You can select as many marketing lists as you need to add their members to the current marketing list.
         -   If the table contains a large number of marketing lists, you can use the Search box at the top of the dialog box to find a specific list.
-        -   You can expand this dialog box to a full screen by clicking the ![](../Shared/Images/Icon_Expand_screen_ModernUI.png) icon in the top right corner of the dialog box. This may make it easier to see all the settings of the marketing lists.
     2.  Click **Add**. The system closes the dialog box and adds the members to the marketing list.
 
 You have added multiple members to the marketing list by using another marketing list.
 
-## Step 5: Adding Multiple Members to a Static Marketing List By Using a Marketing Campaign {#section_tzh_y3s_h5b .section}
+## Step 5: Adding Multiple Members to a Static Marketing List By Using a Marketing Campaign
 
 To add multiple members to the marketing list by using a marketing campaign, while you are still viewing the *Citrus Juicers at a 30% Discount* list on the [Marketing Lists](CR_20_40_00.md) \(CR204000\) form, do the following:
 
@@ -120,12 +117,11 @@ To add multiple members to the marketing list by using a marketing campaign, whi
 
         -   You can select any number of marketing campaigns to add their members to the current marketing list.
         -   If the table contains a large number of marketing campaigns, you can use the Search box at the top of the dialog box to find a specific campaign.
-        -   You can expand this dialog box to a full screen by clicking the ![](../Shared/Images/Icon_Expand_screen.png) icon in the top right corner of the dialog box. This may make it easier to see all the settings of the marketing campaigns.
     -   Click **Add**. The system closes the dialog box and adds the members from the marketing campaign to the marketing list.
 
 You have added multiple members to the marketing list by using a marketing campaign.
 
-## Step 6: Unsubscribing Multiple Members From the Marketing List { .section}
+## Step 6: Unsubscribing Multiple Members From the Marketing List
 
 Suppose that you need to temporarily cancel the subscription \(that is, cancel marketing mailings for some or all members of the marketing list, but do not remove them from the marketing list\) for all the members of the marketing list except those who work as cooks, because you want to initially use this marketing list only for cooks.
 
@@ -139,7 +135,6 @@ To cancel the subscription for most of members of the marketing list, while you 
 
 You have temporarily canceled the subscription for part of the members of the marketing list without removing them from the marketing list, as shown in the following screenshot.
 
-![](Images/activity_CRM_Mktg_Static_Marketing_List_Cancellation_Subscription.png "Cancellation of a subscription to a marketing list for some members")
 
 **Parent topic:**[Managing Marketing Lists](../UserGuide/CRM_Mktg_Mng_Marketing_Lists_Mapref.md)
 

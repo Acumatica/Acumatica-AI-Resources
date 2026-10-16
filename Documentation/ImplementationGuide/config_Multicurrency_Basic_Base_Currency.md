@@ -1,4 +1,4 @@
-# Multicurrency Functionality: Base Currency and Foreign Currencies {#_fe12c8ab-b910-476d-9b5e-d3dcff72e590 .concept}
+# Multicurrency Functionality: Base Currency and Foreign Currencies
 
 In Acumatica ERP, if the *Multicurrency Accounting* feature is disabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md#) \(CS100000\) form, only one currency, which is called the *base currency*, is used for accounting. If this feature is enabled, you can activate foreign currencies in the system, which will be used for accounting and reporting purposes. The base currency will be used for reviewing journal transactions made in foreign currencies and for calculating and converting amounts in imported records.
 

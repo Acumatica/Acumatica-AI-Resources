@@ -1,12 +1,12 @@
-# To Create a Deposit {#_1a4104b2-9f23-4aba-9527-0767d79aa63a .task}
+# To Create a Deposit
 
-You use the [Bank Deposits](CA_30_50_00.md) \(CA305000\) form to create a deposit into a bank account. For details on bank deposits, see [Preparation of Deposits](CA__CON_Preparation_of_Deposits.md).
+You use the [Bank Deposits](CA_30_50_00.md) \(CA305000\) form to create a deposit into a bank account. For details on bank deposits, see [Preparation of Bank Deposits](CA__CON_Preparation_of_Deposits.md).
 
-## Before You Proceed {#section_qhd_kjv_vxb .section}
+## Before You Proceed
 
 Before you start creating a cash transaction, make sure that all the necessary entry types have been created on the [Entry Types](CA_20_30_00.md) \(CA203000\) form and associated with cash accounts on the [Cash Accounts](CA_20_20_00.md) \(CA202000\) form. For details on entry types, see [Entry Types](CA__CON_EntryTypes.md).
 
-## To Create a Deposit {#section_shd_kjv_vxb .section}
+## To Create a Deposit
 
 1.  Open the [Bank Deposits](../Shared/../UserGuide/CA_30_50_00.md) \(CA305000\) form.
 
@@ -46,5 +46,5 @@ Before you start creating a cash transaction, make sure that all the necessary e
 
 13. On the form toolbar, click **Save** to save your changes.
 
-**Parent topic:**[Preparation of Deposits](../UserGuide/CA__CON_Preparation_of_Deposits.md)
+**Parent topic:**[Preparation of Bank Deposits](../UserGuide/CA__CON_Preparation_of_Deposits.md)
 

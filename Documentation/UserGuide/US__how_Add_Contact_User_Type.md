@@ -1,8 +1,8 @@
-# To Add a User Type {#_4e402478-7b3f-407c-a2e8-fdbd7fe932da .task}
+# To Add a User Type
 
 To add a new user type, you use the [User Types](EP_20_25_00.md) \(EP202500\) form. For more information on user types, see [User Access: Linked Entities and User Types](SA_Managing_User_Access_User_Types_Usage_Concept.md).
 
-## To Add a User Type { .section}
+## To Add a User Type
 
 1.  Open the [User Types](EP_20_25_00.md) \(EP202500\) form.
 2.  In the **User Type** box, type the name of the user type you want to add.

@@ -1,12 +1,12 @@
-# DR DACs: Reference Data {#_f8f59be6-2e93-44a3-887c-21bbe6e8851d .concept}
+# DR DACs: Reference Data
 
 In this topic, you can find information about the data access classes \(DACs\) that contain reference data that is used in most of the DACs in deferred revenue functionality.
 
-## Deferred Revenue Preferences { .section}
+## Deferred Revenue Preferences
 
 The preferences for the deferred revenue documents are stored in the [DRSetup](https://help.acumatica.com/dacBrowser/PX.Objects.DR/DRSetup) DAC. A user can edit these preferences on the [Deferred Revenue Preferences](../UserGuide/DR_10_10_00.md) \(DR101000\) form.
 
-## Deferred Codes { .section}
+## Deferred Codes
 
 A deferral code \(which is represented by a [DRDeferredCode](https://help.acumatica.com/dacBrowser/PX.Objects.DR/DRDeferredCode) record\) is a basic entity of Acumatica ERP deferred revenue functionality. The deferral code determines multiple aspects of how revenue should be recognized, such as the following:
 

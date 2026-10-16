@@ -1,8 +1,8 @@
-# Fixed Asset Troubleshooting: To Reverse an Asset {#_71ecb42b-7b71-42b2-970f-3e293ac260bf .task}
+# Fixed Asset Troubleshooting: To Reverse an Asset
 
 You use the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form to annul a fixed asset in Acumatica ERP by using the reverse procedure.
 
-## To Reverse a Fixed Asset {#section_rgh_ljv_vxb .section}
+## To Reverse a Fixed Asset
 
 1.  Open the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form.
 2.  In the **Asset ID** box of the summary area, select the asset you need to reverse.

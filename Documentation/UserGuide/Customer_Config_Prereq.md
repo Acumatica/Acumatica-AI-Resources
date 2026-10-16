@@ -1,10 +1,10 @@
-# Customers: Configuration Prerequisites {#_768aad0d-f619-4783-acfb-c98ed2f08e77 .concept}
+# Customers: Configuration Prerequisites
 
 Before you start setting up customer accounts in Acumatica ERP, you need to configure the entities that will ease the processes of customer account creation and maintenance. As you configure these entities, you should use the information that you gathered when you planned customer accounts.
 
 In this topic, you will find the list of Acumatica ERP entities you need to configure to ease the processes of customer account creation and maintenance. Some of these entities are required, while others are optional, as indicated in the list.
 
-## Settings Required to Be Configured {#section_d2l_4jv_vxb .section}
+## Settings Required to Be Configured
 
 The needed entities in Acumatica ERP may include the following:
 

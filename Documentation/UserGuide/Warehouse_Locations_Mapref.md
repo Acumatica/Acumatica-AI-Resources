@@ -1,4 +1,4 @@
-# Managing Warehouse Locations and Processing Single-Step Transfers {#_0b4cbeb6-90c7-4ba0-ad09-04debcb3838f .concept}
+# Managing Warehouse Locations and Processing Single-Step Transfers
 
 The business processes of your organization may require you to track the availability of items by their particular storage places in the applicable warehouse \(such as sections, rooms, aisles, or shelves\). In Acumatica ERP, you can create warehouse locations that correspond to the physical locations in your warehouses. You can receive items to a location and issue them from a location, and you can use *single-step transfers* to move items between locations of the same warehouse.
 

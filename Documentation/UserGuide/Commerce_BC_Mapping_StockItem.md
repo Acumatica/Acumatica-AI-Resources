@@ -1,68 +1,563 @@
-# Stock Item Entity {#_cd5fdb71-3ac4-420c-91c3-400405806681 .concept}
+# Stock Item Entity
 
 This topic provides reference information about the standard filtering and field mapping used for the *Stock Item* entity during the synchronization between Acumatica ERP and BigCommerce. The topic also contains information about the merging of duplicate records during the synchronization.
 
-## Stock Item Filtering { .section}
+## Stock Item Filtering
 
 Filters are applied during the export of stock items. A stock item is skipped if any of the following is true:
 
 -   The stock item is a matrix item—that is, a template is specified for the item in the **Template ID** box on the **General** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form. Matrix items are synchronized as part of the synchronization of template items.
 -   No item sales category is assigned to the stock item and no default category is selected in the **Default Stock Categories** box on the **Inventory** tab of the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form.
 
-## Merging of Duplicates { .section}
+## Merging of Duplicates
 
 During the export of stock items from Acumatica ERP, a stock item is merged with an existing product in BigCommerce if at least one of the following conditions is met:
 
 -   The stock item's description in Acumatica ERP—that is, the value in the **Description** box on the [Stock Items](IN_20_25_00.md) \(IN202500\) form—matches the **Product Name** of the product in BigCommerce.
 -   The stock item's ID in Acumatica ERP—that is, the value in the **Inventory ID** box on the [Stock Items](IN_20_25_00.md) form—matches the **SKU** of the product in BigCommerce.
 
-## Stock Item Export Mapping { .section}
+## Stock Item Export Mapping
 
 The following table shows the mapping of Acumatica ERP fields to BigCommerce fields that is used during the export of stock items to BigCommerce.
 
-|**Source Fields \(Acumatica ERP\)**|**Target Fields \(BigCommerce\)**|
-|Field Name|Form Object|Field Name|Page Object|Notes|
-|-----------------------------------|---------------------------------|
-|----------|-----------|----------|-----------|-----|
-|[Stock Items](IN_20_25_00.md) \(IN202500\) form| |
-|**Inventory ID**|Summary area|**SKU**|Product management page &gt; **Basic Information** section|**SKU** also appears under **Product Identifiers**.|
-|**Description**|Summary area|**Product Name**|Product management page &gt; **Basic Information** section|The **Description** in Acumatica ERP must be unique.|
-| | |**Product Type**: *Physical*|Product management page &gt; **Basic Information** section| |
-|**Description**|**Description** tab|**Description**|Product management page &gt; **Description** section| |
-|**Weight**|**Packaging** tab &gt; **Dimensions**section|**Weight**|Product management page &gt; **Basic Information** section| |
-|**Default Price**|**Price/Cost** tab &gt; **Price Management** section|**Default Price**|Product management page &gt; **Pricing** section|If the *Multiple Base Currencies* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the system exports the default price defined in the currency of the branch selected on the **Orders** tab of the [BigCommerce Stores](BC_20_10_00.md) form.|
-|**MSRP**|**Price/Cost** tab &gt; **Price Management** section|**MSRP**|Product management page &gt; **Pricing** section|If the *Multiple Base Currencies* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the system exports the MSRP defined in the currency of the branch selected on the **Orders** tab of the [BigCommerce Stores](BC_20_10_00.md) form.|
-|**Current Cost**|**Price/Cost** tab &gt; **Standard Cost** section|**Cost**|Product management page &gt; **Pricing** section| |
-|**General** tab| |
-|**Default Issue From**|**General** tab &gt; **Warehouse Defaults** section|**Bin Picking Number \(BPN\)**|Product management page &gt; **Product Identifiers** section| |
-|**Category ID**|**Attributes** tab &gt; **Sales Categories** table|**Categories**|Product management page &gt; **Basic Information** section| |
-|**eCommerce** tab| |
-|**Visibility**: *Visible*|**eCommerce** tab|**Visible on Storefront**: Selected|Product management page &gt; **Basic Information** section| |
-|**Visibility**: *Featured*|**eCommerce** tab|**Visible on Storefront**|Product management page &gt; **Basic Information** section| |
-|**Set as a Featured Product on my Storefront**|Product management page &gt; **Storefront Details** section|
-|**Visibility**: *Invisible*|**eCommerce** tab|**Visible on Storefront**: Cleared|Product management page &gt; **Basic Information** section| |
-|**Search Keywords**|**eCommerce** tab|**Search Keywords**|Product management page &gt; **Storefront Details** section| |
-|**Page Title**|**eCommerce** tab|**Page Title**|Product management page &gt; **Search Engine Optimization** section| |
-|**Meta Description**|**eCommerce** tab|**Meta Description**|Product management page &gt; **Search Engine Optimization** section| |
-|**Custom URL**|**eCommerce** tab|**Product URL**|Product management page &gt; **Search Engine Optimization** section| |
-|**URL** \(Image\)|**eCommerce** tab &gt; **Media URLs** table|**Images**|Product management page &gt; **Images &amp; Videos** section| |
-|**URL** \(Video\)|**eCommerce** tab &gt; **Media URLs** table|**Videos**|Product management page &gt; **Images &amp; Videos** section| |
-|**Cross-Reference** tab| |
-|**Alternate Type**: *Vendor Part Number*|**Cross-Reference** tab|**Manufacturer Part Number \(MPN\)**|Product management page &gt; **Product Identifiers** section|The first row for *Vendor Part Number* with the default vendor is used.|
-|**Alternate Type**: *Barcode*|**Cross-Reference** tab|**Product UPC/EAN**|Product management page &gt; **Product Identifiers** section|The system searches for the matching cross-reference of the *Barcode* type to export as follows:
+<table id="_2c8018cf-2b39-4643-80a9-2b57f6be3e0f"><thead><tr><th colspan="2">
+
+**Source Fields \(Acumatica ERP\)**
+
+</th><th colspan="3">
+
+**Target Fields \(BigCommerce\)**
+
+</th></tr><tr><th>
+
+Field Name
+
+</th><th>
+
+Form Object
+
+</th><th>
+
+Field Name
+
+</th><th>
+
+Page Object
+
+</th><th>
+
+Notes
+
+</th></tr></thead><tbody><tr><td colspan="2">
+
+[Stock Items](IN_20_25_00.md) \(IN202500\) form
+
+</td><td colspan="3">
+
+ 
+
+</td></tr><tr><td>
+
+**Inventory ID**
+
+</td><td>
+
+Summary area
+
+</td><td>
+
+**SKU**
+
+</td><td>
+
+Product management page &gt; **Basic Information** section
+
+</td><td>
+
+**SKU** also appears under **Product Identifiers**.
+
+</td></tr><tr><td>
+
+**Description**
+
+</td><td>
+
+Summary area
+
+</td><td>
+
+**Product Name**
+
+</td><td>
+
+Product management page &gt; **Basic Information** section
+
+</td><td>
+
+The **Description** in Acumatica ERP must be unique.
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+**Product Type**: *Physical*
+
+</td><td>
+
+Product management page &gt; **Basic Information** section
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**Description**
+
+</td><td>
+
+**Description** tab
+
+</td><td>
+
+**Description**
+
+</td><td>
+
+Product management page &gt; **Description** section
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**Weight**
+
+</td><td>
+
+**Packaging** tab &gt; **Dimensions**section
+
+</td><td>
+
+**Weight**
+
+</td><td>
+
+Product management page &gt; **Basic Information** section
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**Default Price**
+
+</td><td>
+
+**Price/Cost** tab &gt; **Price Management** section
+
+</td><td>
+
+**Default Price**
+
+</td><td>
+
+Product management page &gt; **Pricing** section
+
+</td><td>
+
+If the *Multiple Base Currencies* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the system exports the default price defined in the currency of the branch selected on the **Orders** tab of the [BigCommerce Stores](BC_20_10_00.md) form.
+
+</td></tr><tr><td>
+
+**MSRP**
+
+</td><td>
+
+**Price/Cost** tab &gt; **Price Management** section
+
+</td><td>
+
+**MSRP**
+
+</td><td>
+
+Product management page &gt; **Pricing** section
+
+</td><td>
+
+If the *Multiple Base Currencies* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the system exports the MSRP defined in the currency of the branch selected on the **Orders** tab of the [BigCommerce Stores](BC_20_10_00.md) form.
+
+</td></tr><tr><td>
+
+**Current Cost**
+
+</td><td>
+
+**Price/Cost** tab &gt; **Standard Cost** section
+
+</td><td>
+
+**Cost**
+
+</td><td>
+
+Product management page &gt; **Pricing** section
+
+</td><td>
+
+ 
+
+</td></tr><tr><td colspan="2">
+
+**General** tab
+
+</td><td colspan="3">
+
+ 
+
+</td></tr><tr><td>
+
+**Default Issue From**
+
+</td><td>
+
+**General** tab &gt; **Warehouse Defaults** section
+
+</td><td>
+
+**Bin Picking Number \(BPN\)**
+
+</td><td>
+
+Product management page &gt; **Product Identifiers** section
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**Category ID**
+
+</td><td>
+
+**Attributes** tab &gt; **Sales Categories** table
+
+</td><td>
+
+**Categories**
+
+</td><td>
+
+Product management page &gt; **Basic Information** section
+
+</td><td>
+
+ 
+
+</td></tr><tr><td colspan="2">
+
+**eCommerce** tab
+
+</td><td colspan="3">
+
+ 
+
+</td></tr><tr><td>
+
+**Visibility**: *Visible*
+
+</td><td>
+
+**eCommerce** tab
+
+</td><td>
+
+**Visible on Storefront**: Selected
+
+</td><td>
+
+Product management page &gt; **Basic Information** section
+
+</td><td>
+
+ 
+
+</td></tr><tr><td rowspan="2">
+
+**Visibility**: *Featured*
+
+</td><td rowspan="2">
+
+**eCommerce** tab
+
+</td><td>
+
+**Visible on Storefront**
+
+</td><td>
+
+Product management page &gt; **Basic Information** section
+
+</td><td rowspan="2">
+
+ 
+
+</td></tr><tr><td>
+
+**Set as a Featured Product on my Storefront**
+
+</td><td>
+
+Product management page &gt; **Storefront Details** section
+
+</td></tr><tr><td>
+
+**Visibility**: *Invisible*
+
+</td><td>
+
+**eCommerce** tab
+
+</td><td>
+
+**Visible on Storefront**: Cleared
+
+</td><td>
+
+Product management page &gt; **Basic Information** section
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**Visibility**: *Unlisted*
+
+</td><td>
+
+**eCommerce** tab
+
+</td><td>
+
+**Visible on Storefront**: Cleared
+
+</td><td>
+
+Product management page &gt; **Basic Information** section
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**Search Keywords**
+
+</td><td>
+
+**eCommerce** tab
+
+</td><td>
+
+**Search Keywords**
+
+</td><td>
+
+Product management page &gt; **Storefront Details** section
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**Page Title**
+
+</td><td>
+
+**eCommerce** tab
+
+</td><td>
+
+**Page Title**
+
+</td><td>
+
+Product management page &gt; **Search Engine Optimization** section
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**Meta Description**
+
+</td><td>
+
+**eCommerce** tab
+
+</td><td>
+
+**Meta Description**
+
+</td><td>
+
+Product management page &gt; **Search Engine Optimization** section
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**Custom URL**
+
+</td><td>
+
+**eCommerce** tab
+
+</td><td>
+
+**Product URL**
+
+</td><td>
+
+Product management page &gt; **Search Engine Optimization** section
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**URL** \(Image\)
+
+</td><td>
+
+**eCommerce** tab &gt; **Media URLs** table
+
+</td><td>
+
+**Images**
+
+</td><td>
+
+Product management page &gt; **Images &amp; Videos** section
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**URL** \(Video\)
+
+</td><td>
+
+**eCommerce** tab &gt; **Media URLs** table
+
+</td><td>
+
+**Videos**
+
+</td><td>
+
+Product management page &gt; **Images &amp; Videos** section
+
+</td><td>
+
+ 
+
+</td></tr><tr><td colspan="2">
+
+**Cross-Reference** tab
+
+</td><td colspan="3">
+
+ 
+
+</td></tr><tr><td>
+
+**Alternate Type**: *Vendor Part Number*
+
+</td><td>
+
+**Cross-Reference** tab
+
+</td><td>
+
+**Manufacturer Part Number \(MPN\)**
+
+</td><td>
+
+Product management page &gt; **Product Identifiers** section
+
+</td><td>
+
+The first row for *Vendor Part Number* with the default vendor is used.
+
+</td></tr><tr><td>
+
+**Alternate Type**: *Barcode*
+
+</td><td>
+
+**Cross-Reference** tab
+
+</td><td>
+
+**Product UPC/EAN**
+
+</td><td>
+
+Product management page &gt; **Product Identifiers** section
+
+</td><td>
+
+The system searches for the matching cross-reference of the *Barcode* type to export as follows:
 
  1.  With the sales UOM
 2.  With the base UOM
 3.  With no UOM \(or any other UOM\)
 
-|
-|**Alternate Type**: *GTIN/EAN/UPC/ISBN*|**Cross-Reference** tab|**Global Trade Item Number \(GTIN\)**|Product management page &gt; **Product Identifiers** section|The system searches for the matching cross-reference of the *GTIN/EAN/UPC/ISBN* type to export as follows:
+</td></tr><tr><td>
+
+**Alternate Type**: *GTIN/EAN/UPC/ISBN*
+
+</td><td>
+
+**Cross-Reference** tab
+
+</td><td>
+
+**Global Trade Item Number \(GTIN\)**
+
+</td><td>
+
+Product management page &gt; **Product Identifiers** section
+
+</td><td>
+
+The system searches for the matching cross-reference of the *GTIN/EAN/UPC/ISBN* type to export as follows:
 
  1.  With the sales UOM
 2.  With the base UOM
 3.  With no UOM \(or any other UOM\)
 
-|
+</td></tr></tbody>
+</table>
 
 |**Source Fields \(Acumatica ERP\)**|**Target Fields \(BigCommerce\)**|
 |Field Name|Form Object|Field Name|Page Object|

@@ -1,16 +1,14 @@
-# Extending the Existing Workflow Without Coding from the Customization Project Editor {#_7002fb50-3aff-4819-b995-ef2d18f13272 .concept}
+# Extending the Existing Workflow Without Coding from the Customization Project Editor
 
 Some forms of Acumatica ERP have predefined workflows. You can extend these workflows in the Customization Project Editor, which gives you the tools and interface to make these changes without coding.
 
 This example demonstrates the extending of the predefined workflow for working with an opportunity. The predefined workflow for the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form includes the states \(shown in the blue rectangles and representing statuses\) and actions shown in the following diagram.
 
-![](images/Transitions_Example_Predefined.png "The predefined statuses and actions of opportunities")
 
 Suppose that you need a new status called *Hold* that can be used for opportunities. After you perform customization, a user should be able to change an opportunity’s status from *Won* to *Hold* by clicking the **Hold** action, and change the status from *Hold* to *Open* by clicking the predefined **Open** action.
 
 The following diagram presents the possible statuses after customization and the actions that change statuses.
 
-![](images/Transitions_Example_Extended.png "The customized statuses and actions of opportunities")
 
 Based on these specifications, you will implement the new workflow for opportunities by performing the following general tasks, which are described in greater detail in the sections that follow:
 
@@ -20,7 +18,7 @@ Based on these specifications, you will implement the new workflow for opportuni
 4.  For the *Won* state, defining a transition and the **Hold** action as described in [Create the Transition from the Won State to the Hold State](#_9f2492ba-5c8f-43ed-8339-566ecb13d307).
 5.  For the *Hold* state, adding a transition and the **Open** action as described in [Create the Transition from the Hold State to the Open State](#section_yt5_cbg_vkb).
 
-## Add the Opportunities Form to the List of Customized Screens {#_b59efc4e-b0a2-4277-9df3-52916e7867b6 .section}
+## Add the Opportunities Form to the List of Customized Screens
 
 To add the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form in the list of customized screens, do the following:
 
@@ -35,7 +33,7 @@ To add the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form in the
 
 For details on adding a form to the list of customized screens, see [To Add a Page Item for an Existing Form](CG_GL_Items_Screens_Adding.md).
 
-## Create a Custom Workflow Based on an Existing One {#_dcc7321b-58e2-4c17-abd3-e226cadf112c .section}
+## Create a Custom Workflow Based on an Existing One
 
 To create a new workflow, do the following:
 
@@ -60,7 +58,7 @@ To create a new workflow, do the following:
     The State Diagram: &lt;Workflow Name&gt; page opens. Now you will add the *Hold* state.
 
 
-## Add the Hold State to the Custom Workflow {#_48e4a12c-11de-4cfb-8cb5-752194ac8710 .section}
+## Add the Hold State to the Custom Workflow
 
 To add the *Hold* state, do the following:
 
@@ -71,7 +69,7 @@ To add the *Hold* state, do the following:
 3.  Click **OK**.
 4.  On the **States and Transitions** pane, place the *Hold* state after the *Won* state by using the buttons on the toolbar.
 
-## Create the Transition from the Won State to the Hold State {#_9f2492ba-5c8f-43ed-8339-566ecb13d307 .section}
+## Create the Transition from the Won State to the Hold State
 
 You need to create a transition from the *Won* to the *Hold* state. To perform this transition, you also need to create the *Put on Hold* action. Do the following:
 
@@ -86,7 +84,7 @@ You need to create a transition from the *Won* to the *Hold* state. To perform t
 7.  In the **Add Transition** dialog box, make sure the created action is specified in the **Action** box, and click **OK** to close the dialog box.
 8.  On the page toolbar, click **Save**
 
-## Create the Transition from the Hold State to the Open State {#section_yt5_cbg_vkb .section}
+## Create the Transition from the Hold State to the Open State
 
 You now need to create a transition from the *Hold* state to the *Open* state. To perform this transition, you can use the existing *Open* action. by perform the following actions:
 

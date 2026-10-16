@@ -1,4 +1,4 @@
-# To Open a Group Box in the Screen Editor {#_7251d78a-a2ba-43af-8d6c-ea9682514b8b .concept}
+# To Open a Group Box in the Screen Editor
 
 To start the customization of a group box on a form, you have to open it in the [Screen Editor](../UserGuide/AU_20_45_20.md). To do this, perform the following actions:
 

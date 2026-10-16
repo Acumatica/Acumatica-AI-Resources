@@ -1,4 +1,4 @@
-# Financial Calendar Generation: Implementation Checklist {#_809f2645-906f-4604-be03-8093cb1695e2 .concept}
+# Financial Calendar Generation: Implementation Checklist
 
 Before users begin generating financial calendars, you must make sure that the system has been configured properly and that all required entities have been created, as described in the following table
 

@@ -1,14 +1,14 @@
-# Lead Qualification by Marketing Teams: To Disqualify a Lead {#_bed743a6-371b-4a69-9b66-9b5b3cd090bd .task}
+# Lead Qualification by Marketing Teams: To Disqualify a Lead
 
 The following activity demonstrates how to disqualify a lead in Acumatica ERP.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Bill Owen, a marketing manager of the SweetLife Fruits &amp; Jams company. You have launched an advertising campaign to promote a new series of commercial juicers. The audience is a group of leads that have shown interest in these juicers. During the campaign, you have sent emails with the product descriptions and a survey to gauge the audience's interest in the products. John Livier, the head of the client services department at the Snow Park Restaurant, responded to your survey that the company is no longer interested in commercial juicers. Thus, you need to disqualify the *John Livier* lead.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -16,11 +16,11 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Lead Classes](../Shared/../UserGuide/CR_20_70_00.md) \(CR207000\) form, the *CAFE* class, which defines SweetLife's leads representing employees from cafes and restaurants, has been created.
 -   On the [Leads](../Shared/../UserGuide/CR_30_10_00.md) \(CR301000\) form, the *John Livier* lead has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this process activity, you will disqualify a lead on the [Leads](../Shared/../UserGuide/CR_30_10_00.md) \(CR301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start disqualifying a lead, you should do the following:
 
@@ -29,7 +29,7 @@ Before you start disqualifying a lead, you should do the following:
     -   **Password**: *123*
 2.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step: Disqualifying a Lead { .section}
+## Step: Disqualifying a Lead
 
 To disqualify the *John Livier* lead, do the following:
 

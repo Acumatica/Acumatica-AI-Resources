@@ -16,7 +16,7 @@ problem — DAC attribute questions, naming decisions, long-operation quirks, co
 
 ## Known-good DAC patterns (verified against real, current product source)
 
-Confirmed by reading real DACs in an installed site's `CodeRepository` (26.100.0175), not assumed —
+Confirmed by reading real DACs in the 2026 R2 source tagged `26.200.0368`, not assumed —
 re-check against the site's own CodeRepository if something looks off, since these can shift between
 versions.
 
@@ -91,15 +91,15 @@ Took five rounds to fix once — most of them plausible-looking dead ends:
    *different* case — worth checking if you hit this fresh.)
 4. Removing `MapEnableRights`/`MapViewRights` from `[PXUIField]` — no effect.
 
-**The actual fix:** do **not** declare the action as `ActionName: PXActionState;` in the screen's
-TypeScript class at all. Declaring it is what suppressed rendering — removing the declaration (so modern
-UI auto-discovers the action straight from the graph's `PXAction` member) is what made it appear. No TS
-declaration is needed for a plain action with no special client-side behavior; most real screens simply
-never declare their simple actions.
+**The fix in that case:** removing the action's TypeScript declaration restored rendering through
+graph action discovery. This is a case-specific diagnostic result, not a rule against
+`ActionName: PXActionState;`. Converter-generated declarations can be valid and should not
+be removed solely because they use this type.
 
-**General lesson:** for a bug this stubborn, "confirmed against real examples" is still a hypothesis
-until an actual retest confirms it. And the fix here was an *absence* to restore, not a presence to add —
-check what's needlessly *there* as much as what's missing.
+Inspect the target screen's action declaration, configuration, visibility, rights, and backend
+action together. Keep valid generated declarations; consider removing an unnecessary declaration
+only when a retest demonstrates that it causes the symptom. Confirm both rendering and execution
+in Modern UI. Matching a source example or working in Classic UI alone is insufficient.
 
 ## Long operations can't pause for external interactive input
 

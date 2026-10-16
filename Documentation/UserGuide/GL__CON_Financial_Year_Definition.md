@@ -1,4 +1,4 @@
-# Financial Year Configuration {#_16bd99c2-ea6d-46fa-bc12-f1c222524e41 .concept}
+# Financial Year Configuration
 
 You perform the configuration of the financial year on the [Financial Year](GL_10_10_00.md) \(GL101000\) form. To configure the financial year, you do the following on this form:
 
@@ -10,7 +10,7 @@ After you have saved the configuration of the financial year, you can generate p
 
 In this topic, you will read about these steps in detail.
 
-## Defining the First Financial Year {#section_fkf_mjv_vxb .section}
+## Defining the First Financial Year
 
 The first financial year usually designates the year when the company starts processing its operations in Acumatica ERP. However, we recommend that you define the first financial year so that it includes the last period before the company started to use Acumatica ERP, even if that means defining an extra financial year. You can then upload the ending balances of accounts to that period.
 
@@ -26,7 +26,7 @@ In some organizations, the financial year starts in the current year but belongs
 
 In this case, you indicate that the financial year starts in the current year but belongs to the next year by selecting the **Belongs to Next Year** option. The system automatically calculates the end date of the financial year as the end date of the last period.
 
-## Defining Periods for the Financial Year {#section_nkf_mjv_vxb .section}
+## Defining Periods for the Financial Year
 
 The financial year is divided into financial periods, which can have equal durations or different ones. The total length of all periods may or may not be equal to the year. In the **Period Type** box, you set up periods as follows:
 
@@ -52,13 +52,13 @@ For instructions, see:
 
 Other years will have the same structure as the first financial year. You can make limited modifications to the financial year and periods, as described in [Financial Year Modification](GL__CON_Financial_Year_Modification.md) and [Modification of Periods for a Year](GL__CON_Period_Modification.md).
 
-## Setting Up Periods Based on Months {#section_rkf_mjv_vxb .section}
+## Setting Up Periods Based on Months
 
 If you set up financial periods based on months \(*Month*, *Two Months*, or *Quarter*\), the periods will start and end on the same dates each year \(except the leap years\). Each successive financial year will start and end on the same date.
 
 To define periods in the system, you click **Create Periods** on the form toolbar of the [Financial Year](GL_10_10_00.md) \(GL101000\) form after making the needed selections on the form. After you have generated the periods, you can review the defined year.
 
-## Setting Up Periods Based on Weeks {#section_ukf_mjv_vxb .section}
+## Setting Up Periods Based on Weeks
 
 If you set up financial periods based on weeks \(*Week*, *Two Weeks*, *Four Weeks*, *4-4-5 Weeks*, *4-5-4 Weeks*, or *5-4-4 Weeks*\), the start and end dates of same-name periods will vary within the year, and the number of periods per year may vary. Financial periods based on weeks always start on the same day of the week and always end on the same day of the week.
 
@@ -87,7 +87,7 @@ The table below illustrates the following:
 
 **Attention:** For a week-based period type of calendar, because the financial year does not have a fixed start date and structure, you cannot generate a year template on the [Financial Year](GL_10_10_00.md) \(GL101000\) form.
 
-## Setting Up Periods of Week Type {#section_zkf_mjv_vxb .section}
+## Setting Up Periods of Week Type
 
 For a financial year with *Week* period type, you select the day of the week on which each period will start in the **Periods Start Day of Week** box. According to the selected day of the week, the system calculates the start date of the first period. You can view this date in the **First Period Start Date** box.
 
@@ -99,13 +99,13 @@ To process the difference between the length of a calendar year and the length o
 
 **Attention:** When you select the start day of the week for the periods in the **Periods Start Day of Week** box, the day of the week in the **Day of Week** box is automatically specified as one day earlier so it is the last day of the period. The system uses this day of the week to calculate whether an additional period is necessary to be added as described above.
 
-## Defining an Adjustment Period {#section_dlf_mjv_vxb .section}
+## Defining an Adjustment Period
 
 An adjustment period is a special one-day period added after the last period in a year. Its start date and end date are the same as the end date of the last period of the current financial year. An adjustment period can be used for posting only adjustment transactions. If you need to, you can add an adjustment period during the initial setup of the financial year by selecting **Has Adjustment Period** check box on the [Financial Year](GL_10_10_00.md) \(GL101000\) form before you generate periods. The number of periods in the **Number of Financial Periods** box increases by one. With the adjustment period configured, when you generate periods, each year will have an adjustment period.
 
 After initial setup of the financial year, you can add an adjustment period for a particular financial year or delete it for a particular financial year \(if the adjustment period was configured\) by using the [Master Financial Calendar](GL_20_10_00.md) \(GL201000\) form. For details, see [Modification of Periods for a Year](GL__CON_Period_Modification.md). For instructions on how to add the adjustment period, see [To Add an Adjustment Period](GL__Adding_an_Adjustment_Period.md).
 
-## Shifting the First Financial Year Earlier {#section_glf_mjv_vxb .section}
+## Shifting the First Financial Year Earlier
 
 If you realize that some financial data \(such as beginning balances for general ledger accounts\) should be posted before the start date, you may need to shift the first financial year earlier—that is, add a year before the current first financial year; the added year will become the new first year.
 

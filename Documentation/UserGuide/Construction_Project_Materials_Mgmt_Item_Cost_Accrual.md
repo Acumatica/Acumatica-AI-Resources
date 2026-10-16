@@ -1,8 +1,8 @@
-# Project Material Management: Accrual of a Non-Stock Item’s Cost {#_afaefd8d-d2a7-42b0-b3f8-9192b5acf5e9 .concept}
+# Project Material Management: Accrual of a Non-Stock Item’s Cost
 
 The following sections explain how the system accrues a non-stock item’s cost on purchases and sales, and describe which transactions the system generates to record the item cost to the project budget. For details about the way the system posts the expenses for non-stock items, see [Configuration of Project Material Management: Cost Accrual for Non-Stock Items](../ImplementationGuide/config_Project_Material_Mgmt_Accrual_for_NStock_Items.md).
 
-## Accrual of Cost on Purchases { .section}
+## Accrual of Cost on Purchases
 
 By default, *Purchase* is selected in the **Post Cost to Expenses On** box on the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form. We strongly recommend that you use this setting for any non-stock items that you are using with projects. With it selected, the system records the expenses related to the item during the processing of the purchase documents. When you process a project-related purchase document, the project budget is updated on release of either the inventory receipt or the AP bill, depending on the type of the document being processed and the type of the item in the document line as follows:
 
@@ -25,7 +25,7 @@ By default, *Purchase* is selected in the **Post Cost to Expenses On** box on th
     For a complete list of the generated GL transactions and project transactions, see [Project Inventory Tracking: Generated Transactions](Projects_Inventory_Tracking_Transactions.md) and [Subcontracts: Generated Transactions](Construction_Subcontracts_Transactions.md).
 
 
-## Cost Accrual on Drop-Ship Purchases { .section}
+## Cost Accrual on Drop-Ship Purchases
 
 **Important:** Regular drop-shipment orders \(purchase orders of the *Drop-Ship* type\) are not intended for use with projects.
 
@@ -44,7 +44,7 @@ In project-related drop-ship orders, the system captures the material expenses b
     For a complete list of the generated transactions, see [Purchases to the Project Site with a Receipt: Generated Transactions](Projects_Purchase_with_Receipt_Transactions.md).
 
 
-## Accrual of Cost on Sales { .section}
+## Accrual of Cost on Sales
 
 The expenses for non-stock items that have *Sales* selected in the **Post Cost to Expenses On** box on the **Price/Cost** tab of the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form are recorded on release of the sales invoices. On a purchase of these items for a project, expenses are recorded with the non-project code, regardless of the system settings and item settings.
 

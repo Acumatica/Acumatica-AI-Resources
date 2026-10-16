@@ -1,20 +1,20 @@
-# Generic Inquiries in a Customization Project: To Include Generic Inquiries in a Customization Project {#_62682ad6-47d3-4305-b648-cd53086f34bb .task}
+# Generic Inquiries in a Customization Project: To Include Generic Inquiries in a Customization Project
 
 This activity will walk you through the process of including generic inquiries in a customization project.
 
-## Story { .section}
+## Story
 
 Suppose that you need to distribute the generic inquiries that you have created in Acumatica ERP to the Acumatica ERP instances of the company. You need to create a customization project that includes these generic inquiries. You can then export this customization project to a ZIP file, import the file to the target instance, and publish this customization project.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create a customization project and include in it the needed generic inquiries and the access rights to these inquiries.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing this activity, deploy an instance of Acumatica ERP with the name *MyStoreInstance* and a tenant that has the *MyStore* name and contains the *T100* data.
 
-## Step 1: Creating a Customization Project { .section}
+## Step 1: Creating a Customization Project
 
 To create a customization project, do the following on the [Customization Projects](SM_20_45_05.md) \(SM204505\) form:
 
@@ -23,7 +23,7 @@ To create a customization project, do the following on the [Customization Projec
 3.  On the form toolbar, click **Save**
 4.  In the **Project Name** column, click the *MyBIIntegration* link, which opens the Customization Project Editor for the *MyBIIntegration* customization project.
 
-## Step 2: Including Generic Inquiries in the Customization Project { .section}
+## Step 2: Including Generic Inquiries in the Customization Project
 
 You will include in the customization project the following generic inquiries:
 
@@ -40,14 +40,13 @@ To include these generic inquiries in the customization project, do the followin
     -   *Customer Contacts*
     -   *Item Availability Data*
     -   *Modified Stock Items*
-    ![](Images/GI_CustomizationProject_Activity.png "Selecting the generic inquiries")
 
 4.  Click **Save**.
 
     Three inquiries have been added to the [Generic Inquiries](AU_20_60_00.md) page.
 
 
-## Step 3: Including Access Rights in the Customization Project { .section}
+## Step 3: Including Access Rights in the Customization Project
 
 You include access rights for the generic inquiries in the customization project as follows:
 

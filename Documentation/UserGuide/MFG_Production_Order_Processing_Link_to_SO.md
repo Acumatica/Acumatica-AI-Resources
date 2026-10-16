@@ -1,4 +1,4 @@
-# Production Processing: Production for Sales {#_7b32ce2a-0c3e-4f90-82e6-90146eab53ae .concept}
+# Production Processing: Production for Sales
 
 When you produce items that will be sold to customers, you may need to link a production order for producing an item and a sales order line for the item. When the link is created, the system allocates the produced items for the sales order, and the items become unavailable for sales operations that are not related to the sales order.
 
@@ -6,7 +6,7 @@ You can link the existing production order to the sales order line either by spe
 
 In this topic, you will read about production orders related to sales order lines in Acumatica ERP Manufacturing Edition.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -17,11 +17,11 @@ In this chapter, you will learn how to do the following:
 -   Track the produced quantity of items and the employee time spent on producing the items
 -   Record the movement of items from a work center to a warehouse
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You assign production orders to sales orders when customers order items that are not in stock and must be produced.
 
-## Production Process with a Sales Order { .section}
+## Production Process with a Sales Order
 
 When you create a sales order that contains an item to be produced, the production process is the following:
 
@@ -39,7 +39,7 @@ When you create a sales order that contains an item to be produced, the producti
 9.  You close the production order by using the [Close Production Orders](AM_50_60_00.md) \(AM506000\) form. The system creates the final adjustment to set the balance of the WIP account to zero by creating a cost transaction on the [Cost Transactions](AM_30_90_00.md) form and a GL batch on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form. The offset is added to the WIP Variance account.
 10. You process the sales order according to the sales process of your organization and ship the items to the customer.
 
-## Criteria to Create a Production Order for a Sales Order Line { .section}
+## Criteria to Create a Production Order for a Sales Order Line
 
 For you to be able to create a production order for a sales order line on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, the following conditions must be met:
 
@@ -51,7 +51,7 @@ For you to be able to create a production order for a sales order line on the [S
 -   For the sales order type on the [Order Types](SO_20_10_00.md) \(SO201000\) form, the **Enable Linking to Production Orders** check box is selected and the sales order statuses that permit linking to production are specified in the **Linkable Sales Order Statuses** list.
 -   The **MTO Order** check box is selected for the sales order type, which makes the **Mark for Production** check box appear on the **Details** tab of the [Sales Orders](SO_30_10_00.md) form, so that it can be selected in the sales order line.
 
-## Linking of an Existing Production Order to a Sales Order Line { .section}
+## Linking of an Existing Production Order to a Sales Order Line
 
 In some situations, the sales order and the production order to be associated with the sales order line already exist; for example, the production order may have been created during inventory planning. You can link the applicable sales order line to the production order in either of the following ways:
 
@@ -71,22 +71,52 @@ In some situations, the sales order and the production order to be associated wi
 
 You can link a production order to a sales order line if all of the conditions specified in the following table are met.
 
-|Entity|Requirements|
-|------|------------|
-|Sales order|The sales order is not assigned the *Canceled*, *Back Order*, or *Completed* status.|
-|Production order|-   The production order is not linked to a sales order line.
+<table id="_bd61868b-fcc1-4f15-a704-a7d86941466b"><thead><tr><th>
+
+Entity
+
+</th><th>
+
+Requirements
+
+</th></tr></thead><tbody><tr><td>
+
+Sales order
+
+</td><td>
+
+The sales order is not assigned the *Canceled*, *Back Order*, or *Completed* status.
+
+</td></tr><tr><td>
+
+Production order
+
+</td><td>
+
+-   The production order is not linked to a sales order line.
 -   The order is not assigned the *Completed*, *Canceled*, or *Closed* status.
 
-|
-|Stock item|-   The same stock item is specified in the production order and in the sales order line.
+</td></tr><tr><td>
+
+Stock item
+
+</td><td>
+
+-   The same stock item is specified in the production order and in the sales order line.
 -   The stock item is not a configured item. \(That is, the **Configurable** check box is cleared for the sales order line on the **Details** tab of the [Sales Orders](SO_30_10_00.md) form.\)
 
-|
-|Sales order line|-   The **Mark for Production** check box is selected for the sales order line on the [Sales Orders](SO_30_10_00.md) form.
+</td></tr><tr><td>
+
+Sales order line
+
+</td><td>
+
+-   The **Mark for Production** check box is selected for the sales order line on the [Sales Orders](SO_30_10_00.md) form.
 -   No production order is linked to the sales order line.
 -   The sales order line has not been canceled.
 
-|
+</td></tr></tbody>
+</table>
 
 When you create the link between a sales order line and a production order, the following changes occur in the system:
 
@@ -99,7 +129,7 @@ When you create the link between a sales order line and a production order, the 
 -   One production order can be linked to only one sales order line, and a sales order line can be linked to only one production order.
 -   If the *Multiple Warehouses* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the same warehouse must be specified in the production order and the sales order line.
 
-## Changes to a Link Between a Sales Order Line and a Production Order { .section}
+## Changes to a Link Between a Sales Order Line and a Production Order
 
 You can change or remove the link between a sales order line and a production order only on the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form because it is usually a production manager who is responsible for changes to production orders. To remove the link, you do the following in the **SO References** section of the **References** tab:
 

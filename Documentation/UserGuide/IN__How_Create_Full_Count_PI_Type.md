@@ -1,10 +1,10 @@
-# To Create a PI Type for a Full Count {#_856e39e9-a9bd-44aa-94f6-e1583656ff21 .task}
+# To Create a PI Type for a Full Count
 
 Every organization that sells goods occasionally undertakes full inventory counts to maintain correct on-hand quantities. To configure the physical counting process in Acumatica ERP, you must create a PI \(physical inventory\) type by using the [Physical Inventory Types](IN_20_89_00.md) \(IN208900\) form, as described in this topic.
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## To Create a PI Type for a Full Count { .section}
+## To Create a PI Type for a Full Count
 
 1.  Open the [Physical Inventory Types](../Shared/../UserGuide/IN_20_89_00.md) \(IN208900\) form.
 

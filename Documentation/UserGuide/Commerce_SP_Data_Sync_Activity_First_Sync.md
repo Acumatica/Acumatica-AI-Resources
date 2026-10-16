@@ -1,14 +1,14 @@
-# Data Synchronization: To Perform the First Synchronization {#_b084298d-f963-4864-84ff-581be84bb071 .task}
+# Data Synchronization: To Perform the First Synchronization
 
 The following activity will walk you through the process of manually exporting items from Acumatica ERP to the Shopify store. You will also perform the instructions to place a test order online in the Shopify store and then synchronize the order and the payment with Acumatica ERP. Finally, you will create a shipment for the order in Acumatica ERP and synchronize the created shipment with the Shopify store.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that you are an implementation consultant helping the SweetLife Fruits &amp; Jams company to set up an online store. You have completed the minimum initial configuration of the integration with Shopify and now want to explore how synchronization works. You will configure synchronization for and then synchronize a subset of stock items that are maintained in Acumatica ERP \(stock items of the *Jam* item class\) with the Shopify store. You will then place a test order for one of the synchronized products and explore how the online order is processed in the Shopify store and in Acumatica ERP.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will perform the following steps:
 
@@ -28,7 +28,7 @@ In this activity, you will perform the following steps:
 14. On the [Prepare Data](BC_50_10_00.md) form, start the data preparation for the *Shipment* entity; on the [Process Data](BC_50_15_00.md) form, start data processing for the shipment.
 15. In the admin area of the Shopify store, review the updated order details and the shipment exported from Acumatica ERP.
 
-## System Preparation { .section}
+## System Preparation
 
 Do the following:
 
@@ -40,7 +40,7 @@ Do the following:
     -   **Password**: *123*
 3.  Sign in to the admin area of the Shopify store as the store administrator in the same browser.
 
-## Step 1: Finding and Reviewing the Stock Items to Be Sold Online { .section}
+## Step 1: Finding and Reviewing the Stock Items to Be Sold Online
 
 To find and review the stock items that will be sold online, on the Stock Items \(IN2025PL\) form, filter the stock items to display only the items of the *Jam* item class as follows:
 
@@ -51,7 +51,7 @@ To find and review the stock items that will be sold online, on the Stock Items 
 
 Now all stock items of the *Jam* item class are displayed. In the table footer, notice how many items are in the class; scan the list so you are familiar with the stock items that you need to export to the Shopify store.
 
-## Step 2: Configuring the Export of a Subset of Stock Items { .section}
+## Step 2: Configuring the Export of a Subset of Stock Items
 
 To configure the *Stock Item* entity to export to the Shopify store only stock items of the *Jam* item class, do the following:
 
@@ -73,7 +73,7 @@ To configure the *Stock Item* entity to export to the Shopify store only stock i
     **Note:** Filtering rules are not applied to data that has already been synchronized. For example, if you synchronize the *Stock Item* entity without filters \(which will result in exporting all stock items to the online store\), apply the filter described above, and prepare and process the *Stock Item* entity again, all previously synchronized stock items that no longer match the filtering conditions will remain synchronized.
 
 
-## Step 3: Preparing the Product Data for Synchronization { .section}
+## Step 3: Preparing the Product Data for Synchronization
 
 To prepare the stock item data that needs to be synchronized to the Shopify store, do the following:
 
@@ -94,7 +94,7 @@ To prepare the stock item data that needs to be synchronized to the Shopify stor
     **Tip:** You can click the link in the **Ready to Process** column to open the [Process Data](../Shared/../UserGuide/BC_50_15_00.md) \(BC501500\) form with the store and the entity selected; you can click the link in the **Processed Records** column to open the [Sync History](../Shared/../UserGuide/BC_30_10_00.md) \(BC301000\) form with the store and the entity selected and the list of processed synchronization records \(that is, records that have been successfully synchronized and assigned the *Processed* status\) displayed on the **Drilldown** filter tab.
 
 
-## Step 4: Reviewing the Results of Data Preparation { .section}
+## Step 4: Reviewing the Results of Data Preparation
 
 To review the results of preparation of product data for synchronization, do the following:
 
@@ -108,14 +108,13 @@ To review the results of preparation of product data for synchronization, do the
 
     For each of these items, the **ERP ID** column displays a link that you can click to open the item on the [Stock Items](IN_20_25_00.md) \(IN202500\) form. Notice that the **External ID** column currently does not display any values because the stock items have not yet been exported to the Shopify store.
 
-    ![](Images/activity_Commerce_SP_Data_Sync_Activity_First_Sync.png "Data prepared for processing")
 
 3.  In the Filter List drop-down menu, select *Filtered*.
 
     Notice that the table is displaying only synchronization records with the *Filtered* status. These are the stock items that were excluded from synchronization based on the filtering conditions that you configured earlier.
 
 
-## Step 5: Processing the Prepared Product Data { .section}
+## Step 5: Processing the Prepared Product Data
 
 To process the prepared product data \(that is, to synchronize it with the Shopify store\), do the following:
 
@@ -131,7 +130,7 @@ To process the prepared product data \(that is, to synchronize it with the Shopi
 
 3.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 6: Reviewing the Synchronization Status of the Product Data { .section}
+## Step 6: Reviewing the Synchronization Status of the Product Data
 
 To again review the synchronization status of the product data, do the following:
 
@@ -147,7 +146,7 @@ To again review the synchronization status of the product data, do the following
     The table shows the list of items that have been processed—that is, synchronized with the Shopify store. For each item, there is now a product identifier in the **External ID** column. In the table, the **Last Operation** value has changed to *Inserted Externally* and the time stamp in the **Last Attempt** column has changed to the date and time when you ran data processing on the [Process Data](BC_50_15_00.md) \(BC501500\) form.
 
 
-## Step 7: Viewing an Exported Product in the Shopify Store { .section}
+## Step 7: Viewing an Exported Product in the Shopify Store
 
 To view the *KIWIJAM96* stock item \(which has the description *Kiwi jam 96 oz*\) in the Shopify store, do the following:
 
@@ -166,7 +165,7 @@ To view the *KIWIJAM96* stock item \(which has the description *Kiwi jam 96 oz*\
     -   The item inventory ID \(*KIWIJAM96*\) in the **SKU** box \(**Inventory** section\)
     -   The item class \(*Jam*\) in the **Type** box \(**Product organization** section\)
 
-## Step 8: Placing an Order from the Admin Area { .section}
+## Step 8: Placing an Order from the Admin Area
 
 To create an order for five 96-ounce jars of kiwi jam from the admin area of your Shopify store, do the following:
 
@@ -209,7 +208,7 @@ Each order is also assigned a numeric identifier, which you can see in the URL o
 
 On the [Process Data](../Shared/../UserGuide/BC_50_15_00.md) \(BC501500\) and [Sync History](../Shared/../UserGuide/BC_30_10_00.md) \(BC301000\) forms, the order identifier is displayed in the **External ID** column, and the order number is displayed in the **External Description** column.
 
-## Step 9: Importing the Sales Order Data to Acumatica ERP { .section}
+## Step 9: Importing the Sales Order Data to Acumatica ERP
 
 To import the order from the Shopify store to Acumatica ERP, do the following:
 
@@ -228,7 +227,7 @@ To import the order from the Shopify store to Acumatica ERP, do the following:
 6.  Select the unlabeled check box in the only row of the table, and on the form toolbar, click **Process**.
 7.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 10: Reviewing the Synchronization Status of the Imported Data { .section}
+## Step 10: Reviewing the Synchronization Status of the Imported Data
 
 To review the synchronization status of the order you imported in the previous step, do the following:
 
@@ -245,19 +244,17 @@ To review the synchronization status of the order you imported in the previous s
 
         The payment has been imported because the payment method you used to pay the order has been mapped to an Acumatica ERP payment method and the mapping has been activated on the **Payments** tab of the [Shopify Stores](BC_20_10_10.md) form.
 
-    ![](Images/activity_Commerce_SP_Data_Sync_First_Sync.png "The sales order, customer, and payment records imported from the Shopify store")
 
     **Tip:** For each of the entities created in the system during the synchronization, you can open the appropriate form with the entity selected by clicking the link in the **ERP ID** column of the table.
 
 
-## Step 11: Reviewing the Imported Sales Order { .section}
+## Step 11: Reviewing the Imported Sales Order
 
 To review the details of the imported sales order, do the following:
 
 1.  While you are still viewing the synchronization results on the [Sync History](BC_30_10_00.md) \(BC301000\) form, click the link in the **ERP ID** column for the sales order you imported.
 2.  On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, which opens in a pop-up window, review the details of the order \(which are shown in the following screenshot\).
 
-    ![](Images/activity_Commerce_SP_Data_Sync_First_Sync_SO.png "The sales order imported from the Shopify store")
 
     In the Summary area, notice the following:
 
@@ -274,7 +271,7 @@ To review the details of the imported sales order, do the following:
     On the **Payments** tab, notice that a prepayment in the order amount has been applied to the sales order.
 
 
-## Step 12: Creating and Confirming a Shipment { .section}
+## Step 12: Creating and Confirming a Shipment
 
 To process a shipment for the imported sales order, do the following:
 
@@ -286,7 +283,7 @@ To process a shipment for the imported sales order, do the following:
 
 4.  Close the pop-up window with the [Shipments](SO_30_20_00.md) form.
 
-## Step 13: Synchronizing the Shipment with the Shopify Store { .section}
+## Step 13: Synchronizing the Shipment with the Shopify Store
 
 To export the shipment to the *SweetStore - SP* store, do the following:
 
@@ -304,7 +301,7 @@ To export the shipment to the *SweetStore - SP* store, do the following:
 7.  On the form toolbar, and click **Process**.
 8.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 14: Reviewing the Updated Order and Shipment in Shopify { .section}
+## Step 14: Reviewing the Updated Order and Shipment in Shopify
 
 To check whether the shipment and the updated sales order have been exported to the Shopify store correctly, do the following:
 

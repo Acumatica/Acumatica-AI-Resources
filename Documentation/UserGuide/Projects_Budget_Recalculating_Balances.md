@@ -1,4 +1,4 @@
-# Project Budget: Recalculation of the Project Balances {#_9d68c847-e364-414a-bc02-ebc0734cc8af .concept}
+# Project Budget: Recalculation of the Project Balances
 
 In rare cases, you may need to make the system refresh the project budget to be sure that the project balances match the corresponding transactions and that the documents and all project information is up to date. To do this, you recalculate the project budget.
 
@@ -7,7 +7,7 @@ You can run the recalculation of project balances on the following forms:
 -   On the [Projects](PM_30_10_00.md) \(PM301000\) form: You can run recalculation for the selected project unless it has the *In Planning* status.
 -   On the [Recalculate Project Balances](PM_50_40_00.md) \(PM504000\) form: You can mass-run recalculation for any number of selected projects with the *Active* or *Completed* status.
 
-## Applicable Scenarios {#section_r3z_prt_m5b .section}
+## Applicable Scenarios
 
 You run recalculation in the following cases:
 
@@ -21,19 +21,19 @@ You run recalculation in the following cases:
 -   You have noticed that the cost budget of the selected project does not show the lines that have been added to a project during the processing of the progress worksheets. Progress worksheets are available in the system if the *Construction* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 -   You have imported the cost budget or the revenue budget for a project manually or by using the [Import by Scenario](SM_20_60_36.md) \(SM206036\) form, and you need to restructure imported budgets according to the revenue budget level and cost budget level of the project.
 
-## Recalculation of the Actual Values of Projects {#section_dml_fyk_v5b .section}
+## Recalculation of the Actual Values of Projects
 
 To recalculate the actual project budget values, you select the unlabeled check boxes in the rows of the projects to be processed on the [Recalculate Project Balances](PM_50_40_00.md) \(PM504000\) form and then click **Process** on the form toolbar. Alternatively, you can click **Process All** to process all the projects shown in the table.
 
 The system validates project balances and recalculates the values in the **Actual Quantity** and **Actual Amount** columns on the **Revenue Budget** and **Cost Budget** tabs of the [Projects](PM_30_10_00.md) \(PM301000\) form.
 
-## Recalculation of the Unbilled Transactions { .section}
+## Recalculation of the Unbilled Transactions
 
 To recalculate project transaction information for a project, on the [Recalculate Project Balances](PM_50_40_00.md) \(PM504000\) form, you need to select the **Recalculate Unbilled Summary** check box. You then select the unlabeled check box in a row with the project and click **Process** on the form toolbar. \(Alternatively, you can click **Process All** to process all the projects shown in the table.\)
 
 The system validates project balance and recalculates the **Actual Quantity** and **Actual Amount** on the **Revenue Budget** and **Cost Budget** tabs of the [Projects](PM_30_10_00.md) \(PM301000\) form, and also updates the list of unbilled transactions for the project. As a result, the project appears on the [Run Project Billing](PM_50_30_00.md) form.
 
-## Recalculation of the Cost Budget Lines {#section_fsn_5bl_v5b .section}
+## Recalculation of the Cost Budget Lines
 
 During project budget recalculation, the system updates the cost budget lines of a project depending on the following settings:
 
@@ -53,7 +53,7 @@ Suppose that a project has the **Cost Budget Level** set to *Task and Item* on t
 
 For more information on the rules that the system uses to update the amounts and quantities in budget lines, see [Project Transactions: Update of the Project Budget Structure](Projects_Transactions_Project_Budget_Update.md).
 
-## Recalculation of the Revenue Budget Lines {#section_apn_5bl_v5b .section}
+## Recalculation of the Revenue Budget Lines
 
 During project budget recalculation, the system updates the revenue budget lines of a project depending on the following settings:
 
@@ -73,7 +73,7 @@ Suppose that a project has the **Revenue Budget Level** set to *Task and Item* o
 
 For more information on the rules that the system uses to update the amounts and quantities in budget lines, see [Project Transactions: Update of the Project Budget Structure](Projects_Transactions_Project_Budget_Update.md).
 
-## Recalculation of Change Orders {#section_n4d_qbl_v5b .section}
+## Recalculation of Change Orders
 
 To recalculate budget values affected by change orders, you select the **Recalculate Change Orders** check box in the Selection area of the [Recalculate Project Balances](PM_50_40_00.md) \(PM504000\) form. You then select the unlabeled check boxes in the rows of the projects to be processed and click **Process** on the form toolbar to process the selected projects. Alternatively, you can click **Process All** to process all the projects shown in the table.
 
@@ -86,7 +86,9 @@ The system validates the project balances and recalculates the following values 
 
 **Attention:** The recalculation of change orders does not involve the recalculation of the committed values that were changed with the change orders. To update the committed values, you need to rebuild commitments.
 
-## Rebuilding of Project Commitments {#section_r2p_pbl_v5b .section}
+The system also reevaluates existing progress billing lines of pro forma invoices for the processed projects. On the **Progress Billing** tab of the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form, it updates the **Change Order Nbr.** value for lines whose related revenue budget line wasn't added to the original project budget and is added to only one released change order. If a line no longer meets these conditions, the system clears the **Change Order Nbr.** value. The amounts of the linked progress billing lines are inserted in the **Billed Amount** and **Pending Billing Amount** boxes of the related change orders on the [Change Orders](PM_30_80_00.md) \(PM308000\) form.
+
+## Rebuilding of Project Commitments
 
 To rebuild commitments \(purchase orders, project drop-ship orders, and subcontracts\), you select the **Rebuild Commitments** check box in the Selection area of the [Recalculate Project Balances](PM_50_40_00.md) \(PM504000\) form. You then select the unlabeled check boxes in the rows of the projects to be processed and click **Process** on the form toolbar to process the selected projects. Alternatively, you can click **Process All** to process all the projects shown in the table.
 
@@ -104,17 +106,17 @@ The system recreates commitments and recalculates the project balances. That is,
 -   **Committed Open Quantity**
 -   **Committed Open Amount**
 
-## Recalculation of Pro Forma Invoices {#section_lqn_4bl_v5b .section}
+## Recalculation of Pro Forma Invoices
 
 To recalculate pro forma invoices, you select the **Recalculate Draft Invoice Amount and Quantity** check box in the Selection area of the [Recalculate Project Balances](PM_50_40_00.md) \(PM504000\) form. You then select the unlabeled check boxes in the rows of the projects to be processed and click **Process** on the form toolbar to process the selected projects. Alternatively, you can click **Process All** to process all the projects shown in the table.
 
 The system validates the project balances and recalculates the **Draft Invoice Amount** and **Draft Invoice Quantity** on the **Revenue Budget** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form.
 
-## Recalculating Inclusive Taxes { .section}
+## Recalculating Inclusive Taxes
 
 To recalculate inclusive taxes, you select the **Recalculate Inclusive Taxes** check box in the Selection area of the [Recalculate Project Balances](PM_50_40_00.md) \(PM504000\) form. You then select the unlabeled check boxes in the rows of the projects to be processed and click **Process** on the form toolbar to process the selected projects. Alternatively, you can click **Process All** to process all the projects shown in the table.
 
-## Recalculating Projects’ Budget History { .section}
+## Recalculating Projects’ Budget History
 
 To recalculate projects’ budget history, you select the **Recalculate Project Budget History** check box in the Selection area of the [Recalculate Project Balances](PM_50_40_00.md) \(PM504000\) form. You then select the unlabeled check boxes in the rows of the projects to be processed and click **Process** on the form toolbar to process the selected projects. Alternatively, you can click **Process All** to process all the projects shown in the table.
 

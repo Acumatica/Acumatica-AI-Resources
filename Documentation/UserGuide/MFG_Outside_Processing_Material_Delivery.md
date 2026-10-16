@@ -1,8 +1,8 @@
-# Outside Processing: Subcontractor's Storage of Materials {#_0d07692f-533f-4171-9328-384603b91a77 .concept}
+# Outside Processing: Subcontractor's Storage of Materials
 
 If the subcontractor stores materials in one of its locations, you may want to track the movement of the stock items that represent the materials. Also, you may want to replenish the items or use inventory planning for them. To track the materials in the system, you may use either of the approaches described in the following sections.
 
-## Tracking with a Warehouse Location { .section}
+## Tracking with a Warehouse Location
 
 If you choose to use a specific location within an existing warehouse in the system for tracking subcontractor materials, consider the following:
 
@@ -12,7 +12,7 @@ If you choose to use a specific location within an existing warehouse in the sys
 -   You can use only single-step transfers between the locations of the same warehouse, which means that you cannot track items that are in transit.
 -   You can use the standard inventory inquiries and reports to view the item availability.
 
-## Tracking with a Specific Warehouse in the System { .section}
+## Tracking with a Specific Warehouse in the System
 
 If you choose to use a dedicated warehouse in the system for subcontractor materials, consider the following:
 

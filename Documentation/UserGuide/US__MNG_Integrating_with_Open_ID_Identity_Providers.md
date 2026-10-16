@@ -1,4 +1,4 @@
-# Integrating Acumatica ERP with OpenID Identity Providers {#_ef559879-9907-4ec4-826e-13854e094114 .concept}
+# Integrating Acumatica ERP with OpenID Identity Providers
 
 In Acumatica ERP, you can configure integration with multiple OpenID providers for a System tenant or multiple tenants.
 

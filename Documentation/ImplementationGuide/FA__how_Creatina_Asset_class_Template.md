@@ -1,8 +1,8 @@
-# To Create an Asset Class by Copying an Existing Class {#_37f13069-568e-428f-a29d-b3dcd00932bd .task}
+# To Create an Asset Class by Copying an Existing Class
 
 You can define a new asset class from scratch, as described in [Fixed Assets: To Create Fixed Asset Classes](config_FixedAssets_Implem_Activity_FixedAsset_Classes.md). The [Fixed Asset Classes](../UserGuide/FA_20_10_00.md) \(FA201000\) form also gives you the ability to copy the configuration of an existing class to use it as the base for the new class.
 
-## To Create an Asset Class by Copying an Existing Class { .section}
+## To Create an Asset Class by Copying an Existing Class
 
 1.  Open the [Fixed Asset Classes](../UserGuide/FA_20_10_00.md) \(FA201000\) form.
 2.  In the **Asset Class ID** box, select the asset class whose key settings will be copied to the new class.

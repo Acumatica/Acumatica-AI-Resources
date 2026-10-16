@@ -1,16 +1,16 @@
-# Actions on Forms: To Add an Action to Open a Form {#_6cc01f14-b820-4ec9-b403-e049485746fa .task}
+# Actions on Forms: To Add an Action to Open a Form
 
 The following activity will walk you through the process of adding to a form an action that opens another form.
 
-## Story { .section}
+## Story
 
 Suppose that management has determined that Acumatica ERP would better fit the needs of your company if from the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form, employees could quickly view the Open Sales Orders by Customer \(GI400001\) generic inquiry form for the selected customer. You need to add to the form the action that opens this generic inquiry.
 
-## Process Overview { .section}
+## Process Overview
 
 By using the [Actions](../UserGuide/AU_20_10_50.md) page of the Customization Project Editor, you will add a new action for the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form. You will then publish the customization project. Finally, you will test the added action on the form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -25,7 +25,7 @@ Before you begin performing the steps of this activity, do the following:
 5.  In the **Access Rights** section of the **Publish to the UI**, which opens, select **Set to Granted for All Roles** to make the system set the access rights for this generic inquiry to *Granted* for all user roles in the system.
 6.  Click **Publish**.
 
-## Step 1: Modifying the List of Customized Screens { .section}
+## Step 1: Modifying the List of Customized Screens
 
 To add a new tab on the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form, you first need to add the form to the list of customized screens. Do the following:
 
@@ -44,7 +44,7 @@ To add a new tab on the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) fo
     The [Customers](../UserGuide/AR_30_30_00.md) form is added to the list of forms on the [Screens](../UserGuide/AU_20_10_00.md) page, and the Screen Editor: AR303000 \(Customers\) page opens.
 
 
-## Step 2: Adding an Action to the Customers Form { .section}
+## Step 2: Adding an Action to the Customers Form
 
 To add an action to the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form that opens a generic inquiry form, do the following in the Customization Project Editor for the *Yogifon* project:
 
@@ -91,13 +91,12 @@ To add an action to the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) fo
 
     These settings indicate that the Open SO by Customer \(GI400001\) generic inquiry form should be opened for the current customer, and that the date of the sales orders must be January 1 of the current year or later.
 
-    ![](images/CustomizationProjects_AddingActions_AddNewActionParameters.png "The Action Properties dialog box with the required settings")
 
 5.  Click **Save**. The dialog box is closed, and the row for the new action is listed on the [Actions](../UserGuide/AU_20_10_50.md) page.
 6.  On the main menu of the Customization Project Editor, click **Publish** &gt; **Publish Current Project**.
 7.  Wait until the *Website updated* row appears in the **Compilation** pane, and click **Close Compilation Pane**.
 
-## Step 3: Testing the New Action { .section}
+## Step 3: Testing the New Action
 
 To test the action that you have added, do the following in Acumatica ERP:
 
@@ -108,7 +107,6 @@ To test the action that you have added, do the following in Acumatica ERP:
 
 3.  On the More menu \(under **Inquiries**\), click **Open SO by Customer**, which has a green dot to the right of it \(Item 2\).
 
-    ![](images/CustomizationProjects_AddingActions_TestNewAction.png "The Open SO by Customer action")
 
 4.  Make sure that the Open Sales Orders by Customer \(GI400001\) generic inquiry form opens in a new browser tab.
 5.  In the **Date From** box of the Selection area, select *1/1/2025*.

@@ -1,12 +1,12 @@
-# Overtime Rules: Configuration Prerequisites {#_57001863-9d53-43c1-9d65-ceaef9284fe1 .concept}
+# Overtime Rules: Configuration Prerequisites
 
 Before you start configuring overtime rules, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Payroll* feature has been enabled.
 
-## Configuring the System { .section}
+## Configuring the System
 
 The following tasks have been performed in Acumatica ERP:
 

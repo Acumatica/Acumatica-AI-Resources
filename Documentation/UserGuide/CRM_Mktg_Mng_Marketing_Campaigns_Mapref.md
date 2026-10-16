@@ -1,4 +1,4 @@
-# Managing Marketing Campaigns {#_e27873b1-1ae0-4f60-9c96-1b073ca5c48e .concept}
+# Managing Marketing Campaigns
 
 In this chapter, you will find information about managing marketing campaigns.
 

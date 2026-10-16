@@ -1,20 +1,19 @@
-# AR Prepayment Invoices: General Information {#_bee18808-f7db-4b59-9956-b3c5c383851e .concept}
+# AR Prepayment Invoices: General Information
 
 In some countries with value-added tax \(VAT\) regulations, companies are required to report taxes upon receiving prepayments from clients. Typically, prepayments should be reported in the company's tax filings for the period in which they were received.
 
 In Acumatica ERP, with the *VAT Recognition on Prepayments* feature enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can create prepayment invoices with tax and taxable amounts and provide them to customers to request prepayment. Once a customer has paid a prepayment invoice, your company can use it for reporting taxes.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create a prepayment invoice if your company requires customers to make prepayments for sales orders and needs to provide customers with a document specifying the prepayment amount, as well as the taxable and tax amounts for each applicable tax. This process applies if prepayments are subject to tax reporting in the country where your company is operating.
 
-## Overview of Prepayment Invoice Processing { .section}
+## Overview of Prepayment Invoice Processing
 
 This section provides an overview of processing of a prepayment invoice in Acumatica ERP. The processing of a prepayment invoice typically involves the actions and generated documents shown in the following diagram.
 
 **Tip:** The amounts mentioned in the diagram are provided as examples. The tax total is calculated based on tax settings that define the calculation of the tax amount on a document basis when the tax is not included in the document amount.
 
-![](Images/diag_Finance_Prepayment_Invoice_Processing.png "Processing of a prepayment invoice")
 
 First, a data entry clerk creates a new prepayment invoice on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form \(see Item 1 in the diagram\). The prepayment invoice is assigned the *On Hold* status if the **Hold Documents on Entry** check box is selected on the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form or approvals have been set up for prepayment invoices. The system assigns the reference number to the prepayment invoice based on the numbering sequence specified in the **Prepayment Invoice Numbering Sequence** box on the [Accounts Receivable Preferences](AR_10_10_00.md) form.
 

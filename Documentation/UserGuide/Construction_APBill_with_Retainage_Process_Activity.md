@@ -1,16 +1,16 @@
-# AP Bills with Retainage: Process Activity {#_18439937-89f9-4222-8b9f-54cd26a7bc7e .task}
+# AP Bills with Retainage: Process Activity
 
 This activity will walk you through the processing of an AP bill with retainage. This activity demonstrates the workflow with AP bills with open AP and retainage balances at the line level.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that on March 15, 2026, the ToadGreen Building Group company hired a subcontractor to install air conditioning systems for the hotel being built. By the subcontract, $2,400,000 will be paid to the subcontractor for work and 10% of each payment will be withheld by the company until the related work is finished. Also, ToadGreen and the subcontractor have agreed that after 30% of the work is done, ToadGreen has to release 10% of the retained amount.
 
 On March 25, 2026, ToadGreen receives the first bill for the completed work, which is 30% of the total work, in the amount of $720,000. A ToadGreen project accountant needs to enter a bill that includes the $72,000 retainage amount and then process a payment for the full bill amount. After the subcontractor reports about finishing a part of the work, the ToadGreen project accountant needs to release $7,200, which is a part of the retainage amount. Acting as this project accountant, you will enter and process the related financial documents.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -23,18 +23,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Projects](PM_30_10_00.md#) \(PM301000\) form, the *HOTEL* project has been created with multiple project tasks.
 -   On the [Subcontracts](SC_30_10_00.md) \(SC301000\) form, the subcontract for the *PARKERS* vendor in the amount of $2,400,000 has been entered.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create a partial bill for the subcontract on the [Bills and Adjustments](AP_30_10_00.md#) \(AP301000\) form. On the [Prepare Payments](AP_50_30_00.md#) \(AP503000\) form, you then will prepare a partial payment for the bill and process it by using the [Process Payments / Print Checks](AP_50_50_00.md#) \(AP505000\) and [Release Payments](AP_50_52_00.md#) \(AP505200\) forms. You will then review the retainage details of the processed AP bill in the [AP Aging](AP_63_10_00.md#) \(AP631000\) report. After that, you will release the retainage on the [Release AP Retainage](AP_51_00_00.md#) \(AP510000\) form and prepare the retainage document. Finally, you will process the retainage document and pay its balance.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as a project accountant by using the *bsanchez* username and the *123* password.
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *3/25/2026*. If a different date is displayed, click the Business Date menu button, and select *3/25/2026* on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Create an AP Bill with Retainage for a Subcontract { .section}
+## Step 1: Create an AP Bill with Retainage for a Subcontract
 
 To create and pay an AP bill for the vendor, do the following:
 
@@ -57,7 +57,7 @@ To create and pay an AP bill for the vendor, do the following:
 6.  Save your changes.
 7.  On the form toolbar, click **Remove Hold** to assign the bill the *Balanced* status, and then click **Release** to release the bill. For each line on the **Details** tab, notice that the **Balance** column now shows the amount to be paid for each line \(which is the line amount minus the retainage amount\).
 
-## Step 2: Paying the Bill { .section}
+## Step 2: Paying the Bill
 
 To pay the bill, do the following:
 
@@ -79,12 +79,11 @@ To pay the bill, do the following:
 6.  On the form toolbar, click **Process** to release the AP payment. Wait until the processing has finished, and in the **Processing** dialog box, which opens, click **Close**.
 7.  On the [Bills and Adjustments](AP_30_10_00.md#) \(AP301000\) form, open the AP bill for which you have processed the payment, and review the line-level balances. Both lines have an unreleased retainage balance in the **Unreleased Retainage** box, as shown below. Therefore, the bill retains the *Open* status even though both bill lines have been paid.
 
-    ![](Images/activity_Construction_APBill_with_Retainage.png "Open bill with partial payment and unreleased retainage")
 
     On the **Applications** tab, review the lines of the payment that you have processed. The amounts in the **Amount Paid** column of each line show how much has been paid for each line of the AP bill.
 
 
-## Step 3: Reviewing Retainage Details { .section}
+## Step 3: Reviewing Retainage Details
 
 To review the retainage details of the processed AP bill, do the following:
 
@@ -96,7 +95,7 @@ To review the retainage details of the processed AP bill, do the following:
     -   **Age as of Date**: 3/25/2026
 3.  On the form toolbar, click **Run Report**. In the displayed report, the retainage amount held for the AP bill \(*72,000.00*\) is not aged, and is shown in the **Unreleased Retainage** column.
 
-## Step 4: Releasing a Part of the Retainage { .section}
+## Step 4: Releasing a Part of the Retainage
 
 To partially release the retainage, do the following:
 
@@ -113,7 +112,7 @@ To partially release the retainage, do the following:
 
 7.  Make sure the **Balance** in the Summary area is $7,200, and on the form toolbar, click **Remove Hold** to assign the document the *Balanced* status. Then click **Release** to release the document. The retainage document is assigned the *Open* status.
 
-## Step 5: Paying the Retainage Document { .section}
+## Step 5: Paying the Retainage Document
 
 To pay the retainage document, do the following:
 

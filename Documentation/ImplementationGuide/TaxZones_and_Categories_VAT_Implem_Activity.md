@@ -1,8 +1,8 @@
-# Tax Zones and Categories: To Create a Tax Category and Tax Zone for VAT {#_d446b874-dc01-4056-a393-8507b14a8c65 .task}
+# Tax Zones and Categories: To Create a Tax Category and Tax Zone for VAT
 
 By performing the following implementation activity, you will review tax categories and their settings and learn how to create a tax category and a tax zone for VAT.
 
-## Story { .section}
+## Story
 
 The SweetLife Fruits &amp; Jams company provides advertising services that are subject to a 7% value-added tax \(VAT\). While two tax categories have been already created in Acumatica ERP \(*TAXABLE* and *EXEMPT*\), no other tax configuration has been performed.
 
@@ -10,7 +10,7 @@ You need to assign the *TAXABLE* tax category to the needed non-stock item \(*AD
 
 To make it possible for SweetLife Fruits &amp; Jams to process pending VAT, you need to create a tax category for this type of VAT.
 
-## Configuration Overview {#section_chl_5gs_hrb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -18,11 +18,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Tax Categories](../UserGuide/TX_20_55_00.md) \(TX205500\) form, the *TAXABLE* and *EXEMPT* tax categories have been configured.
 -   On the [Non-Stock Items](../UserGuide/IN_20_20_00.md) \(IN202000\) form, the *ADVERT* item has been configured.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will first review the tax categories on the [Tax Categories](../UserGuide/TX_20_55_00.md) \(TX205500\) form, and then assign the *TAXABLE* category to an item on the [Non-Stock Items](../UserGuide/IN_20_20_00.md) \(IN202000\) form. On the [Tax Categories](../UserGuide/TX_20_55_00.md) \(TX205500\) form, you will create a tax category for pending VAT. Finally, you will create the needed tax zone on the [Tax Zones](../UserGuide/TX_20_60_00.md) \(TX206000\) form, assigning the appropriate default tax category to it.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin to work with tax categories and tax zones, do the following:
 
@@ -30,7 +30,7 @@ Before you begin to work with tax categories and tax zones, do the following:
 2.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded.
 3.  To sign in as an implementation consultant, use the *gibbs* username and the *123* password.
 
-## Step 1: Reviewing Tax Categories and Assigning a Tax Category to a Non-Stock Item { .section}
+## Step 1: Reviewing Tax Categories and Assigning a Tax Category to a Non-Stock Item
 
 To review the existing tax categories and assign a tax category to a non-stock item, do the following:
 
@@ -47,7 +47,7 @@ To review the existing tax categories and assign a tax category to a non-stock i
 
 6.  On the form toolbar, click **Save**.
 
-## Step 2: Creating a Tax Category for Pending VAT { .section}
+## Step 2: Creating a Tax Category for Pending VAT
 
 To create a tax category for pending VAT, do the following:
 
@@ -60,7 +60,7 @@ To create a tax category for pending VAT, do the following:
     This category is empty because you have not added any taxes to it. You can then create a pending VAT and add it to this category.
 
 
-## Step 3: Creating a Tax Zone { .section}
+## Step 3: Creating a Tax Zone
 
 To create a tax zone for VAT-registered customers and vendors in Canada, do the following:
 

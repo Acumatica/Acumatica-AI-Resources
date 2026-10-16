@@ -1,10 +1,10 @@
-# Emails and Activities: Activities {#_4426fc2d-8320-4d1c-a5ae-10b38db54172 .concept}
+# Emails and Activities: Activities
 
 In Acumatica ERP, you can create miscellaneous activities—such as notes, chats, phone calls, escalations, messages, and work items—directly from the forms you use to create entities related to customer relationship management \(CRM\). These entities include leads, contacts, business accounts, marketing lists, marketing campaigns, opportunities, sales quotes, projects, project tasks, project quotes, cases, and employees. While viewing any of these entities on its data entry form, you can create an activity associated with it and track all activities related to the entity.
 
 **Tip:** This topic is focused on the miscellaneous activities \(listed above\) that can be created for entities. For details on creating activities that are emails, tasks, or events, see [Emails and Activities: Emails](CRM_Mktg_Managing_Emails_Activities_Emails.md), [Emails and Activities: Tasks](CRM_Mktg_Managing_Emails_Activities_Tasks.md), and [Emails and Activities: Events](CRM_Mktg_Managing_Emails_Activities_Events.md), respectively.
 
-## Creation and Tracking of Activities for an Entity { .section}
+## Creation and Tracking of Activities for an Entity
 
 You can create an activity associated with an entity by clicking the needed action on the **Create Activity** menu on the table toolbar of **Activities** tab of any of the following forms:
 
@@ -30,7 +30,7 @@ In the **Related Entity** box of the [Activity](CR_30_60_10.md) form, the system
 
 If the activity is not canceled or completed, you can associate it with any existing task or event by selecting the task or event in the **Parent Activity** box of the [Activity](CR_30_60_10.md) form. If the parent task or event has been associated with a project, the system copies this project \(and project task, if one has been specified\) to the **Project** and **Project Task** boxes of the [Activity](CR_30_60_10.md) form.
 
-## Copying of Lead-Related Activities to Related Entities { .section}
+## Copying of Lead-Related Activities to Related Entities
 
 If you have created activities to keep track of all communication that is related to a particular lead, and then you create a contact or business account for the lead or convert the lead to an opportunity, the system copies all the activities listed on the **Activities** tab of the [Leads](CR_30_10_00.md) \(CR301000\) form to the same tab of the [Contacts](CR_30_20_00.md) \(CR302000\), [Business Accounts](CR_30_30_00.md) \(CR303000\), or [Opportunities](CR_30_40_00.md) \(CR304000\) form, respectively. Thus, the system preserves the history of activities created for the lead in the associated entities and copies this history to the entities associated with the lead.
 
@@ -38,11 +38,11 @@ If you have created activities to keep track of all communication that is relate
 
 If based on your work processes you need to create your own set of activity types, you can add, view, edit, and delete types of activities on the [Activity Types](CR_10_20_00.md) \(CR102000\) form.
 
-## Ability to Add User-Defined Fields to CRM Forms { .section}
+## Ability to Add User-Defined Fields to CRM Forms
 
 User-defined fields are site-specific elements that have been defined to track information deemed as important to the organization. An administrator and customizer—a user with particular access rights in the system—can add user-defined fields to such CRM forms as [Activity](../Shared/../UserGuide/CR_30_60_10.md) \(CR306010\), [Task](../Shared/../UserGuide/CR_30_60_20.md) \(CR306020\), and [Event](../Shared/../UserGuide/CR_30_60_30.md) \(CR306030\) form. For details, see [Adjustment of the Acumatica ERP UI: Managing User-Defined Fields](../Shared/../UserGuide/GS_Personalization_UI_User_Defined_Fields.md).
 
-## Copying of User-Defined Fields Between Activities, Tasks, Events, and Other Entities { .section}
+## Copying of User-Defined Fields Between Activities, Tasks, Events, and Other Entities
 
 The values of user-defined fields can be copied between activities on the [Activity](../Shared/../UserGuide/CR_30_60_10.md) \(CR306010\) form, tasks on the [Task](../Shared/../UserGuide/CR_30_60_20.md) \(CR306020\) form, events on the [Event](../Shared/../UserGuide/CR_30_60_30.md) \(CR306030\) form and an associated entity to which user-defined fields can be added.
 
@@ -52,7 +52,7 @@ If both the new entity \(activity, task, or event\) and the original entity have
 
 For more details about the copying of user-defined fields between CRM entities, see [Leads: General Information](../Shared/../UserGuide/CRM_Mktg_Creating_Leads_GeneralInfo.md), [Business Accounts: General Information](../Shared/../UserGuide/CRM_Sales_Creating_Bus_Accounts_GeneralInfo.md), [Contacts: General Information](../Shared/../UserGuide/CRM_Sales_Creating_Contacts_GeneralInfo.md), [Opportunities: General Information](../Shared/../UserGuide/CRM_Sales_Creating_Opportunities_GeneralInfo.md), or [Cases: General Information](../Shared/../UserGuide/CRM_Support_Creating_Cases_GeneralInfo.md).
 
-## Notifications About Assigning an Activity to an Owner { .section}
+## Notifications About Assigning an Activity to an Owner
 
 In Acumatica ERP, a system administrator can set up the automatic built-in notifications about the assigning of activities. You can receive these notifications by email in the following scenarios:
 

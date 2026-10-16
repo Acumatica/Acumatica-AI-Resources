@@ -1,26 +1,26 @@
-# Redirection to Webpages:To Add Redirection to a Report at the End of Processing {#_62ccb1f3-b3cc-4484-8b71-85eadda26773 .task}
+# Redirection to Webpages:To Add Redirection to a Report at the End of Processing
 
 The following activity will walk you through the process of implementing redirection to a report at the end of processing.
 
-## Story { .section}
+## Story
 
 For better usability of the custom Assign Work Orders \(RS501000\) processing form, the managers of the Smart Fix company have requested that the form be modified so that at the end of the processing, the system displays a report that lists all processed work orders and shows the employees to which they have been assigned during the processing. The report has already been developed.
 
-## Process Overview { .section}
+## Process Overview
 
 You'll add the [`RS601000.rpx`](https://github.com/Acumatica/Help-and-Training-Examples/blob/HEAD/Customization/T240/SourceFiles/Report/RS601000.rpx) report file to the *PhoneRepairShop* customization project. You'll then modify the processing operation of the Assign Work Orders \(RS501000\) form so that it displays the report at the end of the operation. you'll also test the updated functionality of the form.
 
-**Tip:** The creation of reports with Acumatica Report Designer is outside of the scope of this activity. To learn more about the creation of reports, see [Acumatica Report Designer Guide](../UserGuide/ReportDesigner_Main.md).
+**Tip:** The creation of reports with Acumatica Report Designer is outside of the scope of this activity. To learn more about the creation of reports, see [Acumatica Report Designer](../UserGuide/ReportDesigner_Main.md).
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
-1.  Prepare an Acumatica ERP instance by performing the [Test Instance for Customization: To Deploy an Instance with a Custom Form that Implements a Workflow](CodeCustomization_PrepareInstance_Activity_DeployInstanceT240.md) prerequisite activity.
+1.  Prepare an Acumatica ERP instance by performing the [Test Instance for Customization: To Deploy an Instance with a Custom Form That Implements a Workflow](CodeCustomization_PrepareInstance_Activity_DeployInstanceT240.md) prerequisite activity.
 2.  Create a processing form without filtering parameters by performing the [Processing Operations: To Implement a Processing Operation by Using a Delegate](CodeCustomization_ProcessingOperations_Activity_CreateWithoutFilter_withDelegate.md) prerequisite activity.
 3.  Add filtering parameters to the form by performing the [Filtering Parameters: To Add a Filter for a Processing Form](../DeveloperGuide/UIDev_FilteringParameters_Activity_AddFilter.md) prerequisite activity.
 
-## Step 1: Including RS601000.rpx in the Customization Project { .section}
+## Step 1: Including RS601000.rpx in the Customization Project
 
 In this step, you'll add the `RS601000.rpx` report file to the customization project. You must include the report file in the customization project so that the report is available in each Acumatica ERP instance to which you publish the *PhoneRepairShop* customization project.
 
@@ -50,7 +50,7 @@ To include the report file in the customization project, do the following:
 8.  On the [Access Rights](../UserGuide/AU_20_52_00.md) page, include access rights for the new report in the customization project.
 9.  Publish the customization project.
 
-## Step 2: Testing the Report and Switching its UI { .section}
+## Step 2: Testing the Report and Switching its UI
 
 In Acumatica ERP, make sure that the report is displayed correctly by doing the following:
 
@@ -58,28 +58,26 @@ In Acumatica ERP, make sure that the report is displayed correctly by doing the 
 
     **Tip:** Because the report has no workspace specified, you cannot find it in the UI by typing its name in the **Search** box or browsing the main menu. The only way to open the report is to type the ID of the report as the value of the *ScreenId* parameter of the URL in the address line of the browser, as shown in the following screenshot.
 
-    ![](Images/activity_CodeCustomization_Redirection_AssignedWorkOrders_ScreenID.png "Report ID in the URL")
 
 2.  On the report form toolbar, click **Run Report**. The report is displayed, as shown in the following screenshot. Because no filtering is specified in the report settings, the report displays all the repair work orders that exist in the application database. When the system redirects the user to this report from the Assign Work Orders \(RS501000\) form, it will filter the list to show only the orders that have been assigned during the processing.
 
-    ![](Images/activity_CodeCustomization_Redirection_AssignedWorkOrders_Test.png "Assigned Work Orders report")
 
 3.  Switch the report to the Modern UI by clicking **Tools** &gt; **Switch to Modern UI** on the report form's title bar.
 
-## Step 3: Implementing Redirection to a Report { .section}
+## Step 3: Implementing Redirection to a Report
 
 In this step, you'll implement redirection to the Assigned Work Orders \(RS601000\) report at the end of the `AssignOrders()` method. The report will display the repair work orders that have been assigned during the processing operation the user invoked on the form. To implement the redirection, do the following:
 
 1.  In the `Messages.cs` file, add the following constant, which specifies the name of the webpage that will display the report.
 
-    ```language-csharp
+    ```csharp
             public const string ReportRS601000Title = "Assigned Work Orders";
     ```
 
 2.  In the `RSSVAssignProcess.cs` file, modify the `AssignOrders()` method, as follows:
     1.  In the beginning of the method, add the following lines.
 
-        ```language-csharp
+        ```csharp
                     PXReportResultset assignedOrders =
                         new PXReportResultset(typeof(RSSVWorkOrder));
         ```
@@ -112,7 +110,7 @@ In this step, you'll implement redirection to the Assigned Work Orders \(RS60100
 3.  Build the project.
 4.  Update the customization project to include the latest version of the extension library in the customization project and publish it.
 
-## Step 4: Testing the Redirection to the Report { .section}
+## Step 4: Testing the Redirection to the Report
 
 In this step, you'll test the redirection to the Assigned Work Orders \(RS601000\) report, which should occur at the end of the assignment operation that is invoked on the Assign Work Orders \(RS501000\) form. To test the redirection to the report, do the following:
 
@@ -131,7 +129,6 @@ In this step, you'll test the redirection to the Assigned Work Orders \(RS601000
 2.  On the Assign Work Orders \(RS501000\) form, make sure that three repair work orders are listed.
 3.  On the form toolbar, click **Assign All**. At the end of the processing, the Assigned Work Orders \(RS601000\) report is displayed. Make sure that it shows the three work orders that you entered and that all three have been assigned, as shown in the following screenshot.
 
-    ![](Images/activity_CodeCustomization_Redirection_AssignedWorkOrders_Redirection_ModernUI.png "Assigned Work Orders report")
 
 
 **Parent topic:**[Redirecting the User to Webpages](../StudioDeveloperGuide/CodeCustomization_Redirection_Mapref.md)

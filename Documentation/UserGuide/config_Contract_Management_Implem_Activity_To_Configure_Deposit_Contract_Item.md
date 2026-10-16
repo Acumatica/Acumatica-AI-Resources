@@ -1,10 +1,10 @@
-# Contract Item Creation: To Create a Deposit Contract Item \(Deposit Contract\) {#_cbb1f560-80f6-47ec-954e-52a5d8bc5da5 .task}
+# Contract Item Creation: To Create a Deposit Contract Item \(Deposit Contract\)
 
 In this activity, you will learn how to create a deposit contract item.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the Citrus Store customer wants to purchase a fixed number of support hours in advance, for which the SweetLife Fruits &amp; Jams company offers a discount. According to the terms of the deposit contract, the customer pays a deposit in advance for work that will be performed later, and the total price of the provided service will be deducted from the deposit in parts upon completion of service.
 
@@ -12,7 +12,7 @@ According to the terms of the contract, SweetLife will receive an advance paymen
 
 Acting as a sales manager to create a deposit contract, you need to create two contract items: a contract item marked as a deposit, and a contract item for a standard support service.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -20,15 +20,15 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *CITRUS \(Citrus Store\)* customer has been created.
 -   On the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, the *14000* expense account *\(Prepaid Expenses for Customers\)* and the *24400* *\(Customer Deposits\)* sales account have been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create a new deposit non-stock item on the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, and specify deposit settings. On the [Stock Items](IN_20_25_00.md) \(202500\) form, you will then create a deposit contract item that you will use during the creation of the template for a deposit contract.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as the sales manager David Chubb using the *chubb* username and the *123* password.
 
-## Step 1: Creating a Deposit Non-Stock Item {#section_srd_gtg_2tb .section}
+## Step 1: Creating a Deposit Non-Stock Item
 
 To create the deposit non-stock item, do the following:
 
@@ -56,7 +56,7 @@ To create the deposit non-stock item, do the following:
 
 5.  On the form toolbar, click **Save** to save the non-stock item.
 
-## Step 2: Creating a Deposit Contract Item { .section}
+## Step 2: Creating a Deposit Contract Item
 
 To create a deposit contract item, do the following:
 
@@ -77,11 +77,10 @@ To create a deposit contract item, do the following:
 
         When you select this check box, the UI elements related to a renewal item and those in the **Recurring Billing** section become hidden.
 
-        ![](Images/CustomerContractsDepositContractItem.png "Deposit contract item")
 
 5.  On the form toolbar, click **Save**.
 
-## Step 3: Creating a Support Hours Contract Item {#section_rdx_1x2_ks .section}
+## Step 3: Creating a Support Hours Contract Item
 
 Proceed as follows to create support hours contract item for the deposit contract:
 
@@ -102,7 +101,6 @@ Proceed as follows to create support hours contract item for the deposit contrac
 
 10. In the **Deposit Item** box, select contract item with description **Deposit** to indicate the deposit from which the price of usage will be deducted \(as shown in the following screenshot\).
 
-    ![](Images/CustomerContractsDepositSupportContractItem.png "Support hours contract item")
 
 11. On the form toolbar, click **Save**.
 

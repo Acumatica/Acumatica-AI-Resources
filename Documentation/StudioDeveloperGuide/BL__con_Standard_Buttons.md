@@ -1,4 +1,4 @@
-# Standard Buttons of the Form Toolbar {#_8426aecd-5671-4e61-9f61-245110ed1486 .concept}
+# Standard Buttons of the Form Toolbar
 
 With the standard form toolbar buttons, you can manipulate with data records, navigate between them, and use the clipboard.
 

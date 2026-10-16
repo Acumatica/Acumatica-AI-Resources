@@ -1,8 +1,8 @@
-# Project Material Management: Creation of a Material List {#_8a57f47e-f13e-4907-9dbc-564468862008 .concept}
+# Project Material Management: Creation of a Material List
 
 You use the [Project Materials](PM_30_65_00.md) \(PM306500\) form to create the material list for a specific project. It serves as a centralized location for managing and tracking all the materials in one place—as well as for monitoring fulfillment as related documents are processed. From the form, you can also create a purchase order or material issue for a line.
 
-## Creating a Project's Material List { .section}
+## Creating a Project's Material List
 
 To get started, you select a project on the [Project Materials](PM_30_65_00.md) \(PM306500\) form. The system shows the project’s basic information along with the budgeted quantities and costs of the materials. This information helps you connect material planning to the cost budget. Then on the **Details** tab, you populate the project's material lines by adding any of the following:
 
@@ -13,7 +13,7 @@ To get started, you select a project on the [Project Materials](PM_30_65_00.md) 
 
 The following sections describe each of these options, as well as the selection of provisioning sources for project materials.
 
-## Adding Materials from Cost Budget Lines { .section}
+## Adding Materials from Cost Budget Lines
 
 If the project status is *In Planning* or *Active*, you can create or expand the project's material list based on cost budget lines.
 
@@ -25,7 +25,7 @@ To add the project's cost budget lines to the material list on the [Project Mate
 
 If project costs aren’t budgeted at the item level—that is, the **Inventory ID** column has *N/A* on the **Cost Budget** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form—this column remains empty in the added material lines on the [Project Materials](PM_30_65_00.md) form. In this case, you must add items directly to the material list.
 
-## Adding Materials from Quote Estimation Lines { .section}
+## Adding Materials from Quote Estimation Lines
 
 A project quote on the [Project Quotes](PM_30_45_00.md) \(PM304500\) form may have more detailed material requirements than the project budget. In this case, you can create the project's material list from the project quote's estimation lines; the system inserts the quote’s number in the **Quote Ref. Nbr.** box. If the project status is *In Planning* or *Active*, you can add items from the estimation lines to the [Project Materials](PM_30_65_00.md) \(PM306500\) form as follows:
 
@@ -35,7 +35,7 @@ A project quote on the [Project Quotes](PM_30_45_00.md) \(PM304500\) form may ha
 
 **Tip:** This dialog box shows only estimation lines with an expense account group assigned.
 
-## Adding Stock or Non-Stock Items to the Project's Material List Directly { .section}
+## Adding Stock or Non-Stock Items to the Project's Material List Directly
 
 On the [Project Materials](PM_30_65_00.md) \(PM306500\) form, you can create or expand a project's material list by using the **Inventory Lookup** dialog box. This dialog box shows item availability across warehouses and locations and lets you add multiple stock and non-stock items at a time to the project materials. To add items in this way:
 
@@ -47,7 +47,7 @@ On the [Project Materials](PM_30_65_00.md) \(PM306500\) form, you can create or 
 
 You can also add items manually by selecting them in the **Inventory ID** column.
 
-## Selecting Provisioning Sources for Project Materials { .section}
+## Selecting Provisioning Sources for Project Materials
 
 Once material lines have been added on the [Project Materials](PM_30_65_00.md) \(PM306500\) form, you can specify how each item will be supplied:
 
@@ -60,6 +60,7 @@ You review the available item quantity in the **Qty. Available for Dispatch** co
 -   *None* \(default\): You leave this option if the item quantity is available in the warehouse; you can allocate the needed quantity for the project.
 -   *Purchase to Order*: You need to purchase the item—that is, create a purchase order—and have the item delivered to a warehouse.
 -   *Project Drop-Ship*: You need to drop-ship the item directly from the vendor to the project site—that is, create a project drop-ship order.
+-   *Production Order*: You need to manufacture the stock item for the project by using a production order. For details, see [Project Material Management: Provisioning Materials Through Production Orders](Construction_Project_Material_Mgmt_Provisioning_Materials_Through_Prod_Orders.md).
 
 **Parent topic:**[Managing Project Materials](../UserGuide/Construction_Project_Materials_Mgmt_Mapref.md)
 

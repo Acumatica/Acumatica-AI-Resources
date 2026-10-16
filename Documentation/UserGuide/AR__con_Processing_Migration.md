@@ -1,10 +1,10 @@
-# Processing Documents in Migration Mode {#_5345482e-402e-4d46-9b3d-6a48a37021a8 .concept}
+# Processing Documents in Migration Mode
 
 Before you start the migration process in Acumatica ERP, you need to prepare the list of all documents that you want to migrate to the system. This list can contain both outstanding and closed documents. For each document, you need to specify its original amount, document date, currency, exchange rate, and open balance on the migration date.
 
 The documents that are added when migration mode is activated do not update the general ledger. If you need to update account balances, you can import either the trial balance \(for details, see [Importing Financial Data](GL__GL_Importing_Data.md)\) or the general ledger transactions.
 
-## Types of Documents That Can Be Migrated { .section}
+## Types of Documents That Can Be Migrated
 
 The following types of documents can be entered when migration mode has been activated for the accounts receivable subledger:
 
@@ -31,7 +31,7 @@ The following types of documents and transactions can be entered when migration 
 
 In migration mode, you add the needed documents with the *On Hold* or *Balanced* status. These documents can be edited and released only when migration mode is activated.
 
-## Entry of a Document's Open Balance { .section}
+## Entry of a Document's Open Balance
 
 When you are adding an accounts receivable or accounts payable document, you specify the open balance of a migrated document on the document entry form as follows:
 
@@ -47,7 +47,7 @@ An open balance that you specify in a document in migration mode will be display
 
 **Note:** In documents entered in migration mode, the system calculates taxes based on the tax zone and tax category specified in the documents.
 
-## Entry of Migrated Documents with Unreleased Retainage { .section}
+## Entry of Migrated Documents with Unreleased Retainage
 
 On the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) and [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) forms, you can enter migrated AR documents and AP documents, respectively, with unreleased retainage.
 
@@ -64,7 +64,7 @@ You enter a document with unreleased retainage on the [Invoices and Memos](AR_30
 
 For details on creating a document with retainage, see [Processing AP Documents with Retainage](AP__MNG_Managing_Bills_with_Retainage.md) and [Processing AR Documents with Retainage](AR__MNG_ProcessingInvoices_with_Retainage.md).
 
-## Release of Migrated Documents { .section}
+## Release of Migrated Documents
 
 The release of migrated accounts receivable documents causes customer balances to be updated; similarly, the accounts payable documents update vendor balances. These released documents do not produce batches in the general ledger. Thus, on the **Financial** tab of the corresponding document entry forms, instead of the link to the general ledger batch, the word *Migrated* will be displayed for a migrated document in the **Batch Nbr.** box.
 
@@ -74,7 +74,7 @@ If you are importing AP bills with links to subcontracts, on release of the migr
 
 **Note:** Migrated documents cannot be edited or released when migration mode is deactivated, and documents created in Acumatica ERP cannot be edited or released when migration mode is activated.
 
-## Migration of Project Balances { .section}
+## Migration of Project Balances
 
 If migration mode is activated for projects on the [Projects Preferences](PM_10_10_00.md) \(PM101000\) form, you can import pro forma invoices and the corresponding project transactions—along with their balances, original amounts, and dates—without affecting the general ledger. Also, you must link these pro forma invoices and project transactions to the AR documents that correspond to them. Then you need to release the migrated pro forma invoices and project transactions.
 
@@ -86,7 +86,7 @@ If the migrated pro forma invoice is linked to the corresponding AR document, a 
 
 If in migration mode, some incorrect project transactions with the *AR* source were uploaded to the system, you can reverse these transactions by clicking **Reverse** on the form toolbar of the [Project Transactions](PM_30_40_00.md) \(PM304000\) form. The system creates and releases the reversal transaction and inserts the number of the original transaction in the **Orig. Doc. Nbr.** box.
 
-## Known Limitations {#section_axw_xyx_gsb .section}
+## Known Limitations
 
 The following limitations are applied in the system for creating document in migration mode:
 

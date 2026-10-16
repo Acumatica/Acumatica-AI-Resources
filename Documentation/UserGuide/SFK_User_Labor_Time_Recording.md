@@ -1,10 +1,10 @@
-# Shop Floor Kiosk: Labor Time Recording {#_8cea36de-460a-457e-8629-8ff11e05dd67 .concept}
+# Shop Floor Kiosk: Labor Time Recording
 
 The Shop Floor Kiosk lets you record direct labor time while working on production operations. Depending on how the selected operation is configured, you can clock in and out to track labor activity directly from the **Production Reporting** page.
 
 Labor time recording is available only for operations that are not configured for labor backflushing.
 
-## When Labor Time Is Recorded { .section}
+## When Labor Time Is Recorded
 
 You record labor time while working on a production operation through the **Production Reporting** page.
 
@@ -22,7 +22,7 @@ The kiosk displays labor time controls only when the selected operation supports
 -   You can be clocked in to only one production operation at a time.
 -   The kiosk uses the default shop floor shift assigned to your employee record when labor transactions are created.
 
-## Clocking In to an Operation { .section}
+## Clocking In to an Operation
 
 To start recording labor time for an operation:
 
@@ -40,9 +40,9 @@ If you are already clocked in to another operation, the kiosk prevents you from 
 
 **Tip:** You can use the **Recent Activity** page to confirm that you successfully clocked in to the correct operation.
 
-## Clocking Out of an Operation { .section}
+## Clocking Out of an Operation
 
-To stop recording labor time:
+To stop recording labor time for an operation:
 
 1.  Open the **Production Reporting** page for the active operation.
 2.  Click **Clock Out**.
@@ -55,7 +55,7 @@ When you clock out:
 
 For some workflows, you may need to clock out before reporting the remaining completed quantity. This behavior is commonly used on non-backflushed labor operations, especially for the last operation in the routing.
 
-## Automatic Transaction Creation { .section}
+## Automatic Transaction Creation
 
 When you clock out of an operation, the kiosk automatically creates a labor transaction batch in Acumatica ERP and attempts to release it immediately.
 

@@ -1,4 +1,4 @@
-# Notes {#_1206ded4-46ba-4d69-868e-ecf4a1f2ed09 .concept}
+# Notes
 
 By using the PXNote attribute, you can give users the ability to attach text notes, files, and activity items to data records, and to search for an entity by using the full-text search index.
 

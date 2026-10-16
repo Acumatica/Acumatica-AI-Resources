@@ -1,4 +1,4 @@
-# Tracking Scrap and Waste in Production {#_a8f239d0-b35a-400f-a578-543d9f8e2d4f .concept}
+# Tracking Scrap and Waste in Production
 
 Acumatica ERP Manufacturing Edition provides you with the ability to enter the quantities of scrapped items along with the quantities of completed items when you create production-related transactions. By tracking this information, you can consider the costs of scrap or waste in production cost calculation.
 

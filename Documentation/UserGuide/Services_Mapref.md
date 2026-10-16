@@ -1,4 +1,4 @@
-# Creating Service Items {#_0d805b1b-1657-4149-825f-1eaecd43d282 .concept}
+# Creating Service Items
 
 The topics of this chapter explain what a service item in Acumatica ERP is, which settings of service items you need to configure in order to sell and purchase services, and how the settings of service items affect sales and purchase orders. You will explore item settings as you complete an activity in which you create a service item that represents a service.
 

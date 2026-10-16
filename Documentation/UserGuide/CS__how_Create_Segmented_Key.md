@@ -1,8 +1,8 @@
-# To Create a Segmented Key {#_ba80a22b-eade-4966-aaca-24b0edfd8b94 .task}
+# To Create a Segmented Key
 
 In Acumatica ERP, you can create a segmented key if the preconfigured segmented keys do not meet you needs. To create a segmented key, do the following.
 
-## To Create a Segmented Key { .section}
+## To Create a Segmented Key
 
 1.  Open the [Segmented Keys](CS_20_20_00.md) \(CS202000\) form.
 2.  In the **Segmented Key ID** box, type the identifier \(for example, *TESTKEY*\).
@@ -21,7 +21,7 @@ In Acumatica ERP, you can create a segmented key if the preconfigured segmented 
     1.  In the **Description** column, type description for the segment.
     2.  In the **Length** column, type specify segment length.
 
-        CAUTION:
+        **CAUTION:**
 
         Make sure the total length of all segments does not exceed the maximum length.
 

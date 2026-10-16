@@ -1,8 +1,8 @@
-# Splitter: General Information {#_08002ee3-ea04-4d66-8dfd-2a7b34417c77 .concept}
+# Splitter: General Information
 
 A *splitter* is a control that gives you the ability to organize two panes with controls so that the panes can occupy the same part of the form, and give a user an ability to adjust the width of the panes and hide and show them separately.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn the following about a splitter:
 
@@ -10,21 +10,18 @@ In this chapter, you will learn the following about a splitter:
 -   The proper configuration of the splitter for specific cases, such as removing scrollers
 -   The details of each property of the splitter
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure a splitter when you need to organize two panes with controls on a form and give users the ability to close each of the areas.
 
-## Splitter Control { .section}
+## Splitter Control
 
 The splitter control looks like a line with three dots in the middle and arrows that can be used to open or close the encased controls. When you hover over the three dots \(see the first screenshot below\), the two arrows appear next to it \(as shown in the second screenshot\).
 
-![](Images/UIDevRef_Splitter_ThreeDots.png "The three dots on a splitter")
 
-![](Images/UIDevRef_Splitter_ThreeDotsWithArrows.png "The arrows on a splitter")
 
 When you click the top arrow, you collapse the right pane, when you click the bottom arrow, you collapse the left pane. The following screenshot shows the left pane collapsed.
 
-![](Images/UIDevRef_Splitter_ClosedPane.png "A splitter with a closed pane")
 
 The splitter control is defined by the [qp-splitter](https://help.acumatica.com/(W(8))/Help?ScreenId=ShowWiki&pageid=639af4b6-48cd-c413-3ef9-2d4526d593f7) tag in HTML.
 
@@ -47,7 +44,7 @@ The following example shows two tables located in two panes.
 </qp-splitter>
 ```
 
-## Splitter ID { .section}
+## Splitter ID
 
 An ID of a splitter in HTML consists of two parts, the `splitter` prefix and the semantic name. The semantic name describes the purpose of the element. For example, a splitter that includes two tables on the **PO History** tab may have the `splitter-POHistory` ID, as the following code shows.
 
@@ -68,13 +65,21 @@ For each pane, the id should consist of two parts, the `splitPaneA` or `splitPan
 </qp-splitter>
 ```
 
-## Recommendations for Organizing the Layout {#section_vv2_1y4_y4b .section}
+## Recommendations for Organizing the Layout
 
 The following table shows the recommendations for organizing the layout for the splitter.
 
-|Correct|Incorrect|
-|-------|---------|
-|When each pane of a splitter contains a table, and the panes are organized horizontally, make the splitter visible.To make the splitter visible, specify `fading = "false"` in the qp-splitter tag, as shown below.
+<table id="_dc7a3a65-d8fd-449d-9dd6-bf565a1ae406"><thead><tr><th>
+
+Correct
+
+</th><th>
+
+Incorrect
+
+</th></tr></thead><tbody><tr><td colspan="2">
+
+When each pane of a splitter contains a table, and the panes are organized horizontally, make the splitter visible.To make the splitter visible, specify `fading = "false"` in the qp-splitter tag, as shown below.
 
 ```
 <qp-splitter fading="false">...</qp-splitter>
@@ -82,8 +87,14 @@ The following table shows the recommendations for organizing the layout for the 
 
 Do not configure a splitter between two horizontal tables with any of the following parameters: `fading="true"` and `invisible="true"`.
 
-|
-|![](Images/UIDevRef_Splitter_CorrectLayout.png "A correct layout")|![](Images/UIDevRef_Splitter_IncorrectLayout.png "An incorrect layout")|
+</td></tr><tr><td>
+
+
+</td><td>
+
+
+</td></tr></tbody>
+</table>
 
 **Parent topic:**[Splitter](../DeveloperGuide/UIDevRef_Splitter_Mapref.md)
 

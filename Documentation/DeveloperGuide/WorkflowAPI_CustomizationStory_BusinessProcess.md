@@ -1,8 +1,8 @@
-# Business Process Overview {#_65f0a094-29f4-4403-a7c5-8b55e2bcb571 .concept}
+# Business Process Overview
 
 The workflow to be used for repair work orders created on the Repair Work Orders \(RS301000\) form will differ slightly depending on the particular service being performed, which can be *Battery Replacement*, *Liquid Damage*, or *Screen Repair*. This topic describes how the workflow will work for a repair work order for the *Battery Replacement* and *Liquid Damage* service.
 
-## The Battery Replacement Service { .section}
+## The Battery Replacement Service
 
 When a user creates a repair work order for the *Battery Replacement* service on the Repair Work Orders \(RS301000\) form, the order will have the *On Hold* status. To change the order’s status to *Ready for Assignment*, a user will click the **Remove Hold** button on the form toolbar. Then a user will click the **Assign** button and specify the assignee in the **Select Assignee** dialog box. The order’s status will be changed to *Assigned*.
 
@@ -33,9 +33,8 @@ Thus, based on this workflow, a repair work order for the *Battery Replacement* 
 
 The following diagram shows the planned workflow for a repair work order for the *Battery Replacement* service. The system actions that have been or will be implemented in the *PhoneRepairShop* customization project are shown in the middle column.
 
-![](Images/WorkflowAPI_diag_WorkOrderStatuses_Battery.png)
 
-## The Liquid Damage Service { .section}
+## The Liquid Damage Service
 
 When a user creates a repair work order for the *Liquid Damage* service on the Repair Work Orders \(RS301000\) form, the order has the *On Hold* status. To cause the system to change the order’s status to *Pending Payment*, a user will click the **Remove Hold** button on the form toolbar. This status indicates that a user needs to create, release, and apply a prepayment.
 
@@ -74,7 +73,6 @@ Thus, based on this workflow, a repair work order for the *Liquid Damage* servic
 
 The following diagram shows the planned workflow for a repair work order for the *Liquid Damage* service. The system actions that have been or will be implemented in the *PhoneRepairShop* customization project are shown in the middle column.
 
-![](Images/WorkflowAPI_diag_WorkOrderStatuses_Liquid.png)
 
 **Parent topic:**[Company Story and Customization Description](../DeveloperGuide/WorkflowAPI_CustomizationStory.md)
 

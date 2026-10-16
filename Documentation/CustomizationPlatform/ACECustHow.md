@@ -1,4 +1,4 @@
-# Examples of Functional Customization {#_990a129f-be8c-49f5-b0f3-21b69c7fcde9 .concept}
+# Examples of Functional Customization
 
 *Functional customization* means modifications of the data structure and original application business logic. These modifications are related either to the code of the appropriate data access classes \(DACs\) or business logic controllers \(BLCs, also referred to as *graphs*\).
 

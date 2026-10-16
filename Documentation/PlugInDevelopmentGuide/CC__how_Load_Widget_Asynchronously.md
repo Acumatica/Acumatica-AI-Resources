@@ -1,8 +1,8 @@
-# To Load a Widget Synchronously or Asynchronously {#_a4ed5e3e-a62b-497f-9851-c91f5edf6e60 .task}
+# To Load a Widget Synchronously or Asynchronously
 
 By default, if a widget class is inherited from the PX.Dashboards.Widgets.PXWidgetBase abstract class, the widget is loaded asynchronously after the page has been loaded. You can change this behavior by using the AsyncLoading\(\) method of the widget class, as described in the following sections.
 
-## To Load a Widget Synchronously { .section}
+## To Load a Widget Synchronously
 
 To load a widget synchronously along with the page, override the AsyncLoading\(\) method, as the following code shows.
 
@@ -16,7 +16,7 @@ public override AsyncLoadMode AsyncLoading
 }
 ```
 
-## To Load a Widget Asynchronously { .section}
+## To Load a Widget Asynchronously
 
 To load a widget asynchronously after the page has been loaded, you do not need to perform any actions, because the following implementation of the AsyncLoading\(\) method is used by default.
 
@@ -30,7 +30,7 @@ public override AsyncLoadMode AsyncLoading
 }
 ```
 
-## To Load a Widget that Performs a Long-Running Operation { .section}
+## To Load a Widget that Performs a Long-Running Operation
 
 If a widget performs a long-running operation during loading, such as reading data that takes a long time, use the following approach to load this widget:
 

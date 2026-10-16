@@ -1,8 +1,8 @@
-# To Add a New Tenant by Using the Acumatica ERP Configuration wizard {#_649153e7-ec83-4173-a866-01f8c526b84a .task}
+# To Add a New Tenant by Using the Acumatica ERP Configuration wizard
 
 You can add a virtually unlimited number of tenants to an application instance.
 
-## To Add a New Tenant { .section}
+## To Add a New Tenant
 
 1.  On the Start menu, click **Acumatica ERP Configuration** to open the Acumatica ERP Configuration wizard.
 2.  On the Welcome page, click **Perform Application Maintenance**.

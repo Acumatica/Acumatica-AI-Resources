@@ -1,14 +1,14 @@
-# Formulas in Inquiry Results: To Highlight Row with Color {#_19efa0ca-f6d5-4500-a598-fef5f4dd9a82 .task}
+# Formulas in Inquiry Results: To Highlight Row with Color
 
 In this activity, you will learn how to modify an existing generic inquiry to highlight all rows in the results grid that meet a condition.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist in your company who is working on simple customizations, including those involving the creation, modification, and use of generic inquiries. An accountant of your company has requested an inquiry form that displays data about invoices and memos. You offered the predefined Invoices and Memos \(AR3010PL\) generic inquiry form, but the accountant has asked you to develop a similar generic inquiry form in which you highlight with yellow the rows of documents whose balance exceeds $1000.
 
-## Configuration Overview {#section_ayf_13q_3rb .section}
+## Configuration Overview
 
 You will work with the copy of the predefined Invoices and Memos \(AR3010PL\) inquiry form, which has the *AR-Invoices and Memos* inquiry title and the *Invoices and Memos* site map title specified on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form.
 
@@ -16,17 +16,17 @@ You will work with the copy of the predefined Invoices and Memos \(AR3010PL\) in
 
 The copy you will work with has the *DB6-ARInvoicesMemos* inquiry title and the *S130 Invoices and Memos* site map title specified on the [Generic Inquiry](SM_20_80_00.md) form.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the **Results Grid** tab of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form, you will look for the row that corresponds to the **Balance** column of the copied generic inquiry form and note the value in the **Data Field** column for the row. You will add the formula in the **Row Style** box in the table toolbar of the tab by using the Formula Editor dialog box.
 
-## System Preparation {#section_tcc_gpr_jrb .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to a tenant with the *U100* dataset preloaded as system administrator Kimberly Gibbs. You should sign in by using the *gibbs* username and the *123* password.
 
 **Tip:** The *gibbs* user is assigned the *Administrator* role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards.
 
-## Step 1: Inspecting the UI Elements { .section}
+## Step 1: Inspecting the UI Elements
 
 To inspect the UI elements, do the following:
 
@@ -37,7 +37,7 @@ To inspect the UI elements, do the following:
 
 3.  Close the dialog box.
 
-## Step 2: Invoking the Formula Editor Dialog Box { .section}
+## Step 2: Invoking the Formula Editor Dialog Box
 
 To invoke the Formula Editor dialog box in order to modify the generic inquiry to add a style formula for certain rows, do the following:
 
@@ -49,7 +49,7 @@ To invoke the Formula Editor dialog box in order to modify the generic inquiry t
 
 4.  In the **Row Style** box, click the Edit button to invoke the Formula Editor dialog box.
 
-## Step 3: Adding a Formula to Highlight Rows { .section}
+## Step 3: Adding a Formula to Highlight Rows
 
 On the table toolbar of the **Results Grid** tab of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form working with the *DB6-ARInvoicesMemos* generic inquiry, you invoked the Formula Editor dialog box for the **Row Style** box. While you are still in the Formula Editor dialog box, do the following:
 
@@ -85,10 +85,9 @@ On the table toolbar of the **Results Grid** tab of the [Generic Inquiry](SM_20_
 7.  On the form toolbar, click **Save**.
 8.  Click the eye icon on the side panel to preview how your changes have affected the inquiry. The system applies the row style you have added, so that the resulting generic inquiry uses yellow highlighting for the rows with documents whose balance exceeds $1000 \(see the following screenshot\).
 
-    ![](Images/GI_Using_Formulas_GS_with_GI_Highlight_Row.png "The inquiry with the highlighted rows")
 
 
-## Self-Test Exercise { .section}
+## Self-Test Exercise
 
 Now that you learned how to highlight rows of a generic inquiry form, try to apply this knowledge and highlight only cells that contain values exceeding $1000 in the **Balance** column of the inquiry.
 

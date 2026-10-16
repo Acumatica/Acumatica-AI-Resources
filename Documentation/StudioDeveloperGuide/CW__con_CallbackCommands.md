@@ -1,10 +1,10 @@
-# Configuration of Callback Commands {#_2a23cb2e-82a8-4354-8679-c87dd48b5c6e .concept}
+# Configuration of Callback Commands
 
 A datasource control contains the collection of callback commands that are executed on the server. A callback command is a component of the PXDSCallbackCommand type.
 
 **Important:** We recommend that you do not add callback commands in ASPX. Instead use the properties of the PXButton \(or derived\) attribute specified for the action. For details, see [Properties of Callback Commands](#_fb7959b8-2e05-46f8-b3c9-f876365b2fd3) below.
 
-## Addition of Callback Commands { .section}
+## Addition of Callback Commands
 
 The callback command may be statically defined in the ASPX page markup or dynamically added by the framework. When the server initializes the page object, it dynamically adds additional callback commands to the datasource control. Along with system callback commands, the server adds callback commands from the actions defined in the graph. The server adds the callback commands for only those actions whose DAC is the same as the main DAC of the data view specified in the PrimaryView property.
 
@@ -29,7 +29,7 @@ public class PXGraph <TGraph, TPrimary> : PXGraph
 
 The framework creates the callback commands for the default actions if the DAC in the second type parameter of PXGraph&lt;,&gt; is the same as the main DAC of the data view specified in the PrimaryView property.
 
-## Properties of Callback Commands {#_fb7959b8-2e05-46f8-b3c9-f876365b2fd3 .section}
+## Properties of Callback Commands
 
 The framework determines the properties of callback commands by merging the properties specified for the callback command on the ASPX page and the properties of the PXButton \(or derived\) attribute specified for the action. The system uses the logical `OR` to the two values: If either of the values is true, the resulting value is true.
 
@@ -49,30 +49,58 @@ If you change a default property of a dynamically added callback command, the de
 
 The following table lists the equivalents of the ASPX properties in C\# code of the graph or in ASPX.
 
-|Property in ASPX|Equivalent|
-|----------------|----------|
-|CommitChanges: Enables the posting of modified data when the callback command is invoked.|Use the CommitChanges parameter of the PXButton \(or derived\) attribute specified on the action.
+<table id="_627ac53a-2395-4820-b50b-298d9693acd6"><thead><tr><th>
+
+Property in ASPX
+
+</th><th>
+
+Equivalent
+
+</th></tr></thead><tbody><tr><td>
+
+CommitChanges: Enables the posting of modified data when the callback command is invoked.
+
+</td><td>
+
+Use the CommitChanges parameter of the PXButton \(or derived\) attribute specified on the action.
 
  The PXButton attribute has the CommitChanges property set to `true` by default.
 
-|
-|Visible: Makes the button visible \(if the property is set to `true`\) or invisible \(if it is set to `false`\) on the toolbar.|Use the value of the Visible parameter of the PXUIField attribute specified for the action.
+</td></tr><tr><td>
+
+Visible: Makes the button visible \(if the property is set to `true`\) or invisible \(if it is set to `false`\) on the toolbar.
+
+</td><td>
+
+Use the value of the Visible parameter of the PXUIField attribute specified for the action.
 
  If the Visible parameter of the PXUIField attribute is `true` and the action is used on a toolbar of PXSmartPanel or a tab, it is not displayed on the form toolbar. Other actions that have Visible parameter of the PXUIField attribute set to `true` are displayed on the toolbar by default.
 
  If the default behavior is not suitable for a customized or custom form, you can specify the value of the DisplayOnMainToolbar parameter of the PXButton attribute.
 
-|
-|DependOnGrid: Enables the posting of the current row selected in the grid when the callback command is invoked. The value is the ID of the PXGrid control.|Set `SyncPosition="True"` for the corresponding grid.
+</td></tr><tr><td>
+
+DependOnGrid: Enables the posting of the current row selected in the grid when the callback command is invoked. The value is the ID of the PXGrid control.
+
+</td><td>
+
+Set `SyncPosition="True"` for the corresponding grid.
 
  However, if the availability of the action depends on a Boolean column of the grid, the PXDSCallbackCommand element, along with the DependOnGrid property, should be added in ASPX.
 
-|
-|PopupCommand: Specifies the action that is executed on closing of an application page that is opened in popup mode.|Use the OnClosingPopup parameter of the PXButton attribute instead.
+</td></tr><tr><td>
+
+PopupCommand: Specifies the action that is executed on closing of an application page that is opened in popup mode.
+
+</td><td>
+
+Use the OnClosingPopup parameter of the PXButton attribute instead.
 
  For example, instead of `PopupCommand="Cancel"` in ASPX, use `OnClosingPopup=PXSpecialButtonType.Cancel`; instead of `PopupCommand="SyncPaymentTransaction"` in ASPX, where `SyncPaymentTransaction` is a custom action, use OnClosingPopup=nameof\(syncPaymentTransaction\).
 
-|
+</td></tr></tbody>
+</table>
 
 **Parent topic:**[Configuring the ASPX Page](../StudioDeveloperGuide/CW__mng_Configuring_Page.md)
 

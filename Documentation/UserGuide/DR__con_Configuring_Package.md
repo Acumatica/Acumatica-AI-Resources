@@ -1,8 +1,8 @@
-# Configuring a Package {#_77deb3eb-2260-4105-8aae-4e2ced60e53a .concept}
+# Configuring a Package
 
 In Acumatica ERP, you configure a package as a stock item or non-stock for which you specify an appropriate *Multiple-Deliverable Arrangement* \(MDA\) deferral code and add several components \(stock or non-stock items\). The following section describe the package configuration process in details.
 
-## Package Configuration Parameters {#section_uvb_3jv_vxb .section}
+## Package Configuration Parameters
 
 You configure a package on the [Stock Items](IN_20_25_00.md) \(IN202500\) or [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form on the **Deferral** tab. On this tab, you specify the following parameters:
 

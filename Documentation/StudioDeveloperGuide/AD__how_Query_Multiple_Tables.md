@@ -1,4 +1,4 @@
-# To Query Multiple Tables {#_13001ef0-91f0-4094-b924-d1114c3e8e41 .task}
+# To Query Multiple Tables
 
 You construct business query language \(BQL\) statements that join multiple tables by using one of the Join clauses in one of the PXSelect classes that has the Join type parameter. \(For more information on selecting the PXSelect class, see [To Select Records By Using Traditional BQL](AD__how_Construct_Statement.md#).\)
 
@@ -10,7 +10,7 @@ In BQL statements, you can join multiple database tables by using the following 
 -   FullJoin returns all records when there is a match in one of the tables.
 -   CrossJoin returns the entire Cartesian product of the two tables.
 
-## To Join Two Tables \(Inner Join, Left Join, Right Join, or Full Join\) { .section}
+## To Join Two Tables \(Inner Join, Left Join, Right Join, or Full Join\)
 
 To join two tables, use one of the Join clauses with two type parameters \(such as InnerJoin&lt;Table, On&gt;\) and the On&lt;Operand, Comparison&gt; or On&lt;Operator&gt; class to specify a conditional expression for joining, as shown in the following sample BQL statement.
 
@@ -30,7 +30,7 @@ INNER JOIN OrderDetail
 
 Acumatica Framework explicitly enumerates the columns of the database table in the SQL query. For details on which columns are enumerated, see [Translation of a BQL Command to SQL](../Shared/../StudioDeveloperGuide/AD__con_BQL_Translation_to_SQL.md#).
 
-## To Cross-Join Two Tables { .section}
+## To Cross-Join Two Tables
 
 To cross-join two tables, use the CrossJoin&lt;Table&gt; class, as shown in the following sample BQL statement.
 
@@ -46,7 +46,7 @@ SELECT [list of columns] FROM Product CROSS JOIN Supplier
 
 Acumatica Framework explicitly enumerates the columns of the database table in the SQL query. For details on which columns are enumerated, see [Translation of a BQL Command to SQL](../Shared/../StudioDeveloperGuide/AD__con_BQL_Translation_to_SQL.md#).
 
-## To Join Multiple Tables { .section}
+## To Join Multiple Tables
 
 To specify multiple join clauses, use the following instructions:
 

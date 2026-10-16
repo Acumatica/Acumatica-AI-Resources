@@ -1,14 +1,14 @@
-# Processing of Inventory Issues: Process Activity {#_df12eeb4-51c7-4bef-95e0-a3a5de8c101f .task}
+# Processing of Inventory Issues: Process Activity
 
 In the following activity, you will learn how to issue stock items by using the [Scan and Issue](IN_30_20_20.md) \(IN302020\) form.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you, as a warehouse worker of the SweetLife Fruits &amp; Jams company, have a task to inspect the jars of apple jam to find out if they are of appropriate quantity and to write off jars with any defects. If you find any jars with defects, you need to remove them from the location and process an inventory issue to record this removal in the system.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -24,7 +24,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
     -   *APJAM08*, which has the *AJ08* barcode
     -   *APJAM96*, which has the *AJ96* barcode
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, acting as a warehouse worker, you will do the following:
 
@@ -33,11 +33,11 @@ In this activity, acting as a warehouse worker, you will do the following:
 
 **Tip:** In any working mode, you enter a command or barcode by typing it in the **Scan** box and pressing Enter. In production systems, you will scan the appropriate barcodes rather than manually entering them.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start issuing stock items, you need to sign in to a company with the *U100* dataset preloaded. You should sign in as a warehouse worker with the *perkins* username and the *123* password.
 
-## Step 1: Creating an Inventory Issue { .section}
+## Step 1: Creating an Inventory Issue
 
 Suppose that you have found the following damaged jars of apple jam while inspecting them: three units of apple jam in 8-ounce jars in the *L2R3S1* location, four units of apple jam in 96-ounce jars in the *L2R3S3* location, and two units of apple jam in 96-ounce jars in the *L3R3S3* location. To create an issue with these items, do the following:
 
@@ -57,7 +57,7 @@ Suppose that you have found the following damaged jars of apple jam while inspec
 
 You have added the required items to the issue. Now you will review the issue and release it.
 
-## Step 2: Reviewing and Releasing the Issue { .section}
+## Step 2: Reviewing and Releasing the Issue
 
 To review and release the issue, do the following:
 
@@ -72,7 +72,6 @@ To review and release the issue, do the following:
 2.  On the form toolbar, click **Release** to release the inventory issue.
 3.  Click the link in the **Reference Nbr.** box, and on the [Issues](IN_30_20_00.md) \(IN302000\) form, which opens, review the inventory issue. Make sure that it includes the needed lines and is assigned the *Released* status, as shown in the following screenshot.
 
-    ![](Images/activity_WMS_Scan_and_Issue.png "The released inventory issue")
 
 
 You have successfully created and released the inventory issue to record the removal of the damaged jars of apple jam from the warehouse locations.

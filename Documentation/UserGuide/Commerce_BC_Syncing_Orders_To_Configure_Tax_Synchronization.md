@@ -1,14 +1,14 @@
-# Import of Taxes: Process Activity {#_635dc0ec-e87f-48f7-878f-bdd061e1d129 .task}
+# Import of Taxes: Process Activity
 
 The following activity will walk you through the process of configuring the synchronization of taxes between the BigCommerce store and Acumatica ERP.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife is using only Acumatica ERP \(without an external tax provider\) for calculating and reporting taxes on the goods and services it sells. As an implementation consultant helping SweetLife to set up a BigCommerce store, you need to set up taxes in the store and then make sure that the taxes on online sales orders are correctly passed to Acumatica ERP when the orders are imported.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -16,7 +16,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Tax Categories](TX_20_55_00.md) \(TX205500\) form, the *TAXABLE* and *EXEMPT* tax categories have been configured. These tax categories have been assigned to item classes on the [Item Classes](IN_20_10_00.md) \(IN201000\) form, and to individual stock and non-stock items on the [Stock Items](IN_20_25_00.md) \(IN202500\) and [Non-Stock Items](IN_20_20_00.md) \(IN202000\) forms, respectively.
 -   On the [Taxes](TX_20_50_00.md) \(TX205000\) form, the *NYSTATETAX* tax has been set up.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -32,7 +32,7 @@ In this activity, you will do the following:
 10. Import the sales order to Acumatica ERP by using the [Prepare Data](BC_50_10_00.md) and [Process Data](BC_50_15_00.md) forms.
 11. On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, review the imported sales order.
 
-## System Preparation { .section}
+## System Preparation
 
 Do the following:
 
@@ -41,7 +41,7 @@ Do the following:
     2.  Customers have been created and synchronized with the BigCommerce store, as described in [Synchronizing Customers: To Synchronize Customers with Multiple Locations](Commerce_BC_Syncing_Customers_To_Sync_Customers_with_Locations.md).
 2.  Sign in to the control panel of the BigCommerce store as the store administrator.
 
-## Step 1: Configuring the Sales Tax in BigCommerce { .section}
+## Step 1: Configuring the Sales Tax in BigCommerce
 
 To configure the sales tax for New York in the BigCommerce store, do the following:
 
@@ -80,7 +80,7 @@ To configure the sales tax for New York in the BigCommerce store, do the followi
     For the purposes of this activity, you do not need to add any other tax rates.
 
 
-## Step 2: Reviewing the Tax Configuration in Acumatica ERP { .section}
+## Step 2: Reviewing the Tax Configuration in Acumatica ERP
 
 To review the taxes that have been predefined, in Acumatica ERP, do the following:
 
@@ -100,7 +100,7 @@ To review the taxes that have been predefined, in Acumatica ERP, do the followin
 
 4.  Close the pop-up window with the [Taxes](TX_20_50_00.md) form.
 
-## Step 3: Configuring Tax Synchronization { .section}
+## Step 3: Configuring Tax Synchronization
 
 To configure the synchronization of taxes between Acumatica ERP and the BigCommerce store, do the following:
 
@@ -114,7 +114,7 @@ To configure the synchronization of taxes between Acumatica ERP and the BigComme
 3.  In the **Substitution Lists** section, note the substitution lists used for taxes \(*BCСTAXCODES*\) and tax categories \(*BCCTAXCLASSES*\). These substitution lists are predefined and are inserted as the default values in these boxes. For the purposes of this activity, you do not need to change the selected values; you will instead update these substitution lists. However, in a production environment, you can create other substitution lists on the [Substitution Lists](SM_20_60_26.md) \(SM206026\) form and specify them in these boxes.
 4.  On the form toolbar, click **Save**.
 
-## Step 4: Updating the Substitution List for Tax Categories { .section}
+## Step 4: Updating the Substitution List for Tax Categories
 
 As you may have noticed while completing Steps 1 and 2, in Acumatica ERP, two tax categories \(*TAXABLE* and *EXEMPT*\) have been defined, whereas in the BigCommerce store, there are four tax classes—*Default Tax Class*, *Non-Taxable Products*, *Shipping*, and *Gift Wrapping*. To make sure that stock and non-stock items exported from Acumatica ERP are assigned the correct tax class in the BigCommerce store, do the following:
 
@@ -130,7 +130,7 @@ As you may have noticed while completing Steps 1 and 2, in Acumatica ERP, two ta
 
 3.  On the form toolbar, click **Save**.
 
-## Step 5: Updating the Substitution List for Taxes { .section}
+## Step 5: Updating the Substitution List for Taxes
 
 For smooth import of online orders on which you collect taxes from the *SweetStore - BC* store to Acumatica ERP, the tax names defined in both systems must be the same. In Step 1, you created the *New York State Tax* tax rate in the BigCommerce store. \(A tax rate is defined in BigCommerce; in Acumatica ERP, a tax is the entity you define.\) The same tax has the name *NYSTATETAX* in Acumatica ERP. To make the import of sales orders work, you can either update the tax names \(in either system or both systems\) so that they match, or map the different tax names in a substitution list. The mappings of tax names between the BigCommerce store and Acumatica ERP are specified in the predefined *BCCTAXCODES* substitution list, which by default is specified on the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form as the tax substitution list to be used for synchronization with the store.
 
@@ -145,7 +145,7 @@ To map tax names in a substitution list, do the following:
 
 3.  On the form toolbar, click **Save** to save your changes.
 
-## Step 6: Exporting the Stock Items { .section}
+## Step 6: Exporting the Stock Items
 
 1.  On the [Prepare Data](BC_50_10_00.md) \(BC501000\) form, specify the following settings in the Summary area:
     -   **Store**: *SweetStore - BC*
@@ -160,7 +160,7 @@ To map tax names in a substitution list, do the following:
 
 **Tip:** To avoid discrepancies between the tax amount calculated in the BigCommerce store when an order is placed and the tax amount calculated in Acumatica ERP when an invoice is generated for an imported order, make sure that product data \(which includes the information about the product's tax category\) is in sync between the two systems before the order is created.
 
-## Step 7: Viewing the Synchronized Stock Items in the Store { .section}
+## Step 7: Viewing the Synchronized Stock Items in the Store
 
 To review the items that have been synchronized between Acumatica ERP and the BigCommerce store and verify that they have been exported to the BigCommerce store with the correct tax category, do the following:
 
@@ -173,7 +173,7 @@ To review the items that have been synchronized between Acumatica ERP and the Bi
     You can verify that the tax category is assigned correctly to non-stock items by completing instructions similar to those described above.
 
 
-## Step 8: Creating an Online Order { .section}
+## Step 8: Creating an Online Order
 
 To make sure that the taxes applied to taxable products in an online order are imported correctly during the order synchronization, you need to create an order in the BigCommerce store and import it to Acumatica ERP.
 
@@ -202,7 +202,7 @@ To create an order with the taxable products, while you are signed in to the con
     3.  In the lower right, click **Save &amp; process payment**.
 6.  On the **View orders** page, which opens, make a note of the reference number of the created order.
 
-## Step 9: Importing the Sales Order to Acumatica ERP { .section}
+## Step 9: Importing the Sales Order to Acumatica ERP
 
 To import the sales order, in Acumatica ERP, do the following:
 
@@ -216,7 +216,7 @@ To import the sales order, in Acumatica ERP, do the following:
 6.  On the [Process Data](BC_50_15_00.md) \(BC501500\) form, which opens with the *SweetStore - BC* store and the *Sales Order* entity selected, select the unlabeled check box in the row of the sales order that you created earlier in this activity, and on the form toolbar, click **Process**.
 7.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 10: Reviewing the Taxes in the Imported Sales Order { .section}
+## Step 10: Reviewing the Taxes in the Imported Sales Order
 
 To review how the taxes are displayed in the imported sales order, do the following:
 
@@ -229,7 +229,6 @@ To review how the taxes are displayed in the imported sales order, do the follow
 
     In the Summary area, notice that the **Tax Total** amount matches the tax amount of the order in the BigCommerce store \($20.04\), as shown in the following screenshot. On the **Taxes** tab, which lists all taxes applied to individual order lines, notice that the *NYSTATETAX* is displayed.
 
-    ![](Images/activity_Commerce_BC_Syncing_Orders_To_Configure_Tax_Synchronization.png "Sales order with calculated taxes")
 
     On the **Details** tab, notice that for the only line with the *KIWIJAM96* item, **Tax Category** is set to *TAXABLE*. The tax category that appears in the sales order is copied from the **Tax Category** box of the **General** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form and is not imported from the tax class assigned to the item in the BigCommerce store.
 

@@ -1,4 +1,4 @@
-# Configuration of Project Material Management: Posting Classes for Purchase Documents {#_bbd7cd4d-491c-4b61-867e-8e4817f41c45 .concept}
+# Configuration of Project Material Management: Posting Classes for Purchase Documents
 
 You can control how the system determines the cost of goods sold \(COGS\) and expense accounts and subaccounts for purchase documents that include lines with items of a posting class.
 

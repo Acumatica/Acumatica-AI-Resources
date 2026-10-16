@@ -1,8 +1,8 @@
-# Acumatica ERP Integration with Gmail: System Requirements {#_82e7cbbc-3677-4aba-9c41-9566d39b59e8 .concept}
+# Acumatica ERP Integration with Gmail: System Requirements
 
 Before you set up the integration with Gmail, make sure that your system environment meets the requirements described in this topic.
 
-## System Requirements { .section}
+## System Requirements
 
 You can use the Acumatica for Gmail add-on if your Acumatica ERP instance version is 2020 R2 or later.
 
@@ -13,9 +13,8 @@ The user account on the [Users](SM_20_10_10.md) \(SM201010\) form must have a us
 -   **Linked Entity**: *Employee*
 -   **Allowed Login Type**: *Unrestricted*
 
-![](Images/INT_Gmail_User_Type.png "The user type settings")
 
-## Access Rights { .section}
+## Access Rights
 
 To work with records in Acumatica ERP by using the Gmail add-on, the user must have sufficient access rights to view existing records and create new records.
 

@@ -1,10 +1,10 @@
-# Blanket Purchase Orders: Process Activity {#_cf4b37e8-b880-455b-aa89-76d081921d4c .task}
+# Blanket Purchase Orders: Process Activity
 
 The following activity demonstrates how to process a blanket purchase order.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Matt Parker, a purchasing manager in the SweetLife Fruits &amp; Jams company. SweetLife's customer, Delicious Energy restaurant, has ordered juicers as well as installation and training services. SweetLife does not have much free space for juicers in its warehouses, and you asked the vendor to deliver the juicers in portions, so that you have time to move this juicers to the customer's place where they should be installed. On December 1, 2025 you have finalized a contract with the Squeezo Inc. vendor, which will provide the juicers and services to the customer. According to the contract, the vendor will supply the juicers as follows:
 
@@ -14,7 +14,7 @@ Suppose that you are Matt Parker, a purchasing manager in the SweetLife Fruits &
 
 The purchased juicers will be delivered to the company's Wholesale warehouse. As the purchasing manager, you need to create a blanket purchase order, create and process its child orders, process purchase receipts, and create bills that should be paid to the vendor for the received juicers and services.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -29,11 +29,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *JUICER15* and *JUICER20C* stock items have been created.
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *INSTALL* and *TRAINING* non-stock items of the *Service* type have been created. For both stock items, in the **Close PO Line** box on the **General** tab, *By Amount* has been selected.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create a blanket purchase order on the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form. Then you will create three child orders on the same form and add items from the blanket purchase order to the child orders. For each child order, you will create and release a purchase receipt on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form. Also, for each child order, you will create and release an AP bill on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. Finally, you will return to the [Purchase Orders](PO_30_10_00.md) form and review the blanket purchase order to make sure that it is closed.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start processing a blanket purchase order, do the following:
 
@@ -41,7 +41,7 @@ Before you start processing a blanket purchase order, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *12/1/2025*. If a different date is displayed, click the Business Date menu button, and select *12/1/2025* on the calendar.
 3.  On the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, select the *Service and Equipment Sales Center* branch.
 
-## Step 1: Creating a Blanket Purchase Order { .section}
+## Step 1: Creating a Blanket Purchase Order
 
 To create a blanket purchase order, do the following:
 
@@ -79,7 +79,7 @@ To create a blanket purchase order, do the following:
     -   **Project**: *X - Non-Project Code*
 12. On the form toolbar, click **Remove Hold**.
 
-## Step 2: Creating the First Child Order { .section}
+## Step 2: Creating the First Child Order
 
 To create the first child order for the blanket purchase order, do the following:
 
@@ -102,7 +102,7 @@ To create the first child order for the blanket purchase order, do the following
 6.  In the **Inventory ID** column of the only line, type `5` in the **Order Qty.** column.
 7.  On the form toolbar, click **Remove Hold**.
 
-## Step 3: Processing the First Child Order { .section}
+## Step 3: Processing the First Child Order
 
 To process the first child order, do the following:
 
@@ -119,7 +119,7 @@ To process the first child order, do the following:
     -   **Blanket Open Qty.**: *5*
     -   **Qty. On Receipts**: *5*
 
-## Step 4: Creating the Second Child Order { .section}
+## Step 4: Creating the Second Child Order
 
 To create the second child order for the blanket purchase order, do the following:
 
@@ -150,7 +150,7 @@ To create the second child order for the blanket purchase order, do the followin
 
 8.  On the form toolbar, click **Remove Hold**.
 
-## Step 5: Processing the Second Child Order { .section}
+## Step 5: Processing the Second Child Order
 
 Suppose that the vendor can deliver only two *JUICER15* juicers for this purchase order. The vendor can deliver the other three juicers later this month.
 
@@ -185,7 +185,7 @@ To process the second child order, do the following:
         -   **Blanket Open Qty.**: *2*
         -   **Qty. On Receipts**: *1*
 
-## Step 6: Creating the Last Child Order { .section}
+## Step 6: Creating the Last Child Order
 
 To create the last child order for the blanket purchase order, do the following:
 
@@ -213,7 +213,7 @@ To create the last child order for the blanket purchase order, do the following:
     -   In the line with the *TRAINING* item, *2*
 7.  On the form toolbar, click **Remove Hold**.
 
-## Step 7: Processing the Last Child Order { .section}
+## Step 7: Processing the Last Child Order
 
 Suppose that the vendor can now supply the remaining three *JUICER15* items that had not been received for the second child order. In this step, you will process the last child order and the receipt of the three *JUICER15* items.
 
@@ -236,11 +236,9 @@ To process the last child order, do the following:
 10. On the [Purchase Orders](PO_30_10_00.md) form, open the blanket purchase order with the *Juicers, installation, and training for Delienergy* description. Notice that the order has now the *Closed* status.
 11. Review the quantities in the **Qty. On Orders** and **Qty. On Receipts** columns. In the **Blanket Open Qty.** column, make sure that *0* is specified for all lines. In the **Billed Amount** column, the sum of the amounts equals the **Order Total** amount. The **Unbilled Amount** is *0* \(see the following screenshot\). This indicates that the full quantity of all lines of the order has been processed and all the order amount has been billed.
 
-    ![](Images/OrderMgmt_Blanket_Purchase_Orders_Activity_Blanket_Order_Closed.png "The blanket purchase order with the Closed status")
 
 12. Open the **PO History** tab. Notice that the left table shows the numbers, dates, and statuses of the child orders of the selected blanket order, as well as the ordered and received quantities. You could click the link in the **Order Nbr.** column of any row to open the needed child order in a pop-up window.
 
-    ![](Images/OrderMgmt_Blanket_Purchase_Orders_Activity_Closed_Blanket_Order_PO_History_Tab.png "The PO History tab of the blanket purchase order")
 
 
 You have processed the blanket purchase order and the related child orders.

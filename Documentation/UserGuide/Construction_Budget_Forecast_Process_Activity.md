@@ -1,16 +1,16 @@
-# Budget Forecasts: To Prepare a Budget Forecast {#_be7b4548-af7b-4f22-a090-997e82fddadf .task}
+# Budget Forecasts: To Prepare a Budget Forecast
 
 This activity will walk you through the process of working with a project budget forecast in a construction project.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the ToadGreen project estimator wants to prepare a budget forecast to be able to compare and analyze monthly budgets versus actual costs broken down by period. Because some work on interior lighting will be performed for the project in May and June of 2026, the project estimator wants to distribute the total lighting budget across the periods when this work is going to be performed. Also suppose that the work performed in June will cost an additional $5,000 that had not been planned in the project budget.
 
 Acting as the project estimator, you will prepare a budget forecast for further review and analysis of budget performance.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -18,11 +18,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Projects](PM_30_10_00.md#) \(PM301000\) form, the *ITALIAN* project has been created with multiple project tasks, including *16 - ELECTRICAL*. Also, on the **Cost Budgets** tab, the cost budget is defined for the line with the *16-510* cost code and the *SUBCON* account group for this project.
 -   On the [Vendors](AP_30_30_00.md#) \(AP303000\) form, the *HOMEDEP* vendor has been added.
 
-## Process Overview { .section}
+## Process Overview
 
 To track the changes in the project budget forecast, you will create the first revision of the budget forecast on the [Project Budget Forecast](PM_20_96_00.md#) \(PM209600\) form. Then you will generate periods and distribute budget amounts across these periods. Finally, you will update the project budget and review the budgeted amounts on the [Projects](PM_30_10_00.md) \(PM301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
@@ -32,7 +32,7 @@ To prepare to perform the instructions of this activity, do the following:
 4.  In the *Projects* group of features, select the **Budget Forecast** check box.
 5.  On the form toolbar, click **Enable**.
 
-## Step 1: Creating the First Revision of the Project Budget Forecast { .section}
+## Step 1: Creating the First Revision of the Project Budget Forecast
 
 Prepare a budget forecast by doing the following
 
@@ -59,7 +59,7 @@ Prepare a budget forecast by doing the following
 13. Click **OK**. The system adds the line for the *05-**2026* and *06-2026* periods to the forecast.
 14. Click **Save** on the form toolbar.
 
-## Step 2: Distributing Amounts Across the Periods { .section}
+## Step 2: Distributing Amounts Across the Periods
 
 Distribute the budget amounts by doing the following:
 
@@ -75,7 +75,6 @@ Distribute the budget amounts by doing the following:
 
     The **Delta** line has disappeared from the budget forecast, and the budget forecast should look as shown below. The system has updated the cost budget of the *ITALIAN* project with the **Total** value \($35,000\) for this line.
 
-    ![](Images/activity_Budget_Forecast.png "Budget forecast for the Lighting - Interior line")
 
 7.  Save the forecast.
 8.  On the [Projects](PM_30_10_00.md#) \(PM301000\) form, open the *ITALIAN* project. On the **Cost Budget** tab, notice that in the line with the *16-510* cost code and the *SUBCON* account group, the value in the **Original Budgeted Amount** and **Revised Budgeted Amount** boxes has been updated and is now *35,000.00*.

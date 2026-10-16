@@ -1,4 +1,4 @@
-# Refunds: Generated Transactions {#_9aa63fb2-7766-458b-9bc1-747bcfe0df1b .concept}
+# Refunds: Generated Transactions
 
 The following refund transactions are recorded to the general ledger when the refund has been released.
 

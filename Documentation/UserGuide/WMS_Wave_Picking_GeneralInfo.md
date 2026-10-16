@@ -1,10 +1,10 @@
-# Wave Picking: General Information {#_a789290c-0d15-46f7-ad84-02851e00939e .concept}
+# Wave Picking: General Information
 
 If the *Advanced Picking* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can optimize and speed up the warehouse operations needed for fulfilling the order by using the wave picking workflow.
 
 In this topic, you will read about the wave picking workflow in Acumatica ERP. The workflow in this topic is based on the assumption that your system has the recommended configuration described in [Wave Picking: Implementation Checklist](WMS_Wave_Picking_Implem_Checklist.md).
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -15,15 +15,14 @@ In this chapter, you will do the following:
 -   Pick and pack items in a wave
 -   Confirm a shipment after packing the items
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 You use wave picking if you need to optimize the processes of picking and packing items for a group of orders to be shipped. With a wave picking flow, the warehouse manager prepares a series of pick lists for a group of orders to be shipped \(also called a *wave*\). Each picker receives a consolidated pick list that includes multiple shipments for which the picker can pick all the listed items in one pass through the warehouse. The pickers collect the items and organize them in the individual totes assigned to each of the shipments. When the items are brought to the packing location, the packer takes the items from each of the totes, verifies that the shipment is collected correctly, and packs the items into boxes.
 
-## General Process of Wave Picking { .section}
+## General Process of Wave Picking
 
 The workflow of fulfilling orders with the wave picking workflow is shown in the following diagram.
 
-![](Images/diag_WMS_Wave_General_Flow.png)
 
 Processing a wave includes the following processes performed by the following persons:
 
@@ -33,11 +32,10 @@ Processing a wave includes the following processes performed by the following pe
 
 The following sections illustrate and describe the workflow for a warehouse manager, a picker, and a packer. By understanding the workflow for each of these employees, you can better understand the wave picking workflow as a whole in a warehouse.
 
-## Workflow for a Warehouse Manager { .section}
+## Workflow for a Warehouse Manager
 
 The workflow of a warehouse manager involves the actions shown in the following diagram.
 
-![](Images/diag_WMS_Wave_Warehouse_Manager.png)
 
 To prepare a wave picking worksheet, the warehouse manager performs the following steps:
 
@@ -64,7 +62,7 @@ To prepare a wave picking worksheet, the warehouse manager performs the followin
     **Attention:** If the **Print Packing Slips with Pick Lists** check box is selected on the [Sales Orders Preferences](SO_10_10_00.md) \(SO101000\) form, the system also prints packing slips with the pick lists.
 
 
-## Cancellation of a Picking Worksheet { .section}
+## Cancellation of a Picking Worksheet
 
 If a wave picking worksheet has the *Picking* status on the [Picking Worksheets](SO_30_25_00.md) \(SO302500\) form, the warehouse manager can click **Cancel Worksheet** on the More menu to cancel this worksheet.
 
@@ -74,11 +72,10 @@ After cancellation, the shipments from the canceled worksheet are no longer asso
 
 The process of physically distributing already-picked goods back to their storage locations is not covered by the picking workflow; this should be done manually according to the pick lists of the canceled worksheet.
 
-## Workflow for a Picker { .section}
+## Workflow for a Picker
 
 The workflow of a picker involves the actions shown in the following diagram.
 
-![](Images/diag_WMS_Wave_Picker.png)
 
 To pick the items for a wave pick list, the picker performs the following steps:
 
@@ -134,11 +131,10 @@ To pick the items for a wave pick list, the picker performs the following steps:
     After finishing the wave picking, the picker brings the totes with items to the packing location.
 
 
-## Workflow for a Packer { .section}
+## Workflow for a Packer
 
 The workflow of a packer involves the actions shown in the following diagram.
 
-![](Images/diag_WMS_Wave_Packer.png)
 
 To pack the items for a shipment, the packer performs the following steps:
 

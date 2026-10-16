@@ -1,4 +1,4 @@
-# Setting Up the Financial Year {#_057f9b89-3af0-4274-bcb7-3da6cb43b6f7 .concept}
+# Setting Up the Financial Year
 
 In Acumatica ERP, transactions are posted to financial periods defined in the system. So during the configuration of the general ledger, you have to define the structure of the financial year. Based on this structure of the financial year, you can generate periods for any number of financial years.
 

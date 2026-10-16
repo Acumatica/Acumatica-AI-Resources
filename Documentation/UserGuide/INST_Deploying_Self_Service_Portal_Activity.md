@@ -1,20 +1,20 @@
-# Instance Deployment: To Deploy a Self-Service Portal Instance {#_95f1df59-d5f9-42f5-bf61-394b80eeeced .task}
+# Instance Deployment: To Deploy a Self-Service Portal Instance
 
 In this activity, you will learn how to deploy the Self-Service Portal instance and connect it to the database used by the existing Acumatica ERP instance.
 
-## Story { .section}
+## Story
 
 Suppose that you are the system administrator of your company, need to deploy the Self-Service Portal instance to provide access to your Acumatica ERP instance for the customers.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will deploy the Self-Service Portal instance and connect it to the database of the existing Acumatica ERP instance.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin deploying the Self-Service Portal instance, make sure that you have performed the following prerequisite activity: [Instance Deployment: To Deploy an Instance with Demo Data](INST_Deploying_Instances_Deploy_Tenant_With_Demodata_Activity.md).
 
-## Step: Deploying a Self-Service Portal Instance { .section}
+## Step: Deploying a Self-Service Portal Instance
 
 To deploy the Self-Service Portal instance, do the following:
 

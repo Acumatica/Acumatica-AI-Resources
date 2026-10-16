@@ -1,8 +1,8 @@
-# Tax Report Configuration: To Create a Tax Report for VAT Variations {#_f5919207-0562-46c5-9e61-171d8239269f .task}
+# Tax Report Configuration: To Create a Tax Report for VAT Variations
 
 By performing this implementation activity, you will learn how to configure the content of a tax report for multiple variations of value-added tax, and to specify the rules of accumulating the data in the report lines.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Fruits &amp; Jams is going to report multiple types of VAT besides the general VAT and needs a separate tax agency and a tax report for this purpose. Acting as an implementation consultant, you need to create a tax agency and a tax report for VAT variations.
 
@@ -15,7 +15,7 @@ The tax report should include the following lines:
 -   *Pending Output VAT*: Accumulates the total tax amount of pending VAT to be paid to the tax agency.
 -   *Pending Input VAT*: Accumulates the total tax amount of pending VAT to be claimed from the tax agency.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following configuration tasks have been performed to prepare the system for this activity to be performed:
 
@@ -23,7 +23,7 @@ In the *U100* dataset, the following configuration tasks have been performed to 
 -   On the [Vendor Classes](../UserGuide/AP_20_10_00.md) \(AP201000\) form, the *TAXAGENCY* vendor class has been configured.
 -   On the [Chart of Accounts](../UserGuide/GL_20_25_00.md) \(GL202500\) form, the *24100 \(Tax Payable\)*, *17000 \(Tax Claimable\)*, and *65100 \(Other Tax Expenses\)* accounts have been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -32,13 +32,13 @@ In this activity, you will do the following:
 3.  You will add reporting groups on the **Reporting Groups** tab of the [Reporting Settings](../UserGuide/TX_20_51_00.md) form.
 4.  On the [Reporting Groups](../UserGuide/TX_20_52_00.md) \(TX205200\) form, you will specify the report lines that should be updated by the taxes associated with each reporting group.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare the system, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as an implementation consultant by using the *gibbs* username and the *123* password.
 
-## Step 1: Creating a Tax Agency { .section}
+## Step 1: Creating a Tax Agency
 
 To create a tax agency, do the following:
 
@@ -66,7 +66,7 @@ To create a tax agency, do the following:
     -   **Use Currency Precision**: Selected
 10. On the form toolbar, click **Save**.
 
-## Step 2: Creating a Tax Report, Adding Report Lines, and Creating Reporting Groups { .section}
+## Step 2: Creating a Tax Report, Adding Report Lines, and Creating Reporting Groups
 
 To create a tax report for the new agency, add report lines, and create reporting groups, do the following:
 
@@ -97,7 +97,7 @@ To create a tax report for the new agency, add report lines, and create reportin
 
 7.  On the form toolbar, click **Save**.
 
-## Step 3: Adding the Reporting Groups to the Report { .section}
+## Step 3: Adding the Reporting Groups to the Report
 
 To add the reporting groups to the report, do the following:
 

@@ -1,4 +1,4 @@
-# Unbound Field Data Types {#_fd0adc27-e163-422d-a74e-057aa10ad2d9 .concept}
+# Unbound Field Data Types
 
 The following table contains unbound field type attributes. You use unbound type attributes when you define custom fields of your own that are not bound to any database fields.
 

@@ -1,4 +1,4 @@
-# Configuring Layout and Size {#_655b9a92-b944-4863-b392-42a26c79f2eb .concept}
+# Configuring Layout and Size
 
 In this chapter, you can learn how to configure the layout of ASPX pages by using the PXLayoutRule ASPX object and how to configure the size of ASPX controls.
 

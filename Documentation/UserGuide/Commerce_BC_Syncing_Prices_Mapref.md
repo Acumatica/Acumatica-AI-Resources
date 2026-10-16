@@ -1,4 +1,4 @@
-# Synchronizing Sales Prices {#_2ba58260-bf2b-41fc-a53b-bb90dd4fff2f .concept}
+# Synchronizing Sales Prices
 
 In this chapter, you will learn how sales prices are synchronized between Acumatica ERP and the BigCommerce store.
 

@@ -1,10 +1,10 @@
-# Parent-Child Relationships: General Information {#_749661ca-e2ea-40ac-abfe-34bd9352f779 .concept}
+# Parent-Child Relationships: General Information
 
 In this topic, you will read about how to set up a parent-child relationship between customer accounts in the settings of these accounts.
 
 You can use this functionality if the *Parent-Child Customer Relationship* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,14 +12,14 @@ In this chapter, you will learn how to do the following:
 -   Process documents from the child accounts and from the parent account
 -   Generate a consolidated report to review the balance of the parent account
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You set up parent-child relationships for customer accounts in the following cases:
 
 -   The parent company has granted franchises to multiple companies and some of these companies are Acumatica ERP customers
 -   The parent company is an Acumatica ERP customer and has multiple branches \(or similar organizational units\)
 
-## Setup of a Parent-Child Relationship {#section_ivl_4jv_vxb .section}
+## Setup of a Parent-Child Relationship
 
 You can set up parent-child relationships when you are creating customers in the system or at any time thereafter. On the [Customers](AR_30_30_00.md) \(AR303000\) form, you perform the following steps to configure parent-child relations between customer accounts:
 
@@ -35,7 +35,7 @@ With the exception of the details described above, the setup of parent and child
 
 For each parent account, you can view the list of its child accounts on the **Child Accounts** tab of the [Customers](AR_30_30_00.md) form.
 
-## Balance Consolidation { .section}
+## Balance Consolidation
 
 The balances of child customer accounts can be included in the balance of the parent customer account. As mentioned in the previous section, for the child accounts whose open documents can be paid with the payments of their parent, you select the **Consolidate Balance** check box on the [Customers](AR_30_30_00.md) \(AR303000\) form. With this check box selected, the system includes the balances of child accounts in the parent balance. For the corresponding parent account, you can view this consolidated balance in the **Consolidated Balance** box in the Summary area of the [Customers](AR_30_30_00.md) form.
 
@@ -47,7 +47,7 @@ The **Balance**, **Prepayment Balance**, **Retained Balance**, and **Consolidate
 
 Instead, the **Balances** tab will appear, which shows customer balances grouped by base currency.
 
-## Payment Application {#section_hwl_4jv_vxb .section}
+## Payment Application
 
 With the parent-child relationship between customer accounts set up, payments can be applied to documents of child and parent accounts. That is, when you create a payment or a prepayment for the parent account on the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, you can apply this payment to the open documents of both the child accounts and the parent account. On the **Documents to Apply** tab, you can add rows with the open documents of a child account or click the **Load Documents** button on the table toolbar. When you click the button, the **Load Options** dialog box opens; in the **Include Child Documents** box, you can select the types of documents to be loaded.
 

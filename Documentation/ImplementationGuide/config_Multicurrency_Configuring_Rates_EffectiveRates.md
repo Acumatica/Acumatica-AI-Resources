@@ -1,4 +1,4 @@
-# Configuration of Rate Types and Rates: Effective Rates {#_76d7f1f7-7037-446d-8cee-52f46087cf06 .concept}
+# Configuration of Rate Types and Rates: Effective Rates
 
 Acumatica ERP uses the effective currency rates for currency conversions in transactions and documents with a foreign currency. Each currency rate is effective for a particular date range. This date range is defined based on the setting for the related currency rate type in the **Days Effective**column of the [Currency Rate Types](../UserGuide/CM_20_10_00.md) \(CM201000\) form as follows:
 

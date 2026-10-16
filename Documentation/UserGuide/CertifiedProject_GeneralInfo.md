@@ -1,8 +1,8 @@
-# Certified Projects: General Information {#_4c5647d0-4102-4790-aedd-40c8c6c91ae8 .concept}
+# Certified Projects: General Information
 
 Certified projects are projects performed by private contractors for the government, such as a hospital construction project. A contract for a certified project determines guaranteed pay rates for different types of labor, deductions and benefits associated with the project, fringe benefits, and reporting requirements.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,11 +12,11 @@ In this chapter, you will learn how to do the following:
 -   Configure fringe benefits
 -   Configure certified reporting
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure certified projects in the system if your organization is awarded a contract for a construction project by the government.
 
-## Configuration Prerequisites { .section}
+## Configuration Prerequisites
 
 Before you start configuring certified projects in payroll, you need to make sure that the following configuration steps have been performed in the system:
 
@@ -28,7 +28,7 @@ Before you start configuring certified projects in payroll, you need to make sur
 
 After all prerequisites have been met and the necessary entities have been created, you can start setting up certified projects in the system.
 
-## Setting Up Certified Projects { .section}
+## Setting Up Certified Projects
 
 You set up certified projects by using the [Certified Projects](PR_20_99_00.md) \(PR209900\) form. On this form, you can open only a project with the **Certified Job** check box selected in the **Project Properties** section on the **Summary** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form; this check box becomes available on the form only after the *Construction* feature has been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
@@ -44,7 +44,7 @@ On the [Certified Projects](PR_20_99_00.md) form, you can set up a certified pro
     For more information, see [Certified Projects: Fringe Benefits](CertifiedProject_FringeBenefits.md).
 
 
-## Certified Reporting { .section}
+## Certified Reporting
 
 Employees who work on certified projects must be paid hourly on a weekly basis so that they may be included in certified reporting. These settings are defined through the employee type and pay group that are specified for each employee on the **General** tab of the [Employee Payroll Settings](PR_20_30_00.md) \(PR203000\) form.
 

@@ -1,4 +1,4 @@
-# Formula Editor: Customization of Option Providers {#_d359a2a1-e5d0-4999-833b-bb9304004fff .concept}
+# Formula Editor: Customization of Option Providers
 
 You can customize the option sets provided by the AddFunctions, AddOperators, and AddStyles attributes by doing one of the following:
 
@@ -43,7 +43,6 @@ You can attach a custom option provider in the following places:
 
 The following diagram shows how you should select the approach to define a custom option provider.
 
-![](Images/diag_UIDevRef_FormulaEditor_CustomizeOptionProviders.png "Selecting a way to customize an option provider")
 
 **Parent topic:**[Formula Editor](../DeveloperGuide/UIDevRef_FormulaEditor_Mapref.md)
 

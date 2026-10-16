@@ -1,4 +1,4 @@
-# Managing Emails {#_27039565-c5d2-45da-b23a-453ae56b5d10 .concept}
+# Managing Emails
 
 Acumatica ERP provides email management functionality to employees involved in customer relationship management \(CRM\) activities, such as working with leads and contacts, organizing campaigns, and handling cases.
 
@@ -18,7 +18,7 @@ For each system email account, you can manually initiate the processes of sendin
 
 To prevent the system from slowing down because of a large number of emails, both incoming and outgoing, accumulated over a long time, you can archive processed emails. For details, see [Email Archiving](EM__con_Email_Archiving.md).
 
-## In This Chapter { .section}
+## In This Chapter
 
 -   [Email Exchange History](EM__con_Email_Exchange_History.md)
 -   [Email Templates](EM__con_Notification_Templates.md)

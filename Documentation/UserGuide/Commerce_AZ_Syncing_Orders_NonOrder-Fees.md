@@ -1,8 +1,8 @@
-# Order Synchronization: Non-Order Fees {#_aa8a858a-c5a4-4c18-be51-1ab2faa0196e .concept}
+# Order Synchronization: Non-Order Fees
 
 Amazon charges merchants fees that are not related to particular orders, for example, storage or advertising fees. The details of these fees are available in the settlement reports provided by Amazon. You can import such fees into Acumatica ERP to gain greater visibility into per-unit profitability—that is, how much the company makes on the products it sells on Amazon and how much it is charged for each of the products.
 
-## Setting Up the Import of Non-Order Fees { .section}
+## Setting Up the Import of Non-Order Fees
 
 To set up the import of non-order fees to Acumatica ERP, you perform the following general steps:
 
@@ -24,7 +24,7 @@ To set up the import of non-order fees to Acumatica ERP, you perform the followi
     -   A default offset account has been specified for the entry type.
     -   For the cash account specified in the mapping for the Amazon payment method in the upper table, the entry type has been added on the [Cash Accounts](CA_20_20_00.md) \(CA202000\) form.
 
-## Synchronizing Non-Order Fees { .section}
+## Synchronizing Non-Order Fees
 
 Amazon fees that are not related to any particular Amazon order are imported during the synchronization of the *Non-Order Fees* entity. Imported non-order fees are displayed as a cash transaction on the [Cash Transactions](CA_30_40_00.md) \(CA304000\) form.
 

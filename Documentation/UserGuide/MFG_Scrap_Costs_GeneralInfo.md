@@ -1,14 +1,14 @@
-# Scrap Cost Calculation: General Information {#_354eb625-fa9d-4f8a-bc84-cf170b8e887a .concept}
+# Scrap Cost Calculation: General Information
 
 In Acumatica ERP Manufacturing Edition, the system calculates costs of scrapped items depending on the costing method of each production order and the scrap action specified for the operations of the production order. For more information about the configuration of the tracking of scrapped items, see [Configuration of Scrap, Waste, and By-Products in Production: General Information](../ImplementationGuide/config_MFG_Scrap_GeneralInfo.md).
 
 In the following sections, you will read about the ways the system calculates cost of scrap.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how the system calculates scrap costs, based on the production and scrap settings.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You analyze how the system calculates scrap costs in any of the following cases:
 
@@ -16,7 +16,7 @@ You analyze how the system calculates scrap costs in any of the following cases:
 -   When the cost of scrapped items differs from the expected cost
 -   When an unexpected variance of production costs has been discovered
 
-## Scrap Cost Calculation { .section}
+## Scrap Cost Calculation
 
 The system calculates the cost of scrapped items depending on the costing method specified for the production order in the **Costing Method** box of the **General** tab on the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form as follows:
 
@@ -30,7 +30,7 @@ The system calculates the cost of scrapped items depending on the costing method
 
 -   *Standard*: The system calculates scrap costs in the same way as it does for the *Estimated* costing method.
 
-## Scrap Cost for Operations with the No Action Scrap Action { .section}
+## Scrap Cost for Operations with the No Action Scrap Action
 
 When you record scrapped items for an operation of a production order for which the *No Action* scrap action is specified, the cost of scrapped items is applied to the cost of completed items. The scrap cost is calculated according to the costing method of the production order.
 
@@ -38,7 +38,7 @@ When the production order is completed and the completed items are moved to stoc
 
 **Attention:** For operations with the *No Action* scrap action, the cost of scrap is not displayed in the **Scrap** box of the **Actual** section on the **Totals** tab of either the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) or [Production Order Details](AM_20_90_00.md) \(AM209000\) form because the scrap cost is included in the cost of completed items.
 
-## Scrap Cost for Operations with the Write-Off or Quarantine Scrap Action { .section}
+## Scrap Cost for Operations with the Write-Off or Quarantine Scrap Action
 
 When you record scrapped items for an operation of a production order for which the *Write-Off* or *Quarantine* scrap action is specified, the system calculates the cost of scrapped items according to the costing method of the production order and displays this cost in the **Scrap** box of the **Actual** section on the **Totals** tab of the [Production Order Details](AM_20_90_00.md) \(AM209000\) form. You can also view the total scrap cost for the production order on the **Totals** tab of the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form.
 

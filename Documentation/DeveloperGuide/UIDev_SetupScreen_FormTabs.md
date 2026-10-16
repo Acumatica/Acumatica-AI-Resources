@@ -1,10 +1,9 @@
-# UI of a Setup Form: A Form with Tabs {#_64cd51ba-0b4f-4671-922f-75fc40756047 .concept}
+# UI of a Setup Form: A Form with Tabs
 
 The following topic describes how to configure a form that consists of multiple tabs. \(In the Classic UI, these forms were based on the TabView template.\) The following screenshot shows an example of a form with this layout.
 
-![](Images/UIDev_SetupScreen_FormTabs.png "A form with multiple tabs")
 
-## View Definition in TypeScript { .section}
+## View Definition in TypeScript
 
 To configure a setup form with multiple tabs in the TypeScript file, you do the following:
 
@@ -82,7 +81,7 @@ export class sosetup extends PXView {
 }
 ```
 
-## Layout in HTML { .section}
+## Layout in HTML
 
 You define the layout of a setup form with tabs by adding the following tags to the HTML code of the form:
 

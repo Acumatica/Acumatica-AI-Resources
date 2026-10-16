@@ -1,4 +1,4 @@
-# Closing Financial Periods in Subledgers and GL {#_fffb899b-c28c-4f2a-884a-35695d377930 .concept}
+# Closing Financial Periods in Subledgers and GL
 
 In this chapter, you will find general information on how to close financial periods, an activity that describes how to close a period in accounts receivable, an activity that describes how to close a period in accounts receivable and in the general ledger, and report and inquiries that can be useful to find and view trial balances and balance discrepancies.
 

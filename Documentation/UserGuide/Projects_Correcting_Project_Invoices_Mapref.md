@@ -1,4 +1,4 @@
-# Correcting Project Invoices {#_5b45212d-27d6-4fca-ab19-a077b4999f44 .concept}
+# Correcting Project Invoices
 
 The topics of this chapter explain how you can make corrections to project invoices. Project invoices include the pro forma invoices and accounts receivable invoices that have been prepared for a project.
 

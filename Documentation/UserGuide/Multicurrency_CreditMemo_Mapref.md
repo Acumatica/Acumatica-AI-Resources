@@ -1,4 +1,4 @@
-# Applying Credit Memos in Foreign Currencies to Invoices {#_818204ac-bb30-46ca-9a29-c46892150fbb .concept}
+# Applying Credit Memos in Foreign Currencies to Invoices
 
 The topics of this chapter describe how to apply a credit memo in a foreign currency to an AR invoice in the same foreign currency.
 

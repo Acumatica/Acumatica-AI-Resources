@@ -1,4 +1,4 @@
-# Engineering Change Control {#_02171c24-9dfb-4fa8-b736-df59c6f4f6c9 .concept}
+# Engineering Change Control
 
 Engineering change control \(ECC\), a part of Acumatica ERP Manufacturing Edition, is an essential requirement for maintaining control of manufacturing master data in a rapidly changing world. The primary purpose of ECC is to control changes to bills of material. The ECC functionality gives users the following capabilities:
 

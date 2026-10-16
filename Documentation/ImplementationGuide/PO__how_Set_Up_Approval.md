@@ -1,8 +1,8 @@
-# To Set Up the Approval of Purchase Orders {#_4d9e371a-9b52-4b4e-8c8f-1f787791cb8e .task}
+# To Set Up the Approval of Purchase Orders
 
 For many businesses, the approval of purchase orders is essential for effective procurement. For more information on these approvals, see [Specific Approvals: Purchase Orders](PO__con_Purchase_Order_Approvals.md). You can set up the approval of purchase orders by using the [Purchase Orders Preferences](../UserGuide/PO_10_10_00.md) \(PO101000\) form.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Before you set up the approval of purchase orders, do the following in your system:
 
@@ -15,7 +15,7 @@ Before you set up the approval of purchase orders, do the following in your syst
 
 5.  Optional: For each order type, create the email templates for notifications about orders pending approval. These templates will be used to generate emails that will be sent to employees authorized to approve purchase orders. You can create email templates by using the [Email Templates](../UserGuide/SM_20_40_03.md) \(SM204003\) form.
 
-## To Specify the Approval Settings for Purchase Orders { .section}
+## To Specify the Approval Settings for Purchase Orders
 
 1.  Open the [Purchase Orders Preferences](../UserGuide/PO_10_10_00.md) \(PO101000\) form.
 2.  On the **Approvals** tab of this form, select the **Require Approval** check box.
@@ -24,7 +24,7 @@ Before you set up the approval of purchase orders, do the following in your syst
     2.  In the **PO Type** column, select the type of purchase orders that require approval.
     3.  In the **Approval Map** column, select the approval map to be used for orders of the selected type.
 
-        CAUTION:
+        **CAUTION:**
 
         If no map is selected for the specified order type, all new orders of this type will be automatically approved.
 

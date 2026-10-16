@@ -1,4 +1,4 @@
-# Working with Exceptions {#_49288669-f234-440e-92d6-ce59e4edee7e .concept}
+# Working with Exceptions
 
 The Acumatica Framework provides you with a comprehensive set of exceptions that you may use for various development scenarios while you are implementing business logic on your Acumatica ERP instance. All of these exceptions are derived from the PXException base class. This base class provides the localization of error messages, as well as a number of helper methods. For details, see [PXException](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=5f3dd9b1-1d2b-10e8-fc00-bd51fc71c8ee). For a list of all the available exceptions, see the [Platform API Reference](https://help.acumatica.com/Help?ScreenId=00000000).
 

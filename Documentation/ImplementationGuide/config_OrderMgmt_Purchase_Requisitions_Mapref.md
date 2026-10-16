@@ -1,4 +1,4 @@
-# Purchase Requisitions {#_e77e7dcf-416f-484f-9ba7-4c5ef21be357 .concept}
+# Purchase Requisitions
 
 This chapter describes the minimum configuration of the purchase requisitions functionality that is required for Acumatica ERP users to process requisitions. A purchase requisition may be based on customer or employee purchase requests or may have no requests.
 

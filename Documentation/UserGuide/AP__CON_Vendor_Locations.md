@@ -1,4 +1,4 @@
-# Vendors: Vendor Locations {#_fcecee2b-6a65-4464-bdd6-f6c52ba2a03f .concept}
+# Vendors: Vendor Locations
 
 In this topic, you will read about the main location and the default location of a vendor, as well as the values provided by vendor locations for purchase orders and payments.
 
@@ -24,7 +24,7 @@ If you change the vendor class for an existing vendor, the following values will
 -   The country specified in the **Country** box on the **General** tab of the [Vendor Locations](AP_30_30_10.md) form
 -   The tax zone specified in the **Tax Zone** box on the **Purchase Settings** tab of the [Vendor Locations](AP_30_30_10.md) form
 
-## Use of Location Default Settings {#section_upg_njv_vxb .section}
+## Use of Location Default Settings
 
 When you enter a new purchase order, bill, payment, or quick check, the first value you must specify is the vendor. When the vendor is selected, relevant elements on the form are automatically filled in with the vendor's default values, including the default location and its associated purchase or payment settings. The settings of a vendor location include such information as the payment method, the cash account, the tax zone, the tax registration, the shipping settings, and the accounts payable and expense accounts with the corresponding subaccounts \(if applicable\). If you select a vendor location that is different from the default one, the values change to those associated with the selected location; if needed, you can override any of the default values.
 

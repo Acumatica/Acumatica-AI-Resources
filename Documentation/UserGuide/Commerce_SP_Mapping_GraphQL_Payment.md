@@ -1,16 +1,16 @@
-# Payment Entity {#_abc1234a-2213-41da-b89b-c27762ab8ee4 .concept}
+# Payment Entity
 
 Below you can find information about the changes to the field mapping used for the *Payment* entity in Acumatica ERP. These changes were introduced as part of Acumatica ERP's alignment with Shopify's migration from the REST API to GraphQL.
 
 In the [Fields Unavailable in GraphQL](#_3c04f7b9-0909-46e3-a795-f1efe356bfe7) section, you'll find a list of all the fields used for entity mapping that are not supported in GraphQL but were available in the REST API.
 
-## Payment Mapping { .section}
+## Payment Mapping
 
 In the [Shopify\_GraphQL\_Payment.xlsx](Files/Shopify_GraphQL_Payment.xlsx) file, you can find the mapping of Acumatica ERP fields on the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form to Shopify default and custom fields. The system uses this mapping during the export, import, and bidirectional sync of the payment data to Shopify.
 
 Particularly, you can see how each Acumatica ERP field was previously mapped to Shopify fields through the REST API, and how it's now mapped using GraphQL.
 
-## Fields Unavailable in GraphQL {#_3c04f7b9-0909-46e3-a795-f1efe356bfe7 .section}
+## Fields Unavailable in GraphQL
 
 The following table lists the fields that were:
 

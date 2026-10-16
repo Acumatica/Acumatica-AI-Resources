@@ -1,18 +1,18 @@
-# Expense Receipts: To Approve Expense Receipts {#_0845f8a2-2c73-434c-9e12-bada2bc918db .task}
+# Expense Receipts: To Approve Expense Receipts
 
 The following activity will walk you through the process of approving expense receipts.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
-Suppose that David Chubb, an employee of the sales department at the SweetLife Fruits &amp; Jams company, had a business trip to the Italian Company customer, whose head office is in San Francisco. David bought the round-trip flight tickets from New York to San Francisco and paid $550 with a personal credit card. In San Francisco, David took a taxi and paid $55. also with a personal credit card.
+Suppose that David Chubb, an employee of the sales department at the SweetLife Fruits &amp; Jams company, had a business trip to the Italian Company customer, whose head office is in San Francisco. David bought the round-trip flight tickets from New York to San Francisco and paid $550 with a personal credit card. In San Francisco, David took a taxi and paid $55, also with a personal credit card.
 
 In accordance with the SweetLife Fruits &amp; Jams company's expense management policy, all expenses made by employees of the sales department that are greater than $50 but less than $100 must be approved by Ian Pick, the head of the sales department. All expenses receipts that are equal to or greater than $100 must be approved by Anna Johnson, the accountant.
 
 First, acting as David Chubb, you will enter these expenses into the system to request reimbursement. Then, acting as Ian Pick, you will approve David's taxi expense. Finally, acting as Anna Johnson, you will approve David's flight ticket expense.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -22,18 +22,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *TRAVEL* and *TAXI* non-stock items with the *Expense* type have been created.
 -   On the [Employees](EP_20_30_00.md) \(EP203000\) form, accounts for David Chubb, Ian Pick, and Anna Johnson have been created and associated with the respective user accounts.
 
-## Process Overview { .section}
+## Process Overview
 
 First, you will create the expense receipts for the flight tickets and taxi payments on the [Expense Receipt](EP_30_10_20.md) \(EP301020\) form. Then you will approve David's expense receipt for the taxi on the [Expense Receipt](EP_30_10_20.md) form. Finally, you will approve the expense receipt for David Chubb's flight tickets on the [Approvals](EP_50_30_10.md) \(EP503010\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
 -   Launch the Acumatica ERP website, and sign in as David Chubb by using the *chubb* username and the *123* password.
 -   In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to today’s date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating the First Expense Receipt { .section}
+## Step 1: Creating the First Expense Receipt
 
 To create an expense receipt to enter the amount spent on the taxi, do the following:
 
@@ -51,7 +51,7 @@ To create an expense receipt to enter the amount spent on the taxi, do the follo
     The status has changed to *Pending Approval*.
 
 
-## Step 2: Creating the Second Expense Receipt { .section}
+## Step 2: Creating the Second Expense Receipt
 
 To create the expense receipt for the purchased flight tickets, do the following while remaining on the [Expense Receipt](EP_30_10_20.md) \(EP301020\) form:
 
@@ -66,7 +66,7 @@ To create the expense receipt for the purchased flight tickets, do the following
 5.  On the form toolbar, click **Submit** and notice that the receipt has been assigned the *Pending Approval* status.
 6.  Sign out from the system.
 
-## Step 3: Approving the First Expense Receipt { .section}
+## Step 3: Approving the First Expense Receipt
 
 To approve David Chubb's expense receipt for the taxi payment, do the following:
 
@@ -83,7 +83,7 @@ To approve David Chubb's expense receipt for the taxi payment, do the following:
 
 6.  Sign out from the system.
 
-## Step 4: Approving the Second Expense Receipt { .section}
+## Step 4: Approving the Second Expense Receipt
 
 To approve David Chubb's expense receipt for the flight ticket payment, do the following:
 

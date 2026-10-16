@@ -1,4 +1,4 @@
-# Approving Accounts Payable Documents {#_5c1cb842-8578-4766-a837-8b0c31ef5cfe .concept}
+# Approving Accounts Payable Documents
 
 In most companies, approval of vendor bills and payments to vendors by the designated employees is required before the documents are processed in the accounting systems and paid. Approvals are used, for example, to prevent double-payments of bills or payments for inaccurate or fraudulent bills.
 
@@ -10,7 +10,7 @@ In this topic, you will read about setting up approval workflow for AP documents
 
 **Note:** The functionality is available only if the *Approval Workflow* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Approval Workflow {#section_ffh_njv_vxb .section}
+## Approval Workflow
 
 In some companies, authorized employees approve AP bills for payment before other users can pay these bills. With this capability set up, all released bills are available for payment only after they are approved by an authorized person. The approval is performed by using a specific form to which you should restrict access for all other employees except the authorized ones. For details, see [Bill Approval for Payment](AP__con_Bill_Approval_for_Payment.md).
 
@@ -35,13 +35,13 @@ By using the *Approval Workflow* feature, you can configure an approval workflow
 |Purchase orders|[Specific Approvals: Purchase Orders](../ImplementationGuide/PO__con_Purchase_Order_Approvals.md)|
 |Purchase requests and requisitions|[Approval Configuration: Approval Maps](../ImplementationGuide/config_Approvals_Create_Approval_Maps.md)|
 
-## Configuration of the Approval Workflow {#section_kfh_njv_vxb .section}
+## Configuration of the Approval Workflow
 
 For general information about the configuration of approvals in the system, see [Approval Configuration: General Information](../ImplementationGuide/config_Approvals_General_Info.md).
 
-For information about configuration of the approval workflow of AP documents, see [Specific Approvals: Accounts Payable Documents](../ImplementationGuide/config_Approvals_AP_Documents.md)
+For information about configuration of the approval workflow of AP documents, see [Specific Approvals: Vendors and Accounts Payable Documents](../ImplementationGuide/config_Approvals_AP_Documents.md)
 
-## Processing of AP Documents with Approvals Set Up {#section_pfh_njv_vxb .section}
+## Processing of AP Documents with Approvals Set Up
 
 With approvals set up, when an AP document that is subject to approval is created, saved, and taken off hold, it gets the *Pending Approval* status. The responsible approver receives an email notification \(if an email notification template is specified for this approval process\) about the document pending his or her approval. On the [Approvals](EP_50_30_10.md) \(EP503010\) form, an approver can review the list of documents pending approval, and can select one record or multiple records in the list and approve them.
 

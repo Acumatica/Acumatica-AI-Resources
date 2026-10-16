@@ -1,10 +1,10 @@
-# Integration of Field Services and Projects: Workflow Setup {#_42f3b7d5-cfdf-468e-b4e1-848ef4f3ad5c .concept}
+# Integration of Field Services and Projects: Workflow Setup
 
 You can efficiently manage the services performed within a project's scope by using Acumatica ERP’s service management functionality. The integration of projects and services ensures that all costs related to the provided services are accurately tracked and allocated to the project. To use the service management functionality while performing projects, you need to configure the basic project accounting and service management functionalities to provide integration between projects and service management.
 
 Once this integration has been configured, you can create service documents \(that is, service orders and appointments\) linked to projects; in these documents, you can associate services and stock items with project tasks. When the service documents are billed, project transactions are generated, and all associated costs are recorded in the project's cost budget. The setup process is described in detail in the sections of this topic.
 
-## Setting Up the Integration of Service Management and Projects { .section}
+## Setting Up the Integration of Service Management and Projects
 
 **Important:** Before you begin this configuration, the *Service Management* and *Projects* features must be enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. Additionally, the project accounting functionality and the service management functionality must be configured in your Acumatica ERP instance. For details, see [Basic Project Configuration: General Information](../ImplementationGuide/config_Project_Basic_GeneralInfo.md) and [Basic Service Management Configuration: General Information](../ImplementationGuide/config_ServMgmt_with_Inventory_GeneralInfo.md).
 
@@ -21,47 +21,124 @@ To establish a workflow between service management and project management, you n
 
 Once the configuration has been completed, you can create a project with the necessary project tasks. For each project task that you plan to use with service documents, you specify the billing rule and the allocation rule. Afterward, you create and process the required service orders and appointments for the project. For details, see [Integration of Field Services and Projects: General Information](ServMgmt_Project_Through_Field_Services_GeneralInfo.md).
 
-## Creating Account Groups { .section}
+## Creating Account Groups
 
 To consolidate and manage project transactions in projects that involve service documents, you need to create the account groups listed in the table below.
 
 You create account groups on the [Account Groups](PM_20_10_00.md) \(PM201000\) form. You specify the type of each account group by selecting *Asset*, *Expense*, *Off-Balance*, or *Income* in the **Type** box of the Summary area of that form.
 
-|Purpose|Type|Configuration Actions|Description|
-|-------|----|---------------------|-----------|
-|An account group intended to track project transactions originating from service documents|*Asset*|Leave the **Accounts** tab empty on the [Account Groups](PM_20_10_00.md) form because no GL accounts are specified in project transactions originating in service documents. Thus, GL transactions are not generated and the general ledger is not updated. This account group should be specified in the settings of the project-related service order type. For details, see the *Creating a Project-Related Service Order Type* section of this topic.
+<table id="table_ujv_tbg_ncc"><thead><tr><th>
+
+Purpose
+
+</th><th>
+
+Type
+
+</th><th>
+
+Configuration Actions
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+An account group intended to track project transactions originating from service documents
+
+</td><td>
+
+*Asset*
+
+</td><td>
+
+Leave the **Accounts** tab empty on the [Account Groups](PM_20_10_00.md) form because no GL accounts are specified in project transactions originating in service documents. Thus, GL transactions are not generated and the general ledger is not updated. This account group should be specified in the settings of the project-related service order type. For details, see the *Creating a Project-Related Service Order Type* section of this topic.
 
 For this account group, the *UNBILLED* account group ID is used in the configuration settings described in the next sections of this topic. However, you can use any account group ID when creating this group in your system.
 
-|When the allocation process for the project is executed, the project transactions of this account group are reallocated to an account group intended to accumulate transactions waiting for billing \(described in the next row of this table\).|
-|An account group intended to temporarily accumulate project costs associated with services and non-stock items that have been provided but not yet billed|*Off-Balance*|Leave the **Accounts** tab empty on the [Account Groups](PM_20_10_00.md) form.This account group should be specified in the billing rule settings. The transactions recorded to this account group will be billed when the project billing process is run. For details, see the *Creating a Billing Rule* section of this topic.
+</td><td>
+
+When the allocation process for the project is executed, the project transactions of this account group are reallocated to an account group intended to accumulate transactions waiting for billing \(described in the next row of this table\).
+
+</td></tr><tr><td>
+
+An account group intended to temporarily accumulate project costs associated with services and non-stock items that have been provided but not yet billed
+
+</td><td>
+
+*Off-Balance*
+
+</td><td>
+
+Leave the **Accounts** tab empty on the [Account Groups](PM_20_10_00.md) form.This account group should be specified in the billing rule settings. The transactions recorded to this account group will be billed when the project billing process is run. For details, see the *Creating a Billing Rule* section of this topic.
 
 For this account group, the *WIP \(Work in Progress\)* account group ID is used in the configuration settings described in the next sections of this topic. However, you can use any account group ID when creating this group in your system.
 
-|When the allocation process for the project is executed, project transactions from this account group are reallocated to the *Expense* account group \(described in the next row of this table\) to recognize service-related project expenses.|
-|An account group intended to record expenses related to non-stock items and services|*Expense*|Leave the **Accounts** tab empty if you do not plan to post expenses related to non-stock items and services. Add a GL account of the *Expense* type to this group on the **Accounts** tab on the [Account Groups](PM_20_10_00.md) form if you plan to post expenses related to non-stock items and services to the general ledger.
+</td><td>
+
+When the allocation process for the project is executed, project transactions from this account group are reallocated to the *Expense* account group \(described in the next row of this table\) to recognize service-related project expenses.
+
+</td></tr><tr><td>
+
+An account group intended to record expenses related to non-stock items and services
+
+</td><td>
+
+*Expense*
+
+</td><td>
+
+Leave the **Accounts** tab empty if you do not plan to post expenses related to non-stock items and services. Add a GL account of the *Expense* type to this group on the **Accounts** tab on the [Account Groups](PM_20_10_00.md) form if you plan to post expenses related to non-stock items and services to the general ledger.
 
 Depending on your decision, the **Post to GL** check box must be either selected or cleared in the settings of the *30* step of the allocation rule described in the *Creating an Allocation Rule* section of this topic.
 
 For this account group, the *LABOR* account group ID is used in the configuration settings described in the next sections of this topic. However, you can use any account group ID when creating this group in your system.
 
-|When the allocation process for the project is executed, project transactions from the *WIP* account group are moved to this account group to track the service-related project expenses.On the **Balances** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form, this account group will be listed so that you can track these expenses.
+</td><td>
 
-|
-|An account group intended to record expenses related to issuing stock items from a warehouse|*Expense*|Add the expense account of the reason code specified in the service order type settings to this account group on the **Accounts** tab of the [Account Groups](PM_20_10_00.md) form. This account group should be specified in the billing rule that will be used to bill projects that have project transactions with stock items. For details, see the *Creating a Billing Rule* section of this topic.
+When the allocation process for the project is executed, project transactions from the *WIP* account group are moved to this account group to track the service-related project expenses.On the **Balances** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form, this account group will be listed so that you can track these expenses.
+
+</td></tr><tr><td>
+
+An account group intended to record expenses related to issuing stock items from a warehouse
+
+</td><td>
+
+*Expense*
+
+</td><td>
+
+Add the expense account of the reason code specified in the service order type settings to this account group on the **Accounts** tab of the [Account Groups](PM_20_10_00.md) form. This account group should be specified in the billing rule that will be used to bill projects that have project transactions with stock items. For details, see the *Creating a Billing Rule* section of this topic.
 
 For this account group, the *MATERIAL* account group ID is used in the configuration settings described in the next sections of this topic. However, you can use any account group ID when creating this group in your system.
 
-|The system debits the expense account \(COGS\) specified in the reason code and mapped to this account group when the issue transaction generated from billing a service document is released.On the **Balances** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form, this account group will be listed so that you can track these expenses.
+</td><td>
 
-|
-|An account group intended to record project income|*Revenue*|Add a GL account of the *Income* type on the **Accounts** tab of the [Account Groups](PM_20_10_00.md) form. This account should be specified in the **Default Sales Account** box on the **Defaults** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form.
+The system debits the expense account \(COGS\) specified in the reason code and mapped to this account group when the issue transaction generated from billing a service document is released.On the **Balances** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form, this account group will be listed so that you can track these expenses.
 
-|The system uses the account of this account group in AR invoices generated during project billing. This account is credited when an AR invoice is released.|
+</td></tr><tr><td>
+
+An account group intended to record project income
+
+</td><td>
+
+*Revenue*
+
+</td><td>
+
+Add a GL account of the *Income* type on the **Accounts** tab of the [Account Groups](PM_20_10_00.md) form. This account should be specified in the **Default Sales Account** box on the **Defaults** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form.
+
+</td><td>
+
+The system uses the account of this account group in AR invoices generated during project billing. This account is credited when an AR invoice is released.
+
+</td></tr></tbody>
+</table>
 
 For detailed information about account groups and their types, see [Account Groups: General Information](Account_Groups_GeneralInfo.md).
 
-## Creating a Reason Code { .section}
+## Creating a Reason Code
 
 To record as project costs the expenses associated with issuing stock items from a warehouse, you need to create a reason code with the GL account assigned to a specific account group \(described in the fourth row of the table in the previous section\). You will then specify this reason code in the settings for the project-related service order type.
 
@@ -76,7 +153,7 @@ This reason code will be specified in the inventory issue that the system genera
 -   In the first line, an inventory account is credited by the cost of the stock item. In the **Quantity** column, the quantity is specified with a negative sign.
 -   In the second line, a project-related expense account is debited by the cost of the stock item. This GL account is specified in the reason code and, in turn, added to the project account group of the *Expense* type. In the **Quantity** column, the quantity is specified with a positive sign. Additionally, the system generates a project transaction for this line and inserts its reference number in the **Project Tran. ID** column.
 
-## Creating a Project-Related Service Order Type { .section}
+## Creating a Project-Related Service Order Type
 
 To integrate service orders and appointments with projects and generate project transactions, you first create a service order type with the appropriate project-related settings.
 
@@ -101,7 +178,7 @@ When you create a project-related service document, you specify the service orde
 -   On the [Service Orders](FS_30_01_00.md) \(FS300100\) form: The **Order Type** box of the Summary area
 -   On the [Appointments](FS_30_02_00.md) \(FS300200\) form: The **Service Order Type** box of the Summary area
 
-## Creating an Allocation Rule {#section_ktz_3sb_xcc .section}
+## Creating an Allocation Rule
 
 To cause the system to allocate project transactions generated from service documents, you need to create a dedicated allocation rule and specify this rule for each needed project task that is added on the **Tasks** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form.
 
@@ -176,7 +253,7 @@ Thus, you create an allocation rule with the following steps defined in the left
         -   **Debit Transaction** section, **Account Group** box: *Replace* and *LABOR*
         -   **Credit Transaction** section, **Account Group** box: *None*
 
-## Creating a Billing Rule {#section_r2t_dbj_xcc .section}
+## Creating a Billing Rule
 
 To bill projects that have project transactions generated from field service documents, you need to create a billing rule that contains two steps. The first step contains settings related to billing transactions containing non-stock items and services. The second step contains settings related to billing project transactions that have been generated for stock items.
 

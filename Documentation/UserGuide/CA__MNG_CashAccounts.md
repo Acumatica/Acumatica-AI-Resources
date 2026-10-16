@@ -1,4 +1,4 @@
-# Configuring Cash Accounts {#_dbcaef0b-a94c-4de9-83d3-783af727cb77 .concept}
+# Configuring Cash Accounts
 
 In Acumatica ERP, you can maintain as many cash accounts as you need to get a clear picture of your cash flow. To keep your chart of accounts simple, Acumatica ERP defines cash accounts separately rather than including them in the chart of accounts. You link cash accounts to accounts from the chart of accounts to track your cash transactions in the general ledger.
 

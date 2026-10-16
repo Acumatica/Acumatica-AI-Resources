@@ -1,4 +1,4 @@
-# Entering Taxes from the General Ledger {#_c753c1d6-5368-4cb5-a50e-fd00d78c790c .concept}
+# Entering Taxes from the General Ledger
 
 The topics of this chapter describe how to configure a tax and process a taxable transaction from the general ledger.
 

@@ -1,14 +1,14 @@
-# Customer Visibility: To Restrict Visibility to a Company {#_90609745-18fd-4154-83f6-1d9b23c2f7a3 .task}
+# Customer Visibility: To Restrict Visibility to a Company
 
 In this implementation activity, you will learn how to restrict the visibility of a customer to a particular company.
 
-## Story { .section}
+## Story
 
 Suppose that the management of Muffins &amp; Cakes has decided to implement the restriction of customer visibility. One of the customers, Candyy Cafe, works with the Muffins &amp; Cakes company, and users who are employees of other companies should not have access to this customer record. In other words, after the implementation of this restriction, Nenad Pasic, an accountant in SweetLife and Muffins &amp; Cakes, should be able to access the *CANDYY* customer and Anna Johnson, an accountant at all branches of SweetLife, should not be able to access this customer.
 
 Acting as a system administrator, you need to restrict the visibility of the *CANDYY* customer to the *MUFFINS* company only and make sure the appropriate access role has been specified for the branches of this company. You then need to verify that a user without this access role cannot access the customer, and that a user with this access role can access the customer.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -17,18 +17,18 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Users](../UserGuide/SM_20_10_10.md) \(SM201010\) form, for the *pasic* login, the *Branch MHead* and *Branch MRetail* roles are selected on the **Roles** tab. For the *johnson* login, the *Branch MHead* and *Branch MRetail* roles are not selected on the **Roles** tab.
 -   On the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form, the *CANDYY* customer account has been configured.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Companies](../UserGuide/CS_10_15_00.md) \(CS101500\) form, you will make sure that the access roles for the *MHEAD* and *MRETAIL* branches have been set up, and on the [Users](../UserGuide/SM_20_10_10.md) \(SM201010\) form, you will make sure that they have been assigned to one of the users. On the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form, you will set up a visibility restriction for the needed customer record. You will sign in to the tenant by using a username that is not assigned to any of the needed branch access role and then a username that is assigned to the branch access roles; in both cases, you will check for the ability to view the *CANDYY* customer. Finally, you will sign in to the *MRETAIL* branch and on create a document on the [Invoices and Memos](../UserGuide/AR_30_10_00.md) \(AR301000\) form, where you will select a branch of the *MUFFINS* company as an originating branch of the document.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start restricting the visibility of a customer record, sign in to a company with the *U100* dataset preloaded as a system administrator by using the following credentials:
 
 -   Username: *gibbs*
 -   Password: *123*
 
-## Step 1: Reviewing Branch Access Roles of the Users { .section}
+## Step 1: Reviewing Branch Access Roles of the Users
 
 To review the access roles assigned to the *pasic* and *johnson* users, do the following:
 
@@ -44,7 +44,7 @@ To review the access roles assigned to the *pasic* and *johnson* users, do the f
 7.  In the **Login** box, select *johnson*.
 8.  In the table on the **Roles** tab, review the access roles assigned to this user. Notice that the *Branch MHead* and *Branch MRetail* access roles have the **Selected** check box cleared for their rows; these access roles have not been assigned for this user.
 
-## Step 2: Restricting the Visibility of a Customer Record { .section}
+## Step 2: Restricting the Visibility of a Customer Record
 
 To restrict the visibility of the *CANDYY* customer record, do the following:
 
@@ -53,7 +53,7 @@ To restrict the visibility of the *CANDYY* customer record, do the following:
 3.  On the **Financial** tab \(**Financial Settings** section\), select *MUFFINS - Muffins &amp; Cakes* in the **Restrict Visibility To** box.
 4.  On the form toolbar, click **Save** to save your changes.
 
-## Step 3: Reviewing the Visibility of the Customer Record { .section}
+## Step 3: Reviewing the Visibility of the Customer Record
 
 To review the visibility of the customer record, do the following:
 
@@ -75,7 +75,7 @@ To review the visibility of the customer record, do the following:
     On the [Invoices and Memos](../UserGuide/AR_30_10_00.md) \(AR301000\) form, when you are creating an AR document and select a customer, the system automatically populates the **Branch** box on the **Financial Details** tab with the default branch of the selected location. \(This branch is considered the originating branch of the document.\) If the default branch is not specified, the originating branch is the current branch to which you are signed in.
 
 
-## Step 4: Selecting the Originating Branch in a Document for the Customer with Restricted Visibility { .section}
+## Step 4: Selecting the Originating Branch in a Document for the Customer with Restricted Visibility
 
 To create a document for the customer whose visibility has been restricted to the Muffins &amp; Cakes company, do the following:
 

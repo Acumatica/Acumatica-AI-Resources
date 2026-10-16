@@ -1,12 +1,12 @@
-# Configuring Production Cost Drivers: Configuration Prerequisites {#_ca00f54a-f902-4437-8ca6-f7e66baa831f .concept}
+# Configuring Production Cost Drivers: Configuration Prerequisites
 
 Before starting to create cost drivers for produced items, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, the *Manufacturing* feature must be enabled.
 
-## Configuring the System { .section}
+## Configuring the System
 
 Before you create records for tools, machines, overhead, and labor codes in Acumatica ERP, you need to make sure that the following actions have been performed in the system:
 

@@ -1,4 +1,4 @@
-# Processing Debit and Credit Adjustments {#_2cc32482-81c4-413e-b3c2-1bb241d5b041 .concept}
+# Processing Debit and Credit Adjustments
 
 Once it has been released, an accounts payable document cannot be edited or deleted; to correct it, you can issue an adjustment. Debit adjustments decrease the accounts payable balance, and credit adjustments increase the accounts payable balance \(that is, they increase your company's liabilities\).
 

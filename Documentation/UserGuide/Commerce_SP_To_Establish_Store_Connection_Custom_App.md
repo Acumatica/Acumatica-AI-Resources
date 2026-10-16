@@ -1,18 +1,18 @@
-# Initial Configuration: To Establish the Store Connection with a Custom App {#_5b501ed1-37c4-4209-a47a-953acfc128da .task}
+# Initial Configuration: To Establish the Store Connection with a Custom App
 
 The following activity will walk you through the process of creating a custom Shopify app and connecting your Shopify store to your Acumatica ERP instance with the credentials of the custom app.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company wants to sell jam in its online store, which is deployed on the Shopify platform. SweetLife is already using Acumatica ERP and now needs to integrate its instance with a new Shopify store. As SweetLife's implementation consultant, you need to create and install a custom app in your Shopify store and establish the connection between Acumatica ERP and the Shopify store using the app's credentials .
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create a custom app in the Shopify dev dashboard,and assign it the necessary access permissions. Then you will install the app and generate an access token for it. Finally, you will use the app's credentials to connect Acumatica ERP to your Shopify store.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -22,7 +22,7 @@ Before you start this activity, do the following:
 4.  Sign in to the Shopify store as the store owner.
 5.  Sign up for free to [https://postman.com/](https://postman.com/).
 
-## Step 1: Creating a Custom App { .section}
+## Step 1: Creating a Custom App
 
 Before you can establish a connection between your instance of Acumatica ERP and the online store, you need to create a custom app for the store as follows:
 
@@ -40,7 +40,7 @@ Before you can establish a connection between your instance of Acumatica ERP and
     Shopify creates the custom app, opens the *Acumatica ERP Custom* app page, and prompts to create the app version on the **Create version** page.
 
 
-## Step 2: Configuring the App { .section}
+## Step 2: Configuring the App
 
 After you have created the custom app, you need to configure it and assign API scopes to it. To do this, while you are still viewing the **Create version** page of the *Acumatica ERP Custom* app on the dev dashboard, do the following:
 
@@ -60,7 +60,7 @@ After you have created the custom app, you need to configure it and assign API s
 
 9.  In the left menu, click **Acumatica ERP Custom**.
 
-## Step 3: Installing the App { .section}
+## Step 3: Installing the App
 
 After you have created and configured the custom app, you need to install it to your Shopify store. To do this, while you are still viewing the *Acumatica ERP Custom* app on the dev dashboard, do the following:
 
@@ -78,7 +78,7 @@ After you have created and configured the custom app, you need to install it to 
     The system installs the app and opens the app page, displaying the example domain that was selected by default in the app settings and that we did not change. You can also see the app listed under **Apps** in the left menu.
 
 
-## Step 4: Locating the Client ID and Secret { .section}
+## Step 4: Locating the Client ID and Secret
 
 To locate the client ID and secret key for the custom app, do the following:
 
@@ -88,7 +88,7 @@ To locate the client ID and secret key for the custom app, do the following:
     On the **Settings** page that opens, in the **Credentials** section, notice the client ID and the secret key in the **Client ID** and **Secret** boxes, respectively. You can click the **Copy to clipboard** button next to them to copy them.
 
 
-## Step 5: Initiating Authorization { .section}
+## Step 5: Initiating Authorization
 
 To obtain the access token for your custom app, you first need to initiate authentication and obtain the authorization code. Do the following:
 
@@ -107,7 +107,7 @@ To obtain the access token for your custom app, you first need to initiate authe
 
 3.  Copy the authorization code from the URL of the page you have been redirected to. This URL should look similar to the following one, where the authorization code follows the *code=* text: *http://localhost/?code=&lt;authorization code&gt;&amp;hmac=&lt;hash-based message authentication code&gt;&amp;host=&lt;host code&gt;&amp;shop=&lt;store name&gt;.myshopify.com&amp;timestamp=&lt;time stamp&gt;*
 
-## Step 6: Obtaining the Access Token { .section}
+## Step 6: Obtaining the Access Token
 
 Having the client ID, secret, and the authorization code, you can obtain the access token. You will use Do the following:
 
@@ -126,7 +126,6 @@ Having the client ID, secret, and the authorization code, you can obtain the acc
     -   `code`: The authorization code that you obtained in Step 5 of this activity.
     As soon as you add a query parameter, Postman adds it to the URL.
 
-    ![](Images/activity_Commerce_SP_Store_Connection_Postman_Request.png "The Postman request")
 
 3.  Click **Send** to send the request.
 
@@ -135,7 +134,7 @@ Having the client ID, secret, and the authorization code, you can obtain the acc
     **Tip:** The authorization code is short-lived and typically expires within several minutes. If you receive the *400 - Oauth error* response, repeat the instructions of Step 5 to regenerate the authorization code, and send the request with the new code again.
 
 
-## Step 7: Establishing the Store Connection { .section}
+## Step 7: Establishing the Store Connection
 
 To establish a connection with the Shopify store, in your instance of Acumatica ERP, do the following:
 

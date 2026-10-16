@@ -1,8 +1,8 @@
-# Asset Migration: General Information {#_65a866ca-40ec-43f7-8684-fed5d4076488 .concept}
+# Asset Migration: General Information
 
 You can migrate assets with accumulated depreciation into Acumatica ERP without updating the general ledger. To migrate these assets, you can create a record for each asset manually or create an import scenario to import the existing records from another application.
 
-## Learning Objectives {#section_cwg_ljv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,11 +10,11 @@ In this chapter, you will learn how to do the following:
 -   Migrate multiple fixed assets from an Excel file to the system
 -   Apply the Section 179 deduction
 
-## Applicable Scenarios {#section_ewg_ljv_vxb .section}
+## Applicable Scenarios
 
 You create partially depreciated assets and migrate assets if you want to import assets from a legacy system so that you can maintain them in Acumatica ERP.
 
-## Manual Entry of Fixed Assets {#section_gwg_ljv_vxb .section}
+## Manual Entry of Fixed Assets
 
 Migration involves adding a fixed asset with accumulated depreciation to Acumatica ERP. If your company has a small number of fixed assets, you might decide to migrate these assets by manually entering them. Also, if you plan to create an import scenario, you typically begin the process by manually entering an asset so that you can learn the sequence of actions involved in entry.
 
@@ -36,7 +36,7 @@ To add an asset with accumulated depreciation manually, you first need to switch
     For details, see [Asset Migration: To Create a Partially Depreciated Asset](FixedAssets_Data_Migration_To_Create_Partially_Depr_Asset.md).
 
 
-## Fixed Asset Migration by Using an Import Scenario {#section_nwg_ljv_vxb .section}
+## Fixed Asset Migration by Using an Import Scenario
 
 To speed data migration, you can use an import scenario. An import scenario is a set of instructions for the system that specifies the actions to be executed for each record of the imported data as if the data is being entered manually on the specified form.
 
@@ -49,7 +49,7 @@ To import fixed assets by using an import scenario, you perform the following in
     **Tip:** In a production environment, after you have imported the data, you need to reconcile the fixed assets with the general ledger to make sure that all account balances are correct.
 
 
-## Application of the Section 179 Deduction {#section_rwg_ljv_vxb .section}
+## Application of the Section 179 Deduction
 
 **Attention:** This section covers concepts that are relevant for only businesses with operations in the United States.
 

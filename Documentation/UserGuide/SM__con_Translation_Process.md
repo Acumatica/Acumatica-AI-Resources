@@ -1,10 +1,10 @@
-# Translation Process {#_64819546-2b11-4e87-a7db-3a75b1249cb5 .concept}
+# Translation Process
 
 Acumatica ERP provides built-in localization functionality, so you can easily translate Acumatica ERP into any language without using third-party products. You can collect the strings used in the whole system or on a particular form, and translate them for any locale available in Acumatica ERP.
 
 This topic explains how to translate interface strings by using the built-in localization functionality of Acumatica ERP.
 
-## Translating Application Strings { .section}
+## Translating Application Strings
 
 In Acumatica ERP, various strings that are used on the application interface—such as element and column labels, error messages, and warnings—are stored within the code. Hence, the translation of the strings includes two steps: collecting strings and translating strings.
 
@@ -14,7 +14,7 @@ Translation of the collected strings from US English, which is the Acumatica ERP
 
 After you finish translating strings on the interface, when a user signs in to the system and selects a local language, the application will use strings translated to this language. For the strings that are not translated, the system will display the string value in the default language \(US English\).
 
-## Collecting the Strings for Translation {#section_rp3_5bc_gw .section}
+## Collecting the Strings for Translation
 
 Source strings include element labels, toolbar and menu items, drop-down list options, error messages, dialog box captions, and form names. When you localize the system for the first time or after you update your instance, you should collect all the strings used in the system for translation by clicking **Collect Strings** on the form toolbar of the [Translation Dictionaries](SM_20_05_40.md) \(SM200540\) form.
 
@@ -26,7 +26,7 @@ If you are collecting strings that were previously translated and if any of thes
 
 **Attention:** String collection is a time-consuming operation that should be performed during off-peak hours and never attempted on a busy production system.
 
-## Translating Strings {#section_r5w_5bc_gw .section}
+## Translating Strings
 
 Generally, translating strings is a straightforward process: In the **Default Values** table of the [Translation Dictionaries](SM_20_05_40.md) \(SM200540\) form, type the translation for each string that must be translated in the *&lt;Target Language&gt;* column and select the **Do Not Translate** check box for each string that does not require translation. When you're finished, click **Save**. The fully translated \(that is, translated into all languages defined in the system\) strings and the strings that do not require translation are hidden from the **Default Values** table.
 
@@ -65,7 +65,7 @@ For the detailed procedures, see [To Translate Bound Strings](SM__how_Translate_
 
 After you add translations for a string in all the languages defined in the system or mark a string as not requiring translation and save the result, the string is removed from the work area. You can see the fully translated strings and the excluded strings by selecting the **Show Localized** and **Show Excluded** check boxes, respectively, on the [Translation Dictionaries](SM_20_05_40.md) form.
 
-## Handling Multiple Occurrences of the Same String { .section}
+## Handling Multiple Occurrences of the Same String
 
 A string—such as an element label or a drop-down list option that is available on multiple forms—may be used in the interface multiple times. Depending on the context, the same string may require different translation. To address this situation, Acumatica ERP shows the resource or resources the string is associated with for each string listed in the **Default Values** table of the [Translation Dictionaries](SM_20_05_40.md) \(SM200540\) form. These resources, which are displayed in the **Key-Specific Values** table, indicate the entities in which specific string is used. You can provide correct translations for each occurrence of the string depending on its context.
 
@@ -73,7 +73,7 @@ A string—such as an element label or a drop-down list option that is available
 
 The translation you specify in the **Default Values** table is generally applied to all occurrences of the string automatically. But if you specify specific translations for certain occurrences in the **Key-Specific Values** table, the system will use the specific translations.
 
-## Reviewing the Translations on Forms { .section}
+## Reviewing the Translations on Forms
 
 To check if all the strings on a form are translated into a language defined in the system, you can turn on validation of translations on forms for the language on the [System Locales](SM_20_05_50.md) \(SM200550\) form. For the detailed procedure, see [To Turn On Validation of Translations](SM__how_Activate_Validation.md).
 
@@ -87,7 +87,7 @@ You can click the warning to expand the list. Each warning includes the type and
 
 After you translate all strings into a language and validate the translations, you can turn off the validation of translations, as described in [To Turn Off Validation of Translations](SM__how_Deactivate_Validation.md).
 
-## Exporting and Importing Strings { .section}
+## Exporting and Importing Strings
 
 You can export strings, translate them by using third-party applications, and import back into Acumatica ERP. Translated strings are loaded into the system as a locale dictionary and are immediately applied to the user interface once a user signs into the system using a specific locale.
 
@@ -99,7 +99,7 @@ To export and import strings, use the corresponding buttons on the table toolbar
 
 **Tip:** The exported file includes only the strings displayed in the table, based on the filtering applied on the [Translation Dictionaries](SM_20_05_40.md) form.
 
-## Correcting Translations { .section}
+## Correcting Translations
 
 At any time during the translation process you may need to change the translation of a string—for example, to correct a typo. You can use the [Translation Dictionaries](SM_20_05_40.md) \(SM200540\) form to correct the translation. The steps to correct the translation depend on the string whose translation you want to correct:
 
@@ -109,7 +109,7 @@ At any time during the translation process you may need to change the translatio
 
 If you know when the translation has been added or modified, you can use filtering to view only strings with translations added and modified after the date by specifying the dates in the **Created Since** and **Modified After** boxes, respectively.
 
-## Updating Translations { .section}
+## Updating Translations
 
 Sometimes the values of particular strings change. For example, this may happen if the functionality of a form is changed during an update of your Acumatica ERP instance or if a customization has been applied to a form by the customizers in-house. When you collect strings, if any of the previously translated strings have not been found during the new collection process, these strings are considered obsolete and displayed on the **Obsolete** tab of the [Translation Dictionaries](SM_20_05_40.md) \(SM200540\) form. Strings with new values appear on the **Collected** tab as untranslated strings.
 
@@ -117,7 +117,7 @@ Sometimes the values of particular strings change. For example, this may happen 
 
 If any functionality is updated or customized in the system regularly, you may need to regularly collect the strings from the appropriate forms for translation. To do that, you should create a translation set in which you include a required form or forms by using the [Translation Sets](SM_21_15_00.md) \(SM211500\) form, and then add these sets to a schedule for automatic collection. For more information, see [Automated Processing: General Information](SA_Scheduling_Automated_Processing_GeneralInfo.md).
 
-## Translating Wiki Articles {#section_nq3_n3l_hw .section}
+## Translating Wiki Articles
 
 The Help wiki is created in the base language of Acumatica ERP, U.S. English. For a newly added locale, all articles will be displayed in this base language until you create locale-specific versions of the articles. For the detailed procedure, see [To Create a Localized Version of an Article](SM__how_Translate_Wiki_Article.md).
 

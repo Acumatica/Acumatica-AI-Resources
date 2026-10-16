@@ -1,4 +1,4 @@
-# Supporting UI Localization {#_06a993cf-56ad-4785-8dcd-b915ccf32354 .concept}
+# Supporting UI Localization
 
 Acumatica Framework provides built-in localization tools that you can use to translate the user interface and application messages to different languages. This chapter provides guidelines on how to prepare the Acumatica Framework application for localization efforts.
 

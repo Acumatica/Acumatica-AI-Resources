@@ -1,4 +1,4 @@
-# To Delete a Shared Filter from a Project {#_a296f5ff-9394-4cc0-a214-981d3ab19fd7 .concept}
+# To Delete a Shared Filter from a Project
 
 To remove a *SharedFilter* item from a project, perform the following actions:
 

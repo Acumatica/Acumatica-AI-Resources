@@ -1,4 +1,4 @@
-# Handling UI Events {#_56315187-e0c4-42e0-84fe-9c9ac6efbf3f .concept}
+# Handling UI Events
 
 The Acumatica ERP user interface implements handling of many runtime events. You may need to define custom handlers of UI events that the built-in system behavior does not cover. This part describes some of these scenarios and the ways you can manage them.
 

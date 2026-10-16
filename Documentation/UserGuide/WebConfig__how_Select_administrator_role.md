@@ -1,14 +1,14 @@
-# To Select Roles That Will Have Administrative Privileges {#_c51d3a6c-7a9e-4302-bb0a-3b70d894ab76 .task}
+# To Select Roles That Will Have Administrative Privileges
 
 In Acumatica ERP, the *Administrator* role has administrative privileges. For your instance, you can change the default settings and assign administrative privileges to one role or multiple roles whenever you need to.
 
-## Prerequisites { .section}
+## Prerequisites
 
 Configure the roles to which you want to give administrator privileges in your instance. For more information on role configuration, see [Configuring User Roles](User_Roles_Mapref.md).
 
-## To Select a Role or Multiple Roles That Will Have Administrative Privileges { .section}
+## To Select a Role or Multiple Roles That Will Have Administrative Privileges
 
-CAUTION:
+**CAUTION:**
 
 Make sure that all users of your website are warned about the site restart so that they can save all documents.
 

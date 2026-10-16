@@ -1,4 +1,4 @@
-# Configuration of the User Interface in Code {#_56b2353a-7fe3-4156-aa56-dcd774dba3e2 .concept}
+# Configuration of the User Interface in Code
 
 To set up the UI presentation, you should use a RowSelected event handler or the graph constructor. The RowSelected event happens several times during every round trip: at the end of each insertion, update, or deletion of a data record. The graph constructor is called once in the beginning of every round trip \(before any data is selected by data views\).
 
@@ -25,11 +25,11 @@ You can specify default UI options for a field in the PXUIField attribute in the
 
 For related data records \(in a one-to-many relationship\), you place the entire configuration of the UI presentation in the RowSelected event handler of the master data record. You can hide columns of the details grid only in the RowSelected handler for the master data record. In the RowSelected event handler of the detail record displayed in a grid, you can enable or disable data fields, but you cannot modify their visibility.
 
-## Using the Graph Constructor { .section}
+## Using the Graph Constructor
 
 The common UI presentation logic, which does not depend on particular values of the data record, can be implemented in the constructor of the graph. In the constructor, you cannot check the values of the currently selected data record, because no data records have been loaded yet. To implement the UI presentation specific to a data record, you should use the RowSelected event handler of the data record.
 
-## Working with Cache-Level and Record-Level Attributes { .section}
+## Working with Cache-Level and Record-Level Attributes
 
 Acumatica Framework initializes attributes during the startup of the domain or the first initialization of a graph that defines a CacheAttached event handler. During cache initialization, the appropriate attributes are copied to the cache level. The system can also create attributes of a data record level by copying cache-level attributes.
 

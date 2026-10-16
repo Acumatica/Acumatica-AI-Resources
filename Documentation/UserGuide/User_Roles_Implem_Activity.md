@@ -1,10 +1,10 @@
-# User Roles: To Configure Roles for Four Access Tiers {#_6c5091ee-ff61-4f7c-94fc-c057add340da .task}
+# User Roles: To Configure Roles for Four Access Tiers
 
 In the following activity, you will learn how to create user roles and specify access rights to system objects for the roles.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company has purchased an Acumatica ERP subscription in Acumatica Business Cloud. The instance has been installed by SaaS engineers, and a basic company configuration has been performed. The company has decided to have four access tiers:
 
@@ -15,7 +15,7 @@ Suppose that the SweetLife Fruits &amp; Jams company has purchased an Acumatica 
 
 You, as a system administrator, have decided to start implementation of the tiers with the general ledger functional area, and you will define one role for each tier. By default, the forms related to this area are grouped under the **Finance** workspace.
 
-## Process Overview { .section}
+## Process Overview
 
 To configure roles for four access tiers within the general ledger functional area, you will first prepare a spreadsheet with the list of forms of the functional area, and mark the category of each form to understand what this form is used for—configuration, data entry, processing, or reporting. Then you will add roles to the list and indicate the restriction level for each role against the form. For this activity, you will use the [GL\_4Tier\_Access](Files/User_Roles_GL_4Tier_Access.xlsx) spreadsheet, which was prepared to these specifications.
 
@@ -25,11 +25,11 @@ With the spreadsheet prepared, you will use the [User Roles](SM_20_10_05.md) \(S
 
 With the roles created, you will use the [Access Rights by Screen](SM_20_10_20.md) \(SM201020\) form to set up the access rights to multiple system objects for multiple roles.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as a system administrator, by using the *gibbs* username and the *123* password.
 
-## Step 1: Creating Roles { .section}
+## Step 1: Creating Roles
 
 To create the needed roles in the system, do the following:
 
@@ -46,7 +46,7 @@ To create the needed roles in the system, do the following:
     |`AA_GL_Auditor`|`Role for viewing records and reports`|
 
 
-## Step 2: Granting Access to All Forms of a Workspace { .section}
+## Step 2: Granting Access to All Forms of a Workspace
 
 To specify the access rights to multiple roles, do the following:
 
@@ -56,7 +56,7 @@ To specify the access rights to multiple roles, do the following:
 4.  In the right pane, for the *AA\_GL\_Manager* role, in the **Access Rights** column, select the *Granted* option. This role is planned to have the highest access level to most forms. To save time, you will grant access to all the forms of the workspace at once.
 5.  On the form toolbar, click **Save**.
 
-## Step 3: Modifying Access to a Form { .section}
+## Step 3: Modifying Access to a Form
 
 To modify the roles’ restriction levels for a form, do the following:
 

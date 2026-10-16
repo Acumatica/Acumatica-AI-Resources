@@ -1,4 +1,4 @@
-# Value-Added Taxes: Partially Deductible VAT {#_dac50b07-6295-4b2d-9f71-bc03e1ad664f .concept}
+# Value-Added Taxes: Partially Deductible VAT
 
 In some countries, certain VAT-registered companies are allowed to deduct a part of the tax paid to a vendor on purchases from their own VAT liability to the government. This type of VAT is called a *partially deductible VAT*. The deducted amount is claimed from the agency, while the non-deductible tax amount is recorded as expenses.
 

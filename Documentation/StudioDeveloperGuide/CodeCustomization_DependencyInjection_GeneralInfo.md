@@ -1,12 +1,12 @@
-# Dependency Injection: General Information {#_67164f06-37ff-40c1-9f33-55e6aa43b44e .concept}
+# Dependency Injection: General Information
 
 In the code of Acumatica Framework-based applications, you can use dependency injection to encapsulate particular logic as a service, which you can then use anywhere in your application.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You implement dependency injection if you need to reduce tight coupling between components and make code easier to maintain, test, and extend. By separating object creation from object usage, dependency injection allows implementations to be changed without affecting dependent code.
 
-## Implementation of Dependency Injection { .section}
+## Implementation of Dependency Injection
 
 To implement dependency injection in your application, you need to:
 

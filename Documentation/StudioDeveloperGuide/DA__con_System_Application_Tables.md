@@ -1,4 +1,4 @@
-# System and Application Tables {#_509aefc2-387b-4284-8ff8-ad5fc9b725be .concept}
+# System and Application Tables
 
 The database of your Acumatica Framework-based application consists of the following tables:
 

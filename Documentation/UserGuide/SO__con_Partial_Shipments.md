@@ -1,8 +1,8 @@
-# Partial Shipping of Orders {#_ebbe274b-5214-48e9-9db8-a27da4e1732d .concept}
+# Partial Shipping of Orders
 
 When you create a shipment for a sales order \(by using either [Sales Orders](SO_30_10_00.md) or [Process Orders](SO_50_10_00.md) form\), the system checks the availability of the items included in the sales order and uses the shipping rules to determine whether the shipment can be created. This topic describes how the partial shipments are created and processed, and how to add zero lines for the items that currently are not available for shipment.
 
-## Shipping of Stock Items in Parts { .section}
+## Shipping of Stock Items in Parts
 
 You can create partial shipments for the sales orders if the **Shipping Rule** box on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form has the *Back Order Allowed* option selected and *Back Order Allowed* shipping rule is selected for at least one order line. These settings let you ship the available quantity of goods in one shipment and the remainder in one shipment or multiple shipments as the goods are received.
 
@@ -10,7 +10,7 @@ If the *Cancel Remainder* shipping rule is specified in a line, shipping for the
 
 When you create a shipment by using the [Sales Orders](SO_30_10_00.md) form, if the system detects that no shipment can be created according to the shipment rules \(due to a shortage of items\), the system displays a warning; you then decide how to process the order further. If you mass-create shipments for multiple sales orders from the [Process Orders](SO_50_10_00.md) form, and the system detects that no shipment can be created for a particular order according to the shipment rules, the system changes the status of the order to *Back Order*. For information, on how to replan back-orders, see [Back Ordering and Replanning Back Orders](SO__con_ReplanBackOrders.md).
 
-## Partial Shipping of Free Items { .section}
+## Partial Shipping of Free Items
 
 If a sales order is fulfilled with multiple partial shipments, the **Free Item Shipping** setting, located on the **Price/Discount Calculation** tab of the [Sales Orders Preferences](SO_10_10_00.md) \(SO101000\) form, defines how free items should be shipped: proportionally to the amounts of goods in the partial shipments \(*Proportional*\), or sent with the last shipment \(*On Last Shipment*\).
 
@@ -18,7 +18,7 @@ If free items are sent with the last shipment and only part of the needed quanti
 
 If the quantity of the free items should be distributed between the partial shipments, the total quantity of free items on all partial shipments for the order may be less than the quantity initially calculated for the applicable group discount, because the system rounds the free item quantity down on each partial shipment. In such a case, you can add the missing quantity of the free item manually to any of the partial shipments.
 
-## Shipments With Zero Lines { .section}
+## Shipments With Zero Lines
 
 Your organization may prefer to send customer invoices that list all the items from their sales orders so that they can see which items were ordered but at the time were unavailable. To allow the system to add these zero lines to shipments, select the **Add Zero Lines for Items Not in Stock** check box on the [Sales Orders Preferences](SO_10_10_00.md) form.
 

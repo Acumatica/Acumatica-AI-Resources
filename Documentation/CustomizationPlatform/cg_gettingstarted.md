@@ -1,8 +1,8 @@
-# Getting Started {#_0a5adc4e-fc8c-4dea-85e2-8f90f9c5817a .concept}
+# Getting Started
 
 This chapter explains how to start developing a customization project and guides you to various useful chapters about the developing process.
 
-## To Start Developing a Customization Project: { .section}
+## To Start Developing a Customization Project:
 
 1.  Make sure you have the prerequired knowledge described in [Knowledge Prerequisites](cg_gs_knowledgeprerequisites.md).
 2.  Review [Preparation for the Acumatica ERP Installation: General Information](../UserGuide/INST_Preparing_Installation_GeneraInfo.md) in the Acumatica ERP Installation Guide.
@@ -18,7 +18,7 @@ This chapter explains how to start developing a customization project and guides
 
 You are ready to develop your customization project.
 
-## Implementing Customization { .section}
+## Implementing Customization
 
 As a rule, the process of resolving a customization task includes the following steps:
 

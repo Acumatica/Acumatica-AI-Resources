@@ -1,16 +1,16 @@
-# Workflow Customization: To Add an Action to an Existing Workflow {#_29131a64-ed56-42e0-9d3e-18a342bb7e2d .task}
+# Workflow Customization: To Add an Action to an Existing Workflow
 
 This activity will walk you through the process of adding an action to an existing workflow.
 
-## Story { .section}
+## Story
 
 To quickly continue working on a repair work order after an invoice has been prepaid, a user needs to be able to invoke a command that opens the corresponding repair work order from the [Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\) form. You will customize the workflow on the [Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\) form to add the **View Repair Work Order** command and its underlying action, which opens the repair work order. The **View Repair Work Order** command should be displayed under a new category called **Repair Work Orders**.
 
-## Process Overview { .section}
+## Process Overview
 
 To define a new action, in your extension library, you will first define the new action in a graph extension, and then you will create an extension for the updated workflow. In this extension, you will add a new action category and the new action to the screen configuration.
 
-## System Preparation { .section}
+## System Preparation
 
 Make sure that you have done the following:
 

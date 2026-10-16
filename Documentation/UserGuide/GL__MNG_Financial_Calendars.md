@@ -1,4 +1,4 @@
-# Generating Financial Calendars {#_2e1aae96-ae59-46a9-b1f7-951fa43df2fe .concept}
+# Generating Financial Calendars
 
 A *financial calendar* is a set of financial periods within which an organization records its revenues and expenses and plans future operations. A calendar consists of financial years, each year including a number of financial periods. In Acumatica ERP, the *master calendar* and *company calendars* are used. The *master calendar* is a set of financial periods generated for multiple years based on the financial year configuration specified for the tenant. A *company calendar* is a financial calendar that is used by a particular company within Acumatica ERP; it is based on the master calendar but can have the same number of financial periods as the master calendar does \(or fewer periods\).
 

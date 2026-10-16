@@ -1,4 +1,4 @@
-# Processing AR Documents with Value-Added Taxes {#_d3e7e316-5eab-4dc7-b8bb-de9e33edc10a .concept}
+# Processing AR Documents with Value-Added Taxes
 
 The topics of this chapter describe how to create and release an AR invoice and a credit memo with value-added taxes.
 

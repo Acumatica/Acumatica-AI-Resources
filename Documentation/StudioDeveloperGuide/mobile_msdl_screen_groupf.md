@@ -1,8 +1,8 @@
-# Grouping Fields on a Screen {#_41dc0754-bdef-4a00-9cac-df4fb5d49e6d .reference}
+# Grouping Fields on a Screen
 
-You can combine fields into groups to make data entry more logical and intuitive by using the group object, as the following example shows.
+You can combine fields into groups to make data entry more logical and intuitive by using the group object, as the following examples show.
 
-## Example: Grouping Fields { .section}
+## Example: Grouping Fields
 
 The following example enhances the Sales Order Preferences \(SO101000\) screen. To see an example of grouping fields into a group, add the Sales Orders Preferences \(SO101000\) screen to your customization project \(as described in [To Add a Screen to the Mobile Site Map \(Example\)](MOBILE_MobileSiteMap_AddingMSDL.md)\), copy the code below to the **Commands** area of the Add: SO101000 page, and publish the project.
 
@@ -30,7 +30,31 @@ You can see the result in the mobile application in the following screenshots.
 
 The left screenshot shows the **Data Entry Settings** group, which is initially collapsed. If the user clicks on the header of the group, the group is expanded, as shown in the right screenshot.
 
-![](Images/MOBILE_Groups.png "A collapsible group on a screen")
+
+## Example: Grouping Fields in a Panel
+
+You can display fields in a panel by setting the template attribute of the group object to *Panel*. The mobile app displays the objects in the group together in a panel.
+
+The following code shows a group that uses the *Panel* template.
+
+```
+add group "group2" {
+  template = Panel
+
+  add field "Descr" {
+    legacyName = "Resolution"
+    textType = PlainMultiLine
+  }
+
+  add field "NoteText" {
+    displayName = "Note"
+    textType = PlainMultiLine
+  }
+}
+```
+
+The following screenshot corresponds to the preceding MSDL code.
+
 
 **Parent topic:**[Configuring a Screen Layout](../StudioDeveloperGuide/MOBILE_MSDL_Layout.md)
 

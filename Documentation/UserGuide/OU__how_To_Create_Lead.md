@@ -1,4 +1,4 @@
-# To Create a Lead by Using the Acumatica Add-In {#_aeb66e54-ef32-4590-8fd9-cb7524701584 .task}
+# To Create a Lead by Using the Acumatica Add-In
 
 If you want to create a new lead by using the Acumatica add-in, do the following:
 

@@ -1,25 +1,24 @@
-# Formulas in Inquiry Results: General Information {#_83d3edbc-ebf1-4cc2-8b96-0671c4530cb8 .concept}
+# Formulas in Inquiry Results: General Information
 
 When you are developing or modifying generic inquiries in Acumatica ERP, you can use formulas to perform different operations with the values in the columns in the results grid, for greater flexibility to present the information users need.
 
 You can use formulas to perform different operations with the values of the columns in the results grid. Formulas give you the ability to use advanced calculations and data transformation functions if some values in the inquiry rows are calculated or depend on data in other data fields. To do this, you can type formulas manually into certain boxes, or you can use the Formula Editor dialog box to construct or edit these formulas. These formulas are similar to the formulas used in Excel. You can define parameters and construct a formula with the parameters by using operators and functions.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to modify an existing generic inquiry by using formulas as follows:
 
 -   Highlight a row, a column, or a cell with a particular color based on the value returned by the inquiry
 -   Concatenate multiple string values to make the contents of a column look like single values
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may find the information in this chapter useful when you are responsible for the customization of Acumatica ERP in your company, including developing and modifying generic inquiries to give users information they need to do their jobs. In some situations, you may want to perform calculations on values before presenting them or transform the data in some way.
 
-## Components of the Formula Editor Dialog Box { .section}
+## Components of the Formula Editor Dialog Box
 
 On the **Results Grid** tab of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form, each row represents a column in the resulting inquiry form. To specify a formula that determines the value in a column of the resulting inquiry form, you use the Formula Editor dialog box. To invoke the dialog box, you click a cell in the column of the needed row and then click the Edit button \(see Item 1 in the following screenshot\).
 
-![](Images/GI_Using_Formulas_GS_with_GI_Formula_Editor.png "The Formula Editor components")
 
 The Formula Editor dialog box includes the following panes:
 
@@ -29,7 +28,7 @@ The Formula Editor dialog box includes the following panes:
 
 You can enter the formula directly in the Formula Text pane or compose it by selecting fields and using operators and functions.
 
-## Use of Formulas to Highlight Rows and Columns { .section}
+## Use of Formulas to Highlight Rows and Columns
 
 On the **Results Grid** tab of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form, you can use formulas to specify the highlighting color of a row, a column or a particular cell in the inquiry results.
 
@@ -39,9 +38,8 @@ If you would like to use red highlighting for only the cell in the **Priority** 
 
 When you invoke the Formula Editor in the **Row Style** box or in the **Style** column of the **Results Grid** tab, the system displays the **Styles** component type in the Component Type pane of the Formula Editor. The Component Selection pane lists the available colors from this component type, as shown in the following screenshot.
 
-![](Images/GI_Using_Formulas_GS_with_GI_Formula_Editor_Styles.png "The Styles component type")
 
-## Usage of Formulas for String Values { .section}
+## Usage of Formulas for String Values
 
 You can use formulas for text strings—for example, to change uppercase to lowercase, to select a part of a string, to replace a string value with a new one, or to concatenate multiple strings. When you select the text category, you can find all the available functions listed in the Formula Editor.
 

@@ -1,10 +1,10 @@
-# Equipment Types {#_b85a1280-51b8-48d7-8fba-4fbd7d570316 .concept}
+# Equipment Types
 
 In Acumatica ERP, you can enter equipment types, which are categories that are used for grouping equipment and associating a group of equipment with a service. You create equipment types, specify the appropriate type for each resource or target equipment, and assign equipment types to services. These steps ensure that the right equipment will later be selected to perform these services.
 
 In this topic, you will read about how equipment types are created and assigned to services in the system.
 
-## Creating Equipment Types { .section}
+## Creating Equipment Types
 
 Equipment types structure the data in the system and make it easier to select the right equipment for performing services. Equipment of one equipment type is used for similar types of work. For instance, if your company provides installation services, you might create the first equipment type for all drills of the company and the second equipment type for screwdrivers. You create equipment types on the [Equipment Types](FS_20_08_00.md) \(FS200800\) form.
 
@@ -12,7 +12,7 @@ If you need to specify properties for the equipment of the type beyond those tra
 
 Once you have created the equipment types, you can assign them to the appropriate resource or target equipment. You can also specify an equipment type for a manufacturer model.
 
-## Setting Up Attributes for Equipment Type {#_5903681c-4c3c-417e-af0b-d127f27487b7 .section}
+## Setting Up Attributes for Equipment Type
 
 To give users the ability to specify additional properties \(that is, attributes\) that your organization wants to track for equipment of a particular type, you list those attributes and their settings on the **Attributes** tab of the [Equipment Types](FS_20_08_00.md) \(FS200800\) form. The active attributes you define for the equipment type are listed for equipment of this type on the **Attributes** tab of the [Equipment](FS_20_50_00.md) \(FS205000\) form.
 
@@ -24,7 +24,7 @@ You can deactivate an obsolete attribute for equipment of a particular type by c
 
 However, if it is not necessary to preserve the data related to an obsolete attribute, you can deactivate the attribute and then delete it by using the **Delete Row** button on the table toolbar. In this case, the attribute will be permanently deleted from the type and all attribute values will be deleted from the database.
 
-## Assigning Equipment Types to Services { .section}
+## Assigning Equipment Types to Services
 
 You can specify which types of resource equipment are needed for each service. Services are defined in the system as non-stock items of the *Service* type on the [Non-Stock Items](IN_20_20_00.md#) \(IN202000\) form. You assign the appropriate equipment types to the service on the **Resource Equipment Types** tab of this form.
 

@@ -1,4 +1,4 @@
-# Types of Graph Event Handlers {#_94d73d75-d469-4a86-8b47-99cf305cc592 .concept}
+# Types of Graph Event Handlers
 
 Acumatica Framework provides two types of graph event handlers: classic and generic. To declare a classic event handler, you specify the DAC name, the field name, and the type of event in the handler name. To declare a generic event handler, you specify the field name and the DAC name as type parameters of the event type. Both types of event handlers work the same.
 
@@ -6,7 +6,7 @@ We recommend using generic event handlers because they are easier to declare, us
 
 **Tip:** All examples in the subsequent topics demonstrate generic event handlers.
 
-## Classic Event Handlers { .section}
+## Classic Event Handlers
 
 Classic event handlers have the following signature:
 
@@ -31,7 +31,7 @@ protected virtual void CROpportunityProducts_RowSelected(
 …}
 ```
 
-## Generic Event Handlers { .section}
+## Generic Event Handlers
 
 Generic event handlers have the following signature:
 

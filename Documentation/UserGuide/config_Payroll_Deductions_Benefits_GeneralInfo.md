@@ -1,8 +1,8 @@
-# Deduction and Benefit Codes: General Information {#_1e1030ef-99f5-4c8a-b48f-a9ad9d9f573e .concept}
+# Deduction and Benefit Codes: General Information
 
 A deduction code reduces the employee net pay and a benefit code increases the cost of payroll for the company. In Acumatica ERP, a deduction and benefit code may include an employee \(deduction\) or an employer \(contribution\) component, or both components. Each component may involve complex calculation methods. Also, a deduction and benefit code may or may not be subject to various taxes.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -13,11 +13,11 @@ In this chapter, you will learn how to do the following:
 -   Specify what earning types may be used in the calculation of deductions and benefits
 -   Specify which payroll items may increase or decrease the applicable wage, if applicable
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure deduction and benefit codes if you need to calculate employee deductions and employer contributions to employee wages.
 
-## Creation of a Deduction and Benefit Code { .section}
+## Creation of a Deduction and Benefit Code
 
 You can create deduction and benefit codes by using the [Deduction and Benefit Codes](PR_10_10_60.md) \(PR101060\) form.
 
@@ -25,7 +25,7 @@ For each code, you need to specify in the **Contribution Type** box whether it s
 
 You can also specify a vendor for a deduction and benefit code. This vendor is to be owed the liability resulting from the deduction or benefit and will be used for an AP liability bill.
 
-## Calculation of Deductions and Benefits { .section}
+## Calculation of Deductions and Benefits
 
 Depending on the contribution type specified for the deduction and benefit code, on the **Employee Deduction** or **Employer Contribution** tab \(or on both tabs\) of the [Deduction and Benefit Codes](PR_10_10_60.md) \(PR101060\) form, you can select one of the following options in the **Calculation Method** box:
 
@@ -78,7 +78,7 @@ In the **Applicable Earnings** box on these tabs, you can specify what earning t
     This option appears in the drop-down list only if the *Amount per Hour* calculation method is specified on this tab.
 
 
-## Deduction and Benefit Code Source { .section}
+## Deduction and Benefit Code Source
 
 Each deduction and benefit code can be associated with only one source: employee settings, certified projects, unions, or workers’ compensation codes. You can select a source in the **Associated With** box on the [Deduction and Benefit Codes](PR_10_10_60.md) \(PR101060\) form.
 
@@ -86,25 +86,25 @@ With this capability, correct YTD, QTD, and MTD amounts of deductions and benefi
 
 For an existing deduction and benefit code, you cannot modify the **Associated With** option specified for the code if the code is already associated with an entity or payment.
 
-## Workers' Compensation Codes { .section}
+## Workers' Compensation Codes
 
 Workers' compensation is calculated through the use of deduction codes. If *Workers' Compensation* is selected in the **Associated With** box on the [Deduction and Benefit Codes](PR_10_10_60.md) \(PR101060\) form, the **WCC Code** tab appears on that form, where you can specify all WCC code rates that should be calculated for the specified state through the selected deduction code. For each WCC code, you need to specify a rate, which is applicable in the specified state.
 
 If you need to calculate workers' compensation for different states, you should create and set up a deduction code for each state.
 
-## Reporting { .section}
+## Reporting
 
 In the **Reporting Type** box on the **Employee Deduction** and **Employer Contribution** tabs of the [Deduction and Benefit Codes](PR_10_10_60.md) \(PR101060\) form, you can specify if the contribution is to appear in Box 12 of the W-2 report and which code it will use. If the contribution should not appear in Box 12 of the W-2 report, you need to select the *0-Normal* option.
 
-## Taxes { .section}
+## Taxes
 
 If you select the **Affects Tax Calculation** check box, the **Tax Settings** tab becomes available on the [Deduction and Benefit Codes](PR_10_10_60.md) \(PR101060\) form. You can use that tab to determine which taxes this code is subject to.
 
-## ACA Information { .section}
+## ACA Information
 
 You can mark a deduction and benefit code as containing ACA information by selecting the **ACA Applicable** check box in the Summary area of the [Deduction and Benefit Codes](PR_10_10_60.md) \(PR101060\) form. As a result, the **ACA Information** tab will appear on the form where you can specify information needed for ACA reporting. For further details, see [Government Reporting: Affordable Care Act \(ACA\) Reporting](Payroll_Government_Reporting_ACA_Reporting.md).
 
-## Benefits with No Impact on the General Ledger { .section}
+## Benefits with No Impact on the General Ledger
 
 You can create benefits that do not produce financial transactions and thus have no impact on the posting to the general ledger. To set up such a benefit, select the **No Financial Transaction** check box on the **Employer Contribution** tab of the [Deduction and Benefit Codes](PR_10_10_60.md) \(PR101060\) form.
 
@@ -116,7 +116,7 @@ You do not need to specify GL accounts for the benefit when setting up the deduc
 
 If the deduction and benefit code is associated with a certified project, the system uses this code in calculations for the certified project. Also, if a certified reporting type is specified for the deduction and benefit code, this code is available for selection in the **Benefits Reducing the Rate** table on the **Fringe Benefits** tab of the [Certified Projects](PR_20_99_00.md) \(PR209900\) form.
 
-## Payable Benefits { .section}
+## Payable Benefits
 
 A payable benefit is a recurring payment that may be included in employee paychecks. To be able to set up a payable benefit, you need to select the **Payable Benefit** check box in the Summary area of the [Deduction and Benefit Codes](PR_10_10_60.md) \(PR101060\) form.
 

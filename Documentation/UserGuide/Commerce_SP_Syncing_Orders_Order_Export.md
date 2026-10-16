@@ -1,8 +1,8 @@
-# Order Synchronization: Export of Orders to the Shopify Store {#_d6ea8e6f-14bc-4a91-9ac3-dadce204606c .concept}
+# Order Synchronization: Export of Orders to the Shopify Store
 
 You can import sales orders placed in Acumatica ERP to the Shopify store.
 
-## Setting Up the Order Export { .section}
+## Setting Up the Order Export
 
 Before sales orders can be exported to a Shopify store, you need to specify the order type of the orders that can be exported to the Shopify store. To do this, you select the type in the new **Order Types for Export** box on the **Orders** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form.
 
@@ -20,7 +20,7 @@ A sales order is exported if it has the order type selected in the store setting
 
 When a sales order created in Acumatica ERP is exported, it is assigned the *Paid* status in Shopify regardless of its open balance in Acumatica ERP. If the sales order has not yet been fully paid, you need to collect the payment and create the corresponding payment document in Acumatica ERP.
 
-## Exporting Customers, Items, and Taxes {#section_imn_gj3_g5b .section}
+## Exporting Customers, Items, and Taxes
 
 A customer specified in a sales order in Acumatica ERP is exported along with the order. If the customer has not been previously exported to the Shopify store, the retail-commerce connector creates it in the Shopify store and adds it to the exported sales order during the order export.
 
@@ -28,7 +28,7 @@ Stock and non-stock items added to a sales order in Acumatica ERP must be synchr
 
 The synchronization of the taxes applied to a sales order depends on the state of the **Tax Synchronization** check box on the **Orders** tab \(**Taxes** section\) of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form for the store. If the **Tax Synchronization** check box is selected, taxes corresponding to the tax IDs from the order settings are created and applied to the exported sales order in the Shopify store. These tax IDs as listed on the **Taxes** tab of the [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 
-## Updating Synchronized Orders {#section_myz_fk3_g5b .section}
+## Updating Synchronized Orders
 
 After a sales order has been exported from Acumatica ERP to a Shopify store, you can still make changes to the sales order in Acumatica ERP if these changes do not affect the order total. For example, you can update the shipping address or change the customer's email address or phone number. The sales order can then be resynchronized so that the sales order in the Shopify store reflects the most recent changes.
 

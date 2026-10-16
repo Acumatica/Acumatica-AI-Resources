@@ -1,23 +1,23 @@
-# Product Synchronization: To Synchronize Stock Items with Attributes {#_791edb40-a873-4f0f-8b56-043ce6b76af5 .task}
+# Product Synchronization: To Synchronize Stock Items with Attributes
 
 The following activity will walk you through the processes of creating an attribute for a stock item and synchronizing this item with the BigCommerce store.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company wants to display the sugar levels of jams it sells in the online store on the product detail pages on the storefront.
 
 Acting as an implementation consultant helping SweetLife to set up the integration of Acumatica ERP with the BigCommerce store, you need to define an attribute for the sugar level and then export these sugar levels to the BigCommerce store.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Item Classes](IN_20_10_00.md) \(IN201000\) form, the *JAM* item class has been defined.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *CHERJAM96* stock item of the *JAM* item class has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will perform the following:
 
@@ -29,7 +29,7 @@ In this activity, you will perform the following:
 6.  On the [Process Data](BC_50_15_00.md) \(BC501500\) form, process the data prepared for synchronization.
 7.  In the control panel of the BigCommerce store, review the exported product.
 
-## System Preparation { .section}
+## System Preparation
 
 Before performing the instructions of this activity, do the following:
 
@@ -41,7 +41,7 @@ Before performing the instructions of this activity, do the following:
     -   **Password**: *123*
 3.  Sign in to the control panel of the BigCommerce store as the store administrator.
 
-## Step 1: Creating an Attribute { .section}
+## Step 1: Creating an Attribute
 
 To create an attribute that will indicate the sugar level of products, do the following:
 
@@ -52,7 +52,7 @@ To create an attribute that will indicate the sugar level of products, do the fo
     -   **Control Type**: *Text*
 3.  On the form toolbar, click **Save**.
 
-## Step 2: Adding the Attribute to the Needed Item Class { .section}
+## Step 2: Adding the Attribute to the Needed Item Class
 
 To add the *Sugar Level* attribute to the *JAM* item class, do the following:
 
@@ -62,7 +62,7 @@ To add the *Sugar Level* attribute to the *JAM* item class, do the following:
 4.  In the added row, in the **Attribute ID** column, select *SUGARLEVEL*.
 5.  On the form toolbar, click **Save**.
 
-## Step 3: Assigning a Value to the Added Attribute { .section}
+## Step 3: Assigning a Value to the Added Attribute
 
 To assign a specific value to the created attribute for the *CHERJAM96* stock item, do the following:
 
@@ -70,7 +70,7 @@ To assign a specific value to the created attribute for the *CHERJAM96* stock it
 2.  In the **Attributes** table on the **Attributes** tab, in the row with the *Sugar Level* attribute, enter `Sugar-free` as the **Value**.
 3.  On the form toolbar, click **Save**.
 
-## Step 4: Mapping the Attribute to a Field in the BigCommerce Store { .section}
+## Step 4: Mapping the Attribute to a Field in the BigCommerce Store
 
 To map the *Sugar Level* attribute with the BigCommerce field, do the following:
 
@@ -85,7 +85,7 @@ To map the *Sugar Level* attribute with the BigCommerce field, do the following:
     -   **ERP Field / Value**: *Sugar Level*
 3.  On the form toolbar, click **Save**.
 
-## Step 5: Preparing Product Data for Synchronization { .section}
+## Step 5: Preparing Product Data for Synchronization
 
 To prepare the product data for synchronization, do the following:
 
@@ -101,7 +101,7 @@ To prepare the product data for synchronization, do the following:
     Notice that the **Ready to Process** column shows the number of synchronization records that have been prepared and are ready to be processed. The **Processed Records** column shows the number of records that have been processed \(that is, records that have been successfully synchronized\).
 
 
-## Step 6: Processing the Prepared Product Data { .section}
+## Step 6: Processing the Prepared Product Data
 
 To process the product data that has been prepared for synchronization, do the following:
 
@@ -112,7 +112,7 @@ To process the product data that has been prepared for synchronization, do the f
 2.  In the row of the *CHERJAM96, Cherry jam 96 oz* stock item, select the unlabeled check box, and on the form toolbar, click **Process**.
 3.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 7: Viewing the Exported Products { .section}
+## Step 7: Viewing the Exported Products
 
 To view the exported product data in the BigCommerce store, do the following:
 
@@ -133,7 +133,6 @@ To view the exported product data in the BigCommerce store, do the following:
     The storefront page for the *Cherry jam 96 oz* product opens. Notice that the name of the custom field \(**Sugar Level**\) and the assigned value \(*Sugar-free*\) are displayed, as shown in the following screenshot.
 
 
-![](Images/activity_Commerce_BC_Syncing_Products_To_Export_Items_with_Attributes.png "The custom attribute shown on the storefront")
 
 **Parent topic:**[Synchronizing Products](../UserGuide/Commerce_BC_Syncing_Products_Mapref.md)
 

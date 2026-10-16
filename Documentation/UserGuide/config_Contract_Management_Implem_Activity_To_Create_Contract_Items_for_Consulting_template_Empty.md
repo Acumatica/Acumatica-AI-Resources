@@ -1,10 +1,10 @@
-# Contract Configuration: To Create Entities for a Consulting Contract {#_cfbf697d-128c-4d7f-959e-4d6d8f04bd83 .task}
+# Contract Configuration: To Create Entities for a Consulting Contract
 
 In this activity, you will learn how to create labor items and a case class for an empty contract template that will be used for a consulting contract.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that after purchasing the juicers, the Healthy Drink Alley customer needs a consulting contract to teach employees about the proper use of juicers and related equipment. This service is provided by the SweetLife Fruits &amp; Jams company's consultants of different qualifications: senior consultants, whose services cost $120 per hour, and other regular consultants, whose services cost $100 per hour.
 
@@ -12,11 +12,11 @@ According to the terms of the contract, in April 2026, the customer obtains 20 h
 
 Acting as a sales manager, you will create a contract for which prices depend on the skills and position of the consulting specialist, who can be a regular or a senior consultant.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity on the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, you will create labor items with employee rates for a regular and a senior consultants, and then on the [Case Classes](CR_20_60_00.md) \(CR206000\) form, you will create a case class.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -24,11 +24,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *HDALLEY \(Healthy Drink Alley\)* customer has been created.
 -   On the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, the *79000* \(*Contract Expenses*\) expense account and the *40300* \(*Sales - Consulting Services*\) sales accounts have been created.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as the sales manager David Chubb using the *chubb* username and the *123* password.
 
-## Step 1: Creating Labor Items with Employee Rates {#section_s5h_22c_jt .section}
+## Step 1: Creating Labor Items with Employee Rates
 
 On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, perform the following instructions:
 
@@ -77,7 +77,7 @@ On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, perform the followin
         -   **Sales Account**: *40300* \(*Sales - Consulting Services*\)
     6.  On the form toolbar, click **Save** to save the non-stock item.
 
-## Step 2: Creating a Case Class of Per Activity Billing Mode {#section_rg1_yfc_jt .section}
+## Step 2: Creating a Case Class of Per Activity Billing Mode
 
 To create a case class for consulting services, do the following:
 
@@ -91,7 +91,6 @@ To create a case class for consulting services, do the following:
 
         The *Per Activity* billing mode indicates that the cases of the class will be billed on a per-activity basis. For example, you can use this option for large cases that cannot be closed by the end of the billing period so that you can bill activities associated with an ongoing case. For each activity associated with a case of the class, you can specify whether it is billable or not.
 
-    ![](Images/CustomerContractsConsultingContractCaseClassCreated.png "Case class for the consulting contract")
 
 4.  Click **Save** to save the created case class.
 

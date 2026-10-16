@@ -1,14 +1,14 @@
-# Opportunities: To Create an Opportunity by Using the Acumatica Add-In for Outlook {#_339a4ade-dbf1-413f-9157-0cb14658f188 .task}
+# Opportunities: To Create an Opportunity by Using the Acumatica Add-In for Outlook
 
 The following activity demonstrates how to create an opportunity by using the Acumatica add-in for Outlook and quickly update the opportunity information in the system.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are David Chubb, a sales manager of the SweetLife Fruits &amp; Jams company. You have received an email from Julia May, who is a new pastry cook at Allen's Bakery \(SweetLife's customer\). Julia would like to extend the contract with SweetLife and purchase 10 jars each of orange and cherry jam and wonders if she can buy the jams with the 10 percent discount.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -17,11 +17,11 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   The *PRODUCT* opportunity class has been created on the [Opportunity Classes](CR_20_90_00.md) \(CR209000\) form.
 -   The *ORJAM32* and *CHERJAM32* stock items have been created on the [Stock Items](IN_20_25_00.md) \(IN202500\) form.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create a new contact and opportunity in the system by using the Acumatica add-in for Outlook and add the information about products to be sold and discounts to the opportunity on the [Opportunities](CR_30_40_00.md) \(CR304000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating a new contact and opportunity in the system by using the Acumatica add-in for Outlook, you should do the following:
 
@@ -33,7 +33,7 @@ Before you start creating a new contact and opportunity in the system by using t
     -   **Username**: *chubb*
     -   **Password**: *123*
 
-## Step 1: Creating a Contact by Using the Acumatica Add-In for Outlook { .section}
+## Step 1: Creating a Contact by Using the Acumatica Add-In for Outlook
 
 To create a new contact by using the Acumatica add-in for Outlook, do the following:
 
@@ -62,7 +62,7 @@ To create a new contact by using the Acumatica add-in for Outlook, do the follow
     **Tip:** If needed, you can click **View Contact** to view the contact record on the [Contacts](CR_30_20_00.md) \(CR302000\) form, which may open in a new browser tab or in a pop-up window, and add or change the data of the contact.
 
 
-## Step 2: Creating an Opportunity by Using the Acumatica Add-In for Outlook { .section}
+## Step 2: Creating an Opportunity by Using the Acumatica Add-In for Outlook
 
 To create a new opportunity by using the Acumatica add-in for Outlook, do the following:
 
@@ -75,7 +75,7 @@ To create a new opportunity by using the Acumatica add-in for Outlook, do the fo
 4.  Click **Create Opportunity** to create an opportunity in the system. Wait until the system completes the operation. Notice that the **Info** section that holds the settings of the *Julia May* contact appears on the form.
 5.  Click **View Opportunity**. The system opens on the [Opportunities](CR_30_40_00.md) \(CR304000\) form.
 
-## Step 3: Updating the Opportunity's Information by Using the Acumatica Add-In for Outlook { .section}
+## Step 3: Updating the Opportunity's Information by Using the Acumatica Add-In for Outlook
 
 Now you need to add the information about the jams to be sold to the *ABAKERY* customer to the opportunity.
 

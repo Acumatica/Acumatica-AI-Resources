@@ -1,14 +1,14 @@
-# Sale of Matrix Items: To Import an Order with Matrix Items {#_2e57b87a-28a1-4660-b598-75b031cc828f .task}
+# Sale of Matrix Items: To Import an Order with Matrix Items
 
 The following activity will walk you through the processes of purchasing products with variants \(matrix items\) in the Shopify store and importing the sales order with these products into Acumatica ERP.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Fruits &amp; Jams sells juices \(which are defined in Acumatica ERP as matrix items based on the *JUICE* template item\) in its Shopify store. Acting as an implementation consultant helping SweetLife to set up the integration between Acumatica ERP and the Shopify store, you want to explore how online orders containing matrix items \(product variants\) are imported to Acumatica ERP and review the results of the import.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -16,7 +16,7 @@ In this activity, you will do the following:
 2.  On the [Prepare Data](BC_50_10_00.md) \(BC501000\) form, prepare the sales order data for synchronization; on the [Process Data](BC_50_15_00.md) \(BC501500\) form, process the prepared data.
 3.  On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, review the imported sales order.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you complete the instructions in this activity, do the following:
 
@@ -27,7 +27,7 @@ Before you complete the instructions in this activity, do the following:
     -   The *SHOPIFYPAY* payment method has been defined and mapped to the store payment method configured for the Shopify Payments payment provider, as described in [Order Synchronization: To Configure and Import Shopify Payments](Commerce_SP_Syncing_Orders_To_Use_Shopify_Payments.md).
 2.  Sign in to the admin area of the Shopify store as the store administrator.
 
-## Step 1: Creating an Order { .section}
+## Step 1: Creating an Order
 
 To create an order for five 32-fluid-ounce bottles of peach juice and five 16-fluid-ounce bottles of apple juice in the storefront, do the following:
 
@@ -68,7 +68,7 @@ To create an order for five 32-fluid-ounce bottles of peach juice and five 16-fl
     Your order has been created, and on the confirmation page, the order number is displayed. You will process the order with this order number further in this activity.
 
 
-## Step 2: Importing the Sales Order { .section}
+## Step 2: Importing the Sales Order
 
 To import the order that you created to Acumatica ERP, do the following:
 
@@ -86,7 +86,7 @@ To import the order that you created to Acumatica ERP, do the following:
 8.  On the [Process Data](BC_50_15_00.md) \(BC501500\) form, which opens with the *SweetStore - SP* store and the *Sales Order* entity selected, select the unlabeled check box in the row of the order that you created in Step 1, and on the form toolbar, click **Process**.
 9.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 3: Reviewing the Imported Sales Order { .section}
+## Step 3: Reviewing the Imported Sales Order
 
 To review the details of the imported sales order, do the following:
 

@@ -1,8 +1,8 @@
-# Validation of Customization Projects: General Information {#_bfb0b163-d0dc-425e-ad8d-b3e2fe659e15 .concept}
+# Validation of Customization Projects: General Information
 
 By validating customization projects, you can ensure that they can be published in the current Acumatica ERP instance, meet specific requirements, and have passed technical validation in Acumatica.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you’ll learn how to do the following:
 
@@ -10,7 +10,7 @@ In this chapter, you’ll learn how to do the following:
 -   Validate customization projects of independent software vendor \(ISV\) solutions before submitting them for technical validation
 -   Check whether customization projects have passed technical validation by Acumatica
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You validate a customization project in the following cases:
 

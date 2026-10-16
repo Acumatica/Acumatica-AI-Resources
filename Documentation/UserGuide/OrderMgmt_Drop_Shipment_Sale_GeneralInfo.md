@@ -1,8 +1,8 @@
-# Sales with Drop Shipping: General Information {#_fec5b398-0924-4435-8d50-5a381b77e9cd .concept}
+# Sales with Drop Shipping: General Information
 
 In Acumatica ERP, you can create sales orders whose goods are intended for drop shipping. Drop shipping means that a customer orders the goods from your company, pays your company for the order, and receives the goods \(which your company has ordered\) directly from one of your vendors. With the *Drop Shipments* feature enabled on the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form, you can mark particular goods for drop shipping and create drop-ship orders for these goods.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -13,11 +13,11 @@ In this chapter, you will do the following:
 -   Process the sales order and related purchase documents, inventory documents, and accounts payable documents
 -   Find the information about documents related to drop shipment
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 You use drop shipment to fulfill a sales order with items that your company does not have in stock.
 
-## Drop Shipment Process { .section}
+## Drop Shipment Process
 
 To process a sale with drop shipment, you create a sales order of the *SO* order type on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, and add the stock items ordered by the customer. You mark items for drop shipping by selecting the check box in the **Mark for PO** column and selecting *Drop-Ship* in the **PO Source** column, which means that the items will be ordered from the vendor and shipped directly to the customer. The system does not allocate stock items in inventory based on the quantities of goods and the document amounts on sales orders for drop shipping.
 
@@ -27,11 +27,10 @@ The items from the drop-ship purchase order are not shipped to the company's war
 
 On release of a purchase receipt prepared for drop-ship purchase order, the system does not create an inventory receipt, because the items are not received to inventory and are instead delivered directly to the customer. The quantities of stock items on completed drop-ship orders are not included in the quantities available at any warehouse of your company.
 
-## Workflow of a Sale with Drop Shipment { .section}
+## Workflow of a Sale with Drop Shipment
 
 For a sales order that includes stock items intended for drop shipping, the typical processing involves the actions and generated documents shown in the following diagram.
 
-![](Images/diag_Sale_for_Dropship.png)
 
 **Parent topic:**[Processing Sales with Drop Shipping](../UserGuide/OrderMgmt_Drop_Shipment_Sale_Mapref.md)
 

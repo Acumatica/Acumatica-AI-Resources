@@ -1,4 +1,4 @@
-# To Find Source Code by a Fragment {#_14b32645-892a-4226-b003-a70de5241ade .concept}
+# To Find Source Code by a Fragment
 
 In an instance of Acumatica ERP, a repository with the original C\# source code of the application is kept in the `\App_Data\CodeRepository` folder of the website. You can use the [Source Code](../UserGuide/SM_20_45_70.md) \(SM204570\) form to find the source code within the repository by a code fragment.
 

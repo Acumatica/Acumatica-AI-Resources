@@ -1,4 +1,4 @@
-# Exposing Inquiry Results by Using OData {#_46d3beed-0faf-4908-b5f4-1c282a110c4d .concept}
+# Exposing Inquiry Results by Using OData
 
 You can use generic inquiry forms to expose data in Acumatica ERP by using the Open Data Protocol \(OData\).
 

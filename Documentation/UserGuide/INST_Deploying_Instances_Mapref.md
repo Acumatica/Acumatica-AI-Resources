@@ -1,4 +1,4 @@
-# Deploying Acumatica ERP Instances {#_d02b1a4a-4394-4eb1-a127-ba821108ba3f .concept}
+# Deploying Acumatica ERP Instances
 
 In this chapter, you will find information about deploying Acumatica ERP application instances, signing in to an instance for the first time, and activate an Acumatica ERP license.
 

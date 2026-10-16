@@ -1,10 +1,10 @@
-# Canada’s Employment Insurance: General Information {#_a12917c3-ab71-c8d1-ed73-e6c7a6ca44bc .concept}
+# Canada’s Employment Insurance: General Information
 
 Canada’s Employment Insurance \(EI\) program offers reduced premium rates for eligible employers. By providing short-term disability or wage-loss insurance that meets the Canada Revenue Agency \(CRA\) requirements, you can qualify for lower EI contributions.
 
 **Attention:** This functionality is available if the *Canadian Payroll* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,11 +12,11 @@ In this chapter, you will learn how to do the following:
 -   Configure EI premium rates and assign them to employees
 -   Process paychecks and generate T4 forms using CRA payroll accounts
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You set up CRA payroll accounts and configure EI premium rates if your company operates in Canada and pays employees salaries, wages, bonuses, tips, or provides taxable benefits.
 
-## Assigning CRA Payroll Account Numbers { .section}
+## Assigning CRA Payroll Account Numbers
 
 To start configuring EI premium rates, you assign CRA payroll account numbers to your companies and branches. You can assign multiple CRA payroll accounts to each entity. You can also assign the same CRA payroll account to multiple entities.
 
@@ -38,7 +38,7 @@ You assign CRA payroll account numbers at the branch level if the company files 
 
 For the branches of this company, add the applicable CRA payroll account numbers on the **Canadian Tax Reporting** tab of the [Branches](CS_10_20_00.md) \(CS102000\) form. Select the **Set as Default** check box for one of the CRA payroll accounts. The system will assign the EI premium rate linked to that CRA payroll account to all employees of the branch who do not have an EI premium rate specified. Select the **T4A** check box for one of the CRA payroll accounts to use it as the default for T4A forms.
 
-## Configuring EI Premium Rates { .section}
+## Configuring EI Premium Rates
 
 Now that you’ve associated CRA payroll account numbers with companies and branches, you specify each account’s EI premium rate on the **EI Premium Rates** tab of the [Tax Maintenance](PR_20_80_00.md) \(PR208000\) form. Only one rate can be specified per CRA payroll account.
 
@@ -46,7 +46,7 @@ When you save EI premium rates on the [Tax Maintenance](PR_20_80_00.md) form, th
 
 Specifying the EI premium rate for each employee is required. Without this setting, the employee’s paychecks can’t be calculated.
 
-## Processing Paychecks { .section}
+## Processing Paychecks
 
 After you’ve performed the configuration steps described above, newly created employee paychecks correspond to the CRA payroll account number linked to the employee’s EI premium rate specified on the [Employee Payroll Settings](PR_20_30_00.md) \(PR203000\) form.
 
@@ -56,7 +56,7 @@ To pay an employee using a different CRA payroll account number within the same 
 
 To pay an employee from a different company, you must create a new employee record and assign it to the appropriate branch. This ensures that Canada Pension Plan \(CPP\) and EI maximums are tracked separately for each business entity.
 
-## Generating T4 Forms { .section}
+## Generating T4 Forms
 
 You generate T4 forms by specifying the needed selection criteria on the [Prepare Tax Forms](PR_50_20_00.md) \(PR502000\) form, including the following:
 

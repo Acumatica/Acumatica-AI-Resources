@@ -1,4 +1,4 @@
-# Synchronizing Products {#_71a96550-e407-410f-b3cf-d804a14b2869 .concept}
+# Synchronizing Products
 
 In the topics of this chapter, you will read about product export from Acumatica ERP to the BigCommerce store.
 

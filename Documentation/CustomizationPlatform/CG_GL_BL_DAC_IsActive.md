@@ -1,4 +1,4 @@
-# To Enable a DAC Extension Conditionally \(IsActive\) {#_9ca4cca5-a46c-4dda-af09-8cb8b0793c34 .concept}
+# To Enable a DAC Extension Conditionally \(IsActive\)
 
 You need to disable a DAC extension when it is not required by the system logic \(for example, when the feature that uses the extension is not enabled\) because when an extension is constantly active, it can impair the system's performance.
 

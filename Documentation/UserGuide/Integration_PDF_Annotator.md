@@ -1,4 +1,4 @@
-# Annotating PDF Attachments {#_52273de5-f7c9-498c-a4c3-9b2d9c8b0a34 .concept}
+# Annotating PDF Attachments
 
 In some cases, when you review a PDF file that is attached to a project, you may need to highlight a text \(for example, an amount on a vendor bill\), add a note to a contract, or mark up a drawing before another user reviews it. You can do this directly in Acumatica ERP by using the integration that lets you open a PDF attachment from the record where the file is attached, add comments or markup, and save the annotated file as a new file version. You do not need to download the file or use an external PDF editor.
 
@@ -6,7 +6,7 @@ In this topic, you’ll learn what must be configured for the integration, how u
 
 **Attention:** This functionality is available only if the *PDF Annotator Integration* feature in the *Third-Party Integrations* feature group is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Setting Up the Integration { .section}
+## Setting Up the Integration
 
 Before users can annotate PDF attachments, a system administrator must prepare the integration with Adobe, create an external application in Acumatica ERP, and assign roles to users.
 
@@ -24,7 +24,7 @@ To complete the setup of the PDF annotator functionality, on the [User Roles](SM
 
 After the administrator completes the setup, users with the appropriate access rights can open PDF attachments in the embedded viewer and annotate them.
 
-## Access to PDF Attachments { .section}
+## Access to PDF Attachments
 
 You can annotate PDF files from any form that has the **Files** button on the form title bar.
 
@@ -36,7 +36,7 @@ If users have already added comments or markup to the selected file version, the
 
 **Tip:** You can open previous versions of the document by using the [Manage Project Files by Tag](PM_50_90_00.md) \(PM509000\) or [File Maintenance](SM_20_25_10.md) \(SM202510\) form.
 
-## Adding Comments and Markup { .section}
+## Adding Comments and Markup
 
 On the *PDF Preview \(SM400009\)* form, you can add comments and markup by using the tools provided in the embedded PDF Annotator viewer.
 
@@ -51,7 +51,7 @@ When using the embedded PDF Annotator viewer, you can:
 -   Organize feedback in a comments pane
 -   Save annotated PDF files as new file versions
 
-## Saving Annotations as File Versions { .section}
+## Saving Annotations as File Versions
 
 In Acumatica ERP, you do not need to replace the attachment outside the system. When you click **Save** in the embedded PDF Annotator viewer, the system creates a new version of the attached file. This versioning helps preserve the original attachment history. On the [Manage Project Files by Tag](PM_50_90_00.md) \(PM509000\) or [File Maintenance](SM_20_25_10.md) \(SM202510\) form, you can view the list of file versions created through the PDF Annotator viewer.
 

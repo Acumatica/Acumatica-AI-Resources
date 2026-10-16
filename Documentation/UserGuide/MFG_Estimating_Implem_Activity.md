@@ -1,12 +1,12 @@
-# Estimating: Implementation Activity {#_ac87330a-9606-47a2-b011-592a74030c7e .task}
+# Estimating: Implementation Activity
 
 In the following implementation activity, you will learn how to configure the estimating functionality.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create an estimate class by using the [Estimate Classes](AM_20_60_00.md) \(AM206000\) form. You will also specify the default settings by using the [Estimate Preferences](AM_10_30_00.md) \(AM103000\) form; the system will apply these settings to new estimates.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring estimates, do the following:
 
@@ -15,7 +15,7 @@ Before you start configuring estimates, do the following:
     1.  In the *Inventory and Order Management* group of features, disable the *Distribution Requirements Planning* feature.
     2.  Enable the *Manufacturing* group of features, and then enable the *Estimating* feature in this group.
 
-## Step 1: Creating an Estimate Class { .section}
+## Step 1: Creating an Estimate Class
 
 To create an estimate class that will provide default settings for new estimates, do the following:
 
@@ -36,7 +36,7 @@ To create an estimate class that will provide default settings for new estimates
     -   **Subcontract Markup \(%\)**: `10`
 3.  On the form toolbar, click **Save**.
 
-## Step 2: Specifying the Default Estimate Settings { .section}
+## Step 2: Specifying the Default Estimate Settings
 
 To specify default estimate settings, do the following:
 

@@ -1,8 +1,8 @@
-# Partial Payments: Generated Transactions {#_4b216a25-3874-4f76-bc9f-98f2deb42f8e .concept}
+# Partial Payments: Generated Transactions
 
 To be able to partially pay bills, you create and process payment documents. To update vendor balances, the system generates the GL transaction described in the following section.
 
-## Transaction Generated for a Partial Payment {#section_ghk_njv_vxb .section}
+## Transaction Generated for a Partial Payment
 
 When you create and release a payment, the system generates the following GL transaction.
 

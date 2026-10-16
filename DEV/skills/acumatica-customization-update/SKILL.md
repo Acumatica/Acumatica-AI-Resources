@@ -2,14 +2,16 @@
 name: acumatica-customization-update
 description: Updates, upgrades, validates, and publishes Acumatica ERP customization projects and packages. Use for .cst, .zip, or project.xml packages; editing packaged DACs, graph extensions, Code_*.xml files, or screens; BuildProject, UploadCustomization, PublishCustomization, PX.CommandLine.exe, Extension Library rebuilds, version-specific screen merges, or upgrades to a newer Acumatica release. Use only when the work involves a customization project or package lifecycle; ordinary application-code changes outside that lifecycle are out of scope.
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Acumatica Customization Update
 
-Acumatica customizations fail in quiet ways. Nothing in a customization project is generated
-from anything else — a DAC change does not propagate to the classic UI, the modern UI, or the
-database — and several classes of breakage let `PublishCustomization` exit 0 while silently
+This skill targets Acumatica ERP 2026 R2.
+
+Acumatica customizations fail in quiet ways. A DAC change does not automatically update existing
+Classic UI definitions, Modern UI definitions, or database schema, and several classes of
+breakage let `PublishCustomization` exit 0 while silently
 dropping the change. So the working assumptions here are: **verify against the target site's own
 source, not public docs; and never treat a clean publish as proof the change landed.**
 
@@ -23,10 +25,10 @@ filesystem broadly.
 
 | Input | Required? | What it's for |
 | --- | --- | --- |
-| **Site root folder** (e.g. `C:\Acumatica Sites\26r1`) | **Yes** | The single most important input. Gives `Bin\PX.CommandLine.exe`, version-exact reference DLLs in `Bin\`, product source in `App_Data\CodeRepository`, and the site's current `Pages\` + `FrontendSources\` for comparing screen definitions. |
+| **Site root folder** (e.g. `C:\Acumatica Sites\26r2`) | **Yes** | The single most important input. Gives `Bin\PX.CommandLine.exe`, version-exact reference DLLs in `Bin\`, product source in `App_Data\CodeRepository`, and the site's current `Pages\` + `FrontendSources\` for comparing screen definitions. |
 | **The customization** (folder or `.zip`) | **Yes** | The thing being changed. |
 | **Source code for any Extension Library DLL** | If the package ships a DLL that must be rebuilt | A DLL compiled against an older `PX.Objects.dll` cannot be patched — only recompiled. See `references/upgrade-failures.md`. |
-| **Site URL** (e.g. `http://localhost/26r1`) | Optional | Only needed for the REST Customization Web API, or to spot-check a screen in the browser afterward. `PX.CommandLine.exe` takes the *folder*, not the URL. |
+| **Site URL** (e.g. `http://localhost/26r2`) | Optional | Only needed for the REST Customization Web API, or to spot-check a screen in the browser afterward. `PX.CommandLine.exe` takes the *folder*, not the URL. |
 
 Note: the user may say "site URL" when the folder path is what's actually needed. Confirm which
 one you have — publishing locally needs the folder.
@@ -34,13 +36,13 @@ one you have — publishing locally needs the folder.
 ### Example request
 
 > Upgrade the customization package at `C:\Temp\SomeVendorPkg.zip` for the Acumatica site at
-> `C:\Acumatica Sites\26r1`. If its Extension Library must be rebuilt, the source is at
+> `C:\Acumatica Sites\26r2`. If its Extension Library must be rebuilt, the source is at
 > `C:\Temp\SomeVendorSrc.zip`. Validate the result and ask me before publishing it.
 
 Then establish ground truth about the site once, up front:
 
 ```powershell
-powershell -File "<skill-root>/scripts/Get-SiteInfo.ps1" -SiteRoot "C:\Acumatica Sites\26r1"
+powershell -File "<skill-root>/scripts/Get-SiteInfo.ps1" -SiteRoot "C:\Acumatica Sites\26r2"
 ```
 
 This reports the exact installed version, and whether `Bin`, `PX.CommandLine.exe`,
@@ -99,15 +101,15 @@ Run these from **PowerShell, not Git Bash** — MSYS mangles the leading-`/` arg
 reports `/method parameter is required` as if nothing was passed. `BuildProject` needs administrator
 privileges. Project names must be plain alphanumeric — no underscores.
 
-```bash
+```powershell
 PX.CommandLine.exe /website "<site root>" /method BuildProject /in "<project folder>" /out "<package.zip>"
 ```
 
-```bash
+```powershell
 PX.CommandLine.exe /website "<site root>" /method UploadCustomization /path "<package.zip>" /name "ProjectName" /replace
 ```
 
-```bash
+```powershell
 PX.CommandLine.exe /website "<site root>" /method PublishCustomization /name "ProjectName" /merge
 ```
 

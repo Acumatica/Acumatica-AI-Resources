@@ -1,8 +1,8 @@
-# Taxes in Projects: Inclusive Taxes in AR Documents {#_aaeb6302-1e20-4c7d-9a47-589811e616e4 .concept}
+# Taxes in Projects: Inclusive Taxes in AR Documents
 
 An inclusive sales tax calculated at the document level is a tax that is extracted from the document amount but is not the total of the taxes calculated for the document lines. The following sections explain how you track inclusive taxes in project-related documents.
 
-## Configuration of Inclusive Taxes { .section}
+## Configuration of Inclusive Taxes
 
 You configure this type of sales tax by performing the following general steps:
 
@@ -12,13 +12,13 @@ You configure this type of sales tax by performing the following general steps:
 
 For more information, see [Invoices with Inclusive Sales Taxes: General Information](Taxes_Invoices_with_InclusiveSalesTax_GeneralInfo.md).
 
-## Inclusive Taxes in Pro Forma Invoices { .section}
+## Inclusive Taxes in Pro Forma Invoices
 
 If inclusive taxes are configured in the system, when you run project billing for a project for which the **Create Pro Forma Invoice on Billing** check box is selected on the [Projects](PM_30_10_00.md) \(PM301000\) form, the system prepares pro forma invoices that may be subject to these inclusive taxes.
 
 In the prepared pro forma invoice on the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form, the amounts in the **Progress Billing Total** and **Invoice Total** boxes in the Summary area include the calculated inclusive taxes.
 
-## Inclusive Taxes in AR Invoices { .section}
+## Inclusive Taxes in AR Invoices
 
 If inclusive taxes are configured in the system, when you run project billing for a project for which the **Create Pro Forma Invoice on Billing** check box is cleared on the [Projects](PM_30_10_00.md) \(PM301000\) form, the system prepares accounts receivable invoices that may be subject to these inclusive taxes.
 
@@ -30,11 +30,11 @@ The actual amounts on the **Revenue Budget** tab of the [Projects](PM_30_10_00.m
 
 If the *Net/Gross Entry Mode* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the system ignores the *Gross* and *Net* tax calculation modes that are specified for the customer on the [Customers](AR_30_30_00.md) \(AR303000\) form. It always inserts the *Tax Settings* tax calculation mode in the pro forma invoices that are created during project billing.
 
-## Inclusive Taxes in Project Quotes { .section}
+## Inclusive Taxes in Project Quotes
 
 For project quotes on the [Project Quotes](PM_30_45_00.md) \(PM304500\) form, the calculation of inclusive taxes and the *Gross* tax calculation mode are supported. However, these changes do not affect the conversion of project quotes to projects because inclusive taxes are not copied from a project quote to the resulting project.
 
-## Inclusive Taxes in Project and Construction Reports { .section}
+## Inclusive Taxes in Project and Construction Reports
 
 The following values in the project and construction reports include the inclusive tax amounts along with the actual amounts:
 

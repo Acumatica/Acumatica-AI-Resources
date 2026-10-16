@@ -1,4 +1,4 @@
-# Processing Drop Shipments of Non-Stock Items {#_aee4f667-cf5d-4e4e-a548-7badd8de72ad .concept}
+# Processing Drop Shipments of Non-Stock Items
 
 The topics of this chapter explain how to process sales and purchase orders for non-stock items your company will sell and then drop-ship to the customer.
 

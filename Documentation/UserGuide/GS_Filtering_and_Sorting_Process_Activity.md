@@ -1,14 +1,14 @@
-# Filtering and Sorting Capabilities: To Create a Simple Filter {#_833941e3-38d7-433e-a932-78d7a0cc8467 .task}
+# Filtering and Sorting Capabilities: To Create a Simple Filter
 
 The following activity will help you create and apply filters in Acumatica ERP.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are David Chubb, a new sales manager of the SweetLife Fruits &amp; Jams company. On January 30, 2026, you are starting to work with the GoodFood One Restaurant customer. To learn the details about products ordered by the customer so far in 2026, you need to find all the sales orders that have been created in January 2026.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you’ll do the following:
 
@@ -16,7 +16,7 @@ In this activity, you’ll do the following:
 2.  Filter data in a table by a selected cell value
 3.  Turn column sorting in a table on and off
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start working with filters in Acumatica ERP, make sure that the following tasks have been performed:
 
@@ -28,7 +28,7 @@ Before you start working with filters in Acumatica ERP, make sure that the follo
     For details, see [Acumatica ERP Access: Process Activity](GS_Accessing_Acumatica_ERP_Process_Activity.md).
 
 
-## Step 1: Creating a Simple Filter { .section}
+## Step 1: Creating a Simple Filter
 
 Suppose that you need to view the list of sales orders that have been created in January 2026. To create a simple filter for this purpose, do the following:
 
@@ -49,7 +49,7 @@ Suppose that you need to view the list of sales orders that have been created in
 
 6.  Drag the **Date: 1/1/2026 - 1/31/2026** quick filter button out of the filtering area to delete the simple filter .
 
-## Step 2: Filtering Data by a Selected Cell Value { .section}
+## Step 2: Filtering Data by a Selected Cell Value
 
 Suppose that you need to view all the sales orders that have the *Invoiced* status. Do the following while you are still viewing the list of sales orders:
 
@@ -64,7 +64,7 @@ Suppose that you need to view all the sales orders that have the *Invoiced* stat
 
 4.  Drag the quick filter outside of the filtering area to turn off the filter.
 
-## Step 3: Turning Column Sorting On and Off { .section}
+## Step 3: Turning Column Sorting On and Off
 
 Suppose that you need to sort sales orders by customer name in alphabetical order.
 
@@ -74,6 +74,4 @@ To turn on sorting in the **Customer** column, do the following while you’re s
 2.  On the Quick Filter menu, which opens, click **Sort Ascending**. The system closes the menu and reorders the sales orders in the table, sorting them alphabetically by customer.
 3.  To turn off sorting in the **Customer** column of the table, click the **Customer** column header.
 4.  On the Quick Filter menu, which opens, again click **Sort Ascending**, which has a check mark right of the menu command. The Quick Filter menu is closed, and sorting is turned off.
-
-**Parent topic:**[Filtering and Sorting in Acumatica ERP](../UserGuide/GS_Filtering_and_Sorting_Mapref.md)
 

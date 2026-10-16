@@ -1,8 +1,8 @@
-# Configuration of Restriction Groups {#_31138d9f-b7f5-4a06-b3e8-ca861e4357c4 .concept}
+# Configuration of Restriction Groups
 
 After you have prepared all necessary information about restriction groups, you can start configuring them, as described in this topic.
 
-## Overview of the Configuration Process { .section}
+## Overview of the Configuration Process
 
 The configuration process of row-level security in Acumatica ERP includes the following steps:
 
@@ -13,7 +13,7 @@ The configuration process of row-level security in Acumatica ERP includes the fo
 
 At any time, you can include entities in previously created restriction groups \(for example, when you need to make an entity visible to a new user\). For details, see [Adding Entities to an Existing Restriction Group](RS__con_Operations_Restriction_Groups.md#_5352f349-5e81-434f-9121-0ee8532d0797) in [Operations with Restriction Groups](RS__con_Operations_Restriction_Groups.md).
 
-## Combinations of Restriction-Group Entities {#_e812c21c-b02e-4356-be92-f77825911a31 .section}
+## Combinations of Restriction-Group Entities
 
 Acumatica ERP supports a variety of scenarios of configuring the visibility of entities within the system. With the most common scenarios, you can create restriction groups that include the following system entities:
 

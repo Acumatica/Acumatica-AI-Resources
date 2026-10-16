@@ -1,16 +1,16 @@
-# Related Items in Sales Orders: Implementation Activity {#_c1958ce0-506b-4281-980d-4ba96f002726 .task}
+# Related Items in Sales Orders: Implementation Activity
 
 In the following implementation activity, you will learn how to specify related items for existing stock items.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the sales department of SweetLife Fruits &amp; Jams has decided to implement the related items functionality to increase the value of sales.
 
 Acting as the implementation manager, you need to specify related items with the *Cross-Sell*, *Up-Sell*, and *Substitute* relation types for existing stock items.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -19,11 +19,11 @@ In this activity, you will do the following:
 3.  On the [Stock Items](IN_20_25_00.md) form, you will open an existing stock item and specify an up-sell item on the **Related Items** tab.
 4.  On the [Stock Items](IN_20_25_00.md) form, you will open an existing stock item and specify a substitute item on the **Related Items** tab.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start specifying related items for existing stock items, launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as Kimberly Gibbs, the implementation manager, by using the *gibbs* username and the *123* password.
 
-## Step 1: Enabling the Needed Feature {#section_o5k_yhh_wvb .section}
+## Step 1: Enabling the Needed Feature
 
 To enable the *Related Items* feature, which is required for sales of related items via sales orders in Acumatica ERP, do the following:
 
@@ -31,7 +31,7 @@ To enable the *Related Items* feature, which is required for sales of related it
 2.  On the form toolbar, click **Modify**, and select the **Related Items** check box under the **Inventory and Order Management** group of features.
 3.  On the form toolbar, click **Enable**.
 
-## Step 2: Specifying a Related Item with the Cross-Sell Relation Type { .section}
+## Step 2: Specifying a Related Item with the Cross-Sell Relation Type
 
 First, you will specify an item with the *Cross-Sell* relation type for fresh apples \(*APPLES*\). The related item is a 96-ounce jar of apple jam \(*APJAM96*\), which is an existing stock item. Do the following:
 
@@ -45,7 +45,7 @@ First, you will specify an item with the *Cross-Sell* relation type for fresh ap
 
 You have specified a related item with the *Cross-Sell* relation type for the *APPLES* stock item.
 
-## Step 3: Specifying a Related Item with the Up-Sell Relation Type { .section}
+## Step 3: Specifying a Related Item with the Up-Sell Relation Type
 
 You need to specify an item with the *Up-Sell* relation type for an existing stock item, a 32-ounce jar of cherries \(*CHERJAM32*\). The related item is a 96-ounce jar of cherry jam \(*CHERJAM96*\). Do the following:
 
@@ -59,7 +59,7 @@ You need to specify an item with the *Up-Sell* relation type for an existing sto
 
 You have specified a related item with the *Up-Sell* relation type for the *CHERJAM32* stock item.
 
-## Step 4: Adding a Related Item with the Substitute Relation Type { .section}
+## Step 4: Adding a Related Item with the Substitute Relation Type
 
 Now you will specify an item with the *Substitute* relation type for a 96-ounce jar of orange jam \(*ORJAM96*\), which is an existing stock item. Three 32-ounce jars of orange jam \(*ORJAM32*\) can be substituted for the 96-ounce jar. Do the following:
 

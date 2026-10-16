@@ -1,8 +1,8 @@
-# Fixed Asset Troubleshooting: To Change Net Book Value of an Asset {#_ddf31fe6-6fed-4b09-a0cc-37262455d02f .task}
+# Fixed Asset Troubleshooting: To Change Net Book Value of an Asset
 
 You use the **Reconciliation** tab of the [Fixed Assets](FA_30_30_00.md) form to change the net book value of the selected asset.
 
-## To Change Net Book Value of an Asset {#section_qs5_lwm_nj .section}
+## To Change Net Book Value of an Asset
 
 1.  Open the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form.
 2.  In the **Asset ID** box, select the asset whose net book value you want to change.

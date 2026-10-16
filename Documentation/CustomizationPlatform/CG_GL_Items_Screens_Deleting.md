@@ -1,4 +1,4 @@
-# To Delete a Page Item from a Project {#_2254fb17-f081-45da-ab8b-d5531e5dd445 .concept}
+# To Delete a Page Item from a Project
 
 To remove from a customization project a *Page* Item created for an existing or custom form, perform the following actions:
 

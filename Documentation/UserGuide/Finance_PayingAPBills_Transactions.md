@@ -1,4 +1,4 @@
-# AP Bill Payments: Generated Transactions {#_3d051d42-ab48-4e1a-b12b-d77d2c281a97 .concept}
+# AP Bill Payments: Generated Transactions
 
 When a payment is released, a batch is created with transactions reducing the balances of the cash account and the vendor's accounts payable account.
 

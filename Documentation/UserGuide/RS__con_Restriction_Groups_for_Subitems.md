@@ -1,4 +1,4 @@
-# Inventory Item Security {#_09c9c94d-1707-4e24-bb2c-29343e18864f .concept}
+# Inventory Item Security
 
 An organization that distributes goods may have many items in stock. In this case, users who work with inventory items in the system may have specific tasks and work with only particular item classes. When users create a sales order, they need to enter an inventory ID for each product. You can define restriction groups to limit the lists of inventory items particular users see.
 
@@ -6,7 +6,7 @@ In this topic, you will read about managing the visibility of inventory items to
 
 **Tip:** In Acumatica ERP, you can configure groups with direct and inverse restriction. In this topic, for simplicity, groups with direct restriction are used in examples. You can use inverse restriction groups in the same way as you use direct restriction groups. For details on the types of restriction groups, see [Types of Restriction Groups](../Shared/../UserGuide/SM__con_Types_of_Restriction_Groups.md).
 
-## Visibility of Inventory Items to Users { .section}
+## Visibility of Inventory Items to Users
 
 The list of inventory items from which employees should select an item can be very long, which increases the probability of an entry error. By using restriction groups, you can reduce the list of inventory items that users see on forms. For more information about restriction groups, see [Restriction Groups in Acumatica ERP](../Shared/../UserGuide/SM__con_Overview_of_Restriction_Groups.md).
 
@@ -25,7 +25,9 @@ As a result, the visibility of the inventory items in sales orders will be restr
 -   User M can see and select only inventory items for bedroom furniture.
 -   Other users cannot see the inventory items that have been added to the three restriction groups in the system.
 
-## Setting Up Default Restriction Groups for Item Classes {#_769aca82-01cf-49ce-8b23-342ac7eaef5b .section}
+**Important:** Inventory item restriction groups also apply to portal users in the Modern Customer Portal. On the [Catalog](../Shared/../UserGuide/SP_50_40_01.md) \(SP504001\) form, a portal user can view and order only the inventory items available to that user based on the applicable restriction groups.
+
+## Setting Up Default Restriction Groups for Item Classes
 
 To ease the process of adding new items to restriction groups, you can specify default restriction groups for an item class, so that items of the selected item class will be included in the restriction group automatically. On the [Item Classes](../Shared/../UserGuide/IN_20_10_00.md) \(IN201000\) form, you perform the following steps to specify default restriction groups for an item class:
 
@@ -37,7 +39,7 @@ To ease the process of adding new items to restriction groups, you can specify d
 3.  On the More menu, you click **Apply Restriction Settings to All Inventory Items** to include all existing entities of the class in the default restriction groups.
 4.  You save your changes.
 
-## Forms for Inventory Item Security { .section}
+## Forms for Inventory Item Security
 
 In the following table, you can find the list of the forms that you can use to manage restriction groups with inventory items and the tasks that you can perform by using each form.
 

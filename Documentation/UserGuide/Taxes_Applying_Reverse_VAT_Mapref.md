@@ -1,4 +1,4 @@
-# Applying a Reverse VAT {#_8b9e7b1f-a577-4eef-a941-1e66510ea876 .concept}
+# Applying a Reverse VAT
 
 The topics of this chapter illustrate how to apply a reverse VAT to a document.
 

@@ -1,4 +1,4 @@
-# Intercompany Funds Transfers: Generated Transactions {#_f7b1cafb-d477-4103-bf45-807395d3b742 .concept}
+# Intercompany Funds Transfers: Generated Transactions
 
 When you release a funds transfer between different companies, the system generates a transaction in the general ledger. When this batch is posted, the system adds balancing entries to it. You can view the details of the batch associated with a funds transfer by clicking the link in the **Batch Number** box of the [Funds Transfers](CA_30_10_00.md) \(CA301000\) form. The system opens the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form with the batch selected.
 

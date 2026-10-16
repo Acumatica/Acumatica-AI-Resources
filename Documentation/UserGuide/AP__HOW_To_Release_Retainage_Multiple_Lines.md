@@ -1,10 +1,10 @@
-# To Create Multiple Retainage Documents \(Release Retainage for Multiple Documents\) {#_d3d08f8b-d95a-4ba2-aee4-e14e09be3492 .task}
+# To Create Multiple Retainage Documents \(Release Retainage for Multiple Documents\)
 
 On the [Release AP Retainage](AP_51_00_00.md) \(AP510000\) form, you release retainage for multiple documents \(bills or debit adjustments\) from which a part of the amount has been retained. When the retainage is released, for each bill with retainage, the system creates a retainage bill with the specified amount for each bill with retainage selected for processing during this procedure. For each debit adjustment with retainage, the system creates a retainage debit adjustment.
 
 **Note:** The following procedure is applicable for AP documents for which the **Pay by Line** check box is cleared on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 
-## To Create Multiple Retainage Documents {#section_xjm_njv_vxb .section}
+## To Create Multiple Retainage Documents
 
 1.  Open the [Release AP Retainage](AP_51_00_00.md) \(AP510000\) form.
 2.  In the Selection area, in the **Date** box, select the date for which you want to create the retainage documents.

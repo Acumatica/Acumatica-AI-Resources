@@ -1,26 +1,51 @@
-# Debit Adjustments in Foreign Currencies: Implementation Checklist {#_e23d4f2f-3537-426a-bd85-01d834eec3f9 .concept}
+# Debit Adjustments in Foreign Currencies: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for processing debit adjustments in a foreign currency, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist {#section_zhy_3jv_vxb .section}
+## Implementation Checklist
 
 We recommend that before you initially process a debit adjustment, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
-|Form|Steps to Perform|
-|----|----------------|
-|[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)|Make sure that the *Standard Financials* and *Multicurrency Accounting* features have been enabled.
+<table id="_75f5a845-9a95-409c-9ffd-7c022ec672dc"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Steps to Perform
+
+</th></tr></thead><tbody><tr><td>
+
+[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)
+
+</td><td>
+
+Make sure that the *Standard Financials* and *Multicurrency Accounting* features have been enabled.
 
  For details on configuring the multicurrency functionality, see [Multicurrency Functionality: Implementation Activity](../ImplementationGuide/config_Multicurrency_Basic_Implem_Activity.md).
 
-|
-|[Vendors](AP_30_30_00.md) \(AP303000\)|Make sure that the vendor accounts for the vendors for which you will create AP documents have been defined.|
-|[Currency Rates](CM_30_10_00.md) \(CM301000\)|Make sure that the effective currency rate for the currency of the AP document has been defined.
+</td></tr><tr><td>
+
+[Vendors](AP_30_30_00.md) \(AP303000\)
+
+</td><td>
+
+Make sure that the vendor accounts for the vendors for which you will create AP documents have been defined.
+
+</td></tr><tr><td>
+
+[Currency Rates](CM_30_10_00.md) \(CM301000\)
+
+</td><td>
+
+Make sure that the effective currency rate for the currency of the AP document has been defined.
 
  For details, see [Configuration of Rate Types and Rates: To Configure Rates](../ImplementationGuide/config_Multicurrency_Configuring_Rates_Activity1.md) and [Configuration of Rate Types and Rates: To Set Up Refreshing of Rates](../ImplementationGuide/config_Multicurrency_Configuring_Rates_Activity2.md).
 
-|
+</td></tr></tbody>
+</table>
 
-## Other Settings That Affect the Workflow {#section_f3y_3jv_vxb .section}
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of processing debit adjustments by specifying additional settings as follows:
 
@@ -32,7 +57,7 @@ You can affect the workflow of processing debit adjustments by specifying additi
     -   To make entering a vendor reference number in the **Vendor Ref.** box mandatory when creating an AP bill on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, select the **Require Vendor Reference** check box in the **Data Entry Settings** section. If this check box is cleared, you can leave the **Vendor Ref.** box empty when creating an AP bill.
     -   To cause AP bills to be automatically posted to the general ledger once they are released, select the **Automatically Post on Release** check box in the **Posting Settings** section. If this check box is cleared, you have to post the batch after you release the document.
 
-## Validation of Configuration {#section_h3y_3jv_vxb .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you process debit adjustments in a foreign currency by performing instructions similar to those described in [Debit Adjustments in Foreign Currencies: Process Activity](Multicurrency_DebitAdjustment_Process_Activity.md).
 

@@ -1,4 +1,4 @@
-# Using Company Logos {#_588412c9-272c-4d52-8363-a7413634133f .concept}
+# Using Company Logos
 
 Some companies may want to customize the Acumatica ERP interface style—that is, the look and feel of the user interface—to make it better fit their professional image. One way to customize the UI is to change the site logo.
 

@@ -1,4 +1,4 @@
-# Project Cost Projections: Project WIP Adjustments {#_6b9394e3-9a1e-44bc-9d35-25ad1359ee08 .concept}
+# Project Cost Projections: Project WIP Adjustments
 
 Construction projects often have timing gaps between revenue and costs. By using project cost projections, you can close these gaps, streamline GAAP compliance, and eliminate manual GL adjustments for construction projects.
 
@@ -11,7 +11,7 @@ With project WIP adjustments, which you create on the [Project WIP Adjustment](P
 
 For details, see the following sections.
 
-## Setting Up the WIP Adjustment Capabilities { .section}
+## Setting Up the WIP Adjustment Capabilities
 
 As an administrator setting up the WIP adjustment capabilities, you perform the following actions:
 
@@ -36,7 +36,7 @@ As an administrator setting up the WIP adjustment capabilities, you perform the 
     -   **Revenue Posting Level**: *Detailed Projects; Detailed Accounts* or *Non-Project; Detailed Accounts*
 3.  Optional: You configure approvals by creating an approval map for project WIP adjustments on the [Approval Maps](EP_20_50_15.md) \(EP205015\) form and selecting it on the **Approvals** tab of the current form. This ensures that a responsible person reviews and approves the adjustment before it affects the general ledger and financial statements. You can also create an email notification about WIP adjustments pending approval. For details, see [Configuring Approvals](../ImplementationGuide/config_Approvals_Functionality.md).
 
-## Processing the Project WIP Adjustment: General Workflow { .section}
+## Processing the Project WIP Adjustment: General Workflow
 
 Here are the typical actions in the general workflow of reporting the current project costs by using a project WIP adjustment:
 
@@ -48,7 +48,7 @@ Here are the typical actions in the general workflow of reporting the current pr
     -   A debit amount equal to the underbilling amount in the cost projection
 5.  Project accountant \(optional\): Generates the needed WIP report for stakeholders
 
-## Creating a Project WIP Adjustment { .section}
+## Creating a Project WIP Adjustment
 
 You create a project WIP adjustment on the [Project WIP Adjustment](PM_30_56_00.md) \(PM305600\) form. In the Summary area, you review the owner, projection date, financial period, branch, currency, and project status that the system has inserted; you also add the description.
 
@@ -56,13 +56,13 @@ Then you click **Load Lines** on the form toolbar. The system adds a line for ea
 
 On the **Financial** tab, the system copies the default posting options and accounts from the **WIP Adjustment Settings** tab on the [Projects Preferences](PM_10_10_00.md) \(PM101000\) form. The system will use the posting options and accounts when it generates a batch of GL transactions on release of the project WIP adjustment. You can override these settings, if needed.
 
-## Processing the Project WIP Adjustment { .section}
+## Processing the Project WIP Adjustment
 
 In the project WIP adjustment, you review all the data to prepare the document for the release. Then you click **Release** on the form toolbar of the [Project WIP Adjustment](PM_30_56_00.md) \(PM305600\) form.
 
 The system posts a batch of auto-reversing GL transactions on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form. The **Auto-Reversing** check box is selected for the batch, meaning that in the next financial period, the transactions will be automatically reversed.
 
-## Modifying a Project WIP Adjustment Before Release { .section}
+## Modifying a Project WIP Adjustment Before Release
 
 If you need to update project costs before releasing the WIP adjustment, here’s what you can do on the **Details** tab of the [Project WIP Adjustment](PM_30_56_00.md) \(PM305600\) form.
 
@@ -87,7 +87,7 @@ If your project uses change orders, the system will copy the state of the **Pend
 
 You can select any number of project lines and click **Send Email** on the table toolbar to create and send emails to the project managers specified in these project lines.
 
-## Voiding a Project WIP Adjustment { .section}
+## Voiding a Project WIP Adjustment
 
 If a project WIP adjustment has incorrect data—such as an incorrect amount, account, or posting option—you can cancel it. To do this, you click **Void** on the form toolbar of the [Project WIP Adjustment](PM_30_56_00.md) \(PM305600\) form. The system:
 
@@ -95,7 +95,7 @@ If a project WIP adjustment has incorrect data—such as an incorrect amount, ac
 -   Creates a reversal batch for the batch that has been canceled
 -   Clears the **GL Batch** box on the **Financial** tab
 
-## Generate the Needed WIP Report { .section}
+## Generate the Needed WIP Report
 
 From the [Project WIP Adjustment](PM_30_56_00.md) \(PM305600\) form, you can generate the following reports:
 

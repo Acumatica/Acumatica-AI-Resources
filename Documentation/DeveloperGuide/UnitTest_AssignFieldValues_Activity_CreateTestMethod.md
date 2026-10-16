@@ -1,8 +1,8 @@
-# Correct Assignment of Field Values in Tests:To Test the Effect of Changing Field Values {#_21a2ed23-7b7f-4d98-886c-1cae26904c80 .task}
+# Correct Assignment of Field Values in Tests:To Test the Effect of Changing Field Values
 
 The following activity will walk you through the process of creating a method that tests complicated business logic involving the assignment of field values.
 
-## Story { .section}
+## Story
 
 Suppose that you want to make sure that the following behavior of the Services and Prices \(RS203000\) form has not changed:
 
@@ -11,11 +11,11 @@ Suppose that you want to make sure that the following behavior of the Services a
 
 You need to create a test method. In this method, you need to create at least three repair items of different types and a labor item, configure them, and make sure that the fields that correspond to the **Required** and **Default** check boxes have the correct states and that the boxes with prices have the correct values.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create a test method without parameters for the Services and Prices \(RS203000\) form. In this method, you will create an instance of the tested graph, `RSSVRepairPriceMaint`. In the cache of the graph, you will create the necessary objects by using the PXCache.Insert method, and configure them by using the PXCache.Update method. Then you will use the methods of the `Assert` class to verify that the necessary conditions for the values of the objects' fields are met.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin creating the test method, do the following:
 
@@ -23,26 +23,26 @@ Before you begin creating the test method, do the following:
 2.  Make sure that you have performed the [Test Project and Test Class: To Create a Test Project](UnitTest_TestProject_Activity_CreateProject.md) prerequisite activity to create and configure the `PhoneRepairShop_Code.Tests.csproj` test project.
 3.  Create the `RSSVRepairPriceMaintTests` test class. For an example that shows how to create a test class, see [Test Project and Test Class: To Create a Test Class](UnitTest_TestProject_Activity_CreateClass.md).
 
-## Step 1: Creating a Test Method for the Services and Prices Form { .section}
+## Step 1: Creating a Test Method for the Services and Prices Form
 
 In this step, you will create a test method for the Services and Prices \(RS203000\) form. \(For basic information on the creation of a test method without parameters, see [Test Method: General Information](UnitTest_TestMethod_GeneralInfo.md).\) Do the following:
 
 1.  In the `RSSVRepairPriceMaintTests` class, create a `public void` method, and name it `TestServicesAndPricesForm`.
 2.  Specify the `[Fact]` attribute for the method to indicate that this unit test is called without parameters.
 
-## Step 2: Creating Necessary Objects { .section}
+## Step 2: Creating Necessary Objects
 
 To create the objects that are necessary for testing the business logic, do the following:
 
 1.  In the `TestServicesAndPricesForm` method, create an instance of the `RSSVRepairPriceMaint` graph by adding the following code.
 
-    ```language-csharp
+    ```csharp
                 var graph = PXGraph.CreateInstance<RSSVRepairPriceMaint>();
     ```
 
 2.  Create a device to repair \(an `RSSVDevice` object\) and a service for repairing the device \(an `RSSVRepairService` object\) by adding the following code. You will use the IDs of the device and the service to create an `RSSVRepairPrice` object.
 
-    ```language-csharp
+    ```csharp
                 graph.Caches[typeof(RSSVDevice)].Insert(new RSSVDevice
                 {
                     DeviceCD = "Device1"
@@ -58,7 +58,7 @@ To create the objects that are necessary for testing the business logic, do the 
 
 3.  Create an `RSSVRepairPrice` object that will contain details about the repair service as follows.
 
-    ```language-csharp
+    ```csharp
                 RSSVRepairPrice repairPrice =
                     (RSSVRepairPrice)graph.Caches[typeof(RSSVRepairPrice)].
                     Insert(new RSSVRepairPrice());
@@ -69,7 +69,7 @@ To create the objects that are necessary for testing the business logic, do the 
 4.  Make sure that you have added the `using PX.Objects.IN;` directive to the `RSSVRepairPriceMaintTests` class.
 5.  Create three repair items—two of the `Battery` type, and one of the `BackCover` type—by using the following code.
 
-    ```language-csharp
+    ```csharp
                 InventoryItem battery1 = (InventoryItem)graph.
                     Caches[typeof(InventoryItem)].Insert(new
                     InventoryItem
@@ -131,7 +131,7 @@ To create the objects that are necessary for testing the business logic, do the 
 
 6.  Create a non-stock item that represents the work to be done by adding the following code.
 
-    ```language-csharp
+    ```csharp
                 InventoryItem work1 = (InventoryItem)graph.
                     Caches[typeof(InventoryItem)].Insert(new InventoryItem
                     {
@@ -142,7 +142,7 @@ To create the objects that are necessary for testing the business logic, do the 
 
 7.  Create repair items based on the stock items, and configure them by adding the following code.
 
-    ```language-csharp
+    ```csharp
                 // Configure the back cover repair item
                 RSSVRepairItem repairItemBackCover1 =
                     (RSSVRepairItem)graph.Caches[typeof(RSSVRepairItem)].Insert(
@@ -180,13 +180,13 @@ To create the objects that are necessary for testing the business logic, do the 
     This code creates three repair items: one back cover, and two batteries.
 
 
-## Step 3: Testing the Calculated Values { .section}
+## Step 3: Testing the Calculated Values
 
 To test the calculated values, do the following:
 
 1.  Add the following code to check the values of the `Required` and `IsDefault` fields.
 
-    ```language-csharp
+    ```csharp
                 // 2nd battery is not required -> 1st battery is also not required
                 Assert.False(repairItemBattery1.Required);
                 // 2nd battery is used by default -> 1st battery is not used by default
@@ -198,7 +198,7 @@ To test the calculated values, do the following:
 
 2.  Add the following code to ensure that the prices are calculated correctly.
 
-    ```language-csharp
+    ```csharp
                 RSSVLabor labor = (RSSVLabor)graph.Caches[typeof(RSSVLabor)].
                     Insert(new RSSVLabor
                     {

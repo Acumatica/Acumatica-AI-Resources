@@ -1,10 +1,10 @@
-# Purchase Receipt Correction: Cancellation of a Purchase Receipt {#_cc10b189-049c-48be-b149-b3841b71bbb0 .concept}
+# Purchase Receipt Correction: Cancellation of a Purchase Receipt
 
 This topic explains how you can cancel a released purchase receipt that has been prepared for a purchase order of the *Normal* or *Drop-Ship* type—that is, for a normal or drop-ship purchase order.
 
 **Important:** The functionality of receipt cancellation is unavailable if the *Service Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Cancellation of a Purchase Receipt for a Normal Purchase Order { .section}
+## Cancellation of a Purchase Receipt for a Normal Purchase Order
 
 You can cancel a purchase receipt related to a normal purchase order if this receipt has the *Released* status. To cancel a purchase receipt, while viewing it on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form, you click **Cancel Receipt** on the More menu. The system checks whether all requirements are met for the purchase receipt:
 
@@ -31,7 +31,7 @@ As soon as the purchase receipt is canceled, the system updates the related purc
 -   If the related purchase order has the *Completed* status, the system assigns the *Open* status to it.
 -   In each linked line of the related purchase order, the system updates the value in the **Qty. On Receipts** column on the **Details** tab.
 
-## Cancellation of a Purchase Receipt for a Drop-Ship Purchase Order { .section}
+## Cancellation of a Purchase Receipt for a Drop-Ship Purchase Order
 
 You can cancel a purchase receipt related to a drop-ship purchase order if this receipt has the *Released* status. To cancel a purchase receipt, while viewing it on the [Purchase Receipts](PO_30_20_00.md) form, you click **Correct Receipt** on the More menu. The system checks whether all of the following conditions are met for the purchase receipt:
 
@@ -53,7 +53,7 @@ As soon as the purchase receipt is canceled, the system updates the related docu
 -   In each linked line of the related purchase order, the system updates the value in the **Qty. On Receipts** column on the **Details** tab of the [Purchase Orders](PO_30_10_00.md) form.
 -   In each linked line of the related sales order, the system updates the values in the **Qty. On Shipments** and **Open Qty.** columns on the **Details** tab of the [Sales Orders](SO_30_10_00.md) form.
 
-## Cancellation of a Purchase Receipt with a Canceled Invoice {#ReleaseNotes-PurchaseReceiptCorrection_GRC_ForDrop-ShipReceipts-CorrectionorCancellationofDrop-ShipPOReceiptwithCanceledInvoice .section}
+## Cancellation of a Purchase Receipt with a Canceled Invoice
 
 If a purchase receipt for a purchase order of the *Drop-Ship* type has a related released sales invoice, this receipt also has a related inventory issue. If you cancel the sales invoice and then cancel the purchase receipt, the system automatically generates and releases a reversal inventory issue with a reversal GL batch of transactions. In this issue, the system fully reverts the transactions that were generated on the release of the original inventory issue. The reversal inventory issue is released automatically, regardless of the state of the **Release IN Documents Automatically** check box on the [Purchase Orders Preferences](PO_10_10_00.md) \(PO101000\) form.
 

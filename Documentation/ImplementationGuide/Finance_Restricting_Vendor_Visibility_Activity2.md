@@ -1,14 +1,14 @@
-# Vendor Visibility: To Restrict Visibility to a New Company {#_b07256f2-772c-466a-8629-77725cfcdefb .task}
+# Vendor Visibility: To Restrict Visibility to a New Company
 
 The following activity will walk you through the process of restricting the visibility of a vendor to a particular company with a base currency that is different from the base currency of the other companies in the tenant.
 
-## Story { .section}
+## Story
 
 Suppose that the management of SweetLife Fruits &amp; Jams has decided to implement multiple base currencies in Acumatica ERP. The implementation consultant has already set up a company with the CAD base currency and added all the companies that use the USD base currency to one company group. The company using the CAD base currency—SweetLife Canada—should work only with the Canadian vendors.
 
 Acting as the implementation consultant, you need to limit the visibility of *MAPLELEAF* \(a Canadian vendor\) to the SweetLife Canada company. You then need to verify that this vendor can be selected in the documents for this company. To do this, you need to process a document and review the transaction posted to the general ledger. You will then update the settings of the rest of the vendors by using an import scenario.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -19,13 +19,13 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\) form, the *MAPLELEAF* vendor has been configured.
 -   On the [Import Scenarios](../UserGuide/SM_20_60_25.md) \(SM206025\) form, the *Import Vendors with Restricted Visibility* import scenario has been configured.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will restrict the visibility of a vendor to the SweetLife Canada company on the [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\) form. You will then sign in as a user who does not have access to the SweetLife Canada company and make sure that the vendor is not visible for this user. You will sign in as a user with access to SweetLife Canada company, and on the [Bills and Adjustments](../UserGuide/AP_30_10_00.md) \(AP301000\) form, you will process a document for the *MAPLELEAF* vendor, selecting SweetLife Canada as the originating branch.
 
 Finally, on the [Import by Scenario](../UserGuide/SM_20_60_36.md) \(SM206036\) form, you will run a preconfigured import scenario to update the **Restrict Visibility To** setting for regular vendors.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -35,7 +35,7 @@ Before you begin performing the steps of this activity, do the following:
 4.  On the [Branches](../UserGuide/CS_10_20_00.md) \(CS102000\) form, be sure that for the *SLCANADA* branch, the *Branch SLCanada* role, which is associated with the branch, is specified in the **Access Role** box \(**Configuration Settings** section\) on the **Branch Details** tab.
 5.  On the [Branches](../UserGuide/CS_10_20_00.md) form, be sure that the *SWEETEQUIP* branch has been extended as a vendor. For details, see [Intercompany Sales Setup: Implementation Activity](Finance_Intercompany_SalesSetup_Implem_Activity.md).
 
-## Step 1: Restricting the Visibility of the Vendor { .section}
+## Step 1: Restricting the Visibility of the Vendor
 
 To restrict the visibility of the *MAPLELEAF* vendor to SweetLife Canada, do the following:
 
@@ -51,7 +51,7 @@ To restrict the visibility of the *MAPLELEAF* vendor to SweetLife Canada, do the
 
 5.  On the form toolbar, click **Save**.
 
-## Step 2: Reviewing the Visibility of the Vendor { .section}
+## Step 2: Reviewing the Visibility of the Vendor
 
 To review how the visibility of the vendor has been restricted, do the following:
 
@@ -64,7 +64,7 @@ To review how the visibility of the vendor has been restricted, do the following
     Notice that the *MAPLELEAF* vendor is not listed and that you cannot find it by using the Search box. This vendor is not visible for the current user, because this user is assigned to the role that has access to the SweetLife Fruits &amp; Jams company only and is not assigned to the *Branch SLCanada* role, which is the access role of the company specified for the vendor.
 
 
-## Step 3: Processing a Bill for the Vendor with Restricted Visibility { .section}
+## Step 3: Processing a Bill for the Vendor with Restricted Visibility
 
 To process a bill for the *MAPLELEAF* vendor, which has restricted visibility to the branch, do the following:
 
@@ -97,7 +97,7 @@ To process a bill for the *MAPLELEAF* vendor, which has restricted visibility to
     The transaction has been posted for the *SLCANADA* branch, and the transaction currency specified in the **Currency** box is *CAD* because you selected this currency on the [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\) form.
 
 
-## Step 4: Updating Vendor Settings by Using an Import Scenario { .section}
+## Step 4: Updating Vendor Settings by Using an Import Scenario
 
 Because the *Multiple Base Currencies* feature has been enabled after some vendors were created in the system and the **Restrict Visibility To** box became required, this box has to be filled in for all the vendors. You can use an import scenario to fill in the box for multiple vendors quickly and easily. To update the **Restrict Visibility To** setting for regular vendors, do the following:
 

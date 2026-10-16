@@ -1,8 +1,8 @@
-# To Enter a Bill in the Base Currency \(with the Items' Quantity and Unit Cost\) {#_4dbf22a2-328d-40b8-bdf5-bf40a19c9198 .task}
+# To Enter a Bill in the Base Currency \(with the Items' Quantity and Unit Cost\)
 
 You enter a vendor bill by using the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. You use this procedure if the items' quantity and unit costs are specified in the detail lines of your document. If the line total amounts are instead specified in the detail lines, use [To Enter a Bill in the Base Currency \(with Line Totals\)](AP__How_To_Enter_Bill_with_Line_Total_Known.md).
 
-## To Enter a Bill in the Base Currency \(with the Item Quantity and Unit Cost in Detail Lines\) {#section_j5h_njv_vxb .section}
+## To Enter a Bill in the Base Currency \(with the Item Quantity and Unit Cost in Detail Lines\)
 
 1.  Open the [Bills and Adjustments](../Shared/../UserGuide/AP_30_10_00.md) \(AP301000\) form.
 
@@ -26,7 +26,7 @@ You enter a vendor bill by using the [Bills and Adjustments](AP_30_10_00.md) \(A
     6.  If needed, in the **Subaccount** column, specify the subaccount.
 9.  On the form toolbar, click **Save** to save the bill.
 
-## Notes About the Procedure {#section_k5h_njv_vxb .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

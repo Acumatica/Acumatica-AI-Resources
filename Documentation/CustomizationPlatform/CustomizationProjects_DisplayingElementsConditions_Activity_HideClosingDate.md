@@ -1,23 +1,23 @@
-# Conditional Properties: To Hide an Element {#_f217b5bc-b601-49c2-884f-e5925829cc76 .task}
+# Conditional Properties: To Hide an Element
 
 The following activity will walk you through the process of conditionally hiding a box on the form. You will do this by configuring the underlying field to be hidden when the condition is met.
 
-## Story { .section}
+## Story
 
 Suppose that the employees of your company often work with the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form. Further suppose that you want to hide the boxes that contain the billable time and overtime of a case if the case is not billable. You need to configure a condition that checks whether the **Billable** check box on the **CRM Info** tab is selected.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Screens](../UserGuide/AU_20_10_00.md) page, you will add the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form so that it can be customized. By using the [Conditions](../UserGuide/AU_20_10_10.md) page, you will create a condition. On the [Fields](../UserGuide/AU_20_10_60.md) page, you will specify the created condition as a value for the *Hidden* property for the underlying fields of the **Billable Time** and **Billable Overtime** boxes; these settings will cause the boxes to be hidden if the condition is met. You will then publish the project. Finally, you will test the condition on the [Cases](../UserGuide/CR_30_60_00.md) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
 1.  Prepare an Acumatica ERP instance by performing the [Customization Projects: To Deploy an Instance](CustomizationProjects_GettingStarted_Activity_CreateInstance.md) prerequisite activity.
 2.  Create the *Yogifon* customization project by performing the [Customization Projects: To Create a Customization Project](CustomizationProjects_GettingStarted_Activity_CreateProject.md) prerequisite activity.
 
-## Step 1: Modifying the List of Customized Screens { .section}
+## Step 1: Modifying the List of Customized Screens
 
 To hide a box on the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form, you first need to add the form \(screen\) to the list of customized screens. In the Customization Project Editor, do the following:
 
@@ -35,7 +35,7 @@ To hide a box on the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form, you
     The [Cases](../UserGuide/CR_30_60_00.md) form is added to the list of forms on the [Screens](../UserGuide/AU_20_10_00.md) page, and the Screen Editor: CR306000 \(Cases\) page opens.
 
 
-## Step 2: Defining the Condition { .section}
+## Step 2: Defining the Condition
 
 Suppose that you have already learned that the field name of the **Billable** box of the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form is the same as the box name. To define the condition, do the following in the Customization Project Editor:
 
@@ -53,7 +53,7 @@ Suppose that you have already learned that the field name of the **Billable** bo
     -   **Value**: Cleared
 5.  Click **OK** to save your changes and close the dialog box.
 
-## Step 3: Specifying the Condition for the Property { .section}
+## Step 3: Specifying the Condition for the Property
 
 Do the following to specify the condition as the value of the **Hidden** property of the `Billable Time` field and the `Billable Overtime` field:
 
@@ -87,7 +87,7 @@ Do the following to specify the condition as the value of the **Hidden** propert
 10. To apply the changes to the instance, on the main menu of the Customization Project Editor, click **Publish** &gt; **Publish Current Project**.
 11. Wait until the *Website updated* row appears in the **Compilation** pane, and click **Close Compilation Pane**.
 
-## Step 4: Testing the Condition { .section}
+## Step 4: Testing the Condition
 
 Now you can test the condition. Do the following on the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form in Acumatica ERP:
 

@@ -1,4 +1,4 @@
-# To Manage the Workspaces of the Mobile App {#_3d4fed3c-380d-4177-ac9c-050b4bb48ea7 .concept}
+# To Manage the Workspaces of the Mobile App
 
 The main menu of the Acumatica mobile app contains workspaces that are similar to those in your Acumatica ERP instance but that you configure separately.
 

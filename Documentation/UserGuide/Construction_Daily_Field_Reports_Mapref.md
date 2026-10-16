@@ -1,4 +1,4 @@
-# Reporting On-Site Work Progress {#_e4fc57e1-b749-47f5-ac04-4969f18217af .concept}
+# Reporting On-Site Work Progress
 
 A daily field report \(DFR\) is used by project managers and site supervisors in construction to record observations, activities, and conditions that occur on a project site every day. This data can be valuable in analyzing why a project might have a problem, be delayed, or be unprofitable. The topics of this chapter explain how to work with daily field reports in the system.
 

@@ -1,12 +1,12 @@
-# Barcode Scan Commands: To Add Quantity Support {#_2fe7108c-3ec4-4c5b-b646-edb5a5fc7498 .task}
+# Barcode Scan Commands: To Add Quantity Support
 
 This activity will walk you through adding the logic that handles input of a quantity.
 
-## Story { .section}
+## Story
 
 Suppose that you are creating a custom scan mode for a barcode-driven form. You need to add the logic that handles the input of a quantity in this scan mode. You will use the QtySupport extension defined in the WarehouseManagementSystem&lt;TSelf,TGraph&gt; class. The logic of the QtySupport extension cannot be used until you create an empty descendant for this extension class.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -14,7 +14,7 @@ In this activity, you will do the following:
 2.  Override the UseQtyCorrection method of the barcode scan class.
 3.  Add the QtySupport.SetQtyCommand component in the CreateCommands method.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the step of this activity, do the following:
 
@@ -23,7 +23,7 @@ Before you begin performing the step of this activity, do the following:
 3.  Create the scan mode and define its required properties by performing the [Barcode Scan Mode: To Define the Required Properties](WMSEngine_ScanMode_CreateScanMode_Activity.md) prerequisite activity.
 4.  Define the list of commands for the scan mode by performing the [Barcode Scan Commands: To Define the List of Commands](WMSEngine_Command_Activity.md) prerequisite activity.
 
-## Step: Adding the Quantity Support Extension { .section}
+## Step: Adding the Quantity Support Extension
 
 To add the quantity support extension, do the following:
 

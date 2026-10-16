@@ -1,10 +1,10 @@
-# Setup of Net or Gross Tax Calculation {#_6239c795-23f6-440a-b188-5fddf55d2f1f .concept}
+# Setup of Net or Gross Tax Calculation
 
 To ensure accurate pricing and compliance with local tax regulations, you can define how taxes are calculated—either as inclusive \(gross\) or exclusive \(net\). Start by specifying the default tax calculation mode for a tax provider. You can then fine-tune tax behavior by assigning a specific mode to individual customers or vendors. And when exceptions arise, you have the flexibility to switch the tax mode directly within a document.
 
 **Important:** The *Net/Gross Entry Mode* feature must be enabled on the [Enable/Disable Features](https://training.acumatica.com/2025R1/(W(2))/Wiki/ShowWiki.aspx?wikiname=HelpRoot_FormReference&PageID=c1555e43-1bc5-4f6f-ba9d-b323f94d8a6b) \(CS100000\) form.
 
-## Specify a Tax Providers’ Default Tax Calculation Mode {#section_wwj_xwh_2gc .section}
+## Specify a Tax Providers’ Default Tax Calculation Mode
 
 Select the default tax calculation mode for a tax provider on the [Tax Providers](TX_10_20_00.md) \(TX102000\) form. In the **Default Tax Calculation Mode** box, you can select one of the following options:
 
@@ -13,14 +13,14 @@ Select the default tax calculation mode for a tax provider on the [Tax Providers
 
 Keep in mind that you can override this setting for a specific customer, vendor, or directly within a document.
 
-## Specify the Tax Calculation Mode for Customers and Vendors {#section_yvd_13m_3fc .section}
+## Specify the Tax Calculation Mode for Customers and Vendors
 
 We recommend that you specify the tax calculation mode for each customer or vendor to align with their specific tax regulations or pricing structures. The **Tax Calculation Mode** box is available in the following locations:
 
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, on the **Shipping** tab
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) from, on the **Purchase Settings** tab
 
-## Tax Calculation Mode in Documents {#section_ayx_mgj_2fc .section}
+## Tax Calculation Mode in Documents
 
 You can view and adjust the tax mode applied to each document. The **Tax Calculation Mode** box is available on the following forms:
 
@@ -43,5 +43,5 @@ If the project functionality is in use in your system, the **Tax Calculation Mod
 -   On the [Project Quotes](PM_30_45_00.md) and [Subcontracts](SC_30_10_00.md) forms, the system uses the tax calculation mode of the customer or vendor's location. If *Tax Settings* is selected in the **Tax Calculation Mode** box on the [Customer Locations](AR_30_30_20.md) \(AR303020\) or [Vendor Locations](AP_30_30_10.md) \(AP303010\) forms, the provider’s default tax mode is applied.
 -   On the [Pro Forma Invoices](PM_30_70_00.md) form, the provider's tax mode is applied by default.
 
-**Parent topic:**[Integrating Acumatica ERP with Avalara Avatax](../UserGuide/config_Avalara_Integration_Mapref.md)
+**Parent topic:**[Integrating Acumatica ERP with Avalara AvaTax](../UserGuide/config_Avalara_Integration_Mapref.md)
 

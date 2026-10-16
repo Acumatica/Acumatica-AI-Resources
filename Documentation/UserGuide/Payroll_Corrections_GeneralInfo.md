@@ -1,11 +1,11 @@
-# Corrections: General Information {#_ea65e65e-89e5-4ffa-99be-b7af937a4f2a .concept}
+# Corrections: General Information
 
 In Acumatica ERP, you can correct a mistake in a released payroll document by doing one of the following:
 
 -   By voiding the incorrect paycheck and creating a new one with corrected data
 -   By creating an adjustment or special paycheck
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -15,14 +15,14 @@ In this chapter, you will learn how to do the following:
 -   Reverse a liability bill
 -   Create a special paycheck
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may need to make a correction to a payroll document in the following cases:
 
 -   You have entered an incorrect rate or number of hours, which resulted in incorrect amounts paid
 -   You have linked an earning detail line with an incorrect project, union, labor item, or workers' compensation code
 
-## Corrections in Payroll { .section}
+## Corrections in Payroll
 
 If you have released a paycheck with incorrect information specified, you can void the paycheck and then create and release a similar paycheck but with the correctly adjusted details.
 
@@ -30,7 +30,7 @@ Another way to make the necessary correction is to create and release an adjustm
 
 If you have underpaid an employee, you can create and release a special paycheck with an amount that will compensate the underpayment. If you have overpaid an employee, you only can make a verbal agreement with the employee that the amount of the next paycheck will be less \(presumably for the amount of the overpayment\) than the amount of the previous paycheck; there is no other way to correct an overpayment because the payroll functionality does not allow claiming overpayment from employees.
 
-## PTO Adjustments { .section}
+## PTO Adjustments
 
 To modify PTO balances for specific employees, you can use a dedicated document, a PTO adjustment, which you create and process on the [PTO Adjustments](PR_30_60_00.md) \(PR306000\) form.
 
@@ -50,7 +50,7 @@ You can void a released PTO adjustment by clicking the **Void** command on the M
 
 On the *PTO Adjustments \(PR3060PL\)* list of records, which can be used to view PTO adjustments created on the [PTO Adjustments](PR_30_60_00.md) \(PR306000\) form, you can view the history of all PTO adjustments.
 
-## Adjustments and Special Paychecks { .section}
+## Adjustments and Special Paychecks
 
 The [Paychecks and Adjustments](PR_30_20_00.md) \(PR302000\) form may be used to make any necessary adjustments if you select the *Adjustment* option in the **Type** box. In an adjustment, you can edit any setting except for the settings related to paid time off, and then you can release the document to update the corresponding value in the employee record. You can also use adjustments to enter employee beginning balances, typically by entering one check per employee per month or per quarter. You can enter negative amounts in adjustments, which may result in a negative net check.
 
@@ -62,7 +62,7 @@ The transactions that are created when an adjustment is released impact the gene
 
 Special paychecks \(that is, paychecks with the *Special* option selected in the **Type** box on the [Paychecks and Adjustments](PR_30_20_00.md) form\) are mostly used for special payments, such as bonuses, outside the normal payroll run. In a special paycheck, you are not allowed to enter negative hours.
 
-## Voiding of Paychecks { .section}
+## Voiding of Paychecks
 
 The [Paychecks and Adjustments](PR_30_20_00.md) \(PR302000\) form may be used to void a paycheck of any type.
 
@@ -76,7 +76,7 @@ The system marks the original check as being voided and keeps a record of the ac
 
 In most cases, a voided payroll check needs to be immediately replaced by a new check that is either identical to the original check \(in the case of a lost check\) or very similar to it \(in the case of a check that contained a mistake\). To quickly make a copy of the voided paycheck, you can use the standard copy-and-paste options in the **Clipboard** menu on the form toolbar.
 
-## Copying and Pasting of Paychecks { .section}
+## Copying and Pasting of Paychecks
 
 By using the standard copy-and-paste options in the **Clipboard** menu on the [Paychecks and Adjustments](PR_30_20_00.md) \(PR302000\) form, you can create a copy of any paycheck of the *Regular*, *Special*, or *Adjustment* type regardless of its status. The copied document can be pasted to a new paycheck of any type. The new document will be assigned the *Pending Calculation* status.
 

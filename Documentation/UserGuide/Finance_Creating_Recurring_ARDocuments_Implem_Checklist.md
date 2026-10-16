@@ -1,4 +1,4 @@
-# Recurring AR Documents: Implementation Checklist {#_8c7bddc0-368e-4068-8ec4-1c54b2946300 .concept}
+# Recurring AR Documents: Implementation Checklist
 
 To ensure that the system is configured properly for configuring schedules for recurring documents, make sure that the features and settings listed in the table are configured as described in the following table.
 
@@ -9,7 +9,7 @@ To ensure that the system is configured properly for configuring schedules for r
 |[Chart of Accounts](../Shared/../UserGuide/GL_20_25_00.md) \(GL202500\) form|Check whether the necessary accounts have been created.| |
 |[Company Financial Calendar](../Shared/../UserGuide/GL_20_11_00.md) \(GL201100\) form|Be sure that the financial periods for which transactions will be created have a status of *Open*.|You can generate the necessary periods on the [Master Financial Calendar](../Shared/../UserGuide/GL_20_10_00.md) \(GL201000\) form.|
 
-## Other Settings That Affect the Workflow { .section}
+## Other Settings That Affect the Workflow
 
 To accommodate the workflow of automatic generation of AR documents, you need to specify additional settings as follows:
 
@@ -20,7 +20,7 @@ To accommodate the workflow of automatic generation of AR documents, you need to
     -   Select the **Hold Documents on Entry** check box in the **Data Entry Settings** section. This setting gives the created invoices the *On Hold* status.
     -   Make sure that the **Automatically Post on Release** check box is selected in the **Posting Settings** section. This setting indicates that invoices will be automatically posted to the general ledger once they are released.
 
-## Validation of Configuration { .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you create invoices based on a schedule by performing instructions similar to those described in [Recurring AR Documents: Process Activity](Finance_Creating_Recurring_ARDocuments_Activity.md).
 

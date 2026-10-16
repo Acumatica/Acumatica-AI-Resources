@@ -1,4 +1,4 @@
-# Other Control Types {#_d0152c95-81a8-48d2-9251-72de39a8aae1 .concept}
+# Other Control Types
 
 The Acumatica Customization Platform does not support some control types, such as PXSplitContainer and PXTreeView, that are supported by the Acumatica Framework. However the Acumatica Customization Platform gives you the ability to add a control of an unsupported type to an Acumatica ERP form and save the change to a customization project.
 

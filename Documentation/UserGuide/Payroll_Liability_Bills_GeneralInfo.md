@@ -1,16 +1,16 @@
-# Liability Bills: General Information {#_c606f600-5e66-4994-833f-83f9007ee4b4 .concept}
+# Liability Bills: General Information
 
 The pay run process generates payroll liability records in accordance with the setup of each specific deduction, benefit, and tax in the system. On the [Create Liability Bills](PR_50_30_00.md) \(PR503000\) form, you can translate these liability records into accounts payable bills so that they can be paid through standard accounts payable processes.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to create accounts payable bills for payroll liabilities.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create payroll liability bills to be able to pay employer taxes and other contributions to corresponding legal entities \(that is, vendors\).
 
-## Creation of Liability Bills { .section}
+## Creation of Liability Bills
 
 You use the [Create Liability Bills](PR_50_30_00.md) \(PR503000\) form to filter and select liability records, so you can determine which payroll liability activities need to be converted into AP bills. The boxes in the selection area of the form are used to determine which records to select for processing.
 

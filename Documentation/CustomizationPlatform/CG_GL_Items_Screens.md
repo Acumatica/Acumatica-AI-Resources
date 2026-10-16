@@ -1,4 +1,4 @@
-# Customized Screens {#_e87c9468-09fd-45a6-aea8-4e70ff65bc00 .concept}
+# Customized Screens
 
 You use the Customized Screens page of the [Customization Project Editor](../UserGuide/SM_20_45_10.md) to manage the *Page*, *AUScreenAction*, *AUScreenNavigationAction*, and *AutomationScreenField* items in the customization project. The *Page* item for an existing form contains instructions about changes to the layout that have to be applied by the platform to the ASPX code of the form during publication of the project. For a custom form, the *Page* item holds the content of the form and the path to the ASPX file of the form. \(The path is required so the platform can detect changes of the file in the file system in the development environment and update the file while you publish the project.\)
 

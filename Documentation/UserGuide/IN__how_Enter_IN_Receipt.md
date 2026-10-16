@@ -1,10 +1,10 @@
-# To Enter an Inventory Receipt {#_89f1a362-13f7-45fe-98ee-a6a53e1c36bf .task}
+# To Enter an Inventory Receipt
 
 When you receive stock items in a warehouse, you can enter an inventory receipt to add these items to the system manually by using the [Receipts](IN_30_10_00.md) \(IN301000\) form.
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## To Enter an Inventory Receipt { .section}
+## To Enter an Inventory Receipt
 
 1.  Open the [Receipts](../Shared/../UserGuide/IN_30_10_00.md) \(IN301000\) form.
 

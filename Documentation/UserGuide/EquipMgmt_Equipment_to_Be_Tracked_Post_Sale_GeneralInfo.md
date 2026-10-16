@@ -1,10 +1,10 @@
-# Stock Items to Be Tracked Post-Sale: General Information {#_0390063b-98f8-42ec-b1e2-30a84db56cfa .concept}
+# Stock Items to Be Tracked Post-Sale: General Information
 
 To track equipment after a sale in Acumatica ERP, on the [Stock Items](IN_20_25_00.md) \(IN202500\) form, you need to create a stock item of an equipment class that is designated for model equipment. A stock item of this class represents a piece of equipment that can be sold to a customer and subsequently tracked by your company.
 
 A piece of equipment may or may not include components, which are stock items that belong to an equipment class that is designated for components. You can sell these components along with the equipment or separately, such as when a component of the equipment needs to be replaced or upgraded.
 
-## Learning Objectives {#section_ody_dz5_3dc .section}
+## Learning Objectives
 
 In this lesson, you will learn how to do the following:
 
@@ -13,7 +13,7 @@ In this lesson, you will learn how to do the following:
 -   Create a stock item of a model equipment class with components \(that is, a record for a piece of equipment to be sold with components\). You will also create components \(stock items of a component equipment class\).
 -   Record the receipt of stock items to add them to the warehouse inventory.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure stock items for post-sale tracking in the following scenarios:
 
@@ -22,7 +22,7 @@ You configure stock items for post-sale tracking in the following scenarios:
 -   A customer requires the replacement or upgrade of a component in existing equipment, and the components must be created and managed as separate stock items.
 -   Components are sold separately from the equipment—such as for repairs, upgrades, or replacements—and need to be properly recorded in the system.
 
-## Equipment-Related Options of a Stock Item {#section_tv5_4vr_kdc .section}
+## Equipment-Related Options of a Stock Item
 
 Before you can create a stock item of a model equipment or component equipment class, you first have to create the applicable item classes on the [Item Classes](IN_20_10_00.md) \(IN201000\) form.
 
@@ -37,9 +37,8 @@ For an item class intended for equipment to be tracked after the sale, you selec
 
 By selecting one of these option buttons, you define the item class as an equipment class.
 
-![](Images/EquipMgmt_Equipment_Item_Classes.png "An equipment item class")
 
-## Warranty Settings {#section_ddn_k5v_3dc .section}
+## Warranty Settings
 
 For a stock item with warranties, you can specify the warranty settings on the **Service Management** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form. You can specify the following warranty durations:
 

@@ -1,8 +1,8 @@
-# Asset Disposal: Generated Transactions {#_6c4de519-2f7c-488a-84c2-6bc5656d50f3 .concept}
+# Asset Disposal: Generated Transactions
 
 As you dispose of a fixed asset, you create and process disposal transactions. To update the balances of GL accounts, the system generates the GL transactions described in the following sections.
 
-## Transactions Generated for Asset Disposal {#section_vz2_ljv_vxb .section}
+## Transactions Generated for Asset Disposal
 
 When you create and release a disposal transaction, the system generates the following general ledger transaction.
 

@@ -1,4 +1,4 @@
-# EarningTypeCode {#_3638c1cf-1210-46f0-b488-7a9b2afdb4a9 .concept}
+# EarningTypeCode
 
 This chapter presents code examples showing requests that use the `EarningTypeCode` entity.
 

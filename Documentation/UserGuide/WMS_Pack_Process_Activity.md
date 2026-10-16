@@ -1,14 +1,14 @@
-# Packing Operations: Process Activity {#_535ae6af-06b9-4d74-b852-0968d9d101f6 .task}
+# Packing Operations: Process Activity
 
 In the following activity, you will learn how to perform the packing of items for a shipment by using the [Pick, Pack, and Ship](SO_30_20_20.md) \(SO302020\) form.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a warehouse worker of the wholesale warehouse of the SweetLife Fruits &amp; Jams company. Your warehouse manager gives you a task to pack a shipment. In your organization, the pack workflow is used, which means that you go through the warehouse locations, take the items, and pack the items into boxes for shipping.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -27,7 +27,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, the *000032* sales order for the *COFFEESHOP* customer has been created.
 -   On the [Shipments](SO_30_20_00.md) \(SO302000\) form, the *000031* shipment has been created for this sales order.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, acting as a packer, you will do the following:
 
@@ -43,7 +43,7 @@ In this activity, acting as a packer, you will do the following:
 
 **Tip:** In any working mode, you enter a command or barcode by typing it in the **Scan** box and pressing Enter. In production systems, you will scan the appropriate barcodes rather than manually entering them.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start the automated packing operations, you need to perform the following instructions:
 
@@ -53,7 +53,7 @@ Before you start the automated packing operations, you need to perform the follo
     2.  Make sure that the **Display the Pack Tab** check box is selected.
     3.  On the form toolbar, click **Save**.
 
-## Step 1: Packing Items for Shipping { .section}
+## Step 1: Packing Items for Shipping
 
 To record that items to be added to a shipment have been picked from the warehouse locations and packed into boxes, do the following:
 
@@ -77,17 +77,16 @@ To record that items to be added to a shipment have been picked from the warehou
 10. On the form toolbar, click **Confirm Package** to confirm the package.
 11. On the form toolbar, click **Confirm Shipment** to confirm the shipment document, which is assigned the *Confirmed* status.
 
-## Step 2: Reviewing the Shipment { .section}
+## Step 2: Reviewing the Shipment
 
 To review the result and make sure that the shipment has been confirmed, do the following:
 
 1.  While you are still viewing the shipment on the [Pick, Pack, and Ship](SO_30_20_20.md) \(SO302020\) form, click the link in the **Shipment Nbr.** box. On the [Shipments](SO_30_20_00.md) \(SO302000\) form, which opens, review the shipment that you have processed in the previous step. It is now assigned the *Confirmed* status \(Item 1 below\).
 2.  Review the **Packages** tab. Notice that one *MEDIUM* box \(Item 2\) is shown in the upper table, and the **Contents of Selected Package** table shows the items \(Item 3\) that you have packed into this box, as shown in the following screenshot.
 
-    ![](Images/activity_WMS_Pack.png "Confirmed shipment")
 
 
-## Step 3: Resuming the Picking of Items for Shipment on the Pick Tab { .section}
+## Step 3: Resuming the Picking of Items for Shipment on the Pick Tab
 
 Suppose that you need to process the shipment for which you are performing picking and packing operations. To cause the system to show the **Pick** tab on the [Pick, Pack, and Ship](SO_30_20_20.md) \(SO302020\) form, do the following:
 

@@ -1,4 +1,4 @@
-# AccountDetailsForPeriodInquiry {#_5459946e-edff-44e7-853a-3613cfcfcea3 .concept}
+# AccountDetailsForPeriodInquiry
 
 This chapter presents code examples showing requests that use the `AccountDetailsForPeriodInquiry` entity.
 

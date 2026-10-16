@@ -1,29 +1,29 @@
-# Project Issues: Implementation Activity {#_81d8a6c1-7379-49ad-a28f-10106896d29a .task}
+# Project Issues: Implementation Activity
 
 In the following implementation activity, you will learn how to prepare the system for creating and processing project issues.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you, a system administrator of a construction company, ToadGreen Building Group, need to define the types of project issues for the company. You need to track design issues, violations of safety regulations, and problems with equipment, materials, or people. You also need to configure a project management class that is going to be used for creating project issues so that the due date for resolving a newly created project issue will be set to seven days by default.
 
-## Configuration Overview {#section_uhq_1ct_vpb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Construction* and *Construction Project Management* features have been enabled in the *Projects* group of features.
 -   On the [Project Management Classes](PJ_20_10_00.md#) \(PJ201000\) form, the *FIELD* class has been defined with the **Project Issues** check box selected in the **Use For** section.
 
-## Process Overview {#section_qjw_hdr_v4b .section}
+## Process Overview
 
 You will configure a list of types to be used for the project issues on the [Project Management Preferences](PJ_10_10_00.md) \(PJ101000\) form. Then you will review and update the settings of a project management class to be used for the project issues on the [Project Management Classes](PJ_20_10_00.md#) \(PJ201000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as a system administrator by using the *gibbs* username and the *123* password.
 
-## Step 1: Specifying System Settings for Project Issues { .section}
+## Step 1: Specifying System Settings for Project Issues
 
 To specify system preferences related to project issues, do the following:
 
@@ -42,7 +42,7 @@ To specify system preferences related to project issues, do the following:
 
 5.  Save your changes.
 
-## Step 2: Configuring a Project Management Class { .section}
+## Step 2: Configuring a Project Management Class
 
 Review the project management class that has been configured for processing project issues by doing the following:
 

@@ -1,4 +1,4 @@
-# To Override a Data View {#_5312e75a-6f0a-4b2c-a28c-38da20782087 .concept}
+# To Override a Data View
 
 To modify a data view, you have to redefine the data view in the graph extension class. The data view redefined within a BLC extension completely replaces the base data view within the *Views* collection of a graph instance, including all attributes attached to the data view declared within the base graph. You can either attach the same set of attributes to the data view or completely redeclare the attributes. For details, see [Graph Extensions](CG_Platform_TO_Code_CS_GraphExtensions.md). The data view must have exactly the same identifier, which is referred to in the appropriate container in the ASPX page.
 

@@ -1,25 +1,25 @@
-# Leads: To Create a Lead Manually {#_9e2b4088-31ac-4de8-b0ab-84e12a2d22e3 .task}
+# Leads: To Create a Lead Manually
 
 The following activity demonstrates how to create a lead manually in Acumatica ERP.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Bill Owen, a marketing manager of the SweetLife Fruits &amp; Jams company. You have received a call from Sam Collins, the bakery manager of Muffin Secret, a bakery that cooks pastries, usually with jam filling. Sam would like to purchase 50 jars each of apple, orange, and cherry jam and wonders what discount he can obtain from the SweetLife if he chooses to buy the jams.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
 -   On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Customer Management* feature has been enabled. This feature provides the customer relationship management \(CRM\) functionality, including lead and customer tracking, and gives users the ability to manage sales opportunities, contacts, marketing lists, and campaigns.
 -   On the [Lead Classes](CR_20_70_00.md) \(CR207000\) form, the *BAKERY* class, which defines SweetLife's leads that represent bakery employees, has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create a lead on the [Leads](CR_30_10_00.md) \(CR301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating leads manually, you should do the following:
 
@@ -30,7 +30,7 @@ Before you start creating leads manually, you should do the following:
 3.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 4.  Make sure that on the [Customer Management Preferences](CR_10_10_00.md) \(CR101000\) form, in the **Default Lead Class** box, *BAKERY* is specified. If it is not, select this lead class, and save your changes.
 
-## Step: Creating a Lead Manually { .section}
+## Step: Creating a Lead Manually
 
 To create a lead manually, do the following:
 

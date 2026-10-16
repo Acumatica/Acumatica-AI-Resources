@@ -1,8 +1,8 @@
-# To Update an Excel Spreadsheet {#_c7fba9fb-d60f-4256-a5ff-31b397682399 .task}
+# To Update an Excel Spreadsheet
 
 After you have exported data from Acumatica ERP to a Microsoft Excel spreadsheet, you don't need to repeat the export of data after changes have been made in the associated Acumatica ERP document or record. You can just update the data in the Excel spreadsheet, as described in this topic.
 
-## To Update an Excel Spreadsheet { .section}
+## To Update an Excel Spreadsheet
 
 1.  Open the file in Microsoft Excel.
 2.  If you are prompted, enable editing and enable external data connections so that Excel can update the file.

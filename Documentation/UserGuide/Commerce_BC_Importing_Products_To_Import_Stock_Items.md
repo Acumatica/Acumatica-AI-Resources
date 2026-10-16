@@ -1,16 +1,16 @@
-# Product Import: To Import Stock Items {#_8a0ad762-951b-4fe2-b1b1-116c841ae587 .task}
+# Product Import: To Import Stock Items
 
 The following activity will walk you through the processes of importing stock items from the BigCommerce store to Acumatica ERP.
 
-## Story { .section}
+## Story
 
 Suppose that for each product that has been created directly in the BigCommerce store, the SweetLife Fruits &amp; Jams company wants to maintain item information in Acumatica ERP. Acting as an implementation consultant helping SweetLife to set up the integration of Acumatica ERP with the BigCommerce store, you need to configure the import of stock items from the BigCommerce store to Acumatica ERP and import the existing products from the store. Because these are physical products, they will be defined as stock items.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the *JAM* item class has been defined on the [Item Classes](IN_20_10_00.md) \(IN201000\) form for the purposes of this activity.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -21,7 +21,7 @@ In this activity, you will do the following:
 5.  On the [Sync History](BC_30_10_00.md) \(BC301000\) form, review the results of the synchronization
 6.  On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, review the imported stock items
 
-## System Preparation { .section}
+## System Preparation
 
 Before performing the instructions of this activity, do the following:
 
@@ -33,7 +33,7 @@ Before performing the instructions of this activity, do the following:
     -   **Password**: *123*
 3.  In the same browser, sign in to the control panel of the BigCommerce store as the store administrator.
 
-## Step 1: Creating Products in the BigCommerce Store { .section}
+## Step 1: Creating Products in the BigCommerce Store
 
 In the BigCommerce store, create the products to be imported to Acumatica ERP as follows:
 
@@ -63,7 +63,7 @@ In the BigCommerce store, create the products to be imported to Acumatica ERP as
     The product management page opens with the created product.
 
 
-## Step 2: Activating the Needed Entity { .section}
+## Step 2: Activating the Needed Entity
 
 To activate the import of stock items from the BigCommerce store to Acumatica ERP, do the following:
 
@@ -75,7 +75,7 @@ To activate the import of stock items from the BigCommerce store to Acumatica ER
     When you change the sync direction for the *Stock Item* entity, notice that the system inserts *External System* in the **Primary System** column.
 
 
-## Step 3: Specifying the Inventory Settings { .section}
+## Step 3: Specifying the Inventory Settings
 
 To specify the settings that will be used by default for importing stock items from the BigCommerce store to Acumatica ERP, do the following:
 
@@ -91,7 +91,7 @@ To specify the settings that will be used by default for importing stock items f
 
 3.  On the form toolbar, click **Save**.
 
-## Step 4: Preparing the Product Data for Import { .section}
+## Step 4: Preparing the Product Data for Import
 
 To prepare the stock item data that needs to be imported to the BigCommerce store, do the following:
 
@@ -105,7 +105,7 @@ To prepare the stock item data that needs to be imported to the BigCommerce stor
     In the table row with the *Stock Item* entity, the **Ready to Process** column shows the number of synchronization records that have been prepared and are ready to be processed.
 
 
-## Step 5: Processing the Prepared Product Data { .section}
+## Step 5: Processing the Prepared Product Data
 
 To import the prepared product data from the BigCommerce store, while you are still reviewing the data on the [Prepare Data](BC_50_10_00.md) \(BC501000\) form, do the following:
 
@@ -122,7 +122,7 @@ To import the prepared product data from the BigCommerce store, while you are st
 
 6.  Click **Close** to close the dialog box.
 
-## Step 6: Viewing the Imported Products { .section}
+## Step 6: Viewing the Imported Products
 
 To view the imported product data, do the following:
 
@@ -150,7 +150,7 @@ To view the imported product data, do the following:
     In the row with the *Blueberry Jam 32 oz* external description, notice that the **ERP ID** column is empty because the system failed to import the item. The **Last Message** column contains the error explaining the processing failure.
 
 
-## Step 7 \(Optional\): Reattempting the Product Import { .section}
+## Step 7 \(Optional\): Reattempting the Product Import
 
 To reattempt the import of the *Blueberry Jam 32 oz* item, while you are still viewing the synchronization record on the **Failed** tab of the [Sync History](BC_30_10_00.md) \(BC301000\) form, do the following:
 

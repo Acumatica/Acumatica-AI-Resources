@@ -1,27 +1,59 @@
-# Construction Project Budget: Implementation Checklist {#_4bcc5ce7-5e2f-49c3-8d57-42bd3ec60cf1 .concept}
+# Construction Project Budget: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for managing budget in construction projects, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist {#section_mpm_ty4_brb .section}
+## Implementation Checklist
 
 We recommend that before you initially manage project budgets, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
-|Form|Tasks to Perform|
-|----|----------------|
-|[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)|Make sure that the *Construction* and *Projects* features are enabled.|
-|[Projects Preferences](PM_10_10_00.md) \(PM101000\)|Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see [Basic Project Configuration: General Information](../ImplementationGuide/config_Project_Basic_GeneralInfo.md).
+<table id="_85f5b1eb-16bc-4091-b7a6-60a8b5fe2b59"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Tasks to Perform
+
+</th></tr></thead><tbody><tr><td>
+
+[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)
+
+</td><td>
+
+Make sure that the *Construction* and *Projects* features are enabled.
+
+</td></tr><tr><td>
+
+[Projects Preferences](PM_10_10_00.md) \(PM101000\)
+
+</td><td>
+
+Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see [Basic Project Configuration: General Information](../ImplementationGuide/config_Project_Basic_GeneralInfo.md).
 
  Also make sure that *Summary* is selected in the **Revenue Budget Update** box and *Detailed* is selected in the **Cost Budget Update** box on the **General** tab.
 
-|
-|[Account Groups](PM_20_10_00.md) \(PM201000\)|Make sure that all needed account groups have been configured. For more information about account groups, see [Account Groups: General Information](Account_Groups_GeneralInfo.md)|
-|[Projects](PM_30_10_00.md) \(PM301000\)|Make sure that the project has been created, as described in [Project Creation and Processing: General Information](Projects_Process_GeneralInfo.md).
+</td></tr><tr><td>
+
+[Account Groups](PM_20_10_00.md) \(PM201000\)
+
+</td><td>
+
+Make sure that all needed account groups have been configured. For more information about account groups, see [Account Groups: General Information](Account_Groups_GeneralInfo.md)
+
+</td></tr><tr><td>
+
+[Projects](PM_30_10_00.md) \(PM301000\)
+
+</td><td>
+
+Make sure that the project has been created, as described in [Project Creation and Processing: General Information](Projects_Process_GeneralInfo.md).
 
  Also, make sure that *Task* is selected in the **Revenue Budget Level** box and *Task and Item* is selected in the **Cost Budget Level** box on the **Summary** tab \(**Project Properties** section\).
 
-|
+</td></tr></tbody>
+</table>
 
-## Other Settings That Affect the Workflow {#section_npm_ty4_brb .section}
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of managing the project budget by specifying additional settings as follows:
 

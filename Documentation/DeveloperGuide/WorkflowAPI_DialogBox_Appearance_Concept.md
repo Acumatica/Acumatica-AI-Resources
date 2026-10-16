@@ -1,4 +1,4 @@
-# Workflow Dialog Boxes: Configuration of the Layout {#_aaaa6b54-753c-4f9d-b0a8-fdc9f165455a .concept}
+# Workflow Dialog Boxes: Configuration of the Layout
 
 You can configure the layout of controls in a workflow dialog box in the following ways:
 

@@ -1,4 +1,4 @@
-# Configuring Contracts {#_27414b7f-098b-4995-b56d-93f6da3b2910 .concept}
+# Configuring Contracts
 
 This chapter provides information about the initial steps required to create contracts in Acumatica ERP. You will learn about creating a draft of a contract.
 

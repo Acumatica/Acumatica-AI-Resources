@@ -1,4 +1,4 @@
-# Filtering Parameters: Filtered Data on a Processing Form {#_66439686-9572-45ca-bb10-ce1e86fc935d .concept}
+# Filtering Parameters: Filtered Data on a Processing Form
 
 To display the filtered data in the table on a processing form, you need to define the processing data view, which selects data narrowed by the selection criteria, which is defined with filtering parameters.
 

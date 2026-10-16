@@ -1,8 +1,8 @@
-# Marketing Lists: General Information {#_d85fe1cd-46c6-41be-a123-ab683d0d0d75 .concept}
+# Marketing Lists: General Information
 
 When your company is nurturing particular leads and contacts, you may want to send newsletters and promotional emails to lists of these contacts. This could be useful for leads with confirmed contact information; you may also want to use marketing lists to communicate with confirmed contacts that are not yet ready to buy any of the currently offered services or products but might be interested in future offers.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,7 +10,7 @@ In this chapter, you will learn how to do the following:
 -   Unsubscribe a member from the marketing list
 -   Create a dynamic marketing list \(that is, a list that can be automatically formed and updated based on rules that you specify\)
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to learn how to manage marketing lists in scenarios that include the following:
 
@@ -19,7 +19,7 @@ You may want to learn how to manage marketing lists in scenarios that include th
 -   You need to reengage old contacts.
 -   You want to receive feedback from contacts on products or services that may be interesting to them.
 
-## Marketing Lists in Acumatica ERP { .section}
+## Marketing Lists in Acumatica ERP
 
 A marketing list in Acumatica ERP is a list of members that can include leads, contacts, business accounts, and employees. You can create as many marketing lists as you need. Based on a marketing list, you can create mailing lists for mass-mailing newsletters, special offers, or other information that is periodically sent to the members.
 
@@ -29,7 +29,7 @@ In the **Status** box of the Summary area of the form, you can select *Active* o
 
 Each marketing list in Acumatica ERP can be configured to be either dynamic or static, as described in the following sections.
 
-## Static Marketing Lists { .section}
+## Static Marketing Lists
 
 When you create a marketing list on the [Marketing Lists](CR_20_40_00.md) \(CR204000\) form, the default **List Type** option \(in the Summary area\) is *Static*. A static marketing list is formed and updated manually.
 
@@ -45,7 +45,7 @@ You can include particular members in a static marketing list by doing any of th
 
 You can convert a static marketing list to a dynamic one by clicking **Convert to Dynamic List** on the form toolbar or the More menu of the [Marketing Lists](CR_20_40_00.md) form.
 
-## Lead and Contact Creation During the Uploading of New Members to a Static Marketing List { .section}
+## Lead and Contact Creation During the Uploading of New Members to a Static Marketing List
 
 On the [Marketing Lists](CR_20_40_00.md) \(CR204000\) form, you can upload new members from an Excel file to a static marketing list by using the **Load Records from File** button on the table toolbar of the **List Members** tab. These new members may already be defined in the system as leads, contacts, or business accounts.
 
@@ -53,7 +53,6 @@ During the uploading of a file, the system can also create a new lead or contact
 
 To cause the system to create new records in the system while uploading new members from a file, you need to perform the following general steps on the **List Members** tab:
 
-1.  On the table toolbar, you click **Load Records from File** \(![](../Shared/Images/Icons_Upload_File.png)\).
 2.  In the **Import Data** dialog box, you click Upload File select the file you want to upload.
 3.  On the Specify Common Settings page of the dialog box \(which opens after you upload the file\), you can make any needed changes to the default settings for the imported file and then confirm your changes by clicking **Next**.
 4.  On the Map Properties to Columns page of the dialog box, which opens, you perform mapping that adheres to the following guidelines:
@@ -71,13 +70,13 @@ During the creation of the new record, the system may find a possible duplicate 
 -   If the *Block* option is selected, the system does not create a new record and does not add a new member to the marketing list; it proceeds to the next record in the Excel file.
 -   If the *Warn* or *Allow* option is selected, a new record is created and added to the marketing list.
 
-## Dynamic Marketing Lists { .section}
+## Dynamic Marketing Lists
 
 For a dynamic marketing list, the system uses the generic inquiry you specify to automatically add, remove, and change members to meet the criteria specified in the generic inquiry. To make a marketing list dynamic, you click **Convert to Dynamic List** on the form toolbar or the More menu of the [Marketing Lists](CR_20_40_00.md) \(CR204000\) form. In the Summary area, the value in the **List Type** box is changed to *Dynamic* and the **Generic Inquiry** and **Shared Filter** boxes appear on the form. In the **Generic Inquiry** box, you select the generic inquiry from which members will be added. In the **Shared Filter** box, you can select a filter that have been defined for the generic inquiry. The system will apply this filter to the results of the selected generic inquiry, and list members will include only those in the filter. For details, see [Managing Generic Inquiries](SM__MNG_Managing_Generic_Inquiry.md).
 
 You can convert a dynamic marketing list to a static one by clicking **Convert to Static List** on the form toolbar or the More menu. If you click this button or command and at least one member is in the table on the **List Members** tab, the system displays a warning dialog box. You can choose what to do with the members after conversion: keep the current members, or delete them from the list.
 
-## Copying of Members Between Marketing Lists { .section}
+## Copying of Members Between Marketing Lists
 
 You can copy members from the dynamic or static marketing list you are viewing to a new static list or to the existing static list or lists that you select. On the **List Members** tab of the [Marketing Lists](CR_20_40_00.md) \(CR204000\) form, when you click **Copy All** on the table toolbar, the Copy Members wizard opens. On the first page of the wizard, you can click either of the following buttons:
 
@@ -95,7 +94,7 @@ If you select **Add All Members to Existing Static Lists** on the first page of 
 -   **Copy**: To copy all members from the current marketing list to the selected marketing lists by selecting the Included check box for each target list
 -   **Cancel**: To cancel the copying of the members
 
-## Management of Members' Subscription { .section}
+## Management of Members' Subscription
 
 List members may or may not be subscribed to a marketing list. By default, a newly added member is subscribed to the marketing list—that is, a member receives emails that are created and sent on the [Mass Emails](CR_30_80_00.md) \(CR308000\) form if *Marketing Lists* is selected as the source on the **Summary** tab and the list is selected on the **Marketing List** tab.
 
@@ -107,7 +106,7 @@ Clicking the **Subscribe All** or **Unsubscribe All** button subscribes or unsub
 -   By using the search box, search for the records that match the search string \(for example, email address or business account\) and then click the menu command to subscribe or unsubscribe only the listed members.
 -   Select a filter in the box on the table toolbar, and then click the menu command to subscribe or unsubscribe only the listed members.
 
-## Subscription Management for a Particular Lead, Contact, or Business Account { .section}
+## Subscription Management for a Particular Lead, Contact, or Business Account
 
 On the **Marketing Lists** tab of the [Leads](CR_30_10_00.md) \(CR301000\), [Contacts](CR_30_20_00.md) \(CR302000\), and [Business Accounts](CR_30_30_00.md) \(CR303000\) forms, you can view all active static marketing lists and those dynamic marketing lists in which the selected lead, contact, business account, or employee is a member. On this tab, you can subscribe a member \(that is, the lead, contact, or business account selected on the form\) to any needed static or dynamic marketing lists by selecting the **Subscribed** check box for the list and then saving these changes.
 

@@ -1,4 +1,4 @@
-# To Update Access Rights in a Project {#_c623433e-764b-44b9-b163-2981b6d86ba3 .concept}
+# To Update Access Rights in a Project
 
 If you have used Acumatica ERP forms to change access rights included in a customization project, you have to update the appropriate items in the project. To do this, perform the following actions:
 

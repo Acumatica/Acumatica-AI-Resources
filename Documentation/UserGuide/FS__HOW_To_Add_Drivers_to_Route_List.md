@@ -1,8 +1,8 @@
-# Routes: To Add Drivers to a Route {#_924e67f0-5390-457b-ab4f-64fe3256b47d .task}
+# Routes: To Add Drivers to a Route
 
 You populate the list of drivers who can execute a route on the [Routes](FS_20_37_00.md) \(FS203700\) form so you can later select any of these drivers for an execution of that route on the [Route Document Details](FS_30_40_00.md) \(FS304000\) form.
 
-## To Add Drivers to a Route { .section}
+## To Add Drivers to a Route
 
 1.  Open the [Routes](FS_20_37_00.md) \(FS203700\) form.
 2.  In the **Route ID** box, select the identifier of the route to which you want to add drivers.

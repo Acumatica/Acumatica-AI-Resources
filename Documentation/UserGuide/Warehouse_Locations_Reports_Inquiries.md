@@ -1,8 +1,8 @@
-# Warehouse Locations and Single-Step Transfers: Related Report and Inquiry Forms {#_683db485-2ce4-4dcc-8b2a-391241286a9b .concept}
+# Warehouse Locations and Single-Step Transfers: Related Report and Inquiry Forms
 
 In the following section, you can find information about inquiry forms with information related to warehouse locations.
 
-## Viewing Items by Location { .section}
+## Viewing Items by Location
 
 If you want to view a list of items in a particular warehouse location, you use the [Storage Summary](IN_40_90_10.md) \(IN409010\) form. In the Selection area of this form, you need to select the warehouse to see the list of locations and stock items in each location. Optionally, in the Selection area, you can select a location to view the list of items in this location only. Alternatively, you can select a particular stock item to view the list of locations where the item is available.
 

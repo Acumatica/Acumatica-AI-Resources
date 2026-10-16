@@ -22,7 +22,7 @@ jobs:
       PULL_REQUEST_NUMBER: ${{ github.event.pull_request.number }}
       TARGET_BRANCH: ${{ github.event.pull_request.base.ref }}
       AUTHOR_ASSOCIATION: ${{ github.event.pull_request.author_association }}
-      LATEST_RELEASE_BRANCH: 2026R1
+      LATEST_RELEASE_BRANCH: 2026R2
     steps:
       - name: Check target branch and changed paths
         shell: pwsh

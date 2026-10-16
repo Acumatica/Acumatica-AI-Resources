@@ -1,14 +1,14 @@
-# Intercompany Purchases and Returns: To Process an Intercompany Return {#_16237572-810e-4fc8-b8ba-fa90ea7bf84c .task}
+# Intercompany Purchases and Returns: To Process an Intercompany Return
 
 The following activity will walk you through the process of processing an intercompany return.
 
-## Story { .section}
+## Story
 
 Suppose that the Head Office of the Muffins &amp; Cakes company has purchased two new juicers from the Service and Equipment Sales Center of SweetLife Fruits &amp; Jams and then the company discovered that one juicer was enough to produce the required amount of juice.
 
 Acting as an accountant of Muffins &amp; Cakes, you need to process a purchase return of one juicer.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -25,11 +25,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *JUICER35* inventory item has been configured.
 -   On the [Warehouses](IN_20_40_00.md) \(IN204000\) form, the *MHEADWH* warehouse has been created and specified for the *MAIN* location of the *MHEAD* branch.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Order Types](SO_20_10_00.md) \(SO201000\) form, you will review the intercompany settings of the *RC* order type. On the [Vendors](AP_30_30_00.md) \(AP303000\) form, you will review the default warehouse of the *SWEETEQUIP* vendor. On the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form, you will create and release a purchase return. You will then cause the system to generate a sales return based on the purchase return on the [Generate Intercompany Sales Orders](SO_50_40_00.md) \(SO504000\) form. On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, you will create and release a receipt for the sales return. You will then process an SO credit memo on the [Invoices](SO_30_30_00.md) \(SO303000\) form and prepare a debit adjustment on the [Generate Intercompany Documents](AP_50_35_00.md) \(AP503500\) form. On the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you will release the debit adjustment and finally, you will review the initial purchase return on the [Purchase Receipts](PO_30_20_00.md) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -42,7 +42,7 @@ Before you begin performing the steps of this activity, do the following:
 4.  Make sure the *SWEETEQUIP* branch has been extended as a vendor and the *MHEAD* branch has been extended as a customer, as described in [Intercompany Sales Setup: Implementation Activity](../ImplementationGuide/Finance_Intercompany_SalesSetup_Implem_Activity.md).
 5.  Make sure an intercompany purchase of juicers has been processed, as described in [Intercompany Purchases and Returns: To Process an Intercompany Purchase](OrderMgmt_Intercompany_Sales_and_Purchases_Activity.md).
 
-## Step 1: Reviewing the Intercompany Sales Return Settings { .section}
+## Step 1: Reviewing the Intercompany Sales Return Settings
 
 To review the settings the system uses when processing intercompany sales returns, do the following:
 
@@ -62,7 +62,7 @@ To review the settings the system uses when processing intercompany sales return
     This is the warehouse you specified in [Intercompany Purchases and Returns: To Process an Intercompany Purchase](OrderMgmt_Intercompany_Sales_and_Purchases_Activity.md). It is used by default in documents created for the *SWEETEQUIP* vendor in the *MHEAD* branch.
 
 
-## Step 2: Creating an Intercompany Purchase Return { .section}
+## Step 2: Creating an Intercompany Purchase Return
 
 To create an intercompany purchase return, do the following:
 
@@ -74,7 +74,7 @@ To create an intercompany purchase return, do the following:
     The system creates a document with the *Return* type and with appropriate settings copied from the purchase receipt, and opens it on the same form.
 
 
-## Step 3: Specifying the Settings of the Intercompany Purchase Return and Releasing the Return { .section}
+## Step 3: Specifying the Settings of the Intercompany Purchase Return and Releasing the Return
 
 To define the specific settings of the return document, do the following:
 
@@ -85,7 +85,7 @@ To define the specific settings of the return document, do the following:
 5.  On the form toolbar, click **Save** to save the purchase return, which has the *Balanced* status and can thus be released.
 6.  On the form toolbar, click **Release**.
 
-## Step 4: Creating an Intercompany Sales Return { .section}
+## Step 4: Creating an Intercompany Sales Return
 
 To generate an intercompany sales return, do the following:
 
@@ -98,7 +98,7 @@ To generate an intercompany sales return, do the following:
 4.  In the dialog box, which opens, click **Close**.
 5.  On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, open the sales order of the *RC* type with the *MHEAD* customer and review its details.
 
-## Step 5: Preparing and Releasing a Receipt { .section}
+## Step 5: Preparing and Releasing a Receipt
 
 To create a receipt for the intercompany sales return, do the following:
 
@@ -109,19 +109,18 @@ To create a receipt for the intercompany sales return, do the following:
 
 3.  On the form toolbar, click **Confirm Shipment**.
 
-## Step 6: Processing an SO Credit Memo { .section}
+## Step 6: Processing an SO Credit Memo
 
 Now that you have processed the return of the items to SweetLife's inventory, you need to prepare an SO credit memo to Muffins &amp; Cakes to adjust the customer's balance. To prepare the credit memo, do the following:
 
 1.  While you are still viewing the shipment on the [Shipments](SO_30_20_00.md) \(SO302000\) form, on the form toolbar, click **Prepare Invoice**. The system creates a credit memo to the customer and opens it on the [Invoices](SO_30_30_00.md) \(SO303000\) form.
 2.  On the form toolbar, click **Release** to release the credit memo, which is assigned the *Open* status, as shown in the following screenshot.
 
-    ![](Images/activity_OrderMgmt_Intercompany_CreditMemo.png "Credit memo created for processing of a return")
 
     When you release the SO credit memo, the system automatically generates a corresponding inventory receipt for the returned items on the [Receipts](IN_30_10_00.md) \(IN301000\) form; it also creates and releases a credit memo on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. In the AR credit memo, the *MHEAD* company is specified as the customer so that an intercompany AP debit adjustment can be created.
 
 
-## Step 7: Preparing a Debit Adjustment { .section}
+## Step 7: Preparing a Debit Adjustment
 
 To prepare a debit adjustment, do the following:
 
@@ -135,7 +134,6 @@ To prepare a debit adjustment, do the following:
 
     The system adds the details of the debit adjustment to the **Billing** tab of the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form for the initial purchase return as shown in the following screenshot.
 
-    ![](Images/activity_OrderMgmt_Intercompany_Return.png "Purchase return processed to completion")
 
 
 **Parent topic:**[Processing Intercompany Purchases and Returns](../UserGuide/OrderMgmt_Intercompany_Sales_and_Purchases_Mapref.md)

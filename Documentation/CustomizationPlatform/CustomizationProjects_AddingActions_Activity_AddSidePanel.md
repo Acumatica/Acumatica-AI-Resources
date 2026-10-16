@@ -1,23 +1,23 @@
-# Actions on Forms: To Add a Side Panel {#_9593c68b-e75d-4af2-8b40-b343872dd05d .task}
+# Actions on Forms: To Add a Side Panel
 
 The following activity will walk you through the process of adding to a form an action that opens a side panel for the record selected on a form. For the selected record, this side panel will display related information.
 
-## Story { .section}
+## Story
 
 Suppose that management has determined that Acumatica ERP would better fit the needs of your company if employees could view the contacts of the business account selected for a case on the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form. You need to add to the form the side panel that displays this information.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Screens](../UserGuide/AU_20_10_00.md) page, you will add the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form so that it can be customized. On the [Actions](../UserGuide/AU_20_10_50.md) page, you will add a new action that opens a side panel with the contacts of the business account selected for the case. You will then publish the customization project. Finally, you will test the added action.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
 1.  Prepare an Acumatica ERP instance by performing the [Customization Projects: To Deploy an Instance](CustomizationProjects_GettingStarted_Activity_CreateInstance.md) prerequisite activity.
 2.  Create the *Yogifon* customization project by performing the [Customization Projects: To Create a Customization Project](CustomizationProjects_GettingStarted_Activity_CreateProject.md) prerequisite activity.
 
-## Step 1: Modifying the List of Customized Screens { .section}
+## Step 1: Modifying the List of Customized Screens
 
 To add an action to the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form, you first need to add the form \(screen\) to the list of customized screens. In the Customization Project Editor for the *Yogifon* project, do the following:
 
@@ -35,7 +35,7 @@ To add an action to the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form, 
     The [Cases](../UserGuide/CR_30_60_00.md) form is added to the list of forms on the [Screens](../UserGuide/AU_20_10_00.md) page, and the Screen Editor: CR306000 \(Cases\) page opens.
 
 
-## Step 2: Adding the Action { .section}
+## Step 2: Adding the Action
 
 To add the action to the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form, perform the following instructions:
 
@@ -80,7 +80,7 @@ To add the action to the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form,
 6.  To apply the changes to the instance, on the main menu of the Customization Project Editor, click **Publish** &gt; **Publish Current Project**.
 7.  Wait until the *Website updated* row appears in the **Compilation** pane, and click **Close Compilation Pane**.
 
-## Step 3: Testing the New Action { .section}
+## Step 3: Testing the New Action
 
 In Acumatica ERP, test your changes on the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form as follows:
 
@@ -92,7 +92,6 @@ In Acumatica ERP, test your changes on the [Cases](../UserGuide/CR_30_60_00.md) 
 2.  On the form toolbar, click **Save**.
 3.  Click the **View Contacts** icon on the side panel \(see Item 1 in the following screenshot\), and verify that the system displays information about the contacts of the business account that you selected for the case \(Items 2 and 3\).
 
-    ![](images/CustomizationProjects_AddingActions_CasesFormLayout.png "The modified Cases form")
 
 
 **Parent topic:**[Adding Actions to Forms](../CustomizationPlatform/CustomizationProjects_AddingActions_Mapref.md)

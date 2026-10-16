@@ -1,14 +1,14 @@
-# Authorized Remainder After Partial Payment Capture {#_737ae58c-1eda-486c-a9f0-1677c112ff4e .concept}
+# Authorized Remainder After Partial Payment Capture
 
 To simplify the processing of partially shipped orders, you can turn on smarter handling of pre-authorized payments. When a payment is partially captured for a sales invoice, the system will keep the remaining sales order amount pre-authorized—eliminating the need to manually create a new authorization. The system automatically creates a new payment for the remainder and pre-authorizes it.
 
 **Attention:** This functionality is available only if the *Acumatica Payments* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Before You Begin { .section}
+## Before You Begin
 
 Make sure that the **Authorize Remainder After Partial Capture** check box is selected for the order type on the [Order Types](SO_20_10_00.md) \(SO201000\) form.
 
-## Usage Example { .section}
+## Usage Example
 
 Imagine that you’re a sales manager. Your customer wants to place an order, but not all goods are in stock. The customer agrees to a partial shipment and a back order for the remaining goods.
 
@@ -26,7 +26,7 @@ Here's what you do in the system:
     -   Pre-authorizes it
     -   Applies it to the sales order
 
-## Partial Payment Capture { .section}
+## Partial Payment Capture
 
 When you capture payments on the [Invoices](SO_30_30_00.md) \(SO303000\) and [Credit Card Processing for Sales](SO_50_70_00.md) \(SO507000\) forms, the system does the following:
 
@@ -45,7 +45,7 @@ The following table shows examples of the system’s calculation of the new paym
 |$120|$100|$55|$55|$65|$45|
 |$100|$100|$60|$60|0|No new payment|
 
-## Partially Shipped Order with a Pre-Authorized Balance { .section}
+## Partially Shipped Order with a Pre-Authorized Balance
 
 The system continues authorizing the remaining payment balance for each partial capture on the sales invoice as long as the sales order still has an unpaid balance. If the sales order is completed after a partial capture, the payment remainder is released and no new authorization is created.
 

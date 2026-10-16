@@ -1,8 +1,8 @@
-# Construction Reports: Project Cash Flow {#_65114bfd-2a44-4c30-8b6b-05e6daec63a9 .concept}
+# Construction Reports: Project Cash Flow
 
 To keep finances healthy, you need to monitor each project’s cash inflow and outflow and know how much cash is available or needed to finish the project successfully. The [Project Cash Flow](PM_65_10_10.md) \(PM651010\) generic inquiry form gives you the cash flow visibility you need. You can spot possible shortfalls or extra funds and ensure that each project has enough cash to cover expenses.
 
-## Viewing of Projects’ Cash Flow { .section}
+## Viewing of Projects’ Cash Flow
 
 The [Project Cash Flow](PM_65_10_10.md) \(PM651010\) generic inquiry form displays data as of a specified date—the current business date by default but you can change it to an earlier date. You can:
 
@@ -12,7 +12,7 @@ The [Project Cash Flow](PM_65_10_10.md) \(PM651010\) generic inquiry form displa
 
 Each row represents a project. The leftmost columns of the table display the project's basic information—including its project manager, description, status, company and branch, and start and end dates. You can also review the costs, revenue, and margin to date.
 
-## Calculation of a Project’s Cash Outflow and Inflow { .section}
+## Calculation of a Project’s Cash Outflow and Inflow
 
 On the [Project Cash Flow](PM_65_10_10.md) \(PM651010\) form, the system calculates each project's cash outflow and cash inflow as of the specified date by using an indirect method.
 
@@ -39,13 +39,12 @@ The system calculates the data on this form based on the data from the [Project 
 
 **Tip:** These forms exclude documents with the non-project code specified.
 
-## Example 1: Monitoring Project Cash Flow as of a Date { .section}
+## Example 1: Monitoring Project Cash Flow as of a Date
 
 Suppose that your company is a self-performing contractor building a hotel. The project started in March 2025, and now it's early September. As the project manager, you want to assess the project's cash inflow and outflow.
 
 You’ve already recalculated project balances on the [Recalculate Project Balances](PM_50_40_00.md) \(PM504000\) form with the **Recalculate Project Budget History** check box selected. On the [Project Cash Flow](PM_65_10_10.md) \(PM651010\) form, you select the project and a date of *9/3/2025*, and the table shows a row with its details as of this date.
 
-![](Images/Construction_Reports_Project_Cash_Flow_GI_Example_Project_1.png "The project's basic information")
 
 The cash flow snapshot as of the selected date shows \(see below\):
 
@@ -54,11 +53,10 @@ The cash flow snapshot as of the selected date shows \(see below\):
 -   **Backlog Cash Inflow**: About $35.8 million
 -   **Backlog Cash Outflow**: About $26.5 million
 
-![](Images/Construction_Reports_Project_Cash_Flow_GI_Example_Project_2.png "Project cash flow as of a date")
 
 The project has generated a positive cash flow of about $1.4 million to date and is expected to generate a $9.6 million positive cash flow in the future. However, the current open AP amount slightly exceeds the open AR amount, so you should closely monitor timely AP payments to maintain good relationships with subcontractors and vendors.
 
-## Example 2: Tracking Project Cash Flow on Different Dates { .section}
+## Example 2: Tracking Project Cash Flow on Different Dates
 
 Now suppose that your company is a self-performing contractor building a cafe. As the project manager, you want to assess the project's cash inflow and outflow for different dates. The project started on July 2, 2025. At this time, it had no revenue, no expenses, and no processed financial documents, so the [Project Cash Flow](PM_65_10_10.md) \(PM651010\) form displayed only the project budget and the contract amounts. On July 9, 2025, the first invoice for this project was created.
 
@@ -68,7 +66,7 @@ By selecting different dates, such as the following, you can see how cash inflow
 -   August 10, 2025: The first expenses were incurred and AP bills were processed. The customer paid the open AR balance, which appeared as a positive cash inflow.
 -   September 9, 2025: New invoices appeared as an open AR amount. The system calculated the margin to date based on the gross profit and revenue to date. Also, it calculated taxes and retainage \(both AP and AR\) on a date-sensitive basis directly from the AP and AR documents.
 
-## Verification of Project AP Amounts { .section}
+## Verification of Project AP Amounts
 
 You can verify the AP amounts the system has calculated on the [Project Cash Flow](PM_65_10_10.md) \(PM651010\) form by using the [Project AP Details](PM_65_10_01.md) \(PM651001\) form, where each row represents a document line.
 
@@ -80,7 +78,7 @@ This form also shows the use tax in the **Use Tax \(Project Curr.\)** and **Use 
 
 On the [Project Cash Flow](PM_65_10_10.md) form, you can compare these total amounts with the total amounts in the **Expenses to Date** and **AP Retainage** columns.
 
-## Verification of Project AR Amounts { .section}
+## Verification of Project AR Amounts
 
 You can verify the AR amounts the system has calculated on the [Project Cash Flow](PM_65_10_10.md) \(PM651010\) form by using the [Project AR Details](PM_65_10_02.md) \(PM651002\) form, where each row represents a document line.
 
@@ -92,7 +90,7 @@ You can verify the total amounts recorded in AR documents by reviewing the **Ext
 
 On the [Project Cash Flow](PM_65_10_10.md) form, you can compare these total amounts with the total amounts in the **Revenue to Date** and **AR Retainage** columns.
 
-## Multiple Currencies on the Inquiry Forms { .section}
+## Multiple Currencies on the Inquiry Forms
 
 Project-related amounts are shown in multiple currencies if the *Multicurrency Accounting* and *Multicurrency Projects* features are enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. On the [Project Cash Flow](PM_65_10_10.md) \(PM651010\), [Project AR Details](PM_65_10_02.md) \(PM651002\), and [Project AP Details](PM_65_10_01.md) \(PM651001\) generic inquiry forms, you can view amounts in:
 

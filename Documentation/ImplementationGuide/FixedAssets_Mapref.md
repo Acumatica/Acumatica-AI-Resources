@@ -1,4 +1,4 @@
-# Fixed Asset Configuration {#_da614cb7-3c06-4d1a-9c77-f7156524644d .concept}
+# Fixed Asset Configuration
 
 The topics of this chapter describe how to configure the system for fixed asset management and how to configure the fixed asset subledger in Acumatica ERP.
 

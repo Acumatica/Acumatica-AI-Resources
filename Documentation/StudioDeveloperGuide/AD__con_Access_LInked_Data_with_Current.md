@@ -1,4 +1,4 @@
-# Selection of the Linked Data Through the Current Property {#_3ee067a4-f1f5-4f47-a418-7c4d19091f2b .concept}
+# Selection of the Linked Data Through the Current Property
 
 A PXCache object has the Current property, which is set to the last data record that has been retrieved from the database or inserted or updated in the cache. The Current property is often used to select linked data, such as the detail data, by the specified master record key.
 
@@ -17,7 +17,7 @@ public SelectFrom<SupplierProduct>.
     SupplierProducts;
 ```
 
-## Getting the Current Data Record {#section_amr_wtd_hm .section}
+## Getting the Current Data Record
 
 The framework automatically assigns the Current property to the following records:
 
@@ -46,7 +46,7 @@ public SelectFrom<ShipmentLine>.
     OrderBy<ShipmentLine.gift.Desc>.View ShipmentLines;
 ```
 
-## Setting the Current Data Record {#section_yzj_ytd_hm .section}
+## Setting the Current Data Record
 
 You can set the Current property of a data record of the type the PXCache object works with. When you assign the Current property of a PXCache&lt;&gt; object, you should select a data record from the database by using DAC key field values. If a data record with these key field values exists in the database, the Current property is assigned to the retrieved record. If no such data record exists in the database, the property is set to `null`. Setting the Current property gives you the ability to do the following:
 

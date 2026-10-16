@@ -1,19 +1,19 @@
-# Multiple Bill Payments: General Information {#_720ade89-eee5-4c0c-8d09-6253f08e4abe .concept}
+# Multiple Bill Payments: General Information
 
 You can initiate the process of paying multiple bills automatically on the [Prepare Payments](AP_50_30_00.md) \(AP503000\) form. You can select bills for payment by payment date, cash account, payment method, vendor, and discount availability. AP payments will be created for the selected bills and grouped by vendor. For a specific bill, you may require a separate payment if the **Pay Separately** option was selected for this bill. Also, if the **Pay Separately** option is selected for the vendor on the [Vendors](AP_30_30_00.md) \(AP303000\) form, each bill or credit adjustment of the vendor will be paid by a separate AP payment.
 
-## Learning Objectives {#section_hqk_njv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Select the bills to be paid
 -   Prepare and release payments for multiple bills
 
-## Applicable Scenarios {#section_kqk_njv_vxb .section}
+## Applicable Scenarios
 
 You prepare a payment to pay multiple bills when you have multiple bills from the same vendor that are due.
 
-## Payment Processing {#section_mqk_njv_vxb .section}
+## Payment Processing
 
 To pay multiple bills, you have to create a payment: a document that represents the payment in the system. You use the [Prepare Payments](AP_50_30_00.md) \(AP503000\) form to generate a payment for multiple bills of the same vendor.
 
@@ -32,11 +32,10 @@ During processing, a payment can have the following statuses.
 |*Closed*|The payment has been released and fully applied to the appropriate bill or bills.|
 |*Voided*|The payment has been voided.|
 
-## Process Diagram {#section_pqk_njv_vxb .section}
+## Process Diagram
 
 The following diagram illustrates the workflow of processing multiple bill payments without approval.
 
-![](Images/process_Finance_PayingMultipleBills_workflow.png "Paying multiple AP bills")
 
 **Parent topic:**[Paying Multiple AP Bills](../UserGuide/Finance_PayingMultipleBills_Mapref.md)
 

@@ -1,18 +1,18 @@
-# Product Synchronization: To Export Product Images {#_c39ffa15-00d4-4b9a-a696-b2550bf41be1 .task}
+# Product Synchronization: To Export Product Images
 
 The following activity will walk you through the process of synchronizing product images.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story {#section_asd_lph_gtb .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company stores product images in Acumatica ERP as attachments to items. Acting as an implementation consultant helping SweetLife to set up the integration of Acumatica ERP with the BigCommerce store, you want to set up the export of images stored in Acumatica ERP to the BigCommerce store.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, on the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *APJAM08* stock item of the *JAM* item class been created.
 
-## Process Overview {#section_bsd_lph_gtb .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -22,7 +22,7 @@ In this activity, you will do the following:
 4.  On the [Process Data](BC_50_15_00.md) form, process the product image data prepared for synchronization.
 5.  In the control panel of the BigCommerce store, review the exported images.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you complete the instructions in this activity, do the following:
 
@@ -36,7 +36,7 @@ Before you complete the instructions in this activity, do the following:
     -   **Password**: *123*
 4.  Sign in to the control panel of the BigCommerce store as the store owner.
 
-## Step 1: Obtaining the WebDAV Credentials { .section}
+## Step 1: Obtaining the WebDAV Credentials
 
 To find the information that is required to set up file transfer between Acumatica ERP and the online store over the WebDAV protocol, do the following in the BigCommerce store:
 
@@ -50,7 +50,7 @@ To find the information that is required to set up file transfer between Acumati
     -   WebDAV Password
 3.  Save this information to a file. You will need it in the next step.
 
-## Step 2: Activating the Needed Entity { .section}
+## Step 2: Activating the Needed Entity
 
 To activate the *Product Image* entity and specify the required information, do the following:
 
@@ -62,7 +62,7 @@ To activate the *Product Image* entity and specify the required information, do 
 3.  On the **Entities** tab, select the **Active** check box in the row of the *Product Image* entity.
 4.  On the form toolbar, click **Save**.
 
-## Step 3: Adding an Image to the Stock Item { .section}
+## Step 3: Adding an Image to the Stock Item
 
 To add an image to the *APJAM08* stock item, do the following:
 
@@ -73,7 +73,7 @@ To add an image to the *APJAM08* stock item, do the following:
 
 3.  On the form toolbar, click **Save**.
 
-## Step 4: Preparing the Image Data for Synchronization { .section}
+## Step 4: Preparing the Image Data for Synchronization
 
 To prepare the image data for synchronization, do the following:
 
@@ -92,7 +92,7 @@ To prepare the image data for synchronization, do the following:
     Notice that the **Prepared Records** column shows the number of synchronization records that have been prepared and are ready to be processed.
 
 
-## Step 5: Processing the Prepared Image Data { .section}
+## Step 5: Processing the Prepared Image Data
 
 To process the image data prepared for synchronization, do the following:
 
@@ -105,7 +105,7 @@ To process the image data prepared for synchronization, do the following:
 2.  In two rows of images of the *APJAM08* stock item, select the unlabeled check box, and on the form toolbar, click **Process**.
 3.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 6: Reviewing the Synchronized Images { .section}
+## Step 6: Reviewing the Synchronized Images
 
 To review the images that have been exported for the *Apple jam 8 oz.* product, do the following:
 
@@ -116,7 +116,6 @@ To review the images that have been exported for the *Apple jam 8 oz.* product, 
 
     The table displays two synchronization records of the *Product Image* entity, as shown in the following screenshot. In the **External ID** column, notice that the identifier of each image in the BigCommerce store consists of two parts—the identifier of the product and the identifier of the image.
 
-    ![](Images/activity_Commerce_BC_Syncing_Products_To_Export_Images.png "Synchronization records for the product images")
 
 3.  In the first row of the table, click the link in the **External ID** column to review the item in the BigCommerce store. The product management page opens for the *Apple jam 8 oz.* product.
 

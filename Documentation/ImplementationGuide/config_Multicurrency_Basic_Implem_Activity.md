@@ -1,8 +1,8 @@
-# Multicurrency Functionality: Implementation Activity {#_b6d51802-f951-44ef-8ecb-f9244ed438bf .task}
+# Multicurrency Functionality: Implementation Activity
 
 In this implementation activity, you will learn how to enable the needed feature, configure currency management preferences, and specify other settings in the system to configure the multicurrency functionality in Acumatica ERP.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company decided to enable the *Multicurrency Accounting* feature in its system after its customers from Canada and Europe requested invoices in their local currency instead of the US dollar. The company has hired an implementation consultant to configure the system to support these capabilities. The consultant has already updated the chart of accounts with the needed accounts.
 
@@ -12,15 +12,15 @@ Acting as the implementation consultant, you now need to perform the following a
 -   Review the currency management preferences
 -   Review the base currency and configure the foreign currencies \(the Canadian dollar and the euro, which are assigned the *CAD* and *EUR* codes, respectively, in the system\)
 
-## Process Overview { .section}
+## Process Overview
 
 You will enable the needed feature on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form and review the base currency on the [Currencies](../UserGuide/CM_20_20_00.md) \(CM202000\) form. You will then specify the GL accounts for the base currency on the [Currencies](../UserGuide/CM_20_20_00.md) form. On the [Currency Management Preferences](../UserGuide/CM_10_10_00.md) \(CM101000\) form, you will review the currency management preferences used in the system. Finally, you will configure two foreign currencies on the [Currencies](../UserGuide/CM_20_20_00.md) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring the multicurrency functionality, launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as a system administrator Kimberly Gibbs by using the *gibbs* username and the *123* password.
 
-## Step 1: Enabling the Needed Feature { .section}
+## Step 1: Enabling the Needed Feature
 
 You first need to enable the *Multicurrency Accounting* feature in the system, so that the needed forms and elements will be available. Do the following:
 
@@ -29,7 +29,7 @@ You first need to enable the *Multicurrency Accounting* feature in the system, s
 3.  Select the **Multicurrency Accounting** check box in the **Standard Financials** group.
 4.  On the form toolbar, click **Enable** to enable the selected feature.
 
-## Step 2: Reviewing the Base Currency { .section}
+## Step 2: Reviewing the Base Currency
 
 To review the base currency of the SweetLife company and its settings \(which has already been specified for the company in the *U100* dataset during the configuration of the company\), do the following:
 
@@ -50,7 +50,7 @@ To review the base currency of the SweetLife company and its settings \(which ha
         For the base currency, the **Use for Accounting** check box is always selected and unavailable.
 
 
-## Step 3: Specifying GL Accounts for the Base Currency { .section}
+## Step 3: Specifying GL Accounts for the Base Currency
 
 To specify the GL accounts used for the base currency \(*USD*\), do the following:
 
@@ -64,7 +64,7 @@ To specify the GL accounts used for the base currency \(*USD*\), do the followin
 
 2.  On the form toolbar, click **Save** to save your changes.
 
-## Step 4: Reviewing Currency Management Preferences { .section}
+## Step 4: Reviewing Currency Management Preferences
 
 To review the currency management preferences, do the following:
 
@@ -73,7 +73,7 @@ To review the currency management preferences, do the following:
 3.  In the **Posting Settings** section, make sure that the **Automatically Post to GL on Release** check box is selected.
 4.  On the form toolbar, click **Save**.
 
-## Step 5: Activating Foreign Currencies for Use in Accounting { .section}
+## Step 5: Activating Foreign Currencies for Use in Accounting
 
 To activate the needed foreign currencies, *CAD* and *EUR*, to be used in accounting, do the following:
 

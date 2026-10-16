@@ -1,8 +1,8 @@
-# Filtering Parameters:To Add a Filter for a Processing Form {#_5c4f3b3e-e7bb-4455-9b66-d941e5c475bb .task}
+# Filtering Parameters:To Add a Filter for a Processing Form
 
 The following activity will walk you through the process of adding a filter for a processing form.
 
-## Story { .section}
+## Story
 
 The Smart Fix company needed a custom Acumatica ERP form where the managers of the company will assign repair work orders to particular employees. Suppose that for this purpose, you’ve already implemented the custom Assign Work Orders \(RS501000\) processing form. Now you need to add filtering parameters to this form so that the managers can narrow the range of listed repair work orders before processing.
 
@@ -18,7 +18,7 @@ In addition, you’ll add the **Number of Days Unassigned** column to the table 
 
 You also need to define the **Assignee** column of the table to be editable so that a user of the form can use this column to select an assignee for any listed repair work order.
 
-## Process Overview { .section}
+## Process Overview
 
 You'll add filtering parameters to the Assign Work Orders \(RS501000\) processing form by performing the following steps:
 
@@ -29,20 +29,20 @@ You'll add filtering parameters to the Assign Work Orders \(RS501000\) processin
 
 Finally, you'll test the filter.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
-1.  Prepare an Acumatica ERP instance by performing the [Test Instance for Customization: To Deploy an Instance with a Custom Form that Implements a Workflow](../StudioDeveloperGuide/CodeCustomization_PrepareInstance_Activity_DeployInstanceT240.md) prerequisite activity.
+1.  Prepare an Acumatica ERP instance by performing the [Test Instance for Customization: To Deploy an Instance with a Custom Form That Implements a Workflow](../StudioDeveloperGuide/CodeCustomization_PrepareInstance_Activity_DeployInstanceT240.md) prerequisite activity.
 2.  Create a processing form without filtering parameters by performing the [Processing Operations: To Implement a Processing Operation by Using a Delegate](../StudioDeveloperGuide/CodeCustomization_ProcessingOperations_Activity_CreateWithoutFilter_withDelegate.md) prerequisite activity.
 
-## Step 1: Extending the DAC with a New Field \(Using PXDBCalced\) { .section}
+## Step 1: Extending the DAC with a New Field \(Using PXDBCalced\)
 
 In this step, you’ll add the `TimeWithoutAction` field, which holds the number of days that have passed from the date when the repair work order was created. In the `RSSVWorkOrder.cs` file, add the new field as follows:
 
 1.  In the `RSSVWorkOrder` class, define the `TimeWithoutAction` field, as shown in the following code.
 
-    ```language-csharp
+    ```csharp
             #region TimeWithoutAction
             [PXInt]
             [PXDBCalced(
@@ -60,13 +60,13 @@ In this step, you’ll add the `TimeWithoutAction` field, which holds the number
 
 2.  Build the project.
 
-## Step 2: Defining the Filter DAC { .section}
+## Step 2: Defining the Filter DAC
 
 In this step, you'll define the `RSSVWorkOrderToAssignFilter` DAC, which will be used to display filtering parameters on the Assign Work Orders \(RS501000\) form. The DAC will contain three fields \(`ServiceID`, `TimeWithoutAction`, and `Priority`\) that correspond to the filtering parameters. To define the filter DAC, do the following:
 
 1.  In the `RSSVAssignProcess` graph, define the `RSSVWorkOrderToAssignFilter` data access class as follows.
 
-    ```language-csharp
+    ```csharp
             [PXHidden]
             public class RSSVWorkOrderToAssignFilter : PXBqlTable, IBqlTable
             {
@@ -120,25 +120,25 @@ In this step, you'll define the `RSSVWorkOrderToAssignFilter` DAC, which will be
 
 2.  Build the project.
 
-## Step 3: Defining the Data Views \(with PXFilter and ProcessingView.FilteredBy\) { .section}
+## Step 3: Defining the Data Views \(with PXFilter and ProcessingView.FilteredBy\)
 
 In this step, you’ll prepare the graph members that provide data for the form. Do the following:
 
 1.  In the `RSSVAssignProcess` graph, define the `Filter` data view of the PXFilter type \(as shown below\), which provides the filtering parameters for the processing form.
 
-    ```language-csharp
+    ```csharp
             public PXFilter<RSSVWorkOrderToAssignFilter> Filter = null!;
     ```
 
 2.  Replace the definition of the `Cancel` action so that the action uses the filter DAC.
 
-    ```language-csharp
+    ```csharp
             public PXCancel<RSSVWorkOrderToAssignFilter> Cancel = null!;
     ```
 
 3.  Replace the definition of the `WorkOrders` data view with the following data view of the ProcessingView.FilteredBy&lt;Table&gt; type, which selects the repair work orders that match the values of the filtering parameters.
 
-    ```language-csharp
+    ```csharp
             public 
                 SelectFrom<RSSVWorkOrder>.
                 Where<RSSVWorkOrder.status.IsEqual<
@@ -162,7 +162,7 @@ In this step, you’ll prepare the graph members that provide data for the form.
 
 4.  In the graph constructor, enable editing for the `Assignee` data field, as shown in the following code.
 
-    ```language-csharp
+    ```csharp
                 PXUIFieldAttribute.SetEnabled<RSSVWorkOrder.assignee>(
                     WorkOrders.Cache, null, true);
     ```
@@ -171,7 +171,7 @@ In this step, you’ll prepare the graph members that provide data for the form.
 
 5.  Override the IsDirty property of the graph, as the following code shows.
 
-    ```language-csharp
+    ```csharp
             public override bool IsDirty => false;
     ```
 
@@ -179,7 +179,7 @@ In this step, you’ll prepare the graph members that provide data for the form.
 
 6.  Rebuild the project.
 
-## Step 4: Adjusting the TypeScript and HTML Code { .section}
+## Step 4: Adjusting the TypeScript and HTML Code
 
 In this step, you’ll adjust the TypeScript and HTML files of the Assign Work Orders \(RS501000\) form to display the filter and the data to be available for processing. Adjust the `RS501000.ts` and `RS501000.html` files as follows:
 
@@ -188,7 +188,7 @@ In this step, you’ll adjust the TypeScript and HTML files of the Assign Work O
 1.  For the screen class in `RS501000.ts`, change the value of the `primaryView` property in the graphInfo decorator to *Filter*.
 2.  Define the property for the data view of the Selection area of the form, as the following code shows. To initialize the data view of the Selection area of the form, use the createSingle method. It takes as the input parameter an instance of the view class, which you’ll define in the next step.
 
-    ``` {#codeblock_txz_zjh_xfc .language-javascript}
+    ```javascript
     	@viewInfo({containerName: "Filter Parameters"})
     	Filter = createSingle(RSSVWorkOrderToAssignFilter);
     ```
@@ -202,13 +202,13 @@ In this step, you’ll adjust the TypeScript and HTML files of the Assign Work O
     1.  In the `RS501000.ts` file, add createSingle to the list of import directives.
     2.  Define the `RSSVWorkOrderToAssignFilter` class as follows.
 
-        ``` {#codeblock_lqx_1c3_xfc .language-javascript}
+        ```javascript
         export class RSSVWorkOrderToAssignFilter extends PXView {}
         ```
 
     3.  In the view class, specify the properties for all data fields of the data view that should be displayed in the UI, as shown below. You use the name of the data field as the property name.
 
-        ``` {#codeblock_mqx_1c3_xfc .language-javascript}
+        ```javascript
         export class RSSVWorkOrderToAssignFilter extends PXView {
         	Priority: PXFieldState<PXFieldOptions.CommitChanges>;
         	TimeWithoutAction: PXFieldState<PXFieldOptions.CommitChanges>;
@@ -221,7 +221,7 @@ In this step, you’ll adjust the TypeScript and HTML files of the Assign Work O
 4.  In the `RS501000.html` file, define the layout of the Selection area by adding the qp-template tag with the 17-17-14 template within the template tag as follows:
     1.  For the first two slots, define a fieldset, as shown in the following code. To leave the third slot empty, do not specify any tags for it.
 
-        ``` {#codeblock_nrq_qd3_xfc .language-xml}
+        ```xml
           <qp-template
             id="form-Filter"
             name="17-17-14"
@@ -246,7 +246,7 @@ In this step, you’ll adjust the TypeScript and HTML files of the Assign Work O
 
     2.  In each fieldset, add the field tags for the fields that should be displayed in the corresponding fieldset, as the following code shows.
 
-        ``` {#codeblock_orq_qd3_xfc .language-xml}
+        ```xml
             <qp-fieldset
               id="fsColumnA-Filter"
               slot="A"
@@ -266,7 +266,7 @@ In this step, you’ll adjust the TypeScript and HTML files of the Assign Work O
     3.  Save your changes.
 5.  In the `RS501000.ts` file, add the `TimeWithoutAction` field to the `RSSVWorkOrder` view class, as shown below, so that the corresponding column is displayed in the table of the Assign Work Orders form. Also, specify that the changes in the `Assignee` field should be committed to the server by adding the PXFieldOptions.CommitChanges option for the property type.
 
-    ``` {#codeblock_abl_rp3_xfc .language-xml}
+    ```xml
     export class RSSVWorkOrder extends PXView {
         ...
                             	Assignee: PXFieldState<PXFieldOptions.CommitChanges>;
@@ -278,7 +278,7 @@ In this step, you’ll adjust the TypeScript and HTML files of the Assign Work O
 7.  If you used the `development` folder to modify the TypeScript and HTML files in the preceding instructions, you need to update these files in the customization project. You do this by using the **Detect Modified Files** button on the [Modern UI Files](../UserGuide/AU_20_46_00.md) page.
 8.  Publish the customization project.
 
-## Step 5: Testing the Filter { .section}
+## Step 5: Testing the Filter
 
 In this step, you'll test the filtering parameters you have implemented for the Assign Work Orders \(RS501000\) form. Do the following:
 
@@ -299,7 +299,6 @@ In this step, you'll test the filtering parameters you have implemented for the 
     1.  Make sure that the three work orders you have created are displayed on the form.
     2.  In the **Priority** box in the Selection area, select *High*. Make sure one of the created work orders is displayed in the table, as shown below.
 
-        ![](Images/activity_UIDev_FilteringParameters_AssignWorkOrders_HighPriority_ModernUI.png "The work order with a priority of High")
 
     3.  Clear the filter by clicking Cancel on the form toolbar.
     4.  In the **Minimum Number of Days Unassigned** box, type `1`. No work orders are displayed in the table \(as long as you haven’t created work orders outside of the instructions of the guide\).
@@ -308,14 +307,12 @@ In this step, you'll test the filtering parameters you have implemented for the 
     7.  In the **Priority** box, select *Medium*. Only one of the created work orders remains in the table.
     8.  On the form toolbar, click **Assign All**. The processing dialog box indicates that the work order has been processed. Make sure it has the *Assigned* status and is assigned to *Baker, Maxwell* \(the employee you’ve selected during creation\), as shown below.
 
-        ![](Images/activity_UIDev_FilteringParameters_AssignWorkOrders_WithFilter_1AssignedOrder_ModernUI.png "The assigned work order")
 
 3.  Test the **Assignee** column on the Assign Work Orders form as follows:
     1.  Clear all the boxes in the Selection area. Two of the created repair work orders are displayed.
     2.  For a work order with the default assignee \(which is *Becher, Joseph*\), in the **Assignee** column, select *Beauvoir, Layla*.
     3.  On the form toolbar, click **Assign All**. The processing dialog box shows that two repair work orders have been processed. Make sure that *Beauvoir, Layla* is the assignee of both orders, as shown below.
 
-        ![](Images/activity_UIDev_FilteringParameters_AssignWorkOrders_WithFilter_2AssignedOrders_ModernUI.png "Two assigned work orders")
 
 
 **Parent topic:**[Adding Filtering Parameters to a Form](../DeveloperGuide/UIDev_FilteringParameters_Mapref.md)

@@ -1,4 +1,4 @@
-# Resetting a Barcode Scan Mode {#_3042c38d-ff07-4449-ab42-192377aedd3c .concept}
+# Resetting a Barcode Scan Mode
 
 In this chapter, you will learn about the resetting of a barcode scan mode. You need to define how the mode is cleared.
 

@@ -1,12 +1,12 @@
-# Printers: Configuration Prerequisites {#_06f4299f-5d53-46ea-b4cf-d1060733af4c .concept}
+# Printers: Configuration Prerequisites
 
 Before starting to configure printers in DeviceHub, you should be sure that the needed feature has been enabled, Acumatica ERP and DeviceHub have been configured, and a printer has been configured in Windows, as described in the following sections.
 
-## Enabling the Needed Feature { .section}
+## Enabling the Needed Feature
 
 On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, the *DeviceHub* feature must be enabled.
 
-## Configuring the System { .section}
+## Configuring the System
 
 You need to make sure the following tasks have been performed in Acumatica ERP before you begin to configure printers in DeviceHub:
 
@@ -17,7 +17,7 @@ You need to make sure the following tasks have been performed in Acumatica ERP b
     -   All report forms that will be used for printing
     -   All forms that contain entities used for forming a report
 
-## Configuring the Application { .section}
+## Configuring the Application
 
 You need to make sure the following tasks have been performed in DeviceHub before you begin to configure printers:
 
@@ -30,7 +30,7 @@ You need to make sure the following tasks have been performed in DeviceHub befor
     For more information about configuring the methods of retrieving print jobs, see [DeviceHub: To Configure Methods of Retrieving Print and Scan Jobs](DeviceHub_To_Configure_Push_Notifications_Implem_Activity.md).
 
 
-## Configuring Hardware Devices { .section}
+## Configuring Hardware Devices
 
 You need to make sure a printer has been configured in your Windows operating system.
 

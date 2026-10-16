@@ -1,18 +1,18 @@
-# Diagram View: To Add a New State {#_73247564-a839-4c1d-a570-310d213c55c9 .task}
+# Diagram View: To Add a New State
 
 The following activity will walk you through the process of adding a new state to an inherited workflow on the [Workflow \(Diagram View\)](../UserGuide/AU_20_10_30_VisualEditor.md) page of the Customization Project Editor.
 
-## Story { .section}
+## Story
 
 Suppose that in your customization efforts on the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form, you need to incorporate a process of assigning a new opportunity before giving it the *Open* status. You need a new status, *Assigned*, for opportunities.
 
 Acting as the technical specialist, you need to add a new state to the opportunity workflow for the [Opportunities](../UserGuide/CR_30_40_00.md) form. This state will correspond to the *Assigned* status of an opportunity created on this form.
 
-## Process Overview { .section}
+## Process Overview
 
 By using the [Workflow \(Diagram View\)](../UserGuide/AU_20_10_30_VisualEditor.md) page, you will add the `Assigned` state to the *OpportunitiesAssigned* workflow.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin adding a new state, do the following:
 
@@ -23,7 +23,7 @@ Before you begin adding a new state, do the following:
 2.  Make sure that you have learned how to create states, as described in [Workflow Creation: General Information](WorkflowUI_CreatingWorkflow_GeneralInfo.md) and [Workflow Creation: Configuration of States](WorkflowUI_CreatingWorkflow_AddState.md).
 3.  Make sure that you have completed the [Inherited Workflows: To Create an Inherited Workflow](WorkflowUI_InheritedWorkflows_Activity.md) activity.
 
-## Step: Adding a State { .section}
+## Step: Adding a State
 
 To add a new state to the workflow, perform the following instructions in the Customization Project Editor for the *Opportunities* customization project:
 

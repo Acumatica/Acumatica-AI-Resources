@@ -1,14 +1,14 @@
-# Product Availability Entity {#_aa5bfc31-0a9c-4392-822b-f4acb4fd3b33 .concept}
+# Product Availability Entity
 
 This topic provides reference information about the standard field mapping used for the *Product Availability* entity during the synchronization between Acumatica ERP and BigCommerce.
 
-## Units of Measure of Available Item Quantities { .section}
+## Units of Measure of Available Item Quantities
 
 An item's available quantity is exported to the BigCommerce store in the item's sales unit of measure, which is defined on the **General** tab of the [Stock Items](../Shared/../UserGuide/IN_20_25_00.md) \(IN202500\) form. If an item's base UOM is different from its sales UOM, during the synchronization of the *Product Availability* entity, the item's available quantity is converted to the sales UOM before being exported to the BigCommerce store.
 
 **Important:** To avoid discrepancies in sales orders imported into Acumatica ERP, we recommend that before changing an item's sales UOM you make sure that there are no unsynchronized sales orders that contain the item. Also, you should synchronize the item's available quantity immediately after changing its sales UOM so that new orders for the item are created in the BigCommerce store with the updated UOM.
 
-## Product Availability Export Mapping for Stock Items { .section}
+## Product Availability Export Mapping for Stock Items
 
 The following table shows the mapping of Acumatica ERP fields to BigCommerce fields that is used during the export of availability data of stock items to BigCommerce.
 

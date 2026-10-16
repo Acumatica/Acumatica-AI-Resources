@@ -1,8 +1,8 @@
-# Data Entry Form: Definition in TypeScript and HTML {#_593f6c89-c735-4143-83df-bcebe2ae8996 .concept}
+# Data Entry Form: Definition in TypeScript and HTML
 
 The following topic describes how to configure a data entry form depending on its layout.
 
-## View Definition in TypeScript { .section}
+## View Definition in TypeScript
 
 For a form with a Summary area and multiple tabs, you use the following in the TypeScript file of the form:
 
@@ -14,7 +14,7 @@ For a form with a Summary area and multiple tabs, you use the following in the T
 
 The following code shows an example of the TypeScript configuration for the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form.
 
-```language-javascript
+```javascript
 import
 {
     createCollection,
@@ -113,7 +113,7 @@ export class SOLine extends PXView {
 }
 ```
 
-## Layout in HTML { .section}
+## Layout in HTML
 
 You define the layout of a data entry form by adding the following tags to the HTML code of the form:
 
@@ -123,7 +123,7 @@ You define the layout of a data entry form by adding the following tags to the H
 
 The following example shows the HTML template for the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form.
 
-```language-xml
+```xml
 <template>
     <qp-template name="7-10-7" id="form-Document" wg-container>
         <qp-fieldset id="fsColumnA" slot="A" view.bind="Document">

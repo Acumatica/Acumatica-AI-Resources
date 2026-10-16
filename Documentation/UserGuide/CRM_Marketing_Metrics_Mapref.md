@@ -1,4 +1,4 @@
-# Managing Marketing Reports {#_95de4e27-03e6-4a9f-b576-2dcfdb0d31b0 .concept}
+# Managing Marketing Reports
 
 In Acumatica ERP, you can use predefined generic inquiry forms to organize and summarize marketing data and metrics in any way you want. On these forms, you can retrieve and analyze important marketing information, such as the channels and sources of lead revenue and the distribution of leads by country, source, and marketing campaign.
 

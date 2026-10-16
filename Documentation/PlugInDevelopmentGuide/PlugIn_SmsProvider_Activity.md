@@ -1,16 +1,16 @@
-# Custom SMS Provider: To Add a Custom SMS Provider {#_7e99ec44-4ef3-48ad-a712-4dc9a557c9b8 .task}
+# Custom SMS Provider: To Add a Custom SMS Provider
 
 The following activity will walk you through the process of adding a custom SMS provider.
 
-## Story { .section}
+## Story
 
 Suppose that your company has a business relationship with the Plivo SMS provider, which is not supported by default by Acumatica ERP. You need to support the sending of SMS notifications through this SMS provider in Acumatica ERP.
 
-## Process Overview { .section}
+## Process Overview
 
 You will implement the [PX.SmsProvider.ISmsProvider](https://help.acumatica.com/(W(1))/Help?ScreenId=ShowWiki&pageid=9483d8b6-ec79-9e25-855b-5caa6d011a7d) and [PX.SmsProvider.ISmsProviderFactory](https://help.acumatica.com/(W(1))/Help?ScreenId=ShowWiki&pageid=7af9ed30-2abd-4048-a85b-79282c5aeb9b) interfaces in the Visual Studio project of the extension library. You will then publish the customization project with the implemented interfaces and test the availability of the provider on the [SMS Providers](../UserGuide/SM_20_35_35.md) \(SM203535\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -20,7 +20,7 @@ Before you begin performing the steps of this activity, do the following:
 
 **Tip:** You can find the source code of this activity in the [Help-and-Training-Examples](https://github.com/Acumatica/Help-and-Training-Examples) repository on GitHub.
 
-## Step 1: Implementing the ISmsProvider Interface { .section}
+## Step 1: Implementing the ISmsProvider Interface
 
 To implement the [PX.SmsProvider.ISmsProvider](https://help.acumatica.com/(W(1))/Help?ScreenId=ShowWiki&pageid=9483d8b6-ec79-9e25-855b-5caa6d011a7d) interface, do the following:
 
@@ -164,7 +164,7 @@ To implement the [PX.SmsProvider.ISmsProvider](https://help.acumatica.com/(W(1))
 
 6.  In the class, implement SMS processing in the SendMessageAsync method. For an example of the implementation of this method, see [PlivoSmsProvider.cs](https://github.com/Acumatica/Help-and-Training-Examples/blob/HEAD/PlugInDevelopment/Help/AddingCustomSmsProvider/CustomSmsProvider_Code/CustomSmsProvider/PlivoSmsProvider.cs) in the GitHub repository.
 
-## Step 2: Implementing the ISmsProviderFactory Interface { .section}
+## Step 2: Implementing the ISmsProviderFactory Interface
 
 Implement the [PX.SmsProvider.ISmsProviderFactory](https://help.acumatica.com/(W(1))/Help?ScreenId=ShowWiki&pageid=7af9ed30-2abd-4048-a85b-79282c5aeb9b) interface as follows:
 
@@ -213,14 +213,13 @@ Implement the [PX.SmsProvider.ISmsProviderFactory](https://help.acumatica.com/(W
     ```
 
 
-## Step 3: Testing the SMS Provider { .section}
+## Step 3: Testing the SMS Provider
 
 To test the Plivo SMS provider, do the following:
 
 1.  Build the Visual Studio project.
 2.  On the [SMS Providers](../UserGuide/SM_20_35_35.md) \(SM203535\) form, make sure that the new SMS provider is available for selection in the **Provider Type** box, as shown in the following screenshot.
 
-    ![](Images/activity_PlugIn_SmsProvider.png "The custom SMS provider")
 
 3.  Include the extension library in the customization project as a *File* item, as described in [To Add a Custom File to a Project](../CustomizationPlatform/CG_GL_Items_Files_Adding.md).
 4.  Optional: Test the SMS provider as follows:

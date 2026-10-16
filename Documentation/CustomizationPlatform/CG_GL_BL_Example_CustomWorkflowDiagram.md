@@ -1,10 +1,9 @@
-# Customizing a Predefined Workflow with the Workflow Visual Editor {#_a6a41091-d2b6-4f6d-9767-5260b10187ef .concept}
+# Customizing a Predefined Workflow with the Workflow Visual Editor
 
 You can customize a workflow with the help of the Workflow Visual Editor.
 
 The example in this topic demonstrates how to modify the workflow for working with shipments. The predefined workflow for the [Shipments](../UserGuide/SO_30_20_00.md) \(SO302000\) form includes the states and actions shown in the following screenshot.
 
-![](images/Transitions_Example_Predefined_Diagram.png "The predefined states and actions of shipments (diagram view)")
 
 Suppose that you want to add the *Under Inspection* status for your shipments, which should be an intermediate status between *On Hold* and *Open*. When a user clicks the **Release from Hold** action for a new shipment with the *On Hold* status, the status of the shipment should change to *Under Inspection* if the shipment has not passed the inspection yet. If the shipment has already passed the inspection once, its status should change to *Open*. To indicate whether the shipment has passed the inspection, you will add a new field for the shipment. You will also make all fields of a shipment disabled in the *Under Inspection* state, so that a user cannot edit the elements of a shipment that is under inspection.
 
@@ -19,7 +18,6 @@ After you customize the workflow, a user should be able to change the status of 
 
 After customization, the diagram view of the workflow should contain the state, actions, and transitions shown in the following screenshot.
 
-![](images/Transitions_Example_Customized_Diagram.png "The customized status, actions, and transitions of shipments")
 
 Based on these specifications, you will implement the new workflow for shipments by performing the following general steps, which are described in greater detail in the sections that follow:
 
@@ -34,7 +32,7 @@ Based on these specifications, you will implement the new workflow for shipments
 9.  Modifying the **Release from Hold** transition, as described in [Step 9: Modify the Release from Hold Transitions](#_4d707871-6353-4c67-b821-85203f648f91)
 10. Modifying the **Submit For Inspection** and **Inspection Passed** transitions, as described in [Step 10: Modify the Submit for Inspection and Inspection Passed Transitions](#_2c6cc425-be36-48a6-9ba2-e4231a90d746)
 
-## Step 1: Add the Shipments form to the List of Customized Screens {#_b59efc4e-b0a2-4277-9df3-52916e7867b6 .section}
+## Step 1: Add the Shipments form to the List of Customized Screens
 
 To add the [Shipments](../UserGuide/SO_30_20_00.md) form to the list of customized screens, perform the following instructions:
 
@@ -49,7 +47,7 @@ To add the [Shipments](../UserGuide/SO_30_20_00.md) form to the list of customiz
 
 For details on adding a form to the list of customized screens, see [To Add a Page Item for an Existing Form](CG_GL_Items_Screens_Adding.md).
 
-## Step 2: Create a Custom Workflow Based on the Existing One {#_dcc7321b-58e2-4c17-abd3-e226cadf112c .section}
+## Step 2: Create a Custom Workflow Based on the Existing One
 
 To create a new workflow, perform the following instructions:
 
@@ -72,7 +70,7 @@ To create a new workflow, perform the following instructions:
 7.  In the table, click the name of the workflow.
 8.  On the State Diagram: &lt;Workflow Name&gt; page, which opens, click **Diagram View**. Now you will add the new state and transitions.
 
-## Step 3: Create a New State for the Workflow { .section}
+## Step 3: Create a New State for the Workflow
 
 To add a new state, perform the following instructions:
 
@@ -86,7 +84,7 @@ To add a new state, perform the following instructions:
 
 4.  Save your changes.
 
-## Step 4: Add a Transition from the Under Inspection State to the Open State { .section}
+## Step 4: Add a Transition from the Under Inspection State to the Open State
 
 You need to create a transition from the *Under Inspection* state to the *Open* state. To do so, perform the following instructions:
 
@@ -103,7 +101,7 @@ You need to create a transition from the *Under Inspection* state to the *Open* 
 
 7.  Save your changes.
 
-## Step 5: Add a Transition from the Open State to the Under Inspection State { .section}
+## Step 5: Add a Transition from the Open State to the Under Inspection State
 
 To create a transition from the *Open* state to the *Under Inspection* state, perform the following instructions:
 
@@ -120,7 +118,7 @@ To create a transition from the *Open* state to the *Under Inspection* state, pe
 
 7.  Save your changes.
 
-## Step 6: Add a Transition from the Under Inspection State to the On Hold State { .section}
+## Step 6: Add a Transition from the Under Inspection State to the On Hold State
 
 To create a transition from the *Under Inspection* state to the *On Hold* state, perform the following instructions:
 
@@ -137,7 +135,7 @@ To create a transition from the *Under Inspection* state to the *On Hold* state,
 
 7.  Save your changes.
 
-## Step 7: Add a Transition from the On Hold State to the Under Inspection State { .section}
+## Step 7: Add a Transition from the On Hold State to the Under Inspection State
 
 To create a transition from the *On Hold* state to the *On Inspection* state, perform the following instructions:
 
@@ -150,7 +148,7 @@ To create a transition from the *On Hold* state to the *On Inspection* state, pe
 
 5.  Save your changes.
 
-## Step 8: Modify the Under Inspection State { .section}
+## Step 8: Modify the Under Inspection State
 
 Suppose that you want all fields of a shipment to be disabled in the *Under Inspection* state \(and the corresponding UI elements unavailable\), so that a user cannot edit the shipment. You need to modify the *Under Inspection* state as follows:
 
@@ -169,7 +167,7 @@ Suppose that you want all fields of a shipment to be disabled in the *Under Insp
 4.  Click **OK** to close the dialog box.
 5.  Save your changes.
 
-## Step 9: Modify the Release from Hold Transitions { .section}
+## Step 9: Modify the Release from Hold Transitions
 
 You need to add the conditions for the *Release from Hold* transitions that go from the *On Hold* state to the *Open* state, and from the *On Hold* state to the *Under Inspection* state. With the conditions added, if a shipment has already passed an inspection once, clicking **Release from Hold** changes the shipment's status to *Open*. If the shipment has not passed the inspection, clicking **Release from Hold** changes the shipment's status to *Under Inspection*. To implement this, you also need to create a user-defined field that you will use as a status flag for the shipment. This field will indicate whether the shipment has passed the inspection.
 
@@ -197,7 +195,7 @@ Perform the following instructions:
     Notice that in the diagram, a diamond appears above each of the transitions.
 
 
-## Step 10: Modify the Submit for Inspection and Inspection Passed Transitions { .section}
+## Step 10: Modify the Submit for Inspection and Inspection Passed Transitions
 
 Modify the *Submit for Inspection* transition from the *Open* state to the *Under Inspection* state as follows:
 

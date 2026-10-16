@@ -1,14 +1,14 @@
-# Conditions and Parameters: To Add a Field Parameter to the Selection Area {#_15a8dc6b-4410-4eca-8e52-48dec6d41d66 .task}
+# Conditions and Parameters: To Add a Field Parameter to the Selection Area
 
 In this activity, you will learn how to modify an existing generic inquiry to give users the ability to limit the data displayed by a value of some data field. To give users the ability to select that value, you will include a parameter for this data field in the Selection area of the inquiry form.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist in your company who is working on simple customizations, including those involving the creation, modification, and use of generic inquiries. An accountant of your company has requested an inquiry that displays data about invoices and memos. You have offered the predefined Invoices and Memos \(AR3010PL\) generic inquiry form, but the accountant wants to give users the ability to filter the inquiry results by a particular customer—that is, users should be able to select a particular customer in the Selection area of the resulting generic inquiry form and review only that customer’s invoices and memos.
 
-## Configuration Overview {#section_ayf_13q_3rb .section}
+## Configuration Overview
 
 You will work with a copy of the predefined Invoices and Memos \(AR3010PL\) inquiry form, which has the *AR-Invoices and Memos* inquiry title and the *Invoices and Memos* site map title specified on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form.
 
@@ -16,17 +16,17 @@ You will work with a copy of the predefined Invoices and Memos \(AR3010PL\) inqu
 
 The copy you will work with has the *DB5-ARInvoicesMemos* inquiry title and the *S130 Invoices and Memos* site map title specified on the [Generic Inquiry](SM_20_80_00.md) form.
 
-## Process Overview { .section}
+## Process Overview
 
 On the **Results Grid** tab of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form for the copied inquiry, you will look for the row that corresponds to the **Customer** column of the inquiry and note the value in the **Data Field** column. You will add the *Customer* parameter on the **Parameters** tab. Then you will specify how the system should apply the value of the parameter to the inquiry output by adding a condition on the **Conditions** tab.
 
-## System Preparation {#section_rr4_1pr_jrb .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to a tenant with the *U100* dataset preloaded as system administrator Kimberly Gibbs. You should sign in by using the *gibbs* username and the *123* password.
 
 **Tip:** The *gibbs* user is assigned the *Administrator* role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards.
 
-## Step 1: Adding a Parameter { .section}
+## Step 1: Adding a Parameter
 
 To modify the generic inquiry to add a parameter, do the following:
 
@@ -40,7 +40,7 @@ To modify the generic inquiry to add a parameter, do the following:
     -   **From Schema**: Selected
 5.  On the form toolbar, click **Save**.
 
-## Step 2: Adding a Condition for the Parameter { .section}
+## Step 2: Adding a Condition for the Parameter
 
 To modify the generic inquiry by adding a condition, do the following:
 
@@ -59,7 +59,6 @@ To modify the generic inquiry by adding a condition, do the following:
 3.  On the form toolbar, click **Save**.
 4.  Click the eye icon on the side panel to preview how your changes have affected the inquiry form. The system adds the box corresponding to the parameter to the Selection area \(see the following screenshot\). You can select a particular customer account and view only invoices and memos for the customer, or you can leave the box empty.
 
-    ![](Images/GI_Conditions_and_Parameters_Field_Parameters_Area.png "Generic inquiry with a box that filters data by customer")
 
 
 **Parent topic:**[Using Conditions and Parameters](../UserGuide/GI_Conditions_and_Parameters_Mapref.md)

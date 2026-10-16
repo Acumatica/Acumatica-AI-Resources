@@ -1,4 +1,4 @@
-# Modification of Inquiry Results: Including Deleted Records {#_666a9a2d-ac8c-405f-9d95-a6f34813cedc .concept}
+# Modification of Inquiry Results: Including Deleted Records
 
 In some cases, you may want to include deleted records among the inquiry results.
 
@@ -19,11 +19,9 @@ With these settings, the system displays the deleted records in the inquiry resu
 
 For example, the following screenshot shows the *GL-Journal Transactions* inquiry, where rows have been added to the **Results Grid** tab to show the deleted records of the Batch and Ledger tables. Notice that the *Deleted Batch* and *Deleted Ledger* column captions, respectively, have been specified for these tables.
 
-![](Images/GI_Modifying_Inq_Res_DeletedRecords.png "Rows added to show deleted records in the GL-Journal Transactions inquiry")
 
 The following screenshot shows the *Journal Transactions* generic inquiry form, which now includes the records of deleted batches and ledgers. The newly added columns can be used for filtering records, as shown below.
 
-![](Images/GI_Modifying_Inq_Res_DeletedRecords_Results.png "Records of the Journal Transactions generic inquiry form filtered by the deleted batches")
 
 **Parent topic:**[Modifying Inquiry Results](../UserGuide/GI_Modifying_Inquiry_Results_Mapref.md)
 

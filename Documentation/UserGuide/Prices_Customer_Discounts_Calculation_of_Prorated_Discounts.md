@@ -1,4 +1,4 @@
-# Customer Discounts: Calculation of Prorated Discounts {#_80d08a11-b08e-4a09-a1fe-59750d0664f9 .concept}
+# Customer Discounts: Calculation of Prorated Discounts
 
 You can prorate discount sequences if the **Prorate Discounts** check box is selected on the [Discounts](AR_20_95_00.md) \(AR209500\) form. For prorated discount sequences, the system prevents customers from attempts to split a sales order to get greater discount amount or a larger quantity of free items. The functionality of prorated discounts is applicable to discount sequences with discountable quantities or discountable amounts, such as when you want to give your customers a discount of $5 for every 10 units purchased.
 

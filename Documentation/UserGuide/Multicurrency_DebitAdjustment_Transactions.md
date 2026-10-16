@@ -1,8 +1,8 @@
-# Debit Adjustments in Foreign Currencies: Generated Transactions {#_aa796893-a48f-42ab-b96b-0e84fa7c2041 .concept}
+# Debit Adjustments in Foreign Currencies: Generated Transactions
 
 To be able to decrease vendor balances in foreign currencies, you create and process debit adjustments. To update vendor balances, the system generates the GL transactions described in the following sections.
 
-## Transaction Generated for a Debit Adjustment {#section_ojy_3jv_vxb .section}
+## Transaction Generated for a Debit Adjustment
 
 When you create and release a debit adjustment, the system generates the following GL transaction.
 
@@ -13,7 +13,7 @@ When you create and release a debit adjustment, the system generates the followi
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 
-## Transactions Generated for a Debit Adjustment Application Producing RGOL {#section_rjy_3jv_vxb .section}
+## Transactions Generated for a Debit Adjustment Application Producing RGOL
 
 When you release a debit adjustment application to a bill in a foreign currency, the difference in currency rates can produce realized gain or loss \(RGOL\).
 

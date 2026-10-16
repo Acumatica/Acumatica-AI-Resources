@@ -1,16 +1,16 @@
-# UI Navigation Options: To Configure a Workspace {#_866b6a42-ebb6-42b1-9104-e981929c16f7 .task}
+# UI Navigation Options: To Configure a Workspace
 
 The following activity will walk you through the process of creating and configuring a workspace in Acumatica ERP.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that a customer support manager of the Muffins &amp; Cakes company has asked you, the system administrator, to create a new workspace for quick access to the forms that customer support representatives use most often. You have been asked to initially include the [Customers](AR_30_30_00.md) \(AR303000\) and [Cases](CR_30_60_00.md) \(CR306000\) forms in this workspace. The workspace should be pinned to the main menu panel by default.
 
 Also, the manager has requested that you add a new tile for the quick creation of cases from Allen's Bakery, the company's highest-priority customer, for juicer repair \(that is, with the case class for juicer repair specified\). To do this, you need the [Cases](CR_30_60_00.md) form to open with the appropriate customer and case class filled in.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -18,20 +18,20 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Case Classes](CR_20_60_00.md) \(CR206000\) form, the *JREPAIR* case class has been configured.
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *ABAKERY* customer account has been configured.
 
-## Process Overview { .section}
+## Process Overview
 
 You will inspect the **Case Class** and **Business Account** elements on the [Cases](CR_30_60_00.md) \(CR306000\) form to find the corresponding data fields. On the [Case Classes](CR_20_60_00.md) \(CR206000\) form and [Customers](AR_30_30_00.md) \(AR303000\) form, you will find the URL parameters for the needed customer and case class.
 
 You will switch to Menu Editing mode and will create the **Customer Cases** workspace. You will add the **New Allen's Bakery Case** tile to the workspace. Then you will add links to the [Customers](AR_30_30_00.md) and [Cases](CR_30_60_00.md) forms to this workspace.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin configuring a workspace, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded; you should sign in as system administrator by using the *gibbs* username and the *123* password.
 2.  On the Company and Branch Selection menu in the top pane of the Acumatica ERP screen, make sure that the *Muffins Head Office &amp; Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu button to view the list of branches that you have access to, and then click *Muffins Head Office &amp; Wholesale Center*.
 
-## Step 1: Preparation for the Configuration of the Tile { .section}
+## Step 1: Preparation for the Configuration of the Tile
 
 To gather the data you will need to configure the tile, do the following:
 
@@ -61,7 +61,7 @@ To gather the data you will need to configure the tile, do the following:
 
 You have collected the information needed for adding the requested URL parameter to the new tile, which is CaseClassID=JREPAIR&amp;CustomerID=ABAKERY+++.
 
-## Step 2: Adding the Workspace { .section}
+## Step 2: Adding the Workspace
 
 To create the new workspace, do the following:
 
@@ -74,10 +74,9 @@ To create the new workspace, do the following:
 4.  Click **OK** to save your changes and close the dialog box.
 5.  In the upper right corner of the workspace title bar, click the **Pin to Main Menu Panel** button. Notice that the **Customer Cases** menu item has been added to the main menu, as shown in the following screenshot.
 
-    ![](Images/activity_Customizing_UI_Workspace_AddNew.png "The Customer Cases workspace in Menu Editing mode")
 
 
-## Step 3: Adding the Tile with Parameters { .section}
+## Step 3: Adding the Tile with Parameters
 
 Now you will add the new tile for users to quickly create cases for juicer repair from Allen's Bakery. To add the requested tile with the needed tile parameters to the workspace, while you are still reviewing the **Customer Cases** workspace in Menu Editing mode, do the following:
 
@@ -91,17 +90,15 @@ Now you will add the new tile for users to quickly create cases for juicer repai
 
     The following screenshot shows the workspace in Menu Editing mode with the newly added tile.
 
-    ![](Images/activity_Customizing_UI_Workspace_Tile.png "The new tile on the Customer Cases workspace in Menu Editing mode")
 
 
-## Step 4: Adding Links to the Workspace { .section}
+## Step 4: Adding Links to the Workspace
 
 To add links to forms to the **Customer Cases** workspace, do the following:
 
 1.  In Menu Editing mode of Acumatica ERP, while you are still reviewing the **Customer Cases** workspace, on the top toolbar, click **Add Menu Item**.
 2.  In the **Select Forms** dialog box, which opens, search for the *Customers* \(*AR3030PL - Customers*\) item in the **Profiles** category of the **Receivables** workspace, and select the unlabeled check box for it, as shown in the following screenshot.
 
-    ![](Images/activity_Customizing_UI_Workspace_Customers.png "The selection of the Customers item in the Select Forms dialog box")
 
 3.  Click **Add** to add the link to the form.
 4.  While you are still viewing the **Select Forms** dialog box, search for the *Cases* \(*CR3060PL - Cases*\) item in the **Activities** category of the **Support** workspace, and select the unlabeled check box for it.
@@ -110,7 +107,6 @@ To add links to forms to the **Customer Cases** workspace, do the following:
 
     The **Customer Cases** workspace should look as shown in the following screenshot.
 
-    ![](Images/activity_Customizing_UI_Workspace_Done.png "The Customer Cases workspace")
 
 7.  While you are still viewing the **Customer Cases** workspace, click the tile.
 8.  Verify that the system opens the [Cases](CR_30_60_00.md) \(CR306000\) form with the following settings filled in:

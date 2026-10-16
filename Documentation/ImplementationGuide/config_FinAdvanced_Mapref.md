@@ -1,4 +1,4 @@
-# Implementing Advanced Financials {#_1e2f53cc-dacc-4746-a8f3-aa43b1e60922 .concept}
+# Implementing Advanced Financials
 
 This part of the guide describes the financial processes that you may need to configure in Acumatica ERP, depending on your company's structure and business needs.
 

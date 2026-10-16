@@ -1,12 +1,12 @@
-# Project Creation and Processing: Configuration Prerequisites {#_ab1d9fb6-344b-4e76-9502-523f82504f70 .concept}
+# Project Creation and Processing: Configuration Prerequisites
 
 Before starting to create a project, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Projects* feature must be enabled.
 
-## Configuring Project Identifiers and the Non-Project Code { .section}
+## Configuring Project Identifiers and the Non-Project Code
 
 The *PROJECT* segmented key on the [Segmented Keys](CS_20_20_00.md) \(CS202000\) form defines the identifier of the projects. By default, this segmented key specifies that the project identifier is an alphanumeric string of up to 10 characters. For the key, you can define how many segments it is to have, what values may be used, whether these values should be validated, and whether auto-numbering should be used in one of the segments. You can also divide item identifiers into segments with specific values. For more information on configuring segmented keys, see [Segmented Identifiers](CS__con_Identifier_Segmentation.md).
 
@@ -16,7 +16,7 @@ The non-project code should be consistent with the structure of the *PROJECT* se
 
 Suppose the *PROJECT* segmented key consists of two segments, *XX* and *YYY*. The *XX* segment is not validated. The *YYY* segment is validated and the list of its predefined segment values includes only *001* and *002* values. In the first segment of the **Non-Project Code** box, you could specify any number of symbols that does not exceed its length \(for example, *P* or *PR*\). For the second validated segment in this box, you must specify the value selected from the list of predefined segment values. That is, the *PR-001* and *P-002* codes will be valid, but *PJ-003* will be invalid.
 
-## Configuring the System { .section}
+## Configuring the System
 
 Before you enter any new project, you must ensure that the following are configured:
 

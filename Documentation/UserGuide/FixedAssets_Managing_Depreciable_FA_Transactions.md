@@ -1,4 +1,4 @@
-# Assets with Depreciation: Generated Transactions {#_a49503f1-d45a-4e0c-82d2-a986dcd950a6 .concept}
+# Assets with Depreciation: Generated Transactions
 
 As you transfer and dispose of assets, the system creates fixed asset transactions. To update the balances of GL accounts, the system generates the GL transactions described in the following sections.
 
@@ -6,7 +6,7 @@ For any of these transactions, you can view the reference number of the GL batch
 
 **Attention:** Split transactions are not posted to the general ledger, because they do not change the balances of the GL accounts.
 
-## Transaction Generated for Asset Transfer {#section_agg_ljv_vxb .section}
+## Transaction Generated for Asset Transfer
 
 When you transfer a fixed asset with accumulated depreciation from one branch to another branch, the system generates the following general ledger transaction.
 
@@ -17,7 +17,7 @@ When you transfer a fixed asset with accumulated depreciation from one branch to
 |Source branch|Accumulated Depreciation account|The **Accumulated Depreciation Account** specified for the asset class on the **GL Accounts** tab of the [Fixed Asset Classes](FA_20_10_00.md) form|Accumulated depreciation|0.00|
 |Destination branch|Accumulated Depreciation account|The **Accumulated Depreciation Account** specified for the asset class on the **GL Accounts** tab of the [Fixed Asset Classes](FA_20_10_00.md) form|0.00|Accumulated depreciation|
 
-## Transaction Generated for Asset Disposal {#section_dgg_ljv_vxb .section}
+## Transaction Generated for Asset Disposal
 
 When you dispose of a fixed asset with accumulated depreciation by selling it, the system generates the following general ledger transaction.
 

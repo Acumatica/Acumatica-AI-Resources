@@ -1,12 +1,12 @@
-# To Map Active Directory Groups to Roles in Acumatica ERP {#_f9ced04c-234b-46ab-9d67-6816cc19606c .task}
+# To Map Active Directory Groups to Roles in Acumatica ERP
 
 After you have enabled Active Directory \(AD\) integration, you need to map AD groups to user roles defined in Acumatica ERP by using the [User Roles](SM_20_10_05.md) \(SM201005\) form.
 
-## Before You Begin { .section}
+## Before You Begin
 
 Before you start configuring your system, make sure that all the domain users have email addresses configured in AD.
 
-## To Map Active Directory Groups to Acumatica ERP Roles { .section}
+## To Map Active Directory Groups to Acumatica ERP Roles
 
 1.  Open the [User Roles](../Shared/../UserGuide/SM_20_10_05.md) \(SM201005\) form.
 2.  In the **Summary** area, in the **Role Name** box, select the role you want to associate with an Active Directory group \(or with multiple groups\).
@@ -18,7 +18,7 @@ Before you start configuring your system, make sure that all the domain users ha
 5.  On the form toolbar, click **Save**.
 6.  Repeat Instructions 2 through 5 for every role that should be mapped to AD groups.
 
-## To Remove the Mapping of Active Directory Groups to Roles { .section}
+## To Remove the Mapping of Active Directory Groups to Roles
 
 1.  Open the [User Roles](../Shared/../UserGuide/SM_20_10_05.md) \(SM201005\) form.
 2.  In the **Summary** area, in the **Role Name** box, select the role for which you want to remove association with an Active Directory group \(or with multiple groups\).

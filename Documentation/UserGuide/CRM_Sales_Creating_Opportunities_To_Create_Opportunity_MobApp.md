@@ -1,14 +1,14 @@
-# Opportunities: To Create an Opportunity by Using the Acumatica Mobile App {#_f895129d-fef5-4b55-88ee-15859daa420f .task}
+# Opportunities: To Create an Opportunity by Using the Acumatica Mobile App
 
 The following activity will help you create an opportunity by using the Acumatica mobile app.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are David Chubb, a sales manager of the SweetLife Fruits &amp; Jams company.You are currently on a business trip and cannot use your laptop at the moment. Fred Robinson, a store manager at the Store Cart supermarket, has called you and asked you to place an urgent order for assorted teas \(black, fruit, and green\), 50 packs of each. You need to create an opportunity in Acumatica ERP.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -17,7 +17,7 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Contacts](CR_30_20_00.md) \(CR302000\) form, the *Fred Robinson* contact has been created in the system and associated with the *STORECART* business account.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *BLACKTEA06*, *FRUITTEA12*, and *GREENTEA06* stock items, which hold the settings of the products, have been created.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating a new opportunity in the system by using the Acumatica mobile app, you should do the following:
 
@@ -27,14 +27,14 @@ Before you start creating a new opportunity in the system by using the Acumatica
 
 2.  Make sure that the Acumatica ERP instance has been hosted over HTTPS or ask a system administrator to perform this task for you. For more information, see [Preparation for the Acumatica ERP Installation: System Environment](INST_Preparing_Installation_System_Environment.md).
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following by using the Acumatica mobile app:
 
 1.  Sign in to the Acumatica mobile app.
 2.  Create an opportunity for an existing customer by using the Acumatica mobile app.
 
-## Step 1: Signing In to the Acumatica Mobile App { .section}
+## Step 1: Signing In to the Acumatica Mobile App
 
 To sign in to the Acumatica mobile app, do the following:
 
@@ -44,7 +44,7 @@ To sign in to the Acumatica mobile app, do the following:
 4.  Tap **Next**.
 5.  Sign in to the system as the sales manager by using the *chubb* username and the *123* password.
 
-## Step 2: Creating an Opportunity by Using the Acumatica Mobile App { .section}
+## Step 2: Creating an Opportunity by Using the Acumatica Mobile App
 
 To create an opportunity with the contact *Fred Robinson* of the *STORECART* customer by using the Acumatica mobile app, do the following:
 

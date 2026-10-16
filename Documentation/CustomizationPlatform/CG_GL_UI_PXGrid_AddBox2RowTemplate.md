@@ -1,4 +1,4 @@
-# To Add a Control to the Form View of a Grid {#_adcb6fe5-1b28-4865-82f5-57d9e6c498c1 .concept}
+# To Add a Control to the Form View of a Grid
 
 If the AllowFormEdit property of a grid is set to *True*, the user can switch the grid to form view mode to display the grid columns as controls on the form. This mode gives you the capability to edit a single record selected in the grid.
 
@@ -22,7 +22,6 @@ Therefore, to add a box for a data field to the form view of a grid, you have to
 
 8.  Find the required data field in the list, and if the field is not used \(that is, if the check box in the **Used** column is cleared for the field\), select the check box for the field in the first column, as the following screenshot shows.
 
-    ![](images/CG_GL_UI_PXGrid_AddBox2RowTemplate.png "Selecting a data field to create a control on the form view of the grid")
 
     **Tip:** You can select multiple data fields to create multiple columns simultaneously.
 

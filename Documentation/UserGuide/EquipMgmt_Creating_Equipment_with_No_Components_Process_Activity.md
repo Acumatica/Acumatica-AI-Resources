@@ -1,22 +1,22 @@
-# Stock Items to Be Tracked Post-Sale: To Create a Stock Item with No Components {#_416e594e-d66c-45e3-95b8-50902c20fb3a .task}
+# Stock Items to Be Tracked Post-Sale: To Create a Stock Item with No Components
 
 In this activity, you will create a stock item with no components that will be tracked after the item is sold. To do this, you will first create an item class with the **Model Equipment** equipment class specified, which indicates that the stock items of this class will be tracked post-sale. Then you will create a piece of equipment—a stock item of an equipment class designed for model equipment without components—based on the newly created item class.
 
-## Story {#section_nyc_vms_kdc .section}
+## Story
 
 Suppose that the SweetLife Service and Equipment Sales Center is planning to sell a range of centrifugal juicers, including models with features like automatic pulp ejection, and to track these items after the sale. Acting as an administrative user, you will create the *CENTRIFJUC - Centrifugal Juicers* item class with the **Model Equipment** option button selected. Various centrifugal juicer models will belong to this equipment class, which is intended for items sold without components.
 
 You will then create a specific stock item, *JUICE\_J22C - Multifruit Centrifugal Juicer J22C*, based on this item class. This juicer model, featuring automatic pulp ejection, will be tracked after the sale.
 
-## Process Overview {#section_ssq_44v_3dc .section}
+## Process Overview
 
 On the [Item Classes](IN_20_10_00.md) \(IN201000\) form, you will create an item class with the **Model Equipment** option button selected. Then on the [Stock Items](IN_20_25_00.md) \(IN202500\) form, you will create a piece of equipment with no components based on the created item class.
 
-## System Preparation {#section_z4x_b2b_ldc .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, on the Acumatica ERP website, sign in to a company with the *U100* dataset preloaded. You should sign in as a system administrator by using the *gibbs* username and the *123* password.
 
-## Step 1: Creating an Item Class for Equipment {#section_rbs_blv_3dc .section}
+## Step 1: Creating an Item Class for Equipment
 
 To create an item class, do the following:
 
@@ -37,7 +37,7 @@ To create an item class, do the following:
 4.  On the **Service Management** tab, select **Model Equipment** under **Equipment Class**. Stock items of the *CENTRIFJUC* item class will be tracked after they are sold.
 5.  On the form toolbar, click **Save**.
 
-## Step 2: Creating a Stock Item with No Components {#section_ors_xms_kdc .section}
+## Step 2: Creating a Stock Item with No Components
 
 To create a stock item with no components that will be tracked after it is sold, do the following:
 

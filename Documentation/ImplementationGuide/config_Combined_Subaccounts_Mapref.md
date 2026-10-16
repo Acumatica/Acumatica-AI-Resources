@@ -1,4 +1,4 @@
-# Automatically Combined Subaccounts {#_2cedfa73-39dc-40f6-bef3-bc67ff834e5e .concept}
+# Automatically Combined Subaccounts
 
 In Acumatica ERP, you can use automatically combined subaccounts for documents, with the system inserting the automatically combined subaccounts by default in document lines, to speed up data entry and reduce possible errors. To do so, you need to specify the subaccount masks that the system will use to combine the subaccounts for documents, based on the way your company wants to structure subaccounts and track costs.
 

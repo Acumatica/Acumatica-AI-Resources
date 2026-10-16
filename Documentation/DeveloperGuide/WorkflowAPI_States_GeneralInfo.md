@@ -1,8 +1,8 @@
-# Workflow States: General Information {#_e99599ef-85e8-4e8d-8b45-0b9345be89b8 .concept}
+# Workflow States: General Information
 
 A *workflow state* is a stage within a workflow of processing of a record that is created on an Acumatica ERP form. A workflow state represents the current status of a record.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,21 +10,21 @@ In this chapter, you will learn how to do the following:
 -   Add states to the screen configuration
 -   Configure states in a workflow
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You define and configure states of a workflow when you are defining a new workflow or customizing an existing workflow.
 
-## State-Identifying Field { .section}
+## State-Identifying Field
 
 Each workflow consists of multiple workflow states. Each workflow state corresponds to a value of the state-identifying field.
 
 Currently, the workflow engine supports only state-identifying fields of the String type that have a predefined set of values. The values of the state-identifying field are usually defined in the [PXStringList](https://help.acumatica.com/(W(3))/Help?ScreenId=ShowWiki&pageid=eb18681d-a07f-87ae-3738-cb6452c24260) attribute. To define the state-identifying field, you need to call the StateIdentifierIs method for the new screen configuration and provide the field as the parameter. For details, see [Step 3: Overriding the Configure Method](WorkflowAPI_ScreenConfig_Activity_CreateNew_OverrideConfig.md) of the [Screen Configuration: To Prepare a Screen Configuration for a Form Without a Predefined Workflow](WorkflowAPI_ScreenConfig_Activity_CreateNew.md) activity.
 
-## Adding of a Workflow State { .section}
+## Adding of a Workflow State
 
 To define the set of workflow states, you call the WithFlowStates method in the lambda expression specified for the AddDefaultFlow method and provide the set of workflow states in the parameter, as the following code shows. You define each workflow state by calling the Add method and specifying the state-identifier string as a generic parameter. As a parameter of the Add method, you specify a lambda expression where you can configure the workflow state.
 
-``` {#codeblock_ilm_lql_jrb .language-csharp}
+```csharp
 context.AddScreenConfigurationFor(screen =>
    screen.StateIdentifierIs<status>()
    .AddDefaultFlow(flow =>
@@ -40,7 +40,7 @@ context.AddScreenConfigurationFor(screen =>
 
 Each workflow must have one state that is marked as the initial state. It provides the default value of the state-identifier field for a newly created record. You mark a state as initial by calling the IsInitial method, as shown in the code above.
 
-## Configuration of Workflow States {#section_s1s_4rl_jrb .section}
+## Configuration of Workflow States
 
 You can add, update, or delete workflow states in a screen configuration by calling the Add, Update, or Delete method, respectively.
 
@@ -64,7 +64,7 @@ Inside the lambda expression passed to the Add or Update method, you configure t
 
     An example of using these methods is shown in the following code.
 
-    ```language-csharp
+    ```csharp
     flowStates.Add<State.hold>(flowState =>
     {
       return flowState

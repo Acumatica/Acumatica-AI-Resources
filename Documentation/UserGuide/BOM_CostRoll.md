@@ -1,10 +1,10 @@
-# Bills of Material: Updating Standard Costs {#_29dd17ca-5a7d-4ec8-864f-4f8d8916efb1 .concept}
+# Bills of Material: Updating Standard Costs
 
 You use the cost rollup process—which you perform by using the [Generate Cost Rollups](AM_51_80_00.md) \(AM518000\) and [Process Cost Rollup Results](AM_50_80_00.md) \(AM508000\) forms—to update the costs of bills of materials \(BOMs\). After the cost rollup is performed, you may want to update the pending cost for production items that use the *Standard* valuation method with the rolled-up cost.
 
 Typically, standard costs are updated annually, but you can update them as often as needed. This topic describes the processes related to updating the standard costs of production items.
 
-## Steps to Update Standard Costs { .section}
+## Steps to Update Standard Costs
 
 When you update standard costs of items to be produced, you perform the following general steps:
 
@@ -14,14 +14,14 @@ When you update standard costs of items to be produced, you perform the followin
 4.  You preview the cost changes for materials by using the [Standard Cost Change Preview](IN_61_75_00.md) \(IN617500\) report to make sure that the costs are correct and to understand the impact of the inventory revaluation.
 5.  You update the standard costs for the items to be produced by using the [Update Standard Costs](IN_50_20_00.md) \(IN502000\) form. For details, see the *Update of Standard Costs for Production Items* section below.
 
-## Update of Standard Costs for Materials { .section}
+## Update of Standard Costs for Materials
 
 Before you roll up the costs of a bill of material, you should update the standard cost for each material that is used in the BOM that has the *Standard* valuation method. You can use either of the following ways:
 
 -   Specify the pending cost for each material manually on the **Price/Cost** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form and then update the current cost by using the **Update Cost** command on the same form.
 -   Create a generic inquiry to display the purchase order history. By using this generic inquiry, you analyze and calculate a new standard cost that could be imported to update the pending costs of the materials. If you want to select only items used in BOMs, you can refer to the [Using Manufacturing Data in Inquiries and Reports](MFG_Tables.md) topic that lists the DACs used by the manufacturing-related forms.
 
-## Cost Rollup for BOMs { .section}
+## Cost Rollup for BOMs
 
 To calculate costs for bills of material based on the costs of BOM elements, such as materials, tools, or overhead, you do the following on the [Generate Cost Rollups](AM_51_80_00.md) \(AM518000\) form:
 
@@ -35,7 +35,7 @@ To calculate costs for bills of material based on the costs of BOM elements, suc
 
 You can run the cost rollup process as many times as needed. The generated cost rollups are displayed on the [Process Cost Rollup Results](AM_50_80_00.md) \(AM508000\) form.
 
-## Update of Pending Costs for BOMs { .section}
+## Update of Pending Costs for BOMs
 
 When the cost rollup process is completed, on the [Process Cost Rollup Results](AM_50_80_00.md) \(AM508000\) form, you select he *Update Pending Costs* action in the Selection area, select the rows of generated rollups for which you want to update pending costs, and click **Process** on the form toolbar. The system updates the pending costs of the BOMs' items with the calculated costs on the **Price/Cost** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form. Only items with the *Standard* valuation method will have the pending cost updated.
 
@@ -45,7 +45,7 @@ When the cost rollup process is completed, on the [Process Cost Rollup Results](
 -   A record for the item–warehouse pair exists on the [Item Warehouse Details](../Shared/../UserGuide/IN_20_45_00.md) form.
 -   The **Override Std. Cost** check box is selected on the **Price/Cost** tab of the [Item Warehouse Details](../Shared/../UserGuide/IN_20_45_00.md) form.
 
-## Update of Standard Costs for Production Items { .section}
+## Update of Standard Costs for Production Items
 
 You update the standard costs of items to be produced by using the [Update Standard Costs](IN_50_20_00.md) \(IN502000\) form. During the update, the system does the following for each item to be produced:
 

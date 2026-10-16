@@ -1,4 +1,4 @@
-# Controls for Joined Data Fields {#_8b21aeee-2d64-445a-83a5-c8e4a0a0a901 .concept}
+# Controls for Joined Data Fields
 
 You can add an input control or grid column that displays a joined data field retrieved by a data view. If a data field is joined, the framework automatically makes the control that is associated with that data field unavailable in the UI, because joined data cannot be edited through the data view in which it is joined.
 

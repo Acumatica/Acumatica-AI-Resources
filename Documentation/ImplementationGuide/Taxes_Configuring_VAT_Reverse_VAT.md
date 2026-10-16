@@ -1,4 +1,4 @@
-# Value-Added Taxes: Reverse VAT {#_6f3a4876-551d-4d93-802b-20a20d8a7082 .concept}
+# Value-Added Taxes: Reverse VAT
 
 A *reverse VAT* is a type of value-added tax used in some countries of the European Union. The reverse VAT has been implemented as a simplification measure for companies that supply goods or services to other EU countries. With this tax applied, these companies avoid the need to register in the countries to which they supply the goods or services. Thus, if a vendor normally must report the VAT due on their supplies to the tax authorities, so when this type of VAT applies, the liability of reporting VAT is reversed and goes to the customer. The customer in this case acts as both the vendor and the customer. The customer credits the tax payable account in the needed output tax amount on purchases from abroad, and at the same time debits a required account with the amount of input tax to be paid under the standard tax rules.
 

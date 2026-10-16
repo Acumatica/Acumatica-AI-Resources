@@ -1,4 +1,4 @@
-# Acumatica ERP Integration with Gmail: Contact Management {#_d4a1f4c2-4b8a-4a6f-ad96-897a5f61f72f .concept}
+# Acumatica ERP Integration with Gmail: Contact Management
 
 With the Acumatica for Gmail add-on, you can add a sender's email address from an open email to an existing contact in Acumatica ERP or create a new contact. With this, you can:
 
@@ -7,9 +7,8 @@ With the Acumatica for Gmail add-on, you can add a sender's email address from a
 
 When you open the Acumatica for Gmail add-on for an email message, the email address appears in the **Contact Email** box on the **Actions** page.
 
-![](Images/INT_Gmail_Addon_Panel_Contact_Email.png "The email address in the Contact Email box")
 
-## Adding the Email Address to an Existing Contact { .section}
+## Adding the Email Address to an Existing Contact
 
 If the sender already exists in the system but their email address hasn't been added, you can add it to the contact to keep communication history linked by doing the following:
 
@@ -22,18 +21,15 @@ If the sender already exists in the system but their email address hasn't been a
 
     **Tip:** You can select the contact from the list or enter the name manually.
 
-    ![](Images/INT_Gmail_Addon_Select_Contact.png "Selection of a contact")
 
 4.  Click **Add to Contact**.
 
-    ![](Images/INT_Gmail_Addon_Add_to_Contact.png "The Add to Contact button")
 
     After you add the email address to the contact, the contact details appear in the **Contact Information** section on the **Actions** page.
 
-    ![](Images/INT_Gmail_Addon_Email_Added_to_Contact.png "The Actions page for the contact")
 
 
-## Creating a Contact { .section}
+## Creating a Contact
 
 If the email is from a new person who isn't yet in Acumatica ERP, you can create a contact directly from the email to start tracking communication. To create a new contact, do the following:
 
@@ -43,18 +39,15 @@ If the email is from a new person who isn't yet in Acumatica ERP, you can create
 
 2.  Click **Create Contact**.
 
-    ![](Images/INT_Gmail_Addon_Create_Contact_Button.png "The Create Contact button")
 
 3.  On the **Create Contact** page, enter the contact details.
 
-    ![](Images/INT_Gmail_Addon_Contact_Settings.png "The contact details")
 
 4.  Click **Create Contact**. The contact is creates. and its details appear in the **Contact Information** section on the **Actions** page.
 
-    ![](Images/INT_Gmail_Addon_Contact_Created.png "The contact information")
 
 
-## Assigning Business Account to the Contact { .section}
+## Assigning Business Account to the Contact
 
 If a contact is not yet associated with a company in Acumatica ERP, you can link it to an existing business account or create a new one to keep your data structured and consistent.
 

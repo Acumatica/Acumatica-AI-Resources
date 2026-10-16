@@ -1,4 +1,4 @@
-# Integrating Acumatica ERP with Microsoft Teams {#_8bad2ea9-2454-4038-852a-8706abece330 .concept}
+# Integrating Acumatica ERP with Microsoft Teams
 
 Microsoft Teams is a collaboration platform that provides chat, conferencing, and file sharing in one tool. If you set up integration with Microsoft Teams, users can do the following in Acumatica ERP:
 

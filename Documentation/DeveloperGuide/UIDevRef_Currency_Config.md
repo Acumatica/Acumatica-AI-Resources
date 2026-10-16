@@ -1,4 +1,4 @@
-# Currency: Configuration of the Currency Control {#_24695e78-0148-4d80-b2aa-67871aea21b5 .concept}
+# Currency: Configuration of the Currency Control
 
 To configure a currency control, you need to do the following:
 
@@ -9,7 +9,7 @@ To configure a currency control, you need to do the following:
 
 -   Configure the type of the control and specify the view for it.
 
-## Defining the View { .section}
+## Defining the View
 
 Suppose that the view for a currency control is defined in the graph as follows.
 
@@ -50,11 +50,10 @@ To define the view for the currency control in TypeScript, do the following:
     ```
 
 
-## Defining a Currency Control in the Form View {#_58d43c40-0eed-4f44-b091-4613c17ca714 .section}
+## Defining a Currency Control in the Form View
 
 Suppose that you need to define a currency control in the form view, and it should look as shown in the following screenshot.
 
-![](Images/UIDevRef_Currency_Overview_NoSteps.png "Currency control")
 
 To add a currency control to a form, you use the `field` tag inside a fieldset in the HTML template. In the field tag, you need to specify the following parameters:
 
@@ -70,11 +69,10 @@ The following code shows implementation of the currency control in the screensho
 </field>
 ```
 
-## Defining the Currency Control in a Table {#_0dc3d742-bd8e-4911-b2fc-d9a1e97c5d0b .section}
+## Defining the Currency Control in a Table
 
 Suppose that you need to define a currency control in a table—that is, a **Currency** column with a currency selector, as shown in the following screenshot.
 
-![](Images/UIDevRef_Currency_Overview_Grid.png "Currency selector")
 
 To add a currency control in a table column, you use the columnConfig decorator in TypeScript, where you need to specify the following parameters:
 

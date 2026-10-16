@@ -1,16 +1,16 @@
-# Cash Management: To Modify a Payment Method {#_9f09318a-fc8b-4115-898a-71b037a6f9ac .task}
+# Cash Management: To Modify a Payment Method
 
 In this activity, you will learn how to set up a payment method for use in accounts receivable and accounts payable.
 
-## Story { .section}
+## Story
 
 Suppose the SweetLife company uses checks to pay for its vendor bills and to receive payments for customer invoices. Acting as an administrator, you will modify the *CHECK* payment method \(which is predefined in the system\) so that it can be used in accounts receivable and accounts payable.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Payment Methods](../UserGuide/CA_20_40_00.md) \(CA204000\) form, you will update the settings of the *CHECK* payment method.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start modifying any existing payment method, make sure that the following tasks have been performed in the system:
 
@@ -18,7 +18,7 @@ Before you start modifying any existing payment method, make sure that the follo
 2.  The cash management preference settings have been defined, as described in [Cash Management: To Specify Cash Management Preferences](config_Basic_Company_Implem_Activity_CA_Preferences.md).
 3.  The cash accounts related to the payment method have been linked \(in the cash account settings\) to the payment method, as described in [Cash Management: To Create Cash Accounts](config_Basic_Company_Implem_Activity_Cash_Accounts.md).
 
-## Step: Setting up the *CHECK* Payment Method for Use in AP and AR { .section}
+## Step: Setting up the *CHECK* Payment Method for Use in AP and AR
 
 To make the needed changes to the *CHECK* payment method, which will be used in accounts payable and accounts receivable, do the following:
 

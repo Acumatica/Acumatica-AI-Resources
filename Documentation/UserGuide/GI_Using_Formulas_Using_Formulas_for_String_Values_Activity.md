@@ -1,14 +1,14 @@
-# Formulas in Inquiry Results: To Concatenate Strings {#_de99da1f-4517-45dd-85cf-b2d5f5dbd790 .task}
+# Formulas in Inquiry Results: To Concatenate Strings
 
 In this activity, you will learn how to modify an existing generic inquiry to concatenate string values.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist in your company who is working on simple customizations, including those involving the creation, modification, and use of generic inquiries. The sales team of your company has requested that on the Sales Orders \(SO3010PL\) generic inquiry form, which has the *SO-SalesOrder* inquiry title and the *Sales Orders* site map title specified on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form, you add each sales order’s description after its number in the **Order Nbr.** column, whose name \(caption\) should be changed to **Order Number and Description**. The column should contain this information in the following format: *&lt;order number&gt;: &lt;order description&gt;*.
 
-## Configuration Overview {#section_ayf_13q_3rb .section}
+## Configuration Overview
 
 You will work with a copy of the predefined Sales Orders \(SO3010PL\) generic inquiry form, which has the *SO-SalesOrder* inquiry title and the *Sales Orders* site map title specified on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form.
 
@@ -16,17 +16,17 @@ You will work with a copy of the predefined Sales Orders \(SO3010PL\) generic in
 
 The copy you will work with has the *DB1-SalesOrder* inquiry title and the *S130 Sales Orders* site map title specified on the [Generic Inquiry](SM_20_80_00.md) form.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the **Results Grid** tab of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form, you will look for the row that corresponds to the **Order Nbr.** column of the copied generic inquiry form. In this row, you will invoke the Formula Editor dialog box in the **Data Field** column and add a formula that corresponds to the requested format.
 
-## System Preparation {#section_tcc_gpr_jrb .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to a tenant with the *U100* dataset preloaded as system administrator Kimberly Gibbs. You should sign in by using the *gibbs* username and the *123* password.
 
 **Tip:** The *gibbs* user is assigned the *Administrator* role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards.
 
-## Step 1: Invoking the Formula Editor Dialog Box { .section}
+## Step 1: Invoking the Formula Editor Dialog Box
 
 To invoke the Formula Editor dialog box in order to add a formula for a row, do the following:
 
@@ -38,7 +38,7 @@ To invoke the Formula Editor dialog box in order to add a formula for a row, do 
 
 4.  Double-click the cell that contains *OrderNbr* in the **Data Field** column to see the Edit button, and then click the button to invoke the Formula Editor dialog box.
 
-## Step 2: Adding a Formula for String Values { .section}
+## Step 2: Adding a Formula for String Values
 
 While working with the *DB1-SalesOrder* generic inquiry on the **Results Grid** tab of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form, you invoked the Formula Editor dialog box for the cell with *OrderNbr* in the **Data Field** column. While you are still in the Formula Editor dialog box, do the following:
 
@@ -66,7 +66,6 @@ While working with the *DB1-SalesOrder* generic inquiry on the **Results Grid** 
 9.  On the form toolbar, click **Save**.
 10. Click the eye icon on the side panel to preview how your changes have affected the inquiry. The system applies the changes you have made, so that the resulting generic inquiry displays the order number and order description in the same column \(see the following screenshot\).
 
-    ![](Images/GI_Formulas_SOrders.png "Inquiry results with the concatenated strings")
 
 
 **Parent topic:**[Using Formulas](../UserGuide/GI_Using_Formulas_Mapref.md)

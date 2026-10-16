@@ -1,10 +1,10 @@
-# Step 5: Defining the Workflow Event Handler {#_73f9daf3-b433-4f3e-b938-25feb08e123d .task}
+# Step 5: Defining the Workflow Event Handler
 
 In this step, you will define a workflow event handler for the `ARInvoiceEntry.OnCloseDocument` workflow event. Do the following:
 
 1.  In the `RSSVWorkOrderEntry` graph, define a workflow event handler, as the following code shows.
 
-    ```language-csharp
+    ```csharp
             #region Workflow Event Handlers 
             public PXWorkflowEventHandler<RSSVWorkOrder, ARInvoice> OnCloseDocument 
                 = null!;
@@ -17,7 +17,7 @@ In this step, you will define a workflow event handler for the `ARInvoiceEntry.O
 
 2.  In the `RSSVWorkOrderEntry_Workflow` class, bind the `OnCloseDocument` workflow event handler to the `CloseDocument` workflow event in the screen configuration: After the AddDefaultFlow method, call the WithHandlers method. In the method, add the `OnCloseDocument` event handler, as the following code shows.
 
-    ```language-csharp
+    ```csharp
                     .WithHandlers(handlers =>
                     {
                         handlers.Add(handler => handler
@@ -36,14 +36,14 @@ In this step, you will define a workflow event handler for the `ARInvoiceEntry.O
 
     **Tip:** Make sure that you have added the `using` directives, which are shown in the following code.
 
-    ```language-csharp
+    ```csharp
     using PX.Objects.AR;
     using PX.Data.WorkflowAPI;
     ```
 
 3.  In the `GetCompletedBehavior` private static method, add the event handler by using the WithEventHandlers method, as the following code shows.
 
-    ```language-csharp
+    ```csharp
                 .WithEventHandlers(handlers =>
                 {
                     handlers.Add(graph => graph.OnCloseDocument);
@@ -52,7 +52,7 @@ In this step, you will define a workflow event handler for the `ARInvoiceEntry.O
 
 4.  In the lambda expression for the WithTransitions method, add the transition from the `Completed` workflow state to the `Paid` workflow state, as the following code shows.
 
-    ```language-csharp
+    ```csharp
                             transitions.AddGroupFrom<States.completed>(
                                 transitionGroup =>
                             {

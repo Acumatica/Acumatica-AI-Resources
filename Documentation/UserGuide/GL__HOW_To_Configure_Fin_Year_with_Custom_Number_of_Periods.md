@@ -1,8 +1,8 @@
-# To Configure a Financial Year with a Custom Number of Periods {#_4e545cc5-93e4-453a-ac21-a2189d5deabb .task}
+# To Configure a Financial Year with a Custom Number of Periods
 
 You use the [Financial Year](GL_10_10_00.md) \(GL101000\) form to configure a financial year with a custom number of periods.
 
-## To Configure a Financial Year with a Custom Number of Periods {#section_v4f_mjv_vxb .section}
+## To Configure a Financial Year with a Custom Number of Periods
 
 1.  Open the [Financial Year](../Shared/../UserGuide/GL_10_10_00.md) \(GL101000\) form.
 2.  In the **Financial Year Starts On** box, specify the start date of the first financial year in which your company wants to keep records in Acumatica ERP.
@@ -14,7 +14,7 @@ You use the [Financial Year](GL_10_10_00.md) \(GL101000\) form to configure a fi
 8.  In the table, adjust the lengths of the periods by changing their **Start Date** and **End Date**, and provide descriptions for periods in the **Description** column.
 9.  On the form toolbar, click **Save**.
 
-## Notes About the Instruction {#section_w4f_mjv_vxb .section}
+## Notes About the Instruction
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

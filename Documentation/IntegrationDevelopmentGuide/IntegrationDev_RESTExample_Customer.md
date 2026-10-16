@@ -1,4 +1,4 @@
-# Customer {#_e3e19ea8-4b3e-40e6-954b-1d51e1426062 .concept}
+# Customer
 
 This chapter presents code examples showing requests that use the `Customer` entity.
 

@@ -1,16 +1,16 @@
-# Workflow Actions: To Implement a Simple Action {#_dedb3260-e4e9-4e99-9db0-f1fcf3eab7e9 .task}
+# Workflow Actions: To Implement a Simple Action
 
 The following activity will walk you through the process of implementing a workflow action that can later be used to trigger a transition.
 
-## Story { .section}
+## Story
 
 On the Repair Work Orders \(RS301000\) form, you need to create a workflow action that can later be used to trigger a transition. The command that corresponds to this action should be displayed in the **Processing** category of the More menu.
 
-## Process Overview { .section}
+## Process Overview
 
 In your extension library, you will implement the `ReleaseFromHold` graph action with an empty method and add this action to the screen configuration of the Repair Work Orders \(RS301000\) form. You will also add the predefined **Processing** category to the workflow and specify this category for the `ReleaseFromHold` action.
 
-## System Preparation { .section}
+## System Preparation
 
 Make sure that you have done the following:
 

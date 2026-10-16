@@ -1,4 +1,4 @@
-# Implementing a Connector for an External System {#_60423f7c-eb8b-4dd1-98c4-42d7c5226fc2 .concept}
+# Implementing a Connector for an External System
 
 Acumatica ERP provides built-in integrations with the BigCommerce, Shopify, and Amazon ecommerce systems. For details about these integrations, see [Integration with BigCommerce](../UserGuide/Commerce_BC_Integration_with_BC.md) and [Integration with Shopify](../UserGuide/Commerce_SP_Integration_with_SP.md). Each integration uses the Acumatica Commerce Framework to implement the connector between Acumatica ERP and the external system.
 

@@ -1,8 +1,8 @@
-# Expense Returns to Corporate Cards: Generated Transactions {#_cc074d58-de45-422f-9552-1ee1e4b10408 .concept}
+# Expense Returns to Corporate Cards: Generated Transactions
 
 To process a return to a corporate card, you create a negative expense receipt and then process an expense claim for it. The release of a negative expense claim does not generate general ledger transactions or project transactions directly. When you release the negative expense claim, the system creates the corresponding accounts payable document: a cash return. On release of the cash return, the system generates the general ledger transactions. For the project-related lines of the cash return, the system also generates project transactions.
 
-## GL Transactions Generated on Release of a Cash Return { .section}
+## GL Transactions Generated on Release of a Cash Return
 
 When a cash return related to an expense claim is released, the system generates a batch of the general ledger transactions shown in the table below.
 
@@ -20,7 +20,7 @@ If a cash return line is related to a project, on release of the cash return, th
 |The expense account|The inventory item|The project, project task, and cost code in the cash return line|0.00|Return amount|
 |The liability account|The cash account of the corporate card|*X* \(non-project code\)|Return amount|0.00|
 
-## Project Transactions Generated on Release of the GL Batch { .section}
+## Project Transactions Generated on Release of the GL Batch
 
 As described above, when you release the cash return that was created on release of a negative expense claim, the system generates a batch of GL transactions. If the cash return has any line associated with a project, the system also generates a batch of the project transactions shown in the following table.
 

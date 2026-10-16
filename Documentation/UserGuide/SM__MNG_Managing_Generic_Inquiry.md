@@ -1,4 +1,4 @@
-# Managing Generic Inquiries {#_5737bca9-aebb-446d-9e1a-bc5fcfad6797 .concept}
+# Managing Generic Inquiries
 
 A generic inquiry is an Acumatica ERP tool that has an easy-to-use web-based interface and gives you the ability to pull data from the Acumatica ERP database and display it on a customizable form. Generic inquiries can serve as a base for dashboard widgets and pivot tables, and as an entry point for data entry forms.
 
@@ -6,7 +6,7 @@ In Acumatica ERP, you can create and manage generic inquiry forms by using the [
 
 In this part of the guide, you will learn how to create and configure generic inquires in Acumatica ERP.
 
-## Access Rights for Modifying Generic Inquiries { .section}
+## Access Rights for Modifying Generic Inquiries
 
 To be able to manage generic inquiries, you need a role that provides sufficient access rights \(the *Delete* level\) to the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form. By default, the built-in *Administrator* role provides the access rights for working with generic inquiries. If you have sufficient access rights, the **Customization** menu is displayed on the form title bar.
 

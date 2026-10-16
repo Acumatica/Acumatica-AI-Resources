@@ -1,16 +1,16 @@
-# Registration of an OAuth 2.0 or OIDC ApplicationActivity 1.1.1: To Register the Application in Acumatica ERP {#_3ab47faf-6e35-415d-88ba-f8b5a8f8c67e .task}
+# Registration of an OAuth 2.0 or OIDC ApplicationActivity 1.1.1: To Register the Application in Acumatica ERP
 
 This activity will walk you through the process of registering of a connected application on the [Connected Applications](../UserGuide/SM_30_30_10.md) \(SM303010\) form.
 
-## Story { .section}
+## Story
 
 Suppose that you want to provide secure access of the MyStoreIntegration application to Acumatica ERP through the REST API. You want the MyStoreIntegration application to use the Resource Owner Password Credentials flow. With this flow, the credentials \(username and password\) of an Acumatica ERP user are provided directly to the client application, which uses the credentials to obtain the access token. Before the application can work with an Acumatica ERP instance, you need to register the application in this instance.
 
-## Process Overview { .section}
+## Process Overview
 
 To register the MyStoreIntegration application in Acumatica ERP as a connected application that uses the OAuth 2.0 authorization, you will use the [Connected Applications](../UserGuide/SM_30_30_10.md) \(SM303010\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -21,7 +21,7 @@ When you are registering the client application, you have to be signed in to the
 
 **Attention:** According to the OAuth 2.0 specification, a secure connection between an OAuth 2.0 client application and the Acumatica ERP website with a Secure Socket Layer \(SSL\) certificate is required.
 
-## Step: Registering a Connected Application { .section}
+## Step: Registering a Connected Application
 
 Proceed as follows:
 

@@ -1,10 +1,10 @@
-# Vendor Visibility: General Information {#_d9fd61fa-756c-4e3d-9ae0-4ba9ba51dbd2 .concept}
+# Vendor Visibility: General Information
 
 When multiple companies with their own accounting departments are configured within the same tenant, you may want to restrict the visibility of vendor accounts to employees of a particular company, branch, or company group.
 
 If the *Multiple Base Currencies* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, the **Restrict Visibility To** setting on the **Financial** tab of the [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\) form becomes required for regular vendors. You should associate each vendor with an appropriate entity by selecting the entity in the **Restrict Visibility To** box. The base currency of the entity with which the vendor is associated will be the currency in which the system stores the vendor's balance. As a result, vendors can be used only in the transactions originating from the branches that have the same base currency as the base currency of the entity that is associated with the vendor.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,14 +12,14 @@ In this chapter, you will learn how to do the following:
 -   Explore how vendors can be accessed by various users based on these restrictions
 -   Update the **Restrict Visibility To** setting of vendors by using an import scenario
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to restrict the visibility of vendor records in the following cases:
 
 -   You have vendors that work with a particular branch, company, or a company group, and you do not want employees of other companies to have access to them.
 -   You are using the *Multiple Base Currencies* feature, and you need to limit the usage of vendors to an entity \(a company, branch, or a company group\).
 
-## Restricted Visibility of Vendor Records { .section}
+## Restricted Visibility of Vendor Records
 
 You use the **Restrict Visibility To** box on the **Financial** tab of the [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\) form to control the visibility of the selected vendor. A vendor in Acumatica ERP can be associated with one of the following:
 
@@ -37,11 +37,10 @@ These capabilities are available if the *Customer and Vendor Visibility Restrict
 
 **Tip:** If any restriction groups have been configured in the system, they will be applied in addition to the vendor visibility restriction functionality. For details on restriction groups, see [Vendor Security](../UserGuide/RS__con_Vendor_Security.md).
 
-## Configuration Example { .section}
+## Configuration Example
 
 The following diagram illustrates an example of restricted access to vendor records.
 
-![](Images/diag_Vendor_Visibility_Restriction.png)
 
 The diagram shows that the user in the *Company X* and *Company Y* access roles can work with *Vendor B* \(which is associated with *Company X*\) and *Vendor C* \(which is associated with *Company Y*\). Additionally, the user can work with *Vendor A*; access to this vendor is not limited to any company or branch because the **Restrict Visibility To** box on the [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\) form is empty. However, the user cannot view the *Vendor D* record, because this vendor is associated with *Company Z*, to which the user does not have access based on the user's assigned roles.
 

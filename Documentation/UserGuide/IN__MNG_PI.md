@@ -1,13 +1,17 @@
-# Counting Physical Inventory {#_d47bccf3-8c83-4140-beb4-97a981431d52 .concept}
+# Counting Physical Inventory
 
 Physical inventory is an important process in organizations that store stock items. This chapter provides you with detailed information about performing physical inventory counts in Acumatica ERP.
 
-## In This Chapter { .section}
+## In This Chapter
 
-|-   [Physical Inventory Counts](IN__con_Physical_Inventory_Counts.md)
+<table id="_d79385b9-1fe3-4b65-917b-624ee1601212"><tbody><tr><td>
+
+-   [Physical Inventory Counts](IN__con_Physical_Inventory_Counts.md)
 -   [Preparation for Physical Count](IN__con_Preparation_for_Physical_Count.md)
 
-|-   [To Prepare a Physical Inventory Count](IN__How_Prepare_PI_Count.md)
+</td><td>
+
+-   [To Prepare a Physical Inventory Count](IN__How_Prepare_PI_Count.md)
 -   [To Export a Count Sheet to an Excel Spreadsheet](IN__how_Export_Count_Sheet_to_Excel.md)
 -   [To Print Count Sheets](IN__how_Print_Count_Sheets.md)
 -   [To Print Tags](IN__how_Print_Tags.md)
@@ -16,7 +20,8 @@ Physical inventory is an important process in organizations that store stock ite
 -   [To Import the Count Data From an Excel Spreadsheet](IN__How_Import_Count_Data.md)
 -   [To Complete the Physical Inventory Count](IN__How_Complete_PI_Count.md)
 
-|
+</td></tr></tbody>
+</table>
 
 -   **[Physical Inventory Counts](../UserGuide/IN__con_Physical_Inventory_Counts.md)**  
 

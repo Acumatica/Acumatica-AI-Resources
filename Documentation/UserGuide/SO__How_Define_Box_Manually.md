@@ -1,8 +1,8 @@
-# To Manually Select the Package Box for an Order {#_21dee432-3e45-4a85-ba71-d6d2a7edbf2c .task}
+# To Manually Select the Package Box for an Order
 
 If you need to select the box for a sales order manually, you can do this from the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, as described in the instructions below.
 
-## To Manually Select the Package Box for an Existing Order { .section}
+## To Manually Select the Package Box for an Existing Order
 
 1.  Open the [Sales Orders](../Shared/../UserGuide/SO_30_10_00.md) \(SO301000\) form.
 2.  In the **Order Type** box, select the order type of the order for which you need to specify boxes.

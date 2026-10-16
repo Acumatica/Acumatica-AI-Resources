@@ -1,4 +1,4 @@
-# Graph {#_35479a4b-6dd4-43e9-be70-86261be50833 .concept}
+# Graph
 
 A business logic controller \(BLC, also referred as *graph*\) is used to provide the business logic for an Acumatica ERP form. A graph instance is created when a data request occurs and discarded after the request is processed.
 
@@ -15,7 +15,6 @@ PXView objects, like graphs, are initialized and destructed on each round trip.
 
 If a BQL statement of a data view refers to multiple data access classes \(DACs\), the data view creates the PXCache object for each DAC to keep appropriate data records, as shown in the following diagram.
 
-![](images/CG_GL_BL_Cases_DataView.png "Example of two data views working with the records of three DACs")
 
 If multiple data views contain a reference to the same DAC, for this DAC, the graph cache contains a single PXCache object that is used by the data views.
 

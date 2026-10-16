@@ -1,4 +1,4 @@
-# Step 4: Testing the New Action {#_5663fb48-07ec-4401-acbf-dc72cffaab54 .task}
+# Step 4: Testing the New Action
 
 In this step, you will test the **View Repair Work Order** command. Do the following:
 

@@ -1,4 +1,4 @@
-# Overview of Reporting {#_0f484be7-8b40-4276-9d9a-5dcbc8d6e047 .concept}
+# Overview of Reporting
 
 Acumatica ERP provides reporting tools to deliver customized business intelligence to everybody in your organization. By using Acumatica ERP reporting tools, you can develop new reports or modify existing ones, which can be delivered online, converted to PDF, or delivered by email. Reporting tools can be made available to users of the instance, and their access can be limited if necessary. You can distribute generic inquiries, reports, advanced filters, access rights to these objects, and analytical reports as a part of a customization project. For more information, see [Customization Project](../CustomizationPlatform/CG_Platform_Project.md).
 
@@ -6,7 +6,7 @@ Acumatica ERP offers a collection of reporting and analytic resources to make yo
 
 The reporting toolkit includes generic inquiries, pivot tables, advanced filters, dashboards, Power BI pages, analytical reports, and the Acumatica Report Designer.
 
-## Generic Inquiries { .section}
+## Generic Inquiries
 
 You can create generic inquiries to get the information you want to view from the Acumatica ERP database.
 
@@ -14,31 +14,31 @@ You can create generic inquiries to get the information you want to view from th
 
 You can view on the fly how each inquiry looks, and you can test its functionality by selecting parameters and viewing the results. Additionally, you can use generic inquiries to expose data from Acumatica ERP to OData clients, such as Microsoft Power BI and Microsoft Excel. For more information, see [Managing Generic Inquiries](SM__MNG_Managing_Generic_Inquiry.md).
 
-## Advanced Filters { .section}
+## Advanced Filters
 
 You can create advanced filters for processing, inquiry and generic inquiry forms. Once you create an advanced filter for a particular form, it is shown as a tab on the form, both in the current user session and during future user sessions. For more information, see [Managing Advanced Filters](GI_Reusable_Filters_Mapref.md).
 
-## Pivot Tables { .section}
+## Pivot Tables
 
-In Acumatica ERP, you can build pivot tables based on the data from generic inquiries. A pivot table is a data tool that you can use to summarize, sort, reorganize, group, count total or average data in a generic inquiry to view it from different perspectives. You can set up and change the pivot table structure by dragging fields to the panes. For more information, see [Managing Pivot Tables](Pivot_Tables_Mapref.md).
+In Acumatica ERP, you can build pivot tables based on the data from generic inquiries. A pivot table is a data tool that you can use to summarize, sort, reorganize, group, count total or average data in a generic inquiry to view it from different perspectives. You can set up and change the pivot table structure by dragging fields to the panes. For more information, see [Managing Inquiry Result Data Views](Pivot_Tables_Mapref.md).
 
-## Dashboards { .section}
+## Dashboards
 
 Dashboards are an important and convenient tool for monitoring and analyzing critical business information. Dashboards display widgets, such as charts, data tables, embedded pages, Power BI tiles, key performance indicators \(KPIs\), trend card KPIs, and wiki pages.
 
 You can customize dashboards so that users can view important information and quickly access further details. On the [Classic Dashboards](SM_20_86_00.md) \(SM208600\) form, you can add dashboards, specify their locations in the site map, and set up access rights. For more information, see [Administering Dashboards](RPT_Administering_Dashboards_Mapref.md).
 
-## Power BI Pages { .section}
+## Power BI Pages
 
 In Acumatica ERP, you can build external applications into the product. For example, you can build Microsoft Power BI reports into Acumatica ERP to be displayed as Acumatica ERP forms. For more information, see [Managing Power BI Integration](RP__Integration_Power_BI.md)
 
-## Analytical Reports { .section}
+## Analytical Reports
 
 Analytical reports in Acumatica ERP can be created with the Analytical Report Manager \(ARM\) toolkit. Reports that are constructed with this toolkit are called ARM reports to distinguish them from the reports created in the Acumatica Report Designer.
 
 The Analytical Report Manager toolkit gives you the ability to create financial reports that retrieve the amounts posted to particular General Ledger accounts and subaccounts. You can use the ARM toolkit rather than the Acumatica Report Designer to create financial reports that display data that is posted to general ledger accounts. The ARM toolkit can also be used to create project accounting reports that display project accounting data. For more information, see [Managing Analytical Reports](GL__GL_ARM_Reports.md).
 
-## Report Designer { .section}
+## Report Designer
 
-Acumatica Report Designer provides visual tools that you can use to design custom reports. With the Acumatica Report Designer, you can select data for a report, calculate required values based on the selected data, and customize a report layout. For more information, see [Acumatica Report Designer Guide](ReportDesigner_Main.md).
+Acumatica Report Designer provides visual tools that you can use to design custom reports. With the Acumatica Report Designer, you can select data for a report, calculate required values based on the selected data, and customize a report layout. For more information, see [Acumatica Report Designer](ReportDesigner_Main.md).
 

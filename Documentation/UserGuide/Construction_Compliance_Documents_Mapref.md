@@ -1,4 +1,4 @@
-# Tracking Compliance Documents {#_51f1ae82-0363-4e48-a0ed-9b1ab9ad6aca .concept}
+# Tracking Compliance Documents
 
 In this chapter, you will learn about the processing of compliance documents in the system.
 

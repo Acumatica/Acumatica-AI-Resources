@@ -1,16 +1,16 @@
-# AR Invoices with Retainage: To Perform Progress Billing with Retainage {#_dc848122-bf62-4964-8095-6521743bcb53 .task}
+# AR Invoices with Retainage: To Perform Progress Billing with Retainage
 
 This activity will walk you through the process of performing progress billing with retainage.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the ToadGreen Building Group company is building a hotel for the Equity Group Investors. A ToadGreen project manager bills the customer for the progress of the work being performed. According to the contract signed with the customer, the customer retains 5% of the amount of each progress billing line in an invoice. After a defined part of the work is done, the ToadGreen project accountant prepares an AR invoice for the customer to request the release of 20% of the retained amount.
 
 Acting as the project manager, you need to prepare a pro forma invoice for the project. Then acting as the project accountant, you need to enter and process all the needed financial documents in the system.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -21,20 +21,20 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customers](AR_30_30_00.md#) \(AR303000\) form, the *EQUGRP* customer has been created; the **Pay by Line** and **Apply Retainage** check boxes are selected on the **Financial** tab for this customer. On the **GL Accounts** tab, *18000* is specified in the **Retainage Receivable Account** box.
 -   On the [Projects](PM_30_10_00.md#) \(PM301000\) form, the *HOTEL* project has been created with multiple project tasks and their budgets. The *PROGRRET* billing rule is assigned to all project tasks. On the **Summary** tab of the form, the *Standard* option is selected in the **Retainage Mode** box and *5.00* is specified in the **Retainage \(%\)** box of the **Retainage** section.
 
-## Process Overview { .section}
+## Process Overview
 
 You will specify the pending invoice amounts on the [Projects](PM_30_10_00.md) \(PM301000\) form and run the project billing. On the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form, you will release the generated pro forma invoice. Also, you will release the related AR invoice on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 
 You will then prepare the retainage invoice by using the [Release AR Retainage](AR_51_00_00.md) \(AR510000\) form, and release it on the [Invoices and Memos](AR_30_10_00.md) form. On the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, you will create a payment that includes lines of both the original invoice and the retainage invoice and release the payment and the payment application.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as a construction project manager by using the *ewatson* username and the *123* password.
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *4/1/2026*. If a different date is displayed, click the Business Date menu button, and select *4/1/2026* on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating and Releasing the AR Invoice with Retainage { .section}
+## Step 1: Creating and Releasing the AR Invoice with Retainage
 
 To perform progress billing with retainage, do the following:
 
@@ -57,7 +57,7 @@ To perform progress billing with retainage, do the following:
 
 You have billed the project by progress and prepared the pro forma invoice and the AR invoice.
 
-## Step 2: Releasing Retainage of the AR Invoice { .section}
+## Step 2: Releasing Retainage of the AR Invoice
 
 To release the retainage, do the following:
 
@@ -77,7 +77,7 @@ To release the retainage, do the following:
     The system opens the [Journal Transactions](GL_30_10_00.md#) \(GL301000\) form with the GL transaction created for the retainage invoice. The non-project code is specified in all the transaction lines. Notice that the retainage amount has credited the *18000 – AR Retainage* account and debited the *11000 – Accounts Receivable* account. \(The system has generated two separate credit entries for each of the processed retainage amounts.\)
 
 
-## Step 3: Entering a Payment for the Invoices { .section}
+## Step 3: Entering a Payment for the Invoices
 
 Process the payment for the prepared invoices as follows:
 
@@ -101,7 +101,6 @@ Process the payment for the prepared invoices as follows:
 6.  On the form toolbar, click **Remove Hold**, and then click **Release** to release the payment along with the payment applications to the invoice lines.
 7.  On the **Application History** tab, click the **Reference Nbr.** link in any of the original invoice lines to open the original invoice on the [Invoices and Memos](AR_30_10_00.md#) form. The open AR balance of the invoice \(in the **Balance** box\) is now *0*, as shown below, but the invoice retains the *Open* status because the invoice lines still have unreleased retainage amounts.
 
-    ![](Images/activity_Construction_ARInvoice_with_Retainage.png "The original invoice with the unreleased retainage amount")
 
 
 You have prepared the invoice with retainage for the project, released a part of the retainage, and paid for the original and retainage documents.

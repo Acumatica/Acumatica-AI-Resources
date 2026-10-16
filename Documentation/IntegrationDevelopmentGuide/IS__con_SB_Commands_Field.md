@@ -1,4 +1,4 @@
-# Commands for Retrieving the Values of Elements {#_56d2c742-7db3-4dac-bacd-20090d7cb824 .concept}
+# Commands for Retrieving the Values of Elements
 
 You configure the sequence of commands that should be executed during data import, data export, or data processing through the web service by using an array of objects of the Command type.
 
@@ -9,7 +9,7 @@ As you specify this sequence of commands, when you need to reflect obtaining the
 
 Both of these ways are described in detail in the following sections of this topic.
 
-## Selection of the Fields Available in a Content Object { .section}
+## Selection of the Fields Available in a Content Object
 
 If you want to obtain the value of an element on an Acumatica ERP form, you can select the needed Field object from the subobjects of the Field type of the Content object that corresponds to the form. For example, if you want to export the values of the **Inventory ID** and **Description** elements on the [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\) form, you can use the following code.
 
@@ -24,7 +24,7 @@ var commands = new Command[]
 };
 ```
 
-## Field Object Creation { .section}
+## Field Object Creation
 
 You can retrieve the values of not only the fields that are available on the Acumatica ERP form, but also the data fields of the data access classes \(DACs\) underlying the form. Some of these data fields are not available directly through the elements of the form. That is, you cannot select the needed Field object among the subobjects of the Content object.
 

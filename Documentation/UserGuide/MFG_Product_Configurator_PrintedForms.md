@@ -1,8 +1,8 @@
-# Product Configurator: Adding Configuration Data to Forms {#_86def8d0-857d-4975-9eee-f2e49e44f8cc .concept}
+# Product Configurator: Adding Configuration Data to Forms
 
 This topic is intended to provide some methods to print the configuration results data on customer and prospect facing forms such as Sales Order, CRM Quote, Invoice, etc. The configuration results data is created and assigned a unique id when the configuration is saved on the related document. The relationships of the tables are described in [Using Manufacturing Data in Inquiries and Reports](MFG_Tables.md).
 
-## Sales Documents { .section}
+## Sales Documents
 
 To print the configuration data on sales documents a subreport can be used. The main report needs to pass the order type, order number, and line number to the subreport. In most cases, the options selected during configuration would be printed. If desired the attribute values could also be printed.
 
@@ -14,7 +14,7 @@ The following reports are provided:
 -   SO6411AM - Subreport for estimates
 -   SO6410PC - Subreport to print product configurator options that can be used for quotes, sales orders, and invoices.
 
-## Subreport to Print Options for Sales Documents { .section}
+## Subreport to Print Options for Sales Documents
 
 From the main report, you create the collection of columns to pass to the subreport:
 

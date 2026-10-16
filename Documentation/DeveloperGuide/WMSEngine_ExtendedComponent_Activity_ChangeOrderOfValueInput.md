@@ -1,32 +1,43 @@
-# Extension of Scan Components: To Change the Order of Value Input {#_186f7370-d71e-40bf-99c4-6cf90cdcc60a .task}
+# Extension of Scan Components: To Change the Order of Value Input
 
 This activity will walk you through changing the order of value input.
 
-## Story { .section}
+## Story
 
 Suppose that you need to alter the default order of value input of the Pick mode of the [Pick, Pack, and Ship](../UserGuide/SO_30_20_20.md) \(SO302020\) form from the one listed in the first column of the following table to the one listed in the second column.
 
-|Initial Order|Target Order|
-|-------------|------------|
-|-   The reference number of the shipment
+<table id="_d86ec60f-f0f0-43e0-a9d9-76becbc2e1e9"><thead><tr><th>
+
+Initial Order
+
+</th><th>
+
+Target Order
+
+</th></tr></thead><tbody><tr><td>
+
+-   The reference number of the shipment
 -   The location from which the item is picked
 -   The item being picked
 -   The lot or serial number of the item
 -   The expiration date of the item
 
-|-   The reference number of the shipment
+</td><td>
+
+-   The reference number of the shipment
 -   The item being picked
 -   The lot or serial number of the item
 -   The expiration date of the item
 -   The location from which the item is picked
 
-|
+</td></tr></tbody>
+</table>
 
-## Process Overview { .section}
+## Process Overview
 
 You will change the transition map for the Pick scan mode. To do this, you will create a scan extension for the PX.Objects.SO.WMS.PickPackShip class, override its DecorateScanMode method by using the PXOverride attribute, and intercept the CreateTransitions method in this method.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the step of this activity, do the following:
 
@@ -36,7 +47,7 @@ Before you begin performing the step of this activity, do the following:
     -   *Warehouse Management*
     -   *Fulfillment*
 
-## Step: Changing the Order of Value Input { .section}
+## Step: Changing the Order of Value Input
 
 To change the order of value input, do the following:
 

@@ -1,4 +1,4 @@
-# Applying Debit Adjustments in Foreign Currencies to Bills {#_2b29cd3e-4a0c-4a84-9cb3-c7dda193beac .concept}
+# Applying Debit Adjustments in Foreign Currencies to Bills
 
 The topics of this chapter describe how to apply a debit adjustment to a bill in a foreign currency.
 

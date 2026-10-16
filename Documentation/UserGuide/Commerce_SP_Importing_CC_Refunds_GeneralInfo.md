@@ -1,23 +1,25 @@
-# Importing Card Refunds: General Information {#_7eb99085-ced1-40eb-a5d6-76219f24438e .concept}
+# Importing Card Refunds: General Information
 
 You can import to Acumatica ERP refunds issued for orders paid with card-based payment methods to customers in your Shopify store.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Configure the import of refunds for card-based payment methods from a Shopify store to Acumatica ERP
 -   Import refunds for card-based payment methods from a Shopify store to Acumatica ERP
+-   Import exchange orders from a Shopify store to Acumatica ERP
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You import refunds of payments based on a card-based payment method from Shopify to Acumatica ERP to keep track of refunded payments and restocked items. You may issue refunds in the Shopify store in the following cases:
 
 -   A customer has been overcharged in error and part of the order amount needs to be refunded.
 -   A customer has not received the purchased item or has received an excessive quantity of the item.
 -   A customer has received the purchased item but is not satisfied with its quality or performance and wants to return it.
+-   A customer wants to exchange a purchased item for the same item or a different item or items.
 
-## Configuration of Refund Import { .section}
+## Configuration of Refund Import
 
 To configure the import of refunds from a Shopify store to Acumatica ERP, you perform the following general steps:
 
@@ -45,7 +47,7 @@ To configure the import of refunds from a Shopify store to Acumatica ERP, you pe
 
 5.  Specify the refund import settings.
 
-    On the **Orders** tab, you specify settings in the following boxes:
+    On the **Orders** tab, you specify the identifiers of the entities you have created \(in Steps 1 through 3\) in the following boxes
 
     -   **Return Order Type**
     -   **Refund Amount Item**
@@ -55,7 +57,7 @@ To configure the import of refunds from a Shopify store to Acumatica ERP, you pe
     On the **Payments** tab of the [Shopify Stores](BC_20_10_10.md) form, you select the **Process Refunds** check box for each payment method for which you want to import refunds. For store payment methods that are mapped to card-based payment methods in Acumatica ERP, this check box is selected by default and cannot be edited.
 
 
-## Import of Refunds for Card-Based Payment Methods { .section}
+## Import of Refunds for Card-Based Payment Methods
 
 Refunds are imported from the Shopify store to Acumatica ERP as part of the synchronization of the *Refund* entity, which can be synchronized only in the *Import* direction. During the preparation of refund data for synchronization, the system creates one synchronization record for all refunds that have been issued for a single sales order in the Shopify store.
 

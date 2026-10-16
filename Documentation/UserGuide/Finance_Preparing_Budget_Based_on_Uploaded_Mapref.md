@@ -1,4 +1,4 @@
-# Preparing a Budget Based on an Existing Budget {#_f029660a-2f9e-4ed9-99a0-c995a2cd706a .concept}
+# Preparing a Budget Based on an Existing Budget
 
 In this chapter, you will learn how to prepare a budget based on a budget that has been uploaded to the system.
 

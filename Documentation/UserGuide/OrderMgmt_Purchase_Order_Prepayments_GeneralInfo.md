@@ -1,8 +1,8 @@
-# Prepayments for Purchase Orders: General Information {#_4360e662-e10b-4107-98fc-ca1c8cc62ab5 .concept}
+# Prepayments for Purchase Orders: General Information
 
 Different vendors have different conditions for supplying goods and services. A vendor may request that your company pay a part of the order amount in advance before those goods or services are provided. To support this process in Acumatica ERP, you can process a prepayment for the purchase order; this prepayment is later automatically applied to the AP bill prepared for the vendor of goods or services.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -13,14 +13,14 @@ In this chapter, you will do the following:
 -   Process a single prepayment for a purchase order
 -   Process multiple prepayments for a purchase order
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to create and process a prepayment in the following cases:
 
 -   You are processing a new purchase order for the vendor that requires a partial payment in advance before the ordered items will be sent.
 -   You have corrected the details of an existing purchase order that was already prepaid, so that an extra prepayment amount needs to be processed.
 
-## Prepayments for Purchase Orders { .section}
+## Prepayments for Purchase Orders
 
 To process a prepayment in the system, you have to first create and release the prepayment request, which denotes the vendor's request for prepayment in the system. A prepayment request is not a financial document; it is an internal document that can be approved \(if required in your system\) before the prepayment is actually paid to the vendor.
 
@@ -38,11 +38,10 @@ Once the purchased items have been received to inventory, you create a purchase 
 
 On release of the prepayment application to the bill, a batch of general ledger transactions is posted. The open balance of the bill is decreased by the balance of the applied prepayment.
 
-## Workflow of Purchase with Prepayment { .section}
+## Workflow of Purchase with Prepayment
 
 The following diagram illustrates the workflow of processing a purchase with prepayment.
 
-![](Images/diag_OrderMgmt_Purchase_w_Prepayment.png)
 
 **Parent topic:**[Processing Prepayments for Purchase Orders](../UserGuide/OrderMgmt_Purchase_Order_Prepayments_Mapref.md)
 

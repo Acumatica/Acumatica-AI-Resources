@@ -1,8 +1,8 @@
-# Shipment Creation Rules {#_ecfe97b0-34c9-4118-b10d-11f8731049a2 .concept}
+# Shipment Creation Rules
 
 This topic briefly explains how the system creates shipments for sales orders depending on the shipping rules specified in these orders, and how you can consolidate shipments for multiple sales orders.
 
-## Shipment Creation by Shipping Rules { .section}
+## Shipment Creation by Shipping Rules
 
 Each shipment is generated from one particular warehouse. The system creates an individual shipment from each warehouse that is specified in sales order lines, as if these were multiple orders being shipped from different warehouses. If you are creating shipments by processing orders on the [Process Orders](SO_50_10_00.md) \(SO501000\) form, the system creates the shipments one by one from each warehouse that is referred to in each processed order. The document-level shipping rule of the sales order, which is specified on the **Shipping Settings** tab of the [Sales Orders](SO_30_10_00.md)form \(SO301000\), is applied to each warehouse as follows:
 
@@ -18,7 +18,7 @@ When a shipment is created for a sales order, the system adds the lines with a n
 
 For more detailed information on shipping rules, see [Shipping Rule Combinations](SO__con_Shipping_Rules.md).
 
-## Consolidated Shipments { .section}
+## Consolidated Shipments
 
 You can consolidate shipments, creating one shipment \(and corresponding shipment document\) for multiple sales orders of the same customer, unless the **Ship Separately** check box on the [Order Types](SO_20_10_00.md) \(SO201000\) form is selected for the order type being used. As long as the check box is cleared, you can use the [Process Orders](SO_50_10_00.md) \(SO501000\) form to create one shipment for multiple sales orders associated with the same customer. Sales orders with the predefined order type *SO* don't require goods to be shipped separately for separate sales orders.
 

@@ -1,4 +1,4 @@
-# Tracking Cash Payments {#_dd496eb8-49a4-4e65-82b4-b66e21762205 .concept}
+# Tracking Cash Payments
 
 In Acumatica ERP, you can easily manage and track cash payments to ease the reconciliation of cash accounts.
 
@@ -10,8 +10,10 @@ This chapter will help you to understand how to configure and further process un
 
 -   **[Reclassification of Unknown Payments](../UserGuide/CA__con_Reclassification_of_Payments.md)**  
 
+-   **[Reclassification Results](../UserGuide/CA__CON_ReclassifiedJournalTrans.md)**  
+
 -   **[Registration of Finance Charges](../UserGuide/CA__CON_FinCharges.md)**  
 
--   **[Preparation of Deposits](../UserGuide/CA__CON_Preparation_of_Deposits.md)**  
+-   **[Preparation of Bank Deposits](../UserGuide/CA__CON_Preparation_of_Deposits.md)**  
 
 

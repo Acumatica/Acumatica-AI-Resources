@@ -1,10 +1,10 @@
-# Setup of Online Integration with Avalara AvaTax {#_8a0eea54-8340-458b-973d-28a29f09b24a .concept}
+# Setup of Online Integration with Avalara AvaTax
 
 If your company sells multiple types of products across various tax jurisdictions, it can be time-consuming and complex to configure tax calculation and reporting in Acumatica ERP, along with keeping tax rates up to date. In these cases, you may want to consider integrating with Avalara's AvaTax service to streamline sales and use tax processing online. Because Acumatica ERP includes built-in support for online integration with AvaTax, setting up this integration is quick and straightforward.
 
 The integration involves tasks that should be performed on both sides: in Acumatica ERP and in Avalara AvaTax.
 
-## Account Configuration on the Avalara Website { .section}
+## Account Configuration on the Avalara Website
 
 You can configure the integration with the AvaTax service as soon as you have the following:
 
@@ -18,7 +18,7 @@ In your AvaTax account, you should configure a company structure that correspond
 
 For more information, see [To Configure Your Avalara AvaTax Account](TX__how_Setting_Up_Avalara_Integration.md).
 
-## AvaTax Integration Setup in Acumatica ERP { .section}
+## AvaTax Integration Setup in Acumatica ERP
 
 **Attention:** Make sure that the *External Tax Calculation Integration* feature is enabled in your system on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
@@ -45,5 +45,5 @@ For instructions on configuring the AvaTax integration, see [To Set Up Integrati
 
 **Tip:** We recommend either using the AvaTax integration for tax calculation or setting up the tax calculation process within Acumatica ERP. This ensures that you don’t mix two different tax calculation methods in one system.
 
-**Parent topic:**[Integrating Acumatica ERP with Avalara Avatax](../UserGuide/config_Avalara_Integration_Mapref.md)
+**Parent topic:**[Integrating Acumatica ERP with Avalara AvaTax](../UserGuide/config_Avalara_Integration_Mapref.md)
 

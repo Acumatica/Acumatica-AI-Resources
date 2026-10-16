@@ -1,16 +1,16 @@
-# Staff Time in Appointments: To Record Staff Time Spent in an Appointment {#_2179deb2-fc0b-4469-b353-2203dbad3900 .task}
+# Staff Time in Appointments: To Record Staff Time Spent in an Appointment
 
 The following activity will walk you through the process of recording in Acumatica ERP the time that a staff member spends at an appointment. That is, you will learn about how to record time if the staff member works during the whole appointment.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the management of the SweetLife Service and Equipment Sales Center has decided to track the time activities of its employees. Further suppose that for the GoodFood One Restaurant customer, staff members of the SweetLife Service and Equipment Sales Center attend regular appointments to deliver training services. Only one staff member attends each appointment, and this staff member works during the whole appointment. Thus, the time activity should be created for the whole duration of the appointment.
 
 Acting as a staff member \(Chase Frank\), you will start and complete an appointment, and then review the time activity that has been created for the appointment.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -33,11 +33,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
         -   **Status to Set for In Process Items**: *Completed*
 -   On the [Appointments](FS_30_02_00.md#) \(FS300200\) form, the *000043-1* appointment has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 To enter the staff time of an appointment, on the [Appointments](FS_30_02_00.md#) \(FS300200\) form, you will start and complete an appointment that was created based on a service order type designed to create time activities. Then you will review the time activity created in the system on the [Employee Time Activities](EP_30_70_00.md#) \(EP307000\) form for the staff member assigned to this appointment.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -45,7 +45,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  In the company to which you are signed in, enable the *Service Management* feature on the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form.
 3.  In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date *1/29/2026*. For simplicity, you will use this business date to create and process all documents in this activity.
 
-## Step 1: Attending an Appointment { .section}
+## Step 1: Attending an Appointment
 
 To attend an appointment and process it through completion \(while acting as Chase Frank\), do the following:
 
@@ -60,7 +60,7 @@ To attend an appointment and process it through completion \(while acting as Cha
 3.  On the form toolbar, click **Complete**.
 4.  Review the **Log** tab, and notice that the system has automatically inserted one log line.
 
-## Step 2: Reviewing the Time Activity { .section}
+## Step 2: Reviewing the Time Activity
 
 To review the time activity that has been created for the appointment, do the following:
 
@@ -75,7 +75,6 @@ To review the time activity that has been created for the appointment, do the fo
 
 4.  Verify that the **Service** column is empty \(Item 4\), meaning that this time activity is not associated with any particular service of the appointment.
 
-![](Images/ServMgmt_Appointment_Recording_Staff_Time.png "The time activity of Chase Frank")
 
 **Parent topic:**[Recording Staff Time in Appointments](../UserGuide/ServMgmt_Managing_Staff_Times_Mapref.md)
 

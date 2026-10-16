@@ -1,4 +1,4 @@
-# Managing Customization Projects by Using the PXCommandLine Tool {#_707cdc5b-74c2-4dcc-b490-25d84f9e57cc .concept}
+# Managing Customization Projects by Using the PXCommandLine Tool
 
 You can use the PXCommandLine tool for managing customization projects— such as uploading customization packages and validating and publishing customization projects in your Acumatica ERP instance in automated scenarios. You can also use the tool to perform other operations, such as unpublishing customization projects and deleting customization packages from your instance. In this chapter, you will learn how to run this tool and how you can work with customization projects by using it.
 

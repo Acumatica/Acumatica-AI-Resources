@@ -1,4 +1,4 @@
-# Customer Synchronization: To Synchronize Customers with Multiple Locations {#_7b2d3020-f552-4b47-b8c2-dfea8f86d42a .task}
+# Customer Synchronization: To Synchronize Customers with Multiple Locations
 
 The following activity will walk you through the process of setting up the synchronization of customer locations and performing the synchronization of individual customers with locations between Acumatica ERP and the Shopify store.
 
@@ -6,7 +6,7 @@ The following activity will walk you through the process of setting up the synch
 
 **Important:** In this activity, you will be synchronizing business customers by following the business-to-consumer \(B2C\) path. This approach is useful if your Shopify subscription plan does not include business-to-business \(B2B\) features.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Fruits &amp; Jams works with individual customers and small businesses that order items to be delivered to multiple locations. The company keeps track of customer addresses in the Shopify store and wants these addresses to be in sync with customer locations in Acumatica ERP.
 
@@ -14,7 +14,7 @@ SweetLife's Shopify subscription does not include business-to-business features,
 
 Acting as an implementation consultant helping SweetLife to set up the integration of Acumatica ERP with the Shopify store, you need to configure the synchronization of customers along with their locations between the two systems. You will then test the import of customers with multiple locations, then update location details, and test the export of the updated data.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -22,7 +22,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customer Classes](AR_20_10_00.md) \(AR201000\) form, the *ECCUSTOMER* customer class has been configured.
 -   On the [Numbering Sequences](CS_20_10_10.md) \(CS201010\) form, the *ECCUSTOMER* and *ECLOCATION* numbering sequences have been defined.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -35,7 +35,7 @@ In this activity, you will do the following:
 7.  By using the [Sync History](BC_30_10_00.md) \(BC301000\) form, synchronize the updated customer location with the Shopify store.
 8.  In the admin area of the Shopify store, review the updated customer address.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you perform the instructions in this activity, do the following:
 
@@ -47,7 +47,7 @@ Before you perform the instructions in this activity, do the following:
     -   **Password**: *123*
 3.  Sign in to the admin area of the Shopify store as the store administrator in the same browser.
 
-## Step 1: Configuring the Synchronization Settings of the Customer and Customer Location Entities { .section}
+## Step 1: Configuring the Synchronization Settings of the Customer and Customer Location Entities
 
 To review the synchronization settings of the *Customer* and *Customer Locations* entities, do the following:
 
@@ -73,7 +73,7 @@ To review the synchronization settings of the *Customer* and *Customer Locations
 
 4.  On the form toolbar, click **Save** to save your changes.
 
-## Step 2: Creating a Customer in the Shopify Store { .section}
+## Step 2: Creating a Customer in the Shopify Store
 
 To create a customer and a first address, in the admin area of the Shopify store, do the following:
 
@@ -102,7 +102,7 @@ To create a customer and a first address, in the admin area of the Shopify store
     The customer page opens for *Isabel Bober*. Notice that in the **Customer** section, the email address is displayed, and the **Default Address** section shows the address lines that you entered in this step.
 
 
-## Step 3: Adding an Address for the Customer { .section}
+## Step 3: Adding an Address for the Customer
 
 To add a second address for the customer you created in the previous step, while you are still viewing the **Customers** page for *Isabelle Bober*, do the following:
 
@@ -127,7 +127,7 @@ To add a second address for the customer you created in the previous step, while
 
 7.  Close the **Manage addresses** dialog box.
 
-## Step 4: Preparing the Customer and Customer Location Data for Synchronization { .section}
+## Step 4: Preparing the Customer and Customer Location Data for Synchronization
 
 To prepare the customer and customer location data for synchronization, in Acumatica ERP, do the following:
 
@@ -147,7 +147,7 @@ To prepare the customer and customer location data for synchronization, in Acuma
     Notice that the **Prepared Records** column shows the number of synchronization records that have been prepared and are ready to be processed.
 
 
-## Step 5: Processing the Prepared Customer and Customer Location Data { .section}
+## Step 5: Processing the Prepared Customer and Customer Location Data
 
 To process the customer and customer location data you have prepared for synchronization, do the following:
 
@@ -162,7 +162,7 @@ To process the customer and customer location data you have prepared for synchro
 3.  On the form toolbar, click **Process** to process the selected synchronization record.
 4.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 6: Reviewing the Imported Customer and Customer Locations { .section}
+## Step 6: Reviewing the Imported Customer and Customer Locations
 
 Perform the following instructions to review the customer and customer locations that have been imported to Acumatica ERP:
 
@@ -175,7 +175,6 @@ Perform the following instructions to review the customer and customer locations
 
     -   The location with the *MAIN* identifier, which was created for the customer first in the Shopify store. This location is also marked as the default \(that is, the **Default** check box is selected for this location\).
     -   The location with the identifier that the system assigned to it based on the numbering sequence selected for locations in the store settings on the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form.
-    ![](Images/activity_Commerce_SP_Syncing_Customers_To_Sync_Customers_with_Locations.png "Customer locations imported from the store")
 
 5.  Click the *MAIN* link in the **Location ID** column.
 6.  On the [Customer Locations](AR_30_30_20.md) \(AR303020\) form, which the system has opened in a pop-up window, on the **General** tab, review the location details that have been imported from the Shopify store. Notice the following:
@@ -188,7 +187,7 @@ Perform the following instructions to review the customer and customer locations
         The location identifier from Shopify along with the store name have been imported to the **External ID** box of the **Other Settings** section.
 
 
-## Step 7: Updating the Customer Location { .section}
+## Step 7: Updating the Customer Location
 
 Suppose that you need to update the contact and address details of the *MAIN* customer location for *Isabelle Bober*. Do the following:
 
@@ -196,7 +195,7 @@ Suppose that you need to update the contact and address details of the *MAIN* cu
 2.  In the **Location Address** section, change **Address Line 1** to `3650 Taylor Street`.
 3.  On the form toolbar, click **Save &amp; Close** to save your changes and close the pop-up window with the [Customer Locations](AR_30_30_20.md) form.
 
-## Step 8: Synchronizing the Updated Location with the Shopify Store { .section}
+## Step 8: Synchronizing the Updated Location with the Shopify Store
 
 To synchronize the updated customer location with the Shopify store in order to update the address in the store, do the following:
 
@@ -210,7 +209,7 @@ To synchronize the updated customer location with the Shopify store in order to 
     **Tip:** When you change a location of a customer, the ecommerce connector recognizes the customer record as having been modified as well. So in this step, you could have selected the synchronization record for the *Isabelle Bober* customer and clicked **Sync**, and the updated customer location would have been synchronized as part of the customer synchronization process. Alternatively, you could have prepared the *Customer* entity for synchronization on the [Prepare Data](BC_50_10_00.md) \(BC501000\) form and then processed the prepared synchronization records on the [Process Data](BC_50_15_00.md) \(BC501500\) form.
 
 
-## Step 9: Reviewing the Updated Customer Address in the Shopify Store { .section}
+## Step 9: Reviewing the Updated Customer Address in the Shopify Store
 
 To review the updated customer address in the Shopify store, do the following:
 

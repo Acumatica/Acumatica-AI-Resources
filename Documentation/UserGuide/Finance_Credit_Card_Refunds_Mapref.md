@@ -1,4 +1,4 @@
-# Processing Credit Card Refunds {#_155854af-7d2a-49d4-800a-774c8aa3e2ea .concept}
+# Processing Credit Card Refunds
 
 The topics of this chapter describe how to create refunds for credit card payments.
 

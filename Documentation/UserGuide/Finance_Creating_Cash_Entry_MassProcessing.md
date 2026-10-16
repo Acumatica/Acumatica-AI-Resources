@@ -1,8 +1,8 @@
-# Cash Entries: Mass Processing of Documents {#_fff3d381-7101-4ad7-95d2-c467a318126f .concept}
+# Cash Entries: Mass Processing of Documents
 
 This topic explains how to release multiple cash entries at once.
 
-## Mass Release of Cash Entries {#section_grb_kjv_vxb .section}
+## Mass Release of Cash Entries
 
 You can release multiple cash transactions of the *Cash Entry* type as follows:
 

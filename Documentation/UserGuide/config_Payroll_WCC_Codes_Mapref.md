@@ -1,4 +1,4 @@
-# Creating Workers' Compensation Codes {#_d4115093-d27a-46ed-b399-84e7cd2e617c .concept}
+# Creating Workers' Compensation Codes
 
 This chapter contains information about how you can create workers' compensation class codes.
 

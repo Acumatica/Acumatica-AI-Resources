@@ -1,4 +1,4 @@
-# New Zealand Depreciation Methods {#_51ba8297-4351-4f8d-a02f-db240b660f71 .concept}
+# New Zealand Depreciation Methods
 
 The sections of this topic describe custom depreciation methods for New Zealand, which are available for configuration in Acumatica ERP.
 
@@ -11,7 +11,7 @@ New Zealand uses depreciation methods similar to the *Straight-Line* and *Declin
 
 The four New Zealand depreciation methods—New Zealand Straight-Line, New Zealand Diminishing Value, New Zealand Straight-Line Evenly by Periods, and New Zealand Diminishing Value Evenly by Periods—are described in detail in the sections that follow.
 
-## New Zealand Straight-Line {#section_szb_ljv_vxb .section}
+## New Zealand Straight-Line
 
 With this depreciation method, the depreciation expense is spread evenly over the estimated useful life of the asset, and the yearly depreciation amount is distributed based on the number of days in a period.
 
@@ -25,19 +25,19 @@ For this method, the following rules are applied:
 
 If the current period is not the last period of the financial year, the period depreciation is calculated based on the following formula.
 
-``` {#codeblock_yzb_ljv_vxb}
+```
 D = Depr. Base * (Percent per Year / 100) * (Np / Ntemp) * (Nd / Days held)
 ```
 
 If the current period is the last period of the financial year, the depreciation of the period is calculated based on the following formula.
 
-``` {#codeblock_b1c_ljv_vxb}
+```
 D = Depr. Base * (Percent per Year / 100) * (Np / Ntemp) - Depr. amount
 ```
 
 In this formula, the depreciation base is calculated as follows.
 
-``` {#codeblock_e1c_ljv_vxb}
+```
 Depr. Base = (Ac – Sa) * Business Use, %
 ```
 
@@ -67,7 +67,7 @@ If the current financial period is the **Depr. To** period, `Period Depreciation
 -   For the **Depr. From** period, `NBV = Depreciation Base`
 -   For other periods, `NBV = NBV calculated for the previous period - Depreciation Amount calculated for the previous period`
 
-## New Zealand Diminishing Value {#section_h1c_ljv_vxb .section}
+## New Zealand Diminishing Value
 
 This depreciation method, a modification of the *Declining Balance* method, calculates depreciation based on the specified **Percent per Year** setting of each particular asset.
 
@@ -79,13 +79,13 @@ The last depreciation period for this method is calculated based on the value in
 
 If the current period is not the last period of the financial year, the period depreciation is calculated based on the following formula.
 
-``` {#codeblock_m1c_ljv_vxb}
+```
 D = NBV_year * (Percent per Year / 100) * (Np / Ntemp) * (Nd / Days held)
 ```
 
 If the current period is the last period of the financial year, the period depreciation is calculated based on the following formula.
 
-``` {#codeblock_o1c_ljv_vxb}
+```
 D = NBV_year * (Percent per Year / 100) * (Np / Ntemp) - Depr. amount
 ```
 
@@ -112,7 +112,7 @@ The symbols in the formulas have the following meanings:
     -   For other financial years: `Sum of Nd values for the periods in the range (First Fin. Year's period - Last Fin. Year's period)`
 -   *Depr. amount*: The sum of the depreciation amounts in the previous periods of the current financial year
 
-## New Zealand Straight-Line Evenly by Periods {#section_q1c_ljv_vxb .section}
+## New Zealand Straight-Line Evenly by Periods
 
 With this method, the depreciation expense is spread evenly over the estimated useful life of the asset, and the yearly depreciation amount is evenly allocated over the periods of the year.
 
@@ -120,13 +120,13 @@ With this method, the depreciation expense is spread evenly over the estimated u
 
 If the current period is not the last period of the financial year, the period depreciation is calculated based on the following formula.
 
-``` {#codeblock_v1c_ljv_vxb}
+```
 D = Depr. Base * (Percent per Year / 100) / Ntemp
 ```
 
 If the current period is the last period of the financial year, the period depreciation is calculated based on the following formula.
 
-``` {#codeblock_y1c_ljv_vxb}
+```
 D = Depr. Base * (Percent per Year / 100) * (Np / Ntemp) - Depr. amount
 ```
 
@@ -148,19 +148,19 @@ If the current financial period is the **Depr. To** period, `Period Depreciation
 -   For the **Depr. From** period, `NBV = Depreciation Base`
 -   For other periods, `NBV = NBV calculated for the previous period - Depreciation Amount calculated for the previous period`
 
-## New Zealand Diminishing Value Evenly by Periods {#section_bbc_ljv_vxb .section}
+## New Zealand Diminishing Value Evenly by Periods
 
 With this method, the depreciation is calculated based on the specified **Percent per Year** setting of each particular asset. The annual depreciation amount is calculated as a yearly percent applied to the **Net Book Value** of the asset at the beginning of the year.
 
 If the current period is not the last period of the financial year, the period depreciation is calculated based on the following formula.
 
-``` {#codeblock_fbc_ljv_vxb}
+```
 D = NBV_year * (Percent per Year / 100) * (Np / Ntemp)
 ```
 
 If the current period is the last period of the financial year, the period depreciation is calculated based on the following formula.
 
-``` {#codeblock_hbc_ljv_vxb}
+```
 D = NBV_year * (Percent per Year / 100) * (Np / Ntemp) - Depr. amount
 ```
 

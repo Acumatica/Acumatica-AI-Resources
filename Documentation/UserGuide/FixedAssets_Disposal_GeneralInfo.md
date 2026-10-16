@@ -1,14 +1,14 @@
-# Asset Disposal: General Information {#_13375671-0b2a-4ca1-be77-f2454834efc0 .concept}
+# Asset Disposal: General Information
 
 Acumatica ERP supports a variety of fixed asset disposal methods, and you can dispose of assets individually or through mass processing. Acumatica ERP updates the appropriate GL accounts as a result of disposal.
 
 If necessary, you can reverse disposal.
 
-## Learning Objectives {#section_rv2_ljv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do dispose of a single fixed asset.
 
-## Applicable Scenarios {#section_tv2_ljv_vxb .section}
+## Applicable Scenarios
 
 You dispose of a fixed asset in the following cases:
 
@@ -16,11 +16,11 @@ You dispose of a fixed asset in the following cases:
 -   The asset has a reduced productivity at the end of its life.
 -   The asset has been sold.
 
-## Disposal Methods {#section_vv2_ljv_vxb .section}
+## Disposal Methods
 
 As a first step, you configure the disposal methods; then you select the required disposal method when you dispose of an asset. For an example that demonstrates the configuration of disposal methods, see [Fixed Assets: To Configure the Fixed Asset Functionality](../ImplementationGuide/config_FixedAssets_Implem_Activity_FixedAssets_Subledger.md).
 
-## Asset Disposal {#section_xv2_ljv_vxb .section}
+## Asset Disposal
 
 You can dispose of fixed assets in either of the following ways:
 
@@ -29,7 +29,7 @@ You can dispose of fixed assets in either of the following ways:
 
 The status of the disposed asset is changed from *Active* to *Disposed*. After asset disposal, the system automatically displays the following information on the **General** tab of the [Fixed Assets](FA_30_30_00.md) form: the date of disposal, the disposal method, and the proceeds amount from the disposal of the asset.
 
-## Updated GL Accounts as a Result of Fixed Asset Disposal {#section_aw2_ljv_vxb .section}
+## Updated GL Accounts as a Result of Fixed Asset Disposal
 
 When a fixed asset is disposed of, the system records the proceeds from the disposal, as well as any gain or loss in its disposal. The system generates *Sales/Disposal+*, *Depreciation Adjusting–*, and *Purchasing Disposal* transactions. Generally, the accounting transactions can be illustrated as follows.
 
@@ -42,11 +42,10 @@ When a fixed asset is disposed of, the system records the proceeds from the disp
 
 The gain or loss is calculated and recorded in the Gain Account or Loss account. To calculate the gain or loss amount, the system deducts the accumulated depreciation amount plus the salvage amount from the acquisition cost and compares the calculated amount with the proceeds from disposal. If there is a gain on disposal, the Gain account is updated. If there is a loss on disposal, the Loss account is updated.
 
-## Workflow of Fixed Asset Disposal { .section}
+## Workflow of Fixed Asset Disposal
 
 The following diagram shows the process of disposing of a fixed asset.
 
-![](Images/diag_Finance_FA_Disposal_of_Assets.png)
 
 As the diagram shows, the disposal of a fixed asset involves these steps:
 

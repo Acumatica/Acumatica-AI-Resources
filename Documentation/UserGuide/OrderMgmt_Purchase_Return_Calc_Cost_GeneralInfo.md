@@ -1,22 +1,24 @@
-# Purchase Returns at the Calculated Cost: General Information {#_e9984f47-0eac-48c4-b29f-9eace10813d5 .concept}
+# Purchase Returns at the Calculated Cost: General Information
 
 In Acumatica ERP, you can create and process purchase returns if any purchased items need to be returned to the vendor for some reason.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
+
+In this lesson, you will do the following:
 
 -   Create a purchase return document
 -   Specify the items to be returned and define at which cost the items will be issued from inventory
 -   Process the purchase return and the related inventory and accounts payable documents
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 In most cases, the purchasing process is completed when your company receives the goods and the corresponding accounts payable bill is released to adjust your outstanding balance with the vendor. In some cases, however, items are delivered in an unsatisfactory condition or shipped by mistake and should be returned to the vendor for replacement or reimbursement. A purchase return can also occur when services were not rendered or were provided partially, and your company should be reimbursed.
 
 A purchase return process includes the creation of a purchase return document, the specification of the returned items and their quantities, the issuing of the returned item from inventory, and the adjustment to the outstanding vendor balance in the system in the returned amount.
 
-## Creation of a Purchase Return {#section_qst_jx3_ctb .section}
+## Creation of a Purchase Return
 
 A purchase return is a purchase receipt of the *Return* type created on the [Purchase Receipts](../Shared/../UserGuide/PO_30_20_00.md) \(PO302000\) form that includes a line for each stock or non-stock item being returned. You can create a purchase return from scratch on this form or by first opening the corresponding purchase receipt on this form.
 
@@ -36,7 +38,7 @@ After you have specified the settings of the returned items on the **Details** t
 -   *Cost by Issue Strategy*: The items are issued at the cost calculated by the system according to the items' valuation methods.
 -   *Manual Cost Input*: You can enter the cost manually.
 
-## Processing of a Purchase Return {#section_rst_jx3_ctb .section}
+## Processing of a Purchase Return
 
 After you have created a purchase return on the **Details** tab of the [Purchase Receipts](../Shared/../UserGuide/PO_30_20_00.md) \(PO302000\) form, you need to process the issuing of items from inventory and adjust the vendor's balance in the system for the amount of the returned items.
 
@@ -48,11 +50,10 @@ If the purchase receipt for which the return was created is linked to a line of 
 
 The further processing of a purchase return depends on the agreement between your company and the vendor. You can complete the processing of the return by processing a vendor refund or by receiving replacement items for the original purchase order.
 
-## Workflow of a Purchase Return { .section}
+## Workflow of a Purchase Return
 
 For purchase return documents, the typical processing involves the actions and generated documents shown in the following diagram.
 
-![](../Shared/Images/diag_OrderMgmt_Purchase_Return.png)
 
 **Parent topic:**[Processing Purchase Returns at the Calculated Cost](../UserGuide/OrderMgmt_Purchase_Return_Calc_Cost_Mapref.md)
 

@@ -1,16 +1,16 @@
-# Testing of the Customization Project: To Test a Custom Workflow {#_e7b07adf-9cd8-4a84-a661-83b2cc79fc80 .task}
+# Testing of the Customization Project: To Test a Custom Workflow
 
 The following activity will walk you through the process of testing a custom workflow.
 
-## Story { .section}
+## Story
 
 Acting as the technical specialist, you need to publish your customization project and then test the changes on the [Task](../UserGuide/CR_30_60_20.md) \(CR306020\) form and make sure that the new workflow works as expected.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Customization Projects](../UserGuide/SM_20_45_05.md) \(SM204505\) form of Acumatica ERP, you will publish your customization project. On the [Task](../UserGuide/CR_30_60_20.md) \(CR306020\) form, you will then test the new workflow.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin testing the customization, do the following:
 
@@ -20,7 +20,7 @@ Before you begin testing the customization, do the following:
 
 2.  Make sure that you have completed the [Conditions and Transitions: To Add Transitions](WorkflowUI_ConditionsTransitions_Activity_Transitions.md) activity.
 
-## Step 1: Publishing the Customization Project { .section}
+## Step 1: Publishing the Customization Project
 
 To publish the *TaskWorkflow* customization project, do the following:
 
@@ -31,7 +31,7 @@ To publish the *TaskWorkflow* customization project, do the following:
 
 3.  After the system finishes updating the required data, click **Close Compilation Pane** in the **Compilation** pane.
 
-## Step 2: Testing the Draft State { .section}
+## Step 2: Testing the Draft State
 
 In Acumatica ERP, test the `Draft` state as follows:
 
@@ -46,11 +46,10 @@ In Acumatica ERP, test the `Draft` state as follows:
 
         The **State Diagram** dialog box opens. The diagram should look like the one shown in the following screenshot.
 
-        ![](Images/WorkflowUI_TestingCustomization_TaskWorkflow_ShowStateDiagram_ModernUI.png "The State Diagram dialog box")
 
     -   Close the dialog box.
 
-## Step 3: Testing the Open State { .section}
+## Step 3: Testing the Open State
 
 While you are still on the [Task](../UserGuide/CR_30_60_20.md) \(CR306020\) form, test the `Open` state as follows:
 
@@ -70,7 +69,7 @@ While you are still on the [Task](../UserGuide/CR_30_60_20.md) \(CR306020\) form
     -   On the More menu, three commands are available: **Start Work**, **Resolve**, and **Postpone**.
     -   On the form toolbar, the **Start Work** button is highlighted in green.
 
-## Step 4: Testing the Processing State and the Resolve Action { .section}
+## Step 4: Testing the Processing State and the Resolve Action
 
 Test the `Processing` state and the `Resolve` action as follows:
 
@@ -84,7 +83,7 @@ Test the `Processing` state and the `Resolve` action as follows:
     -   The status of the task is *Completed*.
     -   On the More menu, only one command is available: **Reopen**.
 
-## Step 5: Testing the Reopen Action and the Completed Condition { .section}
+## Step 5: Testing the Reopen Action and the Completed Condition
 
 While you are still on the [Task](../UserGuide/CR_30_60_20.md) \(CR306020\) form, test the `Reopen` action and the Completed condition as follows:
 

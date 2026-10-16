@@ -1,4 +1,4 @@
-# Opportunity Reports: Opportunity Estimation {#_0f724b4a-9ac1-41d0-961b-9dfd8bd53138 .concept}
+# Opportunity Reports: Opportunity Estimation
 
 Acumatica ERP provides reports that sales representatives can use to view the opportunity-related sales metrics, including the following generic inquiry forms and a pivot table:
 
@@ -11,7 +11,7 @@ These metrics are based on the data that users have entered on the [Opportunitie
 
 The following sections provide details about these resources and the ways you can use them to analyze opportunities.
 
-## Monitoring the Amounts and Stages of Opportunities { .section}
+## Monitoring the Amounts and Stages of Opportunities
 
 On the [Opportunity Summary by Close Date](CR_30_40_SM.md) \(СR3040SM\) inquiry form, you can find information for the date range you specify about the amount of opportunities in the different stages, with the amounts broken down by the year, quarter, and month of the estimated closing dates of the opportunities.
 
@@ -19,13 +19,13 @@ In the Selection area of the report, a date range must be specified. By default,
 
 In the table, each aggregated amount of the opportunities is also a link. If you click this link, the system opens a new browser tab showing the list of opportunities that meet the specified criteria on the **Drilldown** tab of the Opportunity List \(CR3042SM\) inquiry form. You can also see the list of all opportunities on the **All Records** tab of this form.
 
-## Reviewing Opportunities Grouped by Salesperson { .section}
+## Reviewing Opportunities Grouped by Salesperson
 
 For any selected row of the [Opportunity Summary by Close Date](CR_30_40_SM.md) \(СR3040SM\) inquiry form, the side panel displays the Opportunity Summary by Salesperson \(CR3041SM\) inquiry form. On this form, you can find information about the amount and number of the opportunities grouped by owners and stages.
 
 You can narrow the information that is shown in the table by specifying selection criteria in the Selection area of the Opportunity Summary by Salesperson form. If you want to see the list of the opportunities that are included in the selected row of the table, you can click the value in the **Owner** column, which is also a link. The list of the opportunities opens on the **Drilldown** tab of the Opportunity List \(CR3042SM\) inquiry form.
 
-## Specifying Custom Opportunity Stages { .section}
+## Specifying Custom Opportunity Stages
 
 Acumatica ERP gives companies the ability to customize the set of opportunity stages on the [Opportunity Classes](CR_20_90_00.md) \(CR209000\) form. If your company uses a different set of opportunity stages, the custom stages are also included in the list of stages that are provided in the **Opportunity Stage** box on the [Opportunity Summary by Close Date](CR_30_40_SM.md) \(СR3040SM\) and Opportunity Summary by Salesperson \(CR3041SM\) generic inquiry forms.
 
@@ -33,7 +33,7 @@ A user with the *Administrator* role can make the needed changes to the inquiry 
 
 You can deactivate any number of unused predefined opportunity stages.
 
-## Monitoring Opportunity Metrics by Class { .section}
+## Monitoring Opportunity Metrics by Class
 
 You can use the Opportunity Summary by Class \(CR3040PT\) pivot table to find the aggregated information of the number and amount of all opportunities. This information is grouped by opportunity class, owner, opportunity status, and opportunity stage.
 

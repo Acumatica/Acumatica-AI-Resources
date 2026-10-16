@@ -1,4 +1,4 @@
-# Configuring a Screen Layout {#_36ed6187-e282-463d-8a6e-88b731a5691c .concept}
+# Configuring a Screen Layout
 
 In this section, you’ll learn how to configure lists of records on a mobile screen, customize their design and layout, display thumbnails for each record, and group fields on a screen. It contains the following topics:
 

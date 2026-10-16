@@ -1,8 +1,8 @@
-# To Reapply a Customer Payment to a Different Invoice {#_aed75ff0-4290-4ccb-be6c-ebf6835878bf .task}
+# To Reapply a Customer Payment to a Different Invoice
 
 You can reapply a customer payment or prepayment to one or more different invoices by using the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form.
 
-## To Reapply Customer Payment to a Different Invoice {#section_u1p_4jv_vxb .section}
+## To Reapply Customer Payment to a Different Invoice
 
 1.  Open the [Payments and Applications](../Shared/../UserGuide/AR_30_20_00.md) \(AR302000\) form.
 2.  In the **Type** box of the Summary area, select *Payment* or *Prepayment*.

@@ -1,4 +1,4 @@
-# Filling a Report with Content {#_77acef42-69a7-44aa-9b33-e9ad6e5c3373 .concept}
+# Filling a Report with Content
 
 A report includes a set of elements to display its contents. When you design a report, you place an element in the report and then specify the properties of this element.
 
@@ -11,5 +11,5 @@ In the topics of this chapter, you will learn how to add different types of elem
 -   **[Report Content: To Embed an Image in a Report](../UserGuide/RD_Filling_Report_with_Content_Adding_External_Images_Activity.md)**  
 
 
-**Parent topic:**[Acumatica Report Designer Guide](../UserGuide/ReportDesigner_Main.md)
+**Parent topic:**[Acumatica Report Designer](../UserGuide/ReportDesigner_Main.md)
 

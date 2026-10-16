@@ -1,4 +1,4 @@
-# Importing Orders with Taxes {#_211dd9a8-d81b-41e2-bb66-df4adf0d1368 .concept}
+# Importing Orders with Taxes
 
 In this chapter, you will learn how to configure tax synchronization between Acumatica ERP and the BigCommerce store.
 

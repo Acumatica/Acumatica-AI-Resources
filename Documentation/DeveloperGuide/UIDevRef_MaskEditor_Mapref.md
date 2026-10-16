@@ -1,4 +1,4 @@
-# Mask Editor {#_289df9f2-3a3c-4582-949c-fbc68e0f9639 .concept}
+# Mask Editor
 
 In this chapter, you will learn about the configuration of the mask editor control, including when and how to use a mask editor.
 

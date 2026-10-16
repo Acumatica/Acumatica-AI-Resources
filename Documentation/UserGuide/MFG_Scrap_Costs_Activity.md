@@ -1,8 +1,8 @@
-# Scrap Cost Calculation: To Process a Production Order with No Scrap Settings {#_bd0937b0-9db0-4992-97d5-c9ca901c3259 .task}
+# Scrap Cost Calculation: To Process a Production Order with No Scrap Settings
 
 The following activity will walk you through the process of recording item production that includes scrapped items when no specific actions are required for scrapped items.
 
-## Story { .section}
+## Story
 
 Suppose that the GoodFood One Restaurant has ordered three juicers from the SweetLife Fruits &amp; Jams company. The production process includes the assembly and packing of the juicers. In the production process of SweetLife Fruits &amp; Jams, materials and labor are backflushed for the packing operation. Further suppose that components for the juicers are available in SweetLife Fruits &amp; Jams's warehouse.
 
@@ -16,14 +16,14 @@ Acting as a production manager, you will create a production order for producing
 
 Also, acting as a production accountant, you will review scrap costs applied to the production order.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Warehouses](IN_20_40_00.md) \(IN204000\) form, the *WORKHOUSE* warehouse has been defined, and its locations include *MGI* and *MTL*.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *CFJFRUITBF*, *PULPCONT1L*, *JUICECUP05L*, *MRBASE*, *FNSIEVE*, *GRDISC01*, *PACKTAPE*, *PPEANUTS*, and *PACKBOX* stock items have been defined.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, to process the documents and transactions related to the production of the juicers, you will do the following:
 
@@ -35,7 +35,7 @@ In this activity, to process the documents and transactions related to the produ
 6.  On the [Production Order Maintenance](AM_20_15_00.md) form, review the production order balance after you have completed the order.
 7.  On the [Close Production Orders](AM_50_60_00.md) \(AM506000\) form, close the production order.
 
-## System Preparation { .section}
+## System Preparation
 
 Do the following:
 
@@ -43,7 +43,7 @@ Do the following:
 2.  Launch the Acumatica ERP website, and sign in to the company in which the prerequisite activity have been performed. You should sign in as the production manager by using the *peters* username and the *123* password.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to today’s date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating the Production Order { .section}
+## Step 1: Creating the Production Order
 
 To create the production order for three juicers, do the following:
 
@@ -64,7 +64,7 @@ To create the production order for three juicers, do the following:
     **Tip:** You open the More menu by clicking the More button \(…\) on the form toolbar.
 
 
-## Step 2: Issuing Materials for the Assembly Operation { .section}
+## Step 2: Issuing Materials for the Assembly Operation
 
 Suppose that you have been informed that the shop-floor worker had to assemble one extra juicer because one of the assembled juicers did not work. Therefore the worker used more materials than it was planned. In this step, you will issue the needed material quantity for the assembly operation of the production order. Do the following:
 
@@ -76,7 +76,7 @@ Suppose that you have been informed that the shop-floor worker had to assemble o
     2.  Clear the **Hold** check box. The system changes the transaction's status to *Balanced*.
 5.  On the form toolbar, click **Release**. The system releases the material transaction and changes the status of the transaction to *Released*.
 
-## Step 3: Recording the Labor, Produced Items, and Scrapped Items for the Assembly Operation { .section}
+## Step 3: Recording the Labor, Produced Items, and Scrapped Items for the Assembly Operation
 
 Suppose that Carlos Cruz, a worker in the work center, spent 30 minutes setting up the working environment for juicer assembly and assembled three juicers for one hour; one of the juicers does not work and must be recorded as scrap. To fulfill the production order, Carlos assembled one more juicer for 20 minutes. To record the time spent on juicer assembly, the assembled quantity of juicers, and the scrapped juicer, do the following:
 
@@ -103,7 +103,7 @@ Suppose that Carlos Cruz, a worker in the work center, spent 30 minutes setting 
     3.  Clear the **Hold** check box. The system changes the transaction's status to *Balanced*.
 7.  On the form toolbar, click **Release**. The system creates and releases the cost transaction to record the labor costs and releases the labor transaction.
 
-## Step 4: Reviewing the Production Order Balance { .section}
+## Step 4: Reviewing the Production Order Balance
 
 In this step, acting as a production accountant, you will review the balance of the production order after you have recorded the completion of the assembly operation. Do the following on the [Production Order Details](AM_20_90_00.md) \(AM209000\) form:
 
@@ -135,10 +135,9 @@ In this step, acting as a production accountant, you will review the balance of 
         -   **WIP Balance**: *1920.23*
         The variance is caused by the costs of the scrapped juicer. The **Total Variance** box by fact contains the cost of the scrapped juicer, which the system added to the cost of the completed juicers.
 
-    ![](Images/activity_MFG_Scrap_Costs_Assembly_Operation_Balance_1.png "Production order balance for the assembly operation")
 
 
-## Step 5: Recording the Produced Items for the Packing Operation { .section}
+## Step 5: Recording the Produced Items for the Packing Operation
 
 Suppose that a worker in the packing work center has packed the assembled juicers. To record the completion of the packing operation, do the following:
 
@@ -152,7 +151,7 @@ Suppose that a worker in the packing work center has packed the assembled juicer
 5.  On the [Receipts](IN_30_10_00.md) \(IN301000\) form, open the receipt with the today's date, the total quantity of three *CFJFRUITBF* items, and the total cost of 1943.39.
 6.  In the **Unit Cost** column of the only row, make sure that *647.7970* is specified.
 
-## Step 6: Reviewing the Balance of the Completed Production Order { .section}
+## Step 6: Reviewing the Balance of the Completed Production Order
 
 In this step, acting as a production accountant, you will review the production order balance after you have recorded the completion of the packing operation. Do the following on the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form:
 
@@ -163,10 +162,9 @@ In this step, acting as a production accountant, you will review the production 
     2.  In the **Actual** section, make sure that the values of the **WIP Total** and **MFG to Inventory** boxes are *1943.39*, which is the cost of three produced items plus the cost of the scrapped item. The cost of one item is *647.7970*, which equals the unit cost in the inventory receipt. To calculate the unit cost, the system divided the actual costs applied to the production order by the completed quantity.
     3.  In the **Variance** section, make sure that the value in the **Total Variance** is *473.06*, which means that it has not been changed since the assembly operation has been completed.
     4.  Make sure that the value of the **WIP Balance** box is *0.00*, which means that the actual costs of the production order have been fully applied to the cost of the produced items.
-    ![](Images/activity_MFG_Scrap_Costs_Final_Balance_1.png "Production order balance after the completion of the order")
 
 
-## Step 7: Closing the Production Order { .section}
+## Step 7: Closing the Production Order
 
 Now you will close the production order. Do the following:
 

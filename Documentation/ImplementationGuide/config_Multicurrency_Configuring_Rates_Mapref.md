@@ -1,4 +1,4 @@
-# Currency Rate Types and Current Rates {#_73c76cc8-cb93-4261-b5f8-13bc277324eb .concept}
+# Currency Rate Types and Current Rates
 
 The topics of this chapter describe how to configure rate types and current rates for foreign currencies in Acumatica ERP.
 

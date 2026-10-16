@@ -1,4 +1,4 @@
-# Importing and Exporting Data to Excel and XML {#_f33b758e-c242-4812-8205-1e435072336a .concept}
+# Importing and Exporting Data to Excel and XML
 
 You can import data from external files into Acumatica ERP, and you can export data in Acumatica ERP into external files.
 

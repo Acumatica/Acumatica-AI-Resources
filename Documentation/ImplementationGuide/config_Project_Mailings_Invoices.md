@@ -1,8 +1,8 @@
-# Project Mailing Configuration: Invoice Mailings {#_6cdc6f9e-498b-4111-af89-bfff4de4632c .concept}
+# Project Mailing Configuration: Invoice Mailings
 
 For individual projects, you can configure different formats for printable pro forma invoices and accounts receivable invoices. The invoice format may depend on the project type; for instance, an installation project may have one invoice format, and a repair project may have a different invoice format. Also, a default invoice format can be specified for particular customers, with this format used for all projects of this customer unless the user specifies a different format. For example, a company might use a particular invoice format for government customers, or for customers who work with a particular bank to get loans for their projects \(and this bank dictates the invoice format\).
 
-## Defining Printing Forms of Invoices for Projects { .section}
+## Defining Printing Forms of Invoices for Projects
 
 On the **Mailing &amp; Printing** tab of the [Projects](../UserGuide/PM_30_10_00.md) \(PM301000\) form, you can specify a custom format and an email notification template that should be used for the printing and emailing of the invoices prepared for the particular project. When you create a new project, the system copies all the predefined mailing settings from the **Mailing &amp; Printing** tab of the [Projects Preferences](../UserGuide/PM_10_10_00.md) \(PM101000\) form, but you can override them. You can use the following predefined mailings:
 
@@ -11,7 +11,7 @@ On the **Mailing &amp; Printing** tab of the [Projects](../UserGuide/PM_30_10_00
 
 If you need to override the printing form of pro forma invoices or accounts receivable invoices for a project, you edit the respective mailing setting but do not edit the mailing identifier, which is the system setting. For example, suppose you need to override the printing form of pro forma invoices for a project. For the *PROFORMA* mailing of this project, you select the needed project report in the **Report** column of the **Mailing** table on the **Mailing &amp; Printing** tab of the [Projects](../UserGuide/PM_30_10_00.md) form.
 
-## Printing Invoices { .section}
+## Printing Invoices
 
 When you print a pro forma invoice on the [Pro Forma Invoices](../UserGuide/PM_30_70_00.md) \(PM307000\) form, the system uses the report specified for the *PROFORMA* mailing of the corresponding project on the **Mailing &amp; Printing** tab of the [Projects](../UserGuide/PM_30_10_00.md) \(PM301000\) form. If the corresponding project has no mailing setting with the *PROFORMA* identifier, an error occurs.
 

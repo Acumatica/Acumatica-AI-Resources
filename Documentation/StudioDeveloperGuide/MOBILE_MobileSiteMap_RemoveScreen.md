@@ -1,8 +1,8 @@
-# To Remove a Screen of a Mobile App {#_bd3bc934-6e91-48bd-8201-318fdeb36053 .concept}
+# To Remove a Screen of a Mobile App
 
 You can remove a screen of the customized Acumatica mobile app from a customization project by using the Customization Project Editor.
 
-## To Remove a Screen of a Mobile App { .section}
+## To Remove a Screen of a Mobile App
 
 1.  Open the [Customization Projects](../Shared/../UserGuide/SM_20_45_05.md) \(SM204505\) form, and in the **Project Name** column, click the link of the customization project. The Customization Project Editor opens.
 2.  Open the Mobile Application page.

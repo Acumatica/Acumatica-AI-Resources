@@ -1,8 +1,8 @@
-# Extension of Scan Components: Scan Extensions {#_93ad3cca-f871-4c73-8352-39984ef1226f .concept}
+# Extension of Scan Components: Scan Extensions
 
 Because all scan components have to be `sealed` classes, they cannot have `virtual` methods and thus cannot be customized through class inheritance. Components use method interceptors for customizations instead. A component can provide its own `ScanExtension` class where all virtual methods are placed.
 
-## Scan Extension { .section}
+## Scan Extension
 
 The `ScanExtension` classes are `PXGraphExtension` descendants, which can simplify the creation of customizable logic that should be used in the scope of barcode processing. For example, if a ScanCommand&lt;TScanBasis&gt; descendant must have complex logic that should be split into multiple methods, you should create a ScanExtension descendant that holds all these methods. This extension can be placed inside the ScanCommand&lt;TScanBasis&gt; descendant so that its customizable logic is not mixed with the logic of other components.
 
@@ -20,9 +20,8 @@ public class BoycottAntarcticaItems : PXGraphExtension<ReceivePutAway,
 
 The classes related to scan extensions are shown in the following diagram.
 
-![](Images/diag_WMSEngine_ScanExtension.png "Scan extension relations")
 
-## Example of the ScanExtension Approach { .section}
+## Example of the ScanExtension Approach
 
 The following code shows the initial definition of a scan component.
 
@@ -77,7 +76,7 @@ public class SomeCustomization : PXGraphExtension<
 }
 ```
 
-## ScanExtension&lt;TScanExtension&gt; Class { .section}
+## ScanExtension&lt;TScanExtension&gt; Class
 
 The `ScanExtension<TScanExtension>` class is a ScanExtension component that is parameterized with another ScanExtension component type. This class is useful if you want to customize a ScanExtension component.
 

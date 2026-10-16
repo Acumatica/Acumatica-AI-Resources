@@ -1,4 +1,4 @@
-# Import Scenario Creation {#_d79ea7dd-d6d6-4646-b206-14df4c56aea7 .concept}
+# Import Scenario Creation
 
 You create import scenarios on the [Import Scenarios](SM_20_60_25.md) \(SM206025\) form.
 

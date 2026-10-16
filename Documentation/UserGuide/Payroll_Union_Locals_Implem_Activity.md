@@ -1,20 +1,20 @@
-# Unions: Implementation Activity {#_d77db378-8ac8-4473-9090-0e88240426aa .task}
+# Unions: Implementation Activity
 
 In the following implementation activity, you will learn how to create and specify the settings of a union.
 
-## Story { .section}
+## Story
 
 Suppose that some employees in your company are part of a union. Your company will have to make sure it is paying the rate agreed in the collective agreement and withhold the union dues from the employees. Acting as a system administrator, you need to create a union record for the New York State Laborers' Union and define the earning rates.
 
-## Configuration Overview {#section_akw_j25_tsb .section}
+## Configuration Overview
 
 In the *U100 Payroll* snapshot, on the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *CONSULTJR* and *CONSULTSR* non-stock items have been created for the purposes of this activity.
 
-## Process Overview { .section}
+## Process Overview
 
 You create unions and modify their settings by using the [Union Locals](PR_20_97_00.md) \(PR209700\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating a union, you should launch the Acumatica ERP website and sign in as a system administrator by using the following credentials:
 
@@ -25,7 +25,7 @@ As a prerequisite activity, in the company to which you are signed in, be sure y
 
 As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course.
 
-## Step: Creating a Union { .section}
+## Step: Creating a Union
 
 To create a union, do the following:
 

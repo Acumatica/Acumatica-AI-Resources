@@ -1,14 +1,22 @@
-# Wizard: Conversion from ASPX to HTML and TypeScript {#_4b40bc5d-19f3-44b3-a251-4671ed30f2f0 .concept}
+# Wizard: Conversion from ASPX to HTML and TypeScript
 
 The following tables will help you to convert the ASPX elements that are related to the wizard control to HTML or TypeScript elements.
 
-## PXWizard { .section}
+## PXWizard
 
 The following table shows the correspondence between the PXWizard element and the HTML or TypeScript elements. During the conversion of ASPX pages to HTML and TypeScript, you need to replace these ASPX elements with their analogs in HTML or TypeScript.
 
-|ASPX|HTML or TypeScript|
-|----|------------------|
-|PXWizard```
+<table id="_53b158c3-95c7-4d0b-b468-cfb18f27756e"><thead><tr><th>
+
+ASPX
+
+</th><th>
+
+HTML or TypeScript
+
+</th></tr></thead><tbody><tr><td>
+
+PXWizard```
 <px:PXWizard 
   ID="PXWizard1" runat="server" 
   Width="400" Height="240" 
@@ -16,29 +24,37 @@ The following table shows the correspondence between the PXWizard element and th
   SkinID="Flat">
 ```
 
-|Use the [qp-wizard](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=67eb60e0-a2c4-4420-e797-1556d7f4784e) tag in HTML.```language-xml
+</td><td>
+
+Use the [qp-wizard](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=67eb60e0-a2c4-4420-e797-1556d7f4784e) tag in HTML.```xml
 <qp-wizard 
   id="wizardBudgetArticles" 
   config.bind="wizardConfig">
 ```
 
-|
-|ID```
+</td></tr><tr><td>
+
+ID```
 <px:PXWizard ID="PXWizard1">
 ```
 
-|Use the id property of the [qp-wizard](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=67eb60e0-a2c4-4420-e797-1556d7f4784e) tag.```language-xml
+</td><td>
+
+Use the id property of the [qp-wizard](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=67eb60e0-a2c4-4420-e797-1556d7f4784e) tag.```xml
 <qp-wizard 
   id="wizardBudgetArticles">
 ```
 
-|
-|DataMember```
+</td></tr><tr><td>
+
+DataMember```
 <px:PXWizard 
   DataMember="PreloadFilter">
 ```
 
-|Instead of specifying a single view for the whole wizard, specify views for the controls in each step of the wizard—that is, the qp-tab tags.```language-xml
+</td><td>
+
+Instead of specifying a single view for the whole wizard, specify views for the controls in each step of the wizard—that is, the qp-tab tags.```xml
 <qp-tab ...>
   <qp-template>
     <qp-fieldset ... view.bind="PreloadFilter">
@@ -47,15 +63,24 @@ The following table shows the correspondence between the PXWizard element and th
 </qp-tab>
 ```
 
-|
+</td></tr></tbody>
+</table>
 
-## NextCommand, PrevCommand, CancelCommand, and SaveCommand { .section}
+## NextCommand, PrevCommand, CancelCommand, and SaveCommand
 
 The following table shows the correspondence between the actions associated with buttons \(NextCommand, PrevCommand, CancelCommand, and SaveCommand\) and the HTML or TypeScript elements. During the conversion of ASPX pages to HTML and TypeScript, you need to replace these ASPX elements with their analogs in HTML or TypeScript.
 
-|ASPX|HTML or TypeScript|
-|----|------------------|
-|-   NextCommand
+<table id="_4e378d17-2da4-4206-836a-a97c4d609b82"><thead><tr><th>
+
+ASPX
+
+</th><th>
+
+HTML or TypeScript
+
+</th></tr></thead><tbody><tr><td>
+
+-   NextCommand
 -   PrevCommand
 -   CancelCommand
 -   SaveCommand
@@ -65,14 +90,16 @@ The following table shows the correspondence between the actions associated with
   Target="ds" Command="wNext" />
 ```
 
-|To override the standard actions, do the following:1.  In TypeScript, map the actions defined in the graph.
+</td><td>
+
+To override the standard actions, do the following:1.  In TypeScript, map the actions defined in the graph.
 2.  Define a property that implements the [IWizardConfig](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=cb56332d-a454-d3b8-7eba-1e187d67e222) interface, and specify the action in the following properties of the IWizardConfig interface:
 
     -   nextCommand
     -   prevCommand
     -   cancelCommand
     -   saveCommand
-    ```language-javascript
+    ```javascript
 wizardConfig: IWizardConfig = {
   nextCommand: "wizardNext"
 };
@@ -80,45 +107,88 @@ wizardConfig: IWizardConfig = {
 
 3.  In HTML, specify the configuration property in the config.bind attribute of the [qp-wizard](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=67eb60e0-a2c4-4420-e797-1556d7f4784e) tag.
 
-    ```language-xml
+    ```xml
 <qp-wizard 
   config.bind="wizardConfig">
     ```
 
 
-|
+</td></tr></tbody>
+</table>
 
-## Obsolete ASPX Controls and Properties { .section}
+## Obsolete ASPX Controls and Properties
 
 The following table lists the obsolete ASPX elements that are related to the wizard control. You do not need to replace these ASPX elements with any HTML or TypeScript elements.
 
-|ASPX Control|Properties|
-|------------|----------|
-|PXWizard|-   runat
+<table id="_41289709-97c0-49e8-889b-0b2cf1319062"><thead><tr><th>
+
+ASPX Control
+
+</th><th>
+
+Properties
+
+</th></tr></thead><tbody><tr><td>
+
+PXWizard
+
+</td><td>
+
+-   runat
 -   SkinID
 
-|
-|Pages|The entire control is obsolete. The steps of the wizard are defined by a set of qp-tab tags.|
-|PXWizardPage|The entire control is obsolete. For each step of the wizard, use the qp-tab tag.|
-|-   NextCommand
+</td></tr><tr><td>
+
+Pages
+
+</td><td>
+
+The entire control is obsolete. The steps of the wizard are defined by a set of qp-tab tags.
+
+</td></tr><tr><td>
+
+PXWizardPage
+
+</td><td>
+
+The entire control is obsolete. For each step of the wizard, use the qp-tab tag.
+
+</td></tr><tr><td>
+
+-   NextCommand
 -   PrevCommand
 -   CancelCommand
 -   SaveCommand
 
-|Target|
+</td><td>
 
-## Caption of the Wizard and Steps { .section}
+Target
+
+</td></tr></tbody>
+</table>
+
+## Caption of the Wizard and Steps
 
 The following table lists the correspondence between the ASPX elements that were used to specify the caption of the wizard and its step and the properties in the Modern UI.
 
-|ASPX Control|Properties|
-|------------|----------|
-|PXSmarPanel &gt; Caption```
+<table id="_6405d82d-2e98-47fc-8d4f-72815ef8a42e"><thead><tr><th>
+
+ASPX Control
+
+</th><th>
+
+Properties
+
+</th></tr></thead><tbody><tr><td>
+
+PXSmarPanel &gt; Caption```
 <px:PXSmartPanel 
   Caption="Preload Budget Articles Wizard">
 ```
 
-|To specify the caption of the wizard, use the caption property of the [IWizardConfig](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=cb56332d-a454-d3b8-7eba-1e187d67e222) interface. ```language-javascript
+</td><td>
+
+To specify the caption of the wizard, use the caption property of the [IWizardConfig](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=cb56332d-a454-d3b8-7eba-1e187d67e222) interface. ```javascript
 @localizable
 class WizardCaptions {
   static Caption = "Preload Budget Articles";
@@ -129,8 +199,9 @@ wizardConfig: IWizardConfig = {
 };
 ```
 
-|
-|PXLabel```
+</td></tr><tr><td>
+
+PXLabel```
 <px:PXWizardPage><Template>
   <px:PXFormView ...><Template>>
     <px:PXLabel runat="server" ID="lblStep1" 
@@ -138,13 +209,16 @@ wizardConfig: IWizardConfig = {
       text-align: right">Step 1 of 3</px:PXLabel>
 ```
 
-|To specify the caption of a step, use the caption attribute of the qp-tab tag. Do not specify the *Step N of M* prefix; it is calculated and added automatically to the provided caption.```language-xml
+</td><td>
+
+To specify the caption of a step, use the caption attribute of the qp-tab tag. Do not specify the *Step N of M* prefix; it is calculated and added automatically to the provided caption.```xml
 <qp-tab 
   id="tabWizardBudgetArticles-SourceParameters" 
   caption="Select the source parameters">
 ```
 
-|
+</td></tr></tbody>
+</table>
 
 **Parent topic:**[Wizard](../DeveloperGuide/UIDevRef_Wizard_Mapref.md)
 

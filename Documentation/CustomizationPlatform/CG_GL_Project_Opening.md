@@ -1,4 +1,4 @@
-# To Open a Project {#_16a7ba41-cc79-4afd-bd68-0581a292d932 .concept}
+# To Open a Project
 
 If you have selected a customization project, you can open the project for editing in the [Customization Project Editor](../UserGuide/SM_20_45_10.md) in the following ways:
 

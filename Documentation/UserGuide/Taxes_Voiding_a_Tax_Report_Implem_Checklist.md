@@ -1,4 +1,4 @@
-# Voiding of a Sales Tax Report: Implementation Checklist {#_864d4da0-171a-4a26-ae4f-87259560568f .concept}
+# Voiding of a Sales Tax Report: Implementation Checklist
 
 To ensure that the system is configured properly for voiding a tax report, make sure that the criteria listed in the table have been met in the system as described.
 

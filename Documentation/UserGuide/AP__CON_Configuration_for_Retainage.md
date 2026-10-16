@@ -1,8 +1,8 @@
-# Configuration of the Default Retainage Settings in Accounts Payable {#_f4287dd9-00d1-42cc-8893-3c99b4a9b865 .concept}
+# Configuration of the Default Retainage Settings in Accounts Payable
 
 In this topic, you will read about how to set the preference settings related to retainage, configure classes for vendors who retain amounts on bills and debit adjustments, and configure particular vendors \(and vendor locations\) that retain amounts on AP documents.
 
-## General Retainage Settings {#section_vvl_njv_vxb .section}
+## General Retainage Settings
 
 In the **Retainage Settings** section on the **General** tab of the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form, you can do the following:
 
@@ -18,7 +18,7 @@ To affect the generation of retainage documents on the [Release AP Retainage](AP
 -   Clear the **Hold Documents on Entry** check box to direct the system to automatically remove retainage documents from hold as soon as they are created. With this check box cleared, retainage documents will get the *Pending Approval* status if approvals are set up in your system for the *Bill* or *Debit Adjustment* document type, or the *Balanced* status if approvals are not used.
 -   Select the **Hold Documents on Entry** check box to direct the system to generate retainage documents with the *On Hold* status, regardless of whether approvals are set up.
 
-## Configuration of Vendor Classes {#section_awl_njv_vxb .section}
+## Configuration of Vendor Classes
 
 If your company works with documents with retainage, you can specify for a vendor class the default retainage payable account and subaccount \(if applicable\) to record the money that you withheld from the documents associated with the vendors of this class. You specify the account and subaccount in the **Retainage Payable Account** and **Retainage Payable Sub.** boxes, respectively, on the **GL Accounts** tab of the [Vendor Classes](AP_20_10_00.md) \(AP201000\) form.
 
@@ -28,7 +28,7 @@ To apply retainage to all documents of vendors created and assigned to a particu
 
 To apply payments to individual lines of AP bills and debit adjustments with retainage for vendors belonging to a particular vendor class, you can select the **Pay by Line** check box in the **Default Financial Settings** section on the **General** tab of the [Vendor Classes](AP_20_10_00.md) form. If a vendor assigned to this class is selected on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, the **Pay by Line** check box in the **Default Payment Info** section on the **Financial** tab of this form is selected by default.
 
-## Configuration of Particular Vendors {#section_fwl_njv_vxb .section}
+## Configuration of Particular Vendors
 
 For each particular vendor for which your company needs to retain a certain amount of each document total, you can specify default settings as follows on the **General** tab of the [Vendors](AP_30_30_00.md) \(AP303000\) form:
 
@@ -42,7 +42,7 @@ If the system has inserted the Retainage Payable account and subaccount \(if app
 
 The default values provided for the vendor can be overridden for a particular document.
 
-## Configuration of a Particular Vendor Location {#section_kwl_njv_vxb .section}
+## Configuration of a Particular Vendor Location
 
 **Attention:** You can create and configure multiple vendor locations only if the *Business Account Locations* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form.
 
@@ -50,7 +50,7 @@ For the default location, the Retainage Payable account and subaccount \(if appl
 
 The accounts specified for the vendor location selected in a document will be used by default to post retainage entries. The default values provided for the vendor location can be overridden for a particular document.
 
-## Configuration of Taxes {#_9d3bd148-1ffb-4ced-aa86-4aaeb89e9162 .section}
+## Configuration of Taxes
 
 If the taxes calculated on the retained amount are also retained—that is, if the **Retain Taxes** check box is selected on the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form,—you have to specify the accounts for retained taxes. To do so, on the **GL Accounts** tab of the [Taxes](TX_20_50_00.md) \(TX205000\) form, you specify the tax claimable account and subaccount in the **Retainage Tax Claimable Account** and **Retainage Tax Claimable Subaccount** boxes, respectively. This account and subaccount will be debited by the tax applied to the retained amount.
 

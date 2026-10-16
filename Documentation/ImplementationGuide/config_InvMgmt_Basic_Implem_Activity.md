@@ -1,4 +1,4 @@
-# Configuration of Order Management: Implementation Activity {#_00568016-4501-4fbe-8a5b-c368af01e57d .task}
+# Configuration of Order Management: Implementation Activity
 
 In this implementation activity, you will learn how to prepare the system to support the tracking of inventory and the processing of sales and purchase orders with stock items.
 
@@ -8,11 +8,11 @@ The following activity is based on the *U100 Basic Company* dataset. If you are 
 
 If you want to perform this activity in an out-of-the-box company instead of creating a tenant with the dataset, you need to prepare a company with the basic settings, as described in [Company Without Branches: General Information](../Shared/../ImplementationGuide/config_Basic_Company_GeneralInfo.md).
 
-## Story { .section}
+## Story
 
 Suppose that you are an implementation manager for the SweetLife Fruits &amp; Jams company, and you need to configure the system for the processing of sales and purchases of stock items through orders.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -22,7 +22,7 @@ In this activity, you will do the following:
 4.  Review the company's units of measure on the [Companies](../UserGuide/CS_10_15_00.md) \(CS101500\) form
 5.  Configure inventory control accounts on the [Chart of Accounts](../UserGuide/GL_20_25_00.md) \(GL202500\) form
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring the inventory and order management functionality, you should do the following:
 
@@ -31,7 +31,7 @@ Before you start configuring the inventory and order management functionality, y
 3.  On the [Reason Codes](../UserGuide/CS_21_10_00.md) \(CS211000\) form, create and save the reason codes that are required for configuring inventory and order management, as described in [Reason Codes: Implementation Activity](../UserGuide/Reason_Codes_Implem_Activity.md).
 4.  On the [Order Types](../UserGuide/SO_20_10_00.md) \(SO201000\) form, activate at least the *SO* order type, as described in [Sales Order Types: To Activate the SO Order Type](config_Sales_Order_Types_To_Activate_SO_Order_Type.md).
 
-## Step 1: Configuring Inventory Preferences { .section}
+## Step 1: Configuring Inventory Preferences
 
 To configure the inventory functionality, do the following:
 
@@ -45,7 +45,7 @@ To configure the inventory functionality, do the following:
 4.  In the **Data Entry Settings** section, clear the **Hold Documents On Entry** and **Validate Document Totals on Entry** check boxes.
 5.  On the form toolbar, click **Save**.
 
-## Step 2: Configuring Sales Order Preferences { .section}
+## Step 2: Configuring Sales Order Preferences
 
 To configure the sales order functionality, do the following:
 
@@ -56,7 +56,7 @@ To configure the sales order functionality, do the following:
 5.  In the **Posting Settings** section, select the **Automatically Release IN Documents** check box.
 6.  On the form toolbar, click **Save**.
 
-## Step 3: Configuring Purchase Order Preferences { .section}
+## Step 3: Configuring Purchase Order Preferences
 
 To configure the purchase order functionality, do the following:
 
@@ -67,14 +67,14 @@ To configure the purchase order functionality, do the following:
 5.  Clear the **Hold Receipts on Entry** check box.
 6.  On the form toolbar, click **Save**.
 
-## Step 4: Reviewing the Company’s UOMs { .section}
+## Step 4: Reviewing the Company’s UOMs
 
 To review the settings of the company’s units of measure \(UOMs\), do the following:
 
 1.  Open the *SWEETLIFE* company on the [Companies](../UserGuide/CS_10_15_00.md) \(CS101500\) form.
 2.  In the **Miscellaneous Settings \(Shared\)** section of the **Company Details** tab, make sure that *KG* has been specified in the **Weight UOM** box and *LITER* in the **Volume UOM** box.
 
-## Step 5: Reviewing Inventory Control Accounts { .section}
+## Step 5: Reviewing Inventory Control Accounts
 
 To review the control accounts needed for inventory operations, do the following:
 
@@ -89,7 +89,7 @@ To review the control accounts needed for inventory operations, do the following
 
 You have configured the basic inventory and order management functionality. Now you can proceed with configuring inventory entities.
 
-## Activity Recap { .section}
+## Activity Recap
 
 In this activity, we have illustrated how the implementation manager has done the following:
 

@@ -1,8 +1,8 @@
-# Discount Application in Purchase Documents {#_a8d543a1-e2fa-4042-9923-196f8c05d5ff .concept}
+# Discount Application in Purchase Documents
 
 If the *Vendor Discounts* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can configure line-level, group-level, and document-level discounts that will be applied to purchase orders. For information on configuring discounts of different types, see the topics of the chapter. This topic explains how Acumatica ERP applies discounts to purchase orders.
 
-## Types of Discounts in Purchase Orders { .section}
+## Types of Discounts in Purchase Orders
 
 When a user enters a purchase order, the system selects and applies the automatic discounts configured in the system in the following order:
 

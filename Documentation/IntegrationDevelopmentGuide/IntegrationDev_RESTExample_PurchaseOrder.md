@@ -1,4 +1,4 @@
-# PurchaseOrder {#_cbc0ce21-c2fe-4965-afed-622c4291b18f .concept}
+# PurchaseOrder
 
 This chapter presents code examples showing requests that use the `PurchaseOrder` entity.
 

@@ -1,19 +1,19 @@
-# Inbound Shipments: General Information {#_a3f90c5a-eb29-4247-2ea0-0dc2b6415da9 .concept}
+# Inbound Shipments: General Information
 
 Acumatica ERP provides you with the ability to import marketplace-fulfilled orders from Amazon. To fulfill these orders, you send *inbound shipments* with stock items that you sell to Amazon fulfillment centers, and Amazon uses the stock sent to handle the order fulfillment. You have the ability to import these inbound shipments to Acumatica ERP to streamline inventory management and improve inventory accounting.
 
-## Learning Objectives {#_2d17801d-5397-4a97-9fb3-f815abbe79e5 .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Configure the synchronization of inbound shipments between the Amazon seller account and Acumatica ERP
 -   Import inbound shipments form the Amazon seller account to Acumatica ERP
 
-## Applicable Scenarios {#_babea2db-3c58-435a-9052-c0a9372bc31b .section}
+## Applicable Scenarios
 
 You might want to synchronize inbound shipments to track available quantities of items that you send from the company warehouse to the Amazon fulfillment center.
 
-## Configuration of the Store { .section}
+## Configuration of the Store
 
 To import inbound shipments from the Amazon seller account \(also referred to as the *store* in Acumatica ERP\), you need to configure the store. To do this, perform the following general steps on the [Amazon Stores](BC_20_10_20.md) \(BC201020\) form:
 
@@ -38,7 +38,7 @@ To import inbound shipments from the Amazon seller account \(also referred to as
 
 6.  If the carrier names from the Amazon seller account do not match the ship-via codes from Acumatica ERP, configure the matching of the names and codes with a substitution list on the [Substitution Lists](SM_20_60_26.md) \(SM206026\) form. Specify the substitution list in the **Ship-Via Codes to Carriers** box on the **Inventory** tab.
 
-## Import of Inbound Shipments from Amazon { .section}
+## Import of Inbound Shipments from Amazon
 
 To import inbound shipments sent from the company warehouse to the Amazon fulfillment center, you perform the following general steps:
 
@@ -70,9 +70,8 @@ To import inbound shipments sent from the company warehouse to the Amazon fulfil
 
 The following diagram shows the process of importing inbound shipments from the Amazon seller account to Acumatica ERP.
 
-![](Images/diag_Commerce_Amazon_Importing_Inventory_Availability.png)
 
-## Import of Shipments with Lot- or Serial-Tracked Items { .section}
+## Import of Shipments with Lot- or Serial-Tracked Items
 
 The synchronization of inbound shipments with lot- or serial-tracked inventory items is automated partially because Amazon does not provide any information about the lot or serial numbers of the received items.
 
@@ -80,19 +79,19 @@ While you prepare and process the data for the *Marketplace Transfer Order* enti
 
 After the processing of the transfer order is finished and a transfer of the *2-Step* type has been created and released on the [Transfers](IN_30_40_00.md) \(IN304000\) form, you skip the synchronization of the *Marketplace Transfer Receipt* entity. Instead, you manually create a purchase receipt of the *Transfer Receipt* type on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form for the transfer.
 
-## Import of Shipments with Non-Stock Kits { .section}
+## Import of Shipments with Non-Stock Kits
 
 The synchronization of inbound shipments with non-stock kits is automated partially.
 
 While you process a transfer order created for an inbound shipment with a non-stock kit, the system creates a transfer on the [Transfers](IN_30_40_00.md) \(IN304000\) form and adds the components of the non-stock kit to that transfer based on the kit specification from the [Kit Specifications](IN_20_95_00.md) \(IN209500\) form. You skip the synchronization of the *Marketplace Transfer Receipt* entity. Instead, you manually create a purchase receipt of the *Transfer Receipt* type on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form for the kit components from the transfer.
 
-## Reconciliation of Discrepancies During the Import of Shipments { .section}
+## Reconciliation of Discrepancies During the Import of Shipments
 
 Consider that an inbound shipment has been imported to Acumatica ERP and then the Amazon fulfillment center has received it—that is, the inbound shipment has been assigned the *Closed* status. Also, consider that the received quantity of an item of the inbound shipment differs from the initially shipped quantity imported to Acumatica ERP. During the processing of the *Marketplace Transfer Receipt* entity for the shipment, the system does not add that item to the purchase receipt created on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form. You need to manually process the item.
 
 You create a purchase receipt of the *Transfer Receipt* type on the [Purchase Receipts](PO_30_20_00.md) form for the initially shipped quantity of the item. For the discrepancy between the shipped and received quantities, you create an inventory adjustment on the [Adjustments](IN_30_30_00.md) \(IN303000\) form with a positive value for the exceeded quantity or with a negative value for the insufficient quantity.
 
-## Limitations of Importing Inbound Shipments { .section}
+## Limitations of Importing Inbound Shipments
 
 The following limitations apply to the import of inbound shipments:
 

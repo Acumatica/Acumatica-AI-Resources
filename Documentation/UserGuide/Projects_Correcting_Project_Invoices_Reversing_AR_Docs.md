@@ -1,10 +1,10 @@
-# Project Invoice Correction: Reversing AR Documents {#_c17cd276-5ac4-3e1e-a238-fa3ccdaa1e16 .concept}
+# Project Invoice Correction: Reversing AR Documents
 
 In Acumatica ERP, the amount of a released accounts receivable invoice cannot be changed directly in the released document. If you have found out that you have undercharged or overcharged the customer, you first need to reverse the accounts receivable invoice to correct the customer balance.
 
 **Attention:** If the accounts receivable invoice has been created based on the pro forma invoice, you should not reverse the accounts receivable invoice manually. You create a new revision of the pro forma invoice by using the **Correct** command on the form toolbar of the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form. On release of this pro forma invoice, the corrected accounts receivable invoice will be created. For more information, see [Correcting Pro Forma Invoices](Construction_PF_Correction_Mapref.md).
 
-## Reversal of AR Invoice { .section}
+## Reversal of AR Invoice
 
 You reverse an account receivable invoice by clicking **Reverse** on the More menu of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. When you reverse a released accounts receivable invoice that was created based on a project transaction, the system creates the credit memo in the same amount. When you release this reversing credit memo, the system automatically creates project transactions that clear the project revenue budget, adjust the customer balance, and make the amount billable again.
 
@@ -12,7 +12,7 @@ You reverse an account receivable invoice by clicking **Reverse** on the More me
 
 After you have reversed the invoice, you can run billing procedure for the project again and make changes to the newly created accounts receivable invoice.
 
-## Generated Project Transactions { .section}
+## Generated Project Transactions
 
 As a result of reversal of the accounts receivable invoice that was created during billing of a project, the system generates the following project transactions:
 

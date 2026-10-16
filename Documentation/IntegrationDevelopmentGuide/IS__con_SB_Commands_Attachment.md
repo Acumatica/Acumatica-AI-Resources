@@ -1,4 +1,4 @@
-# Commands for Working with Attachments {#_14f7053a-8c07-49fe-82fb-0c6fb1b459dc .concept}
+# Commands for Working with Attachments
 
 In Acumatica ERP, you can attach files to records on Acumatica ERP forms and to detail lines on master-detail forms.
 

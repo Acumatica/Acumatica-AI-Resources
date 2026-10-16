@@ -1,8 +1,8 @@
-# Release Retainage {#_08780d31-7ad7-4f6f-9c54-2e12a9533116 .concept}
+# Release Retainage
 
 In some industries, such as construction, it’s common to withhold a portion of the contract amount until the project has been completed to ensure that the vendor will satisfy its obligations. By using the REST API, you can process bills and debit adjustments with retained amounts, including creating retainage documents \(that is, releasing retainage\) on the [Bills and Adjustments](../UserGuide/AP_30_10_00.md) \(AP301000\) form. For details about releasing retainage, see [Processing AP Documents with Retainage](../UserGuide/AP__MNG_Managing_Bills_with_Retainage.md).
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to configure your client application and the Acumatica ERP instance to be used as follows:
 
@@ -11,23 +11,23 @@ Before you test the code below, you need to configure your client application an
 3.  To sign in to the instance in the client application, use the tenant name \(which you specified when you created the instance\) and the *HEADOFFICE* branch.
 4.  If you are using Postman as the client application for testing, in the `IntegrationDevelopmentGuide.postman_collection.json` collection, make sure that the collection’s variables have the proper values. This collection is located in the `IntegrationDevelopment\Help` folder of the [Help-and-Training-Examples](https://github.com/Acumatica/Help-and-Training-Examples) repository on GitHub.
 
-## Request { .section}
+## Request
 
-You can use the following request example to create a retainage bill in the amount of $500 through the REST API. In the example, you specify *April 1, 2026* as the business date. As a result of this request, a new bill is created on the [Bills and Adjustments](../UserGuide/AP_30_10_00.md) \(AP301000\) form with the **Retainage Document** check box selected.
+You can use the following request example to create a retainage bill in the amount of $500 through the REST API. In the example, you specify *April 1, 2027* as the business date. As a result of this request, a new bill is created on the [Bills and Adjustments](../UserGuide/AP_30_10_00.md) \(AP301000\) form with the **Retainage Document** check box selected.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-POST /entity/Default/25.200.001/Bill/ReleaseRetainage HTTP/1.1
+POST /entity/Default/26.200.001/Bill/ReleaseRetainage HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
 Content-Type: application/json
-PX-CbApiBusinessDate: 2026/04/01
+PX-CbApiBusinessDate: 2027/04/01
 
 {
     "entity": {
         "Type": {
-            "value": "Bill"
+            "value": { "id": "INV" }
         },
         "ReferenceNbr": {
             "value": "000072"
@@ -35,10 +35,10 @@ PX-CbApiBusinessDate: 2026/04/01
     },
     "parameters": {
         "Date": {
-            "value": "2026-03-01T11:00:00.000Z"
+            "value": "2027-03-01T11:00:00.000Z"
         },
         "PostPeriod": {
-            "value": "032026"
+            "value": "032027"
         },
         "AmtToRelease": {
             "value": 500
@@ -47,7 +47,7 @@ PX-CbApiBusinessDate: 2026/04/01
 }
 ```
 
-## Usage Notes { .section}
+## Usage Notes
 
 In the body of the request, you can identify the entity by using the entity ID or the key fields, which are the following:
 

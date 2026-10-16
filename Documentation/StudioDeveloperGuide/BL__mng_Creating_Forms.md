@@ -1,4 +1,4 @@
-# Creating Setup Forms {#_884fc64f-bea3-4a0d-a1fa-ece24e5096be .concept}
+# Creating Setup Forms
 
 In this chapter, you can find information about how to create specific types of forms, such as setup forms.
 

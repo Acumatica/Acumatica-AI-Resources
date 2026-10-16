@@ -1,47 +1,176 @@
-# Case Management: Implementation Checklist {#_a117141a-52ee-4a2c-9d0b-f03ae5d1e169 .concept}
+# Case Management: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for managing cases, and to understand \(and change, if needed\) the settings that affect the workflow of case management.
 
-## Mandatory Configuration { .section}
+## Mandatory Configuration
 
 To ensure that the basic CRM configuration for managing cases has been implemented properly, make sure that the necessary features have been enabled, entities have been created, and settings have been specified, as described in the following checklist.
 
-|Form|Criteria to Check|
-|----|-----------------|
-|[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)|The following features have been enabled:-   *Customer Management*: This feature provides the customer relationship management \(CRM\) functionality.
+<table id="_75f5a845-9a95-409c-9ffd-7c022ec672dc"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Criteria to Check
+
+</th></tr></thead><tbody><tr><td>
+
+[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)
+
+</td><td>
+
+The following features have been enabled:-   *Customer Management*: This feature provides the customer relationship management \(CRM\) functionality.
 -   *Case Management* in the *Customer Management* group of features: This feature gives customer support personnel the ability to create support cases, assign cases to owners, and process cases.
 
-|
-|[Case Classes](CR_20_60_00.md) \(CR206000\)|The needed case classes have been created with the necessary settings and attributes, as described in [Defining Case Classes](CRM_Case_Classes_Mapref.md).|
-|[Customer Management Preferences](CR_10_10_00.md) \(CR101000\)|On the **General** tab \(**Data Entry Settings** section\), in the **Default Case Class** box, the default case class, that is, the case class that will be used for most cases.|
-|[Employee Classes](EP_20_20_00.md) \(EP202000\)|The needed employee classes have been created with the necessary settings and attributes.|
-|[Employees](EP_20_30_00.md) \(EP203000\)|Employee records have been created in the system.|
-|[Users](SM_20_10_10.md) \(SM201010\)|User profiles have been created for employees.|
+</td></tr><tr><td>
 
-## Recommended Configuration { .section}
+[Case Classes](CR_20_60_00.md) \(CR206000\)
 
-|Form|Criteria to Check|
-|----|-----------------|
-|[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)|The following features have been enabled:
+</td><td>
+
+The needed case classes have been created with the necessary settings and attributes, as described in [Defining Case Classes](CRM_Case_Classes_Mapref.md).
+
+</td></tr><tr><td>
+
+[Customer Management Preferences](CR_10_10_00.md) \(CR101000\)
+
+</td><td>
+
+On the **General** tab \(**Data Entry Settings** section\), in the **Default Case Class** box, the default case class, that is, the case class that will be used for most cases.
+
+</td></tr><tr><td>
+
+[Employee Classes](EP_20_20_00.md) \(EP202000\)
+
+</td><td>
+
+The needed employee classes have been created with the necessary settings and attributes.
+
+</td></tr><tr><td>
+
+[Employees](EP_20_30_00.md) \(EP203000\)
+
+</td><td>
+
+Employee records have been created in the system.
+
+</td></tr><tr><td>
+
+[Users](SM_20_10_10.md) \(SM201010\)
+
+</td><td>
+
+User profiles have been created for employees.
+
+</td></tr></tbody>
+</table>
+
+## Recommended Configuration
+
+<table id="_cf9f1fa8-89e1-4a19-a5f3-7e1c5da327d4"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Criteria to Check
+
+</th></tr></thead><tbody><tr><td>
+
+[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)
+
+</td><td>
+
+The following features have been enabled:
 
  -   *Scheduled Processing* \(under the *Monitoring &amp; Automation* group of features\): This feature gives you the ability to create schedules for the automatic processing of documents, including the sending of emails.
 -   *Time Management*: This feature gives you the ability to track the time your organization's employees spend on activities that can be included in time cards.
 
-|
-|[Email Accounts](SM_20_40_02.md) \(SM204002\)|A system email account has been configured, as described in [Configuring Email Accounts](EM__con_Configuring_Email_Accounts.md).|
-|[Business Events](SM_30_20_50.md) \(SM302050\)|A business event that causes the system to send emails to customers has been created.|
-|[Email Templates](SM_20_40_03.md) \(SM204003\)|A notification template that is a subscriber for the business event has been created.|
-|[Automation Schedules](SM_20_50_20.md) \(SM205020\)|A schedule for the sending of emails has been created, as described in [Managing Emails](EP__con_Email_Management.md).|
-|[Non-Stock Items](IN_20_20_00.md) \(IN202000\)|The required non-stock items of the *Labor* type with needed settings have been created, as described in [Creating Labor Items](Non_Stock_Item_Projects_Mapref.md).|
-|[Labor Rates](PM_20_99_00.md) \(PM209900\)|The cost rates that are specific to particular labor items have been created, as described in [Creating Labor Items](Non_Stock_Item_Projects_Mapref.md).|
-|[Attributes](CS_20_50_00.md) \(CS205000\)|Attributes have been created with the necessary settings.|
-|[Cases](CR_30_60_00.md) \(CR306000\)|The **User-Defined Fields** tab, which holds the values of attributes required by your company for cases, has been added.|
-|[Earning Types](EP_10_20_00.md) \(EP102000\)|If you will be using the *Per Activity* billing mode, the needed earning types that are used in activities have been created.**Tip:** A predefined set of earning types has been created in the system. You can modify this set as needed.
+</td></tr><tr><td>
 
-|
-|[Activity Types](CR_10_20_00.md) \(CR102000\)|The activity types that you plan to use are defined and have the **Active** check box selected.|
+[Email Accounts](SM_20_40_02.md) \(SM204002\)
 
-## Other Settings That Affect the Workflow { .section}
+</td><td>
+
+A system email account has been configured, as described in [Configuring Email Accounts](EM__con_Configuring_Email_Accounts.md).
+
+</td></tr><tr><td>
+
+[Business Events](SM_30_20_50.md) \(SM302050\)
+
+</td><td>
+
+A business event that causes the system to send emails to customers has been created.
+
+</td></tr><tr><td>
+
+[Email Templates](SM_20_40_03.md) \(SM204003\)
+
+</td><td>
+
+A notification template that is a subscriber for the business event has been created.
+
+</td></tr><tr><td>
+
+[Automation Schedules](SM_20_50_20.md) \(SM205020\)
+
+</td><td>
+
+A schedule for the sending of emails has been created, as described in [Managing Emails](EP__con_Email_Management.md).
+
+</td></tr><tr><td>
+
+[Non-Stock Items](IN_20_20_00.md) \(IN202000\)
+
+</td><td>
+
+The required non-stock items of the *Labor* type with needed settings have been created, as described in [Creating Labor Items](Non_Stock_Item_Projects_Mapref.md).
+
+</td></tr><tr><td>
+
+[Labor Rates](PM_20_99_00.md) \(PM209900\)
+
+</td><td>
+
+The cost rates that are specific to particular labor items have been created, as described in [Creating Labor Items](Non_Stock_Item_Projects_Mapref.md).
+
+</td></tr><tr><td>
+
+[Attributes](CS_20_50_00.md) \(CS205000\)
+
+</td><td>
+
+Attributes have been created with the necessary settings.
+
+</td></tr><tr><td>
+
+[Cases](CR_30_60_00.md) \(CR306000\)
+
+</td><td>
+
+The **User-Defined Fields** tab, which holds the values of attributes required by your company for cases, has been added.
+
+</td></tr><tr><td>
+
+[Earning Types](EP_10_20_00.md) \(EP102000\)
+
+</td><td>
+
+If you will be using the *Per Activity* billing mode, the needed earning types that are used in activities have been created.**Tip:** A predefined set of earning types has been created in the system. You can modify this set as needed.
+
+</td></tr><tr><td>
+
+[Activity Types](CR_10_20_00.md) \(CR102000\)
+
+</td><td>
+
+The activity types that you plan to use are defined and have the **Active** check box selected.
+
+</td></tr></tbody>
+</table>
+
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of case management by specifying additional settings as follows:
 
@@ -51,7 +180,7 @@ You can affect the workflow of case management by specifying additional settings
 -   If your company’s customer support processes include the approval of cases, configure an approval map, as described in [Approval Configuration: Approval Maps](../ImplementationGuide/config_Approvals_Create_Approval_Maps.md).
 -   If you want to associate activities with projects and project tasks, enable the *Projects* feature on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form and configure the project accounting functionality, as described in [Basic Project Accounting](../ImplementationGuide/config_Project_Basic_Config_Mapref.md).
 
-## Validation of Configuration { .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you perform instructions similar to those described in the following topics:
 

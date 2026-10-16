@@ -1,16 +1,16 @@
-# Contract Setup and Activation: General Information {#_9ae6ce62-071e-4fa6-8148-4765a5301137 .concept}
+# Contract Setup and Activation: General Information
 
 After you have created a contract draft and specified the needed settings, you need to set up the contract and activate it to continue performing operations with it.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to perform the setup and activation of the contract.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You set up and activate the contract to start recording the business processes that occur during the lifecycle of the contract.
 
-## Contract Setup and Activation as Separate Actions { .section}
+## Contract Setup and Activation as Separate Actions
 
 After you have implemented the contract functionality, drafted a particular contract, and made needed revisions to the contract based on internal and customer feedback, you can proceed to the setup and activation of the contract.
 
@@ -22,7 +22,7 @@ You activate the contract on the [Customer Contracts](CT_30_10_00.md) form by cl
 
 You can record contract usage after you have activated the contract.
 
-## Simultaneous Contract Setup and Activation { .section}
+## Simultaneous Contract Setup and Activation
 
 The way you initiate a contract may depend on the services you provide. You may want the contract signing and the start of provision of services to occur at different times. For example, you might need some time to install the equipment required for the provision of services, and you may want to bill the customer for this equipment before the installation. In this case, the recurring billing should begin at the start date of provision. If you don't need to separate the time of the contract signing and the service provision, then you can perform these two actions simultaneously.
 

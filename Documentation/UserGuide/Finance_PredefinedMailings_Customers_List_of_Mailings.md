@@ -1,4 +1,4 @@
-# Mailings for Customers: Available Mailings {#_8f755566-abfd-408f-be33-01a643f41db9 .concept}
+# Mailings for Customers: Available Mailings
 
 You can view the list of predefined mailings and add new ones by using the **Mailing &amp; Printing** tab of the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form. Here you can configure the basic settings of each mailing, these settings will be used by default when you add a mailing to a customer class or a customer.
 

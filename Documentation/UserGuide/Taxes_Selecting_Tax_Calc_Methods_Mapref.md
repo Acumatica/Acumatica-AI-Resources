@@ -1,4 +1,4 @@
-# Selecting Tax Calculation Methods {#_06211eaf-4360-4c63-8b09-c8b66d302ec2 .concept}
+# Selecting Tax Calculation Methods
 
 The topics of this chapter describe how to configure various tax calculation methods and illustrates how to apply them to documents.
 

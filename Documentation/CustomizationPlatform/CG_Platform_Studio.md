@@ -1,4 +1,4 @@
-# Integrating the Project Editor with Microsoft Visual Studio {#_82193b77-5be3-47a0-9bf6-ae654b00c9a3 .concept}
+# Integrating the Project Editor with Microsoft Visual Studio
 
 You do not need to install Microsoft Visual Studio to customize the Acumatica ERP UI or to develop a simple changes of business logic, because the platform includes the [Customization Tools](CG_Platform_Tools.md), which are designed for these purposes and available in your web browser. However you can use Visual Studio to develop the customization code.
 

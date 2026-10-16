@@ -1,4 +1,4 @@
-# Designing Dashboard Contents {#_81323ebc-b8bc-450b-9aab-9963a6f12998 .concept}
+# Designing Dashboard Contents
 
 This chapter provides information about Acumatica ERP dashboards, types of widgets, and basic steps of designing a dashboard.
 

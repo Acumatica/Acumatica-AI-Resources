@@ -1,8 +1,8 @@
-# Radio Button: Configuration {#_607de395-a8f6-4151-9bf1-0f9ed8487fe5 .concept}
+# Radio Button: Configuration
 
 In this topic, you will learn how to configure radio buttons for various layouts.
 
-## Vertical Group of Radio Buttons { .section}
+## Vertical Group of Radio Buttons
 
 A simple group of radio buttons is defined in HTML with a field tag. You need to specify the qp-radio control type in the configuration of the control. By default, radio buttons are rendered horizontally.
 
@@ -17,9 +17,8 @@ In the following example, the radio buttons are configured to be rendered vertic
 
 The following screenshot shows the resulting layout.
 
-![](Images/UIDevRef_RadioButton_Simple.png "Vertical group of radio buttons")
 
-## Group of Radio Buttons with a Box Next to a Radio Button {#_094a4002-b2be-4151-aac3-744e9c5121da .section}
+## Group of Radio Buttons with a Box Next to a Radio Button
 
 In some cases, you might need the user to provide additional information if a particular radio button is selected. You can do this by placing a box right of the name of the radio button.
 
@@ -54,7 +53,6 @@ The following example implements this approach.
 
 The code above results in the layout shown in the following screenshot.
 
-![](Images/UIDevRef_RadioButton_WithBox.png "A box next to a radio button")
 
 **Parent topic:**[Radio Button \(Option Button\)](../DeveloperGuide/UIDevRef_RadioButton_Mapref.md)
 

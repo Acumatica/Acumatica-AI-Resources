@@ -35,7 +35,7 @@ See the README of each directory for a detailed list of skills, prompts, and ref
 
 ## Additional Resources
 
-- [**Documentation**](Documentation/index.md) — read-only Markdown snapshot of the official Acumatica product and developer documentation for Version 2026 R1; see the [documentation notice](Documentation/NOTICE.md)
+- [**Documentation**](Documentation/index.md) — read-only Markdown snapshot of the official Acumatica product and developer documentation for Version 2026 R2; see the [documentation notice](Documentation/NOTICE.md)
 - [**Verification**](Verification/) — Skill-verification reports
 
 ## Publishing and Governance

@@ -1,8 +1,8 @@
-# Acumatica Add-In for Outlook: To Install the Acumatica Add-In {#_a07bcc08-a065-4005-baa2-37892f3cca01 .task}
+# Acumatica Add-In for Outlook: To Install the Acumatica Add-In
 
 The instructions below describe how you install the Acumatica add-in and prepare it for use.
 
-## To Install the Add-In {#section_qhv_lhh_khc .section}
+## To Install the Add-In
 
 To install the add-in, you need to sign in to your mailbox in Outlook on the web and upload the add-in manifest. Do the following:
 
@@ -13,14 +13,13 @@ To install the add-in, you need to sign in to your mailbox in Outlook on the web
 5.  In the warning dialog box, click **Install** to install the add-in.
 6.  Close the **Add-Ins for Outlook** dialog box.
 
-## To Prepare the Add-In {#section_zrm_hhh_khc .section}
+## To Prepare the Add-In
 
 After installing the add-in, do the following to prepare it for first use:
 
 1.  Refresh the browser page and clear your cookies; for example, press Ctrl and click the **Reload this page** button in your browser. If you’re using the desktop version of Outlook, close all its windows and open it again.
 2.  Open any email and click the More Apps icon on the ribbon toolbar or in the upper-right corner of the email. In the list of apps, you’ll see the Acumatica button \(as shown below\).
 
-    ![](Images/OU_AddIn_Acumatica_button.png "The Acumatica button")
 
     The button is available both in the desktop client and in Outlook on the web.
 

@@ -1,8 +1,8 @@
-# To Add a New Locale {#_80c0cca5-8c8d-4226-92ea-79b5e6e897c9 .task}
+# To Add a New Locale
 
 To add a new locale to the application, you use the [System Locales](SM_20_05_50.md) \(SM200550\) form. For more information, see [Locales and Languages](SM__CON_Locales_and_Languages.md).
 
-## To Add a New Locale { .section}
+## To Add a New Locale
 
 1.  Open the [System Locales](SM_20_05_50.md) \(SM200550\) form.
 2.  Click **Add Row** on the table toolbar to append a new row to the table.

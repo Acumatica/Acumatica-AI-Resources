@@ -1,8 +1,8 @@
-# Tax Report Configuration: To Create a Tax Report for VAT {#_96a84492-07f2-4661-a595-bd1789dbb001 .task}
+# Tax Report Configuration: To Create a Tax Report for VAT
 
 By performing this implementation activity, you will learn how to configure the content of a tax report for general VAT, and to specify the rules of accumulating the data in the report lines.
 
-## Story { .section}
+## Story
 
 Suppose that the tax agency, to which the SweetLife Fruits &amp; Jams company is going to report VAT, requires that the tax report includes the following lines:
 
@@ -18,13 +18,13 @@ Suppose that the tax agency, to which the SweetLife Fruits &amp; Jams company is
 
 Acting as an implementation consultant, you need to configure the tax report to meet the requirements of the tax agency.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following configuration tasks have been performed to prepare the system for this activity to be performed:
 
 -   On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, the *VAT Reporting* feature has been enabled.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will prepare the tax report by doing the following:
 
@@ -33,14 +33,14 @@ In this activity, you will prepare the tax report by doing the following:
 3.  On the [Reporting Groups](../UserGuide/TX_20_52_00.md) \(TX205200\) form, you will specify the report lines that should be updated by the taxes associated with each reporting group.
 4.  On the [Reporting Settings](../UserGuide/TX_20_51_00.md) form, you will review the calculation rule for the report lines added automatically by the system.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare the system, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as an implementation consultant by using the *gibbs* username and the *123* password.
 2.  As a prerequisite activity, in the company to which you are signed in, be sure you have configured a tax agency as described in [Tax Agency: To Set Up a Tax Agency for VAT](TaxAgency_VAT_Implem_Activity.md).
 
-## Step 1: Creating a Tax Report and Adding Report Lines { .section}
+## Step 1: Creating a Tax Report and Adding Report Lines
 
 To create a tax report and add report lines to it, do the following:
 
@@ -71,7 +71,7 @@ To create a tax report and add report lines to it, do the following:
 
 5.  On the form toolbar, click **Save**.
 
-## Step 2: Adding Reporting Groups to the Report { .section}
+## Step 2: Adding Reporting Groups to the Report
 
 To add reporting groups to the newly created tax report, while you are still viewing the report on the [Reporting Settings](../UserGuide/TX_20_51_00.md) \(TX205100\) form, do the following:
 
@@ -97,7 +97,7 @@ To add reporting groups to the newly created tax report, while you are still vie
 
 2.  On the form toolbar, click **Save**.
 
-## Step 3: Specifying the Report Lines to be Updated { .section}
+## Step 3: Specifying the Report Lines to be Updated
 
 To specify which report lines will be updated with taxes, do the following:
 
@@ -138,7 +138,7 @@ To specify which report lines will be updated with taxes, do the following:
     The taxes that you will assign to the *Exempt Purchases* reporting group will be included in report lines *5* and *6*.
 
 
-## Step 4: Reviewing the Calculation Rule for Report Lines { .section}
+## Step 4: Reviewing the Calculation Rule for Report Lines
 
 To review the calculation rules for report lines, do the following:
 

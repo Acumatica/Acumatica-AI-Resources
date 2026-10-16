@@ -1,10 +1,10 @@
-# Create a Transfer Receipt with Allocations for a Transfer Order {#_24c68cc6-6985-4421-86c9-e29156f3c150 .concept}
+# Create a Transfer Receipt with Allocations for a Transfer Order
 
 If you are using the contract-based REST API to integrate Acumatica ERP with an external system, this external system can create transfer receipts with allocations in Acumatica ERP in a single API call. For details about the creation of transfer receipts, see [Two-Step Transfers: General Information](../UserGuide/InvMgmt_2Step_Transfers_GeneralInfo.md).
 
 For a detailed description of a user scenario when transfer receipts with allocations can be created, see [Sales from Multiple Warehouses: General Information](../UserGuide/OrderMgmt_Sale_from_Multiple_Warehouses_GeneralInfo.md).
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you do the following to configure your client application and the Acumatica ERP instance to be used:
 
@@ -28,22 +28,22 @@ To further prepare the system, you need to create a sales order with items alloc
 5.  On the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form, which opens for the created transfer order, click **Create Shipment** on the form toolbar. In the **Specify Shipment Parameters** dialog box, leave the parameter values as they are, and click **OK**.
 6.  On the [Shipments](../UserGuide/SO_30_20_00.md) \(SO302000\) form \(which opens for the created shipment\), on the form toolbar, click **Confirm Shipment** and then click **Update IN**.
 
-## Request { .section}
+## Request
 
 You can use the following example of an HTTP request to create a transfer receipt with allocations for the transfer order that was just created. Half of the *APJAM08* inventory item \(0.5 units\) will be moved to the *JS1* location, and the other half of the *APJAM08* inventory item will be moved to the *JS2* location.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-PUT /entity/Default/25.200.001/PurchaseReceipt?
-    $expand=Details,Details/Allocations HTTP/1.1
+PUT /entity/Default/26.200.001/PurchaseReceipt?
+    $expand=Details($expand=Allocations) HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
 Content-Type: application/json
 
 {
     "Type": {
-        "value": "Transfer Receipt"
+        "value": { "id": "RX" }
     },
     "Warehouse": {
         "value": "RETAIL"
@@ -54,16 +54,16 @@ Content-Type: application/json
                 "value": "TR"
             },
             "TransferOrderNbr": {
-                "value": "000064"
+                "value": "000069"
             },
             "TransferOrderLineNbr": {
-                "value": "1"
+                "value": 1
             },
             "TransferShipmentNbr": {
-                "value": "000059"
+                "value": "000063"
             },
             "ReceiptQty": {
-                "value": "1"
+                "value": 1
             },
             "Allocations": [
                 {

@@ -1,4 +1,4 @@
-# To Delete a Custom Analytical Report from a Project {#_3e5b4d0d-b228-4681-9923-0d65cf766575 .concept}
+# To Delete a Custom Analytical Report from a Project
 
 To remove a *ReportDefinition* item from a project, perform the following actions:
 

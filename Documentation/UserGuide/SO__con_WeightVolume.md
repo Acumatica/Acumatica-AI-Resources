@@ -1,4 +1,4 @@
-# Weight and Volume in Sales Orders {#_047d6ec8-4554-42f9-9483-63135cee57ea .concept}
+# Weight and Volume in Sales Orders
 
 A third-party carrier used to deliver products from your company to a customer can charge your company specific freight amounts that depend on the weights or volumes of the packages in shipments. The carrier may also set restrictions on the weight or volume of packages. Landed costs incurred for shipments delivered from vendors to your company can be allocated by the weight or volume of the items in the shipment.
 

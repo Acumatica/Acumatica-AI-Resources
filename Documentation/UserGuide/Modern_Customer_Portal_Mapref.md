@@ -1,4 +1,4 @@
-# Creating a Portal {#_1cc01406-148e-46b2-9052-bfd85f72ad86 .concept}
+# Creating a Portal
 
 In the Modern Customer Portal, your customers can view their interactions with your company and perform common tasks online. As an Acumatica ERP administrator, you can create each customer portal, manage its settings, and set up its catalog.
 

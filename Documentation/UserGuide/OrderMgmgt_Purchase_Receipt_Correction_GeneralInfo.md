@@ -1,4 +1,4 @@
-# Purchase Receipt Correction: General Information {#_6957edbd-52a0-42c9-87d8-eb6426f13e77 .concept}
+# Purchase Receipt Correction: General Information
 
 In Acumatica ERP, you can modify released purchase receipts created for normal and drop-ship purchase orders—that is, purchase orders of the *Normal* and *Drop-Ship* types.
 
@@ -6,7 +6,7 @@ In Acumatica ERP, you can modify released purchase receipts created for normal a
 
 This topic focuses on the correction of normal purchase receipts. For details on purchase receipt correction for drop-ship purchase orders, see [Purchase Receipt Correction: Correction of Receipts for Drop-Ship Purchase Orders](OrderMgmt_Correction_of_a_Purchase_Receipt_for_a_Drop_Ship_Purchase_Orders.md).
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -16,11 +16,11 @@ In this chapter, you will learn how to do the following:
 -   Check whether a purchase receipt can be canceled
 -   Cancel a purchase receipt
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You correct a purchase receipt if an error was made in its lines during processing. For example, an incorrect item quantity, lot or serial number, or expiration date was specified.
 
-## Correction of a Purchase Receipt { .section}
+## Correction of a Purchase Receipt
 
 You can correct a purchase receipt for a normal purchase order on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form if this receipt has the *Released* status. \(If the *Manufacturing* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) form, none of the receipt lines must be linked to production order materials.\) While viewing the purchase receipt, you click **Correct Receipt** on the More menu. The system checks whether the purchase receipt meets all the requirements for correction. \(See [Requirements for the Original Purchase Receipt](#_76ed007a-2cf9-4532-8e57-f89f1f0d5c42).\)
 
@@ -36,7 +36,7 @@ If you update a purchase receipt line on the **Details** tab, the system automat
 
 To complete the correction process, you click **Release** on the More menu for the correction receipt. This causes the system to validate the state of inventory, as described in [Purchase Receipt Correction: Inventory Validation](OrderMgmt_Inventory_Validation.md).
 
-## Results of Releasing the Correction Receipt { .section}
+## Results of Releasing the Correction Receipt
 
 On successful inventory validation, the system generates a correction inventory issue for the correction receipt. You can find its link in the **IN Ref. Nbr.** box on the **Other** tab of the [Purchase Receipts](PO_30_20_00.md) form. This issue is released automatically, regardless of the state of the **Release IN Documents Automatically** check box on the [Purchase Orders Preferences](PO_10_10_00.md) \(PO101000\) form. For details on this inventory issue, see [Purchase Receipt Correction: Correction Inventory Issue](OrderMgmt_Correction_Inventory_Issue.md).
 
@@ -49,13 +49,12 @@ Also, for each line of the correction receipt that has changes in the **Receipt 
 
 Also, if the purchase order has a related sales order with lines marked for purchase, the system updates the lines' allocated quantities in this sales order. You can view the updated quantities in the **Line Details** dialog box of the [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 
-## Workflow of the Correction of a Purchase Receipt {#section_vv2_1y4_y4b .section}
+## Workflow of the Correction of a Purchase Receipt
 
 The following diagram illustrates the workflow related to the correction of a purchase receipt for a normal purchase order.
 
-![](Images/diag_OrderMgmt_Correction_of_Purchase_Receipts_Normal.png)
 
-## Requirements for the Original Purchase Receipt {#_76ed007a-2cf9-4532-8e57-f89f1f0d5c42 .section}
+## Requirements for the Original Purchase Receipt
 
 On the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form, you can correct a purchase receipt for a normal purchase order only if the receipt meets all of these requirements:
 
@@ -70,7 +69,7 @@ On the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form, you can correct a 
 -   Its stock is not locked due to a physical inventory count.
 -   Its related purchase order has no related AP bills, except for those that have been fully reversed. The system checks the purchase order if it has the **Allow AP Bill Before Receipt** check box selected on the **Other** tab of the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form.
 
-## Editable Details and Settings of the Correction Purchase Receipt {#_2bcc3391-a41a-4c9f-9957-8898b01ea11a .section}
+## Editable Details and Settings of the Correction Purchase Receipt
 
 In a correction receipt for a normal purchase order, you can update the following elements in the Summary area of the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form:
 
@@ -105,7 +104,7 @@ In a line of the correction receipt, you can edit the values in the following co
 
 During the correction, if you accidentally make changes to a line on the **Details** tab, you can click **Cancel** for this line on the table toolbar. The system will discard all changes and revert the line to its original state at the time of document creation. Also, it will clear the **Corrected** check box in the line. Note that if the **Corrected** check box in the line is selected due to the change of **Date** or **Exchange Rate** in the Summary area, it will remain selected.
 
-## Restrictions Applied to the Original and Correction Receipts { .section}
+## Restrictions Applied to the Original and Correction Receipts
 
 While an original receipt has the *Under Correction* status, you can't do the following:
 

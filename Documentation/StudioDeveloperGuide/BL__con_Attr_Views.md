@@ -1,4 +1,4 @@
-# Attributes on Data Views {#_3073449e-2746-472f-b834-6d730bfac4fb .concept}
+# Attributes on Data Views
 
 You can place the attributes listed in the following table on the declaration of a data view in a graph.
 

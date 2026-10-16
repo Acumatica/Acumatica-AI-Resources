@@ -1,12 +1,12 @@
-# UNION and UNION ALL Operations in Traditional BQL {#_6d2f5af3-e9e5-4c63-b684-b0bd54de9922 .concept}
+# UNION and UNION ALL Operations in Traditional BQL
 
 The Acumatica Framework natively supports the standard `UNION` and `UNION ALL` SQL database operations in traditional BQL. You can write BQL queries that support these operations by using the Union and UnionAll keywords in your traditional BQL statements.
 
-## Performing a Union Operation in BQL { .section}
+## Performing a Union Operation in BQL
 
 Suppose that you are working with two data access classes \(DACs\), called `ExternalStorage` and `InternalStorage`. These DACs are shown in the following code.
 
-```language-csharp
+```csharp
 public class ExternalStorage : PXBqlTable, IBqlTable
 {
    #region StorageID
@@ -65,7 +65,7 @@ public class InternalStorage : PXBqlTable, IBqlTable
 
 Further suppose that you want to perform a `UNION` operation by using the DACs that have been defined above. You need to declare a DAC that will store the result of the `UNION` operation. To do this, you can declare a shared DAC called `Storage` as follows.
 
-```language-csharp
+```csharp
 public class Storage : PXBqlTable, IBqlTable
 {
    #region StorageID
@@ -106,7 +106,7 @@ public class Storage : PXBqlTable, IBqlTable
 
 You will perform the `UNION` operation on the `ExternalStorage` and `InternalStorage` DACs and store the resulting data in the shared `Storage` DAC. Before you do that, you must define the relationship—the field mapping—between the fields of the `ExternalStorage` and `InternalStorage` DACs and the fields of the shared `Storage` DAC in the relevant graph. You can do this by first using the BqlFieldMapper class to define the field mappings, and then using the BqlTableMapper class to bind the DAC to the BqlFieldMapper implementation. The following code shows an example.
 
-```language-csharp
+```csharp
 // Use BqlFieldMapper to define the field mappings between InternalStorage
 // and Storage DACs.
 public class InternalStorageToStorage : BqlFieldMapper<InternalStorage, Storage>
@@ -123,7 +123,7 @@ public class InternalStorageMapped : BqlTableMapper<InternalStorage, InternalSto
 
 By default, the BqlFieldMapper class maps these fields based on their names. However, you can override this mapping in a number of ways, as shown in the following code.
 
-```language-csharp
+```csharp
 // Use BqlFieldMapper to define the field mappings between ExternalStorage
 // and Storage DACs.
 public class ExternalStorageToStorage : BqlFieldMapper<ExternalStorage, Storage>
@@ -150,7 +150,7 @@ You can use the BqlFieldMapper class to create multiple field mappings for the s
 
 Finally, to perform the `UNION` operation by using the Union keyword, you can execute the following BQL statement.
 
-```language-csharp
+```csharp
 MappedSelect<Storage, From<InternalStorageMapped, Union<ExternalStorageMapped>>,
  Where<Storage.storageID, Greater<int_1>>, OrderBy<Asc<Storage.storageID>>>
 ```

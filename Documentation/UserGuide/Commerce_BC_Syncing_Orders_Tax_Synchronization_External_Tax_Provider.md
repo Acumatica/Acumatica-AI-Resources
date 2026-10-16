@@ -1,8 +1,8 @@
-# Import of Taxes: External Tax Provider {#_fba9cf1d-68d8-421d-8069-7390ba5194ff .concept}
+# Import of Taxes: External Tax Provider
 
 You can set up the synchronization of taxes if you use an external tax provider for automatic tax calculation and for tax reporting.
 
-## Configuration of Tax Synchronization for the External Tax Service { .section}
+## Configuration of Tax Synchronization for the External Tax Service
 
 To set up the synchronization of taxes for an external tax provider, you need to perform the following general steps:
 
@@ -10,7 +10,7 @@ To set up the synchronization of taxes for an external tax provider, you need to
 2.  Configure the integration of Acumatica ERP with the external tax provider by using the same account as was used in the previous step. For instructions on how to integrate Acumatica ERP with Avalara AvaTax or Vertex, see [Setup of Online Integration with Avalara AvaTax](TX__con_Integrating_with_AvaTax.md) or [Online Integration with Vertex Tax Calculation](TX__con_Vertex_Integration.md).
 3.  Configure the synchronization of taxes with the BigCommerce store as described in the following section.
 
-## Tax Synchronization Settings { .section}
+## Tax Synchronization Settings
 
 To set up the tax synchronization with the BigCommerce store, you specify the following settings on the **Orders** tab of the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form:
 

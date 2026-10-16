@@ -1,4 +1,4 @@
-# Existing Form {#_1a4912fa-36a1-4da7-bc77-dcf9575a9a7a .concept}
+# Existing Form
 
 You can customize the user interface of an existing form of Acumatica ERP by using the [Screen Editor](../UserGuide/AU_20_45_20.md). The editor is a visual tool that you can use to perform the following changes in the ASPX code for a form:
 

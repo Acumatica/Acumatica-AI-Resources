@@ -1,20 +1,20 @@
-# Earning Types: Implementation Activity {#_99683901-2e1a-49c9-bd4c-257099544833 .task}
+# Earning Types: Implementation Activity
 
 In the following implementation activity, you will learn how to define new earning types in addition to the predefined set of earning types in Acumatica ERP.
 
-## Story { .section}
+## Story
 
 Suppose that in addition to the predefined earning types for regular work hours, overtime, public holidays, and vacations, the SweetLife company is going to use earning type codes for bonuses, double time, personal time, and tips. Also, the predefined code for vacations will be used to accrue paid time off, so its default settings need to be updated correspondingly. Acting as a system administrator, you need to create and define the needed earning type codes.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100 Payroll* snapshot, for the purposes of this activity, the *69500* account of the *Expense* type has been created on the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form.
 
-## Process Overview { .section}
+## Process Overview
 
 You create the needed earning type codes by using the [Earning Type Codes](PR_10_20_00.md) \(PR102000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating earning type codes, you should launch the Acumatica ERP website and sign in as a system administrator by using the following credentials:
 
@@ -25,7 +25,7 @@ As a prerequisite activity, in the company to which you are signed in, be sure y
 
 As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course.
 
-## Step 1: Creating an Earning Type Code for Bonuses { .section}
+## Step 1: Creating an Earning Type Code for Bonuses
 
 To create an earning type code for bonuses, do the following:
 
@@ -43,7 +43,7 @@ To create an earning type code for bonuses, do the following:
 4.  On the **GL Accounts** tab, in the **Earnings Account** box, specify *69500*.
 5.  On the form toolbar, click **Save**.
 
-## Step 2: Creating an Earning Type Code for Double Time { .section}
+## Step 2: Creating an Earning Type Code for Double Time
 
 To create an earning type code for double time, while you are still on the [Earning Type Codes](PR_10_20_00.md) \(PR102000\) form, do the following:
 
@@ -66,7 +66,7 @@ To create an earning type code for double time, while you are still on the [Earn
 5.  On the **GL Accounts** tab, in the **Earnings Account** box, specify *69500*.
 6.  On the form toolbar, click **Save**.
 
-## Step 3: Creating an Earning Type Code for Personal Time { .section}
+## Step 3: Creating an Earning Type Code for Personal Time
 
 To create an earning type code for personal time, while you are still on the [Earning Type Codes](PR_10_20_00.md) \(PR102000\) form, do the following:
 
@@ -85,7 +85,7 @@ To create an earning type code for personal time, while you are still on the [Ea
 4.  On the **GL Accounts** tab, in the **Earnings Account** box, specify *69500*.
 5.  On the form toolbar, click **Save**.
 
-## Step 4: Creating an Earning Type Code for Tips { .section}
+## Step 4: Creating an Earning Type Code for Tips
 
 To create an earning type code for tips, while you are still on the [Earning Type Codes](PR_10_20_00.md) \(PR102000\) form, do the following:
 
@@ -103,7 +103,7 @@ To create an earning type code for tips, while you are still on the [Earning Typ
 5.  On the **GL Accounts** tab, in the **Earnings Account** box, specify *69500*.
 6.  On the form toolbar, click **Save**.
 
-## Step 5: Updating the Predefined Earning Type Codes { .section}
+## Step 5: Updating the Predefined Earning Type Codes
 
 To update the settings of the predefined earning type codes, while you are still on the [Earning Type Codes](PR_10_20_00.md) \(PR102000\) form, do the following:
 

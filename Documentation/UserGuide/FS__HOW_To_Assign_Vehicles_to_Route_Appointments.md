@@ -1,8 +1,8 @@
-# To Assign Vehicles to Execute Routes {#_56e646e9-4088-430f-80bf-b0e241be08bf .task}
+# To Assign Vehicles to Execute Routes
 
 You can assign vehicles to a particular route execution on the [Route Document Details](FS_30_40_00.md) \(FS304000\) form, or you can assign vehicles to multiple route executions for a particular date range on the [Route Document Worksheets](FS_40_39_00.md) \(FS403900\) form.
 
-## To Assign Vehicles to a Particular Route Document { .section}
+## To Assign Vehicles to a Particular Route Document
 
 1.  Open the [Route Document Details](FS_30_40_00.md) \(FS304000\) form.
 2.  In the **Route Nbr.** box, select the route execution to which you want to assign the vehicle.
@@ -19,7 +19,7 @@ You can assign vehicles to a particular route execution on the [Route Document D
     -   In the **Additional Vehicle 2** dialog box, which opens, click the line with the necessary vehicle and then click **Select**.
 7.  Click **Save**.
 
-## To Assign Vehicles to Multiple Route Executions { .section}
+## To Assign Vehicles to Multiple Route Executions
 
 1.  Open the [Route Document Worksheets](FS_40_39_00.md) \(FS403900\) form.
 2.  In the **From** box, select the start date of the range for which the route executions will be displayed in the table.

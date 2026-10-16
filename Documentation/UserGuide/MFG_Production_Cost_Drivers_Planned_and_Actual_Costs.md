@@ -1,4 +1,4 @@
-# Production Cost Drivers: Planned and Actual Costs {#_02817c45-119c-43f4-8e44-b1354530a880 .concept}
+# Production Cost Drivers: Planned and Actual Costs
 
 When you create a production order by using the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form, the system calculates planned costs of a production order. When a production order goes through the processing cycle, the system applies actual costs to the production order.
 
@@ -6,7 +6,7 @@ You can view costs of the whole production order on the **Totals** tab of the [P
 
 In this topic, you will find information about planned costs and actual costs of production orders.
 
-## Planned and Actual Costs of a Production Order { .section}
+## Planned and Actual Costs of a Production Order
 
 You can view the order's planned costs in the **Planned** section of the **Totals** tab on the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form. The system calculates planned costs based on the settings of operations included in the routing of a production order and displays the costs by production cost drivers.
 
@@ -20,7 +20,7 @@ You can analyze costs of a production order by using the following aggregate cos
 
 If you want to view cost details by operation, you can open the [Production Order Details](AM_20_90_00.md) \(AM209000\) form, select the needed operation in the Operations table, and on the **Totals** tab, view the costs.
 
-## Calculation of Planned and Actual Costs { .section}
+## Calculation of Planned and Actual Costs
 
 The system calculates planned costs by using the predefined costs at the time a production order is created and updates the costs when the production order is released; during the processing of the production order, costs may change.
 

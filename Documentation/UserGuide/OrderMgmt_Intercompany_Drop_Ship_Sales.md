@@ -1,15 +1,15 @@
-# Intercompany Purchases and Returns: Intercompany Drop-Ship Purchase {#_af23c868-e515-4111-b096-70b3aa8f6f67 .concept}
+# Intercompany Purchases and Returns: Intercompany Drop-Ship Purchase
 
 In Acumatica ERP, companies within the same tenant can collaborate to fulfill customer orders through intercompany drop-ship purchases. This functionality allows a purchasing company to cover shortages by ordering goods from a selling company, with the items shipped directly to the external customer.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may need to drop-ship goods through another company in the same tenant if one of the following conditions is met:
 
 -   Your company has a shortage of the requested goods.
 -   Another company is geographically closer to your customer, and drop shipping would reduce the shipping cost.
 
-## Processing an Intercompany Drop-Ship Purchase { .section}
+## Processing an Intercompany Drop-Ship Purchase
 
 In Acumatica ERP, an intercompany drop-ship purchase order is typically processed as follows:
 
@@ -50,11 +50,10 @@ In Acumatica ERP, an intercompany drop-ship purchase order is typically processe
 
 At this point, the intercompany drop-ship purchase is completed.
 
-## Workflow of the Intercompany Drop-Ship Purchase { .section}
+## Workflow of the Intercompany Drop-Ship Purchase
 
 For an intercompany drop-ship purchase between the branches of two different companies, the typical process involves the actions and generated documents shown in the following diagram.
 
-![](Images/diag_OrderMgmt_Cross-Company_Drop-Ship_Purchase.png)
 
 **Parent topic:**[Processing Intercompany Purchases and Returns](../UserGuide/OrderMgmt_Intercompany_Sales_and_Purchases_Mapref.md)
 

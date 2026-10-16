@@ -1,36 +1,36 @@
-# Search Customization: To Display a DAC in Universal Search Results {#_3b417be7-81b6-4d83-ad42-034b3cb44105 .task}
+# Search Customization: To Display a DAC in Universal Search Results
 
 This activity will walk you through the process of including the records of a data access class \(DAC\) in a universal search in Acumatica ERP.
 
-## Story { .section}
+## Story
 
 Suppose that you have added the `RSSVWorkOrder` DAC, which contains information about repair work orders, to the *PhoneRepairShop* customization project. You need to make this DAC available in a universal search so that a user can search through the work order number and description.
 
-## Process Overview { .section}
+## Process Overview
 
 To implement the universal search for the DAC, you will specify the PXPrimaryGraph attribute for the DAC and declare the PXSearchable attribute for the NoteID field of the DAC. You will then rebuild the search index and test the search.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
 1.  Prepare an Acumatica ERP instance by performing the [Test Instance for Customization: To Deploy an Instance with Custom Maintenance and Data Entry Forms](CodeCustomization_PrepareInstance_Activity_DeployInstanceT230.md) prerequisite activity.
 2.  Make sure that you have installed full-text search for the Microsoft SQL Server. For details, see [Preparation for the Acumatica ERP Installation: System Environment](../UserGuide/INST_Preparing_Installation_System_Environment.md).
 
-## Step 1: Supporting Universal Search in the DAC { .section}
+## Step 1: Supporting Universal Search in the DAC
 
 To support universal search in the `RSSVWorkOrder` DAC, do the following:
 
 1.  In the `PhoneRepairShop_Code` Visual Studio project, make sure that the `RSSVWorkOrder` DAC has the [PXCacheName](https://help.acumatica.com/(W(4))/Help?ScreenId=ShowWiki&pageid=052f5683-d20b-da61-4e6c-47a966162fb4) attribute, which defines the name that is displayed for the DAC on the [Rebuild Full-Text Entity Index](../UserGuide/SM_20_95_00.md) \(SM209500\) form. See the following code.
 
-    ```language-csharp
+    ```csharp
         [PXCacheName(Messages.RSSVWorkOrder)]
         public class RSSVWorkOrder : PXBqlTable, IBqlTable
     ```
 
 2.  For the `RSSVWorkOrder` DAC, add the [PXPrimaryGraph](https://help.acumatica.com/(W(4))/Help?ScreenId=ShowWiki&pageid=842ed8f6-e659-45ef-3083-6696cf1fecaf) attribute, as the following code shows. The attribute specifies the graph that corresponds to the default editing form for records of the DAC. The records of the `RSSVWorkOrder` DAC can be edited on the Repair Work Orders \(RS301000\) form, whose graph is `RSSVWorkOrderEntry`.
 
-    ```language-csharp
+    ```csharp
         [PXPrimaryGraph(typeof(RSSVWorkOrderEntry))]
         [PXCacheName(Messages.RSSVWorkOrder)]
         public class RSSVWorkOrder : PXBqlTable, IBqlTable
@@ -38,7 +38,7 @@ To support universal search in the `RSSVWorkOrder` DAC, do the following:
 
 3.  In the RSSVWorkOrder DAC, make sure that the NoteID field is decorated with the PXNote attribute, as the following code shows.
 
-    ```language-csharp
+    ```csharp
             [PXNote()]
             public virtual Guid? NoteID { get; set; }
             public abstract class noteID : PX.Data.BQL.BqlGuid.Field<noteID> { }
@@ -46,7 +46,7 @@ To support universal search in the `RSSVWorkOrder` DAC, do the following:
 
 4.  Add the [PXSearchable](https://help.acumatica.com/(W(7))/Help?ScreenId=ShowWiki&pageid=3fcecc8e-f198-2488-5671-91713e77fe49) attribute to the NoteID field of the `RSSVWorkOrder` DAC, as the following code shows.
 
-    ```language-csharp
+    ```csharp
             #region NoteID
             [PXSearchable(
                 // The category of the search
@@ -83,18 +83,17 @@ To support universal search in the `RSSVWorkOrder` DAC, do the following:
 
 5.  Rebuild the Visual Studio project.
 
-## Step 2: Rebuilding the Search Index { .section}
+## Step 2: Rebuilding the Search Index
 
 Rebuild the search index as follows:
 
 1.  On the [Rebuild Full-Text Entity Index](../UserGuide/SM_20_95_00.md) \(SM209500\) form, find the `RSSVWorkOrder` DAC.
 2.  Select the unlabeled check box for the DAC, as shown in the following screenshot.
 
-    ![](Images/CodeCustomization_Search_Activity_RebuildIndex.png "The RSSVWorkOrder DAC on the form")
 
 3.  Click **Process** on the form toolbar.
 
-## Step 3: Testing the Search { .section}
+## Step 3: Testing the Search
 
 To test the search for a record of the `RSSVWorkOrder` DAC, do the following:
 
@@ -103,7 +102,6 @@ To test the search for a record of the `RSSVWorkOrder` DAC, do the following:
 
     Review the results of the search, which include the record of the `RSSVWorkOrder` DAC, as shown in the following screenshot.
 
-    ![](Images/CodeCustomization_Search_Activity_SearchResults.png "Search results")
 
 3.  Click the record of the `RSSVWorkOrder` DAC.
 

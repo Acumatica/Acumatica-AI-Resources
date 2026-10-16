@@ -1,4 +1,4 @@
-# AR Invoice Correction: Implementation Checklist {#_d01da40f-7273-4853-bf6d-d2f5d48513e3 .concept}
+# AR Invoice Correction: Implementation Checklist
 
 To ensure that the system is configured properly for creating and releasing credit and debit memos, make sure that the criteria listed in the table have been met in the system as described.
 
@@ -7,7 +7,7 @@ To ensure that the system is configured properly for creating and releasing cred
 |[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)|Make sure the minimal features have been enabled as described in [Company Without Branches: General Information](../ImplementationGuide/config_Basic_Company_GeneralInfo.md), [Company with Branches that Do Not Require Balancing: General Information](../ImplementationGuide/config_Company_with_Branches_No_Balancing_GeneralInfo.md), and [Company with Branches that Require Balancing: General Information](../ImplementationGuide/config_Company_with_Branches_with_Balancing_GeneralInfo.md).| |
 |[Customers](AR_30_30_00.md) \(AR303000\)|Verify the existence of the customer accounts for the customers for which you will correct AR invoices by creating credit and debit memos. For details, see [Customers: Implementation Activity](Customer_Implem_Activity.md).| |
 
-## Settings That Affect the Workflow {#section_usn_4jv_vxb .section}
+## Settings That Affect the Workflow
 
 The following settings and entities should be specified and defined, respectively:
 

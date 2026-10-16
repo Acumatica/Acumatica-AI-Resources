@@ -1,16 +1,16 @@
-# Prepayments for Purchase Orders: To Process Multiple Prepayments for a Purchase Order {#_660378ea-5242-40ac-8ff0-f94a9bc47303 .task}
+# Prepayments for Purchase Orders: To Process Multiple Prepayments for a Purchase Order
 
 In the following activity, you will prepare multiple prepayments for a single purchase order, and apply these prepayments to an AP bill prepared for the vendor.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that on January 30, 2026, the SweetLife Fruits &amp; Jams company has ordered a large quantity of eco-friendly reusable bags for SweetLife’s needs. The Ginkgo Tree Printing Company vendor has requested an advance payment in the amount of $500. Suppose that on February 7, 2026, the vendor notifies you that an additional prepayment in the amount of $200 is needed for the order. Also suppose that the first prepayment request has not been paid yet.
 
 Acting as Regina Wiley, a purchasing manager in SweetLife, you have to enter the purchase order and record the prepayment request. Then you need to create the second prepayment for the same purchase order, and pay both prepayment requests with the same payment. Finally, you need to process the order to completion and make sure that both prepayments have been applied to the AP bill that you prepare for the purchase order.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -20,7 +20,7 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *GINKGO \(Ginkgo Tree Printing Company\)* vendor has been created. The **Allow AP Bill Before Receipt** check box has been selected for the vendor on the **Purchase Settings** tab \(which means that for this vendor, accounts payable bills can be processed before purchase receipts\).
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *ECOBAG* stock item has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, to process a purchase order when multiple prepayments are required, you will start with creating a purchase order on the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form and adding the purchased items to it. Then you will create the first prepayment request by clicking **Create Prepayment Request** on the More menu; on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you will specify the prepayment amount for each line copied from the purchase order. Then you will create a subsequent prepayment request, and release both prepayment requests on the [Release AP Documents](AP_50_10_00.md) \(AP501000\) form.
 
@@ -28,7 +28,7 @@ Then you will pay two prepayment requests with a single AP payment; you will do 
 
 To complete the processing of the purchase order, you will create a purchase receipt for the ordered items on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form, and an accounts payable bill to the vendor on the [Bills and Adjustments](AP_30_10_00.md) form. On release of the AP bill, the system will automatically apply the prepayments to the bill and update the vendor's balance.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start processing a purchase order when multiple prepayments are required, you should do the following:
 
@@ -37,7 +37,7 @@ Before you start processing a purchase order when multiple prepayments are requi
 3.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 4.  On the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, make sure the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Creating the Purchase Order { .section}
+## Step 1: Creating the Purchase Order
 
 To create the purchase order to the *GINKGO* vendor, do the following:
 
@@ -56,7 +56,7 @@ To create the purchase order to the *GINKGO* vendor, do the following:
     -   **Unit Cost**: `250`
 4.  On the form toolbar, click **Remove Hold** to save the purchase order and prepare for further processing.
 
-## Step 2: Creating Prepayment Requests { .section}
+## Step 2: Creating Prepayment Requests
 
 To prepare the two prepayment requests for the purchase order, do the following:
 
@@ -78,7 +78,7 @@ To prepare the two prepayment requests for the purchase order, do the following:
 12. On the form toolbar, click **Remove Hold**.
 13. On the form toolbar, click **Release** to release the prepayment request.
 
-## Step 3: Creating a Payment to Pay for the Prepayment Requests { .section}
+## Step 3: Creating a Payment to Pay for the Prepayment Requests
 
 To prepare an AP payment for both prepayment requests, do the following:
 
@@ -102,7 +102,7 @@ To prepare an AP payment for both prepayment requests, do the following:
     2.  In the **Reference Nbr.** column, select the reference number of the $200 prepayment you created in Step 2.
 8.  On the form toolbar, click **Remove Hold**. The payment is assigned the *Pending Print* status, which means that a check needs to be printed before the payment can be released.
 
-## Step 4: Processing the Payment { .section}
+## Step 4: Processing the Payment
 
 To apply the payment to the prepayment requests, do the following:
 
@@ -123,7 +123,7 @@ To apply the payment to the prepayment requests, do the following:
 
 You have created a payment and applied it to the prepayment requests that you created earlier. Now the prepayment is ready to be applied to the vendor's bill.
 
-## Step 5: Processing the Accounts Payable Bill with the Prepayments { .section}
+## Step 5: Processing the Accounts Payable Bill with the Prepayments
 
 To create an accounts payable bill for the purchase order, do the following:
 
@@ -134,12 +134,11 @@ To create an accounts payable bill for the purchase order, do the following:
 5.  On the form toolbar, click **Remove Hold**.
 6.  Click **Release** to release the bill. Make sure that the bill now has the *Open* status, and that the bill's open balance has been decreased by the prepaid amount \(see the following screenshot\).
 
-    ![](Images/activity_OrderMgmt_Purchase_Order_Prepayments_2.png "Prepayments applied to the bill prepared for the purchase order")
 
 
 You have applied the prepayments you made for the vendor to the vendor's bill and released the application.
 
-## Step 6: Processing the Purchase Receipt { .section}
+## Step 6: Processing the Purchase Receipt
 
 Now you need to complete the processing of the purchase order. To create the purchase receipt for the purchase order, do the following:
 

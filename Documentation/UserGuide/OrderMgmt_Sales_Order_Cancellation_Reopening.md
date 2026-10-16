@@ -1,4 +1,4 @@
-# Sales Order Cancellation: Reopening of a Sales Order {#_d0879504-5826-4f75-876a-f084ac9d9b16 .concept}
+# Sales Order Cancellation: Reopening of a Sales Order
 
 You can reopen a sales order with the *Completed* or *Canceled* status by clicking **Reopen Order** on the More menu of the [Sales Orders](SO_30_10_00.md) \(SO301000\) form. When you reopen the sales order, the system does the following:
 

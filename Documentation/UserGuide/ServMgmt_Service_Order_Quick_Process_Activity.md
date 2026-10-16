@@ -1,10 +1,10 @@
-# Quick Billing of a Service Order: Process Activity {#_119503a5-c557-4a4a-b9da-0dc1f57dd695 .task}
+# Quick Billing of a Service Order: Process Activity
 
 This activity will walk you through the creation of a service order whose type allows quick processing, and then through the quick processing of this service order.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Service and Equipment Sales Center received a call from the FourStar Coffee &amp; Sweets Shop customer about a needed repair of one of its orange juicers. The customer and the service manager \(Maia Davis\) agreed that billing documents will be generated for the service order before the appointment occurs. The customer also asked to receive the billing document by email.
 
@@ -12,7 +12,7 @@ The service manager has entered the service order and selected a service order t
 
 Acting as an accountant \(Yona Jones\), you will process the service order for the customer.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -42,11 +42,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   On the [Customers](AR_30_30_00.md#) \(AR303000\) form, the *COFFEESHOP \(FourStar Coffee &amp; Sweets Shop\)* customer has been defined, and the *SO SO* billing cycle has been selected in the **Service Management** section of the **Billing** tab.
 -   On the [Service Orders](FS_30_01_00.md#) \(FS300100\) form, the *000037* service order has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 To quickly process the existing service order, you will open it on the [Service Orders](FS_30_01_00.md#) \(FS300100\) form and initiate quick processing. You will first change some of the default quick processing settings. You will then review an invoice generated as a result of the quick processing.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -54,7 +54,7 @@ Before you start this activity, do the following:
 2.  In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date *1/30/2026*. For simplicity, you will use this business date to create and process all documents in this activity.
 3.  After signing in, make sure that the *Service Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form.
 
-## Step 1: Quickly Processing the Service Order { .section}
+## Step 1: Quickly Processing the Service Order
 
 To quickly process a service order, do the following:
 
@@ -70,23 +70,20 @@ To quickly process a service order, do the following:
 
 5.  In the **Invoice Actions** section of the dialog box, select the **Email Invoice** check box \(see below\). You will leave the other default settings, which were specified for the *MRO* service order type.
 
-    ![](Images/ServMgmt_Service_Order_Quick_Billing_2.png "The Process Service Order dialog box")
 
 6.  Click **OK**.
 7.  After the processing is successfully completed, the status and the generated billing documents appear in the upper-right corner of the form \(see below\).
 
-    ![](Images/ServMgmt_Service_Order_Quick_Billing_Results.png "The results of the service order processing")
 
 
 Based on the settings for the *MRO* service order type and your change to email the invoice, quick processing creates and releases the invoice for the service order and emails it to the customer.
 
-## Step 2: Reviewing the Created Documents and Sent Email { .section}
+## Step 2: Reviewing the Created Documents and Sent Email
 
 To review the documents that have been generated and the email that has been sent, do the following:
 
 1.  While you are still viewing the *000037* service order on the [Service Orders](FS_30_01_00.md#) \(FS300100\) form, open the **Billing Documents** tab, and notice that the invoice is listed, reflecting that it has been created during the quick processing. \(See below.\)
 
-    ![](Images/ServMgmt_Service_Order_Billing_Documents_Tab.png "The billing documents generated for the service order")
 
 2.  In the **Reference Nbr.** column, click the link to open the invoice.
 

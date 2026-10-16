@@ -1,8 +1,8 @@
-# AvaTax's Detection of the Customer's Tax Jurisdiction {#_f24d5e99-4a69-46c4-9396-36cf0aef409b .concept}
+# AvaTax's Detection of the Customer's Tax Jurisdiction
 
 The AvaTax service can identify a customer's tax jurisdiction by using either the postal code or the latitude and longitude coordinates.
 
-## Identification of the Customer's Tax Jurisdiction {#section_mpn_ynh_tpb .section}
+## Identification of the Customer's Tax Jurisdiction
 
 You can specify a customer's location by entering either the postal code or the latitude and longitude coordinates directly on the document entry form or in the customer’s settings. \(The list of forms containing the **Latitude** and **Longitude** boxes is provided later in this topic.\)
 
@@ -12,7 +12,7 @@ After the latitude and longitude coordinates are saved, the system copies these 
 
 **Tip:** The entered latitude and longitude coordinates must be specified to six decimal places.
 
-## Forms and Reports that Use Latitude and Longitude Coordinates {#section_vwj_5nh_tpb .section}
+## Forms and Reports that Use Latitude and Longitude Coordinates
 
 The following forms have the **Latitude** and **Longitude** boxes.
 
@@ -43,5 +43,5 @@ The latitude and longitude coordinates are displayed on the reports that are gen
 -   [Shipment Confirmation](SO_64_20_00.md) \(SO642000\)
 -   [Appointments in Service Order](FS_64_25_00.md) \(FS642500\)
 
-**Parent topic:**[Integrating Acumatica ERP with Avalara Avatax](../UserGuide/config_Avalara_Integration_Mapref.md)
+**Parent topic:**[Integrating Acumatica ERP with Avalara AvaTax](../UserGuide/config_Avalara_Integration_Mapref.md)
 

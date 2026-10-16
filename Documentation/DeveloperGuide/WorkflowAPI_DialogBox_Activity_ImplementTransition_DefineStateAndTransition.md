@@ -1,4 +1,4 @@
-# Step 3: Defining the Workflow State and the Transition \(Self-Guided Exercise\) {#_35d351e4-5d67-480a-b769-56133d694e60 .task}
+# Step 3: Defining the Workflow State and the Transition \(Self-Guided Exercise\)
 
 In this step, you will define the `Assigned` workflow state and the transition from the `ReadyForAssignment` workflow state to the `Assigned` workflow state on your own. You have learned how to define a workflow state in [Workflow States: To Define a Workflow State](WorkflowAPI_States_Activity_DefiningState.md).
 

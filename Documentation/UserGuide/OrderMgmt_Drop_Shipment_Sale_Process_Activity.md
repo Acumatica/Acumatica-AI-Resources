@@ -1,14 +1,14 @@
-# Sales with Drop Shipping: Process Activity {#_0d8f1c4d-84b1-464b-822b-29acf963d27f .task}
+# Sales with Drop Shipping: Process Activity
 
 In the following activity, you will learn how to prepare and process to completion a sales order with items marked for drop shipping.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the FourStar Coffee &amp; Sweets Shop \(*COFFEESHOP*\) customer ordered a variety of green, black, and fruit teas at the SweetLife’s retail store. Although the tea varieties are presented in SweetLife’s website catalog, the company does not keep tea in the wholesale or retail warehouse. When a customer orders tea, SweetLife drop-ships it from the Tea &amp; Spices \(*TEACOMPANY*\) vendor directly to the customer who ordered the tea. To complete the customer’s request, acting as the sales manager of the SweetLife store, you need to process a drop shipment.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -20,13 +20,13 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *TEACOMPANY* vendor has been created.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *GREENTEA06*, *BLACKTEA06*, and *FRUITTEA12* stock items have been created. For each of these items, the *TEACOMPANY* vendor has been added to the **Vendors** tab.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, to process a sale with drop shipment, you will create a sales order of the *SO* order type on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form; on the **Details** tab, you will add the inventory items ordered by the customer. Because the items are not in stock, you will mark each of them for drop shipping by selecting the check box in the **Mark for PO** column and selecting *Drop-Ship* in the **PO Source** column, which means that the items will be ordered from the vendor and shipped directly to the customer. You will create drop-ship purchase orders by processing *Drop-Ship* purchase requests on the [Create Purchase Orders](PO_50_50_00.md) \(PO505000\) form. Each drop-ship purchase order generated from purchase requests can be viewed and processed further on the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form and contains links to the related sales order.
 
 After you have received confirmation that the customer has received the goods from the vendor, on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form, you will prepare and release the purchase receipt for the drop-ship purchase order. After drop shipping has completed, you will prepare an invoice for the customer by using the [Invoices](SO_30_30_00.md) \(SO303000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start processing a sale with drop shipping, you should do the following:
 
@@ -34,7 +34,7 @@ Before you start processing a sale with drop shipping, you should do the followi
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to today’s date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu in the top pane of the Acumatica ERP screen, select the *SweetLife Store* branch.
 
-## Step 1: Creating a Sales Order { .section}
+## Step 1: Creating a Sales Order
 
 To create a sales order, do the following:
 
@@ -55,7 +55,7 @@ To create a sales order, do the following:
 
 4.  On the form toolbar, click **Save**. The sales order is saved with the *Open* status.
 
-## Step 2: Marking the Items for Drop Shipment { .section}
+## Step 2: Marking the Items for Drop Shipment
 
 To mark items for drop shipment, do the following:
 
@@ -64,7 +64,7 @@ To mark items for drop shipment, do the following:
     -   Select *Drop-Ship* in the **PO Source** column.
 2.  On the form toolbar, click **Save**.
 
-## Step 3: Creating a Drop-Ship Purchase Order { .section}
+## Step 3: Creating a Drop-Ship Purchase Order
 
 To create a drop-ship purchase order from purchase requests, do the following:
 
@@ -78,7 +78,7 @@ To create a drop-ship purchase order from purchase requests, do the following:
 5.  In the **Description** box in the Summary area, type `Purchase for website order #00784`.
 6.  On the form toolbar, click **Remove Hold**.
 
-## Step 4: Processing the Drop-Ship Purchase Order { .section}
+## Step 4: Processing the Drop-Ship Purchase Order
 
 To process the drop-ship purchase order to completion, do the following:
 
@@ -92,7 +92,7 @@ To process the drop-ship purchase order to completion, do the following:
 5.  On the **Billing** tab, review the only line in the table, which shows the generated bill, and make sure that the bill has the *Open* status.
 6.  On the **Other** tab, notice that **IN Ref. Nbr.** is empty. No inventory documents need to be generated because the items are shipped directly from the vendor to the customer.
 
-## Step 5: Processing the Sales Invoice for the Customer { .section}
+## Step 5: Processing the Sales Invoice for the Customer
 
 To complete the processing of a sale with drop shipment, you need to generate an invoice to the customer. Do the following:
 
@@ -102,7 +102,6 @@ To complete the processing of a sale with drop shipment, you need to generate an
 4.  On the form toolbar, click **Release** to release the invoice.
 5.  Return to the sales order on the [Sales Orders](SO_30_10_00.md) form, and on the **Shipments** tab, review the only line, which has the shipment for the order. Notice that the purchase receipt that you have processed acts as a shipment for this sales order, and the reference number link to this purchase receipt is shown in the **Document Nbr.** column in the only line in the table \(see the following screenshot\).
 
-    ![](Images/activity_OrderMgmt_Sale_with_Drop_Shipment.png "Sales order with drop shipment processed to completion")
 
 
 **Parent topic:**[Processing Sales with Drop Shipping](../UserGuide/OrderMgmt_Drop_Shipment_Sale_Mapref.md)

@@ -1,8 +1,8 @@
-# To Link an Existing Payment to an Order {#_26c4640d-2f3c-43cd-98ec-e33a97987819 .task}
+# To Link an Existing Payment to an Order
 
 You can link an existing customer payment to a particular sales order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 
-## To Link an Existing Payment to an Order { .section}
+## To Link an Existing Payment to an Order
 
 1.  Open the [Sales Orders](../Shared/../UserGuide/SO_30_10_00.md) \(SO301000\) form.
 2.  In the **Order Type** box, select the order type.

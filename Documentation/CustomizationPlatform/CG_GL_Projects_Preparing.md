@@ -1,4 +1,4 @@
-# To Prepare a Project for Publication {#_b46ba682-01af-42ff-bd94-c5b4d3d5c066 .task}
+# To Prepare a Project for Publication
 
 Before you publish a customization project, we recommend that you make sure you have included all the needed changes in the customization project.
 

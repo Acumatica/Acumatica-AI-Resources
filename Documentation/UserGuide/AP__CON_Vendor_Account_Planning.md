@@ -1,8 +1,8 @@
-# Vendors: Vendor-Related Planning {#_ef84eba4-8b0d-4772-9c1e-21147e16b427 .concept}
+# Vendors: Vendor-Related Planning
 
 As a first step, you need to gather information and make decisions that you will use when you set up vendor accounts and their supporting entities in Acumatica ERP.
 
-## Vendor-Related Planning Steps {#section_sng_njv_vxb .section}
+## Vendor-Related Planning Steps
 
 You need to perform the following planning tasks before you set up vendor accounts:
 
@@ -14,7 +14,7 @@ You need to perform the following planning tasks before you set up vendor accoun
 
 -   Plan the structure of the identifiers to be used for vendor accounts, if this was not done during system implementation. In Acumatica ERP, the identifiers of vendor accounts are defined by the *BIZACCT* segmented key, whose structure is defined during system implementation. You can also configure the *VENDOR* segmented key \(which is based on the *BIZACCT* key\) if you want to make the structure of vendor identifiers a bit different \(for example, with a different prefix\) from the structure of identifiers for customer and employee accounts. For more information, see [Business Account Identifiers](CS__con_Business_Accounts_Identifiers.md).
 -   Set up numbering sequences to be used when automatically generating IDs for Accounts Payable documents. You can set up a range of numbers, specify a separate prefix for Accounts Payable documents, and define subsequences intended for a specific branch or for a specific date. For more information, see [Use of Numbering Sequences](CS__con_Multiple_Numbering_Sequences.md).
--   Collect information about the ways you pay your vendors for services, and consider whether you are going to use Acumatica ERP for payment processing. You will use this information to plan the payment methods and cash accounts to be used to process payments to vendors. If you are going to use ACH payments, you have to configure the required payment method. For details, see [Processing ACH Payments](AP__con_ACH_Payment_Support.md).
+-   Collect information about the ways you pay your vendors for services, and consider whether you are going to use Acumatica ERP for payment processing. You will use this information to plan the payment methods and cash accounts to be used to process payments to vendors. If you are going to use ACH payments, you have to configure the required payment method. For details, see [ACH Payments](AP__con_ACH_Payment_Support.md).
 -   Examine the credit management policies used by your company—for example, the credit terms offered to your company by vendors, cash discounts permitted for purchases made on credit, or automatic assignment of credit terms to vendor documents. By using this information, you can plan the implementation of company credit policy in Acumatica ERP, which is described in [Setup of Credit Terms](AR__con_Credit_Terms.md).
 -   Collect information about the location or locations of each vendor and the applicable taxes. You will use this information to plan the tax zones and taxes the system will apply to purchases. For details, see [Vendors: Vendor Locations](AP__CON_Vendor_Locations.md) and [Tax Zones and Categories: General Information](../ImplementationGuide/TaxZones_and_Categories_GeneralInfo.md).
 -   Plan how your organization will send documents to vendors: electronically or through postal mail. In the latter case, printing of the documents should be required before they can be released. You can define these settings for a group of vendors by vendor class, and then adjust the settings individually for each vendor account. For details, see [Mailings for Vendors: General Information](Finance_PredefinedMailings_Vendors_GeneralInfo.md).

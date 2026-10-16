@@ -1,16 +1,16 @@
-# Project Invoice Correction: To Correct a Closed Pro Forma Invoice {#_c53c0234-16c1-4385-a12e-cc34cd34d4c0 .task}
+# Project Invoice Correction: To Correct a Closed Pro Forma Invoice
 
 In this activity, you will learn how to correct a pro forma invoice for which the corresponding accounts receivable document released.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that in January, the Thai Food Restaurant customer ordered five juicers along with the service of installation from the SweetLife Fruits &amp; Jams company. The parties agreed to pay for the juicers and provided services monthly. SweetLife's project manager created a project for this work. In January, SweetLife delivered and installed two juicers; SweetLife's project accountant billed the customer. In February, SweetLife delivered and installed three juicers and the project accountant billed the customer.
 
 Suppose that the project accountant has realized that in January the customer was billed for one juicer and the corresponding service instead of two juicers. The pro forma invoice was already used for printing the AIA report, so the accountant cannot just create one more invoice but need to adjust the first pro forma invoice. Acting as the project accountant, you will correct the pro forma invoice.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -19,18 +19,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On *1/30/2026*, the *000005* pro forma invoice has been created for the project, and the *000089* accounts receivable invoice has been created and released for the pro forma invoice.
 -   On *2/28/2026*, the *000006* pro forma invoice has been created for the project, and the *000090* accounts receivable invoice has been created and released for the pro forma invoice.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form, you will initiate the correcting of a pro forma invoice for the project. You will adjust and release the pro forma invoice on the same form. On the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will release the accounts receivable invoice created based on the pro forma invoice and the credit memo created for reversing the previous AR invoice.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded as Pam Brawner by using the *brawner* username and the *123* password.
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Correcting the Pro Forma Invoice { .section}
+## Step 1: Correcting the Pro Forma Invoice
 
 To correct the *000005* invoice for the *TOMYUM12* project, do the following:
 
@@ -69,7 +69,6 @@ To correct the *000005* invoice for the *TOMYUM12* project, do the following:
 
     On the **Invoices** tab, notice that the invoice total of the *000005* pro forma invoice you have corrected is *3400.00*. Notice that the table also shows the previous revision of the AR invoice and the credit memo that reverses that AR invoice, as shown in the following screenshot.
 
-    ![](Images/activity_Construction_PF_Correction_Process_Activity.png "The corrected pro forma invoice and related documents")
 
     You have finished correcting the amounts in the pro forma invoice.
 

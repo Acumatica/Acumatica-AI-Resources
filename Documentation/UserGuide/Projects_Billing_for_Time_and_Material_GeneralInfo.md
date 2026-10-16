@@ -1,8 +1,8 @@
-# Time and Material Billing: General Information {#_c27cd276-2ac9-4e6e-a687-fa3ccdaa1e16 .concept}
+# Time and Material Billing: General Information
 
 With time and material billing in Acumatica ERP, you run project billing to automatically generate customer invoices based on the cost project transactions.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,11 +10,11 @@ In this chapter, you will learn how to do the following:
 -   Process the documents that have been generated during the project billing
 -   Review how the project’s actual amounts are updated with the billed amounts
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You run project billing to prepare an invoice for the customer for the time and material spent on the project. The timing of project billing depends on the project billing period defined for the project.
 
-## The Time and Material Billing Process { .section}
+## The Time and Material Billing Process
 
 The time and material billing workflow is provided for project tasks that need to be billed based on project transactions. Time and material billing can be performed only for project tasks of a project that is pending billing—that is, if the project has at least one unbilled transaction that is ready to be billed on the invoice date. The *Time and Material* billing steps can be run once the project transactions that match the selection criteria have been processed. Optionally, the allocation process can be executed for these transactions before billing. For more information, see [Project Billing Preparation: General Information](../Shared/../UserGuide/Projects_Project_Billing_Preparation_GeneralInfo.md).
 

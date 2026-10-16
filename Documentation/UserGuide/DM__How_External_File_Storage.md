@@ -1,8 +1,8 @@
-# To Store Attached Files in a Local Folder {#_ca9542b5-cf5a-477f-a3e0-c276f758287e .task}
+# To Store Attached Files in a Local Folder
 
 To store files in a local folder, use the [External File Storage](SM_20_25_40.md) \(SM202540\) form. For more information about storing files, see [External Storage: General Information](SA_External_Storage_Management_GeneralInfo.md).
 
-## To Store Files in a Local Folder { .section}
+## To Store Files in a Local Folder
 
 1.  On the server running the Acumatica ERP website, create a folder to store the files \(for instance, *C:\\FileStorage*\) and make sure that the account used to run the Acumatica ERP website has *write* access to the folder you have created.
 2.  Open the [External File Storage](SM_20_25_40.md) \(SM202540\) form.

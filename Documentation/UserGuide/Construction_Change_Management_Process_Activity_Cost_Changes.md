@@ -1,8 +1,8 @@
-# Change Requests: To Process Cost-Only Changes to a Project {#_8f22e2b2-de72-4785-b9dd-0536cf6673b4 .task}
+# Change Requests: To Process Cost-Only Changes to a Project
 
 The following activity will walk you through the process of managing changes to the construction project by using the two-tier change management workflow.
 
-## Story {#section_qlc_b15_gnb .section}
+## Story
 
 Suppose that ToadGreen is a general contractor building an Italian restaurant for the Italian Company, its customer. The ToadGreen project manager has created a project for the work to be performed, and the budget has been agreed on with the customer. The construction work has been started. Further suppose that on March, 21, 2026, an on-site worker found out that the wet subfloor in the building needs to be dried, cleaned, and aired out, and this worker has notified the project manager about this.
 
@@ -10,7 +10,7 @@ After reviewing the damages, the project manager has decided to hire a subcontra
 
 Acting as the project manager, you need to reflect the additional work in the cost project budget and cancel the changes in the revenue budget.
 
-## Configuration Overview {#section_k44_tw5_gnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -18,11 +18,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Account Groups](PM_20_10_00.md) \(PM201000\) form, the *REVENUE* account group has been configured.
 -   On the [Projects](PM_30_10_00.md) \(PM301000\) form, the *ITALIAN* project has been configured; the project tasks have been created, along with the related cost and revenue budget.
 
-## Process Overview {#section_edh_gzf_3nb .section}
+## Process Overview
 
 You will create a change request on the [Change Requests](PM_30_85_00.md) \(PM308500\) form. After that, you will create a change order for this change request on the [Change Orders](PM_30_80_00.md) \(PM308000\) form and add commitments to this change order. Then you will make sure that the processed documents are correctly reflected in the cost budget of the project. Finally, you will manually close the change request on the [Change Requests](PM_30_85_00.md) form to indicate that revenue part does not require processing.
 
-## System Preparation {#section_ypj_3j5_gnb .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
@@ -30,7 +30,7 @@ To prepare to perform the instructions of this activity, do the following:
 2.  Sign in to a company with the *U100* dataset preloaded. You should sign in as project manager by using the *ewatson* username and the *123* password.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *3/21/2026*. If a different date is displayed, click the Business Date menu button, and select *3/21/2026* on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating a Change Request {#section_tlc_b15_gnb .section}
+## Step 1: Creating a Change Request
 
 Create the change request that records the planned work to be performed as follows:
 
@@ -72,7 +72,7 @@ Create the change request that records the planned work to be performed as follo
     **Tip:** In production use, you can configure an approval map for change requests and specify it in the **Change Request Approval Map** box on the **Approval** tab of the [Projects Preferences](PM_10_10_00.md) \(PM101000\) form, so that the responsible person will need to approve the change request before it is assigned the *Open* status.
 
 
-## Step 2: Processing the Change Order {#section_ulc_b15_gnb .section}
+## Step 2: Processing the Change Order
 
 To create and process a change order, do the following:
 
@@ -88,18 +88,17 @@ To create and process a change order, do the following:
 10. On the form toolbar, click **Remove Hold**. The system saves the change order and assigns it the *Open* status.
 11. On the form toolbar, click **Release** to release the change order.
 
-## Step 3: Reviewing the Project Budget {#section_tc1_c5f_3nb .section}
+## Step 3: Reviewing the Project Budget
 
 Make sure that the change order has updated the project budget by doing the following:
 
 1.  On the [Projects](PM_30_10_00.md) \(PM301000\) form, open the *ITALIAN* project.
 2.  On the **Cost Budget** tab, review the amounts in the budget lines, and notice that they have been moved from the **Potential CO Amount** column to the **Budgeted CO Amount** column, and the system has also updated the amounts in the **Revised Budgeted Amount** column.
 
-    ![](Images/activity_Construction_Change_Management_Cost_Changes.png "Budgeted amounts updated after the release of the change order")
 
 3.  On the **Revenue Budget** tab, review the amounts in the budget lines with the *01-000*, *02-000*, and *03-000* cost codes, and notice that the change request values are still included in the potential values.
 
-## Step 4: Closing the Change Request {#section_kmm_mtn_r5b .section}
+## Step 4: Closing the Change Request
 
 To clean up the potential values in the revenue budget of the project, while you are still reviewing the project on the [Projects](PM_30_10_00.md) \(PM301000\) form, do the following:
 

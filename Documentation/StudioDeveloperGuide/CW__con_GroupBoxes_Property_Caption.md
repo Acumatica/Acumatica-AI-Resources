@@ -1,4 +1,4 @@
-# Use of the Caption Property of PXGroupBox {#_1a889473-d65d-41a8-aaaa-f58cee7cf133 .concept}
+# Use of the Caption Property of PXGroupBox
 
 You can define a caption for a group box by using the Caption property of the PXGroupBox element in the ASPX code as follows.
 

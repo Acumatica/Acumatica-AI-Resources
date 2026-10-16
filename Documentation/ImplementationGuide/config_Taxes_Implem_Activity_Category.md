@@ -1,16 +1,16 @@
-# Tax Zones and Categories: To Define a Tax-Exempt Category {#_a793aa24-a83e-4f99-9bbc-cb7152894535 .task}
+# Tax Zones and Categories: To Define a Tax-Exempt Category
 
 In this activity, you will learn how to define a tax-exempt category in the system.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife company is going to purchase services from vendors and provide services to customers. All of these services are tax-exempt. Acting as an administrator, you need to define a tax category in Acumatica ERP.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start defining the credit terms, make sure that the company and its actual ledger has been created, as described in [Company Without Branches: To Configure a Company Without Branches](config_Basic_Company_Implem_Activity_Enabling_Features.md) and [General Ledger: To Create an Actual Ledger](config_Basic_Company_Implem_Activity_Actual_Ledger.md).
 
-## Step: Defining a Tax Category { .section}
+## Step: Defining a Tax Category
 
 To define a tax-exempt category, do the following:
 

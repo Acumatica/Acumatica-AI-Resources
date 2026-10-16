@@ -1,4 +1,4 @@
-# Constants in Fluent BQL {#_84837158-8b2f-4f18-b51d-4c89bc165dc4 .concept}
+# Constants in Fluent BQL
 
 You can use predefined constants \(such as integer Zero, datetime Now, Today, and MaxDate, string StringEmpty, and the Boolean values True and False\) in fluent BQL queries without any changes.
 
@@ -20,14 +20,14 @@ If you need to use a custom constant in a fluent BQL query, you define this cons
 
 The following code shows an example of the `decimal_0` constant declaration.
 
-```language-csharp
+```csharp
 public class decimal_0() : 
  PX.Data.BQL.BqlDecimal.Constant<decimal_0>(0m);
 ```
 
 **Tip:** The code example above uses the primary constructor syntax that was introduced in C\# Version 12, which calls the base constructor \(`0m` in this case\) directly and eliminates the need to define an explicit constructor body.
 
-## Simultaneous Use of Constants in Fluent BQL and Traditional BQL { .section}
+## Simultaneous Use of Constants in Fluent BQL and Traditional BQL
 
 The predefined constants and the constants defined as described in the previous section can be used in traditional BQL without any changes.
 
@@ -35,7 +35,7 @@ The constants defined in the traditional BQL style \(that is, derived from the C
 
 The following code shows the declaration of the `decimal_0` constant in traditional BQL style and its use in a fluent BQL comparison.
 
-```language-csharp
+```csharp
 public class decimal_0() : Constant<Decimal>(0m);
 
 SelectFrom<Table>.

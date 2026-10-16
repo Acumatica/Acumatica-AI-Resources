@@ -1,12 +1,12 @@
-# AR DACs: Reference Data {#_d4b54697-415e-4668-99f5-747a95797992 .concept}
+# AR DACs: Reference Data
 
 In this topic, you can find information about the data access classes \(DACs\) that contain reference data that is used in most other DACs in accounts receivable. This data includes customers, locations, and addresses.
 
-## Accounts Receivable Preferences { .section}
+## Accounts Receivable Preferences
 
 The preferences for accounts receivable are available in the [ARSetup](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARSetup) DAC. An administrative user can edit these preferences on the [Accounts Receivable Preferences](../UserGuide/AR_10_10_00.md) \(AR101000\) form.
 
-## Customers { .section}
+## Customers
 
 The [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form is used to define any business account that satisfies the following condition: `BAccount.Type = CU OR BAccount.Type = VC`. \(That is, the business account is a customer or both a vendor and a customer.\) Business accounts of these types are extended with the information from the [Customer](https://help.acumatica.com/dacBrowser/PX.Objects.AR/Customer) DAC, as shown in the following query.
 
@@ -22,7 +22,7 @@ FROM
 
 A Customer record contains AR-specific business account data related to customer payment methods, statement cycles, and credit verification rules.
 
-## Locations { .section}
+## Locations
 
 As is true of any other business account, a Customer record can have multiple [Location](https://help.acumatica.com/dacBrowser/PX.Objects.CR/Location) records associated with it. The default customer location is stored in the BAccount.DefLocationID field.
 
@@ -38,7 +38,7 @@ The tax zones and accounts specified in the Location record can be overridden at
 
 Customer locations can be defined on the [Customer Locations](../UserGuide/AR_30_30_20.md) \(AR303020\) form.
 
-## Addresses and Contacts { .section}
+## Addresses and Contacts
 
 Three types of addresses and contacts are defined for every customer in the system:
 
@@ -102,7 +102,7 @@ The selection of the following types of addresses and contacts is illustrated in
     ```
 
 
-## Customer Payment Methods { .section}
+## Customer Payment Methods
 
 The [CustomerPaymentMethod](https://help.acumatica.com/dacBrowser/PX.Objects.AR/CustomerPaymentMethod) and [CustomerPaymentMethodDetail](https://help.acumatica.com/dacBrowser/PX.Objects.AR/CustomerPaymentMethodDetail) DACs store the customer-specific settings of a payment method. The general settings of a payment method are stored in the [PaymentMethod](https://help.acumatica.com/dacBrowser/PX.Objects.CA/PaymentMethod) DAC, which is defined in cash management. For details on payment methods, see [CA DACs: Reference Data](DACOverview_CA_ReferenceData.md).
 
@@ -112,13 +112,13 @@ For generic payment methods \(such as cash payment or wire transfer\), the prese
 
 Customer-specific payment methods are defined on the [Customer Payment Methods](../UserGuide/AR_30_30_10.md) \(AR303010\) form.
 
-## Discount Codes and Sequences { .section}
+## Discount Codes and Sequences
 
 [ARDiscount](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARDiscount) represents an accounts receivable discount code used to define discount sequences \(which are stored in [DiscountSequence](https://help.acumatica.com/dacBrowser/PX.Objects.AR/DiscountSequence)\). The primary function of a discount code is to specify the type of discounts that are based on that code. For example, a document discount can be applicable to only specific customers, or a line discount can be applicable to only specific inventory items. The ARDiscount records are defined on the [Discount Codes](../UserGuide/AR_20_90_00.md) \(AR209000\) form.
 
 DiscountSequence represents a specific discount based on a discount code. The discount sequence specifies how the discount is calculated based on the amount or quantity of the line item, or on the amount of the document. Discount sequences can be defined on the [Discounts](../UserGuide/AR_20_95_00.md) \(AR209500\) form.
 
-## Price Lists { .section}
+## Price Lists
 
 The system uses the [ARSalesPrice](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARSalesPrice) reference DAC to suggest the unit price in document details \(that is, in the ARTran.UnitPrice field\) that the user inserts into a bill or adjustment. The records store inventory item prices broken down by the following:
 

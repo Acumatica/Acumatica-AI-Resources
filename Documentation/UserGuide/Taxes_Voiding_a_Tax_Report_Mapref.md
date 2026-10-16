@@ -1,4 +1,4 @@
-# Voiding a Tax Report for Sales Taxes {#_4e2acdd9-223a-4b9c-92e0-972a1497eaef .concept}
+# Voiding a Tax Report for Sales Taxes
 
 The topics of this chapter describe how to void a released sales tax report.
 

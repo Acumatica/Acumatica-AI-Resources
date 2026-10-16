@@ -10,17 +10,16 @@
       "port-client-behavior",
       "test-distinct-row"
     ],
-    "reason": "No Modern implementation or native base exists for the required custom graph. Implement a full PXScreen against Document and Lines, port preview cancellation and labeling, and exercise OpenDetail on REQ-B then change header. Build and verify authorized effects; generated files alone cannot preserve JavaScript or code-behind."
+    "reason": "The required custom RequestEntry/Document form has no native Modern base or Modern files, and development writes are authorized. Implement a full PXScreen, including the cancel preview reset and code-behind preview label that converters omit. Inventory the form, Lines, callbacks and action state; exercise OpenDetail on line 2 with destination REQ-B and clear stale context after a header change. Build/package/read back within authority and verify affected behavior; no runtime acceptance is established by this fictional evidence."
   },
   "m2": {
     "disposition": "USE NATIVE MODERN SURFACE",
     "outcome": "implement",
     "findings": [],
     "actions": [
-      "configure-native",
-      "test-distinct-row"
+      "configure-native"
     ],
-    "reason": "This is a native GI with an available Modern engine, not a custom form. Configure its Modern route and prove revision filtering, sorting/export, destination keys and reader rights. A Classic URL does not justify generating a bespoke screen."
+    "reason": "This is a native GI with an available native Modern engine, not a custom business form. Configure its Modern presentation and verify revision filtering, sort/export, row keys/navigation, launch route and relevant rights. A Classic-looking GenericInquiry.aspx route does not justify bespoke conversion; Modern route parity remains untested."
   },
   "m3": {
     "disposition": "REPAIR/PRESERVE EXISTING MODERN",
@@ -30,7 +29,7 @@
       "preserve-modern",
       "preserve-native-help"
     ],
-    "reason": "The served HTML, Modern sources and accepted revision establish an existing implementation. Correct the caption and verify its rendering; reuse unchanged acceptance evidence. Preserve working vendor Help on the native extension."
+    "reason": "The served frame and existing TS/HTML establish an existing Modern implementation at the same source/package/runtime revision. Correct the misspelled column caption and check the affected presentation, reusing prior acceptance for unchanged behavior with its revision and limits. Preserve working native Form Reference Help; a remaining Classic Page item is not evidence that reconversion is needed."
   },
   "m4": {
     "disposition": "REPAIR/PRESERVE EXISTING MODERN",
@@ -39,9 +38,9 @@
       "scanner-callback",
       "scanner-focus",
       "selected-row",
+      "reader-unverified",
       "transport-presentation",
-      "omitted-client-behavior",
-      "reader-unverified"
+      "omitted-client-behavior"
     ],
     "actions": [
       "preserve-modern",
@@ -51,7 +50,7 @@
       "port-client-behavior",
       "continue-independent-work"
     ],
-    "reason": "The scanner posts an empty payload twice and loses focus, selected B routes to A, preview restoration is missing, and a transport command is exposed. Repair these independent defects, preserving endpoint behavior. Administrator results leave Reader acceptance open; compile success cannot close any of these failures."
+    "reason": "Build success does not establish parity: a ready editor posts an empty value twice and loses focus; selected row B incorrectly opens A; the required transport command is operator-visible; and cancel preview restoration is missing. Repair the existing implementation, verify exact one-command scanner payload/reset/focus/repeat/error recovery and distinct-row/header context, and hide transport presentation while preserving handler/mapping/rights and probing the API contract. Reader access and row/destination restrictions remain unverified by Administrator-only evidence; continue authorized repairs without certifying release."
   },
   "m5": {
     "disposition": "REPAIR/PRESERVE EXISTING MODERN",
@@ -62,10 +61,9 @@
     ],
     "actions": [
       "preserve-modern",
-      "continue-independent-work",
-      "separate-timing-phases"
+      "continue-independent-work"
     ],
-    "reason": "Supplied ready-editor traces show exact single commits, reset, focus and invalid-input recovery; warm readiness and callbacks are within their separate budgets. Read-only grids have no current-row consumer and need no synchronization. Accept this observed scope, retain device and cold-start gates, and treat validation refusal only as handler reachability."
+    "reason": "Supplied ready-editor traces show exact ABC/DEF/INVALID payloads, one post each, reset, focus return, repeated input and invalid recovery with expected outcomes. Intended-role Help and the hidden transport handler's expected validation refusal support their observed contracts; refusal does not prove a mutation. Native-ready warm times of 2100/2200 ms and callback times of 140/180 ms meet the stated 4000/500 ms budgets. Accept only this observed scope, leaving physical-device and cold-start claims open. The display-only grid has no current-row consumer, so zero selection callbacks is appropriate."
   },
   "m6": {
     "disposition": "RETIRE",
@@ -78,7 +76,7 @@
       "preserve-dependencies",
       "repair-retirement-loading"
     ],
-    "reason": "The replacement is accepted, but a loading overlay prevents the notice link from working. Repair framework completion and test a normal click. Preserve the graph used by the release hook, retained records and bookmark compatibility; presentation retirement does not authorize deleting those dependencies."
+    "reason": "The obsolete presentation can retire because its Modern replacement is accepted, but the candidate notice is not usable while a loading overlay intercepts a normal click. Repair framework loading completion and verify a normal, unforced replacement-link click with operative inputs absent. Preserve the graph used by a release hook and the table containing 12 retained records; inspect bookmark/inbound routes and other dependencies before removing only authorized presentation. Replacement acceptance alone does not authorize dependency deletion."
   },
   "m7": {
     "disposition": "KEEP CLASSIC TEMPORARILY",
@@ -87,7 +85,7 @@
     "actions": [
       "record-migration-gate"
     ],
-    "reason": "The essential editor has no replacement and this release permits Classic. Assessment scope explicitly preserves the usable form. Record the missing editor and replacement-test gate without claiming Modern acceptance or future-release compatibility."
+    "reason": "This installed-build synthetic fixture explicitly permits Classic, and an essential custom editor has no available replacement. Within assessment-only scope, retain usable Classic temporarily and record the missing editor plus a migration gate requiring an implemented, tested and accepted replacement. This bounded disposition establishes neither Modern acceptance nor Classic compatibility for every R2 form or a later release."
   },
   "m8": {
     "disposition": "REPAIR/PRESERVE EXISTING MODERN",
@@ -95,7 +93,8 @@
     "findings": [
       "source-drift",
       "readiness-regression",
-      "reader-unverified"
+      "reader-unverified",
+      "cold-unverified"
     ],
     "actions": [
       "preserve-modern",
@@ -103,6 +102,6 @@
       "continue-independent-work",
       "separate-timing-phases"
     ],
-    "reason": "The installed successor contains additional actions missing from old source, so reconcile it before replacement. Native readiness of 2400 ms exceeds the 2000 ms warm budget despite a visible field at 900 ms. Report the cold 6000 ms without inventing a Classic comparison, disclose the 200 ms harness wait in the 350 ms tab timing, and continue source work while Reader access remains unavailable."
+    "reason": "The installed successor has additional server actions missing from old source; reconcile source, package and served implementation before edits and preserve the richer Modern implementation. The 900 ms visible field is not native readiness: 2400 ms exceeds the 2000 ms warm budget and requires investigation. Report the 6000 ms cold sample without claiming comparative cold parity, since its Classic comparator is unavailable. Separate the 350 ms tab measurement from its imposed 200 ms wait rather than treating unlike boundaries as equivalent. Reader behavior remains unverified without its login; continue available source repair and independent checks without restarting a shared worker or certifying missing evidence."
   }
 }

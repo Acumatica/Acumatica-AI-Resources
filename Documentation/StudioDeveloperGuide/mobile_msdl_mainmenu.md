@@ -1,4 +1,4 @@
-# Home Screen {#_c7e5bca7-aebc-4c40-878e-94535fa91c9e .concept}
+# Home Screen
 
 The Home screen of the Acumatica mobile app consists of workspaces, a placeholder for adding KPI widgets, the list of recently visited screens and records, the list of screens and records marked as favorites, and the bottom menu with the **Home**, **Search**, **Favorites**, and **Settings** buttons. A user can go to any of these parts of the mobile app by tapping the needed part of the screen.
 
@@ -14,11 +14,10 @@ To add a link to screen \(form\) so that a user can access it from the Home scre
 
 In this topic, you can read about and perform several simple examples that demonstrate how to build the site map of the mobile application.
 
-## Exploring of the Original Code of the Site Map { .section}
+## Exploring of the Original Code of the Site Map
 
 The code of the site map defines which screens will be accessible from different workspaces on the Home screen. The mobile app's Home screen is shown in the following screenshot.
 
-![](Images/MOBILE_MainMenu_Workspaces.png "The Home screen of the mobile app")
 
 You can view the original code of the site map of the Acumatica mobile app by doing the following:
 
@@ -30,7 +29,7 @@ You can view the original code of the site map of the Acumatica mobile app by do
 
 4.  On the Update: SITEMAP page, explore the original code of the site map in the **Result Preview** area.
 
-## Example: Adding a Screen to a Workspace { .section}
+## Example: Adding a Screen to a Workspace
 
 Adding a screen to a workspace consists of two actions:
 
@@ -55,12 +54,11 @@ To add the widget, perform the following steps:
 
     The workspace should look similar to the one shown in the following screenshot:
 
-    ![](Images/Mobile_AddedWidget.png "The CRM workspace with the added widget")
 
 
-## Example: Adding a Screen to a Folder { .section}
+## Example: Adding a Screen to a Folder
 
-**Important:** As of Acumatica ERP 2026 R1, the adding of screens by methods described in the section has been deprecated. We recommend that you use the workspace functionality as described in [To Configure Workspaces in the Acumatica ERP Instance](MOBILE_Workspaces_Instance.md).
+**Important:** As of Acumatica ERP 2026 R2, the adding of screens by methods described in the section has been deprecated. We recommend that you use the workspace functionality as described in [To Configure Workspaces in the Acumatica ERP Instance](MOBILE_Workspaces_Instance.md).
 
 Adding a screen to a folder consists of two actions:
 
@@ -84,7 +82,6 @@ update sitemap {
 
 The screenshots below show the results of this code on the mobile device.
 
-![](Images/MOBILE_Menu.png "The main menu, the contents of the folder, and the screen")
 
 **Note:** A folder must include at least one screen.
 
@@ -95,11 +92,10 @@ A folder can be of one of the following types, which determine how the folder co
 
 **Note:** Nested folders of the HubFolder type are not supported. That is, you may not add a folder of the HubFolder type within another folder of HubFolder type.
 
-## Example: Configuring Screens for Forms with Tabs { .section}
+## Example: Configuring Screens for Forms with Tabs
 
 Some Acumatica ERP forms display lists on multiple tabs \(as the following screenshot shows\).
 
-![](Images/Mobile_Menu_Tabs.png "Acumatica ERP form with multiple tabs")
 
 In the mobile app, such a form is represented as multiple subscreens, with each subscreen corresponding to a single tab. However, you have to configure only one screen because the mobile API server automatically performs the screen expansion into multiple screens.
 
@@ -138,7 +134,6 @@ To configure a screen for a form, do the following:
 
 The following screenshots show the result of this code on a mobile device. The first screenshot shows the changes to the main menu. The second screenshot shows the added screen with tabs.
 
-![](Images/Mobile_Tabs_Invoiced.png "The multi-tab screen represented as a folder")
 
 **Parent topic:**[Configuring the Mobile Site Map](../StudioDeveloperGuide/MOBILE_MSDL.md)
 

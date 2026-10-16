@@ -1,8 +1,8 @@
-# To Enter a Bill Based on Purchase Receipts {#_b9ce9f6e-bae2-4737-b1f0-22c01ebe3f89 .task}
+# To Enter a Bill Based on Purchase Receipts
 
 In Acumatica ERP, you can enter a bill based on purchase receipts or particular lines of purchase orders. To manually enter a bill based on purchase receipts, you use the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 
-## I. To Enter a Bill Based on Purchase Receipts {#section_hwh_njv_vxb .section}
+## I. To Enter a Bill Based on Purchase Receipts
 
 1.  Open the [Bills and Adjustments](../Shared/../UserGuide/AP_30_10_00.md) \(AP301000\) form.
 
@@ -28,7 +28,7 @@ In Acumatica ERP, you can enter a bill based on purchase receipts or particular 
     4.  In the table on the **Details** tab \(where the lines have been filled with the lines of the selected purchase receipts\), check the items' quantities and costs.
 10. On the form toolbar, click **Save**.
 
-## II. To Add Particular Purchase Receipt Lines to the Bill {#section_iwh_njv_vxb .section}
+## II. To Add Particular Purchase Receipt Lines to the Bill
 
 1.  Perform steps 1–3 of the previous procedure.
 2.  On the **Details** tab, do the following:
@@ -40,7 +40,7 @@ In Acumatica ERP, you can enter a bill based on purchase receipts or particular 
 
 3.  On the form toolbar, click **Save**.
 
-## Notes About the Procedure {#section_kwh_njv_vxb .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

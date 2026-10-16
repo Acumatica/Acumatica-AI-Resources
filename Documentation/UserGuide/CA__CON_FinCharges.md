@@ -1,4 +1,4 @@
-# Registration of Finance Charges {#_ef935e3a-04a2-47a4-b999-c97eeedd8730 .concept}
+# Registration of Finance Charges
 
 Whenever you send payments \(by check, wire transfer, or another payment method\) to your vendors or receive these payments from your customers, the payments are processed by banks or other financial institutions, which generally apply processing fees and charges to each payment. Generally, the sending financial institution transfers the outgoing payments in full and charges the bank account of the payer for any applicable fees. The receiving financial institution deducts the charges and processing fees from the incoming payment amount. To facilitate accounting for these charges, in Acumatica ERP you can configure the finance charges that apply to AP and AR payments, customer refunds, and funds transfers.
 
@@ -6,7 +6,7 @@ In Acumatica ERP, you can configure the application of the bank charges dependin
 
 In this topic, you will read about how to configure the collection of finance charges and to record collected charges.
 
-## Configuration of Finance Charges {#section_qxc_kjv_vxb .section}
+## Configuration of Finance Charges
 
 To facilitate accounting for the charges applied by each bank for payment processing, you perform the following steps:
 
@@ -20,7 +20,7 @@ After the configuration is completed, you can use the created entry types to rec
 
 **Attention:** Entry types are not directly linked to the vendor accounts of the particular banks.
 
-## Collection of Finance Charges {#section_uxc_kjv_vxb .section}
+## Collection of Finance Charges
 
 Once the finance charges are configured, their amounts can be recorded on each payment that passes through the financial institution.
 
@@ -53,7 +53,7 @@ For each bank deposit, in the Summary area of the respective form, you can view 
 
 For each funds transfer, you can view the transfer amount \(in the Summary area\) and the list of finance charges to be applied in the table of the respective form.
 
-## Generation of Finance Charge Transactions {#section_gyc_kjv_vxb .section}
+## Generation of Finance Charge Transactions
 
 On the release of each document with charges, the system generates a batch of transactions. You can view the batch for a document by clicking the batch reference number, which is displayed on the **Financial** tab of the form that was used to create the document. \(These forms are described in the previous section.\) The reference number of the batch generated for a funds transfer is displayed in the Summary area of the [Funds Transfers](CA_30_10_00.md) form.
 

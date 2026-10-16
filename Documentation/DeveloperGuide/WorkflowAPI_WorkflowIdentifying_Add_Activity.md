@@ -1,8 +1,8 @@
-# Workflow-Identifying Fields: To Add a Workflow for a Value of the Workflow-Identifying Field {#_6733ea09-f0c0-4c31-9fd7-c783c6bfbb85 .task}
+# Workflow-Identifying Fields: To Add a Workflow for a Value of the Workflow-Identifying Field
 
 The following activity will walk you through the process of defining a workflow for a specific value of the workflow-identifying field.
 
-## Story { .section}
+## Story
 
 Suppose that you have a repair work order that can be processed in the following ways:
 
@@ -18,17 +18,16 @@ These ways of processing a repair work order are defined by the **Order Type** b
 
 In this activity, you will define a workflow for the *Simple* value of the **Order Type** box. The workflow is shown in the following diagram.
 
-![](Images/diag_WorkflowAPI_WorkflowIdentifyingField_ActivityDiagram.png "Workflow for the Simple order type")
 
 When the repair work order is created, it gets the *On Hold* status. Then a user can click the **Complete** action on the form toolbar, which changes the order to *Completed*. After that, a user can click **Create Invoice** on the form toolbar, which initiates creation of an invoice for this repair work order. When the invoice is created, a user can release and pay it on the [Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\) and [Payments and Applications](../UserGuide/AR_30_20_00.md) \(AR302000\) forms respectively. As soon as the invoice is fully paid, the repair work order status should be changed to *Paid*.
 
-## Process Overview { .section}
+## Process Overview
 
 You will first add the `UsrOrderType` field to the `RSSVWorkOrder` DAC and respective database table. The field will hold the type of a repair work order and will be used on the Repair Work Orders \(RS301000\) form. Then, in the screen configuration for the Repair Work Orders \(RS301000\) form, you will specify this field as a workflow-identifying field. Then, you will add a workflow for the *Simple* value of the `UsrOrderType` field.
 
 **Tip:** Creation of workflows for other values of the `UsrOrderType` field is not covered in this activity.
 
-## System Preparation { .section}
+## System Preparation
 
 Make sure that you have done the following:
 

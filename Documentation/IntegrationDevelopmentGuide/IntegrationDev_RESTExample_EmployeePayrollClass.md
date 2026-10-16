@@ -1,4 +1,4 @@
-# EmployeePayrollClass {#_84476290-401a-4aec-a8eb-3ac771cbf196 .concept}
+# EmployeePayrollClass
 
 This chapter presents code examples showing requests that use the `EmployeePayrollClass` entity.
 

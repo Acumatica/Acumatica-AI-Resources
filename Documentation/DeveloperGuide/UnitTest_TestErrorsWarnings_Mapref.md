@@ -1,4 +1,4 @@
-# Testing the Display of Errors and Warnings {#_8b296ab8-da62-4738-a6b7-842e07f5870e .concept}
+# Testing the Display of Errors and Warnings
 
 The topics of this chapter describe how to test whether error or warning messages are displayed properly on the UI when users perform particular actions.
 

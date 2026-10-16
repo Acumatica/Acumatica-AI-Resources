@@ -1,50 +1,131 @@
-# Parameters and Filters: General Information {#_652b5780-df70-48b5-b688-cbf30c2489ac .concept}
+# Parameters and Filters: General Information
 
 In the Acumatica Report Designer, you can define parameters for the report you are designing, and users will specify the values for these parameters before they run the resulting report. For the report, you also can specify filters that can be used both in conjunction with parameters to limit the data based on the specified value and separately to always limit the data.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following in the Report Designer:
 
 -   Specify parameters in a report
 -   Set up filters in a report
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to use parameters and filters in reports you design in the Acumatica Report Designer in the following circumstances:
 
 -   You are responsible for the customization of Acumatica ERP in your company, including developing and modifying reports to give users the information they need to do their jobs.
 -   You want to modify an existing report to filter data, or add, modify, or define parameters that users can select to view data that meets their current needs.
 
-## Parameters { .section}
+## Parameters
 
 Report parameters are variables that the user specifies on the report form before running the report. You can use parameters to share values between two or more reports, or in expressions and formulas to calculate values for multiple fields within the same report. Based on the parameter, the report engine creates a variable within the report, which can be referred to as a database field can. When a parameter is referred to in code, it starts with the *@* symbol.
 
 You can specify parameters for a report on the **Parameters** tab of the Schema Builder. You add a parameter by clicking the **Add** button \(lower left\) and specifying the following settings.
 
-|Parameter|Description|
-|---------|-----------|
-|**Name** \(required\)|The name that you assign to the parameter, which will be used internally.|
-|**Data Type** \(required\)|The data type of the parameter. You can select one of the following types from the drop-down list: *Boolean*, *Date time*, *Float*, *Integer*, and *String*.|
-|**Prompt**|The title that is displayed to the left of the parameter on the **Report Parameters** tab of the report form in Acumatica ERP. If this value is not specified, the prompt and the box for the user to specify the parameter will not be displayed, and a user will not be able to enter or select any value; in this case, you can use this hidden parameter internally.|
-|**Default Value**|The value of the parameter when the user opens the report form; this value is used by default if a user does not specify another value. While designing and debugging a report in the Report Designer, you can experiment with specifying different values. You can use expressions and formulas to define parameters' default values. In the final version of the report, in the **Default Value** box, you specify the preferred value or leave the setting empty.|
-|**Input Mask**|The input mask to be used for entering the data for the parameter. For example, you can specify an input mask for a telephone number. You can specify a formula in the Expression Editor to define the input mask.|
-|**View Name**|The lookup window that will open to help the user running the report select the parameter. Usually, in the **View Name** box, the *Report.GetFieldSchema\(DAC.field\)* function is selected. This function returns a detailed description of the lookup window depending upon the specified DAC and field. The lookup window contains all the possible values of the parameter from which the user running the report can select the necessary value.
+<table id="_87ce4ff0-1137-497b-a3e8-56b39597df85"><thead><tr><th>
+
+Parameter
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+**Name** \(required\)
+
+</td><td>
+
+The name that you assign to the parameter, which will be used internally.
+
+</td></tr><tr><td>
+
+**Data Type** \(required\)
+
+</td><td>
+
+The data type of the parameter. You can select one of the following types from the drop-down list: *Boolean*, *Date time*, *Float*, *Integer*, and *String*.
+
+</td></tr><tr><td>
+
+**Prompt**
+
+</td><td>
+
+The title that is displayed to the left of the parameter on the **Report Parameters** tab of the report form in Acumatica ERP. If this value is not specified, the prompt and the box for the user to specify the parameter will not be displayed, and a user will not be able to enter or select any value; in this case, you can use this hidden parameter internally.
+
+</td></tr><tr><td>
+
+**Default Value**
+
+</td><td>
+
+The value of the parameter when the user opens the report form; this value is used by default if a user does not specify another value. While designing and debugging a report in the Report Designer, you can experiment with specifying different values. You can use expressions and formulas to define parameters' default values. In the final version of the report, in the **Default Value** box, you specify the preferred value or leave the setting empty.
+
+</td></tr><tr><td>
+
+**Input Mask**
+
+</td><td>
+
+The input mask to be used for entering the data for the parameter. For example, you can specify an input mask for a telephone number. You can specify a formula in the Expression Editor to define the input mask.
+
+</td></tr><tr><td>
+
+**View Name**
+
+</td><td>
+
+The lookup window that will open to help the user running the report select the parameter. Usually, in the **View Name** box, the *Report.GetFieldSchema\(DAC.field\)* function is selected. This function returns a detailed description of the lookup window depending upon the specified DAC and field. The lookup window contains all the possible values of the parameter from which the user running the report can select the necessary value.
 
  **Tip:** You can also use any field of any existing outside DAC if it has an attribute with appropriate lookup columns for the report parameter being adjusted. You can create a special DAC with the needed lookup fields if you have not found the appropriate field or fields in the existing DACs.
 
-|
-|**Column Span**|The column span to be used to display the parameter on the report form. The default column span is *1*, indicating that the parameter occupies one column.|
-|**Allow Null Values**|A check box that you select to indicate that the parameter can be null. By default, the check box is cleared, which means that the parameter cannot be null.|
-|**Visible**|A check box that you select to indicate that the parameter will be visible. By default, the check box is selected. If you clear the check box, the parameter will not appear on the **Report Parameters** tab of the report form and will be used only internally.|
-|**Required**|A check box that you use to specify whether the parameter is required to run the report. By default, the check box is cleared, which means that a user can run the report without specifying a value for the parameter. If you select the check box, a user cannot run the report without specifying a value for this parameter.
+</td></tr><tr><td>
+
+**Column Span**
+
+</td><td>
+
+The column span to be used to display the parameter on the report form. The default column span is *1*, indicating that the parameter occupies one column.
+
+</td></tr><tr><td>
+
+**Allow Null Values**
+
+</td><td>
+
+A check box that you select to indicate that the parameter can be null. By default, the check box is cleared, which means that the parameter cannot be null.
+
+</td></tr><tr><td>
+
+**Visible**
+
+</td><td>
+
+A check box that you select to indicate that the parameter will be visible. By default, the check box is selected. If you clear the check box, the parameter will not appear on the **Report Parameters** tab of the report form and will be used only internally.
+
+</td></tr><tr><td>
+
+**Required**
+
+</td><td>
+
+A check box that you use to specify whether the parameter is required to run the report. By default, the check box is cleared, which means that a user can run the report without specifying a value for the parameter. If you select the check box, a user cannot run the report without specifying a value for this parameter.
 
  If you click the selected check one more time, it will get to its third option, *Required by Condition* \(the check box is filled with square, instead of check mark\). You select this option to let the system calculate whether the parameter is required or not when you open the report form. The system does the calculation based on the parameter configuration, which is defined by the type and attributes of the corresponding DAC field.
 
  For example, suppose that for the BranchID field, it is defined that it becomes required if the *Multiple Base Currencies* feature is enabled in the system. If you use the BranchID field as a parameter of your report and select the *Required by Condition* option for it, the system will take the current value from the corresponding attribute of the DAC field.
 
-|
-|**Available Values**|A table in which you can specify the values that a user can select in the box of the parameter on the report form.|
+</td></tr><tr><td>
+
+**Available Values**
+
+</td><td>
+
+A table in which you can specify the values that a user can select in the box of the parameter on the report form.
+
+</td></tr></tbody>
+</table>
 
 You delete any parameter from the list on the **Parameters** tab of the Schema Builder by clicking the parameter in the left pane and then clicking the **Remove** button.
 
@@ -62,7 +143,7 @@ Acumatica ERP has the following predefined date-relative parameters:
 
 **Tip:** All the date-relative parameters use the date \(in UTC\) of the server used to run the Acumatica ERP instance as the business date.
 
-## Filters { .section}
+## Filters
 
 You can use filters to limit the volume of data selected for the reports, specify more specific criteria for selecting data from data tables, and remove unnecessary data as a result of the table joining. When you define filters, you can use parameters. Multiple filters are transformed into one SQL WHERE clause.
 
@@ -87,7 +168,7 @@ Any defined expression can be deleted. You can delete an expression in the follo
 -   On the **Filters** tab of the Schema Builder, by clicking the row with the filter you want to delete and pressing the Delete key.
 -   In the FilterExp Collection Editor, by clicking the row with the filter you want to delete and then clicking the **Remove** button \(or pressing the Delete key\).
 
-## Optional Data Filtering { .section}
+## Optional Data Filtering
 
 Acumatica ERP gives users the ability to add filters to a generated report. Before a user runs the report, the user can add filters on the **Sorting &amp; Filtering** tab of the report form, in the **Filtering** table. However, the user cannot view, delete, or modify the filters that are defined in the Report Designer.
 

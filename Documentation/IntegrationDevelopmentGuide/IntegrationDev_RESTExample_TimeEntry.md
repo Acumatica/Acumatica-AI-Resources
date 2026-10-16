@@ -1,4 +1,4 @@
-# TimeEntry {#_223986c1-b5a5-4506-b0d7-f426bc89d1b7 .concept}
+# TimeEntry
 
 This chapter presents code examples showing requests that use the `TimeEntry` entity.
 

@@ -1,8 +1,8 @@
-# Order Synchronization: Seller-Fulfilled Orders {#_e7e76950-553f-40eb-b7fb-06541f38bf55 .concept}
+# Order Synchronization: Seller-Fulfilled Orders
 
 For seller-fulfilled orders, sales orders are imported into Acumatica ERP and processed and shipped by the seller. The information about the shipments is then exported to the Amazon seller account.
 
-## Setting Up the Import of Seller-Fulfilled Orders { .section}
+## Setting Up the Import of Seller-Fulfilled Orders
 
 To set up the synchronization of data for seller-fulfilled orders, you perform the following general steps:
 
@@ -44,7 +44,7 @@ To set up the synchronization of data for seller-fulfilled orders, you perform t
     You must also map each Ship Via code with a carrier from Amazon in a substitution list on the [Substitution Lists](SM_20_60_26.md) \(SM206026\) form, and then specify this substitution list in the **Ship Via Codes to Carriers** box on the **Orders** tab of the [Amazon Stores](BC_20_10_20.md) form. Similarly, you must map each Ship Via code with a carrier service from Amazon in a substitution list, and then specify the substitution list in the **Ship Via Codes to Carrier Services** box on the **Orders** tab. If the carrier and carrier service method that have been defined for a Ship Via code do not match those defined in Amazon, during the export of a shipment, the carrier or carrier service method in Amazon will be updated based on the substitution values specified in these substitution lists.
 
 
-## Synchronizing Seller-Fulfilled Orders { .section}
+## Synchronizing Seller-Fulfilled Orders
 
 Seller-fulfilled orders, including shipped ones, are imported from an Amazon seller account during the synchronization of the *Sales Order* entity. For details about data synchronization, see [Data Synchronization: General Information](Commerce_AZ_Data_Sync_GeneralInfo.md).
 
@@ -53,7 +53,7 @@ During the data processing stage of the order import, a sales order is created o
 -   The order type is assigned based on the value specified in the **Seller-Fulfilled Order Type** box on the **Orders** tab of the [Amazon Stores](BC_20_10_20.md) \(BC201020\) form.
 -   The customer is inserted based on the value specified in the **Generic Customer** box on the **Orders** tab.
 
-## Exporting Shipments for Seller-Fulfilled Orders { .section}
+## Exporting Shipments for Seller-Fulfilled Orders
 
 For orders that are imported from Amazon to Acumatica ERP for processing, you can export information about the created and confirmed shipments to the Amazon seller account. Shipments are exported during the synchronization of the *Shipment* entity.
 
@@ -73,7 +73,7 @@ During the synchronization of shipments, the following information is exported t
 -   The carrier service method
 -   The tracking number
 
-## Importing Replacement Orders { .section}
+## Importing Replacement Orders
 
 Amazon creates a replacement order when a user replaces any products in an existing order in the Amazon seller account. Replacement orders are imported from the Amazon seller account during the synchronization of the *Sales Order* entity.
 

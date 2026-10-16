@@ -1,14 +1,14 @@
-# Intercompany Purchases and Returns: To Process an Intercompany Purchase {#_ed558ba7-57e4-4478-a382-494c68db2c0f .task}
+# Intercompany Purchases and Returns: To Process an Intercompany Purchase
 
 The following activity will walk you through the process of selling an item from one company to another company within the same tenant.
 
-## Story { .section}
+## Story
 
 Suppose that the Head Office of the Muffins &amp; Cakes company has to purchase two new juicers from the Service and Equipment Sales Center of SweetLife Fruits &amp; Jams. The system administrator has set up the intercompany sales functionality to enable generation of sales orders based on purchase orders, purchase receipts based on shipments, and AP bills based on AR invoices.
 
 Acting as a purchasing manager of Head Office of Muffins &amp; Cakes, you need to create a purchase order to the *SWEETEQIP* branch.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -25,11 +25,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *JUICER35* inventory item has been configured.
 -   On the [Warehouses](IN_20_40_00.md) \(IN204000\) form, the *MHEADWH* warehouse has been created and specified for the *MAIN* location of the *MHEAD* branch.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will first review the intercompany sales settings on the [Sales Orders Preferences](SO_10_10_00.md) \(SO101000\) form. On the [Vendors](AP_30_30_00.md) \(AP303000\) form, you will specify the warehouse of the Muffins &amp; Cakes company as the default one for the *SWEETEQUIP* vendor. On the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form, you will create a purchase order from *Muffins Head Office &amp; Wholesale Center* to *Service and Equipment Sales Center*, specifying *SWEETEQUIP* as the vendor, and save the purchase order. You will then cause the system to generate a sales order based on the purchase order on the [Generate Intercompany Sales Orders](SO_50_40_00.md) \(SO504000\) form. When the sales order is generated, on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, you will create and confirm a shipment for this sales order, and then you will cause the system to generate a purchase receipt based on the shipment on the [Generate Intercompany Purchase Receipts](PO_50_40_00.md) \(PO504000\) form. You will then create a sales invoice by clicking **Prepare Invoice** on the form toolbar of the [Shipments](SO_30_20_00.md) \(SO302000\) form. You will release the sales invoice on the [Invoices](SO_30_30_00.md) \(SO303000\) form, and it will become visible on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form as an AR invoice. You will cause the system to generate an AP bill on the [Generate Intercompany Documents](AP_50_35_00.md) \(AP503500\) form and release this bill on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -41,7 +41,7 @@ Before you begin performing the steps of this activity, do the following:
 3.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *Muffins Head Office &amp; Wholesale Center* branch.
 4.  Make sure the *SWEETEQUIP* branch has been extended as a vendor and the *MHEAD* branch has been extended as a customer, as described in [Intercompany Sales Setup: Implementation Activity](../ImplementationGuide/Finance_Intercompany_SalesSetup_Implem_Activity.md).
 
-## Step 1: Reviewing the Sales Order Preferences { .section}
+## Step 1: Reviewing the Sales Order Preferences
 
 To review the type of sales orders that will be used for intercompany sales, do the following:
 
@@ -56,7 +56,7 @@ To review the type of sales orders that will be used for intercompany sales, do 
         This is the type of an order that the system will use by default when creating an intercompany return.
 
 
-## Step 2: Specifying the Default Warehouse for the Vendor { .section}
+## Step 2: Specifying the Default Warehouse for the Vendor
 
 To specify the warehouse of the Muffins &amp; Cakes company as the default warehouse for the *SWEETEQUIP* vendor in the *MHEAD* branch to which you are currently signed in, do the following:
 
@@ -66,7 +66,7 @@ To specify the warehouse of the Muffins &amp; Cakes company as the default wareh
 4.  In the **Warehouse** box \(**Shipping Instructions** section\), select *MHEADWH*.
 5.  On the form toolbar, click **Save** to save your changes.
 
-## Step 3: Creating an Intercompany Purchase Order { .section}
+## Step 3: Creating an Intercompany Purchase Order
 
 To create an intercompany purchase order, do the following:
 
@@ -88,7 +88,7 @@ To create an intercompany purchase order, do the following:
     -   **Ext. Cost**: *2,400* \(calculated automatically\)
 4.  On the form toolbar, click **Remove Hold** to save the document with the *Open* status.
 
-## Step 4: Generating an Intercompany Sales Order { .section}
+## Step 4: Generating an Intercompany Sales Order
 
 To generate an intercompany sales order, do the following:
 
@@ -106,7 +106,7 @@ To generate an intercompany sales order, do the following:
     Notice that *MHEAD* is specified in the **Customer** box for this order. On the **Details** tab, *SWEETEQUIP* is specified in the **Branch** column and the order details have been copied from the originating purchase order. On the **Shipping** tab, notice that the system has inserted the number of the originating purchase order in the **Related Order Nbr.** box \(the **Intercompany Purchase** section\). This number is a link to the purchase order.
 
 
-## Step 5: Creating a Shipment { .section}
+## Step 5: Creating a Shipment
 
 To generate a shipment for the intercompany sales order, do the following:
 
@@ -115,7 +115,7 @@ To generate a shipment for the intercompany sales order, do the following:
 3.  The system creates a shipment for the sales order and opens it on the [Shipments](SO_30_20_00.md) \(SO302000\) form.
 4.  On the form toolbar, click **Confirm Shipment**.
 
-## Step 6: Creating a Purchase Receipt { .section}
+## Step 6: Creating a Purchase Receipt
 
 To create a purchase receipt, do the following:
 
@@ -130,7 +130,7 @@ To create a purchase receipt, do the following:
 6.  On the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form, which the system opens, review the purchase receipt with the *SWEETEQUIP* vendor and the *1/30/2026* date.
 7.  On the form toolbar, click **Remove Hold** and then click **Release**.
 
-## Step 7: Creating a Sales Invoice { .section}
+## Step 7: Creating a Sales Invoice
 
 To prepare a sales invoice for the shipment, do the following:
 
@@ -144,7 +144,7 @@ To prepare a sales invoice for the shipment, do the following:
     The system assigns the *Open* status to the sales invoice and makes it visible on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form as an AR invoice.
 
 
-## Step 8: Creating an AP Bill { .section}
+## Step 8: Creating an AP Bill
 
 To create an AP bill, do the following:
 
@@ -160,7 +160,6 @@ To create an AP bill, do the following:
 
     Notice that the order now has a status of *Closed*, as shown in the screenshot below. On the **PO History** tab, notice that the information about the purchase receipt and AP bill that were prepared for the order is displayed. According to this information, the purchased items have been received to inventory of the *Muffins Head Office &amp; Wholesale Center* branch and billed in full, so the intercompany purchasing process is completed.
 
-    ![](Images/activity_OrderMgmt_Intercompany_Sales_and_Purchases.png "Intercompany purchase order processed to completion")
 
 
 **Parent topic:**[Processing Intercompany Purchases and Returns](../UserGuide/OrderMgmt_Intercompany_Sales_and_Purchases_Mapref.md)

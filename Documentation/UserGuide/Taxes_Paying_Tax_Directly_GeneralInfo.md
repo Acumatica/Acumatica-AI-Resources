@@ -1,8 +1,8 @@
-# Direct Tax Payment: General Information {#_7e82806b-e9bd-439b-a468-702f0b76b207 .concept}
+# Direct Tax Payment: General Information
 
 According to government regulations in some countries, companies are required to pay taxes or customs duties on imported goods once the goods are declared to customs. For example, in the countries of the European Union, taxes or custom duties on the goods imported from third countries \(non-EU countries\) are charged once the goods are declared to customs. These taxes are not included in the bill from the supplier of the goods. Instead, the company receives a special bill from the tax agency or freight forwarder that delivers the goods. Such taxes are based on a list of documents that confirm the purchases made abroad.
 
-## Learning Objectives {#section_ifm_fjv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -11,11 +11,11 @@ In this chapter, you will learn how to do the following:
 -   Create a tax bill
 -   Create an AP document that includes expense lines and direct-entry tax lines
 
-## Applicable Scenarios {#section_kfm_fjv_vxb .section}
+## Applicable Scenarios
 
 You pay taxes directly to the tax agency if you purchase imported goods.
 
-## Configuration of Taxes Paid Directly to the Tax Agency {#section_mfm_fjv_vxb .section}
+## Configuration of Taxes Paid Directly to the Tax Agency
 
 In Acumatica ERP, taxes paid directly to the agency are configured on the [Taxes](TX_20_50_00.md) \(TX205000\) form and must have the **Direct-Entry Tax** check box selected.
 
@@ -48,7 +48,7 @@ With the **Direct-Entry Tax** check box selected, the state and behavior of the 
     **Attention:** Direct-entry taxes that have the **Pending VAT** check box selected are further processed on the [Bills and Adjustments](AP_30_10_00.md), [Checks and Payments](AP_30_20_00.md) \(AP302000\), [Recognize Input VAT](TX_50_35_00.md) \(TX503500\), and [Recognize Output VAT](TX_50_30_00.md) \(TX503000\) forms as regular pending VATs. For details, see [Applying a Pending VAT: General Information](Taxes_Applying_Pending_VAT_GeneralInfo.md).
 
 
-## Tax Agency Settings {#section_ufm_fjv_vxb .section}
+## Tax Agency Settings
 
 The following configuration should be performed for each tax agency for which you will pay the taxes directly:
 
@@ -56,7 +56,7 @@ The following configuration should be performed for each tax agency for which yo
 2.  On the [Taxes](TX_20_50_00.md) \(TX205000\) form, required taxes should be created and the **Direct-Entry Tax** check box should be selected for each tax. In the **Tax Agency** box for the tax, the needed tax agency should be selected. For details, see [Direct Tax Payment: To Create a Tax Bill for a Tax Agency](Taxes_Paying_Tax_Directly_Create_Tax_Bill_Applied_to_Purchase.md).
 3.  Tax calculation should be set up.
 
-## Application of Direct-Entry Tax on the Bills and Adjustments Form {#section_wfm_fjv_vxb .section}
+## Application of Direct-Entry Tax on the Bills and Adjustments Form
 
 On the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you can enter tax bills containing expense lines and direct-entry tax lines, as well as tax bills containing only direct-entry tax lines.
 
@@ -73,7 +73,7 @@ If the *Net/Gross Entry Mode* feature is enabled on the [Enable/Disable Features
 
 **Attention:** Direct-entry taxes cannot be applied to lines linked to a purchase order, subcontract or purchase receipt. A direct-entry tax can be applied only to a landed cost line with the *None* allocation method specified on the **Landed Costs** tab of the [Landed Costs](PO_30_30_00.md) \(PO303000\) form.
 
-## Limitations to Direct-Entry Tax {#section_dgm_fjv_vxb .section}
+## Limitations to Direct-Entry Tax
 
 The following limitations apply to direct-entry taxes entered on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form:
 

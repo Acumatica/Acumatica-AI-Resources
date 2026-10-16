@@ -1,8 +1,8 @@
-# Execution of Event Handlers {#_4a062f32-f55b-4e0e-bc04-aa38683a69b5 .concept}
+# Execution of Event Handlers
 
 In this topic, you can find information about how event handlers are executed and how to add and remove event handlers at runtime.
 
-## Execution of Event Handlers { .section}
+## Execution of Event Handlers
 
 All event handlers for a particular event share the same PXCache instance that has raised this event. The system creates a PXCache instance to control the modified data records of a particular data access class \(DAC\) type. The PXCache instance is always available as the first argument in an event handler; the second argument provides the specific data that corresponds to the event.
 
@@ -10,7 +10,7 @@ Once an event is raised, the order in which the associated event handlers are ex
 
 For other events, the attribute event handlers are executed first, and the graph event handlers are executed next.
 
-## Dynamic Addition of Event Handlers { .section}
+## Dynamic Addition of Event Handlers
 
 A business logic controller \(BLC\) includes the collections of graph event handlers for all events except CacheAttached. Each of these collections holds event handlers for a particular event and has the same name as the event. \(You can find more information about how these collections are initialized in the [Initialization of an Event Handler Collection](#_57644a4b-f2b5-4ff0-bf72-622bf84d90f7) section in this topic.\) By using the methods of these collections, you can add and remove graph event handlers in code at runtime.
 
@@ -45,7 +45,7 @@ When the `AddHandler<>()` or `AddAbstractHandler<>()` method is invoked, event h
 
 To remove a handler, you should invoke the `RemoveHandler<>()` method. Alternatively, you can invoke its strongly typed version, `RemoveAbstractHandler<>()`.
 
-## Initialization of an Event Handler Collection {#_57644a4b-f2b5-4ff0-bf72-622bf84d90f7 .section}
+## Initialization of an Event Handler Collection
 
 On each round trip, the PXGraph\(\) constructor does the following while it initializes a graph instance:
 
@@ -67,7 +67,6 @@ On each round trip, the PXGraph\(\) constructor does the following while it init
 
 The following diagram shows how an instance of the PX.Objects.SO.SOOrderEntry graph uses the PX.Objects assembly metadata to add the SOOrder\_CustomerID\_FieldUpdated\(\)  event handler \(described in the graph and graph extensions\) to the FieldUpdatedEvents collection of the PXCache&lt;SOOrder&gt; cache object.
 
-![](Images/REF_Event_Handler_NamingConventions_01.png "Addition of an event handler to the appropriate collection")
 
 In the collection, the CustomerID field name is used as a key, and the delegate of the event handler sequence for the field processing is used as a value.
 

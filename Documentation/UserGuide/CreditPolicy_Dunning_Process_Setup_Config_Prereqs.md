@@ -1,12 +1,12 @@
-# Dunning Process Setup: Configuration Prerequisites {#_57731431-d1dc-43d3-921e-3a582bdafdd8 .concept}
+# Dunning Process Setup: Configuration Prerequisites
 
 Before starting to implement the dunning process, you should be sure that the needed features have been enabled, settings have been specified, and entities have been created, as described in the following sections.
 
-## Enabling the Needed Features {#section_cxd_hjv_vxb .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the minimum set of features has to be enabled. For details, see [Company Without Branches: To Configure a Company Without Branches](../ImplementationGuide/config_Basic_Company_Implem_Activity_Enabling_Features.md).
 
-## Configuring the System {#section_exd_hjv_vxb .section}
+## Configuring the System
 
 You need to make sure the following tasks have been performed in Acumatica ERP before you begin to implement the dunning process:
 

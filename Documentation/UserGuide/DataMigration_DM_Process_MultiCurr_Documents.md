@@ -1,8 +1,8 @@
-# Data Migration Process: Migrating Multicurrency Documents {#_c6eb8dea-aa01-4fe1-ad18-83df49b4fdae .concept}
+# Data Migration Process: Migrating Multicurrency Documents
 
 If your company works with foreign vendors and customers, when migrating from a legacy system, you need to first configure Acumatica ERP for working with multiple currencies, and then import the documents and upload the balances of any accounts denominated in a foreign currency.
 
-## Support of Multiple Currencies { .section}
+## Support of Multiple Currencies
 
 Acumatica ERP supports the processing of documents and transactions in foreign currencies in the following functional areas:
 
@@ -20,7 +20,7 @@ Acumatica ERP supports the processing of documents and transactions in foreign c
 
 **Important:** Transactions involving fixed assets, deferred revenue, and inventory can be processed in the base currency only.
 
-## Import of Documents in Foreign Currencies { .section}
+## Import of Documents in Foreign Currencies
 
 To prepare the system for importing documents in foreign currencies to the system, the following requirements must be met:
 
@@ -31,7 +31,7 @@ To prepare the system for importing documents in foreign currencies to the syste
 
 After you import the documents to the system, you need to verify the balances of customers and vendors in the base and foreign currencies to make sure that all data was imported correctly.
 
-## Import of Trial Balances { .section}
+## Import of Trial Balances
 
 If you have accounts maintained in a foreign currency \(or accounts denominated in a foreign currency\), you need to import balances in both base and foreign currencies for each of these accounts. Thus, in the Excel file with the data, you need to create two columns with balances: *YTD Balance*, which holds the balance of accounts in the base currency, and *Currency YTD Balance*, which contains the balance of accounts in the foreign currencies assigned to these accounts. Both columns must have the currency or text format. For the accounts that are not denominated or are denominated in the base currency, the *YTD Balance* and *Currency YTD Balance* columns hold the same value.
 

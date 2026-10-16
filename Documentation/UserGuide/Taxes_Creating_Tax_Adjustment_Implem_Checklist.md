@@ -1,4 +1,4 @@
-# Sales Tax Adjustments: Implementation Checklist {#_8c085213-8ae9-4a53-a542-b62ab8eb8a10 .concept}
+# Sales Tax Adjustments: Implementation Checklist
 
 To ensure that the system is configured properly for making a tax adjustment to a tax report, make sure that the criteria listed in the table have been met in the system as described.
 
@@ -9,7 +9,7 @@ To ensure that the system is configured properly for making a tax adjustment to 
 |[Reporting Settings](TX_20_51_00.md) \(TX205100\)|Make sure that the tax report is properly and fully configured for the particular tax agency.|For details, see [Tax Report Configuration: To Create a Tax Report for Sales Taxes](../ImplementationGuide/TaxReport_SalesTaxes_Implem_Activity.md).|
 |[Release Tax Report](TX_50_20_00.md) \(TX502000\)|Make sure that a tax report for a specified tax period has been prepared.|For details, see [Preparing a Tax Report for Sales Taxes](Taxes_Preparing_a_Tax_Report_Mapref.md).|
 
-## Validation of Configuration {#section_xwn_fjv_vxb .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you create a tax adjustment by performing instructions similar to those described in [Sales Tax Adjustments: Process Activity](Taxes_Creating_Tax_Adjustment_Activity.md).
 

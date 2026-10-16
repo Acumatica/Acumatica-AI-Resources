@@ -1,4 +1,4 @@
-# To Navigate to the Business Events Form {#_beb8765f-34fb-4e86-af99-c69d3b47e077 .task}
+# To Navigate to the Business Events Form
 
 You might need to add a business event to Acumatica ERP during customization. To manage business events in Acumatica ERP, you use the [Business Events](../UserGuide/SM_30_20_50.md) \(SM302050\) form. For more information about business events, see [Using Business Events](../UserGuide/SA_Using_Business_Events_Mapref.md) in the User Guide.
 

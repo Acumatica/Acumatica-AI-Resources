@@ -1,4 +1,4 @@
-# Order Orchestration {#_17a6aec3-76b0-47f5-9b16-54ea85973c16 .concept}
+# Order Orchestration
 
 This chapter describes the minimum configuration of the order management functionality that is required for Acumatica ERP users to orchestrate orders. Order orchestration is a functionality that automatically selects the best warehouse—or combination of warehouses—to fulfill sales orders.
 

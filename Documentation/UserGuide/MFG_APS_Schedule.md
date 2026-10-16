@@ -1,8 +1,8 @@
-# Advanced Planning and Scheduling: Scheduling Details {#_b37a0995-9cf7-4019-b35e-794c089593ed .concept}
+# Advanced Planning and Scheduling \(Classic\): Scheduling Details
 
 In this topic, you will read about scheduling details in advanced planning and scheduling \(APS\).
 
-## Scheduling Method { .section}
+## Scheduling Method
 
 In conjunction with the constraint date, this determines the sequence by which the operations of the production order are scheduled. You can select any of the following scheduling methods in the **Scheduling Method** box on the **General** tab of the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form:
 
@@ -10,25 +10,25 @@ In conjunction with the constraint date, this determines the sequence by which t
 -   *Start On:* The operations are scheduled forward from the constraint date.
 -   *User Dates:* This value provides you with the ability to define the start and end dates of the production order. This is a way for the user to override the manufacturing lead times or to use any calendar dates including non-working days.
 
-## Constraint Date { .section}
+## Constraint Date
 
 This is a particular date by which the production order is needed or needs to be started. It is only entered when the scheduling method is either *Finish On* or *Start On*.
 
 You specify the constraint date on the **General** tab of the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form.
 
-## Dispatch Priority { .section}
+## Dispatch Priority
 
 Dispatch priority is used in APS to load the production orders and operations in priority sequence. Orders with the same priority are loaded by the constraint date. Orders with the highest priority are scheduled first. One \(1\) is the highest priority and ten \(10\) is the lowest.
 
 You specify the dispatch priority on the **General** tab of the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form.
 
-## Infinite Capacity Planning { .section}
+## Infinite Capacity Planning
 
 Production order operations starting and ending dates are calculated solely on the basis of operation duration. In APS, the system uses infinite capacity planning for production orders whose end date is beyond 120 days from the date when the planning is initiated.
 
 Also, the system uses infinite planning when creating planning orders during inventory planning. For more details about calculating operation and production order dates, see [Inventory Planning Configuration: System-Wide Settings](../ImplementationGuide/config_Inventory_Planning_System_Settings.md).
 
-## Finite Capacity Planning { .section}
+## Finite Capacity Planning
 
 Production orders can be scheduled and rescheduled respecting the capacity and current load of work centers, machines and tools and, optionally, the availability of materials.
 
@@ -57,9 +57,9 @@ Finite scheduling may result in the following issues:
 -   If machine scheduling is used, the machine may not be available although the work center is available.
 -   If tool scheduling is used, the tools required may not be available although the work center is available and the machine is available.
 
-For more information about the calculation of the duration of operations, see [Advanced Planning and Scheduling: Operation Lead Time](MFG_APS_Lead_Time_Calculation.md).
+For more information about the calculation of the duration of operations, see [Advanced Planning and Scheduling \(Classic\): Operation Lead Time](MFG_APS_Lead_Time_Calculation.md).
 
-## Firm Scheduling of Production Orders {#section_fvv_ycn_wqb .section}
+## Firm Scheduling of Production Orders
 
 You can prevent a production order from being rescheduled if strict production dates are important for the production order \(for example, because of the commitment with the customer\). You can firm the order—that is, fix the production dates. When you run finite scheduling of production orders, the system does not reschedule the firmed production orders.
 
@@ -75,7 +75,7 @@ Firm production orders are not visible on the [Rough Cut Planning](AM_50_10_00.m
 
 You can also firm production orders by using the [Production Schedule Board](AM_21_55_55.md) \(AM215555\) form.
 
-## Checking of Material Availability {#_35d74e2b-e070-4524-9d44-accb73c4e477 .section}
+## Checking of Material Availability
 
 You have the option to exclude the validation for available materials during advanced planning and scheduling as follows:
 
@@ -101,5 +101,5 @@ If no supply has been found, the system schedules the production order based on 
 -   If a material of one operation is not available, the entire production order \(not just the specific operation\) will be rescheduled.
 -   All materials must be available in full to schedule the production order. Partial available quantity is not considered during scheduling.
 
-**Parent topic:**[Advanced Planning and Scheduling](../UserGuide/MFG_APS_Mapref.md)
+**Parent topic:**[Advanced Planning and Scheduling \(Classic\)](../UserGuide/MFG_APS_Mapref.md)
 

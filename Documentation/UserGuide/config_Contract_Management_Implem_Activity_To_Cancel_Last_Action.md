@@ -1,10 +1,10 @@
-# Contract Management: To Cancel the Last Action {#_e79daa20-48d2-4ea6-a79c-60ad92ee352b .task}
+# Contract Management: To Cancel the Last Action
 
 In this activity, you will learn how to cancel the last action.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 The SweetLife Fruits &amp; Jams company supplies the Unifruit LLC customer with equipment for a juice production and provides deployment, maintenance support service and consulting. A regular deployment contract includes such terms as a two-month contract span, the activation date as the starting point of the billing schedule, a monthly billing period, a recurring billing amount of $300, the ability to be renewed, and a 10-day grace period.
 
@@ -16,7 +16,7 @@ Meanwhile, during the fulfillment of the contract, the Unifruit LLC customer ask
 
 Acting as an accountant, you need to cancel the most recent billing \(which was the last action performed on the contract\) and reverse the invoice.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -24,11 +24,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form on the **General** tab \(**Data Entry Settings** section\), the **Hold Documents on Entry** check box has been cleared.
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *UNIFRUIT \(Unifruit LLC\)* customer has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will reverse the invoice and create the credit memo. Then on the [Customer Contracts](CT_30_10_00.md) \(CT301000\) form, you will cancel the last action \(billing\).
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
@@ -36,7 +36,7 @@ To prepare to perform the instructions of this activity, do the following:
 2.  Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as the accountant Anna Johnson by using the *johnson* username and the *123* password.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *4/2/2026*. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Reverse the Released Invoice {#section_ynp_432_2tb .section}
+## Step 1: Reverse the Released Invoice
 
 To reverse the released invoice before the cancellation of the billing, do the following:
 
@@ -49,14 +49,13 @@ To reverse the released invoice before the cancellation of the billing, do the f
 
 5.  On the **Applications** tab of the credit memo, add a row. In the **Reference Nbr.** column, select the reference number of the invoice for the Unifruit LLC company that you want to reverse. In the **Amount Paid** column of the **Applications** tab, specify an amount that matches the invoice amount \($300\), as shown in the following screenshot.
 
-    ![](Images/CustomerContractsARHistoryCreditMemoBalanced.png "The credit memo during the reversal of the invoice")
 
 6.  Save the credit memo.
 7.  On the form toolbar, click **Release** to release the credit memo. Now the credit memo has the *Closed* status and the released invoice has been reversed.
 
 Now you can proceed to the cancellation of the latest action, which was the billing.
 
-## Step 2: Cancel the Last Action { .section}
+## Step 2: Cancel the Last Action
 
 In this step, you will cancel the latest billing for the contract, which resulted in a released invoice.
 
@@ -67,7 +66,6 @@ In this step, you will cancel the latest billing for the contract, which resulte
 
 3.  Press F5 to refresh the form. In the Summary area of the [Customer Contracts](CT_30_10_00.md) form, review the contract balance, which is $0 now because you have reversed the released invoice.
 
-    ![](Images/CustomerContractsARHistoryCreditMemoClosed.png "The closed credit memo and invoice after reversal of the released invoice")
 
 4.  On the More menu \(under **Processing**\), click **Undo Last Action**.
 

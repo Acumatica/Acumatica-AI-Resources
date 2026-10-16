@@ -1,10 +1,10 @@
-# Customer Visibility: General Information {#_2828845f-1fd4-4c37-806e-3406cb57b72e .concept}
+# Customer Visibility: General Information
 
 When multiple companies with their own accounting departments are configured within the same tenant, you may want to limit access to customer accounts so that they can be viewed by only employees of a particular company, branch, or company group and used in the documents originating from these entities.
 
 If the *Multiple Base Currencies* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, the **Restrict Visibility To** setting on the **Financial** tab of the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form is required for regular customers. You should associate each customer with an appropriate entity by selecting the entity in the **Restrict Visibility To** box. The base currency of the entity with which the customer is associated will be the currency in which the system stores the customer's balance and credit limit. As a result, customers can be used only in the transactions originating from the branches that have the same base currency as the currency of the entity that is associated with the customer.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,14 +12,14 @@ In this chapter, you will learn how to do the following:
 -   Explore how customers can be accessed by various users based on these restrictions
 -   Update the **Restrict Visibility To** setting of customers by using an import scenario
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to restrict the visibility of customer records in the following cases:
 
 -   You have customers that work with a particular entity \(a company, a branch, or a company group\), and you do not want employees of other companies or branches to have access to the entity.
 -   You are using the *Multiple Base Currencies* feature, and you need to limit the usage of customers to an entity \(a company, branch, or a company group\).
 
-## Restricted Visibility of Customer Records { .section}
+## Restricted Visibility of Customer Records
 
 You use the **Restrict Visibility To** box on the **Financial** tab of the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form to control the visibility of the selected customer. A customer in Acumatica ERP can be associated with one of the following:
 
@@ -37,11 +37,10 @@ These capabilities are available if the *Customer and Vendor Visibility Restrict
 
 **Tip:** If you have the *Row-Level Security* feature enabled and any restriction groups have been configured in the system, they will be applied in addition to the customer visibility restriction functionality. For details on restriction groups, see [Customers: Security Configuration](../UserGuide/AR__con_Customer_Security.md).
 
-## Configuration Example { .section}
+## Configuration Example
 
 The following diagram illustrates an example of restricted access to customer records.
 
-![](Images/diag_Customer_Visibility_Restriction.png)
 
 The diagram shows that the user in the *Company X* and *Company Y* access roles can work with *Customer B* \(which is associated with *Company X*\) and *Customer C* \(which is associated with *Company Y*\). Additionally, the user can work with *Customer A*; access to this customer is not limited to any company or branch because the **Restrict Visibility To** box on the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form is empty. However, the user cannot view the *Customer D* record, because this customer is associated with *Company Z*, to which the user does not have access based on the user's assigned roles.
 

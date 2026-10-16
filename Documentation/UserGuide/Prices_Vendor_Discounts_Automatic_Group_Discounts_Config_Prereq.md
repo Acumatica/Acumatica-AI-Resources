@@ -1,8 +1,8 @@
-# Automatic Group Vendor Discounts: Configuration Prerequisites {#_9d70ebea-705e-4cd0-8599-8306dcfe4722 .concept}
+# Automatic Group Vendor Discounts: Configuration Prerequisites
 
 This section explains how to prepare the system to be able to apply automatic vendor discounts to multiple document lines.
 
-## Enabling Features { .section}
+## Enabling Features
 
 In order to be able to apply automatic group-level discounts to documents, the following features must be enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form:
 
@@ -10,7 +10,7 @@ In order to be able to apply automatic group-level discounts to documents, the f
 -   *Vendor Discounts*, which provides the ability to maintain discounts offered by vendors
 -   *Inventory* \(optional\), which provides the functionality of maintaining stock items
 
-## Other Configuration Settings { .section}
+## Other Configuration Settings
 
 Make sure that the following settings are configured in the system:
 

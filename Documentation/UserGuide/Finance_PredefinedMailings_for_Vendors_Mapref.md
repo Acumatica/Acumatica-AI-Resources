@@ -1,4 +1,4 @@
-# Configuring Predefined Mailings for Vendors {#_c6850833-eddc-4cbc-b2d4-7965586fba4c .concept}
+# Configuring Predefined Mailings for Vendors
 
 The functionality enabling you to send documents of a specific type by email is referred to as a *mailing*. Acumatica ERP provides predefined mailings that you can configure for vendors in the accounts payable, purchase orders, and purchase requisitions subledgers.
 

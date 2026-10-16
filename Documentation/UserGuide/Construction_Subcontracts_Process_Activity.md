@@ -1,16 +1,16 @@
-# Subcontracts: Process Activity {#_113f0d01-a5db-4b03-93e3-68a08e6acf0a .task}
+# Subcontracts: Process Activity
 
 This activity will walk you through the process of working with a subcontract.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that on March 15, 2026, the ToadGreen company hires a subcontractor, Standard Hardware Company, to install windows and doors in the hotel that is being built by ToadGreen. Both parties agree that the Standard Hardware Company will perform the installation of windows, the installation of doors and frames, and the building an entrance. Normally, this subcontractor does not require the printing of documents, but for this subcontract, the construction project manager of the ToadGreen company has decided to create and print the subcontract. On March 25, 2026, when the subcontractor finishes its part of the work and sends an invoice to ToadGreen, ToadGreen’s project manager will create a bill and pay for the provided services.
 
 Acting as the construction project manager, you will process all the needed documents in the system.
 
-## Configuration Overview {#section_qkw_q4s_dnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -19,11 +19,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Projects](PM_30_10_00.md#) \(PM301000\) form, the *HOTEL* project has been created.
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *SUBCONTR* non-stock item, which represents the work performed by subcontractors, has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 To record the work performed by a subcontractor for the project, you will create a subcontract document with the subcontractor \(vendor\) on the [Subcontracts](SC_30_10_00.md) \(SC301000\) form. Then you will print the subcontract. After that, you will create a bill for the provided services on the [Bills and Adjustments](AP_30_10_00.md#) \(AP301000\) form, create a payment for the bill on the [Checks and Payments](AP_30_20_00.md#) \(AP302000\) form, prepare the check on the [Process Payments / Print Checks](AP_50_50_00.md#) \(AP505000\) form, and release it on the [Release Payments](AP_50_52_00.md#) \(AP505200\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start working with subcontracts, do the following:
 
@@ -31,7 +31,7 @@ Before you start working with subcontracts, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *3/15/2026*. If a different date is displayed, click the Business Date menu button, and select *3/15/2026* on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 3.  On the [Projects Preferences](PM_10_10_00.md) \(PM101000\) form, on the **General** tab \(**General Settings** section\), select the **Internal Cost Commitment Tracking** check box. Save your changes to the project accounting preferences. This exposes the committed values of the budget.
 
-## Step 1: Creating a Subcontract { .section}
+## Step 1: Creating a Subcontract
 
 To create a subcontract, do the following:
 
@@ -55,10 +55,9 @@ To create a subcontract, do the following:
 7.  On the [Projects](PM_30_10_00.md#) \(PM301000\) form, open the *HOTEL* project.
 8.  On the **Cost Budget** tab, make sure that the committed cost budget lines have been updated with the subcontract line amounts with the same project task and cost code, as shown below. The **Original Committed Amount** and **Committed Open Amount** have been increased by the amounts in the corresponding subcontract lines.
 
-    ![](Images/activity_Construction_Work_with_Subcontracts.png "Cost budget updated with the subcontract amount")
 
 
-## Step 2: Printing the Subcontract { .section}
+## Step 2: Printing the Subcontract
 
 To prepare the printable version of the subcontract, do the following:
 
@@ -69,7 +68,7 @@ To prepare the printable version of the subcontract, do the following:
 
 3.  Press Esc to refresh the form. Notice that the system has changed the subcontract status to *Open*.
 
-## Step 3: Paying for the Performed Work { .section}
+## Step 3: Paying for the Performed Work
 
 To create the bill to pay for the subcontractor work, do the following:
 
@@ -90,7 +89,6 @@ To create the bill to pay for the subcontractor work, do the following:
 9.  In the **Processing** dialog box, which opens, click **Close**.
 10. On the [Subcontracts](SC_30_10_00.md) form, again open the subcontract that you have created earlier in this activity, which is now assigned the *Closed* status. On the **Billing** tab, review the line that corresponds to the bill that you have prepared for the subcontract. The bill is also assigned the *Closed* status because it was paid in full.
 
-    ![](Images/activity_Construction_Work_with_Subcontracts_2.png "The closed subcontract")
 
 
 You have finished processing the subcontract.

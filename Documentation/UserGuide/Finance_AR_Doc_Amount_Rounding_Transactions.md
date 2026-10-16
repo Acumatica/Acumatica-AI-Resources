@@ -1,8 +1,8 @@
-# Rounding of AR Document Amounts: Generated Transactions {#_8abb42d3-a70c-4470-ac36-6f38a029eb04 .concept}
+# Rounding of AR Document Amounts: Generated Transactions
 
 As you create and release AR documents with rounded amounts, the system generates the GL transactions described in the following sections.
 
-## Transaction Generated for AR Invoice and Debit Memo { .section}
+## Transaction Generated for AR Invoice and Debit Memo
 
 When you create and release an AR invoice or debit memo, the system generates the following general ledger transaction.
 
@@ -14,7 +14,7 @@ When you create and release an AR invoice or debit memo, the system generates th
 
 On the **Financial** tab of the [Invoices and Memos](AR_30_10_00.md) form, the **Batch Nbr.** box shows the reference number of the GL batch. You can click this link to view the GL batch on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## Transaction Generated for a Credit Memo { .section}
+## Transaction Generated for a Credit Memo
 
 When you create and release a credit memo, the system generates the following general ledger transaction.
 
@@ -26,7 +26,7 @@ When you create and release a credit memo, the system generates the following ge
 
 On the **Financial** tab of the [Invoices and Memos](AR_30_10_00.md) form, the **Batch Nbr.** box shows the reference number of the GL batch. You can click this link to view the GL batch on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## Transaction Generated for a Cash Sale { .section}
+## Transaction Generated for a Cash Sale
 
 When you create and release a cash purchase, the system generates the following general ledger transaction.
 

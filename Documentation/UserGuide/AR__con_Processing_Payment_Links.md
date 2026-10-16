@@ -1,10 +1,10 @@
-# Processing of Payment Links {#_28a2020b-1731-4f73-9645-47caecc99832 .concept}
+# Processing of Payment Links
 
 In Acumatica ERP, webhooks have been used to implement the receipt of payments that were made in the processing center by using payment links. The system receives information about all created payments from the processing center and processes those payments that were created by using payment links.
 
 **Attention:** Using webhooks is the preferable way to receive payments and is supported by Acumatica ERP. However, webhook creation requires manual actions by administrative users.
 
-## Supported Document Types { .section}
+## Supported Document Types
 
 You can create payment links for the following document types created on the following forms:
 
@@ -12,7 +12,7 @@ You can create payment links for the following document types created on the fol
 -   [Sales Orders](SO_30_10_00.md) \(SO301000\): Sales orders with the *Sales Order* automation behavior
 -   [Invoices](SO_30_30_00.md) \(SO301000\): Sales invoices
 
-## Creation of Payment Links {#section_k1s_jq3_vyb .section}
+## Creation of Payment Links
 
 When open AR documents and sales invoices are released, the system automatically creates payment links via business events. For sales orders with the *SO* behavior, you create payment links manually on the [Process Orders](SO_50_10_00.md) \(SO501000\) or [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 
@@ -33,7 +33,7 @@ To manually create payment links, you should do either of the following:
 
 If the AR document or sales order becomes open again \(for example, if payment application is reversed\), the **Create Payment Link** button becomes available again on the **Payment Links** tab of the respective form.
 
-## Attachment Generation for Payment Links { .section}
+## Attachment Generation for Payment Links
 
 For multiline documents, you can include only the document total in the payment link, while attaching the full line-item details separately as a PDF file.
 
@@ -62,7 +62,7 @@ If the status of a sales order is *Open*, you can change its line items—for ex
 1.  Remove the currently attached PDF file with line details
 2.  Create a new PDF file and attach it to the payment link
 
-## Attachments to Email Notifications { .section}
+## Attachments to Email Notifications
 
 Although the system uses the default reports for email notifications, you can select other reports in the mailing and printing settings of the customer class or the customer. These reports are fully customizable and you can change or update them to meet your business needs.
 
@@ -73,7 +73,7 @@ If a payment link is generated with an attachment, the system attaches the follo
 -   **No report is specified for the _SALES ORDER PAY LINK_ or _INVOICE PAY LINK_ mailing ID** \(default\): The report specified for the *SALES ORDER*, *SO INVOICE*, or *INVOICE* mailing ID
 -   **A report is specified for the _SALES ORDER PAY LINK_ or _INVOICE PAY LINK_ mailing ID**: This report
 
-## Synchronization of Payment Links { .section}
+## Synchronization of Payment Links
 
 Once a payment link is created, synchronization between an AR document or sales order and the payment link is automatic. That is, related business events are active by default after you upgrade Acumatica ERP. Synchronization is triggered by any change made to the due date or amounts of the document or its lines, or any change to the dates or the unpaid balance for sales orders. Also, you can manually synchronize payment links on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\), [Invoices](SO_30_30_00.md) \(SO303000\), [Sales Orders](SO_30_10_00.md) \(SO301000\), and [Process Payment Links](AR_51_35_00.md) \(AR513500\) forms.
 
@@ -81,7 +81,7 @@ Once the AR document or sales order corresponding to a payment link is fully pai
 
 A payment link is closed automatically if the corresponding sales order is assigned the *Completed* status. You can also close a payment link manually for a sales order at any time by clicking **Close Payment Link** on the **Payment Links** tab of the [Sales Orders](SO_30_10_00.md) form.
 
-## Payment Links in Reports { .section}
+## Payment Links in Reports
 
 The following reports, which show print-friendly versions of documents, contain a QR code for a payment link and the *Pay now* link, shown in the screenshot below, if a payment link has been created for the document:
 
@@ -91,22 +91,53 @@ The following reports, which show print-friendly versions of documents, contain 
 
 The following screenshot shows an invoice printed on the [Invoice/Memo](AR_64_10_00.md) report.
 
-![](Images/process_Finance_Payment_Links_Invoice_Memo.png "An invoice with a payment link")
 
-## Troubleshooting { .section}
+## Troubleshooting
 
 When you are processing payment links, you may encounter the issues listed in the following table. This table describes the issues and how they can be solved.
 
-|Issue|What Causes the Issue|Solution|
-|-----|---------------------|--------|
-|On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, a payment link is closed and a new link cannot be created.|A payment link for the sales invoice is created when the invoice is released, because the *SO Invoice Payment Link Create* business event is active. If the linked sales order had a payment link too, this link is closed and a new one cannot be created.|If you process payment links on sales orders rather than sales invoices, you need to clear the **Active** check box for the *SO Invoice Payment Link Create* business event on the [Business Events](SM_30_20_50.md) \(SM302050\) form.|
-|A technical error is displayed on the [Sales Orders](SO_30_10_00.md) form when you edit the lines of a sales order for which a payment link has been created.|After the creation of a payment link, each change in sales order lines triggers the *SO Payment Link Update* business event, which may lead to unnecessary service loading and technical errors.|If frequent changes to sales orders are required after payment link creation, you can do the following:1.  On the [Business Events](SM_30_20_50.md) form, clear the **Active** check box for the *SO Payment Link Update* business event.
+<table id="_869869ae-d5ca-47fe-b787-0a485d2858de"><thead><tr><th>
+
+Issue
+
+</th><th>
+
+What Causes the Issue
+
+</th><th>
+
+Solution
+
+</th></tr></thead><tbody><tr><td>
+
+On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, a payment link is closed and a new link cannot be created.
+
+</td><td>
+
+A payment link for the sales invoice is created when the invoice is released, because the *SO Invoice Payment Link Create* business event is active. If the linked sales order had a payment link too, this link is closed and a new one cannot be created.
+
+</td><td>
+
+If you process payment links on sales orders rather than sales invoices, you need to clear the **Active** check box for the *SO Invoice Payment Link Create* business event on the [Business Events](SM_30_20_50.md) \(SM302050\) form.
+
+</td></tr><tr><td>
+
+A technical error is displayed on the [Sales Orders](SO_30_10_00.md) form when you edit the lines of a sales order for which a payment link has been created.
+
+</td><td>
+
+After the creation of a payment link, each change in sales order lines triggers the *SO Payment Link Update* business event, which may lead to unnecessary service loading and technical errors.
+
+</td><td>
+
+If frequent changes to sales orders are required after payment link creation, you can do the following:1.  On the [Business Events](SM_30_20_50.md) form, clear the **Active** check box for the *SO Payment Link Update* business event.
 2.  On the [Process Payment Links](AR_51_35_00.md) \(AR513500\) form, schedule synchronization of sales orders.
 
 The frequency of synchronization should be once a week or less frequent.
 
 
-|
+</td></tr></tbody>
+</table>
 
 -   **[To Create Payment Links for AR Documents](../UserGuide/AR__HOW_To_Create_Payment_Link_for_Invoices.md)**  
 

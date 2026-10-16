@@ -1,4 +1,4 @@
-# Commands for Record Searching: Filter Service Command {#_748c9761-8fc2-41cf-820e-fecca16a6d22 .concept}
+# Commands for Record Searching: Filter Service Command
 
 The system uses the key element or elements on a form to find records that belong to different documents. For example, on the [Invoices and Memos](../UserGuide/AR_30_10_00.md) \(AR301000\) form, there are two key elements: **Type** and **Reference Nbr**.
 
@@ -6,7 +6,7 @@ If you know the values of the key element or elements of the needed record, you 
 
 If you do not know the values of the key element or elements of the needed record, you can update records in the system by searching for them using their unique field values that you know. For example, you can identify customers by email addresses or phone numbers. To search for a record, you have to imitate the use of a column of a **Select** dialog box, declare a custom key, or declare a custom field in the sequence of commands that you pass to a processing method. In this topic, you will find a detailed description of the Filter service command, which imitates the use of a selector column. You can find a description of two other approaches in [Commands for Record Searching: Key Command](IS__con_SB_Commands_Key.md#) and [Commands for Record Searching: Custom Field](IS__con_SB_Commands_!FieldName.md#).
 
-## Filter Service Command { .section}
+## Filter Service Command
 
 Selector columns on an Acumatica ERP form appear when a user clicks the Magnifier icon of the key element of the form to bring up the **Select** dialog box. Service commands for selector columns have the Filter prefix in their names. For example, to search for a customer record, you can use the FilterCity, FilterCountry, FilterEmail, and FilterPhone1 service commands.
 

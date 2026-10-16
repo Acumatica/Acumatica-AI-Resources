@@ -1,8 +1,8 @@
-# Time Tracking: General Information {#_65265682-f88d-4efc-837b-819fd530412a .concept}
+# Time Tracking: General Information
 
 In Acumatica ERP, you can configure time tracking so that employees can report the time spent on various tasks and activities. Also, employee time may be imported from an external time tracking system through an import scenario. All that time tracking information can be brought to payroll and used for the calculation of employee paychecks.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to configure time tracking in the system. In particular, you will do the following:
 
@@ -10,11 +10,11 @@ In this chapter, you will learn how to configure time tracking in the system. In
 -   Enable the needed system features
 -   Specify the minimum required configuration so that time activities and time cards can be used to track employee time
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure time tracking if your organization is going to track the time that employees spend on work activities.
 
-## Ways of Entering Employee Time { .section}
+## Ways of Entering Employee Time
 
 If the *Time Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, employee time can be reported in Acumatica ERP through the following entities, depending on the configuration of your system:
 
@@ -32,7 +32,7 @@ Regardless of the state of the *Time Management* feature, you can enter employee
 -   By using the [Payroll Batches](PR_30_10_00.md) \(PR301000\) form, on which you can enter data manually or import a file with time reporting information collected through an external service
 -   By entering data manually on the [Paychecks and Adjustments](PR_30_20_00.md) \(PR302000\) form
 
-## Workflow of the Time Tracking Implementation { .section}
+## Workflow of the Time Tracking Implementation
 
 To prepare the system for time reporting for payroll, you perform the following general steps:
 

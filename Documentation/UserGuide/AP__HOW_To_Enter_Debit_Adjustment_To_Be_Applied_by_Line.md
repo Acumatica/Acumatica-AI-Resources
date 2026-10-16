@@ -1,10 +1,10 @@
-# To Enter a Debit Adjustment That Can Be Applied by Line {#_0e87c483-e9dc-47be-9a53-0274db3aa2ef .task}
+# To Enter a Debit Adjustment That Can Be Applied by Line
 
 You enter a debit adjustment that can be applied by line on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. You use this procedure if you are specifying line totals in the detail lines of the debit adjustment.
 
 You can enter a debit adjustment to be applied by line only if the *Payment Application by Line* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## To Enter a Debit Adjustment that Can Be Applied by Line {#section_eql_njv_vxb .section}
+## To Enter a Debit Adjustment that Can Be Applied by Line
 
 1.  Open the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 2.  On the form toolbar, click **Add New Record**.

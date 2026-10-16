@@ -1,12 +1,12 @@
-# Tax Report for VAT: Process Activity {#_0dd34e9e-4455-4188-b304-ba034060491e .task}
+# Tax Report for VAT: Process Activity
 
 The following activity will walk you through the process of preparing and releasing a tax report.
 
-## Story {#section_tr4_fjv_vxb .section}
+## Story
 
 Suppose that at the end of January, 2026, SweetLife Fruits &amp; Jams has to prepare a tax report and send it to the tax agency. When reporting VATs, the SweetLife company needs to pay to the tax authority the difference between the tax amount paid to vendors \(*Input* taxes\) and the tax amount collected from customers \(*Output* taxes\). The resulting amount should be specified in the AP bill generated for the tax agency. Acting as a SweetLife accountant, you need to prepare the tax report and release the report to close the 01-2026 tax period.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -14,11 +14,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Tax Categories](TX_20_55_00.md) \(TX205500\) form, the *TAXABLE* and *EXEMPT* tax categories have been configured.
 -   On the [Tax Zones](TX_20_60_00.md) \(TX206000\) form, the *CANADA* tax zone has been configured.
 
-## Process Overview {#section_wr4_fjv_vxb .section}
+## Process Overview
 
 In this activity, you will first prepare a tax report for the 01-2026 period on the [Prepare Tax Report](TX_50_10_00.md) \(TX501000\) form. On the [Release Tax Report](TX_50_20_00.md) \(TX502000\) form, you will release the tax report and review its details on the [Tax Report Details](TX_50_20_10.md) \(TX502010\) form. Finally, on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you will review the bill generated for the tax agency and review the generated GL transaction on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## System Preparation {#section_yr4_fjv_vxb .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -30,7 +30,7 @@ To prepare the system, do the following:
 6.  As a prerequisite activity, in the company to which you are signed in, be sure you have configured a value added tax as described in [Value-Added Taxes: To Create a General VAT and Exempt VAT](../ImplementationGuide/Taxes_Configuring_VAT_Impem_Activity_General_VAT.md).
 7.  As a prerequisite activity, in the company to which you are signed in, be sure that you have created taxable documents for 01-2026, as described in [AR Documents with VAT: To Process an AR Invoice](Taxes_Processing_ARDocs_with_VAT_Activity1.md), [AR Documents with VAT: To Process a Credit Memo](Taxes_Processing_ARDocs_with_VAT_Activity2.md), [AP Documents with VAT: To Process an AP Bill](Taxes_Processing_APDocs_with_VAT_Activity1.md), [AP Documents with VAT: To Process a Debit Adjustment](Taxes_Processing_APDocs_with_VAT_Activity2.md), [Cash Entries with Taxes: To Process a Cash Entry with VAT](Taxes_Applying_Tax_to_CashEntry_Activity2.md), [Taxable Sales with Freight Charges: Process Activity](Taxes_Processing_SO_Invoice_FreightCharges_Activity.md), [Tax Entry from GL: Process Activity](Taxes_Tax_Entry_from_GL_Process_Activity.md), [Direct Tax Payment: To Create a Tax Bill for a Tax Agency](Taxes_Paying_Tax_Directly_Create_Tax_Bill_Applied_to_Purchase.md), and [Direct Tax Payment: To Create an AP Bill with a Direct-Entry Tax](Taxes_Paying_Tax_Directly_Create_Bill_with_Direct_Entry_Tax.md).
 
-## Step 1: Preparing a Tax Report {#section_as4_fjv_vxb .section}
+## Step 1: Preparing a Tax Report
 
 To prepare a tax report for January 2026, do the following:
 
@@ -54,7 +54,7 @@ To prepare a tax report for January 2026, do the following:
     The table lists the lines of the documents \(bills, a debit adjustment, and a cash entry\) processed in the *01-2026* period to which input taxes were applied.
 
 
-## Step 2: Releasing the Tax Report and Closing the Tax Period {#section_gs4_fjv_vxb .section}
+## Step 2: Releasing the Tax Report and Closing the Tax Period
 
 To release the tax report, close the current tax period, and review the generated AP bill, do the following:
 

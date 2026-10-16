@@ -1,8 +1,8 @@
-# Payroll Basic Configuration: Implementation Checklist {#_8bc40f1a-f5aa-4a1c-bcaf-babbe2e282c4 .concept}
+# Payroll Basic Configuration: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for processing payroll documents, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Prerequisites { .section}
+## Prerequisites
 
 We recommend that before you start performing the minimum configuration of payroll, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -18,7 +18,7 @@ We recommend that before you start performing the minimum configuration of payro
 |[Vendors](AP_30_30_00.md) \(AP303000\)|Vendors to be used with payroll, such as tax agencies, benefit providers, and unions, have been created.|
 |[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)|The *Payroll* feature has been enabled, which adds the forms and UI elements related to the payroll functionality.|
 
-## Minimum Required Settings { .section}
+## Minimum Required Settings
 
 To make it possible for users to process payroll documents, you should navigate to the forms listed below and perform the tasks described in the table.
 

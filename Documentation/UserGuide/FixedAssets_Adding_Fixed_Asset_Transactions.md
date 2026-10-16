@@ -1,8 +1,8 @@
-# Fixed Asset Creation: Generated Transactions {#_894105e1-a695-4d20-956d-487ff793395a .concept}
+# Fixed Asset Creation: Generated Transactions
 
 As you enter fixed assets, the system creates and processes fixed asset transactions. To update the GL balances, the system generates the general ledger transactions described in the following sections.
 
-## Transaction Generated for Fixed Asset Acquisition { .section}
+## Transaction Generated for Fixed Asset Acquisition
 
 When you create a fixed asset \(whether or not it is under construction\) and release the acquisition transaction, the system generates the following general ledger transaction.
 
@@ -13,7 +13,7 @@ When you create a fixed asset \(whether or not it is under construction\) and re
 
 You can view the reference number of the GL batch in the **Batch Nbr.** column on the [Fixed Asset Transactions](FA_30_10_00.md) \(FA301000\) form. The reference number is also a link that you can click to view the GL batch on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## Transaction Generated for Fixed Asset Reconciliation { .section}
+## Transaction Generated for Fixed Asset Reconciliation
 
 When you reconcile a fixed asset to two GL transactions and release the reconciliation transaction, the system generates the following general ledger transaction.
 
@@ -26,7 +26,7 @@ When you reconcile a fixed asset to two GL transactions and release the reconcil
 
 You can view the reference number of the GL batch in the **Batch Nbr.** column on the [Fixed Asset Transactions](FA_30_10_00.md) \(FA301000\) form. The reference number is also a link that you can click to view the GL batch on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## Transaction Generated for Reconciliation of a Fixed Asset Under Construction { .section}
+## Transaction Generated for Reconciliation of a Fixed Asset Under Construction
 
 When you reconcile a fixed asset under construction with a GL transaction and release the reconciliation transaction, the system generates the following general ledger transaction.
 

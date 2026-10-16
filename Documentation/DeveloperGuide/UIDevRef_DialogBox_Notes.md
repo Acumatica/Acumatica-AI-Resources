@@ -1,23 +1,22 @@
-# Dialog Box: Notes {#_ca3f2142-231f-4b02-8a39-a6c04bf8c3b0 .concept}
+# Dialog Box: Notes
 
 The Notes dialog box provides a user with the ability to specify notes for a particular record displayed on a form. To open the Notes dialog box, the user clicks the **Note** button on the right side of the form title bar. Below you can see an example of the Note button and the corresponding dialog box.
 
-![](Images/UIDevRef_Dialog_Note.png "The Notes dialog box")
 
 The Notes dialog box is implemented using the qp-dialog control.
 
-## Hiding the Note Button { .section}
+## Hiding the Note Button
 
 The **Note** button is displayed by default. To hide this button from the form title bar, specify hideNotesIndicator : true in the graphInfo decorator.
 
-## Default Closing Behavior { .section}
+## Default Closing Behavior
 
 By default, a user can close the Note dialog box in one of the following ways:
 
 -   If no changes have been made in the notes attached to the record, the dialog box is closed when a user clicks anywhere outside the dialog box.
 -   If any modification has been made to the notes attached to the record, a user can close the dialog box only by clicking the **Save** button in the dialog box.
 
-## Opening Notes from a Custom Button { .section}
+## Opening Notes from a Custom Button
 
 You can implement a button anywhere on a form, and specify that this button should open the Notes dialog box. For this purpose, do the following:
 

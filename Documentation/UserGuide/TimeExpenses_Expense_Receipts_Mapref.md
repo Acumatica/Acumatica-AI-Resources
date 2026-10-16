@@ -1,4 +1,4 @@
-# Processing Expense Receipts with Corporate Cards {#_0ee9411b-f70c-41fe-8c59-19f508680e1c .concept}
+# Processing Expense Receipts with Corporate Cards
 
 To help employees to categorize and track the expenses, including the expenses related to a project, Acumatica ERP supports the use of corporate credit cards in expense receipts and claims. In this chapter, you will find topics that explain how to process expense receipts with corporate cards.
 
@@ -18,6 +18,4 @@ To help employees to categorize and track the expenses, including the expenses r
 
 -   **[Expense Receipts with Corporate Cards: Mass-Processing of Documents](../UserGuide/TimeExpenses_Expense_Receipts_MassProcessing.md)**  
 
-
-**Parent topic:**[Time and Expenses](../UserGuide/TM_00_00_00.md)
 

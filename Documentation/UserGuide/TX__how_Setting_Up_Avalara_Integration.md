@@ -1,4 +1,4 @@
-# To Configure Your Avalara AvaTax Account {#_da348cc2-b4ec-42a4-8cca-32e1d3474304 .task}
+# To Configure Your Avalara AvaTax Account
 
 This topic outlines the general steps for configuring an Avalara AvaTax account.
 
@@ -22,5 +22,5 @@ To set up your account in Avalara AvaTax, perform these steps:
 
 **Tip:** AvaTax gives you the ability to gather and store information about customer exemption certificates. For details, see [Exception Certificate Management: General Information](config_Exception_Certificate_Management_GeneralInfo.md).
 
-**Parent topic:**[Integrating Acumatica ERP with Avalara Avatax](../UserGuide/config_Avalara_Integration_Mapref.md)
+**Parent topic:**[Integrating Acumatica ERP with Avalara AvaTax](../UserGuide/config_Avalara_Integration_Mapref.md)
 

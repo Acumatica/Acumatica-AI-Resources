@@ -1,12 +1,12 @@
-# To Create the Stripe Processing Center {#_80fc7569-5f1d-4e31-8fd1-e6b7b437b2cb .task}
+# To Create the Stripe Processing Center
 
 To use Stripe integration, you need to create a processing center that uses the Stripe plug-in.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Make sure that the *Stripe Payment Plug-In* feature has been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## To Create the Stripe Processing Center { .section}
+## To Create the Stripe Processing Center
 
 1.  Open the [Processing Centers](CA_20_50_00.md) \(CA205000\) form.
 2.  On the form toolbar, click **Add New Record** and specify the following settings in the Summary area:
@@ -33,7 +33,7 @@ Make sure that the *Stripe Payment Plug-In* feature has been enabled on the [Ena
 5.  On the form toolbar, click **Save**.
 6.  On the form toolbar, click **Test Credentials** to validate the credentials you have entered with the processing center.
 
-## To Set Up Stripe Fees { .section}
+## To Set Up Stripe Fees
 
 1.  Open the [Entry Types](CA_20_30_00.md) \(CA203000\) form.
 2.  On the form toolbar, click **Add New Record** and specify the following settings:

@@ -1,4 +1,4 @@
-# Configuring the ASPX Page {#_74dab41d-01eb-480b-8b65-96aaea381024 .concept}
+# Configuring the ASPX Page
 
 In this chapter, you can find information about configuration of the PXDataSource control of the ASPX page of Acumatica ERP or an Acumatica Framework-based application.
 

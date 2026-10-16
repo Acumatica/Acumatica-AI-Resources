@@ -1,14 +1,14 @@
-# Sale of Matrix Items: To Export Matrix Items {#_11f08696-6734-40cf-87a9-ef1e054395a7 .task}
+# Sale of Matrix Items: To Export Matrix Items
 
 The following activity will walk you through the process of exporting a template item \(and the matrix items based on this template item\) defined in Acumatica ERP to the Shopify store.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Fruits &amp; Jams company is going to sell juices in its Shopify online store. Acting as an implementation consultant helping SweetLife to set up the integration of Acumatica ERP with the Shopify store, you need to export the *JUICE* template item to the Shopify store.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following configuration tasks have been performed to prepare the system for this activity:
 
@@ -38,7 +38,7 @@ In the *U100* dataset, the following configuration tasks have been performed to 
     |*TMT-16OZ-GBT*|Tomato juice in glass bottles of 16 fluid ounces|
 
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -49,7 +49,7 @@ In this activity, you will do the following:
 5.  On the [Process Data](BC_50_15_00.md) \(BC501500\) form, process the template item data that has been prepared for synchronization.
 6.  In the admin area of the Shopify store, review the exported item.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you complete the instructions in this activity, do the following:
 
@@ -60,7 +60,7 @@ Before you complete the instructions in this activity, do the following:
     -   **Username**: *gibbs*
     -   **Password**: *123*
 
-## Step 1: Reviewing the Template Item and the Matrix Items { .section}
+## Step 1: Reviewing the Template Item and the Matrix Items
 
 To review the *JUICE* template item and the matrix items that have been generated based on it, do the following:
 
@@ -79,7 +79,7 @@ To review the *JUICE* template item and the matrix items that have been generate
     In the subsequent steps of this activity, you will export these items to the Shopify store.
 
 
-## Step 2: Activating the Template Item Entity { .section}
+## Step 2: Activating the Template Item Entity
 
 You can skip this step, if you activated the *Template Item* entity while performing the following activity: [Initial Configuration: To Configure the Store Connection](Commerce_SP_Initial_Configuration_Implem_Activity.md).
 
@@ -90,7 +90,7 @@ To activate the *Template Item* entity, do the following:
 3.  In the table of the **Entities** tab, select the **Active** check box in the row of the *Template Item* entity.
 4.  On the form toolbar, click **Save**.
 
-## Step 3: Updating the Filtering Condition { .section}
+## Step 3: Updating the Filtering Condition
 
 To configure the *Template Item* entity to export to the Shopify store only template items of the *MJUICE* item class, do the following:
 
@@ -110,7 +110,7 @@ To configure the *Template Item* entity to export to the Shopify store only temp
     Now when you prepare and process the *Template Item* entity, only the template items of the *MJUICE* item class will be exported to the Shopify store.
 
 
-## Step 3: Preparing the Template Item Data for Synchronization { .section}
+## Step 3: Preparing the Template Item Data for Synchronization
 
 To prepare the template item data \(which includes the data of the matrix items generated based on the template item\) for synchronization, do the following:
 
@@ -127,7 +127,7 @@ To prepare the template item data \(which includes the data of the matrix items 
     Notice that the **Prepared Records** column shows the number of synchronization records that have been prepared and are ready to be processed.
 
 
-## Step 4: Processing the Prepared Template Item Data { .section}
+## Step 4: Processing the Prepared Template Item Data
 
 To process the prepared data of the template item, do the following:
 
@@ -136,7 +136,7 @@ To process the prepared data of the template item, do the following:
 3.  On the form toolbar, click **Process All**.
 4.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 5: Viewing the Exported Item { .section}
+## Step 5: Viewing the Exported Item
 
 To view the exported *Juice* template item in the Shopify store, do the following:
 

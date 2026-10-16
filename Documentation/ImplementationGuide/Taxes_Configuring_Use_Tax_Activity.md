@@ -1,14 +1,14 @@
-# Use Taxes: Implementation Activity {#_f1240a47-81b3-4a02-8681-77cf0229ffe3 .task}
+# Use Taxes: Implementation Activity
 
 By performing the following implementation activity, you will learn how to configure a use tax that will be applied to AP documents.
 
-## Story { .section}
+## Story
 
 Suppose that the *SQUEEZO* vendor, from which the SweetLife Fruits &amp; Jams company buys juicers, does not charge the sales tax from its buyers that are located outside of New Jersey, where this vendor is located. Therefore, all the purchases made from this vendor are subject to the use tax of the New York state, where SweetLife is located.
 
 The chief accountant of the SweetLife company needs to update the tax agency settings, tax report, and the vendor to be able to pay the use tax to the NY tax agency.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -16,15 +16,15 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\) form, the *SQUEEZO* vendor account has been configured and the *NYTAXDEP* vendor has been configured as a tax agency.
 -   On the [Reporting Settings](../UserGuide/TX_20_51_00.md) \(TX205100\) form, a tax report has been configured for the *NYTAXDEP* tax agency.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will start the configuration of a use tax by creating a tax zone on the [Tax Zones](../UserGuide/TX_20_60_00.md) \(TX206000\) form. On the [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\) form, you will update the settings of the needed vendor and those of the tax agency. On the [Reporting Settings](../UserGuide/TX_20_51_00.md) \(TX205100\) form, you will modify the tax report. Finally, you will create a use tax on the [Taxes](../UserGuide/TX_20_50_00.md) \(TX205000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin to configure the use tax, launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as an accountant Anna Johnson by using the *johnson* username and the *123* password.
 
-## Step 1: Creating a Tax Zone { .section}
+## Step 1: Creating a Tax Zone
 
 To create a tax zone, proceed as follows:
 
@@ -41,7 +41,7 @@ To create a tax zone, proceed as follows:
 
 3.  On the form toolbar, click **Save** to save the created tax zone.
 
-## Step 2: Updating the Settings of the Tax Agency and the Vendor { .section}
+## Step 2: Updating the Settings of the Tax Agency and the Vendor
 
 To update the settings of the tax agency and the vendor for whose documents you want to apply the use tax, proceed as follows:
 
@@ -53,7 +53,7 @@ To update the settings of the tax agency and the vendor for whose documents you 
 6.  On the **Purchase Settings** tab, in the **Tax Zone** box, select *NYUSE*.
 7.  On the form toolbar, click **Save** to save your changes.
 
-## Step 3: Updating the Tax Report { .section}
+## Step 3: Updating the Tax Report
 
 To update the tax report, proceed as follows:
 
@@ -80,7 +80,7 @@ To update the tax report, proceed as follows:
     -   **Report Line**: *6 - Purchases Subject to Use Tax*
 9.  On the form toolbar, click **Save** to save your changes.
 
-## Step 4: Creating a Use Tax { .section}
+## Step 4: Creating a Use Tax
 
 To create a use tax, proceed as follows:
 

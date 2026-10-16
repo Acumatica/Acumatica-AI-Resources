@@ -1,14 +1,14 @@
-# Value-Added Taxes: To Create a General VAT and Exempt VAT {#_d0246b50-deea-480f-a051-f721b24036cf .task}
+# Value-Added Taxes: To Create a General VAT and Exempt VAT
 
 By performing this implementation activity, you will learn how to configure a general VAT will be used in AR and AP documents, and an exempt VAT.
 
-## Story { .section}
+## Story
 
 The SweetLife Fruits &amp; Jams company provides services to customers and buys services from vendors in Canada, which are subject to a 7% VAT. Acting as an implementation consultant, you need to configure the VAT, assign it to the *TAXABLE* category and the *CANADA* tax zone, and specify the tax calculation method for this tax.
 
 You also need to define a 0% exempt VAT, because you have to report exempt VAT in your tax report. This tax needs to be defined because you want to include exempt sales and purchases in your tax report. \(Tax reports do not include documents to which no taxes have been applied.\) That is why you need to create a separate tax code and create two taxes with a rate of 0%: one of the *Output* type, assigned to the *Exempt Sales* group; and the other of the *Input* type, assigned to the *Exempt Purchases* group, which indicates that this sale or purchase should be reported as tax exempt. You can then apply this tax to the appropriate invoices and bills so that they are included in the tax report.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following configuration tasks have been performed to prepare the system for this activity to be performed:
 
@@ -16,13 +16,13 @@ In the *U100* dataset, the following configuration tasks have been performed to 
 -   On the [Tax Categories](../UserGuide/TX_20_55_00.md) \(TX205500\) form, the *TAXABLE* and *EXEMPT* tax categories have been created.
 -   On the [Tax Zones](../UserGuide/TX_20_60_00.md) \(TX206000\) form, the *CANADA* tax zone has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Taxes](../UserGuide/TX_20_50_00.md) \(TX205000\) form, you will create a VAT tax and specify its tax rate, tax category, and tax zone. On the same form, you will also create a 0% VAT to represent exempt sales and purchases in the tax report. On the [Tax Zones](../UserGuide/TX_20_60_00.md) \(TX206000\) form, you will then review the list of taxes assigned to the tax zone, and on the [Tax Categories](../UserGuide/TX_20_55_00.md) \(TX205500\) form, you will review the taxes assigned to each tax category and remove the sales taxes assigned to each category.
 
 **Important:** Before configuring a value-added tax in the production environment, you should know exactly which calculation method should be applied in the **Calculation Rule** box of the [Taxes](../UserGuide/TX_20_50_00.md) \(TX205000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -31,7 +31,7 @@ To prepare the system, do the following:
 3.  As a prerequisite activity, in the company to which you are signed in, be sure you have configured the *VATTAX* tax agency as described in [Tax Agency: To Set Up a Tax Agency for VAT](TaxAgency_VAT_Implem_Activity.md).
 4.  As a prerequisite activity, in the company to which you are signed in, be sure you have configured a tax report as described in [Tax Report Configuration: To Create a Tax Report for VAT](TaxReport_VAT_Implem_Activity.md).
 
-## Step 1: Creating a General VAT { .section}
+## Step 1: Creating a General VAT
 
 To create a value-added tax, do the following:
 
@@ -73,7 +73,7 @@ To create a value-added tax, do the following:
 
 9.  On the form toolbar, click **Save**.
 
-## Step 2: Creating a 0% Exempt VAT { .section}
+## Step 2: Creating a 0% Exempt VAT
 
 To create a 0% \(exempt\) VAT, do the following:
 
@@ -103,7 +103,7 @@ To create a 0% \(exempt\) VAT, do the following:
 5.  On the **Zones** tab, click **Add Row** on the table toolbar, and select *CANADA* in the **Tax Zone ID** column.
 6.  On the form toolbar, click **Save**.
 
-## Step 3: Reviewing the List of Taxes and Updating the Tax Categories { .section}
+## Step 3: Reviewing the List of Taxes and Updating the Tax Categories
 
 To review the list of taxes now available for the *CANADA* tax zone, do the following:
 

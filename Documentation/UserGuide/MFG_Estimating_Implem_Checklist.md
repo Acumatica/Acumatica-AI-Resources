@@ -1,8 +1,8 @@
-# Estimating: Implementation Checklist {#_c8efc92d-d4dd-4e19-bf6a-a18b37b45af3 .concept}
+# Estimating: Implementation Checklist
 
 The estimating functionality uses master data from the bills of material forms for estimating labor, overhead, tooling, and machine costs. Therefore you need to define this elements and create the necessary work centers before operation details.
 
-## Estimating Configuration Check List { .section}
+## Estimating Configuration Check List
 
 |No.|Task|Description|
 |:---:|----|-----------|

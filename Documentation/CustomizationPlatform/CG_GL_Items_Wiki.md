@@ -1,4 +1,4 @@
-# Wikis {#_d7448024-e022-4e7c-a01c-9151ee12120c .concept}
+# Wikis
 
 You use the [Wikis](../UserGuide/AU_20_60_01.md) \(AU206001\) page of the [Customization Project Editor](../UserGuide/SM_20_45_10.md) to manage *WikiArticle* items in the customization project.
 

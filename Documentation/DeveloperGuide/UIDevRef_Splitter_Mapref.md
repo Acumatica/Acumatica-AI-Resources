@@ -1,4 +1,4 @@
-# Splitter {#_04ffabbc-e93e-42a5-bc75-36e8c81369d9 .concept}
+# Splitter
 
 In this chapter, you will learn about the configuration of a splitter control, including when to use a splitter and how to name it.
 

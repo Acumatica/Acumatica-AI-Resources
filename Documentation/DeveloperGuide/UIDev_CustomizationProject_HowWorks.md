@@ -1,8 +1,8 @@
-# Customization Project with UI Changes: How UI Customization Works {#_7c39b069-2612-4b33-9313-53460637973f .concept}
+# Customization Project with UI Changes: How UI Customization Works
 
 In this topic, you can find information about how a customization project that includes changes to the Modern UI works, including how it is published and unpublished.
 
-## Where the Source Code of the Modern UI Changes Is Stored {#_03744112-3f08-4cd1-8eca-9a793b8865cd .section}
+## Where the Source Code of the Modern UI Changes Is Stored
 
 When a customization project that contains changes to the Modern UI is published for a particular tenant, the system copies the UI changes included in the customization project to the `FrontendSources\screen\src\customizationScreens\<Tenant Name>` folder. The `FrontendSources\screen\src\customizationScreens` folder contains a subfolder for each tenant for which a customization project with the Modern UI changes is published.
 
@@ -32,7 +32,7 @@ Site
 - - - - - - views.ts (optional)
 ```
 
-## Where the Compiled UI Changes Are Saved { .section}
+## Where the Compiled UI Changes Are Saved
 
 When a customization project that contains changes to the Modern UI is published for a particular tenant, the system takes the original UI sources and the UI sources from the `FrontendSources\screen\src\customizationScreens\<Tenant Name>` folder, compiles them, and produces the files that include all UI changes from the customization project in the `Scripts\Screens\<Tenant Name>` folder. The files outside of the `Scripts\Screens\<Tenant Name>` folder remain unchanged.
 
@@ -51,11 +51,11 @@ Site
 - - - S0301000.html
 ```
 
-## How the UI Customization Project is Unpublished { .section}
+## How the UI Customization Project is Unpublished
 
 When a customization project that contains changes to the Modern UI is unpublished for a particular tenant, the system removes the `Scripts\Screens\<Tenant Name>` and `customizationScreens\<Tenant Name>` folders.
 
-## How a Form Works After the Publication of a UI Customization Project { .section}
+## How a Form Works After the Publication of a UI Customization Project
 
 When a user opens an Acumatica ERP form, the system first looks for the sources of the form in the `Scripts\Screens\<Tenant Name>` folder. If the files for this form exist in this folder, the system displays the form with the UI changes from the customization project. If no files for this form are found in the folder, the system displays the original form.
 

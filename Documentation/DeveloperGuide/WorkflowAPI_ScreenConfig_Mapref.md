@@ -1,4 +1,4 @@
-# Preparing a Screen Configuration {#_0a9f4605-fb9d-44f1-9c08-ba341d1cf78e .concept}
+# Preparing a Screen Configuration
 
 A screen configuration corresponds to each Acumatica ERP form and consists of the configuration of the elements of the screen \(form\), including the definition of the form's workflow or workflows. In this chapter, you will learn what the components of a screen configuration are and how to prepare a graph extension and a screen configuration for developing a workflow.
 

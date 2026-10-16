@@ -1,8 +1,8 @@
-# Requests for Information: Mass-Processing of Documents {#_cb7b852e-560a-4a76-b542-73d95c08a98c .concept}
+# Requests for Information: Mass-Processing of Documents
 
 The following section explains how to mass-assign owners to requests for information.
 
-## Mass-Assigning Owners to Requests for Information { .section}
+## Mass-Assigning Owners to Requests for Information
 
 You use the [Assign Request for Information](PJ_50_10_00.md) \(PJ501000\) form to assign owners to requests for information. To do this, you select the check boxes in the unlabeled column for the requests for information that you want to assign to owners and then click **Process** on the form toolbar. If you want to assign owners to all requests for information, click **Process All**.
 

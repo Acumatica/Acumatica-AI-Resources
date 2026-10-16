@@ -1,22 +1,22 @@
-# Variables and Expressions: General Information {#_a78000e3-3fc5-43aa-ae2e-14ffd41bdd99 .concept}
+# Variables and Expressions: General Information
 
 In the Acumatica Report Designer, you can use variables to store values and substitute values in expressions. You can use expressions to define the values to be displayed in a report, or to specify report properties, such as group conditions and the visibility of sections or elements of the report. In expressions, you can use variables and user-specified report parameters. \(For more information about parameters, see [Parameters and Filters: General Information](RD_Parameters_and_Filters_GeneralInfo.md).\) In the Report Designer, you can type an expression or you can compose it in the Expression Editor.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following in the Report Designer:
 
 -   Create a variable
 -   Specify an expression
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to use variables and expressions in the Acumatica Report Designer in the following circumstances:
 
 -   You are responsible for the customization of Acumatica ERP in your company, including developing and modifying reports to give users the information they need to do their jobs.
 -   You may want to perform calculations on values before presenting them or transform the data in some way.
 
-## System and User Variables { .section}
+## System and User Variables
 
 System variables are available in all reports. These variables can be inserted into a report as values or included in expressions. The following table shows the system variables defined in the Report Designer.
 
@@ -28,7 +28,7 @@ System variables are available in all reports. These variables can be inserted i
 
 A user variable is the one that you specify for a report section. This variable is visible in all other sections of the report. If you declare the same variable in multiple sections, the variable is shared between them. If the variable is modified in one section, the new value of the variable is passed to the next section where the variable is used. The variable is initiated in the topmost section where it is used. Then the variable is sequentially modified in the following sections in the order in which these sections appear in the report.
 
-## Defining of a User Variable { .section}
+## Defining of a User Variable
 
 To define a user variable, you use the **Behavior** &gt; **Variables** property of the report section.
 
@@ -42,7 +42,7 @@ The following example illustrates the use of the *$RowNumber* user variable in a
 
 In a report, you can use a variable defined in a subreport. In this case, the variable has the *$ReportName\_VariableName* format, where *ReportName* is the name of the report \(that is, the subreport\) in which the variable is defined. For example, suppose that you have defined the *$pmt* variable in the *payment* report. If you need to use this variable in the main report in your Acumatica ERP instance, you refer to this variable as *$payment\_pmt*.
 
-## Addition and Deletion of a Variable in a Report Section { .section}
+## Addition and Deletion of a Variable in a Report Section
 
 To define a variable, you use the ReportVariable Collection Editor \(that is, the **ReportVariable Collection Editor** dialog box\). To open the ReportVariable Collection Editor, you select the report section where you want to add the variable; then on the **Properties** tab of the Properties pane, you click the More button to the right of the **Behavior** &gt; **Variables** property.
 
@@ -50,7 +50,7 @@ If you are adding more than one variable in a section, in the ReportVariable Col
 
 To delete a variable from the list of existing variables, you open the ReportVariable Collection Editor, select this variable in the **Members** list, and click **Remove**.
 
-## Processing of Variables and Property Values of Visual Elements { .section}
+## Processing of Variables and Property Values of Visual Elements
 
 When you define a variable in the ReportVariable Collection Editor, the **ProcessOrder** property of the variable is set to *WhileRead* by default. The **ProcessOrder** property specifies when a variable value is processed during the generation of the report. A value can be processed when the data is read from the data source \(*WhileRead*\), when the report is printed \(*WhilePrint*\), or in both cases \(*Always*\). In most cases, when a value is read from the data source and then displayed in the report, *WhileRead* is sufficient.
 

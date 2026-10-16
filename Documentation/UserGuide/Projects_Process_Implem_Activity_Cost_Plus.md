@@ -1,16 +1,16 @@
-# Project Creation and Processing: To Create a Cost-Plus Project {#_c206a662-8c2d-4fa2-8b1c-96981676dcbf .task}
+# Project Creation and Processing: To Create a Cost-Plus Project
 
 This activity will walk you through the process of configuring a simple cost-plus project from its initial creation.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the Lake Cafe customer has contacted the SweetLife Fruits &amp; Jams company and ordered training of its employees on operating the juicer it purchased from SweetLife. The training sessions will start on *1/1/2026* and must be completed by *1/30/2026*. The project accountant has analyzed the requirements and decided to create a small cost-plus project \(with only a single task for the training of employees\); the expected project profitability is 20%. Because the number of training sessions may be changed during the project completion by the customer's request, the project will be billed when all training sessions have been provided. The project accountant has decided to skip the creation of pro forma invoices, because the price of the provided services has already been agreed upon with the customer.
 
 Acting as the project accountant, you will create the new project and specify the needed settings.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -19,18 +19,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Billing Rules](PM_20_70_00.md) \(PM207000\) form, the *TM* billing rule has been defined to calculate the line amount as the project transaction line amount multiplied by 1.25.
 -   On the [Account Groups](PM_20_10_00.md) \(PM201000\) form, the *LABOR* account group has been defined.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Projects](PM_30_10_00.md) \(PM301000\) form, you will create a new project and specify its general settings on the **Summary** tab. Then on the **Tasks** tab, you will add the project task that will be performed during the completion of the project. On the **Cost Budget** tab, you will define the budget for the project.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded; you should sign in as Pam Brawner by using the *brawner* username and the *123* password.
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/1/2026*. If a different date is displayed, click the Business Date menu button, and select 1/1/2026 on the calendar.
 
-## Step 1: Creating a Project and Specifying Its General Settings { .section}
+## Step 1: Creating a Project and Specifying Its General Settings
 
 To create a new project and specify basic settings for it, do the following:
 
@@ -72,7 +72,7 @@ To create a new project and specify basic settings for it, do the following:
 
 4.  Save your changes to the project \(which currently has the *In Planning* status in the **Status** box of the Summary area\).
 
-## Step 2: Adding Project Tasks { .section}
+## Step 2: Adding Project Tasks
 
 To add project tasks to the project, do the following:
 
@@ -86,7 +86,7 @@ To add project tasks to the project, do the following:
 
 2.  Save your changes to the project.
 
-## Step 3: Specifying the Project’s Cost Budget { .section}
+## Step 3: Specifying the Project’s Cost Budget
 
 To configure the project’s cost budget, do the following:
 

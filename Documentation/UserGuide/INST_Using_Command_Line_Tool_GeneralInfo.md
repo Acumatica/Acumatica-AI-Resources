@@ -1,10 +1,10 @@
-# Acumatica ERP Command-Line Tool: General Information {#_4f9af995-3f23-4da6-a6c0-f6435979c4c4 .concept}
+# Acumatica ERP Command-Line Tool: General Information
 
 In Acumatica ERP, you can deploy a new application instance and perform database and application maintenance tasks by using the command-line tool.
 
 This topic provides an overview of how you can use the Acumatica ERP command-line tool instead of the Acumatica ERP Configuration wizard.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -12,11 +12,11 @@ In this chapter, you will do the following:
 -   Review some examples of using command-line commands to deploy instances and perform maintenance tasks by using the Acumatica ERP command-line tool
 -   Deploy an out-of-the-box Acumatica ERP instance from a configuration file by using the Acumatica ERP command-line tool
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 You may need to learn how to use the Acumatica ERP command-line tool if you are a system administrator who prefers to use command-line commands to deploy a new instance and to perform some maintenance tasks without using the Acumatica ERP Configuration wizard.
 
-## The Acumatica ERP Command-Line Tool { .section}
+## The Acumatica ERP Command-Line Tool
 
 The Acumatica ERP command-line tool is an executable file with the `ac.exe` name. By default, `ac.exe` is located in the folder on the computer that has Acumatica ERP installed, which is `C:\Program Files (x86)\Acumatica ERP\Data\`.
 
@@ -61,7 +61,7 @@ You can run `ac.exe` in one of three modes:
 
 For details about possible parameters and their values, see [Acumatica ERP Command-Line Tool: Possible Parameters and Values](INST_Using_Command_Line_Tool_Parameters.md).
 
-## Deployment of an Instance by Using the Acumatica ERP Command-Line Tool { .section}
+## Deployment of an Instance by Using the Acumatica ERP Command-Line Tool
 
 You can use a configuration file to deploy an Acumatica ERP instance with the Acumatica ERP command-line tool. You can create the configuration file with the command-line commands automatically by running the Acumatica ERP Configuration wizard. For details, see [Acumatica ERP Command-Line Tool: To Deploy an Instance by Using the Configuration File](INST_Using_Command_Line_Tool_Configuration_file_Activity.md).
 
@@ -86,7 +86,7 @@ ac.exe -cm:"NewInstance" -s:"SM" -d:"InstanceDB" -c:"ci=1;"
     The command in this example also creates an application instance and uses the short forms of the command-line parameters.
 
 
-## Maintenance of an Instance by Using the Command-Line Commands { .section}
+## Maintenance of an Instance by Using the Command-Line Commands
 
 You can use the following examples of command-line commands, which you pass to `ac.exe` to perform some maintenance tasks in Acumatica ERP.
 

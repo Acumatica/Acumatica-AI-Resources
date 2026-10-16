@@ -1,4 +1,4 @@
-# Implementing Barcode Scan Transitions {#_89285ab2-0e5f-4525-a09a-245e457b3857 .concept}
+# Implementing Barcode Scan Transitions
 
 In this chapter, you will learn about barcode scan transitions, which you can use to define the rules of transitions between scan states.
 

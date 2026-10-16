@@ -1,8 +1,8 @@
-# Preparation of Dunning Letters: Implementation Checklist {#_25b5c7fb-ca98-44d2-9b81-0560ba062c69 .concept}
+# Preparation of Dunning Letters: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for preparing dunning letters, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist {#section_o22_hjv_vxb .section}
+## Implementation Checklist
 
 We recommend that before you initially prepare dunning letters, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -14,11 +14,11 @@ We recommend that before you initially prepare dunning letters, you make sure th
 |[Customer Classes](AR_20_10_00.md) \(AR201000\)|The dunning letter levels have been set up for the needed customer classes on the **Dunning** tab as described in [Dunning Process Setup: Implementation Activity](CreditPolicy_Dunning_Process_Setup_Implem_Activity.md).|
 |[Customers](AR_30_30_00.md) \(AR303000\)|The customer records have been created and assigned to the needed customer class.|
 
-## Validation of Configuration {#section_q22_hjv_vxb .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you prepare dunning letters for the *By Customer* process by performing instructions similar to those described in [Preparation of Dunning Letters: To Prepare Dunning Letters](CreditPolicy_Preparing_Dunning_Letters_To_Prepare_Letters.md).
 
-## Known Process Limitations {#section_s22_hjv_vxb .section}
+## Known Process Limitations
 
 If on the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, you initially selected *By Document* in the **Dunning Process** box, changing it later to the *By Customer* setting is not recommended.
 

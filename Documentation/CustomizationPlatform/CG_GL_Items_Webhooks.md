@@ -1,4 +1,4 @@
-# Webhooks {#_1f6d085c-7968-4a4f-8b77-f37773911fea .concept}
+# Webhooks
 
 A webhook helps you to integrate external applications that provide data in their own format and need to submit this data to Acumatica ERP. For example, HubSpot collects data about email clicks and can export this data in a specific format to a particular URL. By using a webhook, you can configure Acumatica ERP to process the data submitted to a particular URL and save the data in Acumatica ERP.
 

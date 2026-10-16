@@ -1,12 +1,12 @@
-# GL Consolidation Configuration: Prerequisites {#_7d45d504-1b72-42d7-812f-6acd0682014b .concept}
+# GL Consolidation Configuration: Prerequisites
 
 Before starting to configure GL consolidation in the consolidation unit and the parent tenant, you should be sure that the needed feature has been enabled, settings have been specified, and entities have been created, as described in the following sections.
 
-## Enabling the Needed Feature {#section_pvl_mjv_vxb .section}
+## Enabling the Needed Feature
 
 On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *General Ledger Consolidation* feature must be enabled for both the consolidation unit \(set up in a separate tenant\) and the parent tenant.
 
-## Configuring the System in the Parent Tenant {#section_rvl_mjv_vxb .section}
+## Configuring the System in the Parent Tenant
 
 You need to make sure the following tasks have been performed in Acumatica ERP for the parent tenant before you begin to configure GL consolidation:
 
@@ -14,7 +14,7 @@ You need to make sure the following tasks have been performed in Acumatica ERP f
 -   On the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, the structure of the chart of accounts should the be same or with fewer accounts than in the consolidation unit.
 -   If subaccounts are used in the system, on the [Subaccounts](GL_20_30_00.md) \(GL203000\) form, the subaccount structure should be similar to that of the consolidation unit. The parent company may have one additional segment \(compared to the consolidation unit\) with values designating subsidiaries.
 
-## Configuring the System in the Consolidation Unit {#section_tvl_mjv_vxb .section}
+## Configuring the System in the Consolidation Unit
 
 You need to make sure the following tasks have been performed in Acumatica ERP for the consolidation unit before you begin to configure GL consolidation:
 

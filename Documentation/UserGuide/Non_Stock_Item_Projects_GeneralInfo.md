@@ -1,10 +1,10 @@
-# Labor Items: General Information {#_0c33954b-bc4e-4bad-8d66-1f44fceedace .concept}
+# Labor Items: General Information
 
 Among other items your company sells, it may sell the labor of its employees. In Acumatica ERP, you can define a certain type of labor available for sale \(that is, a type performed regularly by your company\) by creating a labor item.
 
 A labor item is a non-stock item containing information that includes the default price and the sales account to be used for transactions. Labor items are used in projects for recording information on the hourly rates of the applicable employees, the GL accounts used for tracking labor in projects, and the taxes that apply to this labor.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -13,7 +13,7 @@ In this chapter, you will learn how to do the following:
 -   Assign a labor item to an employee
 -   Configure labor cost rates for an employee
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may need to create a labor item in any of the following cases:
 
@@ -21,7 +21,7 @@ You may need to create a labor item in any of the following cases:
 -   When you need to sell the same type of labor at different prices
 -   When you are going to add a new type of expenses to projects
 
-## Labor Item Settings { .section}
+## Labor Item Settings
 
 Non-stock items of the *Labor* type are used as a source of general ledger accounts for transactions that the system generates in the process of project billing.
 
@@ -42,7 +42,7 @@ You create labor items and maintain information about their settings by using th
 
 To ensure that the system will be able to obtain the required settings from each labor item when an invoice is generated, you need to associate this labor item with the appropriate entity \(that is, an employee, a case, a project, or a contract\), which may depend on the type of the billing process that you use. If no labor items are specified for the entities associated with the invoice, the system won’t generate the invoice.
 
-## Labor Items in Time Cards { .section}
+## Labor Items in Time Cards
 
 You can use time tracking for your activities to facilitate the process of labor tracking and costing. For instance, with time activities, you can bill projects based on the billable time spent on related activities. In Acumatica ERP, to account for work hours and overtime hours spent on projects, employees use time cards. To calculate the cost of labor, the system uses the labor cost rates defined for each employee on the [Labor Rates](PM_20_99_00.md) \(PM209900\) form. The cost of overtime labor is calculated based on the employee work hour rates multiplied by the factor specified in the **Multiplier** column of the *Overtime* earning type on the [Earning Types](EP_10_20_00.md) \(EP102000\) form. For more information, see [Employee Time Billing: General Information](Projects_Tracking_Time_GeneralInfo.md).
 

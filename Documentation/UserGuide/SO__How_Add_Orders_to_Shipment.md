@@ -1,8 +1,8 @@
-# To Add Sales Orders to a Shipment {#_8d1463a6-9eec-4c7f-9037-ed3463e192eb .task}
+# To Add Sales Orders to a Shipment
 
 You can create a shipment manually on the [Shipments](SO_30_20_00.md) \(SO302000\) form, and add to it the lines of one sales order or multiple sales orders of the same customer to it.
 
-## To Add Sales Orders to Shipment { .section}
+## To Add Sales Orders to Shipment
 
 1.  Open the [Shipments](SO_30_20_00.md) \(SO302000\) form.
 2.  In the **Type** box in the Summary area, select *Shipment*.
@@ -18,7 +18,7 @@ You can create a shipment manually on the [Shipments](SO_30_20_00.md) \(SO302000
     5.  Click **Add &amp; Close** at the bottom of the dialog box.
 8.  Save the shipment.
 
-## Notes About the Procedure { .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

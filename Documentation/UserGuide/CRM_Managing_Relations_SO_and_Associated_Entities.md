@@ -1,8 +1,8 @@
-# Relations: Sales Orders, Opportunities, and Other Entities {#_4c3e8e9e-762f-4b34-b528-8417a65319b5 .concept}
+# Relations: Sales Orders, Opportunities, and Other Entities
 
 In Acumatica ERP, you can track and manage bidirectional relations between a sales order, an opportunity, and a sales quote. Also, you can track one-way relations between a sales order and a variety of records that are associated with it. While viewing a sales order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, you can manually associate any of these records with the sales order and view the list of associated records on the **Relations** tab.
 
-## Relations Between Sales Orders, Opportunities, and Sales Quotes { .section}
+## Relations Between Sales Orders, Opportunities, and Sales Quotes
 
 On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, the **Relations** tab is shown only if the *Customer Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. The tab shows the following relations:
 
@@ -10,7 +10,7 @@ On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, the **Relations** tab i
 -   Each system-added relation between the sales order and a sales quote.
 -   Each relation between the sales order and another record that has been manually added for the sales order. These records include CRM entities and other system entities.
 
-## Relational Roles Supported for Sales Orders { .section}
+## Relational Roles Supported for Sales Orders
 
 Acumatica ERP supports *one-way* and *bidirectional* relations between a sales order and the associated records.
 
@@ -34,7 +34,7 @@ For example, if a sales order \(original record\) is created from an opportunity
 
 Suppose that a user working on the [Opportunities](CR_30_40_00.md) \(CR304000\) form clicks **Create Sales Order** to create a sales order on the [Sales Orders](SO_30_10_00.md) form. To reflect this relation, on the **Relations** tab of the [Opportunities](CR_30_40_00.md) form, the system adds a row for the sales order with the *Derivative* role \(that is, the sales order becomes the derivative document for the opportunity\). Also, on the **Relations** tab of the [Sales Orders](SO_30_10_00.md) form, the system adds a row for the opportunity and specifies the *Source* role for this relation \(that is, the opportunity becomes the source of the sales order\) and the *Opportunity* type. On this tab, you can select various types of entities that can be associated with a sales order. The **Add to CC** check box—which indicates, if selected, that the contact in this row should receive a copy of notification emails—for the reverse role is always cleared, but you can manually select the check box.
 
-## Management of Relational Roles Supported for Sales Orders { .section}
+## Management of Relational Roles Supported for Sales Orders
 
 For a sales order, you can manually add rows for bidirectional roles to the table on the **Relations** tab of the [Sales Orders](SO_30_10_00.md) \(SO301000\) form if the sales order was created directly on the form or if the sales order was imported to the system. By using the one-way *Related Entity* role, you can manually add relations between a sales order and various system entities.
 

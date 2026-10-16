@@ -1,4 +1,4 @@
-# Interbranch Bills Without Balancing: Generated Transactions {#_6d9f1527-4ef0-49b1-ac1c-7f1fab346732 .concept}
+# Interbranch Bills Without Balancing: Generated Transactions
 
 When you release an AP bill between branches that do not require balancing, the system generates a transaction in the general ledger. You can view the details of the batch associated with a bill by clicking the link in the **Batch Nbr.** box on the **Financial** tab of the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. The system opens the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form with the batch selected.
 

@@ -1,18 +1,18 @@
-# DAC-Based OData: To Filter the Requested Data {#_68d9bf5b-592a-4c85-ba66-f6493eb82cc8 .task}
+# DAC-Based OData: To Filter the Requested Data
 
 This activity will walk you through the process of filtering the requested data through the DAC-based OData interface.
 
-## Story { .section}
+## Story
 
 The business intelligence \(BI\) application of the MyStore company should display information about the items that are sold in the store. These items are entered and updated on the [Stock Items](IN_20_25_00.md) \(IN202500\) form in Acumatica ERP.
 
 Suppose that you already have a list of items with the necessary information, and now you need to retrieve only the changes to the items that have been made during the past day. By obtaining only these changes, you optimize the performance of the request. To display the list of modified items to a user, you will export the list of stock items that satisfy the specified conditions from Acumatica ERP. You will export the stock item records that have the *Active* status and that were modified within the past day.
 
-## Process Overview { .section}
+## Process Overview
 
 You will modify two stock item records in Acumatica ERP and make one of them inactive. You will then research the needed fields on the [Stock Items](IN_20_25_00.md) \(IN202500\) form, and retrieve the data by using the DAC-based OData interface. Because you need to filter the results of the inquiry to obtain only the active records that were modified within the past day, you will use the *$filter* parameter.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -21,7 +21,9 @@ Before you begin performing the steps of this activity, do the following:
 3.  Complete the following prerequisite activity: [DAC-Based OData: To Sign In to Acumatica ERP and Retrieve the Metadata](../Shared/../UserGuide/RPT_DAC_OData_SignIn_Activity.md).
 4.  If you have created a Postman collection with the basic authentication configured, add a new request to the collection and configure the request to inherit the authorization type from the parent collection.
 
-## Step 1: Modifying Records { .section}
+Before you send the request in this activity, you need to sign in to Acumatica ERP, as described in [DAC-Based OData: To Sign In to Acumatica ERP and Retrieve the Metadata](../Shared/../UserGuide/RPT_DAC_OData_SignIn_Activity.md). If you have created a Postman collection with the basic authentication configured, add a new request to the collection and configure the request to inherit the authorization type from the parent collection.
+
+## Step 1: Modifying Records
 
 In this step, you will modify stock items so that you have at least one stock item record modified within the past day.
 
@@ -36,7 +38,7 @@ Now you have at least two inventory items that have been modified within the pas
 
 The system tracks the last modified date for every record, but this date is not displayed on the [Stock Items](../Shared/../UserGuide/IN_20_25_00.md) form. In the system, a preconfigured generic inquiry shows the dates when stock items were last modified. To view this generic inquiry, on the [Generic Inquiry](../Shared/../UserGuide/SM_20_80_00.md) \(SM208000\) form, you can select the inquiry with the title *Stock Items: Last Modified Date*, and click **View Inquiry** on the form toolbar.
 
-## Step 2: Researching the Needed Fields { .section}
+## Step 2: Researching the Needed Fields
 
 For a stock item record entered and maintained on the [Stock Items](../Shared/../UserGuide/IN_20_25_00.md) \(IN202500\) form, you need to export the following values:
 
@@ -51,9 +53,7 @@ For a stock item record entered and maintained on the [Stock Items](../Shared/..
 
 The elements that are available on the form are shown in the following screenshots.
 
-![](../Shared/Images/WS_ExportStockItems.png "Elements in the Summary area and the General tab whose values will be exported")
 
-![](../Shared/Images/WS_ExportStockItems2.png "Elements on the Warehouses tab whose values will be exported")
 
 You will use the following DAC fields and navigation properties of the [PX.Objects.IN.InventoryItem](https://help.acumatica.com/dacBrowser/PX.Objects.IN/InventoryItem) DAC to retrieve this information about a stock item:
 
@@ -62,7 +62,7 @@ You will use the following DAC fields and navigation properties of the [PX.Objec
 -   The INItemClassByItemClassID navigation property and the ItemClassCD field \(the item class\)
 -   The INSiteStatusCollection navigation property and the QtyOnHand field \(the quantity on hand in each warehouse\)
 
-## Step 3: Retrieving the List of Modified Stock Items { .section}
+## Step 3: Retrieving the List of Modified Stock Items
 
 To narrow the list of stock items, you will specify the following conditions in the request:
 
@@ -77,30 +77,55 @@ To retrieve the list of modified stock items, do the following:
     -   URL: *http://localhost/MyStoreInstance/t/MyStore/api/odata/dac/PX\_Objects\_IN\_InventoryItem*
     -   Parameters:
 
-        |Parameter|Value|
-        |---------|-----|
-        |*$select*|`InventoryCD,Descr,ItemStatus,LastModifiedDateTime,BaseUnit`|
-        |*$expand*|        ```
+<table id="_56302d46-b2eb-4d33-b844-c2fd2db9bbf7"><thead><tr><th>
+
+Parameter
+
+</th><th>
+
+Value
+
+</th></tr></thead><tbody><tr><td>
+
+*$select*
+
+</td><td>
+
+`InventoryCD,Descr,ItemStatus,LastModifiedDateTime,BaseUnit`
+
+</td></tr><tr><td>
+
+*$expand*
+
+</td><td>
+
+```
 INSiteByDfltSiteID($select=SiteCD),
 INItemClassByItemClassID($select=ItemClassCD),
 INSiteStatusCollection($select=QtyOnHand)
-        ```
+```
 
-|
-        |*$filter*|        ```
+</td></tr><tr><td>
+
+*$filter*
+
+</td><td>
+
+```
 StkItem eq true and ItemStatus eq 'AC' and
 LastModifiedDateTime eq 2025-12-01
-        ```
+```
 
  Specify today's date instead of `2025-12-01`.
 
  **Tip:** If you use the Postman collection that is provided with this course, the pre-request script specifies the today's date in the request.
 
-|
+</td></tr></tbody>
+</table>
 
 2.  Send the request. The response of the successful request contains the `200 OK` status code. The following code shows an example of the response body.
 
-    ```language-json
+    ```json
     {
         "@odata.context":
          "http://localhost/MyStoreInstance/t/MyStore/api/odata/dac/$metadata

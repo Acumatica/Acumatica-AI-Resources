@@ -1,10 +1,10 @@
-# Step 4.2: Check the Configuration of MySQL Database Server {#_118e7252-c776-4517-be94-19f0e2183e31 .task}
+# Step 4.2: Check the Configuration of MySQL Database Server
 
 In this topic, you can find general recommendations for optimal performance of a MySQL database and a list of common problems and solutions.
 
 For more detailed information on MySQL settings, see the [MySQL Reference Manual](https://dev.mysql.com/doc/refman/5.7/en/).
 
-## General Recommendations {#_9a11de24-75a0-45c2-95a2-5910127a571d .section}
+## General Recommendations
 
 To optimize the performance of a MySQL database, do the following:
 
@@ -47,7 +47,7 @@ To optimize the performance of a MySQL database, do the following:
         For this parameter, you specify how often the log buffer is flushed on disk. The default value of this parameter is *1*, which means that each `UPDATE` transaction will be flushed to a hard drive and therefore this mode is resource-demanding. When you set this parameter to *2*, the log buffer is flushed to the OS file cache on every transaction commit, which significantly increases the speed of writing to the database. The drawback of this mode is that the database can lose transactions for the last second or two if OS crashes.
 
 
-## Common Problems and Solutions { .section}
+## Common Problems and Solutions
 
 |Problem|Solution|
 |-------|--------|

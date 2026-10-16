@@ -1,4 +1,4 @@
-# AR Invoices: Generated Transactions {#_12b8d884-5b07-4ce0-b6ed-b18eb8349c9d .concept}
+# AR Invoices: Generated Transactions
 
 When you release an invoice, the system generates a batch of transactions to reflect the sale in the general ledger. The invoice includes all the information the system needs to generate the batch.
 

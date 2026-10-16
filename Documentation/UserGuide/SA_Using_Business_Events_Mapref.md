@@ -1,4 +1,4 @@
-# Using Business Events {#_85d4ed6e-f498-4683-86f9-bdb5a2164c6d .concept}
+# Using Business Events
 
 You use the business event functionality for monitoring business events that occur in the system as users perform business processes. Business events are particular actions, data changes, or conditions that require user attention in your company. By setting up business event monitoring, you ensure that these business events will not be missed, without individual users needing to spend their time performing manual monitoring.
 

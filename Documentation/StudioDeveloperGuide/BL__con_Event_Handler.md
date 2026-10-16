@@ -1,8 +1,8 @@
-# Event Handlers {#_cd34176b-2ab9-42cc-890c-b6cb42cd433e .concept}
+# Event Handlers
 
 The Acumatica Framework raises events in the context of a graph. An event handler can be implemented in a graph, as well as in an attribute of a data field.
 
-## Graph and Attribute Event Handlers { .section}
+## Graph and Attribute Event Handlers
 
 *Graph event handlers* are defined as methods in a business logic controller \(BLC\) class for a particular data access class \(DAC\) or a particular DAC field.
 

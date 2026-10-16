@@ -1,26 +1,26 @@
-# Daily Field Reports: To Configure Approval for Daily Field Reports {#_2746d8ee-066e-4ae8-9432-77d84a5a9ae9 .task}
+# Daily Field Reports: To Configure Approval for Daily Field Reports
 
 This activity will walk you through the process of configuring the approval map for daily field reports.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the ToadGreen company needs to keep daily field reports in the system. These reports need to be approved by managers. Acting as a system administrator, you need to create the approval map for the daily field reports and specify the daily field report settings in the system.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 For the purposes of this activity, the *Construction* and *Construction Project Management* features have been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Process Overview {#section_qjw_hdr_v4b .section}
+## Process Overview
 
 You will configure an approval map to be used for daily field reports on the [Approval Maps](EP_20_50_15.md#) \(EP205015\) form and assign this map in the daily field report settings on the [Project Management Preferences](PJ_10_10_00.md) \(PJ101000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as a system administrator by using the *gibbs* username and the *123* password.
 
-## Step: Creating an Approval Map for Daily Field Reports { .section}
+## Step: Creating an Approval Map for Daily Field Reports
 
 In this step, you will create the approval map to be used for daily field reports. Do the following:
 

@@ -1,16 +1,16 @@
-# Migration of Trial Balances: To Import Trial Balances {#_748dd5f4-7932-491c-bec4-c6dca8e8f6e7 .task}
+# Migration of Trial Balances: To Import Trial Balances
 
 The following activity will walk you through the process of importing trial balances into the system.
 
 **Attention:** This activity is based on the *U100 Basic Company* dataset. If you are using another dataset, or if any system settings have been changed in *U100 Basic Company*, these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the *U100 Basic Company* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are an implementation consultant who is performing data migration from the legacy system to Acumatica ERP. You have imported master records and historical documents.
 
 Now you need to upload the actual balances of the general ledger accounts to the system. You have decided to upload the trial balances for the last two financial periods in which the company has operated in the legacy system \(October and November 2025\).
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100 Basic Company* dataset, the following tasks have been performed for the purposes of this activity:
 
@@ -18,11 +18,11 @@ In the *U100 Basic Company* dataset, the following tasks have been performed for
 -   On the [Companies](CS_10_15_00.md) \(CS101500\) form, the SweetLife company without branches has been configured by performing the steps described in [Company Without Branches: To Configure a Company Without Branches](../ImplementationGuide/config_Basic_Company_Implem_Activity_Enabling_Features.md).
 -   On multiple forms, the required financial configuration has been performed, as described in the [Implementing Basic Financials](../ImplementationGuide/config_GL_Mapref.md) chapter of the Implementation Guide, including the chart of accounts uploaded on the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form.
 
-## Process Overview { .section}
+## Process Overview
 
 You will upload the company’s trial balance for October and November on the [Trial Balance](GL_30_30_10.md) \(GL303010\) form. You will validate the trial balances, correct the error you find, and release the trial balances. Then you will review and release the generated GL transactions on the [Journal Transactions](GL_30_10_00.md#) \(GL301000\) form. On the [Trial Balance Detailed](GL_63_25_00.md) \(GL632500\) form, you will prepare the trial balance report to verify the results of the import.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
@@ -33,7 +33,7 @@ To prepare to perform the instructions of this activity, do the following:
     **Tip:** If the sign of the trial balance does not correspond to the option that is selected on the [General Ledger Preferences](GL_10_20_00.md) form, after you validate the trial balance, the **Credit Total** box will contain the value in the **Debit Total** box, but with the opposite sign. In this case, you need to change the **Sign of the Trial Balance** option value and upload the trial balance again.
 
 
-## Step 1: Importing the First Trial Balance { .section}
+## Step 1: Importing the First Trial Balance
 
 Import the trial balance for October 2025 by doing the following:
 
@@ -56,11 +56,10 @@ Import the trial balance for October 2025 by doing the following:
 
     On release of the trial balance, the system generates a batch of general ledger transactions and opens it on the [Journal Transactions](GL_30_10_00.md#) \(GL301000\) form. The credit and debit totals, which are the totals of debit and credit amounts for all transactions in the batch, are $1,041,106.86 \(as shown in the following screenshot\).
 
-    ![](Images/activity_DataMigration_Import_Trial_Balances_GLBatch.png "General ledger transaction generated for the first trial balance")
 
 12. On the form toolbar, click **Release** to release the batch of GL transactions.
 
-## Step 2: Importing the Second Trial Balance {#section_mk3_42k_tq .section}
+## Step 2: Importing the Second Trial Balance
 
 Now you need to import the trial balance for November 2025 by doing the following:
 
@@ -86,7 +85,6 @@ Now you need to import the trial balance for November 2025 by doing the followin
 
     The generated report \(see the following screenshot\) shows the normal balance representation of accounts. The trial balance shows the balance of the *33000 \(Net Income\)* account, which has been calculated based on the imported data and is $275,011.60. The total YTD Net Income is included in the **Liability Total**; therefore, the **Assets Total** is equal to the **Liability Total** in the report.
 
-    ![](Images/activity_DataMigration_Import_Trial_Balances_TB_Detailed.png "Trial Balance Detailed report for 11-2025")
 
 
 You have finished the import of trial balances into the system.

@@ -1,4 +1,4 @@
-# Changing an Asset's Default Settings {#_3676425a-0969-4039-b29b-d20d1454586c .concept}
+# Changing an Asset's Default Settings
 
 In this chapter, you will learn about changing the default settings of a new fixed asset. These default settings are based on the settings of the fixed asset class that was selected when the asset was created.
 

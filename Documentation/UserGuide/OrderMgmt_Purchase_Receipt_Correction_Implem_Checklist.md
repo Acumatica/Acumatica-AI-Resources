@@ -1,8 +1,8 @@
-# Purchase Receipt Correction: Implementation Checklist {#_540b496b-ae33-4080-a74c-fb1c2df4b66c .concept}
+# Purchase Receipt Correction: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for the correction or cancellation of purchase receipts. You will also learn about the settings that affect the processing workflow so that you can make any needed changes.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you initially perform the correction or cancellation of purchase receipts, you make sure that the needed features have been enabled, settings have been specified, and entities have been created. The following checklist summarizes the criteria you need to check.
 
@@ -13,7 +13,7 @@ We recommend that before you initially perform the correction or cancellation of
 |[Vendors](AP_30_30_00.md) \(AP303000\)|All needed vendors have been created, as described in [Vendors: General Information](Vendor_GeneralInfo.md).|
 |[Stock Items](IN_20_25_00.md) \(IN202500\)|All stock items have been defined, as described in [Stock Items: General Information](Stock_Items_GeneralInfo.md).|
 
-## Other Settings That Affect the Workflow { .section}
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of correcting and canceling purchase receipts by specifying additional settings as follows:
 

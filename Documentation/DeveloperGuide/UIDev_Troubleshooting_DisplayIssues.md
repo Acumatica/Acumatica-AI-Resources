@@ -1,4 +1,4 @@
-# Modern UI Troubleshooting: Unreflected Changes in the Modern UI {#_4ab9a27d-09ac-43ae-9151-79089afed71f .concept}
+# Modern UI Troubleshooting: Unreflected Changes in the Modern UI
 
 In some cases, when you have made changes to the sources of the forms that have been migrated to the Modern UI and rebuilt the sources, you may not see these changes reflected in the web browser when you open one of these forms.
 

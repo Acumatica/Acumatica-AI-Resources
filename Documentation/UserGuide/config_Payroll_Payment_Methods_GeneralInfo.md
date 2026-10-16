@@ -1,21 +1,21 @@
-# Payment Methods: General Information {#_c8fb2834-40c3-40c8-8040-5e70aa2231e4 .concept}
+# Payment Methods: General Information
 
 Acumatica ERP has predefined payment methods that you can adjust to the business needs of an organization, or you can define new payment methods. The settings of the payment methods describe how the particular payment is done and provide the default cash account to be used to record payments.
 
 A payroll employee may receive either a printed paycheck or a direct deposit. The payment methods used for the generation of employee paychecks and the cash accounts for each of those payment methods must be set up for use in payroll.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Set up predefined payment methods and cash accounts for use in payroll
 -   Define a direct deposit payment method
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You set up the payment methods and related cash accounts to be used in payroll so that you can generate paychecks and your employees can receive their payments.
 
-## Payment Method Setup { .section}
+## Payment Method Setup
 
 You use the [Payment Methods](CA_20_40_00.md) \(CA204000\) form to make a payment method available for use in payroll. On this form, you need to select the necessary payment method and perform the following steps:
 

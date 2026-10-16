@@ -1,4 +1,4 @@
-# Configuring Editing Forms {#_089f3167-ee1d-4746-af9c-e3d3b19550a5 .concept}
+# Configuring Editing Forms
 
 You have to configure an editing form \(that is, a form that is used to enter and edit a data record\) based on the use of the form in Acumatica ERP.
 
@@ -11,7 +11,7 @@ In other cases, Acumatica ERP uses the following separate forms for data records
 
 In these cases, you have to configure two separate declarations of the sm:Screen tag: one for the list form, and another for the editing form.
 
-## Example: Creating the Same Layout for the Editing Form and the List { .section}
+## Example: Creating the Same Layout for the Editing Form and the List
 
 To see an example of configuring an editing form to use the same layout as a list does, copy the code below to an `.xml` file, put the file in the `\App_Data\Mobile` folder of the Acumatica ERP website, and start the mobile application.
 
@@ -38,7 +38,7 @@ To see an example of configuring an editing form to use the same layout as a lis
 
 This example is almost identical to [Example: Creating a Simple List View Layout](MOBILE_ConfiguringLists.md#_95fe7b23-bce2-4ef8-b56e-8b142d413547), except that it adds two actions, **Save** and **Cancel**, which you need to save or cancel changes to a data record.
 
-## Example: Configuring the List and the Editing Form Separately { .section}
+## Example: Configuring the List and the Editing Form Separately
 
 To see an example of configuring the editing form differently than you do a list form, copy the code below to an `.xml` file, put the file in the `\App_Data\Mobile` folder of the Acumatica ERP website, and start the mobile application.
 

@@ -1,4 +1,4 @@
-# Manual Vendor Discounts {#_bd3f681d-bb79-42d2-bf7d-70a5f77b2a5d .concept}
+# Manual Vendor Discounts
 
 In Acumatica ERP, you can manually apply a discount provided to your organization by a vendor, for example, when the discount is one-time and does not warrant to be defined in the system to be later applied automatically.
 

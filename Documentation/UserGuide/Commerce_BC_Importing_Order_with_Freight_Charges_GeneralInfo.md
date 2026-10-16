@@ -1,12 +1,12 @@
-# Importing an Order with Freight Charges: General Information {#_6d10311b-ef76-430f-8760-d685576bc324 .concept}
+# Importing an Order with Freight Charges: General Information
 
 When you provide delivery service to customers of your organization, you need to calculate the freight prices to charge customers. When a sales order is placed in the BigCommerce store, the freight price, which is calculated based on the shipping rules configured in the store, is added to the sales order.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to configure shipping rules to charge customers for freight and how freight fees are represented in sales orders imported from BigCommerce to Acumatica ERP for fulfillment.
 
-## Freight Charges in Imported Orders { .section}
+## Freight Charges in Imported Orders
 
 When you set up your BigCommerce store, one of the things you do is configuring shipping. This includes specifying the address of the shipping origin and the geographical areas to which you plan to ship products \(the shipping zones\), as well as configuring the shipping options available to customers \(the shipping methods\). For each shipping zone, you can also specify a fee for handling orders. The shipping options and their accompanying costs are displayed to the customer in the cart and at checkout. The sales order includes the total of the shipping fees corresponding to the shipping method selected by the customer and the handling fees, if any have been configured for the customer's shipping zone. For more information about the configuration of shipping in the BigCommerce store, see [Shipping Setup](https://support.bigcommerce.com/s/article/Shipping-Setup) in the BigCommerce documentation.
 

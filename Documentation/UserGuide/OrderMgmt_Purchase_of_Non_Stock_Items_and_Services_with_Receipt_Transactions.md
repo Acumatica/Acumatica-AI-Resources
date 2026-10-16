@@ -1,8 +1,8 @@
-# Purchases of Non-Stock Items and Services with Receipts: Generated Transactions {#_1c5cfef0-cae0-41af-a304-33698b0f6da0 .concept}
+# Purchases of Non-Stock Items and Services with Receipts: Generated Transactions
 
 To process a purchase of non-stock items and services for which a receipt is required, you create an AP bill and a receipt. On release of these documents, the system generates GL transactions described in the following sections.
 
-## Transaction Generated on AP Bill Release {#section_q5n_cks_hlb .section}
+## Transaction Generated on AP Bill Release
 
 When an AP bill prepared for a purchase order \(or for purchase receipt\) is released, the system creates a batch of the following entries.
 
@@ -13,7 +13,7 @@ When an AP bill prepared for a purchase order \(or for purchase receipt\) is rel
 
 You can view the reference number of the GL batch generated for a particular AP bill in the **Batch Nbr.** box on the **Financial** tab of the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. You can click the link in this box to view the details of the batch on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## Transaction Generated on Release of an Inventory Receipt { .section}
+## Transaction Generated on Release of an Inventory Receipt
 
 When the inventory receipt for the purchase receipt is released, the system creates a batch of the following entries.
 

@@ -1,14 +1,14 @@
-# Mass Emails: To Email from a Marketing Campaign {#_1f94dfae-b881-4306-aa11-f0a23cdf095a .task}
+# Mass Emails: To Email from a Marketing Campaign
 
 The following activity demonstrates how to send a mass email to the members of a marketing campaign.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Bill Owen, a marketing manager of the SweetLife Fruits &amp; Jams company.You have launched a marketing campaign. The campaign will promote online master classes focused on demonstrating how to use citrus juicers that the company sells. You need to send emails to your target audience describing the details of the master classes and a special offer for the attendees.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -22,7 +22,7 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Email Accounts](SM_20_40_02.md) \(SM204002\) form, a system email account has been added.
 -   On the [Automation Schedules](SM_20_50_20.md) \(SM205020\) form, a schedule for periodic runs of the *Send and Receive Email* process has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -30,7 +30,7 @@ In this activity, you will do the following:
 2.  On the [Mass Emails](CR_30_80_00.md) \(CR308000\) form, prepare the mass email to be sent to the members of the *Citrus Online Master Classes* marketing campaign.
 3.  On the [Mass Emails](CR_30_80_00.md) form, send the mass email to the test email address to make sure that the email will be delivered to the recipients.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start sending mass emails to the members of a marketing campaign, you should do the following:
 
@@ -40,7 +40,7 @@ Before you start sending mass emails to the members of a marketing campaign, you
     -   **Password**: *123*
 3.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Adding Multiple Members to a Marketing Campaign { .section}
+## Step 1: Adding Multiple Members to a Marketing Campaign
 
 To add multiple members to the *Citrus Online Master Classes* marketing campaign from a marketing list, do the following:
 
@@ -54,7 +54,7 @@ The system automatically copies the members to the list of members on the **Memb
 
 You have added multiple members to the marketing campaign. These members will receive your mass email when you prepare and send it.
 
-## Step 2: Preparing a Mass Email to Be Sent to the Members of the Marketing Campaign { .section}
+## Step 2: Preparing a Mass Email to Be Sent to the Members of the Marketing Campaign
 
 To prepare a mass email to be sent to the members of the marketing campaign, do the following:
 
@@ -71,7 +71,7 @@ To prepare a mass email to be sent to the members of the marketing campaign, do 
 
 You have prepared the mass email to be sent. Now you can test sending the email to make sure it will be delivered to the recipients.
 
-## Step 3: Sending a Mass Email to a Test Mailbox { .section}
+## Step 3: Sending a Mass Email to a Test Mailbox
 
 To send a mass email to a test mailbox, do the following:
 

@@ -1,10 +1,10 @@
-# Contract Configuration: To Create Entities for a Support Contract {#_c3c74749-ab99-4096-9ff6-4114e0c1a42b .task}
+# Contract Configuration: To Create Entities for a Support Contract
 
 In this activity, you will learn how to create a labor non-stock item and a case class of the *Per Case* billing mode to create an empty template for a support contract.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company, in addition to deploying juicers, also specializes in providing maintenance. The Unifruit LLC customer previously purchased juicers and now needs to enter into a maintenance support contract. On *3/8/2026*, the support contract was signed by both parties.
 
@@ -14,11 +14,11 @@ Acting as an accountant, you will add a new GL account to the chart of accounts.
 
 Then acting as a sales manager, you will create a non-stock labor item and a case class to be used in an empty contract template for a support contract.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, you will update the chart of accounts. On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, you will create a labor non-stock item and specify the default price of the item. Then on the [Case Classes](CR_20_60_00.md) \(CR206000\) form, you will create a new case class for the support services and specify the reaction time for cases with different priority levels.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -26,11 +26,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *UNIFRUIT \(Unifruit LLC\)* customer has been created.
 -   On the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, the *79000* \(*Contract Expenses*\) expense account has been created.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, launch the Acumatica ERP website with the *U100* dataset preloaded, and for Step 1 sign in to the system as the accountant Anna Johnson by using the *johnson* username and the *123* password. For Step 2 and Step 3 sign in as the sales manager David Chubb by using the *chubb* username and the *123* password.
 
-## Step 1: Updating the Chart of Accounts {#section_sny_5pl_ht .section}
+## Step 1: Updating the Chart of Accounts
 
 First, you need to add a new GL account to the chart of accounts. This account will accumulate the revenue earned when SweetLife Fruits &amp; Jams provides support services. To add this account, proceed as follows:
 
@@ -40,7 +40,7 @@ First, you need to add a new GL account to the chart of accounts. This account w
     -   **Description**: `Sales - Support Hours`
 2.  Save your changes.
 
-## Step 2: Creating a Labor Item {#section_i55_csl_ht .section}
+## Step 2: Creating a Labor Item
 
 Now you need to create a labor non-stock item and specify the default price of the item. Do the following:
 
@@ -65,7 +65,7 @@ Now you need to create a labor non-stock item and specify the default price of t
         -   **Sales Account**: *40400* \(*Sales - Support Hours*\)
     6.  On the form toolbar, click **Save** to save the non-stock item.
 
-## Step 3: Creating a Case Class of the Per Case Billing Mode {#section_mm4_xcm_ht .section}
+## Step 3: Creating a Case Class of the Per Case Billing Mode
 
 Now you need to create a case class. A case class contains the settings specific to a particular category of cases. The system will automatically add these settings to the case that you create later.
 

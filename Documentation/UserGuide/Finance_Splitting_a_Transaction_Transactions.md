@@ -1,4 +1,4 @@
-# Splitting Transactions: Generated Transactions {#_3ba99451-2e0a-4cc5-8032-fd77a1841f33 .concept}
+# Splitting Transactions: Generated Transactions
 
 Suppose that you classify all your expenses by department by using a dedicated subaccount segment for each department code. By mistake, you have posted all your expenses to one subaccount: *000-OPS*. This means that the amount has been posted to the Expense subaccount of one department \(Operations\) instead of three different departments:
 

@@ -1,10 +1,10 @@
-# Deposits for Credit Card Payments {#_c6f18954-0bea-40ee-85fc-493e3697e68f .concept}
+# Deposits for Credit Card Payments
 
 If a processing center that you work with transfers collected amounts as one payment to your bank account, you can configure credit card payments as deposits. The processing center processes the card transactions initiated in your system and records them to your account with the processing center, and at the end of the payment period, the center transfers the collected amounts to your bank account. In your system, you record the credit card payments to a clearing account associated with the bank account and then post them as a deposit to the bank account. Such deposits may require charges from both the bank and the processing center. However, you can configure the system to automatically apply charges from only one source. You can choose which charges \(of a processing center or a bank\) you configure to be automatically applied and which you will add manually. For example, if the processing center applies multiple charges and the charge amounts are usually deducted from the deposit total, it is more convenient to have the processing center charges applied automatically to the deposit and adding bank charges manually.
 
 In this topic you will read about configuration of deposit processing for credit card payments and the process of recording such deposits.
 
-## Configuring Deposit Processing for Credit Card Payments {#section_zcd_kjv_vxb .section}
+## Setup of Deposit Processing for Credit Card Payments
 
 To configure credit card deposits, perform the steps below:
 
@@ -19,9 +19,9 @@ To configure credit card deposits, perform the steps below:
 
 Once configuration has been completed, you can process credit card payments as deposits.
 
-## Processing Deposits for Credit Card Payments {#section_ddd_kjv_vxb .section}
+## Processing Deposits for Credit Card Payments
 
-The procedure of processing deposits for credit card payments is the same to the one described in [Preparation of Deposits](CA__CON_Preparation_of_Deposits.md). You record credit card payments processed by a processing center to the respective clearing account, and at the end of a period when a processing center transfers collected payments to your bank account, you create a deposit in the system by using the [Bank Deposits](CA_30_50_00.md) \(CA305000\) form.
+The procedure of processing deposits for credit card payments is the same to the one described in [Preparation of Bank Deposits](CA__CON_Preparation_of_Deposits.md). You record credit card payments processed by a processing center to the respective clearing account, and at the end of a period when a processing center transfers collected payments to your bank account, you create a deposit in the system by using the [Bank Deposits](CA_30_50_00.md) \(CA305000\) form.
 
 The charge rate you have specified for the clearing account is applied automatically and can be viewed on the **Charges** tab of the [Bank Deposits](CA_30_50_00.md) form. On this tab, you can add any other applicable charges. To deduct the charges from the deposit amount, make sure the **Separate Charges** check box is cleared \(on the **Financial** tab of this form\).
 
@@ -29,5 +29,5 @@ If the processing center charges monthly fees, you can create appropriate recurr
 
 The processing center deposits the collected amounts to the bank account, with a delay that depends on the processing center. You should release deposits on the last days of periods defined by the processing center or on the day when the processing center transfers money to your organization's bank account. For details on the transactions that are generated when you release a deposit, see [Deposit Configuration Example](CA__CON_DepositConfigExample.md).
 
-**Parent topic:**[Preparation of Deposits](../UserGuide/CA__CON_Preparation_of_Deposits.md)
+**Parent topic:**[Preparation of Bank Deposits](../UserGuide/CA__CON_Preparation_of_Deposits.md)
 

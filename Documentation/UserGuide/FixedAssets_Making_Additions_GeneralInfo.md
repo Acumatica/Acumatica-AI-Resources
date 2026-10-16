@@ -1,19 +1,19 @@
-# Additions to Assets: General Information {#_b151dad2-a0b8-48cf-a8a6-0bc525066ee0 .concept}
+# Additions to Assets: General Information
 
 You can change the cost of fixed assets by making additions to and deductions from fixed assets. This chapter is focused on making additions to fixed assets.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Create an addition to an existing fixed asset by converting a purchase
 -   Create an addition to an existing fixed asset manually
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You make additions to fixed assets if you want to capitalize additional expenses related to a fixed asset.
 
-## Additions to Fixed Assets { .section}
+## Additions to Fixed Assets
 
 When an addition is made to a fixed asset, it increases the current cost and the net value of the asset. The depreciation expenses for the next periods are calculated based on the new current cost, and the system also makes depreciation adjustments for the already-depreciated periods, if needed.
 
@@ -32,11 +32,10 @@ For both ways of making an addition to an asset, when the acquisition transactio
 
 **Attention:** Before making additions to a fixed asset, make sure that the asset has been fully reconciled.
 
-## Workflow of Fixed Asset Additions { .section}
+## Workflow of Fixed Asset Additions
 
 The following diagram shows the process of making additions to fixed assets.
 
-![](Images/diag_Finance_FA_Making_Additions_to_Assets.png)
 
 Optionally, you can make additions to fixed assets on the [Fixed Assets](FA_30_30_00.md) \(FA303000\) or [Convert Purchases to Assets](FA_50_45_00.md) \(FA504500\) form to capitalize additional expenses. An addition increases the current cost and the net value of the asset.
 

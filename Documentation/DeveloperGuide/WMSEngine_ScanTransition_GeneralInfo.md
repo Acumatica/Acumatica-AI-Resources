@@ -1,29 +1,29 @@
-# Barcode Scan Transitions: General Information {#_28a73634-69f4-4495-96d1-1d2e6bcf2687 .concept}
+# Barcode Scan Transitions: General Information
 
 ScanTransition&lt;TScanBasis&gt; is a class for a barcode scan transition. This class represents a component that defines the rules of automatic transitions between scan states.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Implement transitions between scan states
 -   Implement a simple transition flow between scan states
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You implement scan transitions in the following cases:
 
 -   You have defined a set of scan states of a custom scan mode. You need to implement transitions between these states.
 -   You have defined a new scan state of a predefined scan mode. You need to implement transitions between the predefined scan states and the new scan state.
 
-## Transition Between Scan States { .section}
+## Transition Between Scan States
 
 You move the barcode-driven engine to another scan state in either of the following ways:
 
 -   Call Basis.SetScanState\(string state\) or Basis.SetScanState&lt;TScanState&gt;\(\) to change the current scan state to another certain scan state. This way requires a particular state to be specified and is not flexible because scan states become highly coupled.
 -   Call `Basis.DispatchNext()` to indicate to the system that the current scan state should be moved further. This way does not include information about a specific next scan state. The system derives the information about the next scan state from the transition map, which is defined by the scan transition component.
 
-## Transition Map { .section}
+## Transition Map
 
 You can use the scan transition component to create a complex map of transitions by using conditions and additional actions that can be performed when the transition is triggered.
 
@@ -31,9 +31,8 @@ Unlike all other scan components, ScanTransition&lt;TScanBasis&gt; is not an `ab
 
 The following diagram shows the classes and interfaces related to scan transitions.
 
-![](Images/diag_WMSEngine_ScanTransition.png "Scan transition classes and interfaces")
 
-## Implementation of the Transition Map { .section}
+## Implementation of the Transition Map
 
 You create particular instances of the ScanTransition&lt;TScanBasis&gt; class in the ScanMode&lt;TScanBasis&gt;.CreateTransitions\(\) method.
 

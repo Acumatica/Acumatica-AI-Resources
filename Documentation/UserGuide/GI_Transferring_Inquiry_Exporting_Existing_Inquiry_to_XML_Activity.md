@@ -1,16 +1,16 @@
-# Inquiry Transfer: To Export and Import an Existing Inquiry as XML File {#_a9522553-3ecc-49bc-b1af-a67d1a781157 .task}
+# Inquiry Transfer: To Export and Import an Existing Inquiry as XML File
 
 In this activity, you will learn how to export an existing inquiry as an XML file and then import the inquiry.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist in your company who is working on simple customizations. Further suppose that your company uses multitenant configuration, and that the predefined Invoices and Memos \(AR3010PL\) generic inquiry form was deleted from one tenant by mistake. The accounting department that uses the tenant has asked you to recover the inquiry form. You have decided to transfer the predefined generic inquiry form from one tenant of your company to another.
 
-## Process Overview { .section}
+## Process Overview
 
 To perform this activity, you need two tenants to be configured in your system: the one from which you export the generic inquiry form, and the one to which you import the generic inquiry form. You will configure these tenants during system preparation. \(For more information on managing tenants, see [Managing Tenants by Using the Web Interface](SA_Managing_Tenants_Using_Web_Mapref.md).\) On one tenant, you will export the Invoices and Memos \(AR3010PL\) generic inquiry form as an XML file by using the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form. Then on another tenant, you will import the XML file with the inquiry.
 
-## System Preparation {#_8cb1d156-615f-45bc-bdeb-8cde5c9b8992 .section}
+## System Preparation
 
 Before you perform the steps of this activity, make sure that the following tasks have been performed:
 
@@ -22,7 +22,7 @@ Before you perform the steps of this activity, make sure that the following task
     **Tip:** User *gibbs* is assigned the *Administrator* role, which has sufficient access rights to manage system configuration.
 
 
-## Step 1: Exporting the Existing Generic Inquiry { .section}
+## Step 1: Exporting the Existing Generic Inquiry
 
 To export the generic inquiry, do the following:
 
@@ -33,7 +33,7 @@ To export the generic inquiry, do the following:
 
 The file is downloaded to the folder that is configured in your browser as a default folder.
 
-## Step 2: Importing the Generic Inquiry { .section}
+## Step 2: Importing the Generic Inquiry
 
 To import the generic inquiry, do the following:
 

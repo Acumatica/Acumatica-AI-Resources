@@ -1,4 +1,4 @@
-# System Requirements for the Acumatica Mobile App {#_1fa17163-ad94-40b2-b0a0-5889ce8888ae .concept}
+# System Requirements for the Acumatica Mobile App
 
 To support the Acumatica mobile app, a device must meet the following requirements:
 

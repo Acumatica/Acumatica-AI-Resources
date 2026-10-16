@@ -1,8 +1,8 @@
-# Transitions: General Information {#_78a13a6f-76d3-46fe-8038-b803a8f42af7 .concept}
+# Transitions: General Information
 
 In a workflow, all workflow states are linked with transitions. Transitions define the changes during the lifecycle of a record.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -11,11 +11,11 @@ In this chapter, you will learn how to do the following:
 -   Define conditions
 -   Define transitions that are triggered depending on a condition
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You implement a transition when you need to implement a change of workflow state.
 
-## Definition of a Transition { .section}
+## Definition of a Transition
 
 To implement a transition, you define the following parts of the screen configuration:
 
@@ -31,7 +31,7 @@ After you have defined all the entities required for a transition \(which are th
 -   To: The target workflow state for the transition
 -   IsTriggeredOn: The trigger of the transition
 
-## Configuration of a Transition { .section}
+## Configuration of a Transition
 
 While configuring a transition, you can do the following:
 

@@ -1,18 +1,18 @@
-# Webhooks: To Configure Webhooks {#_53fd37eb-6840-4709-a852-68bc6abc0a90 .task}
+# Webhooks: To Configure Webhooks
 
 The following activity shows you how to configure webhooks to save the time tracking information from Toggl in Acumatica ERP.
 
-## Story { .section}
+## Story
 
 Suppose that you need to register employee time activities. For that purpose, you plan to use the Toggl application, which can track employees’ time. To send data about tracked time periods from Toggl to Acumatica ERP, you need to configure a webhook in Acumatica ERP.
 
-## Process Overview { .section}
+## Process Overview
 
 You will define a webhook handler that implements the PX.Api.Webhooks.IWebhookHandler interface. You will then register in Acumatica ERP a webhook that will use this webhook handler. You will include the registered webhook and the DLL file with the code of the webhook handler in a customization project.
 
 The webhook will receive data from the Zapier application, which will transfer data from Toggl to Acumatica ERP. You will prepare both the Toggl application and the Zapier application.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -25,7 +25,7 @@ Before you begin performing the steps of this activity, do the following:
 
 **Tip:** You can find the final code and customization project of this activity in the [Help-and-Training-Examples](https://github.com/Acumatica/Help-and-Training-Examples) repository on GitHub.
 
-## Step 1: Preparing Toggl { .section}
+## Step 1: Preparing Toggl
 
 Prepare the Toggl application as follows:
 
@@ -33,7 +33,7 @@ Prepare the Toggl application as follows:
 2.  Create a time entry, which you will use later to test the connection. In the entry, specify its description.
 3.  On your profile page, copy the API token, which is located at the bottom of the page.
 
-## Step 2: Creating a Webhook Handler { .section}
+## Step 2: Creating a Webhook Handler
 
 To create a webhook handler, do the following:
 
@@ -130,7 +130,7 @@ To create a webhook handler, do the following:
 
 3.  Build the project. The DLL file of the extension library is available in the `Bin` folder of your Acumatica ERP instance.
 
-## Step 3: Registering the Webhook { .section}
+## Step 3: Registering the Webhook
 
 To register the webhook, do the following:
 
@@ -147,7 +147,7 @@ To register the webhook, do the following:
     ```
 
 
-## Step 4: Saving the Webhook to a Customization Project { .section}
+## Step 4: Saving the Webhook to a Customization Project
 
 To simplify the deployment of a created webhook in another environment, add the created webhook and the DLL file of the extension library to the customization project by doing the following:
 
@@ -155,7 +155,7 @@ To simplify the deployment of a created webhook in another environment, add the 
 2.  Add the *TogglWebhook* webhook to the customization project. For details about adding to a customization project, see [Webhooks in a Customization Project](IntegrationDev_Webhooks_GeneralInfo.md#_384c7952-eba3-4109-924f-ba44994867d4).
 3.  Add the DLL file of the extension library as a *File* item to the customization project as specified in [To Add a Custom File to a Project](../CustomizationPlatform/CG_GL_Items_Files_Adding.md).
 
-## Step 5: Preparing the External Application { .section}
+## Step 5: Preparing the External Application
 
 Because the Toggl application cannot interact using HTTP, you will use the Zapier application to connect the Toggl application and Acumatica ERP. To prepare the Zapier application, do the following:
 
@@ -172,7 +172,7 @@ Because the Toggl application cannot interact using HTTP, you will use the Zapie
     3.  Make sure that the test request is completed successfully.
 4.  Publish the created zap and turn it on.
 
-## Step 6: Testing the Webhook { .section}
+## Step 6: Testing the Webhook
 
 To test the webhook that you have created, do the following:
 
@@ -185,7 +185,6 @@ To test the webhook that you have created, do the following:
 
     The request contains the body in JSON format with the time entry details, as shown in the following screenshot.
 
-    ![](Images/activity_IntegrationDev_Webhooks.png "Request details")
 
 
 **Parent topic:**[Configuring Webhooks](../IntegrationDevelopmentGuide/IntegrationDev_Webhooks_Mapref.md)

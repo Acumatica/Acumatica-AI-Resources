@@ -1,4 +1,4 @@
-# Use of the PXPanel Container {#_664a1925-03f2-41c2-a35a-348fb7738580 .concept}
+# Use of the PXPanel Container
 
 PXPanel is a container that provides an independent set of controls on the form and is used to define complex layouts. A PXPanel container has no DataMember property and cannot be independently bound to a data view. The panel can display only fields from the data view to which the parent form or tab control is bound. The panel is used only for defining blocks of controls within a form. You can add layout rules to the panel to arrange the controls within the container.
 

@@ -1,4 +1,4 @@
-# Designing the Layout of an Acumatica ERP Form {#_ee6d5764-87af-4a3f-97b7-1d3dda3b217e .concept}
+# Designing the Layout of an Acumatica ERP Form
 
 This part provides instructions on organizing the layout of an Acumatica ERP form.
 

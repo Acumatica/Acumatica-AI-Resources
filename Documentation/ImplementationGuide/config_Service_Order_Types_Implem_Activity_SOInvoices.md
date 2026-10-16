@@ -1,14 +1,14 @@
-# Service Order Types for Inventory Sales Without Shipping: To Create a Service Order Type {#_2c951ca0-f5c9-4844-950e-42f5ddbc1382 .task}
+# Service Order Types for Inventory Sales Without Shipping: To Create a Service Order Type
 
 In this implementation activity, you will learn how to create a service order type for service orders and appointments where sales invoices are generated as billing documents. When billing is run for a document of this type, the system creates a sales invoice that can include both services and inventory items that do not require shipping.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Service and Equipment Sales Center provides the juicer maintenance and repair services to its customers. Along with these services, the company also sells stock items. Acting as an administrative user, you need to create a service order type for service orders and appointments that include services and may also include stock items; these service orders and appointments will be billed by using sales invoices.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -19,11 +19,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, the *Inventory and Order Management* and *Inventory* features have been enabled.
 -   On the [Order Types](../UserGuide/SO_20_10_00.md) \(SO201000\) form, the predefined *SO* order type has been modified to be used with field services functionality. That is, the **Enable Field Services Integration** check box has been selected in the **Field Services Settings** section on the **General** tab of the form.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will use the [Service Order Types](../UserGuide/FS_20_23_00.md) \(FS202300\) form to create a service order type for service orders and appointments that will be billed using sales invoices.
 
-## System Preparation {#section_p5h_vgy_1hc .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -31,7 +31,7 @@ Before you start this activity, do the following:
 2.  On the Company and Branch Selection menu in the top pane of the Acumatica ERP screen, select the Service and Equipment Sales Center branch.
 3.  Make sure that the *Service Management* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md#) \(CS100000\) form.
 
-## Step: Creating the Service Order Type { .section}
+## Step: Creating the Service Order Type
 
 To create a service order type for service orders and appointments that generate sales invoices as billing documents, follow these steps:
 

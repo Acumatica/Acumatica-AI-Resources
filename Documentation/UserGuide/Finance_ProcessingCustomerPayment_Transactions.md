@@ -1,4 +1,4 @@
-# Payments with Write-Offs: Generated Transactions {#_e0f0286b-1d36-4672-9cec-3301818de596 .concept}
+# Payments with Write-Offs: Generated Transactions
 
 When you release a payment, its application, and a write-off \(if applicable\), the system generates a GL transaction to update the involved asset accounts with the journal entries related to the payment.
 

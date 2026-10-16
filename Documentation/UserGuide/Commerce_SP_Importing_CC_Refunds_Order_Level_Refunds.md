@@ -1,8 +1,8 @@
-# Importing Card Refunds: Order-Level Refunds {#_02da9cb0-9c1e-40a3-8197-161647bee64b .concept}
+# Importing Card Refunds: Order-Level Refunds
 
 An order-level refund may be issued, for example, if a customer has been overcharged or is not content with the quality of the product or service and needs to be partially reimbursed.
 
-## Import of Order-Level Refunds for Not-Yet-Shipped Orders { .section}
+## Import of Order-Level Refunds for Not-Yet-Shipped Orders
 
 During the import of refunds on order amounts, if the original sales order has not been shipped \(that is, it has the *Open* or *On Hold* status on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form\), the system does the following:
 
@@ -11,9 +11,8 @@ During the import of refunds on order amounts, if the original sales order has n
 
 The following diagram illustrates the processing of an order-level refund for a card-based payment method that is issued before the sales order has been shipped.
 
-![](Images/diag_Shopify_Refund_Online_NotShipped_NoReturn.png)
 
-## Import of Order-Level Refunds for Shipped Orders { .section}
+## Import of Order-Level Refunds for Shipped Orders
 
 If the original sales order has been fully shipped \(that is, it has the *Completed* status on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form\), the following actions occur when an order-level refund is being imported to Acumatica ERP:
 
@@ -23,7 +22,6 @@ If the original sales order has been fully shipped \(that is, it has the *Comple
 
 The following diagram illustrates the processing of an order-level refund for a card-based payment method that is issued after the sales order has been shipped.
 
-![](Images/diag_Shopify_Refund_Online_Shipped_NoReturn.png)
 
 **Parent topic:**[Importing Card Refunds](../UserGuide/Commerce_SP_Importing_CC_Refunds_Mapref.md)
 

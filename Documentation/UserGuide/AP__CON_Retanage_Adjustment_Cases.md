@@ -1,8 +1,8 @@
-# AP Retainage Adjustment Cases {#_b71b86ba-1317-4681-a182-23d45162b24d .concept}
+# AP Retainage Adjustment Cases
 
 In this topic, you will read about the cases when you may need to adjust retainage amounts, correct released retainage, and revert incorrect retainage documents. The following sections describe each case, the actions that should be taken, and the resulting documents that will be generated in the system.
 
-## 1. Retainage Amount Should be Increased { .section}
+## 1. Retainage Amount Should be Increased
 
 Suppose that a $1,000 AP bill \(original bill\) has been released. The retained amount is $100 and the bill amount is $900. The retainage has not been released, that is, no retainage document has been created. This bill should be corrected as follows: the bill amount should be decreased to $850, the retainage amount should be increased to $150, and the total amount is the same \($1,000\).
 
@@ -31,7 +31,7 @@ After you have performed the instructions, the system will generate the followin
     -   **Original Retainage** \(**Retainage** tab\): *150*
     -   **Unpaid Retainage**: \(**Retainage** tab\): *150*
 
-## 2. Retainage Amount Should be Decreased { .section}
+## 2. Retainage Amount Should be Decreased
 
 Suppose that a $1,000 AP bill \(original bill\) has been released. The retained amount is $100 and the bill amount is $900. The retainage has not been released, that is, no retainage document has been created. This bill should be corrected as follows: the bill amount should be increased to $950, the retainage amount should be decreased to $50, and the total amount is the same \($1,000\).
 
@@ -60,7 +60,7 @@ After you have performed the instructions, the system will generate the followin
     -   **Original Retainage** \(**Retainage** tab\): *50*
     -   **Unpaid Retainage**: \(**Retainage** tab\): *50*
 
-## 3. Retainage Amount Should be Adjusted for an Unreleased Retainage Bill { .section}
+## 3. Retainage Amount Should be Adjusted for an Unreleased Retainage Bill
 
 Suppose that an original bill has been created correctly but you have released a greater or lower retainage amount. In other words, you released the retainage on the [Release AP Retainage](AP_51_00_00.md) \(AP510000\) form and the system created a retainage document on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. This retainage document has an incorrect amount, but it has not yet been released.
 
@@ -75,7 +75,7 @@ To adjust the retainage amount, you perform the following general instructions:
 
 Because the retainage document has not been released yet, the **Unreleased Retainage** box on the **Retainage** tab of the [Bills and Adjustments](AP_30_10_00.md) form remains unchanged for the original bill.
 
-## 4. Retainage Amount Should be Increased for a Released Retainage Bill { .section}
+## 4. Retainage Amount Should be Increased for a Released Retainage Bill
 
 Suppose that a $1,000 AP bill \(original bill\) has been released. The retained amount is $100 and the bill amount is $900. The retainage document has been released but its amount is $90.
 
@@ -123,7 +123,7 @@ If you have performed scenario 2, the system will generate the following documen
     -   **Balance**: *10*
     -   **Original Document** \(**Financial** tab\): The reference number of the original bill with retainage
 
-## 5. Retainage Amount Should be Decreased for a Released Retainage Bill { .section}
+## 5. Retainage Amount Should be Decreased for a Released Retainage Bill
 
 Suppose that a $1,000 AP bill \(original bill\) has been released. The retained amount is $100 and the bill amount is $900. You needed to release $30 of the retainage, but you released $60 by mistake. The 60$ retainage bill has also been released.
 
@@ -151,7 +151,7 @@ After you have performed the instructions, the system will generate the followin
     -   **Balance**: *30*
     -   **Original Document** \(**Financial** tab\): The reference number of the original bill with retainage
 
-## 6. The Retainage is Released for the Wrong Bill but the Retainage Document Has Not Been Released { .section}
+## 6. The Retainage is Released for the Wrong Bill but the Retainage Document Has Not Been Released
 
 Suppose that a $1,200 AP bill \(original bill\) has been released. The retained amount is $100 and the bill amount is $1,100. You released the retained amount of $100, but the retainage document is still in the *On Hold* status. After you generated the retainage document, you realized that you released retainage for the wrong bill.
 
@@ -167,7 +167,7 @@ To correct the mistake and release retainage for the correct bill, you perform t
 
 Because the retainage document has not been released yet, the **Unreleased Retainage** box on the **Retainage** tab of the [Bills and Adjustments](AP_30_10_00.md) form remains unchanged for the original bill.
 
-## 7. The Retainage is Released for the Wrong Bill and the Retainage Document Has Been Released { .section}
+## 7. The Retainage is Released for the Wrong Bill and the Retainage Document Has Been Released
 
 Suppose that a $1,200 AP bill \(original bill\) has been released. The retained amount is $100 and the bill amount is $1,100. You released the retained amount of $100 and released the generated $100 retainage document. After you released the retainage document, you realized that you released retainage for the wrong bill.
 

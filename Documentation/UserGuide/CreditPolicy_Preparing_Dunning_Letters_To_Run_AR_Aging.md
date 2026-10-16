@@ -1,14 +1,14 @@
-# Preparation of Dunning Letters: To Run the AR Aging Report {#_25e3800a-c3a2-4ac8-b8cb-2aed1cc511dd .task}
+# Preparation of Dunning Letters: To Run the AR Aging Report
 
 The following activity will walk you through the process of running the AR Aging report.
 
-## Story {#section_lf2_hjv_vxb .section}
+## Story
 
 Suppose that the Credit Control team of SweetLife Fruits &amp; Jams starts its operation with finding out which customer accounts are overdue. The team lead runs the AR Aging report to see which invoices are still open, the balances of unpaid invoices, and how long the invoices have been outstanding.
 
 Acting as Yona Jones, you need to run the [AR Aging](AR_63_10_00.md) \(AR631000\) report for local customers of the *DEFAULT* customer class and analyze this information with the team.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -16,11 +16,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Statement Cycles](AR_20_28_00.md) \(AR202800\) form, the *EOM \(End of Month\)* statement cycle has been created.
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, for customers of the *DEFAULT* customer class, the *EOM* cycle has been selected in the **Statement Cycle ID** box on the **Financial** tab.
 
-## Process Overview {#section_of2_hjv_vxb .section}
+## Process Overview
 
 In this activity, you will run a report on the [AR Aging](AR_63_10_00.md) \(AR631000\) form for the customers of the *DEFAULT* customer class, and review the list of past-due amounts for these customers.
 
-## System Preparation {#section_qf2_hjv_vxb .section}
+## System Preparation
 
 Before you begin running the AR Aging report, do the following:
 
@@ -28,7 +28,7 @@ Before you begin running the AR Aging report, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business Date menu button, and select *1/31/2026* on the calendar.
 3.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step: Running the AR Aging Report {#section_sf2_hjv_vxb .section}
+## Step: Running the AR Aging Report
 
 To run the [AR Aging](AR_63_10_00.md) \(AR631000\) report, do the following:
 

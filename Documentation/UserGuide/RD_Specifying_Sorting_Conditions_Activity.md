@@ -1,18 +1,18 @@
-# Data Sorting and Grouping: To Specify Sorting Conditions {#_e47458b2-5469-40f9-982c-f632f01956c6 .task}
+# Data Sorting and Grouping: To Specify Sorting Conditions
 
 In the following activity, you will specify the sort order for the data in a report.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_krh_4db_2fc .section}
+## Story
 
 Suppose that you are a technical specialist in your company who is working on customizations. An accountant of your company has requested a report that displays the AP batch register. You have offered the predefined [AP Batch Register Detailed](AP_62_10_00.md) \(AP621000\) report, but the sales manager has requested that the data be sorted by batch number in descending order and by debit amount in ascending order.
 
-## Process Overview {#section_lrh_4db_2fc .section}
+## Process Overview
 
 In the Report Designer, you will open the `AP6210C1.RPX` report, which is a copy of the [AR Batch Register Detailed](AR_62_10_00.md) \(AP621000\) report. Then you will find the sections of the data for sorting. You will add the sorting condition for the data in the `detailSection1` section and change the sort order in the existing `group1` group. In the Schema Builder, on the **Sorting and Grouping** tab, you will review the changes that you have made on the **Properties** tab of the Properties pane.
 
-## System Preparation {#section_mrh_4db_2fc .section}
+## System Preparation
 
 Before you perform the steps of this activity, make sure that the following tasks have been performed:
 
@@ -33,7 +33,7 @@ Also, to prepare for use the file that is intended for this activity, do the fol
     The report is saved on the server.
 
 
-## Step 1 \(Optional\): Looking for the Report Sections of the Data for Sorting {#section_orh_4db_2fc .section}
+## Step 1 \(Optional\): Looking for the Report Sections of the Data for Sorting
 
 This step is not required if you understand in which sections the data for sorting is located.
 
@@ -59,22 +59,20 @@ To find the sections in which the needed data—that is, the batch number and st
     Notice that different sections of the report have different colors. The stock item description has a yellow background because it is located in `detailSection1`. The batch number has a green background because it is located in `group1`. Based on this information, you can make a conclusion about the sections in which you need to sort data. You will need to sort data in the `group1` group by batch number \(the *Batch.BatchNbr* field\) and in the `detailSection1` section by debit amount \(*GLTran.DebitAmt* field\).
 
 
-## Step 2: Specifying the Sort Order for the Data Group {#section_rrh_4db_2fc .section}
+## Step 2: Specifying the Sort Order for the Data Group
 
 To specify the sort order for the `group1` data group, do the following:
 
-1.  While you are viewing the *AP6210C1* report in the Report Designer, in the top left corner of the Design pane, click the ![](Images/Defining_the_Data_Groups_for_a_Report_Using_FiltersReportSelectionIcon.PNG) icon.
 2.  In the Properties pane, to the right of the **Data** &gt; **Groups** property, click the More button.
 3.  In the Group Collection Editor, which opens with the only `group1` group selected in the **Members** pane, in the right pane \(**group1 properties**\), to the right of the **Behavior** &gt; **Grouping** property, click the More button.
 4.  In the GroupExp Collection Editor, which opens, in the **Members** pane, select the second member \(its **Misc** &gt; **DataField** property is *Batch.BatchNbr*\). In the **Misc** &gt; **SortOrder** property, select *Descending*.
 5.  Click **OK** to save your changes and close the GroupExp Collection Editor.
 6.  Click **OK** to close the Group Collection Editor.
 
-## Step 3: Specifying the Sort Order for the Report Data {#section_srh_4db_2fc .section}
+## Step 3: Specifying the Sort Order for the Report Data
 
 To specify the sort order for the data in the report, while you are still working with the *AP6210C1* report in the Report Designer, do the following:
 
-1.  In the top left corner of the Design pane, click the ![](Images/Defining_the_Data_Groups_for_a_Report_Using_FiltersReportSelectionIcon.PNG) icon to select the report.
 2.  In the Properties pane, to the right of the **Data** &gt; **Sorting** property, click the More button.
 3.  In the SortExp Collection Editor, which opens, click the **Add** button to add the new criteria for sorting.
 4.  In the right pane of the SortExp Collection Editor, in the **Misc** &gt; **DataField** property, select *GLTran.DebitAmt*. This field will be used to sort the data in the report.
@@ -82,13 +80,12 @@ To specify the sort order for the data in the report, while you are still workin
 6.  Click **OK** to save your changes and close the SortExp Collection Editor.
 7.  In the Report Designer window toolbar, click **Save**.
 
-## Step 4: Reviewing the Sorting and Grouping Settings in the Schema Builder {#section_trh_4db_2fc .section}
+## Step 4: Reviewing the Sorting and Grouping Settings in the Schema Builder
 
 While you are still working with the *AP6210C1* report in the Report Designer, click **File** &gt; **Build Schema**. In the Schema Builder, which opens, open the **Sorting And Grouping** tab. Make sure that the settings on this tab are the same as those that you have specified in the Properties pane of Report Designer. The settings in the Schema Builder are shown in the following screenshot.
 
-![](Images/RD_SchemaBuilder_SortingAndGrouping.png "Sorting and grouping settings for the AP6210C1 report in the Schema Builder")
 
-## Step 5: Viewing the Report {#section_urh_4db_2fc .section}
+## Step 5: Viewing the Report
 
 To view the report, do the following:
 
@@ -101,7 +98,6 @@ To view the report, do the following:
 
 Make sure that the report is sorted by batch number in descending order \(see Item 1 in the following screenshot\), and by debit amount in each batch in ascending order \(Item 2\). The following screenshot displays one of the report pages.
 
-![](Images/RD_sorting_AP_batch_register.png "Sample page of the S150 AP Batch Register Detailed (AP6210C1) report")
 
 **Parent topic:**[Sorting and Grouping Data](../UserGuide/RD_Sorting_and_Grouping_Mapref.md)
 

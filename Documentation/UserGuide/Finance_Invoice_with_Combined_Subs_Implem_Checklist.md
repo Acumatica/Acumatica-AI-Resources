@@ -1,4 +1,4 @@
-# Invoice with Combined Subaccounts: Implementation Checklist {#_31b75319-26fd-4b11-9bd4-7630d70bbadc .concept}
+# Invoice with Combined Subaccounts: Implementation Checklist
 
 To ensure that the system has been configured properly for the processing of AR invoices, make sure that the criteria listed in the table have been met in the system as described.
 
@@ -11,7 +11,7 @@ To ensure that the system has been configured properly for the processing of AR 
 |[Customers](AR_30_30_00.md) \(AR303000\)|Be sure that the customer accounts have been defined for the customers for which you will create AR invoices.| |
 |[Non-Stock Items](IN_20_20_00.md) \(IN202000\), [Stock Items](IN_20_25_00.md) \(IN202500\)|Verify the existence of the non-stock items or stock items \(or both\) that will be used when you are creating AR invoices. For details, see [Non-Stock Item: Implementation Activity](Non_Stock_Item_Fin_Implem_Activity.md).| |
 
-## Settings That Affect the Workflow {#_11630ec1-c6dd-45e6-a9fc-89ac8354929a .section}
+## Settings That Affect the Workflow
 
 For a streamlined workflow of processing AR invoices, we recommend that you specify various settings related to the general ledger and to accounts receivable.
 

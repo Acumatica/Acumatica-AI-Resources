@@ -1,8 +1,8 @@
-# Preparation for Configuration of Restriction Groups {#_b4a8b4d0-55d1-4aad-ac3d-c0f902ef152b .concept}
+# Preparation for Configuration of Restriction Groups
 
 Before you start configuring restriction groups, you need to gather the information that will help you to plan your restriction groups, as described in this topic.
 
-## Preparation for the Configuration of Restriction Groups { .section}
+## Preparation for the Configuration of Restriction Groups
 
 Before you create and configure restriction groups, you need to do the following for each visibility-related task you want to resolve:
 

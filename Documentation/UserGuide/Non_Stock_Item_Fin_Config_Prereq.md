@@ -1,8 +1,8 @@
-# Non-Stock Item: Configuration Prerequisites {#_418f0b2a-ad7f-48ef-bcfc-9bb6657f732f .concept}
+# Non-Stock Item: Configuration Prerequisites
 
 Before you start configuring a non-stock item, you need to configure the entities that will ease the processes of non-stock item creation and maintenance.
 
-## Settings Required to be Configured {#section_tdm_4jv_vxb .section}
+## Settings Required to be Configured
 
 -   You need to perform the task of minimum system configuration. For details, see [Accounts Receivable: General Information](../ImplementationGuide/config_AR_GeneralInfo.md).
 -   Make sure that the *Inventory and Order Management* group of features has been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. Non-stock items can also be created for a system in which the *Inventory and Order Management* features are disabled.

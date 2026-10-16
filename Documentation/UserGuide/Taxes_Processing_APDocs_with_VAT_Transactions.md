@@ -1,8 +1,8 @@
-# AP Documents with VAT: Generated Transactions {#_27dc3e8d-f2ae-42f9-886c-0f7fa483af69 .concept}
+# AP Documents with VAT: Generated Transactions
 
 As you process AP documents with VATs, you create and process an AP bill and a debit adjustment. To update vendor balances, the system generates the GL transactions described in the following sections.
 
-## Transaction Generated for an AP Bill {#section_xql_fjv_vxb .section}
+## Transaction Generated for an AP Bill
 
 When you create and release an AP bill, the system generates the following general ledger transaction:
 
@@ -14,7 +14,7 @@ When you create and release an AP bill, the system generates the following gener
 
 You can view the reference number of the GL batch **Financial** tab of the [Bills and Adjustments](AP_30_10_00.md) form.
 
-## Transaction Generated for a Debit Adjustment {#section_arl_fjv_vxb .section}
+## Transaction Generated for a Debit Adjustment
 
 When you create and release a debit adjustment, the system generates the following general ledger transaction:
 

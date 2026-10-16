@@ -1,8 +1,8 @@
-# Form Layout: Predefined Templates {#_df37e247-9176-46fe-b326-f1af81e5c547 .concept}
+# Form Layout: Predefined Templates
 
 You can use predefined templates to control the layout of areas of an Acumatica ERP form. Templates automatically adjust based on screen width and resolution.
 
-## Overview of Templates { .section}
+## Overview of Templates
 
 You specify a template by using the qp-template tag with the following required attributes:
 
@@ -22,11 +22,11 @@ For example, the `7-10-7` template has three slots:
 
 To use qp-template, you need to distribute the UI controls among the available slots by using the slot attribute. In each slot, controls are rendered vertically. The slots are referred to by names, such as A, B, and C. You can apply the slot attribute to any element, such as qp-fieldset, qp-grid, or div. If a template contains multiple slots, you can distribute controls between only some of them. For example, if a template contains three slots, you may use only two of them; any unused slot remains empty.
 
-## Template Usage Example {#section_rlc_sgr_tfc .section}
+## Template Usage Example
 
 The following example uses the `7-10-7` template.
 
-``` {#codeblock_i3j_sgr_tfc .language-xml}
+```xml
 <qp-template id="formDocument" name="7-10-7" wg-container>
   <qp-fieldset id="fsColumnA" slot="A" view.bind="Document">
     <field name="OrderType"></field>
@@ -58,7 +58,7 @@ The following example uses the `7-10-7` template.
 </qp-template>
 ```
 
-## Template Selection Guide { .section}
+## Template Selection Guide
 
 We recommend choosing the template and label size based on the form type, as specified in the following table.
 
@@ -85,65 +85,124 @@ If the Summary area of a form should include two slots of elements:
 -   Use `17-7` or `2-1` if you want to put a grid in the first slot and a fieldset in the second or if `1-1` is not wide enough due to longer elements in the first slot.
 -   Use `7-17` or `1-2` if you want to put a fieldset in the first slot and a grid in the second or if `1-1` isn’t wide enough due to very long elements in the second slot.
 
-## Available Templates { .section}
+## Available Templates
 
 See the following table to learn more about the available templates.
 
-|Template|Description|
-|--------|-----------|
-|`17-17-14`|Three slots—the third with short elements.![](Images/UIDev_DesigningLayout_Templates_base-17-17-14.png)
+<table id="_80723870-b7af-4b91-acb8-608182721e77"><thead><tr><th>
 
-|
-|`17-14-17`|Shows three slots; the second has shorter elements than the first and third do.![](Images/UIDev_DesigningLayout_Templates_base-17-14-17.png)
+Template
 
-|
-|`14-17-17`|Shows three slots; the first has shorter elements than the second and third do.![](Images/UIDev_DesigningLayout_Templates_base-14-17-17.png)
+</th><th>
 
-|
-|`17-31`|Shows two slots; the first has shorter elements than the second does.![](Images/UIDev_DesigningLayout_Templates_base-17-31.png)
+Description
 
-|
-|`7-10-7`|Shows three slots; the second includes long elements.![](Images/UIDev_DesigningLayout_Templates_base-7-10-7.png)
+</th></tr></thead><tbody><tr><td>
 
-|
-|`10-7-7`|Shows three slots; the first includes long elements.![](Images/UIDev_DesigningLayout_Templates_base-10-7-7.png)
+`17-17-14`
 
-|
-|`17-7`|Shows two slots; the first includes long elements.![](Images/UIDev_DesigningLayout_Templates_base-17-7.png)
+</td><td>
 
-|
-|`7-17`|Shows two slots; the second includes long elements.![](Images/UIDev_DesigningLayout_Templates_base-7-17.png)
 
-|
-|`1-1-1`|Shows three slots with similar lengths of elements.![](Images/UIDev_DesigningLayout_Templates_base-1-1-1.png)
+</td></tr><tr><td>
 
-|
-|`2-1`|Shows two slots; the first includes long elements.![](Images/UIDev_DesigningLayout_Templates_base-2-1.png)
+`17-14-17`
 
-|
-|`1-2`|Shows two slots; the second includes long elements.![](Images/UIDev_DesigningLayout_Templates_base-1-2.png)
+</td><td>
 
-|
-|`1-1`|Shows two slots with similar lengths of elements.![](Images/UIDev_DesigningLayout_Templates_base-1-1.png)
 
-|
-|`1`|Shows one slot with long elements.![](Images/UIDev_DesigningLayout_Templates_base-1.png)
+</td></tr><tr><td>
 
-|
+`14-17-17`
 
-## Comparison of Templates { .section}
+</td><td>
+
+
+</td></tr><tr><td>
+
+`17-31`
+
+</td><td>
+
+
+</td></tr><tr><td>
+
+`7-10-7`
+
+</td><td>
+
+
+</td></tr><tr><td>
+
+`10-7-7`
+
+</td><td>
+
+
+</td></tr><tr><td>
+
+`17-7`
+
+</td><td>
+
+
+</td></tr><tr><td>
+
+`7-17`
+
+</td><td>
+
+
+</td></tr><tr><td>
+
+`1-1-1`
+
+</td><td>
+
+
+</td></tr><tr><td>
+
+`2-1`
+
+</td><td>
+
+
+</td></tr><tr><td>
+
+`1-2`
+
+</td><td>
+
+
+</td></tr><tr><td>
+
+`1-1`
+
+</td><td>
+
+
+</td></tr><tr><td>
+
+`1`
+
+</td><td>
+
+
+</td></tr></tbody>
+</table>
+
+## Comparison of Templates
 
 The following diagram compares the widths of the slots in templates.
 
-![](Images/UIDev_DesigningLayout_Templates_Comparison.png)
 
-## The Forth Slot \(Column\) in the Template {#section_znj_c1v_djc .section}
+## The Forth Slot \(Column\) in the Template
 
 All predefined templates can display up to three slots. Currently, the Modern UI does not support an ability to define custom templates. If you need to add a forth slot to the template, for example, for custom fields, you can use one of the following approaches:
 
 -   Insert the "1-1" qp-template tag inside one of the slots.
 
-    ``` {#codeblock_i15_n1v_djc}
+    ```
     <qp-template name=“7-10-7”>
       <qp-template id=“.." slot="B" name="1-1" class="equal-height label-size-s">
         <qp-fieldset id=“.." slot="A" view.bind="Item">
@@ -159,7 +218,7 @@ All predefined templates can display up to three slots. Currently, the Modern UI
 
 -   Insert two span tags with the col-6 class each.
 
-    ``` {#codeblock_ucc_41v_djc}
+    ```
     <field ...>
       <span class="col-6">
         <qp-field>...

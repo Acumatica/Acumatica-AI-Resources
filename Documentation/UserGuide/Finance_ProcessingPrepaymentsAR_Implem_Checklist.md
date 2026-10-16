@@ -1,4 +1,4 @@
-# Invoice Prepayments: Implementation Checklist {#_b4a4b53b-141a-4b4e-9aca-222b74a4ecd4 .concept}
+# Invoice Prepayments: Implementation Checklist
 
 To ensure that the system has been configured properly for the processing of prepayments, make sure that the criteria listed in the table have been met in the system as described.
 
@@ -7,7 +7,7 @@ To ensure that the system has been configured properly for the processing of pre
 |[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)|Make sure the minimal features have been enabled, as described in [Company Without Branches: General Information](../ImplementationGuide/config_Basic_Company_GeneralInfo.md), [Company with Branches that Do Not Require Balancing: General Information](../ImplementationGuide/config_Company_with_Branches_No_Balancing_GeneralInfo.md), and [Company with Branches that Require Balancing: General Information](../ImplementationGuide/config_Company_with_Branches_with_Balancing_GeneralInfo.md).| |
 |[Customers](AR_30_30_00.md) \(AR303000\)|Be sure that the customer accounts for the customers for which you will create and process prepayments have been defined.| |
 
-## Settings That Affect the Workflow {#section_pfp_4jv_vxb .section}
+## Settings That Affect the Workflow
 
 In general, you use accounts receivable forms specifically for sales made on credit. The following settings and entities should be specified and defined, respectively:
 

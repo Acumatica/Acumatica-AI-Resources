@@ -1,10 +1,9 @@
-# Label: A Single Label for Multiple Controls {#_9347a807-e89b-4475-a048-e18061c3d243 .concept}
+# Label: A Single Label for Multiple Controls
 
 You can add a single label for multiple controls.
 
 Suppose that you need to display a single label for two text boxes and both of these text boxes need to have equal widths, as shown in the following screenshot.
 
-![](Images/UIDevRef_Label_MultipleControls.png "A single label for two boxes")
 
 In the HTML template, you need to do the following:
 

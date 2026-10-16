@@ -1,10 +1,10 @@
-# Customization Project with UI Changes: Custom Plugin {#_3a29e929-f15d-47a2-922b-c4a9aee83bad .concept}
+# Customization Project with UI Changes: Custom Plugin
 
 You can implement a custom plugin by using TypeScript and HTML. To apply it to your instance, the plugin files need to be included into your customization and published to the instance. To include the plugin files into the customization project, do the following:
 
 1.  Create a folder for your plugin files in the `development` folder of your instance. An example for the `giftCard` folder is shown below.
 
-    ``` {#codeblock_fgw_g4r_t3c}
+    ```
     FrontendSources/screen/src/development/plugins/giftCard
     ```
 

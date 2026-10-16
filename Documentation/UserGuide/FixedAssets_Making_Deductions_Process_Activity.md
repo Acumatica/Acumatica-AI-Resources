@@ -1,12 +1,12 @@
-# Deductions from Assets: Process Activity {#_c12b6957-8234-417a-b761-476a8dc30fe7 .task}
+# Deductions from Assets: Process Activity
 
 The following activity will walk you through the process of making a deduction from a fixed asset.
 
-## Story {#section_yyd_ljv_vxb .section}
+## Story
 
 Suppose that on April 5, 2026, SweetLife Fruits &amp; Jams received a credit memo of $1,375 from Frontsource, Ltd., which gave SweetLife a large discount on materials purchased in March. The accountant of SweetLife decided to process $850 of this amount as a deduction from the roof repair cost. Acting as the SweetLife accountant, you need to create a debit adjustment and make a deduction from the asset.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -15,11 +15,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Fixed Assets Preferences](FA_10_10_00.md) \(FA101000\) form \(**Posting Settings** section\), the **Automatically Release Acquisition Transactions** check box has been selected.
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *FRONTSRC* vendor has been configured.
 
-## Process Overview {#section_bzd_ljv_vxb .section}
+## Process Overview
 
 In this activity, you will create and release a debit adjustment on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. On the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form, you will make a deduction from the *Roof repair \(Head Office building\)* asset. On the **Transactions** tab, you will review the transactions created for the deduction, and on the **Balance** tab, you will review the updated current cost of the asset.
 
-## System Preparation {#section_dzd_ljv_vxb .section}
+## System Preparation
 
 Before you begin making a deduction from a fixed asset, do the following:
 
@@ -29,7 +29,7 @@ Before you begin making a deduction from a fixed asset, do the following:
 4.  Make sure that you have entered an addition to the roof repair materials by converting a purchase by performing the [Additions to Assets: To Make an Addition by Converting a Purchase](FixedAssets_Making_Additions_To_Convert_a_Purchase.md) prerequisite activity.
 5.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step 1: Creating a Debit Adjustment {#section_fzd_ljv_vxb .section}
+## Step 1: Creating a Debit Adjustment
 
 To create and release a debit adjustment, do the following:
 
@@ -47,7 +47,7 @@ To create and release a debit adjustment, do the following:
     -   **Account**: *62950 \(Repairs\)*
 4.  On the form toolbar, click **Remove Hold**, and then click **Release** to release the debit adjustment.
 
-## Step 2: Making a Deduction {#section_hzd_ljv_vxb .section}
+## Step 2: Making a Deduction
 
 To make a deduction from the roof repair asset, do the following:
 
@@ -60,7 +60,6 @@ To make a deduction from the roof repair asset, do the following:
 3.  Select the unlabeled check box in the row with the original amount of $1,375 posted to the *62950* account.
 4.  In the **Selected Amount** column, enter `850`, as shown in the following screenshot.
 
-    ![](Images/activity_FA_Making_Deductions_Deduction.png "Selection of the line to be processed as a deduction")
 
 5.  On the table toolbar, click **Process** to process the deduction.
 6.  On the form toolbar, click **Save** to save the created transactions.

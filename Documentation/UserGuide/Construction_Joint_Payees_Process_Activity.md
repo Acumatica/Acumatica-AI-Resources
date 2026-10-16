@@ -1,18 +1,18 @@
-# Joint Payments: Process Activity {#_160880eb-2f5b-42ce-890d-d7b8c50944c5 .task}
+# Joint Payments: Process Activity
 
 This activity will walk you through the process of paying joint payees.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that a storm broke windows in the hotel that the ToadGreen company is building for its customer, Equity Group Investor. The ToadGreen project manager has decided to hire the Acme Doors &amp; Glass vendor to handle the replacement of the broken windows, the disposal of waste, and the cleaning of the area. In turn, Acme Doors &amp; Glass has hired the Standard Hardware Company and Conwaste subcontractors to dispose of the waste and clean the area. On *1/30/2026*, the subcontractors have performed part of the work and requested a first payment. Acting as the ToadGreen project manager, you need to process all of the documents involved in paying the companies for this part of the work, including joint payment.
 
-## Process Overview { .section}
+## Process Overview
 
 To make a joint payment, you will first create an AP bill for the provided work on the [Bills and Adjustments](AP_30_10_00.md#) \(AP301000\) form; you will add joint payees to it and specify the joint payment amounts. Then you will create and process a payment for this bill on the [Checks and Payments](AP_30_20_00.md#) \(AP302000\) form.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -24,14 +24,14 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Projects](PM_30_10_00.md#) \(PM301000\) form, the *HOTEL* project has been created with multiple project tasks, including the *02 - SITEWORK* project task.
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *WDISMANT*, *WDISPOS*, and *WCLEAN* items have been created.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as a project manager by using the *ewatson* username and the *123* password.
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Processing a Joint Bill { .section}
+## Step 1: Processing a Joint Bill
 
 To create a bill for joint payees, do the following:
 
@@ -62,7 +62,7 @@ To create a bill for joint payees, do the following:
 
 4.  On the form toolbar, click **Remove Hold**, and then click **Release**.
 
-## Step 2: Processing a Joint Payment { .section}
+## Step 2: Processing a Joint Payment
 
 To create and process a joint payment, do the following:
 
@@ -81,7 +81,6 @@ To create and process a joint payment, do the following:
 7.  On the [Release Payments](AP_50_52_00.md#) form, make sure that the unlabeled check boxes are selected for all three payments, and on the form toolbar, click **Process** to release the payments.
 8.  On the [Bills and Adjustments](AP_30_10_00.md#) form, open the bill to *ACMEDO* for which you have processed the payment, and review the **Joint Amount Application** tab, as shown below.
 
-    ![](Images/activity_Construction_Joint_Payees.png "Joint payments prepared for the bill")
 
 
 You have prepared joint payments and partially paid the bill.

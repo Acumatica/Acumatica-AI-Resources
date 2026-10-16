@@ -1,14 +1,14 @@
-# Test Instance for Workflow Customization: To Configure the Instance {#_65347f66-8c3d-4a64-9f6f-3ecbd796727e .task}
+# Test Instance for Workflow Customization: To Configure the Instance
 
 Based on the [Customization Description](WorkflowAPI_CustomizationStory_CustomizationDescription.md), you need to configure the instance to be able to test the logic you implement while completing the activities in this guide.
 
-## Story { .section}
+## Story
 
 In the Smart Fix company, there are no shipments or sales orders associated with repair work orders. Therefore, you need to configure Acumatica ERP so that during the creation of an SO invoice on the [Invoices](../Shared/../UserGuide/SO_30_30_00.md) \(SO303000\) form, stock items can be added directly to the SO invoice without sales orders and shipments being processed.
 
 After you perform the customization tasks, you will be testing your changes, including the **Create Invoice** button or command \(which corresponds to the `CreateInvoice` action that you will create\) of the Repair Work Orders \(RS301000\) form. If you click the button multiple times during testing, you may run into an issue with insufficient stock items in a warehouse. When an SO invoice is released, the quantity of stock items included in the invoice is checked, and if there are not enough stock items in a warehouse, an invoice cannot be created. You need to prevent this issue from occurring.
 
-## Process Overview { .section}
+## Process Overview
 
 You will enable the *Advanced SO Invoices* feature on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form to make it possible to process repair work orders.
 
@@ -16,7 +16,7 @@ On the [Item Classes](../UserGuide/IN_20_10_00.md) \(IN201000\) form, you will a
 
 You will also specify accounts receivable preferences.
 
-## Step 1: Turning on the Feature { .section}
+## Step 1: Turning on the Feature
 
 To turn on the feature, on the [Enable/Disable Features](../Shared/../UserGuide/CS_10_00_00.md) \(CS100000\) form, do the following:
 
@@ -24,15 +24,15 @@ To turn on the feature, on the [Enable/Disable Features](../Shared/../UserGuide/
 2.  Select the **Advanced SO Invoices** check box.
 3.  Click **Enable** on the form toolbar.
 
-## Step 2: Allowing Negative Quantities for Stock Items { .section}
+## Step 2: Allowing Negative Quantities for Stock Items
 
 To allow negative quantities for stock items, do the following:
 
-1.  On the [Item Classes](../Shared/../UserGuide/IN_20_10_00.md) \(IN201000\) form, in the **Class ID** box, select *STOCKITEM*. All the stock items used in the activities of this guide belong to this class.
+1.  On the [Item Classes](../Shared/../UserGuide/IN_20_10_00.md) \(IN201000\) form, in the **Class ID** box, select *STOCKITEM*. All the stock items used in the activities of this guide belong to this class.All the stock items used in the activities of this training course belong to this class.
 2.  On the **General** tab \(**General Settings** section\), select the **Allow Negative Quantity** check box.
 3.  On the form toolbar, click **Save**.
 
-## Step 3: Specifying Accounts Receivable Preferences { .section}
+## Step 3: Specifying Accounts Receivable Preferences
 
 Specify accounts receivable preferences as follows:
 

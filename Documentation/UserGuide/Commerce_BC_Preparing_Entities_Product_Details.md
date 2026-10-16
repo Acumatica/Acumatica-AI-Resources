@@ -1,4 +1,4 @@
-# Preparing Entities for Synchronization: Updating Product Details {#_eff072cf-0c05-48e4-a322-39018b91fc4b .concept}
+# Preparing Entities for Synchronization: Updating Product Details
 
 Before you export stock items and non-stock items to the online store, you might want to specify commerce-related settings that are specific to a particular product or specify commerce-related information.
 

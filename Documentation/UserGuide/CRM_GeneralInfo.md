@@ -1,4 +1,4 @@
-# CRM: General Information {#_d99a3c7c-ece8-4683-b350-0b0b8482def0 .concept}
+# CRM: General Information
 
 Customer relationship management \(CRM\) functionality helps companies manage their interactions with current and potential customers to effectively identify and address their target audience’s needs and build a strong relationship with their customers.
 
@@ -6,7 +6,7 @@ Acumatica ERP delivers tools that provide marketing, sales, and customer support
 
 You can easily customize the CRM functionality to fit your company’s business goals, ensure higher profitability, and streamline your marketing, sales, and customer support processes.
 
-## Overview of Marketing Processes {#_b5bb63b6-03fe-4ca6-8e34-9931cffd5e61 .section}
+## Overview of Marketing Processes
 
 Marketing functionality in Acumatica ERP helps marketing teams acquire, manage, and qualify leads, handle marketing lists and marketing subscriptions, manage marketing campaigns, and generate marketing reports.
 
@@ -22,7 +22,7 @@ As marketing personnel process leads, the following stages may be involved:
 -   Analyzing the marketing results and the performance of the marketing team by generating reports. For details, see [Managing Marketing Reports](CRM_Marketing_Metrics_Mapref.md).
 -   Managing relations between a record you are working with and the records that are related to it. For details, see [Managing Relations](CRM_Managing_Relations_Mapref.md).
 
-## Overview of Sales Processes {#_aa3f5b63-a379-428f-a866-bb6c6d72862b .section}
+## Overview of Sales Processes
 
 The sales functionality in Acumatica ERP helps sales teams do the following:
 
@@ -44,7 +44,7 @@ As sales personnel process leads and customers, the following stages may be invo
 -   Analyzing the sales results and the performance of the sales team by generating reports. For details, see [Managing Opportunity Reports](CRM_Sales_Metrics_Mapref.md).
 -   Managing relations between a record you are working with and the records that are related to it. For details, see [Managing Relations](CRM_Managing_Relations_Mapref.md).
 
-## Overview of Customer Support Processes { .section}
+## Overview of Customer Support Processes
 
 The customer support functionality in Acumatica ERP gives you the ability to track support cases \(tickets\) until they are resolved. The communication with your customer can begin when the customer sends your support team an email, calls customer support, or creates a new case on the Acumatica Self-Service Portal.
 

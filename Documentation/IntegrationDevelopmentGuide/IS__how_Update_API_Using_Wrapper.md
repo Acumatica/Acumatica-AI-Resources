@@ -1,8 +1,8 @@
-# To Update a Client Application that Uses Screen-Based Web Services {#_ff8e6867-8860-4eb4-a828-06e50bcb71e9 .task}
+# To Update a Client Application that Uses Screen-Based Web Services
 
 Acumatica ERP is the client application that uses screen-based web services. Before you update your Acumatica ERP instance, we recommend that you follow the procedure described in this topic. It can help to prevent application failures and omit the regeneration of the WSDL description for each change of the user interface of the system.
 
-## To Update a Client Application that Uses Screen-Based Web Services { .section}
+## To Update a Client Application that Uses Screen-Based Web Services
 
 To prevent application failures with the update to a newer version of Acumatica ERP, which is the client application using screen-based web services, perform the following steps before you install the update:
 

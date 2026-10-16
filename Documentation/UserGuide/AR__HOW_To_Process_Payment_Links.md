@@ -1,10 +1,10 @@
-# To Process Payment Links {#_eae0bef6-19c7-475c-b946-b7016d2e0e7f .task}
+# To Process Payment Links
 
 Once a payment link for an AR document or sales invoice has been created, you can synchronize it and resend it to the customer. Once a payment link for a sales order has been created, you can synchronize, resend, or close it.
 
 During the synchronization and closure of payment links, the system will receive all payments made by using the payment link, create and apply the payments in Acumatica ERP, and then send the updated sales order or invoice, or close the payment link.
 
-## To Synchronize a Payment Link { .section}
+## To Synchronize a Payment Link
 
 To synchronize a payment link for an AR document, sales invoice, or sales order, do the following:
 
@@ -17,7 +17,7 @@ To synchronize a payment link for an AR document, sales invoice, or sales order,
     **Tip:** You can instead use the [Process Payment Links](AR_51_35_00.md) \(AR513500\) form for mass synchronization or for scheduling this process.
 
 
-## To Resend a Payment Link { .section}
+## To Resend a Payment Link
 
 You can resend a payment link to a customer if the **Link Delivery Method** is set to *Email* on the [Customer Classes](AR_20_10_00.md) \(AR201000\) form for the customer class and the customer has a valid email address specified on the **Billing** tab \(**Bill-To Info** section\) of the [Customers](AR_30_30_00.md) \(AR303000\) form.
 
@@ -30,7 +30,7 @@ To resend a payment link to a customer, do the following:
     The system resends the payment link to the customer's email address.
 
 
-## To Close a Payment Link { .section}
+## To Close a Payment Link
 
 To close a payment link for a sales order, do the following:
 

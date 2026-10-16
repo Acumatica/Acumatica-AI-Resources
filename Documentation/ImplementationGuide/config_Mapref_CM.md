@@ -1,4 +1,4 @@
-# Implementing Currency Management {#_59d8b6a4-fc87-44e8-a3a6-d971eef04254 .concept}
+# Implementing Currency Management
 
 This part of the guide explains how to implement multicurrency accounting in Acumatica ERP.
 

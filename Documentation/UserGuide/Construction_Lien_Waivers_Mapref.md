@@ -1,4 +1,4 @@
-# Processing Lien Waivers {#_e4e8008c-b5ad-402a-872f-fac60024be73 .concept}
+# Processing Lien Waivers
 
 In this chapter, you will find information on how to automate generation of lien waivers for your projects.
 

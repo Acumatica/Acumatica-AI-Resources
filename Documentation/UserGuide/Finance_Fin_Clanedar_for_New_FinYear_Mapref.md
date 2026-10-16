@@ -1,4 +1,4 @@
-# Generating a Financial Calendar {#_0865c0a0-2df3-42ac-8ac8-d6f0dc02f4ad .concept}
+# Generating a Financial Calendar
 
 In this chapter, you will find general information on how to generate financial calendars, a checklist for system implementation, and an activity that describes how to generate a financial calendar for a new financial year.
 

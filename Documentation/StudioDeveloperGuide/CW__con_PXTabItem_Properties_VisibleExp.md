@@ -1,11 +1,11 @@
-# Conditional Hiding of a Tab Item {#_5e6701bc-1107-42f8-b9c6-9c5a586bc6ab .concept}
+# Conditional Hiding of a Tab Item
 
 You can use the Visible property of the PXTabItem element to set the visibility of the tab item. However, if you need to set the dependency of a tab item's visibility from a condition, you should use one of the following approaches:
 
 -   Set the AllowSelect property of PXCache of the data view in a RowSelected event handler.
 -   Use the VisibleExp and BindingContext properties of the PXTabItem element.
 
-## Using AllowSelect { .section}
+## Using AllowSelect
 
 In a RowSelected event handler, you can configure the AllowSelect property of PXCache of the data view that corresponds to the tab item. In ASPX, you also need to set the RepaintOnDemand property of PXTabItem to `False`.
 
@@ -22,7 +22,7 @@ protected virtual void ARInvoice_RowSelected(PXCache cache, PXRowSelectedEventAr
 }
 ```
 
-## Using VisibleExp { .section}
+## Using VisibleExp
 
 The VisibleExp property contains a condition expression that defines a Boolean value used to set the visibility of the tab item. The expression must consist of two parts and an operator to compare these parts. The expression can contain the values of controls that belong to the container specified in the BindingContext property.
 

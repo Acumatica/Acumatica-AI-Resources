@@ -1,8 +1,8 @@
-# Troubleshooting Performance in Import and Export Scenarios {#_b6f6300a-f1ea-488f-ba46-70db879f553a .concept}
+# Troubleshooting Performance in Import and Export Scenarios
 
 When you are importing or exporting a large number of records by using an import scenario, data processing can take a rather long time. You can use the ways described in this topic to speed up the processing of import and export scenarios.
 
-## Parallel Processing of Import Scenarios { .section}
+## Parallel Processing of Import Scenarios
 
 In Acumatica ERP, data import by using an import scenario can be sped up if you enable parallel execution of the scenario. The parallel processing of an import scenario by the system can be especially useful for data migration during the initial implementation of the system.
 
@@ -12,7 +12,7 @@ If parallel processing is enabled for an import scenario, during the execution o
 
 **Tip:** The **Break on Error** and **Break on Incorrect Target** check boxes become unavailable if the **Parallel Processing** check box is selected.
 
-## Removal of Unnecessary Commits in Import Scenarios { .section}
+## Removal of Unnecessary Commits in Import Scenarios
 
 When the system imports records to Acumatica ERP, it performs a commit to the server for all fields with the **Commit** check box selected on the **Mapping** tab of the [Import Scenarios](../Shared/../UserGuide/SM_20_60_25.md) \(SM206025\) form; these commits take excessive server time. When you create the mapping of an import scenario, the system selects the **Commit** check box automatically for the key fields and the fields other fields depend on.
 
@@ -28,7 +28,7 @@ To optimize the performance of an import scenario, you can clear the **Commit** 
     You can clear the **Commit** check box for the fields that cause other fields on the form to be updated; in this case, the system will perform an update of these fields when it saves the imported record.
 
 
-## Ways to Speed Export Scenarios { .section}
+## Ways to Speed Export Scenarios
 
 To speed data export, you can perform the following steps, which are listed in the order in which we recommend you try them:
 

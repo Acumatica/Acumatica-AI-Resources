@@ -1,4 +1,4 @@
-# Customizing a Multitenant Instance {#_f3f4a889-2f8a-433f-8974-3f94f90aa96b .concept}
+# Customizing a Multitenant Instance
 
 In this chapter, you will learn how to customize an Acumatica ERP instance with multiple tenants.
 

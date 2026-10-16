@@ -1,14 +1,14 @@
-# Configuring Production Cost Drivers: Implementation Activity {#_c1604cdc-a0d1-4df7-82e0-97c53bafd053 .task}
+# Configuring Production Cost Drivers: Implementation Activity
 
 In the following implementation activity, you will learn how to create tools, machines, overhead entities, and labor codes, which are production cost drivers—that is, they determine the cost of the final products.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Fruits &amp; Jams has decided to assemble customized juicers according to customers' needs. For accurate calculating of the cost of the juicer, the material costs, machine costs, tool costs, labor costs, and overhead costs must be considered. In the assembly process, such tools as a screwdriver and a hammer are used. For producing small plastic parts, the injection molding machine is used. Two workers are involved in the juicer assembly. The administrative costs, payroll costs, and floor setup costs must be included in the cost of the juicers as well.
 
 As an implementation manager, you need to create records for a machine, tools, overhead, and labor codes so that these costs are included in the cost of the juicers. The costs for the components used in juicers have been specified when the stock items for these components were created in the system, so you will not specify these costs in this activity.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 The following entities, which you will use in this activity, have been predefined in the *U100* dataset:
 
@@ -21,7 +21,7 @@ The following entities, which you will use in this activity, have been predefine
     -   *51150, Accrued COGS - Variable Overhead Costs*
 -   On the [Work Calendar](../UserGuide/CS_20_90_00.md) \(CS209000\) form, the *MAIN* work calendar
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -30,14 +30,14 @@ In this activity, you will do the following:
 3.  On the [Tools](../UserGuide/AM_20_55_00.md) \(AM205500\) form, create tools for a screwdriver and hammer
 4.  On the [Machines](../UserGuide/AM_20_45_00.md) \(AM204500\) form, create a record for the injection molding machine
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating the needed entities in the system, do the following:
 
 1.  As a prerequisite to the current activity, complete [System Preparation for Manufacturing Implementation: Implementation Activity](config_MFG_General_Settings_Implem_Activity.md) so that the needed settings have been made in a company with the *U100* dataset preloaded.
 2.  Sign in to this company \(in which the prerequisite activity has been performed\) as a system administrator with the *gibbs* username and *123* password.
 
-## Step 1: Creating Labor Codes { .section}
+## Step 1: Creating Labor Codes
 
 To create labor codes for direct and indirect labor expenses, do the following:
 
@@ -56,7 +56,7 @@ To create labor codes for direct and indirect labor expenses, do the following:
     -   **Overhead Account**: *51150*
 5.  On the form toolbar, click **Save**.
 
-## Step 2: Creating Overhead Entities { .section}
+## Step 2: Creating Overhead Entities
 
 To create overhead entities for administrative costs, payroll costs, and floor setup costs, do the following:
 
@@ -82,7 +82,7 @@ To create overhead entities for administrative costs, payroll costs, and floor s
     -   **Account**: *51150*
 6.  On the form toolbar, click **Save**.
 
-## Step 3: Creating Tools { .section}
+## Step 3: Creating Tools
 
 To create tools for the screwdriver and hammer that will be used in the juicer assembly process, do the following:
 
@@ -110,7 +110,7 @@ To create tools for the screwdriver and hammer that will be used in the juicer a
 9.  In the **Account Settings** section, select *51070* in the **Account** box.
 10. On the form toolbar, click **Save**.
 
-## Step 4: Creating a Machine { .section}
+## Step 4: Creating a Machine
 
 You will create a record for the injection molding machine with the standard cost of $25 per hour and 100% efficiency. The machine will work during the standard working hours. Do the following:
 

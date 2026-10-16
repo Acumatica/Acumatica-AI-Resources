@@ -1,18 +1,18 @@
-# Advanced Filters: To Create a Personal Filter Based on a Shared Filter {#_9897f0fc-5fde-4b61-a72f-1d7c041c2cda .task}
+# Advanced Filters: To Create a Personal Filter Based on a Shared Filter
 
 In this activity, you will learn how to create a personal advance filter based on a shared advanced filter.
 
-## Story { .section}
+## Story
 
 Suppose that you are an accountant in your company. Some time ago, a set of shared filters was configured for the Invoices and Memos \(AR3010PL\) generic inquiry form,which is a list of records.
 
 Further suppose that you are responsible for tracking the open credit memos for the current year. The generic inquiry has no filter you can use to quickly view these documents, so you have decided to create a personal filter and define it as your default filter, to streamline your work.
 
-## Process Overview { .section}
+## Process Overview
 
 On the Invoices and Memos \(AR3010PL\) generic inquiry form, you will copy the **Current Quarter** filter and modify it to suit your needs.
 
-## System Preparation { .section}
+## System Preparation
 
 1.  Launch the Acumatica ERP website, and sign in to a tenant with the *U100* dataset preloaded as system administrator Kimberly Gibbs. You should sign in by using the *gibbs* username and the *123* password.
 
@@ -20,7 +20,7 @@ On the Invoices and Memos \(AR3010PL\) generic inquiry form, you will copy the *
 
 2.  Complete the [Advanced Filters: To Create Advanced Shared Filters](GI_Reusable_Filters_Creating_Shared_Reusable_Filter_Activity.md) activity.
 
-## Step: Creating a Personal Filter by Copying a Shared Filter { .section}
+## Step: Creating a Personal Filter by Copying a Shared Filter
 
 To create an advanced personal filter, do the following:
 
@@ -49,7 +49,6 @@ To create an advanced personal filter, do the following:
     -   **Value**: *Open*
     Below you can see the updated settings of the *Open Memos for Current Year* filter.
 
-    ![](Images/GI_Reusable_Filters_FPD_Filter_Clause_OpenMemos.png "The updated settings of the Open Memos for Current Year filter")
 
 10. Click **Apply**, which closes the dialog box.
 11. In the filtering area, click **Save Filter**.

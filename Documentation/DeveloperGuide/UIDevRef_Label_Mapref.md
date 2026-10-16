@@ -1,4 +1,4 @@
-# Label {#_e88f8b0b-c295-4628-b347-5ae1977b5a56 .concept}
+# Label
 
 In this chapter, you will learn about the configuration of labels. You'll learn when to use labels and how to organize a layout that includes them.
 

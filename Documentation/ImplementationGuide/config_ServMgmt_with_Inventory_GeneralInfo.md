@@ -1,8 +1,8 @@
-# Basic Service Management Configuration: General Information {#_0ce82bef-9eba-4e75-a0a4-06fbc78346cf .concept}
+# Basic Service Management Configuration: General Information
 
 This topic provides a general overview of the configuration steps required before you can start using service management in Acumatica ERP. The minimum setup is needed if your company plans to create service orders, schedule appointments, manage staff attending those appointments, and sell services \(and possibly stock items\).
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to set up the basic service management functionality. Specifically, you will:
 
@@ -10,7 +10,7 @@ In this chapter, you will learn how to set up the basic service management funct
 -   Enable the needed system features
 -   Review the minimum required settings for the service management functionality
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure the service management functionality in the following cases:
 
@@ -18,7 +18,7 @@ You configure the service management functionality in the following cases:
 -   You need to set up service management in an existing, fully functioning environment.
 -   You want to optionally include sales of inventory items as part of field service delivery.
 
-## Prerequisites { .section}
+## Prerequisites
 
 To prepare the system for the implementation of service management, you perform the following general steps:
 
@@ -28,7 +28,7 @@ To prepare the system for the implementation of service management, you perform 
 
 2.  You complete the initial system configuration and implement the minimum general ledger functionality. The service management functionality can be tightly integrated with other Acumatica ERP functional areas, including general ledger, accounts payable, and organization structure. These areas do not require any change in their configuration when service management is implemented. For details about performing the initial system configuration, see [Company Without Branches](config_Basic_Company_Mapref.md), [Company with Branches that Do Not Require Balancing: General Information](config_Company_with_Branches_No_Balancing_GeneralInfo.md), or [Company with Branches that Require Balancing](config_Company_with_Branches_with_Balacing_Mapref.md) \(depending on your company's structure\).
 
-## Workflow of the Implementation of Service Management { .section}
+## Workflow of the Implementation of Service Management
 
 To prepare the system for service management functionality, you first perform the following general steps, which are described in this lesson:
 

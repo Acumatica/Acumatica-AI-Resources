@@ -1,4 +1,4 @@
-# To Use a Button to Invoke a Method {#_16bf4602-b474-4cb4-8394-de9b09d5adab .concept}
+# To Use a Button to Invoke a Method
 
 You can use the PXButton element on a form to invoke a method of the graph that provides business logic for the form.
 

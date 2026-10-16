@@ -1,14 +1,14 @@
-# Allocation Rules: To Create an Allocation Rule Based on Budget Data {#_96f5a424-3d92-40e6-8d8c-d46f8fb5f12a .task}
+# Allocation Rules: To Create an Allocation Rule Based on Budget Data
 
 In this activity, you will learn how to create an allocation rule in which amounts are distributed based on budget data among accounts and subaccounts.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company pays the Christmas bonus to its employees. The amount budgeted for the 2026 bonus is $18,000.00. At the end of each period, an accountant needs to accrue the budgeted bonus expenses for each department proportionally to the monthly salary.
 
 Acting as an administrator, you need to define an allocation rule based on budget data.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed for the purposes of this activity:
 
@@ -21,11 +21,11 @@ In the *U100* dataset, the following tasks have been performed for the purposes 
 -   On the [Ledgers](../UserGuide/GL_20_15_00.md) \(GL201500\) form, *BUDGET* ledger has been defined.
 -   On the [Segmented Keys](../UserGuide/CS_20_20_00.md) \(CS202000\) form, the *SUBACCOUNT* segmented key has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Allocations](../UserGuide/GL_20_45_00.md) \(GL204500\) form \(**Allocation** tab\), you will specify the general settings for an allocation rule. Then on the **Source Accounts** and **Destination Accounts** tabs of this form, you will specify the accounts and subaccounts for the rule.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating the allocation rule, do the following:
 
@@ -33,7 +33,7 @@ Before you start creating the allocation rule, do the following:
 2.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 3.  Make sure that you have completed the following prerequisite activity to perform the needed configuration of subaccounts: [Subaccounts: Implementation Activity](config_Subaccounts_Implem_Activity.md).
 
-## Step 1: Specifying General Settings for an Allocation Rule Based on Budget Data { .section}
+## Step 1: Specifying General Settings for an Allocation Rule Based on Budget Data
 
 To begin creating an allocation rule that distributes amounts based on budget data, do the following:
 
@@ -66,7 +66,7 @@ To begin creating an allocation rule that distributes amounts based on budget da
 
 You have specified the general settings for the allocation rule; you will now proceed to specifying source and destination accounts and subaccounts for the rule.
 
-## Step 2: Specifying Accounts and Subaccounts for the Allocation Rule { .section}
+## Step 2: Specifying Accounts and Subaccounts for the Allocation Rule
 
 To specify the accounts for the rule, while remaining on the [Allocations](../UserGuide/GL_20_45_00.md) \(GL204500\) form, do the following:
 

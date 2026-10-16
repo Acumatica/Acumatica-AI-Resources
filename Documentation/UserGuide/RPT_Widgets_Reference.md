@@ -1,4 +1,4 @@
-# Specific Widgets: Widget Reference {#_d449434d-6665-476c-882e-19e1a1dae7af .concept}
+# Specific Widgets: Widget Reference
 
 Widget settings are described in the topics of this part for your convenience.
 

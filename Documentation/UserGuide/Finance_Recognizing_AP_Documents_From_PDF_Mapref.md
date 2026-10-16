@@ -1,4 +1,4 @@
-# Recognizing AP Documents from PDFs {#_e2f7eaf2-17dd-4517-b06e-9d8225d27113 .concept}
+# Recognizing AP Documents from PDFs
 
 With the digital document flow in place, your company receives invoices from vendors as PDF files attached to emails, and accountants have to manually enter AP bills based on those invoices into the system. The manual entry of these invoices is a time-consuming operation, and errors could be made during the manual entry.
 

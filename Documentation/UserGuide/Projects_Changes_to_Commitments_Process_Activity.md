@@ -1,8 +1,8 @@
-# Change Orders for Commitments: Process Activity {#_fb50755a-1813-46fd-9fe8-dfaccc21b137 .task}
+# Change Orders for Commitments: Process Activity
 
 In this activity, you will learn how you can track changes to project commitments with change orders.
 
-## Story { .section}
+## Story
 
 Suppose that the HM's Bakery and Cafe customer has ordered the services of installation and employee training on operating the previously bought juicer from the SweetLife Fruits &amp; Jams company. The project accountant of SweetLife has created the project in Acumatica ERP and ordered the following services from the Squeezo Inc. vendor:
 
@@ -18,7 +18,7 @@ The vendor has provided the services. Acting as the project accountant, you will
 
 Per the agreement with the vendor, you will adjust the provided services within the created purchase order and create a new purchase order for the feeder basket.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -31,11 +31,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *BASKET* stock item has been defined.
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *SQUEEZO* vendor has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create a purchase order on the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form. On the [Commitments](PM_30_60_00.md) \(PM306000\) form, you will review the commitments that the system has made to the project based on the purchase order. You will also review the corresponding committed values of the project budget on the [Projects](PM_30_10_00.md) \(PM301000\) form. On the [Change Orders](PM_30_80_00.md) \(PM308000\) form, you will create a change order to adjust the created commitments. You will then modify and process the created change order on the [Change Orders](PM_30_80_00.md) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
@@ -44,7 +44,7 @@ To sign in to the system and prepare to perform the instructions of the activity
 3.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 4.  Open the [Projects Preferences](PM_10_10_00.md) \(PM101000\) form, and on the **General** tab \(**General Settings** section\), select the **Internal Cost Commitment Tracking** check box to expose commitments and committed values in the project budget, and save your changes to the project accounting preferences.
 
-## Step 1: Creating Commitments for the Project { .section}
+## Step 1: Creating Commitments for the Project
 
 To create a purchase order for the project, which entails the creation of commitments, do the following:
 
@@ -68,7 +68,7 @@ To create a purchase order for the project, which entails the creation of commit
     -   The commitment with the *TRAINING* item and committed original and revised amounts of $320
 7.  On the [Projects](PM_30_10_00.md) \(PM301000\) form, open the *HMBAKERY12* project, and on the **Commitments** tab, notice that the project has only one related purchase order, which is the one you have just created. On the **Cost Budget** tab, review the original committed values and the revised committed values. Notice that the original committed quantity of each line equals the revised committed quantity \(8 for the *TRAINING* item and 3 for the *INSTALL* item\) and the original committed amount of each line equals the revised committed amount \($320 for the *TRAINING* item and $240 for the *INSTALL* item\).
 
-## Step 2: Changing the Project Commitments { .section}
+## Step 2: Changing the Project Commitments
 
 To change the project commitments by using a change order, do the following:
 
@@ -127,7 +127,6 @@ To change the project commitments by using a change order, do the following:
 
     The **Commitment Change Total** in the Summary area must be equal to $290, as shown below.
 
-    ![](Images/activity_Projects_CO_to_Commitments.png "Changes to project commitments")
 
 8.  On the form toolbar, click **Remove Hold** to assign the change order the *Open* status, and then click **Release** to release the change order.
 9.  On the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form, open the purchase order that you have prepared earlier in this activity, and review how the purchase order has been modified as follows:
@@ -138,7 +137,7 @@ To change the project commitments by using a change order, do the following:
 11. In the Summary area, review the description of the created purchase order, which contains the number of the change order that the purchase order is based on.
 12. On the **Details** tab, make sure that the order has a single line with the *BASKET* inventory item and a quantity of *1*. On the **Change Orders** tab, make sure that the corresponding change order line is displayed.
 
-## Step 3: Reviewing the Updated Commitments { .section}
+## Step 3: Reviewing the Updated Commitments
 
 To review the commitments that the system has updated based on the change order you have processed earlier in this activity, do the following:
 
@@ -147,7 +146,6 @@ To review the commitments that the system has updated based on the change order 
 
     Notice that the commitments that have been updated with the change order have nonzero **Committed CO Quantity** and **Committed CO Amount** values. The **Revised Committed Quantity** and **Revised Committed Amount** values of these commitments also differ from the **Original Committed Quantity** and **Original Committed Amount** values, respectively \(see below\).
 
-    ![](Images/activity_Projects_CO_to_Commitments2.png "Project commitments updated with the change order")
 
 3.  On the [Projects](PM_30_10_00.md) \(PM301000\) form, open the *HMBAKERY12* project, and on the **Cost Budget** tab, review the updated committed values of the cost budget lines.
 

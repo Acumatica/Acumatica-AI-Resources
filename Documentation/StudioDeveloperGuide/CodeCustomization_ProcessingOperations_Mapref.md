@@ -1,4 +1,4 @@
-# Implementing Processing Operations {#_b0c31590-0ef4-4f7a-996b-4e215bf4fca5 .concept}
+# Implementing Processing Operations
 
 In this chapter, you will learn how to implement processing operations, which are usually executed on processing forms.
 

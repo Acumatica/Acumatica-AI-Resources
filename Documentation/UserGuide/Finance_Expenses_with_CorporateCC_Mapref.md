@@ -1,4 +1,4 @@
-# Processing Payments with a Corporate Card {#_ce6f5a46-ddee-4e68-bf6b-a3cf59c8d24f .concept}
+# Processing Payments with a Corporate Card
 
 Acumatica ERP supports the use of corporate credit cards to pay expenses. In this chapter, you will learn how to set up this support in the system, process payments from a corporate credit card, and reconcile the credit card balance in the system.
 

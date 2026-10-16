@@ -1,4 +1,4 @@
-# To Open a Container in the Screen Editor {#_c145e876-7a6c-44d2-a112-f8bbb9bc751b .concept}
+# To Open a Container in the Screen Editor
 
 You perform the customization of a container by using the [Screen Editor](../UserGuide/AU_20_45_20.md). To open a container of an Acumatica ERP form in the editor, perform the following actions:
 

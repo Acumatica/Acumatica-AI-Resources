@@ -1,4 +1,4 @@
-# Processing Transactions with Subaccounts {#_b34ca912-ed4b-40f3-b977-114f9f879fc1 .concept}
+# Processing Transactions with Subaccounts
 
 In this chapter, you will find general information on how to create and post transactions to the general ledger if subaccounts have been configured in the system. The chapter also includes a checklist for system implementation, an activity that describes how to process a transaction in the system, and details of reports and inquiries that you can use to find and view created transactions and details of involved accounts.
 

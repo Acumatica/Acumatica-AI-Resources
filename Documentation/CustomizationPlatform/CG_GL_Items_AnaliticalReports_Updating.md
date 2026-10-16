@@ -1,4 +1,4 @@
-# To Update a Custom Analytical Report in a Project {#_86602eff-8ef0-48cd-93d1-43226ffc76b4 .concept}
+# To Update a Custom Analytical Report in a Project
 
 If you have used the [Report Definitions](../UserGuide/CS_20_60_00.md) \(CS206000\) form to change an analytical report included in a customization project, you have to update the appropriate item in the project. To do this, perform the following actions:
 

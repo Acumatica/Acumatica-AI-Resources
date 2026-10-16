@@ -1,4 +1,4 @@
-# Troubleshooting Acumatica Framework-Based Applications {#_171000fe-a5ab-4c1f-b61b-7b1f6b0eadcd .concept}
+# Troubleshooting Acumatica Framework-Based Applications
 
 In this part of the guide, you can find information about troubleshooting the applications based on Acumatica Framework.
 

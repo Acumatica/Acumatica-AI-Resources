@@ -1,18 +1,18 @@
-# To Add a Scanner to DeviceHub {#_238c80d3-8232-4828-89af-b6ff87e7ab7f .task}
+# To Add a Scanner to DeviceHub
 
 In the following implementation activity, you will learn how to add a scanner to DeviceHub.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you need to configure a scanner that will be used for scanning documents in your company.
 
-## Process Overview { .section}
+## Process Overview
 
 On the **Scanners** tab of the DeviceHub **Configuration** window, you will add a new scanner. Then you will sign in to an Acumatica ERP instance and update the list of scanners on the [Scanners](../UserGuide/SM_20_65_40.md) \(SM206540\) form. After that, you will specify the default scanner for your user account on the [User Profile](../UserGuide/SM_20_30_10.md) \(SM203010\) form and scan a document on the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start adding scanners to DeviceHub, you should do the following:
 
@@ -20,7 +20,7 @@ Before you start adding scanners to DeviceHub, you should do the following:
 -   Set the connection between DeviceHub and Acumatica ERP, as described in [DeviceHub: To Set Up the Connection Between DeviceHub and the Acumatica Instance](Devicehub_To_Set_Up_the_Connection_Implem_Activity.md).
 -   Configure the methods of retrieving scan jobs, as described in [DeviceHub: To Configure Methods of Retrieving Print and Scan Jobs](DeviceHub_To_Configure_Push_Notifications_Implem_Activity.md).
 
-## Step 1: Adding a Scanner to DeviceHub { .section}
+## Step 1: Adding a Scanner to DeviceHub
 
 To add a scanner in the DeviceHub application, do the following:
 
@@ -38,7 +38,7 @@ To add a scanner in the DeviceHub application, do the following:
 
 5.  Click **OK** to close the **Configuration** window.
 
-## Step 2: Updating the List of Scanners in Acumatica ERP { .section}
+## Step 2: Updating the List of Scanners in Acumatica ERP
 
 To update the list of scanners in Acumatica ERP, do the following:
 
@@ -50,7 +50,7 @@ To update the list of scanners in Acumatica ERP, do the following:
     **Note:** If the list has not been updated instantly, wait a moment and click **Refresh** again.
 
 
-## Step 3: Specifying the Default Scanner { .section}
+## Step 3: Specifying the Default Scanner
 
 Before you scan a document with DeviceHub, you can specify the scanner that will be used for scanning operations. To specify the default scanner, do the following:
 
@@ -58,7 +58,7 @@ Before you scan a document with DeviceHub, you can specify the scanner that will
 2.  On the **General Info** tab, select a scanner that you have added to DeviceHub in the **Default Scanner** box.
 3.  On the form toolbar, click **Save**.
 
-## Step 4: Scanning a Document { .section}
+## Step 4: Scanning a Document
 
 To scan a document with DeviceHub, do the following:
 
@@ -72,7 +72,7 @@ To scan a document with DeviceHub, do the following:
     The system creates a scan job and sends a push notification to DeviceHub. When the processing of the job is complete, the system attaches the scanned file to the document.
 
 
-## Step 5: Reviewing the List of Scan Jobs { .section}
+## Step 5: Reviewing the List of Scan Jobs
 
 To review the list of scan jobs, do the following:
 

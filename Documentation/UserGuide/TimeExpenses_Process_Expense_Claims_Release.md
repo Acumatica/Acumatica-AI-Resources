@@ -1,8 +1,8 @@
-# Expense Claims: Expense Claim Release {#_22614bb9-8200-43ab-989a-478cdd9b5f67 .concept}
+# Expense Claims: Expense Claim Release
 
 If the *Expense Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, a claim can be released if it has the *Approved* status.
 
-## Releasing of Expense Claims { .section}
+## Releasing of Expense Claims
 
 You can release expense claims in either of the following ways:
 
@@ -12,9 +12,18 @@ You can release expense claims in either of the following ways:
 
 -   On the [Expense Claims](EP_30_10_30.md) \(EP301030\) form, select the reference number of the approved expense claim that you want to release. Then click **Release** on the form toolbar to release it.
 
-When you release an expense claim, the system generates an accounts payable bill to reimburse the employee. If the financial period specified for the claim in the **Post to Period** box on the **Financial** tab of the [Expense Claim](EP_30_10_00.md) \(EP301000\) form is closed in the accounts payable subledger and posting to closed periods is not allowed, you need to specify an open period to be able to release the expense claim. If you do not, an error occurs during the release. The system posts the resulting bill to the selected period, which is also copied to the **Post Period** box on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form for the bill.
+When you release an expense claim, the system generates the applicable AP documents based on the option selected in the **Paid With** column for each claim line. For expenses paid with a personal account, the system generates an accounts payable bill to reimburse the employee. If the financial period specified for the claim in the **Post to Period** box on the **Financial** tab of the [Expense Claim](EP_30_10_00.md) \(EP301000\) form is closed in the accounts payable subledger and posting to closed periods is not allowed, you need to specify an open period to be able to release the expense claim. If you do not, an error occurs during the release. The system posts the resulting bill to the selected period, which is also copied to the **Post Period** box on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form for the bill.
 
-## Billing Expense Claims for Projects { .section}
+**Tip:**
+
+If a generated AP document \(cash purchase or bill\) contains a project-related line and an employee is specified as the vendor in the document, the system does not apply branch validation when releasing the AP document, provided that the following settings are specified on the [Projects Preferences](../Shared/../UserGuide/PM_10_10_00.md) \(PM101000\) form:
+
+-   **Branch in Project Documents**: *Use Project Branch*
+-   **Block Doc. Processing on Branch Mismatch**: Selected
+
+As a result, the generated AP document is released along with the expense claim even if the branch on the **Financial** tab of the [Expense Claim](../Shared/../UserGuide/EP_30_10_00.md) form differs from the project branch.
+
+## Billing Expense Claims for Projects
 
 If the employee has incurred the expenses while working on a project for a customer, you can bill the customer by using the [Bill Expense Claims](EP_50_20_00.md) \(EP502000\) form. In this case, the system generates an invoice for the customer in the same amount as the bill for employee reimbursement. On the [Bill Expense Claims](EP_50_20_00.md) form, each record relates to a single customer; thus, all unbilled claim lines that are marked as billable and have the same customer will be included in one invoice.
 

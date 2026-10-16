@@ -1,4 +1,4 @@
-# PayrollWCCCode {#_1766e674-3a84-4167-ad23-e931d7f65967 .concept}
+# PayrollWCCCode
 
 This chapter presents code examples showing requests that use the `PayrollWCCCode` entity.
 

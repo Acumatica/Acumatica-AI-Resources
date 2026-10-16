@@ -1,4 +1,4 @@
-# Transferring Fixed Assets {#_f1caa569-7fd7-4fac-9f9c-43323f1cedc6 .concept}
+# Transferring Fixed Assets
 
 In this chapter, you will find general information on how to transfer fixed assets, a checklist for system implementation, and an activity that describes how to transfer a fixed asset to another asset class and department.
 

@@ -1,10 +1,9 @@
-# Tab Item Container \(PXTabItem\) {#_035033e1-6d29-46d4-bdf9-55a1d7219349 .concept}
+# Tab Item Container \(PXTabItem\)
 
 PXTabItem is a container control that can be used to render a single record from the data source specified for the parent PXTab container.
 
 A tab item container, as the diagram below shows, can be included only in a PXTab container.
 
-![](images/CG_GL_Forms_ASPX_Containers_PXTabItem.png "Nesting rules for a PXTabItem container in an ASPX page")
 
 A tab item container can include multiple ASPX objects of the following types:
 

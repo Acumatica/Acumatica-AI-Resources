@@ -1,18 +1,18 @@
-# Automated Synchronization: To Turn On Real-Time Synchronization {#_c73fab3c-0495-403a-bf04-9a903e8a14dd .task}
+# Automated Synchronization: To Turn On Real-Time Synchronization
 
 In this activity, you will learn how to turn on real-time synchronization for an entity.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that as an implementation consultant helping SweetLife to set up integration with BigCommerce, you want to configure continuous synchronization of particular entities. As part of the setup, you need to turn on real-time synchronization of shipments so that they are exported to the BigCommerce store as soon as they are created or updated in Acumatica ERP.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will turn on real-time synchronization for the *Shipment* entity on the [Entities](BC_20_20_00.md) \(BC202000\) form so that the system immediately exports the changes in shipments to the BigCommerce store.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you perform the instructions of this activity, do the following:
 
@@ -23,7 +23,7 @@ Before you perform the instructions of this activity, do the following:
     -   **Username**: *gibbs*
     -   **Password**: *123*
 
-## Step: Enabling Real-Time Synchronization for Shipments { .section}
+## Step: Enabling Real-Time Synchronization for Shipments
 
 Perform the following instructions to enable real-time synchronization for shipments:
 

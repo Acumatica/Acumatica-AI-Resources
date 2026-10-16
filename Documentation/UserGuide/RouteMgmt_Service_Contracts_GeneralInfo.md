@@ -1,8 +1,8 @@
-# Route Service Contracts: General Information {#_6d43fb7f-62f5-487e-b6ce-6a7b729c0c38 .concept}
+# Route Service Contracts: General Information
 
 With Acumatica ERP's integrated route and service management capabilities, you can manage appointments associated with routes. Routes can be generated automatically from contracts or created manually for a specific day.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,11 +12,11 @@ In this chapter, you will learn how to do the following:
 -   Generate appointments for the service contract
 -   Find the generated route execution documents in the system and assign drivers and vehicles to them
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create and process a route service contract when you and the customer have agreed to the terms of regular deliveries of some inventory items.
 
-## Process Diagram { .section}
+## Process Diagram
 
 In general, when processing a route service contract, your employees perform the following steps:
 
@@ -34,7 +34,6 @@ In general, when processing a route service contract, your employees perform the
 
 The following diagram shows the general process related to route service contracts billed at the time of service.
 
-![](Images/diag_RouteMgmt_At_Time_of_Service_Route_Service_Contract.png "Processing of a route service contract billed at the time of service")
 
 **Parent topic:**[Managing Route Service Contracts](../UserGuide/RouteMgmt_Service_Contracts_Mapref.md)
 

@@ -1,8 +1,8 @@
-# To Enter an Invoice Order \(IN\) {#_09132427-7de3-4e42-b682-19ffafefb47f .task}
+# To Enter an Invoice Order \(IN\)
 
 You create an order of the predefined *IN* type to record a sale of stock items that have been already shipped to customer \(or customer picks them at the sale point\). You create an *IN* order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 
-## To Enter an Invoice Order { .section}
+## To Enter an Invoice Order
 
 1.  Open the [Sales Orders](../Shared/../UserGuide/SO_30_10_00.md) \(SO301000\) form.
 

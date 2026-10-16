@@ -1,4 +1,4 @@
-# Processing Project Issues {#_b859d216-8464-41f6-a630-d906666ac05a .concept}
+# Processing Project Issues
 
 In this chapter, you will learn about project issues, which are used for tracking and reporting on issues discovered on a construction site and which can result in a request for information or a change request.
 

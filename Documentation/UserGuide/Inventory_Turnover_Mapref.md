@@ -1,6 +1,6 @@
-# Calculating Inventory Turnover {#_ac68b7c0-33b5-4ddd-a835-380579613495 .concept}
+# Calculating Inventory Turnover
 
-The topics of this chapter explain what is the inventory turnover in Acumatica ERP. You will calculate the inventory turnover and filter the results of calculation to review the turnover details of a particular item.
+The topics of this chapter explain inventory turnover in Acumatica ERP. You’ll calculate inventory turnover and filter the results of calculation to review the turnover details of a particular item.
 
 -   **[Inventory Turnover: General Information](../UserGuide/OrderMgmt_Inventory_Turnover_GeneralInfo.md)**  
 

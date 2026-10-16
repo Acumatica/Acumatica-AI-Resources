@@ -1,10 +1,10 @@
-# Contract Functionality Implementation: General Information {#_28983a4b-8aa9-4dfa-8ffb-98b849897bab .concept}
+# Contract Functionality Implementation: General Information
 
 In Acumatica ERP, contracts reflect the binding agreements your organization has with its customers and the specific terms of these agreements. During the implementation process, you perform the initial system configuration, define the entities used in a contract, and enter the basic terms of each contract into Acumatica ERP.
 
 These initial tasks must be performed before you can implement the steps related to the fulfillment of a contract, such as setting it up, activating it, recording contract usage, billing the contract, changing the terms of the contract, renewing, or terminating the contract.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,11 +12,11 @@ In this chapter, you will learn how to do the following:
 -   Create contract items and contract templates
 -   Create preliminary contract drafts
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You perform the tasks involved in contract implementation if your company needs to create configurable contracts that reflect the services that your company regularly provides to customers.
 
-## Preparation for Contract Creation { .section}
+## Preparation for Contract Creation
 
 Before you create a contract, you need to perform the system configuration tasks and then create all the entities that will be used during the creation of contracts, such as non-stock items \(to represent specific services in the contract\), contract items, and contract templates.
 
@@ -39,7 +39,7 @@ After configuring the system, you create the main contract entities \(non-stock 
     For more information, see [Contract Template Creation: Contract Templates](Contracts_Configuring_Contract_Contract_Templates.md).
 
 
-## Creation of a Contract { .section}
+## Creation of a Contract
 
 After you have created the contract template, you create a contract. On the [Customer Contracts](CT_30_10_00.md) \(CT301000\) form, you select a template and a customer account. The system inserts the default settings provided by the selected template and customer account. Also, it assigns the *Draft* status to the newly created contract.
 
@@ -49,13 +49,12 @@ For step-by-step instructions on the initial creation of a contract, see [Contra
 
 After the contract has been created, it can then proceed to setup and activation, which are described in [Contract Setup and Activation: General Information](Contracts_Setting_Up_Contract_Setup_GeneralInfo.md).
 
-## Lifecycle of Contract Preparation and Management {#section_vv2_1y4_y4b .section}
+## Lifecycle of Contract Preparation and Management
 
 The following diagram shows the entire lifecycle of contract preparation and management. The implementation of contract management functionality is the earliest part of this lifecycle \(Items 1 through 3 in the diagram\).
 
-![](Images/diag_Contracts_ContractLifeCycle.png)
 
-## Fulfillment of the Contract { .section}
+## Fulfillment of the Contract
 
 After you have created a draft of the contract with appropriate conditions, you set up and activate the contract. These actions trigger the contract fulfillment process.
 
@@ -73,7 +72,7 @@ The fulfillment process of the contract includes mandatory steps:
 
 -   Contract fulfillment: During this stage, the customer obtains the services described in the contract, and billing is performed according to the terms defined in the contract and the contract items. For details, see [Contract Billing: General Information](Billing_Contracts_Contract_Billing_GeneralInfo.md) and [Contract Usage: Contract Usage](Billing_Contracts_Contract_Billing_ContractUsage.md).
 
-## Contract Upgrade and Renewal { .section}
+## Contract Upgrade and Renewal
 
 The contract upgrade and renewal processes let you modify or extend existing contracts. These processes are optional. This section outlines how the *Renewable*, *Expiring*, and *Unlimited* contract types behaves during contract fulfillment.
 
@@ -90,7 +89,7 @@ The three types of contracts are *Renewable*, *Expiring*, and *Unlimited*:
     For more information, see [Contract Management: Contract Renewal](Contracts_Setting_Up_Contract_Setup_ContractRenewal.md).
 
 
-## Contract Expiration and Termination { .section}
+## Contract Expiration and Termination
 
 The contract expiration and termination processes define how contracts end—either automatically at expiration or manually through termination. Expiration occurs when a contract reaches its end date, while termination can happen at any time when the parties decide to discontinue the agreement. These processes are optional.
 

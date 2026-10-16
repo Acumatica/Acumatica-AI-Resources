@@ -1,10 +1,10 @@
-# Post and Consolidation Account Settings {#_d91a2cb0-fd9c-44b7-a037-75505f130d9a .concept}
+# Post and Consolidation Account Settings
 
 On the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, you can specify optional settings for accounts \(in addition to the basic settings of account identifier, class, type, and description\). These optional account settings include the posting option and settings for consolidation units.
 
 In this topic, you will read about the optional settings of accounts.
 
-## Specifying the Post Option {#section_nx2_mjv_vxb .section}
+## Specifying the Post Option
 
 The post setting defines the level of the details that are posted to the account. By default, if you upload the chart of accounts to the system, the *Summary* posting option is set for each account in the **Post Option** column of the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form. With this option, amounts that are posted to the account \(and subaccount, if any\) are summarized. That is, if in a transaction, multiple rows specify the same account and branch \(if the *Multibranch Support* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form\), then in the General Ledger batch, these rows will be combined into one row with the summarized amount.
 
@@ -12,11 +12,11 @@ To post multiple amounts in a transaction to a selected account separately, you 
 
 **Attention:** If the **Post Summary on Updating GL** check box is cleared on the Preferences form of a particular module, the journal entries will be posted separately to the account, regardless of which option is specified for the account on the [Chart of Accounts](GL_20_25_00.md) form.
 
-## Specifying Consolidation Accounts {#section_rx2_mjv_vxb .section}
+## Specifying Consolidation Accounts
 
 If a company is a consolidation unit in a parent company, you need to map the company's accounts to parent company's accounts. To do so, in the **Consolidation Account** column of the [Chart of Accounts](GL_20_25_00.md) form, you specify the external General Ledger account from the parent company’s chart of accounts to which the balance of the account will be exported in the process of consolidation. This value is not validated by the system, and no input mask can be set for this column. For details on consolidations, see [GL Consolidation: Account Mapping](Finance_GL_Consolidation_Config_AccountMapping.md) and [GL Consolidation: To Prepare the Consolidation Unit](Finance_GL_Consolidation_To_Prepare_Consol_Unit.md).
 
-## Specifying Other Settings {#section_tx2_mjv_vxb .section}
+## Specifying Other Settings
 
 If needed, you can also do the following to specify other settings for an account on the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form:
 

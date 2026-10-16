@@ -1,14 +1,14 @@
-# Selling Matrix Items: To Import an Order with Matrix Items {#_5c7a6721-f60a-4c8d-a26d-c363674df278 .task}
+# Selling Matrix Items: To Import an Order with Matrix Items
 
 The following activity will walk you through the processes of purchasing product variants \(matrix items\) in the BigCommerce store and importing the sales order containing these products into Acumatica ERP.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Fruits and Jams sells juices \(which are defined in Acumatica ERP as matrix items based on the *JUICE* template item\) in its BigCommerce store. Acting as an implementation consultant helping SweetLife to set up the integration between Acumatica ERP and the BigCommerce store, you want to explore how online orders containing matrix items \(product variants\) are imported to Acumatica ERP and review the results of the import.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -16,7 +16,7 @@ In this activity, you will do the following:
 2.  On the [Prepare Data](BC_50_10_00.md) \(BC501000\) form, prepare the sales order data for synchronization; on the [Process Data](BC_50_15_00.md) \(BC501500\) form, process the prepared data.
 3.  On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, review the imported sales order.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you complete the instructions in this activity, do the following:
 
@@ -29,7 +29,7 @@ Before you complete the instructions in this activity, do the following:
     -   Sales prices of the matrix items based on the *JUICE* template item have been exported, as described in [Selling Matrix Items: To Export Base Prices](Commerce_BC_Selling_Matrix_Items_To_Export_Base_Prices.md).
 2.  Sign in to the control panel of the BigCommerce store as the store administrator.
 
-## Step 1: Creating an Order { .section}
+## Step 1: Creating an Order
 
 To create an order for 10 bottles of peach juice and 5 bottles of apple juice, while you are signed in to the control panel of the BigCommerce store, do the following:
 
@@ -68,7 +68,7 @@ To create an order for 10 bottles of peach juice and 5 bottles of apple juice, w
     2.  In the lower right, click **Save &amp; process payment**.
 6.  On the **View orders** page, which opens, make a note of the reference number of the created order.
 
-## Step 2: Importing the Sales Order { .section}
+## Step 2: Importing the Sales Order
 
 To import the order that you created to Acumatica ERP, do the following:
 
@@ -85,7 +85,7 @@ To import the order that you created to Acumatica ERP, do the following:
 7.  On the [Process Data](BC_50_15_00.md) \(BC501500\) form, which opens with the *SweetStore - BC* store and the *Sales Order* entity selected, select the unlabeled check box in the row of the order that you created in Step 1, and on the form toolbar, click **Process**.
 8.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 3: Reviewing the Imported Sales Order { .section}
+## Step 3: Reviewing the Imported Sales Order
 
 To review the details of the imported sales order, do the following:
 

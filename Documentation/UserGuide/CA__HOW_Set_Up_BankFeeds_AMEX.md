@@ -1,13 +1,13 @@
-# To Set Up Bank Feeds Loaded from an AMEX GL1025 File {#_2320685a-0595-4ba6-8012-877b8a87e06c .task}
+# To Set Up Bank Feeds Loaded from an AMEX GL1025 File
 
 You use the [Bank Feeds](CA_20_55_00.md) \(CA205500\) form to set up bank feeds that load bank transactions from an AMEX GL1025 file. On the same form, you connect to the SFTP folder where source files are stored and specify the mapping between the optional fields of the source file and the settings in Acumatica ERP.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 -   On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, make sure that the *Bank Feed Integration* and *AMEX GL1025 File Import for Bank Feeds* features are enabled.
 -   On the [Activate License](SM_20_15_10.md) \(SM201510\) form, make sure that the needed license is activated.
 
-## To Set Up a Bank Feed { .section}
+## To Set Up a Bank Feed
 
 1.  On the [Bank Feeds](CA_20_55_00.md) \(CA205500\) form, create a new record.
 2.  In the Summary area, specify the following settings:

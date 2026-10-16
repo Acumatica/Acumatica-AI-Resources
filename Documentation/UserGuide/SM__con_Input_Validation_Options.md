@@ -1,8 +1,8 @@
-# Managing Input Validation Options {#_9bec9bb3-3363-4649-948f-7a55e9c048a1 .concept}
+# Managing Input Validation Options
 
 Acumatica ERP provides a range of tools to control the format of passwords, user and object names, phone numbers, email addresses, and postal codes that are entered in the system. You can use *input masks* to implement restrictions to allow particular types of characters in certain positions of these entities. Also, you can use regular expressions to define specific requirements for text strings entered by a user.
 
-## Input Masks { .section}
+## Input Masks
 
 You create input masks by using the following symbols:
 
@@ -20,16 +20,23 @@ You can also use the following control symbols \(which are not placeholders\) to
 -   \\: Causes the next character to be displayed literally \(as it is\).
 -   "": Causes the characters within the quotation marks to be displayed literally.
 
-## Regular Expressions { .section}
+## Regular Expressions
 
 You can use standard syntax for regular expressions in Acumatica ERP. For more information on regular expressions, see the [Microsoft Software Developer Network](https://msdn.microsoft.com/en-us/library/ae5bf541(v=vs.100).aspx).
 
-## In This Chapter { .section}
+## In This Chapter
 
-|-   [Country, State, and Postal Code Validation](CS__con_CountryStatePostalCode_Validation.md)
+<table id="_e40a7408-8e91-40f5-9421-89e84f8554d4"><tbody><tr><td>
+
+-   [Country, State, and Postal Code Validation](CS__con_CountryStatePostalCode_Validation.md)
 -   [Examples of the Usage of Masks and Regular Expressions](CS__con_Examples_Mask_and_RegExp_Usage.md)
 
-| |
+</td><td>
+
+ 
+
+</td></tr></tbody>
+</table>
 
 -   **[Examples of the Usage of Masks and Regular Expressions](../UserGuide/CS__con_Examples_Mask_and_RegExp_Usage.md)**  
 

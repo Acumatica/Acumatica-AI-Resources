@@ -1,18 +1,18 @@
-# Processing Operations: General Information {#_18ee8457-e989-4bf0-a400-88c8fff3dfea .concept}
+# Processing Operations: General Information
 
 On a processing form, a user can invoke an operation to be performed on multiple selected records at once. For instance, a processing operation can be a procedure that modifies the status of documents.
 
 This topic describes how to implement a processing operation. For details about how to define the UI of a processing form, see [Processing Form: General Information](../DeveloperGuide/UIDev_ProcessingScreen_GeneralInfo.md).
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you'll learn how to implement processing operations, which are used on processing forms.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You implement a processing operation if you need to create a processing form.
 
-## Specifying the Processing Operation { .section}
+## Specifying the Processing Operation
 
 A processing operation is defined as a method that is invoked when a user clicks a processing button on the form toolbar of a processing form. You can specify the processing operation in one of the following ways:
 

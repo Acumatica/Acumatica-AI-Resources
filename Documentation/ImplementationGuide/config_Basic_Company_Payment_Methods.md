@@ -1,10 +1,10 @@
-# Cash Management: Payment Methods {#_69a90616-7eba-4c89-8c96-0ba2e29071c8 .concept}
+# Cash Management: Payment Methods
 
 In Acumatica ERP, you can configure the payment methods that your organization uses to pay its vendors, as well as the payment methods that are used by customers to pay your organization. The settings of the payment methods determine how the particular payment is done and provide the default cash account to be used to record payments.
 
 Acumatica ERP has predefined payment methods that you can adjust to meet the business needs of your organization.
 
-## Payment Method Setup { .section}
+## Payment Method Setup
 
 You use the [Payment Methods](../UserGuide/CA_20_40_00.md) \(CA204000\) form to review the predefined payment methods and update them. \(You can also define new payment methods on this form.\)
 
@@ -16,7 +16,7 @@ On this form, you perform the following general steps to set up a payment method
 4.  If necessary, you modify the settings on the **Settings for Use in AR** and **Settings for Use in AP** tabs.
 5.  In the Summary area, you make sure that the **Active** check box is selected so that the payment method can be used.
 
-## Default Processing Centers by Payment Method and Branch { .section}
+## Default Processing Centers by Payment Method and Branch
 
 When setting up a payment method, you can specify default processing centers based on specific **branch and payment method**combinations. The system will automatically insert the default processing center when a user creates a document on the [Payments and Applications](../UserGuide/AR_30_20_00.md) \(AR302000\), [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\), or [Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\) form.
 
@@ -50,7 +50,7 @@ The branch the system uses to determine the default processing center depends on
 
 If you delete a processing center on the [Processing Centers](../UserGuide/CA_20_50_00.md) form, the system will remove the default settings for this processing center on the [Payment Methods](../UserGuide/CA_20_40_00.md) \(CA204000\) form.
 
-## Example of Inserting the Default Processing Center { .section}
+## Example of Inserting the Default Processing Center
 
 Suppose that the following **payment methods** are configured in the system:
 
@@ -79,7 +79,7 @@ Consider the following cases in which a user creates a payment on the [Payments 
 -   **Case 2**: The payment is from *Branch A* for *Customer 2* and the *CreditCard1* payment method. The system inserts one of the two customer payment methods configured with the *CreditCard1* payment method and the *PC1* processing center—the one with the latest card expiration date.
 -   **Case 3**: The payment is from *Branch A* for *Customer 1* and the *CreditCard2* payment method. The system selects the **New Card** check box and inserts the *PC1* processing center as the default one.
 
-## Payment Method Deactivation { .section}
+## Payment Method Deactivation
 
 On the [Payment Methods](../UserGuide/CA_20_40_00.md) \(CA204000\) form, you can deactivate a payment method if you do not want it to be used for new payments.
 

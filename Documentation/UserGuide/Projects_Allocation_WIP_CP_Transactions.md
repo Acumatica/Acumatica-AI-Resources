@@ -1,8 +1,8 @@
-# WIP Labor Costs in Cost-Plus Projects: Generated Transactions {#_ac5ef55a-1212-1a2b-ac25-6b22618a71ba .concept}
+# WIP Labor Costs in Cost-Plus Projects: Generated Transactions
 
 When you allocate projects, the system creates allocation transactions based on the settings of the allocation rules associated with the project tasks. Depending on the settings of the allocation rules and project tasks, the system also can create reversing allocation transactions. These transactions are described in the following sections.
 
-## Allocation Transactions Generated on Allocation of a Project { .section}
+## Allocation Transactions Generated on Allocation of a Project
 
 When a project is allocated, the system generates a batch of the allocation transactions shown in the table below. The system assigns the *Allocation for &lt;Project ID&gt;* description to the generated batch.
 
@@ -17,7 +17,7 @@ The system uses the following accounts as the source accounts in the batch it cr
 
 You can review the created allocation transactions on the [Project Transaction Details](../Shared/../UserGuide/PM_40_10_00.md) \(PM401000\) form. In the Selection area of this form, you select the project in the **Project** box. You can review allocation transactions in the table on the **Allocation Transactions** tab.
 
-## Reversing Allocation Transactions Generated on Billing of a Cost-Plus Project { .section}
+## Reversing Allocation Transactions Generated on Billing of a Cost-Plus Project
 
 When a cost-plus project is billed with a time and material billing rule, the system generates a batch of reversing allocation transactions shown in the table below, which prevents the allocation transactions used for billing from affecting the project balance. Reversing transactions copy original allocation transactions and reverse the sign of the amount.
 

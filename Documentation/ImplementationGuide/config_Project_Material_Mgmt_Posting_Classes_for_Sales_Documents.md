@@ -1,4 +1,4 @@
-# Configuration of Project Material Management: Posting Classes for Sales Documents {#_9cb3df4a-395d-4444-b8cf-7fb66248f383 .concept}
+# Configuration of Project Material Management: Posting Classes for Sales Documents
 
 You can control how the system determines the sales accounts and subaccounts for sales documents that include lines with items of a posting class.
 

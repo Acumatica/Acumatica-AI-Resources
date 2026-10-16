@@ -1,10 +1,10 @@
-# Time and Material Billing: To Postpone and Write Off Amounts {#_c53c0b58-16c1-4385-a86e-d9c13d34d4c0 .task}
+# Time and Material Billing: To Postpone and Write Off Amounts
 
 This activity will walk you through the process of postponing and writing off amounts in a pro forma invoice.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the Thai Food Restaurant customer has ordered a juicer, along with the services of installation and employee training on operating the juicer from the SweetLife Fruits &amp; Jams company. SweetLife's project accountant has created a project. The juicer has been delivered and installed, and a consultant has provided the training. The project accountant has billed the customer and sent the created pro forma invoice for approval.
 
@@ -17,7 +17,7 @@ SweetLife and the customer have agreed on the following adjustments to the pro f
 
 Acting as the project accountant, you will make the needed corrections to the pro forma invoice and bill the customer. You will then bill the customer for the second time with the amount postponed in the first invoice.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -28,18 +28,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *JUICER15* stock item has been created.
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *SITEREVIEW*, *INSTALL*, and *TRAINING* non-stock items have been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will make corrections to the pro forma invoice and release the invoice on the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form. On the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will review the accounts receivable invoice that was created based on the pro forma invoice; you will then release the accounts receivable invoice. You will then create one more pro forma invoice for the customer with the amount postponed in the first pro forma invoice.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, perform the following instructions to prepare the system:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded; you should sign in as project accountant by using the *brawner* username and the *123* password.
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Adjusting the Pro Forma Invoice { .section}
+## Step 1: Adjusting the Pro Forma Invoice
 
 To adjust the pro forma invoice according to the agreements that have been reached with the customer, do the following:
 
@@ -60,7 +60,6 @@ To adjust the pro forma invoice according to the agreements that have been reach
     -   **Amount to Invoice**: `100.00`
     After all the adjustments you have made, the invoice total in the Summary area should be $2,700.
 
-    ![](Images/activity_Projects_ProFormaAdjustment.png "The adjustments to the pro forma invoice")
 
 5.  Save your changes to the pro forma invoice.
 6.  On the form toolbar, click **Remove Hold** to assign the pro forma invoice the *Open* status, and then click **Release** to release the pro forma invoice.
@@ -70,7 +69,7 @@ To adjust the pro forma invoice according to the agreements that have been reach
 7.  On the **Financial** tab, click the **AR Ref. Nbr.** link to open the accounts receivable invoice that has been created.
 8.  On the form toolbar of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, which opens, click **Remove Hold** to assign the invoice the *Balanced* status, and then click **Release** to release the accounts receivable invoice.
 
-## Step 2: Billing the Project for the Remainder { .section}
+## Step 2: Billing the Project for the Remainder
 
 To bill the customer the postponed amount \(which is $500 of the juicer cost\), do the following:
 

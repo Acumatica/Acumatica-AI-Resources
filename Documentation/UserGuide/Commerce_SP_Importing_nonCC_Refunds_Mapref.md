@@ -1,4 +1,4 @@
-# Importing Non-Card Refunds {#_d350a02b-74ff-408f-874f-7b873ae0841e .concept}
+# Importing Non-Card Refunds
 
 In this chapter, you will learn how to configure the Acumatica ERP instance for importing non-card refunds from the Shopify store. You will also explore how non-card refunds are imported and applied to imported sales orders.
 
@@ -11,6 +11,8 @@ In this chapter, you will learn how to configure the Acumatica ERP instance for 
 -   **[Importing Non-Card Refunds: Order-Level Refunds](../UserGuide/Commerce_SP_Importing_nonCC_Refunds_Order_Level_Refunds.md)**  
 
 -   **[Importing Non-Card Refunds: Item-Level Refunds](../UserGuide/Commerce_SP_Importing_nonCC_Refunds_Item_Level_Refunds.md)**  
+
+-   **[Importing Non-Card Refunds: Returns with Exchanges](../UserGuide/Commerce_SP_Importing_nonCC_Refunds_Returns.md)**  
 
 -   **[Importing Non-Card Refunds: To Process a Refund for a Not-Yet-Shipped Order](../UserGuide/Commerce_SP_Importing_nonCC_Refunds_To_Import_Refund_Order_Not_Shipped.md)**  
 

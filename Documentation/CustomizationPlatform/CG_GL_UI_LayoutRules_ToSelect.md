@@ -1,4 +1,4 @@
-# To Select a Layout Rule in the Screen Editor {#_c1f80bdc-17fd-47d1-9325-b253c95d496b .concept}
+# To Select a Layout Rule in the Screen Editor
 
 To start the customization of a layout rule, you have to select it in the [Screen Editor](../UserGuide/AU_20_45_20.md). To do this, perform the following actions.
 

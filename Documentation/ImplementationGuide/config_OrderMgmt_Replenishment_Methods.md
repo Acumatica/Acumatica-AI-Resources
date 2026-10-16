@@ -1,4 +1,4 @@
-# Configuration of Replenishment: Replenishment Methods {#_c961e0d4-e87d-4099-b6e6-431a00ad471a .concept}
+# Configuration of Replenishment: Replenishment Methods
 
 Replenishment methods are used to calculate the replenishment quantity. Acumatica ERP supports replenishment at a fixed quantity and replenishment between the minimum and maximum quantities.
 
@@ -9,7 +9,7 @@ The **Inventory Planning** tab of the [Stock Items](../UserGuide/IN_20_25_00.md)
 
 The system uses the specified method to calculate the quantities required to replenish the stock of the item, based on the replenishment parameters that are defined on the **Inventory Planning** tab of the [Item Warehouse Details](../UserGuide/IN_20_45_00.md) \(IN204500\) form.
 
-## Item Replenishment Within the Specified Quantity Range { .section}
+## Item Replenishment Within the Specified Quantity Range
 
 When you select the *Min./Max.* method in a row of the **Inventory Planning** tab of the [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\) form, you specify the following settings in the row:
 
@@ -49,7 +49,7 @@ The formula includes the following quantities:
     The current stock level of a particular item is reflected by the **Available** setting in the Summary area of the [Inventory Allocation Details](../UserGuide/IN_40_20_00.md) form. If the system detects that this level has reached or fallen below the reorder point \(which is specified in the **Reorder Point** box on the [Item Warehouse Details](../UserGuide/IN_20_45_00.md) form\), it calculates the quantity required to replenish the item stock according to the formula for the calculation of the quantity in the **Qty. To Process** column on the [Prepare Replenishment](../UserGuide/IN_50_80_00.md) form.
 
 
-## Replenishment Calculation with the Min./Max. Method { .section}
+## Replenishment Calculation with the Min./Max. Method
 
 On the [Purchase Orders](../UserGuide/PO_30_10_00.md) \(PO301000\) form, the quantities specified in a purchase order may differ from those specified in the corresponding replenishment requests on the [Create Purchase Orders](../UserGuide/PO_50_50_00.md) \(PO505000\) form. The final replenishment quantity for a stock item in a purchase order is calculated based on the settings on the [Prepare Replenishment](../UserGuide/IN_50_80_00.md) \(IN508000\) form for the vendor that will fulfill the replenishment, and the value in the **Qty. to Process** column for a table row is calculated as follows:
 
@@ -57,7 +57,7 @@ On the [Purchase Orders](../UserGuide/PO_30_10_00.md) \(PO301000\) form, the qua
 -   If the requested quantity exceeds the maximum order quantity specified in the **Max. Order Qty.** box on the **Vendors** tab of the [Stock Items](../UserGuide/IN_20_25_00.md) form, the system uses the maximum order quantity.
 -   If the requested quantity is not divisible by the lot size specified in the **Lot Size** box on the **Vendors** tab of the [Stock Items](../UserGuide/IN_20_25_00.md) form, this quantity is rounded up to the next integer, and that number of lots is ordered.
 
-## Item Replenishment with a Fixed Quantity {#_54faf78d-2297-4f12-88d3-ade1b66ada32 .section}
+## Item Replenishment with a Fixed Quantity
 
 You specify the *Fixed Reorder Qty* method for an item when you want to replenish the stock of the item with a fixed quantity each time it falls below the reorder point. To use this method for the replenishment of a stock item, on the **Inventory Planning** tab of the [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\) form, you select the *Fixed Reorder Qty* option in the **Method** column. Then you specify the following parameters:
 

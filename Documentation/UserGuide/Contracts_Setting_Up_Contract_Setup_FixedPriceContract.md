@@ -1,4 +1,4 @@
-# Contract Management: Fixed-Price Contracts {#_074dee15-6191-4760-98d1-f41a307b1d4b .concept}
+# Contract Management: Fixed-Price Contracts
 
 You may offer services to a customer at a fixed price, which is not based on the service's usage, as with a fee for internet connection or domain name registration. In fixed-priced contracts, a fixed price is set from the outset and will not change unless there is a change in scope. A fixed price contract allows a customer more predictability about the service \(or products\) costs in the future. You generally collect such a fee on a schedule—for example, once a year or on a monthly basis.
 

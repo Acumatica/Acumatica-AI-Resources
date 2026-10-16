@@ -1,8 +1,8 @@
-# Inventory Subitems {#_38632710-cd4b-473c-85f8-81ff1c0e85e9 .concept}
+# Inventory Subitems
 
 For peak efficiency, manufacturing and merchandising companies need to precisely track the types and quantities of items of every type stored in inventory. Acumatica ERP provides flexible tools for identifying and tracking various types of such items.
 
-## Subitem Codes { .section}
+## Subitem Codes
 
 In addition to inventory IDs, Acumatica ERP supports subitems \(or subitem codes\), which can be useful for otherwise-identical products that have different colors, sizes, or other properties tracked because they are important to customers. Thus, under the same inventory ID, you may have a number of subitems—products that share all the settings of the inventory record but have additional properties that differ, such as size or color. For more information on inventory IDs, see [Stock Items: Identifiers of Items](Stock_Items_Identifiers_of_Items.md).
 
@@ -10,7 +10,7 @@ You decide whether to use subitems on a system-wide level, based on the particul
 
 **Note:** If subitems are enabled, subitem codes should be used with every stock item, even if an item has no variations. Make sure to add for each subitem segment values that mean *no variations*.
 
-## Example of Using Subitems { .section}
+## Example of Using Subitems
 
 Suppose the merchandise sold by your company is men's apparel: T-shirts, shoes, and socks. While each model of T-shirts, shoes, and socks has a different inventory ID, the ID offers no information about the material used, the color, and the size. If you used a different ID for every possible permutation of size, color, and material, it would significantly increase the number of IDs in use and would require a significant effort to enter all those inventory records.
 
@@ -49,7 +49,7 @@ Thus, we have the following subitems:
 -   For the *SOCKS* inventory ID: *BLK-\_;\_;8-POLYESTER*, *BLK-\_;10-POLYESTER*, and so forth, with 6 total subitems
 -   For the *SOAP* inventory ID: *000-000-000000000* \(the only subitem\)
 
-## Implementation of Subitems { .section}
+## Implementation of Subitems
 
 Subitems allow you to use the same inventory ID with all financial, warehousing, and processing settings for multiple variations of an item. Subitem codes are used in addition to inventory IDs. If you decide to use subitems, subitem codes must be used with each inventory ID, even if the product does not have variations \(as with soap in the above example\).
 
@@ -59,7 +59,7 @@ By default, the subitem code is independent of inventory items and the system pe
 
 **Note:** For user reference, you can maintain the list of valid subitems on the [Subitems](IN_20_50_00.md) \(IN205000\) form.
 
-## Configuration of Subitems in Your System { .section}
+## Configuration of Subitems in Your System
 
 To configure subitems in your system, perform the following general steps:
 
@@ -73,7 +73,7 @@ To configure subitems in your system, perform the following general steps:
 5.  On the **Cross-References** tab, assign to each inventory ID-subitem pair alternate IDs, if such IDs are used by vendors or customers.
 6.  By using the **Restriction Groups** tab of this form, assign the item to appropriate subitem restriction groups.
 
-## Subitem Cost Calculation Options { .section}
+## Subitem Cost Calculation Options
 
 Products with different inventory IDs are always costed separately. Products with the same inventory ID and different subitem codes can be costed as one item or as several items. For each subitem segment defined on the [Segmented Keys](CS_20_20_00.md) form, the **Include in Cost** check box controls how cost will be calculated:
 

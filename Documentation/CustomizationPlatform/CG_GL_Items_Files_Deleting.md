@@ -1,4 +1,4 @@
-# To Delete a Custom File From a Project {#_071e72bc-4ba7-4393-9830-381436ad3ab1 .concept}
+# To Delete a Custom File From a Project
 
 To delete a custom file from a customization project, perform the following actions:
 

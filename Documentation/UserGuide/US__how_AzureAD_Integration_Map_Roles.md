@@ -1,14 +1,14 @@
-# To Map Microsoft Entra ID Groups to Roles in Acumatica ERP {#_cd2f197a-3792-42d6-87b3-73e0973cf7b6 .task}
+# To Map Microsoft Entra ID Groups to Roles in Acumatica ERP
 
 After you have enabled integration with Microsoft Entra ID, you need to map Microsoft Entra ID groups to the user roles defined in Acumatica ERP by using the [User Roles](SM_20_10_05.md) \(SM201005\) form.
 
 **Note:** The **Active Directory** tab appears on the form if the integration of Acumatica ERP with Microsoft Entra ID has been enabled in the `web.config` file, as described in [To Configure the Web.Config File for Integration with Microsoft Entra ID](US__how_AzureAD_Enable.md).
 
-## Before You Begin { .section}
+## Before You Begin
 
 Before you start configuring your system, make sure that all the domain users have email addresses configured in Microsoft Entra ID.
 
-## To Map Active Directory Groups to Acumatica ERP Roles { .section}
+## To Map Active Directory Groups to Acumatica ERP Roles
 
 1.  Open the [User Roles](../Shared/../UserGuide/SM_20_10_05.md) \(SM201005\) form.
 2.  In the **Summary** area, in the **Role Name** box, select the role you want to associate with an Active Directory group \(or with multiple groups\).
@@ -20,7 +20,7 @@ Before you start configuring your system, make sure that all the domain users ha
 5.  On the form toolbar, click **Save**.
 6.  Repeat Instructions 2 through 5 for every role that should be mapped to AD groups.
 
-## To Remove the Mapping of Active Directory Groups to Roles { .section}
+## To Remove the Mapping of Active Directory Groups to Roles
 
 1.  Open the [User Roles](../Shared/../UserGuide/SM_20_10_05.md) \(SM201005\) form.
 2.  In the **Summary** area, in the **Role Name** box, select the role for which you want to remove association with an Active Directory group \(or with multiple groups\).

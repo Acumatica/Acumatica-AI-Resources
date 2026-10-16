@@ -1,4 +1,4 @@
-# To Navigate to the Access Rights by Screen Form {#_f04a2581-da57-45aa-9403-0aa61282f992 .concept}
+# To Navigate to the Access Rights by Screen Form
 
 You might need to change the access rights of roles in Acumatica ERP during customization. To manage access rights of roles by screen in Acumatica ERP, you use the [Access Rights by Screen](../UserGuide/SM_20_10_20.md) \(SM201020\) form.
 

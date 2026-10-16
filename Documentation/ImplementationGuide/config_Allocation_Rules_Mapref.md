@@ -1,4 +1,4 @@
-# Allocation Rules {#_feee42b7-afec-4bbd-9091-1f8f6b7c8849 .concept}
+# Allocation Rules
 
 Handling allocations manually can be a time-consuming and error-prone process. By using Acumatica ERP, you can create and maintain allocation rules, which define how the allocations are to be performed. You can also perform allocations automatically based on these definitions.
 

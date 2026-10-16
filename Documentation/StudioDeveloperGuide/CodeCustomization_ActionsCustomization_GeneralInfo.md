@@ -1,8 +1,8 @@
-# Action Customization: General Information {#_88889cf8-4b17-4f7b-a6a2-a8cf32b7ce94 .concept}
+# Action Customization: General Information
 
 In this chapter, you will learn about the customization options that you can use when you are customizing an existing action.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -15,11 +15,11 @@ In this chapter, you will learn how to do the following:
 -   Specify the category of an action
 -   Use attributes to configure a button that represents an action in the user interface
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You customize an action when the default behavior or appearance of the action does not meet your customization requirements.
 
-## Overview of Action Customization { .section}
+## Overview of Action Customization
 
 An *action* is a graph member of the PXAction type. An action always has the delegate defined. Every action is represented by the PXAction object and placed in the *Actions* collection of the appropriate graph. To construct an instance of the PXAction class, you use a graph member of the PXAction type and a delegate from the highest-level extension that is available.
 

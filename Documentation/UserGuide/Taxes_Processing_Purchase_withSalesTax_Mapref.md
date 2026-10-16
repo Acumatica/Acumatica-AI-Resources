@@ -1,4 +1,4 @@
-# Processing Purchases with Sales Taxes {#_039f129c-6de8-4d3f-8e1b-5f7b2910802b .concept}
+# Processing Purchases with Sales Taxes
 
 The topics of this chapter describe how to process a purchase with a sales tax.
 

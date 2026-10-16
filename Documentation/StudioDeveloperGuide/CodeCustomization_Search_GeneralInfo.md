@@ -1,19 +1,19 @@
-# Search Customization: General Information {#_48763210-7355-4067-b3cf-e2629131bfcc .concept}
+# Search Customization: General Information
 
 Acumatica ERP provides universal search capabilities. With this search, a user can find the records of data access classes \(DACs\) whose data matches the text entered in the search box.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to customize the universal search in Acumatica ERP.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You customize the universal search in the following cases:
 
 -   You need to implement a search for a record in the system by the value of a new DAC field that you have added. For example, you need to implement the search for a document by the value of its external reference number.
 -   You have added a new DAC and you need the records of this DAC to be available in the universal search results.
 
-## Search in DACs {#section_vv2_1y4_y4b .section}
+## Search in DACs
 
 The DAC search results are displayed on the **Documents and Transactions** tab \(shown below\). Each result includes the following lines:
 
@@ -21,9 +21,8 @@ The DAC search results are displayed on the **Documents and Transactions** tab \
 -   The first information line \(optional\)
 -   The second information line \(optional\)
 
-![](Images/CodeCustomization_Search_SearchResults.png "Results of DAC search")
 
-## Requirements for a DAC { .section}
+## Requirements for a DAC
 
 A DAC record can be displayed in the search results if the DAC meets the following requirements:
 
@@ -43,7 +42,7 @@ A DAC record can be displayed in the search results if the DAC meets the followi
 
 -   Optional: The DAC is marked with the [PXCacheName](https://help.acumatica.com/(W(4))/Help?ScreenId=ShowWiki&pageid=052f5683-d20b-da61-4e6c-47a966162fb4) attribute. This attribute defines the name that is displayed for the DAC on the [Rebuild Full-Text Entity Index](../UserGuide/SM_20_95_00.md) \(SM209500\) form.
 
-## PXSearchable Attribute { .section}
+## PXSearchable Attribute
 
 You use the [PXSearchable](https://help.acumatica.com/(W(7))/Help?ScreenId=ShowWiki&pageid=3fcecc8e-f198-2488-5671-91713e77fe49) attribute for the following purposes:
 
@@ -55,7 +54,7 @@ You use the [PXSearchable](https://help.acumatica.com/(W(7))/Help?ScreenId=ShowW
 
 You can find an example that uses basic properties of this attribute in [Search Customization: To Display a DAC in Universal Search Results](CodeCustomization_Search_Activity.md). You can find more examples in the API Reference \(see [PXSearchable](https://help.acumatica.com/(W(7))/Help?ScreenId=ShowWiki&pageid=3fcecc8e-f198-2488-5671-91713e77fe49)\).
 
-## Examples in Acumatica ERP Source Code { .section}
+## Examples in Acumatica ERP Source Code
 
 You can find examples of the implementation of the DAC search in the following DACs in the Acumatica ERP source code:
 

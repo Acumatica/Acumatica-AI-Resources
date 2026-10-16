@@ -1,8 +1,8 @@
-# Order Synchronization: Import of POS Orders {#_1c27a810-c235-41e6-a12d-adcfce39c2b4 .concept}
+# Order Synchronization: Import of POS Orders
 
 If your company uses Shopify point-of-sale \(POS\) functionality, you can configure the import of POS orders to Acumatica ERP. This functionality is available only when the *Shopify POS Connector* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS10000\) form.
 
-## Configuration of the Import of Shopify POS Orders { .section}
+## Configuration of the Import of Shopify POS Orders
 
 To define the import settings for Shopify POS orders, you perform the following steps on the **Orders** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form:
 
@@ -13,7 +13,7 @@ To define the import settings for Shopify POS orders, you perform the following 
 
 **Tip:** Create dedicated order types for Shopify POS orders so that it is easier to tell them from other orders.
 
-## Synchronization of Shopify POS Orders { .section}
+## Synchronization of Shopify POS Orders
 
 Shopify POS orders are imported to Acumatica ERP during the synchronization of the *Sales Order* entity, similar to orders placed in the Shopify online store.
 
@@ -22,7 +22,7 @@ An imported Shopify POS order may lack both a customer and shipping details—th
 -   The generic guest customer defined on the **Customers** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form.
 -   The address settings specified for the generic customer if the POS order has no address specified. If the generic customer also has no addresses defined, the system leaves these settings blank.
 
-## Import of Archived Shopify POS Orders { .section}
+## Import of Archived Shopify POS Orders
 
 By default, orders that have been paid and fulfilled are assigned the *Archived* status in the Shopify store. Orders that have been placed in an online store \(online orders\) with this status are excluded from synchronization with Acumatica ERP. When the *Sales Order* entity is prepared for synchronization, such orders are assigned the *Filtered* status and are displayed on the **Filtered** tab of the [Sync History](BC_30_10_00.md) \(BC301000\) form. POS orders, however, are imported even if they have the *Archived* status in the Shopify store. When the *Sales Order* entity is prepared, archived POS orders are assigned the *Prepared* status and are displayed on the **Ready to Process** tab of the [Sync History](BC_30_10_00.md) form.
 

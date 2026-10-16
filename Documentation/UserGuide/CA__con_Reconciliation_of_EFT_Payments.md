@@ -1,4 +1,4 @@
-# Reconciliation of EFT Payments {#_d890ef68-2848-403f-b497-b3fad5ec4537 .concept}
+# Reconciliation of EFT Payments
 
 Acumatica ERP supports the reconciliation of electronic funds transfers \(EFTs\). You can easily track and reconcile your EFT payments right alongside other batch payments. If a payment gets rejected by the processing center, you can quickly take action, such as putting a shipment on hold or creating a new payment.
 
@@ -13,7 +13,7 @@ The system receives the settlement statuses of EFT transactions from the process
 5.  The system creates a bank deposit on the [Bank Deposits](CA_30_50_00.md) \(CA305000\) form.
 6.  You release the bank deposit.
 
-## Handling of a Rejected Transaction { .section}
+## Handling of a Rejected Transaction
 
 In rare cases, a processing center rejects an already-settled transaction. This can happen when, for example, the customer closed the account, the wrong account number was entered, fraud was detected, or the account had insufficient funds. Separate batches are created for the settlement and the rejection.
 
@@ -23,10 +23,13 @@ A rejected EFT transaction has the following settings on the [Settlement Batches
 
 -   **Settlement State** \(Summary area\): *Rejected*.
 -   **Rejected Amount** \(Summary area\): The amount of the rejected transaction.
-
-    **Attention:** This box and column are hidden for credit card settlement batches.
-
 -   **Card Type** \(**Card Type Summary** tab\): *EFT*.
+-   **Settlement Status** \(**All Transactions** tab\): *Rejected*.
+
+**Attention:** These four elements are hidden for credit card settlement batches.
+
+To view the rejection reason for a transaction, point to the icon in the leftmost column of the row, as shown below.
+
 
 To process a rejected transaction, do the following:
 
@@ -46,14 +49,14 @@ After a transaction has been rejected, you can get in touch with your customer a
 -   Create a new payment using different bank details, such as another account or payment method
 -   Cancel the shipment if no replacement payment will be made
 
-**Tip:** If you can’t record a batch transaction because the **Record** button is unavailable or if an error message is displayed, we recommend doing the following:
+**Tip:** If you can’t record a batch transaction because the **Record** button is unavailable or if you get an error after clicking **Record**, we recommend doing the following:
 
 1.  Hiding the batch transaction to process a batch.
 2.  Creating a payment or refund with the *Cash/Check* payment method, which will add the missing GL transaction and fix the balance.
 3.  Releasing and depositing the adjustment payment or refund. It may be reasonable to create a specific payment method specifically for these adjustments.
 4.  If there are new batches pending review or depositing, first processing all settlement batches and then processing the rejected batches.
 
-## Review of the Settlement Status { .section}
+## Review of the Settlement Status
 
 You can check the *Payment Settlement Summary \(CA651000\)* generic inquiry form to review customers’ documents with their settlement statuses. This form shows a list of prepayments, refunds, cash sales, voided payments, and cash returns.
 
@@ -68,7 +71,7 @@ The form also displays payments without batch transactions. A payment may not ha
 
 To draw your attention, documents with the *Rejected* processing status are highlighted in red.
 
-## Limitations of the Recording Process { .section}
+## Limitations of the Recording Process
 
 The following limitations apply to the process of recording EFT transactions:
 

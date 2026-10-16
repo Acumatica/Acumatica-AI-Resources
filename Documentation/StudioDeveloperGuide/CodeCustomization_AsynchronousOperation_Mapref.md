@@ -1,4 +1,4 @@
-# Implementing an Asynchronous Operation {#_4148c04c-6225-4444-b135-bfe7a79675ea .concept}
+# Implementing an Asynchronous Operation
 
 An operation that is expected to take a long time to complete should be executed asynchronously: that is, executed on a separate thread so that it doesn’t block the main thread of an application and freeze up the user interface. The Acumatica Framework provides you with a number of approaches for executing a long-running operation asynchronously.
 

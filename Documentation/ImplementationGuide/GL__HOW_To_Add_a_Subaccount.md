@@ -1,13 +1,13 @@
-# To Add a Subaccount {#_53484475-34f2-499a-b3fc-3126b37b726f .task}
+# To Add a Subaccount
 
 You use the [Subaccounts](../UserGuide/GL_20_30_00.md) \(GL203000\) form to add a subaccount.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 1.  On the [Segmented Keys](../UserGuide/CS_20_20_00.md) \(CS202000\) form, be sure the structure of subaccounts has been configured.
 2.  Review the meanings of the subaccount segment values in your organization. For segments requiring validation, you define valid values by using the [Segment Values](../UserGuide/CS_20_30_00.md) \(CS203000\) form.
 
-## To Add a Subaccount { .section}
+## To Add a Subaccount
 
 1.  Open the [Subaccounts](../Shared/../UserGuide/GL_20_30_00.md) \(GL203000\) form.
 

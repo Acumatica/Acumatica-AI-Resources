@@ -1,8 +1,8 @@
-# Asking Questions {#_97742b50-af36-4bce-b6fa-344622555beb .concept}
+# Asking Questions
 
 Acumatica provides several pages where you can ask your questions about customization process.
 
-## Where to Get Support { .section}
+## Where to Get Support
 
 -   [Acumatica Community](https://community.acumatica.com/): Use it to ask all possible question and share your knowledge.
 -   [GitHub](https://github.com/acumatica): Check Acumatica GitHub to get examples.

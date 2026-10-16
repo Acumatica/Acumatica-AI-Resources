@@ -1,4 +1,4 @@
-# Processing Purchases with Use Taxes {#_b2ed4d52-dd53-453d-825f-4788b3e14014 .concept}
+# Processing Purchases with Use Taxes
 
 The topics of this chapter describe how to process a purchase with a use tax.
 

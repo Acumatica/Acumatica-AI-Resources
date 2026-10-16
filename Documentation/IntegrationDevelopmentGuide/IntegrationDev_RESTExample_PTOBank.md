@@ -1,4 +1,4 @@
-# PTOBank {#_89510e7c-cc95-48d4-a6b2-79506a7b3c0d .concept}
+# PTOBank
 
 This chapter presents code examples showing requests that use the `PTOBank` entity.
 

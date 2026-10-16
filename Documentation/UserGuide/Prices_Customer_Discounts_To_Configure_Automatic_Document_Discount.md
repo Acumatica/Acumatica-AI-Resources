@@ -1,10 +1,10 @@
-# Automatic Customer Discounts: To Set Up Automatic Customer-Specific and Unconditional Document Discounts {#_807fac08-7fc1-4289-bd0b-27d0631a8a60 .task}
+# Automatic Customer Discounts: To Set Up Automatic Customer-Specific and Unconditional Document Discounts
 
 In this activity, you will learn how to set up automatic document discounts, and you will explore how they are applied to AR invoices.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company has given one of its customers, Thai Food Restaurant \(*TOMYUM*\), a 7% discount. In addition, SweetLife has offered a 15% discount to all customers who purchase $200 or more in a single order \(document\).
 
@@ -14,7 +14,7 @@ On January 30, *2026*, Thai Food Restaurant bought 2 days of the offline trainin
 
 Acting as SweetLife's accountant, you need to enter an AR invoice, to which the discounts should be applied automatically.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -22,7 +22,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *OFLCOURSE* non-stock item has been created.
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *TOMYUM* customer has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 First, you will configure discount codes on the [Discount Codes](AR_20_90_00.md) \(AR209000\) form. Then on the [Discounts](AR_20_95_00.md) \(AR209500\) form, you will configure an automatic document discount specific to the Thai Food Restaurant company and an automatic unconditional document discount for all customers.
 
@@ -30,7 +30,7 @@ Then you will create an AR invoice for a particular customer on the [Invoices an
 
 Finally, you will deactivate the discounts.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start the activity, do the following:
 
@@ -38,7 +38,7 @@ Before you start the activity, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026*. For simplicity, in this lesson, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu button to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Configuring the Customer-Specific Document Discount { .section}
+## Step 1: Configuring the Customer-Specific Document Discount
 
 To configure the automatic document discount specific to the Thai Food Restaurant customer, do the following:
 
@@ -78,7 +78,7 @@ To configure the automatic document discount specific to the Thai Food Restauran
     On the **Discount Breakpoints** tab, notice that the system has cleared the **Pending Date** column and that the **Effective Date** column now contains *1/30/2026*.
 
 
-## Step 2: Configuring the Unconditional Document Discount { .section}
+## Step 2: Configuring the Unconditional Document Discount
 
 To configure the automatic unconditional document discount of 15% for documents of $200 or more, do the following:
 
@@ -117,7 +117,7 @@ To configure the automatic unconditional document discount of 15% for documents 
     On the **Discount Breakpoints** tab, notice that the system has cleared the **Pending Date** column and that the **Effective Date** column now contains this date \(*1/30/2026*\).
 
 
-## Step 3: Creating the AR Invoice and Explore the Discount Application { .section}
+## Step 3: Creating the AR Invoice and Explore the Discount Application
 
 To create the AR invoice for the Thai Food Restaurant customer and explore how the system automatically applies the discounts you have created, do the following:
 
@@ -139,7 +139,6 @@ To create the AR invoice for the Thai Food Restaurant customer and explore how t
 
     The **Discount Percent** column shows the discount percent \(7%\), the **Discount Amt.** column shows the discount amount \(*6.30*\), and the same amount is shown in the **Document Discounts** box in the Summary area \(see the following screenshot\).
 
-    ![](Images/activity_Prices_Document_Discount.png "Automatic document discount for the specific customer applied to the document")
 
 4.  On the **Details** tab, click **Add Row** on the table toolbar, and specify the following settings in the added row:
 
@@ -152,11 +151,10 @@ To create the AR invoice for the Thai Food Restaurant customer and explore how t
 
     Also notice that the **Discount Percent** column shows the discount percent \(15%\), the **Discount Amt.** column shows the discount amount \(*36*\), and the same amount is now shown in the **Document Discounts** box in the Summary area \(see the following screenshot\). This discount has been applied because it is the best available discount for this document.
 
-    ![](Images/activity_Prices_To_Configure_Automatic_Document_Discount.png "An automatic unconditional document discount applied to the document")
 
 5.  On the form toolbar, click **Remove Hold** and then click **Release** to release the invoice.
 
-## Step 4: Making the Created Discounts Inactive { .section}
+## Step 4: Making the Created Discounts Inactive
 
 1.  Open the [Discounts](AR_20_95_00.md) \(AR209500\) form.
 2.  In the Summary area, specify the following settings:

@@ -1,4 +1,4 @@
-# Applying Payments to Particular Lines: Mass Processing {#_84b13167-3962-429f-a1c5-6947f4ecd2fd .concept}
+# Applying Payments to Particular Lines: Mass Processing
 
 You use the [Prepare Payments](AP_50_30_00.md) \(AP503000\) form to pay multiple lines of different bills of the same vendor \(or a single bill\).
 

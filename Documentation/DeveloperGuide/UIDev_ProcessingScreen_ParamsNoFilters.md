@@ -1,22 +1,19 @@
-# Processing Form: A Form with a Selection Area and a Grid {#_659d137c-7152-4e55-9dca-d29a614d50fd .concept}
+# Processing Form: A Form with a Selection Area and a Grid
 
 The following topic describes how to configure a processing form that contains the Selection area and a table. \(In the Classic UI, these forms were based on the FormDetail template.\)
 
-## Examples of Form Layout { .section}
+## Examples of Form Layout
 
 The following screenshot shows an example of a form that contains the Selection area and a table but does not contain table filters \(also called quick filters\).
 
-![](Images/UIDev_ProcessingScreen_SelectionNoFilter.PNG "A processing form with the Selection area")
 
 An example of a processing form that contains the Selection area, table filters \(also called quick filters\), and a table is shown in the following screenshot. The table filters are stored in the system data and are displayed for the table whose data view has the PXFilterable attribute. For an example of a form with stored table filters, see [Assign Opportunities](../UserGuide/CR_50_31_10.md) \(CR503110\) form.
 
-![](Images/UIDev_ProcessingScreen_SelectionAndFilter.PNG "A processing form with the Selection area and table filters")
 
 An example of a form that contains a single element in the Selection area and a table is shown in the following screenshot.
 
-![](Images/UIDev_ProcessingScreen_SingleParam.png "A processing form with one element in the Selection area and a table")
 
-## View Definition in TypeScript { .section}
+## View Definition in TypeScript
 
 For a processing form with the Selection area and a table \(but no table filters\), you need to do the following in the TypeScript file of the form:
 
@@ -30,7 +27,7 @@ For a processing form with the Selection area and a table \(but no table filters
 
 The following code shows an example of this implementation of a processing form.
 
-```language-javascript
+```javascript
 import {
     PXScreen, createSingle, createCollection, graphInfo, PXView, PXFieldState, 
     gridConfig, columnConfig, linkCommand, PXActionState, PXFieldOptions
@@ -109,7 +106,7 @@ export class FA502000 extends PXScreen {
 }
 ```
 
-## Layout in HTML { .section}
+## Layout in HTML
 
 You define the layout for a processing form with the Selection area and a table \(but no table filters\) by adding the following elements to the HTML code of the form:
 
@@ -118,7 +115,7 @@ You define the layout for a processing form with the Selection area and a table 
 
 The following code shows an example of a processing form with this layout.
 
-```language-xml
+```xml
 <template>
     <qp-template name="17-17-14" id="formFilter" wg-container="Filter_form">
         <qp-fieldset slot="A" id="columnFirst" view.bind="Filter">

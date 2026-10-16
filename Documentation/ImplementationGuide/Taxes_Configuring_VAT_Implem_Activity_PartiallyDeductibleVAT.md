@@ -1,22 +1,22 @@
-# Value-Added Taxes: To Create a Partially Deductible VAT {#_1b11b751-da3d-4e17-b82c-6a47b395a105 .task}
+# Value-Added Taxes: To Create a Partially Deductible VAT
 
 By performing this implementation activity, you will learn how to configure a partially deductible VAT.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Fruits &amp; Jams purchases goods to be used in the company's office. The company is allowed to deduct 40% of the taxes paid on these kinds of purchases from the tax amount paid to the tax authority. Acting as an implementation consultant, you need to configure a VAT of the deductible type to partially deduct the tax amount.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following configuration tasks have been performed to prepare the system for this activity to be performed:
 
 -   On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, the *VAT Reporting* feature has been enabled.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Tax Categories](../UserGuide/TX_20_55_00.md) \(TX205500\) form, you will create a tax category for a deductible VAT. On the [Taxes](../UserGuide/TX_20_50_00.md) \(TX205000\) form, you will create a deductible VAT and specify its tax rate, tax category and tax zone.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -26,7 +26,7 @@ To prepare the system, do the following:
 4.  As a prerequisite activity, be sure that you have created the *CANADA* tax zone on the [Tax Zones](../UserGuide/TX_20_60_00.md) \(TX206000\) form as described in [Tax Zones and Categories: To Create a Tax Category and Tax Zone for VAT](TaxZones_and_Categories_VAT_Implem_Activity.md).
 5.  As a prerequisite activity, be sure that you have configured a tax report on the [Reporting Settings](../UserGuide/TX_20_51_00.md) \(TX205100\) form and have added reporting groups to the tax report. For details, see [Tax Report Configuration: To Create a Tax Report for VAT Variations](TaxReport_VAT_Variations_Implem_Activity.md).
 
-## Step 1: Creating a Tax Category for a Deductible VAT { .section}
+## Step 1: Creating a Tax Category for a Deductible VAT
 
 To create a tax category for a partially deductible VAT, do the following:
 
@@ -36,7 +36,7 @@ To create a tax category for a partially deductible VAT, do the following:
     -   **Description**: `Purchases subject to deductions`
 3.  On the form toolbar, click **Save**.
 
-## Step 2: Creating a Partially Deductible VAT { .section}
+## Step 2: Creating a Partially Deductible VAT
 
 To create a partially deductible VAT, do the following:
 

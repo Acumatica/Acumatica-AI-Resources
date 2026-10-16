@@ -1,27 +1,27 @@
-# Budget Ledger: Implementation Activity {#_241f244e-060d-4fd4-b59c-62617fb2f59b .task}
+# Budget Ledger: Implementation Activity
 
 In this activity, you will learn how to create a budget ledger for a company in Acumatica ERP.
 
-## Story { .section}
+## Story
 
 Suppose that as an accountant, you need to create a budget ledger that will hold the optimistic budgets for the SweetLife Fruits &amp; Jams and Muffins &amp; Cakes companies.
 
-## Configuration Overview {#section_jjk_mjv_vxb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed for the purposes of this activity:
 
 -   On the [Companies](../UserGuide/CS_10_15_00.md) \(CS101500\) form, the *SWEETLIFE* and *MUFFINS* companies have been created.
 -   On the [Branches](../UserGuide/CS_10_20_00.md) \(CS102000\) form, the branches of the *SWEETLIFE* company have been defined: *HEADOFFICE*, *SWEETEQUIP*, and *RETAIL*. The branches of the *MUFFINS* company have also been defined: *MHEAD* and *MRETAIL*.
 
-## Process Overview {#section_mjk_mjv_vxb .section}
+## Process Overview
 
 In this activity, on the [Ledgers](../UserGuide/GL_20_15_00.md) \(GL201500\) form, you will create a budget ledger for an optimistic budget. You will define the ledger to hold the budgets of the SweetLife Fruits &amp; Jams and Muffins &amp; Cakes companies.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as an accountant Nenad Pasic by using the *pasic* username and the *123* password.
 
-## Step: Creating a Budget Ledger { .section}
+## Step: Creating a Budget Ledger
 
 To create a budget ledger to be used by both companies, do the following:
 

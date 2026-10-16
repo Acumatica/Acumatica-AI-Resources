@@ -1,4 +1,4 @@
-# Creating Week Codes {#_b2ebd3eb-4c9e-4dc0-bc89-960a0743bcee .concept}
+# Creating Week Codes
 
 The week code is a one- to four-digit recurrence system that you can use to reschedule the appointment in a multiple of four-week intervals.
 
@@ -8,15 +8,14 @@ The advantage of the week code system is that without generating a recurrence of
 
 **Attention:** The week codes are currently used for validation purposes in the Route Management module. The recurrence of the route will be taken from the Route Management recurrence form.
 
-## Generation of the Calendar { .section}
+## Generation of the Calendar
 
 Because the week code is calculated on a fixed calendar, the first step is to generate the calendar. This will define the correspondence between the week code and the calendar weeks.
 
 To generate the weekcode calendar, you use the [Calendar Week Codes](FS_20_59_00.md) \(SD205900\) form.
 
-## Structure of the week codes { .section}
+## Structure of the week codes
 
-![](Images/Weekcodes.png)
 
 The digits in the week codes indicate the following:
 

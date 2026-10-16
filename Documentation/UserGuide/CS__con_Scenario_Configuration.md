@@ -1,4 +1,4 @@
-# Scenario Configuration {#_6c2c5d98-e718-425f-94d4-560c6cdd3be1 .concept}
+# Scenario Configuration
 
 Configuration of a scenario includes the following steps, each of which is described in greater detail below:
 
@@ -6,11 +6,11 @@ Configuration of a scenario includes the following steps, each of which is descr
 2.  Creating a scenario
 3.  Adding the tasks to the scenario
 
-## Reviewing Enabled Features { .section}
+## Reviewing Enabled Features
 
 Before you start adding a scenario, make sure that the features on which the scenario will be based are enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. For more information on Acumatica ERP features, see [Preparing an Instance: Activation and Licensing](../ImplementationGuide/config_SA_Prep_Instance_for_Implem_Instance_Activation_and_Licensing.md).
 
-## Creating a Scenario { .section}
+## Creating a Scenario
 
 The first step of configuring a scenario is specifying its general settings on the [Scenarios](WZ_20_10_00.md) \(WZ201000\) form:
 
@@ -24,7 +24,7 @@ Then you should save the scenario by clicking **Save** on the form toolbar.
 
 After that, you need to add the tasks to the scenario.
 
-## Adding the Tasks to the Scenario { .section}
+## Adding the Tasks to the Scenario
 
 The second step of configuring a scenario is adding the tasks to the scenario on the [Tasks](WZ_20_20_00.md) \(WZ202000\) form. You can open this form by clicking the scenario name on the [Scenarios](WZ_20_10_00.md) \(WZ201000\) form or by navigating to the Tasks \(EP4040PL\) form, and then selecting the required scenario in the **Scenario Name** box.
 
@@ -51,7 +51,7 @@ After you have added all required tasks, save the scenario by clicking **Save** 
 
 On the [Tasks](WZ_20_20_00.md) \(WZ202000\) form, you can add, delete, and edit the tasks associated with the scenario.
 
-## Activating a Scenario { .section}
+## Activating a Scenario
 
 To make a scenario available to users on the defined site map location, you should activate it by clicking the **Activate Scenario** button. This button is available on the [Scenarios](WZ_20_10_00.md) form, the [Tasks](WZ_20_20_00.md) form, or the screen at the defined site map location.
 

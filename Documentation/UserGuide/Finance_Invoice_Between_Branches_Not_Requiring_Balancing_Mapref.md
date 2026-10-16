@@ -1,4 +1,4 @@
-# Processing Interbranch Invoices Without Balancing {#_cdfe43a0-bbba-48e8-a6b1-f2fc20d5e7b8 .concept}
+# Processing Interbranch Invoices Without Balancing
 
 Multiple branches of a company may be involved in a single invoice. If branches do not require balancing, the general process and transactions are similar to those of a single-branch invoice.
 

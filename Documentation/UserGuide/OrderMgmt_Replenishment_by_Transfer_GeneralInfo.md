@@ -1,19 +1,19 @@
-# Replenishment Through Transfers: General Information {#_9668b1a2-8f98-4200-abe4-4299513b205d .concept}
+# Replenishment Through Transfers: General Information
 
 The replenishment functionality in Acumatica ERP can accommodate various ways of replenishing stock items. You can maintain a particular quantity of stock items by transferring items from a warehouse where the items are available to a destination warehouse.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
 -   Become familiar with the general workflow of item replenishment through transfers
 -   Replenish stock by transferring items between warehouses
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 You perform replenishment through transfers if your company has multiple warehouses and replenishes stock items by transferring them from another warehouse where they are available.
 
-## Replenishment Through Transfers in Acumatica ERP { .section}
+## Replenishment Through Transfers in Acumatica ERP
 
 You can use the functionality of replenishment through transfers between warehouses if the *Inventory Replenishment* and *Multiple Warehouses* features are enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
@@ -28,7 +28,7 @@ On the [Prepare Replenishment](IN_50_80_00.md) form, the quantity to process is 
 
 For details about the configuration of replenishment and the calculation of replenishment parameters, see [Replenishment for Stock Items](../ImplementationGuide/config_OrderMgmt_Replenishment_Mapref.md).
 
-## General Steps of Replenishment Through Transfers { .section}
+## General Steps of Replenishment Through Transfers
 
 To replenish stock items by transferring them from one warehouse to another, you perform the following general steps:
 
@@ -37,11 +37,10 @@ To replenish stock items by transferring them from one warehouse to another, you
 3.  When the stock items are shipped from the source warehouse to the destination warehouse, you create the shipment on the [Shipments](SO_30_20_00.md) \(SO302000\) form, confirm the shipment, and update the inventory.
 4.  When you are receiving the items, you create purchase receipts of the *Transfer* type and release them on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form.
 
-## Workflow of Replenishment Through Transfers {#section_vv2_1y4_y4b .section}
+## Workflow of Replenishment Through Transfers
 
 A general workflow of replenishment through transfers involves the steps and generated documents shown in the following diagram.
 
-![](Images/diag_OrderMgmt_Replenishment_Through_Transfers.png)
 
 **Parent topic:**[Replenishing Inventory Through Transfers](../UserGuide/OrderMgmt_Replenishment_by_Transfer_Mapref.md)
 

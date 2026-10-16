@@ -1,22 +1,22 @@
-# Upgrading of Acumatica ERP: To Update an Acumatica ERP Site {#_330a5d7e-309f-433f-a5d1-4d6a33064d1e .task}
+# Upgrading of Acumatica ERP: To Update an Acumatica ERP Site
 
 The following activity will walk you through the process of updating the site of Acumatica ERP.
 
 **Attention:** The updating of the database is a separate process that you may need to perform. For details, see [Upgrading of Acumatica ERP: To Update the Database of an Acumatica ERP Instance](INST_Upgrading_Updating_Database.md).
 
-## Story { .section}
+## Story
 
 Suppose that you are the system administrator of your company, and you need to update only the site of the existing Acumatica ERP instance.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will update the Acumatica ERP site.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the step of this activity, make sure that you have completed the [Upgrading of Acumatica ERP: To Schedule the System Lockout](INST_Upgrading_System_Lockout.md) prerequisite activity.
 
-## Step: Updating an Acumatica ERP Instance { .section}
+## Step: Updating an Acumatica ERP Instance
 
 To update the Acumatica ERP site, do the following:
 

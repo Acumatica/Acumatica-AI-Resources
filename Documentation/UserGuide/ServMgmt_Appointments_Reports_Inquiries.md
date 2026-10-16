@@ -1,8 +1,8 @@
-# Appointment Creation: Related Inquiry Forms {#_d902dbe3-742a-4be3-afb3-818cdafa70c3 .concept}
+# Appointment Creation: Related Inquiry Forms
 
 In the following sections, you can find details about the inquiry forms you may want to review to gather information about all entered appointments.
 
-## Reviewing Appointments { .section}
+## Reviewing Appointments
 
 Acumatica ERP provides you with multiple ways to review appointments that have been entered into the system. You can view the appointments assigned to a particular staff member \(or multiple staff members\), and the list of all entered appointments in the system and their details.
 

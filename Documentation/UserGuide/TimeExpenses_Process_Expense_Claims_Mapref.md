@@ -1,4 +1,4 @@
-# Processing Expense Claims {#_c9742308-17f3-44d6-9f5e-98edaccdd7f4 .concept}
+# Processing Expense Claims
 
 By using Acumatica ERP, employees of your company can easily file their claims for reimbursement of expenses, which may include expenditures for travel, accommodations, and freight charges. With Acumatica ERP, expense claims can be prepared, approved, and processed in accordance with the process of claim submission adopted by your company.
 
@@ -22,6 +22,4 @@ In this chapter, you will find topics that explain how to process expense claims
 
 -   **[Expense Claims: To Release an Expense Claim](../UserGuide/TimeExpenses_Process_Expense_Claims_Release_Activity.md)**  
 
-
-**Parent topic:**[Time and Expenses](../UserGuide/TM_00_00_00.md)
 

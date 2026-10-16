@@ -1,4 +1,4 @@
-# Creating Contract Items {#_0e3db77a-f8c2-4cc9-b315-8ae7d1616e90 .concept}
+# Creating Contract Items
 
 This chapter provides information about the initial steps required to create contracts in Acumatica ERP. You will learn about creating the contract items that you will use for creating templates and contracts.
 

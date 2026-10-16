@@ -1,4 +1,4 @@
-# Tracking Project Inventory {#_445cdde7-53a0-4ec4-b2d1-69496b2a504f .concept}
+# Tracking Project Inventory
 
 This chapter describes how to configure inventory tracking for each project to make it possible to reserve items purchased for a project and track them separately from free stock; you can also configure the project so that the system will track project-specific costs for these reserved items.
 
@@ -15,5 +15,7 @@ This chapter describes how to configure inventory tracking for each project to m
 -   **[Project Inventory Tracking: Generated Transactions](../UserGuide/Projects_Inventory_Tracking_Transactions.md)**  
 
 -   **[Project Inventory Tracking: Mass Processing](../UserGuide/Projects_Inventory_Tracking_MassProcessing.md)**  
+
+-   **[Project Inventory Tracking: Preplanning Inventory Transfers](../UserGuide/Projects_Inventory_Tracking_Preplaning_Inventory_Transfers.md)**  
 
 

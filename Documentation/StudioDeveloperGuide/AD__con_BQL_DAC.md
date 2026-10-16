@@ -1,8 +1,8 @@
-# Data Access Classes {#_3f6ee8e9-b29e-4dab-b4f8-4406c3ef101d .concept}
+# Data Access Classes
 
 The classes that represent database tables in Acumatica Framework are called *data access classes \(DACs\)*. You derive these classes from the PX.Data.PXBqlTable class and the PX.Data.IBqlTable interface. These classes must be declared with the `public` access modifier to be correctly recognized by the Acumatica Framework. The name of a class is usually the same as the name of the database table to which it provides access \(except with the DACs that have the PXTable or PXProjection attributes, which change the default binding of DACs to database tables\).
 
-## DAC Fields { .section}
+## DAC Fields
 
 For each table column, you add a data field to the corresponding data access class by declaring the following members:
 
@@ -43,7 +43,7 @@ public class Product : PX.Data.PXBqlTable, PX.Data.IBqlTable
 }
 ```
 
-## Requirements for DACs { .section}
+## Requirements for DACs
 
 When you define a data access class, keep these requirements in mind:
 
@@ -55,7 +55,7 @@ When you define a data access class, keep these requirements in mind:
 -   Abstract classes of data fields must be defined as implementing interfaces of the PX.Data.BQL namespace.
 -   A DAC property field must have a nullable type \(such as `decimal?` or `DateTime?`\).
 
-## Bound and Unbound Data Fields { .section}
+## Bound and Unbound Data Fields
 
 A data field can be bound \(mapped\) or unbound \(not mapped\) to a database column or multiple columns. The type attribute on a DAC field and the presence of PXDBScalar or PXDBCalced specify whether the field is bound or unbound. *DB* in the attribute name denotes whether the field is bound. In the code below, the `OrderNbr` field is bound because it has the PXDBString type attribute, the `AvailQty` field is bound because it has the PXDBScalar attribute, and the `Description` field is unbound because of the PXString type attribute without PXDBScalar or PXDBCalced.
 
@@ -74,14 +74,14 @@ public virtual string Description {...}
 
 The framework provides bound and unbound types for many data types, including string, Boolean, decimal, integer, and date and time. These types are abstracted from specific database types.
 
-## Mandatory Attributes on Data Fields { .section}
+## Mandatory Attributes on Data Fields
 
 The only mandatory attributes that you should add to DAC fields are:
 
 -   Type attributes, such as PXDBString, PXString, PXDBDecimal, and PXDecimal.
 -   PXUIField—for fields displayed in the UI.
 
-## Key Fields {#key_fields .section}
+## Key Fields
 
 You define the key fields in DACs independently of the database. Database key fields may not be key fields in the DAC. To mark a field as a key field, you set the IsKey property to true in the type attribute, as follows.
 
@@ -100,7 +100,7 @@ DACs in Acumatica ERP can include a pair of *ID* and *CD* fields \(such as `Prod
 
 **Note:** For more information on attributes on DAC fields, see [Working with Attributes](BL__mng_Working_With_Attributes.md).
 
-## Concurrency Management { .section}
+## Concurrency Management
 
 You should add the SQL Server timestamp column to a table to make Acumatica Framework able to handle concurrent updates.
 
@@ -114,7 +114,7 @@ public virtual byte[] TStamp
 
 The corresponding timestamp data field should be declared in the data access class. If the timestamp data field is declared, Acumatica Framework handles the timestamp column automatically. Acumatica Framework checks the row version every time the row is modified. For details about the timestamp, see [Concurrent Update Control \(TStamp\)](DA__con_Concurrent_Update_Control.md).
 
-## Order of the Fields in a DAC { .section}
+## Order of the Fields in a DAC
 
 Note the order in which fields are declared in a DAC: During every roundtrip, the Acumatica Framework applies changes to DAC instances in the same order as their fields are declared. Similarly, all field-level event handlers are always raised in the same order as fields are declared in the DAC.
 

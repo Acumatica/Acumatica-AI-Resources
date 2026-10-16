@@ -1,8 +1,8 @@
-# Use of the DataMember Property of Containers {#_f4e4f1df-64bd-40b9-b487-bdc099ee952c .concept}
+# Use of the DataMember Property of Containers
 
 If you need to find out which data view provides data for a control container on a form, perform a search to find the *DataMember* string in the appropriate ASPX code. The DataMember property is used to bind a control container of a form to a data view defined in the business logic controller \(BLC, also referred as *graph*\) of the form. The property value is the name of the data view.
 
-## Container Types That Have the DataMember Property { .section}
+## Container Types That Have the DataMember Property
 
 In Acumatica Framework, DataMember is used to specify a data view for the following container types:
 
@@ -18,7 +18,7 @@ By default, a nested container inherits the DataMember property from the parent 
 
 If the DataMember property is available for other ASPX objects, it has a special purpose. For example, you can specify the DataMember property for a PXSelector lookup control to define the appropriate data view for the grid of the lookup window.
 
-## Property Value { .section}
+## Property Value
 
 Each DataMember property value can correspond to any data view name of the BLC. Any data view except for the main data view can be used by an unlimited number of containers. The main data view must be bound to a single container.
 

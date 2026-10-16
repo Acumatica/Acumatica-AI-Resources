@@ -1,4 +1,4 @@
-# Voiding Payments {#_e5cf3d15-53ad-48f4-a40b-591d8871b119 .concept}
+# Voiding Payments
 
 In this chapter, you will find general information on how to void AP payments, a checklist for system implementation, an activity that describes how to void a released payment, and inquiries that can be useful to find and view created transactions.
 

@@ -1,4 +1,4 @@
-# Bill Prepayments: Implementation Checklist {#_72ff02b9-9d9d-4b8e-aa1a-e57c9b086b66 .concept}
+# Bill Prepayments: Implementation Checklist
 
 To ensure that the system is configured properly for processing prepayments, make sure that the criteria listed in the table have been met in the system as described.
 
@@ -9,7 +9,7 @@ To ensure that the system is configured properly for processing prepayments, mak
 |[Non-Stock Items](IN_20_20_00.md) \(IN202000\)|Verify the existence of non-stock items that can be used when creating prepayment requests. For details, see [Non-Stock Item: Implementation Activity](Non_Stock_Item_Fin_Implem_Activity.md).| |
 |[Payment Methods](CA_20_40_00.md) \(CA204000\)|Make sure the *CHECK* payment method has been selected when paying a prepayment request.| |
 
-## Implementation Notes {#section_p4n_njv_vxb .section}
+## Implementation Notes
 
 When deciding how many and which prepayment accounts to use to make it easier to track them in the system, you can select one or any of the following options:
 
@@ -24,7 +24,7 @@ To assign the prepayment accounts, do the following:
 1.  On the [Vendor Classes](AP_20_10_00.md) \(AP201000\) form, specify the prepayment account and subaccount for the default vendor class and for each of the other vendor classes. This will make it easy to create new vendor classes and new vendors with the proper prepayment account specified.
 2.  Use the [Vendors](AP_30_30_00.md) \(AP303000\) form to specify the prepayment account and subaccount for each vendor.
 
-## Settings That Affect the Workflow {#section_t4n_njv_vxb .section}
+## Settings That Affect the Workflow
 
 The following settings and entities should be specified and defined, respectively:
 

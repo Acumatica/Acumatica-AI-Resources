@@ -1,4 +1,4 @@
-# To Find Documents with Discrepancies Between the General Ledger and a Subledger {#_543513d7-d37d-4000-8b13-697645902aa0 .task}
+# To Find Documents with Discrepancies Between the General Ledger and a Subledger
 
 You use the [Discrepancies by Document](AP_40_90_30.md) \(AP409030\) and [Discrepancies by Document](AR_40_90_30.md) \(AR409030\) forms to view a list of the documents associated with a particular vendor or customer that caused discrepancies between AP and GL accounts or AR and GL accounts.
 
@@ -6,7 +6,7 @@ You can search for or navigate to these forms directly. Also, the system navigat
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## To Find Documents with Discrepancies Between the General Ledger and a Subledger {#section_nmm_mjv_vxb .section}
+## To Find Documents with Discrepancies Between the General Ledger and a Subledger
 
 1.  Open the [Discrepancies by Document](AP_40_90_30.md) \(AP409030\) or [Discrepancies by Document](AR_40_90_30.md) \(AR409030\) form.
 2.  In the **Branch** box, select the branch for which you want to view data.
@@ -22,7 +22,7 @@ You can search for or navigate to these forms directly. Also, the system navigat
 9.  Optional: Click the link in the **Reference Nbr.** column for a particular row to open and view the document in a separate window.
 10. Optional: Click the link in the **Batch Nbr.** column for a particular row to open the GL batch on the [Journal Transactions](GL_30_10_00.md) \(GL301000\).
 
-## Notes About the Procedure {#section_omm_mjv_vxb .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

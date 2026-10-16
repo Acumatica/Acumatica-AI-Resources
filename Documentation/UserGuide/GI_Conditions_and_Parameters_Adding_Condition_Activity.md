@@ -1,14 +1,14 @@
-# Conditions and Parameters: To Add a Date Condition {#_bd8cec7b-c14f-41eb-aff2-8c7811e7e9b4 .task}
+# Conditions and Parameters: To Add a Date Condition
 
 In this activity, you will learn how to modify an existing generic inquiry to limit the data displayed to a specific range of financial periods—that is, to include a date condition.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist in your company who is working on simple customizations, including those involving the creation, modification, and use of generic inquiries. An accountant of your company has requested an inquiry form that displays data about invoices. You have offered the predefined Invoices and Memos \(AR3010PL\) generic inquiry form, but the accountant wants the inquiry form to show results limited to a range of financial periods that the accountant wants to analyze. Specifically, the inquiry form should display only invoices \(that is, no other document types\) posted from the *12-2025* financial period through the *01-2026* financial period \(including the starting and ending periods\).
 
-## Configuration Overview {#section_ayf_13q_3rb .section}
+## Configuration Overview
 
 You will work with a copy of the predefined Invoices and Memos \(AR3010PL\) inquiry form, which has the *AR-Invoices and Memos* inquiry title and the *Invoices and Memos* site map title specified on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form.
 
@@ -16,17 +16,17 @@ You will work with a copy of the predefined Invoices and Memos \(AR3010PL\) inqu
 
 The copy you will work with has the *DB3-ARInvoicesMemos* inquiry title and the *S130 Invoices and Memos* site map title specified on the [Generic Inquiry](SM_20_80_00.md) form.
 
-## Process Overview { .section}
+## Process Overview
 
 You will inspect the relevant user interface elements of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form whose data will be used in the copied inquiry. On the **Results Grid** tab of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form for this generic inquiry, you will then look for the row that corresponds to the **Post Period** column of the inquiry and note the value in the **Data Field** column. Finally, you will add the condition for the inquiry on the **Conditions** tab of the [Generic Inquiry](SM_20_80_00.md) form. With this condition, the results grid will display only documents that fall within the specified range of financial periods.
 
-## System Preparation {#section_aww_z4r_jrb .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to a tenant with the *U100* dataset preloaded as system administrator Kimberly Gibbs. You should sign in by using the *gibbs* username and the *123* password.
 
 **Tip:** The *gibbs* user is assigned the *Administrator* role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards.
 
-## Step 1: Inspecting the UI Elements { .section}
+## Step 1: Inspecting the UI Elements
 
 To inspect the UI elements, do the following:
 
@@ -42,7 +42,7 @@ To inspect the UI elements, do the following:
 
 5.  Close the dialog box.
 
-## Step 2: Adding a Condition for a Document Type { .section}
+## Step 2: Adding a Condition for a Document Type
 
 To modify the generic inquiry by adding a condition for a document type, do the following:
 
@@ -55,7 +55,7 @@ To modify the generic inquiry by adding a condition for a document type, do the 
     -   **Value 1**: `INV`
 4.  On the form toolbar, click **Save**.
 
-## Step 3: Adding a Date Condition { .section}
+## Step 3: Adding a Date Condition
 
 To modify the generic inquiry by adding a date condition, do the following:
 
@@ -68,7 +68,6 @@ To modify the generic inquiry by adding a date condition, do the following:
 2.  On the form toolbar, click **Save**.
 3.  Click the eye icon on the side panel to preview how your changes have affected the inquiry. The system has applied the conditions you have added, so that the resulting generic inquiry \(see the following screenshot\) displays only the invoices within the range of financial periods that you specified for the condition in the **Value 1** and **Value 2** boxes \(*12-2025* through *01-2026*\).
 
-    ![](Images/GI_Conditions_and_Parameters_Adding_Date_Condition.png "Generic inquiry with a date condition")
 
 
 **Parent topic:**[Using Conditions and Parameters](../UserGuide/GI_Conditions_and_Parameters_Mapref.md)

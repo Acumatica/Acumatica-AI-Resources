@@ -1,16 +1,16 @@
-# Daily Field Reports: Process Activity {#_26e10b1f-33cc-42b7-bcf0-7e5bb45a717d .task}
+# Daily Field Reports: Process Activity
 
 This activity will walk you through the process of working with a daily field report.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that on April 15, 2026, Ernest Smith, a construction foreman in the ToadGreen company, spent a day on the construction site of the Italian restaurant that the company is building for the Italian Company. During the day, he has recorded the current progress of the work related to electricity installation and made notes about subcontractor activities, weather conditions, visitors, and other important information that relates to the day's work at the project site. Also, he has taken photos to support his report about weather conditions. At the end of the day, Ernest creates a daily field report, adds notes, and sends the daily field report for approval to the construction project manager.
 
 Acting as the construction foreman, you will create and process the daily field report and add all needed information to it. Then acting as the construction project manager, you will approve the daily field report.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -23,11 +23,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Employees](EP_20_30_00.md#) \(EP203000\) form, the *EP00000033 - Ellen Watson* employee has been defined.
 -   On the [Customers](AR_30_30_00.md#) \(AR303000\) form, the *ITACOM - Italian Company* customer has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create a daily field report on the [Daily Field Report](PJ_30_40_00.md) \(PJ304000\) form. On the appropriate tabs of the form, you will then add progress worksheet lines, subcontractor activities, weather conditions, and visitors. To finish the processing of the daily field report, you will complete it to submit the report for approval. Finally, you will approve the daily field report.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
@@ -36,7 +36,7 @@ To prepare to perform the instructions of this activity, do the following:
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *4/15/2026*. If a different date is displayed, click the Business Date menu button, and select *4/15/2026* on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 4.  Download the [DFR\_weather1.jpg](Files/DFR_weather1.jpg) and [DFR\_weather2.jpg](Files/DFR_weather2.jpg) files to your device.
 
-## Step 1: Creating the Daily Field Report { .section}
+## Step 1: Creating the Daily Field Report
 
 Create the daily field report as follows:
 
@@ -50,7 +50,7 @@ Create the daily field report as follows:
     The daily field report is saved with the *On Hold* status. Now you can add the needed information to the report on the appropriate tabs of the form.
 
 
-## Step 2: Adding Progress Worksheet Lines { .section}
+## Step 2: Adding Progress Worksheet Lines
 
 To add progress worksheet lines to the daily field report, do the following:
 
@@ -64,7 +64,7 @@ To add progress worksheet lines to the daily field report, do the following:
     -   In the line with the *16-200* cost code and the *MATERIAL* account group, enter `1`.
 5.  On the form toolbar, click **Save**.
 
-## Step 3: Registering Subcontractor Activities { .section}
+## Step 3: Registering Subcontractor Activities
 
 Register subcontractors’ activities in the daily field report as follows:
 
@@ -84,7 +84,7 @@ Register subcontractors’ activities in the daily field report as follows:
     -   **Departed**: *06:00 PM* \(inserted automatically\)
 3.  On the form toolbar, click **Save**.
 
-## Step 4: Reporting Weather Conditions { .section}
+## Step 4: Reporting Weather Conditions
 
 In this step, you will add records to reflect the weather conditions of the day. Do the following:
 
@@ -112,7 +112,7 @@ In this step, you will add records to reflect the weather conditions of the day.
 5.  In the table, at the beginning of the first row, click the button in the **Files** column \(one of the unlabeled columns with icons as column headers\) to open the **Files** dialog box. In the dialog box, click **Upload Files**, select the `DFR_weather1.jpg` file, and close the dialog box.
 6.  In the table, at the beginning of the second row, click the button in the **Files** column to open the **Files** dialog box. In the dialog box, click **Upload Files**, select the `DFR_weather2.jpg` file, and close the dialog box.
 
-## Step 5: Recording Visitors and Completing the Report {#section_dqj_bdj_srb .section}
+## Step 5: Recording Visitors and Completing the Report
 
 To add records about site visitors, do the following:
 
@@ -141,7 +141,7 @@ To add records about site visitors, do the following:
 6.  On the **Approvals** tab, make sure that *Ellen Watson* is specified as the approver of the daily field report.
 7.  Sign out from the system.
 
-## Step 6: Approving the Daily Field Report {#section_eqj_bdj_srb .section}
+## Step 6: Approving the Daily Field Report
 
 To approve the daily field report submitted by the construction foreman, Ernest Smith, perform the following steps
 
@@ -149,7 +149,6 @@ To approve the daily field report submitted by the construction foreman, Ernest 
 2.  On the [Daily Field Report](PJ_30_40_00.md) \(PJ304000\) form, open the daily field report that you have prepared earlier, while acting as a construction foreman.
 3.  On the form toolbar, click **Approve**. On the **Approvals** tab, notice that the system has changed the approval status of the daily field report to *Approved*, as shown below.
 
-    ![](Images/activity_Construction_Daily_Field_Reports.png "Daily field report submitted for approval")
 
 
 You have prepared the daily field report and approved it.

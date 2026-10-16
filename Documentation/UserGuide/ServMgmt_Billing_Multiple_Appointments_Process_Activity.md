@@ -1,10 +1,10 @@
-# Billing of Multiple Appointments: Process Activity {#_236a26a4-043b-4ff2-876d-0a59ca34e531 .task}
+# Billing of Multiple Appointments: Process Activity
 
 The following activity will walk you through the process of generating invoices for multiple appointments. You will also review the invoices that have been generated for customers with different billing cycles assigned.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 The accountant of the SweetLife Service and Equipment Sales Center generates billing documents every day. On February 3, 2026, the accountant \(Yona Jones\) has to run billing for appointments for the following customers:
 
@@ -16,7 +16,7 @@ By filtering the appointments by customer and billing cycle, Yona can quickly re
 
 The service order type of each appointment is defined to generate sales invoices as billing documents. In this activity, you will act as the accountant and run the billing process for these customers.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -38,11 +38,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
     -   *TOMYUM \(Thai Food Restaurant\)*, which has the *AP SO* billing cycle
 -   On the [Appointments](FS_30_02_00.md#) \(FS300200\) form, multiple appointments have been created for the purposes of this activity.
 
-## Process Overview { .section}
+## Process Overview
 
 You will review closed appointments on the [Run Appointment Billing](FS_50_01_00.md#) \(FS500100\) form and specify the settings required for the system to generate invoices. After the billing process is completed, you will review the generated billing documents on the [Service Billing Batches](FS_30_58_00.md#) \(FS305800\) form.
 
-## System Preparation {#section_rr1_ggf_bhc .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -51,7 +51,7 @@ Before you start this activity, do the following:
 3.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that the *Service and Equipment Sales Center* branch is selected.
 4.  After signing in, make sure that the *Service Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form.
 
-## Step 1: Reviewing the Closed Appointments { .section}
+## Step 1: Reviewing the Closed Appointments
 
 To review the list of closed appointments for customers awaiting billing, do the following:
 
@@ -71,7 +71,7 @@ In the table, notice the following:
     All customers have different billing cycles assigned \(see the **Billing Cycle ID** column\). In the **Cut-Off Date** column, you can see the date when the billing document can be generated for each appointment.
 
 
-## Step 2: Generating and Reviewing Invoices { .section}
+## Step 2: Generating and Reviewing Invoices
 
 To generate multiple invoices for the appointments, do the following:
 
@@ -83,7 +83,6 @@ To generate multiple invoices for the appointments, do the following:
 
     The table with the processed records is displayed. A batch of invoices has been generated for each customer. Move the scroll bar to the right until you reach the **Batch Nbr.** column \(see below\).
 
-    ![](Images/ServMgmt_Billing_Multiple_Appointments.png "The batches with the generated billing documents")
 
 3.  In the **Batch Nbr.** column, click the batch link for *GOODFOOD \(GoodFood One Restaurant\)*. Notice that the same batch number is displayed in both *GOODFOOD \(GoodFood One Restaurant\)* rows, so you click either of them\).
 
@@ -91,21 +90,18 @@ To generate multiple invoices for the appointments, do the following:
 
     Notice that **a separate invoice** \(Item 1 below\) has been generated **for each appointment** \(Item 2\) **of one service order** \(Item 3\). This is because the billing cycle of the customer has been defined to run billing for appointments and group them by appointments.
 
-    ![](Images/ServMgmt_Billing_Multiple_Appointments-2.png "A separate invoice generated for each appointment")
 
 4.  Close the window with the [Service Billing Batches](FS_30_58_00.md#) form.
 5.  Return to the **Processing** dialog box and click the batch link generated for *RETSALE - Individual Retail Customer*.
 
     The [Service Billing Batches](FS_30_58_00.md#) form opens with the batch of generated invoices. Notice that **one invoice** \(Item 1 below\) has been generated **for three appointments** \(Item 2\) **of two service orders** \(Item 3\). This is because the billing cycle of the customer has been defined to run billing for appointments and group them by time frame \(on each Monday\).
 
-    ![](Images/ServMgmt_Billing_Multiple_Appointments-3.png "One invoice generated for three appointments")
 
 6.  Close the window with the [Service Billing Batches](FS_30_58_00.md#) form.
 7.  In the **Processing** dialog box, click the batch link generated for *TOMYUM \(Thai Food Restaurant\)*.
 
     The [Service Billing Batches](FS_30_58_00.md#) form opens with the batch of generated invoices. Notice that **two invoices** \(Item 1 below\) have been generated **for three appointments** \(Item 2\) **of two service orders** \(Item 3\). This is because the billing cycle of the customer has been defined to run billing for appointments and group them by service orders.
 
-    ![](Images/ServMgmt_Billing_Multiple_Appointments-4.png "Two invoices generated for three appointments and grouped by service order")
 
 8.  Close the window with the [Service Billing Batches](FS_30_58_00.md#) form.
 

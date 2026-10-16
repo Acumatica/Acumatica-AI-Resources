@@ -1,10 +1,10 @@
-# To Define a Primary Key {#_34e875c7-a5c3-496e-9e2b-f7f6f9f20a40 .task}
+# To Define a Primary Key
 
 You can define the primary key of a data access class \(DAC\) by using the PrimaryKeyOf&lt;Table&gt;.By&lt;keyFields&gt; class. With this class, you can define simple keys \(with one key field\) and compound keys \(with up to eight key fields\) and select records by using these keys, as described in this topic.
 
 **Tip:** A DAC can contain only one primary key declaration. If you want to declare a key for another combination of DAC fields so that you can identify a separate DAC row, instance, or entity, you can create a unique key. For details, see [To Define a Unique Key](AD__how_Define_Unique_Key.md).
 
-## To Define a Simple Primary Key and Select a Record by Using This Key { .section}
+## To Define a Simple Primary Key and Select a Record by Using This Key
 
 1.  In the DAC, declare a PrimaryKeyOf&lt;Table&gt;.By&lt;keyFields&gt; descendant with the `public` Find method, which calls the `protected` FindBy method, as shown in the following code.
 
@@ -30,7 +30,7 @@ You can define the primary key of a data access class \(DAC\) by using the Prima
     ```
 
 
-## To Define a Compound Primary Key and Select a Record by Using This Key { .section}
+## To Define a Compound Primary Key and Select a Record by Using This Key
 
 1.  In the data access class \(DAC\), declare a PrimaryKeyOf&lt;Table&gt;.By&lt;keyFields&gt; descendant with the `public` Find method, which has the needed number of key fields \(up to eight\). The Find method must call the `protected` FindBy method with the same number of key fields, as shown in the following code.
 

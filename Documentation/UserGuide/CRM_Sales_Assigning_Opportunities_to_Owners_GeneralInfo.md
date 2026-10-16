@@ -1,8 +1,8 @@
-# Opportunity Assignment to Owners and Workgroups: General Information {#_841e307c-a26a-4602-90a6-3ba153979b8f .concept}
+# Opportunity Assignment to Owners and Workgroups: General Information
 
 Acumatica ERP provides you with flexible tools for distributing the customer management workload within the company. You can use assignment maps to indicate to the system how to assign opportunities to individuals or groups of people \(that is, to owners or workgroups\). This topic provides information about assigning opportunities to owners and workgroups one by one or through mass processing.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,7 +10,7 @@ In this chapter, you will learn how to do the following:
 -   Learn how to assign an opportunity manually to a particular owner
 -   Learn how to assign a selected group of opportunities to owners or workgroups by using an opportunity assignment map
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to learn how to assign opportunities to owners and workgroups in scenarios that include the following:
 
@@ -18,7 +18,7 @@ You may want to learn how to assign opportunities to owners and workgroups in sc
 -   You need to manually assign or reassign an opportunity to another owner or workgroup.
 -   You do not work with leads in your system and need to assign opportunities to the appropriate owners, workgroups, or both without lead conversion.
 
-## Assignment of Opportunities to Owners and Workgroups in Acumatica ERP { .section}
+## Assignment of Opportunities to Owners and Workgroups in Acumatica ERP
 
 In Acumatica ERP, you can easily base the rules for opportunity assignment on company policies because opportunities can be assigned to owners or workgroups in many different ways, based on the settings and attributes of the opportunity records being assigned. You can assign opportunities manually or automatically, through conversion of a lead to an opportunity.
 
@@ -37,7 +37,7 @@ If you want the system to distribute opportunities between owners and workgroups
 
 You can manually change the owner of an opportunity that has been manually or automatically assigned.
 
-## Assignment of Opportunities by Using Opportunity Classes { .section}
+## Assignment of Opportunities by Using Opportunity Classes
 
 As noted previously, when you create or modify an opportunity class on the [Opportunity Classes](CR_20_90_00.md) \(CR209000\) form, you can specify how the system automatically assigns the owner to newly created opportunities of the class by selecting the appropriate option in the **Default Owner** box. Based on the selected option for the opportunity class, when this opportunity class has been selected for an opportunity in the **Opportunity Class** box of the [Opportunities](CR_30_40_00.md) \(CR304000\) form, the system determines the default owner of this opportunity and inserts the appropriate employee name in the **Owner** box in the Summary area of the form.
 
@@ -50,13 +50,13 @@ In the **Default Owner** box of the [Opportunity Classes](CR_20_90_00.md) form, 
 
 We recommend assigning opportunities by converting leads to opportunities or, if you manually create opportunities, by using opportunity classes because the system assigns an opportunity to an owner each time a new opportunity record is created.
 
-## The Usage of a Company Tree for Assignment {#section_clk_kjp_stb .section}
+## The Usage of a Company Tree for Assignment
 
 In Acumatica ERP, a company tree is an organizational chart that represents a hierarchical structure of a company with groups that contains a list of people and roles of people within each of the groups. The company tree is used to assign leads, cases, opportunities, business accounts, contacts, or email activities to owners when you want the system to distribute these entities between owners \(individuals\) and workgroups \(groups of people\) by using an assignment map on the [Assignment Maps](../Shared/../UserGuide/EP_20_50_10.md) \(EP205010\) form.
 
 On the [Company Tree](../Shared/../UserGuide/EP_20_40_61.md) \(EP204061\) form, you create a hierarchy of workgroups for using them in the assigning process, and you include people or groups of people in the workgroups. You can include the same people in different workgroups. When you create a new entity, such as a new lead, and select a workgroup for it, you can select as an owner only one of the people that you have included in this workgroup in the company tree. We recommend the use of a company tree to speed and streamline your assignments.
 
-## Assignment of Opportunities by Using Assignment Maps { .section}
+## Assignment of Opportunities by Using Assignment Maps
 
 You can use the assignment map functionality to assign opportunities between owners automatically through the use of opportunity classes or manually when you mass-assign opportunities.
 
@@ -73,11 +73,11 @@ Once an assignment map for opportunities is created, you can do either or both o
 
 **Attention:** If an assignment map is specified for the applicable opportunity class on the [Opportunity Classes](CR_20_90_00.md) form, it overrides the assignment map specified on the [Customer Management Preferences](CR_10_10_00.md) \(CR101000\) form. Opportunities of the class will be assigned to owners based on the assignment map from the opportunity class.
 
-## Execution Errors Related to Mass-Assignment of Opportunities { .section}
+## Execution Errors Related to Mass-Assignment of Opportunities
 
 If an assignment map contains errors \(for example, a workgroup contains an employee who has quit the company and cannot be assigned to any records\), and you have processed any opportunities that should be assigned according to this assignment map by using the [Assign Opportunities](CR_50_31_10.md) \(CR503110\) form, the system will list these errors in the **Processing** dialog box. You can view the error by clicking the More button on the **Errors** tile. In the **Message** column, the system displays the text of the error message.
 
-## Notifications About Assigning an Opportunity to an Owner { .section}
+## Notifications About Assigning an Opportunity to an Owner
 
 In Acumatica ERP, an administrator can set up email notifications on the [Business Events](SM_30_20_50.md) \(SM302050\) form so that if a user is assigned to a new opportunity, this user receives a notification by email, by SMS, or in the Acumatica mobile app. For details, see [Business Events](../CustomizationPlatform/CG_GL_Items_BusinessEvents.md).
 

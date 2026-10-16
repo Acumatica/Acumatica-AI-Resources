@@ -1,8 +1,8 @@
-# Esignature Providers: Managing Electronic Signature Requests {#_1e860d36-9305-48c4-b4ca-637d199d6e53 .concept}
+# Esignature Providers: Managing Electronic Signature Requests
 
 In this topic, you will learn how to manage esignature requests.
 
-## Managing Electronic Documents { .section}
+## Managing Electronic Documents
 
 On the [Manage eSign Documents](ES_40_10_00.md) \(ES401000\) processing form, you manage electronic documents that have been submitted for esignature. In the Summary area, you can view your employee name and ID. By default, the **Show Mine** check box is selected, meaning that the form lists only documents you have submitted for esignature.
 
@@ -17,14 +17,14 @@ To manage the signing process, you can use the following buttons on the form too
 -   **Check Status**: Sends an API request to update the signing status of the selected file.
 -   **Delete**: Deletes the esignature request.
 
-## Checking the Signing Status { .section}
+## Checking the Signing Status
 
 To check the current status of an electronic document, you click the link in the **eSign Status** column for the document's line on the [Manage eSign Documents](ES_40_10_00.md) \(ES401000\) form. On the [eSign Request](ES_30_30_00.md) \(ES303000\) form, which opens, you can view:
 
 -   The **eSign Status** value in the Summary area
 -   The recipients and their current statuses in the table
 
-## Syncing Esignature Requests { .section}
+## Syncing Esignature Requests
 
 On the [eSign Sync](ES_50_10_00.md) \(ES501000\) processing form, you synchronize esignature requests in Acumatica ERP with the connected esignature providers:
 

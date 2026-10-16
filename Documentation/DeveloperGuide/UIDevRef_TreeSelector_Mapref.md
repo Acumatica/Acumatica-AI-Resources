@@ -1,4 +1,4 @@
-# Tree Selector {#_278073bc-e82c-4497-a926-13458658f826 .concept}
+# Tree Selector
 
 In this chapter, you will learn how to configure tree selector controls on Acumatica ERP forms. The chapter also includes information about conversion of tree selector controls from ASPX to HTML and TypeScript.
 

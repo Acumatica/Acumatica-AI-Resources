@@ -1,4 +1,4 @@
-# Naming Rules for Endpoints {#_d11b158c-a417-40aa-9736-86bfd7e5ac57 .concept}
+# Naming Rules for Endpoints
 
 When you create a custom endpoint on the [Web Service Endpoints](../UserGuide/SM_20_70_60.md) \(SM207060\) form \(either from scratch or by extending a system endpoint\), for the names of the entities, fields, actions, and action parameters of the endpoint, and the endpoint name and version, you should make sure to adhere to the following rules:
 

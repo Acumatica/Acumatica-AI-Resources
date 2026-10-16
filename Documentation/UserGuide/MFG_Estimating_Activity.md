@@ -1,8 +1,8 @@
-# Estimating: Process Activity {#_9d1d518f-4c71-4401-870b-62b8f1720e79 .task}
+# Estimating: Process Activity
 
 The following activity will walk you through the estimating-related processes.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, to perform processes related to estimates, you will do the following:
 
@@ -13,7 +13,7 @@ In this activity, to perform processes related to estimates, you will do the fol
 5.  On the same form, create a production order based on the estimate.
 6.  On the same form, create an estimate and replace its details with the details of another estimate.
 
-## System Preparation { .section}
+## System Preparation
 
 Do the following:
 
@@ -22,7 +22,7 @@ Do the following:
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to today’s date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 4.  Make sure that the *Estimating* feature in the *Manufacturing* group of features has been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Step 1: Creating an Estimate { .section}
+## Step 1: Creating an Estimate
 
 To create an estimate, do the following:
 
@@ -48,7 +48,7 @@ To create an estimate, do the following:
         -   **Run Time**: `01:00`
     3.  On the form toolbar, click **Save**.
 
-## Step 2: Specifying Operation Details { .section}
+## Step 2: Specifying Operation Details
 
 To specify operation details, do the following:
 
@@ -75,7 +75,7 @@ To specify operation details, do the following:
     -   **Factor**: `1` \(automatically specified\)
 8.  On the form toolbar, click **Save**.
 
-## Step 3: Creating Stock Items for Non-Inventory Items { .section}
+## Step 3: Creating Stock Items for Non-Inventory Items
 
 To create stock items for non-inventory items, do the following:
 
@@ -93,7 +93,7 @@ To create stock items for non-inventory items, do the following:
 
 7.  Wait until the processing is completed and close the **Processing** dialog box.
 
-## Step 4: Creating a Bill of Material Based on an Estimate { .section}
+## Step 4: Creating a Bill of Material Based on an Estimate
 
 To create a bill of material based on the estimate, do the following on the [Estimate](AM_30_30_00.md) \(AM303000\) form:
 
@@ -109,7 +109,7 @@ To create a bill of material based on the estimate, do the following on the [Est
 4.  On the form toolbar, click **Save**.
 5.  Close the [Bill of Material](AM_20_80_00.md) form.
 
-## Step 5: Creating a Production Order Based on an Estimate { .section}
+## Step 5: Creating a Production Order Based on an Estimate
 
 To create a production order based on the estimate, while you are still viewing the estimate on the [Estimate](AM_30_30_00.md) \(AM303000\) form, do the following:
 
@@ -123,7 +123,7 @@ To create a production order based on the estimate, while you are still viewing 
 4.  Notice that *Estimate* is specified in the **Source** box of the **References** tab \(the **Source** section\). This means that the production order has been created based on an estimate.
 5.  Close the [Production Order Maintenance](AM_20_15_00.md) form.
 
-## Step 6: Replacing Estimate Details with the Details of Another Estimate { .section}
+## Step 6: Replacing Estimate Details with the Details of Another Estimate
 
 To replace details of a new estimate by details of another estimate, do the following:
 

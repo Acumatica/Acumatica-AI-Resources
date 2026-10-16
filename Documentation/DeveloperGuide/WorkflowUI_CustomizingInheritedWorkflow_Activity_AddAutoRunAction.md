@@ -1,16 +1,16 @@
-# Diagram View: To Add the Auto-Run Action {#_9940f02a-ad2f-4066-bdc0-5e912953c961 .task}
+# Diagram View: To Add the Auto-Run Action
 
 The following activity will walk you through the process of creating an auto-run action \(that is, an action that the system performs automatically when a particular condition is met\).
 
-## Story {#section_pwf_wbp_jhc .section}
+## Story
 
 If the **Owner** box on the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form is filled and the opportunity has the *New* status, the status of the opportunity should be automatically changed to *Assigned*. Acting as the technical specialist, you need to add another transition from the `New` state to the `Assigned` state for the workflow used by the form. The transition should be triggered automatically if the **Owner** box is not empty.
 
-## Process Overview {#section_qwf_wbp_jhc .section}
+## Process Overview
 
 By using the [Conditions](../UserGuide/AU_20_10_10.md) page, you will create a condition that checks the **Owner** box. By using the [Workflow \(Diagram View\)](../UserGuide/AU_20_10_30_VisualEditor.md) page, you will add a new transition from the `New` state to the `Assigned` state and create a hidden action that triggers the transition.
 
-## System Preparation {#section_rwf_wbp_jhc .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -21,7 +21,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  Make sure that you have learned how to add actions, as described in [Action Configuration: General Information](WorkflowUI_Actions_GeneralInfo.md).
 3.  Make sure that you have completed the [Diagram View: To Add New Actions and Transitions](WorkflowUI_CustomizingInheritedWorkflow_Activity_AddActionsTransitions.md) activity.
 
-## Step 1: Creating a Condition {#section_swf_wbp_jhc .section}
+## Step 1: Creating a Condition
 
 In this step, you will add a condition that checks the **Owner** box. In the Customization Project Editor for the *Opportunities* customization project, perform the following instructions:
 
@@ -36,7 +36,7 @@ In this step, you will add a condition that checks the **Owner** box. In the Cus
     The added condition appears in the table with the conditions on the page.
 
 
-## Step 2: Adding a New Transition Between States {#section_twf_wbp_jhc .section}
+## Step 2: Adding a New Transition Between States
 
 To add a transition, in the Customization Project Editor for the *Opportunities* customization project, perform the following instructions:
 
@@ -55,7 +55,7 @@ To add a transition, in the Customization Project Editor for the *Opportunities*
 8.  Click **Add** to close the dialog box.
 9.  On the page toolbar, click **Save**.
 
-## Step 3: Modifying the Created Action {#section_uwf_wbp_jhc .section}
+## Step 3: Modifying the Created Action
 
 To make the created `Auto-Assign` action hidden on the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form of Acumatica ERP and performed automatically when the **Owner** box of the form is filled in, perform the following instructions:
 
@@ -73,7 +73,6 @@ To make the created `Auto-Assign` action hidden on the [Opportunities](../UserGu
 
 After you have performed these instructions and returned to the diagram view of the workflow, the diagram should look similar to the one in the following diagram. \(The results may look slightly different on different devices.\)
 
-![](Images/WorkflowUI_CustomizingInheritedWorkflow_OpportunitiesDiagramWithAddedActions.png "The workflow diagram with the added state and transitions")
 
 **Parent topic:**[Customizing Workflows with the Diagram View](../DeveloperGuide/WorkflowUI_CustomizingInheritedWorkflow_Mapref.md)
 

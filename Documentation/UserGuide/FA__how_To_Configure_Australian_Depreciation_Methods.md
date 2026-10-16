@@ -1,8 +1,8 @@
-# To Configure Australian Depreciation Methods {#_b37d101c-5c5b-4f65-981f-5fdb034a7bb4 .task}
+# To Configure Australian Depreciation Methods
 
 On the [Depreciation Methods](FA_20_25_00.md) \(FA202500\) form, you can configure formula-based depreciation methods by using any of the available depreciation calculation methods, which are described in detail in [Predefined Depreciation Methods](FA__con_Depreciation_Methods.md).
 
-## To Configure the Remaining Value by Days in Period Method {#_edef2095-87d8-4f32-be12-11bc7978f1b8 .section}
+## To Configure the Remaining Value by Days in Period Method
 
 **Attention:** The formula used by the system to calculate the depreciation expenses by using this depreciation method is described in [Australian Depreciation Methods](FA__con_Australian_Depreciation_Methods.md).
 
@@ -14,7 +14,7 @@ On the [Depreciation Methods](FA_20_25_00.md) \(FA202500\) form, you can configu
 6.  In the **Averaging Convention** box, select *Full Day*.
 7.  On the form toolbar, click **Save**.
 
-## To Configure the Australian-Specific Methods {#_e6ac5bf3-d520-4374-98a7-0b4eb1321c7e .section}
+## To Configure the Australian-Specific Methods
 
 **Attention:** The formulas used by the system to calculate the depreciation expenses with the *Australian Prime Cost* and *Australian Diminishing Value* depreciation methods are described in [Australian Depreciation Methods](FA__con_Australian_Depreciation_Methods.md).
 

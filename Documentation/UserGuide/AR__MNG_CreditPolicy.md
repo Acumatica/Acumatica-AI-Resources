@@ -1,4 +1,4 @@
-# Managing Credit Policy {#_f6f0ebb5-8a46-42c9-98c1-ed700894f0ee .concept}
+# Managing Credit Policy
 
 With Acumatica ERP, you can use the following credit management tools:
 
@@ -14,7 +14,7 @@ With Acumatica ERP, you can use the following credit management tools:
 
 -   *Allowance method*: You can handle bad debts by using the allowance method. The allowance method is a better alternative to the direct write-off method because it follows the matching principle of accounting. For details on configuring and using allowance method, see [Direct Write-Offs: General Information](Finance_Direct_Write-Offs_GeneralInfo.md).
 
-## Managing Credit Policy {#section_rxk_4jv_vxb .section}
+## Managing Credit Policy
 
 To configure the options related to implementing your company's credit policy for all customers, you can specify the following settings on the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form:
 
@@ -24,7 +24,7 @@ To configure the options related to implementing your company's credit policy fo
 -   **Calculate on Overdue Charges Documents**: You select this check box if you want overdue charges to be calculated on overdue charge documents as well as on invoices.
 -   **Apply Payments to Overdue Charges First**: You select this check box if you have enabled automatic payment application for a customer account—that is, you have selected the **Auto-Apply Payments** check box on the [Customers](AR_30_30_00.md) \(AR303000\) form—and want new payments to be applied first to overdue charges and then to outstanding invoices. For details on the processing of overdue charges, see [Overdue Charges: General Information](Finance_Overdue_Charges_GeneralInfo.md).
 
-## Preparing Consolidating Statements and Dunning Letters {#section_vxk_4jv_vxb .section}
+## Preparing Consolidating Statements and Dunning Letters
 
 Depending on the policies established in your company, you can prepare a single consolidated statement for each customer or prepare multiple statements for each branch of your company. To prepare consolidated statements for all customers, select the **Consolidate Statements for All Branches** check box, and in the **Statement From** box, select the branch that will be specified as the sender.
 

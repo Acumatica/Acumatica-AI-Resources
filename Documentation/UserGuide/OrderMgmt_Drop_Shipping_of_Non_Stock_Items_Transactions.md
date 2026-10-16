@@ -1,10 +1,10 @@
-# Drop Shipments of Non-Stock Items: Generated Transactions {#_0395fdfb-0e19-4be5-8566-90dd93e3d4dd .concept}
+# Drop Shipments of Non-Stock Items: Generated Transactions
 
 To be able to process a sale of non-stock items intended for drop shipment, you create and process a sales order and a purchase order. The following sections describe the GL transactions generated during the processing of the documents for a sale of non-stock items for drop shipment.
 
 **Tip:** Sales orders of the *SO* type do not produce any GL transactions.
 
-## Transactions Generated for a Sales Invoice {#section_o5m_b2p_llb .section}
+## Transactions Generated for a Sales Invoice
 
 When you create and release a sales invoice with a line with a non-stock item, the system generates the following general ledger transactions.
 
@@ -15,7 +15,7 @@ When you create and release a sales invoice with a line with a non-stock item, t
 
 You can view the reference number of the GL batch in the **Batch Nbr.** box on the **Financial** tab of the [Invoices](SO_30_30_00.md) \(SO303000\) form. You can click the link in this box to view the details of the batch on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## Transactions Generated on AP Bill Release {#section_q5n_cks_hlb .section}
+## Transactions Generated on AP Bill Release
 
 When an accounts payable bill prepared for a purchase order \(or for purchase receipt\) is released, the system creates a batch of the following transactions.
 

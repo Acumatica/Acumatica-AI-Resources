@@ -1,4 +1,4 @@
-# Purchase Receipt Correction: Inventory Validation {#_9db3870c-907e-4f69-ab66-a27b0ff55c57 .concept}
+# Purchase Receipt Correction: Inventory Validation
 
 In correction purchase receipts for a normal purchase order, you can make these types of corrections:
 

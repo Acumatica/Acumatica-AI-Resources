@@ -1,16 +1,16 @@
-# Overtime Rules: General Information {#_8fc025e1-b4de-4e05-9a1f-922fbdf990bf .concept}
+# Overtime Rules: General Information
 
 Overtime rules are used for automatic tracking of overtime in the system. Overtime rules are applied during the calculation of a paycheck to transform regular hours into overtime hours according to the specified settings. Overtime rules can be disabled at the employee, batch, or paycheck level.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to configure overtime rules and apply these rules to the calculation of paychecks.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure overtime rules if you want the system to determine overtime based on a specified set of rules.
 
-## Configuration of Overtime Rules { .section}
+## Configuration of Overtime Rules
 
 You can create new overtime rules and modify existing ones by using the [Overtime Rules](PR_10_40_00.md) \(PR104000\) form. An overtime rule includes the following information:
 
@@ -36,11 +36,11 @@ The system will not allow the creation of a duplicate overtime rule. Overtime ru
 
 In the case of conflicting overtime rules, the system will always use the overtime rule that produces the highest pay rate.
 
-## Calculation of the Overtime Pay Rate { .section}
+## Calculation of the Overtime Pay Rate
 
 The overtime pay rate is calculated based on the earning type code, which can belong to only the *Overtime* category, that is specified for the overtime rule in the **Disbursing Earning Type** box. This earning type code contains information about the multiplier by which an employee's regular pay rate is to be multiplied to determine the final pay rate, and an earning type to be used as the source of the regular pay rate. The system compares the calculated pay rate with the labor cost rate \(if applicable\) and the rate from the labor item, and then, during the paycheck calculation, the system uses the highest of the rates as the overtime pay rate.
 
-## Application of Overtime Rules { .section}
+## Application of Overtime Rules
 
 Employees of the *Salaried Exempt* employee type cannot have overtime hours and overtime rules are not applicable to them. For such employees, the **Exempt from Overtime Rules** check box is selected and non-editable on the **General** tab of the [Employee Payroll Settings](PR_20_30_00.md) \(PR203000\) form.
 

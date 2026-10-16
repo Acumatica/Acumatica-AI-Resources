@@ -1,8 +1,8 @@
-# Payroll Basic Configuration: General Information {#_3fe8b703-829d-4e9c-98dd-bc121ee4e67c .concept}
+# Payroll Basic Configuration: General Information
 
 This topic provides a general overview of the configuration tasks that you have to perform before you can proceed with the initial configuration of the payroll functionality in Acumatica ERP. Also, this topic describes the recommended configuration steps for the payroll functionality.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -11,14 +11,14 @@ In this chapter, you will do the following:
 -   Create numbering sequences for the payroll entities
 -   Specify payroll preferences
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure the payroll functionality in the following cases:
 
 -   You initially implement Acumatica ERP and the *Payroll* feature is included to your license.
 -   You need to configure payroll in a previously configured fully functioning environment.
 
-## Prerequisites { .section}
+## Prerequisites
 
 To prepare the system for the implementation of payroll, you perform the following general steps:
 
@@ -44,7 +44,7 @@ To prepare the system for the implementation of payroll, you perform the followi
 
 After all prerequisites have been met and the necessary entities have been created, you can start implementing the payroll functionality in the system.
 
-## Workflow of the Payroll Implementation { .section}
+## Workflow of the Payroll Implementation
 
 To implement the payroll functionality, you perform the following general steps:
 

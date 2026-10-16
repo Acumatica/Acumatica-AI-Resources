@@ -1,4 +1,4 @@
-# Screen-Based SOAP API Reference {#_a0af4bea-8162-4589-8bf9-d63f941fd15a .concept}
+# Screen-Based SOAP API Reference
 
 In this chapter, you will find the reference information for the main methods of the screen-based web services API; these methods are used to transfer data to and from Acumatica ERP.
 

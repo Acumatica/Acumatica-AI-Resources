@@ -1,4 +1,4 @@
-# Customer Discounts: Calculation of Document Discounts with Tiers by Amounts {#_955a6761-efe1-4d74-bef6-62a96f2d7db5 .concept}
+# Customer Discounts: Calculation of Document Discounts with Tiers by Amounts
 
 For document-level discounts, the discount tiers can be created only by break points defined as amounts, and the discount can be defined as a fixed amount or a percentage of the document amount. When the system processes a sales order or an invoice and finds a qualifying discount \(based on the application conditions\), the system compares the discountable amount to the break points in the discount sequence as follows:
 

@@ -1,10 +1,10 @@
-# To Export Data to XML {#_5296d05c-776f-48ea-8137-d1e74c438caa .task}
+# To Export Data to XML
 
 You can export data to an XML file from any form that supports this functionality.
 
 **Tip:** If a form supports this functionality, you can find the **Export as XML** and **Import from XML** commands on the Clipboard menu.
 
-## To Export Data to XML { .section}
+## To Export Data to XML
 
 1.  Open the form whose data you want to export.
 2.  Use the form elements or navigation buttons to select the record you want to export.

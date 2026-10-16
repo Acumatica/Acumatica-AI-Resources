@@ -1,4 +1,4 @@
-# Importing Card Refunds: Order-Level Refunds {#_8c08d554-ef28-40ed-90d3-1f633c7a6c7b .concept}
+# Importing Card Refunds: Order-Level Refunds
 
 An order-level refund may be issued, for example, if a customer has been overcharged or is not content with the quality of the product or service and needs to be partially reimbursed.
 
@@ -9,7 +9,6 @@ During the import of refunds on order amounts, if the original sales order has t
 
 The following diagram illustrates the processing of an order-level refund for a card-based payment method that is issued before the sales order has been shipped.
 
-![](Images/diag_BigCommerce_Refund_Online_NotShipped_NoReturn.png)
 
 If the original sales order has the *Completed* status on the [Sales Orders](SO_30_10_00.md) form, the following actions are performed:
 
@@ -19,7 +18,6 @@ If the original sales order has the *Completed* status on the [Sales Orders](SO_
 
 The following diagram illustrates the processing of an order-level refund for a card-based payment method that is issued after the sales order has been shipped.
 
-![](Images/diag_BigCommerce_Refund_Online_Shipped_NoReturn.png)
 
 If the original sales order has a status other than *Open*, *On Hold*, or *Completed* on the [Sales Orders](SO_30_10_00.md) form, the system displays an error message saying that the refund cannot be applied.
 

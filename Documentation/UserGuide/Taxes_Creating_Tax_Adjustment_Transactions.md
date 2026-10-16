@@ -1,4 +1,4 @@
-# Sales Tax Adjustments: Generated Transactions {#_4b60ff19-2a3f-4abd-815c-510c2cdd0dec .concept}
+# Sales Tax Adjustments: Generated Transactions
 
 For a tax adjustment of the *Adjust Output* type, the system generates the following GL batch, as shown in the following table.
 

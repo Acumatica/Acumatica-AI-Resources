@@ -1,10 +1,10 @@
-# Matrix Items: General Information {#_7ee21351-6cd7-4209-9c9d-f9f3d50680d0 .concept}
+# Matrix Items: General Information
 
 If your organization sells or purchases items with multiple attributes \(such as T-shirts that have different materials, sizes, colors, and brands\), you may want to generate items with various attributes automatically by using predefined templates. To do this, you can use matrix items in Acumatica ERP. A matrix item is a stock or non-stock item that corresponds to a physical product or a service with particular set of attributes. You define related matrix items in the system by using a template item, which provides the default settings for the particular group of matrix items.
 
 The functionality of matrix items is available if the *Matrix Items* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,7 +12,7 @@ In this chapter, you will learn how to do the following:
 -   Create template items for matrix items
 -   Create matrix items based on template items
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may need to create matrix items in the following cases:
 
@@ -20,7 +20,7 @@ You may need to create matrix items in the following cases:
 -   Your organization sells items or services with multiple variants
 -   Your organization sells items online
 
-## Template Items { .section}
+## Template Items
 
 Template items are high-level items that contain default settings for matrix items. Each template item exists solely to provide default settings for a group of matrix items; template items cannot be added to inventory transactions or to AP, AR, sales, or purchase documents. You use the [Template Items](IN_20_30_00.md) \(IN203000\) form to create, modify, and delete template items.
 
@@ -37,7 +37,7 @@ For each template item, you specify the following settings in addition to the it
 
 You can specify the prices and discounts for a template item on the [Sales Prices](AR_20_20_00.md) \(AR202000\), [Sales Price Worksheets](AR_20_20_10.md) \(AR202010\), [Discounts](AR_20_95_00.md) \(AR209500\), [Vendor Prices](AP_20_20_00.md) \(AP202000\), [Vendor Price Worksheets](AP_20_20_10.md) \(AP202010\), and [Vendor Discounts](AP_20_50_00.md) \(AP205000\) forms. These prices and discounts will be applied to the matrix items related to this template item if specific prices and discounts are not specified for the individual matrix items of the template item.
 
-## Matrix Items { .section}
+## Matrix Items
 
 When a template item is created and its settings have been specified, you create matrix items either on the **Create Matrix Items** tab of the [Template Items](IN_20_30_00.md) \(IN203000\) form or on the [Create Matrix Items](IN_20_35_00.md) \(IN203500\) form. It is not necessary to create matrix items with all possible combinations of attributes at once. You can create only the set of items that is currently required and then create other items later as they are needed. Then on the **Matrix Items** tab of the [Template Items](IN_20_30_00.md) form, you can view the list of items that have been created based on the selected template item.
 
@@ -49,7 +49,7 @@ The settings of an individual matrix item can be changed on the [Stock Items](IN
 
 If you need to completely remove a particular matrix item from the system, you can do this on the **Matrix Items** tab of the [Template Items](IN_20_30_00.md) form by selecting the Included check box in the table row of the matrix item and clicking **Delete** on the table toolbar. You can also remove the item on the [Stock Items](IN_20_25_00.md) or [Non-Stock Items](IN_20_20_00.md) form by selecting the item and then clicking **Delete** on the form toolbar.
 
-## Document Processing with Matrix Items { .section}
+## Document Processing with Matrix Items
 
 You can add any number of matrix items to purchase orders on the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form and to sales orders on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form by clicking the **Add Matrix Items** button on the table toolbar of the **Details** tab.
 
@@ -59,7 +59,7 @@ In the matrix view, which is opened when you click the **Open Matrix View** butt
 
 **Important:** You must use either the table view or matrix view to select the matrix items to be added to the document. If you select the items in the table view and then switch to the matrix view, the selection of items in the table view will be discarded.
 
-## Deleting Redundant Attributes { .section}
+## Deleting Redundant Attributes
 
 You may need to delete redundant attributes from the settings of an item class in the following cases:
 

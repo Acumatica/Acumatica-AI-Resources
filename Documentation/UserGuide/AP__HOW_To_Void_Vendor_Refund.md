@@ -1,8 +1,8 @@
-# To Void a Refund {#_926fc6af-5442-4c80-8332-0f49863d08eb .task}
+# To Void a Refund
 
 Refunds can be voided if errors have been made or the refunds are otherwise invalid. Voiding a refund reverses the original refund transactions. You can use the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form to void a refund that has been applied to a prepayment or debit adjustment.
 
-## To Void a Refund {#section_uf4_njv_vxb .section}
+## To Void a Refund
 
 1.  Open the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form.
 2.  In the **Type** box, select the *Refund* type.

@@ -1,6 +1,6 @@
-# Shop Floor Kiosk: Production Quantity Reporting {#_b3f1b151-e3c5-4793-83ba-f48b9a7ea9af .concept}
+# Shop Floor Kiosk: Production Quantity Reporting
 
-## Reporting Completed Quantity { .section}
+## Reporting Completed Quantity
 
 You report production quantities on the **Production Reporting** page for the selected operation. Depending on your workflow, you can open this page from **Work in Process**, **Work Centers**, **Production Orders**, or **Recent Activity**.
 
@@ -13,7 +13,8 @@ To report completed quantities, do the following:
 5.  Enter the completed quantity.
 6.  If the operation requires production attributes, enter the required values.
 7.  If the produced item is lot- or serial-tracked and requires lot or serial assignment during reporting, review or enter the required lot or serial numbers.
-8.  Click **Submit**.
+8.  If the item has lot or serial attributes, enter the attribute values.
+9.  Click **Submit**.
 
 For operations configured with *Actual Costing*, the **Report Completed and Scrap Qty.** button becomes available only after you clock out of the operation. This ensures that labor time is captured before quantity reporting.
 
@@ -23,7 +24,17 @@ For last operations, the system may require lot or serial number assignment depe
 -   Automatically generated lot or serial numbers
 -   Manual lot or serial entry during reporting
 
-## Reporting Scrap Quantity { .section}
+## Entering Lot and Serial Attributes
+
+When you report a completed quantity for the last operation, the **Completed** tab of the **Report Quantities** dialog box may display a **Lot Number Attributes** or **Serial Number Attributes** table if attributes have been configured for the item.
+
+Enter the lot or serial attribute values required for the reported quantity. If a required attribute is missing, the kiosk prevents you from reporting a nonzero completed quantity until you provide the required information.
+
+The entered attribute values are included in the resulting production move transaction. You can review them in the **Line Details** dialog box on the [Move](AM_30_20_00.md) \(AM302000\) form in the ERP.
+
+One set of attribute values is entered per reporting transaction and applies to the entire completed quantity. You cannot report different attribute values for different lots or serial numbers in the same transaction.
+
+## Reporting Scrap Quantity
 
 You can report scrapped quantities in the same dialog box used for completed quantity reporting.
 
@@ -31,12 +42,13 @@ To report scrap quantities, do the following:
 
 1.  Open the **Production Reporting** page for the operation.
 2.  Click **Report Completed and Scrap Qty.**.
-3.  Select the **Scrapped** tab.
+3.  Select the **Scrap** tab.
 4.  Enter the scrap quantity.
 5.  If required, select a scrap reason.
 6.  If the operation requires production attributes, enter the required values.
 7.  If the item is lot- or serial-tracked, review or enter the required tracking information.
-8.  Click **Submit**.
+8.  If the operation's **Scrap Action** is *Quarantine* and the item has lot or serial attributes, enter the attribute values.
+9.  Click **Submit**.
 
 The available scrap actions depend on the operation configuration in Acumatica ERP:
 
@@ -46,9 +58,9 @@ The available scrap actions depend on the operation configuration in Acumatica E
 
 The system validates all entered data according to the same business rules used by Acumatica ERP move transactions. If validation fails, the kiosk displays an error message without reloading the page.
 
-## Reviewing Reported Quantities { .section}
+## Reviewing Reported Quantities
 
-The quantity reporting dialog box includes sections that help you review previously reported quantities before submitting new entries.
+The **Report Quantities** dialog box includes sections that help you review previously reported quantities before submitting new entries.
 
 The dialog box displays the following information:
 
@@ -59,13 +71,15 @@ The dialog box displays the following information:
 -   **Reported Items**
     -   Previously reported completed quantities
     -   Associated lot or serial numbers when applicable
+    -   Recorded lot or serial attribute values when applicable
 -   **Scrap**
     -   Previously reported scrap quantities
     -   Associated lot or serial numbers and operations when applicable
+    -   Recorded lot or serial attribute values when applicable
 
 You can also review your recent production reporting activity on the **Recent Activity** page. This page displays recent quantity submissions, labor transactions, and material transactions for the signed-in employee.
 
-## Continuing Work After Reporting { .section}
+## Continuing Work After Reporting
 
 After you submit quantities, you can continue working on the operation if additional work remains.
 

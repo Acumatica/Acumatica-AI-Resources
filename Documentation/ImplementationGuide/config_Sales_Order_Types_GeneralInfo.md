@@ -1,10 +1,10 @@
-# Sales Order Types: General Information {#_96a00780-a0c3-4314-86ca-093004844268 .concept}
+# Sales Order Types: General Information
 
 Acumatica ERP provides a number of predefined sales order types for common processing operations, such as sales with shipment, sales without a shipment, sales by cash, sales by check, and customer returns of inventory items. On the [Order Types](../UserGuide/SO_20_10_00.md) \(SO201000\) form, you activate the order types that your company will use and make sure that they are configured to fit your company's processes.
 
 When you create a new order on the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form, you select the appropriate order type, which determines the information to be entered on the form, the processing operations to be performed for the order to be completed, and the documents to be generated during order processing.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -12,18 +12,18 @@ In this chapter, you will do the following:
 -   Activate an order type with the minimum required settings
 -   Specify optional settings that affect how an order of the type is processed
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure order types in the following cases:
 
 -   You are initially configuring order management in Acumatica ERP, and you have to activate at least one order type to be able to create and process sales orders in the system.
 -   You need to activate any of the predefined order types that are not yet active to support additional business processes.
 
-## Order Type for Recording Expected Sales { .section}
+## Order Type for Recording Expected Sales
 
 If you want to track your company's expected future sales, your employees can prepare orders of the *QT* \(*Quote*\) type on the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form. Quotes can later be converted to sales orders or canceled if the sale is no longer expected to happen. Quotes can also be used as templates for repeating orders for a particular customer. For more information, see [Processing Pre-Sale Quotes](../UserGuide/OrderMgmt_Pre-Sale_Quotes_Mapref.md).
 
-## Order Types for Processing Sales { .section}
+## Order Types for Processing Sales
 
 Acumatica ERP provides predefined order types for the processes that are used most frequently in sales. Some of the predefined order types for sales on the [Order Types](../UserGuide/SO_20_10_00.md) \(SO201000\) form are configured for sales that are processed through shipping, while others are configured for sales without shipping.
 
@@ -48,13 +48,13 @@ You choose which types of sales orders to activate and configure depending on th
 |**Billing Document to the Customer**|Invoice|Invoice|Invoice|Cash sale|
 |**Reserving Items in Inventory**|Manual|Automatic|Not needed|Not needed|
 
-## Order Type for Processing Recurring Sales { .section}
+## Order Type for Processing Recurring Sales
 
 An order of the predefined *BL* \(*Blanket Order*\) type on the [Order Types](../UserGuide/SO_20_10_00.md) \(SO201000\) form is used for the sale of large quantities of an item or multiple items that can be delivered to different customer locations over a specified period. This kind of sale can be based on a long-term agreement with the customer. Blanket sales orders can be used for planning, forecasting, and monitoring purposes because the quantities that a user enters on a blanket sales order do not affect the item availability in the warehouse, unlike the quantities in orders of the *SO* type, which are used for sales.
 
 The lines of a blanket sales order on the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form are copied to child orders on the date that you specify for shipping. A blanket sales order is completed when all child orders have been shipped.
 
-## Order Types for Processing Customer Returns { .section}
+## Order Types for Processing Customer Returns
 
 Acumatica ERP provides return order types for the most frequently used return processes, such as return for credit, return for cash, and return for replacement. In the system, sales returns can be processed through a simple workflow, in which you create a return order and then process the invoice directly from the order, or through the full workflow, in which you process the receipt of the returned item, process the shipment of the replacement item, and then prepare the invoice.
 
@@ -74,7 +74,7 @@ The following table shows a comparison of the predefined order types for returns
 |**Shipping of Replacement Items**|Not needed|Not needed|Not needed|From inventory to the customer|From inventory to the customer|
 |**Financial Document for the Customer**|Cash return document with the amount to be returned|Credit memo with the amount to be returned|Credit memo with the amount to be returned|Not needed|Invoice in the amount of the difference between the prices of returned and replacement items and \(optionally\) a restocking fee|
 
-## Order Type for Processing Both a Sale and a Customer Return { .section}
+## Order Type for Processing Both a Sale and a Customer Return
 
 An order of the predefined *MO* \(*Mixed Order*\) type on the [Order Types](../UserGuide/SO_20_10_00.md) \(SO201000\) form is used for processing both a sale and a customer return in the same order on the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form, as well as the payments and customer refunds related to this order. A mixed order may be used if a customer needs to buy and return products or services \(or receive a replacement for the returned products\) at the same time at a counter or through a point-of-sale \(POS\) system operated by a cashier. The type of the return in a mixed order is a return for cash or return for credit.
 
@@ -87,7 +87,7 @@ Mixed orders support business process requirements as follows:
 -   The billing document that is processed for the customer is a credit memo or cash return document with the amount to be returned.
 -   The financial document processed for the customer is an invoice or cash sale document.
 
-## Order Type for Processing Transfers { .section}
+## Order Type for Processing Transfers
 
 In a system with multiple warehouses or multiple warehouse locations, you may need to create and process transfer orders on the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form, which are orders of the *TR* \(*Transfer*\) order type. A transfer order tracks the goods that need to be moved between warehouses or warehouse locations before a sales order can be fulfilled. Also, transfer orders can be generated in the process of replenishment, to move goods from the source warehouse to the destination warehouse.
 

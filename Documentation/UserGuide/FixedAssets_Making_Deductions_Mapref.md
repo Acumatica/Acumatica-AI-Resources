@@ -1,4 +1,4 @@
-# Making Deductions from Fixed Assets {#_a6a4c17a-f8e4-4557-bd16-7b0e128a1a1c .concept}
+# Making Deductions from Fixed Assets
 
 In this chapter, you will learn about making a deduction from a fixed asset, which reduces its cost and net value.
 

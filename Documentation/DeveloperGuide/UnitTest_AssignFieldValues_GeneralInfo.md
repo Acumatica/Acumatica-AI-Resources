@@ -1,19 +1,19 @@
-# Correct Assignment of Field Values in Tests: General Information {#_17a2b99d-7721-430e-bc24-d1a3906138d4 .concept}
+# Correct Assignment of Field Values in Tests: General Information
 
 When you create unit tests for graphs or graph extensions, you may encounter various difficulties related to assigning field values: If you assign field values in the wrong places, the results of the code execution may be unpredictable.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Specify the values of key and non-key fields when an object is created or updated
 -   Use the default field values when an object is created
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 In unit tests, you specify field values every time you create or update DAC objects in the cache.
 
-## Assignment of Values to Fields { .section}
+## Assignment of Values to Fields
 
 When you are assigning values to DAC fields in unit tests, you need to handle key fields and non-key fields differently.
 

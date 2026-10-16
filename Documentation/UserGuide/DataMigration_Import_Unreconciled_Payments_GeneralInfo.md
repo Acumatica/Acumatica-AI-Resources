@@ -1,19 +1,19 @@
-# Migration of Unreconciled Payments: General Information {#_ca0c7823-c48c-46a8-b809-6f718db781e6 .concept}
+# Migration of Unreconciled Payments: General Information
 
 If you are reconciling an account from a financial institution, you compare its statement to the transactions of the cash account as tracked in your system. Regular reconciliations can reduce the number of errors on accounts and make it easier to find overlooked transactions, such as missing payments or checks that have not been deposited or cashed. After the initial balances have been imported into the system, you need to import outstanding checks and deposits in progress and perform an initial reconciliation for the cash accounts.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Import the outstanding checks and deposits in transit into the system
 -   Create a first reconciliation statement
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You import unreconciled payments during the data migration process to prepare the system for bank reconciliation to be performed before the beginning of Acumatica ERP usage. Then you match the balances in the company’s accounting records for a cash account to the corresponding information on a bank statement to perform the first bank reconciliation.
 
-## Creation of GL Transaction with Unreconciled Payments {#section_vv2_1y4_y4b .section}
+## Creation of GL Transaction with Unreconciled Payments
 
 The initial balance of the cash accounts is imported into the system with the trial balance import procedure. When you import payments with open balances in migration mode, these payments affect neither cash account balances nor account balances in the general ledger. If you are planning to perform bank reconciliation, you must post general ledger transactions for all unreconciled checks and deposits so that these GL transactions posted to the bank account will be available for further reconciliation.
 
@@ -26,7 +26,7 @@ To create a journal transaction with the outstanding checks and the deposits in 
 
 If you have added all outstanding checks and deposits in transit, in the resulting GL transaction, **Debit Total** must be equal to **Credit Total**.
 
-## Steps of the Reconciliation Process {#section_k12_kjv_vxb .section}
+## Steps of the Reconciliation Process
 
 Reconciliation generally has the following goals:
 

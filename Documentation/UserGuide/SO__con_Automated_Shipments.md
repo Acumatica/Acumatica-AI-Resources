@@ -1,4 +1,4 @@
-# Automatic Packaging for Integrated Carriers {#_b38ca77b-21a9-4d29-a36a-1349f204413a .concept}
+# Automatic Packaging for Integrated Carriers
 
 To automate the processing of sales orders, you can configure the system to automatically determine the optimal set of boxes for sales orders and for shipments to be sent via the integrated carriers. For detailed instructions on configuring integration with the carriers, refer to [Configuring Carriers, Packaging, and Freight](SO__CNF_Int_Carriers.md).
 
@@ -6,7 +6,7 @@ To automate the processing of sales orders, you can configure the system to auto
 
 The configuration of automatic packaging is described in detail in [To Configure Automatic Packaging](SO__How_Configure_Automatic_Packaging.md).
 
-## Package Calculation for a Sales Order { .section}
+## Package Calculation for a Sales Order
 
 Once the automatic packaging functionality has been configured, you can use it when you prepare a sales order for shipping or create a consolidated shipment.
 
@@ -26,7 +26,7 @@ Based on the system's suggestions, you can select the ship via code with lowest 
 
 In some cases, you may need to edit the packages manually. If you select the **Manual Packaging** check box, you can adjust information about the boxes and their contents to match the quantities and weights of actual packages. For more information, see [Manual Packaging of Items](SO__con_Manual_Packaging.md). If you have specified the declared values or changed the COD settings for any packages of the order, selecting the **Manual Packaging** option will prevent the system from automatically recalculating these packages and thus resetting the specified values.
 
-## Package Calculation for Consolidated Shipments { .section}
+## Package Calculation for Consolidated Shipments
 
 When you initiate a shipment creation for the order, the system recalculates the packages and the carrier charges based on the selected ship via code because there may be insufficient quantities of items listed in the order. Information about particular boxes used for the shipment becomes available for reviewing on the **Packages** tab. Packages will not be recalculated if the **Manual Packaging** option has been selected for the order.
 

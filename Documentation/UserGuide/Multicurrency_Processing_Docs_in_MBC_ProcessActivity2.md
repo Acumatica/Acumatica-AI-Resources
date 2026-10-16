@@ -1,12 +1,12 @@
-# Documents in Different Base Currencies: To Process an AP Bill {#_589650bb-e84e-4604-ace2-d579ee56bb85 .task}
+# Documents in Different Base Currencies: To Process an AP Bill
 
 The following activity will walk you through the process of processing a bill between the branches that use different base currencies.
 
-## Story {#section_v5y_3jv_vxb .section}
+## Story
 
 Suppose that in January 2026, the *MHEAD* branch of the Muffins &amp; Cakes company purchased 10 hours of consulting services from SweetLife Canada. Acting as Kimberly Gibbs, an employee who has access to the Muffins and SweetLife Canada companies, you need to extend the *SLCANADA* branch as a vendor and create an AP bill for the *MHEAD* branch. This bill is based on the invoice from SweetLife Canada. Because SweetLife Canada has an agreement with the *MHEAD* branch that they bill them in the US dollars, the corresponding bill in the *MHEAD* books should be in *USD*.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -14,11 +14,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Companies](CS_10_15_00.md) \(CS101500\) form, the *MUFFINS* company has been configured.
 -   On the [Branches](CS_10_20_00.md) \(CS102000\) form, the *MHEAD* branch of the *MUFFINS* company has been created.
 
-## Process Overview {#section_z5y_3jv_vxb .section}
+## Process Overview
 
 In this activity, you will extend the *SLCANADA* branch to be a vendor on the [Vendors](AP_30_30_00.md) \(AP303000\) form. You will then generate an AP bill on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, release the bill, and review the generated GL transaction on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## System Preparation {#section_bvy_3jv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -32,7 +32,7 @@ Before you begin performing the steps of this activity, do the following:
 8.  On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, be sure that you have defined the default price in *CAD* for the *CONSULT* item, as described in [Prices in Base Currencies: Process Activity](Finance_Prices_MBC_Process_Activity.md), which is a prerequisite activity.
 9.  Be sure that you have created an AR invoice for the *MHEAD* customer, as described in [Documents in Different Base Currencies: To Process an AR Invoice](Multicurrency_Processing_Docs_in_MBC_ProcessActivity1.md), which is a prerequisite activity.
 
-## Step 1: Extending the *SLCANADA* Branch to Be a Vendor {#section_dvy_3jv_vxb .section}
+## Step 1: Extending the *SLCANADA* Branch to Be a Vendor
 
 To extend the *SLCANADA* branch to be a vendor, do the following:
 
@@ -49,7 +49,7 @@ To extend the *SLCANADA* branch to be a vendor, do the following:
     -   **Cash Account**: *10215SL*
 8.  On the form toolbar, click **Save** to save your changes.
 
-## Step 2: Creating an Intercompany AP Bill {#section_fvy_3jv_vxb .section}
+## Step 2: Creating an Intercompany AP Bill
 
 To create an AP bill between branches that use different base currencies, do the following:
 

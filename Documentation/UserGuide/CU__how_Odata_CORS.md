@@ -1,10 +1,10 @@
-# Generic Inquiry Access Through OData: To Configure CORS {#_6b96531f-f0b7-4532-accb-f625f4e5a388 .task}
+# To Configure CORS
 
 Acumatica ERP uses cross-origin resource sharing \(CORS\) to allow access to OData endpoints for client-side applications. To enforce limitations on CORS requests, you change the CORS settings for the web server of your Acumatica ERP instance.
 
 **Important:** Because saving changes in `web.config` restarts the site of the application, make sure that all users of your website are warned about the site restart so that they can save records being entered.
 
-## To Configure CORS { .section}
+## To Configure CORS
 
 1.  Open the `web.config` file, which is located in the folder that contains the application instance website.
 2.  In the file, find the `cors` section, shown below, within the `odata` section.

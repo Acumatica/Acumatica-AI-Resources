@@ -1,4 +1,4 @@
-# Manual Packaging of Items {#_77128f00-262a-44d6-b2b2-f3915b0e3cef .concept}
+# Manual Packaging of Items
 
 You can specify that certain items should always be packed manually—for example, if the items are small and can fit into a box packed with other items. To exclude such items from automatic packaging, you should select *Manual* in the **Packaging Option** box on the [Stock Items](IN_20_25_00.md) \(IN202500\) form \(on the **Packaging** tab\). Manual packaging can be configured for items regardless of which carrier, integrated or local, is used for shipping these items.
 

@@ -1,12 +1,12 @@
-# Employee Payroll Settings: Configuration Prerequisites {#_66b19389-a02f-4b35-a2bd-c4dd43c27c4a .concept}
+# Employee Payroll Settings: Configuration Prerequisites
 
 Before you start specifying employee payroll settings, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Payroll* feature has been enabled.
 
-## Configuring the System { .section}
+## Configuring the System
 
 The following tasks have been performed in Acumatica ERP:
 

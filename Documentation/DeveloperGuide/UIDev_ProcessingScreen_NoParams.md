@@ -1,10 +1,9 @@
-# Processing Form: A Form with Only a Grid {#_d8ecfa47-e5fa-4170-aad3-1b11ac6696d5 .concept}
+# Processing Form: A Form with Only a Grid
 
 The following topic describes how to configure a processing form that contains only a table and does not contain the Selection area or table filters \(also called quick filters\). \(In the Classic UI, these forms were based on the GridView template.\) The following screenshot shows an example of a form with this layout.
 
-![](Images/UIDev_ProcessingScreen_NoParams.PNG "A processing form without the Selection area or table filters")
 
-## View Definition in TypeScript { .section}
+## View Definition in TypeScript
 
 For a processing form with only a table \(and no Selection area or table filters\), you need to use the following in the TypeScript file of the form:
 
@@ -14,7 +13,7 @@ For a processing form with only a table \(and no Selection area or table filters
 
 The following code shows an example of this implementation of a processing form.
 
-```language-javascript
+```javascript
 import {
     PXView, PXFieldState, commitChanges, graphInfo, PXScreen, createCollection
 } from "client-controls";
@@ -46,11 +45,11 @@ export class ActivityTypes extends PXView {
 }
 ```
 
-## Layout in HTML { .section}
+## Layout in HTML
 
 For a processing form with only a table \(and no Selection area or table filters\), you define the layout by adding one `qp-grid` control to the HTML code of the form, as shown in the following example.
 
-```language-xml
+```xml
 <template>
     <qp-grid id="grid" view.bind="ActivityTypes">
     </qp-grid>

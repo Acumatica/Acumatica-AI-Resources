@@ -1,6 +1,6 @@
 # Security Policy
 
-Only the latest published Acumatica release branch is supported. The current supported branch is `2026R1`.
+Only the latest published Acumatica release branch is supported. The current supported branch is `2026R2`.
 
 Report suspected vulnerabilities through GitHub's private vulnerability reporting feature: open **Security and quality**, select **Advisories**, and then select **Report a vulnerability**. Do not disclose security issues in public issues, pull requests, discussions, or email.
 

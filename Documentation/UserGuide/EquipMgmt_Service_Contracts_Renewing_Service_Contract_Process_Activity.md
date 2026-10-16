@@ -1,16 +1,16 @@
-# Renewal of Service Contracts: Process Activity {#_8fe7de14-05b8-42c0-ac68-f471acb9808e .task}
+# Renewal of Service Contracts: Process Activity
 
 The following activity will walk you through the process of renewing a service contract.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Fruits &amp; Jams company has signed in a service contract with the GoodFood One Restaurant customer. The customer wants to be able to extend the contract for one year after the contract expiration date.
 
 Acting as the service manager of *Service and Equipment Sales Center* \(Maia Davis\), you need to create a renewable service contract, renew the contract, and then manually update the status of the service contract to *Expired*.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following configuration tasks have been performed to prepare the system for this activity to be performed:
 
@@ -27,18 +27,18 @@ In the *U100* dataset, the following configuration tasks have been performed to 
 -   On the [Employees](EP_20_30_00.md#) \(EP203000\) form, *EP00000040 \(Maia Davis\)* has been created, and the **Staff Member in Service Management** check box has been selected on the **General Info** tab.
 -   On the [User Profile](SM_20_30_10.md) \(SM203010\) form, the *SWEETEQUIP* default branch and *WEST BRIGHTON* default branch location have been specified for *Maia Davis*.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Service Contracts](FS_30_57_00.md) \(FS305700\) form, you will create a renewable service contract. Then on the same form, you will renew the service contract so that its expiration date will be moved forward by the duration specified in the **Duration** box, and its start date will be modified. Once it is done, you will update the service contract status by using the [Process Service Contracts](FS_50_12_00.md) \(FS501200\) form.
 
-## System Preparation {#section_jbg_hk3_1rb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as a service manager by using the *davis* username, and the *123* password.
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business Date menu button, and select the 1/30/2026 date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating a Renewable Service Contract { .section}
+## Step 1: Creating a Renewable Service Contract
 
 To create a renewable service contract, do the following:
 
@@ -56,7 +56,7 @@ To create a renewable service contract, do the following:
 6.  On the form toolbar, click **Save**.
 7.  On the form toolbar, click **Activate**. The system has inserted *1/30/2026* in the **Effective From Date** box of the Summary area.
 
-## Step 2: Renewing the Service Contract { .section}
+## Step 2: Renewing the Service Contract
 
 Assume that one year has passed since contract activation, the contract expiration date has come, and you, acting as a service manager, are renewing the service contract. Do the following:
 
@@ -66,10 +66,9 @@ Assume that one year has passed since contract activation, the contract expirati
 
 2.  On the **History** tab, review the list of actions that have been performed with the service contract \(see the following screenshot\).
 
-    ![](Images/EquipMgmt_Service_Contracts_Renewable.png "The History tab on the Service Contracts form")
 
 
-## Step 3: Updating the Status of the Service Contract to Expired { .section}
+## Step 3: Updating the Status of the Service Contract to Expired
 
 Suppose that once two years have passed, the customer does not want to prolong the service contract. Thus, you need to mark the contract status as *Expired* in the system. In the Summary area of the [Service Contracts](FS_30_57_00.md) \(FS305700\) form, notice that the upcoming status of the contract is *Expired*. To update the status of the contract manually, do the following:
 
@@ -82,7 +81,6 @@ Suppose that once two years have passed, the customer does not want to prolong t
 7.  On the [Service Contracts](FS_30_57_00.md) \(FS305700\) form, which opens, notice that the status of the contract has changed to *Expired* \(see Item 1 in the following screenshot\).
 8.  On the **History** tab of the form, notice that the *Expire* action has been performed on the service contract on *1/29/2027* \(Item 2\).
 
-    ![](Images/EquipMgmt_Service_Contracts_Update_to_Expired.png "The history of actions performed on the service contract")
 
 
 **Parent topic:**[Renewing Service Contracts](../UserGuide/EquipMgmt_Renewal_Service_Contracts_Mapref.md)

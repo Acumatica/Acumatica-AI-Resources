@@ -1,8 +1,8 @@
-# Lead Qualification by Sales Teams: Implementation Checklist {#_2ec8fef6-f822-45f8-8e51-da077810552c .concept}
+# Lead Qualification by Sales Teams: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for qualifying leads by a sales team, and to understand \(and change, if needed\) the settings that affect the workflow of qualifying leads.
 
-## Implementation Checklist {#_91a69c31-6188-4c25-bc5c-1155822fd773 .section}
+## Implementation Checklist
 
 We recommend that before you start qualifying leads, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -13,7 +13,7 @@ We recommend that before you start qualifying leads, you make sure the needed fe
 |[Lead Classes](CR_20_70_00.md) \(CR207000\)|Lead classes with the necessary settings and attributes have been created.|
 |[Opportunity Classes](CR_20_90_00.md) \(CR209000\)|Opportunity classes with the necessary settings and attributes have been created.|
 
-## Validation of Configuration { .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you perform instructions similar to those described in the following topics:
 

@@ -1,8 +1,8 @@
-# Blanket Sales Orders: General Information {#_cbe877b1-188b-42b8-bf94-4b3140f10025 .concept}
+# Blanket Sales Orders: General Information
 
 In Acumatica ERP, a blanket sales order is an order with large item quantities that you enter to reflect a customer's plans to buy this quantity over a period of time. The quantities in a blanket sales order are used for planning purposes and do not affect the item availability in the warehouse, unlike the quantities in regular sales orders. The blanket sales order will be used as a framework from which multiple child orders will be created. These orders may involve delivery to multiple locations of the customer.
 
-## Learning Objectives {#section_rwj_zd4_rvb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -11,14 +11,14 @@ In this chapter, you will learn how to do the following:
 -   Generate child orders for a blanket sales order
 -   Perform quick processing of the child orders
 
-## Applicable Scenarios {#section_rvs_dck_xvb .section}
+## Applicable Scenarios
 
 You use blanket sales orders in the following cases:
 
 -   When you need to record the sales of large quantities of items to the same customer over a specified period
 -   When you need to plan, monitor, or forecast sales to a customer without affecting the availability of the included items in stock
 
-## Sales with Blanket Sales Orders { .section}
+## Sales with Blanket Sales Orders
 
 A blanket sales order in Acumatica ERP has an order type for which the *Blanket Order* automation behavior is specified on the **Template** tab of the [Order Types](SO_20_10_00.md) \(SO201000\) form. You can use the predefined *BL* order type, which has this automation behavior, for the processing of blanket sales orders. For details, see [Sales Order Types: General Information](../ImplementationGuide/config_Sales_Order_Types_GeneralInfo.md).
 
@@ -39,7 +39,7 @@ Then you use the [Shipments](SO_30_20_00.md) \(SO302000\) form to prepare and co
 
 When a shipment for a child order is confirmed, you need to bill the customer for the shipped items by preparing a sales invoice, which is a financial document in the system that contains links to the applicable shipments and sales orders. You can review the prepared sales invoice on the [Invoices](SO_30_30_00.md) \(SO303000\) form and then you release it. When the sales invoice is released, it becomes visible on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form as an AR invoice.
 
-## Splitting of Lines in the Line Details Dialog Box {#section_ujs_nz4_rvb .section}
+## Splitting of Lines in the Line Details Dialog Box
 
 By default, when you add a line with an item to the blanket sales order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, the system displays only one line in the **Line Details** dialog box. You open this dialog box on the **Details** tab by clicking the line and then clicking **Line Details** on the table toolbar. In blanket sales orders, you can split the line in the **Line Details** dialog box into multiple lines and enter different data for each of the lines in the following columns: **Sched. Order Date**, **Customer Order Nbr.**, **Allocated**, and **PO Creation Date**. The editing of the **Alloc. Warehouse** column is disabled because transfers between warehouses are not supported for blanket sales order processing.
 
@@ -51,7 +51,7 @@ When you create child orders, the system generates a separate child order on the
 
 The customer order number in the **Line Details** dialog box is empty by default. If you specify the customer order number, the system inserts it into the **Customer Order Nbr.** box in the Summary area of the [Sales Orders](SO_30_10_00.md) form for the generated child order.
 
-## Expiration of a Blanket Sales Order {#section_g4w_4nk_xvb .section}
+## Expiration of a Blanket Sales Order
 
 You can specify an expiration date for a blanket sales order in the **Expires On** box in the Summary area of the [Sales Orders](SO_30_10_00.md) \(SO301000\) form. This box is empty by default, and you can leave it empty if no expiration date is known.
 
@@ -66,13 +66,13 @@ You can also create a schedule for the system to regularly process expired order
 
 **Important:** If the blanket sales order has any payment applications, allocations of items, or links to purchase orders, they are not removed when the order is assigned the *Expired* status. Instead, the system displays warning messages about the lines with payment methods, allocations, or links to purchase orders, which you can review and manually remove. Alternatively, you can extend the expiration date if the agreement with the customer will continue. If you cancel a blanket sales order with the *Expired* status by clicking **Cancel Order** on the More menu, the allocations and the links to purchase orders are removed automatically.
 
-## Shipping Location in Blanket Sales Orders {#section_u3d_4z4_rvb .section}
+## Shipping Location in Blanket Sales Orders
 
 The **Ship-To Location** on the **Details** tab of the [Sales Orders](SO_30_10_00.md) \(SO301000\) form is mandatory for each line of the blanket sales order. By default, the system copies this value from the customer location specified in the **Location** box in the Summary area of the [Sales Orders](SO_30_10_00.md) form. You can manually change the value in any line.
 
 In child orders, the value of the **Location** box in the Summary area is copied from the **Ship-To Location** column of the blanket sales order line. When you create child orders, the system generates a separate child order for each location and groups lines with the same location within one child order.
 
-## Transfer of a Payment or Prepayment Application from a Blanket Sales Order to a Child Order { .section}
+## Transfer of a Payment or Prepayment Application from a Blanket Sales Order to a Child Order
 
 You can apply a payment or prepayment from a blanket sales order to one of its child orders. A payment or prepayment can be transferred from a blanket sales order to one of its child orders in either of the following ways:
 

@@ -1,14 +1,14 @@
-# Depreciation of Additions: Process Activity {#_2ee6ec64-a069-45de-a1f5-3ef5acbc5773 .task}
+# Depreciation of Additions: Process Activity
 
 The following activity will walk you through the process of performing full depreciation of an addition to a fixed asset.
 
-## Story {#section_hcg_ljv_vxb .section}
+## Story
 
 Suppose that on May 2, 2027, SweetLife Fruits &amp; Jams paid for the additional search engine optimization of the website. The company’s management has decided to capitalize these expenses.
 
 To capitalize the additional site optimization, acting as a SweetLife accountant, you need to make an addition to the fixed asset for the website; the addition should be made on the start of the second year of website usage. Then you need to calculate depreciation for the entire useful life of the asset. To make the asset's net value in the *FIN* book 0 at the end of the useful life, you need to switch the depreciation method for this particular asset to the *Remaining Value* method. After that, you need to completely depreciate the website asset in two books and make a depreciation adjustment for the *TAX* book.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -16,11 +16,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, the needed GL accounts have been created.
 -   On the [Fixed Assets Preferences](FA_10_10_00.md) \(FA101000\) form, the **Automatically Release Depreciation Transactions** check box has been selected.
 
-## Process Overview {#section_lcg_ljv_vxb .section}
+## Process Overview
 
 In this activity, you will create an AP bill on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form and convert this purchase on the [Convert Purchases to Assets](FA_50_45_00.md) \(FA504500\) form. On the [Fixed Assets](FA_30_30_00.md) form, you will calculate depreciation for the *SweetLife website* asset. On the [Calculate Depreciation](FA_50_20_00.md) \(FA502000\) form, you will recalculate depreciation for the fixed asset. Finally, on the [Fixed Asset Transactions](FA_30_10_00.md) \(FA301000\) form, you will create and release a depreciation adjustment transaction.
 
-## System Preparation {#section_ncg_ljv_vxb .section}
+## System Preparation
 
 Before you begin performing the full depreciation of an addition to a fixed asset, do the following:
 
@@ -31,7 +31,7 @@ Before you begin performing the full depreciation of an addition to a fixed asse
 5.  Make sure that you have created the *SweetLife website* fixed asset and calculated its depreciation in two books by performing the [Asset Depreciation: To Calculate Depreciation in Two Books](FixedAssets_Depreciation_Perform_Depr_in_Two_Books.md) prerequisite activity.
 6.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step 1: Updating the Fixed Asset Preferences {#section_pcg_ljv_vxb .section}
+## Step 1: Updating the Fixed Asset Preferences
 
 To update the fixed asset preferences, do the following:
 
@@ -39,7 +39,7 @@ To update the fixed asset preferences, do the following:
 2.  In the **Depreciation History View** box \(**Other** section\), select *By Book*.
 3.  On the form toolbar, click **Save** to save your changes.
 
-## Step 2: Calculating Depreciation with the *Remaining Value* Method {#section_rcg_ljv_vxb .section}
+## Step 2: Calculating Depreciation with the *Remaining Value* Method
 
 To create an addition to the fixed asset and calculate its depreciation with the *Remaining Value* method, do the following:
 
@@ -68,7 +68,6 @@ To create an addition to the fixed asset and calculate its depreciation with the
 11. On the More menu, click **Calculate Depreciation**.
 12. Review the **Depreciation** tab, as shown in the following screenshot.
 
-    ![](Images/activity_FA_Depreciating_Addition_Recalculated_Depreciation.png "Recalculated depreciation of the website after the addition")
 
     When you are depreciating a fixed asset with an addition, the depreciation amount is calculated as follows:
 
@@ -86,10 +85,9 @@ To create an addition to the fixed asset and calculate its depreciation with the
 15. On the More menu, click **Calculate Depreciation**.
 16. Review the **Depreciation** tab \(see the screenshot below\). Because the system fully depreciates the addition through 24 months \(from 05-2027 through 04-2029\), the depreciation expenses for the addition are $30 \($720 / 24\), and the total depreciation expenses are $280 per month. At the end of the asset's life, the entire cost of the asset and the asset addition will be fully depreciated.
 
-    ![](Images/activity_FA_Depreciating_Addition_Recalculated_for_RV.png "Depreciation of the website calculated with the Remaining Value method")
 
 
-## Step 3: Fully Depreciating the Fixed Asset {#section_xcg_ljv_vxb .section}
+## Step 3: Fully Depreciating the Fixed Asset
 
 To depreciate the *SweetLife website* asset through its entire life, do the following:
 
@@ -113,7 +111,7 @@ To depreciate the *SweetLife website* asset through its entire life, do the foll
     As you can see, the net value of the *SweetLife website* asset is $0.00 in the *FIN* book. In the *TAX* book, you have a small undepreciated expense of $115.55, which is the undepreciated amount of the addition that has been done on 5/2/2027. You can depreciate this amount manually by making an adjustment transaction.
 
 
-## Step 4: Making a Depreciation Adjustment {#section_cdg_ljv_vxb .section}
+## Step 4: Making a Depreciation Adjustment
 
 To manually create a depreciation adjustment transaction, do the following:
 
@@ -131,7 +129,6 @@ To manually create a depreciation adjustment transaction, do the following:
 
     After you select the transaction type, the system automatically populates the needed debit and credit accounts, as shown in the following screenshot.
 
-    ![](Images/activity_FA_Depreciating_Addition_Adjustment_Transaction.png "Depreciation adjustment transaction")
 
 5.  On the form toolbar, click **Release** to release the transaction.
 6.  On the [FA Balance](FA_63_00_00.md) \(FA630000\) report form, clear the **Book** box on the **Report Parameters** tab.

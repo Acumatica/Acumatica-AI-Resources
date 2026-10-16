@@ -1,10 +1,10 @@
-# Custom Attributes {#_c15d3d56-f7c8-4026-8e06-c72982635451 .concept}
+# Custom Attributes
 
 Typically, you use custom attributes for DAC fields to reuse the same behavior or business logic in multiple places of the application.
 
 If you want to add new functionality that can be used in multiple places of the application \(for instance, automatic numbering of documents\), you can create a custom attribute from scratch. To implement the new logic, you need to handle the events on which the logic should be performed. Acumatica Framework automatically subscribes attribute methods that implement interfaces to the corresponding events; you do not have to manually subscribe these methods to events. In many cases, you can also add static methods to the attribute class to provide the dynamic API of the attribute. By using these methods, you can change the attribute parameters of DAC fields in a graph at runtime.
 
-## Creation of a Custom Attribute { .section}
+## Creation of a Custom Attribute
 
 To create a custom attribute from scratch, you do the following \(see the sample code below\):
 
@@ -65,7 +65,7 @@ public class MyFieldAttribute : PXEventSubscriberAttribute,
 }
 ```
 
-## Implementation of the Attribute Constructor and CacheAttached Methods { .section}
+## Implementation of the Attribute Constructor and CacheAttached Methods
 
 In the constructor, you usually validate input parameters and save them to internal objects of the attribute. However, to read data from the database or conditionally configure the attribute, you typically use the CacheAttached\(\) method of the attribute. When you create a custom attribute, you should take into account that the attribute constructor is invoked only during domain startup and on the initialization of a graph with the CacheAttached\(\) event handler \(see [CacheAttached: General Information](CodeCustomization_CacheAttached_GeneralInfo.md)\).
 
@@ -73,7 +73,7 @@ We recommend that you read the data from the database in the graph execution con
 
 **Note:** Do not confuse the CacheAttached\(\) method that you implement in attributes with the `CacheAttached()` event handler that you define in a graph. The `CacheAttached()` event handler of the graph has no implementation and is used as a marker to substitute attributes on the specified DAC field in that particular graph. The CacheAttached\(\) method implemented in attributes is invoked on attributes that are current for the graph when the appropriate cache is initialized.
 
-## Implementation of a Static Method of an Attribute { .section}
+## Implementation of a Static Method of an Attribute
 
 To implement a static method that provides dynamic configuration of the attribute, you can define a static method, taking into account the following considerations:
 
@@ -113,7 +113,7 @@ public virtual void Document_RowPersisting(PXCache cache, PXRowPersistingEventAr
 }
 ```
 
-## Event Handlers Implemented in Attributes and Graphs { .section}
+## Event Handlers Implemented in Attributes and Graphs
 
 Event handlers implemented in graphs are stored in separate collections in the graph for each event. The framework determines which attribute handlers an attribute defines based on the interfaces the attribute implements.
 
@@ -121,7 +121,7 @@ The attribute and graph handlers that handle the same event are executed in the 
 
 In the *-ed* events, such as RowUpdated, attribute handlers are executed before handlers implemented in the graph. In *-ed* events, you typically implement some additional logic, and you cannot cancel attribute handlers.
 
-## Example {#_42d05654-3d75-459f-89a4-c57f9bb7b602 .section}
+## Example
 
 In this section, you can find an example of the creation of a custom attribute that provides automatic numbering of documents.
 

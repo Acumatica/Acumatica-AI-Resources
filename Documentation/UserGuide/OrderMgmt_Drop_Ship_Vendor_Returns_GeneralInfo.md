@@ -1,8 +1,8 @@
-# Drop-Ship Vendor Returns: General Information {#_6385c4f9-6668-4018-b181-963ff9b2fc08 .concept}
+# Drop-Ship Vendor Returns: General Information
 
 In Acumatica ERP, you can process the return of the drop-shipped items directly from a customer to a vendor, without receiving the items to your inventory. You handle these vendor returns by creating and processing a return order \(that is, a sales order of an order type designated for returns\) with the drop-shipped items to be returned and a purchase return, as well as the needed documents to adjust the customer and vendor balances.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,11 +10,11 @@ In this chapter, you will learn how to do the following:
 -   Create a purchase return \(that is, a purchase order of the *Return* type\) for the drop-shipped items
 -   Process the purchase return and the related documents
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 In most cases, the drop-ship sales process is completed when the customer receives the items from the vendor and the corresponding accounts payable and receivable documents are released to adjust your balance with the vendor and customer. In some cases, however, items are delivered in an unsatisfactory condition or shipped by mistake and should be returned to the vendor for replacement or reimbursement.
 
-## Drop-Ship Vendor Returns { .section}
+## Drop-Ship Vendor Returns
 
 The standard drop-ship vendor return process includes the creation of a return order \(which is a type of sales order document\), the specification of the returned items and their quantities in the return order, the return of the items to the vendor, and the adjustment to the vendor and customer balances in the system in the returned amount.
 
@@ -33,11 +33,10 @@ To process a debit adjustment for the items that have been returned to the vendo
 
 To process the credit memo to the customer, the sales manager opens the previously created return order on the [Sales Orders](SO_30_10_00.md) form and creates an invoice by clicking **Prepare Invoice** on the form toolbar. The system opens the [Invoices](SO_30_30_00.md) \(SO303000\) form with a credit memo created. Then you release the credit memo by clicking **Release** on the form toolbar.
 
-## Workflow of a Drop-Ship Vendor Return { .section}
+## Workflow of a Drop-Ship Vendor Return
 
 For a drop-ship vendor return, the typical processing involves the actions and generated documents shown in the following diagram.
 
-![](Images/diag_OrderMgmt_Drop-Ship_Vendor_Return.png)
 
 **Parent topic:**[Processing Drop-Ship Vendor Returns](../UserGuide/OrderMgmt_Drop_Ship_Vendor_Returns_Mapref.md)
 

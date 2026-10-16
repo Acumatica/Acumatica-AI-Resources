@@ -1,8 +1,8 @@
-# Consolidated Financial Statement: General Information {#_b8d0b1dd-6bd0-458a-9309-6638727e0b74 .concept}
+# Consolidated Financial Statement: General Information
 
 Acumatica ERP provides the Analytical Report Manager \(ARM\) toolkit, which you can use to build analytical reports that retrieve amounts posted to particular general ledger accounts and subaccounts. You can configure these reports to display data for a company, a company group, or particular branches of a company.
 
-## Learning Objectives {#section_oh1_jjv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,11 +10,11 @@ In this chapter, you will learn how to do the following:
 -   Create and configure a unit set and column set and apply them to an analytical report
 -   Run the analytical report to display consolidated financial data for two companies in USD
 
-## Applicable Scenarios {#section_qh1_jjv_vxb .section}
+## Applicable Scenarios
 
 You create a consolidated financial statement if you need to review the consolidated data of multiple companies that are configured in the same tenant. If these companies have different base currencies, you have to translate them into the same currency first.
 
-## Structure of an ARM Report {#section_sh1_jjv_vxb .section}
+## Structure of an ARM Report
 
 An ARM report typically consists of the following elements:
 
@@ -25,7 +25,7 @@ An ARM report typically consists of the following elements:
 
 You can use each row set, column set, or unit set in one report definition or in multiple definitions.
 
-## Filtering of Data with Unit Sets {#section_vh1_jjv_vxb .section}
+## Filtering of Data with Unit Sets
 
 You can use a unit set to organize the report structure in the following cases:
 
@@ -34,7 +34,7 @@ You can use a unit set to organize the report structure in the following cases:
 
 A unit set can include one unit or multiple units that specify how the data is selected, calculated, and displayed in reports. In the report, you can view data for each individual unit, which could be a branch or a cost center, as well as data consolidated for all the units.
 
-## Workflow of Preparing a Consolidated Financial Statement {#section_vv2_1y4_y4b .section}
+## Workflow of Preparing a Consolidated Financial Statement
 
 When you are preparing a consolidated financial statement of multiple companies using different base currencies, the typical process involves the actions and generated documents shown in the following diagram.
 

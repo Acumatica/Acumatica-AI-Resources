@@ -1,4 +1,4 @@
-# Emails and Activities: Emails {#_631a7d8b-15bb-4882-baa3-ca72fb930ddb .concept}
+# Emails and Activities: Emails
 
 In Acumatica ERP, you can communicate with your company's prospects, customers, vendors, and employees by using emails, which you can quickly and easily create in several different ways:
 
@@ -10,7 +10,7 @@ You can also delete any of the created emails if you no longer need them.
 
 This topic provides more details about the flexible ways to create emails, configure mailing settings, and delete emails in Acumatica ERP.
 
-## Configuration of Mailing Settings {#section_ddd_33k_c5b .section}
+## Configuration of Mailing Settings
 
 Acumatica ERP gives you the ability to specify default settings, including the email address of the sender and the notification templates to be used in CRM. You can configure the default mailing settings as follows:
 
@@ -33,7 +33,7 @@ For each mailing listed on the forms mentioned above, the following settings may
 -   The report that will be attached to the email and the format of the attachment
 -   The list of recipients
 
-## Order of Applying Mailings { .section}
+## Order of Applying Mailings
 
 If you attempt to send a document to a business account by email, the system checks for the presence of mailings for this type of document in the following order and applies the first one it finds:
 
@@ -44,13 +44,13 @@ If you attempt to send a document to a business account by email, the system che
 
 If no mailing for this type of document is found, the system does not send the document by email and shows an error message.
 
-## Creation of Emails from a Data Entry Form { .section}
+## Creation of Emails from a Data Entry Form
 
 In Acumatica ERP, you can create an email associated with an entity by clicking **Create Email** on the table toolbar of the **Activities** tab of some data entry forms, such as [Business Accounts](CR_30_30_00.md) \(CR303000\) or [Leads](CR_30_10_00.md) \(CR301000\) form.
 
 On other data entry forms, such as [Invoices and Memos](AR_30_10_00.md) \(AR301000\) or [Sales Orders](SO_30_10_00.md) \(SO301000\), you can click **Activities** on the title bar. In the **Task &amp; Activities** dialog box, which opens, you can click **Add Email** to create an email.
 
-## Emails Created from a Data Entry Form { .section}
+## Emails Created from a Data Entry Form
 
 When you initiate the creation of an email, as described above, the [Email Activity](CR_30_60_15.md) \(CR306015\) form opens in a pop-up window. On the form, you can create an email and either send the email to the recipient or save the email without sending it \(for example, if you need to review and modify the email and send it later\).
 
@@ -67,15 +67,15 @@ To open an email on the **Activities** tab, you click the link in the **Summary*
 
 In the **Related Entity** box of the [Email Activity](CR_30_60_15.md) form, the system inserts the entity that is associated with the email if a user has created the email while viewing the entity on its data entry form. If the user changes the related entity of the email, the summary information about the email will be added to the **Activities** tab of the form for the new entity. The email will no longer be associated with the entity that was previously selected in this box.
 
-## Creation of an Email for a Task or Event { .section}
+## Creation of an Email for a Task or Event
 
 While working with a task or event, you can create an email on the [Email Activity](CR_30_60_15.md) \(CR306015\) form by clicking **Create Email** on the table toolbar of the **Activities** tab of the [Task](CR_30_60_20.md) \(CR306020\) or [Event](CR_30_60_30.md) \(CR306030\) form. In this case, the system inserts a link to the task or event in the **Parent Activity** box of the [Email Activity](CR_30_60_15.md) form for the email. Also, if the task or event was associated with a CRM entity \(such as a lead or an opportunity\), the system associates the email with the related entity of the task or event.
 
-## Creation of a Response Email { .section}
+## Creation of a Response Email
 
 You can create an outgoing email in response to an incoming email by clicking **Reply**, **Reply All**, or **Forward** on the form toolbar of the [Email Activity](CR_30_60_15.md) \(CR306015\) form. In this case, the system inserts the link to the incoming email in the **In Response To** box of the response email. If the incoming email has a parent activity \(an event or task\), the system inserts the link to this activity in the **Parent Activity** box of the [Email Activity](CR_30_60_15.md) form for the response email.
 
-## Creation of an Email Activity from a Workspace { .section}
+## Creation of an Email Activity from a Workspace
 
 Most companies have workspaces that contain links related to tasks, events, and emails. In an out-of-the-box system, the **Time and Expenses** workspace contains these links, including a *New Email Activity* link. You can click this workspace link to create an email directly on the [Email Activity](CR_30_60_15.md) \(CR306015\) form.
 
@@ -89,7 +89,7 @@ You can work with the emails that have been created on the [Email Activity](CR_3
 -   *Deleted \(CO4099PL\)*
 -   *Archived \(CO4093PL\)*
 
-## Creation of an Email from a Template { .section}
+## Creation of an Email from a Template
 
 You can create an email from scratch or save time by using a prepared email template from the [Email Templates](SM_20_40_03.md) \(SM204003\) form.
 
@@ -97,13 +97,13 @@ To select an email template, you click **Select Template** on the form toolbar o
 
 To personalize emails, you can insert the recipient’s data into the text of the email by using placeholders. For details, see [Email Templates](EM__con_Notification_Templates.md).
 
-## Copying of Lead-Related Emails to Related Entities { .section}
+## Copying of Lead-Related Emails to Related Entities
 
 If you have created emails or activities to communicate with a lead and then you create a contact or business account for the lead or convert the lead to an opportunity, the system copies all the emails \(and other activities\) listed on the **Activities** tab of the [Leads](CR_30_10_00.md) \(CR301000\) form to the same tab of the [Contacts](CR_30_20_00.md) \(CR302000\), [Business Accounts](CR_30_30_00.md) \(CR303000\), or [Opportunities](CR_30_40_00.md) \(CR304000\) form, respectively. Thus, the system preserves the history of emails and other activities created for the lead and copies this history to the entities associated with the lead.
 
 **Attention:** Emails that you create on the [Contacts](CR_30_20_00.md), [Business Accounts](CR_30_30_00.md), and [Opportunities](CR_30_40_00.md) forms are associated with only the entity \(contact, business account, or opportunity\) for which they have been created.
 
-## Deleting Emails { .section}
+## Deleting Emails
 
 If you no longer need an existing email, you can delete it by opening the email on the [Email Activity](CR_30_60_15.md) \(CR306015\) form and clicking **Delete** twice on the form toolbar. The first click will assign the *Deleted* status to the email. Clicking **Delete** again will permanently remove the email from the system. You can also delete the email this way from the *All Emails \(CO409070\)* list of records, except that you first click the row of the email.
 

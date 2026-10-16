@@ -1,23 +1,23 @@
-# Target Equipment: To Manually Create Equipment {#_5ef5d680-092c-4dbd-86dd-0523ff7b367c .task}
+# Target Equipment: To Manually Create Equipment
 
 In this activity, you will create in the system a piece of equipment that the customer already has and that SweetLife will be servicing.
 
-## Story {#section_ivl_11q_jdc .section}
+## Story
 
 Suppose that the SweetLife Service and Equipment Sales Center needs to perform services on the equipment that was sold to the *HMBAKERY - HM's Bakery &amp; Cafe* customer by a third party. Acting as a service manager, you will enter this equipment record in Acumatica ERP.
 
-## Process Overview {#section_lqv_jf3_jdc .section}
+## Process Overview
 
 On the [Equipment](FS_20_50_00.md) \(FS205000\) form, you will add a new piece of equipment to be serviced.
 
-## System Preparation {#section_ejp_d23_jdc .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
 1.  On the Acumatica ERP website, sign in to a company with the *U100* dataset preloaded. You should sign in as a service manager by using the *davis* username and the *123* password.
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date to *1/30/2026*. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step: Creating Target Equipment {#section_cr5_d1q_jdc .section}
+## Step: Creating Target Equipment
 
 To create this piece of target equipment, perform the following instructions:
 
@@ -30,12 +30,10 @@ To create this piece of target equipment, perform the following instructions:
 5.  In the **Model Equipment** box \(**Inventory Info** section\), select *JUICE\_J22C* \(Item 4\).
 6.  On the form toolbar, click **Save**.
 
-    ![](Images/EquipMgmt_Manual_Creation_of_Target_Equipment.png "Manual creation of target equipment")
 
 7.  On the [Equipment Summary](FS_40_02_00.md) \(FS400200\) form, in the **Customer** box of the Summary area, select *HMBAKERY*.
 8.  In the table, make sure the *FSE00012* equipment record is listed, as shown in the screenshot below.
 
-    ![](Images/EquipMgmt_Manually_Created_Target_Equipment.png "The created target equipment")
 
     If you click the *FSE00012* link in the **Equipment Nbr.** column, the system will open the [Equipment](FS_20_50_00.md) form, where you just created the target equipment.
 

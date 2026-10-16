@@ -1,8 +1,8 @@
-# Certified Projects: Deductions and Benefits {#_cab1a19b-d7c9-46f6-8e84-6f4d63205621 .concept}
+# Certified Projects: Deductions and Benefits
 
 In Acumatica ERP, you can set up a package of deductions and benefits for a certified project. The deductions and benefits included in the package will be calculated only for the earning lines associated with the project.
 
-## Setting Up a Deduction and Benefit Package { .section}
+## Setting Up a Deduction and Benefit Package
 
 You create a package of deductions and benefits for a particular certified project by using the **Deductions and Benefits** tab of the [Certified Projects](PR_20_99_00.md) \(PR209900\) form.
 

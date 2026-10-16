@@ -1,4 +1,4 @@
-# To Create a DAC Extension {#_f16c78a5-73d6-44b3-8519-59fae75159f7 .concept}
+# To Create a DAC Extension
 
 If you know the name of the data access class to be customized, you can create a *Code* item with the DAC extension template on the Code page of the Customization Project Editor by using the **Create Code File** dialog box.
 
@@ -11,7 +11,6 @@ To do this, perform the following actions:
 5.  In the **Base DAC** box, select the name of the data access class to be customized.
 6.  Click **OK**.
 
-    ![](../Shared/Images/CG_GL_Items_Code_AddingDACExt.png "Adding a Code item with the DAC extension to the project")
 
 
 The platform creates the template of the class that is derived from the PXCacheExtension&lt;&gt; class, saves the code as a *Code* item of the project in the database, and opens the item in the [Code Editor](../Shared/../UserGuide/AU_20_40_00_CodeEditor.md).

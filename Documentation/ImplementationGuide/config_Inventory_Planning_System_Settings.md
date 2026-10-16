@@ -1,23 +1,22 @@
-# Inventory Planning Configuration: System-Wide Settings {#_4e134e8f-53a0-4a04-a82f-9753b4f0f263 .concept}
+# Inventory Planning Configuration: System-Wide Settings
 
 As part of configuring inventory planning, you may need to specify the system-wide settings on the [Inventory Planning Preferences](../UserGuide/AM_10_00_00.md) \(AM100000\) form, as described in this topic. These settings determine how inventory planning as a whole is performed in the system.
 
 **Attention:** You use this form if you are setting up distribution requirements planning \(DRP\) or material requirements planning \(MRP\). You can use production orders in inventory planning only if the *Manufacturing* and *Material Requirements Planning* features are enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form.
 
-## Inventory Planning Settings { .section}
+## Inventory Planning Settings
 
 On the [Inventory Planning Preferences](../UserGuide/AM_10_00_00.md) \(AM100000\) form, you specify the following settings:
 
 -   Planning order type \(MRP only\): If the *Material Requirements Planning* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, in the **Plan Order Type** box \(**General** section\), you select the default planning order type for the system to create planning orders during inventory planning. The planning order type should be created in advance.
 -   Planning horizon \(optional\): In the **Planning Horizon** box \(**General** section\), you can specify the number of days that the system will use to restrict the incoming item plans processed during the regeneration of inventory planning. For details, see [Planning Horizon](#_9c98ef42-665f-49c3-acbd-b4390092b1cd).
 -   Grace period \(optional\): In the **Grace Period** box \(**General** section\), you can specify the time period within which the supply orders will be regarded as satisfying the demand date. For details, see [Grace Period in Inventory Planning](#_0939331f-e699-4125-9eb7-8ae27fbe1599).
--   Stocking method: In the **Stocking Method** box \(**General** section\), you select the method \(*Reorder Point* or *Safety Stock*\) the system will use for replenishing the demanded items, which is initiated by inventory planning process.
 -   Settings for including documents on hold in planning: By using the **Include On Hold** check boxes in the **General** section, you determine whether each of the following must be considered by the system during planning when they are on hold: sales orders, purchase orders, and production orders. For more information, see [Documents On Hold in Inventory Planning](#_f2d2d2ca-5247-49e3-ad14-9c3fbedf9528).
 -   The setting determining the calculation of manufacturing times \(MRP only\): If the *Material Requirements Planning* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) form, you decide if you want the system to calculate lead times dynamically for a planning recommendation or use the fixed lead time specified for each item by clearing or selecting, respectively, the **Use Fixed Manufacturing Times** check box \(**General** section\).
 -   An indicator of whether expired blanket sales orders must be included in inventory planning: You decide if you want to include blanket sales orders that are expired in inventory planning by clearing or selecting the **Include Expired Blanket Sales Orders** check box \(**General** section\).
 -   Consolidation settings \(optional\): The system can consolidate items with the same ID from multiple demand documents into a single planning recommendation during inventory planning. To configure this, you select the **Use Days of Supply to Consolidate Orders** check box in the **Consolidation** section. You can also set up the system so that it consolidates demand documents with deferred requested dates. For details, see [Consolidation of Items in Multiple Demand Documents](#_ae26a954-8af6-4130-a7e5-a20db97b61b1).
 
-## Planning Horizon {#_9c98ef42-665f-49c3-acbd-b4390092b1cd .section}
+## Planning Horizon
 
 The planning horizon is the number of days that determines the time range during which the system processes item plans. The system excludes plans with a supply or demand date beyond the specified number of days from the regeneration date. You specify the planning horizon in the **Planning Horizon** box in the **General** section of the [Inventory Planning Preferences](../UserGuide/AM_10_00_00.md) \(AM100000\) form. The specification of this value can reduce the volume of item plans processed during inventory planning regeneration, potentially improving the performance of that process.
 
@@ -27,7 +26,7 @@ For example, suppose that your company receives orders up to 18 months in advanc
 
 The default planning horizon value is *0*, which will not restrict any incoming item plans, causing all records to be processed during the regeneration of inventory planning on the [Regenerate Inventory Planning](../UserGuide/AM_50_50_00.md) form. We recommend that you carefully consider what planning horizon best fits your planning needs before you change the predefined setting in your production environment.
 
-## Grace Period in Inventory Planning {#_0939331f-e699-4125-9eb7-8ae27fbe1599 .section}
+## Grace Period in Inventory Planning
 
 The grace period is the number of days after the requested date of an item in a demand order within which the item can be received in inventory \(whether it is purchased from a vendor or produced internally\) and still be considered as satisfying the requested date.
 
@@ -41,7 +40,7 @@ You should consider your demand and supply patterns, supply lead times, and mini
 
 Depending on the grace period value, exceptions are generated on the [Inventory Planning Exceptions](../UserGuide/AM_40_30_00.md) \(AM403000\) form to expedite or defer supply orders based on the values of the **Days Before** and **Days After** boxes on the [Inventory Planning Preferences](../UserGuide/AM_10_00_00.md) form. But if the date of a supply order is far beyond the grace period, then the system will only generate an exception to delete the supply.
 
-## Documents On Hold in Inventory Planning {#_f2d2d2ca-5247-49e3-ad14-9c3fbedf9528 .section}
+## Documents On Hold in Inventory Planning
 
 You can specify whether sales orders, purchase orders, and production orders \(only for MRP\) that are on hold should be considered by the system when it plans items. We generally recommend that you include the documents on hold in inventory planning. To do this, you select the **Include On-Hold Sales Orders**, **Include On-Hold Purchase Orders**, and **Include On-Hold Production Orders** check boxes in the **General** section of the [Inventory Planning Preferences](../UserGuide/AM_10_00_00.md) \(AM100000\) form.
 
@@ -54,7 +53,7 @@ You should exclude the on-hold orders from inventory planning if any of the foll
 -   Dates and quantities in production orders are not finalized. In this case, you should clear the **Include On-Hold Production Orders** check box.
 -   The purchasing department creates orders far in advance with suppliers and often needs to await confirmation of delivery dates and quantities from the supplier. In this case, you should clear the **Include On-Hold Purchase Orders** check box.
 
-## Consolidation of Items in Multiple Demand Documents {#_ae26a954-8af6-4130-a7e5-a20db97b61b1 .section}
+## Consolidation of Items in Multiple Demand Documents
 
 During inventory planning, if multiple demand documents \(such as sales orders\) contain the same item and have a due date \(such as a required date in a sales order\) that is within a specific time period, the system can consolidate items from these documents into a single planning recommendation. To implement this behavior, you select the **Use Days of Supply to Consolidate Orders** check box in the **Consolidation** section of the [Inventory Planning Preferences](../UserGuide/AM_10_00_00.md) \(AM100000\) form.
 
@@ -69,6 +68,14 @@ For example, suppose that the **Days of Supply** setting for a juicer is *7*. Fu
 If sales managers create long-term sales orders for some customers to provide a discount, you can configure the system to use a long-term consolidation bucket, and you can specify settings that are specific to long-term consolidation. To do this, in the **Consolidation** section of the [Inventory Planning Preferences](../UserGuide/AM_10_00_00.md) form, you first select the **Use Long-Term Consolidation Bucket** check box. On the form, you then specify the number of days after which the system starts consolidating items from demand documents in the **Consolidate After \(Days\)** box and the number of days within which the requested dates in the demand documents must fall in the **Bucket \(Days\)** box.
 
 If you use forecasts for planning item demand, the system also consolidates forecast records during inventory planning. For example, suppose that weekly forecast records exist for the following quarter. Further suppose that the **Consolidate After \(Days\)** box contains *45*, and the **Bucket \(Days\)** box contains *30*. In this case, when performing inventory planning, the system will create a single planning recommendation for all forecast records with dates starting from today's date plus 45 days and within 30 days after the starting date of consolidation.
+
+## Reorder Point Warnings
+
+By default, the system treats the on-hand quantity falling below the **Reorder Point** value as requiring an *Expedite* exception for open supply. To retain this behavior, leave the **Show Reorder Point Warnings** check box selected in the **Exceptions** section of the [Inventory Planning Preferences](../UserGuide/AM_10_00_00.md) \(AM100000\) form.
+
+To suppress the exception while the on-hand quantity remains at or above the **Safety Stock** value, clear the **Show Reorder Point Warnings** check box. If the check box is cleared, the system waits until the on-hand quantity falls below the **Safety Stock** value before generating the applicable *Expedite* exception.
+
+By default, the **Show Reorder Point Warnings** check box is selected.
 
 **Parent topic:**[Configuring Inventory Planning](../ImplementationGuide/config_Inventory_Planning_Mapref.md)
 

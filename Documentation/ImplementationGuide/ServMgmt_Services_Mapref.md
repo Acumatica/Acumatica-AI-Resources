@@ -1,4 +1,4 @@
-# Services {#_62714ebc-3c00-4b50-a4ca-99c3e1ac35e4 .concept}
+# Services
 
 In Acumatica ERP, you need to define non-stock items to represent the services that your company provides to customers. You then specify these services when you enter customers' service orders and process appointments.
 

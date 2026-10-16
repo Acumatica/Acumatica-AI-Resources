@@ -1,4 +1,4 @@
-# Accessing the Exposed Inquiry Results Through OData {#_dac328c5-5dae-43af-b18a-d7a52374633d .concept}
+# Accessing the Exposed Inquiry Results Through OData
 
 After you have exposed the results of a generic inquiry developed on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form through OData, you can view the inquiry results in a browser or in another application. To access the inquiry results, you need to know the URL of the OData endpoint of your Acumatica ERP instance.
 
@@ -19,7 +19,7 @@ This chapter describes the generic inquiry–based OData interface. For details 
 
 -   **[Generic Inquiry Access Through OData: To Access an Exposed Inquiry in Microsoft Excel](../UserGuide/GI_Access_to_Exposed_Inquiry_Through_OData_Excel_Activity.md)**  
 
--   **[Generic Inquiry Access Through OData: To Configure CORS](../UserGuide/CU__how_Odata_CORS.md)**  
+-   **[To Configure CORS](../UserGuide/CU__how_Odata_CORS.md)**  
 
 -   **[Generic Inquiry Access Through OData: To Sign In to Acumatica ERP and Retrieve the Metadata](../UserGuide/GI_Access_to_Exposed_Inquiry_Through_OData_SignIn_Activity.md)**  
 

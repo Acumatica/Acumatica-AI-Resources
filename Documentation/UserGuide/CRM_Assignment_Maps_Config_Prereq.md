@@ -1,12 +1,12 @@
-# Assignment Maps: Configuration Prerequisites {#_617a153e-1d01-4c52-933c-7d6098e72a7d .concept}
+# Assignment Maps: Configuration Prerequisites
 
 Before you start configuring assignment maps in Acumatica ERP, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Customer Management* feature must be enabled.
 
-## Configuring the System { .section}
+## Configuring the System
 
 You need to make sure that the following tasks have been performed in Acumatica ERP before you begin to configure an assignment map:
 

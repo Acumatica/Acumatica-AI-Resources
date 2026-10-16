@@ -1,16 +1,16 @@
-# Government Reporting: General Information {#_6891be76-05be-4da1-87c8-7fe30d5354b2 .concept}
+# Government Reporting: General Information
 
 In Acumatica ERP, a user can generate Aatrix reports through the [Government Reporting](PR_50_40_00.md) \(PR504000\) form. Aatrix is an integrated component of Acumatica ERP that gives your organization the ability to produce federal and all state forms. Aatrix reports use the information about ACA coverage, wages paid and taxes collected for each worker and for the entire company that is stored in the system. Users can also edit report data and electronically submit them to the appropriate government body.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to configure the system to enable government reporting through Aatrix.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure government reporting so that your organization can prepare and file required reports to the appropriate government body.
 
-## Configuring Government Reporting { .section}
+## Configuring Government Reporting
 
 To enable government reporting in Acumatica ERP, you need to perform the following steps:
 

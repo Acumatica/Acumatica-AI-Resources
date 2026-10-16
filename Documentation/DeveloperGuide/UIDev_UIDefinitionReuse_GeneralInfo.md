@@ -1,4 +1,4 @@
-# Reusing of UI Definitions: General Information {#_7d69fd20-b37e-4698-baec-45daa7d40fc5 .concept}
+# Reusing of UI Definitions: General Information
 
 You can reuse a UI definition as follows:
 
@@ -7,14 +7,14 @@ You can reuse a UI definition as follows:
     -   Add the qp-include tag
     -   Specify the template tag’s id in the ref attribute of the control tag
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you’ll learn how to:
 
 -   Reuse the whole UI definition of an Acumatica ERP form for another form
 -   Create and use a reusable UI definition with and without parameters
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You reuse a UI definition when:
 
@@ -22,7 +22,7 @@ You reuse a UI definition when:
 -   You need to implement multiple Acumatica ERP forms with similar UI definitions, such as [Scan and Receive](../UserGuide/IN_30_10_20.md) \(IN301020\), [Scan and Issue](../UserGuide/IN_30_20_20.md) \(IN302020\), [Scan and Transfer](../UserGuide/IN_30_40_20.md) \(IN304020\), and [Scan and Count](../UserGuide/IN_30_50_20.md) \(IN305020\). You implement a reusable UI definition for the common parts and adjust the definition for each form.
 -   You need to use identical form components—such as sections, tabs, or dialog boxes—on multiple forms.
 
-## Use of the Whole UI Definition of a Form {#section_mtk_lsq_qgc .section}
+## Use of the Whole UI Definition of a Form
 
 A reusable UI definition that defines an entire form usually contains the declaration of a screen class and view classes. So to use it for your form, you need your screen class to extend the screen class of the UI definition. This way, your screen class will have the same logic and properties \(that is, views\) as the original screen class. To reuse the HTML template of the UI definition, you need to add the qp-include tag with the reference to the original HTML template.
 
@@ -30,7 +30,7 @@ To reuse the UI definition of a form, you need to reuse both the TypeScript decl
 
 1.  In the TypeScript file, import the classes from the reusable UI definition, as shown below. You need to import the screen class and all view classes you plan to use.
 
-    ``` {#codeblock_sr4_cpq_qgc}
+    ```
     import { SM200520 } from "../SM200520/SM200520";
     ```
 
@@ -40,7 +40,7 @@ To reuse the UI definition of a form, you need to reuse both the TypeScript decl
 
     For example, suppose that a reusable definition declares the SM200520 screen class, and you need to reuse it for the screen with SM200521 screen ID. You define the SM200521 class that extends the SM200520 class and specify the graph for the SM200521 screen, as shown below.
 
-    ``` {#codeblock_qtk_lsq_qgc .language-javascript}
+    ```javascript
     @graphInfo({
       graphType: "PX.SiteMap.Graph.PortalMapMaint"
       primaryView: "SiteMap",
@@ -52,14 +52,14 @@ To reuse the UI definition of a form, you need to reuse both the TypeScript decl
 
 3.  In the HTML file for the new form, insert the HTML code of the existing form by using the qp-include tag, as shown below.
 
-    ``` {#codeblock_rtk_lsq_qgc .language-xml}
+    ```xml
     <template>
       <qp-include url="../SM200520/SM200520.html">
     </template>
     ```
 
 
-## Use of a Reusable UI Definition That Defines Part of a Form {#section_syr_lsq_qgc .section}
+## Use of a Reusable UI Definition That Defines Part of a Form
 
 A reusable UI definition that defines a part of a form usually contains declarations of view classes but no screen class. So to use the definition for your form, you need to import the view classes from the reusable definition and initialize the views in your screen class. To reuse the HTML template of the UI definition, you need to add the qp-include tag with a reference to the original HTML template.
 
@@ -67,13 +67,13 @@ To use a reusable UI definition that defines part of a form, such as a fieldset:
 
 1.  In the TypeScript file of the form where you need to insert the reusable UI definition, import the view classes, as shown below.
 
-    ``` {#codeblock_tyr_lsq_qgc .language-javascript}
+    ```javascript
     import { Address } from "src/screens/common/form-address/form-address";
     ```
 
 2.  In your form’s screen class, initialize the views and specify the imported view classes as parameters.
 
-    ``` {#codeblock_zxg_lpq_qgc}
+    ```
     @graphInfo({ ... })
     export class AM310000 extends PXScreen {
       @viewInfo({ containerName: "Ship-To Address" })
@@ -87,7 +87,7 @@ To use a reusable UI definition that defines part of a form, such as a fieldset:
 
     The following example shows the insertion of a reusable UI definition with parameters. \(For details, see [Reusing of UI Definitions: Reusable UI Definitions with Parameters](UIDev_UIDefinitionReuse_Params.md).\)
 
-    ``` {#codeblock_uyr_lsq_qgc .language-xml}
+    ```xml
     <div slot="B">
       <qp-include 
         url="src/screens/common/form-address/form-address.html" 
@@ -99,13 +99,13 @@ To use a reusable UI definition that defines part of a form, such as a fieldset:
     ```
 
 
-## Adjusting of the Reusable UI Definition {#section_kpt_wsq_qgc .section}
+## Adjusting of the Reusable UI Definition
 
 After inserting a reusable UI definition into a form’s UI definition, you may need to add, remove, or replace particular elements to adjust the definition. Do the following:
 
 1.  In the TypeScript code of the form, you define the elements that aren’t included in the reusable UI definition, as shown below. You can add more view classes, initialize views, or define more logic \(for example, in event handlers\).
 
-    ``` {#codeblock_ppt_wsq_qgc .language-javascript}
+    ```javascript
     export class IN202520 extends BarcodeProcessingScreen {
       @viewInfo({ containerName: "Scan Header"  })
       HeaderView = createSingle(ScanHeader);
@@ -144,7 +144,7 @@ After inserting a reusable UI definition into a form’s UI definition, you may 
 
         Below you can see an example of adjusting a reusable UI definition that defines a whole form. The code adds three boxes in various fieldsets of the reusable UI definition and adds a tab with a table.
 
-        ``` {#codeblock_xzm_3rq_qgc}
+        ```
         <template>
         	<qp-include url="../../barcodeProcessing/BarcodeProcessingScreen.html"></qp-include>
         
@@ -161,7 +161,7 @@ After inserting a reusable UI definition into a form’s UI definition, you may 
 
         The following example shows an adjustment of a reusable UI definition that defines a part of a form. The code modifies a field in the reusable UI definition.
 
-        ``` {#codeblock_sy4_fsq_qgc}
+        ```
         <qp-include url="src/screens/common/form-address/form-address.html"
         	fs-id="groupAccountAddress"
         	address-view="DefAddress"
@@ -178,7 +178,7 @@ After inserting a reusable UI definition into a form’s UI definition, you may 
     You add as many adjustments as you need. You can find examples of layout adjustments in [UI Adjustments in HTML and TypeScript: HTML Examples](UIDev_AdjustmentInExtension_HTML.md).
 
 
-## Predefined Reusable UI Definitions { .section}
+## Predefined Reusable UI Definitions
 
 A number of predefined reusable UI definitions are available in the following locations:
 

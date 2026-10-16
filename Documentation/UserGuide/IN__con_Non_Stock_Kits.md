@@ -1,10 +1,10 @@
-# Non-Stock Kits {#_56813a1a-d769-48f9-a4fc-1041e81dbfad .concept}
+# Non-Stock Kits
 
 A non-stock kit is a bundle of stock and non-stock components; you assign an individual inventory identifier to the non-stock kit, and it can be selected in sales orders. Non-stock kits are virtual kits because they neither produced nor tracked in inventory, unlike stock kits. The stock components of the non-stock kit remain in inventory and can be sold in the kit or as separate units.
 
 In this topic, you will read about the configuration, processing, and cost calculation of non-stock kits.
 
-## Configuration of Non-Stock Kits {#nonstockkits .section}
+## Configuration of Non-Stock Kits
 
 When you create a non-stock kit, you do the following:
 
@@ -15,7 +15,7 @@ When you create a non-stock kit, you do the following:
     -   If you sell a limited number of kits, you assign the default prices on a per-kit basis by using the [Non-Stock Items](IN_20_20_00.md) form.
     -   If you are selling more than ten kits, you assign multiple sales prices to kits by using the [Sales Price Worksheets](AR_20_20_10.md) \(AR202010\) form.
 
-## Processing of Non-Stock Kits { .section}
+## Processing of Non-Stock Kits
 
 As with non-stock items, non-stock kits are not stocked. When non-stock kits are added to a sales order, the items are gathered for the sale but no preliminary assembly has been performed. When a non-stock kit is listed on a sales order as a line item, its stock components are specified on a pick list and shipped to the customer. Upon shipment confirmation, the quantity of stock components is decreased while the quantities of non-stock components and kits are not tracked in any way.
 
@@ -25,7 +25,7 @@ When you process a sale of a non-stock kit, its stock components are issued from
 
 For a non-stock kit that includes stock components for which the **Divisible Unit** check box is cleared for base UOMs on the [Stock Items](IN_20_25_00.md) form, when a user creates and saves a shipment for a sales order with at least one such kit, the system validates the quantity of each component included in the specified quantity of the kit, making sure that it is an integer. If the quantity of any component is not an integer, the system displays an error message. The shipment is not created or is created but placed on hold, depending on the state of the **Hold Shipments on Entry** check box on the [Sales Orders Preferences](SO_10_10_00.md) \(SO101000\) form. When a user creates and saves a receipt for a purchase order that includes at least one non-stock kit with similar stock components, the system works similarly.
 
-## Calculation of Cost for Non-Stock Kits { .section}
+## Calculation of Cost for Non-Stock Kits
 
 The cost of a non-stock kit may include the cost of the kit itself and the costs of all stock components included in the kit. You can select one of the following cost calculation rules on in the **Cost Calculation Basis for Non-Stock Kits** box on the [Sales Orders Preferences](SO_10_10_00.md) \(SO101000\) form:
 

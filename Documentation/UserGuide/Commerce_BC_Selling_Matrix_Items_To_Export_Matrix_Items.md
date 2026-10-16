@@ -1,14 +1,14 @@
-# Selling Matrix Items: To Export Matrix Items {#_eaa19f1d-d134-422a-95e3-d6940d254c61 .task}
+# Selling Matrix Items: To Export Matrix Items
 
 The following activity will walk you through the process of exporting a template item \(and the matrix items based on this template item\) defined in Acumatica ERP to the BigCommerce store.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Fruits &amp; Jams company is going to sell juices in its BigCommerce online store. Acting as an implementation consultant helping SweetLife to set up the integration of Acumatica ERP with the BigCommerce store, you need to export the *JUICE* template item to the BigCommerce store.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following entities have been created:
 
@@ -38,7 +38,7 @@ In the *U100* dataset, for the purposes of this activity, the following entities
     |*Volume*|*08OZ* \(*08 fl oz*\), *12OZ* \(*12 fl oz*\), *16OZ* \(*16 fl oz*\), *32OZ* \(*32 fl oz*\), and *96OZ* \(*96 fl oz*\)|
 
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -49,7 +49,7 @@ In this activity, you will do the following:
 5.  On the [Process Data](BC_50_15_00.md) \(BC501500\) form, process the template item data that has been prepared for synchronization.
 6.  In the control panel of the BigCommerce store, review the exported item.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you complete the instructions in this activity, do the following:
 
@@ -64,7 +64,7 @@ Before you complete the instructions in this activity, do the following:
     1.  On the form toolbar, click **Modify**, and select the **Matrix Items** check box under **Inventory and Order Management**.
     2.  On the form toolbar, click **Enable**.
 
-## Step 1: Reviewing the Template Item and the Matrix Items { .section}
+## Step 1: Reviewing the Template Item and the Matrix Items
 
 To review the *JUICE* template item and the matrix items that have been generated based on it, do the following:
 
@@ -85,7 +85,7 @@ To review the *JUICE* template item and the matrix items that have been generate
     In the subsequent steps of this activity, you will export these items to the BigCommerce store.
 
 
-## Step 2: Activating the Template Item Entity { .section}
+## Step 2: Activating the Template Item Entity
 
 You can skip this step, if you activated the *Template Item* entity while performing the following activity: [Initial Configuration: To Establish and Configure the Store Connection](Commerce_BC_Initial_Configuration_Implem_Activity.md).
 
@@ -96,7 +96,7 @@ To activate the *Template Item* entity, do the following:
 3.  In the table of the **Entities** tab, select the **Active** check box in the row of the *Template Item* entity.
 4.  On the form toolbar, click **Save**.
 
-## Step 3: Updating the Filtering Condition { .section}
+## Step 3: Updating the Filtering Condition
 
 To configure the *Template Item* entity to export to the BigCommerce store only template items of the *MJUICE* item class, do the following:
 
@@ -116,7 +116,7 @@ To configure the *Template Item* entity to export to the BigCommerce store only 
     Now when you prepare and process the *Template Item* entity, only the template items of the *MJUICE* item class will be exported to the BigCommerce store.
 
 
-## Step 4: Preparing the Template Item Data for Synchronization { .section}
+## Step 4: Preparing the Template Item Data for Synchronization
 
 To prepare the template item data \(which includes the data of the matrix items generated based on the template item\) for synchronization, do the following:
 
@@ -134,7 +134,7 @@ To prepare the template item data \(which includes the data of the matrix items 
     Notice that the **Ready to Process** column shows the number of synchronization records that have been prepared for the *Template Item* entity.
 
 
-## Step 5: Processing the Prepared Template Item Data { .section}
+## Step 5: Processing the Prepared Template Item Data
 
 To process the prepared data of the template item, do the following:
 
@@ -143,7 +143,7 @@ To process the prepared data of the template item, do the following:
 3.  On the form toolbar, click **Process**.
 4.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 6: Viewing the Exported Item { .section}
+## Step 6: Viewing the Exported Item
 
 To view the exported *Juice* template item in the BigCommerce store, do the following:
 

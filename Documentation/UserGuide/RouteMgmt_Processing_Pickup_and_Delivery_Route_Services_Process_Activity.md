@@ -1,16 +1,16 @@
-# Route Executions with Item Delivery: To Process Pickup and Delivery Route Services {#_7e0316de-47ef-4ea0-b738-9bbda560e3fd .task}
+# Route Executions with Item Delivery: To Process Pickup and Delivery Route Services
 
 This activity will walk you through the process of creating a route execution with an appointment for regular delivery services.
 
-## Story {#section_c4y_fpg_ldc .section}
+## Story
 
 Suppose that the HM's Bakery &amp; Cafe customer has requested a service of the delivery of 10 juicer containers each Wednesday. Acting as a service manager of the SweetLife Service and Equipment Sales Center, you will create a route execution with a route appointment that you will schedule for the delivery of juicer accessories. For the appointment, you will select the *SUPP JUIACC - Delivery of juicer accessories* service and specify that you are transferring 10 *CONTAINER* units.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Route Document Details](FS_30_40_00.md) \(FS304000\) form, you will create a route execution for the delivery of stock items. Then you will add an appointment to the route execution and will process this appointment.
 
-## System Preparation {#section_izr_vjb_ldc .section}
+## System Preparation
 
 Before you begin performing the steps of this lesson, do the following:
 
@@ -18,7 +18,7 @@ Before you begin performing the steps of this lesson, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date to *1/30/2026*. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 3.  To perform this activity, make sure that you have performed the following prerequisite activity: [Route Executions with Item Delivery: To Create Pickup and Delivery Route Services](RouteMgmt_Creating_Pickup_and_Delivery_Route_Services_Process_Activity.md).
 
-## Step 1: Creating the Route Execution {#section_g5v_rkb_ldc .section}
+## Step 1: Creating the Route Execution
 
 To create a route execution for the delivery of juicer accessories, do the following:
 
@@ -33,7 +33,7 @@ To create a route execution for the delivery of juicer accessories, do the follo
     The route execution document has been created.
 
 
-## Step 2: Adding an Appointment to the Route Execution {#section_xw4_skb_ldc .section}
+## Step 2: Adding an Appointment to the Route Execution
 
 To add an appointment to route execution, do the following:
 
@@ -61,7 +61,7 @@ To add an appointment to route execution, do the following:
 
 8.  Close the pop-up window with the [Appointments](FS_30_02_00.md) form, and return to the [Route Document Details](FS_30_40_00.md) form.
 
-## Step 3: Attending the Appointment {#section_wdn_tkb_ldc .section}
+## Step 3: Attending the Appointment
 
 For the purposes of this step, assume that you are now acting as Luke Cole performing the route execution and arriving at the appointment. \(You do not need to sign out and sign in again, however.\) Do the following:
 

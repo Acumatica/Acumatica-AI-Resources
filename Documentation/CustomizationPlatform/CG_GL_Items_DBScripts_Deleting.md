@@ -1,4 +1,4 @@
-# To Delete an Sql or Table Item From a Project {#_88d5fc38-5a65-4138-a00e-ddd9086b9cb9 .task}
+# To Delete an Sql or Table Item From a Project
 
 To delete an *Sql* or *Table* item from a customization project, perform the following actions:
 

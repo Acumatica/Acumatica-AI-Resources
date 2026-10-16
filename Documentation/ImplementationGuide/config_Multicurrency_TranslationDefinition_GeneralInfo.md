@@ -1,4 +1,4 @@
-# Translation Definitions: General Information {#_7d458706-3b54-478e-8a0a-c35a4d674eab .concept}
+# Translation Definitions: General Information
 
 In Acumatica ERP, you may need to restate account balances from the base currency \(or a foreign currency\) to any foreign currency configured for use in the system. This process of restating account balances from one currency \(base or foreign\) to another foreign currency is called *translation* and is used for reporting purposes.
 
@@ -6,18 +6,18 @@ To perform a translation, the system uses a *translation definition*, which defi
 
 **Tip:** To enable translation of financial statements in the system, the *Multicurrency Accounting* and *Translation of Financial Statements* features must be enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Configure the system for translating financial statements
 -   Configure a translation definition
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You perform a translation of financial statements if your company is a subsidiary of a larger entity and its financial statements are included in the consolidated statements of the larger entity, which are prepared in a different currency.
 
-## Creation of a Translation Definition { .section}
+## Creation of a Translation Definition
 
 You use the [Translation Definition](../UserGuide/CM_20_30_00.md) \(CM203000\) form to define rules for the translation. When you create a new translation definition, you specify the following information:
 
@@ -31,13 +31,13 @@ You use the [Translation Definition](../UserGuide/CM_20_30_00.md) \(CM203000\) f
 -   The translation methods to be used for each range of accounts and subaccounts.
 -   The rate types to be used for translation for each range of accounts and subaccounts.
 
-## Translation Ledgers { .section}
+## Translation Ledgers
 
 You specify the ledger from which account balances to be translated are copied and the ledger of the *Reporting* type to which the translated balances are recorded in the **Source Ledger ID** and **Destination Ledger ID** boxes, respectively, on the [Translation Definition](../UserGuide/CM_20_30_00.md) \(CM203000\) form. For details on ledgers, see [Managing Ledgers](../UserGuide/GL__MNG_Managing_Ledgers.md).
 
 The translation is performed from the currency of the source ledger to the currency of the destination ledger. If an *Actual* ledger is selected as the source ledger, the translation will be performed from the base currency. If any *Reporting* ledger is selected as a source ledger, the translation will be performed from the foreign currency assigned to this ledger to the foreign currency of the destination ledger.
 
-## Range of Accounts for Translations { .section}
+## Range of Accounts for Translations
 
 On the [Translation Definition](../UserGuide/CM_20_30_00.md) \(CM203000\) form, you specify the starting and ending accounts in the **Account From** and **Account To** columns for each range of accounts for which you want to perform translation. If you use subaccounts in your system, you can specify the starting and ending subaccounts in the **Subaccount From** and **Subaccount To** columns for each range of accounts. The ranges of account-subaccount pairs should not intersect or contain the same pairs.
 
@@ -45,7 +45,7 @@ You do not need to include the Year-to-Date \(YTD\) Net Income account in the tr
 
 To get the correct translated balance of the Retained Earnings account in the reporting ledger, you need to translate the period-to-date \(PTD\) balances of income and expense accounts in each period, starting from the very first one.
 
-## Translation Methods { .section}
+## Translation Methods
 
 Acumatica ERP provides the following translation methods, which you can select for different ranges of accounts and subaccounts \(if applicable\) in the **Translation Method** column of the [Translation Definition](../UserGuide/CM_20_30_00.md) \(CM203000\) form:
 

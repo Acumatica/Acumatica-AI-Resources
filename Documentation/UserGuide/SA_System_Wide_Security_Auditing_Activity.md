@@ -1,22 +1,22 @@
-# System-Wide Security Auditing: Process Activity {#_b1669d17-c8b4-4d74-bb9e-7e5f3c47ccb3 .task}
+# System-Wide Security Auditing: Process Activity
 
 The following activity will walk you through the process of specifying system-wide security auditing to meet your needs.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that in addition to the auditing of user activities that is configured by default, the management of your company would like to track the publication of customizations and forced user sign-outs because of the maximum number of users \(as specified in the license\) being exceeded.
 
-## Process Overview { .section}
+## Process Overview
 
 To configure system-wide security auditing, you will use the settings on the [Security Preferences](SM_20_10_60.md) \(SM201060\) form. Then you will review audit trails on the [Access History](SM_20_10_45.md) \(SM201045\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring security auditing, sign in to a company with the *U100* dataset preloaded. You should sign in as a system administrator with the *gibbs* username and *123* password.
 
-## Step 1: Turning On the System-Wide Security Auditing for Events { .section}
+## Step 1: Turning On the System-Wide Security Auditing for Events
 
 To specify your preferences for the auditing of system and user events, do the following:
 
@@ -34,7 +34,7 @@ To specify your preferences for the auditing of system and user events, do the f
     -   **License Exceeded**
 4.  On the form toolbar, click **Save**.
 
-## Step 2: Viewing Audit Trails { .section}
+## Step 2: Viewing Audit Trails
 
 To view audit trails for system events, do the following:
 

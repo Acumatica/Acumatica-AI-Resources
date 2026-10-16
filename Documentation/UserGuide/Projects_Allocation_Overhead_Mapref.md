@@ -1,4 +1,4 @@
-# Capturing Project Overhead {#_d0857529-f542-1952-99de-b944cbe50a85 .concept}
+# Capturing Project Overhead
 
 A project can have indirect costs, such as administrative expenses, that are not presented in the project budget. This chapter explains how you can capture such expenses as the project overhead by allocating the project.
 

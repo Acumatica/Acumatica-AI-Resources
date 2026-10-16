@@ -1,8 +1,8 @@
-# Use of PXProjection:To Display Multiple DAC Data on a Tab {#_d0134735-0d66-44eb-9acf-9daaa78c474f .task}
+# Use of PXProjection:To Display Multiple DAC Data on a Tab
 
 This activity will walk you through deriving a set of data from multiple DACs by using the PXProjection attribute, and displaying that data on a single tab.
 
-## Story { .section}
+## Story
 
 Suppose that in the *PhoneRepairShop* customization project, you want to display information about the invoice related to a repair work order and the most recent payment that was made for it. You need to add a tab to the Repair Work Orders \(RS301000\) form that will display this information.
 
@@ -15,7 +15,7 @@ The tab will have the following elements:
 
 This set of data is derived from different DACs. To display the UI elements on a single tab, you’ll use the PXProjection attribute.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will add a new tab to the Repair Work Orders \(RS301000\) form by performing the following steps:
 
@@ -24,9 +24,9 @@ In this activity, you will add a new tab to the Repair Work Orders \(RS301000\) 
 3.  Adding the new tab to the form
 4.  Testing the new tab
 
-## System Preparation { .section}
+## System Preparation
 
-Make sure that you’ve configured your instance as described in [Test Instance for Customization: To Deploy an Instance with a Custom Form that Implements a Workflow](CodeCustomization_PrepareInstance_Activity_DeployInstanceT240.md). Make sure that the Repair Work Orders \(RS301000\) form has been defined and the following elements exist:
+Make sure that you’ve configured your instance as described in [Test Instance for Customization: To Deploy an Instance with a Custom Form That Implements a Workflow](CodeCustomization_PrepareInstance_Activity_DeployInstanceT240.md). Make sure that the Repair Work Orders \(RS301000\) form has been defined and the following elements exist:
 
 -   `RSSVWorkOrderEntry` graph
 -   `RSSVWorkOrder` DAC
@@ -39,7 +39,7 @@ To be able to create and pay invoices, you need to configure the deployed instan
 2.  On the [Item Classes](../Shared/../UserGuide/IN_20_10_00.md) \(IN201000\) form, select the *STOCKITEM* class. On the **General** tab \(**General Settings** section\), select the **Allow Negative Quantity** check box. On the form toolbar, click **Save**.
 3.  On the [Accounts Receivable Preferences](../Shared/../UserGuide/AR_10_10_00.md) \(AR101000\) form, on the **General** tab \(**Data Entry Settings** section\), clear the **Validate Document Totals on Entry** and **Require Payment Reference on Entry** boxes to simplify the process of releasing an invoice. On the form toolbar, click **Save**.
 
-## Step 1: Learning the DAC Names for the Fluent BQL Query { .section}
+## Step 1: Learning the DAC Names for the Fluent BQL Query
 
 To retrieve the needed set of data, you’ll find out which DACs you need to use in a fluent BQL query of the PXProjection attribute. To learn the names of the required DACs, do the following:
 
@@ -52,13 +52,13 @@ To retrieve the needed set of data, you’ll find out which DACs you need to use
     -   For the payment number, `ARAdjust.adjgRefNbr`
     -   For the payment amount, `ARAdjust.curyAdjdAmt`
 
-## Step 2: Defining the DAC for the Tab { .section}
+## Step 2: Defining the DAC for the Tab
 
 To define the DAC for the tab, do the following:
 
 1.  In the `Helper/Messages.cs` file, add the `RSSVWorkOrderPayment` string to the Messages class, as shown in the following code. This message will be used in the [PXCacheName](https://help.acumatica.com/(W(4))/Help?ScreenId=ShowWiki&pageid=052f5683-d20b-da61-4e6c-47a966162fb4) attribute for the new DAC.
 
-    ```language-csharp
+    ```csharp
             public const string RSSVWorkOrderPayment = 
                 "Invoice and Payment of the Repair Work Order";
     ```
@@ -66,7 +66,7 @@ To define the DAC for the tab, do the following:
 2.  In the `DAC` folder of the `PhoneRepairShop_Code` project, create the `RSSVWorkOrderPayment.cs` file.
 3.  Add the following using directives.
 
-    ```language-csharp
+    ```csharp
     using PX.Data;
     using PX.Data.BQL.Fluent;
     using PX.Objects.AR;
@@ -74,7 +74,7 @@ To define the DAC for the tab, do the following:
 
 4.  Add the `RSSVWorkOrderPayment` DAC, as shown in the following code.
 
-    ```language-csharp
+    ```csharp
     namespace PhoneRepairShop
     {
         [PXCacheName(Messages.RSSVWorkOrderPayment)]
@@ -96,7 +96,7 @@ To define the DAC for the tab, do the following:
 
 5.  Add to the `RSSVWorkOrderPayment` DAC the fields you learned in Instruction 1, as the following code shows.
 
-    ```language-csharp
+    ```csharp
             #region InvoiceNbr
             [PXDBString(15, IsUnicode = true, IsKey = true, InputMask = "",
               BqlField = typeof(ARInvoice.refNbr))]
@@ -137,13 +137,13 @@ To define the DAC for the tab, do the following:
 
 6.  Build the project.
 
-## Step 3: Defining the Data View for the Tab { .section}
+## Step 3: Defining the Data View for the Tab
 
 To define the data view for the tab, do the following:
 
 1.  In the `RSSVWorkOrderEntry` class, add the following member to the `Views` region of the class.
 
-    ```language-csharp
+    ```csharp
             public 
                 SelectFrom<RSSVWorkOrderPayment>.
                 Where<RSSVWorkOrderPayment.invoiceNbr.
@@ -155,20 +155,20 @@ To define the data view for the tab, do the following:
 
 2.  Build the project.
 
-## Step 4: Adding a New Tab \(Self-Guided Exercise\) { .section}
+## Step 4: Adding a New Tab \(Self-Guided Exercise\)
 
 To add the new tab, do the following:
 
 1.  In the `RS301000.ts` file, define the `Payments` property for the `RSSVWorkOrderPayment` view class and then define this view class \(see the code below\).
 
-    ```language-javascript
+    ```javascript
     	@viewInfo({ containerName: "Payment Info" })
     	Payments = createSingle(RSSVWorkOrderPayment);
     ```
 
 2.  In the `RSSVWorkOrderPayment` view class, specify properties for all fields of the `RSSVWorkOrderPayment` DAC, as shown in the code below.
 
-    ```language-javascript
+    ```javascript
     export class RSSVWorkOrderPayment extends PXView {
     	InvoiceNbr: PXFieldState;
     	DueDate: PXFieldState;
@@ -182,7 +182,7 @@ To add the new tab, do the following:
 5.  Bind qp-fieldset to the `Payments` view property in the TypeScript class.
 6.  In the qp-fieldset container, include the field tags for the fields you’ve added in the view class.
 
-    ```language-xml
+    ```xml
     		<qp-tab id="tab-PaymentInfo" caption="Payment Info">
     			<qp-template
     				id="form-PaymentInfo"
@@ -202,14 +202,13 @@ To add the new tab, do the following:
 
 For details on how to define a tab, see the *T210 Customized Forms and Master-Details Relationships* course.
 
-## Step 5: Testing the New Tab { .section}
+## Step 5: Testing the New Tab
 
 To test the **Payment Info** tab of the Repair Work Orders \(RS301000\) form, do the following:
 
 1.  Open any repair work order with *Paid* or *Completed* status.
 2.  Open the **Payment Info** tab, which looks as follows.
 
-    ![](Images/activity_CodeCustomization_PXProjection_TabTest.png "The Payment Info tab")
 
 
 **Parent topic:**[Displaying Data from Multiple DACs by Using PXProjection](../StudioDeveloperGuide/CodeCustomization_MultiDacDisplayPXProjection_Mapref.md)

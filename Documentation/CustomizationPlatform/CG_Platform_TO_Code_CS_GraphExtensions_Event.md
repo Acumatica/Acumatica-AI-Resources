@@ -1,4 +1,4 @@
-# Event Handlers {#_914dbe80-719b-4f1c-8630-4519ffdefc44 .concept}
+# Event Handlers
 
 The business logic associated with data modifications is implemented through event handlers. Event handlers are methods that are executed when the PXCache objects of a particular data access class \(DAC\) raise data manipulation events.
 
@@ -24,7 +24,7 @@ With Acumatica Customization Platform, you can define new event handlers within 
     We make these recommendations because you usually copy the replacing set of attributes from the DAC field and the set of attributes declared on the DAC field may be updated in the future. When that happens, the set of attributes on the CacheAttached\(\) event handler won’t be consistent with the attributes declared on the DAC field. This can lead to bugs in your code. For details, see [Overriding Attributes of a DAC Field in the Graph](cg_gl_modifyingattributesofadacfield.md).
 
 
-## Event Handler Added to the End of the Collection { .section}
+## Event Handler Added to the End of the Collection
 
 The following event handlers are added to the end of the collection:
 
@@ -38,9 +38,8 @@ The following event handlers are added to the end of the collection:
 
 The system executes event handlers from the base \(original\) event handler up to the highest extension level \(referred to as the *bubbling strategy*\). The lower the BLC extension's level of declaration, the earlier the event subscriber is called. The figure below illustrates this principle.
 
-![](images/CG_Platform_TO_Code_CS_GraphExtensions_Event_1.png "Event execution with the bubbling strategy")
 
-## Event Handlers Added to the Beginning of the Collection { .section}
+## Event Handlers Added to the Beginning of the Collection
 
 The following event handlers are added to the beginning of the collection:
 
@@ -57,9 +56,8 @@ The following event handlers are added to the beginning of the collection:
 
 Event handlers are added by the system to the beginning of the collection by using the *tunneling strategy*. The system executes event handlers from the highest extension level down to the base event handler. The higher the BLC extension's level of declaration, the earlier the event subscriber is called. The figure below illustrates this principle.
 
-![](images/CG_Platform_TO_Code_CS_GraphExtensions_Event_2.png "Event execution with the tunneling strategy")
 
-## Event Handlers with an Additional Parameter { .section}
+## Event Handlers with an Additional Parameter
 
 The event handler with an additional parameter replaces the base BLC event handler collection. When the event is raised, the system calls the event handler with an additional parameter of the highest-level BLC extension. The system passes a link to the event handler with an additional parameter from the extension of the previous level, if such an event handler exists, or to the first item in the event handler collection. You use a delegate as an additional parameter to encapsulate the appropriate event handler.
 
@@ -159,11 +157,9 @@ In this case, the RowUpdated and FieldVerifying event handlers are invoked in th
 
 The following figure illustrates the order in which the RowUpdated events are invoked.
 
-![](images/CG_Platform_TO_Code_CS_GraphExtensions_Event_3.png "The order of the RowUpdated event handler execution")
 
 The following figure illustrates the order in which the FieldVerifying events are invoked.
 
-![](images/CG_Platform_TO_Code_CS_GraphExtensions_Event_4.png "The order of the FieldVerifying event handler invocation")
 
 **Parent topic:**[Graph Extensions](../CustomizationPlatform/CG_Platform_TO_Code_CS_GraphExtensions.md)
 

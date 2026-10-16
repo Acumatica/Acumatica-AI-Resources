@@ -1,4 +1,4 @@
-# Scheduling Automated Processing {#_87426450-3fdb-4248-b29c-e9cbf47cef6f .concept}
+# Scheduling Automated Processing
 
 Acumatica ERP provides functionality that you can use to set up automated processing for most processing forms instead of initiating the processing manually.
 

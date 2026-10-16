@@ -1,12 +1,12 @@
-# AP DACs: Reference Data {#_88c3593a-4682-4ec1-a4cb-ded21caa6183 .concept}
+# AP DACs: Reference Data
 
 In this topic, you can find information about the data access classes \(DACs\) that contain reference data that is used in most of the DACs in accounts payable, such as information about vendors, locations, and addresses.
 
-## Accounts Payable Preferences { .section}
+## Accounts Payable Preferences
 
 The general preferences for accounts payable are stored in the [APSetup](https://help.acumatica.com/dacBrowser/PX.Objects.AP/APSetup) DAC. An administrative user can edit these preferences on the [Accounts Payable Preferences](../UserGuide/AP_10_10_00.md) \(AP101000\) form.
 
-## Vendors { .section}
+## Vendors
 
 The [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\) form is used to define business accounts that satisfy the following condition: `BAccount.Type = VE OR BAccount.Type = VC`. \(That is, the business account is a vendor or both a vendor and a customer.\) Business accounts of these types are extended with the information from the [Vendor](https://help.acumatica.com/dacBrowser/PX.Objects.AP/Vendor) DAC, as shown in the following SQL query.
 
@@ -22,7 +22,7 @@ FROM
 
 The Vendor DAC contains AP-specific business account data related to vendors, including default currency settings, credit terms, and tax reporting settings for tax agency vendors.
 
-## Locations { .section}
+## Locations
 
 As is true of any other business account record, a Vendor record can have multiple [Location](https://help.acumatica.com/dacBrowser/PX.Objects.CR/Location) records associated with it. The default vendor location is stored in the BAccount.DefLocationID field.
 
@@ -39,7 +39,7 @@ The tax zones and accounts specified in a Location record can be overridden at t
 
 Vendor locations can be defined on the [Vendor Locations](../UserGuide/AP_30_30_10.md) \(AP303010\) form.
 
-## Addresses and Contacts { .section}
+## Addresses and Contacts
 
 Three types of addresses and contacts are defined for every vendor in the system:
 
@@ -106,11 +106,11 @@ The selection of particular types of addresses and contacts is illustrated in th
     ```
 
 
-## Vendor Payment Method Details { .section}
+## Vendor Payment Method Details
 
 The [VendorPaymentMethodDetail](https://help.acumatica.com/dacBrowser/PX.Objects.AP/VendorPaymentMethodDetail) DAC stores vendor-specific values for AP-related payment method settings \(which are stored in [PaymentMethodDetail](https://help.acumatica.com/dacBrowser/PX.Objects.CA/PaymentMethodDetail)\). These settings are edited on the **Payment** tab of the [Vendor Locations](../UserGuide/AP_30_30_10.md)\(AP303010\) form. For the main vendor location, they can also be specified on the **Payment** tab of the [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\) form.
 
-## Discount Codes and Sequences { .section}
+## Discount Codes and Sequences
 
 [APDiscount](https://help.acumatica.com/dacBrowser/PX.Objects.AP/APDiscount) represents an accounts payable discount code that is used to define discount sequences \(which are stored in [VendorDiscountSequence](https://msk-app-001.int.adds.acumatica.com/tw-2023R1/(W(21))/dacBrowser/PX.Objects.AP/VendorDiscountSequence)\). The primary function of a discount code is to specify the type of discounts that are based on that code. For example, a document discount can be applicable only to specific vendors, or a line discount can be applicable to specific inventory items. The APDiscount records are defined on the [Vendor Discount Codes](../UserGuide/AP_20_40_00.md) \(AP204000\) form.
 
@@ -121,7 +121,7 @@ In the following examples, a discount code defines a type of discount, including
 -   Suppose that a discount code specifies a type of document-level discounts that are applicable to specific vendors. The discount sequence defines this discount as being applicable to the A, B, and C vendors, and provides a 50% discount if the line amount is greater than $200.
 -   Suppose that a discount code specifies a type of line-level discounts that are applicable to specific inventory items. The discount sequence defines this discount as being for the D, E, and F inventory items, and provides a $25 discount if the document amount is greater than $1000.
 
-## Price Lists { .section}
+## Price Lists
 
 The system uses the [APVendorPrice](https://help.acumatica.com/dacBrowser/PX.Objects.AP/APVendorPrice) DAC to suggest the unit cost in document details \(that is, the unit cost that is stored in the APTran.UnitCost field\) that the user inserts into a bill or adjustment. The records store inventory item prices broken down by the following:
 

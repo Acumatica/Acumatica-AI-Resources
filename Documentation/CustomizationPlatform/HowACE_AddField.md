@@ -1,4 +1,4 @@
-# Adding Data Fields {#_a5df3248-1ede-4e64-8c1d-5c80f59b3466 .concept}
+# Adding Data Fields
 
 You can add to a form a UI control based on a new data field. To do this, you can use the following ways:
 
@@ -10,7 +10,7 @@ These approaches are described in greater detail below.
 -   [Adding a Data Field From the Data Class Editor](#section_dkm_553_jq)
 -   [Adding a Data Field From Code](#section_hxs_553_jq)
 
-## Adding a Data Field From the Data Class Editor {#section_dkm_553_jq .section}
+## Adding a Data Field From the Data Class Editor
 
 Suppose that you have to add an input UI text box for a bound data field to the [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\) form. To do this, you have to \(see the diagram below\):
 
@@ -21,12 +21,10 @@ Suppose that you have to add an input UI text box for a bound data field to the 
 
 -   Add a control for the field onto the form area \(the UI customization step\)
 
-    ![](images/CG_EX_AddDataField.png "Adding a bound field to a webpage")
 
 
 Suppose you have to add the new **Search Keywords** text box to the Stock Items form to the location shown on the screenshot.
 
-![](images/SearchKeywordsField.png "The customization task of adding the new field to the form")
 
 To add this text box, do the following:
 
@@ -56,7 +54,6 @@ To add this text box, do the following:
 
         **Tip:** If you select the *DBTableColumn* storage type, the system automatically adds schema for the new database column to the customization project. For more information on parameters that you specify for new fields, see [Create New Field Dialog Box](../UserGuide/AU_DataClassEditor.md#_cdaebe06-9e8d-43fc-8dda-6850986501b6).
 
-        ![](images/AddingFieldDACEditor.png "Adding the new data field to the class")
 
         To the customization project, the system adds the new field as the extension to the `InventoryItem` data access class, and adds the Table item for adding the corresponding column to the database table.
 
@@ -70,7 +67,6 @@ To add this text box, do the following:
     4.  Leave the **Data View** box empty. \(The box specifies the data access class by which the fields are filtered in the table below.\)
     5.  Select the **Custom** filter on the tab and select the check box for the *UsrSearchKeywords* field in the table, as the following screenshot shows.
 
-        ![](images/AddingFieldDACEditor3.png "Adding the control for the data field")
 
     6.  Click **Create Controls** on the toolbar of the tab. The control for the **Search Keywords** field will be added to the tree.
     Now you have to adjust the position and size of the control on the form. Drag and drop the **Search Keywords** control at the end of the column after the **Description** control and click **Save** to save the changes to the project.
@@ -78,7 +74,6 @@ To add this text box, do the following:
 4.  Adjust the size of the control. To do that you have to place an instance of the `PXLayoutRule` component right above the control and configure it as follows:
     1.  Select the **Add Controls** tab of the Screen Editor and drag and drop an **Empty Rule** component to the position above the **Search Keywords** control in the tree, as the screenshot below shows.
 
-        ![](images/AddingFieldDACEditor5.png "Adding an Empty Rule component to the tree to adjust the size of the control")
 
     2.  Select the *\[Layout Rule\]* node that appears in the Control Tree and switch to the **Layout Properties** tab of the Screen Editor.
     3.  On the **Layout Properties** tab, set the **ColumnSpan** property to `2`, which specifies the span of the control on two columns of the layout on the form. Click **Save** to save the changes to the project. After you save these changes, the *\[Layout Rule\]* node is renamed to *\[Column Span\]* according to the property the rule is changing.
@@ -112,7 +107,7 @@ public class PX_Objects_IN_InventoryItem_Extension_AddColumn:
 
 You can open the customization code in MS Visual Studio and work with the code there. For more information, see [Integrating the Project Editor with Microsoft Visual Studio](CG_Platform_Studio.md).
 
-## Adding a Data Field From Code {#section_hxs_553_jq .section}
+## Adding a Data Field From Code
 
 If you work with the customization code in MS Visual Studio, you can define a new data field in DAC extension code and then create the control on the form.
 
@@ -127,7 +122,6 @@ Suppose that you have to add an input UI text box for a bound data field to the 
 
 Suppose you have to add the new **Local Tax Category** selector to the Stock Items form, as the screenshot below shows.
 
-![](images/AddingFieldDACEditor7.png "The customization task of adding the new field to the form")
 
 If you want to work with the DAC extension code in the integrated MS Visual Studio solution without use of the Data Class Editor, you can develop the code in a *.cs* file added to the customization project as a custom Code item or in a *.cs* file in a separate add-on project in the solution. We recommend that you use either the Data Class Editor or develop the entire customization code in an add-on project in MS Visual Studio, but do not mix up the approaches. For more information, see [Integrating the Project Editor with Microsoft Visual Studio](CG_Platform_Studio.md).
 
@@ -173,7 +167,6 @@ To add the UI control for the bound data field created from code, perform the fo
         -   **Field Name**: `LocalTaxCategoryID` \(without the *Usr* prefix\)
         -   **Field Type**: *string*
         -   **Length**: `10`
-        ![](images/AddingFieldDACEditor8.png "Adding the database schema for a custom DAC field created from code")
 
         **Tip:** We recommend that you add the database schema for the a custom column, as shown above, and do not alter the original schema of the table by a custom SQL script.
 
@@ -185,7 +178,6 @@ To add the UI control for the bound data field created from code, perform the fo
     1.  Select the **Tax Category** control in the Control Tree to add the new control below it.
     2.  On the **Add Data Fields** tab, select the check box for the **Local Tax Category** selector in the table and click **Create Controls** to add the control to the tree \(see the screenshot below\).
 
-        ![](images/AddingFieldDACEditor9.png "Adding the control for the data field")
 
     3.  Click **Save** on the toolbar to save the layout changes.
     4.  Preview the customized form by clicking **Preview Changes** on the toolbar or publish the customization project to view the changes applied to the [Stock Items](../UserGuide/IN_20_25_00.md) form.

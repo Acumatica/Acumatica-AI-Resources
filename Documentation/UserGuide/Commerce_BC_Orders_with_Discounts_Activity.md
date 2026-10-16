@@ -1,10 +1,10 @@
-# Import of Orders with Discounts: Process Activity {#_fb901059-530c-4525-a5c3-b74e2fe4c3eb .task}
+# Import of Orders with Discounts: Process Activity
 
 The following activity will walk you through the process of importing orders that contain items with discounts.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife decided to offer discounts for some of the products that the company sells in its BigCommerce store. Starting from today, the company provides the following discounts:
 
@@ -14,11 +14,11 @@ Suppose that SweetLife decided to offer discounts for some of the products that 
 
 As SweetLife's implementation consultant, you need to define these discounts in the BigCommerce store and make sure that orders that contain discounts or items with discounts are imported to Acumatica ERP with the discounts applied correctly.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, on the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *BANJAM96* and *PLUMJAM96* stock items have been created for the purposes of this activity.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -28,7 +28,7 @@ In this activity, you will do the following:
 4.  On the [Prepare Data](BC_50_10_00.md) \(BC501000\) form, prepare the sales order data for synchronization; on the [Process Data](BC_50_15_00.md) \(BC501500\) form, process the sales order data prepared for synchronization.
 5.  On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, review the imported sales order and applied discounts.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you complete the instructions in this activity, do the following:
 
@@ -42,7 +42,7 @@ Before you complete the instructions in this activity, do the following:
     -   **Password**: *123*
 3.  On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, enable the *Customer Discounts* feature.
 
-## Step 1: Updating Discount-Related Settings { .section}
+## Step 1: Updating Discount-Related Settings
 
 To review the settings specified in Acumatica ERP for the import of online orders with discounts, do the following:
 
@@ -55,7 +55,7 @@ To review the settings specified in Acumatica ERP for the import of online order
 
 3.  On the form toolbar, click **Save**.
 
-## Step 2: Defining the First Discount { .section}
+## Step 2: Defining the First Discount
 
 In this step, you will define the first discount, a "buy one, get one free" discount that will be applied to the *Banana jam 96 oz* product.
 
@@ -82,7 +82,7 @@ In the control panel of the BigCommerce store, do the following:
 8.  In the lower right, click **Add rule to promotion** to save the rule and return to the **Create Promotion** page.
 9.  In the lower right, click **Create promotion**.
 
-## Step 3: Define a Second Discount { .section}
+## Step 3: Define a Second Discount
 
 To define a 10% discount that will be applied to the price of the *Plum jam 96 oz* product, do the following:
 
@@ -104,7 +104,7 @@ To define a 10% discount that will be applied to the price of the *Plum jam 96 o
 7.  In the lower right, click **Add rule to promotion** to save the rule and return to the **Create Promotion** page.
 8.  In the lower right, click **Create promotion**.
 
-## Step 4: Defining a Third Discount { .section}
+## Step 4: Defining a Third Discount
 
 To define a discount that will be applied to all orders that exceed the $100 threshold, do the following:
 
@@ -124,7 +124,7 @@ To define a discount that will be applied to all orders that exceed the $100 thr
 7.  In the lower right, click **Add rule to promotion** to save the rule and return to the **Create Promotion** page.
 8.  In the lower right, click **Create promotion**.
 
-## Step 5: Creating a Sales Order { .section}
+## Step 5: Creating a Sales Order
 
 To create an order for the *Banana jam 96 oz* and *Plum jam 96 oz* products \(to which the first and second discounts apply\), do the following:
 
@@ -161,7 +161,7 @@ To create an order for the *Banana jam 96 oz* and *Plum jam 96 oz* products \(to
     3.  In the lower right, click **Save &amp; process payment**.
 6.  On the **View orders** page, which opens, make a note of the reference number of the created order.
 
-## Step 6: Importing the Sales Order { .section}
+## Step 6: Importing the Sales Order
 
 To import the sales order, in Acumatica ERP, do the following:
 
@@ -176,7 +176,7 @@ To import the sales order, in Acumatica ERP, do the following:
 7.  On the form toolbar, click **Process**.
 8.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 7: Reviewing the Discounts in the Imported Sales Order { .section}
+## Step 7: Reviewing the Discounts in the Imported Sales Order
 
 To review how the discounts are displayed in the imported sales order, do the following:
 
@@ -191,13 +191,12 @@ To review how the discounts are displayed in the imported sales order, do the fo
 
     On the **Discounts** tab, notice that one line has been created for all discounts applied to the order in the BigCommerce store \(as shown in the following screenshot\). The text in the **Type** column \(*External Document*\) reflects the fact that the discounts were not applied in Acumatica ERP but were instead imported from an external system. The amount in the **Discount Amt.** column corresponds to the **Discount** value of the order in the BigCommerce store \($15.80\).
 
-    ![](Images/activity_Commerce_BC_Orders_with_Discounts.png "The discounts imported from the store")
 
 5.  Close the pop-up window with the [Sales Orders](SO_30_10_00.md) form.
 
 You have created automatic discounts of different types in the BigCommerce store, explored how they are applied to an order in the store, and reviewed how they are displayed on the order after it has been imported to Acumatica ERP. If you were to continue processing the order, you would also notice that the document-level discounts are posted to a separate expense account specified for the customer in the **Discount Account** box on the **GL Accounts** tab of the [Customers](AR_30_30_00.md) \(AR303000\) form.
 
-## Step 8: Deactivating the Discounts { .section}
+## Step 8: Deactivating the Discounts
 
 To deactivate the discounts that you have set up in this activity, while you are signed in to the control panel of the BigCommerce store, do the following:
 

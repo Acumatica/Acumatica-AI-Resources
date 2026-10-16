@@ -1,8 +1,8 @@
-# Workflow-Identifying Fields of the Second Level: To Define a Workflow {#_dc692718-7cbe-46cb-9834-721413a91c73 .task}
+# Workflow-Identifying Fields of the Second Level: To Define a Workflow
 
 The following activity will walk you through the process of defining workflows for the workflow-identifying field of the second level.
 
-## Story { .section}
+## Story
 
 Suppose that on the Repair Work Orders \(RS30100\) form, a workflow for the repair work order may depend on values of two fields: `OrderType` and `Behavior`. The `OrderType` field is already used as the workflow-identifying field. Therefore, the `Behavior` field should be used as the workflow-identifying field of the second level.
 
@@ -17,9 +17,8 @@ The `Behavior` field can have the following values:
     For this value, a new status of the repair work order should be available: *In Progress*. When a repair work order is in the *Assigned* status, a user should be able to click **Start** button and change the status of the order into *In Progress*. Then, a user should be able to click the **Complete** button which changes the status of the repair work order into *Completed*. That means, a new state and two new transitions should be available instead of an old transitions from the *Assigned* to *Completed* state \(Item 2.1 on the diagram below\).
 
 
-![](Images/diag_WorkflowAPI_Subflows_Changes.png "Changes of the workflow for the Repair Work Orders form")
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will first add the `UsrBehavior` custom field with corresponding string values to the Repair Work Orders \(RS301000\) form. Then, in the screen configuration for the Repair Work Orders \(RS30100\) form, you will specify the `UsrBehavior` field as the workflow-identifying field of the second level. For each value of the `UsrBehavior` field, you will add a workflow of the second level.
 
@@ -38,7 +37,7 @@ For the B2 value of the UsrBehavior field, you will modify the default workflow 
 
 -   Adding a transition form the In Progress to Completed state which is triggered by the existing Complete action
 
-## System Preparation { .section}
+## System Preparation
 
 In an instance with the *T100* dataset, make sure that you have done the following:
 
@@ -46,7 +45,7 @@ In an instance with the *T100* dataset, make sure that you have done the followi
 -   Defined the default workflow for the Repair Work Orders \(RS301000\) form according to the customization description in [Company Story and Customization Description](WorkflowAPI_CustomizationStory.md)
 -   Defined a workflow identifying field for the Repair Work Orders \(RS301000\) form as described in [Workflow-Identifying Fields: To Add a Workflow for a Value of the Workflow-Identifying Field](WorkflowAPI_WorkflowIdentifying_Add_Activity.md)
 
-## Step 1: Add the Behavior Field \(Self-Guided Exercise\) { .section}
+## Step 1: Add the Behavior Field \(Self-Guided Exercise\)
 
 In this step, you will add the `UsrBehavior` field to the Repair Work Order \(RS30100\) form.
 
@@ -54,7 +53,7 @@ In this step, you will add the `UsrBehavior` field to the Repair Work Order \(RS
 
 To add the field, use the same instructions as described in [Step 1: Adding the OrderType Field and Corresponding Box to the UI](WorkflowAPI_WorkflowIdentifying_Activity_Add_AddCustomField.md).
 
-## Step 2: Specify the Workflow-Identifying Field of the Second Level { .section}
+## Step 2: Specify the Workflow-Identifying Field of the Second Level
 
 In this step, you will specify the `UsrBehavior` field as the workflow-identifying field of the second level in the extension of `RSSVWorkOrderEntry_Workflow` class. You will do it using the FlowSubTypeIdentifierIs method. Do the following:
 
@@ -71,7 +70,7 @@ In this step, you will specify the `UsrBehavior` field as the workflow-identifyi
     ```
 
 
-## Step 3: Define Workflows for Each Value of the Workflow-Identifying Field of the Second Level { .section}
+## Step 3: Define Workflows for Each Value of the Workflow-Identifying Field of the Second Level
 
 In this step, you will define a workflow for each value of the `UsrBehavior` field using the WithSubFlows method. This workflows will be applied to the *Simple* value of the `UsrOrderType` field.
 

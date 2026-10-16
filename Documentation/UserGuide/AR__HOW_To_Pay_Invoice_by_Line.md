@@ -1,8 +1,8 @@
-# To Apply a Credit Memo Paid by Line to an Invoice {#_2bac729e-c586-4e5c-bca9-bda34d39ce80 .task}
+# To Apply a Credit Memo Paid by Line to an Invoice
 
 You use the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form to apply credit memo lines to invoices by paying them in one payment.
 
-## To Apply a Credit Memo Paid by Line to an Invoice {#section_xxq_4jv_vxb .section}
+## To Apply a Credit Memo Paid by Line to an Invoice
 
 **Attention:** You create a credit memo with retainage and paid by line on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. For details, see [To Enter a Credit Memo with Retainage](AR__HOW_To_Create_Credit_Memo_with_Retainage.md).
 

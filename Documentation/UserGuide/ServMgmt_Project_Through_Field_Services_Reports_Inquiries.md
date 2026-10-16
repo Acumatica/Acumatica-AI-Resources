@@ -1,10 +1,10 @@
-# Integration of Field Services and Projects: Related Inquiry Form {#_2965632b-c130-4c5c-9267-8e2bb1a7c11f .concept}
+# Integration of Field Services and Projects: Related Inquiry Form
 
 In the following sections, you can find details about the inquiry form you may want to review to gather information about project transactions originating from field service documents.
 
 **Attention:** If you don’t see a particular report or form that is described, you may have signed in to the system with a user account that doesn’t have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms.
 
-## Reviewing the Generated Project Transactions { .section}
+## Reviewing the Generated Project Transactions
 
 On the [Project Transaction Details](PM_40_10_00.md) \(PM401000\) inquiry form, you can specify a project and review the project transactions that the system has generated from service documents. The screenshot below provides an example of this inquiry form, which shows the project transactions created under the following conditions:
 
@@ -12,7 +12,6 @@ On the [Project Transaction Details](PM_40_10_00.md) \(PM401000\) inquiry form, 
 -   An allocation rule has been applied to the project.
 -   The project billing process has been run.
 
-![](Images/ServMgmt_FS_Project_Transaction_Details.png "A project’s transactions originating from service documents")
 
 In this example, the inquiry form shows the following project transactions:
 

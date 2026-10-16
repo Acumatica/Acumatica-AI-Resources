@@ -1,23 +1,23 @@
-# User-Defined Fields in Customization Projects: Process Activity {#_8e840656-9dd4-46c9-95fb-46c1de7fe4bf .task}
+# User-Defined Fields in Customization Projects: Process Activity
 
 The following activity will walk you through the process of adding a user-defined field to the [Customer Locations](../UserGuide/AR_30_30_20.md) \(AR303020\) form and then adding this field to a customization project.
 
-## Story { .section}
+## Story
 
 Suppose that for each customer location in the system, you want the user to specify the network type that this customer is using. The box that corresponds to the network type does not yet exist in the system. You need to add it as a user-defined field and make this field part of the customization project.
 
-## Process Overview { .section}
+## Process Overview
 
 By using the [Attributes](../UserGuide/CS_20_50_00.md) \(CS205000\) form, you will create an attribute. In UI Configuration mode for the [Customer Locations](../UserGuide/AR_30_30_20.md) \(AR303020\) form, you will associate a user-defined field that is based on the created attribute with the form, and then add this field to the form. In the Customization Project Editor, you will then add the user-defined field to the [User-Defined Fields](../UserGuide/AU_23_00_00.md) page.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
 1.  Prepare an Acumatica ERP instance by performing the [Customization Projects: To Deploy an Instance](CustomizationProjects_GettingStarted_Activity_CreateInstance.md) prerequisite activity.
 2.  Create the *Yogifon* customization project by performing the [Customization Projects: To Create a Customization Project](CustomizationProjects_GettingStarted_Activity_CreateProject.md) prerequisite activity.
 
-## Step 1: Defining the Attribute { .section}
+## Step 1: Defining the Attribute
 
 To add a new attribute that holds the network type of the customer location, do the following on the [Attributes](../UserGuide/CS_20_50_00.md) \(CS205000\) form of Acumatica ERP:
 
@@ -39,7 +39,7 @@ To add a new attribute that holds the network type of the customer location, do 
 
 3.  On the form toolbar, click **Save**.
 
-## Step 2: Associating the User-Defined Field with a Form { .section}
+## Step 2: Associating the User-Defined Field with a Form
 
 Now you will associate the user-defined field with the [Customer Locations](../UserGuide/AR_30_30_20.md) \(AR303020\) form. The field is based on the attribute that you created in the previous step. On this form, do the following:
 
@@ -52,7 +52,7 @@ Now you will associate the user-defined field with the [Customer Locations](../U
 4.  In the lookup table for the added row, select *NETTYPE*.
 5.  Click **Apply**. The dialog box is closed, and the new field \(with the specified attribute\) becomes associated with the [Customer Locations](../UserGuide/AR_30_30_20.md) form.
 
-## Step 3: Adding the User-Defined Field to the Form { .section}
+## Step 3: Adding the User-Defined Field to the Form
 
 While you are still working in UI Configuration mode, do the following to add the new user-defined field to the [Customer Locations](../UserGuide/AR_30_30_20.md) \(AR303020\) form:
 
@@ -68,12 +68,11 @@ While you are still working in UI Configuration mode, do the following to add th
 
     The new field is added to the form, and the list of its values is the same as for the underlying attribute \(see the following screenshot\).
 
-    ![](images/CustomizationProjects_AddingUserDefinedFields_UDF_View.png "The Network Type box")
 
 7.  In the **Network Type** box, select *Long-Term Evolution*.
 8.  On the form toolbar, click **Save**.
 
-## Step 4: Adding the User-Defined Field to the Customization Project { .section}
+## Step 4: Adding the User-Defined Field to the Customization Project
 
 To add the **Network Type** user-defined field to the *Yogifon* customization project, do the following:
 
@@ -85,7 +84,6 @@ To add the **Network Type** user-defined field to the *Yogifon* customization pr
 3.  On the page toolbar, click **Add New Record**.
 4.  In the **Add User-Defined Fields** dialog box, which opens, select the unlabeled check box in the row with the *NETTYPE* attribute ID, as shown in the following screenshot.
 
-    ![](images/CustomizationProjects_AddingUserDefinedFields_UDF_AddToProject.png "The Add User-Defined Fields dialog box")
 
 5.  Click **Save**.
 

@@ -1,10 +1,10 @@
-# To Add a Revision to a Stock Kit {#_4758871e-1578-45bb-894f-500bf0e221ee .task}
+# To Add a Revision to a Stock Kit
 
 If you need to make minor changes in a stock kit specification \(for example, if the list of components changes slightly\), you can add a new revision to an existing specification by using the [Kit Specifications](IN_20_95_00.md) \(IN209500\) form, as described in this topic.
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## To Add a Revision to a Stock Kit { .section}
+## To Add a Revision to a Stock Kit
 
 1.  Open the [Kit Specifications](../Shared/../UserGuide/IN_20_95_00.md) \(IN209500\) form.
 2.  In the **Kit Inventory ID** box of the Summary area, select the stock kit for which you want to add a new revision.

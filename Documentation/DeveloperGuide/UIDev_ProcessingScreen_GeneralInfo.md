@@ -1,16 +1,16 @@
-# Processing Form: General Information {#_3b1df48c-8a3f-4751-a19e-a00397046a90 .concept}
+# Processing Form: General Information
 
 On a processing form, a user can perform an operation on multiple selected records at once.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you'll learn how to organize the layout of the processing form.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You implement a processing form if you need to provide the ability for the user to invoke an operation on multiple records at once.
 
-## Processing Forms { .section}
+## Processing Forms
 
 Processing forms look similar to inquiry forms. A processing form usually has the following components:
 
@@ -24,9 +24,8 @@ Processing forms look similar to inquiry forms. A processing form usually has th
 
 The screenshot below shows an example of a processing form with a Selection area and a grid.
 
-![](Images/UIDev_ProcessingScreen_Example.PNG "A processing form")
 
-## Naming Conventions for Processing Forms { .section}
+## Naming Conventions for Processing Forms
 
 Processing forms have IDs that start with a two-letter abbreviation \(indicating the functional area of the form\) followed by *50* \(indicating a processing form\), such as *RS501000*.
 
@@ -34,7 +33,7 @@ The names of the graphs that work with processing forms have the *Process* suffi
 
 For more details about these naming conventions, see [Form and Report Numbering](../StudioDeveloperGuide/DA__con_Form_Numbering.md#) and [Graph Naming](../StudioDeveloperGuide/DA__con_Graph_Naming.md#).
 
-## Definition of the Processing Graph and Data View { .section}
+## Definition of the Processing Graph and Data View
 
 To configure the graph that works with the processing form, you do the following:
 
@@ -48,7 +47,7 @@ To configure the graph that works with the processing form, you do the following
 
     You do this by using the PXCancel class. If the processing form does not have a filter, you use the main DAC of the processing data view as the type parameter, as shown in the following code.
 
-    ```language-csharp
+    ```csharp
     // Definition of the Cancel button for processing without filtering
     public class SalesOrderProcess : PXGraph<SalesOrderProcess>
     {
@@ -62,7 +61,7 @@ To configure the graph that works with the processing form, you do the following
 
     By default, any form that has a data view of a type derived from PXProcessingBase&lt;Table&gt; has the **Process** and **Process All** buttons on the form toolbar. To override the button captions, you use the SetProcessCaption\(\) and SetProcessAllCaption\(\) methods, as the following code shows.
 
-    ```language-csharp
+    ```csharp
     public RSSVAssignProcess()
     {
         WorkOrders.SetProcessCaption("Assign");
@@ -73,7 +72,7 @@ To configure the graph that works with the processing form, you do the following
 
 You also need to specify the processing action. For details, see [Processing Operations: General Information](../StudioDeveloperGuide/CodeCustomization_ProcessingOperations_GeneralInfo.md).
 
-## Selected Data Field and Column { .section}
+## Selected Data Field and Column
 
 You must add the unbound `Selected` data field of the Boolean type to the DAC that provides the records to process for the processing form and then add the column for this field to the form. If a user doesn’t want to process all listed records, the user will select the check box in this column for each record to be processed. You define the `Selected` data field as unbound by using the PXBool type attribute. \(Unlike the PXDBBool attribute, the PXBool attribute does not have *DB* in its name. *DB* indicates a bound data type.\)
 

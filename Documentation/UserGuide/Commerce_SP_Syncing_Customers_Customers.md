@@ -1,8 +1,8 @@
-# Customer Synchronization: Individual Customers {#_f67427b0-eecf-4217-8ad3-11344b2a34ee .concept}
+# Customer Synchronization: Individual Customers
 
 Individual customers are synchronized during the synchronization of the *Customer* entity. The sections below describe what happens during the synchronization of customers that have one or multiple locations when the *Customer Location* entity is both disabled and enabled.
 
-## Synchronization of Individual Customers Without Customer Locations { .section}
+## Synchronization of Individual Customers Without Customer Locations
 
 If the *Customer* entity is activated and the *Customer Location* entity is not activated on the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form, when the *Customer* entity is synchronized between the Shopify store and Acumatica ERP, the customer location \(address\) data is not copied from one system to the other.
 
@@ -10,7 +10,7 @@ When an individual customer created in the Shopify store is imported to Acumatic
 
 When a sales order created in the Shopify store is imported, the address information \(that is, the billing address and shipping address\) specified in the order is imported to Acumatica ERP as part of sales order data; however, new locations are not created and existing locations are not updated with the imported data.
 
-## Creation of a Customer Without an Address { .section}
+## Creation of a Customer Without an Address
 
 If you need to synchronize individual customers along with their locations, both the *Customer* entity and the *Customer Location* entity must be activated on the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form.
 
@@ -20,9 +20,8 @@ In Acumatica ERP, when a new customer is created, the default *MAIN* location is
 
 The following diagram illustrates the synchronization of customers created without an address.
 
-![](Images/diag_Synchronization_of_Customers.png "Synchronization of customers created without an address")
 
-## Creation of a Customer Address { .section}
+## Creation of a Customer Address
 
 If the *Customer* and *Customer Location* entities are activated on the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form and a new address was created for a customer in the Shopify store, during the import of the *Customer* entity, the ecommerce connector does one of the following:
 
@@ -36,9 +35,8 @@ If a new location was created for a customer in Acumatica ERP, when the *Custome
 
 The following diagram illustrates the synchronization of a new customer address.
 
-![](Images/diag_Synchronization_of_Customers_New_Address.png "Synchronization of a new customer address")
 
-## Editing of a Customer Address { .section}
+## Editing of a Customer Address
 
 With the *Customer* and *Customer Location* entities activated on the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form, if an existing customer address synchronized with Acumatica ERP is edited in the Shopify store, during the import of the *Customer* entity, the corresponding customer location in Acumatica ERP is updated with the changes made to the customer address in the Shopify store.
 
@@ -51,9 +49,8 @@ If an existing customer location is edited in Acumatica ERP, during the export o
 
 The following diagram illustrates the synchronization of an updated customer address.
 
-![](Images/diag_Synchronization_of_Customers_Address_Updated.png "Synchronization of an updated customer address")
 
-## Deletion of a Customer Address { .section}
+## Deletion of a Customer Address
 
 With the *Customer* and *Customer Location* entities activated on the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form, if a customer address is deleted in the Shopify store, the import of the *Customer* entity proceeds as follows:
 
@@ -66,9 +63,8 @@ If an existing customer location is made inactive in Acumatica ERP, when the *Cu
 
 The following diagram illustrates the synchronization of a deleted customer address.
 
-![](Images/diag_Synchronization_of_Customers_Address_Deleted.png "Synchronization of a deleted customer address")
 
-## Use of the Guest Customer Account { .section}
+## Use of the Guest Customer Account
 
 If you want to allow placing orders in your store without providing the customer's phone number or email address and want to import such orders to Acumatica ERP, you need to fill in the **Generic Guest Customer** box on the **Customer Settings** tab of the [Shopify Stores](../Shared/../UserGuide/BC_20_10_10.md) \(BC201010\) form. This customer account appears on imported sales orders that have been placed in the Shopify store without customer details.
 

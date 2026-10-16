@@ -1,10 +1,10 @@
-# Case Classes: Case Commitments {#_d6314691-e3ef-480b-a744-d5009b2369d0 .concept}
+# Case Classes: Case Commitments
 
 If a company has a service-level agreement with a customer, it may include the company's commitments to do the following within a specified period of time: provide an initial response, respond to the customer, and resolve the case. The periods of time during which the company must fulfill its commitments may depend on the severity level of a case, which is determined by the impact on your customer's business. In Acumatica ERP, you can easily monitor the fulfillment of commitments for each case.
 
 For each class, you can specify target time periods to be tracked for any severity level. You can configure these commitments if the *Case Commitments* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Setup of Commitments for a Case Class { .section}
+## Setup of Commitments for a Case Class
 
 You specify the time commitments for a case class on the **Commitments** tab of the [Case Classes](CR_20_60_00.md) \(CR206000\) form. For each row that you add to the table on this tab, in the **Severity** column, you can select one of the predefined options \(*Urgent*, *High*, *Medium*, or *Low*\).
 
@@ -29,7 +29,7 @@ For each case class with time commitments specified, you must indicate which con
 
 By default, outgoing system emails do not affect the tracking of resolution time for cases of the class. The system continues counting the resolution time of a case and calculating the case commitment statistics. However, you can include emails of the *System Email* type in the resolution time calculation by selecting the **Include System Activities in Response Time Calculation** check box on the [Case Classes](CR_20_60_00.md) form if this fits your company's needs.
 
-## Case Management with Tracking Activated { .section}
+## Case Management with Tracking Activated
 
 When a customer support representative creates a case on the [Cases](CR_30_60_00.md) \(CR306000\) form, they select its severity level in the **Severity** box of the Summary area. If the tracking of the target periods of time for the selected severity level has been activated and defined on the [Case Classes](CR_20_60_00.md) \(CR206000\) form for the class of this case, the system starts tracking time to monitor the fulfillment of commitments.
 
@@ -44,9 +44,8 @@ If time tracking has been activated for all commitments on the [Case Classes](CR
 
 You can see the process of time tracking during the case workflow in the following diagram.
 
-![](Images/diag_CRM_Case_Commitments_Workflow_Overview_of_Case_Commitments.png)
 
-## Extension of Case Commitment Times { .section}
+## Extension of Case Commitment Times
 
 If the tracking of time for the case commitments is activated on the [Case Classes](CR_20_60_00.md) \(CR206000\) form, as described above, an extension of time to meet case commitments can be specified for any severity level of the class.
 
@@ -57,7 +56,6 @@ As a user works work a case on the [Cases](CR_30_60_00.md) \(CR306000\) form, th
 
 In either of these scenarios, the remaining time to fulfill the commitment \(starting at the moment of the change\) may be less than it would have been if the user had selected the current severity level or class at the moment of case creation. To avoid the commitment not being met for this case, the system adds the extension specified for this commitment to the current time period and sets the extended target time \(for example, for resolving the case or responding to the customer\), as shown in the following diagram.
 
-![](Images/diag_CRM_Case_Commitments_Workflow_Grace_Period.png)
 
 For details about scenarios in which you can use a time extension, see [Case Management: Time Extensions for Case Commitments](CRM_Support_Managing_Cases_Case_Commitments_Grace_Period.md)
 

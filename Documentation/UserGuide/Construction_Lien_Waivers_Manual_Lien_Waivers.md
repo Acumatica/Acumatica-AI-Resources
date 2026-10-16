@@ -1,4 +1,4 @@
-# Lien Waivers: Manual Creation of Lien Waivers {#_5830ec5e-c18e-4e64-aafa-f56fa72bf162 .concept}
+# Lien Waivers: Manual Creation of Lien Waivers
 
 You may need to manually add a lien waiver—for example, if you need to issue the lien waiver before the payment is created in the system. You can manually add a lien waiver for the following documents and records:
 

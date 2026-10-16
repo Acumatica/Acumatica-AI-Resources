@@ -1,4 +1,4 @@
-# Override of a Method: Overriding a Method Through the UI {#_6fa2a444-17b4-42f9-9e6a-64e85167626a .concept}
+# Override of a Method: Overriding a Method Through the UI
 
 You can create a template of the override method and edit it in the Customization Project Editor. To override a method, perform the following actions:
 

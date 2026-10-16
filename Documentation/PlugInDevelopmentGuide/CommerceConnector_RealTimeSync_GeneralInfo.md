@@ -1,16 +1,16 @@
-# Real-Time Synchronization for a Connector: General Information {#_ac4b2209-f16e-489a-8b3f-6e785ce59d8a .concept}
+# Real-Time Synchronization for a Connector: General Information
 
 Real-time synchronization between Acumatica ERP and an external system ensures that any updates made in one system are reflected in the other system without significant delay, keeping the data consistent and current across these systems. You implement real-time import through webhooks. You implement real-time import through webhooks, and real-time export by using push notifications.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to implement real-time synchronization for a connector between Acumatica ERP and an external system.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You implement real-time synchronization to ensure that all needed data is exported and imported to the appropriate system in a timely manner.
 
-## Implementation of Webhooks in the Connector { .section}
+## Implementation of Webhooks in the Connector
 
 In a connector, you can implement real-time import for particular entities through webhooks. For these entities, you need to adjust the connector class and the processor classes that correspond to these entities by performing the following general steps:
 
@@ -22,11 +22,11 @@ In a connector, you can implement real-time import for particular entities throu
 
     The following code shows an example of the attribute for the customer processor class.
 
-    ```language-csharp
+    ```csharp
         [BCProcessorRealtime(
     ```
 
-    ```language-csharp
+    ```csharp
             HookSupported = true,
             WebHookType = typeof(CustomerData),
             WebHooks = new String[]
@@ -46,7 +46,7 @@ In a connector, you can implement real-time import for particular entities throu
     You can see this code on [GitHub](https://github.com/Acumatica/Help-and-Training-Examples/blob/HEAD/PlugInDevelopment/Help/ImplementingConnector/WooCommerceTest/Sync/WooCustomerProcessor.cs).
 
 
-## Implementation of Push Notifications for a Connector { .section}
+## Implementation of Push Notifications for a Connector
 
 To implement push notifications in Acumatica ERP to support real-time export in a connector, you need to perform the following general steps:
 
@@ -69,7 +69,7 @@ To implement push notifications in Acumatica ERP to support real-time export in 
     -   The BCProcessor attribute of the processor has the Direction property set to *SyncDirection.Bidirect* or *SyncDirection.Export*.
     -   The FetchBucketsForExport\(\), GetBucketForExport\(\), MapBucketExport\(\), SaveBucketExport\(\), and PullEntity\(\) methods of the processor have been implemented. The following code shows an example of the implementation of the PullEntity\(\) method.
 
-        ```language-csharp
+        ```csharp
                 public override async Task<MappedCustomer> PullEntity(Guid? localID, 
                     Dictionary<string, object> externalInfo, 
                         CancellationToken cancellationToken = default)
@@ -89,14 +89,14 @@ To implement push notifications in Acumatica ERP to support real-time export in 
 
     The following code shows an example of the attribute for the customer processor class.
 
-    ```language-csharp
+    ```csharp
         [BCProcessorRealtime(
             PushSupported = true,
             PushSources = new String[] { "BC-PUSH-Customers" },
             PushDestination = WCCaptions.PushDestination,
     ```
 
-    ```language-csharp
+    ```csharp
         )]
         public class WooCustomerProcessor : 
             BCProcessorSingleBase<WooCustomerProcessor, 

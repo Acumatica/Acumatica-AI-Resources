@@ -1,16 +1,16 @@
-# Anomaly Detection: General Information {#_670d7f7c-7dee-46fa-a068-15995a22ad81 .concept}
+# Anomaly Detection: General Information
 
-By using the anomaly detection functionality in Acumatica ERP, supply chain managers can detect anomalies in a particular numeric column of a generic inquiry form. For example, they can quickly find records whose total amounts are too large or too small compared to these amounts in other listed records. The functionality can help supply chain managers to monitor key data values and correct any data entry errors, thus preventing ineffective business decisions based on incorrect data. In addition, sales managers and purchase managers can use anomaly detection to recognize deviations in data based on the system's analysis of abnormal figures in amounts, totals, costs, and other values.
+By using the anomaly detection functionality in Acumatica ERP, supply chain managers can detect anomalies in a particular numeric column of a generic inquiry form. For example, they can quickly find records whose total amounts are too large or too small compared to these amounts in other listed records. The functionality can help supply chain managers to monitor key data values and correct any data entry errors, thus preventing ineffective business decisions based on incorrect data. In addition, sales managers and purchase managers can use anomaly detection to recognize deviations in data based on the system's analysis of abnormal figures in amounts, totals, costs, and other values. Accountants can use this functionality to detect anomalies in general ledger transactions.
 
 Anomaly detection is usually configured by a technical specialist who performs basic customization tasks. In this topic, you will learn more about the configuration and use of anomaly detection.
 
-**Attention:** The *Detection of Numeric Anomalies in Generic Inquiries* feature requires a separate license.
+**Attention:** This functionality is available if the *Anomaly Detection* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. This feature requires a separate license.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may find the information in this chapter useful if you are a sales manager, a purchase manager, or an accountant who is responsible for tracking deviations in particular amounts in entered records. You may also find this information useful if you are a technical specialist tasked with configuring the detection of anomalies in Acumatica ERP.
 
-## Detection of Anomalies { .section}
+## Detection of Anomalies
 
 Anomaly detection uses an unsupervised machine learning algorithm to classify numeric values as anomalies. The algorithm uses a machine learning model that has been developed to recognize certain patterns and is operated by a cloud service. The model classifies the analyzed values as one of the following:
 
@@ -20,9 +20,19 @@ Anomaly detection uses an unsupervised machine learning algorithm to classify nu
 
 The functionality can detect anomalies in all records on the generic inquiry form or in groups of records, which can be defined by the technical specialist who sets up the functionality. The anomaly detection process can be run on demand or by schedule on a daily, weekly, or monthly basis. The anomalies that the system finds can then be used in business events and shown on dashboards.
 
-## Predefined Generic Inquiries for Anomaly Detection { .section}
+## Predefined Generic Inquiries for Anomaly Detection
 
 You can set up anomaly detection for any generic inquiry. Acumatica ERP contains the following generic inquiries, which have been specifically designed to use anomaly detection:
+
+-   Journal Entries Analysis \(GL3010ML\): This generic inquiry form shows released journal transactions of the actual ledger, with the difference between the debit and credit amount shown for each transaction. Accountants and controllers can use it to spot entries that break the usual pattern for a branch, account, and subaccount—a misplaced decimal point, a posting to an account that rarely receives one, or an unusually large adjustment at period end.
+
+    Anomalies are detected in the **Debit - Credit** value, grouped by branch, account, and subaccount, with the transaction date used as the timeline. Reclassified transactions, reclassification reversals, and trial balance and consolidation batches are excluded from the analysis. You can narrow the results by company and branch, account, and a range of financial periods. The **From Period** box is filled in by default with the financial period that contains the same date one year earlier.
+
+-   Income and Expenses Analysis \(GL3020ML\): This generic inquiry form shows income and expense turnover by financial period. It helps accountants identify unusual changes in account balances and verify their accuracy before period closing.
+
+    Full anomaly detection is performed only for groups that had transactions during the last year. In the default configuration, each group represents a combination of a branch, account, and subaccount. The analysis uses seven years of historical data; this period can be adjusted in the settings. For each financial period in the analyzed range, the inquiry displays a record—including periods with zero turnover—to provide a complete dataset for anomaly detection.
+
+    The inquiry can also display other groups that had transactions within the seven-year period. Anomaly detection results for these groups may not be valid.
 
 -   Sales Order Margin Analysis \(SO3010ML\): This generic inquiry form shows the actual margin amount and percentage for sold items \(that is, items for which invoices have already been released\) for each sales order.
 
@@ -41,19 +51,22 @@ You can set up anomaly detection for any generic inquiry. Acumatica ERP contains
 -   Production Material Variance \(AM0025ML\): This generic inquiry helps you analyze material cost deviations between planned and actual values for WIP and completed production orders—broken down by operation.
 -   Production Employee Efficiency \(AM0030ML\): This generic inquiry gives you the ability to compare actual performance across employees doing the same operations, enabling fair evaluation and targeted coaching without over-adjusting BOM labor times.
 
-## Setup of Anomaly Detection {#section_vv2_1y4_y4b .section}
+## Setup of Anomaly Detection
 
 You configure the anomaly detection for each generic inquiry separately. The typical process involves the following general steps:
 
-1.  The configuration of anomaly settings on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\).
-2.  The initial running of the detection process on the [Detect Anomalies in Generic Inquiries](ML_50_20_00.md) \(ML502000\) form.
-3.  A review of the calculation results on the appropriate generic inquiry form.
-4.  Optional: The creation of a shared filter with the records whose anomaly severity is *Significant* or *Medium*.
-5.  The setup of a schedule for running the anomaly detection process on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\).
-6.  Optional: The addition of a dashboard widget with the number of detected anomalies to a dashboard.
-7.  Optional: The configuration of a business event that the system triggers when it detects anomalies.
+1.  The enabling of the *Anomaly Detection* feature on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
+2.  The configuration of anomaly settings on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form.
+3.  The initial running of the detection process on the [Detect Anomalies in Generic Inquiries](ML_50_20_00.md) \(ML502000\) form.
+4.  A review of the calculation results on the appropriate generic inquiry form.
+5.  Optional: The creation of a shared filter with the records whose anomaly severity is *Significant* or *Medium*.
+6.  The setup of a schedule for running the anomaly detection process on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form.
+7.  Optional: The addition of a dashboard widget with the number of detected anomalies to a dashboard.
+8.  Optional: The configuration of a business event that the system triggers when it detects anomalies.
 
-## Anomaly Detection Settings { .section}
+**Attention:** The maximum number of generic inquiries for which anomaly detection can be turned on is limited by your license. For this reason, the **Detect Anomalies** check box is cleared by default for the Journal Entries Analysis \(GL3010ML\) inquiry. To analyze anomalies in this inquiry, select the **Detect Anomalies** check box on the **Advanced** tab of the [Generic Inquiry](SM_20_80_00.md) form. If anomaly detection is already turned on for the maximum number of inquiries, clear the check box for one of them first. You can review these limits on the **License and Constraints** tab of the [License Monitoring Console](SM_60_40_00.md) \(SM604000\) form.
+
+## Anomaly Detection Settings
 
 You specify the following anomaly detection settings for a generic inquiry on the **Anomaly Detection** tab of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form:
 
@@ -79,16 +92,14 @@ You specify the following anomaly detection settings for a generic inquiry on th
 
     You can select *Daily* \(the process is run each day between 12 AM and 6 AM\), *Weekly* \(it is run on Sundays between 12 AM and 6 AM\), *Monthly* \(it is run on the first day of the month between 12 AM and 6 AM\), or *On Demand* \(you start the process yourself\). The default value is *Weekly*.
 
-    ![](Images/GI_DetectAnomalies_Anomaly_Detection_Tab.png "The anomaly detection settings")
 
 
 **Attention:** If you change the values in the **Field for Analysis** box, the **Date Field for Timeline** box, or the **Data Field** table after anomaly detection has run, the system deletes all previous calculation results for the generic inquiry.
 
-## Start of Anomaly Detection { .section}
+## Start of Anomaly Detection
 
 After you have specified the anomaly detection settings, you start the anomaly detection process on the [Detect Anomalies in Generic Inquiries](ML_50_20_00.md) \(ML502000\) form \(see the following screenshot\). You open this form by clicking **Detect Anomalies** on the form toolbar of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form or on the form toolbar of the appropriate generic inquiry form. \(You can also open the form directly from search results or a workspace.\)
 
-![](Images/GI_DetectAnomalies_ML502000_form.png "The Detect Anomalies in Generic Inquiries (ML502000) form")
 
 To start the anomaly detection process manually, you perform the following general steps on this form:
 
@@ -126,9 +137,8 @@ After you perform the steps listed above for the first time, the following colum
 
 The following screenshot shows the *Sales Order Margin Analysis \(SO3010ML\)* inquiry form with the results of processing. Notice that the rows with the *Medium* and *Significant* anomaly severities are highlighted in red, and that the records that have not been processed are highlighted in yellow.
 
-![](Images/GI_DetectAnomalies_Results.png "The results of anomaly calculation")
 
-## Start of Anomaly Detection on a Schedule { .section}
+## Start of Anomaly Detection on a Schedule
 
 You can configure anomaly detection to be run on a schedule. You do this by selecting the needed frequency in the **Update Frequency** box of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form \(**Anomaly Detection** tab\). We recommend that you select the *Daily*, *Weekly* \(default\), or *Monthly* mode to direct the system to run the processes, and use the *On Demand* mode only during initial configuration.
 
@@ -140,7 +150,7 @@ If you have run the process at least once during a certain day, the system will 
 
 You can reset the status of the processed records and remove all temporary data related to the anomaly calculation by clicking **Reset Data** on the form toolbar of the [Detect Anomalies in Generic Inquiries](ML_50_20_00.md) \(ML502000\) form.
 
-## Use of Anomaly Detection in Dashboards { .section}
+## Use of Anomaly Detection in Dashboards
 
 You can use a generic inquiry with anomaly detection configured in a dashboard. By using a widget on a dashboard, a supply chain manager can see the number of anomalies, follow the link, and review the detected records. Before adding a widget, you must do the following:
 
@@ -152,7 +162,7 @@ You then add a widget by using the standard process \(for details, see [Specific
 
 We recommend that you add to the filter a condition that excludes records that have been marked as *Reviewed*. In this case, the system will display only the newly found anomalies.
 
-## Use of Anomaly Detection to Trigger Business Events { .section}
+## Use of Anomaly Detection to Trigger Business Events
 
 You can configure business events to send notifications when the system detects anomalies with certain severities.
 
@@ -162,17 +172,15 @@ You create a business event of the *Triggered by Schedule* type that uses an ema
 
 For details on creating business events, see [Using Business Events](SA_Using_Business_Events_Mapref.md).
 
-## Current Limitations {#section_bk3_yfp_g3c .section}
+## Current Limitations
 
 When you add the required parameters to your generic inquiries, you must specify their default values before using anomaly detection. If default values aren’t specified and you try to select the **Detect Anomalies** check box on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form, the system displays an error, as shown below.
 
-![](Images/GI_DetectAnomalies_Default_Parameter_Value.png "Missing default value for a required parameter")
 
 If you’ve already run anomaly calculation for a generic inquiry and you modify its settings on the **Anomaly Detection** tab, the existing calculation becomes outdated. In this case, you must start a new calculation. If a schedule is already running, the system stops it and then reruns the calculation with the updated values. The system displays a warning, as shown below.
 
-![](Images/GI_DetectAnomalies_Warning_GI_Change.png "The warning for generic inquiry modification")
 
-## Anomaly Detection for Complex Generic Inquiries {#section_as5_hfp_g3c .section}
+## Anomaly Detection for Complex Generic Inquiries
 
 You can also set up anomaly detection for a complex generic inquiry—one that uses another generic inquiry as a data source. You use the same process as described above. For details on complex inquiries, see [Data from Multiple Data Sources: Use of Generic Inquiry as Data Source](GI_Use_of_Generic_Inquiry_as_Data_Source_Concept.md).
 

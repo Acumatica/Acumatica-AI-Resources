@@ -1,8 +1,8 @@
-# To Set Up the EMV Card Reader Functionality {#_0de24855-e125-4165-8c78-7af95f40c30b .task}
+# To Set Up the EMV Card Reader Functionality
 
 This topic describes the configuration steps that you need to perform in the system to set up the support of EMV card readers.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Confirm that the *Acumatica Payments* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
@@ -11,7 +11,7 @@ Make sure that OAuth is set up for a location user account that has:
 -   Access to the same location specified on the **Plug-In Parameters** tab of the [Processing Centers](CA_20_50_00.md) \(CA205000\) form
 -   A role in the processing center that allows creating credit card sales
 
-## To Create a Processing Center { .section}
+## To Create a Processing Center
 
 1.  On the [Processing Centers](CA_20_50_00.md) \(CA205000\) form, create a new record.
 2.  In the Summary area, specify the following settings:
@@ -57,7 +57,7 @@ Make sure that OAuth is set up for a location user account that has:
 
 8.  On the form toolbar, click **Save** to save your changes.
 
-## To Create a Payment Method and Assign It to the Processing Center { .section}
+## To Create a Payment Method and Assign It to the Processing Center
 
 1.  On the [Payment Methods](CA_20_40_00.md) \(CA204000\) form, create a new record.
 2.  Specify the following settings in the Summary area:

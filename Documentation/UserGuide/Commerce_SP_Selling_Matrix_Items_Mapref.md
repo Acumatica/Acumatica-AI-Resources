@@ -1,4 +1,4 @@
-# Selling Matrix Items in a Shopify Store {#_39df1d4c-fd0b-4b4b-9782-5038544b0784 .concept}
+# Selling Matrix Items in a Shopify Store
 
 In the topics of this chapter, you will read about how to export matrix items created in Acumatica ERP to a Shopify store and how to import orders with matrix items from Shopify to Acumatica ERP.
 

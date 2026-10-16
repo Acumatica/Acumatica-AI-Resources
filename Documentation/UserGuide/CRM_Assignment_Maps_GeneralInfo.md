@@ -1,8 +1,8 @@
-# Assignment Maps: General Information {#_0527d488-035b-4bab-b30d-ffc76eec864b .concept}
+# Assignment Maps: General Information
 
 Assignment maps in Acumatica ERP give marketing, sales, and support personnel the ability to appropriately distribute processed records—such as leads, opportunities, or cases—between owners \(individuals\) and workgroups \(groups of people\). When a user uses a processing form for mass assignment, the system uses rules and conditions specified in an assignment map.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,7 +10,7 @@ In this chapter, you will learn how to do the following:
 -   Create an assignment maps for different entities
 -   Specify a default assignment maps for different entities in the system
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to configure an assignment map in scenarios that include the following:
 
@@ -18,7 +18,7 @@ You may want to configure an assignment map in scenarios that include the follow
 -   You are an implementation consultant, and you need to give users the ability to distribute opportunities for selling various kinds of products or services your company offers.
 -   You are an implementation consultant, and you need to give users the ability to distribute various cases—such as cases for presales questions, cases for sale and delivery of company products, and cases for maintenance and repair.
 
-## Assignment Maps { .section}
+## Assignment Maps
 
 An assignment map is a set of rules, actions related to rules, and conditions that the system can use for assigning a record or a number of records for processing to a particular individual or a group of people. You can configure assignment maps for distributing leads, contacts, business accounts, opportunities, cases, and email activities. You can create multiple assignment maps for the same entity, such as a lead or opportunity. You create assignment maps on the [Assignment Maps](EP_20_50_10.md) \(EP205010\) form.
 
@@ -36,7 +36,7 @@ You can also specify the assignment map for any entity class on the [Lead Classe
 
 After you have configured the assignment map for distributing email activities, you need to specify this map in the **Email Assignment Map** box on the **Additional Settings** tab of the [Email Accounts](SM_20_40_02.md) \(SM204002\) form to cause the system to determine the owners for email activities according this assignment map for email activities.
 
-## Mass Assignment of Records { .section}
+## Mass Assignment of Records
 
 You can perform mass assignment of records on the following mass-processing forms:
 

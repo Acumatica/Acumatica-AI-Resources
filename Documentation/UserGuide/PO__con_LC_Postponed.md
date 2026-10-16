@@ -1,4 +1,4 @@
-# Adjusting the Landed Cost Variance {#_0a7b52b2-1116-4c61-bf79-fb0a6c4f9d1e .concept}
+# Adjusting the Landed Cost Variance
 
 Some landed costs, such as freight, are typically known when the goods are received. Other types of landed costs may become known later, when a bill from the service provider is received. When you need to enter the landed costs of a specific type in a landed cost document, if the exact amount of the landed costs is not known yet, you can enter the estimated amount for the appropriate landed cost code in the landed cost document on the **Landed Costs** tab of the [Landed Costs](PO_30_30_00.md) \(PO303000\) tab.
 

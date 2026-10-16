@@ -1,4 +1,4 @@
-# Currency Translation Definitions {#_709844b4-ef25-42ed-a669-d8d0db75da91 .concept}
+# Currency Translation Definitions
 
 The topics of this chapter describe how to configure the reporting ledger and the translation definition needed for the translation of financial statements in Acumatica ERP.
 

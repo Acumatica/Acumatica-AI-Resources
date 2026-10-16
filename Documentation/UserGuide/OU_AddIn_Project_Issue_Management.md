@@ -1,4 +1,4 @@
-# Acumatica Add-In for Outlook: Project Issue Management {#_574f9aaa-f614-4631-abf7-b81407a01cc2 .concept}
+# Acumatica Add-In for Outlook: Project Issue Management
 
 An email in your Outlook mailbox may contain information that’s important for a project in Acumatica ERP, and you may want to save this information in issues related to this project. You can quickly do this on the Related Records form of the Acumatica add-in for Outlook if the *Construction Project Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
@@ -13,7 +13,7 @@ Matching project issues appear in the **Project Issues** section of the Related 
 -   Open a project related to the issue on the [Projects](PM_30_10_00.md) \(PM301000\) form.
 -   Quickly create a project issue and link the email to it, as described in the next section.
 
-## Project Issue Creation { .section}
+## Project Issue Creation
 
 To create a project issue with the email address selected in the filter box of the Related Records form, click **Add Project Issue** in the **Project Issues** section—either directly or through the More menu.
 
@@ -23,7 +23,6 @@ The Project Issue form opens \(see below\), and the following boxes may be fille
 -   Text area: The email message's body
 -   **Link Email to Project Issue**: Selected
 
-![](Images/OU_AddIn_Project_Issue_Form.png "The Project Issue form")
 
 After you click **Create Project Issue**, the form you go to depends on the state of the **Link Email to Project Issue** check box:
 

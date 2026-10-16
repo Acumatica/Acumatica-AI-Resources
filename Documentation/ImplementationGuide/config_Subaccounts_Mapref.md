@@ -1,4 +1,4 @@
-# Subaccounts {#_f8c48d6a-2fc8-4579-8781-735e54b9e8b2 .concept}
+# Subaccounts
 
 In Acumatica ERP, to better track the revenue and expenses of your company while keeping your chart of accounts of a manageable size, you can use subaccounts to virtually split your accounts into smaller and more specific accounts.
 

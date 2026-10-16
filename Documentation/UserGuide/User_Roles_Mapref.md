@@ -1,4 +1,4 @@
-# Configuring User Roles {#_87725d67-0299-44c6-9dff-0302579217b0 .concept}
+# Configuring User Roles
 
 In Acumatica ERP, you never assign access rights directly to individual users; instead, roles are used to restrict access to the system. A role is a set of access rights to system objects. You assign users one role or multiple roles, and based on these roles, the users are then granted the appropriate access rights to system objects.
 

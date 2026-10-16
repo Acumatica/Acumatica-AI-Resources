@@ -1,8 +1,8 @@
-# Tax Entry from GL: Generated Transactions {#_01beeb54-dc4c-4a02-a664-daceafe21fe8 .concept}
+# Tax Entry from GL: Generated Transactions
 
 As you create a taxable GL entry, the system generates the GL transaction described in the following section.
 
-## General Ledger Transaction with Taxes {#section_ksh_fjv_vxb .section}
+## General Ledger Transaction with Taxes
 
 When you create and release a GL entry, the system generates the following general ledger transaction:
 

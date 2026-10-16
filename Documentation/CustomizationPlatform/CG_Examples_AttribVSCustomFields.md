@@ -1,4 +1,4 @@
-# Use of Entity Attributes Instead of Custom Fields {#_39f35b2f-488f-4f2c-8549-3854e4147754 .concept}
+# Use of Entity Attributes Instead of Custom Fields
 
 Under some circumstances, you will find it best to use entity attributes defined on the [Attributes](../UserGuide/CS_20_50_00.md) \(CS205000\) form, while under other circumstances, custom fields will help you better meet the requirements of your customization task.
 

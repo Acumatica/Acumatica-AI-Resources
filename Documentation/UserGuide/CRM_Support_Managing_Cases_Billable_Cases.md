@@ -1,4 +1,4 @@
-# Case Management: Billable Cases {#_a9fe771e-cb05-49c4-a1c2-642b9c561a53 .concept}
+# Case Management: Billable Cases
 
 In Acumatica ERP, your customer support team can bill customers for cases by creating and tracking case-related billable emails and activities, such as phone calls, tasks, and any other time spent on the case. You can charge customers for the time that your support team has spent on processing the case, based on the released activities.
 
@@ -6,7 +6,7 @@ In Acumatica ERP, the billing settings of a case are defined by the settings of 
 
 Cases and case-related activities can be billed in accordance with a specific contract or a default contract associated with the case class if the *Time Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Case-Based Billing Settings { .section}
+## Case-Based Billing Settings
 
 For a case of a class that has the *Per Case* billing mode selected in the **Billing Mode** box on the **Details** tab of the [Case Classes](CR_20_60_00.md) \(CR206000\) form, you can do the following:
 
@@ -16,7 +16,7 @@ For a case of a class that has the *Per Case* billing mode selected in the **Bil
 -   If the case is associated with a contract, enable case counting by specifying an item in the **Case Count Item** box of the **Summary** tab \(**Case Billing Settings** section\) of the [Contract Templates](CT_20_20_00.md) \(CT202000\) form. With case counting, you can bill your customer for only the number of cases associated with the contract. The billable hours reported for the case will also be billed. For details, see [Managing Contracts](Contracts_Managing_Contracts_Mapref.md).
 -   Use direct billing, which means that the customer associated with the case is billed directly without any contract involved. You must clear the **Require Contract** check box on the [Case Classes](CR_20_60_00.md) form to use direct billing for cases of the class.
 
-## Activity-Based Billing Settings of a Case { .section}
+## Activity-Based Billing Settings of a Case
 
 If a case has the *Per Activity* billing mode selected in the **Billing Mode** box on the **Details** tab of the [Case Classes](CR_20_60_00.md) \(CR206000\) form, the case must be associated with a contract so that related activities can be billed according to the costs defined by this contract.
 
@@ -25,7 +25,7 @@ For a case of the class that has the *Per Activity* billing mode, you can do the
 -   Bill the customer for separate activities when the case is not yet closed. This mode may be useful when the case cannot be closed by the end of the billing period, although you need to bill the customer for the services already rendered.
 -   Release only the activities associated with the case on the [Release Time Activities](EP_50_70_20.md) \(EP507020\) form. The case cannot both be marked as billable and be released for billing.
 
-## Billable Activities Associated with a Case { .section}
+## Billable Activities Associated with a Case
 
 In Acumatica ERP, you can bill a customer for an email or an activity that is associated with a case and marked as billable. If there are any tasks or events associated with the case, the activities related to these tasks and events are billed as activities related to the case.
 
@@ -51,7 +51,7 @@ You use the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form to view the i
 
 You can view the data on the resulting customer transactions by using the [Customer History](AR_65_20_00.md) \(AR652000\) report.
 
-## Billable Activities Associated with a Project { .section}
+## Billable Activities Associated with a Project
 
 If a case activity is associated with a project, a project transaction may be created during direct billing. Alternatively, the same project transaction may be generated during the release of the time card that includes the case activity if the time card is released before the case is billed. For details about time card release, see [Employee Time Entry: Time Cards](TimeExpenses_Entering_Employee_Time_Time_Cards.md). These project transactions can be used for tracking the project costs. For details about project cost tracking, see [Project Budget: General Information](Projects_Budget_GeneralInfo.md).
 

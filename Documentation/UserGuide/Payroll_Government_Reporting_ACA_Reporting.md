@@ -1,8 +1,8 @@
-# Government Reporting: Affordable Care Act \(ACA\) Reporting {#_012217f7-c0bb-4c9b-8781-f1154b7fbfce .concept}
+# Government Reporting: Affordable Care Act \(ACA\) Reporting
 
 To ensure successful Affordable Care Act \(ACA\) reporting, you need to first properly set up the deduction and benefit codes that contain ACA-related information. By using the [ACA Reporting](PR_20_70_00.md) \(PR207000\) form, you can gather the reporting data and update it before feeding it to Aatrix.
 
-## Setting Up Deduction and Benefit Codes { .section}
+## Setting Up Deduction and Benefit Codes
 
 You set up the deduction and benefit codes that contain ACA-related information on the [Deduction and Benefit Codes](PR_10_10_60.md) \(PR101060\) form by performing the following steps:
 
@@ -16,7 +16,7 @@ You set up the deduction and benefit codes that contain ACA-related information 
         -   *None of the Above*: The health insurance plan does not fit any of the above types.
     -   The minimal amount an employee is required to pay to have access to the health insurance plan. If you select the *Meets Minimum Essential Coverage and Provides Minimum Value* health plan type, you can enter a zero minimal amount.
 
-## Gathering the Reporting Data { .section}
+## Gathering the Reporting Data
 
 You use the [ACA Reporting](PR_20_70_00.md) \(PR207000\) form to gather all relevant information, either for individual employees or at the company level, and update it before filing the applicable forms.
 
@@ -24,7 +24,7 @@ By using the elements in the Selection area of the form, you can filter data by 
 
 After you have saved the changes \(if any\) on this form, you can use the [Government Reporting](PR_50_40_00.md) \(PR504000\) form to prepare the necessary report.
 
-## Correcting the Number of Hours Worked { .section}
+## Correcting the Number of Hours Worked
 
 Even though the value in the **Number of Hours Worked** column on the **Employee** tab of the [ACA Reporting](PR_20_70_00.md) \(PR207000\) form is non-editable, you still can adjust it for an individual employee if needed. You can do this by using the [Paychecks and Adjustments](PR_30_20_00.md) \(PR302000\) form as follows:
 

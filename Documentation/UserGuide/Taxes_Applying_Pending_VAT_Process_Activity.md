@@ -1,14 +1,14 @@
-# Applying a Pending VAT: To Apply a Pending VAT to an AR Invoice {#_b6a39a63-d6ca-4ce7-af98-c70aef638ef5 .task}
+# Applying a Pending VAT: To Apply a Pending VAT to an AR Invoice
 
 The following activity will walk you through the processing of documents with pending VAT and recognizing pending VAT on payments.
 
-## Story {#section_l5p_fjv_vxb .section}
+## Story
 
 Suppose that on February 25, 2026, SweetLife Fruits &amp; Jams issued an invoice for 10 hours of training \($1,750 total\) to Mint Store Inc. Then the customer provided two partial payments for this invoice: $350 on March 1, 2026 and $600 on March 12, 2026. The tax amount calculated on this invoice needs to be recognized on the payment dates, based on the payment amounts.
 
 Acting as a SweetLife accountant, you need to process an AR invoice, prepare and release a tax report for February 2026, create the two partial payments for this invoice, recognize the VAT amounts, and reconcile the balance of the Pending Tax Payable account.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following configuration tasks have been performed to prepare the system for this activity to be performed:
 
@@ -16,11 +16,11 @@ In the *U100* dataset, the following configuration tasks have been performed to 
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *MINTSTORE* customer has been configured.
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *TRAINING* non-stock item has been configured.
 
-## Process Overview {#section_p5p_fjv_vxb .section}
+## Process Overview
 
 In this activity, on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will create an AR invoice with a pending VAT. On the [Prepare Tax Report](TX_50_10_00.md) \(TX501000\) form, you will prepare a tax report for the 02-2026 period and make sure that the pending VAT amount is not shown in the tax report. On the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, you will create two partial payments for the invoice in the 03-2026 period. On the [Recognize Output VAT](TX_50_30_00.md) \(TX503000\) form, you will recognize the pending output VAT for the 03-2026 and review the generated transactions on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form. On the [Prepare Tax Report](TX_50_10_00.md) form, you will prepare a tax report for the 03-2026 tax period and review the pending VAT amount on this report. You will release the tax report on the [Release Tax Report](TX_50_20_00.md) \(TX502000\) form. Finally, you will reconcile the balance of the Pending Tax Payable account by comparing the amounts on the [Account Summary](GL_40_10_00.md) \(GL401000\) form and in the report that you will run on the [VAT Pending Recognition](TX_63_10_00.md) \(TX631000\) form.
 
-## System Preparation {#section_r5p_fjv_vxb .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -33,7 +33,7 @@ To prepare the system, do the following:
 7.  As a prerequisite activity, in the company to which you are signed in, be sure you have configured a pending VAT as described in [Value-Added Taxes: To Create a Pending VAT](../ImplementationGuide/Taxes_Configuring_VAT_Implem_Activity_PendingVAT.md).
 8.  As a prerequisite activity, be sure that you have specified the *CANADA* tax zone for the *MINTSTORE* customer on the [Customers](AR_30_30_00.md) \(AR303000\) form as described in [Taxable Sales with Freight Charges: Process Activity](Taxes_Processing_SO_Invoice_FreightCharges_Activity.md).
 
-## Step 1: Processing an AR Invoice {#section_t5p_fjv_vxb .section}
+## Step 1: Processing an AR Invoice
 
 To create and release an AR invoice to which the pending VAT is applied, do the following:
 
@@ -68,7 +68,7 @@ To create and release an AR invoice to which the pending VAT is applied, do the 
     -   The Sales account of the non-stock item \(*40000*\) is credited in the amount specified in the document line.
     -   The Pending Tax Payable account \(*24200*\) is credited in the calculated tax amount.
 
-## Step 2: Preparing and Releasing a Tax Report for the *02-2026* Period {#section_w5p_fjv_vxb .section}
+## Step 2: Preparing and Releasing a Tax Report for the *02-2026* Period
 
 To prepare and release a tax report for *02-2026*, do the following:
 
@@ -91,7 +91,7 @@ To prepare and release a tax report for *02-2026*, do the following:
     On release of the tax report, the system created a debit adjustment because the Tax Claimable amount exceeds the Tax Payable amount by $21, which has to be returned to SweetLife.
 
 
-## Step 3: Creating Partial Payments for the Invoice {#section_y5p_fjv_vxb .section}
+## Step 3: Creating Partial Payments for the Invoice
 
 To create two partial payments for the AR invoice, do the following:
 
@@ -126,7 +126,7 @@ To create two partial payments for the AR invoice, do the following:
 9.  In the Summary area, click the Refresh button near the **Payment Amount** box. The system fills in the box with the **Amount Paid** value.
 10. On the form toolbar, click **Remove Hold** and click **Release** to release the payment.
 
-## Step 4: Recognizing the Pending Output VAT {#section_cvp_fjv_vxb .section}
+## Step 4: Recognizing the Pending Output VAT
 
 To recognize the pending output VAT, do the following:
 
@@ -149,7 +149,7 @@ To recognize the pending output VAT, do the following:
     -   The Pending Tax Payable account \(*24200*\) is debited in the recognized tax amount to decrease the pending VAT.
     -   The Tax Payable account \(*24100*\) is credited in the recognized tax amount to increase the tax amount to be paid to the agency.
 
-## Step 5: Preparing and Releasing a Tax Report for the *03-2026* Period {#section_fvp_fjv_vxb .section}
+## Step 5: Preparing and Releasing a Tax Report for the *03-2026* Period
 
 To prepare and release the tax report for the *03-2026* period, do the following:
 
@@ -170,7 +170,7 @@ To prepare and release the tax report for the *03-2026* period, do the following
     **Attention:** Pending taxes are reported in the period in which they are recognized, not in the period when the taxable document was processed. You have reported only part of the invoice tax amount. The rest of the pending VATs will be recognized when any other payment or payments are applied to the invoice.
 
 
-## Step 6: Reconciling the Balance of the Pending Tax Payable Account {#section_ivp_fjv_vxb .section}
+## Step 6: Reconciling the Balance of the Pending Tax Payable Account
 
 To reconcile the balance of the Pending Tax Payable account in the general ledger and the taxes subledger, do the following:
 

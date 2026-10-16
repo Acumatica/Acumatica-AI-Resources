@@ -1,4 +1,4 @@
-# Working with the Screen-Based SOAP API {#_c8806b6b-af5c-4c29-9112-b611bd08257e .concept}
+# Working with the Screen-Based SOAP API
 
 The screen-based SOAP API of Acumatica ERP provides the SOAP interface of the Acumatica ERP contract-based web services through which external systems can get data records from Acumatica ERP, process these records, and save new or updated records to Acumatica ERP.
 

@@ -1,14 +1,14 @@
-# Company Tree and Workgroups {#_32ee0de4-1261-415f-8803-bb9dbcdf7d14 .concept}
+# Company Tree and Workgroups
 
 In Acumatica ERP, you can build a company tree, which is a model of your organization's hierarchy that includes temporary and permanent workgroups. The company tree may reflect the administrative hierarchy and include subhierarchies of workgroups created within specific branches or departments. The company tree is used for creating assignment rules in approval and assignment maps and for determining the scope of the users who want to view items assigned to them.
 
-## Company Tree { .section}
+## Company Tree
 
 You create a company tree by using the [Company Tree](EP_20_40_61.md) \(EP204061\) form. The company tree serves various purposes in addition to reflecting the administrative structure of your company. The tree doesn't directly include branches, departments, and administrative units within departments, but the tree should include all workgroups that participate in company workflows—for instance, the processing of leads and cases, the resolution of overdue cases, and the approval of various documents, such as time cards, expense claims, and purchase orders.
 
 If your company includes multiple branches, consider whether the workflows are completely contained within branches. If they are, for each company branch, create a separate tree branch that arranges the workgroups involved in this organization branch's workflows. If a workgroup of one of the branches participates in workflows of multiple branches, make sure this workgroup is located one level higher on the company tree than other workgroups. Also, make sure the members of this group have access to all the branches involved.
 
-## Workgroups and Owners { .section}
+## Workgroups and Owners
 
 A workgroup includes members who are employees of the company. Acumatica ERP places no restrictions on the number of group members or the number of groups an employee may belong to. A group may include employees with different positions and from different departments.
 
@@ -18,7 +18,7 @@ One member of the group should be specified as the *owner*—the user to whom, b
 
 Also, workgroups can be used for grouping employees by *crew*. If the *Time Reporting on Activity* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, activity time can be reported, approved, and released for an entire crew at a time on the [Weekly Crew Time Entry](EP_30_71_00.md) \(EP307100\), [Approve Time Activities](EP_50_70_10.md) \(EP507010\), and [Release Time Activities](EP_50_70_20.md) \(EP507020\) forms, respectively. For more information about group entry of time activities, see [Employee Time Entry: Crew Time](Crew_Time_Reporting_GeneralInfo.md).
 
-## Workgroups in Assignment and Approval Maps { .section}
+## Workgroups in Assignment and Approval Maps
 
 In Acumatica ERP, you can set up automatic assignment of the following entities to workgroups and to particular employees:
 

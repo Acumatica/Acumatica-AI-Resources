@@ -1,4 +1,4 @@
-# Audit Fields {#_9dd06906-0b2f-498c-a333-cfd641bfbd9e .concept}
+# Audit Fields
 
 Audit fields keep meta information on the creation of a database record and the last change to the record. The Acumatica Framework automatically updates audit fields.
 

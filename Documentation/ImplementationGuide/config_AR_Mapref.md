@@ -1,4 +1,4 @@
-# Accounts Receivable {#_4cc687f2-d52a-4672-9380-fd948b2603fe .concept}
+# Accounts Receivable
 
 Before users can start adding customer accounts and documents into Acumatica ERP, the basic accounts receivable functionality has to be implemented in the system. This chapter describes the basic configuration to be performed, including defining statement cycles, creating customer classes, and specifying the preference settings for accounts receivable.
 

@@ -1,8 +1,8 @@
-# Use of the SkinID Property of Containers {#_ce75ce73-a264-41a6-9545-68ffe2003d45 .concept}
+# Use of the SkinID Property of Containers
 
 In the code of Acumatica ERP, predefined skins are used to assign a style and a set of toolbar buttons to a container. The SkinID property of a container specifies which of these skins the system should apply to the container. A skin is specific to a particular container; you cannot share a skin setting between containers of different types. If you do not set the SkinID property, the container uses the default skin, if one is defined.
 
-## Predefined Skins { .section}
+## Predefined Skins
 
 The following table lists and describes the predefined skins that are recommended to use for the PXFormView, PXGrid, and PXPanel containers.
 

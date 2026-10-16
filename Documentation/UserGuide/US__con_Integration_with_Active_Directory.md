@@ -1,4 +1,4 @@
-# Integration with Active Directory {#_8475a118-8bcd-40fb-99ef-cf9fda54f744 .concept}
+# Integration with Active Directory
 
 You integrate Acumatica ERP with Microsoft Active Directory \(AD\) to manage users and access in one place. You create, delete, and manage user accounts by using AD. During integration, you map AD groups with user roles in Acumatica ERP to determine users' access rights.
 
@@ -9,7 +9,7 @@ You integrate Acumatica ERP with Microsoft Active Directory \(AD\) to manage use
 
 **Tip:** Enabling integration with AD does not affect the standard authorization and authentication mechanism of Acumatica ERP. With the AD integration enabled, you still can create regular \(non-AD\) users in Acumatica ERP.
 
-## Configuration Steps { .section}
+## Configuration Steps
 
 To integrate an instance of Acumatica ERP with AD, you perform the following steps:
 
@@ -23,7 +23,7 @@ To integrate an instance of Acumatica ERP with AD, you perform the following ste
 
 3.  Optional: If you need to override roles assigned to AD users, manually add the AD user accounts to the system \(if necessary\) and specify the roles for the accounts. For details, see [To Set Up Role Assignment for Domain Users](US__how_AD_Groups_Override.md).
 
-## User Accounts of Domain Users in Acumatica ERP { .section}
+## User Accounts of Domain Users in Acumatica ERP
 
 After you have enabled integration with the identity management system, user accounts for domain users are created automatically when the users sign in to your Acumatica ERP instance for the first time.
 
@@ -38,7 +38,7 @@ To speed up the authentication of users, the information about AD groups is auto
 
 The **Reload AD Groups** button appears only when you have integrated the Acumatica ERP instance with AD or Microsoft Entra ID and when the number of user groups in AD or Entra ID is greater than or equal to the value of the `ADGroupCacheLimit` parameter specified in the `web.config` file. If the number of users and groups in AD is less than the value of the `ADGroupCacheLimit` parameter, Acumatica ERP retrieves the lists of users and groups directly from AD.
 
-## Domain User Authentication { .section}
+## Domain User Authentication
 
 Generally, to sign in to Acumatica ERP, AD users type their domain credentials without specifying the domain name. But some employees may have both a local user account and a domain user account with the same username. In this case, Acumatica ERP will authenticate the users based on the password they specify \(assuming that the local and domain passwords differ\).
 
@@ -49,7 +49,7 @@ If both the usernames and the passwords are the same for a local user account an
 
 **Tip:** If there is a local account with a name that includes a domain name and a username from this domain, such as `Terra\User1`, a domain user with the name *User1* from domain *Terra* will be mapped to this local account and will inherit all permissions of this account. In this case, the passwords of a local user and a domain user may differ but they both will access the same user account. To prevent confusion, we recommend that you disable or delete the local accounts of employees who do not perform any administration or configuration tasks in Acumatica ERP.
 
-## Domain User Authorization { .section}
+## Domain User Authorization
 
 When a domain user tries to access Acumatica ERP, user authorization occurs as follows:
 
@@ -63,7 +63,7 @@ When a domain user tries to access Acumatica ERP, user authorization occurs as f
 
 For more information about authentication in Acumatica ERP, see [Managing User Access](../Shared/../UserGuide/SA_Managing_User_Access_Mapref.md). For details about roles and access rights in Acumatica ERP, see [Configuring User Roles](../Shared/../UserGuide/User_Roles_Mapref.md).
 
-## Access Rights of Domain Users { .section}
+## Access Rights of Domain Users
 
 Domain users inherit access rights from the AD groups that you have mapped to Acumatica ERP user roles. In addition, you can assign specific user roles to each domain user if the access rights for this user should differ from the AD group rights.
 

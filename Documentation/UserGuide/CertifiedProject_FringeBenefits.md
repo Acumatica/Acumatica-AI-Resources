@@ -1,4 +1,4 @@
-# Certified Projects: Fringe Benefits {#_3c277d50-70c2-4f1f-95e9-0a55b53ad829 .concept}
+# Certified Projects: Fringe Benefits
 
 Specific types of employees that work on certified projects may have guaranteed fringe benefits that the organization is required to pay its employees. You use the **Fringe Benefits** tab of the [Certified Projects](PR_20_99_00.md) \(PR209900\) form to set up these fringe benefits as follows:
 
@@ -11,7 +11,7 @@ If the **Benefit Code to Use for Fringe Rate** box in the Summary area of the ta
 
 After the paycheck has been calculated, you can review the calculation details for the deductions and benefits related to certified projects on the **Certified Project** tab of the [Paychecks and Adjustments](PR_30_20_00.md) form.
 
-## Annualization Requirements { .section}
+## Annualization Requirements
 
 Normally, it is required that the benefit that reduces the fringe rate is annualized. This means that the benefit rate is calculated as the benefit amount divided by the number of working hours within the pay period. For a weekly payment, the number of working hours within the pay period is calculated as the yearly number of working hours divided by the number of pay periods within the year, which is normally 52 weeks.
 

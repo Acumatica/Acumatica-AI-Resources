@@ -9,7 +9,7 @@
     actually loads at runtime) and confirms the paths the update workflow depends on.
 
 .EXAMPLE
-    .\Get-SiteInfo.ps1 -SiteRoot "C:\Acumatica Sites\26r1"
+    .\Get-SiteInfo.ps1 -SiteRoot "C:\Acumatica Sites\26r2"
 
 #>
 [CmdletBinding()]

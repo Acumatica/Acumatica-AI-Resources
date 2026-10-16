@@ -1,4 +1,4 @@
-# Processing Requests for Information {#_79c183f4-fa32-413d-bc02-a1859f7c3ab1 .concept}
+# Processing Requests for Information
 
 Sometimes requests for additional information about a contract can come from a subcontractor or employees of your company, who may need additional information on a project being performed. In these cases, requests for information can be entered into the system to track the process of requesting the information. The topics of this chapter explain how to process requests for information from a subcontractor to your company and from your company to a subcontractor’s company.
 

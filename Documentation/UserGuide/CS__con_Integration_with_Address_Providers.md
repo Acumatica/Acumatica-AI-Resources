@@ -1,4 +1,4 @@
-# Integrating Acumatica ERP with Address Validation Providers {#_4e358749-c381-4b48-8d5e-44c8afe8ea8f .concept}
+# Integrating Acumatica ERP with Address Validation Providers
 
 If your company works with multiple customers and vendors, you can validate vendor and customer addresses through an independent plug-in system or the built-in address validation plug-ins, such as Avalara and Vertex.
 

@@ -1,4 +1,4 @@
-# Label \(PXLabel\) {#_4607a078-ced8-4c64-a5ce-4b514a4f4220 .concept}
+# Label \(PXLabel\)
 
 In a container with controls for a single data record, you can use a PXLabel element to display text. For example, you should use a label to render on a form static text that is stored in the ASPX code.
 

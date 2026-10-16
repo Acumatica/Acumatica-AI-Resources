@@ -1,14 +1,14 @@
-# AP Bills in Foreign Currencies: Process Activity {#_e93585fc-5f1b-4ee3-828f-f7bb43c67c43 .task}
+# AP Bills in Foreign Currencies: Process Activity
 
 The following activity will walk you through the processing of an AP bill in a foreign currency.
 
-## Story {#section_w1y_3jv_vxb .section}
+## Story
 
 Suppose that on January 13, 2026, MapleLeaf Ads Co. provided services to the SweetLife Fruits &amp; Jams company in the amount of 350 Canadian dollars \(defined as *CAD* in the system\), for which MapleLeaf billed SweetLife. On January 30, 2026, SweetLife paid this bill.
 
 Acting as a SweetLife accountant, you need to create a bill and apply a payment in *CAD* \(that is, in the same foreign currency\) to the bill. Before you perform these actions, you will make changes to the MapleLeaf vendor’s settings so that bill processing can be performed in line with its currency-related preferences.
 
-## Configuration Overview {#section_mfx_3jv_vxb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -22,11 +22,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, the *20000 \(Accounts Payable\)*, *81000 \(Other Expenses\)*, and *42010 \(Realized Gain CAD\)* accounts have been created.
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *MAPLELEAF* vendor has been predefined.
 
-## Process Overview {#section_dby_3jv_vxb .section}
+## Process Overview
 
 In this activity, you will first update the currency-related settings of the MapleLeaf Co. vendor on the [Vendors](AP_30_30_00.md) \(AP303000\) form. On the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you will then create and release an AP bill in the *CAD* currency. You will then pay this bill on the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form.
 
-## System Preparation {#section_fby_3jv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -36,7 +36,7 @@ Before you begin performing the steps of this activity, do the following:
 4.  Make sure that the multicurrency accounting functionality has been configured as described in [Multicurrency Functionality: Implementation Activity](../ImplementationGuide/config_Multicurrency_Basic_Implem_Activity.md) and [Configuration of Rate Types and Rates: To Configure Rates](../ImplementationGuide/config_Multicurrency_Configuring_Rates_Activity1.md).
 5.  Make sure that you have configured an account as described in [Multicurrency Cash Accounts: To Configure an Account](../ImplementationGuide/config_Multicurrency_CashAccount_Implem_Activity.md).
 
-## Step 1: Updating the Vendor's Settings {#section_iby_3jv_vxb .section}
+## Step 1: Updating the Vendor's Settings
 
 To update the currency-related settings of the vendor \(which has been preconfigured in the *U100* dataset\) in preparation for multicurrency bill processing, do the following:
 
@@ -64,7 +64,7 @@ To update the currency-related settings of the vendor \(which has been preconfig
     -   **Cash Account**: *10215WH \(Checking Account CAD\)*
 5.  On the form toolbar, click **Save** to save your changes.
 
-## Step 2: Creating and Releasing a Bill {#section_oby_3jv_vxb .section}
+## Step 2: Creating and Releasing a Bill
 
 To create and release a bill in the *CAD* currency, do the following:
 
@@ -105,7 +105,7 @@ To create and release a bill in the *CAD* currency, do the following:
     -   The AP account specified in the bill \(*20000*\) was credited in the amount of the bill, which the system converted to the base currency by using the rate specified in the bill \(Round \(C$350.00 \* 0.78907914\) = $276.18\).
     -   The expense account specified in the document line \(*81000*\) was debited in the line amount \(Round \(C$350.00 \* 0.78907914\) = $276.18\).
 
-## Step 3: Applying a Payment in the Same Foreign Currency to the Bill {#section_uby_3jv_vxb .section}
+## Step 3: Applying a Payment in the Same Foreign Currency to the Bill
 
 To apply a payment in the same foreign currency to the bill, do the following:
 

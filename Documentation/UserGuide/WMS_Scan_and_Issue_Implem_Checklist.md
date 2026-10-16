@@ -1,28 +1,60 @@
-# Processing of Inventory Issues: Implementation Checklist {#_ab9f159c-88db-4302-8de8-d8feb681246a .concept}
+# Processing of Inventory Issues: Implementation Checklist
 
 This topic provides details you can use to ensure that the system is configured properly for the automated processing of inventory issues.
 
 **Tip:** The recommendations in this topic are for systems in which lot and serial tracking will not be used—that is, in which the *Lot and Serial Tracking* feature is disabled on the [Enable/Disable Features](../Shared/../UserGuide/CS_10_00_00.md) \(CS100000\) form.
 
-## Prerequisites { .section}
+## Prerequisites
 
 Before you start automated processing issues, you should make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following table.
 
-|Form|Criteria to Check|
-|----|-----------------|
-|[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)|Make sure that the following features are enabled:-   *Multiple Warehouse Locations*
+<table id="_41789450-4c2c-4e31-ac16-380810313267"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Criteria to Check
+
+</th></tr></thead><tbody><tr><td>
+
+[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)
+
+</td><td>
+
+Make sure that the following features are enabled:-   *Multiple Warehouse Locations*
 -   *Warehouse Management*
 -   *Inventory Operations*
 
-|
-|[Inventory Preferences](IN_10_10_00.md) \(IN101000\)|Make sure that all necessary settings related to inventory have been specified, as described in [Configuration of Order Management: Implementation Activity](../ImplementationGuide/config_InvMgmt_Basic_Implem_Activity.md).|
-|[Warehouses](IN_20_40_00.md) \(IN204000\)|Make sure that the following entities have been created:-   The required warehouses, as described in [Warehouses: Implementation Activity](Warehouses_Implem_Activity.md).
+</td></tr><tr><td>
+
+[Inventory Preferences](IN_10_10_00.md) \(IN101000\)
+
+</td><td>
+
+Make sure that all necessary settings related to inventory have been specified, as described in [Configuration of Order Management: Implementation Activity](../ImplementationGuide/config_InvMgmt_Basic_Implem_Activity.md).
+
+</td></tr><tr><td>
+
+[Warehouses](IN_20_40_00.md) \(IN204000\)
+
+</td><td>
+
+Make sure that the following entities have been created:-   The required warehouses, as described in [Warehouses: Implementation Activity](Warehouses_Implem_Activity.md).
 -   The required locations, as described in [Warehouse Locations and Single-Step Transfers: Implementation Activity](Warehouse_Locations_Implem_Activity.md).
 
-|
-|[Stock Items](IN_20_25_00.md) \(IN202500\)|Make sure that the required stock items have been created, as described in [Stock Items: Implementation Activity](Stock_Items_Implem_Activity.md).|
+</td></tr><tr><td>
 
-## Recommended Workflow Settings { .section}
+[Stock Items](IN_20_25_00.md) \(IN202500\)
+
+</td><td>
+
+Make sure that the required stock items have been created, as described in [Stock Items: Implementation Activity](Stock_Items_Implem_Activity.md).
+
+</td></tr></tbody>
+</table>
+
+## Recommended Workflow Settings
 
 We recommend that you configure the workflow for the automated processing of issues by specifying the following settings on the [Inventory Preferences](IN_10_10_00.md) \(IN101000\) form.
 

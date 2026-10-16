@@ -1,10 +1,10 @@
-# Product Availability: To Export Product Availability Data {#_dff71e2c-f1cb-4cff-b308-635d3fcad982 .task}
+# Product Availability: To Export Product Availability Data
 
 In this activity, you will specify the default availability settings for the Shopify store, specify item-specific availability settings for particular stock items, export product availability data to the Shopify store, and review the results of the export.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company sells several kinds of jams in its online store. By default, items should be available for purchase in the store only if they are in stock. Some of the jams, however, need to be available for purchase all the time, regardless of their stock levels. The jams can be ordered in the online store as follows:
 
@@ -13,7 +13,7 @@ Suppose that the SweetLife Fruits &amp; Jams company sells several kinds of jams
 
 Acting as an implementation consultant helping SweetLife to set up the synchronization of Acumatica ERP with the Shopify store, you need to configure the system so that the items' availability will be tracked according to the business needs.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -31,7 +31,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
     |*PLUMJAM08*|*Set as Available \(Track Qty.\)*|*Do Nothing*|
 
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -40,7 +40,7 @@ In this activity, you will do the following:
 3.  On the [Prepare Data](BC_50_10_00.md) \(BC501000\) form, prepare the product availability data for synchronization, and on the [Process Data](BC_50_15_00.md) \(BC501500\) form, process the prepared product availability data.
 4.  In the Shopify store, review the availability settings and quantities of the exported stock items.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you complete the instructions in this activity, do the following:
 
@@ -55,7 +55,7 @@ Before you complete the instructions in this activity, do the following:
 5.  On the form toolbar, click **Save**.
 6.  Sign in to the admin area of the Shopify store as the store administrator in the same browser.
 
-## Step 1: Updating the Default Availability Settings { .section}
+## Step 1: Updating the Default Availability Settings
 
 You need to specify the availability settings that the system will apply by default to stock items and non-stock items exported from Acumatica ERP to the Shopify store. While you are still viewing the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form for the *SweetStore - SP* store, do the following:
 
@@ -79,7 +79,7 @@ You need to specify the availability settings that the system will apply by defa
 
 3.  On the form toolbar, click **Save** to save the settings.
 
-## Step 2: Reviewing the Available Quantities of Items { .section}
+## Step 2: Reviewing the Available Quantities of Items
 
 To review the item quantities available from the *RETAIL* warehouse, do the following:
 
@@ -88,10 +88,9 @@ To review the item quantities available from the *RETAIL* warehouse, do the foll
 
     The system now displays only the items that are stored in the *JS1* warehouse location. Because in Step 1 you have set the **Availability Mode** setting to *Available for Shipping*, the quantities of the items displayed in the **Qty. Available for Shipping in Location** column \(which is shown in the following screenshot\) will be synchronized with the Shopify store. Notice that the *BANJAM96* and *PLUMJAM96* stock items are available at the *JS1* location \(a nonzero quantity is displayed for each of these items in the **Qty. Available for Shipping in Location** column\), whereas the *BANJAM08* and *PLUMJAM08* stock items have zero quantities.
 
-    ![](Images/activity_Commerce_SP_Syncing_Availability.png "Quantities available for shipping at the JS1 location of the RETAIL warehouse")
 
 
-## Step 3: Synchronizing the Product Availability Entity { .section}
+## Step 3: Synchronizing the Product Availability Entity
 
 To synchronize the availability settings and the quantities of the stock items you reviewed in the previous step, do the following:
 
@@ -111,7 +110,7 @@ To synchronize the availability settings and the quantities of the stock items y
 6.  On the form toolbar, click **Process All** to process the prepared synchronization records of the stock items you updated in the previous steps.
 7.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 4: Reviewing the Synchronized Data { .section}
+## Step 4: Reviewing the Synchronized Data
 
 To review the synchronized availability data, in the admin area of the Shopify store, do the following:
 

@@ -1,4 +1,4 @@
-# Publishing Customization Projects {#_bd92c353-4a7d-45a2-a480-9a049f5035df .concept}
+# Publishing Customization Projects
 
 By using the tools and capabilities of the Acumatica Customization Platform, you can change the user interface and business logic of Acumatica ERP, as well as build custom application modules that can be added to the system. The process of applying these solutions to Acumatica ERP application instances is called publishing customization projects.
 

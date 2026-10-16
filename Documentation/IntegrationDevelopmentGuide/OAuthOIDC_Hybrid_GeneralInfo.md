@@ -1,16 +1,16 @@
-# Hybrid Flow: General Information {#_f1bcf512-d676-4d8d-99d7-1a25fd565cdf .concept}
+# Hybrid Flow: General Information
 
 When you implement OpenID Connect \(OIDC\) in a client application to make the application work with Acumatica ERP, you can use the Hybrid flow. This authorization flow is a combination of the Authorization Code flow and the Implicit flow. As with the Authorization Code flow, with the Hybrid flow, the client application requests the authorization code at the authorization endpoint. As with the Implicit flow, with the Hybrid flow, the client application requests the ID token, access token, or both at the token endpoint. The Hybrid flow allows an application to have immediate access to an ID token while providing secure retrieval of access and refresh tokens.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to implement a client application that uses the Hybrid flow.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You implement the Hybrid flow in a client application that can securely store client secrets when the application needs to immediately access information about the user, but must perform some processing before gaining access to protected resources for a long period.
 
-## Hybrid Flow { .section}
+## Hybrid Flow
 
 For the support of the Hybrid flow, you implement the following general steps in the application:
 
@@ -59,11 +59,10 @@ For details on the OAuth 2.0 authorization mechanism, see the specification at [
 
 **Tip:** The configuration of the OpenID Connect protocol that is used by an Acumatica ERP website can be displayed by a request to the following URL: *\[&lt;Acumatica ERP instance URL&gt;\]/identity/.well-known/openid-configuration*. \(In this request, *\[&lt;Acumatica ERP instance URL&gt;\]* stands for the URL of the Acumatica ERP website.\)
 
-## Hybrid Flow Diagram { .section}
+## Hybrid Flow Diagram
 
 The following diagram illustrates the Hybrid flow.
 
-![](Images/diag_HybridFlow.png "Hybrid flow")
 
 **Parent topic:**[Implementing the Hybrid Flow](../IntegrationDevelopmentGuide/OAuthOIDC_Hybrid_Mapref.md)
 

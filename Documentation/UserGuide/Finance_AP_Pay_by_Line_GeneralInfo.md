@@ -1,10 +1,10 @@
-# Applying Payments to Particular Lines: General Information {#_997a0396-2741-491c-999b-fd033f8d2c88 .concept}
+# Applying Payments to Particular Lines: General Information
 
 Some industries track the expenses and cash flows of particular projects with a high degree of granularity. Project expenses are recorded in the lines of a bill, with each line corresponding to a specific combination of a project, project task, and cost code \(if applicable\). In Acumatica ERP, you can create a payment that pays particular lines \(or one line\) of any number of AP bills.
 
 You can use this functionality if the *Payment Application by Line* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,11 +12,11 @@ In this chapter, you will learn how to do the following:
 -   Process an AP bill that can be paid by line
 -   Enter a payment for particular lines of the AP bill
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create AP documents that can be paid by line if you want the ability to see which lines of a particular bill were covered by a partial payment or to pay bills in that way.
 
-## Configuration of Payment by Line {#section_anl_njv_vxb .section}
+## Configuration of Payment by Line
 
 For it to be possible to apply payments to individual lines, the needed configuration steps must be performed in Acumatica ERP as follows:
 
@@ -33,11 +33,13 @@ For it to be possible to apply payments to individual lines, the needed configur
 
 You can turn on the ability to pay documents by line for any vendor class and any vendor both during initial configuration and at any time thereafter. You can also turn off this capability for any class or vendor, if needed.
 
-## Entry of Documents That Can Be Paid by Line {#section_enl_njv_vxb .section}
+## Entry of Documents That Can Be Paid by Line
 
 When you are entering an AP document that can be paid by line, you make sure the **Pay by Line** check box is selected for the document in the Summary area of the [Bills and Adjustments](AP_30_10_00.md)\(AP301000\) form or the [Tax Bills and Adjustments](TX_30_30_00.md) \(TX303000\) form if the vendor is a tax agency.
 
 Then you add lines to the AP document on the **Details** tab, specifying the inventory ID, project, project task, and cost code \(if applicable\) for each line. The system assigns the line number to each line and displays it in the **Line Nbr.** column, which appears in the table when the **Pay by Line** check box is selected for a document.
+
+**Tip:** If you reorder the lines on the tab, the system displays them in the saved order when you create a payment on the [Checks and Payments](Checks and PaymentsAP_30_20_00.dita) \(AP302000\) form.
 
 When preparing payments for these documents on the [Prepare Payments](AP_50_30_00.md) \(AP503000\) form, you select separate document lines in the table on the **Documents to Pay** tab. When a payment is applied to a selected line, the system updates the line balance to show the open balance of the line after a payment is applied. After you release the payment, you can view the unpaid balance of the original document in the Summary area of the [Bills and Adjustments](AP_30_10_00.md) or [Tax Bills and Adjustments](TX_30_30_00.md) form.
 
@@ -45,19 +47,19 @@ When preparing payments for these documents on the [Prepare Payments](AP_50_30_0
 
 This functionality is not supported for taxable documents that have a tax zone of external tax providers selected for them in the **Vendor Tax Zone** box on the **Financial** tab of the [Bills and Adjustments](AP_30_10_00.md) form.
 
-## Processing of Cash Discounts {#section_nnl_njv_vxb .section}
+## Processing of Cash Discounts
 
 If a cash discount for early payment applies to an AP document for which individual lines can be paid, the cash discount is distributed proportionally among the lines of the document. The discount amounts for each line are displayed in the **Cash Discount Balance** column on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. The rounding difference in the calculated cash discount is included in the line with the highest amount.
 
 If a document that has been paid by individual lines includes a cash discount for early payment, this cash discount is distributed proportionally among the lines of the document. These discount amounts are shown in the **Cash Discount Taken \(Payment currency\)** column on the **Documents to Apply** tab of the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form. In this column, you can edit the cash discount taken for a particular line. The original bill displays the difference between the calculated cash discount and the cash discount taken in the **Cash Discount Balance** column for a particular line.
 
-## Processing of Debit Adjustments {#section_qnl_njv_vxb .section}
+## Processing of Debit Adjustments
 
 If debit adjustments have been created in the system automatically when a user reversed a document, these debit adjustments cannot be applied by line. That is, for debit adjustments created automatically, on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, the **Pay by Line** check box in the Summary area will always be cleared and unavailable for editing.
 
 Debit adjustments created manually on the [Bills and Adjustments](AP_30_10_00.md) form can be applied by line. For these debit adjustments, the **Pay by Line** check box in the Summary area can be selected. For details, see [To Enter a Debit Adjustment That Can Be Applied by Line](AP__HOW_To_Enter_Debit_Adjustment_To_Be_Applied_by_Line.md).
 
-## Lines with Negative Amounts in AP Documents Paid by Line {#section_tnl_njv_vxb .section}
+## Lines with Negative Amounts in AP Documents Paid by Line
 
 On the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, AP documents with the **Pay by Line** check box selected can have lines with a negative amount in any of the following columns on the **Details** tab: **Ext. Cost**, **Retainage Amount**, and **Amount**.
 
@@ -76,7 +78,7 @@ For bills and debit adjustments that have lines with negative amounts, the cash 
 
 A document with a cash discount can be released only if the total cash discount shown in the **Cash Discount** box in the Summary area is greater than or equal to *0.00*. When such a document is applied to a payment on the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form, the amount in the **Cash Discount Taken \(Payment currency\)** column for a line with a negative amount can be less than or equal to *0.00*.
 
-## Overview of Payment by Line {#section_b4l_njv_vxb .section}
+## Overview of Payment by Line
 
 When you create a payment for particular lines of a bill, the process unfolds as follows:
 

@@ -1,10 +1,10 @@
-# Using the SQL Script Attributes {#_a59f0325-9639-437a-bc7a-f4f645f93f0e .concept}
+# Using the SQL Script Attributes
 
 You can decorate a batch of an SQL script with various attributes to control the batch execution.
 
 **Tip:** An SQL batch is a portion of an SQL script located between two GO statements.
 
-## Using the Attributes { .section}
+## Using the Attributes
 
 Attributes are based on the line preceding the batch in the following format.
 

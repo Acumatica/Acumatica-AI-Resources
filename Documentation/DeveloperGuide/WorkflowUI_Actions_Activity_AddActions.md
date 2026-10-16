@@ -1,25 +1,61 @@
-# Action Configuration: To Create Workflow Actions and Add Them to the Workflow States {#_ab39ba3c-3801-4308-980e-3b6299b7b43c .task}
+# Action Configuration: To Create Workflow Actions and Add Them to the Workflow States
 
 The following activity will walk you through the process of creating workflow actions and adding them to the states of the workflow.
 
-## Story { .section}
+## Story
 
 Acting as a technical specialist, you need to create `Open`, `Postpone`, `StartWork`, and `Resolve` actions for the [Task](../UserGuide/CR_30_60_20.md) \(CR306020\) form. These actions will be workflow actions, which move a task from one state of the workflow of the form to another state.
 
 You need to add the new actions to the states as follows.
 
-|State|Actions to Add|
-|-----|--------------|
-|`Draft`|`Open`, `Postpone`|
-|`Processing`|`Resolve`, `Postpone`|
-|`Open`|`StartWork`, `Resolve`, and `Postpone`|
-|`Postponed`|`Open`|
+<table id="table_flt_h2j_hhc"><thead><tr><th>
 
-## Process Overview { .section}
+State
+
+</th><th>
+
+Actions to Add
+
+</th></tr></thead><tbody><tr><td>
+
+`Draft`
+
+</td><td>
+
+`Open`, `Postpone`
+
+</td></tr><tr><td>
+
+`Processing`
+
+</td><td>
+
+`Resolve`, `Postpone`
+
+</td></tr><tr><td>
+
+`Open`
+
+</td><td>
+
+`StartWork`, `Resolve`, and `Postpone`
+
+</td></tr><tr><td>
+
+`Postponed`
+
+</td><td>
+
+`Open`
+
+</td></tr></tbody>
+</table>
+
+## Process Overview
 
 By using the [Actions](../UserGuide/AU_20_10_50.md) page, you will create the needed actions. By using the [Workflow \(Tree View\)](../UserGuide/AU_20_10_30.md) page, you will add the actions to the workflow states.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin adding actions to the workflow states, do the following:
 
@@ -29,7 +65,7 @@ Before you begin adding actions to the workflow states, do the following:
 
 2.  Make sure that you have completed the [Action Configuration: To Add a Category to the More Menu](WorkflowUI_Actions_Activity_AddCategory.md) activity.
 
-## Step 1: Creating the Actions { .section}
+## Step 1: Creating the Actions
 
 To create the `Open`, `Postpone`, `Resolve`, and `StartWork` actions, do the following in the Customization Project Editor for the *TaskWorkflow* project:
 
@@ -57,7 +93,7 @@ To create the `Open`, `Postpone`, `Resolve`, and `StartWork` actions, do the fol
     |`StartWork`|`Start Work`|
 
 
-## Step 2: Adding the Actions to the Draft State { .section}
+## Step 2: Adding the Actions to the Draft State
 
 To add the `Open` and `Postpone` actions to the `Draft` state, do the following:
 
@@ -83,7 +119,7 @@ To add the `Open` and `Postpone` actions to the `Draft` state, do the following:
     -   **Duplicate on Toolbar**: Cleared
 5.  On the page toolbar, click **Save**.
 
-## Step 3: Adding the Actions to the Processing State { .section}
+## Step 3: Adding the Actions to the Processing State
 
 To add the `Resolve` and `Postpone` actions to the `Processing` state, while you are still working on the CR306020 \(Task\) State Diagram: Task page, do the following:
 
@@ -99,7 +135,7 @@ To add the `Resolve` and `Postpone` actions to the `Processing` state, while you
     -   **Duplicate on Toolbar**: Cleared
 4.  On the page toolbar, click **Save**.
 
-## Step 4: Adding the Actions to the Open State { .section}
+## Step 4: Adding the Actions to the Open State
 
 To add the `Start Work`, `Resolve`, and `Postpone` actions to the `Open` state, while you are still working on the CR306020 \(Task\) State Diagram: Task page, do the following:
 
@@ -119,7 +155,7 @@ To add the `Start Work`, `Resolve`, and `Postpone` actions to the `Open` state, 
     -   **Duplicate on Toolbar**: Cleared
 5.  On the page toolbar, click **Save**.
 
-## Step 5: Adding the Action to the Postponed State { .section}
+## Step 5: Adding the Action to the Postponed State
 
 To add the `Open` action to the `Postponed` state, while you are still working on the CR306020 \(Task\) Actions page, do the following:
 

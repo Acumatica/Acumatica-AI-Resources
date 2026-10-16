@@ -1,16 +1,16 @@
-# Rounding of AP Document Amounts: Process Activity {#_663ac217-c0b0-444a-848d-dbf97bfb20ce .task}
+# Rounding of AP Document Amounts: Process Activity
 
 The following activity will walk you through the process of setting up and using the rounding of document amounts in AP documents.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the management of SweetLife Fruits &amp; Jams has decided to change the company's policy in settlements with vendors and start rounding the amounts of AP documents. Total document amounts should be rounded up to the next multiple of the smallest unit. The rounding precision should be *0.50*.
 
 Acting as an accountant of SweetLife Fruits &amp; Jams, you need to enable the *Invoice Rounding* feature, set up the functionality, and test how it works by creating and releasing an AP bill and reviewing the generated GL transaction.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -22,11 +22,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, the *83100 \(Rounding Gain/Loss\)* account has been created.
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *ALLFRUITS \(All Fruits Mall\)* vendor has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will enable the *Invoice Rounding* feature on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form and set up the rounding functionality on the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) and [Currencies](CM_20_20_00.md) \(CM202000\) forms. On the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you will create and release a bill in which the system will round the total amount. Finally, on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form, you will review the GL transaction generated on release of the bill.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -34,7 +34,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step 1: Enabling the Needed Feature { .section}
+## Step 1: Enabling the Needed Feature
 
 To enable the *Invoice Rounding* feature, do the following:
 
@@ -43,7 +43,7 @@ To enable the *Invoice Rounding* feature, do the following:
 3.  Select the **Invoice Rounding** check box in the **Standard Financials** group of features.
 4.  On the form toolbar, click **Enable** to enable the feature.
 
-## Step 2: Updating the Accounts Payable Preferences { .section}
+## Step 2: Updating the Accounts Payable Preferences
 
 To specify the rounding rules and precision for AP documents, do the following:
 
@@ -53,7 +53,7 @@ To specify the rounding rules and precision for AP documents, do the following:
     -   **Rounding Precision**: *0.50*
 3.  On the form toolbar, click **Save** to save your changes.
 
-## Step 3: Specifying the Rounding Gain and Loss Accounts { .section}
+## Step 3: Specifying the Rounding Gain and Loss Accounts
 
 To specify the rounding gain account and rounding loss account for the base currency \(in US dollars\), do the following:
 
@@ -66,7 +66,7 @@ To specify the rounding gain account and rounding loss account for the base curr
     -   **Rounding Loss Account**: *83100 - Rounding Gain/Loss*
 3.  On the form toolbar, click **Save** to save your changes.
 
-## Step 4: Creating an AP Bill with Amount Rounding { .section}
+## Step 4: Creating an AP Bill with Amount Rounding
 
 To create and release an AP bill in which amounts will be rounded, do the following:
 

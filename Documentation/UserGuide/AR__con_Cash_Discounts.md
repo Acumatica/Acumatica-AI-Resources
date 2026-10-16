@@ -1,4 +1,4 @@
-# Setup and Calculation of Cash Discounts {#_0c0ecd1e-e200-49cb-afd1-d5484fd8a964 .concept}
+# Setup and Calculation of Cash Discounts
 
 **Attention:** In different businesses, a cash discount can be named a *prompt payment discount*, an *early payment discount*, or an *early settlement discount*.
 

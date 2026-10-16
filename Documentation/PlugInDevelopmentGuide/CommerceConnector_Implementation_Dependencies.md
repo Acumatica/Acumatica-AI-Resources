@@ -1,8 +1,8 @@
-# Connector Implementation: Required Libraries {#_e92b13cf-b974-48f4-bdfe-c156b5bc2789 .concept}
+# Connector Implementation: Required Libraries
 
 The Acumatica Customization Platform adds the default references to the project of the extension library, such as PX.Data and PX.Common. During the creation of the connector for the external system, you also need to add the references to the assemblies located in the `Bin` folder of the Acumatica ERP instance and to the external assemblies.
 
-## Libraries of the Bin Folder { .section}
+## Libraries of the Bin Folder
 
 You need to add the references to the following assemblies located in the `Bin` folder of the Acumatica ERP instance:
 
@@ -12,7 +12,7 @@ You need to add the references to the following assemblies located in the `Bin` 
 -   `PX.Api.ContractBased.dll`: Necessary only if you plan to implement custom classes for Acumatica ERP entities
 -   `PX.Data.BQL.Fluent.dll`: Necessary only if you plan to use fluent BQL queries instead of traditional BQL queries
 
-## External Libraries { .section}
+## External Libraries
 
 You need to add references to the following external libraries:
 

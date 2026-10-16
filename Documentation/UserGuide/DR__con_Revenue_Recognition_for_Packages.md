@@ -1,4 +1,4 @@
-# Managing Recognition for Packages {#_bb2f4c2e-dcf5-45ec-8710-b23ee82be154 .concept}
+# Managing Recognition for Packages
 
 In many industries, selling multiple products and services as packages—or *multiple-deliverable arrangements \(MDAs\)*—is a common practice. For some time, however, the recognition of revenue resulting from such sales posed an accounting problem. A package has a single price and multiple components \(deliverables\) included, which are often delivered at different times but not necessarily at the time of the sale; for example, a package might include a cell phone, its activation, and a one-year service plan. Moreover, it might be permissible to return some components, but not others.
 

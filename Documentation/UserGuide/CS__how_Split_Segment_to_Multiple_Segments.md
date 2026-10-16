@@ -1,10 +1,10 @@
-# To Split a One-Segment Identifier into Multiple Segments {#_bb170c9a-7099-4734-86e8-5d191be60c77 .task}
+# To Split a One-Segment Identifier into Multiple Segments
 
 If you have created a one-segment identifier \(for example, for the *SUBACCOUNT* segmented key\) and then realized that it is more convenient for users if the identifier has more segments, you can split the segment into multiple parts without losing the existing values of the identifier.
 
 In this topic, you will read about how to split a one-segment *SUBACCOUNT* key into two segments.
 
-## To Split a One-Segment *SUBACCOUNT* Segmented Key into Two Segments { .section}
+## To Split a One-Segment *SUBACCOUNT* Segmented Key into Two Segments
 
 For example, suppose that the *SUBACCOUNT* key has the following values: *AAA000*, *AAA010*, *BBB000*, and *BBB010*; also suppose that you need to split the values into two segments of three characters each. To resolve this task, you do the following:
 

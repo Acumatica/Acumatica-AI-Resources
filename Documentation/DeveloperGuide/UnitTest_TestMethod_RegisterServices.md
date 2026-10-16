@@ -1,10 +1,10 @@
-# Test Method: Registration of Services {#_44af5121-8520-45c9-be4a-7a4d415a581f .concept}
+# Test Method: Registration of Services
 
 Acumatica uses the *dependency injection* technique to design software. With this technique, an object \(a *client*\) receives other objects \(*services*\) that it depends on; in this context, these services are called *dependencies*. Each of these services must be registered: For each needed interface, you must specify the service that implements this interface.
 
 This software design pattern is used to decouple code components and make them easier to extend and test. For more information about dependency injection, see [https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection).
 
-## Implementation of the Dependency Injection in Acumatica ERP and Unit Tests { .section}
+## Implementation of the Dependency Injection in Acumatica ERP and Unit Tests
 
 In Acumatica ERP, the `Autofac` library is used to implement the dependency injection. For more information, see [Dependency Injection: General Information](../StudioDeveloperGuide/CodeCustomization_DependencyInjection_GeneralInfo.md#).
 

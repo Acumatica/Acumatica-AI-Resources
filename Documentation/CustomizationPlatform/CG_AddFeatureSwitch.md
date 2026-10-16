@@ -1,8 +1,8 @@
-# To Add a Custom Feature Switch {#_8285172e-d3b1-48d9-bcc1-5d20e39cc3f0 .task}
+# To Add a Custom Feature Switch
 
 This section explains how to add a custom feature switch into an ISV solution. For details about custom feature switches, see [Custom Feature Switches](HowAddFeature.md).
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Before you start adding a switch for a custom feature, the following prerequisite steps should be performed:
 
@@ -18,7 +18,7 @@ For the custom feature switch to work properly, you also need to make sure that 
 
 For details on access rights, see [User Roles: General Information](../UserGuide/User_Roles_GeneralInfo.md). For details on adding access rights to a customization project, see [Access Rights](CG_GL_Items_AccessRights.md).
 
-## To Add a Custom Feature Switch { .section}
+## To Add a Custom Feature Switch
 
 To add a custom feature switch, do the following:
 
@@ -39,7 +39,6 @@ To add a custom feature switch, do the following:
 
 2.  Add the `Features.xml` file to your C\# project, and set the **Build Action** property of the `Features.xml` file in Visual Studio to *Embedded Resource*, as shown in the following screenshot.
 
-    ![](images/FeaturesXmlLocation.png "Location of the Features.xml file and setting of the Build Action property")
 
 3.  Add a field to the FeaturesSet DAC by creating a cache extension, and add a related column to the database. The name of the new column must consist of the `Usr` prefix and the feature name. For details, see [To Add a Custom Data Field](https://help-2022r2.acumatica.com/Wiki/ShowWiki.aspx?wikiname=HelpRoot_Dev_Customization&PageID=5a2bddc7-dd58-4de4-a9f5-f4d5ce073b77). The `FeatureSetExt` cache extension that you have created for the new field must adhere to the following rules:
     -   The same name must be used for the custom feature in the FeaturesSet table column and in the `Features.xml` file.

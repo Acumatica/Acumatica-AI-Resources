@@ -1,4 +1,4 @@
-# UI Localization: Optimization of Memory Consumption of Localized Data {#_ac6b5781-1d62-4dab-b153-63b29d138732 .concept}
+# UI Localization: Optimization of Memory Consumption of Localized Data
 
 To optimize the memory consumption of static data, you can move the localization data from all customer application instances to centralized storage. By default, the localization data is kept in the database of every Acumatica ERP instance, and the total size of this data therefore equals the number of instances times the size of the data. If you move the localization data to centralized storage, there is only one copy of this data.
 
@@ -10,7 +10,7 @@ Whether you disable localization or set up centralized storage of localization d
 2.  You place the assembly file with the new provider in the `Bin` directory of the Acumatica ERP instance and add the assembly to the customization project as a *File* element.
 3.  You register the new provider in the pxtranslate element of the `web.config` file, as described in the [Registering the New Provider in Web.config](#_73ca3eeb-cea0-46ea-b496-0278113298d1) section of this topic.
 
-## Implementing a Custom Translation Provider {#_9fb6a0e2-4efe-4bc7-9fb6-977cdbbf5e62 .section}
+## Implementing a Custom Translation Provider
 
 To implement a custom translation provider, you derive a class from the PXTranslationProvider class and override the LoadCultureDictionary\(\) method, as the following example shows.
 
@@ -40,7 +40,7 @@ The LoadCultureDictionary\(\) method returns an instance of the PXCultureDiction
 
 The code below defines a custom translation provider that loads the localization data from an external Acumatica ERP database by using ADO.NET tools.
 
-```language-csharp
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -209,11 +209,11 @@ namespace Demo.Translation
 }
 ```
 
-## Disabling Localization {#_2c321ca4-d3b0-4643-a139-c40480fd3126 .section}
+## Disabling Localization
 
 To disable localization, you implement a custom translation provider with the LoadCultureDictionary\(\) method that returns null, as the following code shows.
 
-```language-csharp
+```csharp
 public class DemoTranslationProvider : PXTranslationProvider
 {
     public override PXCultureDictionary LoadCultureDictionary(
@@ -224,13 +224,13 @@ public class DemoTranslationProvider : PXTranslationProvider
 }
 ```
 
-## Registering the New Provider in Web.config {#_73ca3eeb-cea0-46ea-b496-0278113298d1 .section}
+## Registering the New Provider in Web.config
 
 Once the provider class is defined, you register it in the `web.config` file by adding a new key to the providers collection of the pxtranslate element and specifying the new key in the defaultProvider property of pxtranslate. You use the add element to register the provider. You set the name attribute to the key, which can be any unique value, and specify the type of the custom provider in the type attribute.
 
 The following code shows the configuration of DemoTranslationProvider, which was introduced in the previous section, in the pxtranslate element of the `web.config` file.
 
-```language-xml
+```xml
 <px.core>
   ...
   <pxtranslate defaultProvider="DemoTranslationProvider">

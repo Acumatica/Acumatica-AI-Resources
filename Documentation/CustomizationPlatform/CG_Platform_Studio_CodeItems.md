@@ -1,4 +1,4 @@
-# To Synchronize Code Changes with the Customization Project {#_ab57b220-bebe-4b22-af61-21c70e5fb49f .concept}
+# To Synchronize Code Changes with the Customization Project
 
 When you create a *Code* item in a customization project, Acumatica Customization Platform performs the following actions:
 

@@ -1,26 +1,26 @@
-# Two-Factor Authentication: Implementation Activity {#_f498de6a-fb14-485c-a05d-06e4492397a7 .task}
+# Two-Factor Authentication: Implementation Activity
 
 In the following implementation activity, you will learn how to activate two-factor authentication for an individual user of the system.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company has decided to use two-factor authentication to prevent unauthorized system access. The users of the system should be able to authenticate themselves by using an access code received from the system administrator, a one-time code received by email, or the Acumatica app.
 
 You, as a system administrator, have decided to first test the activation for yourself and then activate it for all users.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Users](SM_20_10_10.md) \(SM201010\) form, you will turn on two-factor authentication for the *gibbs* user and generate the list of access codes there. Then you will turn on the delivery of access codes by email by using the [Security Preferences](SM_20_10_60.md) \(SM201060\) form.
 
 You will sign out and try to sign in with an access code. Finally, you will use the [All Emails](CO_40_90_70.md) \(CO409070\) inquiry form to make sure that the system prepared an email with a one-time access code.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start activating two-factor authentication, sign in to a company with the *U100* dataset preloaded. You should sign in as a system administrator with the *gibbs* username and *123* password.
 
-## Step 1: Turning On Two-Factor Authentication for a User { .section}
+## Step 1: Turning On Two-Factor Authentication for a User
 
 To turn on two-factor authentication for a user, do the following:
 
@@ -32,7 +32,7 @@ To turn on two-factor authentication for a user, do the following:
 6.  On the form toolbar, click **Generate Access Codes**. The system opens the Codes \(SM651011\) report in a pop-up window.
 7.  On the report toolbar, click **Export** &gt; **PDF**. The list of the codes is saved to your computer.
 
-## Step 2: Turning On the Delivery of Access Codes by Email { .section}
+## Step 2: Turning On the Delivery of Access Codes by Email
 
 To turn on the delivery of access codes by email, do the following:
 
@@ -40,7 +40,7 @@ To turn on the delivery of access codes by email, do the following:
 2.  In the **Two-Factor Authentication Policy** section, select the **Allow Email** check box.
 3.  On the form toolbar, click **Save**.
 
-## Step 3: Signing In with an Access Code { .section}
+## Step 3: Signing In with an Access Code
 
 To sign in with an access code, do the following:
 

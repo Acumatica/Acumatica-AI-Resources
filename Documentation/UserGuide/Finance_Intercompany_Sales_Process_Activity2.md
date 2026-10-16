@@ -1,14 +1,14 @@
-# Intercompany Sales: To Pay an Intercompany Bill {#_eb80dc35-c7a9-4a2a-bd9b-1f59f1c966a0 .task}
+# Intercompany Sales: To Pay an Intercompany Bill
 
 The following activity will walk you through the payment of an intercompany bill between branches of two companies within the same tenant.
 
-## Story {#section_ids_4jv_vxb .section}
+## Story
 
 Suppose that the Head Office of the Muffins &amp; Cakes company \(*MHEAD*\) that purchased juicer installation services from the *SWEETEQIUP* branch of SweetLife Fruits &amp; Jams decided to pay for the services on February 15, 2026.
 
 Acting as an accountant of Muffins &amp; Cakes, you have to pay the previously created bill in the amount of $250.
 
-## Configuration Overview {#section_lds_4jv_vxb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -21,11 +21,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Companies](CS_10_15_00.md) \(CS101500\) form, the *MUFFINS* and *SWEETLIFE* companies have been defined.
 -   On the [Branches](CS_10_20_00.md) \(CS102000\) form, the *SWEETEQUIP* and *MHEAD* branches have been defined.
 
-## Process Overview {#section_pds_4jv_vxb .section}
+## Process Overview
 
 In this activity, on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you will open the bill you are going to pay and click **Pay** on the form toolbar. On the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form, you will review the created payment and click **Print/Process**. You will then print the payment on the [Process Payments / Print Checks](AP_50_50_00.md) \(AP505000\) form and release it on the [Release Payments](AP_50_52_00.md) \(AP505200\) form. Finally, you will review the generated GL transaction on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## System Preparation {#section_rds_4jv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -35,7 +35,7 @@ Before you begin performing the steps of this activity, do the following:
 4.  Make sure the *SWEETEQUIP* branch has been extended as a vendor and the *MHEAD* branch has been extended as a customer, as described in [Intercompany Sales Setup: Implementation Activity](../ImplementationGuide/Finance_Intercompany_SalesSetup_Implem_Activity.md).
 5.  Make sure the intercompany invoice and an AP bill based on it have been processed, as described in [Intercompany Sales: To Process an Intercompany Invoice](Finance_Intercompany_Sales_Process_Activity.md).
 
-## Step: Paying an AP Bill Between Branches of Different Companies {#section_tds_4jv_vxb .section}
+## Step: Paying an AP Bill Between Branches of Different Companies
 
 To pay the AP bill that was automatically generated from an AR invoice that recorded an intercompany sales of services, do the following:
 

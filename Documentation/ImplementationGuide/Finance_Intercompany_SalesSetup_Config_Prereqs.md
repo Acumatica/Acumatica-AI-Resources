@@ -1,12 +1,12 @@
-# Intercompany Sales Setup: Configuration Prerequisites {#_50f876ff-046a-40a6-91f5-5a914e26d660 .concept}
+# Intercompany Sales Setup: Configuration Prerequisites
 
 Before starting to set up the intercompany sales functionality, you should be sure that the needed features have been enabled, settings have been specified, and entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, the *Standard Financials*, *Multibranch Support*, *Multicompany Support*, *Advanced Financials*, and *Inter-Branch Transactions* features must be enabled.
 
-## Configuring the System { .section}
+## Configuring the System
 
 You need to make sure the following tasks have been performed in Acumatica ERP before you begin to set up the intercompany sales functionality:
 
@@ -15,7 +15,7 @@ You need to make sure the following tasks have been performed in Acumatica ERP b
 -   On the [Customer Classes](../UserGuide/AR_20_10_00.md) \(AR201000\) form, make sure that the customer class to be used for a customer extended from a company or branch has been defined. For details, see [Accounts Receivable: To Create a Customer Class](config_Basic_Company_Implem_Activity_Customer_Classes.md).
 -   On the [Vendor Classes](../UserGuide/AP_20_10_00.md) \(AP201000\) form, make sure that the vendor class to be used for a vendor extended from a company or branch has been defined. For details, see [Accounts Payable: To Create a Vendor Class](config_Basic_Company_Implem_Activity_Vendor_Classes.md).
 
-## Validation of Configuration { .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you set up the intercompany sales functionality by performing instructions similar to those described in [Intercompany Sales Setup: Implementation Activity](Finance_Intercompany_SalesSetup_Implem_Activity.md).
 

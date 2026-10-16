@@ -1,4 +1,4 @@
-# Opportunity Management: Sales Orders {#_6fd5258e-65ae-470d-981f-603737e72555 .concept}
+# Opportunity Management: Sales Orders
 
 The **Details** tab of the [Opportunities](CR_30_40_00.md) \(CR304000\) form may include detail lines that represent products or services for items and services to be included in the potential sales. A detail line may contain a stock item or a non-stock item defined in Acumatica ERP, or it may contain no inventory items at all. \(That is, the **Inventory ID** column may be left empty for the line, which gives you the ability to manually enter the line description in the **Description** column and other values—such as the quantity, price, discount, or warehouse—in the respective columns.\) For details, see [Opportunity Management: Products and Services in an Opportunity](CRM_Sales_Managing_Opportunities_Products_Services.md).
 
@@ -24,7 +24,7 @@ When you click **Create and Review**, the system performs the following actions:
 
 For more details about the creation of a sales order from a sales quote, see the [Creation of a Sales Order from a Sales Quote](CRM_Sales_Managing_Opportunities_Sales_Orders.md#_845737bb-9ee1-47df-8ac3-52e6f57cef09) section of this topic.
 
-## Creation of a Sales Order from an Opportunity { .section}
+## Creation of a Sales Order from an Opportunity
 
 When an opportunity-based sales order is created, the values of the following settings are copied from the opportunity on the [Opportunities](CR_30_40_00.md) \(CR304000\) form to the sales order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form:
 
@@ -37,7 +37,7 @@ The system lists the sales orders created from an opportunity on the **Relations
 
 For details, see [Opportunity Management: To Create an Opportunity-Based Sales Order](CRM_Sales_Managing_Opportunities_To_Create_an_Oppty-Based_Sales_Order.md).
 
-## Creation of a Sales Order from a Sales Quote { .section}
+## Creation of a Sales Order from a Sales Quote
 
 You can start creating a sales order from a sales quote by clicking **Convert to Order** on the More menu of the [Sales Quotes](CR_30_45_00.md) \(CR304500\) form. If the business account selected for the sales quote has the *Business Account* type \(that is, the business account is a prospective customer that has not been extended to be a customer\), you can extend it on the fly during sales order creation by using the **Create Sales Order** dialog box. When a sales order has been created and saved, the system changes the status of the sales quote to *Converted*.
 

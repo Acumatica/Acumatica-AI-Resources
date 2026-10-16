@@ -1,4 +1,4 @@
-# Modification of the Chart of Accounts {#_df1d5033-4a22-4f12-8f6d-e4345d2eb855 .concept}
+# Modification of the Chart of Accounts
 
 In a live system, you can make the following changes to the chart of accounts on the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form:
 

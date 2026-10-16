@@ -1,10 +1,10 @@
-# Vendor Security {#_01ee3fe2-a6d6-4492-90f5-92ddaebc559c .concept}
+# Vendor Security
 
 As your organization buys goods and services from external organizations, your accountants manage vendors' information and process documents. If your organization works with more than 10 vendors, accountants may work with particular vendors only. In this case, the accountants who do not work with particular vendors should not see them in the system for security reasons and to avoid entry errors. You can use restriction groups to make vendors visible to only the accountants who work with these vendors in the system, as described in this topic.
 
 **Tip:** In Acumatica ERP, you can configure groups with direct and inverse restriction. In this topic, for simplicity, groups with direct restriction are used in examples. You can use inverse restriction groups in the same way as you use direct restriction groups. For details on the types of restriction groups, see [Types of Restriction Groups](../Shared/../UserGuide/SM__con_Types_of_Restriction_Groups.md).
 
-## Visibility of Vendors by User { .section}
+## Visibility of Vendors by User
 
 You can use restriction groups to configure and manage the visibility of vendors to users in the system. If each accountant in your organization works with specific vendors, you can hide these vendors from other users. For details about restriction groups, see [Restriction Groups in Acumatica ERP](../Shared/../UserGuide/SM__con_Overview_of_Restriction_Groups.md).
 
@@ -16,7 +16,7 @@ For example, suppose that ABComputers is your vendor of computers and office equ
 
 If you have configured vendor classes, you can specify a default restriction group for a vendor class. With this setting, all new vendors of the class will be automatically added to the restriction group.
 
-## Setting Up Default Restriction Groups for Vendor Classes {#_769aca82-01cf-49ce-8b23-342ac7eaef5b .section}
+## Setting Up Default Restriction Groups for Vendor Classes
 
 To ease the addition of new vendors to restriction groups, you can specify a default restriction group for a vendor class, so that vendors of the selected class will be included in the restriction group automatically.
 
@@ -27,7 +27,7 @@ You specify a default restriction group for a vendor class by using the [Vendor 
 3.  On the form toolbar, you click **Include Vendors in Restriction Group** to include all entities of the class in the default restriction group.
 4.  You save your changes.
 
-## Removing Class Entities from a Default Restriction Group { .section}
+## Removing Class Entities from a Default Restriction Group
 
 If you want to cancel the visibility restriction for entities of a vendor class, you can remove all class entities from a default restriction group as follows:
 
@@ -36,7 +36,7 @@ If you want to cancel the visibility restriction for entities of a vendor class,
 3.  On the form toolbar, you click **Include Vendors in Restriction Group**.
 4.  You save your changes.
 
-## Forms for Vendor Security { .section}
+## Forms for Vendor Security
 
 In the following table, you can find the list of the forms that you can use to manage restriction groups with vendors and the tasks that you can resolve by using each form.
 

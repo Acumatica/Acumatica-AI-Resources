@@ -1,8 +1,8 @@
-# To Reserve an Inventory Item for an Order {#_8edb651c-8956-4506-96f3-c2ee4ad4952c .task}
+# To Reserve an Inventory Item for an Order
 
 If some of the specific items require reservation \(allocation\) for the order, you can reserve them on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, as described in the following instructions.
 
-## To Reserve an Inventory Item in an Order { .section}
+## To Reserve an Inventory Item in an Order
 
 1.  Open the [Sales Orders](../Shared/../UserGuide/SO_30_10_00.md) \(SO301000\) form.
 2.  In the **Order Type** box, select the order type of the order for which you want to allocate items.
@@ -13,7 +13,7 @@ If some of the specific items require reservation \(allocation\) for the order, 
     3.  For the additional line \(if added\), select the check box in the **Line Details** column. In the **Alloc. Warehouse** column, select the source warehouse from the list of warehouses. If the item quantity available in this warehouse \(**Quantity**\) is less than the remaining quantity, the system adds one more allocation line with the remaining quantity; if it does, either adjust the requested quantity or continue reserving item quantities in other warehouses.
     4.  Click **OK** to save the created allocations and close the dialog box.
 
-## Notes About the Procedure { .section}
+## Notes About the Procedure
 
 Note the following about reserving an inventory item for an order:
 

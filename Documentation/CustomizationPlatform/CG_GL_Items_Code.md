@@ -1,4 +1,4 @@
-# Code {#_faf4b93e-1a41-4811-a792-a4c4b40c5689 .concept}
+# Code
 
 You use the Code page of the [Customization Project Editor](../UserGuide/SM_20_45_10.md) to manage *Code* items in the customization project. On the page, you can perform the following operations with items:
 

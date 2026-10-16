@@ -1,14 +1,14 @@
-# Database Maintenance: To Monitor the Database Size {#_8b555bd8-5722-44ee-bc46-b534d91327c0 .task}
+# Database Maintenance: To Monitor the Database Size
 
 The following activity will walk you through the process of monitoring the size of a database.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that as the number of employees of the SweetLife Fruits &amp; Jams company has grown and as more users perform operations in Acumatica ERP, the database has significantly grown too. System administrators perform a regular review of the database. Acting as a system administrator, you need to review the database usage, paying special attention to the space used by the database.
 
-## Process Overview { .section}
+## Process Overview
 
 You will use the [Space Usage](SM_20_35_25.md) \(SM203525\) form to perform the following operations:
 
@@ -18,11 +18,11 @@ You will use the [Space Usage](SM_20_35_25.md) \(SM203525\) form to perform the 
 
 Also, you will use the [Tenants](SM_20_35_20.md) \(SM203520\) form to run a procedure that removes orphaned snapshots.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded as the system administrator by using the *gibbs* username and the *123* password.
 
-## Step 1: Calculating the Used Space { .section}
+## Step 1: Calculating the Used Space
 
 To calculate the used space of the database, do the following:
 
@@ -33,7 +33,7 @@ To calculate the used space of the database, do the following:
     -   **Snapshots**: In the table, which lists the snapshots that are stored in the database, review the size of each snapshot.
     -   **Tables**: Review the list of tables, which shows data related to all tenants and snapshots in your instance. You can filter the list of the tables according to the record quantity or the size to detect the tables consuming the most space.
 
-## Step 2: Cleaning Up the Database { .section}
+## Step 2: Cleaning Up the Database
 
 To optimize the Acumatica ERP database, do the following:
 

@@ -1,20 +1,20 @@
-# Business Events: To Configure the Monitoring of Condition Fulfillment on a Schedule {#_d3ca0331-3648-439d-b2af-ef419644c212 .task}
+# Business Events: To Configure the Monitoring of Condition Fulfillment on a Schedule
 
 This activity will walk you through the process of configuring a business event to monitor condition fulfillment on schedule.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the accounting team needs to inform customers by email about invoices that are due tomorrow. The system should also attach the invoice in PDF format to the email. Additionally, the system should send a copy of the email to the owner of invoice and create a task for the owner to follow up with the customer regarding the payment of the invoice. The task's due date should be two days after the due date of the invoice.
 
 Acting as the system administrator, you need to configure the business event to automate the sending of notifications about the invoices that are due and the creation of follow-up tasks for the owners of the invoices. As the data source, you will use the BE\_InvoiceDueTomorrow \(BE403010\) form, which is a custom generic inquiry that lists invoices. The inquiry contains all the data fields that are needed for monitoring the due invoices.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Scheduled Processing* feature has been enabled.
 
-## Process Overview {#section_pfh_2nb_2sb .section}
+## Process Overview
 
 First, on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form, you will upload the [BE\_InvoiceDueTomorrow.xml](Files/BE_InvoiceDueTomorrow.xml) generic inquiry.
 
@@ -24,13 +24,13 @@ On the [Business Events](SM_30_20_50.md) \(SM302050\) form, you will create the 
 
 To verify that the business event works correctly, you will change a due date of an invoice to tomorrow. After the system executes the inquiry based on the specified schedule, you will verify that the notification email appears on the **All Records** tab of the [All Emails](CO_40_90_70.md) \(CO409070\) form. Also, you will sign in as the owner of the invoice and verify that the related task appears on the **My Tasks** tab of the Tasks \(EP4040PL\) form.
 
-## System Preparation {#section_e2x_xnb_bsb .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to a tenant with the *U100* dataset preloaded as system administrator Kimberly Gibbs. You should sign in by using the *gibbs* username and the *123* password.
 
 **Tip:** The *gibbs* user is assigned the *Administrator* role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards.
 
-## Step 1: Uploading the Needed Generic Inquiry {#section_uhq_4g4_2sb .section}
+## Step 1: Uploading the Needed Generic Inquiry
 
 To upload the *BE\_InvoiceDueTomorrow* generic inquiry so that you can use the corresponding generic inquiry form as a data source for the business event, do the following:
 
@@ -39,7 +39,7 @@ To upload the *BE\_InvoiceDueTomorrow* generic inquiry so that you can use the c
 3.  In the **Upload XML File** dialog box, select [BE\_InvoiceDueTomorrow.xml](Files/BE_InvoiceDueTomorrow.xml), and click **Upload**. You may need to wait a bit until the system uploads the inquiry.
 4.  On the form toolbar, click **View Inquiry**. The systems opens the BE\_InvoiceDueTomorrow \(BE403010\) generic inquiry form in a new browser tab.
 
-## Step 2: Creating a Notification Template { .section}
+## Step 2: Creating a Notification Template
 
 To create a notification template to be used as a subscriber to the business event you will configure, do the following:
 
@@ -74,7 +74,7 @@ To create a notification template to be used as a subscriber to the business eve
 
 15. On the form toolbar, click **Save**.
 
-## Step 3: Configuring the Task Template { .section}
+## Step 3: Configuring the Task Template
 
 To configure the task template to be used as the event subscriber, do the following:
 
@@ -101,7 +101,7 @@ To configure the task template to be used as the event subscriber, do the follow
 11. In the row with *Priority* in the **Field Name** column, in the **From Schema** column, select the check box, and in the **Value** column, select the *High* option.
 12. On the form toolbar, click **Save**.
 
-## Step 4: Creating a Business Event Monitored on Schedule {#section_tk1_5jc_2sb .section}
+## Step 4: Creating a Business Event Monitored on Schedule
 
 To create a business event that is monitored on a schedule, do the following:
 
@@ -150,15 +150,15 @@ To create a business event that is monitored on a schedule, do the following:
 12. Select the **No Execution Limit** check box.
 13. Select the **Keep Full History** check box.
 14. On the **Schedule** tab \(**Schedule Type** section\), select *Daily*.
-15. In the **Schedule Details** section, in the **Every** box, type `1`.
-16. In the **Execution Time** section, in the **Starts On** box, select *1:00 AM*.
-17. In the **Next Execution Date** box, type your current time plus five minutes \(you need this time to finish the configuration\).
-18. In the **Stops On** box, select *11:30 PM*.
+15. In the **Execution Date** section, in the **Every** box, type `1`.
+16. In the **Execution Time** section, in the **Start Time** box, select *1:00 AM*.
+17. In the **Next Execution** box, type your current time plus five minutes \(you need this time to finish the configuration\).
+18. In the **Stop Time** box, select *11:30 PM*.
 19. Optional: In the **Every** box, type `00:02`. This setting will make the system execute the inquiry every 2 minutes, in case you want to test the event multiple times.
 20. On the form toolbar, click **Save &amp; Close**.
 21. On the form toolbar of the [Business Events](SM_30_20_50.md) form, to which you return, click **Save**.
 
-## Step 5: Verifying the Configuration of the Business Event {#section_xs1_5jc_2sb .section}
+## Step 5: Verifying the Configuration of the Business Event
 
 You have configured a business event that is triggered when the inquiry returns an invoice that is due tomorrow. The system monitors the inquiry results based on the specified schedule. When the event occurs, the system should send an email notification to a customer and owner of the due invoice. Also, the system must create a task for the owner to follow up with the customer.
 
@@ -173,14 +173,12 @@ To test the configuration, you change a due date for an invoice, wait for the sy
 7.  On the **All Records** tab of the form, locate the record with *The 00001 invoice is due tomorrow* in the **Summary** column.
 8.  Click the email to view its details on the [Email Activity](CR_30_60_15.md) \(CR306015\) form. Notice that the system has replaced the placeholders with the data copied from the invoice and attached the invoice in PDF format \(see the following screenshot\).
 
-    ![](Images/SA_Using_Business_Events_Monitoring_Data_Schedule_Activity_Notification.png "An email generated by the business event")
 
 9.  Sign out, and sign back in as Nenad Pasic by using the *pasic* username and the *123* password.
 10. Open the Tasks \(EP4040PL\) form.
 11. On the **My Tasks** tab of the form, locate the record with *The 00001 invoice is due tomorrow* in the **Summary** column.
 12. Click the task to view its details on the [Task](CR_30_60_20.md) \(CR306020\) form. Notice that the system has replaced the placeholders with the data copied from the invoice \(see the following screenshot\).
 
-    ![](Images/SA_Using_Business_Events_Monitoring_Data_Schedule_Activity_Task.png "A task generated by the business event")
 
 
 **Parent topic:**[Using Business Events](../UserGuide/SA_Using_Business_Events_Mapref.md)

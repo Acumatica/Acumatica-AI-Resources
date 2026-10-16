@@ -1,10 +1,10 @@
-# Construction Reports: Substantiated Billing Reports {#_6488045c-2bd7-4d95-957d-9b191cc10688 .concept}
+# Construction Reports: Substantiated Billing Reports
 
 In the construction industry, when contractors bill their customers, the customers may want to see proof of the costs. In this case, the contractors need to provide supporting documentation along with the customer statement or invoice. For this purpose, contractors use substantiated billing reports. A substantiated billing report is a detailed document that provides evidence to support the charges and costs billed to a client. This report is crucial for transparency, proving that all billed amounts are justified and verifiable.
 
 Acumatica ERP Construction Edition includes the following substantiated billing reports: [Substantiated Billing](PM_65_00_00.md) \(PM650000\) and [Substantiated Billing: Consolidated](PM_65_00_50.md) \(PM650050\). These reports are specifically designed to display a detailed breakdown of the costs incurred for a particular project, as well as supporting documentation for these costs.
 
-## The Substantiated Billing Report { .section}
+## The Substantiated Billing Report
 
 The [Substantiated Billing](PM_65_00_00.md) \(PM650000\) report provides a list of costs for the specified period with all transactions related to accounts payable invoices, debit adjustments, credit adjustments, labor, and other project expenses. The report groups these costs by the cost codes. You prepare a substantiated billing report for a particular project. If you need to include a particular cost transaction in the substantiated billing report, you can link it to a pro forma invoice. For more information on linking cost transactions to pro forma invoices, see [Pro Forma Invoices: Links to Project Transactions](Projects_Pro_Forma_Invoices_LinkTransactions.md).
 
@@ -16,7 +16,7 @@ You can filter the cost transactions to be included in the report by date range 
 
 You can also include or exclude the non-billable cost transactions by selecting or clearing the **Include Non-Billable Transactions** check box in the report parameters. If the check box is cleared, the report includes only billable cost transactions—that is, project transactions that have the **Billable** check box selected on the [Project Transactions](PM_30_40_00.md) \(PM304000\) form. If the check box is selected, the report includes billable and non-billable transactions.
 
-## The Substantiated Billing \(Consolidated\) Report { .section}
+## The Substantiated Billing \(Consolidated\) Report
 
 The [Substantiated Billing: Consolidated](PM_65_00_50.md) \(PM650050\) report provides the same information as the [Substantiated Billing](PM_65_00_00.md) \(PM650000\) report in a downloadable format. In addition to the list of costs and transactions of a project for the specified period, the generated PDF report includes all scanned or uploaded images \(of the PNG, JPG, JPEG, BMP, GIF, TIFF, or TIF format\). Each of these images is attached to the corresponding cost record as a separate pages.
 

@@ -1,25 +1,23 @@
-# Resizer: General Information {#_d2a18590-207a-418b-9b9d-9357b5a58cca .concept}
+# Resizer: General Information
 
 A resizer is a control that gives you the ability to adjust the height of a control that is located inside the resizer. You can put any control whose height can be changed into a resizer, such as a table or a tree. If a user adjusts the height of the control, the system stores the adjusted height in the user's preferences. When the user opens the form at any later time, the control will be shown with the adjusted height.
 
 The control looks like a line with three dots in the middle \(see the first screenshot below\). The line is located under the control that has been placed inside the resizer. When a user hovers over the line with three dots \(see the second screenshot below\), the mouse pointer turns into a double-headed arrow with two lines in the middle, which means that the lines can be moved.
 
-![](Images/UIDevRef_Resizer_Dots.png "The three dots on a resizer")
 
-![](Images/UIDevRef_Resizer_Mouse.png "Changing of the height of the control by using a resizer")
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn the following about the resizer:
 
 -   The design guidelines for the resizer, including the naming conventions and layout recommendations
 -   The proper configuration of the resizer
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure a resizer when you want to give a user the ability to change the height of a control manually.
 
-## Resizer Overview { .section}
+## Resizer Overview
 
 The resizer control is defined by the qp-resizer tag in HTML.
 
@@ -44,7 +42,7 @@ To add a control inside a resizer, you place the tag for the control inside the 
 </qp-tab>
 ```
 
-## Resizer ID { .section}
+## Resizer ID
 
 The ID of a resizer in HTML consists of two parts with a hyphen between them: the `resizer` prefix and the semantic name. The semantic name describes the element that is located inside the resizer. For example, a resizer that adjusts the height of a table with item attributes may have the `resizer-gridAttributes` ID, as the following code shows.
 

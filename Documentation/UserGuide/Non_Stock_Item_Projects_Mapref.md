@@ -1,4 +1,4 @@
-# Creating Labor Items {#_88957f8c-aa0a-40bc-a831-f1106cda2e77 .concept}
+# Creating Labor Items
 
 This chapter describes how to create a labor non-stock item that will be used in projects and define labor cost rates to be used for billing projects.
 

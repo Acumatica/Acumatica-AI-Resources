@@ -1,12 +1,12 @@
-# Using a Primary Key {#_53df9cc9-7337-4ba7-9b3d-be0e412213a9 .concept}
+# Using a Primary Key
 
 When you use a primary key, you should take into consideration the information presented in the following sections.
 
-## Restrictions {#_b9b04fe5-1e31-40fc-b39b-9788b4447c28 .section}
+## Restrictions
 
 You cannot use unbound DAC fields in a primary key declaration. Internally, a primary key generates its own anonymous view, which uses the fields specified in the key declaration. If you use unbound DAC fields in the primary key declaration, this view will contain these fields, and they will be part of the SQL query sent to the database. Because the fields are unbound, the database does not have such columns, such code would lead to a runtime error thrown from the database.
 
-## Coding Conventions { .section}
+## Coding Conventions
 
 We recommend that you adhere to the following coding conventions to make the code more structured and readable:
 
@@ -15,7 +15,7 @@ We recommend that you adhere to the following coding conventions to make the cod
 
 These conventions are generally verified by Acuminator.
 
-## The IPrimaryKey Interface { .section}
+## The IPrimaryKey Interface
 
 There are two approaches to work with primary keys: declare them as static, or declare them as non-static.
 

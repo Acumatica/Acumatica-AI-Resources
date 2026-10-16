@@ -1,8 +1,8 @@
-# Workflow Customization: General Information {#_1916104f-2406-4f70-a26a-ef862e03e058 .concept}
+# Workflow Customization: General Information
 
 By using Workflow API, you can not only create your own workflows but also customize workflows defined in the source code of Acumatica ERP. Workflow API provides a set of methods to update and remove workflows and elements of a workflow, such as states and transitions.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,11 +10,11 @@ In this chapter, you will learn how to do the following:
 -   Add a new action to the workflow
 -   Define a new category in the workflow
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You customize an existing workflow when you need to modify a workflow defined for an Acumatica ERP form.
 
-## Customization of Existing Workflows { .section}
+## Customization of Existing Workflows
 
 You use the Add methods to add actions, states, transitions, and other elements of the screen configuration to the workflow. For each of these Add methods, Workflow API provides the Update method for updating the element and the Delete method for deleting the element from the workflow.
 
@@ -22,7 +22,7 @@ To define a new screen configuration and workflow, you use the AddScreenConfigur
 
 An example of an updated workflow is shown in the following code.
 
-```language-csharp
+```csharp
 context.UpdateScreenConfigurationFor(screen =>
 {
   return screen

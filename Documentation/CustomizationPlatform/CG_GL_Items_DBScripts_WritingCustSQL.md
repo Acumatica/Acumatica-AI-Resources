@@ -1,8 +1,8 @@
-# Writing Custom SQL Scripts for Interpretation {#_0d890897-5b11-41e6-a6bc-c7eceb27c979 .concept}
+# Writing Custom SQL Scripts for Interpretation
 
 In custom scripts for interpretation, you can use the data types and SQL statements that are listed below.
 
-## Data Types { .section}
+## Data Types
 
 The following data types of Microsoft SQL Server are supported for interpretation:
 
@@ -21,7 +21,7 @@ The following data types of MySQL Server are supported for interpretation:
 -   timestamp and datetime
 -   decimal and double
 
-## SQL Statements { .section}
+## SQL Statements
 
 If you prepare a script for interpretation, you can use the following elements of Transact-SQL:
 
@@ -45,7 +45,7 @@ If you prepare a script for interpretation, you can use the following elements o
 
 **Note:** The DATALENGTH function can be applied to a string or binary object, and the function returns the object length in bytes.
 
-## VmSQL Variables { .section}
+## VmSQL Variables
 
 In the script for interpretation, you can use the @@@is\_mssql, @@@is\_azure, and @@@is\_mysql variables. The following table contains the values of these variables for Microsoft SQL Server, Microsoft Azure SQL Database, and MySQL Server.
 
@@ -55,7 +55,7 @@ In the script for interpretation, you can use the @@@is\_mssql, @@@is\_azure, an
 |MS Azure SQL Database|1|1|0|
 |MySQL Server|0|0|1|
 
-## Error Messages { .section}
+## Error Messages
 
 Unsupported data types cause the following error: *Cannot figure out DbType for SqlDataTypeOption*.
 

@@ -1,16 +1,16 @@
-# Generic Inquiry as a Substitute Form: General Information {#_2c051f97-c884-4d23-81d1-38fb4336dd52 .concept}
+# Generic Inquiry as a Substitute Form: General Information
 
 In Acumatica ERP, you can create a generic inquiry that presents a list of records that were entered on a particular data entry form \(which is called the *primary form* in this context\). Once you have created the generic inquiry form, you can use it as an *entry point* to the primary form. This means that when you click the name of the primary form while searching for or navigating to it, you will instead access the generic inquiry form that contains the list of records. If you click the link of a record identifier in the list, the primary form \(that is, the data entry form\) opens with that record displayed. The generic inquiry form is called the *substitute form* in this context.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to substitute an inquiry form for a data entry form.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You are responsible for the customization of Acumatica ERP in your company, including developing and modifying generic inquiries to give users information they need to do their jobs. You need to give users the ability to scan lists of records and find needed records quickly. You will accomplish this task by substituting inquiry forms \(lists of records\) for the related data entry forms.
 
-## Substitution of an Inquiry Form for a Primary Form { .section}
+## Substitution of an Inquiry Form for a Primary Form
 
 You configure the replacement of a primary form with a substitute form on the **Entry Point** tab of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form. To do this, in the **Entry Screen Settings** section of the form, you specify the primary form in the **Entry Screen** box and then select **Replace Entry Screen With This Inquiry in Menu** check box.
 
@@ -18,11 +18,10 @@ You configure the replacement of a primary form with a substitute form on the **
 
 When you replace a primary form with an inquiry form, the system automatically adds the corresponding navigation settings for this inquiry on the **Navigation** tab. It also sets the **Window Mode** for the path to the *Inline* option \(as shown in the following screenshot\), which is not available for selection by users.
 
-![](Images/GI_Enabling_Navigation_GS_with_GI_EntryPointInline.png "The Window Mode setting of Inline")
 
 When you save an inquiry with the replacement of a data entry form configured for this inquiry, the system adds a row to the [Lists as Entry Points](SM_20_85_00.md) \(SM208500\) form. This row contains the entry screen identifier and name in the **Entry Screen ID** column, the substitute screen identifier and name in the **Substitute Screen ID** column, and the indicator of whether the replacement is active in the **Active** column.
 
-## Suspension of the Replacement of an Entry Form with a Substitute Form { .section}
+## Suspension of the Replacement of an Entry Form with a Substitute Form
 
 You can activate or suspend the replacement of any entry form any time you want. You could, for example, do this temporarily, to make an inquiry form invisible to other users while you are making modifications to it. You can suspend the replacement in either of the following ways:
 
@@ -34,7 +33,7 @@ On the [Lists as Entry Points](SM_20_85_00.md) form, if you delete the row conta
 -   The replacement is canceled, but the forms are not deleted.
 -   On the [Generic Inquiry](SM_20_80_00.md) form, the **Replace Entry Screen with This Inquiry in Menu** check box on the **Entry Point** tab is cleared.
 
-## Publication of a Generic Inquiry Form as a Substitute Form { .section}
+## Publication of a Generic Inquiry Form as a Substitute Form
 
 You can use only a published generic inquiry form as a substitute form. When an inquiry has been created, you can publish it. To publish the generic inquiry, on the toolbar of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form, you click the **Publish to the UI** button. In the **Publish to the UI** dialog box, you may change the default settings of the title, workspace, and category. Also, you may change the automatically assigned screen identifier.
 
@@ -42,7 +41,7 @@ In the **Access Rights** section of the dialog box, you select what access right
 
 To complete the publication process, you click **Publish** in the dialog box.
 
-## Modification of a Published Substitute Form { .section}
+## Modification of a Published Substitute Form
 
 If you want to modify an inquiry that is currently used as a substitute form, you can temporarily hide it—that is, make the inquiry not visible to other users.
 
@@ -53,7 +52,7 @@ You can hide a published inquiry form that has been configured as a substitute f
 
 **Important:** We strongly recommend that you do not withdraw from publication an inquiry that has been published already. If you withdraw it, the system clears the assignment of screen identifier \(value of the **Screen ID** box\), which may cause issues with the widgets or pivot tables based on the published inquiry.
 
-## Additional Operations on a Substitute Form { .section}
+## Additional Operations on a Substitute Form
 
 With the settings in the **Operations with Records** section of the **Entry Point** tab of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form, you can specify additional operations that a user can perform on a substitute form. By selecting the appropriate check boxes in this section, you enable the following capabilities for the inquiry form:
 
@@ -89,7 +88,7 @@ With the settings in the **Operations with Records** section of the **Entry Poin
 
 **Tip:** If you need to use additional operations on a substitute form \(that is, if you select any of the check boxes described above\), we recommend that you modify the predefined generic inquiry instead of creating a copy of the predefined generic inquiry and modifying the copy.
 
-## Access Rights to Substitute Forms { .section}
+## Access Rights to Substitute Forms
 
 In Acumatica ERP, every form has its own levels of access rights that you can specify for the user roles in the system by using the [Access Rights by Screen](SM_20_10_20.md) \(SM201020\) form. You can change the level of access rights to the data entry and generic inquiry forms independently of each other. However, when an inquiry form replaces the corresponding data entry form, it becomes the substitute form and inherits the level of access rights the users of each role have to the data entry form. Thus, to change the access rights users have to the substitute form, you need to change the access rights to the entry form. You can manage access rights to substitute forms in the same ways as you manage access rights to other generic inquiries. For more information about access rights, see [Managing Access Rights To Generic Inquiries](GI_Access_Rights_Mapref.md).
 

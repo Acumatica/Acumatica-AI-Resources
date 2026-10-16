@@ -1,8 +1,8 @@
-# Project Cost Projections: Date-Sensitive Cost Projections {#_9f2eef9a-3569-4cf7-b63e-ec9482defd31 .concept}
+# Project Cost Projections: Date-Sensitive Cost Projections
 
 You can use date-sensitive cost projections to calculate projects' margins and analyze overbilling and underbilling for a specific date range. The following sections describe how you create and analyze cost projections.
 
-## Creation of a Date-Sensitive Cost Projection {#section_oqj_q22_32c .section}
+## Creation of a Date-Sensitive Cost Projection
 
 You create and process date-sensitive cost projections on the [Cost Projection by Date](PM_30_55_00.md) \(PM305500\) form. When you create a cost projection, it has the *On Hold* status and can be edited.
 
@@ -12,7 +12,7 @@ You then click **Load Lines** on the form toolbar to add the budget lines on the
 
 **Tip:** If an approval workflow is configured for date-sensitive cost projections, the responsible person should approve the cost projection after it has been removed from hold. For more information about configuring approvals, see [Approval Configuration: General Information](../ImplementationGuide/config_Approvals_General_Info.md).
 
-## Release of a Cost Projection {#section_btw_51j_12c .section}
+## Release of a Cost Projection
 
 You release a cost projection by clicking **Release** on the form toolbar of the [Cost Projection by Date](PM_30_55_00.md) \(PM305500\) form. For each projection date, only one cost projection can be released for each project.
 
@@ -27,7 +27,7 @@ To update the **Projected Cost at Completion** values on release of the cost pro
 
 If you have released a cost projection with the **Update Project Budget** check box cleared, you can click **Hold** on the More menu to assign the cost projection the *On Hold* status and continue editing it.
 
-## Creation of a Copy of a Cost Projection {#section_swg_h32_32c .section}
+## Creation of a Copy of a Cost Projection
 
 You can create a new cost projection based on an existing one. This gives you the latest actual values from the project budget in the cost projection lines, while preserving the manual changes that have been made to the **Projected Cost at Completion** values on the previous projection date. To do this, on the [Cost Projection by Date](PM_30_55_00.md) \(PM305500\) form, you do the following:
 

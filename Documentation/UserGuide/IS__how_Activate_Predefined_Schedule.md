@@ -1,4 +1,4 @@
-# To Activate the Predefined Periodic Schedule {#_22612fde-175c-49e8-b642-df55b570be4f .task}
+# To Activate the Predefined Periodic Schedule
 
 To activate the periodic schedule that runs the *Failed &amp; Missed Data Resync* process every five minutes, do the following:
 

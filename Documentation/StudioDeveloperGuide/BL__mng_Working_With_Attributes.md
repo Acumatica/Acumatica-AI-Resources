@@ -1,4 +1,4 @@
-# Working with Attributes {#_452232d6-60da-4e0e-9fe4-23318464a3b2 .concept}
+# Working with Attributes
 
 In Acumatica Framework, you use attributes to add common business logic to the application components.
 

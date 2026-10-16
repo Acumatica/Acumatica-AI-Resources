@@ -1,4 +1,4 @@
-# Implementing the XML Import and Export Functionality in a Custom Form {#_ffddc333-091a-4372-8740-eaf57e257f16 .concept}
+# Implementing the XML Import and Export Functionality in a Custom Form
 
 For a custom form, you can implement importing of the data to this form and exporting of the data from it. To add the XML import and export functionality to the form, you need to perform the following general steps:
 
@@ -8,15 +8,27 @@ For a custom form, you can implement importing of the data to this form and expo
 
 Once you have performed these steps, the **Export as XML** and **Import from XML** commands become available if you click the **Clipboard** button on the form toolbar. For details about the XML import and export functionality, see [To Export Data to XML](https://help.acumatica.com/(W(136))/Help?ScreenId=ShowWiki&pageid=5296d05c-776f-48ea-8137-d1e74c438caa) and [To Import Data from XML](https://help.acumatica.com/(W(136))/Help?ScreenId=ShowWiki&pageid=5fa2a144-2f1d-4369-b1fe-adc732accf7e).
 
-## How to Define the XML File Name and Format { .section}
+## How to Define the XML File Name and Format
 
 The name of the XML file that you create to add the XML import and export functionality to your custom form should be same as the ID of your custom form with the XML extension. For example, if the ID of your custom form is *PR301000*, then the XML file name should be `PR301000.xml`. The contents of the XML file also need to be in a specific format for you to be able to correctly add the XML import and export functionality to your custom form.
 
 The following table describes the format of the XML file, including the elements and attributes that should be used when you create the file.
 
-|Element|Description|
-|-------|-----------|
-|relations|The root element that defines the main DAC and the related DACs to be included in the XML entity definition. This element has the following attributes:
+<table id="table_scb_crd_f2c"><thead><tr><th>
+
+Element
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+relations
+
+</td><td>
+
+The root element that defines the main DAC and the related DACs to be included in the XML entity definition. This element has the following attributes:
 
  -   format-version \(required\): The version of the XML file format. The current version is *4*. You can specify a value of the `xs:unsignedByte` type.
 -   main-table \(required\): The main DAC of the primary data view of the form. You can specify a value of the `xs:string` type.
@@ -24,8 +36,13 @@ The following table describes the format of the XML file, including the elements
 
 -   unique-key: An indicator that the system should check for duplicate records. This attribute can be specified for parent and child tables.
 
-|
-|link|A link to the related DAC to be included in the XML entity definition. This element has the following attributes:
+</td></tr><tr><td>
+
+link
+
+</td><td>
+
+A link to the related DAC to be included in the XML entity definition. This element has the following attributes:
 
  -   from \(required\): The related DAC along with its field or fields \(in parentheses\) that define the relationship between the related and parent DACs. This attribute accepts values of the `xs:string` type.
 -   to \(required\): The parent DAC along with its field or fields \(in parentheses\) that define the relationship between the related and parent DACs. The parent DAC can be the main DAC defined in the main-table attribute of the relations element, or any other DAC to which a link is defined in another link element. This attribute accepts values of the `xs:string` type.
@@ -35,7 +52,7 @@ You may also need to use the following types:
 
     -   *Note*: To define a relationship with the Note table \(see the following example\).
 
-        ``` {#codeblock_a4v_1sd_f2c}
+        ```
 <link from="GIDesign (NoteID)" 
  to="Note (NoteID)"
  type="Note" />
@@ -43,14 +60,15 @@ You may also need to use the following types:
 
     -   *RowKvExt*: To define a relationship with the KvExt tables, which contain the values of multilanguage fields and user-defined fields \(see the following c\).
 
-        ``` {#codeblock_b4v_1sd_f2c}
+        ```
 <link from="GIFilter (NoteID)" 
  to="GIFilterKvExt (RecordID)" 
  type="RowKvExt" />
         ```
 
 
-|
+</td></tr></tbody>
+</table>
 
 The following code shows an example of a XML file that is created to add the XML import and export functionality to a custom form.
 
@@ -77,6 +95,8 @@ The following code shows an example of a XML file that is obtained as a result o
       <table name="PRSVWorkOrderItem" uplink="(OrderNbr) = (OrderNbr)" />
       <table name="PRSVWorkOrderLabor" uplink="(OrderNbr) = (OrderNbr)" />
     </table>
+
+
   </layout>
   <data>
     <PRSVWorkOrder>

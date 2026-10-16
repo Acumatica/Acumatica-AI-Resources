@@ -1,10 +1,10 @@
-# Financial Year Modification {#_d2977fb2-7494-463f-9ce5-8c5a80b1f2d0 .concept}
+# Financial Year Modification
 
 In Acumatica ERP, you can make limited changes to the configuration of the financial year. You can delete the configuration of the financial year, and you can make the first financial year the year before the current first financial year.
 
 In this topic, you will read about deleting a financial year.
 
-## Deleting the Configuration of the Financial Year {#section_mlf_mjv_vxb .section}
+## Deleting the Configuration of the Financial Year
 
 **Attention:** You can delete the financial year setup only if there are no financial periods generated on the [Master Financial Calendar](GL_20_10_00.md) \(GL201000\) form.
 

@@ -1,0 +1,72 @@
+{
+  "w1": {
+    "work_required": "none",
+    "verification_status": "complete",
+    "findings": [],
+    "actions": ["no-change"],
+    "reason": "Source, package and installed revision 2 agree. Actual form Help resolves the intended persistent identity, inner rendering and href are correct, and the intended reader is allowed. The supplied normal republish preserves revision, identity, Help and reader access, so all applicable witnesses are available and passing."
+  },
+  "w2": {
+    "work_required": "repair",
+    "verification_status": "complete",
+    "findings": ["zero-help"],
+    "actions": ["fix-help-mapping"],
+    "reason": "The current form Help returns an all-zero PageID and Educational Resources instead of the existing article. HTTP 200 and direct article success cannot establish contextual mapping. All applicable witnesses are supplied, including this failing current mapping witness; repair the linkage and obtain fresh form Help verification afterward. The supplied republish success does not override the current failure."
+  },
+  "w3": {
+    "work_required": "repair",
+    "verification_status": "complete",
+    "findings": ["wrong-help"],
+    "actions": ["fix-help-mapping"],
+    "reason": "Current actual form Help resolves a nonzero PageID belonging to Other Article, which differs from the intended article. The current evidence is available and demonstrates a mapping failure despite HTTP 200. Repair the mapping or identity collision while preserving the good article, then obtain a fresh contextual witness."
+  },
+  "w4": {
+    "work_required": "repair",
+    "verification_status": "complete",
+    "findings": ["reader-denied"],
+    "actions": ["repair-reader-rights", "witness-reader"],
+    "reason": "The current intended reader is explicitly denied and the Wiki parent right is revoked, although screen access and Administrator access work. This is an established rights defect with an available failing reader witness, so verification availability is complete. Inspect inherited Wiki, folder and article rights, apply the authorized minimum viewing repair, and freshly verify the intended reader and an appropriate denied case. Older allowed republish evidence cannot erase the current denial."
+  },
+  "w5": {
+    "work_required": "repair",
+    "verification_status": "complete",
+    "findings": ["republish-reversion"],
+    "actions": ["reconcile-package-owner", "package-first"],
+    "reason": "The browser revision 2 is absent from the authoritative revision 1 source and package, and normal republish demonstrably restores revision 1. This is an ownership and durability defect, not missing verification: the relevant witnesses are supplied, including the failed durability result. Reconcile the browser correction into the owning source and WikiArticle package, preserve identity, and verify it at the next normal publication."
+  },
+  "w6": {
+    "work_required": "repair",
+    "verification_status": "pending",
+    "findings": ["missing-article", "runtime-unavailable"],
+    "actions": ["create-context-article", "package-first", "fix-help-mapping", "continue-source-work", "record-runtime-gates", "witness-reader"],
+    "reason": "The contextual article is missing, establishing required repair independently of unavailable browser evidence. Create it through the existing WikiArticle builder with the contextual Article ID ZZ_20_10_00 and required form linkage, and review the generated package. Continue source-supported instructions and package work. Installed publication, persistent identity, actual form Help, inner render, intended-reader access and normal republish durability remain pending. Read-only filtering and navigation require observed runtime results, not data persistence evidence."
+  },
+  "w7": {
+    "work_required": "repair",
+    "verification_status": "pending",
+    "findings": ["stale-content", "bad-link", "stale-summary", "runtime-unavailable"],
+    "actions": ["preserve-native-help", "refresh-content", "verify-href", "refresh-summary", "continue-source-work", "record-runtime-gates", "witness-reader"],
+    "reason": "Working vendor Form Reference Help is appropriate for the native extension and must be preserved. The custom overview's unaccepted-candidate language contradicts the accepted implementation, its rendered href differs from the expected target, and its generated plain text is stale. Refresh affected sections in the package-owned source and generated summary, preserve human prose and identity, and inspect the corrected actual href. Current intended-reader access is unavailable; the older allowed republish witness cannot close that current check. Continue source work and retain the reader and changed-content deployment witnesses as open gates."
+  },
+  "w8": {
+    "work_required": "none",
+    "verification_status": "complete",
+    "findings": [],
+    "actions": ["no-change"],
+    "reason": "Revision 3 agrees across source, package and installation; actual form Help, render, href and intended-reader access pass. The normal republish preserves the revision, stable identity, Help and reader access. Unchanged regeneration yields no diff and preserves human content. Search is neither promised nor affected, so no indexing or additional publication is required."
+  },
+  "w9": {
+    "work_required": "none",
+    "verification_status": "complete",
+    "findings": [],
+    "actions": ["no-change"],
+    "reason": "This standalone editor-owned article has a stable supplied identity, published updated content, inspected render and links, intended-reader access and a working requested Wiki menu route. These are all applicable witnesses. Contextual form mapping and customization package republish are outside its stated contract and add no remaining checks."
+  },
+  "w10": {
+    "work_required": "none",
+    "verification_status": "pending",
+    "findings": ["runtime-unavailable"],
+    "actions": ["witness-reader", "record-runtime-gates"],
+    "reason": "No supplied evidence establishes a content, identity, mapping, ownership or rights defect: the standalone article is published, its content and render are correct, and the requested Wiki menu route works. The unavailable intended-reader login leaves that applicable witness pending and prevents acceptance, without establishing a need to edit the article or rights. Obtain intended-reader access through the requested route when available. No form mapping or package publication witness applies."
+  }
+}

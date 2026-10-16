@@ -1,4 +1,4 @@
-# Fixed Assets: Fixed Asset Types {#_131b387c-44f3-4612-be5b-a8c489a79d2a .concept}
+# Fixed Assets: Fixed Asset Types
 
 In your company, you may have a variety of fixed assets, including the following:
 
@@ -11,7 +11,7 @@ You need to specify an asset type for each fixed asset that you create in the sy
 
 You must also specify an asset type for each fixed asset class that you create in the system on the [Fixed Asset Classes](../UserGuide/FA_20_10_00.md) \(FA201000\) form, because a fixed asset class allows you to group fixed assets with a similar settings \(which includes the asset type\).
 
-## Predefined Asset Types { .section}
+## Predefined Asset Types
 
 The most common asset types have been predefined in the system, and you can view or edit them on the [Fixed Asset Types](../UserGuide/FA_20_10_10.md) \(FA201010\) form. The predefined asset types include the following: *BUILDING*, *COMPUTERS*, *COPYRIGHTS*, *EQUIPMENT*, *FURTINURE*, *GOODWILL*, *LAND*, *MACHINERY*, *PATENTS*, *SOFTWARE*, and *VEHICLE*. You can delete an existing asset type if you will not need it.
 
@@ -19,7 +19,7 @@ The most common asset types have been predefined in the system, and you can view
 
 If the list of default asset types does not include a particular asset type that you need, you can create a new asset type manually.
 
-## New Asset Types { .section}
+## New Asset Types
 
 You use the [Fixed Asset Types](../UserGuide/FA_20_10_10.md) \(FA201010\) form to add a new asset type.
 

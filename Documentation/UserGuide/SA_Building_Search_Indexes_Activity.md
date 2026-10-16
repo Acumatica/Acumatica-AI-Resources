@@ -1,22 +1,22 @@
-# Search Indexes: To Rebuild Search Indexes {#_42befe22-4108-41ac-b485-f63aa771da2b .task}
+# Search Indexes: To Rebuild Search Indexes
 
 The following activity will walk you through the process of rebuilding search indexes.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the users of the system have started complaining that the system does not return any search results when users search for a customer profile. Acting as the system administrator, you need to investigate the issue, and the first step you plan to take is rebuilding the search index for customer profiles.
 
-## Process Overview { .section}
+## Process Overview
 
 You will use the [Rebuild Full-Text Entity Index](SM_20_95_00.md) \(SM209500\) form to rebuild the search index for customer profiles.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website and sign in to a company with the *U100* dataset preloaded as the system administrator by using the *gibbs* username and the *123* password.
 
-## Step: Rebuilding a Search Index { .section}
+## Step: Rebuilding a Search Index
 
 To rebuild a search index, do the following:
 

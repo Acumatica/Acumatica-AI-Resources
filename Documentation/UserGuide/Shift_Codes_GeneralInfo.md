@@ -1,8 +1,8 @@
-# Shift Codes: General Information {#_268b5aa1-e419-4644-ad39-e073f32bb26a .concept}
+# Shift Codes: General Information
 
 In Acumatica ERP, you can define shift differentials to be able to compensate employees for work outside normal working hours.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,17 +10,17 @@ In this chapter, you will learn how to do the following:
 -   Create shift codes
 -   Enter work shift information in time activities and payroll documents
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create shift codes if you need to define shift differentials to compensate employees for work outside normal working hours.
 
-## Enabling Shift Differentials { .section}
+## Enabling Shift Differentials
 
 To be able to define shift differentials in Acumatica ERP, you need to enable the *Shift Differential* feature, under the *Time Management* group of features, on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
 When this feature is enabled, the [Shift Codes](EP_10_30_00.md) \(EP103000\) form becomes available in the system. Also, UI elements that allow establishing the connection between pay rates and work shifts become available on forms related to employee time activities, employee settings, and, if the *Payroll* feature is also enabled on the [Enable/Disable Features](CS_10_00_00.md) form, payroll documents.
 
-## Creating Shift Codes {#section_vv2_1y4_y4b .section}
+## Creating Shift Codes
 
 By using the [Shift Codes](EP_10_30_00.md) \(EP103000\) form, you can create a shift code, which is a set of rules that the system uses to calculate a pay increase for activities performed during a specific work shift.
 
@@ -40,7 +40,7 @@ If the *Payroll* feature is enabled on the [Enable/Disable Features](CS_10_00_00
 
 If the *Payroll* feature is disabled in the system, you can only select a shift differential type in the **Type** column and define the percentage or amount that will be added to the current labor rate.
 
-## Using Shift Codes { .section}
+## Using Shift Codes
 
 To indicate that a time activity or earning activity was performed during a specific work shift, you can use the **Shift Code** column on the following forms:
 

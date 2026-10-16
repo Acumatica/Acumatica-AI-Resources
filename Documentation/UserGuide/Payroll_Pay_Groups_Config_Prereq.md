@@ -1,12 +1,12 @@
-# Pay Groups, Payroll Calendars, and Pay Periods: Configuration Prerequisites {#_227c451b-f4e0-48bf-aabb-39d6c759f63b .concept}
+# Pay Groups, Payroll Calendars, and Pay Periods: Configuration Prerequisites
 
 Before you start configuring pay groups, payroll calendars, and pay periods, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Payroll* feature has been enabled.
 
-## Configuring the System { .section}
+## Configuring the System
 
 The following tasks have been performed in Acumatica ERP:
 

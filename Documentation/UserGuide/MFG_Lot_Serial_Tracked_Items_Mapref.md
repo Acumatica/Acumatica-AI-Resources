@@ -1,4 +1,4 @@
-# Producing Lot- or Serial-Tracked Items {#_3aa6452e-a180-4467-b70d-e76e18ead6a3 .concept}
+# Producing Lot- or Serial-Tracked Items
 
 If your organization produces items that are lot- or serial-tracked, in Acumatica ERP Manufacturing Edition, you can assign lot or serial numbers to these items either before you start producing the items or after the items have been produced and moved to stock. Additionally, if your organization needs granular traceability, you can set up the system so that it requires the lot or serial number of the produced item to be assigned to lot- or serial-tracked components \(that is, materials in the production process\) when the components are issued or when the item is moved to stock.
 

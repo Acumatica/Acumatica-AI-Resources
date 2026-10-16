@@ -1,4 +1,4 @@
-# Preparing Entities for Synchronization {#_457a601c-aa13-4428-940a-eea13de302b4 .concept}
+# Preparing Entities for Synchronization
 
 In this chapter, you will learn how to prepare entities in Acumatica ERP for synchronization—that is, how to configure additional mapping of fields to be synchronized, set up filters, and add ecommerce-related information to stock and non-stock items.
 

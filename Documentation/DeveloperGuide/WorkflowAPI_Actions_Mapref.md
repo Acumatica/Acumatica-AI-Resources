@@ -1,4 +1,4 @@
-# Implementing Workflow Actions {#_1aef5b61-9a64-41da-b759-90501045c3d3 .concept}
+# Implementing Workflow Actions
 
 In this chapter, you will learn how to define and configure workflow actions. You can implement actions, specify the categories of the associated commands on the More menu, configure conditional states, and perform field assignments.
 

@@ -1,10 +1,10 @@
-# Specific Widgets: To Add a Wiki Page Widget {#_a3e27bde-d9eb-4304-bcef-61e639ddab47 .task}
+# Specific Widgets: To Add a Wiki Page Widget
 
 You can add a wiki page to a dashboard to make it easily accessible. Having a wiki page on a dashboard is convenient for important or frequently accessed wiki pages. For more information, see [Specific Widgets: Wiki Page Widgets](RPT_Configuring_Widgets_Wiki_Page_Widgets.md).
 
 This topic describes the process of adding a wiki page widget to a dashboard.
 
-## To Add a Wiki Page to a Dashboard { .section}
+## To Add a Wiki Page to a Dashboard
 
 1.  Open the **Add Widget** dialog box as follows:
     1.  Open the dashboard where you want to add a widget.

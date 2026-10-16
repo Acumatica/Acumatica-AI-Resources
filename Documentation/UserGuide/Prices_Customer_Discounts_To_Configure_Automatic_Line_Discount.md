@@ -1,10 +1,10 @@
-# Automatic Customer Discounts: To Set Up Automatic Line Discounts {#_25f0c957-0afc-4576-90af-04a15b261358 .task}
+# Automatic Customer Discounts: To Set Up Automatic Line Discounts
 
 In this activity, you will learn how to set up automatic line discounts of different types \(discount by percent with a break point by amount and discount by amount with a break point by quantity\) and explore how these discounts are applied to AR invoices.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that starting in January 2026, the SweetLife Fruits &amp; Jams company is offering the following discounts, which will be applied to AR invoices, for the offline training courses that the company sells to its customers:
 
@@ -15,7 +15,7 @@ On January 30, 2026, GoodFood One Restaurant purchased 16 days of the home canni
 
 Acting as SweetLife's accountant, you need to configure automatic line discounts and create an invoice for GoodFood One Restaurant, noticing how the discounts are applied.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -24,7 +24,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customer Price Classes](AR_20_80_00.md) \(AR208000\) form, the *LOCAL* customer price class has been created.
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *GOODFOOD* customer has been created and assigned to the *LOCAL* customer price class.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create discount codes on the [Discount Codes](AR_20_90_00.md) \(AR209000\) form and configure line discounts by percent and by amount on the [Discounts](AR_20_95_00.md) \(AR209500\) form.
 
@@ -32,7 +32,7 @@ Then on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will cre
 
 Finally, you will deactivate the line discounts.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -40,7 +40,7 @@ To prepare the system, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026*. For simplicity, in this lesson, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu button to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Configuring the Automatic Line Discount by Percent for a Particular Customer { .section}
+## Step 1: Configuring the Automatic Line Discount by Percent for a Particular Customer
 
 To configure the automatic line discount by percent for the GoodFood One Restaurant customer and make it effective, do the following:
 
@@ -81,7 +81,7 @@ To configure the automatic line discount by percent for the GoodFood One Restaur
     On the **Discount Breakpoints** tab, notice that the system has cleared the **Pending Date** column and that the **Effective Date** column now contains *1/1/2026*.
 
 
-## Step 2: Configuring the Automatic Line Discount by Amount for a Particular Customer Price Class { .section}
+## Step 2: Configuring the Automatic Line Discount by Amount for a Particular Customer Price Class
 
 To configure the automatic line discount by amount for the *LOCAL* customer price class, do the following:
 
@@ -123,7 +123,7 @@ To configure the automatic line discount by amount for the *LOCAL* customer pric
     On the **Discount Breakpoints** tab, notice that the system has cleared the **Pending Date** column and that the **Effective Date** column now contains *1/1/2026*.
 
 
-## Step 3: Creating the AR Invoice and Exploring Discount Application { .section}
+## Step 3: Creating the AR Invoice and Exploring Discount Application
 
 To create the AR invoice to GoodFood One Restaurant and explore how the automatic line discounts are applied, do the following:
 
@@ -151,7 +151,6 @@ To create the AR invoice to GoodFood One Restaurant and explore how the automati
     -   **Unit Price**: `45`
     The **Discount Amount** column contains the $100 discount that you configured in Step 2. The discount has been applied automatically to this line, because the quantity exceeds 10 and the customer belongs to the *LOCAL* price class. Since this line meets the criteria for more than one discount, the system has applied the best available discount, as shown in the following screenshot.
 
-    ![](Images/activity_Prices_To_Configure_Automatic_Line_Discount.png "Automatic discount applied to the line")
 
 5.  On the form toolbar, click **Remove Hold**, and then click **Release** to release the invoice.
 6.  On the **Financial** tab, click the link in the **Batch Nbr.** box to review the GL batch, which the system opens on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
@@ -159,7 +158,7 @@ To create the AR invoice to GoodFood One Restaurant and explore how the automati
     The *11000 - Accounts Receivable* account is debited in the amount of $653.75, and the *40000 - Sales Revenue* account is credited in the same amount in total \($213.75 + $440\).
 
 
-## Step 4: Making the Created Discounts Inactive { .section}
+## Step 4: Making the Created Discounts Inactive
 
 1.  Open the [Discounts](AR_20_95_00.md) \(AR209500\) form.
 2.  In the Summary area, specify the following settings:

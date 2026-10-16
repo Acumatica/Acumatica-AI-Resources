@@ -1,4 +1,4 @@
-# To Configure Your Vertex Account {#_e4b4bb92-0dcb-402b-8519-9249d8ff60bd .task}
+# To Configure Your Vertex Account
 
 At this stage of integration configuration, you have to use the documentation provided by Vertex. We only briefly describe the general steps:
 

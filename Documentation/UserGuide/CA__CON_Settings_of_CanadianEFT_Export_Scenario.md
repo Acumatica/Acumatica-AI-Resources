@@ -1,11 +1,11 @@
-# Settings of the Canadian EFT Export Scenario {#_5a87a4d5-8739-4b52-812a-3ba8b779d3cb .concept}
+# Settings of the Canadian EFT Export Scenario
 
 In addition to the Canadian EFT plug-in, you can use the Canadian EFT export scenario to export batch payments to a CPA-005 file. On the [Payment Methods](CA_20_40_00.md) \(CA204000\) form, when setting up a payment method for Canadian EFT, you select the following options on the **Settings for Use in AP** tab:
 
 -   **Export Method**: *Export Scenario*
 -   **Export Scenario**: *Export AP Payment to Payments \(Canadian Localization\)* \(inserted by default\)
 
-## Settings of the Canadian EFT Export Scenario { .section}
+## Settings of the Canadian EFT Export Scenario
 
 When you select the *Export AP Payment to Payments \(Canadian Localization\)* export scenario, the system fills in the **Payment Method Details** table on the **Settings for Use in AP** tab with the following settings.
 

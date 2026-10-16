@@ -1,10 +1,12 @@
-# Project Budget Forecasts: General Information {#_9516601a-8bb1-4cce-ccb7-9b136be2b013 .concept}
+# Project Budget Forecasts: General Information
 
 You prepare a budget forecast for a long-term project if you need to break down the structure of the project budget by financial period. This gives you the ability to compare and analyze monthly budgets versus actual revenue and expenditures.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
+
+In this lesson, you will learn how to do the following:
 
 -   Create a budget forecast for a project
 -   Add financial periods to the budget forecast
@@ -12,11 +14,11 @@ In this chapter, you will learn how to do the following:
 -   Update the project budget based on the forecast
 -   Update the financial periods in the forecast based on the updated actual values
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create a budget forecast for a project if you need to break down the budget structure by financial periods to be able to control the budget performance by periods.
 
-## Creation of the Project Budget Forecast {#section_fdf_x42_p2b .section}
+## Creation of the Project Budget Forecast
 
 Each project can have multiple revisions of the budget forecast. For a new project budget forecast, in the Summary area of the [Project Budget Forecast](../Shared/../UserGuide/PM_20_96_00.md) \(PM209600\) form, you select the project and enter an alphanumeric revision identifier of the budget forecast, which must be unique within the project. When you enter the revision, the system automatically fills in the table with the revenue and cost budget lines of the selected project.
 
@@ -35,7 +37,7 @@ For each project budget line with added period lines, the system calculates the 
 -   **Total**: The total of the period lines
 -   **Delta**: The difference between the value of the project budget line and the total of the period lines
 
-## Processing Project Budget Forecasts { .section}
+## Processing Project Budget Forecasts
 
 When the actual values of a project are updated, the system automatically updates the actual values of the budget forecasts of the project. The system calculates the differences between the revised budgeted values and the actual values in the **Revised Quantity - Actual Quantity** and **Revised Amount - Actual Amount** columns on the [Project Budget Forecast](../Shared/../UserGuide/PM_20_96_00.md) \(PM209600\) form, so that you can compare the performance of each budget line by period.
 

@@ -1,4 +1,4 @@
-# To Force the Platform to Execute Database Scripts {#_45eb17e9-2f74-4c2f-9b6e-c44838ad4aeb .concept}
+# To Force the Platform to Execute Database Scripts
 
 You can discover that the database scripts that are included in a customization project have not been executed by the Acumatica Customization Platform when you publish the project. This issue arises when you have first published the project and then changed the scripts.
 

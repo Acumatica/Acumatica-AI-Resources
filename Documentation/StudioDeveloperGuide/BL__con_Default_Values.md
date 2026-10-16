@@ -1,16 +1,36 @@
-# Default Values {#_59a784a5-7663-4031-ab15-594c2ec1c027 .concept}
+# Default Values
 
 You can set the default values to data access class \(DAC\) fields by using the attributes listed in the following table.
 
-|Attribute|Description|
-|---------|-----------|
-|[PXDefault](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=1853593a-65f0-40e1-b685-14749a35128d)|This attribute sets the default value and validates the field value when the value is saved to the database. The following attributes are derived from the PXDefault attribute:-   [PXUnboundDefault](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=177a4fd7-cc02-ce1d-84c2-eb4b6b093115) behaves in the same way as PXDefault does, but the default value is assigned to the field when a data record is retrieved from the database.
+<table id="_0258e573-f21e-4384-8f0e-95bed4551527"><thead><tr><th>
+
+Attribute
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+[PXDefault](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=1853593a-65f0-40e1-b685-14749a35128d)
+
+</td><td>
+
+This attribute sets the default value and validates the field value when the value is saved to the database. The following attributes are derived from the PXDefault attribute:-   [PXUnboundDefault](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=177a4fd7-cc02-ce1d-84c2-eb4b6b093115) behaves in the same way as PXDefault does, but the default value is assigned to the field when a data record is retrieved from the database.
 -   PXDefaultValidate.
 
-|
-|[PXDBDefault](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=3993bab6-0953-a4eb-fa95-16aae2184dc2)|This attribute sets the default value by using the value of some source field, and updates the value if the source field value changes in the database before the data record is saved.|
+</td></tr><tr><td>
 
-## PXDefault Attribute { .section}
+[PXDBDefault](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=3993bab6-0953-a4eb-fa95-16aae2184dc2)
+
+</td><td>
+
+This attribute sets the default value by using the value of some source field, and updates the value if the source field value changes in the database before the data record is saved.
+
+</td></tr></tbody>
+</table>
+
+## PXDefault Attribute
 
 The [PXDefault](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=1853593a-65f0-40e1-b685-14749a35128d) attribute provides the default value for a DAC field. The default value is assigned to the field when the cache raises the FieldDefaulting event. This happens when a new row is inserted in code or through the user interface.
 
@@ -22,7 +42,7 @@ The attribute can redirect the error that happened on the field to another field
 
 You can use the static methods of the attribute to change the attribute properties for a particular data record in the cache or for all data records in the cache.
 
-## Differences { .section}
+## Differences
 
 You usually set the default value to a DAC field by using the [PXDefault](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=1853593a-65f0-40e1-b685-14749a35128d) attribute. You can set a constant as the default value or provide a BQL query to obtain a value from the database or data records from the cache. The default value is assigned to the field when a data record that includes this field is inserted into the cache.
 

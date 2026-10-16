@@ -1,8 +1,8 @@
-# Acumatica ERP Integration with Gmail: Configuration of the Connected Application {#_fb45f3c3-a917-4515-8a91-0767f4c92131 .concept}
+# Acumatica ERP Integration with Gmail: Configuration of the Connected Application
 
 To ensure secure data exchange with Gmail, you need to configure a connected application in Acumatica ERP. This configuration allows the Gmail add-on to securely access your Acumatica ERP data.
 
-## Creating the Connected Application { .section}
+## Creating the Connected Application
 
 On the [Connected Applications](SM_30_30_10.md) \(SM303010\) form, you create the connected application for Gmail integration and specify the following settings:
 
@@ -13,9 +13,8 @@ On the [Connected Applications](SM_30_30_10.md) \(SM303010\) form, you create th
 
 After you save the record, the system assigns the client ID to the connected application.
 
-![](Images/INT_Gmail_Connected_Application_ClientID.png "The Client ID of the connected application")
 
-## Creating a Client Secret { .section}
+## Creating a Client Secret
 
 The client secret, together with the client ID, is used to establish a connection between Acumatica ERP and the Gmail add-on. To create a client secret, do the following on the [Connected Applications](SM_30_30_10.md) \(SM303010\) form:
 
@@ -31,16 +30,14 @@ The client secret, together with the client ID, is used to establish a connectio
 
 The system creates the client secret and adds it to the **Secrets** tab.
 
-![](Images/INT_Gmail_Connected_Application_Client_Secret.png "The created client secret")
 
-## Specifying the Redirect URL { .section}
+## Specifying the Redirect URL
 
 The redirect URL is the publicly reachable address to which the user is redirected after authentication so that Acumatica ERP can complete the connection. To specify a redirect URL, do the following on the [Connected Applications](SM_30_30_10.md) \(SM303010\) form:
 
 1.  On the **Redirect URLS** tab, add a new row.
 2.  In the **Redirect URL** column, enter the following URL as a single line: `https://script.google.com/macros/d/1VSrjL20PHfefExtq5XWyOVBEHvDymrRoXOXRemLO9OsGWzhOV5ztzZNm/usercallback`
 
-    ![](Images/INT_Gmail_Connected_Application_Redirect_URL.png "The redirect URL")
 
 3.  Click **Save**.
 

@@ -1,12 +1,12 @@
-# Service Order Types: Implementation Checklist {#_feabb9ea-c56e-4e99-8aed-f76c0ed5e220 .concept}
+# Service Order Types: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for the creation of service order types.
 
-## Prerequisites { .section}
+## Prerequisites
 
 Before you create a service order type to be used for service orders and appointments for which sales orders or SO invoices will not be generated, you should make sure the minimum configuration of service management functionality has been performed, as described in [Basic Service Management Configuration: Implementation Activity](config_ServMgmt_with_Inventory_Implem_Activity.md).
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you start to create service order types, you make sure the needed features have been enabled and entities have been configured, as summarized in the following checklist.
 
@@ -16,22 +16,40 @@ We recommend that before you start to create service order types, you make sure 
 |[Numbering Sequences](../UserGuide/CS_20_10_10.md) \(CS201010\) form|At least one numbering sequence for service orders has been created.|
 |[Credit Terms](../UserGuide/CS_20_65_00.md) \(CS206500\) form|At least one set of credit terms has been created.|
 
-## Minimum Required Settings for a Service Order Type { .section}
+## Minimum Required Settings for a Service Order Type
 
-|Form|Settings to Specify|
-|----|-------------------|
-|The Summary area of the [Service Order Types](../UserGuide/FS_20_23_00.md) \(FS202300\) form|-   The identifier of the service order type
+<table id="_71a2dfbb-313a-4d6e-9d0c-503ba3e4187c"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Settings to Specify
+
+</th></tr></thead><tbody><tr><td>
+
+The Summary area of the [Service Order Types](../UserGuide/FS_20_23_00.md) \(FS202300\) form
+
+</td><td>
+
+-   The identifier of the service order type
 -   The description of the service order type
 
-|
-|The **General** tab of the [Service Order Types](../UserGuide/FS_20_23_00.md) form|-   The **Numbering Sequence** to be used to assign service order reference numbers to service orders of the type
+</td></tr><tr><td>
+
+The **General** tab of the [Service Order Types](../UserGuide/FS_20_23_00.md) form
+
+</td><td>
+
+-   The **Numbering Sequence** to be used to assign service order reference numbers to service orders of the type
 -   The needed **Behavior** of the service order type is selected
 -   The *AR Documents* option in the **Generated Billing Documents** box, which indicates that an AR document will be generated to bill the customer for services specified in service orders and appointments of the service order type
 -   The needed option in the **Default Terms for AR and SO** box
 
-|
+</td></tr></tbody>
+</table>
 
-## Other Settings That Affect the Workflow { .section}
+## Other Settings That Affect the Workflow
 
 For a particular service order type, you can specify additional settings on the **General** tab of the [Service Order Types](../UserGuide/FS_20_23_00.md) \(FS202300\) form that will affect the processing of service orders and appointments of this type:
 

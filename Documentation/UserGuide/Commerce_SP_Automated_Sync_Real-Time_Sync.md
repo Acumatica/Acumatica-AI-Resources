@@ -1,10 +1,10 @@
-# Automated Synchronization: Real-Time Synchronization {#_3c563812-d90a-47c0-8a8c-f966e1d92795 .concept}
+# Automated Synchronization: Real-Time Synchronization
 
 With real-time synchronization, Acumatica ERP attempts to prepare data or prepare and process data as soon as a change occurs in Acumatica ERP or in the ecommerce system. Depending on the entity involved and your company's processes, real-time synchronization can involve import or export or can be bidirectional. \(For some entities, the direction of the synchronization is system-specified and cannot be changed.\)
 
 Real-time import relies on webhooks that Acumatica ERP receives from an ecommerce system, and real-time export makes use of the push notification mechanism available in Acumatica ERP. For general information about push notifications in Acumatica ERP, see [Push Notifications: General Information](../IntegrationDevelopmentGuide/IntegrationDev_PushNotifications_GeneralInfo.md).
 
-## Real-Time Mode { .section}
+## Real-Time Mode
 
 Before you turn on real-time synchronization for an entity, you specify how changes to records of the entity should be handled. To do so, in the Summary area of the [Entities](BC_20_20_00.md) \(BC202000\) form, in the **Real-Time Mode** box, you select one of the following options:
 
@@ -13,7 +13,7 @@ Before you turn on real-time synchronization for an entity, you specify how chan
 
 **Tip:** You can also specify the real-time mode for an entity on the **Entities** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form.
 
-## Turning On of Real-Time Synchronization { .section}
+## Turning On of Real-Time Synchronization
 
 To turn on real-time synchronization for an entity, on the [Entities](BC_20_20_00.md) \(BC202000\) form, you select the store and the entity and then click **Start Real-Time Sync** on the form toolbar. Real-time synchronization is turned on for the direction specified in the **Sync Direction** box of the Summary area as follows:
 
@@ -31,11 +31,11 @@ To turn off real-time synchronization for an entity, you select the store and th
 
 For detailed instructions on how to enable real-time synchronization, see [Automated Synchronization: To Turn On Real-Time Synchronization](Commerce_SP_Automated_Sync_To_Enable_Real-Time_Sync.md).
 
-## Webhook URL for Real-Time Import { .section}
+## Webhook URL for Real-Time Import
 
 If the synchronization direction is set to *Import* or *Bidirectional*, when you click **Start Real-Time Sync** on the form toolbar of the [Entities](BC_20_20_00.md) \(BC202000\) form, the system displays the **Start Real-Time Sync** dialog box. In the **Real-Time Webhook URL** box of this dialog box, you can update the URL which Acumatica ERP will use for webhook notifications from the ecommerce system, if necessary. The webhook URL must be publicly accessible and have SSL/TLS encryption. If a webhook cannot be delivered to the webhook URL, real-time import will not work. When real-time synchronization is running, the URL that is currently used to receive webhooks for the entity is displayed in the **Real-Time Webhook URL** box of the Summary area.
 
-## Limitations of Real-Time Synchronization { .section}
+## Limitations of Real-Time Synchronization
 
 The use of real-time synchronization has the following limitations:
 

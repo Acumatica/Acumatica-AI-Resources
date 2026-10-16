@@ -1,10 +1,10 @@
-# Scenario Scheduling {#_35206990-0966-4817-a7fd-230a92245f10 .concept}
+# Scenario Scheduling
 
 With Acumatica ERP, you can schedule the activation of the scenarios that have to be performed on a periodic basis. You can create a schedule for a scenario or multiple scenarios that meets your business needs. A schedule defines how many times and how often specific scenarios should be activated in the system. You can assign multiple scenarios to one schedule, or you can create a separate schedule for each scenario.
 
 The schedules can be run manually or automatically. These approaches are described in greater detail in the following sections of this topic.
 
-## Creating a Schedule { .section}
+## Creating a Schedule
 
 To schedule the activation of the recurring scenarios, you need to create a schedule and specify schedule parameters for the particular scenario or scenarios. The parameters define the periods when the scenarios assigned to the schedule should be activated.
 
@@ -21,7 +21,7 @@ As a result of this operation, you have created a schedule for the scenario or s
 
 For example, suppose that you schedule the scenario to be activated monthly on the first Tuesday of each month. If you run the schedule the first Tuesday of every month, the scenario will be activated each time. If you run this schedule every day, the scenario will be activated only on the first Tuesday of the month.
 
-## Activating Recurring Scenarios { .section}
+## Activating Recurring Scenarios
 
 If you have multiple scenarios that should be activated according to different schedules, it would be quite difficult to remember to run all these schedules on time. In that case, you can automate the process of running the scenario schedules by creating the automation schedule. According to this schedule, the system will run the scenario schedules automatically.
 

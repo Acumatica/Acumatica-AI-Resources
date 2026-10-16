@@ -1,8 +1,8 @@
-# Order Synchronization: Import of Payment Terms {#_d2db3de9-17ef-4e10-bc73-c8fa12f92110 .concept}
+# Order Synchronization: Import of Payment Terms
 
 Shopify provides the ability to select payment terms for orders that are due to be paid at a later date. In this topic, you will read about importing payment terms from Shopify to Acumatica ERP sales orders.
 
-## Mapping of Payment Terms { .section}
+## Mapping of Payment Terms
 
 When the connection to the Shopify store is established, the connector imports the list of Shopify payment terms into the **Payment Terms** table on the **Customers** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form.
 
@@ -14,7 +14,7 @@ To make the system assign the proper credit terms to an order imported from a Sh
     **Important:** Don't map the *Due on receipt* payment terms to any credit terms in Acumatica ERP. These terms can't be assigned to a company location in Shopify. Although this affects the synchronization only when you sync companies with your Shopify store, we don't recommend configuring this mapping.
 
 
-## Import of Payment Terms { .section}
+## Import of Payment Terms
 
 When sales orders with payment terms selected are imported from the Shopify store, the system searches for the credit terms to fill in the **Terms** box on the **Financial** tab of the [Sales Orders](SO_30_10_00.md) \(SO301000\) form for the corresponding sales order as follows:
 

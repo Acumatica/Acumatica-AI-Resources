@@ -1,8 +1,8 @@
-# Deduction and Benefit Codes: Implementation Activity {#_c1f124dc-9f1e-4f0d-b080-71662fee7917 .task}
+# Deduction and Benefit Codes: Implementation Activity
 
 In the following implementation activity, you will learn how to create and set up deduction and benefit codes.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife company needs to calculate the following deductions and benefits:
 
@@ -13,18 +13,18 @@ Suppose that the SweetLife company needs to calculate the following deductions a
 
 Acting as a system administrator, you need to create and define the needed deduction and benefit codes.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100 Payroll* snapshot, the following tasks have been performed for the purposes of this activity:
 
 -   On the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, GL accounts that you will use for deduction and benefit expenses and liabilities, including *20300* and *69600*, have been added.
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *NYBANK*, *NYLABOR*, and *NYTAXDEP* vendors have been configured.
 
-## Process Overview { .section}
+## Process Overview
 
 You create the needed deduction and benefit codes by using the [Deduction and Benefit Codes](PR_10_10_60.md) \(PR101060\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating deduction and benefit codes, you should launch the Acumatica ERP website and sign in as a system administrator by using the following credentials:
 
@@ -35,7 +35,7 @@ As a prerequisite activity, in the company to which you are signed in, be sure y
 
 As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course.
 
-## Step 1: Creating a Deduction and Benefit Code for the 401\(k\) Retirement Plan { .section}
+## Step 1: Creating a Deduction and Benefit Code for the 401\(k\) Retirement Plan
 
 To create a deduction and benefit code for the 401\(k\) retirement plan, do the following:
 
@@ -76,7 +76,7 @@ To create a deduction and benefit code for the 401\(k\) retirement plan, do the 
     -   **Benefit Liability Account**: *20300*
 9.  On the form toolbar, click **Save**.
 
-## Step 2: Creating a Deduction and Benefit Code for Workers' Compensation { .section}
+## Step 2: Creating a Deduction and Benefit Code for Workers' Compensation
 
 To create a deduction and benefit code for workers' compensation for the New York state, while you are still on the [Deduction and Benefit Codes](PR_10_10_60.md) \(PR101060\) form, do the following:
 
@@ -114,7 +114,7 @@ To create a deduction and benefit code for workers' compensation for the New Yor
     -   **Benefit Liability Account**: *20300*
 10. On the form toolbar, click **Save**.
 
-## Step 3: Creating a Deduction and Benefit Code for Overdue Child Support { .section}
+## Step 3: Creating a Deduction and Benefit Code for Overdue Child Support
 
 To create a deduction and benefit code for workers' compensation that is applicable to the New York state, while you are still on the [Deduction and Benefit Codes](PR_10_10_60.md) \(PR101060\) form, do the following:
 
@@ -140,7 +140,7 @@ To create a deduction and benefit code for workers' compensation that is applica
 4.  On the **GL Accounts** tab, in the **Deduction Liability Account** box, select *20300*.
 5.  On the form toolbar, click **Save**.
 
-## Step 4: Creating a Deduction and Benefit Code for Union Dues { .section}
+## Step 4: Creating a Deduction and Benefit Code for Union Dues
 
 To create a deduction and benefit code for union dues, while you are still on the [Deduction and Benefit Codes](PR_10_10_60.md) \(PR101060\) form, do the following:
 

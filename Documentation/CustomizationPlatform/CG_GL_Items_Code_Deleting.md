@@ -1,4 +1,4 @@
-# To Delete a Code Item From a Project {#_229d1267-36b3-47d6-9a0e-bb80d7b8dd39 .concept}
+# To Delete a Code Item From a Project
 
 To remove a *Code* item from a project, perform the following actions:
 

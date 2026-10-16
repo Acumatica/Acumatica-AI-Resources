@@ -1,8 +1,8 @@
-# Withholding Taxes: Implementation Activity {#_0bd0ca84-8654-42bd-8399-35b7571b092d .task}
+# Withholding Taxes: Implementation Activity
 
 By performing this implementation activity, you will learn how to configure a withholding tax.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Fruits &amp; Jams started purchasing services from a company located in Europe. Payments made to a foreign vendor are subject to withholding tax that has not yet been implemented in the system. Acting as an implementation consultant, you need to prepare the system entities for the creation of the new type of tax as follows:
 
@@ -12,15 +12,15 @@ Suppose that SweetLife Fruits &amp; Jams started purchasing services from a comp
 -   Create a tax category and update the settings of a tax zone for the withholding tax
 -   Create the withholding tax
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the *VAT Reporting* feature has been enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create a GL account on the [Chart of Accounts](../UserGuide/GL_20_25_00.md) \(GL202500\) form. On the [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\) form, you will update the settings of a tax agency to make it possible to create new revisions of a tax report for closed periods. On the [Reporting Settings](../UserGuide/TX_20_51_00.md) \(TX205100\) form, you will update the configuration of a tax report and on the [Reporting Groups](../UserGuide/TX_20_52_00.md) \(TX205200\) form, you will add report lines to the *Withholding* group. For the withholding tax, you will create a tax category on the [Tax Categories](../UserGuide/TX_20_55_00.md) \(TX205500\) form and update the settings of a tax zone on the [Tax Zones](../UserGuide/TX_20_60_00.md) \(TX206000\) form. Finally, on the [Taxes](../UserGuide/TX_20_50_00.md) \(TX205000\) form, you will create a withholding tax.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -29,7 +29,7 @@ To prepare the system, do the following:
 3.  As a prerequisite activity, in the company to which you are signed in, be sure you have configured the *VATTAX* tax agency as described in [Tax Agency: To Set Up a Tax Agency for VAT](TaxAgency_VAT_Implem_Activity.md).
 4.  As a prerequisite activity, in the company to which you are signed in, be sure you have configured a tax report as described in [Tax Report Configuration: To Create a Tax Report for VAT](TaxReport_VAT_Implem_Activity.md).
 
-## Step 1: Creating a GL Account { .section}
+## Step 1: Creating a GL Account
 
 To create a GL account for withholding taxes, do the following:
 
@@ -45,7 +45,7 @@ To create a GL account for withholding taxes, do the following:
 
 3.  On the form toolbar, click **Save**.
 
-## Step 2: Updating the Tax Agency Settings { .section}
+## Step 2: Updating the Tax Agency Settings
 
 To update the tax agency settings, do the following:
 
@@ -57,7 +57,7 @@ To update the tax agency settings, do the following:
 
 4.  On the form toolbar, click **Save**.
 
-## Step 3: Updating the Configuration of the Tax Report { .section}
+## Step 3: Updating the Configuration of the Tax Report
 
 To update the configuration of the tax report, do the following:
 
@@ -76,7 +76,7 @@ To update the configuration of the tax report, do the following:
     -   **Group Type**: *Output*
 6.  On the form toolbar, click **Save**.
 
-## Step 4: Specifying the Report Lines for the Withholding Group { .section}
+## Step 4: Specifying the Report Lines for the Withholding Group
 
 To specify the report lines for the withholding group, do the following:
 
@@ -87,7 +87,7 @@ To specify the report lines for the withholding group, do the following:
     -   **Report Line**: *11 - Withholding Tax*
 3.  On the form toolbar, click **Save**.
 
-## Step 5: Creating a Tax Category and Updating a Tax Zone { .section}
+## Step 5: Creating a Tax Category and Updating a Tax Zone
 
 To create a tax category and update the settings of a tax zone for the withholding tax, do the following:
 
@@ -102,7 +102,7 @@ To create a tax category and update the settings of a tax zone for the withholdi
 7.  On the **Applicable Taxes** tab, remove the *VATIMPORT* tax.
 8.  On the form toolbar, click **Save**.
 
-## Step 6: Creating a Withholding Tax { .section}
+## Step 6: Creating a Withholding Tax
 
 To create a withholding tax, do the following:
 

@@ -1,10 +1,10 @@
-# Case Classes: General Information {#_043b5cef-56a7-47bc-bb34-fc9fa22b4a1d .concept}
+# Case Classes: General Information
 
 In Acumatica ERP, you group cases into classes based on specific characteristics. Using case classes may help you effectively manage your customer support processes, such as distributing cases, collecting information to help with solving customers' problems related to your company's products or services, and preparing support reports to evaluate the performance of your support team.
 
 This topic provides information about the creation and settings of case classes.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -16,7 +16,7 @@ In this chapter, you will learn how to do the following:
 -   Activate time tracking for case commitments and specify target commitment times
 -   Become familiar with attributes, which can be used for case classes
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to learn how to create case classes in scenarios that include the following:
 
@@ -24,7 +24,7 @@ You may want to learn how to create case classes in scenarios that include the f
 -   You need to give users the ability to group cases that represent requests submitted by employees of a particular customer.
 -   You need to set up the system to automatically assign new cases to the appropriate owners.
 
-## Case Classes { .section}
+## Case Classes
 
 In Acumatica ERP, a case class is a grouping entity for cases that share at least one common characteristic. Case classes help you gather different sets of additional information about the cases in each class, and they can be used for reporting purposes and for providing default values during the data entry of individual cases.
 
@@ -67,7 +67,7 @@ On the **General** tab of the [Customer Management Preferences](CR_10_10_00.md) 
 
 If your company no longer needs a particular case class, you can remove it from the system only if no existing cases have this case class specified.
 
-## Example of Case Classes and Attributes in Case Classes { .section}
+## Example of Case Classes and Attributes in Case Classes
 
 For each case class, you can define a set of attributes that give users the ability to specify additional information about cases within the class. An attribute is a characteristic or quality—such as industry, number of employees, or interest—that is important to your company but is not already tracked on the [Cases](CR_30_60_00.md) form. When a user selects a case class for a new case, the attributes of this class appear on the **Attributes** tab of the [Cases](CR_30_60_00.md) form as additional elements for which the user specifies the appropriate values; for the required attributes, the user must specify values.
 

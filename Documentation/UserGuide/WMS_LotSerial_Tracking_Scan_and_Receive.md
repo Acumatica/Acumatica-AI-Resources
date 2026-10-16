@@ -1,14 +1,13 @@
-# Automated Operations with Lot- and Serial-Tracked Items: Receiving Items {#_1c52d9a5-9c6d-4027-aa07-26e8b54ac463 .concept}
+# Automated Operations with Lot- and Serial-Tracked Items: Receiving Items
 
 If the *Lot and Serial Tracking* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form and the tracking of stock items by lot or serial number has been configured in the system, when you receive lot- or serial-tracked items by using the [Scan and Receive](IN_30_10_20.md) \(IN301020\) form or the corresponding screen in the Acumatica mobile app, the system prompts the user to enter the lot or serial number during this process.
 
 This topic describes the workflow for the automated receiving of lot- or serial-tracked items. The workflow in this topic is based on the assumption that your system has the recommended configuration described in [Automated Operations with Lot- and Serial-Tracked Items: Implementation Checklist](WMS_LotSerial_Tracking_Implem_Checklist.md).
 
-## Workflow for the Automated Receiving of Lot- and Serial-Tracked Items { .section}
+## Workflow for the Automated Receiving of Lot- and Serial-Tracked Items
 
 The automated processing of receiving lot- or serial-tracked items involves the actions shown in the following diagram.
 
-![](Images/diag_WMS_Scan_Receive_wSN_Lot.png)
 
 To receive items by using a barcode scanner or a mobile device with a scanning option, you perform the following steps:
 

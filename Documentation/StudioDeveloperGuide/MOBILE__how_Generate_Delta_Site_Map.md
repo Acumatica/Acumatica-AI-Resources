@@ -1,10 +1,10 @@
-# To Generate the Delta from Two Mobile Site Maps {#_6e4abb4c-04ca-4cfc-b123-f6a930d123e9 .task}
+# To Generate the Delta from Two Mobile Site Maps
 
-**Note:** The following information is applicable only for Acumatica Framework versions earlier than 2026 R1.
+**Note:** The following information is applicable only for Acumatica Framework versions earlier than 2026 R2.
 
 If you have developed a custom site map for the mobile application and want to redistribute it to multiple Acumatica ERP instances, you can generate a delta script file that can be applied to the default site map. You then add this delta file to the customization project, as described in this topic.
 
-## To Generate the Delta from Two Mobile Site Maps { .section}
+## To Generate the Delta from Two Mobile Site Maps
 
 1.  For an Acumatica ERP instance, customize the site map for the mobile application. \(For details, see [To Customize the Mobile Site Map for a Form](MOBILE_MobileSiteMap_Customizing.md#).\)
 

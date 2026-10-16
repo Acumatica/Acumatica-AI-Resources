@@ -1,4 +1,4 @@
-# How to Use XML Examples of This Section {#_67e92b66-bdce-43d4-b6bb-3b847c479152 .concept}
+# How to Use XML Examples of This Section
 
 In this section, each example contains the XML metadata that you can use as the mobile site map for your instance of Acumatica ERP.
 

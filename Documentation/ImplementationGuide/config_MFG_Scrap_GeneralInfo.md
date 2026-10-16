@@ -1,8 +1,8 @@
-# Configuration of Scrap, Waste, and By-Products in Production: General Information {#_b29b7509-9952-4c7d-8b70-1d2d4270148d .concept}
+# Configuration of Scrap, Waste, and By-Products in Production: General Information
 
 Acumatica ERP Manufacturing Edition provides you with the ability to account for the cost of scrap, waste, or by-products in production costs. The following sections describe the configuration of item production with scrap, waste, or by-products being accounted for.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -11,7 +11,7 @@ In this chapter, you will learn how to do the following:
 -   Set up by-products to be included in production orders
 -   Create reason codes for scrap
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure the production process to track scrap, waste, or by-products in the following cases:
 
@@ -19,7 +19,7 @@ You configure the production process to track scrap, waste, or by-products in th
 -   Scrap is an output of some production operations, and you would like shop-floor employees to enter the quantities of scrapped items when they enter the quantities of produced items.
 -   Waste is significant for some production operations, and you would like to include waste costs in production costs.
 
-## Differences Between Scrap, Waste, and By-Products { .section}
+## Differences Between Scrap, Waste, and By-Products
 
 In addition to produced items, production may include such output as scrap, waste, or by-products.
 
@@ -29,13 +29,13 @@ A produced item is considered to be *scrap* if it does not meet the item's speci
 
 A *by-product* is a secondary product that is also a production output but is minor in quantity or value in comparison to the quantity or value of the primary product. Your organization may treat by-products as waste, use them in another production process, or sell them. For more information, see [Configuration of Scrap, Waste, and By-Products in Production: By-Products](config_MFG_Scrap_ByProducts.md).
 
-## Material Waste Setup { .section}
+## Material Waste Setup
 
 If waste of particular materials is a usual output of the production of items, you may include waste costs in the costs of a production order. To do this, on the [Bill of Material](../UserGuide/AM_20_80_00.md) \(AM208000\) form for the bill of material to be used for the production order, you specify the waste percentage in the **Scrap Factor** column of the material row on the **Materials** tab for an operation that contains this material.
 
 You can also specify or change a scrap factor for a material in a particular production order in the **Scrap Factor** column of the **Materials** tab for the appropriate material row of the operation on the [Production Order Details](../UserGuide/AM_20_90_00.md) \(AM209000\) form.
 
-## Scrap Configuration Steps { .section}
+## Scrap Configuration Steps
 
 To configure scrap in production, you do the following:
 
@@ -44,7 +44,7 @@ To configure scrap in production, you do the following:
 3.  If scrapped items will be stored in a warehouse, you specify the warehouse and warehouse location to be used by default in all new production orders. For details, see [Configuration of Scrap, Waste, and By-Products in Production: Scrap Quarantine](config_MFG_Scrap_Storage.md).
 4.  You decide whether the quantity of scrapped items must be included in the quantity of completed items. For more information, see the *Completion of Production Orders with Scrapped Items* section below.
 
-## Scrap Actions { .section}
+## Scrap Actions
 
 A scrap action determines the workflow that is used for the processing of scrapped items. When you configure tracking of scrap in the system, you specify the scrap action for each work center in the **Scrap Action Default** box of the **General** tab on the [Work Centers](../UserGuide/AM_20_70_00.md) \(AM207000\) form. Then you can change this value when you add operations to a bill of material in the **Scrap Action** column of the Operations table on the [Bill of Material](../UserGuide/AM_20_80_00.md) \(AM208000\) form.
 
@@ -58,7 +58,7 @@ Depending on the way the scrapped items should be tracked, you can select any of
 
 When a production manager creates a production order on the [Production Order Maintenance](../UserGuide/AM_20_15_00.md) \(AM201500\) form, the system populates scrap actions with the values specified for the bill of material this production order is based on. The manager can then change the scrap action for the needed operations of the production order in the **Scrap Action** column of the Operations table on the [Production Order Details](../UserGuide/AM_20_90_00.md) \(AM209000\) form.
 
-## Reason Code for Scrap { .section}
+## Reason Code for Scrap
 
 You need to create a reason code if you would like the system to post scrap costs to a specific GL account—that is, when scrap is recorded for operations with a scrap action of *Write-Off* or *Quarantine*. To configure a reason code for scrap, you do the following:
 
@@ -67,7 +67,7 @@ You need to create a reason code if you would like the system to post scrap cost
 
 With the reason code set up in the system, when a user records scrap for an operation in a labor transaction on the [Labor](../UserGuide/AM_30_10_00.md) \(AM301000\) form or a move transaction on the [Move](../UserGuide/AM_30_20_00.md) \(AM302000\) form, the user will be prompted to specify the appropriate reason code along with the quantity of scrapped items if an operation has a scrap action of *Write-Off* or *Quarantine*.
 
-## Completion of Production Orders with Scrapped Items { .section}
+## Completion of Production Orders with Scrapped Items
 
 If your organization does not consider a production order to be completed until the full quantity of items to be produced is recorded for the operation, you clear the **Include Scrap in Completions** check box on the [Production Preferences](../UserGuide/AM_10_20_00.md) \(AM102000\) form. This may be needed in a make-to-order production environment where items are produced by customers' requests and where the production department must produce the requested quantity of items with a single production order linked to a sales order.
 

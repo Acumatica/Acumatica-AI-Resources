@@ -1,8 +1,8 @@
-# Applying AR Payments to Particular Lines: Generated Transactions {#_32847cfa-be2a-4e66-a813-ade4e15d7b05 .concept}
+# Applying AR Payments to Particular Lines: Generated Transactions
 
 As you apply payments to particular lines of AR documents, you create and process payments. To update customer balances, the system generates the GL transactions described in the following sections.
 
-## Transaction Generated for an AR Invoice { .section}
+## Transaction Generated for an AR Invoice
 
 When you create and release an AR invoice paid by line, the system generates the following general ledger transaction.
 
@@ -14,7 +14,7 @@ When you create and release an AR invoice paid by line, the system generates the
 
 On the **Financial** tab of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, the **Batch Nbr.** box shows the reference number of the GL batch. You can click this link to view the GL batch on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## Transaction Generated for an AR Payment { .section}
+## Transaction Generated for an AR Payment
 
 When you create and release a payment that pays a invoice partially or in full, the system generates the following general ledger transaction.
 

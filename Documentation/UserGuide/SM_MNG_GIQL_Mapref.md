@@ -1,4 +1,4 @@
-# Using Generic Inquiry Query Language \(GIQL\) {#_4faa93c9-2569-45b2-986d-91a1a6e63ef5 .concept}
+# Using Generic Inquiry Query Language \(GIQL\)
 
 This section describes the concepts of Generic Inquiry Query Language \(GIQL\) and explains how to create generic inquiries with GIQL.
 

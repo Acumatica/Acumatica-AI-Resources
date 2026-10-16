@@ -1,4 +1,4 @@
-# Integrating Acumatica ERP with Active Directory {#_4b01e5f5-ef92-43b1-99f6-465293322764 .concept}
+# Integrating Acumatica ERP with Active Directory
 
 The integration of Acumatica ERP with Microsoft Active Directory \(AD\) provides centralized management of users and access. After integration, your domain users can use their domain usernames and passwords to sign in to Acumatica ERP. You can set up integration with AD if Acumatica ERP is installed in your organization's intranet. If your Acumatica ERP instance is deployed in the external network, you must use Active Directory Federation Services to provide access to the system for your domain users. For details, see [Integration with AD FS](US__con_ADFS_Integration.md).
 

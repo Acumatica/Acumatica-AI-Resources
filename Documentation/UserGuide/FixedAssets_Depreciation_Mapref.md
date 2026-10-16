@@ -1,4 +1,4 @@
-# Depreciating Fixed Assets {#_e61aa53c-455a-42e8-bd6f-c7ac79990ed9 .concept}
+# Depreciating Fixed Assets
 
 In this chapter, you will find general information on how to depreciate fixed assets, a checklist for system implementation, an activity that describes how to calculate depreciation for fixed assets, an activity that describes how to depreciate fixed assets, an activity that describes how to depreciate a fixed asset in two books, and details about the reports that can be useful to find and view created transactions.
 

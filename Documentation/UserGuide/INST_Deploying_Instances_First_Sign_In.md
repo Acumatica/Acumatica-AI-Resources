@@ -1,8 +1,8 @@
-# Instance Deployment: Accessing an Instance for the First Time {#_f91437b2-a185-4ef0-97a0-662b9d6d44fc .concept}
+# Instance Deployment: Accessing an Instance for the First Time
 
 When you finish deploying an Acumatica ERP application instance, you need to access it initially to proceed with further configuration.
 
-## Opening a Newly Created Instance { .section}
+## Opening a Newly Created Instance
 
 Typically, the Acumatica ERP Configuration wizard completes the deployment of a new instance and returns you to the Welcome page of the wizard so that you can continue working with it. You can use the Acumatica ERP Configuration wizard to open the newly created instance as follows:
 
@@ -24,7 +24,7 @@ If you do not want to use the Acumatica ERP Configuration wizard, you can open t
 
 **Tip:** The instance name is the name that you have specified in the **Virtual Directory Name** box on the Website Configuration page during instance creation.
 
-## Accessing a New Instance { .section}
+## Accessing a New Instance
 
 Every Acumatica ERP instance comes with an active default user account \(*admin*\) that you use to sign in to the system. The password for this user account for the first sign-in is *setup*. You start working with Acumatica ERP by changing the password for this user on the Sign-In page of the application instance.
 

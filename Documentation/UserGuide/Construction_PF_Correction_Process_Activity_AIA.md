@@ -1,10 +1,10 @@
-# Pro Forma Invoice Correction: To Correct Actual Amounts in AIA Reports {#_34a195fd-3ae9-4ff8-b247-24e4b47f9d9e .task}
+# Pro Forma Invoice Correction: To Correct Actual Amounts in AIA Reports
 
 In this activity, you will learn how to make corrections in an AIA report for which the pro forma invoice has been released and closed, and the corresponding accounts receivable invoice has been released.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_rdp_wkh_npb .section}
+## Story
 
 Suppose that the ToadGreen Building Group company is building a hotel for the Equity Group Investors customer. The ToadGreen project manager has created a project to track the work progress and to control related revenues and expenses. In April and May 2026, the project accountant has prepared two pro forma invoices, each for part of the performed work; after the customer agreed to the amounts, the project accountant billed the customer.
 
@@ -17,7 +17,7 @@ The incorrect pro forma invoice was already used for generating the March AIA re
 
 Acting as the construction project manager, you need to enter and process the related documents to adjust the actual amounts in AIA reports for March and for April. You then need to regenerate these AIA reports.
 
-## Configuration Overview {#section_whn_qjh_npb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -29,18 +29,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form, a pro forma invoice dated *4/1/2026* has been created for the project and released. On the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, the accounts receivable invoice corresponding to the pro forma invoice has been created and released.
 -   On the [Pro Forma Invoices](PM_30_70_00.md) form, a pro forma invoice dated *5/1/2026* has been created for the project and released. On the [Invoices and Memos](AR_30_10_00.md) form, the accounts receivable invoice corresponding to the pro forma invoice has been created and released.
 
-## Process Overview {#section_xhn_qjh_npb .section}
+## Process Overview
 
 In this activity, on the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form, you will initiate the correcting of a pro forma invoice for the project. You will adjust the amounts and release the corrected pro forma invoice. On the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will release the accounts receivable invoice created based on the pro forma invoice and the credit memo created to reverse the previous AR invoice. Finally, you will regenerate the AIA report for the corrected pro forma invoice and for the subsequent one; you will open the regenerated AIA reports on the [AIA Report](PM_64_40_00.md) \(PM644000\) form to verify that the amounts are correct.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as a construction project manager by using the *ewatson* username and the *123* password.
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *5/29/2026*. If a different date is displayed, click the Business Date menu button, and select *5/29/2026* on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Correcting the Pro Forma Invoice {#section_zhn_qjh_npb .section}
+## Step 1: Correcting the Pro Forma Invoice
 
 To correct the pro forma invoice for the project, do the following:
 
@@ -71,7 +71,7 @@ To correct the pro forma invoice for the project, do the following:
 10. Click the **AR Ref. Nbr.** link \(**AR Invoice Info** section\) to open the accounts receivable invoice that was created when you released the corrected pro forma invoice.
 11. On the form toolbar of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, which opens, click **Remove Hold**, and then click **Release** to release the accounts receivable invoice.
 
-## Step 2: Regenerating AIA Reports {#section_ykt_dgr_xpb .section}
+## Step 2: Regenerating AIA Reports
 
 To prepare the updated AIA reports, do the following:
 
@@ -81,7 +81,6 @@ To prepare the updated AIA reports, do the following:
 
 2.  Click the first line in the table, and on the table toolbar, click **AIA Report** to again generate the AIA report for April. The system generates the AIA report and opens it on the [AIA Report](PM_64_40_00.md) \(PM644000\) form. In the Continuation Sheet of the report, make sure the last two lines show the updated amounts, as shown below.
 
-    ![](Images/activity_Construction_PF_Correction_AIA.png "Corrected amounts in AIA report")
 
 3.  Click Back in the browser tab to return to the *HOTELSM* project on the [Projects](PM_30_10_00.md) form. On the **Invoices** tab, notice that the warning is now shown only for the pro forma invoice dated 5/1/*2026*.
 4.  Click the line with this invoice in the table, and on the table toolbar, click **AIA Report** to again generate the AIA report for May. The system generates the updated AIA report and opens it on the [AIA Report](PM_64_40_00.md) \(PM644000\) form. Make sure that **Total Completed &amp; Stored to Date** amount on the Application and Certification for Payment page of the report has been updated and now equals *12,602,270.04*.

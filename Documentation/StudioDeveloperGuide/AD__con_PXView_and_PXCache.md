@@ -1,4 +1,4 @@
-# PXView and PXCache of the Data View {#_ce8ee369-bc71-4e32-8969-067b26c63c00 .concept}
+# PXView and PXCache of the Data View
 
 *Data views* are graph members that are used to retrieve and modify data records of a particular data access class \(DAC\). You use data views:
 
@@ -28,7 +28,6 @@ When a graph executes a data view, the graph creates the following objects:
 
 The PXView object uses the BQL command to retrieve data from the database and stores the retrieved data in the PXCache object. The data view stores references to the corresponding PXView object and the PXCache object of the main DAC of the data view, as shown in the following diagram.
 
-![](Images/Graph_View_BQL.png "Example of relationships between classes")
 
 PXCache&lt;DAC&gt; are objects that are created by the system to maintain data records that have not yet been saved to the database and the modifications to these data records. The system serializes the modified data records from all cache objects to the session between round trips and restores them on each new round trip.
 

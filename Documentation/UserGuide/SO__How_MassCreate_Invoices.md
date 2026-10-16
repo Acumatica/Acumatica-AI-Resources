@@ -1,8 +1,8 @@
-# To Create Invoices for Multiple Shipments {#_3f18849b-6dea-47a5-92bf-b1029befeca2 .task}
+# To Create Invoices for Multiple Shipments
 
 You can mass-create invoices for multiple shipments simultaneously on the [Process Shipments](SO_50_30_00.md) \(SO503000\) form.
 
-## To Create Invoices for Multiple Shipments { .section}
+## To Create Invoices for Multiple Shipments
 
 1.  Open the [Process Shipments](../Shared/../UserGuide/SO_50_30_00.md) \(SO503000\) form.
 2.  In the **Action** box, select *Prepare Invoice*.

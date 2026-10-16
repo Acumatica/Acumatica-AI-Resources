@@ -1,4 +1,4 @@
-# Importing Non-Card Refunds {#_aca22aa0-090a-4482-9329-2aa2982b9180 .concept}
+# Importing Non-Card Refunds
 
 In this chapter, you will learn how to configure the Acumatica ERP instance for importing non-card refunds from the BigCommerce store. You will also explore how non-card refunds are imported and applied to imported sales orders.
 

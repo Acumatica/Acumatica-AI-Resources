@@ -1,4 +1,4 @@
-# Tracking Changes to Commitments {#_88ad8c55-a4d0-4720-9a69-4aebd8e7651d .concept}
+# Tracking Changes to Commitments
 
 If you need to track changes to the project commitments and control the profitability of every change initiated by a customer, you use the functionality of change orders. In this chapter, you will learn more about how change orders are used with commitments if internal cost commitment tracking is used in the system.
 

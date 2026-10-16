@@ -1,4 +1,4 @@
-# Using Formulas {#_2bf8b3e6-dc68-46fc-a124-14f00fc7f7df .concept}
+# Using Formulas
 
 You can use formulas to perform different operations with the values in columns on the results grid of a generic inquiry you are developing or modifying. Formulas give you the ability to use advanced calculations and data transformation functions if some values in the inquiry rows are calculated or are dependent on the data in other data fields.
 

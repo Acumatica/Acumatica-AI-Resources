@@ -1,25 +1,25 @@
-# Compliance Documents: To Track Compliance Documents for a Vendor {#_a3163bc5-f0de-471a-9a2a-0e547ad13508 .task}
+# Compliance Documents: To Track Compliance Documents for a Vendor
 
 This activity will walk you through the process of working with compliance documents.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the Standard Hardware Company vendor has provided the ToadGreen company with its OSHA certificate and its general liability insurance. Acting as a construction project manager, you need to enter this information in the system.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Construction* feature has been enabled.
 -   On the [Vendors](AP_30_30_00.md#) \(AP303000\) form, the *HARDCO - Standard Hardware Company* vendor has been added.
 
-## Process Overview { .section}
+## Process Overview
 
 You will add compliance documents on the [Compliance Management](CL_40_10_00.md#) \(CL401000\) form. You will then review the documents of a particular vendor on the [Vendors](AP_30_30_00.md#) \(AP303000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
@@ -27,7 +27,7 @@ To prepare to perform the instructions of this activity, do the following:
 2.  Launch the Acumatica ERP website, and sign in as a construction project manager by using the *ewatson* username and the *123* password.
 3.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Entering Compliance Documents { .section}
+## Step 1: Entering Compliance Documents
 
 To enter the OSHA certificate and general liability insurance documents, do the following:
 
@@ -59,7 +59,7 @@ To enter the OSHA certificate and general liability insurance documents, do the 
     -   **Policy**: `865532`
 5.  Save the changes.
 
-## Step 2: Tracking the Compliance Documents { .section}
+## Step 2: Tracking the Compliance Documents
 
 To track the compliance documents for the vendor, do the following:
 

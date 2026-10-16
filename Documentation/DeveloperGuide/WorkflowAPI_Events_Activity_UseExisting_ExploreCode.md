@@ -1,4 +1,4 @@
-# Step 1: Exploring the Acumatica ERP Source Code {#_1de140fa-4479-4e44-9464-350449ec9079 .task}
+# Step 1: Exploring the Acumatica ERP Source Code
 
 To learn whether you can use the code of a predefined workflow in your customization project, you need first to explore this code. In this step, you will explore the source code of Acumatica ERP and search for the workflow event that you can use.
 

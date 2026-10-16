@@ -1,4 +1,4 @@
-# Table \(Grid\) {#_5c9ac346-1693-4805-80c8-b69be16df64f .concept}
+# Table \(Grid\)
 
 In this chapter, you will learn how to configure tables \(which are also called *grids*\) on Acumatica ERP forms. You will learn which names you need to assign to columns in tables and to buttons on the table toolbar. You will also learn how to organize a layout that includes tables.
 

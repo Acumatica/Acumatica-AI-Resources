@@ -1,4 +1,4 @@
-# Company Groups {#_5ffde0f3-5320-421c-b3aa-ebd151bf764b .concept}
+# Company Groups
 
 This chapter describes how to create a company group so that you can restrict the visibility of customers and vendors to the companies included in this group.
 

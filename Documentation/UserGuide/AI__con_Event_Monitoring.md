@@ -1,4 +1,4 @@
-# Managing Events {#_0919ac41-0517-40bb-8426-fb8f8eac58b3 .concept}
+# Managing Events
 
 The event functionality is suitable for monitoring and managing events to be held by your company employees, customers, or vendors. Users can create these events—which can include meetings, seminars, trade shows, and conference calls—in the system. Acumatica ERP gives users the ability to send personalized emails to all participants based on notification templates that can be defined for inviting potential attendees to an event, rescheduling an event, and canceling an event.
 

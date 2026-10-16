@@ -1,16 +1,16 @@
-# Service Orders with Items to Be Purchased: Process Activity {#_22bbe775-8f8b-4e78-bc92-d3f4692db340 .task}
+# Service Orders with Items to Be Purchased: Process Activity
 
 This activity will walk you through the creation of a service order for which a stock item must be purchased from a vendor. You will also learn how to process the purchase order and service order \(up to but not including the creation of appointments\).
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Service and Equipment Sales Center has announced that it will begin selling a new juicer, *JUICER05*. The FourStar Coffee &amp; Sweets Shop customer would like to order this juicer along with training services.
 
 Because this juicer is not yet in stock, the SweetLife Service and Equipment Sales Center needs to first purchase the juicer from the *SQUEEZO* vendor. When the juicer is received, an appointment to perform the services can be created. Acting as the service manager \(Maia Davis\), you will create the service order, create the purchase order, and process the purchase order.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -34,11 +34,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *JUICER05* item has been defined, and the *Finished Good* type has been selected for this stock item.
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *SQUEEZO* vendor has been defined.
 
-## Process Overview { .section}
+## Process Overview
 
 To process a service order with items to be purchased, on the [Service Orders](FS_30_01_00.md#) \(FS300100\) form, you will create this service order and specify each item that has to be purchased. You will then create a purchase order and process it in the system.
 
-## System Preparation {#section_bqk_spq_ghc .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -46,7 +46,7 @@ Before you start this activity, do the following:
 2.  In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date *1/30/2026*. For simplicity, you will use this business date to create and process all documents in this activity.
 3.  After signing in, make sure that the *Service Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form.
 
-## Step 1: Creating a Service Order with an Item to Be Purchased { .section}
+## Step 1: Creating a Service Order with an Item to Be Purchased
 
 To create a service order whose items need to be purchased from a vendor, do the following:
 
@@ -73,7 +73,7 @@ To create a service order whose items need to be purchased from a vendor, do the
 
 7.  On the form toolbar, click **Save**.
 
-## Step 2: Creating a Purchase Order { .section}
+## Step 2: Creating a Purchase Order
 
 To create a purchase order, do the following:
 
@@ -87,7 +87,7 @@ To create a purchase order, do the following:
     After the processing has successfully completed, the [Purchase Orders](PO_30_10_00.md#) \(PO301000\) form opens with the purchase order you have created.
 
 
-## Step 3: Processing the Purchase Order { .section}
+## Step 3: Processing the Purchase Order
 
 To process the purchase order, do the following:
 
@@ -105,7 +105,7 @@ To process the purchase order, do the following:
     The receipt has been released, indicating that the ordered inventory item is now available in the warehouse.
 
 
-## Step 4: Reviewing the Service Order with the Purchased Item { .section}
+## Step 4: Reviewing the Service Order with the Purchased Item
 
 To review the service order, do the following:
 
@@ -113,7 +113,6 @@ To review the service order, do the following:
 
     In the list, find a service order with the item that has been purchased \(*JUICER05* in the **Inventory ID** column\). In the **PO Status** column, notice that the status of the purchase order is *Completed* \(Item 2\). This indicates that the stock item has been received at the warehouse.
 
-    ![](Images/ServMgmt_Purchased_Item.png "The purchased item")
 
 2.  In the **Order Nbr.** box, click the link to the service order you created with the purchased item.
 

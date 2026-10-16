@@ -1,4 +1,4 @@
-# Preparing Projects to Billing {#_1dc81e8a-703b-48fb-9249-182fa95502f6 .concept}
+# Preparing Projects to Billing
 
 This chapter describes how you can select the type of the project invoice to be prepared during billing for a particular project, and how you can check whether the project is pending billing.
 

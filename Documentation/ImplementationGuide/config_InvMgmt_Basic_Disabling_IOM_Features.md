@@ -1,4 +1,4 @@
-# Configuration of Order Management: Disabling of the Inventory and Order Management Features {#_f5c02ce5-b901-40a5-b430-2733470ea949 .concept}
+# Configuration of Order Management: Disabling of the Inventory and Order Management Features
 
 This topic provides the following information about certain features of the *Inventory and Order Management* group:
 
@@ -8,7 +8,7 @@ This topic provides the following information about certain features of the *Inv
 
 **Attention:** For recommendations about the possibility and consequences of disabling each feature in the *Inventory and Order Management* group, see the feature descriptions in the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) topic.
 
-## Disabling of the Inventory Feature { .section}
+## Disabling of the Inventory Feature
 
 If you disable the *Inventory* feature on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, the system automatically disables the *Shipping Carrier Integration* group of features and the following features:
 
@@ -48,13 +48,13 @@ After the *Inventory* feature has been disabled, users will no longer be able to
 -   View shipments, receipts, and reports related to these documents, such as [Shipment Details by Inventory Item](../UserGuide/SO_62_15_00.md) \(SO621500\) or [Purchase Receipt Billing Details](../UserGuide/PO_63_20_00.md) \(PO632000\), for stock items and non-stock items.
 -   View information about inventory transactions by using such forms as [Inventory Transaction Summary](../UserGuide/IN_40_60_00.md) \(IN406000\) or [Inventory Transaction History](../UserGuide/IN_40_50_00.md) \(IN405000\).
 
-## Disabling of the Multiple Units of Measure Feature { .section}
+## Disabling of the Multiple Units of Measure Feature
 
 Before disabling the *Multiple Units of Measure* feature on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, you need to make sure that you have processed all documents that contain stock items or non-stock items.
 
 After the feature has been disabled, it will be impossible to change the **Sales Unit** and **Purchase Unit** values on the [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\), [Non-Stock Items](../UserGuide/IN_20_20_00.md) \(IN202000\), and [Item Classes](../UserGuide/IN_20_10_00.md) \(IN201000\) forms. These UI elements will no longer be displayed, but the system will preserve these settings in the database. Thus, you should change the **Sales Unit** and **Purchase Unit** values to the **Base Unit** value before you disable the feature. This will prevent incorrect default values in documents after the feature has been disabled.
 
-## Disabling of the Lot and Serial Tracking Feature { .section}
+## Disabling of the Lot and Serial Tracking Feature
 
 Before disabling the *Lot and Serial Tracking* feature on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, you need to do the following for each lot- or serial-tracked item:
 
@@ -66,11 +66,11 @@ Before disabling the *Lot and Serial Tracking* feature on the [Enable/Disable Fe
 
 After disabling the feature, you need to receive items back to the appropriate warehouses and locations with the proper costs by processing a receipt on the [Receipts](../UserGuide/IN_30_10_00.md) \(IN301000\) form.
 
-## Disabling of the Blanket and Standard Purchase Orders Feature { .section}
+## Disabling of the Blanket and Standard Purchase Orders Feature
 
 Before disabling the *Blanket and Standard Purchase Orders* feature on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, you should complete, cancel, or remove all purchase orders of the *Blanket* and *Standard* types and all child orders of the *Normal* type. After this feature has been disabled, the created orders of the *Blanket* and *Standard* types will remain visible, but users will not be able to create child orders for them.
 
-## Disabling of the Drop Shipments Feature { .section}
+## Disabling of the Drop Shipments Feature
 
 Before disabling the *Drop Shipments* feature on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, you need to do the following:
 
@@ -80,7 +80,7 @@ Before disabling the *Drop Shipments* feature on the [Enable/Disable Features](.
 
 After the feature has been disabled, purchase orders of the *Drop-Ship* type and the related sales orders will still be visible in the system, but the respective links will no longer be displayed in the documents. Users will not be able to process these drop-ship orders or any related returns.
 
-## Disabling of the Multiple Warehouses Feature { .section}
+## Disabling of the Multiple Warehouses Feature
 
 If you disable both the *Multiple Warehouses* and the *Multiple Warehouse Locations* features on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, the *Inventory Replenishment* feature will be automatically disabled.
 
@@ -113,7 +113,7 @@ After the feature has been disabled, you will need to receive the items that hav
 -   Service order types in the **Use Sales Account From** box on the [Service Order Types](../UserGuide/FS_20_23_00.md) \(FS202300\) form if the *Service Management* feature is enabled
 -   Production order types in the **Scrap Source** box of the [Production Order Types](../UserGuide/AM_20_11_00.md) form if the *Manufacturing* feature is enabled
 
-## Disabling of the Multiple Warehouse Locations Feature { .section}
+## Disabling of the Multiple Warehouse Locations Feature
 
 If you disable both the *Multiple Warehouses* and the *Multiple Warehouse Locations* features on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, the *Inventory Replenishment* feature will be automatically disabled.
 
@@ -131,7 +131,7 @@ Before disabling the *Multiple Warehouse Locations* feature, you need to complet
 
 After the feature has been disabled, you will need to receive the items that have been issued from warehouse locations back to inventory by processing a receipt on the [Receipts](../UserGuide/IN_30_10_00.md) \(IN301000\) form in order to record the actual inventory quantities and costs.
 
-## Disabling of the Kit Assembly Feature { .section}
+## Disabling of the Kit Assembly Feature
 
 Before disabling the *Kit Assembly* feature on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, you need to do the following:
 
@@ -140,11 +140,11 @@ Before disabling the *Kit Assembly* feature on the [Enable/Disable Features](../
 
 After this feature has been disabled, the non-stock and stock kits will remain in the system as records on the [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\) or [Non-Stock Items](../UserGuide/IN_20_20_00.md) \(IN202000\) form. Users will not be able to automatically disassemble stock kits or view the components of non-stock kits in shipments.
 
-## Disabling of the Matrix Items Feature { .section}
+## Disabling of the Matrix Items Feature
 
 Before disabling the *Matrix Items* feature on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, you need to completely process the documents containing matrix items. After this feature has been disabled, the created items will remain in the system as records on the [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\) or [Non-Stock Items](../UserGuide/IN_20_20_00.md) \(IN202000\) form, but some of their settings—such as item class, type, and valuation method—will not be available for editing.
 
-## Disabling of the Sales Order to Purchase Order Link Feature { .section}
+## Disabling of the Sales Order to Purchase Order Link Feature
 
 Before disabling the *Sales Order to Purchase Order Link* feature on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, you need to do the following:
 

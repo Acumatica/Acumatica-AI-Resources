@@ -1,4 +1,4 @@
-# Migrating Documents to Acumatica ERP {#_3e631d3c-e29b-4abf-a130-3a4f0d26e72e .concept}
+# Migrating Documents to Acumatica ERP
 
 If you need to move historical data to Acumatica ERP, you can enter fully or partially settled documents into the system. To load documents without affecting the general ledger, you have to first activate migration mode. You can activate this mode in the accounts receivable subledger or in the accounts payable subledger \(or in both subledgers\), depending on the documents to be migrated. Also, you can activate this mode for projects to import the initial project balances.
 

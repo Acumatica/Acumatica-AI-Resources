@@ -1,16 +1,16 @@
-# Items with Lot and Serial Numbers: Implementation Activity {#_fb0cdd09-286f-49b4-a22c-663fcf053335 .task}
+# Items with Lot and Serial Numbers: Implementation Activity
 
 In the following implementation activity, you will learn how to create a serial class, review the settings of existing lot and serial classes, and specify lot and serial classes for item classes and stock items.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that managers in the Service and Equipment Sales Center branch of the SweetLife Fruits &amp; Jams company have decided to track the parts for juicers that the branch purchases from the Squeezo Inc. vendor by the parts’ serial numbers in the warehouse used for equipment storage. These parts are used internally by service engineers for repairing juicers.
 
 Further suppose that you are an implementation manager. To prepare the system for the tracking of these parts by serial numbers, you will create a serial class for tracking juicer parts, specify this class in the appropriate item class and stock item settings, and test the processing of documents with these stock items. You will also review the settings of a predefined serial class for tracking juicers, a lot class for fruits, and a lot class for jams.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -25,7 +25,7 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
     -   *LTFRT* \(a class for tracking fruits by lot number and expiration date\)
     -   *LTJAM* \(a class for tracking jams by lot number on sale\)
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -39,11 +39,11 @@ In this activity, you will do the following:
 8.  On the [Lot/Serial Classes](IN_20_70_00.md) form, review the settings of the *LTFRT* lot class.
 9.  On the [Lot/Serial Classes](IN_20_70_00.md) form, review the settings of the *LTJAM* lot class.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start working with lot and serial classes, you should launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as implementation manager Kimberly Gibbs by using the *gibbs* username and the *123* password.
 
-## Step 1: Enabling the Feature { .section}
+## Step 1: Enabling the Feature
 
 To be able to configure tracking of items by lot or serial classes, you enable the *Lot and Serial Tracking* feature as follows:
 
@@ -52,7 +52,7 @@ To be able to configure tracking of items by lot or serial classes, you enable t
 3.  In the *Inventory and Order Management* group of features, select **Lot and Serial Tracking**.
 4.  On the form toolbar, click **Enable**.
 
-## Step 2: Creating a Serial Class { .section}
+## Step 2: Creating a Serial Class
 
 The serial class you are creating will be used for tracking juicer parts by serial numbers from the time they are received in the warehouse. The serial numbers are provided by the vendors that supply the parts; therefore, purchasing managers will enter the numbers manually in the inventory receipt. These parts do not have an expiration date, and staff members who will use and issue the parts must select the exact part manually in documents. To create this serial class, you do the following:
 
@@ -71,7 +71,7 @@ The serial class you are creating will be used for tracking juicer parts by seri
 
 You have created the serial class for tracking juicer parts. Now you can specify this serial class in the settings of the item class that provides default settings for stock items that are juicer parts.
 
-## Step 3: Specifying the Serial Class in the Item Class Settings { .section}
+## Step 3: Specifying the Serial Class in the Item Class Settings
 
 To specify the created serial class in the settings of the *OTHERPARTS* item class so that all new juicer part items have this setting by default, perform the following instructions:
 
@@ -82,7 +82,7 @@ To specify the created serial class in the settings of the *OTHERPARTS* item cla
 
 You have specified the new serial class in the settings of the item class.
 
-## Step 4: Specifying the Serial Class in the Item Settings { .section}
+## Step 4: Specifying the Serial Class in the Item Settings
 
 Although specifying the *SRNPARTS* serial class in the item class settings will cause the system to insert the serial class for all new juicer part items of the *OTHERPARTS* item class, the serial class must be specified in the settings of all existing items that must be tracked according to the settings of this serial class. For simplicity, you will specify the serial class in the settings of only the *EJECTOR05* item; all other items can be modified similarly. Do the following:
 
@@ -90,7 +90,7 @@ Although specifying the *SRNPARTS* serial class in the item class settings will 
 2.  In the **Lot/Serial Class** box on the **General** tab, select *SRNPARTS*.
 3.  On the form toolbar, click **Save**.
 
-## Step 5: Creating an Inventory Receipt with the Serialized Item { .section}
+## Step 5: Creating an Inventory Receipt with the Serialized Item
 
 Now you need to make sure that users are able to add an item of the serial class you defined to an inventory receipt and that serial numbers can be added for each unit of the item. To create an inventory receipt with the serialized item, do the following:
 
@@ -116,7 +116,7 @@ Now you need to make sure that users are able to add an item of the serial class
 
 You have tested the creation of an inventory receipt that includes the item with a serial number. In the next step, you will test the creation of an inventory issue that includes this item.
 
-## Step 6: Creating an Inventory Issue with the Serialized Item { .section}
+## Step 6: Creating an Inventory Issue with the Serialized Item
 
 To test whether users will be able to manually add to an inventory issue an item of the *SRNPARTS* serial class and that you can select its serial number from the list of previously entered numbers, do the following:
 
@@ -135,7 +135,7 @@ You have successfully issued the ejector with the *EJ0000330* serial number.
 
 **Tip:** In a production system, an inventory issue is created automatically when a user releases a shipment.
 
-## Step 7: Reviewing the Settings of the SRNJCR Serial Class { .section}
+## Step 7: Reviewing the Settings of the SRNJCR Serial Class
 
 The *SRNJCR* serial class has been predefined in the dataset to be used for juicers. Serial numbers for juicers are entered in a shipment because you do not need to track juicers by serial numbers in your warehouse. However, you need to record that a juicer with the particular serial number has been issued from the warehouse. The serial numbers for juicers are provided by the vendor, so sales managers enter the numbers manually.
 
@@ -164,7 +164,7 @@ To review the settings of the serial class, do the following:
         Users enter serial numbers manually for units of each item of the class.
 
 
-## Step 8: Reviewing the Settings of the LTFRT Lot Class { .section}
+## Step 8: Reviewing the Settings of the LTFRT Lot Class
 
 The *LTFRT* lot class has been predefined in the dataset to be used for fruits. The fruit vendors provide fruits in lots, each of which has an expiration date. When selling fruits, the sales managers of the SweetLife company want to ship fruits with the earliest expiration date first. Also, within the warehouse, warehouse managers need to track the movements and locations of fruits by lots.
 
@@ -197,7 +197,7 @@ To review the settings of the lot class, do the following:
         Users will enter lot numbers manually for units of items of the class.
 
 
-## Step 9: Reviewing the Settings of the LTJAM Lot Class { .section}
+## Step 9: Reviewing the Settings of the LTJAM Lot Class
 
 The *LTJAM* lot class has been predefined in the *U100* dataset to be used for jams produced by the SweetLife company. These jams are sold in lots. The lot number of an item of the class is generated automatically when a sales manager creates shipments.
 

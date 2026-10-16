@@ -1,8 +1,8 @@
-# Case Management: Tracking of Case Commitment Times {#_305e22a0-27d8-4709-9469-e243d34f9f9e .concept}
+# Case Management: Tracking of Case Commitment Times
 
 In Acumatica ERP, an administrative user can activate the tracking of the company's case commitments for a particular case class on the **Commitments** tab of the [Case Classes](CR_20_60_00.md) \(CR206000\) form. The following commitment times can be tracked: the initial time to respond to the customer request, the overall response time to any customer request about the case, and the time to resolve the case. For details, see [Case Classes: Case Commitments](CRM_Case_Classes_Case_Severity_Response_Times.md).
 
-## Time Tracking for Case Commitments { .section}
+## Time Tracking for Case Commitments
 
 If all case commitments have been activated on the [Case Classes](CR_20_60_00.md) form, time tracking proceeds as follows for a case of the class:
 
@@ -14,9 +14,8 @@ If all case commitments have been activated on the [Case Classes](CR_20_60_00.md
 
 The process of time tracking during the case workflow is shown in the following diagram.
 
-![](Images/diag_CRM_Case_Commitments_Workflow_Overview_of_Case_Commitments.png)
 
-## Elements Showing the Commitments of a Case { .section}
+## Elements Showing the Commitments of a Case
 
 To monitor the fulfillment of the case commitments, you can use the following boxes in the Summary area and on the **CRM Info** tab of the [Cases](CR_30_60_00.md) \(CR306000\) form:
 
@@ -48,7 +47,7 @@ At the moment when the extension for the resolution time becomes applicable, the
 
 For details about how an extension can be applied to the commitment times, see [Case Management: Time Extensions for Case Commitments](CRM_Support_Managing_Cases_Case_Commitments_Grace_Period.md).
 
-## Case Commitment Inquiry Forms { .section}
+## Case Commitment Inquiry Forms
 
 You can use the following inquiry forms to analyze the fulfillment of case commitments by your company's service team:
 

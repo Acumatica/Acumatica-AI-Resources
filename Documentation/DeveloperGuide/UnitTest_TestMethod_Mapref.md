@@ -1,4 +1,4 @@
-# Creating a Test Method {#_6bac5f61-ca17-4fc6-ad6e-45a23a987ab6 .concept}
+# Creating a Test Method
 
 While the purpose of a test project is to contain tests for a customization library, the purpose of a test class is to contain tests for a graph or graph extension, the purpose of a test method is to contain tests of some functionality implemented in the graph or graph extension being tested.
 

@@ -1,4 +1,4 @@
-# Adjusting Transactions: Implementation Checklist {#_244488e2-a6c2-4dbd-840f-73dc93aef9c8 .concept}
+# Adjusting Transactions: Implementation Checklist
 
 Before users begin processing auto-reversing GL batches, you must make sure that the system has been configured properly and that all required entities have been created, as described in the following table.
 
@@ -9,7 +9,7 @@ Before users begin processing auto-reversing GL batches, you must make sure that
 |[Chart of Accounts](GL_20_25_00.md) \(GL202500\) form|Check whether the necessary accounts have been created.| |
 |[Company Financial Calendar](GL_20_11_00.md) \(GL201100\) form|Be sure that the financial periods for which auto-reversing transactions will be created and the next periods have a status of *Open*.|You can generate the necessary periods on the [Master Financial Calendar](GL_20_10_00.md) \(GL201000\) form.|
 
-## Settings That Can Affect the Processing Workflow {#section_phh_mjv_vxb .section}
+## Settings That Can Affect the Processing Workflow
 
 The following settings on the [General Ledger Preferences](GL_10_20_00.md) \(GL102000\) form can affect the processing workflow:
 

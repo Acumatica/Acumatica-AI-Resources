@@ -1,4 +1,4 @@
-# Commands for Setting the Values of Elements {#_2821c688-6e5b-4636-93c8-6c78545701f7 .concept}
+# Commands for Setting the Values of Elements
 
 As you specify the sequence of commands in an array of Command objects, when you need to specify the value of an element on a form, you should use Value commands.
 

@@ -1,4 +1,4 @@
-# Processing Intercompany Purchases and Returns {#_d18d015a-385b-494b-9b10-fbe6b794b402 .concept}
+# Processing Intercompany Purchases and Returns
 
 This chapter provides information about intercompany purchases and returns.
 

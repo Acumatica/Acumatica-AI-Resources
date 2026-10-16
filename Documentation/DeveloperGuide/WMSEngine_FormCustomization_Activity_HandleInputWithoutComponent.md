@@ -1,16 +1,16 @@
-# Customization of a Barcode-Driven Form: To Handle Input Without Component Usage {#_a11ebecd-9f4c-43d5-88dc-71c38da69a5a .task}
+# Customization of a Barcode-Driven Form: To Handle Input Without Component Usage
 
 This activity will walk you through the implementation of input handling without component usage.
 
-## Story { .section}
+## Story
 
 Suppose that you want to add the ability to append text to the note of the document that the user is currently working with on a barcode-driven form. Also, you want to make this ability generic for any barcode-driven form.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create a generic extension for the barcode-driven engine and implement custom logic in it.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the step of this activity, do the following:
 
@@ -20,7 +20,7 @@ Before you begin performing the step of this activity, do the following:
     -   *Warehouse Management*
     -   *Fulfillment*
 
-## Step: Handling Input Without Component Usage { .section}
+## Step: Handling Input Without Component Usage
 
 To modify the barcode-driven engine to be able to append a text to a note, do the following:
 

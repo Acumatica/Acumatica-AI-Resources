@@ -1,8 +1,8 @@
-# Dependency Injection: Use of Dependency Injection {#_2aef750e-25eb-4dc2-90c1-c0d28fb59bc4 .concept}
+# Dependency Injection: Use of Dependency Injection
 
 To use dependency injection in a class, you define a property of this class and assign the InjectDependency attribute to this property.
 
-## Applicable Classes { .section}
+## Applicable Classes
 
 You can use dependency injection in:
 
@@ -13,17 +13,17 @@ You can use dependency injection in:
 -   A PXSelectBase-derived class
 -   a `PX.Tests.Unit.TestBase`-derived class
 
-**Attention:** The Acumatica Framework does not support dependency injection in constructors. The system injects dependencies after the constructor is executed.
+**Attention:** The Acumatica Framework does not support dependency injection in constructors. The system injects dependencies after the constructor is executed. This limitation does not apply to credit card processing plug-ins that are resolved by the credit card processing DI framework; these plug-ins can receive dependencies through constructors.
 
-## Use of Dependency Injection During Graph Initialization { .section}
+## Use of Dependency Injection During Graph Initialization
 
 The properties to which the InjectDependency attribute is assigned cannot be used in graph constructors. If you need to use these properties during the initialization of a graph, you need to implement the IGraphWithInitialization interface in the graph. You can use the properties in the implementation of the IGraphWithInitialization.Initialize\(\) method.
 
-## Examples { .section}
+## Examples
 
 The following code shows definitions of the property with the InjectDependency attribute in various classes.
 
-```language-csharp
+```csharp
 using System;
 using PX.Data;
 

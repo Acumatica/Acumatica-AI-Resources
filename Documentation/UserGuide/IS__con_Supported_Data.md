@@ -1,6 +1,6 @@
-# Supported Data {#_0bebe83e-2bfb-460e-95c8-903f0d36999a .concept}
+# Supported Data
 
-## Bi-Directional Synchronization in Real Time { .section}
+## Bi-Directional Synchronization in Real Time
 
 Synchronization between Acumatica ERP and Salesforce gives users the ability to create, modify, or delete the following entities in either of the systems, with the changes reflected in both systems:
 
@@ -11,13 +11,13 @@ Synchronization between Acumatica ERP and Salesforce gives users the ability to 
 -   Stock and non-stock inventory items
 -   Users
 
-## One-Way Synchronization { .section}
+## One-Way Synchronization
 
 Changes made to inventory items in Acumatica ERP can be synchronized with Salesforce, but this synchronization cannot be performed in the opposite direction.
 
 User data can be synchronized also in only one direction, from Salesforce to Acumatica ERP.
 
-## Additional Considerations { .section}
+## Additional Considerations
 
 In Salesforce, a case record cannot be saved if it has no owner specified. In Acumatica ERP, only a user that is linked to an employee can be assigned to a case as its owner. Thus, before synchronization of case records starts, user records should be synchronized between the systems and then verified for association with employees. For more information about synchronization of cases, see [Synchronization of Case Records](IS__con_Case_Sync.md).
 

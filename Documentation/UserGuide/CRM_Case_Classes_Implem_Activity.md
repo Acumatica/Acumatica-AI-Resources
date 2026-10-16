@@ -1,14 +1,14 @@
-# Case Classes: Implementation Activity {#_77e93966-02cb-49f4-823d-c7978005f34b .task}
+# Case Classes: Implementation Activity
 
 The following implementation activity will show you how to create a case class.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are an implementation consultant for the SweetLife Fruits &amp; Jams company. You need to create a new case class, *JMAINT*, for cases that represent customer requests for maintenance of juicers. You also need to define the default class to be specified for each newly created case.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -20,7 +20,7 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Labor Rates](PM_20_99_00.md) \(PM209900\) form, the labor cost rate associated with the *TECHNICIAN* non-stock item of the *Labor* type has been created.
 -   On the [Attributes](CS_20_50_00.md) \(CS205000\) form, the *MODEL* attribute, which holds the value of the model of a juicer, has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -28,7 +28,7 @@ In this activity, you will do the following:
 2.  Specify the created class as the default case class on the [Customer Management Preferences](CR_10_10_00.md) \(CR101000\) form
 3.  Create a new case with the default case class on the [Cases](CR_30_60_00.md) \(CR306000\) form
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating a case class, you should do the following:
 
@@ -38,7 +38,7 @@ Before you start creating a case class, you should do the following:
     -   **Password**: *123*
 3.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Creating a Case Class { .section}
+## Step 1: Creating a Case Class
 
 To create the *JMAINT* case class, do the following:
 
@@ -63,7 +63,7 @@ To create the *JMAINT* case class, do the following:
 
 You have created the new case class.
 
-## Step 2: Specifying the Default Case Class { .section}
+## Step 2: Specifying the Default Case Class
 
 To select the *JMAINT* case class as the default class the system automatically inserts for newly created cases, do the following:
 
@@ -73,7 +73,7 @@ To select the *JMAINT* case class as the default class the system automatically 
 
 You have specified the default case class. For each newly created case, in the Summary area of the [Cases](CR_30_60_00.md) \(CR306000\) form, the system will insert *JMAINT* into the **Case Class** box.
 
-## Step 3: Creating a New Case of the Default Case Class { .section}
+## Step 3: Creating a New Case of the Default Case Class
 
 To ensure that a new case is created with the default *JMAINT* case class inserted, do the following
 

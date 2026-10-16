@@ -1,4 +1,4 @@
-# Managing Project Files: Tag and File Access Setup {#_cf97eaef-5277-407c-9453-b8601c052757 .concept}
+# Managing Project Files: Tag and File Access Setup
 
 When multiple users work on the same project, they often need different levels of access to project files. In Acumatica ERP, you control this access by using tags.
 
@@ -6,7 +6,7 @@ With tag-based access, you assign tags to project files and define the access le
 
 **Attention:** The functionality is available in the Modern UI when the *Document Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Tag Creation { .section}
+## Tag Creation
 
 You use the [File Tags](SM_20_25_60.md) \(SM202560\) form to define tags, their descriptions, and their access rights. In an out-of-the-box system, the **Untagged** default tag appears on the **Tags** pane. This system tag is invisible to users and automatically added to each file with no other tags.
 
@@ -19,7 +19,7 @@ You create tags by performing these steps:
 
 The system creates the tag and displays it in the **Tags** pane alphabetically.
 
-## Tag and File Access Setup { .section}
+## Tag and File Access Setup
 
 You set up user roles’ access to tags and project files on the [File Tags](SM_20_25_60.md) \(SM202560\) form by performing these steps:
 

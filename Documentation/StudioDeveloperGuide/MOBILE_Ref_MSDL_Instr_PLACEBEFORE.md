@@ -1,4 +1,4 @@
-# placeBefore {#_370761bd-15d2-44ae-bb54-86cf8f051e6d .concept}
+# placeBefore
 
 In the mobile site map, moves the object that is referenced in the outer scope of this instruction immediately before the specified object. The instruction is used to order child objects within a parent object of the mobile site map. You cannot use the instruction to move an object from one parent object to another.
 

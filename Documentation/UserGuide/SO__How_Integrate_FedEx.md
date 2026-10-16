@@ -1,12 +1,12 @@
-# To Set Up Integration with FedEx REST {#_3facd1eb-c78d-4582-9d2b-18522ddb4d4d .task}
+# To Set Up Integration with FedEx REST
 
 Before you configure integration with FedEx, your organization should have an account with the carrier and a signed service agreement. The SmartPost service requires an additional service contract signed with FedEx. The settings for the plug-in are specified in accordance with the information available in the agreement.
 
-FedEx provides the ability to use their services via FedEx REST API. To configure integration between Acumatica ERP and FedEx, you use the [Carriers](CS_20_77_00.md) \(CS207700\) form. On this form, specify a name to be used for this carrier in your system, select the *PX.FedExRestCarrier.FedExRestCarrier* plug-in developed for this integration, and enter the values for the plug-in parameters. Some parameters are used for authentication with the carrier's system, while others are used for printing carrier labels or enabling recipient notifications.
+FedEx provides the ability to use their services via the FedEx REST API. To configure integration between Acumatica ERP and FedEx, you use the [Carriers](CS_20_77_00.md) \(CS207700\) form. On this form, specify a name to be used for this carrier in your system, select the *PX.FedExRestCarrier.FedExRestCarrier* plug-in developed for this integration, and enter the values for the plug-in parameters. Some parameters are used for authentication with the carrier's system, while others are used for printing carrier labels or enabling recipient notifications.
 
 **Attention:** The FedEx integration can only be used for processing of domestic shipments.
 
-## Creation of a Project in the FedEx Developer Portal { .section}
+## Creation of a Project in the FedEx Developer Portal
 
 Before you start configuring the settings of the plug-in for FedEx in Acumatica ERP, you need to create a project in the FedEx Developer Portal. The project provides the API key and client secret that are required for the configuration of the plug-in.
 
@@ -28,7 +28,7 @@ To create a project in the FedEx Developer Portal, do the following:
     The system generates an API key and client secret that you can use to set up the FedEx plug-in in Acumatica ERP.
 
 
-## To Set Up Integration with FedEx { .section}
+## To Set Up Integration with FedEx
 
 1.  Open the [Carriers](CS_20_77_00.md) \(CS207700\) form and add a new record.
 2.  In the **Carrier ID** box, type an easy-to-remember name for the carrier to be integrated.
@@ -54,7 +54,7 @@ To create a project in the FedEx Developer Portal, do the following:
     -   For the **RATE ENDPOINT** parameter, copy and paste one of the following URLs of the FedEx rate service:
         -   For production environment: *https://apis.fedex.com/rate/v1/rates/quotes*
         -   For sandbox environment: *https://apis-sandbox.fedex.com/rate/v1/rates/quotes*
-    -   For **SHIP ENDPOINT** parameter, copy and paste one of the following URLs of the FedEx ship service:
+    -   For the **SHIP ENDPOINT** parameter, copy and paste one of the following URLs of the FedEx ship service:
         -   For production environment: *https://apis.fedex.com/ship/v1/shipments*
         -   For sandbox environment: *https://apis-sandbox.fedex.com/ship/v1/shipments*
     -   For the **SHIPPER FROM** parameter, leave the default *Company Branch* value if you want the system to get the shipper information from the company branch, or select *Warehouse* to make the system get the shipper information from the warehouse.
@@ -94,7 +94,7 @@ To create a project in the FedEx Developer Portal, do the following:
         -   *SERVICE\_DEFAULT*
     -   For the**SIGN RELZ NO** parameter, enter the signature release number according to your service agreement.
     -   For the **ALCOHOL** parameter, select the check box if your company is a FedEx-approved shipper of alcohol.
-    -   For the **ALCOHOL CONTENT ON LABEL** parameter, indicate on which label the information about alcohol shipment must be printed by selecting one of the following options:
+    -   For the **ALCOHOL CONTENT ON LABEL** parameter, indicate on which label the information about the alcohol shipment must be printed by selecting one of the following options:
         -   *CONTENT\_ON\_SHIPPING\_LABEL\_ONLY*
         -   *CONTENT\_ON\_SHIPPING\_LABEL\_PREFERRED*
         -   *CONTENT\_ON\_SUPPLEMENTAL\_LABEL\_ONLY*
@@ -106,10 +106,10 @@ To create a project in the FedEx Developer Portal, do the following:
     -   Make sure the **Active** check box is selected.
     -   In the **Customer ID** column, select the customer by its ID.
     -   In the **Customer Location** column, select the customer location to receive shipments via the carrier.
-    -   In the **Billing Type** column, select the party, which is responsible for paying shipping costs
+    -   In the **Billing Type** column, select the party that is responsible for paying shipping costs
     -   In the **Carrier Billing Account** column, enter the billing account of the customer or third-party company in the system of the carrier.
     -   If you have selected *Third-Party* in the **Billing Type** column, in the **Billing Country** column, specify the country ID of the carrier's billing account.
-    -   If you have selected *Third-Party* in the **Billing Type** column, in the **Billing Country** column, specify the postal code of the carrier's billing account.
+    -   If you have selected *Third-Party* in the **Billing Type** column, in the **Billing Postal Code** column, specify the postal code of the carrier's billing account.
 11. Click **Save** on the form toolbar.
 
 **Parent topic:**[Integration with Carriers](../UserGuide/CS__con_Integration_with_Carriers.md)

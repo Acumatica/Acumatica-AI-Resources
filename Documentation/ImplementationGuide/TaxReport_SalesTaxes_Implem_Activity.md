@@ -1,8 +1,8 @@
-# Tax Report Configuration: To Create a Tax Report for Sales Taxes {#_ea46ee38-88f5-4353-a73b-53846a26c40e .task}
+# Tax Report Configuration: To Create a Tax Report for Sales Taxes
 
 By performing this implementation activity, you will learn how to configure the content of a tax report for sales taxes, and to specify the rules of accumulating the data in the report lines.
 
-## Story { .section}
+## Story
 
 Suppose that the Colorado State Department of Revenue agency, to which the Muffins &amp; Cakes company is going to report taxes, requires that the tax report includes the following lines:
 
@@ -14,11 +14,11 @@ Suppose that the Colorado State Department of Revenue agency, to which the Muffi
 
 Acting as an implementation consultant, you need to configure the tax report to meet the requirements of the tax agency.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 For the purposes of this activity, in the *U100* dataset, on the [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\) form, the *COTAXDEP* vendor has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will prepare the tax report by doing the following:
 
@@ -29,16 +29,15 @@ In this activity, you will prepare the tax report by doing the following:
 
 The following diagram illustrates how the taxes will be accumulated in the tax report that you will configure in this activity.
 
-![](Images/Taxes_Configuring_Tax_Report_AccumulatingTaxes.png "Process of accumulating sales taxes")
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin to configure the tax report, do the following:
 
 1.  Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as a system administrator Kimberly Gibbs by using the *gibbs* username and the *123* password.
 2.  As a prerequisite activity, make sure the *COTAXDEP* tax agency has been configured as described in [Tax Agency: To Set Up a Tax Agency for Sales Taxes](TaxAgency_SalesTaxes_Implem_Activity.md).
 
-## Step 1: Creating a Tax Report and Adding Report Lines { .section}
+## Step 1: Creating a Tax Report and Adding Report Lines
 
 To create a tax report and add report lines to it, proceed as follows:
 
@@ -58,7 +57,7 @@ To create a tax report and add report lines to it, proceed as follows:
 
 4.  On the form toolbar, click **Save** to save the report.
 
-## Step 2: Adding Reporting Groups to the Report { .section}
+## Step 2: Adding Reporting Groups to the Report
 
 To add reporting groups to the newly created tax report, while you are still viewing the report on the [Reporting Settings](../UserGuide/TX_20_51_00.md) \(TX205100\) form, proceed as follows:
 
@@ -79,7 +78,7 @@ To add reporting groups to the newly created tax report, while you are still vie
 
 2.  On the form toolbar, click **Save** to save your changes.
 
-## Step 3: Specifying the Report Lines to be Updated { .section}
+## Step 3: Specifying the Report Lines to be Updated
 
 To specify which report lines will be updated with taxes, proceed as follows:
 
@@ -107,7 +106,7 @@ To specify which report lines will be updated with taxes, proceed as follows:
 
 9.  On the form toolbar, click **Save** to save your changes.
 
-## Step 4: Reviewing the Calculation Rule for a Report Line { .section}
+## Step 4: Reviewing the Calculation Rule for a Report Line
 
 To review the calculation rules for a report line, proceed as follows:
 

@@ -1,4 +1,4 @@
-# Import of Products with Variants: General Information {#_a1a17e74-3c8f-2194-bd49-f971e78b3378 .concept}
+# Import of Products with Variants: General Information
 
 You can import to Acumatica ERP products with variants that were initially configured in the BigCommerce store if the *Matrix Items* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
@@ -6,18 +6,18 @@ You can import to Acumatica ERP products with variants that were initially confi
 
 During the import of products with variants, the corresponding template items and matrix items are created in Acumatica ERP. A matrix item is a stock or non-stock item that corresponds to a product with a particular set of attributes. A template item is a high-level item that contains the default settings of a particular group of matrix items, such as the attributes in the matrix rows and columns.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to import products with variants from the BigCommerce store to Acumatica ERP, where they will be defined as template items and matrix items.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You import products from an external system to Acumatica ERP in the following cases:
 
 -   You are initially configuring Acumatica ERP and need to import products that have already been defined in the external system.
 -   You manage product information in the external system, have updated any product settings after the product was synchronized with Acumatica ERP, and need the changes to be reflected in the corresponding inventory items in Acumatica ERP.
 
-## Configuration of Importing Products with Variants { .section}
+## Configuration of Importing Products with Variants
 
 Before initially importing products with variants from the BigCommerce store to Acumatica ERP, you need to perform the following general steps:
 
@@ -34,7 +34,7 @@ Before initially importing products with variants from the BigCommerce store to 
     Also, in the **Default Column Attribute ID** and **Default Row Attribute ID** boxes below the table, you must specify different default attributes. If the item class has only a single attribute, you should fill in only one of the boxes with it.
 
 
-## Product Import and Item Creation { .section}
+## Product Import and Item Creation
 
 The system imports products with variants from the BigCommerce store to Acumatica ERP while synchronizing the *Template Item* entity if the products have variants in the **Variations** section of the product management page in the BigCommerce store. To import products with variants, you perform the following general steps:
 
@@ -67,13 +67,20 @@ As a result, for each imported product with variants, the system creates a templ
 
 During the import, some settings of the created template and matrix items are imported from the external system,while others are copied from the item class specified on the [Attribute Mapping for Template Item Import](BC_20_30_00.md) form. Unused attributes of the item class appear as inactive for the imported template item on the **Attributes** tab of [Template Items](IN_20_30_00.md) form. For more details on how the system inserts the settings of imported items, see [Import of Products with Variants: Settings of Imported Items](Commerce_BC_Importing_Matrix_Items_Settings.md).
 
-## Product Synchronization { .section}
+## Product Synchronization
 
 If a product with variants has been already imported to Acumatica ERP and any product settings have been changed in the external system, during the next import, the system updates the corresponding template and matrix items in Acumatica ERP.
 
 If a new variant value is added to an already-imported product, during the next import, the system uses the item class assigned to the corresponding template item to map the new variant value with one of the values of the corresponding attribute. If the mapping is successful, the system creates the matrix items. Otherwise, the import fails; in this case, you need to process the created mapping records on the [Attribute Mapping for Template Item Import](../Shared/../UserGuide/BC_20_30_00.md) \(BC203000\) form manually and then repeat the synchronization.
 
-## Limitations of Importing Products with Variants { .section}
+When a product with variants has already been imported into Acumatica ERP, and a product option is deleted in the external system, the connector deactivates the corresponding attribute on the **Configuration** tab of the [Template Items](../Shared/../UserGuide/IN_20_30_00.md) \(IN203000\)\) form during synchronization if one of the following conditions is met:
+
+-   All existing matrix items have the same value for the attribute.
+-   The template item has no matrix items.
+
+If existing matrix items have different values for the attribute, synchronization fails.
+
+## Limitations of Importing Products with Variants
 
 The following limitations apply to the importing of product with variants from the BigCommerce store:
 

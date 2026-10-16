@@ -1,16 +1,16 @@
-# Project Inventory Tracking by Warehouse Location: To Purchase Materials and Services for a Project {#_c53c0111-16c1-abb5-1234-d9cecd31d1c0 .task}
+# Project Inventory Tracking by Warehouse Location: To Purchase Materials and Services for a Project
 
 This activity will walk you through the process of purchasing materials and services to a project-specific warehouse location with a purchase order.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_m3x_nn2_yrb .section}
+## Story
 
 Suppose that the HM's Bakery and Cafe customer has ordered two juicers, along with four hours of the installation service from the SweetLife Fruits &amp; Jams company. The SweetLife company contracted the Squeezo Inc. vendor to provide the juicers and perform the installation. SweetLife's project manager has created the project.
 
 Acting as SweetLife's purchasing manager, you will process the purchase of materials and services for the project. When the vendor delivers the juicers to company's warehouse, you will process a purchase receipt for the juicers. When the vendor provides the installation service, you will process an accounts payable bill from the vendor for the delivered juicers and provided service.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -24,18 +24,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *JUICER10C* stock item has been defined.
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *INSTALL* non-stock item has been defined. On the **General** tab, the **Require Receipt** check box has been cleared. On the **GL Accounts** tab, *54200 \(Project Subcontract Expense\)* has been selected in the **Expense Account** box. On the **Price/Cost** tab, *Purchase* is selected in the **Post Cost to Expenses On** box.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form, you will create a purchase order for the project, specifying the project and project task. Then you will create a purchase receipt and release it on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form. You will bill the purchase order on the [Purchase Orders](PO_30_10_00.md) form and then release the bill on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. Finally, you will review the project balances on the [Projects](PM_30_10_00.md) \(PM301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded; you should sign in as a project accountant by using the *brawner* username and the *123* password.
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Creating a Purchase Order for the Project { .section}
+## Step 1: Creating a Purchase Order for the Project
 
 To create a purchase order for the project, do the following:
 
@@ -59,7 +59,7 @@ To create a purchase order for the project, do the following:
 5.  Save the purchase order.
 6.  On the form toolbar, click **Remove Hold**. The system assigns the purchase order the *Open* status.
 
-## Step 2: Receiving the Purchased Materials to a Warehouse { .section}
+## Step 2: Receiving the Purchased Materials to a Warehouse
 
 To create a purchase receipt for the purchased materials, do the following:
 
@@ -72,7 +72,7 @@ To create a purchase receipt for the purchased materials, do the following:
     The system creates and releases an inventory receipt transaction based on the purchase receipt. On release of this transaction, the stock items are received to inventory. The purchase receipt is assigned the *Released* status.
 
 
-## Step 3: Creating a Bill for the Purchase Order { .section}
+## Step 3: Creating a Bill for the Purchase Order
 
 To bill the purchase order, do the following:
 
@@ -86,7 +86,6 @@ To bill the purchase order, do the following:
 
     On the **Cost Budget** tab, review the actual values of the cost budget. Notice that the **Actual Quantity** and **Actual Amount** of the line with the *INSTALL* item have been updated and are now *4* and *320.00*, respectively \(see below\). The actual values for the line with the stock item \(*JUICER10C*\) are not updated yet: the system will record the cost of stock items to the project budget when the items are used for the project and issued from the project-specific warehouse location.
 
-    ![](Images/activity_Projects_Project_Purchases.png "Actual values of the budget updated by the purchase")
 
 
 You have completed the processing of the purchase of materials and services for the project.

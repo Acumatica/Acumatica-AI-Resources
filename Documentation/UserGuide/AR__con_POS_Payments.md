@@ -1,4 +1,4 @@
-# Support of POS Payments {#_18dc0693-3d8d-4725-acf8-6941cb63a484 .concept}
+# Support of POS Payments
 
 Acumatica ERP provides support for point-of-sale \(POS\) payments. Users can now do the following:
 
@@ -14,7 +14,7 @@ Acumatica ERP provides support for point-of-sale \(POS\) payments. Users can now
 
 The support of POS payments can be configured and used in the system if the *Acumatica Payments* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## General Configuration Steps { .section}
+## General Configuration Steps
 
 To configure the support of POS payments in the system, a system administrator performs the following general steps:
 
@@ -24,7 +24,7 @@ To configure the support of POS payments in the system, a system administrator p
 
 For details, see [To Configure the POS Payment Functionality](AR__HOW_To_Configure_POS_Payments.md).
 
-## Processing of POS Payments on the Payments and Applications Form { .section}
+## Processing of POS Payments on the Payments and Applications Form
 
 To send and capture a payment via a POS terminal, you perform the following general steps:
 
@@ -49,7 +49,7 @@ When a POS transaction is launched on the POS terminal, the payment is not edita
 
 **Attention:** The system does not save payment profiles and credit card details. No customer payment method is created through POS payments.
 
-## Processing of POS Payments on the Cash Sales Form { .section}
+## Processing of POS Payments on the Cash Sales Form
 
 To send and capture a payment via a POS terminal, you perform the following general steps:
 
@@ -70,7 +70,7 @@ To send and capture a payment via a POS terminal, you perform the following gene
         **Attention:** The payment is released automatically because the **Integrated Processing** check box is selected on the **Settings for Use in AR** tab of the [Payment Methods](CA_20_40_00.md) \(CA204000\) form for the payment method.
 
 
-## Creation of POS Payments on the Sales Orders Form { .section}
+## Creation of POS Payments on the Sales Orders Form
 
 To create a payment for a sales order and capture it via a POS terminal, you perform the following general steps:
 
@@ -92,7 +92,7 @@ To create a payment for a sales order and capture it via a POS terminal, you per
     **Attention:** The payment is released automatically because the **Integrated Processing** check box is selected on the **Settings for Use in AR** tab of the [Payment Methods](CA_20_40_00.md) \(CA204000\) form for the payment method.
 
 
-## Creation of POS Payments on the Invoices Form { .section}
+## Creation of POS Payments on the Invoices Form
 
 To create a payment for a sales invoice and capture it via a POS terminal, you perform the following general steps:
 
@@ -114,7 +114,7 @@ To create a payment for a sales invoice and capture it via a POS terminal, you p
     **Attention:** The payment is released automatically because the **Integrated Processing** check box is selected on the **Settings for Use in AR** tab of the [Payment Methods](CA_20_40_00.md) \(CA204000\) form for the payment method.
 
 
-## Processing of Refunds { .section}
+## Processing of Refunds
 
 Refunds made by using payment methods with the *POS Terminal* means of payment are processed as follows:
 
@@ -127,7 +127,7 @@ To make it possible for users to record unlinked refunds \(those for which the s
 -   Get approval from the processing center and enable blind refunds on the processing center's side.
 -   In Acumatica ERP, make sure that the **Allow Unlinked Refunds** check box is selected on the [Processing Centers](CA_20_50_00.md) \(CA205000\) form.
 
-## Support of Automatic Surcharges { .section}
+## Support of Automatic Surcharges
 
 For payments with the *POS Terminal* means of payment, creation of automatic surcharges is supported. *Surcharge* is a small fee added to a credit card transaction to cover your company's costs for processing the payment. You can configure and apply a surcharge to each payment created with a POS terminal.
 

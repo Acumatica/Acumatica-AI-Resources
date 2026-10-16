@@ -1,4 +1,4 @@
-# Customizing Modern UI Forms in the Customization Project Editor {#_565a2e6d-a310-4784-a8b1-5a809157d07a .concept}
+# Customizing Modern UI Forms in the Customization Project Editor
 
 In this chapter, you will learn how to use the Customization Project Editor to customize new and existing forms that you have developed for the Modern UI.
 
@@ -11,5 +11,9 @@ In this chapter, you will learn how to use the Customization Project Editor to c
 -   **[Modern UI Editor: Creating and Editing a Custom TypeScript Extension](../DeveloperGuide/UIDev_ModernUIEditor_EditingTSExtension.md)**  
 
 -   **[Modern UI Editor: Adding Decorators to the Selected View or Field](../DeveloperGuide/UIDev_ModernUIEditor_AddingDecorators.md)**  
+
+-   **[Modern UI Editor: Creating and Editing a Custom HTML Extension](../DeveloperGuide/UIDev_ModernUIEditor_EditingHTMLExtension.md)**  
+
+-   **[Modern UI Editor: Inserting Layout Controls](../DeveloperGuide/UIDev_ModernUIEditor_InsertingLayoutControls.md)**  
 
 

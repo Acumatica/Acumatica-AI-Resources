@@ -1,8 +1,8 @@
-# Relations: General Information {#_5b1b0780-1090-46ff-a8ce-a0d553f1b63f .concept}
+# Relations: General Information
 
 In Acumatica ERP, as you work with a record related to customer relationship management \(CRM\)—such as a lead, contact, business account, opportunity, sales quote, or case—you can track the associated records on the **Relations** tab of the form used to create the record.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -11,7 +11,7 @@ In this chapter, you will do the following:
 -   View roles added by the system on the **Relations** tab
 -   Manage relations on the **Relations** tab
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to learn how to view or manage relations in Acumatica ERP in scenarios that include the following:
 
@@ -19,7 +19,7 @@ You may want to learn how to view or manage relations in Acumatica ERP in scenar
 -   You have created a new opportunity and need to add a customer contact that represents a decision maker for this opportunity.
 -   You have created an opportunity-based sales order, and you need to quickly open this sales order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form by using the opportunity as a starting point.
 
-## Relations in Acumatica ERP { .section}
+## Relations in Acumatica ERP
 
 You can use the relations on the **Relations** tab of the form where a CRM record is created to quickly find, view, and modify the associated records. You can use relations to associate business accounts and contacts with leads, cases, and opportunities. You can also associate opportunities with leads, contacts, business accounts, cases, and the related documents—such as sales quotes, sales orders, and invoices. For example, while you are working with an opportunity, with one click, you can access the related leads, sales orders, and invoices. And while you are viewing a lead, you might want to make edits to the related opportunities. You can see the associated records on the **Relations** tab of the following forms while you are viewing a record created on the form:
 
@@ -41,7 +41,7 @@ To manually create a relation with an associated record, you add a row on the **
 
 If you copy a record by using the **Copy** command, the rows from the **Relations** tab are not copied to the new record.
 
-## Types of Relational Roles { .section}
+## Types of Relational Roles
 
 Acumatica ERP supports *one-way* and *bidirectional* relations between the associated records. In many cases, the relation between a pair of records is bidirectional. The type of relation is defined by the role in the **Role** column, which can be one-way or bidirectional.
 

@@ -1,8 +1,8 @@
-# Contract Management: General Information {#_50f22690-ffe5-46ee-8214-e81b6e1769e7 .concept}
+# Contract Management: General Information
 
 Contracts contain the basic terms of your business relationship with the customer, such as the cost of the services provided, the billing and payment stipulations, the duration of the contract, and the possibility of extending the contract duration. During the execution of a contract, you \(or other users who work with the customer\) perform basic actions and reflect them in Acumatica ERP. You can also use the system to monitor and implement the main processes related to contract management. These processes include changing the terms of the contract \(upgrading the contract\), canceling the last action performed on the contract, renewing the contract, and terminating the contract. To control the actions performed, you can also use related reports and inquiries.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -11,7 +11,7 @@ In this chapter, you will learn how to do the following:
 -   Renew and terminate the contract
 -   Work with contract-related reports and inquiries
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You manage contracts in the following cases:
 
@@ -20,7 +20,7 @@ You manage contracts in the following cases:
 -   When it is time to renew a contract that has expired or is about to expire
 -   When you need to terminate a contract
 
-## Contract Upgrades { .section}
+## Contract Upgrades
 
 During the contract lifecycle, you may need to make some changes and modify the contract terms that are already reflected in the activated contract \(upgrade or downgrade a contract\). These modifications may include changes to contract settings; you may also need to change the set of contract items included in the contract, to add contract items or delete included ones, or to change the quantity of contract items.
 
@@ -32,7 +32,7 @@ For example, suppose that you need to create an additional contract item, which 
 
 For more information about contract upgrades, see [Contract Management: Contract Upgrade](Contracts_Managing_Contracts_ContractChanges.md).
 
-## Contract Renewal { .section}
+## Contract Renewal
 
 When a contract has expired or is about to expire, your company and your customer may want to extend the duration of the contract and continue the relationship under the same terms. In this case, you can renew the expiring contract to avoid any interruptions to the provision of services. In Acumatica ERP, you can renew a contract if it has the *Renewable* or *Expiring* type.
 
@@ -44,7 +44,7 @@ To renew a contract, on the form toolbar or More menu of the [Customer Contracts
 
 For more information, see [Contract Management: Contract Renewal](Contracts_Setting_Up_Contract_Setup_ContractRenewal.md).
 
-## Contract Termination { .section}
+## Contract Termination
 
 If the parties of the contract have agreed not to continue the relationship under the contract, you can terminate the contract, which causes it to be assigned the *Canceled* status. You terminate a contract on the [Customer Contracts](CT_30_10_00.md) \(CT301000\) form by clicking **Terminate Contract** on the More menu \(under **Processing**\) for the selected contract.
 
@@ -57,7 +57,7 @@ In the created credit memo, the system fills in the credit terms on the [Invoice
 -   If the check box is selected, the credit terms are copied from the customer's settings.
 -   If the check box is cleared, no credit terms are specified for the credit memo.
 
-## Cancellation of the Last Action { .section}
+## Cancellation of the Last Action
 
 If you need to cancel the last action that you have performed, you can do so by clicking **Undo Last Action** on the More menu of the [Customer Contracts](CT_30_10_00.md) \(CT301000\) form. You can cancel only one action at a time—the most recent one.
 

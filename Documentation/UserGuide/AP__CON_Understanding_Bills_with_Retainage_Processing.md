@@ -1,8 +1,8 @@
-# Examples of Processing Bills with Retainage {#_15701528-8f5e-4ebe-9e6b-70ea86c680af .concept}
+# Examples of Processing Bills with Retainage
 
 In this topic, you will find some examples of bills with retainage being processed in the system.
 
-## Processing a Bill with Retainage and Without Taxes {#_60ebc20c-7194-4ee5-a83d-b19bccc70019 .section}
+## Processing a Bill with Retainage and Without Taxes
 
 Suppose that your company has hired a construction company to build a new building. On June 5, 2017, the construction company sends you an invoice with a total amount of $50,000. By contract, it has been agreed upon that 20% of the total amount \($10,000\) is withheld by your company until the contractual work is finished and the other part \($40,000\) is paid within 15 days. The responsible persons of your company enter and process the needed documents in the system, and the related General Ledger batches are created in the system.
 
@@ -35,7 +35,7 @@ On December 15, 2017, your company makes the final payment to the construction c
 |Accounts Payable account|10,000.00|00.00|
 |Cash account|00.00|10,000.00|
 
-## Processing a Taxable Bill with Retainage and if Taxes Are Not Retained {#section_a1m_njv_vxb .section}
+## Processing a Taxable Bill with Retainage and if Taxes Are Not Retained
 
 Suppose that your company has hired a construction company to build a new building. Taxes at the rate of 5% are applied to the bill and should be calculated and reported for the bill with retainage \(that is, taxes calculated on retained amount\). On June 5, 2017, the construction company sends you an invoice with a total amount before taxes of $50,000. By contract, it has been agreed that 20% of the this amount \($10,000\) is withheld by your company until the contractual work is finished and the other part \($40,000\) along with full tax amount \($2500\) is paid within 15 days. The responsible persons of your company enter and process the needed documents in the system, and the related General Ledger batches are created in the system.
 
@@ -69,7 +69,7 @@ On December 11, 2017, your company makes the final payment to the construction c
 |Accounts Payable account|10,000.00|00.00|
 |Cash account|00.00|10,000.00|
 
-## Processing a Taxable Bill with Retainage if Taxes Are Retained {#_0895f21b-c0f1-4355-a547-a79c2aec4953 .section}
+## Processing a Taxable Bill with Retainage if Taxes Are Retained
 
 Suppose that your company has hired a construction company to build a new building. Taxes at the rate of 5% are applied to the bill and should be calculated and reported separately for the bill with retainage and the retainage bill. On June 5, 2017, the construction company sends you an invoice with a total amount before taxes of $50,000. By contract, it has been agreed upon that 20% of the total amount \($10,000\) is withheld by your company until the contractual work is finished, and the other part \($40,000\) is paid within 15 days. The responsible persons of your company enter and process the needed documents in the system, and the related General Ledger batches are created in the system.
 

@@ -1,4 +1,4 @@
-# Implementing Approvals {#_2fe81752-a49b-46c6-8a17-36af48872807 .concept}
+# Implementing Approvals
 
 This part of the guide describes the minimum required configuration of the approval functionality in Acumatica ERP.
 

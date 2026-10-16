@@ -1,4 +1,4 @@
-# Opportunities: Settings {#_56c4f179-efdf-4a93-a504-3d13ecee9159 .concept}
+# Opportunities: Settings
 
 You can use and modify the settings on the [Opportunities](CR_30_40_00.md) \(CR304000\) form to track the information related to the opportunity, as described below.
 
@@ -16,7 +16,7 @@ You can use and modify the settings on the [Opportunities](CR_30_40_00.md) \(CR3
 |**Discounts** tab|Review the discounts related to the products or services. This tab is available only if the *Customer Discounts* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.|
 |**Relations** tab|Review relations between the opportunity and any associated entities. For details, see [Managing Relations](CRM_Managing_Relations_Mapref.md).|
 
-## Copying of Settings from Contacts and Business Accounts to Opportunities {#_1de6b969-1a09-4b77-be52-e830df7b6246 .section}
+## Copying of Settings from Contacts and Business Accounts to Opportunities
 
 In Acumatica ERP, contact and address settings are copied to an opportunity when you specify an account in the **Business Account** box in the Summary area of the [Opportunities](CR_30_40_00.md) \(CR304000\) form. The contact information from the business account or contact specified in the Summary area of the [Opportunities](CR_30_40_00.md) form is displayed on the **Contact** tab as read-only by default, but you can modify it if you select the **Override** check box on this tab.
 
@@ -26,7 +26,7 @@ Also, if you select a different business account for an opportunity, the system 
 
 The overriding of settings applies to all the settings on the **Contact** tab of the [Opportunities](CR_30_40_00.md) form.
 
-## Shipping Settings in Opportunities {#_cabc3b5f-3857-4f1b-8826-aa84bb93d029 .section}
+## Shipping Settings in Opportunities
 
 An opportunity’s shipping settings appear in the **Ship-To Address** and **Ship-To Contact** sections of the **Addresses** tab of the [Opportunities](CR_30_40_00.md) \(CR304000\) form. When you create an opportunity, the system populates the shipping settings based on the conditions described below.
 
@@ -73,7 +73,7 @@ To populate the remaining sections on the **Addresses** tab of the [Opportunitie
 -   The source record if the opportunity is created or converted from another record.
 -   The business account location specified on the **General** tab of the [Account Locations](CR_30_30_10.md) form.
 
-## Shipping Settings in Quotes, Sales Orders, and Invoices { .section}
+## Shipping Settings in Quotes, Sales Orders, and Invoices
 
 The shipping settings specified for an opportunity on the [Opportunities](CR_30_40_00.md) \(CR304000\) form are copied to any sales order, invoice, or quote you create based on that opportunity.
 

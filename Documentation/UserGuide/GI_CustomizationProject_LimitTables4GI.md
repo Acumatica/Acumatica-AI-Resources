@@ -1,4 +1,4 @@
-# Generic Inquiries in a Customization Project: Limiting the DACs Available for Generic Inquiries {#_10a2e1e8-345e-460e-8cb1-914e3c7fca84 .concept}
+# Generic Inquiries in a Customization Project: Limiting the DACs Available for Generic Inquiries
 
 You can limit the list of data access classes \(DACs\) available for creating generic inquiries on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form in the production environment. You will do this by making changes, adding them to a customization project in a development environment, and then publishing that customization project in the production environment. In the development environment, you should perform the following general steps:
 
@@ -8,7 +8,7 @@ You can limit the list of data access classes \(DACs\) available for creating ge
 
 The platform automatically checks whether this file exists in the `App_Data` folder. If the customization project is published in the production environment, the platform applies the file content when a user selects a DAC for a generic inquiry on the [Generic Inquiry](SM_20_80_00.md) form.
 
-## The Contents of the GITables.xml File {#_f18917b0-5294-41e6-813c-5cfeb92d0a2c .section}
+## The Contents of the GITables.xml File
 
 The `GITables.xml` configuration file is in XML format and includes the GITables element only. This element must include the Allowed section and can also contain the Hidden section. Each section is a collection of Table elements.
 
@@ -16,7 +16,6 @@ The Allowed collection specifies the list of DACs that are available for use in 
 
 If a DAC is allowed and not hidden \(as illustrated by the green area in the following diagram\), it is included in the list of the DACs available for constructing generic inquiries on the [Generic Inquiry](SM_20_80_00.md) form. Otherwise, the DAC is not displayed in this list of DACs.
 
-![](Images/CG_Platform_Features_LimitTables4GI.png "The DACs that are available for constructing generic inquiries")
 
 Each Table element of the Allowed and Hidden sections contains the FullName attribute, which specifies the DAC name or the mask for a set of DACs.
 

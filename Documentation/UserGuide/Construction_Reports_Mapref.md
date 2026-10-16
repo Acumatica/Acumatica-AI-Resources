@@ -1,4 +1,4 @@
-# Working with Construction Reports {#_bd59eac1-1a9a-46dd-85e7-6a65c882d3c5 .concept}
+# Working with Construction Reports
 
 Acumatica ERP Construction Edition gives you the ability to email and print various reports for a customer. In this chapter, you will find topics about working with these reports in the system.
 

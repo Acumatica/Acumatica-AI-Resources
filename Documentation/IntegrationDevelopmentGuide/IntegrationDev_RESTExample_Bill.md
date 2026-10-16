@@ -1,4 +1,4 @@
-# Bill {#_74a426d9-d4f7-4005-ba45-d88817d62dff .concept}
+# Bill
 
 This chapter presents code examples showing requests that use the `Bill` entity.
 

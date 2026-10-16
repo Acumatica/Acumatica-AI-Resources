@@ -1,13 +1,13 @@
-# To Configure Multiple-Installment Credit Terms {#_21b6e04b-80b2-412e-a173-2e929af54bd0 .task}
+# To Configure Multiple-Installment Credit Terms
 
 You use the [Credit Terms](CS_20_65_00.md) \(CS206500\) form to define each set of credit terms. For a set of credit terms, you can specify payment as a single installment \(described in [To Configure Single-Installment Credit Terms](AR__How_Creating_Credit_Terms.md)\) or as multiple installments \(described in this topic\).
 
-## To Configure Credit Terms for Multiple Installments {#section_bgd_hjv_vxb .section}
+## To Configure Credit Terms for Multiple Installments
 
 1.  Open the [Credit Terms](CS_20_65_00.md) \(CS206500\) form.
 2.  In the **General Settings** section, in the **Terms ID** box, type the identifier of the credit terms. The ID may contain up to ten characters.
 
-    CAUTION:
+    **CAUTION:**
 
     We do not recommend using any special symbols in the identifiers of entities.
 

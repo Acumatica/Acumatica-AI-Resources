@@ -1,4 +1,4 @@
-# To Update Access Rights to an Article {#_833a9c92-93a9-44d8-9578-3088473d1eb5 .task}
+# To Update Access Rights to an Article
 
 In Acumatica ERP, you configure access rights for roles rather than for individual users, and you assign users to roles. By default, access rights for an article or folder are inherited from the parent folder, but you can change access rights to an article or folder, as described below.
 

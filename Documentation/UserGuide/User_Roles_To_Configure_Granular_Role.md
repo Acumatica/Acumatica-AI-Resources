@@ -1,14 +1,14 @@
-# User Roles: To Configure a Role with Granular Access {#_6220c9e5-41bb-4773-a6a8-75130311c399 .task}
+# User Roles: To Configure a Role with Granular Access
 
 In the following activity, you will learn how to create a role with granular access to a system object.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the CFO of the SweetLife Fruits &amp; Jams company has decided that only employees authorized by the CFO are allowed to reprint checks. To accommodate this requirement, you, as a system administrator, have decided to create a granular role that will give access to only the reprinting of checks and forbid access to this operation for all other roles. As a result, only users that have full access to accounts payable \(that is, only users that are assigned a role that gives this access\) can be authorized to reprint checks by being assigned this granular role on request from the CFO.
 
-## Process Overview { .section}
+## Process Overview
 
 You will use the [User Roles](SM_20_10_05.md) \(SM201005\) form to create the *AA\_AP\_Reprint\_Checks* role. You will use the *AA* prefix for the role to have it at the top of the list, combined with *\_AP* to indicate the functional area.
 
@@ -36,11 +36,11 @@ The following table summarizes changes that need to be done. For details on how 
 |*Accountant*|*Delete*|*Delete*|*Inherited*|*Delete*|*Inherited*|*Revoked*|
 |*Purchasing Manager*|*Delete*|*Delete*|*Inherited*|*Delete*|*Inherited*|*Revoked*|
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as a system administrator, by using the *gibbs* username and the *123* password.
 
-## Step 1: Creating a Role { .section}
+## Step 1: Creating a Role
 
 To create a role, do the following:
 
@@ -49,7 +49,7 @@ To create a role, do the following:
 3.  In the **Role Description** box, type `Role to reprint AP checks`.
 4.  On the form toolbar, click **Save**.
 
-## Step 2: Modifying the Access Rights to the Container and Form Elements { .section}
+## Step 2: Modifying the Access Rights to the Container and Form Elements
 
 To modify the restriction levels for the container and form elements, do the following:
 
@@ -68,7 +68,7 @@ To modify the restriction levels for the container and form elements, do the fol
 
 You have created and configured a role with access to only one form, and you have restricted the access to two operations on this form for other roles in the system that have access to this form.
 
-## Step 3 \(Optional\): Verifying the Configured Access { .section}
+## Step 3 \(Optional\): Verifying the Configured Access
 
 To verify the configured access to the actions, do the following:
 
@@ -87,7 +87,6 @@ To verify the configured access to the actions, do the following:
 13. In the right pane, select the row with the **Reprint** element, and click **View Roles** on the table toolbar.
 14. In the **View Roles** dialog box, which opens, review the list of roles assigned to the selected user and the access rights that each role has to the element, as shown in the following screenshot. The system gives the user the most permissive restriction level to the element \(see Item 1 in the screenshot\) among the roles with explicitly defined restriction levels \(Item 2\). The system ignores the roles with the *Inherited* level of access rights.
 
-    ![](Images/activity_UserRoles_Granular_Role_Access_Verification.png "The list of roles assigned to the selected user that affect the user's access to the Reprint element")
 
 
 **Parent topic:**[Configuring User Roles](../UserGuide/User_Roles_Mapref.md)

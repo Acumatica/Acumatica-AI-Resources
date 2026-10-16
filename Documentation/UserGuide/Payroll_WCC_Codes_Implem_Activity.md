@@ -1,16 +1,16 @@
-# Workers' Compensation Codes: Implementation Activity {#_d84975f1-9fa2-4faf-8fff-6938705f9ecd .task}
+# Workers' Compensation Codes: Implementation Activity
 
 In the following implementation activity, you will learn how to create workers' compensation codes.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife company is going to calculate workers' compensation in paychecks. Acting as a system administrator, you need to create the following WCC codes: *8742 \(Salespeople\), 8810 \(Clerical Work\), 5606 \(Project Manager\), 8292 \(Warehousing\),*and *5437 \(Installation\)*.
 
-## Process Overview { .section}
+## Process Overview
 
 You create the needed WCC codes by using the [Workers' Compensation Codes](PR_20_98_00.md) \(PR209800\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating WCC codes, you should launch the Acumatica ERP website and sign in as a system administrator by using the following credentials:
 
@@ -21,7 +21,7 @@ As a prerequisite activity, in the company to which you are signed in, be sure y
 
 As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course.
 
-## Step: Creating Workers' Compensation Codes { .section}
+## Step: Creating Workers' Compensation Codes
 
 To create the needed WCC codes, do the following:
 

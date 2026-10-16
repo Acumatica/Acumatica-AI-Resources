@@ -1,4 +1,4 @@
-# Displaying a Simple Dialog Box {#_0f701240-23d8-4858-95ea-6f763ddd721a .concept}
+# Displaying a Simple Dialog Box
 
 In Acumatica ERP, the system can display a dialog box for confirmation purposes either when user invokes an action or during a commit of a field value to the server. The system supports the following types of dialog boxes:
 
@@ -7,7 +7,7 @@ In Acumatica ERP, the system can display a dialog box for confirmation purposes 
 
 Currently, the Acumatica mobile app supports simple dialog boxes, which are displayed when a user selects an action. You do not need to map these dialog boxes; if a simple dialog box is displayed in the desktop version of Acumatica ERP, the dialog box will also be displayed in the mobile app.
 
-## Enabling a Dialog Box in Application Code { .section}
+## Enabling a Dialog Box in Application Code
 
 Before Acumatica ERP 2020 R2, dialog boxes were not supported in the mobile app. Thus, they are often suppressed by checking the [IsMobile](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=198bc715-56b2-37c5-895f-fd136023c404) property value of a graph. For a dialog box to be displayed in the mobile app, you need to remove this checking.
 

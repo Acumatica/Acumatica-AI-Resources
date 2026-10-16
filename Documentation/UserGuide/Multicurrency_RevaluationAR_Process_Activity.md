@@ -1,12 +1,12 @@
-# Revaluation of AR Documents: Process Activity {#_4e811ccf-a3de-4a19-b3a3-0ab1a5d3792c .task}
+# Revaluation of AR Documents: Process Activity
 
 The following activity will walk you through the process of performing the revaluation of open AR documents.
 
-## Story {#section_xkz_3jv_vxb .section}
+## Story
 
 Suppose that for reporting purposes, the accounting department of SweetLife Fruits &amp; Jams has to revalue the open balances of customers several times within each financial period. Acting as a SweetLife accountant, you need to revalue open AR documents and post the generated GL transactions for the *01-2026* financial period.
 
-## Configuration Overview {#section_mfx_3jv_vxb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -21,13 +21,13 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *EASYDINER* and *MINTSTORE* customers have been predefined.
 -   On the [Currency Rate Types](CM_20_10_00.md) \(CM201000\) form, the *SPOT* rate type has been defined.
 
-## Process Overview {#section_clz_3jv_vxb .section}
+## Process Overview
 
 In this activity, on the [Currency Management Preferences](CM_10_10_00.md) \(CM101000\) form, you will specify currency management settings that are needed for the revaluation, and on the [Currencies](CM_20_20_00.md) \(CM202000\) form, you will specify the AR Provisioning account for *CAD*. You will then run the [Trial Balance Summary](GL_63_20_00.md) \(GL632000\) report to review the Accounts Receivable balance before the revaluation. On the [Revalue AR Accounts](CM_50_50_00.md) \(CM505000\) form, you will perform revaluation first of open AR documents in the *EUR* currency, and then of open AR documents in the *CAD* currency.
 
 After the revaluation, you will review the balance of the Accounts Receivable and AR Provisioning accounts on the [Account Summary](GL_40_10_00.md)\(GL401000\) form, and then review revaluation batches on the [Account Details](GL_40_40_00.md) \(GL404000\) form.
 
-## System Preparation {#section_flz_3jv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -37,7 +37,7 @@ Before you begin performing the steps of this activity, do the following:
 4.  Make sure that you have configured an account as described in [Multicurrency Cash Accounts: To Configure an Account](../ImplementationGuide/config_Multicurrency_CashAccount_Implem_Activity.md).
 5.  Make sure that you have processed AR documents as described in [AR Invoices in Foreign Currencies: Process Activity](Multicurrency_ARInvoicesFC_Process_Activity.md), [Credit Memos in Foreign Currencies: Process Activity](Multicurrency_CreditMemo_Process_Activity.md), [Multicurrency Payment of Invoices: To Pay a Foreign Currency Invoice by Using the Base Currency](Multicurrency_ARInvoiceByBaseCurrency_Process_Activity.md), and [Multicurrency Payment of Invoices: To Pay a Foreign Currency Invoice by Using Another Currency](Multicurrency_ARInvoiceByForeignCurrency_Process_Activity.md).
 
-## Step 1: Specifying the Settings Needed for the Revaluation {#section_ilz_3jv_vxb .section}
+## Step 1: Specifying the Settings Needed for the Revaluation
 
 To specify the settings needed for the revaluation, do the following:
 
@@ -57,7 +57,7 @@ To specify the settings needed for the revaluation, do the following:
 6.  In the **AR Provisioning Account** box on the **GL Accounts** tab, select *11500 \(AR Provisioning\)*.
 7.  On the form toolbar, click **Save** to save your changes.
 
-## Step 2: Running the Trial Balance Summary Report {#section_llz_3jv_vxb .section}
+## Step 2: Running the Trial Balance Summary Report
 
 To review the balance of the *11000 \(Accounts Receivable\)* account before the revaluation, do the following:
 
@@ -71,7 +71,7 @@ To review the balance of the *11000 \(Accounts Receivable\)* account before the 
 3.  On the form toolbar, click **Run Report**.
 4.  In the generated report, review the balance of the *11000 \(Accounts Receivable\)* account before the revaluation.
 
-## Step 3: Performing Revaluation of AR Documents in EUR {#section_nlz_3jv_vxb .section}
+## Step 3: Performing Revaluation of AR Documents in EUR
 
 To perform revaluation of open AR documents in the *EUR* currency, do the following:
 
@@ -100,7 +100,7 @@ To perform revaluation of open AR documents in the *EUR* currency, do the follow
     -   The AR account \(*11000*\) was credited in the amount of unrealized loss \($0.82\) to revalue the account balance.
     -   The Unrealized Gain/Loss Currency account specified for the *EUR* currency \(*84000*\), which you specified when you defined the *EUR* currency in [Multicurrency Functionality: Implementation Activity](../ImplementationGuide/config_Multicurrency_Basic_Implem_Activity.md)\) was debited in the amount of the unrealized loss \($0.82\) to record the revaluation.
 
-## Step 4: Performing Revaluation of AR Documents in CAD {#section_slz_3jv_vxb .section}
+## Step 4: Performing Revaluation of AR Documents in CAD
 
 To perform revaluation of open AR documents in the *CAD* currency, do the following:
 
@@ -134,7 +134,7 @@ To perform revaluation of open AR documents in the *CAD* currency, do the follow
     -   The AR Provisioning account specified for the currency of revaluation \(*11500*\) was debited in the amount of the unrealized gain \($0.30\).
     -   The Unrealized Gain/Loss Currency account \(*84000*\), which you specified when you defined the *CAD* currency in [Multicurrency Functionality: Implementation Activity](../ImplementationGuide/config_Multicurrency_Basic_Implem_Activity.md)\) was credited in the amount of the unrealized gain \($0.30\).
 
-## Step 5: Reviewing the Balances of Accounts Receivable and AR Provisioning After the Revaluation {#section_xlz_3jv_vxb .section}
+## Step 5: Reviewing the Balances of Accounts Receivable and AR Provisioning After the Revaluation
 
 To review the balances of the Accounts Receivable and AR Provisioning accounts after the revaluation, do the following:
 

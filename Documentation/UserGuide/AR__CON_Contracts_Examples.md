@@ -1,8 +1,8 @@
-# Contract Billing: Contract Examples {#_b1fb48b2-2169-434c-9370-ff609642245f .concept}
+# Contract Billing: Contract Examples
 
 In Acumatica ERP you can perform contract billing to fit different scenarios.
 
-## Contracts with Recurring Billing { .section}
+## Contracts with Recurring Billing
 
 Common examples of contracts with recurring billing that can be handled in Acumatica ERP can be found in the following topics:
 
@@ -10,7 +10,7 @@ Common examples of contracts with recurring billing that can be handled in Acuma
 -   [Contract Configuration: Deposit Contracts](Contracts_Configuring_Contracts_Configuring_Deposit_Contract.md)
 -   [Contract Usage: Contract Usage](Billing_Contracts_Contract_Billing_ContractUsage.md)
 
-## Contracts with Billing on Demand { .section}
+## Contracts with Billing on Demand
 
 You may want to have the ability to provide a customer with a service or solution at any time and bill the customer as needed, which is also described as *billing on demand*. To implement such a scenario, you perform the following general steps:
 

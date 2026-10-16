@@ -1,8 +1,8 @@
-# Create a Purchase Receipt in a Non-Base Currency {#_6177b57c-ed78-47c7-9994-d22dfe2d5507 .concept}
+# Create a Purchase Receipt in a Non-Base Currency
 
 If you are using the contract-based REST API to integrate Acumatica ERP with an external system, this external system can create a purchase receipt in a non-base currency. For details about the management of purchase documents, see [Managing Purchase Documents](../UserGuide/PO__MNG_Managing_Document.md).
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to do the following to configure your client application and the Acumatica ERP instance to be used:
 
@@ -19,24 +19,24 @@ Before you test the code below, you need to do the following to configure your c
     3.  In the **Curr. Rate Type** box, select *SPOT*.
     4.  Save your changes.
 
-## Request { .section}
+## Request
 
 You can use the following example of an HTTP request to create a purchase receipt in a non-base currency by using the CurrencyID and CurrencyRate fields. In the example, you will override cost-related values \(such as UnitCost or ExtendedCost\).
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-PUT /entity/Default/25.200.001/PurchaseReceipt HTTP/1.1
+PUT /entity/Default/26.200.001/PurchaseReceipt HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
 Content-Type: application/json
 
 {
-    "Type": {"value": "Receipt"},
+    "Type": {"value": { "id": "RT" }},
     "VendorID": {"value": "GOODFRUITS"},
-    "CreateBill": {"value": "False"},
+    "CreateBill": {"value": false},
     "CurrencyID": {"value": "EUR"},
-    "CurrencyRate": {"value": "1.2"},
+    "CurrencyRate": {"value": 1.2},
     "Description": {"value": "Test receipt in non-base currency and with new cost fields"},
     "Details": [
         {
@@ -45,8 +45,8 @@ Content-Type: application/json
             "Warehouse": {"value": "WHOLESALE"},
             "ReceiptQty": {"value": 1.0},
             "ExpirationDate": {"value": "2021-04-25"},
-            "UnitCost": {"value": "111"},
-            "ExtendedCost": {"value": "333"}
+            "UnitCost": {"value": 111},
+            "ExtendedCost": {"value": 333}
         }
     ]
 }

@@ -1,8 +1,8 @@
-# Create a Sales Order with an External Credit Card Payment {#_125d6a9c-c92b-4cb9-862b-424a60208edb .concept}
+# Create a Sales Order with an External Credit Card Payment
 
 If you are using the contract-based REST API to integrate Acumatica ERP with an external system, this external system can create a sales order with payments in a single API call. For details about the creation of sales orders, see [Reserving Payments for Sales Orders](../UserGuide/SO__con_Payment_Reservation.md).
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, do the following to configure your client application and the Acumatica ERP instance to be used:
 
@@ -11,14 +11,14 @@ Before you test the code below, do the following to configure your client applic
 3.  If you are using Postman as the client application for testing, in the `IntegrationDevelopmentGuide.postman_collection.json` collection, make sure that the collection’s variables have the proper values. This collection is located in the `IntegrationDevelopment\Help` folder of the [Help-and-Training-Examples](https://github.com/Acumatica/Help-and-Training-Examples) repository on GitHub.
 4.  To sign in to the instance in the client application, use the tenant name \(which you specified when you created the instance\) and the *PRODWHOLE* branch.
 
-## Request { .section}
+## Request
 
 You can use the following example of an HTTP request to create in one call a sales order with an external credit card payment. You specify the external credit card payment parameters in the CreditCardTransactionInfo structure.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-PUT /entity/Default/25.200.001/SalesOrder HTTP/1.1
+PUT /entity/Default/26.200.001/SalesOrder?$expand=Payments HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
 Content-Type: application/json
@@ -64,7 +64,7 @@ Content-Type: application/json
                     "NeedValidation": {"value": true},
                     "TranDate": {"value": "2023-08-11T00:00:00+03:00"},
                     "TranNbr": {"value": "40050474170"},
-                    "TranType": {"value": "AUT"}
+                    "TranType": {"value": { "id": "AUT" }}
                 }
             ],
             "PaymentAmount": {"value": 980.00},

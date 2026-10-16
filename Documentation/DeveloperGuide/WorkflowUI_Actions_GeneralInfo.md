@@ -1,8 +1,8 @@
-# Action Configuration: General Information {#_57a1265a-c8a8-4b0c-ae79-9db03a0e7eee .concept}
+# Action Configuration: General Information
 
 In a workflow, actions represent buttons on the form toolbar and commands on the More menu of a form.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,11 +12,11 @@ In this chapter, you will learn how to do the following:
 -   Add categories of the More menu
 -   Organize the commands into categories on the More menu
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may need to configure actions when you are creating transitions or editing states in a workflow.
 
-## Configuration of Actions in a Workflow { .section}
+## Configuration of Actions in a Workflow
 
 Actions are associated with buttons or commands \(or both\) in the user interface. When a user clicks a button or a command, the system may change the status of the record on the form according to the workflow settings. That is, these actions trigger transitions from one workflow state to another. You can use the same action to trigger transitions from a particular state to different states.
 
@@ -26,11 +26,10 @@ You configure workflow actions by using the [Actions](../UserGuide/AU_20_10_50.m
 
 To understand which of the listed actions are from the predefined workflow and which are new, you review the **Status** column for each action. Actions from the predefined workflow have the *Inherited* status, and all actions that you have added to the [Actions](../UserGuide/AU_20_10_50.md) page \(including existing graph actions\) have the *New* status. If you have modified an action from the predefined workflow, its status changes to *Modified* \(see the following screenshot\).
 
-![](Images/WorkflowUI_ActionConfiguration_ModifiedAction.png "Modified action")
 
 **Tip:** In the name that appears on the page, *Actions* is preceded by the form ID and then the form name in parentheses, so you can always see at a glance which form you are customizing.
 
-## Types of Actions {#_079e73c4-c670-4ee1-87c9-82f9c6966a1e .section}
+## Types of Actions
 
 You can add the following types of actions by using the [Actions](../UserGuide/AU_20_10_50.md) page:
 
@@ -43,7 +42,7 @@ You can add the following types of actions by using the [Actions](../UserGuide/A
 
 The name and type of the action cannot be changed after the action is created.
 
-## Categories on the More Menu { .section}
+## Categories on the More Menu
 
 You can group commands under categories on the More menu, so that users can easily find them. For example, if a command is associated with an action related to changing the status of a record created on the form, it is usually displayed under the **Processing** category. Each category displays the commands whose actions are enabled based on the record’s state, as well as those whose actions are disabled for this state.
 
@@ -51,11 +50,21 @@ When you add an action on the [Actions](../UserGuide/AU_20_10_50.md) page, you s
 
 The default list of categories depends on the form. You can add new categories and modify or delete existing ones. Also, you can change the order in which the categories are displayed on the More menu.
 
-## Addition of Actions Defined in the Graph { .section}
+## Addition of Actions Defined in the Graph
 
 In the workflow of an Acumatica ERP form, you can use actions that are defined in the graph that corresponds to the form. To add such action to the workflow of the form, you click **Add Existing Action** on the More menu of the [Actions](../UserGuide/AU_20_10_50.md) page opened for the form. By default, such actions are displayed on the form according to the properties of the [PXButton](https://help.acumatica.com/(W(124))/Help?ScreenId=ShowWiki&pageid=1a7069c4-95d5-456b-41ec-5b19371358db) attribute specified for the action, which the *As Configured in Graph* option in the [Action Properties Dialog Box](../UserGuide/AU_20_10_50.md#_aa40d598-72fc-4232-b46b-ef3bc75825d2) indicates.
 
-## Viewing of Changes Between the Predefined and Customized Action { .section}
+## Agent Actions in Workflows
+
+If the *AI Automation* feature is enabled, you can use an action of an AI Automation agent in a workflow. When you select the **Active** check box for an agent on the [Agents](../UserGuide/ML_20_20_00.md) \(ML202000\) form, the system adds the agent action to the [Actions](../UserGuide/AU_20_10_50.md) page for the target form as an action of the *Graph Action* type.
+
+The internal name of the action consists of `LLMAction_` followed by the agent ID. Workflow settings use this internal name. On the target form, the command that invokes the action has the caption specified in the **Button Name** box of the [Agents](../UserGuide/ML_20_20_00.md) form for this agent.
+
+You can configure the agent action as you configure other graph actions. For example, you can make it available for particular states of a record, use it to trigger a transition, or configure the system to perform it automatically.
+
+For information about configuring an agent and using its action in business processes, see [Integration with LLM Providers: Use of Agent Actions](../UserGuide/LLM_Providers_Agent_Actions_Concept.md).
+
+## Viewing of Changes Between the Predefined and Customized Action
 
 All predefined actions of the applicable screen are displayed on the [Actions](../UserGuide/AU_20_10_50.md) page by default. If you have modified a predefined action on this page, you can view the changes by clicking **View Changes** on the More menu. You can also return the action properties to the original predefined state, if needed.
 

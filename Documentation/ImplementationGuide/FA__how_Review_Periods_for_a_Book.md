@@ -1,8 +1,8 @@
-# To Review the Periods of a Particular Book {#_ed20e5b1-e92d-4d55-9373-10c2646e7674 .task}
+# To Review the Periods of a Particular Book
 
 You can review the periods used for a particular depreciation book on the [Book Calendars](../UserGuide/FA_30_40_00.md) \(FA304000\) form.
 
-## To Review the Periods for a Particular Book { .section}
+## To Review the Periods for a Particular Book
 
 1.  Open the [Book Calendars](../UserGuide/FA_30_40_00.md) \(FA304000\) form.
 2.  In the **Book** box of the Selection area, select the book for which you want to review periods.

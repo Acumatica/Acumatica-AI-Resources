@@ -1,4 +1,4 @@
-# Step 2: Defining the Set of States of the Workflow {#_080c1dd4-3765-4095-be96-8fb4f59c8bca .task}
+# Step 2: Defining the Set of States of the Workflow
 
 In this step, you will define the set of states for the workflow of a repair work order. The workflow state is determined by one of the fields of the record, which is usually the `Status` field. Therefore, you need to define the set of states that corresponds to the set of statuses that a repair work order can have.
 
@@ -15,7 +15,7 @@ To create the set of workflow states, do the following:
 
 1.  In the `Constants.cs` file, make sure that the constants for the **Status** box are defined as shown in the following code. These values will be used to indicate the states of the workflow.
 
-    ```language-csharp
+    ```csharp
         //Constants for the statuses of repair work orders
         public static class WorkOrderStatusConstants
         {
@@ -30,7 +30,7 @@ To create the set of workflow states, do the following:
 
 2.  In the `RSSVWorkOrderEntry_Workflow` class, define the `Constants` region and the public static class inside it, as the following code shows.
 
-    ```language-csharp
+    ```csharp
             #region Constants
             public static class States
             {
@@ -40,7 +40,7 @@ To create the set of workflow states, do the following:
 
 3.  In the `States` class, define the constant string values that correspond to the repair work order statuses, as the following code shows.
 
-    ```language-csharp
+    ```csharp
                 public const string OnHold = WorkOrderStatusConstants.OnHold;
                 public const string ReadyForAssignment =
                   WorkOrderStatusConstants.ReadyForAssignment;
@@ -53,7 +53,7 @@ To create the set of workflow states, do the following:
 
 4.  In the `States` class, define the classes for each state of the workflow, as the following code shows.
 
-    ```language-csharp
+    ```csharp
                 public class onHold : PX.Data.BQL.BqlString.Constant<onHold>
                 {
                     public onHold() : base(OnHold) { }

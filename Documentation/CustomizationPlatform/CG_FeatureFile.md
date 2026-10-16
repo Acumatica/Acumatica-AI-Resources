@@ -1,4 +1,4 @@
-# The Features.xml File {#_9ce76518-8acc-46d2-97c6-f909f5514df7 .concept}
+# The Features.xml File
 
 Every instance of Acumatica ERP has a `Feature.xml` file, located in the PX.Data.dll library. This file contains the description of the out-of-the-box features that are available in the instance and displayed on the Enable/Disable Features \(CS100000\) form.
 
@@ -16,7 +16,7 @@ Each feature is represented in the `Features.xml` file by a `Feature` element wi
 
 For all custom features you are implementing, you should create a new `Features.xml` file of the same structure that contains information about all new features.
 
-## Targets for Rules { .section}
+## Targets for Rules
 
 By using the `Access` element, you can set up rules for the following items:
 

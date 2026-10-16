@@ -1,8 +1,8 @@
-# Overview of Synchronization with Salesforce {#_b9ed97ce-122c-4e34-a10c-32fb7e0203fb .concept}
+# Overview of Synchronization with Salesforce
 
 If your company uses both Salesforce and Acumatica ERP, you may want to synchronize CRM-related data between these systems, so users can work simultaneously in both systems. Acumatica ERP provides a synchronization solution that supports bidirectional synchronization of this data in real time.
 
-## In This Chapter { .section}
+## In This Chapter
 
 -   [Synchronization Solution Overview](IS__con_Solution_Overview.md)
 -   [Requirements and Prerequisites](IS__con_Requirements_and_Prerequisites.md)

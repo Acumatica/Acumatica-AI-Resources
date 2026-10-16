@@ -1,4 +1,4 @@
-# Project Budget: Automatic Generation of the Revenue Budget {#_c12cd124-2ac9-2147-a687-fa3aadcc1e82 .concept}
+# Project Budget: Automatic Generation of the Revenue Budget
 
 If you have configured the cost budget for a project, you can automatically populate the revenue budget on the **Revenue Budget** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form based on the budgeted project costs.
 

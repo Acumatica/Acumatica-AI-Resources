@@ -1,6 +1,6 @@
-# To Add a Custom Report to a Project {#_776bfc8f-54eb-44c7-845a-0ff36758fb02 .concept}
+# To Add a Custom Report to a Project
 
-You can add an Acumatica Report Designer custom report to a customization project. Before adding a report to a project, you have to construct the report in Acumatica Report Designer and save the report to the database. \(For more information about reports, see [Acumatica Report Designer Guide](../UserGuide/ReportDesigner_Main.md).\)
+You can add an Acumatica Report Designer custom report to a customization project. Before adding a report to a project, you have to construct the report in Acumatica Report Designer and save the report to the database. \(For more information about reports, see [Acumatica Report Designer](../UserGuide/ReportDesigner_Main.md).\)
 
 To add a custom report to a project, perform the following actions:
 
@@ -13,7 +13,6 @@ To add a custom report to a project, perform the following actions:
 
 5.  In the dialog box, click **OK** to add the selected report to the customization project.
 
-    ![](images/CG_GL_Items_Reports_Adding_01.png "Adding a custom report to the project")
 
 
 **Attention:** To give users the ability to navigate to the custom report in Acumatica ERP, you have to add the appropriate site map node to the customization project on the [Site Map](../UserGuide/AU_20_80_00.md) page of the Customization Project Editor.

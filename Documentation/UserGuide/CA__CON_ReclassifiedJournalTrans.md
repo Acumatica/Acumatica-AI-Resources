@@ -1,10 +1,10 @@
-# Reclassification Results {#_b073dfd3-5c44-48f8-a717-441b9f24e684 .concept}
+# Reclassification Results
 
 You can view the results of your actions during each stage of the processing of unknown payments.
 
 In this topic, you will read about the journal transactions and the documents the system generates when you record and reclassify the unknown payments.
 
-## Reclassifying Incoming Unknown Payments {#section_swc_kjv_vxb .section}
+## Reclassifying Incoming Unknown Payments
 
 On the [Cash Account Details](CA_30_30_00.md) \(CA303000\) form, you select the bank cash account to which you have recorded the unknown payment. In the table, you locate the record, and by clicking the batch number link, you can view the following journal transactions, which are generated when the incoming payment is initially created.
 
@@ -31,7 +31,7 @@ You can view the resulting journal transactions by clicking the batch number lin
 |Unknown Payments Account|Amount|0.0|
 |Accounts Payable Account|0.0|Amount|
 
-## Reclassifying Outgoing Unknown Payments {#section_ywc_kjv_vxb .section}
+## Reclassifying Outgoing Unknown Payments
 
 On the [Cash Account Details](CA_30_30_00.md) form, you select the bank cash account to which you have recorded the unknown payment. In the table, you locate the record, and by clicking the batch number link, you can view the following journal transactions, which are generated when the outgoing payment is initially created.
 
@@ -58,5 +58,5 @@ You can view the resulting journal transactions by clicking the batch number lin
 |Unknown Payments Account|0.0|Amount|
 |Accounts Payable Account|Amount|0.0|
 
-**Parent topic:**[Reclassification of Unknown Payments](../UserGuide/CA__con_Reclassification_of_Payments.md)
+**Parent topic:**[Tracking Cash Payments](../UserGuide/CA__MNG_TrackingCashPayments.md)
 

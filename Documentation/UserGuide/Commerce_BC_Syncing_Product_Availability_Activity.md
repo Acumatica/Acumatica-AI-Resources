@@ -1,10 +1,10 @@
-# Product Availability: To Export Product Availability Data {#_eec04634-b92c-42ce-8c23-9135c9d6d148 .task}
+# Product Availability: To Export Product Availability Data
 
 In this activity, you will specify the default availability settings for the BigCommerce store, specify the availability settings for particular stock items, export product availability data to the BigCommerce store, and review the results of the export.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company sells several kinds of jams in its online store. The jams can be ordered in the online store as follows:
 
@@ -17,7 +17,7 @@ Item quantities are available for purchase in the online store only if they are 
 
 Acting as an implementation consultant helping SweetLife to set up the integration of Acumatica ERP with the BigCommerce store, you need to configure the system so that the items' availability will be tracked according to the company's preferences.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -38,7 +38,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
     |*CHERJAM96*|*Set as Pre-Order*|*Store Default*|
 
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -47,7 +47,7 @@ In this activity, you will do the following:
 3.  On the [Prepare Data](BC_50_10_00.md) \(BC501000\) form, prepare the product availability data for synchronization, and on the [Process Data](BC_50_15_00.md) \(BC501500\) form, process the prepared product availability data.
 4.  In the BigCommerce store, review the availability settings and quantities of the exported stock items.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you complete the instructions in this activity, do the following:
 
@@ -62,7 +62,7 @@ Before you complete the instructions in this activity, do the following:
 5.  On the **Entities** tab, select the **Active** check box in the row of the *Product Availability* entity.
 6.  On the form toolbar, click **Save**.
 
-## Step 1: Updating the Default Availability Settings { .section}
+## Step 1: Updating the Default Availability Settings
 
 Now you need to specify the availability settings that the system will apply by default to stock items and non-stock items exported from Acumatica ERP to the BigCommerce store. While you are viewing the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form for the *SweetStore - BC* store, do the following:
 
@@ -86,7 +86,7 @@ Now you need to specify the availability settings that the system will apply by 
 
 3.  On the form toolbar, click **Save** to save the settings.
 
-## Step 2: Reviewing the Available Quantities of Items { .section}
+## Step 2: Reviewing the Available Quantities of Items
 
 To review the availability quantity of the stock items, do the following:
 
@@ -98,10 +98,9 @@ To review the availability quantity of the stock items, do the following:
 
     The system now displays only the items that are stored in the *JS1* warehouse location. Because you have set the **Availability Mode** setting to *Available for Shipping*, the quantities of the items displayed in the **Qty. Available for Shipping in Location** column \(which is shown in the following screenshot\) will be synchronized with the BigCommerce store. Notice that the *BANJAM96*, *CHERJAM96*, *PEARJAM96*, and *PLUMJAM96* stock items are available at the *JS1* location \(a nonzero quantity is displayed for each of these items in the **Qty. Available for Shipping in Location** column\), whereas the *BANJAM08*, *PEARJAM08*, and *PLUMJAM08* stock items have quantities of 0.
 
-    ![](Images/activity_Commerce_BC_Syncing_Availability.png "Quantities of stock items available for shipping")
 
 
-## Step 3: Synchronizing the Product Availability Data { .section}
+## Step 3: Synchronizing the Product Availability Data
 
 To synchronize the availability settings and the quantities of the stock items, do the following:
 
@@ -118,7 +117,7 @@ To synchronize the availability settings and the quantities of the stock items, 
 6.  On the form toolbar, click **Process All** to process the prepared synchronization records of the stock items you updated in the previous steps.
 7.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 4: Reviewing the Synchronized Data { .section}
+## Step 4: Reviewing the Synchronized Data
 
 To review the synchronized availability data in the BigCommerce store, do the following:
 

@@ -1,4 +1,4 @@
-# Acumatica Add-In for Outlook: Lead Management {#_e472f5d2-592d-4d46-9653-69d016937faf .concept}
+# Acumatica Add-In for Outlook: Lead Management
 
 With the Acumatica add-in for Outlook, you can easily convert any email from a potential customer into a lead and save it in Acumatica ERP.
 
@@ -12,7 +12,7 @@ If matching leads are found, they appear in the **Leads** section of the Related
 -   Review the lead by clicking its name, which is a link. The record opens on the [Leads](CR_30_10_00.md) form in your Acumatica ERP instance.
 -   Quickly create a related lead and link it to the email, as described in the next section.
 
-## Lead Creation { .section}
+## Lead Creation
 
 To create a lead with the email address selected in the Filter box of the Related Records form, click **Add Lead** in the **Leads** section—either directly or through the More menu.
 
@@ -25,14 +25,13 @@ The Lead form opens \(see below\), and the following boxes may be filled in auto
 -   **Description**: The email subject.
 -   **Link Email to Lead**: Selected.
 
-![](Images/OU_AddIn_Lead_Form.png "The Lead form")
 
 After you click **Create Lead**, the form you go to depends on the state of the **Link Email to Lead** check box:
 
 -   If it’s cleared, you return to the Related Records form. The system refreshes the **Leads** section and shows the newly created lead.
 -   If it’s selected, you go to the Email Activity form. The system fills in the **Related Account** and **Related Entity** boxes with the lead you created and selects *Lead* in the **Related Entity Type** box. For details, see [Acumatica Add-In for Outlook: Email Activity Management](OU_AddIn_Email_Activity_Management.md). The email is linked to the newly created lead in Acumatica ERP.
 
-## Access Rights { .section}
+## Access Rights
 
 Users with the following user roles have the *Delete* access rights to the Lead form:
 

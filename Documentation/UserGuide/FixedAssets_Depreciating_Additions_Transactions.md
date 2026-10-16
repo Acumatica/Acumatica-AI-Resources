@@ -1,8 +1,8 @@
-# Depreciation of Additions: Generated Transactions {#_11cc8c29-85c3-4e7a-8d40-a7f69604ee50 .concept}
+# Depreciation of Additions: Generated Transactions
 
 As you fully depreciate additions to a fixed asset, you create a manual transaction with the *Depreciation+* type to adjust depreciation. To update the balances of GL accounts, the system generates the GL transaction described in the following section.
 
-## Transaction Generated for the Adjustment Transaction {#section_q1g_ljv_vxb .section}
+## Transaction Generated for the Adjustment Transaction
 
 When you create and release a *Depreciation+* transaction, the system generates the following general ledger transaction.
 

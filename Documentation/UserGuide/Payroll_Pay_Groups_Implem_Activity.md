@@ -1,8 +1,8 @@
-# Pay Groups, Payroll Calendars, and Pay Periods: Implementation Activity {#_5f34915e-8933-4836-abea-f195d708fc51 .task}
+# Pay Groups, Payroll Calendars, and Pay Periods: Implementation Activity
 
 In the following implementation activity, you will learn how to create pay groups, configure payroll calendars, and generate pay periods for each pay group with the configured payroll calendar.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife company is going to use the following pay period schedule:
 
@@ -11,15 +11,15 @@ Suppose that the SweetLife company is going to use the following pay period sche
 
 Acting as a system administrator, you need to create two pay groups—one for hourly employees and one for monthly employees, and then prepare a pay period schedule by configuring payroll calendars and generating pay periods for these pay groups.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100 Payroll* snapshot, for the purposes of this activity, on the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, GL accounts that you will use for deduction and benefit expenses and liabilities, including *20300*, *24100*, *65100*, *69500*, and *69600*, have been added.
 
-## Process Overview { .section}
+## Process Overview
 
 You create pay groups on the [Pay Groups](PR_20_50_00.md) \(PR205000\) form. For each pay group, on the [Payroll Calendar](PR_20_60_00.md) \(PR206000\) form, you configure a payroll calendar. For each pay group with the configured payroll calendar, on the [Pay Periods](PR_20_10_00.md) \(PR201000\) form, you generate pay periods.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring pay groups, payroll calendars, and pay periods, you should launch the Acumatica ERP website and sign in as a system administrator by using the following credentials:
 
@@ -30,7 +30,7 @@ As a prerequisite activity, in the company to which you are signed in, be sure y
 
 As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course.
 
-## Step 1: Creating a Monthly Pay Group { .section}
+## Step 1: Creating a Monthly Pay Group
 
 To create a monthly pay group, do the following:
 
@@ -47,7 +47,7 @@ To create a monthly pay group, do the following:
     -   **Default**: Cleared
 3.  On the form toolbar, click **Save**.
 
-## Step 2: Creating a Weekly Pay Group { .section}
+## Step 2: Creating a Weekly Pay Group
 
 To create a weekly pay group, while you are still viewing pay groups on the [Pay Groups](PR_20_50_00.md) \(PR205000\) form, do the following:
 
@@ -64,7 +64,7 @@ To create a weekly pay group, while you are still viewing pay groups on the [Pay
     -   **Default**: Cleared
 3.  On the form toolbar, click **Save**.
 
-## Step 3: Configuring a Payroll Calendar for the Monthly Pay Group { .section}
+## Step 3: Configuring a Payroll Calendar for the Monthly Pay Group
 
 To configure a payroll calendar for the monthly pay group, , while you are still viewing pay groups on the [Pay Groups](PR_20_50_00.md) \(PR205000\) form, do the following:
 
@@ -80,7 +80,7 @@ To configure a payroll calendar for the monthly pay group, , while you are still
 
 5.  On the form toolbar, click **Save**.
 
-## Step 4: Configuring a Payroll Calendar for the Weekly Pay Group { .section}
+## Step 4: Configuring a Payroll Calendar for the Weekly Pay Group
 
 To configure a payroll calendar for the weekly pay group, while you are still on the [Payroll Calendar](PR_20_60_00.md) \(PR206000\) form, do the following:
 
@@ -88,7 +88,7 @@ To configure a payroll calendar for the weekly pay group, while you are still on
 2.  In the **Period Type** box, select *Weekly*.
 3.  On the form toolbar, click **Save**.
 
-## Step 5: Generate Pay Periods for the Monthly Pay Group { .section}
+## Step 5: Generate Pay Periods for the Monthly Pay Group
 
 To generate pay periods for the monthly pay group, do the following:
 
@@ -101,7 +101,7 @@ To generate pay periods for the monthly pay group, do the following:
 
 5.  On the form toolbar, click **Save**.
 
-## Step 6: Generate Pay Periods for the Weekly Pay Group { .section}
+## Step 6: Generate Pay Periods for the Weekly Pay Group
 
 To generate pay periods for the weekly pay group, while you are still on the [Pay Periods](PR_20_10_00.md) \(PR201000\) form, do the following:
 

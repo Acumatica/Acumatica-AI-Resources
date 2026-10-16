@@ -1,4 +1,4 @@
-# Allocation Rules: Allocation Between the Same Accounts and Subaccounts {#_3c58aed1-ae32-450a-9c19-6b5f839b5006 .concept}
+# Allocation Rules: Allocation Between the Same Accounts and Subaccounts
 
 If you need to apply the same allocation rule to different accounts and subaccounts, you do not need to create an allocation rule for each account–subaccount pair. When creating an allocation rule on the [Allocations](../UserGuide/GL_20_45_00.md) \(GL204500\) form, you can select the **Allocate Source Accounts Separately** check box on the **Allocation** tab for the new rule. With this check box selected, empty values can be left in the **Account** and **Subaccount** columns on the **Destination Accounts** tab.
 
@@ -13,7 +13,7 @@ For allocation rules that have this check box selected, the system behavior on t
 
 **Note:** Because the structure of the *SUBACCOUNT* segmented key can be changed on the [Segmented Keys](../UserGuide/CS_20_20_00.md) \(CS202000\) form when no segment values have been entered yet, it is possible to change this structure after allocations have been created. In this case, you need to manually update allocation rules on the [Allocations](../UserGuide/GL_20_45_00.md) form.
 
-## Example { .section}
+## Example
 
 Suppose that the **Allocate Source Accounts Separately** check box is selected and *By Percent* is specified in the **Distribution Method** box on the [Allocations](../UserGuide/GL_20_45_00.md) \(GL204500\) form. The following accounts and subaccounts are specified on the **Source Accounts** tab:
 

@@ -1,10 +1,10 @@
-# Outside Processing: Automatic Move Transaction {#_276ce238-5676-42e7-847b-bafb7e17889c .concept}
+# Outside Processing: Automatic Move Transaction
 
 You can set up an outside operation in such a way that the system will automatically generate a move transaction for the completed items when the related purchase receipt is released. To do this, you add a material line for subcontractor charges with the *Subcontract* material type and the *Purchase and Move* subcontract source on the [Production Order Details](AM_20_90_00.md), [Bill of Material](AM_20_80_00.md) \(AM208000\), [Engineering Change Request](AM_21_00_00.md) \(AM210000\), [Engineering Change Order](AM_21_50_00.md) \(AM215000\), or [Estimate Operation](AM_30_40_00.md) \(AM304000\) form.
 
 **Attention:** You can add only one material line with the *Purchase and Move* subcontract source to each outside operation.
 
-## Automatic Generation and Release of the Move Transaction { .section}
+## Automatic Generation and Release of the Move Transaction
 
 When a purchase receipt is released on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) or [Receive and Put Away](PO_30_20_20.md) \(PO302020\) form, a move transaction is automatically created and released if all of the following conditions are met:
 
@@ -27,7 +27,7 @@ No move transactions will be created automatically if any of the following condi
 
 Information about the automatically generated move transaction is displayed on the **Move** tab of the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form.
 
-## Setup Recommendations for the Purchase and Move Subcontract Source { .section}
+## Setup Recommendations for the Purchase and Move Subcontract Source
 
 To avoid issues with automatic release of the move transactions for an outside service operation with the *Purchase and Move* subcontract source, observe the following recommendations:
 

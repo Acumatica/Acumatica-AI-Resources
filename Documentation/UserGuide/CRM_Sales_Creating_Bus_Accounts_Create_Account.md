@@ -1,14 +1,14 @@
-# Business Accounts: To Create a Business Account Manually {#_93074863-13bd-4db6-8a38-7a838246515f .task}
+# Business Accounts: To Create a Business Account Manually
 
 The following activity demonstrates how to manually create a business account, review and update the settings of the newly created account, and associate a primary contact with the account.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are David Chubb, a sales manager of the SweetLife Fruits &amp; Jams company.You have received an inquiry submitted via the company’s website form by Debbie Euston, the assistant bakery manager at Delicious Crispy, a bakery that bakes pastries, usually with jam filling. Debbie is considering purchasing 100 jars of apple jam. You have created the lead in the system, emailed the company’s price list to Debbie, and called her, and Debbie confirmed her interest in purchasing the jam. You have created a contact, and now you need to create a business account in the system.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -19,7 +19,7 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Business Account Classes](CR_20_80_00.md) \(CR208000\) form, the *BAKERY* business account class has been defined in the system.
 -   On the [Contacts](CR_30_20_00.md) \(CR302000\) form, the *Debbie Euston* and *Patrick Roberts* contacts have been created in the system.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following
 
@@ -29,7 +29,7 @@ In this activity, you will do the following
     2.  Select a primary contact for the newly created business account.
     3.  Select an owner for the newly created business account.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating a business account, you should do the following:
 
@@ -39,7 +39,7 @@ Before you start creating a business account, you should do the following:
     -   **Password**: *123*
 3.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Creating a Business Account Based on a Contact { .section}
+## Step 1: Creating a Business Account Based on a Contact
 
 To create a business account for the contact *Debbie Euston*, and specify additional settings for it \(its primary contact and its owner in your company who will work with the account\) do the following:
 
@@ -70,7 +70,7 @@ To create a business account for the contact *Debbie Euston*, and specify additi
 
 You have created a business account for the *Debbie Euston* contact.
 
-## Step 2: Associating a New Contact with a Business Account { .section}
+## Step 2: Associating a New Contact with a Business Account
 
 Suppose that Patrick Roberts, a new manager at Delicious Crispy has contacted you and asked to send him the SweetLife price list. You have created a new *Patrick Roberts* contact in the system and need to associate this contact with the *DELICRISP* business account.
 
@@ -86,7 +86,7 @@ To associate the *Patrick Roberts* contact with the *DELICRISP* business account
 
 You have associated a new contact with the business account. The system has added this contact on the **Contacts** tab of the [Business Accounts](CR_30_30_00.md) \(CR303000\) form.
 
-## Step 3: Changing the Primary Contact for the Business Account { .section}
+## Step 3: Changing the Primary Contact for the Business Account
 
 Suppose that Debbie Euston has been promoted to another job in the company, and now you should contact her colleague, Patrick Roberts. You have created the *Patrick Roberts* contact and associated this contact with the *DELICRISP* business account as described in the previous step.
 
@@ -96,7 +96,6 @@ To change the primary contact for the *DELICRISP* business account, do the follo
 2.  On the **General** tab of the [Business Accounts](CR_30_30_00.md) \(CR303000\) form, which opens in a pop-up window, in the **Name** box of the **Primary Contact** section, click the magnifier button.
 3.  In the lookup table, which opens, select *Patrick Roberts*. Notice that the **Primary Contact** section has become populated with the contact and address settings of the new primary contact. On the **Contacts** tab, you can see that the **Primary** check box has been selected for the *Patrick Roberts* contact because the contact was defined as primary for the business account \(see the following screenshot\).
 
-    ![](Images/activity_CRM_Mktg_Primary_Contact_for_Business_Account.png "The primary contact for the business account")
 
 4.  On the form toolbar, click **Save**.
 

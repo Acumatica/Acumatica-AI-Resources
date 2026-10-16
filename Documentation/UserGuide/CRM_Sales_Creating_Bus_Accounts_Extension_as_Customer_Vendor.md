@@ -1,10 +1,10 @@
-# Business Accounts: Extension of a Business Account as a Customer or Vendor {#_f1222a9d-c179-40eb-8037-4eb238ececc3 .concept}
+# Business Accounts: Extension of a Business Account as a Customer or Vendor
 
 The organizations to which your company intends to sell products and services can initially be defined in Acumatica ERP as business accounts on the [Business Accounts](CR_30_30_00.md) \(CR303000\) form. These prospective customers may later become—that is, be *extended* as—customers, vendors, or both. The type of the business account is displayed in the **Type** box on the **General** tab of the form and can be one of the following: *Business Account*, *Customer*, *Vendor*, or *Customer &amp; Vendor*.
 
 A customer or vendor can be created in the system directly without first being defined as a business account. In this case, the system automatically creates a business account corresponding to the customer or vendor.
 
-## A Business Account Extended as a Customer { .section}
+## A Business Account Extended as a Customer
 
 You extend a business account to be a customer account by clicking **Extend as Customer** on the form toolbar or More menu of the [Business Accounts](CR_30_30_00.md) \(CR303000\) form. The system opens the [Customers](AR_30_30_00.md) \(AR303000\) form for the new customer with the appropriate settings copied from the business account. On the form, you specify the customer class, the financial settings, and additional settings \(such as billing address\) that may be used in Acumatica ERP documents of the customer.
 
@@ -20,7 +20,7 @@ If you create a sales order from the [Opportunities](CR_30_40_00.md) \(CR304000\
 
 Business accounts and customers share the same statuses, which are displayed in the **Customer Status** box of the Summary area of the [Business Accounts](CR_30_30_00.md) and [Customers](AR_30_30_00.md) forms. The status of a particular business account or customer may be one of the following: *Prospect*, *Active*, *On Hold*, *Credit Hold*, *One-Time*, or *Inactive*.
 
-## A Business Account Extended as a Vendor { .section}
+## A Business Account Extended as a Vendor
 
 You extend a business account to be a vendor account by clicking **Extend as Vendor** on the form toolbar or More menu of the [Business Accounts](CR_30_30_00.md) \(CR303000\) form. The system opens the [Vendors](AP_30_30_00.md) \(AP303000\) form with the appropriate settings copied from the business account. On the form, you specify the vendor class, the financial settings, and additional settings \(such as billing address\) that may be used in Acumatica ERP documents of the vendor. You then save the vendor.
 

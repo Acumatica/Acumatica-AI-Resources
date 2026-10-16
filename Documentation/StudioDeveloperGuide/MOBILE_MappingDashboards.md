@@ -1,4 +1,4 @@
-# Mapping Dashboards {#_4fccbb78-66c6-43f0-99f9-d345dc642a2a .concept}
+# Mapping Dashboards
 
 You can add a dashboard to the mobile site map. To do this, you have to add to the mobile site map the sm:Screen tag with the Id attribute set to the dashboard’s form ID and the Type attribute set to *Dashboard*. The following example provides mapping of three dashboard screens for the mobile app.
 
@@ -25,7 +25,6 @@ If you click a dashboard widget, the mobile app tries to open the appropriate sc
 
 The following screenshot displays a screen for the Sales Manager dashboard page that is defined in an instance of Acumatica ERP.
 
-![](Images/MOBILE_MappingDashboards_00.png "Viewing a dashboard screen")
 
 **Parent topic:**[Screens](../StudioDeveloperGuide/MOBILE_Screens.md)
 

@@ -1,8 +1,8 @@
-# Preparing Entities for Synchronization: Shopify Metafields {#_78db5b97-73ba-4c50-9042-fc8b5828b6ff .concept}
+# Preparing Entities for Synchronization: Shopify Metafields
 
 Shopify customers can create custom fields in their stores to hold additional information about customers, products, orders, blog posts, or even the store itself. Data from metafields can be used for internal purposes \(for example, for reporting and analysis\) or added to the store's theme to customize the appearance of the storefront to show more information to customers. For example, you might want to display additional information about a product on a product page, to add information about a customer \(which is or is not visible to the customer in their store account\), or to add an additional box to the checkout page to request information about the urgency of the order fulfillment. For more information about metafields in Shopify, see [the Shopify documentation](https://help.shopify.com/en/manual/metafields).
 
-## Using Shopify Metafields in Field Mapping { .section}
+## Using Shopify Metafields in Field Mapping
 
 You can map fields from Acumatica ERP to metafields created in a Shopify store for the following entities maintained on the [Entities](BC_20_20_00.md) \(BC202000\) form:
 
@@ -14,30 +14,92 @@ You can map fields from Acumatica ERP to metafields created in a Shopify store f
 
 To use a Shopify metafield in field mapping for data import, you need to select the appropriate option in the **External Object** column of the table on the **Import Mapping** tab or the **Export Mapping** tab, depending on the synchronization direction. The options that are available for each of the entities are summarized in the following table.
 
-|Entity|Tab|External Object|
-|------|---|---------------|
-|*Stock Item*|**Export Mapping**|*Product → Metafields*
+<table id="_8438d828-62b6-4276-8840-11a16e4f0e20"><thead><tr><th>
+
+Entity
+
+</th><th>
+
+Tab
+
+</th><th>
+
+External Object
+
+</th></tr></thead><tbody><tr><td>
+
+*Stock Item*
+
+</td><td>
+
+**Export Mapping**
+
+</td><td>
+
+*Product → Metafields*
 
  *Product → Product Variants → Metafields*
 
-|
-|*Non-Stock Item*|**Export Mapping**|*Product → Metafields*
+</td></tr><tr><td>
+
+*Non-Stock Item*
+
+</td><td>
+
+**Export Mapping**
+
+</td><td>
+
+*Product → Metafields*
 
  *Product → Product Variants → Metafields*
 
-|
-|*Template Item*|**Export Mapping**|*Product → Metafields*
+</td></tr><tr><td>
+
+*Template Item*
+
+</td><td>
+
+**Export Mapping**
+
+</td><td>
+
+*Product → Metafields*
 
  *Product → Product Variants → Metafields*
 
-|
-|*Customer*|**Export Mapping**|*Customer → Metafields*|
-|**Import Mapping**|
-|*Sales Order*|**Import Mapping**|*Order Data - Metafields*
+</td></tr><tr><td rowspan="2">
+
+*Customer*
+
+</td><td>
+
+**Export Mapping**
+
+</td><td rowspan="2">
+
+*Customer → Metafields*
+
+</td></tr><tr><td>
+
+**Import Mapping**
+
+</td></tr><tr><td>
+
+*Sales Order*
+
+</td><td>
+
+**Import Mapping**
+
+</td><td>
+
+*Order Data - Metafields*
 
  *Order Data → Customer → Metafields*
 
-|
+</td></tr></tbody>
+</table>
 
 Metafields in Shopify have several properties, including the following:
 

@@ -1,4 +1,4 @@
-# Creating Project Templates and Common Tasks {#_c7d44872-f472-7248-72de-b948cbe72a48 .concept}
+# Creating Project Templates and Common Tasks
 
 Your organization may plan to perform projects that are similar to one another, and the projects may have tasks that are like other tasks in the same project or tasks in other projects. In this case, you can expedite the process of creating projects by using project and task templates. You can create any number of templates that include all the boilerplate parameters for all types of projects and for all types of tasks.
 

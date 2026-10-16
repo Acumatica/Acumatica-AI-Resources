@@ -1,4 +1,4 @@
-# Processing Customer Returns for Replacement at the Same Price {#_fb35ffbb-b4f9-4e14-8588-7e770d27a228 .concept}
+# Processing Customer Returns for Replacement at the Same Price
 
 Acumatica ERP supports the basic types of customer returns of items your company has sold. This includes returns in which you receive the items to inventory and replace the items with the same items or other items at exactly the same price. With this return type, you do not need to process an invoice or a credit memo.
 

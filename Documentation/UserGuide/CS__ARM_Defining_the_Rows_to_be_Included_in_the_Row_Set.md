@@ -1,4 +1,4 @@
-# To Define the Rows of the Row Set {#_3913e24a-08ff-4638-9566-2172e364c394 .task}
+# To Define the Rows of the Row Set
 
 On the [Row Sets](CS_20_60_10.md) \(CS206010\) form, you can perform the following operations with the rows, each of which is described in this topic:
 
@@ -8,7 +8,7 @@ On the [Row Sets](CS_20_60_10.md) \(CS206010\) form, you can perform the followi
 
 The table on this form displays the rows of the row set and their attributes.
 
-## To Create a Row { .section}
+## To Create a Row
 
 1.  Open the [Row Sets](CS_20_60_10.md) \(CS206010\) form.
 2.  In the **Code** box of the Summary area, select the code of the row set to which you want to add a row.
@@ -22,7 +22,7 @@ The table on this form displays the rows of the row set and their attributes.
 
 5.  On the form toolbar, click **Save**.
 
-## To View and Edit the Row Attributes { .section}
+## To View and Edit the Row Attributes
 
 You can edit any row attributes by changing the relevant values. To edit rows, do the following:
 
@@ -32,7 +32,7 @@ You can edit any row attributes by changing the relevant values. To edit rows, d
 4.  Repeat Step 3 for each row you want to edit.
 5.  On the form toolbar, click **Save**.
 
-## To Delete a Row { .section}
+## To Delete a Row
 
 1.  Open the [Row Sets](CS_20_60_10.md) \(CS206010\) form.
 2.  Select the existing row set code in the **Code** box in the Row Set area, or use navigation buttons on the form toolbar to find the required row set.

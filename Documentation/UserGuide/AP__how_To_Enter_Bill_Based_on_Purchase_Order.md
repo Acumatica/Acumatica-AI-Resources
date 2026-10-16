@@ -1,8 +1,8 @@
-# To Enter a Bill Based on Purchase Orders {#_74dacec4-4a12-4a9d-b575-32bd5fadd1fd .task}
+# To Enter a Bill Based on Purchase Orders
 
 In Acumatica ERP, you can enter a bill for non-stock items or services based on purchase orders. Also, you can add stock item lines from the purchase orders for which billing before receipt is allowed. To manually enter a bill based on purchase order, you use the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 
-## To Enter a Bill Based on Purchase Orders {#section_cxh_njv_vxb .section}
+## To Enter a Bill Based on Purchase Orders
 
 1.  Open the [Bills and Adjustments](../Shared/../UserGuide/AP_30_10_00.md) \(AP301000\) form.
 
@@ -28,7 +28,7 @@ In Acumatica ERP, you can enter a bill for non-stock items or services based on 
     4.  In the table on the **Details** tab \(where the lines have been filled with the lines of the selected purchase receipts\), check the items' quantities and costs.
 10. On the form toolbar, click **Save**.
 
-## Notes About the Procedure {#section_dxh_njv_vxb .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

@@ -1,8 +1,8 @@
-# Form Layout: General Information {#_2002c255-c0f8-4a40-9be6-8e75b6772da0 .concept}
+# Form Layout: General Information
 
 When developing an Acumatica ERP form or any of its parts, you should design the layout of the form according to the standard practices. This chapter provides recommendations and descriptions of tools that you can use to design the layout quickly and in a unified way.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn about the following:
 
@@ -13,7 +13,7 @@ In this chapter, you will learn about the following:
 -   Uses of the controls that organize other elements of the form
 -   The ways to configure different types of a control to achieve a particular layout
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You can use the information from this chapter in the following scenarios:
 
@@ -21,7 +21,7 @@ You can use the information from this chapter in the following scenarios:
 -   Developing a new form by using the Modern UI
 -   Developing a new part of an existing form, such as a grid or a tab with elements
 
-## Approaches to Organize Layout { .section}
+## Approaches to Organize Layout
 
 The Modern UI provides the following approaches to quickly organize layout in a unified way:
 

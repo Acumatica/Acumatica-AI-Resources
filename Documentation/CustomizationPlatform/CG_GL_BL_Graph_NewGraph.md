@@ -1,4 +1,4 @@
-# To Create a Custom Graph {#_2a5390d4-caa6-4e07-bbd2-879dc004ef2d .concept}
+# To Create a Custom Graph
 
 You can add a custom business logic controller to a customization project on the Code page of the Customization Project Editor.
 
@@ -11,7 +11,6 @@ To do this, perform the following actions:
 5.  In the **Class Name** box, specify the class name of the business logic controller to be created.
 6.  Click **OK**.
 
-    ![](../Shared/Images/CG_GL_Items_Code_NewGraph.png "Adding a Code item for a custom graph to the project")
 
 
 The platform creates the code template of the class derived from the PXGraph&lt;&gt; class, saves the code as a *Code* item of the project in the database, and opens the item in the [Code Editor](../Shared/../UserGuide/AU_20_40_00_CodeEditor.md).

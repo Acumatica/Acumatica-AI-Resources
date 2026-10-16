@@ -1,4 +1,4 @@
-# sitemap {#_2ed71b43-06cc-4f29-a122-0e10dbdee4fd .concept}
+# sitemap
 
 Switches the MSDL interpreter to editing mode of the mobile site map.
 

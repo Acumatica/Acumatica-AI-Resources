@@ -1,4 +1,4 @@
-# Synchronizing Orders {#_1e64935d-0106-4f74-94e1-fa5e5ac0e034 .concept}
+# Synchronizing Orders
 
 In the topics of this chapter, you will read about the main features of order synchronization between Acumatica ERP and the Shopify store.
 

@@ -1,4 +1,4 @@
-# Querying Data in Acumatica Framework {#_5978bf0a-e65c-47ca-8fec-40aa733ae2b8 .concept}
+# Querying Data in Acumatica Framework
 
 In Acumatica Framework, you generally use business query language \(BQL\) to query data from the database. BQL statements represent specific SQL queries and are translated into SQL by Acumatica Framework, which helps you to avoid the specifics of the database provider and validate the queries at the time of compilation. Acumatica Framework provides two dialects of BQL: traditional BQL and fluent BQL.
 

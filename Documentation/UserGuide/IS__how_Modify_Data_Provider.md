@@ -1,10 +1,10 @@
-# To Modify a File Data Provider {#_3f0206e9-cf13-4d2d-bad5-3eb29f20e82c .task}
+# To Modify a File Data Provider
 
 You can use the [Data Providers](SM_20_60_15.md) \(SM206015\) form to modify existing data providers.
 
 If the data source has changed—for example, if you have added a column to the Excel file—you have to update the data provider. To update the data provider, you have to replace the file attached to the provider on the [Data Providers](SM_20_60_15.md) \(SM206015\) form and update the provider schema.
 
-## To Modify a File Data Provider { .section}
+## To Modify a File Data Provider
 
 1.  On the [Data Providers](SM_20_60_15.md) \(SM206015\) form, select the provider that you want to modify, and on the form title bar, click **Files**.
 2.  In the **Files** dialog box, click **Edit** to the right of the file name.

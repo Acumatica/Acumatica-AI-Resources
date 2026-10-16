@@ -1,10 +1,10 @@
-# Matrix Items: To Purchase Matrix Items {#_ed62e4ee-c620-4ebd-9d56-c4daf1bf8d00 .task}
+# Matrix Items: To Purchase Matrix Items
 
 The following activity will walk you through the process of creating and processing purchasing documents that contain matrix items.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Fruits &amp; Jams has started to sell fruit and vegetable juice. You, as a purchasing manager of the company, have a task to order apple, tomato, pineapple, and orange juice in glass bottles of 16 and 32 fluid ounces, 20 units of each variant, from the All Fruits Mall vendor and receive the juice in the wholesale warehouse.
 
@@ -12,7 +12,7 @@ Stock items for juice have been added to the system as matrix items, but the ite
 
 **Note:** For simplicity, in this activity, you will create and process all documents in the system during the same business date.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 For the purposes of this lesson, the following features have been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form:
 
@@ -28,7 +28,7 @@ The following entities, which you will use in this activity, have been predefine
 -   The *JUICE* template item on the [Template Items](IN_20_30_00.md) \(IN203000\) form
 -   The following matrix items on the [Stock Items](IN_20_25_00.md) \(IN202500\) form: *APL-16OZ-GBT*, *APL-32OZ-GBT*, *ORG-16OZ-GBT*, *ORG-32OZ-GBT*, *PNL-16OZ-GBT*, and *TMT-16OZ-GBT* \(that is, the matrix items for apple and orange juice in glass bottles of 16 and 32 fluid ounces, and for pineapple and tomato juice in glass bottles of 16 fluid ounces\)
 
-## Process Overview { .section}
+## Process Overview
 
 To prepare the purchasing documents for matrix items in this activity, you will do the following:
 
@@ -36,7 +36,7 @@ To prepare the purchasing documents for matrix items in this activity, you will 
 2.  Prepare a purchase receipt on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form when you receive the juices from the vendor.
 3.  Review the availability of the purchased juices on the [Matrix Inventory Summary](IN_40_15_00.md) \(IN401500\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Do the following:
 
@@ -44,7 +44,7 @@ Do the following:
 2.  On the Company and Branch Selection menu, on the top pane of the Acumatica ERP screen, make sure that the SweetLife Head Office and Wholesale Center branch is selected.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to today’s date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating a Purchase Order { .section}
+## Step 1: Creating a Purchase Order
 
 To create a purchase order for 20 units of apple, orange, tomato, and pineapple juice in glass bottles of 16 and 32 fluid ounces, do the following:
 
@@ -79,7 +79,7 @@ To create a purchase order for 20 units of apple, orange, tomato, and pineapple 
 
 You have created the purchase order that contains matrix items.
 
-## Step 2: Processing the Purchase Receipt { .section}
+## Step 2: Processing the Purchase Receipt
 
 Suppose that you have received the ordered juice in the wholesale warehouse. Create the purchase receipt for the purchase order as follows:
 
@@ -91,7 +91,7 @@ Suppose that you have received the ordered juice in the wholesale warehouse. Cre
 
 You have processed the purchase receipt with matrix items.
 
-## Step 3: Reviewing Item Availability { .section}
+## Step 3: Reviewing Item Availability
 
 To make sure that the matrix items you have ordered are being tracked as available in the wholesale warehouse, do the following:
 

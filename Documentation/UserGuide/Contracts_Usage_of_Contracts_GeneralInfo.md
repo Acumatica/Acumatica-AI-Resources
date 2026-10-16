@@ -1,8 +1,8 @@
-# Contract Usage: General Information {#_20eedfc7-1c52-4d13-8933-91c2e6e2721e .concept}
+# Contract Usage: General Information
 
 After contract activation, your company can start providing the services defined by the contract. You record all services executed by employees in accordance with the terms of the contract by tracking them in the system as contract usage. The type of contract usage you record depends on the business scenario and your needs.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -17,11 +17,11 @@ In this chapter, you will learn how to do the following:
     -   Create usage manually for a deposit contract \(directly entering usage transaction\)
     -   Bill the deposit contract by usage entered manually
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You track contract usage for a contract if you need to bill the customer based on its usage of particular services included in the contract.
 
-## Entry of Contract Usage { .section}
+## Entry of Contract Usage
 
 After contract activation, your company starts providing the services defined by the contract. Billing is performed for the usage that has accumulated during a particular billing period.
 
@@ -37,7 +37,7 @@ You can track contract usage for the following entities on the noted forms:
 
 You use the [Contract Usage](CT_30_30_00.md) form to view all usage transactions associated with a contract. To view the usage of contract items provided recurrently, you use the [Customer Contracts](CT_30_10_00.md) \(CT301000\) form.
 
-## Setup of Employee Labor Rates { .section}
+## Setup of Employee Labor Rates
 
 In some cases, a service is provided to a customer by multiple employees with different qualifications. To calculate the service fee that should be used during billing, you should first set up employee labor rates for the contract and then record contract usage in the system by using time activities.
 

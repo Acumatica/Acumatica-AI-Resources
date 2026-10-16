@@ -1,8 +1,8 @@
-# Fixed Asset Troubleshooting: To Change the Salvage Value of an Asset {#_d8ecf053-564d-48ba-9f61-5e7f6572e908 .task}
+# Fixed Asset Troubleshooting: To Change the Salvage Value of an Asset
 
 If the estimation of the salvage value of an asset has changed, you change the estimated salvage value in the asset record accordingly. You use the **General** tab of the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form to change the salvage value of the selected asset.
 
-## To Change the Salvage Value of an Asset {#section_z2h_ljv_vxb .section}
+## To Change the Salvage Value of an Asset
 
 1.  Open the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form.
 2.  In the **Asset ID** box, select the asset whose net book value you want to change.

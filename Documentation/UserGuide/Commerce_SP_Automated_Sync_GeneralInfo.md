@@ -1,8 +1,8 @@
-# Automated Synchronization: General Information {#_bc408e81-b6b1-4785-871a-fbf3bdc29e73 .concept}
+# Automated Synchronization: General Information
 
 After you have performed the initial synchronization between Acumatica ERP and the Shopify store for the needed entities, you might want to set up some of the entities to be synchronized in real time or at regular intervals. For example, you can configure sales orders, payments, and shipments to be imported from the Shopify store into Acumatica ERP as soon as each order is completed, whereas you can configure the export of customers from Acumatica ERP to the Shopify store to be performed only once a month.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,11 +10,11 @@ In this chapter, you will learn how to do the following:
 -   Turn on real-time synchronization of entities
 -   Configure automated synchronization for optimized performance
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You automate the synchronization of entities after you have configured and manually tested the synchronization between Acumatica ERP and the Shopify store to ensure that in your production environment, all needed data is exported and imported to the appropriate system in a timely manner.
 
-## Scheduled and Real-Time Synchronization { .section}
+## Scheduled and Real-Time Synchronization
 
 You can automate the synchronization of data of a particular entity between Acumatica ERP and the Shopify store in the following ways:
 

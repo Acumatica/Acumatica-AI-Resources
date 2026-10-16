@@ -1,14 +1,14 @@
-# Services: To Create a Service with a Fixed Price {#_5693a3ca-525f-46dc-a3fe-454c9a7631a2 .task}
+# Services: To Create a Service with a Fixed Price
 
 In this implementation activity, you will learn how to create a service with a fixed price, regardless of the time spent providing it. You will still specify the typical duration of the service to help the service manager plan workloads in the future.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose the SweetLife Service and Equipment Sales Center has hired a chef who previously worked at top fine-dining restaurants. The company has brought him on as a full-time consultant to develop custom recipes for each business. As a result, SweetLife has decided to offer a recipe development service at a fixed price. Acting as the administrative user, you will create this service in the system.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -25,11 +25,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   On the [Tax Categories](../UserGuide/TX_20_55_00.md) \(TX205500\) form, the *EXEMPT* tax category has been created.
 -   On the [Item Classes](../UserGuide/IN_20_10_00.md#) \(IN201000\) form, the *TRAINING* service class, that is an item class with the *Service* item type has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 By using the [Services](../UserGuide/FS_40_08_00.md) \(FS400800\) form as a starting point, you will add a new record. The system will open the [Non-Stock Items](../UserGuide/IN_20_20_00.md) \(IN202000\) form, on which you will specify the settings of the new service. Then you will confirm that the service has been added to the list on the [Services](../UserGuide/FS_40_08_00.md) \(FS400800\) form.
 
-## System Preparation {#section_lt2_rgy_1hc .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -37,7 +37,7 @@ Before you start this activity, do the following:
 2.  On the Company and Branch Selection menu in the top pane of the Acumatica ERP screen, select the Service and Equipment Sales Center branch.
 3.  Make sure that the *Service Management* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md#) \(CS100000\) form.
 
-## Step: Creating a Service with a Fixed Price { .section}
+## Step: Creating a Service with a Fixed Price
 
 To create the fixed-price recipe development service, do the following:
 

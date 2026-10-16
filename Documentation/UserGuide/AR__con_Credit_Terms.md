@@ -1,4 +1,4 @@
-# Setup of Credit Terms {#_bb0d243d-508c-4bf5-85b4-7b4fcc3d5fac .concept}
+# Setup of Credit Terms
 
 You need to plan the credit terms your company offers to customers, as well as outline the details of the credit terms offered to your company by vendors, which are already defined, in preparation for entering them into the system. We recommend that you decide on the following points when you plan each set of credit terms:
 
@@ -11,7 +11,7 @@ You need to plan the credit terms your company offers to customers, as well as o
 
 If your company has been operating for some time, you already have established credit terms. We recommend that you compare the credit terms your company offers to customers and the credit terms offered to your company by vendors, because in Acumatica ERP, you can use the same credit terms for both customer payments and payments to vendors, if needed.
 
-## Setting Up Credit Terms {#section_pzc_hjv_vxb .section}
+## Setting Up Credit Terms
 
 These are the general steps you need to perform to create a set of credit terms by using the [Credit Terms](CS_20_65_00.md) \(CS206500\) form:
 
@@ -24,7 +24,7 @@ These are the general steps you need to perform to create a set of credit terms 
 4.  Optional: You configure the cash discount conditions.
 5.  Optional: If needed, you change the default installment type of credit terms, which is *Single*, to *Multiple* and define the number of installments and their payment schedule.
 
-## Configuring the Assignment of Credit Terms {#section_szc_hjv_vxb .section}
+## Configuring the Assignment of Credit Terms
 
 By using the credit terms that have been manually or automatically assigned to a document, the system calculates the due date of the document. If a cash discount is applied, the system also calculates the end date of the cash discount period and the cash discount amount for the document.
 
@@ -37,7 +37,7 @@ To make the system automatically assign credit terms to customer documents, you 
 
 Automatic assignment of credit terms to vendor documents is configured similarly to automatic assignment of credit terms to customer documents, with terms being assigned to vendor classes. You also can manually specify or change the credit terms for each vendor by using the [Vendors](AP_30_30_00.md) \(AP303000\) form.
 
-## Setting Up Due Date Calculation {#section_xwk_vkj_gv .section}
+## Setting Up Due Date Calculation
 
 Certain settings specified for the credit terms on the [Credit Terms](CS_20_65_00.md) \(CS206500\) form determine the credit period: the time interval that starts when a customer purchases a product or a service \(on the document date\) and ends when the customer's payment is due. In Acumatica ERP, you do not specify the length of the credit period; you instead specify the way the document due date will be calculated based on the date of the document's creation.
 
@@ -63,7 +63,7 @@ By specifying the appropriate **Due Date Type** setting on the [Credit Terms](CS
 
 For more examples of the ways a credit period is calculated, see [Examples of Credit and Cash Discount Periods](AR__CON_CreditTerms_Examples.md).
 
-## Configuring Installment Payments {#section_yjc_dlj_gv .section}
+## Configuring Installment Payments
 
 Outstanding balances can be paid in a single installment or multiple installments. To configure installment payments, select the *Multiple* option in the **Installment Type** list. By default, the installment type for new credit terms is *Single*. You then specify the number of installments, the frequency or schedule, and the installment method.
 

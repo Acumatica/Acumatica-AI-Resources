@@ -1,23 +1,22 @@
-# Replacing a Component of Target Equipment: General Information {#_447d13fd-049a-4518-acf8-acc4e4332851 .concept}
+# Replacing a Component of Target Equipment: General Information
 
 With Acumatica ERP, you can manage customer requests for replacing components in existing equipment and performing the necessary replacement services on-site.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this lesson, you will learn how to replace a component of target equipment.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You replace a component of target equipment in the following cases:
 
 -   A customer requests the replacement of a specific component within existing target equipment they already own.
 -   Replacement services are required to install the new component in the equipment at the customer’s site.
 
-## Workflow of Target Equipment Component Replacement {#section_pfn_5xj_jdc .section}
+## Workflow of Target Equipment Component Replacement
 
 In the following diagram, you can see the entire process of a component of target equipment being replaced.
 
-![](Images/diag_EquipMgmt_Replacement_of_Component_of_Target_Equipment.png "Replacement of a component of target equipment")
 
 When a customer request is received, a service manager enters a service order by using the [Service Orders](FS_30_01_00.md) \(FS300100\) form. In the service order, the service manager specifies the customer from which the request has been received, the branch and branch location to provide services, and the services that should be performed.
 

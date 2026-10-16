@@ -1,4 +1,4 @@
-# Order Orchestration: General Information {#_9dc93ac5-8a77-4640-b872-9c9526683f38 .concept}
+# Order Orchestration: General Information
 
 With order orchestration in Acumatica ERP, your company can optimize the fulfillment of sales orders and transform the daily fulfillment routine by:
 
@@ -6,7 +6,7 @@ With order orchestration in Acumatica ERP, your company can optimize the fulfill
 -   Optimizing fulfillment efficiency
 -   Reducing time spent on order fulfillment
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -17,11 +17,11 @@ In this chapter, you will learn how to do the following:
 -   Set up types of sales orders for order orchestration
 -   Orchestrate sales orders
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may need to learn how to configure order orchestration if your organization wants to optimize the process of sales order fulfillment.
 
-## Basic Setup { .section}
+## Basic Setup
 
 To start using order orchestration, make sure that the *Order Orchestration* and *Inter-Branch Transactions* features are enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form. Next, choose the *fulfillment strategy* for your shipping process. A fulfillment strategy determines how the system decides which warehouse to ship items from:
 
@@ -33,7 +33,7 @@ Once you’ve chosen your strategy, you will use it to create the following reco
 -   *Types of sales orders*: You can select fulfillment strategies for types of sales orders your organization uses. You can use a different strategy for each type.
 -   *Orchestration plans*: An orchestration plan is a template for order fulfillment. You define multiple orchestration plans and assign a fulfillment strategy to each of them.
 
-## Configuration Workflow for Order Orchestration { .section}
+## Configuration Workflow for Order Orchestration
 
 To configure order orchestration in Acumatica ERP, you generally follow these steps:
 
@@ -44,7 +44,7 @@ To configure order orchestration in Acumatica ERP, you generally follow these st
 2.  **Define orchestration plans**: Next, you add each orchestration plan you want to use on the [Orchestration Plans](../UserGuide/SO_30_46_00.md) \(SO304600\) form.
 3.  **Set up types of sales orders**: Finally, you need to set up the order types of the sales orders you’re going to orchestrate on the [Order Types](../UserGuide/SO_20_10_00.md) form.
 
-## Defining Shipping Zones { .section}
+## Defining Shipping Zones
 
 A shipping zone for order orchestration is a geographic area that contains a list of countries and states. You create shipping zones on the [Shipping Zones](../UserGuide/CS_20_95_00.md) \(CS209500\) form. You can then assign a shipping zone to each customer or customer location on the **Shipping** tab of the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) or [Customer Locations](../UserGuide/AR_30_30_20.md) \(AR303020\) form. When you create a sales order on the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form, the system copies this shipping zone to the **Shipping Zone** box on the **Shipping** tab of that form.
 
@@ -62,7 +62,7 @@ To create a shipping zone for order orchestration on the [Shipping Zones](../Use
 5.  For each state that belongs to the current shipping zone, select the check box in the **Selected** column.
 6.  Click **Add &amp; Close**.
 
-## Defining Orchestration Plans { .section}
+## Defining Orchestration Plans
 
 You use orchestration plans to make the system fulfill orders according to your specifications. You create plans on the [Orchestration Plans](../UserGuide/SO_30_46_00.md) \(SO304600\) form as follows:
 
@@ -73,7 +73,7 @@ You use orchestration plans to make the system fulfill orders according to your 
     -   For *Warehouse Priority*, you select a warehouse in the **Source Warehouse** box, which the system shows instead of the **Shipping Zone** box for this fulfillment strategy. Additionally, you can select the **Include Source Warehouse** check box that also becomes available. If you do, the system adds the source warehouse to the table with priority *0*—the highest priority level.
 4.  Add the list of warehouses and their priority rankings to the table. You can manually change the priority of any warehouse except for the source warehouse.
 
-## Setting Up Sales Order Types { .section}
+## Setting Up Sales Order Types
 
 To complete the implementation of order orchestration, you need to set up the order types of the sales orders you’re going to orchestrate. The order orchestration settings appear for only order types with the following settings on the **Template** tab of the [Order Types](../UserGuide/SO_20_10_00.md) \(SO201000\) form:
 

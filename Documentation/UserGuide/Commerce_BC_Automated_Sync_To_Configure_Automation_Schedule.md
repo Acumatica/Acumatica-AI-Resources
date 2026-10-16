@@ -1,14 +1,14 @@
-# Automated Synchronization: To Configure a New Automation Schedule {#_6ec03ac2-0e49-4f9c-b1fe-9ca161edfc38 .task}
+# Automated Synchronization: To Configure a New Automation Schedule
 
 The following activity will walk you through the process of creating an automation schedule from scratch. To gain greater familiarity with the process, you will create two automation schedules: one that starts data preparation, and one that starts data processing for the customer data.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that as an implementation consultant helping SweetLife to set up integration with BigCommerce, you want to configure continuous synchronization of entities. As part of the setup, you need to configure the system to synchronize new and updated customers between Acumatica ERP and the BigCommerce store once a day \(at night\). Because Acumatica ERP does not provide any predefined automation schedules for the *Customer* entity, you will need to create two automation schedules from scratch. The first schedule will prepare the customer data for processing, and the second schedule will start the processing of the prepared data.
 
-## Process Overview { .section}
+## Process Overview
 
 You will do the following:
 
@@ -17,7 +17,7 @@ You will do the following:
 3.  On the [Process Data](BC_50_15_00.md) \(BC501500\) form, define the conditions for processing data of the *Customer* entity.
 4.  On the [Automation Schedules](SM_20_50_20.md) form, create an automation schedule to start data processing for the *Customer* entity once a day.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you perform the instructions of this activity, do the following:
 
@@ -28,7 +28,7 @@ Before you perform the instructions of this activity, do the following:
     -   **Username**: *gibbs*
     -   **Password**: *123*
 
-## Step 1: Scheduling of the Automatic Data Preparation for Customers { .section}
+## Step 1: Scheduling of the Automatic Data Preparation for Customers
 
 To configure an automation schedule that will start the data preparation process for the *Customer* entity once every night, do the following:
 
@@ -64,7 +64,7 @@ To configure an automation schedule that will start the data preparation process
 
 7.  On the form toolbar, click **Save &amp; Close** to save the changes to the automation schedule.
 
-## Step 2: Scheduling of the Automatic Data Processing for Customers { .section}
+## Step 2: Scheduling of the Automatic Data Processing for Customers
 
 To configure an automation schedule that will start data processing for the *Customer* entity once a day, do the following:
 

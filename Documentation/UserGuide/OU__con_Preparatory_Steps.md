@@ -1,4 +1,4 @@
-# Preparatory Steps {#_5199fbb9-0ffa-428a-bd50-105b79d121fc .concept}
+# Preparatory Steps
 
 To install the Acumatica add-in, you must use a manifest file that contains all deployment instructions. The system generates a manifest file individually for each user. Before you begin installing the add-in, you need to sign in to your Acumatica ERP instance and on the **Email Settings** tab of the [User Profile](SM_20_30_10.md) \(SM203010\) form, click the correct link to download the add-in manifest file:
 

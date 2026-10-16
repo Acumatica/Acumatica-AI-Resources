@@ -1,21 +1,21 @@
-# Bill with Combined Subaccounts: General Information {#_4a1c5551-1e8a-4d45-8207-5a489058c389 .concept}
+# Bill with Combined Subaccounts: General Information
 
 If the *Subaccounts* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form and subaccounts have been configured, you can enter and process AP bills in which lines are classified by different subaccounts. To speed up the creation of these bills, you can set up a subaccount mask that determines how subaccounts are combined in accounts payable documents, as described in [Combined Subaccounts: General Information](../ImplementationGuide/config_Combined_Subaccounts_GeneralInfo.md).
 
-## Learning Objectives {#section_sb3_njv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Process an AP bill when combined subaccounts have been configured for AP documents
 -   Review a report that is broken down by subaccounts
 
-## Applicable Scenarios {#section_ub3_njv_vxb .section}
+## Applicable Scenarios
 
 You create an AP bill manually when you receive an invoice from a vendor. You then release the bill that you have created and complete its processing in the system.
 
 If subaccounts have been configured in your system, these bills have to contain subaccounts in their lines. If a subaccount mask has been specified for AP documents, the system inserts these subaccounts automatically.
 
-## Processing of Bills with Combined Subaccounts {#section_xb3_njv_vxb .section}
+## Processing of Bills with Combined Subaccounts
 
 In an AP document that is entered in the system, multiple subaccounts can be involved, such as the following:
 

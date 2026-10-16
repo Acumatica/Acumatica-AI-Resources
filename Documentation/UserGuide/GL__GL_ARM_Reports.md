@@ -1,4 +1,4 @@
-# Managing Analytical Reports {#_6998580f-25d2-42ba-bde5-668c2bf1f551 .concept}
+# Managing Analytical Reports
 
 Analytical reports are used to display the consolidated and summarized general ledger and project data in the way defined by the report designer. Analytical reports are used to provide the summarized and aggregated values in a variety of views: The data in the analytical report can be displayed in monthly, yearly, and quarterly views, and the data can provide information from the point of view of departments, selected account classes, and other dimensions.
 
@@ -44,6 +44,6 @@ In Acumatica ERP, you can design analytical reports and run the reports that wer
 
 -   **[ARM Reference](../UserGuide/RP__Tools_ARM_Form_Reference.md)**  
 
--   **[Working with ARM Reports in Excel](../UserGuide/ARM_InsightXL_Mapref.md)**  
+-   **[Using InsightXL to Work with ARM Reports in Excel](../UserGuide/ARM_InsightXL_Mapref.md)**  
 
 

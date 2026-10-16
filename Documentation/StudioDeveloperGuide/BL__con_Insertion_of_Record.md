@@ -1,4 +1,4 @@
-# Insertion of a Data Record {#_04839388-1c8f-4d49-888e-d3167ce3578d .concept}
+# Insertion of a Data Record
 
 When a user creates a new data record in the UI, the system inserts it into the PXCache. To insert a data record into the PXCache in code, you invoke the Insert\(\) method of the applicable data view, as shown in the following code example.
 
@@ -16,7 +16,7 @@ Also, in the example shown above, this method does not make the shipment line th
 
 The FieldDefaulting event, which is raised for each field during the insertion of a new data record, sets the default value for the data field.
 
-## The RowInserting and RowInserted Events { .section}
+## The RowInserting and RowInserted Events
 
 The RowInserting and RowInserted events occur during the insertion of a data record in the cache, after the field-related events have occurred. The RowInserting event happens right before the new data record is actually inserted into the PXCache object, but after all field events happen for this data record. The RowInserted event happens after the actual insertion. If, in a RowInserting event handler, you change the data fields of the data record that are inserted, no field events will be raised for these data fields.
 

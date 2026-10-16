@@ -1,12 +1,12 @@
-# Splitting of Assets: Process Activity {#_9765486c-c3ae-4190-9d8c-18dd2cbaeb87 .task}
+# Splitting of Assets: Process Activity
 
 The following activity will walk you through the process of splitting a fixed asset.
 
-## Story {#section_bs2_ljv_vxb .section}
+## Story
 
 Suppose that on September 1, 2026, the management of SweetLife Fruits &amp; Jams decided to sell a part of the land near the office building. Earlier, an accountant had recorded the land near and under the office building as a single fixed asset. To process the sale of the part of the land, acting as the SweetLife accountant, you need to split the *Land* fixed asset into two assets.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -14,11 +14,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, the needed GL accounts have been created.
 -   On the [Fixed Assets Preferences](FA_10_10_00.md) \(FA101000\) form, the **Automatically Release Split Transactions** check box has been cleared. Thus, split transactions are created with the *On Hold* status, and you will have to release these transactions manually on the [Release FA Transactions](FA_50_30_00.md) \(FA503000\) form.
 
-## Process Overview {#section_es2_ljv_vxb .section}
+## Process Overview
 
 In this activity, you will open the original asset on the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form and initiate the splitting process; you will split it on the [Split Assets](FA_50_60_00.md) \(FA506000\) form. You will then release the split transaction on the [Release FA Transactions](FA_50_30_00.md) \(FA503000\) form and review the current cost of the original asset on the [Fixed Assets](FA_30_30_00.md) form.
 
-## System Preparation {#section_gs2_ljv_vxb .section}
+## System Preparation
 
 Before you begin splitting a fixed asset, do the following:
 
@@ -28,7 +28,7 @@ Before you begin splitting a fixed asset, do the following:
 4.  Make sure that you have created the *Land* fixed asset by converting a purchase by performing the [Conversion of a Purchase: To Convert a Purchase to an Asset](FixedAssets_Converting_Purchase_To_Convert_to_Asset.md) prerequisite.
 5.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step 1: Splitting a Fixed Asset {#section_is2_ljv_vxb .section}
+## Step 1: Splitting a Fixed Asset
 
 To split the *Land* fixed asset, do the following:
 
@@ -43,11 +43,10 @@ To split the *Land* fixed asset, do the following:
 
     After the split, the cost of the original asset will be decreased by the specified cost, and a new asset with the specified cost will be created. The asset created by the split belongs to the same branch and department as those of the original asset.
 
-    ![](Images/activity_FA_Splitting_Asset_Split_Assets_form.png "Percentage of the asset to be split")
 
 5.  On the form toolbar, click **Split**. The system creates the new fixed asset and shows its ID in the **Asset ID** column. Although the asset has been created, the split transactions have not been released yet.
 
-## Step 2: Releasing the Split Transaction {#section_ms2_ljv_vxb .section}
+## Step 2: Releasing the Split Transaction
 
 To release the split transaction, do the following:
 
@@ -58,7 +57,7 @@ To release the split transaction, do the following:
 
 3.  On the [Release FA Transactions](FA_50_30_00.md) form, select the unlabeled check box for the split transaction and click **Release** on the form toolbar. The account balances remain the same after the release of the transaction, which is why no GL batch is generated for this transaction. After you release the transaction, it has the *Unposted* status, and the **Batch Nbr.** column is empty.
 
-## Step 3: Reviewing the Original Asset {#section_qs2_ljv_vxb .section}
+## Step 3: Reviewing the Original Asset
 
 To review the original fixed asset, do the following:
 

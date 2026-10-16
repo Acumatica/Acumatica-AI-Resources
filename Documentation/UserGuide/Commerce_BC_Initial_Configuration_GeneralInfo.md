@@ -1,12 +1,12 @@
-# Initial Configuration: General Information {#_89456383-a6a4-494a-b62d-1da59066058c .concept}
+# Initial Configuration: General Information
 
 Before you can start using the ecommerce functionality of Acumatica ERP Retail Edition, you need to set up a BigCommerce store, establish a connection between the Acumatica ERP instance and the BigCommerce store, and perform the initial configuration of the connection.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this section, you will learn what general steps are involved in establishing a connection between Acumatica ERP and the BigCommerce store and in performing the initial configuration of these systems.
 
-## Steps for Establishing the Store Connection and Performing the Initial Configuration { .section}
+## Steps for Establishing the Store Connection and Performing the Initial Configuration
 
 In order to connect the Acumatica ERP instance to the BigCommerce store, you perform the following general steps:
 
@@ -20,11 +20,11 @@ In order to connect the Acumatica ERP instance to the BigCommerce store, you per
 
 Each of these steps is described in greater detail below.
 
-## Setup of a BigCommerce Store { .section}
+## Setup of a BigCommerce Store
 
 Before you can connect Acumatica ERP to a BigCommerce store, you need to set up the store. For a test implementation, we recommend that you sign up for a BigCommerce trial site. For more information, see [Initial Configuration: To Set Up a BigCommerce Store](Commerce_BC_Initial_Configuration_To_Set_Up_a_BC_Store.md).
 
-## Obtaining of the BigCommerce API Keys and WebDAV Information { .section}
+## Obtaining of the BigCommerce API Keys and WebDAV Information
 
 When you create a BigCommerce store in Acumatica ERP, you need to specify the following details:
 
@@ -33,17 +33,17 @@ When you create a BigCommerce store in Acumatica ERP, you need to specify the fo
 
 For details on obtaining API information, see [Initial Configuration: To Establish and Configure the Store Connection](Commerce_BC_Initial_Configuration_Implem_Activity.md).
 
-## Preparation of the Acumatica ERP Instance { .section}
+## Preparation of the Acumatica ERP Instance
 
 During the configuration of the connection to the BigCommerce store, you need to specify certain values coming from the Acumatica ERP instance, such as the numbering sequence to be used for generating the identifiers of customers imported from the BigCommerce store, and the payment methods that will be mapped to the payment methods configured in the BigCommerce store. Some of these values can be defined at the time of the initial configuration. However, we recommend that the Acumatica ERP instance be prepared in advance.
 
 For more information, see [Initial Configuration: To Prepare the Acumatica ERP Instance](Commerce_BC_Initial_Configuration_To_Prepare_Acumatica_ERP_Instance.md).
 
-## Establishing of the Connection to the BigCommerce Store { .section}
+## Establishing of the Connection to the BigCommerce Store
 
 Once you have captured the API account details for your BigCommerce store, you proceed to set up the connection on the **General** tab of the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form. You specify the store name, the admin path to the store, and the API account details. Once you have specified these settings, you click **Test Connection** on the form toolbar to ensure that the data has been specified correctly.
 
-## Initial Configuration of the Store Connection { .section}
+## Initial Configuration of the Store Connection
 
 After you have successfully established a connection to the BigCommerce store, you perform the basic required configuration. This step involves the following substeps:
 
@@ -113,13 +113,13 @@ After you have successfully established a connection to the BigCommerce store, y
 6.  On the **Shipping** tab, you specify the **Ship Via** options for the combinations of the shipping zone and shipping method configured in the BigCommerce store. For each combination of the store shipping zone and store shipping method, you can optionally specify the shipping zone and shipping terms to make the mapping more granular. The values specified in this table appear on the **Shipping** tab of orders imported to Acumatica ERP from the BigCommerce store.
 7.  On the form toolbar, you click **Save** to save the settings.
 
-## Configuration of the Entities Enabled for Synchronization { .section}
+## Configuration of the Entities Enabled for Synchronization
 
 For each entity that you want to synchronize between Acumatica ERP and the BigCommerce store and that you have activated on the **Entities** tab of the [BigCommerce Stores](BC_20_10_00.md) form, you can also set up the mapping of custom fields for synchronization and synchronization filtering settings on the [Entities](BC_20_20_00.md) \(BC202000\) form.
 
 For more information about defining filtering and mapping settings for the needed entities, see [Preparing Entities for Synchronization: Filtering](Commerce_BC_Preparing_Entities_Filtering.md) and [Preparing Entities for Synchronization: Field Mapping](Commerce_BC_Preparing_Entities_Mapping.md).
 
-## Synchronization of Data { .section}
+## Synchronization of Data
 
 After you have performed the initial configuration, you can start to synchronize data between Acumatica ERP and the BigCommerce store. First, you perform manual synchronization for entities in a specific order. Then you set up synchronization to run automatically, either in real-time or according to a specific schedule. For information about synchronization, see [Data Synchronization: General Information](Commerce_BC_Data_Sync_GeneralInfo.md).
 

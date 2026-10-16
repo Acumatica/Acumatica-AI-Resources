@@ -1,4 +1,4 @@
-# Processing Adjusting Transactions {#_6874481f-0fcc-43cf-a4bc-34e02922f8f9 .concept}
+# Processing Adjusting Transactions
 
 Sometimes you may need to adjust transactions to be posted to the specific period and then reversed in the period after that.
 

@@ -1,8 +1,8 @@
-# Action Definition: To Define an Action for a Table {#_93a7fc12-6345-46b7-a10a-a511dce674d0 .task}
+# Action Definition: To Define an Action for a Table
 
 The following activity will walk you through the process of implementing an action for a table, which is represented by a button on the table toolbar.
 
-## Story { .section}
+## Story
 
 Suppose that you need to give the users the ability to update the following prices on the Repair Work Orders \(RS301000\) form after entering new prices on the Services and Prices \(RS203000\) form:
 
@@ -11,7 +11,7 @@ Suppose that you need to give the users the ability to update the following pric
 
 You need to define an action for each tab, along with the associated button on the table toolbar of the tab. These buttons will be available only if no invoice has been created for the repair work order selected on the form.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you’ll implement actions with buttons on the table toolbar of the **Repair Items** and **Labor** tabs of the Repair Work Orders \(RS301000\) form by performing the following steps:
 
@@ -19,11 +19,11 @@ In this activity, you’ll implement actions with buttons on the table toolbar o
 2.  Creating an action and the associated **Update Prices** button on the table toolbar of the **Labor** tab
 3.  Testing the **Update Prices** buttons and the associated actions
 
-## System Preparation { .section}
+## System Preparation
 
 Make sure that you have configured your instance as described in [Test Instance for Customization: To Deploy an Instance with Custom Maintenance and Data Entry Forms](CodeCustomization_PrepareInstance_Activity_DeployInstanceT230.md).
 
-## Step 1: Implementing the UpdateItemPrices Action { .section}
+## Step 1: Implementing the UpdateItemPrices Action
 
 In this step, you will implement the `UpdateItemPrices` action in the `RSSVWorkOrderEntry` graph.
 
@@ -33,7 +33,7 @@ To implement the `UpdateItemPrices` action, do the following:
 
 1.  In the Actions region of the `RSSVWorkOrderEntry` graph, add the `UpdateItemPrices` action, as the following code shows.
 
-    ```language-csharp
+    ```csharp
             public PXAction<RSSVWorkOrder> UpdateItemPrices = null!;
             [PXButton(DisplayOnMainToolbar = false)]
             [PXUIField(DisplayName = "Update Prices", Enabled = true)]
@@ -67,13 +67,13 @@ To implement the `UpdateItemPrices` action, do the following:
 
 2.  In the `RowSelected` event handler, specify that the button associated with the action should be available only when no invoice has been created for the order, as the following code shows.
 
-    ```language-csharp
+    ```csharp
                 UpdateItemPrices.SetEnabled(WorkOrders.Current.InvoiceNbr == null);
     ```
 
 3.  Rebuild the project.
 
-## Step 2: Placing the Update Prices Button on the Repair Items Tab { .section}
+## Step 2: Placing the Update Prices Button on the Repair Items Tab
 
 In this step, you’ll place the **Update Prices** button on the table toolbar of the **Repair Items** tab. To place the button, in the `RS301000.ts` file, you will specify the PXActionState property with the name of the `UpdateItemPrices` action in the `RSSVWorkOrderItem` view class.
 
@@ -83,7 +83,7 @@ Thus, to place the **Update Prices** button on the table toolbar of the **Repair
 2.  In the **Edit File** dialog box, which opens, add PXActionState to the list of imports.
 3.  In the `RSSVWorkOrderItem` view class, specify the PXActionState property with the name of the `UpdateItemPrices` action. The `RSSVWorkOrderItem` view class should look as follows after you’ve completed these steps.
 
-    ```language-javascript
+    ```javascript
     @gridConfig({
     	preset: GridPreset.Details
     })
@@ -100,7 +100,7 @@ Thus, to place the **Update Prices** button on the table toolbar of the **Repair
 4.  Save your changes by clicking the **Save** button of the dialog box.
 5.  Publish the customization project.
 
-## Step 3: Placing the Update Prices Button on the Labor Tab—Self-Guided Exercise { .section}
+## Step 3: Placing the Update Prices Button on the Labor Tab—Self-Guided Exercise
 
 In this self-guided exercise, you will implement the `UpdateLaborPrices` action in the `RSSVWorkOrderEntry` graph. You’ll configure the availability of the button associated with the action on the form in the `RowSelected` event handler of the same graph, hide the button from the form toolbar \(and the corresponding command from the More menu\), and place the button on the **Labor** tab of the Repair Work Orders \(RS301000\) form.
 
@@ -112,7 +112,7 @@ To perform this step, use the skills you’ve learned in Steps 1 and 2 of this a
 
 **Tip:** You can find the code changes made in this step in the `Customization\T230\CodeSnippets\Activity2.1_Step3` folder, which you’ve downloaded from Acumatica GitHub.
 
-## Step 4: Testing the Update Prices Buttons and Associated Actions { .section}
+## Step 4: Testing the Update Prices Buttons and Associated Actions
 
 In this step, you will test the **Update Prices** buttons that you’ve added to the **Repair Items** and **Labor** tabs of the Repair Work Orders \(RS301000\) form. To test the buttons and the underlying actions, do the following:
 
@@ -127,7 +127,6 @@ In this step, you will test the **Update Prices** buttons that you’ve added to
     1.  Open the Repair Work Orders \(RS301000\) form.
     2.  Select a repair work order for the *Battery Replacement* service and the *Nokia 3310* device. On the **Repair Items** tab, make sure that the **Update Prices** button is displayed, as shown below.
 
-        ![](Images/Test_UpdatePrices_ModernUI.png "The Update Prices button on the Repair Items tab")
 
     3.  On the **Repair Items** tab, notice the old price of the repair item with the *BAT3310* inventory ID.
     4.  On the table toolbar, click **Update Prices**.

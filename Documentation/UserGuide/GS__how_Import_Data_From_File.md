@@ -1,10 +1,10 @@
-# To Import Data from a Local File to a Table {#_0f985208-5deb-4550-9020-0d9fee92c1e7 .task}
+# To Import Data from a Local File to a Table
 
 You can import data from an Excel spreadsheet or a CSV file to a table on an Acumatica ERP form if the **Load Records from File** button appears on the table toolbar.
 
-For more information, see [Integration with Excel](../Shared/../UserGuide/Exporting_to_Excel.md).
+For more information, see[Integration with Excel](../Shared/../UserGuide/Exporting_to_Excel.md).
 
-## To Import Data from a Local File { .section}
+## To Import Data from a Local File
 
 1.  Open the appropriate form, and either add a new record or select the record to which you want to import data.
 2.  On the table toolbar of the table to which you want to import data, click **Load Records from File**.

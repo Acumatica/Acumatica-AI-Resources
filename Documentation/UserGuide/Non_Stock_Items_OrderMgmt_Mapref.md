@@ -1,4 +1,4 @@
-# Creating Non-Stock Items {#_35c9ab28-aefa-4f6e-935e-614bca6c4b7d .concept}
+# Creating Non-Stock Items
 
 The topics of this chapter explain what a non-stock item in Acumatica ERP is, which settings of non-stock items you need to specify in order to sell and purchase non-stock items, and how the settings of non-stock items affect sales orders and purchase orders. You will explore item settings as you complete an activity in which you create a non-stock item that represents a physical entity.
 

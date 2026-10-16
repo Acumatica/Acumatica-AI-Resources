@@ -1,4 +1,4 @@
-# Billing Cycles {#_dd13d78d-241a-42b9-a400-202c28b548ad .concept}
+# Billing Cycles
 
 The topics of this chapter explain how to configure billing cycles to be assigned to each customer that can potentially buy any services. The settings of a billing cycle determine how the services provided by the company are going to be billed.
 

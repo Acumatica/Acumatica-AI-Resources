@@ -1,4 +1,4 @@
-# To Correct an Application Record {#_be5bd88e-76ed-4272-912b-45a0b4bb8f38 .task}
+# To Correct an Application Record
 
 If you have mistakenly applied a customer payment, prepayment, or refund to the wrong document, you can correct the application record.
 
@@ -6,7 +6,7 @@ If you have mistakenly applied a customer payment, prepayment, or refund to the 
 
 You correct an application record differently depending on whether the application record has been released or not. In either case, you use the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form.
 
-## To Remove an Application Record That Has Not Been Released {#1 .section}
+## To Remove an Application Record That Has Not Been Released
 
 1.  Open the [Payments and Applications](../Shared/../UserGuide/AR_30_20_00.md) \(AR302000\) form.
 2.  In the **Type** box of the Summary area, select the *Payment*, *Prepayment*, or *Customer Refund* document type.
@@ -14,7 +14,7 @@ You correct an application record differently depending on whether the applicati
 4.  On the **Documents to Apply** tab, delete the rows with the documents you do not need to apply.
 5.  On the form toolbar, click **Save**.
 
-## To Reverse a Released Application Record {#section_lz4_4jv_vxb .section}
+## To Reverse a Released Application Record
 
 1.  Open the [Payments and Applications](../Shared/../UserGuide/AR_30_20_00.md) \(AR302000\) form.
 2.  In the **Type** box of the Summary area, select the *Payment*, *Prepayment*, or *Customer Refund* document type.

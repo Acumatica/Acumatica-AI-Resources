@@ -1,10 +1,10 @@
-# Contract Management: Contract Renewal {#_05f905ee-2d18-45d1-9440-4557a7aab5f4 .concept}
+# Contract Management: Contract Renewal
 
 When a contract has been expired or is about to expire, your company and your customer may want to continue the relationship under the same terms. In this case, you can renew the contract to avoid the provision of services being interrupted.
 
 In this topic, you will read about the details of renewing a contract.
 
-## Setup of Contract Renewal {#section_t11_dg3_35b .section}
+## Setup of Contract Renewal
 
 You define a renewal fee by adding to a template \(or to a contract\) a contract item for which the renewal part is configured. For details about creating a contract item with renewal configured, see [Contract Item Creation: Contract Items](Contracts_Configuring_Contract_Items_ContractItems.md).
 
@@ -16,7 +16,7 @@ Contracts of the *Renewable* or *Expiring* type can be renewed. For details, see
 
 Also, by selecting the **Mass Renewal** check box on the [Contract Templates](CT_20_20_00.md) form, you can indicate to the system that contracts based on the selected template are available for mass renewal—that is, they will be displayed on the [Renew Contracts](CT_50_20_00.md) \(CT502000\) form. Additionally, in the **Renewal Point** box on the [Contract Templates](CT_20_20_00.md) form, you can specify the number of days before the contract expiration date when the system starts to display the contract on the [Renew Contracts](CT_50_20_00.md) form.
 
-## Initiation of the Renewal Process {#section_u11_dg3_35b .section}
+## Initiation of the Renewal Process
 
 You can track contracts that are about to expire by using the [Expiring Customer Contracts](CT_40_10_00.md) \(CT401000\) form.
 
@@ -24,7 +24,7 @@ You initiate the renewal process for a particular contract by clicking **Renew C
 
 If the **Mass Renewal** check box is selected in the **Contract Settings** section of the **Summary** tab of the [Customer Contracts](CT_30_10_00.md) form, and the date when you want to renew the contract is the same as or later than the contract expiration date minus the number of days specified in the **Renewal Point** box in the same section of the tab, the contract is displayed on the [Renew Contracts](CT_50_20_00.md) \(CT502000\) mass processing form.
 
-## Renewal of Renewable Contracts {#section_v11_dg3_35b .section}
+## Renewal of Renewable Contracts
 
 The renewal process can be run for each contract of the *Renewable* type that meets both of the following criteria:
 
@@ -53,7 +53,7 @@ You can modify the new details of the contract, if required, and activate it on 
 
 If the status of the original contract is *Active* and it is fully billed, the system changes the status to *Expired* when you activate the new contract. If the original contract is not fully billed yet, the system warns you that the new contract could not be activated until the original contract is fully billed.
 
-## Renewal of Expiring Contracts {#section_w11_dg3_35b .section}
+## Renewal of Expiring Contracts
 
 The renewal process can be run for each contract of the *Expiring* type that meets both of the following criteria:
 

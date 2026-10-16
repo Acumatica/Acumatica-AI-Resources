@@ -1,4 +1,4 @@
-# To Add an Action {#_02d50988-c79a-43ce-99a7-af697b506551 .concept}
+# To Add an Action
 
 To add a new action to the toolbar of an original form of Acumatica ERP, you have to add to the appropriate graph extension the action declaration, toolbar button declaration, and action delegate method. \(See [Graph Extensions: Creating a Graph Extension Through the UI](../StudioDeveloperGuide/CodeCustomization_GraphExtension_CreateInEditor.md) for details.\)
 
@@ -11,7 +11,6 @@ You can use the [Code Editor](../UserGuide/AU_20_40_00_CodeEditor.md) to add an 
 1.  Click the **New Action** button of the Code Editor to open the **Create Action** dialog box.
 2.  In the dialog box, specify the name of the action delegate method in the **Action Name** box and the name of the corresponding button in the **Display Name** box, as shown in the following screenshot.
 
-    ![](images/CG_Platform_Tools_Editor_CodeEditor_NewActionDlg.png "Opening the New Action dialog box")
 
 3.  Click **OK** to create the action template and add it to the item.
 

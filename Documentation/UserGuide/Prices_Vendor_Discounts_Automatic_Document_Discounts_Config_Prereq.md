@@ -1,8 +1,8 @@
-# Automatic Document Vendor Discounts: Configuration Prerequisites {#_535f9516-3f1e-4020-918c-108de21edd34 .concept}
+# Automatic Document Vendor Discounts: Configuration Prerequisites
 
 This section explains how to prepare the system so that document-level vendor discounts can be automatically applied to documents.
 
-## Enabling Features { .section}
+## Enabling Features
 
 In order to be able to apply automatic document-level discounts to documents, the following features must be enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form:
 
@@ -10,7 +10,7 @@ In order to be able to apply automatic document-level discounts to documents, th
 -   *Vendor Discounts*, which provides the ability to maintain discounts offered by vendors
 -   *Inventory* \(optional\), which provides the functionality of maintaining stock items
 
-## Other Configuration Settings { .section}
+## Other Configuration Settings
 
 Make sure that the following settings are configured in the system:
 

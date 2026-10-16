@@ -1,4 +1,4 @@
-# To Move a Code Item to the Extension Library {#_1d898e7c-7547-41d1-b276-da60f964576b .concept}
+# To Move a Code Item to the Extension Library
 
 You can develop customization code either as *Code* items in a customization project or as source code included in an extension library project in Microsoft Visual Studio. Some part of a customization may exist in the *Code* items of a customization project, while another part can be included in an extension library that is added in the customization project as a dynamic link library \(DLL\) file. \(See [Extension Library](CG_Platform_TO_Code_CS_ExtLibrary.md) for details.\)
 
@@ -26,15 +26,12 @@ To move the code from a *Code* item to an extension library, you perform the fol
 
 For example, suppose you need to move the CustomerMaint *Code* item \(see Item 1 in the following screenshot\) to the YogiFon extension library \(Item 2\).
 
-![](images/Customization_MoveToExtLib_BeforeMoving.png "The Code item before the move to the extension library")
 
 When the operation is complete, the CustomerMaint *Code* item is removed from the customization project, as shown in following screenshot.
 
-![](images/Customization_MoveToExtLib_AfterMoving.png "The Code item list after the operation was performed")
 
 In place of the removed item, the `CustomerMaint.cs` file with the same source code is appended to the bound extension library project, as shown in the following screenshot.
 
-![](images/MoveToExtLib03.png "The content of the source code file added to the extension library")
 
 See [Extension Library \(DLL\) Versus Code in a Customization Project](CG_Platform_TO_Code_ExtLib_vsCode.md) for our recommendations about where you should keep your customization code.
 

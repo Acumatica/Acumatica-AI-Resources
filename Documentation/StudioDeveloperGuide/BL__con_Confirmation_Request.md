@@ -1,4 +1,4 @@
-# Requests for User Confirmation {#_c4473abb-d197-470d-8e88-de42ce9dbd78 .concept}
+# Requests for User Confirmation
 
 If you want to display a dialog box that requests confirmation from the user, you should use the Ask\(\) method of a data view.
 

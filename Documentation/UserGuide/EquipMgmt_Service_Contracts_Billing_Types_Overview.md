@@ -1,10 +1,10 @@
-# Service Contracts: Billing Type Setup {#_7b8cd1ac-a1da-4fe2-90ba-1b320dfdcfdd .concept}
+# Service Contracts: Billing Type Setup
 
 In Acumatica ERP, you can create service contracts with different billing types. When you create a service contract, you specify the billing type that corresponds to your company needs. In this topic, you will learn in more details about available billing types.
 
 In the following sections of this topic, these capabilities are described in detail for service contracts created on the [Service Contracts](../Shared/../UserGuide/FS_30_57_00.md) form. The capabilities work similarly for a route service contract created on the [Route Service Contracts](../Shared/../UserGuide/FS_30_08_00.md) form.
 
-## Service Contracts Billed at the Time of Service { .section}
+## Service Contracts Billed at the Time of Service
 
 You can create service contracts to be billed at the time of service, and perform the contract billing based on what was done in appointments when each particular appointment took place, or based on what was estimated in the service order. For this type of a service contract, on the **Summary** tab of the [Service Contracts](../Shared/../UserGuide/FS_30_57_00.md) \(FS305700\) form, you select *At Time of Service* in the **Billing Type** box.
 
@@ -24,7 +24,7 @@ On the **Schedules** tab, you create a schedule for generating appointments or s
 
 Then you click **Activate** on the More menu to assign the service contract the *Active* status.
 
-## Service Contracts Billed at the End of the Period { .section}
+## Service Contracts Billed at the End of the Period
 
 You can create and process service contracts that are billed at the end of the billing period. This billing type assumes that at the end of the billing period, for the service contract, you generate an invoice, which includes a fixed price for a service or services \(for example, for a fixed number of hours or visits\) specified in the contract plus an amount for an overage number of hours, visits, or materials that has been added to the service document \(an appointment or service order\) during the billing period but has not been covered by the service contract.
 
@@ -38,7 +38,7 @@ Besides appointments and service orders generated from a schedule or schedules, 
 
 At the end of each billing period, you generate an invoice for a service contract. The invoice includes a fixed number of hours or visits at a price predefined in the service contract. If the number of hours or visits defined in the service contract has been exceeded during the billing period, the price that has been specified for overage items is applied. The items that are not covered by the service contract but have been used in appointments or service orders during the billing period are also included in the invoice generated at the end of the period.
 
-## Service Contracts with Beginning-Period Fixed Billing { .section}
+## Service Contracts with Beginning-Period Fixed Billing
 
 You can create and manage service contracts with fixed billing at the beginning of the billing period. This billing type assumes that at the beginning of the billing period, for a service contract, you generate an invoice that includes a fixed price specified in the contract. This fixed price covers all services and inventory items listed in the contract, and provided to the customer during the billing period. If any additional services or materials are used in appointments \(that is, are added to service documents\) during the billing period, these items are not billed—once you have run billing for an appointment or a service order, the generated invoice will have a zero total amount specified. For this type of a service contract, on the **Summary** tab of the [Service Contracts](../Shared/../UserGuide/FS_30_57_00.md) \(FS305700\) form, you select *Beginning-Period Fixed* in the **Billing Type** box, and specify the billing period \(*Week*, *Month*, *Quarter*, *Half a Year*, or *Year*\) in the **Period** box. On the **Services per Period** tab of the form, for each service to be provided during each period, you add an item \(for example, a non-stock item that represents a contract deposit\) and specify the flat-rate price that has to be paid at the beginning of each billing period.
 
@@ -54,7 +54,7 @@ When you run billing for a service order or an appointment during the billing pe
 
 On occasion, a service may be needed that is not covered by the fixed contract price. If this happens, you can edit the appointment or service order by clearing the **Free Item** check box in the needed detail line on the **Details** tab of the [Appointments](../Shared/../UserGuide/FS_30_02_00.md) \(FS300200\) or [Service Orders](../Shared/../UserGuide/FS_30_01_00.md) \(FS300100\) form. This causes the system to update the total amount of the appointment \(and thus update the related billing document\).
 
-## Service Contracts with Beginning-Period Plus Billing { .section}
+## Service Contracts with Beginning-Period Plus Billing
 
 You can create and manage service contracts with fixed billing at the beginning of the billing period for the items specified in the service contract only. This billing type assumes that at the beginning of the billing period, for a service contract, you generate an invoice, which includes a fixed price specified in the contract. This fixed price covers all services and inventory items listed in the contract, and provided to the customer during the billing period. If any additional items \(those that are not included in the service contract\) have been used in appointments \(that is, have been added to the service document\) during the billing period, these items are billed separately.
 

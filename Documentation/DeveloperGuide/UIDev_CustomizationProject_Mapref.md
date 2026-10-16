@@ -1,4 +1,4 @@
-# Including the Modern UI Changes in a Customization Project {#_65384557-e6ea-41d9-bbb8-1084ecf0a25a .concept}
+# Including the Modern UI Changes in a Customization Project
 
 You may need to distribute the changes that you have made to the Modern UI of your Acumatica ERP instance to other instances. As a part of this process, you need to create a customization project and include all the Modern UI changes in this customization project. You then export the project as a ZIP file. In the target instance, you import the file and publish this customization project.
 

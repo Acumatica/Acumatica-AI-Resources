@@ -1,4 +1,4 @@
-# Processing Sales of Non-Stock Items with Shipping {#_1d2b1563-64b3-4607-b459-99e5755884e6 .concept}
+# Processing Sales of Non-Stock Items with Shipping
 
 If your company sells and ships items whose quantities are not tracked in inventory, these items can be defined as non-stock items in Acumatica ERP. You can then process sales of these items by using sales orders of the *SO* type.
 

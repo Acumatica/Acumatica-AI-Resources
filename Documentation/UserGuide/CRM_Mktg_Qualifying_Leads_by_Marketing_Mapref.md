@@ -1,4 +1,4 @@
-# Qualifying Leads \(Marketing\) {#_85d82f4d-8889-4ec5-b3b3-bde6e47f1c64 .concept}
+# Qualifying Leads \(Marketing\)
 
 In this chapter, you will find information about lead qualification as performed by a marketing team.
 

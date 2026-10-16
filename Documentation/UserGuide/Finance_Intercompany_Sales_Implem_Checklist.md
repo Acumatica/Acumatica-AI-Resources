@@ -1,26 +1,67 @@
-# Intercompany Sales: Implementation Checklist {#_c5e9f33a-28c1-47dd-a125-3c5bcf9985bd .concept}
+# Intercompany Sales: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for performing intercompany sales, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist {#section_czr_4jv_vxb .section}
+## Implementation Checklist
 
 We recommend that before you initially perform intercompany sales, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
-|Form|Criteria to Check|
-|----|-----------------|
-|[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)|Make sure that the following features have been enabled:-   *Standard Financials*
+<table id="_75f5a845-9a95-409c-9ffd-7c022ec672dc"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Criteria to Check
+
+</th></tr></thead><tbody><tr><td>
+
+[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)
+
+</td><td>
+
+Make sure that the following features have been enabled:-   *Standard Financials*
 -   *Multibranch Support*
 -   *Multicompany Support*
 -   *Advanced Financials*
 -   *Inter-Branch Transactions*
 
-|
-|[Companies](CS_10_15_00.md) \(CS101500\)|If you are going to extend as a customer or vendor any company that has the *Without Branches* company type, make sure that the company has been configured. For details, see [Company Without Branches: To Configure a Company Without Branches](../ImplementationGuide/config_Basic_Company_Implem_Activity_Enabling_Features.md).|
-|[Branches](CS_10_20_00.md) \(CS102000\)|If you are going to extend as a customer or vendor any branches of companies with the *With Branches Not Requiring Balancing* or *With Branches Requiring Balancing* company type, make sure that the companies have been configured. For details, see [Company with Branches that Do Not Require Balancing: Implementation Activity](../ImplementationGuide/config_Company_with_Branches_No_Balacing_Implem_Activity.md) and [Company with Branches that Require Balancing: Implementation Activity](../ImplementationGuide/config_Company_with_Branches_with_Balacing_Implem_Activity.md).|
-|[Customer Classes](AR_20_10_00.md) \(AR201000\)|Make sure that the customer class to be used for a customer extended from a company or branch has been defined. For details, see [Accounts Receivable: To Create a Customer Class](../ImplementationGuide/config_Basic_Company_Implem_Activity_Customer_Classes.md).|
-|[Vendor Classes](AP_20_10_00.md) \(AP201000\)|Make sure that the vendor class to be used for a vendor extended from a company or branch has been defined. For details, see [Accounts Payable: To Create a Vendor Class](../ImplementationGuide/config_Basic_Company_Implem_Activity_Vendor_Classes.md).|
+</td></tr><tr><td>
 
-## Other Settings That Affect the Workflow {#section_fzr_4jv_vxb .section}
+[Companies](CS_10_15_00.md) \(CS101500\)
+
+</td><td>
+
+If you are going to extend as a customer or vendor any company that has the *Without Branches* company type, make sure that the company has been configured. For details, see [Company Without Branches: To Configure a Company Without Branches](../ImplementationGuide/config_Basic_Company_Implem_Activity_Enabling_Features.md).
+
+</td></tr><tr><td>
+
+[Branches](CS_10_20_00.md) \(CS102000\)
+
+</td><td>
+
+If you are going to extend as a customer or vendor any branches of companies with the *With Branches Not Requiring Balancing* or *With Branches Requiring Balancing* company type, make sure that the companies have been configured. For details, see [Company with Branches that Do Not Require Balancing: Implementation Activity](../ImplementationGuide/config_Company_with_Branches_No_Balacing_Implem_Activity.md) and [Company with Branches that Require Balancing: Implementation Activity](../ImplementationGuide/config_Company_with_Branches_with_Balacing_Implem_Activity.md).
+
+</td></tr><tr><td>
+
+[Customer Classes](AR_20_10_00.md) \(AR201000\)
+
+</td><td>
+
+Make sure that the customer class to be used for a customer extended from a company or branch has been defined. For details, see [Accounts Receivable: To Create a Customer Class](../ImplementationGuide/config_Basic_Company_Implem_Activity_Customer_Classes.md).
+
+</td></tr><tr><td>
+
+[Vendor Classes](AP_20_10_00.md) \(AP201000\)
+
+</td><td>
+
+Make sure that the vendor class to be used for a vendor extended from a company or branch has been defined. For details, see [Accounts Payable: To Create a Vendor Class](../ImplementationGuide/config_Basic_Company_Implem_Activity_Vendor_Classes.md).
+
+</td></tr></tbody>
+</table>
+
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of intercompany sales by specifying additional settings as follows:
 
@@ -33,7 +74,7 @@ You can affect the workflow of intercompany sales by specifying additional setti
 -   To cause the system to insert an expense account from the vendor location to an AP bill created from an AR invoice, in the **Use Intercompany Expense Account From** box, select *Vendor Location*. If *Inventory Item* is selected in this box, the system will insert the expense account specified in the **Expense Account** box on the **GL Accounts** tab of the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form for non-stock items.
 -   To cause new documents to be assigned the *On Hold* status when they are created, select the **Hold Documents on Entry** check box on the **General Settings** tab \(**Data Entry Settings** section\) of the [Accounts Payable Preferences](AP_10_10_00.md) form. If the **Hold Documents on Entry** check box is cleared, the documents are assigned the *Balanced* status.
 
-## Validation of Configuration {#section_hzr_4jv_vxb .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you process intercompany sales by performing instructions similar to those described in [Intercompany Sales: To Process an Intercompany Invoice](Finance_Intercompany_Sales_Process_Activity.md), [Intercompany Sales: To Pay an Intercompany Bill](Finance_Intercompany_Sales_Process_Activity2.md), and [Intercompany Sales: To Pay an Intercompany Invoice](Finance_Intercompany_Sales_Process_Activity3.md).
 

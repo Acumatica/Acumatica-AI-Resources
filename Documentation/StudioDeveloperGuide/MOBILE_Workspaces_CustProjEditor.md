@@ -1,4 +1,4 @@
-# To Manage Workspaces in a Customization Project {#_f0a7fa1c-eca8-4bdc-95d1-0b1f28ea26b4 .concept}
+# To Manage Workspaces in a Customization Project
 
 You can add to a customization project the following types of items:
 
@@ -8,7 +8,7 @@ You can add to a customization project the following types of items:
 
 We recommend that you add screens to the workspace of the mobile app in Acumatica ERP. If you were to add a new screen to the mobile app by using the **Add New Screen** command on the Mobile Application page of the Customization Project Editor, the new screen would be added to the **Other** workspace by default. To avoid this, you need to add this screen to one of the workspaces on the [Mobile Workspace](../UserGuide/AU_22_00_13.md) \(AU220013\) form, as described in the *To Add a Screen to a Workspace* section of the [To Manage Workspaces in a Customization Project](MOBILE_Workspaces_CustProjEditor.md) topic.
 
-## To Add a Workspace to a Customization Project { .section}
+## To Add a Workspace to a Customization Project
 
 To add any workspaces to a particular customization project, perform the following steps:
 
@@ -28,7 +28,7 @@ To add any workspaces to a particular customization project, perform the followi
     In the navigation pane, notice that the [Mobile Workspaces](../Shared/../UserGuide/AU_MobileWorkspaces.md) page is listed under the **Mobile Application** node. Open this page, and you can see that the More menu of this page contains the **Add Customized Workspaces** command.
 
 
-## To Configure Workspaces from a Customization Project { .section}
+## To Configure Workspaces from a Customization Project
 
 To configure workspaces from a customization project, perform the following steps:
 
@@ -41,7 +41,7 @@ To configure workspaces from a customization project, perform the following step
 4.  On the form, configure the workspaces as described in [To Configure Workspaces in the Acumatica ERP Instance](../Shared/../StudioDeveloperGuide/MOBILE_Workspaces_Instance.md).
 5.  Save your changes, and close the window.
 
-## To Update a Workspace in a Customization Project { .section}
+## To Update a Workspace in a Customization Project
 
 To update a workspace in a customization project after you have modified it in the Acumatica ERP instance, perform the following steps:
 
@@ -50,7 +50,7 @@ To update a workspace in a customization project after you have modified it in t
 3.  In the table on the page, click the workspace you want to update.
 4.  On the More menu, click **Reload from Database**.
 
-## To Remove a Workspace from a Customization Project { .section}
+## To Remove a Workspace from a Customization Project
 
 To remove a workspace from a customization project, perform the following steps:
 

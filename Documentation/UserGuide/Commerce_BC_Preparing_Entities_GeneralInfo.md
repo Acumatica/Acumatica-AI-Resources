@@ -1,8 +1,8 @@
-# Preparing Entities for Synchronization: General Information {#_4d6fee33-a689-42b8-9918-a4755b75d96b .concept}
+# Preparing Entities for Synchronization: General Information
 
 Acumatica ERP Retail Edition provides flexible tools that you can use to prepare the data for synchronization with your BigCommerce store and configure the synchronization settings.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn the following:
 
@@ -10,7 +10,7 @@ In this chapter, you will learn the following:
 -   How to configure mapping of standard and custom fields that need to be synchronized
 -   How to update stock items and non-stock items with ecommerce-related data
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You might want to configure additional mapping if you have defined custom fields in Acumatica ERP, in the BigCommerce store, or in both systems, and you want these fields to be synchronized between the two systems. For example, you might want to define an extra field on the customer registration form in the online store and map this field to a user-defined field or an attribute in a customer record in Acumatica ERP.
 
@@ -18,7 +18,7 @@ Filtering is useful if you do not want to synchronize all data of a particular e
 
 You might want to update ecommerce-related information about items in Acumatica ERP if you want to override default inventory settings related to export that have been configured for the store on the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form or if you want to maintain all product data, ecommerce-related or otherwise, in one system.
 
-## Configuration of Synchronization Preferences {#_50c53db5-087a-457f-be16-c28de249b07c .section}
+## Configuration of Synchronization Preferences
 
 During the initial configuration of the connection between Acumatica ERP and the BigCommerce store, you determine which of the entities supported by the BigCommerce connector need to be synchronized between the two systems. To do this, you select the **Active** check box for each required entity on the **Entities** tab of the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form. On this tab, you can also configure the following:
 
@@ -31,7 +31,7 @@ During the initial configuration of the connection between Acumatica ERP and the
 
 You can also change these settings for each particular entity by using the [Entities](BC_20_20_00.md) \(BC202000\) form.
 
-## Filtering and Field Mapping for Export and Import { .section}
+## Filtering and Field Mapping for Export and Import
 
 For some of the entities supported by the ecommerce connector, on the [Entities](BC_20_20_00.md) \(BC202000\) form, you can configure the additional synchronization settings—for example, define a filter to be applied during the synchronization of entity data, or define a new mapping between the fields in Acumatica ERP and the fields in BigCommerce. You define filters and mappings for the import and export processes on the following tabs:
 

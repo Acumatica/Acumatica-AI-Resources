@@ -1,8 +1,8 @@
-# Emails and Activities: Tasks {#_c6dcbc1a-dc06-4794-893f-6e976f8b5766 .concept}
+# Emails and Activities: Tasks
 
 In Acumatica ERP, you can create tasks that are associated with entities related to customer relationship management \(CRM\), such as leads, contacts, business accounts, mass emails, marketing lists, marketing campaigns, opportunities, sales quotes, and cases; the tasks may also be associated with projects, project tasks, project quotes, customers, vendors, and employees. While viewing any of these entities on its data entry form, you can create a task associated with it and track all tasks \(and other activities\) related to the entity.
 
-## Creation and Tracking of Tasks for an Entity { .section}
+## Creation and Tracking of Tasks for an Entity
 
 You can create a task associated with any of these entities by clicking the **Create Task** button on the table toolbar of the **Activities** tab of any of the following forms:
 
@@ -32,21 +32,21 @@ If the task is not canceled or completed, you can associate it with any existing
 
 If a system administrator has enabled the use of reminders in Acumatica ERP, you can set up a reminder for a task. In the Summary area of the [Task](CR_30_60_20.md) form, you select the **Reminder** check box and specify on which day and time before the due date the task owner should receive the reminder \(in the **Remind At** box\). On the specified date and time, the reminder will appear on the task owner’s Acumatica ERP screen so that the creator or the owner can complete the task or change its status. For the information about how to turn on reminders, see [To Enable Reminders](Configuring_reminders.md).
 
-## Copying of Lead-Related Tasks to Related Entities { .section}
+## Copying of Lead-Related Tasks to Related Entities
 
 If you create tasks related to a lead, and then you create a contact or business account for the lead or convert the lead to an opportunity, the system copies all the tasks \(and other activities\) listed on the **Activities** tab of the [Leads](CR_30_10_00.md) \(CR301000\) form to the same tab of the [Contacts](CR_30_20_00.md) \(CR302000\), [Business Accounts](CR_30_30_00.md) \(CR303000\), or [Opportunities](CR_30_40_00.md) \(CR304000\) form, respectively. The system copies the activities to the opportunity from the lead only if the **Show Activities from Source Lead** check box is selected on the [Opportunity Classes](CR_20_90_00.md) \(CR209000\) form for the opportunity class that is specified in the **Opportunity Class** box of the **Create Opportunity** dialog box. Thus, the system preserves the history of tasks and other activities created for the lead and copies this history to the entities associated with the lead.
 
 **Tip:** Tasks that you create on the [Contacts](CR_30_20_00.md), [Business Accounts](CR_30_30_00.md), and [Opportunities](CR_30_40_00.md) forms are associated with only the entity \(contact, business account, or opportunity\) for which they have been created.
 
-## Task Management { .section}
+## Task Management
 
 By using the [Event and Task Categories](EP_20_40_40.md) \(EP204040\) form, you can create a list of task categories and provide a color code for each category. If you do, when you open the list of your tasks on the Tasks \(EP4040PL\) form, you will see the tasks highlighted with colors corresponding to the categories.
 
-## Ability to Add User-Defined Fields to CRM Forms { .section}
+## Ability to Add User-Defined Fields to CRM Forms
 
 User-defined fields are site-specific elements that have been defined to track information deemed as important to the organization. An administrator and customizer—a user with particular access rights in the system—can add user-defined fields to such CRM forms as [Activity](../Shared/../UserGuide/CR_30_60_10.md) \(CR306010\), [Task](../Shared/../UserGuide/CR_30_60_20.md) \(CR306020\), and [Event](../Shared/../UserGuide/CR_30_60_30.md) \(CR306030\) form. For details, see [Adjustment of the Acumatica ERP UI: Managing User-Defined Fields](../Shared/../UserGuide/GS_Personalization_UI_User_Defined_Fields.md).
 
-## Copying of User-Defined Fields Between Activities, Tasks, Events, and Other Entities { .section}
+## Copying of User-Defined Fields Between Activities, Tasks, Events, and Other Entities
 
 The values of user-defined fields can be copied between activities on the [Activity](../Shared/../UserGuide/CR_30_60_10.md) \(CR306010\) form, tasks on the [Task](../Shared/../UserGuide/CR_30_60_20.md) \(CR306020\) form, events on the [Event](../Shared/../UserGuide/CR_30_60_30.md) \(CR306030\) form and an associated entity to which user-defined fields can be added.
 
@@ -56,7 +56,7 @@ If both the new entity \(activity, task, or event\) and the original entity have
 
 For more details about the copying of user-defined fields between CRM entities, see [Leads: General Information](../Shared/../UserGuide/CRM_Mktg_Creating_Leads_GeneralInfo.md), [Business Accounts: General Information](../Shared/../UserGuide/CRM_Sales_Creating_Bus_Accounts_GeneralInfo.md), [Contacts: General Information](../Shared/../UserGuide/CRM_Sales_Creating_Contacts_GeneralInfo.md), [Opportunities: General Information](../Shared/../UserGuide/CRM_Sales_Creating_Opportunities_GeneralInfo.md), or [Cases: General Information](../Shared/../UserGuide/CRM_Support_Creating_Cases_GeneralInfo.md).
 
-## Notifications About Assigning a Task to an Owner { .section}
+## Notifications About Assigning a Task to an Owner
 
 In Acumatica ERP, a system administrator can set up the automatic built-in notifications about the assigning of tasks with the *Open* or *Processing* status. You can receive these notifications by email in the following scenarios:
 

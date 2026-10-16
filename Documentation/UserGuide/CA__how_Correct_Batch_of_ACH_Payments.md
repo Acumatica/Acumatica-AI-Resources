@@ -1,8 +1,13 @@
-# To Correct a Batch of ACH Payments {#_4deb53dc-170c-4982-bf05-1b28de9d6ad3 .task}
+# To Correct a Batch of ACH Payments
 
-On the [Batch Payments](AP_30_50_00.md) \(AP305000\) form, you can correct a batch of ACH payments by adding payments to or removing payments from the batch. You can also cancel and void a batch.
+On the [Batch Payments](AP_30_50_00.md) \(AP305000\) form, you can do the following to correct batches of ACH payments:
 
-## To Add Payments to a Batch of ACH Payments {#section_ln4_njv_vxb .section}
+-   Click **Correct** on the More menu to correct an exported batch. This will roll back the batch status to *Balanced* so that incorrect payments can be excluded from the batch. You can also change the vendors' payment details and reexport the batch.
+-   Add payments to an existing batch by clicking **Add Payments** on the table toolbar.
+-   Click **Cancel** on the More menu to cancel a batch and void all released payments in the batch at once.
+-   Click **Void** on the More menu to void a released batch payment, which causes all the payments in the batch to be voided at once.
+
+## To Add Payments to a Batch of ACH Payments
 
 To correct a batch of ACH payments by adding payments to it, do the following:
 
@@ -23,7 +28,7 @@ To correct a batch of ACH payments by adding payments to it, do the following:
     If the **Release Batch Payments Before Export** check box is selected on the **Settings for Use in AP** tab of the [Payment Methods](CA_20_40_00.md) form, you can release the batch, and then export it.
 
 
-## To Correct a Batch of ACH Payments {#section_qn4_njv_vxb .section}
+## To Correct a Batch of ACH Payments
 
 To correct a batch of ACH payments, do the following:
 
@@ -34,7 +39,7 @@ To correct a batch of ACH payments, do the following:
 5.  Optional: On the table toolbar, click **Add Payments** if you want to add payments to the batch or click **Delete Row** to delete specific payments from the batch.
 6.  On the form toolbar, click **Save** to save your changes.
 
-## To Cancel a Batch of ACH Payments {#section_sn4_njv_vxb .section}
+## To Cancel a Batch of ACH Payments
 
 To cancel a batch of ACH payments, do the following:
 
@@ -43,7 +48,7 @@ To cancel a batch of ACH payments, do the following:
 3.  On the More menu \(under **Corrections**\), click **Cancel**. This gives the batch the *Canceled* status, removes all unreleased payments from the batch, and voids released payments.
 4.  On the form toolbar, click **Save** to save your changes.
 
-## To Void a Batch of ACH Payments {#section_un4_njv_vxb .section}
+## To Void a Batch of ACH Payments
 
 To void a batch of ACH payments, do the following:
 
@@ -55,5 +60,5 @@ To void a batch of ACH payments, do the following:
     -   **Specific Date**: To void payments in the batch as of a specific date that you specify in the **Void Date** box that appears when you select this option.
 5.  In the dialog box, click **Void**. This gives the batch the *Voided* status, voids the released payments in a released batch and the batch itself.
 
-**Parent topic:**[Processing ACH Payments](../UserGuide/AP__con_ACH_Payment_Support.md)
+**Parent topic:**[ACH Payments](../UserGuide/AP__con_ACH_Payment_Support.md)
 

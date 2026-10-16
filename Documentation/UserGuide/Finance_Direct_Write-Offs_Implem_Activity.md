@@ -1,24 +1,24 @@
-# Direct Write-Offs: Implementation Activity {#_1bcbbeef-b4cf-480d-ba44-6a18ec3c529b .task}
+# Direct Write-Offs: Implementation Activity
 
 In the following implementation activity, you will learn how to implement the write-off functionality.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Fruits &amp; Jams decided to start using the write-off functionality for its customers. At first, users should be enabled to write off small balances in documents of the *ABAKERY* and *CITRUS* customers. The write-off threshold for *ABAKERY* is $5 and the write-off threshold for *CITRUS* is $10. The reason codes for credit write-offs and balance write-offs have already been defined in the system.
 
 Acting as the chief accountant of SweetLife, you need to set up the write-off functionality.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will first update the settings of one reason code on the [Reason Codes](CS_21_10_00.md) \(CS211000\) form. On the [Customers](AR_30_30_00.md) \(AR303000\) form, you will allow write-offs for the two customers. Finally, on the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, you will specify the default reason code for one of the write-off types.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start setting up the write-off functionality, launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as the chief accountant with the *johnson* username and the *123* password.
 
-## Step 1: Updating the Settings of the *BALWOFF* Reason Code { .section}
+## Step 1: Updating the Settings of the *BALWOFF* Reason Code
 
 To update the settings of the reason code used for balance write-offs, do the following:
 
@@ -26,7 +26,7 @@ To update the settings of the reason code used for balance write-offs, do the fo
 2.  In the **Account** box, select the *61200 \(Small Balance Write-Offs\)* account.
 3.  On the form toolbar, click **Save**.
 
-## Step 2: Allowing Write-Offs for Particular Customers { .section}
+## Step 2: Allowing Write-Offs for Particular Customers
 
 To allow write-offs for the *ABAKERY* and *CITRUS* customers, do the following:
 
@@ -44,7 +44,7 @@ To allow write-offs for the *ABAKERY* and *CITRUS* customers, do the following:
     -   **Write-Off Limit**: `10`
 6.  On the form toolbar, click **Save**.
 
-## Step 3: Updating the Accounts Receivable Preferences { .section}
+## Step 3: Updating the Accounts Receivable Preferences
 
 To update the accounts receivable preferences, do the following:
 

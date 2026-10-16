@@ -1,8 +1,8 @@
-# Employee Payroll Settings: General Information {#_89816987-d5a4-4010-96ea-e24b3f530967 .concept}
+# Employee Payroll Settings: General Information
 
 To be able to process payroll documents related to a particular employee, you need to create a linked payroll record for that employee and specify necessary payroll settings for that record.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,11 +10,11 @@ In this chapter, you will learn how to do the following:
 -   Specify necessary payroll settings for payroll employees
 -   Update taxes to take into account the employee addresses specified for payroll employee records
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create a payroll employee record and specify employee payroll settings if you are going to process payroll documents for this employee and need to maintain all the payroll-related data of the employee.
 
-## Creating a Payroll Employee Record { .section}
+## Creating a Payroll Employee Record
 
 In Acumatica ERP, you use the [Employees](EP_20_30_00.md) \(EP203000\) form to set up your employees. On this form, you need to fill in the following information:
 
@@ -31,7 +31,7 @@ Depending on whether the *US Payroll* or *Canadian Payroll* feature is enabled o
 -   The employee record, on the [Employees](EP_20_30_00.md) form, in the **Address Info** section of the **General** tab
 -   The company or branch to which the employee belongs, on the [Companies](CS_10_15_00.md) \(CS101500\) or [Branches](CS_10_20_00.md) \(CS102000\) form, respectively, in the **Main Address** section of the **Company Details** or **Branch Details** tab
 
-## Specifying Employee Payroll Settings { .section}
+## Specifying Employee Payroll Settings
 
 On the [Employee Payroll Settings](PR_20_30_00.md) \(PR203000\) form, you can specify the following payroll settings of an employee:
 

@@ -1,4 +1,4 @@
-# To View Vendor Balances {#_acd489d4-0192-45e7-ba94-dc01ad8558ce .task}
+# To View Vendor Balances
 
 You can use multiple reports to view vendor balances. This topic describes how to use the following reports and forms:
 
@@ -7,7 +7,7 @@ You can use multiple reports to view vendor balances. This topic describes how t
 -   [AP Balance by Vendor MC](AP_63_30_00.md) \(AP633000\) report
 -   [Vendor Summary](AP_40_10_00.md) \(AP401000\) form
 
-## To Run the Vendor Summary Report {#1 .section}
+## To Run the Vendor Summary Report
 
 1.  Open the [Vendor Summary](AP_65_50_00.md) \(AP655000\) report.
 2.  On the report toolbar, click **Run Report**.
@@ -15,7 +15,7 @@ You can use multiple reports to view vendor balances. This topic describes how t
     The report lists all vendors, with each vendor's status, class, credit terms, default currency, tax zone, phone number, fax number, and current balance.
 
 
-## To Run the AP Balance by Vendor Report {#2 .section}
+## To Run the AP Balance by Vendor Report
 
 1.  Open the [AP Balance by Vendor](../Shared/../UserGuide/AP_63_25_00.md) \(AP632500\) report.
 2.  On the **Report Parameters** tab, do the following:
@@ -33,7 +33,7 @@ You can use multiple reports to view vendor balances. This topic describes how t
     The report lists the vendor balance for each account related to the vendor. All the amounts are displayed in the base currency.
 
 
-## To Run the AP Balance by Vendor MC Report {#3 .section}
+## To Run the AP Balance by Vendor MC Report
 
 1.  Open the [AP Balance by Vendor](../Shared/../UserGuide/AP_63_25_00.md) \(AP632500\) report.
 2.  On the **Report Parameters** tab, do the following:
@@ -51,7 +51,7 @@ You can use multiple reports to view vendor balances. This topic describes how t
     The report lists the vendor balance for each account related to the vendor. All the amounts are displayed in the base currency.
 
 
-## To View Vendors' Balances Summary Information {#4 .section}
+## To View Vendors' Balances Summary Information
 
 1.  Open the [Vendor Summary](../Shared/../UserGuide/AP_65_50_00.md) \(AP401000\) form.
 2.  In the **Company/Branch** box, select the company or branch for which you want to view the data.

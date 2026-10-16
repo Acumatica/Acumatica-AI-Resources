@@ -1,25 +1,25 @@
-# Modern UI Editor: To Add a Field {#_57cac02a-f2c4-4638-91e5-f81dfc0b9c28 .task}
+# Modern UI Editor: To Add a Field
 
 To add a custom field to a fieldset, you need to create TypeScript and HTML extensions of the form. You can use the Modern UI Editor to generate these extensions. The generated files are automatically saved to the customization project and can later be built and published.
 
 This activity will walk you through the process of adding a custom field to a fieldset and generating the corresponding TypeScript and HTML extension files.
 
-## Story { .section}
+## Story
 
 Suppose that you need to add a custom field, `UsrRepairItem`, to the **Item Settings** section on the **General** tab of the [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\) form. You need to create a TypeScript extension, which will include the definition of this custom field. You also need to create an HTML extension to place the field in the appropriate fieldset.
 
-## Process Overview { .section}
+## Process Overview
 
 By using the **Add Field** button of the Modern UI Editor, you will add the custom field and generate the TypeScript extension. You’ll then use the element tree to locate the custom field, add the field in the appropriate position in the HTML layout, and create an HTML extension.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
-1.  Install an Acumatica ERP instance \(Version 2026 R1 or later\) with the *T100* dataset.
+1.  Install an Acumatica ERP instance \(Version 2026 R2 or later\) with the *T100* dataset.
 2.  Create a customization project and customize an existing form, such as [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\), by adding a custom field to the corresponding database table and creating a DAC extension.
 
-## Step 1: Adding the Field and Generating the TypeScript Extension { .section}
+## Step 1: Adding the Field and Generating the TypeScript Extension
 
 To add the custom field and generate the extension:
 
@@ -28,7 +28,6 @@ To add the custom field and generate the extension:
 3.  Specify the data view where the new field is accessible. The corresponding DAC is selected automatically.
 4.  Specify the field name in the **Field or Display Name** box; the field appears automatically in the table as you start typing its name \(Item 2\).
 
-    ![](Images/UIDev_ModernUIEditor_AddTSField.png "The Add Field dialog box")
 
 5.  Select the unlabeled check box for the field in the table.
 6.  Click **Save to Extension** \(Item 3\), which closes the dialog box.
@@ -38,7 +37,7 @@ To add the custom field and generate the extension:
 
 8.  To apply the changes, publish the customization project. The system validates and builds the frontend code, including the TypeScript extension.
 
-## Step 2: Adding the Field to the HTML Code and Generating the HTML Extension { .section}
+## Step 2: Adding the Field to the HTML Code and Generating the HTML Extension
 
 To customize the HTML layout, you can use the Modern UI Editor to generate the HTML extension. The file is automatically saved to the customization project and can later be built and published.
 
@@ -53,7 +52,6 @@ To add the custom field to the **Item Settings** section on the **General** tab 
 
     **Tip:** To quickly find the location of an existing control in the code editor on the **HTML** tab, you can click the control in the element tree. Once you click it, the system automatically scrolls to the right place in the code editor and highlights the code line corresponding to the control. This is useful when you're trying to add a custom control to the HTML code and need to place it before or after an existing control.
 
-    ![](Images/UIDev_ModernUIEditor_AddHTMLField.png "Adding a field to the HTML code")
 
 4.  In the element tree, click the arrow button next to the new field \(Item 5 above\).
 

@@ -1,4 +1,4 @@
-# Emailing T4A Slips {#_53751313-d097-4e18-962e-dc94a625795a .concept}
+# Emailing T4A Slips
 
 You can email T4A slips on the [Print/Email T4A Slips](AP_50_76_10.md) \(AP507610\) form.
 

@@ -1,4 +1,4 @@
-# Running of Allocations: Implementation Checklist {#_f2f39709-d69f-48aa-b70b-6e0c58e24a67 .concept}
+# Running of Allocations: Implementation Checklist
 
 The following table provides details that you can use to ensure that the system is configured properly for the running of allocations.
 

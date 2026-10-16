@@ -1,4 +1,4 @@
-# Sales Order-Related Service Orders: General Information {#_467124ec-e5af-4522-9d32-eda32f43db7f .concept}
+# Sales Order-Related Service Orders: General Information
 
 A sales order can include both services and stock items that your company provides to a customer. You typically start with a sales order when the customer’s request is primarily for products, and any related services— such as installation or setup— are part of that sale. This sales order can then be linked to a service order for managing and tracking the service work.
 
@@ -8,7 +8,7 @@ For example, suppose a customer orders several products along with installation 
 
 In this topic, you will read about the steps involved in processing a sales order along with the service order.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -17,19 +17,18 @@ In this chapter, you will learn how to do the following:
 -   Process the appointment
 -   Generate an invoice for an item added during an appointment
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You start with a sales order when the customer’s request originates as a product sale that includes related services.
 
-## Process Diagram { .section}
+## Process Diagram
 
 In the diagram below, you can see the general workflow of processing a sales order along with a service order in the system. The sections below describe the steps of this workflow in more detail.
 
 **Tip:** Processes and job titles may be different in your company.
 
-![](Images/diag_ServMgmt_Service_Order_from_Sales_Order.png "Sales order processing along with service order processing")
 
-## Creating a Sales Order { .section}
+## Creating a Sales Order
 
 When a sales manager receives a customer order that includes service provision, the manager enters the sales order with the *Open* status on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form. In the sales order, the manager specifies the customer who placed the order, adds the stock items to be sold and shipped, and includes the services to be performed.
 
@@ -39,13 +38,13 @@ After saving the sales order, the manager clicks **Create Service Order** on the
 
 On the **Details** tab of the [Service Orders](FS_30_01_00.md) form, the **Prepaid Item** check box is selected and the **Billable** check box is cleared for each line, indicating that billing will be handled through the sales order. The sales manager then saves the service order.
 
-## Creating Service Appointments { .section}
+## Creating Service Appointments
 
 Once the sales order and the corresponding service order have been created in the system, the service manager can create an appointment using any available method—for example, directly on the [Calendar Board](FS_30_03_00.md) \(FS300300\) form. The system assigns the *Not Started* status to newly created appointments.
 
 During appointment scheduling, the service manager can assign a staff member to the appointment, taking into account their skills, the licenses required to perform the services, and the service area where the work will be carried out. Note that this functionality must be configured on the[Service Management Preferences](FS_10_01_00.md) \(FS100100\) form.
 
-## Performing the Service Appointment { .section}
+## Performing the Service Appointment
 
 The staff member assigned to an appointment travels to the customer’s location to perform the required service and starts the appointment on the [Appointments](FS_30_02_00.md) \(FS300200\) form. The appointment is assigned the *In Process* status.
 
@@ -55,13 +54,13 @@ When the services are done, the staff member checks the details of the appointme
 
 When all appointments associated with a service order are completed, the system assigns the *Completed* status to the service order. Note that this occurs only if, on the **General** tab \(the **General Settings** section\) of the [Service Order Types](FS_20_23_00.md#) \(FS202300\) form for the service order type, the **Complete Service Order When Its Appointments Are Completed** check box is selected.
 
-## Closing Appointments and Service Orders { .section}
+## Closing Appointments and Service Orders
 
 After an appointment is completed, the accountant opens it to verify the quantities and prices. Once all information has been reviewed and confirmed, the accountant closes the appointment.
 
 If, on the **General** tab \(**General Settings** section\) of the [Service Order Types](FS_20_23_00.md#) \(FS202300\) form for the service order type, the **Close Service Order When Its Appointments Are Closed** check box is selected, the system automatically closes the related service order. The appointment and the service order are then assigned the *Closed* status.
 
-## Generating Billing Documents { .section}
+## Generating Billing Documents
 
 The accountant generates a new billing document for any additional stock items used during the appointment. This can be done either on the [Run Appointment Billing](FS_50_01_00.md) \(FS500100\) form or by clicking **Run Billing** on the [Appointments](FS_30_02_00.md) \(FS300200\) form.
 

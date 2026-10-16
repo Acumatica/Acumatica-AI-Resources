@@ -1,8 +1,8 @@
-# Manual Vendor Discounts: Configuration Prerequisites {#_31712328-c43a-4cef-95a0-d8777a368bbc .concept}
+# Manual Vendor Discounts: Configuration Prerequisites
 
 This section explains how to prepare the system so that a user can manually apply discounts to specific lines of a document or to a document as a whole.
 
-## Enabling Features { .section}
+## Enabling Features
 
 In Acumatica ERP, in order to be able to apply manual discounts to financial documents, the following features must be enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form:
 
@@ -13,7 +13,7 @@ In Acumatica ERP, in order to be able to apply manual discounts to financial doc
 
 -   *Inventory* \(optional\), which provides the functionality of maintaining stock items
 
-## Other Configuration Settings { .section}
+## Other Configuration Settings
 
 Make sure that the following settings are configured in the system:
 

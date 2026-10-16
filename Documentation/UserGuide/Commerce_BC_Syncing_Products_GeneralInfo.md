@@ -1,19 +1,19 @@
-# Product Synchronization: General Information {#_c9d60f28-a843-43bc-9c09-59895b644a27 .concept}
+# Product Synchronization: General Information
 
 Acumatica ERP Retail Edition provides you with the ability to export product data \(that is, data of stock and non-stock items\) from Acumatica ERP to the BigCommerce store.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to export stock and non-stock items to the BigCommerce store.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You export items from Acumatica ERP to an external system in the following cases:
 
 -   When you are initially configuring the external system and need to transfer stock and non-stock items that have already been defined in Acumatica ERP
 -   If you manage product information in Acumatica ERP, have updated any of the item settings after the item was synchronized with the external system, and need the changes to be reflected in the product settings in the system
 
-## Configuration of Product Synchronization { .section}
+## Configuration of Product Synchronization
 
 Before exporting stock and non-stock items defined in Acumatica ERP to the BigCommerce store, you need to perform the following general steps:
 
@@ -21,7 +21,7 @@ Before exporting stock and non-stock items defined in Acumatica ERP to the BigCo
 2.  Configure the default visibility and purchasability settings for items exported to the BigCommerce store. For details, see [Product Synchronization: Default Store Settings](Commerce_BC_Syncing_Products_Default_Settings.md).
 3.  Determine which items should be exported and define the visibility and purchasability settings for individual items. For details, see [Product Synchronization: Settings of Individual Items](Commerce_BC_Syncing_Products_Item_Settings.md).
 
-## Synchronization of Stock and Non-Stock Items { .section}
+## Synchronization of Stock and Non-Stock Items
 
 Depending on the item type, the settings of an item in the BigCommerce store are updated as part of the synchronization of the *Stock Item* or *Non-Stock Item* entity.
 

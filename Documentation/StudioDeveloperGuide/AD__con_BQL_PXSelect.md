@@ -1,8 +1,8 @@
-# PXSelect Classes {#_7d3035af-dac2-47fe-bbe6-b733565697cf .concept}
+# PXSelect Classes
 
 In traditional business query language \(BQL\), you define a data view or request database data in code by using one of the PXSelect classes \(that is, the classes derived from PXSelectBase\).
 
-## PXSelect Classes { .section}
+## PXSelect Classes
 
 The instances of PXSelect classes are complex objects containing the following:
 
@@ -13,11 +13,10 @@ The instances of PXSelect classes are complex objects containing the following:
 
 That is, through the PXSelect classes, you can execute the BQL command and interact with the cache, as illustrated in the following diagram.
 
-![](Images/PXSelect,Select,Search.png)
 
 **Tip:** Do not confuse the PXSelect classes with the Select classes. PXSelect is an aggregate of the data view, cache, and graph. You can use PXSelect classes to read, write, update, and delete records in the scope of a graph. Select classes simply represent BQL commands. You cannot read records by using a BQL command without instantiating a data view. For more information on the Select classes, see [The Classes That Compose BQL Statements](AD__con_BQL_Commands.md#).
 
-## Types of PXSelect Classes { .section}
+## Types of PXSelect Classes
 
 The first type parameter of all PXSelect classes is a data access class \(DAC\) generally bound to a database table. The resulting SQL query selects records from this table. Other type parameters \(such as Where, OrderBy, Join, and Aggregate\) are optional and represent clauses that can be added to the basic select statement.
 
@@ -47,7 +46,7 @@ For more information on how to use the BQL clauses, see [To Select Records By Us
 
 If you need to retrieve data as it is currently stored in the database, you use one of the PXSelect classes that has Readonly in its name, such as the PXSelectReadonly&lt;Table&gt; class, or any of the PXSelect classes that use aggregation, such as the PXSelectGroupBy&lt;Table, Aggregate&gt; class. Otherwise, the data retrieved from the database can be merged with the data currently stored in the cache. For more information on how the data is merged with the cache, see [Merge of the Records with PXCache](AD__con_Merge_of_Records_with_PXCache.md).
 
-## The List of PXSelect Classes { .section}
+## The List of PXSelect Classes
 
 Acumatica Framework provides the following PXSelect classes:
 

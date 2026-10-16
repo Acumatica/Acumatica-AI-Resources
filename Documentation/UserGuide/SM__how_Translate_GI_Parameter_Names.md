@@ -1,12 +1,12 @@
-# To Translate Parameter Display Names for a Generic Inquiry {#_efdc063e-48ca-4e59-994a-18ac25071fe2 .task}
+# To Translate Parameter Display Names for a Generic Inquiry
 
 In Acumatica ERP, you can translate the display names for the parameters of a generic inquiry, as described in this topic. You need to use the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form for translation. For more information, see [Locales and Languages](SM__CON_Locales_and_Languages.md).
 
-## Before You Begin { .section}
+## Before You Begin
 
 You need to enable multilingual user input, as described in [Locales and Languages](../Shared/../UserGuide/SM__CON_Locales_and_Languages.md).
 
-## To Translate Parameter Display Names for a Generic Inquiry { .section}
+## To Translate Parameter Display Names for a Generic Inquiry
 
 1.  Open the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form.
 2.  In the **Inquiry Title** box, select the generic inquiry whose elements you want to translate.

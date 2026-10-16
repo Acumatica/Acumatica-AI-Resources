@@ -1,4 +1,4 @@
-# Importing Orders with Freight Charges {#_47662720-a001-43fa-bcd8-b98be477af0c .concept}
+# Importing Orders with Freight Charges
 
 The topics of this chapter provide information about the representation of freight charges in sales orders imported to Acumatica ERP from the BigCommerce store.
 

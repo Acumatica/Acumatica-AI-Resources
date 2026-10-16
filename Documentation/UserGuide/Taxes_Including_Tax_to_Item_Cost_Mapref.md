@@ -1,4 +1,4 @@
-# Including Taxes in the Cost of Items {#_a87326b7-8969-491c-b529-a63598c0c6d1 .concept}
+# Including Taxes in the Cost of Items
 
 This chapter explains how to configure the system so that the taxes applicable to purchases will be automatically included in the cost of the items being purchased.
 

@@ -1,4 +1,4 @@
-# Migrating Financial Documents {#_73def5aa-1549-4ec4-9d9e-9dcf00cdb2b6 .concept}
+# Migrating Financial Documents
 
 This chapter explains how you can migrate accounts payable and accounts receivable documents using the predefined import scenarios.
 

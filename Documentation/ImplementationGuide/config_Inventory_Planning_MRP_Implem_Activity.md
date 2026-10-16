@@ -1,8 +1,8 @@
-# Inventory Planning Configuration: To Implement MRP {#_7a71bef5-764e-4eab-821c-eb125556ae79 .task}
+# Inventory Planning Configuration: To Implement MRP
 
 In this implementation activity, you will learn how to specify the system settings related to material requirements planning \(MRP\)—that is, inventory planning that includes production order planning.
 
-## Story { .section}
+## Story
 
 Suppose that you are an implementation manager who needs to prepare the system for the MRP type of inventory planning.
 
@@ -14,7 +14,7 @@ You need to make sure that the warehouse involved in manufacturing has been defi
 
 Also, for stock items that are used as materials, you need to specify replenishment settings, such as the safety stock quantity, the reorder point, the minimum order quantity, and the maximum order quantity.
 
-## Configuration Overview {#_59ac3ed3-9150-44d0-a52d-ed0a06cc65bc .section}
+## Configuration Overview
 
 The following entities, which you will use in this activity, have been predefined in the *U100* dataset:
 
@@ -23,7 +23,7 @@ The following entities, which you will use in this activity, have been predefine
 -   On the [Warehouses](../UserGuide/IN_20_40_00.md) \(IN204000\) form, the *WORKHOUSE* warehouse
 -   On the [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\) form, the *JUICECUP1L* stock item
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, to specify the settings related to MRP, you will do the following:
 
@@ -33,7 +33,7 @@ In this activity, to specify the settings related to MRP, you will do the follow
 4.  On the [Warehouses](../UserGuide/IN_20_40_00.md) \(IN204000\) form, review the settings of the *WORKHOUSE* warehouse related to inventory planning.
 5.  On the [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\) form, specify the settings of the *JUICECUP1L* stock item that will be used by the system during inventory planning.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start specifying MRP settings, do the following:
 
@@ -43,7 +43,7 @@ Before you start specifying MRP settings, do the following:
 2.  Sign in to the company in which the prerequisite activities have been performed as a system administrator by using the *gibbs* username and *123* password.
 3.  Make sure that the *Material Requirements Planning* feature has been enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form.
 
-## Step 1: Creating an MPS Type { .section}
+## Step 1: Creating an MPS Type
 
 To create an MPS type, do the following:
 
@@ -56,7 +56,7 @@ To create an MPS type, do the following:
     -   **Dependent**: Selected
 4.  On the form toolbar, click **Save**.
 
-## Step 2: Specifying General Inventory Planning Settings { .section}
+## Step 2: Specifying General Inventory Planning Settings
 
 To specify the system settings that affect inventory planning, do the following:
 
@@ -83,7 +83,7 @@ To specify the system settings that affect inventory planning, do the following:
     -   **Include Expired Blanket Sales Orders**: Cleared
 6.  On the form toolbar, click **Save**.
 
-## Step 3: Creating the Inventory Planning Buckets { .section}
+## Step 3: Creating the Inventory Planning Buckets
 
 To create the needed inventory planning buckets, do the following:
 
@@ -114,7 +114,7 @@ To create the needed inventory planning buckets, do the following:
         -   **Interval**: *Month*
 7.  On the form toolbar, click **Save**.
 
-## Step 4: Reviewing the Inventory Planning Settings for a Warehouse { .section}
+## Step 4: Reviewing the Inventory Planning Settings for a Warehouse
 
 You will review the inventory planning-related settings that have been predefined for the *WORKHOUSE* warehouse in the *U100* dataset. Do the following:
 
@@ -122,7 +122,7 @@ You will review the inventory planning-related settings that have been predefine
 2.  Go to the **Locations** tab, and notice that the check boxes in the **Inventory Planning** column are selected for the *MAIN*, *MGI*, and *MTL* rows in the table. This means that these locations are involved in the inventory planning process.
 3.  Notice that all check boxes are selected in the **Inventory Planning Settings** section of the **Inventory Planning** tab. This means that all documents and entities will be considered by the system during the inventory planning process.
 
-## Step 5: Specifying Inventory Planning Settings for Stock Items { .section}
+## Step 5: Specifying Inventory Planning Settings for Stock Items
 
 You will specify the inventory planning settings for the *JUICECUP1L* stock item, which has been predefined in the *U100* dataset. In a production environment, you would need to specify similar settings for all stock items that will be used for inventory planning. Do the following:
 

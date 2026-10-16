@@ -1,8 +1,8 @@
-# To Move an Article {#_ea4d9506-17c0-421e-a020-048b683c934d .task}
+# To Move an Article
 
 You can move an article to a different folder or to a different position within the current folder. If you move an article that is a folder, it is moved along with its contents.
 
-## To Move an Article Across Folders { .section}
+## To Move an Article Across Folders
 
 To move an article between folders:
 
@@ -11,7 +11,7 @@ To move an article between folders:
 3.  On the **Contents** tab, in the **Parent Folder** box, select the folder where you want to place the article.
 4.  On the Wiki Editor form toolbar, click **Save**.
 
-## To Move Articles Within a Folder { .section}
+## To Move Articles Within a Folder
 
 To rearrange articles within a folder, do the following:
 

@@ -1,4 +1,4 @@
-# Inventory Item Kits {#_1ab694a7-e078-4a3c-9a35-18cd3ac26b2a .concept}
+# Inventory Item Kits
 
 A kit is a bundle of stock and non-stock items that increases the value of the kit components. In Acumatica ERP, you can use kits of inventory items if your organization sells multiple inventory items together and wants to track these items as a whole. For example, suppose that an organization sells cheese and wine and also offers nicely packed baskets with a bottle of wine and a set of cheese that pairs well with this wine. To track these baskets in inventory, the organization uses kits, which include a bottle of wine, several cheeses, and a basket as stock items, and the delivery service and packaging as non-stock items.
 
@@ -6,7 +6,7 @@ A kit is a bundle of stock and non-stock items that increases the value of the k
 
 In this topic, you will read about kit types and revisions of kit specifications.
 
-## Kit Types { .section}
+## Kit Types
 
 You can create stock and non-stock kits. The main difference between these kit types is that the system tracks stock kits in inventory and does not track non-stock kits. The tables below compare stock and non-stock kits.
 
@@ -34,7 +34,7 @@ You can create stock and non-stock kits. The main difference between these kit t
 
 For detailed information on kits, see [Stock Kits](IN__con_Stock_Kits.md) and [Non-Stock Kits](IN__con_Non_Stock_Kits.md).
 
-## Kit Specifications and Revisions { .section}
+## Kit Specifications and Revisions
 
 To represent kits in the system, you create specifications, which define the stock and non-stock items included in a kit, by using the [Kit Specifications](IN_20_95_00.md) \(IN209500\) form. Each specification has at least one *revision*, which is automatically created when you create a specification. A revision is a version of the same kit that has minor differences from the previous version.
 

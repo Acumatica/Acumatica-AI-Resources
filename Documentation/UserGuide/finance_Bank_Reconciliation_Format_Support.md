@@ -1,4 +1,4 @@
-# Bank Reconciliation: Support for OFX and Other File Formats {#_039d01e3-3fde-4f8c-a817-daed252b7696 .concept}
+# Bank Reconciliation: Support for OFX and Other File Formats
 
 **Attention:** This information is provided for reference and is not required reading in this chapter.
 

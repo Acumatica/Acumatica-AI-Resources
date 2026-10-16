@@ -1,8 +1,8 @@
-# To Approve Bills for Payment {#_3dfcd237-dc79-4b28-bb60-d6235a180ded .task}
+# To Approve Bills for Payment
 
 You can approve multiple bills by using the [Approve Bills for Payment](AP_50_20_00.md) \(AP502000\) form if approval of bills is required in your system. Bills can be paid without approval if the **Require Approval of Bills Prior to Payment** check box is cleared on the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form.
 
-## To Approve Bills For Payment {#section_whh_njv_vxb .section}
+## To Approve Bills For Payment
 
 1.  Open the [Approve Bills for Payment](AP_50_20_00.md) \(AP502000\) form.
 2.  In the Selection area, clear the **Show Approved for Payment** check box.

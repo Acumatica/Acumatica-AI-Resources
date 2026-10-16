@@ -1,12 +1,12 @@
-# To Generate the Original CRA Reporting Forms {#_a63a703b-ddf0-4ea5-9038-e14d4d315cf4 .task}
+# To Generate the Original CRA Reporting Forms
 
 You use the [Create CRA E-File](AP_50_76_00.md) \(AP507600\) form to generate the original T5018 and T4A forms in XML format.
 
-## Before You Proceed {#section_xbq_njv_vxb .section}
+## Before You Proceed
 
 Make sure that you have enabled the *Canadian Localization* feature on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form and configured the needed entities, as described in [Configuring CRA Reporting](AP__CON_Configuring_T5018.md).
 
-## To Generate the Original T5018 Electronic File {#section_zbq_njv_vxb .section}
+## To Generate the Original T5018 Electronic File
 
 1.  Open the [Create CRA E-File](AP_50_76_00.md) \(AP507600\) form.
 2.  In the **Tax Form** box, select *T5018*.
@@ -32,7 +32,7 @@ Make sure that you have enabled the *Canadian Localization* feature on the [Enab
 13. On the form toolbar, click **Save**.
 14. When the original e-file has been submitted to CRA, select the **E-File Submitted to CRA** check box and click **Save** to save the changes.
 
-## To Generate the Original T4A Electronic File { .section}
+## To Generate the Original T4A Electronic File
 
 1.  Open the [Create CRA E-File](AP_50_76_00.md) \(AP507600\) form.
 2.  In the **Tax Form** box, select *T4A*.

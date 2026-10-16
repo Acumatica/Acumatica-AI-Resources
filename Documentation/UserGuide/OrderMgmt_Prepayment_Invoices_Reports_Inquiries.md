@@ -1,4 +1,4 @@
-# Prepayment Invoices: Related Report and Inquiry Forms {#_d49b1df1-6982-47db-bed9-6e098e6e26a5 .concept}
+# Prepayment Invoices: Related Report and Inquiry Forms
 
 In the following sections, you can find details about the reports you may want to review to gather information about prepayment invoices.
 
@@ -6,7 +6,7 @@ In the following sections, you can find details about the reports you may want t
 
 **Attention:** If you don’t see a particular report or form that is described, you may have signed in to the system with a user account that doesn’t have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms.
 
-## AP Prepayment Invoices in Aging Reports {#section_jgg_nhf_b3c .section}
+## AP Prepayment Invoices in Aging Reports
 
 The accounts payable aging reports reflect prepayment invoices as follows:
 

@@ -1,4 +1,4 @@
-# Processing Direct Write-Offs {#_3e004dfe-404a-4003-8338-66314123e10a .concept}
+# Processing Direct Write-Offs
 
 The topics of this chapter describe how to configure and process write-offs in accounts receivable by using the direct write-off method. You will learn to create credit write-offs and balance write-offs.
 

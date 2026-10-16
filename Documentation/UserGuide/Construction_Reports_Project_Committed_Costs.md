@@ -1,4 +1,4 @@
-# Construction Reports: Project Committed Costs {#_706f7418-4503-4abb-b42c-8af469ca6209 .concept}
+# Construction Reports: Project Committed Costs
 
 Project commitments generally originate from purchasing documents—purchase orders, project drop-ship orders, and subcontracts. As a project progresses, amendments to original agreements accumulate, updating the total committed costs over time.
 
@@ -16,7 +16,7 @@ These forms help you track budget performance, identify potential cost overruns,
 
 This ensures that the system’s calculations include data from previously processed project-related documents.
 
-## Summary of the Project’s Committed Costs { .section}
+## Summary of the Project’s Committed Costs
 
 On the [Project Committed Cost Summary](PM_65_82_00.md) \(PM658200\) generic inquiry form, you can track a project's committed costs as of any date. To get started, you select the date and the project.
 
@@ -28,7 +28,7 @@ Each row represents a cost budget line of the project—with all amounts in the 
 -   The **Item**, **UOM**, and **Quantity** columns are hidden by default.
 -   Some columns, such as **Cost Code** or **Released Retainage**, show values only if the corresponding feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Breakdown of the Project’s Committed Costs { .section}
+## Breakdown of the Project’s Committed Costs
 
 The [Project Committed Cost Detailed](PM_65_83_00.md) \(PM658300\) generic inquiry form provides detailed oversight of the costs for all commitments of the project. To get started, you select the date and the project.
 

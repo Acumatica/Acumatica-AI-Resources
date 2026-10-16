@@ -1,4 +1,4 @@
-# Freight Calculation {#_861acb8b-9292-48fc-b348-4fc920724249 .concept}
+# Freight Calculation
 
 When you provide delivery service to customers of your organization, you need to calculate the freight price to charge customers. The freight price usually depends on any number of the following factors, most of which affect the freight costs to your company: the shipping rates of the third-party carriers whose services your organization uses, the shipping zones, the weight or volume of goods, and the total amount of the applicable order.
 
@@ -6,7 +6,7 @@ In Acumatica ERP, you can configure the system so that it calculates the freight
 
 In this topic, you will read about the calculation of freight costs and prices in Acumatica ERP.
 
-## Configuration of Automatic Freight Calculation { .section}
+## Configuration of Automatic Freight Calculation
 
 If you want to calculate freight cost and price automatically for particular order types, you do the following:
 
@@ -15,7 +15,7 @@ If you want to calculate freight cost and price automatically for particular ord
 3.  You create shipping settings for each shipping method by using the [Ship via Codes](CS_20_75_00.md) form. Shipping settings depend on the carrier. For details, see [To Create Ship via Codes for the Integrated Carrier](SO__How_Create_Ship_Via_Codes.md) and [To Create a Ship via Code](SO__How_Create_Ship_Via_Codes_NIC.md).
 4.  You create shipping terms, which the system will use to calculate freight price depending on the order amount, by using the [Shipping Terms](CS_20_80_00.md) \(CS208000\) form. For details, see [Freight Price Calculation](#_beeed649-3493-45fd-b8f0-6601b2f4f5a1).
 
-## Freight Price Calculation {#_beeed649-3493-45fd-b8f0-6601b2f4f5a1 .section}
+## Freight Price Calculation
 
 The ship via code specified on a sales order defines the freight cost. To calculate the freight price, the system uses either default shipping terms that can be specified for a customer on the [Customers](AR_30_30_00.md) \(AR303000\) form or shipping terms that you specify manually on the sales order. The freight price may include insurance, handling fees, or line handling fees.
 
@@ -30,7 +30,7 @@ FreightPrice = (FreightCost * FreightCost% / 100) +
              (NumberOfLines x LineHandling)
 ```
 
-## Freight Information on Sales Documents { .section}
+## Freight Information on Sales Documents
 
 The first sales document that contains freight information is the sales order. If the sales process in your organization includes shipments, you can edit the freight information on shipments \(or leave the information if it is correct for the shipment\). An invoice \(or multiple invoices\) based on a sales order or shipment can contain the freight price copied from the sales order or the shipment. For each shipping term, you can specify which document will provide freight information to an invoice with this shipping term—a sales order or shipment—by selecting the corresponding option in the **Invoice Freight Price Based On** box on the [Shipping Terms](CS_20_80_00.md) \(CS208000\) form.
 
@@ -38,7 +38,7 @@ The first sales document that contains freight information is the sales order. I
 
 If the freight price can be determined when the sales order is entered, you can select *Sales Order* in this box, so that changes of freight information on any shipment created for this sales order do not influence the freight price on the invoice or invoices for the sales order. If the freight price should instead be defined during shipping, you can select *Shipment* as the base document for freight price.
 
-## Freight Cost for Integrated Carriers { .section}
+## Freight Cost for Integrated Carriers
 
 National carriers, such as UPS or FedEx, allow direct access to their automated systems to provide real-time information about rates for their clients. In Acumatica ERP, you can configure integration with these carriers, so they are referred to as *integrated carriers*. For more information, see [Integration with Carriers](CS__con_Integration_with_Carriers.md).
 
@@ -48,7 +48,7 @@ You can compare the freight amounts charged by various carriers by using the **S
 
 The freight price the customer is charged for goods delivered by an integrated carrier is calculated as a sum of the bill amount for this delivery, the freight price calculated according to shipping terms, and the premium freight price.
 
-## Freight Cost for Local Carriers { .section}
+## Freight Cost for Local Carriers
 
 If the goods for a sales order are shipped via a local carrier, the system estimates the freight cost based on the rates defined by the ship via code specified on the [Ship via Codes](CS_20_75_00.md) \(CS207500\) form. You enter rates for each ship via code based on a local carrier on the **Freight Rates** tab of the [Ship via Codes](CS_20_75_00.md) \(CS207500\) form. For details, see [To Create a Ship via Code](SO__How_Create_Ship_Via_Codes_NIC.md).
 
@@ -77,7 +77,7 @@ The system calculates the freight cost based on the calculation method selected 
     Here, `FreightRate` is equal to the rate defined for a specific range of the shipment's weight and volume, as specified on the **Freight Rates** tab of the [Ship via Codes](CS_20_75_00.md) form.
 
 
-## Manual Entry of Freight Amounts { .section}
+## Manual Entry of Freight Amounts
 
 You can configure the system so that users can manually enter the freight cost, the freight price, or both of these on a sales order or shipment.
 
@@ -94,14 +94,14 @@ The **Override Freight Price** check box is available for documents that meet an
 -   *Sales Order* is specified in the **Invoice Freight Price Based On** box on the **Totals** tab of the [Sales Orders](SO_30_10_00.md) form for the sales order.
 -   *Shipment* is specified in the **Invoice Freight Price Based On** box on the **Shipping** tab of the [Shipments](SO_30_20_00.md) form for the shipment.
 
-## Freight Amount on Partial Shipments { .section}
+## Freight Amount on Partial Shipments
 
 A sales order can be fulfilled by multiple shipments if the *Back Order Allowed* option is selected in the **Shipping Rule** box of the **Shipping** tab on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form. With multiple shipments, you can define how the freight amount \(that is, the freight price and the premium freight price, if one is specified\) should be allocated among shipments by selecting one of the following options in the **Freight Allocation on Partial Shipping** box of the **General** tab of the [Sales Orders Preferences](SO_10_10_00.md) \(SO101000\) form:
 
 -   *Full Amount First Time* to assign the freight amount to the first shipment created for the order
 -   *Allocate Proportionally* to distribute the freight amount among shipments proportionally to partial shipment amounts
 
-## Correction of Freight Price { .section}
+## Correction of Freight Price
 
 If you want to charge a customer for any additional conditions, such as extreme fragility or unusual dimensions, you can enter a premium freight price that the system will add to the order total. The premium freight price is specified for a sales order as a flat amount on the **Totals** tab of the [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 
@@ -111,7 +111,7 @@ If you need to correct the excessive freight charges that were specified in one 
 
 **Note:** The order's total amount after you adjust the premium freight price must be greater than zero or, at minimum, equal to zero—otherwise, the invoice that is later generated for the order cannot be released.
 
-## Posting Settings for Freight Amounts { .section}
+## Posting Settings for Freight Amounts
 
 You can specify the General Ledger accounts that the system uses for posting freight amounts in the settings of the following entities:
 

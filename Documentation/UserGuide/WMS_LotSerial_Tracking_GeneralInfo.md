@@ -1,8 +1,8 @@
-# Automated Operations with Lot- and Serial-Tracked Items: General Information {#_8a849d2b-0a55-467f-b537-28bc6e192de3 .concept}
+# Automated Operations with Lot- and Serial-Tracked Items: General Information
 
 Lot numbers and serial numbers are used to track certain types of inventory items and keep accurate records about these items’ distribution. If the *Lot and Serial Tracking* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can configure the tracking of stock items by lot or serial number, as well as by expiration date, and process documents with these items in automated mode.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -13,7 +13,7 @@ In this chapter, you will do the following:
 -   Perform automated issuing of lot- and serial-tracked items
 -   Perform automated receiving of lot- and serial-tracked items by using inventory receipts
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may need to track lot or serial numbers for items in any of the following cases:
 
@@ -24,7 +24,7 @@ You may need to track lot or serial numbers for items in any of the following ca
 -   Your organization sells items in lots and it is important to keep the assigned lot number tracked in the sales documents.
 -   Your organization sells items with an expiration date and issues items based on this date.
 
-## Picking and Packing Lot- and Serial-Tracked Items { .section}
+## Picking and Packing Lot- and Serial-Tracked Items
 
 You open the [Pick, Pack, and Ship](SO_30_20_20.md) \(SO302020\) form \(or the corresponding screen in the Acumatica mobile app\), switch to Pick mode, and scan a shipment number, the system loads the shipment lines into the table on the **Pick** tab. To select a line of the shipment for processing, you scan the item barcode and the barcode of the location from which the item is being picked.
 
@@ -32,7 +32,7 @@ For serial-tracked items \(with any assignment method\), the system shows a sepa
 
 When you process the packing of items in Pack mode, for each item to be packed in a selected box, you scan the item barcode and lot or serial number; optionally, you also scan the expiration date \(which must be the same as the expiration date in the shipment\).
 
-## Receiving and Putting Away Lot- and Serial-Tracked Items { .section}
+## Receiving and Putting Away Lot- and Serial-Tracked Items
 
 You open the [Receive and Put Away](PO_30_20_20.md) \(PO302020\) form \(or the corresponding screen in the Acumatica mobile app\), switch to Receive mode, and scan or enter the purchase receipt number. The system loads the purchase receipt lines into the table on the **Receive** tab. To select a line for processing, you scan the item barcode and the barcode of the location to which the item is received. The settings of the item being received determine the item settings that you must enter.
 
@@ -51,22 +51,22 @@ For serial-tracked items with the *When Received* assignment method, the system 
 
 When you process the putting away of the items in Put Away mode, for each item to be put away, you scan the barcode of the receiving location, the item barcode, and then the lot or serial number.
 
-## Processing Inventory Transfers with Lot- and Serial-Tracked Items { .section}
+## Processing Inventory Transfers with Lot- and Serial-Tracked Items
 
 On the [Scan and Transfer](IN_30_40_20.md) \(IN304020\) form, when you transfer lot- or serial-tracked items, for each item to be processed, you scan the location barcode, the item barcode, and the barcode of the lot or serial number.
 
-## Counting Lot- and Serial-Tracked Items { .section}
+## Counting Lot- and Serial-Tracked Items
 
 On the [Scan and Count](IN_30_50_20.md) \(IN305020\) form, when, during physical inventory, you enter counted data that contain lot- or serial-tracked items, for each item to be processed, you scan the location barcode, the item barcode, and the barcode of the lot or serial number. During the counting of the items, if you find an item with an unregistered serial number, you can add this item to the physical inventory document by scanning the item barcode and the serial number.
 
-## Processing Inventory Issues with Lot- and Serial-Tracked Items { .section}
+## Processing Inventory Issues with Lot- and Serial-Tracked Items
 
 On the [Scan and Issue](IN_30_20_20.md) \(IN302020\) form, you can process inventory issues that contain lot- or serial-tracked items. The system may prompt you to enter the lot or serial number of the item, depending on the lot or serial class settings specified on the [Lot/Serial Classes](IN_20_70_00.md) \(IN207000\) form as follows:
 
 -   For the lot or serial class with the *When Received* assignment method and *User-Enterable* issue method, the system prompts you to scan the lot or serial number \(which was specified on receiving of items\).
 -   For the lot or serial class with the *When Used* assignment method, the system prompts you to scan the lot or serial number only if the number is not generated automatically and must be entered manually.
 
-## Processing Inventory Receipts with Lot- and Serial-Tracked Items { .section}
+## Processing Inventory Receipts with Lot- and Serial-Tracked Items
 
 On the [Scan and Receive](IN_30_10_20.md) \(IN301020\) form, you can process inventory receipts that contain lot- or serial-tracked items. The system may prompt you to enter the lot or serial number of the item and an expiration date, depending on the lot or serial class settings specified on the [Lot/Serial Classes](IN_20_70_00.md) \(IN207000\) form as follows:
 

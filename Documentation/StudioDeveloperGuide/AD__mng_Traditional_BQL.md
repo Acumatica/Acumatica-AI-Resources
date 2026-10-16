@@ -1,4 +1,4 @@
-# Creating Traditional BQL Queries {#_c3ae0da2-63d1-4a43-b1f6-b8b3a96da221 .concept}
+# Creating Traditional BQL Queries
 
 To query data from the database, you use the business query language \(BQL\), which has two dialects: fluent BQL and traditional BQL.
 

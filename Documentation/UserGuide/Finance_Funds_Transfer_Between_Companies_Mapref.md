@@ -1,4 +1,4 @@
-# Processing Inter-Company Funds Transfers {#_6d3237a2-d8b3-4529-877d-6ede12481370 .concept}
+# Processing Inter-Company Funds Transfers
 
 When an organization consists of multiple companies, it can transfer funds between its companies. The proper processing of inter-company transactions has to be set up to eliminate the risk balances being calculated incorrectly.
 

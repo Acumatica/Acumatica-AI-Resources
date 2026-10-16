@@ -1,8 +1,7 @@
-# To Add a Nested Container {#_b21381a3-a589-4aa6-b9fb-a4f87afab758 .concept}
+# To Add a Nested Container
 
 A PXGrid container cannot include a nested container. A PXTab container can include only PXTabItem containers. You can add any container as a nested container to a PXFormView, PXTabItem, or PXSmartPanel container, as the following diagram shows.
 
-![](images/CG_GL_Forms_ASPX_Containers_Nested.png "Nesting rules for containers on an ASPX page")
 
 You can include the PXPanel and PXGroupBox container controls in the PXFormView, RowTemplate, PXTabItem, and PXSmartPanel containers.
 
@@ -13,7 +12,6 @@ To add a nested container to a parent container, perform the following actions:
 3.  Click the **Add Controls** tab item \(see the screenshot below\).
 4.  From the **Main Containers** or **Other Controls** group, drag the required type of the nested container into the parent container in the Control Tree, as shown in the following screenshot.
 
-    ![](images/CG_GL_UI_PXForm_AddNested.png "Adding a nested container to a parent container")
 
     **Note:** A nested container is visible on the customized form only if it contains at least one visible control.
 

@@ -1,4 +1,4 @@
-# Transactions with Subaccounts: Implementation Checklist {#_ade7bb71-e163-4bbc-b04c-0ae8a2d193c5 .concept}
+# Transactions with Subaccounts: Implementation Checklist
 
 Before users begin processing GL transactions with subaccounts, you must make sure that the system has been configured properly and that all required entities have been created, as described in the following table.
 
@@ -10,7 +10,7 @@ Before users begin processing GL transactions with subaccounts, you must make su
 |[Company Financial Calendar](GL_20_11_00.md) \(GL201100\) form|Be sure that the financial periods for which transactions will be created have a status of *Open*.|You can generate the necessary periods on the [Master Financial Calendar](GL_20_10_00.md) \(GL201000\) form.|
 |[Segmented Keys](CS_20_20_00.md) \(CS202000\) form|Be sure that the *SUBACCOUNTS* segmented key has been configured to meet the company’s business needs, as described in [Subaccounts: General Information](../ImplementationGuide/config_Subaccounts_GeneralInfo.md).| |
 
-## Settings That Can Affect the Processing Workflow {#section_aq3_mjv_vxb .section}
+## Settings That Can Affect the Processing Workflow
 
 The settings on the [General Ledger Preferences](../Shared/../UserGuide/GL_10_20_00.md) \(GL102000\) form can affect the processing workflow as follows:
 

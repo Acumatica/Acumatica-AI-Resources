@@ -1,4 +1,4 @@
-# Tax Report Preparation: Implementation Checklist {#_602cc9b9-7b76-496e-b213-aaf069164915 .concept}
+# Tax Report Preparation: Implementation Checklist
 
 To ensure that the system is configured properly for preparing a tax report, make sure that the criteria listed in the table have been met in the system as described.
 

@@ -1,12 +1,12 @@
-# Accounts Receivable: Configuration Prerequisites {#_9a18535f-2fa5-4ce3-a381-666d63859001 .concept}
+# Accounts Receivable: Configuration Prerequisites
 
 Before you start to implement accounts receivable, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md#) \(CS100000\) form, the minimum set of features has to be enabled. For details, see [Company Without Branches: To Configure a Company Without Branches](config_Basic_Company_Implem_Activity_Enabling_Features.md).
 
-## Configuring the System { .section}
+## Configuring the System
 
 You need to make sure the following implementation tasks have been performed in Acumatica ERP before you begin implementing accounts receivable:
 

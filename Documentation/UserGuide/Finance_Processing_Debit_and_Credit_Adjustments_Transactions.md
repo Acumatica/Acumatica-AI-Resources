@@ -1,10 +1,10 @@
-# Debit and Credit Adjustments: Generated Transactions {#_bbf4186f-4802-4622-aebe-724144f6deaf .concept}
+# Debit and Credit Adjustments: Generated Transactions
 
 When you release a debit or credit adjustment, the system generates a batch of transactions to record a decrease or increase of liability.
 
 A batch created upon release of the debit or credit adjustment is numbered in accordance with the numbering sequence assigned in the **Batch Numbering Sequence** box on the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form. The batch number is specified on the **Financial** tab of the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 
-## Transaction Generated for a Debit Adjustment {#section_yk3_njv_vxb .section}
+## Transaction Generated for a Debit Adjustment
 
 On release of a debit adjustment, a batch of the following transactions is generated for a one-line adjustment.
 
@@ -17,7 +17,7 @@ The same transaction is generated for a debit adjustment for which credit terms 
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Bills and Adjustments](AP_30_10_00.md) form.
 
-## Transaction Generated for a Credit Adjustment {#section_bl3_njv_vxb .section}
+## Transaction Generated for a Credit Adjustment
 
 When a one-line credit adjustment is released, a batch of the following transactions is generated.
 
@@ -30,7 +30,7 @@ A cash discount can be applied to a credit adjustment in accordance with the cre
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Bills and Adjustments](AP_30_10_00.md) form.
 
-## Transaction Generated for Refund Applied to a Debit Adjustment with a Cash Discount { .section}
+## Transaction Generated for Refund Applied to a Debit Adjustment with a Cash Discount
 
 On release of a refund that has been applied to a debit adjustment with a cash discount, a batch of the following transactions is generated for a one-line adjustment.
 

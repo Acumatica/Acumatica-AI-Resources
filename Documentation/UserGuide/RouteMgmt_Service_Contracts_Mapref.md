@@ -1,4 +1,4 @@
-# Managing Route Service Contracts {#_c447b6e8-eb46-4146-b382-a780eb705634 .concept}
+# Managing Route Service Contracts
 
 You can process and track contracts for recurring services that require a route to be performed. A route service contract represents a document that contains information on the predefined services that are going to be performed at the predefined frequency, according to the agreement between the customer and the company.
 
@@ -24,6 +24,4 @@ In Acumatica ERP, you can create service contracts with different billing option
 
 -   **[Route Service Contracts with the End-Period Billing: Billing Documents](../UserGuide/RouteMgmt_Route_Contract_EndPeriodBilling.md)**  
 
-
-**Parent topic:**[Route Management](../UserGuide/FS_00_00_03.md)
 

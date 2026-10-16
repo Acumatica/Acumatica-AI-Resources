@@ -1,4 +1,4 @@
-# Managing Billing Rates {#_41c47abd-bf5e-4d87-b37f-f69cc0f41abc .concept}
+# Managing Billing Rates
 
 By using the flexible rate calculation engine in Acumatica ERP, you can implement complex pricing and accrual models that require the consideration of a large number of parameters. With this rate calculation engine, you can differentiate billing rates depending on any of the following: the project, the project task, the account group, the inventory item, and the employee. You can also define different billing rates for specific dates or date ranges.
 

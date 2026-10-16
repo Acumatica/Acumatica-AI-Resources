@@ -1,4 +1,4 @@
-# Generic Inquiries {#_38b047fd-a5b8-4a0f-90b2-2ca76535ff1d .concept}
+# Generic Inquiries
 
 If you need to use a generic inquiry on another Acumatica ERP instance, you need to include the information about this generic inquiry in a customization project and publish this customization project to this instance.
 

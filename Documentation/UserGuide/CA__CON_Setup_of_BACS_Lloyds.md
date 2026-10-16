@@ -1,10 +1,10 @@
-# Setup of BACS Lloyds Payment Processing {#_c3bcefad-8732-425e-818b-510dfb41588a .concept}
+# Setup of BACS Lloyds Payment Processing
 
 In Acumatica ERP, you can export batch payments to a Bankers' Automated Clearing System \(BACS\) file in the BACS Lloyds format by using a plug-in. \(BACS is used in the United Kingdom.\)
 
 This functionality is available if the *UK Localization* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Setup of Batch Payment Processing by Using the BACS Lloyds Plug-In { .section}
+## Setup of Batch Payment Processing by Using the BACS Lloyds Plug-In
 
 To start paying your vendors by using the BACS Lloyds plug-in, you should perform the following general steps:
 
@@ -13,7 +13,7 @@ To start paying your vendors by using the BACS Lloyds plug-in, you should perfor
 3.  You set up the payment method to be used for BACS Lloyds payments. For details, see [To Add a Payment Method for BACS Lloyds Plug-In](CA__HOW_Add_PM_for_BACS_Lloyds_Plug-In.md).
 4.  On the [Vendors](AP_30_30_00.md) \(AP303000\) form, you specify the payment method intended for BACS Lloyds payments as the default payment method for each vendor that will accept BACS payments. By using the payment-related information that you collected from each vendor in Step 2, you fill in the settings of the payment method on the **Payment** tab. For details, see [To Add a Payment Method for BACS Lloyds Plug-In](CA__HOW_Add_PM_for_BACS_Lloyds_Plug-In.md).
 
-## Export of Batches via the BACS Lloyds Plug-In { .section}
+## Export of Batches via the BACS Lloyds Plug-In
 
 During export of a batch of payments on the [Batch Payments](AP_30_50_00.md) \(AP305000\) form, the system uses the BACS Lloyds plug-in if on the **Settings For Use in AP** tab of the [Payment Methods](CA_20_40_00.md)\(CA204000\) form, *BACS Lloyds Plug-In* is selected as the **Export Method**.
 

@@ -1,10 +1,10 @@
-# Marketing Reports: Lead Conversion and Qualification Analysis {#_91149086-9dbd-416e-a7a2-ff340da784e4 .concept}
+# Marketing Reports: Lead Conversion and Qualification Analysis
 
 The Lead Conversion BI \(CR3011BI\) generic inquiry form displays lead conversion and qualification data and metrics that marketing managers and sales representatives can analyze.
 
 These metrics are based on the data that users have entered on the [Leads](CR_30_10_00.md)\(CR301000\) and [Opportunities](CR_30_40_00.md) \(CR304000\) forms.
 
-## Monitoring the Number of Converted Leads { .section}
+## Monitoring the Number of Converted Leads
 
 On the **Lead Conversion Analysis** tab of the Lead Conversion BI \(CR3011BI\) inquiry form, you can find information about opportunities created over a period of time based on leads and the sources of the converted leads.
 
@@ -22,7 +22,7 @@ You can use the predefined filter options in the top of the tab to narrow the da
 
 With this information, you can analyze lead-to-opportunity conversion and assess the value of the lead sources.
 
-## Reviewing Lead Revenue { .section}
+## Reviewing Lead Revenue
 
 On the **Lead Revenue Analysis** tab of the Lead Conversion BI \(CR3011BI\) inquiry form, you can find information about the value of the opportunity pipeline converted from leads.
 

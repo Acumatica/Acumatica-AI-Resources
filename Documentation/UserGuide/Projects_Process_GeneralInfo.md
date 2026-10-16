@@ -1,8 +1,8 @@
-# Project Creation and Processing: General Information {#_3177c4af-0f25-4435-b339-884ecc94362f .concept}
+# Project Creation and Processing: General Information
 
 A project in Acumatica ERP is a one-time endeavor with its own budget, costs, and revenues; the funding and deliverables of a project are usually finite. In the system, a project contains various specifications that affect project completion, such as the date range, customer, and resources \(including employees and equipment\).
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,11 +12,11 @@ In this chapter, you will learn how to do the following:
 -   Set up project security
 -   Process a project during its lifecycle
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create a project to plan work to be performed for a customer, define budgets for the planned work, track the progress of completion of the planned work, bill the customers for the provided services, and track the costs and revenues of the provided services.
 
-## Type of Projects {#section_p1m_zq5_t5b .section}
+## Type of Projects
 
 You can use projects for tracking activities involving customer interaction \(external projects\) and in-house work \(internal projects\). The key objective of external projects is balancing costs and income to make sure the organization remains profitable, while meeting project goals and maximizing customer satisfaction. The scope of internal projects is typically limited to the physical and organizational boundaries of your organization; these projects serve the needs of the organization and never produce any revenue.
 
@@ -26,7 +26,7 @@ Depending on which activities you are going to track, you can configure projects
 -   A cost-plus project, which is an external project in which the prices are calculated as a percentage of the costs. The final price of the cost-plus project depends on the overall cost of fulfilling the project, and the costs may be billed with or without a premium.
 -   An internal project, which is used to track activities completed within your company. The scope of these projects is limited to the physical and organizational boundaries of an organization; these projects serve the needs of the organization and never produce any revenue. Internal projects have budgets, do not include billing settings, and are not associated with any customer.
 
-## Project Settings { .section}
+## Project Settings
 
 You create a new project and specify its settings on the [Projects](PM_30_10_00.md) \(PM301000\) form. When you are manually adding a new project to the system, you enter the following information:
 
@@ -36,7 +36,7 @@ You create a new project and specify its settings on the [Projects](PM_30_10_00.
 -   Budget: You define the level of detail for the cost budget and for the revenue budget. The structure of the revenue budget of the project is determined independently from the cost budget structure. Then you specify the budget, which holds the estimated expenses and revenues for a project.
 -   Default GL accounts: You define the general ledger accounts to be used by default in project-related documents.
 
-## Ability to Add User-Defined Fields to Project-Related Forms { .section}
+## Ability to Add User-Defined Fields to Project-Related Forms
 
 User-defined fields are site-specific elements that have been defined to track information deemed as important to the organization. If your user account has the *Administrator* or *Customizer* role, you can add user-defined fields to project-related forms, such as [Project Templates](../Shared/../UserGuide/PM_20_80_00.md) \(PM208000\), [Project Quotes](../Shared/../UserGuide/PM_30_45_00.md) \(PM304500\), [Projects](../Shared/../UserGuide/PM_30_10_00.md) \(PM301000\), [Project Template Tasks](../Shared/../UserGuide/PM_20_80_10.md) \(PM208010\), or [Project Tasks](../Shared/../UserGuide/PM_30_20_00.md) \(PM302000\).
 

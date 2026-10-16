@@ -1,8 +1,8 @@
-# Route Management: General Information {#_c3a41bc0-9a48-47d7-93c3-9b0c182b7423 .concept}
+# Route Management: General Information
 
 If your company performs scheduled routes and provides services, you can set up the route management functionality.
 
-## Learning Objectives {#section_ex2_jq1_ldc .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -15,7 +15,7 @@ In this chapter, you will learn how to do the following:
 -   Create an item class for route services and then create a route service
 -   Create routes
 
-## Applicable Scenarios {#section_zxg_gq1_ldc .section}
+## Applicable Scenarios
 
 You use the route management functionality in the following cases:
 
@@ -24,7 +24,7 @@ You use the route management functionality in the following cases:
 -   Your company needs to track the vehicles and drivers assigned to specific routes to ensure timely service delivery and optimal resource utilization.
 -   You need to respond to urgent appointments or deliveries, and the system must dynamically adjust the route to meet customer expectations.
 
-## Setting Up Route Management in Acumatica ERP {#section_rpn_pq1_ldc .section}
+## Setting Up Route Management in Acumatica ERP
 
 To use the route management functionality in Acumatica ERP, you need to create the following records in the system:
 

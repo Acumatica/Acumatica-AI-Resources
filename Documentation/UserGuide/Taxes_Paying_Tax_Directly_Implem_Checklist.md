@@ -1,8 +1,8 @@
-# Direct Tax Payment: Implementation Checklist {#_535d0349-1cba-41d5-bca4-7a02dc1d038b .concept}
+# Direct Tax Payment: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for paying taxes directly to the tax agency, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist {#section_mgm_fjv_vxb .section}
+## Implementation Checklist
 
 We recommend that before you initially process a taxable sale and pay taxes to the tax agency, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -16,7 +16,7 @@ We recommend that before you initially process a taxable sale and pay taxes to t
 |[Taxes](TX_20_50_00.md) \(TX206000\)|The value-added tax \(VAT\) with the **Direct-Entry Tax** check box selected should be created, as described in [Direct Tax Payment: To Create a Tax Bill for a Tax Agency](Taxes_Paying_Tax_Directly_Create_Tax_Bill_Applied_to_Purchase.md).|
 |[Vendors](AP_30_30_00.md) \(AP303000\)|The needed vendor account should be configured and the needed tax zone should be specified for the vendor.|
 
-## Other Settings That Affect the Workflow {#section_ogm_fjv_vxb .section}
+## Other Settings That Affect the Workflow
 
 The following settings and entities should be specified and defined, respectively:
 
@@ -28,7 +28,7 @@ The following settings and entities should be specified and defined, respectivel
     -   Clear the **Require Vendor Reference** check box in the **Data Entry Settings** section. This setting means that you do not have to enter a payment reference number in the **Vendor Ref.** box when creating an AP bill on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
     -   Make sure that the **Automatically Post on Release** check box is selected in the **Posting Settings** section. This setting causes AP bills to be automatically posted to the general ledger once they are released.
 
-## Validation of Configuration {#section_qgm_fjv_vxb .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you pay taxes directly to the tax agency by performing instructions similar to those described in [Direct Tax Payment: To Create a Tax Bill for a Tax Agency](Taxes_Paying_Tax_Directly_Create_Tax_Bill_Applied_to_Purchase.md).
 

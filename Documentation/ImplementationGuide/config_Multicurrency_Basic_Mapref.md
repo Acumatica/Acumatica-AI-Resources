@@ -1,4 +1,4 @@
-# Multicurrency Functionality {#_60149384-b0b5-434c-9660-fc13c586538d .concept}
+# Multicurrency Functionality
 
 The topics of this chapter describe how to configure the multicurrency functionality in Acumatica ERP.
 

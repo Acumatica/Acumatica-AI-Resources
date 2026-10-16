@@ -1,4 +1,4 @@
-# Dialog Box: Executing Action on Dialog Box Closing {#_557fdf13-8542-4f65-9176-59e341b454f1 .concept}
+# Dialog Box: Executing Action on Dialog Box Closing
 
 You can specify the action to be executed when a dialog box is closed. To do this, specify the name of the action method in the command property of the qp-panel tag.
 

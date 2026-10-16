@@ -1,8 +1,8 @@
-# Specify the Progress of a Project Task {#_06e096c8-c83d-4392-9a90-b83a9acfbc8e .concept}
+# Specify the Progress of a Project Task
 
 By using the REST API, you can specify the progress of a project task.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to configure your client application and the Acumatica ERP instance to be used as follows:
 
@@ -12,14 +12,14 @@ Before you test the code below, you need to configure your client application an
 4.  To sign in to the instance in the client application, use the tenant name \(which you specified when you created the instance\) and the *HEADOFFICE* branch.
 5.  Implement the [Make a Project Active](IntegrationDev_RESTExample_Project_Activate.md) example as a prerequisite to the current example. In this prerequisite example, you will prepare the project task for which the progress will be specified.
 
-## Request { .section}
+## Request
 
 You can use the following example of an HTTP request to specify the progress of a project task through the contract-based REST API.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-PUT /entity/Default/25.200.001/ProjectBudget HTTP/1.1
+PUT /entity/Default/26.200.001/ProjectBudget HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
 Content-Type: application/json
@@ -33,7 +33,7 @@ Content-Type: application/json
 }
 ```
 
-## Usage Notes { .section}
+## Usage Notes
 
 By using the REST API, you can create pro forma invoices and send them by email. For details about pro forma invoices, see [Pro Forma Invoices: General Information](../Shared/../UserGuide/Projects_Pro_Forma_Invoices_GeneralInfo.md).
 

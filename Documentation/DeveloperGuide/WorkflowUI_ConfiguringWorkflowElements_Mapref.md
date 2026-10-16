@@ -1,4 +1,4 @@
-# Configuring Workflow Elements {#_6d06e013-225f-439e-a1d8-a75e193bb046 .concept}
+# Configuring Workflow Elements
 
 In this chapter, you will learn how to configure workflow elements. You can specify the properties of any field to control the elements that correspond to these fields on the UI, including whether they appear, whether they are available, and whether they are required. Also, you can configure dialog boxes if you want users to provide additional information when they click a button or command to invoke an action.
 

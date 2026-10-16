@@ -1,4 +1,4 @@
-# Customizing the Database Schema {#_6e1b9ff0-1fd5-492a-ad1a-f7cee87a40d5 .concept}
+# Customizing the Database Schema
 
 You can use the platform to customize the database of an Acumatica ERP instance. The database customization can include changes in both the data and the schema of the database.
 

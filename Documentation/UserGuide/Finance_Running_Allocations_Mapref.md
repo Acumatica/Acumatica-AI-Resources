@@ -1,4 +1,4 @@
-# Running Allocations {#_7ea78313-6878-421f-bac0-8f39837cdb82 .concept}
+# Running Allocations
 
 If allocation rules have been configured in the system, you should periodically run them to make the system perform the allocation of transactions automatically based on the defined allocation rules.
 

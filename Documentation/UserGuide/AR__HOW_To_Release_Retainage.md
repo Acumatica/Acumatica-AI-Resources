@@ -1,8 +1,8 @@
-# To Create a Retainage Document \(Release Retainage\) {#_b1162724-2f08-4e6f-bfa6-7f36f0597bf3 .task}
+# To Create a Retainage Document \(Release Retainage\)
 
 You release retainage for a particular invoice or a credit memo from which a part of an amount has been retained on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. When the retainage is released, for a positive **Retainage to Release** amount, the system creates a retainage invoice with the specified amount and opens it on the same form. For a negative **Retainage to Release** amount, the system creates a retainage credit memo.
 
-## To Create a Retainage Document \(Release Retainage\) {#section_ypq_4jv_vxb .section}
+## To Create a Retainage Document \(Release Retainage\)
 
 **Note:** The following procedure is applicable for AR documents for which the **Pay by Line** check box is cleared on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 

@@ -1,4 +1,4 @@
-# Step 2: Adding the PendingPayment Workflow State \(Self-Guided Exercise\) {#_0df779ea-ce1b-48f4-bca4-a02587b9c9b9 .task}
+# Step 2: Adding the PendingPayment Workflow State \(Self-Guided Exercise\)
 
 To define a transition from the `OnHold` workflow state to the `PendingPayment` workflow state, you first need to define the `PendingPayment` workflow state. In this step, you will define the `PendingPayment` state of the workflow as a self-guided exercise. You have learned how to add a workflow state in [Workflow States: To Define a Workflow State](WorkflowAPI_States_Activity_DefiningState.md).
 

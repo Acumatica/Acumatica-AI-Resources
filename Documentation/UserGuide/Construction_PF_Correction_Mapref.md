@@ -1,4 +1,4 @@
-# Correcting Pro Forma Invoices {#_c7d12329-f123-1122-99de-cc34cbe50a85 .concept}
+# Correcting Pro Forma Invoices
 
 If you have created an accounts receivable document for a pro forma invoice and released this AR document, you can still make corrections to the pro forma invoice and produce a new AR document that includes these corrections. The topics of this chapter explain how you can make corrections to pro forma invoices that have been already processed.
 

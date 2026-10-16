@@ -1,29 +1,29 @@
-# Processing Operations:To Implement a Processing Operation by Using a Delegate {#_9c52a8bb-a21d-4f95-818c-4a422403a1d6 .task}
+# Processing Operations:To Implement a Processing Operation by Using a Delegate
 
 The following activity will walk you through the process of implementing a processing operation by using a delegate. Usually you use this approach if no workflow is implemented for the records that you are going to process on a processing form.
 
-## Story { .section}
+## Story
 
 You’ve created the UI of the Assign Work Orders \(RS501000\) processing form. Now you need to implement the processing operation for this form. A user can assign a repair work order on the Repair Work Orders \(RS301000\) form, where a workflow is implemented for the records. You'll reuse the workflow action from the Repair Work Orders form in the processing delegate.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you'll define the processing operation and specify the processing delegate for the form. You’ll also test the form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, complete the following prerequisite activities:
 
-1.  [Test Instance for Customization: To Deploy an Instance with a Custom Form that Implements a Workflow](CodeCustomization_PrepareInstance_Activity_DeployInstanceT240.md)
+1.  [Test Instance for Customization: To Deploy an Instance with a Custom Form That Implements a Workflow](CodeCustomization_PrepareInstance_Activity_DeployInstanceT240.md)
 2.  [Processing Form: To Create a Simple Processing Form](../DeveloperGuide/UIDev_ProcessingScreen_Activity_CreateWithoutFilter_UI.md)
 
-## Step 1: Defining the Processing Operation { .section}
+## Step 1: Defining the Processing Operation
 
 In this step, you'll define the processing operation for the Assign Work Orders \(RS501000\) form as follows:
 
 1.  In the `RSSVAssignProcess` graph, define the `AssignOrders()` static method as follows.
 
-    ```language-csharp
+    ```csharp
             public static void AssignOrders(List<RSSVWorkOrder> list,
                 bool isMassProcess = false)
             {
@@ -53,13 +53,13 @@ In this step, you'll define the processing operation for the Assign Work Orders 
 
 2.  Rebuild the project.
 
-## Step 2: Specifying the Processing Delegate { .section}
+## Step 2: Specifying the Processing Delegate
 
 In this step, you'll specify the processing delegate in the constructor of the `RSSVAssignProcess` graph. Do the following:
 
 1.  In the `RSSVAssignProcess` graph, make sure you have defined the `Cancel` action for the toolbar and the `WorkOrders` data view, which provides the data records to be processed on the form.
 
-    ```language-csharp
+    ```csharp
             public PXCancel<RSSVWorkOrder> Cancel = null!;
             public 
                 SelectFrom<RSSVWorkOrder>.
@@ -73,7 +73,7 @@ In this step, you'll specify the processing delegate in the constructor of the `
 
 2.  In the `RSSVAssignProcess` graph, define the constructor of the graph as follows.
 
-    ```language-csharp
+    ```csharp
             public RSSVAssignProcess()
             {
                 WorkOrders.SetProcessCaption("Assign");
@@ -85,7 +85,7 @@ In this step, you'll specify the processing delegate in the constructor of the `
 
 3.  Rebuild the project.
 
-## Step 3: Testing the Processing Form { .section}
+## Step 3: Testing the Processing Form
 
 In this step, you'll test the modified Assign Work Orders \(RS501000\) form. Do the following:
 
@@ -98,7 +98,6 @@ In this step, you'll test the modified Assign Work Orders \(RS501000\) form. Do 
 3.  Click **Remove Hold**.
 4.  On the Assign Work Orders form, make sure that two work orders are displayed on the form. Click **Assign All** on the form toolbar. The **Processing** dialog box shows that two records have been processed \(see below\).
 
-    ![](Images/activity_CodeCustomization_ProcessingForms_AssignWorkOrders_WithoutFilter_2AssignedOrders_ModernUI.png "Assigned work orders")
 
 5.  Make sure that for the *000002* work order, the assignee is *Baker, Maxwell*, which has been specified in the work order. Notice that for the other work order, the assignee is *Becher, Joseph*—the default assignee specified on the Repair Work Order Preferences \(RS101000\) form.
 

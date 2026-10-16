@@ -1,4 +1,4 @@
-# To Update Data in Fluent BQL {#_0512da12-3f77-45a8-a57a-8c68331f8174 .concept}
+# To Update Data in Fluent BQL
 
 You can update records from the database by using the Update&lt;&gt; class and append the needed clauses to the statement.
 
@@ -6,7 +6,7 @@ This topic describes how to compose Update statements by using fluent BQL.
 
 **Note:** In a Update&lt;&gt; class, you configure a query to the database. The actual request to the database is performed right away \(unlike the select statement, described in [To Select Records by Using Fluent BQL](AD__how_Select_Records_in_Fluent_BQL.md)\) and returns the number of updated records.
 
-## Before You Proceed {#_1f0a8248-99eb-4897-be95-8bb852d09cbc .section}
+## Before You Proceed
 
 -   Make sure that the application database has the database tables you are going to update, and that the application defines the data access classes \(DACs\) for these tables. For more information on defining DACs, see [Data Access Classes in Fluent BQL](AD__con_DACs_in_FBQL.md).
 -   Add references to `PX.Data.dll` and `PX.Data.BQL.Fluent.dll` in the project.
@@ -18,7 +18,7 @@ This topic describes how to compose Update statements by using fluent BQL.
     ```
 
 
-## To Compose a Fluent BQL Statement {#_7070d995-fef5-4f90-98ce-2918b02a9a19 .section}
+## To Compose a Fluent BQL Statement
 
 1.  Enter the Update&lt;&gt; class with the needed DAC as the type parameter.
 
@@ -109,7 +109,7 @@ This topic describes how to compose Update statements by using fluent BQL.
     ```
 
 
-## Example { .section}
+## Example
 
 Suppose that you need to convert the following SQL statement to fluent BQL. The statement is used in the ARDocumentRelease graph.
 

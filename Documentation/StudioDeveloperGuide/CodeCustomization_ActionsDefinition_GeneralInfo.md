@@ -1,8 +1,8 @@
-# Action Definition: General Information {#_f0092274-206c-4059-bbf4-ad37e93a336a .concept}
+# Action Definition: General Information
 
 To provide users with functionality that is specific to their business needs, you can create actions and make the associated buttons and commands available on the UI. You implement the actions in a graph. You can configure the availability and visibility of the buttons and commands based on specific criteria.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -11,7 +11,7 @@ In this chapter, you will learn how to do the following:
 -   Create actions and the associated buttons on the table toolbar of multiple tabs
 -   Configure the location of the buttons on the table toolbar of each tab
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You implement an action in the following cases:
 
@@ -19,13 +19,13 @@ You implement an action in the following cases:
 -   You want to modify or validate data records and save changes to the database.
 -   You want to start a background operation, which is executed on a separate thread.
 
-## Action Declaration in a Graph { .section}
+## Action Declaration in a Graph
 
 The declaration of an action in a graph consists of the following:
 
 -   A field of the PXAction&lt;&gt; type, which is declared as follows.
 
-    ```language-csharp
+    ```csharp
     public PXAction<Shipment> CancelShipment;
     ```
 
@@ -34,7 +34,7 @@ The declaration of an action in a graph consists of the following:
 -   A method that implements the action; this method has the PXButton and PXUIField attributes. This method has the following forms of declaration:
     -   Without parameters and returning void: This standard form of declaration is shown in the following code example.
 
-        ```language-csharp
+        ```csharp
         [PXButton]
         [PXUIField(DisplayName = "Cancel Shipment")]
         protected virtual void cancelShipment()
@@ -47,7 +47,7 @@ The declaration of an action in a graph consists of the following:
 
     -   With a parameter of the PXAdapter type and returning IEnumerable: You can see an example of this form of declaration in the following code.
 
-        ```language-csharp
+        ```csharp
         [PXButton]
         [PXUIField(DisplayName = "Release")]
         protected virtual IEnumerable release(PXAdapter adapter)
@@ -64,23 +64,23 @@ The field and the method should have the same name, differing only in the capita
 
 **Tip:** A graph includes the Actions collection of all PXAction&lt;&gt; objects defined in the graph.
 
-## Callback on the Action {#section_vv2_1y4_y4b .section}
+## Callback on the Action
 
 When a user invokes an action through a button or command on the UI, the page sends a request to the server side of the application \(that is, it executes the callback\). By default, for a button or command, the callback is always executed—that is, the CommitChanges property of the PXButton attribute is *true*. If you do not need the form to send the recent changes made on the form, set the CommitChanges property of the PXButton attribute to *false* as follows.
 
-```language-csharp
+```csharp
 [PXButton(**CommitChanges = false**)]
 ```
 
 The CommitChanges property must be always set to *true* for the actions that cause changes to be saved to the database.
 
-## Configuration of the Button and Command Associated with an Action { .section}
+## Configuration of the Button and Command Associated with an Action
 
 You can adjust the availability and visibility of a button or command \(or both, if applicable\) on the UI at runtime by using event handlers, attributes, or Workflow API. For details, see [Action Customization: Disabling or Enabling of an Action](CodeCustomization_ActionsCustomization_EnableDisableAction.md) and [Action Customization: Visibility of an Action](CodeCustomization_ActionsCustomization_ShowHideAction.md).
 
 The following code example shows how to set the availability of a button inside an event handler. To do this, you should use the methods of the PXAction&lt;&gt; class, as the following code example shows.
 
-```language-csharp
+```csharp
 // Disabling the CancelShipment action
 CancelShipment.SetEnabled(false);
 ```

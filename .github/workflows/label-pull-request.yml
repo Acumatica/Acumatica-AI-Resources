@@ -2,7 +2,7 @@ name: Label pull request
 
 on:
   pull_request_target:
-    branches: [2026R1]
+    branches: [2026R2]
     types: [opened, reopened, synchronize]
 
 permissions:

@@ -1,10 +1,10 @@
-# Counting in Physical Inventory: General Information {#_c4829ece-a676-4d85-ba2a-3b41958c21cd .concept}
+# Counting in Physical Inventory: General Information
 
 If the *Inventory Operations* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can perform automated counting of items during physical inventory by using a barcode scanner or a mobile device with a scanning option.
 
 In this topic, you will read about the workflow for the automated physical inventory in Acumatica ERP. The workflow in this topic is based on the assumption that your system has the recommended configuration described in [Counting in Physical Inventory: Implementation Checklist](WMS_Scan_and_Count_Implem_Checklist.md).
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -12,15 +12,14 @@ In this chapter, you will do the following:
 -   Learn the recommended settings that you can specify to make the system fit your business requirements
 -   Process counting of stock items during physical inventory in automated mode
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 You can use automated counting during physical inventory if your organization uses barcode scanners or mobile devices with a scanning option and all stock items and locations in warehouses are barcoded.
 
-## Workflow for the Automated Scanning and Counting of Items { .section}
+## Workflow for the Automated Scanning and Counting of Items
 
 The automated counting inventory items involves the steps shown in the following diagram.
 
-![](Images/diag_WMS_Scan_Count.png)
 
 To count inventory items \(and use Scan and Count mode\), you perform the following steps:
 

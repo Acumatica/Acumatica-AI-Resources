@@ -1,4 +1,4 @@
-# To Import a Bank Statement in OFX, QBO, and QFX Formats {#_c2cf7465-1cf2-42af-91b2-1769c9516af0 .task}
+# To Import a Bank Statement in OFX, QBO, and QFX Formats
 
 If you have bank transactions in a file in OFX, QBO, or QFX format, you can import these transactions by clicking the **Upload File** button on the form toolbar of the [Import Bank Transactions](CA_30_65_00.md) \(CA306500\) form. During file uploading, the system creates a statement for each bank account listed in the file.
 
@@ -6,7 +6,7 @@ If you have bank transactions in a file in OFX, QBO, or QFX format, you can impo
 
 This procedure describes how to import bank transactions from an OFX, QBO, or QFX file.
 
-## Before You Proceed {#section_upd_kjv_vxb .section}
+## Before You Proceed
 
 Make sure that the *PX.Objects.CA.OFXStatementReader* import service is specified in the **Statement Import Service** box; the location of this box depends on whether the **Import Bank Statements to Single Cash Account** check box, located on the [Cash Management Preferences](CA_10_10_00.md) \(CA101000\) form, is selected:
 
@@ -17,7 +17,7 @@ Also, make sure that the bank account identifier specified in the file is associ
 
 **Tip:** If you forget to specify the bank account identifier in the cash account settings and try to upload transactions, the system gives you a warning. The warning contains the bank account identifier from the file, which you can copy and paste to the settings for the cash account. You can then try to upload the file again.
 
-## To Import the Bank Statement {#section_ypd_kjv_vxb .section}
+## To Import the Bank Statement
 
 1.  Open the [Import Bank Transactions](CA_30_65_00.md) \(CA306500\) form.
 2.  Click **Upload File** on the from toolbar. The **Statement File Upload** dialog box is displayed.

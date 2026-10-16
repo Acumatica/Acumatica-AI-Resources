@@ -1,4 +1,4 @@
-# To Sign In {#_973017ee-f6c1-432c-b393-16e681867dcc .task}
+# To Sign In
 
 To attest your identity when using the Acumatica add-in, you provide your credentials \(that is, the username and password of your Acumatica ERP account\) to sign in to your Acumatica ERP instance. On the Sign-In page that appears when you activate the add-in, do the following:
 

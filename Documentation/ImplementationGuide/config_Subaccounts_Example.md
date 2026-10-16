@@ -1,4 +1,4 @@
-# Subaccounts: Example of Planning Subaccount Identifiers {#_cc6ca207-e34d-4a55-9b4e-9d25b0286ae0 .concept}
+# Subaccounts: Example of Planning Subaccount Identifiers
 
 Suppose that one company—North Serpent Company, with stores in the mountainous areas of California and Nevada—sells skis and snowboards and offers rental services. This company plans to implement Acumatica ERP and is planning its general ledger functionality, including the accounts and subaccounts it will use.
 
@@ -17,7 +17,7 @@ One approach the company initially considered was replacing the *40000* sales ac
 
 One of the implementation consultants determined that by using subaccounts, the company could meet its needs for tracking and reporting while also reducing entry errors and the need for users to memorize strings of account numbers. By implementing subaccounts, North Serpent Company could answer such questions as the following:*What is the total sales amount for snowboards in both stores? What is our revenue from rental services?* Additionally, because stores could record expenses to the appropriate subaccounts, management would have the ability to analyze profit by stores, by cost centers, and by product type.
 
-## Planning of Subaccount Identifiers { .section}
+## Planning of Subaccount Identifiers
 
 In Acumatica ERP, subaccounts are referred to by their identifiers. Because subaccounts are used primarily to give internal management information it can use for analysis and planning, greater flexibility is allowed for their design, and identifiers can be segmented. Segmented identifiers with meaningful, recognizable segment values reduce the input error rate, because they are easier for employees to enter. For the North Serpent Company, the implementation consultants decided to define a three-segment subaccount in the following way:
 

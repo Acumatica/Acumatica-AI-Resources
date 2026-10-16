@@ -1,4 +1,4 @@
-# Sales Prices: Tax-Inclusive Prices {#_5fcf8603-f683-4761-a939-e7f6fb1e0e66 .concept}
+# Sales Prices: Tax-Inclusive Prices
 
 Your company may need to maintain prices that include a tax. Such prices are typical in countries where value-added taxes are enforced. Among your company's customers may be end customers that must pay a VAT and retail customers that are exempt from paying the VAT.
 

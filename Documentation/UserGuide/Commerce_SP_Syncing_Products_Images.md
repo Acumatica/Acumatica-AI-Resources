@@ -1,19 +1,19 @@
-# Product Synchronization: Product Images {#_e69cdf9d-6808-41fc-99a5-34e43be05363 .concept}
+# Product Synchronization: Product Images
 
 Acumatica ERP Retail Edition provides you with the ability to export product images from Acumatica ERP to the Shopify store.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to export product images from Acumatica ERP to the Shopify store.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You export product images from Acumatica ERP to your Shopify store in the following cases:
 
 -   You maintain product information in Acumatica ERP, export this information to the Shopify store, and use Acumatica ERP to store images of exported stock and non-stock items.
 -   You maintain product information in Acumatica ERP, export this information to the Shopify store, store images of exported stock and non-stock items in an external storage but keep links to the image files in Acumatica ERP.
 
-## Export of Product Images { .section}
+## Export of Product Images
 
 In Acumatica ERP, you can save images for stock and non-stock items in two ways:
 

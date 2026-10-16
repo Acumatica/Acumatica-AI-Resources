@@ -1,10 +1,10 @@
-# Cash Entries: Related Forms {#_e02b52b0-1da8-4582-adb9-6db748519af8 .concept}
+# Cash Entries: Related Forms
 
 In the following section, you can find details about the forms you may want to review to gather information about cash entries.
 
 **Attention:** If you don’t see a particular report or form that is described, you may have signed in to the system with a user account that doesn’t have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms.
 
-## Viewing Cash Entry Details {#section_etb_kjv_vxb .section}
+## Viewing Cash Entry Details
 
 You can view cash entry details by using the following forms:
 

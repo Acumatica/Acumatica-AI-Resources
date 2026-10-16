@@ -1,4 +1,4 @@
-# Setting Up the Recognition Process {#_9206441e-ec45-4062-8b65-38b6e5d6c953 .concept}
+# Setting Up the Recognition Process
 
 To set up the process of the revenue or expense recognition in Acumatica ERP, you need to first enable the *Deferred Revenue Management* feature on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, and then configure the required deferral codes on the [Deferral Codes](DR_20_20_00.md) form.
 

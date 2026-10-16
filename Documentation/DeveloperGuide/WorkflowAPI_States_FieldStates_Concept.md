@@ -1,4 +1,4 @@
-# Workflow States: Configuration of Field States {#_9febdef1-b4a7-4340-b1e7-9a8c161df4a0 .concept}
+# Workflow States: Configuration of Field States
 
 You can configure a state of a field in a screen configuration and in a workflow state.
 
@@ -6,7 +6,7 @@ The description of field states in a workflow state is applied after the system 
 
 For details on configuring the state of a field in the screen configuration, see [Configuring Field States](WorkflowAPI_FieldStates_Mapref.md).
 
-## Adding or Updating a State of a Field in a Workflow State { .section}
+## Adding or Updating a State of a Field in a Workflow State
 
 To add or update a state of a field in a workflow state, you call the WithFieldStates method in a lambda expression for the Add or Update method that defines a workflow state. Inside the WithFieldStates method, you can do the following:
 
@@ -45,7 +45,7 @@ To add or update a state of a field in a workflow state, you call the WithFieldS
 -   Replace the entire configuration of the field state by calling the Replace method.
 -   Delete the entire configuration of the field state by calling the Remove method.
 
-## Configuring a State of a Field in a Workflow State {#_fc3c7d35-b915-4583-a4b0-09de92768057 .section}
+## Configuring a State of a Field in a Workflow State
 
 You can configure a field state in the following ways:
 

@@ -1,8 +1,8 @@
-# Product Configurator: To Create a Sales Order with a Configurable Item {#_213231e7-bc6e-44ac-94e9-0e89baa0bfad .task}
+# Product Configurator: To Create a Sales Order with a Configurable Item
 
 The following activity will walk you through the process of creating a sales order with a configurable item.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -10,7 +10,7 @@ In this activity, you will do the following:
 2.  On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, you will create a sales order and add a configurable item to the order. You will also select the needed options for features of the item on the [Configuration Entry](AM_30_60_00.md) \(AM306000\) form.
 3.  On the same form, you will create a production order for the item and on the [Production Order Details](AM_20_90_00.md) \(AM209000\) form, you will make sure that the options you selected have been added as materials.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating a sales order with a configurable item, do the following:
 
@@ -19,7 +19,7 @@ Before you start creating a sales order with a configurable item, do the followi
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to today’s date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 4.  Make sure that the *Product Configurator* feature in the *Manufacturing* group of features has been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Step 1: Reviewing Settings of the SO Order Type { .section}
+## Step 1: Reviewing Settings of the SO Order Type
 
 To make sure that the SO order type has the settings needed for creating sales orders with configurable items, do the following:
 
@@ -35,7 +35,7 @@ To make sure that the SO order type has the settings needed for creating sales o
     This means that you can link production orders to sales orders of this type and add configurable items to the orders.
 
 
-## Step 2: Creating a Sales Order { .section}
+## Step 2: Creating a Sales Order
 
 To create a sales order with a configurable item, do the following:
 
@@ -74,7 +74,7 @@ To create a sales order with a configurable item, do the following:
 11. On the form toolbar, click **Save**.
 12. On the form toolbar, click **Finish** to complete the configuration, and close the form.
 
-## Step 3: Creating a Production Order { .section}
+## Step 3: Creating a Production Order
 
 To create a production order from the sales order, do the following:
 

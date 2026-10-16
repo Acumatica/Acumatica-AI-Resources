@@ -1,8 +1,8 @@
-# Expense Claims: General Information {#_fe2b7780-4756-4084-bcd6-3e7f04e2cf10 .concept}
+# Expense Claims: General Information
 
 Acumatica ERP supports filing claims for the reimbursement of expenses that employees have incurred on behalf of the company. Employees can submit a claim for a single expense receipt or multiple receipts grouped into one claim. You can use this functionality if the *Expense Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,13 +12,13 @@ In this chapter, you will learn how to do the following:
 -   Release expense claims
 -   Create an expense claim with receipts in different currencies
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create an expense claim if you are an employee who has incurred multiple company-related expenses and wants to submit them for reimbursement in a consolidated request.
 
 You approve or reject expense claims if you are a manager or an accountant responsible for reviewing, approving, and processing employee expense reimbursements.
 
-## Creation of Expense Claims { .section}
+## Creation of Expense Claims
 
 In Acumatica ERP, an expense claim is a record that consolidates one or more expense receipts submitted for the reimbursement of business-related expenses an employee has incurred on behalf of the company.
 
@@ -55,7 +55,7 @@ After you have saved the expense claim, you can review it, along with other expe
 
 An expense claim can be released if it has the *Approved* status. You can release a single expense claim on the [Expense Claims](EP_30_10_30.md) \(EP301030\) form or multiple expense claims in bulk on the [Release Expense Claims](EP_50_10_00.md) \(EP501000\) form. For details, see [Expense Claims: Expense Claim Release](TimeExpenses_Process_Expense_Claims_Release.md).
 
-## Expense Claims Settings { .section}
+## Expense Claims Settings
 
 On the [Expense Claim](EP_30_10_00.md) form, the following settings can be specified for an expense claim:
 
@@ -69,7 +69,7 @@ On the [Expense Claim](EP_30_10_00.md) form, the following settings can be speci
 -   The department of the employee, which can affect who approves the claim. You can set up assignment rules for claim approval whereby claims from different departments may be approved by different persons.
 -   The tax zone and tax calculation mode.
 
-## Statuses of Expense Claims { .section}
+## Statuses of Expense Claims
 
 On the [Expense Claims](EP_30_10_30.md) \(EP301030\) form, you can view the expense claim's status, which reflects its processing stage. The system assigns one of the following statuses to an expense claim:
 

@@ -1,18 +1,18 @@
-# Labor Items: To Configure a Labor Item {#_76c290b8-4fa6-478f-9c89-e74acd3f2a68 .task}
+# Labor Items: To Configure a Labor Item
 
 This activity will walk you through the process of configuring a labor non-stock item that will then be used for billing employee labor within projects.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you, as an implementation manager, are updating the system configuration for the SweetLife Fruits &amp; Jams company. To be able to bill the customers for the provided labor within the projects, you need to create a labor item that will represent the repair service for juicers provided by a particular employee, Eric Killian, for SweetLife customers who have purchased juicers.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create a non-stock item representing the repair labor on the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form and specify the item’s settings, including the expense account that has been mapped to an appropriate account group. You will also specify the default price for the item. Then on the [Employees](EP_20_30_00.md) \(EP203000\) form, you will assign this labor item to the employee who will perform the repair work.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -21,11 +21,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Posting Classes](IN_20_60_00.md) \(IN206000\) form, the *NONSTOCK* posting class has been defined.
 -   On the [Employees](EP_20_30_00.md) \(EP203000\) form, the *EP00000006 – Eric Killian* employee record has been created.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of the activity, launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded; you should sign in as system administrator by using the *gibbs* username and the *123* password.
 
-## Step 1: Creating the Labor Item { .section}
+## Step 1: Creating the Labor Item
 
 To create the labor item that will be used to represent repair services, perform the following instructions:
 
@@ -51,7 +51,7 @@ To create the labor item that will be used to represent repair services, perform
     -   **Sales Account**: *40000 \(Sales Revenue\)*
 7.  On the form toolbar, click **Save**.
 
-## Step 2: Assigning the Labor Item to an Employee { .section}
+## Step 2: Assigning the Labor Item to an Employee
 
 To assign the labor item you have created to the employee who will perform the labor, perform the following instructions:
 

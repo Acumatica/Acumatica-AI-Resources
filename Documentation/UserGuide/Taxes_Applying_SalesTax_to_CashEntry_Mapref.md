@@ -1,4 +1,4 @@
-# Processing Cash Entries with Taxes {#_5a218ff1-8881-410a-95da-268897fd5a90 .concept}
+# Processing Cash Entries with Taxes
 
 The topics of this chapter describe how to record a cash receipt and a tax \(sales tax or VAT\) to it.
 

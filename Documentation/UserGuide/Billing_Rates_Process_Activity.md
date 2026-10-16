@@ -1,16 +1,16 @@
-# Billing Rates: To Bill a Project with Different Billing Rates {#_b778886e-8253-4471-9489-8ba48dc60d69 .task}
+# Billing Rates: To Bill a Project with Different Billing Rates
 
 In this activity, you will bill a project with different billing rates to be used for the billing of different services provided in the project.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the Thai Food Restaurant customer has bought a juicer from the SweetLife Fruits &amp; Jams company and ordered employee training from the company on how to use the juicer. SweetLife's project accountant, Pam Brawner, has created a project to account for the provided services. The training has taken place.
 
 Acting as the project accountant, you need to bill the customer for the different services provided for the project with different billing rates.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -22,18 +22,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Projects](PM_30_10_00.md) \(PM301000\) form, the *TOMYUM3* project for the *TOMYUM* customer has been created. On the **Tasks** tab of this form, the *PHASE1* and *PHASE2* project tasks has been configured and the *TIMEMATERIAL* billing rule and the *STANDARD* rate table are assigned to these project tasks. In the project, the **Create Pro Forma Invoice on Billing** check box is selected to indicate that when project billing is run, pro forma invoices are generated to be sent to the customer for acceptance before the accounts receivable invoices are prepared.
 -   On the [Project Transactions](PM_30_40_00.md) \(PM304000\) form, the *PM00000002* project transaction related to the project has been created and released in preparation for billing.
 
-## Process Overview { .section}
+## Process Overview
 
 You will bill the project on the [Projects](PM_30_10_00.md) \(PM301000\) form and review the pro forma invoice amounts on the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, you need to perform the following instructions to prepare the system:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as Pam Brawner by using the *brawner* username and the *123* password.
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Billing the Project and Processing the Related Documents { .section}
+## Step 1: Billing the Project and Processing the Related Documents
 
 To bill the project by using the time and material billing rule, do the following:
 
@@ -60,7 +60,7 @@ To bill the project by using the time and material billing rule, do the followin
 6.  On the **Financial** tab, click the **AR Ref. Nbr.** link to open the accounts receivable invoice that was created on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 7.  On the form toolbar of the [Invoices and Memos](AR_30_10_00.md) form, click **Remove Hold** to assign the invoice the *Balanced* status, and then click **Release** to release the accounts receivable invoice.
 
-## Step 2: Reviewing the Project Transactions and the Updated Project Balance { .section}
+## Step 2: Reviewing the Project Transactions and the Updated Project Balance
 
 To review the project transactions and project balance, do the following:
 
@@ -68,7 +68,6 @@ To review the project transactions and project balance, do the following:
 2.  On the [Projects](PM_30_10_00.md) \(PM301000\) form, open the *TOMYUM3* project. Notice that in the Summary area, the **Actual Income** box now shows $3,400, which is the total amount of the invoice that you have processed. On the **Revenue Budget** tab, notice that the system has automatically created two revenue budget lines \(one for each project task\) and filled in the **Actual Amount** for the rows \(3,000 and 400\).
 3.  On the **Balances** tab \(see below\), review the project income and expenses aggregated by account groups.
 
-    ![](Images/activity_Projects_Billing_With_Prices_and_Rate_Tables.png "The project balances after project billing")
 
 
 You have billed the project based on the different billing rates specified for different types of expenses.

@@ -1,8 +1,8 @@
-# To Group and Aggregate Records in Traditional BQL {#_44827160-45dd-4cfe-82b9-6d4230e4f620 .task}
+# To Group and Aggregate Records in Traditional BQL
 
 You construct business query language \(BQL\) statements that group and aggregate records by using the Aggregate clause in one of the PXSelect classes that has the Aggregate type parameter. \(For more information on selecting the PXSelect class, see [To Select Records By Using Traditional BQL](AD__how_Construct_Statement.md#).\)
 
-## To Group and Aggregate Records { .section}
+## To Group and Aggregate Records
 
 1.  Specify all grouping conditions \(the GroupBy clause\) and aggregation functions \(such as Min, Max, Sum, Avg, and Count\) in the Aggregate clause, as shown in the following sample BQL statement. Fields specified in GroupBy clauses are selected as is; an aggregation function is applied to all other fields. The default Max function is used if no function is specified for a field. If a data field has the PXDBScalar attribute, NULL is inserted for that field.
 

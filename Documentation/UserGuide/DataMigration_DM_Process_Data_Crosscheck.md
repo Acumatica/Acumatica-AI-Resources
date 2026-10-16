@@ -1,4 +1,4 @@
-# Data Migration Process: Recommendations for Data Verification {#_f50ee8e7-0f51-4178-b704-efeb70559ccb .concept}
+# Data Migration Process: Recommendations for Data Verification
 
 After migrating data to a new ERP system, you should verify its accuracy, consistency, and completeness. This process helps ensure a smooth transition from a legacy system.
 

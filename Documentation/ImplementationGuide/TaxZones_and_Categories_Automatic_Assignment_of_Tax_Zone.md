@@ -1,4 +1,4 @@
-# Tax Zones and Categories: Automatic Assignment of a Tax Zone in Documents {#_3e2f1acf-b363-4bb3-bab4-c9449ca86e9b .concept}
+# Tax Zones and Categories: Automatic Assignment of a Tax Zone in Documents
 
 On the [Tax Zones](../UserGuide/TX_20_60_00.md) \(TX206000\) form, tax zones can be defined based on combinations of country, state, and postal code, and ranges of postal codes can be specified. The system supports three types of tax zones:
 

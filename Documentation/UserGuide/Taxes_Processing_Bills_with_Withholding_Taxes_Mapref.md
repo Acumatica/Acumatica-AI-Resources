@@ -1,4 +1,4 @@
-# Processing AP Bills with Withholding Taxes {#_ba1865e5-dd7a-428d-a359-38ce3e0593ac .concept}
+# Processing AP Bills with Withholding Taxes
 
 The topics of this chapter describe how to process an AP bill with a withholding tax applied to it.
 

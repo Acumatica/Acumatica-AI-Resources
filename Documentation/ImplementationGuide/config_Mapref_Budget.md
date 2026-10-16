@@ -1,4 +1,4 @@
-# Implementing Budgets {#_59d8b6a4-fc87-44e8-a3a6-d971eef04252 .concept}
+# Implementing Budgets
 
 This part of the guide describes how to configure budgets in Acumatica ERP.
 

@@ -1,8 +1,8 @@
-# To Print Pick Lists for Multiple Shipments {#_f10eb2f3-eab9-4a2a-bbc7-7ff6bfefcb0f .task}
+# To Print Pick Lists for Multiple Shipments
 
 You can print multiple pick lists for multiple shipments by using [Process Shipments](SO_50_30_00.md) \(SO503000\) form.
 
-## To Print Pick Lists for Multiple Shipments { .section}
+## To Print Pick Lists for Multiple Shipments
 
 1.  Open the [Process Shipments](../Shared/../UserGuide/SO_50_30_00.md) \(SO503000\) form.
 2.  In the **Action** box, select *Print Pick List*.
@@ -11,7 +11,7 @@ You can print multiple pick lists for multiple shipments by using [Process Shipm
 5.  Review the pick lists, which appear on the [Pick List](../Shared/../UserGuide/SO_64_40_00.md) \(SO644000\) report.
 6.  On the report toolbar, click **Print** to print the pick lists.
 
-## Notes About the Procedure { .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

@@ -1,8 +1,8 @@
-# Sales Order Entity {#_5196a797-02c0-41b4-a2f3-788347c97990 .concept}
+# Sales Order Entity
 
 This topic provides reference information about the standard filtering and field mapping used for the *Sales Order* entity during the synchronization between Acumatica ERP and Shopify. The topic also contains information about the merging of duplicate records during the synchronization.
 
-## Sales Order Filtering { .section}
+## Sales Order Filtering
 
 During the import of sales orders, a sales order is skipped if its status in Shopify is *Canceled*. For each order with the *Completed* or *Archived* status in Shopify, the system creates a synchronization record in Acumatica ERP and assigns it the *Filtered* status on the [Sync History](BC_30_10_00.md) \(BC301000\) form.
 
@@ -11,11 +11,11 @@ During the export of sales orders, only sales orders that match the following co
 -   The order's type is selected in the **Order Types for Export** box on the **Orders** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form.
 -   The order's status is *Open*, *Pending Processing*, *Shipping*, *Back Order*, or *Completed*—that is, the **Status** box in the Summary area of the [Sales Orders](SO_30_10_00.md) \(SO301000\) form is set to any of these values.
 
-## Merging of Duplicates { .section}
+## Merging of Duplicates
 
 A sales order imported from the ecommerce store is merged with an existing sales order in Acumatica ERP if the **ID** of the Shopify order \(found in the URL of the order page\) matches the **External Reference** of the order, which is located on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, in Acumatica ERP.
 
-## Sales Order Import Mapping { .section}
+## Sales Order Import Mapping
 
 The following table shows the mapping of Shopify fields to Acumatica ERP fields that is used during the import of sales order data from Shopify.
 
@@ -74,7 +74,7 @@ The following table shows the mapping of Shopify fields to Acumatica ERP fields 
 |total\_discount|Order page &gt; line items|**Discount Amount**|**Details** tab|Applies if on the **Orders** tab \(**Order** section\) of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form, the **Show Discounts As** box is set to *Line Discounts*.|
 |total\_discount|Order page &gt; line items|**Discount Amt.**|**Discounts** tab|Applies if on the **Orders** tab of the [Shopify Stores](BC_20_10_10.md) form, the **Show Discounts As** box is set to *Document Discounts*.|
 
-## Sales Order Export Mapping { .section}
+## Sales Order Export Mapping
 
 The following table shows the mapping of Acumatica ERP fields to Shopify fields that is used during the export of sales order data from Acumatica ERP to Shopify.
 

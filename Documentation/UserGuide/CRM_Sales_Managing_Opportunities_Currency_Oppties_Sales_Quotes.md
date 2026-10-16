@@ -1,10 +1,10 @@
-# Opportunity Management: Currency in Opportunities and Sales Quotes {#_2e591d9a-a887-4c33-9462-7672069ba73c .concept}
+# Opportunity Management: Currency in Opportunities and Sales Quotes
 
 On the [Opportunities](CR_30_40_00.md) \(CR304000\) and [Sales Quotes](CR_30_45_00.md) \(CR304500\) forms, the **Currency** box of the Summary area is shown if the *Multicurrency Accounting* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Insertion of the Currency Depending on the Business Account { .section}
+## Insertion of the Currency Depending on the Business Account
 
-Suppose that at least one non-base currency is set up for accounting on the [Currencies](CurrenciesCM_20_20_00.dita) \(CM202000\) form and you have entered or changed the business account for an opportunity or sales quote. The system determines the currency it inserts in the **Currency** box of the [Opportunities](CR_30_40_00.md) \(CR304000\) and [Sales Quotes](CR_30_45_00.md) \(CR304500\) forms based on these settings of the business account on the [Business Accounts](Business AccountsCR_30_30_00.dita) \(CR303000\) form:
+Suppose that at least one non-base currency is set up for accounting on the [Currencies](CM_20_20_00.md) \(CM202000\) form and you have entered or changed the business account for an opportunity or sales quote. The system determines the currency it inserts in the **Currency** box of the [Opportunities](CR_30_40_00.md) \(CR304000\) and [Sales Quotes](CR_30_45_00.md) \(CR304500\) forms based on these settings of the business account on the [Business Accounts](CR_30_30_00.md) \(CR303000\) form:
 
 -   The specified currency
 -   The state of the **Enable Currency Override** check box
@@ -22,7 +22,7 @@ If you enter or select a business account and it has the same currency as the op
 
 The system also applies these currency determination rules if you create an opportunity by converting a lead on the [Leads](CR_30_10_00.md) \(CR301000\) form.
 
-## Ability to Change the Currency in an Opportunity { .section}
+## Ability to Change the Currency in an Opportunity
 
 Depending on the **Currency** and **Enable Currency Override** settings on the [Business Accounts](CR_30_30_00.md) \(CR303000\) form for the business account selected for an opportunity, you can override the currency the system inserts in the **Currency** box on the [Opportunities](CR_30_40_00.md) \(CR304000\) form if all of the following conditions are met:
 
@@ -33,7 +33,7 @@ Depending on the **Currency** and **Enable Currency Override** settings on the [
 
 If no business account is specified for the opportunity and the base currency of the branch is inserted, the **Currency** box is unavailable for editing.
 
-## Ability to Change the Currency in a Sales Quote { .section}
+## Ability to Change the Currency in a Sales Quote
 
 Depending on the **Currency** and **Enable Currency Override** settings on the [Business Accounts](CR_30_30_00.md) \(CR303000\) form for the business account selected for the sales quote, you can override the currency the system inserts in the **Currency** box on the [Sales Quotes](CR_30_45_00.md) \(CR304500\) form if both of the following conditions are met:
 

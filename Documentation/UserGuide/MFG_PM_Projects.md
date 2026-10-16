@@ -1,4 +1,4 @@
-# Integration with Projects {#_cc311414-d291-4f75-bfb0-2998a8e4160a .concept}
+# Integration with Projects
 
 The following features are only available when the *Projects* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form and **PROD** is selected in the **Visibility Settings** section on the [Projects Preferences](PM_10_10_00.md) \(PM101000\) form.
 
@@ -12,7 +12,7 @@ The following features are only available when the *Projects* feature is enabled
 
 For examples of integrating production management with projects, you can download the [Project Integration Examples](Files/MFG_PM_Project_Integration_Examples.pdf) file.
 
-## Project Form Changes { .section}
+## Project Form Changes
 
 The **PROD** check box has been added to the **Visibility Settings** section on the [Projects Preferences](PM_10_10_00.md) \(PM101000\). You have the flexibility to decide if specific projects and tasks are visible for production orders and estimates. The following project management forms have enhancements to support the production order integration.
 
@@ -24,7 +24,7 @@ The **PROD** check box has been added to the **Visibility Settings** section on 
 
 For more information, you can download the [Project Visibility Enhancements](Files/MFG_PM_Project_Visibility_Enhancements.pdf) file.
 
-## Additional Changes { .section}
+## Additional Changes
 
 -   The production order selector used by multiple forms includes columns for project, task, and cost .
 -   The following forms similarly have been enhanced to show project, task, and cost code:
@@ -32,7 +32,7 @@ For more information, you can download the [Project Visibility Enhancements](Fil
     -   [Production Summary](AM_00_00_06.md) \(AM000006\)
     -   [Release Production Orders](AM_50_00_00.md) \(AM500000\)
 
-## Hints { .section}
+## Hints
 
 The work in process asset account associated with each production order collects all of the manufacturing expenses \(materials, labor, overhead, scrap, etc.\). The work in process and inventory asset accounts are the only accounts that are posted with project transactions. Expense transactions \(such as those for labor, overhead, and scrap\) do not post to projects. We strongly recommend that you create a work in process account to be used only for production orders in order to facilitate reconciliation with the GL:
 

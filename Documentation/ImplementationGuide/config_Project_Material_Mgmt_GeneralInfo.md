@@ -1,20 +1,20 @@
-# Configuration of Project Material Management: General Information {#_074ed8c6-9c26-4ec8-bceb-cd7d081f55ab .concept}
+# Configuration of Project Material Management: General Information
 
 Some projects require materials—defined as stock and non-stock items in Acumatica ERP—that you need to plan, budget, and manage for smooth project execution. To ease this process, you can use the [Project Materials](../UserGuide/PM_30_65_00.md) \(PM306500\) form to manage any project’s material list.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 -   Configure the posting classes for project-related stock
 -   Configure the reason codes to be used for project-related inventory transactions
 -   Set up the availability calculation rules for projects
 -   Set up cost accrual for non-stock items
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 -   You are initially implementing Acumatica ERP and the *Material Management* feature is included in your license.
 -   You have purchased a license that includes the *Material Management* feature, and you need to configure material management in the existing Acumatica ERP system.
 
-## General Configuration Steps of Project Material Management { .section}
+## General Configuration Steps of Project Material Management
 
 To configure project material management in Acumatica ERP, you perform the following general steps:
 

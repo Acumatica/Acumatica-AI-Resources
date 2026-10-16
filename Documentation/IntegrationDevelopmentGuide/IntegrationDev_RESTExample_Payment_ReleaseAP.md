@@ -1,8 +1,8 @@
-# Release a Payment {#_709b0321-c44a-4226-a627-3507a93ce1d8 .concept}
+# Release a Payment
 
 If you are using the contract-based REST API to integrate Acumatica ERP with an external system, this external system can release an accounts receivable payment in Acumatica ERP.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to do the following:
 
@@ -15,21 +15,21 @@ Before you test the code below, you need to do the following:
 
 5.  Use the [Payments and Applications](../UserGuide/AR_30_20_00.md#) \(AR302000\) form or the REST API to remove the created payment from hold and specify the payment amount.
 
-## Request { .section}
+## Request
 
 You can use the following request example to invoke the release process for the *000077* AR payment through the contract-based REST API. The reference number of the AR payment is specified in the `ReferenceNbr` field.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-POST /entity/Default/25.200.001/Payment/Release HTTP/1.1
+POST /entity/Default/26.200.001/Payment/Release HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
 Content-Type: application/json
 
 {
     "entity": {
-        "Type": { "value": "Payment" },
+        "Type": { "value": { "id": "PMT" } },
         "ReferenceNbr": { "value": "000077" }
     }
 }

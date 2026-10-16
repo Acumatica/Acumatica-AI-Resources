@@ -1,8 +1,8 @@
-# Technical Overview of the User Interface {#_28874cf9-a344-4590-9f3d-70a67318b7c4 .concept}
+# Technical Overview of the User Interface
 
 In this topic, you can find a technical overview of the user interface of Acumatica ERP.
 
-## Technologies in the UI { .section}
+## Technologies in the UI
 
 The user interface of Acumatica ERP includes the following frames:
 
@@ -13,17 +13,16 @@ The webpage renders the navigation elements of the navigation frame and the form
 
 The server side of the navigation frame uses the ASP.NET Core framework. The client side uses the React library, which is a JavaScript library, to render main menu items, workspaces, tiles, and other navigation elements.
 
-## Work of the Navigation Frame { .section}
+## Work of the Navigation Frame
 
 The following diagram shows how the browser renders the elements of the navigation frame. This process is described in more detail in the remaining sections of this topic.
 
-![](Images/ModernUIRequests.png "Rendering of the navigation frame")
 
-## Request of main.cshtml { .section}
+## Request of main.cshtml
 
 The browser retrieves `main.cshtml`, which is an ASP.NET MVC view, by sending the HTTP GET request. On the server side, this request is processed by the MainController.Main\(\) method \(PX.Web.UI.Frameset.Controllers\), which creates a System.Web.Mvc.ViewResult object that renders a view to the response. The returned view contains the basic skeleton of the webpage, which includes the calendar control, the search control, and the empty menu.
 
-## Request of the Menu Structure { .section}
+## Request of the Menu Structure
 
 The getSiteMap function in `site.js` uses jQuery to send an AJAX request to the application server. On the server side, this request is processed by the SiteMapController class \(PX.Web.UI.Frameset.WebApi.Controllers\).
 
@@ -48,15 +47,26 @@ The SiteMapRepository class uses other classes that have the Repository suffix i
 
 The following diagram illustrates the process of retrieving data for the navigation frame.
 
-![](Images/ModernUI_SiteMapRetrieval.png "Retrieval of the site map")
 
-## Rendering of the Elements of the Navigation Frame { .section}
+## Rendering of the Elements of the Navigation Frame
 
 The main script that is used to render the navigation frame is `site.js`. It contains classes that use the React library to render elements of the navigation frame. Each such class includes the render method, which uses React classes to render the element. The following tables lists the main classes and their methods.
 
-|Class|Description|
-|-----|-----------|
-|MenuModules|Renders the main menu \(which contains the list of workspaces\).
+<table id="_d87e3ff3-bec8-44e0-9113-bdcfacd0beda"><thead><tr><th>
+
+Class
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+MenuModules
+
+</td><td>
+
+Renders the main menu \(which contains the list of workspaces\).
 
  In addition to the render method, the class has the following methods:
 
@@ -64,16 +74,26 @@ The main script that is used to render the navigation frame is `site.js`. It con
 -   onClickFav: Processes the clicking of the Pin button in a workspace.
 -   onDragStart, onDragOver, onDragLeave, and onDrop: Process operations related to dragging the items of the main menu in Menu Editing mode.
 
-|
-|TopLinks|Renders the tiles in the workspaces.
+</td></tr><tr><td>
+
+TopLinks
+
+</td><td>
+
+Renders the tiles in the workspaces.
 
  In addition to the render method, the class has the following methods:
 
 -   onClick: Processes the clicking of the Edit and Delete buttons for the tiles in Menu Editing mode and clicking of the Favorite button.
 -   onDragStart, onDragOver, onDragLeave, and onDrop: Process operations related to dragging the tiles in Menu Editing mode.
 
-|
-|MenuColumn|Renders a list of forms in a workspace.
+</td></tr><tr><td>
+
+MenuColumn
+
+</td><td>
+
+Renders a list of forms in a workspace.
 
  In addition to the render method, the class has the following methods:
 
@@ -81,19 +101,25 @@ The main script that is used to render the navigation frame is `site.js`. It con
 -   onClickFav: Processes the clicking of the Favorite icon for a form in a workspace.
 -   onClickPin: Processes the clicking of a check box when a user selects a form in a workspace in Menu Editing mode.
 
-|
-|ModuleMenu|Renders all lists of forms in a workspace.
+</td></tr><tr><td>
+
+ModuleMenu
+
+</td><td>
+
+Renders all lists of forms in a workspace.
 
  In addition to the render method, the class has the following methods:
 
 -   getItemsInCol, arrangeLinks, and arrangeLinks2: Arrange links to forms in lists.
 -   onDragStart, onDragOver, onDragLeave, and onDrop: Process operations related to dragging the links to forms in a workspace in Menu Editing mode.
 
-|
+</td></tr></tbody>
+</table>
 
 The `site.js` script also contains webpage event handlers, such as handlers for button-clicking events, which use jQuery to handle the events.
 
-## Customization of the User Interface { .section}
+## Customization of the User Interface
 
 An administrator can configure the user interface to fit the work purposes of the organization, as described in [Customizing the User Interface](../UserGuide/SA_Customizing_UI_Mapref.md) in the System Administration Guide.
 

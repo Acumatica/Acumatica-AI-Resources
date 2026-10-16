@@ -1,8 +1,8 @@
-# To Add a Link {#_0b5561b7-5bda-4623-9bf6-6af08f49298a .task}
+# To Add a Link
 
 You can create links to places in the current article, to other articles in the same wiki, and to external websites. These links help users quickly access additional information they might need.
 
-## To Navigate Within an Article { .section}
+## To Navigate Within an Article
 
 With a lengthy article, you might want to give users the ability to quickly navigate within the article. To do this, you first insert anchors to mark the beginnings of sections and other positions in the article to which you want to redirect users. You then insert anchor links, which users can click to easily navigate to the defined anchors.
 
@@ -48,7 +48,7 @@ Then add the following syntax to the article in the place where you want to crea
 
 Now, each time users click the `Return to the top` link, they navigate to the top of the article.
 
-## To Add Links to Articles and Websites { .section}
+## To Add Links to Articles and Websites
 
 You use wiki links to give users the ability to quickly access other articles within the Acumatica ERP instance.
 
@@ -93,9 +93,9 @@ Here are some examples of wiki links:
 
 By using external links, you can redirect users to external websites and mail-to links. Here are some examples of external links:
 
--   `[http://google.com]`: The system displays this link as a string with the external link icon: [http://google.com/](http://google.com/).
--   `[mail@server.com]`: The system displays this text as a mail-to link: [mail@server.com](mail@server.com).
--   `[mail@server.com|Contact us]`: The system displays this string as a mail-to link with a custom link text: [Contact us](../UserGuide/mail@server.com).
+-   `[https://google.com]`: The system displays this link as a string with the external link icon: [https://google.com/](https://google.com/).
+-   `[mail@server.com]`: The system displays this text as a mail-to link: [mailto:support@example.com](mailto:support@example.com).
+-   `[mail@server.com|Contact us]`: The system displays this string as a mail-to link with a custom link text: [Contact us](mailto:support@example.com).
 
 **Parent topic:**[Wiki Content Procedures](../UserGuide/DM__mng_Wiki_How_To.md)
 

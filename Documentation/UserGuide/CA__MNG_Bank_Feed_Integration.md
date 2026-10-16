@@ -1,4 +1,4 @@
-# Integrating Acumatica ERP with Bank Feeds {#_cced4b81-106f-4c06-9769-6d4fd9f22e0d .concept}
+# Integrating Acumatica ERP with Bank Feeds
 
 Acumatica ERP is integrated with Plaid and MX, which are financial service companies that provide secure bank feeds. A bank feed is a secure link between Acumatica ERP and a company's bank profile, which can include multiple bank accounts. A bank feed is used for the automatic import of bank transactions into the system. A company may create different bank feeds for different banks. Alternatively, if the accounts in one bank are registered to different users, a company may create a bank feed for each user with a separate set of credentials. With this integration, Acumatica ERP users can automatically connect to their bank profiles, import bank transactions to Acumatica ERP, and create expense receipts based on these transactions.
 

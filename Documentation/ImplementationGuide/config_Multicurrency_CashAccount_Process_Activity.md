@@ -1,12 +1,12 @@
-# Multicurrency Cash Accounts: To Process a GL Transaction {#_3007d6de-dffa-4786-87aa-3da129bfc5a7 .task}
+# Multicurrency Cash Accounts: To Process a GL Transaction
 
 The following activity will walk you through the processing of a GL transaction in a foreign currency.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Fruits &amp; Jams has just opened a bank account in Canadian dollars and needs to pay a monthly fee of C$9.00 to the bank. Acting as a SweetLife accountant, you need to create a GL transaction with the bank fee, post the transaction, and review the account balance.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -21,11 +21,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Chart of Accounts](../UserGuide/GL_20_25_00.md) \(GL202500\) form, the *61100 \(Bank Service Charges\)* account has been created.
 -   On the [Currency Rate Types](../UserGuide/CM_20_10_00.md) \(CM201000\) form, the *SPOT* rate type has been predefined.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create and post a GL transaction in *CAD* on the [Journal Transactions](../UserGuide/GL_30_10_00.md) \(GL301000\) form. On the [Account Summary](../UserGuide/GL_40_10_00.md) \(GL401000\) form, you will review the account balances for the *01-2026* period and then view the details of the *10215 \(Checking Account CAD\)* account on the [Account Details](../UserGuide/GL_40_40_00.md) \(GL404000\) form to review the ending balance of the account.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -35,7 +35,7 @@ Before you begin performing the steps of this activity, do the following:
 4.  Make sure that the multicurrency accounting functionality has been configured as described in [Multicurrency Functionality: Implementation Activity](config_Multicurrency_Basic_Implem_Activity.md) and [Configuration of Rate Types and Rates: To Configure Rates](config_Multicurrency_Configuring_Rates_Activity1.md).
 5.  Make sure that on the [Cash Accounts](../UserGuide/CA_20_20_00.md) \(CA202000\) form, the *10215WH* cash account denominated in the *CAD* currency and associated with the *10215 \(Checking Account CAD\)* GL account has been defined, as described in [Multicurrency Cash Accounts: To Configure an Account](config_Multicurrency_CashAccount_Implem_Activity.md).
 
-## Step 1: Creating a GL Transaction { .section}
+## Step 1: Creating a GL Transaction
 
 To create a GL transaction in *CAD*, do the following:
 
@@ -76,7 +76,7 @@ To create a GL transaction in *CAD*, do the following:
 8.  On the form toolbar, click **Remove Hold**. The batch is assigned the *Balanced* status.
 9.  On the form toolbar, click **Release** to release the GL transaction.
 
-## Step 2: Reviewing the Account Balances { .section}
+## Step 2: Reviewing the Account Balances
 
 To review the balances of the *10215* cash account, do the following:
 

@@ -1,4 +1,4 @@
-# REST API Examples {#_bbb8b84b-07d7-4a69-adf8-33dc5d430b60 .concept}
+# REST API Examples
 
 In this chapter, you can find examples of HTTP requests that show how to implement various integration scenarios for the integration of Acumatica ERP with external systems through the contract-based REST API. You can reuse these requests in your application.
 

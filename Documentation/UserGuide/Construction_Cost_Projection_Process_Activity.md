@@ -1,10 +1,10 @@
-# Project Cost Projections: To Prepare a Cost Projection Revision {#_e9fd5472-2b33-4d63-a010-7276b150e28d .task}
+# Project Cost Projections: To Prepare a Cost Projection Revision
 
 This activity will walk you through the process of estimating the planned costs of a project that is in progress.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the ToadGreen company is building an Italian restaurant for the Italian Company, its customer, and is in the middle of the lifecycle of the construction project. The project manager analyzes the current project state and notices the following:
 
@@ -15,7 +15,7 @@ In response to the project manager's request, the ToadGreen project estimator ne
 
 Acting as the project estimator, you will prepare a cost projection revision for the project.
 
-## Configuration Overview {#section_k44_tw5_gnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -25,18 +25,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
     -   The *TC* cost projection class provides cost projections at the task level of detail \(that is, in a cost projection revision, the budget lines with the same task are consolidated\).
     -   The *TAC* cost projection class provides the same level of detail as the cost project budget of the *ITALIAN2* project.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create a cost projection revision on the [Cost Projection](PM_30_50_00.md) \(PM305000\) form and add budget lines to the projection. Then you will select the calculation mode, update the projected values, and review how this update affects the budgeted values. Finally, you will release the cost projection revision and prepare the construction bonding report for the project, which will include the projected values, on the [Construction Bonding Report](PM_65_05_00.md) \(PM650500\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
 1.  Launch the Acumatica ERP website and sign in to a company with the *U100* dataset preloaded. You should sign in as the project estimator by using the *wendell* username and the *123* password.
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *3/25/2026*. If a different date is displayed, click the Business Date menu button, and select *3/25/2026* on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating a Cost Projection Revision { .section}
+## Step 1: Creating a Cost Projection Revision
 
 To create the first cost projection revision for the *ITALIAN2* project, do the following:
 
@@ -50,7 +50,7 @@ To create the first cost projection revision for the *ITALIAN2* project, do the 
 
     -   **Description**: `Estimating (concrete materials and on-site work)`
 
-## Step 2: Adding Budget Lines { .section}
+## Step 2: Adding Budget Lines
 
 To add the budget lines to be estimated, while you are still viewing the [Cost Projection](PM_30_50_00.md) \(PM305000\) form with the *ITALIAN2* project selected, do the following:
 
@@ -65,13 +65,12 @@ To add the budget lines to be estimated, while you are still viewing the [Cost P
 
     In the Summary area, the total budgeted and projected costs are shown. Although a small budget overrun is expected for the masonry work, the total projected costs are still within the initially budgeted costs because the **Projected Cost at Completion** in the **Totals by Revision** section does not exceed the **Budgeted Cost at Completion** \(also shown below\).
 
-    ![](Images/activity_Construction_Cost_Projection.png "The prepared cost projection revision")
 
 6.  Save the cost projection revision.
 
 The cost projection revision that you have created cannot be released because its level of detail does not fit the budget level of detail of the project. So after you have performed the initial analysis, you will create a cost projection revision with the same budget detail level as that of the project.
 
-## Step 3: Creating the Next Cost Projection Revision {#section_x2k_cng_npb .section}
+## Step 3: Creating the Next Cost Projection Revision
 
 In this step, you will create the second cost projection revision and release it. You will then prepare a construction bonding report with the projected amounts. Do the following:
 

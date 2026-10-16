@@ -1,14 +1,14 @@
-# Leads: To Create a Lead by Using the Acumatica Add-In for Outlook {#_a52f6a45-288a-417e-ab9e-41103dab6691 .task}
+# Leads: To Create a Lead by Using the Acumatica Add-In for Outlook
 
 The following activity demonstrates how to create a lead by using the Acumatica add-in for Outlook and quickly update the lead's information in the system.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Bill Owen, a marketing manager of the SweetLife Fruits &amp; Jams company.You receive an email from Stephanie Andrews, a purchasing manager at Muffin Secret bakery. In the email, Stephanie requests for the detailed price list of the SweetLife Fruits &amp; Jams. Bill needs to register the lead in the system for further communication.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following features have been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
@@ -17,11 +17,11 @@ In the *U100* dataset, for the purposes of this activity, the following features
 
 The Acumatica add-in for Outlook should be installed for your Microsoft Outlook application. For details, see [Using the Acumatica Add-In for Outlook](OU_00_00_00.md).
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create a new lead in the system by using the Acumatica add-in for Outlook and quickly edit the lead's contact information on the [Leads](CR_30_10_00.md) \(CR301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating a new lead in the system by using the Acumatica add-in for Outlook, you should do the following:
 
@@ -33,7 +33,7 @@ Before you start creating a new lead in the system by using the Acumatica add-in
     -   **Username**: *owen*
     -   **Password**: *123*
 
-## Step 1: Creating a Lead by Using the Acumatica Add-In for Outlook { .section}
+## Step 1: Creating a Lead by Using the Acumatica Add-In for Outlook
 
 To create a new lead by using the Acumatica add-in for Outlook, do the following:
 
@@ -62,7 +62,7 @@ To create a new lead by using the Acumatica add-in for Outlook, do the following
 
 You have created a new lead in the system by using the Acumatica add-in for Outlook.
 
-## Step 2: Updating the Lead's Information by Using the Acumatica Add-In for Outlook { .section}
+## Step 2: Updating the Lead's Information by Using the Acumatica Add-In for Outlook
 
 Suppose that you have scanned the email from Stephanie Andrews once again and noticed her company address. You need to quickly add this address to the system.
 

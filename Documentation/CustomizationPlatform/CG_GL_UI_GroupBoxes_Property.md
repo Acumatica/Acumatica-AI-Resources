@@ -1,4 +1,4 @@
-# To Set a Group Box Property {#_da56ea70-219e-4e4d-947d-96b58d9dfeb4 .concept}
+# To Set a Group Box Property
 
 To include changes to the properties of a group box in a customization project, you have to modify the properties by using the [Screen Editor](../UserGuide/AU_20_45_20.md). To start setting the properties of a group box, perform the following actions:
 

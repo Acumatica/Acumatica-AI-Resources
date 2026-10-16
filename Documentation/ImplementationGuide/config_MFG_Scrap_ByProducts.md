@@ -1,8 +1,8 @@
-# Configuration of Scrap, Waste, and By-Products in Production: By-Products {#_8271baad-0f9f-4e42-a723-19d0de86bfd4 .concept}
+# Configuration of Scrap, Waste, and By-Products in Production: By-Products
 
 If some of the production processes in your organization yield by-products, Acumatica ERP Manufacturing Edition provides you with the ability to include by-products in a bill of material \(BOM\) and deduct their costs from the cost of the production orders based on the bill of material. In the following sections, you can find information about setting up by-products in the system.
 
-## Setup of By-Product Processing { .section}
+## Setup of By-Product Processing
 
 When you need to set up the system so that by-products are included in production orders, you do the following:
 
@@ -15,7 +15,7 @@ When you need to set up the system so that by-products are included in productio
         **Tip:** You can add any number of rows for by-products.
 
 
-## Example of a BOM with a By-Product { .section}
+## Example of a BOM with a By-Product
 
 The following example demonstrates how you can specify the settings for by-products in a bill of material.
 

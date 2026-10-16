@@ -1,4 +1,4 @@
-# Managing Production Cost Drivers {#_c5241a91-eab9-4f7e-a9ef-c3783e6872c6 .concept}
+# Managing Production Cost Drivers
 
 Acumatica ERP Manufacturing Edition provides you with the ability to consider various factors that may affect a cost of production. In this chapter, you will read about how the system calculates each of the cost component \(or *production cost driver*\) that may be included in the cost of a produced item.
 

@@ -1,4 +1,4 @@
-# Text Box: Multiline Text Box {#_5ce953ff-b70b-4ead-a228-894f2a692789 .concept}
+# Text Box: Multiline Text Box
 
 You can configure a multiline text box by using one of the following approaches:
 
@@ -9,9 +9,8 @@ You can configure a multiline text box by using one of the following approaches:
 
 An example of a multiline text box is shown in the following screenshot.
 
-![](Images/UIDev_DesignLayout_MultilineTextbox.png "The Description multiline text box")
 
-## Configuring a Multiline Text Box with TypeScript \(Recommended\) { .section}
+## Configuring a Multiline Text Box with TypeScript \(Recommended\)
 
 To configure a multiline text box with TypeScript, you use the controlConfig decorator with the specified rows property, which specifies the number of lines in the control, and define the field with the PXFieldOptions.Multiline option, as the following example shows.
 
@@ -26,7 +25,7 @@ In the HTML code, the field is defined as shown in the following code.
 <field name="DocDesc"></field>
 ```
 
-## Configuring a Multiline Text Box with HTML { .section}
+## Configuring a Multiline Text Box with HTML
 
 To configure a multiline text box only in an HTML template, you specify the following attributes in the `field` declaration:
 
@@ -39,7 +38,7 @@ An example of a multiline box is shown in the following code.
 <field name="OrderDesc" config-type.bind="1" config-rows.bind="2"></field>
 ```
 
-## Adding a New Line in the Multiline Text Box { .section}
+## Adding a New Line in the Multiline Text Box
 
 By default, when a user clicks Enter in the multiline text box, the focus is shifted to the next control. To add a new line, the user should click Ctrl+Enter.
 

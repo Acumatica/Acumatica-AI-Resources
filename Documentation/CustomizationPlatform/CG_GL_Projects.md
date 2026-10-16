@@ -1,4 +1,4 @@
-# Managing Customization Projects {#_03b07c52-2ba7-47f0-9b91-00b36aaf21aa .concept}
+# Managing Customization Projects
 
 A customization project is a set of changes to the user interface and functionality of Acumatica ERP. A customization project, described more fully in [Customization Project](CG_Platform_Project.md), might include the following:
 

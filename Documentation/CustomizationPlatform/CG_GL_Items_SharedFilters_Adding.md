@@ -1,4 +1,4 @@
-# To Add a Shared Filter to a Project {#_642204fb-1ec6-4aa9-a166-63ce2deccd1c .concept}
+# To Add a Shared Filter to a Project
 
 You can add a custom reusable shared filter to a customization project. To do this, perform the following actions:
 
@@ -12,12 +12,10 @@ You can add a custom reusable shared filter to a customization project. To do th
 5.  In the dialog box, click **OK** to add the selected filter or filters to the page table.
 6.  On the page toolbar, click **Save** to save the changes to the customization project.
 
-    ![](images/CG_GL_Items_SharedFilters_Adding_01.png "Adding the shared filter to the customization project")
 
 
 The system adds to the project the data from the database for each selected shared filter. You can view each new *SharedFilter* item in the Project Items table of the [Edit Project Items](../UserGuide/AU_ItemXMLEditor.md), as shown in the following screenshot.
 
-![](images/CG_GL_Items_SharedFilters_Adding_02.png "Viewing the XML code of the SharedFilter item included in the project")
 
 **Parent topic:**[Shared Filters](../CustomizationPlatform/CG_GL_Items_SharedFilters.md)
 

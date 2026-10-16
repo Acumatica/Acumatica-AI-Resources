@@ -1,19 +1,19 @@
-# Staff Members: General Information {#_a1fbb368-7e06-49b3-9a2d-e68d7b879727 .concept}
+# Staff Members: General Information
 
 In Acumatica ERP, a staff member is an employee or a vendor who performs the services specified in a service document, typically by visiting a customer’s location.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to define an employee as a staff member.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You define employees as staff members in Acumatica ERP in any of the following cases:
 
 -   When initially setting up the service management functionality in Acumatica ERP
 -   When your organization hires a new employee who needs to be defined as a staff member in service management.
 
-## Types of Staff Members {#_e97e4ef1-9014-4421-9a3b-e94b2c2e9504 .section}
+## Types of Staff Members
 
 In Acumatica ERP, you can define the following types of staff members:
 

@@ -1,4 +1,4 @@
-# Working with Graph Extensions {#_2795dab5-560d-4936-9627-313904a9c9ee .concept}
+# Working with Graph Extensions
 
 This chapter explores the ways the Acumatica Customization Platform gives you to define graph extensions of different levels, and shows how different graph extensions can interact.
 

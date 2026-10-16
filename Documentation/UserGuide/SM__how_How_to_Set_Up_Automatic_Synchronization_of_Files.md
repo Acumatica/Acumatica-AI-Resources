@@ -1,10 +1,10 @@
-# To Set Up Automatic File Synchronization {#_8af2b749-8998-4da9-8b4a-50904ca7c2c0 .task}
+# To Set Up Automatic File Synchronization
 
 You can use automation schedules to perform periodic synchronization between a file on an Acumatica ERP site and a file on a local computer or network.
 
 You find the file whose synchronization you want to schedule by using the [Search in Files](SM_20_25_20.md) \(SM202520\) form, configure file synchronization by using the [File Maintenance](SM_20_25_10.md) \(SM202510\) form, and then schedule the synchronization on the [File Synchronization](SM_20_25_30.md) \(SM202530\) form.
 
-## To Configure File Synchronization { .section}
+## To Configure File Synchronization
 
 You can synchronize files stored in Acumatica ERP with files on a shared network folder or with files stored on a File Transfer Protocol \(FTP\), Hypertext Transfer Protocol \(HTTP\), or Secure File Transfer Protocol \(SFTP\) server. The following topics describe how to configure each type of synchronization:
 
@@ -12,7 +12,7 @@ You can synchronize files stored in Acumatica ERP with files on a shared network
 -   [To Configure File Synchronization Through SFTP](SM__How_to_configure_file_SFTP_synch.md)
 -   [To Configure File Synchronization Through a Shared Folder](SM__How_to_configure_file_Shared_Folder_synch.md)
 
-## To Schedule File Synchronization { .section}
+## To Schedule File Synchronization
 
 After you have configured the file synchronization, you can perform synchronization manually by using the [File Synchronization](SM_20_25_30.md) form. Alternatively, you can assign the process to a schedule to be performed automatically by using the [Automation Schedules](SM_20_50_20.md) \(SM205020\) form. For more information about automation schedules, see [Automated Processing: General Information](SA_Scheduling_Automated_Processing_GeneralInfo.md).
 
@@ -65,7 +65,7 @@ To schedule file synchronization, do the following:
 9.  On the **Filter Values** tab, choose the synchronization operation to be performed, **Import File** or **Export File**.
 10. Click **Save** on the form toolbar to create the schedule. When you save a new schedule, the system gives it an identifier in accordance with the built-in numbering sequence intended for automation schedules.
 
-## To View the History of Schedule Application { .section}
+## To View the History of Schedule Application
 
 1.  On the **Configuration** tab, click **Document Management**. In the left pane, click **Schedule** &gt; **File Synchronization**.
 2.  On the form toolbar, click **Schedules** &gt; **History**.

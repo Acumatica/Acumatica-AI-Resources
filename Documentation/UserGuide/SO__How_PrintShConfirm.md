@@ -1,8 +1,8 @@
-# To Print a Shipment Confirmation {#_d173654f-c973-4c4e-8bf2-9cb73b314d4c .task}
+# To Print a Shipment Confirmation
 
 If you need to print a shipment confirmation for a particular shipment, you can do this from the [Shipments](SO_30_20_00.md) \(SO302000\) form.
 
-## To Print a Shipment Confirmation { .section}
+## To Print a Shipment Confirmation
 
 1.  Open the [Shipments](../Shared/../UserGuide/SO_30_20_00.md) \(SO302000\) form.
 2.  In the **Shipment Nbr.** box, select the reference number of the needed shipment.

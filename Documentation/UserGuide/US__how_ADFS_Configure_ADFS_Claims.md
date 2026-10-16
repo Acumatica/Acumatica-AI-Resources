@@ -1,4 +1,4 @@
-# To Configure AD FS Claims {#_80b25515-4e2e-4a34-bc94-942dada36c10 .task}
+# To Configure AD FS Claims
 
 After you have added a relying party trust for your Acumatica ERP instance to the Microsoft Active Directory Federation Services \(AD FS\) server, you need to configure the necessary claims for the relying party trust. For description of all steps required for integrating Acumatica ERP with AD FS, see [Integration with AD FS](US__con_ADFS_Integration.md).
 
@@ -10,7 +10,7 @@ The procedure below provides a sample configuration of claims for AD groups. You
 -   The vendor of the third-party software may change the user interface and settings. The labels you see in the UI may differ from the ones described in the procedure.
 -   The procedure will be updated to describe new common scenarios and UI changes arise.
 
-## To Configure AD FS Claims for the Relying Party Trust { .section}
+## To Configure AD FS Claims for the Relying Party Trust
 
 1.  Sign in to the AD FS server, open the AD FS Management tool, and select the relying party trust of your Acumatica ERP instance in **Trust Relationships** &gt; **Relying Party Trusts**.
 
@@ -22,7 +22,6 @@ The procedure below provides a sample configuration of claims for AD groups. You
     2.  In the **Add Transform Claim Rule Wizard** dialog box, in the **Claim rule template** box, select *Send LDAP Attributes as Claims*, and then click **Next**.
     3.  In the **Claim rule name** box, type `Main Claims`, as shown in the screenshot below.
 
-        ![](Images/ADFS_16.png "Main Claims rule")
 
     4.  In the **Attribute store** box, select *Active Directory*.
     5.  In the **Mapping of LDAP attributes to outgoing claim types** area, add the attributes specified in the following table.
@@ -43,7 +42,6 @@ The procedure below provides a sample configuration of claims for AD groups. You
     2.  In the **Add Transform Claim Rule Wizard** dialog box, in the **Claim rule template** box, select *Pass Through or Filter an Incoming Claim*, and then click **Next**.
     3.  In the **Claim rule name** box, type `SID`, as shown in the screenshot below.
 
-        ![](Images/ADFS_13.png "SID rule")
 
     4.  In the **Incoming claim type** box, select *Primary SID*.
     5.  Select the **Pass through all claim values** option button.

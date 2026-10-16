@@ -1,8 +1,8 @@
-# To Create a Credit Memo Order \(CM\) {#_f54ecf0d-dc9c-462c-867c-7c7ce2040f6b .task}
+# To Create a Credit Memo Order \(CM\)
 
 To credit a customer for returned goods without shipping items, you enter a credit memo order \(that is, an order of the *CM* order type\) by using the [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 
-## To Enter a Credit Memo Order { .section}
+## To Enter a Credit Memo Order
 
 1.  Open the [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 2.  In the Summary area, select *CM* as the order type.

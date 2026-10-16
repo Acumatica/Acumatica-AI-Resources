@@ -1,4 +1,4 @@
-# Tax Periods {#_185c5288-409c-4de3-a5e9-f8bf789c8d6a .concept}
+# Tax Periods
 
 The topics of this chapter describe how to configure tax year and periods in Acumatica ERP.
 

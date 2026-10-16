@@ -1,10 +1,10 @@
-# Project Inventory Tracking: To Track Project Inventory by Quantity and Cost {#_cc1deed0-28f4-42ad-a99d-1a3768b903cd .task}
+# Project Inventory Tracking: To Track Project Inventory by Quantity and Cost
 
 The following activity will walk you through the process of tracking the costs and quantities of the items being used for a project.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_o3z_pn2_yrb .section}
+## Story
 
 Suppose that the ToadGreen Building Group company is building a hotel for the Equity Group Investors customer. A ToadGreen project manager has created a project to track the progress of work, expenses, and revenues. The project work began in mid-February, 2026. To plan the purchases of items and be sure that there will be enough materials to proceed, the project manager needs to reserve stock items for this particular project. Also, because of regulatory requirements, the materials used for work must be issued at the exact cost at which they have been purchased.
 
@@ -12,7 +12,7 @@ On January 30, 2026, the project manager purchased 360 pallets of bricks and 480
 
 Acting as a construction project manager, you will process a purchase of items for the project. Then you will issue the quantity of the purchased items that were shipped to the project site, and review the cost of the project items.
 
-## Configuration Overview {#section_rjp_wkc_vrb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -26,18 +26,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *CONCRESUP* and *STONEC* vendors have been created.
 -   On the [Projects](PM_30_10_00.md) \(PM301000\) form, the *HOTELR* project has been created and activated. In the project, *Track by Project Quantity and Cost* is selected as the inventory tracking mode.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form, you will create two purchase orders with lines related to the project. You will receive the purchased items to a company's warehouse by processing purchase receipts on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form. Then you will process an inventory issue transaction on the [Issues](IN_30_20_00.md) \(IN302000\) form to record that a partial quantity of the materials has been used for the project.
 
-## System Preparation {#section_vvm_zp2_xrb .section}
+## System Preparation
 
 Before you start creating a project and processing a purchase, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in as a construction project manager. You should sign in by using the *ewatson* username and the *123* password.
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to 1/30/2026. If a different date is displayed, click the Business Date menu button, and select 1/30/2026 on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Purchasing Project Inventory {#section_kgb_bq2_xrb .section}
+## Step 1: Purchasing Project Inventory
 
 To create and process purchase orders for the project, do the following:
 
@@ -91,7 +91,7 @@ To create and process purchase orders for the project, do the following:
 11. On the form toolbar, click **Remove Hold**. Then click **Enter PO Receipt**. The [Purchase Receipts](PO_30_20_00.md) form opens with the purchase receipt.
 12. On the form toolbar of the [Purchase Receipts](PO_30_20_00.md) form, click **Release**.
 
-## Step 2: Issuing Stock Items for the Project {#section_ycp_pj2_xrb .section}
+## Step 2: Issuing Stock Items for the Project
 
 To directly issue stock items for the project \(to record that some of the materials have been delivered to the project site\) and capture the issued cost to the project, do the following:
 

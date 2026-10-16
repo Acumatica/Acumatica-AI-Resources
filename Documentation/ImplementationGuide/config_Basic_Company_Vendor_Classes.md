@@ -1,8 +1,8 @@
-# Accounts Payable: Vendor Classes {#_59923682-1eb5-4edd-8a53-2080ddb7a561 .concept}
+# Accounts Payable: Vendor Classes
 
 A vendor class groups vendors that have similar characteristics. Vendor classes can be based on the types of goods or services you purchase from vendors of the class or on other properties, such as the vendors' currency and payment methods. For instance, you might find it useful to create one vendor class for tax agencies and another for 1099 vendors.
 
-## Creation of a Vendor Class { .section}
+## Creation of a Vendor Class
 
 You define vendor classes and their settings on the [Vendor Classes](../UserGuide/AP_20_10_00.md) \(AP201000\) form. You can then select the appropriate vendor class when you are creating a vendor account on the [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\) form, which causes the system to fill in the values of the class for the vendor. Any of these default values can be overridden.
 

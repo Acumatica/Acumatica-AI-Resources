@@ -1,4 +1,4 @@
-# Invoice Prepayments: General Information {#_e2bac985-0856-4c34-96c6-6b5605772cba .concept}
+# Invoice Prepayments: General Information
 
 A *prepayment* is a type of manual AR document \(that is, a document created by a user\) that records a company's financial relationship with customers. You use this document type if you want to distinguish customer payments from prepayments. The system displays the sum of all open customer payment documents with the *Prepayment* type separately in the **Prepayment Balance** box on the [Customers](AR_30_30_00.md) \(AR303000\) form. You can apply outstanding documents to a prepayment before or after you release it.
 
@@ -10,7 +10,7 @@ To identify prepayments, the system uses the numbering sequence specified in the
 
 **Attention:** If the **Manual Numbering** check box is selected for the specified numbering sequence on the [Numbering Sequences](../Shared/../UserGuide/CS_20_10_10.md) \(CS201010\), the system validates each new reference number you enter in order to prevent the creation of payments and prepayments with the same reference number.
 
-## Learning Objectives {#section_vdp_4jv_vxb .section}
+## Learning Objectives
 
 From reading the topics in this chapter and completing the process activities, you will learn how to do the following:
 
@@ -18,14 +18,14 @@ From reading the topics in this chapter and completing the process activities, y
 -   Apply the prepayment to an AR invoice
 -   Reverse an application of a prepayment to the wrong invoice
 
-## Applicable Scenarios {#section_ydp_4jv_vxb .section}
+## Applicable Scenarios
 
 Prepayments can be created in the following cases:
 
 -   When you received a prepayment from a customer without applying it to any outstanding document
 -   When you want to enter a prepayment and apply it to AR documents
 
-## Workflow of Processing a Prepayment {#section_a2p_4jv_vxb .section}
+## Workflow of Processing a Prepayment
 
 This section provides an overview of the processing of a prepayment in Acumatica ERP. The diagram below shows the processing actions and the involved forms and documents.
 
@@ -40,7 +40,6 @@ Prepayment processing includes the following steps.
 
 The following diagram illustrates the workflow of processing a prepayment.
 
-![](Images/diag_Finance_ProcessPrepayment_AR.png "Processing a prepayment")
 
 **Parent topic:**[Processing Prepayments](../UserGuide/Finance_ARProcessing_Prepayments_Mapref.md)
 

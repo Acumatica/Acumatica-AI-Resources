@@ -1,10 +1,10 @@
-# Purchase Requisition Configuration: General Information {#_7a78a7aa-d581-422b-8b65-45bb39a026e9 .concept}
+# Purchase Requisition Configuration: General Information
 
 By using purchase requisitions in Acumatica ERP, your company can optimize its purchasing process. With this functionality, you can purchase stock items from the most appropriate vendors at the best possible price and time and in the right quantities.
 
 In a production environment, before you configure purchase requisitions, you need to perform broader Acumatica ERP implementation, which includes enabling features and specifying the basic settings for other basic functionality: the general ledger, cash management, accounts payable \(including defining vendors\), accounts receivable \(including defining customers\), and order management with inventory.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -13,11 +13,11 @@ In this chapter, you will do the following:
 -   Create a request class
 -   Configure budget validation for purchase requests of a class
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 You may need to learn how to configure purchase requisitions if your organization wants to optimize its purchasing processes.
 
-## Setup of Purchase Requisition Functionality { .section}
+## Setup of Purchase Requisition Functionality
 
 To use the functionality that supports purchase requisitions, you need to be sure that the *Purchase Requisitions* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form. You should also determine how your company will use the purchase requisition functionality, including the following factors:
 
@@ -41,7 +41,7 @@ You use the following sections of the [Purchase Requisitions Preferences](../Use
     Also, you can specify the default request class to be inserted when a request is created on the [Requests](../UserGuide/RQ_30_10_00.md) \(RQ301000\) form. This can be a request class defined for customer requests or for employee requests. \(For details about request classes, see the following section.\) When the default request class is inserted for a request, the system also inserts the default settings associated with the class. Specifying this default class may be useful if a particular request class is expected to be used far more than the others.
 
 
-## Creation of Request Classes { .section}
+## Creation of Request Classes
 
 A request class is an entity in Acumatica ERP that contains the general settings of requests of a particular type. When you create a request class on the [Request Classes](../UserGuide/RQ_20_10_00.md) \(RQ201000\) form, you can specify the following settings:
 
@@ -51,7 +51,7 @@ A request class is an entity in Acumatica ERP that contains the general settings
 -   Which items are available for ordering in requests of this class: You can restrict the list of items that users can add to the request during its creation to reduce the probability of users selecting the wrong items. To do this, you select the **Restrict Requested Items to the Specified List** check box in the Summary area, and you add the items to the list on the **Item List** tab.
 -   Whether the request must be validated against the budget: If you control expenses on particular items by using budgets, you can set up budget validation on the **GL Accounts** tab by selecting *Warning* or *Error* in the **Budget Validation** box \(the default setting is *None*\) and specifying an expense account in the **Expense Account** box \(and the corresponding subaccount, if applicable, in the **Expense Sub.** box\).
 
-## Workflow of the Purchase Requisition Configuration {#section_vv2_1y4_y4b .section}
+## Workflow of the Purchase Requisition Configuration
 
 To configure purchase requisitions in Acumatica ERP, you perform the following general steps:
 

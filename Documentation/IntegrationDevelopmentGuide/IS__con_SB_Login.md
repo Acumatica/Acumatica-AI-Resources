@@ -1,16 +1,16 @@
-# Login\(\) Method {#_6122a664-b0ae-4c51-a62a-f0124a131245 .reference}
+# Login\(\) Method
 
 You use the Login\(\) method to make the client application sign in to Acumatica ERP.
 
 **Important:** The direct sign-in to Acumatica ERP with a username and password is going to be discontinued in a future version. We recommend that your application implement the OAuth 2.0 or OpenID Connect \(OIDC\) mechanism of authorization. For details about OAuth 2.0 and OIDC, see [Authorizing Client Applications to Work with Acumatica ERP](../Shared/../IntegrationDevelopmentGuide/IS__mng_Authorizing_with_OAuth2.md).
 
-## Syntax { .section}
+## Syntax
 
 ```
 public LoginResult Login(string name, string password)
 ```
 
-## Parameters { .section}
+## Parameters
 
 -   name: The username that the application should use to sign in to Acumatica ERP, such as `"admin"`.
 
@@ -20,11 +20,11 @@ public LoginResult Login(string name, string password)
 
 -   password: The password for the username, such as `"123"`.
 
-## Return Value { .section}
+## Return Value
 
 The method returns the LoginResult object, which contains the description of errors that occurred during signing in, if any.
 
-## Example { .section}
+## Example
 
 The following code signs in to Acumatica ERP by using the parameters that are specified in the application settings.
 
@@ -35,7 +35,7 @@ context.Url = "https://localhost/WebServiceAPITest/Soap/MYSTORE.asmx";
 context.Login("admin@MyTenant:MYSTORE", "123");
 ```
 
-## Usage Notes { .section}
+## Usage Notes
 
 Before you sign in to Acumatica ERP by using the Login\(\) method, do the following:
 
@@ -65,7 +65,7 @@ using
 }
 ```
 
-You should take into account Acumatica ERP license API limits when using the Login\(\) method. For details, see [License Restrictions for API Users](IS__con_License_Restrictions_API_Users.md).
+You should take into account Acumatica ERP license API limits when using the Login\(\) method. For details, see [License Restrictions for API Sessions and Requests](IS__con_License_Restrictions_API_Users.md).
 
 **Parent topic:**[Screen-Based SOAP API Reference](../IntegrationDevelopmentGuide/IS__IS_SB_API_Reference.md)
 

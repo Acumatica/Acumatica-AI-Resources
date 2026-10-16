@@ -1,16 +1,16 @@
-# Vendor Payments for a Project: To Process a Payment for Multiple Bills {#_7dc160fb-b24a-4102-ab26-882ffabfa7a2 .task}
+# Vendor Payments for a Project: To Process a Payment for Multiple Bills
 
 In this activity, you will generate a payment for multiple bills for a project and apply this payment to bills.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_itd_vbk_c4b .section}
+## Story
 
 Suppose that the HM's Bakery and Cafe requested 20 hours of employee training on operating juicers. SweetLife's project accountant has created a project to track the revenues and expenses for these services. Further suppose that the SweetLife project manager then decided to contract the Squeezo Inc. vendor to conduct the training.
 
 On January 15, 2026, the SweetLife project accountant entered the first bill it received from the Squeezo Inc. for 12 hours of the employee training. Then on January 25, 2026, one more bill from Squeezo Inc. was received \(and entered by the project accountant\) for 8 hours of the provided training services. The vendor has requested that both bills be paid with one payment by the end of the month. Acting as SweetLife's project accountant, you need to pay the bills related to the project with one payment.
 
-## Configuration Overview {#section_jtd_vbk_c4b .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -23,18 +23,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *SQUEEZO \(Squeezo Inc.\)* vendor has been configured, and the *CHECK* payment method is specified as its default one.
 -   On the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, two bills for the training services provided by *SQUEEZO* have been entered and released.
 
-## Process Overview {#section_ktd_vbk_c4b .section}
+## Process Overview
 
 You will find the bills related to the project and requiring payment on the [Prepare Payments](AP_50_30_00.md) \(AP503000\) form. Then you will prepare a single payment for these bills. Finally, you will print the check on the [Process Payments / Print Checks](AP_50_50_00.md) \(AP505000\) form and will release the payment on the [Release Payments](AP_50_52_00.md) \(AP505200\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded; you should sign in as project accountant by using the *brawner* username and the *123* password.
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Selecting the Bills to be Paid {#section_mtd_vbk_c4b .section}
+## Step 1: Selecting the Bills to be Paid
 
 To select the bills to be paid, do the following:
 
@@ -48,7 +48,7 @@ To select the bills to be paid, do the following:
 3.  In the table, review the two AP bills of the *SQUEEZO* vendor for the amounts of $480 and $320.
 4.  Select the unlabeled check box in the row of each of the bills, and make sure the **Selection Total** in the Summary area is $800. Also, make sure that the **Available Balance** is enough to pay this amount.
 
-## Step 2: Preparing the Payments {#section_ntd_vbk_c4b .section}
+## Step 2: Preparing the Payments
 
 To prepare the payments, do the following:
 
@@ -62,7 +62,6 @@ To prepare the payments, do the following:
 5.  In the **Processing** dialog box, which is opened, click the **Processed** tab, and click the link in the **Reference Nbr.** column for the *SQUEEZO* payment to open the payment on the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form.
 6.  On the **Application History** tab of the [Checks and Payments](AP_30_20_00.md) form, make sure both bills to which the payment has been applied are listed in the table, as shown in the following screenshot. The payment amount has been applied in full, so the payment is now assigned the *Closed* status.
 
-    ![](Images/activity_Projects_PayingAPBills.png "Single payment applied to two bills")
 
 
 You have prepared the payment and applied it to bills related to the particular project.

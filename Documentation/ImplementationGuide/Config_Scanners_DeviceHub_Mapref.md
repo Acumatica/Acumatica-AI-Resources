@@ -1,4 +1,4 @@
-# Configuring Scanners {#_33345782-86a6-4ec8-8fca-4e2967599515 .concept}
+# Configuring Scanners
 
 In the topics of this chapter, you will learn how to add a scanner to DeviceHub, synchronize this scanner in Acumatica ERP, and scan a document. You will also learn how to configure default scanners in Acumatica ERP.
 

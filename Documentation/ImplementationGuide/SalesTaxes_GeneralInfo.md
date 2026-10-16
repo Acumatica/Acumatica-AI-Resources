@@ -1,21 +1,21 @@
-# Sales Taxes: General Information {#_fde1a926-8a0f-4b9a-858e-2587345b2111 .concept}
+# Sales Taxes: General Information
 
 A tax in Acumatica ERP is an entity that defines the tax rate, calculation method, and effective date, as well as the GL accounts to which the tax amounts are accumulated.
 
 A *sales tax* is a tax collected by a company from customers as a part of the invoice amount; then the company pays the accumulated tax amounts to the responsible tax agency. \(The company does not claim the sales tax it pays to vendors.\) In Acumatica ERP, the system calculates the sales tax in customer and vendor documents.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to configure sales taxes and value-added taxes to be used in AR and AP documents.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure sales taxes in the following cases:
 
 -   You want to process AR documents with sales taxes
 -   You want to process AP documents with sales taxes
 
-## Configuration of Taxes { .section}
+## Configuration of Taxes
 
 The entities that you have configured in the taxes subledger should be linked with the following entities, which you create in other Acumatica ERP subledgers:
 
@@ -24,7 +24,7 @@ The entities that you have configured in the taxes subledger should be linked wi
 
 Once these entities are configured, the system will calculate tax amounts when a user enters a document in the system. The system does this by applying the particular tax or taxes determined by the system according to the location of the selected customer or vendor and the type of stock or non-stock item specified in the document.
 
-## Minimum and Maximum Taxable Amounts { .section}
+## Minimum and Maximum Taxable Amounts
 
 For each row of the table on the **Tax Schedule** tab of the [Taxes](../Shared/../UserGuide/TX_20_50_00.md) \(TX205000\) form, you can define the minimum and maximum taxable amount for each tax in the corresponding columns.
 
@@ -38,7 +38,7 @@ For each row of the table on the **Tax Schedule** tab of the [Taxes](../Shared/.
 
 In all other cases, the tax is calculated based on the original taxable amount.
 
-## Updating the Tax Rate { .section}
+## Updating the Tax Rate
 
 If the rate of a particular tax is going to be changed in the future, on the [Taxes](../Shared/../UserGuide/TX_20_50_00.md) \(TX205000\) form, you can specify the new tax rate and the date on which it will become effective. To do that, you add a new row to the table on the **Tax Schedule** tab and specify its settings.
 

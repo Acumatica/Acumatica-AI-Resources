@@ -1,10 +1,10 @@
-# Purchases to the Project Site with a Receipt: Process Activity {#_a8dc0c16-345e-4367-9069-8b6e238e1c46 .task}
+# Purchases to the Project Site with a Receipt: Process Activity
 
 This activity will walk you through the process of purchasing materials for the project site with a receipt being recorded.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_msw_qn2_yrb .section}
+## Story
 
 Suppose that the ToadGreen Building Group company is building an Italian restaurant for the Italian Company, its customer. The construction project manager has analyzed the requirements and decided to create a project to track expenses and revenues for the performed work.
 
@@ -12,7 +12,7 @@ Further suppose that work on the project has started on February 15, 2026. The T
 
 Acting as ToadGreen's construction project manager, you will configure a project to handle the tracking and billing of the provided materials. Then you will process a purchase of materials with drop-shipping them directly to the project site.
 
-## Configuration Overview {#section_rjp_wkc_vrb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -25,11 +25,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *CONCRBK8* stock item has been defined.
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *CONCRESUP* vendor has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create a project based on the project template on the [Projects](PM_30_10_00.md) \(PM301000\) form and configure settings for the drop-ship purchases for the project. Then you will create a drop-ship order for the project and process it. You will process a purchase receipt to record the partial receipt of the ordered items at the project site. Finally, you will review the commitment to the project budget.
 
-## System Preparation {#section_jqs_fp1_5rb .section}
+## System Preparation
 
 Before you start creating a project and process a purchase, do the following:
 
@@ -37,7 +37,7 @@ Before you start creating a project and process a purchase, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to 1/30/2026. If a different date is displayed, click the Business Date menu button, and select 1/30/2026 on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 3.  On the **General** tab \(**General Settings** section\) of the [Projects Preferences](PM_10_10_00.md) \(PM101000\) form, select the **Internal Cost Commitment Tracking** check box to expose commitments and committed values in the project budget, and save your changes to the project accounting preferences.
 
-## Step 1: Creating a Project Based on the Project Template {#section_xjx_sq1_5rb .section}
+## Step 1: Creating a Project Based on the Project Template
 
 To create a project based on a template, do the following:
 
@@ -73,7 +73,7 @@ To create a project based on a template, do the following:
 
 9.  On the form toolbar, click **Activate**. The system assigns the project the *Active* status.
 
-## Step 2: Creating a Project Drop-Ship Order {#section_jy5_zv1_5rb .section}
+## Step 2: Creating a Project Drop-Ship Order
 
 Create and process a drop-ship order for the project as follows:
 
@@ -103,7 +103,7 @@ Create and process a drop-ship order for the project as follows:
     Notice that the original committed and revised committed values of the cost budget line have been updated by the purchase order total \(*72,000.00*\). The actual quantity and actual amount in the line are zero because the expenses have not yet been recorded to the project.
 
 
-## Step 3: Receiving the Items {#section_hct_sz1_5rb .section}
+## Step 3: Receiving the Items
 
 To record the receipt of the items at the project site, perform the following instructions:
 
@@ -115,7 +115,6 @@ To record the receipt of the items at the project site, perform the following in
 6.  On the form toolbar, click **Release**.
 7.  On the [Projects](PM_30_10_00.md) form, open the *ITALIAN3T* project, and review the **Cost Budget** tab, as shown in the following screenshot. In the line with the *04* project task and the *04-220* cost code, the **Actual Amount** has been updated and is now 45,000. The **Actual Quantity** is 250.
 
-    ![](Images/activity_Projects_Purchase_with_Receipt_Process_Activity.png "Expenses recorded to project budget")
 
 
 You have finished processing a drop-ship purchase order for a project and recorded the receipt of items to the project site.

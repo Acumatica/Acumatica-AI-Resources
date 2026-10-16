@@ -1,4 +1,4 @@
-# Use Cases {#_ed860c43-7dea-4df9-8088-b8a0fc7204af .concept}
+# Use Cases
 
 This chapter describes various examples of importing records into Acumatica ERP.
 

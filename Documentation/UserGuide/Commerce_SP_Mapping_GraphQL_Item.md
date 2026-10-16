@@ -1,4 +1,4 @@
-# Product-Related Entities {#_abc1234a-3341-9118-b89b-c27762ab8ee4 .concept}
+# Product-Related Entities
 
 Acumatica ERP now uses GraphQL instead of the REST API to communicate with Shopify. This has resulted in changes to the field mapping used for product-related entities in Acumatica ERP. The synchronization of products involves the following entities:
 
@@ -10,7 +10,7 @@ Acumatica ERP now uses GraphQL instead of the REST API to communicate with Shopi
 
 In the [Fields Unavailable in GraphQL](#_3c04f7b9-0909-46e3-a795-f1efe356bfe7) section, you'll find a list of the fields used for entity mapping that are not available in GraphQL but were available in the REST API.
 
-## Stock Item, Non-Stock Item, and Template Item Mapping { .section}
+## Stock Item, Non-Stock Item, and Template Item Mapping
 
 In the [Shopify\_GraphQL\_Product.xlsx](Files/Shopify_GraphQL_Product.xlsx) file, you can find the mapping of Acumatica ERP fields on the following forms to Shopify default and custom fields:
 
@@ -20,7 +20,7 @@ In the [Shopify\_GraphQL\_Product.xlsx](Files/Shopify_GraphQL_Product.xlsx) file
 
 The system uses this mapping during the export, import, and bidirectional sync of the product data to Shopify. The file shows how each Acumatica ERP field was previously mapped to Shopify fields through the REST API, and how it's now mapped using GraphQL.
 
-## Product Availability Mapping { .section}
+## Product Availability Mapping
 
 In the [Shopify\_GraphQL\_Droduct\_Availability.xlsx](Files/Shopify_GraphQL_Product_Availability.xlsx) file, you can find the mapping of Acumatica ERP fields on the following forms to Shopify default and custom fields.
 
@@ -30,26 +30,139 @@ In the [Shopify\_GraphQL\_Droduct\_Availability.xlsx](Files/Shopify_GraphQL_Prod
 
 The system uses this mapping during the export of the product availability data to Shopify. In the file, you can see how each Acumatica ERP field was previously mapped to Shopify fields through the REST API, and how it's now mapped using GraphQL.
 
-## Fields Unavailable in GraphQL {#_3c04f7b9-0909-46e3-a795-f1efe356bfe7 .section}
+## Fields Unavailable in GraphQL
 
 The following table lists the fields that were:
 
 -   Used for the export and import mapping and import filtering of the *Stock Item*, *Non-Stock Item*, and *Template Item* entities on the [Entities](BC_20_20_00.md) \(BC202000\) form
 -   Supported by the Shopify connector with the REST API, but not with GraphQL
 
-|Tab on the Entities Form|External Object|External Field|REST API Object|REST API Field|
-|------------------------|---------------|--------------|---------------|--------------|
-|**Import Mapping**, **Import Filtering**|*ProductData*|*Published*|Product|`Published`|
-|**Export Mapping**, **Import Mapping**, **Import Filtering**|*ProductData*|*PublishedScope*|Product|`PublishedScope`|
-|**Export Mapping**, **Import Mapping**|*ProductData -&gt; ProductVariants*|*FulfillmentService*|Product -&gt; Product Variants|`fulfillment_service`|
-|**Export Mapping**, **Import Mapping**|*Product -&gt; Product Variants*|*Option 1*
+<table id="_39fae10a-b7f2-4e92-be25-dce5f9986a21"><thead><tr><th>
+
+Tab on the Entities Form
+
+</th><th>
+
+External Object
+
+</th><th>
+
+External Field
+
+</th><th>
+
+REST API Object
+
+</th><th>
+
+REST API Field
+
+</th></tr></thead><tbody><tr><td>
+
+**Import Mapping**, **Import Filtering**
+
+</td><td>
+
+*ProductData*
+
+</td><td>
+
+*Published*
+
+</td><td>
+
+Product
+
+</td><td>
+
+`Published`
+
+</td></tr><tr><td>
+
+**Export Mapping**, **Import Mapping**, **Import Filtering**
+
+</td><td>
+
+*ProductData*
+
+</td><td>
+
+*PublishedScope*
+
+</td><td>
+
+Product
+
+</td><td>
+
+`PublishedScope`
+
+</td></tr><tr><td>
+
+**Export Mapping**, **Import Mapping**
+
+</td><td>
+
+*ProductData -&gt; ProductVariants*
+
+</td><td>
+
+*FulfillmentService*
+
+</td><td>
+
+Product -&gt; Product Variants
+
+</td><td>
+
+`fulfillment_service`
+
+</td></tr><tr><td>
+
+**Export Mapping**, **Import Mapping**
+
+</td><td>
+
+*Product -&gt; Product Variants*
+
+</td><td>
+
+*Option 1*
 
  *Option 2*
 
  *Option 3*
 
-|Product|`options`|
-|n/a|n/a|*PresentmentPrices*|Product -&gt; Product Variants|`presentment_prices`|
+</td><td>
+
+Product
+
+</td><td>
+
+`options`
+
+</td></tr><tr><td>
+
+n/a
+
+</td><td>
+
+n/a
+
+</td><td>
+
+*PresentmentPrices*
+
+</td><td>
+
+Product -&gt; Product Variants
+
+</td><td>
+
+`presentment_prices`
+
+</td></tr></tbody>
+</table>
 
 The following table lists the fields used for the *Product Availability* entity that the Shopify connector supported with the REST API but does not support with GraphQL.
 
@@ -66,7 +179,7 @@ The following table lists the fields used for the *Product Image* entity that th
 |n/a|*Position*|Product -&gt; Images|`position`|
 |n/a|*ProductId*|Product -&gt; Images|`product_id`|
 
-## Other Changes { .section}
+## Other Changes
 
 The following changes have also been implemented to the Shopify connector due to the shift from the REST API to GraphQL:
 

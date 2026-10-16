@@ -1,12 +1,12 @@
-# Accounts Payable: Configuration Prerequisites {#_1cda5f18-a45e-40d6-bc31-ff223018590a .concept}
+# Accounts Payable: Configuration Prerequisites
 
 Before you start to implement accounts payable, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md#) \(CS100000\) form, the minimum set of features has to be enabled. For details, see [Company Without Branches: To Configure a Company Without Branches](config_Basic_Company_Implem_Activity_Enabling_Features.md).
 
-## Configuring the System { .section}
+## Configuring the System
 
 You need to make sure the following implementation tasks have been performed in Acumatica ERP before you begin implementing accounts payable:
 

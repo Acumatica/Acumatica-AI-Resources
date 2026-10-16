@@ -1,4 +1,4 @@
-# Acumatica Add-In for Outlook: Requests for Information Management {#_5ecd8514-2421-491f-8f10-a9ab2ad36397 .concept}
+# Acumatica Add-In for Outlook: Requests for Information Management
 
 Emails in your Outlook mailbox may contain information you want to save as requests for information \(RFIs\) in Acumatica ERP. You can quickly do this on the Related Records form of the Acumatica add-in if the *Construction Project Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
@@ -13,7 +13,7 @@ If matching RFIs are found, they appear in the **Request for Information** secti
 -   Open a project related to the RFI on the [Projects](PM_30_10_00.md) \(PM301000\) form.
 -   Quickly create an RFI and link the email to it, as described in the next section.
 
-## Creation of a Request for Information { .section}
+## Creation of a Request for Information
 
 To create an RFI based on the email address selected in the filter box of the Related Records form, click **Add Request for Information** in the **Requests for Information** section—either directly in the section or through the More menu.
 
@@ -24,7 +24,6 @@ The Request for Information form opens \(see below\), and the following boxes ma
 -   Text area: The email message's body
 -   **Link Email to Request for Information**: Selected
 
-![](Images/OU_AddIn_Request_for_Information_Form.png "The Request for Information form")
 
 After you click **Create Request for Information**, the form you go to depends on the state of the **Link Email to Request for Information** check box:
 

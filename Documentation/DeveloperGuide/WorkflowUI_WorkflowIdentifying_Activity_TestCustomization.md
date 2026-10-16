@@ -1,16 +1,16 @@
-# Workflow-Identifying Fields: To Test the Inherited Workflow with a Workflow-Identifying Field {#_7ef39d6c-e4fe-49cd-acfe-6d6e1e57ee26 .task}
+# Workflow-Identifying Fields: To Test the Inherited Workflow with a Workflow-Identifying Field
 
 The following activity will walk you through the process of testing the inherited workflow that has a workflow-identifying field.
 
-## Story { .section}
+## Story
 
 Acting as the technical specialist, you need to publish your customization project and then test your changes on the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form to make sure that the inherited workflow works as expected.
 
-## Process Overview { .section}
+## Process Overview
 
 By starting on the [Customization Projects](../UserGuide/SM_20_45_05.md) \(SM204505\) form of Acumatica ERP, you will go to the Customization Project Editor for your customization project and publish it. On the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form, you will then test the customized workflow.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -21,7 +21,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  Make sure that you have learned how to test a customization, as described in [Testing of the Customization Project: General Information](WorkflowUI_TestingCustomization_GeneralInfo.md).
 3.  Make sure that you have completed the [Workflow-Identifying Fields: To Make System Actions Modify Custom Fields](WorkflowUI_WorkflowIdentifying_Activity_ModifySystemActions.md) activity.
 
-## Step 1: Publishing the Customization Project { .section}
+## Step 1: Publishing the Customization Project
 
 Publish your customization project as follows:
 
@@ -29,7 +29,7 @@ Publish your customization project as follows:
 2.  On the menu of the Customization Project Editor, click **Publish** &gt; **Publish Current Project**.
 3.  After the system finishes updating the required data, click **Close Compilation Pane**.
 
-## Step 2: Testing the Automated Transitions { .section}
+## Step 2: Testing the Automated Transitions
 
 Test the automated transitions in the workflow of sales orders as follows:
 
@@ -55,7 +55,7 @@ Test the automated transitions in the workflow of sales orders as follows:
     Notice that the system has changed the status to *Open* because the **Order Total** is less than $800.
 
 
-## Step 3: Testing the Modified System Actions { .section}
+## Step 3: Testing the Modified System Actions
 
 While you are still on the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form, test the modified system actions as follows:
 
@@ -75,7 +75,7 @@ While you are still on the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO30100
     Make sure that the status has not changed to *On Hold* because the sales order was already removed from hold manually when the amount was greater than $800.
 
 
-## Step 4: Making Sure That the Workflow Is Applied Only to Sales Orders { .section}
+## Step 4: Making Sure That the Workflow Is Applied Only to Sales Orders
 
 Because you have customized the workflow with a workflow-identifying field, you need to make sure that your changes are not applied to the documents other than sales orders. While you are still on the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form, do the following:
 

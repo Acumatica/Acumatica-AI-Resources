@@ -1,12 +1,12 @@
-# Deduction and Benefit Codes: Configuration Prerequisites {#_0767c4ad-68da-4e25-9f5a-e0a665217548 .concept}
+# Deduction and Benefit Codes: Configuration Prerequisites
 
 Before you start creating deduction and benefit codes, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Payroll* feature has been enabled.
 
-## Configuring the System { .section}
+## Configuring the System
 
 The following tasks have been performed in Acumatica ERP:
 

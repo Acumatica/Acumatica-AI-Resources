@@ -1,10 +1,10 @@
-# Data Migration Process: Migration of Financial Data {#_1167e761-cddb-476b-bd12-291287c6cad4 .concept}
+# Data Migration Process: Migration of Financial Data
 
 This topic describes the general process of migrating data from a legacy system to Acumatica ERP.
 
 **Attention:** The complete list of data to be imported depends on company's business processes.
 
-## Migration of Financial Data { .section}
+## Migration of Financial Data
 
 To import the data completely and accurately and to minimize import errors, you import documents and balances by performing the following general steps in the listed order:
 
@@ -25,7 +25,6 @@ To import the data completely and accurately and to minimize import errors, you 
 
 The following diagram illustrates the basic workflow for migrating financial data for a company with one branch.
 
-![](Images/diag_DataMigration_Process_FinDocuments_Migration.png)
 
 **Parent topic:**[Preparing System to Migrating Data](../UserGuide/DataMigration_DM_Process_Mapref.md)
 

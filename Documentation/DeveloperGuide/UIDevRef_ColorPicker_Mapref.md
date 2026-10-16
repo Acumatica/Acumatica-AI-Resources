@@ -1,4 +1,4 @@
-# Color Picker {#_aefdd44d-58bb-4602-9e62-a8bc5875a5e3 .concept}
+# Color Picker
 
 In this chapter, you will learn about the configuration of the color picker control. You'll learn when to use this control and how to organize it in a layout.
 

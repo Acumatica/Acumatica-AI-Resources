@@ -1,10 +1,10 @@
-# Paperless Picking: General Information {#_c755d080-f470-4ed3-8d56-6dee4660fc26 .concept}
+# Paperless Picking: General Information
 
 In this topic, you will read about the paperless picking workflow in Acumatica ERP. If the *Paperless Picking* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form, you can organize the warehouse picking jobs without printing paper pick lists. The process of picking must be prepared by a warehouse manager for the system to manage the picking queue, priorities, and direct assignments of the pick lists.
 
 For simplicity, this topic will illustrate the workflow of paperless picking only for single-shipment pick lists. The paperless picking supports wave and batch pick lists too.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -14,15 +14,14 @@ In this chapter, you will do the following:
 -   Pick and pack items without printing a pick list
 -   Confirm the shipment after packing the items
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 You can use the paperless picking flow for processing daily picking jobs in your warehouse when you organization wants to save on paper. With a paperless picking flow, the warehouse manager prepares pick lists for orders to be shipped and does not print the pick lists. Pickers accept a pick list, collect the items, and organize them in the individual totes assigned to each pick list. When the items are brought to the packing location, the packer takes the items from each of the totes, verifies that the shipment is collected correctly, and packs the items into boxes.
 
-## General Process of Paperless Picking { .section}
+## General Process of Paperless Picking
 
 The workflow of fulfilling orders with the paperless picking workflow is shown in the following diagram.
 
-![](Images/diag_WMS_Paperless_Picking.png)
 
 The paperless picking workflow includes the following processes performed by the following persons:
 
@@ -32,11 +31,10 @@ The paperless picking workflow includes the following processes performed by the
 
 The following sections illustrate and describe the workflows for a warehouse manager, a picker, and a packer in detail. By understanding the workflow for each of these employees, you can better understand the paperless picking workflow in a warehouse.
 
-## Workflow for a Warehouse Manager { .section}
+## Workflow for a Warehouse Manager
 
 The workflow of a warehouse manager involves the actions shown in the following diagram.
 
-![](Images/diag_WMS_Paperless_Warehouse_Manager.png)
 
 To prepare pick lists in a paperless picking flow, the warehouse manager performs the following steps:
 
@@ -85,11 +83,10 @@ To prepare pick lists in a paperless picking flow, the warehouse manager perform
     In the table of the [Picking Queue](SO_50_30_80.md) form, the manager changes the priority or assignee of a pick list by selecting another value in the **Priority** or **Assigned Picker** columns for the line with the pick list. To change the priority or assignee of a pick list, the monitoring of the picking queue must be disabled by clicking **Cancel** in the **Executing** dialog box in the upper right of the form title bar.
 
 
-## Workflow for a Picker { .section}
+## Workflow for a Picker
 
 The workflow of a picker involves the actions shown in the following diagram.
 
-![](Images/diag_WMS_Paperless_Picker.png)
 
 To pick the items from a pick list, the picker performs the following steps:
 
@@ -167,11 +164,10 @@ To pick the items from a pick list, the picker performs the following steps:
     After finishing the picking, the picker brings the totes with the items to the packing location.
 
 
-## Workflow for a Packer { .section}
+## Workflow for a Packer
 
 The workflow of a packer involves the actions shown in the following diagram.
 
-![](Images/diag_WMS_Paperless_Packer.png)
 
 To pack the items for a shipment, the packer performs the following steps:
 

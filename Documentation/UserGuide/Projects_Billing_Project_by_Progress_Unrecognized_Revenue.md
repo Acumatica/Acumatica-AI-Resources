@@ -1,10 +1,10 @@
-# Progress Billing: Revenue Recognition {#_9887a16c-6cf6-453d-a0f0-cd395cca76b0 .concept}
+# Progress Billing: Revenue Recognition
 
 In some industries, such as construction, companies use the percentage-of-completion method of accounting. With this method, the revenues of long-term projects are recognized as a percentage of the work completed during the period. According to the GAAP \(Generally Accepted Accounting Principles\) matching principle, a company reports revenue and expenses on a period-by-period basis and recognizes earned revenue as soon as a part of the work is completed.
 
 To set up the accounting for unrecognized revenue for a project so that it corresponds to the GAAP matching principle, you can temporarily record the unrecognized project revenue to an accrual account. As soon as a part of the work is completed, you allocate the corresponding part of the revenue to the appropriate revenue line in the project budget.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -13,11 +13,11 @@ In this chapter, you will learn how to do the following:
 -   Bill a project and record revenue to an accrual account
 -   Allocate the recognized part of revenue to the project revenue budget
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 If you have a long-term project, you can set up the project so that the unrecognized revenue will be temporarily recorded to an accrual account and then allocate the revenue to the budget based on the current percentage of completion of the project tasks.
 
-## Allocation Rule for Revenue Recognition { .section}
+## Allocation Rule for Revenue Recognition
 
 To allocate revenue from the accrual account to the project budget, you create an allocation rule on the [Allocation Rules](PM_20_75_00.md) \(PM207500\) form and assign this allocation rule to a project task \(or multiple project tasks\) for which the allocation will be performed on the **Tasks** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form.
 
@@ -57,7 +57,7 @@ You specify the following settings for the allocation rule on the **Allocation S
     With these settings, the system generates an allocation transaction that credits the sales account that is mapped to the revenue account group \(that is, records the amount of recognized revenue to the project budget\).
 
 
-## Revenue Budget Configuration { .section}
+## Revenue Budget Configuration
 
 You configure the revenue budget lines for a project on the **Revenue Budget** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form. To account for unrecognized revenue, the system uses the following revenue budget lines for each project task that requires revenue recognition:
 
@@ -70,7 +70,7 @@ You configure the revenue budget lines for a project on the **Revenue Budget** t
     When you run the allocation rule with the *Allocate by Budget* allocation method, the system moves the recognized part of the revenue \(which is calculated based on the percentage of the project task completion\) to the **Actual Amount** and **Actual Quantity** in this line and clears this part of the actual values from the accrual budget line.
 
 
-## Recording the Unrecognized Revenue { .section}
+## Recording the Unrecognized Revenue
 
 To keep unrecognized revenue out of budgeted values, you first create a separate accrual account of the liability type and assign it to an account group of the *Income* type. You then specify this account as a sales account in the lines of the pro forma invoice on the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form. You can specify the accrual account manually in an existing pro forma invoice. Alternatively, you can configure the system to automatically specify the accrual account in pro forma invoice lines during the project billing procedure by doing the following:
 
@@ -79,7 +79,7 @@ To keep unrecognized revenue out of budgeted values, you first create a separate
 
 Once you release the pro forma invoice and the corresponding accounts receivable invoice, the system updates the actual amount and quantity in the accrual budget line with the corresponding project budget key with the amount and quantity copied from the AR invoice.
 
-## Recognizing Revenue in the Project Budget { .section}
+## Recognizing Revenue in the Project Budget
 
 When a particular part of the work is complete, you specify the task completion percentage in the **Completed %** column on the **Tasks** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form. You then run the allocation procedure for the project.
 

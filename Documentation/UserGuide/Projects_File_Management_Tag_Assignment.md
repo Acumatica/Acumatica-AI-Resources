@@ -1,8 +1,8 @@
-# Managing Project Files: Tag Assignment {#_4c6e5281-64b6-4b0c-86eb-f180b8e950ad .concept}
+# Managing Project Files: Tag Assignment
 
 You can assign tags to files in multiple ways, depending on the form you’re using. The following sections describe these ways.
 
-## Assigning Tags to Files { .section}
+## Assigning Tags to Files
 
 You can edit the tags assigned to a file or multiple files on the [Manage Project Files by Tag](PM_50_90_00.md) \(PM509000\) form.
 
@@ -29,7 +29,7 @@ To remove all the tags from one file or from multiple files, you select the need
 
 On the [Manage Project Files by Record Type](PM_50_95_50.md) \(PM509500\) form, you can also edit the tags for a file. To do this, click the file row and add the needed tags to the **Tags** box—similar to the workflow on the [Manage Project Files by Tag](PM_50_90_00.md) form.
 
-## Using Additional Tagging Options { .section}
+## Using Additional Tagging Options
 
 You can also assign tags on other forms in the system. When uploading a file on the [File Maintenance](SM_20_25_10.md) \(SM202510\) form, you can assign its tags to ensure that users have the needed access level to it.
 

@@ -1,4 +1,4 @@
-# Translation of Financial Statements: General Information {#_368fcb87-3d61-4bcf-9d37-173240eacf35 .concept}
+# Translation of Financial Statements: General Information
 
 In Acumatica ERP, you may need to restate account balances from the base currency \(or a foreign currency\) to any foreign currency configured for use in the system. This process of restating account balances from one currency \(base or foreign\) to another foreign currency is called *translation* and is used for reporting purposes.
 
@@ -6,7 +6,7 @@ For each financial period, to perform a translation, you first prepare the trans
 
 **Tip:** To enable translation of financial statements in the system, the *Multicurrency Accounting* and *Translation of Financial Statements* features must be enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Learning Objectives {#section_yxz_3jv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -14,11 +14,11 @@ In this chapter, you will learn how to do the following:
 -   Edit the prepared translation worksheet
 -   Release the translation
 
-## Applicable Scenarios {#section_ayz_3jv_vxb .section}
+## Applicable Scenarios
 
 You perform the translation of financial statements if your company is a subsidiary of a larger entity that operates in a different currency, and your company's financial statements are included in the parent entity's consolidated statements, which are prepared in a different currency.
 
-## Translation Steps {#section_cyz_3jv_vxb .section}
+## Translation Steps
 
 In general, the translation process consists of the following steps:
 
@@ -35,7 +35,7 @@ In general, the translation process consists of the following steps:
 
 6.  You review the translated account balances for the ledger and period on the [Account Summary](GL_40_10_00.md) \(GL401000\) form.
 
-## Translation Preparation {#section_gyz_3jv_vxb .section}
+## Translation Preparation
 
 For each financial period for which you want to translate balances, you prepare a translation on the [Prepare Translation](CM_50_10_00.md) \(CM501000\) form. On this form, you specify the following settings:
 
@@ -55,7 +55,7 @@ The system will prevent you from preparing a translation and will display an err
 -   There are unposted batches in the destination ledger for the branch used in the selected translation ID, if a branch is specified in the translation definition.
 -   There are unposted batches in the destination ledger, if no branch is specified in the translation definition.
 
-## Translation Worksheet Editing {#section_kyz_3jv_vxb .section}
+## Translation Worksheet Editing
 
 Before you release a translation worksheet, you can view it on the [Translation Worksheets](CM_30_40_00.md) \(CM304000\) form. On this form, the **Source Amount** column shows the amount to be translated: the PTD balance for the accounts translated with the *PTD Balance* method, and the ending balance for the period for the accounts translated with the *YTD Balance* method. These accounts and the translation methods have been specified in a translation definition related to the worksheet on the [Translation Definition](CM_20_30_00.md) \(CM203000\) form.
 
@@ -70,7 +70,7 @@ Before you release a translation worksheet, you can manually edit the worksheet,
 
 **Tip:** As you adjust the values, the credit total and debit total on this form change synchronously to reflect the changes, because one of them contains the translation gain or loss.
 
-## Translation Release {#section_qyz_3jv_vxb .section}
+## Translation Release
 
 To release a single prepared translation worksheet, while viewing the worksheet on the [Translation Worksheets](CM_30_40_00.md) \(CM304000\) form, you click **Release** on the form toolbar. You can also release multiple prepared translation worksheets on the [Release Translations](CM_50_20_00.md) \(CM502000\) form.
 
@@ -78,17 +78,16 @@ To release a single prepared translation worksheet, while viewing the worksheet 
 
 On release, the system generates a currency management batch for each translation. If the **Automatically Post to GL on Release** check box is selected on the [Currency Management Preferences](CM_10_10_00.md) \(CM101000\) form, the batch is posted to the reporting ledger. If this check box is cleared, you need to post the batch manually to the general ledger.
 
-## Correction of a Released Translation {#section_uyz_3jv_vxb .section}
+## Correction of a Released Translation
 
 Sometimes after a translation is performed for a period, some new transactions are posted to the actual ledger in this period. In this case, you have to perform the translation \(that is, prepare and release it\) one more time for that period; subsequent translations for the same period will adjust the account balance if the account balance has changed.
 
 If you have used the wrong currency rate in the translation, you should change the rate to the correct one and prepare and release the translation.
 
-## Translation Workflow {#section_xyz_3jv_vxb .section}
+## Translation Workflow
 
 The diagram below illustrates how the system performs the translation of the account balances by using the *EUR* translation definition. For details on configuring this translation definition, see [Translation Definitions: Implementation Activity](../ImplementationGuide/config_Multicurrency_TranslationDefinition_Implem_Activity.md). The system translates assets, liabilities, income, and expenses by using the methods and currency rates of the rate types that are specified in the translation definition.
 
-![](Images/diag_Finance_Multicurrency_Translation.png "Translation process")
 
 The Year-to-Date \(YTD\) Net Income account is not included in the translation definition, because in the reporting ledger, just as in the actual ledger, this account accumulates the difference between amounts posted to income and expense accounts and is updated by every transaction posted to these accounts. Thus, to get the translated balance of the YTD Net Income account in the reporting ledger, you translate the balances of the income and expense accounts, and then the system calculates the account balance based on the translated amounts.
 

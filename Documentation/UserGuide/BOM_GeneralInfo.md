@@ -1,17 +1,17 @@
-# Bills of Material: General Information {#_9789c3f6-67e8-4af3-8ddd-808991f79fa7 .concept}
+# Bills of Material: General Information
 
 In Acumatica ERP Manufacturing Edition, by using bills of material \(BOMs\), your organization can describe the details of the process of producing a particular stock item and plan your manufacturing processes. In a bill of material, you directly connect materials, work instructions, tools, attributes, and overhead costs to an operation. Bills of material support revision tracking, phantom assemblies, backflushing of both labor and materials, material effectiveness dates, and by-products; you can create alternate bills of material. You create bills of material by using the [Bill of Material](AM_20_80_00.md) \(AM208000\) form.
 
 In this topic, you will read about bills of material.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Prepare the system for the creation of bills of material
 -   Create and activate a bill of material
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure the system for the use of bills of material in the following cases:
 
@@ -19,7 +19,7 @@ You configure the system for the use of bills of material in the following cases
 -   When you have purchased the *Manufacturing* feature, and you need to configure manufacturing in the existing system
 -   When you need to add new bills of material or change the settings of existing bills of material to accommodate changes to business processes
 
-## Bills of Material and Stock Items { .section}
+## Bills of Material and Stock Items
 
 A bill of material is a document that details the production process of a single stock item and defines the operations and materials required to build one base unit of the stock item. Before you start creating a bill of material, you must create the stock item on the [Stock Items](IN_20_25_00.md) \(IN202500\) form.
 
@@ -29,7 +29,7 @@ A stock item may have multiple BOMs assigned, but only one BOM can be specified 
 
 If the stock item is produced in standard lots, you can specify the lot size in the **Lot Size** box of the **Manufacturing** tab on the [Stock Items](IN_20_25_00.md) or [Item Warehouse Details](IN_20_45_00.md) form. The lot size becomes the default for planned orders and production orders and is used in the cost roll process on the [Process Cost Rollup Results](AM_50_80_00.md) \(AM508000\) form. On the [Estimate](AM_30_30_00.md) \(AM303000\) form, the **Order Qty.** on the **Totals** tab is used as the lot size.
 
-## Bill of Material Settings { .section}
+## Bill of Material Settings
 
 You create bills of material by using the [Bill of Material](AM_20_80_00.md) \(AM208000\) form. The settings of a bill of material include the following:
 
@@ -43,7 +43,7 @@ You create bills of material by using the [Bill of Material](AM_20_80_00.md) \(A
 
 You can also specify attributes for a bill of material by using the [BOM Attributes](AM_20_85_00.md) \(AM208500\) form.
 
-## BOM Identifiers {#_baca71ba-6899-443b-aeb5-e5207c1d5b58 .section}
+## BOM Identifiers
 
 The identifier of the bill of material, in the **BOM ID** box of the [Bill of Material](AM_20_80_00.md) \(AM208000\) form, can be up to 15 characters. The format of the bill of material ID is determined by the numbering sequence that is created by using the [Numbering Sequences](CS_20_10_10.md) \(CS201010\) form and specified on the [BOM Preferences](AM_10_10_00.md) \(AM101000\) form \(in the **BOM Numbering Sequence** box of the **General** tab\). As with all numbering sequences in Acumatica ERP, you may have different sequences for each branch. You may choose automatic numbering or manual entry of identifiers. You may prefer to type in the **BOM ID** box the inventory ID of the stock item that is produced by using the bill of material \(as long as the inventory ID is fewer than 15 characters\).
 
@@ -51,7 +51,7 @@ If you want to have multiple bills of material for a warehouse because of altern
 
 **Tip:** When you are importing bills of material, we recommend that you specify an identifier for each bill of material in the file that contains import data to reflect the format of the BOM ID; then as the **BOM Numbering Sequence** on the [BOM Preferences](AM_10_10_00.md) form, you need to select a numbering sequence for which the **Manual Numbering** check box is selected on the [Numbering Sequences](CS_20_10_10.md) form.
 
-## BOM Revisions {#_4c3d24d2-bc89-40b0-a680-aaec1db53eba .section}
+## BOM Revisions
 
 The revision entered into the **Revision** box of the [Bill of Material](AM_20_80_00.md) \(AM208000\) form is the version of the bill of material. When you initially create a bill of material, this BOM also serves as the first revision of this BOM. You can create as many revisions as you need for the same BOM ID. In the **Default Revision** box on the [BOM Preferences](AM_10_10_00.md) \(AM101000\) form, you specify the default revision identifier to be inserted in the **Revision** box for the first revision of all BOMs created in the system. When creating a BOM, you can change the default revision identifier.
 
@@ -80,14 +80,14 @@ To create a new revision of a particular bill of material, you do the following:
 
 You can archive a BOM revision by using the **Archive BOM** command on the [Bill of Material](AM_20_80_00.md) form. Archiving a bill of material sets the **End Date** to the current business date. You can put a revision with a status of *Archived* on hold to edit it again. When you remove the revision from hold, the system changes the status of the revision to *Active*.
 
-## Inactivation of Bills of Material { .section}
+## Inactivation of Bills of Material
 
 You can make a bill of material inactive on the [Bill of Material](AM_20_80_00.md) \(AM208000\) form in one of the following ways:
 
 -   To temporarily inactivate the bill of material, you select the **Hold** check box in the Summary area. The system changes the status of the BOM to *On Hold* and makes the BOM unavailable for production, planning, or as a source for estimates and configurations until you clear the check box.
 -   To permanently inactivate the bill of material, you click **Archive BOM** on the More menu. The system changes the status of the BOM to *Archive* and makes the BOM unavailable for production, planning, or as a source for estimates and configurations.
 
-## Deletion of Bills of Material { .section}
+## Deletion of Bills of Material
 
 You cannot delete a bill of material in any of the following cases:
 

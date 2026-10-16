@@ -1,12 +1,12 @@
-# Action Sequences: General Info {#_3c4655e7-04bc-4389-b1be-8018a9756211 .concept}
+# Action Sequences: General Info
 
 You can make the system automatically execute actions one after another if certain conditions are met. Thus, you can optimize system performance and speed up the processing of records. When a sequence of actions is performed, the system shows a dialog box with the progress and results of performing the sequence.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn what action sequences are. You will also learn how to configure these sequences in a workflow.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You implement action sequences in the following cases:
 
@@ -14,7 +14,7 @@ You implement action sequences in the following cases:
 -   You want the system to stop the processing of records if certain actions fail.
 -   You need to see which actions have been performed successfully and which ones have failed.
 
-## Execution of Sequential Actions { .section}
+## Execution of Sequential Actions
 
 Each action can have multiple actions—referred to as *subscriber actions* or *subscribers*—that the system invokes after it executes this action. Each subscriber can also have its own subscribers. If a condition is specified for an action, the system executes a subscriber action only if the condition is met and the action is available in the current workflow state. The system executes the action even if it is hidden.
 
@@ -35,11 +35,10 @@ If a user clicks a button \(or command\) that has an underlying action with subs
 
 During the execution of each action in a sequence, the system displays a dialog box with the status of the action execution, as shown in the following screenshot. \(It is the same dialog box that the system displays when the user clicks the **Quick Process** button on a form that supports quick processing.\) For report and navigation actions, the system opens the corresponding report or data entry form in a new browser tab and continues the processing of other actions in the current tab.
 
-![](Images/WorkflowUI_ActionSequences_PopUp_Panel.png "The dialog box during action execution")
 
 For details on implementing action sequences in Workflow UI, see [Action Configuration: Action Sequences](WorkflowUI_Actions_ActionSequences.md) in the [Workflow UI Guide](WorkflowUI_Guide.md).
 
-## Defining of an Action Sequence { .section}
+## Defining of an Action Sequence
 
 To define an action sequence, you perform the following general steps:
 
@@ -64,7 +63,7 @@ To define an action sequence, you perform the following general steps:
         **Note:** If a dialog box is configured for an action specified in the RunAction method \(the second action in the sequence\), this dialog box is not displayed during the execution of the sequence. So the only way to provide values that are different from default ones in the dialog box is to specify them in the WithFieldAssignments method.
 
 
-## Order of Execution { .section}
+## Order of Execution
 
 The system executes action sequences in the order they are defined in the code. For example, if the code contains the action sequences A &gt; B, B &gt; C, and A &gt; D with no conditions, the system will first execute the sequence A &gt; B, then the sequence B &gt; C, and then the sequence A &gt; D, so the order of actions will be A &gt; B &gt; C &gt; D. If the sequence A &gt; B has a condition and it is not met, the system will proceed to the sequence A &gt; D.
 

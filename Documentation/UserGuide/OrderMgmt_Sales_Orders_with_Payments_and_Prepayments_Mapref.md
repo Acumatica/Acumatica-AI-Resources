@@ -1,4 +1,4 @@
-# Processing Sales with Payments and Prepayments {#_39084b4c-85ca-4ce6-99b4-be454a0a7080 .concept}
+# Processing Sales with Payments and Prepayments
 
 In Acumatica ERP, you can use the payment and prepayment functionality to record the incoming funds for sales orders and invoices.
 

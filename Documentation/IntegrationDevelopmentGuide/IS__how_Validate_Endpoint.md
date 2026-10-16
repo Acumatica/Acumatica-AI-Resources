@@ -1,13 +1,14 @@
-# To Validate an Endpoint {#_2216d868-9370-49e4-b1b7-62f2ae04a7f6 .task}
+# To Validate an Endpoint
 
 You use the [Web Service Endpoints](../UserGuide/SM_20_70_60.md) \(SM207060\) form to validate an endpoint, an entity, or an action. During this validation, the system makes sure the following criteria are met for the elements of the endpoint, entity, or action:
 
 -   The names of the elements satisfy the naming rules. For details on these rules, see [Naming Rules for Endpoints](../Shared/../IntegrationDevelopmentGuide/IS__con_Endpoint_Naming_Rules.md).
 -   The elements are mapped to objects, fields, and actions that exist in the system.
+-   The types of fields and action parameters are compatible with the data fields to which they are mapped.
 
 The validation of the name of a new entity, field, action, or action parameter is performed automatically once you have entered the name on the form. You can validate an endpoint, entity, or action manually, as described in this topic.
 
-## To Validate an Endpoint { .section}
+## To Validate an Endpoint
 
 1.  Open the [Web Service Endpoints](../Shared/../UserGuide/SM_20_70_60.md) \(SM207060\) form.
 2.  Select the endpoint that you want to validate as follows:
@@ -19,7 +20,7 @@ The validation of the name of a new entity, field, action, or action parameter i
 
 4.  If any errors occur, correct the endpoint accordingly.
 
-## To Validate an Entity { .section}
+## To Validate an Entity
 
 1.  Open the [Web Service Endpoints](../Shared/../UserGuide/SM_20_70_60.md) \(SM207060\) form.
 2.  Select the endpoint that contains the entity that you want to validate as follows:
@@ -32,7 +33,7 @@ The validation of the name of a new entity, field, action, or action parameter i
 
 5.  If any errors occur, correct the entity accordingly.
 
-## To Validate an Action { .section}
+## To Validate an Action
 
 1.  Open the [Web Service Endpoints](../Shared/../UserGuide/SM_20_70_60.md) \(SM207060\) form.
 2.  Select the endpoint that contains the action that you want to validate as follows:

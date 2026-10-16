@@ -1,27 +1,26 @@
-# Quick Billing of Service Orders: General Information {#_1057c3f5-4166-44f7-9324-f8981b15c55e .concept}
+# Quick Billing of Service Orders: General Information
 
 In Acumatica ERP, you can process a service order with a single click if it is based on a service order type that has quick processing set up. For details, see [Service Order Types: Quick Processing Settings](../ImplementationGuide/config_Service_Order_Types_Quick_Process_Activity.md).
 
 Quick processing of a service order executes multiple actions in one step, including completing and closing the order and generating the billing documents. Further details about these actions are provided later in this topic.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Process a service order by using the **Quick Process** command
 -   Review the generated billing documents
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You process a service order quickly when you’ve agreed with the customer to generate billing documents—and, if needed, send them by email—before any related appointments take place.
 
-## Actions Performed on a Service Order During Quick Processing {#section_wwh_gjr_35b .section}
+## Actions Performed on a Service Order During Quick Processing
 
 If a service order is created based on a service order type that supports quick processing, you can click **Quick Process** on the form toolbar of the [Service Orders](FS_30_01_00.md#) \(FS300100\) form to process the service order in a single step. This action opens the **Process Service Order** dialog box \(see below\), which contains check boxes representing the actions that can be performed on the service order during quick processing.
 
 Note that the service order type settings determine which check boxes appear in the dialog box, their availability, and their default states.
 
-![](Images/ServMgmt_Service_Order_Quick_Process_Dialog.png)
 
 The dialog box may contain the following sections and check boxes:
 
@@ -46,7 +45,7 @@ The dialog box may contain the following sections and check boxes:
 
 In the dialog box, you can review the available actions and, if needed, update the check box selections.
 
-## Service Order Quick Processing Setup {#section_xwh_gjr_35b .section}
+## Service Order Quick Processing Setup
 
 You can run quick processing for a service order on the [Service Orders](FS_30_01_00.md) \(FS300100\) form if both of the following set up conditions are met:
 

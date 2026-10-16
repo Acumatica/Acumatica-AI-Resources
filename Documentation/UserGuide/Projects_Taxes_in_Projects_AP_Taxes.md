@@ -1,4 +1,4 @@
-# Taxes in Projects: Project Expenses with Taxes {#_c62f1e90-2bb0-4986-b3a1-8f917fd2e369 .concept}
+# Taxes in Projects: Project Expenses with Taxes
 
 In accounts payable bills that are related to a particular project, you need to accurately record project expenses associated with taxes in the project budget. The purchases that your company makes for a project may be subject to the following taxes:
 
@@ -7,7 +7,7 @@ In accounts payable bills that are related to a particular project, you need to 
 
 The following sections describe which documents are subject to taxes and how the system tracks tax expenses in projects if automatic tax calculation is configured in the system.
 
-## Purchase Documents with Taxes { .section}
+## Purchase Documents with Taxes
 
 Depending on your company's workflow and business needs, you can record purchases of stock items and services for a project by entering and processing the following types of documents:
 
@@ -27,7 +27,7 @@ Tax amounts in purchase orders and subcontracts are provided for informational p
 
 For more information about processing taxable purchases, see [Purchases with Sales Taxes: General Information](Taxes_Processing_Purchase_withSalesTax_GeneralInfo.md) and [Purchases with Use Taxes: General Information](Taxes_Processing_Purchase_with_Use_Tax_GeneralInfo.md).
 
-## Taxes in Accounts Payable Documents { .section}
+## Taxes in Accounts Payable Documents
 
 On release of an accounts payable document, the system posts transactions to the general ledger. In the lines of these general ledger transactions, it inserts the project and the tax amount of each line posted to the **Tax Expense** account specified for the tax on the **GL Accounts** tab of the [Taxes](TX_20_50_00.md) \(TX205000\) form.
 

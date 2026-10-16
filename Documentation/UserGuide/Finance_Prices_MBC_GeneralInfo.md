@@ -1,4 +1,4 @@
-# Prices in Base Currencies: General Information {#_6a57b99c-454b-461a-a4a0-a448106058be .concept}
+# Prices in Base Currencies: General Information
 
 If multiple related companies with multiple base currencies are configured in the same tenant and the companies share the inventory item records, you can perform the following operations:
 
@@ -15,18 +15,18 @@ If the *Multiple Base Currencies* feature is enabled on the [Enable/Disable Feat
 -   **Current Cost**
 -   **Last Cost**
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Update the default price of a non-stock item in a base currency
 -   Process an invoice with the non-stock item for which the default price has been defined
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You maintain default prices in multiple base currencies if your tenant includes companies that use different base currencies but share the list of non-stock items.
 
-## Rules of Selecting the Applicable Prices { .section}
+## Rules of Selecting the Applicable Prices
 
 On the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) and [Cash Sales](AR_30_40_00.md) \(AR304000\) forms, the system inserts the applicable price as follows:
 

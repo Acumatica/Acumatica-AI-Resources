@@ -1,4 +1,4 @@
-# Stock Items: Change of an Inventory Account for an Item {#_86e5645d-23b0-4bb9-94a7-17808bea7144 .concept}
+# Stock Items: Change of an Inventory Account for an Item
 
 We recommend that you carefully plan inventory accounts and avoid changing the inventory account for an item after you have started processing transactions with the item.
 

@@ -1,8 +1,8 @@
-# Specify Employment Records in the Employee Payroll Settings {#_34bc77c0-44c3-4097-bd23-a191685dbd28 .concept}
+# Specify Employment Records in the Employee Payroll Settings
 
 If you are using the contract-based REST API to integrate Acumatica ERP with an external system, this external system can specify employment records in employee payroll settings in Acumatica ERP.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to do the following to configure your client application and the Acumatica ERP instance to be used:
 
@@ -12,14 +12,14 @@ Before you test the code below, you need to do the following to configure your c
 4.  On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md#) \(CS100000\) form, make sure the *Payroll* and *US Payroll* features are enabled.
 5.  Execute the [Specify the Employee Payroll Settings](IntegrationDev_RESTExample_EmployeePayrollSettings_Update.md) request.
 
-## Request { .section}
+## Request
 
 You can use the following HTTP request example to specify an employment record in the payroll settings for the *EP00000004* employee.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-PUT /entity/Default/25.200.001/EmployeePayrollSettings?
+PUT /entity/Default/26.200.001/EmployeePayrollSettings?
     $expand=EmploymentRecords HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json

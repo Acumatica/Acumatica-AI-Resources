@@ -1,4 +1,4 @@
-# To Add a Page Item for an Existing Form {#_cc880c6f-f936-4d52-9751-38c914e10cdf .concept}
+# To Add a Page Item for an Existing Form
 
 You can add a *Page* item for an existing form to a customization project by using both the [Customization Menu](../UserGuide/AU_CustomizationMenu.md) and the [Element Inspector](../UserGuide/AU_ElementInspector.md), or you can add the item in the [Customization Project Editor](../UserGuide/SM_20_45_10.md).
 
@@ -7,7 +7,7 @@ The following sections provide detailed information:
 -   [To Add a Page Item by Using the Element Inspector](#_1ddee5d6-4d9f-4eb8-a340-ee618bcd67c7)
 -   [To Add a Page Item on the Customized Screens Page](#_00c904f5-f899-4178-9460-bbb43a0c6d19)
 
-## To Add a Page Item by Using the Element Inspector {#_1ddee5d6-4d9f-4eb8-a340-ee618bcd67c7 .section}
+## To Add a Page Item by Using the Element Inspector
 
 To add a *Page* item for an existing form to a customization project by using the [Element Inspector](../UserGuide/AU_ElementInspector.md), perform the following actions:
 
@@ -21,7 +21,7 @@ Acumatica Customization Platform creates the *Page* item for the form, adds the 
 
 The platform assigns to the new item a name that corresponds to the form ID.
 
-## To Add a Page Item on the Customized Screens Page {#_00c904f5-f899-4178-9460-bbb43a0c6d19 .section}
+## To Add a Page Item on the Customized Screens Page
 
 To add a *Page* item for an existing form to a customization project by using the Customization Project Editor, perform the following actions:
 
@@ -42,7 +42,6 @@ If you know the screen ID of the form, you can add the appropriate item directly
 
 The screenshot below shows the screen ID of the Journal Transactions form entered in the table: `GL301000`. As soon as you specify the screen ID, press Tab on the keyboard to view the name of the form, which appears in the **Title** column; make you sure you are adding the item for the needed form.
 
-![](images/CG_GL_Items_Screens_AddingExisting_02.png "Adding the screen ID of an existing form to the table")
 
 To modify the layout of a form, open the [Screen Editor](../UserGuide/AU_20_45_20.md) for the form by clicking the **Screen ID** of the form in the table or in the navigation pane of the Customization Project Editor.
 

@@ -1,8 +1,8 @@
-# Initial Configuration: To Set Up a BigCommerce Store {#_39e1dc11-2ba4-4ab7-b680-a635625a842a .task}
+# Initial Configuration: To Set Up a BigCommerce Store
 
 This activity will guide you through the process of signing up for a BigCommerce trial account and performing the minimum configuration of a BigCommerce store so that it can be connected with the Acumatica ERP instance.
 
-## Story { .section}
+## Story
 
 The SweetLife company is planning on opening an online store built on the BigCommerce platform. The store's warehouse, from which the goods sold online will be shipped, is based in New York. The company maintains the prices of its products in U.S. dollars and delivers products across New York by using the company's own vehicles. For orders in the amount of $100 and more, the company offers free shipping.
 
@@ -10,7 +10,7 @@ As an implementation consultant helping SweetLife to implement the integration b
 
 **Note:** This activity covers the creation and basic configuration of a new BigCommerce store. The results of performing the instructions presented below are used in subsequent activities. We recommend that you sign up for a new trial account and create a new store for testing purposes. If you have an existing test store and do not want to set up another one, make sure that in the subsequent activities, you make the necessary adjustments where the results of the current activity are used.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will perform the following steps in BigCommerce:
 
@@ -21,11 +21,11 @@ In this activity, you will perform the following steps in BigCommerce:
 5.  Turning off notifications about changes to customer accounts
 6.  Deleting existing products and product categories
 
-## Step 1: Signing Up for a BigCommerce Trial Account { .section}
+## Step 1: Signing Up for a BigCommerce Trial Account
 
 Create a BigCommerce trial account by following [the instructions in the BigCommerce documentation](https://support.bigcommerce.com/s/article/Starting-a-Bigcommerce-Trial). Make a note of the login and password that you have created, because you will use them to sign in to the control panel of your store as the store owner.
 
-## Step 2: Completing the Store Profile { .section}
+## Step 2: Completing the Store Profile
 
 To complete the profile of the BigCommerce store, do the following:
 
@@ -47,7 +47,7 @@ To complete the profile of the BigCommerce store, do the following:
 
 6.  In the lower right, click **Save** to save your changes.
 
-## Step 3: Specifying the Default Currency { .section}
+## Step 3: Specifying the Default Currency
 
 To specify the default currency in which prices will be displayed to customers and in which transactions will be made, do the following:
 
@@ -69,7 +69,7 @@ Because SweetLife wants to display prices and sell products only in United State
 
 For the purposes of the initial configuration and first synchronization, which you will perform in [Data Synchronization: To Perform the First Synchronization](Commerce_BC_Data_Sync_First_Sync.md), you do not need to set up any payment methods at this time.
 
-## Step 4: Configuring the Shipping Rules { .section}
+## Step 4: Configuring the Shipping Rules
 
 To configure the shipping rules for your online store, do the following:
 
@@ -112,7 +112,7 @@ To configure the shipping rules for your online store, do the following:
     For simplicity, you do not need to specify any other shipping rules at this time. In a production environment, you are most likely to configure the shipping options on a more granular level.
 
 
-## Step 5: Turning Off Notifications About Changes to Customer Accounts { .section}
+## Step 5: Turning Off Notifications About Changes to Customer Accounts
 
 For testing purposes we recommend that you turn off sending email notifications to customers every time their details are changed. To do this, do the following:
 
@@ -122,7 +122,7 @@ For testing purposes we recommend that you turn off sending email notifications 
     The status of the template id changed to *Disabled*.
 
 
-## Step 6 \(Optional\): Deleting Existing Product Categories and Products { .section}
+## Step 6 \(Optional\): Deleting Existing Product Categories and Products
 
 Sample products and product categories have been preloaded to your BigCommerce store for demo purposes. To delete these product categories and products assigned to these categories in your BigCommerce store, do the following:
 

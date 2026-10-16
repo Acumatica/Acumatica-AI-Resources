@@ -1,8 +1,8 @@
-# Acumatica ERP Installation in a Data Center: Installing Acumatica ERP on Amazon Web Services {#_1c0966b0-255d-4f7d-97c7-18436dd288f3 .concept}
+# Acumatica ERP Installation in a Data Center: Installing Acumatica ERP on Amazon Web Services
 
 You can install Acumatica ERP on Amazon Web Services \(AWS\). The Amazon Elastic Compute Cloud \(Amazon EC2\) provides the web server to host the Acumatica ERP application, while the Amazon Relational Database Service \(Amazon RDS\) provides the storage for the database. This topic includes recommendations for configuring the EC2 and RDS instances, as well as details about deploying Acumatica ERP on AWS.
 
-## Prerequisite Tasks { .section}
+## Prerequisite Tasks
 
 Before you start installing Acumatica ERP on AWS, make sure that you have completed the following tasks:
 
@@ -10,7 +10,7 @@ Before you start installing Acumatica ERP on AWS, make sure that you have comple
 -   Creating a key pair for secure access to your EC2 instances
 -   Creating a security group that defines the rules for network access to your EC2 instance, based on which it can connect to your RDS instance
 
-## Installation of Acumatica ERP on AWS { .section}
+## Installation of Acumatica ERP on AWS
 
 The process of installing Acumatica ERP on AWS generally involves the following steps:
 

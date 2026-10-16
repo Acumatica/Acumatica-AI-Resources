@@ -1,4 +1,4 @@
-# Managing Parent-Child Relationships {#_31bce200-b3c2-48d6-b79f-a3a219869c8a .concept}
+# Managing Parent-Child Relationships
 
 If your company deals with customers with multiple franchises, branches, or other organizational units, you might want to configure parent-child relationships in Acumatica ERP between the customer accounts that represent these companies.
 

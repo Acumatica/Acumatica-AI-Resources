@@ -1,10 +1,10 @@
-# Expense Claims: To Approve Expense Claims {#_946c7cbd-c6df-4787-a052-aeeeffcec96a .task}
+# Expense Claims: To Approve Expense Claims
 
 The following activity will walk you through the process of approving expense claims.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that Bill Owen and Joanne Simpson, employees of the marketing department at the SweetLife Fruits &amp; Jams company, went on a business trip to a marketing conference. The $250 participation fee for the conference included transportation for attendees to the conference. After the conference, David had dinner and paid $45, while Joanne took a taxi and paid $50. All expenses were paid by using the employees' personal credit cards.
 
@@ -14,7 +14,7 @@ The employees have submitted their expense receipts, added them to the expense c
 
 First, acting as Anna Johnson, you will approve Bill Owen's expense claim. After that, acting as Nenad Pasic, you will approve Joanne Simpson's expense claim.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -27,18 +27,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
     -   The *Business trip to the marketing conference* claim with a total amount of $295, submitted by Bill Owen
     -   The *Business trip to the marketing conference* claim with a total amount of $300, submitted by Joanne Simpson
 
-## Process Overview { .section}
+## Process Overview
 
 First, you will approve Bill Owen's expense claim on the [Expense Claim](EP_30_10_00.md) \(EP301000\) form. Then you will approve Joanne Simpson's expense claim on the [Approvals](EP_50_30_10.md) \(EP503010\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
 -   Launch the Acumatica ERP website, and sign in as Anna Johnson by using the *johnson* username and the *123* password.
 -   In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to today’s date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Approving the First Expense Claim { .section}
+## Step 1: Approving the First Expense Claim
 
 To approve Bill Owen's expense claim, do the following:
 
@@ -51,7 +51,7 @@ To approve Bill Owen's expense claim, do the following:
 
 5.  Sign out from the system.
 
-## Step 2: Approving the Second Expense Claim { .section}
+## Step 2: Approving the Second Expense Claim
 
 To approve Joanne Simpson's expense claim, do the following:
 

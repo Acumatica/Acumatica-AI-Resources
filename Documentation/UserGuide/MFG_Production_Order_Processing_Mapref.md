@@ -1,4 +1,4 @@
-# Producing Items {#_75416b14-49ff-4012-8938-1300936985c6 .concept}
+# Producing Items
 
 Acumatica ERP Manufacturing Edition provides you with various tools to manage the production of items, calculate the costs of produced items, and adjust the production processes to the business processes of your organization.
 

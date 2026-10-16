@@ -1,4 +1,4 @@
-# PurchaseReceipt {#_19972ae2-0d5d-45b6-8bec-fc0e2388a9ba .concept}
+# PurchaseReceipt
 
 This chapter presents code examples showing requests that use the `PurchaseReceipt` entity.
 

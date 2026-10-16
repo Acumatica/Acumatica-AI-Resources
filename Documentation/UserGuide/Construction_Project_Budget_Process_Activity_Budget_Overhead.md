@@ -1,16 +1,16 @@
-# Construction Project Budget: To Estimate the Budget Overhead {#_6edf331a-9f58-4e03-9fed-248ad1033889 .task}
+# Construction Project Budget: To Estimate the Budget Overhead
 
 In this activity, you will learn how to estimate the project overhead calculated based on the project costs.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that ToadGreen Building Group is a general contractor building an Italian restaurant for its customer, the Italian Company. On March 17, 2026, the construction manager spent 10 working hours on communication related to obtaining construction permits; this time had not initially been budgeted for the project.
 
 Acting as the project accountant, you need to record these additional expenses in the project budget by entering the corresponding project transaction and do not update the general ledger with these expenses. Then you need to estimate the project costs while accounting for the administrative overhead, which is 20% of labor costs.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -19,18 +19,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Account Groups](PM_20_10_00.md) \(PM201000\) form, the *OVERHEAD* account group has been created.
 -   On the [Allocation Rules](PM_20_75_00.md) \(PM207500\) form, the *OVERHEAD* allocation rule has been created. This allocation rule has been configured to process project transactions that represent labor expenses and to post the overhead, which is calculated as 20% of the transaction amount, to the *OVERHEAD* account group. \(For an example of the configuration of an allocation rule, see [Overhead in the Project Budget: Implementation Activity](Projects_Allocation_Overhead_Implem_Activity.md).\)
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will first specify the allocation rule for the project task on the [Projects](PM_30_10_00.md) \(PM301000\) form. On the same form, you will then perform allocation for the project and review the project balances.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded; you should sign in as a project accountant by using the *bsanchez* username and the *123* password.
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to 3/17/2026. If a different date is displayed, click the Business Date menu button, and select 3/17/2026 on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating a Project Transaction {#section_wgt_qfq_crb .section}
+## Step 1: Creating a Project Transaction
 
 To create a project transaction that represents the additional expenses, which do not affect the general ledger, do the following:
 
@@ -56,7 +56,7 @@ To create a project transaction that represents the additional expenses, which d
 
 You have finished capturing the costs for the project.
 
-## Step 2: Capturing Project Overhead { .section}
+## Step 2: Capturing Project Overhead
 
 To configure the project for allocation and capture the project overhead, do the following:
 
@@ -72,7 +72,6 @@ To configure the project for allocation and capture the project overhead, do the
 
     When the allocation is completed, on the **Balances** tab, review the project balance again, as shown below. Notice that one more expense line with the *OVERHEAD* account group has appeared in the table. The actual amount of the line is $280, which is 20% of $1400.
 
-    ![](Images/activity_Construction_Project_Budget_Process_Activity_Budget_Overhead_Course.png "The captured overhead in the project expenses")
 
 5.  In the table, click the line with the *OVERHEAD* account group, and on the table toolbar, click **View Transactions**.
 

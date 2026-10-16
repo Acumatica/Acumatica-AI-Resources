@@ -1,4 +1,4 @@
-# Combo Box {#_947813cf-c7c6-4339-967f-242cb3d09965 .concept}
+# Combo Box
 
 In this chapter, you will learn about the configuration of combo boxes. You'll learn when to use combo boxes, how to name them, and how to organize a layout that includes them.
 

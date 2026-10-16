@@ -1,4 +1,4 @@
-# Preparing an Instance for Implementation {#_882fe280-df5b-4c25-a76c-7ecf2c7e826a .concept}
+# Preparing an Instance for Implementation
 
 After you install a new instance of Acumatica ERP, the system needs to be prepared for the further implementation. When you sign in to a new Acumatica ERP instance, the only form you can access is the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, which you use to enable the features in accordance with the license you have bought. Then you need to set up system-wide security policies and create user accounts for every person to be involved in the implementation of your production instance.
 

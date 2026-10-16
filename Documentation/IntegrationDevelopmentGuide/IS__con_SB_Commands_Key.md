@@ -1,8 +1,8 @@
-# Commands for Record Searching: Key Command {#_b34f1a13-688c-4baa-ac07-9af4d256f2a7 .concept}
+# Commands for Record Searching: Key Command
 
 To search for a record, you have to imitate the use of a column of a **Select** dialog box, declare a custom key, or declare a custom field in the sequence of commands that you pass to a processing method. In this topic, you will find a detailed description of the use of the Key command, which you use to declare a custom key. You can find descriptions of two other approaches in [Commands for Record Searching: Filter Service Command](IS__con_SB_Commands_Filter.md#) and [Commands for Record Searching: Custom Field](IS__con_SB_Commands_!FieldName.md#).
 
-## Key Command { .section}
+## Key Command
 
 If you specify the value of key elements on an Acumatica ERP form, the system does not change the current record in the system; instead, it searches for the record, which is identified by the values of the key elements, and selects this record. By using custom keys, you can make some elements on an Acumatica ERP form work as key elements.
 

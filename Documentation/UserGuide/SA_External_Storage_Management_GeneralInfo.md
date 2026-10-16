@@ -1,8 +1,8 @@
-# External Storage: General Information {#_26f06314-a929-472d-afb6-88fa4ad3fbd6 .concept}
+# External Storage: General Information
 
 By default, the system stores the files attached to documents in the Acumatica ERP SQL Server database. Alternatively, the system can store the files outside of the database—either in a local folder on the computer running the Acumatica ERP website, or in a public cloud using Azure Blob Storage or Amazon Simple Storage Service \(Amazon S3\).
 
-## External Storage Risks { .section}
+## External Storage Risks
 
 We recommend using the default solution provided with Acumatica ERP, which automatically places attached files in the system database. This affordable solution includes automated backups, versioning, file synchronization, and integrated security.
 
@@ -18,11 +18,11 @@ If you want to implement an external storage solution, you should be aware of th
 
 To disable the configuration of an external file storage, and administrator can add to the appSettings section of the `web.config` file the DisableExternalFileStorage key set to `true`.
 
-## External Storage for SaaS Customers of Acumatica Business Cloud {#section_cph_jbt_45b .section}
+## External Storage for SaaS Customers of Acumatica Business Cloud
 
 Software as a service \(SaaS\) customers have the option to use Amazon S3 storage if the following risks and limitations are acceptable. Customers must purchase their external storage independently of their Acumatica contract and user agreement. Customers that use external storage are responsible for all backup and recovery operations associated with external storage. Customers must be made aware that the storage benefits provided above are not available through customer-managed storage.
 
-## External File Storage Configuration { .section}
+## External File Storage Configuration
 
 You use the [External File Storage](SM_20_25_40.md) \(SM202540\) form to configure external file storage providers and specify where files should be stored. With regard to file storage functionality, *provider* denotes the storage provider, which can be a local folder, an Azure Blob service, or an Amazon S3 service.
 
@@ -38,7 +38,7 @@ See the following topics for the procedures of configuring external file storage
 -   [To Store Attached Files by Using the Azure Blob Service](DM__how_FileStorage_Azure.md)
 -   [To Store Attached Files by Using the Amazon S3 Service](DM__how_FileStorage_AmazonS3.md)
 
-## File Synchronization { .section}
+## File Synchronization
 
 You can synchronize files stored in Acumatica ERP with files on a shared network folder or with files stored on a File Transfer Protocol \(FTP\), Hypertext Transfer Protocol \(HTTP\), or Secure File Transfer Protocol \(SFTP\) server. The following topics describe how to configure each type of synchronization:
 

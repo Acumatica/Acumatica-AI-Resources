@@ -1,8 +1,8 @@
-# Translation Definitions: Implementation Activity {#_7accd9dd-eee8-4737-bbdd-eab5b9b595d7 .task}
+# Translation Definitions: Implementation Activity
 
 The following activity will walk you through the process of creating a translation definition.
 
-## Story { .section}
+## Story
 
 Suppose that in December 2025, SweetLife Fruits &amp; Jams, which operates in the United States, became a subsidiary of a larger company that operates in Europe. Thus, the accountants of SweetLife need to prepare the company’s financial statements in the functional currency of the head company \(that is, in the euro\), so that these statements can be included in the consolidated statements of the head company.
 
@@ -14,7 +14,7 @@ Further suppose that SweetLife's chief accountant has decided that balances have
 
 Acting as a SweetLife accountant, you need to perform the needed configuration steps in the system and create a translation definition.
 
-## Configuration Overview {#section_mfx_3jv_vxb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -29,11 +29,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Ledgers](../UserGuide/GL_20_15_00.md) \(GL201500\) form, the *ACTUAL* ledger with the *Actual* type has been predefined.
 -   On the [Currency Rate Types](../UserGuide/CM_20_10_00.md) \(CM201000\) form, the *SPOT* rate type has been defined.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will enable the needed feature on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form. On the [Currencies](../UserGuide/CM_20_20_00.md) \(CM202000\) form, you will specify translation gain and loss accounts for *USD* \(the base currency\) and *EUR* \(a foreign currency\). On the [Currency Rate Types](../UserGuide/CM_20_10_00.md) \(CM201000\) form, you will define the rate types to be used in a translation definition, and create currency rates for *EUR* on the [Currency Rates](../UserGuide/CM_30_10_00.md) \(CM301000\) form. On the [Ledgers](../UserGuide/GL_20_15_00.md) \(GL201500\) form, you will create a ledger of the *Reporting* type to hold the results of translations. Finally, on the [Translation Definition](../UserGuide/CM_20_30_00.md) \(CM203000\) form, you will create a translation definition that will later be used for translating account balances.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -41,7 +41,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu button to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 3.  Make sure that the multicurrency accounting functionality has been configured as described in [Multicurrency Functionality: Implementation Activity](config_Multicurrency_Basic_Implem_Activity.md) and [Configuration of Rate Types and Rates: To Configure Rates](config_Multicurrency_Configuring_Rates_Activity1.md).
 
-## Step 1: Enabling the Needed Feature { .section}
+## Step 1: Enabling the Needed Feature
 
 To enable the *Translation of Financial Statements* feature, do the following:
 
@@ -50,7 +50,7 @@ To enable the *Translation of Financial Statements* feature, do the following:
 3.  In the **Advanced Financials** group of features, select the **Translation of Financial Statements** check box.
 4.  On the form toolbar, click **Enable** to enable the selected feature.
 
-## Step 2: Defining Currency Rate Types { .section}
+## Step 2: Defining Currency Rate Types
 
 To define the currency rate types for translations, do the following:
 
@@ -70,7 +70,7 @@ To define the currency rate types for translations, do the following:
 
 5.  On the form toolbar, click **Save** to save your changes.
 
-## Step 3: Specifying Translation Gain and Loss Accounts for the Base Currency { .section}
+## Step 3: Specifying Translation Gain and Loss Accounts for the Base Currency
 
 To specify the translation gain and loss accounts for *USD*, which is the base currency, do the following:
 
@@ -81,7 +81,7 @@ To specify the translation gain and loss accounts for *USD*, which is the base c
     -   **Translation Loss Account**: *27001 \(Translation Gain/Loss\)*
 4.  On the form toolbar, click **Save** to save your changes.
 
-## Step 4: Specifying Translation Gain and Loss Accounts for a Foreign Currency { .section}
+## Step 4: Specifying Translation Gain and Loss Accounts for a Foreign Currency
 
 To specify the translation gain and loss accounts for the *EUR* currency \(which you configured in [Multicurrency Functionality: Implementation Activity](config_Multicurrency_Basic_Implem_Activity.md)\), do the following:
 
@@ -91,7 +91,7 @@ To specify the translation gain and loss accounts for the *EUR* currency \(which
     -   **Translation Loss Account**: *27001 \(Translation Gain/Loss\)*
 3.  On the form toolbar, click **Save** to save your changes.
 
-## Step 5: Specifying Currency Rates { .section}
+## Step 5: Specifying Currency Rates
 
 To specify the currency rates for the translation definition, do the following:
 
@@ -154,7 +154,7 @@ To specify the currency rates for the translation definition, do the following:
 12. On the form toolbar, click **Save** to save your changes.
 13. On the **Effective Currency Rates** tab, review the rates. The created rates will be used for the translation of account balances in *01-2026*.
 
-## Step 6: Creating a Reporting Ledger { .section}
+## Step 6: Creating a Reporting Ledger
 
 To create a reporting ledger to keep the results of translations, do the following:
 
@@ -172,7 +172,7 @@ To create a reporting ledger to keep the results of translations, do the followi
 
 The created reporting ledger will be used for holding the results of the translations. Now you need to configure the translation definition, which is the set of rules used for the translation.
 
-## Step 7: Configuring the Translation Definition { .section}
+## Step 7: Configuring the Translation Definition
 
 To configure the translation definition, do the following:
 

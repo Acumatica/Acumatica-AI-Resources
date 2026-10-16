@@ -1,4 +1,4 @@
-# Processing Partial Payments {#_c81adef3-f830-41b3-be60-26c9acd9da3c .concept}
+# Processing Partial Payments
 
 In this chapter, you will find general information on how to process partial payments, a checklist for system implementation, an activity that describes how to create a payment and apply it to a bill to partially pay the bill, and report and inquiries that can be useful to find and view created transactions.
 

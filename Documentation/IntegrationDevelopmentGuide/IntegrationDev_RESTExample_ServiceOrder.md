@@ -1,4 +1,4 @@
-# ServiceOrder {#_e494443c-2506-4be0-9a54-a3b57cca4fb4 .concept}
+# ServiceOrder
 
 This chapter presents code examples showing requests that use the `ServiceOrder` entity.
 

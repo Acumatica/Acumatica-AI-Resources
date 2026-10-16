@@ -1,10 +1,10 @@
-# Sales Order Cancellation: Process Activity {#_cb9c366e-5c24-4355-84a8-441fcd0eeecc .task}
+# Sales Order Cancellation: Process Activity
 
 The following activity demonstrates how to create a sales order with a prepayment, cancel the order, reopen it, and process it to completion.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Grace Norman, a sales manager of the SweetLife Fruits &amp; Jams company. On January 30, 2026, the GoodFood One Restaurant wholesale customer has ordered four boxes of fresh pomegranates from SweetLife's main office. The customer has made a prepayment for the fruit. The ordered pomegranates are stored in the warehouse of the company’s main office. You, as a sales manager, need to enter and process the appropriate documents.
 
@@ -12,7 +12,7 @@ Further suppose that the customer wants the order to be delivered on the same da
 
 Finally, suppose that later that day, the customer informs you that they have not found a vendor who can deliver the fruit on the same day and that they again want to order the four boxes of pomegranates from SweetLife. You need to reopen and process the sales order.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -23,13 +23,13 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *GOODFOOD \(GoodFood One Restaurant\)* customer has been created.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *POMEGRANATES* stock item has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, to process a sales order with a prepayment, you will first create a sales order of the *SO* type on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form and add the items to be sold. Then you will add a prepayment on the **Payments** tab of the [Sales Orders](SO_30_10_00.md) form and release it on the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form.
 
 Then you will unapply the prepayment by removing the link from the **Payments** tab of the [Sales Orders](SO_30_10_00.md) form and cancel the order. Finally, you will reopen the order and create and quickly process it.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start performing the steps of this activity, do the following:
 
@@ -37,7 +37,7 @@ Before you start performing the steps of this activity, do the following:
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, make sure the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Creating the Sales Order { .section}
+## Step 1: Creating the Sales Order
 
 To create the sales order for GoodFood One Restaurant, do the following:
 
@@ -54,7 +54,7 @@ To create the sales order for GoodFood One Restaurant, do the following:
     -   **Quantity**: `4`
 5.  On the form toolbar, click **Save**.
 
-## Step 2: Creating the Prepayment for the Sales Order { .section}
+## Step 2: Creating the Prepayment for the Sales Order
 
 To create the prepayment made by the *GOODFOOD* customer and apply it to the sales order, do the following:
 
@@ -74,7 +74,7 @@ To create the prepayment made by the *GOODFOOD* customer and apply it to the sal
 5.  On the form toolbar, click **Remove Hold**, and then click **Release**.
 6.  Close the pop-up window with the [Payments and Applications](AR_30_20_00.md) form, which returns you to the sales order on the [Sales Orders](SO_30_10_00.md) form.
 
-## Step 3: Unapplying the Prepayment and Canceling the Sales Order { .section}
+## Step 3: Unapplying the Prepayment and Canceling the Sales Order
 
 Suppose that the customer informed you that they want to cancel the order. Before canceling the sales order, you need to unapply the prepayment from the sales order. Do the following:
 
@@ -82,7 +82,7 @@ Suppose that the customer informed you that they want to cancel the order. Befor
 2.  On the form toolbar, click **Save**.
 3.  On the More menu, click **Cancel Order**. Notice that the sales order is assigned the *Canceled* status and that you can no longer change its settings.
 
-## Step 4: Reopening the Sales Order { .section}
+## Step 4: Reopening the Sales Order
 
 Suppose that later the same day, the customer informed you that they want to buy the pomegranates because they have not found a vendor who can deliver the fruit more quickly. To reopen the order, do the following:
 
@@ -92,7 +92,7 @@ Suppose that later the same day, the customer informed you that they want to buy
 4.  In the **Applied To Order** column, type `200`.
 5.  On the form toolbar, click **Save**.
 
-## Step 5: Quickly Processing the Sales Order { .section}
+## Step 5: Quickly Processing the Sales Order
 
 Now you will create and process the sales documents related to the sales order through quick processing of the order. Do the following:
 

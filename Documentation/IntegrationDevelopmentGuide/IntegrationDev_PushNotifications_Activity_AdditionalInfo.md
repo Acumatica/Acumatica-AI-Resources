@@ -1,18 +1,18 @@
-# Push Notifications: To Include Additional Information in Push Notifications {#_b3ca2deb-516c-44b4-886c-48e599b285a6 .task}
+# Push Notifications: To Include Additional Information in Push Notifications
 
 The following activity shows you how to include additional information in push notifications.
 
 **Attention:** The additional information that you add to push notifications is included in all notifications that are sent from the Acumatica ERP instance on which the additional information is configured.
 
-## Story { .section}
+## Story
 
 In Acumatica ERP, you need to add additional information to push notifications, such as the username of the user that performed the data change or the business date when the data transaction is performed.
 
-## Process Overview { .section}
+## Process Overview
 
 In a project of your Acumatica ERP extension library, you will include the additional information in the AdditionalInfo element of notifications in JSON format.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -22,7 +22,7 @@ Before you begin performing the steps of this activity, do the following:
 
 **Tip:** You can find the final code of this activity in the [CommitEventEnricher.cs](https://github.com/Acumatica/Help-and-Training-Examples/tree/HEAD/IntegrationDevelopment/Help/ConfiguringPushNotifications/AdditionalInformation/CommitEventEnricher.cs) file in the Help-and-Training-Examples repository on GitHub.
 
-## Step 1: Including Additional Information in Push Notifications { .section}
+## Step 1: Including Additional Information in Push Notifications
 
 To include additional information in push notifications, do the following:
 
@@ -51,7 +51,7 @@ To include additional information in push notifications, do the following:
 
 3.  Build the project of your Acumatica ERP extension library.
 
-## Step 2: Testing Push Notifications with Additional Information { .section}
+## Step 2: Testing Push Notifications with Additional Information
 
 Run Acumatica ERP and make sure that when the results of the query change, the application includes the additional information in the AdditionalInfo element of the notifications in JSON format, as shown in the following notification example.
 

@@ -1,10 +1,10 @@
-# To Enter a Debit Adjustment with Retainage {#_89d5b04f-8e49-47ea-90b4-29d77fa2c834 .task}
+# To Enter a Debit Adjustment with Retainage
 
 You create a debit adjustment with retainage by using the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 
 **Note:** You can enter a debit adjustment with retainage only if the *Retainage Support* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## To Enter a Debit Adjustment with Retainage {#section_mgm_njv_vxb .section}
+## To Enter a Debit Adjustment with Retainage
 
 To enter a debit adjustment with retainage, do the following:
 
@@ -30,7 +30,7 @@ To enter a debit adjustment with retainage, do the following:
 12. On the form toolbar, click **Save**.
 13. To release the debit adjustment, click **Release** on the form toolbar.
 
-## Notes About the Procedure {#section_pgm_njv_vxb .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

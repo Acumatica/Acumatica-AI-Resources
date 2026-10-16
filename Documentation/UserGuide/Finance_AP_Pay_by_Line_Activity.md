@@ -1,16 +1,16 @@
-# Applying Payments to Particular Lines: Process Activity {#_cd40504a-d7b9-4620-8b31-b1d7f0e22457 .task}
+# Applying Payments to Particular Lines: Process Activity
 
 The following activity will walk you through the process of creating an AP bill to be paid by line and partially paying some of its lines.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that on 1/30/2026, the SweetLife Fruits &amp; Jams company ordered billboards from Blueline Advertisement for $6,649. The vendor wants SweetLife to pay $2,300 for billboard design first. The other bill lines can be paid later. On 2/5/2026, SweetLife partially paid the bill in the amount of $2,300.
 
 Acting as a SweetLife accountant, you need to create the AP bill and create a partial payment for one of its lines.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -24,11 +24,11 @@ On the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form, the **H
 
 On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *BLUELINE \(Blueline Advertisement\)* vendor has been configured. This vendor has the *CHECK* payment method specified as the default one.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will first create a bill with three lines on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. The bill will have the **Pay by Line** check box selected, indicating that payments can be applied to separate lines of the bill. On the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form, you will pay one line of the bill. Finally, you will review the original bill on the [Bills and Adjustments](AP_30_10_00.md) form and its application to the payment on the [Checks and Payments](AP_30_20_00.md) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin processing documents that are paid by line, do the following:
 
@@ -36,7 +36,7 @@ Before you begin processing documents that are paid by line, do the following:
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step 1: Creating an AP Bill { .section}
+## Step 1: Creating an AP Bill
 
 To create an AP bill that can be paid by line, do the following:
 
@@ -73,7 +73,7 @@ To create an AP bill that can be paid by line, do the following:
 6.  On the form toolbar, click **Save**.
 7.  On the form toolbar, click **Remove Hold** and then click **Release** to release the bill.
 
-## Step 2: Paying One Line of the Bill { .section}
+## Step 2: Paying One Line of the Bill
 
 To pay one line of the AP bill, do the following:
 
@@ -104,7 +104,7 @@ To pay one line of the AP bill, do the following:
     The system assigns the payment the *Closed* status. If the original bill still has unpaid lines, it retains the *Open* status, and the **Balance** box in the Summary area of the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form displays the balance still owed to the vendor.
 
 
-## Step 3: Reviewing the Original Bill and Its Applications { .section}
+## Step 3: Reviewing the Original Bill and Its Applications
 
 To review the original bill, which has been partially paid, do the following:
 

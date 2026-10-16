@@ -1,8 +1,8 @@
-# Configuration of Order Management: Implementation Checklist {#_97d35fe1-9214-424d-8e83-ff536beb1d0f .concept}
+# Configuration of Order Management: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for the order fulfillment and inventory management processes, and to specify settings that affect the processing workflow.
 
-## Prerequisites { .section}
+## Prerequisites
 
 Before you start configuring order and inventory management, you should make sure that the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -13,7 +13,7 @@ Before you start configuring order and inventory management, you should make sur
 |[Order Types](../UserGuide/SO_20_10_00.md) \(SO201000\)|Make sure that at least one order type \(*SO*\) is configured and activated, as described in [Sales Order Types: General Information](config_Sales_Order_Types_GeneralInfo.md) .|
 |[Reason Codes](../UserGuide/CS_21_10_00.md) \(CS211000\)|Make sure that the reason codes to be used for processing inventory transactions and vendor returns have been defined in the system as described in [Reason Codes: Implementation Activity](../UserGuide/Reason_Codes_Implem_Activity.md).|
 
-## Minimum Required Settings { .section}
+## Minimum Required Settings
 
 |Form|Settings to Specify|
 |----|-------------------|
@@ -21,25 +21,48 @@ Before you start configuring order and inventory management, you should make sur
 |[Sales Orders Preferences](../UserGuide/SO_10_10_00.md) \(SO101000\) form|Specify *SO* as the **Default Sales Order Type**, and save your change to this form.|
 |[Purchase Orders Preferences](../UserGuide/PO_10_10_00.md) \(PO101000\)|Specify the **PO Return Reason Code**, and save your change to this form.|
 
-## Recommended Settings { .section}
+## Recommended Settings
 
-|Form|Settings to Specify|
-|----|-------------------|
-|[Inventory Preferences](../UserGuide/IN_10_10_00.md) \(IN101000\)|-   **Update GL**: Selected
+<table id="_c53067e3-1c30-4cda-b4c1-2215788f2751"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Settings to Specify
+
+</th></tr></thead><tbody><tr><td>
+
+[Inventory Preferences](../UserGuide/IN_10_10_00.md) \(IN101000\)
+
+</td><td>
+
+-   **Update GL**: Selected
 -   **Automatically Post on Release**: Selected
 
-|
-|[Sales Orders Preferences](../UserGuide/SO_10_10_00.md) \(SO101000\) form|-   **Hold Shipments on Entry**: Cleared
+</td></tr><tr><td>
+
+[Sales Orders Preferences](../UserGuide/SO_10_10_00.md) \(SO101000\) form
+
+</td><td>
+
+-   **Hold Shipments on Entry**: Cleared
 -   **Validate Shipment Total on Confirmation**: Cleared
 -   **Use Shipment Date for Invoice Date**: Selected
 -   **Automatically Release IN Documents**: Selected
 
-|
-|[Purchase Orders Preferences](../UserGuide/PO_10_10_00.md) \(PO101000\)|-   **Release IN Documents Automatically**: Selected
+</td></tr><tr><td>
 
-|
+[Purchase Orders Preferences](../UserGuide/PO_10_10_00.md) \(PO101000\)
 
-## Other Settings That Affect the Workflow { .section}
+</td><td>
+
+-   **Release IN Documents Automatically**: Selected
+
+</td></tr></tbody>
+</table>
+
+## Other Settings That Affect the Workflow
 
 When you are configuring inventory and order management, you can specify additional settings to configure the company to fit your business requirements:
 

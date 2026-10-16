@@ -1,16 +1,16 @@
-# Expense Claims: To Mass-Generate Expense Claims {#_a82aede5-2532-458a-9156-ea778d1a2d82 .task}
+# Expense Claims: To Mass-Generate Expense Claims
 
 The following activity will walk you through the process of mass-generating expense claims.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that David Chubb, an employee of the sales department at the SweetLife Fruits &amp; Jams company, had a business lunch with Catherine Hoff, the manager at Greenex Cafe, and discussed the potential purchase of new juicers. David paid $25 for their lunch by using a personal credit card. Catherine asked David to bill Greenex Cafe for Catherine's share of the lunch \($12\).
 
 Acting as David Chubb, you will enter the expenses into the system to request reimbursement, bill Greenex Cafe, and then claim the expense receipts.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -19,18 +19,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Employees](EP_20_30_00.md) \(EP203000\) form, the account for David Chubb has been created and associated with the *chubb* user account.
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *GREENEX* customer has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create two expense receipts for the business lunch payment on the [Expense Receipts](EP_30_10_10.md#) \(EP301010\) form and combine them into one expense claim on the [Expense Claim](EP_30_10_00.md) \(EP301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
 -   Launch the Acumatica ERP website, and sign in as David Chubb by using the *chubb* username and the *123* password.
 -   In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to today’s date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating Expense Receipts { .section}
+## Step 1: Creating Expense Receipts
 
 To create expense receipts for the business lunch payments, do the following:
 
@@ -72,7 +72,7 @@ To create expense receipts for the business lunch payments, do the following:
     The status of the expense receipt changes to *Open*.
 
 
-## Step 2: Generating Expense Claims { .section}
+## Step 2: Generating Expense Claims
 
 To mass-create expense claims for the expense receipts created in Step 1, do the following:
 

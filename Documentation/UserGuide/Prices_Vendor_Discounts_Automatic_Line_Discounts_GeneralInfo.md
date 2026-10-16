@@ -1,21 +1,21 @@
-# Automatic Line Vendor Discounts: General Information {#_8402b34a-8edf-4141-b014-5d2ca5503724 .concept}
+# Automatic Line Vendor Discounts: General Information
 
 Vendor discounts are an effective tool that allows you to take advantage of special offerings provided by the vendors you work with. If your vendors offer discounts that are applicable to specific items, you can set up such discounts in Acumatica ERP so that they are automatically applied in AP bills and purchase orders.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this section, you will learn:
 
 -   How to configure automatic line-level vendor discounts in Acumatica ERP
 -   How automatic line-level vendor discounts are applied in documents
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 To configure discounts for vendors, the *Vendor Discounts* feature must be enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
 You can configure vendor discounts that are automatically applied to lines of documents of various types, including AP bills and purchase orders. Applying discounts to purchase orders is possible only if the *Inventory and Order Management* group of features and the *Inventory* feature are enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Application of Automatic Discounts { .section}
+## Application of Automatic Discounts
 
 The system always applies automatic discounts in the following order when a user saves a document:
 

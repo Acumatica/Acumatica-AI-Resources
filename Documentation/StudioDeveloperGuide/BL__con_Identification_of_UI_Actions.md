@@ -1,4 +1,4 @@
-# Determination of Whether an Action Was Initiated in the UI {#_5b99d9d1-3d36-49fc-8583-d400d30c6f9e .concept}
+# Determination of Whether an Action Was Initiated in the UI
 
 In the RowInserting, RowInserted, RowUpdating, RowUpdated, RowDeleting, and RowDeleted event handlers, you can check whether the action was initiated in the UI. You should use the ExternalCall property of the event arguments for this.
 

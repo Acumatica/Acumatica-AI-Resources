@@ -1,4 +1,4 @@
-# Service Classes {#_26b2dbbb-60ef-491d-96bc-436214db0110 .concept}
+# Service Classes
 
 The topics of this chapter explain how to configure service classes to be used to group services with similar properties, and to provide default settings for new services in Acumatica ERP.
 

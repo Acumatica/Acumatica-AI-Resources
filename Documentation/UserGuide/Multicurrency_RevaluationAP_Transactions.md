@@ -1,4 +1,4 @@
-# Revaluation of AP Documents: Generated Transactions {#_08e24ab0-5a2d-472e-aeee-2519e6d3af41 .concept}
+# Revaluation of AP Documents: Generated Transactions
 
 When you a perform revaluation of open AP documents, the system creates a revaluation batch with the results of the revaluation. This auto-reversing batch is automatically reversed on the date at the beginning of the next financial period.
 
@@ -11,7 +11,7 @@ The system calculates the difference between the revalued balance and the origin
 
 Revaluation gains and losses are included in the net income on the period-end reports.
 
-## Transactions Generated for Revaluation Loss {#section_e1z_3jv_vxb .section}
+## Transactions Generated for Revaluation Loss
 
 If the difference between the revalued balance and the original balance is positive, the revaluation has resulted in losses, and the system generates a batch that posts to the accounts shown in the following tables.
 
@@ -27,7 +27,7 @@ Depending on whether the provisioning account has been specified, the system gen
 |Accounts Payable Provisioning account|00.00|Amount|
 |Unrealized Loss account|Amount|00.00|
 
-## Transactions Generated for Revaluation Gains {#section_h1z_3jv_vxb .section}
+## Transactions Generated for Revaluation Gains
 
 If the difference between the revalued balance and the original balance is negative, the revaluation has resulted in gains, and the system generates a batch that posts to the accounts shown in the following tables.
 

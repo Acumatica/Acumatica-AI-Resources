@@ -1,8 +1,8 @@
-# Tax Periods: Configuration Prerequisites {#_938036ad-11f0-4f8b-b666-327e1f84ad80 .concept}
+# Tax Periods: Configuration Prerequisites
 
 Before configuring tax periods, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Configuring the System { .section}
+## Configuring the System
 
 Before you configure tax periods, you need to make sure that the following configuration tasks have been performed in the system:
 

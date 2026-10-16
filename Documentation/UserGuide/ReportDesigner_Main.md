@@ -1,4 +1,4 @@
-# Acumatica Report Designer Guide {#_24b77bbe-0eb3-4d37-9350-071ae5743571 .concept}
+# Acumatica Report Designer
 
 This part of the guide provides information on how to create report forms and printed pages by using the Acumatica Report Designer tool.
 

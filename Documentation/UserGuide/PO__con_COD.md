@@ -1,10 +1,10 @@
-# Support of COD Transactions {#_86b7c49d-37ad-4e0e-9fc2-7962059d5ad6 .concept}
+# Support of COD Transactions
 
 The type of purchasing transaction for which a buyer pays at the time of delivery is generally referred to as *cash on delivery \(COD\)* or, because other methods of payment besides cash might be involved, *collect on delivery \(COD\)*. Acumatica ERP provides you with functionality that you can use to account for payments made on delivery.
 
 This topic describes the basic workflow when you process a purchase order to be paid on delivery.
 
-## Basic Process { .section}
+## Basic Process
 
 To process a purchase order that will be paid on delivery, you perform the following general steps:
 

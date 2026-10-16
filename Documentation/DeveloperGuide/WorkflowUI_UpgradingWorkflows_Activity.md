@@ -1,18 +1,18 @@
-# Upgrade of Workflows: To Upgrade a Customization Project That Contains an Inherited Workflow {#_1ff31756-6857-43e6-96dd-cb37fdd9a604 .task}
+# Upgrade of Workflows: To Upgrade a Customization Project That Contains an Inherited Workflow
 
 The following activity will walk you through the process of upgrading a customization project that contains an inherited workflow with the changes introduced in the predefined workflow of Acumatica ERP. With this upgrade, you will include these changes in the customization project. That is, the changes introduced in the predefined workflow of Acumatica ERP will be reflected in both the predefined workflow that is included in the customization project and the inherited workflow that is based on this predefined workflow.
 
-## Story { .section}
+## Story
 
 Suppose that after you have created an inherited workflow for the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form, Acumatica developers have modified the predefined workflow for this form: In the predefined workflow, the `Review` state and the `Need Review` action have been added. \(In this activity, you will load the changes to the predefined workflow by importing and publishing the `OpportunitySystemWorkflowChanges.zip` customization package.\)
 
 Acting as a technical specialist, you need to upgrade the version of the predefined workflow in the customization project so that both the predefined workflow that is included in the customization project and the inherited workflow that is based on this predefined workflow contain the changes introduced by Acumatica developers.
 
-## Process Overview { .section}
+## Process Overview
 
 By using the [Customization Projects](../UserGuide/SM_20_45_05.md) \(SM204505\) form, you will upgrade the version of the predefined workflow of the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form in the *Opportunities* customization project.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin upgrading the workflows, do the following:
 
@@ -35,7 +35,7 @@ Before you begin upgrading the workflows, do the following:
     5.  Select the unlabeled check box in the row with the *OpportunitySystemWorkflowChanges* customization project.
     6.  On the form toolbar, click **Publish**.
 
-## Step: Upgrading the Version of the Predefined Workflow in the Customization Project { .section}
+## Step: Upgrading the Version of the Predefined Workflow in the Customization Project
 
 To upgrade the version of the predefined workflow in the customization project, perform the following instructions:
 
@@ -52,7 +52,6 @@ To upgrade the version of the predefined workflow in the customization project, 
 
     The **Upgrade Conflicts** dialog box opens, as shown in the following screenshot. The dialog box contains information about the conflicts and actions that the system will take to resolve the conflicts.
 
-    ![](Images/WorkflowUI_UpgradingWorkflows_Conflicts.png "The message about conflicts during upgrade")
 
 5.  In the dialog box, click **OK** to resolve the conflicts and merge the changes.
 
@@ -62,7 +61,6 @@ To upgrade the version of the predefined workflow in the customization project, 
 
     The CR304000 \(Opportunities\) State Diagram: OpportunitiesAssigned page opens. The customized workflow should look as shown in the following screenshot. Notice that the `Review` state, which has been added in the modified predefined workflow, is marked as inherited.
 
-    ![](Images/WorkflowUI_UpgradingWorkflows_UpgradedInherited.png "The upgraded inherited workflow")
 
 
 **Parent topic:**[Upgrading Workflows](../DeveloperGuide/WorkflowUI_UpgradingWorkflows_Mapref.md)

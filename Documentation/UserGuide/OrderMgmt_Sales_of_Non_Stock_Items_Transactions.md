@@ -1,10 +1,10 @@
-# Sales of Non-Stock Items with Shipping: Generated Transactions {#_73331894-5af6-4014-b171-c775d556d793 .concept}
+# Sales of Non-Stock Items with Shipping: Generated Transactions
 
 To be able to process a sale of non-stock items, you create and process a sales order. The following sections describe the GL transactions generated during the processing of the documents for a sale of non-stock items.
 
 **Tip:** Sales orders of the *SO* type and shipment documents do not produce any GL transactions.
 
-## Transactions Generated for a Sales Invoice { .section}
+## Transactions Generated for a Sales Invoice
 
 When you create and release a sales invoice with one line with a non-stock item, the system generates the following general ledger transactions.
 

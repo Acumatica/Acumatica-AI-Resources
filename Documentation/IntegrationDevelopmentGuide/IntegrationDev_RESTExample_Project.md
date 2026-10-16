@@ -1,4 +1,4 @@
-# Project {#_1d003380-9c62-4542-b01c-66db8bb09b71 .concept}
+# Project
 
 This chapter presents code examples showing requests that use the `Project` entity.
 

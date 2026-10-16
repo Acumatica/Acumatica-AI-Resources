@@ -1,4 +1,4 @@
-# Interbranch Bills with Balancing: General Information {#_1caafd78-5d6e-436e-ac26-110e45e388bd .concept}
+# Interbranch Bills with Balancing: General Information
 
 If a company consists of multiple branches, it may have bills that involve multiple branches of the company for the purchase of goods or services from the specified vendor. If branches use separate accounting—that is, the *With Branches Requiring Balancing* type is selected on the [Companies](CS_10_15_00.md) \(CS101500\) form—you have to configure the system so that it generates balancing entries for these bills.
 
@@ -6,14 +6,14 @@ When you enter an interbranch bill on the [Bills and Adjustments](AP_30_10_00.md
 
 On posting of an interbranch transaction related to a bill, the system adds balancing entries to the batch according to the account mapping rules that have been specified in the system. For details, see [Interbranch Account Mapping: General Information](../ImplementationGuide/config_InterBranch_Mapping_Rules_GeneralInfo.md).
 
-## Learning Objectives {#section_xxm_njv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Process a bill between branches that require balancing
 -   Review the balances of accounts involved in the transaction
 
-## Applicable Scenarios {#section_zxm_njv_vxb .section}
+## Applicable Scenarios
 
 You create interbranch bills in the following cases:
 

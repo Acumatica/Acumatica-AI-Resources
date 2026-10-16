@@ -1,8 +1,8 @@
-# Single-Tier Change Management: Mass Processing of Documents {#_3df2509f-3554-1122-80fc-406cd07baa17 .concept}
+# Single-Tier Change Management: Mass Processing of Documents
 
 This topic explains how to perform mass-processing operations related to change orders, and how the system generates, changes, or works with documents as a result of the mass processing.
 
-## Mass-Recalculating Change Orders { .section}
+## Mass-Recalculating Change Orders
 
 In some cases \(for instance, if the project budget has been adjusted with change orders that have been modified through external tools or import scenarios\), you may need to validate the project balances to make change order quantities and amounts of the project budget match the values of the change orders.
 

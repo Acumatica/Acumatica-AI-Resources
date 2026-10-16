@@ -1,4 +1,4 @@
-# Uninstalling Acumatica ERP {#_3263880e-18e8-4b1f-ba94-9aef199c043b .concept}
+# Uninstalling Acumatica ERP
 
 In this chapter, you will learn how to delete unnecessary Acumatica ERP application instances and how to uninstall Acumatica ERP Configuration wizard.
 

@@ -1,20 +1,20 @@
-# Instance Deployment: To Specify the Tenant Available for Self-Service Portal Users {#_8862cb23-2c20-45b6-b322-04fda5555b8f .task}
+# Instance Deployment: To Specify the Tenant Available for Self-Service Portal Users
 
 In this activity, you will learn how to specify the tenant that will be available for the Self-Service Portal users in a multitenant Acumatica ERP configuration.
 
-## Story { .section}
+## Story
 
 Suppose that you are the system administrator of your company, and you need to specify the tenant to which the Self-Service Portal users will have access.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will configure the available tenant for the Self-Service Portal users.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin configuring the tenant, perform the following prerequisite activity: [Instance Deployment: To Deploy a Self-Service Portal Instance](INST_Deploying_Self_Service_Portal_Activity.md).
 
-## Step: Configuring the Tenant Available to Self-Service Portal Users { .section}
+## Step: Configuring the Tenant Available to Self-Service Portal Users
 
 To configure the tenant available to Self-Service Portal users, do the following:
 

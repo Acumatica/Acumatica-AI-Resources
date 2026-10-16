@@ -1,4 +1,4 @@
-# Import of Taxes: Marketplace-Withheld Taxes {#_a2e917c3-6c2b-a9d2-ed73-e6c7a6ca4321 .concept}
+# Import of Taxes: Marketplace-Withheld Taxes
 
 A Shopify store can sell through multiple channels, including online marketplaces such as Amazon, Facebook, Instagram, and the Shop Marketplace. In some regions, tax regulations require these marketplaces to collect and remit taxes on the seller’s behalf for orders placed through their platforms.
 
@@ -6,14 +6,16 @@ Shopify marks these taxes as channel-liable, meaning that the marketplace handle
 
 **Attention:** This functionality is available if the new *Tax Withheld by Marketplaces* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Configuring Marketplace-Withheld Taxes { .section}
+## Configuring Marketplace-Withheld Taxes
 
 To set up taxes remitted by marketplaces, you perform the following steps
 
 1.  Configure the tax synchronization for regular Shopify orders, as described in [Importing Orders with Taxes](Commerce_SP_Orders_with_Taxes_Mapref.md).
 2.  Assign tax zones and taxes to marketplace channels.
 
-    The system automatically adds sales channels from your Shopify store to the table in the **Taxes** section on the **Orders** tab of on the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form. You select the **Active** check box for the marketplaces from which you want to import taxes to specific tax zones and tax IDs, instead of using the settings for regular orders. For each selected marketplace, specify the tax zone and tax ID. Taxes will be imported to the tax-payable account defined for the tax zone.
+    The system automatically adds sales channels from your Shopify store to the table in the **Taxes** section on the **Orders** tab of on the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form. The connector identifies marketplace orders based on tax liability information and adds the corresponding sales channels during order synchronization.
+
+    You select the **Active** check box for the marketplaces from which you want to import taxes to specific tax zones and tax IDs, instead of using the settings for regular orders. For each selected marketplace, specify the tax zone and tax ID. Taxes will be imported to the tax-payable account defined for the tax zone.
 
     **Important:** The connector supports only one tax-payable account per store currency for all marketplace channels.
 
@@ -27,7 +29,7 @@ To set up taxes remitted by marketplaces, you perform the following steps
     -   Has the **Deduct from Payment** check box cleared
     -   Uses the same **Default Offset Account** as the tax payable account specified for the marketplace channel
 
-## How Marketplace-Remitted Taxes Are Imported { .section}
+## How Marketplace-Remitted Taxes Are Imported
 
 When you import an order from Shopify, Acumatica ERP brings in taxes along with the order data. If an order is placed through a sales channel with tax mapping configured in Acumatica ERP, the system uses the mapped tax ID to group all channel-liable taxes from Shopify into a single tax line. In the imported sales order, this tax line appears on the **Taxes** tab of the [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 
@@ -40,7 +42,7 @@ If multiple tax zones are mapped to a marketplace channel, the system uses the s
 
 When you import payments and refunds for such an order, Acumatica ERP deducts the total withheld tax from the resulting prepayments and refunds. It does this by adding the *MarketplaceSalesTaxAdjustment* charge on the **Charges** tab of the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form.
 
-## Limitations { .section}
+## Limitations
 
 -   The connector supports synchronization only for marketplace orders with tax-exclusive item prices.
 -   When the *Tax Withheld by Marketplaces* feature is enabled, orders that include a mix of channel-liable and non-liable taxes can be imported only if all taxes are linked to the Acumatica ERP tax zone mapped to the marketplace channel from which the order originated.

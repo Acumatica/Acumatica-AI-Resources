@@ -1,4 +1,4 @@
-# Managing Access to the Self-Service Portal: General Information {#_752c1418-65a1-48e6-bd77-ea64d0ed0e94 .concept}
+# Managing Access to the Self-Service Portal: General Information
 
 The Acumatica Self-Service Portal is a site designed to give the users of your customers' organizations limited access to your Acumatica ERP instance.
 
@@ -8,22 +8,24 @@ To ease the process of setting up roles, Acumatica ERP provides a set of predefi
 
 Also, by applying the default *Portal User* access rights, you can give administrative users in the customer's organization the access rights to add, delete, and manage user accounts for the contacts of their organization.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
+
+In this lesson, you will do the following:
 
 -   Create user roles for the Self-Service Portal users
 -   Create user types for the Self-Service Portal users
 -   Create user accounts for contacts
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may need to create user roles, user types, and user accounts for the Self-Service Portal in the following cases:
 
 -   You want to give access to the Self-Service Portal to your customers' employees.
 -   You want users of your customers to be able to create contact and user accounts in the Self-Service Portal, on their own.
 
-## Portal User Role { .section}
+## Portal User Role
 
 Acumatica ERP provides a predefined role, *Portal User*, designed to be assigned to users that may have access to the Self-Service Portal. A user with this role assigned can sign in to the Self-Service Portal and review the information pertaining to the business account associated with the user account, including the following:
 
@@ -36,7 +38,7 @@ If you use the predefined *Portal User* role, you can change the default role se
 
 For more information about creating a role for portal users, see [Managing Access to the Self-Service Portal: To Create User Roles for a Customer’s Employees](config_SSP_Admin_Managing_Access_to_SSP_Create_Roles_for_Customer_Employees.md).
 
-## External User Types { .section}
+## External User Types
 
 In Acumatica ERP, *user types* provide default settings for new users that you create, including which entity type \(an internal employee or an external contact\) is associated with the user type and which roles can be associated with the user accounts to which the user type is assigned.
 
@@ -44,7 +46,7 @@ On the [User Types](EP_20_25_00.md) \(EP202500\) form, each user type for portal
 
 For more information, see [User Access: Linked Entities and User Types](SA_Managing_User_Access_User_Types_Usage_Concept.md).
 
-## User Accounts for Contacts { .section}
+## User Accounts for Contacts
 
 You can add a user account to a contact account in one of the following ways:
 
@@ -52,6 +54,4 @@ You can add a user account to a contact account in one of the following ways:
 -   By using the [Users](SM_20_10_10.md) \(SM201010\) form to create a user account and linking it with the existing contact account.
 
 When you create a user account, you must select a contact-related user type and assign the user the *Portal User* role, or any other role created for the portal user. For details, see [Managing Access to the Self-Service Portal: To Create User Accounts for Contacts](config_SSP_Admin_Access_to_SSP_Add_User_Account_for_Contact.md).
-
-**Parent topic:**[Managing Access to the Self-Service Portal](../UserGuide/config_SSP_Admin_Access_to_SSP_Mapref.md)
 

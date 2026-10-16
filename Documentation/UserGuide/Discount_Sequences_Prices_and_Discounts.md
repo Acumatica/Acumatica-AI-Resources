@@ -1,4 +1,4 @@
-# Customer Discounts: Discount Sequences {#_b90f1ea1-2885-4442-bc07-f8951e9b1df6 .concept}
+# Customer Discounts: Discount Sequences
 
 In Acumatica ERP, once you have configured a discount code for your customer discount, you proceed to creating at least one discount sequence for the discount code. \(You can define multiple discount sequences for each discount code or only one sequence.\) In Acumatica ERP, *discount sequences* are predefined sets of settings that determine how discounts are applied in a system.
 
@@ -6,7 +6,7 @@ You create a discount sequence on the [Discounts](AR_20_95_00.md) \(AR209500\) f
 
 In this topic, you will read about discount sequences for customer discounts in Acumatica ERP.
 
-## Settings of Discount Sequence { .section}
+## Settings of Discount Sequence
 
 Discount sequences are defined on the [Discounts](AR_20_95_00.md) \(AR209500\) form; each discount sequence is related to a discount code and inherits its settings. Discount sequences can define simple discounts \(which are applicable to any amount or quantity\) or tiered discounts \(for which you can specify different percents or fixed amounts based on the quantities or amounts of items\).
 
@@ -39,7 +39,7 @@ For each discount sequence, on the [Discounts](AR_20_95_00.md) form, you specify
 -   Whether the discount is active or not.
 -   Whether the discount is prorated or not.
 
-## Updating of Discount Sequences { .section}
+## Updating of Discount Sequences
 
 In Acumatica ERP, on the [Discounts](AR_20_95_00.md) \(AR209500\) form, you can update a regular or promotional discount sequence.
 
@@ -58,7 +58,7 @@ If you need to change properties of multiple discount sequences, you can use the
 
 You can update the promotional discount sequence by modifying the needed settings on the [Discounts](AR_20_95_00.md) form and saving the changes. You do not need to use the **Update Discounts** button and dialog box to update the promotional discount sequence; this button remains inactive on the promotional discount sequence.
 
-## Updating of Discounts Applied to Documents { .section}
+## Updating of Discounts Applied to Documents
 
 For documents with the *On Hold* status, you can update discounts to include any new discounts or updates to existing ones.
 

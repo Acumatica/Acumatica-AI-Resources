@@ -1,4 +1,4 @@
-# Implementing Production of Lot- or Serial-Tracked Items {#_ea94c43c-ad27-44be-9a87-7e3cd95d2baa .concept}
+# Implementing Production of Lot- or Serial-Tracked Items
 
 This chapter describes the configuration of processing the production of lot- or serial-tracked items in Acumatica ERP Manufacturing Edition.
 

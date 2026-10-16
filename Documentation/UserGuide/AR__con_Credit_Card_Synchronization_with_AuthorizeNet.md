@@ -1,4 +1,4 @@
-# Credit Card Synchronization with Acumatica Payments {#_48b65c1b-a099-4624-a415-583efd1a9ea8 .concept}
+# Credit Card Synchronization with Acumatica Payments
 
 Acumatica ERP supports the synchronization of credit cards registered in the Acumatica Payments processing center. During the process of synchronizing the new credit card data, a user can associate each credit card with a payment method and a customer in Acumatica ERP. Credit card synchronization can be required when a card has been registered in the processing center but has not yet been used in Acumatica ERP; it can also be required when you need mass upload of new credit cards from the processing center.
 
@@ -6,7 +6,7 @@ You use the [Synchronize Cards](CA_20_60_00.md) \(CA206000\) form to view a list
 
 You can perform this processing manually or automatically.
 
-## Manual Processing {#section_sns_4jv_vxb .section}
+## Manual Processing
 
 To perform manual processing, you complete the following instructions:
 
@@ -27,7 +27,7 @@ To perform manual processing, you complete the following instructions:
 
 
 
-## Automatic Processing {#section_wns_4jv_vxb .section}
+## Automatic Processing
 
 You can set up the system to regularly load data from the processing center with new cards not defined in Acumatica ERP. On the [Synchronize Cards](CA_20_60_00.md) \(CA206000\) form, you can configure a schedule for the loading of data in the system by clicking **Schedules** &gt; **Add** on the form toolbar. In the **Automation Schedules** dialog box, which is opened, you specify how often you want the system to load data from the processing center. For details, see [To Schedule Automatic Loading of Card Data from External Processing Centers](AR__HOW_To_Schedule_Automatic_CC_Synchronization.md).
 

@@ -1,8 +1,8 @@
-# Contacts: Configuration Prerequisites {#_56a63385-2fca-4a77-8fd1-29f0c91d1818 .concept}
+# Contacts: Configuration Prerequisites
 
 Before you start creating contacts in Acumatica ERP, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the following features must be enabled.
 
@@ -10,7 +10,7 @@ On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the followin
 -   *Duplicate Validation* in the *Customer Management* group of features: This feature provides the duplicate validation functionality.
 -   *Outlook Integration* in the *Third-Party Integrations* group of features: Gives you the ability to register leads and contacts by using your Microsoft Outlook account, to log your activities, and to create opportunities.
 
-## Configuring the System { .section}
+## Configuring the System
 
 Before you start creating contacts in Acumatica ERP, you need to make sure that the following tasks have been performed:
 

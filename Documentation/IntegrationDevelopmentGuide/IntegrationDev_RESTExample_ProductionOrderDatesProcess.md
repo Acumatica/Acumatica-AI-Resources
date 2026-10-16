@@ -1,4 +1,4 @@
-# ProductionOrderDatesProcess {#_50627e8e-aa1c-4bb5-9ed5-85ed48bf1025 .concept}
+# ProductionOrderDatesProcess
 
 This chapter presents code examples showing requests that use the `ProductionOrderDatesProcess` entity.
 

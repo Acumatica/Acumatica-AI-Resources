@@ -1,4 +1,4 @@
-# Invoice with Combined Subaccounts: General Information {#_30b75319-26fd-4b11-9bd4-7630d70bbadc .concept}
+# Invoice with Combined Subaccounts: General Information
 
 If the *Subaccounts* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form, and subaccounts have been configured, you can enter and process AR invoices in which lines are classified by using multiple subaccounts. To speed up the creation of these invoices, you set up a subaccount mask that determines how subaccounts are combined in accounts receivable documents, as described in [Combined Subaccounts: To Define a Subaccount Mask for AR Documents](../ImplementationGuide/config_Combined_Subaccounts_Implem_Activity.md).
 
@@ -6,14 +6,14 @@ In an AR document that is entered in the system, multiple subaccounts are involv
 
 When you enter an AR invoice on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you perform the same steps as you do when you create an AR invoice that does not involve subaccounts. The system inserts the default subaccount for each line of the document according to the mask that is specified on the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form. These subaccounts can be overridden. For details on processing an AR invoice, see [Processing AR Invoices](Finance_ARInvoices_Mapref.md).
 
-## Learning Objectives {#section_pqr_4jv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Process an AR invoice when combined subaccounts have been configured for AR documents
 -   Review a report that is broken down by subaccounts
 
-## Applicable Scenarios {#section_rqr_4jv_vxb .section}
+## Applicable Scenarios
 
 You create an invoice manually when you need to enter a purchase of goods or services by a particular customer into the system; the system can create invoices automatically as a result of other processes as well. You then release the invoice that you have created and complete its processing in the system.
 

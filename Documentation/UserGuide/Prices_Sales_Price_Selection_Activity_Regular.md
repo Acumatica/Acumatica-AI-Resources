@@ -1,4 +1,4 @@
-# Sales Prices: To Explore Regular and Promotional Prices {#_f37bcab6-5791-4e67-82fb-a26062c11b0c .task}
+# Sales Prices: To Explore Regular and Promotional Prices
 
 In this activity, you will create several invoices to see how the system suggests a price in each particular case depending on which prices exist in the system and which of them has the highest priority.
 
@@ -6,13 +6,13 @@ In this activity, you will create several invoices to see how the system suggest
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that in January 2026, three customers FourStar Coffee &amp; Sweets Shop \(*COFFEESHOP*\), GoodFood One Restaurant \(*GOODFOOD*\), and Allen's Bakery \(*ABAKERY*\) purchased one-day online courses from SweetLife. The GoodFood One Restaurant customer also purchased a one-day offline course with a promotional price.
 
 Acting as SweetLife's accountant, you need to process an invoice for each of these customers for these purchases.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -21,11 +21,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *COFFEESHOP*, *GOODFOOD*, and *ABAKERY* customers have been predefined.
 -   On the **Shipping** tab of the [Customers](AR_30_30_00.md) \(AR303000\) form, the *GOODFOOD* and *COFFEESHOP* customers have been assigned to the *LOCAL* customer price class.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Customers](AR_30_30_00.md) \(AR303000\) form, you will update the settings of the *ABAKERY* customer. Then on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will start the creation of AR invoices for each of the customers that purchased the one-day online and offline courses. Finally, you will review the price that the system suggests in each invoice.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -33,7 +33,7 @@ To prepare the system, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026*. For simplicity, in this lesson, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu button to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Specifying Price Class for the ABAKERY Customer { .section}
+## Step 1: Specifying Price Class for the ABAKERY Customer
 
 To specify the *INTERN* price class for the Allen's Bakery customer, do the following:
 
@@ -42,7 +42,7 @@ To specify the *INTERN* price class for the Allen's Bakery customer, do the foll
 3.  In the **Price Class** box of the **Shipping** tab, select *INTERN*.
 4.  On the form toolbar, click **Save** to save the changes.
 
-## Step 2: Creating an AR Invoice for the COFFEESHOP Customer { .section}
+## Step 2: Creating an AR Invoice for the COFFEESHOP Customer
 
 To create an AR invoice for the FourStar Coffee &amp; Sweets Shop customer and analyze which sales price the system inserts in it, do the following:
 
@@ -64,7 +64,7 @@ To create an AR invoice for the FourStar Coffee &amp; Sweets Shop customer and a
     You do not need to save the invoice. You created it solely to test how the sales prices are applied.
 
 
-## Step 3: Creating an AR Invoice for the GOODFOOD Customer { .section}
+## Step 3: Creating an AR Invoice for the GOODFOOD Customer
 
 To create an AR invoice for the GoodFood One Restaurant customer and analyze which sales price the system inserts in it, do the following:
 
@@ -86,7 +86,7 @@ To create an AR invoice for the GoodFood One Restaurant customer and analyze whi
     You do not need to save the invoice. You created it solely to test how the sales prices are applied.
 
 
-## Step 4: Creating an AR Invoice for the ABAKERY Customer { .section}
+## Step 4: Creating an AR Invoice for the ABAKERY Customer
 
 To create an AR invoice for the Allen's Bakery customer and analyze which sales price the system inserts, do the following:
 
@@ -108,7 +108,7 @@ To create an AR invoice for the Allen's Bakery customer and analyze which sales 
     You do not need to save the invoice. You created it solely to test how the sales prices are applied.
 
 
-## Step 5: Creating an AR Invoice with a Promotional Price {#section_ij3_qy5_3pb .section}
+## Step 5: Creating an AR Invoice with a Promotional Price
 
 To create an AR invoice with the *OFLCOURSE* non-stock item, do the following:
 
@@ -131,7 +131,6 @@ To create an AR invoice with the *OFLCOURSE* non-stock item, do the following:
 
     The system has updated the price in the **Unit Price** column, because now the invoice date \(*1/30/2026*\) is outside of the range of the effective dates specified for the promotional price. Thus, the system has copied the default price of the item \($45\), because there are no other sales prices effective on this date and applicable to the *GOODFOOD* customer \(see the following screenshot\).
 
-    ![](Images/activity_Prices_Sales_Price_Selection_Regular.png "Unit price selected based on the default price of the OFLCOURSE non-stock item")
 
 5.  Close the form without saving your changes to the invoice, which was created solely for testing purposes.
 

@@ -1,4 +1,4 @@
-# To Delete a Customization of a Form {#_eca41a3a-f044-4bdc-b430-a83ce1b67f07 .concept}
+# To Delete a Customization of a Form
 
 If a customization project contains changes to multiple objects of Acumatica ERP, and you need to remove customization for only a single form, perform the following operations:
 

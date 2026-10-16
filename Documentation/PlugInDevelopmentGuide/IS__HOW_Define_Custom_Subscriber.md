@@ -1,4 +1,4 @@
-# To Define a Custom Subscriber Type for Business Events {#_ac371583-6fa8-4d65-a710-179330110930 .task}
+# To Define a Custom Subscriber Type for Business Events
 
 To define the actions that the system should perform once a business event has occurred, you specify the *subscribers* of this business event on the **Subscribers** tab of the [Business Events](../UserGuide/SM_30_20_50.md) \(SM302050\) form. A subscriber of a business event is an entity that the system processes when the business event occurs. The subscriber types available in the system include import scenarios, email notifications, mobile push notifications, and mobile SMS notifications. You can define a custom subscriber type for business events, as described in this topic.
 
@@ -6,7 +6,7 @@ To define the actions that the system should perform once a business event has o
 
 For more information on business events, see [Business Events: General Information](../UserGuide/SA_Using_Business_Events_GeneralInfo.md).
 
-## Creation of a Custom Subscriber Type for Business Events { .section}
+## Creation of a Custom Subscriber Type for Business Events
 
 1.  Define a class that implements the PX.BusinessProcess.Subscribers.ActionHandlers.IEventAction interface, which is a subscriber that the system executes once the business event has occurred.
 2.  In the class that implements the IEventAction interface, implement the following methods and properties of the interface:
@@ -67,7 +67,7 @@ For more information on business events, see [Business Events: General Informati
 5.  Compile your Acumatica ERP extension library with the implementation of the classes.
 6.  Open Acumatica ERP and test the new subscriber type.
 
-## Example { .section}
+## Example
 
 The following code shows an example of the implementation of a custom subscriber type. This custom subscriber writes the body of the notification to a text file.
 

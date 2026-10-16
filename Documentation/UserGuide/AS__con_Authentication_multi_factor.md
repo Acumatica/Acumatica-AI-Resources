@@ -1,4 +1,4 @@
-# Configuring Multifactor Authentication {#_a3fee177-e5a9-4f6c-8f69-686db37bee76 .concept}
+# Configuring Multifactor Authentication
 
 Acumatica ERP provides mechanisms to support multifactor authentication to prevent unauthorized system access. Security-conscious businesses require multifactor authentication to verify users' identities before allowing them to access sensitive ERP data.
 

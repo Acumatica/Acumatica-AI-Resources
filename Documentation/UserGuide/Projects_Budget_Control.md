@@ -1,4 +1,4 @@
-# Project Budget Control: Overrun Notifications During Document Entry {#_c17cd234-2ac9-1488-a687-fa3ccdaa1e16 .concept}
+# Project Budget Control: Overrun Notifications During Document Entry
 
 You can configure the system to notify a user if the amount in a line of the document they are entering would exceed the budget of the corresponding project budget line.
 

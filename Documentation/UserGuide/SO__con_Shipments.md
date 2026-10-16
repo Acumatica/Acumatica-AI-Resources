@@ -1,4 +1,4 @@
-# Processing Partial Shipments {#_1083bb4e-f28e-435c-bd82-f93814e565e2 .concept}
+# Processing Partial Shipments
 
 Shipping goods is the main part of the order fulfillment process. After a sales order has been entered and the goods have been picked for sending them to a customer, you process a shipment or multiple partial shipments. This chapter includes an overview of shipment processing in Acumatica ERP.
 

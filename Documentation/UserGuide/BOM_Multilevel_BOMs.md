@@ -1,10 +1,10 @@
-# Bills of Material: Multilevel BOMs {#_c57ff506-82ac-4e96-b06f-09563823c183 .concept}
+# Bills of Material: Multilevel BOMs
 
 Bills of material \(BOMs\) become multilevel when a subassembly \(that is, an item with another BOM assigned\) is used as a material in another assembly or subassembly. The complete structure, from finished goods to each subassembly to raw materials, is referred to a multilevel bill of material.
 
 You can view all levels of multilevel bills of material in a tree by using the [Engineering Workbench](AM_20_81_00.md) \(AM208100\) form. On this form, you can also create bills of material and modify existing BOMs.
 
-## Creation of a Multilevel BOM { .section}
+## Creation of a Multilevel BOM
 
 You can create a multilevel BOM with any number of levels; that is, a top-level BOM may include subassemblies as materials, which may also include subassemblies as materials. To create a multilevel bill of material, you do the following:
 
@@ -12,7 +12,7 @@ You can create a multilevel BOM with any number of levels; that is, a top-level 
 2.  Either on the [Bill of Material](AM_20_80_00.md) \(AM208000\) or on the [Engineering Workbench](AM_20_81_00.md) \(AM208100\) form, you create a bill of material for each item that is a subassembly.
 3.  On the [Engineering Workbench](AM_20_81_00.md) form, you create a bill of material for the top-level item to be produced. On this form, you add subassemblies as materials to production operations in which the subassemblies are used.
 
-## BOM Creation on the Engineering Workbench Form { .section}
+## BOM Creation on the Engineering Workbench Form
 
 For bills of materials that do not contain subassemblies as materials, you can use either the [Bill of Material](AM_20_80_00.md) \(AM208000\) or the [Engineering Workbench](AM_20_81_00.md) \(AM208100\) form. For multilevel bills of material, you can also use either of the two forms, but the [Bill of Material](AM_20_80_00.md) form does not display the structure of subassemblies, so it would be more convenient to use the [Engineering Workbench](AM_20_81_00.md) form.
 
@@ -31,7 +31,7 @@ You create a bill of material by using this form as follows:
 9.  You save these changes. If any of the added materials is a subassembly, the system displays the operations and materials of the subassembly BOM in the tree under the parent material node.
 10. You add as many operations as are needed.
 
-## Modification of the BOM Structure in the Tree { .section}
+## Modification of the BOM Structure in the Tree
 
 On the [Engineering Workbench](AM_20_81_00.md) \(AM208100\) form, you can modify the BOM structure as follows:
 

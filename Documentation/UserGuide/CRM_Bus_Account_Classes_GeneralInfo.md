@@ -1,17 +1,17 @@
-# Business Account Classes: General Information {#_a0eebf38-ee6e-418d-9a71-4639ceb3f7be .concept}
+# Business Account Classes: General Information
 
 In Acumatica ERP, you can group business accounts into classes based on specific characteristics. Business account classes help you quickly and effectively manage your marketing and sales processes. These include the creation of business accounts, the creation of opportunities and customers, and the preparation of financial reports.
 
 This topic provides information about business account classes.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Create a business account class
 -   Select the business account class that the system will use by default for each new business account
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to learn how to create business account classes in scenarios that include the following:
 
@@ -19,7 +19,7 @@ You may want to learn how to create business account classes in scenarios that i
 -   You need to give users the ability to group business accounts that represent companies of the same business sector, such as manufacturers, merchandisers, or service providers.
 -   You need to set up the system to automatically assign new business accounts to the appropriate owners.
 
-## Defining of Business Account Classes { .section}
+## Defining of Business Account Classes
 
 In Acumatica ERP, a business account class is a way to group business accounts that share at least one common characteristic. Business account classes make the creation of business accounts faster and more accurate by providing default settings for new business accounts.
 
@@ -36,7 +36,7 @@ You define each business account class on the [Business Account Classes](CR_20_8
 
 If your company no longer needs a particular business account class, you can remove it from the system only if no existing business accounts have that class specified.
 
-## How the Class Affects Contact Creation { .section}
+## How the Class Affects Contact Creation
 
 When you create a business account on the [Business Accounts](CR_30_30_00.md) \(CR303000\) form and select a business account class, the system inserts the business account’s default values based on the class settings. \(You can override these default settings.\)
 

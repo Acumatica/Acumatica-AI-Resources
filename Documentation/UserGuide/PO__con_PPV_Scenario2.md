@@ -1,4 +1,4 @@
-# Purchase Price Variance Allocation: Example 2 {#_5148836e-1dca-40f2-9659-0633580e1472 .concept}
+# Purchase Price Variance Allocation: Example 2
 
 This topic describes all the documents that you would have to create and the transactions generated for these documents for the following scenario:
 
@@ -6,7 +6,7 @@ This topic describes all the documents that you would have to create and the tra
 -   Purchased items have the *Average* cost valuation method assigned.
 -   Between the date of the receipt and the date of the bill, some quantities of the purchased items were issued \(sold\).
 
-## Step 1. Creating a Purchase Receipt { .section}
+## Step 1. Creating a Purchase Receipt
 
 By using the [Purchase Receipts](PO_30_20_00.md) \(PO302000\), suppose that you create a purchase receipt for the following items.
 
@@ -26,7 +26,7 @@ As a result, an inventory receipt is created and released. On its release, the f
 |**Inventory \(Item3\)**|5700|0|
 |**PO Accrual**|0|10960|
 
-## Step 2. Creating an Inventory Issue { .section}
+## Step 2. Creating an Inventory Issue
 
 During the next few days, you sell some quantities of the items. The inventory issue is generated with the following lines.
 
@@ -46,7 +46,7 @@ And this issue generates the following transactions.
 |**Inventory \(Item3\)**|0|1900|
 |**Expense \(COGS\)**|6410|0|
 
-## Step 3: Creating a Bill { .section}
+## Step 3: Creating a Bill
 
 Later, you receive and enter the vendor bill for the initial quantities of the items with the following information.
 

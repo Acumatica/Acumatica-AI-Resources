@@ -1,12 +1,12 @@
-# Tenant Maintenance: To Deploy an Instance with Multiple Tenants {#_505ddffa-5f90-4a3e-914c-47519ca95bd5 .task}
+# Tenant Maintenance: To Deploy an Instance with Multiple Tenants
 
 The following activity will walk you through the process of creating an Acumatica ERP application instance with three tenants. You will also make some changes to the tenants of the instance.
 
-## Story { .section}
+## Story
 
 Suppose that you are the system administrator for a group of companies, and you need to deploy the Acumatica ERP application instance with three tenants, one for each of the companies included in the group. You also need to make some changes to the tenants and then delete one of the existing tenants.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -14,11 +14,11 @@ In this activity, you will do the following:
 2.  Set up the visibility of a tenant.
 3.  Delete an existing tenant.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin deploying an Acumatica ERP application instance, make sure that you have performed the following prerequisite activity: [Acumatica ERP Installation On-Premises: To Install the Acumatica ERP Configuration Wizard](INST_Installing_Configuration_Wizard_Activity.md).
 
-## Step 1: Creating an Instance with Multiple Tenants and Changing Tenants’ Visibility Settings { .section}
+## Step 1: Creating an Instance with Multiple Tenants and Changing Tenants’ Visibility Settings
 
 To create a multitenant Acumatica ERP instance, do the following:
 
@@ -52,7 +52,6 @@ To create a multitenant Acumatica ERP instance, do the following:
 
         This makes *Company3* the child of *Company*. In this configuration, users will be able to sign in to only *Company2* and *Company3*, because these tenants do not have children.
 
-        ![](Images/activity_INST_Deployment_Instances_Multiple_Tenants.png "The tenants to be created for the instance")
 
     6.  Click **Next** to go to the next page.
 6.  On the Database Connection page, select **Windows Authentication**; click **Next**.
@@ -78,10 +77,9 @@ To create a multitenant Acumatica ERP instance, do the following:
 
     The instance opens in a new tab of your default browser. Notice that the instance’s Sign-In page has the tenant selection box above the **Sign In** button with the *Company2* and *Company3* tenants you have created in this step, as shown in the following screenshot.
 
-    ![](Images/activity_INST_Deployment_Instances_Multiple_Tenants_Sign_In_Page.png "The Sign-In page with the tenant selection box")
 
 
-## Step 2: Setting Up Tenant Visibility { .section}
+## Step 2: Setting Up Tenant Visibility
 
 To make changes to tenants of the created instance, do the following:
 
@@ -103,7 +101,6 @@ To make changes to tenants of the created instance, do the following:
 
     This makes the tenant invisible to all users. Only the *Company2* and *Company4* tenants have the **Visible** check box selected, as shown in the following screenshot.
 
-    ![](Images/activity_INST_Deployment_Instances_Multiple_Tenants_Secure_Box.png "The restriction of tenant visibility on the Sign-In page")
 
 7.  Click **Next**.
 8.  On the Confirmation of Configuration page, click **Finish**.
@@ -117,13 +114,11 @@ To make changes to tenants of the created instance, do the following:
 
     Because the *admin* user has access to all the tenants you have created, the tenant selection box is displayed for the user. Notice that only *Company2* and *Company4* are available for signing in, as shown in the following screenshot.
 
-    ![](Images/activity_INST_Deployment_Instances_Multiple_Tenants_Tenant_Box.png "The tenant selection box on the Sign-In page")
 
 13. Select the *Company2* tenant in the tenant selection box and click **Sign In**.
 
     The Sign-In page refreshes and shows the read-only tenant selection box with the selected *Company2* tenant. The system prompts you to enter a new password and confirm it, as shown in the following screenshot.
 
-    ![](Images/activity_INST_Deployment_Instances_Multiple_Tenants_New_Password.png "Creation of a new password for a tenant in a multitenant instance")
 
 14. Enter a new password and confirm it.
 15. Click the link of the Acumatica User Agreement above the **Sign In** button, read the agreement, and then select the check box to indicate that you have read the terms of the agreement and agree to them.
@@ -134,16 +129,14 @@ To make changes to tenants of the created instance, do the following:
 17. Sign out.
 18. On the Sign-In page, enter the default username and password for the application instance \(*admin* and *setup*, respectively\) to access the *Company4* tenant. Since the *admin* user has access to all the tenants you have created, the system prompts you to change the default password for the *Company4* tenant, as shown in the following screenshot. Notice that because you have entered the default password, the tenant selection box for the remaining *Company4* tenant does not appear.
 
-    ![](Images/activity_INST_Deployment_Instances_Multiple_Tenants_New_Password_Next_Tenant.png "Creation of a new password for another tenant in a multitenant instance")
 
 19. Change the password and click **Next**.
 
     You have signed in to the *AcumaticaMultitenant* instance. Now you can work within the *Company4* tenant. You can also switch to the *Company2* tenant in the user menu, as shown in the following screenshot.
 
-    ![](Images/activity_INST_Deployment_Instances_Multiple_Tenants_Access_to_Multiple_Tenants.png "Access to multiple tenants")
 
 
-## Step 3: Deleting an Existing Tenant { .section}
+## Step 3: Deleting an Existing Tenant
 
 In this step, you will delete the unnecessary tenant by doing the following:
 

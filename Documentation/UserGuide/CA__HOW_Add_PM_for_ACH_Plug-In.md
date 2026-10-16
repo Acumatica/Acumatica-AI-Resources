@@ -1,12 +1,12 @@
-# To Add a Payment Method for the U.S. ACH Plug-In {#_c6f22ff7-effb-48d8-9bde-78d421dd4dec .task}
+# To Add a Payment Method for the U.S. ACH Plug-In
 
 You use the [Payment Methods](CA_20_40_00.md) \(CA204000\) form to create a payment method to be used for Automated Clearing House \(ACH\) payments through the U.S. ACH plug-in.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Review the cash accounts you have and decide which ones you are going to use as the source of payments to your vendors. You will specify these in Step 9 below.
 
-## To Add a Payment Method for the U.S. ACH Plug-In { .section}
+## To Add a Payment Method for the U.S. ACH Plug-In
 
 To add a payment method that uses the U.S. ACH plug-in, do the following:
 
@@ -37,7 +37,7 @@ To add a payment method that uses the U.S. ACH plug-in, do the following:
 
 After the payment method is configured, you should specify your remittance information for each cash account that you have listed on the **Allowed Cash Accounts** tab \(as described in [To Add Remittance Information to a Cash Account](CA__HOW_Add_RemittanceInfo_to_CashAccount.md)\), and specify ACH credentials for each vendor that agreed to receive your payments through the ACH network.
 
-## To Add Payment Details for a Vendor { .section}
+## To Add Payment Details for a Vendor
 
 To add payment details for a vendor that will receive your payments, do the following:
 

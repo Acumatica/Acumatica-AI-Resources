@@ -1,4 +1,4 @@
-# Sales Price Uploading: Process Activity {#_22c38a82-5e0f-476a-b120-897641dafed2 .task}
+# Sales Price Uploading: Process Activity
 
 In this activity, you will learn how to upload sales price lists with regular prices and promotional prices. You will also review how the history of updated prices is kept in the system.
 
@@ -6,13 +6,13 @@ In this activity, you will learn how to upload sales price lists with regular pr
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company has decided to update regular sales prices for 2026 and set up promotional prices for some items during the holiday season.
 
 Acting as SweetLife's accountant, you need to upload two Excel files with both sales price worksheets and see how the system uses them. You also want to review how the sales prices are retained in the system.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -20,20 +20,20 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customer Price Classes](AR_20_80_00.md) \(AR208000\) form, the *LOCAL* customer price class has been created.
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *ABAKERY* and *COFFEESHOP* customers have been created.
 
-## Process Overview { .section}
+## Process Overview
 
 First, you will create sales price worksheets by uploading Excel files on the [Sales Price Worksheets](AR_20_20_10.md) \(AR202010\) form. Then you will release each sales price worksheet and review the new prices on the [Sales Prices](AR_20_20_00.md) \(AR202000\) form.
 
 Finally, to analyze how the system selects prices, you will create an AR invoice on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 1.  Download the [PricesAndDiscounts\_SalesPrices\_Base\_2026\_01\_01.xlsx](Files/PricesAndDiscounts_SalesPrices_Base_2026_01_01.xlsx) and [PricesAndDiscounts\_SalesPrices\_Promotion\_2025\_12\_01.xlsx](Files/PricesAndDiscounts_SalesPrices_Promotion_2025_12_01.xlsx) files to your computer.
 2.  Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in to the system as an accountant by using the *johnson* username and the *123* password.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026*. For simplicity, in this lesson, you will create and process all documents in the system on this business date.
 4.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Importing a Sales Price Worksheet with Base Prices { .section}
+## Step 1: Importing a Sales Price Worksheet with Base Prices
 
 To import a sales price worksheet with base prices effective from 1/1/2026, do the following:
 
@@ -48,11 +48,10 @@ To import a sales price worksheet with base prices effective from 1/1/2026, do t
 9.  In Step 3, for the **Price** column name, specify the **Pending Price** property name and click **Finish**.
 10. Make sure that the worksheet contains four lines \(see the following screenshot\), and save it.
 
-    ![](Images/activity_The_Newly_Created_Sales_Price_Worksheet.png "The newly created sales price worksheet")
 
 11. On the form toolbar, click **Remove Hold**, and then click **Release** to release the worksheet.
 
-## Step 2: Importing a Sales Price Worksheet with Promotional Prices { .section}
+## Step 2: Importing a Sales Price Worksheet with Promotional Prices
 
 To import a sales price worksheet with promotional prices that are effective from *12/1/2025* to *1/15/2026*, do the following:
 
@@ -68,11 +67,10 @@ To import a sales price worksheet with promotional prices that are effective fro
 10. In Step 3, for the **Price** column name, specify the **Pending Price** property name and click **Finish**.
 11. Make sure that the worksheet contains five lines and save it.
 
-    ![](Images/activity_The_Newly_Created_Sales_Price_Worksheet_Promotional_Prices.png "The newly created sales price worksheet with promotional prices")
 
 12. On the form toolbar, click **Remove Hold**, and then click **Release**.
 
-## Step 3: Reviewing How the System Retains the Sales Prices { .section}
+## Step 3: Reviewing How the System Retains the Sales Prices
 
 To review the sales prices for the *ONLCOURSE* non-stock item, do the following:
 
@@ -89,10 +87,9 @@ To review the sales prices for the *ONLCOURSE* non-stock item, do the following:
 
     Besides, the customer-specific price configured for *COFFEESHOP* \($13.00\) and the price for the *LOCAL* customer price class \($14.50\) are also effective in the system starting from 1/1/2025, as shown in the screenshot.
 
-    ![](Images/activity_Prices_Uploading_Sales_Price_Lists.png "The sales prices specified for the ONLCOURSE non-stock item")
 
 
-## Step 4: Creating an Invoice with the New Price { .section}
+## Step 4: Creating an Invoice with the New Price
 
 To create an AR invoice with a new sales price, do the following:
 
@@ -113,7 +110,6 @@ To create an AR invoice with a new sales price, do the following:
 4.  In the **Date** box of the Summary area, change the date to *1/3/2026*.
 5.  On the **Details** tab, review the price in the **Unit Price** column. It now shows the new promotional price \($12\) effective from *12/1/2025* to *1/15/2026*, as shown in the following screenshot, because the invoice date is within this date range, and promotional prices have a priority over base prices.
 
-    ![](Images/activity_Invoice_With_the_Promotional_Price.png "The invoice with the promotional price specified for the ONLCOURSE non-stock item")
 
 6.  Close the form without saving your changes to the invoice, which was created solely for testing purposes.
 

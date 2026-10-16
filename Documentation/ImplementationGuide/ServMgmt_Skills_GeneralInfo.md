@@ -1,4 +1,4 @@
-# Skills: General Information {#_ddaf7656-fa88-45f8-b243-c90a6c64f1f9 .concept}
+# Skills: General Information
 
 Acumatica ERP provides capabilities to help you ensure that each service is performed by the right staff member. If a service requires specific skills or expertise, the system automatically suggests staff members who possess the necessary skills.
 
@@ -6,7 +6,7 @@ A skill record can be assigned to an employee and used as a requirement for perf
 
 In this topic, you will learn how to create skills in the system and assign them to both staff members and services.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -14,17 +14,17 @@ In this chapter, you will learn how to do the following:
 -   Assign a skill to a staff member
 -   Assign a skill to a service
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create skill records in the system when certain services require specific expertise, and you need to filter or assign staff members to appointments based on their skills.
 
-## Assignment of Skills to a Staff Member { .section}
+## Assignment of Skills to a Staff Member
 
 Before creating a list of skills to be used in your company’s services, gather information about the skills required for all services your company provides. Then, create the list of required skills on the [Skills](../UserGuide/FS_20_06_00.md) \(FS200600\) form.
 
 Once the list of skills is defined, assign the necessary skills to the appropriate staff members and specific services. You can assign skills to a staff member on the **Skills** tab of the [Employees](../UserGuide/EP_20_30_00.md) \(EP203000\) form.
 
-## Assignment of Skills to a Service { .section}
+## Assignment of Skills to a Service
 
 On the [Non-Stock Items](../UserGuide/IN_20_20_00.md) \(IN202000\) form, for a selected service, you specify one or more skills required to perform this service. To do this, you select the service \(a non-stock item of the *Service* type\), and on the **Service Skills** tab, add a row for each required skill.
 

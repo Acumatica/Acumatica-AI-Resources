@@ -1,4 +1,4 @@
-# To Prepare ACH Payments {#_e1776318-012a-4944-816d-d113f0853409 .task}
+# To Prepare ACH Payments
 
 To pay a vendor through the Automated Clearing House \(ACH\) network, you perform the following steps:
 
@@ -6,13 +6,13 @@ To pay a vendor through the Automated Clearing House \(ACH\) network, you perfor
 2.  Export the batch into a file, as described in [To Export a Batch of ACH Payments](AP__how_Exporting_a_Batch_of_ACH_Payments.md).
 3.  Email the file to the ACH operator for further processing.
 
-## Before You Proceed {#section_z34_njv_vxb .section}
+## Before You Proceed
 
 Make sure the appropriate payment documents have been created in the system but not yet released. The payment method to be used for ACH payments must be associated with these payments.
 
-Make sure that the payment method to be used for ACH payments has been configured in Acumatica ERP; associate it with each vendor that prefers ACH payments. In addition, the file export functionality must be set up in the system to export batches as a file to be processed within the ACH network. For more information, see [Processing ACH Payments](AP__con_ACH_Payment_Support.md).
+Make sure that the payment method to be used for ACH payments has been configured in Acumatica ERP; associate it with each vendor that prefers ACH payments. In addition, the file export functionality must be set up in the system to export batches as a file to be processed within the ACH network. For more information, see [ACH Payments](AP__con_ACH_Payment_Support.md).
 
-## To Prepare ACH Payments for Export {#section_cj4_njv_vxb .section}
+## To Prepare ACH Payments for Export
 
 1.  Open the [Process Payments / Print Checks](../Shared/../UserGuide/AP_50_50_00.md) \(AP505000\) form.
 2.  In the **Payment Method** box of the Selection area, select a payment method used for ACH payments in your system \(for example, *ACH*\).
@@ -30,5 +30,5 @@ Make sure that the payment method to be used for ACH payments has been configure
     **Tip:** If the **Release Batch Payment Before Export** check box is selected for the payment method on the [Payment Methods](../Shared/../UserGuide/CA_20_40_00.md) \(CA204000\) form, the batch must be released before it can be exported. If this check box is cleared, the batch can be released after is has been exported.
 
 
-**Parent topic:**[Processing ACH Payments](../UserGuide/AP__con_ACH_Payment_Support.md)
+**Parent topic:**[ACH Payments](../UserGuide/AP__con_ACH_Payment_Support.md)
 

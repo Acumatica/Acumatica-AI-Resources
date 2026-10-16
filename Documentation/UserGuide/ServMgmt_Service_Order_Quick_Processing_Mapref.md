@@ -1,4 +1,4 @@
-# Quick Billing of Service Orders {#_d6621c13-1f6f-47ef-a417-c3c5c82ca572 .concept}
+# Quick Billing of Service Orders
 
 In this chapter, you will learn how to use the quick processing capabilities of the system, which give users the ability process a service order with just one click.
 
@@ -6,6 +6,4 @@ In this chapter, you will learn how to use the quick processing capabilities of 
 
 -   **[Quick Billing of a Service Order: Process Activity](../UserGuide/ServMgmt_Service_Order_Quick_Process_Activity.md)**  
 
-
-**Parent topic:**[Service Management](../UserGuide/FS_00_00_01.md)
 

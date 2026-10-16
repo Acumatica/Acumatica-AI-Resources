@@ -1,8 +1,8 @@
-# Sidebar Menu {#_4357519f-bf25-40a7-9f71-a9223031367a .concept}
+# Sidebar Menu
 
 The mobile application has a *sidebar menu*, which is the shortcut menu for favorite folders and screens. You can insert links to folders and screens into the sidebar menu.
 
-## Example: Adding a Screen to the Sidebar Menu { .section}
+## Example: Adding a Screen to the Sidebar Menu
 
 To add a folder or screen to the sidebar menu, you need to set the IsDefaultFavorite attribute of the folder or screen to *true*.
 
@@ -32,7 +32,6 @@ Copy the code below to an `.xml` file, put the file in the `\App_Data\Mobile` fo
 
 The resulting sidebar menu of the mobile application will include a link for quick access to the Projects screen.
 
-![](Images/222.png "A link to the screen in the sidebar menu")
 
 **Parent topic:**[Configuring the Mobile Site Map by Using XML \(deprecated\)](../StudioDeveloperGuide/MOBILE_UIStructure.md)
 

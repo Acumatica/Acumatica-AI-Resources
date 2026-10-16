@@ -1,18 +1,18 @@
-# Conversion of a Purchase: General Information {#_2dc67bae-d0ce-413b-95ab-42a2e4d04a2c .concept}
+# Conversion of a Purchase: General Information
 
 When you purchase an item, you can enter it as a fixed asset in Acumatica ERP in either of the following ways:
 
 -   You can create the asset manually and further reconcile its cost with the appropriate financial transactions. This approach is described in the [Creating Fixed Assets](FixedAssets_Adding_Fixed_Asset_Mapref.md) chapter.
 -   You can convert an existing purchase into a fixed asset or multiple fixed assets, as described in this chapter. This is easiest way to create a fixed asset. Once your company has purchased any property that is supposed to be a fixed asset, you enter an AP bill or a GL transaction in the system on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) or [Journal Transactions](GL_30_10_00.md) \(GL301000\) form respectively. Then on the [Convert Purchases to Assets](FA_50_45_00.md) \(FA504500\) form, you direct the system to create the corresponding fixed asset with the appropriate settings. On this form, you can convert to a fixed asset any debit entry posted in the general ledger to any account.
 
-## Learning Objectives {#section_dlc_ljv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Convert a purchase to a fixed asset
 -   Convert a purchase to multiple fixed assets
 
-## Applicable Scenarios {#section_flc_ljv_vxb .section}
+## Applicable Scenarios
 
 You convert purchases to fixed assets in the following cases:
 
@@ -21,7 +21,7 @@ You convert purchases to fixed assets in the following cases:
 
 During the conversion, the system will generate a *Purchasing+* transaction that records the asset acquisition and a *Reconciliation+* transaction that will reconcile the converted amount and link the created asset to the appropriate purchase.
 
-## Conversion of Items into Fixed Assets {#section_ilc_ljv_vxb .section}
+## Conversion of Items into Fixed Assets
 
 All the transactions that are associated with converting acquired items into fixed assets are aggregated by default on one account \(and subaccount, if subaccounts are used in the system\). You specify the FA Accrual account and subaccount on the [Fixed Assets Preferences](FA_10_10_00.md) \(FA101000\) form, and it is used as the default account and subaccount for these transactions.
 
@@ -45,7 +45,7 @@ You can review the settings of any converted fixed asset on the [Fixed Assets](F
 
 Converting a purchase into a fixed asset creates *Purchasing +* and *Reconciliation +* transactions. For more information about transaction types, see [Types of Fixed Asset Transactions](FA__con_Transaction_Types.md).
 
-## Support of Multiple Base Currencies {#section_slc_ljv_vxb .section}
+## Support of Multiple Base Currencies
 
 If the *Multiple Base Currencies* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the following rules are applied when a user is converting a purchase to an asset on the [Convert Purchases to Assets](FA_50_45_00.md) form:
 
@@ -53,26 +53,72 @@ If the *Multiple Base Currencies* feature is enabled on the [Enable/Disable Feat
 -   If a user is adding a new asset, the **Purchase Transactions** table shows only the GL transactions in the same base currency as the base currency of the selected branch.
 -   If a user is making an addition to a fixed asset, the lookup table in the **Asset ID** column of the **Fixed Assets** table shows only the assets whose currency is the same as the base currency of the selected branch.
 
-## Fixed Asset Statuses {#section_ulc_ljv_vxb .section}
+## Fixed Asset Statuses
 
 The status of a fixed asset is shown on the **General** tab of the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form. During its lifecycle, an asset can have any of the following statuses.
 
-|Status|Description|
-|------|-----------|
-|*On Hold*|The asset can still be edited, but cannot be depreciated or disposed of. An asset has this status if the user clicks **Hold** on the More menu of the [Fixed Assets](FA_30_30_00.md) form for it.
+<table id="_f48a4a99-b6d1-4ba5-8d13-c9a401f0a16f"><thead><tr><th>
+
+Status
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+*On Hold*
+
+</td><td>
+
+The asset can still be edited, but cannot be depreciated or disposed of. An asset has this status if the user clicks **Hold** on the More menu of the [Fixed Assets](FA_30_30_00.md) form for it.
 
  The asset can be deleted.
 
-|
-|*Active*|The asset can be depreciated and disposed of, but some of its settings cannot be changed. The asset receives this status by default when a new asset is created or when the user clicks **Remove Hold** on the More menu of the [Fixed Assets](FA_30_30_00.md) form for an asset with the *On Hold* status.
+</td></tr><tr><td>
+
+*Active*
+
+</td><td>
+
+The asset can be depreciated and disposed of, but some of its settings cannot be changed. The asset receives this status by default when a new asset is created or when the user clicks **Remove Hold** on the More menu of the [Fixed Assets](FA_30_30_00.md) form for an asset with the *On Hold* status.
 
  The asset can be deleted if the acquisition transaction is not released yet.
 
-|
-|*Fully Depreciated*|The asset's cost was fully depreciated over the useful life of the asset in all depreciation books assigned to the asset.|
-|*Disposed*|The asset has been disposed of \(for example, sold or abandoned\).|
-|*Suspended*|The depreciation has been temporarily stopped for the asset.|
-|*Reversed*|The asset has been reversed.|
+</td></tr><tr><td>
+
+*Fully Depreciated*
+
+</td><td>
+
+The asset's cost was fully depreciated over the useful life of the asset in all depreciation books assigned to the asset.
+
+</td></tr><tr><td>
+
+*Disposed*
+
+</td><td>
+
+The asset has been disposed of \(for example, sold or abandoned\).
+
+</td></tr><tr><td>
+
+*Suspended*
+
+</td><td>
+
+The depreciation has been temporarily stopped for the asset.
+
+</td></tr><tr><td>
+
+*Reversed*
+
+</td><td>
+
+The asset has been reversed.
+
+</td></tr></tbody>
+</table>
 
 The status of the fixed asset balance is shown in the **Status** column on the **Balance** tab of the [Fixed Assets](FA_30_30_00.md) form, which displays a row for each depreciation book. The status may vary for different depreciation books. The fixed asset balance for each book can have one of the following statuses:
 
@@ -82,11 +128,10 @@ The status of the fixed asset balance is shown in the **Status** column on the *
 -   *Suspended*: Depreciation has been temporarily stopped for the asset. This status is the same for all books.
 -   *Reversed*: The asset has been reversed. If the asset has multiple books, this status is the same for all books.
 
-## Workflow of Fixed Asset Conversion { .section}
+## Workflow of Fixed Asset Conversion
 
 The following diagram shows the conversion of a purchase into a fixed asset.
 
-![](Images/diag_Finance_FA_Conversion_of_Purchase_to_Asset.png)
 
 As the diagram shows, the conversion of a purchase involves these steps:
 

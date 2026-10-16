@@ -1,4 +1,4 @@
-# Validation of Customization Projects: Ignore List for the Compatibility Validation Errors {#_282cc58a-4700-4e9d-8cf6-4641e625c0d6 .concept}
+# Validation of Customization Projects: Ignore List for the Compatibility Validation Errors
 
 If the validation of the compatibility of the published customization with the new version fails, the platform cancels the upgrade process and shows an error message. However, if you’re sure that a generated error isn’t really an error, you can force the validation process to ignore it so that you can continue upgrading of the customized instance of Acumatica ERP. For example, you may need to ignore an error in a third-party DLL file.
 

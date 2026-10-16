@@ -1,18 +1,18 @@
-# Transitions: To Implement a Group of Transitions {#_db042c3b-2ef2-4901-bddb-a7c7a6e3eee0 .task}
+# Transitions: To Implement a Group of Transitions
 
 The following activity will walk you through the process of implementing a group of transitions—that is, a set of transitions that have the same source workflow state.
 
-## Story { .section}
+## Story
 
 Suppose that a user should be able to remove a repair work order from hold when the order has the *On Hold* status. The user should be able to do this by clicking the **Remove Hold** button on the form toolbar or the equivalent command on the More menu. The status of the repair work order should be changed to *Ready for Assignment* or *Pending Payment*, depending on whether the repair work order requires a prepayment.
 
-## Process Overview { .section}
+## Process Overview
 
 In [Transitions: To Implement a Transition Triggered by an Action](WorkflowAPI_Transitions_Activity_RemoveHold.md), you have implemented an unconditional transition from the `OnHold` workflow state to the `ReadyForAssignment` workflow state.
 
 Here you will add a transition from the `OnHold` workflow state to the `PendingPayment` workflow state and modify the transition from the `OnHold` workflow state to the `ReadyForAssignment` workflow state. You will also define the conditions on which these transitions are performed.
 
-## System Preparation { .section}
+## System Preparation
 
 Make sure that you have done the following:
 

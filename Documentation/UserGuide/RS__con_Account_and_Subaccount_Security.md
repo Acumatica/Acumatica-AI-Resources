@@ -1,4 +1,4 @@
-# Account and Subaccount Security {#_7f4d2128-5ca0-4f40-84e1-11b0d51603de .concept}
+# Account and Subaccount Security
 
 In Acumatica ERP, you can control which users will use particular general ledger accounts and subaccounts.
 
@@ -8,7 +8,7 @@ To configure the security of GL accounts and subaccounts, you can use a combinat
 
 In this topic, you will read about using restriction groups and branch-specific roles to configure and manage the security of accounts and subaccounts.
 
-## Usage Scenarios { .section}
+## Usage Scenarios
 
 The most common scenarios of managing the security of accounts and subaccounts are the following:
 
@@ -24,7 +24,7 @@ The most common scenarios of managing the security of accounts and subaccounts a
 
 Cash accounts are one type of sensitive accounts that you may need to secure in the system. The ways of managing the security of cash accounts differ from the ways of managing the security of GL accounts. For more information, see [Security of Cash Accounts](../Shared/../UserGuide/CA__CON_Access_to_CashAccounts.md).
 
-## Visibility by Branch {#_85023523-9902-4ee8-b72e-f41ff4ecdc7f .section}
+## Visibility by Branch
 
 If your organization has users who have access to multiple branches, you can use restriction groups to narrow the lists of accounts and subaccounts on data entry forms by branch. With restriction groups set up in this way, users will make fewer mistakes when selecting accounts and subaccounts on data entry forms.
 
@@ -42,7 +42,7 @@ For example, suppose that your organization has two branches—the Headquarters 
 
 After you have configured restriction groups for accounts and branches, or subaccounts and branches, the system will narrow the lists of accounts or the list of subaccounts on data entry forms after a user selects a branch. For example, suppose that an accountant is adding a bill on the [Bills and Adjustments](../Shared/../UserGuide/AP_30_10_00.md) \(AP301000\) form and selects the *HQ* branch in the **Branch** column of the **Details** tab. In the **Account** column of the same tab, the accountant will see only accounts added to the *HQ Accounts* restriction group.
 
-## Visibility by User {#_d92ce37f-7040-4111-8dce-ba89b0934bd0 .section}
+## Visibility by User
 
 Within branches, your organization may have sensitive or confidential accounts and subaccounts which must be invisible for majority of users. You can control the visibility of these accounts and subaccounts for users \(that is, which users can view the accounts and subaccounts\) by using restriction groups.
 
@@ -58,7 +58,7 @@ As another example, suppose that the subaccount for the financial department can
 2.  You add to the group the user accounts of the accountants.
 3.  You add to the group the subaccount for the financial department.
 
-## Visibility of Subaccounts by Account {#_9d38c5c9-eb78-48b1-bc51-dee32a710a19 .section}
+## Visibility of Subaccounts by Account
 
 You can specify which subaccounts can be used with only a particular account on forms in Acumatica ERP; thus, the specified subaccounts will appear for selection only if that account is selected. This limitation will help users to avoid errors when they select accounts and subaccounts on forms.
 
@@ -69,7 +69,7 @@ For example, suppose that the *ELE-000* subaccount, which is used for electronic
 1.  *Stock Item Subaccounts*: In this group, you need to include the *12100* warehouse account and the *ELE-000* subaccount.
 2.  *Non-Stock Item Subaccounts*: To this group, you should add the *12200* warehouse account and the *NSS-000* subaccount.
 
-## Visibility of Accounts, Subaccounts, and Users {#_995e04c3-b159-4e59-b650-4fb3e9568892 .section}
+## Visibility of Accounts, Subaccounts, and Users
 
 By using restriction groups, you can combine the functionality of the following scenarios:
 
@@ -88,7 +88,7 @@ For example, suppose that the *ELE-000* \(electronics and computers\) and *FUR-0
 3.  You add to the group the *ELE-000* and *FUR-000* subaccounts.
 4.  You add to the group User Y and User Z.
 
-## Forms for Account and Subaccount Security { .section}
+## Forms for Account and Subaccount Security
 
 In the following table, you can find the list of forms that you can use to manage restriction groups with accounts, subaccounts, and subaccount segments, and tasks that you can resolve by using each form.
 
@@ -105,7 +105,7 @@ In the following table, you can find the list of forms that you can use to manag
 
 For information about how to add or remove objects from a restriction group, see [Operations with Restriction Groups](../Shared/../UserGuide/RS__con_Operations_Restriction_Groups.md).
 
-## Limitations { .section}
+## Limitations
 
 When configuring the security of accounts and subaccounts, keep in mind that the following limitations are applicable in the system:
 

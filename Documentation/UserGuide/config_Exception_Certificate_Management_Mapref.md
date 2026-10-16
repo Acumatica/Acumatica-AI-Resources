@@ -1,4 +1,4 @@
-# Configuring Exception Certificate Management with Avalara {#_82270e1e-cb6f-428e-a0dd-2b53b36ce0a6 .concept}
+# Configuring Exception Certificate Management with Avalara
 
 In 43 states across the United States, economic nexus laws require businesses to collect and remit sales taxes based on their activities within each state. These laws require businesses to manage tax-exempt transactions for various customer types, such as healthcare organizations, governments, universities, and nonprofit organizations, which are exempt from tax payments. Therefore, companies must have current and correct versions of their customers' tax exemption certificates to accurately apply valid certificates to transactions.
 

@@ -1,4 +1,4 @@
-# Configuring Conditions and Transitions {#_72c3a105-ffa5-44dc-801d-2a8d1cc8141e .concept}
+# Configuring Conditions and Transitions
 
 In this chapter, you will learn how to use conditions in a workflow. You can use conditions to specify when actions should be performed, when transitions should be triggered, and when certain fields are available on the form based on the status of the record. You will also learn how to configure transitions between workflow states.
 

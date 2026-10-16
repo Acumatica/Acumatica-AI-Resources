@@ -1,12 +1,12 @@
-# Barcode Scan Class: To Create a Barcode Scan Class {#_dc434af2-e24b-4dc4-970f-5e2dac563c9f .task}
+# Barcode Scan Class: To Create a Barcode Scan Class
 
 This activity will walk you through the process of creating a barcode scan class.
 
-## Story { .section}
+## Story
 
 Suppose that you need to create a barcode-driven version of the [Physical Inventory Review](../UserGuide/IN_30_50_00.md) \(IN305000\) form. The form should have only one scan mode. For this form, you need to define a barcode scan class and configure this mode.
 
-## Process Overview { .section}
+## Process Overview
 
 You will define the `INScanCount` barcode scan class as a descendant of the WarehouseManagementSystem&lt;TSelf,TGraph&gt; base scan class.
 
@@ -14,11 +14,11 @@ In the `INScanCount` class, you will create a host class as an empty descendant 
 
 You will then implement the CreateScanModes\(\) `abstract` method of the base class to make the barcode scan class usable. In the method, you will use the `yield return` construction to avoid array creation.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, you need to prepare an Acumatica ERP instance and the *PhoneRepairShop* customization project by performing the [Test Instance: To Deploy an Instance](WMSEngine_InitialConfiguration_Activity_DeployInstance.md) prerequisite activity.
 
-## Step 1: Creating a Barcode Scan Class { .section}
+## Step 1: Creating a Barcode Scan Class
 
 To create a barcode scan class, do the following:
 
@@ -66,7 +66,7 @@ To create a barcode scan class, do the following:
 
 7.  Fix or suppress the [PX1016](https://github.com/Acumatica/Acuminator/blob/master/docs/diagnostics/PX1016.md) error that is displayed by Acuminator.
 
-## Step 2: Making the Barcode Scan Class Usable { .section}
+## Step 2: Making the Barcode Scan Class Usable
 
 To make the barcode scan class usable, do the following:
 

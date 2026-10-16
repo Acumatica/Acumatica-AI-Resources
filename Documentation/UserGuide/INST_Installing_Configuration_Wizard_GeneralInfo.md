@@ -1,10 +1,10 @@
-# Acumatica ERP Installation On-Premises: General Information {#_ef2a1bf3-f6a2-421e-9fc2-611e875c379a .concept}
+# Acumatica ERP Installation On-Premises: General Information
 
 The installation of Acumatica ERP begins with installing the Acumatica ERP Configuration wizard on the server. You can install the Acumatica ERP Configuration wizard with or without the Acumatica ERP Tools.
 
 This topic provides an overview of the Acumatica ERP Configuration wizard and the Acumatica ERP Tools. It describes their functionalities, capabilities, and installation processes.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -14,11 +14,11 @@ In this chapter, you will do the following:
 -   Install the Acumatica ERP Configuration wizard
 -   Optional: Install the Acumatica ERP Tools
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 You may need to learn how to install the Acumatica ERP Configuration wizard if you are an implementation consultant who needs to install the Acumatica ERP Configuration wizard.
 
-## The Acumatica ERP Configuration Wizard { .section}
+## The Acumatica ERP Configuration Wizard
 
 The Acumatica ERP Configuration wizard is the part of software that gives you the ability to deploy an Acumatica ERP application instance. The Acumatica ERP application instance is a website accessed by users in your company for daily tasks.
 
@@ -29,7 +29,7 @@ By using the Acumatica ERP Configuration wizard, you can do the following:
 -   Perform application, database, and tenant maintenance
 -   Delete tenants and application instances
 
-## Getting an Acumatica ERP Installation Package { .section}
+## Getting an Acumatica ERP Installation Package
 
 The installation of the Acumatica ERP Configuration wizard is initiated through the installation package. You can find and download the latest version of the installation package from the [Acumatica Community](https://community.acumatica.com/) website. On the menu bar of the website, you can click **Product** and select the version of Acumatica ERP whose installation package you want to download. The link to the installation package contains a nine-digit build number that has the `XX.XXX.XXXX` format. You click the link and download the `AcumaticaERPInstall.msi` Windows installer package.
 
@@ -37,7 +37,7 @@ The installation of the Acumatica ERP Configuration wizard is initiated through 
 
 After you have downloaded the installation package, you can start installing the Acumatica ERP Configuration wizard.
 
-## Installation of the Acumatica ERP Configuration Wizard { .section}
+## Installation of the Acumatica ERP Configuration Wizard
 
 To install the Acumatica ERP Configuration wizard, you need to run `AcumaticaERPInstall.msi`, which you have downloaded on your computer.
 
@@ -53,11 +53,11 @@ The Acumatica ERP software starts installing. When the installation process has 
 
 The Acumatica ERP Configuration wizard is automatically started. You can also run the Acumatica ERP Configuration wizard anytime by selecting it on the Start menu.
 
-## The Acumatica ERP Tools { .section}
+## The Acumatica ERP Tools
 
 Along with the Acumatica ERP Configuration wizard, the Acumatica ERP installation package includes the Acumatica ERP Tools, which consist of the following components:
 
--   Acumatica Report Designer: This component provides visual tools that you can use to design custom reports. For more information, see [Acumatica Report Designer Guide](ReportDesigner_Main.md).
+-   Acumatica Report Designer: This component provides visual tools that you can use to design custom reports. For more information, see [Acumatica Report Designer](ReportDesigner_Main.md).
 -   DeviceHub: This application is used to connect hardware devices, such as printers, scanners, and digital scales. You can also configure a set of default printers to streamline the printing of documents for users, regardless of the physical location of the users and printers. For detailed instructions on setting up hardware devices via DeviceHub, see [Implementing DeviceHub](../ImplementationGuide/config_DH_Mapref.md).
 -   Debugger Tools: The set of software components that gives you a basic ability to debug the deployed Acumatica ERP instances. For more information, see [To View and Debug Acumatica ERP Source Code](../CustomizationPlatform/CG_GL_BL_Debug_Acu_Code.md).
 

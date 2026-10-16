@@ -1,4 +1,4 @@
-# Managing the Chart of Accounts {#_39cc166c-cbe4-4b82-99ff-3d19046d5a13 .concept}
+# Managing the Chart of Accounts
 
 Each company has its own structured list of general ledger accounts. Acumatica ERP provides you with the ability to define the chart of accounts that suits your company's needs. To define the chart of accounts in the system, you have to perform the following steps:
 

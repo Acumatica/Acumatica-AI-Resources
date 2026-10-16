@@ -1,4 +1,4 @@
-# Exporting Reports {#_eba27a21-66b1-4f5b-891e-f10e35f51c60 .concept}
+# Exporting Reports
 
 In the topics of this chapter, you will learn about the formats of files to which reports can be exported. You will also learn how to specify the settings to be used for exporting reports.
 
@@ -7,5 +7,5 @@ In the topics of this chapter, you will learn about the formats of files to whic
 -   **[Report Export: To Export a Report as an XLS file](../UserGuide/RD_Exporting_Reports_Export_to_XLS_Activity.md)**  
 
 
-**Parent topic:**[Acumatica Report Designer Guide](../UserGuide/ReportDesigner_Main.md)
+**Parent topic:**[Acumatica Report Designer](../UserGuide/ReportDesigner_Main.md)
 

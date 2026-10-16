@@ -1,4 +1,4 @@
-# Tracking Changes in Construction Projects {#_04045f90-698c-446e-98e7-f6d082d291a4 .concept}
+# Tracking Changes in Construction Projects
 
 If you need to track changes to the project revenue budget, commitments, and budgeted costs and control the profitability of every change initiated by a customer, you can use the functionality of change orders. Additionally, you can set up two-tier change management to group multiple change requests into a single change order.
 

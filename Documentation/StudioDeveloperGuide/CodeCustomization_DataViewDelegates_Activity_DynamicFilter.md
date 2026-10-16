@@ -1,12 +1,12 @@
-# Data View Delegates:To Add a Filtering Query Dynamically {#_a5fc2e9a-16c1-4486-abb3-216100466b37 .task}
+# Data View Delegates:To Add a Filtering Query Dynamically
 
 This activity will walk you through the process of dynamically adding a filtering query in code for an inquiry form.
 
-## Story { .section}
+## Story
 
 Suppose that you need to display both repair work orders and sales orders on the Open Payment Summary \(RS401000\) inquiry form. **You cannot use a single BQL query of a data view to implement the displaying of two different types of entities on a single form**. You need to compose a query for the form dynamically in code rather than specify the query in the definition of a data view.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will dynamically add a filtering query in code for the Open Payment Summary \(RS401000\) inquiry form by performing the following steps:
 
@@ -14,23 +14,23 @@ In this activity, you will dynamically add a filtering query in code for the Ope
 2.  Defining the data view delegate to dynamically add a filtering query on the inquiry form
 3.  Testing the dynamically added query on the inquiry form
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
-1.  Prepare an Acumatica ERP instance by performing the [Test Instance for Customization: To Deploy an Instance with a Custom Form that Implements a Workflow](CodeCustomization_PrepareInstance_Activity_DeployInstanceT240.md) prerequisite activity.
+1.  Prepare an Acumatica ERP instance by performing the [Test Instance for Customization: To Deploy an Instance with a Custom Form That Implements a Workflow](CodeCustomization_PrepareInstance_Activity_DeployInstanceT240.md) prerequisite activity.
 2.  Complete the steps described in the following prerequisite activities:
     1.  [Inquiry Forms: To Set Up an Inquiry Form](../DeveloperGuide/UIDev_InquiryForm_Activity_SetupForm.md)
     2.  [Inquiry Forms: To Create the UI of an Inquiry Form with Only a Grid](../DeveloperGuide/UIDev_InquiryForm_Activity_UI.md)
     3.  [Filtering Parameters: To Add a Filter for an Inquiry Form](../DeveloperGuide/UIDev_FilteringParameters_Activity_ConfigureFilter.md)
 
-## Step 1: Adding a New Column to the Filtered Results { .section}
+## Step 1: Adding a New Column to the Filtered Results
 
 To distinguish between the sales orders and repair work orders that are listed on the Open Payment Summary \(RS401000\) form, you need to add a new column to the grid. This column will contain the identifier of the order type: *SO* if the order in the row is a sales order; and *WO* if the order in the row is a repair work order. To add this new column, do the following:
 
 1.  In the `Constants.cs` file, add the class, as shown below.
 
-    ```language-csharp
+    ```csharp
         public static class OrderTypeConstants
         {
             public const string SalesOrder = "SO";
@@ -40,7 +40,7 @@ To distinguish between the sales orders and repair work orders that are listed o
 
 2.  In the `Messages.cs` file, add the following strings to the `Messages` class.
 
-    ```language-csharp
+    ```csharp
             // Order types
             public const string SalesOrder = "SO";
             public const string WorkOrder = "WO";
@@ -48,7 +48,7 @@ To distinguish between the sales orders and repair work orders that are listed o
 
 3.  Add the following field to the `RSSVWorkOrderToPay` DAC.
 
-    ```language-csharp
+    ```csharp
             #region OrderType
             [PXString(IsKey = true)]
             [PXUIField(DisplayName = "Order Type")]
@@ -74,7 +74,7 @@ To distinguish between the sales orders and repair work orders that are listed o
 4.  Build the project.
 5.  In the `RS401000.ts` file, add the field indicated in the following code before the `OrderNbr` field.
 
-    ```language-javascript
+    ```javascript
     	OrderType: PXFieldState;
     ```
 
@@ -82,7 +82,7 @@ To distinguish between the sales orders and repair work orders that are listed o
 
 6.  Publish the customization project.
 
-## Step 2: Defining the Data View Delegate { .section}
+## Step 2: Defining the Data View Delegate
 
 To display both sales orders and repair work orders in one grid, you need to define a data view delegate in which you use two separate queries: a query to select sales orders, and a query to select repair work orders. To define this data view delegate, do the following:
 
@@ -99,7 +99,7 @@ To display both sales orders and repair work orders in one grid, you need to def
 2.  Use the **DAC Schema Browser** or open the source code of the `SOOrderShipment` DAC to investigate its fields. You can see that the DAC contains both the sales order number \(in the `OrderNbr` field\) and the invoice number \(in the `InvoiceNbr` field\). You will use this information later to construct a fluent BQL statement.
 3.  In the `RSSVPaymentPlanInq` graph, define a method \(as shown in the following code\) that converts an object of the `SOOrderShipment` DAC to an object of the `RSSVWorkOrderToPay` DAC.
 
-    ```language-csharp
+    ```csharp
             public static RSSVWorkOrderToPay ToRSSVWorkOrderToPay
                 (SOOrderShipment shipment) =>
             new RSSVWorkOrderToPay
@@ -169,14 +169,14 @@ To display both sales orders and repair work orders in one grid, you need to def
 
 5.  Add the required `using` directives, which are shown in the following code.
 
-    ```language-csharp
+    ```csharp
     using PX.Objects.SO;
     using System.Collections;
     ```
 
 6.  Build the project.
 
-## Step 3: Testing the Dynamically Added Filter { .section}
+## Step 3: Testing the Dynamically Added Filter
 
 To test the dynamically added filter on the Open Payment Summary \(RS401000\) form, do the following:
 
@@ -184,13 +184,11 @@ To test the dynamically added filter on the Open Payment Summary \(RS401000\) fo
 
     The form should list both repair work orders and sales orders, as shown in the **Order Type** column \(shown below\).
 
-    ![](Images/activity_CodeCustomization_DynamicFilter_AllOrders.png "The form with repair work orders and sales orders")
 
 2.  In the **Customer ID** box, select the *C000000003* customer.
 
     The results should look as shown below.
 
-    ![](Images/activity_CodeCustomization_DynamicFilter_Filtered.png "The Open Payment Summary form for a particular customer")
 
 
 **Parent topic:**[Filtering Records Dynamically with Data View Delegates](../StudioDeveloperGuide/CodeCustomization_DataViewDelegates_Mapref.md)

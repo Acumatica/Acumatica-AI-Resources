@@ -1,4 +1,4 @@
-# To Add a Custom SQL Script to a Customization Project {#_8fc09ca1-c7c2-483d-ab2c-d170489c00ab .task}
+# To Add a Custom SQL Script to a Customization Project
 
 With the Acumatica Customization Platform, you can add to a customization project an SQL script to be executed during the publication of the project. However, we recommend that you avoid doing this.
 
@@ -9,7 +9,7 @@ If you do add a custom SQL script, you must adhere to the following requirements
 -   Because Acumatica ERP supports multitenancy, you must create an SQL script that correctly creates a database object that properly specifies and uses the company mask.
 -   You must correctly specify the attributes for the script so that the script can be executed on the target database servers: MySQL Server, Microsoft SQL Server, or both. For details about attributes, see [Using the SQL Script Attributes](../Shared/../CustomizationPlatform/CG_GL_Items_DBScripts_Adding_Attr.md#).
 
-## To Add a Custom SQL Script to a Customization Project { .section}
+## To Add a Custom SQL Script to a Customization Project
 
 To add a custom SQL script, do the following:
 

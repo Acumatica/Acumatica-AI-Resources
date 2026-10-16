@@ -1,12 +1,12 @@
-# To Extend an Existing Endpoint {#_c450492e-06fe-4563-95c3-efa76975415b .task}
+# To Extend an Existing Endpoint
 
 You use the [Web Service Endpoints](../UserGuide/SM_20_70_60.md) \(SM207060\) form to create an endpoint as an extension of an existing endpoint.
 
-You may need to create an extension of an endpoint if you want to use the entities that are defined in the contract of the existing endpoint but you also need some additional entities, fields, and actions in the contract. For example, the contract of the system endpoint with the name *Default* and Version *25.200.001* contains the Address entity, which includes the following fields: AddressLine1, AddressLine2, City, Country, PostalCode, State, and Validated. Suppose that you want to add the new `GPSCoordinates` field to the Address entity of the contract and use it with other API of the contract. You cannot edit the contract of the system endpoint; instead, you should create an endpoint that is based on this system endpoint, and add the new `GPSCoordinates` field to the Address entity of the contract of the new endpoint.
+You may need to create an extension of an endpoint if you want to use the entities that are defined in the contract of the existing endpoint but you also need some additional entities, fields, and actions in the contract. For example, the contract of the system endpoint with the name *Default* and Version *26.200.001* contains the Address entity, which includes the following fields: AddressLine1, AddressLine2, City, Country, PostalCode, State, and Validated. Suppose that you want to add the new `GPSCoordinates` field to the Address entity of the contract and use it with other API of the contract. You cannot edit the contract of the system endpoint; instead, you should create an endpoint that is based on this system endpoint, and add the new `GPSCoordinates` field to the Address entity of the contract of the new endpoint.
 
 This procedure describes how to create an endpoint that is based on an existing endpoint.
 
-## To Extend an Existing Endpoint { .section}
+## To Extend an Existing Endpoint
 
 1.  Open the [Web Service Endpoints](../Shared/../UserGuide/SM_20_70_60.md) \(SM207060\) form.
 2.  Select the endpoint that you want the new endpoint to be based on as follows:
@@ -22,7 +22,7 @@ This procedure describes how to create an endpoint that is based on an existing 
 5.  Add the needed entities, fields, and actions to the contract of the created endpoint, as described in [To Create a Custom Endpoint](IS__how_Create_Endpoint.md#), or extend the entities inherited from the base endpoint, as described in [To Extend an Existing Entity](#_3239daef-b345-45af-8b83-117a50d396c0).
 6.  Click **Save** on the form toolbar.
 
-## To Extend an Existing Entity {#_3239daef-b345-45af-8b83-117a50d396c0 .section}
+## To Extend an Existing Entity
 
 1.  Select the extended endpoint in which you want to extend an entity inherited from the base endpoint as follows:
     1.  In the **Endpoint Name** box, select the name of the extended endpoint.

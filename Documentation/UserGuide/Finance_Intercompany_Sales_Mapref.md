@@ -1,4 +1,4 @@
-# Processing Intercompany Sales {#_31c7902e-4c35-4c97-beff-4790db23b328 .concept}
+# Processing Intercompany Sales
 
 The topics of this chapter describe how to process intercompany sales.
 

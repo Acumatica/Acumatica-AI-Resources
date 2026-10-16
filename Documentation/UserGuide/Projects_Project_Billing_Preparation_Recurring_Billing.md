@@ -1,4 +1,4 @@
-# Project Billing Preparation: Recurring Billing {#_72e9b43b-3244-4d87-8fbe-6adeb4224e34 .concept}
+# Project Billing Preparation: Recurring Billing
 
 This topic explains how you can configure the addition of recurring billing lines during project billing.
 

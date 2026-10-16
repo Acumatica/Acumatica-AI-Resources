@@ -1,4 +1,4 @@
-# Designing the User Interface {#_a40f4ed8-2f7f-4894-8bb7-71aa5402792c .concept}
+# Designing the User Interface
 
 This chapter summarizes the form design and style conventions used in Acumatica Framework.
 

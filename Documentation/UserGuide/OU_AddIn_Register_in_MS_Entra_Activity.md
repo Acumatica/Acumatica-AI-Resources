@@ -1,4 +1,4 @@
-# Acumatica Add-In for Outlook: To Register an Acumatica ERP Instance in Microsoft Entra {#_42e140d7-6aa6-43cb-8cfa-ad313d8595ec .task}
+# Acumatica Add-In for Outlook: To Register an Acumatica ERP Instance in Microsoft Entra
 
 You can sign in to the Acumatica add-in for Outlook by using secure, modern OpenID Connect authentication. First, you need to register your Acumatica ERP instance in Microsoft Entra. The add-in uses Microsoft Entra access tokens to securely retrieve email body content, attachments, and metadata.
 
@@ -8,7 +8,7 @@ You can sign in to the Acumatica add-in for Outlook by using secure, modern Open
 -   The vendor of the third-party software may change the user interface and settings. The labels you see in the UI may differ from the ones described in the procedure.
 -   The procedure will be updated to describe new common scenarios and UI changes arise.
 
-## To Register an Instance in Microsoft Entra { .section}
+## To Register an Instance in Microsoft Entra
 
 1.  Sign in to [Microsoft Entra](https://entra.microsoft.com/) with an account that has sufficient permissions to manage app registrations and grant admin consent for application permissions.
 2.  In the left navigation pane, go to **Identity &gt; Applications** and select **App registrations**.

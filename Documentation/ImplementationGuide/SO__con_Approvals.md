@@ -1,10 +1,10 @@
-# Specific Approvals: Sales Orders {#_9073dc65-9824-4a3c-b924-c16ddd75728c .concept}
+# Specific Approvals: Sales Orders
 
 Most businesses have their own processes of reviewing and approving sales orders. Your organization can configure the approval functionality of specific sales orders—for instance, configuring approval to be required for orders with greater than average amounts or orders that include specific items.
 
 You can configure the approval functionality for orders of any order type \(predefined or custom\).You can set up as many approvals for specific types of sales orders as your company's policies require.
 
-## Approval of Sales Orders { .section}
+## Approval of Sales Orders
 
 If approval has been configured for a sales order of a particular type, when the order is taken off hold, the system assigns the order the *Pending Approval* status and selects an approver for the order, in accordance with the approval map or maps specified for the order type.
 
@@ -14,7 +14,7 @@ Once each of the assigned employees approves the order on either the [Sales Orde
 
 **Note:** If approval and credit verification are configured for an order type, and the credit verification has failed for the order, the system will assign the sales order the *Credit Hold* status once this order is approved.
 
-## Configuration of Approval for Sales Orders { .section}
+## Configuration of Approval for Sales Orders
 
 To set up the approval functionality of sales orders, you perform the following general steps:
 
@@ -26,7 +26,7 @@ To set up the approval functionality of sales orders, you perform the following 
 
 For details on setting up the approval of sales orders, see [To Set Up the Approval of Sales Orders](SO__How_Set_Up_Approval.md).
 
-## General Rules for Configuring Parallel Approvals { .section}
+## General Rules for Configuring Parallel Approvals
 
 If your company requires multiple independent approvals for a sales order of a specific type, you can configure parallel approvals. In this case, every order of the type is approved by multiple employees in any order; the number of required approvals can depend on the document total, specific customer, particular item, or other conditions. For example, suppose that in a company, each sales order must be approved by a senior accountant, the manager of the accounting department, and the CFO independently. In this case, you will need three maps, each of which assigns all orders unconditionally to one of these approvers.
 
@@ -34,7 +34,7 @@ To set up parallel approvals for any order type, you will need multiple approval
 
 **Note:** For each order type, you can configure one approval map per required approval. You can also assign the same approval map to multiple order types.
 
-## Parallel Approval Workflow { .section}
+## Parallel Approval Workflow
 
 After parallel approval has been configured for a specific type of sales order in your system, an order of the type will be processed as follows: When a user creates a new order of the type on the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form and removes it from hold, the system uses all the applicable approval maps to select the appropriate approvers for the order and changes the status of the order to *Pending Approval*. The system shows the approvers for the order on the **Approvals** tab of the form.
 
@@ -46,7 +46,7 @@ Each approver may approve or reject the order by using the [Approvals](../UserGu
 
 The order is assigned the *Open* status only after all required approvals \(those specified on the **Approval** tab of the [Sales Orders Preferences](../UserGuide/SO_10_10_00.md) form\) have been performed. Open sales orders may be emailed, or printed and mailed, to the customer.
 
-## General Rules for Configuring Multistage Approvals { .section}
+## General Rules for Configuring Multistage Approvals
 
 If a sales order of a specific type should be approved sequentially by multiple employees \(perhaps at different levels of the company hierarchy\) in your company, you should configure multistage \(sequential\) approval of these orders.
 
@@ -60,7 +60,7 @@ Consider an example of multistage approvals. You might require that all sales or
 
 The assignment rules for multistage approval should be designed so that when an order is saved, it is assigned to *Workgroup1* only if its current approval group is *none*, to *Workgroup2* when its current approval group is *Workgroup1*, and then to *Workgroup3* when its current approval group is *Workgroup2* and its amount is greater than $5000. For each approval level, you can add conditions if needed \(such as whether this order is from a specific customer, for a specific item, or exceeding a particular document amount\).
 
-## Multistage Approval Workflow { .section}
+## Multistage Approval Workflow
 
 After multistage approval has been configured in your system, an order of the type will be processed as follows: When a user removes a sales order from hold, the system applies the specified rules to select the initial approver for the order and changes the status of the order from *On Hold* to *Pending Approval*. The system shows the approvers for the order on the **Approvals** tab of the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form.
 

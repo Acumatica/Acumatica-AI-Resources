@@ -1,4 +1,4 @@
-# Sales with Payments and Prepayments: Sales Orders with a Required Prepayment Amount {#_d4efa93c-1c71-4084-9958-a958ac0d3e11 .concept}
+# Sales with Payments and Prepayments: Sales Orders with a Required Prepayment Amount
 
 If a sales order has credit terms with the **Prepayment Required** check box selected and a defined prepayment percent in the **Prepayment Percent** box on the [Credit Terms](CS_20_65_00.md) \(CS206500\) form, its workflow on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form consists of the following general steps:
 

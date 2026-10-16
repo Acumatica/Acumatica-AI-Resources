@@ -1,17 +1,17 @@
-# Assignment Maps: To Configure an Opportunity Assignment Map {#_9699b4f0-7dd9-41c0-8e43-2c826151d3b7 .task}
+# Assignment Maps: To Configure an Opportunity Assignment Map
 
 The following implementation activity will show you how to configure an opportunity assignment map in Acumatica ERP.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you, as an implementation consultant for the SweetLife Fruits &amp; Jams company.You need to configure an opportunity assignment map in Acumatica ERP in order to provide the sales team with the ability to assign groups of opportunities to owners as follows:
 
 -   The *Product Sales* workgroup will be working with opportunities for selling company products, such as jam, fruits, and juicers.
 -   The *Project Sale* workgroup will be working with opportunities for conducting trainings and workshops for customers, such as cleaning and maintenance of juicers.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -21,14 +21,14 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Company Tree](EP_20_40_61.md) \(EP204061\) form, the company tree has been configured and it includes the *Product Sales* and the *Project Sales* workgroups in the *Sales* department.
 -   On the [Opportunity Classes](CR_20_90_00.md) \(CR209000\) form, the *PRODUCT* and *PROJECT* opportunity classes have been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
 1.  Create an opportunity assignment map on the [Assignment Maps](EP_20_50_10.md) \(EP205010\) form.
 2.  Select the default opportunity assignment map on the [Customer Management Preferences](CR_10_10_00.md) \(CR101000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring an opportunity assignment map, you should do the following:
 
@@ -38,7 +38,7 @@ Before you start configuring an opportunity assignment map, you should do the fo
     -   **Password**: *123*
 3.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Creating an Opportunity Assignment Map { .section}
+## Step 1: Creating an Opportunity Assignment Map
 
 To create an opportunity assignment map, do the following:
 
@@ -81,9 +81,8 @@ To create an opportunity assignment map, do the following:
 
 You have created and configured *Default Opportunity Assignment Map*, as shown in the following screenshot. Now you need to specify this map on the [Customer Management Preferences](CR_10_10_00.md) \(CR101000\) form.
 
-![](Images/activity_CRM_Mktg_Default_Opportunity_Assignment_Map.png "The created opportunity assignment map")
 
-## Step 2: Selecting a Default Opportunity Assignment Map { .section}
+## Step 2: Selecting a Default Opportunity Assignment Map
 
 To select a default opportunity assignment map, do the following:
 

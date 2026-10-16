@@ -1,10 +1,10 @@
-# Automated Processing: To Configure Scheduled Processing {#_3cca2ff7-b9e1-47bf-97e1-fec9fa333786 .task}
+# Automated Processing: To Configure Scheduled Processing
 
 The following activity will walk you through the scheduling of automated processing for a particular form.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that in the SweetLife Fruits &amp; Jams company, AP clerks enter the bills into the system on a daily basis. The accountant does not need to manually release bills for the Karn Design Inc. vendor with amounts more than $1000 and less than or equal to $5000. These bills should be released automatically to free up the accountant's time.
 
@@ -12,7 +12,7 @@ You, as the system administrator, need to schedule this processing—that is, au
 
 **Tip:** The details of the processes of releasing and posting AP documents are outside of the scope of this activity. For details, see [Processing AP Bills](Finance_ProcessingAPBills_Mapref.md).
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -20,7 +20,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *KADESIGN* vendor has been created.
 -   On the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, a few AP bills for the *KADESIGN* vendor have been created.
 
-## Process Overview { .section}
+## Process Overview
 
 You will use the [Release AP Documents](AP_50_10_00.md) \(AP501000\) form to filter documents by amount. Then you will open the [Automation Schedules](SM_20_50_20.md) \(SM205020\) form by clicking **Schedules** &gt; **Add** on the form toolbar.
 
@@ -30,7 +30,7 @@ You will review successive executions of the processing and clear the history of
 
 Finally, you will switch off the schedule execution on the [Automation Schedules](SM_20_50_20.md) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start scheduling automated processing, you should do the following:
 
@@ -38,7 +38,7 @@ Before you start scheduling automated processing, you should do the following:
 2.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 3.  Make sure that the business date in your system is set to 1/30/2026. If a different date is displayed, click the Business Date menu button in the top pane of the Acumatica ERP screen, and select 1/30/2026 in the calendar.
 
-## Step 1: Filtering Documents by Amount { .section}
+## Step 1: Filtering Documents by Amount
 
 To apply a filter to a table column, do the following:
 
@@ -52,7 +52,7 @@ To apply a filter to a table column, do the following:
 
 The system is now displaying only documents with amounts that are more than $1000 and less than or equal to $5000.
 
-## Step 2: Scheduling Automated Release of AP Documents { .section}
+## Step 2: Scheduling Automated Release of AP Documents
 
 To schedule the automated release of AP documents, do the following:
 
@@ -76,7 +76,7 @@ To schedule the automated release of AP documents, do the following:
     -   **Value 2**: *5,000.00*
 6.  On the form toolbar, click Save &amp; Close.
 
-## Step 3: Modifying the Scheduled Release of AP Documents { .section}
+## Step 3: Modifying the Scheduled Release of AP Documents
 
 Now you will change schedule so that the system processes AP bills with amounts equal to or more than $1000 USD and less than or equal to $5000 USD for the *KADESIGN* vendor and executes the schedule every two minutes for one hour daily. To modify the scheduled release of the AP documents, do the following:
 
@@ -96,7 +96,7 @@ Now you will change schedule so that the system processes AP bills with amounts 
 4.  In the **Description** box in the Summary area, change the description as follows: `Release AP bills with amounts between $1000 and $5000 for KADESIGN`.
 5.  On the form toolbar, click Save &amp; Close.
 
-## Step 4: Viewing and Deleting the History of the Schedule { .section}
+## Step 4: Viewing and Deleting the History of the Schedule
 
 To view and then delete the history of the schedule, do the following:
 
@@ -109,12 +109,11 @@ To view and then delete the history of the schedule, do the following:
 4.  In the **Total Records** column, click a link that holds a nonzero number of the processed records \(see Item 1 in the following screenshot\).
 5.  In the **Processing Results** dialog box, which opens, review the processing results \(Item 2\).
 
-    ![](Images/activity_SA_Scheduling_Automated_Processing_Activity_Result.png "The processing results of a particular schedule execution")
 
 6.  Close the **Processing Results** dialog box.
 7.  On the form toolbar, click **Delete All** to clear the execution history of the selected schedule.
 
-## Step 5: Deactivating the Schedule { .section}
+## Step 5: Deactivating the Schedule
 
 To switch off the *Release AP bills with amounts between $1000 and $5000 for KADESIGN* schedule, do the following:
 

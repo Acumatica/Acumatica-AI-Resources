@@ -1,10 +1,10 @@
-# User Roles: Predefined Roles {#_cdd2ae45-630a-4fae-9d7f-3dac7db2c297 .concept}
+# User Roles: Predefined Roles
 
 To ease the process of defining and administering roles, Acumatica ERP provides a set of predefined roles that are stored in the System tenant \(for details, see [Tenants: General Information](SA_Managing_Tenants_Using_Web_GeneralInfo.md)\).
 
 Some of these roles grant users with the role access to specific functionality, while other roles are used by the system and should not be assigned to users manually.
 
-## Service Roles { .section}
+## Service Roles
 
 The following predefined service roles are available in the system:
 
@@ -13,7 +13,7 @@ The following predefined service roles are available in the system:
 -   *DashboardDesigner*: The system has automatically designated this role as the dashboard owner role for dashboards that were created in previous versions of Acumatica ERP. We recommend that you create specific roles for users who should own particular dashboards. For details, see [Administering Dashboards](RPT_Administering_Dashboards_Mapref.md).
 -   *Guest*: This role is used for backward compatibility.
 
-## Administrative Roles { .section}
+## Administrative Roles
 
 The following administrative roles are available in the system:
 
@@ -38,14 +38,14 @@ The following administrative roles are available in the system:
 -   *Wiki Admin*: A user with this role can set other users' access rights to wikis. For details, see [Wiki Access Management](SM__con_Wiki_Access_Setup.md).
 -   *Wiki Author*: A user with this role can create wiki articles. For details, see [Wiki Access Management](SM__con_Wiki_Access_Setup.md).
 
-## User Profile–Related Roles { .section}
+## User Profile–Related Roles
 
 The following roles that manage access to a user personal settings are available in the system:
 
 -   *Internal Employee*: Users with this role have full access to personal settings, tasks, events, email, and time cards, as well as expense receipts and claims. Additionally, these users can view Help.
 -   *Internal User*: A user with this role can change personal settings and view Help. It is automatically assigned to all user accounts linked with the *Employee* user type.
 
-## CRM-Related Roles { .section}
+## CRM-Related Roles
 
 The following roles that manage access to CRM functionality are available in the system:
 
@@ -56,7 +56,7 @@ The following roles that manage access to CRM functionality are available in the
 -   *CR Support Representative*: A user with this role has access to support functions and settings.
 -   *CR Viewer*: A user with this role has view-only access to marketing, sales, and support functions and settings.
 
-## Finance-Related Roles { .section}
+## Finance-Related Roles
 
 The following roles that manage access to finance functionality are available in the system:
 
@@ -86,7 +86,7 @@ The following roles that manage access to finance functionality are available in
 -   *Customer Data Manager*: A user with this role is responsible for entering master data related to customer profiles.
 -   *Vendor Data Manager*: A user with this role is responsible for entering master data related to vendor profiles.
 
-## Inventory and Order Management-Related Roles {#section_xlj_lpt_hwb .section}
+## Inventory and Order Management-Related Roles
 
 The following roles that manage access to inventory and order management functionality are available in the system:
 
@@ -107,7 +107,7 @@ The following roles that manage access to inventory and order management functio
 -   *IN Viewer*: A user with this role can view the documents related to the warehouse processes and inventory settings but cannot change orders and settings.
 -   *Inventory Data Manager*: A user with this role is responsible for entering master data related to inventory item profiles.
 
-## Manufacturing-Related Roles { .section}
+## Manufacturing-Related Roles
 
 Acumatica ERP also provides a number of predefined roles to manage users' access to manufacturing functionality, including the following:
 
@@ -124,7 +124,7 @@ Acumatica ERP also provides a number of predefined roles to manage users' access
 -   *MFG Viewer*: A user with this role has view-only access to production orders.
 -   *MFG Admin*: A user with this role has full access to all manufacturing functions and settings.
 
-## Payroll-Related Roles { .section}
+## Payroll-Related Roles
 
 The following roles for managing access to payroll functionality are available in the system:
 
@@ -133,7 +133,7 @@ The following roles for managing access to payroll functionality are available i
 -   *PR Manager*: A user with this role has full access to payroll functions, view-only access to payroll settings, and view-only access to banking, payables, projects, finance, and configuration settings.
 -   *PR Viewer*: A user with this role has view-only access to payroll functions.
 
-## Project- and Construction-Related Roles { .section}
+## Project- and Construction-Related Roles
 
 The system provides predefined roles you can use to manage access to project and construction functionality. Users assigned the following roles have the noted access to system resources:
 
@@ -178,7 +178,7 @@ The system provides predefined roles you can use to manage access to project and
     -   Approvals, employee time cards and activities, equipment time cards, expense claims, expense receipts, and weekly crew time entries
 -   *PM Viewer*: View-only access to projects and project tasks.
 
-## Self-Service Portal–Related Roles { .section}
+## Self-Service Portal–Related Roles
 
 The following roles that manage access to Acumatica Self-Service Portal are available in the system:
 

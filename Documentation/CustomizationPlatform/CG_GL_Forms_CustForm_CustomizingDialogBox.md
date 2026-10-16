@@ -1,4 +1,4 @@
-# To Open a Smart Panel in the Screen Editor {#_74511317-323f-400a-a76e-692f1999674a .concept}
+# To Open a Smart Panel in the Screen Editor
 
 If you need to activate the [Element Inspector](../UserGuide/AU_ElementInspector.md) for a pop-up panel, a dialog box, or another UI element that opens in modal mode and makes the [Customization Menu](../UserGuide/AU_CustomizationMenu.md) unavailable for selection, you can press Control-Alt.
 

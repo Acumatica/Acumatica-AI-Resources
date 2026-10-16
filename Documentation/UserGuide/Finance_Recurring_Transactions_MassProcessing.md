@@ -1,8 +1,8 @@
-# Recurring Transactions: Mass-Processing {#_19dfe0b0-7499-4a98-89f3-03d1df940658 .concept}
+# Recurring Transactions: Mass-Processing
 
 This topic explains how to release and post multiple batches.
 
-## Mass-Running Schedules {#section_csh_mjv_vxb .section}
+## Mass-Running Schedules
 
 You can run multiple schedules on the [Generate Recurring Transactions](GL_50_40_00.md) \(GL504000\) form. In the **Execution Date** box, you select the date that the system will use to select the schedules to be loaded to the table. Those schedules whose **Next Execution** date is earlier than or the same as the date specified in this box will be loaded.
 

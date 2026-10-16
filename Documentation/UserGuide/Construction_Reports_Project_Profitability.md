@@ -1,8 +1,8 @@
-# Construction Reports: Project Profitability {#_44e08b25-0a67-4a1b-9a32-e570bdb148b1 .concept}
+# Construction Reports: Project Profitability
 
 Project profitability continually shifts as budgets get revised, costs accumulate, and billing catches up. The [Project Profitability](PM_65_81_00.md) \(PM658100\) generic inquiry form helps you analyze revenue and costs as of any date, and evaluate financial performance with precision.
 
-## Viewing Date-Specific Project Profitability { .section}
+## Viewing Date-Specific Project Profitability
 
 On the [Project Profitability](PM_65_81_00.md) \(PM658100\) generic inquiry form, you can view date-specific project profitability. By default, it lists all projects with the *Active* or *Completed* status, but you can select a specific project to see only its data.
 
@@ -12,7 +12,7 @@ To get started:
 2.  Select the date in the **Through Date** box.
 3.  Optional: Specify the project in the **Project** box; you’ll see a single row with its details. \(If you leave the box empty, you’ll see one row for each project.\)
 
-## Understanding a Project's Health as of a Date { .section}
+## Understanding a Project's Health as of a Date
 
 Suppose that your company is a self-performing contractor building a hotel. The project started in February 2025, and now it's early May. As the new project manager, you want to assess the project's financial health as of the end of April. Several factors may have affected profitability since the project went live—such as a revised budget, changes in actual costs or billing, and overbilling or underbilling.
 

@@ -1,4 +1,4 @@
-# Validating Data {#_81205f8f-bd33-4e0c-87ed-06a8c5c37719 .concept}
+# Validating Data
 
 Before persisting a data record to the database, you must validate the data contained in its fields. You may need to validate the value in a field of a data record independently. You may also need to validate the values of any number of fields based on the values of other fields of the same data record. If the validation fails, you must cancel the update of the data record and provide clear error messaging to the user.
 

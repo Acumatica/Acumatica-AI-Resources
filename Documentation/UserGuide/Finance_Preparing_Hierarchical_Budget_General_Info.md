@@ -1,16 +1,16 @@
-# Hierarchical Budget: General Information {#_e2d264f2-0de6-4f4b-9e20-619055461faf .concept}
+# Hierarchical Budget: General Information
 
 In Acumatica ERP, you can create a hierarchical budget—that is, a budget that has multiple levels. For each level, the budget can be reviewed and analyzed.
 
-## Learning Objectives {#section_vqk_mjv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to create and release a hierarchical budget.
 
-## Applicable Scenarios {#section_xqk_mjv_vxb .section}
+## Applicable Scenarios
 
 You create a hierarchical budget when you want to maintain planned and forecast revenues and expenses as a multilevel list of budget articles.
 
-## Workflow of Preparing a Hierarchical Budget {#section_zqk_mjv_vxb .section}
+## Workflow of Preparing a Hierarchical Budget
 
 Before you start preparing a hierarchical budget, make sure that the following tasks have been performed in the system:
 
@@ -22,7 +22,7 @@ The process of preparing a hierarchical budget consists of the following general
 1.  Creating the budget: On the [Budgets](GL_30_20_10.md) \(GL302010\) form, you add the year's budget amounts for the leaf budget articles and distribute them among the periods.
 2.  Approving and releasing the budget: After the needed parties have reviewed and approved the prepared budget, to post the budget to a budget ledger, you have to release the budget articles on the [Release Budgets](GL_50_55_10.md) \(GL505510\) form.
 
-## Creation of Hierarchical Budgets {#section_crk_mjv_vxb .section}
+## Creation of Hierarchical Budgets
 
 After you have configured the budget structure on the [Budget Configuration](../Shared/../UserGuide/GL_20_50_00.md) \(GL205000\) form, it is preloaded on the [Budgets](../Shared/../UserGuide/GL_30_20_10.md) \(GL302010\) form. For each budget that you create, you specify the following:
 

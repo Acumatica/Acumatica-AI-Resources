@@ -1,10 +1,10 @@
-# Contract Billing: To Bill a Consulting Contract by Employee Activity Usage {#_a26af0a6-15df-4b04-86f5-496d423f1d9d .task}
+# Contract Billing: To Bill a Consulting Contract by Employee Activity Usage
 
 In this activity, you will learn how to bill the contract by employee activity usage.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that after purchasing the juicers, the Healthy Drink Alley customer needs a consulting contract to teach employees about the proper use of juicers and related equipment. This service is provided by the SweetLife Fruits &amp; Jams company's consultants of different qualifications: senior consultants, whose services cost $120 per hour, and regular consultants, whose services cost $100 per hour.
 
@@ -14,18 +14,18 @@ Earlier you have created an empty contract whose terms determine prices dependin
 
 Acting as an accountant, you will bill the contract by employee activities usage on *4/20/2026*.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Customer Contracts](CT_30_10_00.md) \(CT301000\) form, you will bill a contract by employee activities usage.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Contract Management* feature has been enabled.
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *HDALLEY \(Healthy Drink Alley\)* customer has been created.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
@@ -33,7 +33,7 @@ To prepare to perform the instructions of this activity, do the following:
 2.  Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as the accountant Anna Johnson by using the *johnson* username and the *123* password.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *4/20/2026*. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Billing the Contract {#section_znr_3fz_js .section}
+## Step 1: Billing the Contract
 
 To initiate the contract billing, do the following:
 
@@ -46,10 +46,9 @@ To initiate the contract billing, do the following:
 
 5.  In the only row in the table, click the **Reference Nbr.** link to open and review the invoice on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. On the **Details** tab, each activity is shown in a separate line. The date of the invoice matches the billing date. The default prices of the non-stock items that are specified as labor items in the corresponding case class are used as unit prices in the invoice. In the Summary area note that the **Detail total** is $2,800, that is the sum of services performed by employees.
 
-    ![](Images/CustomerContractsConsultingContractReleasedInvoice.png "Invoice for the consulting contract")
 
 
-## Step 2: Viewing Contract Usage Details {#section_ets_fzr_js .section}
+## Step 2: Viewing Contract Usage Details
 
 To view the result of contract billing by usage, do the following:
 

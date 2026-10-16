@@ -1,4 +1,4 @@
-# Defining Lead Classes {#_528f132d-1958-442f-b48d-a9150bda6ab1 .concept}
+# Defining Lead Classes
 
 In this chapter, you will find information about defining lead classes in Acumatica ERP.
 

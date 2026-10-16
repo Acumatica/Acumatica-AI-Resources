@@ -1,14 +1,14 @@
-# Record Validation for Duplicates: To Validate Multiple Leads for Duplicates {#_c674b31f-65a9-43c0-a7d0-30939e7fe04f .task}
+# Record Validation for Duplicates: To Validate Multiple Leads for Duplicates
 
 The following activity demonstrates how to validate multiple records—such as leads, contacts, and business accounts—for duplicates.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Bill Owen, a marketing manager of the SweetLife Fruits &amp; Jams company.You have imported to the system a new purchased list of leads that contains the contact information of bakery, cafe, restaurant, and store employees. You need to check these leads for duplicates.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -19,14 +19,14 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Leads](CR_30_10_00.md) \(CR301000\) form, lead records have been created, including the *Rita Orozco* lead.
 -   On the [Import by Scenario](SM_20_60_36.md) \(SM206036\) form, a list of lead records that includes duplicates, including the *Margarita Orozco* lead, has been imported from a Microsoft Excel file to the system, which is done.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
 1.  Identify possible duplicates for newly imported lead records by using the [Validate Records](CR_50_34_30.md) \(CR503430\) form.
 2.  View the possible duplicate lead records on the **Duplicates** tab of the [Leads](CR_30_10_00.md) \(CR301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start validating records for duplicates, you should do the following:
 
@@ -36,7 +36,7 @@ Before you start validating records for duplicates, you should do the following:
     -   **Password**: *123*
 3.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Validating All Leads for Duplicates { .section}
+## Step 1: Validating All Leads for Duplicates
 
 To validate all leads for duplicates, do the following:
 
@@ -51,7 +51,7 @@ You have validated all records for duplicates, including leads. On the [Leads](C
 
 Now you can view possible duplicate records, which you will do in the following step. For details, see [Record Validation for Duplicates: To Validate a Lead for Duplicates](CRM_Mktg_Validating_Recs_Duplicates_Validating_Lead.md).
 
-## Step 2: Viewing Possible Duplicate Records { .section}
+## Step 2: Viewing Possible Duplicate Records
 
 In the previous step, you have validated all leads in the system for duplicates. Now you need to view the list of leads that have possible duplicates; you will check the **Duplicate** setting of the *Rita Orozco* lead.
 

@@ -1,4 +1,4 @@
-# Outside Processing: Charges for Subcontractor Services {#_1394163f-9c37-4b35-8ed9-e9aeba42ead2 .concept}
+# Outside Processing: Charges for Subcontractor Services
 
 If the subcontractor produces items at its location and then delivers the items to your warehouse, we recommend that you create an inventory item in Acumatica ERP Manufacturing Edition for each produced item to recognize the item's cost. For example, suppose that the subcontractor fills containers that your organization has supplied with materials that the subcontractor supplies. In this case, your organization will be billed for the cost of the materials in the container and for the cost of labor required to fill the containers.
 
@@ -8,7 +8,7 @@ You use purchase orders to pay for the subcontractor's service. When the outside
 
 In the following sections, you will read about the configuration of the system for processing subcontractor's charges in the system.
 
-## Charges for Subcontractor Services {#_b06d3a3c-a5c4-4c10-b2e5-1ca01d49124f .section}
+## Charges for Subcontractor Services
 
 The service charges may or may not include materials the subcontractor uses for production. Depending on this factor and other conditions, you can use either stock or non-stock items for subcontractor services as follows:
 
@@ -25,7 +25,7 @@ The service charges may or may not include materials the subcontractor uses for 
 
 Unless you need to issue lot- or serial-tracked materials, we recommend backflushing the materials consumed or produced by the subcontractor. If you are using a stock item for the service charge, you process the purchase receipt before issuing or backflushing the materials to update the average or FIFO cost. If you are using a non-stock item and the service cost differs from the planned cost, you change the quantity of the non-stock item to reflect the cost.
 
-## Cost Accrual for Non-Stock Items Used as Materials {#_6fd11ef0-2028-46b6-ab96-a95ddbfe47db .section}
+## Cost Accrual for Non-Stock Items Used as Materials
 
 You select *Sales* in the **Post Cost to Expenses On** box on the **Price/Cost** tab and specify the accrual account in the **Expense Accrual Account** box on the **GL Accounts** tab of the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form if the following conditions are met:
 
@@ -34,7 +34,7 @@ You select *Sales* in the **Post Cost to Expenses On** box on the **Price/Cost**
 
 For details on the transactions the system generates for the item costs, see [Outside Processing: Generated Transactions](MFG_Outside_Processing_Transactions.md).
 
-## Calculation of Costs for Outside Services { .section}
+## Calculation of Costs for Outside Services
 
 The planned cost for outside services in a production order includes the cost of the materials you ship to a vendor \(that is, material lines with the *Ship to Vendor* subcontract source\) and the cost of the outside services \(that is, material lines with the *Purchase* or *Purchase and Move* subcontract source\). You can view planned cost for outside services for a particular production order in the **Subcontract** box of the **Planned** section on the **Totals** tab of the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form.
 

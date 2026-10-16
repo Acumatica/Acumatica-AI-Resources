@@ -1,4 +1,4 @@
-# To Update a Custom Wiki in a Project {#_61380a20-8b7e-4f3a-b9bf-d145050cac88 .concept}
+# To Update a Custom Wiki in a Project
 
 If you have changed a wiki included in a customization project by using Acumatica ERP forms, you have to update the appropriate item in the project. To do this, perform the following actions:
 

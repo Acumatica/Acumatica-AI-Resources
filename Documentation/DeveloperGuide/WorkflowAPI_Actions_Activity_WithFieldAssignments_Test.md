@@ -1,4 +1,4 @@
-# Step 3: Testing the Field Assignment {#_ecdbd2d7-8a1c-4c59-8de2-d6dfd5c50dac .concept}
+# Step 3: Testing the Field Assignment
 
 In this step, you will make sure that the transition from the `Assigned` workflow state to the `Completed` workflow state assigns the value as planned. Do the following:
 

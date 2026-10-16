@@ -1,4 +1,4 @@
-# Basic Project Accounting {#_d5f6d500-6ef6-4112-a745-f10ff7b7d3ec .concept}
+# Basic Project Accounting
 
 The topics of this chapter describe the minimum configuration of the project accounting functionality that is required for users to work with projects in Acumatica ERP.
 

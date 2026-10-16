@@ -1,12 +1,12 @@
-# Selling an Optional Component of Target Equipment: General Information {#_30b8cc28-8ae0-4368-a1b1-a37fde238df2 .concept}
+# Selling an Optional Component of Target Equipment: General Information
 
 With Acumatica ERP, you can install optional components for existing equipment at a customer site and provide associated installation services as requested.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this lesson, you will learn how to sell an optional component that will upgrade target equipment.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You sell an optional component that can become target equipment in the following scenarios:
 
@@ -15,11 +15,10 @@ You sell an optional component that can become target equipment in the following
 
 In these situations, the service manager initiates the appointment, assigns necessary staff, and coordinates with the accountant to prepare and process billing documents for the customer.
 
-## Workflow of a Sales of an Optional Component for Target Equipment {#section_k23_gqj_jdc .section}
+## Workflow of a Sales of an Optional Component for Target Equipment
 
 In the following diagram, you can see the process of selling an optional component for target equipment.
 
-![](Images/diag_EquipMgmt_Sale_of_Optional_Component_of_Target_Equipment.png "The sale of an optional component of target equipment")
 
 When a customer request is received, a service manager enters a service order by using the [Service Orders](FS_30_01_00.md) \(FS300100\) form; see 1 in the diagram above. In the service order, the service manager specifies the customer from which the request has been received, the branch and branch location to provide services, and the services that should be performed.
 

@@ -1,4 +1,4 @@
-# To Deploy a Customization Project {#_f727bd6c-ce9e-4852-8aab-951a9451978d .concept}
+# To Deploy a Customization Project
 
 After you tested your customization project, you deploy it to the production environment.
 

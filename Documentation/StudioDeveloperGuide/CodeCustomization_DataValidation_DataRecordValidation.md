@@ -1,4 +1,4 @@
-# Data Validation: Validation of a Data Record {#_afd8e230-1f9c-48c5-8e1e-800d58eb349e .concept}
+# Data Validation: Validation of a Data Record
 
 If the validation of a field value does not involve other fields of the same data record, you should use the FieldVerifying event handler. For details, see [Data Validation: Validation of Field Values](CodeCustomization_DataValidation_FieldValuesValidation.md).
 

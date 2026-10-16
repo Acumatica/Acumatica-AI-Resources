@@ -1,8 +1,8 @@
-# Transactions with Approval: Process Activity {#_de52207d-fa25-4672-b22c-e5d3a9ad793d .task}
+# Transactions with Approval: Process Activity
 
 The following activity will walk you through the process of creating batches of GL transactions that need approval and approving them.
 
-## Story {#section_zx3_mjv_vxb .section}
+## Story
 
 Suppose that Nenad Pasic, an accountant at SweetLife Fruits &amp; Jams, needs to create two GL transactions directly on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form. The first GL transaction records a purchase of miscellaneous items for the amount of $152, paid from the company's checking account. The second transaction records a purchase of items in the amount of $475, also paid from the company's checking account.
 
@@ -10,7 +10,7 @@ According to the company's rules, both transactions have to be reviewed by Anna 
 
 Acting as Nenad Pasic, you need to create two GL transactions directly in the general ledger on 1/30/2026. Then acting as Anna Johnson, you need to review both transactions, approve the first transaction, and reject the second transaction specifying a reason for it.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed for the purposes of this activity:
 
@@ -18,11 +18,11 @@ In the *U100* dataset, the following tasks have been performed for the purposes 
 -   On the [Branches](CS_10_20_00.md) \(CS101000\) form, the *HEADOFFICE* branch of SweetLife Fruits &amp; Jams has been configured.
 -   On the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, the *81000 \(Other Expenses\)* and *10200 \(Company Checking Account\)* accounts have been created.
 
-## Process Overview {#section_dy3_mjv_vxb .section}
+## Process Overview
 
 In this activity, acting as Nenad Pasic, you will create two batches of GL transactions on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form. You will then sign in as Anna Johnson and approve the first batch on the [Approvals](EP_50_30_10.md) \(EP503010\) form. You will open the approved batch on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form and post it. On the same form, you will open the second batch, reject it, and specify the reason for the rejection.
 
-## System Preparation {#section_fy3_mjv_vxb .section}
+## System Preparation
 
 Before you begin creating and processing GL transactions for which approval is required, do the following:
 
@@ -31,7 +31,7 @@ Before you begin creating and processing GL transactions for which approval is r
 3.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 4.  As a prerequisite activity, in the company to which you are signed in, be sure you have set up approvals for GL transactions, as described in [Approval Configuration: Implementation Activity](../ImplementationGuide/Finance_GLTransactions_with_Approvals_Implem_Activity.md).
 
-## Step 1: Creating Batches of GL Transactions {#section_hy3_mjv_vxb .section}
+## Step 1: Creating Batches of GL Transactions
 
 To create the two batches of GL transactions, do the following:
 
@@ -71,7 +71,7 @@ To create the two batches of GL transactions, do the following:
 12. On the form toolbar, click **Save**.
 13. Sign out as Nenad Pasic.
 
-## Step 2: Approving a GL Transaction {#section_jy3_mjv_vxb .section}
+## Step 2: Approving a GL Transaction
 
 To approve the $152 GL transaction, do the following:
 
@@ -82,7 +82,7 @@ To approve the $152 GL transaction, do the following:
 5.  Open the batch with the $152 transaction on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form. In the Summary area, notice that the batch's status has changed to *Balanced*.
 6.  On the form toolbar, click **Release** to release the batch. The batch's status has changed to *Posted*.
 
-## Step 3: Rejecting a GL Transaction {#section_ly3_mjv_vxb .section}
+## Step 3: Rejecting a GL Transaction
 
 According to the company policy of SweetLife Fruits &amp; Jams, the $475 transaction cannot be approved because a purchase of this size must be recorded in an AP bill. To reject the $475 transaction and specify a reason for the rejection, do the following:
 

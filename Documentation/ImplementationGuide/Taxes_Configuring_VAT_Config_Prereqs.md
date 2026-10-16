@@ -1,12 +1,12 @@
-# Value-Added Taxes: Configuration Prerequisites {#_d1787262-74e3-4f6e-a068-29030a3b3171 .concept}
+# Value-Added Taxes: Configuration Prerequisites
 
 Before starting to create a value-added tax, you should be sure that the needed feature has been enabled, settings have been specified, and entities have been created, as described in the following sections.
 
-## Enabling the Needed Feature { .section}
+## Enabling the Needed Feature
 
 On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, the *VAT Reporting* feature must be enabled.
 
-## Configuring the System { .section}
+## Configuring the System
 
 You need to make sure the following tasks have been performed in Acumatica ERP before you begin to create a value-added tax:
 

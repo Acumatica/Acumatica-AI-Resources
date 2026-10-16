@@ -1,22 +1,22 @@
-# Check Reprinting: General Information {#_291d7a81-06eb-4722-a2f9-41228d56cd76 .concept}
+# Check Reprinting: General Information
 
 In some cases, you need to correct a printed check and reprint it with the same number or with a new number.
 
-## Learning Objectives {#section_i4j_njv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Correct a check by removing a bill from it
 -   Reprint the check with a new number
 
-## Applicable Scenarios {#section_l4j_njv_vxb .section}
+## Applicable Scenarios
 
 You usually reprint checks in the following cases:
 
 -   You reprint a check with the same number if you have discovered that the check contains incorrect details or there were no check blanks in the printer.
 -   You reprint a check with a new number if the blank with the old number has been spoiled.
 
-## Reprinting of AP Checks {#section_n4j_njv_vxb .section}
+## Reprinting of AP Checks
 
 To be able to print a check again, you first need to change the *Printed* status for this check on the [Release Payments](AP_50_52_00.md) \(AP505200\) form. You can reprint a check by using one of the following numbers:
 

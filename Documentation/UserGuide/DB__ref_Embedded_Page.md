@@ -1,16 +1,28 @@
-# Add Widget Dialog Box for Embedded Page Widgets {#_17067cb3-d023-4a24-b88e-4a8984e8ff45 .reference}
+# Add Widget Dialog Box for Embedded Page Widgets
 
 You use the **Add Widget** dialog box to add a widget to a dashboard and to modify an existing widget. The settings that you need to specify depend on the widget type.
 
 When you add a new widget by using this dialog box, you perform two steps. In the first step, you select the type of the widget that you want to add to the dashboard; the system brings up the version of the **Add Widget** dialog box that is specific to the widget type. In the second step, you specify the properties that are specific to the selected widget type. When you modify an existing widget, you perform only the second step. \(In this case, the system immediately brings up the appropriate version of the dialog box.\)
 
-## Add Widget Dialog Box: Step 1 { .section}
+## Add Widget Dialog Box: Step 1
 
 When you want to add a new widget to a dashboard, you first need to select the option button representing the type of the widget in the **Add Widget** dialog box. The elements of this dialog box are described in the following table.
 
-|Element|Description|
-|-------|-----------|
-|**Widget Type**|The type of widget to be added to the dashboard, which can be one of the following:-   **Chart**: A graphical representation of data from an Acumatica ERP form. You can use charts of the following types:
+<table id="_9cab714c-efd3-42ea-b0db-f18314b2681d"><thead><tr><th>
+
+Element
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+**Widget Type**
+
+</td><td>
+
+The type of widget to be added to the dashboard, which can be one of the following:-   **Chart**: A graphical representation of data from an Acumatica ERP form. You can use charts of the following types:
     -   **Doughnut**
     -   **Line**
     -   **Column**
@@ -29,23 +41,86 @@ When you want to add a new widget to a dashboard, you first need to select the o
 -   **Header**: A title that can be added to the widget section.
 -   **Power BI**: A chart, scorecard, or other analytical information that is represented on a Power BI dashboard designed by your organization.
 
-|
-|The dialog box has the following buttons.|
-|**Cancel**|Cancels the changes and closes the dialog box.|
-|**Next**|Goes to the next step of the **Add Widget** dialog box for the selected widget type.|
+</td></tr><tr><td colspan="2">
 
-## Add Widget Dialog Box: Step 2 { .section}
+The dialog box has the following buttons.
 
-After you select the **Embedded Page** widget type in the **Add Widget** dialog box, or when you click Edit \(![](Images/Icons_Form_Grid_Views.png)\) on the widget toolbar, the **Widget Properties** dialog box opens. In this dialog box, you need to specify the properties that are specific to the embedded page widget. For more information about embedded page widgets, see [Specific Widgets: Embedded Page Widgets](RPT_Configuring_Widgets_Embedded_Page_Widgets_Concept.md).
+</td></tr><tr><td>
 
-|Element|Description|
-|-------|-----------|
-|**Source**|Required. The URL of the webpage to be displayed on the dashboard.|
-|**Caption**|The name of the widget on the dashboard.|
-|The dialog box has the following buttons.|
-|**Finish**|Saves the changes and closes the dialog box.|
-|**Previous**|Returns to the previous step of the dialog box without saving your changes. The button appears only when you are adding a widget.|
-|**Cancel**|Cancels your changes and closes the dialog box.|
+**Cancel**
+
+</td><td>
+
+Cancels the changes and closes the dialog box.
+
+</td></tr><tr><td>
+
+**Next**
+
+</td><td>
+
+Goes to the next step of the **Add Widget** dialog box for the selected widget type.
+
+</td></tr></tbody>
+</table>
+
+## Add Widget Dialog Box: Step 2
+
+
+<table id="_d864e3ad-1e2a-41bc-b5e7-df70205dc589"><thead><tr><th>
+
+Element
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+**Source**
+
+</td><td>
+
+Required. The URL of the webpage to be displayed on the dashboard.
+
+</td></tr><tr><td>
+
+**Caption**
+
+</td><td>
+
+The name of the widget on the dashboard.
+
+</td></tr><tr><td colspan="2">
+
+The dialog box has the following buttons.
+
+</td></tr><tr><td>
+
+**Finish**
+
+</td><td>
+
+Saves the changes and closes the dialog box.
+
+</td></tr><tr><td>
+
+**Previous**
+
+</td><td>
+
+Returns to the previous step of the dialog box without saving your changes. The button appears only when you are adding a widget.
+
+</td></tr><tr><td>
+
+**Cancel**
+
+</td><td>
+
+Cancels your changes and closes the dialog box.
+
+</td></tr></tbody>
+</table>
 
 **Parent topic:**[Specific Widgets: Widget Reference](../UserGuide/RPT_Widgets_Reference.md)
 

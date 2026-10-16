@@ -1,23 +1,23 @@
-# Cash Entries: General Information {#_8f6c7380-ba58-4dbf-b149-6829213aaf03 .concept}
+# Cash Entries: General Information
 
 In Acumatica ERP, you can record cash entries—that is, transactions that affect cash but do not involve customers or vendors. Transactions of this type affect the balances of only general ledger accounts.
 
-## Learning Objectives {#section_pjb_kjv_vxb .section}
+## Learning Objectives
 
 You will learn how to create a cash entry in Acumatica ERP.
 
-## Applicable Scenarios {#section_rjb_kjv_vxb .section}
+## Applicable Scenarios
 
 You create a transaction of the *Cash Entry* type when you need to record a cash operation, such as a bank charge, income from interest, or an unknown payment.
 
-## Types of Cash Entries {#section_tjb_kjv_vxb .section}
+## Types of Cash Entries
 
 Cash entries are used to record cash transactions, such as charges for transfers, bank service charges, or amounts earned on interest-bearing bank accounts or other investments. On the [Cash Transactions](CA_30_40_00.md) \(CA304000\) form, you specify the type of the cash entry, which is one of the following:
 
 -   *Receipt*: Increases the balance of the selected cash account. Entries of this type can include recording amounts earned on interest-bearing bank accounts or other investments.
 -   *Disbursement*: Decreases the balance of the selected cash account. This entry type includes transfer charges and bank service charges.
 
-## Processing of a Cash Entry {#section_vjb_kjv_vxb .section}
+## Processing of a Cash Entry
 
 Cash entries are tracked in the system and available for viewing, editing, and releasing on the [Cash Transactions](CA_30_40_00.md) \(CA304000\) form. You can use any of the following forms as a starting point to enter the cash entry:
 
@@ -42,11 +42,10 @@ During processing, a cash entry can have the statuses listed in the following ta
 |*Balanced*|The cash entry is balanced and ready to be released.|
 |*Released*|The cash entry has been released and the respective general ledger batch has been generated.|
 
-## Process Diagram {#section_bkb_kjv_vxb .section}
+## Process Diagram
 
 The following diagram illustrates the workflow of cash entry processing.
 
-![](Images/diag_Finance_Processing_Cash_Entry.png "Cash entry processing")
 
 **Parent topic:**[Processing Cash Entries](../UserGuide/Finance_Creating_Cash_Entry_Mapref.md)
 

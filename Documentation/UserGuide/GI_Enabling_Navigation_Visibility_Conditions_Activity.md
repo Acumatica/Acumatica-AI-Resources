@@ -1,10 +1,10 @@
-# Navigation Configuration: To Specify Visibility Conditions for a Side Panel {#_51e13abe-497e-40e6-8dbf-192247ef5a99 .task}
+# Navigation Configuration: To Specify Visibility Conditions for a Side Panel
 
 In this activity, you will learn how to specify the visibility conditions for tabs on a side panel.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist in your company who works on simple customizations, including those involving the creation, modification, and use of generic inquiries. A sales representative of your company has requested an inquiry form that displays data about business accounts.
 
@@ -14,7 +14,7 @@ You have offered the predefined Business Accounts \(CR3030PL\) generic inquiry f
 -   For a business account of the customer type: Customer details on the [Customers](AR_30_30_00.md) \(AR303000\) form
 -   For a business account of the business account type: Business account details on the [Business Accounts](CR_30_30_00.md) \(CR303000\) form
 
-## Configuration Overview {#section_dzm_1dz_jrb .section}
+## Configuration Overview
 
 You will work with a copy of the predefined Business Accounts \(CR3030PL\) generic inquiry form, which has the *CR-BusinessAccounts2018R1* inquiry title and the *Business Accounts* site map title specified on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form. The original inquiry form has a side panel with eight tabs. For the purposes of this activity, the copy has been modified to have no navigation settings specified.
 
@@ -22,17 +22,17 @@ You will work with a copy of the predefined Business Accounts \(CR3030PL\) gener
 
 The copy that you will modify has the *DB1-CRBAccounts* inquiry title and the *S130 Business Accounts* site map title specified on the [Generic Inquiry](SM_20_80_00.md) form.
 
-## Process Overview { .section}
+## Process Overview
 
 On the **Navigation** tab of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form, you will configure navigation to the [Vendors](AP_30_30_00.md) \(AP303000\) form, the [Customers](AR_30_30_00.md) \(AR303000\) form, and the [Business Accounts](CR_30_30_00.md) \(CR303000\) form with the *Side Panel* option selected as the navigation mode. You will provide the navigation settings that the system should use to display the details of the business account whose identifier the user clicks in the inquiry results. You will also specify the visibility conditions for each navigation target, which depend on the type of business account that the user clicks in the inquiry results.
 
-## System Preparation {#section_ywx_cpr_jrb .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to a tenant with the *U100* dataset preloaded as system administrator Kimberly Gibbs. You should sign in by using the *gibbs* username and the *123* password.
 
 **Tip:** The *gibbs* user is assigned the *Administrator* role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards.
 
-## Step 1: Specifying the Navigation Settings for the Side Panel { .section}
+## Step 1: Specifying the Navigation Settings for the Side Panel
 
 To specify the needed navigation settings for the side panel of the generic inquiry, do the following:
 
@@ -87,7 +87,7 @@ To specify the needed navigation settings for the side panel of the generic inqu
     -   **Value**: *Business Account*
 23. On the form toolbar, click **Save**.
 
-## Step 2: Verifying the Configuration of Visibility Conditions for the Side Panel { .section}
+## Step 2: Verifying the Configuration of Visibility Conditions for the Side Panel
 
 To verify the configuration of visibility conditions for the side panel, while you are still working on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form with the *DB1-CRBAccounts* inquiry selected, do the following:
 
@@ -95,7 +95,6 @@ To verify the configuration of visibility conditions for the side panel, while y
 2.  In the inquiry results, click a row with a business account of the *Vendor* type, and notice that on the side panel, the system displays only one tab \(with the directions car icon\).
 3.  Click this icon, and notice that in the side panel, the system displays detailed information about the selected vendor on the [Vendors](AP_30_30_00.md) \(AP303000\) form \(see the following screenshot\).
 
-    ![](Images/GI_Enabling_Navigation_Visibility_Conditions_Result.png "The list of business accounts on the inquiry form and the Vendors form in the side panel")
 
 4.  In the inquiry results, click a row with a business account of the *Customer* type, and notice that on the side panel, the system has changed the icon to the shopping cart icon. In the side panel, which is already opened, notice that the system displays detailed information about the selected customer on the [Customers](AR_30_30_00.md) \(AR303000\) form.
 5.  In the inquiry results, click a row with a business account of the *Business Account* type, and notice that on the side panel, the system has changed the icon to the badge icon. In the side panel, notice that the system displays detailed information about the selected business account on the [Business Accounts](CR_30_30_00.md) \(CR303000\) form.

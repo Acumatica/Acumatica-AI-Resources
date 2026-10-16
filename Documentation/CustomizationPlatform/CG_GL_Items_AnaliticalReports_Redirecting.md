@@ -1,4 +1,4 @@
-# To Navigate to the Report Definitions Form {#_89238855-811b-4895-ba9c-0effe1106fe0 .concept}
+# To Navigate to the Report Definitions Form
 
 You might need to add an analytical report to Acumatica ERP during customization. To manage analytical reports in Acumatica ERP, you use the [Report Definitions](../UserGuide/CS_20_60_00.md) \(CS206000\) form.
 

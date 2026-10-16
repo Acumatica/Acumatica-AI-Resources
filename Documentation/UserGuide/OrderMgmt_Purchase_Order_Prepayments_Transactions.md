@@ -1,8 +1,8 @@
-# Prepayments for Purchase Orders: Generated Transactions {#_44f38d69-c22a-429e-8beb-f1306694b501 .concept}
+# Prepayments for Purchase Orders: Generated Transactions
 
 To process a prepayment for a purchase order, you create a prepayment request and pay it with a payment. Then you apply a prepayment document to an AP bill. During these processes, the system generates GL transactions described in the following sections.
 
-## Transaction Generated on Applying AP Payment to Prepayment Request { .section}
+## Transaction Generated on Applying AP Payment to Prepayment Request
 
 When the payment that has been applied to a prepayment request is released, the system generates a batch of the following transactions.
 
@@ -13,7 +13,7 @@ When the payment that has been applied to a prepayment request is released, the 
 
 You can view the reference number of the GL batch generated for a particular AP payment application on the **Financial** tab of the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form. You can click the link in this box to view the details of the batch on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## Transaction Generated on Applying Prepayment to AP Bill { .section}
+## Transaction Generated on Applying Prepayment to AP Bill
 
 When a prepayment application to the accounts payable bill is released, the system creates a batch of the following transactions.
 

@@ -1,14 +1,14 @@
-# Interbranch Account Mapping: Implementation Activity {#_62151c8a-f14d-49dd-a59b-ceff716aca56 .task}
+# Interbranch Account Mapping: Implementation Activity
 
 In this activity, you will learn how to define account mapping rules for intercompany and interbranch transactions in the system.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 The Muffins &amp; Cakes company registers transactions between its branches in the system. Its branches use separate accounting, so they require balancing. The company also registers transactions with the SweetLife head office and retail shop. The account mapping rules between the Muffins &amp; Cakes head office branch \(*MHEAD* in the system\) and the Muffin &amp; Cakes retail store branch \(*MRETAIL*\) have already been defined in Acumatica ERP as well as mapping rules between the Muffins &amp; Cakes head office branch and the SweetLife head office branch \(*HEADOFFICE*\). You will review these rules. You need to define account mapping rules for transactions between Muffins &amp; Cakes head office branch and SweetLife retail shop \(*RETAIL*\).
 
-## Configuration Overview {#section_ist_htv_3pb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -22,15 +22,15 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Chart of Accounts](../UserGuide/GL_20_25_00.md) \(GL202500\) form, the list of accounts including *19000 - Due from Related Entity* and *26000 - Due to Related Entity* have been created.
 -   On the [Inter-Branch Account Mapping](../UserGuide/GL_10_10_10.md) \(GL101010\) form, the account mapping rules between the Muffins &amp; Cakes head office branch \(*MHEAD*\) and the Muffins &amp; Cakes retail store branch \(*MRETAIL*\) and between the Muffins &amp; Cakes head office branch \(*MHEAD*\) and SweetLife Head Office and Wholesale Center *HEADOFFICE* have been defined.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will review the preconfigured account mapping on the [Inter-Branch Account Mapping](../UserGuide/GL_10_10_10.md) \(GL101010\) form. On the same form, you will configure the account mapping rules for transactions between two branches of separate companies.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as a system administrator Kimberly Gibbs by using the *gibbs* username and the *123* password.
 
-## Step 1: Reviewing the Configuration of Mapping Rules Between Branches { .section}
+## Step 1: Reviewing the Configuration of Mapping Rules Between Branches
 
 To review the configuration of account mapping rules between the two branches of the *Muffins Head Office &amp; Wholesale Center* company, do the following:
 
@@ -51,7 +51,7 @@ To review the configuration of account mapping rules between the two branches of
 
 Now that you have reviewed the settings of existing interbranch account mapping rules, you will create your own account mapping rules.
 
-## Step 2: Defining Interbranch Account Mapping for Intercompany Transactions { .section}
+## Step 2: Defining Interbranch Account Mapping for Intercompany Transactions
 
 To configure the account mapping rules for transactions between the *Muffins Head Office &amp; Wholesale Center* branch and the *SweetLife Store* branch, which are in separate companies, do the following:
 
@@ -92,7 +92,6 @@ To configure the account mapping rules for transactions between the *Muffins Hea
     Now you have configured balancing rules that will be used for transactions between the *Muffins Head Office &amp; Wholesale Center* branch and the *SweetLife Store* branch, as shown in the following screenshot.
 
 
-![](../UserGuide/Images/activity_InterCompany_InterBranchAccMap.png "Interbranch account mapping for RETAIL and MHEAD branches")
 
 **Parent topic:**[Interbranch Account Mapping](../ImplementationGuide/config_InterBranch_Mapping_Rules_Mapref.md)
 

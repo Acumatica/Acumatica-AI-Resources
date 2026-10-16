@@ -1,22 +1,22 @@
-# Case Assignment to Owners and Workgroups: General Information {#_738969b6-1b52-4789-aecc-2abc5113bf1a .concept}
+# Case Assignment to Owners and Workgroups: General Information
 
 Acumatica ERP provides you with flexible tools for distributing the case workload within the company. You can use assignment maps to indicate to the system how to assign cases to individuals or groups of people \(that is, to owners or workgroups\). In the following sections, you will find information about assigning cases to owners and workgroups one by one or through mass processing.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Assign a case manually to a particular owner
 -   Assign a selected group of cases to owners or workgroups by using a case assignment map
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to learn how to assign cases to owners and workgroups in scenarios that include the following:
 
 -   You need to manually assign or reassign a case to another owner or workgroup.
 -   You need to assign a selected group of cases to owners by using a case assignment map.
 
-## Assignment of Cases to Owners and Workgroups in Acumatica ERP { .section}
+## Assignment of Cases to Owners and Workgroups in Acumatica ERP
 
 In Acumatica ERP, you can easily base the rules for case assignment on company policies. Cases can be assigned to owners or workgroups in many different ways, based on the settings and attributes of the case records being assigned. You can assign cases manually or automatically by using a case assignment map.
 
@@ -34,13 +34,13 @@ You can manually change the owner of a case that has been manually or automatica
 -   If a case is not assigned to any workgroup, you can select a new owner in the **Owner** box from the list of all employees.
 -   If a case is assigned to a workgroup, you can select a new owner in the **Owner** box from the list of employees included in the workgroup; alternatively, you can change the workgroup and select an owner from the newly selected workgroup.
 
-## The Usage of a Company Tree for Assignment {#section_clk_kjp_stb .section}
+## The Usage of a Company Tree for Assignment
 
 In Acumatica ERP, a company tree is an organizational chart that represents a hierarchical structure of a company with groups that contains a list of people and roles of people within each of the groups. The company tree is used to assign leads, cases, opportunities, business accounts, contacts, or email activities to owners when you want the system to distribute these entities between owners \(individuals\) and workgroups \(groups of people\) by using an assignment map on the [Assignment Maps](../Shared/../UserGuide/EP_20_50_10.md) \(EP205010\) form.
 
 On the [Company Tree](../Shared/../UserGuide/EP_20_40_61.md) \(EP204061\) form, you create a hierarchy of workgroups for using them in the assigning process, and you include people or groups of people in the workgroups. You can include the same people in different workgroups. When you create a new entity, such as a new lead, and select a workgroup for it, you can select as an owner only one of the people that you have included in this workgroup in the company tree. We recommend the use of a company tree to speed and streamline your assignments.
 
-## Distribution of Cases by Using Assignment Maps { .section}
+## Distribution of Cases by Using Assignment Maps
 
 You can use the assignment map functionality to distribute cases between owners automatically or manually when you mass-assign cases.
 
@@ -50,11 +50,11 @@ An assignment map is a set of rules, actions related to rules, and conditions th
 2.  On the **Conditions** tab, you add rule conditions that assignment criteria should meet.
 3.  On the **Rule Actions** tab, you select an owner or a workgroup \(or both\).
 
-## Execution Errors Related to the Mass-Assignment of Cases { .section}
+## Execution Errors Related to the Mass-Assignment of Cases
 
 If an assignment map contains errors \(for example, a workgroup contains an employee who has quit the company and cannot be assigned to any records\) and you have processed any cases that should be assigned according to this assignment map by using the [Assign Cases](CR_50_32_10.md) \(CR503210\) form, the system will list these errors in the **Processing** dialog box. You can view the error by clicking the More button on the **Errors** tile. In the **Message** column, the system displays the text of the error message.
 
-## Notifications About Assigning a Case to an Owner { .section}
+## Notifications About Assigning a Case to an Owner
 
 In Acumatica ERP, an administrator can set up email notifications on the [Business Events](SM_30_20_50.md) \(SM302050\) form so that if a user is assigned to a new case, this user receives a notification by email, by SMS, or in the Acumatica mobile app. For details, see [Business Events: Subscribers](SA_Using_Business_Events_Subscribers_Concept.md).
 

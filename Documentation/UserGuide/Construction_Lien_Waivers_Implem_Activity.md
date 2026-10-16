@@ -1,14 +1,14 @@
-# Lien Waivers: To Configure Automatic Generation of Lien Waivers {#_cc0432dd-51f0-4312-bb8b-1bd94cca171d .task}
+# Lien Waivers: To Configure Automatic Generation of Lien Waivers
 
 This activity will walk you through the process of configuring the mailing and generation of lien waivers.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the ToadGreen company requires conditional lien waivers to be automatically generated when payments of an amount greater than $2000 are submitted. Acting as a system administrator, you need to configure the mailing and automatic generation of lien waivers. Then you need to configure the automatic generation of lien waivers for a particular vendor.
 
-## Configuration Overview {#section_aqt_pks_dpb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -16,15 +16,15 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Vendor Classes](AP_20_10_00.md) \(AP201000\) form, the *SUBCON* vendor class has been created.
 -   On the [Projects](PM_30_10_00.md#) \(PM301000\) form, the *HOTEL* project has been defined.
 
-## Process Overview {#section_qjw_hdr_v4b .section}
+## Process Overview
 
 You will create a notification template to be used for sending lien waivers on the [Email Templates](SM_20_40_03.md#) \(SM204003\) form. Then you will configure mailing settings that will use this template for a particular vendor class on the [Vendor Classes](AP_20_10_00.md#) \(AP201000\) form. You will enable generation of conditional lien waivers on the [Compliance Preferences](CL_30_10_00.md#) \(CL301000\) form. Finally, you will create a new vendor for which the system will send lien waivers automatically based on the specified conditions.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in as a system administrator by using the *gibbs* username and the *123* password.
 
-## Step 1: Configuring the Mailing of Lien Waivers { .section}
+## Step 1: Configuring the Mailing of Lien Waivers
 
 The processing of lien waivers includes the emailing of the documents to vendors who should return signed versions of them. In this step, you will perform the needed configuration of this mailing so that the system can generate emails with lien waivers attached.
 
@@ -58,7 +58,7 @@ To configure the mailing, do the following:
         When generating emails with lien waivers, the system will insert the email address of the remittance contact of the vendor as the recipient address. Emails will be sent from the default system email account.
 
 
-## Step 2: Configuring the Automatic Generation of Conditional Lien Waivers for a Vendor { .section}
+## Step 2: Configuring the Automatic Generation of Conditional Lien Waivers for a Vendor
 
 To configure lien waivers for a vendor, do the following:
 

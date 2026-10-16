@@ -1,24 +1,24 @@
-# Units of Measure: General Information {#_0b5677b4-e4a0-4b08-adc4-62a12d516c4e .concept}
+# Units of Measure: General Information
 
 Some inventory items can be purchased, tracked, or sold by your company in multiple ways: by the piece, or in storage containers into which they have been packaged. Storage containers can include boxes, packages, or crates. In Acumatica ERP, you can define and maintain any number of different units of measure \(UOMs\) to account for and express these quantities of the items. You can also define conversion rules, so that for different UOMs of the same items, the system can calculate the prices of items to your specifications.
 
 Some units of measure apply to many items and, as such, are defined at the system level. Other units of measure are used only for particular items or for item classes \(which group similar items\). In Acumatica ERP, you can define UOMs and conversion rules at all of these levels, as described in the following sections.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
 -   Create units of measure that can be used system-wide
 -   Create conversion rules for system-wide units of measure
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create system-wide units of measure in the following cases:
 
 -   You are initially configuring inventory in Acumatica ERP.
 -   You need to measure stock items in specific units that are not defined among the system-wide UOMs.
 
-## System-Wide Units of Measure { .section}
+## System-Wide Units of Measure
 
 When you deploy a tenant from scratch, the tenant already contains predefined units of measure, which you can view on the [Units of Measure](CS_20_35_00.md) \(CS203500\) form. If you need to define additional units of measure, you use the same form. Units of measure defined on this form can be used system-wide, for example, for all inventory items and item classes.
 
@@ -26,7 +26,7 @@ For each UOM, you can also specify how this unit is converted to units already d
 
 In addition to system-wide UOMs, you can create UOMs when you are creating an item class or inventory item. For details, see [UOMs for Item Classes and Stock Items](#_005ac844-6b2d-4e09-b509-f0b24a053e46).
 
-## UOMs for Item Classes and Stock Items {#_005ac844-6b2d-4e09-b509-f0b24a053e46 .section}
+## UOMs for Item Classes and Stock Items
 
 You specify UOMs for item classes or stock items in the **Units of Measure** section of the **General** tab on the [Item Classes](IN_20_10_00.md) \(IN201000\) or [Stock Items](IN_20_25_00.md) \(IN202500\) form, respectively. The UOMs specified in the settings of an item class are copied to the corresponding boxes of a new stock item of this class created on the [Stock Items](IN_20_25_00.md) form. For both item classes and stock items, you can select system-wide UOMs or type new item class-specific or item-specific UOMs.
 
@@ -51,7 +51,7 @@ For stock items, you can configure units of measure \(UOMs\) for items that can 
 
 For more information about UOMs for stock items, see [Stock Items: Units of Measure](Stock_Items_UOMs.md).
 
-## Conversion Rules {#_acc02a9f-a7a2-4c9e-aeb2-34611b38a72b .section}
+## Conversion Rules
 
 If the same item can be measured in multiple UOMs, you should define conversion rules between these UOMs so that the system can recalculate item quantities to the base UOM of the item. For system-wide UOMs, you add conversion rules to the settings of a unit on the [Units of Measure](../Shared/../UserGuide/CS_20_35_00.md) \(CS203500\) form. If you specify different UOMs for base, sales, and purchase units for an item on the [Stock Items](../Shared/../UserGuide/IN_20_25_00.md) \(IN202500\) form, you need to add conversion rules for the sales and purchase UOMs with respect to the base UOM on this form.
 

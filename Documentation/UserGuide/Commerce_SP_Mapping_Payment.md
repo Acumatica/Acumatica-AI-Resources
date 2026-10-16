@@ -1,8 +1,8 @@
-# Payment Entity {#_df87662e-8746-4169-9a40-d6984473d8eb .concept}
+# Payment Entity
 
 This topic provides reference information about the standard filtering and field mapping used for payment data during the synchronization of the *Payment* entity between Acumatica ERP and Shopify.
 
-## Payment Filtering { .section}
+## Payment Filtering
 
 Filters are applied during the import of payments to Acumatica ERP. A payment is skipped if any of the following is true:
 
@@ -12,7 +12,7 @@ Filters are applied during the import of payments to Acumatica ERP. A payment is
 
 If the mapping of the store payment method has not been configured or is inactive on the **Payments** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form, the system creates a synchronization record for the payment on the [Sync History](BC_30_10_00.md) \(BC301000\) form and assigns it the *Filtered* status.
 
-## Payment Import Mapping { .section}
+## Payment Import Mapping
 
 The following table shows the mapping of Shopify fields to Acumatica ERP fields that is used during the import of payment data from Shopify.
 

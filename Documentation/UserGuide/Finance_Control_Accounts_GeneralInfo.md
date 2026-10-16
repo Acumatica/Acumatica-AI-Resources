@@ -1,18 +1,18 @@
-# Control Accounts: General Information {#_29cf6881-e21f-4130-94fb-f10bfd511ff7 .concept}
+# Control Accounts: General Information
 
 A control account is a general ledger account that aggregates the balances of entities in a subledger; it can be used for analytical purposes as well as for the reconciliation of balances between subledgers and the general ledger.
 
-## Learning Objectives {#section_igf_mjv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how control accounts are defined in Acumatica ERP and how the system restricts the use of control accounts.
 
-## Applicable Scenarios {#section_kgf_mjv_vxb .section}
+## Applicable Scenarios
 
 The functionality of control accounts is available in Acumatica ERP by default. We recommend that control accounts be configured for the general ledger and all applicable subledgers.
 
 It is possible, although not recommended, that you could configure no GL accounts as control accounts. In this case, when a non-control account is selected in a box where the system expects a control account for the applicable subledger to be selected, a warning is displayed.
 
-## Control Account Configuration {#section_ngf_mjv_vxb .section}
+## Control Account Configuration
 
 You indicate that an account is used as a control account for a particular subledger by selecting the subledger in the **Control Account Module** column for this account on the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form.
 
@@ -29,7 +29,7 @@ The options that are displayed in the drop-down box depend on the features enabl
 |*PO*|Purchase orders|
 |*SO*|Sales orders|
 
-## Restricted Use of Control Accounts {#section_qgf_mjv_vxb .section}
+## Restricted Use of Control Accounts
 
 The following limitations apply to the definition of an account as a control account on the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form and to the selection of a control account in a box or column in which an account is selected on various data entry and maintenance forms:
 

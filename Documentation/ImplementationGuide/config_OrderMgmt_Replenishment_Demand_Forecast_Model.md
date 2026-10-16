@@ -1,10 +1,10 @@
-# Configuration of Replenishment: Demand Forecast Model {#_d0bf7375-ba06-4664-a26e-2d656615e629 .concept}
+# Configuration of Replenishment: Demand Forecast Model
 
 Replenishing the stock in time and in the proper quantities helps your business to retain customers while reducing storage costs. To keep adequate stock of key items, you may need to predict the future demand of these items.
 
 In Acumatica ERP, you can specify the *Moving Average* demand forecast model in the settings of an item to provide the ability to predict its demand.
 
-## Setup of the Forecast Model to Predict Demand {#section_hhn_wkb_fvb .section}
+## Setup of the Forecast Model to Predict Demand
 
 In Acumatica ERP, you can use the moving average demand forecast model, to calculate the demand for a specific future period based on historical sales data for recent consecutive periods. This demand forecast model works well for items with specific trends in sales or with stable sales that are not subject to random significant fluctuations. If you use the model for these items, you can reduce carrying costs, avoid stockouts, minimize excess or obsolete inventory, and improve cash flow. For other items, you will generally not use a demand forecast model.
 
@@ -28,7 +28,7 @@ When you select *Moving Average* as the **Demand Forecast Model** of replenishme
 -   **Seasonality**: The seasonality, which can be used to normalize the replenishment quantity to accommodate high and low sales seasons. For details, see the *Use of Seasonality Settings for Forecasting* section below.
 -   **Launch Date**: The date that starts the time period when the specified replenishment settings will be in effect.
 
-## Use of the Forecast Model to Predict Demand {#section_ihn_wkb_fvb .section}
+## Use of the Forecast Model to Predict Demand
 
 The *Moving Average* forecast model uses the data available for the specified number of past periods to forecast demand for the period immediately following the last period whose data is used in forecasting. If you select a month as the forecast period and want to perform a forecast on the 15th day of the current month, the data from the first 15 days of the month will not be used for forecasting; only data from full periods is used. The system calculates the daily demand for the nearest future period based on daily sales in all days during the specified number of prior periods.
 
@@ -39,7 +39,7 @@ On the [Item Warehouse Details](../UserGuide/IN_20_45_00.md) \(IN204500\) form, 
 -   The date when the purchase order line is requested: This date is the **Requested** date on the **Details** tab of the [Purchase Orders](../UserGuide/PO_30_10_00.md) \(PO301000\) form.
 -   The date of the receipt that includes this item: This date is in the **Date** box of the Summary area of the [Purchase Receipts](../UserGuide/PO_30_20_00.md) \(PO302000\) form.
 
-## Automatic Calculation of Replenishment Parameters { .section}
+## Automatic Calculation of Replenishment Parameters
 
 By using the calculated average daily demand \(daily sales\), average lead time, and their standard deviation values, the system computes the reorder point and safety stock used in automated replenishment. The reorder point is calculated according to the following formula.
 
@@ -106,7 +106,7 @@ When the system has calculated replenishment parameters for stock items on the [
 
 For an example of the calculation of the replenishment parameters for the moving average model, see [Configuration of Replenishment: Example of Parameter Calculation](config_OrderMgmt_Replenishment_Calculation_Example.md).
 
-## Use of Seasonality Settings for Forecasting { .section}
+## Use of Seasonality Settings for Forecasting
 
 The sales of some products follow certain cycles or patterns. For example, the peak of ski sales is in winter. These patterns in sales can be described as seasonality. A set of seasonality settings is a list of low and high seasons with a factor assigned to each season. The factor reflects how sales decrease or increase in each of these specific seasons, as compared to average sales volumes calculated over all time. You can determine the seasons for particular products or groups of products with similar sales behavior and corresponding factors by analyzing sales data spanning multiple financial years.
 
@@ -124,7 +124,7 @@ The system uses seasonality settings for forecasting as follows:
     **Attention:** The standard deviation for the daily demand is calculated for actual sales data, not for normalized data.
 
 
-## Update of Replenishment Parameters Using Forecast-Based Values { .section}
+## Update of Replenishment Parameters Using Forecast-Based Values
 
 To calculate and use the updated replenishment parameters based on values from the forecast, you perform the following general steps:
 

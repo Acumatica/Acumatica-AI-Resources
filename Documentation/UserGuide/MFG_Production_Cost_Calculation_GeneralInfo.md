@@ -1,4 +1,4 @@
-# Cost Calculation for Produced Items: General Information {#_867222a3-f774-4253-a0d5-4aa3c6701365 .concept}
+# Cost Calculation for Produced Items: General Information
 
 Each manufacturing organization estimates the costs of the items it produces to calculate production expenses and set appropriate prices for the produced items. This information may also help production accountants to analyze whether production costs can be optimized. Each organization uses its preferred approach to calculate the costs of produced items, and this calculation is based on the costing method.
 
@@ -8,7 +8,7 @@ The system calculates the cost of a produced item based on the valuation method 
 
 In this topic, you will find information about how the system calculates production costs in Acumatica ERP Manufacturing Edition.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this topic, you will learn the following:
 
@@ -18,7 +18,7 @@ In this topic, you will learn the following:
 -   When the system applies costs to production orders
 -   Which general ledger accounts are used for posting production costs
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You analyze how the system calculates production costs in any of the following cases:
 
@@ -27,7 +27,7 @@ You analyze how the system calculates production costs in any of the following c
 -   When an unexpected variance of production costs has been discovered
 -   When you need to investigate an increase in scrapped items or other quality issues
 
-## Costing Methods { .section}
+## Costing Methods
 
 The costing method of a production order determines the way the system calculates the costs of produced items in an inventory receipt that records the movement of the items to inventory. Acumatica ERP Manufacturing Edition supports the following methods of calculating production costs:
 
@@ -40,7 +40,7 @@ The costing method of a production order determines the way the system calculate
 
 You specify the default costing method for new production orders in the settings of a production order type by using the [Production Order Types](AM_20_11_00.md) \(AM201100\) form. For details, see [Production Order Types: General Information](../ImplementationGuide/config_MFG_Production_Order_Types_GeneralInfo.md). You can change the default method when you are creating a production order on the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form.
 
-## Standard Costing Method { .section}
+## Standard Costing Method
 
 The system uses the *Standard* costing method to calculate costs for produced items with the *Standard* valuation method, which is specified on the **General** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form. For information about valuation methods, see [Item Costs and Valuation Methods: General Information](Item_Costs_Valuation_Methods_GeneralInfo.md).
 
@@ -48,7 +48,7 @@ The unit cost at time when completed items are received in stock is always the s
 
 We recommend that you use this costing method when you have a stable and repeatable production process where cost fluctuations are not expected or when an approximation of costs is sufficient information for the business to operate.
 
-## Cost Application { .section}
+## Cost Application
 
 When transactions for a production order are released and materials and labor are not backflushed, costs are applied to the production order and displayed on the **Totals** tab \(**Actual** section\) of the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) and [Production Order Details](AM_20_90_00.md) \(AM209000\) forms as follows:
 
@@ -64,7 +64,7 @@ When material or labor costs are backflushed for an operation of a production or
 
 For more information about the planned and actual costs of a production order, see [Production Cost Drivers: Planned and Actual Costs](MFG_Production_Cost_Drivers_Planned_and_Actual_Costs.md).
 
-## WIP Balance Correction {#_1e7957ab-90e8-4ace-903a-8eb9b4ff45d6 .section}
+## WIP Balance Correction
 
 Before you close a production order for a finished item, we strongly recommend that you review the balance of the WIP account in the **WIP Balance** box on the **Totals** tab \(**Variance** section\) of the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form.
 
@@ -84,7 +84,7 @@ For a production order with the *Actual* costing method, you can correct the var
 
 For production orders with the *Estimated* costing method, if you have not issued the materials yet and the planned unit cost is not specified for the item, then you perform any of the recommendations above that are appropriate to your situation to correct the balance of the WIP account.
 
-## Posting of Production Costs in the General Ledger { .section}
+## Posting of Production Costs in the General Ledger
 
 Each cost component can be posted to a separate GL account. For more information about the GL accounts used in production, see [System Preparation for Manufacturing Implementation: General Ledger Accounts](../ImplementationGuide/config_MFG_GL_Accounts.md).
 

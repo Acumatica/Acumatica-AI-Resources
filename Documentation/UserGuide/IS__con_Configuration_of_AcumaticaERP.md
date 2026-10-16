@@ -1,4 +1,4 @@
-# Configuration of Acumatica ERP {#_c91e69fa-b350-45f7-b324-c9be9280c23c .concept}
+# Configuration of Acumatica ERP
 
 To configure your Acumatica ERP instance, you need to sign in to Acumatica ERP with an administrator account and do the following:
 

@@ -1,12 +1,12 @@
-# Taxes: Implementation Activity {#_3a3c7858-df52-42b5-b505-be72870c1f1d .task}
+# Taxes: Implementation Activity
 
 In the following implementation activity, you will learn how to set up taxes in payroll.
 
-## Story { .section}
+## Story
 
 Suppose that you as a system administrator need to create all necessary tax codes related to the work locations stored in the system.
 
-## Configuration Overview {#section_chl_5gs_hrb .section}
+## Configuration Overview
 
 In the *U100 Payroll* snapshot, the following tasks have been performed for the purposes of this activity:
 
@@ -17,11 +17,11 @@ In the *U100 Payroll* snapshot, the following tasks have been performed for the 
 
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *IRS* and *NYTAXDEP* tax agencies have been configured.
 
-## Process Overview { .section}
+## Process Overview
 
 You download the latest tax details from the Symmetry tax engine by clicking **Update Taxes** on the form toolbar of the [Tax Maintenance](PR_20_80_00.md) \(PR208000\) form and then you enter missing required settings on the **Tax Codes** tab of that form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start setting up taxes in the system, you should launch the Acumatica ERP website and sign in as a system administrator by using the following credentials:
 
@@ -32,7 +32,7 @@ As a prerequisite activity, in the company to which you are signed in, be sure y
 
 As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course.
 
-## Step 1: Creating Taxes { .section}
+## Step 1: Creating Taxes
 
 To download tax details from the tax engine and create all necessary taxes in the system, do the following:
 
@@ -42,7 +42,7 @@ To download tax details from the tax engine and create all necessary taxes in th
 
 2.  Review the data downloaded from the tax engine on the **Tax Codes** tab and the error messages about missing tax settings.
 
-## Step 2: Specifying Missing Settings { .section}
+## Step 2: Specifying Missing Settings
 
 Because required settings are missing in the tax codes listed on the **Tax Codes** tab of the [Tax Maintenance](PR_20_80_00.md) \(PR208000\) form, do the following:
 

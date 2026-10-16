@@ -1,4 +1,4 @@
-# Data Query Execution {#_acbf0567-2330-4b64-880d-fbe467d80e17 .concept}
+# Data Query Execution
 
 The system executes a data query in the following stages, which are described in detail below:
 
@@ -10,9 +10,8 @@ The system executes a data query in the following stages, which are described in
 
 The whole process is illustrated in the following diagram.
 
-![](Images/BqlQueryExecution.png "Data query execution")
 
-## Configuration of a Delayed Query { .section}
+## Configuration of a Delayed Query
 
 In code, you execute a business query language \(BQL\) statement in one of the following ways:
 
@@ -29,11 +28,11 @@ When the Select\(\) method is executed, Acumatica Framework does the following:
 
 You can iterate through the result set in a `foreach` loop, obtaining either DAC instances or PXResult&lt;&gt; instances. A PXResult&lt;&gt; instance represents a tuple of joined records from the result set. PXResult&lt;&gt; can be cast to any of the DAC types joined in the BQL statement. For more information on the use of the PXResultset&lt;T&gt; class, see [To Process the Result of the Execution of the BQL Statement](AD__how_Process_Resultset.md#).
 
-## Configuration of the LINQ Expression Tree { .section}
+## Configuration of the LINQ Expression Tree
 
 Because the PXResultset&lt;T&gt; class implements the IQueryable&lt;T&gt; interface, developers can modify PXResultset&lt;T&gt; by using LINQ. If the developer appends LINQ statements to a result set, Microsoft LINQ incorporates the result set as an instance of the SQLQueryable&lt;T&gt; class in the LINQ expression tree. The resulting expression tree is an instance of the SQLQueryable&lt;T&gt; class, which contains references to an instance of PXGraph, Microsoft LINQ expression tree, the base PXResultset&lt;T&gt;, and an instance of PX.Data.SQLTree.SQLQueryProvider.
 
-## Execution of the Delayed Query {#_5b6caf40-4e02-4ca8-be53-d6c8996a4794 .section}
+## Execution of the Delayed Query
 
 Once you cast the result of the execution of the Select\(\) method to a DAC or an array of DACs, or if you iterate through the DACs in the result by using the `foreach` statement, the system performs the following steps:
 
@@ -44,7 +43,7 @@ Once you cast the result of the execution of the Select\(\) method to a DAC or a
 5.  The system saves the result of the query in the query cache by using the PXView.StoreCached method.
 6.  The system returns the result as a `List<T>` type.
 
-## Execution of the LINQ Expression Tree { .section}
+## Execution of the LINQ Expression Tree
 
 Once you iterate over the LINQ expression tree, the system performs the following steps:
 

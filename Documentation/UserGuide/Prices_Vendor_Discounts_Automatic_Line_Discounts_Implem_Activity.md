@@ -1,8 +1,8 @@
-# Automatic Line Vendor Discounts: Implementation Activity {#_3d5fe2a9-018b-40a9-9655-fdfaf7c4bc48 .task}
+# Automatic Line Vendor Discounts: Implementation Activity
 
 In this lesson you will learn how to configure line-level vendor discounts of different types \(applicable to specific items and item price classes\) and explore how these discounts are applied in AP bills.
 
-## Story { .section}
+## Story
 
 Suppose that starting in January 2019, one of your vendors, Blueline Advertising, is offering its preferred customers, including SweetLife Fruits &amp; Jams, the following discounts:
 
@@ -13,13 +13,13 @@ On January 30, 2019, SweetLife ordered from Blueline the design of 2 new billboa
 
 Acting as the SweetLife accountant, you need to configure the discounts and then create a bill for Blueline Advertising, noting how these discounts are applied.
 
-## Process Overview { .section}
+## Process Overview
 
 To configure and apply an automatic line-level vendor discount, you create a discount code on the [Vendor Discount Codes](AP_20_40_00.md) \(AP204000\) form and then configure a discount sequence on the [Vendor Discounts](AP_20_50_00.md) \(AP205000\) form.
 
 On the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you create an AP bill with lines to which these discounts may be applied. You then review how the discounts you have configured are applied automatically.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Before you start the exercise, do the following:
 
@@ -27,7 +27,7 @@ Before you start the exercise, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2019*. If a different date is displayed, click the Business Date menu button and select *1/30/2019*. For simplicity, in this lesson, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Create a Line Discount by Amount for a Specific Item { .section}
+## Step 1: Create a Line Discount by Amount for a Specific Item
 
 To configure an automatic discount by amount for the *BILLBDESIG* non-stock item purchased from Blueline, do the following:
 
@@ -65,7 +65,7 @@ To configure an automatic discount by amount for the *BILLBDESIG* non-stock item
 9.  On the form toolbar, click **Update Discounts**.
 10. In the **Update Discounts** dialog box, which opens, leave the default value \(*1/30/2019*\) in the **Filter Date** box, and click **OK**.
 
-## Step 2: Create a Line Discount by Percent for a Specific Item Price Class { .section}
+## Step 2: Create a Line Discount by Percent for a Specific Item Price Class
 
 To configure an automatic discount by percent for the items of the *BILLBOARD* item price class purchased from Blueline, do the following:
 
@@ -104,7 +104,7 @@ To configure an automatic discount by percent for the items of the *BILLBOARD* i
 9.  On the form toolbar, click **Update Discounts**.
 10. In the **Update Discounts** dialog box, which opens, leave the default value \(*1/30/2019*\) in the **Filter Date** box, and click **OK**.
 
-## Step 3: Create the AP Bill and Explore Discount Application { .section}
+## Step 3: Create the AP Bill and Explore Discount Application
 
 To create the bill for Blueline Advertising and explore how the automatic line discounts are applied, do the following:
 
@@ -134,7 +134,7 @@ To create the bill for Blueline Advertising and explore how the automatic line d
     The *20000 - Accounts Payable* account is credited and the *61000 - Advertising Expense* account is debited in the amount of the bill.
 
 
-## Step 4: Make the Created Discounts Inactive { .section}
+## Step 4: Make the Created Discounts Inactive
 
 To make the discounts you created in this activity inactive so that they will not affect other documents later, do the following:
 

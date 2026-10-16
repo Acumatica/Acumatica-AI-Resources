@@ -1,10 +1,10 @@
-# Purchases to the Project Site with a Receipt: General Information {#_4dfec4b6-5f74-436e-932b-df5fcc3a0a68 .concept}
+# Purchases to the Project Site with a Receipt: General Information
 
 In some businesses, the project manager purchases items for a project from a vendor and requests that the ordered items be delivered directly to the site where the project-related work is performed. For example, you may need the construction materials to be delivered to the construction site. As another example, you may need the vendor to deliver directly to the customer site some materials that are needed to provide some service work related to the project. If you need to track which items have been received and verify the quantities received at the project site, you need to process a purchase in which the items are drop-shipped and a purchase receipt is processed.
 
 In Acumatica ERP, you can define a project so that for purchase orders of the *Project Drop-Ship* type, the processing of purchase receipts is required. You can then use purchase orders of this type to process the purchases of materials for the project with drop-shipping of these items directly to the project site.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -14,15 +14,15 @@ In this chapter, you will learn how to do the following:
 -   Prepare an accounts payable bill for the purchase order
 -   Review the generated inventory transactions, project transactions, and GL transactions
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You process a purchase with drop shipment for a project with a receipt when you need the purchased materials to be delivered directly to the project site and detailed information about the received items to be recorded.
 
-## Project Configuration {#section_vsl_k1t_4qb .section}
+## Project Configuration
 
 In the settings of a project for which you want to process drop-ship purchases of items with purchase receipts used to record the receipt of these items, *Generate Receipt* must be specified in the **Drop-Ship Receipt Processing** box on the **Defaults** tab \(**Purchases** section\) of the [Projects](PM_30_10_00.md) \(PM301000\) form. In the same section of this tab, **Record Drop-Ship Expense** must be set to *On Receipt Release*, which will cause the system to capture this project's expenses on release of the purchase receipt. The remainder of this topic describes the resulting process of purchasing drop-shipped items when these settings are specified.
 
-## A Drop-Ship Purchase for a Project with Receipt Processing {#section_hkz_nhg_5qb .section}
+## A Drop-Ship Purchase for a Project with Receipt Processing
 
 To process a purchase of items for a project with the items drop-shipped directly to the project site and with receipt processing, you create a purchase order of the *Project Drop-Ship* type on the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form. In the purchase order, you first select the vendor and the project for which the purchase will be performed.
 
@@ -40,7 +40,7 @@ To finish the processing of the purchase and update the vendor balance in the sy
 
 After the processing of the purchase is completed, you run project billing to prepare the invoice for the customer for the expenses related to the purchase.
 
-## Avalara Tax Calculation for Project Drop-Ship Type Orders { .section}
+## Avalara Tax Calculation for Project Drop-Ship Type Orders
 
 If the *External Tax Calculation Integration* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form and Avalara tax calculation is used in the system, the taxes in the *Project Drop-Ship* purchase orders are calculated based on the project's tax zone.
 
@@ -53,11 +53,10 @@ If an AP bill line is related to a *Project Drop-Ship* purchase order, for this 
 
 For more details, see [Calculating Use and Sales Taxes in Purchase Documents](PO__con_Use_Tax_PO_Avalara.md).
 
-## Workflow of the Purchase to the Project Site with a Receipt {#section_vv2_1y4_y4b .section}
+## Workflow of the Purchase to the Project Site with a Receipt
 
 For project-related purchases with the items drop-shipped to the project site and with the processing of a purchase receipt, the typical process involves the actions and generated documents shown in the following diagram.
 
-![](Images/diag_Construction_Purchase_to_Project_Site_w_Receipt.png)
 
 **Parent topic:**[Purchasing Materials to Project Site with Receipt](../UserGuide/Projects_Purchase_with_Receipt_Mapref.md)
 

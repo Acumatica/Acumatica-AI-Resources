@@ -1,8 +1,8 @@
-# Multicurrency Payment of Invoices: To Pay a Foreign Currency Invoice by Using the Base Currency {#_8b6cd884-3293-4c3e-80f3-8c3c24ba04c7 .task}
+# Multicurrency Payment of Invoices: To Pay a Foreign Currency Invoice by Using the Base Currency
 
 The following activity will walk you through the process of creating an AR invoice in a foreign currency and paying it by using the base currency.
 
-## Story {#section_gpx_3jv_vxb .section}
+## Story
 
 Suppose that on January 30, 2026, SweetLife Fruits &amp; Jams provided services to the Mint Store customer in the amount of 200 Canadian dollars \(C$200\). According to SweetLife's bank records, on February 20, 2026, the company received C$200 from Mint Store. This amount was converted from *CAD* into *USD* by the bank by using the actual bank exchange rate \(0.7913\) on the date when the bank received the payment to $158.26.
 
@@ -10,7 +10,7 @@ Because SweetLife received this amount to its *USD* bank account, the C$200 sent
 
 Acting as a SweetLife accountant, you need to process the invoice and apply the payment to it.
 
-## Configuration Overview {#section_mfx_3jv_vxb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -25,11 +25,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *MINTSTORE* customer has been predefined.
 -   On the [Payment Methods](CA_20_40_00.md) \(CA204000\) form, the cash account for the *CAD* currency has been added for the *WIRE* payment method.
 
-## Process Overview {#section_ppx_3jv_vxb .section}
+## Process Overview
 
 In this activity, on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will create and post an AR invoice in the *CAD* currency. On the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, you will create a payment in the base currency and apply it to the invoice in *CAD*. To fully pay the invoice, you will update the cross rate for the invoice, and then release the payment application. Finally, you will review the generated GL transaction on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## System Preparation {#section_rpx_3jv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -39,7 +39,7 @@ Before you begin performing the steps of this activity, do the following:
 4.  Make sure that the multicurrency accounting functionality has been configured as described in [Multicurrency Functionality: Implementation Activity](../ImplementationGuide/config_Multicurrency_Basic_Implem_Activity.md) and [Configuration of Rate Types and Rates: To Configure Rates](../ImplementationGuide/config_Multicurrency_Configuring_Rates_Activity1.md).
 5.  Make sure that you have configured an account as described in [Multicurrency Cash Accounts: To Configure an Account](../ImplementationGuide/config_Multicurrency_CashAccount_Implem_Activity.md).
 
-## Step 1: Creating and Releasing an AR Invoice {#section_upx_3jv_vxb .section}
+## Step 1: Creating and Releasing an AR Invoice
 
 To create an AR invoice that you will pay later and then release the invoice, do the following:
 
@@ -68,7 +68,7 @@ To create an AR invoice that you will pay later and then release the invoice, do
     -   The AR account specified in the invoice \(*11000*\) was debited in the total invoice amount, which the system converted to the base currency by using the document rate \($156.54 = Round \(C$200 \* 0.7827176\)\).
     -   The sales account \(*40000*\) was credited in the line amount converted to the base currency by the document rate \($156.54 = Round \(C$200 \* 0.7827176\)\).
 
-## Step 2: Processing a Payment for the Invoice {#section_ypx_3jv_vxb .section}
+## Step 2: Processing a Payment for the Invoice
 
 To create a payment and apply it to the invoice, do the following:
 

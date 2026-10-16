@@ -1,4 +1,4 @@
-# Applying Payments to Particular Lines of AR Documents {#_83dd5907-5836-407d-857a-06683511066c .concept}
+# Applying Payments to Particular Lines of AR Documents
 
 In many industries, organizations need to manage sales and payments at a granular level—that is, by the individual lines of AR documents.
 

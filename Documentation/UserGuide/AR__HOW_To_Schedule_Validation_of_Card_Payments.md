@@ -1,12 +1,12 @@
-# To Schedule Validation of Card Payments {#_248a03d4-6774-40ef-86f5-2c5cb45b4bb3 .task}
+# To Schedule Validation of Card Payments
 
 You use the [Validate Card Payments](AR_51_30_00.md) \(AR513000\) form to schedule validation of card payments.
 
-## Before You Proceed {#section_nss_4jv_vxb .section}
+## Before You Proceed
 
 Make sure that the *Integrated Card Processing* feature has been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. With this feature enabled, the [Validate Card Payments](AR_51_30_00.md) \(AR513000\) form appears in the system.
 
-## To Schedule Automatic Validation of Card Payments {#section_pss_4jv_vxb .section}
+## To Schedule Automatic Validation of Card Payments
 
 1.  Open the [Validate Card Payments](AR_51_30_00.md) \(AR513000\) form by searching for or navigating to it.
 2.  On the form toolbar, click **Schedules** &gt; **Add**. This opens the [Automation Schedules](../Shared/../UserGuide/SM_20_50_20.md) \(SM205020\) form.

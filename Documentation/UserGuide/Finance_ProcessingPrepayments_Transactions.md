@@ -1,4 +1,4 @@
-# Bill Prepayments: Generated Transactions {#_ff8188a3-3523-41b4-a99a-9defaf030f01 .concept}
+# Bill Prepayments: Generated Transactions
 
 When the prepayment is released, the system generates the following transaction.
 

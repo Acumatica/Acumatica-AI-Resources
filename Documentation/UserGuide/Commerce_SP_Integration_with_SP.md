@@ -1,4 +1,4 @@
-# Integration with Shopify {#_23e64014-8d4f-4f68-89f2-80b5ead5bef9 .concept}
+# Integration with Shopify
 
 This part of the guide describes the minimum configuration of the Shopify integration, as well as the implementation of the ecommerce functionality in Acumatica ERP.
 

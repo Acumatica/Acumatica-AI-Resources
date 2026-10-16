@@ -1,12 +1,12 @@
-# Generating an Excel from Code {#_97675b8a-7918-47a1-a337-dcaef719927e .task}
+# Generating an Excel from Code
 
 The following activity will walk you through the process of generating an Excel file using Acumatica Framework.
 
-## Story { .section}
+## Story
 
 On the Sales Orders \(SO301000\) form, suppose that you need to generate an Excel file with the list of lines of the current sales order \(from the **Details** tab of the Sales Orders form\) when a user clicks a button, and download the generated file or send it in an email.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this activity, you will learn how to do the following:
 
@@ -14,11 +14,11 @@ In this activity, you will learn how to do the following:
 -   Initiate downloading of a file
 -   Create an email and attach a file to an email based on a notification template
 
-## Process Overview { .section}
+## Process Overview
 
 In the graph extension for the Sales Orders form, you will use the `PX.Export.Excel.Core.Package` class to generate an `Excel` file. You will implement an action in which you will either call a method which downloads the file, or send it as an email attachment. For the user to be able to download the file, you will use the PXRedirectToFileException redirection exception. To attach the file to an email, you will use a notification template and `TemplateNotificationGenerator`.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -26,7 +26,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  Create a customization project.
 3.  Create an extension library and open it in Visual Studio \(optional\).
 
-## Step 1: Create a Graph Extension { .section}
+## Step 1: Create a Graph Extension
 
 To be able to customize logic on the Sales Orders form, you first need to create a graph extension for the graph which determines logic on the Sales Orders form by doing the following:
 
@@ -47,7 +47,7 @@ To be able to customize logic on the Sales Orders form, you first need to create
     ```
 
 
-## Step 2: Learn the Name of the View with Sales Order Lines { .section}
+## Step 2: Learn the Name of the View with Sales Order Lines
 
 To learn the name of the view from which to save the data to the Excel file, do the following:
 
@@ -57,7 +57,7 @@ To learn the name of the view from which to save the data to the Excel file, do 
     In the Inspect Element dialog box, note the name of the view: `Transactions`.
 
 
-## Step 3: Implement a Method That Downloads a File { .section}
+## Step 3: Implement a Method That Downloads a File
 
 In this step, you will implement a private method that will download the Excel file provided in the method parameter.
 
@@ -86,7 +86,7 @@ Do the following:
     **Note:** If you get an error that the Excel namespace does not exist, add the reference to the `PX.Export.dll` manually to your project.
 
 
-## Step 4: Implement a Method Which Sends an Email Attachment { .section}
+## Step 4: Implement a Method Which Sends an Email Attachment
 
 In this step, you will implement a method which sends an Excel file in an email attachment.
 
@@ -146,7 +146,7 @@ Do the following:
     In the code above, first you have selected the email template for the Sales Orders form. Then you create an email by calling the Create method of the PX.Objects.EP.TemplateNotificationGenerator class. After that, you write the contents of the provided Excel file to a stream and add it as an attachment to the email. You send the email by calling the Send method.
 
 
-## Step 5: Implement an Action which Generates the Excel File { .section}
+## Step 5: Implement an Action which Generates the Excel File
 
 In this step, you will implement an action which either initiates downloading of a generated Excel file or sends it in an email.
 
@@ -199,7 +199,7 @@ Do the following:
 
 2.  Save your changes.
 
-## Step 6: Test the Action { .section}
+## Step 6: Test the Action
 
 To test the implemented action, do the following:
 
@@ -215,7 +215,7 @@ To test the implemented action, do the following:
     The systems adds the email to the queue and send it according to the schedule on the [Send and Receive Email](../UserGuide/SM_50_70_10.md) \(SM507010\) form. You can view the email on the Outgoing Email tab of the [All Emails](../UserGuide/CO_40_90_70.md) \(CO409070\) form.
 
 
-## Examples in Acumatica ERP Source Code { .section}
+## Examples in Acumatica ERP Source Code
 
 The following table lists Acumatica ERP forms where creation of an email is implemented.
 

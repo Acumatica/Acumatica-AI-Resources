@@ -1,4 +1,4 @@
-# Step 1: Investigating the Source Code {#_676bb462-71bf-4c18-9093-17f70ee1bd81 .concept}
+# Step 1: Investigating the Source Code
 
 To begin customizing the predefined workflow, you need to investigate how the composite workflow state is defined in it. In [Step 2: Adding a Workflow Extension](WorkflowAPI_CustomizingExistingWorkflow_Activity_AddNewAction_AddWorkflowExtension.md) of the [Workflow Customization: To Add an Action to an Existing Workflow](WorkflowAPI_CustomizingExistingWorkflow_Activity_AddAction.md) activity, you learned that the workflow for the [Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\) form is defined in the `SOInvoiceEntry_Workflow` class and that the states of the workflow are defined in the ARDocStatus class.
 

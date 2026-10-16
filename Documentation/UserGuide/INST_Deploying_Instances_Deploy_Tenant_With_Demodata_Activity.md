@@ -1,20 +1,20 @@
-# Instance Deployment: To Deploy an Instance with Demo Data {#_44b97b93-f850-4600-aa0a-fa5e5e76d8f6 .task}
+# Instance Deployment: To Deploy an Instance with Demo Data
 
 In this activity, you will learn how to deploy an Acumatica ERP application instance with demo data.
 
-## Story { .section}
+## Story
 
 Suppose that you are the system administrator of your company, and you need to deploy the Acumatica ERP application instance with the *T100* dataset.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will deploy the Acumatica ERP application instance with the *T100* dataset.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin deploying an Acumatica ERP application instance, make sure that you have performed the following prerequisite activity: [Acumatica ERP Installation On-Premises: To Install the Acumatica ERP Configuration Wizard](INST_Installing_Configuration_Wizard_Activity.md).
 
-## Step: Deploying an Instance with the Demo Data { .section}
+## Step: Deploying an Instance with the Demo Data
 
 To create an Acumatica ERP instance with the *T100* dataset inserted, do the following:
 
@@ -30,7 +30,6 @@ To create an Acumatica ERP instance with the *T100* dataset inserted, do the fol
     -   **New Database's Name**: `AcumaticaT100`
 6.  On the Tenant Setup page, double-click in the **Insert Data** column for the automatically created row with the *Company* tenant name, and select *T100*, as shown in the following screenshot.
 
-    ![](Images/activity_INST_Deployment_Instances_Insert_DemoData.png "Selection of a dataset for a new tenant")
 
 7.  Click **Next** to go to the next page.
 8.  On the Database Connection page, select **Windows Authentication**; click **Next**.
@@ -45,7 +44,6 @@ To create an Acumatica ERP instance with the *T100* dataset inserted, do the fol
     -   **Virtual Directory Name**: `AcumaticaT100`
     -   **Compile the Site**: Selected
     -   **Install Node.js**: Selected
-    -   **Use Modern UI as Default**: Selected
     -   **Use Existing Application Pool**: Selected
     -   **Available Application Pools**: *DefaultAppPool*
     Leave the other settings without changes.

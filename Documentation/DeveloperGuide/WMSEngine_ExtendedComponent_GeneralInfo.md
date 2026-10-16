@@ -1,28 +1,28 @@
-# Extension of Scan Components: General Information {#_923b721f-4aa3-4e36-80d2-748362b6ce01 .concept}
+# Extension of Scan Components: General Information
 
 The WarehouseManagementSystem&lt;TSelf, TGraph&gt; class has multiple predefined components that can be used by its descendants. However, sometimes you need to alter the logic of predefined components before you add them to the components used in the mode you are developing. You can also customize the scan components that are used on existing barcode-driven forms of Acumatica ERP.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Customize a scan component that is used on an existing barcode-driven Acumatica ERP form
 -   Add a new component that alters a predefined scan component, and use it on a custom barcode-driven form
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You extend a scan component in the following cases:
 
 -   You need to modify the logic of a scan component of an existing barcode-driven Acumatica ERP form for your business scenario. For example, you may want to change the order of value input, implement additional entity validation, or add an alternate way to search for entities.
 -   You have created a scan mode and have inherited a scan component of this mode from the base barcode scan class. You need to modify this component to use it in your scan mode. For example, you may want to add additional validation that is specific to this scan mode.
 
-## Extension of Scan Components { .section}
+## Extension of Scan Components
 
 Scan components use a method-intercepting approach, which predefines the extendable parts of the components. You can learn about method interceptors in [Extension of Scan Components: Method Interceptors](WMSEngine_ExtendedComponent_MethodInterceptors.md).
 
 A scan component is called simple if it implements all its logic by itself. A component is called complex if it does not implement all its logic by itself and delegates logic implementation to at least one ScanExtension class. For details about scan extensions, see [Extension of Scan Components: Scan Extensions](WMSEngine_ExtendedComponent_ScanExtension.md).
 
-## Extension of Predefined Components for a Custom Form { .section}
+## Extension of Predefined Components for a Custom Form
 
 To create a component that alters a predefined scan component and use it on a custom form, you do one of the following:
 
@@ -49,7 +49,7 @@ To create a component that alters a predefined scan component and use it on a cu
 
 For examples of altering predefined scan state components, see [Extension of Scan Components: To Extend Predefined Scan States for a Custom Form](WMSEngine_ExtendedComponent_Activity_NewScanStates.md).
 
-## Extension of Scan Components of an Existing Form { .section}
+## Extension of Scan Components of an Existing Form
 
 To customize the logic of a component, you override the needed `Create` or Decorate method by using the PXOverride attribute. You also intercept one of the component members that can be intercepted. For details on the customization of particular components, see [Extension of Scan Components: Customization of Components](WMSEngine_ExtendedComponent_CustomizedComponents.md).
 

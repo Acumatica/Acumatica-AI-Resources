@@ -1,4 +1,4 @@
-# Revaluing Bank Accounts {#_002d2000-808c-49fe-8345-94af7f86b048 .concept}
+# Revaluing Bank Accounts
 
 The topics of this chapter describe how to revalue a bank account denominated in a foreign currency.
 

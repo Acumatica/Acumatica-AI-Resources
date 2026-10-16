@@ -1,18 +1,18 @@
-# Inherited Workflows: To Create an Inherited Workflow {#_fce7d50a-a8fe-4897-b0ad-a332a2c28492 .task}
+# Inherited Workflows: To Create an Inherited Workflow
 
 The following activity will walk you through the process of adding an inherited workflow for a form based on a predefined one.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_fpz_vbp_jhc .section}
+## Story
 
 Acting as the technical specialist, you need to create a customized workflow for the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form.
 
-## Process Overview {#section_gpz_vbp_jhc .section}
+## Process Overview
 
 You will add the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form to the list of customized screens on the [Screens](../UserGuide/AU_20_10_00.md) page of the Customization Project Editor. You will then use the [Opportunities](../UserGuide/CR_30_40_00.md) form as a starting point to create an inherited workflow for this form on the [Workflows](../UserGuide/AU_20_10_20.md) page. From this page, you will open the [Workflow \(Diagram View\)](../UserGuide/AU_20_10_30_VisualEditor.md) page for the inherited workflow.
 
-## System Preparation {#section_hpz_vbp_jhc .section}
+## System Preparation
 
 Before you begin performing this activity, do the following:
 
@@ -28,7 +28,7 @@ Before you begin performing this activity, do the following:
 
 3.  On the [Customization Projects](../UserGuide/SM_20_45_05.md) \(SM204505\) form, create a customization project named *Opportunities*.
 
-## Step 1: Adding a Form to the List of Customized Screens {#section_ipz_vbp_jhc .section}
+## Step 1: Adding a Form to the List of Customized Screens
 
 Add the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form to the list of customized screens as follows:
 
@@ -45,7 +45,7 @@ Add the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form to the li
     The CR304000 \(Opportunities\) Workflows page of the Customization Project Editor opens with the list of workflows for this screen. Notice that the list contains one workflow: *Default Workflow*. This is the predefined workflow of the form.
 
 
-## Step 2: Creating a Customized Workflow {#section_jpz_vbp_jhc .section}
+## Step 2: Creating a Customized Workflow
 
 Create a customized workflow for the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form as follows:
 

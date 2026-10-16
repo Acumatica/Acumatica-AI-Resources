@@ -1,4 +1,4 @@
-# To Create a Map for Sales Order Approval {#_54e082bf-3094-4522-8ea2-8ace18e9c3f6 .task}
+# To Create a Map for Sales Order Approval
 
 If in your company, sales orders of specific type must be approved, you can configure the approval of sales orders in Acumatica ERP. In general, you will need an approval map created on the [Approval Maps](../UserGuide/EP_20_50_15.md) \(EP205015\) form.
 
@@ -6,13 +6,13 @@ The rules can be very simple if all orders are to be assigned for approval to th
 
 In this topic, we demonstrate how to create an approval map for the following simple example: In a small company, sales orders over $10,000 of the *SO* type must be approved by the CFO if the customer credit limit is less than 50,000.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Before creating an approval map, if records will be assigned to a workgroup, you need to review the company tree structure and decide whether you need to add the workgroups that will be involved in the process of sales order approval. For our example, the company tree should have the *CFO* workgroup.
 
 Also, make sure that user and employee accounts have been created for each of the people involved in the approval of sales orders and that workgroups with the approvers as workgroup members have been created.
 
-## To Create an Approval Map { .section}
+## To Create an Approval Map
 
 1.  Open the [Assignment and Approval Maps](../UserGuide/EP_20_55_00.md) \(EP205500\) form.
 2.  On the form toolbar, click **Add Approval Map**. The [Approval Maps](../UserGuide/EP_20_50_15.md) \(EP205015\) form opens.

@@ -1,4 +1,4 @@
-# Use of the Type Property of PXGridColumn {#_01146ab8-cc7a-4142-a626-95fbb3de4b50 .concept}
+# Use of the Type Property of PXGridColumn
 
 The Acumatica Customization Platform supports the following values for the Type property of a column in a grid.
 
@@ -10,7 +10,7 @@ The Acumatica Customization Platform supports the following values for the Type 
 |*DropDownList*|An indicator that the column cell is rendered as a drop-down list that contains all the values specified for the referred data field.|
 |*Icon*|An indicator that the field value contains an image URL and is displayed in the column as the referred image.|
 
-## Example { .section}
+## Example
 
 The following code fragment defines the grid columns on the [Automation Schedule Statuses](../UserGuide/SM_20_50_30.md) \(SM205030\) form.
 
@@ -30,7 +30,6 @@ In the code, the Type property for the *LastRunStatus* data field \(which corres
 
 For the *IsActive* data field \(which corresponds to the **Active** column\), the Type property is set to *CheckBox*. As you can see in the screenshot, the column cells are rendered as check boxes.
 
-![](Images/CG_GL_UI_PXGrid_AddColumn_TypeProperty.png "Viewing different types of columns on the Automation Schedules form")
 
 **Parent topic:**[Configuring Tables](../StudioDeveloperGuide/CW__mng_Configuring_Tables.md)
 

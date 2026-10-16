@@ -1,4 +1,4 @@
-# Workflow Actions in Import and Export Scenarios {#_8b9187b0-5d02-4f3b-8358-eb92f6ecf0c0 .concept}
+# Workflow Actions in Import and Export Scenarios
 
 A workflow is a depiction of the ways the state of a record created on a particular Acumatica ERP form changes as a result of specific user interactions on the form and other events. A workflow action changes the state of an entity. For example, the status of an opportunity can be changed based on the actions a user has performed on this opportunity. For an Acumatica ERP form, a predefined workflow or a custom workflow can be defined in the system. For more information about workflows and workflow actions, see [Action Configuration: General Information](../DeveloperGuide/WorkflowUI_Actions_GeneralInfo.md).
 
@@ -6,7 +6,7 @@ To specify the particular state of a record by using an import or export scenari
 
 **Attention:** Simple import scenarios cannot use workflow actions. For details about simple import scenarios, see [Simple Scenarios for Data Import](IS__con_Simplified_Import_Scenarios.md).
 
-## Workflow Actions in a Mapping { .section}
+## Workflow Actions in a Mapping
 
 To specify a workflow action in a mapping on the [Import Scenarios](SM_20_60_25.md) \(SM206025\), you click the magnifier button in the **Field or Action** column. In the Search box of the **Select - Field or Action** lookup table, which opens, you type the name of the action. This is the standard way to call actions in import and export scenarios.
 
@@ -17,7 +17,7 @@ To specify a workflow action in a mapping on the [Export Scenarios](SM_20_70_25.
 -   Select the Summary object as the source object, and specify the action name in the **Field or Action** column. This is the standard way to call actions in export scenarios. For details, see [Actions in Import Scenarios](IS__con_Actions_in_Import_Scenarios.md).
 -   Select the Summary object as the source object, select the `<Action: Transition>` action in the **Field or Action** column, and specify the type of transition that corresponds to the workflow action in the **Target Field or Value** column. With this approach, you can use a formula to specify the type of transition.
 
-## Conditional Workflow Actions { .section}
+## Conditional Workflow Actions
 
 To implement conditions in workflow actions, you use the `<Action: Transition>` action in the **Field or Action** column and a formula in the **Source Field or Value** column \(for an import scenario\).
 
@@ -34,7 +34,7 @@ To change the status of the invoice to *On Hold*, you need to invoke the *PutOnH
 
 To continue importing the detail lines, you specify the formula \(see the table above\) to invoke the *PutOnHold* action only once for the invoice, when the status of this invoice is not yet *On Hold*. The formula makes the system check the status of the invoice, and if the status is not *On Hold*, the system changes it to *On Hold*.
 
-## Workflow Actions with Dialog Boxes { .section}
+## Workflow Actions with Dialog Boxes
 
 If a workflow action displays a workflow dialog box with the parameters of the action, you can specify these parameters by using the `Transition Parameters` object as the target object in an import scenario. The parameters must be specified before the workflow action.
 

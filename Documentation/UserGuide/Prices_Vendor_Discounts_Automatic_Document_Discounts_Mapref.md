@@ -1,4 +1,4 @@
-# Automatic Document Vendor Discounts {#_ab0d80b0-083a-442d-a467-2abf13fe463c .concept}
+# Automatic Document Vendor Discounts
 
 Any discount in Acumatica ERP is defined by a combination of settings specified for a discount code and discount sequence. The discount code determines the level at which the discount is applied, whether it is applied automatically by the system or manually by the user, as well as entity types or types for which the discounts will be effective for. The discount sequence specifies further settings, such as the following:
 

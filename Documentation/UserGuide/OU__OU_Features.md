@@ -1,4 +1,4 @@
-# Overview of the Acumatica Add-In for Outlook {#_170da3aa-7709-4887-a4aa-25542d7a6f02 .concept}
+# Overview of the Acumatica Add-In for Outlook
 
 The Acumatica add-in for Outlook processes the incoming and outgoing mail in your Outlook mailbox and searches for records, such as leads and contacts, in Acumatica ERP that correspond to the sender and recipient addresses in the emails.
 
@@ -24,7 +24,7 @@ If you use the add-in with the Classic UI, you can:
 
 You can also customize the appearance of the Acumatica ribbon button in Outlook in accordance with your company's branding.
 
-## Limitation { .section}
+## Limitation
 
 The Acumatica add-in for Outlook does not support shared mailboxes.
 

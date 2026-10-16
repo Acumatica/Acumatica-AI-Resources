@@ -1,4 +1,4 @@
-# Acumatica ERP Installation in a Data Center: To Launch an Amazon EC2 Instance {#_369e491c-d21c-4dcf-92be-6a6b038af5a3 .task}
+# Acumatica ERP Installation in a Data Center: To Launch an Amazon EC2 Instance
 
 The following activity will walk you through the process of launching an Amazon Elastic Compute Cloud \(Amazon EC2\) instance.
 
@@ -7,15 +7,15 @@ The following activity will walk you through the process of launching an Amazon 
 -   The vendor of the third-party software may change the user interface and settings. Therefore, the form elements and setting names that you see may differ from the ones described in the activity.
 -   The activity will be updated to describe changes in the user interface and settings.
 
-## Story { .section}
+## Story
 
 Suppose that you are the system administrator, and you need to launch an Amazon EC2 instance to host the Acumatica ERP application.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will launch an Amazon EC2 instance.
 
-## Step: Launching an Amazon EC2 Instance { .section}
+## Step: Launching an Amazon EC2 Instance
 
 To launch an Amazon EC2 instance, do the following:
 

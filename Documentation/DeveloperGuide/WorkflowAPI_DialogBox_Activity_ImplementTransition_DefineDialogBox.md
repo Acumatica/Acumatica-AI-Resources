@@ -1,4 +1,4 @@
-# Step 1: Defining a Workflow Dialog Box {#_fe9ffff2-8847-4da1-85ef-a45059924063 .task}
+# Step 1: Defining a Workflow Dialog Box
 
 In this step, you will define and configure the **Assign** dialog box.
 
@@ -6,7 +6,7 @@ Do the following:
 
 1.  In the static Configure method of the `RSSVWorkOrderEntry_Workflow` class, define the **Assign** workflow dialog box, as the following code shows.
 
-    ```language-csharp
+    ```csharp
                 // Define the Assign dialog box
                 var formAssign = context.Forms.Create("FormAssign", form =>
                     form.Prompt("Assign").WithFields(fields =>
@@ -18,7 +18,7 @@ Do the following:
 
 2.  Inside the lambda expression for the WithFields method, add the `Assignee` field, which will be displayed in the dialog box.
 
-    ```language-csharp
+    ```csharp
                         fields.Add("Assignee", field => field
                            .WithSchemaOf<RSSVWorkOrder.assignee>()
                            .IsRequired()
@@ -29,7 +29,7 @@ Do the following:
 
 3.  Register the dialog box in the screen configuration by calling the WithForms method in the lambda expression for the AddScreenConfigurationFor method, as the following code shows.
 
-    ```language-csharp
+    ```csharp
                     .WithForms(forms => forms.Add(formAssign))
     ```
 

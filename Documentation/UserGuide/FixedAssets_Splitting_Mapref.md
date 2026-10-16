@@ -1,4 +1,4 @@
-# Splitting Fixed Assets {#_43fb3bff-2f62-49d6-9006-74c17fda9036 .concept}
+# Splitting Fixed Assets
 
 In this chapter, you will find general information on how to split fixed assets, a checklist for system implementation, an activity that describes how to split a fixed asset, and the reports and inquiry forms that can be useful to find and view created transactions.
 

@@ -1,4 +1,4 @@
-# Calculation of Vendor Discounts {#_79aac8eb-c878-4b26-934f-f5bba9c25d12 .concept}
+# Calculation of Vendor Discounts
 
 With the algorithms used to calculate vendor discounts in Acumatica ERP, you can receive the best discount amount on your purchase orders and bills according to the information on vendor discounts available in your system.
 
@@ -6,14 +6,14 @@ You enter discount codes and discount sequences based on information received fr
 
 This topic describes how, based on the discount type and the selected options, the system calculates the discount amounts or percentages.
 
-## Discount Calculation for Multiple Units of Measure { .section}
+## Discount Calculation for Multiple Units of Measure
 
 If the *Multiple Units of Measure* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, particular items can be bought in different units of measure \(UOMs\). This may influence the calculation of discounts defined by quantity. You can specify which UOMs the system uses to calculate discounts. In the **Apply Quantity Discounts To** box on the **Price/Discount Settings** tab of the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form, you can select one of the following options:
 
 -   *Document Line UOM*: The system uses the document line's UOM and quantity for calculating the discount.
 -   *Base UOM*: The system converts the quantity of the ordered items in the document line's UOM to a quantity in the base UOM for the item; the discount is applied to this calculated base quantity.
 
-## Calculation of Document-Level Discounts with Tiers Defined by Amounts { .section}
+## Calculation of Document-Level Discounts with Tiers Defined by Amounts
 
 For *document-level* vendor discounts, which are unconditional, the discount tiers can be created only by break points defined as amounts, and the discount can be defined as a percentage of the document amount or as a fixed amount. When the system processes a purchase order or a bill and finds a qualifying discount sequence the discountable amount is compared to the break points in the discount sequence as follows:
 
@@ -42,7 +42,7 @@ For a document with a $900 total, the discount is $0. For a document with a $250
 
 For purchase orders with amounts less than $1000, your company receives a discount of $0. The discount for an order with a total between $1000 and $1999.99 is $100, the discount on an order between $2000 and $2999.99 is $225, and the discount for an order of $3000 or more is $350.
 
-## Calculation of Line-Level Discounts for Tiers Defined by Amounts { .section}
+## Calculation of Line-Level Discounts for Tiers Defined by Amounts
 
 The tiers for line-level discounts can be defined by amounts or by quantities. The method of calculation of line-level discounts depends on whether the discount should be applied to the unit prices of items or to the extended prices of the items. Based on the information received from each vendor, you select the appropriate option in the **Apply Line-Discounts to** box on the **Calculation Settings** tab of the [Vendor Discount Codes](AP_20_40_00.md) \(AP204000\) form for this vendor.
 

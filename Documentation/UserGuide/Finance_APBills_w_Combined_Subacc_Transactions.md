@@ -1,4 +1,4 @@
-# Bill with Combined Subaccounts: Generated Transactions {#_98013564-491a-4f61-b634-d8afafab959d .concept}
+# Bill with Combined Subaccounts: Generated Transactions
 
 When you release an AP bill, the system generates a transaction to record the liability to the general ledger. The AP bill includes all the information the system needs to generate the transaction.
 

@@ -1,4 +1,4 @@
-# Managing Control Accounts {#_c6723e71-80d3-45db-97af-6f67fb5af4c0 .concept}
+# Managing Control Accounts
 
 Some of the accounts defined in the chart of accounts are used as *control accounts*. A control account is a general ledger account that aggregates the balances of entities in a subledger; it can be used for analytical purposes as well as for the reconciliation of balances between subledgers and the general ledger.
 

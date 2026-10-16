@@ -1,13 +1,13 @@
-# To Configure the Web.Config File for Integration with Microsoft Entra ID {#_21f5db19-a074-4fed-b71c-92884d6308ca .task}
+# To Configure the Web.Config File for Integration with Microsoft Entra ID
 
 After you have registered your Acumatica ERP instance with Microsoft Entra and obtained the necessary credentials, you should enable the integration with Microsoft Entra ID for your Acumatica ERP instance.
 
-## Before You Begin { .section}
+## Before You Begin
 
 -   Register your Acumatica ERP instance on the Microsoft Entra ID portal, as described in [To Configure Microsoft Entra ID for Integration with Your Acumatica ERP Instance](US__how_AzureAD_Registering_with_Azure.md).
 -   Be sure that you have a plain-text editor for editing the `web.config` file.
 
-## To Enable Microsoft Entra ID for the Acumatica ERP Instance { .section}
+## To Enable Microsoft Entra ID for the Acumatica ERP Instance
 
 1.  Open the `web.config` file, which is located in the folder that contains the application instance website.
 
@@ -57,7 +57,7 @@ After you have registered your Acumatica ERP instance with Microsoft Entra and o
 
 4.  In the `federationConfiguration` element within the `system.identityModel.services` section, modify its child `wsFederation` element to be similar to the following example.
 
-    ``` {#codeblock_v5n_t41_5rb}
+    ```
     <federationConfiguration>
       <wsFederation passiveRedirectEnabled="false" 
       issuer="https://login.windows.net/Azure_Instance_Tenant_ID/wsfed" 

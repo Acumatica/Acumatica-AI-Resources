@@ -1,8 +1,8 @@
-# Knowledge Prerequisites {#_1fceec62-0f72-4025-a142-c07b4ee19d10 .concept}
+# Knowledge Prerequisites
 
 To be able to work on a customization of Acumatica ERP, you should have the following knowledge of technology used in Acumatica Customization Platform.
 
-## Knowledge of the Technology and Programming Language Used in the Acumatica Customization Platform { .section}
+## Knowledge of the Technology and Programming Language Used in the Acumatica Customization Platform
 
 You should have the following knowledge of technology and programming language:
 

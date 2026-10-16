@@ -1,4 +1,4 @@
-# Attachments: File Maintenance {#_707c3e2d-dc3c-41b3-a75b-ed8bb53b82ef .concept}
+# Attachments: File Maintenance
 
 Acumatica ERP provides additional capabilities for managing file attachments. By using the [File Maintenance](SM_20_25_10.md) \(SM202510\) form, you can control access to a file attachment and maintain multiple versions of a file \(if needed\); also, if you’re considering deleting a file, you can first review its links to records.
 
@@ -6,7 +6,7 @@ On the [Search in Files](SM_20_25_20.md) \(SM202520\) form, you can search for a
 
 You use the [File Upload Preferences](SM_20_25_50.md) \(SM202550\) form to specify the permitted file types and the maximum size for files that may be uploaded.
 
-## Access to Files { .section}
+## Access to Files
 
 You use the **Inherit Access Rights from Entities** check box on the **Access Rights** tab of the [File Maintenance](SM_20_25_10.md) \(SM202510\) form to control how the system determines access to a file. By default, the check box is selected, and the system determines access rights to a file attachment by combining the user’s access rights to:
 
@@ -23,7 +23,7 @@ To make the file unavailable to users accessing the system from outside, such as
 
 For more granular control of access to project and construction files, you can use tag-based access. You can assign one or more tags to a file. Each tag has its own access rights that define what users with that role can do with the file. For details, see [Managing Project Files: Tag and File Access Setup](Projects_File_Management_Configuration.md).
 
-## Version Maintenance { .section}
+## Version Maintenance
 
 If you need to modify an uploaded file and attach the modified version while keeping its previous version, you can upload an unlimited number of versions for the file. To do this, click **Upload New Version** on the form toolbar of the [File Maintenance](SM_20_25_10.md) \(SM202510\) form. For each new version of the file, you should provide a comment about its contents. This will help users find the file and file version they need.
 
@@ -31,7 +31,7 @@ The system displays the list of available file versions on the **Versions** tab 
 
 You can make the file unavailable for editing to other users while you are updating it by clicking **Check Out** on the form toolbar. When you are done with the modifications, you click **Upload New Version** on the form toolbar. Then you select the **Check In** check box in the **File Upload** dialog box to make the file available for editing to other users. Alternatively, you can click **Undo Check Out** on the form toolbar to release the file without uploading a new version.
 
-## File Deletion { .section}
+## File Deletion
 
 To delete a file, you open it on the [File Maintenance](SM_20_25_10.md) \(SM202510\) form and click **Delete** on the form toolbar. The system deletes the file itself, as well as links to the entities and wiki articles \(if any\) to which it was linked.
 
@@ -45,11 +45,11 @@ Further suppose that a user deletes the sales order. The system deletes the link
 
 In Acumatica ERP versions earlier than 2021 R1, when a record was deleted or some of its details were deleted, the record’s attached files remained in the database, taking up space. To find these files in Version 2021 R1 or later, you select the **Show Files Not Linked to Any Record** check box on the Selection area of the [Search in Files](SM_20_25_20.md) \(SM202520\) form, and the system displays the list of files without links in the table below. For each file you want to delete, you select the file and click **Delete File** on the table toolbar. Alternatively, you can click a file name to go to the [File Maintenance](SM_20_25_10.md) \(SM202510\) form, where you can review the file’s settings and then delete it, if needed.
 
-## File Type and Size Preferences { .section}
+## File Type and Size Preferences
 
 In Acumatica ERP, you can allow or deny the importing of specific file types \(by their extensions\) and set a maximum size for imported files. You use the [File Upload Preferences](SM_20_25_50.md) \(SM202550\) form to view and edit the file types and sizes that users may import to the site.
 
-## Assigning Tags {#section_hsg_rtf_khc .section}
+## Assigning Tags
 
 You can label files with tags to organize them to your liking. Additionally, for project and construction documents, you can use tags to establish role-based access to files.
 
@@ -57,9 +57,8 @@ At first, administrators should create any needed tags on the [File Tags](SM_20_
 
 Once done, you can assign tags a file, using the **Tags** box on the [File Maintenance](SM_20_25_10.md) \(SM202510\) form. Clicking the magnifier icon in this box displays the **Select Tags** dialog box, where you can select from the tags you have access to.
 
-![](Images/GS_Tag_Mgmnt_File_Maintenance_Form.png "Tags assigned to the file")
 
-## Searching by Tags {#section_o5v_kwf_khc .section}
+## Searching by Tags
 
 While searching for files on the [Search in Files](SM_20_25_20.md) \(SM202520\) form, you can use tags as search criteria, as shown below:
 
@@ -68,7 +67,4 @@ While searching for files on the [Search in Files](SM_20_25_20.md) \(SM202520\) 
 
 In the new **Tags** column of the search results table \(also shown below\), you can see what tags are assigned to each file.
 
-![](Images/GS_Tag_Mgmnt_Search_Files_Form.png "Using tags as search criteria")
-
-**Parent topic:**[Working with Attachments](../UserGuide/GS_Working_With_Attachments_Mapref.md)
 

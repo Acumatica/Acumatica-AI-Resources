@@ -1,14 +1,14 @@
-# Data Synchronization: To Perform the First Synchronization {#_2f56a2c1-af17-4547-a5b6-97ed29a1181c .task}
+# Data Synchronization: To Perform the First Synchronization
 
 The following activity will walk you through the process of manually exporting items from Acumatica ERP to the BigCommerce store. You will also perform the instructions to place a test order online in the BigCommerce store and then synchronize the order with Acumatica ERP. Finally, you will create a shipment for the order in Acumatica ERP and synchronize the created shipment with the BigCommerce store.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that you are an implementation consultant helping the SweetLife Fruits &amp; Jams company to set up an online store. You have completed the minimum initial configuration of the integration with BigCommerce and now want to explore how synchronization works. You will configure synchronization for and then synchronize a subset of stock items that are maintained in Acumatica ERP \(stock items of the *Jam* item class\) with the BigCommerce store, where the term *products* describes what are called *items* in Acumatica ERP. You will then perform a test purchase of one of the synchronized products and explore how the online order is processed in the BigCommerce store and in Acumatica ERP.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will perform the following steps:
 
@@ -27,7 +27,7 @@ In this activity, you will perform the following steps:
 13. On the [Prepare Data](BC_50_10_00.md) form, start the data preparation process for the *Shipment* entity; on the [Process Data](BC_50_15_00.md) form, synchronize the prepared shipment data.
 14. In the control panel of the BigCommerce store, review the updated order details and the shipment exported from Acumatica ERP.
 
-## System Preparation { .section}
+## System Preparation
 
 Do the following:
 
@@ -39,7 +39,7 @@ Do the following:
     -   **Password**: *123*
 3.  Sign in to the control panel of the BigCommerce store as the store administrator.
 
-## Step 1: Finding and Reviewing the Stock Items to Be Sold Online { .section}
+## Step 1: Finding and Reviewing the Stock Items to Be Sold Online
 
 To find and review the stock items that will be sold online, do the following:
 
@@ -53,7 +53,7 @@ To find and review the stock items that will be sold online, do the following:
     Now all stock items of the *Jam* item class are displayed. Notice how many items are in the class; scan the list so you are familiar with the stock items that you need to export to the BigCommerce store.
 
 
-## Step 2: Configuring the Export of a Subset of Stock Items { .section}
+## Step 2: Configuring the Export of a Subset of Stock Items
 
 To configure a filtering condition for the *Stock Item* entity to export only stock items of the *Jam* item class to the BigCommerce store, do the following:
 
@@ -75,7 +75,7 @@ To configure a filtering condition for the *Stock Item* entity to export only st
     **Note:** Filtering rules are not applied to data that has already been synchronized. For example, if you synchronize the *Stock Item* entity without filters \(which will result in exporting all stock items to the online store\), apply the filter described above, and prepare and process the *Stock Item* entity again, all previously synchronized stock items that no longer match the filtering conditions will remain synchronized.
 
 
-## Step 3: Preparing the Product Data for Synchronization { .section}
+## Step 3: Preparing the Product Data for Synchronization
 
 To prepare the stock item data that needs to be synchronized to the BigCommerce store, do the following:
 
@@ -93,7 +93,7 @@ To prepare the stock item data that needs to be synchronized to the BigCommerce 
     **Tip:** You can click the link in the **Ready to Process** column to open the [Process Data](../Shared/../UserGuide/BC_50_15_00.md) \(BC501500\) form with the store and the entity selected; you can click the link in the **Processed Records** column to open the [Sync History](../Shared/../UserGuide/BC_30_10_00.md) \(BC301000\) form with the store and the entity selected and the list of processed synchronization records \(that is, records that have been successfully synchronized and assigned the *Processed* status\) displayed on the **Drilldown** filter tab.
 
 
-## Step 4: Reviewing the Results of Data Preparation { .section}
+## Step 4: Reviewing the Results of Data Preparation
 
 To review the results of the preparation of data for synchronization, do the following:
 
@@ -105,10 +105,9 @@ To review the results of the preparation of data for synchronization, do the fol
 
     For each of these items, the **ERP ID** column displays a link with the item description that you can click to open the item on the [Stock Items](IN_20_25_00.md) \(IN202500\) form. Notice that the **External ID** column currently does not display any values because the stock items have not yet been exported to the BigCommerce store.
 
-    ![](Images/activity_Commerce_BC_Data_Sync_First_Sync.png "Stock item synchronization records prepared for processing")
 
 
-## Step 5: Processing the Prepared Product Data { .section}
+## Step 5: Processing the Prepared Product Data
 
 To process the *Stock Item* entity, do the following:
 
@@ -121,7 +120,7 @@ To process the *Stock Item* entity, do the following:
 2.  On the form toolbar, click **Process All** to process all synchronization records displayed on the form.
 3.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 6: Reviewing the Synchronization Status of the Product Data { .section}
+## Step 6: Reviewing the Synchronization Status of the Product Data
 
 To again review the synchronization status of the product data, do the following:
 
@@ -133,7 +132,7 @@ To again review the synchronization status of the product data, do the following
     The table shows the list of items that have been synchronized with the BigCommerce store. For each item, there is now a product identifier in the **External ID** column. In the table, the **Last Operation** value has changed to *Inserted Externally* and the time stamp in the **Last Attempt** column has changed to the date and time when you ran data processing on the [Process Data](BC_50_15_00.md) \(BC501500\) form.
 
 
-## Step 7: Viewing an Exported Product in the BigCommerce Store { .section}
+## Step 7: Viewing an Exported Product in the BigCommerce Store
 
 To view the *KIWIJAM96* stock item \(which has the description *Kiwi jam 96 oz*\) in the BigCommerce store, do the following:
 
@@ -152,7 +151,7 @@ To view the *KIWIJAM96* stock item \(which has the description *Kiwi jam 96 oz*\
     -   The product description \(*Thick and sweet kiwi jam – goes great on toast or on pancakes.*\) in the **Description** section
     -   The product image in the **Images** subsection of the **Images &amp; Videos** section
 
-## Step 8: Placing an Order from the Control Panel { .section}
+## Step 8: Placing an Order from the Control Panel
 
 To purchase a 96-ounce jar of kiwi jam, while you are still signed in to the control panel of your BigCommerce store, do the following:
 
@@ -190,7 +189,7 @@ To purchase a 96-ounce jar of kiwi jam, while you are still signed in to the con
 9.  Click **Save &amp; process payment**.
 10. On the **View orders** page, which opens, make a note of the reference number of the created order in the **Order ID** column. You will review and process this order in Acumatica ERP further in this activity. Notice that the order status is *Awaiting Fulfillment*.
 
-## Step 9: Importing the Sales Order Data to Acumatica ERP { .section}
+## Step 9: Importing the Sales Order Data to Acumatica ERP
 
 To import sales orders from the BigCommerce store to Acumatica ERP, do the following:
 
@@ -209,7 +208,7 @@ To import sales orders from the BigCommerce store to Acumatica ERP, do the follo
 5.  Select the unlabeled check box in the only row, and on the form toolbar, click **Process**.
 6.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 10: Reviewing the Synchronization Status of the Imported Sales Order { .section}
+## Step 10: Reviewing the Synchronization Status of the Imported Sales Order
 
 To review the synchronization status of the order you imported in the previous step, do the following:
 
@@ -220,7 +219,6 @@ To review the synchronization status of the order you imported in the previous s
 
     In the table, review the synchronization records that were created during the import of the sales order \(shown in the following screenshot\).
 
-    ![](Images/activity_Commerce_BC_Data_Sync_First_Sync_SyncRecords.png "The synchronization records created during the import of the sales order")
 
     Notice the following:
 
@@ -231,14 +229,13 @@ To review the synchronization status of the order you imported in the previous s
         The payment has been imported because the payment method you used to pay the order has been mapped to an Acumatica ERP payment method and the mapping has been activated on the **Payments** tab of the [BigCommerce Stores](BC_20_10_00.md) form.
 
 
-## Step 11: Reviewing the Imported Sales Order { .section}
+## Step 11: Reviewing the Imported Sales Order
 
 To review the details of the imported sales order, do the following:
 
 1.  While you are still viewing the synchronization results on the [Sync History](BC_30_10_00.md) \(BC301000\) form, click the link in the **ERP ID** column for the sales order you imported.
 2.  On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, which opens in a pop-up window, review the details of the order, as shown in the following screenshot.
 
-    ![](Images/activity_Commerce_BC_Data_Sync_First_Sync_SO.png "Sales order imported from the store")
 
     In the Summary area, notice the following:
 
@@ -254,7 +251,7 @@ To review the details of the imported sales order, do the following:
     On the **Payments** tab, notice that a prepayment in the order amount has been applied to the sales order.
 
 
-## Step 12: Creating and Confirming a Shipment { .section}
+## Step 12: Creating and Confirming a Shipment
 
 To process a shipment for the imported order, do the following:
 
@@ -269,7 +266,7 @@ To process a shipment for the imported order, do the following:
 
 4.  Close the pop-up window with the [Shipments](SO_30_20_00.md) form.
 
-## Step 13: Synchronizing the Shipment with the BigCommerce Store { .section}
+## Step 13: Synchronizing the Shipment with the BigCommerce Store
 
 To synchronize with the *SweetStore - BC* store the shipment that you created and confirmed in the previous steps, do the following:
 
@@ -286,7 +283,7 @@ To synchronize with the *SweetStore - BC* store the shipment that you created an
 6.  Select the unlabeled check box for the only row of the table, and click **Process** on the form toolbar.
 7.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 14: Reviewing the Updated Order and Shipment in BigCommerce { .section}
+## Step 14: Reviewing the Updated Order and Shipment in BigCommerce
 
 To check whether the shipment and the updated order have been imported to the BigCommerce store correctly, do the following:
 

@@ -1,4 +1,4 @@
-# Configuring GL Consolidation {#_bf66b025-fbfb-4d21-900f-d773548d2aaa .concept}
+# Configuring GL Consolidation
 
 By using the general ledger functionality of Acumatica ERP, you can consolidate data from specific branches of subsidiaries \(or consolidation units\) into a specific branch of the parent company. As you configure this consolidation, you can specify which data should be consolidated and how exactly the data should be consolidated. After the consolidation has been configured, you can consolidate the data as often as you need to within each financial period.
 

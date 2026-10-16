@@ -1,20 +1,47 @@
-# Applying Payments to Particular Lines: Implementation Checklist {#_8be675b4-152b-4fd7-a8bb-0bee17c8ce20 .concept}
+# Applying Payments to Particular Lines: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for processing AP documents that can be paid by line, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you initially apply payments to particular lines of AP documents, you make sure that the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
-|Form|Criteria to Check|
-|----|-----------------|
-|[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)|Make sure that the minimal features have been enabled, as described in [Company Without Branches: General Information](../ImplementationGuide/config_Basic_Company_GeneralInfo.md), [Company with Branches that Do Not Require Balancing: General Information](../ImplementationGuide/config_Company_with_Branches_No_Balancing_GeneralInfo.md), or [Company with Branches that Require Balancing: General Information](../ImplementationGuide/config_Company_with_Branches_with_Balancing_GeneralInfo.md).Also, make sure that the *Payment Application by Line* feature has been enabled.
+<table id="_75f5a845-9a95-409c-9ffd-7c022ec672dc"><thead><tr><th>
 
-|
-|[Vendors](AP_30_30_00.md) \(AP303000\)|Verify the existence of the vendor accounts for the vendors whose bills you will pay. For details, see [Vendors: Implementation Activity](Vendor_Implem_Activity.md).|
-|[Payment Methods](CA_20_40_00.md) \(CA204000\)|Make sure that a payment method with the *Cash/Check* means of payment has been created.|
+Form
 
-## Other Settings That Affect the Workflow { .section}
+</th><th>
+
+Criteria to Check
+
+</th></tr></thead><tbody><tr><td>
+
+[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)
+
+</td><td>
+
+Make sure that the minimal features have been enabled, as described in [Company Without Branches: General Information](../ImplementationGuide/config_Basic_Company_GeneralInfo.md), [Company with Branches that Do Not Require Balancing: General Information](../ImplementationGuide/config_Company_with_Branches_No_Balancing_GeneralInfo.md), or [Company with Branches that Require Balancing: General Information](../ImplementationGuide/config_Company_with_Branches_with_Balancing_GeneralInfo.md).Also, make sure that the *Payment Application by Line* feature has been enabled.
+
+</td></tr><tr><td>
+
+[Vendors](AP_30_30_00.md) \(AP303000\)
+
+</td><td>
+
+Verify the existence of the vendor accounts for the vendors whose bills you will pay. For details, see [Vendors: Implementation Activity](Vendor_Implem_Activity.md).
+
+</td></tr><tr><td>
+
+[Payment Methods](CA_20_40_00.md) \(CA204000\)
+
+</td><td>
+
+Make sure that a payment method with the *Cash/Check* means of payment has been created.
+
+</td></tr></tbody>
+</table>
+
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of paying AP documents by line by specifying additional settings as follows:
 
@@ -26,11 +53,11 @@ You can affect the workflow of paying AP documents by line by specifying additio
     -   Make sure that the **Automatically Post on Release** check box is selected in the **Posting Settings** section. This setting indicates that AP documents will be automatically posted to the general ledger once they are released.
 -   On the [Payment Methods](CA_20_40_00.md) \(CA204000\) form, select the **Print Checks** option button in the **Additional Processing** section on the **Settings for Use in AP** tab.
 
-## Validation of Configuration { .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you process documents paid by line by performing instructions similar to those described in [Applying Payments to Particular Lines: Process Activity](Finance_AP_Pay_by_Line_Activity.md).
 
-## Known Process Limitations { .section}
+## Known Process Limitations
 
 The following limitations apply to the functionality of applying payments to particular lines:
 

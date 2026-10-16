@@ -1,8 +1,8 @@
-# Step 5: Collect More Information {#_d2927170-7019-419e-8385-36a7d34e4652 .task}
+# Step 5: Collect More Information
 
 If you have not found the reason for the performance slowdown while performing the previous steps or you need to collect more details about it, perform the following substeps.
 
-## 1. Investigate Requests in the Request Profiler {#_2eccbfeb-aafd-4ac5-a947-f551b22077e4 .section}
+## 1. Investigate Requests in the Request Profiler
 
 Do the following to isolate queries leading to errors and performance lags:
 
@@ -21,14 +21,13 @@ Do the following to isolate queries leading to errors and performance lags:
 
     The following screenshot demonstrates SQL Server suggesting that the problem is a missing index.
 
-    ![](Images/MissingIndex.png "SQL Server suggestion")
 
 11. Report the issue to the Acumatica support team, as described in [Step 6: Submit a Case to Acumatica Support](how_Troubleshoot_Performance_Step6.md#).
 
     **Note:** You can perform the solution suggested by SQL Server as an interim fix after consultation with the Acumatica support team. However, we recommend that such issues are always reported via a support case for a permanent solution.
 
 
-## 2. Collect Additional Information from the Logs {#_fef30de7-dc42-43f4-aca5-14f7f616d1ad .section}
+## 2. Collect Additional Information from the Logs
 
 You should collect the information from the needed log files depending on the situation, which can be one of the following:
 
@@ -58,7 +57,6 @@ You should collect the information from the needed log files depending on the si
     1.  In Task Manager on the application server, find the `w3wp.exe` process that is run under the username that is the name of the application pool.
     2.  Right-click on the process, and select **Create Dump File**, as shown in the following screenshot.
 
-        ![](Images/CreateDumpFile.png "Creation of a dump file")
 
     **Note:** A process dump is a snapshot of an application showing what processes were executing and which modules were loaded at the time it was taken. The dump must be created only when the site is completely non-responsive or extremely slow. While you are creating a dump file, the process goes into a suspended mode, which will disconnect users from the site and lose any unsaved work.
 
@@ -74,7 +72,6 @@ You should collect the information from the needed log files depending on the si
 
     2.  In the `web.config` file in the Acumatica ERP site folder, find the *EnableFirstChanceExceptionsLogging* key, and change its value to *true*, as shown in the following screenshot.
 
-        ![](Images/WebConfig.png "Fragment of web.config")
 
     3.  Reproduce the problem.
     4.  Find the first-chance exception log file in the site folder. By default, it is `C:\Program Files (x86)\Acumatica ERP\<Site Folder>\firstchanceexceptions.log`.
@@ -82,7 +79,7 @@ You should collect the information from the needed log files depending on the si
 
 2.  Provide the first-chance exception log file to the Acumatica support team, along with other materials related to the performance slowdown issue. \(For the list of information that you should provide to support, see [Step 6: Submit a Case to Acumatica Support](how_Troubleshoot_Performance_Step6.md#).\)
 
-## 3. Use External Tools {#_991d93b5-7072-411d-afec-6d666b7ef042 .section}
+## 3. Use External Tools
 
 You can use different external tools to get more information about the reasons for the performance slowdown.
 

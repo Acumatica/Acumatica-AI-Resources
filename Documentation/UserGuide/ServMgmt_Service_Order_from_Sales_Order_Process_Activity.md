@@ -1,16 +1,16 @@
-# Sales Order-Related Service Orders: Process Activity {#_6249c514-7f7e-4846-8dac-6cab355bd522 .task}
+# Sales Order-Related Service Orders: Process Activity
 
 This activity will walk you through the process of creating a service order from a sales order and then processing these orders. You will also learn how to add a stock item to a service order that has lines for services or stock items inherited from the sales order, and how this service order will be billed.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Service and Equipment Sales Center has sold the GoodFood One Restaurant customer a juicer in combination with installation and repair services. The service manager \(Maia Davis\) needs to create a sales order for the juicer and the services, and then schedule the appointment to deliver the services.
 
 Further suppose that during the appointment, the customer decides to buy an additional stock item \(a plastic container for juice\). The assigned staff member needs to add this item to the service order. The accountant will generate a separate invoice for the extra item because it was not included in the original sales order. You will perform these actions, acting as the service manager, staff member, and accountant.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -36,11 +36,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   On the [Service Order Types](FS_20_23_00.md#) \(FS202300\) form, the *INST* service order type has been configured to generate SO invoices to bill customers for provided services. That is, in the **Billing Settings** section of the **General** tab, *SO Invoices* has been selected in the **Generated Billing Documents** box. Also, on the **General** tab \(**General Settings** section\), the **Complete Service Order When Its Appointments Are Completed** and **Close Service Order When Its Appointments Are Closed** check boxes are selected.
 -   On the [Non-Stock Items](IN_20_20_00.md#) \(IN202000\) form, for the *INSTALL* non-stock item, the *Service* type is selected.
 
-## Process Overview { .section}
+## Process Overview
 
 To create a service order from a sales order, you will first create a sales order on the [Sales Orders](SO_30_10_00.md#) \(SO301000\) form with the stock item to be sold and the service to be provided, and you will create a related service order from this form. You will then schedule the appointment to perform the needed service and complete the appointment. Finally, after an item has been added during the appointment, you will generate an invoice for it from the [Appointments](FS_30_02_00.md#) \(FS300200\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -49,7 +49,7 @@ Before you begin performing the steps of this activity, do the following:
 3.  In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date *1/30/2026*. For simplicity, you will use this business date to create and process all documents in this activity.
 4.  On the [Service Management Preferences](FS_10_01_00.md) \(FS100100\) form, select *Warn* in the **Skills** box \(**Appointment Validation Settings** section\), and save it.
 
-## Step 1: Creating a Service Order from the Sales Order { .section}
+## Step 1: Creating a Service Order from the Sales Order
 
 To create the needed sales order and service order, do the following:
 
@@ -76,7 +76,7 @@ To create the needed sales order and service order, do the following:
 8.  Save the service order.
 9.  In the **Source Info** section of the **Settings** tab, verify that *SO Order* is specified in the **Document Type** box and the order type and the reference number of the related sales order have been inserted in the **Reference Nbr.** box.
 
-## Step 2: Scheduling an Appointment on the Calendar Board { .section}
+## Step 2: Scheduling an Appointment on the Calendar Board
 
 To schedule an appointment, do the following:
 
@@ -84,9 +84,8 @@ To schedule an appointment, do the following:
 2.  On the **Unscheduled** tab, find the service order you've just created—the one of the *INST* order type for the *GOODFOOD - GoodFood One Restaurant* customer.
 3.  Drag the appointment tile to the *Jon Waite* row so that the start time of the appointment is 3 PM. You’ll see that *Skill Mismatch* warnings appear next to the staff members who lack the required skill to perform the appointment’s service, and these staff members are highlighted in yellow \(see below\). You can still assign the appointment to any staff member because this is only a warning, not a restriction. However, in this instruction, you’ll assign the appointment to a qualified staff member without any warning.
 
-![](Images/ServMgmt_Appointment_Calendar_Assigning_to_Qualified_Staff.png "An appointment assigned to a qualified staff member")
 
-## Step 3: Attending the Appointment { .section}
+## Step 3: Attending the Appointment
 
 Do the following on behalf of Jon Waite:
 
@@ -110,7 +109,7 @@ Do the following on behalf of Jon Waite:
 
 The completion and closing of the appointment caused the service order to also be completed and closed because of the settings of the *INST* service order type on the [Service Order Types](FS_20_23_00.md#) \(FS202300\) form, as described in the *Configuration Overview* section.
 
-## Step 4: Generating an Invoice for Additional Items { .section}
+## Step 4: Generating an Invoice for Additional Items
 
 To generate an invoice for the item included in the appointment, do the following \(acting as an accountant\):
 
@@ -120,7 +119,6 @@ To generate an invoice for the item included in the appointment, do the followin
 
 2.  Verify that only the stock item added during the appointment has been added to the invoice, as the following screenshot shows.
 
-    ![](Images/ServMgmt_Sales_Order_Related_Service_Order_Invoice_for_Additional_Item.png "The sales order generated for the additional item")
 
 
 As a result, two invoices will be released: the first one for the requested service and item specified in the original sales order, and the second one for the additional item that was included in the appointment.

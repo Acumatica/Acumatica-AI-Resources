@@ -1,4 +1,4 @@
-# Source Restrictions in Export Scenarios {#_3d0580c5-0290-47cd-a457-e04692439302 .concept}
+# Source Restrictions in Export Scenarios
 
 You use source restrictions in an export scenario for the data available in the Acumatica ERP database. For example, you can configure the system to export only the records that have a particular status.
 

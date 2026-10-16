@@ -1,14 +1,14 @@
-# To Create a Report Template {#_5adbb4bd-4347-4f81-a1ff-4d4d47d1fb1b .task}
+# To Create a Report Template
 
 You can save the report parameters you’ve specified as a template, as described below. You then use this template to immediately populate the report form with your preferred parameters so that you can run reports more quickly.
 
 This topic also describes how to remove a report template and how to schedule a report to be run.
 
-## To Create a Report Template { .section}
+## To Create a Report Template
 
 1.  Open the needed report form.
 2.  Specify the report parameters.
-3.  Run the report to confirm that it displays the intended data, as described in [Reports: Process Activity](../Shared/../UserGuide/GS_Working_With_Reports_Process_Activity.md).
+3.  Run the report to confirm that it displays the intended data, as described in [Reports: Process Activity](../Shared/../UserGuide/RPT_Working_with_Reports_Process_Activity.md).
 4.  On the report toolbar, click **Parameters** to view the parameters on the report form.
 
     **Tip:** You can click **Parameters** to toggle between the report form and the report without losing the changes made on the report form.
@@ -24,7 +24,7 @@ This topic also describes how to remove a report template and how to schedule a 
 
 If you have saved the template as the default one, when you open the report form, the template will be selected, and the system will automatically fill in the selections of the template. If you haven’t saved the template as the default one, you can select it in the **Template** box and the system will fill in the settings of the template.
 
-## To Remove a Report Template { .section}
+## To Remove a Report Template
 
 1.  Open the needed report form.
 2.  In the **Template** box, select the report template that you want to remove.
@@ -32,7 +32,7 @@ If you have saved the template as the default one, when you open the report form
 
 After you remove a template, it cannot be selected in the **Template** box.
 
-## To Schedule the Running of a Report { .section}
+## To Schedule the Running of a Report
 
 1.  Open the needed report form.
 2.  In the **Template** box, select the report template that you want to schedule.
@@ -83,6 +83,4 @@ After you remove a template, it cannot be selected in the **Template** box.
 14. On the form toolbar, click **Save**.
 
 After you’ve added a schedule for the report to be run, the system will send the report with the parameters specified in the template according to the schedule’s settings.
-
-**Parent topic:**[Reports](../InterfaceGuide/Report_Processing_Options.md)
 

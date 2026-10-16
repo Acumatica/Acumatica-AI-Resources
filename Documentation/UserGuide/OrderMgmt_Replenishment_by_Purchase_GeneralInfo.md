@@ -1,19 +1,19 @@
-# Replenishment Through Purchases: General Information {#_3c80c7f1-3c6e-4b81-b41b-eee40f418bca .concept}
+# Replenishment Through Purchases: General Information
 
 The replenishment functionality in Acumatica ERP can accommodate various ways of replenishing stock items. You can maintain the needed level of stock at your warehouses by purchasing the appropriate quantity of items from vendors.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
 -   Become familiar with the general workflow of item replenishment through purchases
 -   Replenish stock by purchasing items from a vendor
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 You perform replenishment through purchases if your company needs to optimize the replenishment of stock and to purchase stock items at the right time from particular vendors when the stock is below a certain level.
 
-## Replenishment Through Purchases in Acumatica ERP { .section}
+## Replenishment Through Purchases in Acumatica ERP
 
 You can use the functionality of replenishment through purchases if the *Inventory Replenishment* feature and one or both of the following features are enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form:
 
@@ -29,7 +29,7 @@ On the [Prepare Replenishment](IN_50_80_00.md) form, the quantity to process is 
 
 For details about the configuration of replenishment and the calculation of replenishment parameters, see [Replenishment for Stock Items](../ImplementationGuide/config_OrderMgmt_Replenishment_Mapref.md).
 
-## General Steps of Replenishment Through Purchases { .section}
+## General Steps of Replenishment Through Purchases
 
 To replenish stock items by purchasing them from a vendor, you perform the following general steps:
 
@@ -39,11 +39,10 @@ To replenish stock items by purchasing them from a vendor, you perform the follo
     -   The purchase receipt on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form
     -   The inventory receipt on the [Receipts](IN_30_10_00.md) \(IN301000\) form
 
-## Workflow of Replenishment Through Purchases {#section_vv2_1y4_y4b .section}
+## Workflow of Replenishment Through Purchases
 
 A general workflow of replenishment through purchases involves the steps and generated documents shown in the following diagram.
 
-![](Images/diag_OrderMgmt_Replenishment_Through_Purchases.png)
 
 **Parent topic:**[Replenishing Inventory Through Purchases](../UserGuide/OrderMgmt_Replenishment_by_Purchase_Mapref.md)
 

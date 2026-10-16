@@ -1,16 +1,16 @@
-# Project Budget Control: To Lock a Project Budget {#_c1180e6e-0253-4271-9119-8cad0ac11a6a .task}
+# Project Budget Control: To Lock a Project Budget
 
 In this activity, you will learn how to prevent the original budget values of the project from being edited.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that a customer, HM's Bakery and Cafe, has ordered a juicer from the SweetLife Fruits &amp; Jams company, along with the services of installation and training for its employees on operating the juicer. SweetLife's project accountant created a project. Before the work on the project has begun, the customer has requested 12 hours of training to be provided.
 
 Acting as the project accountant, you will change the original budgeted values of the project before proceeding to the execution stage and lock the budget to prevent the original budgeted values from being edited further. Further suppose that early in the project execution, the customer has realized that their employees will need 16 hours of training instead of 12, so you will adjust the revised budgeted values.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -19,18 +19,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *INSTALL* and *TRAINING* non-stock items have been defined.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *JUICER15* stock item has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will change the project budget on the [Projects](PM_30_10_00.md) \(PM301000\) form and then lock the budget to prevent the original budget values of the project from being edited. You will then adjust the revised budgeted values.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
 1.  Launch the Acumatica ERP website.
 2.  Sign in to a company with the *U100* dataset preloaded. You should sign in as Pam Brawner by using the *brawner* username and the *123* password.
 
-## Step: Locking the Project Budget { .section}
+## Step: Locking the Project Budget
 
 To update the project budget and protect the original budgeted values from being edited, do the following.
 

@@ -1,10 +1,10 @@
-# Instance Maintenance: General Information {#_13d3b182-3994-45f0-923b-2da18aa8b20b .concept}
+# Instance Maintenance: General Information
 
 In Acumatica ERP, you can review and adjust various settings of the instance, such as its name or database.
 
 This topic provides an overview of the adjustments that you can make to existing instances and databases by using the Acumatica ERP Configuration wizard.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -13,14 +13,14 @@ In this chapter, you will do the following:
 -   Change the name of an Acumatica ERP instance
 -   Change a database in an Acumatica ERP instance
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may need to learn how to make some changes in an Acumatica ERP instance in scenarios that include the following:
 
 -   You are a system administrator who needs to link the existing Acumatica ERP instance to a new database.
 -   You are a system administrator who needs to view some settings of the Acumatica ERP instance and change its name.
 
-## Viewing of an Instance’s Settings { .section}
+## Viewing of an Instance’s Settings
 
 You can view the following settings of an existing Acumatica ERP instance on the Instance Information page of the Acumatica ERP Configuration wizard:
 
@@ -43,7 +43,7 @@ You can open the Instance Information page as follows:
 
 On the Instance Information page, the instance and virtual directory names can be edited. The Instance Information page also provides quick access to the folder where the files of this instance are stored. Additionally, you can create a shortcut for the instance URL to get quick access to the site.
 
-## Changing of the Instance Database { .section}
+## Changing of the Instance Database
 
 You can change the database of an existing Acumatica ERP instance—for example, if you want to switch to a backup database. You can also associate the application instance with a new database and create it on the fly. To create a new database, you can use the **Perform Database Maintenance** option on the Welcome page of the Acumatica ERP Configuration wizard. For more details, see [To Perform Database Maintenance](Maintaining_Databases.md).
 

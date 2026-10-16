@@ -1,8 +1,8 @@
-# Form Layout: An Element Next to Another Element {#_27f40039-d2b6-4fb4-b954-360a856978fa .concept}
+# Form Layout: An Element Next to Another Element
 
 If you need to define an additional element—for example, a button, another box, or a label—next to another element, you can add the corresponding tag inside the field tag. Each field tag can include one tag or multiple tags, such as qp-field or qp-button.
 
-## Adding an Element Next to Another Element { .section}
+## Adding an Element Next to Another Element
 
 You can add more than one control in place of an element in the following ways:
 
@@ -23,17 +23,15 @@ You can add more than one control in place of an element in the following ways:
 
 Use the approach with replacing of the contents of the field tag for multiple unrelated controls. Do not use the approach with adding controls inside the field tag if you need to put multiple controls that are unrelated to each other in a row. If an error occurs in one of these controls, it will be duplicated in another control, as shown in the following screenshot.
 
-![](Images/UIDev_DesigningLayout_AddControlNextToField.png "Duplicated error")
 
-## Adding a Check Box Next to an Element { .section}
+## Adding a Check Box Next to an Element
 
 You can add a check box next to an element \(defined by the field tag\) so that they both occupy a space of a single control. To do that, you need to add the qp-field bound to this check box inside the field tag. For example, suppose that you need to add the **Canceled** check box next to the **Cancel Date** box, as shown in the following screenshot.
 
-![](Images/UIDev_DesignLayout_CheckBoxNextToField.png "The Canceled check box next to the Cancel Date box")
 
 The following code can be used to add the check box next to the **Cancel Date** box \(which corresponds to the `CancelDate` field\).
 
-```language-xml
+```xml
 <field name="CancelDate">
   <qp-field control-state.bind="CurrentDocument.Cancelled" 
     config-enabled.bind="false"></qp-field>
@@ -42,13 +40,12 @@ The following code can be used to add the check box next to the **Cancel Date** 
 
 **Tip:** You do not need to specify `class="no-label"` for the second control to omit the empty label of the check box because this class is used by default for a qp-field tag inside the field tag.
 
-## Adding a Button to the Next Line { .section}
+## Adding a Button to the Next Line
 
 You can add a button after another control so that it is displayed on the next line below the control. To do that, you need to add the button control inside the field tag and specify `class="col-12"` for the button control.
 
 For example, suppose that you need to place the **Address Lookup** button on the next line after a check box, as shown in the following screenshot.
 
-![](../Shared/Images/UIDevRef_Button_LayoutNextRow.png "The Address Lookup button below a check box")
 
 The **Address Lookup** button is implemented by using the qp-address-lookup tag. The following code shows an example of moving the **Address Lookup** button to the next line.
 
@@ -59,7 +56,7 @@ The **Address Lookup** button is implemented by using the qp-address-lookup tag.
 </field>
 ```
 
-## Replacing a Field { .section}
+## Replacing a Field
 
 You can put any content, such as a text box and a button, instead of an element \(that is, occupy the field space with arbitrary elements\) by doing the following:
 
@@ -69,27 +66,25 @@ You can put any content, such as a text box and a button, instead of an element 
 
 Suppose that you want to replace the content of an element with one button that occupies the whole space of the element, as shown in the following screenshot.
 
-![](Images/UIDev_DesignLayout_ButtonInsteadOfField.png "A button in place of a field")
 
 You need to add the qp-button tag inside the field tag, as shown in the following code.
 
-```language-xml
+```xml
 <field name="fakename" replace-content unbound>
     <qp-button id="buttonShopRates" class="col-12" state.bind="ShopRates"></qp-button>
 </field>
 ```
 
-## Adding Multiple Elements in a Line { .section}
+## Adding Multiple Elements in a Line
 
 You can put multiple elements, such as check boxes, in one line by placing them inside the single field tag and specifying the proper CSS class. For details about CSS classes, see [Form Layout: CSS Classes](UIDev_DesigningLayout_CSSClasses.md).
 
 Suppose that you need to show three check boxes in a single line, as shown in the following screenshots.
 
-![](Images/UIDev_DesignLayout_MultipleFieldsInLine.png "Three check boxes in a single line")
 
 You need to put three qp-field tags inside a single field tag and specify `class="col-4"` for each of the qp-field tags, as shown in the following code.
 
-```language-xml
+```xml
 <field name="fake01" unbound replace-content>
     <qp-field control-state.bind="StaffScheduleSelected.WeeklyOnSun" 
         config-enabled.bind="false" class="col-4"></qp-field>

@@ -1,4 +1,4 @@
-# Case Classes: Modes of Case Billing {#_cb6d2d98-a946-4352-b374-2606123e596c .concept}
+# Case Classes: Modes of Case Billing
 
 In Acumatica ERP, you can select the mode of billing a customer—for a case or for each activity associated with a case—for each case class. If the *Time Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can select a billing mode in the **Billing Mode** box on the **Details** tab of the [Case Classes](CR_20_60_00.md) \(CR206000\) form, and the mode determines how cases of the class are billed. If the feature is disabled, the system automatically assigns the *Per Case* billing mode to every new case class, and you can bill a customer only for a case.
 

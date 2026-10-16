@@ -1,4 +1,4 @@
-# Redirecting the User to Webpages {#_1349ebfa-f226-42a4-b03c-70d845937a18 .concept}
+# Redirecting the User to Webpages
 
 A form can include links to redirect the user to webpages. When a user clicks such a link on a form, the system redirects the user to the webpage. The target webpage can be a record on the corresponding data entry form, a report, a generic inquiry form, or any destination URL.
 

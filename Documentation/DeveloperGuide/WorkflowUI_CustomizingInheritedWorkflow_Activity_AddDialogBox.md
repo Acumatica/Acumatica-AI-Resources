@@ -1,8 +1,8 @@
-# Diagram View: To Add Dialog Boxes {#_8826fe68-b85e-4f39-a1a1-68e49b438e4c .task}
+# Diagram View: To Add Dialog Boxes
 
 The following activity will walk you through the process of adding dialog boxes for the workflow. No matter whether you are editing a workflow on the [Workflow \(Diagram View\)](../UserGuide/AU_20_10_30_VisualEditor.md) page or the [Workflow \(Tree View\)](../UserGuide/AU_20_10_30.md) page, you add the dialog boxes on the [Dialog Boxes](../UserGuide/AU_20_10_40.md) page.
 
-## Story { .section}
+## Story
 
 In the HardwareViewpoint company, a salesperson should add additional information when they perform the following actions with an opportunity on the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form of Acumatica ERP:
 
@@ -12,11 +12,11 @@ In the HardwareViewpoint company, a salesperson should add additional informatio
 
 Acting as the technical specialist, you need to add dialog boxes that prompt users for this information when they click the corresponding commands or buttons to invoke the `Accept`, `Reject`, and `Assign` actions.
 
-## Process Overview { .section}
+## Process Overview
 
 By using the [Dialog Boxes](../UserGuide/AU_20_10_40.md) page, you will create the dialog box for the `Accept` action of the *OpportunitiesAssigned* workflow. As self-guided exercises, you will also create the dialog boxes for the `Reject` and `Assign` actions of the workflow.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin adding a new state, do the following:
 
@@ -27,7 +27,7 @@ Before you begin adding a new state, do the following:
 2.  Make sure you have learned how to add dialog boxes, as described in [Workflow Elements: General Information](WorkflowUI_ConfiguringWorkflowElements_GeneralInfo.md).
 3.  Make sure you have completed the [Diagram View: To Specify Combo Box Values for States](WorkflowUI_CustomizingInheritedWorkflow_Activity_AddFields.md) activity.
 
-## Step 1: Creating a Dialog Box for the Accept Action { .section}
+## Step 1: Creating a Dialog Box for the Accept Action
 
 In this step, you will create a dialog box that will be displayed when a user clicks the **Accept** button or the corresponding command on the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form. Do the following in the Customization Project Editor for the *Opportunities* customization project:
 
@@ -38,7 +38,7 @@ In this step, you will create a dialog box that will be displayed when a user cl
 5.  In the **Title** box on the right pane, enter `Details`.
 6.  On the page toolbar, click **Save**.
 
-## Step 2: Adding Fields to the Dialog Box for the Accept Action { .section}
+## Step 2: Adding Fields to the Dialog Box for the Accept Action
 
 In this step, you will add the **Reason** and **Stage** boxes to the dialog box for the `Accept` action. While you are still on the CR304000 \(Opportunities\) Dialog Boxes page with the *FormAccept* dialog box selected, do the following:
 
@@ -76,10 +76,9 @@ In this step, you will add the **Reason** and **Stage** boxes to the dialog box 
 
     The dialog box should look as shown in the following screenshot.
 
-    ![](Images/WorkflowUI_CustomizingPredefinedWorkflow_OpportunitiesAcceptDialogBox_ModernUI.png "The Details dialog box for the Accept action")
 
 
-## Step 3: Creating a Dialog Box for the Reject Action—Self-Guided Exercise { .section}
+## Step 3: Creating a Dialog Box for the Reject Action—Self-Guided Exercise
 
 In this self-guided exercise, you will add a dialog box for the `Reject` action with the `FormReject` name and the `Details` title.
 
@@ -112,9 +111,8 @@ You need to add to the dialog box the following fields:
 
 The dialog box should look as shown in the following screenshot.
 
-![](Images/WorkflowUI_CustomizingPredefinedWorkflow_OpportunitiesRejectDialogBox_ModernUI.png "The Details dialog box for the Reject action")
 
-## Step 4: Creating a Dialog Box for the Assign Action—Self-Guided Exercise { .section}
+## Step 4: Creating a Dialog Box for the Assign Action—Self-Guided Exercise
 
 In this self-guided exercise, you will add a dialog box for the `Assign` action with the `FormAssign` name and the `Details` title.
 
@@ -122,7 +120,6 @@ You need to add to the dialog box the Owner field of the `PX.Objects.CR.CROpport
 
 The dialog box should look as shown in the following screenshot.
 
-![](Images/WorkflowUI_CustomizingPredefinedWorkflow_OpportunitiesAssignDialogBox.png "The Details dialog box for the Assign action")
 
 **Parent topic:**[Customizing Workflows with the Diagram View](../DeveloperGuide/WorkflowUI_CustomizingInheritedWorkflow_Mapref.md)
 

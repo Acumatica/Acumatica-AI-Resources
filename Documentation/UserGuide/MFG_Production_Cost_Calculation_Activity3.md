@@ -1,8 +1,8 @@
-# Cost Calculation for Produced Items: To Process Production Orders with the Standard Costing Method {#_55f31729-a24b-46c2-bda7-51772f9ea7d3 .task}
+# Cost Calculation for Produced Items: To Process Production Orders with the Standard Costing Method
 
 The following activity will walk you through the processing of a production order with the *Standard* costing method.
 
-## Story { .section}
+## Story
 
 Suppose that GoodFood One Restaurant has ordered three juicers from the SweetLife Fruits &amp; Jams company. The production process includes the assembly of the juicers. Further suppose that the system uses the standard cost for calculating the unit cost of the produced juicers because the costs of juicer production do not fluctuate. For items with the standard cost, the system uses the *Standard* costing method for calculating the costs of production orders.
 
@@ -10,14 +10,14 @@ Acting as a production manager, you will create a production order for producing
 
 Also, acting as a production accountant, you will review the costs applied to the production order and the unit cost of the produced items on inventory receipts.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Warehouses](IN_20_40_00.md) \(IN204000\) form, the *WORKHOUSE* warehouse has been defined, and its locations include *MGI* and *MTL*.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *CFJFRTSCR*, *PULPCONT1L*, *JUICECUP05L*, *MRBASE*, *FNSIEVE*, and *GRDISC01* stock items have been defined.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, to process the documents and transactions related to the production of the juicers, you will do the following:
 
@@ -28,7 +28,7 @@ In this activity, to process the documents and transactions related to the produ
 5.  On the [Production Order Maintenance](AM_20_15_00.md) form, review the production order balance after you have completed the order.
 6.  On the [Close Production Orders](AM_50_60_00.md) \(AM506000\) form, close the production order.
 
-## System Preparation { .section}
+## System Preparation
 
 Do the following:
 
@@ -36,7 +36,7 @@ Do the following:
 2.  Launch the Acumatica ERP website, and sign in to the company in which the prerequisite activities have been performed. You should sign in as the production manager by using the *peters* username and the *123* password.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to today’s date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Updating the Item Cost { .section}
+## Step 1: Updating the Item Cost
 
 For the purposes of this activity, you will change the valuation method for the *CFJFRTSCR* item. Do the following;
 
@@ -50,7 +50,7 @@ For the purposes of this activity, you will change the valuation method for the 
 
 6.  On the form toolbar, click **Save**.
 
-## Step 2: Creating the Production Order { .section}
+## Step 2: Creating the Production Order
 
 To create the production order for three juicers, do the following:
 
@@ -69,7 +69,7 @@ To create the production order for three juicers, do the following:
 5.  On the More menu \(under **Processing**\), click **Release Order**. The order's status is changed to *Released*.
 6.  On the **Totals** tab, make sure that *482.39* is specified in the **Unit Cost** box of the **Planned** section.
 
-## Step 3: Issuing Materials for the Operation { .section}
+## Step 3: Issuing Materials for the Operation
 
 In this step, you will issue the materials for the assembly operation of the production order. Do the following:
 
@@ -80,7 +80,7 @@ In this step, you will issue the materials for the assembly operation of the pro
     2.  Clear the **Hold** check box. The system changes the transaction's status to *Balanced*.
 4.  On the form toolbar, click **Release**. The system releases the material transaction and changes the status of the transaction to *Released*.
 
-## Step 4: Recording the Labor and Produced Items for the Operation { .section}
+## Step 4: Recording the Labor and Produced Items for the Operation
 
 Suppose that Carlos Cruz, a worker in the assembly work center, spent 30 minutes setting up the working environment for juicer assembly and assembled three juicers for one hour. To record the time that he spent on juicer assembly and the assembled quantity of juicers, do the following:
 
@@ -99,7 +99,7 @@ Suppose that Carlos Cruz, a worker in the assembly work center, spent 30 minutes
 6.  On the [Receipts](IN_30_10_00.md) \(IN301000\) form, open the receipt with today's date, a total quantity of three *CFJFRTSCR* items, and a total cost of 1446.00.
 7.  In the **Unit Cost** column of the only row, make sure that *482.00* is specified, which is the standard cost of the item.
 
-## Step 5: Reviewing the Production Order Balance { .section}
+## Step 5: Reviewing the Production Order Balance
 
 In this step, acting as a production accountant, you will review the production order balance after you have recorded the completion of the assembly operation. Do the following on the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form:
 
@@ -117,10 +117,9 @@ In this step, acting as a production accountant, you will review the production 
         -   **MFG to Inventory**: *1446.00* \(which is the cost of the completed items that were moved to stock\)
     2.  In the **Variance** section, make sure that the value of the total variance is 0.00, which means that the actual costs equal the planned costs of the production order.
     3.  Make sure that the value of the **WIP Balance** box is *1.17*, which is the difference between the values of the **WIP Total** and **MFG to Inventory** boxes. This difference appeared because the system calculated the item cost in an inventory receipt by using the standard cost of the item but not the sum of actual costs, which were applied to the production order.
-    ![](Images/activity_MFG_Production_Cost_Calculation_Order_Balance_3.png "Production order balance for the assembly operation")
 
 
-## Step 6: Closing the Production Order { .section}
+## Step 6: Closing the Production Order
 
 In this step, you will close the production order and review the resulting GL transactions. Do the following:
 

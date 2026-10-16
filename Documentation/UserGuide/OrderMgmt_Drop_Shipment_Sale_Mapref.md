@@ -1,4 +1,4 @@
-# Processing Sales with Drop Shipping {#_de7be535-4a9c-4e1f-8e91-568b6e0ad0ed .concept}
+# Processing Sales with Drop Shipping
 
 In Acumatica ERP, you can add items to sales orders that will be drop-shipped from the vendor directly to the customer. The topics of this chapter explain how to create and process sales orders whose goods are intended for drop shipping.
 

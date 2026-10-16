@@ -1,4 +1,4 @@
-# Access Rights to Generic Inquiries: To Configure Access Rights to the Export to Excel Action of a Generic Inquiry {#_2d3e577f-1c1f-45ad-af2f-c4e670d4c8f1 .task}
+# Access Rights to Generic Inquiries: To Configure Access Rights to the Export to Excel Action of a Generic Inquiry
 
 You can configure access rights to the **Export to Excel** action of only those generic inquiries that substitute a data entry form or for which a workspace and category have been specified on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form. Do the following:
 

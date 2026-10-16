@@ -1,4 +1,4 @@
-# Company/Branch Box {#_5323f8d6-bfa0-4f19-8f94-261895f84f93 .concept}
+# Company/Branch Box
 
 The **Company/Branch** box displays all the available companies with any branches they have as a tree to reflect the parent-child relations among these organizational entities. This box can be viewed on multiple forms, such as the [AR Balance by Customer](../UserGuide/AR_63_25_00.md) \(AR632500\) form, The companies and branches an individual user can view in the **Company/Branch** box depend on the way security has been configured in the system.
 
@@ -9,7 +9,7 @@ The **Company/Branch** box consists of two parts:
 
 In this topic, you can find information about how to work with the **Company/Branch** box in the code of an inquiry or processing form.
 
-## Adding the Company/Branch Box to a Form { .section}
+## Adding the Company/Branch Box to a Form
 
 To add the **Company/Branch** box to an inquiry or processing form, you do the following:
 
@@ -62,7 +62,7 @@ To add the **Company/Branch** box to an inquiry or processing form, you do the f
     ```
 
 
-## Restricting the Values of Fields That Depend on the Company or Branch { .section}
+## Restricting the Values of Fields That Depend on the Company or Branch
 
 In a selector control on a form, to display only the records that are available for the branch or company selected in the **Company/Branch** box, you can use the following business query language \(BQL\) functions in the selector condition:
 
@@ -101,7 +101,7 @@ In a selector control on a form, to display only the records that are available 
     ```
 
 
-## Filling in the Company or Branch During Redirection to a Form { .section}
+## Filling in the Company or Branch During Redirection to a Form
 
 If you need to select the company or branch on an inquiry or processing form when this form is opened during redirection from another form, you specify the value of the organization's business account ID in the filter DAC of the target form. You do not need to specify the values of the BranchID or OrganizationID fields, which are specified automatically by OrganizationTreeAttribute. The following code shows an example of the code that performs redirection to an inquiry form with the company or branch specified.
 

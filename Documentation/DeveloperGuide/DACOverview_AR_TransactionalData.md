@@ -1,34 +1,353 @@
-# AR DACs: Transactional Data {#_926d6136-d7e4-4dac-80aa-a98a6a770320 .concept}
+# AR DACs: Transactional Data
 
 In this topic, you can find an overview of the data access classes \(DACs\) that provide transactional data—that is, the DACs that store the accounts receivable documents and related entities.
 
-## ARRegister, ARInvoice, and ARPayment { .section}
+## ARRegister, ARInvoice, and ARPayment
 
 All AR documents are stored in the [ARRegister](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARRegister) DAC. Depending on the type of the document \(ARRegister.DocType\), the ARRegister DAC is extended by [ARInvoice](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARInvoice), by [ARPayment](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARPayment), or by both DACs. The following table shows how the ARRegister DAC is extended depending on the document type specified on the data entry form. In this table, *+* indicates that the corresponding record exists for this document type, and *-* indicates that the record does not exist.
 
-|Document Type|ARRegister.DocType|Purpose|ARRegister|ARInvoice|ARPayment|
-|-------------|------------------|-------|----------|---------|---------|
-|*Invoice*|*INV*|An invoice for goods and services shipped on credit.|+|+|-|
-|*Debit Memo*|*DRM*|A memo indicating that additional money is owed from the customer account.
+<table id="_9a536632-52dd-43df-9eff-cc3b1bb9d178"><thead><tr><th>
+
+Document Type
+
+</th><th>
+
+ARRegister.DocType
+
+</th><th>
+
+Purpose
+
+</th><th>
+
+ARRegister
+
+</th><th>
+
+ARInvoice
+
+</th><th>
+
+ARPayment
+
+</th></tr></thead><tbody><tr><td>
+
+*Invoice*
+
+</td><td>
+
+*INV*
+
+</td><td>
+
+An invoice for goods and services shipped on credit.
+
+</td><td>
+
++
+
+</td><td>
+
++
+
+</td><td>
+
+-
+
+</td></tr><tr><td>
+
+*Debit Memo*
+
+</td><td>
+
+*DRM*
+
+</td><td>
+
+A memo indicating that additional money is owed from the customer account.
 
  Conceptually, this type is similar to an invoice.
 
-|+|+|-|
-|*Overdue Charge*|*FCH*|A financial charge for overdue invoices and late payments.|+|+|-|
-|*Cash Sale*|*CSL*|A sale of goods and services for which a payment was received immediately.
+</td><td>
+
++
+
+</td><td>
+
++
+
+</td><td>
+
+-
+
+</td></tr><tr><td>
+
+*Overdue Charge*
+
+</td><td>
+
+*FCH*
+
+</td><td>
+
+A financial charge for overdue invoices and late payments.
+
+</td><td>
+
++
+
+</td><td>
+
++
+
+</td><td>
+
+-
+
+</td></tr><tr><td>
+
+*Cash Sale*
+
+</td><td>
+
+*CSL*
+
+</td><td>
+
+A sale of goods and services for which a payment was received immediately.
 
  Essentially, this type is a combination of an invoice and a payment.
 
-|+|+|+|
-|*Cash Return*|*RCS*|A reversing document for a cash sale.|+|+|+|
-|*Credit WO*|*SMC*|A record of a write-off of money owed to the customer account.|+|+|-|
-|*Credit Memo*|*CRM*|A memo indicating that additional money is owed to the customer account.|+|+|+|
-|*Payment*|*PMT*|A payment received from the customer for goods or services shipped on credit.|+|-|+|
-|*Voided Payment*|*RPM*|A reversal document for the payment, which cancels the payment's impact on the system.|+|-|+|
-|*Refund*|*REF*|A full or partial refund of money received from the customer.|+|-|+|
-|*Voided Refund*|*VRF*|A document recording a customer refund that was voided.|+|-|+|
-|*Prepayment*|*PPM*|A record of money received from the customer in advance of goods or services being shipped.|+|-|+|
-|*Balance WO*|*SMB*|A record of a write-off of money owed from the customer account.|+|-|+|
+</td><td>
+
++
+
+</td><td>
+
++
+
+</td><td>
+
++
+
+</td></tr><tr><td>
+
+*Cash Return*
+
+</td><td>
+
+*RCS*
+
+</td><td>
+
+A reversing document for a cash sale.
+
+</td><td>
+
++
+
+</td><td>
+
++
+
+</td><td>
+
++
+
+</td></tr><tr><td>
+
+*Credit WO*
+
+</td><td>
+
+*SMC*
+
+</td><td>
+
+A record of a write-off of money owed to the customer account.
+
+</td><td>
+
++
+
+</td><td>
+
++
+
+</td><td>
+
+-
+
+</td></tr><tr><td>
+
+*Credit Memo*
+
+</td><td>
+
+*CRM*
+
+</td><td>
+
+A memo indicating that additional money is owed to the customer account.
+
+</td><td>
+
++
+
+</td><td>
+
++
+
+</td><td>
+
++
+
+</td></tr><tr><td>
+
+*Payment*
+
+</td><td>
+
+*PMT*
+
+</td><td>
+
+A payment received from the customer for goods or services shipped on credit.
+
+</td><td>
+
++
+
+</td><td>
+
+-
+
+</td><td>
+
++
+
+</td></tr><tr><td>
+
+*Voided Payment*
+
+</td><td>
+
+*RPM*
+
+</td><td>
+
+A reversal document for the payment, which cancels the payment's impact on the system.
+
+</td><td>
+
++
+
+</td><td>
+
+-
+
+</td><td>
+
++
+
+</td></tr><tr><td>
+
+*Refund*
+
+</td><td>
+
+*REF*
+
+</td><td>
+
+A full or partial refund of money received from the customer.
+
+</td><td>
+
++
+
+</td><td>
+
+-
+
+</td><td>
+
++
+
+</td></tr><tr><td>
+
+*Voided Refund*
+
+</td><td>
+
+*VRF*
+
+</td><td>
+
+A document recording a customer refund that was voided.
+
+</td><td>
+
++
+
+</td><td>
+
+-
+
+</td><td>
+
++
+
+</td></tr><tr><td>
+
+*Prepayment*
+
+</td><td>
+
+*PPM*
+
+</td><td>
+
+A record of money received from the customer in advance of goods or services being shipped.
+
+</td><td>
+
++
+
+</td><td>
+
+-
+
+</td><td>
+
++
+
+</td></tr><tr><td>
+
+*Balance WO*
+
+</td><td>
+
+*SMB*
+
+</td><td>
+
+A record of a write-off of money owed from the customer account.
+
+</td><td>
+
++
+
+</td><td>
+
+-
+
+</td><td>
+
++
+
+</td></tr></tbody>
+</table>
 
 AR documents are defined on the following forms:
 
@@ -87,7 +406,7 @@ The selection of the following types of documents is illustrated in the queries 
     ```
 
 
-## Statuses of Documents in ARRegister { .section}
+## Statuses of Documents in ARRegister
 
 The following table lists the statuses of AR documents that are displayed in the UI and the corresponding values of ARRegister.Status.
 
@@ -108,7 +427,7 @@ The following table lists the statuses of AR documents that are displayed in the
 |*Rejected*|*J*|
 |*Canceled*|*L*|
 
-## Applications Between Documents { .section}
+## Applications Between Documents
 
 An [ARAdjust](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARAdjust) record indicates the application of one AR document to another, which results in an adjustment of both documents' balances. This record contains the foreign key links between two documents, as well as the application amounts and other auxiliary information.
 
@@ -165,14 +484,14 @@ GROUP BY
     ARRegister.DocBal 
 ```
 
-## Self-Applications { .section}
+## Self-Applications
 
 In the following cases, the system can create applications of the documents to themselves during the document release process:
 
 -   When the document has a nonzero initial migrated balance
 -   When the document combines the information about both the invoice and the corresponding payment—that is, for cash sales and cash returns
 
-## Currency Info { .section}
+## Currency Info
 
 A [CurrencyInfo](https://help.acumatica.com/dacBrowser/PX.Objects.CM/CurrencyInfo) record stores details about the currency rate of a given currency relative to the base currency, including how the currency rate has been obtained. The CurrencyInfo DAC can be joined to the DACs of accounts receivable entities based on the foreign key CuryInfoID field in the entity DAC.
 
@@ -200,7 +519,7 @@ FROM
     ARAdjust 
 ```
 
-## Invoice Lines { .section}
+## Invoice Lines
 
 Documents that extend the [ARInvoice](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARInvoice) DAC contain detail lines about goods and services associated with the revenue. They are stored in the [ARTran](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARTran) DAC. The detail line number is identified by the ARTran.LineNbr field \(which is calculated based on the ARRegister.LineCntr field\).
 
@@ -240,7 +559,7 @@ GROUP BY
     ARInvoice.CuryLineTotal 
 ```
 
-## Address and Contact Details { .section}
+## Address and Contact Details
 
 [ARInvoice](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARInvoice) references the [ARAddress](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARAddress) and [ARContact](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARContact) DACs. These DACs store invoice-specific bill-to or ship-to address and contact information.
 
@@ -291,7 +610,7 @@ The selection of the following types of address and contact information is illus
     ```
 
 
-## Tax Details { .section}
+## Tax Details
 
 An [ARTax](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARTax) record stores auxiliary information about the tax code and taxable amounts for every corresponding [ARTran](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARTran) document line.
 
@@ -358,7 +677,7 @@ GROUP BY
     ARInvoice.CuryTaxTotal 
 ```
 
-## Salesperson Commissions { .section}
+## Salesperson Commissions
 
 The [ARSalesPerTran](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARSalesPerTran) DAC stores information on the salesperson commission basis and the commission calculated on the document for each associated salesperson.
 
@@ -398,13 +717,13 @@ FROM
         AND ARRegister.RefNbr = ARSalesPerTran.AdjdRefNbr
 ```
 
-## Discount Details { .section}
+## Discount Details
 
 The [ARInvoiceDiscountDetail](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARInvoiceDiscountDetail) records represent a document- or group-level discount that has been applied to the invoice or memo. The records of this type are created automatically when the user edits document details and are based on the applicable discount sequences. However, all discount details can then be edited manually on the [Invoices and Memos](../UserGuide/AR_30_10_00.md) \(AR301000\) form.
 
 Line-level discounts do not create discount details and are specified in the line itself in ARTran.DiscPct.
 
-## Cash Transactions { .section}
+## Cash Transactions
 
 The creation or removal of an [ARPayment](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARPayment) record in the system always involves the creation or removal of a corresponding cash account transaction \([CATran](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CATran)\).
 
@@ -424,7 +743,7 @@ FROM
 
 The CATran records are updated by the Acumatica ERP functionality that works with cash accounts, such as general ledger, accounts payable, and accounts receivable. For details about cash transaction DACs, see [CA DACs: Transactional Data](DACOverview_CA_TransactionalData.md).
 
-## Credit Card Processing Transactions { .section}
+## Credit Card Processing Transactions
 
 The [ARPayment](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARPayment) documents that have a credit card payment method referenced by their ARPayment.PaymentMethodID field can have associated credit card processing entities, such as credit card processing transactions \(which are stored in [CCProcTran](https://help.acumatica.com/dacBrowser/PX.Objects.AR/CCProcTran)\).
 
@@ -448,13 +767,13 @@ FROM
 
 Credit card processing transactions are visible on the **Card Processing** tab of the [Payments and Applications](../UserGuide/AR_30_20_00.md) \(AR302000\) form or the [Cash Sales](../UserGuide/AR_30_40_00.md) \(AR304000\) form.
 
-## Linked SO Orders { .section}
+## Linked SO Orders
 
 On the **Sales Orders** tab of the [Payments and Applications](../UserGuide/AR_30_20_00.md) \(AR302000\) form, a user can link sales orders \(which are stored in [SOOrder](https://help.acumatica.com/dacBrowser/PX.Objects.SO/SOOrder)\) to the payment. These links are stored as [SOAdjust](https://help.acumatica.com/dacBrowser/PX.Objects.SO/SOAdjust) records.
 
 The purpose of these links is to reserve part of the payment's balance and automatically apply its payment to the AR invoice generated from the order once the order has been billed.
 
-## Recurring Transactions { .section}
+## Recurring Transactions
 
 The [Schedule](https://help.acumatica.com/dacBrowser/PX.Objects.GL/Schedule) DAC represents a schedule according to which documents are generated on a regular basis from a template document. The Schedule DAC contains the schedule parameters, such as the schedule type \(monthly, weekly, daily, or by the financial period\) and frequency. The DAC is used by different Acumatica ERP functional areas.
 
@@ -462,7 +781,7 @@ Template AR documents \(such as invoices\) have ARRegister.Scheduled set to *1*.
 
 A user can edit accounts receivable schedules on the [Recurring Transactions](../UserGuide/AR_20_35_00.md) \(AR203500\) form.
 
-## Transactions Generated by Documents { .section}
+## Transactions Generated by Documents
 
 Accounts receivable documents generate general ledger transactions upon release, such as the following scenarios:
 
@@ -486,7 +805,7 @@ FROM
         AND ARRegister.BatchNbr = GLTran.BatchNbr 
 ```
 
-## GL Transactions Generated by Applications { .section}
+## GL Transactions Generated by Applications
 
 Normally, the application of a payment to an invoice is an internal AR operation that affects the customer balances but does not generate general ledger transactions.
 

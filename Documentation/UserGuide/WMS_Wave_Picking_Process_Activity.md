@@ -1,14 +1,14 @@
-# Wave Picking: Process Activity {#_48e94afd-c415-4459-b870-39c147d864e5 .task}
+# Wave Picking: Process Activity
 
 In the following activity, you will learn how to process shipments in a wave by using the [Pick, Pack, and Ship](SO_30_20_20.md) \(SO302020\) form.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the wholesale warehouse of SweetLife was temporarily closed because of inventory counting. During this time, multiple orders have been entered into the system, and they now require shipping. The warehouse manager wants to speed up the process of picking and packing items by creating a wave picking worksheet and assigning this work to multiple pickers. After the warehouse workers pick the items in a wave, a warehouse worker acting as the packer needs to pack the items and confirm the shipments. You will perform these actions, acting as all of these employees.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -29,7 +29,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, the following sales orders have been created for multiple customers: *000035*, *000036*, *000037*, *000038*, *000039*, *000040*, *000041*, *000042*, *000043*, *000044*, and *000046*.
 -   On the [Shipments](SO_30_20_00.md) \(SO302000\) form, the following shipment documents have been created for these sales orders: *000034*, *000035*, *000036*, *000037*, *000038*, *000039*, *000040*, *000041*, *000042*, *000043*, *000044*, and *000045*.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -43,7 +43,7 @@ In this activity, you will do the following:
 
 **Tip:** In any working mode, you enter a command or barcode by typing it in the **Scan** box and pressing Enter. In production systems, you will scan the appropriate barcodes rather than manually entering them.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start performing the automated picking and packing operations, do the following:
 
@@ -51,7 +51,7 @@ Before you start performing the automated picking and packing operations, do the
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the **Warehouse Management** tab of the [Sales Orders Preferences](SO_10_10_00.md) \(SO101000\) form, make sure that the **Display the Pick Tab** and **Display the Pack Tab** check boxes are selected.
 
-## Step 1: Preparing the Wave Picking Worksheet { .section}
+## Step 1: Preparing the Wave Picking Worksheet
 
 To prepare the wave picking worksheet, acting as the warehouse manager, do the following:
 
@@ -65,12 +65,10 @@ To prepare the wave picking worksheet, acting as the warehouse manager, do the f
 8.  On the [Picking Worksheets](SO_30_25_00.md) \(SO302500\) form, open the created worksheet of the *Wave* type, and review its details. The **Details** tab lists all the items that have to be packed in a wave \(as shown in the following screenshot\). Notice that *&lt;SPLIT&gt;* is shown in the **Location** column for two of the lines, indicating that these items have to be picked from multiple locations.
 9.  Click the first line in the table, and on the table toolbar, click **Line Details**. In the **Line Details** dialog box, which opens, review the locations in which the items are allocated for the wave \(see the following screenshot\) and close the dialog box.
 
-    ![](Images/activity_WMS_Wave_Wsh_Details.png "Locations in which the items are allocated")
 
 10. Open the **Pickers** tab, and notice that the wave will be picked by three pickers. \(Although you have entered *4* as the maximum number of pickers, the system has found the optimal workflow and determined that three pickers are enough for picking the wave.\)
 11. Click the first line in the table \(which corresponds to the first picker\), and on the table toolbar, click **View Shipments** \(Item 1 below\). In the **Assigned Shipments** dialog box, which opens, review the shipments assigned to the first picker \(Item 2\) and the items that the picker will pick for these shipments \(Item 3\).
 
-    ![](Images/activity_WMS_Wave_Wsh_Pickers.png "Shipments assigned to the picker")
 
 12. Close the **Assigned Shipments** dialog box.
 13. On the form toolbar, click **Print Pick Lists**. The system opens the [Worksheet Pick List](SO_64_40_06.md) \(SO644006\) report with generated printable pick lists and packing slips. For each pick list, notice the **Pick List Nbr.** number; you will load the pick lists for processing by using these numbers.
@@ -79,7 +77,7 @@ To prepare the wave picking worksheet, acting as the warehouse manager, do the f
 
 14. Sign out of the system.
 
-## Step 2a: Picking Items in a Wave \(Picker 1\) { .section}
+## Step 2a: Picking Items in a Wave \(Picker 1\)
 
 Acting as the first picker selected in the picking worksheet, you will assign totes to the shipments assigned to you and then pick the items, placing them in the appropriate totes. Do the following:
 
@@ -143,7 +141,7 @@ Acting as the first picker selected in the picking worksheet, you will assign to
 
 10. Sign out of the system.
 
-## Step 2b: Picking Items in a Wave \(Picker 2\) { .section}
+## Step 2b: Picking Items in a Wave \(Picker 2\)
 
 Acting as the second picker selected in the picking worksheet, you will assign totes to the shipments assigned to you and then pick the items, placing them in the appropriate totes. Do the following:
 
@@ -187,7 +185,7 @@ Acting as the second picker selected in the picking worksheet, you will assign t
 
 8.  Sign out of the system.
 
-## Step 2c: Picking Items in a Wave \(Picker 3\) { .section}
+## Step 2c: Picking Items in a Wave \(Picker 3\)
 
 Acting as the third picker selected in the picking worksheet, you will assign totes to the shipments assigned to you and then pick the items, placing them in the appropriate totes. Do the following:
 
@@ -250,22 +248,20 @@ Acting as the third picker selected in the picking worksheet, you will assign to
 
 11. Sign out of the system.
 
-## Step 3: Reviewing the Worksheet Status { .section}
+## Step 3: Reviewing the Worksheet Status
 
 As the pack line operator, you will review the progress of three pickers who picked the items. Do the following:
 
 1.  Sign in to the system as the pack line operator by using the *rueb* username and the *123* password.
 2.  On the [Picking Worksheets](SO_30_25_00.md) \(SO302500\) form, open the wave picking worksheet, and review the **Pickers** tab \(see the following screenshot\). The usernames of the workers who performed the picking operations are shown in the **User** column; the selected check boxes in each line of the **Confirmed** column indicate that each picker has confirmed the completion of the picking.
 
-    ![](Images/activity_WMS_Wave_Wsh_Pickers_Complete.png "The users who confirmed the picking of the wave")
 
 3.  Review the **Shipments** tab, as shown in the following screenshot. All shipments have been picked, as the selected check boxes in the **Picked** column indicate; the picking worksheet now is assigned the *Picked* status.
 
-    ![](Images/activity_WMS_Wave_Wsh_Picked.png "Shipments ready for packing")
 
 4.  Sign out of the system.
 
-## Step 4: Packing a Shipment for the Wave { .section}
+## Step 4: Packing a Shipment for the Wave
 
 At this point in the wave picking, all of the shipments from the wave can be packed. For the purposes of this activity, you will pack just one of the shipments, acting as a warehouse worker who handles packing. To pack one of the shipments from a wave, do the following:
 
@@ -285,7 +281,6 @@ At this point in the wave picking, all of the shipments from the wave can be pac
 12. Sign out of the system, and sign in again as a warehouse manager by using the *angelo* username and the *123* password.
 13. On the [Shipments](SO_30_20_00.md) \(SO302000\) form, open the shipment with the *000034* reference number that you have packed, which is now assigned the *Confirmed* status \(Item 1 below\). On the **Packages** tab, the box in which the items were packed is listed \(Item 2\), and the items packed into this box are listed in the **Contents of Selected Package** table \(Item 3\).
 
-    ![](Images/activity_WMS_Wave_Shipment_Packed.png "Packing details for the shipment")
 
 
 **Parent topic:**[Automated Fulfillment of Orders with Wave Picking](../UserGuide/WMS_Wave_Picking_Mapref.md)

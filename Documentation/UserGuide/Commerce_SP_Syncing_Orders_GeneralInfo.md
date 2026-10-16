@@ -1,8 +1,8 @@
-# Order Synchronization: General Information {#_31141ba2-9535-4201-be95-c98e17dc8e4e .concept}
+# Order Synchronization: General Information
 
 You can import sales orders placed in the Shopify store to Acumatica ERP for further processing.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -11,13 +11,13 @@ In this chapter, you will learn how to do the following:
 -   Import sales orders with payments from the Shopify store to Acumatica ERP
 -   Configure card payment processing in Acumatica ERP and Shopify
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 The synchronization of orders is the main scenario for the integration between an ERP system and an external ecommerce system. You set up the import of orders from the Shopify store to Acumatica ERP so that you can process the imported orders further, for example, create a shipment, invoice the customer, and process the payment.
 
 You set up the import of payments if you want to track them within Acumatica ERP. For card payments, you may want to set up integrated card processing so that you can capture the payment in Acumatica ERP after the order has been shipped.
 
-## Minimal Configuration of Order Synchronization {#_8776a431-1627-4fd3-828f-842ff9192794 .section}
+## Minimal Configuration of Order Synchronization
 
 To start importing sales orders from the Shopify store, you need to activate the required entities and specify the minimal settings for the activated entities on the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form. On the **Entities** tab, you activate the *Sales Order* and *Customer* entities, as well as the *Stock Item* entity, *Non-Stock Item* entity, or both entities. If shipments created and processed in Acumatica ERP for the imported order should be synchronized with the Shopify store, you need to activate the *Shipment* entity.
 
@@ -27,7 +27,7 @@ You specify the minimal required settings for the activated entities as follows:
 -   *Stock Item* and *Non-Stock Item*: You specify the settings for the synchronization of stock and non-stock items on the **Inventory** tab. For details, see [Product Synchronization: General Information](Commerce_SP_Syncing_Products_GeneralInfo.md).
 -   *Sales Order*: On the **Orders** tab, in the **Branch** box, you specify the branch the system will insert in imported sales orders, and in the **Order Type for Import** box, you specify the order type that will be assigned to and provide the default settings for the imported sales orders. On the **Shipping** tab, you map each shipping option \(which is a combination of a shipping zone and shipping method\) defined in the Shopify store with the ship via code and, optionally, shipping zone and shipping terms defined in Acumatica ERP.
 
-## Import of Orders Without Customers { .section}
+## Import of Orders Without Customers
 
 If you do not need to process the customer data in Acumatica ERP, you can import orders from the Shopify store without importing customers using a generic guest customer instead.
 
@@ -39,23 +39,23 @@ To configure the synchronization of orders without customers for the Shopify sto
 
 When the system imports orders from the Shopify store, the guest customer is assigned as the customer for each created sales order. The system does not import customers from the store and does not create new customer records. On the **Addresses** tab of the [Sales Orders](SO_30_10_00.md) \(SO301000\), the system selects the **Override Contact** and **Override Address** check boxes and fills in the ship-to and bill-to information with the corresponding customer's data from the Shopify store.
 
-## The Order Time Zone { .section}
+## The Order Time Zone
 
 While you are performing the initial configuration of the Shopify store, on the **Orders** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form, you can specify the **Order Time Zone** that the system will use for each sales order imported from the Shopify store when it is created in Acumatica ERP. The order time zone is needed to determine the correct date and time of the order if Acumatica ERP and the Shopify store are located in different time zones.
 
-## Limiting the Date Range for Order Import { .section}
+## Limiting the Date Range for Order Import
 
 If you have had the Shopify store for a while before implementing Acumatica ERP, you might want to prevent old orders from being imported to Acumatica ERP when you start synchronizing orders. On the **Orders** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form, you specify the **Earliest Order Date**. Orders created before this date in the Shopify store will be excluded from synchronization between Acumatica ERP and the Shopify store. Payments and shipments created for such orders are excluded from synchronization too.
 
-## Tracking Imported Sales Orders in the Shopify Store { .section}
+## Tracking Imported Sales Orders in the Shopify Store
 
 If your Shopify store accepts a large number of orders, it might be useful to be able to see at a glance which orders have already been imported to Acumatica ERP. On the **Orders** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form, you select the **Tag Ext. Order with ERP Order Nbr.** check box. When a sales order is imported from the Shopify store and assigned an order number in Acumatica ERP, the order in Shopify is assigned two tags, *ERP* and a tag with the order number from Acumatica ERP.
 
-## Mapping of Shipping Options { .section}
+## Mapping of Shipping Options
 
 You define the mapping of each shipping option \(which is a combination of a shipping zone and shipping method\) defined in Shopify to the ship via code, and optionally, shipping zone and shipping terms defined in Acumatica ERP on the **Shipping** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form. The **Store Shipping Zone** and **Store Shipping Method** columns of the table are populated with the settings from Shopify automatically for shipping options defined in the Shopify store.
 
-## Configuration of Payment Synchronization {#_68a3836d-7899-4995-940d-0b3628e19363 .section}
+## Configuration of Payment Synchronization
 
 If payments for at least one payment method set up in the Shopify store should be imported to Acumatica ERP, you need to activate the *Payment* entity on the **Entities** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form.
 
@@ -72,7 +72,7 @@ To map the combination of the store payment method and the store currency with t
 
 You can also indicate that payments that are imported from the Shopify store should be automatically released as soon as they are imported by selecting the check box in the **Release Payments and Refunds** column. If refunds issued in the store should be imported to Acumatica ERP, you select the **Import Refunds** check box.
 
-## Synchronization of Sales Orders and Payments { .section}
+## Synchronization of Sales Orders and Payments
 
 Orders are imported from a Shopify store during the synchronization of the *Sales Order* entity. During the data processing stage of the order import, the system does the following in Acumatica ERP:
 
@@ -90,13 +90,12 @@ Orders are imported from a Shopify store during the synchronization of the *Sale
     If the mapping of the store payment method is inactive or has not been configured, the system creates a synchronization record for the payment on the [Sync History](BC_30_10_00.md) form and assigns it the *Filtered* status. In this case, the prepayment document is not created on the [Payments and Applications](AR_30_20_00.md) form.
 
 
-## Workflow of Importing a Sales Order with a Manual Payment { .section}
+## Workflow of Importing a Sales Order with a Manual Payment
 
 The following diagram illustrates the workflow of importing a sales order to Acumatica ERP from a Shopify store where it was placed and paid by a manual payment method or a card payment method without integrated card processing.
 
-![](Images/diag_Commerce_SP_Importing_Order_NonCard_Payment.png)
 
-## Synchronization of Payments { .section}
+## Synchronization of Payments
 
 You can import payments independently of orders by preparing and processing the *Payment* entity.
 
@@ -111,7 +110,7 @@ If the sales order has been fully invoiced, the system cannot apply the prepayme
 
 If the sales order has been partially invoiced, the prepayment is applied to the sales order only in the amount equal to the unbilled amount of the sales order. You need to manually apply the remaining amount to the invoice or invoices.
 
-## Import of the Shipping Price { .section}
+## Import of the Shipping Price
 
 When the shipping price of an order is updated in a Shopify store, the freight price of the corresponding sales order that has been already imported to Acumatica ERP is updated only if all of the following conditions are met:
 
@@ -119,7 +118,7 @@ When the shipping price of an order is updated in a Shopify store, the freight p
 -   If the Shopify order has not been paid yet, the shipping price has been either increased or decreased.
 -   If the Shopify order has been already paid, the shipping price has been increased.
 
-## Use of the Guest Customer Account { .section}
+## Use of the Guest Customer Account
 
 If you want to allow placing orders in your store without providing the customer's phone number or email address and want to import such orders to Acumatica ERP, you need to fill in the **Generic Guest Customer** box on the **Customer Settings** tab of the [Shopify Stores](../Shared/../UserGuide/BC_20_10_10.md) \(BC201010\) form. This customer account appears on imported sales orders that have been placed in the Shopify store without customer details.
 
@@ -135,7 +134,7 @@ By default, the allowed number of sales orders per guest customer account is lim
 
 For more information about creating a customer, see [Customers: General Information](../Shared/../UserGuide/Customer_GeneralInfo.md).
 
-## Importing Archived Orders { .section}
+## Importing Archived Orders
 
 The connector does not import archived Shopify orders. Instead, it creates a filtered sync record for an archived order if any of the following conditions are met:
 

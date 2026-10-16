@@ -1,4 +1,4 @@
-# Synchronizing Product Availability {#_ee348308-45b5-4fc7-9d7c-be111f80bdb0 .concept}
+# Synchronizing Product Availability
 
 The topics of this chapter explain the availability settings of stock items and non-stock items that are exported to the Shopify store.
 

@@ -1,8 +1,8 @@
-# Integration with HubSpot: General Information {#_275c2b88-ff3d-4805-9a07-2ba7f9255337 .concept}
+# Integration with HubSpot: General Information
 
 The integration of Acumatica ERP with HubSpot gives you the ability to synchronize data between the two systems. You synchronize data by using integration scenarios. For information on how to prepare these integration scenarios, see [Configuring Import Scenarios](../UserGuide/IS__mng_Configuring_Import_Scenarios.md) and [Configuring Export Scenarios](../UserGuide/IS__mng_Configuring_Export_Scenarios.md).
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,7 +12,7 @@ In this chapter, you will learn how to do the following:
 -   Configure automation schedules that will run synchronization processes
 -   Resolve synchronization issues
 
-## Data Providers { .section}
+## Data Providers
 
 When creating or modifying an integration scenario, you need to specify an appropriate data provider. For the synchronization of data between Acumatica ERP and HubSpot, you can use one of the following built-in data providers:
 
@@ -25,7 +25,7 @@ When creating or modifying an integration scenario, you need to specify an appro
     For more information about the *HubSpot Enhanced Provider* data provider, see [Integration with HubSpot: Enhanced HubSpot Data Provider](config_HubSpot_Enhanced_Provider.md).
 
 
-## Configuration Flow of Data Synchronization Between Acumatica ERP and HubSpot { .section}
+## Configuration Flow of Data Synchronization Between Acumatica ERP and HubSpot
 
 To configure synchronization of data between Acumatica ERP and HubSpot by using the *HubSpot Enhanced Provider* data provider, you should do the following:
 
@@ -36,7 +36,7 @@ To configure synchronization of data between Acumatica ERP and HubSpot by using 
 
 3.  Configure automation schedules that will run the needed import and export scenarios at the specified time intervals, as described in [Integration with HubSpot: To Schedule Synchronization Processes](config_HubSpot_Implem_Activity_Schedule_Sync.md).
 
-## HubSpot Integration Limitations { .section}
+## HubSpot Integration Limitations
 
 The solution for the synchronization of data between Acumatica ERP and HubSpot has the following limitations:
 

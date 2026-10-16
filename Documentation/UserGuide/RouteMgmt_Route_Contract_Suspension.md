@@ -1,10 +1,10 @@
-# Route Service Contracts: Contract Suspension {#_3df6e563-629c-41ad-b804-7cba37d4a358 .concept}
+# Route Service Contracts: Contract Suspension
 
 In Acumatica ERP, you can suspend an active contract so that it is no longer active during the time it is suspended. When you suspend the contract, the system deletes any documents that were generated on the suspension date or the dates that are after it. You cannot generate appointments or billing documents from contracts with the *Suspended* status. The suspended contract can then be activated again or canceled.
 
 In this topic, you will read about how to suspend the routу service contract in the system.
 
-## Suspending a Route Service Contract {#_a3eb97a2-bfba-49d8-a45a-1e9b9743a796 .section}
+## Suspending a Route Service Contract
 
 To suspend the contract, you open the necessary contract on the [Route Service Contracts](FS_30_08_00.md) \(FS300800\) form, and click **Suspend** on the More menu \(under **Processing**\). The system opens the **Suspend Contract** dialog box, where you specify the date since which the contract has to be suspended.
 

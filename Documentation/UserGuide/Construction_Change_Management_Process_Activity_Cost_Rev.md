@@ -1,8 +1,8 @@
-# Change Requests: To Process Cost and Revenue Changes to a Project {#_596c7889-8ba8-45bf-8bd4-6b951e151e33 .task}
+# Change Requests: To Process Cost and Revenue Changes to a Project
 
 The following activity will walk you through the processing of extra costs and revenues for the project by using the two-tier change management workflow.
 
-## Story {#section_qlc_b15_gnb .section}
+## Story
 
 Suppose that ToadGreen Building Group is a general contractor building an Italian restaurant for the Italian Company customer. The ToadGreen project accountant has created a project for the work to be performed and the budget has been agreed upon with the customer. The construction work has been started.
 
@@ -10,7 +10,7 @@ Then suppose that on April, 15, 2026, a worker of a subcontractor, Acme Doors &a
 
 Acting as the project manager, you need to agree upon the cost budget with the engineer and the revenue budget with the customer. For this purpose, you will prepare a change request with the related project issue, and then process the cost change order along with the related commitments to make changes to the project cost budget. After the work is finished in June, you will process the revenue change order to record the revenue.
 
-## Configuration Overview {#section_k44_tw5_gnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -19,11 +19,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Projects](PM_30_10_00.md) \(PM301000\) form, the *ITALIAN* project has been configured. For the project, the **Change Order Workflow** check box is selected on the **Summary** tab.
 -   On the [Project Management Classes](PJ_20_10_00.md) \(PJ201000\) form, the *FIELD* class has been created to provide the default settings for project issues.
 
-## Process Overview {#section_edh_gzf_3nb .section}
+## Process Overview
 
 You will create a change request on the [Change Requests](PM_30_85_00.md) \(PM308500\) form; also, you will create a project issue to be linked to this request on the [Project Issue](PJ_30_20_00.md) \(PJ302000\) form. You will create a change order for the cost part of the change request on the [Change Orders](PM_30_80_00.md) \(PM308000\) form. After that, you will create a second change order for the revenue part of the change request. Finally, you will make sure that the processed documents are correctly reflected in the cost and revenue budgets of the project.
 
-## System Preparation {#section_ypj_3j5_gnb .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
@@ -32,7 +32,7 @@ To prepare to perform the instructions of this activity, do the following:
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *4/15/2026*. If a different date is displayed, click the Business Date menu button, and select *4/15/2026* on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 4.  Download the [Window-Rough-Openings.jpg](Files/Window-Rough-Openings.jpg) file to your device.
 
-## Step 1: Creating a Change Request with the Related Project Issue {#section_nyt_mz5_gnb .section}
+## Step 1: Creating a Change Request with the Related Project Issue
 
 Create a change request and a project issue by doing the following:
 
@@ -92,10 +92,9 @@ Create a change request and a project issue by doing the following:
 15. On the [Projects](PM_30_10_00.md) \(PM301000\) form, open the *ITALIAN* project, and on the **Change Requests** tab, make sure that the change request is now shown in the table.
 16. On the **Cost Budget** tab, review the cost budget lines. In the *08-100 \(Doors - Exterior\)* line with the *SUBCON* account group, and in the *08-520 \(Windows - Wood\)* line with the *SUBCON* account group, based on the amount and quantity of the change request, the system has updated the values in the **Potential CO Quantity** and **Potential CO Amount** columns \(see below\).
 
-    ![](Images/activity_Change_Management_ChReq_Updated_2.png "The updated potential amount and quantity in the project")
 
 
-## Step 2: Processing the Cost Part of the Change Request {#section_ulc_b15_gnb .section}
+## Step 2: Processing the Cost Part of the Change Request
 
 Process the cost change order for the change request by doing the following:
 
@@ -111,7 +110,7 @@ Process the cost change order for the change request by doing the following:
 5.  On the form toolbar of the [Change Orders](PM_30_80_00.md) form, click **Remove Hold**, and then click **Release** to release the change order.
 6.  On the **Change Requests** tab, notice that the status of the change request is still *Open*, because the revenue part of the change request has not been processed yet.
 
-## Step 3: Processing the Revenue Part of the Change Request {#section_m1z_mt5_3nb .section}
+## Step 3: Processing the Revenue Part of the Change Request
 
 Process the revenue part of the change request by doing the following:
 

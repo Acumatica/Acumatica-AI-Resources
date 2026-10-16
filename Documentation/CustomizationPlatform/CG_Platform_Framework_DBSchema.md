@@ -1,4 +1,4 @@
-# Changes in the Database Schema {#_324bf7e9-4a40-4579-909e-ca6ca1554ad8 .concept}
+# Changes in the Database Schema
 
 The Acumatica Customization Platform permits the following changes to the database in the scope of a customization project:
 
@@ -6,17 +6,17 @@ The Acumatica Customization Platform permits the following changes to the databa
 -   [Creation of custom columns in existing tables](#section_hgx_3jc_nw)
 -   [Creation of views, indexes, and other database objects](#section_i4h_jjc_nw)
 
-## Creation of Custom Tables {#section_ant_3jc_nw .section}
+## Creation of Custom Tables
 
 We recommend that you create a custom table in the database of your development environment by using a database administration tool, such as SQL Server Management Studio, and then import the table schema from the database to a customization project by using the [Customization Project Editor](../UserGuide/SM_20_45_10.md). The project keeps the schema in XML format. While publishing the customization project, the platform executes a special procedure to create the table by the schema, while meeting all the requirements of Acumatica ERP.
 
-## Creation of Custom Columns in Existing Tables {#section_hgx_3jc_nw .section}
+## Creation of Custom Columns in Existing Tables
 
 To create a custom database-bound field, you add a column to the database table and declare the field in the extension of the base \(original\) DAC.
 
 The new column is appended to the original table by altering the table schema. When you create the database-bound field by using the [Data Class](../UserGuide/AU_DataClassEditor.md) page, the platform generates the DAC extension code for the new field and adds to the customization project the XML definition of the new column to be created in the database. To be able to create a UI control for the new field to display on a form, you have to publish the project to make the system create the column in the database table and compile the customization code. After the publication, you can add the control for the new field to the form by using the [Screen Editor](../UserGuide/AU_20_45_20.md) page.
 
-## Creation of Views, Indexes, and Other Database Objects {#section_i4h_jjc_nw .section}
+## Creation of Views, Indexes, and Other Database Objects
 
 With the Acumatica Customization Platform, you can add to a customization project an SQL script to be executed during the publication of the project. However, we recommend that you avoid doing this.
 

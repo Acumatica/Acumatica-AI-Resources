@@ -1,4 +1,4 @@
-# Managing Bank Statements {#_ad7d2355-5ff4-4898-a938-84b70336df56 .concept}
+# Managing Bank Statements
 
 If you are reconciling your cash accounts, you need quick and accurate tools to track third-party records and ensure that they match the transactions recorded in your system. Acumatica ERP offers you capabilities that ease the processes of importing, tracking, and matching the transactions tracked by other means.
 

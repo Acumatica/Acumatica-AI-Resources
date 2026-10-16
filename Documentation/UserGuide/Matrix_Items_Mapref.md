@@ -1,4 +1,4 @@
-# Managing Matrix Items {#_2f5989e9-88dc-46ff-bc46-e298f9c10c48 .concept}
+# Managing Matrix Items
 
 If your organization sells or purchases items with multiple attributes \(such as T-shirts that have different materials, sizes, colors, and brands\), you may want to generate items with various attributes automatically by using predefined templates. To do this, you can use the matrix item functionality in Acumatica ERP.
 

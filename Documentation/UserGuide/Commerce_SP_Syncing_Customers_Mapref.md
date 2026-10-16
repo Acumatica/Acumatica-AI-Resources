@@ -1,4 +1,4 @@
-# Synchronizing Individual and Business Customers {#_f2bb2622-a813-44cf-9bf3-f9a73b3362d1 .concept}
+# Synchronizing Individual and Business Customers
 
 In the topics of this chapter, you will read about the synchronization of individual customers and business customers between Acumatica ERP and the Shopify store.
 

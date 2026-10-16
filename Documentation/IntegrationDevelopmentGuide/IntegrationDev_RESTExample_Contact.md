@@ -1,4 +1,4 @@
-# Contact {#_90132644-1859-4e07-b35b-ad0575c2c6fc .concept}
+# Contact
 
 This chapter presents code examples showing requests that use the `Contact` entity.
 

@@ -1,4 +1,4 @@
-# update {#_65a74995-14bc-4af9-a547-091be631b98d .concept}
+# update
 
 In the mobile site map of the Acumatica ERP instance, switches the MSDL interpreter to editing mode for specified object.
 

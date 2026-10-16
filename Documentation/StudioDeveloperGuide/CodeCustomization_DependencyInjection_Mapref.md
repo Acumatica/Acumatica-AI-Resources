@@ -1,4 +1,4 @@
-# Reusing Business Logic with Dependency Injection {#_939056b6-ff5f-45f0-9533-c02f7eac81aa .concept}
+# Reusing Business Logic with Dependency Injection
 
 Dependency injection is a design approach for organizing application logic into loosely coupled, reusable services. It centralizes dependency creation and management, improving maintainability and testability.
 

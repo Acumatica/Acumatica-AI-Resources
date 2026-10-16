@@ -1,4 +1,4 @@
-# Recognition of Revenue from Customer Contracts {#_fc4d8e96-10a1-41bf-ba03-5b1576cd79b4 .concept}
+# Recognition of Revenue from Customer Contracts
 
 Acumatica ERP supports the requirements of the following standards as well as their models of recognizing revenue:
 
@@ -7,7 +7,7 @@ Acumatica ERP supports the requirements of the following standards as well as th
 
 Per these requirements and standards, if a contract exists between a seller and a buyer to transfer a package and the contract consists of multiple distinct performance obligations, the transaction price is allocated to each performance obligation based on the relative standalone selling prices of the goods or services being provided to the customer. Revenue is recognized when the performance obligations are satisfied. If a performance obligation is satisfied over time, the related revenue is also recognized over time. If a customer receives a discount, it can be allocated to only one performance obligation or to multiple performance obligations \(for example, inventory IDs\) in the contract.
 
-## Example of Revenue Recognition {#section_lsb_3jv_vxb .section}
+## Example of Revenue Recognition
 
 Consider the following example, which illustrates how revenue is recognized:
 
@@ -21,7 +21,7 @@ A company sells a package consisting of three items: a software subscription lic
 
 The revenue of each item will be recognized evenly during two years—one half in the first year and the other half in the second year.
 
-## Configuration and Workflow of Revenue Recognition {#section_psb_3jv_vxb .section}
+## Configuration and Workflow of Revenue Recognition
 
 To use the revenue recognition according to *IFRS 15* and *ASC 606*, you should configure the following settings and create the following documents:
 
@@ -34,7 +34,7 @@ To use the revenue recognition according to *IFRS 15* and *ASC 606*, you should 
 
 **Important:** The configuration settings described above should be applied for each unreleased document if the *Revenue Recognition by IFRS 15/ASC 606* feature has been enabled on the [Enable/Disable Features](CS_10_00_00.md) form without posting unreleased documents. If this is the case, when a user tries to release an AR or SO document created before the feature was enabled or view the deferred schedule for such documents, the system displays an error message.
 
-## Reallocation Pool {#section_ssb_3jv_vxb .section}
+## Reallocation Pool
 
 A *reallocation pool* is a table in the system where the inputs and outputs of the reallocation process are stored. The reallocation process collects data about sold packages from invoice lines and splits these packages into separate performance obligations. Then for each sales order, the process collects the fair value \(or best estimated\) price from the list of sales prices, and allocates the transaction price among the sales orders in proportion to their standalone prices. The resulting sales orders and their amounts are used to create a deferred schedule and its components.
 
@@ -46,7 +46,6 @@ The share of each component in the transaction price depends on the following:
 
 The following diagram illustrates how data for the reallocation pool is retrieved and calculated. All these actions are performed automatically by the system.
 
-![](Images/DR_Reallocation_Pool.png "Data retrieval and calculation in the reallocation pool")
 
 As the diagram shows, the following steps are involved with the data retrieval and calculation in the reallocation pool:
 
@@ -59,7 +58,7 @@ As the diagram shows, the following steps are involved with the data retrieval a
 
 The results of these calculations are shown on the **Reallocation Pool** tab of the [Deferral Schedule](DR_20_15_00.md) \(DR201500\) form.
 
-## Algorithm for Selecting the Fair Value Price {#section_ysb_3jv_vxb .section}
+## Algorithm for Selecting the Fair Value Price
 
 The system uses the following input data entered on the [Sales Prices](AR_20_20_00.md) \(AR202000\) form to select the fair value prices used by the revenue reallocation process:
 
@@ -80,11 +79,11 @@ For inventory items, multiple prices with different goals may be available in th
 
 If no applicable price is found, the system displays a warning message; a document with a warning message cannot be released.
 
-## Algorithm for Selecting Fair Value Prices for Inventories Marked by a Deferral Code of Flexible Type {#section_ctb_3jv_vxb .section}
+## Algorithm for Selecting Fair Value Prices for Inventories Marked by a Deferral Code of Flexible Type
 
 Invoice lines or revenue components of the inventories with the *MDA* type can contain items marked by deferral codes with flexible types \(*Flexible by Period*, *Prorate by Days*, or *Flexible by Days in Period*\). In AR invoices containing these items, you have to enter the term start date and the term end date in the **Term Start Date** and **Term End Date** columns on the **Details** tab of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. If fair value prices selected on the [Sales Prices](AR_20_20_00.md) \(AR202000\) form have the **Prorated** check boxes selected for them, the effective price for these inventories will be increased or decreased in proportion to the term specified for the invoice line. The following formula will be used for calculating the price:
 
-``` {#codeblock_etb_3jv_vxb}
+```
 EP = FVP * (([Term  end] - [Term start] + 1 day) / 365)
 ```
 
@@ -95,7 +94,7 @@ The symbols in the formula have the following meanings:
 -   *Term end*: The date specified for the invoice line in the **Term End Date** column on the **Details** tab of the [Deferral Schedule](DR_20_15_00.md) \(DR201500\) form
 -   *Term start*: The date specified for the invoice line in the **Term Start Date** column on the **Details** tab of the [Deferral Schedule](DR_20_15_00.md) form
 
-## Residual Method for ASC606 {#section_gtb_3jv_vxb .section}
+## Residual Method for ASC606
 
 Acumatica ERP supports the residual approach for allocating the transaction price to the performance obligations. This approach can be used by companies that cannot establish observable standalone selling prices \(fair value prices\) for a performance obligation or for multiple performance obligations on the same invoice. In this case, the ASC606 standard allows companies to use the residual approach described in *ASC 606-10-32-34*, where revenue for these performance obligations is allocated on a residual basis.
 
@@ -119,13 +118,13 @@ Revenue components are used in documents according to the following rules:
 -   Revenue components with different deferral settings can be used in the same document. For an inventory item,you can specify revenue components with flexible deferral codes and different default terms. For all revenue components of the same inventory item, recognition will start on the **Term Start Date** specified in a document line on data entry forms. In a document line for an inventory item, the default **Term End Date** is based on the maximum default terms of the components.
 -   A residual component will be included in the deferral schedule created for a document if there is a deferral code associated with the component; the revenue allocated for the component will be recognized based on its schedule. The revenue allocated for a residual component that is not associated with any deferral code will be recognized immediately.
 
-## Support of Foreign Currencies {#section_otb_3jv_vxb .section}
+## Support of Foreign Currencies
 
 Any document that is subject to revenue reallocation may be in the base currency or a foreign currency. If the document is in the base currency, the best estimated or fair value prices specified on the [Sales Prices](AR_20_20_00.md) \(AR202000\) form must also be in the base currency. For documents in a foreign currency, the prices used for reallocation can be in either the base currency or the foreign currency, depending on whether the **Use Fair Value Prices in Base Currency** check box on the [Deferred Revenue Preferences](DR_10_10_00.md) \(DR101000\) form is selected. Regardless of the currency, the prices must be defined on the document date for all inventories registered in document lines or revenue components; otherwise, the system will not be able to prepare data for the reallocation pool and will display an error.
 
 Deferred schedules are always created in the base currency, as well as further revenue recognition. If a document is in a foreign currency, the system will recalculate its transaction price from the foreign currency to the base currency.
 
-## Support of Multiple Base Currencies {#section_rtb_3jv_vxb .section}
+## Support of Multiple Base Currencies
 
 If the *Multiple Base Currencies* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the system searches for fair value prices according to the following rules:
 

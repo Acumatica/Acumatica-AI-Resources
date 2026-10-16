@@ -1,19 +1,19 @@
-# Barcode Scan Class: General Information {#_9cac75a9-31f1-4ca6-a760-e2811ff5edf3 .concept}
+# Barcode Scan Class: General Information
 
 A barcode scan class is the main class of a barcode-driven form.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Create a barcode scan class
 -   Make the barcode scan class usable
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create a barcode scan class if you are creating a custom barcode-driven Acumatica ERP form.
 
-## Core Class { .section}
+## Core Class
 
 BarcodeDrivenStateMachine&lt;TSelf, TGraph&gt; is the core class of the Acumatica barcode-driven engine. This is a generic graph extension that connects all components of the barcode-driven engine. The class implements the IBarcodeDrivenStateMachine interface and inherits from the PXGraphExtension&lt;TGraph&gt; class. All components can access the core class via their Basis property.
 
@@ -21,9 +21,8 @@ BarcodeDrivenStateMachine&lt;TSelf, TGraph&gt; is the core class of the Acumatic
 
 The core class contains the components shown in the following diagram. For details about the properties and methods of the core class, see [BarcodeDrivenStateMachine&lt;TSelf,TGraph&gt; Class](https://help.acumatica.com/(W(9))/Help?ScreenId=ShowWiki&pageid=4673e448-9392-65f2-693a-e4952694457e).
 
-![](Images/diag_WMSEngine_Core.png "The core class")
 
-## Barcode Scan Class { .section}
+## Barcode Scan Class
 
 While creating a barcode-driven form, you introduce a barcode scan class as a descendant of the core class \(that is, BarcodeDrivenStateMachine&lt;TSelf, TGraph&gt;\). The barcode scan class is a graph extension that meets the following requirements:
 
@@ -34,7 +33,7 @@ You then implement abstract members of the barcode scan class.
 
 As is true of any other graph extension, the barcode scan class can contain views, actions, event handlers, and any other types of members. However, to make the barcode-driven part of the extension work, you must implement the `CreateScanModes()` abstract method. This method returns the set of scan modes available on the barcode-driven form. The scan mode creates and maintains scan states, transitions between them, available commands, and user dialogs. Scan modes are parameterized with the current barcode scan class type.
 
-## Host Graph { .section}
+## Host Graph
 
 The host graph is a supplementary graph that connects the barcode scan class with the target graph to which the barcode-driven engine functionality is applied.
 

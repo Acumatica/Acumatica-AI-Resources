@@ -1,19 +1,19 @@
-# Adjusting Transactions: General Information {#_9266ecdd-2dfd-4a6f-9ab1-7ae826b8303c .concept}
+# Adjusting Transactions: General Information
 
 At the end of the period, you may need to post some adjusting transactions to adjust income and expense accounts. In Acumatica ERP, for this purpose, you create auto-reversing batches that are reversed at the beginning of the next period.
 
-## Learning Objectives {#section_jgh_mjv_vxb .section}
+## Learning Objectives
 
 You will learn how to create an auto-reversing batch in the system.
 
-## Applicable Scenarios {#section_lgh_mjv_vxb .section}
+## Applicable Scenarios
 
 You create an auto-reversing batch if you need to post a batch at the current period and reverse these entries at the beginning of the next period. For example, you create auto-reversing batches in the following cases:
 
 -   When you record accrual-type adjusting entries
 -   When you revalue in the base currency the accounts maintained in foreign currencies at the end of the period, and the adjusting entries are posted to the unrealized gain and loss accounts
 
-## Creation of Auto-Reversing Batches {#section_ngh_mjv_vxb .section}
+## Creation of Auto-Reversing Batches
 
 You create an auto-reversing batch on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form. At the beginning of the next period, the system automatically creates the reversing batch as follows:
 
@@ -26,11 +26,10 @@ You create an auto-reversing batch on the [Journal Transactions](GL_30_10_00.md)
 
 **Attention:** The financial periods for which auto-reversing transactions will be created and the next periods must have a status of *Open*.
 
-## Workflow of Processing Auto-Reversing Batches {#section_rgh_mjv_vxb .section}
+## Workflow of Processing Auto-Reversing Batches
 
 The typical processing workflow of auto-reversing batches involves the actions and generated batches shown in the following diagram.
 
-![](Images/diag_Finance_GL_Processing_Auto-Reversing_Batch.png)
 
 **Parent topic:**[Processing Adjusting Transactions](../UserGuide/Finance_Adjusting_Transactions_Mapref.md)
 

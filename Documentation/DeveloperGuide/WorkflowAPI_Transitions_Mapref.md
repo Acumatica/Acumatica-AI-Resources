@@ -1,4 +1,4 @@
-# Implementing Transitions {#_9446ff3d-0314-4c42-bc4e-46ab2b0a93b3 .concept}
+# Implementing Transitions
 
 In this chapter, you will learn how to implement transitions in a worfklow. Transitions are used to link the states of the workflow, and they define the changes that a record proceeds through.
 

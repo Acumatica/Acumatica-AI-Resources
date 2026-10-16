@@ -1,8 +1,8 @@
-# Changing the Processing of Sales Documents {#_40969b80-b98e-4b83-bfba-2941496b284a .concept}
+# Changing the Processing of Sales Documents
 
 In Acumatica ERP, you can require a user to perform additional steps during the processing of sales orders of a particular order type and related documents, by configuring order settings on the **General** tab of the [Order Types](SO_20_10_00.md) \(SO201000\) form, and by configuring module preferences on the [Sales Orders Preferences](SO_10_10_00.md) \(SO101000\) form.
 
-## Holding Sales Documents on Entry { .section}
+## Holding Sales Documents on Entry
 
 On the **General Settings** tab of the [Order Types](SO_20_10_00.md) \(SO201000\) form, you can specify the following settings, which indicate whether orders of this type and the related documents should be on hold on creation:
 
@@ -12,7 +12,7 @@ On the **General Settings** tab of the [Order Types](SO_20_10_00.md) \(SO201000\
     **Note:** If approval is configured for sales invoices, they will be created with the *On Hold* status, regardless of the state of this check box.
 
 
-## Holding Orders on a Failed Credit Check { .section}
+## Holding Orders on a Failed Credit Check
 
 By default, a credit check is performed for sales orders of any type; the system displays a warning if the customer fails the credit check. If you want to instead hold sales orders on a failed credit check, you need to select **Hold Document on Failed Credit Check** \(**Order Settings** section\) on the [Order Types](SO_20_10_00.md) \(SO201000\) form for the needed order type. Then if the customer fails the credit check, the order is assigned the *Credit Hold* status.
 
@@ -25,23 +25,23 @@ For each order for which the credit hold is removed, the system performs credit 
 
 **Attention:** If the customer specified in a sales order has the *Credit Hold* status on the [Customers](AR_30_30_00.md) \(AR303000\) form, the sales order cannot be moved from the *Credit Hold* status. It maintains this status even if the **Remove Credit Hold on Payment Application** check box is selected for the order type on the [Order Types](SO_20_10_00.md) form and a payment has been applied to the full order amount. The status of the order can be changed only when the customer's status is no longer *Credit Hold*.
 
-## Holding Invoices on a Failed Credit Check { .section}
+## Holding Invoices on a Failed Credit Check
 
 New and edited invoices are put on credit hold for customers that fail credit check if the **Hold Invoices on Failed Credit Check** check box is selected on the [Sales Orders Preferences](SO_10_10_00.md) \(SO101000\) form.
 
-## Affecting the Processing of Inventory Issues { .section}
+## Affecting the Processing of Inventory Issues
 
 Generated inventory issues are released automatically if the **Automatically Release IN Documents** check box is selected on the [Sales Orders Preferences](SO_10_10_00.md) \(SO101000\) form. If the check box is cleared, inventory issues are generated and saved with the *Balanced* status.
 
-## Making the Entry of Orders Error-Proof { .section}
+## Making the Entry of Orders Error-Proof
 
 You select the **Require Control Total** check box in the settings of an order type on the [Order Types](SO_20_10_00.md) \(SO201000\) form to prevent the orders of this type from being processed until a user types the total order amount in the **Control Total** box, which is displayed on the data entry form if the check box is selected for an order type. The control total that the user enters must be equal to the order total calculated by the system.
 
-## Making the Entry of Shipments Error-Proof { .section}
+## Making the Entry of Shipments Error-Proof
 
 You select the **Validate Shipment Total on Confirmation** check box on the [Sales Orders Preferences](SO_10_10_00.md) \(SO101000\) form to prevent the shipment from being confirmed until a user types the total quantity of the items being shipped in the **Control Quantity** box, which is displayed on the data entry form if the check box is selected. The quantity that the user enters must be equal to the quantity calculated by the system.
 
-## Causing the Documents to Be Processed Separately { .section}
+## Causing the Documents to Be Processed Separately
 
 In the settings of an order type on the [Order Types](SO_20_10_00.md) \(SO201000\) form, you can configure the following settings, which specify whether the orders of this type and related documents should be processed individually from other orders of this type:
 
@@ -51,7 +51,7 @@ In the settings of an order type on the [Order Types](SO_20_10_00.md) \(SO201000
     **Note:** The orders of the type for which the **Ship Separately** check box is selected can still be consolidated into a single shipment if you manually add them using the **Add Order** button on the **Details** tab of the [Shipments](SO_30_20_00.md) \(SO302000\) form.
 
 
-## Affecting the Date of the Invoice Generation { .section}
+## Affecting the Date of the Invoice Generation
 
 In the settings on the [Sales Orders Preferences](SO_10_10_00.md) \(SO101000\) form, you can select the **Use Shipment Date for Invoice Date** check box, if you want to generate Sales Orders invoices with the date of shipment. Otherwise, if the check box is cleared, the system uses the current business date for invoice generation.
 

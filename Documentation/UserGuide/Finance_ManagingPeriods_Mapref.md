@@ -1,4 +1,4 @@
-# Managing Financial Periods {#_96e30f1d-3948-4405-aa90-8afdbaccd06a .concept}
+# Managing Financial Periods
 
 In this chapter, you will find general information on how to manage financial periods, a checklist for system implementation, and activities that describe how to lock, unlock, reopen, and deactivate financial periods subledgers and in the general ledger.
 

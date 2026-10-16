@@ -1,4 +1,4 @@
-# Processing Customer Returns for Replacement at Another Price {#_e653a50e-de51-4795-b74f-679e6202449c .concept}
+# Processing Customer Returns for Replacement at Another Price
 
 Acumatica ERP supports the basic types of customer returns of goods that your company has sold. This includes returns in which you receive the items to inventory and replace these items with different items. With this return type, you also need to process an AR invoice or a credit memo.
 

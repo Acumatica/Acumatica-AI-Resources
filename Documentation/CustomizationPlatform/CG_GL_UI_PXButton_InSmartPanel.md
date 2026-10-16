@@ -1,4 +1,4 @@
-# To Use a Button in a Dialog Box {#_51384199-a50a-48b0-b2c5-fc687d937750 .concept}
+# To Use a Button in a Dialog Box
 
 In a dialog box, you can create buttons of the following types:
 

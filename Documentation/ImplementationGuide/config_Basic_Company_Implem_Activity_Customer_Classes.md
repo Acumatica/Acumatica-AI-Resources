@@ -1,16 +1,16 @@
-# Accounts Receivable: To Create a Customer Class {#_9c04e7d3-f378-497e-857f-04d6f9ea5125 .task}
+# Accounts Receivable: To Create a Customer Class
 
 In this activity, you will create a default customer class in the system. This class will provide many of the settings for newly created customers and for other customer classes you create, thus easing the creation of these entities during the next phase of implementation. Among other settings for the customer class, you will specify the credit terms you have created.
 
-## Story { .section}
+## Story
 
 Suppose that most of the customers of the SweetLife company use the same settings, such as credit terms, statement cycle, payment method, sales account, AR account, and cash discount account. Acting as an administrator, you need to create a default customer class with these settings so that it can supply default settings when customers and other customer classes are created in the system.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Customer Classes](../UserGuide/AR_20_10_00.md) \(AR201000\) form, you will create the default customer class and specify its settings.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating the default customer class, make sure that the following tasks have been performed in the system:
 
@@ -18,7 +18,7 @@ Before you start creating the default customer class, make sure that the followi
 2.  The credit terms that are used by customers have been created, as described in [Credit Terms: To Define Single-Installment Credit Terms](config_Basic_Company_Implem_Activity_Credit_Terms.md).
 3.  At least one statement cycle has been defined in the system, as described in [Accounts Receivable: To Create a Statement Cycle](config_Basic_Company_Implem_Activity_Statement_Cycles.md).
 
-## Step: Creating the Default Customer Class { .section}
+## Step: Creating the Default Customer Class
 
 To create the default customer class, perform the following instructions:
 

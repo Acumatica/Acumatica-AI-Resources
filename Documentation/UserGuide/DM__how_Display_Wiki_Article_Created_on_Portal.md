@@ -1,10 +1,10 @@
-# To Make a Wiki Article Visible in Acumatica ERP {#_a770c51f-a810-4eff-ac79-a52f4f7468c7 .task}
+# To Make a Wiki Article Visible in Acumatica ERP
 
 You can make a wiki article that was created on Self-Service Portal visible in Acumatica ERP as well by using the [Wiki](SM_20_20_05.md) \(SM202005\) form, as described in this topic. \(For the procedure that describes how to add a new wiki, see [To Add a Wiki](DM__how_Wiki_Setting_Up_a_New_Wiki.md).\)
 
 At a later time, you can remove the visibility of the wiki article that you made visible in Acumatica ERP.
 
-## To Make a Wiki Article Visible in Acumatica ERP { .section}
+## To Make a Wiki Article Visible in Acumatica ERP
 
 1.  Open the [Wiki](SM_20_20_05.md) \(SM202005\) form.
 2.  In the Summary area, do the following:
@@ -19,7 +19,7 @@ At a later time, you can remove the visibility of the wiki article that you made
 
 Now you can view the same wiki article both in Acumatica ERP and on Self-Service Portal.
 
-## To Hide a Wiki From the Acumatica ERP Main Menu { .section}
+## To Hide a Wiki From the Acumatica ERP Main Menu
 
 1.  Open the [Wiki](SM_20_20_05.md) \(SM202005\) form.
 2.  In the **ID** box, select the wiki that you want to hide from the main menu.

@@ -1,16 +1,16 @@
-# Opportunity Assignment to Owners and Workgroups: Process Activity {#_2b5ff479-b8f1-4a60-8273-0a838e6df7fe .task}
+# Opportunity Assignment to Owners and Workgroups: Process Activity
 
 The following activity demonstrates how to assign opportunities to owners and workgroups and how to set up the system to assign opportunities to owners automatically. The activity will show you how to define an opportunity class so that opportunities of the class are assigned to their creators by default. You will also practice manually assigning opportunities to the appropriate owners, both for an individual opportunity and by using the mass processing form to assign multiple users to the needed owners.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are David Chubb, a sales manager of the SweetLife Fruits &amp; Jams company.You are going on vacation and you need to temporarily assign the opportunity you have started working on to your colleague, Pam Brawner.
 
 You will also change the *SERVICE* opportunity class so that the user who creates a new opportunity is assigned to be its owner. Finally, you will mass-assign the unassigned opportunities of the *PRODUCT* and *PROJECT* opportunity classes to workgroups.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -21,7 +21,7 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Assignment Maps](EP_20_50_10.md) \(EP205010\) form, the *Opportunity Assignment Map* has been created. According to the rules \(and their conditions and actions\) specified in this assignment map, the opportunities of the *PROJECT* opportunity class are assigned to the *Project Sales* workgroup in the *Sales* department. The opportunities of the *PRODUCT* opportunity class are assigned to the *Product Sales* workgroup in the SweetLife *Sales* department.
 -   On the [Opportunities](CR_30_40_00.md) \(CR304000\) form, the opportunity with the *Inquiry for exotic fruits* description, has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -29,7 +29,7 @@ In this activity, you will do the following:
 2.  On the [Opportunity Classes](CR_20_90_00.md) \(CR209000\) form, specify how the system assigns the default owner of opportunities of a particular class.
 3.  On the [Assign Opportunities](CR_50_31_10.md) \(CR503110\) form, assign selected opportunities to owners.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start assigning opportunities to owners, you should do the following:
 
@@ -40,7 +40,7 @@ Before you start assigning opportunities to owners, you should do the following:
 3.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 4.  Make sure that on the [Customer Management Preferences](CR_10_10_00.md) \(CR101000\) form, in the **Opportunity Assignment Map** box of the **Assignment Settings** section of the **General** tab, *Opportunity Assignment Map* has been specified. If it has not, select this assignment map, and save your changes. The system will use this assignment map during the process of mass-assigning opportunities.
 
-## Step 1: Assigning an Opportunity to an Owner { .section}
+## Step 1: Assigning an Opportunity to an Owner
 
 To manually assign an opportunity to another owner, do the following:
 
@@ -53,7 +53,7 @@ To manually assign an opportunity to another owner, do the following:
 
 You have manually assigned an opportunity to another owner.
 
-## Step 2: Specifying a Default Owner for New Opportunities of the Class { .section}
+## Step 2: Specifying a Default Owner for New Opportunities of the Class
 
 In this step, you will specify the owner of a new opportunity of the *SERVICE* opportunity class as its creator.
 
@@ -71,7 +71,7 @@ To specify the default owner of an existing opportunity class and make sure the 
 
 You have specified how the system determines the default owner for opportunities of the *SERVICE* opportunity class and then created a new opportunity to test the setting. The system has correctly inserted the default owner for the new opportunity. Each time a user creates an opportunity of the *SERVICE* opportunity class, the system will insert the employee name of the creator of the opportunity as the owner of the opportunity.
 
-## Step 3: Assigning Multiple Opportunities to Workgroups { .section}
+## Step 3: Assigning Multiple Opportunities to Workgroups
 
 Suppose that at the request of the director of your sales department, you need to regularly mass-assign the unassigned opportunities of the *PRODUCT* and *PROJECT* opportunity classes to workgroups. The system will assign these opportunities by using the *Opportunity Assignment Map*, which has been specified on the [Customer Management Preferences](CR_10_10_00.md) \(CR101000\) form. Based on this assignment map, the system will assign the opportunities of the *PROJECT* class to the *Project Sales* workgroup and the opportunities of the *PRODUCT* opportunity class to the *Product Sales* workgroup.
 
@@ -114,7 +114,6 @@ To mass-assign multiple opportunities to workgroups, do the following:
 15. In the filtering area, remove the *Owner: Is Empty* quick filter.
 16. Review the **Workgroup** and **Owner** column. For the opportunities that did not have owners, in the **Workgroup** column, you can see the name of the workgroup to which the system has assigned the opportunities, as shown in the following screenshot.
 
-    ![](Images/activiti_CRM_Mktg_Mass-assigning_Opportunities_to_Workgroups.png "The mass-assignment of opportunities to workgroups")
 
 
 You have assigned the unassigned opportunities to workgroups and owners according to the rules specified in the *Opportunity Assignment Map* assignment map on the [Assignment Maps](EP_20_50_10.md) \(EP205010\) form.

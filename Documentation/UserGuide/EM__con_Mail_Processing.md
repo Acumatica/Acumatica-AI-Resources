@@ -1,4 +1,4 @@
-# Incoming Mail Processing {#_cc8b8172-254f-4dbc-9897-a0493554fe27 .concept}
+# Incoming Mail Processing
 
 In Acumatica ERP, all incoming mail that is received by system email accounts is processed in a series of consecutive steps.
 
@@ -6,7 +6,7 @@ The processing of incoming emails consists of the basic processing, which is act
 
 This topic describes the rules that the system follows when processing incoming emails and how you can set up this functionality.
 
-## Basic Processing { .section}
+## Basic Processing
 
 The basic processing consists of the following steps, which are performed by default upon each email received by a system email account:
 
@@ -17,7 +17,7 @@ The basic processing consists of the following steps, which are performed by def
 2.  If the sender is recognized as an employee, the system assigns that employee to be the owner of the outgoing email. \(The system does not verify whether the employee has the *Active* status.\)
 3.  The system analyzes any tags attached to the outgoing email and determines whether the email has a parent activity in Acumatica ERP. If such an activity is found, the outgoing email becomes linked to it and also associated with the related entity, contact, business account, owner, and workgroup \(if any\) from the parent activity. \(When assigning the owner, the system does not verify whether the employee has the *Active* status.\)
 
-## Advanced Processing { .section}
+## Advanced Processing
 
 Depending on your business, the mail you receive through Acumatica ERP may consist of requests for information, emails related to customer contracts, or emails received from contacts or leads as replies to emails sent during specific marketing campaigns. You can configure incoming mail processing so that based on an incoming email, the system creates a case or a lead and attaches the incoming email to the created entity as a related activity. Also, an incoming email may be attached to an existing lead, contact, or business account that is related to the email exchange. You can activate and configure the processing of incoming mail for each of the system email accounts. You can also specify an email assignment map, which the system will use when it cannot assign incoming emails based on email history. All these options are included in the advanced functionality of incoming mail processing.
 
@@ -49,7 +49,7 @@ The optional part includes the following steps, which you can configure by using
     -   Reply to unassigned emails by using a specific template created through the [Email Templates](SM_20_40_03.md) form.
 -   *Final processing*: You can decide whether the system should remove processed messages and whether it should add available source information to the bottom of each processed email.
 
-## Processing Steps { .section}
+## Processing Steps
 
 Depending on the selected options, the system processes each email as follows \(skipping the step if the corresponding option is not selected or if it is not applicable\):
 
@@ -67,7 +67,7 @@ Depending on the selected options, the system processes each email as follows \(
 
 **Tip:** Generally, the subjects for outgoing mass emails are system-generated and contain values from particular contact records, cases, and activities that will help later with processing replies to the emails if addressees do not change the email subjects.
 
-## Best Practices { .section}
+## Best Practices
 
 When processing a corrupted email, the system may encounter a problem and an error may occur. A diagnostic message about the error may be recorded in the system event log on the **System Events** tab of the [System Monitor](SM_20_15_30.md) \(SM201530\) form. \(For more information about diagnosing email processing errors and using the email processing log, see [Mail Sending and Receipt](EM__con_Sending_and_Receiving_Emails.md).\)
 

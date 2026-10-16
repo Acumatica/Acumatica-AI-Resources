@@ -1,4 +1,4 @@
-# Creating Recurring AP Documents {#_75fb5114-0cdb-42ce-9797-256e003e89ce .concept}
+# Creating Recurring AP Documents
 
 Some accounts payable documents repeat regularly, such as monthly rent bills or quarterly or annual insurance bills. That is, at regular intervals, documents with the same amount and most of the same settings need to be entered. To automate the process of adding these recurring documents to Acumatica ERP, you can create schedules for them.
 

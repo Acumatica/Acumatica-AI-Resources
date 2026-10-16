@@ -1,4 +1,4 @@
-# Processing Direct Sales {#_ead25758-ee98-4206-8527-4cf1b802ecfd .concept}
+# Processing Direct Sales
 
 This chapter describes how you can process a direct sale through the point-of-sale \(POS\) system without processing the related shipment and sales order or with a link to related sales order.
 

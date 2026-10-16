@@ -1,8 +1,8 @@
-# Use Tax Calculation {#_f72efa9e-a0c5-439f-93e8-bda2288bff28 .concept}
+# Use Tax Calculation
 
 In Acumatica ERP, use tax calculations can be performed by the Avalara AvaTax service in accounts payable bills and purchase orders. This topic provides an overview of the supported document types, along with key setup steps and important details about the process.
 
-## Overview of the Use Tax Calculation Setup {#section_uk3_xpn_rcc .section}
+## Overview of the Use Tax Calculation Setup
 
 In Acumatica ERP, the calculation of use taxes is performed in the following documents:
 
@@ -23,7 +23,7 @@ When you save a document, Acumatica ERP sends an API request to the Avalara AvaT
 
 As a result of use taxes being processed, a GL transaction is posted to the general ledger that debits the tax expense account and credits the accounts payable account with the amount specified in the **Tax Amount** column of the **Taxes** tab on the [Bills and Adjustments](AP_30_10_00.md) form.
 
-**Important:** The bill reclassification process does not send updated information about the general ledger accounts to the external tax provider. For more information, see [Project Expense Reclassification: Limitations](Projects_Reclassifying_APBill_Limitations.md).
+**Important:** The bill reclassification process does not send updated information about the general ledger accounts to the external tax provider. For more information, see [Project-Related AP Bill Reclassification: Limitations](Projects_Reclassifying_APBill_Limitations.md).
 
 The following table lists the settings of the use taxes that are returned by the Avalara AvaTax service and added to the [Taxes](TX_20_50_00.md) form of Acumatica ERP.
 
@@ -51,11 +51,11 @@ The following table lists the settings of the use taxes that are returned by the
 |**Tax Expense Account**|The value specified in the **Tax Expense Account** box on the **Tax Agency** tab of the [Vendors](AP_30_30_00.md) form|
 |**Tax Expense Subaccount** \(if applicable\)|The value specified in the **Tax Expense Subaccount** box on the **Tax Agency** tab of the [Vendors](AP_30_30_00.md) form|
 
-## Line-Level Tax Calculation in AP Bills {#section_arv_jtr_rcc .section}
+## Line-Level Tax Calculation in AP Bills
 
 An accounts payable bill is paid by line when the **Pay by Line** check box is selected in the Summary area of the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. In this case, the taxes calculated by the Avalara AvaTax service are distributed across the line items on release of the bill and shown in the **Tax Amount** column on the **Details** tab of the form. The tax amounts are included in the balance of each line item and shown in the **Balance** column on the **Details** tab.
 
 This functionality is available only if the *Payment Application by Line* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-**Parent topic:**[Integrating Acumatica ERP with Avalara Avatax](../UserGuide/config_Avalara_Integration_Mapref.md)
+**Parent topic:**[Integrating Acumatica ERP with Avalara AvaTax](../UserGuide/config_Avalara_Integration_Mapref.md)
 

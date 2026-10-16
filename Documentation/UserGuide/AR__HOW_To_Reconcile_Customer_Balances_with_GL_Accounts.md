@@ -1,8 +1,8 @@
-# To Reconcile Customer Balances with GL Accounts {#_ef1f2b8c-b7b2-432a-92a8-f120b3f75a4c .task}
+# To Reconcile Customer Balances with GL Accounts
 
 To perform reconciliation, you compare the total balance of open documents with the balance of the AR account used in Accounts Receivable documents according to the transactions posted to the account. The balances must be equal.
 
-## To Review and Release Unreleased Accounts Receivable Documents {#section_gql_4jv_vxb .section}
+## To Review and Release Unreleased Accounts Receivable Documents
 
 1.  Open the [AR Edit](../Shared/../UserGuide/AR_61_10_00.md) \(AR611000\) report.
     1.  On the **Report Parameters** tab, in the **Company/Branch** box, check the company or branch to which the documents are related.
@@ -17,7 +17,7 @@ To perform reconciliation, you compare the total balance of open documents with 
 
 Now all Accounts Receivable documents are released.
 
-## To Reconcile the Total of Open Customer Documents With the Balance of GL Account {#section_jql_4jv_vxb .section}
+## To Reconcile the Total of Open Customer Documents With the Balance of GL Account
 
 1.  Open the [AR Balance by GL Account](../Shared/../UserGuide/AR_63_20_00.md) \(AR632000\) form.
 2.  On the **Report Parameters** tab, in the **Report Format** box, select *Open Documents*.
@@ -29,7 +29,7 @@ Now all Accounts Receivable documents are released.
     The report shows the AR accounts used in accounts receivable documents, and the list of documents that have been posted to these accounts and that are open by the end of the period.
 
 
-## To Prepare the Trial Balance Summary {#section_kql_4jv_vxb .section}
+## To Prepare the Trial Balance Summary
 
 1.  Open the [Trial Balance Summary](../Shared/../UserGuide/GL_63_20_00.md) \(GL632000\) form.
 2.  On the **Report Parameters** tab, in the **Company/Branch** box, check the name of the company or branch for which the report should be prepared and change it, if needed.

@@ -1,8 +1,8 @@
-# AP Documents with VAT: Implementation Checklist {#_aa84a36a-dc20-43c1-8fef-a2e31f280e32 .concept}
+# AP Documents with VAT: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for processing AP documents with VAT applied, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist {#section_qpl_fjv_vxb .section}
+## Implementation Checklist
 
 We recommend that before you initially process AP documents with VAT, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -17,7 +17,7 @@ We recommend that before you initially process AP documents with VAT, you make s
 |[Non-Stock Items](IN_20_20_00.md) \(IN202000\)|The non-stock items should exist and be associated with the appropriate tax category to calculate tax amounts in the documents in which you specify inventory IDs.|
 |[Vendors](AP_30_30_00.md) \(AP303000\)|The needed vendors should be configured. Depending on the geographical location of the purchase transaction, different taxes can be applied to the document. To define which taxes are applied in the location of your vendor, you should assign the appropriate tax zone to each new or existing vendor.|
 
-## Other Settings That Affect the Workflow {#section_spl_fjv_vxb .section}
+## Other Settings That Affect the Workflow
 
 The following settings and entities should be specified and defined, respectively:
 
@@ -29,7 +29,7 @@ The following settings and entities should be specified and defined, respectivel
     -   Clear the **Require Vendor Reference** check box in the **Data Entry Settings** section. This setting means that you do not have to enter a payment reference number in the **Vendor Ref.** box when creating an AP bill on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
     -   Make sure that the **Automatically Post on Release** check box is selected in the **Posting Settings** section. This setting causes AP bills to be automatically posted to the general ledger once they are released.
 
-## Validation of Configuration {#section_upl_fjv_vxb .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you process AP documents with VAT by performing instructions similar to those described in [AP Documents with VAT: To Process an AP Bill](Taxes_Processing_APDocs_with_VAT_Activity1.md) and [AP Documents with VAT: To Process a Debit Adjustment](Taxes_Processing_APDocs_with_VAT_Activity2.md).
 

@@ -1,20 +1,40 @@
-# Project Billing Preparation: Implementation Checklist {#_a53a0b58-16a1-4385-a86e-d9aead34d4c0 .concept}
+# Project Billing Preparation: Implementation Checklist
 
 To ensure that the system is configured properly for billing a project, make sure that the features and settings listed in the table are configured as described in the following table.
 
-|Form|Task to Perform|
-|----|---------------|
-|[Billing Rules](PM_20_70_00.md) \(PM207000\) form|Make sure that billing rules are configured as described in the topics of the [Creating Billing Rules](Billing_Rules_Mapref.md) chapter. Also, make sure that the appropriate billing rules are assigned to needed project tasks.|
-|[Projects](PM_30_10_00.md) \(PM301000\)|Determine how the project should be billed as follows:
+<table id="_85f5b1eb-16bc-4091-b7a6-60a8b5fe2b59"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Task to Perform
+
+</th></tr></thead><tbody><tr><td>
+
+[Billing Rules](PM_20_70_00.md) \(PM207000\) form
+
+</td><td>
+
+Make sure that billing rules are configured as described in the topics of the [Creating Billing Rules](Billing_Rules_Mapref.md) chapter. Also, make sure that the appropriate billing rules are assigned to needed project tasks.
+
+</td></tr><tr><td>
+
+[Projects](PM_30_10_00.md) \(PM301000\)
+
+</td><td>
+
+Determine how the project should be billed as follows:
 
  -   To cause pro forma invoices to be created during the project billing, select the **Create Pro Forma Invoice on Billing** check box on the **Summary** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form.
 -   To cause accounts receivable invoices to be created during the project billing, clear the **Create Pro Forma Invoice on Billing** check box on the **Summary** tab of the [Projects](PM_30_10_00.md) form.
 
  Before you run the billing procedure, make sure that the project is pending billing.
 
-|
+</td></tr></tbody>
+</table>
 
-## Other Settings That Affect the Workflow { .section}
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of project billing by specifying additional settings as follows:
 

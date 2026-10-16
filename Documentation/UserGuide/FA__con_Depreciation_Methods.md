@@ -1,4 +1,4 @@
-# Predefined Depreciation Methods {#_a47273bf-9bed-4efb-9a5d-d7c0452ef958 .concept}
+# Predefined Depreciation Methods
 
 A depreciation method defines how the cost of a tangible asset is allocated over its expected useful life. In Acumatica ERP, you can use multiple depreciation methods for calculating depreciation for the same asset; for example, you may need to apply different depreciation methods for tax reporting and financial management purposes. To depreciate the same asset by using different methods, you must use a separate depreciation book for each method. For details, see [Asset Depreciation: General Information](FixedAssets_Depreciation_GeneralInfo.md).
 
@@ -6,7 +6,7 @@ In Acumatica ERP, you can configure and use formula-based depreciation methods o
 
 Depreciation methods differ from one another depending on the calculation method used for calculating the depreciation expense. The sections of this topic describe the available methods of calculating depreciation in Acumatica ERP.
 
-## Straight-Line Calculation Method {#section_wtb_ljv_vxb .section}
+## Straight-Line Calculation Method
 
 The *Straight-Line* method of calculating depreciation is the simplest and most popular method. With this method, the depreciation expense is spread evenly over the estimated useful life of the asset. This method assumes that the physical obsolescence of an asset occurs evenly from the time the asset has been placed into service until the full write-off of its cost.
 
@@ -17,13 +17,13 @@ When you use the *Straight-Line* calculation method, the depreciation expense is
 
 This calculation method is expressed in the following formula.
 
-``` {#codeblock_b5b_ljv_vxb}
+```
 D = (Ac - Sa) * SL rate
 ```
 
 where
 
-``` {#codeblock_e5b_ljv_vxb}
+```
 SL rate = 100% * (1 / N useful life)
 ```
 
@@ -40,7 +40,7 @@ The symbols in the formula have the following meanings:
 
 To configure the depreciation method based on this calculation method, you need to select *Straight-Line* in the **Calculation Method** box on the [Depreciation Methods](FA_20_25_00.md) \(FA202500\) form.
 
-## Declining-Balance Calculation Method {#section_l5b_ljv_vxb .section}
+## Declining-Balance Calculation Method
 
 By using the *Declining-Balance* calculation method, you can mostly depreciate an asset in the early years of its useful life, so that by using this method, you accelerate the depreciation of the asset. Practically, it means that a company writes off the cost of the asset while the asset is relatively new. This method is expedient for the assets that become obsolete very quickly because of, for example, technological innovations.
 
@@ -51,13 +51,13 @@ The acceleration of depreciation is performed by applying the acceleration rate.
 
 Thus, the formula of calculating the depreciation expense by using the *Declining-Balance* depreciation method is the following.
 
-``` {#codeblock_q5b_ljv_vxb}
+```
 D = NBV * DB rate
 ```
 
 The declining-balance rate \(*DB rate*\) is calculated as follows.
 
-``` {#codeblock_t5b_ljv_vxb}
+```
 DB rate = DB Multiplier * (1 / N useful life)
 ```
 
@@ -78,7 +78,7 @@ To configure the depreciation method based on this calculation method, you need 
 
 For fixed assets acquired during a financial year, which use custom declining-balance depreciation methods, if the averaging convention is *Full Period*, the annual depreciation amount is prorated based on the number of periods in the year of acquisition and in the year of disposal. Thus, the annual depreciation for such an asset is calculated based on the following formula:
 
-``` {#codeblock_dvb_ljv_vxb}
+```
 Da = Ac / N useful life * DB multiplier / 12 * N year
 ```
 
@@ -127,7 +127,7 @@ In the table, the following terms and formulas are used:
 -   *NBV* is the net book value
 -   When the **Yearly Accountancy** check box is cleared, the *Period Depreciation Amount* is calculated according to the following formula:
 
-    ``` {#codeblock_kvb_ljv_vxb}
+    ```
     Period Depreciation Amount = NBV * DB multiplier * (1/N Useful Life, periods)
     ```
 
@@ -135,7 +135,7 @@ In the table, the following terms and formulas are used:
 
 -   When the **Yearly Accountancy** check box is selected, the *Yearly Depreciation Amount* is calculated according to the following formula
 
-    ``` {#codeblock_nvb_ljv_vxb}
+    ```
     Yearly Depreciation Amount = NBV * DB multiplier * (1/n Useful Life, years)
     ```
 
@@ -143,18 +143,18 @@ In the table, the following terms and formulas are used:
 
 -   When the **Yearly Accountancy** check box is selected, the *Period Depreciation Amount* is calculated according to the following formula:
 
-    ``` {#codeblock_qvb_ljv_vxb}
+    ```
     Period Depreciation Amount = Yearly Depreciation Amount / Number of periods in the year
     ```
 
 
-## Sum-of-the-Years'-Digits Calculation Method {#section_rvb_ljv_vxb .section}
+## Sum-of-the-Years'-Digits Calculation Method
 
 The *Sum-of-the-Years'-Digits* calculation method accelerates depreciation more than the straight-line method but less than the declining-balance method. The depreciation expense per year is equal to the depreciable basis multiplied by the depreciation rate, where the depreciation rate is the ratio of the number of years remaining to depreciate the asset to the sum of the years' digits. For example, suppose that an asset's useful life is 3 years. In the first year, the depreciation rate is 3 / \(1 + 2 + 3\) = 1/2. Thus, the asset would be depreciated by 50% in the first year of its useful life.
 
 To configure the depreciation method based on this calculation method, you need to select *Sum-of-the-Years'-Digits* in the **Calculation Method** box on the [Depreciation Methods](FA_20_25_00.md) \(FA202500\) form.
 
-## Remaining Value Calculation Method {#section_uvb_ljv_vxb .section}
+## Remaining Value Calculation Method
 
 The *Remaining Value* calculation method is similar to the *Straight-Line* method. The difference between the two methods is that the remaining value method always depreciates the asset by the end of its useful life, so that the depreciable basis minus the accumulated depreciation will be zero.
 

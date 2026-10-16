@@ -1,16 +1,16 @@
-# Testing of the Customization Project: General Information {#_e9e97eb3-b5fa-4ef1-a157-835dfe852cd9 .concept}
+# Testing of the Customization Project: General Information
 
 To make sure that you have implemented all changes correctly, you need to test your customization project.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to test your customization project.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You test your customization project after you have added all the required data to it. Also, you can run the test each time you make changes to the project.
 
-## Application of Changes from the Customization Project { .section}
+## Application of Changes from the Customization Project
 
 You test the changes you have made to a form by publishing the customization project. If you are already signed in to Acumatica ERP and the form is open, you need to refresh it. You then need to perform the activities that involve the changes to make sure that the customized form works as expected.
 

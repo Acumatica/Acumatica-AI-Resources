@@ -1,10 +1,10 @@
-# Stock Item Lines in Purchase Orders {#_269d5782-e79f-48d5-b2a0-47a83060b52b .concept}
+# Stock Item Lines in Purchase Orders
 
 When you add a stock item to a purchase order on the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form, the system inserts *Goods for IN* as the line type for this line. If a purchase order includes only stock items that are intended for inventory and not linked to a drop-ship order or any other sales order, its processing involves the creation of a purchase receipt \(or multiple receipts if the order is fulfilled by multiple shipments from the vendor\) and the preparation of an accounts payable bill. You can configure a particular vendor so that the AP bill for a purchase order can be created before the purchase receipt is processed.
 
 This topic describes how the system processes stock lines added to a purchase order.
 
-## Processing of the Purchase Receipt for the Purchase Order { .section}
+## Processing of the Purchase Receipt for the Purchase Order
 
 You can create a receipt for a purchase order by clicking **Enter PO Receipt** on the form toolbar of the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form. Alternatively, on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form, you can create a receipt and link it to an existing purchase order or a particular line of the order by clicking **Add PO** or **Add PO Line** on the table toolbar of the **Details** tab. You can also allocate the lines with the *Goods for IN* line type by clicking **Line Details** on the table toolbar of the **Details** tab of the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form.
 
@@ -12,13 +12,13 @@ The inventory account that is used for a stock item on a receipt by default is s
 
 For each purchase receipt, you can create an AP bill or multiple bills.
 
-## Processing of the Accounts Payable Bill for the Purchase Order { .section}
+## Processing of the Accounts Payable Bill for the Purchase Order
 
 The general workflow of processing purchase orders with lines of any type is to process a purchase receipt \(if one is needed\) before creating an AP bill \(see [Purchases of Stock Items: General Information](OrderMgmt_Standard_Inventory_Purchase_GeneralInfo.md) for details\). However, if you receive bills from a particular vendor before the ordered items are received to inventory, you can configure this vendor so that for the purchase orders of this vendor, you can create and process an AP bill before the purchase receipt is released.
 
 To do this, you need to select the **Allow AP Bill Before Receipt** check box in the vendor settings on the [Vendors](AP_30_30_00.md) \(AP303000\) form; in addition, you can select this check box for a particular vendor location on the [Vendor Locations](AP_30_30_10.md) \(AP303010\) form. The state of this check box is copied to each purchase order created for this vendor, and can be reviewed on the **Other** tab of the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form. For a detailed description on how to process a purchase order with the associated bill being prepared before the receipt, see [Purchases with Billing Before Receipt: General Information](OrderMgmt_Purchase_Bill_Before_Receipt_GeneralInfo.md).
 
-## Rules for Closing and Completing Goods for IN Lines { .section}
+## Rules for Closing and Completing Goods for IN Lines
 
 A *Goods for IN* line of a purchase order is considered closed on release of the purchase receipt or AP bill if the sum of the received quantity for all released purchase receipts prepared for this line is equal to the line quantity in all released AP bills prepared for this line, and the quantity in the AP bill lines is equal to or greater than purchase order line quantity \* \(**Complete On %**/100\). The line is also considered closed on release of the purchase receipt or AP bill if the sum of the received quantity for all released purchase receipts prepared for this line is equal to the line quantity in all released AP bills prepared for this line, and the user has selected the **Completed** check box manually.
 

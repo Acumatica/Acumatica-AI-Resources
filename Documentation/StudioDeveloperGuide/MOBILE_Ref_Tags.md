@@ -1,14 +1,13 @@
-# XML Tags {#_c329935f-2792-42c1-a3bb-2e077f4a0a80 .concept}
+# XML Tags
 
-**Note:** XML tags for customizing the Mobile Site Map is deprecated since Acumatica 2026 R1. Use [MSDL](MOBILE_Ref_MSDL.md) instead.
+**Note:** XML tags for customizing the Mobile Site Map is deprecated since Acumatica 2026 R2. Use [MSDL](MOBILE_Ref_MSDL.md) instead.
 
 The figure below shows the relationships between tag types in the mobile site map. In the figure, each line connecting a left tag type and a right tag type indicates that the left tag may contain any number of right tags. The exception to this rule is the sm:Container tag, which may include only a single sm:Attachments tag.
 
-![](Images/MobileFW_smTagsSchema01.png)
 
 The sm:Include tag can be located in any place of another tag.
 
-## In This Section { .section}
+## In This Section
 
 -   [&lt;sm:Action&gt;](MOBILE_sm_Action.md#)
 -   [&lt;sm:Attachments&gt;](MOBILE_sm_Attachments.md#)

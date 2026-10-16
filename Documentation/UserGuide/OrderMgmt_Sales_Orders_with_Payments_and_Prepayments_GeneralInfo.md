@@ -1,10 +1,10 @@
-# Sales with Payments and Prepayments: General Information {#_d2970b19-b147-4020-9e53-9256ac842e7f .concept}
+# Sales with Payments and Prepayments: General Information
 
 Companies need to keep track of the incoming funds that are paid for the sold items in order to accurately account for what has been paid and what needs to be paid. In some cases, these funds need to be paid before the items can be purchased or produced.
 
 In Acumatica ERP, the you use payment and prepayment functionality to record the amount of funds that has already been paid for each sales order.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -15,14 +15,14 @@ In this chapter, you will learn how to do the following:
 -   Create an invoice for a sales order
 -   Process the invoice
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create sales orders with payments and prepayments in the following cases:
 
 -   When you sell goods that you produce or purchase only after you have received a payment, according to company policy
 -   When you have a contract with a customer that requires a certain prepayment percent before the goods can be shipped
 
-## Sales Orders with Payments and Prepayments { .section}
+## Sales Orders with Payments and Prepayments
 
 The standard processing of a sales order with a payment or prepayment typically involves entering a sales order, entering a payment or prepayment, processing a shipment of the items, and preparing the related invoice for the customer.
 
@@ -34,11 +34,10 @@ Then you use the [Shipments](SO_30_20_00.md) \(SO302000\) form to prepare and co
 
 An AR invoice on the [Invoices and Memos](AR_30_10_00.md) form is a financial document that does not contain links to the applicable shipments and sales orders, as the sales invoice does. The AR invoice and sales invoice have the same reference number, which the system prints in the customer statement. On both the [Invoices](SO_30_30_00.md) form and the [Invoices and Memos](AR_30_10_00.md) form, you can view the link to the batch of the general ledger transactions that was generated when the invoice was released. For more information on processing AR invoices, see [Processing AR Invoices](Finance_ARInvoices_Mapref.md).
 
-## Workflow of Processing a Sales Order with a Payment or Prepayment { .section}
+## Workflow of Processing a Sales Order with a Payment or Prepayment
 
 For a sales orders with a payment or prepayment, the typical processing involves the actions and generated documents shown in the following diagram.
 
-![](Images/diag_OrderMgmt_Sales_With_Prepayments.png)
 
 **Parent topic:**[Processing Sales with Payments and Prepayments](../UserGuide/OrderMgmt_Sales_Orders_with_Payments_and_Prepayments_Mapref.md)
 

@@ -1,4 +1,4 @@
-# Specific Widgets: Wiki Page Widgets {#_4247a685-6e3f-42dc-9ea5-420d93908fdd .concept}
+# Specific Widgets: Wiki Page Widgets
 
 A wiki page widget is a dashboard view of a wiki topic, generally one that you need to refer to frequently. You can add to a dashboard any wiki topics that you consider useful. These topics can contain information—such as policy and procedure documents, plans, and task lists—shared within project teams, within or between departments, or with external users. For more information about Acumatica ERP wiki concepts, see [Wiki Overview](SM__con_Wiki_Management.md) in the Acumatica ERP System Administration Guide.
 
@@ -6,7 +6,6 @@ When adding a wiki topic to a dashboard, you need to select the wiki page and sp
 
 See the screenshot below for an example of a help article widget.
 
-![](Images/DB__con_Wiki_Page_Widget.png "Wiki page widget")
 
 By using a wiki page widget, you can open the source help article and update the widget view.
 

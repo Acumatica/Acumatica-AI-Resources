@@ -1,4 +1,4 @@
-# Step 1: Implementing the Action in the Graph {#_dd29ff26-6883-4059-80f6-4fd05af2f86e .concept}
+# Step 1: Implementing the Action in the Graph
 
 In this step, you will add the `ReleaseFromHold` action to the `RSSVWorkOrderEntry` graph.
 
@@ -7,7 +7,7 @@ To define the action in the graph, do the following:
 1.  Add the `using System.Collections;` directive to the `RSSVWorkOrderEntry.cs` file \(if it has not been added yet\). Then, add the `Actions` region.
 2.  In the `Actions` region, add the following code.
 
-    ```language-csharp
+    ```csharp
             #region Actions
             public PXAction<RSSVWorkOrder> ReleaseFromHold = null!;
             [PXButton(), PXUIField(DisplayName = "Remove Hold",

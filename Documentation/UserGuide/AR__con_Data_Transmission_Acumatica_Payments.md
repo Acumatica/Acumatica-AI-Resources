@@ -1,4 +1,4 @@
-# Level 2 Data Transmission During Card Payments {#_33d074d1-e6c7-45c4-b5a0-77a1ccda9466 .concept}
+# Level 2 Data Transmission During Card Payments
 
 All businesses accepting credit cards payments fall into a certain level of data processing. Each level is defined by the amount of information that is required or passed to complete the payment. Level 1 processing is the default one and is the basic level because the merchant does not add any extra data except the basic payment data to a transaction.
 
@@ -11,7 +11,7 @@ Acumatica ERP supports level 2 data processing and incorporates the following ad
 
 During credit card processing, this additional data is sent to the processing center if the selected payment method has *Credit Card* specified in the **Means of Payment** box on the [Processing Centers](CA_20_50_00.md) \(CA205000\) form.
 
-**Note:** Although multiple tax calculation rules are used in Acumatica ERP, there is no difference in how the system calculates the tax amount and the subtotal amount. The tax amount is always the amount from the **Tax Total** box in the Summary area of a data entry form and the subtotal amount is always the payment amount minus the tax amount. The tax amount cannot be less than 0 in the system.
+**Attention:** Although multiple tax calculation rules are used in Acumatica ERP, there is no difference in how the system calculates the tax amount and the subtotal amount. The tax amount is always the amount from the **Tax Total** box in the Summary area of a data entry form and the subtotal amount is always the payment amount minus the tax amount. The tax amount cannot be less than 0 in the system.
 
 Transmission of level 2 data is not supported for the following types of documents:
 

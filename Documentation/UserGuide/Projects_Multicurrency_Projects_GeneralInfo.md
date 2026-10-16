@@ -1,8 +1,8 @@
-# Multicurrency Projects: General Information {#_0f2b7c35-f61e-497c-99e9-70eddd47e6db .concept}
+# Multicurrency Projects: General Information
 
 In Acumatica ERP, you can track projects in the project currency, which can differ from the base currency of the company that manages the project. You can review project costs and revenues both in the project currency and in the base currency. You can also calculate project profitability in both currencies, and present costs to the customer in the customer’s currency, which you can specify as the billing currency. In addition, if the company uses multiple base currencies, you can easily manage multicurrency documents that originate from different company branches.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,7 +12,7 @@ In this chapter, you will learn how to do the following:
 -   Process project-related documents in multiple currencies
 -   Review and collect project information in different currencies
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You use projects with multiple currencies in the following cases:
 
@@ -21,7 +21,7 @@ You use projects with multiple currencies in the following cases:
 -   A project involves employees that report their expenses in different currencies.
 -   A project involves related companies with different base currencies. One of these companies re-bills the project expenses to another company.
 
-## Multiple Currencies in Projects {#section_wwf_ljj_lsb .section}
+## Multiple Currencies in Projects
 
 If the *Multicurrency Projects* and *Multicurrency Accounting* features are enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can specify different currencies to be used for a project's accounting and its billing as follows:
 
@@ -30,7 +30,7 @@ If the *Multicurrency Projects* and *Multicurrency Accounting* features are enab
 
 In addition, if the *Multiple Base Currencies* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) form, you can specify the base currency of the project in the **Base Currency** box on the **Summary** tab of the [Projects](PM_30_10_00.md) form. If a branch is selected in the **Branch** box on the **Summary** tab \(indicating that the project is related to a particular company branch\), the system verifies that the base currency of the project matches the base currency of the selected branch. You can change the base currency of the project only if no project transactions have been posted to the project yet.
 
-## Currency Rates in Projects {#section_ebq_2tj_lsb .section}
+## Currency Rates in Projects
 
 If the project currency differs from the base currency, you can track the project amounts in both the base currency and the project currency. By default, on the **Revenue Budget**, **Cost Budget**, and **Balances** tabs of the [Projects](PM_30_10_00.md) \(PM301000\) form, the system shows the project amounts in the project currency. The system uses the value in the **Budget Currency Rate** box \(in the Summary area\) to calculate project amounts in the base currency.
 
@@ -42,7 +42,7 @@ If you click the **View Base** button in the **Budget Currency Rate** box in the
 
 The rate shown in the **Rate Reciprocal** box when you enter a rate for translating Currency 1 to Currency 2 cannot be used for the conversion of amounts from Currency 2 to Currency 1. This is because **Rate Reciprocal**, which is calculated automatically, may be different from the direct rate of Currency 2 to Currency 1. If this is the case, there is no way for the system to determine which of the rates should be used for conversion.
 
-## Project Billing {#section_qkf_yjj_lsb .section}
+## Project Billing
 
 During project billing, the system creates pro forma or accounts receivable invoices in the billing currency of the project, which is specified in the **Billing Currency** box on the **Summary** tab \(**Billing and Allocation Settings** section\) of the [Projects](PM_30_10_00.md) \(PM301000\) form.
 

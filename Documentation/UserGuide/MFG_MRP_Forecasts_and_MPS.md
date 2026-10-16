@@ -1,8 +1,8 @@
-# Inventory Planning with MRP: Forecasts and Master Production Schedule {#_05cb7223-9adf-4b4f-9230-09339c960eb2 .concept}
+# Inventory Planning with MRP: Forecasts and Master Production Schedule
 
 Forecasts and the master production schedule \(MPS\) provide data for inventory planning. In this topic, you will find details about forecasts and the MPS in Acumatica ERP.
 
-## Master Production Schedule { .section}
+## Master Production Schedule
 
 A master production schedule \(MPS\) is a plan for the production of finished goods within a short-term period, such as a week or a month. The schedule specifies which items must be produced and when they should be produced.
 
@@ -10,7 +10,7 @@ A master production schedule should consider multiple factors, including forecas
 
 You can create MPS orders manually by using the [Master Production Schedule](AM_20_10_00.md) \(AM201000\) form.
 
-## Forecasts { .section}
+## Forecasts
 
 A forecast predicts future demand \(that is, sales orders expected to be placed by customers\) based on historical sales data, seasonality, or other business-specific patterns. You can adjust these forecasts for factors like promotions or anticipated demand spikes. Forecasts provide insights that you can use to determine replenishment strategies so that inventory levels are optimized to avoid stockouts or overstock.
 

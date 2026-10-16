@@ -1,4 +1,4 @@
-# Tracking Contract Usage {#_df29cebf-e045-4ab8-9bfc-d3efebf72b1f .concept}
+# Tracking Contract Usage
 
 The topics of this chapter describe the process of tracking contract usage. You begin to track contract usage to run the contact billing after contract usage has been recorded.
 

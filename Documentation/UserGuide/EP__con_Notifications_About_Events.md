@@ -1,4 +1,4 @@
-# Notifications About Events {#_c6eba991-03ee-47f9-8518-8bdc6d82d794 .concept}
+# Notifications About Events
 
 You can configure Acumatica ERP to send automatic notifications about various events in your company, such as training sessions, work meetings, conference calls, and trade shows.
 
@@ -8,7 +8,7 @@ The system uses the configuration settings that you specified for event notifica
 
 Also, you can configure the system to enable the use of reminders, so that potential attendees will be reminded about the event if the owner has set up these reminders in the settings of the individual event. For details, see the section below.
 
-## Event-Related Settings { .section}
+## Event-Related Settings
 
 By using the [Event Setup](EP_20_40_70.md) \(EP204070\) form, you can configure the system's handling of automatic notifications about event scheduling, rescheduling, and cancellation. You can configure either simple \(built-in\) notifications or template-based notifications that you tailor to your company's specifications.
 
@@ -30,13 +30,13 @@ If you select the **Add Contact Information** check box, you can cause the syste
 
 For more details about creating events, see [Emails and Activities: Events](CRM_Mktg_Managing_Emails_Activities_Events.md).
 
-## Enabling of Reminders About Events { .section}
+## Enabling of Reminders About Events
 
 While defining an event on the [Event](CR_30_60_30.md) \(CR306030\) form, the event's owner can turn on the generation of reminders about it, specifying the day and time when invited attendees will be reminded about the event \(by the **Automatic Reminder** dialog box popping up\).
 
 Regardless of the settings of individual events, these reminders will be generated only if the use of reminders has been enabled in the system. For specific instructions about how to enable the use of reminders in the system, see [To Enable Reminders](Configuring_reminders.md).
 
-## Actions That Cause the Sending of Event-Related Notification Emails { .section}
+## Actions That Cause the Sending of Event-Related Notification Emails
 
 If an event owner has added potential attendees to an event on the **Attendees** tab of the [Event](../Shared/../UserGuide/CR_30_60_30.md) \(CR306030\) form, the system sends notification emails to the email addresses of the potential attendees based on the actions of the event owner as follows:
 

@@ -1,4 +1,4 @@
-# Contract Usage: Contract Usage {#_d3b2c8e8-fd2d-45b5-baa9-fd528af5f2a3 .concept}
+# Contract Usage: Contract Usage
 
 After the activation of a contract, your company can start providing the contract items defined by the contract. The contract is billed in accordance with its billing schedule, and billing is performed for the usage that has accumulated during a billing period. If the contract is billed on demand, billing is performed for usage accumulated up to the date of the billing.
 
@@ -22,7 +22,7 @@ You can enter item usage for past, current, and future billing periods. If you h
 
 You may offer a service at a price that depends on the usage of the service, such as support hours or support cases. You can bill customers for services at the regular price and at an extra usage price, and you can provide some quantity for free \(if you have offered a discount to a customer\). You can track the usage of the services that are provided recurrently within a billing period as well as for the whole contract duration. Consider the examples in the following sections.
 
-## Annual Support with Free Options {#section_dhs_rf3_35b .section}
+## Annual Support with Free Options
 
 If you offer annual support with free options, you can use Acumatica ERP to implement the following scenarios \(see the **Settings for the Examples** table for the settings you would use to implement the scenario\):
 
@@ -39,24 +39,47 @@ If you offer annual support with free options, you can use Acumatica ERP to impl
     -   The first 10 cases for free: You might offer a contract for annual support with the first 10 cases free and additional cases billed at $100 per case. The contract is billed monthly.
     -   10 cases for free each month: You could offer a contract for annual support with 10 free cases each month and additional cases billed at $100 per case. The contract is billed monthly.
 
-## Settings for the Examples {#section_ihs_rf3_35b .section}
+## Settings for the Examples
 
 This table shows the settings you would use to implement each of the examples described above.
 
-|Entity|Annual Support with Hours for Free|Annual Support with Cases for Free|
-|------|----------------------------------|----------------------------------|
-|**Non-Stock Item** created on the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form|-   **Inventory ID**: `SUPPORTHOURS`
+<table id="table_jhs_rf3_35b"><thead><tr><th>
+
+Entity
+
+</th><th>
+
+Annual Support with Hours for Free
+
+</th><th>
+
+Annual Support with Cases for Free
+
+</th></tr></thead><tbody><tr><td>
+
+**Non-Stock Item** created on the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form
+
+</td><td>
+
+-   **Inventory ID**: `SUPPORTHOURS`
 -   **Item Status**: *Active*
 -   **Type**: *Labor*
 -   **UOMs**: *Hours*
 
-|-   **Inventory ID**: `CASENUMBER`
+</td><td>
+
+-   **Inventory ID**: `CASENUMBER`
 -   **Item Status**: *Active*
 -   **Type**: *Non-Stock Item*
 -   **UOMs**: *ITEM*
 
-|
-|Contract Item created on the [\(CT201000](CT_20_10_00.md) form|-   **Default Quantity**: *10*
+</td></tr><tr><td>
+
+Contract Item created on the [\(CT201000](CT_20_10_00.md) form
+
+</td><td>
+
+-   **Default Quantity**: *10*
 -   **Recurring Item**: *SUPPORTHOURS*
 -   **Reset Usage on Billing**:
     -   Cleared for the *The First 10 Hours For Free* scenario
@@ -66,7 +89,9 @@ This table shows the settings you would use to implement each of the examples de
 -   **Extra Usage Pricing**: *Enter Manually*
 -   **Item Price/Percent**: *100*
 
-|-   **Default Quantity**: *10*
+</td><td>
+
+-   **Default Quantity**: *10*
 -   **Recurring Item**: *CASENUMBER*
 -   **Reset Usage on Billing**:
     -   Cleared for the *The First 10 Cases for Free* scenario
@@ -76,15 +101,23 @@ This table shows the settings you would use to implement each of the examples de
 -   **Extra Usage Pricing**: *Enter Manually*
 -   **Item Price/Percent**: *100*
 
-|
-|Contract template created on the [Contract Templates](CT_20_20_00.md) \(CT202000\) form|-   **Duration**: *1 Year*
+</td></tr><tr><td>
+
+Contract template created on the [Contract Templates](CT_20_20_00.md) \(CT202000\) form
+
+</td><td>
+
+-   **Duration**: *1 Year*
 -   **Billing Period**: *Month*
 
-|-   **Duration**: *1 Year*
+</td><td>
+
+-   **Duration**: *1 Year*
 -   **Billing Period**: *Month*
 -   **Case Count Item**: *CASENUMBER*
 
-|
+</td></tr></tbody>
+</table>
 
 **Note:** The table lists only the key settings. You would fill in settings that are not mentioned in the table at your discretion.
 

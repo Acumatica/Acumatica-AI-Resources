@@ -1,16 +1,16 @@
-# AR Invoice Correction: To Create a Credit Memo {#_6018887a-76b9-4ff1-8bd4-20d95da075a8 .task}
+# AR Invoice Correction: To Create a Credit Memo
 
 The following activity will walk you through the process of creating a credit memo and applying it to an invoice.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_hwn_4jv_vxb .section}
+## Story
 
 Suppose that on January 16, 2026, the SweetLife Fruits &amp; Jams company sold five days of online training to one of its customers, GoodFood One Restaurant, in the amount of $225. An AR clerk created an invoice for five days of training for GoodFood One Restaurant. The actual number of training days turned out to be four, and now SweetLife needs to reduce the customer balance of GoodFood One Restaurant by $45.
 
 Acting as a SweetLife accountant, you have to create a credit memo and apply it to the open invoice to reduce the customer balance by $45.
 
-## Configuration Overview {#section_kwn_4jv_vxb .section}
+## Configuration Overview
 
 For the purposes of this activity, the following features have been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form:
 
@@ -22,11 +22,11 @@ On the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, the 
 
 On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *GOODFOOD \(GoodFood One Restaurant\)* customer has been configured.
 
-## Process Overview {#section_own_4jv_vxb .section}
+## Process Overview
 
 You will create and release a credit memo on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form and apply it to an open invoice on the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form.
 
-## System Preparation {#section_qwn_4jv_vxb .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -36,7 +36,7 @@ To prepare the system, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026*. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Creating and Releasing a Credit Memo {#section_swn_4jv_vxb .section}
+## Step 1: Creating and Releasing a Credit Memo
 
 To create and release a credit memo, do the following:
 
@@ -57,7 +57,7 @@ To create and release a credit memo, do the following:
 4.  Click **Remove Hold** on the form toolbar.
 5.  Click **Release** on the form toolbar to release the credit memo.
 
-## Step 2: Applying the Credit Memo to the Invoice {#section_vwn_4jv_vxb .section}
+## Step 2: Applying the Credit Memo to the Invoice
 
 To apply the credit memo to the invoice, do the following:
 
@@ -71,7 +71,6 @@ To apply the credit memo to the invoice, do the following:
 5.  On the form toolbar, click **Release** to release the credit memo's application to the invoice.
 6.  On the **Application History** tab, make sure that a row containing the invoice has appeared, as shown in the following screenshot.
 
-![](Images/activity_Finance_Creating_Credit_Memo.png "The released credit memo applied to the invoice")
 
 **Parent topic:**[Correcting AR Invoices](../UserGuide/Finance_CorrectingARInvoices_Mapref.md)
 

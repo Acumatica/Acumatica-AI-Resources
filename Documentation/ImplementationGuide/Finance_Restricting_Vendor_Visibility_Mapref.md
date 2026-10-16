@@ -1,4 +1,4 @@
-# Visibility of Vendor Records {#_ca7580a0-776a-4931-b98e-92b4d6998bae .concept}
+# Visibility of Vendor Records
 
 This chapter describes how to control the visibility of vendor records for a particular company or a company branch.
 

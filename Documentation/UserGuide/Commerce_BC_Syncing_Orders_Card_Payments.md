@@ -1,8 +1,8 @@
-# Order Synchronization: Card Payments {#_c2977167-6fb9-4249-a134-7d2446b17014 .concept}
+# Order Synchronization: Card Payments
 
 In Acumatica ERP Retail Edition, users can import and, if necessary, process debit and credit card payments from external ecommerce systems through integration with payment gateways. The ability to use card-processing features, such as authorization, capture, voiding, and refunding card transactions, is available if the *Integrated Card Processing* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. This topic explains how to configure a payment provider for processing of payments made in the BigCommerce store after they are imported to Acumatica ERP.
 
-## Mapping of Card-Based Payment Methods { .section}
+## Mapping of Card-Based Payment Methods
 
 During the configuration of a connection to the BigCommerce store, one of the steps you perform is the mapping of payment methods configured in Acumatica ERP with payment methods configured in the BigCommerce store. You define payment method mapping in the table on the **Payments** tab of the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form.
 
@@ -15,7 +15,7 @@ For the Authorize.Net store payment method, you specify the following:
 -   **Release Payments and Refunds**: A check box that you select to indicate that the payment should be immediately released after it is imported to Acumatica ERP. If this check box is selected for a card-based payment method associated with a credit card processing center in Acumatica ERP \(that is, for the payment method for which a processing center is selected in the **Proc. Center ID** column\), only payments that have been captured in the store will be automatically released on import. Payments that have been authorized but not captured in the store need to be processed after import and then released manually or by using the [Release AR Documents](AR_50_10_00.md) \(AR501000\) form.
 -   **Process Refunds**: A check box that indicates \(if selected\) that refunds made to the payment method should be imported to Acumatica ERP. This check box is selected and unavailable for card payment methods for which a processing center is specified, which indicates that all refunds made to such payment methods must be imported to Acumatica ERP.
 
-## Configuring the Acumatica Payments Payment Method { .section}
+## Configuring the Acumatica Payments Payment Method
 
 Acumatica Payments is a payment provider available to BigCommerce customers as an app. Before payments based on Acumatica Payments can be imported from the BigCommerce store to Acumatica ERP, you need to configure payment processing via Acumatica Payments as follows:
 
@@ -42,7 +42,9 @@ Using Acumatica Payments has the following limitations:
 -   The Acumatica Payments app supports only one currency per connected store.
 -   ACH transactions can be imported only as cash or check transactions. The connector imports only the transaction data that BigCommerce provides through its standard order transaction APIs. As a result, ACH Void and ACH Refund transactions are not synchronized unless the order contains a corresponding offline transaction in BigCommerce.
 
-## Mapping of the Authorize.Net Payment Method { .section}
+During the import, the connector identifies payments processed with Acumatica Payments by the source ID. This ID can be overridden by using the `AcumaticaPaymentExternalSourceID` setting in the `web.config` file.
+
+## Mapping of the Authorize.Net Payment Method
 
 Because the support of the Authorize.Net plug-in has been deprecated in Acumatica ERP, you can no longer create new transactions with Authorize.Net. If you continue using Authorize.Net in the BigCommerce store, you can import the payments processed with this payment method only as non-card payments. You need to specify the following settings for the Authorize.Net store payment method on the **Payments** tab of the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form:
 
@@ -61,7 +63,7 @@ With these settings, credit card payments processed with Authorize.Net in the Bi
 
 Refunds created for these payments will be imported as non-card refunds. For more details on processing non-card refunds for BigCommerce, see [Importing Non-Card Refunds](Commerce_BC_Importing_nonCC_Refunds_Mapref.md).
 
-## Import of Payments Based on Credit Cards { .section}
+## Import of Payments Based on Credit Cards
 
 A customer who has signed in to the BigCommerce store can save credit card details during checkout. When this customer selects a payment method, enters the details of a new card, selects the **Save this card for future transactions** check box, and then places an order, the details of the credit card are saved in the processing center configured in the BigCommerce store.
 
@@ -86,9 +88,8 @@ In the **Tran. Type** box, the transaction operation can have one of the followi
 
 The following diagram illustrates the workflow of importing a sales order to Acumatica ERP from a BigCommerce store where it was placed and paid by a card based on a payment method for which integrated card processing has been configured in Acumatica ERP.
 
-![](Images/diag_Commerce_BC_Importing_Order_Card_Payment.png)
 
-## Deferred Processing of Imported Credit Card Payments { .section}
+## Deferred Processing of Imported Credit Card Payments
 
 Credit card transactions created in Acumatica ERP during the import of payments based on credit card payment methods require validation in the following cases:
 

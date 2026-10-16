@@ -1,8 +1,8 @@
-# Order Synchronization: Import of Payments {#_d61180f5-1fed-4c34-82e9-38c7095ad502 .concept}
+# Order Synchronization: Import of Payments
 
 To track financial information, you can import payments along with seller-fulfilled and marketplace-fulfilled orders from Amazon to Acumatica ERP.
 
-## Setting Up the Import of Payments { .section}
+## Setting Up the Import of Payments
 
 To set up the synchronization of payments, you perform the following general steps on the [Amazon Stores](BC_20_10_20.md) \(BC201020\) form:
 
@@ -27,7 +27,7 @@ To set up the synchronization of payments, you perform the following general ste
     -   The **Deduct from Payment** check box is selected for the entry type.
     -   For the cash account specified in the mapping for the Amazon payment method in the upper table, the entry type has been added on the [Cash Accounts](CA_20_20_00.md) \(CA202000\) form.
 
-## Synchronizing Payments { .section}
+## Synchronizing Payments
 
 Payments are imported into Acumatica ERP during the synchronization of the *Payment* entity.
 

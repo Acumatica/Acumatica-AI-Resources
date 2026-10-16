@@ -1,13 +1,13 @@
-# To Configure Single-Installment Credit Terms {#_cfc4d12a-32e3-41aa-aa06-658d9d1123c7 .task}
+# To Configure Single-Installment Credit Terms
 
 You use the [Credit Terms](CS_20_65_00.md) \(CS206500\) form to define each set of credit terms, including due dates and conditions for cash discounts when an outstanding balance is paid early. For a set of credit terms, you can specify the payment as a single installment \(described in this topic\) or as multiple installments \(described in [To Configure Multiple-Installment Credit Terms](AR__HOW_Create_Credit_Terms_Multiply_Inst.md)\).
 
-## To Configure Credit Terms for a Single Installment {#section_fgd_hjv_vxb .section}
+## To Configure Credit Terms for a Single Installment
 
 1.  Open the [Credit Terms](CS_20_65_00.md) \(CS206500\) form.
 2.  In the **General Settings** section, in the **Terms ID** box, type the identifier of the credit terms. The ID may contain up to ten characters.
 
-    CAUTION:
+    **CAUTION:**
 
     We do not recommend using any special symbols in the identifiers of entities.
 

@@ -1,4 +1,4 @@
-# Project Mailings {#_0916c23d-821f-48b8-8643-4e105203b103 .concept}
+# Project Mailings
 
 The topics of this chapter describe how you can configure different formats of mailings for printable project quotes, pro forma invoices, and accounts receivable invoices prepared for individual projects.
 

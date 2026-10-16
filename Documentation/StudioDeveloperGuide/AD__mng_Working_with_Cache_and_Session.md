@@ -1,4 +1,4 @@
-# Working with Data in Cache and Session {#_3ae29586-f0b3-4d86-a0c2-86ed55c4ce54 .concept}
+# Working with Data in Cache and Session
 
 In this chapter, you can learn how to store graph data in the session and use slots to cache data objects.
 

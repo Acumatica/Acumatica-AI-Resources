@@ -1,4 +1,4 @@
-# Acumatica ERP Installation in a Data Center: To Create a Database Instance on Amazon RDS {#_99819981-d763-43ee-a38c-e2447c2954e8 .task}
+# Acumatica ERP Installation in a Data Center: To Create a Database Instance on Amazon RDS
 
 The following activity will walk you through the process of creating a database instance on Amazon Relational Database Service \(Amazon RDS\).
 
@@ -7,19 +7,19 @@ The following activity will walk you through the process of creating a database 
 -   The vendor of the third-party software may change the user interface and settings. Therefore, the form elements and setting names that you see may differ from the ones described in the activity.
 -   The activity will be updated to describe changes in the user interface and settings.
 
-## Story { .section}
+## Story
 
 Suppose that you are the system administrator, and you need to create a database instance on Amazon RDS.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create an Amazon RDS database instance.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin creating an Amazon RDS database instance, make sure that you have performed the following prerequisite activity: [Acumatica ERP Installation in a Data Center: To Launch an Amazon EC2 Instance](INST_Installing_Launch_Amazon_Instance_Activity.md).
 
-## Step: Creating a Database Instance on Amazon RDS { .section}
+## Step: Creating a Database Instance on Amazon RDS
 
 To create an Amazon RDS database instance, do the following:
 

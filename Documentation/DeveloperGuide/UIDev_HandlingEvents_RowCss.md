@@ -1,8 +1,7 @@
-# UI Events: Changing of the CSS for a Row of a Table {#_cf2a8dce-5600-4abb-add6-29e81e0e4115 .concept}
+# UI Events: Changing of the CSS for a Row of a Table
 
 You can implement an event handler for the GetRowCss event to change the CSS for any row of a table, such as the bold rows shown in the following screenshot.
 
-![](Images/UIDev_HandlingEvents_RowCss.png "Bold rows in the table")
 
 In the `PO302020` screen class in the following example, the `Received` view property is defined for the `ReceiptSplitsForReceive` view class. In this screen class, the `getReceivedRowCss` method has the handleEvent decorator, which indicates that the method handles the GetRowCss event for the `Received` view instance. The handler method returns the name of the CSS class to be applied to the row of the `ReceiptSplitsForReceive` type.
 

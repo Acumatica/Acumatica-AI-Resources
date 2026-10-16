@@ -1,4 +1,4 @@
-# Picking and Packing Operations: Process Activity \(Mobile\) {#_993b612d-7030-4c5b-95a7-0d5487a00e27 .task}
+# Picking and Packing Operations: Process Activity \(Mobile\)
 
 In the following activity, you will learn how to perform the picking and packing of items for a shipment by using the Pick, Pack, and Ship screen of the Acumatica mobile app, which corresponds to the [Pick, Pack, and Ship](SO_30_20_20.md) \(SO302020\) form of Acumatica ERP.
 
@@ -6,11 +6,11 @@ In this activity, we use the Acumatica mobile app for Android devices. The appea
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a warehouse worker of the wholesale warehouse of the SweetLife Fruits &amp; Jams company. Your warehouse manager gives you a task to prepare a shipment with the help of the Acumatica mobile app. In your organization, the pick and pack workflow is used, which means that you go through the warehouse locations and pick the items listed in the shipment pick list. Then you go to the packing line and pack the picked items into boxes.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -24,13 +24,13 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, a sales order for the *COFFEESHOP* customer has been created.
 -   On the [Shipments](SO_30_20_00.md) \(SO302000\) form, a shipment has been prepared for this sales order.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, in the Acumatica mobile app, you will open the Pick, Pack, and Ship screen \(which corresponds to the [Pick, Pack, and Ship](SO_30_20_20.md) \(SO302020\) form in Acumatica ERP\), switch to Pick mode and scan the number of the shipment from the pick list. Then you will pick the items and scan their barcodes and quantities. After you finish picking items, you will switch to Pack mode on the same screen and scan the barcode of the box to which you pack the items. Then you will scan the item barcode and quantity of the items being packed into the box. After you finish packing the items, you will confirm the shipment.
 
 **Tip:** In any working mode, you enter a command or barcode by typing it in the Scan box and tapping Enter. In production systems, you will scan the appropriate barcodes rather than manually entering them.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start performing the automated picking and packing operations, do the following:
 
@@ -42,7 +42,7 @@ Before you start performing the automated picking and packing operations, do the
 
 **Attention:** The instructions in the activity steps below may slightly differ in the Acumatica mobile app depending on whether the device is running iOS or Android.
 
-## Step 1: Picking Items for Shipping { .section}
+## Step 1: Picking Items for Shipping
 
 To pick items for shipping, do the following in the Acumatica mobile app on your mobile device:
 
@@ -70,7 +70,7 @@ To pick items for shipping, do the following in the Acumatica mobile app on your
 
 You have picked the items for the shipment, and now you can proceed with packing the items.
 
-## Step 2: Packing Items for Shipping { .section}
+## Step 2: Packing Items for Shipping
 
 To pack items, do the following in the Acumatica mobile app:
 

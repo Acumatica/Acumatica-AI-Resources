@@ -1,8 +1,8 @@
-# Use of the GroupCaption, StartGroup, and EndGroup Properties of PXLayoutRule {#_1341b9b1-1868-4544-9737-6c521506965f .concept}
+# Use of the GroupCaption, StartGroup, and EndGroup Properties of PXLayoutRule
 
 You can organize controls in a container within groups to make users' work more logical.
 
-## Grouping of Controls { .section}
+## Grouping of Controls
 
 To group multiple controls within a column, generally you have to add two PXLayoutRule components that have the following properties set to define the first and the last controls in the group, respectively:
 
@@ -15,9 +15,8 @@ For example, by specifying the GroupCaption property value for the corresponding
 
 You end a group by using a PXLayoutRule component with a GroupCaption, StartGroup, or EndGroup property specified. Therefore, if there is another group that starts immediately below a group, you can omit the layout rule that ends the upper group, as shown in the third column of the row displayed in the example in following diagram.
 
-![](Images/CG_GL_UI_LayoutRules_Properties_Group.png "Possible use of layout rules with grouping properties")
 
-## Dependencies { .section}
+## Dependencies
 
 The system works as follows for all PXLayoutRule components with the GroupCaption or StartGroup property value specified:
 

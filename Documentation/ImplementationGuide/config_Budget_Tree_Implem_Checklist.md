@@ -1,14 +1,14 @@
-# Budget Tree: Configuration Prerequisites {#_c341a7ef-0b1a-4f86-be47-9e8cb01f18df .concept}
+# Budget Tree: Configuration Prerequisites
 
 Before you start to configure a budget tree, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md#) \(CS100000\) form, the minimum set of features has to be enabled.
 
 Also, if subaccounts are used in your system, make sure the *Subaccounts* feature has been enabled.
 
-## Configuring the System { .section}
+## Configuring the System
 
 You need to make sure that the following implementation tasks have been performed in Acumatica ERP before you begin configuring a budget tree:
 

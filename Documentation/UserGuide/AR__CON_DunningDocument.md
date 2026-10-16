@@ -1,4 +1,4 @@
-# Preparation of Dunning Letters: Dunning Process by Document {#_c7b66536-eb6a-4316-b96c-56f72212bd65 .concept}
+# Preparation of Dunning Letters: Dunning Process by Document
 
 You select the *By Document* option in the **Dunning Process** box on the **Dunning** tab of the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form to specify that when the system prepares dunning letters, it groups overdue documents by customer account and by document dunning level.
 
@@ -20,7 +20,7 @@ You can use the following forms to view the history of dunning letters that have
 
 In this topic, you will read about the letter generation rules, the dunning process workflow, and the way the system changes the status of a dunning letter.
 
-## Dunning Letter Generation Rules {#section_dd2_hjv_vxb .section}
+## Dunning Letter Generation Rules
 
 When you group overdue documents by customer account and document dunning level, the generation of the letters is based on the following rules:
 
@@ -34,7 +34,7 @@ When you group overdue documents by customer account and document dunning level,
 
 If you want to notify customers receiving dunning letters about all open documents—unpaid \(the due date is still in the future\), due \(the due date has passed\), and overdue \(the number of days past due has exceeded the number of days past due specified for the level\)—you select the **Add Coming-Due Documents** check box on the **Dunning** tab of the [Accounts Receivable Preferences](AR_10_10_00.md) form. \(Unpaid and due documents are marked with a level of zero.\) With this check box selected, the system includes open documents as follows: If you prepare a dunning letter for a document associated with the first level, the system includes overdue, unpaid, and due documents. When you prepare the next dunning letter for this document, the system includes overdue and unpaid documents but no due ones.
 
-## Dunning Letter Statuses {#section_hd2_hjv_vxb .section}
+## Dunning Letter Statuses
 
 During the processing of a dunning letter, the system changes its status as follows:
 
@@ -42,7 +42,7 @@ During the processing of a dunning letter, the system changes its status as foll
 -   *Released*: The dunning letter has been released and can be printed, sent by email, or voided. If a nonzero dunning fee was specified for the level of this letter \(on the **Dunning** tab of the [Accounts Receivable Preferences](AR_10_10_00.md) form\), the invoice for the dunning fee was also created during the release of the dunning letter. If the **Automatically Release Dunning Fee Documents** check box \(on the **Dunning** tab of the [Accounts Receivable Preferences](AR_10_10_00.md) form\) is selected, the system automatically releases the invoice when the corresponding dunning letter is released.
 -   *Voided*: The dunning letter has been voided, the system has decreased the dunning level for each document that was included in this letter, and these documents are available for preparing a new letter with the *Draft* status.
 
-## Documents Included in Dunning Letters {#section_jd2_hjv_vxb .section}
+## Documents Included in Dunning Letters
 
 You can include the following documents in dunning letters, in addition to overdue and open invoices and debit memos:
 
@@ -73,7 +73,7 @@ The amounts of the following documents that decrease the customer's balance are 
 -   Payments
 -   Prepayments
 
-## Letter Preparation {#dl_prepare .section}
+## Letter Preparation
 
 You use the [Prepare Dunning Letters](AR_52_10_00.md) \(AR521000\) form to prepare dunning letters. The table lists the overdue documents grouped by customer and by document dunning level. For instance, if a customer account has two overdue documents with different levels, the system will display two rows in the table. If a customer account has two documents with the same level, the system will group the documents into one row.
 
@@ -83,7 +83,7 @@ After you have selected the documents that you want to process \(by selecting th
 
 **Attention:** You can schedule the preparation of dunning letters to be performed automatically by using the automation schedule functionality. For details on configuring schedules, see [Scheduling Automated Processing](SA_Scheduling_Automated_Processing_Mapref.md).
 
-## Letter Editing and Releasing {#dl_release .section}
+## Letter Editing and Releasing
 
 If the **Automatically Release Dunning Letters** check box is cleared on the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, each generated letter has the *Draft* status, and you can adjust the list of documents included for each letter or delete the draft of the letter itself. The [Print/Release Dunning Letters](AR_52_20_00.md) \(AR522000\) form displays the list of prepared dunning letters. You can highlight the row in the table with the letter you want to edit and click **View Dunning Letter**on the table toolbar. The system navigates to the [Dunning Letter](AR_30_60_00.md) \(AR306000\) form, where you can view and adjust the list of documents.
 
@@ -99,7 +99,7 @@ On the [Print/Release Dunning Letters](AR_52_20_00.md) form, you can release gro
 
 When a dunning letter is released manually or automatically, the system updates the information in the **Dunning Letter Info** section on the **Financial** tab of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. For each document involved, the system updates the date of the last released dunning letter that included the document, and increases the document dunning level by one.
 
-## Selection of Documents and Modification of Dunning Fees in Dunning Letters {#section_vd2_hjv_vxb .section}
+## Selection of Documents and Modification of Dunning Fees in Dunning Letters
 
 You can review the documents included in dunning letters and dunning fees before you release a dunning letter. Specific documents can be excluded from the dunning letter, and the dunning fee amount can be modified. When the dunning letter is released, the system creates a dunning fee invoice based on the dunning fee specified in the dunning letter.
 
@@ -120,7 +120,7 @@ You can remove documents from the dunning letter, modify dunning fees, or perfor
     For each released dunning letter, the system creates a dunning fee invoice with the dunning fee that you specified. \(You can open the dunning fee invoice by clicking the link in the **Fee Reference Nbr.** box on the [Dunning Letter](AR_30_60_00.md) form.\)
 
 
-## Letter Previewing and Sending {#dl_printing .section}
+## Letter Previewing and Sending
 
 You use the [Print/Release Dunning Letters](AR_52_20_00.md) form to print released dunning letters or initiate the emailing of them. On this form, you can print dunning letters to be sent through postal mail, or generate emails that you can preview before sending them on the [Emails Pending Processing](SM_50_70_00.md) \(SM507000\) form.
 

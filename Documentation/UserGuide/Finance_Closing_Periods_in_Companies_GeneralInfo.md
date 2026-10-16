@@ -1,12 +1,12 @@
-# Closing a Financial Period in a Company: General Information {#_8b7c94e4-c170-4805-ac90-5e0329ec0843 .concept}
+# Closing a Financial Period in a Company: General Information
 
 After all the needed transactions have been posted to a financial period and all figures have been verified, you can close the financial period in the system to prevent users from posting new transactions to the period. Financial periods can be closed starting from the first period of the first financial year; that is, you cannot close a financial period if the previous one has not been closed yet. You can close multiple periods at once \(for instance, all periods of a year\). Once closed, a period can later be reopened; also, you can allow users to enter documents and post transactions to the closed period.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to close periods for an individual company in all subledgers and the general ledger at the same time when the *Centralized Period Management* feature is disabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Financial Period Management { .section}
+## Financial Period Management
 
 You can manage financial periods at a company level and at the tenant level, depending on whether the *Centralized Period Management* feature is enabled or disabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
@@ -18,7 +18,7 @@ To use different calendars in different companies, the *Multiple Calendars Suppo
 
 If the *Multiple Calendars Support* feature is disabled, the system generates company calendars automatically when the master calendar is generated \(for the companies that already exist\) or when a new company is created. If the *Multiple Calendars Support* feature is enabled, users generate calendars for each company. The system generates the corresponding years in the master calendar in the background.
 
-## Closing a Period in the General Ledger {#_82835322-d7a0-464d-b09f-adedf7354980 .section}
+## Closing a Period in the General Ledger
 
 A period is assigned the *Closed* status only after it has been closed in the general ledger on the [Manage Financial Periods](GL_50_30_00.md) \(GL503000\) form.
 

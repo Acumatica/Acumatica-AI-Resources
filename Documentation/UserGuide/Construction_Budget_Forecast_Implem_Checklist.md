@@ -1,8 +1,8 @@
-# Budget Forecasts: Implementation Checklist {#_de865486-6821-4276-b75f-402e2a93011c .concept}
+# Budget Forecasts: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for working with budget forecasts, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 Before you begin creating project budget forecast, you should make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklists.
 

@@ -1,8 +1,8 @@
-# To Turn On Snapshot Isolation Mode for a Database {#_e7939cc8-f569-4c26-8780-4e1afa89e255 .task}
+# To Turn On Snapshot Isolation Mode for a Database
 
 In order for an Acumatica ERP instance that uses a SQL Server database to work properly, snapshot isolation must be turned on for the instance database. In this topic, you can find information about how to use SQL Server Management Studio to check if snapshot isolation mode is turned on and how to turn on this mode for your database.
 
-## To Check If Snapshot Isolation Mode Is Turned On { .section}
+## To Check If Snapshot Isolation Mode Is Turned On
 
 -   Run the following query in SQL Server Management Studio:
 
@@ -16,7 +16,7 @@ In order for an Acumatica ERP instance that uses a SQL Server database to work p
 
 If the `is_read_committed_snapshot_on` parameter is set to 1, snapshot isolation mode is turned on. If not, you have to turn on snapshot isolation mode.
 
-## To Turn On Snapshot Isolation Mode for a Database { .section}
+## To Turn On Snapshot Isolation Mode for a Database
 
 1.  In SQL Server Management Studio, right-click the database and click **Properties** to open the **Database Properties** dialog box.
 2.  Select the **Options** page.

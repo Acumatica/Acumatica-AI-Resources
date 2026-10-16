@@ -1,10 +1,10 @@
-# Vendor Catalogs {#_eb237ab6-0cc6-452d-85b4-df4e53ef57e4 .concept}
+# Vendor Catalogs
 
 In Acumatica ERP, you can populate and maintain a vendor catalog for each vendor. A vendor catalog is a list of the inventory items you purchase from the vendor, along with the last prices of the items and the purchasing settings of the items, which are generally used for automated replenishment.
 
 By populating and maintaining vendor catalogs, you give users the ability to efficiently select the vendors that sell specific items. For any item in the vendor catalog, you can also specify vendor-specific alternate IDs, so that users can enter them in purchase orders.
 
-## Manual Population of Vendor Catalogs { .section}
+## Manual Population of Vendor Catalogs
 
 You use the [Vendor Inventory](PO_20_10_00.md) \(PO201000\) form to maintain and populate vendor catalogs. On this form, you can select a vendor and populate the table with the items your company can purchase from this vendor.
 
@@ -22,7 +22,7 @@ For each item, you can specify \(and update after initial entry\) the following 
 
 **Note:** You cannot enter the prices in the **Last Vendor Price** column. The column is populated by the system and updated automatically with the prices that were last used for the items. For details on setting up automatic price updating, see the *Updating of Last Vendor Prices* section.
 
-## System Population of Vendor Catalogs {#section_gtg_wqh_1tb .section}
+## System Population of Vendor Catalogs
 
 As mentioned, you can manually add a vendor's items to the vendor catalog on the [Vendor Inventory](PO_20_10_00.md) \(PO201000\) form and edit item settings. The system also populates and updates the vendor's catalog based on events and settings in the system.
 
@@ -30,7 +30,7 @@ The vendors from which an item can be or has been purchased are listed on the **
 
 If an item not already in the catalog is purchased from a vendor, the system can add the item to the vendor catalog, depending on the option selected in the **Vendor Price Update** box on the **Price/Discount Settings** tab of the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form. If *On PO Entry* or *On AP Bill Release* is selected, the item is added to the vendor catalog either when the purchase order is created or when the corresponding AP bill is released, respectively. If *None* is selected in the **Vendor Price Update** box, the purchased item is not added to the vendor catalog at all. In this case, you can add the item to the vendor catalog only manually.
 
-## Updating of Last Vendor Prices { .section}
+## Updating of Last Vendor Prices
 
 You can update vendor catalogs manually at any time by adding items and updating any changed settings on the [Vendor Inventory](PO_20_10_00.md) \(PO201000\) form. However, the last used prices in the catalogs cannot be entered manually; the system updates these prices automatically from prices used in vendor documents.
 
@@ -45,7 +45,7 @@ When the event specified by the respective **Vendor Price Update** option \(purc
 
 If you do not want to maintain information about the last used prices in the vendor catalogs, select *None* as the **Vendor Price Update** option. With this setting, the last used prices will not be updated automatically.
 
-## Use of the Prices from Vendor Catalogs { .section}
+## Use of the Prices from Vendor Catalogs
 
 If you regularly receive vendors' price lists for all or most of their items, you can use the [Vendor Prices](AP_20_20_00.md) \(AP202000\) and [Vendor Price Worksheets](AP_20_20_10.md) \(AP202010\) forms instead of the vendor catalog. These forms provide greater flexibility in price maintenance because you can import price lists and calculate the updated prices by applying specific percentages.
 

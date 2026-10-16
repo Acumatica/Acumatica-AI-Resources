@@ -1,4 +1,4 @@
-# To Update an Integration Scenario in a Project {#_91594c05-c670-455d-af32-18dc45ba3a7c .concept}
+# To Update an Integration Scenario in a Project
 
 If you have used the [Import Scenarios](../UserGuide/SM_20_60_25.md) \(SM206025\) form to change an integration scenario included in a customization project, you have to update the appropriate item in the project. To do this, perform the following actions:
 

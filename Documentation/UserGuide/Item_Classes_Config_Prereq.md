@@ -1,12 +1,12 @@
-# Item Classes for Stock Items: Configuration Prerequisites {#_ba4f1c06-96b5-4817-84fa-442c9259206d .concept}
+# Item Classes for Stock Items: Configuration Prerequisites
 
 Before starting to create item classes, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Inventory* feature must be enabled. The basic functionality of this feature provides one default warehouse and the ability to use stock items in the system.
 
-## Configuring the System { .section}
+## Configuring the System
 
 You need to make sure the following inventory-related tasks have been performed in Acumatica ERP before you begin creating item classes for stock items:
 

@@ -1,14 +1,14 @@
-# CA DACs: Transactional Data {#_31e02076-cb63-4fcd-9dff-f0e593325a2e .concept}
+# CA DACs: Transactional Data
 
 In this topic, you can find an overview of data access classes \(DACs\) that store transactional data, such as the data of the cash management documents.
 
-## CATran { .section}
+## CATran
 
 The [CATran](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CATran) DAC stores all cash accounting transactions. It can contain cash transactions originated from cash management and other functional areas, such as accounts payable and accounts receivable.
 
 Almost all CA forms use the CATran DAC for creating, processing, or viewing records.
 
-## Transactions { .section}
+## Transactions
 
 On the [Cash Transactions](../UserGuide/CA_30_40_00.md) \(CA304000\) form, you can directly enter cash transactions and view or edit the details of existing ones. This form works with the DACs listed in the following table.
 
@@ -38,7 +38,7 @@ WHERE
     AND CAAdj.AdjRefNbr=@RefNbr
 ```
 
-## Bank Transactions { .section}
+## Bank Transactions
 
 With Acumatica ERP, you can import transactions in various formats into the system and process these transactions further to ease the reconciliation process.
 
@@ -53,27 +53,64 @@ For details about bank transactions, see [Managing Bank Statements](../UserGuide
 
 The following table lists the DACs related to bank transactions.
 
-|DAC|Description|
-|---|-----------|
-|[CABankTranHeader](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CABankTranHeader)|Stores the headers of bank statements by account. The records of this type are defined on the [Import Bank Transactions](../UserGuide/CA_30_65_00.md) \(CA306500\) form.|
-|[CABankTran](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CABankTran)|Сontains transactions imported from the bank statement. The following forms are related to this DAC: [Process Bank Transactions](../UserGuide/CA_30_60_00.md) \(CA306000\), [Import Bank Transactions](../UserGuide/CA_30_65_00.md), and [Bank Transactions History](../UserGuide/CA_40_20_00.md) \(CA402000\).|
-|[CABankTranAdjustment](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CABankTranAdjustment)|Represents the adjustments to accounts payable or accounts receivable documents and provides links between adjusted documents and bank transactions. The CABankTranAdjustment DAC contains the records for the bank transactions for which new AR or AP documents are added on the **Create Payment** tab of the [Process Bank Transactions](../UserGuide/CA_30_60_00.md) form when the transactions are processed. However, these records exist only during the creation of documents. When processing is finished, all related CABankTranAdjustment records are removed.
+<table id="_7178bb0e-d576-417a-b8be-6eebf0926dbd"><thead><tr><th>
+
+DAC
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+[CABankTranHeader](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CABankTranHeader)
+
+</td><td>
+
+Stores the headers of bank statements by account. The records of this type are defined on the [Import Bank Transactions](../UserGuide/CA_30_65_00.md) \(CA306500\) form.
+
+</td></tr><tr><td>
+
+[CABankTran](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CABankTran)
+
+</td><td>
+
+Сontains transactions imported from the bank statement. The following forms are related to this DAC: [Process Bank Transactions](../UserGuide/CA_30_60_00.md) \(CA306000\), [Import Bank Transactions](../UserGuide/CA_30_65_00.md), and [Bank Transactions History](../UserGuide/CA_40_20_00.md) \(CA402000\).
+
+</td></tr><tr><td>
+
+[CABankTranAdjustment](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CABankTranAdjustment)
+
+</td><td>
+
+Represents the adjustments to accounts payable or accounts receivable documents and provides links between adjusted documents and bank transactions. The CABankTranAdjustment DAC contains the records for the bank transactions for which new AR or AP documents are added on the **Create Payment** tab of the [Process Bank Transactions](../UserGuide/CA_30_60_00.md) form when the transactions are processed. However, these records exist only during the creation of documents. When processing is finished, all related CABankTranAdjustment records are removed.
 
 The values of the fields of the CABankTranAdjustment record are copied to the corresponding fields of the created [ARAdjust](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARAdjust) or [APAdjust](https://help.acumatica.com/dacBrowser/PX.Objects.AP/APAdjust) record.
 
-|
-|[CABankTranDetail](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CABankTranDetail)|Represents a CA transaction detail for the bank transaction for which a CA document will be created.
+</td></tr><tr><td>
+
+[CABankTranDetail](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CABankTranDetail)
+
+</td><td>
+
+Represents a CA transaction detail for the bank transaction for which a CA document will be created.
 
  The values from CABankTranDetail are copied to [CASplit](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CASplit), which is created during the bank transaction processing.
 
-|
-|[CABankTranMatch](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CABankTranMatch)|Represents a match between [CABankTran](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CABankTran) and [CATran](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CATran), [CABatch](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CABatch), [ARInvoice](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARInvoice), or [APInvoice](https://help.acumatica.com/dacBrowser/PX.Objects.AP/APInvoice).
+</td></tr><tr><td>
+
+[CABankTranMatch](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CABankTranMatch)
+
+</td><td>
+
+Represents a match between [CABankTran](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CABankTran) and [CATran](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CATran), [CABatch](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CABatch), [ARInvoice](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARInvoice), or [APInvoice](https://help.acumatica.com/dacBrowser/PX.Objects.AP/APInvoice).
 
  For a bank transaction, the CABankTranMatch DAC contains only one record.
 
  The following forms are related to this DAC: [Process Bank Transactions](../UserGuide/CA_30_60_00.md) and [Bank Transactions History](../UserGuide/CA_40_20_00.md).
 
-|
+</td></tr></tbody>
+</table>
 
 The following SQL query selects all bank transactions related to a particular CABankTranHeader record. \(In this example, `@CompanyID`, `@RefNbr`, and `@CashAccountID` are the values that are passed as parameters to the request.\)
 
@@ -145,11 +182,11 @@ WHERE
     AND CABankTranMatch.TranID=@BankTranID
 ```
 
-## Batch Payments { .section}
+## Batch Payments
 
 The [CABatch](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CABatch) DAC stores the header of the payment batches. These batches are used for the auto-payment procedure. The [CABatchDetail](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CABatchDetail) entity links CABatch and APPayment records.
 
-The CABatch and CABatchDetail records are defined on the [Batch Payments](../UserGuide/AP_30_50_00.md) \(AP305000\) form. For details about batches, see [Processing ACH Payments](../UserGuide/AP__con_ACH_Payment_Support.md).
+The CABatch and CABatchDetail records are defined on the [Batch Payments](../UserGuide/AP_30_50_00.md) \(AP305000\) form. For details about batches, see [ACH Payments](../UserGuide/AP__con_ACH_Payment_Support.md).
 
 The following SQL query selects a batch with details. \(In this example, `@CompanyID` and `@BatchNbr` are the values that are passed as parameters to the request.\)
 
@@ -187,9 +224,9 @@ WHERE
     AND APPayment.ExtRefNbr=@ExtRefNbr
 ```
 
-## Deposits { .section}
+## Deposits
 
-A user can edit bank deposits on the [Bank Deposits](../UserGuide/CA_30_50_00.md) \(CA305000\) form. This form works with the DACs listed in the following table. For details about deposit transactions, see [Preparation of Deposits](../UserGuide/CA__CON_Preparation_of_Deposits.md).
+A user can edit bank deposits on the [Bank Deposits](../UserGuide/CA_30_50_00.md) \(CA305000\) form. This form works with the DACs listed in the following table. For details about deposit transactions, see [Preparation of Bank Deposits](../UserGuide/CA__CON_Preparation_of_Deposits.md).
 
 |DAC|Description|
 |---|-----------|
@@ -248,7 +285,7 @@ WHERE
     AND CADepositDetail.RefNbr=@RefNbr
 ```
 
-## Reconciliation Statements { .section}
+## Reconciliation Statements
 
 The [CARecon](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CARecon) DAC stores the headers of reconciliation statements. For details about reconciliation statements, see [Performing Bank Reconciliation](../UserGuide/Finance_Bank_Reconciliation_Mapref.md).
 
@@ -324,11 +361,11 @@ ORDER BY
     ReconNbr
 ```
 
-## Cash Flow Forecast { .section}
+## Cash Flow Forecast
 
 The [CashForecastTran](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CashForecastTran) DAC stores the manually entered transactions for the cash flow forecasts. The CashForecastTran records are defined on the [Anticipated Cash Transactions](../UserGuide/CA_30_55_00.md) \(CA305500\) form. For details about cash flow forecasts, see [Cash Flow Forecasting](../UserGuide/CA__con_Cash_Flow_Forecasting.md).
 
-## Transfers { .section}
+## Transfers
 
 The [CATransfer](https://help.acumatica.com/dacBrowser/PX.Objects.CA/CATransfer) DAC represents a funds transfer from one cash account to another. The CATransfer records are defined on the [Funds Transfers](../UserGuide/CA_30_10_00.md) \(CA301000\) form. For details about funds transfers, see [Performing Funds Transfers](../UserGuide/Finance_Processing_Funds_Transfers_Mapref.md).
 

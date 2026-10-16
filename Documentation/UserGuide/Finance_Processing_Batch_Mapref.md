@@ -1,4 +1,4 @@
-# Processing Transactions {#_d13d203c-7a5a-4e3a-b620-0d23ae2be082 .concept}
+# Processing Transactions
 
 In this chapter, you will find general information on how to create and post transactions to the general ledger, a checklist for system implementation, an activity that describes how to process a batch of transactions in the system, and report and inquiries that can be useful to find and view created transactions.
 

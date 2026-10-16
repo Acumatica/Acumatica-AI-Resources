@@ -1,4 +1,4 @@
-# Target Restrictions in Import Scenarios {#_b7131c40-2298-4295-9c46-7ad916512f03 .concept}
+# Target Restrictions in Import Scenarios
 
 You can specify target restrictions that apply to records after they have been processed by the import scenario. For example, suppose that you have imported customer records to Acumatica ERP and then manually changed the status of some of these records to *Inactive* on the [Customers](AR_30_30_00.md) \(AR303000\) form, and now you want to update only imported customer records that have the *Inactive* status. Because you do not have the status in the source file, you cannot use source restrictions to select needed records. You can, however, specify a target restriction that makes the system save the results of import for only the records that have *Inactive* status on the form.
 

@@ -1,4 +1,4 @@
-# Defining a Workflow {#_15b61e89-ccfe-498f-872b-5e48d4f202af .concept}
+# Defining a Workflow
 
 You can customize а form by defining a workflow. By customizing a form in this way, you can simplify and secure the process of changing the state of an entity when a user performs actions with an entity. You do this by enabling and disabling actions and fields, automatically assigning values to fields as a result of actions that the user has performed, and prompting the user to provide values for an action to be performed, if needed. The process of defining a workflow is described in [Workflow Creation: General Information](../DeveloperGuide/WorkflowUI_CreatingWorkflow_GeneralInfo.md).
 

@@ -1,4 +1,4 @@
-# Sales Taxes {#_998faa0b-d6ce-4d2c-b60f-2f128e265444 .concept}
+# Sales Taxes
 
 The topics of this chapter describe how to configure sales taxes in Acumatica ERP to be used in AR and AP documents.
 

@@ -1,8 +1,8 @@
-# Confirm a Shipment {#_d6f117c2-5850-4b7b-8009-950ba175da2f .concept}
+# Confirm a Shipment
 
 By using the REST API, you can confirm a shipment in Acumatica ERP. A user can confirm a shipment on the [Shipments](../UserGuide/SO_30_20_00.md) \(SO302000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to do the following to configure your client application and the Acumatica ERP instance to be used:
 
@@ -14,14 +14,14 @@ Before you test the code below, you need to do the following to configure your c
     1.  [Create an RMA Order for a Return](IntegrationDev_RESTExample_SalesOrder_CreateRM.md)
     2.  [Create a Shipment with the Receipt Operation Type](IntegrationDev_RESTExample_SalesOrder_CreateReceipt.md) or [Create a Shipment for a Replacement](IntegrationDev_RESTExample_SalesOrder_CreateShipmentReplacement.md)
 
-## Request { .section}
+## Request
 
 You can use the following request example to confirm a shipment that has the *Open* status through the REST API. In this example, the shipment has the *000029* number.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-POST /entity/Default/25.200.001/SalesOrder/ConfirmShipment HTTP/1.1
+POST /entity/Default/26.200.001/Shipment/ConfirmShipment HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
 Content-Type: application/json

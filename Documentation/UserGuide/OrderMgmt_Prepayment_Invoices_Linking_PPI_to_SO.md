@@ -1,4 +1,4 @@
-# Prepayment Invoices: Linking to Sales Orders {#_ed280c4b-7da8-46c1-9cf2-39dc3c3011de .concept}
+# Prepayment Invoices: Linking to Sales Orders
 
 In Acumatica ERP, you create prepayment invoices to request a prepayment that is subject to tax reporting. You can create a separate prepayment invoice manually on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, link it to the applicable sales order, and then apply it to any customer's sales invoice. You can also create a prepayment invoice directly from a sales order so that the prepayment invoice will be applied to the sales order invoice automatically.
 
@@ -6,7 +6,7 @@ In Acumatica ERP, you create prepayment invoices to request a prepayment that is
 
 In this topic, you will learn how to link a separately created prepayment invoice to a sales order of the same customer.
 
-## Linking Prepayment Invoices to a Sales Order { .section}
+## Linking Prepayment Invoices to a Sales Order
 
 You create a prepayment invoice on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. For details, see [AR Prepayment Invoices: General Information](Finance_Prepayment_Invoices_GeneralInfo.md). You link a released prepayment invoice—that is, an invoice of the *Pending Payment* status—to a sales order in either of the following ways:
 
@@ -22,7 +22,7 @@ One released prepayment invoice can be linked to multiple sales orders of the sa
 -   The order type selected for the sales order on the [Sales Orders](SO_30_10_00.md) form has the *Blanket Order* automation behavior on the [Order Types](SO_20_10_00.md) \(SO201000\) form.
 -   The customer specified in the sales order has multiple-installment credit terms specified on the [Customers](AR_30_30_00.md) \(AR303000\) form.
 
-## Unlinking the Prepayment Invoice and Sales Order { .section}
+## Unlinking the Prepayment Invoice and Sales Order
 
 You can unlink the prepayment invoice linked to a sales order and link another one, if needed. You unlink the documents in either of the following ways:
 
@@ -35,7 +35,7 @@ Once you have removed the connection between a prepayment invoice and a sales or
 -   The **Total Paid** amount is decreased by the **Applied to Order** amount of the removed line.
 -   The **Unpaid Balance** value is increased by the amount specified in the **Applied to Order** box of the removed line.
 
-## Impact of a Voided Prepayment Invoice on a Sales Order { .section}
+## Impact of a Voided Prepayment Invoice on a Sales Order
 
 If a prepayment invoice linked to a sales order has been fully written off by a credit memo and the prepayment invoice has been assigned the *Voided* status, then on release of the application of the credit memo to the prepayment invoice, the system does the following on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form:
 

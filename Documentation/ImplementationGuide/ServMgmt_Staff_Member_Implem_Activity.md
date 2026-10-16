@@ -1,4 +1,4 @@
-# Staff Members: Implementation Activity {#_0377f1c1-8523-491b-b80d-4eb3267a95d3 .task}
+# Staff Members: Implementation Activity
 
 Only staff members can be assigned to appointments. To be able to use particular employees on service management forms, you have to define these employees as staff members.
 
@@ -8,11 +8,11 @@ In this activity, you will learn how to define an employee as a staff member by 
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Service and Equipment Sales Center needs to define a new employee as a staff member, so that it can be assigned to appointments in Acumatica ERP.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -21,13 +21,13 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   On the [Users](../UserGuide/SM_20_10_10.md) \(SM201010\) form, the *myers* user account has been created, and the *EP00000041 \(Mason Randall\)* employee has been associated with the user account. That is, the employee name has been selected in the **Linked Entity** box.
 -   On the [Employees](../UserGuide/EP_20_30_00.md#) \(EP203000\) form, *EP00000041 - Mason Randall* has been defined.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Employees](../UserGuide/EP_20_30_00.md) \(EP203000\) form, you will define an employee who will perform services in your company as a service management staff member.
 
 **Tip:** You can go directly to this form, as described in the step below, or open the [Staff](../UserGuide/FS_20_55_00.md) \(FS205500\) form, click **Add Employee** on the table toolbar, and then perform Instructions 2–4 of the step below.
 
-## System Preparation {#section_mnm_pgy_1hc .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -35,7 +35,7 @@ Before you start this activity, do the following:
 2.  On the Company and Branch Selection menu in the top pane of the Acumatica ERP screen, select the Service and Equipment Sales Center branch.
 3.  Make sure that the *Service Management* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md#) \(CS100000\) form.
 
-## Step: Defining Employee as a Staff Member { .section}
+## Step: Defining Employee as a Staff Member
 
 To define the *EP00000041 - Mason Randall* employee as a staff member who can perform services, do the following:
 

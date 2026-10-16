@@ -1,4 +1,4 @@
-# Correcting Payroll Documents {#_cfc6b2e9-c3d6-4868-957f-aee283628698 .concept}
+# Correcting Payroll Documents
 
 In this chapter, you will learn how to make corrections to released payroll documents.
 

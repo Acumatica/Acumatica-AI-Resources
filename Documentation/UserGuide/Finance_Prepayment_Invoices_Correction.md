@@ -1,8 +1,8 @@
-# AR Prepayment Invoices: Correction of a Prepayment Invoice {#_b8cac3f3-afdd-4e02-8f20-e81c2ea54c8a .concept}
+# AR Prepayment Invoices: Correction of a Prepayment Invoice
 
 In certain cases, a prepayment invoice may need to be voided or reversed. This could happen, for instance, if the items included in the prepayment invoice are no longer needed, or if the data entry clerk made an error while entering the specified amount.
 
-## Writing Off the Unpaid Balance of Partially Paid Prepayment Invoices { .section}
+## Writing Off the Unpaid Balance of Partially Paid Prepayment Invoices
 
 You can write off the unpaid balance of prepayment invoices that have not been paid in full.
 
@@ -14,7 +14,7 @@ On release of the credit memo, the system generates a GL transaction thst debits
 
 You cannot reverse the application of the credit memo that was created during the write-off of the unpaid balance of a prepayment invoice.
 
-## Voiding the Unpaid Prepayment Invoices { .section}
+## Voiding the Unpaid Prepayment Invoices
 
 You can void prepayment invoices with the *Pending Payment* status \(those that have been released but not yet paid\). The system voids a prepayment invoice by writing off its unpaid balance.
 

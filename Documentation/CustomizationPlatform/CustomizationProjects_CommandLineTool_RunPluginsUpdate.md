@@ -1,4 +1,4 @@
-# PXCommandLine Tool: RunUpdatePlugins {#_d7b2eb5b-b6b9-45f6-b2e5-dd9bdfd05c84 .concept}
+# PXCommandLine Tool: RunUpdatePlugins
 
 You can use the `RunPluginsUpdate` value of the `/method` parameter to work with the `CustomizationPlugin` classes of all published customization projects. For more information about customization plug-ins, see [Custom Processes During Publication of a Customization](CG_Platform_Framework_PlugIn.md) and [To Add a Customization Plug-In to a Project](CG_GL_Items_Code_AddingPlugIn.md).
 

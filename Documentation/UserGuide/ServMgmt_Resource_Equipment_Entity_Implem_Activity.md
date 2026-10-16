@@ -1,14 +1,14 @@
-# Resource Equipment: To Create Resource Equipment {#_67771c23-2d9e-45b8-8456-11b227e6375a .task}
+# Resource Equipment: To Create Resource Equipment
 
 In this activity, you will learn how to create a resource equipment record in the system.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose you’re the administrative user at the SweetLife Service and Equipment Sales Center, and you need to add the resource equipment used in appointments to Acumatica ERP.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -18,11 +18,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   On the [Numbering Sequences](CS_20_10_10.md) \(CS201010\) form, the *SMEQUIPMN* sequence has been created. It has then been specified in the **Equipment Numbering Sequence** box \(**Numbering Settings** section\) of the [Service Management Preferences](FS_10_01_00.md) \(FS100100\) form.
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *REPAIR* non-stock item of the *Service* type has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Equipment](FS_20_50_00.md) \(FS205000\) form, you will create two equipment records. You will then make sure that the records are displayed on the [Equipment Summary](FS_40_02_00.md) \(FS400200\) form
 
-## System Preparation {#section_okm_j2y_1hc .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -31,7 +31,7 @@ Before you start this activity, do the following:
 3.  Make sure that the *Service Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form.
 4.  As a prerequisite activity, be sure that the equipment type has been created as described in [Resource Equipment: To Create an Equipment Type and Assign It to a Service](ServMgmt_Resource_Equipment_Types_Implem_Activity.md).
 
-## Step: Creating a Equipment Record { .section}
+## Step: Creating a Equipment Record
 
 To create an equipment record, do the following:
 
@@ -57,7 +57,6 @@ To create an equipment record, do the following:
 7.  On the form toolbar, click **Save**.
 8.  Open the [Equipment Summary](FS_40_02_00.md) \(FS400200\) form, and make sure that the pieces of equipment you have created are displayed in the table \(as shown below\).
 
-    ![](Images/ServMgmt_Resource_Equipment_Summary.png)
 
 
 **Parent topic:**[Creating and Using Resource Equipment](../UserGuide/ServMgmt_Resource_Equipment_Mapref.md)

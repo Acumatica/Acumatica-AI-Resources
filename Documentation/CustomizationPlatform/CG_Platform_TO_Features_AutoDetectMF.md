@@ -1,4 +1,4 @@
-# Detecting the Project Items Modified in the File System {#_3b85d738-5d52-47e3-a0bb-75a695dc76a1 .concept}
+# Detecting the Project Items Modified in the File System
 
 In the website folder in the file system, the platform tracks changes that you make to the following files:
 

@@ -1,10 +1,10 @@
-# Country, State, and Postal Code Validation {#_972fde4f-b981-44db-86d5-6eb91f60a7b7 .concept}
+# Country, State, and Postal Code Validation
 
 Input masks may be created to help users enter data in the required format. Masks are used, for example, for phone numbers and postal codes. Moreover, regular expressions can be created to validate the entered values, because the values for some elements must meet not only input format requirements but also specific rules.
 
 For more details on the format of masks, see [Examples of the Usage of Masks and Regular Expressions](CS__con_Examples_Mask_and_RegExp_Usage.md).
 
-## Country and State Validation { .section}
+## Country and State Validation
 
 In Acumatica ERP, countries are identified by a two-letter code in accordance with ISO 3166. In data that is imported to the system, the country field may contain a name instead of the required code. A similar situation can occur with states or provinces within countries. To help the system identify each country or state during import, on the [Countries/States](CS_20_40_00.md) \(CS204000\) form, you can select the appropriate validation modes for countries and for states.
 
@@ -55,7 +55,7 @@ When a country data is imported to the system along with other data, the system 
 
 If any of the states defined on the [Countries/States](CS_20_40_00.md) form has a validation mode other than *No Validation* \(that is, if state validation is required for any state of the country\), the system performs similar checks to those described above to validate the value in the state field.
 
-## Postal codes { .section}
+## Postal codes
 
 Input masks for postal codes are set on the [Countries/States](CS_20_40_00.md) \(CS204000\) form. They are used for input validation on the following forms:
 

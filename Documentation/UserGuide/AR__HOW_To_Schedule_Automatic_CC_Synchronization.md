@@ -1,12 +1,12 @@
-# To Schedule Automatic Loading of Card Data from External Processing Centers {#_60978c1b-4087-43f2-9c02-619751eb7160 .task}
+# To Schedule Automatic Loading of Card Data from External Processing Centers
 
 You use the [Synchronize Cards](CA_20_60_00.md) \(CA206000\) form to schedule the process of automatic synchronization of credit cards from an external processing center, such as Acumatica Payments, to Acumatica ERP.
 
-## Before You Proceed {#section_nss_4jv_vxb .section}
+## Before You Proceed
 
 Make sure that the *Integrated Card Processing* feature has been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. With this feature enabled, the [Synchronize Cards](CA_20_60_00.md) form appears in the system. Make sure that the *Acumatica Payments* feature has been enabled.
 
-## To Schedule Automatic Synchronization {#section_pss_4jv_vxb .section}
+## To Schedule Automatic Synchronization
 
 1.  Open the [Synchronize Cards](CA_20_60_00.md) \(CA206000\) form by searching for or navigating to it.
 2.  On the form toolbar, click **Schedules** &gt; **Add**. This opens the [Automation Schedules](../Shared/../UserGuide/SM_20_50_20.md) \(SM205020\) form.

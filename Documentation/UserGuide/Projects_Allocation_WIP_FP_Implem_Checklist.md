@@ -1,8 +1,8 @@
-# WIP Labor Costs in Fixed-Price Projects: Implementation Checklist {#_a53a0b58-16ab-4385-a86e-d9aead34d4c0 .concept}
+# WIP Labor Costs in Fixed-Price Projects: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for billing a cost-plus projects with WIP costs, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you initially bill a cost-plus projects with WIP costs, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -17,11 +17,11 @@ We recommend that before you initially bill a cost-plus projects with WIP costs,
 |[Projects](PM_30_10_00.md) \(PM301000\)|Make sure that the project has been created, as described in [Project Creation and Processing: General Information](Projects_Process_GeneralInfo.md).|
 |[Project Tasks](PM_30_20_00.md) \(PM302000\)|Make sure the WIP account group is selected for the project tasks in the **Non-Billable WIP Account Group** box on the **Summary** tab \(**Billing and Allocation Settings** section\).|
 
-## Other Settings That Affect the Workflow { .section}
+## Other Settings That Affect the Workflow
 
 To cause the system to automatically release allocation transactions, including allocation reversal transactions, select the **Automatically Release Allocations** check box on the **General** tab \(**General Settings** section\) of the [Projects Preferences](PM_10_10_00.md) \(PM101000\) form.
 
-## Validation of Configuration { .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you allocate projects by performing instructions similar to those described in [WIP Labor Costs in Fixed-Price Projects: Process Activity](Projects_Allocation_WIP_FP_Process_Activity.md).
 

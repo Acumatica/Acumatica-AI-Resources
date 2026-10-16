@@ -1,8 +1,8 @@
-# To Link an Existing Prepayment to an Order {#_f48ada25-56ce-4ade-bb47-470fa23d849f .task}
+# To Link an Existing Prepayment to an Order
 
 You can link an existing customer prepayment to a particular sales order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 
-## To Link an Existing Prepayment to an Order { .section}
+## To Link an Existing Prepayment to an Order
 
 1.  Open the [Sales Orders](../Shared/../UserGuide/SO_30_10_00.md) \(SO301000\) form.
 2.  In the **Order Type** box, select the order type.

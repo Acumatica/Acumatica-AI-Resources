@@ -1,8 +1,8 @@
-# Cash Management: Cash Accounts {#_2f56337a-d98d-4f85-8f3b-54cf3b931a55 .concept}
+# Cash Management: Cash Accounts
 
 Cash accounts are used to keep records of the outgoing and incoming payments and cash. You can create cash accounts that represent bank accounts, amounts of cash on hand, or amounts of cash in transit. Each cash account is linked to a general ledger account.
 
-## Configuration of Cash Accounts { .section}
+## Configuration of Cash Accounts
 
 In general, the configuration process of a cash account involves the following steps:
 

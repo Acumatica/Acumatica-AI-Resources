@@ -1,10 +1,10 @@
-# To Create an Account Class {#_a11daf0d-0903-4f6e-b871-27858b206564 .task}
+# To Create an Account Class
 
 You use the [Account Classes](GL_20_20_00.md) \(GL202000\) form to create an account class.
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## To Add a Class {#section_d1f_mjv_vxb .section}
+## To Add a Class
 
 1.  Open the [Account Classes](../Shared/../UserGuide/GL_20_20_00.md) \(GL202000\) form.
 

@@ -1,4 +1,4 @@
-# Processing Project Transactions {#_c7dcd872-f472-7248-72de-bcd8cbe72acd .concept}
+# Processing Project Transactions
 
 Project transactions facilitate the collection of project-related information from the documents processed in the system. You can also use project transactions for tracking budget costs and revenue directly without updating the general ledger.
 

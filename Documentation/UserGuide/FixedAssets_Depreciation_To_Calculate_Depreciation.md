@@ -1,23 +1,23 @@
-# Asset Depreciation: To Calculate Depreciation {#_25816167-0b49-475a-927c-54d32d5cc1f8 .task}
+# Asset Depreciation: To Calculate Depreciation
 
 The following activity will walk you through the process of calculating depreciation for fixed assets.
 
-## Story {#section_xlf_ljv_vxb .section}
+## Story
 
 Suppose that the fixed assets belonging to SweetLife Fruits &amp; Jams have to be depreciated through September 2026. Acting as a SweetLife accountant, you need to calculate depreciation for the fixed assets that you have created through the specified period.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Fixed Asset Management* feature has been enabled.
 -   On the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, the needed GL accounts have been created.
 
-## Process Overview {#section_amf_ljv_vxb .section}
+## Process Overview
 
 In this activity, on the [Calculate Depreciation](FA_50_20_00.md) \(FA502000\) form, you will calculate depreciation for all fixed assets through September 2026. On the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form, you will review the calculated depreciation of one fixed asset. Finally, on the [FA Balance Projection by Account](FA_67_00_10.md) \(FA670010\) form, you will run a report and review the calculated accumulated depreciation and net balance for all fixed assets.
 
-## System Preparation {#section_cmf_ljv_vxb .section}
+## System Preparation
 
 Before you begin calculating depreciation, do the following:
 
@@ -28,7 +28,7 @@ Before you begin calculating depreciation, do the following:
 5.  Make sure that you have split the *Land* fixed asset by performing the [Splitting of Assets: Process Activity](FixedAssets_Splitting_Process_Activity.md) prerequisite activity.
 6.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step: Calculating Depreciation {#section_emf_ljv_vxb .section}
+## Step: Calculating Depreciation
 
 To calculate depreciation for fixed assets, do the following:
 
@@ -47,7 +47,6 @@ To calculate depreciation for fixed assets, do the following:
 3.  On the form toolbar, click **Process All**. The system calculates depreciation through the specified period for each fixed asset.
 4.  On the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form, open the *Desktop computer* asset and review the **Depreciation** tab, as shown in the following screenshot.
 
-    ![](Images/activity_FA_Depreciation_Depr_Calculated.png "Depreciation calculated for a desktop computer")
 
     The system calculates depreciation from the period the fixed asset was put into use \(**Depr. from Period** on the **Balance** tab\) through the period you specified in the **To Period** box. The **Depreciated** column currently shows *0.00* for the calculated periods, because no depreciation transactions have been released.
 

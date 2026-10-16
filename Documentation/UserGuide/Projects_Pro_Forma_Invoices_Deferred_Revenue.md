@@ -1,10 +1,10 @@
-# Pro Forma Invoices: Deferred Revenue in Projects {#_b6e5f71f-2e7b-40e8-897a-9d8c9e5c876b .concept}
+# Pro Forma Invoices: Deferred Revenue in Projects
 
 Depending on the revenue recognition method that is established in a company, you may need to account for revenue after the corresponding part of work on a project has actually been completed.
 
 To do this, you need to set up the project and its billing to temporarily allocate the revenue to the liability account and clear this account as soon as the related portion of the revenue should be recognized. This topics explains how you can configure deferred revenue in projects.
 
-## Setting Up a Project for Deferred Processing of Revenue { .section}
+## Setting Up a Project for Deferred Processing of Revenue
 
 To configure the deferred processing of a project's revenue, you should do the following on the [Projects](PM_30_10_00.md) \(PM301000\) form:
 
@@ -13,7 +13,7 @@ To configure the deferred processing of a project's revenue, you should do the f
 3.  In the **Default Sales Account** box on the **Defaults** tab, specify a sales account of the liability type. This sales account must be linked to an account group of the *Liability* type.
 4.  Assign a progress billing rule to the project tasks on the **Tasks** tab of the [Projects](PM_30_10_00.md) form. In the billing rule step, specify *Project* in the **Use Sales Account From** box.
 
-## Billing a Project with Deferred Revenue { .section}
+## Billing a Project with Deferred Revenue
 
 When a pro forma invoice is created for a project that you have configured for deferred processing of revenue, the system updates the revenue budget lines on the **Revenue Budget** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form as follows:
 
@@ -31,11 +31,10 @@ On release of the project transaction, the system updates the revenue budget lin
 
 The deferred revenue is recognized as earned revenue after the corresponding part of the project work is completed. To perform revenue recognition, you need to configure and run an allocation rule to allocate the earned revenue from the liability account group to the income account group. Then the system will update the **Actual Quantity** and **Actual Amount** of the corresponding revenue budget line with the recognized revenue amount and quantity.
 
-## Workflow of Billing a Project with Deferred Revenue {#section_iy4_dkd_25b .section}
+## Workflow of Billing a Project with Deferred Revenue
 
 The following diagram illustrates the workflow of processing a pro forma invoice and an AR invoice with deferred revenue recognition.
 
-![](Images/diag_Projects_Pro_Forma_Invoices_Deferred_Revenue.png)
 
 **Parent topic:**[Processing Pro Forma Invoices](../UserGuide/Projects_Pro_Forma_Invoices_Mapref.md)
 

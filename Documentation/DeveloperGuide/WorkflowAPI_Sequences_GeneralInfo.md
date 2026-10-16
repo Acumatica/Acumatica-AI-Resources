@@ -1,8 +1,8 @@
-# Composite Workflow States: General Information {#_e58a243d-e066-4ec9-bc30-48b575212286 .concept}
+# Composite Workflow States: General Information
 
 A composite state of a workflow, which can also be referred to as a *parent workflow state*, is a workflow state that contains an ordered sequence of nested workflow states and the transitions to and from these states. With composite workflow states, you can specify common settings \(actions, fields to be updated, and transitions\) for a group of workflow states only once—in the composite state that includes these workflow states.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,7 +10,7 @@ In this chapter, you will learn how to do the following:
 -   Define a transition for a composite state of a workflow
 -   Update a composite state in a predefined workflow
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You implement a composite state when you have a set of workflow states with common properties and you want to simplify the process of moving an entity though all these states. For example, you may need to implement a composite state in any of the following scenario examples:
 
@@ -18,7 +18,7 @@ You implement a composite state when you have a set of workflow states with comm
 -   You need to implement a workflow in which a transition to one of the workflow states is possible from multiple workflow states and this transition is triggered by the same action.
 -   You need to implement a workflow in which all transitions to one of the workflow states should specify the same value of a field \(such as *True*\), and all transitions from this workflow state should specify another same value of this field \(such as *False*\).
 
-## Use of Composite Workflow States { .section}
+## Use of Composite Workflow States
 
 For each of the workflow states inside the composite state, you can do the following:
 
@@ -29,7 +29,7 @@ For each of the workflow states inside the composite state, you can do the follo
 
 These capabilities make workflow customization much easier. You do not need to explicitly specify target workflow states for transitions. Thus, if you add or remove states in the workflow or change the order of states, you do not need to modify all the affected transitions.
 
-## Implementation of a Composite Workflow State { .section}
+## Implementation of a Composite Workflow State
 
 You add a composite workflow state inside the AddFlowStates method by using the AddSequence method. You specify the name of the composite workflow state as the type parameter of the method. In the lambda expression provided for the AddSequence method, you can add the workflow states that are a part of the composite state by using the WithStates method. The workflow states in a composite state are declared the same way as they are declared in the AddFlowStates method.
 
@@ -37,7 +37,7 @@ To specify that a workflow state should be skipped in the composite state, you c
 
 The following code shows an example of the declaration of a composite workflow state.
 
-```language-csharp
+```csharp
 .WithFlowStates(flowStates =>
 {
   flowStates.Add(initialState, flowState => flowState
@@ -81,7 +81,7 @@ In the code above, the `HoldToBalance` composite workflow state is declared. The
 -   `creditHold`, which is skipped when the `IsCreditHoldChecked` condition is *true*
 -   `balanced`, which is never skipped
 
-## Declaring of a Transition for a Composite Workflow State { .section}
+## Declaring of a Transition for a Composite Workflow State
 
 You can define the following transitions involving a composite workflow state:
 
@@ -108,7 +108,7 @@ You can define the following transitions involving a composite workflow state:
 
 The following code shows an example of transitions that include a composite workflow state.
 
-```language-csharp
+```csharp
 .WithTransitions(transitions =>
 {
   transitions.AddGroupFrom(initialState, transitionGroup =>
@@ -136,13 +136,13 @@ In the code above, the following transitions are declared:
 -   A transition from the `HoldToBalance` composite workflow state to itself
 -   A transition from the `HoldToBalance` composite workflow state to the `Open` workflow state
 
-## Customization of an Existing Composite State { .section}
+## Customization of an Existing Composite State
 
 You can customize a composite workflow state that has been defined in the source code of Acumatica ERP. To customize a composite state, you use the UpdateSequence method in the WithFlowStates method. In the WithStates method of the UpdateSequence method, you can add, update, or delete a workflow state by using the Add, Update, or Delete methods, respectively. To specify the location of a workflow state in the updated composite state, you use the PlaceAfter method.
 
 The following code shows an example of an updated composite state.
 
-```language-csharp
+```csharp
 .WithFlowStates(states =>
 {
   states.UpdateSequence<State.HoldToBalance>(seq =>

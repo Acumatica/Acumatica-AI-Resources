@@ -1,8 +1,8 @@
-# Project Quotes: Creation of a Project from a Project Quote {#_9270d45a-8a6b-5252-8a73-5031ccc3b8a6 .concept}
+# Project Quotes: Creation of a Project from a Project Quote
 
 This topic describes the rules that the system uses during the creation of a project based on a project quote, as well as some specific settings that the system inserts.
 
-## Summary Information { .section}
+## Summary Information
 
 To create a project based on a project quote, the user clicks the **Convert to Project** command on the [Project Quotes](PM_30_45_00.md) \(PM304500\) form and specifies the needed settings in the **Convert to Project** dialog box.
 
@@ -19,7 +19,7 @@ When the system creates a project based on a project quote, the settings of the 
 -   **Customer** and **Description**: The system copies the values from the project quote settings \(in the **Business Account** and **Description** boxes, respectively, of the [Project Quotes](PM_30_45_00.md) form\) to these boxes.
 -   **Summary** tab: The system copies the settings of the project template that have been specified in the project quote to this tab.
 
-## Project Tasks { .section}
+## Project Tasks
 
 When the system creates a project based on the project quote on the [Project Quotes](PM_30_45_00.md) \(PM304500\) form, it populates the project tasks on the **Tasks** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form using the following rules:
 
@@ -38,7 +38,7 @@ The system specifies the default sales, cost, and accrual accounts and subaccoun
 -   If a project task is created based on the common task, the system populates the default accounts and subaccounts with those specified for the common task on the [Common Tasks](PM_20_80_30.md) \(PM208030\) form. If the accounts and subaccounts are not specified for the common task, the system inserts the default values specified for the project template.
 -   If a project task has been added to the project quote manually, the system inserts the default accounts and subaccounts specified for the project template.
 
-## Revenue Budget { .section}
+## Revenue Budget
 
 When the system creates a project based on the project quote, to populate the revenue budget, the system groups the estimation lines of the project quote depending on the revenue budget level \(*Task*, *Task and Item*, or *Task and Cost Code*\) of the project template specified for the project quote; the revenue budget level of the project template is specified on the **Summary** tab \(**Project Properties** section\) of the [Project Templates](PM_20_80_00.md) \(PM208000\) form. For each group of estimation lines, on the **Revenue Budget** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form, the system creates a revenue budget line with the following settings:
 
@@ -61,7 +61,7 @@ When the system creates a project based on the project quote, to populate the re
     -   If the group consists of two or more lines and the lines have either the same tax category or no tax category specified, the specified tax category is copied to the revenue budget line.
     -   If the group consists of two or more lines and the lines have at least two different tax categories, the tax category of the revenue budget line is empty.
 
-## Cost Budget { .section}
+## Cost Budget
 
 When the system creates a project based on the project quote, to populate the cost budget, the system groups the estimation lines of the project quote depending on the cost budget level of the project template specified for the project quote; the cost budget level of the project template is specified on the **Summary** tab \(**Project Properties** section\) of the [Project Templates](PM_20_80_00.md) \(PM208000\) form. For each group of estimation lines, on the **Cost Budget** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form, the system creates a cost budget line with the following settings:
 
@@ -85,7 +85,7 @@ When the system creates a project based on the project quote, to populate the co
     -   If the project task has the *Cost and Revenue Task* type, the system inserts this project task in this column automatically. You can override this value, if needed.
     -   If the project task has the *Cost Task* type, the system leaves the column empty. You should select the corresponding revenue task manually.
 
-## Project Addresses {#section_s5j_ny3_nsb .section}
+## Project Addresses
 
 When the system creates a project based on the project quote on the [Project Quotes](PM_30_45_00.md) \(PM304500\) form, the system copies the settings from the project quote to the project by using the following rules:
 
@@ -93,7 +93,7 @@ When the system creates a project based on the project quote on the [Project Quo
 -   The contact information in the **Bill-To Contact** section on the **Addresses** tab of the [Project Quotes](PM_30_45_00.md) form is copied to the **Bill-To** section of the same tab of the [Projects](PM_30_10_00.md) form.
 -   The address information in the **Bill-To Address** section on the **Addresses** tab of the [Project Quotes](PM_30_45_00.md) form is copied to the same section and tab of the [Projects](PM_30_10_00.md) form.
 
-## Other Project Settings { .section}
+## Other Project Settings
 
 The project settings on the following tabs of the [Projects](PM_30_10_00.md) \(PM301000\) form are copied from the listed sources:
 

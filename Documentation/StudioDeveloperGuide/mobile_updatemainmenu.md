@@ -1,8 +1,8 @@
-# To Update the Site Map of a Mobile App {#_73302a69-1b21-4ef2-9646-6e90e3295e32 .concept}
+# To Update the Site Map of a Mobile App
 
 In a customization project, you can update the sitemap of the customized Acumatica mobile app by using the Customization Project Editor.
 
-## To Update the Site Map of the Mobile App { .section}
+## To Update the Site Map of the Mobile App
 
 1.  Open the [Customization Projects](../Shared/../UserGuide/SM_20_45_05.md) \(SM204505\) form, and in the **Project Name** column, click the link of the customization project. The Customization Project Editor opens.
 2.  Open the Mobile Application page.

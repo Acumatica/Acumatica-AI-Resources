@@ -1,4 +1,4 @@
-# Integration with HubSpot: Lead and Contact Synchronization Issues {#_2f569718-ed90-40ee-98f3-dd2eaacdc126 .concept}
+# Integration with HubSpot: Lead and Contact Synchronization Issues
 
 In HubSpot, contact objects are used to represents both contacts and leads. If a contact is a lead, it is indicated by the lead status. In Acumatica ERP, there is a separate entity for leads, which can be converted to contacts, opportunities, or accounts.
 
@@ -6,7 +6,7 @@ If you decide to synchronize both Acumatica ERP leads and Acumatica ERP contacts
 
 The appropriate source restriction and field mapping settings of lead and contact import and export scenarios define whether a HubSpot contact synchronizes to a lead or a contact in Acumatica ERP.
 
-## Example of Integration Scenario Settings { .section}
+## Example of Integration Scenario Settings
 
 Acumatica ERP contains preconfigured integration scenarios to which the *Lead Status* custom field has been added. This field can be used to distinguish leads and contacts. If the Lead Status of the record is *Converted*, the record is a contact. Otherwise it is a lead.
 

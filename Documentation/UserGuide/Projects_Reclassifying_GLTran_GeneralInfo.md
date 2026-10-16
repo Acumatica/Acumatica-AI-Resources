@@ -1,12 +1,12 @@
-# Transaction Reclassification: General Information {#_8f173d82-9814-41ab-9261-c6f662faf59e .concept}
+# Transaction Reclassification: General Information
 
 If a batch of project-related GL transactions was posted with any incorrect information, you can reclassify this batch to move the amount to the correct line of the project budget, or correct other financial data.
 
-## Learning Objectives {#section_ugm_tjr_2qb .section}
+## Learning Objectives
 
 You will learn how to perform the reclassification of GL transactions related to a project.
 
-## Applicable Scenarios {#section_zwy_vjr_2qb .section}
+## Applicable Scenarios
 
 You reclassify a project-related transaction in the following cases:
 
@@ -15,7 +15,7 @@ You reclassify a project-related transaction in the following cases:
 -   A project-related transaction has been posted with the non-project code.
 -   A part of transaction amount posted to a project should be moved to another project.
 
-## Reclassification of Project-Related GL Transactions {#section_knc_vnr_2qb .section}
+## Reclassification of Project-Related GL Transactions
 
 You initiate the reclassification process on the [Reclassify Transactions](GL_50_60_00.md) \(GL506000\) form. You open this form in one of the following ways:
 
@@ -43,11 +43,10 @@ Once you have changed any of the default values, the system selects the unlabele
 
 After you have made all needed changes to the transaction details, you click **Process** on the form toolbar of the [Reclassify Transactions](GL_50_60_00.md) form. The system generates a new GL transaction of the *Reclassification* type that offsets the original transaction and posts the transaction amounts. Also, on release of the reclassification batch, the system generates a project transaction that updates the actual values in the project budget of the project for which the reclassification has been performed.
 
-## Workflow of Reclassification Transactions { .section}
+## Workflow of Reclassification Transactions
 
 The following diagram shows the general process of reclassifying project-related transactions.
 
-![](Images/diag_Projects_Reclassifying_GLTran.png)
 
 **Parent topic:**[Reclassifying Project-Related GL Transactions](../UserGuide/Projects_Reclassifying_GLTran_Mapref.md)
 

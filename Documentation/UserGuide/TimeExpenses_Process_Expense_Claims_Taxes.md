@@ -1,4 +1,4 @@
-# Expense Claims: Taxes in Expense Claims {#_3fb38614-e6fa-4bdf-8376-550ff8833191 .concept}
+# Expense Claims: Taxes in Expense Claims
 
 In Acumatica ERP, you can configure the system to apply taxes to expense claims on the [Expense Claim](EP_30_10_00.md) \(EP301000\) forms.
 
@@ -8,13 +8,13 @@ In expense claims, the system specifies *Tax Settings* as the default tax calcul
 
 **Tip:** If the *Net/Gross Entry Mode* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can select whether the amounts in the expense claim are tax-exclusive \(net\) or tax-inclusive \(gross\). For more information, see [Expense Receipts: Taxes in Expense Receipts](TimeExpenses_Process_Expense_Receipts_Taxes.md).
 
-## Expense Receipts with Mixed Tax Settings { .section}
+## Expense Receipts with Mixed Tax Settings
 
 By default, you can add to an expense claim only expense receipts with the same tax zone and tax calculation modes. When the expense claim is released, the system generates an AP document for all expense receipts that have been added to the expense claim.
 
 If you need to create an expense claim for expense receipts with different tax settings, you have to select the **Allow Mixed Tax Setting in Claims** check box on the [Time and Expenses Preferences](EP_10_10_00.md) \(EP101000\) form. On release of an expense claim that includes expense receipts with different tax settings, the system generates multiple AP documents, each of which contains expense receipts with the same tax zone and tax calculation mode.
 
-## Tax Zone { .section}
+## Tax Zone
 
 The expense claim's tax zone is specified in the **Tax Zone** box of the [Expense Claim](EP_30_10_00.md) \(EP301000\) form.
 

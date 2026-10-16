@@ -1,4 +1,4 @@
-# Outside Processing: Processing Workflow {#_db9db047-d6f4-40b0-b1bf-917082b970f8 .concept}
+# Outside Processing: Processing Workflow
 
 Suppose that you use production orders for tracking outside processing performed by a subcontractor. Further suppose that you have created a non-stock item in Acumatica ERP Manufacturing Edition for this subcontractor's charges, and you will process vendor shipments in the system when you ship materials to the subcontractor. You have created and released the production order with an outside operation on the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form. To process the outside operation, you perform the following general steps:
 
@@ -32,7 +32,6 @@ You then proceed to process the remaining operations in the production order.
 
 The following diagram illustrates the actions and documents that are typically involved in the processing of an outside operation.
 
-![](Images/diag_MFG_Outside_Processing_2024R2.png)
 
 **Parent topic:**[Producing Items with Outside Processing](../UserGuide/MFG_Outside_Processing_Mapref.md)
 

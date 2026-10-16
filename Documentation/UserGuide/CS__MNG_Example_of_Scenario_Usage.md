@@ -1,4 +1,4 @@
-# Example of Scenario Usage {#_bc270661-7b6f-4d6a-9a34-3e73d62a971b .concept}
+# Example of Scenario Usage
 
 As you use Acumatica ERP, you may need to perform various complex procedures on a regular basis. These procedures can include multiple tasks that need to be executed. This chapter describes an example of a business process that is performed in the Accounts Receivable module regularly: closing the financial period.
 

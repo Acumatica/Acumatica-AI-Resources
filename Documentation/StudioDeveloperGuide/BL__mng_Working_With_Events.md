@@ -1,4 +1,4 @@
-# Working with Events {#_106557db-e5f6-416c-8872-5ef3de9bf433 .concept}
+# Working with Events
 
 The Acumatica Framework provides its own event model in which events related to the manipulation of data records and data fields are raised in a particular order within certain scenarios. An *event handler* is a method invoked by the Acumatica Framework once the corresponding event is raised.
 

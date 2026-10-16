@@ -1,4 +1,4 @@
-# Opportunity Management: Opportunity Stages {#_6acfe2a9-b03f-4d6f-b1ce-d45d98d72c06 .concept}
+# Opportunity Management: Opportunity Stages
 
 When an opportunity is processed by a salesperson, it progresses through various stages. At any particular stage, there is a certain probability that the sale can be successfully closed. The assignment of stages to opportunities gives you the ability to estimate future sales revenue at any time. The accuracy of revenue estimation depends heavily on the correct identification of the opportunity stage and on the accuracy of defining the specified probability.
 

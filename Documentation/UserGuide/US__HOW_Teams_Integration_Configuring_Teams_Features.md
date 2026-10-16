@@ -1,17 +1,17 @@
-# To Configure Acumatica ERP for Teams Integration {#_0f784cc5-6f56-473a-9162-e5d7d2bb4db8 .task}
+# To Configure Acumatica ERP for Teams Integration
 
 After you configure [Microsoft Azure for Teams Integration](US__HOW_Teams_Integration_Configuring_Azure.md), you need to specify the required settings in your Acumatica ERP instance. You also need to configure webhooks in [Microsoft Power Automate](https://make.powerautomate.com/). The following sections provide detailed instructions to perform this configuration.
 
 **Tip:** These instructions are performed by the system administrator who sets up the functionality.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Before you begin, make sure that the following conditions are met:
 
 -   You have configured Microsoft Azure for Teams integration, as described in [To Configure Microsoft Azure for Teams Integration](US__HOW_Teams_Integration_Configuring_Azure.md).
 -   You have enabled the *Teams Integration* feature on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Step 1: To Configure Teams Preferences { .section}
+## Step 1: To Configure Teams Preferences
 
 On the [Teams Preferences](SM_22_00_00.md) \(SM220000\) form, do the following:
 
@@ -22,11 +22,10 @@ On the [Teams Preferences](SM_22_00_00.md) \(SM220000\) form, do the following:
 
     The system adds to the table the permissions that you have specified in Step 3 of [To Configure Microsoft Azure for Teams Integration](US__HOW_Teams_Integration_Configuring_Azure.md) \(see the following screenshot\).
 
-    ![](Images/Teams_Integration_Teams_Preferences_form.png "The added permissions on the Teams Preferences form")
 
 5.  On the form toolbar, click **Save**.
 
-## Step 2: To Add a New Activity Type { .section}
+## Step 2: To Add a New Activity Type
 
 To add a new activity type, do the following:
 
@@ -42,7 +41,7 @@ To add a new activity type, do the following:
     The system resets the caches, and is now ready for Teams channel synchronization.
 
 
-## Step 3: To Configure an Incoming Webhook { .section}
+## Step 3: To Configure an Incoming Webhook
 
 To configure an incoming webhook for a Teams channel, you need to create a connection and a flow by using [Microsoft Power Automate](https://make.powerautomate.com/). Do the following:
 
@@ -66,7 +65,7 @@ To configure an incoming webhook for a Teams channel, you need to create a conne
 15. On the page toolbar, click **Save**, and then click **Back** to return to the **My flows** page.
 16. On the page toolbar of the **My flows** page, click **Turn On**.
 
-## Step 4: To Sign In to the Teams Account { .section}
+## Step 4: To Sign In to the Teams Account
 
 Do the following to sign in to the Teams account:
 
@@ -84,7 +83,7 @@ Do the following to sign in to the Teams account:
 4.  In the pop-up window that opens, enter your Teams credentials, and click **Sign In**.
 5.  On the form toolbar, click **Save**.
 
-## Step 5: To Specify Additional Teams Settings { .section}
+## Step 5: To Specify Additional Teams Settings
 
 To specify additional Teams settings for your account, do the following on the **Teams Settings** tab of the [User Profile](SM_20_30_10.md) \(SM203010\) form:
 
@@ -94,7 +93,7 @@ To specify additional Teams settings for your account, do the following on the *
 2.  In the **Teams Client** box, select the Teams client you want to use \(*Desktop* or *Web*\).
 3.  On the form toolbar, click **Save**.
 
-## Step 6: To Synchronize Teams Channels and Members { .section}
+## Step 6: To Synchronize Teams Channels and Members
 
 To synchronize your Teams channels and members, do the following on the [Teams Channels](SM_30_50_00.md) \(SM305000\) form:
 
@@ -102,25 +101,21 @@ To synchronize your Teams channels and members, do the following on the [Teams C
 
     The system adds the Teams channels to the table on the form \(see the following screenshot\).
 
-    ![](Images/Teams_Integration_Azure_Added_Channels.png "The synchronized Teams channels")
 
 2.  On the **Teams** pane, click the team that contain the channel to which you want to send messages.
 3.  On the Channels pane, click the needed channel.
 4.  In the **Incoming Webhook URL** column, enter the URL you have copied in Step 3 \(see the following screenshot\).
 
-    ![](Images/Teams_Integration_Teams_Add_Webhook_Added.png "The incoming webhook URL")
 
 5.  On the form toolbar, click **Save**.
 6.  On the pane toolbar of the **Channels** pane, click **Test Notification** to send a test message to the channel in Teams \(see the following screenshot\).
 
-    ![](Images/Teams_Integration_Teams_Add_Webhook_Added_test_notificaiton.png "The Test Notification button")
 
 7.  In the channel in Teams, make sure that the message is displayed \(see the following screenshot\).
 
-    ![](Images/Teams_Integration_Teams_Add_Webhook_Notification_Sent.png "The received message in the Teams channel")
 
 
-## Step 7: Mapping the Contacts or Employees { .section}
+## Step 7: Mapping the Contacts or Employees
 
 To map the contacts in the Teams channel with the contacts or employees in Acumatica ERP, do the following:
 

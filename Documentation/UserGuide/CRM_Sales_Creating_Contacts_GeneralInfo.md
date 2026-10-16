@@ -1,10 +1,10 @@
-# Contacts: General Information {#_596bbac2-3409-4735-81f8-4734569e56ed .concept}
+# Contacts: General Information
 
 You can create contacts in Acumatica ERP to represent the people associated with leads and business accounts \(and later customers, if a sale occurs, or even vendors\). This topic provides information about creating contacts in Acumatica ERP.
 
 **Tip:** Contacts can be associated with a variety of entities in the system. In this chapter, we focus on contacts as they relate to the customer relationship management \(CRM\) functionality. That is, the chapter primarily discusses the contacts associated with prospective customers before they have purchased your company's products or services.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -15,14 +15,14 @@ In this chapter, you will do the following:
 -   Create a contact by using the Acumatica ERP mobile app
 -   Create a contact by using the Acumatica add-in for Outlook
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to learn how to create contacts in scenarios that include the following:
 
 -   An employee of your company has contacted a lead and confirmed the contact information and the interest in company's products or services, and you need to convert the lead to an opportunity.
 -   You have been assigned to a lead whose contact information and interest in the company's products or services has been confirmed.
 
-## Contacts in Acumatica ERP { .section}
+## Contacts in Acumatica ERP
 
 In Acumatica ERP, a contact is a record on the [Contacts](CR_30_20_00.md) \(CR302000\) form that represents an individual and that can be associated with a variety of entities in the system. When you create a contact record, you enter the settings related to the information you have obtained, such as the individual’s name, address, email address, and phone number.
 
@@ -30,7 +30,7 @@ If you have created a lead in the system before you create the related contact, 
 
 Any contact can be associated with one lead or multiple leads and with only one business account. You can synchronize contact information in the associated lead, contact, and business account to keep your data consistent and reliable. You can also easily navigate between the associated contacts, leads, and business accounts.
 
-## Contact Creation in Acumatica ERP { .section}
+## Contact Creation in Acumatica ERP
 
 In Acumatica ERP, you can create contacts in multiple ways depending on your company’s business processes and maintain them on the [Contacts](CR_30_20_00.md) \(CR302000\) form. If you use customer relationship management \(CRM\) functionality and you are processing a lead for which the contact information and interest in buying the company's products or services have been confirmed, you can convert the lead to an opportunity, which may involve the creation of a business account and a contact for this lead. You can validate an individual lead for duplicates before you create a contact. For details, see [Validating Records for Duplicates](CRM_Mktg_Validating_Recs_Duplicates_Mapref.md). You can also create a contact manually if needed.
 
@@ -51,7 +51,7 @@ Regardless of how you create the contact, you can select a contact class on the 
 
 The [Contacts](CR_30_20_00.md) form contains the complete settings of the contact, which you can view and edit. On the **Activities** tab of this form, you can create and work with all the activities related to the contact, including planned, current, and completed activities. For details, see [Managing Emails and Activities](CRM_Mktg_Managing_Emails_Activities_Mapref.md).
 
-## Assigning Sales Territories to Leads, Contacts, Business Accounts, and Opportunities { .section}
+## Assigning Sales Territories to Leads, Contacts, Business Accounts, and Opportunities
 
 A sales territory is a territory that in most cases is determined based on the geographical location of the lead, contact, business account, or opportunity. By using sales territories, you can distribute the lead, contact, business account, and opportunity records between different sales territories and the sales representatives who are responsible for the sales territories.
 
@@ -72,7 +72,7 @@ You can also use the sales territory ID as a setting on the **Conditions** tab o
 -   The creation of new records if the *Assignment Map* option is selected in the **Default Owner** box of the appropriate form to define a class of leads, contacts, business accounts, or opportunities
 -   Mass-assignment of records to owners by using the following mass-processing forms: [Assign Leads](../Shared/../UserGuide/CR_50_30_10.md) \(CR503010\), [Assign Contacts](../Shared/../UserGuide/CR_50_30_11.md) \(CR503011\), [Assign Business Accounts](../Shared/../UserGuide/CR_50_33_10.md) \(CR503310\), and [Assign Opportunities](../Shared/../UserGuide/CR_50_31_10.md) \(CR503110\)
 
-## Synchronization of Settings in Leads, Contacts, and Business Accounts { .section}
+## Synchronization of Settings in Leads, Contacts, and Business Accounts
 
 In Acumatica ERP, you can easily synchronize a lead’s contact settings with the same settings in the related contact and business account. With this synchronization turned on, any change to the contact information in one record causes the system to automatically update the related records.
 
@@ -103,7 +103,7 @@ If the business account associated with the contact and the lead has been extend
 -   If the **Override** check box is cleared for the lead \(the default state\): The address settings on the [Contacts](../Shared/../UserGuide/CR_30_20_00.md) and [Leads](../Shared/../UserGuide/CR_30_10_00.md) forms are updated automatically when they’re changed on the [Business Accounts](../Shared/../UserGuide/CR_30_30_00.md) form. You can override the contact’s address settings on the [Contacts](../Shared/../UserGuide/CR_30_20_00.md) form by selecting the **Override Address** check box on the **General** tab. Similarly, you can override the lead’s address settings on the [Leads](../Shared/../UserGuide/CR_30_10_00.md) form by selecting the **Override** check box on the **General** tab.
 -   If the **Override** check box is selected for the lead: The contact and address information on the [Leads](../Shared/../UserGuide/CR_30_10_00.md) form can differ from the same information of the related contact and business account on the [Contacts](../Shared/../UserGuide/CR_30_20_00.md) and [Business Accounts](../Shared/../UserGuide/CR_30_30_00.md) forms; synchronization isn’t performed between the related records. If the contact and address information is updated on the [Business Accounts](../Shared/../UserGuide/CR_30_30_00.md) form, the changes are not applied to the [Leads](../Shared/../UserGuide/CR_30_10_00.md) form.
 
-## Contact Relations with Acumatica ERP Entities { .section}
+## Contact Relations with Acumatica ERP Entities
 
 Once a contact has been defined in the system on the [Contacts](CR_30_20_00.md) \(CR302000\) form, it can be associated with any of the following entities in Acumatica ERP:
 
@@ -117,13 +117,13 @@ Once a contact has been defined in the system on the [Contacts](CR_30_20_00.md) 
 
 As you work with a contact in Acumatica ERP, you can track the records associated with the contact on the **Relations** tab of the [Contacts](CR_30_20_00.md) form. For details, see [Managing Relations](CRM_Managing_Relations_Mapref.md).
 
-## Ability to Add User-Defined Fields to CRM Forms { .section}
+## Ability to Add User-Defined Fields to CRM Forms
 
 User-defined fields are site-specific elements that have been defined to track information deemed as important to the organization. An administrator and customizer—a user with particular access rights in the system—can add user-defined fields to CRM forms such as [Leads](../Shared/../UserGuide/CR_30_10_00.md) \(CR301000\), [Contacts](../Shared/../UserGuide/CR_30_20_00.md) \(CR302000\), and [Business Accounts](../Shared/../UserGuide/CR_30_30_00.md) \(CR303000\) form. For details, see [Adjustment of the Acumatica ERP UI: Managing User-Defined Fields](../Shared/../UserGuide/GS_Personalization_UI_User_Defined_Fields.md).
 
 .
 
-## Copying of User-Defined Fields Between Records { .section}
+## Copying of User-Defined Fields Between Records
 
 While viewing a record on some entry forms, you can create new records—such as CRM records \(for example, opportunities or business accounts\), project quotes, customers, and vendors—from the original record. If both records have user-defined fields, the system copies each field’s values only if both records have this field defined on their entry forms. For details, see [Adjustment of the Acumatica ERP UI: Managing User-Defined Fields](../Shared/../UserGuide/GS_Personalization_UI_User_Defined_Fields.md).
 

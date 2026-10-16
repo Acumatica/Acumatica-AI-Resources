@@ -1,8 +1,8 @@
-# Customer Location Entity {#_f7758e68-b9ff-4426-a1a0-267691299069 .concept}
+# Customer Location Entity
 
 This topic provides reference information about the standard filtering and field mapping used for the *Customer Location* entity during the synchronization between Acumatica ERP and Shopify.
 
-## Customer Location Filtering { .section}
+## Customer Location Filtering
 
 Filters are applied during the export of customer locations to Shopify. A customer location is skipped if any of the following is true:
 
@@ -11,7 +11,7 @@ Filters are applied during the export of customer locations to Shopify. A custom
 
 During the import of customer locations to Acumatica ERP, the customer location is skipped if the corresponding customer has not been synchronized.
 
-## Customer Location Export Mapping { .section}
+## Customer Location Export Mapping
 
 The following table shows the mapping of Acumatica ERP fields to Shopify fields that is used during the export of customer location data to Shopify.
 
@@ -33,7 +33,7 @@ The following table shows the mapping of Acumatica ERP fields to Shopify fields 
 |**Country**|**General** tab &gt; **Location Address** section|**Country/Region**|**New customer** page &gt; **Address** section|The ISO country code is transformed to the country name.|
 |Phone 1|**General** tab &gt; **Additional Location Info** section|**Phone**|**New customer** page &gt; **Address** section|If Phone 1 is empty, Phone 2 is used.|
 
-## Customer Location Import Mapping { .section}
+## Customer Location Import Mapping
 
 The following table shows the mapping of Acumatica ERP fields to Shopify fields that is used during the import of customer location data to Acumatica ERP.
 

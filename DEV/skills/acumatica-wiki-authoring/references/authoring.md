@@ -1,4 +1,4 @@
-# Authoring and contextual form linkage, 2026 R1
+# Authoring and contextual form linkage, 2026 R2
 
 For a new Wiki, use **Wiki (SM202005)**, also reachable through **Wikis > Manage
 Wikis** in the Customization Project Editor. Within the intended Wiki/folder,

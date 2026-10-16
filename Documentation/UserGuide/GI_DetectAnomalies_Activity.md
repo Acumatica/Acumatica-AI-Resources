@@ -1,10 +1,10 @@
-# Anomaly Detection: Process Activity {#_0e7394a3-41c4-4e99-9752-ce98e20fa1bc .task}
+# Anomaly Detection: Process Activity
 
 The following activity will walk you through the process of configuring the process that detects anomalies in generic inquiries.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist who is working on configuring generic inquiries. Further suppose that a purchase manager in your company monitors the cost information of inventory items included in accounts payable documents. This purchase manager has requested the sending of notifications when the cost of an item in a particular AP document is too high or too low for a particular vendor, depending on the average value of the item for this vendor. Acting as a system administrator, you need to do the following:
 
@@ -12,30 +12,30 @@ Suppose that you are a technical specialist who is working on configuring generi
 2.  Configure a business event that the system will trigger when any anomalies are detected
 3.  Create a widget that displays the number of new anomalies and add this widget to a dashboard
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the Costs in AP Documents \(AP3010ML\) generic inquiry form has been added for the purposes of this activity. The table on this form displays AP document lines that have been entered on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. The Selection area contains elements that give the user the ability to select the start and end dates of the documents, the vendor, and the inventory item. The form does not yet display any information related to anomaly detection.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form for the *Costs in AP Documents \(AP3010ML\)* generic inquiry, you will specify the settings for anomaly detection. On the resulting Costs in AP Documents \(AP3010ML\) generic inquiry form, you will manually start the anomaly detection process. You will then set up a schedule for anomaly detection on the [Generic Inquiry](SM_20_80_00.md) form. Finally, you will add a widget to the predefined *Purchasing Manager \(PO3015DB\)* dashboard and configure a business event on the [Business Events](SM_30_20_50.md) \(SM302050\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
 1.  Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as a system administrator by using the *gibbs* username and the *123* password.
-2.  On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, enable the *Detection of Numeric Anomalies in Generic Inquiries* feature.
+2.  On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, enable the *Anomaly Detection* feature.
 
-    **Attention:** The *Detection of Numeric Anomalies in Generic Inquiries* feature requires a separate license.
+    **Attention:** This feature requires a separate license.
 
 
-## Step 1: Configuring Anomaly Detection { .section}
+## Step 1: Configuring Anomaly Detection
 
 To configure anomaly detection for the Costs in AP Documents \(AP3010ML\) generic inquiry, do the following on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form:
 
 1.  In the **Inquiry Title** box of the Summary area, select *AP-ML-Costs in AP Documents*.
-2.  Select the **Detect Anomalies** check box.
+2.  On the **Advanced** tab, select the **Detect Anomalies** check box.
 
     The **Anomaly Detection** tab appears on the form.
 
@@ -48,7 +48,7 @@ To configure anomaly detection for the Costs in AP Documents \(AP3010ML\) generi
 5.  In the **Update Frequency** box, select *On Demand*.
 6.  On the form toolbar, click **Save**.
 
-## Step 2: Starting the Anomaly Detection Process { .section}
+## Step 2: Starting the Anomaly Detection Process
 
 While your are still working on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form with the Costs in AP Documents \(AP3010ML\) generic inquiry selected, do the following:
 
@@ -71,14 +71,14 @@ While your are still working on the [Generic Inquiry](SM_20_80_00.md) \(SM208000
 
     **Tip:** Depending on the size of the data, the calculation could take a considerable amount of time. You can check the status by selecting the unlabeled check box for the needed row in the top table and then clicking **Process** on the form toolbar. Alternatively, you can click the row in the top table and then click **Execute Next Step** on the table toolbar of the bottom table.
 
-6.  After the status becomes to *Ready to Download*, click **Process** on the form toolbar again to download the calculation results into the system.
+6.  After the status becomes *Ready to Download*, click **Process** on the form toolbar again to download the calculation results into the system.
 
     The final status of anomaly calculation is *Completed*.
 
 
 **Tip:** Instead of clicking **Process** on the form toolbar, you can click **Execute Next Step** on the table toolbar of the table with results.
 
-## Step 3: Reviewing the Results of Anomaly Calculation { .section}
+## Step 3: Reviewing the Results of Anomaly Calculation
 
 To review the results of anomaly calculation and create a tab that lists records with the *Significant* and *Medium* anomaly severities, do the following on the Costs in AP Documents \(AP3010ML\) generic inquiry form:
 
@@ -109,11 +109,11 @@ To review the results of anomaly calculation and create a tab that lists records
     Notice that the row with the *00028* bill is not highlighted anymore. Based on the filter settings, the system does not display the records for which the **Reviewed** check box has been selected.
 
 
-## Step 4: Setting Up a Schedule { .section}
+## Step 4: Setting Up a Schedule
 
 Now that you have run the initial anomaly calculation, you can set it up to run on a schedule. To cause the system to run the anomaly calculation once a week, do the following:
 
-1.  On the [Generic Inquiry](SM_20_80_00.md) \(SM208000\), select *AP-ML-Costs in AP Documents* in the **Inquiry Title** box.
+1.  On the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form, select *AP-ML-Costs in AP Documents* in the **Inquiry Title** box.
 2.  In the **Update Frequency** box on the **Anomaly Detection** tab, select *Weekly*.
 3.  On the form toolbar, click **Save**.
 4.  Open the [Detect Anomalies in Generic Inquiries](ML_50_20_00.md) \(ML502000\) form. If you have this form open, refresh it in the browser.
@@ -127,7 +127,7 @@ Now that you have run the initial anomaly calculation, you can set it up to run 
 
 **Tip:** You can view the *Generic Inquiry Anomalies Calculation* schedule that the system has created on the [Automation Schedules](SM_20_50_20.md) \(SM205020\) form.
 
-## Step 5: Adding a Widget { .section}
+## Step 5: Adding a Widget
 
 To add a dashboard widget that displays the number of new anomalies, do the following:
 
@@ -144,10 +144,9 @@ To add a dashboard widget that displays the number of new anomalies, do the foll
 
     The following screenshot shows the *Purchasing Manager \(PO3015DB\)* dashboard with the added widget.
 
-    ![](Images/GI_DetectAnomalies_Widget.png "The widget with the number of detected anomalies")
 
 
-## Step 6: Configuring the Business Event { .section}
+## Step 6: Configuring the Business Event
 
 To configure a business event to send notifications when the system detects anomalies with certain severities, do the following:
 
@@ -202,12 +201,13 @@ To configure a business event to send notifications when the system detects anom
                 <td>((GIMLResult_expectedValue))</td>
             </tr>
         </tbody>
-    </table></p>
+    </table>
+
+</p>
     ```
 
     The following screenshot shows the resulting subscriber of the business event.
 
-    ![](Images/GI_DetectAnomalies_EmailTemplate.png "The subscriber of the business event")
 
 6.  On the form toolbar, click **Save and Close** to save your changes, close the [Email Templates](SM_20_40_03.md) form, and return to the [Business Events](SM_30_20_50.md) form.
 7.  On the table toolbar of the **Schedules** tab, click **Create Schedule**.
@@ -224,7 +224,6 @@ To configure a business event to send notifications when the system detects anom
 
     The following screenshot shows an example of an email that the purchase manager will receive when the business event is triggered.
 
-    ![](Images/GI_DetectAnomalies_Email.png "An email with the results of anomaly detection")
 
 
 **Parent topic:**[Detecting Anomalies in Generic Inquiries](../UserGuide/GI_DetectAnomalies_Mapref.md)

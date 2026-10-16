@@ -1,10 +1,10 @@
-# To Create a Physical Inventory Type for an ABC Code {#_cbdc93f9-6eb7-4ad3-b249-e2b9e20f2c70 .task}
+# To Create a Physical Inventory Type for an ABC Code
 
 If you use ABC codes to rank stock items, you can create a physical inventory type to add items assigned with a particular ABC code to a count sheet. You use the [Physical Inventory Types](IN_20_89_00.md) \(IN208900\) form to create a physical inventory type for each ABC code, as described in this topic.
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## To Create a Physical Inventory Type for an ABC Code { .section}
+## To Create a Physical Inventory Type for an ABC Code
 
 1.  Open the [Physical Inventory Types](../Shared/../UserGuide/IN_20_89_00.md) \(IN208900\) form.
 

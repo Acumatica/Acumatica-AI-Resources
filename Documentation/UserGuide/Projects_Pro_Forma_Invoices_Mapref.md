@@ -1,4 +1,4 @@
-# Processing Pro Forma Invoices {#_c7d12329-f123-1122-99de-b123cbe50a85 .concept}
+# Processing Pro Forma Invoices
 
 If you need to agree invoices prepared within a project with the customer, you can process pro forma invoices. A pro forma invoice can be printed and sent to a customer as many times as is necessary until an agreement is reached. Then you can create an accounts receivable invoice from pro forma invoice. This chapter explains how you can process pro forma invoices.
 

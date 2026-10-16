@@ -1,8 +1,8 @@
-# Remove an Account from a Group {#_40bea35c-ca46-48d2-b7cb-00a1f80261d9 .concept}
+# Remove an Account from a Group
 
 By using the REST API, you can remove an account from a group. Account groups are available on the [Account Groups](../UserGuide/PM_20_10_00.md) \(PM201000\) form in Acumatica ERP.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to configure your client application and the Acumatica ERP instance to be used as follows:
 
@@ -11,14 +11,14 @@ Before you test the code below, you need to configure your client application an
 3.  To sign in to the instance in the client application, use the tenant name \(which you specified when you created the instance\) and the *HEADOFFICE* branch.
 4.  If you are using Postman as the client application for testing, in the `IntegrationDevelopmentGuide.postman_collection.json` collection, make sure that the collection’s variables have the proper values. This collection is located in the `IntegrationDevelopment\Help` folder of the [Help-and-Training-Examples](https://github.com/Acumatica/Help-and-Training-Examples) repository on GitHub.
 
-## Request { .section}
+## Request
 
 You can use the following request example to remove the *40010* account from the *ACCG02* account group through the contract-based REST API.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-PUT /entity/Default/25.200.001/Account HTTP/1.1
+PUT /entity/Default/26.200.001/Account HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
 Content-Type: application/json
@@ -29,7 +29,7 @@ Content-Type: application/json
 }
 ```
 
-## Usage Notes { .section}
+## Usage Notes
 
 By using the REST API, you can create, modify, and remove account groups. For more information about account groups, see [Account Groups: General Information](../Shared/../UserGuide/Account_Groups_GeneralInfo.md).
 

@@ -1,8 +1,8 @@
-# Funds Transfers: Mass Processing of Documents {#_a76f8c27-1a15-4214-9a82-b4efb8a392a1 .concept}
+# Funds Transfers: Mass Processing of Documents
 
 This topic explains how to release multiple funds transfers at once.
 
-## Mass Release of Funds Transfers {#section_lkc_kjv_vxb .section}
+## Mass Release of Funds Transfers
 
 You can release multiple funds transfers on the following forms:
 

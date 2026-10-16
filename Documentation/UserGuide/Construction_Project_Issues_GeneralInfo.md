@@ -1,8 +1,8 @@
-# Project Issues: General Information {#_b916d631-9906-41b8-adb7-e171284391c6 .concept}
+# Project Issues: General Information
 
 In Acumatica ERP, project issues are used for tracking and reporting on all activities related to various issues discovered on a construction site. Based on a project issue, a request for information or a change request may be created.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -13,11 +13,11 @@ In this chapter, you will learn how to do the following:
 -   Convert project issues to requests for information
 -   Mass-assign project issues to owners
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create and process a project issue when an unexpected problem occur on a construction site.
 
-## Project Issue Processing {#section_a1t_wq4_drb .section}
+## Project Issue Processing
 
 In general, the [Project Issue](PJ_30_20_00.md) \(PJ302000\) form is the starting point for creating a project issue. In a newly created project issue, you should first specify the following settings:
 

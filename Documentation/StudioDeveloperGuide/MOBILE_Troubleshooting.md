@@ -1,4 +1,4 @@
-# Troubleshooting Tips {#_b2bd121f-5953-46aa-a9f5-d7839657e927 .concept}
+# Troubleshooting Tips
 
 This chapter contains troubleshooting information about common issues that you may encounter when working with the Acumatica mobile app.
 

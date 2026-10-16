@@ -1,4 +1,4 @@
-# Radio Button \(PXRadioButton\) {#_99014135-2f7e-4897-9113-c8f4988ddc12 .concept}
+# Radio Button \(PXRadioButton\)
 
 In Acumatica ERP, a radio button can work properly only in a PXGroupBox container. \(See [Group Box \(PXGroupBox\)](CG_GL_UI_GroupBoxes.md) for details.\) A PXGroupBox element contains scripts to provide the appropriate logic to use a nested radio button for a single constant value of a bound drop-down data field.
 

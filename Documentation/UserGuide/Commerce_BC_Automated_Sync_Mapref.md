@@ -1,4 +1,4 @@
-# Automating Synchronization {#_74b5c2fc-108a-4b0b-be7c-b8ad845cf22e .concept}
+# Automating Synchronization
 
 In this chapter, you will learn how to automate the synchronization of entities between Acumatica ERP and the BigCommerce store by setting up automation schedules or by turning on real-time synchronization.
 

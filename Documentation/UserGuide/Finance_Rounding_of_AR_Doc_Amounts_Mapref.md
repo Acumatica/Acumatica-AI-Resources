@@ -1,4 +1,4 @@
-# Rounding of AR Document Amounts {#_16eaebe5-7266-4dc9-8280-d3f7c243440f .concept}
+# Rounding of AR Document Amounts
 
 Your company may need to round the total amounts of AR documents to comply with external or internal requirements. In Acumatica ERP, you can set up this rounding to fit the specific rules the company uses.
 

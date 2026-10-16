@@ -1,4 +1,4 @@
-# Browsing the Catalog and Placing Orders {#_fe69c33c-f8fc-4821-9c67-294bf4145d9b .concept}
+# Browsing the Catalog and Placing Orders
 
 In the Modern Customer Portal, authorized portal users can browse the catalog, view available items and their details, add items to the cart, and place orders.
 

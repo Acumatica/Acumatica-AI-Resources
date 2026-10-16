@@ -1,8 +1,8 @@
-# Use of the ColumnWidth, ControlSize, and LabelsWidth Properties of PXLayoutRule {#_40e018a5-16cc-4395-a59f-481b53a5254f .concept}
+# Use of the ColumnWidth, ControlSize, and LabelsWidth Properties of PXLayoutRule
 
 You can use the PXLayoutRule components to define the sizes for every control \(that is, its input area\) and its label within a column, group, or merged set of controls.
 
-## Required Properties { .section}
+## Required Properties
 
 Every PXLayoutRule component that has the StartRow or StartColumn property value set to *True* must have one of the following sets of properties defined:
 
@@ -11,11 +11,10 @@ Every PXLayoutRule component that has the StartRow or StartColumn property value
 
 The following diagram illustrates the meaning of the LabelsWidth, ControlSize, and ColumnWidth properties.
 
-![](Images/CG_GL_Forms_ASPX_LayoutRule_ColumnWidth.png "Use of the layout rule properties to define control sizes")
 
 **Tip:** You should not set property values for both ColumnWidth and ControlSize for the same PXLayoutRule component; in this case, the system would use the value of the ControlSize property.
 
-## Setting of the Size { .section}
+## Setting of the Size
 
 Please note the following points about setting the sizes of controls and their labels:
 

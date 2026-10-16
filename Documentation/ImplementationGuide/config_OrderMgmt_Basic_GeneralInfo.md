@@ -1,8 +1,8 @@
-# Order Management Basic Configuration: General Information {#_ae1db2de-8d38-4973-a5a7-32e49646d6cd .concept}
+# Order Management Basic Configuration: General Information
 
 This topic provides a general overview of the configuration steps that you have to perform before you can process sales and purchases of non-stock items through orders.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to perform the initial configuration for the order management functionality. In particular, you will do the following:
 
@@ -10,14 +10,14 @@ In this chapter, you will learn how to perform the initial configuration for the
 -   Specify the minimum required configuration for the purchase order and sales order management functionality
 -   Learn the settings that you can specify to make the system fit your business requirements
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You perform the configuration of order management in the following cases:
 
 -   You are initially implementing Acumatica ERP and the *Inventory and Order Management* feature is included in your license.
 -   You have purchased the *Inventory and Order Management* feature, and you need to configure order management in the existing system.
 
-## System Features and Minimum Required Settings { .section}
+## System Features and Minimum Required Settings
 
 To be able to configure the sales order management and purchase order management functionality in the system, you need to enable the *Inventory and Order Management* feature on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS101000\) form.
 

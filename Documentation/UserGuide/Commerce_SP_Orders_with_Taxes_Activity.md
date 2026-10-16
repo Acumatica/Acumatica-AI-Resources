@@ -1,16 +1,16 @@
-# Import of Taxes: To Set Up Tax Synchronization {#_2775fb2a-220c-439f-8826-255c08d9bed1 .task}
+# Import of Taxes: To Set Up Tax Synchronization
 
 The following activity will walk you through the process of setting up the synchronization of taxes between the Shopify store and Acumatica ERP.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife is using Acumatica ERP and Avalara AvaTax for calculating and reporting taxes on the goods and services it sells. The company currently sells products and needs to collect taxes only in New York State.
 
 As an implementation consultant helping SweetLife to set up a Shopify store, you need to set up the tax calculation in the store for New York State and then make sure that the taxes calculated for online orders appear correctly in sales orders imported to Acumatica ERP.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 For the purposes of this activity, a company profile has been defined for SweetLife in an Avalara AvaTax sandbox account.
 
@@ -21,7 +21,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Tax Categories](TX_20_55_00.md) \(TX205500\) form, the *TAXABLE* and *EXEMPT* tax categories have been defined. These tax categories have been assigned to item classes on the [Item Classes](IN_20_10_00.md) \(IN201000\) form, and to individual stock and non-stock items on the [Stock Items](IN_20_25_00.md) \(IN202500\) and [Non-Stock Items](IN_20_20_00.md) \(IN202000\) forms, respectively.
 -   On the **General** tab of the [Order Types](SO_20_10_00.md) \(SO201000\) form, for the *EO - eCommerce Order* order template, the **Disable Automatic Tax Calculation** check box \(the **Order Settings** section\) has been cleared.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -37,7 +37,7 @@ In this activity, you will do the following:
 10. Import the sales order to Acumatica ERP by using the [Prepare Data](BC_50_10_00.md) and [Process Data](BC_50_15_00.md) forms.
 11. On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, review the imported sales order.
 
-## System Preparation { .section}
+## System Preparation
 
 Do the following:
 
@@ -46,7 +46,7 @@ Do the following:
 3.  Make sure that the integration with the Shopify Payments payment provider has been implemented, as described in [Order Synchronization: To Configure and Import Shopify Payments](Commerce_SP_Syncing_Orders_To_Use_Shopify_Payments.md).
 4.  Sign in to the admin area of the Shopify store as the store administrator in the same browser.
 
-## Step 1: Configuring Sales Tax Collection in the Shopify Store { .section}
+## Step 1: Configuring Sales Tax Collection in the Shopify Store
 
 To make sure that tax collection is set up in your store for New York State, in the Shopify store, do the following:
 
@@ -62,7 +62,7 @@ To make sure that tax collection is set up in your store for New York State, in 
 5.  In the **Set up tax collected** dialog box, which opens, in the **Region** box, select *New York*.
 6.  Click **Collect taxes** to save your changes and close the dialog box.
 
-## Step 2: Enabling the Needed Feature { .section}
+## Step 2: Enabling the Needed Feature
 
 To enable the *External Tax Calculation Integration* feature, which is required for integration of Acumatica ERP with Avalara AvaTax, in Acumatica ERP, do the following:
 
@@ -71,7 +71,7 @@ To enable the *External Tax Calculation Integration* feature, which is required 
 3.  Under **Third-Party Integrations**, select the **External Tax Calculation Integration** check box.
 4.  On the form toolbar, click **Enable**.
 
-## Step 3: Reviewing the Tax Configuration in Acumatica ERP { .section}
+## Step 3: Reviewing the Tax Configuration in Acumatica ERP
 
 To review the tax configuration that has been predefined in Acumatica ERP, do the following:
 
@@ -84,7 +84,7 @@ To review the tax configuration that has been predefined in Acumatica ERP, do th
     Notice that the **External Tax Provider** check box is selected in the Summary area, which indicates that this tax zone is used for setting up tax calculation by using an external tax provider, and *AVALARA* is selected as the tax provider.
 
 
-## Step 4: Configuring Tax Synchronization { .section}
+## Step 4: Configuring Tax Synchronization
 
 To configure the synchronization of taxes between Acumatica ERP and the Shopify store, in Acumatica ERP, do the following:
 
@@ -104,7 +104,7 @@ To configure the synchronization of taxes between Acumatica ERP and the Shopify 
 
 4.  On the form toolbar, click **Save** to save your changes.
 
-## Step 5: Reviewing the Substitution List for Tax Categories { .section}
+## Step 5: Reviewing the Substitution List for Tax Categories
 
 To make sure that stock and non-stock items exported from Acumatica ERP are assigned the correct tax category in the Shopify store, do the following:
 
@@ -123,7 +123,7 @@ To make sure that stock and non-stock items exported from Acumatica ERP are assi
     **Important:** This mapping affects only the export of stock and non-stock items. If the state of the check box is changed for a product in the Shopify store and then a sales order with this item is placed and imported to Acumatica ERP, the tax category that appears in the sales order is copied from the **Tax Category** box of the **General** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) or [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form \(depending on the type of the item\). When taxes are recalculated in Acumatica ERP, there might be discrepancies between the order tax amount in the Shopify store and the tax amount calculated in Acumatica ERP. To avoid these discrepancies, make sure that the same changes are made to product tax settings in both systems \(that is, that products are synchronized in a timely manner\).
 
 
-## Step 6: Updating the Export Filter for Stock Items { .section}
+## Step 6: Updating the Export Filter for Stock Items
 
 To verify that stock items are exported to the Shopify store with the correct tax category, you need to synchronize \(or resynchronize\) them between the two systems. Before you do it, you need to update the filter for stock items so that more stock items are synchronized with the Shopify store \(in this step, you will add stock items of the *JUICER* item class\). Do the following:
 
@@ -139,7 +139,7 @@ To verify that stock items are exported to the Shopify store with the correct ta
 
 3.  On the form toolbar, click **Save**.
 
-## Step 7: Exporting the Stock Items { .section}
+## Step 7: Exporting the Stock Items
 
 1.  On the [Prepare Data](BC_50_10_00.md) \(BC501000\) form, specify the following settings in the Summary area:
     -   **Store**: *SweetStore - SP*
@@ -152,7 +152,7 @@ To verify that stock items are exported to the Shopify store with the correct ta
 6.  On the [Process Data](BC_50_15_00.md) \(BC501500\) form, which opens with the *SweetStore - SP* store and the *Stock Item* entity selected, click **Process All** on the form toolbar.
 7.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 8: Viewing the Synchronized Stock Items in the Store { .section}
+## Step 8: Viewing the Synchronized Stock Items in the Store
 
 To review the items that have been synchronized between Acumatica ERP and the Shopify store and verify that they have been exported to the Shopify store with the correct tax category, in the Shopify admin area, do the following:
 
@@ -169,7 +169,7 @@ To review the items that have been synchronized between Acumatica ERP and the Sh
     Notice that in the **Price** section, the **Charge tax on this product** check box is selected \(click the arrow-down icon at the bottom right of the section to expand the section if needed\). The system assigned this tax category to the product because the *KIWIJAM96* stock item is assigned the *TAXABLE* tax category in Acumatica ERP.
 
 
-## Step 9: Creating a Sales Order in the Shopify Store { .section}
+## Step 9: Creating a Sales Order in the Shopify Store
 
 To make sure that the taxes applied to taxable products in an online order are imported correctly during the order synchronization, you need to create an order in the Shopify store and import it to Acumatica ERP.
 
@@ -200,7 +200,7 @@ To create an order with the taxable and nontaxable products, in the admin area o
     Notice the identifier of the order \(which is the number in the page URL that follows */orders/*\). You will use it to identify this order during the order import.
 
 
-## Step 10: Importing the Sales Order { .section}
+## Step 10: Importing the Sales Order
 
 To import the sales order to Acumatica ERP, in Acumatica ERP, do the following:
 
@@ -214,7 +214,7 @@ To import the sales order to Acumatica ERP, in Acumatica ERP, do the following:
 6.  On the [Process Data](BC_50_15_00.md) \(BC501500\) form, which opens with the *SweetStore - SP* store and the *Sales Order* entity selected, select the unlabeled check box in the row of the sales order that you created \(which you can find by its identifier in the **External ID** column and empty **ERP ID**\), and on the form toolbar, click **Process**.
 7.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 11: Reviewing the Taxes in the Imported Sales Order { .section}
+## Step 11: Reviewing the Taxes in the Imported Sales Order
 
 To review how the taxes are displayed in the imported sales order, do the following:
 
@@ -229,7 +229,6 @@ To review how the taxes are displayed in the imported sales order, do the follow
 
     In the table on the **Taxes** tab, review the taxes that have been applied to the order lines. Notice that the table shows the same taxes that you observed on the order page in the Shopify store.
 
-    ![](Images/activity_Commerce_SP_Orders_with_Taxes_Activity.png "Imported sales order with taxes")
 
 5.  Go to the **Details** tab. In the line with the *KIWIJAM96* item, **Tax Category** is set to *TAXABLE*. This tax category has been copied from the **Tax Category** box of the **General** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form.
 

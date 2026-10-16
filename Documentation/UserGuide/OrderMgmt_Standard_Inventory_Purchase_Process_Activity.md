@@ -1,14 +1,14 @@
-# Purchases of Stock Items: Process Activity {#_b561401a-41f5-423b-87bb-ec15118282d5 .task}
+# Purchases of Stock Items: Process Activity
 
 The following activity demonstrates how to prepare and process to completion a purchase order with items received to inventory before the vendor is billed.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Regina Wiley, a purchasing manager in the SweetLife Fruits &amp; Jams company. On January 30, 2026, you are purchasing the following fruits from the Glory Fruit Case vendor: 100 pounds of apples, 200 pounds of oranges, and 50 pounds of lemons. The purchased fruits are to be delivered to the main office's warehouse. As the purchasing manager, you need to enter and process a purchase order, process a purchase receipt, and create a bill that should be paid to the vendor for the received fruits.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -18,11 +18,11 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *GLORYFRUIT \(Glory Fruit Case\)* vendor has been configured.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *APPLES*, *LEMONS*, and *ORANGES* stock items have been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In the process of purchasing stock items, you create a purchase order on the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form and add the purchased items to it. When the items have been received, on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form, you create a purchase receipt for the ordered items. On release of the purchase receipt, the system automatically generates an inventory receipt to reflect the receipt of the items in inventory. Then on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you create an accounts payable bill to the vendor.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating and processing a purchase order to completion, you should do the following:
 
@@ -30,7 +30,7 @@ Before you start creating and processing a purchase order to completion, you sho
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button, and select *1/30/2026* from the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, make sure the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Reviewing the Quantity of Items in the Warehouse { .section}
+## Step 1: Reviewing the Quantity of Items in the Warehouse
 
 To review the quantity of items in the *WHOLESALE* warehouse, you should do the following:
 
@@ -51,7 +51,7 @@ To review the quantity of items in the *WHOLESALE* warehouse, you should do the 
     In Step 3, you will compare the original quantity of these items with the resulting quantity.
 
 
-## Step 2: Creating a Purchase Order { .section}
+## Step 2: Creating a Purchase Order
 
 To create a purchase order, do the following:
 
@@ -86,7 +86,7 @@ To create a purchase order, do the following:
 6.  On the form toolbar, click **Save**.
 7.  On the form toolbar, click **Remove Hold**. Now you can continue processing the purchase order, which has the *Open* status.
 
-## Step 3: Processing the Purchase Receipt { .section}
+## Step 3: Processing the Purchase Receipt
 
 To create a purchase receipt for the purchase order, do the following:
 
@@ -107,7 +107,7 @@ To create a purchase receipt for the purchase order, do the following:
 
 7.  On the form toolbar of the report form, click **Run Report**. The print form of the report opens. Review the report. Make sure that the report reflects the receipt \(to the warehouse\) of the purchased items and their availability.
 
-## Step 4: Processing the AP Bill { .section}
+## Step 4: Processing the AP Bill
 
 To process the AP bill to the *GLORYFRUIT* vendor, do the following:
 
@@ -118,10 +118,9 @@ To process the AP bill to the *GLORYFRUIT* vendor, do the following:
 5.  Click **Release**.
 6.  Return to the purchase order to the *GLORYFRUIT* vendor on the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form, and review its details. Notice that the order now has a status of *Closed*, as shown in the following screenshot. On the **PO History** tab, notice that the information about the purchase receipt and accounts payable bill that were prepared for the order is displayed. According to this information, the purchased items have been received to inventory and billed in full, so the purchasing process is completed.
 
-    ![](Images/activity_OrderMgmt_Standard_Inventory_Purchase.png "Purchase order processed to completion")
 
 
-## Activity Recap { .section}
+## Activity Recap
 
 In this activity, we have illustrated how the purchasing manager has done the following:
 

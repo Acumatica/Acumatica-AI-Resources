@@ -1,8 +1,8 @@
-# Outside Processing: Configuration {#_534cebcd-130a-4e82-b7a2-4b4e80f19b7b .concept}
+# Outside Processing: Configuration
 
 Acumatica ERP Manufacturing Edition provides you with the ability to configure and use outside processing within the production process. This topic describes the configuration of outside processing in the system.
 
-## Configuration of Outside Processing { .section}
+## Configuration of Outside Processing
 
 To configure outside processing, you perform the following general steps:
 
@@ -15,7 +15,7 @@ To configure outside processing, you perform the following general steps:
 7.  On the [Bill of Material](AM_20_80_00.md) \(AM208000\) form, you create the needed bills of material that you will use for production orders with outside processing operations. For more information, see the *Bills of Material with Outside Operations* section below.
 8.  On the [Warehouses](IN_20_40_00.md) \(IN204000\) form, you create the warehouses or warehouse locations to be involved in outside processing if any materials for the outside operations will be stored by the subcontractor and if you would like to track the availability and movement of the materials. For more information, see [Outside Processing: Subcontractor's Storage of Materials](MFG_Outside_Processing_Material_Delivery.md).
 
-## Work Centers for Outside Processing {#section_pbm_2xs_vrb .section}
+## Work Centers for Outside Processing
 
 When you create a work center for subcontractors, you specify the settings on the [Work Centers](AM_20_70_00.md) \(AM207000\) form as follows:
 
@@ -33,7 +33,7 @@ When you create a work center for subcontractors, you specify the settings on th
 
 For details on creating work centers, see [Configuring Work Centers: Implementation Activity](../ImplementationGuide/config_MFG_Work_Centers_Implem_Activity.md).
 
-## Bills of Material with Outside Operations { .section}
+## Bills of Material with Outside Operations
 
 If you are tracking outside operations within the production process, we recommend that you create production orders that include outside operations. You need to create bills of material on which the production orders will be based. If you produce an item either by using subcontractor services or by involving the production facilities of your organization, you can create two bills of material for the same item: one with the outside operation and one without it. For more information about creating bills of material, see [Bills of Material: Implementation Activity](BOM_Implem_Activity.md).
 

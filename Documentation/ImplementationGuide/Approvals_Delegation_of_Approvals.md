@@ -1,10 +1,10 @@
-# Approval Configuration: Delegation of Approvals {#_44d8c093-69a0-47f7-bee4-85490d905d24 .concept}
+# Approval Configuration: Delegation of Approvals
 
 In Acumatica ERP, a temporary delegation rule may be created for an employee. During the specified period, all approval requests that would normally be assigned to this employee \(in accordance with a rule of an approval map\) may be delegated to another employee. This can help your organization to keep its approval flow running smoothly even if the original approver assigned through an approval map is temporarily unavailable, without administrators having to update existing approval maps.
 
 **Attention:** Delegates must have appropriate access rights to view and approve the records reassigned to them for approval.
 
-## Configuring the Delegation of Approvals { .section}
+## Configuring the Delegation of Approvals
 
 To set up the delegation of approvals for a particular employee, on the **Delegates** tab of the [Employees](../UserGuide/EP_20_30_00.md) \(EP203000\) form, you need to add rows to the table with delegation rules for the employee by doing the following:
 
@@ -17,7 +17,7 @@ If you want to temporarily deactivate a rule, clear the **Active** check box in 
 
 A user can use the **Delegates** tab of the [User Profile](../UserGuide/SM_20_30_10.md) \(SM203010\) form in the same manner to configure delegation rules for themselves \(that is, for the currently signed-in user account\).
 
-## Processing Delegation Rules {#section_nyx_34p_h1c .section}
+## Processing Delegation Rules
 
 To apply previously configured delegation rules, you must use the [Reassign Delegated Activities](../UserGuide/EP_50_30_20.md) \(EP503020\) form. This form can also be used to return delegated activities to the original approver if the relevant delegation rules are no longer effective.
 
@@ -28,7 +28,7 @@ By clicking **Process** or **Process All** on the form toolbar, you can run the 
 
 You can automate the reassignment of delegated activities through the use of automation schedules, which you set up on the [Automation Schedules](../UserGuide/SM_20_50_20.md) \(SM205020\) form. You can use the predefined automation schedule, *Reassign delegated activities*, that is available for the [Reassign Delegated Activities](../UserGuide/EP_50_30_20.md) form; this schedule is set up to run hourly.
 
-## Viewing a User's Reassigned Records {#section_pyx_34p_h1c .section}
+## Viewing a User's Reassigned Records
 
 On the **Reassigned** filter tab of the [Approvals](../UserGuide/EP_50_30_10.md) \(EP503010\) form, a user can view a list of the records that were originally assigned for approval to the currently signed-in user but are now assigned to a different approver.
 

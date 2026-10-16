@@ -1,26 +1,32 @@
-# Upgrading of Acumatica ERP: General Information {#_0d0187ee-44d4-4534-a423-21d43ef77556 .concept}
+# Upgrading of Acumatica ERP: General Information
 
-You can upgrade Acumatica ERP by installing a new major version of the system. You can also update Acumatica ERP by installing an update with a new minor version of the system. A major version provides functional enhancements and new features. A minor version includes fixes for reported issues and occasionally functionality improvements. Both major and minor versions are distributed in builds, which are installation packages of the system. Builds are cumulative—each new build includes everything from the previous builds, along with any new fixes. This eliminates the need to install previous builds before installing the latest one.
+You can upgrade Acumatica ERP by installing a new major version. You can also update it by applying patches or installing a service pack.
 
-To upgrade or update Acumatica ERP, you need to first upgrade or update the Acumatica ERP Configuration wizard to the needed version.
+-   **Major versions** provide functional enhancements and new features.
+-   **Patches** provide small, targeted fixes designed to address high-severity or critical issues affecting stability, security, or core functionality.
+-   **Service packs** are consolidated releases that bundle previously released patches and other important fixes, providing a convenient way to stay up to date.
 
-This topic provides an overview of upgrading and updating Acumatica ERP.
+Major versions and service packs are distributed in builds, which are installation packages. Builds are cumulative. Each new build includes everything from previous builds plus new fixes. This eliminates the need to install earlier builds before the latest one.
 
-## Learning Objectives { .section}
+Patches are distributed as separate packages and are downloaded and applied using a special PatchTool command-line utility. To learn more about updating Acumatica ERP using patches, see [Acumatica ERP PatchTool: General Information](INST_Using_PatchTool_GeneralInfo.md).
+
+This topic provides an overview of upgrading Acumatica ERP to a service pack or a next major version.
+
+## Learning Objectives
 
 In this chapter, you will do the following:
 
 -   Install the next version of the Acumatica ERP Configuration wizard
 -   Update an application instance to the next version of Acumatica ERP
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may need to learn how to upgrade or update Acumatica ERP in scenarios that include the following:
 
 -   You are a system administrator who needs to upgrade Acumatica ERP to the latest product version.
 -   You are a system administrator who needs to update one of the Acumatica ERP instances to the next product version.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 We strongly recommend that before you upgrade or update Acumatica ERP to a newer product version, you do the following:
 
@@ -31,9 +37,9 @@ We strongly recommend that before you upgrade or update Acumatica ERP to a newer
 5.  On the [Automation Schedule Statuses](../Shared/../UserGuide/SM_20_50_30.md) \(SM205030\) form, make sure that no processes are scheduled for the update time. If you find any scheduled processes, reschedule them so that they start after the update.
 6.  On the [Tenants](../Shared/../UserGuide/SM_20_35_20.md) \(SM203520\) form, click **Optimize Database** to check your Acumatica ERP database for orphaned snapshots, and delete any that the system finds.
 
-## Upgrading Process { .section}
+## Upgrading Process
 
-The general process of system upgrading \(to a major version\) or updating \(to a minor version\) by using the Acumatica ERP Configuration wizard, which has already been installed on the server, is the following:
+The general process of system upgrading \(to a major version or service pack\) by using the Acumatica ERP Configuration wizard, which has already been installed on the server, is the following:
 
 1.  If necessary, notify users about the upcoming upgrade or update and automatically lock out the system for the time of the upgrade or update on the [Apply Updates](SM_20_35_10.md) \(SM203510\) form, as described in [Upgrading of Acumatica ERP: To Schedule the System Lockout](INST_Upgrading_System_Lockout.md). A message alerting users to the system lockout will be displayed on the Sign-In page.
 
@@ -58,7 +64,7 @@ The general process of system upgrading \(to a major version\) or updating \(to 
 4.  If you are upgrading or updating your system from a version that did not include search indexes, you need to build search indexes by using the [Rebuild Full-Text Entity Index](SM_20_95_00.md) \(SM209500\) form. If the system has search indexes that were built before the upgrade or update, we recommend rebuilding search indexes by using the form. For details, see [Building Search Indexes](SA_Building_Search_Indexes_Mapref.md).
 5.  If you are locked out the system, unlock the system on the [Apply Updates](SM_20_35_10.md) form, as described in [Upgrading of Acumatica ERP: To Unlock an Acumatica ERP Instance](INST_Upgrading_Unlock_System.md).
 
-## Separate Upgrade of the Database and the Site {#_7f50d93f-2196-4526-8742-e5a2a57aada5 .section}
+## Separate Upgrade of the Database and the Site
 
 You might need to upgrade or update the Acumatica ERP database without upgrading or updating the site, upgrade or update only the site, or consequently upgrade or update the database and the site.
 

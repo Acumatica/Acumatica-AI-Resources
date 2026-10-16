@@ -1,8 +1,8 @@
-# To Create a Consolidated Purchase Receipt for Drop-Ship Orders {#_2d299f24-cc40-4c83-b315-3cb90f219d64 .task}
+# To Create a Consolidated Purchase Receipt for Drop-Ship Orders
 
 You can create a consolidated purchase receipt for multiple drop-ship purchase orders of the same vendor by using the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form.
 
-## To Create a Consolidated Purchase Receipt for a Drop-Ship Order { .section}
+## To Create a Consolidated Purchase Receipt for a Drop-Ship Order
 
 1.  Open the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form.
 2.  Select *Receipt* as the document type.

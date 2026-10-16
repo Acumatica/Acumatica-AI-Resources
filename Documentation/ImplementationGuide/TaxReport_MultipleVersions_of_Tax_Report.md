@@ -1,10 +1,10 @@
-# Tax Report Configuration: Multiple Versions of a Tax Report {#_f116cdc5-c391-4328-86c5-a2424f3bca1a .concept}
+# Tax Report Configuration: Multiple Versions of a Tax Report
 
 Acumatica ERP supports multiple versions of tax reports. If the format of a tax return is changed by tax authorities, you can create an amended version of a tax report for a specific tax agency based on the new requirements. You can prepare these modifications in advance and specify the date when they become valid. By using this functionality, you can prepare an amendment of a tax report for previous periods in which the old reporting settings were used.
 
 For example, in February 2026, you can prepare a tax report for January 2026 to meet the 2026 tax regulations. At the same time, if needed, you can prepare an amendment for the tax report for December 2025 and use the old settings of the tax report for this amendment. You can run the tax reports for2025 and 2026 based on the reporting settings that are valid for the respective year.
 
-## Creation of a New Version of a Tax Report { .section}
+## Creation of a New Version of a Tax Report
 
 You create a new version of a tax report on the [Reporting Settings](../UserGuide/TX_20_51_00.md) \(TX205100\) form as follows:
 
@@ -20,7 +20,7 @@ You create a new version of a tax report on the [Reporting Settings](../UserGuid
 
 3.  You update the settings on the **Report Lines** and **Reporting Groups** tabs and save the report version.
 
-## Selection of a Report Version When Preparing and Releasing a Tax Report { .section}
+## Selection of a Report Version When Preparing and Releasing a Tax Report
 
 On the [Prepare Tax Report](../UserGuide/TX_50_10_00.md) \(TX501000\) form, the process that you run uses the report version that corresponds to the tax period selected on that form.
 
@@ -33,7 +33,7 @@ For the selected tax agency, during both processes, the system applies the repor
 
 If a tax report has multiple versions with a **Valid From** date that falls within the reporting period, the system will select the version with a **Valid From** date that is closest to the end date of the tax period.
 
-## Support of Report Versions in Tax-Related Reports and Inquiries { .section}
+## Support of Report Versions in Tax-Related Reports and Inquiries
 
 When you run the [Tax Summary](../UserGuide/TX_62_10_00.md) \(TX621000\) or [Tax Details](../UserGuide/TX_62_05_00.md) \(TX620500\) report or use the [Tax Report Details](../UserGuide/TX_50_20_10.md) \(TX502010\) form, the system uses the report version specified in the **Report Version** box on the [Reporting Settings](../UserGuide/TX_20_51_00.md) \(TX205100\) form for which a tax report has been prepared on the [Prepare Tax Report](../UserGuide/TX_50_10_00.md) \(TX501000\) form for the selected tax period.
 

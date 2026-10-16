@@ -1,4 +1,4 @@
-# Setting Up U.S. ACH Payment Processing {#_952754ca-0b63-4b3c-8881-f8becba722c0 .concept}
+# Setting Up U.S. ACH Payment Processing
 
 In this chapter, you will learn how to configure ACH payments in the United States.
 

@@ -1,4 +1,4 @@
-# Logging of Communication Activities {#_faad28db-b26f-4e43-8af7-43d9ea66622a .concept}
+# Logging of Communication Activities
 
 To preserve your communication history, you may want to associate an email with the corresponding contact and store it as an email activity in Acumatica ERP. \(For details, see [To Log an Email Activity](OU__how_To_Log_Email_Activity.md).\)
 

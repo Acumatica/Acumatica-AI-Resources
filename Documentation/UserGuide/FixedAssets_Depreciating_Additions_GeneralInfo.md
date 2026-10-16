@@ -1,8 +1,8 @@
-# Depreciation of Additions: General Information {#_f16cf5d7-d346-48c1-a6e1-dad8cfaceda6 .concept}
+# Depreciation of Additions: General Information
 
 When you make an addition to a fixed asset, you can depreciate it along with this asset. You can fully depreciate the asset in one particular book or in multiple books. After you fully depreciate an asset though its lifetime, the net value of the asset becomes *0.00*. If additions were made to the asset during its lifetime, you may need to change the asset's depreciation method and make a manual depreciation adjustment so that at the end of the lifetime, the asset and its additions are fully depreciated.
 
-## Learning Objectives {#section_hwf_ljv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,14 +10,14 @@ In this chapter, you will learn how to do the following:
 -   Fully depreciate the fixed asset
 -   Make a depreciation adjustment
 
-## Applicable Scenarios {#section_jwf_ljv_vxb .section}
+## Applicable Scenarios
 
 You depreciate additions to fixed assets if you need to capitalize these expenses. You make manual adjustment transactions to change fixed asset amounts posted in the system, such as the following:
 
 -   The amount of the depreciation of the selected fixed asset in a particular period \(for example, when you need to allocate the depreciation expenses between the financial periods\)
 -   The depreciable basis for the asset \(when the cost of an asset has been changed, usually decreased, since you acquired it\)
 
-## Depreciation of Additions to Fixed Assets {#section_lwf_ljv_vxb .section}
+## Depreciation of Additions to Fixed Assets
 
 You fully depreciate additions to fixed assets by performing the following actions:
 
@@ -48,7 +48,7 @@ If you want the asset to have a zero net value at the end of its useful life, yo
     **Attention:** You cannot use the [Convert Purchases to Assets](FA_50_45_00.md) \(FA504500\) form to process such additions, because the addition period is unavailable on this form and is the same as the period of the transaction.
 
 
-## Adjustment Transactions {#section_pwf_ljv_vxb .section}
+## Adjustment Transactions
 
 Generally, transactions related to fixed asset maintenance \(such as the acquisition or depreciation of assets\) are created in the system automatically right after you create or depreciate an asset. You can review the list of transactions related to a particular asset on the **Transactions** tab of the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form.
 

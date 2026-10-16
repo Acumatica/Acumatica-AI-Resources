@@ -1,4 +1,4 @@
-# Tab Container \(PXTab\) {#_2be5d728-90d6-4b63-8655-5b6ebfd636ee .concept}
+# Tab Container \(PXTab\)
 
 PXTab is a data-bound UI container control that renders tabs defined by child PXTabItem containers.
 
@@ -8,7 +8,6 @@ An ASPX page can contain PXTab as a main container. A tab container, as the diag
 -   PXTabItem
 -   PXSmartPanel
 
-![](images/CG_GL_Forms_ASPX_Containers_PXTab.png "Nesting rules for a PXTab container in an ASPX page")
 
 A tab container can include only PXTabItem container controls.
 

@@ -1,4 +1,4 @@
-# Configuration Parameters of the Application \(Setup Forms\) {#_e8ee0bad-780a-4489-8dce-48395e6757f2 .concept}
+# Configuration Parameters of the Application \(Setup Forms\)
 
 The configuration parameters of an application may include business settings, initial values, options, and modes that can be enabled or disabled. Configuration parameters are stored in *setup tables*. Each major part of an application can use its own setup tables. For example, in Acumatica ERP, the `ARSetup` and `APSetup` tables hold the configuration settings for the accounts receivable and accounts payable parts of the application, respectively. Administrators specify these settings on the [Accounts Receivable Preferences](../UserGuide/AR_10_10_00.md) \(AR101000\) and [Accounts Payable Preferences](../UserGuide/AP_10_10_00.md) \(AP101000\) forms, respectively.
 
@@ -6,7 +6,6 @@ A setup data access class \(DAC\) never has key fields. When a user navigates to
 
 A record from a setup table represents a consistent set of configuration parameters—that is, all fields of the record are specified and cannot be `null` \(the administrative user cannot save the record without all elements being specified, whether with default settings or those the user has specified\). You do not have to verify that each parameter has been specified in the setup record before use of this record. Instead, you just verify the existence of the setup record; its existence implies that all required parameters have been specified. If the configuration parameters have not been specified and a user tries to navigate to a form that uses these configuration parameters, you can return a specific error page that provides the link to the setup form where a user can specify the configuration parameters \(see the following screenshot\).
 
-![](Images/MissingConfErrorPage_ModernUI.png "Error page for missing configuration data")
 
 In an Acumatica Framework-based application, the configuration parameters are used as data fields of a `Setup` class. To define and use a `Setup` class, you perform the following steps:
 
@@ -40,7 +39,7 @@ To display the error page for missing configuration data in the UI when the user
     ```
 
 
-## Configuration Parameters in a Multitenant Application { .section}
+## Configuration Parameters in a Multitenant Application
 
 Each tenant may have its own configuration parameters that are identified by the company ID in the setup table. To support multitenant configuration, the setup table should contain the `CompanyID` column as the primary key in the database. The `CompanyID` field is not declared in DACs. This column is transparently handled by the framework, which retrieves records by the needed `CompanyID` only.
 

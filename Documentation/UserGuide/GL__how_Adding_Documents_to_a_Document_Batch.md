@@ -1,14 +1,14 @@
-# To Add Documents to a Document Batch {#_4a446408-bbe7-4363-8a72-fbb4061bb626 .task}
+# To Add Documents to a Document Batch
 
 You can create a batch of documents by using the [Journal Vouchers](GL_30_40_00.md) \(GL304000\) form. On this form, you can quickly enter miscellaneous documents.
 
 For each document type \(as determined by the transaction code\), you enter only the required information, by summary or with row details, if needed. When you release the batch, the actual documents in the Accounts Payable, Accounts Receivable, and Cash Management subledgers are generated and released automatically \(the documents correspond to the rows you enter on the **Transactions** tab of the [Journal Vouchers](GL_30_40_00.md) form\).
 
-## Before You Proceed {#section_nfj_mjv_vxb .section}
+## Before You Proceed
 
 Make sure that the necessary codes have been defined on the [Voucher Entry Codes](GL_10_60_00.md) \(GL106000\) form. You can enter your own codes, as described in [To Add Documents to a Document Batch](GL__how_Adding_Documents_to_a_Document_Batch.md), or upload the [Voucher Entry Codes](Files/Document_Quick_Entry_via_Document_Batches_L_Transaction_Codes_20120510.xlsx) file, which contains the Acumatica ERP predefined transaction codes.
 
-## To Create a Document Batch {#section_pfj_mjv_vxb .section}
+## To Create a Document Batch
 
 1.  Open the [Journal Vouchers](../Shared/../UserGuide/GL_30_40_00.md) \(GL304000\) form.
 
@@ -25,7 +25,7 @@ Make sure that the necessary codes have been defined on the [Voucher Entry Codes
 
 You can release a batch that has a status of *Balanced*. Releasing the batch causes the system to generate and release the actual documents in the respective modules.
 
-## To Add an Accounts Payable or Accounts Receivable Document to the Batch {#1 .section}
+## To Add an Accounts Payable or Accounts Receivable Document to the Batch
 
 1.  Open the [Journal Vouchers](../Shared/../UserGuide/GL_30_40_00.md) \(GL304000\) form.
 2.  In the **Batch Number** box, select the batch to which you want to add a document.
@@ -46,7 +46,7 @@ You can release a batch that has a status of *Balanced*. Releasing the batch cau
     11. If the **Control Total** box appears in the Summary area, enter the amount, which is equal to the credit and debit total.
 4.  On the form toolbar, click **Save**.
 
-## To Add a Cash Adjustment to the Batch {#3 .section}
+## To Add a Cash Adjustment to the Batch
 
 1.  Open the [Journal Vouchers](../Shared/../UserGuide/GL_30_40_00.md) \(GL304000\) form.
 2.  In the **Batch Number** box, select the batch to which you want to add a cash entry.
@@ -67,7 +67,7 @@ You can release a batch that has a status of *Balanced*. Releasing the batch cau
     11. If the **Control Total** box appears in the Summary area, enter the amount, which is equal to the credit and debit total.
 4.  On the form toolbar, click **Save**.
 
-## To Add a Batch of Journal Transactions to the Document Batch {#4 .section}
+## To Add a Batch of Journal Transactions to the Document Batch
 
 **Note:** By using the quick entry form, you can add only transactions that have at least one entry \(debit or credit\) with the amount equal to the transaction total.
 

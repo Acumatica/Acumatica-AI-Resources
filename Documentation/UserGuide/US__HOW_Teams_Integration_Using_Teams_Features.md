@@ -1,12 +1,12 @@
-# To Use Teams Integration {#_f2710ca4-73fe-4859-85a5-51b8d03273c6 .task}
+# To Use Teams Integration
 
 After all the settings required for Teams integration have been configured, you can start communication through Teams from Acumatica ERP forms. The following sections describe in general terms how you can send a message in Teams, start a call, schedule a Teams meeting, share a record, upload files that have been shared with you in Teams, or send messages to a Teams channel.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Before you begin, make sure you have configured the required settings, as described in [To Configure Acumatica ERP for Teams Integration](US__HOW_Teams_Integration_Configuring_Teams_Features.md).
 
-## To Communicate with a Teams User { .section}
+## To Communicate with a Teams User
 
 To start communication with a Teams user from Acumatica ERP, you perform the following general actions:
 
@@ -20,7 +20,7 @@ To start communication with a Teams user from Acumatica ERP, you perform the fol
     When you click any of these buttons, the system opens the appropriate Teams page or Teams dialog box.
 
 
-## To Share a Record with a Teams Channel or a Member { .section}
+## To Share a Record with a Teams Channel or a Member
 
 You can share with a Teams channel or a Teams member any records created on data entry forms. To share a record, you perform the following general actions:
 
@@ -37,7 +37,7 @@ You can share with a Teams channel or a Teams member any records created on data
     The system sends the message, and a message with the link to the record appears in the specified Teams channel, or in the chat with the specified Teams user.
 
 
-## To Import Files Shared in Teams { .section}
+## To Import Files Shared in Teams
 
 To import to Acumatica ERP files that have been shared with you in Teams, you perform the following general actions:
 
@@ -53,7 +53,7 @@ To import to Acumatica ERP files that have been shared with you in Teams, you pe
     The system uploads to the form the files that you have specified.
 
 
-## To Configure the Sending of Automatic Messages to a Teams Channel { .section}
+## To Configure the Sending of Automatic Messages to a Teams Channel
 
 To configure a message that the system should send to a Teams channel, you perform the following general actions:
 

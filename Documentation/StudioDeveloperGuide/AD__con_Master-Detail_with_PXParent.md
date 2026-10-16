@@ -1,8 +1,8 @@
-# Master-Detail Relationship Between Data with PXDBDefault and PXParent {#_a8c114c5-de91-41e8-906f-6d88f0842582 .concept}
+# Master-Detail Relationship Between Data with PXDBDefault and PXParent
 
 To set up the master-detail relationship between data access classes, you have to add two attributes, PXDBDefault and PXParent, to the DAC fields of the detail class. You can specify these attributes directly in the DAC or within a graph \(in the CacheAttached event handler\).
 
-## PXDBDefault {#section_f4r_3tg_nm .section}
+## PXDBDefault
 
 The PXDBDefault attribute specifies the default value for a data field. You should use this attribute to insert the default value, which is the foreign key to the master DAC.
 
@@ -21,7 +21,7 @@ public virtual int? SupplierID
 }
 ```
 
-## PXParent {#pxparent .section}
+## PXParent
 
 The PXParent attribute specifies the master-detail relationship between classes.
 
@@ -76,7 +76,7 @@ We recommend that you ensure that the PXParent declaration satisfies the followi
 
     -   In the Select query, you should not use unparametrized queries—that is, queries without a reference to the current value of a child DAC field in the cache \(FromCurrent or Current&lt;T&gt; references\). For details, see [Parameters in Fluent BQL](https://help-2020r2.acumatica.com/(W(38))/Wiki/Show.aspx?pageid=9d56ea11-0768-4f4d-b7ab-1cea724c42cb&HideScript=On).
 
-## Selection of the Master-Detail Data {#section_zs3_j5g_nm .section}
+## Selection of the Master-Detail Data
 
 To select master-detail data, you define two data views in the graph \(see the code below\). In this code example, the master data view selects data records of the `Supplier` class, while the detail data view selects records of the `SupplierProduct` class. To select the details for a particular master record, you specify the master key field in the Current parameter of the data view type. In the Current parameter, Acumatica Framework inserts the value from the Current property of the PXCache object that works with the specified DAC.
 

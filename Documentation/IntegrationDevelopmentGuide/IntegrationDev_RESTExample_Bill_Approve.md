@@ -1,8 +1,8 @@
-# Approve a Bill {#_d2501c01-f3da-45be-b056-2143b31f98e0 .concept}
+# Approve a Bill
 
 By using the REST API, you can approve a bill, which is available on the [Bills and Adjustments](../UserGuide/AP_30_10_00.md) \(AP301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to do the following to configure your client application and the Acumatica ERP instance to be used:
 
@@ -37,21 +37,21 @@ Before you test the code below, you need to do the following to configure your c
 8.  If you are using Postman as the client application for testing, in the `IntegrationDevelopmentGuide.postman_collection.json` collection, make sure that the collection’s variables have the proper values. This collection is located in the `IntegrationDevelopment\Help` folder of the [Help-and-Training-Examples](https://github.com/Acumatica/Help-and-Training-Examples) repository on GitHub.
 9.  To sign in to the instance in the client application, use the tenant name \(which you specified when you created the instance\), the *HEADOFFICE* branch, the *johnson* name, and the *123* password.
 
-## Request { .section}
+## Request
 
 You can use the following example of an HTTP request to approve the *000159* AP bill.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-POST /entity/Default/25.200.001/Bill/Approve HTTP/1.1
+POST /entity/Default/26.200.001/Bill/Approve HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
 Content-Type: application/json
 
 {
     "entity": {
-        "Type": {"value": "Bill"},
+        "Type": {"value": { "id": "INV" }},
         "ReferenceNbr": {"value": "000159"}
     },
     "parameters": {}

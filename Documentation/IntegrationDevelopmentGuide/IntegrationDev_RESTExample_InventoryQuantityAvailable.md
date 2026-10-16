@@ -1,4 +1,4 @@
-# InventoryQuantityAvailable {#_5ad3515b-f975-4846-9599-a8d418bda1c7 .concept}
+# InventoryQuantityAvailable
 
 This chapter presents code examples showing requests that use the `InventoryQuantityAvailable` entity.
 

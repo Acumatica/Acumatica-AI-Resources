@@ -1,4 +1,4 @@
-# Configuring Payroll {#_ca13ce27-0b83-4b7a-9552-f59c43fada97 .concept}
+# Configuring Payroll
 
 In this chapter, you can find information on setting up and maintaining the basic configuration of the payroll functionality.
 

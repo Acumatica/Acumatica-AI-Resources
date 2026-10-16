@@ -1,19 +1,19 @@
-# Project Billing Preparation: General Information {#_b10042e7-5e77-4c46-8e71-b15bbdd9cadd .concept}
+# Project Billing Preparation: General Information
 
 In Acumatica ERP, you run project billing to automatically generate customer invoices based on the accounting data related to the projects.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Select the type of the document to be prepared
 -   Make sure that the project is ready to be billed
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 For each project, you decide which type of the project invoice is prepared during project billing. Once a project is ready to be billed, you run the project billing procedure.
 
-## Project Invoice Workflow { .section}
+## Project Invoice Workflow
 
 The type of the document that the system will generate during the project billing procedure depends on the state of the **Create Pro Forma Invoice on Billing** check box on the **Summary** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form:
 
@@ -22,7 +22,7 @@ The type of the document that the system will generate during the project billin
 
 The date of the created document is the **Next Billing Date** specified for the project on the **Summary** tab \(**Billing and Allocation Settings** section\). If *On Demand* is specified as the billing period of the project \(in the same section of this tab\), the date of the prepared invoice is the current business date.
 
-## Billing Process Preparation { .section}
+## Billing Process Preparation
 
 The billing procedure in Acumatica ERP is straightforward and depends on the type of the step of the billing rule that is specified for each project task on the **Tasks** tab of the [Projects](PM_30_10_00.md) \(PM301000\) form as follows:
 
@@ -39,7 +39,7 @@ For the billing process for a project to be run successfully, the project must m
 -   The rate table must be specified for a project task if the related billing rule contains the *@Rate* parameter.
 -   Sales prices must be configured for non-stock items if the related billing rule contains the *@Price* parameter.
 
-## Projects Pending Billing { .section}
+## Projects Pending Billing
 
 You run the project billing procedure for a project that is pending billing by opening the project on the [Projects](PM_30_10_00.md) \(PM301000\) form and clicking **Run Billing** on the form toolbar. The billing procedure can be run only for a project that is pending billing—that is, only if at least one of the following exists for the project:
 

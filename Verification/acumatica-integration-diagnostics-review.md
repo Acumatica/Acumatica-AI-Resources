@@ -1,6 +1,21 @@
 # Review: `acumatica-integration-diagnostics` Skill
 
-## Context
+## Instance verification — 2026-10-16
+
+Verified cookie authentication, the installed Default/26.200.001 OpenAPI schema, nested selection, structured drop-down values/ID filters, nullable schema values, custom-field selection and a disposable CostCode create/read/update/delete lifecycle on build 26.200.0368. Deletion was confirmed by a fresh filtered list. OAuth was excluded by the user and accepted as up-to-date, not tested. Other transports, Version 4, multi-select filters and generated-client compilation remain unverified.
+
+Runtime test fixtures were removed after verification. The test project, REST record, development sources, test article and Wiki were cleaned up. The results and coverage boundaries are summarized above; the documentation-review section below describes the earlier review stage.
+
+
+## Initial 2026 R2 review — 2026-10-16 (before instance verification)
+
+Reviewed the entrypoint, agent metadata and new contract-migration reference against the imported 2026 R2 contract comparison, system-endpoint comparison, Version 4/5 query guides and OpenAPI topic, using the repository verification checklist and current Skill Creator guidance. Both documentation fallback URLs now pin 2026R2. Intake distinguishes ERP, endpoint and contract versions; the reference preserves supported Version 4 endpoints and describes Version 5 query nesting, custom-field selection, drop-down IDs/structured values, multi-select filters and nullable generated models. The endpoint comparison is explicitly 26.200.001 versus 25.200.001, rather than an invented 2026 R1-to-2026 R2 comparison. Metadata is now 1.1.0.
+
+Manual decision checks covered retaining a supported Version 4 integration after an ERP upgrade and migrating a Version 4 request with nested/custom/drop-down values to Version 5. The guidance selects contract-specific builders and target-schema client generation instead of changing only the URL or guessing package versions. The new nested/custom-field examples address the historical lack of a worked request example. Skill validation, repository contribution validation and local-link validation passed. No new P1 or P2 findings were identified. Historical P3 suggestions about progress tracking and discovery boundaries remain optional.
+
+At this initial review stage, no 2026 R2 endpoint, OAuth flow, generated client build or HTTP request was exercised. Remote fallback URLs were retargeted but not network-verified in this review. Runtime/package availability must be checked on the target instance and package source. The 2026 R1 review below, including old file counts, URLs and version notes, is historical evidence.
+
+## Context (historical 2026 R1 review)
 
 Re-reviewed `DEV/skills/acumatica-integration-diagnostics` on 2026-09-02, refreshing the 2026-08-05 review after the scope-dependent sign-out correction in PR #3, and re-run after the documentation-fallback fix requested in review. Scope included both files in the skill folder — `SKILL.md` (102 lines, 1379 words) and `agents/openai.yaml` — plus the three `Documentation/` paths the instructions point callers at, which were resolved on disk, and the two GitHub URLs the new fallback names, which were resolved over the network. Verification covered folder and frontmatter validity, discovery metadata, description and instruction quality, workflow completeness, size and progressive disclosure, cross-reference integrity, and platform-neutral wording against Skill Authoring Best Practices, Skills Docs, the Complete Guide, and Skill Creator guidance.
 
@@ -70,4 +85,4 @@ The corrected bullets at SKILL.md:66–67 were checked separately and are clean:
 - The cited topic, `Documentation/IntegrationDevelopmentGuide/OAuthOIDC_GettingStarted_SignOut.md`, exists on this branch, and every claim in the bullet is supported by it: sign-out required for cookie-based sign-in and for `api:concurrent_access`, recommended for `api`-only (one-hour token expiry, API-user limit), not required for `api` with `offline_access` (one session reused per granted access).
 - Splitting the original bullet keeps the library-level rule ("do not reuse a generated client's cookie-session logout helper") separate from the protocol-level decision, so neither reads as the other. The mixed vocabulary is deliberate: `logout` names the helper and the endpoint path, while the surrounding prose follows the documentation's own term, "sign out."
 - No platform-specific tool names and no new frontmatter fields were introduced. `metadata.version` was bumped to 1.0.1 alongside the three plugin manifests; the fallback added later in review rides the same unreleased version rather than taking a second bump.
-- The fallback URLs pin the `2026R1` branch, matching the branch this file lives on, so each release branch points at its own documentation. That is version-scoped rather than time-sensitive, but it does mean the two URLs need updating when a release branch is cut. A branch-agnostic phrasing would avoid that at the cost of naming no concrete location.
+- At the time of this historical 2026 R1 review, the fallback URLs pinned the `2026R1` branch, so each release branch points at its own documentation. That is version-scoped rather than time-sensitive, but it does mean the two URLs need updating when a release branch is cut. A branch-agnostic phrasing would avoid that at the cost of naming no concrete location.

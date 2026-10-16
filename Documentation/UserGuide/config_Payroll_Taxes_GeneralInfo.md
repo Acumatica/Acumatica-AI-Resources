@@ -1,16 +1,16 @@
-# Taxes: General Information {#_a62bb501-be3a-46ec-a8f1-2928d23349fd .concept}
+# Taxes: General Information
 
 Each payroll-related tax \(whether it is of the employee withholding type or the employer type\) is represented by a payroll tax code. The tax code describes the type of tax, the jurisdiction it is associated with, the tax agency that receives the tax payments, and the specific tax location information necessary for the calculation of the tax by the Symmetry Tax Engine software. Many taxes require additional detailed information, as mandated by the specific government entity, and these details are entered and maintained through attributes associated with the specific tax code.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to create payroll-related taxes and assign the appropriate taxes to employees based on their work location or address.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure payroll-related taxes if you want to process payroll documents with state withholding taxes and employer taxes calculated because the system will prevent you from calculating a paycheck if the relevant taxes are not assigned to the employee.
 
-## Setting Up Taxes { .section}
+## Setting Up Taxes
 
 By clicking **Update Taxes** on the form toolbar of the [Tax Maintenance](PR_20_80_00.md) \(PR208000\) form, you download the latest tax details from the Symmetry tax engine, and then the system creates tax codes related to all employee addresses and work locations stored in the system. As a result, the **Tax Codes** tab on that form becomes populated with data. You need to perform this operation during the initial configuration of taxes in the system and then each time new tax information becomes available in the Symmetry tax engine—you will see a warning on the [Paychecks and Adjustments](PR_30_20_00.md) \(PR302000\) and [Payroll Batches](PR_30_10_00.md) \(PR301000\) forms if tax information needs to be updated in the system.
 
@@ -47,7 +47,7 @@ After the taxes have been created and reviewed, you can click **Assign Taxes to 
 
 To assign taxes to an individual employee, you need to click the **Import Taxes** button on the **Taxes** tab of the [Employee Payroll Settings](PR_20_30_00.md) form. As a result, the system fills in the table in the left pane of the tab with the relevant taxes based on the work locations and the address specified for the employee.
 
-## Using Custom Notes { .section}
+## Using Custom Notes
 
 To record a piece of information about a tax code or tax attribute and share it with other users, you can use custom text notes.
 

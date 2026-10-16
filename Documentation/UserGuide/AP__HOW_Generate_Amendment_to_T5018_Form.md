@@ -1,8 +1,8 @@
-# To Generate an Amendment to CRA Reporting Forms {#_94d3832b-9603-4638-b5db-91ef7788be5d .task}
+# To Generate an Amendment to CRA Reporting Forms
 
 If you have added or voided any payment to a particular subcontractor and require an amended T5018 or T4A report, you can prepare an amendment for the original report on the [Create CRA E-File](AP_50_76_00.md) \(AP507600\) form.
 
-## Before You Proceed {#section_xbq_njv_vxb .section}
+## Before You Proceed
 
 Before you proceed, make sure that the following actions have been performed in the system:
 
@@ -10,7 +10,7 @@ Before you proceed, make sure that the following actions have been performed in 
 -   The original file has been submitted to CRA and the **E-File Submitted to CRA** check box has been selected for the needed revision of the report.
 -   New documents for T5018 vendors or T4A vendors have been recorded in the system after the original file was submitted.
 
-## To Generate an Amendment to the T5018 E-File { .section}
+## To Generate an Amendment to the T5018 E-File
 
 1.  Open the [Create CRA E-File](AP_50_76_00.md) \(AP507600\) form.
 2.  In the **Tax Form** box, select *T5018*.
@@ -41,7 +41,7 @@ Before you proceed, make sure that the following actions have been performed in 
 11. On the form toolbar, click **Save**.
 12. When the amended e-file has been submitted to CRA, select the **E-File Submitted to CRA** check box and click **Save** to save the changes.
 
-## To Generate an Amendment to the T4A E-File { .section}
+## To Generate an Amendment to the T4A E-File
 
 1.  Open the [Create CRA E-File](AP_50_76_00.md) \(AP507600\) form.
 2.  In the **Tax Form** box, select *T4A*.

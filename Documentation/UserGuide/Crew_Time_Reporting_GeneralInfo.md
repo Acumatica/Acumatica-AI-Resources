@@ -1,14 +1,14 @@
-# Employee Time Entry: Crew Time {#_0ee6f7c3-a76f-49b1-ab65-f9e495d70118 .concept}
+# Employee Time Entry: Crew Time
 
 In Acumatica ERP, if the *Time Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, any group of employees \(which can be referred to as a *crew*\) can be defined as a workgroup and used for group entry, approval, and release of time activities.
 
-## Managing Crews { .section}
+## Managing Crews
 
 On the [Company Tree](EP_20_40_61.md) \(EP204061\) form, you can group employees—that is, people in the organization with accounts defined on the [Employees](EP_20_30_00.md) \(EP203000\) form—into crews. A crew can be defined through a workgroup, which you can create in the **Company Tree** pane of the [Company Tree](EP_20_40_61.md) form. You can add members to each workgroup by using the **Workgroup Details** pane. A workgroup may include permanent and temporary members.
 
 Also, when creating group time activities on the [Weekly Crew Time Entry](EP_30_71_00.md) \(EP307100\) form, you can add any employee defined in the system to the list of crew members. This capability is useful if that employee has performed the same activities as the other members of the crew. This added employee is marked as an ad hoc member of the crew, indicating that the employee is not a member of the selected workgroup.
 
-## Creating Crew Time Entries { .section}
+## Creating Crew Time Entries
 
 You can create multiple identical time activities for members of a crew by using the [Weekly Crew Time Entry](EP_30_71_00.md) \(EP307100\) form.
 
@@ -23,7 +23,7 @@ Initially, the left pane of the **Mass Enter Time** dialog box lists all members
 
 On the **Crew Members** tab of the [Weekly Crew Time Entry](EP_30_71_00.md) form, you can review the reported work hours of the crew members, including ad hoc members, broken down by the days of the week. The **Workgroup Members** counter shows the total number of the crew members, including ad hoc members. The **Members with Activities** counter shows the total number of crew members who have time activities reported for the selected week.
 
-## Processing Crew Time Activities { .section}
+## Processing Crew Time Activities
 
 After time activities have been mass-created for crew members, they can be processed as other time activities are.
 

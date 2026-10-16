@@ -1,14 +1,14 @@
-# Replenishment Through Transfers: Process Activity {#_398be72d-184c-42d0-a472-61d1ca9fda6c .task}
+# Replenishment Through Transfers: Process Activity
 
 The following activity demonstrates how to prepare and perform replenishment in Acumatica ERP by transferring goods between warehouses.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Matt Parker, a purchasing manager of the SweetLife Fruits &amp; Jams company. You are going to buy grapefruit for the SweetLife Store branch and refill the stock in the Retail warehouse. In this branch, replenishment is performed by transferring the needed goods from the Wholesale warehouse of the SweetLife Head Office and Wholesale Center branch to the Retail warehouse.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -21,7 +21,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Order Types](SO_20_10_00.md) \(SO201000\) form, the *Transfer* \(*TR*\) order type, which can be specified on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form for a transfer order, has been created.
 -   On the [Sales Orders](SO_30_10_00.md) form, for the Cakeado customer, a sales order dated *01/25/2026* has been created for 25 pounds of grapefruit.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -31,7 +31,7 @@ In this activity, you will do the following:
 4.  Prepare and process the documents for shipping items from the *WHOLESALE* warehouse by using the [Create Transfer Orders](SO_50_90_00.md) \(SO509000\), [Sales Orders](SO_30_10_00.md) \(SO301000\), and [Shipments](SO_30_20_00.md) \(SO302000\) forms.
 5.  Prepare and process the purchase receipt for the items in the *RETAIL* warehouse on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form; the corresponding inventory receipt is automatically created on the [Receipts](IN_30_10_00.md) \(IN301000\) form and released.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start preparing and performing replenishment through transfers, do the following:
 
@@ -39,7 +39,7 @@ Before you start preparing and performing replenishment through transfers, do th
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the Company and Branch Selection menu in the top pane of the Acumatica ERP screen, select the *SweetLife Store* branch.
 
-## Step 1: Specifying the Replenishment Settings of a Stock Item { .section}
+## Step 1: Specifying the Replenishment Settings of a Stock Item
 
 To specify the replenishment settings of the *GRAPEFRUIT* stock item, do the following:
 
@@ -49,7 +49,7 @@ To specify the replenishment settings of the *GRAPEFRUIT* stock item, do the fol
     -   **Max. Qty.**: *100*
 3.  On the form toolbar, click **Save**.
 
-## Step 2: Reviewing the Replenishment Settings of the Item-Warehouse Pair { .section}
+## Step 2: Reviewing the Replenishment Settings of the Item-Warehouse Pair
 
 To review the replenishment settings of the *GRAPEFRUIT* stock item in the *RETAIL* warehouse, you should do the following:
 
@@ -69,7 +69,7 @@ To review the replenishment settings of the *GRAPEFRUIT* stock item in the *RETA
     With these settings, you replenish grapefruit in the *RETAIL* warehouse by transferring the needed quantities of the item from the *WHOLESALE* warehouse. The *GRAPEFRUIT* stock item appears in the list of items for replenishment on the [Prepare Replenishment](IN_50_80_00.md) \(IN508000\) form when you have 30 pounds \(which is the base unit of measure for this item\) or less of the item in stock. The **Max Qty.** value is used for the calculation of replenishment parameters in the *RETAIL* warehouse. For details, see [Configuration of Replenishment: Replenishment Methods](../ImplementationGuide/config_OrderMgmt_Replenishment_Methods.md).
 
 
-## Step 3: Preparing the Replenishment { .section}
+## Step 3: Preparing the Replenishment
 
 To process any items in the SweetLife Store branch that require replenishment, do the following:
 
@@ -96,7 +96,7 @@ To process any items in the SweetLife Store branch that require replenishment, d
 6.  On the form toolbar, click **Process**. The **Processing** dialog box opens, showing the progress and then the results of the processing. The system generates the replenishment request for the transfer, which consists of the *GRAPEFRUIT* item, and adds the request on the [Create Transfer Orders](SO_50_90_00.md) \(SO509000\) form.
 7.  Close the **Processing** dialog box. Notice that the row with the *GRAPEFRUIT* stock item is no longer displayed in the table.
 
-## Step 4: Shipping the Stock Items Between the Warehouses { .section}
+## Step 4: Shipping the Stock Items Between the Warehouses
 
 Now that you have prepared the replenishment request for the grapefruit, you need to prepare the documents for shipping the fruits from the *WHOLESALE* warehouse to the *RETAIL* warehouse. Do the following:
 
@@ -117,10 +117,9 @@ Now that you have prepared the replenishment request for the grapefruit, you nee
 9.  On the **Qty by Plan Type** tab, on the toolbar of the **Addition** table, select *All Records*.
 10. In the row that has *In-Transit* in the **Plan Type** column, make sure that the quantity is *125*, as shown in the following screenshot. This quantity of grapefruit is ready to be received in the *RETAIL* warehouse.
 
-    ![](Images/OrderMgmt_Replenishment_by_Transfer_To_Replenish_Inventory_Items_in_Transit.png "The stock item in transit")
 
 
-## Step 5: Receiving the Stock Items in the Retail Warehouse { .section}
+## Step 5: Receiving the Stock Items in the Retail Warehouse
 
 To create the documents to reflect the receipt of the grapefruit in the *RETAIL* warehouse, do the following:
 
@@ -141,7 +140,6 @@ To create the documents to reflect the receipt of the grapefruit in the *RETAIL*
     2.  **Warehouse**: *RETAIL*
     Notice that in the **On Hand** column, the quantity is *125*, as shown in the following screenshot.
 
-    ![](Images/OrderMgmt_Replenishment_by_Transfer_To_Replenish_Inventory_Item_in_Retail.png "The stock item received in the RETAIL warehouse")
 
     **Tip:** If you need to change the order of columns in any table, you can drag a column by its header to the new place in the table.
 

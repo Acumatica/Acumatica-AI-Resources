@@ -1,8 +1,8 @@
-# Direct Write-Offs: Generated Transactions {#_821c7064-9b35-4858-b621-d726b4344e7f .concept}
+# Direct Write-Offs: Generated Transactions
 
 As you process direct write-offs, the system creates and releases the *Credit WO* and *Balance WO* documents. To update customer balances, the system generates the GL transactions described in the following sections.
 
-## Transaction Generated for a Credit Write-Off { .section}
+## Transaction Generated for a Credit Write-Off
 
 When you process a credit write-off, the system creates and releases a *Credit WO* document and generates the following general ledger transaction:
 
@@ -13,7 +13,7 @@ When you process a credit write-off, the system creates and releases a *Credit W
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 
-## Transaction Generated for a Balance Write-Off { .section}
+## Transaction Generated for a Balance Write-Off
 
 When you create and release a balance write-off, the system creates and releases a *Balance WO* document and generates the following general ledger transaction:
 

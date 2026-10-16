@@ -1,4 +1,4 @@
-# Testing of the Modern UI: Names of WG Containers {#_62d4f55b-6c7a-452b-811e-0138f19fbe10 .concept}
+# Testing of the Modern UI: Names of WG Containers
 
 To maintain the testability of the forms in the Modern UI, the names of WG containers must be the same as the names of respective wrapper containers for the Classic UI. By default, the WG container names for qp-fieldset and qp-grid are generated automatically so that they are the same as the names in the Classic UI.
 
@@ -6,7 +6,7 @@ The name of the WG container is generated as follows: `<ViewName>_<ElementID>`, 
 
 For complex cases or when the element IDis different from the one specified in the Classic UI, you can specify the name of the WG container manually in HTML by using the following approaches.
 
-## The wg-container Attribute Without a Name { .section}
+## The wg-container Attribute Without a Name
 
 To make the WG container name have the &lt;ViewName&gt;\_&lt;ElementID&gt; format, you add the wg-container attribute to a tag that has the view and ID specified and do not specify the name of the WG container.
 
@@ -14,15 +14,23 @@ The wrapper generator will generate a single container for all fields inside thi
 
 **Note:** In the Modern UI, the values of the id attribute are visible to users for personalization, so they should be easy to understand. Therefore, we recommend that you specify the legacy name of the container in the wg-container attribute, as described in the following sections, and create a new user-friendly identifier. For instructions on specifying the id values, see the page corresponding to the UI element in [UI Component Guide](UIDevRef_Guide.md).
 
-## The wg-container Attribute for the qp-template Tag { .section}
+## The wg-container Attribute for the qp-template Tag
 
 To assign the same WG container name to all fields inside all fieldsets of the qp-template tag, you specify the wg-container attribute in the qp-template tag. The resulting name will have the following format: `<Template_id>`, where `<Template_id>` is the value of the id attribute of the qp-template tag.
 
 The following table shows the usage of the wg-container attribute in the qp-template tag of the HTML template and the corresponding tag in the ASPX file.
 
-|HTML|ASPX|
-|----|----|
-|```
+<table id="_11573aff-b1ee-4d1a-8d14-4a628f72e07e"><thead><tr><th>
+
+HTML
+
+</th><th>
+
+ASPX
+
+</th></tr></thead><tbody><tr><td>
+
+```
 <qp-template
   name="7-10-7"
   id="**Document\_form**" 
@@ -58,7 +66,9 @@ The following table shows the usage of the wg-container attribute in the qp-temp
 </qp-template>
 ```
 
-|```
+</td><td>
+
+```
 	
 <px:PXFormView 
   ID="**form**" 
@@ -73,19 +83,28 @@ The following table shows the usage of the wg-container attribute in the qp-temp
 </px:PXFormView>
 ```
 
-|
+</td></tr></tbody>
+</table>
 
 This approach is useful when the fields used to be in the same WG container but ended up separated in multiple fieldsets of the same template, such as three columns in the Summary area.
 
-## The wg-container Attribute with the Explicitly Specified Name { .section}
+## The wg-container Attribute with the Explicitly Specified Name
 
 To make the name of WG container exactly the same as it was in the Classic UI, you specify it as a value of the wg-container attribute. All nested controls will have the same WG container name that is specified in the parent tag.
 
 The following table shows how to specify the name of the WG container in the HTML file and the corresponding code in ASPX.
 
-|HTML|ASPX|
-|----|----|
-|```
+<table id="_51488504-6a5e-4700-bd6e-854979d55e47"><thead><tr><th>
+
+HTML
+
+</th><th>
+
+ASPX
+
+</th></tr></thead><tbody><tr><td>
+
+```
 <qp-fieldset
   slot="C" 
   id="groupVoucherDetails" 
@@ -97,7 +116,9 @@ The following table shows how to specify the name of the WG container in the HTM
 </qp-fieldset>
 ```
 
-|```
+</td><td>
+
+```
 <px:PXFormView 
   ID="**VoucherDetails**" 
   runat="server" 
@@ -110,17 +131,26 @@ The following table shows how to specify the name of the WG container in the HTM
 </px:PXFormView>
 ```
 
-|
+</td></tr></tbody>
+</table>
 
-## Names of WG Containers Inside a Fieldset { .section}
+## Names of WG Containers Inside a Fieldset
 
 In the qp-fieldset tag, if you need to specify the names of the WG container for multiple fields, you put these fields inside the using tag and specify the name of the WG container in the using tag. This approach may be useful if fields from different WG containers are included in the same fieldset.
 
 The following table shows an example of the using tag in HTML and the corresponding code in ASPX.
 
-|HTML|ASPX|
-|----|----|
-|```
+<table id="_b5bcd167-3d13-42f3-acf5-ccee54c25526"><thead><tr><th>
+
+HTML
+
+</th><th>
+
+ASPX
+
+</th></tr></thead><tbody><tr><td>
+
+```
 <qp-fieldset ...>
   <field name="ClassID"></field>
   **&lt;using**
@@ -134,7 +164,9 @@ The following table shows an example of the using tag in HTML and the correspond
 </qp-fieldset>
 ```
 
-|```
+</td><td>
+
+```
 <px:PXTab ...>
   <px:PXSelector .../>
   <px:PXFormView ID="**formDetails2**" 
@@ -151,17 +183,26 @@ The following table shows an example of the using tag in HTML and the correspond
 </px:PXTabItem>
 ```
 
-|
+</td></tr></tbody>
+</table>
 
-## The wg-name Attribute { .section}
+## The wg-name Attribute
 
 To specify the name of the element inside a container, for the qp-field and qp-button tags, you can use the wg-name attribute.
 
 The following table shows usage of the wg-name attribute and the corresponding code in ASPX.
 
-|HTML|ASPX|
-|----|----|
-|```
+<table id="_9d15cc5e-4d99-450b-9aaa-cb266a8a3be8"><thead><tr><th>
+
+HTML
+
+</th><th>
+
+ASPX
+
+</th></tr></thead><tbody><tr><td>
+
+```
 <field 
   name="CuryOrigDocAmt">
   <qp-button 
@@ -174,7 +215,9 @@ The following table shows usage of the wg-name attribute and the corresponding c
 </field>
 ```
 
-|```
+</td><td>
+
+```
 <px:PXLayoutRule 
   runat="server" Merge="True" />
   <px:PXNumberEdit 
@@ -191,15 +234,24 @@ The following table shows usage of the wg-name attribute and the corresponding c
 <px:PXLayoutRule runat="server" />
 ```
 
-|
+</td></tr></tbody>
+</table>
 
-## WG Containers for the qp-info-box Control {#_98c723af-512e-4ea3-baca-49d366b0ac9c .section}
+## WG Containers for the qp-info-box Control
 
 By default, the qp-info-box control are not included into wrappers. If you want to include the qp-info-box control into wrappers, specify the WG attributes manually, as shown in the following example. For more details about the qp-info-box control, see [Error, Warning, or Informational Notification](UIDevRef_InfoBox_Mapref.md).
 
-|HTML|ASPX|
-|----|----|
-|```
+<table id="_4d645cc5-e949-41c5-b62d-edf05c802676"><thead><tr><th>
+
+HTML
+
+</th><th>
+
+ASPX
+
+</th></tr></thead><tbody><tr><td>
+
+```
 <qp-info-box
   caption.bind=
     "AccountTypeChangePrepare.Message.value"
@@ -211,7 +263,9 @@ By default, the qp-info-box control are not included into wrappers. If you want 
 </qp-info-box>
 ```
 
-|```
+</td><td>
+
+```
 <px:PXFormView 
   **ID="FormAccountTypeChange"** ...
   **DataMember="AccountTypeChangePrepare"**>
@@ -226,7 +280,8 @@ By default, the qp-info-box control are not included into wrappers. If you want 
 </px:PXFormView>
 ```
 
-|
+</td></tr></tbody>
+</table>
 
 **Parent topic:**[Testing the Modern UI](../DeveloperGuide/UIDev_Testing_Mapref.md)
 

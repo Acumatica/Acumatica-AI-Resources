@@ -1,17 +1,8 @@
-# Business Events: General Information {#_3a9bf075-594c-41c5-90e4-aff1c5db6510 .concept}
+# Business Events: General Information
 
 In Acumatica ERP, various business processes are executed, which may require the monitoring of particular activities and conditions in the system. To eliminate the need for a user to monitor these business processes, you can configure the system to monitor the company data and to perform an action \(such as sending an email notification or performing the instructions defined by an import scenario\) or multiple actions in the system.
 
-## Learning Objectives { .section}
-
-In this chapter, you will learn how to do the following:
-
--   Create business events to monitor data changes of a selected set of database fields and notify the involved parties about the changes
--   Create business events to monitor events on a particular data entry form and notify the involved parties about the events
--   Configure the system to monitor on a schedule whether a set of conditions has been met and perform the specified actions
--   Configure the system to send notifications for the list of all, selected, or filtered records of an inquiry
-
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You use business events in the following cases:
 
@@ -23,8 +14,9 @@ You use business events in the following cases:
     -   A manager may want to know when a specific purchase order has received all the required approvals.
     -   A credit manager may want to know when a sales order is created for a particular customer that is approaching its credit limit.
     -   A customer service manager may want to be informed when a new employee is assigned a case of a specific type, to give the employee assistance with this type of case.
+-   You need an AI Automation agent to process records when a data change occurs, on a schedule, or when a user starts the processing from a generic inquiry form. The agent can review the current record and supporting data and write a result that another configured step can use.
 
-## Types of Business Events { .section}
+## Types of Business Events
 
 To configure the system to monitor a business process, on the [Business Events](SM_30_20_50.md) \(SM302050\) form, you define a *business event* that relates to this business process and that causes the system to perform an action or multiple actions in the system.
 
@@ -36,7 +28,7 @@ The business event can be one of the following:
 
 Then for each business event, you specify a source for monitoring, conditions to trigger actions, and actions \(event subscribers\) to be performed when conditions are met. If you want the system to monitor a business process at scheduled days and times, you also specify a schedule for the event.
 
-## Source for Monitoring { .section}
+## Source for Monitoring
 
 The system needs a source to monitor data changes or the occurrence of particular events. The source defines a set of database fields whose values are to be monitored. The system triggers the event processing if a value changes or a set of values meet the specified conditions.
 
@@ -57,7 +49,7 @@ To start the creation of a business event, in the **Screen Name** box on the [Bu
 
 **Tip:** If a business event needs to be triggered by the changes made in Acumatica Self-Service Portal, the related generic inquiry must be added to the Self-Service Portal site map. If the related generic inquiry is used as an entry point, then the entry point form should be added to the Self-Service Portal site map. In Acumatica Self-Service Portal, forms are added to the site map on the [Portal Map](SM_20_05_21.md#) \(SM200521\) form.
 
-## Conditions to Trigger Actions { .section}
+## Conditions to Trigger Actions
 
 After you have specified a data source for the event, on the **Trigger Conditions** tab of the [Business Events](SM_30_20_50.md) \(SM302050\) form, you configure the conditions when the system should perform actions related to the business process.
 
@@ -75,7 +67,7 @@ In the **Raise Event** box of the Summary area of the [Business Events](SM_30_20
 
 You can also use formulas when you configure conditions on the **Trigger Conditions** tab. This can be useful if you want the system to compare the values of two boxes or to check the time value in a box to determine whether a business event should be triggered. For example, you might want to notify the owner of a case with the *High* priority that the last activity related to this case took place more than eight hours ago. You specify formulas by using the Formula Editor in the **Value 1**, **Value 2**, and **Field Name** columns on the this tab.
 
-## Actions to Perform on Event Occurrence \(Event Subscribers\) {#_1c954a86-79a2-48b0-821d-a52b1e41b6d8 .section}
+## Actions to Perform on Event Occurrence \(Event Subscribers\)
 
 To define the actions that the system should perform in the system once the business event has occurred, you specify the *subscribers* of this business event on the **Subscribers** tab of the [Business Events](SM_30_20_50.md) \(SM302050\) form. A subscriber of a business event is an entity that the system processes when the business event occurs. The following types of subscribers are supported:
 
@@ -101,7 +93,7 @@ If you have specified multiple subscribers on the **Subscribers** tab for the bu
 
 For more details, see [Business Events: Subscribers](SA_Using_Business_Events_Subscribers_Concept.md).
 
-## Schedules to Monitor Business Process { .section}
+## Schedules to Monitor Business Process
 
 To dictate when the system should check whether the data meets the specified conditions, you configure a schedule or schedules. You can monitor a business process on schedule only if a generic inquiry is selected as the data source in the **Screen ID** box of the [Business Events](SM_30_20_50.md) \(SM302050\) form.
 
@@ -113,7 +105,7 @@ If the needed schedule has not been configured beforehand, you click **Create Sc
 
 For details on configuring schedules, see [Scheduling Automated Processing](SA_Scheduling_Automated_Processing_Mapref.md).
 
-## Data Field Tracking {#section_ncz_srk_qsb .section}
+## Data Field Tracking
 
 For the business events with the *Trigger by Record Change* type, the system monitors data changes made to the data included in the generic inquiry form or provided by a data entry form. If a value for a data field has been changed, the system stores new and previous value of a data field.
 
@@ -131,11 +123,33 @@ By default, the system tracks the following fields:
 
 You can add other data fields to the table, to make the system track these fields. For example, if you plan to use previous value of a data field for configuring a subscriber, you should add this field to the table. Otherwise, the system will not store and return a previous value for the field. If a generic inquiry is specified in the **Screen Name** box of the form, you can add only data fields that were added to the **Results Grid** tab of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form.
 
-## History of Business Events { .section}
+## History of Business Events
 
 You use the [Business Event History](SM_50_20_30.md) \(SM502030\) form to review the history of both the occurrence of business events and the processing of each event. On this form, you can also make the system resume the processing of failed events and clear the history of processing.
 
 Alternatively, for the business events triggered by action, you can view processing details using the **Business Events** dialog box that can be accessed from the **Settings** menu on the form title bar. If at least one business event has been configured for the form, you can view its processing details on the **History** tab for a document currently selected on the form.
+
+## Use of AI Automation Agents
+
+If the *AI Automation* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, a business event can invoke an AI Automation agent action when a data change occurs, on a schedule, or when a user starts processing from a generic inquiry form.
+
+You configure the agent on the [Agents](ML_20_20_00.md) \(ML202000\) form for the form whose records it processes. The agent can retrieve the current record and its detail lines, retrieve supporting data, and write a result to the current record. The result can then be used by another configured step in the business process.
+
+An agent does not create a record or run an action on a form. The configured process creates or selects the record and runs any other required actions as separate steps.
+
+To invoke an agent from a business event, you add a subscriber of the *Action Execution* type. For the action execution, you specify a unique subscriber ID and the following settings:
+
+-   In the **Screen Name** box, you select the data entry form whose records the agent processes.
+-   In the **Action Name** box, you select the button name specified for the agent on the [Agents](ML_20_20_00.md) form. Business events use the button name rather than the internal action name.
+-   In the mapping table, you map the key fields of the data entry form to the corresponding fields of the business event.
+
+If a business event has multiple subscribers, the system processes them in the order in which they are listed on the **Subscribers** tab. For example, an agent action can be followed by another agent action, a notification, an import scenario, or a task.
+
+**Important:** A business event uses the field values that existed when the event was triggered. If a notification needs to include a value written by an agent, configure a separate business event that is triggered by that value and sends the notification. In the agent instructions, direct the agent to write one of a fixed set of values to the field used as the trigger. The field value must change for the next business event to be triggered.
+
+You can review agent processing on the [AI Automation History](ML_40_00_00.md) \(ML400000\) form. You can also use the [Business Event History](SM_50_20_30.md) \(SM502030\) form to review whether the business event was triggered and how its subscribers were processed.
+
+For details about creating and configuring agents, see [Integration with LLM Providers: General Information](LLM_Providers_GeneralInfo.md).
 
 **Parent topic:**[Using Business Events](../UserGuide/SA_Using_Business_Events_Mapref.md)
 

@@ -1,18 +1,18 @@
-# Automated Synchronization: To Turn On Real-Time Synchronization {#_b28ac938-f8e4-40e0-8ca5-1ae8d2e23c23 .task}
+# Automated Synchronization: To Turn On Real-Time Synchronization
 
 In this activity, you will learn how to turn on real-time synchronization for an entity.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that as an implementation consultant helping SweetLife to set up integration with Shopify, you want to configure continuous synchronization of particular entities. As part of the setup, you need to turn on real-time synchronization of shipments so that they are exported to the Shopify store as soon as they are created or updated in Acumatica ERP.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will turn on real-time synchronization for the *Shipment* entity on the [Entities](BC_20_20_00.md) \(BC202000\) form so that the system immediately exports the changes in shipments to the Shopify store.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you perform the instructions of this activity, do the following:
 
@@ -24,7 +24,7 @@ Before you perform the instructions of this activity, do the following:
     -   **Password**: *123*
 3.  Sign in to the admin area of the Shopify store as the store administrator in the same browser.
 
-## Step: Enabling Real-Time Synchronization for Shipments { .section}
+## Step: Enabling Real-Time Synchronization for Shipments
 
 Perform the following instructions to enable real-time synchronization for shipments:
 

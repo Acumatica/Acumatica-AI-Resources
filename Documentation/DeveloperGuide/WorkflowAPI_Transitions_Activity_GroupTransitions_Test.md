@@ -1,4 +1,4 @@
-# Step 5: Testing Transitions With Conditions {#_b04d2909-9859-4414-be62-189eda31df2e .task}
+# Step 5: Testing Transitions With Conditions
 
 In this step, you will test transitions that depend on a condition. Do the following:
 

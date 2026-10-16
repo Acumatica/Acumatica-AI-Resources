@@ -1,4 +1,4 @@
-# AR Invoice Correction: Generated Transactions {#_1bfc1f51-a22c-400c-a646-b06b9de92dff .concept}
+# AR Invoice Correction: Generated Transactions
 
 When you release a credit memo, the system generates a batch of GL transactions that update the asset and income accounts. For details on the general ledger accounts involved, see [AR Invoices: Invoice Releasing](AR__CON_InvoiceReleasing.md).
 

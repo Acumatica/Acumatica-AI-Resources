@@ -1,4 +1,4 @@
-# Defining Workflow States {#_75c6a040-cc1f-43bf-8010-68a1e5fdd4da .concept}
+# Defining Workflow States
 
 In this chapter, you will learn how to define states of a worfklow. The states in a workflow for an Acumatica ERP form represent the stage of processing of a record that is created on this form.
 

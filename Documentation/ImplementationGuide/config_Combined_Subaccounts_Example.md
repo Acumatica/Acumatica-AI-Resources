@@ -1,8 +1,8 @@
-# Combined Subaccounts: Example of a Subaccount Structure {#_d5ea434f-bf0f-4e65-94cb-421a808f901f .concept}
+# Combined Subaccounts: Example of a Subaccount Structure
 
 This topic presents an example of a structure a company plans to use to structure its subaccounts. If you have not yet determined the structure your company will use, it may give you ideas about a structure that would provide information your company can use to make business decisions. This example also demonstrates how one of the subaccount masks can be defined based upon the subaccount structure.
 
-## Defining the Subaccount Structure { .section}
+## Defining the Subaccount Structure
 
 Suppose that the North Serpent company uses the *XX-XX-XXXX* subaccount structure, with the segments used as follows:
 
@@ -10,7 +10,7 @@ Suppose that the North Serpent company uses the *XX-XX-XXXX* subaccount structur
 2.  *XX*: A segment designating the product line. Possible values are *B1*, *B2*, *B3*, and *00* \(no product line is applicable\).
 3.  *XXXX*: A segment to specify the department involved. Possible values are *DEVP*, *PRDC*, and *0000* \(a non-specific value indicating that no department is involved\).
 
-## Defining the Subaccount Masks { .section}
+## Defining the Subaccount Masks
 
 Further suppose that the company buys specific services required for the *B1* product line from the vendor Dekatlon Inc. The company's default expense subaccounts involved in this transaction \(which have been specified for the applicable entities in Acumatica ERP\) are listed below, along with the characters used to designate the respective subaccount or a segment of the subaccount in the subaccount mask:
 

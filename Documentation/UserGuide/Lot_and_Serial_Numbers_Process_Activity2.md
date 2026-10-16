@@ -1,16 +1,16 @@
-# Items with Lot and Serial Numbers: To Sell Items in Lots {#_19e48e39-acc9-4548-a393-f278958ea7ef .task}
+# Items with Lot and Serial Numbers: To Sell Items in Lots
 
 In the following activity, you will learn how to create and process purchase and sales documents for a stock item with a lot number generated automatically when the item is shipped.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a sales manager in the SweetLife Fruits &amp; Jams company. You have received an order from the HM's Bakery &amp; Cafe customer for 14 jars of cherry jam, each of which is 32 ounces. Cherry jam is a new item that SweetLife has started to produce recently. You have decided that a lot number should be assigned on issue of sold jam, so that you can track the sold packs of jam in case any jars are returned.
 
 Acting as sales manager Grace Norman in the SweetLife Head Office and Wholesale Center, you will create and process the appropriate documents to complete the sales order and record the lot number. You will use quick processing to illustrate expedited processing of the sales order.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -23,13 +23,13 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *HMBAKERY* customer has been created.
 -   On the [Order Types](SO_20_10_00.md) \(SO201000\) form, the *SO* order type has been configured to allow expedited multistep processing of appropriate sales orders, which will be illustrated in this example. The **Allow Quick Process** check box has been selected on the **Template** tab. On the **Quick Processing** tab of the form, the appropriate settings have been specified to configure the sequence of order processing actions to be used by default when orders of this type are quickly processed.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, to perform a sale of stock items with automatic assignment of lot numbers, you will create a sales order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, select an order type that supports quick processing, select the customer to which the items are being sold, and add items to the order.
 
 You will use quick processing to streamline the processing of the sales order. You will click **Quick Process** on the form toolbar, review the quick processing settings, and correct them. Then you will run quick processing, during which the system processes the sales order to completion and generates all needed documents. When the quick processing completes, in the shipment on the [Shipments](SO_30_20_00.md) \(SO302000\) form, you will make sure that the system has generated a lot number for the line with the stock item that has the lot class with auto-generation settings specified.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start performing a sale of stock items with automatic assignment of lot numbers, you should do the following:
 
@@ -37,7 +37,7 @@ Before you start performing a sale of stock items with automatic assignment of l
 2.  On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, make sure that the *Lot and Serial Tracking* feature is enabled.
 3.  On the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step: Creating and Processing Sales Documents { .section}
+## Step: Creating and Processing Sales Documents
 
 To prepare the sales order and the related sales documents \(which will be created through quick processing of the sales order\) from the *HMBAKERY* customer for 14 jars of the *CHERJAM32* jam, do the following:
 
@@ -67,7 +67,6 @@ To prepare the sales order and the related sales documents \(which will be creat
 7.  On the **Shipments** tab, click the link in the **Document Nbr.** column. The system opens the shipment on the [Shipments](SO_30_20_00.md) \(SO302000\) form in a pop-up window.
 8.  In the **Lot/Serial Nbr.** column of the **Details** tab, make sure that the system has generated the lot number for the line, as shown in the following screenshot.
 
-    ![](Images/Lot_and_Serial_Numbers_Process_Activity2_Lot_Number.png "The generated lot number")
 
 
 You have created the sales order for items with a lot number that was generated automatically for the shipment, and you have used quick processing to automatically generate the related sales documents.

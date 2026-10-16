@@ -1,4 +1,4 @@
-# Configuration of Project Material Management: Cost Accrual for Non-Stock Items {#_bd7ca24f-732e-43bc-936f-7cde6a6951a6 .concept}
+# Configuration of Project Material Management: Cost Accrual for Non-Stock Items
 
 You can control when the system posts the expenses for a non-stock item and whether it uses the Expense Account or Expense Accrual account.
 

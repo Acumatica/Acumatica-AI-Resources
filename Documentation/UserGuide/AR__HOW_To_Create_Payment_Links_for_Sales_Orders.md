@@ -1,14 +1,14 @@
-# To Create Payment Links for Sales Orders {#_88f15497-705d-455a-b60c-a73decfac252 .task}
+# To Create Payment Links for Sales Orders
 
 You use the [Process Orders](SO_50_10_00.md) \(SO501000\) form to create payment links for multiple released sales orders with the *SO* behavior.
 
 Alternatively, you can create a payment link for a particular sales order on the **Payment Links** tab of the [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Before you start creating payment links for sales orders, you need to make sure that Acumatica payments are configured as described in [To Configure Acumatica Payments](AR__HOW_To_Configure_Acumatica_Payments.md).
 
-## To Create Payment Links for Multiple Sales Orders { .section}
+## To Create Payment Links for Multiple Sales Orders
 
 To create payment links for multiple sales orders, do the following:
 
@@ -19,7 +19,7 @@ To create payment links for multiple sales orders, do the following:
 3.  In the table on the **All Records** tab, review the list of documents and click the unlabeled check boxes to include specific documents into processing.
 4.  On the form toolbar, click **Process** to process the selected documents or click **Process All** to process all documents.
 
-## To Create a Payment Link for a Specific Sales Order { .section}
+## To Create a Payment Link for a Specific Sales Order
 
 To create a payment link for a specific sales order, do the following:
 

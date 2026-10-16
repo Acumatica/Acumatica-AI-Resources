@@ -1,4 +1,4 @@
-# Currency {#_2c13caea-3ab7-4670-b376-029f60864fec .concept}
+# Currency
 
 In this chapter, you will learn about the configuration of the currency control. You will develop an understanding of when to use a currency control and how to configure it.
 

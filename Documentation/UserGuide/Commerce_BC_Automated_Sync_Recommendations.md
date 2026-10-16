@@ -1,33 +1,131 @@
-# Automated Synchronization: Recommended Setup {#_cf539af2-a3bc-4cdc-ad33-a326dccdafff .concept}
+# Automated Synchronization: Recommended Setup
 
 Depending on the volume of orders processed by your company, we recommend that you configure entities to be synchronized automatically as indicated in the following tables.
 
 The schedules in the following table are recommended for companies that process no more than 1,000 orders daily.
 
-|Entity|Real-Time Synchronization|Data Preparation|Data Processing|
-|------|-------------------------|----------------|---------------|
-|*Sales Order*|*Started*
+<table id="_fc5b2fd8-b542-422f-a0b5-e9f4229a541d"><thead><tr><th>
+
+Entity
+
+</th><th>
+
+Real-Time Synchronization
+
+</th><th>
+
+Data Preparation
+
+</th><th>
+
+Data Processing
+
+</th></tr></thead><tbody><tr><td>
+
+*Sales Order*
+
+</td><td>
+
+*Started*
 
  Real-time mode: *Prepare &amp; Process*
 
-|Daily, once a night|Daily, once a night|
-|*Refund*|*Started*
+</td><td>
+
+Daily, once a night
+
+</td><td>
+
+Daily, once a night
+
+</td></tr><tr><td>
+
+*Refund*
+
+</td><td>
+
+*Started*
 
  Real-time mode: *Prepare &amp; Process*
 
-|Daily, once a night|Daily, once a night|
-|*Shipment*|*Started*
+</td><td>
+
+Daily, once a night
+
+</td><td>
+
+Daily, once a night
+
+</td></tr><tr><td>
+
+*Shipment*
+
+</td><td>
+
+*Started*
 
  Real-time mode: *Prepare &amp; Process*
 
-|Daily, once a night|Daily, once a night|
-|*Stock Item*, *Non-Stock Item*, *Template Item*|*Started*
+</td><td>
+
+Daily, once a night
+
+</td><td>
+
+Daily, once a night
+
+</td></tr><tr><td>
+
+*Stock Item*, *Non-Stock Item*, *Template Item*
+
+</td><td>
+
+*Started*
 
  Real-time mode: *Prepare &amp; Process*
 
-|Daily, once a night|Daily, once a night|
-|*Product Availability*|*Stopped*|Daily, every 60 minutes|Daily, every 60 minutes|
-|Other entities|*Stopped*|Daily, once a night|Daily, once a night|
+</td><td>
+
+Daily, once a night
+
+</td><td>
+
+Daily, once a night
+
+</td></tr><tr><td>
+
+*Product Availability*
+
+</td><td>
+
+*Stopped*
+
+</td><td>
+
+Daily, every 60 minutes
+
+</td><td>
+
+Daily, every 60 minutes
+
+</td></tr><tr><td>
+
+Other entities
+
+</td><td>
+
+*Stopped*
+
+</td><td>
+
+Daily, once a night
+
+</td><td>
+
+Daily, once a night
+
+</td></tr></tbody>
+</table>
 
 **Attention:** We recommend that you not enable real-time synchronization if you plan to change configuration settings or to perform mass-addition, mass-deletion, and mass-update operations, including by means of import scenarios. We also recommend that you start real-time synchronization only after you begin production use to avoid unnecessary server traffic during the implementation.
 

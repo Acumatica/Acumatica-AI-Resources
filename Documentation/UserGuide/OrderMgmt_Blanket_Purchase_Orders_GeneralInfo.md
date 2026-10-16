@@ -1,8 +1,8 @@
-# Blanket Purchase Orders: General Information {#_4c127748-0b9d-42b7-bd93-c1def61a002f .concept}
+# Blanket Purchase Orders: General Information
 
 In Acumatica ERP, a blanket purchase order is an order whose items are not directly fulfilled or billed. It contains a large item quantity that you enter to reflect your company's plans to buy this quantity over a period of time. A blanket purchase order has child orders, which are the linked purchase orders that include item quantities from the blanket order. The blanket purchase order is a parent order for the linked child orders. The items in the child orders are received and billed.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -11,14 +11,14 @@ In this chapter, you will do the following:
 -   Create child orders for the blanket purchase order
 -   Process the blanket purchase order to completion
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You process blanket purchase orders in the following cases:
 
 -   You need to record the planned purchases of large quantities of items from the same vendor over a specified period of time.
 -   A vendor offers considerable volume discounts or the specified goods are not always available from the vendor, and you want to ensure their availability when they are needed.
 
-## Blanket Purchase Orders { .section}
+## Blanket Purchase Orders
 
 To create a blanket purchase order in Acumatica ERP, you select *Blanket* in the **Type** box of the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form. In the **Expires On** box of the Summary area, you can specify an expiration date after which a child order can no longer be linked to the blanket purchase order.
 
@@ -34,14 +34,14 @@ When you add the needed order lines by using either of the dialog boxes, the uni
 -   In each line of the blanket order, the **Blanket Open Qty.** quantity of each item is reduced by the quantity specified for the item in this child order.
 -   In each line of a child order, the link to the blanket purchase order is inserted in the **Blanket PO Nbr.** column.
 
-## Tracking of Received Items' Quantities and Related Documents { .section}
+## Tracking of Received Items' Quantities and Related Documents
 
 When you are viewing a blanket purchase order on the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form, you can track the quantity of items received at warehouses by doing the following:
 
 -   On the **Details** tab, by viewing item quantities in the **Qty. on Orders**, **Blanket Open Qty.**, and **Qty. on Receipts** columns.
 -   On the **PO History** tab, in the left table, you can view the information about the blanket order’s child orders and their related purchase receipts and returns. In the right table, you can view the information about the AP bills and debit adjustments created for child orders and related purchase receipts or returns.
 
-## Processing of a Blanket Purchase Order { .section}
+## Processing of a Blanket Purchase Order
 
 To process a blanket purchase order, you perform the following general steps:
 
@@ -56,11 +56,10 @@ To process a blanket purchase order, you perform the following general steps:
     When the AP bill linked to each child order has the *Open* status, and each child order has the *Closed* status, the blanket order's status is changed to *Closed*.
 
 
-## Workflow of the Processing of Blanket Purchase Orders {#section_vv2_1y4_y4b .section}
+## Workflow of the Processing of Blanket Purchase Orders
 
 The general workflow of processing of a blanket purchase order involves the steps and generated documents shown in the following diagram.
 
-![](Images/diag_OrderMgmt_Blanket_Purchase_Order.png)
 
 **Parent topic:**[Processing Blanket Purchase Orders](../UserGuide/OrderMgmt_Blanket_Purchase_Orders_Mapref.md)
 

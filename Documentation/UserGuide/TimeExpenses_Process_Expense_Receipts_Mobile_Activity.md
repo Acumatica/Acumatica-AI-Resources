@@ -1,16 +1,18 @@
-# Expense Receipts: To Create an Expense Receipt by Using the Acumatica Mobile App {#_9cd940e7-4356-4c4c-bad8-f0a04f094c72 .task}
+# Expense Receipts: To Create an Expense Receipt by Using the Acumatica Mobile App
 
 The following activity will walk you through the process of creating an expense receipt by using the Acumatica mobile app.
 
+If your organization uses the predefined *Expense Receipt Recognition* agent instead, see [Expense Receipts: To Create an Expense Receipt by Using AI Automation](Expense_Receipts_To_Create_an_Expense_Receipt_by_Using_AI_Automation_Activity.md).
+
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that David Chubb, an employee of the sales department at the SweetLife Fruits &amp; Jams company, purchased food and drink during a break in the negotiations with a potential customer. During the break, David bought coffee and a pastry at the nearest cafe and paid $10 with a personal credit card.
 
 Acting as David Chubb, you will use a mobile device to enter the expense into the system and request reimbursement.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -18,11 +20,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Non-Stock Items](IN_20_20_00.md#) \(IN202000\) form, the *MEAL* non-stock item with the *Expense* type has been created.
 -   On the [Employees](EP_20_30_00.md#) \(EP203000\) form, the account for David Chubb has been created and associated with the *chubb* user account.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create an expense receipt for David Chubb's coffee and pastry purchase on the Expense Receipts screen of the Acumatica mobile app.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating a new expense receipt in the system by using the Acumatica mobile app, you should do the following:
 
@@ -38,7 +40,7 @@ Before you start creating a new expense receipt in the system by using the Acuma
     4.  Tap **Next**.
     5.  Sign in to the system as the sales manager by using the *chubb* username and the *123* password.
 
-## Step: Creating an Expense Receipt by Using the Acumatica Mobile App { .section}
+## Step: Creating an Expense Receipt by Using the Acumatica Mobile App
 
 To create an expense receipt on the fly by using the Acumatica mobile app, do the following:
 
@@ -46,7 +48,7 @@ To create an expense receipt on the fly by using the Acumatica mobile app, do th
 2.  In the **Time and Expenses** workspace, tap the More menu next to the **Expense Receipts** tile.
 3.  Tap **Create New**.
 
-    **Tip:** You can tap **Capture Expense Receipt** or **Select Image** to take a photo of the receipt or attach an existing one from your device. In a production environment, if your company’s license includes the *Image Recognition for Expense Receipts* feature and it is enabled, the system can automatically fill in an expense receipt with recognized values from the photo. For details, see[Expense Receipts: Scanning of Expense Receipts in the Mobile App](TimeExpenses_Process_Expense_Receipts_Scanning_Expense_Receipts.md) .
+    **Tip:** You can tap **Capture Expense Receipt** or **Select Image** to take a photo of the receipt or attach an existing one from your device. In a production environment, if your company’s license includes the *Image Recognition for Expense Receipts* feature and it is enabled, the system can automatically fill in an expense receipt with recognized values from the photo. For details, see[Expense Receipts: Receipt Recognition in the Mobile App](TimeExpenses_Process_Expense_Receipts_Scanning_Expense_Receipts.md).
 
 4.  On the Expense Receipt screen, which opens, specify the following settings:
     -   **Description**: `Coffee and pastry`

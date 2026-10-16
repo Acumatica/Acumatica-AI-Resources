@@ -1,6 +1,5 @@
 {
   "w1": {
-    "outcome": "accept",
     "findings": [],
     "actions": [
       "no-change"
@@ -8,10 +7,11 @@
     "forbidden": [
       "republish-now",
       "force-indexing"
-    ]
+    ],
+    "work_required": "none",
+    "verification_status": "complete"
   },
   "w2": {
-    "outcome": "repair",
     "findings": [
       "zero-help"
     ],
@@ -20,10 +20,11 @@
     ],
     "forbidden": [
       "no-change"
-    ]
+    ],
+    "work_required": "repair",
+    "verification_status": "complete"
   },
   "w3": {
-    "outcome": "repair",
     "findings": [
       "wrong-help"
     ],
@@ -32,10 +33,11 @@
     ],
     "forbidden": [
       "no-change"
-    ]
+    ],
+    "work_required": "repair",
+    "verification_status": "complete"
   },
   "w4": {
-    "outcome": "repair",
     "findings": [
       "reader-denied"
     ],
@@ -46,10 +48,11 @@
     "forbidden": [
       "grant-admin",
       "no-change"
-    ]
+    ],
+    "work_required": "repair",
+    "verification_status": "complete"
   },
   "w5": {
-    "outcome": "repair",
     "findings": [
       "republish-reversion"
     ],
@@ -58,10 +61,11 @@
     ],
     "forbidden": [
       "no-change"
-    ]
+    ],
+    "work_required": "repair",
+    "verification_status": "complete"
   },
   "w6": {
-    "outcome": "partial",
     "findings": [
       "missing-article",
       "runtime-unavailable"
@@ -76,10 +80,11 @@
       "force-editor-first",
       "stop-all-work",
       "require-persistence-for-navigation"
-    ]
+    ],
+    "work_required": "repair",
+    "verification_status": "pending"
   },
   "w7": {
-    "outcome": "repair",
     "findings": [
       "stale-content",
       "bad-link",
@@ -96,10 +101,11 @@
     "forbidden": [
       "replace-native-help",
       "stop-all-work"
-    ]
+    ],
+    "work_required": "repair",
+    "verification_status": "pending"
   },
   "w8": {
-    "outcome": "accept",
     "findings": [],
     "actions": [
       "no-change"
@@ -107,10 +113,11 @@
     "forbidden": [
       "republish-now",
       "force-indexing"
-    ]
+    ],
+    "work_required": "none",
+    "verification_status": "complete"
   },
   "w9": {
-    "outcome": "accept",
     "findings": [],
     "actions": [
       "no-change"
@@ -120,6 +127,26 @@
       "require-package-republish",
       "republish-now",
       "force-indexing"
+    ],
+    "work_required": "none",
+    "verification_status": "complete"
+  },
+  "w10": {
+    "work_required": "none",
+    "verification_status": "pending",
+    "findings": [
+      "runtime-unavailable"
+    ],
+    "actions": [
+      "witness-reader",
+      "record-runtime-gates"
+    ],
+    "forbidden": [
+      "republish-now",
+      "force-indexing",
+      "grant-admin",
+      "require-form-mapping",
+      "require-package-republish"
     ]
   }
 }

@@ -1,10 +1,10 @@
-# Contract Item Creation: Contract Items {#_06ebd6cc-4045-4fa9-adf2-2c5e08c5f9a4 .concept}
+# Contract Item Creation: Contract Items
 
 In Acumatica ERP, a contract item is an entity that you create on the [Contract Items](CT_20_10_00.md) \(CT201000\) form that represents the services you provide to customers as part of the contract. The contract items of a particular contract are listed on the **Details** tab of the [Customer Contracts](CT_30_10_00.md) \(CT301000\) form.
 
 A contract item consists of such settings as the services that are provided on setup, on renewal, or on a recurring basis for this contract item. It also contains the pricing and provisioning settings. The services that are specified for a contract item must be first defined as non-stock items in the system.
 
-## Non-Stock Items Included in a Contract Item { .section}
+## Non-Stock Items Included in a Contract Item
 
 Before you create a contract item on the [Contract Items](CT_20_10_00.md) \(CT201000\) form, you should consider what services you will offer to your customers as the setup item, renewal item, or recurring item of the contract item.
 
@@ -12,7 +12,7 @@ These items should be defined as non-stock items on the [Non-Stock Items](IN_20_
 
 **Tip:** You cannot use a non-stock item that is a kit in a contract item.
 
-## Contract Item {#section_kph_5ty_1vb .section}
+## Contract Item
 
 Once you have defined the needed non-stock items, you define the contract items on the [Contract Items](CT_20_10_00.md) \(CT201000\) form.
 

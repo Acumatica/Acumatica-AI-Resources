@@ -1,8 +1,8 @@
-# To Append LINQ Expressions to BQL Statements {#_6e0f7080-d099-4fc3-9cb6-ad15b800546d .task}
+# To Append LINQ Expressions to BQL Statements
 
 By using LINQ, you can work with a query expression that is defined with BQL. In this topic, you can find out how to apply additional filtering to a BQL statement and join a table to a BQL statement by using LINQ.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 -   Add the `using` directives shown below to your code.
 
@@ -14,7 +14,7 @@ By using LINQ, you can work with a query expression that is defined with BQL. In
 
 -   Make sure that the application database has the database tables from which you are going to request data, and that the application defines the data access classes \(DACs\) for these tables. For more information on defining DACs, see [Data Access Classes](../Shared/../StudioDeveloperGuide/AD__con_BQL_DAC.md).
 
-## To Append LINQ Expressions to BQL Statements { .section}
+## To Append LINQ Expressions to BQL Statements
 
 To append LINQ expressions to BQL statements, do the following:
 

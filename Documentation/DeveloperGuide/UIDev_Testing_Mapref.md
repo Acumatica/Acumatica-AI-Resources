@@ -1,4 +1,4 @@
-# Testing the Modern UI {#_99040885-332e-42ac-b24a-81a5ef1ac02f .concept}
+# Testing the Modern UI
 
 In this part, you can find information on how to maintain the testability of forms that have tests created in the Classic UI and how to migrate these tests to the Modern UI.
 

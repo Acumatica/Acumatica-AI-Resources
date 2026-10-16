@@ -1,8 +1,8 @@
-# Purchases with Inclusive Sales Taxes: Implementation Checklist {#_001f4ac3-4ff5-4f38-b0db-b94d80fd6cf7 .concept}
+# Purchases with Inclusive Sales Taxes: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for processing a purchase with an inclusive sales tax applied, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist {#section_nfk_fjv_vxb .section}
+## Implementation Checklist
 
 We recommend that before you initially process a purchase of taxable items, you make sure the needed settings have been specified and entities have been created, as summarized in the following checklist.
 
@@ -12,7 +12,7 @@ We recommend that before you initially process a purchase of taxable items, you 
 |[Tax Preferences](TX_10_30_00.md) \(TX103000\)|Make sure that the tax rounding gain and loss accounts have been defined; the system will post tax rounding gains and losses that may occur when posting tax amounts to these accounts.|
 |[Stock Items](IN_20_25_00.md) \(IN202500\)|Make sure that the needed stock items have been configured.|
 
-## Other Settings That Affect the Workflow {#section_pfk_fjv_vxb .section}
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of processing purchases with an inclusive sales tax by specifying additional settings as follows:
 
@@ -28,7 +28,7 @@ You can affect the workflow of processing purchases with an inclusive sales tax 
     -   In the **Tax Rounding Gain Account** box, an account where the system will post amounts resulting from tax rounding gains
     -   In the **Tax Rounding Loss Account** box, an account where the system will post amounts resulting from tax rounding losses
 
-## Testing of Settings {#section_rfk_fjv_vxb .section}
+## Testing of Settings
 
 To make sure that all settings are configured correctly, we recommend that you process a purchase with an inclusive sales tax by performing instructions similar to those described in [Purchases with Inclusive Sales Taxes: Process Activity](Taxes_Purchases_with_InclusiveSalesTax_Process_Activity.md).
 

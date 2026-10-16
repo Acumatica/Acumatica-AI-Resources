@@ -1,16 +1,16 @@
-# Import of Taxes: General Information {#_0502a23e-7c1f-4018-9937-4f415144bdba .concept}
+# Import of Taxes: General Information
 
 During the implementation of the integration between Acumatica ERP and the BigCommerce store, you decide if taxes should be synchronized during the export or import of sales orders.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to set up tax synchronization if you collect tax on products you sell in the BigCommerce store.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You set up tax synchronization during the configuration of the connection between Acumatica ERP and the BigCommerce store to make sure that taxes collected on online orders are reflected in an imported order and, if necessary, correctly recalculated when a shipment and an invoice are created for the order.
 
-## Configuration of Tax Synchronization for Manual Tax Setup {#_5065662b-4301-4a56-a71d-8028dd44517e .section}
+## Configuration of Tax Synchronization for Manual Tax Setup
 
 If you plan to use only Acumatica ERP \(without a dedicated tax calculation provider\) for tax calculation and reporting, you perform the following general steps:
 
@@ -39,9 +39,8 @@ During the import of an order, the system searches for the tax zone that should 
 
 This process is illustrated in the following diagram.
 
-![](Images/diag_COM_Determining_Tax_Zone.png "Determining the tax zone for tax calculation")
 
-## Handling of Long Tax Names { .section}
+## Handling of Long Tax Names
 
 If an external tax provider is used for tax calculation, sometimes tax names returned by the external tax provider can exceed the maximum allowed length of tax IDs supported by Acumatica ERP, \(which is currently 60 characters\). Long tax IDs are processed as follows:
 
@@ -50,7 +49,7 @@ If an external tax provider is used for tax calculation, sometimes tax names ret
     -   If the tax ID contains the word *SPECIAL*, the part of the ID to the right of the hyphen is used. Any characters that still exceed the maximum length are truncated.
     -   If the tax ID does not contain the word *SPECIAL*, the part of the ID to the left of the hyphen is used. Any characters that still exceed the maximum length are truncated.
 
-## Tax Calculation Mode in Imported Sales Orders { .section}
+## Tax Calculation Mode in Imported Sales Orders
 
 In BigCommerce, you can indicate whether the prices of products are entered in the control panel of the store inclusive or exclusive of tax. However, information about this setting is not passed during the import of sales orders from BigCommerce to Acumatica ERP. If the *Net/Gross Entry Mode* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, for sales orders imported from the BigCommerce store, the system inserts *Tax Settings* in the **Tax Calculation Mode** box on the **Financial** tab of the [Sales Orders](SO_30_10_00.md) \(SO301000\) form. This option is inserted regardless of the price settings in the BigCommerce store and the configuration of tax calculation in Acumatica ERP.
 

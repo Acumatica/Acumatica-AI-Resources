@@ -1,4 +1,4 @@
-# Creating a Customer {#_cfb5002a-67f4-465f-a802-1ed71a92da52 .concept}
+# Creating a Customer
 
 In Acumatica ERP, each customer account holds all customer-related information that you need to conduct business with this customer. This information includes addresses, locations, contacts, and payment settings, as well as financial, purchase, and mailing settings. In this lesson, you will learn how to create a customer record in the system.
 

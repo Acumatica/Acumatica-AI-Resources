@@ -1,8 +1,8 @@
-# Cost Calculation for Produced Items: To Process Production Orders with the Actual Costing Method {#_7ece3bf0-c953-41fd-bb8f-0889f611b513 .task}
+# Cost Calculation for Produced Items: To Process Production Orders with the Actual Costing Method
 
 The following activity will walk you through the processing of a production order with the *Actual* costing method.
 
-## Story { .section}
+## Story
 
 Suppose that GoodFood One Restaurant has ordered three juicers from the SweetLife Fruits &amp; Jams company. The production process includes the assembly and packing of the juicers. In the production process of SweetLife Fruits &amp; Jams, materials and labor are backflushed for the packing operation. Further suppose that components for the juicers are available in SweetLife Fruits &amp; Jams's warehouse.
 
@@ -12,14 +12,14 @@ Acting as a production manager, you will create a production order for producing
 
 Also, acting as a production accountant, you will review the costs applied to the production order and the unit cost of the produced items on inventory receipts.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Warehouses](IN_20_40_00.md) \(IN204000\) form, the *WORKHOUSE* warehouse has been defined, and its locations include *MGI* and *MTL*.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *CFJFRUITBF*, *PULPCONT1L*, *JUICECUP05L*, *MRBASE*, *FNSIEVE*, *GRDISC01*, *PACKTAPE*, *PPEANUTS*, and *PACKBOX* stock items have been defined.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, to process the documents and transactions related to the production of the juicers, you will do the following:
 
@@ -31,7 +31,7 @@ In this activity, to process the documents and transactions related to the produ
 6.  On the [Production Order Maintenance](AM_20_15_00.md) form, review the production order balance after you have completed the order.
 7.  On the [Close Production Orders](AM_50_60_00.md) \(AM506000\) form, close the production order.
 
-## System Preparation { .section}
+## System Preparation
 
 Do the following:
 
@@ -39,7 +39,7 @@ Do the following:
 2.  Launch the Acumatica ERP website, and sign in to the company in which the prerequisite activity has been performed. You should sign in as the production manager by using the *peters* username and the *123* password.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to today’s date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating the Production Order { .section}
+## Step 1: Creating the Production Order
 
 To create the production order for the three juicers, do the following:
 
@@ -60,7 +60,7 @@ To create the production order for the three juicers, do the following:
     **Tip:** You open the More menu by clicking the More button \(…\) on the form toolbar.
 
 
-## Step 2: Issuing Materials for the Assembly Operation { .section}
+## Step 2: Issuing Materials for the Assembly Operation
 
 In this step, you will issue the materials for the assembly operation of the production order. Do the following:
 
@@ -71,7 +71,7 @@ In this step, you will issue the materials for the assembly operation of the pro
     2.  Clear the **Hold** check box. The system changes the transaction's status to *Balanced*.
 4.  On the form toolbar, click **Release**. The system releases the material transaction and changes the status of the transaction to *Released*.
 
-## Step 3: Recording the Labor and Produced Items for the Assembly Operation { .section}
+## Step 3: Recording the Labor and Produced Items for the Assembly Operation
 
 Suppose that Carlos Cruz, a worker in the work center, spent 30 minutes setting up the working environment for juicer assembly and assembled three juicers for 45 minutes. To record the time that he spent on juicer assembly and the assembled quantity of juicers, do the following:
 
@@ -88,7 +88,7 @@ Suppose that Carlos Cruz, a worker in the work center, spent 30 minutes setting 
     3.  Clear the **Hold** check box. The system changes the transaction's status to *Balanced*.
 5.  On the form toolbar, click **Release**. The system creates and releases the cost transaction to record the labor costs; it also releases the labor transaction.
 
-## Step 4: Reviewing the Production Order Balance { .section}
+## Step 4: Reviewing the Production Order Balance
 
 In this step, acting as a production accountant, you will review the balance of the production order after you have recorded the completion of the assembly operation. Do the following on the [Production Order Details](AM_20_90_00.md) \(AM209000\) form:
 
@@ -117,10 +117,9 @@ In this step, acting as a production accountant, you will review the balance of 
         -   **WIP Balance**: *1440.67*
         The variance is caused by the difference between the planned and actual labor hours.
 
-    ![](Images/activity_MFG_Production_Cost_Calculation_Assembly_Operation_Balance_1.png "Production order balance for the assembly operation")
 
 
-## Step 5: Recording the Produced Items for the Packing Operation { .section}
+## Step 5: Recording the Produced Items for the Packing Operation
 
 Suppose that a worker in the packing work center has packed the assembled juicers. To record the completion of the packing operation, do the following:
 
@@ -137,7 +136,7 @@ Suppose that a worker in the packing work center has packed the assembled juicer
 5.  On the [Receipts](IN_30_10_00.md) \(IN301000\) form, open the receipt with today's date, a total quantity of three *CFJFRUITBF* items, and a total cost of 1463.83.
 6.  In the **Unit Cost** column of the only row, make sure that *487.9433* is specified.
 
-## Step 6: Reviewing the Balance of the Completed Production Order { .section}
+## Step 6: Reviewing the Balance of the Completed Production Order
 
 In this step, again acting as a production accountant, you will review the production order balance after you have recorded the completion of the packing operation. Do the following on the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form:
 
@@ -148,10 +147,9 @@ In this step, again acting as a production accountant, you will review the produ
     2.  In the **Actual** section, make sure that the values of the **WIP Total** and **MFG to Inventory** boxes are *1463.83*, which is the cost of three produced items. The cost of one item is *487.9433*, which equals the unit cost in the inventory receipt. To calculate the unit cost, the system used the actual costs applied to the production order.
     3.  In the **Variance** section, make sure that the value in the **Total Variance** box is *-6.50*.
     4.  Make sure that the value of the **WIP Balance** box is *0.00*, which means that the actual costs of the production order have been fully applied to the cost of the produced items. The fluctuations of the labor time do not affect the WIP balance and the cost difference is not posted to the WIP variance account.
-    ![](Images/activity_MFG_Production_Cost_Calculation_Order_Balance_1.png "Production order balance after the completion of the order")
 
 
-## Step 7: Closing the Production Order { .section}
+## Step 7: Closing the Production Order
 
 Now you will close the production order. Do the following:
 

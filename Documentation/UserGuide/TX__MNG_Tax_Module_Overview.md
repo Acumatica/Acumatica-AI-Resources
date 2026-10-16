@@ -1,26 +1,26 @@
-# Tax Management Overview {#_8eba446f-2309-4d01-a067-f8dfdfeb1fd1 .concept}
+# Tax Management Overview
 
 You can use the tax-related functionality of Acumatica ERP for automatic calculation of tax amounts on each bill, invoice, and other similar document created in Acumatica ERP. To set up the tax calculation in the documents across the system, you should create all required taxes with their effective rates along with other tax-related entities, such as tax zones and tax categories, and then associate these entities with appropriate elements of other Acumatica ERP functional areas involved in the calculation process.
 
 This chapter briefly describes the primary features of the tax functionality. The processes of setting up the tax calculation and configuring the tax reporting functionality are described extensively in other topics of this guide.
 
-## Types of Taxes {#section_nyg_fjv_vxb .section}
+## Types of Taxes
 
 In Acumatica ERP, you can configure taxes of the following general types: sales tax, use tax, withholding tax, value-added tax \(VAT\), and goods and services tax \(GST\). These taxes are applied in different countries and their rates depend on the governmental laws of each country. The rate of the tax of each type can vary on different territories of the same country and depends on the type of goods or services your business provides. For example, a tax can be applied at standard rate or fall into one of the following categories: zero-rated or reduced-rated, depending on the provided goods and services.
 
-## Tax Calculation {#section_pyg_fjv_vxb .section}
+## Tax Calculation
 
 You can calculate taxes in Acumatica ERP by using different methods. You can specify the appropriate tax calculation method for a tax, including calculating the tax amount based on the total document amount or for each item listed in the document, or excluding the tax amount from the product price specified in the document.
 
-## Tax Zones and Categories {#section_ryg_fjv_vxb .section}
+## Tax Zones and Categories
 
 In Acumatica ERP, you can configure taxes of all federal and local levels. For this, you can create the *tax zones*, in which you include the taxes of appropriate rates, and associate each zone with the customer or vendor location. For tax-exempt customers \(for example, those with reseller permits\), you can create the tax zones with zero-rated taxes. Thus, the tax amount in the document will be calculated basing on the tax, which corresponds to the location of the customer or vendor as well as on the type of the services or goods mentioned in the document \(for example, in the invoice\), for which, in turn, you should also create and assign a *tax category*. For more details, see [Tax Zones and Tax Categories](../ImplementationGuide/Taxes_TaxZones_and_Categories_Mapref.md).
 
-## Tax Agencies {#section_syg_fjv_vxb .section}
+## Tax Agencies
 
 In Acumatica ERP, you can configure a tax report for a particular tax agency and set up automatic accumulation of appropriate tax amounts in the tax report. For each tax agency, you can define specific reporting settings, such as the reporting period or the rounding rules. For details, see [Tax Agency](../ImplementationGuide/Taxes_TaxAgency_Mapref.md).
 
-## Tax Reporting {#section_uyg_fjv_vxb .section}
+## Tax Reporting
 
 Acumatica ERP gives you the ability to create tax reports. If your company plans to create tax reports by using Acumatica ERP, you should configure a tax report for each tax collection agency to which the taxes have to be reported.
 

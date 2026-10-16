@@ -1,10 +1,10 @@
-# Marketing Campaigns: Project Accounting for Campaigns {#_b4d7eebb-99b1-458a-9427-be13602a8299 .concept}
+# Marketing Campaigns: Project Accounting for Campaigns
 
 In Acumatica ERP, you can use the project accounting functionality to track the expenses and revenue related to a marketing campaign and associate a marketing campaign with a project if the *Projects* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. The system can treat a marketing campaign as a project and use the mechanism for tracking the project budget for tracking the budget of the marketing campaign.
 
 For more information about project budgets, see [Managing the Project Budget](Projects_Budget_Mapref.md).
 
-## Configuring a Project for a Campaign {#section_xgf_kgg_k5b .section}
+## Configuring a Project for a Campaign
 
 To be able to track the expenses and revenue of a marketing campaign, you need to create a project on the [Projects](PM_30_10_00.md) \(PM301000\) form without selecting any customer. For the project, on the [Projects](PM_30_10_00.md) or [Project Tasks](PM_30_20_00.md) \(PM302000\) form, you also need to create a project task dedicated to the expense and revenue accounting of a marketing campaign. For more information, see [Creating and Processing Projects](Projects_Process_Mapref.md).
 
@@ -14,7 +14,7 @@ You can select the project and project task associated with a marketing campaign
 
 You can delete a project associated with a marketing campaign by clearing the settings specified in the **Project Accounting Integration** section of the **Campaign Details** tab for this marketing campaign. You can also change the project by selecting another project and project task. In this case, all documents created based on this marketing campaign stay associated with the previously defined project. You can override a project, unless it is specified in a released invoice.
 
-## Processing Campaign-Related Documents {#section_x1s_dhg_k5b .section}
+## Processing Campaign-Related Documents
 
 By default, an activity created on the [Marketing Campaigns](CR_20_20_00.md) \(CR202000\) form is not associated with any project, even if the campaign itself is associated with a project. You can associate an activity of any type with a project and project task by selecting them in the **Project** and **Project Task** boxes, respectively, on the [Activity](CR_30_60_10.md) \(CR306010\) or [Task](CR_30_60_20.md) \(CR306020\) form. The marketing campaign activities with selected project and project task will be displayed on the **Activities** tab of the [Projects](PM_30_10_00.md) \(PM301000\) and [Project Tasks](PM_30_20_00.md) \(PM302000\) forms.
 

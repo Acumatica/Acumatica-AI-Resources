@@ -1,4 +1,4 @@
-# Inventory Planning with DRP: General Information {#_e7313ef1-9d38-4f3c-a24a-943efb584da4 .concept}
+# Inventory Planning with DRP: General Information
 
 In Acumatica ERP, you can take advantage of time-phased inventory planning and sales forecasting for handling orders within a supply chain. You can precisely plan your supply to arrive at the required time, minimizing the inventory stored in warehouses for orders placed long before the needed date. You can match supply to demand based on date-specific recommendations for unmet demand. The system can group supply and demand by time periods and generate exceptions for supply issues, such as late delivery dates in documents.
 
@@ -9,7 +9,7 @@ Some facets of inventory planning depend on the features enabled in your system 
 -   You can specify planning requirements by warehouse and transfer stock items between warehouses if the *Multiple Warehouses* feature is enabled. For details, see [Inventory Planning with DRP: Transfers](OrderMgmt_Inventory_Planning_Transfers_in_DRP.md).
 -   You can plan stock components needed to assemble a kit by using the inventory planning functionality if the *Kit Assembly* feature is enabled.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -17,7 +17,7 @@ In this chapter, you will learn how to do the following:
 -   View the exceptions and take the needed actions
 -   Create supply documents based on the results of the inventory planning analysis
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may need to perform inventory planning in the following cases:
 
@@ -25,7 +25,7 @@ You may need to perform inventory planning in the following cases:
 -   Your company has multiple warehouses, and you restock the inventory in a warehouse by transferring items from another warehouse where they are available.
 -   Your company uses inventory kits and needs to ensure that it has the stock components needed to assemble the kits.
 
-## General Steps of Inventory Planning { .section}
+## General Steps of Inventory Planning
 
 You can run the inventory planning process at any time, but the process may affect the performance of the Acumatica ERP instance. We recommend that you use an automation schedule to run the inventory planning process before each business day begins. The process should be run after all of the previous day's sales orders and purchase orders have been entered into the system, all transactions affecting inventory have been posted, and most or all users have signed out of the system. We recommend that you create any needed purchase orders by using the [Create Purchase Orders](PO_50_50_00.md) \(PO505000\) form and any needed transfer orders by using the [Create Transfer Orders](SO_50_90_00.md) \(SO509000\) form at the end of the business day. Also, because inventory planning is a very resource-dependent process, it should be run in a time frame that does not conflict with database maintenance processes.
 
@@ -40,11 +40,10 @@ Inventory planning consists of the following general steps:
 5.  Reviewing the inventory planning exceptions on the [Inventory Planning Exceptions](AM_40_30_00.md) \(AM403000\) form. Depending on the exceptions, the planning manager should evaluate and take the needed recommended actions, such as contacting a vendor to expedite delivery. Then the planning manager should make the needed changes to the dates in the demand and supply documents.
 6.  Reviewing the results of inventory planning regeneration by using the [Inventory Planning Display](AM_40_00_00.md) \(AM400000\) form and creating the required purchase orders or transfer orders by using the same form.
 
-## Workflow of Inventory Planning with DRP {#section_vv2_1y4_y4b .section}
+## Workflow of Inventory Planning with DRP
 
 A general workflow of DRP—inventory planning that does not include production orders—involves the steps and generated documents shown in the following diagram.
 
-![](Images/diag_OrderMgmt_Inventory_Planning_DRP.png)
 
 **Parent topic:**[Performing Inventory Planning with DRP](../UserGuide/OrderMgmt_Inventory_Planning_DRP_Mapref.md)
 

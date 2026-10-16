@@ -1,4 +1,4 @@
-# Database Scripts {#_b53a5313-aa16-468b-93a0-8e2c72495681 .concept}
+# Database Scripts
 
 With the Acumatica Customization Platform, you can use custom SQL scripts for the following changes to the database in the scope of a customization project:
 

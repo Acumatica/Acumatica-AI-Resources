@@ -1,20 +1,20 @@
-# Tenant Maintenance: To Change Tenant Visibility {#_8cff069b-5eac-4fc9-8920-d8393d3f3af4 .task}
+# Tenant Maintenance: To Change Tenant Visibility
 
 The following activity will walk you through the process of changing the visibility of a tenant.
 
-## Story { .section}
+## Story
 
 Suppose that you are the system administrator of your company, and you have need to change the visibility of a tenant in an existing Acumatica ERP application instance.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will change the visibility of a tenant in an existing instance.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the step of this activity, perform one of the following prerequisite activities to deploy the Acumatica ERP application instance: [Instance Deployment: To Deploy an Instance with Demo Data](INST_Deploying_Instances_Deploy_Tenant_With_Demodata_Activity.md) or [Instance Deployment: To Deploy an Out-of-the-Box Instance](INST_Deploying_Instances_Deploy_Tenant_Without_Demodata_Activity.md).
 
-## Step: Changing the Visibility of a Tenant { .section}
+## Step: Changing the Visibility of a Tenant
 
 To change the visibility of a tenant, do the following:
 

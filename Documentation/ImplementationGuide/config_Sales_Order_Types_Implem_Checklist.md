@@ -1,8 +1,8 @@
-# Sales Order Types: Implementation Checklist {#_cdc83034-5cd7-4601-bf6d-654c996d2b6d .concept}
+# Sales Order Types: Implementation Checklist
 
 The following sections provide details that you can use to ensure that the system is configured properly for the processing of sales orders, and to specify settings that affect the processing workflow for orders of different types.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 You should make sure the following features have been enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form based on the types of orders you want to configure and use:
 
@@ -10,22 +10,42 @@ You should make sure the following features have been enabled on the [Enable/Dis
 -   The *Inventory and Order Management* and *Inventory* features to be able to configure and use orders of any of the following types: *BL*, *SO*, *SA*, *RR*, *RM*, and *RC*
 -   The *Inventory and Order Management*, *Inventory*, and *Multiple Warehouses* features to be able to configure and use orders of the *TR* order type
 
-## Configuring the System { .section}
+## Configuring the System
 
 Before you begin configuring order types, you should make sure that on the [Chart of Accounts](../UserGuide/GL_20_25_00.md) \(GL202500\) form, all GL accounts that you will use for configuring an order type have been added. For details, see [General Ledger: To Create a Chart of Accounts](config_Basic_Company_Implem_Activity_COA.md).
 
-## Minimum Required Settings { .section}
+## Minimum Required Settings
 
-|Form|Criteria to Check|
-|----|-----------------|
-|The **General** tab of the [Order Types](../UserGuide/SO_20_10_00.md) \(SO201000\) form|-   The **Order Numbering Sequence**, which is the sequence to be used to assign order reference numbers, is specified.
+<table id="_71a2dfbb-313a-4d6e-9d0c-503ba3e4187c"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Criteria to Check
+
+</th></tr></thead><tbody><tr><td>
+
+The **General** tab of the [Order Types](../UserGuide/SO_20_10_00.md) \(SO201000\) form
+
+</td><td>
+
+-   The **Order Numbering Sequence**, which is the sequence to be used to assign order reference numbers, is specified.
 -   The **Invoice Numbering Sequence**, which is the sequence to be used to assign reference numbers for invoices prepared for orders of this type, is specified.
 -   The **Freight Account**, which is the account for posting freight charges, is specified.
 
-|
-|The Summary area of [Order Types](../UserGuide/SO_20_10_00.md) form|The **Active** check box, indicating that the order type is available for use, is selected.|
+</td></tr><tr><td>
 
-## Settings That Affect the Workflow { .section}
+The Summary area of [Order Types](../UserGuide/SO_20_10_00.md) form
+
+</td><td>
+
+The **Active** check box, indicating that the order type is available for use, is selected.
+
+</td></tr></tbody>
+</table>
+
+## Settings That Affect the Workflow
 
 For a particular order type, you can specify additional settings on the **General** tab of the [Order Types](../UserGuide/SO_20_10_00.md) \(SO201000\) form that will affect the processing of orders of this type:
 

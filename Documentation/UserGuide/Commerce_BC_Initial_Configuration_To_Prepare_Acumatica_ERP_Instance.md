@@ -1,14 +1,14 @@
-# Initial Configuration: To Prepare the Acumatica ERP Instance {#_13cd8fe9-80ac-4fed-ad2e-81b24293c27a .task}
+# Initial Configuration: To Prepare the Acumatica ERP Instance
 
 In this activity, you will go through the settings that need to be specified in the Acumatica ERP instance before you set up the connection to the BigCommerce store.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 The SweetLife company is planning on opening an online store built on the BigCommerce platform. The warehouse from which the goods will be shipped is based in New York. The company maintains the prices of its products in United States dollars and delivers products across New York by using the company's own vehicles. As an implementation consultant helping SweetLife to implement the integration between BigCommerce and Acumatica ERP, you want to make sure that the features required for the ecommerce functionality are enabled and the necessary entities are created and configured in the Acumatica ERP instance.
 
-## Process Overview { .section}
+## Process Overview
 
 The Acumatica ERP instance with the *U100* dataset already contains most of the settings and data that you will need to specify when you start configuring the store connection. In this activity, you will review the following settings or entities on the following forms of the Acumatica ERP instance:
 
@@ -22,14 +22,14 @@ The Acumatica ERP instance with the *U100* dataset already contains most of the 
 -   [Cash Accounts](CA_20_20_00.md) \(CA202000\): The cash account to be used for ecommerce orders
 -   [Payment Methods](CA_20_40_00.md) \(CA204000\): The payment method to which payment methods from the BigCommerce store will be mapped
 
-## System Preparation { .section}
+## System Preparation
 
 Sign in to the Acumatica ERP instance with the *U100* dataset preloaded by using the following credentials:
 
 -   **Username**: *gibbs*
 -   **Password**: *123*
 
-## Step 1: Enabling the Needed Features { .section}
+## Step 1: Enabling the Needed Features
 
 To make sure the needed features for ecommerce functionality have been enabled, do the following:
 
@@ -43,7 +43,7 @@ To make sure the needed features for ecommerce functionality have been enabled, 
     **Note:** Depending on the setup of your BigCommerce store and the inventory and order management processes in your company, you might need to enable additional features. For more information, see [Initial Configuration: Implementation Checklist](Commerce_BC_Initial_Configuration_Implem_Checklist.md).
 
 
-## Step 2: Reviewing the Customer Class for Customers Imported from BigCommerce { .section}
+## Step 2: Reviewing the Customer Class for Customers Imported from BigCommerce
 
 During the process of establishing and configuring the connection between Acumatica ERP and the BigCommerce store, you will need to specify the customer class that will be used for creating customer records for customers imported from the BigCommerce store. You can use an existing customer class or create a new one with a different set of default settings to be used specifically for online customers. In the instance with the *U100* data preloaded, a dedicated customer class for online customers has already been created.
 
@@ -55,7 +55,7 @@ To review the customer class that will be used for customers imported from the B
     In a subsequent activity, you will specify this customer class in the store settings so that the system will use the settings of this customer class to populate customer records for new customers that will be imported from the BigCommerce store to Acumatica ERP.
 
 
-## Step 3: Reviewing the Numbering Sequences for Customers and Customer Locations { .section}
+## Step 3: Reviewing the Numbering Sequences for Customers and Customer Locations
 
 To review the numbering sequences that Acumatica ERP will use to assign identifiers to customers and customer locations \(addresses\) imported from the BigCommerce store, do the following:
 
@@ -71,7 +71,7 @@ To review the numbering sequences that Acumatica ERP will use to assign identifi
 
 In a subsequent activity, you will specify these numbering sequences in the store settings so that the system will use them to create identifiers for customers and addresses imported from the BigCommerce store to Acumatica ERP.
 
-## Step 4: Reviewing the Customer Record to Be Used for Guest Orders { .section}
+## Step 4: Reviewing the Customer Record to Be Used for Guest Orders
 
 SweetLife's online store is going to accept guest orders \(that is, orders from customers who are not registered in the store\). During the configuration of the store connection, you will need to select the customer record in Acumatica ERP that will appear in orders that are placed as guest orders in the BigCommerce store. In the instance with the *U100* data preloaded, the generic online customer account has already been created.
 
@@ -83,7 +83,7 @@ To review the customer account that will be used for guest orders, do the follow
     In a subsequent activity, you will specify this customer in the store settings to make it appear on all orders imported from the BigCommerce store that were placed in the store by non-registered customers.
 
 
-## Step 5: Reviewing the Item Sales Categories { .section}
+## Step 5: Reviewing the Item Sales Categories
 
 To review the inventory-related settings that you will need to specify during the configuration of the store connection, do the following:
 
@@ -93,7 +93,7 @@ To review the inventory-related settings that you will need to specify during th
     Notice that no stock or non-stock items are currently assigned to this category. You will select this category in a subsequent activity to make stock and non-stock items that do not have their own categories appear under the *Other* category after they are imported to the BigCommerce store.
 
 
-## Step 6: Reviewing the Order Settings { .section}
+## Step 6: Reviewing the Order Settings
 
 In order to review the order type created for the sales orders coming from the BigCommerce store, do the following:
 
@@ -103,7 +103,7 @@ In order to review the order type created for the sales orders coming from the B
     In the **Order Template** box of the Summary area, notice that this order type is based on the *SO* order template. In a subsequent activity, you will configure the system to assign this order type to all orders imported from the BigCommerce store.
 
 
-## Step 7: Reviewing the Shipping Settings { .section}
+## Step 7: Reviewing the Shipping Settings
 
 To review the Acumatica ERP shipping settings that you will need to specify during the configuration of the store connection, do the following:
 
@@ -113,7 +113,7 @@ To review the Acumatica ERP shipping settings that you will need to specify duri
     Because SweetLife is going to deliver the products sold in the online store by using only its own fleet of vehicles, you will specify this shipping option when you configure the store connection.
 
 
-## Step 8: Reviewing the Cash Account and Payment Method Settings { .section}
+## Step 8: Reviewing the Cash Account and Payment Method Settings
 
 To review the payment method in Acumatica ERP that will be mapped to the BigCommerce payment methods configured in the online store, do the following:
 

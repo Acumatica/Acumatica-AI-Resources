@@ -1,4 +1,4 @@
-# Initial Configuration of an Amazon Store {#_96d3aace-68ae-47b4-a129-17e437fa0b59 .concept}
+# Initial Configuration of an Amazon Store
 
 In this section, you will learn about the initial configuration that must be performed to set up integration between Acumatica ERP and Amazon.
 

@@ -1,4 +1,4 @@
-# Staff Schedules {#_76378a10-e87d-4067-aa7a-c752d795dd33 .concept}
+# Staff Schedules
 
 The topics of this chapter explain how to configure staff schedules. A staff schedule defines the working days and hours of a staff member who delivers the company's services.
 

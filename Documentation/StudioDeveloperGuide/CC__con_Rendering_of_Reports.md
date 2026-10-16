@@ -1,25 +1,24 @@
-# Display of Reports {#_45dbe9ed-94a0-4183-80f8-eede0415b5ae .concept}
+# Display of Reports
 
 In this topic, you can find information about how Acumatica ERP displays reports that are created with the Acumatica Report Designer.
 
-## What a Report Is { .section}
+## What a Report Is
 
 A report is an RPX file \(which is created with the Acumatica Report Designer\) that contains the report schema in XML format—that is, the description of the data that should be displayed in the report and the description of the report layout.\(See the following diagram.\) The description of the data of the report includes the following: the database tables that provide data for the report, the relationships between these tables, the parameters that can be specified before the report is run, and the filtering and grouping parameters. The report layout is a tree of headers, details, and footers.
 
-![](Images/ReportTree.png "Report schema")
 
 Reports can be saved in files on disk, or in the UserReport table of the database of an Acumatica ERP instance. \(The UserReport table uses the file name of the report as a key and stores the schema of the report in XML format in the Xml column.\)
 
 The saved report can be published on an Acumatica ERP site—that is, added to the site map and to any applicable workspaces so that the users can work with the report.
 
-For details on creating reports with the Acumatica Report Designer, see the [S130 Reporting: Inquiry, Report Writing, Dashboards](https://openuni.acumatica.com/courses/reporting/s130-inquiries-reports-and-dashboards/) training course.
+For details on creating reports with the Acumatica Report Designer, see [Acumatica Report Designer](../UserGuide/ReportDesigner_Main.md).
 
 Acumatica ERP provides the following ways to run a report that you have created by using the Acumatica Report Designer:
 
 -   From a report form, which is added to the site map, when the user clicks the **Run Report** button on the form toolbar
 -   From a maintenance or entry form, when the user clicks the action button whose name is associated with the report name
 
-## How the Report Is Launched from the Report Form {#_ae3acf88-4440-4fac-a524-4fe7e8a7f0ac .section}
+## How the Report Is Launched from the Report Form
 
 When a user opens the report form, the webpage performs the POST HTTP request to the `ReportLauncher.aspx` page, passing the name of the report file as the ID query string parameter of the request, as shown in the following example.
 
@@ -40,9 +39,8 @@ The server returns an XML response with the report parameters to display and wit
 
 The following diagram illustrates how the report form is launched.
 
-![](Images/LaunchOfReportForm.png "Launch of the report form")
 
-## How the Report Data Is Retrieved {#_84960e46-15bb-492e-b167-a5a09b8e7163 .section}
+## How the Report Data Is Retrieved
 
 After the user has selected the values of the parameters of the report and clicked the **Run Report** button on the form toolbar of the report form, the webpage sends the GET request to `PX.ReportViewer.axd` on the server with the ID of the WebReport instance in the session \(which was created when the report was launched\), as shown in the following example.
 
@@ -58,7 +56,7 @@ To retrieve the data of the report from the database, the system uses the PX.Dat
 
 The system processes the data and creates a ReportNode object. That is, the system creates the sections of the report based on the data retrieved from the database and on the report schema from the Report object, and calculates all formulas inside the sections. Then the system uses the resulting ReportNode object, which contains all sections with all needed values, to render data in the needed format.
 
-## How the Report Data Is Displayed { .section}
+## How the Report Data Is Displayed
 
 After the long-running operation has completed, the PXReportViewer control displays the report on the report form.
 
@@ -79,7 +77,7 @@ http://localhost/AcumaticaERP/PX.ReportViewer.axd?
 
 If a user turns the pages of the report or changes the format of the report, the system creates the results of the report from the ReportNode object stored in the session by using the renderer for the needed format. That is, the system does not retrieve the data of the report from the database and does not processes this data to create a ReportNode object once again.
 
-## How the Report Is Launched from the Maintenance or Entry Form {#_1535b822-2515-4dd0-a31e-c527b7317ff0 .section}
+## How the Report Is Launched from the Maintenance or Entry Form
 
 On a form, when a user clicks the action button to generate a report, the data source control of the form creates a request to the Acumatica ERP server to execute the action delegate defined for the button. The server creates an instance of the graph, which provides the business logic for the form and invokes the action delegate method. The action delegate obtains from the form the data required to define the report parameters and throws an exception of the PX.Data.PXReportRequiredException type with the report ID and these parameters. The system processes the exception, saves the report parameters to the session, and redirects the user to the `ReportLauncher.aspx` page.
 

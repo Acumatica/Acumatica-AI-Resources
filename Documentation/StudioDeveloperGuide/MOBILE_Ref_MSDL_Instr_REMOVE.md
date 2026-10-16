@@ -1,4 +1,4 @@
-# remove {#_75a603f0-0fae-4784-842a-8c1ea54df03f .concept}
+# remove
 
 In the mobile site map of the Acumatica ERP instance, removes the referenced object, along with any child objects it has, from the mobile site map.
 

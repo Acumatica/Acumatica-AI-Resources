@@ -1,16 +1,16 @@
-# Tax Calculation Methods: General Information {#_cca87557-7498-46da-aec2-c49c0d40403a .concept}
+# Tax Calculation Methods: General Information
 
 In Acumatica ERP, various tax calculation methods for first-level and second-level taxes are available. The calculation method for a tax is defined on the [Taxes](TX_20_50_00.md) \(TX205000\) form.
 
-## Learning Objectives {#section_r2h_fjv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to configure first-level and second-level taxes in Acumatica ERP, learn how different calculation methods affect the resulting tax and the total document amount, and create documents to which these taxes are applied.
 
-## Applicable Scenarios {#section_t2h_fjv_vxb .section}
+## Applicable Scenarios
 
 You need to use an appropriate tax calculation method that meets the requirements of the tax authority.
 
-## The Method of Calculating the Tax Amount {#section_v2h_fjv_vxb .section}
+## The Method of Calculating the Tax Amount
 
 Different taxes may require different methods of calculation. You can select the appropriate option of a particular tax in the **Calculation Rule** box on the [Taxes](../Shared/../UserGuide/TX_20_50_00.md) \(TX205000\) form. The following options are available:
 

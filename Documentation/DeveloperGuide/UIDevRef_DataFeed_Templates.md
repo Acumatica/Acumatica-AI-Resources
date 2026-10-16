@@ -1,4 +1,4 @@
-# Data Feed: Configuration of Tiles {#_430819af-c1ab-497c-8bba-a0327e6f7620 .concept}
+# Data Feed: Configuration of Tiles
 
 You can define each tile’s layout and the list of properties displayed on it. You define tiles inside the template tag of the qp-data-feed tag.
 
@@ -6,7 +6,7 @@ To define the type of tile, you need to specify a condition in the if.bind prope
 
 The following example shows definition of a tile.
 
-``` {#codeblock_cdw_kt2_whc}
+```
 <template width="100%">
   <div class="activity-card">
     <template if.bind="Activities.ClassID.cellText == 'Email'">
@@ -23,7 +23,7 @@ The following example shows definition of a tile.
 </template>
 ```
 
-## Overview of Tile Templates {#section_jzy_vbv_wgc .section}
+## Overview of Tile Templates
 
 Acumatica ERP provides several predefined templates that you can use to organize data on a tile. The name of a tile template always starts with record-.
 
@@ -37,7 +37,6 @@ Each template has the following types of slots:
 
 The following diagram shows the basic structure of the template.
 
-![](Images/UIDevRef_DataFeed_TemplateStructure_Basic.png "The base structure of a tile template")
 
 Every column can contain from one to four slots:
 
@@ -46,7 +45,6 @@ Every column can contain from one to four slots:
 -   Each column also has the *X* slot \(for example, *AX* or *BX*\), where all values are placed one below the other.
 -   You can combine slots \(*A1* and *A2*\) and the *X* slot \(for example, *A1* and *AX*\), or just one type of slots.
 
-![](Images/UIDevRef_DataFeed_TemplateStructure_Example.png "An example of the slot usage on a tile")
 
 **Labels on tiles**: On numbered slots \(*A1*–*A3*\), labels are not displayed. On *X* slots, labels are displayed by default.
 
@@ -54,7 +52,7 @@ Every column can contain from one to four slots:
 
 **Text formatting**: By default, text on tiles gets the same formatting as in a regular fieldset. For example, status fields are highlighted with connotation colors and links appear in blue. For formatting, you can also use such CSS classes as *fieldset--text*, *fieldset--long-text*, *fieldset--header*, *fieldset--secondary*, and *fieldset--bold*.
 
-## Predefined Templates {#section_mlk_3jw_ghc .section}
+## Predefined Templates
 
 For the predefined templates, the number of primary slots is indicated in the template name. For example, record-1-1 and record 1-2 both contain two slots \(in addition to the prefix and postfix\). The digit in the template name indicates the relative width of each slot for a full-width screen. That means that the second slot in record-1-2 is wider than the second slot in record-1-1.
 
@@ -62,31 +60,110 @@ For the predefined templates, the number of primary slots is indicated in the te
 
 The following table lists the predefined templates, along with examples and descriptions.
 
-|Name|Example|Description|
-|----|-------|-----------|
-|record-1|![](Images/UIDevRef_DataFeed_record1.png)
+<table id="table_xjh_ccv_wgc"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Example
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+record-1
+
+</td><td>
+
 
  A tile with multiple fields in the *A1* slot and a menu in the postfix slot
 
-|The template contains one primary slot.|
-|record-1-1|![](Images/UIDevRef_DataFeed_record11.png)
+</td><td>
+
+The template contains one primary slot.
+
+</td></tr><tr><td>
+
+record-1-1
+
+</td><td>
+
 
  A tile with multiple fields in the *A1*, *AX*, and *BX* slots
 
-|The template contains two primary slots of equal width.|
-|record-1-2|![](Images/UIDevRef_DataFeed_record12.png)
+</td><td>
+
+The template contains two primary slots of equal width.
+
+</td></tr><tr><td>
+
+record-1-2
+
+</td><td>
+
 
  A tile with a prefix and fields in the *AX* and *BX* slots
 
-|The template contains two primary slots; the second primary slot is wider than the first one.|
-|record-1-2-compact| |The template contains two primary slots; the second primary slot is wider than the first one. This template is intended for narrow spaces \(for example, when the data feed occupies one-third of the screen\).|
-|record-1-1-1| |The template contains three primary slots of equal width.|
-|record-1-1-1-compact| |The template also contains three primary slots of equal width but is intended for narrow spaces \(for example, when a data feed occupies one-third of the screen\).|
-|record-3-2-2-2|![](Images/UIDevRef_DataFeed_record3222.png)|The template contains four primary slots. The first primary slot is wider than the others.|
+</td><td>
+
+The template contains two primary slots; the second primary slot is wider than the first one.
+
+</td></tr><tr><td>
+
+record-1-2-compact
+
+</td><td>
+
+ 
+
+</td><td>
+
+The template contains two primary slots; the second primary slot is wider than the first one. This template is intended for narrow spaces \(for example, when the data feed occupies one-third of the screen\).
+
+</td></tr><tr><td>
+
+record-1-1-1
+
+</td><td>
+
+ 
+
+</td><td>
+
+The template contains three primary slots of equal width.
+
+</td></tr><tr><td>
+
+record-1-1-1-compact
+
+</td><td>
+
+ 
+
+</td><td>
+
+The template also contains three primary slots of equal width but is intended for narrow spaces \(for example, when a data feed occupies one-third of the screen\).
+
+</td></tr><tr><td>
+
+record-3-2-2-2
+
+</td><td>
+
+
+</td><td>
+
+The template contains four primary slots. The first primary slot is wider than the others.
+
+</td></tr></tbody>
+</table>
 
 The following code shows the use of the record-1-2 template that results in the screenshot in the table above.
 
-``` {#codeblock_zks_rvw_wgc}
+```
 <template width="100%">
 	<div class="sp-documents-document no-animation">
 		<qp-template id="dfCase" wg-container name="record-1-2">
@@ -108,55 +185,131 @@ The following code shows the use of the record-1-2 template that results in the 
 </template>
 ```
 
-## CSS Classes for the record- Templates {#section_yqd_5zb_xgc .section}
+## CSS Classes for the record- Templates
 
 The following table shows CSS classes that you can use to format content inside the record-templates. These classes cannot be used outside those templates.
 
-|Class Name|Example|Description|
-|----------|-------|-----------|
-|*feed-vertical-divider*|![](Images/UIDevRef_DataFeed_divider.png)|Displays a vertical line before the template.
+<table id="table_shw_3bc_xgc"><thead><tr><th>
+
+Class Name
+
+</th><th>
+
+Example
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+*feed-vertical-divider*
+
+</td><td>
+
+
+</td><td>
+
+Displays a vertical line before the template.
 
  The class must be specified in a tag higher in the hierarchy than qp-template.
 
- ``` {#codeblock_tbd_wdc_xgc}
+ ```
 <div class="feed-vertical-divider">
   <qp-template id="dfCase" name="record-1-2"></qp-template>
 </div>
 ```
 
-|
-|*field--header*|![](Images/UIDevRef_DataFeed_header.png)|Intended for a header of the tile.
+</td></tr><tr><td>
+
+*field--header*
+
+</td><td>
+
+
+</td><td>
+
+Intended for a header of the tile.
 
  The class should be applied to the field tag or, if replace-content is used, in nested tags.
 
-|
-|*field--text*|![](Images/UIDevRef_DataFeed_text.png)|Intended for plain text inside the template. Depending on the container size, the text may be limited to two, three, or four lines.
+</td></tr><tr><td>
+
+*field--text*
+
+</td><td>
+
+
+</td><td>
+
+Intended for plain text inside the template. Depending on the container size, the text may be limited to two, three, or four lines.
 
  The class should be applied to the field tag or, if replace-content is used, in nested tags.
 
-|
-|*field--long-text*|![](Images/UIDevRef_DataFeed_longtext.png)|Formats plain text that should occupy multiple lines.The class should be applied to the `field` tag or, if `replace-content` is used, in nested tags.
+</td></tr><tr><td>
 
-|
-|*field--left*| |Left-aligns the label text when the label is displayed above the value \(see [Displaying of Labels and Values](#section_ard_dcc_xgc)\).
+*field--long-text*
+
+</td><td>
+
+
+</td><td>
+
+Formats plain text that should occupy multiple lines.The class should be applied to the `field` tag or, if `replace-content` is used, in nested tags.
+
+</td></tr><tr><td>
+
+*field--left*
+
+</td><td>
+
+ 
+
+</td><td>
+
+Left-aligns the label text when the label is displayed above the value \(see [Displaying of Labels and Values](#section_ard_dcc_xgc)\).
 
  The class should be applied to the `field` tag or, in case `replace-content` is used, in nested tags.
 
-|
-|*field--bold*|![](Images/UIDevRef_DataFeed_bold.png)|Makes text bold.The class is applied to the `field` tag or, in case `replace-content` is used, in nested tags.
+</td></tr><tr><td>
 
-|
-|*fieldset--condensed-*-   *fieldset--condensed-xs*
+*field--bold*
+
+</td><td>
+
+
+</td><td>
+
+Makes text bold.The class is applied to the `field` tag or, in case `replace-content` is used, in nested tags.
+
+</td></tr><tr><td>
+
+*fieldset--condensed-*-   *fieldset--condensed-xs*
 -   *fieldset--condensed-sm*
 -   *fieldset--condensed-md*
 -   *fieldset--condensed-lg*
 
-| |Displays labels and values in the condensed mode \(see [Displaying of Labels and Values](#section_ard_dcc_xgc)\).If condensed mode is needed only for particular size of screen, specify the suffix. For example, if the field should be displayed in condensed mode only for *SM* and *XS* screens, specify `class="fieldset--condensed-xs fieldset–condensed-sm"`.
+</td><td>
+
+ 
+
+</td><td>
+
+Displays labels and values in the condensed mode \(see [Displaying of Labels and Values](#section_ard_dcc_xgc)\).If condensed mode is needed only for particular size of screen, specify the suffix. For example, if the field should be displayed in condensed mode only for *SM* and *XS* screens, specify `class="fieldset--condensed-xs fieldset–condensed-sm"`.
 
 The class is applied to the qp-fieldset tag.
 
-|
-|*record-item-compound*| |Allows you to use multiple templates in a single div tag. By using this CSS class, you can define templates for different entities.``` {#codeblock_bh3_qbc_xgc}
+</td></tr><tr><td>
+
+*record-item-compound*
+
+</td><td>
+
+ 
+
+</td><td>
+
+Allows you to use multiple templates in a single div tag. By using this CSS class, you can define templates for different entities.```
 <qp-data-feed id="fileListFeedByTag"
  view.bind="LinkedFilesByTag"
  class="no-toolbar sp-invoices-feed compact-feed">
@@ -186,19 +339,38 @@ The class is applied to the qp-fieldset tag.
 </qp-data-feed>
 ```
 
-|
+</td></tr></tbody>
+</table>
 
-## Displaying of Labels and Values {#section_ard_dcc_xgc .section}
+## Displaying of Labels and Values
 
 The following table describes how field labels and values can be displayed on a tile.
 
-|Notation and Description|Example|
-|------------------------|-------|
-|**Compressed**: The label and value are displayed in one line, separated with a single space.This notation is applied to fieldsets of the *SM* or *XS* size.
+<table id="table_jqt_g3c_xgc"><thead><tr><th>
 
-|![](Images/UIDevRef_DataFeed_compressed.png)|
-|**Dot notation**: The label and value are displayed in one line, separated with dots. This notation is used when the tile is displayed on a smaller screen.|![](Images/UIDevRef_DataFeed_dotnotation.png)|
-|**With the label above the value**: The label without a colon is displayed above the value.
+Notation and Description
+
+</th><th>
+
+Example
+
+</th></tr></thead><tbody><tr><td>
+
+**Compressed**: The label and value are displayed in one line, separated with a single space.This notation is applied to fieldsets of the *SM* or *XS* size.
+
+</td><td>
+
+
+</td></tr><tr><td>
+
+**Dot notation**: The label and value are displayed in one line, separated with dots. This notation is used when the tile is displayed on a smaller screen.
+
+</td><td>
+
+
+</td></tr><tr><td>
+
+**With the label above the value**: The label without a colon is displayed above the value.
 
  This notation is applied to fieldsets of the *MD* or *LG* size.
 
@@ -206,54 +378,112 @@ The following table describes how field labels and values can be displayed on a 
 
  To left-align the label text, use the `field-left` class.
 
-|![](Images/UIDevRef_DataFeed_labelabove.png)|
+</td><td>
 
-## Recommendations for Organizing the Layout {#section_vv2_1y4_y4b .section}
+
+</td></tr></tbody>
+</table>
+
+## Recommendations for Organizing the Layout
 
 The following table shows layout recommendations for a data feed.
 
-|Correct|Incorrect|
-|-------|---------|
-|Use slots *B*, *C*, or *D* for fields with vertical alignment \(values under their labels\) and show them on the right side of the card.Don't show compressed fields on the right side and fields with labels above values on the left side.
+<table id="_dc7a3a65-d8fd-449d-9dd6-bf565a1ae406"><thead><tr><th>
 
-|
-|![](Images/UIDevRef_DataFeed_Do_VerticalAlignment.png "A correct layout")|![](Images/UIDevRef_DataFeed_Dont_VerticalAlignment.png "An incorrect layout")|
-|Use compressed fields in slots *B*, *C*, and *D*.Don't mix fields with labels above values and compressed fields.
+Correct
 
-|
-|![](Images/UIDevRef_DataFeed_Do_Compressed.png "A correct layout")|![](Images/UIDevRef_DataFeed_Dont_Compressed.png "An incorrect layout")|
-|Don’t use tiles that contain only fields shown as labels above values.|
-|![](Images/UIDevRef_DataFeed_Do_VerticalAlignment.png "A correct layout")|![](Images/UIDevRef_DataFeed_Dont_OnlyFieldsAboveValues.png "An incorrect layout")|
-|Left-align fields with text values. Don’t right-align fields with text values.
+</th><th>
 
-|
-|![](Images/UIDevRef_DataFeed_Do_AlignLeft.png "A correct layout")|![](Images/UIDevRef_DataFeed_Dont_AlignRight.png "An incorrect layout")|
-|Show the primary link \(which opens the form with the corresponding record\) in the top left corner of the tile.Don’t show the primary link in slots below the first row of the tile.
+Incorrect
 
-|
-|![](Images/UIDevRef_DataFeed_Do_AlignLeft.png "A correct layout")|![](Images/UIDevRef_DataFeed_Dont_ShowLink.png "An incorrect layout")|
-|Distribute values on the tile evenly using multiple slots of the A, B,C, or D columns.Don’t put too many values in a single column.
+</th></tr></thead><tbody><tr><td colspan="2">
 
-|
-|![](Images/UIDevRef_DataFeed_Do_AlignLeft.png "A correct layout")|![](Images/UIDevRef_DataFeed_Dont_Column.png "An incorrect layout")
+Use slots *B*, *C*, or *D* for fields with vertical alignment \(values under their labels\) and show them on the right side of the card.Don't show compressed fields on the right side and fields with labels above values on the left side.
 
- ![](Images/UIDevRef_DataFeed_Dont_Column2.png)
+</td></tr><tr><td>
 
-|
-|Use compressed notation when you’re displaying values in multiple columns.Don’t use dot notation in a single slot when other columns have a different notation.
 
-|
-|![](Images/UIDevRef_DataFeed_Do_AlignLeft.png "A correct layout")|![](Images/UIDevRef_DataFeed_Dont_DotNotation.png "An incorrect notation")|
-|Use dot notation for tiles displayed in narrow areas \(such as side panels or narrow fieldsets\). Don’t display labels above values in narrow areas.
+</td><td>
 
-|
-|![](Images/UIDevRef_DataFeed_Do_Narrow.png "A correct layout")|![](Images/UIDevRef_DataFeed_Dont_Narrow.png "An incorrect notation")|
 
-## Adding a Menu on a Tile {#section_ipr_323_xgc .section}
+</td></tr><tr><td colspan="2">
+
+Use compressed fields in slots *B*, *C*, and *D*.Don't mix fields with labels above values and compressed fields.
+
+</td></tr><tr><td>
+
+
+</td><td>
+
+
+</td></tr><tr><td colspan="2">
+
+Don’t use tiles that contain only fields shown as labels above values.
+
+</td></tr><tr><td>
+
+
+</td><td>
+
+
+</td></tr><tr><td colspan="2">
+
+Left-align fields with text values. Don’t right-align fields with text values.
+
+</td></tr><tr><td>
+
+
+</td><td>
+
+
+</td></tr><tr><td colspan="2">
+
+Show the primary link \(which opens the form with the corresponding record\) in the top left corner of the tile.Don’t show the primary link in slots below the first row of the tile.
+
+</td></tr><tr><td>
+
+
+</td><td>
+
+
+</td></tr><tr><td colspan="2">
+
+Distribute values on the tile evenly using multiple slots of the A, B,C, or D columns.Don’t put too many values in a single column.
+
+</td></tr><tr><td>
+
+
+</td><td>
+
+
+
+</td></tr><tr><td colspan="2">
+
+Use compressed notation when you’re displaying values in multiple columns.Don’t use dot notation in a single slot when other columns have a different notation.
+
+</td></tr><tr><td>
+
+
+</td><td>
+
+
+</td></tr><tr><td colspan="2">
+
+Use dot notation for tiles displayed in narrow areas \(such as side panels or narrow fieldsets\). Don’t display labels above values in narrow areas.
+
+</td></tr><tr><td>
+
+
+</td><td>
+
+
+</td></tr></tbody>
+</table>
+
+## Adding a Menu on a Tile
 
 A tile can have a drop-down menu.
 
-![](Images/UIDevRef_DataFeed_Menu.png "A menu of a tile")
 
 To add a menu to a tile, use the qp-menu control. The menu control should be located in the postfix slot of a tile, as shown above.
 
@@ -261,7 +491,7 @@ To configure the menu control, you need to define its configuration and the Menu
 
 The following code implements the data feed from the screenshot above. The qp-menu tag is located in the `postfix` slot of the `record-1` template.
 
-``` {#codeblock_j2w_s23_xgc}
+```
 <qp-data-feed id="dfPayMethods" view.bind="PaymentMethods" auto-resize="true">
   <template width="100%">
     <qp-template id="dfPayMethod" name="record-1" class="no-hover">

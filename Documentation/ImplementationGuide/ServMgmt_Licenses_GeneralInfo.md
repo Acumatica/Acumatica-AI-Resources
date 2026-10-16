@@ -1,10 +1,10 @@
-# Licenses: General Information {#_428f0edc-3f7c-4508-b446-907cba23e261 .concept}
+# Licenses: General Information
 
 A license is an official permission or certification that authorizes a person to perform a specific type of work or confirms their expertise in a particular area. To track licenses in the system, you first create license types— categories used to group related licenses and associate them with services. You then enter individual licenses, assign them to the appropriate license types, and specify the staff members or company branches to which each license applies. This setup helps you quickly identify qualified staff members for services that require specific licenses.
 
 In this topic, you will learn how license types and licenses are created in the system and assigned to staff members.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -13,11 +13,11 @@ In this chapter, you will learn how to do the following:
 -   Add a license
 -   Assign a license to an employee
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create licenses in Acumatica ERP when your company provides services that require official authorization or certification. By tracking licenses in the system, you can ensure that only staff members with the necessary licenses are assigned to perform those services.
 
-## License Application { .section}
+## License Application
 
 Before creating license types, gather information about which types are required for the services your company provides. After defining the license types, specify a license type for each license you enter in the system. Each license is assigned to a single staff member, though one staff member can hold multiple licenses. You can then associate the required license types with services.
 
@@ -25,7 +25,7 @@ Once this setup is complete, when you select a staff member to perform a particu
 
 When you save a new license, the system assigns it a reference number based on the numbering sequence defined for licenses in the **License Numbering Sequence** box on the [Service Management Preferences](../UserGuide/FS_10_01_00.md) \(FS100100\) form.
 
-## License Validation { .section}
+## License Validation
 
 By assigning license types to services, you optimize the staff selection process. For an appointment, the system suggests only those staff members who own the required license. You can set up validation so that the system will determine whether the license type specified for a service matches the assigned employee's licenses.
 

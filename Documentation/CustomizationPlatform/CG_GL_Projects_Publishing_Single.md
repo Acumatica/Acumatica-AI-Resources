@@ -1,4 +1,4 @@
-# To Publish a Single Project {#_739ba5bb-cf0e-40ff-91ca-4f1f1723db1f .task}
+# To Publish a Single Project
 
 You can publish a single customization project by using the **Publish** command on the [Customization Projects](../UserGuide/SM_20_45_05.md) \(SM204505\) form.
 
@@ -12,7 +12,6 @@ To to do this, perform the following actions:
 
 4.  On the More menu, click **Publish** to initiate the publication of the selected project \(Item 2\).
 
-    ![](images/CG_GL_Projects_Publishing_Single.png "Publishing a single customization project")
 
 
 **Parent topic:**[Publishing Customization Projects](../CustomizationPlatform/CG_GL_Projects_Publishing.md)

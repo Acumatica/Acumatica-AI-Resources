@@ -1,4 +1,4 @@
-# Payment Methods: Direct Deposits {#_e30af141-152b-4829-9262-bfd57cd860b5 .concept}
+# Payment Methods: Direct Deposits
 
 Direct deposit payments involve the direct transfer of funds from the company payroll account to the personal savings or checking accounts of its employees.
 

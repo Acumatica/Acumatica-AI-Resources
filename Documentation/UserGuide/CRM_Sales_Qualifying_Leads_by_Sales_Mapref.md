@@ -1,4 +1,4 @@
-# Qualifying Leads \(Sales\) {#_579875d4-c368-4b73-be5d-f466cc987236 .concept}
+# Qualifying Leads \(Sales\)
 
 In this chapter, you will find information about the lead qualification process as performed by a sales team.
 

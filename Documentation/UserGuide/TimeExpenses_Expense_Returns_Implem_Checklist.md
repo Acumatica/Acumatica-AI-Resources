@@ -1,8 +1,8 @@
-# Expense Returns to Corporate Cards: Implementation Checklist {#_1e5bf70f-45fd-4fb4-8c2a-dec25a2d04a2 .concept}
+# Expense Returns to Corporate Cards: Implementation Checklist
 
 The following sections provide details that you can use to ensure that the system is configured properly for processing expense returns to corporate cards, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you initially process expense returns to corporate cards, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -12,7 +12,7 @@ We recommend that before you initially process expense returns to corporate card
 |[Employees](EP_20_30_00.md#) \(EP203000\) form|The employees who are going to use the corporate cards have been created. For more information, see [Employee Settings](OS__con_Employee_Settings.md).|
 |[Non-Stock Items](IN_20_20_00.md#) \(IN202000\) form|The inventory items to be used in expense receipts have been created, and the *Expense* type has been specified for the items.|
 
-## Other Settings That Affect the Workflow { .section}
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of processing expense returns to corporate cards by specifying additional settings on the [Time and Expenses Preferences](EP_10_10_00.md#) \(EP101000\) form, as follows:
 

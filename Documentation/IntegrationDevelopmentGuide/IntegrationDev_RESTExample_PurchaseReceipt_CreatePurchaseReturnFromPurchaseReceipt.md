@@ -1,8 +1,8 @@
-# Create a Purchase Return from a Purchase Receipt {#_ded2af68-35ad-4b44-b9ee-5371a8790341 .concept}
+# Create a Purchase Return from a Purchase Receipt
 
 If you are using the contract-based REST API to integrate Acumatica ERP with an external system, this external system can create purchase returns from purchase receipts. For details about the management of purchase documents, see [Managing Purchase Documents](../UserGuide/PO__MNG_Managing_Document.md).
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to do the following to configure your client application and the Acumatica ERP instance to be used:
 
@@ -11,25 +11,25 @@ Before you test the code below, you need to do the following to configure your c
 3.  If you are using Postman as the client application for testing, in the `IntegrationDevelopmentGuide.postman_collection.json` collection, make sure that the collection’s variables have the proper values. This collection is located in the `IntegrationDevelopment\Help` folder of the [Help-and-Training-Examples](https://github.com/Acumatica/Help-and-Training-Examples) repository on GitHub.
 4.  To sign in to the instance in the client application, use the tenant name \(which you specified when you created the instance\) and the *HEADOFFICE* branch.
 
-## Request { .section}
+## Request
 
 You can use the following example of an HTTP request to create a purchase return by using the purchase receipt number \(the POReceiptNbr field\). Thus, the whole purchase receipt will be used in the purchase return being created.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-PUT /entity/Default/25.200.001/PurchaseReceipt?
+PUT /entity/Default/26.200.001/PurchaseReceipt?
     $expand=Details HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
 Content-Type: application/json
 
 {
-    "Type": {"value": "Return"},
+    "Type": {"value": { "id": "RN" }},
     "VendorID": {"value": "GOODFRUITS"},
-    "CreateBill": {"value": "False"},
+    "CreateBill": {"value": false},
     "Description": {"value": "Test return (all PR lines)"},
-    "ProcessReturnWithOriginalCost": {"value": "True"},
+    "ProcessReturnWithOriginalCost": {"value": true},
     "Details": [
         {
             "POReceiptNbr": {"value": "000013"}

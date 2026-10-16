@@ -1,4 +1,4 @@
-# Cost Calculation for Produced Items: Actual Costing Method {#_4fdb445b-8aa0-461f-9039-85fad92d68c3 .concept}
+# Cost Calculation for Produced Items: Actual Costing Method
 
 You specify a production order's costing method on the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form. The *Actual* costing method can be most beneficial for calculating production costs when both of the following describe the manufacturing business process of your organization:
 
@@ -7,7 +7,7 @@ You specify a production order's costing method on the [Production Order Mainten
 
 In this topic, you will read information about how the system calculates production costs when the *Actual* costing method is specified.
 
-## Cost Calculation with the Actual Costing Method { .section}
+## Cost Calculation with the Actual Costing Method
 
 You can use the *Actual* costing method to calculate costs for produced items with the *Average*, *FIFO*, or *Specific* valuation method, which is specified on the **General** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form. For information about valuation methods, see [Item Costs and Valuation Methods: General Information](Item_Costs_Valuation_Methods_GeneralInfo.md).
 

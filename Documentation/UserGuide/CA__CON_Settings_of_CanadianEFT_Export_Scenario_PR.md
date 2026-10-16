@@ -1,4 +1,4 @@
-# Settings of the EFT Export Scenario for Canadian Payroll {#_5a78a4d5-7893-4b25-821a-3ba8b779d3cb .concept}
+# Settings of the EFT Export Scenario for Canadian Payroll
 
 You can export payroll batch payments to a CPA-005 file on the [Batch Payments](AP_30_50_00.md) \(AP305000\) form by using the Canadian EFT plug-in.
 

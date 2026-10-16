@@ -1,4 +1,4 @@
-# Managing Vendor Relations {#_5f722782-55fb-4019-8f41-44b8ffdcf29f .concept}
+# Managing Vendor Relations
 
 The processes of purchasing goods or services and paying for them may vary depending on the requirements of the companies involved. In some companies, payments for goods or services are made to a different vendor than the vendor that supplied those goods or services. These vendors are typically related in some way; they may be part of the same organization or may have a temporary partnership for the procurement of goods or services.
 

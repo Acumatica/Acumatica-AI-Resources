@@ -1,4 +1,4 @@
-# Push Notifications {#_43fc945a-f762-4924-b538-21632beb8441 .concept}
+# Push Notifications
 
 Push notifications are notifications in JSON format that are sent by Acumatica ERP to notification destinations when specific data changes occur in Acumatica ERP. External applications can receive the notifications and process them to retrieve the information about the changes.
 

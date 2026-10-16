@@ -1,14 +1,14 @@
-# To Assemble a Stock Kit {#_5cdbc35a-b44b-46d5-b09d-61f0f0468949 .task}
+# To Assemble a Stock Kit
 
 If you want stock kits to be on hand in a warehouse, you need to assemble the required quantity of the kits by using the [Kit Assembly](IN_30_70_00.md) \(IN307000\) form, as described in this topic.
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Make sure that the specification for the kit you want to assembly has been created on the [Kit Specifications](IN_20_95_00.md) \(IN209500\) form.
 
-## To Assemble a Stock Kit { .section}
+## To Assemble a Stock Kit
 
 1.  Open the [Kit Assembly](../Shared/../UserGuide/IN_30_70_00.md) \(IN307000\) form.
 

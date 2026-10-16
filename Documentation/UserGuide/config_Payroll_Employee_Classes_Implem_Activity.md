@@ -1,20 +1,20 @@
-# Employee Payroll Classes: Implementation Activity {#_e2c6262f-d906-4387-ab05-4e6964d99c01 .task}
+# Employee Payroll Classes: Implementation Activity
 
 In the following implementation activity, you will learn how to create an employee payroll class.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife company employs the following types of employees: salaried, who are paid once a month, and hourly, who are paid on a weekly basis and whose overtime is calculated additionally. Each of these types has specific characteristics that should be reflected in the settings of the employees and, eventually, in their paychecks. Acting as a system administrator, you need to create and set up the needed employee payroll classes.
 
-## Configuration Overview {#section_vlt_dpj_vsb .section}
+## Configuration Overview
 
 In the *U100 Payroll* dataset, for the purposes of this activity, on the [Work Calendar](CS_20_90_00.md) \(CS209000\) form, the *MAIN* work calendar has been defined. This calendar is used for standard working hours.
 
-## Process Overview { .section}
+## Process Overview
 
 You create and set up employee payroll classes by using the [Employee Payroll Class](PR_20_20_00.md) \(PR202000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating deduction and benefit codes, you should launch the Acumatica ERP website and sign in as a system administrator by using the following credentials:
 
@@ -25,7 +25,7 @@ As a prerequisite activity, in the company to which you are signed in, be sure y
 
 As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course.
 
-## Step 1: Creating a Payroll Class for Hourly Employees { .section}
+## Step 1: Creating a Payroll Class for Hourly Employees
 
 To create an employee payroll class for hourly employees, do the following:
 
@@ -44,7 +44,7 @@ To create an employee payroll class for hourly employees, do the following:
 
 5.  On the form toolbar, click **Save**.
 
-## Step 2: Creating a Payroll Class for Salaried Employees { .section}
+## Step 2: Creating a Payroll Class for Salaried Employees
 
 To create an employee payroll class for salaried employees, while you are still on the [Employee Payroll Class](PR_20_20_00.md) \(PR202000\) form, do the following:
 

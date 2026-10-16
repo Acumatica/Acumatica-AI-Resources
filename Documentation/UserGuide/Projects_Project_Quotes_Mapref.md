@@ -1,4 +1,4 @@
-# Processing Project Quotes {#_c7d17129-f452-45c2-99de-b944cbe45a45 .concept}
+# Processing Project Quotes
 
 If you need to estimate a potential project and send a proposal to a customer before a project is created, you can process a project quote. After the customer agrees to the terms of the quote, you can convert the winning quote to a project. This chapter explains how you can prepare and process project quotes.
 
@@ -9,6 +9,8 @@ If you need to estimate a potential project and send a proposal to a customer be
 -   **[Project Quotes: Creation of Project Quotes from Opportunities](../UserGuide/Projects_Project_Quotes_Opportunities.md)**  
 
 -   **[Project Quotes: To Process a Project Quote Based on an Opportunity](../UserGuide/Projects_Project_Quotes_Process_Activity.md)**  
+
+-   **[Project Quotes: Related Items in Project Quotes](../UserGuide/Projects_Project_Quotes_Related_Items.md)**  
 
 -   **[Project Quotes: Creation of a Project from a Project Quote](../UserGuide/Projects_Project_Quotes_Creation_Rules.md)**  
 

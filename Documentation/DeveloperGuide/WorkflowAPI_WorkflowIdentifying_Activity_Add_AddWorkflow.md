@@ -1,4 +1,4 @@
-# Step 3: Adding a Workflow for the Specific Value of the Workflow-Identifying Field {#_c7747a1d-0638-4ea0-b39d-2b7d2adbe64d .task}
+# Step 3: Adding a Workflow for the Specific Value of the Workflow-Identifying Field
 
 In this step, you will add a workflow for the *Simple* value of the **Order Type** box. This workflow has three workflow states \(which are `OnHold`, `Completed`, and `Paid`\) and the following transitions:
 
@@ -13,7 +13,7 @@ To add the new workflow, do the following in the static Configure method of the 
 
 1.  In the lambda expression for the UpdateScreenConfigurationFor method, after calling the FlowTypeIdentifierIs method, call the WithFlows method and add a workflow for the *Simple* value of the `UsrOrderType` field as shown in the following code.
 
-    ```language-csharp
+    ```csharp
                     .WithFlows(flows => flows
                         .Add<OrderTypes.simple>(flow =>
                             getSimpleBehavior(flow)))
@@ -23,7 +23,7 @@ To add the new workflow, do the following in the static Configure method of the 
 
 2.  Add the private static `getSimpleBehavior` method, and specify the list of states of the new workflow as shown in the following code.
 
-    ```language-csharp
+    ```csharp
             private static Workflow.IConfigured getSimpleBehavior(
                 Workflow.INeedStatesFlow flowState)
             {
@@ -88,7 +88,7 @@ To add the new workflow, do the following in the static Configure method of the 
     -   `Paid`: You have specified which fields should be unavailable.
 3.  In the private static `getSimpleBehavior` method, after the call of the WithFlowStates method, define the transitions by using the WithTransitions method as the following code shows.
 
-    ```language-csharp
+    ```csharp
                 .WithTransitions(transitions =>
                 {
                     transitions.AddGroupFrom<RSSVWorkOrderEntry_Workflow.States.onHold>(

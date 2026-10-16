@@ -1,4 +1,4 @@
-# Configuration of Salesforce {#_58fa2865-bb7f-4688-8531-b07ea5fd1346 .concept}
+# Configuration of Salesforce
 
 To configure your Salesforce instance, you need to log in to Salesforce with an administrator account and perform the following steps:
 

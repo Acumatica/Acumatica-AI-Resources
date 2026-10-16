@@ -1,8 +1,8 @@
-# Product Configurator: Rule Processing {#_1bc9c196-8b71-48cc-8ee2-909e941fa371 .concept}
+# Product Configurator: Rule Processing
 
 This topic describes rules that can be used with configurations.
 
-## Types of Rules { .section}
+## Types of Rules
 
 You can create rules of the following types: *Exclude*, *Include*, and *Require*. When rules are processed, you can only see the available remaining options. Selection of attributes, features, and options can go in any order. For example, one user might choose color as their first choice. Another user might select the fabric as their first choice.
 
@@ -13,7 +13,7 @@ Rules are triggered by the source feature, any option or a specific option being
 -   *Require:* An option selection must be made for the target feature.
 -   *Validate:* The attribute value must meet a condition. This type is available only for attributes.
 
-## Rule Examples { .section}
+## Rule Examples
 
 **Example 1: Excluding an Option Based on Another Option**
 
@@ -54,7 +54,7 @@ Further suppose that if Option A1 of Feature A is selected, then all options for
 
 In the example above, if the source were `<ANY>`, then Feature A and Feature B would be mutually exclusive. If the rule was of the *Include* type, then all options of Feature B would be added when Option A1 of Feature A was selected.
 
-## Including an Option Based on an Attribute Value { .section}
+## Including an Option Based on an Attribute Value
 
 When you define attributes on the [Attributes](CS_20_50_00.md) \(CS205000\) form, you can enter a list of valid values for attributes with the *Combo* and *Multi Select Combo* control types. You can also use attribute values specified in the **Value ID** column in rules.
 
@@ -84,7 +84,7 @@ For example, suppose that a user must enter a value between 1 and 5; such as 1, 
 |--------|-------------|-----------|-----------|------------------|-----------------|
 |Validate|Is Between|`CDec(1)`|`CDec(5`\)|N/A|N/A|
 
-## Rule Concepts { .section}
+## Rule Concepts
 
 -   Rules are triggered by option selection or attribute value changing:
     -   Rules for features can be triggered by a single option or any option being selected.
@@ -105,7 +105,7 @@ For example, suppose that a user must enter a value between 1 and 5; such as 1, 
 -   Attribute rules are applied before option rules when configuration entry orders are started.
 -   Options with the **Fixed** check box selected cannot be excluded by any rule. A user could write rules that would attempt to include, exclude, or require this type of option but all rules processing would ignore application to the options with the **Fixed** check box selected.
 
-## Order of Rules { .section}
+## Order of Rules
 
 Rules are validated in the following order:
 

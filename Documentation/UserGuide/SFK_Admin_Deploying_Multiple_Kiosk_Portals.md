@@ -1,8 +1,8 @@
-# Shop Floor Kiosk Administration: Deploying Multiple Kiosk Portals {#_c9857306-3c46-4539-9a2d-649ce5c6d157 .concept}
+# Shop Floor Kiosk Administration: Deploying Multiple Kiosk Portals
 
 If your organization operates multiple plants, production sites, or work center groups with different operational needs, you can deploy a separate kiosk portal for each location. Each portal is configured independently and can be assigned its own branch, so that manufacturing transactions are posted to the correct entity for each site.
 
-## What Is Shared Across Portals { .section}
+## What Is Shared Across Portals
 
 The following are shared across all kiosk portals within the same tenant:
 
@@ -10,7 +10,7 @@ The following are shared across all kiosk portals within the same tenant:
 -   The Acumatica ERP database and all records within it.
 -   User accounts. The same user account can be used as the service account for more than one kiosk portal, and a production employee’s user account with the *SFK User* role gives them access to any kiosk portal in the tenant.
 
-## What Is Configured Per Portal { .section}
+## What Is Configured Per Portal
 
 The following are specific to each kiosk portal and must be configured separately:
 
@@ -18,7 +18,7 @@ The following are specific to each kiosk portal and must be configured separatel
 -   The branch assigned to the portal record on the **Shop Floor Kiosk** tab of the [Portals](SP_70_10_00.md) \(SP701000\) form.
 -   The deployed kiosk instance \(website\) associated with the portal URL.
 
-## Steps for Each Additional Portal { .section}
+## Steps for Each Additional Portal
 
 **At a glance**: Additional portal deployment
 

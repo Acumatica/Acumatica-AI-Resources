@@ -1,4 +1,4 @@
-# Configuring Scenario Mapping {#_a98bc8e0-b833-4a38-aab8-f900e4a38f28 .concept}
+# Configuring Scenario Mapping
 
 You perform the mapping of an import scenario on the **Mapping** tab of the [Import Scenarios](SM_20_60_25.md) \(SM206025\) form, and you perform the mapping of an export scenario on the **Mapping** tab of the [Export Scenarios](SM_20_70_25.md) \(SM207025\) form. You use similar principles when configuring the mapping of either type of scenario.
 

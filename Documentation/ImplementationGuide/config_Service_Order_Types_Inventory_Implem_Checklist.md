@@ -1,42 +1,87 @@
-# Service Order Types: Implementation Checklist {#_a46bfdca-b1be-4613-9fe7-1dabf0eb60af .concept}
+# Service Order Types: Implementation Checklist
 
 The following sections provide details you can use to ensure the proper configuration of each service order type that will be used for service orders and appointments for which sales orders or SO invoices will be generated.
 
-## Prerequisites { .section}
+## Prerequisites
 
 Before you create a service order type to be used for service orders and appointments for which sales orders or SO invoices will be generated, you should make sure the minimum configuration of service management functionality has been performed, as described in [Basic Service Management Configuration: Implementation Activity](config_ServMgmt_with_Inventory_Implem_Activity.md) .
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you start to create service order types, you make sure the needed features have been enabled and settings have been specified, as summarized in the following checklist.
 
-|Form|Criteria to Check|
-|----|-----------------|
-|[Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form|The following features have been enabled:-   *Service Management*.
+<table id="_75f5a845-9a95-409c-9ffd-7c022ec672dc"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Criteria to Check
+
+</th></tr></thead><tbody><tr><td>
+
+[Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form
+
+</td><td>
+
+The following features have been enabled:-   *Service Management*.
 -   *Inventory and Order Management*: This feature makes it possible to configure service order types that are set up to generate sales orders for service orders and appointments.
 -   *Inventory*
 -   *Advanced SO Invoices*
 
-|
-|[Numbering Sequences](../UserGuide/CS_20_10_10.md) \(CS201010\) form|At least one numbering sequence for service orders has been created.|
-|[Credit Terms](../UserGuide/CS_20_65_00.md) \(CS206500\) form|At least one set of credit terms has been created.|
+</td></tr><tr><td>
 
-## Minimum Required Settings for a Service Order Type { .section}
+[Numbering Sequences](../UserGuide/CS_20_10_10.md) \(CS201010\) form
 
-|Form|Settings to Specify|
-|----|-------------------|
-|The Summary area of the [Service Order Types](../UserGuide/FS_20_23_00.md) \(FS202300\) form|-   The identifier of the service order type
+</td><td>
+
+At least one numbering sequence for service orders has been created.
+
+</td></tr><tr><td>
+
+[Credit Terms](../UserGuide/CS_20_65_00.md) \(CS206500\) form
+
+</td><td>
+
+At least one set of credit terms has been created.
+
+</td></tr></tbody>
+</table>
+
+## Minimum Required Settings for a Service Order Type
+
+<table id="_37d532d4-32e4-45e9-97c4-27987d2579ef"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Settings to Specify
+
+</th></tr></thead><tbody><tr><td>
+
+The Summary area of the [Service Order Types](../UserGuide/FS_20_23_00.md) \(FS202300\) form
+
+</td><td>
+
+-   The identifier of the service order type
 -   The description of the service order type
 
-|
-|The **General** tab of the [Service Order Types](../UserGuide/FS_20_23_00.md) form|-   The **Numbering Sequence** to be used to assign service order reference numbers to service orders of the type
+</td></tr><tr><td>
+
+The **General** tab of the [Service Order Types](../UserGuide/FS_20_23_00.md) form
+
+</td><td>
+
+-   The **Numbering Sequence** to be used to assign service order reference numbers to service orders of the type
 -   The **Behavior** of the service order type
 -   The *Sales Orders* or *SO Invoices* option in the **Generated Billing Documents** box, which indicates that a sales order \(if shipping is involved\) or SO invoice \(no shipping involved\) will be generated to bill the customer for both services and inventory items specified in service orders and appointments of the service order type
 -   The needed option in the **Default Terms for AR and SO** box
 
-|
+</td></tr></tbody>
+</table>
 
-## Other Settings That Affect the Workflow { .section}
+## Other Settings That Affect the Workflow
 
 For a particular service order type, you can specify additional settings on the **General** tab of the [Service Order Types](../UserGuide/FS_20_23_00.md) \(FS202300\) form that will affect the processing of service orders and appointments of this type:
 

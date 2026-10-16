@@ -1,10 +1,10 @@
-# Emails and Activities: To Create an Event {#_3b77010b-7dc2-4b97-9ef3-5c4bcf41f461 .task}
+# Emails and Activities: To Create an Event
 
 The following activity will demonstrate how to create an event.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are David Chubb, a sales manager of the SweetLife Fruits &amp; Jams company.You have sent the company's price list to Donna Coleman, a buyer at Yummy Supplies supermarket. Donna has studied the price list and would like to discuss the company's offer on juicers. You want to invite your colleague Jeffrey Vega, who maintains juicers at SweetLife, to the call. Also, Donna wants to invite her colleague, Jim Berry, who maintains juicers at Yummy Supplies. Jim's email address is *jim.berry@yummysupplies.example.com*, and his contact information has not been added to Acumatica ERP yet. You need to schedule a conference call and invite Donna, Jeffrey, and Jim to the call.
 
@@ -12,7 +12,7 @@ Because you work in New York, your time zone is Eastern Time, which is Greenwich
 
 A day before the call, Donna informs you that she will be on a business trip in Phoenix, and you need to adjust the time zone and choose the time that fits Donna's time zone, which is Arizona, Greenwich Mean Time minus seven hours.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -23,11 +23,11 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
     -   *Jeffrey Vega*
 -   On the [Leads](CR_30_10_00.md) \(CR301000\) form, the *Donna Coleman* lead has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create, reschedule, and then cancel an event on the **Activities** tab of the [Leads](CR_30_10_00.md) \(CR301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating an event, you should do the following:
 
@@ -38,7 +38,7 @@ Before you start creating an event, you should do the following:
 3.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 4.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *11/27/2026*. If a different date is displayed, click the Business Date menu button and select *11/27/2026*. For simplicity, in this process activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating an Event { .section}
+## Step 1: Creating an Event
 
 To create an event, do the following:
 
@@ -61,7 +61,7 @@ To create an event, do the following:
 
 You have created the event. On the **Attendees** tab, notice that a row with your contact information has been added. \(A row is always added for the event's owner.\) In the **Invitation** column, the status of the invitation is *Accepted* because the owner is assumed to be attending the event. In the next step, you will invite potential attendees to the event.
 
-## Step 2: Adding Potential Attendees to the Event { .section}
+## Step 2: Adding Potential Attendees to the Event
 
 To add potential attendees and invite them to the event, do the following:
 
@@ -87,7 +87,7 @@ To add potential attendees and invite them to the event, do the following:
 7.  Close the [Event](CR_30_60_30.md) form.
 8.  Sign out of the system.
 
-## Step 3: Accepting the Event { .section}
+## Step 3: Accepting the Event
 
 To accept the invitation to the event as a SweetLife's technician Jeffrey Vega, do the following:
 
@@ -102,7 +102,7 @@ To accept the invitation to the event as a SweetLife's technician Jeffrey Vega, 
 6.  On the form toolbar, click **Accept**. Notice that the status of the invitation has changed to *Accepted*.
 7.  Sign out of the system.
 
-## Step 4: Rescheduling the Event { .section}
+## Step 4: Rescheduling the Event
 
 Suppose that Donna Coleman informed you that she will be on a business trip to Phoenix, Arizona, at the time of the event. Her time zone is now Greenwich Mean Time minus seven hours. You want to select Donna's time zone for the event.
 
@@ -120,7 +120,7 @@ To select a new time zone for the *Juicers for Yummy Supplies* event and change 
 
 You have rescheduled the event and notified the potential attendees about the new time of the event.
 
-## Step 5: Canceling the Event { .section}
+## Step 5: Canceling the Event
 
 Suppose that Donna Coleman cannot participate in the conference call because of a change in her travel plans and would like you to cancel the event. Donna will come to SweetLife's office early next week, but the exact date is not defined yet.
 

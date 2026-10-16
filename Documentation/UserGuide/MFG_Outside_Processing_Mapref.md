@@ -1,4 +1,4 @@
-# Producing Items with Outside Processing {#_29e47b41-39f2-43c7-8c57-777f84078763 .concept}
+# Producing Items with Outside Processing
 
 If your organization contracts out any production operations to subcontractors, Acumatica ERP Manufacturing Edition provides you with the ability to track the materials required for these operations and create documents that record payments for subcontractor services.
 

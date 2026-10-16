@@ -1,4 +1,4 @@
-# AP Bill Payments: Implementation Checklist {#_b6adcbc2-b116-4d56-8d8f-3718970f8a66 .concept}
+# AP Bill Payments: Implementation Checklist
 
 To ensure that the system is configured properly for paying AP bills, make sure that the criteria listed in the table have been met in the system as described.
 
@@ -8,7 +8,7 @@ To ensure that the system is configured properly for paying AP bills, make sure 
 |[Vendors](../Shared/../UserGuide/AP_30_30_00.md) \(AR303000\)|Verify the existence of the vendor accounts for the vendors whose bills you will pay. For details, see [Vendors: Implementation Activity](../Shared/../UserGuide/Vendor_Implem_Activity.md).| |
 |[Payment Methods](../Shared/../UserGuide/CA_20_40_00.md) \(CA204000\)|Make sure that the *CHECK* payment method has been specified when creating a payment.| |
 
-## Settings That Affect the Workflow { .section}
+## Settings That Affect the Workflow
 
 The following settings and entities should be specified and defined, respectively:
 

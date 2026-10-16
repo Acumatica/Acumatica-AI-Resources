@@ -1,16 +1,16 @@
-# Workflow Events: To Create a Workflow Event {#_7181e4bb-8703-4d3c-a909-6c831414eb49 .task}
+# Workflow Events: To Create a Workflow Event
 
 This activity will walk you through the process of creating a workflow event and implementing a transition by using this event.
 
-## Story { .section}
+## Story
 
 Suppose that a repair work order should be assigned the *Ready for Assignment* status when the invoice created for the order is prepaid in the specified percent. For a repair work order to be prepaid, a user will first create an invoice for this order and then apply a prepayment to the invoice. If the percent of the applied prepayment is greater than or equal to the required prepayment percentage, which is specified on the [Payments and Applications](../UserGuide/AR_30_20_00.md) \(AR302000\) form, the system will change the status of the repair work order from *Pending Payment* to *Ready for Assignment* to indicate that the prepayment is applied. You need to implement the needed changes for this system behavior.
 
-## Process Overview { .section}
+## Process Overview
 
 To implement the needed status change, in your extension library, you will define a new workflow event and fire it when an invoice is prepaid. You will define the workflow event handler, register it in the screen configuration for your custom workflow, and configure a transition.
 
-## System Preparation { .section}
+## System Preparation
 
 Make sure that you have done the following:
 

@@ -1,4 +1,4 @@
-# Use of the DataField Property of PXGroupBox {#_b3d384a1-ada5-4ff1-bf21-ec19eb903f90 .concept}
+# Use of the DataField Property of PXGroupBox
 
 You use a group box to display a data field with a list attribute as a set of radio buttons, where one radio button is used to display and select each single constant value of the field. To bind a group box to a data field, you have to specify the name of the data field in the DataField property of the PXGroupBox element in the ASPX code, as follows.
 

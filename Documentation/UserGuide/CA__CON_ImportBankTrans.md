@@ -1,4 +1,4 @@
-# Importing Transactions {#_d8eb8445-289c-41cd-af69-d8315335b131 .concept}
+# Importing Transactions
 
 With Acumatica ERP, you can quickly import the list of recent bank transactions or amounts confirmed by other documents, and the periodic statements.
 
@@ -6,7 +6,7 @@ For each cash account, for which transactions are imported, the system creates a
 
 In this topic, you will read about the forms used to import transactions, the supported formats of the files to be uploaded, the setup of the import procedure for other file formats, and the manual entry of needed transactions.
 
-## Supported Formats {#section_b4d_kjv_vxb .section}
+## Supported Formats
 
 In Acumatica ERP, you can upload transactions in files in the following formats:
 
@@ -16,7 +16,7 @@ In Acumatica ERP, you can upload transactions in files in the following formats:
     **Attention:** The file format you use defines the preliminary steps you should take and the details of the import procedure.
 
 
-## The First Import of Transactions {#section_e4d_kjv_vxb .section}
+## The First Import of Transactions
 
 When you import transactions for the first time, the system creates the first bank statement. If you import a file in OFX, QBO, or QFX format, the values for **Statement Date**, **Start Balance Date**, **End Balance Date**, and **Ending Balance** boxes on the [Import Bank Transactions](CA_30_65_00.md) \(CA306500\) form are imported from the file. You have to specify the beginning balance of the first statement manually.
 
@@ -24,7 +24,7 @@ If you import transactions from Excel or enter them manually, you have to enter 
 
 **Tip:** If a bank statement that you are going to import does not include transaction reference numbers, make sure that the **Require Document Ref. Nbr. on Entry** check box is cleared on the [Cash Management Preferences](CA_10_10_00.md) \(CA101000\) form.
 
-## Subsequent Imports of Transactions {#section_i4d_kjv_vxb .section}
+## Subsequent Imports of Transactions
 
 You can import files that contain transactions for multiple cash accounts or for one cash account. When you upload transactions, for each involved cash account, the system creates a bank statement that lists the uploaded transactions and assigns the reference number to this bank statement.
 
@@ -42,19 +42,19 @@ In Acumatica ERP, you can use the following forms to upload transactions:
 
 -   [Process Bank Transactions](CA_30_60_00.md) \(CA306000\): You use this form primarily to process transactions from all the created statements for the selected cash account, but you can upload statements on this form as well. When you upload a file, the system does not display the transactions, regardless of the number of cash accounts in the file. To view the uploaded transactions, you need to select a cash account; the system then displays all the transactions uploaded for this cash account that have not been processed \(matched and cleared\) yet.
 
-## Setup of Import for Other Formats {#section_p4d_kjv_vxb .section}
+## Setup of Import for Other Formats
 
 Your company may receive statements for cash accounts in formats that are both supported and not supported by Acumatica ERP formats. If your company has an import service to parse files in formats that are not supported, the service can be added to the list of import services in Acumatica ERP. For details, please consult Acumatica ERP support.
 
 In such a case, you can define to the system an import service that is specific to a particular cash account. To do this, you need to select the **Import Bank Statements to Single Cash Account** check box on the **Bank Statements** tab of the [Cash Management Preferences](CA_10_10_00.md) \(CA101000\) form. This causes the **Statement Import Service** box to be displayed on the [Cash Accounts](CA_20_20_00.md) \(CA202000\) form, where you can specify the particular import service for the cash account. Also, if the check box is selected, a user can upload a file only after selecting a cash account on the [Import Bank Transactions](CA_30_65_00.md) \(CA306500\) or [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form \(to make the **Upload File** button available on the toolbar of the form\).
 
-## Foolproof Import Procedure {#section_s4d_kjv_vxb .section}
+## Foolproof Import Procedure
 
 If your company always receives separate files \(in supported formats\), each of which contains transactions for a single cash account, you can make the upload procedure more strict. In this case, by selecting the **Import Bank Statements to Single Cash Account** check box on the **Bank Statements** tab of the [Cash Management Preferences](CA_10_10_00.md) \(CA101000\) form, you can force the user to select a cash account before uploading a file. If the check box is selected, a user can upload a file only after selecting a cash account on the [Import Bank Transactions](CA_30_65_00.md) \(CA306500\) and [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) forms.
 
 In this case, for each cash account for which you import transactions, in the **Statement Import Service** box on the [Cash Accounts](CA_20_20_00.md) \(CA202000\) form, you also need to specify the *PX.Objects.CA.OFXStatementReader* import service.
 
-## Manual Entry of Transactions {#section_v4d_kjv_vxb .section}
+## Manual Entry of Transactions
 
 You can manually enter transactions for a specific account directly in the table on the [Import Bank Transactions](CA_30_65_00.md) \(CA306500\) form and save the list as a bank statement with a reference number.
 

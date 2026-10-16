@@ -1,10 +1,10 @@
-# Aggregation of Attributes {#_aa155a67-585e-47e7-a684-a1160d6ddbe8 .concept}
+# Aggregation of Attributes
 
 You can aggregate functionality from any number of attributes into a single attribute by using an aggregator attribute. An aggregator attribute is derived from the base PX.Data.PXAggregateAttribute attribute, which contains the logic that handles the aggregation process.
 
 Suppose that you have the following definitions for the `CustomerID` field in the `ARInvoice` and `SOOrder` data access classes.
 
-``` {#codeblock_cxr_w4f_zcc}
+```
 public class ARInvoice : IBqlTable
 {
     [PXDBInt()]
@@ -27,7 +27,7 @@ public class SOOrder : IBqlTable
 
 For the `CustomerID` field specified in the classes in the code example above, you can aggregate the set of attributes by combining these attributes into a single class, as shown in the following code example.
 
-``` {#codeblock_xb3_kpf_zcc}
+```
 [PXDBInt()]
 [PXUIField(DisplayName = "Customer")]
 [PXDefault()]
@@ -52,13 +52,13 @@ In the code example above, you have aggregated all the attributes that are decla
 
 The PXAggregateAttribute attribute also contains the GetAttributes method, which returns the collection of all the combined attributes. The signature of this method is shown in the following code example.
 
-``` {#codeblock_v5z_v2b_vcc}
+```
 public PXEventSubscriberAttribute[] GetAttributes()
 ```
 
 **Important:** The PXAggregateAttribute attribute does not aggregate any attributes by itself. The aggregation is handled by the aggregator attributes derived from it.
 
-## Approaches to Adding Attributes to an Aggregator Attribute { .section}
+## Approaches to Adding Attributes to an Aggregator Attribute
 
 You can generally use the following approaches to add attributes to the aggregator attribute:
 
@@ -67,7 +67,7 @@ You can generally use the following approaches to add attributes to the aggregat
 
 The preceding section provided an example of the second approach. To add attributes to the aggregator attribute in code during runtime, you add them to the aggregator attribute's constructor, as shown in the following code example.
 
-``` {#codeblock_hrc_hbg_zcc}
+```
  public VendorAttribute(Type search, params Type[] fields)
 {
   ...
@@ -81,7 +81,7 @@ The preceding section provided an example of the second approach. To add attribu
 
 In the code example above, the PXDimensionSelectorAttribute attribute has been added to the constructor of the PX.Objects.AP.VendorAttribute aggregator attribute. Note that in this case, the PXDimensionSelectorAttribute attribute itself is an aggregator attribute, which means that you can recursively declare aggregator attributes on other aggregator attributes \(though this approach is not recommended\).
 
-## Best Practices for Working with an Aggregator Attribute {#section_wdy_spg_zcc .section}
+## Best Practices for Working with an Aggregator Attribute
 
 The system determines a flattened \(non-hierarchical\) set of attributes added to a DAC field by an aggregator attribute by performing the following general steps \(in no particular order\):
 
@@ -96,11 +96,11 @@ You should try to avoid doing the following when you are working with an aggrega
 -   Using complex combinations of multiple aggregator attributes on a DAC field. Although it is technically possible to correctly create these combinations, a change in the aggregated attributes of one of the aggregator attributes may easily break such a combination.
 -   Declaring an aggregator attribute on another aggregator attribute.
 
-## Common Use Cases of an Aggregator Attribute {#section_fsx_vmm_zcc .section}
+## Common Use Cases of an Aggregator Attribute
 
 You commonly use aggregator attributes to encode a fixed set of related attributes for some functionality in a single attribute. Additionally, you may use an aggregator attribute to define some business logic, as shown in the following code example.
 
-``` {#codeblock_txw_knm_zcc}
+```
 [PXDBInt]
 [PXUIField(DisplayName = "Project", Visibility = PXUIVisibility.Visible)]
 [PXRestrictor(typeof(Where<PMProject.isActive, Equal<True>,

@@ -1,16 +1,16 @@
-# Bank Reconciliation: To Process a Bank Statement in OFX Format \(Part 1\) {#_61c25905-e211-4bfa-b4b3-0751c1428712 .task}
+# Bank Reconciliation: To Process a Bank Statement in OFX Format \(Part 1\)
 
 In this activity, you will learn how to upload the first bank statement and match the uploaded transactions to the existing documents or transactions in the system. This bank statement is in OFX format.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_kj2_kjv_vxb .section}
+## Story
 
 Suppose that on January 31, 2026, the accounting department of SweetLife Fruits &amp; Jams received a bank statement in Open Financial Exchange \(OFX\) format from KeyBank in the amount of $4,704.
 
 Acting as a SweetLife accountant, you need to perform bank statement reconciliation for January 2026 as you prepare to close the *01-2026* financial period in the general ledger. During reconciliation, you will match the records in the system \(the book balance\) and in the statement for the bank account \(the bank balance\).
 
-## Configuration Overview {#section_nj2_kjv_vxb .section}
+## Configuration Overview
 
 For the purposes of this lesson, the following features have been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form:
 
@@ -24,13 +24,13 @@ On the [Tax Zones](TX_20_60_00.md) \(TX206000\) form, the *NYSTATE* tax category
 
 On the [Reason Codes](CS_21_10_00.md) \(CS211000\) form, the *CRWOFF \(Credit Write Off\)* reason code has been defined.
 
-## Process Overview {#section_sj2_kjv_vxb .section}
+## Process Overview
 
 In this activity, you will review the system settings on the [Cash Management Preferences](CA_10_10_00.md) \(CA101000\) form and the settings of the cash account whose balance you will reconcile on the [Cash Accounts](CA_20_20_00.md) \(CA202000\) form. Then you will upload the OFX bank statement on the [Import Bank Transactions](CA_30_65_00.md) \(CA306500\) form and match the uploaded transactions with the existing transactions in the system on the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form.
 
 On the [Process Bank Transactions](CA_30_60_00.md) form, you will enter a transaction that reflects an amount included in the bank statement that has not been entered into the system. You will match one bank transaction to several payments in the system. You will match a *Disbursement* bank transaction to multiple bills and a debit adjustment of the same vendor. You will also match a bank payment to an invoice and create a write off to record an amount overpaid by a customer, match a bank transaction to an invoice and create a bank charge, and create a disbursement cash transaction with a tax. Finally, you will prepare a reconciliation statement on the [Reconciliation Statements](CA_30_20_00.md) \(CA302000\) form and review the transactions that have been reconciled.
 
-## System Preparation {#section_vj2_kjv_vxb .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -41,7 +41,7 @@ To prepare the system, do the following:
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu button to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 4.  Download the `Bank_Statement_KeyBank_01312026.ofx` file, which you will import in Step 2.
 
-## Step 1: Reviewing System Settings and Preparing the Cash Account for Uploading Bank Statements {#section_xj2_kjv_vxb .section}
+## Step 1: Reviewing System Settings and Preparing the Cash Account for Uploading Bank Statements
 
 You need to be sure that the system settings and the needed cash account are configured so that a bank statement for the cash account can be uploaded. Perform the following instructions:
 
@@ -67,7 +67,7 @@ You need to be sure that the system settings and the needed cash account are con
 
 6.  On the form toolbar, click **Save** to save your changes.
 
-## Step 2: Uploading the Bank Statement for the Cash Account {#section_dk2_kjv_vxb .section}
+## Step 2: Uploading the Bank Statement for the Cash Account
 
 To upload the 1/31/2026 bank statement for the *10210WH - KeyBank Checking* cash account, do the following:
 
@@ -81,11 +81,10 @@ To upload the 1/31/2026 bank statement for the *10210WH - KeyBank Checking* cash
 
     The **Statement Date**, **Start Balance Date**, **End Balance Date**, and **Ending Balance** values have been imported from the file. The OFX format does not provide the beginning balance in bank statements, so for the first imported bank statement for a particular cash account, you have to manually specify the beginning balance of the statement. In the subsequent statements for the cash account, the system uses the **Ending Balance** value of the previous bank statement as the current **Beginning Balance** value.
 
-    ![](Images/activity_Finance_Bank_Rec_Uploaded_Bank_Transactions.png "January bank transactions uploaded from the OFX file")
 
 4.  Leave the **Beginning Balance** box as is \(*0.00*\) because you have just started using this bank account.
 
-## Step 3: Processing the Imported Bank Transactions {#section_ik2_kjv_vxb .section}
+## Step 3: Processing the Imported Bank Transactions
 
 To process the imported bank transactions, do the following:
 
@@ -97,7 +96,6 @@ To process the imported bank transactions, do the following:
 
     The following screenshot illustrates the transactions after auto-matching.
 
-    ![](Images/activity_Finance_Bank_Rec_Automatched_Transactions.png "Auto-matched bank transactions")
 
 3.  In the left pane, click the row with the $5,000 transaction, and on the right pane, review the **Match to Payments** tab. Notice that for the transaction, the system has found only one matching GL batch.
 4.  In the left pane, click the row with the $225 transaction. On the right pane, review the **Match to Payments** tab. The system has found one AR payment that matches the receipt transaction. On the **Match to Invoices** tab, notice that the system has also found an outstanding invoice for the same amount, the same customer, but for a different date.
@@ -109,7 +107,7 @@ To process the imported bank transactions, do the following:
     **Attention:** The system will always try to find the best match among payments; only if a match is not found will it try to find the best match among invoices. Thus, even if an invoice has a higher match relevance than a payment but the payment's match relevance passed the threshold, the system will match the transaction to the payment.
 
 
-## Step 4: Matching a Transaction to Multiple Payments {#section_sk2_kjv_vxb .section}
+## Step 4: Matching a Transaction to Multiple Payments
 
 To match the $500 transaction to three payments, while remaining on the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form, do the following:
 
@@ -118,11 +116,10 @@ To match the $500 transaction to three payments, while remaining on the [Process
 3.  On the **Match to Payments** tab of the right pane, select the **Match to Multiple Payments** check box, and review the table in the Detail area. The system fills it in with outstanding payments that you can match to the selected bank transaction.
 4.  Select the **Matched** check box in the rows of the three payments from *ABAKERY* with the date of *1/15/2026*. Notice that with every payment for which you select the **Matched** check box for, the system updates the values in the **Matched Amount** and **Unmatched Amount** boxes, respectively, as shown in the screenshot below. Once **Matched Amount** and **Transaction Amount** are equal \(in this case, *$500*\), you can process the transaction.
 
-    ![](Images/activity_Finance_Bank_Rec_Multiple_Payments_Matched.png "Multiple payments matched to one bank transaction")
 
 5.  On the form toolbar, click **Save**.
 
-## Step 5: Matching a Disbursement Transaction to Multiple AP Documents {#section_uk2_kjv_vxb .section}
+## Step 5: Matching a Disbursement Transaction to Multiple AP Documents
 
 To match a $724 disbursement transaction to multiple bills and a debit adjustment, while remaining on the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form, do the following:
 
@@ -135,12 +132,11 @@ To match a $724 disbursement transaction to multiple bills and a debit adjustmen
 
 5.  Select the **Matched** check box in the rows of the two bills with the amounts of $130.00 and $619.00 and the debit adjustment with the amount of –$25.00, as shown in the following screenshot.
 
-    ![](Images/activity_Finance_Bank_Rec_Multiple_Bills_DrAdj_Matched.png "Multiple AP documents matched to a bank transaction")
 
 6.  Notice that the **Transaction Amount** and **Matched Amount** values are now equal \(*$724*\).
 7.  On the form toolbar, click **Save**.
 
-## Step 6: Processing a Payment from a Customer and Creating a Write Off {#section_xk2_kjv_vxb .section}
+## Step 6: Processing a Payment from a Customer and Creating a Write Off
 
 To process a payment from a customer and create a write off, while remaining on the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form, do the following:
 
@@ -159,11 +155,10 @@ To process a payment from a customer and create a write off, while remaining on 
     -   **Write-Off Reason Code**: *CRWOFF - Credit Write Off*
     The following screenshot illustrates the AR payment with a credit write off.
 
-    ![](Images/activity_Finance_Bank_Rec_AR_Payment_with_Write_Off.png "AR payment with a write off matched to a bank transaction")
 
 6.  On the form toolbar, click **Save**.
 
-## Step 7: Matching a Bank Transaction to an Invoice and Creating a Charge {#section_dl2_kjv_vxb .section}
+## Step 7: Matching a Bank Transaction to an Invoice and Creating a Charge
 
 To match a bank transaction to a customer invoice and create a bank charge, while remaining on the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form, do the following:
 
@@ -178,11 +173,10 @@ To match a bank transaction to a customer invoice and create a bank charge, whil
 
     Notice that the amounts in the **Transaction Amount** and **Matched Amount** boxes in the Summary area of the **Match to Invoices** tab are equal, as shown in the following screenshot.
 
-    ![](Images/activity_Finance_Bank_Rec_Invoice_with_Charge.png "An invoice with a charge matched to a bank transaction")
 
 5.  On the form toolbar, click **Save**.
 
-## Step 8: Creating a Disbursement Cash Transaction with a Tax {#section_gl2_kjv_vxb .section}
+## Step 8: Creating a Disbursement Cash Transaction with a Tax
 
 To create a disbursement cash transaction with a tax automatically applied to it, while remaining on the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form, do the following:
 
@@ -197,7 +191,6 @@ To create a disbursement cash transaction with a tax automatically applied to it
 
     Once you specify the tax category for the document line, the system automatically applies the tax. The $15 amount now includes the tax amount, as shown in the following screenshot.
 
-    ![](Images/activity_Finance_Bank_Rec_Cash_Tran_with_Tax.png "A cash transaction with a tax matched to a bank transaction")
 
 4.  Click the link in the **Tax Total** box of the Summary area to review the applied tax.
 
@@ -209,7 +202,7 @@ To create a disbursement cash transaction with a tax automatically applied to it
     The $15 bank service fee transaction is no longer marked with a warning icon because you have specified the information the system will use to create the document when you run the processing of transactions.
 
 
-## Step 9: Preparing Bank Transactions for Reconciliation {#section_ll2_kjv_vxb .section}
+## Step 9: Preparing Bank Transactions for Reconciliation
 
 To process the bank transactions in preparation for reconciliation, while remaining on the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form, do the following:
 
@@ -233,7 +226,7 @@ To process the bank transactions in preparation for reconciliation, while remain
     **Attention:** In the **Reference Nbr.** column, you can find the reference numbers of the documents to which the bank transactions have been matched. If you have matched several documents to one bank transaction, the table displays a line for each document matched to that transaction specifying the matched amounts in the **Matched Receipt** and **Matched Disbursement** columns.
 
 
-## Step 10: Preparing the Reconciliation Statement {#section_sl2_kjv_vxb .section}
+## Step 10: Preparing the Reconciliation Statement
 
 To prepare the reconciliation statement for January 2026, do the following:
 
@@ -251,7 +244,6 @@ To prepare the reconciliation statement for January 2026, do the following:
 
     The **Reconciled Balance** is equal to the **Statement Balance**, as shown in the following screenshot; now you can release the reconciliation statement.
 
-    ![](Images/activity_Finance_Bank_Rec_Reconciled_Transactions.png "Reconciled bank transactions for January")
 
 6.  On the form toolbar, click **Save** to save the reconciliation statement.
 7.  On the form toolbar, click **Remove Hold**, and then click **Release** to release the reconciliation statement.

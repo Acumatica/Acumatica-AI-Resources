@@ -1,6 +1,8 @@
-# Processing Refunds {#_4ffc2936-def9-4a5b-926c-558886248435 .concept}
+# Processing Refunds
 
-In this chapter, you will find general information on how to process customers' refunds, a checklist for system implementation, an activity that describes how to create a refund and apply a credit memo to it, an activity that describes how to void a refund, an activity that describes how to create and partially apply a refund, and report and inquiries that can be useful to find and view created transactions.
+Customer refunds are used when your company needs to return money to customers, such as when a customer has an unapplied credit memo or another open credit balance. In Acumatica ERP, you can create refunds, apply credit documents to them fully or partially, and void refunds when needed.
+
+The topics of this chapter provide an overview of refund processing and describe how to create, apply, partially apply, and void customer refunds. The chapter also lists the reports and inquiry forms that you can use to find and review the related transactions.
 
 -   **[Refunds: General Information](../UserGuide/Finance_ProcessingCustomerRefunds_GeneralInfo.md)**  
 
@@ -13,6 +15,8 @@ In this chapter, you will find general information on how to process customers' 
 -   **[Refunds: To Create a Refund and Apply a Credit Memo to It](../UserGuide/Finance_ProcessingCustomerRefunds_Activity1.md)**  
 
 -   **[Refunds: To Void a Refund](../UserGuide/Finance_ProcessingCustomerRefunds_Activity2.md)**  
+
+-   **[Finance: Creating a Refund for a Payment with a Closed Financial Period](../UserGuide/Finance_Refund_in_Closed_Periods.md)**  
 
 -   **[Refunds: To Create and Partially Apply a Refund](../UserGuide/Finance_ProcessingCustomerRefunds_Activity3.md)**  
 

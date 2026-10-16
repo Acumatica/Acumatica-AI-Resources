@@ -1,4 +1,4 @@
-# Integrating Acumatica ERP with PDF Annotator {#_29319d4b-cd4b-4f9b-bfce-c7c4c10bbf83 .concept}
+# Integrating Acumatica ERP with PDF Annotator
 
 You can review and annotate PDF attachments directly in Acumatica ERP by using the PDF Annotator integration.
 

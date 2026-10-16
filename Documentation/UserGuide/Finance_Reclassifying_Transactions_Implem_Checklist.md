@@ -1,4 +1,4 @@
-# Reclassifying Transactions: Implementation Checklist {#_3792083a-ac91-4dcf-bc83-5e6e924dd53d .concept}
+# Reclassifying Transactions: Implementation Checklist
 
 Before users begin reclassifying GL batches, you must make sure that the system has been configured properly and that all required entities have been created, as described in the following table
 
@@ -7,7 +7,7 @@ Before users begin reclassifying GL batches, you must make sure that the system 
 |[Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form|Make sure the *Standard Financials* feature has been enabled.| |
 |Multiple forms|Make sure that the minimum configuration of the company has been performed, as described in [Company Without Branches: General Information](../ImplementationGuide/config_Basic_Company_GeneralInfo.md).| |
 
-## Settings That Can Affect the Processing Workflow {#section_uzh_mjv_vxb .section}
+## Settings That Can Affect the Processing Workflow
 
 The settings on the [General Ledger Preferences](../Shared/../UserGuide/GL_10_20_00.md) \(GL102000\) form can affect the processing workflow as follows:
 

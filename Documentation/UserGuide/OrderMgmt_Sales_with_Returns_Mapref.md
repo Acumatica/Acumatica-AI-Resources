@@ -1,4 +1,4 @@
-# Processing Sales with Returns {#_7bf68406-6c85-4451-8cc0-bd13afae7b5b .concept}
+# Processing Sales with Returns
 
 In Acumatica ERP, you can process both a sale and a return in the same order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, as well as the customer payments and refunds related to this order. You can use a mixed order if a customer needs to buy and return products or services \(or receive a replacement for the returned products\) at the same time at a counter or through a point-of-sale \(POS\) system operated by a cashier.
 

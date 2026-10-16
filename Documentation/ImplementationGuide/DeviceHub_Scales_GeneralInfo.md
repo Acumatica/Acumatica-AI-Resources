@@ -1,10 +1,10 @@
-# Scales: General Information {#_9bf9b785-d516-49af-b013-b729ee530dd3 .concept}
+# Scales: General Information
 
 If the DeviceHub application is installed and configured for use with the Acumatica ERP instance, a system administrator can configure the digital scale devices to be used in automated warehouse operations.
 
 This topic describes the use of scales in Acumatica ERP, as well as the way you can specify a default scale for a user account.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,18 +12,18 @@ In this chapter, you will learn how to do the following:
 -   Review results of weighing results in Acumatica ERP
 -   Add the results of weighing to a package
 
-## Supported Devices { .section}
+## Supported Devices
 
 The scale for use with DeviceHub must be HID-compliant and enumerate as a scale under the HID class specification.
 
-## Implementation Workflow { .section}
+## Implementation Workflow
 
 To implement the ability to weigh packages with DeviceHub in Acumatica ERP, you perform the following general steps, as described in [Scales: To Add a Scale to DeviceHub](DeviceHub_To_Add_a_Scale_Implem_Activity.md):
 
 1.  In DeviceHub, you add the scales.
 2.  In Acumatica ERP, you specify user settings for weighing packages on the [Pick, Pack, and Ship](../UserGuide/SO_30_20_20.md) \(SO302020\) form.
 
-## Scales in Acumatica ERP { .section}
+## Scales in Acumatica ERP
 
 When a user puts a package on a digital scale, DeviceHub automatically sends the result of weighing to Acumatica ERP. You can review this result in the **Last Weight** column on the [Scales](../UserGuide/SM_20_65_30.md) \(SM206530\) form.
 
@@ -33,7 +33,7 @@ The user can also process packages for shipments on the [Shipments](../UserGuide
 
 Additionally, the user can specify the weight of a package in the **Shop for Rates** dialog box on the [Shipments](../UserGuide/SO_30_20_00.md) form before they get the carrier rates. To perform this operation, the user adds the packages to the **Packages** table in the dialog box, selects a package, and clicks the **Capture Weight** button on the table toolbar. The system inserts the weighing result of the default scale of the user account into the **Weight** column of this dialog box.
 
-## A User Account’s Default Scale {#section_vv2_1y4_y4b .section}
+## A User Account’s Default Scale
 
 A user can specify the default digital scale device to be used in automated warehouse operations for their own user account on the [User Profile](../UserGuide/SM_20_30_10.md) \(SM203010\) form. In the **Personal Settings** section of the **General Info** tab, they specify a configured device in the **Default Scales** box.
 

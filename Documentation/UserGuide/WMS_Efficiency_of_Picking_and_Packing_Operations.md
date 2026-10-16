@@ -1,8 +1,8 @@
-# Picking and Packing Operations: Efficiency of Warehouse Workers {#_17e7be69-e054-40e5-a30c-965884e73d74 .concept}
+# Picking and Packing Operations: Efficiency of Warehouse Workers
 
 To build a seamless fulfillment process with swift deliveries, a company needs the ability to assess the productivity of warehouse workers. In Acumatica ERP, the [Efficiency of Picking and Packing](SO_40_20_20.md) \(SO402020\) inquiry form provides picking and packing statistics that can help warehouse managers build a well-coordinated process of picking and packing.
 
-## Picking and Packing Statistics { .section}
+## Picking and Packing Statistics
 
 On the [Efficiency of Picking and Packing](SO_40_20_20.md) \(SO402020\) form, you can view the following statistics of picking and packing operations for a selected warehouse and period:
 
@@ -34,7 +34,7 @@ You can expand the inquiry data by selecting any of the following check boxes in
 
 The inquiry form tracks both paper-based and paperless picking and packing.
 
-## Known Limitations { .section}
+## Known Limitations
 
 The picking and packing process has the following limitations:
 

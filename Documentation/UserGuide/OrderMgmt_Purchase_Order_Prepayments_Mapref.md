@@ -1,4 +1,4 @@
-# Processing Prepayments for Purchase Orders {#_f7e37125-1cf1-44cc-afa5-42c1462eea45 .concept}
+# Processing Prepayments for Purchase Orders
 
 If a vendor requires your company to pay a part of the order amount in advance, you can process a prepayment for the purchase order, which will later be applied to the corresponding AP bill. The topics of this chapter explain how you can prepare and process prepayments of purchase orders.
 

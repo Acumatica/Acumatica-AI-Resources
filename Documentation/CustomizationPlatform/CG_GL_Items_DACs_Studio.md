@@ -1,4 +1,4 @@
-# To Work with Data Access Classes {#_0951313e-02f6-4a87-b51c-9125e5570737 .concept}
+# To Work with Data Access Classes
 
 You can use Microsoft Visual Studio to work with a data access class \(DAC\) that has been added to a customization project.
 

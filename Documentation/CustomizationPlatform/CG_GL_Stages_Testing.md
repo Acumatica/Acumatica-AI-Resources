@@ -1,4 +1,4 @@
-# To Perform Final Testing of a Customization {#_3cd8d33a-fd91-4b92-9620-a3e488e90e19 .concept}
+# To Perform Final Testing of a Customization
 
 After you finished developing your customization, you test it in the staging environment, which can be a local copy of the production environment. The staging environment must include a copy of the production database.
 

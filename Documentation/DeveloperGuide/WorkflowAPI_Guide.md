@@ -1,10 +1,10 @@
-# Workflow API Guide {#_d739b4ca-7b1a-4871-904f-b29e677ea9c6 .concept}
+# Workflow API Guide
 
 In this guide, you can find information about how to develop and customize workflows by using Workflow API in an extension library. You will gain familiarity with the parts of workflows and the ways you can work with them.
 
 By using Workflow API, you can customize predefined workflows and create custom workflows by coding. This information will help you fine-tune the workflows to meet your business needs.
 
-## In This Guide { .section}
+## In This Guide
 
 -   [Getting Started with Workflow API: General Information](WorkflowAPI_Overview.md)
 -   [Company Story and Customization Description](WorkflowAPI_CustomizationStory.md)

@@ -1,14 +1,13 @@
-# Automated Operations with Lot- and Serial-Tracked Items: Receiving and Putting Away Items {#_ff656df0-ce04-485b-bb77-6d196c76cbe7 .concept}
+# Automated Operations with Lot- and Serial-Tracked Items: Receiving and Putting Away Items
 
 If the *Lot and Serial Tracking* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form and the tracking of stock items by lot or serial number has been configured in the system, when you receive and put away lot- or serial-tracked items by using the [Receive and Put Away](PO_30_20_20.md) \(PO302020\) form or the corresponding screen in the Acumatica mobile app, the system may prompt you to enter the lot or serial number during this process.
 
 In this topic, you will read about the workflow for the automated receiving and putting away of lot- and serial-tracked inventory items in Acumatica ERP. The workflow in this topic is based on the assumption that your system has the recommended configuration described in [Automated Operations with Lot- and Serial-Tracked Items: Implementation Checklist](WMS_LotSerial_Tracking_Implem_Checklist.md).
 
-## Workflow for the Automated Receiving of Lot- or Serial-Tracked Items { .section}
+## Workflow for the Automated Receiving of Lot- or Serial-Tracked Items
 
 The automated processing of receiving items involves the actions shown in the following diagram.
 
-![](Images/diag_WMS_Receive_wLot.png)
 
 To process the receipt of lot- or serial-tracked items in Receive mode, you perform the following steps:
 
@@ -59,11 +58,10 @@ To process the receipt of lot- or serial-tracked items in Receive mode, you perf
     If you have finished the receiving operation and all items have been received for the purchase order \(or the items were received partially and more items will be received in the future\), you scan the `*release` barcode or click the **Release Receipt** button. The system releases the purchase receipt.
 
 
-## Workflow for the Automated Putting Away of Items { .section}
+## Workflow for the Automated Putting Away of Items
 
 The automated processing of putting away items involves the actions shown in the following diagram.
 
-![](Images/diag_WMS_PutAway_wLot.png)
 
 To process the putting away of lot- or serial-tracked items in Put Away mode, you perform the following steps:
 

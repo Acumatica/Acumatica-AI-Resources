@@ -1,21 +1,21 @@
-# Selling Matrix Items: General Information {#_2fa6b723-4cf4-4a09-b0f0-9559d8ad9a81 .concept}
+# Selling Matrix Items: General Information
 
 Acumatica ERP Retail Edition provides you with the ability to export template items, along with the matrix items that were generated based on these template items, from Acumatica ERP to the BigCommerce store if the *Matrix Items* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
 For details about managing template items in Acumatica ERP, see [Managing Matrix Items](Matrix_Items_Mapref.md).
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to export template items and matrix items from Acumatica ERP to the BigCommerce store.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You export matrix items from Acumatica ERP to an external system in the following cases:
 
 -   You are initially configuring the external system and need to transfer template items \(and matrix items based on these template items\) that have already been defined in Acumatica ERP
 -   If you manage template and matrix items in Acumatica ERP, have updated any of the settings of a template item or matrix item in Acumatica ERP after the template item was synchronized with the external system, and need the changes to be reflected in the product settings in the external system
 
-## Configuration of Template Item Synchronization { .section}
+## Configuration of Template Item Synchronization
 
 Before exporting template items defined in Acumatica ERP to the BigCommerce store, you need to perform the following general steps:
 
@@ -23,7 +23,7 @@ Before exporting template items defined in Acumatica ERP to the BigCommerce stor
 2.  Configure the default visibility and purchasability settings for items exported to the BigCommerce store. For details, see [Product Synchronization: Default Store Settings](Commerce_BC_Syncing_Products_Default_Settings.md).
 3.  Determine which template items and matrix items should be exported and define the visibility and purchasability settings for individual items.
 
-## Synchronization of Template Items { .section}
+## Synchronization of Template Items
 
 Template items are exported to the BigCommerce store during the synchronization of the *Template Item* entity. Matrix items \(both stock items and non-stock items\) based on a template item are synchronized along with the template item.
 
@@ -31,7 +31,7 @@ During the export, the system updates the availability and visibility settings o
 
 For details about the information exported to the BigCommerce store during the synchronization of a template item, see [Template Item Entity](Commerce_BC_Mapping_TemplateItem.md).
 
-## Excluding Items from Synchronization { .section}
+## Excluding Items from Synchronization
 
 The template item is exported to the BigCommerce store if it meets the following criteria:
 
@@ -47,13 +47,13 @@ You can clear the **Export to External System** check box for an individual matr
 
 If the matrix item's status in Acumatica ERP is *Inactive*, *No Sales*, or *Marked for Deletion*—that is, if the matrix item has one of these statuses selected in the **Status** box of the Summary area of the [Non-Stock Items](IN_20_20_00.md) form or the [Stock Items](IN_20_25_00.md) form—it is not exported and does not appear in the **Variants** table on the product management page of the template item.
 
-## Visibility of an Exported Template Item { .section}
+## Visibility of an Exported Template Item
 
 You can specify the visibility settings for an individual template item on the **eCommerce** tab of the [Template Items](IN_20_30_00.md) \(IN203000\) form. To make the template item visible on the storefront immediately after it is exported, you select *Visible* in the **Visibility** box of the **eCommerce** tab. To make it visible on the storefront and include it in the group of featured products \(which are displayed in specific places across the storefront, depending on the theme set up for the store\), you select *Featured* in this box.
 
 The option selected in the **Visibility** box for a particular template item takes precedence over the default visibility setting specified for the store in the **Default Visibility** box on the **Inventory** tab of the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form. If *Store Default* is selected, the store's default visibility settings applies.
 
-## Availability Settings of an Exported Template Item { .section}
+## Availability Settings of an Exported Template Item
 
 When a template item is exported to a BigCommerce store, it is assigned an availability \(purchasability\) status in the **Purchasability** section of the product management page in the store's control panel. In Acumatica ERP, you can determine which status is to be assigned to an item exported to BigCommerce by selecting a corresponding option in the **Availability** box on the **eCommerce** tab of the [Template Items](IN_20_30_00.md) \(IN203000\) form:
 
@@ -65,7 +65,7 @@ The option selected in the **Availability** box for a particular item takes prec
 
 For information about tracking quantities of exported template and matrix items, see [Selling Matrix Items: Export of Product Availability Data](Commerce_BC_Selling_Matrix_Items_Export_of_Product_Availability.md).
 
-## Availability Settings of an Exported Matrix Item { .section}
+## Availability Settings of an Exported Matrix Item
 
 For each matrix item, you can specify availability settings on the **eCommerce** tab of the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form \(if the matrix item is a non-stock item\) or the [Stock Items](IN_20_25_00.md) \(IN202500\) form \(if the matrix item is a stock item\).
 

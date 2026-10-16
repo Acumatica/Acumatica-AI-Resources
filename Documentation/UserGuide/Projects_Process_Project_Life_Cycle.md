@@ -1,14 +1,13 @@
-# Project Creation and Processing: A Project’s Lifecycle {#_900d3bea-1fea-4dba-8abc-21e8ff5d6473 .concept}
+# Project Creation and Processing: A Project’s Lifecycle
 
 In Acumatica ERP, a project is a one-time or recurring endeavor with a specific scope, time frame, and budget. The following sections describe the common stages of a project’s lifecycle: estimation, acceptance, execution, completion, and closure.
 
-## Project Stages and Statuses { .section}
+## Project Stages and Statuses
 
 The following diagram shows the stages a project goes through and the statuses it is assigned from the project’s initiation to its closure.
 
-![](Images/diag_Projects_Life_Cycle.png)
 
-## Project Estimation { .section}
+## Project Estimation
 
 During the project estimation stage, you specify project settings on the [Projects](PM_30_10_00.md) \(PM301000\) form, define activities, plan the project tasks, estimate the time required for the completion of each project task, and populate the project record with employees, resources, and equipment. The system assigns each new project and its tasks the *In Planning* status once it has been saved.
 
@@ -24,13 +23,13 @@ For instance, you can add an employee activity for planning budgets for project 
 
 If your user account has the *Project Accountant* role, you can release employee activities with project tasks that have the *In Planning* status.
 
-## Project Acceptance { .section}
+## Project Acceptance
 
 The acceptance stage involves reaching an agreement with all the stakeholders, including customers and employees, as well as estimating the budget for the project and the expenditures it will entail. If the approval of projects is not required in your system, the project manager takes the project off hold to assign it the *Active* status. If the approval of projects is required in your system, the system submits the project for approval and assigns it the *Pending Approval* status once it is taken off hold.
 
 If all assigned employees have approved the project on the [Approvals](EP_50_30_10.md) \(EP503010\) form or on the [Projects](PM_30_10_00.md) \(PM301000\) form, the system assigns it the *Active* status. If at least one of assigned employees has rejected the project, it is assigned the *Rejected* status. You can assign the *In Planning* status to the project again so that you can edit its details and resubmit it for approval. For more information on approvals, see [Specific Approvals: Projects, Project-Related Documents, and Time Activities](../ImplementationGuide/Projects_Process_Project_Approval.md).
 
-## Project Execution { .section}
+## Project Execution
 
 During the execution stage, the project retains the *Active* status, indicating that it is in progress and project transactions can be posted to it. Users can select active projects and their project tasks on the forms of the functional areas in which the projects are visible.
 
@@ -42,7 +41,7 @@ If any budget changes occur during the course of the project, the system preserv
 
 If your company has decided to temporarily pause all activities on the project, you can assign this project the *Suspended* status. A suspended project is not available for selection on data entry forms, except for forms where employee activities and project commitments can be entered. When work on the project resumes, you can reactivate the suspended project.
 
-## Project Completion { .section}
+## Project Completion
 
 The statuses of individual project tasks do not directly affect the status of the corresponding project. Thus, the system does not automatically set a project’s status to *Completed* if all of its project tasks have been completed. However, to be able to complete the project, you first need to complete all project tasks included in this project. For more information about project task completion, see [Project Tasks: Tracking Task Completion](Project_Tasks_Task_Completion.md).
 
@@ -52,7 +51,7 @@ Once the project is finished, the project accountant completes it by manually as
 
 Alternatively, a project can be canceled. The *Canceled* status indicates that the project has been stopped before its actual completion. A canceled project can be activated again.
 
-## Project Closure { .section}
+## Project Closure
 
 If a project is completed \(or canceled\) and you don’t expect further activity on it, you click **Close** on the form toolbar of the [Projects](PM_30_10_00.md) \(PM301000\) form. The system checks whether the project has any related unprocessed documents. If it doesn’t find any—meaning that the project is ready to be closed—it does the following:
 

@@ -1,4 +1,4 @@
-# System Locales {#_1c8e3964-1e9e-469e-8fa5-fe72010d481c .concept}
+# System Locales
 
 You use the [System Locales](../UserGuide/AU_20_50_00.md) \(AU205000 page of the [Customization Project Editor](../UserGuide/SM_20_45_10.md) to manage *Locale* items in the customization project.
 

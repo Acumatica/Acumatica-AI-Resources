@@ -1,10 +1,10 @@
-# Account Identification {#_a7c2aa12-4303-4e92-a7c6-7626f0cd8efd .concept}
+# Account Identification
 
 The well-planned design of account identifiers helps users to enter data more quickly and prevent making errors. Acumatica ERP provides segmented keys, which give you flexibility in configuring account identifiers.
 
 In this topic, you will read about planning the identifiers for accounts and configuring the account identifiers in the system.
 
-## Planning Account Identifiers {#section_gt2_mjv_vxb .section}
+## Planning Account Identifiers
 
 Account identifiers must comply with the following:
 
@@ -24,7 +24,7 @@ With the previous example, you could instead create a two-segment account identi
 
 To better track the revenue and expenses of your company and keep your chart of accounts of a manageable size, you can use subaccounts along with accounts. For details, see [Subaccounts: General Information](../ImplementationGuide/config_Subaccounts_GeneralInfo.md).
 
-## Configuring Account Identifiers {#section_mt2_mjv_vxb .section}
+## Configuring Account Identifiers
 
 To define the structure of account identifiers used in the system, you use a *segmented key* that serves as a template when you create an identifier. For details, see [Segmented Identifiers](CS__con_Identifier_Segmentation.md).
 

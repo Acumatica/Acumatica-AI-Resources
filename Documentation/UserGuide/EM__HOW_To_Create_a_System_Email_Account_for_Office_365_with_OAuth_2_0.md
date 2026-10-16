@@ -1,4 +1,4 @@
-# To Create a System Email Account for Office 365 with OAuth 2.0 {#_7ea4c814-8b24-4a77-9ae0-9596012fbfab .task}
+# To Create a System Email Account for Office 365 with OAuth 2.0
 
 By using the [Email Accounts](SM_20_40_02.md) \(SM204002\) form, you can create an email account in Acumatica ERP that will be associated with the Microsoft Office 365 account.
 
@@ -10,7 +10,7 @@ By using the [Email Accounts](SM_20_40_02.md) \(SM204002\) form, you can create 
 -   The vendor of the third-party software may change the user interface and settings. Therefore, the form elements and setting names you see may differ from the ones described in the procedure.
 -   The procedure will be updated each time information is made available about new common scenarios and changes in the user interface and settings.
 
-## Step 1: To Specify the General Settings of the Account { .section}
+## Step 1: To Specify the General Settings of the Account
 
 Do the following:
 
@@ -21,7 +21,7 @@ Do the following:
     2.  In the **Email Address** box, type the email address of the account that will be used as the system email account.
     3.  Optional: In the **Reply Address** box, type the email address that will be used for automatic replies.
 
-## Step 2: To Specify the Servers { .section}
+## Step 2: To Specify the Servers
 
 To specify the settings of the servers, do the following:
 
@@ -36,7 +36,7 @@ To specify the settings of the servers, do the following:
 4.  In the **Outgoing Mail Server** box, type `outlook.office365.com`.
 5.  On the form toolbar, click **Save**.
 
-## Step 3: To Configure Authentication Through Microsoft Entra ID { .section}
+## Step 3: To Configure Authentication Through Microsoft Entra ID
 
 Now you will set up authentication through Microsoft Entra ID as follows:
 
@@ -63,7 +63,7 @@ Now you will set up authentication through Microsoft Entra ID as follows:
 17. On the [External Applications](SM_30_10_00.md) form, click **Save and Close** on the form toolbar. The system closes the window with the form and specifies the configured application in the **External Application** box on the [Email Accounts](SM_20_40_02.md) form.
 18. Optional: In the **OAuth2 Scopes** and **OAuth2 Parameters** boxes, modify the predefined values of scopes and parameters that the system will use when issuing access tokens.
 
-## Step 4: To Configure Port Numbers { .section}
+## Step 4: To Configure Port Numbers
 
 Finally, you need to specify the advanced settings email account. Do the following:
 

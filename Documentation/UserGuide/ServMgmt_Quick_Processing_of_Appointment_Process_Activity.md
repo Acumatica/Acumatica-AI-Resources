@@ -1,10 +1,10 @@
-# Quick Billing of Appointments: Process Activity {#_9b2ee3bf-8a1d-489c-9655-86ea572f6514 .task}
+# Quick Billing of Appointments: Process Activity
 
 This activity will walk you through the process of billing an appointment with just one click if quick processing has been set up for the appointment's order type.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 The SweetLife Service and Equipment Sales Center has received a call from HM's Bakery and Cafe, requesting the repair of one of their orange juicers. The service manager \(Maia Davis\) has agreed on the appointment day and time with the customer, and has created and scheduled the appointment in the system.
 
@@ -12,7 +12,7 @@ A staff member, Ricardo Martinez \(*EP00000044\)*, visited the customer, perform
 
 Acting as the accountant Yona Jones, you will quickly process the appointment to automatically close it and generate the related invoice. Since the customer requested to receive the invoice by email, you will also include the action to send the released invoice to the customer as part of this processing.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -36,11 +36,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   On the [Non-Stock Items](IN_20_20_00.md#) \(IN202000\) form, for the *REPAIR* service item \(that is, non-stock item of the *Service* type\), the *Time* billing rule has been specified on the **Price/Cost** tab.
 -   On the [Appointments](FS_30_02_00.md#) \(FS300200\) form, the *000038-1* appointment has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Appointments](FS_30_02_00.md#) \(FS300200\) form, you will initiate quick processing of the appointment. You will then review the list of billing documents that the system has generated as a result of quick processing and review the invoice on the [Invoices](SO_30_30_00.md) \(SO303000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -49,7 +49,7 @@ Before you start this activity, do the following:
 3.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that the *Service and Equipment Sales Center* branch is selected.
 4.  After signing in, make sure that the *Service Manag ement* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form.
 
-## Step 1: Quickly Processing the Appointment { .section}
+## Step 1: Quickly Processing the Appointment
 
 To quickly initiate the billing process for the appointment, do the following:
 
@@ -69,12 +69,11 @@ To quickly initiate the billing process for the appointment, do the following:
 
 6.  After the processing is successfully completed, the status and the generated billing documents appear in the upper-right corner of the form \(see below\).
 
-    ![](Images/ServMgmt_Appointment_Quick_Billing_Results.png "The results of the appointment processing")
 
 
 Based on the settings specified for the *MRO* service order type \(and the setting you changed to have the invoice emailed to the customer\), during the quick processing, the system closes the appointment, and creates and releases the related invoice. In this case, the system also sends the invoice to the customer by email because you have selected the **Email Invoice** check box in the **Process Appointment** dialog box.
 
-## Step 2: Reviewing the Created Billing Documents and Sent Email { .section}
+## Step 2: Reviewing the Created Billing Documents and Sent Email
 
 Review the generated billing documents and the email sent to the customer as follows:
 

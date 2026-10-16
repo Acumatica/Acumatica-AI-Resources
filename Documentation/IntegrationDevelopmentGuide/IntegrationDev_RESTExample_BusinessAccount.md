@@ -1,4 +1,4 @@
-# BusinessAccount {#_e097d567-249a-4ec2-8891-016578a15f50 .concept}
+# BusinessAccount
 
 This chapter presents code examples showing requests that use the `BusinessAccount` entity.
 

@@ -1,4 +1,4 @@
-# Creating Contacts {#_7be7125b-a7be-44bf-8f81-abbb6d9b035f .concept}
+# Creating Contacts
 
 In this chapter, you will find information about creating contacts and associating contacts with leads and business accounts in Acumatica ERP.
 

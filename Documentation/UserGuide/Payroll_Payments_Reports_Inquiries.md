@@ -1,16 +1,16 @@
-# Payroll Payments: Related Reports and Inquiry Forms {#_638aafbe-8c68-46f9-a0e0-fcafddc587f6 .concept}
+# Payroll Payments: Related Reports and Inquiry Forms
 
 In the following sections, you can find details about the reports and inquiry forms you may want to review to gather information about employee time, compensations, deductions, benefits, and taxes.
 
 **Attention:** If you don’t see a particular report or form that is described, you may have signed in to the system with a user account that doesn’t have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms.
 
-## Reviewing Information About Employee Pay Rates and Earnings { .section}
+## Reviewing Information About Employee Pay Rates and Earnings
 
 You can use the following reports to review information about employee pay rates and earnings:
 
 -   [Payroll Check Register](PR_64_10_11.md) \(PR641011\): Displays information about employee payroll payments and their calculation details, including benefits and employer taxes.
 -   [Paid Time Off Details by Employee](PR_64_10_50.md) \(PR641050\): Displays information about PTO liabilities and their usage statistics for the specified period, broken down by PTO bank and employee. The report includes information from regular paychecks, adjustments, and special checks.
--   [Union Hours and Rates by Labor Item](PR_64_10_80.md) \(PR641080\): Displays information about worked union hours and about the rates used to calculate wages, with a breakdown by paycheck and union.
+-   [Union Hours &amp; Rates](PR_64_10_80.md) \(PR641080\): Displays information about worked union hours and about the rates used to calculate wages, with a breakdown by paycheck and union.
 -   [Earnings by Employee](PR_64_10_65.md) \(PR641065\): Displays quarterly and YTD hours and amounts earned by each employee within the specified year broken down by earning type. The report includes information from regular paychecks, adjustments, and special checks.
 
 Also, you can use the following inquiry forms to review employee earning details and payment information:
@@ -18,7 +18,7 @@ Also, you can use the following inquiry forms to review employee earning details
 -   [Employee Pay Rates and Earnings](PR_40_30_P2.md) \(PR4030P2\): Displays employee information about active pay rates combined with earning hours and amounts summarized by quarter. For each quarterly total, you can view details at the paycheck level.
 -   [My Payroll Documents](PR_40_50_00.md) \(PR405000\): By using this inquiry form, an employee can view their pay stubs. The system shows only pay stubs linked with the paychecks that have the *Printed* status.
 
-## Reviewing Information About Deductions and Benefits { .section}
+## Reviewing Information About Deductions and Benefits
 
 You can use the following reports to review information about deductions and benefits:
 
@@ -27,7 +27,7 @@ You can use the following reports to review information about deductions and ben
 
 Also, you can use the [Employee Deductions and Benefits](PR_40_30_P4.md) \(PR4030P4\) inquiry form to review employee information about deductions and benefits for the selected year summarized by quarter. For each quarterly amount, you can view the relevant details at the paycheck level.
 
-## Reviewing Information About Taxes { .section}
+## Reviewing Information About Taxes
 
 To review information about taxes, you can use the following reports:
 
@@ -36,7 +36,7 @@ To review information about taxes, you can use the following reports:
 
 You can use the [Employee Taxes](PR_40_30_P3.md) \(PR4030P3\) inquiry form to review employee information about tax exemption, tax applicable wages, tax amounts, and tax gross amounts summarized by quarter. For each quarterly amount, you can view the relevant tax details at the paycheck level.
 
-## Printing Documents { .section}
+## Printing Documents
 
 To prepare a printable form of the pay stubs generated for a payment batch, you use the **Display Pay Stubs** command on the More menu of the [Payment Batches](PR_30_50_00.md) \(PR305000\) form.
 

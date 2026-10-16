@@ -1,16 +1,16 @@
-# Interbranch Invoices Without Balancing: Process Activity {#_20e64f54-43ea-46de-992a-e9ea2b62e54e .task}
+# Interbranch Invoices Without Balancing: Process Activity
 
 In this activity, you will learn how to create and process an invoice for items provided by multiple branches not requiring balancing and review account balances.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_adr_4jv_vxb .section}
+## Story
 
 On March 1, 2026, the SweetLife Fruits &amp; Jams company issued an invoice to the FourStar Coffee &amp; Sweets Shop customer in the amount of $290 for goods and services delivered to the customer by two branches that do not require balancing. The SweetLife Head Office and Wholesale Center branch has provided home canning training in the amount of $90, and the SweetLife Store branch has provided fruits and berries in the amount of $200.
 
 Acting as a SweetLife accountant, you need to create an invoice in the system and then release it, which causes a batch to be generated for it.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -20,13 +20,13 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Ledgers](GL_20_15_00.md) \(GL201500\) form, the *ACTUAL* ledger has been created.
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *COFFEESHOP* customer has been created.
 
-## Process Overview {#section_edr_4jv_vxb .section}
+## Process Overview
 
 To process an interbranch invoice between branches that do not need to be balanced, you will create and release the invoice on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. You will then review the generated batch on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form and check the account balances on the [Account Summary](GL_40_10_00.md) \(GL401000\) form.
 
 Optionally, you will generate the trial balance report by using the [Trial Balance Summary](GL_63_20_00.md) \(GL632000\) report form.
 
-## System Preparation {#section_hdr_4jv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -34,7 +34,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *3/1/2026*. If a different date is displayed, click the Business Date menu button and select *3/1/2026*.
 3.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Creating and Processing an Invoice for Branches Not Requiring Balancing {#section_jdr_4jv_vxb .section}
+## Step 1: Creating and Processing an Invoice for Branches Not Requiring Balancing
 
 To create and process an AR invoice for goods and services provided by multiple branches \(*HEADOFFICE* and *RETAIL*\) that do not require balancing, do the following:
 
@@ -65,12 +65,11 @@ To create and process an AR invoice for goods and services provided by multiple 
 
     When you released the invoice, the system generated and posted the related GL transaction. The AR account of the originating branch of the invoice has been debited and accounts from each document line are credited in the destination branch specified in detail lines \(see the following screenshot\).
 
-    ![](Images/activity_Finance_Interbranch_Invoice_Transactions_Without_Balancing.png "GL entries posted to different branches")
 
 
 In the next step, you will check the balances of these accounts.
 
-## Step 2: Reviewing the Account Balances {#section_pdr_4jv_vxb .section}
+## Step 2: Reviewing the Account Balances
 
 To review the account balances for the branches in the *03-2026* financial period, do the following:
 
@@ -85,7 +84,7 @@ To review the account balances for the branches in the *03-2026* financial perio
 
 Now you will review the balances for the financial period for the company as a whole.
 
-## Step 3 \(Optional\): Reviewing the Balances for the Financial Period {#section_upy_b1c_jpb .section}
+## Step 3 \(Optional\): Reviewing the Balances for the Financial Period
 
 To review the balances for the *03-2026* financial period, do the following:
 
@@ -99,7 +98,6 @@ To review the balances for the *03-2026* financial period, do the following:
 3.  On the report form toolbar, click **Run Report**.
 4.  In the generated report, review the account balances. As you can see in the following screenshot, the amount in the **Debit** column for the *11000 - Accounts Receivable* account equals the amount in the **Credit** column for the *40000 - Sales Revenue* account.
 
-![](Images/activity_InterCompany_InvoicesNoBalancing.png "The account balances of the SWEETLIFE company specified for the financial period")
 
 In this activity, you have created and processed an invoice between branches that do not require balancing, and you have learned how to review the relevant account balances.
 

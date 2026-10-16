@@ -1,10 +1,10 @@
-# Project Transactions: Reversal of Project Transactions {#_891c821b-4c7b-4fec-aa81-b4b52b42e9fa .concept}
+# Project Transactions: Reversal of Project Transactions
 
 On the [Project Transactions](PM_30_40_00.md) \(PM304000\) form, you can reverse direct and imported project transactions with the *PM* source in just one click. You can also reverse project transactions with the *AR* source that were uploaded in migration mode.
 
 These capabilities streamline error correction during manual entry and give you more control when you’re cleaning up historical data.
 
-## Reversal of Transactions with the PM Source { .section}
+## Reversal of Transactions with the PM Source
 
 Suppose that you’ve recorded labor, overhead, or warranty costs by manually creating and releasing a project transaction with the *PM* source on the [Project Transactions](PM_30_40_00.md) \(PM304000\) form. Later, you analyze the budget of the corresponding project and discover an incorrect amount.
 
@@ -18,9 +18,7 @@ You can reverse the erroneous transaction by clicking **Reverse** on the form to
 -   The same date and post period of the original project transaction
 -   The selected **Excluded from Allocation** check box
 
-**Attention:** If a project transaction has the *PM* source but originates from another document, such as a time card or time activity, you cannot reverse it.
-
-## Reversal of Historical Transactions with the AR Source { .section}
+## Reversal of Historical Transactions with the AR Source
 
 Suppose that migration mode was activated on the [Projects Preferences](PM_10_10_00.md) \(PM101000\) form. In this mode, some incorrect project transactions with the *AR* source were uploaded to the system from an Excel file or through an import scenario. You can reverse these transactions by clicking **Reverse** on the form toolbar of the [Project Transactions](PM_30_40_00.md) \(PM304000\) form.
 

@@ -1,4 +1,4 @@
-# Credit Memos with Sales Taxes: Implementation Checklist {#_6c835e77-d3e6-40e9-b351-12a617219294 .concept}
+# Credit Memos with Sales Taxes: Implementation Checklist
 
 To ensure that the system is configured properly for creating and releasing credit and debit memos, make sure that the criteria listed in the table have been met in the system as described.
 
@@ -7,7 +7,7 @@ To ensure that the system is configured properly for creating and releasing cred
 |[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)|Make sure the minimal features have been enabled as described in [Company Without Branches: General Information](../ImplementationGuide/config_Basic_Company_GeneralInfo.md).| |
 |[Customers](AR_30_30_00.md) \(AR303000\)|Verify the existence of the customer accounts for the customers for which you will correct create a credit memo. For details, see [Customers: Implementation Activity](Customer_Implem_Activity.md).| |
 
-## Settings That Affect the Workflow {#section_j4j_fjv_vxb .section}
+## Settings That Affect the Workflow
 
 The following settings and entities should be specified and defined, respectively:
 

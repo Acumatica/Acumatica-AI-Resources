@@ -1,10 +1,10 @@
-# Inventory Planning Configuration: Lead Times {#_18aa0291-b82d-48a4-98d7-b91f2d15e34e .concept}
+# Inventory Planning Configuration: Lead Times
 
 In inventory planning, the system can use lead times to calculate the action dates for planning recommendations.
 
 **Attention:** You can use production orders in inventory planning only if the *Manufacturing* and *Material Requirements Planning* features are enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form.
 
-## Lead Times in Inventory Planning { .section}
+## Lead Times in Inventory Planning
 
 When the system creates planning recommendations on the [Regenerate Inventory Planning](../UserGuide/AM_50_50_00.md) \(AM505000\) form, the system calculates an action date for each recommendation as follows:
 
@@ -18,7 +18,7 @@ The system calculates the action dates for planning recommendations by using lea
     -   Fixed manufacturing lead times if the appropriate settings are specified. For more information, see the *Fixed Manufacturing Lead Time* section below.
     -   Variable manufacturing lead times if fixed lead times are not configured. For details, see [Inventory Planning Configuration: Variable Manufacturing Lead Times](config_Inventory_Planning_MFG_Variable_Lead_Times.md).
 
-## Lead Times for Purchased Items { .section}
+## Lead Times for Purchased Items
 
 In inventory planning, the system uses purchase lead times to calculate the action dates for planning recommendations with the *Purchase* source. Purchase lead times are always fixed and do not depend on the order quantity, so you should specify these times based on a typical order size. You set up the purchase lead times as follows:
 
@@ -29,7 +29,7 @@ In inventory planning, the system uses purchase lead times to calculate the acti
 
 For example, suppose that the production must start on January 30, which is a working day. The purchase lead time is 10 days. Then the action date for the planning recommendations must be January 21. Further suppose that January 21 is a Saturday, which is a non-working day, according to the work calendar. Then the system moves the action date to January 20 because it is the nearest working day.
 
-## Fixed Manufacturing Lead Time { .section}
+## Fixed Manufacturing Lead Time
 
 If the *Material Requirements Planning* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, you may want the system to calculate manufacturing lead times by using fixed values for each stock item. This means that the lead time does not depend on the quantity of produced item. In this case, you do the following to set up the system:
 

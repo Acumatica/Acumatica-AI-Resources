@@ -1,4 +1,4 @@
-# Workflow Actions: Mass Processing Actions {#_5dd28501-a0f9-4c8f-83b8-6e3e73de7d93 .concept}
+# Workflow Actions: Mass Processing Actions
 
 You can use a workflow action on a mass processing form, which gives a user the ability to process any number of records simultaneously. To specify that the action should be used for mass processing, you should call the MassProcessingScreen method when adding the action to the screen configuration and specify the graph of the processing form as a type parameter of the method.
 
@@ -6,7 +6,7 @@ You can also call the InBatchMode\(\) method so that the action processes the li
 
 An example of the configuration of mass processing is shown in the following code.
 
-```language-csharp
+```csharp
 actions.Add(g => g.Assign, 
   c => c.WithCategory(processingCategory, g => g.PutOnHold)
   **.MassProcessingScreen&lt;RSSVAssignProcess&gt;\(\)**

@@ -1,4 +1,4 @@
-# Appointment Creation: To Create an Appointment from the Customers Form {#_b26e6cc9-c250-41e0-b045-7f3cdf4347c0 .task}
+# Appointment Creation: To Create an Appointment from the Customers Form
 
 In this activity, you will create an appointment from the [Customers](AR_30_30_00.md#) \(AR303000\) form while viewing a particular customer. You will also learn how to send notification emails to the customer and to your company's own staff members.
 
@@ -6,13 +6,13 @@ In this activity, you will create an appointment from the [Customers](AR_30_30_0
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the service manager \(Maia Davis\) of the SweetLife Service and Equipment Sales Center has received a call from HM's Bakery and Cafe about the repair of a juicer that had been sold to this customer previously. The customer has asked for the repair of the juicer to be performed on February 1, 2026.
 
 The service manager needs to check the history of this customer and schedule the appointment for the repair of the juicer. When the appointment is scheduled, the service manager needs to send confirmation emails both to the assigned employee and to the customer. You will perform these actions, acting as the service manager.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, which you use to complete this lesson, the following setup has been carried out:
 
@@ -33,11 +33,11 @@ In the *U100* dataset, which you use to complete this lesson, the following setu
     -   **Group Billing Documents By**: **Appointments**
 -   On the [Customers](AR_30_30_00.md#) \(AR303000\) form, the *HMBAKERY \(HM's Bakery and Cafe\)* customer has been defined. The *AP AP* billing cycle has been selected in the **Service Management** section of the **Billing** tab.
 
-## Process Overview { .section}
+## Process Overview
 
 From the [Customers](AR_30_30_00.md#) \(AR303000\) form, you will open the [Calendar Board](FS_30_03_00.md#) \(FS300300\) form to create the first appointment. By using the [Appointments](FS_30_02_00.md#) \(FS300200\) form, you will then send notification emails about the appointment to the customer and staff member. Finally, while again using the [Customers](AR_30_30_00.md#) form as a starting point, you will go to the [Appointment Summary](FS_40_01_00.md#) \(FS400100\) form to view the list of all appointments scheduled for the customer.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -45,7 +45,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  In the company to which you are signed in, ensure that the *Service Management* feature has been enabled on the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form.
 
-## Step 1: Creating an Appointment from the Customers Form { .section}
+## Step 1: Creating an Appointment from the Customers Form
 
 To create an appointment for a customer whose record you are viewing on the [Customers](AR_30_30_00.md#) \(AR303000\) form, do the following:
 
@@ -63,7 +63,7 @@ To create an appointment for a customer whose record you are viewing on the [Cus
 7.  On the form toolbar, click **Save**.
 8.  On the **Staff** tab, confirm that the staff member, Jon Waite, has been assigned to the appointment.
 
-## Step 2: Sending Appointment Confirmation Emails { .section}
+## Step 2: Sending Appointment Confirmation Emails
 
 To send emails confirming the scheduled appointment, while you are still viewing the appointment on the [Appointments](FS_30_02_00.md#) \(FS300200\) form, do the following:
 
@@ -77,7 +77,7 @@ To send emails confirming the scheduled appointment, while you are still viewing
 5.  On the form title bar \(at the top right corner of the form\), click **Activities**, and in the **Task &amp; Activities** pop-up window, which opens, click the link to each email to review what has been sent to the customer and to the staff member.
 6.  Close the pop-up window.
 
-## Step 3: Reviewing the Customer's Appointments { .section}
+## Step 3: Reviewing the Customer's Appointments
 
 To review the appointments for the customer, do the following:
 
@@ -91,7 +91,6 @@ To review the appointments for the customer, do the following:
 
 Review the list of all appointments scheduled for the customer, including the appointment you have just created \(see the following screenshot\).
 
-![](Images/ServMgmt_Appointment_from_Customers_Form_History.png "An appointment created from the Customers form")
 
 **Parent topic:**[Creating Appointments](../UserGuide/ServMgmt_Processing_Appointments_Mapref.md)
 

@@ -1,4 +1,4 @@
-# Apply Discounts to a Sales Order {#_c6ad394e-9e1f-4dc4-ad50-bc4ab988fc1f .concept}
+# Apply Discounts to a Sales Order
 
 If you are using the contract-based REST API to integrate Acumatica ERP with an external system, this external system can apply the available discounts to a document \(such as a sales order or AR invoice\) in a single API call. For details about the configuration and application of discounts, see [Configuring and Applying Customer Discounts](../UserGuide/Prices_Customer_Discounts_Mapref.md).
 
@@ -6,7 +6,7 @@ A user scenario involving the need to apply discounts can be the following: Thro
 
 **Tip:** Although discounts can be applied to other types of documents, in this example, sales orders will be imported.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you do the following to configure your client application and the Acumatica ERP instance to be used:
 
@@ -77,14 +77,14 @@ To continue preparing the system, you need to create a discount code and a disco
 13. Click **Save** on the form toolbar.
 14. On the [Import by Scenario](../UserGuide/SM_20_60_36.md) \(SM206036\) form, select the import scenario you have created, click **Prepare**, make sure that the table on the **Prepared Data** tab contains the correct data of two sales orders, and click **Import**.
 
-## Request { .section}
+## Request
 
 You can use the following example of an HTTP request to apply available discounts to both imported sales orders. To affect both sales orders, you need to call the HTTP request twice, each time specifying the proper order number as the value of the `entity/OrderNbr` field.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-POST /entity/Default/25.200.001/SalesOrder/AutoRecalculateDiscounts HTTP/1.1
+POST /entity/Default/26.200.001/SalesOrder/AutoRecalculateDiscounts HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
 Content-Type: application/json
@@ -93,7 +93,7 @@ Content-Type: application/json
     "entity" :
     {
         "OrderType" : {"value" : "SO"},
-        "OrderNbr" : {"value" : "000065"}
+        "OrderNbr" : {"value" : "000070"}
     },
     "parameters": { }
 }

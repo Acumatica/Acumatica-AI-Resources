@@ -1,4 +1,4 @@
-# Security of GL Budget Articles {#_7257e0bc-837d-45ad-acba-bcdeaefc6e29 .concept}
+# Security of GL Budget Articles
 
 In Acumatica ERP, organizations implement general access restrictions by assigning roles to users of the system. The roles assigned to users allow them to access the needed resources to perform specific tasks required for their jobs. If a role allows a user to view or edit budget articles in the general ledger, the user can view all the articles, including those that might be sensitive.
 
@@ -6,7 +6,7 @@ By using restriction groups, you can limit the visibility of sensitive budget ar
 
 **Tip:** In Acumatica ERP, you can configure groups with direct and inverse restriction. In this topic, for simplicity, groups with direct restriction are used in examples. You can use inverse restriction groups in the same way as you use direct restriction groups. For details on the types of restriction groups, see [Types of Restriction Groups](../Shared/../UserGuide/SM__con_Types_of_Restriction_Groups.md).
 
-## Managing the Visibility of GL Budget Articles by User { .section}
+## Managing the Visibility of GL Budget Articles by User
 
 You can configure restriction groups that will limit the visibility of GL budget articles \(leaf articles or nodes at any level\) for users. As a result, the users not included in the group will not be able to see the budget articles \(and subarticles of these articles, if there are any\).
 
@@ -18,7 +18,7 @@ For example, suppose that the *Wages* budget article should be available to only
 
 For more details about restriction groups, see [Restriction Groups in Acumatica ERP](../Shared/../UserGuide/SM__con_Overview_of_Restriction_Groups.md).
 
-## Forms for Security of GL Budget Articles { .section}
+## Forms for Security of GL Budget Articles
 
 In the following table, you can find the list of forms that you can use to manage restriction groups with GL budget articles and tasks that you can resolve by using each form.
 

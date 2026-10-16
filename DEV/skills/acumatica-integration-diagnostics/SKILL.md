@@ -2,10 +2,12 @@
 name: acumatica-integration-diagnostics
 description: Modernize, repair, and validate old Acumatica ERP integration solutions across REST, contract-based REST API clients, SOAP, OData, middleware jobs, console runners, and diagnostic utilities. Use when updating Acumatica endpoint versions, generated client packages and namespaces, authentication to OAuth 2.0, request payloads, filters, actions, test-instance configuration, run outputs, or migration plans for legacy Acumatica integrations.
 metadata:
-  version: 1.0.1
+  version: 1.1.0
 ---
 
 # Acumatica Integration Modernization
+
+This skill targets Acumatica ERP 2026 R2.
 
 ## Purpose
 
@@ -24,7 +26,7 @@ The goal is to discover the integration shape, identify version and endpoint dri
    - middleware or scheduled synchronization job
    - diagnostic or smoke-test runner
 3. Identify source and target Acumatica versions. Prefer user-provided release notes, endpoint comparison files, customization exports, OpenAPI/endpoint metadata, or official docs. Do not guess version-specific endpoint changes from memory.
-4. Find configuration and secrets handling. Look for base URL, tenant/company, branch, locale, username/password login, OAuth client ID/secret, refresh tokens, endpoint names, and endpoint versions.
+4. Find configuration and secrets handling. Look for base URL, tenant/company, branch, locale, username/password login, OAuth client ID/secret, refresh tokens, endpoint names, endpoint versions, and contract versions. The ERP release alone does not identify the endpoint contract.
 5. Check any previous logs or output files only as evidence from old runs. Do not treat generated output as source.
 
 ## Trusted Sources
@@ -35,7 +37,7 @@ Check trusted sources before making version-sensitive changes. Prefer sources in
 - Acumatica documentation in the `Acumatica-AI-Resources/Documentation/` directory. Search it before using external sources:
   - For endpoint contract changes, search `Documentation/IntegrationDevelopmentGuide/` for `Comparison of System Endpoints`, then narrow by the source and target endpoint versions and affected entity, field, or action. A useful starting command is `rg -n "Comparison of System Endpoints|Comparing the Default/" Documentation/IntegrationDevelopmentGuide`.
   - For OAuth 2.0 and OIDC behavior, search `Documentation/IntegrationDevelopmentGuide/` for `Authorizing Client Applications to Work with Acumatica ERP`, the selected authorization flow, connected-application registration, scopes, token refresh, and data access. A useful starting command is `rg -n "Authorizing Client Applications|Authorization Code Flow|refresh token|offline_access" Documentation/IntegrationDevelopmentGuide`.
-  - If `Documentation/` is absent, because the working directory is not a clone of this repository or is a partial checkout, those searches return nothing, which reads the same as the guidance not existing. Do not fall back to recalled endpoint behavior. Read the same topics from the release branch instead: browse `https://github.com/Acumatica/Acumatica-AI-Resources/tree/2026R1/Documentation`, and fetch one topic as `https://raw.githubusercontent.com/Acumatica/Acumatica-AI-Resources/2026R1/Documentation/{topic path}`. If network access is unavailable, name the topic you could not read rather than answering from memory.
+  - If `Documentation/` is absent, because the working directory is not a clone of this repository or is a partial checkout, those searches return nothing, which reads the same as the guidance not existing. Do not fall back to recalled endpoint behavior. Read the same topics from the release branch instead: browse `https://github.com/Acumatica/Acumatica-AI-Resources/tree/2026R2/Documentation`, and fetch one topic as `https://raw.githubusercontent.com/Acumatica/Acumatica-AI-Resources/2026R2/Documentation/{topic path}`. If network access is unavailable, name the topic you could not read rather than answering from memory.
 - Target-version Acumatica release notes supplied by the user. If release-note details are needed and no current release notes are attached or available under `Documentation/ReleaseNotes/`, ask the user to provide them.
 - Metadata from the target Acumatica instance, such as endpoint definitions, connected application settings, and actual response bodies.
 - Installed package metadata and generated client code in the repository or NuGet cache.
@@ -47,6 +49,7 @@ Treat source facts as scoped to their version, tenant, and endpoint. If sources 
 
 When updating an old integration to a newer Acumatica version:
 
+- For 2026 R2, use [contract-aware migration](references/contracts.md) when choosing an endpoint, regenerating clients, or repairing requests. 2026 R2 supports Contract Versions 4 and 5; `Default/26.200.001` uses Version 5. Preserve an existing supported Version 4 endpoint when the task does not require migration.
 - Update package references together when using generated clients: generated endpoint package, `Acumatica.RESTClient`, and `Acumatica.RESTClient.ContractBasedApi`.
 - Update generated model namespaces consistently. Generated endpoint packages commonly use package names with dots and namespaces with underscores.
 - For custom REST clients, update endpoint URLs, entity names, action names, filter syntax, payload fields, and expansion/select parameters according to endpoint comparison data.

@@ -1,10 +1,10 @@
-# Formula Editor: Configuration of a Combo Box Field for the Formula Editor {#_57ab9f94-097e-4c81-a010-400940813128 .concept}
+# Formula Editor: Configuration of a Combo Box Field for the Formula Editor
 
 To configure the formula editor to be displayed as a combo box, you need to do the following:
 
 1.  In the DAC field, add the PXStringList attribute, as shown in the following code.
 
-    ```language-csharp
+    ```csharp
     #region Field
     public abstract class field : PX.Data.BQL.BqlString.Field { }
     [PXFormulaEditor(DisplayName = "Data Field", IsDBField = true)]
@@ -20,7 +20,7 @@ To configure the formula editor to be displayed as a combo box, you need to do t
 
     If the values are static, you can populate them in the PXStringList attribute in the DAC, as the following code shows.
 
-    ```language-csharp
+    ```csharp
     PXStringListAttribute.SetList<DAC_Name.Field_Name>(
       sender, row,
       new string[]
@@ -37,7 +37,7 @@ To configure the formula editor to be displayed as a combo box, you need to do t
 
 3.  In the HTML template or TypeScript code, enable the combo box mode for the field, as shown below.
 
-    ```language-javascript
+    ```javascript
     @columnConfig({comboBox: true})
     field_Name : PXFieldState;
     ```

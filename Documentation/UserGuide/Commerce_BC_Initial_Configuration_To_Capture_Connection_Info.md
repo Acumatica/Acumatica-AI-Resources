@@ -1,4 +1,4 @@
-# Initial Configuration: To Capture Store Connection Information {#_f4601133-62b9-4559-a464-52d2095f479d .task}
+# Initial Configuration: To Capture Store Connection Information
 
 Before you can start setting up a connection to the BigCommerce store in Acumatica ERP, you need to obtain the following BigCommerce connection information:
 
@@ -7,16 +7,16 @@ Before you can start setting up a connection to the BigCommerce store in Acumati
 
 In this activity, you will learn where to find the listed information.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will obtain the API credentials of the BigCommerce store.
 
-## System Preparation { .section}
+## System Preparation
 
 1.  Before you start this activity, make sure that you have completed the instructions in [Initial Configuration: To Set Up a BigCommerce Store](Commerce_BC_Initial_Configuration_To_Set_Up_a_BC_Store.md).
 2.  Sign in to the control panel of the BigCommerce store as the store administrator.
 
-## Step: Obtaining the BigCommerce Store API Credentials { .section}
+## Step: Obtaining the BigCommerce Store API Credentials
 
 Before you can establish a connection between your instance of Acumatica ERP and the online store, you need to generate an API account. Do the following:
 

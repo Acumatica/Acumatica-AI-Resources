@@ -1,22 +1,22 @@
-# Report Style: General Information {#_f420001c-46cb-4184-afba-83367687095a .concept}
+# Report Style: General Information
 
 Each company has its own style for the design of documents, letterheads, and reports. Adhering to the adopted design in your company, you can make a uniform style for Acumatica ERP reports in your company. For this purpose, in the Acumatica Report Designer, you can specify styles for individual elements or apply style templates to the reports that you design and modify.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following in the Report Designer:
 
 -   Change the style of an element in a report
 -   Change the style of number of reports
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to modify the style of a report in the Acumatica Report Designer in the following circumstances:
 
 -   You are responsible for the customization of Acumatica ERP in your company, including developing and modifying reports to give users the information they need to do their jobs.
 -   You need to change the style of one element or a group of elements in a report, or apply a uniform style to a number of reports in the system.
 
-## Ways to Change the Style of Elements in Reports { .section}
+## Ways to Change the Style of Elements in Reports
 
 Depending on the type of an element in a report, the style of the element can include a number of settings. A report primarily includes text boxes. The style of a text box defines the text font \(type, style, and color\), text alignment, and background color. In a new report, all elements that you add to the report layout are assigned the default style. You can change the style of elements in a report in the following ways:
 
@@ -37,7 +37,7 @@ Depending on the type of an element in a report, the style of the element can in
 
 **Attention:** If you are using a font that is not available in Windows by default, you need to make it available for all users. To do so, you install it to the `C:\Windows\Fonts` folder of the application server.
 
-## Creation of a Collection of Styles { .section}
+## Creation of a Collection of Styles
 
 In the Report Designer, you can create a collection of styles for a particular report. Later, you can use styles from both collections—the collection you have specified for the report, and the collection of styles that is specified in a style template applied to the report.
 
@@ -54,7 +54,7 @@ In the collection of styles, you can specify multiple members dedicated to the s
 
 A new report does not have a collection of styles.
 
-## Style Templates for Reports in the Report Designer { .section}
+## Style Templates for Reports in the Report Designer
 
 The use of a style template is the preferred way to change the style of elements in a report. A style template gives you the ability to specify uniform settings for elements not only in one report but also in a number of reports. A style template includes the collection of styles specified in the **Appearance** &gt; **StyleSheet** property. A style template is a file with the RPX extension, as other report files are.
 

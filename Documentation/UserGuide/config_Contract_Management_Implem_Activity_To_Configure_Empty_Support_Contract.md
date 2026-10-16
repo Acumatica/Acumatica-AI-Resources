@@ -1,10 +1,10 @@
-# Contract Template Creation: To Create an Empty Support Contract Template {#_81734501-253a-4b22-a2b7-aadc682b7cea .task}
+# Contract Template Creation: To Create an Empty Support Contract Template
 
 In this activity, you will learn how to create an empty template for a support contract.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company, in addition to deploying juicers, also specializes in providing maintenance. The Unifruit LLC customer previously purchased juicers and now needs to enter into a maintenance support contract. On *3/8/2026*, the support contract was signed by both parties.
 
@@ -14,25 +14,25 @@ The service of maintenance specialists costs $120 per hour, and the price is not
 
 Acting as a sales manager, you will create an empty contract template for the support contract.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Contract Templates](CT_20_20_00.md) \(CT202000\) form, you will create an empty template for a support contract.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Contract Management* feature has been enabled.
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *UNIFRUIT \(Unifruit LLC\)* customer has been created.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
 1.  As a prerequisite to this activity, complete the [Contract Configuration: To Create Entities for a Support Contract](config_Contract_Management_Implem_Activity_To_Configure_Labor_Items_for_Support_Contract.md) to create a labor item and a new case class for the support services you will use during the creation of the empty contract template.
 2.  Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as the sales manager David Chubb by using the *chubb* username and the *123* password.
 
-## Step: Creating an Empty Contract Template {#section_wjg_5zs_dtb .section}
+## Step: Creating an Empty Contract Template
 
 Now you need to create an empty contract template and specify the default settings for a support contract.
 
@@ -55,7 +55,6 @@ On the [Contract Templates](CT_20_20_00.md) \(CT202000\) form, do the following:
 
 6.  Make sure the **Active** check box is selected in the Summary area, so that you can create contracts based on the template. These settings are shown in the following screenshot.
 
-    ![](Images/CustomerContractsSupportContractTemplate.png "Template for support contract")
 
 7.  On the form toolbar, click **Save**.
 

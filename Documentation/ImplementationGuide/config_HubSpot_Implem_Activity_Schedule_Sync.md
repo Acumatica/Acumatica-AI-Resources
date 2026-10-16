@@ -1,12 +1,12 @@
-# Integration with HubSpot: To Schedule Synchronization Processes {#_8d54318e-f23c-40e0-9109-9677b6ea3ba8 .task}
+# Integration with HubSpot: To Schedule Synchronization Processes
 
 In this activity, you will learn how to schedule the synchronization of entities between HubSpot and Acumatica ERP.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to the necessary tenant.
 
-## Step 1: Scheduling the Real-Time Synchronization { .section}
+## Step 1: Scheduling the Real-Time Synchronization
 
 The real-time synchronization process runs all the time; however, in certain cases, it can be interrupted. For these cases, an automated restarting of the process should be scheduled as follows:
 
@@ -26,7 +26,7 @@ The real-time synchronization process runs all the time; however, in certain cas
 
 9.  On the form toolbar, click **Save &amp; Close**.
 
-## Step 2: Scheduling the Synchronization of the Out-of-Sync Data { .section}
+## Step 2: Scheduling the Synchronization of the Out-of-Sync Data
 
 Do the following to schedule the synchronization of data that has become out of sync:
 

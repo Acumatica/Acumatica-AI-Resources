@@ -1,4 +1,4 @@
-# To Navigate to the Filters Form {#_6c0c8ccd-4ae6-48c9-a10f-6efc352b3297 .concept}
+# To Navigate to the Filters Form
 
 You might need to add or change a reusable shared filter in Acumatica ERP during a customization. To manage shared filters in Acumatica ERP, you use the [Filters](../UserGuide/CS_20_90_10.md) \(CS209010\) form.
 

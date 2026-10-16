@@ -1,10 +1,10 @@
-# Integration with Microsoft Teams {#_cae456ae-218d-4359-8752-dc13f3b91dfa .concept}
+# Integration with Microsoft Teams
 
 You integrate Microsoft Teams with Acumatica ERP to enable user collaboration within a single platform and to eliminate the need for users to switch between multiple applications.
 
 **Important:** This functionality is available only if the *Teams Integration* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Requirements { .section}
+## Requirements
 
 Before you integrate Microsoft Teams with Acumatica ERP, your company must be signed up for a Microsoft cloud service, such as Azure or Office 365, with the Microsoft Entra ID instance configured. For more information, see [Microsoft Entra ID](http://azure.microsoft.com/en-us/services/active-directory/) on the Microsoft Azure Portal and [Integration with Microsoft Entra ID](US__con_AzureAD_Integration.md).
 
@@ -12,27 +12,25 @@ You need to have a Microsoft Teams account, as well as the Teams desktop applica
 
 To configure the Microsoft Teams integration in Acumatica ERP, you must be signed in to a user account with one of the following roles *Acumatica Support*, *Administrator*, *CR Sales &amp; Marketing Admin*, or *CR Support Admin*. \(For details on Acumatica ERP roles, see [Configuring User Roles](User_Roles_Mapref.md).\) Also, Acumatica ERP administrators must be assigned both the *Teams Administrator* role and the *Global Administrator* role.
 
-## Configuration Steps { .section}
+## Configuration Steps
 
 You can configure integration with Teams when you implement Acumatica ERP or at any later time. To integrate an instance of Acumatica ERP with Teams, you perform the following general steps:
 
 1.  You perform the needed configuration actions on the Microsoft Entra ID instance. That is, you register your Acumatica ERP instance with the Microsoft Entra ID instance, and you obtain the needed credentials, as described in [To Configure Microsoft Azure for Teams Integration](US__HOW_Teams_Integration_Configuring_Azure.md).
 2.  You configure your Acumatica ERP instance and Teams application, as described in [To Configure Acumatica ERP for Teams Integration](US__HOW_Teams_Integration_Configuring_Teams_Features.md).
 
-## Sharing of Records { .section}
+## Sharing of Records
 
 Before you can share Acumatica ERP records through Teams, you need to add a new activity type on the [Activity Types](CR_10_20_00.md) \(CR102000\) form. A user selects this activity type to send a link to a record to a Teams channel or a Teams member. The menu commands that correspond to the created activity type then appear on the appropriate parts of the forms as follows:
 
 -   For forms that have the **Activities** tab: The **Create Teams** command on the **Create Activity** menu \(see the following screenshot\).
 
-    ![](Images/Teams_Integration_Create_Teams_command.png "The Create Teams Message command on the Create Activity tab")
 
 -   For forms that do not have the **Activities** tab: The **Teams** command on the **Add Activity** menu of the **Tasks &amp; Activities** dialog box \(see the following screenshot\). This dialog box opens when you click **Activities** on the form title bar.
 
-    ![](Images/Teams_Integration_Teams_command.png "The Teams Message command on the Create Activity menu")
 
 
-## Channel Synchronization { .section}
+## Channel Synchronization
 
 To be able to receive messages from Acumatica ERP in Microsoft Teams channels, you need to configure each of the channels to which you want to send messages. As a system administrator, you perform this activity once for the entire company.
 
@@ -44,11 +42,10 @@ If for a Teams member, no employee or contact has been found in Acumatica ERP, y
 
 For each Teams channel to which you want to send messages, you need to add a webhook. To generate the webhook URL, you create a flow by using [Microsoft Power Automate](https://make.powerautomate.com/). You then specify the generated URL on the **Channels** pane of the [Teams Channels](SM_30_50_00.md) form.
 
-## Status of Teams Contacts { .section}
+## Status of Teams Contacts
 
 If a contact or employee that is selected in one of the applicable boxes on a supported form is a member of a Teams channel, Acumatica ERP displays the Teams icon to the right of this box. The following screenshot shows the [Cases](CR_30_60_00.md) \(CR306000\) form with the Teams icons to the right of the **Contact** box \(see Item 1 in the screenshot\) and the **Owner** box \(Item 2\).
 
-![](Images/Teams_Integration_Cases_form.png "The Teams icons on the Cases form")
 
 The Teams icon contains a dot of one of the following colors that indicates the status of the user as follows:
 
@@ -59,24 +56,112 @@ The Teams icon contains a dot of one of the following colors that indicates the 
 
 The following table lists the forms and boxes on these forms for which the Teams icons are displayed.
 
-|Form|Location|Box|
-|----|--------|---|
-|[Cases](CR_30_60_00.md) \(CR306000\)|Summary area|**Contact** \(a contact of the customer\)**Owner** \(an employee of the company who owns the case\)
+<table id="_87c95d19-08ad-4f34-8af1-e78ea1f43865"><thead><tr><th>
 
-|
-|[Leads](CR_30_10_00.md) \(CR301000\)|Summary area|**Contact** \(a contact that the lead is associated with\)**Owner** \(an employee of the company who owns the lead\)
+Form
 
-|
-|[Opportunities](CR_30_40_00.md) \(CR304000\)|Summary area|**Contact** \(a representative to be contacted about the opportunity\)**Owner** \(an employee assigned to the opportunity\)
+</th><th>
 
-|
-|[Business Accounts](CR_30_30_00.md) \(CR303000\)|Summary area|**Owner** \(a person assigned to work with the business account\)|
-|**General** &gt; **Primary Contact**|**Name** \(the full name of the primary contact associated with the business account\)|
-|[Contacts](CR_30_20_00.md) \(CR302000\)|Summary area|**Owner** \(an owner of the contact\)**Contact ID** \(the unique identifier of the contact\)
+Location
 
-|
-|[Customers](AR_30_30_00.md) \(AR303000\)|**General** &gt; **Primary Contact**|**Name** \(the full name of the primary contact associated with the customer\)|
-|[Vendors](AP_30_30_00.md) \(AP303000\)|**General** &gt; **Primary Contact**|**Name** \(the full name of the primary contact associated with the vendor\)|
+</th><th>
+
+Box
+
+</th></tr></thead><tbody><tr><td>
+
+[Cases](CR_30_60_00.md) \(CR306000\)
+
+</td><td>
+
+Summary area
+
+</td><td>
+
+**Contact** \(a contact of the customer\)**Owner** \(an employee of the company who owns the case\)
+
+</td></tr><tr><td>
+
+[Leads](CR_30_10_00.md) \(CR301000\)
+
+</td><td>
+
+Summary area
+
+</td><td>
+
+**Contact** \(a contact that the lead is associated with\)**Owner** \(an employee of the company who owns the lead\)
+
+</td></tr><tr><td>
+
+[Opportunities](CR_30_40_00.md) \(CR304000\)
+
+</td><td>
+
+Summary area
+
+</td><td>
+
+**Contact** \(a representative to be contacted about the opportunity\)**Owner** \(an employee assigned to the opportunity\)
+
+</td></tr><tr><td rowspan="2">
+
+[Business Accounts](CR_30_30_00.md) \(CR303000\)
+
+</td><td>
+
+Summary area
+
+</td><td>
+
+**Owner** \(a person assigned to work with the business account\)
+
+</td></tr><tr><td>
+
+**General** &gt; **Primary Contact**
+
+</td><td>
+
+**Name** \(the full name of the primary contact associated with the business account\)
+
+</td></tr><tr><td>
+
+[Contacts](CR_30_20_00.md) \(CR302000\)
+
+</td><td>
+
+Summary area
+
+</td><td>
+
+**Owner** \(an owner of the contact\)**Contact ID** \(the unique identifier of the contact\)
+
+</td></tr><tr><td>
+
+[Customers](AR_30_30_00.md) \(AR303000\)
+
+</td><td>
+
+**General** &gt; **Primary Contact**
+
+</td><td>
+
+**Name** \(the full name of the primary contact associated with the customer\)
+
+</td></tr><tr><td>
+
+[Vendors](AP_30_30_00.md) \(AP303000\)
+
+</td><td>
+
+**General** &gt; **Primary Contact**
+
+</td><td>
+
+**Name** \(the full name of the primary contact associated with the vendor\)
+
+</td></tr></tbody>
+</table>
 
 **Parent topic:**[Integrating Acumatica ERP with Microsoft Teams](../UserGuide/US_mng_Teams_Integration.md)
 

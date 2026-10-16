@@ -1,8 +1,8 @@
-# Intercompany Sales: General Information {#_44795c99-30f0-4720-a8ed-2ea8766aa6ec .concept}
+# Intercompany Sales: General Information
 
 Once you have configured the intercompany sales functionality, the system can automatically create AP documents \(bills, debit adjustments, and credit adjustments\) in the purchasing company based on the AR documents \(invoices, credit memos, and debit memos\) that users create in the selling company.
 
-## Learning Objectives {#section_fyr_4jv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,11 +10,11 @@ In this chapter, you will learn how to do the following:
 -   Pay the intercompany bill.
 -   Process a payment for the intercompany invoice.
 
-## Applicable Scenarios {#section_hyr_4jv_vxb .section}
+## Applicable Scenarios
 
 You use the intercompany sales functionality if there are multiple companies defined in the same tenant and one of the companies \(the selling company\) has rendered a service or sold goods to another company \(the purchasing company\). Each of these companies can consist of multiple branches. The selling company creates an AR document \(invoice, debit memo, or credit memo\) where the purchasing company is a customer. In the created AP document \(bill, debit adjustment, or credit adjustment\), the selling company should be specified as a vendor.
 
-## Automatic Creation of AP Documents {#section_jyr_4jv_vxb .section}
+## Automatic Creation of AP Documents
 
 Once the intercompany sales functionality has been configured, as described in [Intercompany Sales Setup: Implementation Activity](../ImplementationGuide/Finance_Intercompany_SalesSetup_Implem_Activity.md), you can start processing sales documents between the selling and purchasing companies.
 
@@ -35,11 +35,10 @@ The system generates an AP document if the original AR document meets the follow
 
 For details of the mapping rules between AR and AP documents, see [Intercompany Sales Setup: Mapping Rules](../ImplementationGuide/Finance_Intercompany_SalesSetup_Mapping_Rules.md).
 
-## Workflow of the Intercompany Sales {#section_vv2_1y4_y4b .section}
+## Workflow of the Intercompany Sales
 
 For intercompany sales of non-stock items between the branches of two different companies, the typical process involves the actions and generated documents shown in the following diagram.
 
-![](Images/diag_Finance_Intercompany_Sales.png "Intercompany sales process")
 
 **Parent topic:**[Processing Intercompany Sales](../UserGuide/Finance_Intercompany_Sales_Mapref.md)
 

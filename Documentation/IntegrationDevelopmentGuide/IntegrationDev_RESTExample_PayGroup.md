@@ -1,4 +1,4 @@
-# PayGroup {#_431cd4f5-884d-415d-ab63-7ec8adb23df9 .concept}
+# PayGroup
 
 This chapter presents code examples showing requests that use the `PayGroup` entity.
 

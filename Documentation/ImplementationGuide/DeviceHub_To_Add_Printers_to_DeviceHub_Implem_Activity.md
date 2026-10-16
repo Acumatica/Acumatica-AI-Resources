@@ -1,18 +1,18 @@
-# Printers: To Add a Printer to DeviceHub {#_e647fab3-b7cc-437b-a063-5eaaf271bb96 .task}
+# Printers: To Add a Printer to DeviceHub
 
 In the following implementation activity, you will learn how to add printers to DeviceHub.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you need to configure a printer that will be used for print jobs in your company.
 
-## Process Overview { .section}
+## Process Overview
 
 On the **Printers** tab of the DeviceHub **Configuration** window, you will add a new printer. Then you will sign in to an Acumatica ERP instance and update the list of printers on the [Printers](../UserGuide/SM_20_65_10.md) \(SM206510\) form. After that, you will specify the default printer for your user account on the [User Profile](../UserGuide/SM_20_30_10.md) \(SM203010\) form and print a document on the [Print/Email Orders](../UserGuide/SO_50_20_00.md) \(SO502000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start adding printers to DeviceHub, you should do the following:
 
@@ -20,7 +20,7 @@ Before you start adding printers to DeviceHub, you should do the following:
 -   Set the connection between DeviceHub and Acumatica ERP, as described in [DeviceHub: To Set Up the Connection Between DeviceHub and the Acumatica Instance](Devicehub_To_Set_Up_the_Connection_Implem_Activity.md).
 -   Configure the methods of retrieving print jobs, as described in [DeviceHub: To Configure Methods of Retrieving Print and Scan Jobs](DeviceHub_To_Configure_Push_Notifications_Implem_Activity.md).
 
-## Step 1: Adding a Printer to DeviceHub { .section}
+## Step 1: Adding a Printer to DeviceHub
 
 To add a printer to DeviceHub, do the following:
 
@@ -37,7 +37,7 @@ To add a printer to DeviceHub, do the following:
 
 4.  Click **OK** to close the **Configuration** window.
 
-## Step 2: Updating the List of Printers in Acumatica ERP { .section}
+## Step 2: Updating the List of Printers in Acumatica ERP
 
 To update the list of printers in Acumatica ERP, do the following:
 
@@ -49,7 +49,7 @@ To update the list of printers in Acumatica ERP, do the following:
     **Note:** If the list has not been updated instantly, wait a moment and click **Refresh** again.
 
 
-## Step 3: Specifying the Default Printer { .section}
+## Step 3: Specifying the Default Printer
 
 Before you can print a document with DeviceHub, you can specify the printer that will be used for printing operations. To specify the default printer, do the following:
 
@@ -57,7 +57,7 @@ Before you can print a document with DeviceHub, you can specify the printer that
 2.  On the **Printing Settings** tab, select a printer that you have added to DeviceHub in the **Default Printer** box.
 3.  On the form toolbar, click **Save**.
 
-## Step 4: Printing Documents on a Mass-Processing Form { .section}
+## Step 4: Printing Documents on a Mass-Processing Form
 
 To print document on a mass-processing form, do the following:
 
@@ -72,7 +72,7 @@ To print document on a mass-processing form, do the following:
     The system creates print jobs and sends a push notification to DeviceHub.
 
 
-## Step 5: Reviewing the List of Print Jobs { .section}
+## Step 5: Reviewing the List of Print Jobs
 
 To review the list of print jobs, do the following:
 

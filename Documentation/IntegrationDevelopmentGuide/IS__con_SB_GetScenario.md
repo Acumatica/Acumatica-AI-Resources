@@ -1,18 +1,18 @@
-# GetScenario\(\) Method {#_e658ec52-4089-46c7-80fd-d1223a4d14b9 .reference}
+# GetScenario\(\) Method
 
 You use the GetScenario\(\) method to retrieve the list of commands of an integration scenario that is configured in the system.
 
-## Syntax { .section}
+## Syntax
 
 ```
 public Command[] GetScenario(string scenario)
 ```
 
-## Parameter { .section}
+## Parameter
 
 -   scenario: The name of the import or export scenario for which the list of commands should be retrieved.
 
-## Return Value { .section}
+## Return Value
 
 The method returns the list of commands of the specified integration scenario.
 

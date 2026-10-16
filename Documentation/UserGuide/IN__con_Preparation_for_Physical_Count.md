@@ -1,4 +1,4 @@
-# Preparation for Physical Count {#_bfd7b444-5ab9-4879-8e5e-2e9a4d8bfcca .concept}
+# Preparation for Physical Count
 
 When you decide to perform a physical inventory, you must prepare for this process appropriately. As a result of the preparation, you generate a physical inventory document \(count sheet\) and distribute it among the employees who will perform the inventory.
 
@@ -12,7 +12,7 @@ When you are preparing for a physical inventory, you perform the following steps
 
 In this topic, you will find detailed information about the preparation process.
 
-## Organizing Goods in a Warehouse and Preparing Book Quantities {#_9c2ee11b-ce1f-4329-ace5-4f901a0212a4 .section}
+## Organizing Goods in a Warehouse and Preparing Book Quantities
 
 When you prepare for a physical inventory in your warehouse, you do the following:
 
@@ -41,7 +41,7 @@ You have to exclude the following items from the physical count:
 -   Items that have been received to the warehouse if the receipts cannot be released in the system at the moment
 -   Items on unreleased inventory issues and not-yet-issued shipments if these items haven't been removed from the warehouse yet
 
-## Creating and Distributing a Count Sheet {#_42a06e26-3687-4016-898e-5ad02423a992 .section}
+## Creating and Distributing a Count Sheet
 
 For every physical count that is performed at the warehouse, you have to create the count review document that is used for processing the count result. On the [Prepare Physical Count](IN_50_40_00.md) \(IN504000\) form, you can review the count lines that will be included in the count review document and initiate the process of creating the document. For details, see [To Prepare a Physical Inventory Count](IN__How_Prepare_PI_Count.md).
 
@@ -68,7 +68,7 @@ In a count sheet, the items are arranged according to the settings on the **Assi
 
 If the **Use Tags** option is selected on the [Inventory Preferences](IN_10_10_00.md) form, the count sheet includes tag numbers for each line generated.
 
-## Adding New Lines to a Prepared Count Review Document {#_051f8e6c-64e4-4a24-9f4c-d19658c93384 .section}
+## Adding New Lines to a Prepared Count Review Document
 
 When the count review document is prepared, the system adds to the count review document \(count sheet\) only those inventory items that have a nonzero booked quantity. Thus, if you have prepared the count sheet and then the quantity of some inventory items that are not in the sheet has changed from zero to a nonzero value \(because items have been found or received\), you may need to add new count lines to the count sheet. On the [Physical Inventory Review](IN_30_50_00.md) \(IN305000\) form, you can add a new line to a prepared count sheet as long as you adhere to the following rules:
 
@@ -79,7 +79,7 @@ When the count review document is prepared, the system adds to the count review 
 
 After you have added any new lines and saved your changes, no inventory transactions \(issues, receipts, or transfers\) are allowed for the added inventory items in the specified location and warehouse.
 
-## Using Tags in Counting {#_4a03ef61-09ba-41f9-9a9a-5503a08660f7 .section}
+## Using Tags in Counting
 
 Tags may or may not be used in the counting process, depending on your organization's policies for physical inventory counts. A tag count is useful for a full-scale end-of-year physical inventory.
 

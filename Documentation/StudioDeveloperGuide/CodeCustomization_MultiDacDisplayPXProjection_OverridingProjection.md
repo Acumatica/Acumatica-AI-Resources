@@ -1,4 +1,4 @@
-# Use of PXProjection: Overriding a Projection of an Existing DAC {#_0e1a22b8-f586-4d87-92c7-438f04e286c9 .concept}
+# Use of PXProjection: Overriding a Projection of an Existing DAC
 
 You override the [PXProjection](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=d23f265e-1a4c-8ce1-d732-72fbaf8faf01) attribute of an existing DAC when you need a DAC to behave as if it were declared with a different projection query—without modifying the original projection query of the DAC.
 
@@ -9,7 +9,7 @@ You implement the override at the graph level by:
 -   Replacing the interceptor instance stored in the PXCache. For projection DACs, this instance is a PXProjectionAttribute object responsible for supplying the effective BQL command.
 -   Adjusting the necessary field mappings through CacheAttached handlers.
 
-## Implementing the Override of a Projection { .section}
+## Implementing the Override of a Projection
 
 To override the PXProjectionAttribute attribute of an existing DAC, you perform the following general steps:
 
@@ -26,11 +26,11 @@ To override the PXProjectionAttribute attribute of an existing DAC, you perform 
 
 The following section shows you how you can implement the override of a projection for an existing DAC by using the steps described above.
 
-## Overriding the Projection of the MyProjection DAC { .section}
+## Overriding the Projection of the MyProjection DAC
 
 Suppose that you have the following DAC called `MyProjection` with a PXProjectionAttribute attribute declared on it.
 
-```language-csharp
+```csharp
 [PXProjection(typeof(Select<...Old Projection Query...>))]
 public class MyProjection: PXBqlTable
 {
@@ -46,7 +46,7 @@ public class MyProjection: PXBqlTable
 
 Further suppose that you want to override the projection query in the `MyProjection` DAC and change the mapping of its single `DocID` field. After you successfully implement the override, the `MyProjection` DAC should essentially behave as if it was originally declared, as shown below.
 
-```language-csharp
+```csharp
 [PXProjection(typeof(Select<...New Projection Query...>))]
 public class MyProjection: PXBqlTable
 {
@@ -64,7 +64,7 @@ Notice that the `DocID` field's mapping has been changed from `SomeDAC.docID` fi
 
 To implement the required changes, you must first find all the graphs that are using the `MyProjection` DAC. Suppose that the `MyProjection` DAC is used only in one graph named `MyGraph`, as shown below.
 
-```language-csharp
+```csharp
 public class MyGraph : PXGraph<MyGraph>
 {
    public PXSelect<MyProjection> MyView;
@@ -73,7 +73,7 @@ public class MyGraph : PXGraph<MyGraph>
 
 To override the PXProjectionAttribute attribute, you need to declare a graph extension \(`MyGraphProjectionOverrideExt` in this example\) for the `MyGraph` graph. You must place the overriding logic inside the `Initialize` method. You change the mapping of a projection DAC field by declaring the cacheAttached event handler for the field with a new set of attributes. The following code shows the graph extension for `MyGraph` that overrides the PXProjectionAttribute of the `MyProjection` DAC and changes the mapping of its `DocID` field.
 
-```language-csharp
+```csharp
 public class MyGraphProjectionOverrideExt : PXGraphExtension<MyGraph>
 {
    // Overriding the projection query by directly modifying the PXCache graph cache
@@ -102,19 +102,19 @@ If you want to apply different overriding logic to each of the other graphs that
 
 **Tip:** Technically, you can create a single graph extension for the base graph PXGraph \(from which all graphs in Acumatica Framework extend\), as shown below.
 
-```language-csharp
+```csharp
 public class MyGraphExtensionForAllGraphs : PXGraphExtension<PXGraph> {}
 ```
 
 You can then declare your overriding logic in this graph extension—which will be applied to all graphs in the system at runtime. However, using this approach will affect the whole system and will consume additional system resources unnecessarily. In most cases, only a few graphs in the system use a particular projection DAC. If you use this approach, the rest of the graphs will have a redundant graph extension that does nothing. This is why we strongly discourage you from declaring graph extensions that will be applied to all graphs at runtime. You should declare graph extensions for only graphs that actually use the projection DAC you’re overriding.
 
-## Declaring a Generic Graph Extension { .section}
+## Declaring a Generic Graph Extension
 
 If you want to apply the same overriding logic to other graphs that use the same projection DAC, you need to create the same graph extension \(as shown in the preceding section\) for each of them. However, this requires you to duplicate a lot of code. Instead, we recommend that you declare a generic graph extension that will serve as a base type for your graph extensions, which extend the concrete graphs that use the same projection DAC. You add the overriding logic to this generic graph extension.
 
 Suppose that the `MyProjection` DAC is used in multiple graphs and you want to use the same overriding logic for all these graphs. You can declare a generic graph extension and place the overriding logic in it as follows.
 
-```language-csharp
+```csharp
 public abstract class ProjectionOverrideExt<TGraph> : PXGraphExtension<TGraph>
 where TGraph : PXGraph, new()
 {
@@ -140,7 +140,7 @@ where TGraph : PXGraph, new()
 
 Notice that the `ProjectionOverrideExt` graph extension is abstract and has a generic `TGraph` parameter. You can easily duplicate the overriding logic for all the graphs that use the `MyProjection` DAC by creating derived graph extensions that substitute `TGraph` with the concrete graph type, as shown below.
 
-```language-csharp
+```csharp
 ​public class MyGraphProjectionOverrideExt : ProjectionOverrideExt<MyGraph> { }
 
 public class MyAnotherGraphProjectionOverrideExt : ProjectionOverrideExt<MyAnotherGraph> { }

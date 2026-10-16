@@ -1,16 +1,16 @@
-# Resource Equipment: To Add Resource Equipment to an Appointment {#_bff387a8-04f3-4c9c-8e7c-ef8bba79b881 .task}
+# Resource Equipment: To Add Resource Equipment to an Appointment
 
 This activity guides you through the process of assigning to appointments the resource equipment that your company owns and uses to perform services.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 The SweetLife Service and Equipment Sales Center owns equipment that is used for repair services and maintains a history of appointments for each item. The service manager \(Maia Davis\) receives a call from the FourStar Coffee &amp; Sweets Shop customer requesting the repair of a juicer on February, 4, 2026.
 
 Acting as the service manager, you will schedule the appointment, taking into account which piece of resource equipment is available for use at that time. You will also review the history of usage of the selected equipment.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -24,11 +24,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   On the [Equipment Types](FS_20_08_00.md#) \(FS200800\) form, the *SCREWDRIVER* equipment type has been created. This type has been assigned to the *FSE00001 \(Vissko Screwdriver Set\)* equipment on the [Equipment](FS_20_50_00.md#) \(FS205000\) form.
 -   On the [Non-Stock Items](IN_20_20_00.md#) \(IN202000\) form, for the *REPAIR* non-stock item, the *Service* type is selected on the **General** tab, and the *SCREWDRIVER* equipment type is assigned on the **Resource Equipment Types** tab.
 
-## Process Overview { .section}
+## Process Overview
 
 To assign the resource equipment required to perform a service, you will use the [Appointments](FS_30_02_00.md#) \(FS300200\) form. You will create an appointment with the service that requires the equipment and add the necessary resource equipment. Next, you will review the [Resource Equipment History](FS_65_65_00.md#) \(FS656500\) report form to see the appointments where the equipment has been or will be used. Finally, you will view the resource equipment history on the [Appointment Summary](FS_40_01_00.md#) \(FS400100\) form.
 
-## System Preparation {#section_kng_3pz_1hc .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -36,7 +36,7 @@ Before you start this activity, do the following:
 2.  In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date *1/30/2026*. For simplicity, you will use this business date to create and process all documents in this activity.
 3.  After signing in, make sure that the *Service Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form.
 
-## Step 1: Creating an Appointment with Resource Equipment Assigned { .section}
+## Step 1: Creating an Appointment with Resource Equipment Assigned
 
 To create an appointment that will use the resource equipment, do the following:
 
@@ -52,7 +52,7 @@ To create an appointment that will use the resource equipment, do the following:
 5.  On the **Resource Equipment** tab, add a row, and in the **Equipment ID** column, select *FSE00001 \(Vissko Screwdriver Set\)*.
 6.  On the form toolbar, click **Save**.
 
-## Step 2: Reviewing the Usage History of Resource Equipment { .section}
+## Step 2: Reviewing the Usage History of Resource Equipment
 
 To review the list of appointments where the resource equipment has been or will be used, do the following:
 
@@ -63,7 +63,6 @@ To review the list of appointments where the resource equipment has been or will
 
 The report lists all appointments that use the selected resource equipment, including the one you created in the previous step \(see below\).
 
-![](Images/ServMgmt_Resource_Equipment_History_Report.png)
 
 You can also review the list of appointments for the piece of resource equipment as follows:
 
@@ -75,7 +74,6 @@ You can also review the list of appointments for the piece of resource equipment
 
 You can view the appointments within the selected time range where the resource equipment has been or will be used to provide services.
 
-![](Images/ServMgmt_Resource_Equipment_in_Appointments.png "Appointments related to the resource equipment")
 
 **Parent topic:**[Creating and Using Resource Equipment](../UserGuide/ServMgmt_Resource_Equipment_Mapref.md)
 

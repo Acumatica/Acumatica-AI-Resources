@@ -1,8 +1,8 @@
-# Configuring Nested Containers {#_4175ff17-adda-4c68-a86d-34b40a125d7c .concept}
+# Configuring Nested Containers
 
 This topic describes how to configure the types of related containers on the same screen.
 
-## Example: Configuring a Screen with One-to-Many \(Master-Detail\) Containers {#MasterDetail .section}
+## Example: Configuring a Screen with One-to-Many \(Master-Detail\) Containers
 
 With one-to-many containers, one container declared inside the sm:Screen tag is considered the master container, while all other containers are considered detail containers.
 
@@ -72,9 +72,8 @@ To add, update, and delete data records in a detail container, you use the `Beha
 
 The screenshot below shows the resulting screen in the mobile application.
 
-![](Images/12-1.png "Screen with one-to-many containers")
 
-## Example: Configuring a Screen with Many-as-One Containers {#OneToOne .section}
+## Example: Configuring a Screen with Many-as-One Containers
 
 Some screens include multiple containers that are displayed as one container.
 
@@ -121,9 +120,8 @@ To configure these containers, copy the code below to an `.xml` file, put the fi
 
 The following screenshot shows the resulting screen in the mobile application.
 
-![](Images/13-1.png "Screen with many-as-one containers")
 
-## Example: Configuring a Screen with Many-to-One \(Master-Detail\) Containers with Multi-Selection {#Multi .section}
+## Example: Configuring a Screen with Many-to-One \(Master-Detail\) Containers with Multi-Selection
 
 Acumatica ERP includes a special type of container that supports multi-selection—selection of multiple items or options.
 
@@ -182,13 +180,12 @@ In the code, you enable multi-selection by setting the container type with `Type
 
 The screenshots below show the resulting screen in the mobile application.
 
-![](Images/new-14.png "Container supporting multi-selection")
 
 The left screenshot shows the content of the DocumentSummary container of the Expense Claim screen and the header of the SubmitReceipts nested container. If the user taps the header of the nested container, the mobile application displays the content of this container and provides multi-selection, as the second screenshot shows.
 
 **Note:** The DisplayName attribute is not defined for the nested container, therefore for the container, the mobile application displays the *Submit Receipts* name that is obtained from the Mobile API server.
 
-## Example: Configuring a Screen with a Container Link {#ContainerLink .section}
+## Example: Configuring a Screen with a Container Link
 
 In the mobile application, a container can contain a link to another container on the action panel or on the screen among the fields. To create a container link on the action panel, use the sm:ContainerLink tag, as the following example shows.
 
@@ -248,7 +245,6 @@ In this code, you can open the SubmitReceipts container by using the button in t
 
 The screenshot below shows the resulting screen, which displays the container link on the action panel in the mobile application.
 
-![](Images/15-1.png "Use of a button on the action panel to open a container")
 
 To locate the container link among the screen fields, you use the `Control="ListItem"` attribute instead of the `Control="Button"` one. To set the exact position of the container link among the screen fields, specify the appropriate value for the Priority attribute.
 

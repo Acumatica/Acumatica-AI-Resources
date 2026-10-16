@@ -1,18 +1,18 @@
-# Generic Inquiry Access Through OData: To Filter the Results of a Generic Inquiry {#_e16e2b50-8da2-4931-b6d8-e01b5d591f9b .task}
+# Generic Inquiry Access Through OData: To Filter the Results of a Generic Inquiry
 
 This activity will walk you through the process of retrieving data with a filter applied to the results of a generic inquiry.
 
-## Story { .section}
+## Story
 
 The business intelligence \(BI\) application of the MyStore company should display information about the items that are sold in the store. These items are entered and updated on the [Stock Items](IN_20_25_00.md) \(IN202500\) form in Acumatica ERP. Suppose that you already have a list of items with the necessary information, and now you need to retrieve only the changes that have been made to the items during the past day. By retrieving only this data, you can optimize the performance of the application. To display the list of modified items to a user, you will export the list of stock items that satisfy the specified conditions from Acumatica ERP. That is, you will export the stock item records that have the *Active* status and that were modified within the past day.
 
 Through the generic inquiry–based OData interface, you cannot export records directly from a data entry form, such as the [Stock Items](IN_20_25_00.md) \(IN202500\) form. Thus, before the export, you have to configure a generic inquiry that retrieves the needed data from Acumatica ERP. In this activity, you will use the Modified Stock Items \(INGI0016\) custom generic inquiry, which has been preconfigured for this activity.
 
-## Process Overview { .section}
+## Process Overview
 
 You will modify two stock item records in Acumatica ERP and make one of them inactive. You will then review the Modified Stock Items \(INGI0016\) generic inquiry, note its parameters, and retrieve the results of the generic inquiry by using OData. Because you need to filter the results of the inquiry to obtain only the active records that were modified within the past day, you will use the $filter parameter.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -21,7 +21,9 @@ Before you begin performing the steps of this activity, do the following:
 3.  Complete the following prerequisite activity: [Generic Inquiry Access Through OData: To Sign In to Acumatica ERP and Retrieve the Metadata](../Shared/../UserGuide/GI_Access_to_Exposed_Inquiry_Through_OData_SignIn_Activity.md).
 4.  If you have created a Postman collection with the basic authentication configured, add a new request to the collection and configure the request to inherit the authorization type from the parent collection.
 
-## Step 1: Modifying Records { .section}
+Before you send the request in this activity, you need to sign in to Acumatica ERP, as described in [Generic Inquiry Access Through OData: To Sign In to Acumatica ERP and Retrieve the Metadata](../Shared/../UserGuide/GI_Access_to_Exposed_Inquiry_Through_OData_SignIn_Activity.md). If you have created a Postman collection with the basic authorization configured, add a new request to the collection and configure the request to inherit the authorization type from the parent collection.
+
+## Step 1: Modifying Records
 
 In this step, you will modify stock items so that you have at least one stock item record modified within the past day.
 
@@ -36,7 +38,7 @@ Now you have at least two inventory items that have been modified within the pas
 
 The system tracks the last modified date for every record, but this date is not displayed on the [Stock Items](../Shared/../UserGuide/IN_20_25_00.md) form. In the system, a preconfigured generic inquiry shows the dates when stock items were last modified. To view this generic inquiry, on the [Generic Inquiry](../Shared/../UserGuide/SM_20_80_00.md) \(SM208000\) form, you can select the inquiry with the title *Stock Items: Last Modified Date*, and click **View Inquiry** on the form toolbar.
 
-## Step 2: Reviewing the Generic Inquiry { .section}
+## Step 2: Reviewing the Generic Inquiry
 
 For a stock item record entered and maintained on the [Stock Items](../Shared/../UserGuide/IN_20_25_00.md) \(IN202500\) form, you need to export the following values:
 
@@ -51,9 +53,7 @@ For a stock item record entered and maintained on the [Stock Items](../Shared/..
 
 The elements that are available on the form are shown in the following screenshots.
 
-![](../Shared/Images/WS_ExportStockItems.png "Elements in the Summary area and the General tab whose values will be exported")
 
-![](../Shared/Images/WS_ExportStockItems2.png "Elements on the Warehouses tab whose values will be exported")
 
 The Modified Stock Items \(INGI0016\) custom generic inquiry, which you will use for this activity, has no parameters and is based on the [PX.Objects.IN.INSiteStatus](https://help.acumatica.com/dacBrowser/PX.Objects.IN/INSiteStatus) and [PX.Objects.IN.InventoryItem](https://help.acumatica.com/dacBrowser/PX.Objects.IN/InventoryItem) data access classes. To review this generic inquiry and make sure it includes the needed elements, do the following:
 
@@ -61,15 +61,14 @@ The Modified Stock Items \(INGI0016\) custom generic inquiry, which you will use
 2.  On the **Interface Options** tab, make sure that the **Expose via OData** check box is selected. This means that the generic inquiry results are available through OData.
 3.  On the form toolbar, click **View Inquiry** to review the resulting generic inquiry form.
 
-## Step 3: Finding Out the Field Names for the Filter { .section}
+## Step 3: Finding Out the Field Names for the Filter
 
 Before you configure the filter, you need to find out the field names for the filter. To do this, you need to review the response body of the request that you have executed in [Generic Inquiry Access Through OData: To Sign In to Acumatica ERP and Retrieve the Metadata](GI_Access_to_Exposed_Inquiry_Through_OData_SignIn_Activity.md). In the response body, the `EntityType` tag with `Name="ModifiedStockItems"` contains the properties with the `ItemStatus` and `LastModifiedOn` names, as shown in the following screenshot.
 
-![](Images/GI_Access_to_Exposed_Inquiry_Through_OData_ModifiedStockItems_Activity_Params.png "Fields of the generic inquiry")
 
 You will use these field names to configure a filter for the results of the generic inquiry through the OData interface.
 
-## Step 4: Retrieving the List of Modified Stock Items { .section}
+## Step 4: Retrieving the List of Modified Stock Items
 
 You will use the $filter parameter to specify the search conditions for the fields of the generic inquiry. You use [OData URI conventions](http://www.odata.org/documentation/odata-version-3-0/url-conventions/) to specify the conditions.
 

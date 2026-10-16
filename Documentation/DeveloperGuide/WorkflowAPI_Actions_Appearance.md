@@ -1,8 +1,8 @@
-# Workflow Actions: Appearance of Buttons and Commands {#_223bb0d5-1693-4fe7-8b1f-acf77548d8f9 .concept}
+# Workflow Actions: Appearance of Buttons and Commands
 
 You can configure the appearance of the button or command that corresponds to an action in a specific state of a workflow and in a screen configuration. The appearance settings specified in a screen configuration are applied to the action in all states of all workflows defined in the screen configuration.
 
-## Adjusting Appearance in the Screen Configuration { .section}
+## Adjusting Appearance in the Screen Configuration
 
 To adjust the appearance of a button or command for all states of all workflows of the form, you work with the screen configuration of this form. You call the methods mentioned in the list below in a lambda expression for the Add or Update method when you register an action in the screen configuration. You can specify the appearance settings for an action in a screen configuration in the following ways:
 
@@ -39,7 +39,7 @@ To adjust the appearance of a button or command for all states of all workflows 
 
 **Attention:** The IsDisabledWhen, IsDisabledAlways, IsHiddenWhen and IsHiddenAlways methods can only restrict the behavior that is implemented in the code of a graph or a graph extension.
 
-## Adjusting Appearance in a Workflow State { .section}
+## Adjusting Appearance in a Workflow State
 
 To adjust the appearance of a button or command in a specific state of a workflow, you configure the workflow state as described in [Workflow States: Configuration of Actions](WorkflowAPI_States_ActionStates_Concept.md).
 

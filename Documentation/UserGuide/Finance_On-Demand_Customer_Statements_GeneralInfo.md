@@ -1,19 +1,19 @@
-# On-Demand Statements: General Information {#_d9729b99-8309-4db3-a640-2e9489e0ad8f .concept}
+# On-Demand Statements: General Information
 
 In addition to regular customer statements, you can create on-demand statements for dates outside the dates of the statement cycles configured in the system.
 
-## Learning Objectives {#section_drd_hjv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Generate an on-demand statement
 -   Review and print the on-demand statement
 
-## Applicable Scenarios {#section_frd_hjv_vxb .section}
+## Applicable Scenarios
 
 You generate on-demand customer statements when a customer asks you to provide a statement as of a specific date to reconcile balances.
 
-## Process Description {#section_hrd_hjv_vxb .section}
+## Process Description
 
 For an on-demand statement to be prepared for a customer, the *Open Item* statement type should be selected for the customer on the **Billing Settings** tab of the [Customers](AR_30_30_00.md) \(AR303000\) form.
 

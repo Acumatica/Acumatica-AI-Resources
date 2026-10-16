@@ -1,8 +1,8 @@
-# To Define a Book Calendar with Week-Based Periods {#_fc544309-3470-40d6-816b-8e923ac98ee2 .task}
+# To Define a Book Calendar with Week-Based Periods
 
 You add a book calendar for each non-posting book you add to the system by using the [Book Calendar Setup](../UserGuide/FA_20_60_00.md) \(FA206000\) form. For each calendar, you have to specify the settings of the financial year, including its starting and ending dates and its periods.
 
-## To Configure a Book Calendar with Week-Based Periods { .section}
+## To Configure a Book Calendar with Week-Based Periods
 
 1.  Open the [Book Calendar Setup](../UserGuide/FA_20_60_00.md) \(FA206000\) form.
 2.  In the **Book** box, select the book for which you want to set up a book calendar.

@@ -1,4 +1,4 @@
-# Reusing a UI Definition {#_e66cd57c-fa98-4f18-8964-d1146eba83a7 .concept}
+# Reusing a UI Definition
 
 You can reuse the UI definition of an Acumatica ERP form—or part of a form—in other forms. This approach may be useful if :
 

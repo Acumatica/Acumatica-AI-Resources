@@ -1,15 +1,15 @@
-# Splitting of Assets: General Information {#_a5fd17f9-926b-4ff4-a708-e0df0ba68ed7 .concept}
+# Splitting of Assets: General Information
 
 You can split an asset into parts to divide a single fixed asset consisting of a group of items into two or more separate assets. You can also use splitting in advance of disposal and transfer of a part of the asset.
 
-## Learning Objectives {#section_n42_ljv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Split a fixed asset
 -   Release the split transaction
 
-## Applicable Scenarios {#section_p42_ljv_vxb .section}
+## Applicable Scenarios
 
 You split a fixed asset in the following cases:
 
@@ -17,7 +17,7 @@ You split a fixed asset in the following cases:
 -   You need to divide an asset by only cost and depreciation, that is, divide it into multiple assets with different costs and depreciation.
 -   You need to partially dispose of or transfer an asset in preparation of getting rid of a portion of the asset. This can occur when, for example, you determine that a portion of the asset has become useless or you simply decide that selling part of the asset would be profitable.
 
-## Fixed Asset Splits {#section_fcs_1fm_nj .section}
+## Fixed Asset Splits
 
 When splitting assets, you define the cost and the quantity of units for the asset components being removed from the fixed asset. A new asset record is created that contains the appropriate percentage of the original asset cost, the specified quantity, and the depreciation adjustments. The salvage amount of the original asset will also be split by using the ratio you specify.
 
@@ -31,7 +31,7 @@ After you split an asset, you must release the associated transactions that sign
 
 You can view the history of the splits of an asset on the [Asset Splits](FA_40_50_00.md) \(FA405000\) form.
 
-## Release of Transactions {#section_y42_ljv_vxb .section}
+## Release of Transactions
 
 When you split an asset, the system generates the following transactions:
 
@@ -47,7 +47,7 @@ When you split an asset, the system generates the following transactions:
 
 The transactions are nominal transactions signifying the split; they are not posted to the general ledger. For more information on transaction types, see [Types of Fixed Asset Transactions](FA__con_Transaction_Types.md).
 
-## Example {#section_bp2_ljv_vxb .section}
+## Example
 
 Suppose that you purchase 100 units of office chairs for $3,000 total, and that you set up one fixed asset with an original quantity of 100 units and a useful life of three years. Further suppose that you use the straight-line method, with a depreciation cost of $83.30 monthly as a whole. Then on the third month after the asset's purchase, you want to sell part of the asset: 20 of the 100 chairs. The accumulated depreciation of the original asset is $250 and the net value is $2,750.
 

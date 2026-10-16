@@ -1,8 +1,8 @@
-# Fluent BQL and Traditional BQL Equivalents {#_67456943-7705-4522-9e0a-967251cc841c .concept}
+# Fluent BQL and Traditional BQL Equivalents
 
 The fluent business query language \(BQL\) library defines the equivalents of traditional BQL classes listed in the following tables.
 
-## Data View Declarations { .section}
+## Data View Declarations
 
 **Note:** All data views that contain aggregating are read-only.
 
@@ -33,7 +33,7 @@ The fluent business query language \(BQL\) library defines the equivalents of tr
 |SelectFrom&lt;&gt;.\[Joins\].Where&lt;&gt;.AggregateTo&lt;&gt;.View.ReadOnly|PXSelectJoinGroupBy&lt;,,,&gt;|
 |SelectFrom&lt;&gt;.\[Joins\].Where&lt;&gt;.AggregateTo&lt;&gt;.OrderBy&lt;&gt;.View.ReadOnly|PXSelectJoinGroupBy&lt;,,,,&gt;|
 
-## Select Commands { .section}
+## Select Commands
 
 |Fluent BQL|Traditional BQL|
 |----------|---------------|
@@ -55,7 +55,7 @@ The fluent business query language \(BQL\) library defines the equivalents of tr
 |SelectFrom&lt;&gt;.\[Joins\].Where&lt;&gt;.AggregateTo&lt;&gt;.OrderBy&lt;&gt;|Select5&lt;,,,,&gt;|
 |N/A|MappedSelect&lt;Table,From,Join,Where,Aggregate,OrderBy&gt;|
 
-## Search Commands { .section}
+## Search Commands
 
 |Fluent BQL|Traditional BQL|
 |----------|---------------|
@@ -76,7 +76,7 @@ The fluent business query language \(BQL\) library defines the equivalents of tr
 |SelectFrom&lt;&gt;.\[Joins\].Where&lt;&gt;.AggregateTo&lt;&gt;.SearchFor&lt;&gt;|Search5&lt;,,,&gt;|
 |SelectFrom&lt;&gt;.\[Joins\].Where&lt;&gt;.AggregateTo&lt;&gt;.OrderBy&lt;&gt;.SearchFor&lt;&gt;|Search5&lt;,,,,&gt;|
 
-## Join and Union Clauses { .section}
+## Join and Union Clauses
 
 |Fluent BQL|Traditional BQL|
 |----------|---------------|
@@ -105,7 +105,7 @@ The fluent business query language \(BQL\) library defines the equivalents of tr
 |N/A|UnionAll&lt;TableMap&gt;|
 |N/A|UnionAll&lt;TableMap,NextUnion&gt;|
 
-## Where Clause { .section}
+## Where Clause
 
 |Fluent BQL|Traditional BQL|
 |----------|---------------|
@@ -114,7 +114,7 @@ The fluent business query language \(BQL\) library defines the equivalents of tr
 |.Where&lt;Operand.Comparison.NextOperator&gt;|Where&lt;Operand,Comparison,NextOperator&gt;|
 |.Where&lt;UnaryOperator.NextOperator&gt;|Where2&lt;UnaryOperator,NextOperator&gt;|
 
-## Aggregate Clause { .section}
+## Aggregate Clause
 
 |Fluent BQL|Traditional BQL|
 |----------|---------------|
@@ -134,7 +134,7 @@ The fluent business query language \(BQL\) library defines the equivalents of tr
 |Count|Count|
 |Count&lt;Field&gt;|Count&lt;Field&gt;|
 
-## OrderBy Clause { .section}
+## OrderBy Clause
 
 |Fluent BQL|Traditional BQL|
 |----------|---------------|
@@ -144,7 +144,7 @@ The fluent business query language \(BQL\) library defines the equivalents of tr
 |Field.Desc|Desc&lt;Field&gt;|
 |Field.Desc, NextSort|Desc&lt;Field,NextSort&gt;|
 
-## Parameters { .section}
+## Parameters
 
 |Fluent BQL|Traditional BQL|
 |----------|---------------|
@@ -175,7 +175,7 @@ The fluent business query language \(BQL\) library defines the equivalents of tr
 |Argument.AsDateTime|Argument&lt;DateTime?&gt;|
 |Argument.AsString|Argument&lt;string&gt;|
 
-## Logical Operators and Brackets { .section}
+## Logical Operators and Brackets
 
 |Fluent BQL|Traditional BQL|
 |----------|---------------|
@@ -196,7 +196,7 @@ The fluent business query language \(BQL\) library defines the equivalents of tr
 |Brackets&lt;Operand.Comparison.NextOperator&gt;|Where&lt;Operand,Comparison,NextOperator&gt;|
 |Brackets&lt;UnaryOperator.NextOperator&gt;|Where2&lt;UnaryOperator,NextOperator&gt;|
 
-## Comparisons { .section}
+## Comparisons
 
 |Fluent BQL|Traditional BQL|
 |----------|---------------|
@@ -219,7 +219,7 @@ The fluent business query language \(BQL\) library defines the equivalents of tr
 |Table.field.IsIn&lt;TConst1, ..., TConstN&gt;|&lt;Table.field, In3&lt;TConst1, ..., TConstN&gt;&gt;|
 |Table.field.IsNotIn&lt;TConst1, ..., TConstN&gt;|&lt;Table.field, NotIn3&lt;TConst1, ..., TConstN&gt;&gt;|
 
-## Case, When, Then, and Else Operators { .section}
+## Case, When, Then, and Else Operators
 
 |Fluent BQL|Traditional BQL|
 |----------|---------------|
@@ -228,7 +228,7 @@ The fluent business query language \(BQL\) library defines the equivalents of tr
 |Operand.When&lt;Condition&gt;|Case&lt;Condition,Operand&gt;|
 |Operand.When&lt;Condition&gt;.Else&lt;Operand2&gt;.When&lt;Condition2&gt;.\[...\]|Case&lt;Condition,Operand,NextCase&gt;|
 
-## Arithmetic Operations and Operations with Strings and Dates { .section}
+## Arithmetic Operations and Operations with Strings and Dates
 
 |Fluent BQL|Traditional BQL|
 |----------|---------------|

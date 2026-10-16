@@ -1,4 +1,4 @@
-# PXView Type and Views Collection {#_0af3b776-4c7b-4dd7-9f61-27c167abb261 .concept}
+# PXView Type and Views Collection
 
 In addition to including the Cache property, a data view includes the View property, which references a controller object of the PXView type. A PXView object is created automatically for each data view. This object is responsible for retrieving data from the database and placing it into the cache object.
 

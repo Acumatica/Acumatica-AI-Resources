@@ -1,14 +1,14 @@
-# Item and Storage Lookup: Process Activity {#_1cd56287-5e87-40df-a728-321adad90a40 .task}
+# Item and Storage Lookup: Process Activity
 
 In this activity, you will learn how to search for information about stock items by using the [Item Lookup](IN_20_25_20.md) \(IN202520\) form and for information about items stored in a particular location by using the [Storage Lookup](IN_40_90_20.md) \(IN409020\) form.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a warehouse worker in the Wholesale warehouse of the SweetLife Fruits &amp; Jams company. When you walk around the warehouse you find items and boxes that have been inappropriately placed on the floor or on tables. Your work task is to find out what these items are and where they should be stored, so that you can move the items to the appropriate storage.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -22,7 +22,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
     **Tip:** For simplicity, in this activity, the alternate ID will be further referred to as *barcode*.
 
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, acting as a warehouse worker, you will do the following:
 
@@ -31,11 +31,11 @@ In this activity, acting as a warehouse worker, you will do the following:
 
 **Tip:** In any working mode, you enter a command or barcode by typing it in the **Scan** box and pressing Enter. In production systems, you will scan the appropriate barcodes rather than manually entering them.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start looking up items, sign in to a company with the *U100* dataset preloaded as a warehouse worker with the *perkins* username and the *123* password.
 
-## Step 1: Looking Up an Item by Scanning the Item Barcode { .section}
+## Step 1: Looking Up an Item by Scanning the Item Barcode
 
 Suppose that as you are walking through the warehouse, you notice a box on the floor near some shelves; the box has 10 apple jars, each 32 ounces. You do not see other warehouse workers nearby, so you decide to find out what this box contains and where it should be placed. Do the following:
 
@@ -43,14 +43,13 @@ Suppose that as you are walking through the warehouse, you notice a box on the f
 2.  In the **Scan** box, type `AJ32B`, which is the barcode affixed to the box you found, and press Enter. Notice that *APJAM32* item \(for which this barcode is specified in the item settings\) is shown in the **Inventory ID** box.
 3.  In the table on the **Item** tab, notice that the item is stored in the following locations: *MAIN*, *L1R3S2*, *L2R3S2*, and *L3R3S2*, as shown in the following screenshot.
 
-    ![](Images/activity_WMS_Item_and_Storage_Lookup.png "Reviewing the locations with apple jam")
 
     You know the box did not come from the *MAIN* location because it is a receiving location, and you first need to make sure that the box was not taken from any of the racks with sorted items. Because you know that the box you found contains 10 jars, this box could have been taken from the *L1R3S2* or *L3R3S2* locations, as shown in the previous screenshot. \(The *L2R3S2* location contains only 8 jars of this item, so the box definitely is not from this shelf.\)
 
 
 Now you need to find out if the *L1R3S2* or *L3R3S2* locations contain less jam than the quantity that is recorded in the system.
 
-## Step 2: Looking Up Items Stored in a Location { .section}
+## Step 2: Looking Up Items Stored in a Location
 
 Suppose that you have counted the quantities of boxes and jars of the *APJ32B* item on the *L1R3S2* and *L3R3S2* shelves. You have found out that the *L1R3S2* shelf contains one box of 10 jars and 3 single jars; the *L3R3S2* contains one box of 10 jars and 6 single jars. To find out if the *L1R3S2* or *L3R3S2* location contain less jam than the quantity that is recorded in the system, do the following:
 

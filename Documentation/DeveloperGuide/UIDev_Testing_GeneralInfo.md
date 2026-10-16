@@ -1,8 +1,8 @@
-# Testing of the Modern UI: General Information {#_e65efe65-1949-48bd-8bf3-dcab5a3790ce .concept}
+# Testing of the Modern UI: General Information
 
 This topic describes WG containers and the WG containers’ structure that is used in tests for both the Classic UI and the Modern UI.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,14 +10,14 @@ In this chapter, you will learn how to do the following:
 -   Specify the names of WG containers
 -   Update tests for the Modern UI
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You need to learn about WG containers when you are doing the following:
 
 -   Testing forms written in the Modern UI by using tests created for the same forms in the Classic UI
 -   Migrating tests from the Classic UI to the Modern UI
 
-## Overview of WG Containers { .section}
+## Overview of WG Containers
 
 *WG* stands for *wrapper generator*. A*wrapper* is a part of tests that functions as an interface for tests for the UI of Acumatica ERP. A wrapper describes the structure of UI elements located in different containers on the form—that is, it describes the structure of containers and elements they include.
 
@@ -25,11 +25,10 @@ A *container* is an entity that contains fields. Thus, a *WG container* is a con
 
 The following screenshot shows an example of a file that describes WG containers.
 
-![](Images/UIDev_Testing_ContainerStructure.png "The structure of WG containers")
 
 The generation of wrappers does not depend on any features being enabled or disabled.
 
-## Access to the Wrapper of a Form { .section}
+## Access to the Wrapper of a Form
 
 You can access a wrapper of any form that has been switched to the Modern UI by using a URL with the following format: `<instance_URL>/ui/wrappers/<Screen_ID>`. For example, you would access a wrapper for the [Invoices and Memos](../UserGuide/AR_30_10_00.md) \(AR301000\) form on the `PhoneRepairShop` instance with the following URL: *http://localhost/PhoneRepairShop/ui/wrappers/AR301000*.
 
@@ -73,7 +72,7 @@ The following code is the beginning of the JSON file that is opened by this URL.
 }
 ```
 
-## Structure of UI Containers { .section}
+## Structure of UI Containers
 
 In ASPX files, tags, such as `PXFormView` and `PXGrid`, are used to define containers for tests.
 
@@ -141,7 +140,7 @@ In the Modern UI, every such column is a separate `qp-fieldset` container, as sh
 
 If you do not specify WG containers explicitly, the wrapper will not be generated correctly for a test written for the Classic UI to work: Instead of one container with fields of the old `PXFormVIew` tag, you will get three containers with fields \(one for each `qp-fieldset`\).
 
-## Summary { .section}
+## Summary
 
 Current tests rely on the structure of the UI elements on the form of the Classic UI.
 

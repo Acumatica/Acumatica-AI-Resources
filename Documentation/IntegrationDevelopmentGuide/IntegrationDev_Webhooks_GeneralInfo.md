@@ -1,8 +1,8 @@
-# Webhooks: General Information {#_f4e3f753-3408-409a-b797-1f6d1adf6182 .concept}
+# Webhooks: General Information
 
 A webhook helps you to integrate external applications that provide data in their own format and need to submit this data to Acumatica ERP. For example, HubSpot collects data about email clicks and can export this data in a specific format to a particular URL. By using a webhook, you can configure Acumatica ERP to process the data submitted to a particular URL and save the data in Acumatica ERP.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,11 +10,11 @@ In this chapter, you will learn how to do the following:
 -   Register the webhook on the [Webhooks](../UserGuide/SM_30_40_00.md) \(SM304000\) form of Acumatica ERP
 -   Include the webhook handler and the registered webhook in a customization project
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure the processing of webhooks in Acumatica ERP if you need to implement an integration with an external application that provides data in its own format, and if this format is not compatible with the web services APIs of Acumatica ERP.
 
-## Configuration of Webhooks { .section}
+## Configuration of Webhooks
 
 To configure webhooks, you perform the following general steps:
 
@@ -24,7 +24,7 @@ To configure webhooks, you perform the following general steps:
 4.  You test the processing of the requests.
 5.  Optional: You include the webhook implementation in a customization project.
 
-## Webhook Handler { .section}
+## Webhook Handler
 
 A webhook handler is a custom class that processes the requests passed to a particular URL. This class must implement the PX.Api.Webhooks.IWebhookHandler interface.
 
@@ -44,7 +44,7 @@ In the HandleAsync method, you perform the following general steps:
 
 **Tip:** You can write unit tests for your webhook handler. In a test, you can override only the `virtual` properties and methods of Webhook\* classes that are relevant to the test.
 
-## Registration of the Webhook { .section}
+## Registration of the Webhook
 
 After you have created a webhook handler and placed the DLL of the class in the `Bin` folder of your Acumatica ERP instance, you need to register the webhook handler on the [Webhooks](../UserGuide/SM_30_40_00.md) \(SM304000\) form. In the **Webhook Name** box, you enter the name of the webhook. In the **Implementation Class** box, you enter the name of the webhook handler that you have created.
 
@@ -52,7 +52,7 @@ After the new webhook is saved on the form, the **URL** box contains the URL tha
 
 **Tip:** Webhook requests are summed with other API requests in the Acumatica ERP license restrictions.
 
-## Preparation of the External Application { .section}
+## Preparation of the External Application
 
 For an external application to send requests to Acumatica ERP, you need to prepare the external application by specifying in it the URL generated on the [Webhooks](../UserGuide/SM_30_40_00.md) \(SM304000\) form.
 
@@ -64,7 +64,7 @@ You also need to implement requests to Acumatica ERP that satisfy the following 
 
 **Tip:** If an error occurs during the processing of a webhook, the error is returned in JSON format, no matter which `Accept` header is submitted in the request.
 
-## Request Log { .section}
+## Request Log
 
 On the **Request History** tab of the [Webhooks](../UserGuide/SM_30_40_00.md) \(SM304000\) form, you can remove requests from the log and check the statuses of the processing of requests. You can also specify the type and amount of requests to be stored in the log.
 
@@ -72,7 +72,7 @@ In the log, the system stores the request body as a string. If the system can de
 
 **Tip:** You can limit the length of the body of each request that is stored in the history by using the webhook:maxbodysizetolog key of the `web.config` file of the Acumatica ERP instance. By default, the length is 10 KB. The system trims the part of the body that exceeds the specified length.
 
-## Webhooks in a Customization Project {#_384c7952-eba3-4109-924f-ba44994867d4 .section}
+## Webhooks in a Customization Project
 
 If the webhook must be used in multiple Acumatica ERP instances, you can include the webhook in a customization project and publish this project to the needed Acumatica ERP instances. For details about working with customization projects, see [Managing Customization Projects](../CustomizationPlatform/CG_GL_Projects.md).
 

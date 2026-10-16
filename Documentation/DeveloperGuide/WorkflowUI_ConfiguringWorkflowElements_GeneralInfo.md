@@ -1,18 +1,18 @@
-# Workflow Elements: General Information {#_ea427fe5-c281-484b-b092-0920f81458be .concept}
+# Workflow Elements: General Information
 
 By using the [Fields](../UserGuide/AU_20_10_60.md) page, you can manage how particular boxes or check boxes are displayed on the form and what values can be selected from drop-down lists, depending on the status of the record on the form being modified.
 
 You can also configure a dialog box that is shown to a user who clicks a particular action on a specific form. To give you the ability to define workflow dialog boxes, the Customization Project Editor provides the [Dialog Boxes](../UserGuide/AU_20_10_40.md) page.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this lesson, you will learn how to modify field settings and create dialog boxes.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You specify field settings when you want to modify the display of the elements that correspond to these fields in the UI. You configure dialog boxes when you want users to provide additional information when they initiate an action that causes the record's transition to a different state.
 
-## Field Configuration { .section}
+## Field Configuration
 
 You use the [Fields](../UserGuide/AU_20_10_60.md) page to modify the settings of a particular field of a specific form. Any of these settings can be applied unconditionally \(that is, it can always be *True* or *False*\), or be applied only when certain condition is met. You can modify the following field settings:
 
@@ -28,11 +28,10 @@ You use the [Fields](../UserGuide/AU_20_10_60.md) page to modify the settings of
 
 In the navigation pane of the Customization Project Editor, you open the [Fields](../UserGuide/AU_20_10_60.md) page by clicking **Fields** under the screen ID of the form for which you are modifying the field’s settings. The following screenshot shows the CR301000 \(Leads\) Fields page with the added CampaignID, EMail, and Phone3Type fields.
 
-![](Images/WorkflowUI_ConfiguringWorkflowElements_FieldEditor.png "The CR301000 (Leads) Fields page")
 
 **Tip:** In the name that appears on the page, *Fields* is preceded by the screen ID and then the screen name in parentheses, so you can always see at a glance which form you are customizing.
 
-## Dialog Box Configuration { .section}
+## Dialog Box Configuration
 
 If you want the system to display a dialog box when a user clicks a particular button or command on a form, you first need to configure this dialog box. You then specify the dialog box in the **Action Properties** dialog box for the action associated with the button or command. \(For details, see [Action Configuration: General Information](WorkflowUI_Actions_GeneralInfo.md).\)
 
@@ -40,11 +39,10 @@ You configure dialog boxes on the [Dialog Boxes](../UserGuide/AU_20_10_40.md) pa
 
 After you specify the needed settings for the dialog box, you can preview it by clicking **Preview Dialog Box** on the page toolbar or More menu of the page \(see Item 1 below\). The screenshot also shows the settings of the **Open** dialog box, which opens when a user opens a case on the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form \(Item 2\). Notice that the [Dialog Boxes](../UserGuide/AU_20_10_40.md) page also lists two more dialog boxes associated with the screen \(Item 3\). The first one opens when the user clicks **Pending Customer**; the second one opens when the user clicks **Close**.
 
-![](Images/WorkflowUI_ConfiguringWorkflowElements_DialogBoxes.png "The CR306000 (Cases) Dialog Boxes page")
 
 **Tip:** In the page name, *Dialog Boxes* is preceded by the form ID and then the form name in parentheses, so you can always see at a glance which form’s dialog box you are customizing.
 
-## Hiding of the Fields of a Dialog Box { .section}
+## Hiding of the Fields of a Dialog Box
 
 You can hide any field \(element\) in a dialog box depending on a condition. To do this, in the **Hidden** column of the **Dialog Box Fields** table on the [Dialog Boxes](../UserGuide/AU_20_10_40.md) page, you select the condition for the particular field. If this condition is met, the field is not displayed in the dialog box.
 
@@ -52,7 +50,7 @@ If all fields of a dialog box are hidden, this dialog box is not displayed. If p
 
 If you no longer plan to display a particular field in the dialog box, you can also unconditionally hide the field in the dialog box by selecting *True* in the **Hidden** column for this box. This functionality can be useful if the field has been added in the predefined workflow but is not required in the customized workflow. If you hide the field by selecting *True* in the **Hidden** column, no additional workflow modifications are required to hide the field.
 
-## Specifying of Conditions for Required Fields { .section}
+## Specifying of Conditions for Required Fields
 
 You can make the element corresponding to any field in a dialog box conditionally required. To do this, in the **Required** column of the **Dialog Box Fields** table on the [Dialog Boxes](../UserGuide/AU_20_10_40.md) page, you select the condition for the particular field. If this condition is met, the corresponding element is marked as required in the dialog box.
 
@@ -60,11 +58,10 @@ You can make the element corresponding to any field in a dialog box conditionall
 
 The following screenshot shows the selection of the *ClosureNotesRequired* condition for the Closure Notes field of the dialog box that the system displays when the user closes a case.
 
-![](Images/WorkflowUI_ConfiguringWorkflowElements_DialogBoxesRequired.png "Selection of a condition for the field")
 
 **Attention:** If a required field is also marked as hidden and is empty, this field will be displayed in the dialog box \(that is, it will not be hidden despite the setting\).
 
-## Values for a Drop-Down List in a Dialog Box { .section}
+## Values for a Drop-Down List in a Dialog Box
 
 In a dialog box that the system displays when you invoke particular actions on a form, you can select the source of the values that will be available in a drop-down list. Instead of specifying drop-down values explicitly for multiple dialog boxes, you can indicate that these values should be the same as in the target state or source state of the transition. By using this functionality, you can use only one dialog box for all actions in a workflow.
 
@@ -76,23 +73,20 @@ In the **Source of Values** box of the dialog box, you select one of the followi
 -   *Take From Target State*: The values from the target state of the transition are used.
 -   *Specify Explicitly*: The values are selected in the table in the **Combo Box Values** dialog box.
 
-![](Images/WorkflowUI_ConfiguringWorkflowElements_DialogBoxes_SourceValues.png "The Source of Values box of the Combo Box Values dialog box")
 
 **Tip:** If an action triggers transitions to multiple target states, we recommend that you use the *Specify Explicitly* or *Take from Source State* option.
 
 For details about transitions, see [Conditions and Transitions: General Information](WorkflowUI_ConditionsTransitions_GeneralInfo.md).
 
-## Addition of Rich Text Editor Fields { .section}
+## Addition of Rich Text Editor Fields
 
 You might want to require users to enter certain text in elements in the dialog boxes that are opened when the status of a record on a form changes. You might also want to give the users the ability to enter text in all formats supported by a rich text editor.
 
 To add to a dialog box a field with rich text editor support, in the **Dialog Box Fields** table on the [Dialog Boxes](../UserGuide/AU_20_10_40.md) page, you select *\[RichTextEdit\]* in the **Schema Field** column. The following screenshot shows the settings to add the ClosureNotes field \(which corresponds to the box with the same name\) to the dialog box that the system displays when the user closes a case.
 
-![](Images/WorkflowUI_ConfiguringWorkflowElements_DialogBoxesRichTextEditorField.png "Selection of a rich text editor field")
 
 When the user clicks **Close** on the More menu \(under **Processing**\) on the [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\) form to close a case, they can enter a comment in the text area. They can then use the buttons on the formatting toolbar to format the text and to insert images, links, and tables \(see the following screenshot\).
 
-![](Images/WorkflowUI_ConfiguringWorkflowElements_DialogBoxesDialogBoxMenu.png "Formatting of the comment in the dialog box")
 
 **Tip:** The text area always spans the dialog box; therefore, the **Column Span** and **Control Size** settings are not available for fields of the *\[RichTextEdit\]* type.
 

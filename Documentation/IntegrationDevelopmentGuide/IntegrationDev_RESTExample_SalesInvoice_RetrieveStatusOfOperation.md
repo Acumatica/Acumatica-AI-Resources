@@ -1,10 +1,10 @@
-# Retrieve the Status of the Release Operation {#_81f8a41c-db2e-4034-bae9-5fd92dc1564d .concept}
+# Retrieve the Status of the Release Operation
 
 If you are using the REST API to integrate Acumatica ERP with an external system, this external system can release a sales invoice. After the release operation has been invoked through the REST API, you need to check the status of the operation, as described in this topic.
 
 In Acumatica ERP, after the release operation has been invoked on the [Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\) form, the system displays the processing status on the form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to do the following to configure your client application and the Acumatica ERP instance to be used:
 
@@ -14,16 +14,16 @@ Before you test the code below, you need to do the following to configure your c
 4.  Remove the *INV000046* sales invoice from hold by completing the [Remove a Sales Invoice from Hold](IntegrationDev_RESTExample_SalesInvoice_RemoveHold.md) activity.
 5.  Invoke the release operation by completing the [Invoke Release of an Invoice](IntegrationDev_RESTExample_SalesInvoice_Release.md) activity.
 
-## Request { .section}
+## Request
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
-Suppose that the `Location` header of the response for the request that invoked the release operation contains the following URL: *&lt;Acumatica ERP instance URL&gt;/entity/Default/25.200.001/SalesInvoice/ReleaseSalesInvoice/status/f84addec-dddd-4ec7-be5d-07a943263351*. You can use the following sample HTTP request to check the status of the release operation.
+Suppose that the `Location` header of the response for the request that invoked the release operation contains the following URL: *&lt;Acumatica ERP instance URL&gt;/entity/Default/26.200.001/SalesInvoice/ReleaseSalesInvoice/status/f84addec-dddd-4ec7-be5d-07a943263351*. You can use the following sample HTTP request to check the status of the release operation.
 
 **Attention:** While the status returned by the request is `202 Accepted`, the operation is in progress. You should have a delay between the checks of the status of the operation so that the performance of the application is not impaired. The operation is completed when the `GET` request to this URL returns *204 No Content*.
 
 ```
-GET /entity/Default/25.200.001/SalesInvoice
+GET /entity/Default/26.200.001/SalesInvoice
 /ReleaseSalesInvoice/status/f84addec-dddd-4ec7-be5d-07a943263351 HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json

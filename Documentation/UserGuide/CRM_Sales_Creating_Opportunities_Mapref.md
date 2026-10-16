@@ -1,4 +1,4 @@
-# Creating Opportunities {#_84184222-e6f4-4538-a683-c2dae34ad895 .concept}
+# Creating Opportunities
 
 In this chapter, you will find information about creating opportunities and associating them with business accounts, contacts, and leads.
 

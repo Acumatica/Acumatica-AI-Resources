@@ -1,4 +1,4 @@
-# Correcting Appointment Billing {#_b37d6e6a-f2a1-4461-ad91-da74aad5ce82 .concept}
+# Correcting Appointment Billing
 
 In Acumatica ERP, if a billing document has been generated and released for an appointment but information in the billing document \(such as detail lines\) or appointment \(such as log time\) needs to be corrected, you can correct the appointment and its billing.
 
@@ -12,6 +12,4 @@ In this chapter, you will learn how to reverse a billing document created for an
 
 -   **[Appointment Billing Correction: Related Reports and Inquiry Forms](../UserGuide/Services_Correction_of_Appointments_Reports_Inquiries.md)**  
 
-
-**Parent topic:**[Service Management](../UserGuide/FS_00_00_01.md)
 

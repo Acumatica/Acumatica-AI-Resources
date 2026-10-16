@@ -1,4 +1,4 @@
-# Overriding Attributes of a DAC Field in the Graph {#_d0634e8a-3a21-454c-963a-6741e7ec8390 .concept}
+# Overriding Attributes of a DAC Field in the Graph
 
 You can override one or more attributes of a DAC field for a particular screen without changing the existing attribute behavior for all other screens.
 
@@ -11,13 +11,13 @@ You can do the following to override the attributes of a DAC field:
 
 To override attributes, you should declare a `CacheAttached` event handler in the graph that corresponds to the screen for which you want to change the DAC field's behavior. With the declared `CacheAttached` event handler, you use special attributes, depending on what you want to do with the original attributes, as described in the following sections.
 
-## Replacing the Whole Set of Attributes {#_90c28aea-e9c1-4407-b3f8-3b3691b41679 .section}
+## Replacing the Whole Set of Attributes
 
 To override all attributes at once, you should only declare a `CacheAttached` event handler in the graph.
 
 Suppose that the original DAC field attributes are declared as shown in the following code.
 
-```language-csharp
+```csharp
 public class ARInvoice : PXBqlTable, IBqlTable
 {    
     [PXDBDecimal(4)]    
@@ -35,7 +35,7 @@ To override a DAC field by using the `CacheAttached` event handler, in the graph
 
 For the `CommAmt` field, the code for the event handler looks like the following.
 
-```language-csharp
+```csharp
 [PXDBDecimal(4)]
 [PXDefault(TypeCode.Decimal, "0.0")]
 [PXUIField(DisplayName = "Commission Amount")]
@@ -47,13 +47,13 @@ In this example, we’ve added the `PXAdditionalAttribute` to the list of the `C
 
 The set of attributes on the `CacheAttached` handler redefines the whole set of attributes placed on the specified DAC field. This results in undesired copying of all unmodified attributes, and the DAC and the graph no longer act synchronously. Therefore, we do not recommend using this method unless you intend to override all attributes of a field.
 
-## Appending an Attribute {#_c3fcabec-1ce4-4939-a5d3-efa39b7b904f .section}
+## Appending an Attribute
 
 Acumatica Framework provides a special attribute called [PXMergeAttributes](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=dce254b6-4fff-887a-4d0c-914284b2ad8b). When placed on a `CacheAttached` event handler for the corresponding DAC field, this attribute gives you the ability to reuse the existing attributes of a DAC field.
 
 To append an attribute, you declare the `CacheAttached` event handler with the `PXMergeAttributes` attribute and the new attribute \(or attributes\), as shown in the following code.
 
-```language-csharp
+```csharp
 [PXMergeAttributes(Method = MergeMethod.Append)]
 [PXAdditionalAttribute(NecessaryProperty = true)]
 protected virtual void _(Events.CacheAttached<ARInvoice.commAmt> e) { }
@@ -61,7 +61,7 @@ protected virtual void _(Events.CacheAttached<ARInvoice.commAmt> e) { }
 
 This example works similarly to the previous one: It adds the `PXAdditionalAttribute` attribute to the list of the `CommAmt` field attributes, but without code duplication.
 
-## Overriding a Single or Multiple Properties of an Attribute {#_2f0c523f-b550-4082-9ce5-38f460c69ceb .section}
+## Overriding a Single or Multiple Properties of an Attribute
 
 The Acumatica Framework provides the following strongly typed customization attributes in the [PXCustomize](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=65178fd8-b72b-6d7b-3282-22e3f004d66a) static class that give you the ability to redefine one or more properties of their target attributes:
 
@@ -84,7 +84,7 @@ To use any of the strongly typed customization attributes or the PXCustomize.Any
 
 For example, suppose that you need to change the UI display name from **Commission Amount** to **Base Commission** for only one screen. In this case, we recommend that you use the strongly typed PXCustomize.PXUIFieldAttributeAttribute attribute to customize the DisplayName property of the PXUIFieldAttribute attribute for the corresponding DAC field, as shown below.
 
-```language-csharp
+```csharp
 [PXCustomize.PXUIFieldAttribute(DisplayName = "Base Commission")]
 protected virtual void _(Events.CacheAttached<ARInvoice.commAmt> e) { }
 ```
@@ -95,14 +95,14 @@ The example above redefines the `PXUIFieldAttribute` attribute by using the PXCu
 
 You can also redefine multiple properties of an attribute by using a single instance of a strongly typed customization attribute. Suppose that for the previous code example, you also need to set the Enabled property to `true` for the PXUIFieldAttribute attribute. The following code shows this addition.
 
-```language-csharp
+```csharp
 [PXCustomize.PXUIFieldAttribute(DisplayName = "Base Commission", Enabled = true)]
 protected virtual void _(Events.CacheAttached<ARInvoice.commAmt> e) { }
 ```
 
 Although we recommend that you use strongly typed customization attributes wherever possible, you can technically use the PXCustomize.AnyAttributeAttribute attribute to customize the same attributes that are customized by strongly typed customization attributes. In the case of the preceding code example, which used the PXCustomize.PXUIFieldAttributeAttribute attribute, this looks like the following.
 
-```language-csharp
+```csharp
 [PXCustomize.AnyAttribute(typeof(PXUIFieldAttribute), 
   nameof(PXUIFieldAttribute.DisplayName), "Base Commission")]
 protected virtual void _(Events.CacheAttached<ARInvoice.commAmt> e) { }
@@ -110,7 +110,7 @@ protected virtual void _(Events.CacheAttached<ARInvoice.commAmt> e) { }
 
 Note that when you use PXCustomize.AnyAttributeAttribute, you need to specify the type of the attribute that you want to customize as a separate parameter, along with the property to be updated and its new value. Also, if you intend to redefine multiple properties of an attribute, you need to declare an instance of PXCustomize.AnyAttributeAttribute for each property. Suppose that for the previous code example, you also need to set the Enabled property to `true` for the PXUIFieldAttribute attribute. The complete code would look like the following when you use the PXCustomize.AnyAttributeAttribute attribute.
 
-```language-csharp
+```csharp
 [PXCustomize.AnyAttribute(typeof(PXUIFieldAttribute), 
   nameof(PXUIFieldAttribute.DisplayName), "Base Commission")]
 [PXCustomize.AnyAttribute(typeof(PXUIFieldAttribute), 
@@ -118,13 +118,13 @@ Note that when you use PXCustomize.AnyAttributeAttribute, you need to specify th
 protected virtual void _(Events.CacheAttached<ARInvoice.commAmt> e) { }
 ```
 
-## Replacing One Attribute with Another {#_7239f142-936f-476e-a117-8aeaeeac7cdd .section}
+## Replacing One Attribute with Another
 
 Acumatica Framework provides a special attribute called [PXRemoveBaseAttribute](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=d74c58a7-42e5-6927-6f55-2bebb8ce838a). When placed on a `CacheAttached` event handler for the corresponding DAC field, this attribute gives you the ability to remove the specified attribute.
 
 For example, suppose that you need to replace `PXDefaultAttribute` with `PXDBDefaultAttribute` for only one screen. Further suppose that the original field declaration looks the one shown in the following code.
 
-```language-csharp
+```csharp
 [Site(DisplayName = "Warehouse ID", 
   DescriptionField = typeof(INSite.descr))]
 [PXDefault(typeof(SOShipment.siteID), 
@@ -134,7 +134,7 @@ public virtual Int32? SiteID { get; set; }
 
 Then replacing `PXDefaultAttribute` with `PXDBDefaultAttribute` looks as shown in the following code.
 
-```language-csharp
+```csharp
 [PXRemoveBaseAttribute(typeof(PXDefaultAttribute))]
 [PXDBDefault(typeof(SOShipment.siteID), 
   PersistingCheck = PXPersistingCheck.Nothing)]
@@ -143,7 +143,7 @@ protected virtual void _(Events.CacheAttached<SOOrderShipment.SiteID> e) { }
 
 In this example, the `PXDefaultAttribute` is removed by the `PXRemoveBaseAttribute` attribute, and the new `PXDBDefault` attribute is declared.
 
-## Application Order of the Custom Attributes { .section}
+## Application Order of the Custom Attributes
 
 The customization attributes described above are applied in the following order:
 

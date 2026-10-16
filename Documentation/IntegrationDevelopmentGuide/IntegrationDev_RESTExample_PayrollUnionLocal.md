@@ -1,4 +1,4 @@
-# PayrollUnionLocal {#_fe563246-6d9e-4ac0-a852-54be3a30e4dc .concept}
+# PayrollUnionLocal
 
 This chapter presents code examples showing requests that use the `PayrollUnionLocal` entity.
 

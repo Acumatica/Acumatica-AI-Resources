@@ -1,21 +1,21 @@
-# Promotional Vendor Discounts: General Information {#_6e5eb4de-2b33-4923-967d-bd9a3f0d2fec .concept}
+# Promotional Vendor Discounts: General Information
 
 Unlike regular discounts, promotional discounts are temporary. If some of the vendors you frequently buy from vendors that provide discounts valid only for a limited time.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this section, you will learn:
 
 -   How to configure promotional vendor discounts in Acumatica ERP
 -   How manual promotional vendor discounts are applied in documents
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 To configure discounts for vendors, the *Vendor Discounts* feature must be enabled on the Enable/Disable Features \(CS100000\) form.
 
 You can configure vendor discounts that can be manually applied to various types of documents, including AP bills and purchase orders. Applying discounts to purchase orders is possible only if the *Inventory and Order Management* group of features and the *Inventory* feature are enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Configuration of Promotional Discounts { .section}
+## Configuration of Promotional Discounts
 
 A promotional discount sequence is effective over a limited time, so this sequence should have an effective \(start\) date and an expiration date. After the expiration date, the promotional discount is no longer applicable.
 

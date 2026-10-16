@@ -1,8 +1,8 @@
-# To Define a Foreign Key {#_20b9a017-ff40-42b7-843c-94f2fced764e .task}
+# To Define a Foreign Key
 
 You can define a foreign key based on the primary key of the referenced data access class \(DAC\) and select records by using this key, as described in this topic.
 
-## To Define a Foreign Key and Use It to Select Records { .section}
+## To Define a Foreign Key and Use It to Select Records
 
 1.  In the DAC of the referenced table, define the primary key, as described in [To Define a Primary Key](AD__how_Define_Primary_Key.md#). The following code shows an example of the definition of the primary key that is used in the other code examples in this topic.
 
@@ -46,7 +46,7 @@ You can define a foreign key based on the primary key of the referenced data acc
     ```
 
 
-## Examples of Usage { .section}
+## Examples of Usage
 
 Static foreign keys should be used for configuring the PXParentAttribute and PXForeignReferenceAttribute attributes to reduce semantic duplication of these elements as shown in the following code.
 
@@ -121,7 +121,7 @@ public class MyGraph : PXGraph<MyGraph>
 }
 ```
 
-## Coding Conventions { .section}
+## Coding Conventions
 
 We recommend the following coding conventions, which are checked by Acuminator:
 

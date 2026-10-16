@@ -1,4 +1,4 @@
-# Disposing of Fixed Assets {#_626a0ab7-0e37-475b-b3ad-d908339ada94 .concept}
+# Disposing of Fixed Assets
 
 In this chapter, you will find general information on how to dispose of fixed assets, a checklist for system implementation, an activity that describes how to dispose of a single a fixed asset, and the reports and inquiry forms that can be useful to find and view created transactions.
 

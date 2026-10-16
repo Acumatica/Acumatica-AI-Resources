@@ -1,10 +1,10 @@
-# Correction of a Bill for a Subcontract: Process Activity {#_2b5ccd89-03c0-40c2-9ee0-c1f841a4b97e .task}
+# Correction of a Bill for a Subcontract: Process Activity
 
 This activity will walk you through the process of correcting an AP bill for a subcontract.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_r2x_4vk_ynb .section}
+## Story
 
 Suppose that on March 1, 2026, the ToadGreen company hired a subcontractor, Harmon Installation, to build an entrance in the hotel that ToadGreen is building. According to the terms of the subcontract, $10,000 will be paid to the subcontractor for this work, and 10% of each payment will be withheld by the company until the related work is finished.
 
@@ -12,7 +12,7 @@ On March 25, 2026, ToadGreen received the first bill for the completed work from
 
 Then suppose that the project accountant realized that the bill was entered incorrectly, and the billed amount must be $6,000 for the subcontract. Acting as this project accountant, you will correct the billed amount and quantity in the subcontract by processing the debit adjustment.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -23,18 +23,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Subcontracts](SC_30_10_00.md) \(SC301000\) form, the subcontract for the *HARMINT* vendor in the amount of $10,000.00 has been entered.
 -   On the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, the partial bill for the *HARMINT* vendor in the amount of $7,000.00 has been entered and released; the retainage amount $700 is calculated for the bill \(which is shown in the **Original Retainage** box on the **Retainage** tab\).
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you will create a debit adjustment and add the line of the subcontract to this adjustment. Then you will specify the correction amount and release the adjustment. Finally, you will review the billed amount and quantity in the subcontract to make sure that they have been updated.
 
-## System Preparation {#section_c1z_lxm_ynb .section}
+## System Preparation
 
 Before you start correcting the bill, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in as a construction project manager by using the *ewatson* username and the *123* password.
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business Date menu button, and select *3/25/2026* on the calendar.
 
-## Step 1: Creating a Debit Adjustment { .section}
+## Step 1: Creating a Debit Adjustment
 
 You will first create the debit adjustment that will correct the AP bill for the subcontract. Do the following:
 
@@ -46,7 +46,7 @@ You will first create the debit adjustment that will correct the AP bill for the
     -   **Description**: `Adjusting overbilled contractor`
 3.  On the form toolbar, click **Save**.
 
-## Step 2: Adding the Subcontract Line to the Document { .section}
+## Step 2: Adding the Subcontract Line to the Document
 
 To add a line of the subcontract to be corrected, while you are still reviewing the debit adjustment on the [Bills and Adjustments](AP_30_10_00.md#) \(AP301000\) form, do the following:
 
@@ -59,7 +59,7 @@ To add a line of the subcontract to be corrected, while you are still reviewing 
 
 5.  On the form toolbar, click **Save**.
 
-## Step 3: Releasing the Debit Adjustment and Reviewing the Result { .section}
+## Step 3: Releasing the Debit Adjustment and Reviewing the Result
 
 To release the debit adjustment and see how this affects the subcontract, do the following:
 
@@ -68,7 +68,6 @@ To release the debit adjustment and see how this affects the subcontract, do the
 3.  On the [Subcontracts](SC_30_10_00.md) \(SC301000\) form, open the subcontract for the *HARMINT* vendor, for which you have processed the debit adjustment.
 4.  On the **Details** tab, review the billed amount and quantity in the subcontract line, and make sure they have been adjusted for the subcontract, as shown below.
 
-    ![](Images/activity_Construction_Subcontract_Bill_Correction.png "The adjusted amount and quantity in the subcontract line")
 
 
 You have corrected the bill for the subcontract. You can now apply the debit adjustment to the AP bill to finish the correction process.

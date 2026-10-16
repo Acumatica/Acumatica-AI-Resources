@@ -1,4 +1,4 @@
-# Data Sorting and Grouping: General Information {#_cec90d8d-5064-4afd-bde0-3287da4f3644 .concept}
+# Data Sorting and Grouping: General Information
 
 As you define a report by using the Acumatica Report Designer, you can divide the data into groups, each of which displays the sorted data in the order selected for the group. The sorting criteria are defined separately for every report group and for the report as a whole.
 
@@ -7,21 +7,21 @@ To set up the data grouping and sorting rules, you should define the following:
 -   The data groups to be included in the report and their sorting rules
 -   The data sorting rules for the report
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following in the Report Designer:
 
 -   Create data groups in a report
 -   Specify sorting criteria for the data in a report group and the data in a report
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to use data sorting and grouping in the Acumatica Report Designer in the following circumstances:
 
 -   You are responsible for the customization of Acumatica ERP in your company, including developing and modifying reports to give users the information they need to do their jobs.
 -   Your colleagues have asked you to group and sort the data in reports.
 
-## Data Grouping { .section}
+## Data Grouping
 
 Data groups are used to structure and logically group data in a report. You can add new data groups to the report and define the behavior properties for each group. The groups' data will be displayed on the pages of the generated report. For example, you may want to group sales orders by date and status to get the count of sales orders.
 
@@ -29,11 +29,10 @@ By defining data groups in a report, you specify a GROUP BY clause for the SQL s
 
 You define data groups in the Properties pane of the Report Designer, on the **Properties** tab. You use the **Data** &gt; **Groups** property to open the Group Collection Editor \(that is, the **Group Collection Editor** dialog box\), where you can specify the names of groups and their properties.
 
-**Tip:** The **Data** property is available only if the report is selected but none of its elements, such as a section, is selected. An indicator of the selected report is the ![](Images/Defining_the_Data_Groups_for_a_Report_Using_FiltersReportSelectionIcon.PNG) icon in the top left corner of the Design pane of the Report Designer.
 
 When you create a data group, its header and footer sections are added to the report layout, which is displayed in the Design pane of the Report Designer: The header section of the group is placed between the header section of the page and the detail section; the footer section of the group is placed between the detail section and the footer section of the page. If your report already has data groups and you add a new group, the header section and the footer section of the new group are inserted inside the header section and the footer section of the last created group. The order of groups is defined in the Group Collection Editor, where you can change the order of the groups in the report by using the buttons with the arrow icons.
 
-## Data Sorting { .section}
+## Data Sorting
 
 You can specify how the data in a report is sorted. If you have defined data groups in the report, the data in the groups is initially sorted according to the sorting rules \(if they are specified\) of the defined group, and then the data of the detail section is sorted according to the sorting rules \(if they are specified\) of the report.
 
@@ -46,7 +45,7 @@ If you need to sort data, you should select the object for sorting—that is, a 
 
 In the Schema Builder, on the **Sorting and Grouping** tab, you can view the settings that are specified for grouping and sorting. You can also change and define the sort order for existing groups.
 
-## Optional Data Sorting { .section}
+## Optional Data Sorting
 
 Acumatica ERP gives users the ability to add sorting rules to a generated report. Before a user runs the report, on the report form, the user can redefine the sort order that the report designer has specified in the Report Designer \(by using the **Data** &gt; **Sorting** property of the Property pane\). The user can also add data fields whose data will be sorted and specify the sort order. The user redefines and adds the sort order on the **Sorting &amp; Filtering** tab of the report form. The user can define only the sort order for the data in the report but cannot redefine the sort order for the data in specified groups.
 

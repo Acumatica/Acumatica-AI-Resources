@@ -1,4 +1,4 @@
-# Data Projection {#_c41b409d-9580-42a9-9d79-76227ed7aeda .concept}
+# Data Projection
 
 The attributes listed in the following table implement the projection of data from one table or multiple tables into a single data access class \(DAC\).
 

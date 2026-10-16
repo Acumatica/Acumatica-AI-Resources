@@ -1,4 +1,4 @@
-# To Set Up Integration with ShipEngine {#_b9c29e1a-6b3c-4d26-8f23-d1cd394cc420 .task}
+# To Set Up Integration with ShipEngine
 
 Before you configure integration with ShipEngine, your organization should have an account with the carrier and a signed service agreement. The settings for the plug-in are specified in accordance with the information available in this agreement.
 
@@ -10,14 +10,14 @@ To configure integration between Acumatica ERP and the ShipEngine service, which
 -   The vendor of the third-party software may change the user interface and settings. The labels you see in the UI may differ from the ones described in the procedure.
 -   The procedure will be updated to describe new common scenarios and UI changes arise.
 
-## To Configure a ShipEngine Account { .section}
+## To Configure a ShipEngine Account
 
 1.  Open the [https://app.shipengine.com/\#/public/createaccount/?ref=acumatica](https://app.shipengine.com/#/public/createaccount/?ref=acumatica) link, and create a ShipEngine account.
 2.  Sign in to the created ShipEngine account.
 3.  On the **Connections** page, click **Add a Carrier** to connect a carrier to the ShipEngine account. \(The list of available carriers depends on the shipping origin country that you have specified when you created a ShipEngine account.\)
 4.  On the **Partners** tab of the **Account Settings** page, click **Add a Partner**, and in the **Connect a Partner** dialog box, which opens, select Acumatica. The system displays the connection parameters that you will use for configuring the ShipEngine carrier in Acumatica ERP.
 
-## To Set Up Integration with ShipEngine { .section}
+## To Set Up Integration with ShipEngine
 
 1.  Open the [Carriers](CS_20_77_00.md) \(CS207700\) form.
 2.  In the **Carrier ID** box, type a name for the ShipEngine carrier.
@@ -37,25 +37,117 @@ To configure integration between Acumatica ERP and the ShipEngine service, which
     -   **LOG TRACE**: Select the check box if you want the system to record the requests and results of the web calls in the trace log.
     -   **SHIPPER FROM**: Select the source of the contact information of the shipper.
     -   **CONFIRMATION**: Select the delivery confirmation type according to your agreement with the carrier.
-    -   **INSURANCE**: Select the appropriate insurance type \(which can be purchased from the carrier or from the Shipsurance.com service\).
+    -   **INSURANCE**: Select the appropriate insurance type.
     -   **LABEL FORMAT**: Select the format \(*ZPL*, *PNG*, or *PDF*\) to be used for printing labels on your printer.
     -   **INTERNATIONAL NON DELIVERY**: Select how the carrier should process non-delivered international shipments.
     -   **DUTY BILL TO PARTY**: Select the payer of customs charges for international shipments.
 
-|ID|Description|
-|---|-----------|
-|**SHIP ENGINE ACCOUNT**|*21\*\*\*\*\*3*|
-|**SHIP ENGINE CARRIER**|*USPS*|
-|**TEST MODE**|Cleared|
-|**LOG TRACE**|Selected|
-|**SHIPPER FROM**|*Company Branch*|
-|**CONFIRMATION**|*Delivery*|
-|**INSURANCE**|*Carrier*|
-|**LABEL FORMAT**|*PDF*|
-|**INTERNATIONAL NON DELIVERY**|*Returntosender*|
-|**DUTY BILL TO PARTY**|*Recipient*|
-|**MULTI PACKAGE SUPPORT**|Selected|
-|**LABEL MESSAGE SUPPORT**|Selected|
+<table id="_e793801f-924c-43d1-91fb-49c8d29cfca8"><thead><tr><th>
+
+ID
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+**SHIP ENGINE ACCOUNT**
+
+</td><td>
+
+*21\*\*\*\*\*3*
+
+</td></tr><tr><td>
+
+**SHIP ENGINE CARRIER**
+
+</td><td>
+
+*USPS*
+
+</td></tr><tr><td>
+
+**TEST MODE**
+
+</td><td>
+
+Cleared
+
+</td></tr><tr><td>
+
+**LOG TRACE**
+
+</td><td>
+
+Selected
+
+</td></tr><tr><td>
+
+**SHIPPER FROM**
+
+</td><td>
+
+*Company Branch*
+
+</td></tr><tr><td>
+
+**CONFIRMATION**
+
+</td><td>
+
+*Delivery*
+
+</td></tr><tr><td>
+
+**INSURANCE**
+
+</td><td>
+
+*Carrier*
+
+</td></tr><tr><td>
+
+**LABEL FORMAT**
+
+</td><td>
+
+*PDF*
+
+</td></tr><tr><td>
+
+**INTERNATIONAL NON DELIVERY**
+
+</td><td>
+
+*Returntosender*
+
+</td></tr><tr><td>
+
+**DUTY BILL TO PARTY**
+
+</td><td>
+
+*Recipient*
+
+</td></tr><tr><td>
+
+**MULTI PACKAGE SUPPORT**
+
+</td><td>
+
+Selected
+
+</td></tr><tr><td>
+
+**LABEL MESSAGE SUPPORT**
+
+</td><td>
+
+Selected
+
+</td></tr></tbody>
+</table>
 
 **Parent topic:**[Integration with Carriers](../UserGuide/CS__con_Integration_with_Carriers.md)
 

@@ -1,8 +1,8 @@
-# Testing of Errors and Warnings: General Information {#_33c19565-d13a-413f-a232-5b5abc600660 .concept}
+# Testing of Errors and Warnings: General Information
 
 The logic of a graph can include the displaying of errors and warnings on the UI. In a test method, you can verify that certain actions cause an error or warning to be displayed.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,17 +12,17 @@ In this chapter, you will learn how to do the following:
 -   Clear the cache of errors
 -   Find the proper DAC object in the cache
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 In unit tests, you can check whether an appropriate warning or error is attached to a box when the entered value does not fit the logic of the form.
 
-## Creation of an Instance of a Graph That Has a Setup DAC { .section}
+## Creation of an Instance of a Graph That Has a Setup DAC
 
 If a tested graph has setup DACs, you must call the `Setup<Graph>(params IBqlTable[] items)` generic method to initialize and bind the setup DACs. In this case, you specify the tested graph as a type parameter and the objects of the setup DACs as the parameters. After that, you create an instance of the tested graph. If you do not initialize and bind the setup DACs for the test, they will not be used by the graph.
 
 The `Setup<Graph>(params IBqlTable[] items)` method mocks the Acumatica ERP setup preferences. The `Setup` method should not be used to initialize non-setup DACs.
 
-## Testing of the Displayed Errors and Warnings { .section}
+## Testing of the Displayed Errors and Warnings
 
 The tested graph may contain the logic that attaches an error or warning to a DAC field in some circumstances. The use of the `PXCache.GetStateExt<>` generic method is the recommended way to get the state of a field to test whether an error or warning is attached to the field. You can also use the `PXCache.GetError`, `PXCache.GetErrors`, and `PXCache.GetWarning` method for it.
 

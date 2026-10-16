@@ -1,8 +1,8 @@
-# Retrieve the List of Pro Forma Invoices of a Project {#_b635dd5f-c787-49a2-a603-38a3371cbda5 .concept}
+# Retrieve the List of Pro Forma Invoices of a Project
 
 By using the REST API, you can retrieve the list of the pro forma invoices of a project.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to configure your client application and the Acumatica ERP instance to be used as follows:
 
@@ -12,14 +12,14 @@ Before you test the code below, you need to configure your client application an
 4.  To sign in to the instance in the client application, use the tenant name \(which you specified when you created the instance\) and the *HEADOFFICE* branch.
 5.  Implement the [Invoke Project Billing](IntegrationDev_RESTExample_Project_InvokeBilling.md) example as a prerequisite to the current example, so that the *TESTPR3* project will be created with a pro forma invoice.
 
-## Request { .section}
+## Request
 
 You can use the following example of an HTTP request to retrieve the list of pro forma invoices of a project through the contract-based REST API.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-GET /entity/Default/25.200.001/Project/TESTPR3?$expand=Invoices HTTP/1.1
+GET /entity/Default/26.200.001/Project/TESTPR3?$expand=Invoices HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
 Content-Type: application/json
@@ -27,7 +27,7 @@ Content-Type: application/json
 
 **Tip:** To obtain the list of pro forma invoices of the project with the *TESTPR3* project ID, you can also use the `GET` request for the ProFormaInvoice entity with the $filter=ProjectID eq 'TESTPR3' parameter.
 
-## Usage Notes { .section}
+## Usage Notes
 
 By using the REST API, you can create pro forma invoices and send them by email. For details about pro forma invoices, see [Pro Forma Invoices: General Information](../Shared/../UserGuide/Projects_Pro_Forma_Invoices_GeneralInfo.md).
 

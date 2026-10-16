@@ -1,10 +1,10 @@
-# Items with Lot and Serial Numbers: To Purchase and Sell Lot-Numbered Items that Expire {#_d7b333c0-bb86-4ac0-9281-6704e8dff04f .task}
+# Items with Lot and Serial Numbers: To Purchase and Sell Lot-Numbered Items that Expire
 
 In the following activity, you will learn how to create and process purchase and sales documents for a stock item for which the lot number and expiration date are entered manually on receipt.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 In this activity, you will act as sales and purchasing manager Regina Wiley in the SweetLife Head Office and Wholesale Center branch of the SweetLife Fruits &amp; Jams company.
 
@@ -12,7 +12,7 @@ As the purchasing manager, you will buy two boxes \(10 pounds each\) of guavas w
 
 Suppose that GoodFood One Restaurant ordered 12 pounds of guavas. As the sales manager, you will create and process the appropriate documents for the purchase and sale of these items with lot numbers and expiration dates. You will use quick processing to illustrate expedited processing of the sales order.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -26,7 +26,7 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *GOODFOOD* customer has been created.
 -   On the [Order Types](SO_20_10_00.md) \(SO201000\) form, the *SO* order type has been configured to allow expedited multistep processing of appropriate sales orders, which will be illustrated in this example. The **Allow Quick Process** check box has been selected on the **Template** tab. On the **Quick Processing** tab of the form, the appropriate settings have been specified to configure the sequence of order processing actions to be used by default when orders of this type are quickly processed.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -36,7 +36,7 @@ In this activity, you will do the following:
 4.  On the [Sales Orders](SO_30_10_00.md) form, click **Quick Process** on the form toolbar to use quick processing of the sales order, and review the quick processing settings. Then you run quick processing, during which the system processes the sales order to completion and generates all needed documents. When the quick processing completes, you can review the generated documents.
 5.  Review that the items included in the shipment have been allocated according to the settings of the lot class assigned.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start preparing the purchasing and sales documents for items with lot numbers and expiration dates, you should do the following:
 
@@ -44,7 +44,7 @@ Before you start preparing the purchasing and sales documents for items with lot
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, make sure that the *Lot and Serial Tracking* feature is enabled.
 
-## Step 1: Creating a Purchase Order { .section}
+## Step 1: Creating a Purchase Order
 
 You will begin the process of ordering two boxes of guavas, 10 pounds each, from the *GLORYFRUIT* vendor by creating a purchase order. To create the purchase order, do the following:
 
@@ -64,7 +64,7 @@ You will begin the process of ordering two boxes of guavas, 10 pounds each, from
 
 You can now print the purchase order and send it to the Glory Fruit Case vendor by mail. In this activity, we will skip this step.
 
-## Step 2: Creating a Purchase Receipt and Entering Lot Numbers { .section}
+## Step 2: Creating a Purchase Receipt and Entering Lot Numbers
 
 Suppose that the Glory Fruit Case vendor has delivered the guavas to the Wholesale warehouse. The order contains two boxes with separate lot numbers and different expiration dates. To prepare the needed documents to reflect the receipt of the guavas, do the following:
 
@@ -95,7 +95,7 @@ Suppose that the Glory Fruit Case vendor has delivered the guavas to the Wholesa
 
 You have processed the purchase receipt and inventory receipt to reflect that the guavas have been received in the Wholesale warehouse. In these documents, you have entered lot numbers and expiration dates, and now sales managers can sell these guavas to customers.
 
-## Step 3: Creating a Sales Order { .section}
+## Step 3: Creating a Sales Order
 
 In this step, you will act as the sales manager. To create a sales order reflecting that the *GOODFOOD* customer has ordered 12 pounds of guavas, do the following:
 
@@ -114,7 +114,7 @@ In this step, you will act as the sales manager. To create a sales order reflect
 
 You have created the sales order for the guavas, and now you will create the other related shipment, issue, and invoice.
 
-## Step 4: Creating and Quickly Processing Sales Documents { .section}
+## Step 4: Creating and Quickly Processing Sales Documents
 
 To create and process the sales documents related to the sales order through quick processing of the sales order, do the following:
 
@@ -132,7 +132,7 @@ To create and process the sales documents related to the sales order through qui
 
 By using quick processing, you have created the sales documents related to the sales order. Now you will review how the system has allocated units of the item in the shipment.
 
-## Step 5: Reviewing the Item Allocations in the Shipment { .section}
+## Step 5: Reviewing the Item Allocations in the Shipment
 
 To review how the system has allocated units of the item in the shipment, do the following:
 
@@ -143,7 +143,6 @@ To review how the system has allocated units of the item in the shipment, do the
 
     -   In the first line, notice that the system selected 10 pounds of guavas from the *FRT000877* lot with the earlier expiration date.
     -   In the second line, notice that the system selected two pounds of guavas from the *FRT000862* lot with the later expiration date.
-    ![](Images/Lot_and_Serial_Numbers_Process_Activity3_Lot_Numbers.png "The generated lot numbers")
 
 5.  Click **OK** to close the dialog box.
 

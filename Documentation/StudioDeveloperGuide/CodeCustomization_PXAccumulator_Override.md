@@ -1,4 +1,4 @@
-# PXAccumulator: Customization of an Existing Accumulator Attribute {#_a4ca2d89-50c1-49d2-9d1a-a9524468a52e .concept}
+# PXAccumulator: Customization of an Existing Accumulator Attribute
 
 Suppose that a field on an Acumatica ERP form is updated with an accumulator attribute and you need to modify this field behavior, which is implemented in the accumulator attribute. For example, you may need to eliminate restrictions that are defined in an accumulator attribute. To customize an existing accumulator attribute, instead of overriding it, you do the following:
 

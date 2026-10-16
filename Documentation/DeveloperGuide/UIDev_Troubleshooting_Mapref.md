@@ -1,4 +1,4 @@
-# Troubleshooting the Modern UI {#_89a0441c-225e-4b1b-8549-f78813c3b07e .concept}
+# Troubleshooting the Modern UI
 
 In this part, you can find information on how to troubleshoot the Modern UI. You will learn how to debug the UI in the browser, troubleshoot the building errors, and force the UI changes to be displayed.
 

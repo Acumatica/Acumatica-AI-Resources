@@ -1,8 +1,8 @@
-# Retainage with a Cap: General Information {#_5cee2842-f3eb-4d5e-9a9a-d84a294b39e0 .concept}
+# Retainage with a Cap: General Information
 
 In Acumatica ERP Construction Edition, you can configure a project with contract cap retainage to be able to define the maximum retainage amount that can be held for the project. For a project with contract cap retainage, you perform progress billing, and the particular invoice amount is retained until the specified retainage limit is reached.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,11 +12,11 @@ In this chapter, you will learn how to do the following:
 -   Release the retainage for the project for multiple project budget lines
 -   Mass-process retainage invoices
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure a project with contract cap retainage when it is necessary to specify the maximum retainage amount that can be held for the project. When you bill this project, the retainage is withheld for the invoice lines until the specified contract cap is reached.
 
-## The Application of Retainage with a Contract Cap {#section_it2_vcv_qmb .section}
+## The Application of Retainage with a Contract Cap
 
 Construction projects with contractual agreements are typically billed based on the progress of the work; that is, the customer generally has to make partial payments to the general contractor as the work progresses. Requests for payments are prepared periodically—for example, monthly—and include the cost of the work accomplished since the previous payment to the general contractor was made.
 
@@ -32,7 +32,7 @@ On the [Release AR Retainage](AR_51_00_00.md#) \(AR510000\) form, you can gradua
 
 The total retainage amount held for the project stays the same across all the invoices prepared for the project, unless a change order that affects the project revenue budget has been released. If you configure the project to include change orders in the retainage calculation—that is, if the **Include CO** check box is selected on the **Summary** tab of the [Projects](PM_30_10_00.md) form—the contract total, the completed percentage, and the cap amount are recalculated in accordance with the changes in the revenue budget that have been introduced by the released change orders.
 
-## Calculation of Retainage Amounts {#section_tsd_ydv_qmb .section}
+## Calculation of Retainage Amounts
 
 In a pro forma invoice prepared on the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form for a project with contract cap retainage, the system calculates the **Allocated Retained Amount** \(that is, the amount of retainage that is considered to be held for the related revenue budget line in this pro forma invoice\), by using the following formula:
 
@@ -49,7 +49,7 @@ Once the contract cap is reached, in the subsequent invoices, the system realloc
 
 In this formula, `Total Completed` is the sum of the `Amount to Invoice` and `Previously Invoiced Amount` amounts for all pro forma invoice lines.
 
-## Retainage in AIA Reports {#section_rn5_wdv_qmb .section}
+## Retainage in AIA Reports
 
 The calculated **Allocated Retained Amount** of a pro forma invoice line is shown in the **Retainage Held** column in the continuation sheet of an American Institute of Architects \(AIA\) report: in Acumatica ERP Construction Edition, [AIA Report](PM_64_40_00.md) \(PM644000\) or [AIA Report with Quantity](PM_64_45_00.md) \(PM644500\) report. In the AIA report generated for a project with contract cap retainage, the retainage held amount is equal to the allocated retained amount from the pro forma invoice that was calculated by using the formula above.
 

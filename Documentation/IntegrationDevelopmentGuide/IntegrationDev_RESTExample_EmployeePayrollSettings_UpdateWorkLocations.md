@@ -1,8 +1,8 @@
-# Update Work Locations in the Employee Payroll Settings {#_32141c4a-d36c-439d-92ce-b25258455786 .concept}
+# Update Work Locations in the Employee Payroll Settings
 
 If you are using the contract-based REST API to integrate Acumatica ERP with an external system, this external system can update the work locations in the employee payroll settings in Acumatica ERP.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to do the following to configure your client application and the Acumatica ERP instance to be used:
 
@@ -18,15 +18,15 @@ Before you test the code below, you need to do the following to configure your c
     2.  Select the **Active** check box, and click **Save** on the form toolbar. Now the *BELLEVUE* work location can be specified in an employee payroll class.
 6.  Execute the [Specify the Employee Payroll Settings](IntegrationDev_RESTExample_EmployeePayrollSettings_Update.md) request.
 
-## Request { .section}
+## Request
 
 You can use the following HTTP request example to specify *BELLEVUE* as the work location in the payroll settings for the *EP00000004* employee.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-PUT /entity/Default/25.200.001/EmployeePayrollSettings?
-    $expand=WorkLocations/WorkLocationDetails HTTP/1.1
+PUT /entity/Default/26.200.001/EmployeePayrollSettings?
+    $expand=WorkLocations($expand=WorkLocationDetails) HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
 Content-Type: application/json

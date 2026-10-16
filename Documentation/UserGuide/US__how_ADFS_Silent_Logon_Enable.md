@@ -1,12 +1,12 @@
-# To Enable Silent Logon {#_6ceebd42-6612-4f81-80fd-4cb608c6d2e3 .task}
+# To Enable Silent Logon
 
 To make your users authenticate themselves with a selected identity provider, you enable the silent logon capability and select the identity provider to be used by default. This topic describes how to enable silent logon for Microsoft Entra ID or Active Directory Federation Services.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Before you enable silent logon, you need to configure your Acumatica ERP instance to use the external identity provider with which you want to set up silent logon.
 
-## To Enable Silent Logon { .section}
+## To Enable Silent Logon
 
 1.  Open the `web.config` file for the site instance.
 
@@ -23,7 +23,7 @@ Before you enable silent logon, you need to configure your Acumatica ERP instanc
 
 3.  Save your changes to `web.config`.
 
-## To Disable Silent Logon { .section}
+## To Disable Silent Logon
 
 1.  Open the `web.config` file for the site instance.
 
@@ -40,7 +40,7 @@ Before you enable silent logon, you need to configure your Acumatica ERP instanc
 
 3.  Save your changes to `web.config`.
 
-## To Override Silent Logon Settings with URL Parameters { .section}
+## To Override Silent Logon Settings with URL Parameters
 
 You can specify a different external identity provider or disable silent logon by using the `SilentLogin` URL parameter with a corresponding value in the URL of your Acumatica ERP instance or a particular form. It overrides the value of the `SilentLogin` parameter specified in the `web.config` file.
 

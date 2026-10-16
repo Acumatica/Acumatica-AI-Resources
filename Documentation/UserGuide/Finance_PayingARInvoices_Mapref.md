@@ -1,4 +1,4 @@
-# Paying AR Invoices {#_c7d87529-f842-49c2-99de-b944cbe80a58 .concept}
+# Paying AR Invoices
 
 In Acumatica ERP, when you receive a customer payment for the invoice, you enter a document with the *Payment* type. The topic of this chapter describe how to create a customer payment for a specific invoice and release the payment and its application, and an activity that describes how the system loads AR documents for payment application and how payment amounts can be automatically applied to multiple documents.
 
@@ -35,5 +35,7 @@ In Acumatica ERP, when you receive a customer payment for the invoice, you enter
 -   **[To Reapply a Customer Payment to a Different Invoice](../UserGuide/AR__how_Reapply_Customer_Payment_to_a_Different_Invoice.md)**  
 
 -   **[To Void a Payment](../UserGuide/AR__How_Voiding_a_Prepayment.md)**  
+
+-   **[Invoice Payments: Tap to Pay on iPhone](../UserGuide/Finance_AP_Tap_to_Pay.md)**  
 
 

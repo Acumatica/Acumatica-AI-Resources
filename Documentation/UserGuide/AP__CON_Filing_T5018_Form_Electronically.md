@@ -1,4 +1,4 @@
-# Filing the T5018 Form Electronically {#_92ef087c-d53e-41da-9517-a927ef4dc835 .concept}
+# Filing the T5018 Form Electronically
 
 You use the [Create CRA E-File](AP_50_76_00.md) \(AP507600\) form to generate an electronic XML file with T5018 returns, which you will submit to the Canada Revenue Agency \(CRA\) at the end of the reporting period or at the end of the calendar year.
 
@@ -38,13 +38,13 @@ The T5018 XML file has the following structure.
 |T5018 Slip|The T5018 slip contains the following vendor information: the recipient's name, the corporate partnership's name, the payer's SIN or **Tax Registration ID**, the recipient's address, and the amount.|
 |T5018 Summary|The T5018 summary aggregates the amounts of all vendors, the number of vendors included in the XML file, and the payer's \(transmitter's\) name, address, contact information, and ending day of the period.|
 
-## Generating Amendments to the T5018 Form { .section}
+## Generating Amendments to the T5018 Form
 
 You can prepare amendments to a T5018 report submitted to the Canada Revenue Agency \(CRA\) whenever a new payment has been added or an existing payment has been voided for a particular subcontractor. You prepare an amendment by clicking **Amend Report** on the form toolbar of the [Create CRA E-File](AP_50_76_00.md) form and entering the settings \(**Transmitter** and **Year**\) for the amended report.
 
 The **Amend Report** button appears on the form after you prepare the original report \(revision 1\). You can prepare an amendment by clicking this button after you submit the original report to the CRA by selecting the **E-File Submitted to CRA** check box and saving the changes on the form. Likewise, you will be able to prepare an amended report \(revision 3\) after the previously amended report \(revision 2\) has been submitted to the CRA.
 
-## Canceling Submitted T5018 Reports { .section}
+## Canceling Submitted T5018 Reports
 
 You can cancel a T5018 report already submitted to Canada Revenue Agency \(CRA\) by generating a T5018 cancellation report in the XML format and electronically submitting it. A T5018 report can be canceled on the [Create CRA E-File](AP_50_76_00.md) \(AP507600\) form.
 

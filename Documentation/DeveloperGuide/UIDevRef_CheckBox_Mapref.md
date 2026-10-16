@@ -1,4 +1,4 @@
-# Check Box {#_366f3986-0eaf-487f-a34d-82bb4a2a40f5 .concept}
+# Check Box
 
 In this chapter, you will learn about the configuration of check boxes. You'll learn when to use check boxes, how to name them, and how to organize a layout that includes them.
 

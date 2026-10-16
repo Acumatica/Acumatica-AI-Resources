@@ -1,8 +1,8 @@
-# Vendor Payments for a Project: Implementation Checklist {#_b66ba589-7eee-477e-b1e6-032d2552a14d .concept}
+# Vendor Payments for a Project: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for paying AP bills for a project, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you start preparing payments for AP bills, you make sure the needed settings have been specified and entities have been created, as summarized in the following checklist.
 
@@ -14,7 +14,7 @@ We recommend that before you start preparing payments for AP bills, you make sur
 |[Payment Methods](CA_20_40_00.md) \(CA204000\)|Make sure that the payment method you will use has been configured as described in [Cash Management: To Create Cash Accounts](../ImplementationGuide/config_Basic_Company_Implem_Activity_Cash_Accounts.md).|
 |[Projects](PM_30_10_00.md) \(PM301000\)|Make sure that the necessary project \(that is, the project for which the vendor performed the billed work\) has been created and necessary project tasks of this project are active.|
 
-## Payment by Line Checklist {#section_u3j_xnt_b4b .section}
+## Payment by Line Checklist
 
 If you intend to pay individual lines of the vendor's bill or bills, make sure the needed features have been enabled and settings have been specified, as summarized in the following checklist.
 
@@ -23,7 +23,7 @@ If you intend to pay individual lines of the vendor's bill or bills, make sure t
 |[Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form|Make sure that the *Payment Application by Line* feature is enabled.|
 |**Payment** tab of the [Vendors](AP_30_30_00.md) \(AR303000\) form|Be sure the **Pay by Line** check box is selected.|
 
-## Other Settings That Affect the Workflow {#section_lvc_zmt_b4b .section}
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of processing payments for AP bills by specifying additional settings as follows:
 
@@ -33,7 +33,7 @@ You can affect the workflow of processing payments for AP bills by specifying ad
 -   To cause the system to automatically post general ledger batches generated during the processing of payments, select the **Automatically Post on Release** check box on the [General Ledger Preferences](GL_10_20_00.md) \(GL102000\) form. For information on processing general ledger batches, see [GL Transactions: General Information](Finance_Processing_Batch_GeneralInfo.md).
 -   To make the system consolidate into one batch all generated transactions posted to the same period for all documents being released, select the **Generate Consolidated Batches** check box on the [General Ledger Preferences](GL_10_20_00.md) form.
 
-## Validation of Configuration { .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you perform instructions similar to those described in [Vendor Payments for a Project: To Process a Payment for Multiple Bills](Projects_PayingAPBills_Process_Activity.md) and [Vendor Payments for a Project: To Process a Payment of Bill Lines](Projects_PayingAPBills_Process_Activity2.md).
 

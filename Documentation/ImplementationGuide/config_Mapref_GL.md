@@ -1,4 +1,4 @@
-# General Ledger {#_59d8b6a4-fc87-44e8-a3a6-d971eef04251 .concept}
+# General Ledger
 
 In Acumatica ERP, you have to define the general ledger to store the financial records of the company. You also configure the related general ledger functionality to make it possible for users to record and track GL transactions in the system.
 

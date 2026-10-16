@@ -1,8 +1,8 @@
-# To Reopen a Financial Period in Accounts Receivable {#_3e1e1bba-b339-4f12-878e-853cd2a8297d .task}
+# To Reopen a Financial Period in Accounts Receivable
 
 You may need to reopen a financial period if it has been closed by mistake or if you need to post any adjustments to this period. To reopen a financial period in the accounts receivable subledger, you use the [Close Financial Periods](AR_50_90_00.md) \(AR509000\) form.
 
-## To Reopen a Financial Period in Accounts Receivable {#section_ajt_4jv_vxb .section}
+## To Reopen a Financial Period in Accounts Receivable
 
 1.  Open the [Close Financial Periods](AR_50_90_00.md) \(AR509000\) form.
 2.  In the **Company** box of the Selection area, select the company for which you want to reopen a financial period.

@@ -1,4 +1,4 @@
-# Defining the List of Barcode Scan Commands {#_d08a7841-eeac-4b8d-8527-7b6b932bd5f0 .concept}
+# Defining the List of Barcode Scan Commands
 
 In this chapter, you will learn about the commands that can be implemented on an Acumatica ERP barcode-driven form. You will also learn how to define the list of commands and a custom command.
 

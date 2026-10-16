@@ -1,10 +1,10 @@
-# Specific Approvals: Projects, Project-Related Documents, and Time Activities {#_0d0b7e95-8c51-4ec3-8c14-30936b8aaf44 .concept}
+# Specific Approvals: Projects, Project-Related Documents, and Time Activities
 
 If projects in your organization must be approved before they can be used to record project transactions and activities, you can easily configure the approval of projects in Acumatica ERP. You can also set up the approval workflow for the following types of project-related documents: pro forma invoices, change orders, change requests, subcontracts, project quotes, cost projections, cost projections by date, and progress worksheets.
 
 **Important:** The *Approval Workflow* feature and features related to specific types of project-related documents may be subject to additional licensing; please consult the Acumatica ERP sales policy for details.
 
-## Configuration of Approval for Projects and Project-Related Documents {#section_qzn_gsg_31c .section}
+## Configuration of Approval for Projects and Project-Related Documents
 
 To set up the approval functionality for projects and project-related documents, you perform the following general steps:
 
@@ -14,7 +14,7 @@ To set up the approval functionality for projects and project-related documents,
 4.  Optionally, if you plan to use notification templates to notify users about projects or project-related documents that require approval, you need to create the needed notification templates \(from scratch or by modifying predefined templates\) on the [Email Templates](../UserGuide/SM_20_40_03.md) \(SM204003\) form.
 5.  To make approval required for projects and project-related documents, you specify the needed approval maps in the appropriate boxes of the **Approval** tab \(**Approval Settings** section\) of the [Projects Preferences](../UserGuide/PM_10_10_00.md) \(PM101000\) form. In the **Pending Approval Notification** section of the tab, you specify any needed notification template to be used for projects or the specific project-related documents.
 
-## Approval of Projects and Project-Related Documents {#section_rzn_gsg_31c .section}
+## Approval of Projects and Project-Related Documents
 
 If approval of projects and project-related documents is configured, once a user takes a project or project-related document off hold, the system assigns this record the *Pending Approval* status and uses the rules defined by the approval map to assign the project or project-related document to a workgroup or to a particular employee \(in the workgroup\) for approval. If no assignment occurs, the project or project-related document is assigned the *Active* status.
 
@@ -22,7 +22,7 @@ Once the project or project-related document is assigned to a workgroup, any mem
 
 An approved project or project-related document is assigned the *Active* status and becomes visible when users process project-related transactions.
 
-## Approval of Time Activities { .section}
+## Approval of Time Activities
 
 To control the completion of time activities related to a project, you can assign the employee who will be responsible for approving these time activities.
 

@@ -1,6 +1,6 @@
-# Customer Discounts: Calculation of Line Discounts with Tiers by Amounts {#_7d23ec12-4167-4b02-bfb7-ba37c484a2be .concept}
+# Customer Discounts: Calculation of Line Discounts with Tiers by Amounts
 
-## Calculation of Line-Level Discounts for Tiers Defined by Amounts { .section}
+## Calculation of Line-Level Discounts for Tiers Defined by Amounts
 
 The tiers for line-level discounts can be defined by amounts or by quantities. The method of calculation of line-level discounts depends on the option you select in the **Line Discount Basis** box on the **Pricing** tab of the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form. You can apply the discounts to the unit prices of items or the extended prices of items \(the line amounts without taxes\), and the selected option affects the discount calculation. Both methods are described in this section.
 

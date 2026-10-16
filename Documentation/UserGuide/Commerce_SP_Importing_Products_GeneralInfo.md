@@ -1,19 +1,19 @@
-# Product Import: General Information {#_b6d67e74-3c8f-9812-bd49-f066e78b3378 .concept}
+# Product Import: General Information
 
 You can import to Acumatica ERP products that were initially configured in the Shopify store.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to import products from the Shopify store to Acumatica ERP, where they will be defined as stock and non-stock items.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You import products from an external system to Acumatica ERP in the following cases:
 
 -   You are initially configuring Acumatica ERP and need to import products that have already been defined in the external system.
 -   You manage product information in the external system, have updated any product settings after the product was synchronized with Acumatica ERP, and need the changes to be reflected in the corresponding inventory items in Acumatica ERP.
 
-## Configuration of Importing Products { .section}
+## Configuration of Importing Products
 
 Before initially importing products from the Shopify store to Acumatica ERP, you need to specify the needed store settings. To do this, on the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form, you select the store and perform the following general steps:
 
@@ -29,7 +29,7 @@ Before initially importing products from the Shopify store to Acumatica ERP, you
 3.  You specify the default item classes for imported items in the **Item Class for Stock Items** and **Item Class for Non-Stock Items** boxes on the **Inventory Settings** tab \(**Import Settings** section\).
 4.  Optional: You specify a substitution list in the **Substitution List for Item Classes** box. On the [Substitution Lists](SM_20_60_26.md) \(SM206026\) form, the specified substitution list should contain mapping between the product types used in the Shopify store and the item classes defined on the [Item Classes](IN_20_10_00.md) \(IN201000\) form.
 
-## Product Import and Item Creation { .section}
+## Product Import and Item Creation
 
 The system imports the products from the Shopify store to Acumatica ERP as part of the synchronization of the *Stock Item* and *Non-Stock Item* entities, depending on whether the products are physical or not. First, an ecommerce manager prepares data on the [Prepare Data](BC_50_10_00.md) \(BC501000\) form, and then they process it on the [Process Data](BC_50_15_00.md) \(BC501500\) form.
 
@@ -42,7 +42,7 @@ During the import, some settings of the created stock and non-stock items are im
 
 If a product has been already imported to Acumatica ERP and some product settings are changed in the Shopify store, during the next import, the system updates the corresponding existing stock or non-stock item.
 
-## Limitations of Importing Products { .section}
+## Limitations of Importing Products
 
 The import of products from the Shopify store has the following limitations:
 

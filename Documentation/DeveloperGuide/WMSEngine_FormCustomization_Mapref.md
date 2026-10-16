@@ -1,4 +1,4 @@
-# Customizing a Barcode-Driven Form {#_28df451a-b53f-485a-847b-c6826b871efb .concept}
+# Customizing a Barcode-Driven Form
 
 In this chapter, you will learn how to customize a barcode-driven form.
 

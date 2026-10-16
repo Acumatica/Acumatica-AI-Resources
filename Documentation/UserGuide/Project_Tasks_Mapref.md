@@ -1,4 +1,4 @@
-# Creating Project Tasks {#_7761fe19-1292-453c-bb83-362525939f58 .concept}
+# Creating Project Tasks
 
 A project typically consists of separate project tasks, which are clearly defined units of work that can be tracked and managed easily. A project task is used to identify an essential step or activity within the project that must be completed within a particular time frame or by a particular date, so that the project as a whole remains on schedule.
 

@@ -1,4 +1,4 @@
-# To Create a New DAC {#_cef47ebf-cb3f-41dd-a137-be0201c84140 .concept}
+# To Create a New DAC
 
 You can add a new data access class \(DAC\) to a customization project by generating the code from the definition of a database table.
 

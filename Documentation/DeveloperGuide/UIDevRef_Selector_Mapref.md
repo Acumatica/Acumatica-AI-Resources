@@ -1,4 +1,4 @@
-# Selector {#_76449259-120e-4e60-8abf-b073d3644b22 .concept}
+# Selector
 
 In this chapter, you will learn about the configuration of selector controls, including when to use a selector control and how to name it.
 

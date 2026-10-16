@@ -1,4 +1,4 @@
-# Integration with Microsoft Entra ID {#_31cffc3a-3147-4572-9cbf-f7eeb46f0c37 .concept}
+# Integration with Microsoft Entra ID
 
 You integrate Acumatica ERP with Microsoft Entra ID \(formerly known as Microsoft Azure Active Directory\) to manage users and access in one place and to provide single sign-on. You create, delete, and manage user accounts by using Microsoft Entra ID. During integration, you map Entra ID groups with user roles in Acumatica ERP to determine users' access rights.
 
@@ -7,11 +7,11 @@ You integrate Acumatica ERP with Microsoft Entra ID \(formerly known as Microsof
 -   This functionality is available only if the *Active Directory and Other External SSO* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) form.
 -   We do not recommend using the Microsoft Entra ID authentication simultaneously with the OpenID authentication.
 
-## Requirements { .section}
+## Requirements
 
 Before you integrate Acumatica ERP with Microsoft Entra ID, your company must be signed up for a Microsoft cloud service, such as Azure or Office 365, with the Entra ID instance configured. For more information, see [Microsoft Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id) on the Microsoft Azure Portal.
 
-## Configuration Steps { .section}
+## Configuration Steps
 
 You can configure integration with Microsoft Entra ID when you implement Acumatica ERP or at any later time. To integrate an instance of Acumatica ERP with Microsoft Entra ID, you will perform the following general steps:
 
@@ -24,7 +24,7 @@ You can configure integration with Microsoft Entra ID when you implement Acumati
 4.  Optional: If required, you override the roles assigned to any user automatically by manually selecting the required roles. For details, see [To Set Up Role Assignment for Domain Users](US__how_AzureAD_Groups_Override.md).
 5.  Optional: If you want to use the Microsoft Entra ID service as the default identity provider, you enable silent logon with Microsoft Entra ID, as described in [To Enable Silent Logon](US__how_AzureAD_Silent_Logon_Enable.md).
 
-## User Accounts of Domain Users in Acumatica ERP { .section}
+## User Accounts of Domain Users in Acumatica ERP
 
 After you have enabled integration with the identity management system, user accounts for domain users are created automatically when the users sign in to your Acumatica ERP instance for the first time.
 
@@ -39,11 +39,10 @@ To speed up the authentication of users, the information about AD groups is auto
 
 The **Reload AD Groups** button appears only when you have integrated the Acumatica ERP instance with AD or Microsoft Entra ID and when the number of user groups in AD or Entra ID is greater than or equal to the value of the `ADGroupCacheLimit` parameter specified in the `web.config` file. If the number of users and groups in AD is less than the value of the `ADGroupCacheLimit` parameter, Acumatica ERP retrieves the lists of users and groups directly from AD.
 
-## Domain User Authentication { .section}
+## Domain User Authentication
 
 After the integration of Acumatica ERP with Microsoft Entra ID has been set up, users use single sign-on \(SSO\) with the domain to sign in to Acumatica ERP. By default, each user performs the following steps:
 
-1.  On the Sign-In page of your Acumatica ERP instance, the user selects the Microsoft Entra ID icon \(![](Images/AD_AzureAD.png)\) to open the Microsoft Entra ID sign-in page.
 2.  On the sign-in page, the user enters the domain credentials in the following format: `<User_Name>@<Domain_Name>`, where *&lt;User\_Name&gt;* is the user account name in the integrated domain and *&lt;Domain\_Name&gt;* is the UPN suffix, also known as the domain name.
 
 To simplify the procedure, you can configure silent logon with Microsoft Entra ID server. For more information, see [To Enable Silent Logon](US__how_AzureAD_Silent_Logon_Enable.md).
@@ -52,7 +51,7 @@ To simplify the procedure, you can configure silent logon with Microsoft Entra I
 
 You need to ensure that all users can sign in to that first company. If they cannot, they will not be able to select a different company to sign in to.
 
-## Domain User Authorization { .section}
+## Domain User Authorization
 
 When a domain user tries to access Acumatica ERP, user authorization occurs as follows:
 
@@ -66,7 +65,7 @@ When a domain user tries to access Acumatica ERP, user authorization occurs as f
 
 For more information about authentication in Acumatica ERP, see [Managing User Access](../Shared/../UserGuide/SA_Managing_User_Access_Mapref.md). For details about roles and access rights in Acumatica ERP, see [Configuring User Roles](../Shared/../UserGuide/User_Roles_Mapref.md).
 
-## Access Rights of Domain Users { .section}
+## Access Rights of Domain Users
 
 Domain users inherit access rights from the AD groups that you have mapped to Acumatica ERP user roles. In addition, you can assign specific user roles to each domain user if the access rights for this user should differ from the AD group rights.
 

@@ -1,14 +1,14 @@
-# Regeneration of Statements: Process Activity {#_4bba5990-3835-4ad6-b6fd-39e280fe141e .task}
+# Regeneration of Statements: Process Activity
 
 The following activity will walk you through the process of regenerating customer statements.
 
-## Story {#section_a4d_hjv_vxb .section}
+## Story
 
 Suppose that after the generation of customer statements, the sales manager of the SweetLife Fruits &amp; Jams company found out that an invoice as of 1/31/2026 for Morning Cafe in the amount of $210 had not been entered into the system.
 
 Acting as the chief accountant of SweetLife, you need to record this invoice and regenerate the customer statement for this customer.
 
-## Configuration Overview {#section_d4d_hjv_vxb .section}
+## Configuration Overview
 
 For the purposes of this activity, the following features have been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form:
 
@@ -22,11 +22,11 @@ On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *MORNINGCAF \(Morning 
 
 On the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, the **Hold Documents on Entry** check box has been selected in the **Data Entry Settings** section. In the **Consolidation Settings** section, *For Each Branch* has been selected in the **Prepare Statements** box.
 
-## Process Overview {#section_i4d_hjv_vxb .section}
+## Process Overview
 
 In this activity, you will enter an invoice on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. On the [Print Statements](AR_50_35_00.md) \(AR503500\) form, you will regenerate the last statement for this customer and print the statement on the same form.
 
-## System Preparation {#section_k4d_hjv_vxb .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -37,7 +37,7 @@ To prepare the system, do the following:
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 4.  As a prerequisite activity, make sure that a statement has been prepared for this customer in the needed financial period, as described in [Customer Statements: Process Activity](Finance_Preparing_Customer_Statements_Activity.md).
 
-## Step 1: Creating the Invoice {#section_m4d_hjv_vxb .section}
+## Step 1: Creating the Invoice
 
 To create the invoice, do the following:
 
@@ -56,7 +56,7 @@ To create the invoice, do the following:
     -   **Ext. Price**: `210`
 4.  On the form toolbar, click **Remove Hold**, and click **Release** to release the invoice.
 
-## Step 2: Regenerating the Customer Statement {#section_p4d_hjv_vxb .section}
+## Step 2: Regenerating the Customer Statement
 
 To regenerate the last customer statement, do the following:
 
@@ -70,11 +70,10 @@ To regenerate the last customer statement, do the following:
 
 6.  Select the unlabeled check box for the *MORNINGCAF* customer statement and click **Process** on the form toolbar, as shown in the following screenshot.
 
-    ![](Images/activity_Finance_Regenerating_Statement.png "The printed customer statement to be regenerated")
 
 7.  In the **Processing** pop-up window, which is opened, click **Close**.
 
-## Step 3: Printing the Statement {#section_s4d_hjv_vxb .section}
+## Step 3: Printing the Statement
 
 To print the regenerated statement, do the following:
 

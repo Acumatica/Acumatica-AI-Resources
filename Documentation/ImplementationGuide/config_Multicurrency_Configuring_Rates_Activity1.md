@@ -1,14 +1,14 @@
-# Configuration of Rate Types and Rates: To Configure Rates {#_00d85958-d6ad-4d36-90bc-bf749c6f7213 .task}
+# Configuration of Rate Types and Rates: To Configure Rates
 
 In this implementation activity, you will learn how to manually create rate types and exchange rates of the SPOT type that will be effective on different dates.
 
-## Story { .section}
+## Story
 
 Suppose that the initial configuration of the multicurrency functionality has been completed, and the implementation consultant has to configure exchange rates for the currencies that you have set up in the system in [Multicurrency Functionality: Implementation Activity](config_Multicurrency_Basic_Implem_Activity.md)—the Canadian dollar \(*CAD*\) and the euro \(*EUR*\). The consultant has decided to manually create these rates.
 
 Acting as the implementation consultant, you will manually create the exchange rates for the *CAD* and *EUR* currencies.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -21,18 +21,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Branches](../UserGuide/CS_10_20_00.md) \(CS102000\) form, the *HEADOFFICE* branch of the *SWEETLIFE* company has been created.
 -   On the [Currency Rate Types](../UserGuide/CM_20_10_00.md) \(CM201000\) form, the *SPOT* rate type has been defined.
 
-## Process Overview { .section}
+## Process Overview
 
 Before beginning the creation of rates, you will review the *SPOT* rate on the [Currency Rate Types](../UserGuide/CM_20_10_00.md) \(СM201000\) form and the default rate types on the [Currency Management Preferences](../UserGuide/CM_10_10_00.md) \(CM101000\) form. You will then create rate types effective starting on different dates for the *CAD* currency on the [Currency Rates](../UserGuide/CM_30_10_00.md) \(CM301000\) form. You will then run a report on the [Currency Rate History by Date](../UserGuide/CM_65_10_00.md) \(CM651000\) form to review the historical rates of *CAD* for a particular range of dates. On the [Currency Rates](../UserGuide/CM_30_10_00.md) form, you will create rate types effective starting on different dates for the *EUR* currency and will then review the EUR historical rates by running the [Currency Rate History by Date](../UserGuide/CM_65_10_00.md) report.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
 1.  Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as a system administrator Kimberly Gibbs by using the *gibbs* username and the *123* password.
 2.  Make sure that you have specified the settings of the base currency \(*USD*\) and the foreign currencies \(*CAD* and *EUR*\) on the [Currencies](../UserGuide/CM_20_20_00.md) \(AP101000\) form, as described in [Multicurrency Functionality: Implementation Activity](config_Multicurrency_Basic_Implem_Activity.md).
 
-## Step 1: Reviewing the *SPOT* Rate Type and Default Rate Types { .section}
+## Step 1: Reviewing the *SPOT* Rate Type and Default Rate Types
 
 To review the *SPOT* rate type \(which is automatically created by the system\) and the default rate types, do the following:
 
@@ -52,7 +52,7 @@ To review the *SPOT* rate type \(which is automatically created by the system\) 
     -   Accounts payable \(**AP Rate Type**\): This is the currency rate type that is used in AP documents if no rate type is associated with the selected vendor.
     -   Project management \(**PM Rate Type**\): This is the currency rate type that is used in project documents if no rate type is associated with the selected customer.
 
-## Step 2: Creating Currency Rates for CAD { .section}
+## Step 2: Creating Currency Rates for CAD
 
 To create currency rates for *CAD*, do the following:
 
@@ -118,7 +118,7 @@ To create currency rates for *CAD*, do the following:
     The table displays the currency rate specified for the foreign currency that is effective on the date specified in the **Effective Date** box.
 
 
-## Step 3: Reviewing the Historical Rates of CAD { .section}
+## Step 3: Reviewing the Historical Rates of CAD
 
 To review the list of all *CAD* rates that are or have been effective in a particular date range, do the following:
 
@@ -130,7 +130,7 @@ To review the list of all *CAD* rates that are or have been effective in a parti
 3.  On the form toolbar, click **Run Report**.
 4.  Review the generated report, which displays the exchange rates defined for conversion from *CAD* to *USD* that are effective in the specified date range.
 
-## Step 4: Creating Currency Rates for EUR { .section}
+## Step 4: Creating Currency Rates for EUR
 
 To create currency rates for *EUR*, do the following:
 
@@ -172,7 +172,7 @@ To create currency rates for *EUR*, do the following:
     -   **Mult./Div.**: *Divide*
 14. On the form toolbar, click **Save** to save your changes.
 
-## Step 5: Reviewing the Historical Rates of EUR { .section}
+## Step 5: Reviewing the Historical Rates of EUR
 
 To review the list of all *EUR* rates that are or have been effective in a particular date range, do the following:
 

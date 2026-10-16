@@ -1,4 +1,4 @@
-# Upgrading Acumatica ERP {#_90c63243-4e03-4906-b92c-fb90a54b85b5 .concept}
+# Upgrading Acumatica ERP
 
 In this chapter, you will learn about upgrading and updating Acumatica ERP.
 

@@ -1,14 +1,14 @@
-# Route Executions: Creating a Route Execution on the Fly {#_2674d93c-6783-4db6-8bf5-fd0026eb2990 .task}
+# Route Executions: Creating a Route Execution on the Fly
 
 In this activity, you will learn how to create a route execution on the fly. You will also learn how to review the appointments of a driver assigned to the route execution and how to view the route execution on a map.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the service manager, Maia Davis, has received a request from the Thai Food Restaurant customer for the delivery of fruits for 1/31/2026. She needs to create a new route execution in the system with an appointment for the customer. The service manager will then review the schedule of the driver selected to perform the route execution, and view the created route execution on a map. Acting as the service manager, you will perform these actions in the system.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -23,18 +23,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Routes](FS_20_37_00.md#) \(FS203700\) form, the *NY* route has been configured with executions on Mondays, Wednesdays, and Fridays starting at 9:00 AM. *Peter Lai* has been assigned to this route on the **Employees** tab.
 -   On the [Vehicles](FS_20_36_00.md#) \(FS203600\) form, the *FSE00004 \(White Foord\)* has been preconfigured
 
-## Process Overview { .section}
+## Process Overview
 
 To create a route execution on the fly, you specify the details of the route execution on the [Route Document Details](FS_30_40_00.md#) \(FS304000\) form, and add appointments that you create on the [Appointments](FS_30_02_00.md#) \(FS300200\) form. You then review the assigned driver's schedule on the [Routes on Map](FS_30_09_00.md#) \(FS300900\) form, and check the route execution on the [Staff Routes on Map](FS_30_10_00.md#) \(FS301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded; you should sign in as a service manager by using the *brawner* username and the *123* password.
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Creating a New Route Execution { .section}
+## Step 1: Creating a New Route Execution
 
 To create a new route execution, do the following:
 
@@ -54,7 +54,7 @@ To create a new route execution, do the following:
 6.  In the table, click *FSE00004 \(Mersedes-Bens S3500\)*, and then click **Select Vehicle** at the bottom of the dialog box.
 7.  On the form toolbar, click **Save**.
 
-## Step 2: Adding an Appointment to the Route Execution { .section}
+## Step 2: Adding an Appointment to the Route Execution
 
 To add an appointment to the route execution, do the following:
 
@@ -76,7 +76,7 @@ To add an appointment to the route execution, do the following:
 6.  On the form toolbar, click **Save &amp; Close**.
 7.  In the **Scheduled Start Time** column on the **Appointments** tab of the [Route Document Details](FS_30_40_00.md#) form, notice that the stat time has been calculated by the system according to the start time of the route execution and the estimated driving time from the start location to the appointment location.
 
-## Step 3: Reviewing the Appointments of the Driver { .section}
+## Step 3: Reviewing the Appointments of the Driver
 
 To review the appointments for Peter Lai, do the following:
 
@@ -87,7 +87,7 @@ To review the appointments for Peter Lai, do the following:
 2.  Verify that the created appointment is present on the [Staff Calendar Board](FS_30_04_00.md#).
 3.  Close the [Staff Calendar Board](FS_30_04_00.md#) form.
 
-## Step 4: Reviewing a Route Execution on a Map { .section}
+## Step 4: Reviewing a Route Execution on a Map
 
 To view the route execution on a map, do the following:
 
@@ -106,7 +106,6 @@ To view the route execution on a map, do the following:
     The system displays the names of the customers with which appointments take place, the time that is needed to travel between points of the route, and the addresses of the route locations.
 
 
-![](Images/RouteMgmt_Route_of_Staff_on_Map.png "The route of the staff member on the map")
 
 **Parent topic:**[Route Executions](../UserGuide/RouteMgmt_Managing_Route_Executions_Mapref.md)
 

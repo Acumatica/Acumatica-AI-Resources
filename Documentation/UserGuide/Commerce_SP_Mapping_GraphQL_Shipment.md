@@ -1,8 +1,8 @@
-# Shipment Entity {#_abc1234a-d6af-41da-aabb-c27762ab8ee4 .concept}
+# Shipment Entity
 
 To support Shopify's migration from REST API to GraphQL, Acumatica ERP introduces changes to the field mapping used for the *Shipment* entity.
 
-## Shipment Mapping { .section}
+## Shipment Mapping
 
 In the [Shopify\_GraphQL\_Shipment.xlsx](Files/Shopify_GraphQL_Shipment.xlsx) file, you can see how Acumatica ERP fields on the [Shipments](SO_30_20_00.md) \(SO302000\) form map to Shopify default and custom fields. The system uses this mapping when it exports shipment data to Shopify.
 

@@ -1,8 +1,8 @@
-# Specific Approvals: Accounts Receivable Documents {#_cebb8041-8234-46fc-aeb5-eaa131b08fd1 .concept}
+# Specific Approvals: Accounts Receivable Documents
 
 Acumatica ERP offers easy-to-use, system-wide capabilities for configuring the approval workflow for various types of AR documents.
 
-## AR Documents That Can Be Approved { .section}
+## AR Documents That Can Be Approved
 
 In Acumatica ERP, you can configure the approval workflow for the following AR documents, which causes approvals regardless of how the documents were created \(through direct entry or by being generated during some process\):
 
@@ -12,7 +12,7 @@ In Acumatica ERP, you can configure the approval workflow for the following AR d
 
 **Note:** The approval functionality is not applicable to credit write-offs, overdue charges, or invoices generated from the forms related to sales orders.
 
-## Configuration of Approval for AR Documents { .section}
+## Configuration of Approval for AR Documents
 
 To implement the approval of AR documents from start to finish, you need to complete the following instructions:
 

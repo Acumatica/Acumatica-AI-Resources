@@ -1,4 +1,4 @@
-# Glossary {#_3eb31485-1a98-4374-a87c-8b60e826c236 .concept}
+# Glossary
 
 The following table contains definitions of the basic terms used in Acumatica Customization Platform.
 

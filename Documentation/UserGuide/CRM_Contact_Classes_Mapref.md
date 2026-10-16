@@ -1,4 +1,4 @@
-# Defining Contact Classes {#_43d21dc1-3688-4a2b-90a9-3f09cae8eb5d .concept}
+# Defining Contact Classes
 
 In this chapter, you will find information about defining contact classes in Acumatica ERP.
 

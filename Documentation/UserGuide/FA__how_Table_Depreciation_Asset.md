@@ -1,8 +1,8 @@
-# To Configure Table Methods of Asset Type {#_d7422151-8abe-409b-9750-887fe17969e9 .task}
+# To Configure Table Methods of Asset Type
 
 After you configured a table method of class type, as described in [To Configure Table Methods of Class Type](FA__how_Table_Depreciation_Class.md), you use the [Depreciation Table Methods](FA_20_26_00.md) \(FA202600\) form to configure table methods of asset type. Table methods of asset type specify the annual percentage in the convention periods for the methods of class type.
 
-## To Configure a Table Method of the Asset Type {#section_rdc_ljv_vxb .section}
+## To Configure a Table Method of the Asset Type
 
 1.  Open the [Depreciation Table Methods](FA_20_26_00.md) \(FA202600\) form.
 2.  On the form toolbar, click **Add New Record**.

@@ -1,4 +1,4 @@
-# Single-Tier Change Management: Releasing Costs Only {#_ba3f7458-6c3b-40ad-ad08-a1af892bed4e .concept}
+# Single-Tier Change Management: Releasing Costs Only
 
 In some cases, you may want to release the cost part of the change order before the project owner formally approves the revenue part so that project work can stay on schedule.
 

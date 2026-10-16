@@ -1,6 +1,6 @@
-# Configuring Actions {#_d9e2d024-e1cf-4e61-90be-9eabdaaddb91 .concept}
+# Configuring Actions
 
-In this chapter, you will learn how to configure actions in a workflow. You can create new actions, hide unneeded actions, and modify existing actions.
+In this chapter, you will learn how to configure actions in a workflow. You can create new actions, hide unneeded actions, and modify existing actions. You can also include AI Automation agent actions in a workflow.
 
 -   **[Action Configuration: General Information](../DeveloperGuide/WorkflowUI_Actions_GeneralInfo.md)**  
 

@@ -1,8 +1,8 @@
-# Sales Tax Adjustments: To Reverse a Tax Adjustment Document {#_95a5c878-1feb-48cf-b47d-20908462519d .task}
+# Sales Tax Adjustments: To Reverse a Tax Adjustment Document
 
 On the [Tax Adjustments](TX_30_10_00.md) \(TX301000\) form, you can reverse a released tax adjustment document in the system.
 
-## To Reverse a Tax Adjustment Document {#section_lb4_fjv_vxb .section}
+## To Reverse a Tax Adjustment Document
 
 1.  Open the [Tax Adjustments](TX_30_10_00.md) \(TX301000\) form.
 2.  In the **Type** box in the Summary area, select the type of the document that you want to reverse.

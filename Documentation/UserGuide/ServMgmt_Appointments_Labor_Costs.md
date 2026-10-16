@@ -1,8 +1,8 @@
-# Tracking Labor Costs and Billing {#_fec4e070-4c2b-4bef-bd35-578979e36944 .concept}
+# Tracking Labor Costs and Billing
 
 In Acumatica ERP, you can track the labor costs of staff members who work in appointments and bill customers for their time. The system calculates these costs automatically on the [Appointments](FS_30_02_00.md) \(FS300200\) form.
 
-## Calculation of Labor Costs { .section}
+## Calculation of Labor Costs
 
 When you assign a staff member to attend an appointment, the line item for the staff member is also added on the **Profitability** tab of the [Appointments](FS_30_02_00.md) \(FS300200\) form with the rate specified in the **Unit Cost** column. The system copies this rate from the **Rate** column of the [Labor Rates](PM_20_99_00.md) \(PM209900\) form for the staff member.
 
@@ -10,7 +10,7 @@ When you assign a staff member to attend an appointment, the line item for the s
 
 When the appointment is completed, the system calculates the total cost of performing the job by each staff member \(**Cost Total**\) by multiplying the values in the **Actual Quantity** and **Unit Cost** columns on the **Profitability** tab. Thus, you can see how much has been paid to each staff member that attended the appointment.
 
-## Labor Billing { .section}
+## Labor Billing
 
 If the following conditions are met for the service order type of an appointment on the General tab of the [Service Order Types](FS_20_23_00.md) \(FS202300\) form, the labor can be billed for the appointment:
 

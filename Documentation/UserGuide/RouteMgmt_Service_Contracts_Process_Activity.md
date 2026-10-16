@@ -1,14 +1,14 @@
-# Route Service Contracts: To Create and Process Service Contract Billed at the Time of Service {#_1af78574-491b-4dc6-b6b7-2e677c0a417c .task}
+# Route Service Contracts: To Create and Process Service Contract Billed at the Time of Service
 
 With a route service contract, which is based on the agreement between the customer and the company, the predefined route services are performed at the agreed-upon frequency. In the system, a route service contract contains basic information—such as the customer, customer location, and dates—and the schedule or schedules associated with the contract. A route contract schedule defines the route service \(or services\), inventory items, and other settings that the generated appointments of route executions will have. It also specifies the recurrence of the generation of these appointments.
 
 In this activity, you will learn how to create a route service contract billed at the time of service, and generate appointments for it.
 
-## Story { .section}
+## Story
 
 Suppose that the GoodFood One Restaurant and HM's Bakery and Cafe customers have each agreed to the terms of separate contracts with Sweet Life for the delivery of fruits every week on Tuesday and Thursday. The service manager of Sweet Life, Maia Davis, needs to create route service contracts and schedules for the generation of appointments. She will then specify the order in which customers will be visited during route execution. You will perform the needed actions in the system, acting as a service manager.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -19,18 +19,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Routes](FS_20_37_00.md#) \(FS203700\) form, the *NY2* route has been configured with executions on Tuesdays and Thursdays starting at 9:00 AM.
 -   On the [Non-Stock Items](IN_20_20_00.md#) \(IN202000\) form, the *DELIVERY* non-stock item has been configured, and the *Service* type has been selected for it. For this item, the *DELIVERING* item class has been selected, for which the **Route Service Class** check box has been selected on the [Item Classes](IN_20_10_00.md#) \(IN201000\) form.
 
-## Process Overview { .section}
+## Process Overview
 
 To process route service contracts billed at the time of service, you create service contracts on the [Route Service Contracts](FS_30_08_00.md#) \(FS300800\) form, and create schedules for the generation of appointments on the [Route Service Contract Schedules](FS_30_56_00.md#) \(FS305600\) form. You then review the sequence in which customers will be visited during route executions and modify it on the [Route Sequences](FS_30_38_00.md#) \(FS303800\) form. Finally, you generate the appointments that are stops during the route execution on the [Generate Maintenance from Contract Schedules](FS_50_03_00.md#) \(FS500300\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded; you should sign in as a service manager by using the *davis* username and the *123* password.
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button, and select the *1/30/2026* date from the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating Route Service Contracts { .section}
+## Step 1: Creating Route Service Contracts
 
 To create both route service contracts for the customers, do the following:
 
@@ -47,7 +47,7 @@ To create both route service contracts for the customers, do the following:
 4.  On the form toolbar, click **Save**.
 5.  Repeat Instructions 2–6 to create a route service contract for *HMBAKERY \(HM's Bakery and Cafe\)*; only the **Customer** setting is different than the settings specified for *GOODFOOD \(GoodFood One Restaurant\)*.
 
-## Step 2: Creating Route Service Contract Schedules { .section}
+## Step 2: Creating Route Service Contract Schedules
 
 To create route service contract schedules for the route service contracts you have created, do the following:
 
@@ -69,7 +69,7 @@ To create route service contract schedules for the route service contracts you h
 8.  Open the [Route Service Contracts](FS_30_08_00.md#) form with the created contract for *GOODFOOD \(Good Food Restaurant\)*.
 9.  Repeat Instructions 1–7 to create a route service contract schedule with the same settings and activate the contract for *GOODFOOD \(GoodFood One Restaurant\)*.
 
-## Step 3: Specifying the Route Order { .section}
+## Step 3: Specifying the Route Order
 
 To change the default order of appointments in route executions, do the following:
 
@@ -88,7 +88,7 @@ To change the default order of appointments in route executions, do the followin
     The order numbers have been updated with the first two numbers of the default sequence but kept the specified order.
 
 
-## Step 4: Generating Route Appointments { .section}
+## Step 4: Generating Route Appointments
 
 To generate route appointments based on the route service contract, do the following:
 
@@ -102,7 +102,7 @@ To generate route appointments based on the route service contract, do the follo
 
 4.  After the processing has successfully completed, click **Close**.
 
-## Step 5: Reviewing the Generated Route Appointments { .section}
+## Step 5: Reviewing the Generated Route Appointments
 
 To view the generated route appointments, do the following:
 
@@ -113,7 +113,6 @@ To view the generated route appointments, do the following:
     Appointments for the *GOODFOOD \(GoodFood One Restaurant\)* and *HMBAKERY \(HM's Bakery and Cafe\)* customers have been generated within one route execution.
 
 
-![](Images/RouteMgmt_Service_Contracts_App_on_Map.png "The route execution generated for the route service contracts")
 
 **Parent topic:**[Managing Route Service Contracts](../UserGuide/RouteMgmt_Service_Contracts_Mapref.md)
 

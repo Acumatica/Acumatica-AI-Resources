@@ -1,4 +1,4 @@
-# Step 1: Creating a Custom Field {#_33808827-be45-49c9-90cf-0e3ff5d2bfc4 .task}
+# Step 1: Creating a Custom Field
 
 In Acumatica ERP, a user can create a payment for an invoice by clicking the **Pay** button or command on the [Invoices](../Shared/../UserGuide/SO_30_30_00.md) \(SO303000\) form. When the payment is created, it is opened on the [Payments and Applications](../Shared/../UserGuide/AR_30_20_00.md) \(AR302000\) form.
 
@@ -8,7 +8,7 @@ For the creation of the prepayment, you now need to have the default prepayment 
 
 You will create the custom field in this step and derive the field value in the next step.
 
-## Adding a Custom Field to the Payments and Applications Form { .section}
+## Adding a Custom Field to the Payments and Applications Form
 
 To give users the ability to enter, view, and modify the prepayment percentage on the [Payments and Applications](../Shared/../UserGuide/AR_30_20_00.md) \(AR302000\) form, you need to add the **Prepayment Percent** box to the form. Complete the following general tasks:
 
@@ -21,7 +21,7 @@ To give users the ability to enter, view, and modify the prepayment percentage o
 
 3.  Modify the code of the generated DAC extension in the `ARRegisterExtensions.cs` file so that the code in the file is the same as the code shown below.
 
-    ```language-csharp
+    ```csharp
     using PX.Data;
     using PX.Objects.AR;
     using System;
@@ -53,7 +53,6 @@ To give users the ability to enter, view, and modify the prepayment percentage o
     2.  On the [Modern UI Editor](../Shared/../UserGuide/AU_20_10_80.md) page for the [Payments and Applications](../Shared/../UserGuide/AR_30_20_00.md) form, use the **Add Field** button on the page toolbar to generate the TypeScript extension for the custom field. Note that the data view that corresponds to the Summary area is `Document`.
     3.  Specify the location for the corresponding control of the custom field in the HTML code and generate the HTML extension. The field should be placed after the `PaymentMethodID` field. On the **HTML** tab of the [Modern UI Editor](../Shared/../UserGuide/AU_20_10_80.md) page, the location of the added field appears, as shown below.
 
-        ![](../Shared/Images/Custom_FieldLocation_ModernUIEditor_2025R2.png "Prepayment Percent element")
 
 7.  Save your changes and publish the customization project.
 

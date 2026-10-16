@@ -1,25 +1,25 @@
-# UI Definition in HTML and TypeScript: General Information {#_910adc1e-ae5c-42b2-8310-d3bdd35a1e74 .concept}
+# UI Definition in HTML and TypeScript: General Information
 
 The structure of an Acumatica ERP form in the Modern UI is represented by the following layers:
 
 -   The presentation logic in a TypeScript \(TS\) file, which provides a definition of views and their settings
 -   The layout of UI elements displayed on the form in HTML
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you’ll learn how to do the following:
 
 -   Define the presentation logic and layout of a form in the Modern UI
 -   Use the form converter to convert a form from the Classic UI to the Modern UI
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You define an Acumatica ERP form in HTML and TypeScript in the following cases:
 
 -   In a customization project, you have developed an Acumatica ERP form for the Classic UI. Now you need to convert this form to the Modern UI to continue supporting it in future versions of Acumatica ERP.
 -   You’re developing a new Acumatica ERP form.
 
-## Controls of the Modern UI { .section}
+## Controls of the Modern UI
 
 Controls are building blocks for the layout of an Acumatica ERP form. Each control is composed of an HTML template and a TypeScript class.
 
@@ -50,7 +50,7 @@ For simple controls, you typically don’t specify their type, such as qp-checkb
 
 **Attention:** You can’t use shortened versions of custom HTML tags, such as `<qp-grid .../>` or `<qp-button .../>`. An HTML limitation prohibits shortened version of tags except for a limited number of standard HTML tags.
 
-## Acumatica ERP Form in the Modern UI {#_3a652d77-fa3c-4883-91d4-51c608d8f7af .section}
+## Acumatica ERP Form in the Modern UI
 
 You’ll find the Modern UI source code of original Acumatica ERP forms in the `FrontendSources\screen\src\screens` folder of the Acumatica ERP instance folder.
 
@@ -75,7 +75,7 @@ The `FrontendSources\screen\src\screens` folder contains subfolders with two-let
 
 **Attention:** You must use the import directive to refer to the view definitions from separate files, as shown below.
 
-```language-javascript
+```javascript
 import{
 	SOOrder,
 	BlanketTaxZoneOverrideFilter
@@ -91,11 +91,11 @@ You can define the views and layout in extensions of the form for:
 -   The definitions of tabs. However, for tabs in extensions, you need to specify that the tab has an external definition and provide its ID by using the ref attribute of the qp-tab tag. For details, see [Tab: Configuration](UIDevRef_Tab_Configuration.md).
 -   Any UI customization of the form. For details about UI customization, see [UI Customization Development: General Information](UIDev_Customization_GeneralInfo.md).
 
-## Screen Class in TypeScript {#_1e51a19b-363a-4595-ba4c-99bdf0d7e499 .section}
+## Screen Class in TypeScript
 
 To define the views of an Acumatica ERP form in TypeScript, in the TS file of the form, you define a *screen class*—a class for the form—as shown in the following code.
 
-```language-javascript
+```javascript
 import { 
     graphInfo,
     PXScreen
@@ -126,7 +126,7 @@ The screen class must satisfy these requirements:
 
 In the screen class, you define a property for each data view, as shown below.
 
-```language-javascript
+```javascript
 import { 
     graphInfo, PXScreen, createSingle 
 } from "client-controls";
@@ -156,7 +156,7 @@ This property must satisfy the following requirements:
 
 **Tip:** Multiple containers can be bound to the same graph's view. If you need to bind multiple container controls to the same graph's view and one of these controls corresponds to a table or a tree, you initialize the property in TypeScript by using the createCollection function.
 
-## View Classes in TypeScript {#_e6e70710-e57a-4ae9-9a46-81d676ddd869 .section}
+## View Classes in TypeScript
 
 In the TS file of the form, you define a view class for each view of the graph, as shown below. The class extends the `PXView` class.
 
@@ -164,7 +164,7 @@ In the TS file of the form, you define a view class for each view of the graph, 
 
 For the view classes added in a customization project, we recommend that you keep the prefix in the name. The prefix consists of a two-letter identifier indicating the part of the functional area and a two-letter prefix of the application area.
 
-```language-javascript
+```javascript
 import { 
     PXView 
 } from "client-controls";
@@ -175,7 +175,7 @@ export class GLHistoryEnqFilter extends PXView {
 
 In each view class, you specify the properties for all data fields of the data view that you want to be able to show or use in the UI, as shown below. You use the name of the data field as the property name.
 
-```language-javascript
+```javascript
 Description: PXFieldState;
 ShowCuryDetail: PXFieldState<PXFieldOptions.Hidden | 
   PXFieldOptions.CommitChanges>;
@@ -193,7 +193,7 @@ You can also use decorators for fields. For information about decorators for fie
 
 For details about how to add a field from a joined data access class of the data view, see [UI Definition in HTML and TypeScript: Joined Fields](UIDev_UIDefinition_JoinedFields.md).
 
-## Action Definitions in TypeScript {#_48f6ba21-06dc-442b-bdbf-4af7bea5e024 .section}
+## Action Definitions in TypeScript
 
 The actions defined in the graph or in the workflow have corresponding commands displayed on the More menu by default. You do not need to define them in the TypeScript code of the Acumatica ERP form.
 
@@ -201,11 +201,11 @@ However, if you need to place a button for an action somewhere on the form other
 
 **Important:** When you include the property of the PXActionState type for the action in the TypeScript code of a form, this action is automatically bound by name to an action in the graph. The action is not displayed on the form toolbar by default. To specify explicitly whether the button for the action is displayed on the form toolbar, you can use the [PXButton.DisplayOnMainToolbar](https://help.acumatica.com/(W(1))/Help?ScreenId=ShowWiki&pageid=1a7069c4-95d5-456b-41ec-5b19371358db) property in the graph’s action declaration.
 
-## Layout in HTML { .section}
+## Layout in HTML
 
 In the HTML file, you define the layout of an Acumatica ERP form, as shown in the following example. You must place all HTML controls inside the template tag.
 
-```language-xml
+```xml
 <template>​
  <qp-template id="form-Filter" name="7-10-7" class="equal-height">​
   <qp-fieldset id="fsColumnA-Filter" slot="A" view.bind="Filter">​
@@ -231,11 +231,10 @@ In the HTML file, you use the rules described in the following resources:
 
 **Attention:** We recommend that you configure the appearance of UI controls by using TypeScript decorators instead of properties of the config attribute in HTML. These decorators include [fieldConfig](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=a1284c74-b44a-cdf3-6d8f-3ebd9938f5fa), [controlConfig](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=ece136fa-9f2c-a8b2-3b3c-aff23a4d1156), [gridConfig](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=0307daab-31d8-32d7-f9d0-d61137b7919f), and [columnConfig](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=174c3931-2148-bc0c-ee45-705f27e1aec6). For details about the configuration of particular controls, see [UI Component Guide](UIDevRef_Guide.md).
 
-## UI Components of an Acumatica ERP Form { .section}
+## UI Components of an Acumatica ERP Form
 
 The following diagram shows the UI components of an Acumatica ERP form and the interactions between them.
 
-![](Images/diag_UIDev_UIDefinition.png "UI components and their interactions")
 
 **Parent topic:**[Defining Acumatica ERP Forms in HTML and TypeScript](../DeveloperGuide/UIDev_UIDefinition_Mapref.md)
 

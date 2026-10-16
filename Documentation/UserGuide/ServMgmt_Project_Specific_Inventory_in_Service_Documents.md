@@ -1,10 +1,10 @@
-# Assignment of Serial or Lot Numbers for Project Stock Items in Service Documents {#_5ae978e1-87f1-4db6-b6ab-b6e40bd02c17 .concept}
+# Assignment of Serial or Lot Numbers for Project Stock Items in Service Documents
 
 In Acumatica ERP, serial and lot numbers can be specified for project stock items on the [Service Orders](FS_30_01_00.md) and [Appointments](FS_30_02_00.md) forms if a service order or an appointment is linked to a project where *Track by Project Quantity and Cost* or *Track by Project Quantity* is specified in the **Inventory Tracking** box on the [Projects](PM_30_10_00.md) form.
 
 **Important:** To make it possible to manage project stock items, the *Project-Specific Inventory* feature must be enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Serial or Lot Numbers for Project Stock Items in Service Orders and Appointments {#section_yvr_q2z_m2c .section}
+## Serial or Lot Numbers for Project Stock Items in Service Orders and Appointments
 
 You can assign lot or serial numbers to stock items with the *Track Serial Numbers* or *Track Lot Numbers* tracking method specified in the stock item's lot or serial class on the [Lot/Serial Classes](IN_20_70_00.md) \(IN207000\) form.
 

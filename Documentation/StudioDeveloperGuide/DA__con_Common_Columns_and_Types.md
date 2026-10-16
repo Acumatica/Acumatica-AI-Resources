@@ -1,4 +1,4 @@
-# Common Columns and Data Types {#_3323a8a3-1736-498a-bf87-55617532c91c .concept}
+# Common Columns and Data Types
 
 You should use the following data types for columns. In the **Type Attribute on the Data Field** column in the table below, you can find the most common type attributes that are added to the corresponding data fields in the data access class declaration.
 

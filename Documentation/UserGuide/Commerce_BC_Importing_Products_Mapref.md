@@ -1,4 +1,4 @@
-# Importing Products {#_3888a2e3-62ee-9517-8c53-342f3981c8d8 .concept}
+# Importing Products
 
 In the topics of this chapter, you will read about the importing of products from the BigCommerce store to Acumatica ERP, where they will be defined as stock items and non-stock items.
 

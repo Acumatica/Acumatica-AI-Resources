@@ -1,14 +1,14 @@
-# Expense Receipts with Corporate Cards: To Reconcile Bank Statement {#_30e26edd-df30-401a-b0cd-0c289ee17f2f .task}
+# Expense Receipts with Corporate Cards: To Reconcile Bank Statement
 
 This activity will walk you through the process of reconciliation of a bank statement.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that employees of the SweetLife Fruits &amp; Jams company used a corporate card related to the New York Bank. At the end of January, 2026, the New York Bank sent a monthly statement. Acting as SweetLife's accountant, you will reconcile this statement and process a bill for the bank in the system.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -18,11 +18,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Vendors](AP_30_30_00.md#) \(AP303000\) form, the *NYBANK* vendor account for the New York Bank has been created.
 -   On the [Entry Types](CA_20_30_00.md) \(CA203000\) form, the *BANKFEE* and *INTEREST* entry types have been created.
 
-## Process Overview { .section}
+## Process Overview
 
 To reconcile a bank statement, you will first import bank transactions on the [Import Bank Transactions](CA_30_65_00.md#) \(CA306500\) form. You will match the bank transactions with the transactions in the system on the [Process Bank Transactions](CA_30_60_00.md#) \(CA306000\) form. You then will reconcile the bank statement on the [Reconciliation Statements](CA_30_20_00.md#) \(CA302000\) form. Finally, you will create a bill to pay the outstanding balance to the bank on the [Bills and Adjustments](AP_30_10_00.md#) \(AP301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
@@ -31,7 +31,7 @@ To prepare to perform the instructions of this activity, do the following:
 3.  Launch the Acumatica ERP website, and sign in as Pam Brawner by using the *brawner* username and the *123* password.
 4.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/31/2026*. If a different date is displayed, click the Business Date menu button, and select *1/31/2026* from the calendar. For simplicity, in this activity, you will create and process all documents in the system during this business date.
 
-## Step 1: Importing Bank Transactions { .section}
+## Step 1: Importing Bank Transactions
 
 To import the bank transactions, do the following:
 
@@ -43,7 +43,6 @@ To import the bank transactions, do the following:
     -   **End Balance Date**: *1/31/2026*
     Make sure that *1/31/2026* is selected in the **Statement Date** box.
 
-3.  On the form toolbar, click **Load Records from File** \(![](Images/activity_Projects_LoadRecordsfromFile.png)\).
 4.  In the **File Upload** dialog box, which opens, select the file path to the `NewYorkBank_CorpCard_Transactions_January` file, and click **Upload**.
 5.  In the **Common Settings** dialog box, which opens, leave the default settings, and click **OK**.
 6.  In the **Columns** dialog box, which opens, leave the current mapping, and click **OK**.
@@ -53,7 +52,7 @@ To import the bank transactions, do the following:
 7.  In the Summary area, specify `-58.00` in the **Ending Balance** box.
 8.  Click **Save** on the form toolbar.
 
-## Step 2: Matching Transactions in the System { .section}
+## Step 2: Matching Transactions in the System
 
 To match the uploaded bank transactions with system documents, do the following:
 
@@ -66,7 +65,7 @@ To match the uploaded bank transactions with system documents, do the following:
 4.  On the form toolbar, click **Process**.
 5.  On the [Import Bank Transactions](CA_30_65_00.md#) \(CA306500\) form, open the bank statement you have imported and notice that the transactions have been processed and matched—that is, the check boxes in the **Matched** and **Processed** columns are selected.
 
-## Step 3: Reconciling a Bank Statement { .section}
+## Step 3: Reconciling a Bank Statement
 
 Reconcile the bank statement as follows:
 
@@ -76,7 +75,7 @@ Reconcile the bank statement as follows:
 4.  In the Summary area, in the **Statement Balance** box, specify `-33`.
 5.  On the form toolbar, click **Remove Hold** to assign the statement the *Balanced* status, and then click **Release** to release the statement.
 
-## Step 4: Paying the Outstanding Balance to the Bank { .section}
+## Step 4: Paying the Outstanding Balance to the Bank
 
 To create an accounts payable bill for the bank, do the following:
 

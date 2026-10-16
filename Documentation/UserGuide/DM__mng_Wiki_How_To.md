@@ -1,8 +1,8 @@
-# Wiki Content Procedures {#_c0edb7af-808d-4585-9729-bda97d1e6927 .concept}
+# Wiki Content Procedures
 
 The topics in this chapter provide basic information you can use right away as you begin reading and editing wikis. These topics will help you perform such simple tasks as editing a wiki article, renaming an article, and restoring a deleted article.
 
-## In This Chapter { .section}
+## In This Chapter
 
 -   **Reading Articles**
     -   [To Print an Article](DM__how_Wiki_Printing_an_Article.md)

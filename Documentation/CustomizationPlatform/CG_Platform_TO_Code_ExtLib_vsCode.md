@@ -1,4 +1,4 @@
-# Extension Library \(DLL\) Versus Code in a Customization Project {#_6eef9fa0-ab15-4c9f-8376-3c4f1b4118a4 .concept}
+# Extension Library \(DLL\) Versus Code in a Customization Project
 
 While you are developing source code for a customization task, you can either keep the code in the customization project as *DAC* and *Code* items or move the code to an extension library and include the library in the project as a *File* item.
 

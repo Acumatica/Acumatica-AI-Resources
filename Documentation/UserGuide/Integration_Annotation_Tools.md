@@ -1,8 +1,8 @@
-# Using Annotation Tools {#_b3c33970-d144-4b10-9dd3-3e56a61fd8fd .concept}
+# Using Annotation Tools
 
 On the PDF Preview \(SM400009\) form, you use the embedded PDF Annotator viewer to review the selected PDF file, add comments, and apply markup. This topic describes where the main annotation tools are located in the viewer and how you can use the available buttons and commands.
 
-## Annotation Tools {#section_xlb_cxc_cfc .section}
+## Annotation Tools
 
 On the PDF Preview \(SM400009\) form, you can add review notes and annotate the selected file version. You use the buttons and commands in the following places in the embedded PDF Annotator viewer:
 
@@ -11,179 +11,620 @@ On the PDF Preview \(SM400009\) form, you can add review notes and annotate the 
 -   The right pane \(Item 3\)
 -   The page control toolbar, including the **View one page at a time** menu \(Item 4\)
 
-![](Images/Integrations_PDF_Annotator_PDF_Preview_Side_Panel_Tools_Menus.png "The main tools in the viewer")
 
 **Attention:** The PDF preview shown in the screenshot is displayed in the embedded PDF Annotator viewer provided by Adobe and is subject to change. Adobe may change the tools and layout available for PDF annotation.
 
 See the table below for descriptions of the tools available in the embedded PDF Annotator viewer.
 
-|Location|Button/Command|What You Can Do|Notes|
-|--------|--------------|---------------|-----|
-|Top toolbar|**Undo**
+<table id="_18ae10de-8356-4042-b302-89c392e2d084"><thead><tr><th>
 
- ![](Images/PDF_Annotations_Undo.png)
+Location
 
-|Reverse your most recent change|You can use the Ctrl + Z keyboard shortcut instead.|
-|Top toolbar|**Redo**
+</th><th>
 
- ![](Images/PDF_Annotations_Redo.png)
+Button/Command
 
-|Reapply the last change you undid|You can use Ctrl + Z keyboard shortcut instead.|
-|Top toolbar|**Save**
+</th><th>
 
- ![](Images/PDF_Annotations_Save.png)
+What You Can Do
 
-|Save the changes and create a new file version.| |
-|Top toolbar|**Find in document**
+</th><th>
 
- ![](Images/PDF_Annotations_Find_in_Document.png)
+Notes
 
-|Search for text within the file|You can use Ctrl + F keyboard shortcut instead.|
-|More menu|**Print this file**
+</th></tr></thead><tbody><tr><td>
 
- ![](Images/PDF_Annotations_Print_this_File.png)
+Top toolbar
 
-|In the dialog box that opens, specify printing settings and print the document| |
-|More menu|**Download this file**
+</td><td>
 
- ![](Images/PDF_Annotations_Download_this_File.png)
+**Undo**
 
-|Download and save a copy of the file to your device| |
-|More menu|**View legal notices**
 
- ![](Images/PDF_Annotations_View_Legal_Notices.png)
+</td><td>
 
-|Open Adobe's legal notices|These include copyright, trademark, terms, privacy, and third-party notices.|
-|Quick action toolbar|**Select text**
+Reverse your most recent change
 
- ![](Images/PDF_Annotations_Select_Text.png)
+</td><td>
 
-|Open the **Select Text** menu| |
-|Quick action toolbar|**Add a comment**
+You can use the Ctrl + Z keyboard shortcut instead.
 
- ![](Images/PDF_Annotations_Add_a_Comment.png)
+</td></tr><tr><td>
 
-|Open the **Add a comment** menu| |
-|Quick action toolbar|**Highlight selected text**
+Top toolbar
 
- ![](Images/PDF_Annotations_Highlight.png)
+</td><td>
 
-|Open the **Highlight selected text** menu| |
-|Quick action toolbar|**Draw freehand**
+**Redo**
 
- ![](Images/PDF_Annotations_Draw.png)
 
-|Draw or write directly on the PDF| |
-|Quick action toolbar|**Eraser**
+</td><td>
 
- ![](Images/PDF_Annotations_Erase.png)
+Reapply the last change you undid
 
-|Remove the drawing| |
-|Quick action toolbar|**Choose a color for a note**
+</td><td>
 
- ![](Images/PDF_Annotations_Color.png)
+You can use Ctrl + Z keyboard shortcut instead.
 
-|Select the color used for your note or markup| |
-|**Select text** menu|**Select**
+</td></tr><tr><td>
 
- ![](Images/PDF_Annotations_Select_Text_Menu.png)
+Top toolbar
 
-|Select text in the file to review it or apply a markup to it| |
-|**Select text** menu|**Pan**
+</td><td>
 
- ![](Images/PDF_Annotations_Pan.png)
+**Save**
 
-|Move the PDF view by dragging and dropping the page| |
-|**Add a comment** menu|**Add a comment**
 
- ![](Images/PDF_Annotations_Add_Comment_menu.png)
+</td><td>
 
-|Add a comment thread linked to a spot in the file|The comment text isn't placed on the page.|
-|**Add a comment** menu|**Add text comment**
+Save the changes and create a new file version.
 
- ![](Images/PDF_Annotations_Add_a_Text_Comment.png)
+</td><td>
 
-|Insert a text box directly on the page|The comment text is visible on the page.|
-|**Highlight selected text** menu|**Highlight**
+ 
 
- ![](Images/PDF_Annotations_Highlight_menu.png)
+</td></tr><tr><td>
 
-|Highlight the text with a colored background| |
-|**Highlight selected text** menu|**Underline**![](Images/PDF_Annotations_Underline_Text.png)
+Top toolbar
 
-|Underline the selected text| |
-|**Highlight selected text** menu|**Strikethrough**
+</td><td>
 
- ![](Images/PDF_Annotations_Strikethrought_Text.png)
+**Find in document**
 
-|Draw a line through the selected text| |
-|Right pane|**Comments**
 
- ![](Images/PDF_Annotations_Comments.png)
+</td><td>
 
-|Open the **Comments** pane to view all comments in one place; add and reply to comments, or delete them| |
-|Right pane|**Bookmarks**|Add a bookmark or open the list of bookmarks to go to a bookmarked page| |
-|Right pane|**Pages**
+Search for text within the file
 
- ![](Images/PDF_Annotations_Pages.png)
+</td><td>
 
-|Open the **Pages** pane to view miniature pages for quick navigation| |
-|Right pane|**View Permission Details**|Open the **Permission Details** page, which you use to view the file's properties and allowed actions|This appears when some actions are restricted for the document.|
-|Page control toolbar|**Go to a specific page number**
+You can use Ctrl + F keyboard shortcut instead.
 
- ![](Images/PDF_Annotations_Specific_Page.png)
+</td></tr><tr><td>
 
-|Jump to the page you type in|Enter the number of the page and press Enter.|
-|Page control toolbar|**Go to previous page**
+More menu
 
- ![](Images/PDF_Annotations_Previous_Page.png)
+</td><td>
 
-|Move one page back| |
-|Page control toolbar|**Go to next page**
+**Print this file**
 
- ![](Images/PDF_Annotations_Next_Page.png)
 
-|Move one page forward| |
-|Page control toolbar|**Zoom In**
+</td><td>
 
- ![](Images/PDF_Annotations_Zoom_In.png)
+In the dialog box that opens, specify printing settings and print the document
 
-|Make the page look bigger|You can use the Ctrl + keyboard shortcut instead.|
-|Page control toolbar|**Zoom Out**
+</td><td>
 
- ![](Images/PDF_Annotations_Zoom_Out.png)
+ 
 
-|Make the page look smaller|You can use the Ctrl - keyboard shortcut instead.|
-|**View one page at a time** menu|**Single-page view**
+</td></tr><tr><td>
 
- ![](Images/PDF_Annotations_View_One_Page.png)
+More menu
 
-|Show one page at a time| |
-|**View one page at a time** menu|**Two-page view**
+</td><td>
 
- ![](Images/PDF_Annotations_View_Two_Pages.png)
+**Download this file**
 
-|Show two pages side by side| |
-|**View one page at a time** menu|**View with scrolling**
 
- ![](Images/PDF_Annotations_View_Scrolling_Pages.png)
+</td><td>
 
-|Show pages in a continuous column so that you can scroll through the document| |
-|**View one page at a time** menu|**Fit one page**
+Download and save a copy of the file to your device
 
- ![](Images/PDF_Annotations_View_Fit_the_Page.png)
+</td><td>
 
-|Resize the view so that the whole page fits on the screen| |
-|**View one page at a time** menu|**Fit to width**
+ 
 
- ![](Images/PDF_Annotations_View_Fit_to_Width.png)
+</td></tr><tr><td>
 
-|Resize the view so that the page width matches the preview width| |
-|**View one page at a time** menu|**Full screen**
+More menu
 
- ![](Images/PDF_Annotations_View_Full_Screen.png)
+</td><td>
 
-|Show only the PDF \(hide menus and toolbars\)| |
+**View legal notices**
+
+
+</td><td>
+
+Open Adobe's legal notices
+
+</td><td>
+
+These include copyright, trademark, terms, privacy, and third-party notices.
+
+</td></tr><tr><td>
+
+Quick action toolbar
+
+</td><td>
+
+**Select text**
+
+
+</td><td>
+
+Open the **Select Text** menu
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Quick action toolbar
+
+</td><td>
+
+**Add a comment**
+
+
+</td><td>
+
+Open the **Add a comment** menu
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Quick action toolbar
+
+</td><td>
+
+**Highlight selected text**
+
+
+</td><td>
+
+Open the **Highlight selected text** menu
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Quick action toolbar
+
+</td><td>
+
+**Draw freehand**
+
+
+</td><td>
+
+Draw or write directly on the PDF
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Quick action toolbar
+
+</td><td>
+
+**Eraser**
+
+
+</td><td>
+
+Remove the drawing
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Quick action toolbar
+
+</td><td>
+
+**Choose a color for a note**
+
+
+</td><td>
+
+Select the color used for your note or markup
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**Select text** menu
+
+</td><td>
+
+**Select**
+
+
+</td><td>
+
+Select text in the file to review it or apply a markup to it
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**Select text** menu
+
+</td><td>
+
+**Pan**
+
+
+</td><td>
+
+Move the PDF view by dragging and dropping the page
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**Add a comment** menu
+
+</td><td>
+
+**Add a comment**
+
+
+</td><td>
+
+Add a comment thread linked to a spot in the file
+
+</td><td>
+
+The comment text isn't placed on the page.
+
+</td></tr><tr><td>
+
+**Add a comment** menu
+
+</td><td>
+
+**Add text comment**
+
+
+</td><td>
+
+Insert a text box directly on the page
+
+</td><td>
+
+The comment text is visible on the page.
+
+</td></tr><tr><td>
+
+**Highlight selected text** menu
+
+</td><td>
+
+**Highlight**
+
+
+</td><td>
+
+Highlight the text with a colored background
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**Highlight selected text** menu
+
+</td><td>
+
+
+</td><td>
+
+Underline the selected text
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**Highlight selected text** menu
+
+</td><td>
+
+**Strikethrough**
+
+
+</td><td>
+
+Draw a line through the selected text
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Right pane
+
+</td><td>
+
+**Comments**
+
+
+</td><td>
+
+Open the **Comments** pane to view all comments in one place; add and reply to comments, or delete them
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Right pane
+
+</td><td>
+
+**Bookmarks**
+
+</td><td>
+
+Add a bookmark or open the list of bookmarks to go to a bookmarked page
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Right pane
+
+</td><td>
+
+**Pages**
+
+
+</td><td>
+
+Open the **Pages** pane to view miniature pages for quick navigation
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Right pane
+
+</td><td>
+
+**View Permission Details**
+
+</td><td>
+
+Open the **Permission Details** page, which you use to view the file's properties and allowed actions
+
+</td><td>
+
+This appears when some actions are restricted for the document.
+
+</td></tr><tr><td>
+
+Page control toolbar
+
+</td><td>
+
+**Go to a specific page number**
+
+
+</td><td>
+
+Jump to the page you type in
+
+</td><td>
+
+Enter the number of the page and press Enter.
+
+</td></tr><tr><td>
+
+Page control toolbar
+
+</td><td>
+
+**Go to previous page**
+
+
+</td><td>
+
+Move one page back
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Page control toolbar
+
+</td><td>
+
+**Go to next page**
+
+
+</td><td>
+
+Move one page forward
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Page control toolbar
+
+</td><td>
+
+**Zoom In**
+
+
+</td><td>
+
+Make the page look bigger
+
+</td><td>
+
+You can use the Ctrl + keyboard shortcut instead.
+
+</td></tr><tr><td>
+
+Page control toolbar
+
+</td><td>
+
+**Zoom Out**
+
+
+</td><td>
+
+Make the page look smaller
+
+</td><td>
+
+You can use the Ctrl - keyboard shortcut instead.
+
+</td></tr><tr><td>
+
+**View one page at a time** menu
+
+</td><td>
+
+**Single-page view**
+
+
+</td><td>
+
+Show one page at a time
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**View one page at a time** menu
+
+</td><td>
+
+**Two-page view**
+
+
+</td><td>
+
+Show two pages side by side
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**View one page at a time** menu
+
+</td><td>
+
+**View with scrolling**
+
+
+</td><td>
+
+Show pages in a continuous column so that you can scroll through the document
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**View one page at a time** menu
+
+</td><td>
+
+**Fit one page**
+
+
+</td><td>
+
+Resize the view so that the whole page fits on the screen
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**View one page at a time** menu
+
+</td><td>
+
+**Fit to width**
+
+
+</td><td>
+
+Resize the view so that the page width matches the preview width
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+**View one page at a time** menu
+
+</td><td>
+
+**Full screen**
+
+
+</td><td>
+
+Show only the PDF \(hide menus and toolbars\)
+
+</td><td>
+
+ 
+
+</td></tr></tbody>
+</table>
 
 **Parent topic:**[Integrating Acumatica ERP with PDF Annotator](../UserGuide/PDF_PDF_Annotator.md)
 

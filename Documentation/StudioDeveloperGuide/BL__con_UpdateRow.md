@@ -1,4 +1,4 @@
-# Update of a Data Record on Update of a Field Value {#_2d07589d-4a3a-415a-8bc4-6acc59b0ecd2 .concept}
+# Update of a Data Record on Update of a Field Value
 
 You should use a FieldUpdated event handler to modify a data record when its field is updated. The FieldUpdated event is raised when a data record is inserted or updated. When a data record is updated, the FieldUpdated event is raised for only the updated fields. The event is raised after other field-level events \(FieldUpdating and FieldVerifying\) and before the row-level events \(such as RowInserting and RowUpdating\).
 

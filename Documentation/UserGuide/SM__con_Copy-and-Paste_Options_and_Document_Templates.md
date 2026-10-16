@@ -1,10 +1,9 @@
-# Record Entry: Copy-and-Paste Options and Record Templates {#_fcb022ae-7e19-4d22-acb6-4adcd84868c0 .concept}
+# Record Entry: Copy-and-Paste Options and Record Templates
 
 During the normal course of business, you may need to repeatedly enter recurring or similar records \(which may be documents, transactions, classes, or profiles\)—some of which include many lines. To help you minimize input errors and save time, Acumatica ERP provides record templates and copy-and-paste options for data entry forms and maintenance forms. When you're creating a record, you can use either functionality to ease this process.
 
-## Copying and Pasting { .section}
+## Copying and Pasting
 
-In Acumatica ERP, you can easily create a record by copying and pasting the data of an existing record of the same type. You can use this functionality on data entry and maintenance forms. The copying and pasting options are offered on the **Clipboard** \(![](Images/GS_forms_clipboard_menu.png)\) menu on the form toolbar.
 
 Suppose that you have already entered an opportunity for a customer. Now the customer wants to place a similar order and asks you to create an opportunity. To save time, you can quickly add the new opportunity to the system by copying the settings of the previous one and pasting them into the new record.
 
@@ -12,7 +11,7 @@ Suppose that you have already entered an opportunity for a customer. Now the cus
 
 **Tip:** If a record contains more than 1,000 detail lines, the system copies only the first 1,000 detail lines to a new record.
 
-## Using Templates { .section}
+## Using Templates
 
 You can create an unlimited number of templates for various records—such as bills, invoices, sales orders, purchase orders, leads, contacts, customers, vendors, or business accounts—through the appropriate data entry forms. You can also use templates for most records created by maintenance forms. These records include customer and vendor classes, stock and non-stock items, warehouses, kit specifications, and mailing lists. You even can create a template of a chart of inter-branch account mapping.
 
@@ -37,6 +36,4 @@ Once you open a record that you want to use as a template for similar records, c
 You can use the saved template on the data entry form each time you want to create a record based on the template. If you have saved multiple templates for the data entry form, you can select which template you want to use while you are creating a record on this form.
 
 If you need to manually enter the name or identifier for the type of record you want to create by using a template, you need to first create a record and type the name or ID of the record. Then you click **Paste from \(Template Name\)** to insert data in the record from the selected template. After making any needed changes, you save the record.
-
-**Parent topic:**[Entering Records into the System](../UserGuide/GS_Working_With_Data_Entry_Forms_Mapref.md)
 

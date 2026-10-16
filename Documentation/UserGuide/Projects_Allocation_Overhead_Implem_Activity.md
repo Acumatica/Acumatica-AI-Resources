@@ -1,31 +1,31 @@
-# Overhead in the Project Budget: Implementation Activity {#_d082ceac-43ab-45fe-b774-dfe89ff18b2a .task}
+# Overhead in the Project Budget: Implementation Activity
 
 The following implementation activity will walk you through the process of configuring an allocation rule for capturing the overhead for projects.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the project manager of the SweetLife Fruits &amp; Jams company wants to estimate the project costs considering the administrative overhead of the project management to be able to estimate the project profitability more accurately. The company estimates the project overhead as 20% of labor costs, such as a worker's time spent on performing the project.
 
 Acting as SweetLife’s implementation manager, you need to configure an allocation rule to capture the project overhead as 20% of labor costs to reflect the overhead in the project budget. Because the administrative overhead is already presented in the general ledger in the form of transactions that aren’t classified against projects, you don’t need to post to the general ledger allocation transactions that are created.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Projects* feature has been enabled to support the project management functionality.
 -   On the [Account Groups](PM_20_10_00.md) \(PM201000\) form, the *OVERHEAD* and *LABOR* account groups have been created.
 
-## Process Overview { .section}
+## Process Overview
 
 You will configure an allocation rule for capturing the labor overhead on the [Allocation Rules](PM_20_75_00.md) \(PM207500\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of the activity, sign in to a company with the *U100* dataset preloaded; you should sign in as system administrator by using the *gibbs* username and the *123* password.
 
-## Step: Configuring an Allocation Rule { .section}
+## Step: Configuring an Allocation Rule
 
 To configure an allocation rule used for capturing the project overhead as a percentage of labor costs, perform the following instructions:
 

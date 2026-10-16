@@ -1,4 +1,4 @@
-# Search Customization: Fields from Foreign DACs in the Search Index and Search Results {#_a22825ef-6aaa-42e9-a35d-26af10bc963a .concept}
+# Search Customization: Fields from Foreign DACs in the Search Index and Search Results
 
 In the search index, search result title, and search result lines, you can include the fields from the following DACs:
 
@@ -7,7 +7,7 @@ In the search index, search result title, and search result lines, you can inclu
 
 **Attention:** Though you can use the fields of foreign DACs in the search index and search results, we recommend that you use only fields that are not changed frequently. For example, you can use the `CD` fields, such as CustomerCD and VendorCD. For the declaring DAC, the PXSearchable attribute is responsible for updating the search index. However, the PXSearchable attribute does not update the search index on changes in foreign DACs. Therefore, if you use a frequently changed field of a foreign DAC in the search index or search results, after the foreign field is changed, the search index will become outdated.
 
-## Retrieval of the Search Results { .section}
+## Retrieval of the Search Results
 
 The algorithm of retrieval of the values for the search results works as follows:
 
@@ -25,7 +25,7 @@ The algorithm of retrieval of the values for the search results works as follows
 
 Therefore, if you pass to the [PXSearchable](https://help.acumatica.com/(W(7))/Help?ScreenId=ShowWiki&pageid=3fcecc8e-f198-2488-5671-91713e77fe49) attribute fields only from the declaring DAC, the order of fields is not important. But if you want to display the values from foreign DACs in search results, the order of fields is crucial.
 
-## Order of Fields in PXSearchable { .section}
+## Order of Fields in PXSearchable
 
 You should order the fields as follows:
 
@@ -35,11 +35,11 @@ You should order the fields as follows:
     1.  A field from the declaring DAC or a previously included foreign DAC. The field has a PXSelector attribute for the retrieval of the value of the next field that belongs to the newly introduced foreign DAC.
     2.  A group of fields of the newly introduced foreign DAC.
 
-## Examples of Field Order { .section}
+## Examples of Field Order
 
 Suppose that the PXSearchable attribute has the following declaration.
 
-```language-csharp
+```csharp
 [PXSearchable(
   SM.SearchCategory.AR,
   // The format string for the title
@@ -57,7 +57,7 @@ In the code above, notice that the `typeof(APInvoice.vendorID)` type is declared
 
 The following code shows a more complex example.
 
-```language-csharp
+```csharp
 // The attribute is assigned to the NoteID field of the RSSVDashboard DAC.
 [PXSearchable(SM.SearchCategory.All, 
    // The format string uses the second field from titleFields.
@@ -113,11 +113,11 @@ The following code shows a more complex example.
 )]
 ```
 
-## Optimization of the Search Index Building { .section}
+## Optimization of the Search Index Building
 
 During the building of the search index, the system obtains the value of a field from a foreign DAC by using a complex mechanism that involves [PXSelector](https://help.acumatica.com/(W(7))/Help?ScreenId=ShowWiki&pageid=ba7af401-68a9-90bd-9a63-8b2ab7d23c4b) attributes. This approach results in a number of database queries. To speed up the search index building, you can use the SelectForFastIndexing property of the [PXSearchable](https://help.acumatica.com/(W(7))/Help?ScreenId=ShowWiki&pageid=3fcecc8e-f198-2488-5671-91713e77fe49) attribute. In this property, you should specify a JOIN statement with all additional DACs that should be used during the rebuilding of the search index, as the following example shows.
 
-```language-csharp
+```csharp
 SelectForFastIndexing = typeof(SelectFrom<GIDesign>.InnerJoin<SiteMap>.
   On<SiteMap.url.IsEqual<GIUrl.giUrlName.Concat<GIDesign.name>>>)
 ```

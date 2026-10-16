@@ -1,8 +1,8 @@
-# Data Validation: General Information {#_ef027672-5273-41bb-a58a-739ffcd6d581 .concept}
+# Data Validation: General Information
 
 In Acumatica ERP, you can perform data validation by using the FieldVerifying and RowUpdating event handlers. If validations fail, you can use a data access class \(DAC\) descriptor to generate identifying information about a particular record of a DAC in a standardized format. A *descriptor* is a textual representation of a record that’s generated in a standard format for consistency. DAC descriptors uniquely identify data records that cause errors, making debugging faster and more precise.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -13,14 +13,14 @@ In this chapter, you will learn how to do the following:
 -   Use the Cancel property of the event arguments of the RowUpdating event handler to cancel the update process
 -   Use a DAC descriptor to identify an error-causing record on the Acumatica Trace page.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You perform data validation in the following cases:
 
 -   You need to independently validate the data contained in a field of a data record before persisting it to the database
 -   You need to validate the data contained in any number of fields of a data record before persisting it to the database
 
-## Process of Data Validation { .section}
+## Process of Data Validation
 
 If you want to independently validate a value inserted by a user, you should implement the FieldVerifying event handler for the data field. You can use this approach to check restrictions on the absolute value. For details, see [Data Validation: Validation of Field Values](CodeCustomization_DataValidation_FieldValuesValidation.md).
 

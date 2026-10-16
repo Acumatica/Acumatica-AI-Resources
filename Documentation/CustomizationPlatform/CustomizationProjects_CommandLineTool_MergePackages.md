@@ -1,4 +1,4 @@
-# PXCommandLine Tool: MergePackages {#_4f0c7ce7-3722-45bd-aa09-1626a26b5e4c .concept}
+# PXCommandLine Tool: MergePackages
 
 You can use the *MergePackages* value of the `/method` parameter to merge multiple customization packages into a single package. You can use the following required and optional parameters with this method:
 

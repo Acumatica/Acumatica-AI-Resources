@@ -1,8 +1,8 @@
-# Specific Widgets: To Add Chart Widgets {#_374bcb0f-2c9f-420f-a3fc-ec788e3d7a81 .task}
+# Specific Widgets: To Add Chart Widgets
 
 The following activity will show you how to add and configure chart widgets.
 
-## Story { .section}
+## Story
 
 Suppose that you are Kimberly Gibbs, a technical specialist in your company who is working on simple customizations. A sales manager of your company had previously requested a dashboard named *Sales Mgr Dashboard*, and you created the requested dashboard. The sales manager has now requested that you add the following widgets to present the listed data:
 
@@ -10,11 +10,11 @@ Suppose that you are Kimberly Gibbs, a technical specialist in your company who 
 -   *Top 5 Customers*: The top five customers by invoiced amount
 -   *Other Customers' Share*: The share of the total invoiced amount held by customers that are not among the top five customers by invoiced amount
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will add and configure widgets of the following types: line chart, horizontal bar chart, and doughnut chart.
 
-## System Preparation {#section_g1x_5xn_wrb .section}
+## System Preparation
 
 Before you start adding the widgets, make sure that the following tasks have been performed:
 
@@ -27,7 +27,7 @@ Before you start adding the widgets, make sure that the following tasks have bee
 -   You have completed the [Specific Widgets: To Add KPI Widgets](RPT_Configuring_Widgets_To_Add_KPI_Widgets_Activity.md) activity.
 -   In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Adding a Line Chart Widget { .section}
+## Step 1: Adding a Line Chart Widget
 
 To add a line chart widget, do the following:
 
@@ -46,7 +46,7 @@ To add a line chart widget, do the following:
 8.  In the **Values** section, in the **Value** boxes, select *Order Total* and *Sum*.
 9.  Click **Save** to save your changes and close the **Widget Properties** dialog box.
 
-## Step 2: Adding a Bar Chart Widget { .section}
+## Step 2: Adding a Bar Chart Widget
 
 To add a bar chart widget, do the following:
 
@@ -61,7 +61,7 @@ To add a bar chart widget, do the following:
 5.  In the **Values** section, in the **Value** boxes, select *Amount* and *Max*.
 6.  Click **Save** to save your changes and close the **Widget Properties** dialog box.
 
-## Step 3: Adding a Doughnut Chart Widget by Copying the Bar Chart Widget { .section}
+## Step 3: Adding a Doughnut Chart Widget by Copying the Bar Chart Widget
 
 To add a doughnut chart widget, do the following:
 
@@ -76,7 +76,6 @@ To add a doughnut chart widget, do the following:
 
 You have added to the dashboard chart widgets of the following types: line, bar, and doughnut \(see the following screenshot\).
 
-![](Images/activity_RPT_Configuring_Widgets_Chart_Dashboard.png "The Sales Mgr Dashboard with the three chart widgets")
 
 **Parent topic:**[Configuring Widgets](../UserGuide/RPT_Configuring_Widgets_Mapref.md)
 

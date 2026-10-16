@@ -1,16 +1,16 @@
-# Payments for a Shared Vendor: Process Activity {#_6e895c92-7322-447e-86bc-f56efc64089f .task}
+# Payments for a Shared Vendor: Process Activity
 
 In this activity, you will learn how to process payments for a vendor that is shared by different companies of your organization.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_a3n_njv_vxb .section}
+## Story
 
 Suppose that the head office of the SweetLife Fruits &amp; Jams company has received a $2,000 bill from the Blueline Advertisement vendor on January 30, 2026. The head office of the Muffins &amp; Cakes company has also received a bill from this vendor for $1,500 on the same day. The SweetLife Fruits &amp; Jams company and the Muffins &amp; Cakes company use different cash accounts to pay the bills.
 
 Acting as an accountant, you need to create and release the bills in the system, prepare payments for these bills, and process the payments through their release.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -21,11 +21,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *BLUELINE* vendor has been created.
 -   On the [Payment Methods](CA_20_40_00.md) \(CA204000\) form, the *CHECK* payment method has been created.
 
-## Process Overview {#section_e3n_njv_vxb .section}
+## Process Overview
 
 In this activity, you will first review the settings of the shared vendor on the [Vendors](AP_30_30_00.md) \(AP303000\) form and the settings of the vendor's payment method on the [Payment Methods](CA_20_40_00.md) \(CA204000\) form. To process bills from a shared vendor of two related companies, you will create and release the bills on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. You will then prepare payments for the created bills on the [Prepare Payments](AP_50_30_00.md) \(AP503000\) form. From there, you will open the [Process Payments / Print Checks](AP_50_50_00.md) \(AP505000\) form and process the payments through the review of the printable payments. You will then release the payments on the [Release Payments](AP_50_52_00.md) \(AP505200\) form.
 
-## System Preparation {#section_g3n_njv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -33,7 +33,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business Date menu button and select *1/30/2026*.
 3.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu to view the list of companies and branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Reviewing the Settings of the Vendor and the Payment Method {#section_i3n_njv_vxb .section}
+## Step 1: Reviewing the Settings of the Vendor and the Payment Method
 
 To review the settings of the *BLUELINE* vendor and its payment method, do the following:
 
@@ -50,7 +50,7 @@ To review the settings of the *BLUELINE* vendor and its payment method, do the f
     Notice that the *10200WH \(Wholesale Checking\)* account related to the *HEADOFFICE* branch of SweetLife and the *10200MF \(Muffins Checking\)* account related to the *MHEAD* branch of Muffins &amp; Cakes are both listed. The **AP Default** check box is selected for the cash accounts. It means that in the *HEADOFFICE* branch, the *10200WH* account will be used by default in the AP payments having the *CHECK* payment method, and in the *MHEAD* branch, the *10200MF* account will be used in the AP payments with the *CHECK* payment method.
 
 
-## Step 2: Creating and Processing a Bill for the SweetLife Company {#section_m3n_njv_vxb .section}
+## Step 2: Creating and Processing a Bill for the SweetLife Company
 
 To create and process an AP bill for the SweetLife company, do the following:
 
@@ -73,7 +73,7 @@ To create and process an AP bill for the SweetLife company, do the following:
 
 You have created the bill for the SweetLife company and processed it through its release. You will now perform the same instructions for the bill for the Muffins &amp; Cakes company.
 
-## Step 3: Creating and Processing a Bill for the Muffins &amp; Cakes Company {#section_q3n_njv_vxb .section}
+## Step 3: Creating and Processing a Bill for the Muffins &amp; Cakes Company
 
 To create and process an AP bill for the Muffins &amp; Cakes company, do the following:
 
@@ -93,7 +93,7 @@ To create and process an AP bill for the Muffins &amp; Cakes company, do the fol
 
 Now that you have processed both bills of the companies who share the vendor, you will prepare the payments for these bills and process them.
 
-## Step 4: Preparing the Payments for the Bills {#section_t3n_njv_vxb .section}
+## Step 4: Preparing the Payments for the Bills
 
 To prepare the payments for these bills and process these payments through their release, do the following:
 

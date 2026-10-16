@@ -1,16 +1,16 @@
-# Paid Time Off: General Information {#_83a73e05-59e3-4ed2-960a-fa5a660f99f9 .concept}
+# Paid Time Off: General Information
 
 Many companies permit employees to accrue hours or days of paid time off \(PTO\) as they work, to use for sick or vacation leave. In Acumatica ERP, you can define various accrual plans for paid time off \(PTO banks\) and apply them to entire employee classes or to individual employees.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to create PTO banks and link them with individual employees.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure PTO banks if you want to be able to accrue hours that employees may use for paid time off and to keep track of these hours.
 
-## PTO Banks { .section}
+## PTO Banks
 
 You can create new PTO banks or modify existing ones by using the [PTO Banks](PR_20_40_00.md) \(PR204000\) form.
 
@@ -20,7 +20,7 @@ On the **General** tab, you define a common configuration of the PTO bank, and t
 
 You can mark a PTO bank as active or inactive. Inactive PTO banks stop accruing hours, but you still can use hours from those banks.
 
-## Common PTO Settings { .section}
+## Common PTO Settings
 
 You use the **General** tab of the [PTO Banks](PR_20_40_00.md) \(PR204000\) form to specify PTO settings that are applied by default to employees of any employee class.
 
@@ -52,7 +52,7 @@ In the **On Settlement** box, you select the rule that will be applied to the PT
 
 All common settings, except the transfer date, can be adjusted at the employee level on the [Employee Payroll Settings](PR_20_30_00.md) \(PR203000\) form.
 
-## Class-Specific PTO Settings { .section}
+## Class-Specific PTO Settings
 
 On the **Employee Classes** tab of the [PTO Banks](PR_20_40_00.md) \(PR204000\) form, you can specify PTO bank settings that will be applied by default to all employees of a particular employee class \(if this class is specified in the **Employee Class** column\) or to all employee classes \(if no class is specified\).
 
@@ -76,14 +76,14 @@ All class-specific settings can be adjusted at the employee level on the [Employ
 
 **Note:** After an upgrade from a version preceding Acumatica ERP 2024 R1, settings previously specified in the Summary area and on the **General Settings** tab might appear as a row on the **Employee Classes** tab with *&lt;NONE&gt;* specified in the **Employee Class** column and *1/1/1900* in the **Effective Date** column.
 
-## Applicable Earning Types { .section}
+## Applicable Earning Types
 
 If you select the *Percentage* or *Front-Loading and Percentage* accrual method in the **Accrual Method** box on the **General** tab of the [PTO Banks](PR_20_40_00.md) \(PR204000\) form, the **Applicable Earning Types** tab appears. On this tab, you define the earning types to be used for accruing time off for the PTO bank, You specify the earning types in one of the following ways:
 
 -   Select the *Selected Earning Types* option in the **Accrue Time Off Based On** box in the upper area of the tab, and add to the table the earning types to accrue time off. The system will use only the earning types added to the table to accrue time off for the PTO bank.
 -   Select the *All Earning Types Except Selected* option in the **Accrue Time Off Based On** box, and add to the table the earning types that will not accrue time off. The system will use all the earning types configured in the system on the [Earning Type Codes](PR_10_20_00.md) \(PR102000\) form except the ones listed in the table to accrue time off for the PTO bank.
 
-## Banding Rules { .section}
+## Banding Rules
 
 If you select the **Apply Banding Rules** check box in the Summary area of the [PTO Banks](PR_20_40_00.md) \(PR204000\) form, the **Banding Rules** tab appears, where you can define tiered PTO rules so that employees may accrue or be eligible for different amounts of paid time off based on years of service.
 
@@ -93,7 +93,7 @@ In the **Rounding Method for Years of Service** box, you need to select *Round U
 
 Once defined for a PTO bank, banding rules extend to employees, with further adjustments allowed at the employee level on the [Employee Payroll Settings](PR_20_30_00.md) \(PR203000\) form. Banding rules apply only to the calculation of new paychecks; calculated paychecks are not affected by new banding rules.
 
-## Paid Time Off in Employee Payroll Settings { .section}
+## Paid Time Off in Employee Payroll Settings
 
 On the **Paid Time Off** tab of the [Employee Payroll Settings](PR_20_30_00.md) \(PR203000\) form, you can review information about an employee’s paid time off and modify the settings if needed.
 
@@ -107,7 +107,7 @@ If you want to temporarily disable an accrual plan used for the employee, you ca
 
 Accrual plans that are no longer applicable to the employee \(for example, if a banding rule has been applied\) are not shown in the table.
 
-## Accrual of PTO Hours { .section}
+## Accrual of PTO Hours
 
 A PTO bank accrues hours from earnings that are specified for the bank. The system accrues PTO hours based on the date of an earning detail line in a paycheck.
 

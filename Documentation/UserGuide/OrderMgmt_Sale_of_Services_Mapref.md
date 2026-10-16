@@ -1,4 +1,4 @@
-# Processing Sales of Services {#_711d7680-fcb6-4da6-989c-c1798b7d7f6a .concept}
+# Processing Sales of Services
 
 If your company sells services, these services can be defined as non-stock items in Acumatica ERP. You can then process sales of services by using sales orders of the *SO* or *IN* type.
 

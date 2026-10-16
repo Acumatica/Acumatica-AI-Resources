@@ -1,8 +1,8 @@
-# Correction of a Bill for a Subcontract: Implementation Checklist {#_21e52161-1955-41cc-afc2-daa2c008f683 .concept}
+# Correction of a Bill for a Subcontract: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for correcting billed values in subcontracts, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist {#section_n24_z3p_xnb .section}
+## Implementation Checklist
 
 Before you begin correcting subcontracts, you should make sure the needed settings have been specified and entities have been created, as summarized in the following checklist.
 
@@ -13,7 +13,7 @@ Before you begin correcting subcontracts, you should make sure the needed settin
 |[Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\)|Make sure the accounts payable preferences have been specified as described in [Accounts Payable: To Specify Accounts Payable Preferences](../ImplementationGuide/config_Basic_Company_Implem_Activity_AP_Preferences.md).|
 |Multiple forms|Make sure that all necessary settings related to subcontract processing have been specified as described in [Subcontracts: Implementation Checklist](Construction_Subcontracts_Implem_Checklist.md).|
 
-## Settings That Affect the Workflow {#section_syr_c3p_xnb .section}
+## Settings That Affect the Workflow
 
 You can affect the workflow of working with subcontracts by specifying additional settings as follows:
 

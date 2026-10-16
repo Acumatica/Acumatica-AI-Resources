@@ -1,4 +1,4 @@
-# Configuration of Project Material Management: Reason Codes for Issuing Project Stock {#_61317371-4ba7-4831-9ceb-2a24e50984ac .concept}
+# Configuration of Project Material Management: Reason Codes for Issuing Project Stock
 
 You may need to directly issue items stored in a company warehouse for a project. You do this by creating and releasing an inventory issue transaction on the [Issues](../UserGuide/IN_30_20_00.md) \(IN302000\) form or an inventory adjustment transaction on the [Adjustments](../UserGuide/IN_30_30_00.md) \(IN303000\) form. In inventory transaction lines on either form, you specify the following:
 

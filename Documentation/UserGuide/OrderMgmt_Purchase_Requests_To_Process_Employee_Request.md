@@ -1,16 +1,16 @@
-# Purchase Requests and Requisitions: To Process Employee Requests {#_385f78d5-6b7d-48fd-801e-c681fa2dac23 .task}
+# Purchase Requests and Requisitions: To Process Employee Requests
 
 The following activity demonstrates how to process a purchase requisition initiated by employee requests within the company. These requests do not require approval.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are an office manager in the SweetLife Fruits &amp; Jams company who orders office supplies for all departments of the company. These supplies are ordered from a single preferred vendor, the Spectra Stationery Office vendor, and bidding is not involved in the requisition process. The company orders these items based on requests that employees enter into the system. Employees can select only items from a predefined list. Office supplies do not require approval from department leads due to their relatively low value.
 
 You need to add the requests that employees have submitted over the past week into one purchase requisition and send the related purchase order to the vendor. You will then process the receipt and issuing of these items.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -25,7 +25,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
     -   The **Allow Multiple Vendors per Request** check box has been cleared. Per the company's business practices, all of the items in requests of the class are purchased from one vendor.
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *STATOFFICE* vendor has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -35,7 +35,7 @@ In this activity, you will do the following:
 4.  On the [Purchase Orders](PO_30_10_00.md) \(PO301000\) and [Purchase Receipts](PO_30_20_00.md) \(PO302000\) forms, prepare and process the purchase receipt for the ordered stock items.
 5.  On the [Issues](IN_30_20_00.md) \(IN302000\) form, create the inventory issue to reflect the items being issued to the employees who requested the items.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start processing a purchase requisition based on requests from employees, do the following:
 
@@ -43,7 +43,7 @@ Before you start processing a purchase requisition based on requests from employ
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, make sure the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Creating the Employee Requests { .section}
+## Step 1: Creating the Employee Requests
 
 Suppose that you have received requests for pens, paper, and pencils from the Sales department and the Operations department of the company. To enter these requests, do the following:
 
@@ -85,7 +85,7 @@ Suppose that you have received requests for pens, paper, and pencils from the Sa
         -   **Order Qty.**: `5`
 8.  On the form toolbar, click **Remove Hold**. The system saves the request and changes the status of the request to *Open*.
 
-## Step 2: Creating a Purchase Requisition { .section}
+## Step 2: Creating a Purchase Requisition
 
 To create a requisition for the requests that you entered in the previous step, do the following:
 
@@ -103,7 +103,7 @@ To create a requisition for the requests that you entered in the previous step, 
 
 4.  On the form toolbar, click **Remove Hold**. The system saves the requisition and changes its status to *Open*.
 
-## Step 3: Creating the Purchase Order { .section}
+## Step 3: Creating the Purchase Order
 
 To create the purchase order for the *STATOFFICE* vendor, do the following:
 
@@ -112,12 +112,11 @@ To create the purchase order for the *STATOFFICE* vendor, do the following:
 
     **Attention:** If your system has a different set of purchase and sales documents than those in the initial *U100* dataset, you may see different values in the screenshots.
 
-    ![](Images/OrderMgmt_Purchase_Requests_To_Process_Internal_Request_PO.png "The purchase order for the vendor")
 
 
 You have created the purchase order for the vendor. Suppose that you have sent the purchase order to the vendor.
 
-## Step 4: Receiving the Items from the Vendor { .section}
+## Step 4: Receiving the Items from the Vendor
 
 Suppose that the Spectra Stationery Office vendor has delivered the ordered items to the *WHOLESALE* warehouse. To create the documents that reflect the receipt of the items in the warehouse, do the following:
 
@@ -135,7 +134,7 @@ Suppose that the Spectra Stationery Office vendor has delivered the ordered item
 
 You have received the office supplies in the warehouse, and now you can issue the items to the departments that ordered them.
 
-## Step 5: Issuing Inventory Items from a Warehouse { .section}
+## Step 5: Issuing Inventory Items from a Warehouse
 
 Suppose that you have provided the office supplies that you ordered to the applicable departments. To create and process the needed documents for issuing the items from the *WHOLESALE* warehouse, do the following:
 

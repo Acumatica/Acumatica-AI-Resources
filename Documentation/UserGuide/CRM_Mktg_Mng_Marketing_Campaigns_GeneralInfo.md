@@ -1,8 +1,8 @@
-# Marketing Campaigns: General Information {#_46f8010d-fed3-4d9c-8c86-4838951baa81 .concept}
+# Marketing Campaigns: General Information
 
 A marketing campaign is a specific set of marketing activities aimed to achieve a particular marketing goal, such as promoting products and services, stimulating demand, boosting brand recognition, or generating revenue. Acumatica ERP provides you with tools that help you track campaign preparation and analyze the results of campaign execution.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -11,20 +11,20 @@ In this chapter, you will learn how to do the following:
 -   Track expenses related to the marketing campaign through integration with project accounting
 -   View marketing campaign statistics
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to learn how to manage a marketing campaign in scenarios that include the following:
 
 -   You need to analyze and evaluate the results of a marketing campaign.
 -   You need to launch a small email marketing campaign.
 
-## Marketing Campaigns in Acumatica ERP { .section}
+## Marketing Campaigns in Acumatica ERP
 
 In Acumatica ERP you can track the leads, opportunities, revenue, and expenses associated with a marketing campaign; thus, you can analyze the results and evaluate the efficiency of this marketing campaign.
 
 When you acquire new leads and then create them on the [Leads](CR_30_10_00.md) \(CR301000\) form or import them into the system, you can select a marketing campaign as the source of the lead. You can send emails to generate interest among the existing leads and track these emails and activities related to nurturing the leads during the campaign. If a lead is converted to an opportunity and the opportunity has been won or lost, you will be able to track and evaluate the revenue of this marketing campaign. You can link a marketing campaign with a project and track expenses related to the marketing campaign. For details, see the following sections.
 
-## Preparation of a Marketing Campaign { .section}
+## Preparation of a Marketing Campaign
 
 In Acumatica ERP, you can create a new marketing campaign \(such as an email campaign\) or start tracking the progress of a campaign \(such as a billboard advertisement campaign\) that has already been launched. The data that you enter when you create a campaign can be used in reports.
 
@@ -41,7 +41,7 @@ As a marketing campaign proceeds, on the [Marketing Campaigns](CR_20_20_00.md) f
 -   *Completed*: The marketing campaign is over, and analysis of the results of the marketing campaign is planned or in progress.
 -   *Canceled*: A marketing person has canceled the marketing campaign before its completion.
 
-## Management of Members in a Marketing Campaign { .section}
+## Management of Members in a Marketing Campaign
 
 On the **Marketing Lists** tab of the [Marketing Campaigns](CR_20_20_00.md) \(CR202000\) form, all the static and dynamic marketing lists available in the system are shown. You can add members from a marketing list or multiple lists by selecting the **Selected** check box in the row of these marketing lists and saving your changes to the form. If you change the set of selected marketing lists and click **Save**, the system shows a warning message. You can keep the current campaign members or update the members from the newly selected set of marketing lists.
 
@@ -52,7 +52,7 @@ Also, by clicking **Clear All** on the table toolbar, you can remove all the mem
 -   If you click the button without first filtering records, removes all the members from the list
 -   If you first filter records in the table or search for records that meet the needed criteria, and then you click the button, removes only the listed members from the list
 
-## Lead and Contact Creation During the Uploading of New Members { .section}
+## Lead and Contact Creation During the Uploading of New Members
 
 On the [Marketing Campaigns](CR_20_20_00.md) \(CR202000\) form, you can upload new members from an Excel file to a marketing campaign by using the **Load Records from File** button on the table toolbar of the **Members** tab. These new members may already be defined in the system as leads, contacts, or business accounts.
 
@@ -60,7 +60,6 @@ During the uploading of a file, the system can also create a new lead or contact
 
 To cause the system to create new records in the system while uploading new members from a file, you need to perform the following general steps on the **Members** tab:
 
-1.  On the table toolbar, you click **Load Records from File** \(![](../Shared/Images/Icons_Upload_File.png)\).
 2.  In the **Import Data** dialog box, you click Upload File select the file you want to upload.
 3.  On the Specify Common Settings page of the dialog box \(which opens after you upload the file\), you can make any needed changes to the default settings for the imported file and then confirm your changes by clicking **Next**.
 4.  On the Map Properties to Columns page of the dialog box, which opens, you perform mapping that adheres to the following guidelines:
@@ -78,7 +77,7 @@ During the creation of the new record, the system may find a possible duplicate 
 -   If the *Block* option is selected, the system does not create a new record and does not add a new member to the marketing campaign; it proceeds to the next record in the Excel file.
 -   If the *Warn* or *Allow* option is selected, a new record is created and added to the marketing campaign.
 
-## Tracking of Emails and Activities Associated with a Marketing Campaign { .section}
+## Tracking of Emails and Activities Associated with a Marketing Campaign
 
 In Acumatica ERP, you can keep track of emails and activities related to a marketing campaign as follows:
 
@@ -87,7 +86,7 @@ In Acumatica ERP, you can keep track of emails and activities related to a marke
 -   Send individual emails to the campaign members, as described in [Managing Emails and Activities](CRM_Mktg_Managing_Emails_Activities_Mapref.md)
 -   Send mass emails to the campaign members, as described in [Managing Mass Emails](CRM_Mktg_Managing_Mass_Emails_Mapref.md)
 
-## Marketing Campaign Statistics { .section}
+## Marketing Campaign Statistics
 
 In Acumatica ERP, you can view the following marketing campaign statistics on the [Marketing Campaigns](CR_20_20_00.md) \(CR202000\) form:
 

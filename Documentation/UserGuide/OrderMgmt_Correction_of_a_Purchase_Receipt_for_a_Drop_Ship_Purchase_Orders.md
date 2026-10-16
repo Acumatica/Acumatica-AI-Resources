@@ -1,4 +1,4 @@
-# Purchase Receipt Correction: Correction of Receipts for Drop-Ship Purchase Orders {#_698d340d-14de-4a94-9d08-860519b7917f .concept}
+# Purchase Receipt Correction: Correction of Receipts for Drop-Ship Purchase Orders
 
 This topic explains how you can correct a released purchase receipt for a drop-ship purchase order—that is, a purchase order of the *Drop-Ship* type.
 
@@ -18,7 +18,7 @@ If you update a purchase receipt line on the **Details** tab, the system automat
 
 To complete the correction process, you click **Release** on the More menu. The system assigns the *Released* status to the correction receipt and the *Canceled* status to the original receipt.
 
-## Results of Releasing the Correction Receipt { .section}
+## Results of Releasing the Correction Receipt
 
 If the receipt quantity of a correction receipt line changes on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form, the system does the following:
 
@@ -35,13 +35,12 @@ For each correction receipt line with a changed quantity, the system also change
     -   Selects the **Completed** check box in the corresponding lines of the related sales order and purchase order if the full quantity of the item has been received.
     -   If all lines of the related sales or purchase order become completed, assigns the *Completed* status to this order.
 
-## Workflow of the Correction of a Purchase Receipt { .section}
+## Workflow of the Correction of a Purchase Receipt
 
 The following diagram illustrates the workflow related to the correction of a purchase receipt for a drop-ship purchase order.
 
-![](Images/diag_OrderMgmt_Correction_of_Purchase_Receipts_Drop-Ship.png)
 
-## Requirements for the Original Purchase Receipt {#_33d5967d-733a-4341-93af-fdc4fd1bf8af .section}
+## Requirements for the Original Purchase Receipt
 
 On the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form, you can correct a purchase receipt for a drop-ship purchase order only if the receipt meets all of these requirements:
 
@@ -53,7 +52,7 @@ On the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form, you can correct a 
 -   Its lines are not included in sales invoices that haven't been canceled.
 -   Its related purchase order has no related AP bills, except for those that have been fully reversed. The system checks the purchase order if it has the **Allow AP Bill Before Receipt** check box selected on the **Other** tab of the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form.
 
-## Editable Details and Settings of the Correction Purchase Receipt {#_45f38a04-96f6-45ce-b30a-671b241c18bc .section}
+## Editable Details and Settings of the Correction Purchase Receipt
 
 In a correction receipt for a drop-ship purchase order, you can update the following elements in the Summary area of the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form:
 
@@ -85,7 +84,7 @@ In a line of the correction receipt, you can edit the values in the following co
 
 During the correction, if you accidentally make changes to a line on the **Details** tab, you can then click **Cancel** for this line on the table toolbar. The system will discard all changes and revert the line to its original state at the time of document creation. Also, it will clear the **Corrected** check box in the line. Note that if the **Corrected** check box in the line is selected due to the change of **Date** or **Exchange Rate** in the Summary area, it will remain selected.
 
-## Restrictions Applied to the Original and Correction Receipts {#_8903481e-38c7-48bf-a5a3-4c77475dd1b9 .section}
+## Restrictions Applied to the Original and Correction Receipts
 
 While an original receipt has the *Under Correction* status, you can't do the following:
 
@@ -106,7 +105,7 @@ In a correction receipt, you can't add lines or delete lines that were copied fr
 -   Sales invoices
 -   Landed cost documents
 
-## Correction of a Purchase Receipt with a Canceled Invoice {#ReleaseNotes-PurchaseReceiptCorrection_GRC_ForDrop-ShipReceipts-CorrectionorCancellationofDrop-ShipPOReceiptwithCanceledInvoice .section}
+## Correction of a Purchase Receipt with a Canceled Invoice
 
 If a purchase receipt for a drop-ship purchase order has a related sales invoice that has been released, this receipt also has a related inventory issue. If you cancel the sales invoice and then correct the purchase receipt, the system cancels the original purchase receipt. The system also automatically generates and releases a reversal inventory issue with a reversal batch of transactions that fully reverse the transactions generated on the release of the original inventory issue. The reversal inventory issue is released automatically, regardless of the state of the **Release IN Documents Automatically** check box on the [Purchase Orders Preferences](PO_10_10_00.md) \(PO101000\) form.
 

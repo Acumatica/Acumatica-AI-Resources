@@ -1,4 +1,4 @@
-# To Delete an Integration Scenario from a Project {#_b088f20a-2948-4453-97ac-d2b929b26bed .concept}
+# To Delete an Integration Scenario from a Project
 
 To remove an *XportScenario* item from a project, perform the following actions:
 

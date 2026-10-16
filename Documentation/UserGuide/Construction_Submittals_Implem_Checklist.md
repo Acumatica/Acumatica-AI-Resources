@@ -1,8 +1,8 @@
-# Submittals: Implementation Checklist {#_4155bae6-65c6-439b-a5aa-181691f65a56 .concept}
+# Submittals: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for processing submittals, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you initially process submittals, you make sure that the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -14,7 +14,7 @@ We recommend that before you initially process submittals, you make sure that th
 |[Employees](EP_20_30_00.md#) \(EP203000\) form|The necessary employee accounts for employees involved in the submittal process have been defined.|
 |[Contacts](CR_30_20_00.md#) \(CR302000\) form|The necessary contacts involved in the submittal process have been created.|
 
-## Other Settings That Affect the Workflow {#section_hdg_ksk_4pb .section}
+## Other Settings That Affect the Workflow
 
 You can affect submittals and their processing by specifying additional settings as follows:
 
@@ -24,7 +24,7 @@ You can affect submittals and their processing by specifying additional settings
     By default, the *SUBMITTAL* numbering sequence specifies that the submittal identifier is an automatically generated alphanumeric string that starts with the *SU* prefix and is followed by six digits, such as *SU-000001*.
 
 
-## Validation of Configuration {#section_qm2_fgj_4pb .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you process a submittal by performing instructions similar to those described in [Submittals: Process Activity](Construction_Submittals_Process_Activity.md).
 

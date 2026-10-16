@@ -1,10 +1,10 @@
-# Workflow-Identifying Fields: To Automate Transitions by Using Conditions \(in the Diagram View\) {#_641b9029-4c53-4915-a474-aad1c61c3a5b .task}
+# Workflow-Identifying Fields: To Automate Transitions by Using Conditions \(in the Diagram View\)
 
 The following activity will walk you through the process of adding to the workflow new transitions that are performed automatically when conditions are met. You will use the [Workflow \(Diagram View\)](../UserGuide/AU_20_10_30_VisualEditor.md) page to perform this activity.
 
 **Tip:** The diagram view is available in only the Classic UI.
 
-## Story {#section_ivh_fqp_jhc .section}
+## Story
 
 In the predefined sales order workflow, when a user clicks **Hold** on the form toolbar or More menu of the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form, the `Hold (putOnHold)` action triggers transitions to the `On Hold` state from any of the following states:
 
@@ -18,11 +18,11 @@ Suppose that you are a technical specialist. In the customized workflow, you nee
 
 **Tip:** You may be considering the use of the system `putOnHold` action instead of a custom one. However, you cannot adjust a system action to be run automatically by a condition, because system actions cannot be automated in this way. Therefore, you cannot use the system action in this scenario.
 
-## Process Overview {#section_kvh_fqp_jhc .section}
+## Process Overview
 
 By using the [Workflow \(Diagram View\)](../UserGuide/AU_20_10_30_VisualEditor.md) page, you will create a transition from the `Open` state to the `On Hold` state. To do so, on the same page, you will create a new action that triggers this transition, and specify the conditions for it. You will then add transitions to the `On Hold` state from other states.
 
-## System Preparation {#section_lvh_fqp_jhc .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -33,7 +33,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  Make sure that you have learned how to add actions and transitions, as described in [Action Configuration: General Information](WorkflowUI_Actions_GeneralInfo.md) and [Conditions and Transitions: General Information](WorkflowUI_ConditionsTransitions_GeneralInfo.md).
 3.  Make sure that you have completed the [Workflow-Identifying Fields: To Add Conditions with User-Defined Fields](WorkflowUI_WorkflowIdentifying_Activity_AddConditions.md) activity.
 
-## Step 1: Adding a New Transition Between the Open State and the On Hold State {#section_mvh_fqp_jhc .section}
+## Step 1: Adding a New Transition Between the Open State and the On Hold State
 
 You will create a transition from the `On Hold` state to the `Open` state. In the Customization Project Editor for the *SalesOrdersCheckHold* customization project, perform the following instructions:
 
@@ -61,7 +61,7 @@ You will create a transition from the `On Hold` state to the `Open` state. In th
 
 9.  On the page toolbar, click **Save**.
 
-## Step 2: Adding New Transitions Between Other States and the On Hold state {#section_ovh_fqp_jhc .section}
+## Step 2: Adding New Transitions Between Other States and the On Hold state
 
 You will create transitions from the `Pending Processing`, `Awaiting Payment`, `Credit Hold`, and `Back Order` states to the `On Hold` state. While you are still working with the diagram view of the SO301000 \(Sales Orders\) State Diagram: Sales Order page, perform the following instructions:
 
@@ -73,7 +73,7 @@ You will create transitions from the `Pending Processing`, `Awaiting Payment`, `
 4.  On the page toolbar, click **Save**.
 5.  Repeat Instructions 1 through 4 for each of the following states: `Awaiting Payment`, `Credit Hold`, and `Back Order`.
 
-## Step 3: Duplicating the Settings of the Predefined Transitions in the Added Transitions {#section_pvh_fqp_jhc .section}
+## Step 3: Duplicating the Settings of the Predefined Transitions in the Added Transitions
 
 The transition from other states to the `On Hold` state should have the same settings as the respective transitions triggered by the predefined `Hold` action. Thus, you will adjust the new transitions by duplicating the settings of the respective transitions triggered by the predefined action. While you are still working with the diagram view of the SO301000 \(Sales Orders\) State Diagram: Sales Order page in the Customization Project Editor, do the following:
 
@@ -117,7 +117,7 @@ The transition from other states to the `On Hold` state should have the same set
 
 **Tip:** You do not modify the settings of the transitions from the `Awaiting Payment` and `Pending Processing` states to the `On Hold` state because the corresponding predefined transitions do not update any fields after the transition is completed.
 
-## Step 4: Duplicating the Settings of the Predefined Action in the Added Action {#section_rvh_fqp_jhc .section}
+## Step 4: Duplicating the Settings of the Predefined Action in the Added Action
 
 Because the `putOnHoldAuto` action should put a sales order on hold, the `Hold` field should be set to *True* when this action is performed, as is the case in the predefined `putOnHold` action. Also, this action should not be visible to users, because it is an auxiliary action that the system uses to automatically put the sales order on hold on the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form if it has an **Order Total** of greater than $800 and it has not been put on hold manually. To implement these settings, perform the following instructions:
 
@@ -143,7 +143,7 @@ Because the `putOnHoldAuto` action should put a sales order on hold, the `Hold` 
 
 4.  Click **Save** to close the dialog box and save your changes.
 
-## Step 5: Automating the Execution of Actions {#section_tvh_fqp_jhc .section}
+## Step 5: Automating the Execution of Actions
 
 You need to add a condition for the `putOnHoldAuto` action so that this action is performed automatically. With this action, a sales order should not remain in the `Open` state if its **Order Total** is greater than $800 and it has not been put on hold manually.
 

@@ -1,10 +1,10 @@
-# Bank Reconciliation: Transaction Matching {#_137d07d2-405c-46a5-b68b-e5ca9dfb0f5d .concept}
+# Bank Reconciliation: Transaction Matching
 
 You match transactions for the account to which the bank statement is uploaded by using the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form. The left pane displays the not-yet-processed transactions imported from bank statements; you need to review these transactions. The tabs on the right pane show the possible matches for bank transactions. By clicking **Auto-Match** on the form toolbar, you run the auto-matching process for the bank transactions: the system searches for possible matching payments and for documents to which the payment could be applied.
 
 **Tip:** When completing a bank reconciliation, you may need to export selected bank transactions to an Excel file. For example, you can export unmatched bank transactions and email them to the responsible employees for investigation. To export transactions, you first select the criteria in the Filter box on the table toolbar in the left pane of the [Process Bank Transactions](CA_30_60_00.md) form. You then click the **Export to Excel** button.
 
-## Auto-Matching {#section_p22_kjv_vxb .section}
+## Auto-Matching
 
 In Acumatica ERP, the automatic matching process uses the available information about imported transactions when searching for matching documents and calculating the relevance rate, which is a measure of how closely a document matches the selected transaction.
 
@@ -12,16 +12,32 @@ When you run the auto-matching process, the system searches for possible matchin
 
 To find the matching payments for a bank transaction, the system filters the cash account transactions by the specified match settings and calculates the match relevance for the possible candidates. The relevance shows how similar the bank transaction is to one cash account transaction or multiple transactions in the system. The transactions are compared by three factors: the reference number, the transaction date \(document date\), and the payee name \(if any\). The candidates with high relevance are recognized as the best candidates and are matched automatically.
 
-**Tip:** After the auto-matching process is done, the matched transactions become excluded from the next run of the auto-matching process. If you need to rerun the auto-matching process for these transactions, click **Unmatch** for a particular transaction or click **Unmatch All** to clear matches for all transactions at the same time, and then click **Auto-Match** again.
+**Tip:** After the auto-matching process is done, the matched transactions become excluded from the next run of the auto-matching process. If you need to rerun the auto-matching process for these transactions, click **Unmatch** for a particular transaction or **Unmatch All** to clear matches for all transactions at the same time, and then click **Auto-Match** again.
 
 The auto-matching process supports the parent-child customer structures. The parent-child functionality appears in the system if the *Parent-Child Customer Relationship* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
 If the matched invoice belongs to a child customer with the **Parent Account** box filled in and the **Consolidate Balance** check box selected on the [Customers](AR_30_30_00.md) \(AR303000\) form, the system checks whether the **Payee/Payer** matches the parent’s **Account Name**:
 
--   If they match, the **Business Account** box is set to the parent customer.
+-   If they match, the **Business Account** box is filled in with the parent customer.
 -   If they don't match, the **Business Account** box remains filled in with the child customer.
 
-## Matching to Multiple Documents {#section_t22_kjv_vxb .section}
+## Matching by a Confirmed Payee
+
+The payee factor works best when the payee received from your bank matches the vendor or customer name stored in the system. Often the two differ, so the payee relevance for the correct document is low and the transaction is not matched automatically. You then have to repeatedly match these transactions manually.
+
+To reduce this repeated work, the system learns from the matches you confirm. Each time you manually match a bank transaction to a document and process it successfully, the system remembers the relationship between the cash account, the payee value received from the bank, and the vendor or customer on the matched document.
+
+The next time a bank transaction with the same payee value is received for the same cash account, the system gives a stronger payee match to the documents of that confirmed vendor or customer. As a result, the transaction is much more likely to be matched automatically.
+
+If no confirmed match exists yet for a payee, the system calculates payee relevance as usual—by comparing the payee text with the vendor and customer names in the system. If you later match the same payee to a different vendor or customer and process the transaction successfully, the system updates what it remembered and uses your latest confirmed match from then on.
+
+**Attention:**
+
+The system uses a confirmed payee match only when the payee factor has a nonzero weight in relevance calculation. If the **Doc. Payee Weight** is *0* in the **Transaction Matching Settings** dialog box, the payee is ignored during matching, and confirmed matches have no effect.
+
+The system remembers a payee match only when you match a transaction manually and then process it. Transactions matched automatically when you click **Auto-Match** on the toolbar of the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form do not change what the system remembers.
+
+## Matching to Multiple Documents
 
 It is not uncommon that a company receives one bulk transaction that includes several documents from different customers or vendors. In this case, they might need to match them all to one bank transaction in the system instead of matching one bank transaction to one bank document. In Acumatica ERP, you can match one bank transaction to multiple documents \(invoices, credit memos, payments, bills, debit adjustments, receipts, and disbursements\). The sum of the matched document amounts minus the amount of credit memos for AR documents or of debit adjustments for AP documents must be equal to the amount of the bank transaction.
 
@@ -61,7 +77,7 @@ When the cash transaction is created, taxes are automatically recalculated, and 
 
 After the matching is completed, if you want to see the details and the amounts of the matched receipts and disbursements, you view them in the table on the [Bank Transactions History](CA_40_20_00.md) \(CA402000\) form.
 
-## Matching of Disbursements { .section}
+## Matching of Disbursements
 
 In the **Disbursement Matching** section of the **Bank Statements** tab on the [Cash Management Preferences](CA_10_10_00.md) \(CA101000\) form, you specify the settings for matching of AP documents to bank transactions.
 
@@ -69,7 +85,7 @@ If you want to allow matching of disbursement transactions to AR credit memos, y
 
 If the check box is cleared \(the default value\), disbursement bank transactions are allowed to be matched to AP bills only.
 
-## Matching of Receipts { .section}
+## Matching of Receipts
 
 In the **Receipt Matching** section of the **Bank Statements** tab on the [Cash Management Preferences](CA_10_10_00.md) \(CA101000\) form, you specify the settings for matching of AR documents to bank transactions.
 
@@ -77,7 +93,7 @@ If you want to allow matching of receipt transactions to AP debit adjustments, y
 
 If the check box is cleared \(the default value\), receipt bank transactions are allowed to be matched to AR invoices only.
 
-## Matching of Documents with a Cash Discount { .section}
+## Matching of Documents with a Cash Discount
 
 On the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form, matching of documents with cash discounts is supported. A bank transaction is matched to an invoice with a cash discount based on the following rules:
 

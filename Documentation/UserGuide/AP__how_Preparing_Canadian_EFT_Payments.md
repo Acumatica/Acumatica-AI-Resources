@@ -1,17 +1,17 @@
-# To Prepare Canadian EFT Payments {#_3c120d1b-041c-44a8-a02c-14fe411f98cf .task}
+# To Prepare Canadian EFT Payments
 
 To pay a vendor through Canadian EFT, you perform the following steps:
 
 1.  Prepare payments for export by grouping them into a batch. You can create a batch for one EFT or for multiple EFT payments. This topic describes how you prepare EFT payments for export by using the [Process Payments / Print Checks](AP_50_50_00.md) \(AP505000\) form.
 2.  Export the batch into a file, as described in [To Export Canadian EFT Payments](AP__how_Exporting_Canadian_EFT_Payments.md).
 
-## Before You Proceed {#section_jp4_njv_vxb .section}
+## Before You Proceed
 
 Make sure that the appropriate payment documents have been created on the [Checks and Payments](AP_30_20_00.md) \(AP302000\) but not yet released. The payment method to be used for Canadian EFT payments must be selected in the **Payment Method** box for these payments.
 
 Acumatica ERP provides the *Direct Debit* type for payment methods to be used for Canadian EFT payments. You should associate this payment method with each vendor that prefers EFT. In addition, the file export functionality must be set up in the system to export batches as a file. For more information, see [Processing Canadian EFT Payments](AP__con_Canadian_EFT_Payment_Support.md).
 
-## To Prepare Canadian EFT Payments for Export {#section_mp4_njv_vxb .section}
+## To Prepare Canadian EFT Payments for Export
 
 1.  Open the [Process Payments / Print Checks](AP_50_50_00.md) \(AP505000\) form.
 2.  In the **Payment Method** box of the Selection area, select a payment method that is defined to be used for Canadian EFT payments in your system.

@@ -1,8 +1,8 @@
-# Sales from Multiple Warehouses: General Information {#_d826b5f1-a25a-44e7-a801-5124a679c25c .concept}
+# Sales from Multiple Warehouses: General Information
 
 When you are entering a sales order, you may notice that some of the ordered items are not available in the warehouse from which you are going to ship the order, but the quantity needed to fulfill the order is available in another warehouse. For fulfilling this sales order, you need to allocate items in the other warehouse, and then transfer these items to the warehouse from which the order will be shipped. In Acumatica ERP, you can process the transfer of allocated goods from one warehouse to another by creating and processing a transfer order based on the applicable sales order.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -11,14 +11,14 @@ In this chapter, you will do the following:
 -   Process a transfer order to completion to transfer the included items.
 -   Process a sales order after the items have been transferred to the destination warehouse.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may need to process a sales order with goods from multiple warehouses in the following cases:
 
 -   You have only a part of the ordered items in the warehouse specified in the sales order, but the rest of the items are currently available at another warehouse \(or multiple warehouses\), so the sales order can be completed with the items from different warehouses.
 -   Your company uses one warehouse as a distribution center, so that all items are received to this warehouse and then are distributed to smaller warehouses on demand.
 
-## Sale of Stock Items from Multiple Warehouses { .section}
+## Sale of Stock Items from Multiple Warehouses
 
 When you process a sale of inventory items, you can reserve one line or multiple lines of an open sales order of the *SO* type in a warehouse other than the warehouse selected in the line. To be able to process a sales order with stock items that you have allocated \(that is, reserved\) in a remote warehouse \(that is, a warehouse other than the one specified in the order\), you first need to transfer the reserved items from the remote source warehouse \(where you reserved the items\) to the destination warehouse \(for which the sales order is processed\). For this purpose, you need to prepare and process a transfer order \(that is, an order of the *TR* predefined order type\).
 
@@ -36,11 +36,10 @@ On release of the transfer receipt, the inventory receipt transaction is generat
 
 After all transferred stock items have been received to the destination warehouse, you complete the sales order as you would if you had just entered it: You process a shipment of all items from the destination warehouse, and you process the related sales invoice. For details about the general steps of sales order processing, see [Processing Sales of Stock Items](OrderMgmt_Sale_of_Stock_Items_Mapref.md).
 
-## Workflow of a Sale from Multiple Warehouses { .section}
+## Workflow of a Sale from Multiple Warehouses
 
 For a sales order for which the items have been allocated in multiple warehouses, the processing involves the actions and generated documents shown in the following diagram.
 
-![](Images/diag_OrderMgmt_Sale_from_Multiple_Warehouses.png)
 
 **Parent topic:**[Processing Sales from Multiple Warehouses](../UserGuide/OrderMgmt_Sale_from_Multiple_Warehouses_Mapref.md)
 

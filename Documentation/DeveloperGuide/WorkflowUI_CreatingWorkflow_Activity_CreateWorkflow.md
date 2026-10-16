@@ -1,14 +1,14 @@
-# Workflow Creation: To Add a Workflow {#_80bba74c-dc72-4817-8070-dc9bed4efdd3 .task}
+# Workflow Creation: To Add a Workflow
 
 The following activity will walk you through the process of adding the screen associated with the [Task](../UserGuide/CR_30_60_20.md) \(CR306020\) form to the list of customized screens and adding a workflow for the screen.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist that develops business solutions for the HardwareViewpoint company. You need to create a workflow for the [Task](../UserGuide/CR_30_60_20.md) \(CR306020\) form, which is planned as specified in [Workflow Creation: Planning a Workflow for a Form](WorkflowUI_CreatingWorkflow_PlanWorkflow.md).
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following to begin the customization of the [Task](../UserGuide/CR_30_60_20.md) \(CR306020\) form and add its workflow:
 
@@ -16,7 +16,7 @@ In this activity, you will do the following to begin the customization of the [T
 2.  Create a workflow for this form on the [Workflows](../UserGuide/AU_20_10_20.md) page.
 3.  Navigate to the [Workflow \(Tree View\)](../UserGuide/AU_20_10_30.md) page to view the workflow.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin creating a workflow for the [Task](../UserGuide/CR_30_60_20.md) \(CR306020\) form, do the following:
 
@@ -26,7 +26,7 @@ Before you begin creating a workflow for the [Task](../UserGuide/CR_30_60_20.md)
 
 2.  On the [Customization Projects](../UserGuide/SM_20_45_05.md) \(SM204505\) form, create a customization project named *TaskWorkflow*.
 
-## Step 1: Adding the Screen to the List of Customized Screens { .section}
+## Step 1: Adding the Screen to the List of Customized Screens
 
 To add the screen associated with the [Task](../UserGuide/CR_30_60_20.md) \(CR306020\) form to the list of customized screens, do the following:
 
@@ -42,7 +42,7 @@ To add the screen associated with the [Task](../UserGuide/CR_30_60_20.md) \(CR30
     The screen with the *CR306020* screen ID and the *Task* title is added to the list of customized screens.
 
 
-## Step 2: Creating a Workflow for the Form { .section}
+## Step 2: Creating a Workflow for the Form
 
 Create a new workflow for the added screen as follows:
 

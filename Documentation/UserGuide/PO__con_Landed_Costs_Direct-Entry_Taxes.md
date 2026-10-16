@@ -1,4 +1,4 @@
-# Applying Direct-Entry Taxes to Landed Cost Documents {#_e4fa9dcb-1371-4429-ac9e-3a2453a0cf1d .concept}
+# Applying Direct-Entry Taxes to Landed Cost Documents
 
 On the [Landed Costs](PO_30_30_00.md) \(PO303000\) form, you can create a landed cost document to which a direct-entry tax is applied. A direct-entry tax has the **Direct-Entry Tax** check box selected on the [Taxes](TX_20_50_00.md) \(TX205000\) form. For details, see [Direct Tax Payment: General Information](Taxes_Paying_Tax_Directly_GeneralInfo.md).
 

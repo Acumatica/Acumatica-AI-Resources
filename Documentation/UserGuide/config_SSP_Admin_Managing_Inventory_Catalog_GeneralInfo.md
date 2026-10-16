@@ -1,10 +1,12 @@
-# Managing the Inventory Catalog in the Self-Service Portal: General Information {#_46c4a3bd-eab1-485f-9ded-bc22557a57b4 .concept}
+# Managing the Inventory Catalog in the Self-Service Portal: General Information
 
 With the inventory catalog functionality in the Acumatica Self-Service Portal, you provide your customers with access to the products and services that your company sells. You use your Acumatica ERP instance to create the catalog and manage the product and service descriptions and images. In the Self-Service Portal, your customers can then add the products and services in the catalog to the cart and create orders.
 
-## Learning Objectives {#section_vmw_1ph_lpb .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
+
+In this lesson, you will do the following:
 
 -   Develop an understanding of the tasks that must be performed for the configuration of the inventory catalog
 -   Configure order management in the Self-Service Portal
@@ -13,14 +15,14 @@ In this chapter, you will do the following:
 -   Manage sales categories for inventory items
 -   View the inventory items in the catalog and add an item to the cart in the Self-Service Portal
 
-## Applicable Scenarios {#section_drq_bph_lpb .section}
+## Applicable Scenarios
 
 You may need to configure order management and the inventory catalog in the Self-Service Portal in the following cases:
 
 -   You want to provide your customers with online and up-to-date access to the catalog of products or services that your company sells.
 -   You want to receive orders that customers create in the Self-Service Portal.
 
-## Workflow of the Configuration of the Inventory Catalog in the Self-Service Portal { .section}
+## Workflow of the Configuration of the Inventory Catalog in the Self-Service Portal
 
 To prepare the system for customers to use the inventory catalog and place orders in the Self-Service Portal, you perform the following general steps:
 
@@ -42,13 +44,13 @@ To prepare the system for customers to use the inventory catalog and place order
 7.  In the Self-Service Portal, on the **B2B Ordering Settings** tab of the Portal Preferences \(SP800000\) form, you specify the settings for order management, as illustrated in [Managing the Inventory Catalog in the Self-Service Portal: Implementation Activity](config_SSP_Admin_Managing_Inventory_Catalog_Implem_Activity.md).
 8.  In the Self-Service Portal, you create a catalog of products and services that will be available for ordering to the customers by adding items for sale to the catalog, as described in the following sections and as illustrated in [Managing the Inventory Catalog in the Self-Service Portal: Implementation Activity](config_SSP_Admin_Managing_Inventory_Catalog_Implem_Activity.md).
 
-## Sales Categories of Inventory Items { .section}
+## Sales Categories of Inventory Items
 
 On the [Item Sales Categories](IN_20_40_60.md) \(IN204060\) form of Acumatica ERP, a user with *Administrator* rights can create a hierarchical structure of sales categories that will be available for selection to the users on the Catalog \(SP700000\) form in the Self-Service Portal.
 
 In the **Category** box of this form, a portal user can click the magnifier button to view the catalog structure, select a sales category, and view inventory items in the selected sales category.
 
-## Creation of the Catalog of Products and Services in the Self-Service Portal { .section}
+## Creation of the Catalog of Products and Services in the Self-Service Portal
 
 With order management in the Self-Service Portal, you can add items for sale \(which have been created in Acumatica ERP\) to the catalog in the Self-Service Portal. These items for sale are inventory items.
 
@@ -60,9 +62,7 @@ Then in the Self-Service Portal, you add to the categories items for sale, which
 
 **Attention:** Inventory items that do not have a sales category are not displayed in the catalog on the Catalog \(SP700000\) form in the Self-Service Portal and are unavailable for selection to the portal users.
 
-## Descriptions and Images of Inventory Items { .section}
+## Descriptions and Images of Inventory Items
 
 In Acumatica ERP, all inventory items include settings: identifier, description, image, price, cost, unit of measure \(UOM\), default warehouse, and default vendor information. On the Catalog \(SP700000\) form, a portal user can view the quantity, description, price, discount, and warehouse for each item. The user can click an item and in the **Item Details** dialog box, which opens, view additional item settings, such as the image and any attributes of the inventory item.
-
-**Parent topic:**[Managing the Inventory Catalog in the Self-Service Portal](../UserGuide/config_SSP_Admin_Managing_Inventory_Catalog_Mapref.md)
 

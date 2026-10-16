@@ -1,8 +1,8 @@
-# Applying a Pending VAT: Implementation Checklist {#_4eaa750d-6d4d-49c4-9164-e259b9975355 .concept}
+# Applying a Pending VAT: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for applying a pending VAT and recognizing it, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist {#section_ppp_fjv_vxb .section}
+## Implementation Checklist
 
 We recommend that before you initially process documents with pending VAT and recognize the pending VAT, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -18,7 +18,7 @@ We recommend that before you initially process documents with pending VAT and re
 |[Credit Terms](CS_20_65_00.md) \(CS206500\)|The multiple-installment credit terms used in an AP bill to which a pending VAT is applied should be created.|
 |[Chart of Accounts](GL_20_25_00.md)\(GL202500\)|The needed Pending Tax Payable and Pending Tax Claimable accounts have been created.|
 
-## Settings That Affect the Workflow {#section_rpp_fjv_vxb .section}
+## Settings That Affect the Workflow
 
 The following settings and entities should be specified and defined, respectively:
 
@@ -30,7 +30,7 @@ The following settings and entities should be specified and defined, respectivel
     -   Clear the **Require Payment Reference on Entry** check box in the **Data Entry Settings** section. This setting means that you do not have to enter a payment reference number in the **Payment Ref.** box when creating an AR document on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
     -   Make sure that the **Automatically Post on Release** check box is selected in the **Posting Settings** section. This setting causes AR documents to be automatically posted to the general ledger once they are released.
 
-## Validation of Configuration {#section_tpp_fjv_vxb .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you process documents with pending VAT and recognize VAT by performing instructions similar to those described in [Applying a Pending VAT: To Apply a Pending VAT to an AR Invoice](Taxes_Applying_Pending_VAT_Process_Activity.md) and [Applying a Pending VAT: To Apply a Pending VAT to an AP Bill with Multiple Installments](Taxes_Applying_Pending_VAT_Process_MultipleInstallments.md).
 

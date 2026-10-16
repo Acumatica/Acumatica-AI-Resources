@@ -1,8 +1,8 @@
-# To Link a File Data Provider to an Existing File {#_a24d49eb-1b53-47d9-b720-7ee5684302c4 .task}
+# To Link a File Data Provider to an Existing File
 
 The file that should be used for creating the data provider may be already uploaded to Acumatica ERP. In this case, you perform the steps described below. You use the [Search in Files](SM_20_25_20.md) \(SM202520\) form to get the link of the file you need to link to a file provider. You then use the [Data Providers](SM_20_60_15.md) \(SM206015\) form to create a provider and specify the copied link on that form.
 
-## To Link a File Data Provider to an Existing File { .section}
+## To Link a File Data Provider to an Existing File
 
 1.  On [Search in Files](SM_20_25_20.md) \(SM202520\) form, in the **File Name Contains** box, type the name of the file that you need to link to a file provider and press Enter. The table in the lower right pane contains the list of files matching the specified criteria.
 2.  For the needed file that appeared in the search results, click **Get File Link**, and copy the internal link to the file from the **Attached File Link** dialog box.

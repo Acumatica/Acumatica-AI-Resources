@@ -1,12 +1,12 @@
-# Combined Subaccounts: Configuration Prerequisites {#_cee86514-ed7d-4afe-b147-1bff8c86a026 .concept}
+# Combined Subaccounts: Configuration Prerequisites
 
 Before you start to specify subaccount masks, you must be sure that the system has been configured properly, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md#) \(CS100000\) form, the minimum set of features and the *Subaccounts* feature have to be enabled.
 
-## Configuring the System { .section}
+## Configuring the System
 
 You need to make sure that the following implementation tasks have been performed in Acumatica ERP before you begin specifying subaccount masks:
 

@@ -1,4 +1,4 @@
-# Configuring Push Notifications for Real-Time Monitoring {#_d8d2835f-5450-4b83-852e-dbadd76a5af8 .concept}
+# Configuring Push Notifications for Real-Time Monitoring
 
 Acumatica ERP provides the ability to configure push notifications so that external applications can track the changes to the data in Acumatica ERP. That is, you can configure Acumatica ERP to send notifications to a destination \(such as an HTTP address\) when specific data changes occur in Acumatica ERP. The external application can receive these notifications and process the information on the data changes. With push notifications, the external application does not need to continually poll the data to find out whether there are any changes to it, which helps improve the performance of the external application.
 

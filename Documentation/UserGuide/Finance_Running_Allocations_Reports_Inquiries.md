@@ -1,8 +1,8 @@
-# Running of Allocations: Related Forms {#_330b0c6b-df89-4b4f-ae97-cd79b32403a7 .concept}
+# Running of Allocations: Related Forms
 
 In this topic, you can find information about forms that provide inquiry and historical data related to allocations that have been run in the system.
 
-## Viewing Generated Batches for a Particular Allocation {#section_qsl_mjv_vxb .section}
+## Viewing Generated Batches for a Particular Allocation
 
 You can view the generated batches for a particular allocation in the following ways:
 

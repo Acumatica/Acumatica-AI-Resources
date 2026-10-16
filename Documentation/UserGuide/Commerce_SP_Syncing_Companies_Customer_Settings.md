@@ -1,8 +1,8 @@
-# Customer Synchronization: Default Settings {#_7be42551-3a9a-4f63-8d36-8aad8f7514c0 .concept}
+# Customer Synchronization: Default Settings
 
 The settings described in the sections below are applicable to the synchronization of both individual customers and business customers.
 
-## Default Customer Settings { .section}
+## Default Customer Settings
 
 When you activate the *Customer* or *Company* entity on the **Entities** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form, you need to also fill in the following boxes on the **Customers** tab:
 
@@ -23,7 +23,7 @@ When you activate the *Customer* or *Company* entity on the **Entities** tab of 
     For more information about segmented keys and numbering sequences, see [Managing Segmented Keys](SM__con_Managing_Segmented_Keys.md).
 
 
-## Default Customer Location Settings { .section}
+## Default Customer Location Settings
 
 To save shoppers time on entering address details with each purchase, Shopify provides the ability to store each customer's shipping addresses as well as create locations for companies. In Acumatica ERP, you can save more than one location for a customer account if the *Business Account Locations* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 

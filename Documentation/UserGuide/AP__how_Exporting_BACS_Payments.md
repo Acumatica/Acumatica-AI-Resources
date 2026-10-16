@@ -1,8 +1,8 @@
-# To Export BACS Payments {#_04af73ff-b060-4859-a03a-bde5c3ae4711 .task}
+# To Export BACS Payments
 
 You export a batch of BACS payments into a file. After the export of the batch, the file contains the required information to be processed by BACS.
 
-## To Export a Batch of BACS Payments {#section_dq4_njv_vxb .section}
+## To Export a Batch of BACS Payments
 
 1.  Open the [Batch Payments](../Shared/../UserGuide/AP_30_50_00.md) \(AP305000\) form.
 2.  In the **Reference Nbr.** box of the Summary area, select the identifier of the batch you want to export.

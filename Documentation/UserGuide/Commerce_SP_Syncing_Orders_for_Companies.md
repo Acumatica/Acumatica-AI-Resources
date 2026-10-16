@@ -1,8 +1,8 @@
-# Order Synchronization: Orders for Companies {#_23e5d6fb-bcd6-4ac8-b2ca-04cb87070b8d .concept}
+# Order Synchronization: Orders for Companies
 
 You can export orders that have been on behalf of a business customer \(company\) between Acumatica ERP and a Shopify store.
 
-## Import of an Order Placed on Behalf of a Company { .section}
+## Import of an Order Placed on Behalf of a Company
 
 Orders that a customer has placed in a Shopify store on behalf of a company are synchronized during the synchronization of the *Sales Order* entity. During the import of each order to Acumatica ERP, the system does the following:
 
@@ -17,7 +17,7 @@ Orders that a customer has placed in a Shopify store on behalf of a company are 
     2.  The shipping contact, based on the settings of the customer that placed the order
     3.  The billing details, based on the settings of the company's location that was selected during order placement
 
-## Export of an Order Placed on Behalf of a Company { .section}
+## Export of an Order Placed on Behalf of a Company
 
 In Acumatica ERP, a business customer is a customer for which **Customer Category** is set to *Organization* on the [Customers](AR_30_30_00.md) \(AR303000\) form. Orders that have been created in Acumatica ERP for a business customer are exported to a Shopify store during the synchronization of the *Sales Order* entity. During the export of such an order, the system does the following in the Shopify store:
 

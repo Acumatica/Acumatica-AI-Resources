@@ -1,16 +1,16 @@
-# Expense Claims: To Create an Expense Claim {#_92cb0452-d54b-4fdd-88cd-56638e5d949c .task}
+# Expense Claims: To Create an Expense Claim
 
 The following activity will walk you through the process of creating an expense claim.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that David Chubb, an employee of the sales department at the SweetLife Fruits &amp; Jams company, had a business lunch with Chris Rea, manager at Blue Cafe, and discussed the Blue Cafe's purchase of new juicers. After the lunch, David took a taxi to return to work and paid $15 with a personal credit card.
 
 Acting as David Chubb, you will enter an expense claim into the system and create the expense request for this claim on the fly.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -18,18 +18,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Non-Stock Items](IN_20_20_00.md#) \(IN202000\) form, the *TAXI* non-stock item with the *Expense* type has been created.
 -   On the [Employees](EP_20_30_00.md#) \(EP203000\) form, the account for David Chubb has been created and associated with the *chubb* user account.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create an expense claim for David Chubb's payment for a taxi on the [Expense Claim](EP_30_10_00.md) \(EP301000\) form. Then you will specify an expense receipt's settings on the **Details** tab of the [Expense Claim](EP_30_10_00.md) form and save the claim. You will submit the expense receipt on the [Expense Receipt](EP_30_10_20.md) \(EP301020\) form and then submit the created expense claim on the [Expense Claim](EP_30_10_00.md) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
 -   Launch the Acumatica ERP website, and sign in as David Chubb by using the *chubb* username and the *123* password.
 -   In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to today’s date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating an Expense Claim { .section}
+## Step 1: Creating an Expense Claim
 
 To create an expense claim for the taxi payment, do the following:
 
@@ -49,7 +49,7 @@ To create an expense claim for the taxi payment, do the following:
     -   **Paid With**: *Personal Account*
 5.  On the form toolbar, click **Save**.
 
-## Step 2: Submitting the Expense Receipt { .section}
+## Step 2: Submitting the Expense Receipt
 
 You can submit the expense claim only if the related expense receipt has the *Open* status. To submit the expense receipt and change its status to *Open*, do the following:
 
@@ -62,7 +62,7 @@ You can submit the expense claim only if the related expense receipt has the *Op
     The expense receipt’s status changes to *Open*. Now you can submit the expense claim.
 
 
-## Step 3: Submitting the Expense Claim { .section}
+## Step 3: Submitting the Expense Claim
 
 To submit the expense claim that you created in Step 1, do the following:
 

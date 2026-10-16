@@ -1,10 +1,10 @@
-# Contract Functionality Implementation: Discount Application to a Contract {#_9f33e6ff-9953-4f0f-9d4e-48563ae1b799 .concept}
+# Contract Functionality Implementation: Discount Application to a Contract
 
 In this topic, you will find details on the discount code that you can apply to a contract. The discount code determines the discount rate, the application rules, and the items it can be applied to.
 
 The discount codes that may be available for selection are created on the [Discount Codes](AR_20_90_00.md) \(AR209000\) form, and the discount sequences of each discount code are created on the [Discounts](AR_20_95_00.md) \(AR209500\) form.
 
-## Discounts Available for Selection { .section}
+## Discounts Available for Selection
 
 To apply a discount to a contract, open the **Details** tab on the [Customer Contracts](CT_30_10_00.md) \(CT301000\) form, and select a discount code in the lookup table for the **Promo Code** box.
 

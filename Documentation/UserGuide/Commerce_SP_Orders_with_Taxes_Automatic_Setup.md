@@ -1,8 +1,8 @@
-# Import of Taxes: External Tax Provider {#_e8ce3a66-c4b1-4b1e-bdf4-aaa63f28121e .concept}
+# Import of Taxes: External Tax Provider
 
 You can set up the synchronization of taxes if you use an external tax provider for automatic tax calculation and for tax reporting.
 
-## Configuration of Tax Synchronization for the External Tax Service { .section}
+## Configuration of Tax Synchronization for the External Tax Service
 
 To set up the synchronization of taxes for an external tax provider, you need to perform the following general steps:
 
@@ -10,7 +10,7 @@ To set up the synchronization of taxes for an external tax provider, you need to
 2.  Configure the integration of Acumatica ERP with the external tax provider by using the same account as was used in the previous step. For instructions on how to integrate Acumatica ERP with Avalara AvaTax, see [Setup of Online Integration with Avalara AvaTax](TX__con_Integrating_with_AvaTax.md).
 3.  Configure the synchronization of taxes with the Shopify store as described in the following section.
 
-## Tax Synchronization Settings { .section}
+## Tax Synchronization Settings
 
 To set up the tax synchronization with the Shopify store, you specify the following settings on the **Orders** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form as follows:
 
@@ -32,7 +32,7 @@ To set up the tax synchronization with the Shopify store, you specify the follow
     For information about the use of substitution lists for the synchronization of taxes, see [Import of Taxes: Substitution Lists](Commerce_BC_Syncing_Taxes_Substitution_Lists.md).
 
 
-## Handling of Long Tax Names { .section}
+## Handling of Long Tax Names
 
 If an external tax provider is used for tax calculation, sometimes tax names returned by the external tax provider can exceed the maximum allowed length of tax IDs supported by Acumatica ERP, \(which is currently 60 characters\). Long tax IDs are processed as follows:
 

@@ -1,4 +1,4 @@
-# Printing T4A Slips {#_77aaf45f-a0a3-48b3-ab0e-61e9c16d9c73 .concept}
+# Printing T4A Slips
 
 You can streamline your year-end tax reporting by printing T4A slips on the [Print/Email T4A Slips](AP_50_76_10.md) \(AP507610\) form.
 

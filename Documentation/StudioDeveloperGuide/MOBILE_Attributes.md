@@ -1,4 +1,4 @@
-# Adding Entity Attributes to Mobile Screens {#_2980fede-2c3c-41cf-8277-a7f27a9fb17f .concept}
+# Adding Entity Attributes to Mobile Screens
 
 In Acumatica ERP, for a class as a business object, you can define a list of entity attributes to gather specific information about members of the class. Attributes are defined for a particular class, which is a grouping of entities—such as leads, opportunities, customers, cases, projects, and stock or non-stock items—that have similar properties.
 
@@ -8,9 +8,8 @@ Thus, in a mobile application, entity attributes are displayed as a form or part
 
 Suppose that in the mobile app you need to display the attributes of the [Case Classes](../UserGuide/CR_20_60_00.md) form \(CR206000\) of Acumatica ERP, which are shown in the screenshot below.
 
-![](Images/Attr0.png "Viewing the Attributes tab on the Case Classes form")
 
-## Example: Configuring a Screen with a Group of Attributes { .section}
+## Example: Configuring a Screen with a Group of Attributes
 
 To see an example of creating a group for the attributes of a particular form, copy the code below to an `.xml` file, put the file in the `\App_Data\Mobile` folder of the Acumatica ERP website, and start the mobile application.
 
@@ -42,7 +41,6 @@ In this code, note that the sm:Attributes tag is wrapped in the group named *Cas
 
 The screenshot below shows the resulting screen in the mobile application.
 
-![](Images/Attributes.png "Viewing the Case Attributes group")
 
 Also, you can use the sm:Attributes tag to map a pair of columns from any grid of Acumatica ERP to a form view in the mobile app as a key-value pair. For example, if a grid contains a key field, a value field, and a field for sorting, to create a sorted group of key-value pairs of the grid on a form view of the mobile app, you might define the following &lt;sm:Attributes&gt; tag \(see [&lt;sm:Attributes&gt;](MOBILE_sm_Attributes.md) for details\).
 

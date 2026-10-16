@@ -1,26 +1,26 @@
-# Drawing Logs: Implementation Activity {#_d6c3d2b8-a925-483b-a91a-8feec9113761 .task}
+# Drawing Logs: Implementation Activity
 
 This activity will walk you through the process of configuring drawing logs and defining their disciplines and statuses.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the ToadGreen company needs to maintain drawing logs in the system and track their statuses. Acting as a system administrator, you need to perform the necessary configuration in the system.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 For the purposes of this activity, the *Construction* and *Construction Project Management* features have been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Process Overview {#section_qjw_hdr_v4b .section}
+## Process Overview
 
 You will configure a list of statuses to be used for the drawing logs on the [Project Management Preferences](PJ_10_10_00.md) \(PJ101000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as a system administrator by using the *gibbs* username and the *123* password.
 
-## Step: Specifying the Settings to Be Used for Drawing Logs { .section}
+## Step: Specifying the Settings to Be Used for Drawing Logs
 
 To specify the drawing log settings, do the following:
 

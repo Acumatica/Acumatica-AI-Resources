@@ -1,10 +1,9 @@
-# Customizing a Predefined Workflow from Code {#_bf8fc578-a6b7-447a-b913-1cfa8d56b73d .concept}
+# Customizing a Predefined Workflow from Code
 
 You can customize a workflow in Visual Studio or in the Code Editor with the help of Acumatica Framework.
 
 This example demonstrates the extending of the workflow for working with an opportunity by using Visual Studio. The predefined workflow for the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form includes the states \(shown in the blue rectangles and representing statuses\) and actions shown in the following diagram.
 
-![](images/Transitions_Example_Predefined.png "The predefined statuses and actions of opportunities")
 
 Suppose that in your customization efforts you need to incorporate a process of assigning a new opportunity before opening it. You need a new status for opportunities called *Assigned*. A user should be able to change a status from *New* to *Assigned* by clicking the **Assign** action, change the status from *Assigned* to*Open* by clicking the predefined **Accept** action, and change the status from *Assigned* to *New* by clicking the **Reject** action, which you will add. For an opportunity to be assigned, a user must be selected in the **Owner** box. Also, you need to add an auto-run action named `Auto-Assign` that is performed if a new opportunity is created and the **Owner** box is not empty. The `Auto-Assign` action changes the status of the opportunity to *Assigned*.
 
@@ -12,7 +11,6 @@ When a user clicks the **Accept** or **Reject** action, the user should provide 
 
 The following diagram presents the possible statuses after customization and the actions that change statuses.
 
-![](images/Transitions_Example_Code.png "The customized statuses and actions of opportunities")
 
 Based on these specifications, you will implement the new workflow for opportunities by performing the following general tasks, which are described in greater detail in the sections that follow:
 
@@ -38,11 +36,11 @@ Based on these specifications, you will implement the new workflow for opportuni
     For details on implementing Tasks 5–8, see [Update the Workflow Configuration](#_e35aa9db-0915-42c3-a68c-32292de58eb5).
 
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 To be able to customize a workflow in Visual Studio, you need to create an extension library for your customization project. For details, see [To Create an Extension Library](cg_platform_tocreateextensionlib.md).
 
-## Prepare the Graph Extension { .section}
+## Prepare the Graph Extension
 
 To prepare the graph extension, do the following:
 
@@ -101,7 +99,7 @@ To prepare the graph extension, do the following:
     ```
 
 
-## Add a New State Named Assigned {#_c083eddb-9de6-440f-bc26-ca3782f1a89b .section}
+## Add a New State Named Assigned
 
 To add the new *Assigned* state, do the following:
 
@@ -144,7 +142,7 @@ To add the new *Assigned* state, do the following:
     In the code above, you define the Assigned state, field values to be assigned in this state, and actions available in this state.
 
 
-## Add the Dialog Boxes {#_0e5ea709-d029-4ca2-a81c-7cbad57a1e9c .section}
+## Add the Dialog Boxes
 
 You need to add dialog boxes that will prompt users for more information when they invoke the `Accept`, `Reject`, and `Assign` actions. The following instructions describe how to declare a dialog box for the Accept action; you will add the other two dialog boxes by performing similar actions.
 
@@ -175,7 +173,7 @@ In the code above, you create a dialog box with the Details title and add to it 
 
 For the `Assign` and `Reject` actions, you can declare similar dialog boxes named `formAssign` and `formReject`. You need to add the Owner field based on the CROpportunity.ownerID field to the `formAssign` dialog box, and you need to add the Resolution field and the Details field based on the CROpportunity.details field to the `formReject` dialog box.
 
-## Add the OwnerNotEmpty Condition {#_8654dda6-a69b-42ba-9fa0-d0556be870b2 .section}
+## Add the OwnerNotEmpty Condition
 
 To define a new condition, in the overridden Configure method, declare the following variable.
 
@@ -184,7 +182,7 @@ var ownerNotNullCondition = context.Conditions.FromExpr(
   opp => opp.OwnerID != null).WithSharedName("OwnerNotEmpty");
 ```
 
-## Add Actions {#_c25a19c9-8256-43aa-a894-0d7a9118229d .section}
+## Add Actions
 
 To add the `Assign` action, declare the following variable in the overridden Configure method.
 
@@ -220,7 +218,7 @@ var actionAutoAssign = context.ActionDefinitions.CreateNew(_actionAutoAssign, ac
 		);
 ```
 
-## Update the Workflow Configuration {#_e35aa9db-0915-42c3-a68c-32292de58eb5 .section}
+## Update the Workflow Configuration
 
 To apply all the entities you have declared, you need to call the UpdateScreenConfigurationFor method in the overridden Configure method, as the following code shows.
 
@@ -343,7 +341,7 @@ In the code above, you are updating the workflow by doing the following:
     -   Adding new combo box values to the CROpportunity.status field
     -   Replacing the values of the CROpportunity.resolution field with new ones
 
-## Test the Customized Workflow { .section}
+## Test the Customized Workflow
 
 To test the customized workflow, do the following:
 

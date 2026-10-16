@@ -1,4 +1,4 @@
-# Assigning Leads to Owners and Workgroups {#_2466e388-8b37-435b-839f-46ee0cd6a2e0 .concept}
+# Assigning Leads to Owners and Workgroups
 
 In this chapter, you will find information about assigning leads to owners.
 

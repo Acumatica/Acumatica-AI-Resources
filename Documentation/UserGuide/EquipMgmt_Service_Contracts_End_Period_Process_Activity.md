@@ -1,4 +1,4 @@
-# Service Contracts: To Create and Process an End-Period Billing Service Contract \(Appointment with No Overage Items\) {#_3b04f6bb-1897-4ef2-80d6-af1f8e777957 .task}
+# Service Contracts: To Create and Process an End-Period Billing Service Contract \(Appointment with No Overage Items\)
 
 In this activity, you will create a service contract that is billed at the end of each billing period for the following:
 
@@ -9,13 +9,13 @@ You will also create a schedule for this service contract and generate appointme
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_ivl_qzs_kdc .section}
+## Story
 
 Suppose that the HM's Bakery and Cafe customer has agreed to enter into a contract with the SweetLife Service and Equipment Sales Center for one hour of cleaning a juicer every week. The contract states that one hour of service is paid every week at a price of $70; for overage cleaning services \(which are occasionally required\), a price of $85 per hour should be paid. The customer will pay at the end of each week based on the prices that are defined in the contract.
 
 The appointment schedule needs to be specified for the contract, and an appointment for the next week should be generated. You will perform the needed actions in the system, acting as the service manager, Maia Davis.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following configuration tasks have been performed to prepare the system for this activity to be performed:
 
@@ -34,18 +34,18 @@ In the *U100* dataset, the following configuration tasks have been performed to 
 -   On the [Non-Stock Items](IN_20_20_00.md#) \(IN202000\) form, the *CLEANING* non-stock item has been created. For this item, the *Service* is selected in the **Type** box on the **General** tab, and *Time* is selected in the **Billing Rule** box on the **Price/Cost** tab.
 -   On the [Equipment](FS_20_50_00.md) \(FS205000\) form, the *FSE00006 \(Commercial citrus juicer with a production rate of 1.5 liters per minute\)* target equipment has been defined.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create a service contract with the *End-Period Plus* billing type on the [Service Contracts](FS_30_57_00.md) \(FS305700\) form. In this service contract, you will specify the services to be provided during each billing period, along with the prices for the items covered by the contract and for any overage items. Next, on the [Service Contract Schedules](FS_30_51_00.md) \(FS305100\) form, you will create a contract schedule that includes the services to be provided in appointments. Finally, you will generate an appointment based on the schedule by using the [Generate Maintenance from Contract Schedules](FS_50_03_00.md) \(FS500300\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare the system for this activity to be performed, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as a service manager by using the *davis* username, and the *123* password.
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, click the Business Date menu button, and select the 1/30/2026 date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating a Service Contract with End-Period Billing {#section_khr_mzs_kdc .section}
+## Step 1: Creating a Service Contract with End-Period Billing
 
 To create the service contract with end-period billing for HM's Bakery and Cafe, do the following:
 
@@ -73,9 +73,8 @@ To create the service contract with end-period billing for HM's Bakery and Cafe,
     The first billing period \(1/30/2026 - 02/05/2026\) has been activated during contract activation, as the following screenshot shows.
 
 
-![](Images/EquipMgmt_Service_Contract_Billing_Period.png "The service contract")
 
-## Step 2: Creating a Contract Schedule and Generating Appointments from the Schedule {#section_v4l_nzs_kdc .section}
+## Step 2: Creating a Contract Schedule and Generating Appointments from the Schedule
 
 Now you will add a schedule for the service contract and generate the first two appointments of that schedule. Do the following:
 
@@ -111,9 +110,8 @@ Now you will add a schedule for the service contract and generate the first two 
 12. Close the [Service Contract Schedules](FS_30_51_00.md) \(FS305100\) form.
 13. On the **Services Per Period** tab of the [Service Contracts](FS_30_57_00.md) \(FS305700\) form, notice that the **Scheduled Period Value** is now *1 h 00 m* \(as the following screenshot shows\). This means that 1 hour of services has been scheduled for the selected billing period.
 
-![](Images/EquipMgmt_Service_Contracts_End_Period_Scheduled_Period_Value.png "One hour of service scheduled for the billing period")
 
-## Step 3: Reviewing the Generated Appointments {#section_kz1_4zs_kdc .section}
+## Step 3: Reviewing the Generated Appointments
 
 Review the appointments generated from the schedule on the previous step by doing the following:
 
@@ -124,10 +122,9 @@ Review the appointments generated from the schedule on the previous step by doin
 
     The form displays the appointments generated from the service contract. Notice that the appointment generated for the active billing period has the *Not Started* status, and the appointment generated for the future billing period has the *Awaiting* status \(see the following screenshot\).
 
-    ![](Images/EquipMgmt_Service_Contracts_End_Period_Appointment_Status.png "The appointments generated from the contract schedule")
 
 
-## Step 4: Processing an Appointment {#section_tkp_4zs_kdc .section}
+## Step 4: Processing an Appointment
 
 To process an appointment, do the following:
 

@@ -1,4 +1,4 @@
-# Processing Sales of Stock Items {#_0b6162b3-56ae-48e2-b738-801ba7b7bacb .concept}
+# Processing Sales of Stock Items
 
 Goods that are stored in inventory are called *stock items*. For these items, the system tracks the on-hand quantity and the changes in the cost. In Acumatica ERP, you use sales orders of the predefined *SO* and *SA* types to record the sales of stock items.
 

@@ -1,8 +1,8 @@
-# Change Orders for Commitments: Commitment Reopening {#_63a25b5a-d87a-6574-bbd1-03a8937d40cd .concept}
+# Change Orders for Commitments: Commitment Reopening
 
 In some situations, you may need to make changes directly to the purchase order or subcontract that has already been completed or canceled. The following sections describes how you can reopen project commitments to be able to make changes to them.
 
-## Reopening a Commitment Not Linked to a Change Order {#section_rzb_byt_k5b .section}
+## Reopening a Commitment Not Linked to a Change Order
 
 If a commitment has no related change orders and you do not want to track the change separately, you can reopen the commitment and modify it directly as follows:
 
@@ -11,7 +11,7 @@ If a commitment has no related change orders and you do not want to track the ch
 
 If you need to make a change to the commitment and be able to track it, you need to create a change order for this commitment.
 
-## Reopening a Commitment Linked to a Change Order {#section_h3k_dyt_k5b .section}
+## Reopening a Commitment Linked to a Change Order
 
 If a commitment has at least one related change order, you cannot reopen it directly on the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form or [Subcontracts](SC_30_10_00.md) \(SC301000\) form.
 

@@ -1,10 +1,10 @@
-# To Import Data from XML {#_5fa2a144-2f1d-4369-b1fe-adc732accf7e .task}
+# To Import Data from XML
 
 If you are importing data that has been exported from an Acumatica ERP form to an XML file, the structure of the XML file that you import is specific to the form. You can obtain the XML file of a form’s needed structure by exporting data to XML on this form, as described in [To Export Data to XML](IS__how_XML_export.md#).
 
 Below you can find instructions on importing data from the XML file to the Acumatica ERP form.
 
-## To Import Data from XML { .section}
+## To Import Data from XML
 
 1.  Open the form to which you want to import data.
 2.  On the form toolbar, click **Clipboard** &gt; **Import from XML**.

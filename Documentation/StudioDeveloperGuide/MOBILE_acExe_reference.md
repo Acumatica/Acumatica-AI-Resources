@@ -1,4 +1,4 @@
-# ac.exe MOBILEITEMAP Reference {#_1072ee28-d5a6-4ad3-b633-875a8e219a2a .concept}
+# ac.exe MOBILEITEMAP Reference
 
 The command-line tool \(executable name `ac.exe`\) provides multiple parameters and applications. This topic describes the list of possible parameters and values of `ac.exe` that can be applied to mobile site maps. When working with mobile site maps, the first key that you must always use is `MOBILESITEMAP`.
 

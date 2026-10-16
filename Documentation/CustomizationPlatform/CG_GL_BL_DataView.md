@@ -1,4 +1,4 @@
-# Data View {#_a0e0c90e-daf2-44c1-a4bc-b6dd4cda0580 .concept}
+# Data View
 
 In a business logic controller \(BLC, also referred to as *graph*\), a *data view* is a PXView object that is used to access and manipulate data. In an ASPX page, to obtain data for controls, each container has to be bound to a data view of the BLC that is bound to the PXDataSource control of the page.
 

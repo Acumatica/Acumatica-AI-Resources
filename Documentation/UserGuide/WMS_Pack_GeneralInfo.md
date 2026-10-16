@@ -1,10 +1,10 @@
-# Packing Operations: General Information {#_3b80e401-ac24-447b-b8a0-992289d70c89 .concept}
+# Packing Operations: General Information
 
 If the *Warehouse Management* and *Fulfillment* features are enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can perform the automated packing of inventory items for shipping by using a barcode scanner or a mobile device with a scanning option. You can perform automated packing for open shipments prepared for sales orders and transfer orders—that is, the shipments of the *Shipment* and *Transfer* operation type specified on the [Shipments](SO_30_20_00.md) \(SO302000\) form, respectively.
 
 In this topic, you will read about the workflow for the automated packing of inventory items in Acumatica ERP. The workflow in this topic is based on the assumption that your system has the recommended configuration described in [Packing Operations: Implementation Checklist](WMS_Pack_Implem_Checklist.md).
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -14,15 +14,14 @@ In this chapter, you will do the following:
 -   Pack items for a shipment in an automated mode
 -   Confirm a shipment after packing the items
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 In your company's warehouses, there is no separate packing line, so each warehouse worker goes through the warehouse with a printed pick list, picks the items from the warehouse locations specified in the pick list, and immediately packs the items into a box for shipping. The warehouse worker then confirms the shipment. To track the performed operations, the warehouse worker scans the appropriate barcodes by using a barcode scanner or mobile device.
 
-## Workflow for the Automated Packing of Items { .section}
+## Workflow for the Automated Packing of Items
 
 The automated processing of packing items involves the actions shown in the following diagram.
 
-![](Images/diag_WMS_Pack_Only.png)
 
 To process the packing of items \(and use Pack mode\) without picking them, you perform the following steps:
 

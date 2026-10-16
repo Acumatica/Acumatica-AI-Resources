@@ -1,4 +1,4 @@
-# Implementing Project Accounting {#_59d8b6a4-fc87-44e8-a3a6-d971eef04262 .concept}
+# Implementing Project Accounting
 
 Before you create and manage projects, you should plan how projects will be integrated with other functional areas of Acumatica ERP so that the information about project-related transactions transparently flows to the projects and will be available for tracking budgets, costs, and future revenues for projects.
 
@@ -9,5 +9,7 @@ Before you create and manage projects, you should plan how projects will be inte
 -   **[Project Budgets with Cost Codes](../ImplementationGuide/config_Cost_Codes_Mapref.md)**  
 
 -   **[Project Mailings](../ImplementationGuide/config_Project_Mailings_Mapref.md)**  
+
+-   **[Parent-Child Projects](../ImplementationGuide/config_Mapref_Projects_Parent-Child_Projects.md)**  
 
 

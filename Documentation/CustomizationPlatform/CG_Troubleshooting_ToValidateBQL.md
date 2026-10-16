@@ -1,4 +1,4 @@
-# To Validate a BQL Statement {#_e300d3d5-4db8-4fe2-8d4f-8644fe031c13 .concept}
+# To Validate a BQL Statement
 
 Suppose that you have a BQL statement in the customization code that does not work properly or you want to make sure that a BQL statement is correctly converted into an SQL query. To validate the BQL statement, you can use the Request Profiler.
 

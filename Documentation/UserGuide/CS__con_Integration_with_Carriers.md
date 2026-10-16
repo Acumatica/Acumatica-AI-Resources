@@ -1,10 +1,10 @@
-# Integration with Carriers {#_ac936fae-1e11-4077-a934-a0c39f290ec8 .concept}
+# Integration with Carriers
 
 Large carriers operating over a broad geographical area—such as FedEx, Stamps.com, UPS, EasyPost, and Pacejet—provide shipping solutions to clients with whom they have service agreements. A user can access the carrier's system, enter package details, get actual rates, print authorized labels for shipments, and track the delivery of shipments. If you configure integration with the carrier, your users do not need to enter the same information into both Acumatica ERP and the carrier's system.
 
 The functionality of integrating with carriers is available only if the *Shipping Carrier Integration* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Carrier-Specific Plug-ins and Their Parameters { .section}
+## Carrier-Specific Plug-ins and Their Parameters
 
 Before you configure integration with a carrier, your company should have an account with the carrier and a signed service agreement. For each of the plug-ins, you specify parameters that are specific to the carrier, including the account number and password for authorization with the carrier's system. Such services as *FedEx SmartPost* and *UPS SurePost* require additional service contracts to be signed with the respective carriers. These services employ the USPS for final delivery of low-weight packages to customers in the residential areas.
 
@@ -29,23 +29,23 @@ Acumatica ERP provides the following plug-ins for integration with nationwide an
 
 For more information, see [To Set Up Integration with FedEx REST](SO__How_Integrate_FedEx.md), [To Set Up Integration with UPS REST](SO__How_Integrate_UPS.md), [To Set Up Integration with USPS via Stamps.com](SO__how_Integrate_USPS.md), and [To Set Up Integration with ShipEngine](SO__How_Integrate_ShipEngine.md).
 
-## Ship via Codes Based on Carrier Service Methods { .section}
+## Ship via Codes Based on Carrier Service Methods
 
 Generally, carriers provide multiple service methods. Each service method has its own rates and time frame for delivery. In Acumatica ERP, for each service method of the integrated carrier to be used by your company, you can define a ship via code by using the [Ship via Codes](CS_20_75_00.md) \(CS207500\) form. Then, when a user creates a sales order, the user can easily select the appropriate carrier and its service method by specifying the appropriate ship via code.
 
 You also can specify for each ship via code whether shipment confirmation for each box is required and whether at least one package \(box\) is required to confirm a shipment. For details, see [To Create Ship via Codes for the Integrated Carrier](SO__How_Create_Ship_Via_Codes.md).
 
-## Use of Customer Accounts with Carriers { .section}
+## Use of Customer Accounts with Carriers
 
 You can set up billing of the customers, rather than your company, for shipping if the customers provide information about their accounts with the carrier. On the **Customer Accounts** tab of the [Carriers](CS_20_77_00.md) \(CS207700\) form, create a list of customers with their locations and their accounts with the integrated carrier. Only customers with the **Active** check box selected on the [Customers](AR_30_30_00.md) \(AR303000\) form can be billed by the carrier. For each customer, you can view the list of customer accounts with carriers on the **Delivery Settings** tab of the [Customers](AR_30_30_00.md) form.
 
-## Automatic Packaging { .section}
+## Automatic Packaging
 
 For effective integration with carriers, you can configure the system to automatically suggest packaging options for sales orders and then for shipments based on item quantities, weights, or volumes. To use this functionality, you need to enable the *Automatic Packaging* feature on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
 For more information, see [Automatic Packaging for Integrated Carriers](SO__con_Automated_Shipments.md).
 
-## Freight Calculation { .section}
+## Freight Calculation
 
 Once integration with carriers is configured, the system will be able to automatically evaluate freight cost on shipping the sales orders via integrated carriers. On the **Shipping** tab of the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, for each sales order, you can click the **Shop for Rates** button to view the estimated freight costs for the specified packages if they are sent by different methods of the selected carrier available for this particular shipment. You can then select the most appropriate ship via code for this shipment.
 

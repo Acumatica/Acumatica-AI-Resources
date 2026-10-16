@@ -1,4 +1,4 @@
-# Consolidated Retainage Documents {#_c0c868e4-17c8-4875-82c3-75f4b86a00eb .concept}
+# Consolidated Retainage Documents
 
 In Acumatica ERP, the system can create a *consolidated retainage document* for multiple original documents that have the same customer and project.
 
@@ -6,7 +6,7 @@ A consolidated retainage document can be fully or partially consolidated. If mul
 
 A consolidated retainage document can be paid partially. The system will recalculate the **Paid/Adjusted Retainage** amount for each original invoice on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. Retained taxes are supported in consolidated retainage documents.
 
-## Creation of Consolidated Retainage Documents {#section_u3q_4jv_vxb .section}
+## Creation of Consolidated Retainage Documents
 
 On the [Release AR Retainage](AR_51_00_00.md) \(AR510000\) form, the documents or document lines selected for processing are included in one consolidated retainage document if all of the following conditions are met:
 
@@ -38,7 +38,7 @@ If the original document has the **Pay by Line** check box cleared on the [Invoi
 
 When you click **Release Retainage** on the More menu of the [Invoices and Memos](AR_30_10_00.md) form, the system opens the [Release AR Retainage](AR_51_00_00.md) form with the **Date** and **Post Period** boxes filled in by default with the current business date and period.
 
-## Support of Retained Taxes in Consolidated Retainage Documents {#section_ajq_4jv_vxb .section}
+## Support of Retained Taxes in Consolidated Retainage Documents
 
 If the **Retain Taxes** check box is selected in the **Retainage Settings** section on the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, the system calculates retained taxes for consolidated retainage documents. If the same **Tax ID**, **Taxable Amount**, and **Tax Amount** are applied to multiple lines of a retainage document related to different original documents, on the **Taxes** tab of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, the tax amount will be summed for each tax ID in the **Retained Tax** column.
 

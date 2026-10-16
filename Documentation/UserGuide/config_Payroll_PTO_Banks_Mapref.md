@@ -1,4 +1,4 @@
-# Configuring Paid Time Off {#_ef6223b8-660e-4f22-bb2a-a44b7175d9ff .concept}
+# Configuring Paid Time Off
 
 The topics of this chapter describe how you can configure paid time off banks for employees.
 

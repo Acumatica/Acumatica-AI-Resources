@@ -1,4 +1,4 @@
-# Processing Flow of AR Documents with Retainage {#_aecee404-bb58-4c63-98fe-470af951e920 .concept}
+# Processing Flow of AR Documents with Retainage
 
 If a customer retains a part of the amount of an invoice, to process the total amount of the invoice, at least two invoices are created in Acumatica ERP: the invoice with retainage and the *retainage invoice*. The invoice with retainage is paid during the period of time agreed upon between your company and the customer. The retainage invoice is an invoice that contains the retained amount or a part of the retained amount to be paid, and it is paid after the contractual work has been finished. Multiple retainage invoices can be created for one invoice with retainage and a consolidated retainage invoice can be created for multiple invoices and invoice lines with retainage. Similarly, credit memos with retainage can be created manually on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form or automatically from the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form with a negative total amount of a pro forma invoice. For these credit memos, the system calculates all retainage-related information \(total retainage, unreleased retainage, and retained taxes\) and creates a *retainage credit memo*. A consolidated credit memo can be created for multiple documents with retainage. For details about consolidated documents, see [Consolidated Retainage Documents](AR__CON_Consolidated_Retainage_Docs.md).
 
@@ -6,7 +6,7 @@ If a customer retains a part of the amount of an invoice, to process the total a
 
 In this topic, you will read about the general processing workflow of a document with retainage in Acumatica ERP \(without taxes applied\).
 
-## The Processing Workflow of an Invoice with Retainage {#section_vhq_4jv_vxb .section}
+## The Processing Workflow of an Invoice with Retainage
 
 Typically, an AR invoice with retainage goes through the following states during its life cycle:
 
@@ -29,7 +29,7 @@ Typically, an AR invoice with retainage goes through the following states during
     **Tip:** The accountant can reconcile the balance of unreleased retainage of the Retainage Receivable account with the general ledger by running the [AR Retained Balance](AR_63_50_00.md) \(AR635000\) report for a specific financial period.
 
 
-## The Processing Workflow of a Credit Memo with Retainage {#section_c3q_4jv_vxb .section}
+## The Processing Workflow of a Credit Memo with Retainage
 
 Typically, a credit memo with retainage goes through the following states during its life cycle:
 
@@ -44,13 +44,13 @@ Typically, a credit memo with retainage goes through the following states during
     When the retainage credit memo is released, the system updates the balances of the customer, the related GL accounts, and the unreleased retainage amount of the credit memo with retainage.
 
 
-## Reversal of Credit Memos with Retainage {#section_g3q_4jv_vxb .section}
+## Reversal of Credit Memos with Retainage
 
 On reversal of a credit memo with the **Apply Retainage** check box selected, the system creates a reversing debit memo. On release of this reversing debit memo, on the **Retainage** tab of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, the **Unreleased Retainage**, **Released Retainage**, **Unpaid Retainage**, and **Paid Retainage** values are set to *0.00* for the debit memo and its lines. The same values of a reversed credit memo are also set to *0.00*.
 
 A reversing debit memo cannot be reversed. A debit memo with the **Pay by Line** check box selected must be applied manually to a credit memo, so that both documents can be closed.
 
-## Migrating AR Invoices or Credit Memos with Retainage { .section}
+## Migrating AR Invoices or Credit Memos with Retainage
 
 In Acumatica ERP, you can enter and process fully or partially settled AR invoices or credit memos with retainage without affecting the general ledger. To do this, you add and process them in migration mode.
 

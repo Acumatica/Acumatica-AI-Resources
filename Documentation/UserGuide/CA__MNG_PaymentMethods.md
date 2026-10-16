@@ -1,4 +1,4 @@
-# Managing Payment Methods {#_86d33c8b-008d-4c8b-80d8-6479f75788ed .concept}
+# Managing Payment Methods
 
 With Acumatica ERP, you can configure the payment methods that your organization uses to pay its vendors, as well as the payment methods that are used by customers to pay your organization. You configure these payment methods and then you use the payment methods for vendors in accounts payable and the payment methods for customers in accounts receivable.
 

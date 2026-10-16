@@ -1,8 +1,8 @@
-# Multiple Base Currencies: Configuration Prerequisites {#_43d11a97-2e8a-4e3c-8ebc-4430a1b48adb .concept}
+# Multiple Base Currencies: Configuration Prerequisites
 
 Before starting to configure multiple base currencies, you should be sure that the needed features have been enabled and entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, the *Multibranch Support*, *Multicompany Support*, *Multicurrency Accounting*, and *Customer and Vendor Visibility Restriction* features must be enabled.
 
@@ -14,7 +14,7 @@ The following features that are not supported if the *Multiple Base Currencies* 
 -   *Projects* if the *Multicurrency Projects* feature is disabled
 -   *Service Management*
 
-## Configuring the System { .section}
+## Configuring the System
 
 You need to make sure the following tasks have been performed in Acumatica ERP before you begin to configure multiple base currencies:
 

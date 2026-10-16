@@ -1,11 +1,11 @@
-# Predefined Size Values {#_ffb4d55f-ef65-4aad-bc01-52bd3df47c6a .concept}
+# Predefined Size Values
 
 You can use the predefined values described in the table below for the following properties:
 
 -   ColumnWidth, LabelsWidth, and ControlSize of the PXLayoutRule component
 -   LabelsWidth and Size of a control
 
-## Predefined Values { .section}
+## Predefined Values
 
 The following table shows the values in pixels that correspond to the predefined constants.
 
@@ -21,7 +21,7 @@ The following table shows the values in pixels that correspond to the predefined
 |*XL*|400px|350px|
 |*XXL*|450px|400px|
 
-## Setting of Predefined Values { .section}
+## Setting of Predefined Values
 
 Note the following points about setting the predefined sizes of controls and their labels:
 

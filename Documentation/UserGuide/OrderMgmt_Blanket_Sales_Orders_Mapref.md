@@ -1,4 +1,4 @@
-# Processing Blanket Sales Orders {#_5c5cb21b-2f5d-4b06-a27b-dd342624e4bd .concept}
+# Processing Blanket Sales Orders
 
 This chapter describes blanket sales orders in Acumatica ERP.
 

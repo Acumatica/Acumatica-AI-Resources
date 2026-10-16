@@ -1,4 +1,4 @@
-# Dialog Boxes and Smart Panels {#_59384580-74b2-4982-af65-f289432502ac .concept}
+# Dialog Boxes and Smart Panels
 
 The following section contains information about mapping of simple dialog boxes and smart panels \(complex dialog boxes\).
 

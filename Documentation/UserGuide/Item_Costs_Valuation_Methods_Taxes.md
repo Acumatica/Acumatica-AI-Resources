@@ -1,4 +1,4 @@
-# Item Costs and Valuation Methods: Inclusion of Tax Amounts in Costs for Stock Items {#_e8bb396b-11fc-4405-a939-71259c8a84cd .concept}
+# Item Costs and Valuation Methods: Inclusion of Tax Amounts in Costs for Stock Items
 
 You can configure the system to include use taxes, sales taxes of the *Input* group, and partially deductible VATs in the cost of the stock items being purchased. For tax amounts to be included in the costs of items in purchase orders, the following actions must be completed in the system:
 

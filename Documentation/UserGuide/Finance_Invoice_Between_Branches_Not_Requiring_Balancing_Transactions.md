@@ -1,4 +1,4 @@
-# Interbranch Invoices Without Balancing: Generated Transactions {#_c77c0d49-4593-4ee8-b9f4-96eddadc8203 .concept}
+# Interbranch Invoices Without Balancing: Generated Transactions
 
 When you release an invoice that involves branches that do not need to be balanced, the system generates a transaction in the general ledger. You can view the details of the batch associated with an invoice by clicking the link in the **Batch Nbr.** box on the **Financial** tab of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. The system opens the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form with the batch selected.
 

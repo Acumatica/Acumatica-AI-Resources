@@ -1,15 +1,15 @@
-# To Create Transfer Orders for Multiple Sales Orders {#_bed060a9-89a0-4f2a-8ae7-78b48f6bb715 .task}
+# To Create Transfer Orders for Multiple Sales Orders
 
 If you need to record the movement of goods from one warehouse to another, you create a transfer order of the predefined *TR* type. You can create transfer orders for multiple sales orders simultaneously on the [Create Transfer Orders](SO_50_90_00.md) \(SO509000\) form.
 
-## To Create Transfer Orders for Multiple Orders { .section}
+## To Create Transfer Orders for Multiple Orders
 
 1.  Open the [Create Transfer Orders](../Shared/../UserGuide/SO_50_90_00.md) \(SO509000\) form.
 2.  In the **Creation Date** box, select the date on which the transfer order or orders should be prepared.
 3.  In the table, select the unlabeled check boxes in the needed line or lines with the *SO Allocated* plan type.
 4.  Click **Process** on the form toolbar, or click **Process All** to process all lines shown in the table.
 
-## Notes About the Procedure { .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

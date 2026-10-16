@@ -1,4 +1,4 @@
-# Loading of Bank Feeds from a File {#_5369b15a-b719-4a55-b719-85f0ebd319af .concept}
+# Loading of Bank Feeds from a File
 
 To configure the system for loading of bank feeds from a file, the following configuration steps should be performed:
 
@@ -11,7 +11,7 @@ To configure the system for loading of bank feeds from a file, the following con
     -   Detects duplicate transactions by transaction ID from the *Ext. Tran ID* field and omits their creation
     -   Creates expense receipts for the corporate card and employee that are specified in the bank feed settings and matches them to a respective bank transaction
 
-## Bank Feed Setup { .section}
+## Bank Feed Setup
 
 To set up a bank feed for loading bank statements from a file, you perform the following general steps:
 
@@ -22,7 +22,7 @@ To set up a bank feed for loading bank statements from a file, you perform the f
     You can now select this bank feed and load transactions from a file on the [Retrieve Bank Feed Transactions](CA_50_75_00.md) \(CA507500\) form.
 
 
-## Bank Feed Statuses { .section}
+## Bank Feed Statuses
 
 A bank feed with the *File* type can have one of the following statuses on the [Bank Feeds](CA_20_55_00.md) \(CA205500\) form:
 
@@ -36,7 +36,7 @@ A bank feed with the *File* type can have one of the following statuses on the [
 
 -   *Suspended*: This status is assigned to a bank feed when you click **Suspend** on the More menu.
 
-## Transaction Loading in Test Mode { .section}
+## Transaction Loading in Test Mode
 
 To load transactions in test mode from a file for a bank feed with the *File* type, you perform the following actions on the [Bank Feeds](CA_20_55_00.md) \(CA205500\) form:
 
@@ -50,7 +50,7 @@ To load transactions in test mode from a file for a bank feed with the *File* ty
     The system loads transactions to the table according to the mapping rules specified on the **Source File** tab.
 
 
-## Manual File Loading { .section}
+## Manual File Loading
 
 You can manually select a file from a specified SFTP folder and load it, regardless of whether it was processed before. To load a file, you perform the following steps on the [Bank Feeds](CA_20_55_00.md) \(CA205500\) form:
 
@@ -62,7 +62,7 @@ You can manually select a file from a specified SFTP folder and load it, regardl
 3.  Optional: You select the **Create Transactions Before Import Transactions From Date** check box. If the check box is selected, the system will create transactions regardless of the **Import Transactions From Date** specified for the cash account on the **Cash Accounts** tab, but it will continue to omit duplicates by using the transaction ID \(**Ext. Tran. ID**\).
 4.  In the dialog box, you click **Load**. The system creates bank transactions and expense receipts if the **Create Expense Receipts** check box is selected. The system then performs the steps described in the next section.
 
-## Loading of Bank Feed Transactions {#_1442a076-566f-49e3-8ecd-efac396c63fe .section}
+## Loading of Bank Feed Transactions
 
 When you select a bank feed and click **Process** on the toolbar of the [Retrieve Bank Feed Transactions](CA_50_75_00.md) \(CA507500\) form, the system does the following:
 
@@ -75,11 +75,13 @@ When you select a bank feed and click **Process** on the toolbar of the [Retriev
 
 The imported transactions are displayed on the [Import Bank Transactions](CA_30_65_00.md) \(CA306500\) form. If you click **Process Transactions** on the form toolbar, the system navigates to the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form, where you can proceed to matching the transactions and creating new transactions in the system. For details, see [To Load Bank Transactions from a File](CA__HOW_Load_BankFeeds_from_File.md).
 
-## Creation of Expense Receipts { .section}
+## Creation of Expense Receipts
 
-To cause the system to create expense receipts, you must select the **Create Expense Receipts** check box in the Summary area of the [Bank Feeds](CA_20_55_00.md) \(CA205500\) form. On the **Corporate Cards** and **Expense Items** tabs, which appear on the form, you specify the needed settings.
+To cause the system to create expense receipts, you must select the **Create Expense Receipts** check box in the Summary area of the [Bank Feeds](CA_20_55_00.md) \(CA205500\) form. To cause the system to create expense receipts for refund transactions on credit cards, you must select the **Create Expense Receipts for Refunds** check box on the same form. On the **Corporate Cards** and **Expense Items** tabs, which appear on the form, you specify the needed settings.
 
-The **Create Expense Receipts for Pending Transactions** check box does not appear for bank feeds with the *File* type because source files contain only posted transactions. For more details about the creation of expense receipts, see [Processing Expense Receipts with Corporate Cards](TimeExpenses_Expense_Receipts_Mapref.md).
+The **Create Expense Receipts for Pending Transactions** check box does not appear for bank feeds with the *File* type because source files contain only posted transactions.
+
+For more details about the creation of expense receipts, see [Processing Expense Receipts with Corporate Cards](TimeExpenses_Expense_Receipts_Mapref.md) and [Processing Expense Returns to Corporate Cards](TimeExpenses_Expense_Returns_Mapref.md).
 
 **Parent topic:**[Integrating Acumatica ERP with Bank Feeds](../UserGuide/CA__MNG_Bank_Feed_Integration.md)
 

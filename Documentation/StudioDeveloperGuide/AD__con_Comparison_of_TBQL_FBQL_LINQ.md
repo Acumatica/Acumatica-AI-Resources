@@ -1,4 +1,4 @@
-# Comparison of Fluent BQL, Traditional BQL, and LINQ {#_b5126e1e-70d9-408d-bcf9-e625a38a052e .concept}
+# Comparison of Fluent BQL, Traditional BQL, and LINQ
 
 In this topic, you can learn the main differences between the queries defined with fluent business query language \(BQL\), traditional BQL, and language-integrated query \(LINQ\).
 

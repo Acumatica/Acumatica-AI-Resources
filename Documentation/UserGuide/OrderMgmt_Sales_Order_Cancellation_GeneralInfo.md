@@ -1,8 +1,8 @@
-# Sales Order Cancellation: General Information {#_dc77504d-6ad2-4577-b31c-2fb84cc59f4a .concept}
+# Sales Order Cancellation: General Information
 
 You may need to cancel a sales order if a customer wants to withdraw a previously placed order or reopen a sales order that was previously canceled or completed. In Acumatica ERP, you can cancel a sales order as long as it does not yet have related shipments, invoices, child orders, payments, prepayments, prepayment invoices, or credit memos. You can also reopen a previously canceled or completed sales order.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,11 +10,11 @@ In this chapter, you will learn how to do the following:
 -   Cancel a sales order
 -   Reopen and process a sales order to completion
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 You may need to cancel a sales order if a customer no longer wants the goods they have ordered.
 
-## Cancellation of a Sales Order { .section}
+## Cancellation of a Sales Order
 
 You cancel a sales order by clicking **Cancel Order** on the More menu of the [Sales Orders](SO_30_10_00.md) \(SO301000\) form. You can cancel the sales order if it has one of the following statuses: *On Hold*, *Open*, *Awaiting Payment*, or *Credit Hold*. When you click **Cancel Order**, the sales order is assigned the *Canceled* status.
 

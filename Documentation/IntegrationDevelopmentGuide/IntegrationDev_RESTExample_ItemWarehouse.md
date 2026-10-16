@@ -1,4 +1,4 @@
-# ItemWarehouse {#_485c4f6c-2da8-4e5c-81ec-eff76709ad3a .concept}
+# ItemWarehouse
 
 This chapter presents code examples showing requests that use the `ItemWarehouse` entity.
 

@@ -1,4 +1,4 @@
-# Managing Warehouses {#_ebaa0852-05ef-4bbe-8481-8e9bfe8f1127 .concept}
+# Managing Warehouses
 
 When your organization has multiple buildings, storage rooms, or other facilities for storing inventory items, you can create multiple warehouses in Acumatica ERP to track and process inventory appropriately for each warehouse. You can manage multiple warehouses in the system when the *Multiple Warehouses* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 

@@ -1,12 +1,12 @@
-# Basic Project Configuration: Implementation Activity {#_95fc5aa8-7625-46ed-b233-8624245f7b3a .task}
+# Basic Project Configuration: Implementation Activity
 
 You perform the following implementation activity to prepare the system for users to create and process projects.
 
-## Story { .section}
+## Story
 
 Suppose that you, as the implementation manager of the SweetLife Fruits &amp; Jams company, need to configure the minimum required functionality to prepare the system for accounting for projects.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring the basic project functionality, you perform the following instructions:
 
@@ -14,7 +14,7 @@ Before you start configuring the basic project functionality, you perform the fo
 2.  Launch the Acumatica ERP website, and sign in to a company.
 3.  On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, enable the *Projects* feature.
 
-## Step: Configuring Basic Project Accounting Functionality { .section}
+## Step: Configuring Basic Project Accounting Functionality
 
 To perform basic configuration of the project accounting functionality, proceed as follows:
 

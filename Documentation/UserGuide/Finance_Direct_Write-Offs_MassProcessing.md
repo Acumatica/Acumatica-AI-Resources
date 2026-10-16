@@ -1,4 +1,4 @@
-# Direct Write-Offs: Mass Processing {#_9196821f-9025-4506-9926-9fa8ee6e109b .concept}
+# Direct Write-Offs: Mass Processing
 
 On the [Write Off Balances and Credits](AR_50_50_00.md) \(AR505000\) form, you can create direct write-off for multiple documents at once. To do this, you perform the following instructions:
 

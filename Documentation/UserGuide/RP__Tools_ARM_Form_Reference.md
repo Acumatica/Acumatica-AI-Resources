@@ -1,4 +1,4 @@
-# ARM Reference {#_ec388462-018b-411a-9863-be63b870f409 .concept}
+# ARM Reference
 
 This Analytical Report Manager \(ARM\) reference will help you work with functions, operators, and parameters, apply advanced cell formatting, and set up the desired print style for your report.
 

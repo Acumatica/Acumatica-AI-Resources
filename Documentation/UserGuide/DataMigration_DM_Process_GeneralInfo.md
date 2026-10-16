@@ -1,8 +1,8 @@
-# Data Migration Process: General Information {#_ddff01df-c86f-4cd0-8bd0-7ab7ee0a8e64 .concept}
+# Data Migration Process: General Information
 
 Data migration is a crucial process that is performed before the company goes live on a new ERP platform. The process involves moving data from the old system to the new one while ensuring data integrity and minimizing disruptions.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,11 +10,11 @@ In this chapter, you will learn how to do the following:
 -   Create a company in Acumatica ERP that is ready for the migration of financial data from the legacy system
 -   Prepare the import scenarios and the data to be uploaded
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 You are planning to migrate data from a legacy system before you start to use Acumatica ERP as an ERP system. You want to prepare carefully for this process to keep the history of company operations that preceded the transition to new system and to ensure the continuity of business processes.
 
-## Configuration of the Basic System { .section}
+## Configuration of the Basic System
 
 Prior to data migration, you need to plan and configure the company’s structure and perform the basic configuration in Acumatica ERP based on the business requirements of the company. To do this, you perform the following general steps:
 
@@ -25,7 +25,7 @@ Prior to data migration, you need to plan and configure the company’s structur
     **Attention:** The complete set of configuration tasks depends on the company's business processes. For more information about configuring other system areas, see [Acumatica ERP Implementation Guide](../ImplementationGuide/Implementation_Guide.md).
 
 
-## Data Preparation and Migration Stages { .section}
+## Data Preparation and Migration Stages
 
 Once the tenant is ready, you perform data migration in the following general steps:
 
@@ -38,7 +38,7 @@ Once the tenant is ready, you perform data migration in the following general st
 
 Once the data migration is complete and the data is verified for consistency, the system is ready to use.
 
-## Preparation of Import Scenarios { .section}
+## Preparation of Import Scenarios
 
 To speed up data migration, you use import scenarios to import business accounts and financial data other than trial balances. An import scenario is a set of instructions for the system that specifies the actions to be executed for each record of the imported data as if the data is being entered manually on the specified form.
 

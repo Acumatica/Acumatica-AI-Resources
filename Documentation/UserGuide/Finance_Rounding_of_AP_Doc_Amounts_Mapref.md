@@ -1,4 +1,4 @@
-# Rounding of AP Document Amounts {#_f7f96cbb-03b5-4d61-a3b5-b2c3a85cdab3 .concept}
+# Rounding of AP Document Amounts
 
 Your company may need to round the total amounts of AP documents to comply with external or internal requirements. In Acumatica ERP, you can set up this rounding to fit the specific rules the company uses.
 

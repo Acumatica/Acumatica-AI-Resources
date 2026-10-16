@@ -1,4 +1,4 @@
-# Typical Hardware and Virtual Machine Configurations for PCS and PCP Licenses for the Acumatica ERP Installation {#_54ef574c-0adf-48a0-b5be-d3438a6e5400 .concept}
+# Typical Hardware and Virtual Machine Configurations for PCS and PCP Licenses for the Acumatica ERP Installation
 
 When your organization purchases a Private Cloud Subscription \(PCS\) or Private Cloud Perpetual \(PCP\) license for Acumatica ERP, your purchase manager selects a license tier, which limits the parameters that influence system performance. The license tiers are grouped into the following series:
 
@@ -10,66 +10,402 @@ When your organization purchases a Private Cloud Subscription \(PCS\) or Private
 
 This topic describes the typical server configurations for PCS and PCP licenses that depend on the series of your license tier.
 
-## Server Configurations {#_a600af4c-34ee-40e4-b61f-87733ee47b1e .section}
+## Server Configurations
 
 This section describes the typical hardware specifications for the servers used to host Acumatica ERP \(which includes the application server and the database\) and the typical configurations of Amazon Web Services and Microsoft Azure instances for each series of license tiers.
 
 You should install the application server and the database on separate virtual machines or physical servers. In the following subsections, you can find the typical specifications for each of these configurations.
 
-|**License Series and Tiers/ Typical Configuration**|S Series|M Series|L Series|X Series|
-|S1-S3|M1-M3|L1, L2|L3, L4|X1, X2|X3, X4|
-|---------------------------------------------------|--------|--------|--------|--------|
-|-----|-----|------|------|------|------|
-|Physical server specification|
-|*Number of physical CPUs*|1|1|1|2|2|2|
-|*Total number of physical CPU cores*|6|6|6|12|12|12|
-|*Typical processor*|Xeon E5 2620|Xeon E5 2620|Xeon E5 2620|Xeon E5 2620|Xeon E5 2620|Xeon E5 2658|
-|*RAM*|32 GB|64 GB|64 GB|128 GB|128 GB|256 GB|
-|*Hard drive size\**|250 GB|500 GB|500 GB|500 GB|750 GB|1 TB|
-|*Hard drive type*|SSD Sata3
+<table id="_a291d308-7471-4aee-9e01-6dfb7a3adf21"><thead><tr><th rowspan="2">
+
+**License Series and Tiers/ Typical Configuration**
+
+</th><th align="center">
+
+S Series
+
+</th><th align="center">
+
+M Series
+
+</th><th colspan="2" align="center">
+
+L Series
+
+</th><th colspan="2" align="center">
+
+X Series
+
+</th></tr><tr><th align="center">
+
+S1-S3
+
+</th><th align="center">
+
+M1-M3
+
+</th><th align="center">
+
+L1, L2
+
+</th><th align="center">
+
+L3, L4
+
+</th><th align="center">
+
+X1, X2
+
+</th><th align="center">
+
+X3, X4
+
+</th></tr></thead><tbody><tr><td colspan="7">
+
+Physical server specification
+
+</td></tr><tr><td>
+
+*Number of physical CPUs*
+
+</td><td align="center">
+
+1
+
+</td><td align="center">
+
+1
+
+</td><td align="center">
+
+1
+
+</td><td align="center">
+
+2
+
+</td><td align="center">
+
+2
+
+</td><td align="center">
+
+2
+
+</td></tr><tr><td>
+
+*Total number of physical CPU cores*
+
+</td><td align="center">
+
+6
+
+</td><td align="center">
+
+6
+
+</td><td align="center">
+
+6
+
+</td><td align="center">
+
+12
+
+</td><td align="center">
+
+12
+
+</td><td align="center">
+
+12
+
+</td></tr><tr><td>
+
+*Typical processor*
+
+</td><td align="center">
+
+Xeon E5 2620
+
+</td><td align="center">
+
+Xeon E5 2620
+
+</td><td align="center">
+
+Xeon E5 2620
+
+</td><td align="center">
+
+Xeon E5 2620
+
+</td><td align="center">
+
+Xeon E5 2620
+
+</td><td align="center">
+
+Xeon E5 2658
+
+</td></tr><tr><td>
+
+*RAM*
+
+</td><td align="center">
+
+32 GB
+
+</td><td align="center">
+
+64 GB
+
+</td><td align="center">
+
+64 GB
+
+</td><td align="center">
+
+128 GB
+
+</td><td align="center">
+
+128 GB
+
+</td><td align="center">
+
+256 GB
+
+</td></tr><tr><td>
+
+*Hard drive size\**
+
+</td><td align="center">
+
+250 GB
+
+</td><td align="center">
+
+500 GB
+
+</td><td align="center">
+
+500 GB
+
+</td><td align="center">
+
+500 GB
+
+</td><td align="center">
+
+750 GB
+
+</td><td align="center">
+
+1 TB
+
+</td></tr><tr><td>
+
+*Hard drive type*
+
+</td><td align="center">
+
+SSD Sata3
 
  90 K+ IOPS
 
  500 Mbps+ R/W
 
-|SSD Sata3
+</td><td align="center">
+
+SSD Sata3
 
  90 K+ IOPS
 
  500 Mbps+ R/W
 
-|SSD Sata3
+</td><td align="center">
+
+SSD Sata3
 
  90 K+ IOPS
 
  500 Mbps+ R/W
 
-|SSD PCIE3x4
+</td><td align="center">
+
+SSD PCIE3x4
 
  300 K+ IOPS
 
  2000 MBbps+ R/W
 
-|SSD PCIE3x4
+</td><td align="center">
+
+SSD PCIE3x4
 
  300 K+ IOPS
 
  2000 Mbps+ R/W
 
-|SSD PCIE3x4
+</td><td align="center">
+
+SSD PCIE3x4
 
  300 K+ IOPS
 
  2000 Mbps+ R/W
 
-|
-|*RAID*|1|1|1|10|10|10|
-|Application server VM|
-|*VM allotted CPU cores*|2|2|4|4|8|8|
-|*VM RAM*|16 GB|24 GB|24 GB|32 GB|32 GB|96 GB|
-|Database server VM|
-|*VM allotted CPU cores*|2|2|4|4|8|8|
-|*VM RAM*|8 GB|32 GB|32 GB|64 GB|64 GB|128 GB|
+</td></tr><tr><td>
+
+*RAID*
+
+</td><td align="center">
+
+1
+
+</td><td align="center">
+
+1
+
+</td><td align="center">
+
+1
+
+</td><td align="center">
+
+10
+
+</td><td align="center">
+
+10
+
+</td><td align="center">
+
+10
+
+</td></tr><tr><td colspan="7">
+
+Application server VM
+
+</td></tr><tr><td>
+
+*VM allotted CPU cores*
+
+</td><td align="center">
+
+2
+
+</td><td align="center">
+
+2
+
+</td><td align="center">
+
+4
+
+</td><td align="center">
+
+4
+
+</td><td align="center">
+
+8
+
+</td><td align="center">
+
+8
+
+</td></tr><tr><td>
+
+*VM RAM*
+
+</td><td align="center">
+
+16 GB
+
+</td><td align="center">
+
+24 GB
+
+</td><td align="center">
+
+24 GB
+
+</td><td align="center">
+
+32 GB
+
+</td><td align="center">
+
+32 GB
+
+</td><td align="center">
+
+96 GB
+
+</td></tr><tr><td colspan="7">
+
+Database server VM
+
+</td></tr><tr><td>
+
+*VM allotted CPU cores*
+
+</td><td align="center">
+
+2
+
+</td><td align="center">
+
+2
+
+</td><td align="center">
+
+4
+
+</td><td align="center">
+
+4
+
+</td><td align="center">
+
+8
+
+</td><td align="center">
+
+8
+
+</td></tr><tr><td>
+
+*VM RAM*
+
+</td><td align="center">
+
+8 GB
+
+</td><td align="center">
+
+32 GB
+
+</td><td align="center">
+
+32 GB
+
+</td><td align="center">
+
+64 GB
+
+</td><td align="center">
+
+64 GB
+
+</td><td align="center">
+
+128 GB
+
+</td></tr></tbody>
+</table>
 
 \* You need two hard drives: one for the application server VM, and one for the database server VM.
 
@@ -87,100 +423,556 @@ When you install Acumatica ERP on virtual machines, you should consider the foll
     **Important:** You should not use the RAID 5 level for hard drives because of the low writing speed.
 
 
-|**License Series and Tiers/ Typical Configuration**|S Series|M Series|L Series|X Series|
-|S1-S3|M1-M3|L1, L2|L3, L4|X1, X2|X3, X4|
-|---------------------------------------------------|--------|--------|--------|--------|
-|-----|-----|------|------|------|------|
-|Application server|
-|*Number of physical CPUs*|1|1|1|1|2|2|
-|*Total number of physical CPU cores*|6|6|6|6|12|12|
-|*Typical processor*|Xeon E5 2620|Xeon E5 2620|Xeon E5 2620|Xeon E5 2620|Xeon E5 2620|Xeon E5 2620|
-|*Hypervisor*|OFF|OFF|OFF|OFF|OFF|OFF|
-|*RAM*|32 GB|64 GB|64 GB|128 GB|128 GB|256 GB|
-|*Hard drive size*|250 GB|500 GB|500 GB|500 GB|500 GB|500 GB|
-|*Hard drive type*|SSD Sata3
+<table id="_f673cd3a-4c32-4ed5-8f83-e82e39efdd6d"><thead><tr><th rowspan="2">
+
+**License Series and Tiers/ Typical Configuration**
+
+</th><th align="center">
+
+S Series
+
+</th><th align="center">
+
+M Series
+
+</th><th colspan="2" align="center">
+
+L Series
+
+</th><th colspan="2" align="center">
+
+X Series
+
+</th></tr><tr><th align="center">
+
+S1-S3
+
+</th><th align="center">
+
+M1-M3
+
+</th><th align="center">
+
+L1, L2
+
+</th><th align="center">
+
+L3, L4
+
+</th><th align="center">
+
+X1, X2
+
+</th><th align="center">
+
+X3, X4
+
+</th></tr></thead><tbody><tr><td colspan="7">
+
+Application server
+
+</td></tr><tr><td>
+
+*Number of physical CPUs*
+
+</td><td align="center">
+
+1
+
+</td><td align="center">
+
+1
+
+</td><td align="center">
+
+1
+
+</td><td align="center">
+
+1
+
+</td><td align="center">
+
+2
+
+</td><td align="center">
+
+2
+
+</td></tr><tr><td>
+
+*Total number of physical CPU cores*
+
+</td><td align="center">
+
+6
+
+</td><td align="center">
+
+6
+
+</td><td align="center">
+
+6
+
+</td><td align="center">
+
+6
+
+</td><td align="center">
+
+12
+
+</td><td align="center">
+
+12
+
+</td></tr><tr><td>
+
+*Typical processor*
+
+</td><td align="center">
+
+Xeon E5 2620
+
+</td><td align="center">
+
+Xeon E5 2620
+
+</td><td align="center">
+
+Xeon E5 2620
+
+</td><td align="center">
+
+Xeon E5 2620
+
+</td><td align="center">
+
+Xeon E5 2620
+
+</td><td align="center">
+
+Xeon E5 2620
+
+</td></tr><tr><td>
+
+*Hypervisor*
+
+</td><td align="center">
+
+OFF
+
+</td><td align="center">
+
+OFF
+
+</td><td align="center">
+
+OFF
+
+</td><td align="center">
+
+OFF
+
+</td><td align="center">
+
+OFF
+
+</td><td align="center">
+
+OFF
+
+</td></tr><tr><td>
+
+*RAM*
+
+</td><td align="center">
+
+32 GB
+
+</td><td align="center">
+
+64 GB
+
+</td><td align="center">
+
+64 GB
+
+</td><td align="center">
+
+128 GB
+
+</td><td align="center">
+
+128 GB
+
+</td><td align="center">
+
+256 GB
+
+</td></tr><tr><td>
+
+*Hard drive size*
+
+</td><td align="center">
+
+250 GB
+
+</td><td align="center">
+
+500 GB
+
+</td><td align="center">
+
+500 GB
+
+</td><td align="center">
+
+500 GB
+
+</td><td align="center">
+
+500 GB
+
+</td><td align="center">
+
+500 GB
+
+</td></tr><tr><td>
+
+*Hard drive type*
+
+</td><td align="center">
+
+SSD Sata3
 
  90 K+ IOPS
 
  500 Mbps+ R/W
 
-|SSD Sata3
+</td><td align="center">
+
+SSD Sata3
 
  90 K+ IOPS
 
  500 Mbps+ R/W
 
-|SSD Sata3
+</td><td align="center">
+
+SSD Sata3
 
  90 K+ IOPS
 
  500 Mbps+ R/W
 
-|SSD Sata3
+</td><td align="center">
+
+SSD Sata3
 
  90 K+ IOPS
 
  500 Mbps+ R/W
 
-|SSD Sata3
+</td><td align="center">
+
+SSD Sata3
 
  90 K+ IOPS
 
  500 Mbps+ R/W
 
-|SSD Sata3
+</td><td align="center">
+
+SSD Sata3
 
  90 K+ IOPS
 
  500 Mbps+ R/W
 
-|
-|*RAID*|1|1|1|10|10|10|
-|Database server|
-|*Number of physical CPUs*|1|1|1|2|2|2|
-|*Total number of physical CPU cores*|6|6|6|12|12|16|
-|*Typical processor*|Xeon E5 2620|Xeon E5 2620|Xeon E5 2620|Xeon E5 2620|Xeon E5 2620|Xeon E5 2658|
-|*Hypervisor*|ON|ON|ON|ON|ON|ON|
-|*RAM*|32 GB|64 GB|64 GB|128 GB|128 GB|256 GB|
-|*Hard drive size*|250 GB|500 GB|500 GB|500 GB|750 GB|1 TB|
-|*Hard drive type*|SSD Sata3
+</td></tr><tr><td>
+
+*RAID*
+
+</td><td align="center">
+
+1
+
+</td><td align="center">
+
+1
+
+</td><td align="center">
+
+1
+
+</td><td align="center">
+
+10
+
+</td><td align="center">
+
+10
+
+</td><td align="center">
+
+10
+
+</td></tr><tr><td colspan="7">
+
+Database server
+
+</td></tr><tr><td>
+
+*Number of physical CPUs*
+
+</td><td align="center">
+
+1
+
+</td><td align="center">
+
+1
+
+</td><td align="center">
+
+1
+
+</td><td align="center">
+
+2
+
+</td><td align="center">
+
+2
+
+</td><td align="center">
+
+2
+
+</td></tr><tr><td>
+
+*Total number of physical CPU cores*
+
+</td><td align="center">
+
+6
+
+</td><td align="center">
+
+6
+
+</td><td align="center">
+
+6
+
+</td><td align="center">
+
+12
+
+</td><td align="center">
+
+12
+
+</td><td align="center">
+
+16
+
+</td></tr><tr><td>
+
+*Typical processor*
+
+</td><td align="center">
+
+Xeon E5 2620
+
+</td><td align="center">
+
+Xeon E5 2620
+
+</td><td align="center">
+
+Xeon E5 2620
+
+</td><td align="center">
+
+Xeon E5 2620
+
+</td><td align="center">
+
+Xeon E5 2620
+
+</td><td align="center">
+
+Xeon E5 2658
+
+</td></tr><tr><td>
+
+*Hypervisor*
+
+</td><td align="center">
+
+ON
+
+</td><td align="center">
+
+ON
+
+</td><td align="center">
+
+ON
+
+</td><td align="center">
+
+ON
+
+</td><td align="center">
+
+ON
+
+</td><td align="center">
+
+ON
+
+</td></tr><tr><td>
+
+*RAM*
+
+</td><td align="center">
+
+32 GB
+
+</td><td align="center">
+
+64 GB
+
+</td><td align="center">
+
+64 GB
+
+</td><td align="center">
+
+128 GB
+
+</td><td align="center">
+
+128 GB
+
+</td><td align="center">
+
+256 GB
+
+</td></tr><tr><td>
+
+*Hard drive size*
+
+</td><td align="center">
+
+250 GB
+
+</td><td align="center">
+
+500 GB
+
+</td><td align="center">
+
+500 GB
+
+</td><td align="center">
+
+500 GB
+
+</td><td align="center">
+
+750 GB
+
+</td><td align="center">
+
+1 TB
+
+</td></tr><tr><td>
+
+*Hard drive type*
+
+</td><td align="center">
+
+SSD Sata3
 
  90 K+ IOPS
 
  500 Mbps+ R/W
 
-|SSD Sata3
+</td><td align="center">
+
+SSD Sata3
 
  90 K+ IOPS
 
  500 Mbps+ R/W
 
-|SSD Sata3
+</td><td align="center">
+
+SSD Sata3
 
  90 K+ IOPS
 
  500 Mbps+ R/W
 
-|SSD PCIE3x4
+</td><td align="center">
+
+SSD PCIE3x4
 
  300 K+ IOPS
 
  2000 Mbps+ R/W
 
-|SSD PCIE3x4
+</td><td align="center">
+
+SSD PCIE3x4
 
  300 K+ IOPS
 
  2000 Mbps+ R/W
 
-|SSD PCIE3x4
+</td><td align="center">
+
+SSD PCIE3x4
 
  300 K+ IOPS
 
  2000 Mbps+ R/W
 
-|
-|*RAID*|1|1|1|10|10|10|
+</td></tr><tr><td>
+
+*RAID*
+
+</td><td align="center">
+
+1
+
+</td><td align="center">
+
+1
+
+</td><td align="center">
+
+1
+
+</td><td align="center">
+
+10
+
+</td><td align="center">
+
+10
+
+</td><td align="center">
+
+10
+
+</td></tr></tbody>
+</table>
 
 **Tip:** Contact your partner for hardware guidance on the E series of license tiers.
 

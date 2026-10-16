@@ -1,4 +1,4 @@
-# Setup of ACH Payment Processing {#_020220b1-0c4f-4064-8d7e-25926da1f041 .concept}
+# Setup of ACH Payment Processing
 
 ACH payments are electronic payments made through the Automated Clearing House \(ACH\) network in the United States. In Acumatica ERP, you can automate payments to vendors by making ACH payments. To do this, you export a batch of payments to a file that is then processed in the ACH system. For each vendor, the specified amount is automatically credited from one of your company's bank accounts and transferred to the payment recipient electronically.
 
@@ -9,7 +9,7 @@ The National Automated Clearing House Association \(NACHA\) has developed the ru
 
 By using ACH payments, you reduce errors, while eliminating the hassles of check preparation, printing, and emailing. Because you can pay promptly, you also can usually get available cash discounts.
 
-## Implementation Steps {#section_kbz_fss_k2c .section}
+## Implementation Steps
 
 To start paying your vendors through the ACH network, you should perform the following steps:
 

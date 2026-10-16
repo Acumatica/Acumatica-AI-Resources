@@ -1,4 +1,4 @@
-# Processing Cash Purchases {#_2cd9e99b-ffa2-4cf2-95d5-970e7274d527 .concept}
+# Processing Cash Purchases
 
 In this chapter, you will find general information on how to create and release cash purchases, and how to create a cash return if a full or partial refund needs to be recorded for a cash purchase.
 

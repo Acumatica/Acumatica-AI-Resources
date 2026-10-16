@@ -1,4 +1,4 @@
-# Customer Discounts: Application of External Discounts {#_846a6a2a-ae73-4fe3-aea0-dc60d1588440 .concept}
+# Customer Discounts: Application of External Discounts
 
 In Acumatica ERP, you can apply to a document discounts that were created in external systems. For external discounts, you can create a discount code on the [Discount Codes](AR_20_90_00.md) \(AR209000\) form or enter a discount and specify the code of the external discount manually on a document. In this topic, you will read about application of external discounts in Acumatica ERP.
 

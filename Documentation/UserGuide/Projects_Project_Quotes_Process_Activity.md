@@ -1,16 +1,16 @@
-# Project Quotes: To Process a Project Quote Based on an Opportunity {#_fb10511a-7654-46fd-9fe8-df66c3cfb01b .task}
+# Project Quotes: To Process a Project Quote Based on an Opportunity
 
 This activity will walk you through the process of creating a project quote from an opportunity and creating a project based on the project quote.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the HM's Bakery and Cafe customer has ordered a juicer for one of its restaurants, along with the installation and training services from the SweetLife Fruits &amp; Jams company. The sales manager of SweetLife has created an opportunity for the provision of the juicer and the services. Acting as SweetLife's estimator, you will create a project quote for this opportunity, and confirm the project quote with the customer.
 
 Then you will convert the project quote to the project.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -24,20 +24,20 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *JUICER15* stock item has been configured.
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *INSTALL* and *TRAINING* non-stock items have been configured.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Opportunities](CR_30_40_00.md) \(CR304000\) form, you will initiate the creation of a project quote for the opportunity created for the customer. On the [Project Quotes](PM_30_45_00.md) \(PM304500\) form, you will then create the project quote and specify all required settings, including the estimation lines and the project template to be used for project creation. You will also print the project quote and email it to the customer for review.
 
 Once the project quote has been confirmed with the customer, you will convert the project quote to a project.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, perform the following instructions to prepare the system:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded; you should sign in as project accountant by using the *brawner* username and the *123* password.
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Creating a Project Quote { .section}
+## Step 1: Creating a Project Quote
 
 To create a project quote for an opportunity, do the following:
 
@@ -62,7 +62,7 @@ To create a project quote for an opportunity, do the following:
 
 5.  On the **Project Tasks** tab, make sure that two tasks have been copied from the selected project template. Notice that the **Default** check box is selected for the *PHASE1* task. The project task is specified as the default task of the project quote because this task is the default task of the selected project template.
 
-## Step 2: Estimating the Revenue and Costs of the Project Quote { .section}
+## Step 2: Estimating the Revenue and Costs of the Project Quote
 
 To estimate the revenue and costs of the project quote based on the customer's order, do the following:
 
@@ -111,7 +111,7 @@ To estimate the revenue and costs of the project quote based on the customer's o
     -   In the Summary area, the **Detail Total** of the opportunity has been changed to the total sales of the created project quote \(*3,300.00*\).
     -   On the **Quotes** tab, where the project quote you created is listed in the table, the total sales of the quote is shown in the **Detail Total** column \(*3,300.00*\). Also, the check box in the **Primary** column is selected, which means that this is the primary project quote of the opportunity.
 
-## Step 3: Confirming the Project Quote with the Customer { .section}
+## Step 3: Confirming the Project Quote with the Customer
 
 To confirm the project quote, do the following:
 
@@ -129,7 +129,7 @@ To confirm the project quote, do the following:
 
 Now you can convert the agreed quote to a project.
 
-## Step 4: Creating a Project Based on the Project Quote { .section}
+## Step 4: Creating a Project Based on the Project Quote
 
 To create a project based on the project quote, do the following:
 
@@ -151,7 +151,6 @@ To create a project based on the project quote, do the following:
     -   On the **Cost Budget** tab, three cost budget lines have been created based on the estimation lines of the project quote with the specified cost account group.
     -   On the **Balances** tab \(see the following screenshot\), the **Income Totals** matches the total sales of the project quote \($3,300\), and the **Expense Totals** matches the total cost of the project quote \($2,640\).
 
-        ![](Images/activity_Projects_Project_Quote.png "The balances of the project created based on the project quote")
 
 5.  On the [Opportunities](CR_30_40_00.md) \(CR304000\) form, open the *000001* opportunity, and on the **Activities** tab, make sure that the email created for the project quote is listed in the table.
 6.  On the **Quotes** tab, in the **Project ID** column, make sure that the identifier of the created project \(*HMBAKERY1*\) is shown.

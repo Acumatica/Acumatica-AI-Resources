@@ -1,4 +1,4 @@
-# Preparing Customer Statements {#_84f6f67f-5e57-437c-a982-2970fa56ffa9 .concept}
+# Preparing Customer Statements
 
 In this chapter, you will find general information on how to process customer statements, a checklist for system implementation, an activity that describes how to generate and print statements, and report and inquiries that can be useful to find and view created statements.
 

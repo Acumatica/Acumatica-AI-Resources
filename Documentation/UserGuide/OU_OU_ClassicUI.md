@@ -1,4 +1,4 @@
-# Add-In for Outlook: Classic UI {#_855202fb-a59e-40f7-a269-505c661e09c4 .concept}
+# Add-In for Outlook: Classic UI
 
 By using the Acumatica add-in for Outlook for the Classic UI, you can manage contacts, cases, and opportunities right from your mailbox.
 

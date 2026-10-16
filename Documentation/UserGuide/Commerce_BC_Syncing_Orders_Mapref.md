@@ -1,4 +1,4 @@
-# Synchronizing Orders {#_37af30fa-ae72-4404-b061-eb319be1d071 .concept}
+# Synchronizing Orders
 
 In the topics of this chapter, you will read about the main features of the synchronization of orders between Acumatica ERP and the BigCommerce store.
 

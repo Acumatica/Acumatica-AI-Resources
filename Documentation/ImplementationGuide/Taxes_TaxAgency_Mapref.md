@@ -1,4 +1,4 @@
-# Tax Agency {#_c652ccbb-def3-4e6a-9207-b4213d147a7e .concept}
+# Tax Agency
 
 The topics of this chapter describe how to create a tax agency in Acumatica ERP for automatic payment of sales taxes and value-added taxes.
 

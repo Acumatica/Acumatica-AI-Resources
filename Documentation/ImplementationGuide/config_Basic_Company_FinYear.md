@@ -1,8 +1,8 @@
-# General Ledger: Financial Years {#_8dd17de3-461d-4d20-a4c7-8736d1313b9d .concept}
+# General Ledger: Financial Years
 
 In Acumatica ERP, transactions are posted to the financial periods that have been defined in the system. Thus, before any transactions are posted, you have to define the structure of the financial year in the system. Based on this structure of the financial year, you can generate periods for any number of financial years and then open the periods.
 
-## Financial Year Setup { .section}
+## Financial Year Setup
 
 You define the financial year on the [Financial Year](../UserGuide/GL_10_10_00.md) \(GL101000\) form by doing the following:
 
@@ -15,7 +15,7 @@ You define the financial year on the [Financial Year](../UserGuide/GL_10_10_00.m
 
 After you have set up the financial year, you need to generate a master calendar.
 
-## Master Calendar Generation { .section}
+## Master Calendar Generation
 
 You generate a master financial calendar on the [Master Financial Calendar](../UserGuide/GL_20_10_00.md#) \(GL201000\) form for any number of financial years by clicking **Generate Calendar** on the form toolbar.
 
@@ -23,7 +23,7 @@ After periods have been generated, you can modify them before any transactions h
 
 After you have generated the master calendar, you open any number of periods for posting.
 
-## Period Opening { .section}
+## Period Opening
 
 You have to open the periods to which users will post transactions and documents. To open periods, on the [Master Financial Calendar](../UserGuide/GL_20_10_00.md#) \(GL201000\) form, you first make sure the necessary year is selected in the **Financial Year** box, and then on the More menu, click **Open Periods**.
 

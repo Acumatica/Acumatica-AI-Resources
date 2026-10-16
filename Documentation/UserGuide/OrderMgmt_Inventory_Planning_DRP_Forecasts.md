@@ -1,4 +1,4 @@
-# Inventory Planning with DRP: Forecasts {#_b8099100-76bc-4bb2-ac20-241d88c6a6af .concept}
+# Inventory Planning with DRP: Forecasts
 
 A forecast predicts future demand \(that is, sales orders that will be placed by customers\) based on historical data. Forecast may depend on seasonality.
 

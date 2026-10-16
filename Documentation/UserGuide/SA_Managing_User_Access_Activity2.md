@@ -1,22 +1,22 @@
-# User Access: To Modify Access for a User Account {#_d3e46a96-b98e-4ed0-9fc8-fb4ccf84b1c9 .task}
+# User Access: To Modify Access for a User Account
 
 The following activity will walk you through the process of modifying access for a user.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you, as a system administrator, have received a request to modify access for Andrew Barber \(formerly a warehouse worker\) because of his transfer to a new job position—packline operator. This request has been justified and approved by his manager.
 
-## Process Overview { .section}
+## Process Overview
 
 You will use the [Users](SM_20_10_10.md) \(SM201010\) form to modify the set of roles for a user account.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start performing the step of this activity, you should sign in to a company with the *U100* dataset preloaded. Sign in as a system administrator, by using the *gibbs* username and the *123* password.
 
-## Step: Modifying Access for the User { .section}
+## Step: Modifying Access for the User
 
 To modify access for the user account of Andrew Barber, do the following:
 

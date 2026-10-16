@@ -1,4 +1,4 @@
-# Implementing Service Management {#_59d8b6a4-fc87-44e8-a3a6-d971eef04256 .concept}
+# Implementing Service Management
 
 This part of the guide describes the minimum required configuration of the service management functionality in Acumatica ERP.
 

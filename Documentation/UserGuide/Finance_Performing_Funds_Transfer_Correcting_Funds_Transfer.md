@@ -1,4 +1,4 @@
-# Funds Transfers: Correcting a Released Funds Transfer {#_2757f9da-c3f6-4f12-a9f4-9020dda180ce .concept}
+# Funds Transfers: Correcting a Released Funds Transfer
 
 If you have released a funds transfer that you now realize is incorrect and you want to correct the transactions, you can reverse this transfer and then create a correct transfer. You reverse the funds transfer on the [Funds Transfers](CA_30_10_00.md) \(CA301000\) form by selecting the needed transfer and then clicking **Reverse** on the form toolbar. \(For instructions, see [To Correct a Funds Transfer](CA__HOW_To_Reverse_Funds_Transfer.md).\)
 

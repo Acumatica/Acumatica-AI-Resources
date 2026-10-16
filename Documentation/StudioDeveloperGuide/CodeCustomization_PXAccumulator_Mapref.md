@@ -1,4 +1,4 @@
-# Updating Data with a Custom PXAccumulator Attribute {#_9fc63394-5d46-4c11-98a8-fbdf70dc69ea .concept}
+# Updating Data with a Custom PXAccumulator Attribute
 
 In this chapter, you will learn how to implement a custom PXAccumulator attribute and change the values of the fields that are updated by this attribute. You will also learn how the PXAccumulator attribute works.
 

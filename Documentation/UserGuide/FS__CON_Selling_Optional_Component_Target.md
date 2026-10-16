@@ -1,4 +1,4 @@
-# Selling an Optional Component of Target Equipment {#_785ba4dc-5c9a-436c-b751-a047e6e5517c .concept}
+# Selling an Optional Component of Target Equipment
 
 In Acumatica ERP, while you are working with a sales order, service order, or appointment on the applicable form, you can easily register a sale of an optional component of target equipment.
 
@@ -6,7 +6,7 @@ For the use case considered in this topic, suppose that the customer has request
 
 In this topic, you will read about the steps involved in processing the service order that includes the sale of an optional component of target equipment.
 
-## Applying the System Settings of the Use Case { .section}
+## Applying the System Settings of the Use Case
 
 In this example, settings are applied in the system as follows:
 
@@ -17,23 +17,22 @@ In this example, settings are applied in the system as follows:
 
 In the diagram below, you can see the entire process of selling an optional component of target equipment within a service order.
 
-![](Images/FS__Selling_Optional_Component_Target_Equipment.png "Selling an optional component of target equipment within a service order")
 
 In the following sections, you will read about each step of the process.
 
-## Entering an Order { .section}
+## Entering an Order
 
 When a service manager receives a customer request, he or she enters a service order by using the [Service Orders](FS_30_01_00.md) \(FS300100\) form \(see 1 in the diagram above\). In the service order, the service manager specifies the customer from which the request has been received, the branch and branch location where the services are delivered, the services that should be performed.
 
 In addition, on the **Inventory Item** tab of this form, the service manager adds the optional component to be sold. For the optional component, the service manager selects *Selling Optional Component* in the **Equipment Action** column, specifies the related target equipment in the **Target Equipment ID** column, and selects the identifier of the equipment component in the **Component ID** column.
 
-## Creating Appointments { .section}
+## Creating Appointments
 
 After the service order has been created in the system, a scheduler of your company \(that is, a person who is responsible for planning the appointments\) uses the [Calendar Board](../Shared/../UserGuide/FS_30_03_00.md) \(FS300300\) form to schedule the appointments \(2 in the diagram above\) that are needed to perform the services requested by the customer.
 
 When the scheduler selects a staff member to attend an appointment, he or she takes into consideration the work schedule of the staff member and filters the displayed staff members by the skills and licenses needed to perform the service and the service area where the services are provided. The scheduler checks the information on each appointment and enters additional information, such as the resource equipment used to perform the services and the stock items purchased by the customer along with the service. \(The system assigns the *Not Started* status to the created appointments.\)
 
-## Attending an Appointment { .section}
+## Attending an Appointment
 
 The staff member who is assigned to an appointment looks through his or her upcoming appointments on the [Staff Calendar Board](../Shared/../UserGuide/FS_30_04_00.md) \(FS300400\) form, identifies which appointment he or she has to attend currently, and goes to the location where the service has to be performed, which usually is the customer location\). When the staff member starts to perform the service, he or she starts the appointment on the [Appointments](../Shared/../UserGuide/FS_30_02_00.md) \(FS300200\) form \(3 in the diagram above\). The appointment is assigned the *In Process* status.
 
@@ -41,7 +40,7 @@ While the services are being performed, the staff member adds the information on
 
 When all appointments of a particular service order are completed, the system assigns the service order the *Completed* status.
 
-## Processing Invoices {#_9b0ac57d-2514-419a-88f3-2517e5031ec6 .section}
+## Processing Invoices
 
 Further processing of the service order is performed by an accountant. On the [Appointments](FS_30_02_00.md) \(FS300200\) form, the accountant opens the completed appointment and verifies quantities and prices. When all information is verified and the appointments are ready for invoicing, the accountant closes the appointments and the service order \(5\). \(The appointments and service order get the *Closed* status.\)
 

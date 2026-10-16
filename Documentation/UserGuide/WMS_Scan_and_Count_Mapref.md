@@ -1,4 +1,4 @@
-# Automated Processing of Physical Inventory {#_454e2820-9137-4dd2-b0ba-0226cbc0d9d1 .concept}
+# Automated Processing of Physical Inventory
 
 In Acumatica ERP, you can process physical inventory in an automated mode by using barcode scanners or mobile devices with a scanning option on the [Scan and Count](IN_30_50_20.md) \(IN305020\) form or the Scan and Count screen in the Acumatica mobile app. This functionality becomes available when the *Inventory Operations* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 

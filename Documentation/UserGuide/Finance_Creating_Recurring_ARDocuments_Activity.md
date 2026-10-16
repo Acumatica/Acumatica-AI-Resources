@@ -1,14 +1,14 @@
-# Recurring AR Documents: Process Activity {#_33d96109-4ea7-49bc-98eb-2e84f52e9dab .task}
+# Recurring AR Documents: Process Activity
 
 The following activity will walk you through the process of setting up and running schedules for recurring AR documents.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Fruits &amp; Jams provides online training courses in the amount of $1,470 to Cafe French Bun for 2026. The trainings should be paid monthly in equal installments of $490. Acting a SweetLife accountant, you need to create a recurring AR invoice to be used as a template, create a schedule for the invoice, and run the schedule to generate a document for January 2026.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -19,11 +19,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, the **Hold Documents on Entry** check box has been selected in the **Data Entry Settings** section.
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *FRBUN \(Cafe French Bun\)* customer has been configured.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create an invoice to be used as a template on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. On the [Recurring Transactions](AR_20_35_00.md) \(AR203500\) form, you will create a schedule for this invoice. On the [Generate Recurring Transactions](AR_50_40_00.md) \(AR504000\) form, you will run this schedule. On the [Release AR Documents](AR_50_10_00.md) \(AR501000\) form, you will release the generated invoice. Finally, on the [Invoices and Memos](AR_30_10_00.md) form, you will review this invoice and the original invoice that was used as a template.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin creating a schedule for recurring documents, do the following:
 
@@ -31,7 +31,7 @@ Before you begin creating a schedule for recurring documents, do the following:
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step 1: Creating an Invoice to be Used as a Template { .section}
+## Step 1: Creating an Invoice to be Used as a Template
 
 To create a recurring invoice with the *Balanced* status to be used as a template, do the following:
 
@@ -48,7 +48,7 @@ To create a recurring invoice with the *Balanced* status to be used as a templat
 4.  On the form toolbar, click **Remove Hold** to give the invoice the *Balanced* status.
 5.  Click **Save** to save the changes.
 
-## Step 2: Creating a Schedule for the Invoice { .section}
+## Step 2: Creating a Schedule for the Invoice
 
 To create a schedule for the invoice, do the following:
 
@@ -65,7 +65,7 @@ To create a schedule for the invoice, do the following:
     -   **Recurrence**: *Fixed Day of Month* *30*
 3.  On the form toolbar, click **Save** to save the changes.
 
-## Step 3: Running a Schedule and Generating an Invoice { .section}
+## Step 3: Running a Schedule and Generating an Invoice
 
 To run the schedule and generate a invoice, do the following:
 
@@ -82,7 +82,7 @@ To run the schedule and generate a invoice, do the following:
 6.  Click the link in the **Reference Nbr.** column to open the invoice on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 7.  On the form toolbar, click **Remove Hold** and click **Save** to save the changes.
 
-## Step 4: Releasing the Generated Invoice { .section}
+## Step 4: Releasing the Generated Invoice
 
 To release the generated invoice, do the following:
 

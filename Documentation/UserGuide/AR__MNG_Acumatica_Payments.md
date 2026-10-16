@@ -1,4 +1,4 @@
-# Configuring and Using Acumatica Payments {#_2a135f6c-cbea-45b0-8da9-2c832347b0a9 .concept}
+# Configuring and Using Acumatica Payments
 
 You can use the functionality of Acumatica payments to provide more payment flexibility to users and the customers they serve. A user can do any of the following:
 

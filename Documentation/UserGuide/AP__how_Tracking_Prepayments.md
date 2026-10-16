@@ -1,4 +1,4 @@
-# To Track Prepayments to Vendors {#_d5ac436d-720b-4dfd-9eff-f57579880d7f .task}
+# To Track Prepayments to Vendors
 
 You use the prepayment account to record prepayments to vendors.
 
@@ -10,7 +10,7 @@ You can change the prepayment account \(and subaccount\) for a particular vendor
 
 The system debits the prepayment account by default when a user enters a new prepayment to a vendor.
 
-## To View Prepayment Balances {#section_gb4_njv_vxb .section}
+## To View Prepayment Balances
 
 1.  Open the [Vendor Summary](AP_40_10_00.md) \(AP401000\) form.
 2.  In the **Branch** box of the Selection area, select the branch for which you want to view prepayments.
@@ -19,7 +19,7 @@ The system debits the prepayment account by default when a user enters a new pre
 
 In the table, the list of vendors \(those that meet the selected criteria\) appears. In the **Prepayments Balance** column, you can view the prepayment balance of each vendor. The **Total Prepayments** box in the Selection area displays the total amount of prepayments for all listed vendors.
 
-## To View Prepayments by Vendor {#section_ib4_njv_vxb .section}
+## To View Prepayments by Vendor
 
 1.  Open the [Vendor Details](AP_40_20_00.md) \(AP402000\) form.
 2.  In the **Branch** box of the Selection area, select the branch for which you want to view prepayments.
@@ -28,7 +28,7 @@ In the table, the list of vendors \(those that meet the selected criteria\) appe
 
 In the table, you can view the list of prepayments that match the selected criteria. The **Prepayment Balance** box of the Selection area displays the total amount of prepayments to the vendor, based on the selected criteria.
 
-## To View All Prepayments {#section_kb4_njv_vxb .section}
+## To View All Prepayments
 
 1.  Open the [AP Balance by GL Account](AP_63_20_00.md) \(AP632000\) report.
 2.  On the **Report Parameters** tab, specify the report parameters that fit your needs for information.

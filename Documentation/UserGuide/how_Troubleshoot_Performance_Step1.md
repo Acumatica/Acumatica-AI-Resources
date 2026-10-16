@@ -1,8 +1,8 @@
-# Step 1: Check the Most Basic Causes {#_41baf63f-8e14-4048-aa3d-49c9cdc601ce .task}
+# Step 1: Check the Most Basic Causes
 
 To exclude the reasons that lead to performance slowdown most frequently, you should perform the substeps described in the sections that follow.
 
-## 1. Check Whether the Site Is Licensed {#_36238980-f793-4d0d-8b88-4cbcb9b6077b .section}
+## 1. Check Whether the Site Is Licensed
 
 The slowdown may be caused by the site not being licensed. Sites in trial mode allow only two concurrent users and limit the usage of hardware resources.
 
@@ -22,7 +22,7 @@ Perform the following task to check whether the site is licensed.
     -   If the site is not licensed, activate the license by following the instructions in [Instance Deployment: To Enable Features and Activate the License](INST_Deploying_Instances_Enabling_Features_Activity.md).
     -   If the site is licensed, continue with the next substep.
 
-## 2. Check the Speed from Other Browsers {#_cacf2a39-2ffa-4729-af83-da68d6845964 .section}
+## 2. Check the Speed from Other Browsers
 
 Another possible reason for the slowdown is that some properties of the browser may be preventing the site from running faster.
 
@@ -35,7 +35,7 @@ Perform the following task to see whether this is the reason for the slowdown.
     -   If the issue is reproduced in only one browser, check the version of the browser, and try to reproduce the issue in the latest version of the browser. You can also try to turn off plug-ins in the browser. Collect more information on the slowdown, and send it to the Acumatica support team, as described in [Step 5: Collect More Information](how_Troubleshoot_Performance_Step5.md#) and [Step 6: Submit a Case to Acumatica Support](how_Troubleshoot_Performance_Step6.md#).
     -   If the issue is reproduced in all browsers, continue with the next substep.
 
-## 3. Check the Speed from Other Locations {#_e8fa44f8-311c-4d2a-a2e2-aabed4a155d5 .section}
+## 3. Check the Speed from Other Locations
 
 Some network or internet service provider issues at the user’s end may be causing a performance slowdown.
 
@@ -48,7 +48,7 @@ Perform the following task to see whether this is the reason for the slowdown.
     -   If the issue is not reproduced on other computers, the problem is probably in the client’s network. Ask the client to check the network settings.
     -   If the issue is reproduced on multiple computers, continue with the next substep.
 
-## 4. Check Automation Schedules {#_3f2ef842-3b6a-4c79-9be7-99cbb953f227 .section}
+## 4. Check Automation Schedules
 
 Slowdowns may be caused by errors on active schedules, unprocessed emails, or insufficient time for a scheduled processes to complete before others begin.
 
@@ -67,7 +67,6 @@ Perform the following tasks to check the automation schedules.
 2.  Depending on the results of the previous instruction, do one of the following:
     -   If you have found some overlap in the schedules, correct the execution times of any needed schedules. For example, we recommend that you leave at least 5 minutes between executions of the *Send and Receive Email*schedule, as shown in the following screenshot.
 
-        ![](Images/SendAndReceiveEmailSchedule.png "Send and Receive Email schedule")
 
     -   If there is enough time for each process to finish before the start of the next scheduled process, continue with the next task.
 
@@ -78,7 +77,7 @@ Perform the following tasks to check the automation schedules.
     -   If you have found failed or old unprocessed emails, delete them.
     -   If there are no failed or unprocessed emails, continue with the next substep.
 
-## **5. Explore the Running Processes** {#_ba43ed97-9782-4aea-9b48-820b14cfb5fe .section}
+## **5. Explore the Running Processes**
 
 The slowdown could be caused by some process that is hung and is running in an endless loop.
 
@@ -92,7 +91,6 @@ On the [System Monitor](SM_20_15_30.md) \(SM201530\) form, check the list of all
 2.  Depending on the results of the previous instruction, do the following:
     -   If some process is hung, select the process and click **Abort** on the form toolbar to end the process, as shown in the following screenshot. If the situation repeats, collect more information on the slowdown and send it to the Acumatica support team, as described in [Step 5: Collect More Information](how_Troubleshoot_Performance_Step5.md#) and [Step 6: Submit a Case to Acumatica Support](how_Troubleshoot_Performance_Step6.md#).
 
-        ![](Images/RunningProcessesAbort.png "Abort button")
 
     -   If no process is hung, continue with the next task.
 
@@ -109,7 +107,7 @@ On the [System Monitor](SM_20_15_30.md) \(SM201530\) form, check the list of all
     -   If another process takes too much time, either investigate the reasons or end the process.
     -   If memory consumption of the *w3wp.exe* is normal and no other processes are taking too much time or using too much server memory, continue with the next substep.
 
-## **6. Check Whether Antivirus Software Is Blocking Some Functionality of the Site** {#_8d5338a1-c780-4797-8728-a786fbf92abb .section}
+## **6. Check Whether Antivirus Software Is Blocking Some Functionality of the Site**
 
 Some settings of antivirus software could be preventing the site from working normally.
 

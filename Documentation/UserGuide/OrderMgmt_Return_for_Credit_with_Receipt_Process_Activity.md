@@ -1,14 +1,14 @@
-# Returns for Credit with Receipts: Process Activity {#_61e6d626-4c36-4c7b-897e-11b07a8055c2 .task}
+# Returns for Credit with Receipts: Process Activity
 
 The following activity demonstrates how to prepare and process to completion a customer return for a particular sales order with the returned item or items being received to inventory and a credit memo to the customer being created.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Grace Norman, a sales manager in the SweetLife Fruits &amp; Jams company. On January 30, 2026, the FourStar Coffee &amp; Sweets Shop customer requests authorization for the return of the oranges ordered on January 29, 2026, because the customer was not satisfied with the quality of the shipped fruits. You authorize the return with shipping of the returned items to SweetLife’s main warehouse. Acting as the sales manager, you need to process this return.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -23,11 +23,11 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
     -   On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, a sales order for the *COFFEESHOP* customer dated *1/29/2026*
     -   On the [Shipments](SO_30_20_00.md) \(SO302000\) form, a shipment for the *COFFEESHOP* customer dated *1/29/2026*
 
-## Process Overview { .section}
+## Process Overview
 
 To process a return for credit with a receipt, you will create a return order of the *RC* type on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, and add to it the line or lines of the sales invoice that has been prepared for the sales order for which you need to process a return. Then you will receive the returned items to inventory on the [Shipments](SO_30_20_00.md) \(SO302000\) form by creating a shipment with the *Receipt* operation and confirming it. After the items have been received to inventory, you will create a credit memo to decrease the customer's debt in the system by the amount of the returned items. Finally, after reviewing the details of the prepared credit memo on the [Invoices](SO_30_30_00.md) \(SO303000\) form, you will release it.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start preparing and processing the customer return, you should do the following:
 
@@ -35,7 +35,7 @@ Before you start preparing and processing the customer return, you should do the
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, make sure the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Creating a Return Order { .section}
+## Step 1: Creating a Return Order
 
 To create a return order, do the following:
 
@@ -51,7 +51,7 @@ To create a return order, do the following:
     -   **Description**: `Return of unconditional fruits`
 3.  On the form toolbar, click **Save**.
 
-## Step 2: Adding the Item to Be Returned { .section}
+## Step 2: Adding the Item to Be Returned
 
 To add the invoice line with the *SO* type to the return order, do the following:
 
@@ -64,7 +64,7 @@ To add the invoice line with the *SO* type to the return order, do the following
 3.  Review the details of the added line, and make sure that the related invoice reference number is specified in the **Invoice Nbr.** column.
 4.  On the form toolbar, click **Save**.
 
-## Step 3: Receiving the Returned Items { .section}
+## Step 3: Receiving the Returned Items
 
 To process the receipt of items to inventory, do the following:
 
@@ -73,7 +73,7 @@ To process the receipt of items to inventory, do the following:
 3.  Click **OK**. The system closes the dialog box and opens the prepared shipment with the *Receipt* operation on the [Shipments](SO_30_20_00.md) \(SO302000\) form.
 4.  On the form toolbar, click **Confirm Shipment**.
 
-## Step 4: Processing a Credit Memo { .section}
+## Step 4: Processing a Credit Memo
 
 To prepare a credit memo to the customer to adjust the customer's balance, do the following:
 
@@ -81,12 +81,11 @@ To prepare a credit memo to the customer to adjust the customer's balance, do th
 2.  In the Summary area, make sure that the **Date** is set to *1/30/2026*.
 3.  On the form toolbar, click **Release** to release the credit memo, which is assigned the *Open* status, as shown in the following screenshot.
 
-    ![](Images/activity_OrderMgmt_Return_for_Credit_with_Receipt.png "Credit memo prepared for the return order")
 
 
 You have completely processed the customer return.
 
-## Activity Recap { .section}
+## Activity Recap
 
 In this activity, we have illustrated how the sales manager has done the following:
 

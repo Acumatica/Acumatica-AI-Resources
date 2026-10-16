@@ -1,4 +1,4 @@
-# To Disable State and Postal Code Validation {#_bb614533-c07c-4ea6-9b2a-425afeab764d .task}
+# To Disable State and Postal Code Validation
 
 To avoid errors during data synchronization between Salesforce and Acumatica ERP, you may need to disable state and postal code validation in Acumatica ERP, which you do as follows:
 

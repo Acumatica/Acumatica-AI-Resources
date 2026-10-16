@@ -1,8 +1,8 @@
-# To Insert Reusable Business Logic That Has Already Been Declared {#_c9249c85-d703-4124-a376-bea0dd56c54e .task}
+# To Insert Reusable Business Logic That Has Already Been Declared
 
 This topic describes how to insert an already-declared generic graph extension in the application code.
 
-## To Add a Generic Graph Extension to a Graph { .section}
+## To Add a Generic Graph Extension to a Graph
 
 1.  Review the generic graph extension that provides the business logic you want to reuse as follows:
     1.  Identify the mapped cache extensions the generic graph extension works with and their fields. Decide whether the default mapping \(defined by the mapping class of the generic graph extension\) is suitable for the base data access class \(DAC\) you’re going to use.
@@ -13,7 +13,7 @@ This topic describes how to insert an already-declared generic graph extension i
     -   The main DAC of the primary data view of the base graph
     In the following code, the `MultiCurrency` class extends the `OpportunityMaint` graph. The `MultiCurrency` class derives from `public abstract class MultiCurrencyGraph<TGraph, TPrimary> : PXGraphExtension<TGraph>`.
 
-    ```language-csharp
+    ```csharp
     public class MultiCurrency : MultiCurrencyGraph<OpportunityMaint, CROpportunity>
     {
     }
@@ -28,7 +28,7 @@ This topic describes how to insert an already-declared generic graph extension i
     -   Add your own views, methods, and event handlers.
     The following code shows a sample implementation of the `MultiCurrency` class, which reuses the multicurrency business logic defined in the MultiCurrencyGraph generic graph extension.
 
-    ```language-csharp
+    ```csharp
     public class MultiCurrency : MultiCurrencyGraph<OpportunityMaint, CROpportunity>
     {   
       protected override DocumentMapping GetDocumentMapping()

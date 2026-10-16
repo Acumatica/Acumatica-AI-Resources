@@ -1,4 +1,4 @@
-# Paying AP Bills by Project {#_543b4778-6ef7-4252-b27a-28f6920cd06a .concept}
+# Paying AP Bills by Project
 
 This chapter describes how to pay multiple bills for a project with a single payment.
 

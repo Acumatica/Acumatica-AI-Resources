@@ -1,4 +1,4 @@
-# Blanket Purchase Orders: Rules of Line Completion and Closure {#_0d6ed596-331e-4c67-a852-34d32ff26075 .concept}
+# Blanket Purchase Orders: Rules of Line Completion and Closure
 
 Blanket purchase orders on the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form have the following rules of line completion:
 

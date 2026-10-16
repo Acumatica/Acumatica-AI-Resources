@@ -1,4 +1,4 @@
-# Submitting Cases to Internal Teams {#_f7f26d32-8759-4f85-b364-31d867f2c71b .concept}
+# Submitting Cases to Internal Teams
 
 In this chapter, you will find information about the submittal of support cases to internal teams in Acumatica ERP. An internal team can be any team in your company whose members field questions from other employees, help employees solve problems, and address other issues that employees face. For example, you can use Acumatica ERP for the submittal of cases to an IT or legal team within your company.
 

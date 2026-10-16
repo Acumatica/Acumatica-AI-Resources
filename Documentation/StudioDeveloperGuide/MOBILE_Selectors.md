@@ -1,8 +1,8 @@
-# Configuring Selectors {#_63e43f6d-7379-43df-9d76-4392bd15dfab .concept}
+# Configuring Selectors
 
 You can configure selector fields to be displayed as pop-up windows or grids.
 
-## Example: Configuring a Screen with Selectors { .section}
+## Example: Configuring a Screen with Selectors
 
 To see an example of configuring a selector field, copy the code below to an `.xml` file, put the file in the `\App_Data\Mobile` folder of the Acumatica ERP website, and start the mobile application.
 
@@ -55,11 +55,9 @@ To configure a selector field, you use the sm:SelectorContainer tag inside the s
 
 A selector with `PickerType="Attached"` is displayed as a pop-up window \(see the screenshot below\).
 
-![](Images/11-1.png "A selector as a pop-up window")
 
 A selector with `PickerType="Detached"` is displayed as a grid \(as shown in the screenshot below\). You can configure the fields to display by adding nested sm:Field tags.
 
-![](Images/11-2.png "A selector as a grid")
 
 **Parent topic:**[Screens](../StudioDeveloperGuide/MOBILE_Screens.md)
 

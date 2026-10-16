@@ -1,10 +1,10 @@
-# Joint Payments: General Information {#_6fd4aa8c-7e03-4bab-a764-f2aa79c76fd6 .concept}
+# Joint Payments: General Information
 
 A joint payment is a payment generated for an accounts payable bill that is made payable to joint payees: your vendor, whose work is tracked as part of the project, and another supplier or contractor who supplies materials or work for this vendor directly. By issuing a joint payment, you ensure that subcontractors pay their suppliers for their materials or their work on the project.
 
 In Acumatica ERP Construction Edition, you can create an AP bill for the vendor you work with and specify other vendors in the bill who are not a part of a project but partially provide services or materials for the project. Then you can create a joint payment for this bill to the vendor you work with and to its supplier or subcontractor.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -13,11 +13,11 @@ In this chapter, you will learn how to do the following:
 -   Specify joint amounts for different lines of a joint bill
 -   Create and process joint payments for a joint bill
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You process a joint payment to register that the payment for the work performed for a particular project was made jointly to two or more parties.
 
-## Creation of an AP Bill from Joint Payees { .section}
+## Creation of an AP Bill from Joint Payees
 
 You enter a bill by using the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. The Summary area of a bill includes information about the vendor, the payment terms, the amount, the currency used for the transaction, and other information. In a joint bill, you specify the vendor that is working directly with you on the project as the main vendor of the bill. On the **Details** tab, the bill can have multiple detail lines or it can have a single line that summarizes the performed work or purchases. For details on creating a bill, see [AP Bills: General Information](Finance_ProcessingAPBills_GeneralInfo.md).
 
@@ -30,7 +30,7 @@ After you have specified all the required bill information, you add joint payees
 
 The system shows the amount that has already been paid to joint payee in the **Joint Amount Paid** column and the amount that has to be paid in the **Joint Balance** column. Initially, the joint balance for each line is the same as the **Joint Amount Owed** value you have specified.
 
-## Preparation of Payments to Joint Payees { .section}
+## Preparation of Payments to Joint Payees
 
 While you are viewing an AP bill for joint payees on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you create a payment for the joint bill by clicking **Pay** on the form toolbar. The system opens the [Prepare Payments](AP_50_30_00.md) \(AP503000\) form. On the **Documents to Pay** tab of the [Prepare Payments](AP_50_30_00.md) form, the joint payee bill is shown as a set of lines for payment, with a separate line for each joint payee and for the main vendor.
 
@@ -40,17 +40,16 @@ If you create a partial joint payment, the joint balance decreases in the paymen
 
 If the joint bill is paid by lines \(that is, if the **Pay by Line** check box is selected in the Summary area of the [Bills and Adjustments](AP_30_10_00.md) form\), on the **Details** tab of this form, the balance of the corresponding line is reduced by the payment amount when the payment is released. If the bill is not paid by lines, the joint payment amount decreases the balance of the entire bill.
 
-## Grouping of Joint Payments { .section}
+## Grouping of Joint Payments
 
 When a user mass-prepares and mass-processes joint payments, the system aggregates joint payment lines to a single payment document if the same internal vendor is specified in these lines. An internal vendor is one that is defined in the system on the [Vendors](AP_30_30_00.md) \(AP303000\) form.
 
 If a joint payee is an external vendor \(that is, external to the system, with no corresponding record on the [Vendors](AP_30_30_00.md) form\), lines with this vendor cannot be aggregated to a single joint check. Instead, separate joint checks will be created for each payment line with this vendor.
 
-## Workflow of Joint Payments { .section}
+## Workflow of Joint Payments
 
 The following diagram illustrates the workflow of preparing payments for joint bills.
 
-![](Images/diag_Construction_Joint_Payees.png)
 
 **Parent topic:**[Processing Joint Payments](../UserGuide/Construction_Joint_Payees_Mapref.md)
 

@@ -1,14 +1,22 @@
-# Tree: Conversion from ASPX to HTML and TypeScript {#_1303dc29-b4bd-447f-a6fc-974b82d81d9d .concept}
+# Tree: Conversion from ASPX to HTML and TypeScript
 
 The following tables will help you to convert the ASPX elements that are related to trees to HTML or TypeScript elements.
 
-## Behavior { .section}
+## Behavior
 
 The following table shows the correspondence between the Behavior element and the HTML or TypeScript elements. During the conversion of ASPX pages to HTML and TypeScript, you need to replace these ASPX elements with their analogs in HTML or TypeScript.
 
-|ASPX|HTML or TypeScript|
-|----|------------------|
-|Behavior```
+<table id="_c44ada1e-7e36-43a1-a7f5-79cc1c512ffd"><thead><tr><th>
+
+ASPX
+
+</th><th>
+
+HTML or TypeScript
+
+</th></tr></thead><tbody><tr><td>
+
+Behavior```
 <px:PXTreeView >
   <AutoCallBack >
     <Behavior 
@@ -18,15 +26,28 @@ The following table shows the correspondence between the Behavior element and th
 </px:PXTreeView>
 ```
 
-|Use the autoRepaint property of the treeConfig decorator.|
+</td><td>
 
-## ExtraColumns { .section}
+Use the autoRepaint property of the treeConfig decorator.
+
+</td></tr></tbody>
+</table>
+
+## ExtraColumns
 
 The following table shows the correspondence between the ExtraColumns element and the HTML or TypeScript elements. During the conversion of ASPX pages to HTML and TypeScript, you need to replace these ASPX elements with their analogs in HTML or TypeScript.
 
-|ASPX|HTML or TypeScript|
-|----|------------------|
-|ExtraColumns```
+<table id="_1c65e671-6121-436b-94bd-7654c69bb00f"><thead><tr><th>
+
+ASPX
+
+</th><th>
+
+HTML or TypeScript
+
+</th></tr></thead><tbody><tr><td>
+
+ExtraColumns```
 <px:PXTree 
   <ExtraColumns>
     <px:ExtraColumn 
@@ -45,15 +66,28 @@ The following table shows the correspondence between the ExtraColumns element an
 </px:PXTree>
 ```
 
-|Use the extraColumns property of the treeConfig decorator.|
+</td><td>
 
-## Images { .section}
+Use the extraColumns property of the treeConfig decorator.
+
+</td></tr></tbody>
+</table>
+
+## Images
 
 The following table shows the correspondence between the Images element and the HTML or TypeScript elements. During the conversion of ASPX pages to HTML and TypeScript, you need to replace these ASPX elements with their analogs in HTML or TypeScript.
 
-|ASPX|HTML or TypeScript|
-|----|------------------|
-|Images```
+<table id="_3760acb7-850c-4313-8f3b-f3f535bdd5b7"><thead><tr><th>
+
+ASPX
+
+</th><th>
+
+HTML or TypeScript
+
+</th></tr></thead><tbody><tr><td>
+
+Images```
 <px:PXTreeView>				
   <Images>
     <ParentImages 
@@ -66,15 +100,28 @@ The following table shows the correspondence between the Images element and the 
 </px:PXTree>
 ```
 
-|Use the images property of the treeConfig decorator.|
+</td><td>
 
-## PXTree { .section}
+Use the images property of the treeConfig decorator.
+
+</td></tr></tbody>
+</table>
+
+## PXTree
 
 The following table shows the correspondence between the PXTree element and the HTML or TypeScript elements. During the conversion of ASPX pages to HTML and TypeScript, you need to replace these ASPX elements with their analogs in HTML or TypeScript.
 
-|ASPX|HTML or TypeScript|
-|----|------------------|
-|PXTree```
+<table id="_0c71190c-86e4-4de0-b17c-d07daf7f247d"><thead><tr><th>
+
+ASPX
+
+</th><th>
+
+HTML or TypeScript
+
+</th></tr></thead><tbody><tr><td>
+
+PXTree```
 <px:PXTree 
   runat="server" 
   ID="treeBomTree" 
@@ -118,7 +165,9 @@ The following table shows the correspondence between the PXTree element and the 
 </px:PXTree>
 ```
 
-|Use the qp-tree tag in HTML and the treeConfig decorator for a view class in TypeScript.
+</td><td>
+
+Use the qp-tree tag in HTML and the treeConfig decorator for a view class in TypeScript.
 
  The following example shows a declaration of a view class for a tree in TypeScript.
 
@@ -158,166 +207,286 @@ export class WorkbenchTreeNode
 </qp-tree>
 ```
 
-|
-|ActionField```
+</td></tr><tr><td>
+
+ActionField```
 <px:PXTree 
   ActionField="Actions" />
 ```
 
-|Use the actionField property of the treeConfig decorator.|
-|AddChildNode```
+</td><td>
+
+Use the actionField property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+AddChildNode```
 <px:PXTree 
   AddChildNode="NewChildNodeDefault" />
 ```
 
-|Use the addChildNode property of the treeConfig decorator.|
-|AddSiblingNode```
+</td><td>
+
+Use the addChildNode property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+AddSiblingNode```
 <px:PXTree 
   AddSiblingNode="NewSiblingNodeDefault" />
 ```
 
-|Use the addSiblingNode property of the treeConfig decorator.|
-|CheckDropCommand```
+</td><td>
+
+Use the addSiblingNode property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+CheckDropCommand```
 <px:PXTree 
   CheckDropCommand="CheckDropAction" />
 ```
 
-|Use the checkDropCommand property of the treeConfig decorator.|
-|DataMember```
+</td><td>
+
+Use the checkDropCommand property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+DataMember```
 <px:PXTree 
   DataMember="ItemClassNodes" />
 ```
 
-|Use the view attribute of the qp-tree control, as the following code shows.```
+</td><td>
+
+Use the view attribute of the qp-tree control, as the following code shows.```
 <qp-tree 
   id="tree" 
   view.bind="ItemClassNodes">
 </qp-tree>
 ```
 
-|
-|DefaultDrag```
+</td></tr><tr><td>
+
+DefaultDrag```
 <px:PXTree 
   DefaultDrag="Cut" />
 ```
 
-|Use the defaultDrag property of the treeConfig decorator.|
-|Description```
+</td><td>
+
+Use the defaultDrag property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+Description```
 <px:PXTree 
   Description="Description" />
 ```
 
-|Use the textField property of the treeConfig decorator.|
-|ExtraColumnField```
+</td><td>
+
+Use the textField property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+ExtraColumnField```
 <px:PXTree 
   ExtraColumnField="ExtraColumns" />
 ```
 
-|Use the extraColumnField property of the treeConfig decorator.|
-|Height```
+</td><td>
+
+Use the extraColumnField property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+Height```
 <px:PXTree 
   Height="100%" />
 ```
 
-|Do not specify the height of a tree control because it is automatically adjusted for various screen sizes. However, if you need to specify the height for some reason, you can use the height property in the treeConfig decorator.|
-|IconColorField```
+</td><td>
+
+Do not specify the height of a tree control because it is automatically adjusted for various screen sizes. However, if you need to specify the height for some reason, you can use the height property in the treeConfig decorator.
+
+</td></tr><tr><td>
+
+IconColorField```
 <px:PXTree 
   IconColorField="Iconcolor" />
 ```
 
-|Use the iconColorField property of the treeConfig decorator.|
-|IconField```
+</td><td>
+
+Use the iconColorField property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+IconField```
 <px:PXTree 
   IconField="Icon" />
 ```
 
-|Use the iconField property of the treeConfig decorator.|
-|IconSize```
+</td><td>
+
+Use the iconField property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+IconSize```
 <px:PXTree 
   IconSize="22" />
 ```
 
-|Use the iconSize property of the treeConfig decorator.|
-|ID```
+</td><td>
+
+Use the iconSize property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+ID```
 <px:PXTree 
   ID="tree" />
 ```
 
-|Use the id attribute of the qp-tree control, as the following code shows.```
+</td><td>
+
+Use the id attribute of the qp-tree control, as the following code shows.```
 <qp-tree 
   id="tree">
 </qp-tree>
 ```
 
-|
-|IDName```
+</td></tr><tr><td>
+
+IDName```
 <px:PXTree 
   IDName="IDName" />
 ```
 
-|Use the idField property of the treeConfig decorator.|
-|Mode```
+</td><td>
+
+Use the idField property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+Mode```
 <px:PXTree 
   Mode="single" />
 ```
 
-|Use the mode property of the treeConfig decorator.|
-|Modifiable```
+</td><td>
+
+Use the mode property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+Modifiable```
 <px:PXTree 
   Modifiable="True" />
 ```
 
-|Use the modifiable property of the treeConfig decorator.|
-|OnAdd```
+</td><td>
+
+Use the modifiable property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+OnAdd```
 <px:PXTree 
   OnAdd="AddNode" />
 ```
 
-|Use the onAdd property of the treeConfig decorator.|
-|OnChange```
+</td><td>
+
+Use the onAdd property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+OnChange```
 <px:PXTree 
   OnChange="UpdateNode" />
 ```
 
-|Use the onChange property of the treeConfig decorator.|
-|OnDelete```
+</td><td>
+
+Use the onChange property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+OnDelete```
 <px:PXTree 
   OnDelete="DeleteNode" />
 ```
 
-|Use the onDelete property of the treeConfig decorator.|
-|OnSelect```
+</td><td>
+
+Use the onDelete property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+OnSelect```
 <px:PXTree 
   OnSelect="SelectNode" />
 ```
 
-|Use the onSelect property of the treeConfig decorator.|
-|ParentIDName```
+</td><td>
+
+Use the onSelect property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+ParentIDName```
 <px:PXTree 
   ParentIDName="IDParent" />
 ```
 
-|Use the parentIdField property of the treeConfig decorator.|
-|SingleClickSelect```
+</td><td>
+
+Use the parentIdField property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+SingleClickSelect```
 <px:PXTree 
   SingleClickSelect="True" />
 ```
 
-|Use the singleClickSelect property of the treeConfig decorator.|
-|Width```
+</td><td>
+
+Use the singleClickSelect property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+Width```
 <px:PXTree 
   Width="100%" />
 ```
 
-|Do not specify the width of a tree control because it is automatically adjusted for various screen sizes. However, if you need to specify the width for some reason, you can use the width property in the treeConfig decorator.|
+</td><td>
 
-## PXTreeItemBinding { .section}
+Do not specify the width of a tree control because it is automatically adjusted for various screen sizes. However, if you need to specify the width for some reason, you can use the width property in the treeConfig decorator.
+
+</td></tr></tbody>
+</table>
+
+## PXTreeItemBinding
 
 The following table shows the correspondence between the PXTreeItemBinding element and the HTML or TypeScript elements. During the conversion of ASPX pages to HTML and TypeScript, you need to replace these ASPX elements with their analogs in HTML or TypeScript.
 
-|ASPX|HTML or TypeScript|
-|----|------------------|
-|PXTreeItemBinding```
+<table id="_1ef56f1e-a673-4a97-b1ed-d6b9ea16d2d0"><thead><tr><th>
+
+ASPX
+
+</th><th>
+
+HTML or TypeScript
+
+</th></tr></thead><tbody><tr><td>
+
+PXTreeItemBinding```
 <px:PXTreeView>
   <DataBindings>
     <px:PXTreeItemBinding 
@@ -329,7 +498,9 @@ The following table shows the correspondence between the PXTreeItemBinding eleme
 </px:PXTreeView>
 ```
 
-|Use the properties of the treeConfig decorator, as shown in the following example.
+</td><td>
+
+Use the properties of the treeConfig decorator, as shown in the following example.
 
  ```
 @treeConfig({
@@ -345,8 +516,9 @@ export class ItemClassNodes
 
  **Note:** The DescriptionField property from ASPX is not supported in the Modern UI.
 
-|
-|DataMember```
+</td></tr><tr><td>
+
+DataMember```
 <px:PXTreeView>
   <DataBindings>
     <px:PXTreeItemBinding 
@@ -356,15 +528,18 @@ export class ItemClassNodes
 </px:PXTreeView>
 ```
 
-|Use the view attribute of the qp-tree control, as the following code shows.```
+</td><td>
+
+Use the view attribute of the qp-tree control, as the following code shows.```
 <qp-tree 
   id="tree" 
   view.bind="ItemClassNodes">
 </qp-tree>
 ```
 
-|
-|DescriptionField```
+</td></tr><tr><td>
+
+DescriptionField```
 <px:PXTreeView>
   <DataBindings>
     <px:PXTreeItemBinding 
@@ -374,8 +549,13 @@ export class ItemClassNodes
 </px:PXTreeView>
 ```
 
-|The DescriptionField property from ASPX is not supported in the Modern UI.|
-|ImageUrlField```
+</td><td>
+
+The DescriptionField property from ASPX is not supported in the Modern UI.
+
+</td></tr><tr><td>
+
+ImageUrlField```
 <px:PXTreeView>
   <DataBindings>
     <px:PXTreeItemBinding 
@@ -385,8 +565,13 @@ export class ItemClassNodes
 </px:PXTreeView>
 ```
 
-|Use the iconField property of the treeConfig decorator.|
-|TextField```
+</td><td>
+
+Use the iconField property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+TextField```
 <px:PXTreeView>
   <DataBindings>
     <px:PXTreeItemBinding 
@@ -396,8 +581,13 @@ export class ItemClassNodes
 </px:PXTreeView>
 ```
 
-|Use the textField property of the treeConfig decorator.|
-|ToolTipField```
+</td><td>
+
+Use the textField property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+ToolTipField```
 <px:PXTreeView>
   <DataBindings>
     <px:PXTreeItemBinding 
@@ -407,8 +597,13 @@ export class ItemClassNodes
 </px:PXTreeView>
 ```
 
-|Use the toolTipField property of the treeConfig decorator.|
-|ValueField```
+</td><td>
+
+Use the toolTipField property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+ValueField```
 <px:PXTreeView>
   <DataBindings>
     <px:PXTreeItemBinding 
@@ -418,15 +613,28 @@ export class ItemClassNodes
 </px:PXTreeView>
 ```
 
-|Use the valueField property of the treeConfig decorator.|
+</td><td>
 
-## PXTreeView { .section}
+Use the valueField property of the treeConfig decorator.
+
+</td></tr></tbody>
+</table>
+
+## PXTreeView
 
 The following table shows the correspondence between the PXTreeView element and the HTML or TypeScript elements. During the conversion of ASPX pages to HTML and TypeScript, you need to replace these ASPX elements with their analogs in HTML or TypeScript.
 
-|ASPX|HTML or TypeScript|
-|----|------------------|
-|PXTreeView```
+<table id="_53b158c3-95c7-4d0b-b468-cfb18f27756e"><thead><tr><th>
+
+ASPX
+
+</th><th>
+
+HTML or TypeScript
+
+</th></tr></thead><tbody><tr><td>
+
+PXTreeView```
 <px:PXTreeView 
   ID="tree" 
   runat="server" 
@@ -458,7 +666,9 @@ The following table shows the correspondence between the PXTreeView element and 
 </px:PXTreeView>
 ```
 
-|Use the qp-tree tag in HTML and the treeConfig decorator for a view class in TypeScript.
+</td><td>
+
+Use the qp-tree tag in HTML and the treeConfig decorator for a view class in TypeScript.
 
  The following example shows a declaration of a view class for a tree in TypeScript.
 
@@ -494,121 +704,194 @@ export class ItemClassNodes
 </qp-tree>
 ```
 
-|
-|AllowCollapse```
+</td></tr><tr><td>
+
+AllowCollapse```
 <px:PXTreeView 
   AllowCollapse="True">
 </px:PXTreeView>
 ```
 
-|Use the qp-collapsible attribute as described in [Collapsible Area: Configuration](UIDevRef_CollapsibleArea_Configuration.md).|
-|AutoRepaint```
+</td><td>
+
+Use the qp-collapsible attribute as described in [Collapsible Area: Configuration](UIDevRef_CollapsibleArea_Configuration.md).
+
+</td></tr><tr><td>
+
+AutoRepaint```
 <px:PXTreeView 
   AutoRepaint="True" />
 ```
 
-|Use the autoRepaint property of the treeConfig decorator.|
-|Caption```
+</td><td>
+
+Use the autoRepaint property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+Caption```
 <px:PXTreeView 
   Caption="Item Class Tree" />
 ```
 
-|Use the caption attribute of the qp-tree control, as the following code shows.```
+</td><td>
+
+Use the caption attribute of the qp-tree control, as the following code shows.```
 <qp-tree id="tree" 
   view.bind="ItemClassNodes" 
   caption="Item Class Tree">
 </qp-tree>
 ```
 
-|
-|DataMember```
+</td></tr><tr><td>
+
+DataMember```
 <px:PXTreeView 
   DataMember="ItemClassNodes" />
 ```
 
-|Use the view attribute of the qp-tree control, as the following code shows.```
+</td><td>
+
+Use the view attribute of the qp-tree control, as the following code shows.```
 <qp-tree 
   id="tree" 
   view.bind="ItemClassNodes">
 </qp-tree>
 ```
 
-|
-|ExpandDepth```
+</td></tr><tr><td>
+
+ExpandDepth```
 <px:PXTreeView 
   ExpandDepth="0" />
 ```
 
-|Use the openedLayers property of the treeConfig decorator.|
-|Height```
+</td><td>
+
+Use the openedLayers property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+Height```
 <px:PXTreeView 
   Height="180px" />
 ```
 
-|Do not specify the height of a tree control because it is automatically adjusted for various screen sizes. However, if you need to specify the height for some reason, you can use the height property in the treeConfig decorator.|
-|ID```
+</td><td>
+
+Do not specify the height of a tree control because it is automatically adjusted for various screen sizes. However, if you need to specify the height for some reason, you can use the height property in the treeConfig decorator.
+
+</td></tr><tr><td>
+
+ID```
 <px:PXTreeView 
   ID="tree" />
 ```
 
-|Use the id attribute of the qp-tree control, as the following code shows.```
+</td><td>
+
+Use the id attribute of the qp-tree control, as the following code shows.```
 <qp-tree 
   id="tree">
 </qp-tree>
 ```
 
-|
-|KeepPosition```
+</td></tr><tr><td>
+
+KeepPosition```
 <px:PXTreeView 
   KeepPosition= "True" />
 ```
 
-|Use the keepPosition property of the treeConfig decorator.|
-|PopulateOnDemand```
+</td><td>
+
+Use the keepPosition property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+PopulateOnDemand```
 <px:PXTreeView 
   PopulateOnDemand="True" />
 ```
 
-|Use the dynamic property of the treeConfig decorator.|
-|RenderHtmlText```
+</td><td>
+
+Use the dynamic property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+RenderHtmlText```
 <px:PXTreeView 
   RenderHtmlText="True" >
 </px:PXTreeView>
 ```
 
-|Use the renderHTML property of the treeConfig decorator. For more details, see [Tree: Markup of a Tree Node Using HTML](UIDevRef_Tree_renderHTML.md).|
-|SelectFirstNode```
+</td><td>
+
+Use the renderHTML property of the treeConfig decorator. For more details, see [Tree: Markup of a Tree Node Using HTML](UIDevRef_Tree_renderHTML.md).
+
+</td></tr><tr><td>
+
+SelectFirstNode```
 <px:PXTreeView 
   SelectFirstNode="True" />
 ```
 
-|Use the selectFirstNode property of the treeConfig decorator.|
-|ShowRootNode```
+</td><td>
+
+Use the selectFirstNode property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+ShowRootNode```
 <px:PXTreeView 
   ShowRootNode="False" />
 ```
 
-|Use the hideRootNode property of the treeConfig decorator.|
-|SyncPosition```
+</td><td>
+
+Use the hideRootNode property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+SyncPosition```
 <px:PXTreeView 
   SyncPosition="True" />
 ```
 
-|Use the syncPosition property of the treeConfig decorator.|
-|Width```
+</td><td>
+
+Use the syncPosition property of the treeConfig decorator.
+
+</td></tr><tr><td>
+
+Width```
 <px:PXTreeView 
   Width="180px" />
 ```
 
-|Do not specify the width of a tree control because it is automatically adjusted for various screen sizes. However, if you need to specify the width for some reason, you can use the width property in the treeConfig decorator.|
+</td><td>
 
-## PXDataSource { .section}
+Do not specify the width of a tree control because it is automatically adjusted for various screen sizes. However, if you need to specify the width for some reason, you can use the width property in the treeConfig decorator.
+
+</td></tr></tbody>
+</table>
+
+## PXDataSource
 
 The following table shows the correspondence between the PXDataSource element, which is used as a container for the DataTrees and PXTreeDataMember elements, and the HTML or TypeScript elements. During the conversion of ASPX pages to HTML and TypeScript, you need to replace these ASPX elements with their analogs in HTML or TypeScript.
 
-|ASPX|HTML or TypeScript|
-|----|------------------|
-|PXDataSource &gt; KeySeparatorChar```
+<table id="_37144b8b-4eab-429e-980e-995960395c8c"><thead><tr><th>
+
+ASPX
+
+</th><th>
+
+HTML or TypeScript
+
+</th></tr></thead><tbody><tr><td>
+
+PXDataSource &gt; KeySeparatorChar```
 <px:PXDataSource ID="ds" 
   ...  
   PrimaryView="Filter" 
@@ -631,7 +914,9 @@ The following table shows the correspondence between the PXDataSource element, w
 </px:PXDataSource>
 ```
 
-|Use the keySeparatorChar property in the treeConfig property of the controlConfig or fieldConfig decorator.
+</td><td>
+
+Use the keySeparatorChar property in the treeConfig property of the controlConfig or fieldConfig decorator.
 
  ```
 @fieldConfig({
@@ -653,15 +938,24 @@ The following table shows the correspondence between the PXDataSource element, w
 ParentFolder : PXFieldState;
 ```
 
-|
+</td></tr></tbody>
+</table>
 
-## Obsolete ASPX Controls and Properties { .section}
+## Obsolete ASPX Controls and Properties
 
 The following table lists the obsolete ASPX elements that are related to the tree control. You do not need to replace these ASPX elements with any HTML or TypeScript elements.
 
-|ASPX Control|Properties|
-|------------|----------|
-|PXTree```
+<table id="_41289709-97c0-49e8-889b-0b2cf1319062"><thead><tr><th>
+
+ASPX Control
+
+</th><th>
+
+Properties
+
+</th></tr></thead><tbody><tr><td>
+
+PXTree```
 <px:PXTree 
   runat="server" 
   CallbackUpdatable="True"
@@ -669,11 +963,14 @@ The following table lists the obsolete ASPX elements that are related to the tre
 </px:PXTree>
 ```
 
-|-   CallbackUpdatable
+</td><td>
+
+-   CallbackUpdatable
 -   runat
 
-|
-|PXTreeView```
+</td></tr><tr><td>
+
+PXTreeView```
 <px:PXTreeView 
   CaptionVisible="False"
   DataSourceID="ds"
@@ -684,15 +981,18 @@ The following table lists the obsolete ASPX elements that are related to the tre
 </px:PXTreeView>
 ```
 
-|-   CaptionVisible
+</td><td>
+
+-   CaptionVisible
 -   DataSourceID
 -   PreserveExpanded
 -   RootNodeText
 -   runat
 -   SyncPositionWithGraph
 
-|
-|AutoCallBack```
+</td></tr><tr><td>
+
+AutoCallBack```
 <px:PXTreeView/>
   <AutoCallBack 
     Command="GoToNodeSelectedInTree" 
@@ -700,23 +1000,38 @@ The following table lists the obsolete ASPX elements that are related to the tre
 </px:PXTreeView>
 ```
 
-|All properties|
-|AutoSize```
+</td><td>
+
+All properties
+
+</td></tr><tr><td>
+
+AutoSize```
 <px:PXTreeView/>
   <AutoSize Enabled="True" />
 </px:PXTreeView>
 ```
 
-|All properties|
-|CaptionStyle```
+</td><td>
+
+All properties
+
+</td></tr><tr><td>
+
+CaptionStyle```
 <px:PXTreeView>
   <CaptionStyle 
     Height="17px" />
 </px:PXTreeView>
 ```
 
-|All properties|
-|PXTreeDataMember```
+</td><td>
+
+All properties
+
+</td></tr><tr><td>
+
+PXTreeDataMember```
 <px:PXDataSource>
   <DataTrees>
     <px:PXTreeDataMember 
@@ -726,7 +1041,12 @@ The following table lists the obsolete ASPX elements that are related to the tre
 </px:PXDataSource>
 ```
 
-|All properties|
+</td><td>
+
+All properties
+
+</td></tr></tbody>
+</table>
 
 **Parent topic:**[Tree](../DeveloperGuide/UIDevRef_Tree_Mapref.md)
 

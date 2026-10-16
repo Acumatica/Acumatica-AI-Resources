@@ -1,4 +1,4 @@
-# Staff Members {#_209fea78-f306-4834-82d1-632948743175 .concept}
+# Staff Members
 
 The topics of this chapter explain how to configure staff members. A staff member in Acumatica ERP is a person who delivers the services that your company offers to customers.
 

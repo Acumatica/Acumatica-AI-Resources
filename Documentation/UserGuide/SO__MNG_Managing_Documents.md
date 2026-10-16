@@ -1,4 +1,4 @@
-# Managing Sales Documents {#_05f9e471-7ef9-49b9-a446-0bd1a05d5191 .concept}
+# Managing Sales Documents
 
 The topics of this chapter describe the specifics of processing sales documents \(orders, invoices, and shipments\) and the system settings that you can specify to control the processing flow of documents. These topics also explain how to print various types of sales documents.
 

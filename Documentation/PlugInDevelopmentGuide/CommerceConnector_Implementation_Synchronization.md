@@ -1,8 +1,8 @@
-# Connector Implementation: How the Prepared Data Is Synchronized {#_e2229e35-1b85-4110-b509-72b5d4b89332 .concept}
+# Connector Implementation: How the Prepared Data Is Synchronized
 
 The synchronization of the prepared data can be started by an automation schedule, as a result of the push notification, or manually if a user clicks **Process** on the toolbar of the [Process Data](../UserGuide/BC_50_15_00.md) \(BC501500\) form. The following sections describe the general steps involved in the synchronization of the prepared data in the order in which they occur; the process diagram at the end of this topic shows the entire synchronization process.
 
-## Starting of the Synchronization { .section}
+## Starting of the Synchronization
 
 When the synchronization is started \(see Item 1 in the process diagram at the end of the topic\), the system executes the ProcessSync\(\) method of the PX.Commerce.Core.BCProcessData graph. The synchronization is performed in parallel threads. The parallel processing settings are specified in the [PXParallelProcessingOptions](https://help.acumatica.com/(W(26))/Help?ScreenId=ShowWiki&pageid=d4abce4c-2fbd-3411-9f1c-b1c724cf87af) object of the Statuses data view of the graph.
 
@@ -10,18 +10,18 @@ The ProcessSync\(\) method creates an instance of the connector class that corre
 
 For each entity that should be synchronized, the implementation of the IConnector.Process\(\) method creates an instance of the processor class, initializes it with the information about the current operation, and runs its [IProcessor.Process\(\)](https://help.acumatica.com/(W(24))/Help?ScreenId=ShowWiki&pageid=463826b3-3c22-b89a-abaa-d5843ae1091d) method \(Item 3\), whose default implementation is available in the BCProcessorSingleBase&lt;&gt; class.
 
-## Retrieval of the Records for the Synchronization { .section}
+## Retrieval of the Records for the Synchronization
 
 The processor retrieves the records for synchronization as follows:
 
 1.  Retrieves the information about synchronized records from the [`BCSyncStatus`](https://help.acumatica.com/(W(24))/Help?ScreenId=ShowWiki&pageid=a536b367-a822-2d48-a0ee-79dc15585981) database table \(see Item 4 in the process diagram\).
 2.  By calling BCProcessorSingleBase&lt;&gt;.GetBucketForExport\(\) \(Item 5a\) or BCProcessorSingleBase&lt;&gt;.GetBucketForImport\(\) \(Item 5b\), pulls the records that correspond to the entity through the APIs. These methods create a bucket object for the export or import of records, respectively. The processor pulls the records from Acumatica ERP \(Item 6a\) by the value of the `LocalID` column of the table, and pulls the records from the external system \(Item 6b\) by the value of the `ExternID` column of the table.
 
-## Preprocessing of Data Before the Synchronization { .section}
+## Preprocessing of Data Before the Synchronization
 
 If one entity has to be synchronized before the other—for example, address entities that need to be synchronized before the synchronization of customer entities—the processor synchronizes the entities that should be synchronized before the entity in the BCProcessorBase&lt;&gt;.ProcessPreProcessors\(\) method \(see Item 7 in the process diagram\).
 
-## Search for the Records That Correspond to One Another { .section}
+## Search for the Records That Correspond to One Another
 
 The processor searches for the records that correspond to one another in Acumatica ERP and the external system as follows:
 
@@ -37,7 +37,7 @@ The processor searches for the records that correspond to one another in Acumati
         1.  If there is a record that has already been mapped to another record, the processor throws an error and aborts the synchronization.
         2.  If there are no mapped records, the processor maps the currently processed record to the record it found. The record will be synchronized as an existing record, as described below.
 
-## Control of the Synchronization Direction { .section}
+## Control of the Synchronization Direction
 
 The processor compares the time stamps of the synchronized records and decides in which direction these records should be synchronized as follows:
 
@@ -52,7 +52,7 @@ Then an implementation of the BCProcessorSingleBase&lt;&gt;.ControlDirection\(\)
 
 When a direction is chosen, in the BCProcessorBase&lt;&gt;.EnsureSync\(\) method \(Item 12\), the processor updates the `SyncInProcess` flag of the [`BCSyncStatus`](https://help.acumatica.com/(W(24))/Help?ScreenId=ShowWiki&pageid=a536b367-a822-2d48-a0ee-79dc15585981) table \(Item 13\). This locks the record so that it cannot be synchronized from the other threads. If the record has been locked already by the other process, the connector aborts the operation and proceeds to the processing of the next record.
 
-## Import of Records { .section}
+## Import of Records
 
 The processor imports the data to Acumatica ERP in the BCProcessorSingleBase&lt;&gt;.ProcessImport\(\) method \(see Item 14a in the process diagram\), which internally performs the following steps:
 
@@ -65,7 +65,7 @@ The processor imports the data to Acumatica ERP in the BCProcessorSingleBase&lt;
     **Attention:** At the end of the implementation of the SaveBucketImport\(\) method, you need to call the BCProcessorBase&lt;&gt;.UpdateStatus\(\) method to update the time stamps and IDs of the synchronized records. For details, see [Update of the Synchronization Status](#_c8bcd02c-ade7-4b2c-9ca5-c1b59c313a4f).
 
 
-## Export of Records { .section}
+## Export of Records
 
 The processor exports the data from Acumatica ERP to the external system in the BCProcessorSingleBase&lt;&gt;.ProcessExport\(\) method \(see Item 14b in the process diagram\), which internally performs the following steps:
 
@@ -78,7 +78,7 @@ The processor exports the data from Acumatica ERP to the external system in the 
     **Attention:** At the end of the implementation of the SaveBucketExport\(\) method, you need to call the BCProcessorBase&lt;&gt;.UpdateStatus\(\) method to update the time stamps and IDs of the synchronized records. For details, see the next section.
 
 
-## Update of the Synchronization Status {#_c8bcd02c-ade7-4b2c-9ca5-c1b59c313a4f .section}
+## Update of the Synchronization Status
 
 In the BCProcessorBase&lt;&gt;.UpdateStatus\(\) method \(see Item 16 in the process diagram\), the processor updates the [`BCSyncStatus`](https://help.acumatica.com/(W(24))/Help?ScreenId=ShowWiki&pageid=a536b367-a822-2d48-a0ee-79dc15585981) record \(Item 17\) with the result of the operation as follows:
 
@@ -88,15 +88,14 @@ In the BCProcessorBase&lt;&gt;.UpdateStatus\(\) method \(see Item 16 in the proc
 
 The processor unlocks the record by updating the `SyncInProcess` flag of the `BCSyncStatus` table. The processor then saves all the changes to the database.
 
-## Synchronization of the Dependent Records { .section}
+## Synchronization of the Dependent Records
 
 The processor synchronizes the entities that should be synchronized after the entity in the BCProcessorBase&lt;&gt;.ProcessPostProcessors\(\) method \(see Item 18 in the process diagram\). If post-processing has failed, the synchronization of the current entity is not affected.
 
-## Process Diagram { .section}
+## Process Diagram
 
 The following diagram illustrates the process of data synchronization.
 
-![](Images/Synchronization.png)
 
 **Parent topic:**[Implementing a Connector for an External System](../PlugInDevelopmentGuide/CommerceConnector_Implementation_Mapref.md)
 

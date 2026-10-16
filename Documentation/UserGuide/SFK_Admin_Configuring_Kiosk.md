@@ -1,4 +1,4 @@
-# Shop Floor Kiosk Administration: Configuring the Kiosk Portal {#_de669aed-873d-4347-8b0a-42439815a367 .concept}
+# Shop Floor Kiosk Administration: Configuring the Kiosk Portal
 
 You create and configure the kiosk portal on the [Portals](SP_70_10_00.md) \(SP701000\) form.
 
@@ -10,7 +10,7 @@ You create and configure the kiosk portal on the [Portals](SP_70_10_00.md) \(SP7
 4.  Specify the branch and user role for the kiosk.
 5.  Save the portal record.
 
-## Creating a Portal Record for the Kiosk { .section}
+## Creating a Portal Record for the Kiosk
 
 To start creating a new portal record, click Add New Record on the form toolbar and specify the following settings in the Summary area of the form:
 
@@ -20,13 +20,13 @@ To start creating a new portal record, click Add New Record on the form toolbar 
 -   **Portal Type**: Select the *Shop Floor Kiosk* option.
 -   **Portal Access Role**: Make sure the predefined *SFK App Access* role is selected automatically when you choose the *Shop Floor Kiosk* portal type. This is the role that the service user account must have to start the kiosk outer session.
 
-## Making the Kiosk Form Available in the Portal { .section}
+## Making the Kiosk Form Available in the Portal
 
 On the **General** tab, make sure that the **Shop Floor Kiosk** category and the **AM000000 – Shop Floor Kiosk** check box beneath it were selected automatically when you selected the *Shop Floor Kiosk* portal type.
 
 Because the kiosk is built on a single form, no additional forms need to be enabled on this tab.
 
-## Setting Up the Sign-In Page and Kiosk Layout { .section}
+## Setting Up the Sign-In Page and Kiosk Layout
 
 On the **Portal Settings** tab, specify the following settings:
 
@@ -36,7 +36,7 @@ On the **Portal Settings** tab, specify the following settings:
 
 **Note:** When the *Shop Floor Kiosk* portal type is selected, several display options on this tab may be cleared and disabled automatically. These options are not applicable to the kiosk and do not need to be configured.
 
-## Specifying the Branch and User Role { .section}
+## Specifying the Branch and User Role
 
 On the **Shop Floor Kiosk** tab, specify the following settings:
 
@@ -46,7 +46,7 @@ On the **Shop Floor Kiosk** tab, specify the following settings:
 
 -   **Kiosk User Role**: Select the role that production employees must have to sign in to the inner session of the kiosk. The predefined *SFK User* role is selected by default.
 
-## Saving the Portal Record { .section}
+## Saving the Portal Record
 
 After you have filled in all required settings, make sure that the **Online** check box is selected in the Summary area and click **Save** on the form toolbar. The portal becomes active and available at the URL you specified.
 

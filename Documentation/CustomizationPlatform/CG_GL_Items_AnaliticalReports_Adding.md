@@ -1,4 +1,4 @@
-# To Add a Custom Analytical Report to a Project {#_187cd95b-cb0f-4fe2-a399-52df41813fe8 .concept}
+# To Add a Custom Analytical Report to a Project
 
 You can add a custom analytical report to a customization project. To do this, perform the following actions:
 
@@ -12,12 +12,10 @@ You can add a custom analytical report to a customization project. To do this, p
 5.  In the dialog box, click **OK** to add each selected analytical report to the page table.
 6.  On the page toolbar, click **Save** to save the changes to the customization project.
 
-    ![](images/CG_GL_Items_AnaliticalReports_Adding_01.png "Adding the custom analytical report to the customization project")
 
 
 The system adds to the project the data from the database for each selected custom analytical report. You can view each new item in the Project Items table of the [Edit Project Items](../UserGuide/AU_ItemXMLEditor.md), as shown in the following screenshot.
 
-![](images/CG_GL_Items_AnaliticalReports_Adding_02.png "Viewing the XML code of the ReportDefinition item included in the project")
 
 A *ReportDefinition* item contains all the data required to recreate the corresponding analytical report in any instance of Acumatica ERP.
 

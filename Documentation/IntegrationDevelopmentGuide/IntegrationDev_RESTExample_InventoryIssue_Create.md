@@ -1,8 +1,8 @@
-# Create an Inventory Issue {#_3caa1091-6324-4b0d-ba5c-56b7ac480665 .concept}
+# Create an Inventory Issue
 
-If you are using the contract-based REST API to integrate Acumatica ERP with an external system, this external system can create an inventory issue in Acumatica ERP.
+By using the REST API, you can create an inventory issue in Acumatica ERP.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to do the following to configure your client application and the Acumatica ERP instance to be used:
 
@@ -10,20 +10,20 @@ Before you test the code below, you need to do the following to configure your c
 2.  To sign in to the instance in the client application, use the tenant name \(which you specified when you created the instance\) and the *HEADOFFICE* branch.
 3.  If you are using Postman as the client application for testing, in the `IntegrationDevelopmentGuide.postman_collection.json` collection, make sure that the collection’s variables have the proper values. This collection is located in the `IntegrationDevelopment\Help` folder of the [Help-and-Training-Examples](https://github.com/Acumatica/Help-and-Training-Examples) repository on GitHub.
 
-## Request { .section}
+## Request
 
 You can use the following request example to create an inventory issue for one unit of the *APJAM08* item through the REST API.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-PUT /entity/Default/25.200.001/InventoryIssue?$expand=Details HTTP/1.1
+PUT /entity/Default/26.200.001/InventoryIssue?$expand=Details HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
 Content-Type: application/json
 
 {
-    "Date": { "value": "2025-12-02T00:00:00+03:00" },
+    "Date": { "value": "2026-12-02T00:00:00+03:00" },
     "Description": { "value": "Descr" },
     "Details": [
         {
@@ -35,13 +35,13 @@ Content-Type: application/json
             "Location": { "value": "MAIN" },
             "Project": { "value": "X" },
             "Qty": { "value": 1 },
-            "TranType": { "value": "Issue" },
+            "TranType": { "value": { "id": "III" } },
             "UnitPrice": { "value": 0 },
             "UOM": { "value": "PIECE" },
             "Warehouse": { "value": "RETAIL" }
         }
     ],
-    "PostPeriod": { "value": "122025" }
+    "PostPeriod": { "value": "122026" }
 }
 ```
 

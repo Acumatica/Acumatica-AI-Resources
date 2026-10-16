@@ -1,8 +1,8 @@
-# To Set Up the Approval of AR Documents {#_6018840b-8127-4e37-8aaf-074862c2b26a .task}
+# To Set Up the Approval of AR Documents
 
 You set up the approval workflow for AR documents by using the [Accounts Receivable Preferences](../UserGuide/AR_10_10_00.md) \(AR101000\) form. For more information on these approvals, see [Specific Approvals: Accounts Receivable Documents](config_Approvals_AR_Documents.md).
 
-## Before You Proceed {#section_gpm_4jv_vxb .section}
+## Before You Proceed
 
 Before you set up the approval of AR documents in your system, do the following steps:
 
@@ -13,7 +13,7 @@ Before you set up the approval of AR documents in your system, do the following 
 
 **Note:** The approval map defines the employees designated for approving AR documents and the conditions that AR documents must match to be assigned for approval.
 
-## To Specify the Approval Settings for AR Documents {#section_ipm_4jv_vxb .section}
+## To Specify the Approval Settings for AR Documents
 
 1.  Open the [Accounts Receivable Preferences](../UserGuide/AR_10_10_00.md) \(AR101000\) form.
 2.  Go to the **Approval** tab of this form.

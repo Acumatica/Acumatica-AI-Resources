@@ -1,4 +1,4 @@
-# Conversion procedures, 2026 R1
+# Conversion procedures, 2026 R2
 
 Use the installed build's source and typings to resolve exact bindings. These
 links point to the repository's release-specific vendor documentation; the

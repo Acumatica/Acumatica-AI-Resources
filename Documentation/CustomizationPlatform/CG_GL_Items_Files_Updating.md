@@ -1,4 +1,4 @@
-# To Update a File Item in a Project {#_c55aa41b-44ab-4364-8b11-5725c159bb36 .concept}
+# To Update a File Item in a Project
 
 If you have modified a file of a customization project in the file system and need to use the modified version of the file in the project, you have to update the copy of the file in the database. To do this, perform the following actions:
 
@@ -7,7 +7,6 @@ If you have modified a file of a customization project in the file system and ne
 3.  On the page toolbar, click **Detect Modified Files**, as shown in the screenshot below.
 4.  In the **Modified Files Detected** dialog box, which opens, ensure that the **Conflict** check box is selected for the file.
 
-    ![](images/CG_GL_Project_Updating.png "Updating files in the project")
 
 5.  If multiple files in the project were changed, and you do not want to update some files at the moment, clear the selection of these files in the **Selected** column.
 6.  Click **Update Customization Project** to update the selected files.

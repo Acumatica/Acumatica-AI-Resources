@@ -1,4 +1,4 @@
-# Storing of Graph Data in the Session {#_7de20fae-aa20-407b-976d-38f05fb4083c .concept}
+# Storing of Graph Data in the Session
 
 Acumatica ERP keeps all modified data records in the cache. Therefore, you do not change a data record in the database directly when you modify its value in the user interface.
 
@@ -11,7 +11,6 @@ Acumatica ERP keeps all modified data records in the cache. Therefore, you do no
 
 A graph instance exists on the server only while a user request is being processed, and it is destroyed right after this processing. The following diagram shows that a graph instance is created to process a user request on the Acumatica ERP server and destroyed once processing is completed.
 
-![](Images/REF_Graph_RoundTrips.png "Processing of user requests")
 
 In the diagram above, the blue rectangles labeled 1, 2, 3, and 4 indicate the lifetime of graph instances. After a graph instance completes the processing of a request, the system stores the graph state in the session. It also stores the inserted, deleted, held, and modified records of the cache that are required to restore the state and data of the graph for the processing of the subsequent user request on the same Acumatica ERP form.
 
@@ -32,7 +31,6 @@ While a graph is instantiated, all the cached data of the graph is saved in the 
 
 The following diagram shows how the graph state and cache data are stored in the Session object.
 
-![](Images/REF_Graph_Cache_Session.png "The graph data stored in the session")
 
 In the diagram above, notice the following:
 

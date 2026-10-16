@@ -1,4 +1,4 @@
-# Cash Management {#_2cc687f2-d52a-4672-9380-fd948b2603fe .concept}
+# Cash Management
 
 For your users to process cash transactions in Acumatica ERP, the cash management functionality has to be implemented in the system. This chapter describes the basic configuration to be performed, including specifying the preference settings for cash management, creating entry types, creating cash accounts, and modifying payment methods.
 

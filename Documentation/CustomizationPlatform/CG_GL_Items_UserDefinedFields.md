@@ -1,4 +1,4 @@
-# User-Defined Fields {#_ec199ee5-3238-415b-9318-78c4c03bc22b .concept}
+# User-Defined Fields
 
 The Customization Project Editor includes the [User-Defined Fields](../UserGuide/AU_23_00_00.md) \(AU230000\) page, which is shown in the screenshot below. On this page, you can do the following:
 
@@ -10,7 +10,6 @@ The Customization Project Editor includes the [User-Defined Fields](../UserGuide
 
 You can add a user-defined field either on the applicable form of Acumatica ERP or on the [User-Defined Fields](../UserGuide/AU_23_00_00.md) page of the Customization Project Editor. Any user-defined fields you add in the Customization Project Editor are added to the current customization project with all other items; when the project has been completed, it can be exported and imported.
 
-![](images/UserDefinedFieldsPage.png "The User-Defined Fields page")
 
 **Note:** You can add user-defined fields for the Self-Service Portal as well.
 

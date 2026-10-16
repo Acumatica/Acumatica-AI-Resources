@@ -1,4 +1,4 @@
-# Example: Designing an Analytical Report {#_8b2cceda-11d9-45b8-92ce-1dcf7dced9c7 .concept}
+# Example: Designing an Analytical Report
 
 The Analytical Report Manager \(ARM\) provides the functionality to produce accurate financial reports that can be customized according to your company's business needs.
 
@@ -15,9 +15,8 @@ Each analytical report consists of the following:
 
 The report shown in the following screenshot will be examined as an example in this topic. You can perform the steps of this example or just read about them and become familiar with the report creation process. The purpose of this example is to provide the basic information to help you understand how the ARM works. This report consists of a row set, a column set, and a unit set, as you can see on the screenshot.
 
-![](Images/RP_tools_ARM.png "Profit & Loss report")
 
-## Creating a Sample Analytical Report { .section}
+## Creating a Sample Analytical Report
 
 To create the report, do the following:
 
@@ -29,7 +28,7 @@ To create the report, do the following:
     The report you have just created uses a predefined row set, column set, and unit set; however, more experienced users may want to create their own sets from scratch or modify existing ones. Keep in mind that the row sets and column sets that you are working with can be used in other reports, so any modifications to existing sets may affect other reports. You can create new sets while using existing predefined sets as templates, so that making any changes to them affects only your report.
 
 
-## Previewing the Analytical Report { .section}
+## Previewing the Analytical Report
 
 When the report has the required settings selected, you can preview it by doing the following:
 
@@ -37,7 +36,7 @@ When the report has the required settings selected, you can preview it by doing 
 2.  Click **Preview** on the form toolbar.
 3.  In the tab that opens, review the generated report and see if the changes you have made suit your needs.
 
-## Creating a New Row Set { .section}
+## Creating a New Row Set
 
 You use row sets to define the rows and row headers of the report.
 
@@ -72,7 +71,7 @@ The sample report is now configured with the same row set that is used by the pr
 
 For more information about row sets in the Analytical Report Manager, see [Row Sets](CS__ARM_Row_Set.md).
 
-## Creating a New Column Set { .section}
+## Creating a New Column Set
 
 Column sets give you the convenience to work with various types of information, such as date ranges or financial periods. Column sets can have columns with calculated values.
 
@@ -99,10 +98,10 @@ The sample report is now set up with the same column set as that used by the pre
 10. Click **Save** on the form toolbar.
 11. Preview the report to verify that the new column with the beginning balance is displayed properly.
 
-    For more information about column sets in the Analytical Report Manager, see [Column Sets](CS__ARM_Column_Set.md)..
+    For more information about column sets in the Analytical Report Manager, see [Column Sets](CS__ARM_Column_Set.md).
 
 
-## Reviewing Unit Sets { .section}
+## Reviewing Unit Sets
 
 You can use unit sets to aggregate report data, so that multiple reports can be broken down and consolidated.
 

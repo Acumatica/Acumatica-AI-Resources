@@ -1,8 +1,8 @@
-# Manual Vendor Discounts: Implementation Activity {#_c9a136a2-8394-4e42-afea-9bad7985515e .task}
+# Manual Vendor Discounts: Implementation Activity
 
 In this activity you will manually apply a discount that one of the vendors offers to your organization.
 
-## Story { .section}
+## Story
 
 The SweetLife Fruits &amp; Jams company regularly buys billboard design, production, and installation services from one of its vendors, Blueline Advertisement agency \(*BLUELINE*\). The Blueline account manager has notified you that, as Blueline's preferred customer, you can now order the design of one billboard at a 10% discount.
 
@@ -10,7 +10,7 @@ Also, the billboards you commissioned Blueline to install before the New Year we
 
 On January 30, 2026, the marketing manager of SweetLife decided to order from Blueline Advertisement the design of a new billboard and the production of two billboards with the new design to be later installed in the city center. You need to create a bill for these items and manually apply the discounts offered by Blueline.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -18,13 +18,13 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *BILLBPROD* and *BILLBDESIG* non-stock items have been created.
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *BLUELINE* customer has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 You specify a manual line discount or a manual document discount on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. To specify a manual line discount in the **Discount Percent** column of the **Details** tab, you will enter 10% for the line with the *BILLBDESIG* non-stock item.
 
 To specify a manual document discount, you will enter the discount in the amount of `$200` in the **Discount Amt.** column of the **Discounts** tab.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Before you start the exercise, do the following:
 
@@ -32,7 +32,7 @@ Before you start the exercise, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to 1/30/2026. If a different date is displayed, click the Business Date menu button and select 1/30/2026. For simplicity, in this lesson, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu, which is also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Create a Bill with Manual Line-Level and Document-Level Discounts { .section}
+## Create a Bill with Manual Line-Level and Document-Level Discounts
 
 To create the AP bill for Blueline Advertising \(*BLUELINE*\) and apply a manual line discount and a manual document discount in it, do the following:
 

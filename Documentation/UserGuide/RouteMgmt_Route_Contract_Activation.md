@@ -1,16 +1,16 @@
-# Route Service Contracts: Contract Activation {#_e76fea92-d35b-47f1-aae6-7224a990edc2 .concept}
+# Route Service Contracts: Contract Activation
 
 In Acumatica ERP, you have to activate a route service contract in the system to be able to generate appointments and billing documents for the contract. You can activate a draft of a contract for the first time or activate previously suspended contract. For the activated contracts, you cannot change the billing type and date information of route service contracts.
 
 In this topic, you will read about activation of the draft contracts and suspended contracts.
 
-## Activating a Route Service Contract with the Draft Status { .section}
+## Activating a Route Service Contract with the Draft Status
 
 When you create a service contract in the system, the contract is automatically assigned the *Draft* status. When you finish entering the necessary information for the contract, you should activate the contract so that you can generate appointments and billing documents for it.
 
 You activate the contract on the [Route Service Contracts](FS_30_08_00.md) \(FS300800\) form by clicking **Activate** on the More menu \(under **Processing**\). The system changes the status of the service contract to *Active*. For the activated contracts, you cannot change the billing type and date information of service contracts.
 
-## Activating a Service Contract with the Suspended Status {#_ff470669-3512-4570-add7-5229f8ea2b44 .section}
+## Activating a Service Contract with the Suspended Status
 
 Contracts with the *Suspended* status can be activated again starting on a particular date \(whether or not it is the current date\). To activate a suspended service contract, you open the necessary contract on the [Route Service Contracts](FS_30_08_00.md) \(FS300800\) form and click **Activate** on the More menu \(under **Processing**\). The system opens the **Activation Contract** dialog box, in which you specify the starting date when the contract has to be activated.
 

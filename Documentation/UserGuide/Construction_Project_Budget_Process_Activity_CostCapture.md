@@ -1,10 +1,10 @@
-# Construction Project Budget: To Capture Project Costs {#_83cfcfa1-fc62-4fc9-a211-fbd9934d8093 .task}
+# Construction Project Budget: To Capture Project Costs
 
 This activity will walk you through the process of capturing project costs by using project transactions.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_qgt_qfq_crb .section}
+## Story
 
 Suppose that ToadGreen Building Group is a general contractor building an Italian restaurant for its customer, the Italian Company. At the start of the project, the construction project manager made sure that the construction permit was promptly obtained for the construction site and that the design plans and specifications were prepared and agreed upon. The expenses related to the work must be reflected in the project budget and categorized in the general ledger because they will later be billed and reflected in financial statements.
 
@@ -14,18 +14,18 @@ Acting as the project accountant, you will enter the general ledger transactions
 
 **Tip:** A project transaction that does not affect the general ledger can also be billed if necessary. In this activity, the processed project transaction will be left as an internal burden expense for informational purposes and will not be billed or allocated.
 
-## Configuration Overview {#section_rgt_qfq_crb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   The *Construction* feature has been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form to provide support for the construction functionality.
 -   On the [Projects](PM_30_10_00.md) \(PM301000\) form, the *ITALIAN3* project has been created. The project tasks were added to the project and the project budget was defined.
 
-## Process Overview {#section_sgt_qfq_crb .section}
+## Process Overview
 
 On the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form, you will create a batch of general ledger transactions with the project, project task, and cost code specified to record the work related to the first phase of the construction project. You will release the batch, which will generate the corresponding project transaction. Then you will review this transaction on the [Project Transaction Details](PM_40_10_00.md) \(PM401000\) form. Finally, on the [Project Transactions](PM_30_40_00.md) \(PM304000\) form, you will create and release a batch of project transactions that represent additional work that will not be billed and do not affect the general ledger.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
@@ -33,7 +33,7 @@ To prepare to perform the instructions of this activity, do the following:
 2.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded; you should sign in as a project accountant by using the *bsanchez* username and the *123* password.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *4/15/2026*. If a different date is displayed, click the Business Date menu button, and select *4/15/2026* on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating General Ledger Transactions {#section_ugt_qfq_crb .section}
+## Step 1: Creating General Ledger Transactions
 
 To create a batch of general ledger transactions to represent the work related to the first phase of the construction project, do the following:
 
@@ -66,11 +66,10 @@ To create a batch of general ledger transactions to represent the work related t
 
 8.  On the [Project Transaction Details](PM_40_10_00.md) \(PM401000\) form, in the Summary area, select *ITALIAN3* as the **Project**. In the table, review the project transaction \(shown below\) that has been created based on the GL transaction that you have processed earlier. In both lines, the **Billable** check box is selected and the **Billed** check box is cleared, indicating that the transactions are pending billing.
 
-    ![](Images/activity_Construction_Project_Budget_CostCapture.png "Project transaction prepared on release of the GL transaction")
 
 9.  On the [Projects](PM_30_10_00.md) \(PM301000\) form, open the *ITALIAN3* project, and on the **Cost Budget** tab, review the cost budget lines with the *01-300* and *01-330* cost codes. Notice that the actual amounts in these lines have been updated with the amounts from the project transaction.
 
-## Step 2: Creating a Project Transaction Without Posting to the General Ledger {#section_wgt_qfq_crb .section}
+## Step 2: Creating a Project Transaction Without Posting to the General Ledger
 
 To create a project transaction that represents the additional expenses, which do not affect the general ledger, do the following:
 
@@ -98,7 +97,6 @@ To create a project transaction that represents the additional expenses, which d
 
 6.  On the [Projects](PM_30_10_00.md) \(PM301000\) form, open the *ITALIAN3* project, and on the **Cost Budget** tab, notice that a new cost budget line has been added to the budget \(shown below\) based on the project transaction that you created and released. The original budgeted values in the line are zero; the actual values in the line have been updated based on the project transaction that you have processed.
 
-    ![](Images/activity_Construction_Project_Budget_CostCapture2.png "Project transactions prepared on release of the GL transaction")
 
 
 You have finished capturing costs for the project.

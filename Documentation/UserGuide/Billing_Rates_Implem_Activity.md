@@ -1,10 +1,10 @@
-# Billing Rates: To Create a Billing Rule with Rates {#_dc3e6523-f016-491c-8cdc-3f04c14a450c .task}
+# Billing Rates: To Create a Billing Rule with Rates
 
 In the following implementation activity, you will learn how to create a billing rule that uses rate tables for the calculation of the invoice amounts for different account groups.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Pam Brawner, the project accountant of the SweetLife Fruits &amp; Jams company. You need to create a billing rule to be used for billing customers for the different services provided for the project with different billing rates based on the following requirements:
 
@@ -12,22 +12,22 @@ Suppose that you are Pam Brawner, the project accountant of the SweetLife Fruits
 -   The billing amount of expenses for employee labor should be calculated based on the amount and the billing rate of the labor \(which also depends on the project task for which the labor has been performed\).
 -   The billing amount of services provided by subcontractors should be calculated based on the amount of the project transaction with the fixed 1.25 margin coefficient.
 
-## Configuration Overview {#section_oc2_jmb_vmb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Projects* feature has been enabled to support the project management functionality.
 -   On the [Account Groups](PM_20_10_00.md) \(PM201000\) form, the *MATERIAL*, *LABOR*, and *SUBCON* account groups of the expense type have been configured. These account groups will aggregate the expenses posted to particular GL accounts.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create a billing rule on the [Billing Rules](PM_20_70_00.md) \(PM207000\) form for billing a project by rates.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring a billing rule, you need to launch the Acumatica ERP website and sign in to a company with the *U100* dataset preloaded. You should sign in as a project accountant by using the *brawner* username and the *123* password.
 
-## Step 1: Configuring a Billing Rule Step with Billing Based on the Item Price { .section}
+## Step 1: Configuring a Billing Rule Step with Billing Based on the Item Price
 
 To configure a billing rule and add the first step to it, do the following:
 
@@ -63,7 +63,7 @@ To configure a billing rule and add the first step to it, do the following:
 5.  On the **Billing Settings** tab, clear the **Create Lines with Zero Amount and Quantity** check box.
 6.  Save your changes.
 
-## Step 2: Configuring a Billing Rule Step with Billing Based on the Billing Rate { .section}
+## Step 2: Configuring a Billing Rule Step with Billing Based on the Billing Rate
 
 Add the second step to the billing rule as follows:
 
@@ -95,7 +95,7 @@ Add the second step to the billing rule as follows:
 3.  On the **Billing Settings** tab, clear the **Create Lines with Zero Amount and Quantity** check box.
 4.  Save your changes.
 
-## Step 3: Configuring a Billing Rule Step with Fixed-Price Billing { .section}
+## Step 3: Configuring a Billing Rule Step with Fixed-Price Billing
 
 Add the third step to the billing rule, which is for billing expenses on services provided by subcontractors at a fixed rate as follows:
 

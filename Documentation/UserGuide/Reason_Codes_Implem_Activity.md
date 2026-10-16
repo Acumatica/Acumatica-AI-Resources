@@ -1,4 +1,4 @@
-# Reason Codes: Implementation Activity {#_b365ae56-b622-49e0-9527-1eb6c1401c56 .task}
+# Reason Codes: Implementation Activity
 
 In this implementation activity, you will learn how to create reason codes.
 
@@ -8,22 +8,22 @@ The following activity is based on the *U100 Basic Company* dataset. If you are 
 
 If you want to perform this activity in an out-of-the-box company instead of creating a tenant with the dataset, you need to prepare a company with the basic settings, as described in [Company Without Branches: General Information](../Shared/../ImplementationGuide/config_Basic_Company_GeneralInfo.md).
 
-## Story { .section}
+## Story
 
 Suppose that you are an implementation manager for the SweetLife Fruits &amp; Jams company, and you need to configure inventory and order management. Before you start specifying the inventory and order management preferences on the appropriate Acumatica ERP forms, you must create reason codes for the direct inventory operations of issuing, receiving, adjusting, and counting physical inventory. You also need to create a reason code for vendor returns, which are not inventory operations but do involve the movement of goods in inventory.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create reason codes for direct inventory operations and a reason code for vendor returns on the [Reason Codes](CS_21_10_00.md) \(CS211000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating these reason codes, you should do the following:
 
 1.  Launch the Acumatica ERP website with the *U100 Basic Company* dataset preloaded, and sign in to the system as implementation manager Kimberly Gibbs by using the *gibbs* username and the *123* password.
 2.  On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, enable the *Inventory and Order Management* and *Inventory* features.
 
-## Step 1: Creating Reason Codes for Inventory Operations { .section}
+## Step 1: Creating Reason Codes for Inventory Operations
 
 To create reason codes for direct inventory operations, do the following:
 
@@ -64,7 +64,7 @@ You have created reason codes for direct inventory operations.
 
 **Tip:** Now you can configure basic inventory preferences, as described in [Configuration of Order Management: Implementation Activity](../ImplementationGuide/config_InvMgmt_Basic_Implem_Activity.md)
 
-## Step 2: Creating a Reason Code for Vendor Returns { .section}
+## Step 2: Creating a Reason Code for Vendor Returns
 
 To create a reason code for vendor returns, do the following:
 
@@ -79,7 +79,7 @@ You have created a reason code for vendor returns.
 
 **Tip:** Now you can configure sales order types as the next stage of preparing the system to configuration of order management. For details, see [Sales Order Types](../ImplementationGuide/config_Sales_Order_Types_Mapref.md).
 
-## Activity Recap { .section}
+## Activity Recap
 
 In this activity, we have illustrated how the implementation manager has done the following:
 

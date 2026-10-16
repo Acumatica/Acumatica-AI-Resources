@@ -1,8 +1,8 @@
-# Project Transactions: Update of the Project Budget Structure {#_b310ad0d-8feb-4720-aecf-8597c500cad1 .concept}
+# Project Transactions: Update of the Project Budget Structure
 
 When you process project-related documents, the system reflects the changes in the budget of the corresponding project accordingly. The way the system updates the revenue budget and cost budget lines depends on the settings of the budget level and the project transaction details. The following sections describe which settings affect the budget update and how the system updates revenue budget lines and cost budget lines.
 
-## Documents That Affect the Project Budget { .section}
+## Documents That Affect the Project Budget
 
 The system updates the cost budget and revenue budget of a project when any of the documents associated with the project are processed as follows:
 
@@ -15,7 +15,7 @@ The system updates the cost budget and revenue budget of a project when any of t
 
 Also, the cost budget and revenue budget of the project are updated if you run the recalculation process for the project on the [Projects](PM_30_10_00.md) \(PM301000\) or [Recalculate Project Balances](PM_50_40_00.md) \(PM504000\) form. For more information about budget recalculation, see [Project Budget: Recalculation of the Project Balances](Projects_Budget_Recalculating_Balances.md).
 
-## Update of the Project Budget Structure { .section}
+## Update of the Project Budget Structure
 
 When a project-related document is processed, in the corresponding project, the system either updates the existing budget line or creates a new budget line, depending on the following combination of settings:
 
@@ -24,11 +24,9 @@ When a project-related document is processed, in the corresponding project, the 
 
 The following diagrams illustrate how the system updates the project budget on the release of a project transaction depending on the budget update preferences, the settings of the budget level in a project, and the project transaction details.
 
-![](Images/diag_Project_Budget_Update_Detailed.png)
 
-![](Images/diag_Project_Budget_Update_Summary.png)
 
-## Update of Quantities { .section}
+## Update of Quantities
 
 The quantities \(actual, committed, budgeted change order, committed change order, and potential\) in budget lines are updated in a project budget record if all of the following conditions are met:
 

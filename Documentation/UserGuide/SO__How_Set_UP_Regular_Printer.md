@@ -1,8 +1,8 @@
-# To Register the Label File Extension {#_c0fad8c0-35a0-4745-8485-9a233cd1fed4 .task}
+# To Register the Label File Extension
 
 To be able to print carrier labels, you need to register each file extension on the [File Upload Preferences](SM_20_25_50.md) \(SM202550\) form.
 
-## To Register the File Extension { .section}
+## To Register the File Extension
 
 1.  Open the [File Upload Preferences](SM_20_25_50.md) \(SM202550\) form.
 2.  Add a new row.
@@ -12,7 +12,7 @@ To be able to print carrier labels, you need to register each file extension on 
 6.  In the **Default Application** column, type a string such as `image/dpl` to match the specified format.
 7.  Save the changes.
 
-## Notes About the Procedure { .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

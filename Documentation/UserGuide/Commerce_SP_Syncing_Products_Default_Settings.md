@@ -1,8 +1,8 @@
-# Product Synchronization: Default Store Settings {#_2526ec49-f03e-421c-8f28-d4970c0aa040 .concept}
+# Product Synchronization: Default Store Settings
 
 When you set up a connection to a Shopify store on the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form, you specify the availability and visibility settings that are applied by default to all items synchronized with the Shopify store.
 
-## Default Product Availability Settings {#_4d5d29fd-f3c9-46a6-829a-c0d265fc1e6b .section}
+## Default Product Availability Settings
 
 On the **Inventory** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form, you define the default availability settings that are applied to items exported from Acumatica ERP. These settings determine whether the exported item can be purchased in the Shopify store. To define the default availability settings, you select one of the following options in the **Default Availability** box:
 
@@ -24,9 +24,9 @@ If you select the *Set as Available \(Track Qty.\)* option in the **Default Avai
 
 If you have synchronized the *Product Availability* entity, when you modify any of the settings described in this section, the system resets the availability synchronization status for all synchronized items in the Shopify store, and you need to perform the synchronization of the *Product Availability* entity again.
 
-## Default Visibility Settings { .section}
+## Default Visibility Settings
 
-You can specify visibility settings that will be applied by default to each item exported to the Shopify store on the **Inventory** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form. To instruct the system to make all items by default immediately available on the storefront after they are exported to the Shopify store, you select *Visible* in the **Default Visibility** box. To make items by default available for management in the store's admin area but hidden from the storefront, you select *Invisible* in this box.
+You can specify visibility settings that will be applied by default to each item exported to the Shopify store on the **Inventory** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form. To instruct the system to make all items by default immediately available on the storefront after they are exported to the Shopify store, you select *Visible* in the **Default Visibility** box. To make items by default available for management in the store's admin area but hidden from the storefront, you select *Invisible* in this box. To hide items from store search, collections, sales channels, internet searches, and Shopify catalog while allowing customers to access them through a direct URL, you select *Unlisted* in this box.
 
 **Parent topic:**[Synchronizing Products](../UserGuide/Commerce_SP_Syncing_Products_Mapref.md)
 

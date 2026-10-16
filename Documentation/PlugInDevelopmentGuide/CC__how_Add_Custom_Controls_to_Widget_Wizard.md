@@ -1,8 +1,8 @@
-# To Add Custom Controls to the Widget Properties Dialog Box {#_eaa0ee1b-73ce-4bc4-8a9f-18dadf3af55a .task}
+# To Add Custom Controls to the Widget Properties Dialog Box
 
 The **Widget Properties** dialog box is displayed when a user creates or edits a widget. If you need to add custom controls, such as buttons or grids, to this dialog box, you need to create these controls in the RenderSettings\(\) or RenderSettingsComplete\(\) method of the widget class, as is described in the sections below.
 
-## To Add Buttons to the Widget Properties Dialog Box Dynamically { .section}
+## To Add Buttons to the Widget Properties Dialog Box Dynamically
 
 If you need to add buttons to the **Widget Properties** dialog box that appear based on a particular user action in the dialog box, override the RenderSettings\(\) method of the widget class so that it dynamically adds the needed controls to the dialog box. The method must return `true` if all controls are created in the method implementation \(that is, no automatic generation of controls is required\). The default implementation of the RenderSettings\(\) method of the PXWidgetBase class returns `false`.
 
@@ -65,7 +65,7 @@ public override bool RenderSettings(PXDataSource ds, WebControl owner)
 }
 ```
 
-## To Open a Pop-Up Panel in the Widget Properties Dialog Box { .section}
+## To Open a Pop-Up Panel in the Widget Properties Dialog Box
 
 If you need to open a pop-up panel in the **Widget Properties** dialog box, override the RenderSettingsComplete\(\) method of the widget class and create the panel within it.
 

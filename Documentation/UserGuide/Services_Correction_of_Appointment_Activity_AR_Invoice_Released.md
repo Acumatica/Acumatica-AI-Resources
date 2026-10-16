@@ -1,16 +1,16 @@
-# Appointment Billing Correction: Process Activity {#_f1326485-1f4b-418f-9e4f-de8235fd34e9 .task}
+# Appointment Billing Correction: Process Activity
 
 This activity will walk you through the processes of making corrections to an appointment after an accounts receivable invoice has been released for it, and generating a new AR invoice for the appointment.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that HM's Bakery &amp; Cafe ordered training on juicer usage for newcomers. A service manager \(Maia Davis\) of the SweetLife Service and Equipment Sales Center created an appointment and included a training service item. The assigned staff member \(Todd Bloom\) performed the necessary service at the customer location and completed the appointment in the system. The accountant \(Yona Jones\) closed the appointment and generated an AR invoice.
 
 Further suppose that after the invoice was generated, the service manager learned that at the end of the appointment where the training was delivered, the staff member performed a repair of a juicer. The service manager contacted the customer and both parties agreed to include the repair service in the previously created appointment, and to generate an updated AR invoice. Acting as the service manager, you will perform the needed steps to update the appointment and generate a new AR invoice, which the accountant will process further.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -25,11 +25,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *HMBAKERY* \(HM's Bakery and Cafe\) customer has been defined; the *AP AP* billing cycle has been selected in the **Service Management** section of the **Billing** tab.
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, for the *TRAINING* and *REPAIR* non-stock items, the *Service* type has been selected, and the *Time* billing rule has been specified.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Appointments](FS_30_02_00.md) \(FS300200\) form, you will find the released accounts receivable invoice and click its link to open the invoice. You will reverse this invoice on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form by clicking the **Reverse and Apply to Memo** command on the More menu. You will then unclose the appointment and correct it. Finally, on behalf of the accountant, you will close an appointment and generate a new invoice.
 
-## System Preparation {#section_snv_wpq_ghc .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -37,7 +37,7 @@ Before you start this activity, do the following:
 2.  In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date *2/16/2026*. For simplicity, you will use this business date to create and process all documents in this activity.
 3.  After signing in, make sure that the *Service Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form.
 
-## Step 1: Opening an Invoice from the Appointment { .section}
+## Step 1: Opening an Invoice from the Appointment
 
 To find and open the invoice generated from the appointment, do the following:
 
@@ -47,7 +47,7 @@ To find and open the invoice generated from the appointment, do the following:
     The [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form opens in a pop-up window with the settings of the invoice.
 
 
-## Step 2: Reversing the Invoice { .section}
+## Step 2: Reversing the Invoice
 
 While you are still viewing the accounts receivable invoice on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, reverse it as follows:
 
@@ -58,7 +58,7 @@ While you are still viewing the accounts receivable invoice on the [Invoices and
 
 You have released the *Credit Memo* document that reversed the invoice. Now the corresponding appointment can be unclosed and corrections can be made to it.
 
-## Step 3: Correcting the Appointment { .section}
+## Step 3: Correcting the Appointment
 
 To correct the appointment, do the following:
 

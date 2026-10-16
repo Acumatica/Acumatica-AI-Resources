@@ -1,4 +1,4 @@
-# To Implement Reusable Business Logic {#_0ff30b0e-e5a6-4211-ac29-85d996824d9d .task}
+# To Implement Reusable Business Logic
 
 You can define your own generic graph extensions when:
 
@@ -7,11 +7,11 @@ You can define your own generic graph extensions when:
 
 This topic provides detailed instructions. To view a list of predefined generic graph extensions, see [Generic Graph Extensions: Classes Declared in Acumatica ERP](CodeCustomization_GenericExtension_PredefinedExtensions.md).
 
-## To Create a Generic Graph Extension { .section}
+## To Create a Generic Graph Extension
 
 1.  In the code of your application, define a class that inherits from the PXGraphExtension&lt;TGraph&gt; class. The following code shows a declaration of a generic graph extension.
 
-    ```language-csharp
+    ```csharp
     public abstract class MultiCurrencyGraph<TGraph, TPrimary> : 
       PXGraphExtension<TGraph>
         where TGraph : PXGraph
@@ -22,7 +22,7 @@ This topic provides detailed instructions. To view a list of predefined generic 
 
 2.  In the generic graph extension, define the mapped cache extensions, which inherit from the PXMappedCacheExtension `abstract` class. For details, see [Mapped Cache Extension](CodeCustomization_GenericExtension_GeneralInfo.md#_efcb1dec-e793-4a88-b333-e647c6ff2b5e).
 
-    ```language-csharp
+    ```csharp
     //Mapped cache extension
     public class Document : PXMappedCacheExtension
     {
@@ -68,7 +68,7 @@ This topic provides detailed instructions. To view a list of predefined generic 
 
 3.  For each mapped cache extension, declare the `protected` mapping class, as shown in the following code. For details, see [Mapping Class](CodeCustomization_GenericExtension_GeneralInfo.md#_07af458f-a094-4b51-8859-a8204ccb196e).
 
-    ```language-csharp
+    ```csharp
     //A mapping class
     protected class DocumentMapping : IBqlMapping
     {
@@ -89,13 +89,13 @@ This topic provides detailed instructions. To view a list of predefined generic 
 
 4.  For each mapping class, declare the `protected abstract` method that returns the mapping class, as shown in the following code.
 
-    ```language-csharp
+    ```csharp
     protected abstract DocumentMapping GetDocumentMapping();
     ```
 
 5.  Define the views that use the mapped cache extensions, as the following code shows. To define each view, you use the PXSelectExtension&lt;Table&gt; : PXSelectBase&lt;Table&gt; class, where Table is a mapped cache extension.
 
-    ```language-csharp
+    ```csharp
     //A view that uses the mapped cache extension
     public PXSelectExtension<Document> Documents;
     ```
@@ -104,7 +104,7 @@ This topic provides detailed instructions. To view a list of predefined generic 
 
 6.  Define the reusable event handlers, as the following code shows.
 
-    ```language-csharp
+    ```csharp
     protected virtual void _(
       Events.FieldUpdated2<Document.documentDate, Document> e)
     {

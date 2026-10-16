@@ -1,4 +1,4 @@
-# Staff Schedules: Adjusting Working Hours on the Schedule Board {#_aa22bc2b-18b0-4319-ba0c-894d445a3235 .task}
+# Staff Schedules: Adjusting Working Hours on the Schedule Board
 
 The staff working schedule board is a dashboard that shows a staff member’s available and unavailable time. The board is two-dimensional: the horizontal axis displays dates, and the vertical axis shows times within each date. The system positions elements according to these two dimensions.
 
@@ -8,13 +8,13 @@ You use the staff working schedule board to modify generated work schedules by d
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Service and Equipment Sales Center wants to manage staff availability more effectively. The service manager needs to see each staff member’s working and unavailable hours, schedule appointments, and adjust working hours directly on the staff schedule board.
 
 Acting as the service manager, you’ll modify the working hours for a specific day. \(In this activity, you’ll also remove working hours for one day for training purposes.\)
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -26,11 +26,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   On the [Employees](../UserGuide/EP_20_30_00.md#) \(EP203000\) form, *EP00000042 \(Chase Frank\)* has been defined. On the **General** tab \(**Employee Settings** section\), the **Staff Member in Service Management** check box has been selected, so you can assign this employee to perform services.
 -   On the [Staff Schedule Rules](../UserGuide/FS_20_20_01.md) \(FS202001\) form, the work schedule rule has been defined for *EP00000042 - Chase Frank*, and on the [Generate Staff Schedules](../UserGuide/FS_50_04_00.md) \(FS500400\) form, the work schedule has been generated.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Staff Working Schedule Board](../UserGuide/FS_30_05_00.md) \(FS300500\) form, you will review a staff member's schedule for the next month, modify the working hours for a specific day, and then remove the working hours for a particular day.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -40,7 +40,7 @@ Before you start this activity, do the following:
 4.  In the Date box in the upper-right corner of the Acumatica ERP screen, specify *1/1/2026* on the calendar.
 5.  Make sure that the following prerequisite activity has been completed: [Staff Schedules: To Create a Schedule Rule and Generate the Work Schedule](ServMgmt_Staff_Schedules_Implem_Activity.md).
 
-## Step: Modifying a Staff Schedule on the Schedule Board { .section}
+## Step: Modifying a Staff Schedule on the Schedule Board
 
 To view and adjust a staff member’s working schedule, do the following:
 
@@ -50,7 +50,6 @@ To view and adjust a staff member’s working schedule, do the following:
 
     The dashboard displays Chase Frank's working hours \(shaded in blue\), as shown in the following screenshot.
 
-    ![](Images/config_ServMgmt_Staff_Schedule_Board.png "The Staff Working Schedule Board form")
 
     Notice that the available and unavailable hours in the calendar start from the date that you selected when you created the schedule rule for this staff member.
 
@@ -63,7 +62,6 @@ To view and adjust a staff member’s working schedule, do the following:
     4.  The time slot is shortened \(Item 2\) to reflect the new working hours.
     You can adjust any schedule's time slot by changing its start and end times.
 
-    ![](Images/config_ServMgmt_Staff_Schedule_Board_Modified.png "Changed working hours")
 
 6.  Remove that working day from Chase Frank's working calendar by clicking the trash can icon in the top right corner of the corresponding time slot.
 

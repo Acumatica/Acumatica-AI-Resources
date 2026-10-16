@@ -1,4 +1,4 @@
-# Configuring and Applying Customer Discounts {#_ef656bd9-688b-4c13-bedc-271d9c07d083 .concept}
+# Configuring and Applying Customer Discounts
 
 This topic explains how customer discounts of different types can be configured and applied in Acumatica ERP.
 

@@ -1,4 +1,4 @@
-# Promotional Vendor Discounts {#_e797d8f8-ce5e-4542-85a8-4d6c2dfa6b11 .concept}
+# Promotional Vendor Discounts
 
 Promotional discounts are discounts that have an expiration date. Vendor discounts with any combination of settings—whether automatic or manual, applicable at the line, group, or document level, calculated as a lump sum or as a percentage of an amount—can be marked as promotional.
 

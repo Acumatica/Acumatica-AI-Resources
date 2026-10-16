@@ -1,4 +1,4 @@
-# Product Configurator: Supplemental Items {#_55081ac9-c9d8-4943-875d-6fd713fea90a .concept}
+# Product Configurator: Supplemental Items
 
 Supplemental items are supporting option items selected during configuration entry and indicated as a supplemental item in the configuration definition. When supplemental items are selected and the configuration entry is complete, the options will be added to a quote, sales order, or opportunity as a new line item. The concept is a supporting item that is shipped and sold separately from the configured item. Supplemental item price and cost do not get rolled into the configured item price. The sales order lines for supplemental items are linked to and controlled by the sales order line for the configured item:
 
@@ -8,7 +8,7 @@ Supplemental items are supporting option items selected during configuration ent
 -   Changing the order quantity for the configured item will not change the order quantity for the associated supplemental items.
 -   You can change the quantity, warehouse, price, and other parameters for supplemental items.
 
-## Examples { .section}
+## Examples
 
 Consider supplemental items as materials that are not required to build the configured item but are selected based on the configured item and should be shipped with it:
 

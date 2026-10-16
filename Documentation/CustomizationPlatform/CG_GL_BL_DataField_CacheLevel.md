@@ -1,4 +1,4 @@
-# To Customize a Field on the Graph Level {#_5414444d-dd54-41cb-a3ec-eaed76668cdf .concept}
+# To Customize a Field on the Graph Level
 
 If an attribute is added to a field declaration within a graph, the common business logic of this attribute is applied to each data record of this type on the graph level for only this graph. Therefore, if multiple Acumatica ERP forms contain controls for the same field, a change of an attribute of the field within the graph modifies the behavior of a single control for the field on only the form for which the graph provides business logic.
 

@@ -1,10 +1,10 @@
-# To Delete an Existing Tenant by Using Acumatica ERP Configuration wizard {#_1e35486a-2372-42f7-a7c5-f66e14cba50b .task}
+# To Delete an Existing Tenant by Using Acumatica ERP Configuration wizard
 
 If you need to delete an existing tenant by using the Acumatica ERP Configuration wizard, you open the instance for tenant maintenance and delete the tenant in advanced mode.
 
 **Note:** Because any tenant you see on the Tenant Setup page can be a live tenant, you may want to create backups before making any changes.
 
-## To Delete an Existing Tenant { .section}
+## To Delete an Existing Tenant
 
 1.  On the Start menu, click **Acumatica ERP Configuration** to open the Acumatica ERP Configuration wizard.
 2.  On the Welcome page, click **Perform Application Maintenance**.

@@ -1,4 +1,4 @@
-# Defining Action Sequences {#_55a49019-7ba6-4115-90b4-814d8a93d8da .concept}
+# Defining Action Sequences
 
 In this chapter, you will learn how to define sequences of actions that the system can perform automatically.
 

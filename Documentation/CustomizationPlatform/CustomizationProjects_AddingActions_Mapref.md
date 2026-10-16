@@ -1,4 +1,4 @@
-# Adding Actions to Forms {#_03f49a3b-3942-4e76-ac5d-0505ee97d947 .concept}
+# Adding Actions to Forms
 
 In this chapter, you will learn how to add various types of actions to Acumatica ERP forms. You define actions in the Customization Project Editor, and users can invoke them by clicking the corresponding buttons or commands on the form.
 

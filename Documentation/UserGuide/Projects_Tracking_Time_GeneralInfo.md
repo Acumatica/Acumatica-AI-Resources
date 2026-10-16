@@ -1,8 +1,8 @@
-# Employee Time Billing: General Information {#_c17cd444-2ac9-4e6e-a687-fa3ccdaa1214 .concept}
+# Employee Time Billing: General Information
 
 In Acumatica ERP, you can use the time reporting functionality to give employees the ability to report the time that they spend for the project. During project billing, you can bill customers for this time.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,13 +10,13 @@ In this chapter, you will learn how to do the following:
 -   Enter a billable time card related to a project, and log the time spent for the project
 -   Bill a project for employees’ time spent working on it
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to learn more about employee time billing if you are an employee who needs to log work time spent on particular project.
 
 This information is also useful if you are a project accountant, and you need to bill the customer for employee time that was spent for a particular project and logged by using time cards.
 
-## Entry of Time Tracking Documents {#section_n4l_212_fmb .section}
+## Entry of Time Tracking Documents
 
 In Acumatica ERP, employees can report their work time by creating time cards that include separate detail records associated with different projects or project tasks.
 
@@ -33,13 +33,12 @@ For each time duration reported in the time card, the system creates a time acti
 
 When the time card is released, the related project transaction is created and released, so that the logged employee time is tracked in the related project and can then be billed. Also, on release of the time card, for each day of the week with reported time, a separate time activity is released.
 
-## Workflow of the Submission of a Time Card {#section_v1m_bjk_fmb .section}
+## Workflow of the Submission of a Time Card
 
 For a project-related time card, the processing involves the actions and generated documents shown in the following diagram.
 
-![](Images/diag_Projects_Tracking_Time.png)
 
-## Billing Employee Time in Projects {#section_qld_spy_2mb .section}
+## Billing Employee Time in Projects
 
 Once time tracking is configured for projects and the system is configured to generate transactions from time activities, the working time reported by employees is tracked in the related projects and can be billed automatically during the project billing procedure.
 

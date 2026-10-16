@@ -1,10 +1,10 @@
-# Contract Configuration: To Create a Regular Contract Draft {#_51a1c73e-7a18-456d-8e27-4b7d35a3b599 .task}
+# Contract Configuration: To Create a Regular Contract Draft
 
 In this activity, you will learn how to create a draft of a regular contract.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company supplies its customers with a piece of equipment for juice production and provides deployment, maintenance, and consulting services. On *3/1/2026*, the Unifruit LLC customer asks the company to deploy juicers in a newly opened restaurant.
 
@@ -12,7 +12,7 @@ Because the contract agreement is standard, a fixed-price contract draft for dep
 
 Acting as a sales manager, you need to create a fixed-price contract draft for the particular customer based on the contract template that you have created.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -20,11 +20,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *UNIFRUIT \(Unifruit LLC\)* customer has been created.
 -   On the [Segmented Keys](CS_20_20_00.md) \(CS202000\) form, auto-numbering for the *CONTRACT* segmented key has been enabled.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Customer Contracts](CT_30_10_00.md) \(CT301000\) form, you will create a new contract draft. The contract draft will be based on the contract template that you have created in the [Contract Template Creation: To Create a Regular Contract Template](config_Contract_Management_Implem_Activity_To_Configure_Contract_Template.md) activity.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
@@ -32,7 +32,7 @@ To prepare to perform the instructions of this activity, do the following:
 2.  Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as the sales manager David Chubb by using the *chubb* username and the *123* password.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *3/1/2026*. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step: Creating a Contract Draft {#section_pxm_cqp_dtb .section}
+## Step: Creating a Contract Draft
 
 To create a contract draft, do the following:
 
@@ -50,7 +50,6 @@ To create a contract draft, do the following:
 
         You can change these dates when you click the **Set Up Contract** or **Activate Contract** commands on the More menu \(under **Processing**\). The **Setup Date** and **Activation Date** boxes become read-only after the respective command has been performed.
 
-    ![](Images/CustomerContractSettings_3.png "Contract settings")
 
 6.  On the **Details** tab, make sure that only the line with the *CI00000001 \(Deployment of juicers\)* contract item has been added.
 7.  On the form toolbar, click **Save**.
@@ -59,7 +58,6 @@ To create a contract draft, do the following:
 
 8.  On the **Recurring Summary** tab, view the details of all recurring items associated with the contract, as shown in the following screenshot.
 
-    ![](Images/CustomerContractsRecurringSummaryTab.png "Recurring Summary tab")
 
 
 You have created the contract with the *Draft* status. Now you can proceed to signing and activating it.

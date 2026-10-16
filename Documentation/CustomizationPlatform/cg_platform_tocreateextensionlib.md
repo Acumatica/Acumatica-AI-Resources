@@ -1,8 +1,8 @@
-# To Create an Extension Library {#_f7e12f94-c8be-4013-8990-9341161bb252 .concept}
+# To Create an Extension Library
 
 To develop customization code in an extension library, you should first create this extension library. This topic describes how to create the extension library using the Customization Project Editor.
 
-## To Create an Extension Library { .section}
+## To Create an Extension Library
 
 1.  On the main menu of the Customization Project Editor, click **Extension Library** &gt; **Create New**.
 

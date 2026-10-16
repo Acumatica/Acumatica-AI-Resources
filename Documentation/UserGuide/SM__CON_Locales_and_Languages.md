@@ -1,4 +1,4 @@
-# Locales and Languages {#_b43ca9dd-782a-4fdc-b9c3-f3e9ddd2d8ac .concept}
+# Locales and Languages
 
 Acumatica ERP provides functionality that you can use to localize the system in multiple languages. You can maintain the user interface and wikis in multiple languages if you have multiple locales. The default locale of Acumatica ERP is US English.
 
@@ -6,7 +6,7 @@ Localization includes the usage of locale-specific settings and the translation 
 
 In this topic, you will read about how locales and languages are handled in the system.
 
-## Understanding Locales and Languages { .section}
+## Understanding Locales and Languages
 
 Acumatica ERP uses the list of locales provided by Microsoft.NET. In most cases, a locale identifier has two parts:
 
@@ -18,7 +18,7 @@ Acumatica ERP uses the list of locales provided by Microsoft.NET. In most cases,
 
 In Acumatica ERP, the translations of the user interface and wiki articles are associated with a locale, and the translations of user input are associated with a language.
 
-## Adding New Locales to the System {#section_v2q_4c2_jw .section}
+## Adding New Locales to the System
 
 When Acumatica ERP is installed, one locale \(US English\) is present by default. You can add other locales on the [System Locales](SM_20_05_50.md) \(SM200550\) form. For the detailed procedure, see [To Add a New Locale](SM__how_Add_Locale.md). When you activate multiple locales, a user may select his or her preferred locale on the Sign-In page before signing in the system.
 
@@ -30,7 +30,7 @@ Also, you can print localized versions of reports if you have translated the rep
 
 When a user with a right to edit wiki articles is signed in with a locale, he or she can create locale-specific versions of the wiki articles. For details, see [Translating Wiki Articles](SM__con_Translation_Process.md#section_nq3_n3l_hw) in [Translation Process](SM__con_Translation_Process.md).
 
-## Enabling Multilingual User Input {#section_lqy_4c2_jw .section}
+## Enabling Multilingual User Input
 
 You can translate user input to multiple languages and store translations in the database. For example, you can enter descriptions of General Ledger accounts in multiple languages and then print a localized version of the trial balance report with the descriptions of accounts in the language of the locale you are currently signed in with.
 
@@ -42,7 +42,6 @@ To make this functionality available, you perform the following steps:
 
 2.  You click the **Select Input Languages** button on the [System Locales](SM_20_05_50.md) \(SM200550\) form toolbar that invokes the **Select Languages for Multilingual Text Boxes** dialog box. In the dialog box, you specify the languages in which you are going to translate user input and define the default language. For details, see the [Setting Up Languages](#section_vkn_2lm_hw) section in this topic.
 
-Once you have finished making the functionality available, you can translate user input for the boxes that have multilanguage support. A link \(for example, ![](Images/Translations_box_link.png)\) is displayed next to these text boxes in the system. Clicking this link invokes the **Translations** dialog box. You enter translations for each language, close the dialog box, and click **Save** on the form toolbar.
 
 You can also add translations for text in the rich text editor \(for example, a description of a stock item on the [Stock Items](IN_20_25_00.md) \(IN202500\) form\). On the formatting toolbar, you select languages for which you would like to add a translation one after another, enter a translation, and click **Save** on the form toolbar.
 
@@ -50,7 +49,7 @@ The translation tool that is described in this section can also be used for tran
 
 For the list of boxes with this support, see [Boxes That Have Multilanguage Support](SM__CON_Boxes_MultiLanguage.md). You can upload translations from a file for those entities \(such as account classes, ledgers, and financial periods\) that support integration with Excel. You can also import values to these text boxes and export values from them by using integration scenarios. For details, see [Multilanguage Fields in Import and Export Scenarios](IS__con_IS_Multi-Language_Fields.md).
 
-## Setting Up Languages {#section_vkn_2lm_hw .section}
+## Setting Up Languages
 
 In Acumatica ERP, a language can be marked as the default, an alternative, or not used in the localization of user input. When you specify the default language, multilanguage support is enabled for the supported text boxes in the system. The default language and alternative languages form the list of languages for which you can provide translations in the **Translations** dialog box.
 
@@ -66,7 +65,7 @@ Once you apply the settings, in the table on the [System Locales](SM_20_05_50.md
 
 After you set up languages, you can proceed with translating user input for the text boxes that have multilanguage support.
 
-## Disabling Locales and Multilingual User Input { .section}
+## Disabling Locales and Multilingual User Input
 
 If you do not need a particular locale anymore, you can clear the **Active** check box for this locale on the [System Locales](SM_20_05_50.md) form. The system then excludes this locale from the list of available locales \(the **Locale** box\) on the following forms:
 

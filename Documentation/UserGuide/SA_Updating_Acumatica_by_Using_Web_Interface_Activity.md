@@ -1,14 +1,14 @@
-# Update of Acumatica ERP: To Update an Instance by Using the Web Interface {#_9f5c3f5b-7326-4324-9eb2-99014dab87a5 .task}
+# Update of Acumatica ERP: To Update an Instance by Using the Web Interface
 
 The following activity will walk you through the process of updating an Acumatica ERP instance by using the web interface.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that your company has deployed Acumatica ERP on-premises. You are the system administrator, and you have received notification that a new minor update is available. Your manager has approved the update installation.
 
-## Process Overview { .section}
+## Process Overview
 
 You will download an installation package at the [builds.acumatica.com](https://builds.acumatica.com) website.
 
@@ -20,11 +20,11 @@ In your Acumatica ERP instance, you will use the [Apply Updates](SM_20_35_10.md)
 
 For the purposes of this activity, you will not actually install the update. This is because system updates may take some time, and the instance and all its tenants will not be available during this time.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded as the system administrator by using the *gibbs* username and the *123* password.
 
-## Step 1: Downloading an Installation Package { .section}
+## Step 1: Downloading an Installation Package
 
 To download an installation package from the [builds.acumatica.com](https://builds.acumatica.com) website, do the following:
 
@@ -32,7 +32,7 @@ To download an installation package from the [builds.acumatica.com](https://buil
 2.  Open the `Packages` folder from the latest build number of the current Acumatica ERP version \(for example, `builds/25.1/25.100.0054/Packages`\).
 3.  Perform the necessary steps, which depend on your browser and settings, to locally save the `ErpPackage.zip` file.
 
-## Step 2: Uploading the Custom Package { .section}
+## Step 2: Uploading the Custom Package
 
 To upload an Acumatica ERP custom package, do the following:
 
@@ -44,10 +44,9 @@ To upload an Acumatica ERP custom package, do the following:
 
     The system adds a new record to the table for the uploaded installation package with the check box in the **Ready to Install** column selected \(see the following screenshot\).
 
-    ![](Images/activity_SA_Updating_Acumatica_Uploaded_Package.png "Uploaded installation package that is ready for installation")
 
 
-## Step 3: Scheduling the System Lockout { .section}
+## Step 3: Scheduling the System Lockout
 
 To switch on maintenance mode and lock the system, do the following:
 
@@ -59,10 +58,9 @@ To switch on maintenance mode and lock the system, do the following:
 6.  Launch the Acumatica ERP website, and try to sign in to the system as a company accountant by using the *johnson* username and the *123* password.
 7.  Notice that the system redirects you to the Maintenance page with the warning, as the following screenshot demonstrates.
 
-    ![](Images/activity_SA_Updating_Acumatica_Lockout_Msg.png "The maintenance warning")
 
 
-## Step 4: Unlocking the System { .section}
+## Step 4: Unlocking the System
 
 To stop the lockout of the system, do the following:
 

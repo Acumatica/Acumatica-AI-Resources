@@ -1,23 +1,23 @@
-# Business Accounts: To Create a Business Account by Using the Acumatica Mobile App {#_37429c1f-985e-4714-9eb5-8e7750d0fcbc .task}
+# Business Accounts: To Create a Business Account by Using the Acumatica Mobile App
 
 The following activity demonstrates how to create a business account by using the Acumatica mobile app.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are David Chubb, a sales manager of the SweetLife Fruits &amp; Jams company.At the annual conference for food and beverage suppliers, you became acquainted with Bruce Ward, a procurement manager at Store National, a chain of supermarkets in the United States. Bruce has decided to choose SweetLife as a new supplier of fresh fruit. You have created the contact in the system, and now you need to quickly create a new business account for further processing of developments with the business in the system \(which involves creating an opportunity\).
 
 **Tip:** You can find detailed instructions on creating a contact through the Acumatica mobile app in [Contacts: To Create a Contact by Using the Acumatica Mobile App](CRM_Sales_Creating_Contacts_Create_Contact_MobApp.md) and detailed instructions on creating opportunities in [Opportunities: To Create an Opportunity by Using the Acumatica Mobile App](CRM_Sales_Creating_Opportunities_To_Create_Opportunity_MobApp.md).
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
 -   On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Customer Management* feature has been enabled: This feature provides the customer relationship management \(CRM\) functionality, including lead and customer tracking, as well as the handling of sales opportunities, contacts, marketing lists, and campaigns.
 -   On the [Contacts](CR_30_20_00.md) \(CR302000\) form, the *Bruce Ward* contact has been created.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating a new business account in the system by using the Acumatica mobile app, you should do the following:
 
@@ -27,14 +27,14 @@ Before you start creating a new business account in the system by using the Acum
 
 2.  Make sure that the Acumatica ERP instance has been hosted over HTTPS or ask a system administrator to perform this task for you. For more information, see [Preparation for the Acumatica ERP Installation: System Environment](INST_Preparing_Installation_System_Environment.md).
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following by using the Acumatica mobile app:
 
 1.  Sign in to the Acumatica mobile app.
 2.  Create a business account by using the Acumatica mobile app.
 
-## Step 1: Signing In to the Acumatica Mobile App { .section}
+## Step 1: Signing In to the Acumatica Mobile App
 
 To sign in to the Acumatica mobile app, do the following:
 
@@ -44,7 +44,7 @@ To sign in to the Acumatica mobile app, do the following:
 4.  Tap **Next**.
 5.  Sign in to the system as the sales manager by using the *chubb* username and the *123* password.
 
-## Step 2: Creating a Business Account by Using the Acumatica Mobile App { .section}
+## Step 2: Creating a Business Account by Using the Acumatica Mobile App
 
 To quickly create a business account by using the Acumatica mobile app, do the following:
 

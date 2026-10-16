@@ -1,26 +1,26 @@
-# Billing Rules: To Configure a Progress Billing Rule {#_fc55ceac-44cd-45fe-b774-dfe89ff18b4a .task}
+# Billing Rules: To Configure a Progress Billing Rule
 
 The following implementation activity will walk you through the process of configuring a progress billing rule.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you, as the project accountant of the SweetLife Fruits &amp; Jams company, need to configure a billing rule to be used for billing a customer based on the progress of a project that your company completes for the customer.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 For the purposes of this activity, on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Projects* feature has been enabled to support the project management functionality.
 
-## Process Overview { .section}
+## Process Overview
 
 You will configure a billing rule for progress billing on the [Billing Rules](PM_20_70_00.md) \(PM207000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded; you should sign in as project accountant by using the *brawner* username and the *123* password.
 
-## Step 1: Configuring a Billing Rule { .section}
+## Step 1: Configuring a Billing Rule
 
 To configure a billing rule to be used for progress billing, do the following:
 

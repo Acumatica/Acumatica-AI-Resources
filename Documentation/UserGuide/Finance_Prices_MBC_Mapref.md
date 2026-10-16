@@ -1,4 +1,4 @@
-# Maintaining Prices and Costs in Different Base Currencies {#_7dfd2c72-2d2c-46ad-b2b2-d4e7c8ca8fde .concept}
+# Maintaining Prices and Costs in Different Base Currencies
 
 This topic describes the process of maintaining prices and costs in a tenant where multiple companies with different base currencies have been configured.
 

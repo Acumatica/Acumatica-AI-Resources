@@ -1,4 +1,4 @@
-# Selling Matrix Items in a BigCommerce Store {#_4716075b-9baf-4f1f-898a-3451266ac297 .concept}
+# Selling Matrix Items in a BigCommerce Store
 
 In the topics of this chapter, you will read about how to export matrix items created in Acumatica ERP to a BigCommerce store and how to import orders with matrix items from BigCommerce to Acumatica ERP.
 

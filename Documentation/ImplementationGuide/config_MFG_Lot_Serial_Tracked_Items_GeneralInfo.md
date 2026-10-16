@@ -1,8 +1,8 @@
-# Configuration for the Production of Lot- or Serial-Tracked Items: General Information {#_41b8664f-d60c-484b-a1c7-573ab0f1f45c .concept}
+# Configuration for the Production of Lot- or Serial-Tracked Items: General Information
 
 The following sections provide information about the configuration that must be performed before you start recording the production of lot- or serial-tracked items in Acumatica ERP Manufacturing Edition.
 
-## Learning Objectives {#section_bx3_gpp_prb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,28 +10,28 @@ In this chapter, you will learn how to do the following:
 -   Create a bill of material for producing lot- or serial-tracked items
 -   For a production order type, specify settings that control the assignment of lot or serial numbers for a production order of the type
 
-## Applicable Scenarios {#section_cx3_gpp_prb .section}
+## Applicable Scenarios
 
 You configure the recording of the production of lot- or serial-tracked items in the following cases:
 
 -   When you are initially implementing Acumatica ERP Manufacturing Edition and your organization produces lot- or serial-tracked items, uses lot- or serial-tracked materials in production, or performs both of these processes
 -   When your organization already uses Acumatica ERP Manufacturing Edition and recently has started to produce lot- or serial-tracked items, uses lot- or serial-tracked materials in production, or performs both of these processes
 
-## Prerequisites {#section_dfn_vqp_prb .section}
+## Prerequisites
 
 Before you start implementing the recording of the production of lot- or serial-tracked items, you need to make sure that the following tasks have been performed:
 
 -   The system has been prepared for the implementation of manufacturing functionality, as illustrated in [System Preparation for Manufacturing Implementation: Implementation Activity](config_MFG_General_Settings_Implem_Activity.md).
 -   The production of items has been configured, as described in [Production Processing: Implementation Checklist](../UserGuide/MFG_Production_Order_Processing_Implem_Checklist.md).
 
-## System Features to Be Enabled { .section}
+## System Features to Be Enabled
 
 Before you configure and process the production of lot- or serial-tracked items in the system, you need to enable the following features on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form:
 
 -   *Lot and Serial Tracking*: Required for the creation of lot- or serial-tracked items and the processing of documents and transactions with these items
 -   *Manufacturing*: Required for the use of the manufacturing functionality
 
-## Configuration Steps {#section_vjz_lh5_prb .section}
+## Configuration Steps
 
 To prepare the system for processing the production of lot- or serial-tracked items, you do the following:
 
@@ -43,7 +43,7 @@ To prepare the system for processing the production of lot- or serial-tracked it
 3.  On the [Bill of Material](../UserGuide/AM_20_80_00.md) \(AM208000\) form, you create the bills of material to be used for producing lot- or serial-tracked items.
 4.  On the [Production Order Types](../UserGuide/AM_20_11_00.md) \(AM201100\) form, you create the production order type to be used for production orders with lot- or serial-tracked items or specify the needed settings in an existing production order type with the *Regular* function. For details, see the *Default Settings for the Assignment of Lot or Serial Numbers* section below.
 
-## Default Settings for the Assignment of Lot or Serial Numbers { .section}
+## Default Settings for the Assignment of Lot or Serial Numbers
 
 You need to create a production order type that will facilitate the processing of production orders with lot- or serial-tracked items whose lot or serial numbers need to be assigned before production managers start processing the production orders. The production order type will provide the default settings for the assignment of lot or serial numbers to production orders of this type. On the [Production Order Types](../UserGuide/AM_20_11_00.md) \(AM201100\) form, you need to do the following for this production order type:
 

@@ -1,4 +1,4 @@
-# Customizing Business Events in Code {#_ed21b897-ed45-41ea-ab60-9801943315b8 .concept}
+# Customizing Business Events in Code
 
 In Acumatica ERP, various business processes are executed, which may require the monitoring of particular activities and conditions in the system. To eliminate the need for a user to monitor these business processes, you can configure the system to monitor the company data and to perform an action \(such as sending an email notification or performing the instructions defined by an import scenario\) or multiple actions in the system.
 

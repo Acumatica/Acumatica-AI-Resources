@@ -1,8 +1,8 @@
-# Combo Box: Configuration {#_7ae228cf-c106-4766-a5fe-d267bfd88779 .concept}
+# Combo Box: Configuration
 
 In this topic, you can learn how to adjust a combo box for specific cases.
 
-## Defining a Drop-Down List { .section}
+## Defining a Drop-Down List
 
 To configure a drop-down list, you use the PXStringList or PXIntList attribute in the definition of the data field in the data access class \(DAC\), as shown in bold type in the following example.
 
@@ -46,13 +46,13 @@ As parameters, you provide two arrays of strings:
 -   The array of values assigned to the field and saved to the database with the data record
 -   The array of labels displayed in the user interface
 
-## Modifying a Drop-Down List at Run Time { .section}
+## Modifying a Drop-Down List at Run Time
 
 You can modify a drop-down list at runtime by using the SetList&lt;&gt;\(\) static method of the PXStringList attribute. You can do this in the RowSelected event handler or graph constructor.
 
 The following code example shows the use of the SetList&lt;&gt;\(\) method.
 
-```language-csharp
+```csharp
 PXStringListAttribute.SetList<Shipment.status>(
     sender, row,
     new string[]
@@ -73,7 +73,7 @@ In the type parameter, you specify the data field associated with the control. Y
 
 If the list of possible values of a drop-down control is changed dynamically at runtime, you should use the RowSelected event handler to manage the list. Otherwise, we recommend that you create the list in the graph constructor.
 
-## Inserting a Not-Listed Value { .section}
+## Inserting a Not-Listed Value
 
 If a drop-down list is configured with the PXStringList attribute, you can allow a user to enter values that are not options in the list. You do this by setting the AllowEdit property of the PXDropDown control to True on the ASPX page \(see the setting in bold type in the following code\).
 
@@ -83,20 +83,20 @@ If a drop-down list is configured with the PXStringList attribute, you can allow
 </px:PXDropDown>
 ```
 
-## Selecting Multiple Values { .section}
+## Selecting Multiple Values
 
 By default, a user can select one value from a drop-down list. The user will be able to select multiple values if you do all of the following:
 
 -   Set the allowMultiSelect property of the config attribute of the [qp-drop-down](https://help.acumatica.com/(W(1))/Help?ScreenId=ShowWiki&pageid=bc0d2a73-9cf0-0913-7740-927613f91b48) control.
 
-    ```language-javascript
+    ```javascript
     @controlConfig({allowMultiSelect: true})
     TimeZone: PXFieldState;
     ```
 
 -   Set the MultiSelect property of the PXStringList attribute to `true`, as shown in the following code.
 
-    ```language-csharp
+    ```csharp
     [PXString(20)]
     [PXUIField(DisplayName = "Priority")]
     [PXStringList(

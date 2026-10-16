@@ -1,4 +1,4 @@
-# Filing the T4A Form Electronically {#_a395e925-e7f6-4d7b-a419-e3d0fe91374d .concept}
+# Filing the T4A Form Electronically
 
 You use the [Create CRA E-File](AP_50_76_00.md) \(AP507600\) form to generate an electronic XML file with T4A returns, which you will submit to the Canada Revenue Agency \(CRA\) at the end of the calendar year.
 
@@ -32,13 +32,13 @@ The following document types are included in the T4A report:
 -   *Cash Purchase*: A document created on the [Cash Purchases](AP_30_40_00.md) \(AP304000\) form. The document amount is added to the T4A amount.
 -   *Cash Return*: A document created on the [Cash Purchases](AP_30_40_00.md) amount. The document amount is subtracted from the T4A amount.
 
-## Generating Amendments to the T4A Form { .section}
+## Generating Amendments to the T4A Form
 
 You can prepare amendments to a T4A report submitted to the Canada Revenue Agency \(CRA\) whenever a new payment has been added or an existing payment has been voided for a particular subcontractor. You prepare an amendment by clicking **Amend Report** on the form toolbar of the [Create CRA E-File](AP_50_76_00.md) form and entering the settings \(**Payer** and **Year**\) for the amended report.
 
 The **Amend Report** button appears on the form after you prepare the original report \(revision 1\). You can prepare an amendment by clicking this button after you submit the original report to the CRA by selecting the **E-File Submitted to CRA** check box and saving the changes on the form. Likewise, you will be able to prepare an amended report \(revision 3\) after the previously amended report \(revision 2\) has been submitted to the CRA.
 
-## Canceling Submitted T4A Reports { .section}
+## Canceling Submitted T4A Reports
 
 You can cancel a T4A report already submitted to Canada Revenue Agency \(CRA\) by generating a T4A cancellation report in the XML format and electronically submitting it. A T4A report can be canceled on the [Create CRA E-File](AP_50_76_00.md) \(AP507600\) form.
 

@@ -1,8 +1,8 @@
-# AR Prepayment Invoices: Generated Transactions {#_2ba88c8c-9c03-4c25-b1e1-b11c37f76b3e .concept}
+# AR Prepayment Invoices: Generated Transactions
 
 As you process a prepayment invoice, you start by creating and releasing this prepayment invoice. Then you apply a payment to the prepayment invoice, and finally, you apply the prepayment invoice to the AR invoice. To track the movements of invoice balances, including taxes, the system generates the GL transactions described in the following section.
 
-## Transactions Generated for a Prepayment Invoice { .section}
+## Transactions Generated for a Prepayment Invoice
 
 When you create and release a prepayment invoice, the system generates the following general ledger transactions.
 

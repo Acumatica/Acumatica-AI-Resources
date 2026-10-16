@@ -1,20 +1,20 @@
-# Tenant Maintenance: To Explore Tenant Visibility {#_d9002856-91b6-4971-bcf6-b0df171b0632 .task}
+# Tenant Maintenance: To Explore Tenant Visibility
 
 The following activity will walk you through the process of exploring how tenant visibility affects the existing Acumatica ERP application instance.
 
-## Story { .section}
+## Story
 
 Suppose that you are the system administrator of your company, and you have been asked to add a new tenant to the existing Acumatica ERP application instance. You will explore how to use the visible tenant as a parent tenant. Additionally, you will verify the capability of having an instance where all tenants are invisible.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will explore the visible capabilities of tenants.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the step of this activity, make sure that you have performed the following prerequisite activity: [Instance Deployment: To Deploy an Instance with Demo Data](INST_Deploying_Instances_Deploy_Tenant_With_Demodata_Activity.md).
 
-## Step: Exploring the Capabilities of Tenant Visibility { .section}
+## Step: Exploring the Capabilities of Tenant Visibility
 
 To explore the capabilities of tenant visibility, do the following:
 
@@ -44,7 +44,6 @@ To explore the capabilities of tenant visibility, do the following:
     4.  Click **Next**.
     The system displays an error message informing you that you cannot continue because only an invisible tenant can be specified as a parent of another tenant, as shown in the following screenshot.
 
-    ![](Images/activity_INST_Maintenance_Tenants_Parent_Tenant_Visible.png "The error message")
 
 9.  In the dialog box, click **OK**.
 

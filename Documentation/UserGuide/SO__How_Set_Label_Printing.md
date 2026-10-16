@@ -1,10 +1,10 @@
-# To Set Up the Printing of Carrier Labels on a Thermal Printer {#_de3b7e31-58f7-4e36-a6ec-d40ac9755037 .task}
+# To Set Up the Printing of Carrier Labels on a Thermal Printer
 
 For thermal printers, the carriers usually provide labels in EPL or ZPL formats.
 
 You can create a batch file for the operating system so that the system sends the label file to the thermal printer once you double-click the label file. To create the batch file, follow the steps in the following sections.
 
-## To Share a Printer { .section}
+## To Share a Printer
 
 Connect the printer to a local network computer by using a USB cable, and turn the printer on. To share the printer on the network, do the following:
 
@@ -30,7 +30,7 @@ Connect the printer to a local network computer by using a USB cable, and turn t
         2.  In the **Share name** box, specify the shared printer name and write down the name \(or copy it to the clipboard\).
         3.  Click **OK** to close the dialog box.
 
-## To Prepare a Batch File for Label Printing { .section}
+## To Prepare a Batch File for Label Printing
 
 On the computer to which the printer is connected, create the batch file `PrintLabels.bat` that will handle the printing. \(You can change the suggested batch name if needed.\)
 
@@ -61,7 +61,7 @@ If you will use a network printer, take these steps:
 3.  Replace `PrinterName` with the name of your network thermal printer.
 4.  Save the file as `PrintLabels.bat` to the appropriate location. Make sure that you select *All Files* for the **Save as Type** action.
 
-## To Associate the File Extension with the Created Batch File { .section}
+## To Associate the File Extension with the Created Batch File
 
 You can associate the file extension with the created batch file as follows:
 

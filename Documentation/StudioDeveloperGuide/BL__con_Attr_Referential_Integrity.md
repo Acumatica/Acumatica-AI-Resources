@@ -1,4 +1,4 @@
-# Referential Integrity {#_5dcd7912-7a39-4d7d-9350-f2d9f19fb83f .concept}
+# Referential Integrity
 
 You can use the attributes listed in the following table to implement referential integrity at runtime.
 

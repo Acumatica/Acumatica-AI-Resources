@@ -1,10 +1,10 @@
-# OAuth 2.0 and OIDC: Obtaining of the User Data {#_065d2515-3e48-4ac6-8c62-56ae546f92eb .concept}
+# OAuth 2.0 and OIDC: Obtaining of the User Data
 
 To obtain the user data, the client application can connect to the user information endpoint of Acumatica ERP with the `GET` HTTP method. See details on the request and the response in the following sections.
 
 **Attention:** The way of obtaining user data that is described in this topic is optional. The recommended way is to parse the validated ID token, which contains the same claims as the ones that are obtained through the request described in this topic. The recommended way does not require an additional call to Acumatica ERP.
 
-## HTTP Method and URL { .section}
+## HTTP Method and URL
 
 The client application connects to the user information endpoint of Acumatica ERP with the `GET` HTTP method. The client application can use one of the following options for the URL:
 
@@ -25,21 +25,34 @@ The client application connects to the user information endpoint of Acumatica ER
     ```
 
 
-## HTTP Header { .section}
+## HTTP Header
 
 To obtain the user data, you use the following HTTP header.
 
-|Key|Value|
-|---|-----|
-|`Authorization`|The token type, which is *Bearer*, and the access token that the client application has received from the authorization or token endpoint. The client application should include the access token in the `Authorization` header of each request to Acumatica ERP. **Note:** For the application to obtain the user data, the access token must include the openid scope.
+<table id="_eeecbe70-7315-4e1c-ad9d-f085dca6c9e3"><thead><tr><th>
 
-|
+Key
 
-## Response Body { .section}
+</th><th>
+
+Value
+
+</th></tr></thead><tbody><tr><td>
+
+`Authorization`
+
+</td><td>
+
+The token type, which is *Bearer*, and the access token that the client application has received from the authorization or token endpoint. The client application should include the access token in the `Authorization` header of each request to Acumatica ERP. **Note:** For the application to obtain the user data, the access token must include the openid scope.
+
+</td></tr></tbody>
+</table>
+
+## Response Body
 
 The response body includes the claims to which the user has provided access in JSON format.
 
-## Example { .section}
+## Example
 
 An example of a request to the user information endpoint is shown below.
 

@@ -1,4 +1,4 @@
-# To Edit a Custom SQL Script {#_e715859d-eca3-43e3-bbc8-08d5cce0648e .task}
+# To Edit a Custom SQL Script
 
 You can edit a custom SQL script once it is added to a customization project. To do this, perform the following actions:
 

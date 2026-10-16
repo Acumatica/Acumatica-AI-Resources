@@ -1,8 +1,8 @@
-# Sales Invoice Correction: Cancellation of an Invoice {#_707e4961-915d-454f-8668-6c72773823ed .concept}
+# Sales Invoice Correction: Cancellation of an Invoice
 
 This topic explains how you can cancel a sales invoice that has been prepared for a sales order and released.
 
-## Cancellation of a Sales Invoice { .section}
+## Cancellation of a Sales Invoice
 
 You can cancel a sales invoice on the [Invoices](SO_30_30_00.md) \(SO303000\) form if it has the *Open* status. If a payment or credit memo has been applied the sales invoice, you must first reverse the application and then cancel the invoice.
 
@@ -12,11 +12,10 @@ The cancellation credit memo can be applied only to the original invoice for whi
 
 When the original invoice is canceled, the system removes the links between it and the related sales orders and shipments, and assigns the related shipment the *Confirmed* status. You can now create a new sales invoice for this shipment, if needed. The inventory issue transaction related to the canceled invoice is not affected by the invoice cancellation; it is still linked to the shipment.
 
-## Workflow of Invoice Cancellation { .section}
+## Workflow of Invoice Cancellation
 
 The following diagram illustrates the workflow related to the cancellation of a sales invoice.
 
-![](Images/diag_OrderMgmt_SO_Invoice_Cancelation.png)
 
 **Parent topic:**[Correcting Sales Invoices](../UserGuide/OrderMgmt_SO_Invoice_Correction_Mapref.md)
 

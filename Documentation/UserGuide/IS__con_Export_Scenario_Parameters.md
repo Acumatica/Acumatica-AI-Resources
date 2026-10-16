@@ -1,4 +1,4 @@
-# Export Scenario Parameters {#_90d70c70-5f29-4c0e-a902-eb3f3e81f8b5 .concept}
+# Export Scenario Parameters
 
 When you create an export scenario on the [Export Scenarios](SM_20_70_25.md) \(SM207025\) form, you first specify the required parameters.
 

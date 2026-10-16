@@ -1,8 +1,8 @@
-# Production of Lot- or Serial-Tracked Items: To Assign Parent Serial Numbers to Materials on Issue {#_dc3e61a7-eda1-43f7-bbcc-76ad47119100 .task}
+# Production of Lot- or Serial-Tracked Items: To Assign Parent Serial Numbers to Materials on Issue
 
 The following activity will walk you through the process of creating and processing a production order with a serial-tracked item and serial-tracked material. During processing, you will assign the serial numbers of the item to be produced \(the parent item\) to the units of serial-tracked materials when the materials are issued.
 
-## Story { .section}
+## Story
 
 Suppose that based on the analyzed sales demand from previous periods, the sales department of SweetLife has asked the production department to produce five juicers. These juicers are serial-tracked and include a serial-tracked motor base as one of the materials, according to the bill of material dedicated to the juicer's production. Further suppose that the serial number of each motor base must be assigned to the serial number of a juicer for whose assembly the motor base was used. The production manager should assign the serial numbers when the materials for a production order are issued. The information about the serial numbers must be stored in the system because SweetLife provides services for juicer repairing and replacement. They must be able to confirm that the juicer and its parts were bought from SweetLife and to track the components that were used in the production of this specific juicer.
 
@@ -10,7 +10,7 @@ The materials required for the juicer's production are in stock; you do not need
 
 Acting as a production manager, you will create a production order for producing five juicer units, generate serial numbers for the juicer units, issue the materials required for the juicer's production, assign the generated serial numbers to the motor base units, and process the other related transactions.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -18,7 +18,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *CFJFRUITSN*, *PULPCONT1L*, *JUICECUP05L*, *MRBASESN*, *FNSIEVE*, and *GRDISC01* stock items have been defined.
 -   On the [Lot/Serial Classes](IN_20_70_00.md) \(IN207000\) form, the *SNJCRPRT* and *ASNCFGJCR* serial classes have been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, to process the documents and transactions related to the production of the juicers, you will do the following:
 
@@ -28,7 +28,7 @@ In this activity, to process the documents and transactions related to the produ
 4.  On the [Close Production Orders](AM_50_60_00.md) \(AM506000\) form, close the production order
 5.  On the [As-Built Configuration](AM_40_17_00.md) \(AM401700\) form, review the serial numbers of the produced units assigned to the serial-tracked material units
 
-## System Preparation { .section}
+## System Preparation
 
 Do the following:
 
@@ -36,7 +36,7 @@ Do the following:
 2.  Launch the Acumatica ERP website, and sign in to the company in which the prerequisite activities have been performed. You should sign in as the production manager by using the *peters* username and the *123* password.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to today’s date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating the Production Order { .section}
+## Step 1: Creating the Production Order
 
 To create the production order for five juicers and specify the serial number tracking settings, do the following:
 
@@ -56,11 +56,10 @@ To create the production order for five juicers and specify the serial number tr
 4.  On the form toolbar, click **Save**.
 5.  Go to the **Line Details** tab, and notice that the system has generated five serial numbers \(one for each unit to be produced\), as shown below.
 
-    ![](Images/activity_MFG_Lot_Serial_Tracked_Items_Preassigned_SNs_1.png "Serial numbers generated for the production order")
 
 6.  On the form toolbar, click **Release Order**. The order status is changed to *Released*.
 
-## Step 2: Issuing the Components for the Production Order { .section}
+## Step 2: Issuing the Components for the Production Order
 
 In this step, you will issue the components for the production order and assign the serial numbers of the juicer units to the motor base units. Do the following:
 
@@ -76,14 +75,13 @@ In this step, you will issue the components for the production order and assign 
 8.  In the **Line Details** dialog box, which opens, do the following:
     1.  In the **Parent Lot/Serial Nbr.** column of each row, select a serial number from the list of numbers that have been preassigned to the production order, as shown in the following screenshot. You must assign a unique parent serial number to each material row.
 
-        ![](Images/activity_MFG_Lot_Serial_Tracked_Items_On_Issue_Materials.png "The parent serial numbers assigned to the material units")
 
     2.  Click **OK** to save your changes and close the dialog box.
 9.  Notice that in the **Lot/Serial Nbr.** and **Parent Lot/Serial Nbr.** columns of the row with the *MRBASESN* item, *&lt;SPLIT&gt;* is specified. This means that multiple serial numbers have been selected for the material units.
 10. In the Summary area, clear the **Hold** check box.
 11. On the form toolbar, click **Release**. The system successfully releases the material transaction and changes the status of the transaction to *Released*.
 
-## Step 3: Recording the Produced Items { .section}
+## Step 3: Recording the Produced Items
 
 Suppose that warehouse workers have assembled all five juicers and moved them to the *MGI* location of the *WORKHOUSE* warehouse. In the production environment, you would record the workers' time spent on juicer assembly, but in this activity, for simplicity, you will record only the movement of the assembled juicers. Do the following:
 
@@ -93,7 +91,6 @@ Suppose that warehouse workers have assembled all five juicers and moved them to
 
     Notice that in each table row, in the **Lot/Serial Nbr.** column, the system selected a serial number from the list of numbers that have been generated for the production order, as shown below.
 
-    ![](Images/activity_MFG_Lot_Serial_Tracked_Items_Move_Line_Details_1.png "The serial numbers in the Line Details dialog box on the Move form")
 
 4.  Click **OK** to close the dialog box.
 5.  In the Summary area, do the following:
@@ -103,7 +100,7 @@ Suppose that warehouse workers have assembled all five juicers and moved them to
 6.  On the form toolbar, click **Release**. The system releases the move transaction.
 7.  Open the production order on the [Production Order Maintenance](AM_20_15_00.md) form and notice that it is assigned the *Completed* status.
 
-## Step 4: Closing the Production Order { .section}
+## Step 4: Closing the Production Order
 
 Now you will close the production order. Do the following:
 
@@ -113,7 +110,7 @@ Now you will close the production order. Do the following:
 
 You have processed the production order with the serialized item and assigned the parent serial numbers to the serialized material units.
 
-## Step 5: Reviewing the Serial Numbers Specified in the Production Order { .section}
+## Step 5: Reviewing the Serial Numbers Specified in the Production Order
 
 You will review the list of serial numbers specified for the juicer units and the motor base units in the production order you created earlier in this activity. Do the following:
 
@@ -123,7 +120,6 @@ You will review the list of serial numbers specified for the juicer units and th
 
     In the **Parent Lot/Serial Nbr.** column on the Item Details pane, review the serial numbers of juicer units assigned to the motor base items \(shown below\).
 
-    ![](Images/activity_MFG_Lot_Serial_Tracked_Items_On_Issue_Report.png "The As-Built Configuration form")
 
 
 **Parent topic:**[Producing Lot- or Serial-Tracked Items](../UserGuide/MFG_Lot_Serial_Tracked_Items_Mapref.md)

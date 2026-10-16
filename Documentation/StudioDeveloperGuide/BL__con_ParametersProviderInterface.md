@@ -1,24 +1,119 @@
-# Configuration of Parameters in Code for the Customization Project Editor {#_50eaa27b-a2d5-403e-a851-5f5a8e41447f .concept}
+# Configuration of Parameters in Code for the Customization Project Editor
 
 You can configure a custom set of parameters in code that a customizer can access in the Customization Project Editor. To configure this set of parameters, you implement a dictionary of key–value pairs that represent a set of parameters defined in the code of a graph. The customizer can then access the dictionary keys and use them as parameters to configure various column values on certain pages in the Customization Project Editor that are used to customize a screen.
 
-## Applicable Pages and Columns { .section}
+## Applicable Pages and Columns
 
 The following table lists the pages of the Customization Project Editor for which you can configure these parameters, the columns on each page whose values can be configured by using the dictionary keys, and the location of these columns on the page.
 
-|Page|Column|Location|
-|----|------|--------|
-|[Actions](../UserGuide/AU_20_10_50.md)|**Parameter Name** and**Value**|The **Navigation Parameters** tab of the **Action Properties** dialog box \(which opens when **Create New Action** is clicked on the page toolbar\)|
-|**Field** and **New Value**|The **Field Update** tab of the **Action Properties** dialog box \(which opens when **Create New Action** is clicked on the page toolbar\)|
-|[Event Handlers](../UserGuide/AU_20_10_70.md)|**Field** and **New Value**|The **Field Update** tab of the **Event Handler Properties** dialog box \(which opens when **Add New Record** is clicked on the page toolbar\)|
-|[Conditions](../UserGuide/AU_20_10_10.md)|**Field Name**,**Value**, and **Value 2**|The table of the **Condition Properties** dialog box \(which opens when **Add New Record** is clicked on the page toolbar\)|
-|[Dialog Boxes](../UserGuide/AU_20_10_40.md)|**Field Name** and**Default Value**|The **Dialog Box Fields** table of the right pane of the page for a dialog box that has been added|
-|[Workflows](../UserGuide/AU_20_10_20.md)|**Field Name** and**New Value**|The **Fields to Update After Transition** table of the **Transition Properties** tab \(which opens when a transition has been selected in the **States and Transitions** pane in the [Workflow \(Tree View\)](../UserGuide/AU_20_10_30.md) of the selected workflow\)|
-|**Field Name** and **Default Value**|The **Fields** tab of the **States Properties** tab \(which opens when a state is selected in the **States and Transitions** pane in the [Workflow \(Tree View\)](../UserGuide/AU_20_10_30.md) of the selected workflow\)|
-|**Field Name** and**New Value**|The **Fields to Update on Entry** tab of the **States Properties** tab \(which opens when a state is selected in the **States and Transitions** pane in the[Workflow \(Tree View\)](../UserGuide/AU_20_10_30.md) of the selected workflow\)|
-|**Field Name** and **New Value**|**Fields to Update on Exit** tab of the **States Properties** tab \(which opens when a state is selected in the **States and Transitions** pane in the[Workflow \(Tree View\)](../UserGuide/AU_20_10_30.md) of the selected workflow\)|
+<table id="_c69323cd-097b-4925-87cb-c76f29db4d1e"><thead><tr><th>
 
-## Code Example { .section}
+Page
+
+</th><th>
+
+Column
+
+</th><th>
+
+Location
+
+</th></tr></thead><tbody><tr><td rowspan="2">
+
+[Actions](../UserGuide/AU_20_10_50.md)
+
+</td><td>
+
+**Parameter Name** and**Value**
+
+</td><td>
+
+The **Navigation Parameters** tab of the **Action Properties** dialog box \(which opens when **Create New Action** is clicked on the page toolbar\)
+
+</td></tr><tr><td>
+
+**Field** and **New Value**
+
+</td><td>
+
+The **Field Update** tab of the **Action Properties** dialog box \(which opens when **Create New Action** is clicked on the page toolbar\)
+
+</td></tr><tr><td>
+
+[Event Handlers](../UserGuide/AU_20_10_70.md)
+
+</td><td>
+
+**Field** and **New Value**
+
+</td><td>
+
+The **Field Update** tab of the **Event Handler Properties** dialog box \(which opens when **Add New Record** is clicked on the page toolbar\)
+
+</td></tr><tr><td>
+
+[Conditions](../UserGuide/AU_20_10_10.md)
+
+</td><td>
+
+**Field Name**,**Value**, and **Value 2**
+
+</td><td>
+
+The table of the **Condition Properties** dialog box \(which opens when **Add New Record** is clicked on the page toolbar\)
+
+</td></tr><tr><td>
+
+[Dialog Boxes](../UserGuide/AU_20_10_40.md)
+
+</td><td>
+
+**Field Name** and**Default Value**
+
+</td><td>
+
+The **Dialog Box Fields** table of the right pane of the page for a dialog box that has been added
+
+</td></tr><tr><td rowspan="4">
+
+[Workflows](../UserGuide/AU_20_10_20.md)
+
+</td><td>
+
+**Field Name** and**New Value**
+
+</td><td>
+
+The **Fields to Update After Transition** table of the **Transition Properties** tab \(which opens when a transition has been selected in the **States and Transitions** pane in the [Workflow \(Tree View\)](../UserGuide/AU_20_10_30.md) of the selected workflow\)
+
+</td></tr><tr><td>
+
+**Field Name** and **Default Value**
+
+</td><td>
+
+The **Fields** tab of the **States Properties** tab \(which opens when a state is selected in the **States and Transitions** pane in the [Workflow \(Tree View\)](../UserGuide/AU_20_10_30.md) of the selected workflow\)
+
+</td></tr><tr><td>
+
+**Field Name** and**New Value**
+
+</td><td>
+
+The **Fields to Update on Entry** tab of the **States Properties** tab \(which opens when a state is selected in the **States and Transitions** pane in the[Workflow \(Tree View\)](../UserGuide/AU_20_10_30.md) of the selected workflow\)
+
+</td></tr><tr><td>
+
+**Field Name** and **New Value**
+
+</td><td>
+
+**Fields to Update on Exit** tab of the **States Properties** tab \(which opens when a state is selected in the **States and Transitions** pane in the[Workflow \(Tree View\)](../UserGuide/AU_20_10_30.md) of the selected workflow\)
+
+</td></tr></tbody>
+</table>
+
+## Code Example
 
 You can define this dictionary in any graph by using the GetAvailableExpressionParameters\(\) method of the IWorkflowExpressionParserParametersProvider interface. The following code shows an example.
 

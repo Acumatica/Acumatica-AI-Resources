@@ -1,4 +1,4 @@
-# Changes in Webpages \(ASPX\) {#_56a4a87c-291d-43d1-827e-d413c3d6a3f1 .concept}
+# Changes in Webpages \(ASPX\)
 
 To customize the look and behavior of an Acumatica ERP form, you need to change the ASPX code of the form. Because you need to include all the changes in a customization project, you have to perform the form customization by using the [Screen Editor](../UserGuide/AU_20_45_20.md) of the Customization Project Editor.
 
@@ -35,7 +35,6 @@ For example, at the publication process, the platform transforms the XML code fr
 
 During the publication of the project, the platform applies the XML changeset to the appropriate form to create a customized version of the `.aspx` file with the same name in the `pages_xx` subfolder of the `CstPublished` folder of the website. If the form ID contains the *SO* prefix, the customized ASPX code is located in the `\CstPublished\pages_so` folder, as the following screenshot shows.
 
-![](images/CG_Platform_TO_Code_ASPX_01.png "Viewing the files with customized ASPX code in the CstPublished folder")
 
 After the project has been published, when Acumatica ERP has to display a form, first it tries to find the `.aspx` file of the form in the `CstPublished` folder. If it finds it, Acumatica ERP opens the customized version of the form instead of the original one.
 

@@ -1,4 +1,4 @@
-# Company Story and Customization Description {#_9a298aed-153d-4812-a685-4d3dc7648b29 .concept}
+# Company Story and Customization Description
 
 In the activities of this guide, you will develop a customization project to support the cell phone repair shop of the Smart Fix company. Parts of this customization were developed in the *T200 Maintenance Forms*, *T210 Customized Forms and Master-Details Relationships*, and *T220 Data Entry and Setup Forms* training courses. The activities of this guide use the customization project that you can get as a result of completing these courses. You will deploy this project in [Test Instance for Workflow Customization: To Deploy a Test Instance](WorkflowAPI_PrepareInstance_Activity_DeployInstance.md).
 
@@ -16,7 +16,7 @@ In the activities of this guide, you will implement a workflow on the Repair Wor
 -   Adding an action that opens the Repair Work Orders form. You will make the action available for an invoice in one status.
 -   Adding the new workflow state, `Postponed`, to a composite state of the workflow, a transition from the `Postponed` workflow state, and an action that triggers the transition.
 
-## Types of Repair Work Orders { .section}
+## Types of Repair Work Orders
 
 A repair work order may be created for the following types of services, which are defined on the Repair Services \(RS201000\) form:
 

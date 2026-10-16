@@ -1,12 +1,11 @@
-# Testing of the Modern UI: Update of Tests Written for the Classic UI {#_5dbd95ef-b87c-4f5b-9737-05d0559171fc .concept}
+# Testing of the Modern UI: Update of Tests Written for the Classic UI
 
 In some cases, wrapper generation may fail due to changes between the Classic UI and the Modern UI. In that case, you need to update tests as described in this topic.
 
-## Table Filters { .section}
+## Table Filters
 
 In the Classic UI, table filters are displayed as tabs, such as **All Records** and **Ready to Process** in the following screenshot.
 
-![](Images/UIDev_Testing_TableFiltersClassicUI.png "Table filters in the Classic UI")
 
 The test code for these filters looks as follows.
 
@@ -25,7 +24,7 @@ You should change the test code for such filters to the following.
 Screen.Grid.SelectFilter("Filter Name Here");
 ```
 
-## User-Defined Fields { .section}
+## User-Defined Fields
 
 In the Classic UI, user-defined fields were located on a separate tab of the applicable data entry form. The name of the tab was **User-Defined Fields** \(Attributes in the test code\). So to test the user-defined field, the test code had to open the tab and find the specified control.
 

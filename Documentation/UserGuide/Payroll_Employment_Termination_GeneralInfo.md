@@ -1,8 +1,8 @@
-# Employment Termination: General Information {#_b11f7ef8-0f08-48b0-999d-10585b1b9cf2 .concept}
+# Employment Termination: General Information
 
 When a person's employment in the company comes to an end, a final settlement is calculated for this person and relevant PTO banks may be disbursed on the final day of the employment. Also, the person's employment information is updated in the system and the employee payroll record becomes deactivated.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -11,11 +11,11 @@ In this chapter, you will learn how to do the following:
 -   Update an employment history
 -   Deactivate an employee payroll record
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You issue a final paycheck when you need to terminate a person's employment in the company.
 
-## Final Paychecks { .section}
+## Final Paychecks
 
 You use the [Paychecks and Adjustments](PR_30_20_00.md) \(PR302000\) form to create a paycheck of the *Final* type. A final paycheck is used for the final settlement with a person whose employment in the company has been terminated.
 
@@ -38,7 +38,7 @@ Final paychecks can be processed in the same way as other paychecks can. You can
 
 If you void a released final paycheck, the disbursed PTO banks \(if any\) become as they were before the final paycheck was calculated.
 
-## Employment Termination { .section}
+## Employment Termination
 
 After an employee's final paycheck is released on the [Paychecks and Adjustments](PR_30_20_00.md) \(PR302000\) form, the system clears the **Active** check box in the Summary area of the [Employee Payroll Settings](PR_20_30_00.md) form for the related employee record and updates the information on the **Employment History** tab of the [Employee Payroll Settings](PR_20_30_00.md) \(PR203000\) form as follows:
 

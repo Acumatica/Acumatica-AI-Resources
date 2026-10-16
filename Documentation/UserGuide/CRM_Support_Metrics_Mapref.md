@@ -1,4 +1,4 @@
-# Managing the Support Report {#_66120ff0-fbbb-4f9e-a03d-66b6481fd552 .concept}
+# Managing the Support Report
 
 In Acumatica ERP, you can use predefined report to organize and summarize support metrics in any way you want. With this report, you can retrieve and analyze important information related to the operational efficiency of your customer service team.
 

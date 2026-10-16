@@ -1,8 +1,8 @@
-# Order Synchronization: Non-Card Payments {#_d3afd74f-37fe-4b76-b7e2-e758954560cb .concept}
+# Order Synchronization: Non-Card Payments
 
 The following sections describe how to set up the import of payments from the BigCommerce store to Acumatica ERP.
 
-## Configuration of Payment Synchronization { .section}
+## Configuration of Payment Synchronization
 
 If payments for at least one payment method set up in the BigCommerce store should be imported to Acumatica ERP, you need to activate the *Payment* entity on the **Entities** tab of the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form.
 
@@ -16,7 +16,7 @@ To map the combination of the store payment method and the store currency with t
 
 You can also indicate that payments that are imported from the BigCommerce store should be automatically released as soon as they are imported by selecting the check box in the **Release Payments and Refunds** column. If refunds issued in the store should be imported to Acumatica ERP, you select the **Process Refunds** check box.
 
-## Synchronization of Payments { .section}
+## Synchronization of Payments
 
 You can import payments independently of orders by preparing and processing the *Payment* entity.
 

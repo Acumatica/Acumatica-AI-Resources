@@ -1,8 +1,8 @@
-# Progress Billing: General Information {#_c17cd276-2ac9-4e6e-a137-fa3ccdaa1e16 .concept}
+# Progress Billing: General Information
 
 With progress billing in Acumatica ERP, you run project billing to automatically generate project invoices based on the progress recorded for the project.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,11 +10,11 @@ In this chapter, you will learn how to do the following:
 -   Process the documents that have been generated during the project billing
 -   Review how the project’s actual amounts are updated with the billed amounts
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You run project billing to prepare an invoice for the customer based on the current progress of the project. The timing of project billing depends on the project billing period defined for the project.
 
-## The Progress Billing Process { .section}
+## The Progress Billing Process
 
 Progress billing is a simple billing workflow for the projects that are gradually billed at a fixed contract amount. Progress billing does not involve project transactions. To bill a project task by its progress, you need to create a billing rule on the [Billing Rules](../Shared/../UserGuide/PM_20_70_00.md) \(PM207000\) form and configure a step of the *Progress Billing* type in this rule. Then you assign the configured billing rule to project tasks on the **Tasks** tab of the [Projects](../Shared/../UserGuide/PM_30_10_00.md) \(PM301000\) form.
 

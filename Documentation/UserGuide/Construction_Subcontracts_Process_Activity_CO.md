@@ -1,8 +1,8 @@
-# Subcontracts: To Decrease a Commitment with a Change Order {#_f4478d89-f21d-40d9-b545-0fe097ee5508 .task}
+# Subcontracts: To Decrease a Commitment with a Change Order
 
 In this activity, you will learn how you can decrease a project commitment by processing a change order with a negative amount.
 
-## Story {#section_i2l_mxc_tpb .section}
+## Story
 
 Suppose that on *4/22/2026*, the ToadGreen company hires a subcontractor, Standard Hardware Company, to perform a part of work for the hotel that is being built by ToadGreen. Initially, both parties agree that Standard Hardware Company will install the watering system and prepare the area around the hotel to landscape design.
 
@@ -10,7 +10,7 @@ After some consideration, because of scheduling issues, ToadGreen has agreed wit
 
 Acting as the construction project manager, you will process all the needed documents in the system.
 
-## Configuration Overview {#section_qkw_q4s_dnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -20,11 +20,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Cost Codes](PM_20_95_00.md) \(PM209500\), the *02-510 \(Underground - Water\)* and *02-990 \(Landscaping Maintenance\)* cost codes have been created.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *SUBCONTR* non-stock item, which represents the work performed by subcontractors, has been created.
 
-## Process Overview {#section_a35_f1d_tpb .section}
+## Process Overview
 
 To record the work performed by a subcontractor for the project, you will create a subcontract document with the subcontractor specified on the [Subcontracts](SC_30_10_00.md) \(SC301000\) form. Then on the [Bills and Adjustments](AP_30_10_00.md#) \(AP301000\) form, you will create a bill for the provided services, and remove the planned services that were not provided from the bill. You will create a payment for the bill on the [Checks and Payments](AP_30_20_00.md#) \(AP302000\) form. When all the work has been paid for, you will process a change order to remove the unprovided services from the subcontract. Finally, you will complete the subcontract on the [Subcontracts](SC_30_10_00.md) form.
 
-## System Preparation {#section_s4n_ftc_tpb .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
@@ -33,7 +33,7 @@ To prepare to perform the instructions of this activity, do the following:
 3.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 4.  Open the [Projects Preferences](PM_10_10_00.md) \(PM101000\) form, and on the **General** tab \(**General Settings** section\), select the **Internal Cost Commitment Tracking** check box to expose commitments and committed values in the project budget, and save your changes to the project accounting preferences.
 
-## Step 1: Creating a Project Commitment {#section_anp_w1d_tpb .section}
+## Step 1: Creating a Project Commitment
 
 To create a subcontract, do the following:
 
@@ -56,7 +56,7 @@ To create a subcontract, do the following:
     -   The commitment with the *SUBCONTR* item and committed original and revised amounts of $242,000
 6.  Open the [Projects](PM_30_10_00.md#) \(PM301000\) form, and in the **Project ID** box, select *HOTEL*. On the **Cost Budget** tab, for the budget lines with the *02-510* and *02-990* cost codes, notice that the committed open amount for these lines equals the amount of the lines of the subcontract that you have processed. The original committed values of each line equal to the revised committed values.
 
-## Step 2: Paying for the Performed Work {#section_ulk_wcd_tpb .section}
+## Step 2: Paying for the Performed Work
 
 To create the bill to pay for the subcontractor work, do the following:
 
@@ -71,7 +71,7 @@ To create the bill to pay for the subcontractor work, do the following:
     As a result, the payment and the payment application to the bill are released; the subcontract, the payment and the AP bill are assigned the *Closed* status and the appropriate transactions are posted to the general ledger.
 
 
-## Step 3: Adjusting the Project Commitments {#section_u4n_ftc_tpb .section}
+## Step 3: Adjusting the Project Commitments
 
 To change the project commitments by using a change order, do the following:
 
@@ -101,7 +101,7 @@ To change the project commitments by using a change order, do the following:
 7.  On the **Finanical** tab, make sure that the **Unbilled Quantity** and **Unbilled Amount** of the subcontract are now equal to zero.
 8.  On the form toolbar, click **Complete**.
 
-## Step 4: Reviewing the Updated Commitments {#section_v4n_ftc_tpb .section}
+## Step 4: Reviewing the Updated Commitments
 
 To review the commitments that the system has updated based on the change order you have processed earlier in this activity, do the following:
 
@@ -109,7 +109,6 @@ To review the commitments that the system has updated based on the change order 
 
     Notice that the commitment that has been updated with the change order have nonzero **Committed CO Amount**.
 
-    ![](Images/activity_Construction_Subcontracts_CO.png "Project commitments updated with the change order")
 
 2.  On the [Projects](PM_30_10_00.md) \(PM301000\) form, open the *HOTEL* project.
 3.  On the **Cost Budget** tab, review the updated committed values of the cost budget in the line with the *08-200* cost code.

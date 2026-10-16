@@ -1,4 +1,4 @@
-# Customizing a Composite State From Code {#_f12f80e1-f99f-4097-b15a-daab3bae444b .concept}
+# Customizing a Composite State From Code
 
 This topic describes customizing a composite state using Workflow API.
 
@@ -7,7 +7,6 @@ Suppose that you need to customize the workflow on the [Invoices and Memos](../U
 -   A transition to the beginning of the composite state
 -   A transition to the next state in the composite state \(the **Credit Hold** state\) that is triggered by the **Approve** action
 
-![](images/diag_Workflow_Approval.png "The workflow on the Invoices and Memos form")
 
 Such customization includes the following steps:
 

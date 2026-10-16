@@ -1,4 +1,4 @@
-# Integration with BigCommerce {#_75f585a3-3af4-4302-9b8c-01a123a0dc25 .concept}
+# Integration with BigCommerce
 
 This part of the guide describes the minimum configuration of the BigCommerce integration, as well as the implementation of the ecommerce functionality in Acumatica ERP.
 
@@ -10,7 +10,7 @@ This part of the guide describes the minimum configuration of the BigCommerce in
 
 -   **[Automating Synchronization](../UserGuide/Commerce_BC_Automated_Sync_Mapref.md)**  
 
--   **[Synchronizing Customers](../UserGuide/Commerce_BC_Syncing_Customers_Mapref.md)**  
+-   **[Synchronizing Individual and Business Customers](../UserGuide/Commerce_BC_Syncing_Customers_Mapref.md)**  
 
 -   **[Synchronizing Products](../UserGuide/Commerce_BC_Syncing_Products_Mapref.md)**  
 

@@ -1,4 +1,4 @@
-# Configuring Government Reporting {#_d2b4c2dd-b745-4ce5-92e1-02d488297052 .concept}
+# Configuring Government Reporting
 
 This chapter describes how you configure government reporting in payroll.
 

@@ -1,30 +1,29 @@
-# Cash Purchases: General Information {#_4bcb9e59-688f-4f5d-bfc2-5f361d90a6cb .concept}
+# Cash Purchases: General Information
 
 In Acumatica ERP, a cash purchase is a document of the *Cash Purchase* type, which you create on the [Cash Purchases](AP_30_40_00.md) \(AP304000\) form to record a purchase for which the payment was made at the time of the purchase—that is, without incurring any liabilities.
 
 On the [Cash Purchases](AP_30_40_00.md) form, you can also record a full or partial refund for the items paid immediately by creating a document of the *Cash Return* type or reversing a cash purchase recorded before.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to create and process a cash purchase document in Acumatica ERP.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create and process a cash purchase document when you want to record a purchase of non-stock goods or services paid immediately.
 
-## Workflow of the Cash Purchase Processing {#section_vv2_1y4_y4b .section}
+## Workflow of the Cash Purchase Processing
 
 The processing of a *Cash Purchase* document involves the actions shown in the following diagram.
 
-![](Images/diag_Finance_Cash_Purchase_Processing.png "Processing a Cash Purchase document")
 
-## Cash Purchase Entry { .section}
+## Cash Purchase Entry
 
 You create cash purchases by using the [Cash Purchases](AP_30_40_00.md) \(AP304000\) form. On this form, you specify details of a cash purchase document, such as date, vendor, location, payment method and cash account \(if applicable\). On the **Details** tab, you enter one detail line or any number of detail lines. For each detail line, you can specify a particular non-stock item or service.
 
 If the payments of the selected payment method will be processed by a bank, the bank may apply finance charges. On the **Charges** tab, you can add these charges and specify their particular amounts for the payment.
 
-## Cash Purchase Processing { .section}
+## Cash Purchase Processing
 
 Depending on the payment method specified in the created cash purchase document, the processing workflow may vary.
 
@@ -36,11 +35,11 @@ If the payment method does not require printing checks, once you saved a cash pu
 
 For details on printing checks, including MICR \(Magnetic Ink Character Recognition\)–encoded checks, see [To Print Checks](AP__how_Printing_Checks.md).
 
-## Expense Reclassification {#section_ax3_njv_vxb .section}
+## Expense Reclassification
 
 If expense reclassification is performed as a separate stage of document processing in your system, you can set up the workflow so that the users who enter cash purchases into the system will pre-release them, and later the authorized accountants will perform expense reclassification—that is, assign correct expense accounts \(and subaccounts\) and finally release them. For more information, see [Reclassification of Expenses: General Information](Finance_Reclassification_of_Expenses_General_Info.md).
 
-## Reversal of a Cash Purchase { .section}
+## Reversal of a Cash Purchase
 
 If for a cash purchase, a full or partial refund must be recorded, on the [Cash Purchases](AP_30_40_00.md) \(AP304000\) form, you can either reverse a cash purchase document, or manually create a cash return document, that is, a document of the *Cash Return* type.
 
@@ -48,7 +47,7 @@ You can reverse a cash purchase document of the *Closed* status. On the [Cash Pu
 
 You can also manually create a cash return document. On the [Cash Purchases](AP_30_40_00.md) form, you add a new document. In the Summary area of the form, in the **Type** box, select *Cash Return*, fill in all required details in the Summary area and on the **Details** tab of the form, and save the document.
 
-## Application of Direct-Entry Taxes to Cash Purchases {#section_jx3_njv_vxb .section}
+## Application of Direct-Entry Taxes to Cash Purchases
 
 On the [Cash Purchases](AP_30_40_00.md) \(AP304000\) form, a direct-entry tax is applied to a document if both of the following conditions are met:
 

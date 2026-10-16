@@ -1,19 +1,19 @@
-# Data Synchronization: General Information {#_b0d5b9ad-38e1-4cec-a39d-87addf905e1c .concept}
+# Data Synchronization: General Information
 
 After the connection between Acumatica ERP and the Amazon seller account has been established and the initial configuration performed, you can start synchronizing data between the two systems.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how data synchronization works and how to synchronize data manually.
 
-## Stages of the Synchronization Process { .section}
+## Stages of the Synchronization Process
 
 The process of the synchronization of data between Acumatica ERP and the ecommerce system consists of the following stages:
 
 1.  Preparing data for synchronization
 2.  Processing out-of-sync data
 
-## Preparation of Data for Synchronization {#_41e6f5ed-943b-4ebc-affc-46f7ed8c64b5 .section}
+## Preparation of Data for Synchronization
 
 During the preparation of data for synchronization, the system receives the data that needs to be synchronized between Acumatica ERP and the ecommerce system and puts it in the processing queue. The following mechanisms can be used for obtaining data:
 
@@ -31,9 +31,8 @@ During the preparation of data for synchronization, the system receives the data
 
 The following diagram shows the process of preparing data for synchronization.
 
-![](Images/diag_Commerce_Data_Preparation.png "Preparing data for synchronization")
 
-## Processing of Out-of-Sync Data {#_a9afd843-28dd-41af-97e2-3d5f509403a7 .section}
+## Processing of Out-of-Sync Data
 
 During the data processing stage, the system processes the synchronization records in the processing queue according to the synchronization settings defined for the corresponding entity on the [Entities](BC_20_20_00.md) \(BC202000\) form or on the **Entities** tab of the [Amazon Stores](BC_20_10_20.md) \(BC201020\) form, and the synchronized data is saved in Acumatica ERP, in the external system, or in both systems.
 
@@ -57,9 +56,8 @@ The processing of out-of-sync data can be started as follows:
 
 In the following diagram, you can see the flow of the processing of data prepared for synchronization.
 
-![](Images/diag_Commerce_Data_Processing.png "Processing prepared data")
 
-## Preparation of Deleted Records { .section}
+## Preparation of Deleted Records
 
 If a previously processed entity record is deleted in Acumatica ERP, in the external system, or in both systems, its synchronization record is assigned the *Deleted* status on the [Sync History](../Shared/../UserGuide/BC_30_10_00.md) \(BC301000\) form. When the entity is prepared, the synchronization record is assigned the *Prepared* status in the following cases:
 

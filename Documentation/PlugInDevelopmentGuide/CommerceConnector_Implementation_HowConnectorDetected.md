@@ -1,4 +1,4 @@
-# Connector Implementation: How the Connector Is Detected in the Application {#_577cec3b-d1fe-4007-9382-08b2d7d52c70 .concept}
+# Connector Implementation: How the Connector Is Detected in the Application
 
 The **Connector** box of the configuration form of an ecommerce store contains the name of the connector if both of the following conditions are met:
 
@@ -15,7 +15,6 @@ When a user specifies the settings of a commerce store in the Summary area of th
 
 The following diagram illustrates the relations of the classes of the connector and the ASPX page.
 
-![](Images/ConnectorBox.png "Connector box")
 
 **Parent topic:**[Implementing a Connector for an External System](../PlugInDevelopmentGuide/CommerceConnector_Implementation_Mapref.md)
 

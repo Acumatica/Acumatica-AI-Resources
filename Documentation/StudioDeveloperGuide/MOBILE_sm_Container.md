@@ -1,4 +1,4 @@
-# &lt;sm:Container&gt; {#_b6ab20f1-feff-4286-b429-1c299a19bf82 .concept}
+# &lt;sm:Container&gt;
 
 The sm:Container tag has the following attributes.
 

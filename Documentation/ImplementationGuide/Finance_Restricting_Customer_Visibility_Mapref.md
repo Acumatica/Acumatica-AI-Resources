@@ -1,4 +1,4 @@
-# Visibility of Customer Records {#_6970e27d-8e67-4241-b386-9361af4c355a .concept}
+# Visibility of Customer Records
 
 This chapter describes how to control the visibility of customer records for a particular company or company branch in Acumatica ERP.
 

@@ -1,4 +1,4 @@
-# Applying a Deductible VAT {#_a858469c-1845-4d7d-bb20-34219c65477d .concept}
+# Applying a Deductible VAT
 
 The topics of this chapter illustrate how to apply a deductible VAT to a document.
 

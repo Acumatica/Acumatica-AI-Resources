@@ -1,12 +1,12 @@
-# To Create a Service Template {#_affda31f-3002-4b2b-aaeb-6d2427210a81 .task}
+# To Create a Service Template
 
 You use the [Service Templates](FS_20_49_00.md) \(FS204900\) form to create a service template in the system. For details on service templates, see [Service Templates](FS__CON_Service_Templates.md).
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Before you begin creating a service template, make sure that the necessary types of equipment-related service orders have been created on the [Service Order Types](FS_20_23_00.md) \(FS202300\) form and services for the orders have been created on the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form.
 
-## To Create a Service Template { .section}
+## To Create a Service Template
 
 1.  Open the [Service Templates](../Shared/../UserGuide/FS_20_49_00.md) \(FS204900\) form.
 2.  On the form toolbar, click **Add New Record**.
@@ -23,7 +23,7 @@ Before you begin creating a service template, make sure that the necessary types
     3.  In the **Quantity** column, check the quantity of stock items and change it if necessary. By default, 1 is specified.
 8.  Click **Save**.
 
-## Notes About the Procedure { .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

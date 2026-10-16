@@ -1,8 +1,8 @@
-# Intercompany Purchases and Returns: Intercompany Drop-Ship Returns {#_ec4170e5-e5cb-4097-b406-7271ccbeae80 .concept}
+# Intercompany Purchases and Returns: Intercompany Drop-Ship Returns
 
 An intercompany drop-ship return is used when goods delivered from a selling company to a customer need to be returned directly to the selling company's warehouse. The process coordinates actions between the purchasing and selling companies so that returns, shipments, and financial documents are properly recorded.
 
-## Processing an Intercompany Drop-Ship Return { .section}
+## Processing an Intercompany Drop-Ship Return
 
 In Acumatica ERP, an intercompany drop-ship purchase return is typically processed as follows:
 
@@ -35,11 +35,10 @@ In Acumatica ERP, an intercompany drop-ship purchase return is typically process
 
 At this point, the intercompany drop-ship return is completed.
 
-## Workflow of the Intercompany Drop-Ship Return { .section}
+## Workflow of the Intercompany Drop-Ship Return
 
 For an intercompany drop-ship return to the warehouse of the selling company, the typical process involves the actions and generated documents shown in the following diagram.
 
-![](Images/diag_OrderMgmt_Cross-Company_Drop-Ship_Purchase_Return.png)
 
 **Parent topic:**[Processing Intercompany Purchases and Returns](../UserGuide/OrderMgmt_Intercompany_Sales_and_Purchases_Mapref.md)
 

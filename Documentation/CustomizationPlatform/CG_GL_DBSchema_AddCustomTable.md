@@ -1,4 +1,4 @@
-# To Create a Custom Table {#_b18a0209-3408-4873-854c-75e7e7fb25a4 .task}
+# To Create a Custom Table
 
 You use the Database Scripts page of the Customization Project Editor to add a custom table to a customization project. You can add a custom table to a project by adding the table schema or by adding a custom SQL script.
 
@@ -8,7 +8,7 @@ Alternatively, you can add custom tables by adding a custom SQL script that crea
 
 **Note:** The creation or modification of the System tables is forbidden. A customization project containing such changes will not pass validation tests. For details on the System tables, see [System and Application Tables](../Shared/../StudioDeveloperGuide/DA__con_System_Application_Tables.md).
 
-## To Add a Custom Table to a Customization Project { .section}
+## To Add a Custom Table to a Customization Project
 
 After you have created the needed table in the database by using a database administration tool, such as SQL Server Management Studio, you do the following:
 
@@ -38,7 +38,9 @@ Below is an example of the *Sql* item that contains the table schema of the cust
   <index name="RBProduct_PK" clustered="true" primary="true" unique="true">
     <col name="ProductID" />
   </index>
-</table>]]></CDATA>
+</table>
+
+]]></CDATA>
     </Sql>
 ```
 

@@ -1,4 +1,4 @@
-# To Set Up Integration with UPS REST {#_3ea9a187-b30c-4a25-960f-9ad0bd16628d .task}
+# To Set Up Integration with UPS REST
 
 Before you configure integration with UPS, your organization should have an account with the carrier and a signed service agreement. The SurePost service requires an additional service contract signed with USPS. The settings for the plug-in are specified in accordance with the information available in the agreement.
 
@@ -6,7 +6,7 @@ UPS provides the ability to use their services via the REST API. To configure in
 
 **Attention:** The UPS integration can only be used for processing of domestic shipments and shipments to Canada.
 
-## Creation of an App in the UPS Developer Portal {#_7d26231d-2277-44c1-89c0-bbcd3c80e243 .section}
+## Creation of an App in the UPS Developer Portal
 
 Before you start configuring the settings of the plug-in for UPS in Acumatica ERP, you need to create an app in the UPS Developer Portal. The app provides the client ID and client secret that are required for the configuration of the plug-in. You also use the app to define UPS endpoints that you will use for processing of shipments with a UPS carrier.
 
@@ -52,7 +52,7 @@ The UPS portal creates your app and shows the list of apps on the **My Apps** pa
 
 For more details about the settings of your account in the UPS Developer Portal, see [Getting Started with UPS APIs](https://developer.ups.com/get-started).
 
-## To Specify Plug-in Settings for UPS { .section}
+## To Specify Plug-in Settings for UPS
 
 1.  Open the [Carriers](CS_20_77_00.md) \(CS207700\) form and add a new record.
 2.  In the **Carrier ID** box, type an easy-to-remember name for the carrier to be integrated.

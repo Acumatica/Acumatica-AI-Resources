@@ -1,27 +1,27 @@
-# Construction Project Budget: To Review Project Balance {#_b5ac75d4-f241-4b4f-bfb6-682f67fca7f2 .task}
+# Construction Project Budget: To Review Project Balance
 
 The following activity will walk you through the process of reviewing the structure, settings, and balances of a project.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_irv_1kv_brb .section}
+## Story
 
 Suppose that ToadGreen Building Group is a general contractor building an Italian restaurant for its customer, the Italian Company. A ToadGreen manager has created a project for the work to be performed, and the budget has been agreed on with the customer.
 
 Acting as the construction project manager, you need to review the project balances to become familiar with the project and gather all the information about performed work.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Construction* and *Cost Codes* features have been enabled.
 -   On the [Projects](PM_30_10_00.md) \(PM301000\) form, the *ITALIAN* project has been defined.
 
-## Process Overview {#section_qd1_j5q_kdc .section}
+## Process Overview
 
 You will review project' settings on the [Projects](PM_30_10_00.md) \(PM301000\) form. Then you will review the project revenue budget on the **Revenue Budget** tab of the form, and project cost budget on the **Cost Budget** tab of the form. Finally, you will review the **Invoices** tab to ensure that no invoices have been prepared for the project yet.
 
-## System Preparation {#section_k2n_k5q_kdc .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
@@ -31,7 +31,7 @@ To sign in to the system and prepare to perform the instructions of the activity
 4.  Select the **Internal Cost Commitment Tracking** check box. This exposes the committed values of the budget.
 5.  Save your changes to the project accounting preferences.
 
-## Step 1: Reviewing the Billing Settings of the Project {#section_nqg_wfd_mnb .section}
+## Step 1: Reviewing the Billing Settings of the Project
 
 To review the main settings and the structure of the project for the Italian Company, do the following:
 
@@ -45,12 +45,11 @@ To review the main settings and the structure of the project for the Italian Com
     -   The **Create Pro Forma Invoice on Billing** check box is selected, which means that during the project billing process, the system creates a pro forma invoice. On release of the pro forma invoice, an AR invoice or credit memo is created.
 3.  On the **Tasks** tab, make sure that all the project tasks have the *Active*status \(as shown below\). With this status, transactions and documents can be recorded to those tasks. Notice that the **Billing Rule** column is filled in for all tasks—that is, the billing rule is specified at the project task level. You can change the billing rule for any task, which provides a high level of flexibility of project billing configuration.
 
-    ![](Images/activity_Construction_Project_Budget_1.png "Project tasks of the ITALIAN project")
 
 4.  In the Summary area, notice the amounts in the **Actual Income** and **Actual Expenses** boxes. These amounts indicate that some costs have already been recorded for the project, but there is no revenue yet.
 5.  On the **Invoices** tab, notice that there are no documents, which means that the project has not been billed yet.
 
-## Step 2: Reviewing the Cost Budget of the Project {#section_n4v_mgd_mnb .section}
+## Step 2: Reviewing the Cost Budget of the Project
 
 Perform the following instructions to review how the project costs are tracked:
 
@@ -66,10 +65,9 @@ Perform the following instructions to review how the project costs are tracked:
     -   Potential \(the **Potential CO Amount** column; Item 2\): The total quantity of the estimation lines of change requests that have the *Open* status plus the total quantity of the revenue budget lines of the change orders that have the *On Hold*, *Open*, or *Pending Approval* status and are associated with the same project, project task, account group, and cost code or inventory item. These totals are calculated automatically.
     -   Committed \(the columns with **Committed** in their names; Item 3\) The total amounts and total quantities of commitments \(subcontracts and purchase orders\), with a breakdown by the stage of the process \(such as open or invoiced\). These totals are calculated automatically.
     -   Actual \(the columns with **Actual** in their names; Item 4\): The total amounts and total quantities of project transactions released. These totals are calculated automatically.
-    ![](Images/activity_Construction_Project_Budget_2.png "Cost budget information of the project")
 
 
-## Step 3: Reviewing the Revenue Budget of the Project { .section}
+## Step 3: Reviewing the Revenue Budget of the Project
 
 Perform the following instructions to review how the project revenues are tracked:
 

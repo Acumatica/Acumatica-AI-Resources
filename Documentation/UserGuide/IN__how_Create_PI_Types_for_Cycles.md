@@ -1,10 +1,10 @@
-# To Create a Physical Inventory Type for Counts by Cycles {#_e1aa5731-e945-48c0-a046-6091dd6fa0ee .task}
+# To Create a Physical Inventory Type for Counts by Cycles
 
 When you configure physical inventory counting by cycles, you must create a physical inventory type for each cycle by using the [Physical Inventory Types](IN_20_89_00.md) \(IN208900\) form.
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## To Create a Physical Inventory Type for Counts by Cycles { .section}
+## To Create a Physical Inventory Type for Counts by Cycles
 
 1.  Open the [Physical Inventory Types](../Shared/../UserGuide/IN_20_89_00.md) \(IN208900\) form.
 

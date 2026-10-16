@@ -1,4 +1,4 @@
-# To Write to the Trace Log from the Code {#_02895968-0545-41ca-8b2b-0c1b39256bce .concept}
+# To Write to the Trace Log from the Code
 
 When you are developing and troubleshooting the customization code, you may need to know what happens during code execution \(for example, an action being called or an event being raised\). You can write information to the trace log directly from your code by using one of the following approaches:
 
@@ -11,7 +11,7 @@ To save the trace logs of all subsessions of all users in a single file on the s
 
 A user can see the log message in the trace log if the user clicks **Settings** &gt; **Trace** on the form title bar after the corresponding logic has been executed.
 
-## Writing to the Trace Log by Using the Methods of ILogger&lt;T&gt; { .section}
+## Writing to the Trace Log by Using the Methods of ILogger&lt;T&gt;
 
 Acumatica ERP supports the logging mechanism provided by the `Microsoft.Extensions.Logging.Abstractions` NuGet package. You can use this mechanism in custom code to write to the trace log.
 
@@ -28,7 +28,7 @@ To use this mechanism, you should do the following:
 
     **Tip:** For details about the InjectDependency attribute, see [Dependency Injection: Use of Dependency Injection](../StudioDeveloperGuide/CodeCustomization_DependencyInjection_Use.md).
 
-    ```language-csharp
+    ```csharp
     public class RSSVWorkOrderEntry : PXGraph<RSSVWorkOrderEntry, RSSVWorkOrder>
     {
         //Other code of the graph
@@ -72,7 +72,7 @@ To use this mechanism, you should do the following:
     ```
 
 
-## Writing to the Trace Log by Using the Methods of PXTrace { .section}
+## Writing to the Trace Log by Using the Methods of PXTrace
 
 You can write information to the trace log directly from your code by using the following methods of the PXTrace static class:
 
@@ -100,7 +100,7 @@ To manage writing information to the trace log, you can use the following method
 
 The WithStack and WithSourceLocation methods can be chained with Serilog.ILogger methods.
 
-## Adding a Log Method to the Published Customization Code { .section}
+## Adding a Log Method to the Published Customization Code
 
 If you want to avoid changes in the customization project, you can add this method to the customization code that has already been applied to the application instance. To do this, perform the following actions:
 
@@ -116,7 +116,7 @@ If you want to avoid changes in the customization project, you can add this meth
 
 **Tip:** When you publish or export the project, the Acumatica Customization Platform compares the code in the `App_RuntimeCode` website folder with the appropriate code in the database and discovers the files that have been changed in the file system. If a modified file is found, there is a conflict, and the platform opens the **Modified Files Detected** dialog box, in which you can direct the system to update the files in the project or discard the changes. See [Detecting the Project Items Modified in the File System](CG_Platform_TO_Features_AutoDetectMF.md) for details.
 
-## Specifying the Logging Level { .section}
+## Specifying the Logging Level
 
 Events that you log in code have different logging levels. You can specify a logging level in `web.config` so that only events up to that level will be logged. You set up the logging level by using the following settings in the `web.config` file:
 

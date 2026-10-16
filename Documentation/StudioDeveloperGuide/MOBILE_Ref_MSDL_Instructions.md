@@ -1,4 +1,4 @@
-# Instructions {#_b3d87528-db27-4e8b-afb7-c1e2804215e8 .concept}
+# Instructions
 
 *Format:*
 

@@ -1,14 +1,14 @@
-# Migration of Master Records: To Import Master Records {#_555f607d-30b2-434b-99a1-d27cf9939155 .task}
+# Migration of Master Records: To Import Master Records
 
 The following activity will walk you through the process of importing master records to Acumatica ERP.
 
 **Attention:** This activity is based on the *U100 Basic Company* dataset. If you are using another dataset, or if any system settings have been changed in *U100 Basic Company*, these changes can affect the workflow of the activity and the results of the processing. To avoid any issues, restore the *U100 Basic Company* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are an implementation consultant of the SweetLife Fruits &amp; Jams company, and you will be performing data migration from the legacy ERP system to Acumatica ERP. You have configured the tenant, activated the license, and performed the basic financial configuration so that the system is ready for data migration. Now you need to import the following master records: vendors, customers, and non-stock items.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100 Basic Company* dataset, the following tasks have been performed for the purposes of this activity:
 
@@ -18,13 +18,13 @@ In the *U100 Basic Company* dataset, the following tasks have been performed for
 -   On the [Vendor Classes](AP_20_10_00.md) \(AP201000\) form, the *DEFAULT* vendor class has been created.
 -   On the [Customer Classes](AR_20_10_00.md) \(AR201000\) form, the *DEFAULT* customer class has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Import by Scenario](SM_20_60_36.md) \(SM206036\) form, you will import vendors by using a predefined import scenario. During the import, you will correct the errors that have occurred in the data being imported. Then you will review the list of imported vendors on the Vendors \(AP3030PL\) list of records and make sure that all records are presented.
 
 After that, you will import customers by using the predefined import scenario and review the list of customers on the Customer \(AR3030PL\) list of records. Finally, you will import the non-stock items by using an import scenario provided with the course and review the results of the import on the Non-Stock Items \(IN2020PL\) list of records.
 
-## System Preparation {#section_vq2_xhy_fdc .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
@@ -34,7 +34,7 @@ To prepare to perform the instructions of this activity, do the following:
 
 **Attention:** For training purposes, a few errors were intentionally made in the `SweetLifeVendorsList.xlsx` file so that you can gain experience correcting data.
 
-## Step 1: Importing Vendors { .section}
+## Step 1: Importing Vendors
 
 To import vendors into the system, do the following:
 
@@ -63,12 +63,11 @@ To import vendors into the system, do the following:
 
 10. On the Vendors \(AP3030PL\) list of records, review the list of the uploaded vendor records. Make sure that the table footer indicates that 22 vendor records are available in the table, which means that all vendors have been imported successfully. The vendors have been imported with their IDs from the legacy system \(as shown in the following screenshot\).
 
-    ![](Images/activity_DataMigration_Import_Master_Records_Vendors.png "The imported vendors")
 
     **Attention:** The vendors' balances have not yet been initialized in the system. The first vendor document that you create or import into the system for each vendor initializes the vendor balance, and after that, the vendor appears on inquiries and in reports.
 
 
-## Step 2: Importing Customers { .section}
+## Step 2: Importing Customers
 
 To import customers into the system, do the following:
 
@@ -79,12 +78,11 @@ To import customers into the system, do the following:
 5.  On the form toolbar, click **Import** to import the customer records from the table on the **Prepared Data** tab into the system. The system uploads all the records. For the imported rows, on the **Prepared Data** tab, the system selects the check box in the **Processed** column.
 6.  On the Customers \(AR3030PL\) list of records, review the list of uploaded customer records. Make sure that the table footer indicates that 22 customer records are available in the table, which means that all customers have been imported successfully. The customer have been imported with their IDs from the legacy system \(as shown in the following screenshot\).
 
-    ![](Images/activity_DataMigration_Import_Master_Records_Customers.png "The imported customers")
 
     **Attention:** The customers' balances have not yet been initialized in the system. The first customer document that you create or import into the system for each customer initializes the customer balance, and after that, the customer appears on inquiries and in reports.
 
 
-## Step 3: Importing Non-Stock Items { .section}
+## Step 3: Importing Non-Stock Items
 
 To import non-stock items into the system, do the following:
 
@@ -95,7 +93,6 @@ To import non-stock items into the system, do the following:
 5.  On the form toolbar, click **Import** to import the non-stock item records from the table on the **Prepared Data** tab into the system. The system will upload all the records. For the imported rows, on the **Prepared Data** tab, the system selects the check box in the **Processed** column.
 6.  On the Non-Stock Items \(IN2020PL\) list of records, review the list of uploaded non-stock item records and make sure that all items have been imported. Make sure that the table footer shows that 29 records are available in the table, which means that all non-stock items have been imported successfully. The non-stock items have been imported with their IDs from the legacy system \(as shown in the following screenshot\).
 
-    ![](Images/activity_DataMigration_Import_Master_Records_NonStockItems.png "The imported non-stock items")
 
 
 You have finished importing master records.

@@ -1,14 +1,14 @@
-# Action Definition: To Define an Action for a Form {#_777fa87d-73a3-4cdd-bd6c-57c0f68519fb .task}
+# Action Definition: To Define an Action for a Form
 
 The following activity will walk you through the process of implementing an action for a form. The action will be represented by a button on the form toolbar of the form and the equivalent command on the More menu.
 
-## Story { .section}
+## Story
 
 Suppose that you are a developer working on the Repair Work Orders \(RS301000\) form in the *PhoneRepairShop* customization project. You need to create an action that gives users the ability to assign the selected repair work order to themselves and add the corresponding button to the form toolbar. You’ll define an action in the graph of the form and configure the associated button \(on the form toolbar\) and its equivalent command \(on the More menu\). The button and command will be visible only if the repair work order has the *On Hold* or *Ready for Assignment* status and available if the **Assignee** box doesn’t already contain the current user's name.
 
 When the user clicks the button or command, the contact ID associated with the current user, which is specified in the **Linked Entity** box of the [Users](../UserGuide/SM_20_10_10.md) \(SM201010\) form, will be inserted into the **Assignee** box. \(If the user has selected an assignee before clicking the button or command, it will be overridden.\) The clicking of the button or command will not affect the status of the repair work order.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you’ll perform the following steps:
 
@@ -16,11 +16,11 @@ In this activity, you’ll perform the following steps:
 2.  Configuring the availability and visibility of the **Assign to Me** button and the corresponding command on the More menu
 3.  Testing the **Assign to Me** button and the associated action
 
-## System Preparation { .section}
+## System Preparation
 
 Make sure that you’ve configured your instance by performing the [Test Instance for Customization: To Deploy an Instance with Custom Maintenance and Data Entry Forms](CodeCustomization_PrepareInstance_Activity_DeployInstanceT230.md) prerequisite activity.
 
-## Step 1: Implementing the AssignToMe Action { .section}
+## Step 1: Implementing the AssignToMe Action
 
 In this step, you’ll implement the `AssignToMe` action. The associated button will be placed on the form toolbar and the equivalent command on the More menu \(under the default **Other** category\).
 
@@ -31,7 +31,7 @@ To implement the `AssignToMe` action, do the following:
 1.  In Visual Studio, open the `RSSVWorkOrderEntry.cs` file.
 2.  After the `Graph constructor` region of the `RSSVWorkOrderEntry` class, insert the following code.
 
-    ```language-csharp
+    ```csharp
             #region Actions
             public PXAction<RSSVWorkOrder> AssignToMe = null!;
             [PXButton]
@@ -57,7 +57,7 @@ To implement the `AssignToMe` action, do the following:
 
 3.  Save your changes.
 
-## Step 2: Specifying the Availability and Visibility of the Assign to Me Button and Command \(with RowSelected\) { .section}
+## Step 2: Specifying the Availability and Visibility of the Assign to Me Button and Command \(with RowSelected\)
 
 The **Assign to Me** button on the form toolbar \(and the equivalent command on the More menu\) should be:
 
@@ -69,7 +69,7 @@ To satisfy these conditions, you should specify the `Enabled` and Visible proper
 1.  In Visual Studio, open the `RSSVWorkOrderEntry.cs` file.
 2.  Add the handler for the RowSelected event for the `RSSVWorkOrder` DAC, as shown in the following code.
 
-    ```language-csharp
+    ```csharp
             // Manage visibility and availability of the actions.
             protected virtual void _(Events.RowSelected<RSSVWorkOrder> e)
             {
@@ -80,7 +80,7 @@ To satisfy these conditions, you should specify the `Enabled` and Visible proper
 
 3.  In the `_(Events.RowSelected<RSSVWorkOrder> e)` event handler, add the following code to the end of the method.
 
-    ```language-csharp
+    ```csharp
                 AssignToMe.SetEnabled((row.Status ==
                     WorkOrderStatusConstants.ReadyForAssignment ||
                     row.Status == WorkOrderStatusConstants.OnHold) &&
@@ -91,14 +91,14 @@ To satisfy these conditions, you should specify the `Enabled` and Visible proper
 
 4.  In the `_(Events.RowSelected<RSSVWorkOrder> e)` event handler, add the following code to the end of the method.
 
-    ```language-csharp
+    ```csharp
                 AssignToMe.SetVisible(row.Assignee != PXAccess.GetContactID());
     ```
 
 5.  Save your changes.
 6.  Rebuild the project.
 
-## Step 3: Testing the Assign to Me Button and the Associated Action { .section}
+## Step 3: Testing the Assign to Me Button and the Associated Action
 
 To test the `AssignToMe` action and the **Assign to Me** button, do the following:
 
@@ -114,13 +114,11 @@ To test the `AssignToMe` action and the **Assign to Me** button, do the followin
 
     Notice that the **Assign to Me** button is displayed on the form toolbar, as shown below.
 
-    ![](Images/Test_OnHold_T230Revamp_ModernUI.png "The Assign to Me button on the Repair Work Orders form")
 
 4.  On the form toolbar, click the **Assign to Me** button.
 
     In the **Assignee** box, notice that the employee name associated with the current user is now specified; the employee name associated with the user was copied from the **Linked Entity** box of the [Users](../UserGuide/SM_20_10_10.md) \(SM201010\) form. Also, notice that the **Assign to Me** button is no longer displayed on the form toolbar.
 
-    ![](Images/Test_AssignedToMe_T230Revamp_ModernUI.png "The employee name in the Assignee box")
 
 
 **Parent topic:**[Defining Actions](../StudioDeveloperGuide/CodeCustomization_ActionsDefinition_Mapref.md)

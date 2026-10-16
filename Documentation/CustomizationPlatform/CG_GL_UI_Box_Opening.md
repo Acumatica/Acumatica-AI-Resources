@@ -1,4 +1,4 @@
-# To Select a Box in the Screen Editor {#_22137420-2907-4dd8-8771-6c3a660b33d5 .concept}
+# To Select a Box in the Screen Editor
 
 To start the customization of a box, you have to select it in the [Screen Editor](../UserGuide/AU_20_45_20.md). To do this, perform the following actions:
 

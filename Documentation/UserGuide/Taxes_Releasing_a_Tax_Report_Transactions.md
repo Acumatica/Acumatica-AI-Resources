@@ -1,4 +1,4 @@
-# Release of Sales Tax Report: Generated Transactions {#_af23bf4b-3ad5-41eb-9e6e-338a74b7e0e1 .concept}
+# Release of Sales Tax Report: Generated Transactions
 
 On release of the tax report, the system releases an AP bill for the tax agency and creates the following GL transaction.
 

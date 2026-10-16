@@ -1,8 +1,8 @@
-# Sales Tax Calculation {#_7c4ada00-6f16-4dab-ac4c-f1573414b9b8 .concept}
+# Sales Tax Calculation
 
 In Acumatica ERP, you can set up sales tax calculation for accounts receivable documents, sales orders, and pro forma invoices by using the Avalara AvaTax service. This topic provides an overview of the supported document types, key configuration steps, and important details related to the tax calculation process.
 
-## Configuration of Sales Tax Calculations {#section_nwr_npn_rcc .section}
+## Configuration of Sales Tax Calculations
 
 Sales tax calculation can be performed by the Avalara AvaTax service for the following documents in Acumatica ERP:
 
@@ -23,7 +23,7 @@ To initiate the tax calculation process for a document in Acumatica ERP, the fol
 
 When you save a document and remove it from hold in Acumatica ERP, the system sends an API request to the Avalara AvaTax service. The AvaTax service responds with the applicable tax information, including tax IDs, tax rates, tax amounts, and taxable amounts. This information is added to the **Taxes** tab of the document form. The total tax amount is shown in the Summary area of the document. The system also adds the applied taxes to the [Taxes](TX_20_50_00.md) \(TX205000\) form.
 
-## Tax Calculation Approaches {#section_o5b_lpn_rcc .section}
+## Tax Calculation Approaches
 
 In Acumatica ERP, the calculation of taxes can be performed for one document individually or for multiple documents at the same time as described below:
 
@@ -32,7 +32,7 @@ In Acumatica ERP, the calculation of taxes can be performed for one document ind
 
 **Attention:** Taxes are calculated on sales orders on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form only for informational purposes. Only taxes on invoices are actually reported.
 
-## Address Verification for the Sales Tax Calculation {#section_drd_k3f_scc .section}
+## Address Verification for the Sales Tax Calculation
 
 For sales tax calculation, Acumatica ERP sends the document and address information to Avalara, including the sender's address \(the `shipFrom` parameter in the API request\) and the recipient's address \(the `shipTo` parameter in the API request\). The system determines these addresses as follows:
 
@@ -59,17 +59,17 @@ For sales tax calculation, Acumatica ERP sends the document and address informat
 
 If you need the system to use different logic in retrieving the `shipTo` value for sales tax calculation in documents, you can override the appropriate method through customization of Acumatica ERP.
 
-## Line-Level Tax Calculation in AR Invoices {#section_arv_jtr_rcc .section}
+## Line-Level Tax Calculation in AR Invoices
 
 An accounts receivable invoice is paid by line when the **Pay by Line** check box is selected in the Summary area of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. In this case, the taxes calculated by the Avalara AvaTax service are distributed across the line items on release of the document and shown in the **Tax Amount** column on the **Details** tab of the form. The tax amounts are included in the balance of each line item and shown in the **Balance** column on the **Details** tab.
 
 This functionality is available only if the *Payment Application by Line* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Modification of Committed Invoices {#section_uzy_kq3_scc .section}
+## Modification of Committed Invoices
 
 Once an invoice has been saved in Acumatica ERP, with taxes calculated by the Avalara AvaTax service and the invoice committed in Avalara, no further changes can be made to that invoice. Invoices with the *Committed* status in the Avalara account cannot be updated in Acumatica ERP. Any changes that would trigger a tax recalculation, such as modifications to the date, address, or amount, cannot be saved, and as a result, the invoice cannot be released.
 
-## Incomplete Invoice Processing {#section_tlm_1d2_tcc .section}
+## Incomplete Invoice Processing
 
 If any errors occur during tax calculation on the [Invoices](SO_30_30_00.md) \(SO303000\) form and either of the following conditions are met, the invoice is assigned the *Incomplete* status:
 
@@ -82,5 +82,5 @@ To process an *Incomplete* invoice, on the [Invoices](SO_30_30_00.md) form, you 
 
 You can also process multiple incomplete invoices on the [Process Invoices and Memos](SO_50_50_00.md) \(SO505000\) form. In the **Action** box of the Selection area, you select *Complete Processing*, which causes all invoices with the *Incomplete* status to be listed in the table. You then initiate processing.
 
-**Parent topic:**[Integrating Acumatica ERP with Avalara Avatax](../UserGuide/config_Avalara_Integration_Mapref.md)
+**Parent topic:**[Integrating Acumatica ERP with Avalara AvaTax](../UserGuide/config_Avalara_Integration_Mapref.md)
 

@@ -1,4 +1,4 @@
-# Cycle Counting Configuration {#_4e964fef-0663-4e04-a270-4cc232607276 .concept}
+# Cycle Counting Configuration
 
 Any retail business must periodically perform full inventory counts. To minimize the planned closings of the business that are required for full inventory counts, you can use a combination of full physical inventory counting and cycle counting.
 
@@ -10,7 +10,7 @@ We recommend that you set up physical inventory counts by cycles during the init
 
 In this topic, you will read about the configuration of physical inventory counting by cycle.
 
-## Configuration of Cycle Counting { .section}
+## Configuration of Cycle Counting
 
 The configuration of cycle counting includes the following stages:
 

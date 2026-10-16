@@ -1,10 +1,10 @@
-# Returns for Replacement at the Same Price: General Information {#_7debbe6b-07d8-4161-905c-bcc9fbb8f7bf .concept}
+# Returns for Replacement at the Same Price: General Information
 
 Acumatica ERP provides support for the most common types of return processes, which gives you the flexibility to manage various types of customer returns according to the return policies of your company.
 
 Returns for replacement at the same price are one type of returns. These returns are processed in the system as return orders of the *RR* \(*Return with Replacement*\) order type. With this type, a customer returns an item and requests that the item be replaced with the same or another item at exactly the same price, so that you do not need to process an invoice or a credit memo. Return orders of the *RR* type may involve the exact replacement of a single item or multiple items.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -13,11 +13,11 @@ In this chapter, you will do the following:
 -   Create a shipment of the replacement items to the customer
 -   Update inventory to reflect the replacement of the returned items
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 You create a return for replacement at the same price \(that is, an order with the *RR* predefined order type\) to perform a customer return in which the customer receives an exact replacement of a particular item or specific items. The exact replacement is the replacement of the same items at the same price. The customer returns the rejected goods, the goods are returned to inventory, and the customer receives a replacement for the rejected goods. Since the items are replaced at exactly the same price, you do not need to process any AR documents.
 
-## Processing of Returned Items for Replacement { .section}
+## Processing of Returned Items for Replacement
 
 The standard process of return for replacement at the same price typically includes the following steps:
 
@@ -39,11 +39,10 @@ You can update the inventory for each shipment separately by opening the shipmen
 
 Sales invoices are not generated for an *RR* order because the returned item is replaced with another item at the same price.
 
-## Workflow of a Return for Replacement at the Same Price { .section}
+## Workflow of a Return for Replacement at the Same Price
 
 The processing of a return for replacement at the same price involves the actions and generated documents shown in the following diagram.
 
-![](Images/diag_Return_for_Exact_Replacement.png)
 
 **Parent topic:**[Processing Customer Returns for Replacement at the Same Price](../UserGuide/OrderMgmt_Return_for_Replacement_Same_Price_Mapref.md)
 

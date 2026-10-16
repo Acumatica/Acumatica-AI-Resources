@@ -1,14 +1,14 @@
-# Employee Time Entry: Time Card Approval {#_3ac37a51-4149-460a-a1bd-76c9e453ca7f .concept}
+# Employee Time Entry: Time Card Approval
 
 Depending on your company’s policy, time cards may require approval by authorized employees before being released. The time card approval functionality is available if the *Approval Workflow* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Assignment for Approval { .section}
+## Assignment for Approval
 
 The system assigns a time card for approval once an employee enters it on the [Employee Time Cards](EP_30_50_00.md) \(EP305000\) form and clicks **Submit** on the form toolbar.
 
 The system automatically assigns time cards for approval based on the approval map created on the [Approval Maps](EP_20_50_15.md) \(EP205015\) form. This approval map must be specified in the **Time Card Approval Map** box on the [Time and Expenses Preferences](EP_10_10_00.md) \(EP101000\) form. If no approval map is specified or if a time card does not meet any conditions specified in the approval map, the time card is automatically approved.
 
-## Approval of Time Cards { .section}
+## Approval of Time Cards
 
 You can approve or reject a time card on the [Employee Time Cards](EP_30_50_00.md) \(EP305000\) form by clicking **Approve** or **Reject** on the form toolbar if the time card meets one of the following conditions:
 

@@ -1,8 +1,8 @@
-# Customer Visibility: Implementation Checklist {#_37d454d8-1494-4edd-b41d-23ede71e2046 .concept}
+# Customer Visibility: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for restricting the visibility of customer records, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you initially restrict visibility of customer records, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -18,7 +18,7 @@ We recommend that before you initially restrict visibility of customer records, 
 |[Companies](../UserGuide/CS_10_15_00.md) \(CS101500\)|Make sure that for each company to which the visibility of any customers should be limited, the appropriate role associated with the company is specified in the **Access Role** box \(**Configuration Settings** section\) on the **Company Details** tab.|
 |[Users](../UserGuide/SM_20_10_10.md) \(SM201010\) or [User Roles](../UserGuide/SM_20_10_05.md) \(SM201005\)|Make sure that the needed users have been assigned to the roles specified for branches and companies. For details, see [User Roles: General Information](../UserGuide/User_Roles_GeneralInfo.md).|
 
-## Validation of Configuration { .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you perform instructions similar to those described in [Customer Visibility: To Restrict Visibility to a Company](Finance_Restricting_Customer_Visibility_Implem_Activity.md) and [Customer Visibility: To Restrict Visibility to a New Company](Finance_Restricting_Customer_Visibility_Implem_Activity2.md).
 

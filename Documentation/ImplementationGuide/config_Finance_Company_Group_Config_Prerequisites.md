@@ -1,12 +1,12 @@
-# Company Groups: Configuration Prerequisites {#_877d2b76-e5e9-4994-a20a-1945fac81b69 .concept}
+# Company Groups: Configuration Prerequisites
 
 Before starting to create a company group, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, the *Multibranch Support*, *Multicompany Support*, *Multicurrency Accounting*, and *Customer and Vendor Visibility Restriction* features must be enabled.
 
-## Configuring the System { .section}
+## Configuring the System
 
 You need to make sure the following tasks have been performed in Acumatica ERP before you begin to create a company group:
 

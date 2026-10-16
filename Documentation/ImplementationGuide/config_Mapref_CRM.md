@@ -1,4 +1,4 @@
-# Implementing Customer Relationship Management {#_59d8b6a4-fc87-44e8-a3a6-d971eef04255 .concept}
+# Implementing Customer Relationship Management
 
 This part of the guide describes the minimum required configuration of customer relationship management functionality in Acumatica ERP.
 

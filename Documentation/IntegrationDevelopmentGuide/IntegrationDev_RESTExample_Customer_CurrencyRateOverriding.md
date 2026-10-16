@@ -1,8 +1,8 @@
-# Enable Currency Overriding and Rate Overriding for a Customer {#_34a79e12-3f6d-45a6-936b-654d806af487 .concept}
+# Enable Currency Overriding and Rate Overriding for a Customer
 
 By using the REST API, you can enable currency overriding and rate overriding for a customer.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to do the following to configure your client application and the Acumatica ERP instance to be used:
 
@@ -34,14 +34,14 @@ Before you test the code below, you need to do the following to configure your c
         Save your changes.
 
 
-## Request { .section}
+## Request
 
 You can use the following request example to update the *FRUITICO* customer through the contract-based REST API. Through the executing of this request, currency overriding and rate overriding are enabled and the *SPOT* currency rate type is specified for the customer.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-PUT /entity/Default/25.200.001/Customer HTTP/1.1
+PUT /entity/Default/26.200.001/Customer HTTP/1.1
 Host: [<Acumatica ERP instance URL>]
 Accept: application/json
 Content-Type: application/json

@@ -1,4 +1,4 @@
-# Tax Periods: General Information {#_fdc10086-8449-47cc-b7fc-b0162d71501d .concept}
+# Tax Periods: General Information
 
 Each company within one tenant of Acumatica ERP may have a certain level of autonomy or can be a separate legal entity. Companies may have different durations of tax periods and even different durations of tax years. Thus, sometimes for a particular company, you may need to do one of the following:
 
@@ -8,19 +8,19 @@ Each company within one tenant of Acumatica ERP may have a certain level of auto
 
 In Acumatica ERP, you can configure a tax year for each company and tax agency combination individually, specify the particular tax period type, and set up a short tax year. Each company can prepare, void, and release its own tax reports and close the company's own tax periods separately from one another.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 From reading the topics in this chapter and completing the implementation activity, you will learn how to configure tax periods for a particular combination of company and tax agency.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure tax years and tax periods for a particular company if you want this company to have the settings of tax periods different from those specified as the default ones for the tax agency.
 
-## Specifying the Default Tax Period Type { .section}
+## Specifying the Default Tax Period Type
 
 The default tax period type is specified for each tax agency in the **Default Tax Period Type** box on the **Tax Agency** tab of the [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\) form. The system uses this tax period by default for each newly added company and branch. You can override this setting for a particular tax agency and company by using the [Tax Periods](../UserGuide/TX_20_70_00.md) \(TX207000\) form.
 
-## Setting Up Tax Periods { .section}
+## Setting Up Tax Periods
 
 On the [Tax Periods](../UserGuide/TX_20_70_00.md) \(TX207000\) form, you can set up tax periods for the selected company and tax agency. The duration of these tax periods may differ from the default tax period type specified for a tax agency on the [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\) form.
 
@@ -32,11 +32,11 @@ To set up tax periods for a particular company, in the **Company** and **Tax Age
 
 For details, see [Tax Periods: Implementation Activity](TaxPeriods_Implem_Activity.md).
 
-## Viewing Tax Periods { .section}
+## Viewing Tax Periods
 
 On the [Tax Periods](../UserGuide/TX_20_70_00.md) \(TX207000\) form, you can select the needed company, tax agency, and tax year in the Summary area. Once you do, the system displays the list of tax periods in the table so that you can review tax periods and their statuses for the current tax year and or a past tax year. In the table, you can also view the net tax amounts for the closed tax periods.
 
-## Shortening a Tax Year { .section}
+## Shortening a Tax Year
 
 In Acumatica ERP, you can configure a short tax year—a tax year of a duration that is less than 12 months. On the [Tax Periods](../UserGuide/TX_20_70_00.md) \(TX207000\) form, once you select the required combination of the company and tax agency, you select a needed tax year in the **Tax Year** box, and, next to this box, you select the **Short Tax Year** check box. Once you do, the **Add Period** and **Delete Period** buttons become available on the table toolbar so that you can delete and add periods as needed. You save this modified tax year configuration by clicking **Save** on the form toolbar.
 

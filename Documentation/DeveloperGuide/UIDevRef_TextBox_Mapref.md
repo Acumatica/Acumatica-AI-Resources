@@ -1,4 +1,4 @@
-# Text Box {#_7c414b40-99df-4a2c-9c02-cc3540029f06 .concept}
+# Text Box
 
 In this chapter, you will learn about how to configure text boxes and when to use them.
 

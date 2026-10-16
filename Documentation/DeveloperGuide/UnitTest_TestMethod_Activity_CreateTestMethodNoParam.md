@@ -1,16 +1,16 @@
-# Test Method:To Create a Test Method Without Parameters {#_100468bb-630f-4ed6-86ef-e3791dadb3cd .task}
+# Test Method:To Create a Test Method Without Parameters
 
 The following activity will walk you through the process of creating a test method without parameters.
 
-## Story { .section}
+## Story
 
 Suppose that you want to make sure that the following behavior of the Repair Services \(RS201000\) custom form has not changed: The selection of the **Walk-In Service** check box and the selection of the **Requires Preliminary Check** check box are mutually exclusive. You need to create a test method that changes the state of one check box and checks the state of the other check box.
 
-## Process Overview { .section}
+## Process Overview
 
 To create the test method, you will create a `public void` method and assign it the `[Fact]` attribute. In the method, you will create an instance of the tested graph. In the cache of the graph, you will create a record. In this record, you will change the values of the fields that indicate the states of the check boxes, update the cache of the graph, and check that the values of dependent fields have been changed according to the tested logic of the graph.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin creating the test method, make sure that you have performed the following prerequisite activities:
 
@@ -18,13 +18,13 @@ Before you begin creating the test method, make sure that you have performed the
 2.  [Test Project and Test Class: To Create a Test Project](UnitTest_TestProject_Activity_CreateProject.md), to create and configure the `PhoneRepairShop_Code.Tests.csproj` test project
 3.  [Test Project and Test Class: To Create a Test Class](UnitTest_TestProject_Activity_CreateClass.md), to create the `RSSVRepairServiceMaintTests` test class
 
-## Step: Creating a Test Method Without Parameters { .section}
+## Step: Creating a Test Method Without Parameters
 
 To create a method for checking the states of the check boxes of the Repair Services \(RS201000\) form, do the following:
 
 1.  In the `RSSVRepairServiceMaintTests` class, use the following code to create a public void method and name it *PreliminaryCheckAndWalkInServiceFlags\_AreOpposite*.
 
-    ```language-csharp
+    ```csharp
             public void PreliminaryCheckAndWalkInServiceFlags_AreOpposite()
             {
             }
@@ -32,20 +32,20 @@ To create a method for checking the states of the check boxes of the Repair Serv
 
 2.  By using the following code, assign the `[Fact]` attribute to the method to specify that this unit test is called without parameters.
 
-    ```language-csharp
+    ```csharp
             [Fact]
             public void PreliminaryCheckAndWalkInServiceFlags_AreOpposite()
     ```
 
 3.  In the `PreliminaryCheckAndWalkInServiceFlags_AreOpposite` method, create an instance of the `RSSVRepairServiceMaint` graph as follows.
 
-    ```language-csharp
+    ```csharp
                 var graph = PXGraph.CreateInstance<RSSVRepairServiceMaint>();
     ```
 
 4.  Now that the `RSSVRepairServiceMaint` graph is initialized, use the following code to create an `RSSVRepairService` object that represents a record in the table of the Repair Services form.
 
-    ```language-csharp
+    ```csharp
                 var repairService =
                     graph.Caches[typeof(RSSVRepairService)].
                     Insert(new RSSVRepairService
@@ -61,7 +61,7 @@ To create a method for checking the states of the check boxes of the Repair Serv
 
 5.  After a record is created, determine whether a change of the **Walk-In Service** check box state leads to a change of the **Requires Preliminary Check** check box state. Also, determine whether a change of the **Requires Preliminary Check** check box state leads to a change of the **Walk-In Service** check box. Perform this checking by adding the following code.
 
-    ```language-csharp
+    ```csharp
                 if (repairService != null) 
                 { 
                     repairService.WalkInService = false;

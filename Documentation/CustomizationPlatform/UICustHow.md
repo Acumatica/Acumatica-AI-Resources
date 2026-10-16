@@ -1,4 +1,4 @@
-# Examples of User Interface Customization {#_a8a5babc-281d-4ead-b70b-a1aa0a7d3bf3 .concept}
+# Examples of User Interface Customization
 
 *UI customization* includes changing the look and behavior of forms, tweaking form design, and manually editing the .aspx code. UI customization is always related to the .aspx code of the corresponding forms and represents *aspx changesets* that are added to the existing .aspx code.
 

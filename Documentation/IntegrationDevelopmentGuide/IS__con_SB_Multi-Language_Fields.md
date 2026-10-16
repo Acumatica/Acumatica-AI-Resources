@@ -1,8 +1,8 @@
-# Commands for Working with Multilingual Fields {#_0b80c59b-6b67-4193-92fb-c6f96e415e57 .concept}
+# Commands for Working with Multilingual Fields
 
 For some text boxes on Acumatica ERP forms, users can type values in multiple languages if multiple locales are configured in Acumatica ERP. For example, if your Acumatica ERP instance has the English and French locales activated and multilingual user input configured, you can specify the value of the **Description** box on the [Stock Items](../Shared/../UserGuide/IN_20_25_00.md#) \(IN202500\) form in English or French.
 
-## Specifying Localized Values of a Multilingual Field { .section}
+## Specifying Localized Values of a Multilingual Field
 
 When you need to specify localized values of a text box by using the screen-based SOAP API, you specify the value of the field that corresponds to the box as a string in JSON format with the localized values. In this string, you use the two-letter ISO code of the language with which the value should be associated.
 
@@ -21,7 +21,7 @@ new Value
 
 If you specify the value of a multilingual field as plain text, this text is saved as the value of the corresponding box in the current language of Acumatica ERP \(that is, either the default language of the instance or the language that you have specified by using the SetLocaleName\(\) method\). For details on how to specify the locale through the screen-based SOAP API, see [SetLocaleName\(\) Method](IS__con_SB_SetLocaleName.md#).
 
-## Retrieving Localized Values of a Multilingual Field { .section}
+## Retrieving Localized Values of a Multilingual Field
 
 If you need to retrieve localized values of a text box that supports multiple input languages, you retrieve the value of an internal field that contains all localized values of the text box and has the *Translations* suffix in its field name.
 

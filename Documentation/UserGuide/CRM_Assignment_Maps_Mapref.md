@@ -1,4 +1,4 @@
-# Configuring Assignment Maps {#_31f22879-2521-49da-8e57-b9948d00f2a8 .concept}
+# Configuring Assignment Maps
 
 In this chapter, you will find information about the configuration of assignment maps in Acumatica ERP.
 

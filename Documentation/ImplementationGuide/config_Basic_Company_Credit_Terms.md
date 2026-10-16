@@ -1,16 +1,16 @@
-# Credit Terms: General Information {#_cd40807d-6b7b-416e-9c3f-6a8023d48f70 .concept}
+# Credit Terms: General Information
 
 The credit terms that a company offers to customers and the credit terms the company uses to pay vendors need to be defined in Acumatica ERP. When users select credit terms in a document, the credit terms provide automatic calculation of the due date and the end date of the cash discount period, as well as the cash discount amount in the document. You can define credit terms for payments as having a single installment or multiple installments.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to define credit terms in the system.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You define credit terms before you start operations in the system and when new credit terms need to be defined for customers and vendors.
 
-## Creation of Credit Terms { .section}
+## Creation of Credit Terms
 
 These are the general steps you need to perform to create a set of credit terms on the [Credit Terms](../UserGuide/CS_20_65_00.md) \(CS206500\) form:
 

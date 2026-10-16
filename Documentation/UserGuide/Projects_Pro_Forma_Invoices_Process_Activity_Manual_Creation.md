@@ -1,10 +1,10 @@
-# Pro Forma Invoices: To Create a Pro Forma Invoice for a Project Manually {#_a012d150-6478-4462-b04b-d28480534aa7 .task}
+# Pro Forma Invoices: To Create a Pro Forma Invoice for a Project Manually
 
 The following activity will walk you through the process of creating a manual pro forma invoice for a project.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the HM's Bakery and Cafe customer has ordered juicer installation from the SweetLife Fruits &amp; Jams company, along with employee training on operating the juicers. SweetLife's project accountant has created a project that should be completed in two stages and billed monthly. The start date of the project is 1/15/2026.
 
@@ -16,7 +16,7 @@ Further suppose that on 1/30/2026, the customer has requested a pro forma invoic
 
 Acting as the project accountant, you will enter a manual pro forma invoice and review how the project budget has been affected.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -24,18 +24,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Projects](PM_30_10_00.md) \(PM301000\) form, the *HMBAKERY9* project has been created and the *PHASE1* and *PHASE2* project tasks have been created for the project. The revenue budget of the project includes a line with the *PHASE1* task and the *INSTALL* inventory item; in the line, *40* is specified in the **Completed \(%\)** column. On the **Summary** tab \(**Billing and Allocation Settings** section\), the **Create Pro Forma Invoice on Billing** check box has been selected for the project, and the **Billing Period** is *Month*.
 -   On the [Billing Rules](PM_20_70_00.md) \(PM207000\) form, the *COMBINED* billing rule has been created; it has been assigned to both project tasks of the *HMBAKERY9* project on the [Projects](PM_30_10_00.md) form.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create a pro forma invoice for the project on the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form. You will add time and material line and progress billing lines to the pro forma invoice and release it. Finally, you will review the corresponding project on the [Projects](PM_30_10_00.md) \(PM301000\) form and review how the pro forma has affected the project budget.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded; you should sign in as a project accountant by using the *brawner* username and the *123* password.
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Creating a Project Transaction { .section}
+## Step 1: Creating a Project Transaction
 
 To enter the project transaction for the provided training, perform the following steps:
 
@@ -55,7 +55,7 @@ To enter the project transaction for the provided training, perform the followin
 5.  Save your changes.
 6.  On the form toolbar, click **Release** to release the project transactions.
 
-## Step 2: Creating a Pro Forma Invoice { .section}
+## Step 2: Creating a Pro Forma Invoice
 
 Create the pro forma invoice for the project by doing the following:
 
@@ -78,7 +78,7 @@ Create the pro forma invoice for the project by doing the following:
 8.  In the Summary area, make sure that the pro forma invoice total amount in the **Invoice Total** box is *699.50*.
 9.  On the form toolbar, click **Remove Hold**, and then click **Release** to release the pro forma invoice. The system has released the pro forma invoice and generated the corresponding AR invoice.
 
-## Step 2: Reviewing the Project Budget { .section}
+## Step 2: Reviewing the Project Budget
 
 Review how the entered and released pro forma invoice has affected the project budget by doing the following:
 
@@ -86,7 +86,6 @@ Review how the entered and released pro forma invoice has affected the project b
 2.  On the **Invoices** tab, make sure that the pro forma invoice that you have entered is now shown in the table.
 3.  On the **Revenue Budget** tab, notice that two new revenue budget line have appeared, as the following screenshot shows. Also notice that **Pending Invoice Amount Total** in the Summary area is *0*; the pending invoice amount for the 40% of completion of the revenue budget line for installation was moved to **Draft Invoice Amount** when you created and processed the manual pro forma invoice.
 
-    ![](Images/activity_Projects_Pro_Forma_Invoices_Process_Activity_Manual_Creation.png "The project budget updated by the manual pro form forma invoice")
 
 
 You have manually entered a pro forma invoice. Now you can send it to the customer for acceptance.

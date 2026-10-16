@@ -1,4 +1,4 @@
-# Project Material Management: Purchase of Materials to a Warehouse {#_32086562-e63e-41a1-bb98-3c8738cb21e4 .concept}
+# Project Material Management: Purchase of Materials to a Warehouse
 
 If the required item quantity isn't fully available in a company warehouse, you need to purchase the item. In this case, *Pending Procurement* is shown in the **Status** column for the material line on the [Project Materials](PM_30_65_00.md) \(PM306500\) form.
 

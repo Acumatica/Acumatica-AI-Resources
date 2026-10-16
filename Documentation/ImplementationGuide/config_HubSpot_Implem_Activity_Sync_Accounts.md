@@ -1,12 +1,12 @@
-# Integration with HubSpot: To Synchronize Accounts {#_fcdbb2d7-fed1-4f41-90af-ac466d3ae009 .task}
+# Integration with HubSpot: To Synchronize Accounts
 
 In this activity, you will learn how to configure the synchronization of accounts between HubSpot and Acumatica ERP.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to the necessary tenant.
 
-## Step 1: Verifying the Account Import Scenario { .section}
+## Step 1: Verifying the Account Import Scenario
 
 To verify and modify \(if necessary\) the import scenario used for accounts, do the following:
 
@@ -17,7 +17,7 @@ To verify and modify \(if necessary\) the import scenario used for accounts, do 
 5.  On the **Source Restrictions** tab, check the restrictions, and change them if necessary.
 6.  On the form toolbar, click **Save**.
 
-## Step 2: Verifying the Account Export Scenario { .section}
+## Step 2: Verifying the Account Export Scenario
 
 To verify and modify \(if necessary\) the export scenario used for accounts, do the following:
 
@@ -28,7 +28,7 @@ To verify and modify \(if necessary\) the export scenario used for accounts, do 
 5.  On the **Source Restrictions** tab, check the restrictions, and change them if necessary.
 6.  On the form toolbar, click **Save**.
 
-## Step 3: Configuring the Real-Time Synchronization Profile for Accounts { .section}
+## Step 3: Configuring the Real-Time Synchronization Profile for Accounts
 
 Configure the real-time synchronization for accounts as follows:
 
@@ -41,7 +41,7 @@ Configure the real-time synchronization for accounts as follows:
     5.  In the **Master Source** column, select the source system.
 3.  On the form toolbar, click **Save**.
 
-## Step 4: Verifying the Synchronization { .section}
+## Step 4: Verifying the Synchronization
 
 Verify the systems are correctly integrated with each other as follows:
 
@@ -52,7 +52,7 @@ Verify the systems are correctly integrated with each other as follows:
 5.  In Acumatica ERP, return to the [Business Accounts](../UserGuide/CR_30_30_00.md) form. On the table toolbar of the **HubSpot** tab, click **Sync with HubSpot**.
 6.  Verify that the value modified in HubSpot has been also modified in Acumatica ERP.
 
-## Step 5: Synchronizing Out-of-Sync Data { .section}
+## Step 5: Synchronizing Out-of-Sync Data
 
 Do the following to synchronize the data that has become out of sync:
 
@@ -64,7 +64,7 @@ Do the following to synchronize the data that has become out of sync:
     **Attention:** The process may be time-consuming if a large number of records is involved.
 
 
-## Step 6: Starting the Real-Time Synchronization Process { .section}
+## Step 6: Starting the Real-Time Synchronization Process
 
 To start the real-time synchronization, perform the following instructions:
 

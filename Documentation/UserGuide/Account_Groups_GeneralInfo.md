@@ -1,8 +1,8 @@
-# Account Groups: General Information {#_f8734904-a3f6-4cef-820b-330894038634 .concept}
+# Account Groups: General Information
 
 An account group is an entity in Acumatica ERP that you map to a subset of general ledger accounts and then specify in project-related documents. Because they are mapped to general ledger accounts, account groups facilitate transfer of the project-related financial information between the general ledger transactions and project transactions.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,14 +10,14 @@ In this chapter, you will learn how to do the following:
 -   Create an account group and map accounts to this group
 -   Review the chart of accounts and find the account group associated with a particular GL account
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may need to create an account group in the following cases:
 
 -   When you are initially configuring project accounting functionality
 -   When you are going to track a particular type of expenses or another type of project balances separately
 
-## Types of Account Groups { .section}
+## Types of Account Groups
 
 You create account groups on the [Account Groups](PM_20_10_00.md) \(PM201000\) form. An account group can belong to one of the following types: *Asset*, *Liability*, *Expense*, *Income*, or *Off-Balance*. An account group may include any number of general ledger accounts of particular types:
 
@@ -32,7 +32,7 @@ You create account groups on the [Account Groups](PM_20_10_00.md) \(PM201000\) f
     Example 2: You can create an off-balance group for recording all work hours spent by employees on the project if you want to know the total amount associated with the number of work hours spent, but you do not want to post this amount to the general ledger. In addition, you can select the **Expense** check box on the [Account Groups](PM_20_10_00.md) form to track the amounts in the off-balance account group as expenses. The system displays the transactions posted to this account group on the [Project Budget](PM_30_90_00.md) form and on the **Balances** and **Cost Budget** tabs of the [Projects](PM_30_10_00.md) form.
 
 
-## Recommendations for Creating Account Groups { .section}
+## Recommendations for Creating Account Groups
 
 Before you define account groups, you should identify the accounts that will be used in project-related transactions. We recommend that you consider the following rules and limitations as you plan the account groups you will create:
 

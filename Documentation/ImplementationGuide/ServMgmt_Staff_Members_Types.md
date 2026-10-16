@@ -1,8 +1,8 @@
-# Staff Members: Management of Staff Members' Information {#_a12abc30-de4b-4644-a5c3-15ff44f9f6e6 .concept}
+# Staff Members: Management of Staff Members' Information
 
 Acumatica ERP provides you with the ability to enter, store, and manage information about staff members. This information, which is described further in this topic, includes each staff member's skills, licenses and certifications, location, and work schedule. You can use these details to assign the most suitable staff member to perform a particular service.
 
-## Types of Staff Members { .section}
+## Types of Staff Members
 
 On the [Staff](../UserGuide/FS_20_55_00.md) \(FS205500\) form, you can view a list of staff members along with their contact information and type—*Employee* or *Vendor*.
 
@@ -17,7 +17,7 @@ On the [Staff](../UserGuide/FS_20_55_00.md) \(FS205500\) form, you can view a li
     If the vendor has already been entered in the system, you open the vendor record on the [Vendors](../UserGuide/AP_30_30_00.md) form, define the vendor as a staff member, and save your changes.
 
 
-## Work Schedules of Staff Members { .section}
+## Work Schedules of Staff Members
 
 In Acumatica ERP, you can define the times when each staff member is available to provide services. You first define a staff schedule rule on the [Staff Schedule Rules](../UserGuide/FS_20_20_01.md) \(FS202001\) form, and then generate a schedule for a specific period of time on the [Generate Staff Schedules](../UserGuide/FS_50_04_00.md) \(FS500400\) form.
 
@@ -25,7 +25,7 @@ After you generate staff schedules, you can use the calendar boards to assign st
 
 **Important:** Work schedules can be generated for staff members of the *Employee* type only.
 
-## Staff Members' Skills { .section}
+## Staff Members' Skills
 
 If the services your company offers require specific skills, you should define the relevant skills for each service and assign them to qualified staff members. Once completed, the system will suggest a list of staff members with the appropriate skills to perform the service.
 
@@ -33,7 +33,7 @@ You enter the skills on the [Skills](../UserGuide/FS_20_06_00.md) \(FS200600\) f
 
 **Important:** Skills can be assigned to staff members of the *Employee* type only.
 
-## Staff Members' Licenses {#section_qgy_yp1_2dc .section}
+## Staff Members' Licenses
 
 If the services your company offers must be performed by qualified staff members, only those with the relevant licenses can be assigned to perform the service.
 
@@ -43,7 +43,7 @@ Licenses can be assigned directly to a staff member when creating a new license 
 
 **Important:** Licenses can be assigned to staff members of the *Employee* type only.
 
-## Service Areas of Staff Members { .section}
+## Service Areas of Staff Members
 
 You can divide the region where your company offers services into multiple service areas, defined by postal codes. In this case, if a staff member can provide services only in specific service areas, you assign these service areas to this staff member on the [Service Areas](../UserGuide/FS_20_19_00.md) \(FS201900\) or [Employees](../UserGuide/EP_20_30_00.md) \(EP203000\) form. For details, see [Service Areas](ServMgmt_ServiceArea_Mapref.md).
 

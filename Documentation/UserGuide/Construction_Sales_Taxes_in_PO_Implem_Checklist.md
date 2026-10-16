@@ -1,27 +1,73 @@
-# Purchases with a Sales Tax: Implementation Checklist {#_26160492-b1e5-4036-a7c5-a6f4c34d1489 .concept}
+# Purchases with a Sales Tax: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for creating an AP bill with a sales tax applied automatically, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you initially create an AP bill with a sales tax applied automatically, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
-|Form|Criteria to Check|
-|----|-----------------|
-|[Chart of Accounts](GL_20_25_00.md#) \(GL202500\) form|The tax-related accounts have been created.|
-|[Tax Zones](TX_20_60_00.md)\(TX206000\)|All needed tax zones have been created.|
-|[Tax Categories](TX_20_55_00.md) \(TX205500\)|The needed tax categories for all goods or services \(which are represented as stock items and non-stock items in Acumatica ERP\) that your company buys have been created.|
-|[Taxes](TX_20_50_00.md) \(TX205000\)|The sales taxes that your company uses have been created. The settings for the tax include the tax rate, the tax calculation method, the tax validity period \(if any\), and other required parameters. **Note:** The **Tax Expense** account specified on the **GL Accounts** tab must be mapped to an expense account group.
+<table id="_3cb8d828-c6d5-4c44-8fe3-95eb5339c697"><thead><tr><th>
 
-|
-|[Vendors](AP_30_30_00.md) \(AP303000\)|For each tax agency to which you will submit tax reports, a vendor account with the **Vendor is Tax Agency** check box selected have been created.
+Form
+
+</th><th>
+
+Criteria to Check
+
+</th></tr></thead><tbody><tr><td>
+
+[Chart of Accounts](GL_20_25_00.md#) \(GL202500\) form
+
+</td><td>
+
+The tax-related accounts have been created.
+
+</td></tr><tr><td>
+
+[Tax Zones](TX_20_60_00.md)\(TX206000\)
+
+</td><td>
+
+All needed tax zones have been created.
+
+</td></tr><tr><td>
+
+[Tax Categories](TX_20_55_00.md) \(TX205500\)
+
+</td><td>
+
+The needed tax categories for all goods or services \(which are represented as stock items and non-stock items in Acumatica ERP\) that your company buys have been created.
+
+</td></tr><tr><td>
+
+[Taxes](TX_20_50_00.md) \(TX205000\)
+
+</td><td>
+
+The sales taxes that your company uses have been created. The settings for the tax include the tax rate, the tax calculation method, the tax validity period \(if any\), and other required parameters. **Note:** The **Tax Expense** account specified on the **GL Accounts** tab must be mapped to an expense account group.
+
+</td></tr><tr><td>
+
+[Vendors](AP_30_30_00.md) \(AP303000\)
+
+</td><td>
+
+For each tax agency to which you will submit tax reports, a vendor account with the **Vendor is Tax Agency** check box selected have been created.
 
  The needed vendors and subcontractors in the Accounts Payable subledger have been created. Depending on the geographical location of the purchase transaction, different taxes can be applied to the document. To define which taxes are applied in the location of your vendor, the appropriate tax zone to each new or existing vendor has to be assigned.
 
-|
-|[Stock Items](IN_20_25_00.md)\(IN202500\), [Non-Stock Items](IN_20_20_00.md) \(IN202000\)|To calculate tax amounts in the documents in which you specify inventory IDs, the necessary stock items \(for goods\) and non-stock items \(for services\) have been created and associated with the appropriate tax category.|
+</td></tr><tr><td>
 
-## Other Settings That Affect the Workflow { .section}
+[Stock Items](IN_20_25_00.md)\(IN202500\), [Non-Stock Items](IN_20_20_00.md) \(IN202000\)
+
+</td><td>
+
+To calculate tax amounts in the documents in which you specify inventory IDs, the necessary stock items \(for goods\) and non-stock items \(for services\) have been created and associated with the appropriate tax category.
+
+</td></tr></tbody>
+</table>
+
+## Other Settings That Affect the Workflow
 
 The following settings and entities should be specified and defined, respectively:
 

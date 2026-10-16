@@ -1,0 +1,125 @@
+{
+  "w1": {
+    "findings": [],
+    "actions": [
+      "no-change"
+    ],
+    "forbidden": [
+      "republish-now",
+      "force-indexing"
+    ],
+    "outcome": "accept"
+  },
+  "w2": {
+    "findings": [
+      "zero-help"
+    ],
+    "actions": [
+      "fix-help-mapping"
+    ],
+    "forbidden": [
+      "no-change"
+    ],
+    "outcome": "repair"
+  },
+  "w3": {
+    "findings": [
+      "wrong-help"
+    ],
+    "actions": [
+      "fix-help-mapping"
+    ],
+    "forbidden": [
+      "no-change"
+    ],
+    "outcome": "repair"
+  },
+  "w4": {
+    "findings": [
+      "reader-denied"
+    ],
+    "actions": [
+      "repair-reader-rights",
+      "witness-reader"
+    ],
+    "forbidden": [
+      "grant-admin",
+      "no-change"
+    ],
+    "outcome": "repair"
+  },
+  "w5": {
+    "findings": [
+      "republish-reversion"
+    ],
+    "actions": [
+      "reconcile-package-owner"
+    ],
+    "forbidden": [
+      "no-change"
+    ],
+    "outcome": "repair"
+  },
+  "w6": {
+    "findings": [
+      "missing-article",
+      "runtime-unavailable"
+    ],
+    "actions": [
+      "create-context-article",
+      "package-first",
+      "continue-source-work",
+      "record-runtime-gates"
+    ],
+    "forbidden": [
+      "force-editor-first",
+      "stop-all-work",
+      "require-persistence-for-navigation"
+    ],
+    "outcome": "partial"
+  },
+  "w7": {
+    "findings": [
+      "stale-content",
+      "bad-link",
+      "stale-summary",
+      "runtime-unavailable"
+    ],
+    "actions": [
+      "preserve-native-help",
+      "refresh-content",
+      "verify-href",
+      "refresh-summary",
+      "record-runtime-gates"
+    ],
+    "forbidden": [
+      "replace-native-help",
+      "stop-all-work"
+    ],
+    "outcome": "repair"
+  },
+  "w8": {
+    "findings": [],
+    "actions": [
+      "no-change"
+    ],
+    "forbidden": [
+      "republish-now",
+      "force-indexing"
+    ],
+    "outcome": "accept"
+  },
+  "w9": {
+    "findings": [],
+    "actions": [
+      "no-change"
+    ],
+    "forbidden": [
+      "require-form-mapping",
+      "require-package-republish",
+      "republish-now",
+      "force-indexing"
+    ],
+    "outcome": "accept"
+  }
+}

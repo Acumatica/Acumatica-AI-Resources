@@ -1,8 +1,8 @@
-# Instance Deployment: To Enable Features and Activate the License {#_f94d9dbb-c377-40ab-a266-27355765f4b9 .task}
+# Instance Deployment: To Enable Features and Activate the License
 
 In the following activity, you will learn how to enable features in Acumatica ERP, activate the license, and review the license information.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company has purchased an Acumatica ERP subscription in Acumatica Business Cloud. The instance has been installed by SaaS engineers.
 
@@ -10,17 +10,17 @@ As a system administrator, you have received the instance URL and the credential
 
 The company has purchased the S1 license tier with three concurrent users and five tenants. In addition to the default set of features, your company has purchased the basic functionality associated with the *Inventory and Order Management* group of features.
 
-## Process Overview { .section}
+## Process Overview
 
 To begin using the system after the installation, you will use the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form to enable the standard set of features, which gives you the ability to access the [Activate License](SM_20_15_10.md#) \(SM201510\) form.
 
 When you enable the features, you will still be in trial mode. To remove the restrictions of the trial mode, you will activate the license and enable the features that you bought in addition to the standard set.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin enabling features on an Acumatica ERP application instance, make sure that you have performed the following prerequisite activity: [Instance Deployment: To Deploy an Out-of-the-Box Instance](INST_Deploying_Instances_Deploy_Tenant_Without_Demodata_Activity.md).
 
-## Step 1: Enabling Features for the First Time { .section}
+## Step 1: Enabling Features for the First Time
 
 To enable features in Acumatica ERP for the first time, do the following:
 
@@ -34,16 +34,14 @@ To enable features in Acumatica ERP for the first time, do the following:
 
     Notice that a number of features are selected by default and the activation status is *Pending Activation*, as shown in the following screenshot.
 
-    ![](Images/activity_INST_Deployment_Instances_Initial_Status_Features.png "Activation status of initial features")
 
 3.  On the toolbar, click **Enable** to activate the selected features.
 
     The activation status of the currently selected feature set is now *Validated*, as the screenshot below shows. On the main menu, notice that new menu items \(**Time and Expenses**, **Finance**, **Banking**, **Payables**, and **Receivables**\) have appeared \(also shown in the screenshot\) that correspond to the features you have enabled. You can now click any of these menu items to go to the corresponding workspace and go to the forms within it.
 
-    ![](Images/activity_INST_Deployment_Instances_Enabled_Status_Features.png "The Validated status and the new menu items")
 
 
-## Step 2: Activating the License { .section}
+## Step 2: Activating the License
 
 To activate the license, do the following:
 
@@ -54,7 +52,6 @@ To activate the license, do the following:
     1.  On the form toolbar, click **Enter License Key**.
     2.  In the **Activate New License** dialog box, enter the `918B-A728-0569-7FC6-D058` license key, as shown below.
 
-        ![](Images/activity_INST_Deployment_Instances_Entering_License_Key.png "The license key")
 
     3.  Click **OK** at the bottom of the dialog box.
     The system contacts the licensing server and validates the license online.
@@ -64,7 +61,6 @@ To activate the license, do the following:
 2.  In the **Agree to Proceed** dialog box, which opens, click the link to read the software license agreement. If you agree to the terms, click **Agree** to proceed with activation. The dialog box closes.
 3.  In the Summary area of the form, review the status of the license \(*Valid*\), its validity period, and the number of users and tenants, as shown in the following screenshot.
 
-    ![](Images/activity_INST_Deployment_Instances_License_Status.png "The license information")
 
 4.  In the table, review the features that this license supports.
 
@@ -72,7 +68,7 @@ To activate the license, do the following:
 
 5.  On the form toolbar, click **Apply License** to activate your license, and the system will restart the instance.
 
-## Step 3: Enabling Additional Features { .section}
+## Step 3: Enabling Additional Features
 
 To enable additional features in Acumatica ERP, do the following:
 
@@ -87,18 +83,15 @@ To enable additional features in Acumatica ERP, do the following:
     The status of the currently selected feature set is now *Validated*. On the main menu, notice that new workspace menu items \(**Sales Orders**, **Purchases**, and **Inventory**\) have appeared that correspond to the feature you have enabled. You can now open the forms in these workspaces.
 
 
-## Step 4: Reviewing the License Information { .section}
+## Step 4: Reviewing the License Information
 
 To review the license information—which includes the license status and limitations, warnings about any exceeded limits, and statistics about commercial transactions and constraints—do the following:
 
 1.  Open the [License Monitoring Console](SM_60_40_00.md#) \(SM604000\) form.
-2.  On the **License** tab, which is shown in the screenshot below, review the information about your license as follows:
-
+2.  On the **License and Constraints** tab, review the information about your license as follows:
     -   In the **License Status** read-only box, verify that the license status is *Valid*, which means that the instance is licensed and has been activated.
     -   In the **License Details** section, review the instance limitations.
     -   In the **Recommended Maximums** section, notice that **Concurrent Users** is set to *3*. This means that three users can work in the system at the same time.
-    ![](Images/activity_INST_Deployment_Instances_License_Monitoring_Console.png "The License Monitoring Console form")
-
 
 **Parent topic:**[Deploying Acumatica ERP Instances](../UserGuide/INST_Deploying_Instances_Mapref.md)
 

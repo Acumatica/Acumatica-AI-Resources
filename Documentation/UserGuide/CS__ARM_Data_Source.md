@@ -1,4 +1,4 @@
-# Data Source {#_c2b2e88d-1d50-4253-a6d6-ef63673f48a7 .concept}
+# Data Source
 
 The data source defines and applies the data filtering criteria to select the data that will be used in the report. You can include the selected data in the report in the following ways:
 
@@ -9,7 +9,7 @@ The data source defines and applies the data filtering criteria to select the da
 
 Thus, you can define the data filtering criteria for a separate row, column, or unit included in the report, or for the whole report at once.
 
-## Data Filtering Criteria { .section}
+## Data Filtering Criteria
 
 Data filtering criteria specify how the data will be selected from the database. These criteria can be defined for the whole report, for a unit, or for any specific row or column in the report. Usually, the criteria defined for the rows and columns reflect the report structure: how the report data will be grouped in rows and columns.
 
@@ -21,7 +21,7 @@ Data filtering criteria specified for a report or for an individual row or colum
 -   Specific range of periods \(**Start Period** and **End Period**\): The range of periods for the data to be used in the report
 -   Type of amount: The specific amount type to be used in the ARM report \(in the whole report or in a separate row or column\), such as the beginning balance amount or ending balance amount
 
-## Specific Group of Accounts and Subaccounts { .section}
+## Specific Group of Accounts and Subaccounts
 
 To eliminate the data that is not related to a specific account and subaccount, or define the range of accounts and subaccounts to be used for data filtering criteria in the report, you should define the account and subaccount ranges.
 
@@ -31,13 +31,13 @@ If the accounts specified in the **Account Class**, **Start Account**, and **End
 
 **Tip:** You can use denominated accounts for retrieving amounts in a foreign currency.
 
-## Specific Period { .section}
+## Specific Period
 
 To define specific periods for the data to be included in the report, specify **Start Period** and **End Period** values.
 
 The data related to the periods not included in the selected range of periods will be filtered out and not included in the report.
 
-## Amount Type { .section}
+## Amount Type
 
 To define the type of amounts that should be used in the report lines \(displayed or used in calculations\), you should select the appropriate **Amount Type** option in the [Data Source Editor](CS__ref_Data_Source_Editor.md) dialog box or on the **Default Data Source Settings** section of the [Report Definitions](CS_20_60_00.md) \(CS206000\) form. The following types of amounts can be selected: *Turnover*, *Credit*, *Debit*, *Beg. Balance*, *Ending Balance*. These types of amounts can be specified for use in the whole analytical report or for a separate row or column.
 

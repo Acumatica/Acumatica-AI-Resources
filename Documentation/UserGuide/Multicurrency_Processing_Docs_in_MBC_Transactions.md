@@ -1,8 +1,8 @@
-# Documents in Different Base Currencies: Generated Transactions {#_b34fe806-4d7d-497d-9cba-e8797e2861ad .concept}
+# Documents in Different Base Currencies: Generated Transactions
 
 As you process AR and AP documents between companies with different base currencies, you create and release an AR invoice and an AP bill. To update the customer and vendor balances, the system generates the GL transactions described in the following sections.
 
-## Transaction Generated for an AR Invoice {#section_pty_3jv_vxb .section}
+## Transaction Generated for an AR Invoice
 
 When you create and release an AR invoice, the system generates the following general ledger transaction.
 
@@ -13,7 +13,7 @@ When you create and release an AR invoice, the system generates the following ge
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 
-## Transaction Generated for an AP Bill {#section_sty_3jv_vxb .section}
+## Transaction Generated for an AP Bill
 
 When you create and release an AP bill, the system generates the following general ledger transaction:
 

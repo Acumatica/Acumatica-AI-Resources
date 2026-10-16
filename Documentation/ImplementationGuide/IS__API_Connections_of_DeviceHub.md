@@ -1,16 +1,14 @@
-# DeviceHub: Licensing and API Connections of DeviceHub {#_148be3d8-92fc-431f-8572-44d1ca4e8659 .concept}
+# DeviceHub: Licensing and API Connections of DeviceHub
 
 A single DeviceHub application can create multiple API connections to the Acumatica ERP instance while performing print jobs, scan jobs, and weighing with scales. This topic provides information about the entities and settings of DeviceHub that can create API connections.
 
-## Licensing Information { .section}
+## Licensing Information
 
 The DeviceHub application does not have a separate license agreement; the available capabilities are determined by the Acumatica ERP agreement.
 
-The primary metric that governs the operation of DeviceHub is the number of API users that can connect to Acumatica ERP. Each API user corresponds to one API connection required to perform DeviceHub operations. In the Acumatica ERP instance to which DeviceHub is connected, you can view the maximum number of API users available according to your license agreement. This number is shown in the **Maximum Number of Concurrent Web Services API Requests** box on the **License** tab of the [License Monitoring Console](../UserGuide/SM_60_40_00.md) \(SM604000\) form.
+The primary metric that governs the operation of DeviceHub is the number of API sessions that can connect to Acumatica ERP. Each API session corresponds to one API connection required to perform DeviceHub operations. In the Acumatica ERP instance to which DeviceHub is connected, you can view the maximum number of API sessions available according to your license agreement on the **License and Constraints** tab of the [License Monitoring Console](../UserGuide/SM_60_40_00.md) \(SM604000\) form.
 
-
-
-## API Connections for Printers { .section}
+## API Connections for Printers
 
 The DeviceHub application creates one dedicated API connection, which is used for the following tasks:
 
@@ -27,7 +25,7 @@ When DeviceHub receives files for printing, the application creates at least one
 -   If a printer in the list of printers on the **Printers** tab has the **Use parallel processing** check box selected, the application can create additional API connections for this printer. The maximum number of these connections is determined by the value in **Max loading threads** box specified for the printer on this tab.
 -   If a printer in the list of printers on the **Printers** tab has the **Raw mode \(for use with compatible label printers\)** check box selected, the application can create an additional API connection for this printer.
 
-## API Connections for Scanners { .section}
+## API Connections for Scanners
 
 If the use of scanners is configured for DeviceHub, the application opens one API connection, which is used for the following tasks:
 
@@ -37,7 +35,7 @@ If the use of scanners is configured for DeviceHub, the application opens one AP
 -   Updating the scan jobs
 -   Signing out of the Acumatica ERP instance
 
-## API Connections for Scales { .section}
+## API Connections for Scales
 
 If the use of scales is configured for DeviceHub, the application opens one API connection, which is used for the following tasks:
 
@@ -45,7 +43,7 @@ If the use of scales is configured for DeviceHub, the application opens one API 
 -   Sending weighing results to Acumatica ERP
 -   Signing out of the Acumatica ERP instance
 
-## Calculation of API Connections: Example {#section_pmh_wz3_pvb .section}
+## Calculation of API Connections: Example
 
 Suppose that your company has the following office devices managed via DeviceHub:
 
@@ -67,7 +65,7 @@ The entities and devices as well as the settings of each device affecting the nu
 |The DeviceHub scales module for 2 scales|N/A|1|
 | | |**Total**: 10|
 
-## Tracking of API Connections {#section_l1p_pj4_pvb .section}
+## Tracking of API Connections
 
 You can track the number of active API connections created by the DeviceHub application on the [System Monitor](../UserGuide/SM_20_15_30.md) \(SM201530\) form. For more details on the use of this form, see [Monitoring System Health](../UserGuide/SA_Monitoring_System_Health_Mapref.md).
 

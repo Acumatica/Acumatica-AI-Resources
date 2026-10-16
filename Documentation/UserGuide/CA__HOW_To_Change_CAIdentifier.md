@@ -1,8 +1,8 @@
-# To Change a Cash Account Identifier {#_c475760c-9d2d-474e-9a04-c4d6b58647de .task}
+# To Change a Cash Account Identifier
 
 You can change the identifier of a particular cash account on the [Cash Accounts](CA_20_20_00.md) \(CA202000\) form.
 
-## To Change a Cash Account Identifier {#section_o51_kjv_vxb .section}
+## To Change a Cash Account Identifier
 
 1.  Open the [Cash Accounts](CA_20_20_00.md) \(CA202000\) form.
 2.  In the **Cash Account** box, select the cash account whose identifier you want to change.

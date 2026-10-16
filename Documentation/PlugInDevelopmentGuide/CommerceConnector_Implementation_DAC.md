@@ -1,12 +1,12 @@
-# Connector Implementation: DAC for the Connector's Configuration Settings {#_4be5a17f-b51e-4ee5-a808-8f6b9a216a34 .concept}
+# Connector Implementation: DAC for the Connector's Configuration Settings
 
 You need to create a DAC with the configuration settings that are used by the connector. For this DAC, you also need to add a database table and include it in the customization project.
 
-## Creation of the Database Table { .section}
+## Creation of the Database Table
 
 In the database of the instance that you are using for the development of the connector, you create a database table with the settings used by the connector. An example of the SQL script for this table is shown below.
 
-```language-sql
+```sql
 GO
 IF NOT EXISTS (SELECT * FROM SYSOBJECTS 
   WHERE NAME='BCBINDINGWOOCOMMERCE' AND XTYPE='U')
@@ -35,7 +35,7 @@ END
 
 You then add the table to the customization project, as described in [To Add a Custom Table to a Project](../CustomizationPlatform/CG_GL_Items_DBScripts_AddingCustTable.md).
 
-## Creation of the DAC { .section}
+## Creation of the DAC
 
 In the Visual Studio project of the extension library, you create the DAC that stores the connector settings, as shown in the following example.
 
@@ -44,7 +44,7 @@ In the Visual Studio project of the extension library, you create the DAC that s
 -   You can generate the DAC from the table in the database by using the Customization Project Editor \(as described in [To Create a New DAC](../CustomizationPlatform/CG_GL_BL_DAC_NewDAC.md)\) and move it to the extension library \(as described in [To Move a Code Item to the Extension Library](../CustomizationPlatform/CG_GL_Items_Code_MovingToLib.md)\). Alternatively, you can create the DAC directly in the Visual Studio project.
 -   You can see this code on [GitHub](https://github.com/Acumatica/Help-and-Training-Examples/blob/HEAD/PlugInDevelopment/Help/ImplementingConnector/WooCommerceTest/BCBindingWooCommerce.cs).
 
-```language-csharp
+```csharp
 ﻿using PX.Commerce.Core;
 using PX.Data;
 using PX.Data.ReferentialIntegrity.Attributes;

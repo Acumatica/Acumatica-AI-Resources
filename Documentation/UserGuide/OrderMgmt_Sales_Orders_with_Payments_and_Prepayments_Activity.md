@@ -1,16 +1,16 @@
-# Sales with Payments and Prepayments: To Process a Sales Order with a Payment {#_6f1ca645-2fe2-4e98-88be-205b4b84c436 .task}
+# Sales with Payments and Prepayments: To Process a Sales Order with a Payment
 
 The following activity will walk you through the processing of a sales order with a payment.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose the on January 30, 2026, the CoffeeShop customer has orders a large amount of banana and cherry jam for milkshakes. According to the credit terms of the CoffeeShop customer, a payment equal to the order amount must be made before you can ship the goods to the customer's location. The CoffeeShop company pays the required amount the same day as order has been made.
 
 Acting as the sales manager of SweetLife Fruits &amp; Jams, you need to enter and process a sales order for CoffeeShop and record the payment made by the customer.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following configuration tasks have been performed to prepare the system for this activity to be performed:
 
@@ -19,13 +19,13 @@ In the *U100* dataset, the following configuration tasks have been performed to 
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *COFFEESHOP \(FourStar Coffee &amp; Sweets Shop\)* customer has been defined.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *BANJAM96* and *CHERAM96* stock items have been defined.
 
-## Process Overview { .section}
+## Process Overview
 
 In the activity, to process a sales order with a payment, you will first create a sales order of the *SO* type on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form and add items to be sold. Then you will create a payment on the **Payments** tab of the [Sales Orders](SO_30_10_00.md) form and release it on the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form.
 
 Then you will click **Create Shipment** on the form toolbar of the [Sales Orders](SO_30_10_00.md) form. The system will create the shipment and open it on the [Shipments](SO_30_20_00.md) \(SO302000\) form. You will release the shipment and click **Prepare Invoice** on the form toolbar. The system will create a sales invoice and open it on the [Invoices](SO_30_30_00.md) \(SO303000\) form. Then you will release the invoice.
 
-## System Preparation { .section}
+## System Preparation
 
 Do the following:
 
@@ -33,7 +33,7 @@ Do the following:
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the Company and Branch Selection menu in the top pane of the Acumatica ERP screen, select the *SweetLife Store* branch.
 
-## Step 1: Entering the Sales Order { .section}
+## Step 1: Entering the Sales Order
 
 To create the sales order for the FourStar Coffee &amp; Sweets Shop, do the following:
 
@@ -58,7 +58,7 @@ To create the sales order for the FourStar Coffee &amp; Sweets Shop, do the foll
     -   **Quantity**: `15`
 8.  On the form toolbar, click **Save**.
 
-## Step 2: Creating and Releasing the Payment { .section}
+## Step 2: Creating and Releasing the Payment
 
 Now you need to record the payment made by the *COFFEESHOP* customer. To perform this task, do the following while you are still viewing the sales order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form:
 
@@ -78,7 +78,7 @@ Now you need to record the payment made by the *COFFEESHOP* customer. To perform
 
 The payment has been created and released. Now you can process the shipment.
 
-## Step 3: Creating the Shipment { .section}
+## Step 3: Creating the Shipment
 
 While you are still viewing the sales order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, process the shipment as follows:
 
@@ -87,7 +87,7 @@ While you are still viewing the sales order on the [Sales Orders](SO_30_10_00.md
 
 The system creates a shipment and opens it on the [Shipments](SO_30_20_00.md) \(SO302000\) form.
 
-## Step 4: Confirming the Shipment { .section}
+## Step 4: Confirming the Shipment
 
 To confirm the shipment you have created, do the following, while you are still viewing the shipment on the [Shipments](SO_30_20_00.md) \(SO302000\) form:
 
@@ -96,7 +96,7 @@ To confirm the shipment you have created, do the following, while you are still 
 
 The shipment is assigned the *Confirmed* status, and now you can prepare the invoice to bill the customer and increase the customer's debt in the system.
 
-## Step 5: Processing the Invoice { .section}
+## Step 5: Processing the Invoice
 
 To prepare and release the invoice related to the sales order and shipment, do the following:
 
@@ -110,7 +110,6 @@ To prepare and release the invoice related to the sales order and shipment, do t
 5.  On the **Shipments** tab, in the only row, click the link in the **Inventory Ref. Nbr.** column to view the inventory issue that was generated when you released the invoice.
 6.  On the [Issues](IN_30_20_00.md) \(IN302000\) form, which opens, review the details of the inventory issue, which is shown in the following screenshot. Make sure the issue has the *Released* status, which means that the issue has been released and the items' quantities in inventory have been decreased appropriately.
 
-    ![](Images/activity_OrderMgmt_Sales_Orders_with_Payments.png "The inventory issue generated on release of the invoice")
 
 
 The processing of the sales order with a payment is now complete.

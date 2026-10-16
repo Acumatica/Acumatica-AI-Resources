@@ -1,8 +1,8 @@
-# Diagram View: To Add New Actions and Transitions {#_84d68901-a87e-462c-905f-7c532b420571 .task}
+# Diagram View: To Add New Actions and Transitions
 
 The following activity will walk you through the process of adding new actions and transitions to the workflow on the [Workflow \(Diagram View\)](../UserGuide/AU_20_10_30_VisualEditor.md) page.
 
-## Story { .section}
+## Story
 
 Suppose that in your customization efforts on the [Opportunities](../UserGuide/CR_30_40_00.md) form, you need to incorporate a process of assigning a new opportunity before giving it the *Open* status. A user should be able to do the following:
 
@@ -12,11 +12,11 @@ Suppose that in your customization efforts on the [Opportunities](../UserGuide/C
 
 Acting as the technical specialist, you need to create the actions and specify the corresponding transitions.
 
-## Process Overview { .section}
+## Process Overview
 
 By using the [Workflow \(Diagram View\)](../UserGuide/AU_20_10_30_VisualEditor.md) page, you will add a transition from the `Assigned` state to the `Open` state, and a transition from the `Assigned` state to the `New` state. You will then add a transition from the `New` state to the `Assigned` state. By using the same page, you will also create the actions that trigger these transitions.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -27,7 +27,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  Make sure that you have learned how to add actions and transitions, as described in [Action Configuration: General Information](WorkflowUI_Actions_GeneralInfo.md) and [Conditions and Transitions: General Information](WorkflowUI_ConditionsTransitions_GeneralInfo.md).
 3.  Make sure that you have completed the [Diagram View: To Add a New State](WorkflowUI_CustomizingInheritedWorkflow_Activity_AddStates.md) activity.
 
-## Step 1: Adding a Transition from the Assigned State to the Open State { .section}
+## Step 1: Adding a Transition from the Assigned State to the Open State
 
 In the Customization Project Editor for the *Opportunities* customization project, perform the following instructions:
 
@@ -52,7 +52,7 @@ In the Customization Project Editor for the *Opportunities* customization projec
 
 8.  On the page toolbar, click **Save**.
 
-## Step 2: Adding a Transition from the Assigned State to the New State { .section}
+## Step 2: Adding a Transition from the Assigned State to the New State
 
 To add a transition from the `Assigned` state to the `New` state, while you are still working with the diagram view of the CR304000 \(Opportunities\) State Diagram: OpportunitiesAssigned page, perform the following instructions:
 
@@ -69,7 +69,7 @@ To add a transition from the `Assigned` state to the `New` state, while you are 
 
 Notice that the new transition and action have appeared in the diagram.
 
-## Step 3: Adding a Transition from the New State to the Assigned State { .section}
+## Step 3: Adding a Transition from the New State to the Assigned State
 
 To add a transition from the `New` state to the `Assigned` state, while you are still in the diagram view of the CR304000 \(Opportunities\) State Diagram: OpportunitiesAssigned page, perform the following instructions:
 

@@ -1,4 +1,4 @@
-# Recording Staff Time in Appointments {#_1bd84bcc-c8be-4a82-b76f-129e0bdc0fb2 .concept}
+# Recording Staff Time in Appointments
 
 In this chapter, you will learn how to record the time spent by a staff member in the whole appointment, and how to record the time spent by a staff member on a particular service of the appointment. You will learn the difference between the appointment staff time and the service staff time.
 
@@ -10,6 +10,4 @@ In this chapter, you will learn how to record the time spent by a staff member i
 
 -   **[Staff Time in Appointments: To Record Staff Time Spent on a Particular Service](../UserGuide/ServMgmt_Appointments_Recording_Staff_Time_on_Service_Process_Activity.md)**  
 
-
-**Parent topic:**[Service Management](../UserGuide/FS_00_00_01.md)
 

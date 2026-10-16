@@ -1,14 +1,18 @@
-# Managing Opportunities {#_946abdaa-3a0a-4949-a783-5502ac7f29bd .concept}
+# Managing Opportunities
 
 In this chapter, you will find information about the workflow of opportunity management, sales quotes, and sales orders and invoices based on opportunities.
 
 -   **[Opportunity Management: General Information](../UserGuide/CRM_Sales_Managing_Opportunities_General_Info.md)**  
+
+-   **[Opportunity Management: AI Response Priorities and AI Summaries](../UserGuide/CRM_Sales_Managing_Opportunities_AI_Priority_and_Summary.md)**  
 
 -   **[Opportunity Management: Opportunity Stages](../UserGuide/CRM_Sales_Managing_Opportunities_Stages.md)**  
 
 -   **[Opportunity Management: Products and Services in an Opportunity](../UserGuide/CRM_Sales_Managing_Opportunities_Products_Services.md)**  
 
 -   **[Opportunity Management: Sales Quotes](../UserGuide/CRM_Sales_Managing_Opportunities_Sales_Quotes.md)**  
+
+-   **[Opportunity Management: Related Items in Opportunities and Sales Quotes](../UserGuide/CRM_Sales_Managing_Opportunities_Related_Items.md)**  
 
 -   **[Opportunity Management: Currency in Opportunities and Sales Quotes](../UserGuide/CRM_Sales_Managing_Opportunities_Currency_Oppties_Sales_Quotes.md)**  
 

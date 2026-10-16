@@ -1,8 +1,8 @@
-# Scrap and Waste in Production: To Process a Production Order with No Scrap Settings {#_52acbfec-e50d-45c9-b29c-0012e211c0e7 .task}
+# Scrap and Waste in Production: To Process a Production Order with No Scrap Settings
 
 The following activity will walk you through the process of recording item production that includes scrapped items when no specific actions are required for scrapped items.
 
-## Story { .section}
+## Story
 
 Suppose that the GoodFood One Restaurant has ordered three juicers from the SweetLife Fruits &amp; Jams company. Further suppose that during juicer assembly, a shop-floor employee assembled one of the juicers but found out that it does not work. The production manager asked the employee to record this juicer as scrap. Because the customer expects to have all three juicers at the same time, the employee assembled one extra juicer because the broken juicer must be scrapped and cannot be used to fulfill the customer's order.
 
@@ -10,14 +10,14 @@ Suppose that scrap is very rare on this shop floor, so scrapped items are not tr
 
 Acting as a production manager, you will create a production order for producing three juicers and process all related transactions. In a production environment, a shop-floor employee would create a labor transaction on their own. To streamline this activity, you will enter this transaction as a production manager.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
 -   On the [Warehouses](IN_20_40_00.md) \(IN204000\) form, the *WORKHOUSE* warehouse has been defined, and its locations include *MGI* and *MTL*.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *CFJFRTSCR*, *PULPCONT1L*, *JUICECUP05L*, *MRBASE*, *FNSIEVE*, and *GRDISC01* stock items have been defined.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, to process the documents and transactions related to the production of the juicers with scrapped items and no scrap action, you will do the following:
 
@@ -28,7 +28,7 @@ In this activity, to process the documents and transactions related to the produ
 5.  On the [Close Production Orders](AM_50_60_00.md) \(AM506000\) form, close the production order.
 6.  On the [Production Order Maintenance](AM_20_15_00.md) form, review the production order balance after you have closed the order.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start performing the activity, do the following in a company with the U100 dataset preloaded:
 
@@ -36,7 +36,7 @@ Before you start performing the activity, do the following in a company with the
 2.  Launch the Acumatica ERP website, and sign in to the company. You should sign in as the production manager by using the *peters* username and the *123* password.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to today’s date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step 1: Creating the Production Order { .section}
+## Step 1: Creating the Production Order
 
 To create the production order for the three juicers, do the following:
 
@@ -56,7 +56,7 @@ To create the production order for the three juicers, do the following:
 4.  On the form toolbar, click **Save**.
 5.  On the form toolbar, click **Release Order**. The order's status is changed to *Released*.
 
-## Step 2: Issuing Materials for the Operation { .section}
+## Step 2: Issuing Materials for the Operation
 
 In this step, you will issue the materials for the assembly operation of the production order. Do the following:
 
@@ -68,7 +68,7 @@ In this step, you will issue the materials for the assembly operation of the pro
 4.  On the form toolbar, click **Release**. The system releases the material transaction and changes the status of the transaction to *Released*.
 5.  Open the [Production Order Maintenance](AM_20_15_00.md) form with the production order you created earlier in this activity, and notice that the status of the production order has changed to *In Process*.
 
-## Step 3: Recording the Labor, Produced Items, and Scrapped Items for the Operation { .section}
+## Step 3: Recording the Labor, Produced Items, and Scrapped Items for the Operation
 
 Suppose that Carlos Cruz, a worker in the work center, spent 30 minutes setting up the working environment for juicer assembly and assembled three juicers for one hour; one of the juicers does not work and must be recorded as scrap. To fulfill the production order, Carlos assembled one more juicer for 20 minutes. To record the time spent on juicer assembly, the assembled quantity of juicers, and the scrapped juicer, do the following:
 
@@ -102,7 +102,7 @@ Suppose that Carlos Cruz, a worker in the work center, spent 30 minutes setting 
     3.  Clear the **Hold** check box. The system changes the transaction's status to *Balanced*.
 7.  On the form toolbar, click **Release**. The system creates and releases a cost transaction to record the labor costs and releases the labor transaction.
 
-## Step 4: Reviewing the Production Order Balance { .section}
+## Step 4: Reviewing the Production Order Balance
 
 Now that you have recorded the completion of the assembly operation, you will review the production order balance. To do so, open the production order you created earlier in this activity on the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form.
 
@@ -127,10 +127,9 @@ On the **Totals** tab, review the production order balance \(shown in the screen
 
 -   Notice that in the **Variance** section, the **WIP Balance** box contains *364.18* \(as shown in the following screenshot\), which is the difference between the values of the **WIP Total** and **MFG to Inventory** boxes.
 
-    ![](Images/activity_MFG_Scrap1_Totals_Completed.png "The balances of the completed production order")
 
 
-## Step 5: Closing the Production Order { .section}
+## Step 5: Closing the Production Order
 
 Now you will close the production order. Do the following:
 
@@ -138,7 +137,7 @@ Now you will close the production order. Do the following:
 2.  On the form toolbar, click **Process**. In the **Processing** dialog box, which opens, review the processing details, and when the processing is completed, click **Close**.
 3.  Go to the [Production Order Maintenance](../Shared/../UserGuide/AM_20_15_00.md) form, and notice that the status of the production order has changed to *Closed*.
 
-## Step 6: Reviewing the Production Order Balance after Closing { .section}
+## Step 6: Reviewing the Production Order Balance after Closing
 
 To review the production order balance after you have closed the production order, while you are still viewing the production order you created earlier in this activity on the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form, open the **Totals** tab \(shown in the screenshot below\).
 
@@ -148,7 +147,6 @@ Notice the following:
 -   In the **Variance** section, the **WIP Balance** box contains *0.00*.
 -   In the **Actual** section, the amount of the WIP balance has been moved to the WIP Adjustment GL account and is displayed as a negative value \(*–364.18*\) in the **Adjustments** box.
 
-![](Images/activity_MFG_Scrap1_Totals_Closed.png "The balances of the closed production order")
 
 You have successfully created the production order for the assembly of three juicers, recorded the scrapped item, and processed all the transactions related to the production.
 

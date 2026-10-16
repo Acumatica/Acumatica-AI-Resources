@@ -1,8 +1,8 @@
-# Item Costs and Valuation Methods: Related Forms and Reports {#_4ae1b0e4-0dfd-4495-b81c-9d621571cde5 .concept}
+# Item Costs and Valuation Methods: Related Forms and Reports
 
 In the following sections, you can find reports and inquiry forms with information about costs of stock items.
 
-## Viewing Item Costs { .section}
+## Viewing Item Costs
 
 You can view the costs of inventory by using the following reports:
 
@@ -14,7 +14,7 @@ You can view the costs of inventory by using the following reports:
 -   [Inventory Transaction Details](IN_40_40_00.md) \(IN404000\): You use this inquiry form to view summary information about inventory transactions posted within a selected financial period. You can use selection criteria to display only specific data.
 -   [Inventory Transactions by Account](IN_40_30_00.md) \(IN403000\): You use this inquiry form to view detailed information about a selected account within a selected period, including the account balance and all related transactions.
 
-## Updating Item Costs { .section}
+## Updating Item Costs
 
 You can use the following forms for the mass-updating of the cost of items that are assigned the *Standard* valuation method:
 

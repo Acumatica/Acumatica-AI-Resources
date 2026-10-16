@@ -1,10 +1,10 @@
-# Contract Management: To Terminate a Contract {#_0b41990c-9204-4471-9f32-00895b29a479 .task}
+# Contract Management: To Terminate a Contract
 
 In this activity, you will learn how to terminate a contract.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company supplies its Unifruit LLC customer with juicers and provides deployment services for the purchased equipment. A typical regular deployment contract includes deployment, maintenance support, and consulting services. The start date of the contract is *3/1/2026*. The contract should span two months, with the possibility of renewal.
 
@@ -20,7 +20,7 @@ Acting as an accountant, you will first bill the renewed contract by the schedul
 
 Then acting as a sales manager, you will terminate the contract since *6/7/2026*.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -28,13 +28,13 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, on the **General** tab \(**Data Entry Settings** section\), the **Hold Documents on Entry** check box has been cleared.
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *UNIFRUIT \(Unifruit LLC\)* customer has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Customer Contracts](CT_30_10_00.md) \(CT301000\) form, you will first bill the deployment contract to provide consulting services until the termination date of the contract. Then on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will release the invoice issued for the services provided.
 
 On the [Customer Contracts](CT_30_10_00.md) form, you will terminate the contract, and on the [Invoices and Memos](AR_30_10_00.md) form, you will review the credit memo the system has issued after termination of the contract.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare to perform the instructions of this activity, do the following:
 
@@ -42,7 +42,7 @@ To prepare to perform the instructions of this activity, do the following:
 2.  Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as the accountant Anna Johnson by using the *johnson* username and the *123* password.
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *5/8/2026*.
 
-## Step 1: Billing the Contract {#section_ngl_qhz_js .section}
+## Step 1: Billing the Contract
 
 To bill the contract, do the following:
 
@@ -51,7 +51,7 @@ To bill the contract, do the following:
 
 Now you can proceed with the releasing the invoice.
 
-## Step 2: Releasing the Invoice {#section_hlp_33z_js .section}
+## Step 2: Releasing the Invoice
 
 Do the following to release the invoice that has been generated during billing by schedule for the consulting services:
 
@@ -61,12 +61,11 @@ Do the following to release the invoice that has been generated during billing b
 
     On the **AR History** tab, notice that the invoice now has the *Open* status. Review the contract balance \($700\), which is calculated as the sum of the balances of open invoices associated with the contract.
 
-    ![](Images/CustomerContractsARHistoryAfterReleasingInvoiceTermination.png "AR History tab after the releasing of the invoice")
 
 
 You have released the invoice that the system has generated after billing. Now you can proceed with the termination of the contract.
 
-## Step 3: Terminating the Contract {#section_ymz_kfz_js .section}
+## Step 3: Terminating the Contract
 
 To terminate the contract, do the following:
 
@@ -79,10 +78,9 @@ To terminate the contract, do the following:
 
     Notice that the balance of the contract is $700. At the moment of contract termination, if the contract has any unbilled usage or prepaid refundable items, the system generates an invoice or a credit memo, respectively. In our example, for the *0000000001 \(Unifruit - deployment of juicers\)* contract, the system has generated a credit memo in the amount of $22.58, which you can see on the **AR History** tab.
 
-    ![](Images/CustomerContractsARHistoryAfterTerminationCreditMemo.png "Credit memo on the AR History tab after termination of the contract")
 
 
-## Step 4: Releasing of the Credit Memo { .section}
+## Step 4: Releasing of the Credit Memo
 
 To release the credit memo, do the following:
 
@@ -95,7 +93,6 @@ To release the credit memo, do the following:
 
     Notice that on the **AR History** tab, the credit memo now has the *Open* status. Review the contract balance \($677.42\), which is the sum of the services rendered to the customer until the moment of the contract termination.
 
-    ![](Images/CustomerContractsARHistoryAfterTerminationReleasedCreditMemo.png "The AR History tab with the released credit memo")
 
 
 You have terminated the contract.

@@ -1,15 +1,15 @@
-# Importing Non-Card Refunds: General Information {#_2e32b974-b04c-453a-afa6-dfb08b4c3b84 .concept}
+# Importing Non-Card Refunds: General Information
 
 You can import to Acumatica ERP non-card refunds: that is, refunds issued for orders in your BigCommerce store that have been paid and refunded with non-card payment methods or with card payment methods that are mapped to an Acumatica ERP payment method for which integrated card processing is not configured.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Configure the import of refunds for non-card payment methods from a BigCommerce store to Acumatica ERP
 -   Import refunds for non-card payment methods from a BigCommerce store to Acumatica ERP
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You import refunds of payments based on a non-card payment method from BigCommerce to Acumatica ERP so that you can keep track of refunded payments and restocked items. You may issue non-card refunds in the BigCommerce store if any of the following events has occurred:
 
@@ -17,7 +17,7 @@ You import refunds of payments based on a non-card payment method from BigCommer
 -   A customer has not received the purchased item or has received an excessive quantity of the item.
 -   A customer has received the purchased item but is not satisfied with its quality or performance and wants to return it.
 
-## Configuration of the Import of Refunds { .section}
+## Configuration of the Import of Refunds
 
 To configure the import of refunds from a BigCommerce store to Acumatica ERP, you perform the following general steps:
 
@@ -55,7 +55,7 @@ To configure the import of refunds from a BigCommerce store to Acumatica ERP, yo
     On the **Payments** tab of the [BigCommerce Stores](BC_20_10_00.md) form, you select the **Process Refunds** check box for each payment method for which you want to import refunds.
 
 
-## Import of Refunds for Non-Card Payment Methods { .section}
+## Import of Refunds for Non-Card Payment Methods
 
 Refunds are imported from the BigCommerce store to Acumatica ERP as part of the synchronization of the *Refund* entity, which can be synchronized only in the *Import* direction. During the preparation of refund data for synchronization, the system creates one synchronization record for all refunds that have been issued for a single sales order in the BigCommerce store.
 

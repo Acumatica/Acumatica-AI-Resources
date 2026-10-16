@@ -1,21 +1,21 @@
-# Withholding Taxes: General Information {#_94614c47-4616-4909-b6e0-7706fa3d4585 .concept}
+# Withholding Taxes: General Information
 
 A *withholding tax* is a type of tax withheld from certain types of payments. For example, in the United States \(and some other countries\), a withholding tax is applied to the employment income and withheld from wages, and then paid to the government. In Singapore, a withholding tax is a tax applicable to non-resident individuals and companies that derive income from services provided or work done in Singapore; for example, it is withheld from such types of payments as the rent of movable property.
 
 **Attention:** In Acumatica ERP, the system calculates withholding taxes on the release of payments in accounts payable.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to configure a withholding tax.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You use withholding taxes in the following cases:
 
 -   You need to withhold a tax from certain types of payments and pay the tax to the tax authority
 -   You make a payment to a foreign vendor and need to calculate a withholding tax
 
-## Configuration of Taxes { .section}
+## Configuration of Taxes
 
 The entities that you have configured in the taxes subledger should be linked with the following entities, which you create in other Acumatica ERP subledgers:
 

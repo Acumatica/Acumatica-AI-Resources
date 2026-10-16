@@ -1,14 +1,14 @@
-# Marketing Campaigns: Process Activity {#_8539f3c5-4479-44e1-9c00-6e45c9c5c49a .task}
+# Marketing Campaigns: Process Activity
 
 The following activity demonstrates how to create a marketing campaign in the system and change the stages of the marketing campaign.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Bill Owen, a marketing manager of the SweetLife Fruits &amp; Jams company.SweetLife management has decided to launch a marketing campaign that will promote online master classes focused on teaching the audience how to use juicers that the company sells. You need to create the marketing campaign, add members, and after the campaign has finished, change the stage of the campaign to *Completed* in preparation for analyzing the campaign results.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -17,7 +17,7 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Leads](CR_30_10_00.md) \(CR301000\) form, a number of leads have been created, including *Jonas Clayton* and *Douglas Keatinge*.
 -   On the [Marketing Lists](CR_20_40_00.md) \(CR204000\) form, the *JCR20OFF* marketing list, which includes a number of leads \(*Leslie Walker*, *Leonard Hemmings*, *Paul Mitchell*, *Nicholas Langdon*, and *Jacob Murray*\), has been added to the system, as described in [Marketing Lists: To Create a Static Marketing List](CRM_Mktg_Mng_Marketing_Lists_Create_Static_Mktg_List.md).
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following on the [Marketing Campaigns](CR_20_20_00.md) \(CR202000\) form:
 
@@ -25,7 +25,7 @@ In this activity, you will do the following on the [Marketing Campaigns](CR_20_2
 2.  Add members to the marketing campaign.
 3.  Change the stage of the marketing campaign.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating a marketing campaign, you should do the following:
 
@@ -36,7 +36,7 @@ Before you start creating a marketing campaign, you should do the following:
 3.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 4.  Download the *CRMContactImport.xlsx* file, which has new contacts, to your computer.
 
-## Step 1: Creating a Marketing Campaign { .section}
+## Step 1: Creating a Marketing Campaign
 
 To create a marketing campaign, do the following:
 
@@ -56,7 +56,7 @@ To create a marketing campaign, do the following:
 
 You have created a marketing campaign. Now you can add members to this campaign.
 
-## Step 2: Adding Individual Members to the Marketing Campaign { .section}
+## Step 2: Adding Individual Members to the Marketing Campaign
 
 To add members to the marketing campaign one by one, do the following:
 
@@ -69,7 +69,7 @@ To add members to the marketing campaign one by one, do the following:
 
 You have added two individual members to the marketing campaign one by one.
 
-## Step 3: Adding Multiple Members to the Marketing Campaign by Using a Marketing List { .section}
+## Step 3: Adding Multiple Members to the Marketing Campaign by Using a Marketing List
 
 Suppose that one more marketing campaign has already been launched: SweetLife offers citrus juicers at a special price to the leads with confirmed contact information to increase sales. These leads have been added to the *Citrus Juicers at a 20% Discount* \(*JCR20OFF*\) marketing list, and you need to add these members to the marketing campaign.
 
@@ -82,11 +82,10 @@ To add multiple members to the marketing campaign from the marketing list, do th
 
 The system automatically copies the members to the list of members on the **Members** tab from the *Citrus Juicers at a 20% Discount* marketing list. Notice that for these members, the name of the source marketing list has been added to the **Marketing List ID** column of the **Members** tab, as shown in the following screenshot.
 
-![](Images/activity_CRM_Mktg_Managing_Marketing_Campaigns_Add_Users_Marketing_List.png "The addition of the members from the marketing list to the campaign")
 
 You have added members from the marketing list to the marketing campaign.
 
-## Step 4: Uploading with the Creation of New Contacts { .section}
+## Step 4: Uploading with the Creation of New Contacts
 
 Suppose that your colleague has given you a list of new contacts who might be interested in participating in the online master class. You have created an Excel file with these contacts, and now you are ready to add them to the marketing campaign. You want the system to create a new contact for each listed contact that is not already defined in the system.
 
@@ -103,7 +102,7 @@ To upload the new contacts from the file, you will use the **Load Records from F
 6.  On the **Members** tab, make sure that the new contacts have been added to the campaign.
 7.  Optional: Click the link in the **Member Name** column of one of the uploaded contacts to make sure that a new contact has been created in the system. The system opens the contact on the [Contacts](CR_30_20_00.md) \(CR302000\) form in a pop-up window.
 
-## Step 5: Changing the Stage of the Marketing Campaign { .section}
+## Step 5: Changing the Stage of the Marketing Campaign
 
 Suppose that the *Juice Master Class* campaign has been launched and then completed.
 
@@ -118,7 +117,6 @@ To change the stage of the marketing campaign, do the following:
 4.  On the form toolbar, click **Save**.
 5.  On the **Members** tab, review the list of the members of the *Juice Master Class* marketing campaign \(see the following screenshot\). Notice that the list of the members includes all members that had been added to the campaign both manually and automatically.
 
-    ![](Images/activity_CRM_Mktg_Managing_Marketing_Campaigns.png "List of members of the marketing campaign")
 
 
 You have completed the processes of creating the marketing campaign and changing the stages of the marketing campaign.

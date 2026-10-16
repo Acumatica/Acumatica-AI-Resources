@@ -1,16 +1,16 @@
-# Reset of Barcode Scan Mode: General Information {#_85ef070d-1561-4b95-8922-24f41bdfa7a4 .concept}
+# Reset of Barcode Scan Mode: General Information
 
 You need to define how each barcode scan mode is cleared.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to implement the resetting logic of the barcode scan mode.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You need to define the resetting logic for each barcode scan mode that you implement.
 
-## Resetting of the Scan Mode { .section}
+## Resetting of the Scan Mode
 
 The scan mode is reset as follows:
 

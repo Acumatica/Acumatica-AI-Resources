@@ -1,4 +1,4 @@
-# InventoryIssue {#_7a52c24d-f289-442b-919d-89652c581685 .concept}
+# InventoryIssue
 
 This chapter presents code examples showing requests that use the `InventoryIssue` entity.
 

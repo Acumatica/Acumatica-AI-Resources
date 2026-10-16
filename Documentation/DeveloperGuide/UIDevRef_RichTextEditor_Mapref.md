@@ -1,4 +1,4 @@
-# Rich Text Editor {#_79be6891-46c7-451a-9d06-6615c1d64ad7 .concept}
+# Rich Text Editor
 
 In this chapter, you will learn about the configuration of a rich text editor. You will learn when to use a rich text editor and how to organize a layout that includes a rich text editor.
 

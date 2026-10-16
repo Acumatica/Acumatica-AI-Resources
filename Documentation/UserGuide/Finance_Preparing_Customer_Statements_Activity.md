@@ -1,16 +1,16 @@
-# Customer Statements: Process Activity {#_ee3b7697-9d47-4467-a6b7-7938d136aa11 .task}
+# Customer Statements: Process Activity
 
 The following activity will walk you through the process of preparing and printing customer statements.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_g3d_hjv_vxb .section}
+## Story
 
 Suppose that at the end of each month, the accounting department of the SweetLife Fruits &amp; Jams company sends customer statements to its customers.
 
 Acting as a SweetLife accountant, at the end of January 2026 you need to prepare and print the customer statements that you will later send to customers. You need to prepare customer statements based on the end-of-month \(EOM\) cycle, view the statement history, and then print the statements.
 
-## Configuration Overview {#section_j3d_hjv_vxb .section}
+## Configuration Overview
 
 For the purposes of this activity, the following features have been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form:
 
@@ -24,11 +24,11 @@ On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *GOODFOOD \(GoodFood O
 
 On the [Customers](AR_30_30_00.md) form, for all customers that belong to the *DEFAULT* customer class, the **Print Statements** check box has been selected in the **Print and Email Settings** section on the **Billing** tab.
 
-## Process Overview {#section_o3d_hjv_vxb .section}
+## Process Overview
 
 In this activity, on the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, you will review the consolidation settings used in generation of customer statements. You will prepare statements on the [Prepare Statements](AR_50_30_00.md) \(AR503000\) form, view the generated statements on the [Statement History Summary](AR_40_40_00.md) \(AR404000\) form, view the list of the customer statements on the [Statement History Details](AR_40_43_00.md) \(AR404300\) form, and then print the statements on the [Print Statements](AR_50_35_00.md) \(AR503500\) form.
 
-## System Preparation {#section_q3d_hjv_vxb .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -38,7 +38,7 @@ To prepare the system, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/31/2026*. If a different date is displayed, click the Business Date menu button and select *1/31/2026*. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Reviewing Consolidation Settings {#section_s3d_hjv_vxb .section}
+## Step 1: Reviewing Consolidation Settings
 
 To review the consolidation settings that will be used in generating customer statements, do the following:
 
@@ -48,7 +48,7 @@ To review the consolidation settings that will be used in generating customer st
     This setting indicates that statements will be generated for each branch separately.
 
 
-## Step 2: Preparing Customer Statements {#section_v3d_hjv_vxb .section}
+## Step 2: Preparing Customer Statements
 
 To prepare customer statements, do the following:
 
@@ -60,7 +60,7 @@ To prepare customer statements, do the following:
     The system has generated statements for the customer records that have the *EOM* statement cycle specified.
 
 
-## Step 3: Viewing the Generated Statements {#section_y3d_hjv_vxb .section}
+## Step 3: Viewing the Generated Statements
 
 To view the generated customer statements, do the following:
 
@@ -73,14 +73,13 @@ To view the generated customer statements, do the following:
 4.  Click the link in the **Statement Cycle ID** box in the table row that corresponds to the *1/31/2026* date.
 5.  On the [Statement History Details](AR_40_43_00.md) \(AR404300\) form, which is opened, view the customer statements that have been generated on *1/31/2026* for the *EOM* statement cycle, as shown in the following screenshot.
 
-    ![](Images/activity_Finance_Preparing_Printing_Statements.png "Customer statements generated for January 2026")
 
 6.  Click the link for the *GOODFOOD* customer to view the list of the statements generated for the customer on the [Customer Statement History](AR_40_46_00.md) \(AR404600\) form.
 
     The cleared **Printed** check box means that this customer statement has not been printed yet.
 
 
-## Step 4: Printing the Statements {#section_cjd_hjv_vxb .section}
+## Step 4: Printing the Statements
 
 To print the customer statements, do the following:
 

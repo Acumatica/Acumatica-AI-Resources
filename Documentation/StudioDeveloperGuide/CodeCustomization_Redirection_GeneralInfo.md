@@ -1,11 +1,11 @@
-# Redirection to Webpages: General Information {#_5c4b428c-8cc5-4d4b-82ba-e89936314d48 .concept}
+# Redirection to Webpages: General Information
 
 This lesson describes two types of redirection to webpages you can implement on an Acumatica ERP form:
 
 -   Adding a simple redirection link to the grid of a form by using the PXSelector attribute.
 -   Adding a redirection link by using an action. By using this approach, you can also add conditional logic to the form so that a redirection link opens different forms, depending on whether a specified condition is met.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you’ll learn how to do the following:
 
@@ -13,7 +13,7 @@ In this chapter, you’ll learn how to do the following:
 -   Add a redirection link by implementing an action with a corresponding button on the form
 -   Redirect the user to a report at the end of a processing operation
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You add redirection to a webpage on a form when you need to give users the ability to open one of the following:
 
@@ -21,7 +21,7 @@ You add redirection to a webpage on a form when you need to give users the abili
 -   A report or a generic inquiry related to the record
 -   Any destination URL
 
-## Redirection Link from a Selector Control { .section}
+## Redirection Link from a Selector Control
 
 A redirection link from a selector control is often used for opening the data entry form on which the record was created. The user can then view the selected record and make any needed edits. You can add redirection from a selector control declaratively by doing the following:
 
@@ -29,7 +29,7 @@ A redirection link from a selector control is often used for opening the data en
 -   Adding the [PXPrimaryGraph](https://help.acumatica.com/(W(4))/Help?ScreenId=ShowWiki&pageid=842ed8f6-e659-45ef-3083-6696cf1fecaf) attribute to the DAC that corresponds to the record in the selector control
 -   Configuring the selector control as described in [Selector Control: Configuration of a Link](../DeveloperGuide/UIDevRef_Selector_Link.md)
 
-## Redirection in an Action { .section}
+## Redirection in an Action
 
 To implement redirection in an action, you need to throw one of the exceptions provided by the Acumatica Framework. Once an exception is thrown, it interrupts the current context and propagates up the call stack until it’s handled by the Acumatica Framework, which performs the redirection. \(This mechanism doesn’t affect the performance of the application.\)
 
@@ -43,13 +43,13 @@ The following exceptions are used for redirection:
 
 If you want to add a redirection link that’s implemented by using an action, you need to configure the selector control as described in the [Link Behavior](../DeveloperGuide/UIDevRef_Selector_Link.md#_8b030877-81b7-47e1-b29c-7d7735de8e2c) section of [Selector Control: Configuration of a Link](../DeveloperGuide/UIDevRef_Selector_Link.md).
 
-## Handling of Redirection Exceptions { .section}
+## Handling of Redirection Exceptions
 
 In most cases, you don’t need to implement the handling of exceptions that are used for redirection.
 
 However, in cases where certain scopes are used that need to distinguish between their own successful and failed closures in conjunction with a redirect operation, you should implement the exception handler and explicitly close all these scopes. For example, if a PXTransactionScope object is being used and redirection is being performed, you should implement the exception handler and explicitly close the scope. For a PXTransactionScope object, you should do this by calling its Complete method in the `catch` block of the exception handler. The following code example shows how this is implemented.
 
-```language-csharp
+```csharp
 using PXTransactionScope tranScope = new();
 try
 {

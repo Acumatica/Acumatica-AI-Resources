@@ -1,8 +1,8 @@
-# Lead Assignment to Owners and Workgroups: General Information {#_d0362710-497d-43b1-889e-ced853fac328 .concept}
+# Lead Assignment to Owners and Workgroups: General Information
 
 Acumatica ERP provides you with flexible tools for distributing the customer management workload among responsible individuals in the company. You can use assignment maps to indicate to the system how to assign leads to individuals or groups of people \(that is, to owners or workgroups\). This topic provides information about assigning leads to owners and workgroups one by one or through mass processing.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,7 +10,7 @@ In this chapter, you will learn how to do the following:
 -   In the settings of a lead class, specify how the system determines the default owner it assigns to new leads of the class
 -   Assign a selected group of leads to workgroups by using a lead assignment map
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to learn how to assign leads to owners and workgroups in scenarios that include the following:
 
@@ -18,7 +18,7 @@ You may want to learn how to assign leads to owners and workgroups in scenarios 
 -   You have been requested to work with a lead and need to specify yourself as an owner.
 -   You have imported to the system a new batch of leads, such as a purchased list, and need to distribute these leads among the employees of the applicable department or group, such as a marketing department.
 
-## Assignment of Leads to Owners and Workgroups in Acumatica ERP { .section}
+## Assignment of Leads to Owners and Workgroups in Acumatica ERP
 
 In Acumatica ERP, you can easily base the rules for lead assignment on company policies because leads can be distributed among owners or workgroups in many different ways, based on the settings and attributes of the lead records being distributed. You can distribute leads manually or automatically.
 
@@ -38,7 +38,7 @@ On the [Leads](CR_30_10_00.md) form, you can manually change the owner of a lead
 -   If the lead is not assigned to any workgroup, you can select a new owner in the **Owner** box from the list of all employees.
 -   If the lead is assigned to a workgroup, you can select a new owner in the **Owner** box from the list of employees included in the workgroup; alternatively, you can change the workgroup and select an owner from the newly selected workgroup.
 
-## Distribution of Leads by Using Lead Classes { .section}
+## Distribution of Leads by Using Lead Classes
 
 As noted previously, when you create or modify a lead class on the [Lead Classes](CR_20_70_00.md) \(CR207000\) form, you can specify how the system automatically assigns the owner to newly created leads of the class. You do this by selecting the appropriate option in the **Default Owner** box on the **Details** tab \(**Data Entry Settings** section\). Based on the option selected for the lead class, when a lead class is selected for a lead in the Summary area of the [Leads](CR_30_10_00.md) \(CR301000\) form, the system determines the default owner of this lead and inserts the appropriate employee name in the **Owner** box.
 
@@ -51,13 +51,13 @@ In the **Default Owner** box of the [Lead Classes](CR_20_70_00.md) form, you sel
 
 We recommend distributing leads by using lead classes because the system can assign a lead to an owner or a workgroup, if applicable, each time a new lead record is created.
 
-## The Usage of a Company Tree for Assignment {#section_clk_kjp_stb .section}
+## The Usage of a Company Tree for Assignment
 
 In Acumatica ERP, a company tree is an organizational chart that represents a hierarchical structure of a company with groups that contains a list of people and roles of people within each of the groups. The company tree is used to assign leads, cases, opportunities, business accounts, contacts, or email activities to owners when you want the system to distribute these entities between owners \(individuals\) and workgroups \(groups of people\) by using an assignment map on the [Assignment Maps](../Shared/../UserGuide/EP_20_50_10.md) \(EP205010\) form.
 
 On the [Company Tree](../Shared/../UserGuide/EP_20_40_61.md) \(EP204061\) form, you create a hierarchy of workgroups for using them in the assigning process, and you include people or groups of people in the workgroups. You can include the same people in different workgroups. When you create a new entity, such as a new lead, and select a workgroup for it, you can select as an owner only one of the people that you have included in this workgroup in the company tree. We recommend the use of a company tree to speed and streamline your assignments.
 
-## Distribution of Leads by Using Assignment Maps { .section}
+## Distribution of Leads by Using Assignment Maps
 
 You can use the assignment map functionality to distribute leads between owners automatically through the use of lead classes or manually when you mass-assign leads.
 
@@ -75,11 +75,11 @@ Once a lead assignment map has been created, you can do either of the following:
     **Attention:** The assignment map specified for the applicable lead class on the [Lead Classes](CR_20_70_00.md) \(CR207000\) form overrides the assignment map specified on the [Customer Management Preferences](CR_10_10_00.md) \(CR101000\) form if you create a new lead or change the lead class of the lead. Leads of the class will be assigned to owners according to the assignment map from the lead class.
 
 
-## Execution Issues Related to a Lead Assignment Map { .section}
+## Execution Issues Related to a Lead Assignment Map
 
 If an assignment map contains errors \(for example, a workgroup contains an employee who has quit the company and cannot be assigned to any records\), and you have processed any leads that should be assigned according to this assignment map by using the [Assign Leads](CR_50_30_10.md) \(CR503010\) form, the system will list these errors in the **Processing** dialog box. You can view the error by clicking the More button on the **Errors** tile in this dialog box. In the **Message** column, the system displays the text of the error message.
 
-## Notifications About Assigning a Lead to an Owner { .section}
+## Notifications About Assigning a Lead to an Owner
 
 In Acumatica ERP, an administrator can set up email notifications on the [Business Events](SM_30_20_50.md) \(SM302050\) form so that if you are assigned to a new lead, you receive a notification by email, by SMS, or in Acumatica mobile app. For details, see [Business Events](../CustomizationPlatform/CG_GL_Items_BusinessEvents.md).
 

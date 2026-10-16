@@ -1,25 +1,25 @@
-# Billing of Multiple Appointments: General Information {#_de1231c5-727c-416c-b110-df6125c92c44 .concept}
+# Billing of Multiple Appointments: General Information
 
 In Acumatica ERP, you can generate billing documents for multiple appointments simultaneously. You can filter the list of appointments to be processed by customer, billing cycle, or time frame.
 
 For details on and examples of the different types of billing cycles, see [Billing Cycles: Examples](../ImplementationGuide/ServMgmt_BillingCycles_Overview.md).
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to generate billing documents for multiple appointments.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You perform mass-billing of appointments when you need to generate billing documents for multiple appointments at the same time.
 
-## Documents Generated During Appointment Billing {#section_t2j_fx1_bhc .section}
+## Documents Generated During Appointment Billing
 
 When billing is performed on the [Run Appointment Billing](FS_50_01_00.md) \(FS500100\) form, the system can create sales orders, sales invoices, AR invoices, or project transactions depending on the settings of the related service order type. The billing process can be performed if all of the following conditions are met:
 
 -   The customer has at list one billing cycle assigned.
 -   For the service order type, the appropriate option is selected in the **Generated Billing Documents** box on the **General** tab of the [Service Order Types](FS_20_23_00.md) \(FS202300\) form.
 
-## Documents Generated for Negative-Balance Service Documents { .section}
+## Documents Generated for Negative-Balance Service Documents
 
 When billing is performed on the [Run Appointment Billing](FS_50_01_00.md) \(FS500100\) form, the system can create sales orders or sales invoices with the *Credit Memo* type, or AP bills, depending on the settings of the related service order type.
 
@@ -38,7 +38,7 @@ In the document created during the appointment billing, the system fills in the 
 -   If the check box is selected, the system copies the credit terms from the customer's settings.
 -   If the check box is cleared, the **Terms** box on the generated AR document remains empty.
 
-## Multiple Billing Cycles per Customer {#section_k5f_fr1_bhc .section}
+## Multiple Billing Cycles per Customer
 
 In Acumatica ERP, a customer can have one or multiple billing cycles, depending on the setting specified on the [Service Management Preferences](FS_10_01_00.md) \(FS100100\) form.
 

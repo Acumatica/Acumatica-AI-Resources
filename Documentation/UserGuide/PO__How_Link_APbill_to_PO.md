@@ -1,8 +1,8 @@
-# To Link a Bill Line to a Purchase Order Line {#_c060dc1e-7ca1-4b8d-9c1e-6e5cb3893cb3 .task}
+# To Link a Bill Line to a Purchase Order Line
 
 In Acumatica ERP, you can link the lines of an existing bill \(for example, one that has been imported from a third-party software product\) to the lines of corresponding purchase order. To link the lines of a bill to the lines of a purchase order, you use the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 
-## To Link a Line of an Accounts Payable Bill to a Line of a Purchase Order { .section}
+## To Link a Line of an Accounts Payable Bill to a Line of a Purchase Order
 
 1.  Open the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 2.  In the Summary area, select *Bill* in the **Type** box, and select the reference number of the bill in the **Reference Nbr.** box.
@@ -16,7 +16,7 @@ In Acumatica ERP, you can link the lines of an existing bill \(for example, one 
 7.  Click **Save** to link the lines and close the dialog box.
 8.  On the form toolbar, click **Save**.
 
-## Notes About the Procedure { .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

@@ -1,4 +1,4 @@
-# Picking and Packing Operations: General Information {#_15701f8d-7884-486e-802d-b1f20207b134 .concept}
+# Picking and Packing Operations: General Information
 
 If the *Warehouse Management* and *Fulfillment* features are enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can perform the automated picking and packing of inventory items for shipping by using a barcode scanner or a mobile device with a scanning option.
 
@@ -15,7 +15,7 @@ You can perform automated packing for open shipments prepared for sales orders a
 
 In this topic, you will read about the workflow for the automated picking and packing of inventory items in Acumatica ERP. The workflow in this topic is based on the assumption that your system has the recommended configuration described in [Picking and Packing Operations: Implementation Checklist](WMS_Pick_Pack_Implem_Checklist.md).
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -26,15 +26,14 @@ In this chapter, you will do the following:
 -   Pack the items into a box in an automated mode
 -   Confirm a shipment after picking and packing items
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 In your company's warehouses, picking processes and packing processes are completed by different warehouse workers. Each warehouse worker acting as a picker goes through the warehouse with a printed pick list, picks the items from the warehouse locations specified in the pick list, and transfers them to a packing line. A packer that works at the packing line selects the box for packing the shipment and packs the items; after the shipment is completely packed, the packer confirms the shipment. To track the operations as they are being performed, both pickers and packers scan the appropriate barcodes by using a barcode scanner or mobile device.
 
-## Workflow for the Automated Picking of Items { .section}
+## Workflow for the Automated Picking of Items
 
 The automated processing of picking items to be packed involves the actions shown in the following diagram.
 
-![](Images/diag_WMS_Pick.png)
 
 To process the picking of items by using Pick mode, you perform the following steps:
 
@@ -75,11 +74,10 @@ To process the picking of items by using Pick mode, you perform the following st
     If you have finished the picking operation, to proceed with packaging, you scan the `@pack` barcode to switch to Pack mode.
 
 
-## Workflow for the Automated Packing of Items { .section}
+## Workflow for the Automated Packing of Items
 
 The automated processing of packing items that have been picked involves the actions shown in the following diagram.
 
-![](Images/diag_WMS_Pack.png)
 
 To process the packing of items \(and use Pack mode\) after picking them, you perform the following steps:
 

@@ -1,10 +1,9 @@
-# Modifying a BLC Action {#_978b1ce1-49da-4194-bd11-bb72eaad9c5e .concept}
+# Modifying a BLC Action
 
 To modify the behavior of an action that is defined within a business logic controller \(BLC, also referred to as *graph*\), you should override an action delegate.
 
 Suppose that you need to rename the **Release** button to **Extended Release** on the Receipts \(IN301000\) form, which is shown in the following screenshot.
 
-![](images/CustomizeAction.png "Viewing the original Receipts form")
 
 To do this, you have to find the business logic controller for the form and modify the display name of the action that corresponds to the **Release** button as follows:
 
@@ -21,7 +20,6 @@ To do this, you have to find the business logic controller for the form and modi
 
         The Code Editor opens for customization of the business logic code of the form \(see the screenshot below\). The system generates the BLC extension class in which you can develop the customization code. \(See [Graph Extensions](CG_Platform_TO_Code_CS_GraphExtensions.md) for details.\)
 
-        ![](images/CustomizeAction2.png "The BLC extension class generated for customization of the business logic code executed for the Receipts form")
 
     3.  Modify the `DisplayName` parameter of the `PXUIField` attribute for the `Release` action by redefining the action in the BLC extension class, to which the attributes are attached. Insert the code listed below into the `INReceiptEntry_Extension` class, as shown in the screenshot below. In the `DisplayName` parameter, you specify the new name for the button, *"Extended Release"*.
 

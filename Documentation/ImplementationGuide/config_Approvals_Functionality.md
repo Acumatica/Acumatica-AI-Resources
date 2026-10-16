@@ -1,4 +1,4 @@
-# Configuring Approvals {#_126c8675-0171-4907-b587-6014f2ca6317 .concept}
+# Configuring Approvals
 
 Before you can begin using the approval functionality in Acumatica ERP, you must perform the necessary configuration steps. These steps include enabling the necessary feature, creating the needed approval maps, and specifying the approval preferences for the entity type.
 

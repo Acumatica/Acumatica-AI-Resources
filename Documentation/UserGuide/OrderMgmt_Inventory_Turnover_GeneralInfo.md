@@ -1,15 +1,15 @@
-# Inventory Turnover: General Information {#_f2605956-12bc-40fb-b613-60735212efbe .concept}
+# Inventory Turnover: General Information
 
 In Acumatica ERP, you can calculate the stock item turnover, item average inventory for the selected period, and the average number of days \(DSI\) required to turn the average inventory into sales.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Calculate the inventory turnover
 -   Create an automation schedule for calculation of the inventory turnover
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You calculate the inventory turnover in the following cases:
 
@@ -17,7 +17,7 @@ You calculate the inventory turnover in the following cases:
 -   When you need to calculate the number of days a stock item needs to be converted to sales
 -   When you need to compare the benchmark ratio by the industry for selected stock items
 
-## Calculation of the Inventory Turnover { .section}
+## Calculation of the Inventory Turnover
 
 The [Inventory Turnover](IN_40_70_10.md) \(IN407010\) inquiry form is a place where you calculate the inventory turnover for all warehouses of a branch, company, or a group of companies for a selected range of periods. The inquiry form is available in the **Inquiries** category of the **Inventory** workspace.
 
@@ -25,13 +25,13 @@ The inquiry is empty by default. To calculate the inventory turnover, you should
 
 Alternatively, you can specify the values in the **Warehouse**, **Item Class**, and **Inventory ID** boxes before you calculate the turnover. This calculation will include the data about specific warehouse or items, and once you clear the additional boxes or specify another value, you will need to recalculate the turnover again.
 
-## Automation of Turnover Calculation { .section}
+## Automation of Turnover Calculation
 
 You can automate the calculation of the inventory turnover by clicking **Schedules** and then selecting the *Add* option on the form toolbar of the [Manage Turnover History](IN_50_70_00.md) \(IN507000\) form. The system opens the [Automation Schedules](SM_20_50_20.md) \(SM205020\) form as a dialog box. You can schedule calculation of the turnover for the last N periods including the current period by specifying the *Calculate for Last N Period\(s\)* option in the **Field Name** column and the required number of periods in the **Value** column for this row on the **Filter Values** tab of the [Automation Schedules](SM_20_50_20.md) form.
 
 For more information about scheduled automated processing, see [Automated Processing: General Information](SA_Scheduling_Automated_Processing_GeneralInfo.md)
 
-## Calculation Rules { .section}
+## Calculation Rules
 
 The turnover ratio is calculated according the following formula: `Turnover = Cost of Goods Sold / Average Inventory`. The `Cost of Goods Sold` value represents the total cost of the sold quantity of the item and is calculated in the base currency, and the `Average Inventory` value represents the average inventory cost of the item within a selected period range and is calculated in the base currency and unit.
 

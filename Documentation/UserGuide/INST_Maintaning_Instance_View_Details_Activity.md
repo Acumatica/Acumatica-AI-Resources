@@ -1,20 +1,20 @@
-# Instance Maintenance: To View the Settings of an Instance {#_07069168-7055-455f-8c6f-4be14ca1226b .task}
+# Instance Maintenance: To View the Settings of an Instance
 
 The following activity will walk you through the process of viewing and modifying the settings of the Acumatica ERP application instance.
 
-## Story { .section}
+## Story
 
 Suppose that you are the system administrator of your company, and you need to review the settings of the existing Acumatica ERP application instance and change its name.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will review the settings of the Acumatica ERP application instance and change the instance name.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the step of this activity, make sure that you have performed the following prerequisite activity: [Instance Deployment: To Deploy an Instance with Demo Data](INST_Deploying_Instances_Deploy_Tenant_With_Demodata_Activity.md).
 
-## Step: Changing the Settings of an Application Instance { .section}
+## Step: Changing the Settings of an Application Instance
 
 To review the settings of the instance and change its name, do the following:
 
@@ -28,7 +28,6 @@ To review the settings of the instance and change its name, do the following:
     1.  Right of the **Instance Name** box, click **Rename**.
     2.  Change the name of the instance to `AcumaticaTraining`, as shown in the following screenshot.
 
-        ![](Images/activity_INST_Maintenance_Instance_Change_Name.png "The updated instance name")
 
     3.  Right of the **Instance Name** box, click **Save**.
 5.  Right of the **Instance Files Path** box, click **Open**.
@@ -46,7 +45,6 @@ To review the settings of the instance and change its name, do the following:
 
 9.  Open the Instance Information page again and notice that the URL of the renamed *AcumaticaTraining* instance has also been updated, as shown in the following screenshot.
 
-    ![](Images/activity_INST_Maintenance_Instance_Updated_URL.png "The updated URL of the instance")
 
 
 **Parent topic:**[Maintaining Instances](../UserGuide/INST_Maintaning_Instances_Mapref.md)

@@ -1,4 +1,4 @@
-# Updating Acumatica ERP by Using the Web Interface {#_755cb8d7-426b-46b2-85b6-41aadebcda3e .concept}
+# Updating Acumatica ERP by Using the Web Interface
 
 Updates for Acumatica ERP provide functional enhancements and new functionality. You need to use an installation package to update your Acumatica ERP instances.
 

@@ -1,4 +1,4 @@
-# Fixed Assets: Fixed Asset Classes {#_942695f5-8de5-4daf-af9d-9b267878a3e4 .concept}
+# Fixed Assets: Fixed Asset Classes
 
 In Acumatica ERP, fixed asset classes serve the following purposes:
 
@@ -14,7 +14,7 @@ You can define separate fixed asset classes for tangible and intangible assets o
 
 You create new fixed asset classes by using the [Fixed Asset Classes](../UserGuide/FA_20_10_00.md) \(FA201000\) form, as described in [Fixed Assets: To Create Fixed Asset Classes](config_FixedAssets_Implem_Activity_FixedAsset_Classes.md). Alternatively, you can copy an existing class to create a similar asset class, as described in [To Create an Asset Class by Copying an Existing Class](FA__how_Creatina_Asset_class_Template.md). Also, you can create templates for fixed asset classes and use them to define new classes.
 
-## Default Values Provided by an Asset Class { .section}
+## Default Values Provided by an Asset Class
 
 When you create a fixed asset class on the [Fixed Asset Classes](../UserGuide/FA_20_10_00.md) \(FA201000\) form, you specify the default settings for all the assets of the class.
 

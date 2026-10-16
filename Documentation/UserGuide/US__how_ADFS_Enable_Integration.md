@@ -1,10 +1,10 @@
-# To Enable AD FS Integration with Acumatica ERP {#_0ddbd558-916f-4e38-b7ea-05035740fb92 .task}
+# To Enable AD FS Integration with Acumatica ERP
 
 After you have configured the Microsoft Active Directory Federation Services \(AD FS\) server, you should enable AD FS integration with your Acumatica ERP instance, as described in this topic. For a description of all steps required for AD FS server configuration, see [Integration with AD FS](US__con_ADFS_Integration.md).
 
 **Attention:** This functionality is available only if the *Active Directory and Other External SSO* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) form.
 
-## To Enable AD FS Integration with Acumatica ERP { .section}
+## To Enable AD FS Integration with Acumatica ERP
 
 1.  Open the `web.config` file, which is located in the folder that contains the application instance website.
 

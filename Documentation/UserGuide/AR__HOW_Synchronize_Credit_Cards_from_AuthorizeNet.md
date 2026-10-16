@@ -1,12 +1,12 @@
-# To Synchronize Credit Cards from Acumatica Payments to Acumatica ERP {#_1602bb80-6bec-4370-a400-c57c5fd15784 .task}
+# To Synchronize Credit Cards from Acumatica Payments to Acumatica ERP
 
 When you start working with the [Synchronize Cards](CA_20_60_00.md) \(CA206000\) form, the table on this form is empty. When you load credit card data to the form, the results are shown in the table, where you can work with the data and save it. You can then import all of the lines of data or only the lines you select.
 
-## Before You Proceed {#section_srs_4jv_vxb .section}
+## Before You Proceed
 
 Make sure that the *Integrated Card Processing* and *Acumatica Payments* features have been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. With these features enabled, the [Synchronize Cards](CA_20_60_00.md) form appears in the system.
 
-## To Synchronize Credit Cards {#section_urs_4jv_vxb .section}
+## To Synchronize Credit Cards
 
 1.  Open the [Synchronize Cards](CA_20_60_00.md) \(CA206000\) form.
 2.  In the **Processing Center** box of the Summary area, select a processing center with the *Acumatica Payments Plug-In* set up.

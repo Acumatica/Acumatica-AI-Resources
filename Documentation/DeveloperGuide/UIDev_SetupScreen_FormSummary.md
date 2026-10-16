@@ -1,10 +1,9 @@
-# UI of a Setup Form: A Form with Only a Summary Area {#_866e3b3f-c302-4939-ad28-38c911e0f639 .concept}
+# UI of a Setup Form: A Form with Only a Summary Area
 
 The following topic describes how to configure a form that contains only a Summary area. \(In the Classic UI, these forms were based on the FormView template.\) The following screenshot shows an example of a form with this layout.
 
-![](Images/UIDev_SetupScreen_FormSummary.png "A form with only a Summary area")
 
-## View Definition in TypeScript { .section}
+## View Definition in TypeScript
 
 To configure a form with only a Summary area in the TypeScript file, you do the following:
 
@@ -63,7 +62,7 @@ export class FA101000 extends PXScreen {
 }
 ```
 
-## Layout in HTML { .section}
+## Layout in HTML
 
 You define the layout of a setup form with only a Summary area by adding one qp-template control to the HTML code of the form with slots for each column. For details on the available templates, see [Form Layout: Predefined Templates](UIDev_DesigningLayout_Templates.md).
 

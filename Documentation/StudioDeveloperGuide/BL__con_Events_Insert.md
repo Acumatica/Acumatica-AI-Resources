@@ -1,8 +1,7 @@
-# Sequence of Events: Insertion of a Data Record {#_5fb67bf3-6db4-498d-983c-e4fe28a65d11 .concept}
+# Sequence of Events: Insertion of a Data Record
 
 The figure below illustrates the sequence of events raised during the insertion of a data record.
 
-![](Images/Ref_Events_Insert.png "Insertion of a data record")
 
 The system inserts a data record as an instance of a data access class \(DAC\) when a user creates a new data record in the user interface, a request to insert a record is sent to the web services API, or the `Insert()` method of a data view is called in code. The data record is actually inserted into the PXCache object that corresponds to the DAC of the data record. The inserted data record has the Inserted status and is available through the Inserted and Dirty collections of the PXCache object.
 

@@ -1,8 +1,8 @@
-# VAT for Early Payments: Implementation Checklist {#_d3a746f3-b2a3-433b-8070-f7cf2bc85d9a .concept}
+# VAT for Early Payments: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for adjusting VAT for early payments, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist {#section_bxm_fjv_vxb .section}
+## Implementation Checklist
 
 We recommend that before you initially process a payment for an invoice with a cash discount and generate a VAT credit memo, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -17,7 +17,7 @@ We recommend that before you initially process a payment for an invoice with a c
 |[Customers](AR_30_30_00.md) \(AR303000\)|The customer account has been configured.|
 |[Credit Terms](CS_20_65_00.md)\(CS206500\)|The credit terms that gives customers a cash discount for early payments have been configured and specified for the needed customer on the [Customers](AR_30_30_00.md) form|
 
-## Settings That Affect the Workflow {#section_dxm_fjv_vxb .section}
+## Settings That Affect the Workflow
 
 The following settings and entities should be specified and defined, respectively:
 
@@ -30,7 +30,7 @@ The following settings and entities should be specified and defined, respectivel
     -   Make sure that the **Automatically Post on Release** check box is selected in the **Posting Settings** section. This setting causes AR documents to be automatically posted to the general ledger once they are released.
     -   Select the **Automatically Release Credit Memos** check box in the **VAT Recalculation Settings** section. This setting causes the generated credit memos to be released automatically by the system. If this check box is cleared, you will have to release all generated credit memos on the [Release AR Documents](AR_50_10_00.md) \(AR501000\) form, because the system closes the document automatically only after the corresponding credit memo is released.
 
-## Validation of Configuration {#section_fxm_fjv_vxb .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you generate a VAT credit memo by performing instructions similar to those described in [VAT for Early Payments: To Process a Payment with a Cash Discount](Taxes_Adjusting_VAT_Early_Payments_Process_Activity.md) and prepare a new revision of the tax report as described in [VAT for Early Payments: To Prepare a New Revision of VAT Tax Report](Taxes_Adjusting_VAT_Early_Payments_Process_Activity2.md).
 

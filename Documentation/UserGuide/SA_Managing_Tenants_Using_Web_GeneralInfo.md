@@ -1,4 +1,4 @@
-# Tenants: General Information {#_dd966afb-b1d1-4e7d-85d7-5d5fc61a44a3 .concept}
+# Tenants: General Information
 
 In Acumatica ERP, a single instance of the application can serve multiple tenants, which represent separate companies. When you create an application instance, you create at least one tenant. Multiple tenants can use the same application instance, with each having completely isolated data. The application looks identical to all tenants, but each tenant has exclusive access to only its data.
 
@@ -6,7 +6,7 @@ In this topic, you will learn how to work with the tenants by using the web inte
 
 **Attention:** This topic provides information about managing tenants that have been created on a licensed instance. For details on trial and license modes, see [Preparing an Instance: Activation and Licensing](../ImplementationGuide/config_SA_Prep_Instance_for_Implem_Instance_Activation_and_Licensing.md).
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -15,7 +15,7 @@ In this chapter, you will learn how to do the following:
 -   Convert a production tenant to a test tenant
 -   Delete a tenant
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create a new tenant or multiple tenants in the following cases:
 
@@ -24,7 +24,7 @@ You create a new tenant or multiple tenants in the following cases:
 -   When you are an implementation consultant who has been tasked by your client with making some significant configuration changes or performing an irreversible operation. In this scenario, you should perform the required changes in a test environment—that is, a sandbox \(an instance of Acumatica ERP that has no production tenants\) with a test tenant that contains the full or partial data of the tenant in which the changes will occur. If you have applied the changes to the test tenant successfully, only then you should apply them to your live tenant.
 -   When you are a system administrator, and you have been asked to provide a learning environment for a new employee. The new hire needs to be trained to perform all operations on the test tenant without affecting the live tenant.
 
-## The System Tenant { .section}
+## The System Tenant
 
 When you install Acumatica ERP, it creates the System tenant \(which has a **Tenant ID** of *1*\) automatically on the [Tenants](SM_20_35_20.md) \(SM203520\) form.
 
@@ -34,7 +34,7 @@ By default, the System tenant is hidden on all end-user forms. All other user-cr
 
 A snapshot created for a user-defined tenant includes all custom data available in the database for the tenant account, but does not include any data contained in the System tenant. When a snapshot is being restored in the same database or another database, it uses the system data from the System tenant available in that database.
 
-## Active and Test Tenants { .section}
+## Active and Test Tenants
 
 You can use the [Tenant List](SM_20_35_30.md) \(SM203530\) form to view the list of tenants and their statuses \(which can be *Active*, *Test Tenant*, or *Unlicensed*\). Also, you can use the [Tenants](SM_20_35_20.md) \(SM203520\) form to add and manage a particular tenant and the [Delete Snapshots and Tenants](SM_50_30_00.md) \(SM503000\) form to delete tenants.
 
@@ -48,7 +48,7 @@ By default, a newly created tenant is assigned the *Active* status if the creati
 
 **Tip:** If you are working with an unlicensed instance of Acumatica ERP, you can create only tenants with the *Test Tenant* status. The system applies the limitations of trial mode to these tenants. For details, see [Preparing an Instance: Activation and Licensing](../ImplementationGuide/config_SA_Prep_Instance_for_Implem_Instance_Activation_and_Licensing.md).
 
-## Limitations to a Test Tenant on a Licensed Instance {#section_pmf_4sz_4sb .section}
+## Limitations to a Test Tenant on a Licensed Instance
 
 Regardless of the type of license you have, test tenants do not count toward the maximum number of tenants that your license allows. However, the technical limitation regarding the maximum number of tenants \(described in the previous section\) still applies.
 
@@ -61,9 +61,8 @@ Test tenants have the following limitations:
 
 Also, a user will need to confirm their understanding of the limitations of a test tenant each time the user signs in to the tenant, as demonstrated in the following screenshot.
 
-![](Images/SysAdmin_TestTenantLimitations_Confirmation.png "Confirmation dialog box for signing in to a test tenant")
 
-## Tenant Creation { .section}
+## Tenant Creation
 
 When you install the Acumatica ERP application, you create at least one tenant. You can create more tenants by using the Acumatica ERP Configuration wizard, or directly from the Acumatica ERP application by using the [Tenants](SM_20_35_20.md) \(SM203520\) form.
 
@@ -79,13 +78,21 @@ After the system adds the second non-System tenant, it signs you out automatical
 
 With the system in multitenant mode, it will not sign you out every time you add a new tenant. You will remain on the [Tenants](SM_20_35_20.md) form with the new tenant selected in the **Tenant ID** box. You can copy the data from other tenants or restore a snapshot for the new tenant right away.
 
-## Tenant Deletion { .section}
+## Tenant Deletion
 
 Sometimes, copying data from other tenants or restoring a snapshot may fail due to different reasons. The failure may result into corruption of the tenant. The system will display a corresponding warning for such tenants next to the **Tenant ID** box on the [Tenants](SM_20_35_20.md) form.
 
 You can delete corrupted or unnecessary tenants on the [Delete Snapshots and Tenants](SM_50_30_00.md) \(SM503000\) form. If you have two available non-System tenants and delete one of them, the system signs you out automatically after the deletion and switches to single-tenant mode.
 
-## Tenant Users and the First Sign-In { .section}
+## Preventing Conflicting Operations
+
+To help protect data consistency, only one tenant or snapshot operation can run at a time across the site. This restriction applies across all tenants and operation types.
+
+If an administrator tries to start another operation while one is already running, the system prevents the new operation from starting. To review the operations currently in progress, use the **Tenant Operations** dialog of the [Tenants](SM_20_35_20.md) \(SM203520\) form.
+
+For deletion, multiple tenants or snapshots selected for processing together are treated as part of a single long-running operation.
+
+## Tenant Users and the First Sign-In
 
 When you create a tenant by using the web interface, you cannot specify a dataset to be inserted for the tenant as you can do when using the Acumatica ERP Configuration wizard. The creates a tenant with the data from the System tenant and adds a user with the same credentials as the user you used to create the tenant. You can sign in to the new tenant with the *admin* user account, which comes from the System tenant, or with the user that you used to create the tenant.
 
@@ -95,11 +102,11 @@ If you create a tenant by copying a configured tenant \(for example, a productio
 
 You can review the list of the users who have access to a tenant on the **Users** tab of the [Tenants](SM_20_35_20.md) form.
 
-## Order of Tenants on the Sign-In Page { .section}
+## Order of Tenants on the Sign-In Page
 
 The system displays the list of available tenants on the Sign-In page in the same order as in the list displayed on the [Tenant List](SM_20_35_30.md) \(SM203530\) form. To change the order of the tenants on this form, you click the tenant you want to move and use the **Move Up** and **Move Down** buttons on the form toolbar.
 
-## Creation of a Test Environment { .section}
+## Creation of a Test Environment
 
 To create an environment to be used for testing or learning purposes, you create a tenant either by copying your production tenant or creating a new empty tenant. We strongly recommend that you explicitly state the purpose of the test tenant in the **Login Name** box of the [Tenants](SM_20_35_20.md) \(SM203520\) form, so that your users will not confuse it with the production tenants. The name specified in this box is displayed in the list of tenants on the Sign-In page.
 
@@ -107,7 +114,7 @@ To create an environment to be used for testing or learning purposes, you create
 
 Then you convert the newly created tenant to the test one. If the tenant has no data, you can configure it from scratch or restore a snapshot of an existing tenant to the new tenant.
 
-## Recommendations for the Creation of Tenants with Similar Configuration { .section}
+## Recommendations for the Creation of Tenants with Similar Configuration
 
 If you need to create multiple related tenants with similar configurations, first configure the most typical one \(which you will use as a prototype\). At each stage of implementation, create a snapshot that includes the full data of the prototype tenant. If the tenants represent related businesses, you can enter the business accounts that are used by more than one tenant and add them to another snapshot, which can be used for each tenant.
 

@@ -1,16 +1,16 @@
-# Web Service Endpoints: To Include an Endpoint in a Customization Project {#_af73e6e5-8e63-4304-9ac8-c25c432138fa .task}
+# Web Service Endpoints: To Include an Endpoint in a Customization Project
 
 This activity will walk you through the process of including an endpoint in a customization project.
 
-## Story { .section}
+## Story
 
 Suppose that you need to distribute an integration application that uses a custom web service endpoint to the other Acumatica ERP instances of the company. You need to include the endpoint in a customization project. You can then export this customization project to a ZIP file, import the file to the target instance, and publish this customization project.
 
-## Process Overview { .section}
+## Process Overview
 
 You will include the needed endpoint in a customization project.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing this activity, do the following:
 
@@ -18,7 +18,7 @@ Before you begin performing this activity, do the following:
 
 2.  Complete the following prerequisite activity: [Generic Inquiries in a Customization Project: To Include Generic Inquiries in a Customization Project](../UserGuide/GI_CustomizationProject_Activity.md). In this activity, a customization project is created.
 
-## Step: Including an Endpoint in the Customization Project { .section}
+## Step: Including an Endpoint in the Customization Project
 
 You will include in the customization project the *ItemAvailabilityData/0001* custom endpoint, which is preconfigured in the instance.
 

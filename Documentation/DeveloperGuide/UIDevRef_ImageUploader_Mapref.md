@@ -1,4 +1,4 @@
-# Image Uploader {#_6be761fc-d6bb-42b4-9cd4-54c7c2670245 .concept}
+# Image Uploader
 
 In this chapter, you will learn about the configuration of image uploader, which is used to select and upload images.
 

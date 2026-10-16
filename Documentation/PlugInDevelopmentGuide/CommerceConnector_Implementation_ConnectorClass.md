@@ -1,4 +1,4 @@
-# Connector Implementation: Connector Class {#_264c59ca-c18e-4e40-95ce-3c295f3456fc .concept}
+# Connector Implementation: Connector Class
 
 The connector class is the main class of a connector for an external system.
 
@@ -9,23 +9,23 @@ The connector class performs the following functions:
 -   Performs the synchronization of records of the external system and Acumatica ERP
 -   Implements real-time subscription and processing
 
-## Base Class and Interface { .section}
+## Base Class and Interface
 
 The connector class derives from the [PX.Commerce.Core.BCConnectorBase&lt;TGraph&gt;](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=3b6882df-0410-c989-3955-77f9307ec63a) base abstract class. The BCConnectorBase&lt;TGraph&gt; class implements the [PX.Commerce.Core.IConnector](https://help.acumatica.com/(W(24))/Help?ScreenId=ShowWiki&pageid=463826b3-3c22-b89a-abaa-d5843ae1091d) interface. Because the BCConnectorBase&lt;TGraph&gt; class is a graph, the connector class is a graph as well.
 
-## Properties and Methods of the Connector Class { .section}
+## Properties and Methods of the Connector Class
 
 In the ConnectorType property of the connector class, you define a `string` identifier of the connector type; this identifier can be no more than three characters long. In the ConnectorName property of this class, you define the name of the connector, which is displayed on Acumatica ERP forms. For example, the value is displayed in the **Connector** box on the [Entities](../UserGuide/BC_20_20_00.md) \(BC202000\) form.
 
 For details about the methods of the connector class, see [PX.Commerce.Core.IConnector](https://help.acumatica.com/(W(24))/Help?ScreenId=ShowWiki&pageid=463826b3-3c22-b89a-abaa-d5843ae1091d).
 
-## Example { .section}
+## Example
 
 The following code shows an example of the implementation of the connector class.
 
 **Tip:** You can see this code on [GitHub](https://github.com/Acumatica/Help-and-Training-Examples/blob/HEAD/PlugInDevelopment/Help/ImplementingConnector/WooCommerceTest/WooCommerceConnector.cs).
 
-```language-csharp
+```csharp
 ﻿using Newtonsoft.Json;
 using PX.Async;
 using PX.Commerce.BigCommerce;

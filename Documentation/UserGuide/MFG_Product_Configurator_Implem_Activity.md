@@ -1,8 +1,8 @@
-# Product Configurator: Implementation Activity {#_7cba73f3-57bf-4b4e-876e-5d11faf4c9ec .task}
+# Product Configurator: Implementation Activity
 
 In the following implementation activity, you will learn how to implement the product configuration functionality.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -10,14 +10,14 @@ In this activity, you will do the following:
 2.  On the [Configuration Maintenance](AM_20_75_00.md) \(AM207500\) form, create a new revision of an existing configuration and add rules.
 3.  On the [Configuration Entry](AM_30_60_00.md) \(AM306000\) form, test the configuration.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start implementing the product configuration functionality, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *SalesDemo* dataset preloaded. You should sign in as the system administrator with the *admin* username and the password for this user valid for your instance.
 2.  Enable the *Product Configurator* feature in the *Manufacturing* group of features on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Step 1: Reviewing Default Settings of the Product Configurator { .section}
+## Step 1: Reviewing Default Settings of the Product Configurator
 
 To review default settings of the product configurator, do the following:
 
@@ -36,7 +36,7 @@ To review default settings of the product configurator, do the following:
     -   **Override Default on Configuration**: Selected \(That is, the user can override the calculation method of a selling price for a particular configuration.\)
 4.  Notice that all check boxes are selected in the **Order Fields** section. This means that the corresponding boxes of a sales order line will be editable.
 
-## Step 2: Setting Up a Configuration { .section}
+## Step 2: Setting Up a Configuration
 
 To set up a configuration, do the following:
 
@@ -92,7 +92,7 @@ To set up a configuration, do the following:
 
 7.  On the form toolbar, click **Save**.
 
-## Step 3: Testing the Configuration { .section}
+## Step 3: Testing the Configuration
 
 To test the configuration, do the following:
 

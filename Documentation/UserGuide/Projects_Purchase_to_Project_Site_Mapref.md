@@ -1,4 +1,4 @@
-# Purchasing Materials to Project Site {#_a9d5400e-8ee2-4f3b-a1fc-0e68fb0933df .concept}
+# Purchasing Materials to Project Site
 
 This chapter describes how to purchase materials and services for projects and drop-shipping them directly to the project site.
 

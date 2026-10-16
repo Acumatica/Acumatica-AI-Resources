@@ -1,4 +1,4 @@
-# Acumatica Add-In for Outlook: Contact Management {#_9e0fd9f1-acd4-4f92-9eeb-4067e6d22fd2 .concept}
+# Acumatica Add-In for Outlook: Contact Management
 
 With the Acumatica add-in for Outlook, you can easily find any related contacts in Acumatica ERP and create new ones related to an email you’re viewing.
 
@@ -12,11 +12,10 @@ If matching contacts are found, they appear in the **Profiles** section of the R
 -   Click a contact’s name \(which is a link\) to review the contact. The record opens on the [Contacts](CR_30_20_00.md) form of your Acumatica ERP instance.
 -   Quickly create a related contact and link it to the email, as described in the next section.
 
-## Contact Creation { .section}
+## Contact Creation
 
 To create a contact with the email address selected in the Filter box of the Related Records form, click **Add Contact** in the **Profiles** section—either directly or through the More menu.
 
-![](Images/OU_AddIN_Create_Contact.png "The Add Contact command")
 
 The Contact form opens \(see below\), and the following boxes may be filled in automatically:
 
@@ -25,14 +24,13 @@ The Contact form opens \(see below\), and the following boxes may be filled in a
 -   **Last Name**: The second word of the email address if it consists of two or more parts separated by spaces \(for example, *Mill Gibson &lt;mill.gibson.mail.com&gt;*\). If a last name can’t be derived, the email address selected in the Filter box is inserted.
 -   **Link Email to Contact**: Selected.
 
-![](Images/OU_AddIN_Create_Contact_1.png "The Contact form")
 
 After you click **Create Contact**, the form you go to depends on the state of the **Link Email to Contact** check box:
 
 -   If it’s cleared, you return to the Related Records form. The system refreshes the **Profiles** section and shows the newly created contact.
 -   If it’s selected, you go to the Email Activity form. The system fills in the **Related Contact** and **Related Entity** boxes with the new contact and inserts *Contact* in the **Related Entity Type** box. The email is linked to the newly created contact in Acumatica ERP. For details, see [Acumatica Add-In for Outlook: Email Activity Management](OU_AddIn_Email_Activity_Management.md).
 
-## Access Rights { .section}
+## Access Rights
 
 Users with the following user roles have the *Delete* access rights to the Contact form:
 

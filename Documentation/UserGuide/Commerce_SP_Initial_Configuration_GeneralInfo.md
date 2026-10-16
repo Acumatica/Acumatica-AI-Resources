@@ -1,12 +1,12 @@
-# Initial Configuration: General Information {#_f4fb686f-9c04-4af1-8626-e2bdb9e3664a .concept}
+# Initial Configuration: General Information
 
 Before you can start using the ecommerce functionality of Acumatica ERP Retail Edition, you need to set up a Shopify store, establish a connection between the Acumatica ERP instance and the Shopify store, and perform the initial configuration of the connection.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this section, you will learn what general steps are involved in establishing a connection between Acumatica ERP and the Shopify store and in performing the initial configuration of these systems.
 
-## Steps for Establishing the Store Connection and Performing the Initial Configuration { .section}
+## Steps for Establishing the Store Connection and Performing the Initial Configuration
 
 In order to connect the Acumatica ERP instance to the Shopify store, you perform the following general steps:
 
@@ -18,19 +18,19 @@ In order to connect the Acumatica ERP instance to the Shopify store, you perform
 
 Each of these steps is described in greater detail below.
 
-## Setup of a Shopify Store { .section}
+## Setup of a Shopify Store
 
 Before you can connect Acumatica ERP to a Shopify store, you need to set up the store. For a test implementation, we recommend that you sign up for a Shopify trial account. For more information, see [the Shopify pricing page](https://www.shopify.com/pricing).
 
 If you are registered in the [Shopify Partner Program](https://help.shopify.com/en/partners/about), you can create a new [development store](https://help.shopify.com/en/partners/dashboard/managing-stores/development-stores) and use it instead.
 
-## Preparation of the Acumatica ERP Instance { .section}
+## Preparation of the Acumatica ERP Instance
 
 During the configuration of the connection to the Shopify store, you need to specify certain values coming from the Acumatica ERP instance, such as the numbering sequence to be used for generating the identifiers of customers imported from the Shopify store, and the payment methods that will be mapped to the payment methods configured in the Shopify store. Some of these values can be created on the fly. However, we recommend that the Acumatica ERP instance be prepared in advance.
 
 For more information, see [Initial Configuration: To Prepare the Acumatica ERP Instance](Commerce_SP_Initial_Configuration_To_Prepare_Acumatica_ERP_Instance.md).
 
-## Establishing of the Connection to the Shopify Store { .section}
+## Establishing of the Connection to the Shopify Store
 
 You can establish a connection between your Shopify store and the Acumatica ERP instance in the following ways:
 
@@ -40,7 +40,7 @@ You can establish a connection between your Shopify store and the Acumatica ERP 
 
 -   By using a custom app that you create and install in your Shopify store. For detailed instructions, see [Initial Configuration: To Establish the Store Connection with a Custom App](Commerce_SP_To_Establish_Store_Connection_Custom_App.md).
 
-## Initial Configuration of the Store Connection { .section}
+## Initial Configuration of the Store Connection
 
 After you have successfully established a connection to the Shopify store, you can perform the basic required configuration. This step involves the following substeps:
 
@@ -84,13 +84,13 @@ After you have successfully established a connection to the Shopify store, you c
 
 7.  On the form toolbar, you click **Save** to save the settings.
 
-## Configuration of the Entities Enabled for Synchronization { .section}
+## Configuration of the Entities Enabled for Synchronization
 
 For each entity that you want to synchronize between Acumatica ERP and the Shopify store and that you have activated on the **Entities** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form, you can also set up the mapping of custom fields for synchronization and synchronization filtering settings on the [Entities](BC_20_20_00.md) \(BC202000\) form.
 
 For more information about defining filtering and mapping settings for the needed entities, see [Preparing Entities for Synchronization](Commerce_SP_Preparing_Entities_Mapref.md).
 
-## Synchronization of Data { .section}
+## Synchronization of Data
 
 After you have performed the initial configuration, you can start to synchronize data between Acumatica ERP and the Shopify store. First, you perform manual synchronization for entities in a specific order. Then you set up synchronization to run automatically, either in real-time or according to a specific schedule. For information about synchronization, see [Data Synchronization: General Information](Commerce_SP_Data_Sync_GeneralInfo.md).
 

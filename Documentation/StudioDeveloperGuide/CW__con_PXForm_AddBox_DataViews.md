@@ -1,4 +1,4 @@
-# Use of Multiple Data Views for Boxes in Containers {#_837c9078-dcd9-48f4-bb8b-d3a1fec7fb82 .concept}
+# Use of Multiple Data Views for Boxes in Containers
 
 The Acumatica Customization Platform supports the use of multiple data views for controls in the same container of an ASPX page.
 

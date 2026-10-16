@@ -1,8 +1,8 @@
-# To Process a Credit Memo Order \(CM\) {#_df95603b-212b-4b40-9ba2-2340cfa534b2 .task}
+# To Process a Credit Memo Order \(CM\)
 
 To credit a customer for returned goods without shipping items, you process a credit memo order \(that is, an order of the *CM* order type\) by using the [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 
-## To Process a Credit Memo Order { .section}
+## To Process a Credit Memo Order
 
 1.  Open the [Sales Orders](SO_30_10_00.md) \(SO301000\) form.
 2.  In the Summary area, select the credit memo order to be processed by specifying its type \(*CM*\) and reference number.

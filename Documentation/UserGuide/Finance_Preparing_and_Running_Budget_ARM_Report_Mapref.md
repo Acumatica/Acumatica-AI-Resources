@@ -1,4 +1,4 @@
-# Preparing and Running a Budget vs Actual ARM Report {#_91309b6b-ba61-4e26-b4da-1b5f1aa7f1d6 .concept}
+# Preparing and Running a Budget vs Actual ARM Report
 
 In this chapter, you will learn how to prepare a Budget vs Actual ARM report, run it, and compare the budget with the actual amounts.
 

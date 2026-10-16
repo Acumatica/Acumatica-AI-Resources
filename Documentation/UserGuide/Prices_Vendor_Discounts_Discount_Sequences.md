@@ -1,4 +1,4 @@
-# Vendor Discount Sequences {#_41f48583-2053-4753-931f-f78c51738bc2 .concept}
+# Vendor Discount Sequences
 
 Once you have configured a discount code for your vendor discount, you proceed to setting up specific discount sequences for this code on the [Vendor Discounts](AP_20_50_00.md) \(AP205000\) form, that is, to specifying particular values for entities and items to which the discounts will be applied. For each discount code, multiple sequences can be configured.
 
@@ -6,7 +6,7 @@ In Acumatica ERP, the settings you can specify for discount sequences include th
 
 In this section, you will find information about discount sequences for vendor discounts in Acumatica ERP.
 
-## Discount Sequence Settings { .section}
+## Discount Sequence Settings
 
 Discount sequences are defined on the [Vendor Discounts](AP_20_50_00.md) \(AP205000\) form. Each discount sequence is related to a discount code and inherits its settings. Multiple discount sequences can be defined for a single discount code, that is why each sequence must have a unique identifier. If auto-numbering is enabled for the discount code, when you create a new sequence for this discount code, the system assigns its sequence ID automatically. By default, the discount code is used as a prefix for generating sequence IDs. If auto-numbering is not configured for the discount code, you must enter an identifier for each sequence manually.
 
@@ -18,7 +18,7 @@ For each discount sequence, you specify the following:
 -   How the discount is tiered \(if applicable\): by amount \(for discount codes of all types\) or by quantity \(for only discount codes of the *Line* and *Group* types\).
 -   What is the effective \(start\) date when the sequence can be applied if the discount is promotional.
 
-## Updating Discount Sequences { .section}
+## Updating Discount Sequences
 
 A discount sequence can define a *regular \(updatable\)* discount or a *promotional* discount.
 
@@ -34,7 +34,7 @@ On the [Vendor Discounts](AP_20_50_00.md) form, you can update break amounts or 
 
 If you change properties of multiple discount sequences, you can use the [Update Vendor Discounts](AP_50_25_00.md) \(AP502500\) form to update these sequences at once.
 
-## Updating Discounts Applied to Documents { .section}
+## Updating Discounts Applied to Documents
 
 For documents with the *On Hold* status, you can update discounts, to be sure you are using the most up-to-date discounts in case discounts were updated in the system or new discounts were defined that can be applied to the documents. To update the discounts, you use the **Recalculate Prices** dialog box, which opens when you select **Recalculate Prices** under **Other** on the More menu of the appropriate data entry form, such as [Bills and Adjustments](AP_30_10_00.md) \(AP301000\). In this dialog box, you can select types of discounts the system will update as follows:
 

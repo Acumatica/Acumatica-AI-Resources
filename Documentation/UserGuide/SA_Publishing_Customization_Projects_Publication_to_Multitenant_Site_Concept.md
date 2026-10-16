@@ -1,4 +1,4 @@
-# Customization Projects: Publication to a Multitenant Website {#_849dd3f3-6dad-4c7f-91d9-8b786d5778c7 .concept}
+# Customization Projects: Publication to a Multitenant Website
 
 The data of each tenant that uses the same instance of Acumatica ERP is isolated in the database, but website files are shared by tenants. When you publish a customization, it may affect both the website files and the database.
 
@@ -6,11 +6,11 @@ You can publish a customization to a tenant or to multiple tenants at once. Webs
 
 In this topic, you will read how to publish customization projects to multiple tenants at once and how customizations are applied to a multitenant site.
 
-## Publication to Multiple Tenants {#section_hpk_111_rsb .section}
+## Publication to Multiple Tenants
 
 To apply database changes introduced by a customization project to multiple tenants, you can publish multiple customization projects for multiple tenants at once. On the [Customization Projects](SM_20_45_05.md) \(SM204505\) form, you can select the customization projects that you need to publish for multiple tenants and use the **Publish to Multiple Tenants** command on the More menu \(under **Publish**\) to open the **Publish to Multiple Tenants** dialog box. You then select the required tenants and apply the selected customization projects to the selected tenants. If you have published all the selected customization projects in the website for a single tenant at least once, you do not need to update the website files. You can apply only the database changes.
 
-## Publication of Customization Projects to a Multitenant Website { .section}
+## Publication of Customization Projects to a Multitenant Website
 
 A customization project may introduce changes to the layout and business logic of forms, add new database tables or fields, and add metadata to the database.
 

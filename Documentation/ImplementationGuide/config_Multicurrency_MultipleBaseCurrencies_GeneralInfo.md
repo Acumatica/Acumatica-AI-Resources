@@ -1,19 +1,19 @@
-# Multiple Base Currencies: General Information {#_29d77e84-6b49-47fe-a206-37e9f1b6be2c .concept}
+# Multiple Base Currencies: General Information
 
 To be able to set up companies with different base currencies in one tenant of Acumatica ERP, you need to configure the multiple base currency functionality. This chapter describes how to prepare for the configuration and how to configure the functionality to meet your business needs.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Enable the required system features
 -   Create a company with a base currency that is different from the base currency of the companies that exist in the tenant
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure multiple base currencies if you need to have multiple related companies that have different base currencies but share preferences, list of items, and joint projects involving employees of multiple companies.
 
-## Scope of the Multiple Base Currency Functionality in Acumatica ERP { .section}
+## Scope of the Multiple Base Currency Functionality in Acumatica ERP
 
 Multiple base currencies are supported for a limited set of financial areas—general ledger, accounts payable, accounts receivable, cash management, currency management, sales orders, purchase orders, inventory, expense receipts and claims, deferred revenue, fixed assets, and taxes. For the *Multiple Base Currencies* feature to be enabled, the following features need to be enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form:
 
@@ -33,7 +33,7 @@ If the *Multiple Base Currencies* feature is enabled and you select a check box 
 
 If one or all of the listed features are enabled and you select the check box corresponding to the *Multiple Base Currencies* feature, the system displays an error message that the feature cannot be enabled.
 
-## Workflow of the Implementation of Multiple Base Currencies {#section_vv2_1y4_y4b .section}
+## Workflow of the Implementation of Multiple Base Currencies
 
 To implement the support of multiple base currencies in Acumatica ERP, you perform the following general steps:
 

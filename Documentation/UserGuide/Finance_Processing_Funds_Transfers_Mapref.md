@@ -1,4 +1,4 @@
-# Performing Funds Transfers {#_93af9cb7-d949-4d5e-8430-867875e5608f .concept}
+# Performing Funds Transfers
 
 In the topics of this chapter, you will read about recording and releasing a funds transfer.
 

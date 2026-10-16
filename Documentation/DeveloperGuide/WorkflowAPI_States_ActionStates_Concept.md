@@ -1,4 +1,4 @@
-# Workflow States: Configuration of Actions {#_71bb44e5-861f-475a-89ba-7410a2aa2fe2 .concept}
+# Workflow States: Configuration of Actions
 
 You can configure an action in the following locations:
 
@@ -8,7 +8,7 @@ You can configure an action in the following locations:
 
 This topic describes the configuration of actions in a workflow state. For details on configuring actions in a screen configuration, see [Workflow Actions: Configuration of Actions](WorkflowAPI_Actions_Capabilities.md).
 
-## Adding or Updating an Action in a Workflow State { .section}
+## Adding or Updating an Action in a Workflow State
 
 To add or update an action in a workflow state, you call the WithActions method in a lambda expression for the Add or Update method that defines a workflow state. Inside the WithActions method, you can do the following:
 
@@ -20,7 +20,7 @@ To add or update an action in a workflow state, you call the WithActions method 
 -   Replace the entire configuration of the action by calling the Replace method.
 -   Delete the entire configuration of the action by calling the Remove method.
 
-## Configuring an Action in a Workflow State {#_fc3c7d35-b915-4583-a4b0-09de92768057 .section}
+## Configuring an Action in a Workflow State
 
 You can configure an action in the following ways:
 
@@ -36,7 +36,7 @@ You can configure an action in the following ways:
 
 An example of configuring an action in a workflow state is shown in the following code.
 
-```language-csharp
+```csharp
 sss.Add<State.hold>(flowState =>
 {
   return flowState

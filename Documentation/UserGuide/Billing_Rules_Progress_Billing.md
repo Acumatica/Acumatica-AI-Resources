@@ -1,8 +1,8 @@
-# Billing Rules: Progress Billing {#_e096d00c-3675-4cb2-baf3-cbdf20e09398 .concept}
+# Billing Rules: Progress Billing
 
 For a billing rule defined on the [Billing Rules](PM_20_70_00.md) \(PM207000\) form, you specify the sequence of steps in the left pane and the settings of each step in the right pane. The following sections list the settings that you can specify for a billing rule step of the *Progress Billing* type, and describes the process of billing a project for progress by using a simple one-step billing rule.
 
-## Configuration of a Billing Rule Step { .section}
+## Configuration of a Billing Rule Step
 
 Each billing rule can include only one step of the *Progress Billing* type. For the billing rule step of this type, you can define the following settings:
 
@@ -13,7 +13,7 @@ Each billing rule can include only one step of the *Progress Billing* type. For 
 
 -   The invoice group of the steps of the billing rules to which the project tasks refer.
 
-## The Progress Billing Process { .section}
+## The Progress Billing Process
 
 Progress billing is a simple billing workflow for the projects that are gradually billed at a fixed contract amount. Progress billing does not involve project transactions. To bill a project task by its progress, you need to create a billing rule on the [Billing Rules](../Shared/../UserGuide/PM_20_70_00.md) \(PM207000\) form and configure a step of the *Progress Billing* type in this rule. Then you assign the configured billing rule to project tasks on the **Tasks** tab of the [Projects](../Shared/../UserGuide/PM_30_10_00.md) \(PM301000\) form.
 

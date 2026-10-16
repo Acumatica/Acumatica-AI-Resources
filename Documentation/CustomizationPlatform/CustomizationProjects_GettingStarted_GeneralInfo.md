@@ -1,20 +1,19 @@
-# Customization Projects: General Information {#_23c00bb2-dc1a-418a-bbd3-79673c7fe32c .concept}
+# Customization Projects: General Information
 
 By using the tools and capabilities of the Acumatica Customization Platform, you can change the user interface and business logic of Acumatica ERP, as well as extend the functionality of the system.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn about the customization projects in Acumatica ERP and the tools used to manage them.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may find the information in this chapter useful when you are responsible for the customization of Acumatica ERP in your company, and you need a general idea of how the customization process works.
 
-## Tools for Customization { .section}
+## Tools for Customization
 
 You can customize Acumatica ERP so that it optimally supports your company's business processes. The following diagram shows the tools that your customizers and developers can use to customize Acumatica ERP to meet your company's needs. It also illustrates the customization items \(described below\) that would result from these efforts.
 
-![](images/diag_CustomizationProjects_GettingStarted_CustomizationItems.png)
 
 As a customizer, you can use the following tools to modify Acumatica ERP:
 
@@ -32,7 +31,7 @@ As a developer, you would typically use the following tools to modify Acumatica 
 -   Visual Studio
 -   Acuminator
 
-## Customization Projects and Customization Items { .section}
+## Customization Projects and Customization Items
 
 To manage your customization efforts, you create and use customization projects. A *customization project* is a set of changes to the user interface, configuration data, and functionality of Acumatica ERP. You create a customization project in a single instance. You can apply the customization project you have created to a different instance of Acumatica ERP by exporting the customization project from the original instance and importing it to a new instance.
 
@@ -48,7 +47,7 @@ This guide covers the customization of Acumatica ERP by using the Customization 
 
 For details on creating other kinds of customization items, see [Customizing Elements of the User Interface](CG_GL_UI.md).
 
-## Types of Objects { .section}
+## Types of Objects
 
 During the customization process, you modify various system objects and add new objects. Customization changes fall into the following general categories:
 
@@ -84,7 +83,7 @@ You can add new customization items or modify existing ones. When you publish th
 
 For details on types of customization items, see [Types of Items in a Customization Project](CG_Platform_Project_ItemTypes.md).
 
-## Application of Changes to the Instance { .section}
+## Application of Changes to the Instance
 
 When you make changes to form elements by using the Customization Project Editor, the changes are available only in the editor and have not yet been applied to the instance. To apply these changes to the instance, you need to publish the customization project. You can publish any number of projects by using the [Customization Projects](../UserGuide/SM_20_45_05.md) \(SM204505\) form of Acumatica ERP. Also, while you are working on a project in the Customization Project Editor, you can publish it.
 
@@ -96,23 +95,48 @@ When you start the publication of the project from within the Customization Proj
 
 If you use the UI Configuration mode to change the layout of a form, you click **Apply to All** in the UI Configuration pane to apply those changes.
 
-## Terminology for Internal and External Elements { .section}
+## Terminology for Internal and External Elements
 
 The terms that are used to describe elements in the code \(that is, the elements’ *internal names*\) sometimes differ from the terms used to describe these elements on Acumatica ERP forms \(the elements’ *external names*\). The following table lists these elements. In this guide, you will see the internal names and external names of the elements, depending on whether their internal development or external appearance is being discussed.
 
-|External Name|Internal Name|
-|-------------|-------------|
-|Form|Screen|
-|Box
+<table id="_45dca2a9-a5d4-45c2-af7c-0bad74bc8058"><thead><tr><th>
+
+External Name
+
+</th><th>
+
+Internal Name
+
+</th></tr></thead><tbody><tr><td>
+
+Form
+
+</td><td>
+
+Screen
+
+</td></tr><tr><td>
+
+Box
 
  Check box
 
-|Field|
-|Command
+</td><td>
+
+Field
+
+</td></tr><tr><td>
+
+Command
 
  Button
 
-|Action|
+</td><td>
+
+Action
+
+</td></tr></tbody>
+</table>
 
 **Parent topic:**[Getting Started with Customization Projects](../CustomizationPlatform/CustomizationProjects_GettingStarted_Mapref.md)
 

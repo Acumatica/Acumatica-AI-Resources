@@ -1,10 +1,10 @@
-# Purchases to the Project Site: Process Activity {#_7698ac28-a6e2-4c20-8e90-e093aff32c6a .task}
+# Purchases to the Project Site: Process Activity
 
 This activity will walk you through the process of purchasing materials for the project site.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_ajm_rn2_yrb .section}
+## Story
 
 Suppose that the HM's Bakery and Cafe customer has ordered two juicers, along with four hours of the installation service from the SweetLife Fruits &amp; Jams company. The project accountant has analyzed the requirements and decided to create a small cost-plus project with two tasks, each for the installation of a juicer, and specify the cost budget of a project.
 
@@ -12,7 +12,7 @@ Further suppose that SweetLife's project manager has noticed that the warehouse 
 
 Acting as SweetLife's project manager, you will configure a project to handle the tracking and billing of the provided services and stock items. Then you will create a drop-ship order for purchased items for the project and create an accounts payable bill for the vendor. Finally, you will review the commitment to the project budget.
 
-## Configuration Overview {#section_rjp_wkc_vrb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -25,11 +25,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customers](AR_30_30_00.md) \(AP303000\) form, the *HMBAKERY* customer has been created.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *JUICER05* stock item has been created.
 
-## Process Overview {#section_k3j_j42_vrb .section}
+## Process Overview
 
 You will create a project based on the project template on the [Projects](PM_30_10_00.md) \(PM301000\) form and configure settings for the drop-ship purchases for the project. Then you will create a drop-ship order for the project and prepare a bill for it. Finally, you will review the commitment to the project budget and the generated project transactions.
 
-## System Preparation {#section_jqs_fp1_5rb .section}
+## System Preparation
 
 Before you start creating a project and process a purchase, do the following:
 
@@ -37,7 +37,7 @@ Before you start creating a project and process a purchase, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to 1/30/2026. If a different date is displayed, click the Business Date menu button, and select 1/30/2026 on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 3.  On the **General** tab \(**General Settings** section\) of the [Projects Preferences](PM_10_10_00.md) \(PM101000\) form, make sure the **Internal Cost Commitment Tracking** check box is selected.
 
-## Step 1: Creating a Project {#section_xjx_sq1_5rb .section}
+## Step 1: Creating a Project
 
 To create a project, do the following:
 
@@ -66,7 +66,7 @@ To create a project, do the following:
 
 10. On the form toolbar, click **Activate**. The system assigns the project the *Active* status.
 
-## Step 2: Creating a Project Drop-Ship Order {#section_jy5_zv1_5rb .section}
+## Step 2: Creating a Project Drop-Ship Order
 
 Create and process a drop-ship order for the project as follows:
 
@@ -109,7 +109,6 @@ Create and process a drop-ship order for the project as follows:
 
     On the **Cost Budget** tab, review the actual values of the cost budget. Notice that the **Actual Quantity** and **Actual Amount** of the lines with the *JUICER05* item have been updated and are now *1* and *500.00*, respectively \(see the following screenshot\). Also notice that the actual expenses of the project \(in the **Actual Expenses** box of the Summary area\) are *1,000.00*, which is the cost of the purchased juicers.
 
-    ![](Images/activity_Projects_Purchase_to_Project_Site.png "Actual values of the budget updated by the purchase")
 
 
 You have finished processing a drop-ship purchase order to the project site.

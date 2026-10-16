@@ -1,4 +1,4 @@
-# DAC Extension Mapped to an Extension Table {#_6ec2fdc9-f489-468d-b0d6-1edbc908870f .concept}
+# DAC Extension Mapped to an Extension Table
 
 You can define a DAC extension mapped to an extension table by using either the default *Inner Join* way or the optional *Left Outer Join* way. To specify which way is used, you need to set the value for the IsOptional parameter of the PXTable attribute. By default, the system sets this parameter value to *false*. You need to specify the IsOptional parameter value only if you need to set its value to *true*.
 
@@ -32,7 +32,7 @@ public class LocationTableExtension : PXCacheExtension<Location>
 { ... }
 ```
 
-## The Left Outer Join Way {#_fed09a3f-917c-46b4-a6f7-bb523fb65cd8 .section}
+## The Left Outer Join Way
 
 The following example shows the declaration of a DAC extension mapped to an extension table with the *Left Outer Join* way. Notice that the IsOptional parameter of the PXTable attribute is set to true.
 
@@ -76,7 +76,6 @@ Suppose that you have added the corresponding **Ext\_Table Description** control
 
 If you update a data record \(by changing the value of any control, including **Ext\_Table Description**\), a new database record is added to the extension table.
 
-![](images/CG_GL_DBSchema_CustomColumns_DACExtTable_03.png "Analyzing the record added to the new database table")
 
 When you use the *Left Outer Join* way, data records within the original and extension tables are not necessarily synchronized \(as the figure below illustrates\); data record synchronization works as follows:
 
@@ -99,9 +98,8 @@ public class BaseBLCExt : PXGraphExtension<BaseBLC>
 
 In the example of the data view declaration above, extension table data records have no reference to the original database table records. You can work with these data records just as you would work with any other DAC instance.
 
-![](images/CG_GL_DBSchema_CustomColumns_DACExtTable_LeftJoin.png "Exploring data record synchronization when the Left Outer Join way is used")
 
-## The Inner Join Way { .section}
+## The Inner Join Way
 
 The *Inner Join* is the default way.
 
@@ -175,7 +173,6 @@ When you use the *Inner Join* way, the data records within the base and extended
 
 **Tip:** To use the extension table independently from the original database table, you should declare a data view by using a DAC extension, which is mapped to an extension table, as the main DAC \(for details, see the [The Left Outer Join Way](#_fed09a3f-917c-46b4-a6f7-bb523fb65cd8) section\).
 
-![](images/CG_GL_DBSchema_CustomColumns_DACExtTable_InnerJoin.png "Exploring data record synchronization when you use the Inner Join way")
 
 **Parent topic:**[To Create an Extension Table](../CustomizationPlatform/CG_GL_DBSchema_CustomColumns.md)
 

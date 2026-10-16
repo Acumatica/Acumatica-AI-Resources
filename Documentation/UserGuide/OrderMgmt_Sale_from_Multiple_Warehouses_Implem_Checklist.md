@@ -1,8 +1,8 @@
-# Sales from Multiple Warehouses: Implementation Checklist {#_86c7aba5-87c7-4889-b8f7-b1b6c01881cc .concept}
+# Sales from Multiple Warehouses: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for processing sales from multiple warehouses, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 Before you begin processing sales from multiple warehouses, you should make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -15,7 +15,7 @@ Before you begin processing sales from multiple warehouses, you should make sure
 |[Customers](AR_30_30_00.md) \(AR303000\) form|Make sure that all needed customers have been defined in the system, as described in [Customers: Implementation Activity](Customer_Implem_Activity.md).|
 |[Stock Items](IN_20_25_00.md) \(IN202500\) form|Make sure that all stock items have been defined in the system, as described in [Stock Items: Implementation Activity](Stock_Items_Implem_Activity.md).|
 
-## Other Settings That Affect the Workflow { .section}
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of processing sales from multiple warehouses by specifying additional settings as follows:
 
@@ -24,7 +24,7 @@ You can affect the workflow of processing sales from multiple warehouses by spec
 -   To cause inventory receipts to be automatically released when a user releases a transfer receipt, select the **Release IN Documents Automatically** check box on the [Purchase Orders Preferences](PO_10_10_00.md) \(PO101000\) form.
 -   To cause general ledger batches generated during the processing of sales and inventory documents to be posted automatically, select the **Automatically Post on Release** check box on the [General Ledger Preferences](GL_10_20_00.md) \(GL102000\) form. For information on the processing of general ledger batches, see [GL Transactions: General Information](Finance_Processing_Batch_GeneralInfo.md).
 
-## Testing of Settings { .section}
+## Testing of Settings
 
 To make sure that all settings are configured correctly, we recommend that you process a sale of stock items from multiple warehouses, as described in [Sales from Multiple Warehouses: Process Activity](OrderMgmt_Sale_from_Multiple_Warehouses_Process_Activity.md).
 

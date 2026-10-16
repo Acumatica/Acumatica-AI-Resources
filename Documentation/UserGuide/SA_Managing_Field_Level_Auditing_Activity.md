@@ -1,14 +1,14 @@
-# Field-Level Auditing: Process Activity {#_91832d3f-4067-43b9-a8f3-cc78dbf34801 .task}
+# Field-Level Auditing: Process Activity
 
 The following activity will walk you through the process of reviewing audit trails.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the corporate controller of the SweetLife Fruits &amp; Jams company, Jasmine Reece, has decided to review an audit trail for a recently canceled purchase order. The corporate controller would like to review the audit trail for the order directly from the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form, as well as changes to the record on the [Audit History by Screen](SM_20_55_30.md) \(SM205530\) inquiry form.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -17,7 +17,7 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Users](SM_20_10_10.md) \(SM201010\) form, the *Field-Level Audit* and *Audit History Access* roles have been assigned to Jasmine Reece \(with the username *reece*\), who is the company's corporate controller.
 -   Field-level auditing has been configured for the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form.
 
-## Process Overview { .section}
+## Process Overview
 
 You will use the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form to view the *000026* purchase order. With this record selected on the form, you will click **Settings** &gt; **Audit History** to open the [Record Audit History](SM_20_55_40.md) \(SM205540\) form in a new tab, where you can see the list of changes made to the selected record.
 
@@ -25,11 +25,11 @@ Then you will open the [Audit History by Screen](SM_20_55_30.md) \(SM205530\) in
 
 Also, you will view general information about a journal transaction by using the **Audit History** command on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form, for which auditing has not been configured.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start performing the steps of this activity, sign in to a company with the *U100* dataset preloaded. You should sign in as a corporate controller with the *reece* username and *123* password.
 
-## Step 1: Reviewing the Audit History for a Particular Record { .section}
+## Step 1: Reviewing the Audit History for a Particular Record
 
 To review the audit history for the *000026* purchase order, do the following:
 
@@ -41,12 +41,11 @@ To review the audit history for the *000026* purchase order, do the following:
 
 4.  Review the audit history for the order \(shown below\). Click **Expand All** to review the details of the changes.
 
-    ![](Images/SA_Managing_Field_Level_Auditing_Audit_History_PO.png "Audit history for the purchase order")
 
 
 You have reviewed the audit history for the particular purchase order.
 
-## Step 2: Reviewing the Audit History for Multiple Records { .section}
+## Step 2: Reviewing the Audit History for Multiple Records
 
 To review the audit history for changes made to multiple purchase orders, do the following:
 
@@ -55,12 +54,11 @@ To review the audit history for changes made to multiple purchase orders, do the
 3.  In the **Start Date** and **End Date** boxes, clear the selected dates to view all historical records.
 4.  In the **Records** table, select a record and review its changes in the **Events** table, as shown below.
 
-    ![](Images/SA_Managing_Field_Level_Auditing_Audit_History_Inquiry.png "Audit history for a purchase order")
 
 
 You have reviewed the audit history for multiple purchase orders.
 
-## Step 3: Reviewing General Information About a Record { .section}
+## Step 3: Reviewing General Information About a Record
 
 To review general information for a record on a form for which auditing has not been configured, do the following:
 
@@ -69,7 +67,6 @@ To review general information for a record on a form for which auditing has not 
 3.  On the form title bar, click **Settings** &gt; **Audit History**.
 4.  Review general information about the selected batch in the **Update History** dialog box, which opens, as shown below.
 
-    ![](Images/SA_Managing_Field_Level_Auditing_Audit_History_Dialog.png "General information about a record")
 
 
 You have reviewed general information about a record.

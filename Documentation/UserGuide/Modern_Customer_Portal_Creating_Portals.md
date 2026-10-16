@@ -1,4 +1,4 @@
-# Modern Customer Portal: Portal Deployment {#_7d3647fa-6766-4347-8f3c-97dd9f268359 .concept}
+# Modern Customer Portal: Portal Deployment
 
 In this topic, you deploy a new portal instance and create a portal in the Acumatica ERP Configuration wizard so that it’s ready for further configuration.
 
@@ -12,7 +12,7 @@ In this topic, you deploy a new portal instance and create a portal in the Acuma
 
 The sections that follow describe these steps in detail.
 
-## Creating a Portal Instance in Acumatica ERP { .section}
+## Creating a Portal Instance in Acumatica ERP
 
 To begin, you use the Acumatica ERP Configuration wizard to deploy a new portal instance—just as you would when creating an Acumatica ERP instance. Do the following:
 
@@ -33,7 +33,7 @@ To begin, you use the Acumatica ERP Configuration wizard to deploy a new portal 
 
 The system creates a new Acumatica ERP instance, which you’ll use as a portal instance.
 
-## Editing the Web.config File { .section}
+## Editing the Web.config File
 
 When installing the portal, you must configure additional parameters in a `Web.config` file to ensure that both applications work correctly with the same database.
 
@@ -52,7 +52,7 @@ Do the following:
     ```
 
 
-## Creating the Customer Portal in Acumatica ERP { .section}
+## Creating the Customer Portal in Acumatica ERP
 
 Next, you open the [Portals](SP_70_10_00.md) \(SP701000\) form in Acumatica ERP and start creating the portal.
 
@@ -64,9 +64,8 @@ Do the following in the Summary area of the form \(see below\):
 2.  Enter the full portal URL \(for example, *https://yourserver/CompanyPortal*\).
 3.  Select *Customer Portal* in the **Portal Type** box.
 
-![](Images/Modern_Portal_Portals_form_3.png "The new portal's basic settings")
 
-## What's Next? { .section}
+## What's Next?
 
 **Before saving the portal**, you must specify its settings on the tabs of the [Portals](SP_70_10_00.md) \(SP701000\) form. See the next topic to learn how to complete the portal creation process.
 

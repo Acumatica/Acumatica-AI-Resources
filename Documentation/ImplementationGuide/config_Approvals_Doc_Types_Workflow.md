@@ -1,4 +1,4 @@
-# Setting Up Specific Approvals {#_91ed575f-304c-43b8-adc0-0953e0728fc6 .concept}
+# Setting Up Specific Approvals
 
 In Acumatica ERP, you have the flexibility to tailor approval workflows for various types of entities to fit your company's policies and practices.
 
@@ -6,7 +6,7 @@ You can configure approvals so that authorized employees approve records of a pa
 
 This chapter includes topics with Acumatica ERP configuration information for some types of records for which you can set up approvals.
 
-## Standard Configuration Workflow for the Approval Functionality { .section}
+## Standard Configuration Workflow for the Approval Functionality
 
 The standard workflow for configuring the approval functionality starts with the following steps, which are described in detail in the [Configuring Approvals](config_Approvals_Functionality.md) chapter:
 
@@ -18,7 +18,7 @@ Once the prerequisite steps have been performed, you need to specify the approva
 
 For purchase orders, requests, and requisitions, you also need to select the **Require Approval** check box on the preferences form of the respective functional area; otherwise, the approval stage will be skipped.
 
--   **[Specific Approvals: Accounts Payable Documents](../ImplementationGuide/config_Approvals_AP_Documents.md)**  
+-   **[Specific Approvals: Vendors and Accounts Payable Documents](../ImplementationGuide/config_Approvals_AP_Documents.md)**  
 
 -   **[Specific Approvals: Accounts Receivable Documents](../ImplementationGuide/config_Approvals_AR_Documents.md)**  
 

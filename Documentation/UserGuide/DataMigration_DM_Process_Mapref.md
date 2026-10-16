@@ -1,4 +1,4 @@
-# Preparing System to Migrating Data {#_e72e8611-e89f-46b5-94fb-2bee6acbd841 .concept}
+# Preparing System to Migrating Data
 
 This lesson describes the basic steps that you need to perform before you start to migrate company data to Acumatica ERP, describes the minimal system configuration that you need to implement before migrating financial and inventory data, explains the basic flow of the data migration, and lists the financial data that you should prepare for data migration.
 

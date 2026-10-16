@@ -1,8 +1,8 @@
-# Project Cost Projections: Cost Projections with Revisions {#_9a4b9ff2-7f04-4831-9e85-362b89a40461 .concept}
+# Project Cost Projections: Cost Projections with Revisions
 
 The following sections explain how to define the budget detail level of cost projection revisions and create the cost projections for a project.
 
-## Cost Projection Classes {#section_tkk_fc3_s4b .section}
+## Cost Projection Classes
 
 On the [Cost Projection Classes](PM_20_35_00.md) \(PM203500\) form, you create a cost projection class and define the budget detail level of the cost projections based on the class. To do this, you specify the records that are included in the budget detail level by selecting or clearing the following check boxes: **Cost Task**, **Account Group**, **Cost Code**, and **Inventory ID**.
 
@@ -22,7 +22,7 @@ A cost projection class will not be applicable for this project if it is not com
 
 If you restructure the project budget, you then need to create a new cost projection revision of the cost projection class that has the appropriate level of detail.
 
-## Creation of a Cost Projection Revision {#section_omf_vc2_32c .section}
+## Creation of a Cost Projection Revision
 
 You create and process revisions of cost projections on the [Cost Projection](PM_30_50_00.md) \(PM305000\) form. A newly created cost projection revision has the *On Hold* status and can be edited. You can create as many revisions of a cost projection as are needed for a project.
 
@@ -51,7 +51,7 @@ When you are done preparing a cost projection revision, you click **Remove Hold*
 
 **Tip:** If approval workflow is configured for cost projection revisions, the responsible person should approve the cost projection after it has been removed from hold. For more information about configuring approvals, see [Approval Configuration: General Information](../ImplementationGuide/config_Approvals_General_Info.md).
 
-## Copying of Cost Projection Revisions {#section_pmf_vc2_32c .section}
+## Copying of Cost Projection Revisions
 
 You can create a new revision of a cost projection based on the revision you are currently viewing on the [Cost Projection](PM_30_50_00.md) \(PM305000\) form by clicking **Copy Revision** on the form toolbar. In the **Copy Revision** dialog box, which opens, you specify the ID of the new revision. You can also select whether the system should refresh the budget during the copying, and whether it should copy files and notes from the original cost projection revision to the copied one. Then you click **OK** to create a copy of the cost projection revision.
 

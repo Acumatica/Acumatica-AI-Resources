@@ -1,4 +1,4 @@
-# Tax Agency: General Information {#_0f36ec83-2b1a-41cc-9c87-7d6b59e4b51f .concept}
+# Tax Agency: General Information
 
 If your company buys or sells goods or services, it must report the appropriate taxes to the responsible tax agencies by filing tax reports regularly. The tax authorities or agencies can exist at multiple levels. For example, in most European countries, the tax rates are defined at the federal level and are the same in all territories, and in other countries, there can be many zones with different taxes; this depends on the taxation system of the country. Thus, the tax agencies can have different reporting periods and different tax rates. You may need to report taxes to different tax agencies. For each tax agency, you need to create a separate tax agency account in Acumatica ERP and configure the applicable tax report.
 
@@ -6,24 +6,24 @@ Some taxes \(such as custom duties on imported goods\) you pay directly to the t
 
 The following sections of this topic describe how you establish the general settings for a tax agency and how you set up a tax agency.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to create a tax agency in Acumatica ERP.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You can configure a tax agency account in Acumatica ERP to cover either of the following purposes:
 
 -   You want to set up tax reporting for the tax agency. For such an agency, you configure an appropriate tax report and set up automatic accumulation of tax amounts in the tax report.
 -   You want to pay taxes directly to the tax agency. \(For certain taxes, such as the customs duties on imported goods, instead of filing tax reports, you must pay the taxes directly to the tax agency.\) In this case, you need to create the tax bills by using the [Tax Bills and Adjustments](../UserGuide/TX_30_30_00.md) \(TX303000\) form, and then pay the billable amounts to the vendor \(which is a tax agency\).
 
-## Definition of a Tax Agency Account { .section}
+## Definition of a Tax Agency Account
 
 In Acumatica ERP, you define a tax agency as a vendor \(because you make payments to it\) by using the [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\) form. On this form, you indicate that the vendor is a tax agency by selecting the **Vendor Is Tax Agency** check box, which causes the **Tax Agency** tab to appear on the form. On this tab, you should specify the specific settings for the tax agency.
 
 For details, see [Tax Agency: To Set Up a Tax Agency for Sales Taxes](TaxAgency_SalesTaxes_Implem_Activity.md) and [Tax Agency: To Set Up a Tax Agency for VAT](TaxAgency_VAT_Implem_Activity.md).
 
-## Preparation of a Tax Agency for Tax Reporting { .section}
+## Preparation of a Tax Agency for Tax Reporting
 
 For each tax agency to which you will report taxes, you specify the following tax report-related settings on the **Tax Agency** tab of the [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\) form:
 

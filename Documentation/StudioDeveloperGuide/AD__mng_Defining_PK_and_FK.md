@@ -1,4 +1,4 @@
-# Defining Relationships Between DACs {#_92c13762-b9c3-4267-b5cf-4b04fdb78e78 .concept}
+# Defining Relationships Between DACs
 
 In this chapter, you can learn how to define relationships between data access classes \(DACs\) by using the special classes for primary, foreign, and unique keys.
 

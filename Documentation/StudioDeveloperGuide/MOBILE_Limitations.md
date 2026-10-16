@@ -1,4 +1,4 @@
-# Known Limitations {#_340081e9-4e9f-4030-853a-19d298331d72 .concept}
+# Known Limitations
 
 The Acumatica mobile app has the following functionality limitations:
 

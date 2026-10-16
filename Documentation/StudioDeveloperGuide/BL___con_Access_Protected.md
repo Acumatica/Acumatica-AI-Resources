@@ -1,8 +1,8 @@
-# Access to Protected Graph Members {#_af86ebcf-0ea1-4c22-b624-99fc14c0b02c .concept}
+# Access to Protected Graph Members
 
 To call a protected member of a graph in its extension, you can use the [PXProtectedAccess](https://help.acumatica.com/(W(4))/Help?ScreenId=ShowWiki&pageid=9526ccd8-4e46-3f0c-d6e5-174d361e8997) attribute.
 
-## Calling Protected Graph Members { .section}
+## Calling Protected Graph Members
 
 To be able to access a protected member of a graph in a graph extension, you should do the following:
 
@@ -15,11 +15,11 @@ To be able to access a protected member of a graph in a graph extension, you sho
 
 The framework replaces the body of the member annotated with PXProtectedAccess with the body of the corresponding member in the graph or lower-level graph extension.
 
-## Example: Calling Protected Members of a Graph { .section}
+## Example: Calling Protected Members of a Graph
 
 Suppose that the code of Acumatica ERP includes the following graph.
 
-```language-csharp
+```csharp
 public class MyGraph : PXGraph<MyGraph>
 {
     protected void Foo(int param1, string param2) { ... }
@@ -32,7 +32,7 @@ public class MyGraph : PXGraph<MyGraph>
 
 You can use the members in an extension of the graph, as shown in the following example.
 
-```language-csharp
+```csharp
 [PXProtectedAccess]
 public abstract class MyExt : PXGraphExtension<MyGraph>
 {
@@ -59,11 +59,11 @@ public abstract class MyExt : PXGraphExtension<MyGraph>
 }
 ```
 
-## Example: Calling Protected Members of a Graph Extension { .section}
+## Example: Calling Protected Members of a Graph Extension
 
 Suppose that the code of Acumatica ERP includes the following graph.
 
-```language-csharp
+```csharp
 public class MyGraph : PXGraph<MyGraph>
 {
     protected void Bar() { }
@@ -72,7 +72,7 @@ public class MyGraph : PXGraph<MyGraph>
 
 Suppose also that custom code includes the following extension of this graph.
 
-```language-csharp
+```csharp
 public class MyExt : PXGraphExtension<MyGraph>
 {
     protected void Foo() { }
@@ -81,7 +81,7 @@ public class MyExt : PXGraphExtension<MyGraph>
 
 You can use the protected member of the graph extension by specifying the parameter of the attribute, as shown in the following example.
 
-```language-csharp
+```csharp
 [PXProtectedAccess]
 public abstract class MySecondLevelExt : PXGraphExtension<MyExt, MyGraph>
 {

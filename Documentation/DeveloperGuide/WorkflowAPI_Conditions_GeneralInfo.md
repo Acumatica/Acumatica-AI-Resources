@@ -1,12 +1,12 @@
-# Conditions: General Information {#_9770cfd2-3863-4cff-acb6-6abe4d5465af .concept}
+# Conditions: General Information
 
 A *condition* is a Boolean statement that is checked in a workflow. When the statement is true, a workflow component can change to your specifications.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn where and how a condition can be applied.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You can use a condition in the following ways:
 
@@ -14,11 +14,11 @@ You can use a condition in the following ways:
 -   To change Boolean properties of each field, such as its visibility, requirement, and availability
 -   To check whether a transition should be performed
 
-## Declaring of Conditions { .section}
+## Declaring of Conditions
 
 You declare conditions in a class that inherits from the Condition.Pack class. In that class, you define a member of the Condition type by calling the GetOrCreate method. As a parameter, you provide a fluent BQL statement that uses the FromBql or FromBqlType method. An example of definition of conditions is shown in the following code.
 
-```language-csharp
+```csharp
 public class Conditions : Condition.Pack
 {
   public Condition IsOnHold => 
@@ -36,7 +36,7 @@ You can combine conditions by using logical AND, OR, and NOT C\# operators to dy
 
 **Important:** A condition that is declared using the Condition.Pack class is automatically registered in the screen configuration and does not need to be added to it manually.
 
-## Use of Conditions { .section}
+## Use of Conditions
 
 You can use conditions in the following ways:
 
@@ -56,7 +56,7 @@ You can use conditions in the following ways:
 
     To do this, you call the When method while adding the transition in a transition group and provide a condition as a parameter. This way, you can also create multiple transitions with a single initial workflow state if these transitions should be triggered by the same action or event. The transition is performed when the provided condition is true. An example is shown in the following code.
 
-    ```language-csharp
+    ```csharp
     .WithTransitions(transitions =>
     {
       transitions.AddGroupFrom(initialState, transitionGroup =>

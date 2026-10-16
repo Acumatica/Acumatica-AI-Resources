@@ -1,4 +1,4 @@
-# Refunds: Payment Receipts {#_ed723954-7358-42e7-be98-30acc512f587 .concept}
+# Refunds: Payment Receipts
 
 After a refund to a customer has been processed, you can provide your customer with proof of purchase by generating a payment receipt for the released transaction. On the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, you can print the payment receipt or send an email with it.
 
@@ -11,7 +11,7 @@ You can use this functionality if either of the following conditions is met:
 
 The PDF attachment in the generated email includes the payment details. You can also print this PDF report.
 
-## Functionality Setup { .section}
+## Functionality Setup
 
 To set up this functionality, do the following:
 
@@ -25,7 +25,7 @@ To set up this functionality, do the following:
 
 3.  On the same tab, add mailing recipients to the **Default Recipients** table.
 
-## Automatic Generation of Receipts { .section}
+## Automatic Generation of Receipts
 
 You use the [Print/Email AR Documents](AR_50_80_00.md) \(AR508000\) form to mass-process payment receipts and scheduling the automatic sending of them to customers. To generate emails with payment receipts for refunds, perform the following steps:
 
@@ -44,7 +44,7 @@ To schedule the automatic sending of payment receipts, an administrative user sh
 1.  On the [Payment Methods](CA_20_40_00.md) \(CA204000\) form, select the **Send Payment Receipts Automatically** check box for the needed payment methods.
 2.  On the [Print/Email AR Documents](AR_50_80_00.md) \(AR508000\) form, create a schedule. Once the schedule is created, payment receipts will be automatically sent to customers based on this schedule. For more information about schedules, see [Scheduling Automated Processing](SA_Scheduling_Automated_Processing_Mapref.md).
 
-## Manual Generation of Receipts { .section}
+## Manual Generation of Receipts
 
 On the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, you generate payment receipts by doing either of the following:
 

@@ -1,4 +1,4 @@
-# Value-Added Taxes {#_6160ade0-3245-43f8-8634-38daad5da0e5 .concept}
+# Value-Added Taxes
 
 The topics of this chapter describe how to configure a value-added tax \(VAT\) in Acumatica ERP.
 

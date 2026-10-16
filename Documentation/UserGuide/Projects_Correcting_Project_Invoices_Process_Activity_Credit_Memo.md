@@ -1,16 +1,16 @@
-# Project Invoice Correction: To Prepare a Credit Memo for a Project {#_b7780e7e-a253-5571-9589-8ba50dc7ad77 .task}
+# Project Invoice Correction: To Prepare a Credit Memo for a Project
 
 In this activity, you will correct the actual amounts of a project that has been overcharged during the billing. To do this, you will create a credit memo for the project.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the Thai Food Restaurant customer recently ordered eight hours of training on how to use a juicer it had previously bought from the SweetLife Fruits &amp; Jams company. SweetLife's project accountant created a project for this training, a consultant of SweetLife provided the training, and the project accountant billed the customer.
 
 Further suppose that the project accountant has realized that the consultant provided six hours of training instead of eight, so the company overcharged the customer by $100. Acting as the project accountant, you need to correct the actual amount of the project and create a credit memo for the project.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -18,18 +18,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Projects](PM_30_10_00.md) \(PM301000\) form, the *TOMYUM11* project has been created and the *TRAINING* project task has been created for the project. On the **Summary** tab \(**Billing and Allocation Settings** section\), the **Create Pro Forma Invoice on Billing** check box has been selected for the project.
 -   For the project, the *000004* pro forma invoice and the corresponding *000075* accounts receivable invoice have been created and released on the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) and [Invoices and Memos](AR_30_10_00.md) \(AR301000\) forms, respectively.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Projects](PM_30_10_00.md) \(PM301000\) form, you will update the pending invoice amount of the project with a negative amount and run project billing to prepare a pro forma invoice. On the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form, you will review the pro forma invoice and release it. You will then review the credit memo that was created based on the pro forma invoice and release the credit memo on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
 1.  Launch the Acumatica ERP website and sign in as Pam Brawner using the *brawner* username and *123* password.
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step: Creating a Credit Memo for the Project { .section}
+## Step: Creating a Credit Memo for the Project
 
 To create a credit memo for the extra $100 that was billed for the project, do the following:
 
@@ -50,7 +50,6 @@ To create a credit memo for the extra $100 that was billed for the project, do t
 
     On the **Invoices** tab, notice that the credit memo with the corresponding pro forma invoice has appeared in the table \(see below\).
 
-    ![](Images/activity_Projects_Credit_Memo.png "The credit memo created for the project")
 
 
 You have adjusted the overcharged actual income in the project. In the next step of the process in a production environment \(which is beyond the scope of this activity\), an accounts receivable clerk would apply the created credit memo to the original invoice that has been corrected.

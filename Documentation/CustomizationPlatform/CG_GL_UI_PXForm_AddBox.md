@@ -1,4 +1,4 @@
-# To Add a Box for a Data Field {#_e1a82e2a-4528-48fb-b425-a50209377b6d .concept}
+# To Add a Box for a Data Field
 
 The Acumatica Customization Platform supports the following types of boxes for data fields:
 
@@ -33,7 +33,6 @@ To add a box for a data field to a container that is bound to a data view, perfo
 
 6.  Find the required data field in the list, and if the field is not used \(the check box in the **Used** column is cleared for the field\), select the check box for the field in the first \(unlabeled\) column, as the following screenshot shows.
 
-    ![](images/CG_GL_UI_PXForm_AddBox.png "Selecting a data field for which a box to be created")
 
     **Note:** You can select multiple data fields to create multiple boxes simultaneously.
 

@@ -1,10 +1,10 @@
-# Emails and Activities: Events {#_a8264a9f-15b6-4234-9689-0d8ad9e837f0 .concept}
+# Emails and Activities: Events
 
 In Acumatica ERP, an event is a record on the [Event](CR_30_60_30.md) \(CR306030\) form that represents a scheduled occurrence, such as an appointment or conference call, that is typically attended by multiple people. You can create an event by clicking **Create Event** on the **Activities** tab of such forms as [Leads](CR_30_10_00.md) \(CR301000\), [Contacts](CR_30_20_00.md) \(CR302000\), or [Business Accounts](CR_30_30_00.md) \(CR303000\). The event will be associated with the entity selected on the form.
 
 An event has a start date and time and an end date and time. You can create an event and invite leads, contacts, employees, and persons whose data has not been entered in the system. Also, you can receive email notifications about events created by other users.
 
-## Form Layout for an Event Owner { .section}
+## Form Layout for an Event Owner
 
 For the owner of the event selected on the [Event](CR_30_60_30.md) \(CR306030\) form, the form toolbar has the **Complete** and **Cancel** buttons, and the More menu has the equivalent commands. In the Summary area, the event owner can enter and change the summary settings of the event, such as date, time, priority, and location.
 
@@ -18,13 +18,13 @@ On the **Attendees** tab, the event owner can list potential attendees. In the *
 
 On the **Activities** tab, the event owner can create any emails and activities that are related to the event. For each email or activity, the system adds a row to the table with the summary information about this event or activity. The table also lists all the activities that have been created for the event, including invitations sent to potential attendees. The event owner can delete any row in the table.
 
-## Form Layout for a Potential Attendee of an Event { .section}
+## Form Layout for a Potential Attendee of an Event
 
 For a potential attendee of the event selected on the [Event](CR_30_60_30.md) \(CR306030\) form, the form toolbar has the **Accept** and **Decline** buttons, and the More menu has the equivalent commands.
 
 In the Summary area, on the **Details** and **Attendees** tabs, all of the UI elements are unavailable for editing.
 
-## Actions That Cause the Sending of Event-Related Notification Emails { .section}
+## Actions That Cause the Sending of Event-Related Notification Emails
 
 If an event owner has added potential attendees to an event on the **Attendees** tab of the [Event](../Shared/../UserGuide/CR_30_60_30.md) \(CR306030\) form, the system sends notification emails to the email addresses of the potential attendees based on the actions of the event owner as follows:
 
@@ -35,7 +35,7 @@ If an event owner has added potential attendees to an event on the **Attendees**
 -   A notification to all potential attendees if the event has been canceled: If the event's owner cancels the event after the invitations to all potential attendees have been sent, the **Confirmation** dialog box is displayed with the following text: *The invitations that have already been sent will be canceled*. If the event's owner clicks **Confirm**, the system sends the notifications that event has been canceled to all potential attendees and deletes the event.
 -   A notification about the cancellation of the event to a particular potential attendee: The system sends this notification if the event's owner deletes the invited potential attendee on the **Attendees** tab, saves the changes, the start time of the event is not later than the event's end time and date, and the attendee's invitation status is *Invited*, *Accepted*, or *Rescheduled*.
 
-## Maintenance Settings that Affect Events { .section}
+## Maintenance Settings that Affect Events
 
 On the [Event Setup](EP_20_40_70.md) \(EP204070\) form, a system administrator can configure the way the system sends automatic notification emails to potential attendees of an event when the event's owner performs particular actions on the [Event](CR_30_60_30.md) \(CR306030\) form.
 

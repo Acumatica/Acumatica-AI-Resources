@@ -1,4 +1,4 @@
-# JournalTransaction {#_8a4db230-e31f-411b-b84e-661caf1f0315 .concept}
+# JournalTransaction
 
 This chapter presents code examples showing requests that use the `JournalTransaction` entity.
 

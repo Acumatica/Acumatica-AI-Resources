@@ -1,14 +1,14 @@
-# Access to Budget Nodes: Implementation Activity {#_5f2f3a4a-8200-4eb1-a137-5f462fac9d05 .task}
+# Access to Budget Nodes: Implementation Activity
 
 The following activity will walk you through the process of configuring access to budget nodes based on user roles.
 
-## Story { .section}
+## Story
 
 Suppose that the management team of SweetLife Fruits &amp; Jams has asked the system administrator to assign access rights to the budget nodes for employees of particular roles: Sales managers should be able to view only the **Sales** node, purchasing managers should be able to view only the **Production** node, and the financial supervisor should view all nodes of the budget tree.
 
 Acting as a system administrator, you need to give the users of the *Sales Manager*, *Purchasing Manager*, and *Financial Supervisor* roles the ability to access the budget tree nodes. \(For the *Sales Manager* and *Purchasing Manager* roles, you will grant the access to only particular users with the role—those that have completed their orientation period and are considered qualified to view this information.\) You will then review the access rights for the nodes.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed for the purposes of this activity:
 
@@ -16,18 +16,18 @@ In the *U100* dataset, the following tasks have been performed for the purposes 
 -   On the [Users](../UserGuide/SM_20_10_10.md) \(SM201010\) form, the *becher*, *chubb*, *norman*, *pick*, *johnson*, and *gibbs* user accounts have been created.
 -   On the [User Roles](../UserGuide/SM_20_10_05.md) \(SM201005\) form, the *Sales Manager*, *Purchasing Manager*, and *Financial Supervisor* roles have been defined.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Access Rights by Role](../UserGuide/SM_20_10_25.md) \(SM201025\) form, you will first assign access to the [Budgets](../UserGuide/GL_30_20_10.md) \(GL302010\) form for the *Sales Manager* and *Purchasing Manager* user roles. You will then enable the *Row-Level Security* feature on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form. On the [GL Budget Access](../UserGuide/GL_10_50_30.md) \(GL105030\) form, you will create the *SalesBudget* and *ProductionBudget* restriction groups, selecting the users and budget tree nodes for each group, to assign access to the particular budget nodes.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
 1.  Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as a system administrator Kimberly Gibbs by using the *gibbs* username and the *123* password.
 2.  Make sure that you have completed [Budget Tree: Implementation Activity](config_Budget_Tree_Implem_Activity.md).
 
-## Step 1: Assigning Access to All Budget Nodes for User Roles { .section}
+## Step 1: Assigning Access to All Budget Nodes for User Roles
 
 To give users that are assigned to the *Sales Manager* and *Purchasing Manager* roles the access rights to review and modify budgets on the [Budgets](../UserGuide/GL_30_20_10.md) \(GL302010\) form, do the following:
 
@@ -44,7 +44,7 @@ To give users that are assigned to the *Sales Manager* and *Purchasing Manager* 
 6.  In the left pane, click *Finance*, and in the table in the right pane, for the *Budgets* row, double-click the value in the **Access Rights** column, and select *Edit*.
 7.  On the form toolbar, click **Save** to save your changes.
 
-## Step 2: Enabling the Needed Feature { .section}
+## Step 2: Enabling the Needed Feature
 
 In this step, you will enable the *Row-Level Security* feature, which will make it possible to define restriction groups in the system. To enable the needed feature, do the following:
 
@@ -53,7 +53,7 @@ In this step, you will enable the *Row-Level Security* feature, which will make 
 3.  Select the **Row-Level Security** check box \(in the **Platform** group\).
 4.  On the form toolbar, click **Enable**.
 
-## Step 3: Assigning Access Rights to the Sales Node { .section}
+## Step 3: Assigning Access Rights to the Sales Node
 
 In this step, you will create a restriction group and assign access rights to users with the *Sales Manager* role, as well as to the financial supervisor, who has the *johnson* username. Do the following:
 
@@ -78,7 +78,7 @@ In this step, you will create a restriction group and assign access rights to us
 6.  Make sure that the Included check boxes for sales articles have been selected automatically by the system.
 7.  On the form toolbar, click **Save** to save the new restriction group.
 
-## Step 4: Assigning Access Rights to the Production Node { .section}
+## Step 4: Assigning Access Rights to the Production Node
 
 To create a restriction group and assign access rights to users with the *Purchasing Manager* role \(as well as to the financial supervisor, who has the *johnson* username\), do the following:
 

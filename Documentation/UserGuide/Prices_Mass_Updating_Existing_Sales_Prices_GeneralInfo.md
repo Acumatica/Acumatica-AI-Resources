@@ -1,16 +1,16 @@
-# Mass-Update of Sales Prices: General Information {#_7d0a1afd-77f9-4a05-9f6a-5c4cba2871e7 .concept}
+# Mass-Update of Sales Prices: General Information
 
 Occasionally, you might need to update the sales prices of your stock and non-stock items. Acumatica ERP provides you with the ability to mass-recalculate the existing sales prices by using specific criteria.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 You will learn how to recalculate existing sales prices based on the manufacturer's suggested retail price \(MSRP\).
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 By using sales price worksheets, you can mass-calculate prices of any type, except for default prices. That is, you can mass-calculate base prices or prices specific to a customer or customer price class, including sales prices that have been marked as promotional or that have been defined for a particular unit of measure or a particular warehouse.
 
-## Price Basis { .section}
+## Price Basis
 
 Your company may use a cost-plus approach or set prices to achieve specific profit targets. In Acumatica ERP, you can calculate pending sales prices for both non-stock items and stock items by using the approach—that is, by choosing the price basis—that makes the most sense at a particular time.
 
@@ -25,7 +25,7 @@ In Acumatica ERP, the options for the price basis can be divided into the follow
     You specify values for these options by using the [Sales Price Worksheets](AR_20_20_10.md) \(AR202010\) form.
 
 
-## Calculation of Pending Prices Based on the MSRP { .section}
+## Calculation of Pending Prices Based on the MSRP
 
 An item's MSRP—that is, the manufacturer's suggested retail price—is specified on the **Price/Cost** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form. A similar box is available on the **Price/Cost** tab of the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form for non-stock items.
 

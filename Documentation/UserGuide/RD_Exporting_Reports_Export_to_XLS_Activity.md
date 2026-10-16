@@ -1,18 +1,18 @@
-# Report Export: To Export a Report as an XLS file {#_ef467451-6733-42b7-82e1-51688e4dd792 .task}
+# Report Export: To Export a Report as an XLS file
 
 In the following activity, you will learn how to export a report to an XLS file.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist in your company who is working on simple customizations. A sales manager of your company has requested the [Vendor Summary](AP_65_50_00.md) \(AP655000\) report in XLS format. The sales manager plans to process the data further in Excel. You plan to use a copy of the report; after checking its settings, you will run the report and export it.
 
-## Process Overview { .section}
+## Process Overview
 
 In the Report Designer, you will open the `AP6550C4.RPX` report, which is a copy of the [Vendor Summary](AP_65_50_00.md) \(AP655000\) report. You will make sure that the report is simple and can be exported without additional settings being specified. Then in Acumatica ERP, you will run the report and export it as an XLS file.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you perform the steps of this activity, make sure that the following tasks have been performed:
 
@@ -33,15 +33,14 @@ Also, to prepare for use the file that is intended for this activity, do the fol
     The report is saved on the server.
 
 
-## Step 1: Checking the Export Setting { .section}
+## Step 1: Checking the Export Setting
 
 To check the report's export setting, do the following:
 
 1.  In the Report Designer, make sure that the *AP6550C4* report \(which you have saved to the server\) is open.
-2.  In the top left corner of the Design pane of Report Designer, click the ![](Images/Defining_the_Data_Groups_for_a_Report_Using_FiltersReportSelectionIcon.PNG) icon to select the report, and set the **Layout** &gt; **Excel Mode** property to *Auto*.
 3.  On the Report Designer window toolbar, click **Save**.
 
-## Step 2: Exporting the Report as an XSL File { .section}
+## Step 2: Exporting the Report as an XSL File
 
 To export the report, do the following:
 
@@ -59,7 +58,6 @@ To export the report, do the following:
 
 4.  Open the XLS file to view the result of the export in Excel \(see the following screenshot\).
 
-![](Images/RD_exported_report.png "The exported Vendor Summary (AP6550C4) report opened in Excel")
 
 **Parent topic:**[Exporting Reports](../UserGuide/RD_Exporting_Reports_Mapref.md)
 

@@ -1,10 +1,10 @@
-# Items with Lot and Serial Numbers: To Purchase and Sell Serialized Items {#_847ed262-b5fd-42ea-8919-383a931ad56e .task}
+# Items with Lot and Serial Numbers: To Purchase and Sell Serialized Items
 
 In the following activity, you will learn how to create and process purchase and sales documents for a stock item with a serial number that is entered manually into each shipment that includes units of the item.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 In this activity, you will act as sales and purchasing manager Pam Brawner in the Service and Equipment Sales Center of the SweetLife Fruits &amp; Jams company.
 
@@ -12,7 +12,7 @@ Suppose that you have received an order for two juicers with a production rate o
 
 You will process the sales order and the related purchase order in the system and enter serial numbers manually when processing the shipment.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -25,7 +25,7 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *SQUEEZO* vendor has been created.
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *TOMYUM* customer has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -36,14 +36,14 @@ In this activity, you will do the following:
 5.  On the [Shipments](SO_30_20_00.md) form, enter the serial numbers of the units of the items to be sold.
 6.  On the [Shipments](SO_30_20_00.md) form, confirm the shipment, and on the [Invoices](SO_30_30_00.md) \(SO303000\) form, process the related invoice.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start preparing the purchasing and sales documents for items with serial numbers, you should do the following:
 
 1.  Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as sales and purchasing manager Pam Brawner by using the *brawner* username and the *123* password.
 2.  On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, make sure that the *Lot and Serial Tracking* feature is enabled.
 
-## Step 1: Creating a Sales Order { .section}
+## Step 1: Creating a Sales Order
 
 To create the sales order for two juicers from the *TOMYUM* customer, do the following:
 
@@ -67,7 +67,7 @@ To create the sales order for two juicers from the *TOMYUM* customer, do the fol
 
 You have created a sales order for the juicers and marked the item to be purchased for sale; now you will create a purchase order.
 
-## Step 2: Creating a Purchase Order { .section}
+## Step 2: Creating a Purchase Order
 
 Now you will create a purchase order for two units of the *JUICER05C* item from the *SQUEEZO* \(Squeezo Inc.\) vendor. To create a purchase order for the items that are marked for purchase, do the following:
 
@@ -86,7 +86,7 @@ Now you will create a purchase order for two units of the *JUICER05C* item from 
 
 You can now print the purchase order and send it to the Squeezo Inc. vendor by mail. In this activity, we will skip this step.
 
-## Step 3: Creating a Purchase Receipt { .section}
+## Step 3: Creating a Purchase Receipt
 
 Suppose that the Squeezo Inc. vendor has delivered the juicers to the *EQUIPHOUSE* warehouse. To prepare the needed documents to reflect the receipt of the juicers, do the following:
 
@@ -101,7 +101,7 @@ Suppose that the Squeezo Inc. vendor has delivered the juicers to the *EQUIPHOUS
 
 The ordered juicers are ready for shipment.
 
-## Step 4: Creating a Shipment { .section}
+## Step 4: Creating a Shipment
 
 To create a shipment with the ordered and received juicers, do the following:
 
@@ -110,7 +110,7 @@ To create a shipment with the ordered and received juicers, do the following:
 
 Notice that the system displays a warning on the **Details** tab that serial numbers are not specified for the juicer units and displays the ordered quantity of juicers in the **Unassigned Qty.** column. This means that you need to specify serial numbers for the ordered juicers manually.
 
-## Step 5: Specifying Serial Numbers for the Shipped Items { .section}
+## Step 5: Specifying Serial Numbers for the Shipped Items
 
 To manually specify the serial numbers in the shipment for the juicers to be sold, do the following:
 
@@ -128,7 +128,7 @@ To manually specify the serial numbers in the shipment for the juicers to be sol
 
 You have entered the serial numbers of the juicers. Notice that the **Unassigned Qty.** column and the warning on the **Details** tab are no longer shown. Now you can confirm the shipment and process the related invoice.
 
-## Step 6: Confirming the Shipment and Processing the Invoice { .section}
+## Step 6: Confirming the Shipment and Processing the Invoice
 
 To confirm the shipment and process the related invoice, do the following:
 

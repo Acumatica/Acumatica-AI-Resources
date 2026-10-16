@@ -1,4 +1,4 @@
-# Integrating Acumatica ERP with Microsoft Entra ID {#_68201e8c-05e5-42da-8028-360241a2aefe .concept}
+# Integrating Acumatica ERP with Microsoft Entra ID
 
 The integration of Acumatica ERP with Microsoft Entra ID \(formerly known as Microsoft Azure Active Directory\) provides single sign-on \(SSO\) and centralized user and access management. You can use an instance of Microsoft Entra ID, which is a cloud version of the Active Directory service, if your organization is signed up for a Microsoft cloud service, such as Azure or Office 365.
 

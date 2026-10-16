@@ -1,16 +1,16 @@
-# Pro Forma Invoices: To Process a Pro Forma Invoice for a Project {#_c53c0234-16c1-4385-a12e-d9cecd34d4c0 .task}
+# Pro Forma Invoices: To Process a Pro Forma Invoice for a Project
 
 In this activity, you will learn about the workflow of a pro forma invoice that has been prepared for a project.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the HM's Bakery and Cafe customer has ordered juicers from the SweetLife Fruits &amp; Jams company, along with the following services: site review, installation, and employee training on operating the juicers. SweetLife's project accountant has created a project that should be billed on demand as the juicers are installed and all the services are provided. Before the invoice is sent to the customer for payment, the customer has requested a pro forma invoice to be submitted for acceptance. The site review has taken place, the juicers have been delivered and installed, and SweetLife's consultant has provided the training. After that, the project accountant has entered project transactions and updated the progress of the project.
 
 Acting as the project accountant, you will bill the customer, print the pro forma invoice, and email the invoice to the customer for approval on *1/30/2026*. Then you will release the pro forma invoice and the associated accounts receivable invoice.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -18,11 +18,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Projects](PM_30_10_00.md) \(PM301000\) form, the *HMBAKERY5* project has been created and the *PHASE1*, *PHASE2*, *PHASE3*, *PHASE4*, and *PHASE5* project tasks have been created for the project. The revenue budget level of the project is *Task and Item*. On the **Summary** tab \(**Billing and Allocation Settings** section\), the **Create Pro Forma Invoice on Billing** check box has been selected for the project. With this setting, the system creates a pro forma invoice for the project when you run project billing.
 -   On the [Project Transactions](PM_30_40_00.md) \(PM304000\) form, the *PM00000008* batch of project transactions related to the project has been created and released.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Projects](PM_30_10_00.md) \(PM301000\) form, you will initiate the creation of a pro forma invoice for the project. Then you will review the created pro forma invoice on the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form. You will then print the pro forma invoice, email the invoice, and release it on the same form. On the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will release the accounts receivable invoice created based on the pro forma invoice.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
@@ -30,7 +30,7 @@ To sign in to the system and prepare to perform the instructions of the activity
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the [Projects Preferences](PM_10_10_00.md) \(PM101000\) form, on the **General** tab \(**General Settings** section\), make sure *Detailed* is selected in the **Revenue Budget Update** box.
 
-## Step 1: Creating and Processing a Pro Forma Invoice {#section_ugp_m1l_yqb .section}
+## Step 1: Creating and Processing a Pro Forma Invoice
 
 To prepare and process a pro forma invoice for the project, do the following:
 
@@ -61,14 +61,13 @@ To prepare and process a pro forma invoice for the project, do the following:
 10. On the form toolbar, click **Remove Hold** to assign the pro forma invoice the *Open* status.
 11. On the form toolbar, click **Release**. The system creates the accounts receivable invoice based on the pro forma invoice and assigns the *Closed* status to the pro forma invoice.
 
-## Step 2: Processing an AR Invoice {#section_vgp_m1l_yqb .section}
+## Step 2: Processing an AR Invoice
 
 To process the accounts receivable invoice that was generated based on the pro forma invoice, do the following:
 
 1.  While you are viewing the pro forma invoice on the [Pro Forma Invoices](PM_30_70_00.md) \(PM307000\) form, on the **Financial** tab, click the **AR Ref. Nbr.** link to open the accounts receivable invoice that was created.
 2.  On the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, which opens, notice that all progress billing and time and material lines of the pro forma invoice have been copied to the **Details** tab of the accounts receivable invoice \(see below\). The settings in these lines cannot be edited, except in the **Salesperson ID** column.
 
-    ![](Images/activity_Projects_ProFormaInvoice.png "The AR invoice prepared based on the pro forma invoice")
 
 3.  On the form toolbar, click **Remove Hold** to assign the accounts receivable invoice the *Balanced* status, and then click **Release**.
 4.  On the **Financial** tab, click the link in the **Batch Nbr.** box. On the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form, which opens, review the created general ledger transactions.

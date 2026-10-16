@@ -1,4 +1,4 @@
-# Control Accounts: UI Elements for Which Control Accounts Are Expected {#_6a5acf7d-05d9-4657-a8fe-5782cb4984bd .concept}
+# Control Accounts: UI Elements for Which Control Accounts Are Expected
 
 For each particular subledger, the following table lists the lookup boxes and columns where the system expects the selected account to be configured as a control account for a particular subledger.
 

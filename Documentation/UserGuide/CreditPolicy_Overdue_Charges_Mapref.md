@@ -1,4 +1,4 @@
-# Applying Overdue Charges {#_b18aed9e-5606-4e4e-941d-af8580f3f177 .concept}
+# Applying Overdue Charges
 
 In this chapter, you will learn about the setup of the overdue charges process and the calculation methods for overdue charges. You can calculate additional charges on overdue documents and show them in customer statements. Overdue charges are calculated on documents that are overdue on the calculation date. Overdue charges can be calculated for groups of customers, based on their statement cycle or customer class.
 

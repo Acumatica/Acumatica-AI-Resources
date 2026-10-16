@@ -1,8 +1,8 @@
-# Multiple Branch Support \(BranchID, UsrBranchID\) {#_47b7beb9-5667-412c-81e2-a391a3976d02 .concept}
+# Multiple Branch Support \(BranchID, UsrBranchID\)
 
 Acumatica ERP supports multibranch functionality. For details about which data is shared between branches and which data is isolated, see [Multiple Branch Support](../UserGuide/CS__con_Multiple_Branch_Support.md).
 
-## Multibranch Support { .section}
+## Multibranch Support
 
 Multiple branch support is turned on or off for each particular table individually. To turn on multibranch support for a table, add the `BranchID` or `UsrBranchID` column to it \(see the column parameters in the table below\) and declare the `BranchID` or `UsrBranchID` field in the corresponding data access class. For any table that contains the `BranchID` or `UsrBranchID` column, the framework automatically includes the `BranchID` condition in `Where` clauses. If a table does not have the `BranchID` or `UsrBranchID` column, all data from the table is fully accessible to all branches of the tenant.
 

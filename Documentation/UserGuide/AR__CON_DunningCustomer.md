@@ -1,4 +1,4 @@
-# Preparation of Dunning Letters: Dunning Process by Customer {#_754ebab3-60ae-42e4-8049-02dc81418d87 .concept}
+# Preparation of Dunning Letters: Dunning Process by Customer
 
 You select the *By Customer* option in the **Dunning Process** box on the **Dunning** tab of the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form to define that the system groups overdue documents by customer account when it prepares dunning letters.
 
@@ -9,7 +9,7 @@ In general, you prepare dunning letters as follows:
 
 In this topic, you will read about the letter generation rules, the dunning process workflow, and the way the system changes the status of the dunning letter.
 
-## Dunning Letter Generation Rules {#section_gc2_hjv_vxb .section}
+## Dunning Letter Generation Rules
 
 When you group overdue documents by customer account, the generation of the letters is based on the following rules:
 

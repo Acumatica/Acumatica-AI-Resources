@@ -1,10 +1,10 @@
-# Sales Prices: Support of Net/Gross Tax Calculation Mode {#_f828d4b9-5e7c-4e34-8f51-9631d24dac05 .concept}
+# Sales Prices: Support of Net/Gross Tax Calculation Mode
 
 In Acumatica ERP, you can define gross and net prices by assigning business-to-business \(B2B\) and business-to-consumer \(B2C\) customers or customer locations to different customer price classes and setting up prices that depend on the customer's price class.
 
 You can create a sales document with the *Gross* tax calculation mode and specify gross prices or create a sales document with the *Net* tax calculation mode and specify net prices for it. This functionality is available in the system if the *Net/Gross Entry Mode* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. With this feature enabled, the **Tax Calculation Mode** setting appears on the [Sales Prices](AR_20_20_00.md) \(AR202000\) and [Sales Price Worksheets](AR_20_20_10.md) \(AR202010\) forms.
 
-## Setup of Tax Calculation Mode for Sales Prices { .section}
+## Setup of Tax Calculation Mode for Sales Prices
 
 To enable the *Net* or *Gross* tax calculation mode for sales prices, you should do the following:
 
@@ -16,7 +16,7 @@ To enable the *Net* or *Gross* tax calculation mode for sales prices, you should
     If you want to create a new worksheet on the [Sales Price Worksheets](AR_20_20_10.md) \(AR202010\) forms, be aware that when you click **Copy Prices** on the table toolbar, the system copies only the prices that have a tax calculation mode selected in the **Tax Calculation Mode** box in the Summary area of this form.
 
 
-## Price Selection Rules { .section}
+## Price Selection Rules
 
 In addition to the priority of prices copied by default to a document, the system selects only prices that meet particular criteria as follows, depending on the value in the **Tax Calculation Mode** box specified for the document:
 

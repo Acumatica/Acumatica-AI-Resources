@@ -1,4 +1,4 @@
-# Configuring Printers {#_06681984-282b-47a8-998a-2e6d7ac50b96 .concept}
+# Configuring Printers
 
 In the topics of this chapter, you will learn how to add a printer to DeviceHub, synchronize this printer in Acumatica ERP, and print a document. You will also learn how to configure default printers in Acumatica ERP and set up printer access by using restriction groups.
 

@@ -1,8 +1,8 @@
-# Budget Revision: Process Activity {#_7118d45a-1207-4bb4-9147-b5979b4c6de6 .task}
+# Budget Revision: Process Activity
 
 In this activity, you will learn how to make changes to an existing budget.
 
-## Story {#section_iml_mjv_vxb .section}
+## Story
 
 Suppose that the management of the SweetLife Fruits &amp; Jams company has reviewed the budget for 2026 and decided to revise it as follows:
 
@@ -12,7 +12,7 @@ Suppose that the management of the SweetLife Fruits &amp; Jams company has revie
 
 Acting as the financial supervisor of SweetLife, you need to modify the 2026 budget in the system.
 
-## Configuration Overview {#section_lml_mjv_vxb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed for the purposes of this activity:
 
@@ -24,11 +24,11 @@ In the *U100* dataset, the following tasks have been performed for the purposes 
     -   *62900 - Rent or Lease Expense*
 -   On the [Ledgers](GL_20_15_00.md) \(GL201500\) form, the *BUDGET* ledger of the *Budget* type has been defined.
 
-## Process Overview {#section_pml_mjv_vxb .section}
+## Process Overview
 
 In this activity, to modify a budget, you will make the necessary changes to the budget on the [Budgets](GL_30_20_10.md) \(GL302010\) form. You will then release the modified budget articles on the [Release Budgets](GL_50_55_10.md) \(GL505510\) form.
 
-## System Preparation {#section_rml_mjv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -36,7 +36,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 3.  Make sure that you have performed the following prerequisite activity to create the budget for the *HEADOFFICE* branch: [Simple Budget: Process Activity](Finance_Preparing_Simple_Budget_Activity.md).
 
-## Step 1: Changing Amounts in the Released Budget {#section_tml_mjv_vxb .section}
+## Step 1: Changing Amounts in the Released Budget
 
 To make changes to the amounts in the budget of the *HEADOFFICE* branch, do the following:
 
@@ -55,7 +55,7 @@ To make changes to the amounts in the budget of the *HEADOFFICE* branch, do the 
 
 4.  On the form toolbar, click **Save** to save your changes.
 
-## Step 2: Changing the Amount and Distributing Rent Expenses {#section_wml_mjv_vxb .section}
+## Step 2: Changing the Amount and Distributing Rent Expenses
 
 To change the amount of rent expenses and distribute the expenses evenly among the periods, do the following:
 
@@ -70,7 +70,7 @@ To change the amount of rent expenses and distribute the expenses evenly among t
 
 4.  On the form toolbar, click **Save** to save your changes.
 
-## Step 3: Distributing Advertising Expense Amounts Proportionally to Released Values {#section_bnl_mjv_vxb .section}
+## Step 3: Distributing Advertising Expense Amounts Proportionally to Released Values
 
 To distribute the amounts of advertising expenses proportionally to released values, do the following:
 
@@ -85,7 +85,7 @@ To distribute the amounts of advertising expenses proportionally to released val
 6.  Click **OK**.
 7.  On the form toolbar, click **Save** to save your changes.
 
-## Step 4: Releasing the Budget Articles {#section_enl_mjv_vxb .section}
+## Step 4: Releasing the Budget Articles
 
 To release the budget articles, do the following:
 

@@ -1,8 +1,8 @@
-# Deductions from Assets: Generated Transactions {#_abe81ad4-44dd-40f1-aa48-7259b211291c .concept}
+# Deductions from Assets: Generated Transactions
 
 To process deductions from fixed assets, you create and process a debit adjustment. When making a deduction, the system creates a *Purchasing–* transaction and a *Reconciliation–* transaction. The system generates the GL transactions described in the following sections.
 
-## Transaction Generated for *Purchasing–* {#section_gxd_ljv_vxb .section}
+## Transaction Generated for *Purchasing–*
 
 When you process a deduction from a fixed asset, the system generates the following general ledger transaction.
 
@@ -13,7 +13,7 @@ When you process a deduction from a fixed asset, the system generates the follow
 
 You can view the reference number of the GL batch in the **Batch Nbr.** column on the **Transactions** tab of the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form. The reference number is also a link that you can click to view the GL batch on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## Transaction Generated for *Reconciliation–* {#section_jxd_ljv_vxb .section}
+## Transaction Generated for *Reconciliation–*
 
 When you process a deduction from a fixed asset, the system generates the following general ledger transaction.
 

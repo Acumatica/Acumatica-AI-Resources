@@ -1,8 +1,8 @@
-# Case Management: Return Orders {#_44c7e330-b079-4f30-8cc3-e449a4a7fd92 .concept}
+# Case Management: Return Orders
 
 In Acumatica ERP, while you are working with a case, you can create a return order for the customer directly from the case. You can configure the system to monitor the statuses of case-related return orders and generate notifications for users when orders are closed.
 
-## Creation of Return Orders { .section}
+## Creation of Return Orders
 
 You can create a return order based on a case on the [Cases](CR_30_60_00.md) \(CR306000\) form by clicking **Create Return Order** on the More menu. In the **Create Return Order** dialog box, which opens, you can specify the type of the order to be created on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form. In the **Return Order Type** box, only order types with the *RMA Order* automation behavior are available for selection. The automation behavior of an order type is specified in the [Order Types](SO_20_10_00.md) \(SO201000\) form. By default, the system inserts in this box the order type specified in the **Default Return Order Type** box on the [Sales Orders Preferences](SO_10_10_00.md) \(SO101000\) form if one has been specified. This box appears on the [Sales Orders Preferences](SO_10_10_00.md) form only if the *Customer Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
@@ -27,7 +27,7 @@ The system also creates a new relation between the case and the return order. Th
 
 You can view the list of case-related return orders on the Return Orders \(CR306017\) predefined generic inquiry form. The associated generic inquiry has the *CR-Return Orders* inquiry title specified on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form.
 
-## Notifications About the Closure of Case-Related Return Orders { .section}
+## Notifications About the Closure of Case-Related Return Orders
 
 You can monitor the closure of case-related return orders by using the following predefined business events on the [Business Events](SM_30_20_50.md) \(SM302050\) form:
 

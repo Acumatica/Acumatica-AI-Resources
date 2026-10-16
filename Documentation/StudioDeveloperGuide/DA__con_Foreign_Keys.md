@@ -1,4 +1,4 @@
-# Foreign Keys and Nullable Columns {#_8da9e9c6-ebbf-409a-b43d-a13d2081a62e .concept}
+# Foreign Keys and Nullable Columns
 
 In the database, you have to define the primary key in each application table that you create. The primary key defines the unique data record identifier, which provides table-level integrity of data.
 

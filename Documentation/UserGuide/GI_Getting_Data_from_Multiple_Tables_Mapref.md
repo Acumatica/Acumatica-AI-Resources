@@ -1,4 +1,4 @@
-# Getting Data from Multiple Data Sources {#_ede6eaa7-9e60-41dc-9c30-2bb6e18ea2c6 .concept}
+# Getting Data from Multiple Data Sources
 
 In most cases, a generic inquiry you are creating needs to display the data of some entity combined with the data of other related entities, so that the users of the inquiry form can explore the relationships between different types of entities. Thus, you need to combine data from multiple data sources.
 

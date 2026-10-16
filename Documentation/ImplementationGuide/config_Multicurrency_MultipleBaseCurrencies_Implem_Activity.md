@@ -1,16 +1,16 @@
-# Multiple Base Currencies: Implementation Activity {#_997e6cef-76c8-4fbb-bdae-a0700125ff66 .task}
+# Multiple Base Currencies: Implementation Activity
 
 In this implementation activity, you will learn how to create a company with a base currency that is different from the base currency of the companies in the tenant.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the management of SweetLife Fruits &amp; Jams has decided to establish a related company in Canada \(SweetLife Canada\). The company should have the *Without Branches* type and share the preferences and list of items with SweetLife Fruits &amp; Jams. However, the company should have a different base currency than SweetLife Fruit &amp; Jams has—Canadian dollar \(CAD\).
 
 Acting as the implementation consultant, you need to create the needed company, specifying its base currency and actual ledger. You will also create a cash account for the company and specify currency rates for *CAD* and *USD*.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, you will disable the features that do not support multiple base currencies and enable the needed features.
 
@@ -20,11 +20,11 @@ On the [Companies](../UserGuide/CS_10_15_00.md) \(CS101500\) form, you will crea
 
 On the [Chart of Accounts](../UserGuide/GL_20_25_00.md) \(GL202500\) form, you will create a GL account denominated in CAD, and on the [Cash Accounts](../UserGuide/CA_20_20_00.md) \(CA202000\) form, you will create a CAD cash account to be used in documents originating from the new SweetLife Canada company. On the [Currency Management Preferences](../UserGuide/CM_10_10_00.md) \(CM101000\) form, you will review and save the preferences that will be used in the system. Finally, on the [Currency Rates](../UserGuide/CM_30_10_00.md) \(CM301000\) form, you will create *CAD*-to-*USD* and *USD*-to-*CAD* rates that the system will use to convert amounts to and from the base currencies in the system.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating a company with the *CAD* base currency, launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as a system administrator Kimberly Gibbs by using the *gibbs* username and the *123* password.
 
-## Step 1: Enabling the Needed Features and Disabling Unsupported Features { .section}
+## Step 1: Enabling the Needed Features and Disabling Unsupported Features
 
 To disable the features that do not support multiple base currencies and enable the features that are needed for the support of multiple base currencies, do the following:
 
@@ -43,7 +43,7 @@ To disable the features that do not support multiple base currencies and enable 
     -   **Multiple Base Currencies** \(**Advanced Financials** group\)
 7.  On the form toolbar, click **Enable** to enable the selected features.
 
-## Step 2: Creating a New Company { .section}
+## Step 2: Creating a New Company
 
 To create a new company with the *CAD* base currency, do the following:
 
@@ -67,7 +67,7 @@ To create a new company with the *CAD* base currency, do the following:
 
 6.  On the form toolbar, click **Save**.
 
-## Step 3: Creating a Ledger for the New Company { .section}
+## Step 3: Creating a Ledger for the New Company
 
 To create an actual ledger for the new company, do the following:
 
@@ -78,7 +78,7 @@ To create an actual ledger for the new company, do the following:
 3.  Click **Create** to create this ledger and close the dialog box.
 4.  On the **Ledgers** tab, review the ledger you have created. Notice that the currency of the created ledger \(*CAD*\) is the base currency you have specified for the company.
 
-## Step 4: Reviewing the Base Currency Settings { .section}
+## Step 4: Reviewing the Base Currency Settings
 
 To review the company's base currency settings, do the following:
 
@@ -89,7 +89,7 @@ To review the company's base currency settings, do the following:
     Notice that the **Active** and **Use for Accounting** check boxes are selected automatically and are unavailable for editing. These check boxes are always selected and unavailable when the currency is the base currency of one of the companies in the tenant, and *CAD* is the base currency for the *SLCANADA* company.
 
 
-## Step 5: Opening Financial Periods for the New Company { .section}
+## Step 5: Opening Financial Periods for the New Company
 
 To open the financial periods for the new company, do the following:
 
@@ -107,7 +107,7 @@ To open the financial periods for the new company, do the following:
 
 5.  Close the **Processing** dialog box.
 
-## Step 6: Creating a Cash Account { .section}
+## Step 6: Creating a Cash Account
 
 To create a cash account denominated in CAD, do the following:
 
@@ -135,7 +135,7 @@ To create a cash account denominated in CAD, do the following:
 8.  Click **Add Row** on the table toolbar, and in the **Entry Type ID** column of the added row, select *INTEREST*.
 9.  On the form toolbar, click **Save** to save your changes.
 
-## Step 7: Reviewing the Currency Management Preferences { .section}
+## Step 7: Reviewing the Currency Management Preferences
 
 To review and save the currency management preferences that will be used in the system, do the following:
 
@@ -144,7 +144,7 @@ To review and save the currency management preferences that will be used in the 
 3.  Make sure that the **Automatically Post to GL on Release** check box is selected.
 4.  On the form toolbar, click **Save** to save the preferences.
 
-## Step 8: Creating Currency Rates { .section}
+## Step 8: Creating Currency Rates
 
 To create currency rates that the system will use to convert amounts from the base currency of one company into the base currency of another company, do the following:
 

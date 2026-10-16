@@ -1,8 +1,8 @@
-# Prepare an Invoice for a Shipment {#_660042c0-fa17-4719-9417-8e9f83c37a93 .concept}
+# Prepare an Invoice for a Shipment
 
 By using the REST API, you can prepare a sales invoice for a shipment. A user can prepare an invoice for a shipment while viewing the shipment on the [Shipments](../UserGuide/SO_30_20_00.md) \(SO302000\) form. If the shipment is a return \(an incoming shipment\), the system generates an invoice of the *Credit Memo* type; if it is an outgoing shipment, the system generates a sales invoice of the *Invoice* type.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to do the following to configure your client application and the Acumatica ERP instance to be used:
 
@@ -15,14 +15,14 @@ Before you test the code below, you need to do the following to configure your c
     2.  [Create a Shipment with the Receipt Operation Type](IntegrationDev_RESTExample_SalesOrder_CreateReceipt.md) or [Create a Shipment for a Replacement](IntegrationDev_RESTExample_SalesOrder_CreateShipmentReplacement.md)
     3.  [Confirm a Shipment](IntegrationDev_RESTExample_Shipment_Confirm.md)
 
-## Request { .section}
+## Request
 
 You can use the following request example to prepare an invoice for a shipment that has the *Confirmed* status through the REST API. In this example, the shipment has the *000067* number.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-POST /entity/Default/25.200.001/Shipment/PrepareInvoice HTTP/1.1
+POST /entity/Default/26.200.001/Shipment/PrepareInvoice HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
 Content-Type: application/json

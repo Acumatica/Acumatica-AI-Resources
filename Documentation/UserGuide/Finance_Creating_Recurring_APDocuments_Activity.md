@@ -1,14 +1,14 @@
-# Recurring AP Documents: Process Activity {#_e70dd778-8c1a-4aaf-a03c-f14bf798dcb2 .task}
+# Recurring AP Documents: Process Activity
 
 The following activity will walk you through the processes of setting up and running schedules for recurring AP documents.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Fruits &amp; Jams has insured its warehouses through Arc Insurance for 2026. The insurance should be paid monthly in equal amounts of $290. Acting as a SweetLife accountant, you need to create a recurring AP bill to be used as a template, create a schedule for the bill, and run the schedule to generate a document for January 2026.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -19,11 +19,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form, the **Hold Documents on Entry** check box has been selected in the **Data Entry Settings** section.
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *ARCINS \(Arc Insurance\)* vendor has been configured.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create a bill to be used as a template on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. On the [Recurring Transactions](AP_20_35_00.md) \(AP203500\) form, you will create a schedule for this bill. On the [Generate Recurring Transactions](AP_50_40_00.md) \(AP504000\) form, you will run this schedule. On the [Release AP Documents](AP_50_10_00.md) \(AP501000\) form, you will release the generated bill. Finally, on the [Bills and Adjustments](AP_30_10_00.md) form, you will review this bill and the original bill that was used as a template.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin creating a schedule for recurring documents, do the following:
 
@@ -31,7 +31,7 @@ Before you begin creating a schedule for recurring documents, do the following:
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step 1: Creating a Bill to Be Used as a Template { .section}
+## Step 1: Creating a Bill to Be Used as a Template
 
 To create a recurring bill with the *Balanced* status to be used as a template, do the following:
 
@@ -48,7 +48,7 @@ To create a recurring bill with the *Balanced* status to be used as a template, 
 4.  On the form toolbar, click **Remove Hold** to give the bill the *Balanced* status.
 5.  Click **Save** to save the changes.
 
-## Step 2: Creating a Schedule for the Bill { .section}
+## Step 2: Creating a Schedule for the Bill
 
 To create a schedule for the bill, do the following:
 
@@ -65,7 +65,7 @@ To create a schedule for the bill, do the following:
     -   **Recurrence**: *Fixed Day of Month* *30*
 3.  On the form toolbar, click **Save** to save the changes.
 
-## Step 3: Running the Schedule and Generating a Bill { .section}
+## Step 3: Running the Schedule and Generating a Bill
 
 To run the schedule and generate a bill, do the following:
 
@@ -80,7 +80,7 @@ To run the schedule and generate a bill, do the following:
     Only one bill has been generated because the schedule determines the dates on or after which each document can be generated; no documents can be generated ahead of time. The generated document has the same details as the scheduled document, but its transaction date is the date specified in the schedule.
 
 
-## Step 4: Releasing the Generated Bill { .section}
+## Step 4: Releasing the Generated Bill
 
 To release the generated bill, do the following:
 

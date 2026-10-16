@@ -1,10 +1,10 @@
-# Push Notifications: Inclusion in a Customization Project {#_a6bc4b93-e961-4965-a8de-030642e9d823 .concept}
+# Push Notifications: Inclusion in a Customization Project
 
 If you need to transfer the configuration of push notifications to another Acumatica ERP instance, you need to include the respective push notification definition in a customization project.
 
 **Tip:** After you have included all needed items in a customization project, you export the project as a ZIP file. In the target instance, you import the file and publish this customization project. For details about importing, exporting, and publishing customization projects, see [Managing Customization Projects](../Shared/../CustomizationPlatform/CG_GL_Projects.md) and [Publishing Customization Projects](../Shared/../CustomizationPlatform/CG_GL_Projects_Publishing.md).
 
-## Push Notification Definitions in a Customization Project { .section}
+## Push Notification Definitions in a Customization Project
 
 You can add each push notification definition to a customization project as a *PushNotification* item, which contains the dataset of a push notification definition. A push notification definition includes the push notification destination and the data query, which defines the data changes for which Acumatica ERP sends notifications.
 

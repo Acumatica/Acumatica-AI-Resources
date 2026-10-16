@@ -1,4 +1,4 @@
-# Creating Work Locations {#_972f8477-552f-4864-aee9-1361dcdde7da .concept}
+# Creating Work Locations
 
 In this chapter, you will learn how you can create work locations for a company.
 

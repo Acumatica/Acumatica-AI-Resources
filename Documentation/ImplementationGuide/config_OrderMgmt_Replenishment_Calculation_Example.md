@@ -1,8 +1,8 @@
-# Configuration of Replenishment: Example of Parameter Calculation {#_d99b8933-c8f3-4cb5-beab-207133d27b18 .concept}
+# Configuration of Replenishment: Example of Parameter Calculation
 
 The following example illustrates the calculation of replenishment parameters based on three months of historical sales data.
 
-## Company Story {#section_acr_dgm_2vb .section}
+## Company Story
 
 Suppose that on March 1, the ABC company first purchased a new gadget for bikers \(the *New Gadget* stock item\) and sold it to a local sporting goods store, Best Sports. Best Sports decided to order 200 units during April and May.
 
@@ -18,55 +18,298 @@ Before extending the sales to other customers, the purchasing manager has decide
 -   **Periods to Analyze**: *3*
 -   **Launch Date**: *March 1*
 
-## Timeline of Events {#section_igt_2gm_2vb .section}
+## Timeline of Events
 
 The purchasing manager tracks the events related to *New Gadget* and collects the data as follows.
 
-|Business Date|Event|Form|
-|-------------|-----|----|
-|**March**| |
-|March 1|ABC configures replenishment for *New Gadget*.|Multiple forms. For details, see [Configuration of Replenishment: General Information](config_OrderMgmt_Replenishment_GeneralInfo.md).|
-|March 1|A purchase order for 200 units of *New Gadget* is created, approved, and sent to the *Best Gadgets* vendor.|[Purchase Orders](../UserGuide/PO_30_10_00.md) \(PO301000\)|
-|March 15|The Best Sports store places a sales order for 200 units.|[Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\)|
-|March 21|ABC receives 200 units of *New Gadget*. A purchase receipt for 200 units is released.|[Purchase Receipts](../UserGuide/PO_30_20_00.md) \(PO302000\)|
-|March 22|A shipment to the Best Sports store is confirmed.|[Shipments](../UserGuide/SO_30_20_00.md) \(SO302000\)|
-|March 31|ABC collects the data:
+<table id="table_zwm_3gv_ft"><thead><tr><th>
+
+Business Date
+
+</th><th>
+
+Event
+
+</th><th>
+
+Form
+
+</th></tr></thead><tbody><tr><td colspan="2">
+
+**March**
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+March 1
+
+</td><td>
+
+ABC configures replenishment for *New Gadget*.
+
+</td><td>
+
+Multiple forms. For details, see [Configuration of Replenishment: General Information](config_OrderMgmt_Replenishment_GeneralInfo.md).
+
+</td></tr><tr><td>
+
+March 1
+
+</td><td>
+
+A purchase order for 200 units of *New Gadget* is created, approved, and sent to the *Best Gadgets* vendor.
+
+</td><td>
+
+[Purchase Orders](../UserGuide/PO_30_10_00.md) \(PO301000\)
+
+</td></tr><tr><td>
+
+March 15
+
+</td><td>
+
+The Best Sports store places a sales order for 200 units.
+
+</td><td>
+
+[Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\)
+
+</td></tr><tr><td>
+
+March 21
+
+</td><td>
+
+ABC receives 200 units of *New Gadget*. A purchase receipt for 200 units is released.
+
+</td><td>
+
+[Purchase Receipts](../UserGuide/PO_30_20_00.md) \(PO302000\)
+
+</td></tr><tr><td>
+
+March 22
+
+</td><td>
+
+A shipment to the Best Sports store is confirmed.
+
+</td><td>
+
+[Shipments](../UserGuide/SO_30_20_00.md) \(SO302000\)
+
+</td></tr><tr><td>
+
+March 31
+
+</td><td>
+
+ABC collects the data:
 
  -   Total sales: 200 units
 -   Daily demand: `200 / 31 = 6.45`
 -   Lead time: 20 days
 
-|Offline event|
-|**April**| |
-|April 1|ABC prepares replenishment for *New Gadget*.|[Prepare Replenishment](../UserGuide/IN_50_80_00.md) \(IN508000\)|
-|April 1|A purchase order for 200 units of *New Gadget* is created, approved, and sent to the New Gadget vendor.|[Purchase Orders](../UserGuide/PO_30_10_00.md)|
-|April 15|The Best Sports store places a sales order for 200 units of *New Gadget*.|[Sales Orders](../UserGuide/SO_30_10_00.md)|
-|April 18|ABC receives 200 units of *New Gadget*. A purchase receipt for 200 units is created and then released.|[Purchase Receipts](../UserGuide/PO_30_20_00.md)|
-|April 22|A shipment to Best Sports is confirmed.|[Shipments](../UserGuide/SO_30_20_00.md)|
-|April 30|ABC collects the data:
+</td><td>
+
+Offline event
+
+</td></tr><tr><td colspan="2">
+
+**April**
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+April 1
+
+</td><td>
+
+ABC prepares replenishment for *New Gadget*.
+
+</td><td>
+
+[Prepare Replenishment](../UserGuide/IN_50_80_00.md) \(IN508000\)
+
+</td></tr><tr><td>
+
+April 1
+
+</td><td>
+
+A purchase order for 200 units of *New Gadget* is created, approved, and sent to the New Gadget vendor.
+
+</td><td>
+
+[Purchase Orders](../UserGuide/PO_30_10_00.md)
+
+</td></tr><tr><td>
+
+April 15
+
+</td><td>
+
+The Best Sports store places a sales order for 200 units of *New Gadget*.
+
+</td><td>
+
+[Sales Orders](../UserGuide/SO_30_10_00.md)
+
+</td></tr><tr><td>
+
+April 18
+
+</td><td>
+
+ABC receives 200 units of *New Gadget*. A purchase receipt for 200 units is created and then released.
+
+</td><td>
+
+[Purchase Receipts](../UserGuide/PO_30_20_00.md)
+
+</td></tr><tr><td>
+
+April 22
+
+</td><td>
+
+A shipment to Best Sports is confirmed.
+
+</td><td>
+
+[Shipments](../UserGuide/SO_30_20_00.md)
+
+</td></tr><tr><td>
+
+April 30
+
+</td><td>
+
+ABC collects the data:
 
  -   Total sales: 200 units
 -   Daily demand: `200 / 30 = 6.67`
 -   Lead time: 17 days
 
-|Offline event|
-|**May**| |
-|May 1|ABC prepares replenishment for *New Gadget*.|[Prepare Replenishment](../UserGuide/IN_50_80_00.md)|
-|May 1|A purchase order for 200 units of *New Gadget* is created, approved, and sent to the *Best Gadgets* vendor.|[Purchase Orders](../UserGuide/PO_30_10_00.md)|
-|May 15|ABC receives 200 units of *New Gadget*. A purchase receipt for 200 units is created and released.|[Sales Orders](../UserGuide/SO_30_10_00.md)|
-|May 15|Best Sports places a sales order for 200 units.|[Purchase Receipts](../UserGuide/PO_30_20_00.md)|
-|May 22|A shipment to Best Sports is confirmed.|[Shipments](../UserGuide/SO_30_20_00.md)|
-|May 31|ABC collects the data:
+</td><td>
+
+Offline event
+
+</td></tr><tr><td colspan="2">
+
+**May**
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+May 1
+
+</td><td>
+
+ABC prepares replenishment for *New Gadget*.
+
+</td><td>
+
+[Prepare Replenishment](../UserGuide/IN_50_80_00.md)
+
+</td></tr><tr><td>
+
+May 1
+
+</td><td>
+
+A purchase order for 200 units of *New Gadget* is created, approved, and sent to the *Best Gadgets* vendor.
+
+</td><td>
+
+[Purchase Orders](../UserGuide/PO_30_10_00.md)
+
+</td></tr><tr><td>
+
+May 15
+
+</td><td>
+
+ABC receives 200 units of *New Gadget*. A purchase receipt for 200 units is created and released.
+
+</td><td>
+
+[Sales Orders](../UserGuide/SO_30_10_00.md)
+
+</td></tr><tr><td>
+
+May 15
+
+</td><td>
+
+Best Sports places a sales order for 200 units.
+
+</td><td>
+
+[Purchase Receipts](../UserGuide/PO_30_20_00.md)
+
+</td></tr><tr><td>
+
+May 22
+
+</td><td>
+
+A shipment to Best Sports is confirmed.
+
+</td><td>
+
+[Shipments](../UserGuide/SO_30_20_00.md)
+
+</td></tr><tr><td>
+
+May 31
+
+</td><td>
+
+ABC collects the data:
 
  -   Total sales: 200 units
 -   Daily demand: `200 / 31 = 6.45`
 -   Lead time: 14 days
 
-|Offline event|
-|**June**| |
-|June 1|ABC uses the collected data to calculate the replenishment parameters, as described in the following section.|[Calculate Replenishment Parameters](../UserGuide/IN_50_85_00.md) \(IN508500\)|
+</td><td>
 
-## Calculation of Replenishment Parameters {#section_ffd_3gm_2vb .section}
+Offline event
+
+</td></tr><tr><td colspan="2">
+
+**June**
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+June 1
+
+</td><td>
+
+ABC uses the collected data to calculate the replenishment parameters, as described in the following section.
+
+</td><td>
+
+[Calculate Replenishment Parameters](../UserGuide/IN_50_85_00.md) \(IN508500\)
+
+</td></tr></tbody>
+</table>
+
+## Calculation of Replenishment Parameters
 
 On June 1, the purchasing manager initiates the calculation of replenishment parameters by using the [Calculate Replenishment Parameters](../UserGuide/IN_50_85_00.md) \(IN508500\) form. The service level for the *New Gadget* stock item is specified as 90%.
 

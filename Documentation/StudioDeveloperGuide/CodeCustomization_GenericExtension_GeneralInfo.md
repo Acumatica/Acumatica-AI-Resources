@@ -1,15 +1,15 @@
-# Generic Graph Extensions: General Information {#_bbc04253-7686-41dd-898b-aca47c1c6789 .concept}
+# Generic Graph Extensions: General Information
 
 Suppose that you want to use the same business logic in multiple places in your application—that is, you need to insert the logic in at least two graphs. The graphs operate with data in the data access classes \(DACs\) and implement business logic through event handlers, actions, and other methods.
 
 You can encapsulate the business logic that you want to reuse in a *generic graph extension*, which is a graph extension that doesn’t relate to any particular graph and can be used with any base graph.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 -   You want to reuse logic that’s implemented in Acumatica ERP, such as multicurrency functionality, on a form that you’re creating.
 -   You’re implementing business logic and want to use it in multiple places in your application.
 
-## Implementation of Generic Graph Extensions { .section}
+## Implementation of Generic Graph Extensions
 
 A generic graph extension works with data by using the *mapped cache extensions*, which are cache extensions that aren’t bound to any particular DAC and can extend any DAC.
 
@@ -17,11 +17,10 @@ To connect the mapped cache extensions to a particular DAC, you use a *mapping c
 
 In the following diagram, yellow rectangles represent the classes you need to implement to reuse the business logic.
 
-![](Images/diag_CodeCustomization_GenericGraphExtensionImplementation.png "Required classes")
 
 These classes are described in detail in the sections below. \(For details on the implementation of the classes, see [To Implement Reusable Business Logic](BL__how_Create_Reusable_Logic.md#) and [To Insert Reusable Business Logic That Has Already Been Declared](BL__how_Insert_Reusable_Business_Logic.md#).\)
 
-## Mapped Cache Extension {#_efcb1dec-e793-4a88-b333-e647c6ff2b5e .section}
+## Mapped Cache Extension
 
 A mapped cache extension is an analog of a data access class \(DAC\) for a generic graph extension. In the mapped cache extension, you include the main fields that are used in the reusable business logic implementation. You map the fields of the mapped cache extension to the fields of a base DAC by using the mapping class, which is described in the next section.
 
@@ -35,7 +34,7 @@ The declaration of a field of a mapped cache extension includes two required mem
 
 The following code shows an example of a mapped cache extension.
 
-```language-csharp
+```csharp
 //Mapped cache extension
 public class Document : PXMappedCacheExtension
 {
@@ -79,7 +78,7 @@ public class Document : PXMappedCacheExtension
 }
 ```
 
-## Mapping Class {#_07af458f-a094-4b51-8859-a8204ccb196e .section}
+## Mapping Class
 
 A mapping class is a `protected` class that defines the mapping between the fields of a mapped cache extension and the fields of a DAC. In a generic graph extension, you declare a mapping class for each mapped cache extension that you need to use in the reusable logic implementation.
 
@@ -90,7 +89,7 @@ A mapping class implements the [IBqlMapping](https://help.acumatica.com/(W(22))/
 
 In the declaration of the mapping class, you also include declarations of the properties for each field of the mapped cache extension that you want to map to a field of the DAC, as the following code shows.
 
-```language-csharp
+```csharp
 //A mapping class
 protected class DocumentMapping : IBqlMapping
 {
@@ -115,9 +114,8 @@ The DAC fields are mapped as follows:
 -   If the name of a property field of the DAC differs from the name of the mapping class field, you redefine the mapping manually in the implementation class.
 -   If no field in the DAC has the name of the mapping class field and no mapping is defined in the implementation class, the field of the mapped cache extension isn’t mapped to any base DAC field, as shown below.
 
-![](Images/diag_CodeCustomization_MappingClass.png "Mapping declaration")
 
-## Generic Graph Extension { .section}
+## Generic Graph Extension
 
 A generic graph extension is a `public abstract` class encapsulating business logic that can be used in multiple places of an Acumatica Framework-based application. The class inherits from the PXGraphExtension&lt;TGraph&gt; class and can include multiple base DACs as their type parameters.
 
@@ -131,7 +129,7 @@ In the generic graph extension, you declare the following items:
 
 The following code shows an example of a generic graph extension. Notice that the code includes simplified versions of the generic graph extension, which have fewer type parameters.
 
-```language-csharp
+```csharp
 // A generic graph extension
 public abstract partial class SalesPriceGraph<
     TGraph, TDocument, TDetailOpt, TPriceClassSourceOpt> : 
@@ -167,7 +165,7 @@ public abstract class SalesPriceGraph<TGraph, TDocument, TDetail> :
 { }
 ```
 
-## Implementation Class { .section}
+## Implementation Class
 
 An implementation class defines the implementation of a generic graph extension for a particular graph. You declare the implementation class as a class that derives from the generic graph extension class with the following type parameters:
 
@@ -177,7 +175,7 @@ An implementation class defines the implementation of a generic graph extension 
 
 In this class, you can override the mapping defined by the mapping class, override other methods of the base class, and insert your own views, methods, and event handlers, as the following code shows.
 
-```language-csharp
+```csharp
 public class MultiCurrency : MultiCurrencyGraph<OpportunityMaint, CROpportunity>
 {   
   protected override DocumentMapping GetDocumentMapping()
@@ -218,7 +216,7 @@ You can define multiple implementation classes in one graph as follows \(shown i
 -   In the `SalesPrice` implementation class, you map the Detail mapped cache extension to the `RSSVOrderActual` DAC.
 -   In the `SalesPriceActual` implementation class, you map the Detail mapped cache extension to the `RSSVOrderDetail` DAC.
 
-```language-csharp
+```csharp
 public abstract class SalesPriceWithoutDetail<TDetail> : 
     SalesPriceGraph<RSSVOrderEntry, RSSVOrder, TDetail>
     where TDetail : class, IBqlTable, new()

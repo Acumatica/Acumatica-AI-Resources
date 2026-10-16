@@ -1,4 +1,4 @@
-# Creating Payments and Viewing Balances {#_599403b6-3269-4f8b-9f93-af75f3e297b6 .concept}
+# Creating Payments and Viewing Balances
 
 In the Modern Customer Portal, if you’re an authorized portal user, you can make payments and view your company’s balances, statements, and financial documents. By handling these tasks in the portal, you can save time and keep the company’s financial information up to date.
 

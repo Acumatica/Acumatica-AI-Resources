@@ -1,12 +1,12 @@
-# Selector Control: Configuration from Backend {#_fa079f56-6579-4984-88a9-139214a0750e .concept}
+# Selector Control: Configuration from Backend
 
 You use selector controls to provide a list from which the user can select a data record and then to set the ID of the selected data record as the data field value.
 
-## Defining a Selector Control { .section}
+## Defining a Selector Control
 
 To configure a selector control, you use the PXSelector attribute in the definition of the data field in the data access class \(DAC\), as shown in bold type in the following example.
 
-```language-csharp
+```csharp
 [PXDBInt(IsKey = true)]
 [PXDefault]
 [PXUIField(DisplayName = "Product ID")]
@@ -23,11 +23,11 @@ In the first parameter, you specify a Search&lt;&gt; BQL query to select data re
 
 **Tip:** You can omit Search&lt;&gt; in the first parameter of PXSelector, if you specify only a DAC field without a complex expression that may contain `WHERE`, `JOIN`, `ORDER BY`, or `GROUP BY` conditions. Thus, in the example above, you can specify `typeof(Product.productID)` instead of `typeof(Search<Product.productID>)` in the first parameter.
 
-## Defining the List of Columns { .section}
+## Defining the List of Columns
 
 You configure the columns that should be shown in the control by providing the types of the fields after the Search&lt;&gt; command; see the code in bold type in the following example.
 
-```language-csharp
+```csharp
 [PXSelector(typeof(Search<Product.productID>),
             **typeof\(Product.productCD\),
             typeof\(Product.productName\),
@@ -41,7 +41,7 @@ The code above defines three columns.
 
 You can join multiple DACs in the Search&lt;&gt; command and specify fields from the joined DACs as columns. The following code example shows in bold type the `LeftJoin` clause and the fields from the joined DAC added to the selector control as columns.
 
-```language-csharp
+```csharp
 [PXDBString(10, IsKey = true, IsUnicode = true, InputMask = "")]
 [PXDefault]
 [PXUIField(DisplayName = "Shipment Nbr.")]
@@ -59,13 +59,13 @@ public virtual string ShipmentNbr
 
 **Tip:** If you do not specify any columns, the control will display all columns that have the Visibility property of the PXUIField attribute set to PXUIVisibility.SelectorVisible.
 
-## Replacing the Displayed Key Value { .section}
+## Replacing the Displayed Key Value
 
 The SubstituteKey property specifies the field whose value should be shown in the control in the UI instead of the field specified in the Search&lt;&gt; command.
 
 The SubstituteKey property is shown in the bold type in the following code.
 
-```language-csharp
+```csharp
 [PXSelector(typeof(Search<Product.productID>),
             typeof(Product.productCD),
             typeof(Product.productName),

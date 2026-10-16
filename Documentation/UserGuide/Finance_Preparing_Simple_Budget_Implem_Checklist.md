@@ -1,4 +1,4 @@
-# Simple Budget: Implementation Checklist {#_4f4aa839-8871-48bf-b354-8c280b69a29b .concept}
+# Simple Budget: Implementation Checklist
 
 The following tables provide details you can use to ensure that the system is configured properly for the preparation of a simple budget.
 
@@ -11,7 +11,7 @@ The following tables provide details you can use to ensure that the system is co
 |[Chart of Accounts](GL_20_25_00.md) \(GL202500\)|Check whether the necessary accounts have been created.| |
 |[Master Financial Calendar](GL_20_10_00.md) \(GL201000\)|Be sure that calendars for the financial years for which budgets will be created have been generated.| |
 
-## Additional Configuration {#_c518cb6d-2320-42b8-a73d-c17b246be1e2 .section}
+## Additional Configuration
 
 The following table provides details of additional configuration needed for the preparation of a simple budget.
 

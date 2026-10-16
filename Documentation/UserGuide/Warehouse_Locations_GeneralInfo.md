@@ -1,4 +1,4 @@
-# Warehouse Locations and Single-Step Transfers: General Information {#_63da932c-897d-4d2c-af04-c40ce3f71891 .concept}
+# Warehouse Locations and Single-Step Transfers: General Information
 
 In Acumatica ERP, you can create multiple locations in each warehouse and configure them to best fit the logistics that have been established in your company. You can reserve specific locations for sales, receipts, transfers, goods to be returned to vendors, and goods returned by customers. You can assign different pick priorities to locations, to empty certain locations more quickly while using others less frequently.
 
@@ -8,7 +8,7 @@ When you have multiple locations, you can register and process *single-step tran
 
 **Tip:** You can use single-step transfers to move items between different warehouses. This approach is not recommended because single-step transfers don't generate shipping and receipt documents for inventory workers. To process transfers between different warehouses, use two-step transfers; see [Two-Step Transfers: General Information](InvMgmt_2Step_Transfers_GeneralInfo.md) for details.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -16,7 +16,7 @@ In this chapter, you will do the following:
 -   Perform a single-step transfer between warehouse locations
 -   View item availability by location
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create warehouse locations in either of the following cases:
 
@@ -25,7 +25,7 @@ You create warehouse locations in either of the following cases:
 
 You create single-step transfers when you need to move items from one location to another location within the same warehouse and to track this movement in the system.
 
-## Default Warehouse Location { .section}
+## Default Warehouse Location
 
 If the *Multiple Warehouse Locations* feature is disabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form and a warehouse is created in the system on the [Warehouses](IN_20_40_00.md) \(IN204000\) form, the system automatically creates a default location with the *MAIN* ID. Goods will be received to and issued from this location. The *MAIN* location has the following settings:
 
@@ -42,7 +42,7 @@ If the *Multiple Warehouse Locations* feature is disabled on the [Enable/Disable
 
 When you create a warehouse in the system where the *Multiple Warehouse Locations* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) form, the default location is not created automatically, and you need to create at least one location for the warehouse.
 
-## Configuration of Warehouse Locations { .section}
+## Configuration of Warehouse Locations
 
 You can define multiple locations for each warehouse on the [Warehouses](IN_20_40_00.md) \(IN204000\) form. You can also view and change existing locations of the warehouse and their settings, including the default location.
 
@@ -69,7 +69,7 @@ You do the following to create and configure the locations of a particular wareh
     -   **Non-Stock Location**: The default warehouse location for the picking, receipt, and putaway of non-stock items.
 4.  Optional: In the **Location Entry** box in the Summary area, you specify the option that indicates whether you want to allow users to add new locations on the fly when they are entering inventory documents. If an option that allows these additions is selected, user-added locations can be viewed \(and edited, if needed\) along with other locations on the **Locations** tab of the form.
 
-## Priorities of Warehouse Locations {#_27f3e0da-101a-4d89-9d75-1a7434d3a115 .section}
+## Priorities of Warehouse Locations
 
 If any inventory items with the same inventory ID in the system are stored in multiple locations of the same warehouse, the system has to find the appropriate warehouse location from which to issue the items when a user creates a shipment for a sales order. Thus, for each location, on the **Locations** tab of the [Warehouses](IN_20_40_00.md) \(IN204000\) form, in the **Pick Priority** column, you can specify the pick priority. If the system finds multiple locations that have the item, the system selects the location with the highest pick priority.
 
@@ -82,7 +82,7 @@ When this check box is selected, the system treats the location specified in the
 1.  The warehouse location specified for the item in the **Default Issue From** box.
 2.  The warehouse location with the highest pick priority specified on the **Locations** tab of the [Warehouses](IN_20_40_00.md) form. \(The value *0* indicates the highest priority, *1* the next highest, and so forth to the lowest priority; only integer values are supported.\)
 
-## Single-Step Transfers { .section}
+## Single-Step Transfers
 
 Your organization can use single-step inventory transfers to record stock item movements between locations within the same warehouse. For a single-step transfer, you should specify the following information on the [Transfers](IN_30_40_00.md) \(IN304000\) form:
 

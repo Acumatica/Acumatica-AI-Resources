@@ -1,4 +1,4 @@
-# Dependency Injection: Service Registration {#_14efd604-a2f1-47be-b3a3-4ba34ef98f89 .concept}
+# Dependency Injection: Service Registration
 
 To register the service for dependency injection in your application, you do the following:
 
@@ -12,7 +12,7 @@ To register the service for dependency injection in your application, you do the
 
 The following code shows an example of a registration class.
 
-``` {#codeblock_t5l_bpt_k3c .language-csharp}
+```csharp
 using System;
 using Autofac;
 using PX.Data;

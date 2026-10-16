@@ -1,8 +1,8 @@
-# To Configure Default Credit Verification Rules {#_085d1618-6cdf-4358-8145-6ab55bcfb4c6 .task}
+# To Configure Default Credit Verification Rules
 
 You define the default credit verification rules for customer classes by using the [Customer Classes](AR_20_10_00.md) \(AR201000\) form. When you create a customer on the [Customers](AR_30_30_00.md) \(AR303000\) form and specify the class, the customer initially is assigned the credit verification settings of that class. However, you can override the default credit verification settings for the customer.
 
-## To Configure Default Credit Verification Rules for Customers of a Customer Class {#section_gqc_hjv_vxb .section}
+## To Configure Default Credit Verification Rules for Customers of a Customer Class
 
 1.  Open the [Customer Classes](AR_20_10_00.md) \(AR201000\) form.
 2.  In the **Class ID** box, select the customer class for which you want to configure credit verification rules.

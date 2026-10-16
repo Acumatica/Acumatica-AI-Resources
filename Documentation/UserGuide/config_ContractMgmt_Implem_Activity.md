@@ -1,14 +1,14 @@
-# Contract Functionality Implementation: Implementation Activity {#_1e56fa61-32cf-407f-88b7-f3e159754de7 .task}
+# Contract Functionality Implementation: Implementation Activity
 
 In this implementation activity, you will learn how to enable the *Contract Management* feature and review the basic contract management settings.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are an administrative user of the SweetLife company. You are configuring the minimum required functionality to prepare the system for creating and processing of contracts.
 
-## Process Overview { .section}
+## Process Overview
 
 To set up the basic contract management settings, you will do the following:
 
@@ -16,13 +16,13 @@ To set up the basic contract management settings, you will do the following:
 2.  On the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, you will clear the **Hold Documents on Entry** check box to use the needed accounts receivable functionality in activities of the guide.
 3.  On the [Numbering Sequences](CS_20_10_10.md) \(CS201010\) form, you will enable auto-numbering for contracts. The numbering sequence will be used to assign automatically numbered identifiers to contracts.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start performing the initial configuration of the contract management functionality, launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded.
 
 You should sign in as a system administrator by using the *gibbs* username and the *123* password.
 
-## Step 1: Enabling the Contract Management Feature {#section_uhz_lf1_dt .section}
+## Step 1: Enabling the Contract Management Feature
 
 To activate the needed feature to use the contract functionality, do the following:
 
@@ -34,7 +34,7 @@ To activate the needed feature to use the contract functionality, do the followi
 
 4.  On the form toolbar, click **Enable**.
 
-## Step 2: Configuring the Settings of the Accounts Receivable Functionality {#section_mss_4f1_dt .section}
+## Step 2: Configuring the Settings of the Accounts Receivable Functionality
 
 To be able to use the needed accounts receivable functionality, on the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, do the following:
 
@@ -46,7 +46,7 @@ To be able to use the needed accounts receivable functionality, on the [Accounts
 
 **Tip:** The step is optional. You may perform it during your activities in the case you want the system issues invoices in the *Balanced* status. You can then release invoices in bulk from the [Release AR Documents](AR_50_10_00.md) \(AR501000\) form.
 
-## Step 3: Enabling Auto-Numbering for Contracts {#section_it1_qf1_dt .section}
+## Step 3: Enabling Auto-Numbering for Contracts
 
 In Acumatica ERP, contract identifiers are created based on the *CONTRACT* segmented key. To configure the system to assign automatically numbered identifiers to contracts, do the following:
 
@@ -56,7 +56,6 @@ In Acumatica ERP, contract identifiers are created based on the *CONTRACT* segme
 4.  Close the [Numbering Sequences](CS_20_10_10.md) form.
 5.  In the table of the [Segmented Keys](CS_20_20_00.md) form, select the **Auto Number** check box for the only row, which contains the settings of the single segment included in the segmented key \(see the following screenshot\).
 
-    ![](Images/AutoNumbering.png "Settings of the CONTRACT segmented key")
 
     Contract identifiers can be defined to include multiple segments. However, automatic numbering can be enabled for only one segment. Note that the length of the auto-numbered segment must match the length of the numbering sequence specified in the **Numbering ID** box.
 

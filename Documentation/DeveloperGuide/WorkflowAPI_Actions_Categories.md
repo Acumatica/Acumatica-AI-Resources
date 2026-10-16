@@ -1,4 +1,4 @@
-# Workflow Actions: Categories of the More Menu {#_938bb4c9-cb50-49dc-9b2c-702e504eb66f .concept}
+# Workflow Actions: Categories of the More Menu
 
 On the More menu of an Acumatica ERP form, the commands corresponding to actions are listed under categories. You can specify the category of an action by using Workflow API or attributes. If a category is not specified for an action, the action is represented in the following ways:
 
@@ -7,7 +7,7 @@ On the More menu of an Acumatica ERP form, the commands corresponding to actions
 
 Conversely, if a category has no actions added to it, then it will not be displayed on the More menu until at least one action is assigned to it.
 
-## Specifying a Category for an Action on a Form with a Workflow {#section_g3d_njm_4qb .section}
+## Specifying a Category for an Action on a Form with a Workflow
 
 To specify a category for an action on a form that uses a workflow, you perform the following general steps:
 
@@ -20,7 +20,7 @@ To specify a category for an action on a form that uses a workflow, you perform 
     ```
 
 
-## Specifying the Order of Actions in a Category { .section}
+## Specifying the Order of Actions in a Category
 
 You can specify the location of an action in a category, which determines the placement of its corresponding command on the More menu. An action can be placed first, last, or before or after another specified action. To specify the location, you use the Place method or the Placement parameter of the WithCategory method.
 
@@ -33,7 +33,7 @@ actions.Add(g => g.putOnHold, c =>
 
 In the code example above, the `putOnHold` action is placed first in the `processingCategory` by specifying Placement.First. For more details, see [Enum Placement](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=13832e69-5dff-77e2-1f96-f6f325aeffee).
 
-## Creating a Category {#section_ohb_5mm_4qb .section}
+## Creating a Category
 
 You can create a category on the More menu by creating a new object that can later be used for multiple actions. To define a category by creating an object, you perform the following general steps:
 
@@ -56,7 +56,7 @@ You can create a category on the More menu by creating a new object that can lat
     ```
 
 
-## Specifying the Order of Categories { .section}
+## Specifying the Order of Categories
 
 You can specify the location of a category on the More menu by calling the Place method. A category can be placed first, last, or before or after a specified category by using the Placement parameter of this method.
 
@@ -85,7 +85,7 @@ You can define the order of categories by using the PlaceAfter and PlaceBefore m
 
 By default, the **Actions**, **Inquiries**, and **Reports** categories are the first categories on the menu if there is at least one action in any of these categories.
 
-## Specifying a Category for an Action on a Form Without a Workflow {#section_wfc_4jm_4qb .section}
+## Specifying a Category for an Action on a Form Without a Workflow
 
 You can place an action in a category by specifying the category in the PXButton attribute for an action. An example is shown in the following code.
 

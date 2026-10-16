@@ -1,4 +1,4 @@
-# DR DACs: General Information {#_6a77142f-671e-4de0-b93d-8b8467421619 .concept}
+# DR DACs: General Information
 
 Deferred revenue is money that the company receives in advance for products and services that will be delivered or performed later. This means that the revenue amount cannot be recognized in the current financial period because it has not yet been earned. Instead, in the financial period of the delivery, the deferred amount is recognized as revenue.
 
@@ -6,7 +6,7 @@ You may also need to use deferred expenses, which are costs that have already be
 
 The system uses the deferred revenue data access classes \(DACs\), most of which have the *DR* prefix, to give users the ability to view and edit deferral schedules that have been generated for accounts payable and accounts receivable documents. The portions of deferred amount are recognized according to these schedules.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn about the DACs that are related to the following information:
 
@@ -14,7 +14,7 @@ In this chapter, you will learn about the DACs that are related to the following
 -   Transactional data
 -   Balance data
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You review deferred revenue DACs in the following cases:
 
@@ -23,7 +23,7 @@ You review deferred revenue DACs in the following cases:
 -   You need to customize the deferred revenue functionality by adjusting it in the [Customization Project Editor](../UserGuide/SM_20_45_10.md).
 -   You need to customize the deferred revenue functionality by writing customization code.
 
-## Key Differences Between Deferred Revenue and Deferred Expenses { .section}
+## Key Differences Between Deferred Revenue and Deferred Expenses
 
 The table below highlights the key differences in the recognition of deferred revenue and deferred expenses.
 
@@ -38,7 +38,7 @@ The table below highlights the key differences in the recognition of deferred re
 |Entities for which balances and projections are stored|Customers|Vendors|
 |Ability to use flexible and *On Payment* recognition methods|Yes|No|
 
-## Deferred Revenue Entities and Processes { .section}
+## Deferred Revenue Entities and Processes
 
 In Acumatica ERP, revenue recognition schedules are associated with individual invoice lines \(which are stored as records in the [ARTran](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARTran) DAC\). The association is performed automatically upon release if the user specifies a deferral code \(that is, a record in the [DRDeferredCode](https://help.acumatica.com/dacBrowser/PX.Objects.DR/DRDeferredCode) DAC\) in the line.
 
@@ -55,7 +55,7 @@ The Accounting Standards Codification \(ASC\) is a set of accounting principles 
 
 For the differences for ASC 606, see the [Revenue Recognition by IFRS 15/ASC 606](#_81cbaf56-91d9-47b0-a291-c0855d892d4c) section below.
 
-## Revenue Recognition by IFRS 15/ASC 606 {#_81cbaf56-91d9-47b0-a291-c0855d892d4c .section}
+## Revenue Recognition by IFRS 15/ASC 606
 
 International Financial Reporting Standard \(IFRS\) 15 Revenue from Contracts with Customers was introduced by the International Accounting Standards Board to provide a comprehensive revenue recognition model for all contracts with customers. A user can switch on revenue recognition by IFRS 15/ASC 606 if the user enables the *Revenue Recognition by IFRS 15/ASC 606* feature on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form.
 
@@ -74,11 +74,10 @@ As a result, the revenue recognition schedules for the AR invoice in this exampl
 -   Line 1 will not have a revenue recognition schedule created. During release of the AR invoice, the system will directly post the line amount onto the sales income account.
 -   For lines 2 and 3, the system will post the line amounts to deferred revenue accounts specified in DRDeferredCode.Account and create one recognition schedule with two revenue components from line 2 and line 3.
 
-## Basic Relationships Between Deferred Revenue DACs { .section}
+## Basic Relationships Between Deferred Revenue DACs
 
 The following diagram illustrates the main relationships between deferred revenue DACs. For detailed descriptions of the DACs and DAC fields, look for the needed DAC in the [DAC Schema Browser](https://help.acumatica.com/dacBrowser). \(For details about the DAC Schema Browser, see [Data from Multiple Data Sources: DAC Schema Browser](../UserGuide/GI_Discovering_DACs_DAC_Schema_Browser_Concept.md).\)
 
-![](Images/diag_DACOverview_DR.png "Relations between deferred revenue DACs")
 
 **Parent topic:**[Reviewing Deferred Revenue DACs](../DeveloperGuide/DACOverview_DR_Mapref.md)
 

@@ -1,8 +1,8 @@
-# Reusing of UI Definitions: Reusable UI Definitions with Parameters {#_bb5fdf2c-2e22-4ef9-a7ec-57e8ae13a706 .concept}
+# Reusing of UI Definitions: Reusable UI Definitions with Parameters
 
 You can define a reusable UI definition with string parameters—such as a view value—and then provide values for these parameters when you’re referencing the reusable UI definition.
 
-## Defining a Reusable UI Definition with Parameters { .section}
+## Defining a Reusable UI Definition with Parameters
 
 To define parameters in a reusable UI definition, you add the parameter names in the qp-include-parameters tag, which is inside the template tag of the reusable UI definition. You define parameters by using the mustache.js library. For details about the library, see [https://github.com/janl/mustache.js](https://github.com/janl/mustache.js).
 
@@ -12,7 +12,7 @@ To reference the parameters in the tags of the reusable UI definition, you speci
 
 The following code shows an example of the **Address** section. In this example, the `id`, `address-view`, and `wg-container` parameters are required. The `caption` parameter has `Address` as the default value.
 
-```language-xml
+```xml
 <template>
   <qp-include-parameters
     id.required
@@ -34,13 +34,13 @@ The following code shows an example of the **Address** section. In this example,
 </template>
 ```
 
-## Inserting a Reusable UI Definition with Parameters { .section}
+## Inserting a Reusable UI Definition with Parameters
 
 When you want to insert a reusable UI definition, you specify the parameters in the qp-include tag.
 
 The following example shows the insertion of the reusable UI definition for the **Address** section, whose HTML code is defined in the previous section.
 
-```language-xml
+```xml
 <div slot="B">
   <qp-include url="../../../common/forms/form-address/form-address.html"
     id="formA"

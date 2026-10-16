@@ -1,4 +1,4 @@
-# Setting Up U.S. and Canada ACH Cross-Border Payment Processing {#_abeed91d-e5ca-4efd-87fd-003ecd3480b9 .concept}
+# Setting Up U.S. and Canada ACH Cross-Border Payment Processing
 
 In this chapter, you will learn how to configure ACH cross-border payments from Canada to the United States.
 

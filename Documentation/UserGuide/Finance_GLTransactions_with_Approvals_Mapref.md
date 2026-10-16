@@ -1,4 +1,4 @@
-# Processing Transactions with Approvals {#_60768f46-f962-4ded-9210-4575330530d1 .concept}
+# Processing Transactions with Approvals
 
 The topics of this chapter describe how to set up approvals of GL transactions and how to process transactions for which approvals have been set up.
 

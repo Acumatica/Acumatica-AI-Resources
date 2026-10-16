@@ -1,4 +1,4 @@
-# To Create Custom Fields in Salesforce {#_eac9ba8c-3e6e-4640-b8ef-60b81e05815d .task}
+# To Create Custom Fields in Salesforce
 
 To create in Salesforce the custom fields required for successful data synchronization, do the following:
 

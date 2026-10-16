@@ -1,12 +1,12 @@
-# To Configure a Connection to BILL {#_d3c365e0-b313-46c8-9c9b-d0b71a0339d9 .task}
+# To Configure a Connection to BILL
 
 You use the [External Payment Processor](AP_20_55_00.md) \(AP205500\) form to configure a connection between the payment processor and BILL.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Make sure that you have set up an external payment processor as described in [To Create a Payment Processor](AP__HOW_Create_Payment_Processor.md).
 
-## To Configure the Connection to BILL { .section}
+## To Configure the Connection to BILL
 
 1.  Open the [External Payment Processor](AP_20_55_00.md) \(AP205500\) form.
 2.  In the **Payment Processor ID** box, make sure that the created payment processor is selected.
@@ -41,7 +41,7 @@ Make sure that you have set up an external payment processor as described in [To
 
 11. To map the funding account to a cash account, select the funding account and in the **Cash Account** column, select an Acumatica ERP cash account.
 
-## Optional: To Verify Yourself as a User of a Funding Account { .section}
+## Optional: To Verify Yourself as a User of a Funding Account
 
 1.  Open the [User Profile](SM_20_30_10.md) \(SM203010\) form by clicking **My Profile** under your username in the Info area of Acumatica ERP.
 2.  Go to the **Funding Accounts** tab.

@@ -1,4 +1,4 @@
-# Reclassifying Transactions: Initiation of the Reclassification Process {#_e65b2d2e-b359-4c68-884b-3ffcec28daa0 .concept}
+# Reclassifying Transactions: Initiation of the Reclassification Process
 
 You initiate the reclassification process on the [Reclassify Transactions](GL_50_60_00.md) \(GL506000\) form, which you open in one of the following ways:
 

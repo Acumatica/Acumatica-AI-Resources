@@ -1,8 +1,8 @@
-# Payments with a Corporate Card: Generated Transactions {#_32dc1e86-cb8a-4471-b10e-a720730d1877 .concept}
+# Payments with a Corporate Card: Generated Transactions
 
 As you process expenses paid with a corporate credit card, you create and process bills and payments. To update vendor balances, the system generates the GL transactions described in the following sections.
 
-## Transaction Generated for a Bill Paid with a Corporate Credit Card {#section_zjl_njv_vxb .section}
+## Transaction Generated for a Bill Paid with a Corporate Credit Card
 
 To process a bill paid with a corporate credit card, you process the bill as usual. The system generates the following general ledger transaction:
 
@@ -13,7 +13,7 @@ To process a bill paid with a corporate credit card, you process the bill as usu
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Bills and Adjustments](AP_30_10_00.md) form.
 
-## Transaction Generated for the Bill Payment {#section_ckl_njv_vxb .section}
+## Transaction Generated for the Bill Payment
 
 When you process the payment that uses the corporate credit card, the system generates the following general ledger transaction:
 
@@ -24,7 +24,7 @@ When you process the payment that uses the corporate credit card, the system gen
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Checks and Payments](AP_30_20_00.md) form.
 
-## Transaction Generated for the Bill to Pay the Bank {#section_fkl_njv_vxb .section}
+## Transaction Generated for the Bill to Pay the Bank
 
 When you receive a bank statement for the corporate credit card, you create an AP bill in the amount of the statement and specify the accrued liability account as the expense account in the bill. When you process the credit card bill, the system generates the following general ledger transaction:
 
@@ -35,7 +35,7 @@ When you receive a bank statement for the corporate credit card, you create an A
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 
-## Transaction Generated for Payment of the Credit Card Bill {#section_ikl_njv_vxb .section}
+## Transaction Generated for Payment of the Credit Card Bill
 
 When you pay the credit card bill, you process an AP payment for the credit card bill from the cash account you use to pay for the credit card \(such as a checking account\). When you process the payment, the system generates the following general ledger transaction:
 

@@ -1,4 +1,4 @@
-# Aggregating Data {#_b3787479-f481-400e-a2f7-1f81f99bbee1 .concept}
+# Aggregating Data
 
 On an inquiry form, you may need to display an aggregated value for a group of records, such as an average value for a group of records or the number of records in a group. In this chapter, you will learn how to add an aggregation clause to a data query that is used to determine the records listed on a form.
 

@@ -1,8 +1,8 @@
-# Customization Projects: General Information {#_501b6ecb-ee2d-4251-9bf8-dfc148a29df6 .concept}
+# Customization Projects: General Information
 
 A customization project is a set of changes to the user interface, metadata, and functionality of Acumatica ERP that you develop by using the Acumatica Customization Platform. An instance of Acumatica ERP consists of the website and the database, and you can use the platform to customize both of these components.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,27 +10,27 @@ In this chapter, you will learn how to do the following:
 -   Publish multiple customization projects to an instance
 -   Unpublish the projects
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may need to manage customization projects if your company requires changes to the user interface, metadata, or functionality of Acumatica ERP. These customization projects can be developed in-house or purchased from a third-party vendor who produces complementary solutions for Acumatica ERP.
 
-## Development and Deployment of Customization Projects { .section}
+## Development and Deployment of Customization Projects
 
 To customize the user interface or to extend the business logic, a developer creates and maintains customization projects by using the tools and capabilities of the Acumatica Customization Platform. This platform provides the mechanisms to develop, upgrade, publish, unpublish \(that is, cancel publication\), export, and import a customization project.
 
 After a customization project is ready, it is exported as a deployment package. A deployment package is a redistributable zip file that includes the full content of a customization project. The deployment package can then be imported and published as a customization project on the system.
 
-## Import of Deployment Packages { .section}
+## Import of Deployment Packages
 
 To import a deployment package for getting access to the project data and updating the system with the changes in the customization project, click the **Import** button on the form toolbar of the [Customization Projects](SM_20_45_05.md) \(SM204505\) form. The system opens the **Open Package** dialog box, where you select the file and then click **Upload**. The system uploads the package, creates the corresponding customization project, and saves the project in the database. You can view the list of available customization projects on this form, including the project that you have imported.
 
-## Update of Imported Packages { .section}
+## Update of Imported Packages
 
 You may receive an updated version of a deployment package that you have already imported into the system. In this case, you import the new version by clicking **Replace Highlighted Project Content** on the More menu \(under **Import**\) of the [Customization Projects](SM_20_45_05.md) \(SM204505\) form. The system replaces the package and the customization project, and saves the updated project in the database.
 
 To apply the updated project to the system, you need to publish all projects that need to be published.
 
-## Publication of Customization Projects { .section}
+## Publication of Customization Projects
 
 Multiple customization projects are often applied to an Acumatica ERP application instance. The information about each published customization project is displayed in the lower right corner of the Sign-In page and in the **About Acumatica** dialog box \(which opens when you click **Settings** &gt; **About** on the form title bar\).
 
@@ -54,7 +54,7 @@ During the publication, the system applies the changes to the application and da
 
 After the customization project has been published, users see the modified Acumatica ERP instance.
 
-## Application of Access Rights {#section_wgy_gvj_31c .section}
+## Application of Access Rights
 
 Typically, a developer uses the [Access Rights](AU_20_52_00.md) page of the Customization Project Editor to explicitly specify access rights for the added or customized system objects in a customization project. If this step is not taken, the system applies the following rules when the customization project is being published:
 
@@ -63,13 +63,13 @@ Typically, a developer uses the [Access Rights](AU_20_52_00.md) page of the Cust
 
 For details on configuring access rights for a customization package, see [To Add Access Rights to a Project](../CustomizationPlatform/CG_GL_Items_AccessRights_Adding.md).
 
-## Execution of Custom SQL Scripts { .section}
+## Execution of Custom SQL Scripts
 
 A customization project may include custom SQL scripts that introduce changes to the database. When the system publishes a project that contains a database script, it executes the script and tries to avoid the execution of the script at every publication of the project for optimization purposes. Therefore, the system keeps information about each script that has been executed one time and has not yet been changed in the database, and omits the repeated execution of these scripts.
 
 If the changes introduced by the scripts have been manually deleted or modified, you can force the system to run the previously executed scripts again to restore the initial changes. On the [Customization Projects](SM_20_45_05.md) \(SM204505\) form, you select all the customization projects you need to publish and click **Publish to Multiple Tenants** on the More menu \(under **Publish**\). In the **Publish to Multiple Tenants** dialog box, which opens, you select the tenant of the instance, select the **Execute All Database Scripts \(Including Previously Executed\)** check box, and then click **OK**. The system removes all the information about previously executed scripts of the customization project and executes each script while publishing the selected projects.
 
-## Rollback of Customization Projects { .section}
+## Rollback of Customization Projects
 
 Each time you publish a customization project, the system unpublishes all previously published projects that were not selected for publication.
 
@@ -90,7 +90,7 @@ For example, if a customization project introduces a new report, after you publi
 
 There is no difference in the unpublishing process for a single-tenant site and a multitenant site: The platform deletes the same files in the file system and keeps all the changes in the database.
 
-## Publication in Acumatica ERP and on the Self-Service Portal {#section_tlx_mdn_t5b .section}
+## Publication in Acumatica ERP and on the Self-Service Portal
 
 You can publish a customization project on the [Customization Projects](../Shared/../UserGuide/SM_20_45_05.md) \(SM204505\) form of Acumatica ERP and the Self-Service Portal. Although Acumatica ERP and the Self-Service Portal share a database, customization projects published on the Self-Service Portal are independent from the Acumatica ERP instance due to a special column in the database tables that store customization items. This column identifies whether each customization item belongs to Acumatica ERP or to the Self-Service Portal.
 

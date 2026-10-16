@@ -1,4 +1,4 @@
-# Sales Order Types: To Activate the SO Order Type {#_0a9c1aa3-a1c6-4261-833b-01aff3467d0e .task}
+# Sales Order Types: To Activate the SO Order Type
 
 In this implementation activity, you will learn how to set up and activate the *SO* order type.
 
@@ -8,15 +8,15 @@ The following activity is based on the *U100 Basic Company* dataset. If you are 
 
 If you want to perform this activity in an out-of-the-box company instead of creating a tenant with the dataset, you need to prepare a company with the basic settings, as described in [Company Without Branches: General Information](../Shared/../ImplementationGuide/config_Basic_Company_GeneralInfo.md).
 
-## Story { .section}
+## Story
 
 Suppose that you are an implementation manager for the SweetLife Fruits &amp; Jams company, and you need to prepare the sales orders for processing sales of items with shipping. You need to set up and activate the *SO* order type in the system.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will set up and activate the *SO* order type on the [Order Types](../UserGuide/SO_20_10_00.md) \(SO201000\) form.
 
-## Step: Setting Up and Activating an Order Type { .section}
+## Step: Setting Up and Activating an Order Type
 
 To set up and activate the *SO* order type, do the following:
 
@@ -27,7 +27,7 @@ To set up and activate the *SO* order type, do the following:
 3.  In the Summary area, select the **Active** check box.
 4.  On the form toolbar, click **Save**.
 
-## Activity Recap { .section}
+## Activity Recap
 
 In this activity, we have illustrated how an implementation manager has set up and activated the *SO* order type for the processing of sales of items with shipping.
 

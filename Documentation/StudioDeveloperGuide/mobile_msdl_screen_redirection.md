@@ -1,4 +1,4 @@
-# Redirecting the User to Different Screens and Containers {#_b542fc68-4edc-4b44-81ae-3f3bc8bb9381 .reference}
+# Redirecting the User to Different Screens and Containers
 
 You can redirect the user to different screens and containers in a mobile app in one of the following ways:
 
@@ -11,7 +11,7 @@ Redirections can be performed to the following objects:
 -   Another screen
 -   A container inside another screen
 
-## Allowing of a Redirection That Is Implemented in Acumatica ERP { .section}
+## Allowing of a Redirection That Is Implemented in Acumatica ERP
 
 While executing an action, you may need to redirect the mobile app from the current screen to a different screen or to an external URL. As a rule, the business logic of Acumatica ERP handles redirection to a screen by using the PXRedirectRequiredException and PXPopupRedirectException exceptions.
 
@@ -49,7 +49,7 @@ add recordAction "ViewOnMap" {
 
 On a mobile device, such action launches the default browser and passes the URL, which is obtained from the Acumatica ERP server, to the browser that opens the webpage specified in the URL.
 
-## Creation of a New Redirection to a Screen or Container { .section}
+## Creation of a New Redirection to a Screen or Container
 
 You can create a redirection to any container or screen in the mobile app when the redirection does not exist in Acumatica ERP. For example, you can do this to implement pop-up windows in the mobile app.
 

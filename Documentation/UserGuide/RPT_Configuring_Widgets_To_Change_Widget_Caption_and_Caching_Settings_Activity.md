@@ -1,14 +1,14 @@
-# Widget Settings: To Change a Widget's Title and Caching Settings {#_7c56e8b8-7614-4692-aab5-ff898450feb3 .task}
+# Widget Settings: To Change a Widget's Title and Caching Settings
 
 The following activity will show you how to change a widget's title \(caption\) and its caching settings.
 
-## Story { .section}
+## Story
 
 Suppose that you are Gladys Peters, a workshop manager of the SweetLife Fruits &amp; Jams company. You have created your own copy of the predefined *AR Clerk* dashboard in order to monitor the accounts receivable. Also, you have defined this dashboard as your home page.
 
 You would like to change the predefined titles for the *Total AR* and *AR Aging* widgets to *Accounts Receivable Total* and *Accounts Receivable Aging*, respectively. Also, you would like to increase the update frequency of widgets that display information about invoices and statements.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -16,14 +16,14 @@ In this activity, you will do the following:
 2.  Change the caption of a widget
 3.  Change the caching settings of a widget
 
-## System Preparation {#section_g1x_5xn_wrb .section}
+## System Preparation
 
 Before you start adding the widgets in Acumatica ERP, make sure that the following tasks have been performed:
 
 1.  You have launched the Acumatica ERP website, and signed in to a tenant with the *U100* dataset preloaded. You should sign in as a workshop manager Gladys Peters with the *peters* username and the *123* password.
 2.  You have completed the [Dashboard Design: To Modify a Dashboard](RPT_Designing_Dashboard_Contents_Activity.md) activity. In this activity, you defined your copy of the *AR Clerk* dashboard as your home page.
 
-## Step: Changing the Widget's Title and Caching Settings { .section}
+## Step: Changing the Widget's Title and Caching Settings
 
 To modify the settings of the widget, do the following:
 
@@ -43,7 +43,6 @@ To modify the settings of the widget, do the following:
 11. On the dashboard title bar, click the **Design** button.
 12. Wait several minutes, then refresh the page. Point to each widget with the mouse. Notice that the system now updates widgets showing invoices and statements more often.
 
-    ![](Images/RPT_Configuring_Widgets_To_Change_Widget_Caption_and_Caching_Settings_Activity_Updated_Widget.png "The information about the widget's last data update")
 
 
 You have modified the title and caching settings of a widget.

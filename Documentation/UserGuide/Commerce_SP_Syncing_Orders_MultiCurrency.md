@@ -1,8 +1,8 @@
-# Order Synchronization: Multicurrency Accounting {#_31141ba2-9535-abcd-be95-c98e17dc8e4e .concept}
+# Order Synchronization: Multicurrency Accounting
 
 Your Shopify store can support multiple currencies so that customers can pay their orders not only in the default store currency. Whether you use multicurrency accounting in Acumatica ERP, have multiple currencies configured in your Shopify store, or both, the Shopify connector ensures proper synchronization between the two systems.
 
-## System Configuration for Importing Orders in Multiple Currencies { .section}
+## System Configuration for Importing Orders in Multiple Currencies
 
 If the *Multicurrency Accounting* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, sales orders from the Shopify store are imported into Acumatica ERP in the same currency they were placed in Shopify.
 
@@ -12,7 +12,7 @@ To configure the store, you must select the **Use Payment Currency instead of St
 
 Also, to import Shopify orders in a currency different from the currency of the brunch specified in the **Branch** box on the **Orders** tab of the [Shopify Stores](BC_20_10_10.md) form, you must select the **Enable Currency Override** check box for the order customer on the [Customers](AR_30_30_00.md) \(AR303000\) form.
 
-## Import of Orders in Multiple Currencies { .section}
+## Import of Orders in Multiple Currencies
 
 When importing an order from the Shopify store in a currency other than the store default currency, the connector assigns this currency to the created sales order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form and its payments and refunds on the [Payments and Applications](AR_30_20_00.md) \(AR302000\) forms.
 
@@ -34,7 +34,7 @@ For refunds processed through the Shopify Payments provider, the system always u
 
 If an authorized-only transaction already imported into Acumatica ERP is later captured in Shopify, the connector can update the calculated currency rate in the order and prepayment documents. It replaces the rate with the one provided by Shopify as long as the document workflow in Acumatica ERP allows modifications.
 
-## Import of Orders in the Default Store Currency { .section}
+## Import of Orders in the Default Store Currency
 
 When your Shopify store allows customers to pay in multiple currencies but multicurrency accounting is not required in Acumatica ERP, you can import orders along with related payments and refunds in the default store currency.
 

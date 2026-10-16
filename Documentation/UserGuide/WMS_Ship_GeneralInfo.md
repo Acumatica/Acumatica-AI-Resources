@@ -1,8 +1,7 @@
-# Automated Shipping Operations: General Information {#_8e0fb900-22c9-40b6-854d-64ec3d905ea7 .concept}
+# Automated Shipping Operations: General Information
 
 After you have picked and packed items, or packed items without picking, you may need to specify shipping options before you confirm the applicable shipment. This workflow is illustrated in the following diagram.
 
-![](Images/diag_WMS_Ship.png)
 
 To specify shipping options for the shipment that is currently being processed, you perform the following steps:
 

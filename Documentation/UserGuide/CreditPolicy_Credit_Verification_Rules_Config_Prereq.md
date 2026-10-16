@@ -1,12 +1,12 @@
-# Credit Verification Rules: Configuration Prerequisites {#_a04b9947-7bf5-47f7-9f22-c050c0448330 .concept}
+# Credit Verification Rules: Configuration Prerequisites
 
 Before starting to set up credit verification rules, you should be sure that the needed features have been enabled, settings have been specified, and entities have been created, as described in the following sections.
 
-## Enabling the Needed Features {#section_fnc_hjv_vxb .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the minimum set of features has to be enabled. For details, see [Company Without Branches: To Configure a Company Without Branches](../ImplementationGuide/config_Basic_Company_Implem_Activity_Enabling_Features.md).
 
-## Configuring the System {#section_hnc_hjv_vxb .section}
+## Configuring the System
 
 You need to make sure the following tasks have been performed in Acumatica ERP before you begin to set up credit verification rules:
 

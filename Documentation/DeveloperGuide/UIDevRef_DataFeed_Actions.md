@@ -1,16 +1,16 @@
-# Data Feed: Configuration of Toolbar Buttons {#_20b920d9-8691-40b9-83d1-bbde20c66276 .concept}
+# Data Feed: Configuration of Toolbar Buttons
 
 By default, the toolbar of the data feed control contains standard table buttons that let users filter and sort records. To define a toolbar, you use the toolbar tag inside the qp-data-feed tag.
 
 You can add buttons that correspond to actions implemented in a graph. To add toolbar buttons, you define each button with the action tag inside the toolbar tag.
 
-## Defining a Toolbar Button Without TypeScript {#section_itl_4l3_xgc .section}
+## Defining a Toolbar Button Without TypeScript
 
 To define a button without mapping it in TypeScript, do the following:
 
 1.  In HTML, add the toolbar tag in the qp-data-feed control.
 
-    ``` {#codeblock_rfb_zl3_xgc}
+    ```
     <qp-data-feed ...>
       <toolbar>
       </toolbar>
@@ -21,7 +21,7 @@ To define a button without mapping it in TypeScript, do the following:
 
     The value of the name property must be identical to the name of the action in the graph.
 
-    ``` {#codeblock_sfb_zl3_xgc}
+    ```
     <toolbar>
       <action name="NewTask"></action>
       <action name="NewEvent"></action>
@@ -32,13 +32,13 @@ To define a button without mapping it in TypeScript, do the following:
     ```
 
 
-## Defining a Toolbar Button with TypeScript {#section_cbc_ql3_xgc .section}
+## Defining a Toolbar Button with TypeScript
 
 To define a button by mapping it in TypeScript, do the following:
 
 1.  In TypeScript, in the view class for the data feed control, map the action implemented in the graph.
 
-    ``` {#codeblock_gfc_jl3_xgc}
+    ```
     @gridConfig({ ... })
     export class CRActivity extends PXView {
     	NewTask: PXActionState;
@@ -53,7 +53,7 @@ To define a button by mapping it in TypeScript, do the following:
 
 2.  In HTML, in the qp-data-feed control, add the toolbar tag.
 
-    ``` {#codeblock_hfc_jl3_xgc}
+    ```
     <qp-data-feed ...>
       <toolbar>
       </toolbar>
@@ -64,7 +64,7 @@ To define a button by mapping it in TypeScript, do the following:
 
     The value of the name property must be identical to the name of the action in TypeScript.
 
-    ``` {#codeblock_ifc_jl3_xgc}
+    ```
     <toolbar>
       <action state="NewTask"></action>
       <action state="NewEvent"></action>
@@ -80,42 +80,99 @@ To define a button by mapping it in TypeScript, do the following:
     -   IToolBarMenuOptions: For a button that opens a menu
     -   IToolBarMenuPopupButton: For a button that opens a dialog box
 
-## Configuring a Button {#section_cfv_rl3_xgc .section}
+## Configuring a Button
 
 You can further configuring a button in the action tag by using the properties in the following table.
 
-|Property|Example|Description|
-|--------|-------|-----------|
-|index|``` {#codeblock_m41_f43_xgc}
+<table id="table_n2w_5m3_xgc"><thead><tr><th>
+
+Property
+
+</th><th>
+
+Example
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+index
+
+</td><td>
+
+```
 <action state="NewTask" 
   index="-80">
 ```
 
-|Specifies the button’s position on the toolbar.|
-|text|``` {#codeblock_ucf_h43_xgc}
+</td><td>
+
+Specifies the button’s position on the toolbar.
+
+</td></tr><tr><td>
+
+text
+
+</td><td>
+
+```
 <action state="NewTask" 
   text="New Task">
 ```
 
-|Specifies the display name of the action.|
-|tooltip|``` {#codeblock_qxg_h43_xgc}
+</td><td>
+
+Specifies the display name of the action.
+
+</td></tr><tr><td>
+
+tooltip
+
+</td><td>
+
+```
 <action state="NewTask" 
   tooltip="Creates a new task">
 ```
 
-|Specifies the button’s tooltip text.|
-|icon|``` {#codeblock_s33_h43_xgc}
+</td><td>
+
+Specifies the button’s tooltip text.
+
+</td></tr><tr><td>
+
+icon
+
+</td><td>
+
+```
 <action state="NewTask" 
   icon="svg:main@plus">
 ```
 
-|Specifies the icon.|
-|isSystem|``` {#codeblock_ppk_h43_xgc}
+</td><td>
+
+Specifies the icon.
+
+</td></tr><tr><td>
+
+isSystem
+
+</td><td>
+
+```
 <action state="NewTask" 
   isSystem="true">
 ```
 
-|Overrides the isSystem property of the action.|
+</td><td>
+
+Overrides the isSystem property of the action.
+
+</td></tr></tbody>
+</table>
 
 **Parent topic:**[Data Feed](../DeveloperGuide/UIDevRef_DataFeed_Mapref.md)
 

@@ -1,4 +1,4 @@
-# Committed Costs: External Commitments {#_c17cd444-4321-4e6e-a687-fa3abcda1e16 .concept}
+# Committed Costs: External Commitments
 
 This topic explains how you can enter external commitments in the system.
 

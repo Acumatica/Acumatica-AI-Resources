@@ -1,4 +1,4 @@
-# Order Management with Inventory {#_ebd65cf0-0ee1-46a9-b331-77835f1a8b63 .concept}
+# Order Management with Inventory
 
 This chapter describes the minimum configuration of the order management functionality that is required for Acumatica ERP users to process the sales and purchases of stock items through sales orders and purchase orders, respectively.
 

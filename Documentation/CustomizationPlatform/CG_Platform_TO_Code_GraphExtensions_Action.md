@@ -1,4 +1,4 @@
-# Customization of an Action {#_828d4d7a-597c-4fc6-896b-b6bb1b88266f .concept}
+# Customization of an Action
 
 The platform provides a way to alter or extend an action defined in a business logic controller \(BLC, also referred as *graph*\).
 
@@ -45,7 +45,6 @@ You can alter actions within BLC extensions in the following ways:
 
     **Tip:** When overriding an action delegate within a BLC extension, you completely redeclare the attributes attached to the action. Every action delegate must have PXButtonAttribute \(or the derived attribute\) and PXUIFieldAttribute attached.
 
-    ![](images/CG_Platform_TO_Code_GraphExtensions_Action_1.png "The interaction among the first-level and base actions")
 
 -   By overriding the action delegate within the BLC extension.
 
@@ -65,7 +64,6 @@ You can alter actions within BLC extensions in the following ways:
 
     The *Actions* collection of a BLC instance contains the ValidateObjects action, which consists of the `PXAction<>` type member declared within the first-level extension and the delegate declared within the second-level extension. To use an action declared within the base BLC or the lower-level extension from the action delegate, you should redeclare the action within a BLC extension. You do not need to redeclare an action when it is not meant to be used from the action delegate.
 
-    ![](images/CG_Platform_TO_Code_GraphExtensions_Action_2.png "The case when you don't need to redeclare an action")
 
     **Tip:** To modify the same member of the base BLC or any BLC extension, you should use extensions of higher levels.
 

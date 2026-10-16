@@ -1,10 +1,10 @@
-# Project Budget: To Restructure the Budget {#_d14c0111-16c1-3485-a86e-d9cecd43d3c0 .task}
+# Project Budget: To Restructure the Budget
 
 This activity will walk you through the process of reestablishing the budget structure of a project.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the Lake Cafe customer has ordered a juicer, along with the services of installation and training of employees on operating the juicer from the SweetLife Fruits &amp; Jams company. SweetLife's project accountant has decided that the revenue budget level of the project should include inventory items, created the project to account for the provided material and work, and entered project transactions.
 
@@ -12,7 +12,7 @@ Suppose that later the project accountant realizes that an extra level of detail
 
 Acting as the project accountant, you will restructure the project budget before and after the billing.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -20,11 +20,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Projects](PM_30_10_00.md) \(PM301000\) form, the *LAKECAFE* project has been created and the *PHASE1* and *PHASE2* project tasks have been created for the project. The *Task and Item* revenue budget level has been specified for the project and three revenue budget lines have been added.
 -   On the [Project Transactions](PM_30_40_00.md) \(PM304000\) form, the *PM00000024* batch of project transactions related to the project has been created and released.
 
-## Process Overview { .section}
+## Process Overview
 
 You will adjust the project budget and save project budget revisions on the [Projects](PM_30_10_00.md) \(PM301000\) form. On the same form, you will initiate the project billing. You will complete the billing on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. You will then adjust the project budget one more time on the [Projects](PM_30_10_00.md) form and recalculate the project balances on the [Recalculate Project Balances](PM_50_40_00.md) \(PM504000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
@@ -32,7 +32,7 @@ To sign in to the system and prepare to perform the instructions of the activity
 2.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded; you should sign in as project accountant by using the *brawner* username and the *123* password.
 3.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Restructuring the Project Budget { .section}
+## Step 1: Restructuring the Project Budget
 
 To save the original version of the project budget and restructure the budget, do the following:
 
@@ -64,7 +64,7 @@ To save the original version of the project budget and restructure the budget, d
 
 You have restructured the revenue budget of the project and attached previous budget revision to the project. In the next step, you will bill the project.
 
-## Step 2: Billing the Project { .section}
+## Step 2: Billing the Project
 
 To bill the project, do the following:
 
@@ -78,7 +78,7 @@ To bill the project, do the following:
 
 You have billed the project. In the next step, you will restructure the revenue budget of the project again.
 
-## Step 3: Restructuring the Project Budget After Billing { .section}
+## Step 3: Restructuring the Project Budget After Billing
 
 To perform one more budget revision after billing, while you are still viewing the *LAKECAFE* project on the [Projects](PM_30_10_00.md) \(PM301000\) form, do the following:
 
@@ -112,7 +112,6 @@ To perform one more budget revision after billing, while you are still viewing t
 
     The system validates the balances of the *LAKECAFE* project and recalculates the amounts and quantities affected by invoices. On the **Revenue Budget** tab, review the revenue budget. Notice that the system has updated the actual amounts and quantities of the budget lines, as shown below.
 
-    ![](Images/activity_Projects_Budget_Restructuring.png "Project budget after restructuring and validation")
 
 
 You have finished restructuring of the project budget and have validated the budget's actual values.

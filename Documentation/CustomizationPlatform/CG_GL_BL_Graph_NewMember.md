@@ -1,4 +1,4 @@
-# To Add a New Member {#_bf546967-0fc8-4e5c-9508-441ee7b4922e .concept}
+# To Add a New Member
 
 You can add a new member \(such as a variable, data view, or method\) to a custom graph or to an extension for a graph in Acumatica ERP.
 

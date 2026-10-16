@@ -1,16 +1,16 @@
-# Refunds: To Create a Refund and Apply a Credit Memo to It {#_90d571d6-946c-4a2e-9927-2438b8f65a38 .task}
+# Refunds: To Create a Refund and Apply a Credit Memo to It
 
 In this activity, you will learn how to create a refund and apply a credit memo in full to it.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_prp_4jv_vxb .section}
+## Story
 
 Suppose that in January, HM’s Bakery &amp; Cafe \(*HMBAKERY*\) bought twelve jars of apple jam from the SweetLife Fruits &amp; Jams company for a total amount of $258 and returned two damaged jars. One of the SweetLife accountants has already created a credit memo in the system for the amount of the damaged goods \($43\).
 
 Acting as the chief accountant of SweetLife, you need to create a refund for this credit memo.
 
-## Configuration Overview {#section_srp_4jv_vxb .section}
+## Configuration Overview
 
 For the purposes of this activity, the following features have been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form:
 
@@ -22,11 +22,11 @@ On the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, the 
 
 On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *HMBAKERY \(HM’s Bakery &amp; Cafe\)* customer has been defined.
 
-## Process Overview {#section_wrp_4jv_vxb .section}
+## Process Overview
 
 In this process activity, on the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, you will create a refund for which a credit memo has already been created. On the **Documents to Apply** tab of the form, you will select the credit memo for which the refund is being issued and apply it in full to the refund. Finally, you will release the refund and the application.
 
-## System Preparation {#section_yrp_4jv_vxb .section}
+## System Preparation
 
 Before you perform the steps of this lesson, do the following:
 
@@ -36,7 +36,7 @@ Before you perform the steps of this lesson, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026*. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu button to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Creating the Refund {#section_asp_4jv_vxb .section}
+## Step 1: Creating the Refund
 
 To create the refund, do the following:
 
@@ -53,7 +53,7 @@ To create the refund, do the following:
     -   **Description**: `Refund for damaged goods`
 3.  On the form toolbar, click **Save**.
 
-## Step 2: Applying a Credit Memo to the Refund in Full {#section_dsp_4jv_vxb .section}
+## Step 2: Applying a Credit Memo to the Refund in Full
 
 To apply a credit memo to the refund in full, do the following:
 
@@ -67,10 +67,9 @@ To apply a credit memo to the refund in full, do the following:
 
 3.  On the form toolbar, click **Save** to save the refund, which is shown in the following screenshot.
 
-    ![](Images/activity_Finance_Customer_Refund.png "The refund created for HMBAKERY")
 
 
-## Step 3: Releasing the Refund and its Application {#section_gsp_4jv_vxb .section}
+## Step 3: Releasing the Refund and its Application
 
 To release the refund and its application, do the following:
 

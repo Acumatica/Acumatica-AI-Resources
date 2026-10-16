@@ -1,8 +1,8 @@
-# To Configure File Synchronization Through SFTP {#_d9555f46-0a48-4059-8082-decc6b8e3652 .task}
+# To Configure File Synchronization Through SFTP
 
 Synchronization through Secure File Transfer Protocol \(SFTP\) is similar to File Transfer Protocol \(FTP\) synchronization but is more secure because it provides data exchange only when the file storage and Acumatica ERP have matching SSH keys. Therefore, you first should generate an Secure Shell \(SSH\) key pair and upload the keys to the SFTP server and Acumatica ERP; you then configure file synchronization by using the [File Maintenance](SM_20_25_10.md) \(SM202510\) form. These tasks are be described below:
 
-## To Generate SSH Keys { .section}
+## To Generate SSH Keys
 
 1.  Install and launch the [PuTTY Key Generator](https://www.ssh.com/academy/ssh/putty).
 2.  In the Parameters pane, select the **RSA** type.
@@ -11,7 +11,7 @@ Synchronization through Secure File Transfer Protocol \(SFTP\) is similar to Fil
 5.  Press **Save public key** and store the public key in some temporary location.
 6.  In the main menu, select **Conversions → Export OpenSSH Key**, specify a `.txt` extension, and store the private key in some temporary location.
 
-## Upload SSH Keys { .section}
+## Upload SSH Keys
 
 1.  Upload the public key to your SFTP server.
 2.  Upload the private key to Acumatica ERP. To do this:
@@ -26,7 +26,7 @@ Synchronization through Secure File Transfer Protocol \(SFTP\) is similar to Fil
     9.  Click **Upload** to import the certificate.
     10. Close the Files dialog box.
 
-## To Configure File Synchronization \(SFTP\) { .section}
+## To Configure File Synchronization \(SFTP\)
 
 1.  Open the [Search in Files](SM_20_25_20.md) \(SM202520\) form.
 2.  To find the file, in the Selection area, specify criteria to help you find the file. These criteria can include the file name \(or part of the file name\), the time interval of the import, and the name of the user who imported the file or checked it out. The table lists the files that match the criteria you have specified.

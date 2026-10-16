@@ -1,4 +1,4 @@
-# Acumatica ERP Integration with Gmail: General Information {#_0dd48ff3-340e-41b2-8183-a2dab0a56de2 .concept}
+# Acumatica ERP Integration with Gmail: General Information
 
 You can work with the Acumatica ERP records directly in your Gmail mailbox. The Gmail integration connects your email account to the system, so you can access related records and create new records without leaving Gmail.
 

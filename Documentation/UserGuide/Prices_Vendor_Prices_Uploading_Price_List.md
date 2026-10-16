@@ -1,14 +1,14 @@
-# Vendor Prices: Uploading Vendor Price Lists {#_027e6206-74de-44e4-b8a4-9cbb35770c71 .concept}
+# Vendor Prices: Uploading Vendor Price Lists
 
 In this topic, you will read about uploading of vendor price lists.
 
 In Acumatica ERP, users can update vendor prices in a variety of ways. You can modify existing vendor price records one by one on the [Vendor Prices](AP_20_20_00.md) \(AP202000\) form, for example, if you need to make only minor updates to individual price records, or use vendor price worksheets to upload or update multiple vendor price records at once on the [Vendor Price Worksheets](AP_20_20_10.md) \(AP202010\) form.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 You will learn how to upload a vendor price list to Acumatica ERP by using vendor price worksheets.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 Vendors share their product information by sending electronic versions of their catalogs or their price lists, or by making them available for download from their websites. Generally, some price lists include prices intended for all clients, others intended for those who buy occasionally, or those who buy in large volumes. If your company is a preferred customer of a specific vendor or buys in large volumes, the vendor might offer wholesale prices or special prices to your company on particular items or on its entire inventory.
 
@@ -22,13 +22,13 @@ Depending on the type of the items \(non-stock items or stock items\) and the ki
 -   Warehouse-specific prices can only be maintained if the *Multiple Warehouses* feature is enabled.
 -   Volume-dependent vendor prices are supported if the *Volume Pricing* feature is enabled.
 
-## Uploading Vendor Price Lists Using Vendor Price Worksheets { .section}
+## Uploading Vendor Price Lists Using Vendor Price Worksheets
 
 In Acumatica ERP, you can upload price lists \(or enter them manually\) for each vendor separately by using the [Vendor Price Worksheets](AP_20_20_10.md) \(AP202010\) form. Uploading an Excel file with the prices that you have received from a vendor is the most common way of maintaining vendor prices.
 
 Prices defined in a worksheet become effective only after you release the worksheet \(on a date specified as the effective date\). Before the worksheet is released, you can edit records in it.
 
-## Price Retention Settings { .section}
+## Price Retention Settings
 
 You can specify how the system keeps the history of vendor prices on the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form:
 

@@ -1,4 +1,4 @@
-# Correcting Purchase Receipts {#_ee6e81f7-0f67-4683-8867-cea36a86118d .concept}
+# Correcting Purchase Receipts
 
 In Acumatica ERP, you can edit a released purchase receipt created for a purchase order of the *Normal* or *Drop-Ship* type. With the ability to correct the receipt's settings, you can efficiently fix errors or adapt to changes in procurement processes.
 

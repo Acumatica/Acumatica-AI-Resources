@@ -1,8 +1,8 @@
-# Invoices with Inclusive Sales Taxes: Generated Transactions {#_fec42f9b-fde2-431a-813e-596436d1f646 .concept}
+# Invoices with Inclusive Sales Taxes: Generated Transactions
 
 To be able to process inclusive document-level sales taxes, you create and process AR invoices. When an AR invoice is released, to update the customer’s balance, the system generates the GL transaction described in the following sections.
 
-## Transaction Generated for an AR Invoice {#section_es3_fjv_vxb .section}
+## Transaction Generated for an AR Invoice
 
 When you create and release an AR invoice with a rounding difference, the system generates the following GL transaction.
 

@@ -1,10 +1,10 @@
-# Purchase Requests and Requisitions: To Process Customer Requests {#_80341db4-23ca-45e8-9c3f-94eb43f062c5 .task}
+# Purchase Requests and Requisitions: To Process Customer Requests
 
 The following activity demonstrates how to process a purchase requisition that is based on customer requests.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Matt Parker, a purchasing manager in the *SweetLife Head Office and Wholesale Center* branch, and you are responsible for processing requests from customers who order fruit in your company. The company works with two fruit vendors: All Fruits Mall and Good Fruits. SweetLife's sales managers have received the following requests for fruit from the FourStar Coffee &amp; Sweets Shop and HM's Bakery &amp; Cafe customers:
 
@@ -13,7 +13,7 @@ Suppose that you are Matt Parker, a purchasing manager in the *SweetLife Head Of
 
 You need to enter these requests into the system, create a purchase requisition, and request bids from the vendors. You will select the best vendors to fulfill the requests. The selected vendors will ship fruits to your company's warehouse. You will then process the needed documents to receive the fruits and ship them to the customers.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -31,7 +31,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the following vendors have been created: *ALLFRUITS* and *GOODFRUITS*.
 -   On the [Purchase Requisitions Preferences](RQ_10_10_00.md) \(RQ101000\) form, the **Create Purchase Order on Hold** check box is cleared, which means that purchase orders are created in the *Open* status.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -43,7 +43,7 @@ In this activity, you will do the following:
 6.  On the [Purchase Orders](PO_30_10_00.md) \(PO301000\) and [Purchase Receipts](PO_30_20_00.md) \(PO302000\) forms, prepare and process the purchase receipts for the ordered stock items.
 7.  On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, prepare the sales order and the related shipment of the stock items to the customer.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start performing the steps of this activity, do the following:
 
@@ -51,7 +51,7 @@ Before you start performing the steps of this activity, do the following:
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, make sure the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Creating the Customer Requests in the System { .section}
+## Step 1: Creating the Customer Requests in the System
 
 To create the customer requests from the *COFFEESHOP* and *HMBAKERY* customers, do the following:
 
@@ -86,7 +86,7 @@ To create the customer requests from the *COFFEESHOP* and *HMBAKERY* customers, 
         -   **Order Qty.**: `80`
 8.  On the form toolbar, click **Remove Hold**. The system saves the request and assigns it the *Open* status.
 
-## Step 2: Creating a Purchase Requisition { .section}
+## Step 2: Creating a Purchase Requisition
 
 To create a combined requisition for the customers' requests that you have created in the previous step, do the following:
 
@@ -104,7 +104,7 @@ To create a combined requisition for the customers' requests that you have creat
 
 Suppose that you have sent the requisition to these vendors by email. In a system where email functionality has been configured, you would click **Send Requests for Proposal** on the table toolbar of the [Requisitions](RQ_30_20_00.md) form to send all the requests to the vendors or send each request by clicking the vendor on the **Bidding** tab and clicking **Send Request** on the table toolbar.
 
-## Step 3: Entering the Vendor Responses into the System { .section}
+## Step 3: Entering the Vendor Responses into the System
 
 Suppose that you have received bids from both vendors. The *ALLFRUITS* vendor can deliver only 150 pounds of oranges, and a minimum of 50 pounds must be purchased from this vendor. This vendor does not have tangerines in stock but can provide the requested quantity of lemons and apples. Also, this vendor provides you a discount if you purchase more than two items in one order.
 
@@ -163,7 +163,7 @@ To add the responses from the vendors to the system, do the following:
         -   **Bid Unit Cost**: `2.30`
 7.  On the form toolbar, click **Save**.
 
-## Step 4: Selecting the Best Bids from Vendors { .section}
+## Step 4: Selecting the Best Bids from Vendors
 
 To perform automatic bidding and then correct the bidding results manually, do the following:
 
@@ -200,7 +200,7 @@ To perform automatic bidding and then correct the bidding results manually, do t
 
 Now that you have selected the vendors, you can create the needed purchase orders to be sent to the vendors.
 
-## Step 5: Creating the Purchase Orders { .section}
+## Step 5: Creating the Purchase Orders
 
 To create the purchase orders for the vendors, do the following:
 
@@ -210,16 +210,14 @@ To create the purchase orders for the vendors, do the following:
 
     **Attention:** If your system has a different set of purchase and sales documents than those in the initial *U100* dataset, you may see different values in the screenshots.
 
-    ![](Images/OrderMgmt_External_Purchase_Requests_To_Process_Request_PO.png "The purchase orders for the vendors")
 
 4.  On the **Sales Orders** tab, make sure that sales orders with the *Open* status are listed for the *COFFEESHOP* and *HMBAKERY* customers, as shown in the following screenshot.
 
-    ![](Images/OrderMgmt_External_Purchase_Requests_To_Process_Request_SO.png "The sales orders for the customers")
 
 
 You have created purchase orders for both vendors. Suppose that you have emailed the purchase orders to the vendors.
 
-## Step 6: Receiving the Items from the Vendors { .section}
+## Step 6: Receiving the Items from the Vendors
 
 Suppose that the vendors have delivered the ordered fruits to the *WHOLESALE* warehouse. To create the documents that reflect the receipt of the items in the warehouse, do the following:
 
@@ -247,7 +245,7 @@ Suppose that the vendors have delivered the ordered fruits to the *WHOLESALE* wa
 
 All fruits are allocated for sales orders, which means that these fruits are not available for other orders. Now you can prepare and process the documents for shipping the fruits to the customers, which you will do in the next step.
 
-## Step 7: Shipping the Fruits to the Customers { .section}
+## Step 7: Shipping the Fruits to the Customers
 
 In this step, you will perform the needed actions to ship the fruits to the customers. You will process the sales orders, create and confirm shipments for them, create and release the related invoices, and generate the needed inventory transactions. Do the following:
 

@@ -1,6 +1,6 @@
-# Maintaining Reports {#_1978cf80-0ff3-4da3-b390-d86be7148caa .concept}
+# Maintaining Reports
 
-In Acumatica Report Designer, you can create custom reports or modify existing reports and then use these reports in Acumatica ERP or an Acumatica Framework-based application. For more information on the creation of the custom reports with the Report Designer, see [Acumatica Report Designer Guide](../UserGuide/ReportDesigner_Main.md).
+In Acumatica Report Designer, you can create custom reports or modify existing reports and then use these reports in Acumatica ERP or an Acumatica Framework-based application. For more information on the creation of the custom reports with the Report Designer, see [Acumatica Report Designer](../UserGuide/ReportDesigner_Main.md).
 
 In this chapter, you can find details about how the system renders reports in Acumatica ERP.
 

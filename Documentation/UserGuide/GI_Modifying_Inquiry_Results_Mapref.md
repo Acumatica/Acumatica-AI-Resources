@@ -1,4 +1,4 @@
-# Modifying Inquiry Results {#_1a26ad28-0b0a-495e-8e14-610a29c19430 .concept}
+# Modifying Inquiry Results
 
 In the topics of this chapter, you will learn how to modify the results of an existing generic inquiry. Specifically, you will learn how to manage column visibility, enable or disable the built-in navigation to data entry forms, manage quick search, configure quick filters, change column default captions, and adjust column width.
 

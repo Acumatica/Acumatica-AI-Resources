@@ -1,8 +1,8 @@
-# Create a Project from a Project Template {#_13f5f5b8-33d1-40d9-83db-3f3dfc5dcba9 .concept}
+# Create a Project from a Project Template
 
 By using the REST API, you can create a project from a project template. For details about project templates, see [Project Templates and Common Tasks: General Information](../UserGuide/Projects_Templates_GeneralInfo.md).
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to configure your client application and the Acumatica ERP instance to be used as follows:
 
@@ -11,14 +11,14 @@ Before you test the code below, you need to configure your client application an
 3.  To sign in to the instance in the client application, use the tenant name \(which you specified when you created the instance\) and the *HEADOFFICE* branch.
 4.  If you are using Postman as the client application for testing, in the `IntegrationDevelopmentGuide.postman_collection.json` collection, make sure that the collection’s variables have the proper values. This collection is located in the `IntegrationDevelopment\Help` folder of the [Help-and-Training-Examples](https://github.com/Acumatica/Help-and-Training-Examples) repository on GitHub.
 
-## Request { .section}
+## Request
 
 You can use the following example of an HTTP request to create a project from the *PROGRESS* project template and specify the Customer, BillingRule, and BillingPeriod settings of the project through the contract-based REST API.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-PUT /entity/Default/25.200.001/Project HTTP/1.1
+PUT /entity/Default/26.200.001/Project HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
 Content-Type: application/json
@@ -35,7 +35,7 @@ Content-Type: application/json
 }
 ```
 
-## Usage Notes { .section}
+## Usage Notes
 
 By using the REST API, you can create pro forma invoices and send them by email. For details about pro forma invoices, see [Pro Forma Invoices: General Information](../Shared/../UserGuide/Projects_Pro_Forma_Invoices_GeneralInfo.md).
 

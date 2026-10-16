@@ -1,14 +1,13 @@
-# Adding a Field from Another DAC {#_72283636-bb6e-41e2-a8eb-27f3c723dae6 .concept}
+# Adding a Field from Another DAC
 
 This topic describes how to add a UI control to an ASPX from another DAC.
 
-## Customization Description { .section}
+## Customization Description
 
 Suppose that you want to display boxes \(or columns in a grid\) from multiple DACs. For example, suppose that you are developing the custom Service and Prices \(RS203000\) maintenance form with several tabs, including the **Repair Items** tab. You have a service item that is defined by a custom DAC called `RSSVRepairItem`, and it has a corresponding stock item with a unique ID. Suppose you want to display information on this custom item and a description of its corresponding stock item.
 
 The following screenshot shows an example of this form \(which is designed in the *T210 Customized Forms and Master-Details Relationships* training course\).
 
-![](images/CG_EX_AddToASPX.png "The Repair Items tab of the custom form")
 
 The `RSSVRepairItem` DAC includes the `InventoryID` field, which identifies a stock item. The field is defined as the following code shows.
 
@@ -28,7 +27,7 @@ public SelectFrom<RSSVRepairItem>.
 			RepairItems;
 ```
 
-## Implementation { .section}
+## Implementation
 
 To display a UI control from a DAC which is not selected in a view, you can use one of the following approaches:
 
@@ -81,42 +80,77 @@ To display information by configuring both the view and the ASPX file, do the fo
     Note that to add a field, you specify the DAC name and the field name by separating them with a double underscore.
 
 
-## Summary { .section}
+## Summary
 
 To add a box \(or a column\) to a form that is mapped to a field from a DAC not used in a view, you use the following formula in the DataField attribute in the ASPX file: &lt;PK\_field\_name&gt;\_&lt;field\_name&gt;.
 
 To add a box \(or a column\) to a form that is mapped to a field from a DAC selected in a view, you use the following formula in the DataField attribute in the ASPX file: &lt;DAC\_name&gt;\_\_&lt;field\_name&gt;.
 
-## Examples in Acumatica ERP Source Code { .section}
+## Examples in Acumatica ERP Source Code
 
 The following table lists similar examples of displaying fields from different DACs in Acumatica ERP forms.
 
-|Form|Location on the Form|Location in Source Code|
-|----|--------------------|-----------------------|
-|[Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\)|The following columns on the **Tax Details** tab are mapped by using ASPX and joining DACs in a view:-   **Tax Type**
+<table id="_50790ba2-75c2-4b66-8526-9fdc6f674079"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Location on the Form
+
+</th><th>
+
+Location in Source Code
+
+</th></tr></thead><tbody><tr><td>
+
+[Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\)
+
+</td><td>
+
+The following columns on the **Tax Details** tab are mapped by using ASPX and joining DACs in a view:-   **Tax Type**
 -   **Pending Tax**
 -   **Reverse Tax**
 -   **Include in VAT Exempt Tax**
 -   **Statistical Tax**
 
-|-   `SOOrderEntry` graph
+</td><td>
+
+-   `SOOrderEntry` graph
 -   `<px:PXGridLevel DataMember="Taxes">`
 
-|
-|[Vendor Prices](../UserGuide/AP_20_20_00.md) \(AP202000\)|The **Vendor Name** and **Description** columns in the form grid are mapped by using ASPX and joining DAC in a view.|-   `APVendorPriceMaint` graph
+</td></tr><tr><td>
+
+[Vendor Prices](../UserGuide/AP_20_20_00.md) \(AP202000\)
+
+</td><td>
+
+The **Vendor Name** and **Description** columns in the form grid are mapped by using ASPX and joining DAC in a view.
+
+</td><td>
+
+-   `APVendorPriceMaint` graph
 -   `<px:PXGridLevel DataMember="Records">`
 
-|
-|[Deactivate Expired Cards](../UserGuide/AR_51_25_00.md) \(AR512500\)|The following columns in the form grid are mapped by using ASPX and joining DAC in a view:-   **Customer Name**
+</td></tr><tr><td>
+
+[Deactivate Expired Cards](../UserGuide/AR_51_25_00.md) \(AR512500\)
+
+</td><td>
+
+The following columns in the form grid are mapped by using ASPX and joining DAC in a view:-   **Customer Name**
 -   **Customer Class**
 -   **Email**
 -   **Phone 1**
 -   **Fax**
 
-|-   `APExpiringCardsProcess` graph
+</td><td>
+
+-   `APExpiringCardsProcess` graph
 -   `<px:PXGridLevel DataMember="Cards">`
 
-|
+</td></tr></tbody>
+</table>
 
 **Parent topic:**[Use Cases](../CustomizationPlatform/CG_Example_UseCases.md)
 

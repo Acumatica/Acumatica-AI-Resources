@@ -1,14 +1,14 @@
-# Conversion of a Simple Budget to a Hierarchical Budget: Process Activity {#_33efb49a-6f55-464d-9376-a06012943ae8 .task}
+# Conversion of a Simple Budget to a Hierarchical Budget: Process Activity
 
 In this activity, you will learn how to convert an existing simple budget into a hierarchical budget.
 
-## Story {#section_lyk_mjv_vxb .section}
+## Story
 
 Suppose that the 2026 budget of the SweetLife Fruits &amp; Jams company, which contains sales and production budget articles, has to be converted into a hierarchical budget based on the previously created budget tree. \(As the company has grown, its management has decided to have more detailed budgets in the system, and a budget tree has been configured.\)
 
 Acting as a system administrator, you need to convert the simple budget into a hierarchical budget and review how users with various roles can access the budget nodes.
 
-## Configuration Overview {#section_oyk_mjv_vxb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed for the purposes of this activity:
 
@@ -17,11 +17,11 @@ In the *U100* dataset, the following tasks have been performed for the purposes 
 -   On the [Users](SM_20_10_10.md) \(SM201010\) form, the *chubb*, *wiley*, *johmson*, and *gibbs* user accounts have been created.
 -   On the [Ledgers](GL_20_15_00.md) \(GL201500\) form, the *BUDGET* ledger of the *Budget* type has been defined.
 
-## Process Overview {#section_tyk_mjv_vxb .section}
+## Process Overview
 
 In this activity, on the [Budgets](GL_30_20_10.md) \(GL302010\) form, you will convert a simple budget for 2026 into a hierarchical one. You will sign in as a user with the *Sales Manager* role, then as a user with the *Purchasing Manager* role, and finally as a user with the *Financial Supervisor* role; while signed in as each user, you will review the available budget nodes on the [Budgets](GL_30_20_10.md) \(GL302010\) form.
 
-## System Preparation {#section_vyk_mjv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -31,7 +31,7 @@ Before you begin performing the steps of this activity, do the following:
 4.  Make sure that you have performed the following prerequisite activity to configure restriction groups: [Access to Budget Nodes: Implementation Activity](../ImplementationGuide/Finance_Access_to_Budget_Nodes_Process_Activity.md).
 5.  Make sure that you have performed the following prerequisite activity to configure a budget tree in the system: [Budget Tree: Implementation Activity](../ImplementationGuide/config_Budget_Tree_Implem_Activity.md).
 
-## Step 1: Converting a Simple Budget to a Hierarchical Budget {#section_xyk_mjv_vxb .section}
+## Step 1: Converting a Simple Budget to a Hierarchical Budget
 
 To convert the simple budget to a hierarchical budget, do the following:
 
@@ -54,7 +54,7 @@ To convert the simple budget to a hierarchical budget, do the following:
 7.  On the form toolbar, click **Save** to save the changes.
 8.  Sign out from the system.
 
-## Step 2: Reviewing the Accessible Budget Nodes for a Sales Manager {#section_bzk_mjv_vxb .section}
+## Step 2: Reviewing the Accessible Budget Nodes for a Sales Manager
 
 To review the budget nodes that are accessible for a sales manager based on the restriction groups that you set up, do the following:
 
@@ -68,7 +68,7 @@ To review the budget nodes that are accessible for a sales manager based on the 
 4.  In the left pane, notice that only the **Sales** node is available for this user, who belongs to the *SalesBudget* restriction group.
 5.  Sign out from the system.
 
-## Step 3: Reviewing the Accessible Budget Nodes for a Purchasing Manager {#section_dzk_mjv_vxb .section}
+## Step 3: Reviewing the Accessible Budget Nodes for a Purchasing Manager
 
 To review the budget nodes that are accessible for a purchasing manager, do the following:
 
@@ -82,7 +82,7 @@ To review the budget nodes that are accessible for a purchasing manager, do the 
 4.  In the left pane, notice that only the **Production** node with subnodes is available for this user, who belongs to the *ProductionBudget* restriction group.
 5.  Sign out from the system.
 
-## Step 4: Reviewing the Accessible Budget Nodes for a Financial Supervisor {#section_fzk_mjv_vxb .section}
+## Step 4: Reviewing the Accessible Budget Nodes for a Financial Supervisor
 
 To review the budget nodes that are accessible for a financial supervisor, do the following:
 

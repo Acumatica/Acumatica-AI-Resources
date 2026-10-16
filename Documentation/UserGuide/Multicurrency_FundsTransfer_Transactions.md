@@ -1,4 +1,4 @@
-# Multicurrency Funds Transfers: Generated Transactions {#_fd9faab5-65f0-4b6d-8c38-389711382617 .concept}
+# Multicurrency Funds Transfers: Generated Transactions
 
 The system always generates separate GL transactions for a multicurrency transfer. The following tables show the transactions recorded to the general ledger for the source and destination accounts.
 

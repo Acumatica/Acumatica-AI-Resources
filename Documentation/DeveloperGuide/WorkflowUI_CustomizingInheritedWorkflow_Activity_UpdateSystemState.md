@@ -1,16 +1,16 @@
-# Diagram View: To Adjust the System State {#_77dc0a14-103a-4b59-8c0f-03bccaaab202 .task}
+# Diagram View: To Adjust the System State
 
 The following activity will walk you through the process of adjusting a system state on the [Workflow \(Diagram View\)](../UserGuide/AU_20_10_30_VisualEditor.md) page. In this activity, you will make one of the fields that is displayed in the system state required.
 
-## Story { .section}
+## Story
 
 Acting as the technical specialist, you need to make the **Owner** box required for the opportunities with the *Open* status on the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Workflow \(Diagram View\)](../UserGuide/AU_20_10_30_VisualEditor.md) page, you will update the `Open` state \(which is a predefined state\) to make the **Owner** box required on the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing this activity, do the following:
 
@@ -20,7 +20,7 @@ Before you begin performing this activity, do the following:
 
 2.  Make sure that you have completed the [Diagram View: To Remove Unneeded Parts of the Workflow](WorkflowUI_CustomizingInheritedWorkflow_Activity_RemoveRedundant.md) activity.
 
-## Step: Updating the System State { .section}
+## Step: Updating the System State
 
 To update the predefined `Open` system state, in the Customization Project Editor for the *Opportunities* customization project, perform the following instructions:
 

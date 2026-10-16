@@ -1,11 +1,11 @@
-# AR DACs: Customer Statements {#_1f5115c4-60d3-4b6c-a9af-5b2e73d2b491 .concept}
+# AR DACs: Customer Statements
 
 By using the customer statement functionality, users can send statements to customers. Each statement shows the open balance \(due or overdue\) detailed by reference data about either of the following, depending on the statement type of the applicable customer on the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\) form:
 
 -   Current open documents \(for the *Open Item* statement type\)
 -   All document activity since the last statement \(for the *Balance Brought Forward* statement type\)
 
-## ARStatementCycle { .section}
+## ARStatementCycle
 
 To facilitate statement processing, each [Customer](https://help.acumatica.com/dacBrowser/PX.Objects.AR/Customer) record in the system is assigned to a statement cycle \(which is stored in [ARStatementCycle](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARStatementCycle)\), as the following SQL query shows.
 
@@ -33,7 +33,7 @@ The statement cycle defines the general settings for the processing of statement
 
 The type of statements \(*Open Item* or *Balance Brought Forward*\) is generated for a particular customer and is indicated by Customer.StatementType.
 
-## Statements, Details, and Applications { .section}
+## Statements, Details, and Applications
 
 The primary entity representing a customer statement in the system is [ARStatement](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARStatement). It contains general statement information \(including aged customer due and overdue balances on the statement date\) and serves as a master entity for all document details that are displayed in the statement. Document details are stored in [ARStatementDetail](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARStatementDetail).
 

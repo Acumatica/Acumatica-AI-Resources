@@ -1,4 +1,4 @@
-# ProFormaInvoice {#_7993b042-713d-4d4e-806c-5840aa2d7dea .concept}
+# ProFormaInvoice
 
 This chapter presents code examples showing requests that use the `ProFormaInvoice` entity.
 

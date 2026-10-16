@@ -1,4 +1,4 @@
-# Project Material Management: The Lifecycle of Project Materials {#_d7cd2653-1342-4dd9-a12e-9bd56b6af816 .concept}
+# Project Material Management: The Lifecycle of Project Materials
 
 Throughout a project's lifecycle, a construction company manages inventory, tracks the usage of materials, and ensures that materials and services are utilized efficiently. As the construction project evolves, this involves regular communication with vendors and subcontractors, continuous monitoring of supply levels, and adjustments to procurement strategies. You need proper documentation and financial tracking to maintain transparency and control over project costs, ensuring that expenditures are aligned with the approved budget.
 
@@ -17,6 +17,8 @@ For details about:
 
 -   Material management for projects, see [Project Material Management: General Information](Construction_Project_Materials_Mgmt_GeneralInfo.md)
 -   Subcontracts for projects, see [Subcontracts: General Information](Construction_Subcontracts_GeneralInfo.md)
+
+Also, the way your organization manages inventory items for projects can change over time. You might initially purchase an item ad hoc for a specific project and later decide to track it in stock. Or you might stop tracking a stocked item in inventory, instead purchasing it only when it's needed. For details, see [Stock Status of Items: General Information](OrderMgmt_Stock_Status_of_Items_GeneralInfo.md).
 
 **Parent topic:**[Managing Project Materials](../UserGuide/Construction_Project_Materials_Mgmt_Mapref.md)
 

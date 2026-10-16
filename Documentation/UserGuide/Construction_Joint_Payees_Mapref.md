@@ -1,4 +1,4 @@
-# Processing Joint Payments {#_80551664-937c-4736-92f4-57eebb0eb474 .concept}
+# Processing Joint Payments
 
 In this chapter, you will find topics that will help you learn about the processing of joint payments in the system.
 

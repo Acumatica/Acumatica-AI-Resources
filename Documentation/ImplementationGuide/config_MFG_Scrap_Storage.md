@@ -1,4 +1,4 @@
-# Configuration of Scrap, Waste, and By-Products in Production: Scrap Quarantine {#_efb19596-5a78-4a86-bfbd-0540f7ebb148 .concept}
+# Configuration of Scrap, Waste, and By-Products in Production: Scrap Quarantine
 
 Scrap is defined as quarantined if *Quarantine* is specified as the scrap action in an operation of a bill of material on the [Bill of Material](../UserGuide/AM_20_80_00.md) \(AM208000\) form. When configuring tracking of quarantined scrap, you may need to define the warehouse or warehouse location \(or both\) where the scrapped items will be stored. The choice of the place of storage depends on the valuation method of the produced items and other factors, as described in this topic.
 
@@ -7,7 +7,7 @@ The needed features must be enabled on the [Enable/Disable Features](../UserGuid
 -   *Multiple Warehouses*
 -   *Multiple Warehouse Locations*
 
-## Scrap Storage and Valuation Methods { .section}
+## Scrap Storage and Valuation Methods
 
 The most appropriate way to store quarantined scrapped items depends on the valuation method of the item to be produced, which is specified in the **Valuation Method** box of the **General** tab on the [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\) form. The option selected in this box affects the storage of scrapped items as follows:
 
@@ -18,7 +18,7 @@ The most appropriate way to store quarantined scrapped items depends on the valu
 
 -   *Specific*: With this option selected for the item, you can use the same warehouse as is used for storing produced items, but the last cost and average cost values of the produced item will include the scrap cost adjustment. You can view these values on the **Price/Cost** tab of the [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\) form.
 
-## Default Settings for Scrap Storage { .section}
+## Default Settings for Scrap Storage
 
 When a user creates a production order on the [Production Order Maintenance](../UserGuide/AM_20_15_00.md) \(AM201500\) form, the system can populate the **Scrap Warehouse** and **Scrap Location** boxes with default settings depending on the scrap source specified for the production order type of the production order. The option is specified in the **Scrap Source** box on the **General** tab of the [Production Order Types](../UserGuide/AM_20_11_00.md) \(AM201100\) form.
 

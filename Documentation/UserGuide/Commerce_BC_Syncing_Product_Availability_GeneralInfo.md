@@ -1,8 +1,8 @@
-# Product Availability: General Information {#_e2af17d8-c0c6-4350-b9f3-bc37c10567b2 .concept}
+# Product Availability: General Information
 
 Acumatica ERP Retail Edition provides you with the ability to track the available quantities of stock items that you sell via the BigCommerce store and maintain in Acumatica ERP. You have the flexibility to configure which quantities of a stock item should be included in calculations of the quantity available for sale in the online store.
 
-## Learning Objectives {#_2d17801d-5397-4a97-9fb3-f815abbe79e5 .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,11 +10,11 @@ In this chapter, you will learn how to do the following:
 -   Set up quantity tracking for stock items exported to the BigCommerce store
 -   Synchronize the available quantities of exported stock items for which quantity tracking is turned on
 
-## Applicable Scenarios {#_babea2db-3c58-435a-9052-c0a9372bc31b .section}
+## Applicable Scenarios
 
 You track available quantities of stock items exported to the BigCommerce store if you want to make these items available for purchase by shoppers through the storefront only if there is a sufficient quantity in stock.
 
-## Configuration of Product Availability Synchronization { .section}
+## Configuration of Product Availability Synchronization
 
 Before you start exporting available quantities of stock items from Acumatica ERP to a BigCommerce, you need to perform the following general steps:
 
@@ -22,7 +22,7 @@ Before you start exporting available quantities of stock items from Acumatica ER
 2.  Specify the quantity calculation settings for the store on the **Inventory** tab of the [BigCommerce Stores](BC_20_10_00.md) form. For details, see [Product Availability: Calculation of Available Quantities](Commerce_BC_Syncing_Product_Availability_Quantity_Calculation.md).
 3.  Determine the stock items for which available quantities should be exported. For more information, see the *Tracking Available Quantities of Exported Stock Items* section below.
 
-## Selection of the Warehouse Mode { .section}
+## Selection of the Warehouse Mode
 
 You also select whether quantity calculations should include available quantities from all warehouses or from only the specified warehouses or warehouse locations. To do so, in the **Warehouse Mode** box on the **Inventory** tab of the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form, you select one of the following options:
 
@@ -47,7 +47,7 @@ Keep in mind the following mapping rules:
 
 If you have synchronized the *Product Availability* entity, when you modify any of the settings described in this section, the system resets the availability synchronization status for all synchronized items in the BigCommerce store, and you need to perform the full synchronization of the *Product Availability* entity again.
 
-## Tracking Available Quantities of Exported Stock Items { .section}
+## Tracking Available Quantities of Exported Stock Items
 
 You can track available quantities of stock items exported to a BigCommerce store and make them available for purchase via the storefront only when they are in stock. You can also determine how the system should handle items that go out of stock.
 
@@ -70,13 +70,13 @@ If you select the *Set as Available \(Track Qty.\)* option in the **Availability
 
 -   To keep the current purchasability settings of the item, select *Do Nothing*. In BigCommerce, the currently selected option button remains selected.
 
-## Synchronization of Availability Settings { .section}
+## Synchronization of Availability Settings
 
 The availability \(purchasability\) settings of a stock item in the BigCommerce store are updated as part of the synchronization of the *Stock Item* entity. During the synchronization, the system updates the purchasability settings of each item exported to BigCommerce based on the option selected in the **Availability** box on the **eCommerce** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form.
 
 For stock items whose quantities are tracked and have been synchronized with the BigCommerce store, during the synchronization of the *Stock Item* entity, the system also checks if the item is in stock \(See the *Synchronization of Available Quantities* section below\). If the item has no available quantity \(that is, its calculated quantity is less than or equal to zero\), the system also updates the item's purchasability settings according to the **When Qty. Unavailable** setting specified on the **eCommerce** tab of the [Stock Items](IN_20_25_00.md) form.
 
-## Synchronization of Available Quantities { .section}
+## Synchronization of Available Quantities
 
 Available quantities of stock items are exported to the BigCommerce store during the synchronization of the *Product Availability* entity.
 
@@ -86,7 +86,7 @@ During the synchronization, the system updates the item's quantity in BigCommerc
 
 If the item has no available quantity \(that us its calculated quantity is less than or equal to zero\), the system also updates the item's purchasability settings according to the **When Qty. Unavailable** setting specified on the **eCommerce** tab of the [Stock Items](IN_20_25_00.md) form.
 
-## Units of Measure of Available Item Quantities { .section}
+## Units of Measure of Available Item Quantities
 
 An item's available quantity is exported to the BigCommerce store in the item's sales unit of measure, which is defined on the **General** tab of the [Stock Items](../Shared/../UserGuide/IN_20_25_00.md) \(IN202500\) form. If an item's base UOM is different from its sales UOM, during the synchronization of the *Product Availability* entity, the item's available quantity is converted to the sales UOM before being exported to the BigCommerce store.
 

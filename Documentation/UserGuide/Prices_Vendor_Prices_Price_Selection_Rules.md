@@ -1,4 +1,4 @@
-# Vendor Prices: Automatic Price Selection {#_75003a13-2613-4725-b2fe-07c5afe0f1f5 .concept}
+# Vendor Prices: Automatic Price Selection
 
 In this topic, you will read about automatic price selection in Acumatica ERP.
 
@@ -21,7 +21,6 @@ Multiple prices of different types might be effective for an item at a particula
 
 Once the system finds an applicable price, it stops the search and inserts this price into the document line, but you can override this price. The price search priority is illustrated in the following diagram.
 
-![](Images/Diagram_Search_Priority_for_Vendor_Prices_2.png)
 
 **Parent topic:**[Maintaining Vendor Prices](../UserGuide/Prices_Vendor_Prices_Mapref.md)
 

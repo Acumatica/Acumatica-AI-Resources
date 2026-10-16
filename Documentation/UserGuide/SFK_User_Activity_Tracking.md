@@ -1,10 +1,10 @@
-# Shop Floor Kiosk: Activity Tracking {#_6452527d-905a-462e-8558-fa60e9f423d1 .concept}
+# Shop Floor Kiosk: Activity Tracking
 
 The **Recent Activity** page helps you review the actions you recently performed in the Shop Floor Kiosk. You can use this page to confirm that labor, quantity, and material transactions were recorded successfully and to quickly return to operations you were working on previously. The **Recent Activity** page displays actions performed during the last seven calendar days and sorts them from newest to oldest.
 
-## Viewing Recent Activity { .section}
+## Viewing Recent Activity
 
-You can use the **Recent Activity** page to review your recent production reporting actions, including clock-in and clock-out events, quantity reporting, and material transactions. The page provides a chronological activity log that helps you track your work without searching for production orders or operations manually.
+You can use the **Recent Activity** page to review your recent production reporting actions, including clock-in and clock-out events, quantity reporting, material issues, material returns, and byproduct receipts. The page provides a chronological activity log that helps you track your work without searching for production orders or operations manually.
 
 To open the **Recent Activity** page:
 
@@ -27,12 +27,14 @@ Typical actions displayed on the page include:
 -   *Clocked In*
 -   *Clocked Out*
 -   *Material Issued*
+-   *Issued Additional Materials*
+-   *Released Additional Byproduct*
 -   *Reported Completed Quantity*
 -   *Reported Scrap Quantity*
 
 The **Recent Activity** page retains the standard navigation controls used throughout the kiosk, including the Home button, signed-in employee name, site logo, and the **Sign Out** button.
 
-## Verifying Previous Actions { .section}
+## Verifying Previous Actions
 
 You can use the **Recent Activity** page to confirm that your previous actions were processed successfully. This is especially useful after reporting production quantities, issuing materials, or recovering from a temporary network interruption.
 
@@ -46,12 +48,12 @@ Use the activity list to verify the following types of transactions:
 
 -   Whether you successfully clocked in or clocked out of an operation
 -   Whether completed or scrap quantities were submitted
--   Whether material issues or returns were recorded
+-   Whether material issues, returns, or byproduct receipts were recorded
 -   Which production order and operation were affected by the action
 
 The **Recent Activity** page does not display lot or serial numbers for quantity and material transactions.
 
-## Resuming Work from Activity History { .section}
+## Resuming Work from Activity History
 
 You can use the **Recent Activity** page to quickly return to operations you were working on previously. This allows you to resume production reporting without manually locating the production order or operation again.
 

@@ -1,20 +1,20 @@
-# Archiving Documents: To Set Up Archival Policy Settings {#_4aa050ec-3772-4b70-8b68-b575fe4b95d4 .task}
+# Archiving Documents: To Set Up Archival Policy Settings
 
 The following activity will walk you through the process of setting up the archival policy settings.
 
-## Story { .section}
+## Story
 
 Suppose that you are the system administrator, and you have received a task to configure the archival policy for your company. According to your company's internal policy and the governmental regulations, your company must store completed \(and canceled\) sales orders and shipment documents for one year. After that, they can be archived. You will configure the archival settings for these types of documents.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Archival Policy](SM_20_04_00.md) \(SM200400\) form, you will list the entity types of the documents that will be archived \(sales orders and shipments\) by their entity type and specify the retention period for each entity type. In the Summary area of the form, you will specify the duration of the archival process.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin configuring the archival policy, launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as system administrator Kimberly Gibbs by using the *gibbs* username and the *123* password.
 
-## Step: Configuring the Archival Preferences { .section}
+## Step: Configuring the Archival Preferences
 
 To configure the retention period for sales orders and shipments, and to specify the default maximum duration of the archival process, do the following:
 

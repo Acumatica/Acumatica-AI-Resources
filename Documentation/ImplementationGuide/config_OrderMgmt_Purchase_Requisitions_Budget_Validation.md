@@ -1,4 +1,4 @@
-# Purchase Requisition Configuration: Setup of Budget Validation {#_1d564e0e-2ff4-4e6d-b85e-1b4f39a6cec9 .concept}
+# Purchase Requisition Configuration: Setup of Budget Validation
 
 If your company uses purchase requests for internal needs of employees, you can set up budget validation of purchase requests. This validation helps your company prevent cost overruns of requested goods and services. Before you set up this validation, you should make sure that both of the following tasks have been performed in the system:
 
@@ -10,7 +10,7 @@ If your company uses purchase requests for internal needs of employees, you can 
 
 If these tasks have been performed, you can configure configuring request classes for employees and budget validation in their requests.
 
-## Turning On Budget Validation in Request Classes { .section}
+## Turning On Budget Validation in Request Classes
 
 Purchase requests can be validated against the budget only if they are from employees. To prepare an existing employee request class for budget validation, do the following:
 
@@ -21,7 +21,7 @@ Purchase requests can be validated against the budget only if they are from empl
 
 On the [Requests](../UserGuide/RQ_30_10_00.md) \(RQ301000\) form, you can now select this class in purchase requests that you want to validate against the budget.
 
-## Configuring Budget Validation in Request Preferences { .section}
+## Configuring Budget Validation in Request Preferences
 
 To configure budget validation in request preferences, do the following on the **Budget** tab of the [Purchase Requisitions Preferences](../UserGuide/RQ_10_10_00.md) \(RQ101000\) form:
 

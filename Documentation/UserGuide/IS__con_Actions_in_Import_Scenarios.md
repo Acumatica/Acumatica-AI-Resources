@@ -1,4 +1,4 @@
-# Actions in Import Scenarios {#_7a8cb982-bcf7-4260-9e3f-0bb934509a07 .concept}
+# Actions in Import Scenarios
 
 When you need to reflect a button or a menu command being clicked on a form, you map the corresponding action. Actions are available for all buttons on a form, as well as for all commands on the More menu or any other menu.
 
@@ -8,7 +8,7 @@ To add an action to the import scenario mapping, you use the **Actions** node of
 
 For an action, you do not select any external field in the **Source Field or Value** column of the **Mapping** tab of the [Import Scenarios](SM_20_60_25.md) \(SM206025\) form.
 
-## Mapping of Actions with Dialog Boxes { .section}
+## Mapping of Actions with Dialog Boxes
 
 If an action displays a dialog box, you may need to specify certain values for the fields whose elements are shown in this dialog box. In an import scenario, you map each field whose default value you want to change, and then you add a row that maps the action itself. You map a field by doing the following:
 
@@ -25,7 +25,7 @@ You map the check boxes in the same way. Suppose that you are importing invoices
 
 Notice that the row that maps the **Recalculate Prices** action is added after the rows that map the selection and clearing of check boxes in the **Recalculate Prices** dialog box.
 
-## Importing of Documents with Detail Lines {#section_ymy_w4c_qyb .section}
+## Importing of Documents with Detail Lines
 
 When you import documents \(such as invoice and shipments\) with detail lines, by default, the system executes all instructions in the mapping of the scenario, including actions, for each detail line of each document. In most cases, certain actions should be executed only once for a document.
 
@@ -52,7 +52,6 @@ Suppose that you want to update existing invoices by importing prices from a fil
     The system removes the invoice from hold after all its detail line have been updated \(also once\).
 
 
-![](Images/IS_Import_Actions_in_Import_Scenarios_Types.png "The mapping with the types of action execution")
 
 By default, for each row that contains an action, the value in the **Execute Action** column is *For Each Record*. For the &lt;Action: Save&gt; command, the default value in this column is *Once, for Last Detail Line*.
 

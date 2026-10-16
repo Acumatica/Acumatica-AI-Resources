@@ -1,4 +1,4 @@
-# Preparing a Company for Implementation {#_59d8b6a4-fc87-44e8-a3a6-d971eef04253 .concept}
+# Preparing a Company for Implementation
 
 This part of the guide describes the configuration of a company in a new Acumatica ERP instance.
 

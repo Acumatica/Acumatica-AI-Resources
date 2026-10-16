@@ -1,4 +1,4 @@
-# To Define the Units to Be Included in the Unit Set {#_e7cf468a-df0c-400f-aeb3-e5303519534a .task}
+# To Define the Units to Be Included in the Unit Set
 
 On the [Unit Sets](CS_20_60_30.md) \(CS206030\) form, you can perform the following operations on the selected unit set, as detailed in the sections of this topic:
 
@@ -9,7 +9,7 @@ On the [Unit Sets](CS_20_60_30.md) \(CS206030\) form, you can perform the follow
 
 The Units table on the form displays available units and their properties.
 
-## To Create a Unit { .section}
+## To Create a Unit
 
 1.  Open then [Unit Sets](CS_20_60_30.md) \(CS206030\) form.
 2.  In the **Code** box of the Summary area, select the code of the unit set in which you want to create a unit.
@@ -17,7 +17,7 @@ The Units table on the form displays available units and their properties.
 4.  Specify the settings of the new unit in the relevant columns of the added row.
 5.  On the form toolbar, click **Save**.
 
-## To View and Edit the Unit Attributes { .section}
+## To View and Edit the Unit Attributes
 
 Each unit is represented by a row in the Units table. You can edit the attributes for any unit by changing the values in the row that represents the unit.
 
@@ -27,7 +27,7 @@ Each unit is represented by a row in the Units table. You can edit the attribute
 4.  Repeat Step 3 for each row you want to edit.
 5.  On the form toolbar, click **Save**.
 
-## To Define the Units' Hierarchical Structure { .section}
+## To Define the Units' Hierarchical Structure
 
 1.  Open the [Unit Sets](CS_20_60_30.md) \(CS206030\) form.
 2.  In the **Code** box of the Summary area, select the code of the unit set you want to work with.
@@ -36,7 +36,7 @@ Each unit is represented by a row in the Units table. You can edit the attribute
     -   The **Move to external node** button moves the unit one position left and places it in the next external node in the hierarchical structure.
     -   The **Move to internal node** button moves the unit one position right and places it in the next internal node in the hierarchical structure.
 
-## To Delete a Unit from the Unit Set { .section}
+## To Delete a Unit from the Unit Set
 
 1.  Open the [Unit Sets](CS_20_60_30.md) \(CS206030\) form.
 2.  In the **Code** box of the Summary area, select the code of the unit set you want to work with.

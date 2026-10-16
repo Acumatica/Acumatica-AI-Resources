@@ -1,4 +1,4 @@
-# Check Correction and Reprinting {#_640b5527-3736-4433-84f6-e9df8aebcc5e .concept}
+# Check Correction and Reprinting
 
 In this chapter, you will find general information on how reprint checks, a checklist for system implementation, an activity that describes how to correct a check and reprint it with a new number, and report and inquiries that can be useful to find and view created transactions.
 

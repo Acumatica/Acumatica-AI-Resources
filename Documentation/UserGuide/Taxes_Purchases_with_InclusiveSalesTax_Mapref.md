@@ -1,4 +1,4 @@
-# Processing Purchases with Inclusive Sales Taxes {#_f5fa8634-aece-44da-9fdf-82b4bcfb119f .concept}
+# Processing Purchases with Inclusive Sales Taxes
 
 The topics of this chapter describe how to update the settings of an inclusive document-level sales tax and how to process a purchase order with this tax applied.
 

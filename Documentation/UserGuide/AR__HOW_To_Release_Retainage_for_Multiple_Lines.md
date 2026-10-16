@@ -1,4 +1,4 @@
-# To Release Retainage by the Same Percent for Multiple Lines {#_00a05d54-bf99-4d52-bbb7-72ef461f633c .task}
+# To Release Retainage by the Same Percent for Multiple Lines
 
 On the [Release AR Retainage](AR_51_00_00.md) \(AR510000\) form, you can reduce the unreleased retainage for a whole document \(this might be the case if you select a document in the **Ref. Nbr.** box\), multiple documents, or a project by a certain percent without specifying this percent manually for each line. For example, you can use this procedure in the following cases:
 
@@ -13,11 +13,11 @@ To specify the retainage percent to be released, you enter it in the **Retainage
 
 As a result of this procedure, the system creates one retainage document per original document.
 
-## Before You Proceed {#section_ntq_4jv_vxb .section}
+## Before You Proceed
 
 Make sure that the *Payment Application by Line* feature has been enabled on the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form.
 
-## To Release Retainage with the Same Percent for Multiple Lines {#section_ptq_4jv_vxb .section}
+## To Release Retainage with the Same Percent for Multiple Lines
 
 1.  Open the [Release AR Retainage](AR_51_00_00.md) \(AR510000\) form.
 2.  In the Selection area, in the **Date** box, select the date for which you want to create the retainage documents.

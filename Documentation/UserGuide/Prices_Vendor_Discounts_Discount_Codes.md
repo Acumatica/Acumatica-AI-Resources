@@ -1,4 +1,4 @@
-# Vendor Discount Codes {#_efd1b97d-b74c-4d95-8246-a5956a102695 .concept}
+# Vendor Discount Codes
 
 In Acumatica ERP, any customer discount is defined by a combination of parameters specified for a discount code on the [Vendor Discount Codes](AP_20_40_00.md) \(AP204000\) form and for a discount sequence specified on the [Vendor Discounts](AP_20_50_00.md) \(AP205000\) form.
 
@@ -8,7 +8,7 @@ When you create a discount code on the *Vendor Discount Codes* form, you specify
 -   Whether the discounts are applied automatically or manually
 -   Whether the discounts are applied unconditionally or based on a set of conditions
 
-## Line, Group, and Document Discounts { .section}
+## Line, Group, and Document Discounts
 
 For a discount code that you create on the [Vendor Discount Codes](AP_20_40_00.md) \(AP204000\) form, you select one of the following levels at which this discount is applied:
 
@@ -16,7 +16,7 @@ For a discount code that you create on the [Vendor Discount Codes](AP_20_40_00.m
 -   *Group*: This discount applies to multiple lines of the same document. A group-level discount may be based on the total amount or quantity that is in these lines, and the discount can be expressed as a percentage or a fixed amount.
 -   *Document*: This discount applies to the document total. A document-level discount is based on the document total, and the discount can be expressed as a percentage or a fixed amount.
 
-## Automatic and Manual Discounts { .section}
+## Automatic and Manual Discounts
 
 For a discount code, you can specify if the system should apply this discount automatically or a user will apply the discount manually. To mark the discount as manual, you select the **Manual** check box on the [Vendor Discount Codes](AP_20_40_00.md) \(AP204000\) form. You can use manual discounts, for example, for rebates or coupons.
 
@@ -29,7 +29,7 @@ For details, see [Application of Vendor Discounts](Prices_Vendor_Discounts_Appli
 
 On the **Discounts** tab of the [Bills and Adjustments](AP_30_10_00.md) form or **Discounts** tab of the [Purchase Orders](PO_30_10_00.md) form, you can view the details of the document-level and group-level discounts, automatic or manual, that were applied to the document.
 
-## Conditional and Unconditional Discounts { .section}
+## Conditional and Unconditional Discounts
 
 On the [Vendor Discount Codes](AP_20_40_00.md) \(AP204000\) form, for each discount code, you can specify whether a line-level or group-level discount is applicable to a specified entity or multiple specified entities \(that is, the discount is conditional\) or it is applicable to any entity \(that is, the discount is unconditional\). Document-level discounts are always unconditional and apply to the document total.
 

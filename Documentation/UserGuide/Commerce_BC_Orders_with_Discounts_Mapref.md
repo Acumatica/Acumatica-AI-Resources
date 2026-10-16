@@ -1,4 +1,4 @@
-# Importing Orders with Discounts {#_d0a6be3d-73c3-4ac5-bf59-19e8d224d92b .concept}
+# Importing Orders with Discounts
 
 In this chapter, you will learn how to set up the import of orders with discounts from the BigCommerce store to Acumatica ERP.
 

@@ -1,4 +1,4 @@
-# To Set Up Integration With AvaTax {#_48365fae-9e8e-4340-ab06-32df1cadc241 .task}
+# To Set Up Integration With AvaTax
 
 To set up integration between Acumatica ERP and Avalara AvaTax, you need to perform the following general steps, each of which is described in its own section of this topic:
 
@@ -15,7 +15,7 @@ To set up integration between Acumatica ERP and Avalara AvaTax, you need to perf
 -   Your Avalara AvaTax account has been configured. For details, see [To Configure Your Avalara AvaTax Account](TX__how_Setting_Up_Avalara_Integration.md).
 -   The *External Tax Calculation Integration* feature has been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Connecting Acumatica ERP to Your AvaTax Account { .section}
+## Connecting Acumatica ERP to Your AvaTax Account
 
 To establish a connection between Acumatica ERP and your AvaTax account, do the following:
 
@@ -40,7 +40,7 @@ To establish a connection between Acumatica ERP and your AvaTax account, do the 
 16. Repeat Instructions 13–15 for each branch.
 17. On the form toolbar, click **Save**.
 
-## Configuring an Address Validation Provider { .section}
+## Configuring an Address Validation Provider
 
 To set up an address validation provider in Acumatica ERP, do the following:
 
@@ -59,7 +59,7 @@ To set up an address validation provider in Acumatica ERP, do the following:
 
 11. On the form toolbar, click **Save**.
 
-## Setting Up Address Verification { .section}
+## Setting Up Address Verification
 
 To set up address verification in Acumatica ERP, do the following:
 
@@ -68,7 +68,7 @@ To set up address verification in Acumatica ERP, do the following:
 3.  In the **Address Verification Plug-In** box, select the Avalara address validation plug-in you set up.
 4.  On the form toolbar, click **Save**.
 
-## Setting Up a Tax Agency { .section}
+## Setting Up a Tax Agency
 
 To set up a tax agency in Acumatica ERP, do the following:
 
@@ -85,7 +85,7 @@ To set up a tax agency in Acumatica ERP, do the following:
 
 7.  On the form toolbar, click **Save**.
 
-## Creating a Tax Zone { .section}
+## Creating a Tax Zone
 
 To create a tax zone to be used for the AvaTax service, do the following:
 
@@ -96,7 +96,7 @@ To create a tax zone to be used for the AvaTax service, do the following:
 5.  In the **Tax Agency ID** box, select the tax agency you created for this integration.
 6.  On the form toolbar, click **Save**.
 
-## Creating Tax Categories for Tax Codes { .section}
+## Creating Tax Categories for Tax Codes
 
 To create a tax category or multiple categories for use with the integration, perform the following instructions:
 
@@ -105,7 +105,7 @@ To create a tax category or multiple categories for use with the integration, pe
 3.  On the form toolbar, click **Save**.
 4.  Repeat Instructions 1–3 for each required tax code.
 
-## Specifying the Customer Settings { .section}
+## Specifying the Customer Settings
 
 To specify the settings related to Avalara integration for a customer, do the following:
 
@@ -122,7 +122,7 @@ To specify the settings related to Avalara integration for a customer, do the fo
 8.  On the form toolbar, click **Save**, and close the pop-up window.
 9.  For each additional location, repeat Instructions 4–8.
 
-## Assigning Tax Categories to Stock Items and Non-Stock Items { .section}
+## Assigning Tax Categories to Stock Items and Non-Stock Items
 
 To assign a specific tax category to each needed stock and non-stock item, do the following:
 
@@ -131,5 +131,5 @@ To assign a specific tax category to each needed stock and non-stock item, do th
 3.  On the **General** tab, in the **Tax Category** box, select the appropriate tax category for the item.
 4.  On the form toolbar, click **Save**.
 
-**Parent topic:**[Integrating Acumatica ERP with Avalara Avatax](../UserGuide/config_Avalara_Integration_Mapref.md)
+**Parent topic:**[Integrating Acumatica ERP with Avalara AvaTax](../UserGuide/config_Avalara_Integration_Mapref.md)
 

@@ -1,4 +1,4 @@
-# BillOfMaterial {#_a3d65aae-9011-4159-878b-a35872532083 .concept}
+# BillOfMaterial
 
 This chapter presents code examples showing requests that use the `BillOfMaterial` entity.
 

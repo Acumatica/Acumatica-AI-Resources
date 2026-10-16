@@ -1,8 +1,8 @@
-# Managing Lines in Purchase Documents {#_38b85d51-7995-4ad3-a0b6-64ae80ccbe6f .concept}
+# Managing Lines in Purchase Documents
 
 You may need to reorder document lines in purchase orders and purchase receipts—for example, if you need the lines of the printed document to be in a specific order other than in the document sent by vendor. Also, you may need to add a new line to a purchase order or purchase receipt at the beginning of a list or in the middle of it. The following sections describe how you can reorder lines in various Purchase Orders documents.
 
-## Reordering Lines in Purchase Orders { .section}
+## Reordering Lines in Purchase Orders
 
 The order number of each document line is shown in the **Line Order** column on the **Details** tab of the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form for purchase orders, and of the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form for purchase receipts. \(On both forms, these columns are hidden by default so you should use the **Column Configuration** dialog box to make the columns available before you reorder lines.\)
 
@@ -22,7 +22,7 @@ Once you reorder the lines, the system automatically regenerates the line number
 
 **Note:** You cannot rearrange lines in the table if custom sorting by any column is applied to the table.
 
-## Inserting Lines into Purchase Orders and Purchase Receipts { .section}
+## Inserting Lines into Purchase Orders and Purchase Receipts
 
 On the [Purchase Orders](PO_30_10_00.md) \(PO301000\) and [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form, you can insert a single line anywhere in the document. To do this, click the line above which the new line should be inserted and then press Shift+Insert, or right-click the needed line and then click **Insert Row**. The system adds a new blank line. When you finish entering the line information and save your changes, the system automatically regenerates the line numbers for all lines in the table.
 

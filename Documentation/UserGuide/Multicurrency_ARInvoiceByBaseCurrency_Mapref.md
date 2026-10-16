@@ -1,4 +1,4 @@
-# Paying Multicurrency Invoices {#_831c0f76-48b9-4440-aa24-6f0607740421 .concept}
+# Paying Multicurrency Invoices
 
 The topics of this chapter describe how to pay an invoice in a foreign currency by using the base currency and how to pay an invoice in a foreign currency by using another foreign currency.
 

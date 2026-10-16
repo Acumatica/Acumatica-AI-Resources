@@ -1,10 +1,10 @@
-# Intercompany Purchases and Returns: Related Report and Inquiry Forms {#_f1839c1e-582e-4842-a462-6049d898875d .concept}
+# Intercompany Purchases and Returns: Related Report and Inquiry Forms
 
 In the following sections, you can find details about the inquiry forms you may want to review to gather information about intercompany purchases and returns.
 
 **Attention:** If you don’t see a particular report or form that is described, you may have signed in to the system with a user account that doesn’t have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms.
 
-## Finding Items in Transit in Intercompany Shipments { .section}
+## Finding Items in Transit in Intercompany Shipments
 
 If you need to find stock items that have been issued from the warehouse of the selling company but have not arrived at the warehouse of the purchasing company, you can use the [Intercompany Goods in Transit](IN_40_20_10.md) \(IN402010\) inquiry form.
 
@@ -14,7 +14,7 @@ If the **Show Only Overdue Items** check box is selected, the system shows only 
 
 If the **Show Only Items Without Receipt** check box is selected, the system shows only items for which purchase receipts have not yet been generated. That is, the shipments that contain these items are not linked to intercompany purchase receipts. If this check box is cleared, all in-transit items are shown.
 
-## Finding Returned Items in Transit in Intercompany Shipments { .section}
+## Finding Returned Items in Transit in Intercompany Shipments
 
 If you need to find stock items that have been returned from the warehouse of the purchasing company but have not arrived at the warehouse of the selling company, you can use the [Intercompany Returned Goods in Transit](IN_40_20_20.md) \(IN402020\) inquiry form.
 

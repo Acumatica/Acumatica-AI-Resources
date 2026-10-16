@@ -1,8 +1,8 @@
-# Order Synchronization: Import of Taxes {#_6c32f706-ec19-4849-9684-d087d1a49fae .concept}
+# Order Synchronization: Import of Taxes
 
 Amazon handles tax calculation and reporting on behalf of merchants. However, you can import the total order tax amount from the Amazon seller account to Acumatica ERP along with each order.
 
-## Setting Up the Tax Synchronization { .section}
+## Setting Up the Tax Synchronization
 
 To synchronize taxes, on the **Orders** tab \(the **Taxes** section\) of the [Amazon Stores](BC_20_10_20.md) \(BC201020\) form, you select the **Tax Synchronization** check. In the table that appears, you add tax zones and taxes for synchronization by specifying the following settings:
 
@@ -14,7 +14,7 @@ The tax zones and taxes you specify in the table are not used for calculating ta
 
 For information about disabling tax recalculation, see [Tax Application in Sales Documents](SO__con_Sales_Taxes_on_Sales_Orders.md).
 
-## Importing Taxes { .section}
+## Importing Taxes
 
 Taxes are imported during the synchronization of seller-fulfilled and marketplace-fulfilled orders \(that is, during the synchronization of the *Sales Order* and *Marketplace-Fulfilled Order* entities\).
 
@@ -25,7 +25,10 @@ To determine which tax zone to apply to an imported order, the system uses the s
 3.  It looks for a match by country.
 4.  It uses the default tax zone.
 
-**Tip:** Only the total tax amount is imported; tax names and rates are not synchronized.
+**Tip:**
+
+-   For marketplace-fulfilled orders, the system doesn't import the postal code. Because no postal code is available, the system can't match a tax zone by postal code and proceeds to matching by state and country.
+-   Only the total tax amount is imported; tax names and rates are not synchronized.
 
 **Parent topic:**[Synchronizing Orders](../UserGuide/Commerce_AZ_Syncing_Orders_Mapref.md)
 

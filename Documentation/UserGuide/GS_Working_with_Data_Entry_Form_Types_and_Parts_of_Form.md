@@ -1,8 +1,8 @@
-# Record Entry: Basics of Acumatica ERP Forms {#_a9fa60f6-b343-4ffa-a1af-fb5fb612ad1a .concept}
+# Record Entry: Basics of Acumatica ERP Forms
 
 In the following section, you’ll find an overview of the main types of forms that are used in Acumatica ERP.
 
-## Types of Forms in Acumatica ERP { .section}
+## Types of Forms in Acumatica ERP
 
 In Acumatica ERP, forms are essential tools for configuring the system, working with records, generating reports, and exporting and importing data in various formats. You open forms through workspaces, search results, and direct links \(such as those in documentation\).
 
@@ -34,6 +34,4 @@ Here are the main types of Acumatica ERP forms:
 
     Report forms are listed under the **Reports** category in workspaces. Examples of report forms include [AR Balance by GL Account](AR_63_20_00.md) \(AR632000\), [Sales Order Details by Customer](SO_61_10_00.md) \(SO611000\), and [Purchase Order Summary](PO_61_05_00.md) \(PO610500\).
 
-
-**Parent topic:**[Entering Records into the System](../UserGuide/GS_Working_With_Data_Entry_Forms_Mapref.md)
 

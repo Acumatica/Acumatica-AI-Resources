@@ -1,4 +1,4 @@
-# Processing Documents Between Companies with Different Base Currencies {#_97544530-7bb9-4fde-bea9-0f44982a5486 .concept}
+# Processing Documents Between Companies with Different Base Currencies
 
 The topics of this chapter describe how to process an AR invoice and an AP bill between companies that use different base currencies.
 

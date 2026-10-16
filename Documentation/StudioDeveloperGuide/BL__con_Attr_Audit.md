@@ -1,4 +1,4 @@
-# Audit Fields {#_259a9d39-e09d-4caf-969c-743f7b32deef .concept}
+# Audit Fields
 
 For data access class \(DAC\) fields used for record or state audit, you should specify the corresponding type attribute in their declaration. The following table lists these attributes and their descriptions:
 

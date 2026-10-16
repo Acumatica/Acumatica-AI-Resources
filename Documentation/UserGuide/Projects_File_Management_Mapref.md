@@ -1,4 +1,4 @@
-# Managing Project Files {#_b2c541de-88db-4c96-936d-c6ab4536cf67 .concept}
+# Managing Project Files
 
 In Acumatica ERP, you can manage all files attached to a project and its related records in one centralized location and maintain full control over user access to the needed files.
 

@@ -1,4 +1,4 @@
-# Acumatica Add-In for Outlook: Business Account Management {#_9e8993a3-e93b-46ca-a389-cd1bf373039d .concept}
+# Acumatica Add-In for Outlook: Business Account Management
 
 When you work with an email in Outlook, the Acumatica add-in for Outlook lets you quickly find any related business accounts in Acumatica ERP and create new ones without leaving your mailbox.
 
@@ -16,13 +16,12 @@ If matching accounts are found, they appear in the **Profiles** section of the R
 -   Click a business account’s name \(which is a link\) to review it. The record opens on the corresponding data entry form of your Acumatica ERP instance.
 -   Quickly create a related account and link it to the email, as described in the next section.
 
-## Business Account Creation { .section}
+## Business Account Creation
 
 You can create a new business account with the email address selected in the Filter box of the Related Records form. If the *Customer Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can click **Add Account** in the **Profiles** section—either directly or through the More menu.
 
 The *BIZACCT* segmented key may require manual entry of a key segment. In this case, when you click **Add Account**, the **Specify Account ID** dialog box opens \(shown below\). Enter the business account ID and then click **Add Account** to proceed.
 
-![](Images/OU_AddIn_Specify_Account_ID.png "The Specify Account ID dialog box")
 
 The Account form opens \(see below\), and the following boxes may be filled in automatically:
 
@@ -34,14 +33,13 @@ The Account form opens \(see below\), and the following boxes may be filled in a
 -   **Email** \(**Primary Contact** section\): The email address selected in the Filter box.
 -   **Link Email to Contact**: Selected.
 
-![](Images/OU_AddIn_Business_Account_Form.png "The Account form")
 
 After you click **Create Account**, the form you go to depends on the state of the **Link Email to Contact** check box:
 
 -   If it’s cleared, you return to the Related Records form. The system refreshes the **Contacts** section and shows the newly created business account and its primary contact \(if the **Primary Contact** section on the Account form is filled in\).
 -   If it’s selected, you go to the Email Activity form. The system fills in the **Related Account** and **Related Entity** boxes with the business account you created and inserts *Business Account* in the **Related Entity Type** box. The email is linked to the newly created business account in Acumatica ERP. For details, see [Acumatica Add-In for Outlook: Email Activity Management](OU_AddIn_Email_Activity_Management.md).
 
-## Access Rights { .section}
+## Access Rights
 
 Users with the following user roles have the *Delete* access rights to the Account form:
 

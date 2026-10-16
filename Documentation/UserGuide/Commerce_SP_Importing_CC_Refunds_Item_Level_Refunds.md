@@ -1,8 +1,8 @@
-# Importing Card Refunds: Item-Level Refunds {#_afcffbcc-34e8-4a64-903e-d3ea1130249b .concept}
+# Importing Card Refunds: Item-Level Refunds
 
 A refund of an ordered item may be issued if, for example, a customer wants to amend the order to decrease the quantity of a purchased item or because they want to return the item whose condition or performance is unsatisfactory.
 
-## Import of Refunds for Not-Yet-Shipped Orders { .section}
+## Import of Refunds for Not-Yet-Shipped Orders
 
 During the import of item refunds, if the original sales order has not been shipped \(that is, it has the *Open* or *On Hold* status on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form\), the following actions occur:
 
@@ -13,22 +13,23 @@ During the import of item refunds, if the original sales order has not been ship
 
 The following diagram illustrates the processing of an item return for a card-based payment method that is issued before the sales order has been shipped.
 
-![](Images/diag_Shopify_Refund_Online_NotShipped_ItemRefund.png)
 
-## Import of Refunds for Fully Shipped Orders { .section}
+## Import of Refunds for Fully Shipped Orders
 
 If the original sales order has been fully shipped \(that is, it has the *Completed* status on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form\) and the processing status of the original payment is *Open* or *Closed* on the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, the following actions occur when an item refund is being imported to Acumatica ERP:
 
 -   On the [Sales Orders](SO_30_10_00.md) form, the system creates a return order of the type that was specified in the **Return Order Type** box on the **Orders** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form. In the **External Reference** box of the Summary area, the system inserts the identifier of the refund in the Shopify store.
 -   In the return order, on the **Details** tab of the [Sales Orders](SO_30_10_00.md) form, the system inserts a line with the applicable quantity of the returned item. In the **Reason Code** column, the system inserts the reason code that was specified on the **Orders** tab of the [Shopify Stores](BC_20_10_10.md) form.
+
+    The warehouse and location are determined based on the Shopify restock location provided in the refund data. The system uses the Shopify location mappings specified in the **Warehouse Mapping for Order Import** table on the **Orders** tab of the [Shopify Stores](BC_20_10_10.md) form. If no mapping is found, the connector uses the warehouse from the original order.
+
 -   If the processing status of the original payment is *Captured*, the system creates a payment of the *Refund* type in the refunded amount on the [Payments and Applications](AR_30_20_00.md) form, and links it to the return order.
 -   If the processing status of the original payment is *Authorized*, then the original payment is voided.
 
 The following diagram illustrates the processing of an item return for a card-based payment method that is issued after the sales order has been fully shipped.
 
-![](Images/diag_Shopify_Refund_Online_Shipped_ItemReturn.png)
 
-## Import of Refunds for Partially Shipped Orders { .section}
+## Import of Refunds for Partially Shipped Orders
 
 When an item refund that has been issued for a partially shipped order is being imported from Shopify to Acumatica ERP, the following actions occur:
 

@@ -1,16 +1,16 @@
-# Synchronizing Customers: To Synchronize Customers with Multiple Locations {#_54e4a1f7-a552-4675-851b-c571602e10cd .task}
+# Synchronizing Customers: To Synchronize Customers with Multiple Locations
 
 The following activity will walk you through the process of setting up the synchronization of customer locations and performing the synchronization of customers with locations between Acumatica ERP and the BigCommerce store.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story {#section_jq1_f4h_gtb .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company works with corporate customers that order items to be delivered to multiple locations. The company's sales managers keep track of customer addresses by using the customer address book functionality in the BigCommerce store and need the addresses from the BigCommerce store to be in sync with customer locations in Acumatica ERP.
 
 Acting as an implementation consultant helping SweetLife to set up the integration of Acumatica ERP with the BigCommerce store, you need to set up the synchronization of customer locations between the two systems, as well as test it and explore how the synchronization works in both systems.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -18,7 +18,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customer Classes](AR_20_10_00.md) \(AR201000\) form, the *ECCUSTOMER* customer class has been defined.
 -   On the [Numbering Sequences](CS_20_10_10.md) \(CS201010\) form, the *ECCUSTOMER* and *ECLOCATION* numbering sequences have been defined.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -31,7 +31,7 @@ In this activity, you will do the following:
 7.  By using the [Sync History](BC_30_10_00.md) \(BC301000\) form, synchronize the updated customer location with the BigCommerce store.
 8.  In the control panel of the BigCommerce store, review the updated customer address.
 
-## System Preparation {#section_lq1_f4h_gtb .section}
+## System Preparation
 
 Before you perform the instructions in this activity, do the following:
 
@@ -43,7 +43,7 @@ Before you perform the instructions in this activity, do the following:
     -   **Password**: *123*
 3.  Sign in to the control panel of the BigCommerce store as the store administrator.
 
-## Step 1: Configuring the Synchronization Settings of the Customer and Customer Location Entities {#section_mq1_f4h_gtb .section}
+## Step 1: Configuring the Synchronization Settings of the Customer and Customer Location Entities
 
 To review the synchronization settings of the *Customer* and *Customer Locations* entities, do the following:
 
@@ -69,7 +69,7 @@ To review the synchronization settings of the *Customer* and *Customer Locations
 
 4.  On the form toolbar, click **Save** to save your changes.
 
-## Step 2: Creating a Customer in the BigCommerce Store { .section}
+## Step 2: Creating a Customer in the BigCommerce Store
 
 To create a customer with two addresses, in the control panel of the BigCommerce store, do the following:
 
@@ -85,7 +85,7 @@ To create a customer with two addresses, in the control panel of the BigCommerce
     -   **Confirm password**: `!Q123456`
 5.  In the lower right, click **Add customer** to save the new customer record.
 
-## Step 3: Adding Two Addresses for the Customer {#section_oq1_f4h_gtb .section}
+## Step 3: Adding Two Addresses for the Customer
 
 To add the first address for the customer record that you created in the previous step, do the following in the BigCommerce store:
 
@@ -121,7 +121,7 @@ To add the first address for the customer record that you created in the previou
 8.  On the **View customers** page, which opens, click the row of *Isabelle Bober*.
 9.  On the **Edit customer** page, which opens with the details of *Isabelle Bober*, click the **Customer address book** tab and review the list of addresses that you have added.
 
-## Step 4: Preparing the Customer and Customer Location Data {#section_pq1_f4h_gtb .section}
+## Step 4: Preparing the Customer and Customer Location Data
 
 To prepare the customer and customer location data for synchronization, in the Acumatica ERP instance, do the following:
 
@@ -140,7 +140,7 @@ To prepare the customer and customer location data for synchronization, in the A
     Notice that the **Prepared Records** column shows the number of synchronization records that have been prepared and are ready to be processed.
 
 
-## Step 5: Processing the Prepared Customer and Customer Location Data {#section_qq1_f4h_gtb .section}
+## Step 5: Processing the Prepared Customer and Customer Location Data
 
 To process the customer and customer location data you have prepared for synchronization, do the following:
 
@@ -155,7 +155,7 @@ To process the customer and customer location data you have prepared for synchro
 3.  On the form toolbar, click **Process** to process the selected synchronization record.
 4.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 6: Reviewing the Imported Customers and Customer Locations {#section_rq1_f4h_gtb .section}
+## Step 6: Reviewing the Imported Customers and Customer Locations
 
 Perform the following instructions to review the customers and customer locations that have been imported to Acumatica ERP:
 
@@ -167,7 +167,6 @@ Perform the following instructions to review the customers and customer location
 
     -   The location with the *MAIN* identifier, which is the location that you have created first for the customer in the BigCommerce store. This location is also marked as the default \(that is, the **Default** check box is selected for this location\).
     -   The location with the identifier that the system assigned to it based on the numbering sequence selected for locations in the store settings on the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form.
-    ![](Images/activity_Commerce_BC_Syncing_Customers_To_Sync_Customers_with_Locations.png "Customer locations imported from the store")
 
 4.  Click the *MAIN* link in the **Location ID** column.
 
@@ -180,7 +179,7 @@ Perform the following instructions to review the customers and customer location
     The first and last name of the address in BigCommerce have been imported to the **Attention** box of the **Additional Location Info** section.
 
 
-## Step 7: Updating the Customer Location {#section_sq1_f4h_gtb .section}
+## Step 7: Updating the Customer Location
 
 Suppose that you need to update the contact and address details of the *MAIN* customer location of the *Hoppy Place Coffee and Cakes* customer. Do the following:
 
@@ -188,7 +187,7 @@ Suppose that you need to update the contact and address details of the *MAIN* cu
 2.  In the **Location Address** section, change **Address Line 1** to `3650 Taylor Street`.
 3.  On the form toolbar, click **Save &amp; Close** to save your changes and close the pop-up window.
 
-## Step 8: Synchronizing the Updated Location with the BigCommerce Store {#section_tq1_f4h_gtb .section}
+## Step 8: Synchronizing the Updated Location with the BigCommerce Store
 
 To synchronize the updated customer location with the BigCommerce store in order to update the address in the store, do the following:
 
@@ -201,7 +200,7 @@ To synchronize the updated customer location with the BigCommerce store in order
     **Tip:** When you change a location of a customer, the ecommerce connector recognizes the customer record as having been modified as well. So in this step, you could have selected the synchronization record for the *Hoppy Place Coffee and Cakes* customer and clicked **Sync**, and the updated customer location would have been synchronized as part of the customer synchronization process. Alternatively, you could have prepared the *Customer* entity for synchronization on the [Prepare Data](BC_50_10_00.md) \(BC501000\) form and then processed the prepared synchronization records on the [Process Data](BC_50_15_00.md) \(BC501500\) form.
 
 
-## Step 9: Reviewing the Updated Customer Address in the BigCommerce Store {#section_vq1_f4h_gtb .section}
+## Step 9: Reviewing the Updated Customer Address in the BigCommerce Store
 
 To review the updated customer address in the BigCommerce store, do the following:
 
@@ -216,5 +215,5 @@ To review the updated customer address in the BigCommerce store, do the followin
     Notice that the **First name** box now displays *Gail*, **Last name** is set to *Anderson*, and the **Address line 1** has been changed to *3650 Taylor Street*.
 
 
-**Parent topic:**[Synchronizing Customers](../UserGuide/Commerce_BC_Syncing_Customers_Mapref.md)
+**Parent topic:**[Synchronizing Individual and Business Customers](../UserGuide/Commerce_BC_Syncing_Customers_Mapref.md)
 

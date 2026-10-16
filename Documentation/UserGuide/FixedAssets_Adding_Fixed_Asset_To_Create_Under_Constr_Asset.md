@@ -1,14 +1,14 @@
-# Fixed Asset Creation: To Create an Asset Under Construction {#_c97fd704-06fc-4881-8aec-d9e54a087f8c .task}
+# Fixed Asset Creation: To Create an Asset Under Construction
 
 The following activity will walk you through the process of creating a fixed asset under construction.
 
-## Story {#section_nbd_ljv_vxb .section}
+## Story
 
 Suppose that in January 2026, SweetLife Fruits &amp; Jams started the construction of a warehouse near its office building. According to the company's policy, the cost of such assets must be recorded to a dedicated asset account. The warehouse is expected to be placed in service on April 20, 2026.
 
 Acting as a SweetLife accountant, you need to create a GL transaction, a fixed asset class for assets under construction, and the *Office Warehouse* asset. You then need to reconcile this asset with the GL transaction.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -16,11 +16,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, the needed GL accounts have been created.
 -   On the [Fixed Assets Preferences](FA_10_10_00.md) \(FA101000\) form, the **Automatically Release Acquisition Transactions** check box has been selected.
 
-## Process Overview {#section_qbd_ljv_vxb .section}
+## Process Overview
 
 In this activity, on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form, you will enter a GL transaction to record the acquisition of the office warehouse. On the [Fixed Asset Classes](FA_20_10_00.md) \(FA201000\) form, you will create a fixed asset class for assets under construction. On the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form, you will create the needed fixed asset and reconcile it with the created GL transaction.
 
-## System Preparation {#section_sbd_ljv_vxb .section}
+## System Preparation
 
 Before you begin creating a fixed asset under construction, do the following:
 
@@ -29,7 +29,7 @@ Before you begin creating a fixed asset under construction, do the following:
 3.  In the company to which you are signed in, be sure that you have implemented the fixed asset functionality by performing the following prerequisite activities: [Fixed Assets: To Set Up the System for Fixed Asset Management](../ImplementationGuide/config_FixedAssets_Implem_Activity_System.md), [Fixed Assets: To Configure the Fixed Asset Functionality](../ImplementationGuide/config_FixedAssets_Implem_Activity_FixedAssets_Subledger.md), and [Fixed Assets: To Create Fixed Asset Classes](../ImplementationGuide/config_FixedAssets_Implem_Activity_FixedAsset_Classes.md).
 4.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step 1: Creating a GL Transaction {#section_ubd_ljv_vxb .section}
+## Step 1: Creating a GL Transaction
 
 To create a GL transaction that reflects the construction of the office warehouse, do the following:
 
@@ -52,7 +52,7 @@ To create a GL transaction that reflects the construction of the office warehous
 5.  On the form toolbar, click **Save**.
 6.  On the form toolbar, click **Remove Hold**, and then click **Release** to release the transaction.
 
-## Step 2: Creating a Fixed Asset Class {#section_wbd_ljv_vxb .section}
+## Step 2: Creating a Fixed Asset Class
 
 To create a fixed asset class for assets under construction, do the following:
 
@@ -75,7 +75,7 @@ To create a fixed asset class for assets under construction, do the following:
     -   **Averaging Convention**: *Mid Period*
 6.  On the form toolbar, click **Save** to save your changes.
 
-## Step 3: Creating a Fixed Asset Under Construction {#section_ybd_ljv_vxb .section}
+## Step 3: Creating a Fixed Asset Under Construction
 
 To create the *Office Warehouse* fixed asset that is under construction, do the following:
 
@@ -101,10 +101,9 @@ To create the *Office Warehouse* fixed asset that is under construction, do the 
 
     The following screenshot shows the created fixed asset under construction.
 
-    ![](Images/activity_FA_Create_Fixed_Asset_FA_Under_Construction.png "The fixed asset under construction")
 
 
-## Step 4: Reconciling the Created Fixed Asset {#section_dcd_ljv_vxb .section}
+## Step 4: Reconciling the Created Fixed Asset
 
 To reconcile the *Office Warehouse* fixed asset, do the following:
 

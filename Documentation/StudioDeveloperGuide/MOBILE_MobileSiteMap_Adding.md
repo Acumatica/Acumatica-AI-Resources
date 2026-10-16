@@ -1,10 +1,9 @@
-# To Add a Form to the Mobile Site Map by Using an XML File {#_c06263e7-31d5-4d82-bbb9-e57fc2ea99af .concept}
+# To Add a Form to the Mobile Site Map by Using an XML File
 
 To add the metadata for an Acumatica ERP form to the mobile site map, you have to include it in a new `.xml` file in the `\App_Data\Mobile` folder of the website. If the metadata must contain multiple new `.xml.inc` files, place the files in the `\App_Data\Mobile\includes` folder of the website.
 
 Suppose that you need to add to the mobile site map an Acumatica ERP form with the *XXX* screen ID, and you are sure that the mobile site map does not contain the XML metadata for this form. Further suppose that you have to add the Date and Description fields and the Insert and Delete actions of the original *XXX* screen of Acumatica ERP to the screen on the mobile device, as the following diagram shows.
 
-![](Images/MobileFW_Schema01.png "Use of an XML file to configure a screen in the mobile app")
 
 The diagram shows how Acumatica Mobile Framework uses the metadata of the `example.xml` file to configure the *XXX* screen in the mobile app. \(See [Configuring the Mobile Site Map by Using XML \(deprecated\)](MOBILE_UIStructure.md) for details.\)
 

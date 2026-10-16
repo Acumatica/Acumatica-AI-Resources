@@ -1,8 +1,8 @@
-# To Check Funds for Payments {#_e6b67eae-78d4-4ada-84b6-f525c532caa3 .task}
+# To Check Funds for Payments
 
 Before issuing one or more payments or printing any checks for specific vendor account, you might need to check whether you have sufficient funds in the account. You can check funds for payments by using the [Batch Payments](AP_30_50_00.md) \(AP305000\) form.
 
-## To Check Funds Available for Payments {#section_pgj_njv_vxb .section}
+## To Check Funds Available for Payments
 
 1.  Open the [Prepare Payments](AP_50_30_00.md) \(AP503000\) form.
 2.  In the **Cash Account** box of the Selection area, select the cash account to be used as the source for paying bills.

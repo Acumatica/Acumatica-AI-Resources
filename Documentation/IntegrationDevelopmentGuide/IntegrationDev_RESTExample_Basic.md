@@ -1,4 +1,4 @@
-# Basic Requests {#_1c767ad9-da6d-4047-bc93-6970ad469504 .concept}
+# Basic Requests
 
 Through the contract-based representational state transfer \(REST\) application programming interface \(API\) of Acumatica ERP external systems can get data records from Acumatica ERP, process these records, and save new or updated records to Acumatica ERP.
 
@@ -68,7 +68,7 @@ This chapter includes examples of basic REST API requests.
 
 -   **[Change the Business Date or Current Branch](../IntegrationDevelopmentGuide/IntegrationDev_RESTExample_Basic_Changing_Branch_AndOr_Business_Date.md)**  
 
--   **[Retrieve the Acumatica ERP Version and the List of Endpoints](../IntegrationDevelopmentGuide/IntegrationDev_RESTExample_Basic_Get_List_of_Endpoints.md)**  
+-   **[Retrieve the Acumatica ERP Version, Enabled Features, and Endpoints](../IntegrationDevelopmentGuide/IntegrationDev_RESTExample_Basic_Get_List_of_Endpoints.md)**  
 
 
 **Parent topic:**[REST API Examples](../IntegrationDevelopmentGuide/IntegrationDev_RESTExample.md)

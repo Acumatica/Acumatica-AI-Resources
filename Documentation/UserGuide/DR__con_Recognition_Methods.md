@@ -1,10 +1,10 @@
-# Recognition Methods for Deferred Revenues or Expenses {#_00798fa3-5e99-426e-ba3c-20c7e0e7273e .concept}
+# Recognition Methods for Deferred Revenues or Expenses
 
 Recognition methods determine how the deferred revenue or expense amount of a particular document will be distributed over the defined number of periods. You specify a particular recognition method in the settings of each deferral code on the [Deferral Codes](DR_20_20_00.md) \(DR202000\) form. You can assign a deferral code to a line of an invoice or bill.
 
 This topic describes the recognition methods available in Acumatica ERP and provides examples of each recognition method.
 
-## Evenly by Periods {#section_lpb_3jv_vxb .section}
+## Evenly by Periods
 
 With the *Evenly by Periods* recognition method, the amount to be recognized is distributed evenly to all included periods. The number of recognition periods is defined by the value you specify in the **Occurrences** box for the deferral code on the [Deferral Codes](DR_20_20_00.md) \(DR202000\) form.
 
@@ -24,7 +24,7 @@ With this recognition method, the document amount \($1,500\) is divided evenly a
 
 **Attention:** In this example, the recognition period is equal to the financial period because we set the recognition schedule to *Every 1 Period\(s\)*. If we had set it to *Every 2 Period\(s\)*, the recognition period would be equal to two financial periods, which means that the recognition process would be performed once every two months.
 
-## Evenly by Periods, Prorate by Days {#section_tpb_3jv_vxb .section}
+## Evenly by Periods, Prorate by Days
 
 With the *Evenly by Periods, Prorate by Days* method, the amount to be recognized is distributed evenly among recognition periods. The number of the recognition periods is defined by the value specified in the **Occurrences** box on the [Deferral Codes](DR_20_20_00.md) \(DR202000\) form. The first and last periods are counted together as one recognition period and the amount to be recognized for each is proportional to the number of days in each period.
 
@@ -42,7 +42,7 @@ With this recognition method, the document amount is divided evenly among five f
 
 **Attention:** The amounts are rounded according to the base currency precision, which is set to *2*.
 
-## Evenly by Days in Period {#section_aqb_3jv_vxb .section}
+## Evenly by Days in Period
 
 With the *Evenly by Days in Period* method, the amount to be recognized is distributed by periods with a proportional division by the number of calendar days in each period. The number of recognition periods is defined by the value specified in the **Occurrences** box in the deferral code settings on the [Deferral Codes](DR_20_20_00.md) \(DR202000\) form.
 
@@ -65,7 +65,7 @@ With this recognition method, the amount for each recognition period is computed
 -   May \(31 days\): The amount to be recognized is $256.91.
 -   June \(30 days\): The amount to be recognized is $248.61.
 
-## Flexible by Periods, Prorate by Days {#section_gqb_3jv_vxb .section}
+## Flexible by Periods, Prorate by Days
 
 With the *Flexible by Periods, Prorate by Days* method, the amount to be recognized is distributed evenly among periods, with a proportional division by days among the first and last periods. The first and the last periods may be less than a full period, depending on the start recognition date and the final recognition date specified in a particular document. The number of recognition periods is defined by the recognition dates specified in a document.
 
@@ -91,7 +91,7 @@ With this recognition method, the document amount is distributed over the date r
 
 **Attention:** If the **Allow Recognition in Previous Periods** check box is cleared in the deferral code settings on the [Deferral Codes](DR_20_20_00.md) form, the system will use the document date and post period of the document date for recognition. That is, the system will distribute amounts by the same rule and generate transactions on $178.57, $357.14, $357.14, $357.14, and $250.01, with a recognition date of 8/1/2014 and a financial period of 08-2014.
 
-## Flexible by Days in Period {#section_oqb_3jv_vxb .section}
+## Flexible by Days in Period
 
 With the *Flexible by Days in Period* method, the amount to be recognized is distributed among periods, according to the number of calendar days in each particular period. The start date and the final date of the recognition process is specified individually for each line of a particular document.
 

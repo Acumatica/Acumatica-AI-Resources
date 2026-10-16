@@ -1,4 +1,4 @@
-# Estimating: Price Breaks {#_156aad04-d6aa-48ce-b73a-e764c93dbe22 .concept}
+# Estimating: Price Breaks
 
 In Acumatica ERP, you can create estimates with multiple price points based on the quantity of units a customer plans to purchase.
 
@@ -8,7 +8,7 @@ By specifying price breaks on estimates, you can accurately reflect cost variati
 -   If subcontracting costs are involved, minimum flat fees may be charged by subcontractor vendors for smaller order quantities. By specifying these price breaks on the estimate, you can accurately calculate the increased price and cost of the product, ensuring that margins are maintained despite the additional costs.
 -   If you intend to provide discounts for order quantities in batch or lot size increments by reducing the markup, you can specify price breaks on the estimate and thus adjust pricing accordingly for different order quantities. This ensures that customers will receive discounts for larger orders while the company still meets its margin requirements.
 
-## Estimates with Price Breaks { .section}
+## Estimates with Price Breaks
 
 By using the **Price Breaks** tab of the [Estimate](AM_30_30_00.md) \(AM303000\) form, you can add, update, or remove price breaks for primary revisions of estimates with the *New* or *In Process* status. The system automatically calculates the cost and price components for each price break.
 
@@ -24,7 +24,7 @@ For each price break, you can specify the following settings:
 
 If you manually update a cost component in a price break, the system automatically recalculates the costs and prices of the price break that have not been overridden manually.
 
-## Price Breaks in Reports { .section}
+## Price Breaks in Reports
 
 By selecting check boxes in the **Print** column of the table on the **Price Breaks** tab of the [Estimate](AM_30_30_00.md) \(AM303000\) form, you can indicate which price breaks are to be included in the [Sales Quote](CR_60_45_00.md) \(CR604500\), [Quote](SO_64_10_00.md) \(SO641000\), and [Estimate Summary](AM_64_10_00.md) \(AM641000\) reports.
 

@@ -1,4 +1,4 @@
-# Counting in Physical Inventory: Process Activity \(Mobile\) {#_00ac8200-dc5d-46b5-9a13-f28e8a566572 .task}
+# Counting in Physical Inventory: Process Activity \(Mobile\)
 
 In this activity, you will learn how to perform automated counting during physical inventory on the Scan and Count screen of the Acumatica mobile app, which corresponds to the [Scan and Count](IN_30_50_20.md) \(IN305020\) form in Acumatica ERP, by using your mobile device.
 
@@ -6,11 +6,11 @@ In this activity, we use the Acumatica mobile app for Android devices. The appea
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a warehouse worker in the SweetLife Fruits &amp; Jams company, and you are assigned to perform a physical inventory count by scanning the barcodes of stock items and locations with your mobile device, by using the Acumatica mobile app. You will count the quantities of orange jam in particular warehouse locations added to the physical inventory document, which your manager has provided to you.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -24,13 +24,13 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Physical Inventory Types](IN_20_89_00.md) \(IN208900\) form, the *ORJCNT2* physical inventory type has been created.
 -   On the [Prepare Physical Count](IN_50_40_00.md) \(IN504000\) form, the physical inventory document that has the *ORJAM08* and *ORJAM96* items and the *Counting in Progress* status has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, as you count stock items within physical inventory by using the Scan and Count screen of the Acumatica mobile app, you will scan the barcode of the physical inventory document and then scan the location barcode and the barcodes of each item you find in this location. You will correct the quantities of items and add extra lines for items that you find in a location. When you have counted all items in all locations added to the physical inventory document, you will confirm the document.
 
 **Tip:** In any working mode, you enter a command or barcode by typing it in the Scan box and tapping Enter. In production systems, you will scan the appropriate barcodes rather than manually entering them.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start counting stock items, you need to perform the following instructions:
 
@@ -42,7 +42,7 @@ Before you start counting stock items, you need to perform the following instruc
 
 **Attention:** The instructions in the activity steps below may slightly differ in the Acumatica mobile app depending on whether the device is running iOS or Android.
 
-## Step 1: Entering the Counted Quantities of Items { .section}
+## Step 1: Entering the Counted Quantities of Items
 
 Suppose that you are starting to count orange jam in the locations listed in the physical inventory document. In the Acumatica mobile app on your mobile device, do the following to enter the counted quantities in the system:
 
@@ -71,7 +71,7 @@ Suppose that you are starting to count orange jam in the locations listed in the
     You have finished entering item quantities in the *L2R2S2* location, which was the last location in your physical inventory document.
 
 
-## Step 2: Correcting the Quantities in the Physical Inventory Document { .section}
+## Step 2: Correcting the Quantities in the Physical Inventory Document
 
 Suppose that you have realized that you scanned one box of the *ORJAM08* item in the *L2R2S1* location three times by mistake, because in fact you have two boxes. Now you need to correct the quantity in the document. Do the following in the mobile app:
 
@@ -81,7 +81,7 @@ Suppose that you have realized that you scanned one box of the *ORJAM08* item in
 
 You have corrected the quantity of the *ORJAM08* item in the *L2R2S1* location.
 
-## Step 3: Adding an Extra Line to the Physical Inventory Document { .section}
+## Step 3: Adding an Extra Line to the Physical Inventory Document
 
 Suppose that in the *L2R2S2* location, you have found one jar of the *ORJAM08* item, which is not in the physical inventory document. To add this item to the document, do the following in the Acumatica mobile app:
 
@@ -91,7 +91,7 @@ Suppose that in the *L2R2S2* location, you have found one jar of the *ORJAM08* i
 
 You have added the extra item to the physical inventory document.
 
-## Step 4: Reviewing the Quantities and Confirming the Entered Data { .section}
+## Step 4: Reviewing the Quantities and Confirming the Entered Data
 
 Now that you have entered the quantities of the counted items in the physical inventory document, you will review the quantities and confirm the entered data. Do the following in the Acumatica mobile app:
 

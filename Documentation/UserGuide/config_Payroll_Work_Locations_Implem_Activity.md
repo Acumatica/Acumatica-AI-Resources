@@ -1,16 +1,16 @@
-# Work Locations: Implementation Activity {#_68593b1c-0bd2-4f51-9613-54e34f363766 .task}
+# Work Locations: Implementation Activity
 
 In the following implementation activity, you will learn how to create a work location.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife company needs to keep track of the work associated with its head office. Acting as an administrator, you need to create a work location that corresponds to the Head Office branch of SweetLife Fruits &amp; Jams.
 
-## Process Overview { .section}
+## Process Overview
 
 You create a work location on the [Work Locations](PR_10_10_40.md) \(PR101040\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating a work location, you should launch the Acumatica ERP website and sign in as a system administrator by using the following credentials:
 
@@ -19,7 +19,7 @@ Before you start creating a work location, you should launch the Acumatica ERP w
 
 As a prerequisite activity, in the company to which you are signed in, be sure you have completed the [Shift Codes: Implementation Activity](Shift_Codes_Implem_Activity.md).
 
-## Step: Creating a Work Location { .section}
+## Step: Creating a Work Location
 
 To create a work location, do the following:
 

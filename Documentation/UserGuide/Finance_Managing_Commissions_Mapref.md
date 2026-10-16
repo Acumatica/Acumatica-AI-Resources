@@ -1,4 +1,4 @@
-# Managing Commissions {#_3a2e2595-ab34-4fea-b701-5981844a4271 .concept}
+# Managing Commissions
 
 In Acumatica ERP, you can configure the calculation of salespeople’s commissions to fit your company's policies. You can specify whether commissions are calculated on a per-invoice or per-payment basis. Commission is calculated on the invoice amount for all salespeople associated with the invoice.
 

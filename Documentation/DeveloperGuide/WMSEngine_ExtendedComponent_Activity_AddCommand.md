@@ -1,16 +1,16 @@
-# Extension of Scan Components: To Add a New Scan Command for an Existing Form {#_9558f37f-1dd2-4bbb-bcae-a005ce42139b .task}
+# Extension of Scan Components: To Add a New Scan Command for an Existing Form
 
 This activity will walk you through the implementation of a new scan command for an existing Acumatica ERP form.
 
-## Story { .section}
+## Story
 
 Suppose that you need to add the ability to cancel physical inventory count on the [Scan and Count](../UserGuide/IN_30_50_20.md) \(IN305020\) form.
 
-## Process Overview { .section}
+## Process Overview
 
 You will add an additional scan command component. For details about the implementation of scan commands, see [Barcode Scan Commands: General Information](WMSEngine_Command_GeneralInfo.md). You will then override the DecorateScanMode method by using the PXOverride attribute, and in this method, you will intercept the CreateCommands method. You will use the ByAppend override strategy, which does not affect the original component.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the step of this activity, do the following:
 
@@ -21,7 +21,7 @@ Before you begin performing the step of this activity, do the following:
     -   *Fulfillment*
     -   *Inventory Operations*
 
-## Step: Adding a Scan Command { .section}
+## Step: Adding a Scan Command
 
 To a scan command, do the following:
 

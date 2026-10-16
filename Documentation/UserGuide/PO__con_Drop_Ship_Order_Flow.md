@@ -1,10 +1,10 @@
-# Drop-Ship Purchase Orders {#_e370dff1-90b1-4faa-bf2a-04de928e9d1d .concept}
+# Drop-Ship Purchase Orders
 
 Drop-ship purchase orders are used for goods that will be delivered directly from the vendor to the customer that ordered the goods from your company. These goods are not received in the inventory at your company. Orders of this type are available only if the *Drop Shipments* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
 To create a drop-ship purchase order, you create a new purchase order on the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form and select the *Drop-Ship* type. If there are sales orders for the items your company plans to purchase from the vendor, you can create a drop-ship order by using the [Create Purchase Orders](PO_50_50_00.md) \(PO505000\) form. Once you select an item and a vendor for a new drop-ship order, sales orders \(if they include a line with the selected inventory item that has the **Mark for PO** check box selected\) are available for selection and can be added as document lines on the [Create Purchase Orders](PO_50_50_00.md) form. For details, see [Sales with Drop Shipping: General Information](OrderMgmt_Drop_Shipment_Sale_GeneralInfo.md). You can also add lines with the *Service* line type to drop-ship purchase orders to record extra charges without generating another invoice for the customer.
 
-## Processing Different Line Types in Drop-Ship Orders { .section}
+## Processing Different Line Types in Drop-Ship Orders
 
 Drop-ship orders can include lines of different types. The type a particular line has depends on the settings of the item selected in the **Inventory ID** box; the system processes lines of different types in different ways. The following line types are available in drop-ship orders:
 
@@ -17,7 +17,7 @@ Drop-ship orders can include lines of different types. The type a particular lin
 
 **Note:** Kits cannot be drop-shipped, because they are manufactured in your company.
 
-## Processing Service Lines in Drop-Ship Orders { .section}
+## Processing Service Lines in Drop-Ship Orders
 
 Depending on your business processes, you can select which workflow the system should use for processing *Service* lines. You select the needed workflow by using the **Process Service Lines from Drop-Ship Purchase Orders via Purchase Receipt** check box on the [Purchase Orders Preferences](PO_10_10_00.md) \(PO101000\) form as follows:
 
@@ -30,7 +30,7 @@ Depending on your business processes, you can select which workflow the system s
     **Note:** When you create a purchase receipt for a purchase order with lines of different types, the system does not copy *Service* lines to a purchase receipt prepared from a purchase order. Also, *Service* lines cannot be added to the purchase receipt manually.
 
 
-## Approving Drop-Ship Purchase Orders { .section}
+## Approving Drop-Ship Purchase Orders
 
 Depending on the order processing flows established in your company, you use the [Approvals](EP_50_30_10.md) \(EP503010\) form to approve drop-ship purchase orders and the [Print/Email Purchase Orders](PO_50_30_00.md) \(PO503000\) form to email them to vendors or to print them for sending by mail. Optionally, the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form can be used by the users involved in this processing because the More menu includes the **Approve**, **Email Purchase Order**, and **Print Purchase Order** menu commands.
 

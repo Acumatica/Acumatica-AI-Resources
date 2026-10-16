@@ -1,8 +1,8 @@
-# Step 4.1: Check the Configuration of Microsoft SQL Server and Run Reports {#_b8223b9f-40a3-441e-9562-5ec3db5f14b3 .task}
+# Step 4.1: Check the Configuration of Microsoft SQL Server and Run Reports
 
 To make sure that Microsoft SQL Server works correctly, you should perform the substeps described below.
 
-## 1. Check the Configuration of the Database Server {#_0a4969cd-273f-48b6-8db0-a806663603b3 .section}
+## 1. Check the Configuration of the Database Server
 
 Settings of Microsoft SQL Server may not be configured properly, leading to the performance slowdown.
 
@@ -27,9 +27,8 @@ You can find more information on creating maintenance plans in [https://msdn.mic
 
 See an example of the schedule of the recommended maintenance plans in the following screenshot.
 
-![](Images/WeeklyMaintenancePlan.png "Weekly maintenance plan")
 
-## 2. Run Performance Reports {#_370d83b1-6a5c-415a-b461-20adae300041 .section}
+## 2. Run Performance Reports
 
 Some SQL queries consume too many resources.
 
@@ -74,7 +73,7 @@ To find out the top resource-consuming SQL queries, you should perform either or
 
 2.  Send the results of the query, along with other information on the slowdown, to the Acumatica support team. \(For the list of information that you should provide to support, see [Step 6: Submit a Case to Acumatica Support](how_Troubleshoot_Performance_Step6.md#).\)
 
-## 3. Check the SQL Activity Monitor for Locks {#_f0ec98d2-edc3-4c3e-928f-234b3860aae5 .section}
+## 3. Check the SQL Activity Monitor for Locks
 
 1.  In the Object Explorer of Microsoft SQL Server Management Studio, right-click the instance name, and then select **Activity Monitor**.
 2.  Review the **Recent Expensive Queries** section.

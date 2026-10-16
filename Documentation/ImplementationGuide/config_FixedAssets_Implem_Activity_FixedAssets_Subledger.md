@@ -1,8 +1,8 @@
-# Fixed Assets: To Configure the Fixed Asset Functionality {#_e8f45b0f-90d0-44fc-b858-af04447e056e .task}
+# Fixed Assets: To Configure the Fixed Asset Functionality
 
 In the following implementation activity, you will learn how to configure the fixed asset functionality.
 
-## Story { .section}
+## Story
 
 Suppose that an implementation consultant has prepared the system for the configuration of the fixed asset functionality. Based on SweetLife's policy, the company needs one depreciation book to depreciate fixed assets by using the straight-line depreciation method. The company is planning to dispose of assets by selling them.
 
@@ -10,17 +10,17 @@ Acting as an implementation consultant, you need to specify fixed asset configur
 
 In SweetLife, all the fixed assets will be placed in service in the same year, and the fixed assets of the *BUILDING* class will have the longest useful life: 39 years. \(In a later activity, the company will acquire the *BUILDING* asset in the middle of 2026; therefore, you will have to generate a calendar through the year 2065 \(2026 + 39\). The lifespans of other fixed assets are shorter; therefore, they will also fit the generated range of years.\)
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will specify the configuration settings on the [Fixed Assets Preferences](../UserGuide/FA_10_10_00.md) \(FA101000\) form and create a disposal method on the [Disposal Methods](../UserGuide/FA_20_70_00.md) \(FA207000\) form. On the [Books](../UserGuide/FA_20_50_00.md) \(FA205000\) form, you will create a posting book; then on the [Generate Book Calendars](../UserGuide/FA_50_10_00.md) \(FA501000\) form, you will create a financial calendar for this posting book. Finally, on the [Master Financial Calendar](../UserGuide/GL_20_10_00.md) \(GL201000\) form, you will create GL calendars for multiple years and activate their financial periods on the [Manage Financial Periods](../UserGuide/GL_50_30_00.md) \(GL503000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring the fixed asset functionality, launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded. You should sign in as Kimberly Gibbs with the *gibbs* username and the *123* password.
 
 As a prerequisite activity, in the company to which you are signed in, be sure you have prepared the system, as described in [Fixed Assets: To Set Up the System for Fixed Asset Management](config_FixedAssets_Implem_Activity_System.md).
 
-## Step 1: Specifying Fixed Asset Preferences { .section}
+## Step 1: Specifying Fixed Asset Preferences
 
 To specify the fixed asset preferences, which are the basic configuration settings, do the following:
 
@@ -40,7 +40,7 @@ To specify the fixed asset preferences, which are the basic configuration settin
 
 4.  On the form toolbar, click **Save**.
 
-## Step 2: Creating a Disposal Method { .section}
+## Step 2: Creating a Disposal Method
 
 To create the *SOLD* disposal method, do the following:
 
@@ -54,7 +54,7 @@ To create the *SOLD* disposal method, do the following:
 
 3.  On the form toolbar, click **Save** to save the changes.
 
-## Step 3: Creating the Posting Book { .section}
+## Step 3: Creating the Posting Book
 
 To create the posting book, do the following:
 
@@ -79,7 +79,7 @@ To create the posting book, do the following:
     The created *FIN* book will be assigned by default to all created fixed asset classes and thus will keep all the fixed asset transactions for the created fixed assets.
 
 
-## Step 4: Generating the Calendar for the Posting Book { .section}
+## Step 4: Generating the Calendar for the Posting Book
 
 To generate the calendar for the posting book, do the following:
 
@@ -92,7 +92,7 @@ To generate the calendar for the posting book, do the following:
     After the processing has completed, notice that the calendar has been generated through 2065. For a posting book, the generated calendar starts from the first calendar year in the GL calendar—in this example, from 2025.
 
 
-## Step 5: Activating Financial Periods { .section}
+## Step 5: Activating Financial Periods
 
 To activate the financial periods to which GL transactions will be posted, do the following:
 

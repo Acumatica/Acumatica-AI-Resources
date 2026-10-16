@@ -1,8 +1,8 @@
-# The Classes That Compose BQL Statements {#_5dcf2b9e-ab3a-4ba6-a25d-3f2c28c3cf8a .concept}
+# The Classes That Compose BQL Statements
 
 This topic contains an overview of the classes that you use to compose business query language \(BQL\) statements inside PXSelect and to define attributes of DACs.
 
-## Overview of the Classes { .section}
+## Overview of the Classes
 
 Almost all classes that compose BQL statements are derived from the IBqlCreator interface, which inherits from the IBqlVerifier interface. These interfaces provide the following key methods:
 
@@ -13,11 +13,10 @@ Depending on the purpose of each BQL class, the class also implements the method
 
 The high-level overview of BQL class inheritance is illustrated in the following diagram. For descriptions of the interfaces and classes, see the API Reference.
 
-![](Images/BQLCommands.png "BQL commands")
 
 The sections below describe the classes derived from the BqlCommand class.
 
-## Select Classes { .section}
+## Select Classes
 
 The Select classes, which are derived from the BqlCommand class, represent BQL commands and select all bound fields of the DAC and the unbound fields with specific attributes, such as PXDBCalced.
 
@@ -25,19 +24,19 @@ The Select classes, which are derived from the BqlCommand class, represent BQL c
 
 In a BQL expression based on Select, the first type parameter is a DAC, as shown in the following sample BQL statement.
 
-```language-csharp
+```csharp
 Select<Product>
 ```
 
 The Select classes can parse themselves into SQL and provide methods for modifying the BQL command. However, you cannot directly use the Select class to execute the BQL query. Typically, you use Select in attributes in DACs, such as the PXProjection attribute.
 
-## Search Classes { .section}
+## Search Classes
 
 The Search classes, which are derived from the BqlCommand class, select one field of a DAC \(while the Select classes select multiple fields\).
 
 In a Search-based statement, the first type parameter is a DAC field, as shown in the following sample BQL expression. This expression selects the Product.unitPrice field.
 
-```language-csharp
+```csharp
 Search<Product.unitPrice>
 ```
 

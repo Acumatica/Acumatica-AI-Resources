@@ -6,7 +6,7 @@ description: Converts custom Acumatica Classic forms to Modern UI and verifies b
 # Classic-to-Modern UI Conversion
 
 Choose the screen's disposition, then implement and prove the smallest complete
-change. This skill targets 2026 R1. Check the installed build and the target
+change. This skill targets Acumatica ERP 2026 R2. Check the installed build and the target
 release's documentation before applying version-specific procedures.
 
 ## 1. Establish the surface and disposition

@@ -1,4 +1,4 @@
-# Processing Customer Returns with Refunds {#_52fe20a6-0e2a-45fa-a8f8-0cc4e8cef78d .concept}
+# Processing Customer Returns with Refunds
 
 If a customer requests a return for goods or services that they have already paid for, you need to record a refund issued to them.
 

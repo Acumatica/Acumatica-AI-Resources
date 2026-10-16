@@ -1,4 +1,4 @@
-# Field States: Levels of Configuration {#_0390a164-104e-492a-b45b-62359e389856 .concept}
+# Field States: Levels of Configuration
 
 You can configure a field on the following levels, which are listed in order:
 

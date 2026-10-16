@@ -1,10 +1,10 @@
-# Marketing Reports: Lead Generation and Processing Analysis {#_ac204478-7859-4377-a439-e21294d1e286 .concept}
+# Marketing Reports: Lead Generation and Processing Analysis
 
 The Leads BI \(CR3010BI\) generic inquiry form displays lead generation and processing data and metrics that marketing managers and sales representatives can analyze, as described in the following sections.
 
 These metrics are based on the data from the [Leads](CR_30_10_00.md)\(CR301000\) form.
 
-## Reviewing the Efficiency of Lead Generation Channels { .section}
+## Reviewing the Efficiency of Lead Generation Channels
 
 On the **Lead Analysis** tab of the Leads BI \(CR3010BI\) inquiry form, you can find information about new leads added to the system over a period of time.
 
@@ -22,7 +22,7 @@ You can use the predefined filter options in the top of the tab to narrow the da
 
 By using the information displayed on this tab, you can analyze the most effective source of lead acquisition.
 
-## Monitoring Outgoing Activities with Leads Over a Period of Time { .section}
+## Monitoring Outgoing Activities with Leads Over a Period of Time
 
 You can find the information about your team's outgoing activities with leads over a period of time on the **Lead Activity Analysis** tab of the Leads BI \(CR3010BI\) inquiry form.
 
@@ -38,7 +38,7 @@ You can use the predefined filter options in the top of the tab to narrow the da
 
 By using the information displayed on this tab, you can minimize the possibility that a lead is lost because of a late reply from a sales representative.
 
-## Monitoring Your Team's Lead Response Time { .section}
+## Monitoring Your Team's Lead Response Time
 
 On the **Lead Response Time** tab of the Leads BI \(CR3010BI\) inquiry form, in the **Created On** column, you can find the information about the average amount of time \(in hours\) it takes for a sales representative to contact a newly acquired lead after the lead has been added to the system during a month.
 
@@ -46,7 +46,7 @@ You can use the predefined filter options in the top of the tab to narrow the da
 
 The information on the **Lead Response Time** tab helps you monitor the speed of lead processing among your team and to determine the optimal lead response time for your organization.
 
-## Reviewing the Number of Qualified Leads { .section}
+## Reviewing the Number of Qualified Leads
 
 On the **Lead Qualification Analysis** tab of the Leads BI \(CR3010BI\) inquiry form, in the **Source** column, you can find information about the numbers of leads that have been converted to opportunities during a month, grouped by the leads' sources.
 
@@ -54,7 +54,7 @@ You can use the predefined filter options in the top of the tab to narrow the da
 
 With this information, you can determine the quality of the leads' sources for your marketing team.
 
-## Reviewing the Lead Qualification Time { .section}
+## Reviewing the Lead Qualification Time
 
 On the **Lead Qualification Time** tab of the Leads BI \(CR3010BI\) inquiry form, in the **Source** column, you can find information about the average number of days it takes a sales representative to convert a lead to an opportunity.
 
@@ -62,7 +62,7 @@ You can use the predefined filter options in the top of the tab to narrow the da
 
 This information helps you assess the quality of the leads supplied by your marketing team.
 
-## Monitoring the Lead Disqualification Reasons { .section}
+## Monitoring the Lead Disqualification Reasons
 
 On the **Lead Disqualification Reasons** tab of the Leads BI \(CR3010BI\) inquiry form, you can find information about the main reasons of lead disqualification grouped by the lead source.
 

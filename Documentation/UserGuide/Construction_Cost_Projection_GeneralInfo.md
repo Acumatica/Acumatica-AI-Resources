@@ -1,8 +1,8 @@
-# Project Cost Projections: General Information {#_fe2d45e6-78a4-4c94-a05c-2990aae242dc .concept}
+# Project Cost Projections: General Information
 
 You can estimate the final costs and remaining costs of a project at a particular stage by using cost projections.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,13 +12,13 @@ In this chapter, you will learn how to do the following:
 -   Estimate the costs of a project at a different level of detail
 -   Review the projected costs in a project budget
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create a cost projection revision to compare the calculated costs with the initially estimated costs in the cost budget of a project, and thus to detect the parts of the project that may be over budget.
 
 You create a date-sensitive cost projection to analyze anomalies that are found, as well as project costs and revenues by periods.
 
-## Types of Cost Projections {#section_z24_fb2_32c .section}
+## Types of Cost Projections
 
 Depending on your project needs, you can create the following types of cost projections in Acumatica ERP:
 

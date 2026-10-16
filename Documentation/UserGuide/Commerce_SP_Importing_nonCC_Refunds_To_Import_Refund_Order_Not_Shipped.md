@@ -1,14 +1,14 @@
-# Importing Non-Card Refunds: To Process a Refund for a Not-Yet-Shipped Order {#_51b8f069-44f3-4324-ae6f-f7ec3bbc83f8 .task}
+# Importing Non-Card Refunds: To Process a Refund for a Not-Yet-Shipped Order
 
 The following activity will walk you through the process of importing a partial refund from the Shopify store to Acumatica ERP. This is a partial refund of an order that has been paid by a non-card payment method and has not yet been shipped.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that a representative of the GoodFood One Restaurant customer placed an order for 10 jars of banana jam in the SweetLife Fruits &amp; Jams retail store and paid the entire order amount upfront in cash. The jam was to be delivered from the SweetLife Fruits &amp; Jams warehouse within seven days. Later the same day, before the jam was shipped, the representative of GoodFood One Restaurant showed up in the retail store. The representative informed the store manager that an error had occurred and only 3 jars of banana jam should have been purchased, and asked the manager to refund the cost of the remaining quantity of banana jam. As the store manager, you need to refund the cost of 3 jars of banana jam and import this refund to Acumatica ERP so that the correct quantities of jam will be issued from SweetLife Fruits &amp; Jams's warehouse.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following features have been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form:
 
@@ -22,7 +22,7 @@ The following entities, which you will use in this activity, have been predefine
 -   The *REFUNDAMT* non-stock item on the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form
 -   The *EREFUND* reason code on the [Reason Codes](CS_21_10_00.md) \(CS211000\) form
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -35,7 +35,7 @@ In this activity, you will do the following:
 7.  On the [Sales Orders](SO_30_10_00.md) form, review the updated sales order, and on the [Payments and Applications](AR_30_20_00.md) form, review the updated prepayment.
 8.  On the [Payments and Applications](AR_30_20_00.md) form, review and release the refund.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare the system for the steps of this activity, do the following:
 
@@ -45,7 +45,7 @@ To prepare the system for the steps of this activity, do the following:
     -   [Importing Non-Card Refunds: Implementation Activity](Commerce_SP_Importing_nonCC_Refunds_Implem_Activity.md)
 2.  Sign in to the admin area of the Shopify store as the store administrator.
 
-## Step 1: Placing an Order { .section}
+## Step 1: Placing an Order
 
 To create an order for ten 96-ounce jars of banana jam from the Shopify admin area, do the following:
 
@@ -64,7 +64,7 @@ To create an order for ten 96-ounce jars of banana jam from the Shopify admin ar
 
 **Tip:** Besides the order number, Shopify assigns each order an identifier \(a numeric sequence\) that you can see in the URL of the Shopify order page. You can use this identifier to locate the necessary order on the [Process Data](BC_50_15_00.md) \(BC501500\) form \(in the **External ID** column\), for example, if you need to import an individual order from the Shopify store to Acumatica ERP.
 
-## Step 2: Importing the Sales Order { .section}
+## Step 2: Importing the Sales Order
 
 To import the sales order you created in the previous step to Acumatica ERP, do the following:
 
@@ -83,7 +83,7 @@ To import the sales order you created in the previous step to Acumatica ERP, do 
 9.  On the form toolbar, click **Process All**.
 10. In the **Processing** dialog box, which opens, review the results of the processing, and click **Close** to close the dialog box.
 
-## Step 3: Reviewing the Imported Sales Order { .section}
+## Step 3: Reviewing the Imported Sales Order
 
 To review the imported sales order, do the following:
 
@@ -98,7 +98,7 @@ To review the imported sales order, do the following:
     On the **Payments** tab, review the details of the prepayment that was created and applied to the sales order when the sales order was imported. Notice that the **Payment Method** and **Cash Account** columns show the payment method and cash account defined in Acumatica ERP and mapped to the *MANUAL* store payment method \(*ONLINE* and *10250ST*, respectively\). The prepayment has the *Balanced* status. Before you can process and import a refund in the Shopify store, you need to release this prepayment.
 
 
-## Step 4: Releasing the Imported Payment { .section}
+## Step 4: Releasing the Imported Payment
 
 To release the payment imported with the sales order from the Shopify store, do the following:
 
@@ -108,7 +108,7 @@ To release the payment imported with the sales order from the Shopify store, do 
     Once the prepayment is successfully released, its status is changed to *Open*.
 
 
-## Step 5: Issuing a Refund for an Individual Item { .section}
+## Step 5: Issuing a Refund for an Individual Item
 
 To issue a refund for units of an individual item in your Shopify store, do the following:
 
@@ -122,7 +122,7 @@ To issue a refund for units of an individual item in your Shopify store, do the 
     The refund amount includes the item subtotal \($135.45\) and applicable taxes \($12.03\).
 
 
-## Step 6: Importing the Refund { .section}
+## Step 6: Importing the Refund
 
 To import the refund to Acumatica ERP, do the following:
 
@@ -137,7 +137,7 @@ To import the refund to Acumatica ERP, do the following:
 9.  On the form toolbar, click **Process**.
 10. In the **Processing** dialog box, which opens, review the results of the processing, and click **Close** to close the dialog box.
 
-## Step 7: Reviewing the Results of the Import { .section}
+## Step 7: Reviewing the Results of the Import
 
 To review how the refund has been imported to Acumatica ERP, do the following:
 
@@ -147,7 +147,7 @@ To review how the refund has been imported to Acumatica ERP, do the following:
 2.  On the **Payments** tab, click the link of prepayment number in the **Reference Nbr.** column.
 3.  On the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, which opens with the prepayment selected, notice that the applied amount and the available balance reflect the reduced order amount and the refunded amount, respectively.
 
-## Step 8: Reviewing and Releasing the Refund { .section}
+## Step 8: Reviewing and Releasing the Refund
 
 1.  Open the Payments and Applications \(AR3020PL\) form.
 

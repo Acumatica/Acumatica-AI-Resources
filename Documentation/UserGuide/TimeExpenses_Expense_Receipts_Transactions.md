@@ -1,8 +1,8 @@
-# Expense Receipts with Corporate Cards: Generated Transactions {#_ac5ef55a-4321-4a8b-ac25-6b22618a71b1 .concept}
+# Expense Receipts with Corporate Cards: Generated Transactions
 
 The release of an expense claim does not generate general ledger transactions or project transactions directly. When you release the expense claim, the system creates the corresponding accounts payable documents. On release of the accounts payable documents, the system generates the general ledger transactions. For the project-related lines of the AP documents, the system also generates project transactions.
 
-## GL Transactions Generated on Release of a Cash Purchase { .section}
+## GL Transactions Generated on Release of a Cash Purchase
 
 When a cash purchase related to an expense claim is released, the system generates a batch of the general ledger transactions shown in the table below.
 
@@ -20,7 +20,7 @@ If a cash purchase line is related to a project, on release of the cash purchase
 |The expense account|The inventory item|The project, project task, and cost code in the cash purchase line|Amount|0.00|
 |The liability account|The cash account of the corporate card|*X* \(non-project code\)|0.00|Amount|
 
-## GL Transactions Generated on Release of an AP Bill { .section}
+## GL Transactions Generated on Release of an AP Bill
 
 When an accounts payable bill related to an expense claim is released, the system generates a batch of the general ledger transactions shown in the following table.
 
@@ -38,7 +38,7 @@ If an accounts payable bill line is related to a project, on release of the bill
 
 You can view the details of the batch associated with the release of a bill by clicking the link in the **Batch Nbr.** box on the **Financial** tab \(**Link to GL** section\) of the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. The system opens the batch on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## GL Transactions Generated on Release of an AP Debit Adjustment { .section}
+## GL Transactions Generated on Release of an AP Debit Adjustment
 
 When a debit adjustment related to an expense claim is released, the system generates a batch of the general ledger transactions shown in the following table.
 
@@ -56,7 +56,7 @@ If a debit adjustment line is related to a project, on release of the debit adju
 
 You can view the details of the batch associated with the release of a debit adjustment by clicking the link in the **Batch Nbr.** box on the **Financial** tab \(**Link to GL** section\) of the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. The system opens the batch on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## Project Transactions Generated on Release of the GL Batch { .section}
+## Project Transactions Generated on Release of the GL Batch
 
 If a cash purchase line or bill line is related to a project, on release of this cash purchase or AP bill, in addition to the creation of a batch of general ledger transactions, the system also generates a batch of the project transactions shown in the following table.
 

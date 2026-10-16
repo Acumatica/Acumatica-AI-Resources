@@ -1,4 +1,4 @@
-# Types of Physical Inventory {#_5c9b4cfc-b701-4217-bbd8-4aaad82344b7 .concept}
+# Types of Physical Inventory
 
 Most organizations conduct a full physical inventory count for each warehouse at least once a year. A full physical inventory greatly improves the accuracy of availability data, but it disrupts business processes and can be very costly.
 
@@ -6,7 +6,7 @@ Acumatica ERP provides you with the functionality to support physical counts for
 
 In this topic, you will read about the types of physical inventory available in Acumatica ERP.
 
-## Types of Physical Inventory { .section}
+## Types of Physical Inventory
 
 In Acumatica ERP, you can use basic or advanced types of physical inventory counts, which depend on your license configuration as follows:
 
@@ -18,19 +18,19 @@ In Acumatica ERP, you can use basic or advanced types of physical inventory coun
     -   By movement class or by associated count frequency: With this type, you count stock items depending on their turnover rates. For details, see [Count by Movement Class and by Associated Count Frequency](#_ebde4ea9-921d-43ab-88e9-1b952f73c998)
     -   By ABC code and by code count frequency: With this type, you can count stock items depending on their stock values. For more information, see [Count by ABC Code and by Code Count Frequency](#_2726dde2-8370-48bc-b599-13ffe17f81d3).
 
-## Full Physical Inventory {#_c93b596a-d3a8-407f-abb1-53c390e48871 .section}
+## Full Physical Inventory
 
 If you select the *Full Physical Inventory* generation method on the [Physical Inventory Types](IN_20_89_00.md) \(IN208900\) form, the resulting physical inventory document includes all stock items available in the specified warehouse, in all locations or only in the selected ones, with all combinations of subitem codes \(if your implementation of Acumatica ERP uses subitems\) and lot or serial numbers \(if you use them in the system\). For details about how to create a type for full physical inventory, see [To Create a PI Type for a Full Count](IN__How_Create_Full_Count_PI_Type.md).
 
 Counting all the items in the warehouse is a time-consuming procedure generally performed before a planned closing of financial period. All movements of inventory involved in counting should be stopped during counting, and no transactions are released during counting.
 
-## Count by Item Class {#_fb1f9130-8397-410d-b2ea-5cf54a163e7c .section}
+## Count by Item Class
 
 Depending on how you have defined item classes, you may decide to perform counts by item class. For example, one item class may include your company's most valuable items, which you count more frequently.
 
 If you select the *By Item Class* method on the [Physical Inventory Types](IN_20_89_00.md) \(IN208900\) form, the **Item Class Selection** tab appears. On this tab, you can add one item class or multiple item classes for which the counting will be performed. If you add an item class that has child item classes, the physical inventory count is performed for the selected item class and all its child item classes as well.
 
-## Count by Specific Stock Items {#_41f48f72-6e83-4ee1-8530-edb1ed63006d .section}
+## Count by Specific Stock Items
 
 By using the *By Inventory* generation method, you can create physical inventory types that generate count sheets with particular stock items. You select the appropriate method of selecting items on the **Inventory Item Selection** tab of the [Physical Inventory Types](IN_20_89_00.md) \(IN208900\) form, which appears when you select the *By Inventory* generation method. You can select one of the following item selection methods in the **Select Method** box:
 
@@ -51,7 +51,7 @@ By using the *By Inventory* generation method, you can create physical inventory
     To count only particular items, you specify the *List Of Items* selection method and add the required items to the list.
 
 
-## Count by Cycle and by Cycle Count Frequency {#_c3abacfb-eeb1-47ed-b66b-e7d8e6b40f37 .section}
+## Count by Cycle and by Cycle Count Frequency
 
 You can configure physical counting to be performed with a regular time interval by using cycle counting. You select the *By Cycle* generation method on the [Physical Inventory Types](IN_20_89_00.md) \(IN208900\) form to create an inventory type by cycle. For details on configuring this type of physical counting, see [Cycle Counting Configuration](IN__con_Cycle_Counting_Configuration.md).
 
@@ -60,7 +60,7 @@ The *By Cycle* generation method has the following variations:
 -   Including in the count only the items assigned to a particular cycle: For this variation, you specify the cycle in the **Cycle ID** box and clear the **By Frequency** check box on the **PI Cycle Selection** tab of the [Physical Inventory Types](IN_20_89_00.md) form.
 -   Including the items of all cycles for which counting is due based on the frequency associated with their cycles: For this variation, you do not specify a cycle; instead, you select the **By Frequency** check box on the **PI Cycle Selection** tab of the [Physical Inventory Types](IN_20_89_00.md) form.
 
-## Count by Movement Class and by Associated Count Frequency {#_ebde4ea9-921d-43ab-88e9-1b952f73c998 .section}
+## Count by Movement Class and by Associated Count Frequency
 
 The more often a product is received or shipped, the less accurate its availability data may become. Thus, you may want to count items with higher turnover rates more frequently. To configure this type of physical inventory in Acumatica ERP, you define movement classes on the [Movement Classes](IN_20_86_00.md) \(IN208600\) form and assign items to classes either on a permanent basis or by using their turnover rates during the specified turnover period. You then create a physical inventory type on the [Physical Inventory Types](IN_20_89_00.md) \(IN208900\) form with the *By Movement Class* generation method.
 
@@ -76,7 +76,7 @@ Once items are assigned to movement classes, you can organize counting by moveme
     -   By creating a type for each movement class and performing counts of each type at the frequency defined for the movement class.
     -   By creating a type with the **By Frequency** check box selected for the *By Movement Class* generation method. Make sure that the count-per-year values are factors of the largest count-per-year value. A physical inventory document in such a case can include items of multiple movement classes for which count-per-year values are factors of the largest count-per-year value. Conduct counts at a frequency defined by the largest value of counts per year required for movement classes.
 
-## Count by ABC Code and by Code Count Frequency {#_2726dde2-8370-48bc-b599-13ffe17f81d3 .section}
+## Count by ABC Code and by Code Count Frequency
 
 If your company uses ABC codes to identify items critical to your business, select the *By ABC Code* generation method to have counts performed based on the frequencies required for items with different codes assigned. ABC codes, which you create by using the [ABC Codes](IN_20_85_00.md) \(IN208500\) form, group items by their stock value in a specific warehouse in a specific period, based on the period-to-date balances of inventory accounts. ABC codes divide items into groups that require different management and controls; for example, *A* code items, because of their high impact on the business, should be counted more often than items with other codes assigned.
 

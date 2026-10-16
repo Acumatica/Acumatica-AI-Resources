@@ -1,29 +1,28 @@
-# Appointment Billing Correction: General Information {#_024bdf90-6670-4e89-bfe9-1b1d5e5acc37 .concept}
+# Appointment Billing Correction: General Information
 
 In Acumatica ERP, if you need to correct information in an already-released invoice that originated from an appointment, you reverse the invoice, correct the appointment, and generate a new invoice. The correction of the appointment can involve adding or deleting detail lines, editing items in the detail lines, or editing the prices.
 
 **Important:** The process of correcting billing documents originating from appointments can differ depending on the type of the billing document. The [Appointment Billing Correction: Other Document Types](ServMgmt_Correction_of_Appointment.md) outlines the processes of billing correction when different billing documents are involved.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to reverse an invoice originating from an appointment, make corrections in the appointment, and generate another invoice for it.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You correct an appointment and prepare a new invoice for a customer in the following cases:
 
 -   When corrections to an invoice may be needed
 -   When corrections to an appointment may be needed
 
-## Workflow of Appointment Billing Correction { .section}
+## Workflow of Appointment Billing Correction
 
 In the diagram below, you can see the general workflow of correcting an invoice that has been generated and released for an appointment. This diagram focuses on the process when the billing document is an accounts receivable invoice.
 
 **Tip:** Processes and job titles may be different in your company.
 
-![](Images/diag_ServMgmt_Appointment_Correction_AR_Invoice.png "Correcting an AR invoice originating from an appointment")
 
-## Correction of an Accounts Receivable Invoice Originating from an Appointment { .section}
+## Correction of an Accounts Receivable Invoice Originating from an Appointment
 
 To correct an appointment billing, if an accounts receivable invoice was used for the billing and it has the *Open* status \(that is, it has been released\), an accountant must first reverse this invoice. On the **Billing Documents** tab of the [Appointments](FS_30_02_00.md) \(FS300200\) form, the accountant finds and clicks the reference number of the invoice. The system opens the invoice on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form in a pop-up window.
 
@@ -31,7 +30,7 @@ On the More menu \(under **Corrections**\) of the [Invoices and Memos](AR_30_10_
 
 On the [Appointments](FS_30_02_00.md) form, on the More menu \(under **Corrections**\), the accountant clicks **Unclose** to unclose the appointment. The accountant then makes the needed corrections to the appointment. After that, they can process the appointment billing once again.
 
-## Correction of a Sales Invoice Originating from an Appointment { .section}
+## Correction of a Sales Invoice Originating from an Appointment
 
 **Important:** The ability to reverse a sales invoice is available only if the *Service Management* and *Advanced SO Invoices* features are enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 

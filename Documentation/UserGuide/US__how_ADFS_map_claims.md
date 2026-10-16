@@ -1,4 +1,4 @@
-# To Map AD FS Claims to Roles in Acumatica ERP {#_a77ffed9-1d4d-4997-ba17-17cbd90849ea .task}
+# To Map AD FS Claims to Roles in Acumatica ERP
 
 After you have enabled Microsoft Active Directory Federation Services \(AD FS\) integration, you need to map AD FS claims to user roles defined in Acumatica ERP by using the [User Roles](SM_20_10_05.md) \(SM201005\) form. Claims configured in [To Configure AD FS Claims](US__how_ADFS_Configure_ADFS_Claims.md) transfer domain groups to Acumatica ERP to associate them with user roles. Do the following:
 

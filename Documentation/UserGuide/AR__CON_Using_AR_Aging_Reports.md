@@ -1,8 +1,8 @@
-# Preparation of Dunning Letters: Using the AR Aging Report {#_29ef9c86-8f91-4705-bdfc-a649053c8e22 .concept}
+# Preparation of Dunning Letters: Using the AR Aging Report
 
 Acumatica ERP includes reports that can be used by your collection personnel to determine which invoices are overdue for payment. These reports can also be used by management to determine the effectiveness of the credit and collections efforts. The following section describes the [AR Aging](AR_63_10_00.md) \(AR631000\) report. For descriptions of other reports, see [Preparation of Dunning Letters: Related Reports](CreditPolicy_Preparing_Dunning_Letters_Reports.md).
 
-## AR Aging Report {#section_owj_gvj_bx .section}
+## AR Aging Report
 
 You use the [AR Aging](AR_63_10_00.md) \(AR631000\) report and its multicurrency version, [AR Aging MC](AR_63_11_00.md) \(AR631100\), to determine which documents are overdue for payment and for how long.
 
@@ -22,7 +22,6 @@ Depending on the **Age Based On** setting of the statement cycle on the [Stateme
 
 Credit documents are aged based on their document date and the aging date specified for the report if the **Age Credits** check box is selected on the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form. By default, the check box is cleared and the credit amounts are shown in the **Current** column of the report. With the check box selected, if the document date of a credit document is the same as or later than the aging date, the document balance is reflected in the current aging period of the report. Otherwise, the document balance is reflected in the aging period associated with the number of days that have passed after the document date.
 
-![](Images/diag_AR_Aging_Report.png "AR Aging: aging debit and credit documents")
 
 **Parent topic:**[Preparing Dunning Letters](../UserGuide/CreditPolicy_Preparing_Dunning_Letters_Mapref.md)
 

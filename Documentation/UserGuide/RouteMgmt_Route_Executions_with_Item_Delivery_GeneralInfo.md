@@ -1,8 +1,8 @@
-# Route Executions with Item Delivery: General Information {#_520433dc-8160-4d4a-9f72-5e9415621f19 .concept}
+# Route Executions with Item Delivery: General Information
 
 A route execution may include appointments that involve the delivery or pickup of inventory items. To manage these routes in Acumatica ERP, you must create services with specific settings and specify the inventory items to be delivered or picked up. Once created, these services can be added to the route execution document.
 
-## Learning Objectives {#section_ant_41p_ldc .section}
+## Learning Objectives
 
 In this lesson, you will learn how to do the following:
 
@@ -12,7 +12,7 @@ In this lesson, you will learn how to do the following:
 -   Add appointments to the route
 -   Start, complete, and close route executions
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create route executions for item delivery in the following cases:
 

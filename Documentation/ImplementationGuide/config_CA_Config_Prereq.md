@@ -1,12 +1,12 @@
-# Cash Management: Configuration Prerequisites {#_6fad0c26-6e1e-4a80-b42a-3af479b40107 .concept}
+# Cash Management: Configuration Prerequisites
 
 Before you start to implement cash management, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md#) \(CS100000\) form, the minimum set of features has to be enabled. For details, see [Company Without Branches: To Configure a Company Without Branches](config_Basic_Company_Implem_Activity_Enabling_Features.md).
 
-## Configuring the System { .section}
+## Configuring the System
 
 You need to make sure that the following implementation tasks have been performed in Acumatica ERP before you begin implementing cash management:
 

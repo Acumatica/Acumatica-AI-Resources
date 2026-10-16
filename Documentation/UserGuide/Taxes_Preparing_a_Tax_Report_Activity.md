@@ -1,12 +1,12 @@
-# Tax Report Preparation: Process Activity {#_f9a7f397-a429-443f-a09e-b4bf10c1e8a5 .task}
+# Tax Report Preparation: Process Activity
 
 The following activity will walk you through the process of preparing a sales tax report.
 
-## Story {#section_rkn_fjv_vxb .section}
+## Story
 
 Suppose that you, as an accountant of SweetLife Fruits &amp; Jams, have to prepare and review a tax report for the *02-2026* tax period, and you will later release the report.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -16,11 +16,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *NYTAXDEP* vendor has been configured as a tax agency.
 -   On the [Reporting Settings](TX_20_51_00.md) \(TX205100\) form, a tax report has been configured for the *NYTAXDEP* tax agency.
 
-## Process Overview {#section_ukn_fjv_vxb .section}
+## Process Overview
 
 In this activity, on the [Prepare Tax Report](TX_50_10_00.md) \(TX501000\) form, you will prepare a tax report for the specified company and tax agency. On the [Tax Report Details](TX_50_20_10.md) \(TX502010\) form, you will then review the documents included in the tax report.
 
-## System Preparation {#section_wkn_fjv_vxb .section}
+## System Preparation
 
 Before you begin to prepare a tax report, do the following:
 
@@ -28,7 +28,7 @@ Before you begin to prepare a tax report, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *2/28/2026*. If a different date is displayed, click the Business Date menu button and select *2/28/2026*. For simplicity, in this process activity, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu button to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Preparing a Tax Report {#section_ykn_fjv_vxb .section}
+## Step 1: Preparing a Tax Report
 
 To prepare a tax report, proceed as follows:
 
@@ -46,7 +46,7 @@ To prepare a tax report, proceed as follows:
     The *02-2026* tax period is assigned the *Prepared* status. \(If necessary, you can review it in the **Status** column on the [Tax Periods](TX_20_70_00.md) \(TX207000\) form\). The system opens the [Release Tax Report](TX_50_20_00.md) \(TX502000\) form with the prepared report. Before you release the report, you will review the documents that relate to different lines in this tax report.
 
 
-## Step 2: Reviewing the Documents in the Report Lines {#section_dln_fjv_vxb .section}
+## Step 2: Reviewing the Documents in the Report Lines
 
 To review the documents included in the report lines, proceed as follows:
 

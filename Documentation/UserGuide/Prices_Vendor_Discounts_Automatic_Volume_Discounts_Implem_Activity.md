@@ -1,8 +1,8 @@
-# Volume Vendor Discounts: Implementation Activity {#_8b9a2278-d51d-4ab5-ba3f-82dd0a8d6ddc .task}
+# Volume Vendor Discounts: Implementation Activity
 
 In this activity, you will learn how to configure automatic vendor discounts dependent on the amounts or quantities in document lines or the amount of the entire document. It is recommended that you review the information about line vendor discounts and document vendor discounts before completing this activity.
 
-## Story { .section}
+## Story
 
 At the end of 2025, one of SweetLife's vendors, Blueline Advertising, purchased a new facility and drastically improved its capacity for production of outdoor advertising constructions. To increase the utilization ratio of the new facility, Blueline offers discounts to its customers who order production of outdoor ad constructions in large quantities. The SweetLife Fruits &amp; Jams company purchases billboard production from Blueline, so the company is interested in the following Blueline's discounts:
 
@@ -23,7 +23,7 @@ On January 30, 2026 SweetLife purchases the design of a new billboard, the produ
 
 As the SweetLife accountant, you first define these discounts so that they are applied automatically to documents created for Blueline. Also, you need to create a bill for the purchase of the services and explore how these discounts are applied to it.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -31,13 +31,13 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *BILLBPROD* and *BILLBDESIG* non-stock items have been created.
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *BLUELINE* customer has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 You configure discount codes on the [Vendor Discount Codes](AP_20_40_00.md) \(AP204000\) form and then configure appropriate discount sequences on the [Vendor Discounts](AP_20_50_00.md) \(AP205000\) form.
 
 On the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you create an AP bill to which the discounts may be applied. You then review the **Details** tab of the form and review how the discounts are applied.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Before you start the activity, do the following:
 
@@ -45,7 +45,7 @@ Before you start the activity, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026*. For simplicity, in this lesson, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Configure the Tiered Line Vendor Discount \(Applicable to Item, Tiered by Quantity, Calculated by Percent\) { .section}
+## Step 1: Configure the Tiered Line Vendor Discount \(Applicable to Item, Tiered by Quantity, Calculated by Percent\)
 
 To configure an automatic volume discount applicable to the *BILLBPROD* item, do the following:
 
@@ -98,7 +98,7 @@ To configure an automatic volume discount applicable to the *BILLBPROD* item, do
 11. On the form toolbar, click **Update Discounts**.
 12. In the **Update Discounts** dialog box, which opens, leave the default value \(*1/30/2026*\) in the **Filter Date** box, and click **OK**.
 
-## Step 2: Configure the Tiered Document Vendor Discount \(Tiered by Amount, Calculated by Percent\) { .section}
+## Step 2: Configure the Tiered Document Vendor Discount \(Tiered by Amount, Calculated by Percent\)
 
 To configure an automatic vendor discount applicable to the entire document, do the following:
 
@@ -144,7 +144,7 @@ To configure an automatic vendor discount applicable to the entire document, do 
 10. On the form toolbar, click **Update Discounts**.
 11. In the **Update Discounts** dialog box, which opens, leave the default value \(*1/30/2026*\) in the **Filter Date** box, and click **OK**.
 
-## Step 3: Create the Bill for Blueline and Explore Discount Application { .section}
+## Step 3: Create the Bill for Blueline and Explore Discount Application
 
 To create the bill for Blueline Advertising and explore how these tiered discounts are applied, do the following:
 
@@ -186,7 +186,7 @@ To create the bill for Blueline Advertising and explore how these tiered discoun
     The *20000 - Accounts Payable* account is credited and the *61000 - Advertising Expense* account is debited in the amount of the bill. Notice that the discount applied to the entire document is credited to the *49000 - Discount Taken* account.
 
 
-## Step 4: Make the Created Discounts Inactive { .section}
+## Step 4: Make the Created Discounts Inactive
 
 To make the discounts you created in this activity inactive so that they will not affect other documents later, do the following:
 

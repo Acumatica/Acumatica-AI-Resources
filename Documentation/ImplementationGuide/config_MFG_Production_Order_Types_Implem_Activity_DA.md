@@ -1,30 +1,30 @@
-# Production Order Types: To Create a Disassembly Production Order Type {#_a7f0bd04-ff80-4900-beef-1a3f3363722b .task}
+# Production Order Types: To Create a Disassembly Production Order Type
 
 In this implementation activity, you will learn how to create a production order type for disassembly production orders.
 
-## Story { .section}
+## Story
 
 Suppose that you are an implementation manager who needs to define production orders that will be used for disassembly. You need to create the production order type that will generally provide the settings for these production orders, and define it as the default type for the orders.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 The following entities, which you will use in this activity, have been predefined in the *U100* dataset:
 
 -   On the [Numbering Sequences](../UserGuide/CS_20_10_10.md) \(CS201010\) form, the *AMDIS* numbering sequence
 -   On the [Chart of Accounts](../UserGuide/GL_20_25_00.md) \(GL202500\) form, the *12500 - Work in Progress* and *51500 - COGS - WIP Inventory Variance* GL accounts
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Production Order Types](../UserGuide/AM_20_11_00.md) \(AM201100\) form, you will create an order type for disassembly orders. Then on the [Production Preferences](../UserGuide/AM_10_20_00.md) \(AM102000\) form, you will specify this order type as the default type for orders used for disassembly operations.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating the order type, do the following:
 
 1.  As a prerequisite to the current activity, complete [System Preparation for Manufacturing Implementation: Implementation Activity](config_MFG_General_Settings_Implem_Activity.md) so that the needed settings have been made in a company with the *U100* dataset preloaded.
 2.  Sign in to this company \(in which the prerequisite activity has been performed\) as a system administrator with the *gibbs* username and *123* password.
 
-## Step 1: Creating the Disassembly Production Order Type { .section}
+## Step 1: Creating the Disassembly Production Order Type
 
 To create the production order type for disassembly, do the following:
 
@@ -54,7 +54,7 @@ To create the production order type for disassembly, do the following:
         -   **Default Operation Move Qty.**: Selected
 4.  On the form toolbar, click **Save**.
 
-## Step 2: Specifying the Default Production Order Type for Disassembly { .section}
+## Step 2: Specifying the Default Production Order Type for Disassembly
 
 Because you have created an order type for disassembly production orders, you will specify this type as the default type for disassembly in the production settings. Do the following:
 

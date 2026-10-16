@@ -1,4 +1,4 @@
-# Entering Employee Time {#_266cf575-8a5d-4fdf-b472-33889343b7fd .concept}
+# Entering Employee Time
 
 To help employees accurately record and manage their work hours, Acumatica ERP provides functionality for tracking time activities, time cards, and crew time. In this chapter, you will find topics that explain how to enter and manage employee time efficiently.
 
@@ -16,6 +16,8 @@ To help employees accurately record and manage their work hours, Acumatica ERP p
 
 -   **[Employee Time Entry: Time Cards](../UserGuide/TimeExpenses_Entering_Employee_Time_Time_Cards.md)**  
 
+-   **[Employee Time Entry: Corrective Time Cards](../UserGuide/TimeExpenses_Entering_Employee_Time_Correcting_Timecards.md)**  
+
 -   **[Employee Time Entry: Time Card Frequencies](../UserGuide/TimeExpenses_Entering_Employee_Time_Time_Card_Frequency.md)**  
 
 -   **[Employee Time Entry: To Create a Time Card](../UserGuide/TimeExpenses_Entering_Employee_Time_Time_Cards_Activity.md)**  
@@ -28,6 +30,4 @@ To help employees accurately record and manage their work hours, Acumatica ERP p
 
 -   **[Employee Time Entry: To Create a Crew Time Activity](../UserGuide/TimeExpenses_Entering_Employee_Time_Time_Crew_Activity.md)**  
 
-
-**Parent topic:**[Time and Expenses](../UserGuide/TM_00_00_00.md)
 

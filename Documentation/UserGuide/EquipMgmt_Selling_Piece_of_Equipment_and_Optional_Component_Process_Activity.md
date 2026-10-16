@@ -1,8 +1,8 @@
-# Selling a Piece of Equipment and an Optional Component: Process Activity {#_d107d05b-49ca-4d7e-9dff-f900a9231dde .task}
+# Selling a Piece of Equipment and an Optional Component: Process Activity
 
 The following activity will walk you through the process of selling a piece of equipment, an optional component, and the associated installation service.
 
-## Story {#section_axl_wlj_jdc .section}
+## Story
 
 Suppose that the customer has contacted the SweetLife Service and Equipment Sales Center to request the following:
 
@@ -12,11 +12,11 @@ Suppose that the customer has contacted the SweetLife Service and Equipment Sale
 
 Acting as a service manager, you will create an appointment. Further processing will then be performed by the assigned staff member and the accountant, who will prepare and process the billing documents for the customer. To keep this training simple, you will perform all instructions while you are signed in to the user account of the service manager \(Maia Davis\).
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Appointments](FS_30_02_00.md) \(FS300200\) form, you will create a new appointment, add the required items, specify the equipment-related actions for each item, and process the appointment.
 
-## System Preparation {#section_ejp_d23_jdc .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -24,7 +24,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date to *1/30/2026*. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 3.  To perform this activity, make sure that you have performed the following prerequisite activities: [Stock Items to Be Tracked Post-Sale: To Create Components](EquipMgmt_Creating_Components_Process_Activity.md) and [Stock Items to Be Tracked Post-Sale: To Create Stock Items with Components](EquipMgmt_Creating_Equipment_with_Components_Process_Activity.md).
 
-## Step: Selling a Piece of Model Equipment and an Optional Component {#section_qmg_cmj_jdc .section}
+## Step: Selling a Piece of Model Equipment and an Optional Component
 
 In this step, you will create an appointment \(causing the system to create the corresponding service order\) that includes the installation service *INST*, the *CPRESS30J - Cold Press Juicer H30J* equipment, and the optional *30HOPPERJK - Hopper H30J metallic* component. You will go through the whole process until you generate an invoice for both the service and the sold equipment.
 
@@ -81,12 +81,10 @@ Perform the following instructions:
 
     When the invoice was released, the target equipment record was created \(as shown in the following screenshot\).
 
-    ![](Images/EquipMgmt_Created_Target_Equipment_in_the_Released_Invoice_2.png "Released invoice showing the created target equipment")
 
 17. In the **Target Equipment ID** column, click the equipment reference number link to open the [Equipment](FS_20_50_00.md) \(FS205000\) form.
 18. On the **Components** tab \(see Item 1 in the following screenshot\), verify that the system has added the additional component of the model equipment record that has been sold within the same order \(Item 2\).
 
-    ![](Images/EquipMgmt_Target_Equipment_with_Added_Optional_Component.png "The equipment record with the additional component")
 
 
 **Parent topic:**[Selling a Piece of Equipment and an Optional Component](../UserGuide/EquipMgmt_Selling_Piece_of_Equipment_and_Optional_Component_Mapref.md)

@@ -1,23 +1,23 @@
-# VAT for Early Payments: To Prepare a New Revision of VAT Tax Report {#_f81b9912-9519-4ceb-8b01-e771a3047908 .task}
+# VAT for Early Payments: To Prepare a New Revision of VAT Tax Report
 
 The following activity will walk you through the process of preparing a new revision of a VAT tax report.
 
-## Story {#section_hbn_fjv_vxb .section}
+## Story
 
 Suppose that the SweetLife company has already prepared a VAT tax report for the 01-2026 period. After a company accountant has processed a payment of a taxable invoice with a cash discount, a VAT credit memo was generated, and the amount of the output VAT has changed. Acting as the SweetLife accountant, you need to prepare a new revision of the tax report for the 01-2026 period, which will include the amounts of the documents related to the payment of the invoice.
 
-## Configuration Overview {#section_jbn_fjv_vxb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following configuration tasks have been performed to prepare the system for this activity to be performed:
 
 -   On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *VAT Reporting* feature has been enabled.
 -   On the [Tax Categories](TX_20_55_00.md) \(TX205500\) form, the *TAXABLE* tax category has been configured.
 
-## Process Overview {#section_lbn_fjv_vxb .section}
+## Process Overview
 
 In this activity, you will prepare a new revision of the VAT tax report on the [Prepare Tax Report](TX_50_10_00.md) \(TX501000\) form. On the [Release Tax Report](TX_50_20_00.md) \(TX502000\) form, you will review the new revision of the tax report and make sure that the amount of output tax was adjusted on the [Tax Report Details](TX_50_20_10.md) \(TX502010\) form.
 
-## System Preparation {#section_nbn_fjv_vxb .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -30,7 +30,7 @@ To prepare the system, do the following:
 7.  As a prerequisite activity, in the company to which you are signed in, be sure that you have prepared and released a VAT tax report for the *01-2026* period as described in [Tax Report for VAT: Process Activity](Taxes_Preparing_a_Tax_Report_VAT_Process_Activity.md). The **Update Closed Tax Periods** check box is selected for the tax agency on the [Vendors](AP_30_30_00.md) form.
 8.  As a prerequisite activity, in the company to which you are signed in, be sure that you have processed a payment of an AR invoice and generated a VAT credit memo as described in [VAT for Early Payments: To Process a Payment with a Cash Discount](Taxes_Adjusting_VAT_Early_Payments_Process_Activity.md).
 
-## Step 1: Preparing a VAT Tax Report {#section_pbn_fjv_vxb .section}
+## Step 1: Preparing a VAT Tax Report
 
 To prepare a VAT tax report for the 01-2026 period, do the following:
 
@@ -44,7 +44,7 @@ To prepare a VAT tax report for the 01-2026 period, do the following:
 
 3.  On the form toolbar, click **Prepare Tax Report**.
 
-## Step 2: Reviewing the New Revision of the Tax Report {#section_sbn_fjv_vxb .section}
+## Step 2: Reviewing the New Revision of the Tax Report
 
 To review the new revision of the tax report, do the following:
 

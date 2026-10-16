@@ -1,4 +1,4 @@
-# Processing Direct Returns {#_140ff770-e254-4bb8-893a-e7ae73f18750 .concept}
+# Processing Direct Returns
 
 This chapter describes how you can process a direct return through the point-of-sale \(POS\) system. For the direct return, you can specify a link to the original sales invoice.
 

@@ -1,18 +1,17 @@
-# Extension of Scan Components: Method Interceptors {#_19debcb9-2615-4670-86c6-2d7235d77fda .concept}
+# Extension of Scan Components: Method Interceptors
 
 A method interception approach provides multiple overriding strategies that could facilitate the customization process.
 
-## Method Interceptors { .section}
+## Method Interceptors
 
 All components of BarcodeDrivenStateMachine should be either `abstract` or `sealed`. An `abstract` class should be used as a template for a `sealed` class. Only `sealed` classes can be used as scan components. These components should not contain any customizable logic. All customizable logic should be located in the `Basis` class or in its extensions \(which are ScanExtension descendants\). You perform the configuration of the components by using method interceptors.
 
 A method interceptor is a special class that can simulate inheritance and overriding in the scope of a particular method. The following diagram shows the classes related to method interceptors.
 
-![](Images/diag_WMSEngine_Interceptor.png "Method interceptor")
 
 A host class of the interceptor class creates a method interceptor for one of its methods by passing the base method to the interceptor. The host provides the public access to the interceptor so that the interception can be performed by the external classes \(via the By method group\). The host calls the target method only through the interceptor's method invoker, which is provided by the interceptor and is not accessible for external code. The host may have an additional `public` method that makes it possible for external code to use the target method properly.
 
-## Interception Approaches { .section}
+## Interception Approaches
 
 The barcode-driven engine provides the following interception approaches:
 

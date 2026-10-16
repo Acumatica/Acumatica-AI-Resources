@@ -1,11 +1,11 @@
-# Shop Floor Kiosk Administration: Configuring Production Employee Access {#_3c6d89df-6342-432e-9cc3-39dcf24ae922 .concept}
+# Shop Floor Kiosk Administration: Configuring Production Employee Access
 
 Each production employee who will use the kiosk must have:
 
 -   An Acumatica ERP user account with the *SFK User* role assigned on the [Users](SM_20_10_10.md) \(SM201010\) form
 -   A linked employee record with the **Production Employee** check box selected and the **Shop Floor Shift** box filled in on the [Employees](EP_20_30_00.md) \(EP203000\) form
 
-## Scenario 1: New Production Employee { .section}
+## Scenario 1: New Production Employee
 
 Use this procedure when creating a new employee who does not yet have a user account or an employee record in Acumatica ERP.
 
@@ -20,7 +20,7 @@ Use this procedure when creating a new employee who does not yet have a user acc
     3.  On the **User** tab, in the **User Account** box, select the user account you created in step 1.
     4.  Click **Save**.
 
-## Scenario 2: Existing Employee with a Linked User Account { .section}
+## Scenario 2: Existing Employee with a Linked User Account
 
 Use this procedure when the employee already has an employee record and a user account that are linked to each other.
 
@@ -32,7 +32,7 @@ Use this procedure when the employee already has an employee record and a user a
     1.  Open the employee record.
     2.  Ensure that the **Production Employee** check box is selected and that the **Shop Floor Shift** box is filled in.
 
-## Scenario 3: Existing Employee Record Without a User Account { .section}
+## Scenario 3: Existing Employee Record Without a User Account
 
 Use this procedure when an employee record exists but no user account has been created for the employee.
 
@@ -47,7 +47,7 @@ Use this procedure when an employee record exists but no user account has been c
 
 
 
-## Scenario 4: Existing Employee Record with an Unlinked User Account { .section}
+## Scenario 4: Existing Employee Record with an Unlinked User Account
 
 Use this procedure when both an employee record and a user account exist, but the two have not been associated with each other.
 

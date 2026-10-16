@@ -1,21 +1,21 @@
-# Automatic Document Vendor Discounts: General Information {#_1977e09f-cad5-4973-a590-89df7f5cea23 .concept}
+# Automatic Document Vendor Discounts: General Information
 
 Vendor discounts are an effective tool that allows you to take advantage of special offerings provided by the vendors you work with. If your vendors offer discounts that are applicable to specific items, you can set up such discounts in Acumatica ERP so that they are automatically applied in AP bills and purchase orders. An automatic document discount, as the name suggests, is applied automatically to an entire document.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this section, you will learn:
 
 -   How to configure automatic document-level vendor discounts
 -   How automatic document-level vendor discounts are applied to documents
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 To configure discounts for vendors, the *Vendor Discounts* feature must be enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
 You can configure customer discounts that are automatically applied to lines of documents of various types, including AP bills and purchase orders. Applying discounts to purchase orders is possible only if the *Inventory and Order Management* group of features and the *Inventory* feature are enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Other Configuration Settings { .section}
+## Other Configuration Settings
 
 Make sure that the following settings are configured in the system:
 
@@ -23,7 +23,7 @@ The vendors for which you plan to define discounts in Acumatica ERP have been co
 
 For item-specific discounts, the non-stock and stock items for which you plan to define discounts have been configured on the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form and [Stock Items](IN_20_25_00.md) \(IN202500\) form, respectively.
 
-## Application of Automatic Discounts { .section}
+## Application of Automatic Discounts
 
 The system always applies automatic discounts in the following order when a user saves a document:
 

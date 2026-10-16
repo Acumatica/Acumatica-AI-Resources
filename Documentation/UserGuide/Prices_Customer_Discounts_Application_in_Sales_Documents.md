@@ -1,10 +1,10 @@
-# Customer Discounts: Discount Application in Sales Documents {#_49b6f685-4b1c-4abd-b268-f75d41d9396c .concept}
+# Customer Discounts: Discount Application in Sales Documents
 
 Discounts configured in the system can be applied to various documents, including sales orders and sales invoices. The system can calculate discounts differently depending on the document type. For information on configuring discounts of different types, see the topics of the [Customer Discounts: General Information](Prices_Customer_Discounts_GeneralInfo.md) chapter. In this topic, you will read how Acumatica ERP applies discounts to sales orders and sales invoices.
 
 **Attention:** The functionality of sales orders is available if the *Inventory and Order Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. You can configure customer-specific discounts only if the *Customer Discounts* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) form.
 
-## Types of Discounts in Sales Orders { .section}
+## Types of Discounts in Sales Orders
 
 When a user saves a sales order, the system selects and applies the types of automatic discounts configured in the system in the following order:
 
@@ -17,7 +17,7 @@ When a user saves a sales order, the system selects and applies the types of aut
 -   Transfer orders
 -   Orders of an order type that has the *RMA Order* automation behavior and *No Update* selected in the **AR Document Type** box on the **Template** tab of the [Order Types](../Shared/../UserGuide/SO_20_10_00.md) \(SO201000\) form
 
-## Discount Update in Sales Orders { .section}
+## Discount Update in Sales Orders
 
 By default, Acumatica ERP updates all discounts in a sales order as you change any information in the order \(such as adding new lines\).
 
@@ -31,7 +31,7 @@ When the **Disable Automatic Discount Update** check box is selected for an orde
 
 If automatic updating of discounts is disabled for an order on the [Sales Orders](SO_30_10_00.md) form, you can initiate discount recalculation manually by using the **Recalculate Prices** dialog box, which you open by clicking **Recalculate Prices** on the More menu \(under **Other**\).
 
-## Transfer of Discounts to Sales Invoices { .section}
+## Transfer of Discounts to Sales Invoices
 
 When a sales invoice is prepared on the [Invoices](SO_30_30_00.md) \(SO303000\) form for a sales order, the system transfers all applicable sales order discounts to this sales invoice by using the following rules:
 
@@ -40,7 +40,7 @@ When a sales invoice is prepared on the [Invoices](SO_30_30_00.md) \(SO303000\) 
 -   If the invoice is a consolidated invoice for multiple sales orders, the document and group discounts from all orders are transferred to the invoice. If the same document or group discount applies to multiple orders, the system adds a separate discount line for each order. Each discount line is linked to the sales order from which it was transferred.
 -   If the invoice is changed \(for example, if invoice lines are added or deleted, or the invoice date is changed\), on the **Discounts** tab of the [Invoices](SO_30_30_00.md) form, the system recalculates group and document discounts, adds the additional discount lines, and keeps the original discount lines transferred from the sales order. You should review the resulting set of discounts and delete unneeded discount lines.
 
-## General Ledger Transactions for Sales Invoices { .section}
+## General Ledger Transactions for Sales Invoices
 
 On release of the sales invoice, the system generates a batch of the following general ledger transactions.
 

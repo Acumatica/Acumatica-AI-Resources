@@ -1,10 +1,10 @@
-# Deductions from Assets: Related Report {#_618b2f8d-4971-41e7-b0b1-c08a42ee07f8 .concept}
+# Deductions from Assets: Related Report
 
 In the following section, you can find details about a report that you may want to review to gather information about additions to and deductions from fixed assets.
 
 **Attention:** If you don’t see a particular report or form that is described, you may have signed in to the system with a user account that doesn’t have access rights to the report or form. Contact your system administrator to obtain access to any needed reports or forms.
 
-## Reviewing Reconciliation History {#section_w12_ljv_vxb .section}
+## Reviewing Reconciliation History
 
 You can review the reconciliation history of a particular asset by running the [Reconciliation History by Account](FA_62_00_20.md) \(FA620020\) report.
 

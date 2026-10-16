@@ -1,10 +1,10 @@
-# Order Synchronization: To Configure and Import Shopify Payments {#_34594d89-fe88-4b0c-a07c-df2649263390 .task}
+# Order Synchronization: To Configure and Import Shopify Payments
 
 The following activity will walk you through the configuration of the system so that you can import payments based on the Shopify Payments payment method from the Shopify store to Acumatica ERP.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story {#section_zq4_mtv_gtb .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company wants to accept card payments in the Shopify store. The company sells its products in the United States, where Shopify Payments is supported.
 
@@ -12,7 +12,7 @@ Further suppose that the company management wants to import the Shopify Payments
 
 Acting as an implementation consultant helping SweetLife to set up the synchronization of data between Acumatica ERP and the Shopify store, you need to configure Shopify Payments as a card payment provider in the Shopify store, configure the card payment processing in Acumatica ERP, and then configure the import of card payments from the Shopify store to Acumatica ERP.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -20,7 +20,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Cash Accounts](CA_20_20_00.md) \(CA202000\) form, the *10250ST* cash account has been created.
 -   On the [Entry Types](CA_20_30_00.md) \(CA203000\) form, the *SHOPIFYFEE* entry type of the *Disbursement* type has been defined.
 
-## Process Overview {#section_ar4_mtv_gtb .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -36,7 +36,7 @@ In this activity, you will do the following:
 10. On the [Prepare Data](BC_50_10_00.md) \(BC501000\) form, prepare the sales order for synchronization; on the [Process Data](BC_50_15_00.md) \(BC501500\) form, process the sales order data prepared for synchronization.
 11. On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, review the imported sales order.
 
-## System Preparation {#section_br4_mtv_gtb .section}
+## System Preparation
 
 Before you complete the instructions in this activity, do the following:
 
@@ -48,14 +48,14 @@ Before you complete the instructions in this activity, do the following:
     -   **Password**: *123*
 3.  Sign in to the admin area of the Shopify store as the store administrator in the same browser.
 
-## Step 1: Activating Integrated Card Processing {#section_cr4_mtv_gtb .section}
+## Step 1: Activating Integrated Card Processing
 
 To activate integrated card processing, do the following:
 
 1.  On the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, in the **Data Processing Settings** section on the **General** tab, select the *Enable Integrated CC Processing* check box.
 2.  On the form toolbar, click **Save**.
 
-## Step 2: Creating the Processing Center {#section_dr4_mtv_gtb .section}
+## Step 2: Creating the Processing Center
 
 To create the processing center that will be connected to the Shopify Payments payment gateway, do the following:
 
@@ -82,7 +82,7 @@ To create the processing center that will be connected to the Shopify Payments p
     If the test connection is successful, the system will display the following confirmation message in the **Result** dialog box, which opens: *The credentials were accepted by the processing center.*
 
 
-## Step 3: Configuring a Payment Method That Represents Shopify Payments {#section_fr4_mtv_gtb .section}
+## Step 3: Configuring a Payment Method That Represents Shopify Payments
 
 To create the *SHOPIFYPAY* payment method for all payments by credit card, do the following:
 
@@ -108,7 +108,7 @@ To create the *SHOPIFYPAY* payment method for all payments by credit card, do th
     -   **Default**: Selected
 5.  On the form toolbar, click **Save** to save your changes.
 
-## Step 4: Activating Shopify Payments in the Shopify Store { .section}
+## Step 4: Activating Shopify Payments in the Shopify Store
 
 To activate the *Shopify Payments* payment provider in the Shopify store, do the following:
 
@@ -144,7 +144,7 @@ To activate the *Shopify Payments* payment provider in the Shopify store, do the
     **Tip:** If the system displays an error saying it failed to verify your details and asks to update them, save the details with no changes and submit them again. The verification process takes 14 days, so you can complete the activity.
 
 
-## Step 5: Configuring Test Mode for the Payment Provider {#section_gr4_mtv_gtb .section}
+## Step 5: Configuring Test Mode for the Payment Provider
 
 To configure test mode for the *Shopify Payments* payment provider in the Shopify store, do the following:
 
@@ -162,7 +162,7 @@ To configure test mode for the *Shopify Payments* payment provider in the Shopif
 6.  Clear **Send a warning 1 day before an authorization expires to &lt;your email&gt;** check box.
 7.  At the top of the page, in the **Unsaved changes** bar, click **Save**.
 
-## Step 6: Creating the Mapping for the Shopify Payments Store Payment Method {#section_hr4_mtv_gtb .section}
+## Step 6: Creating the Mapping for the Shopify Payments Store Payment Method
 
 To map the Shopify Payments store payment method to the payment method defined for it in Acumatica ERP, do the following:
 
@@ -175,7 +175,7 @@ To map the Shopify Payments store payment method to the payment method defined f
     -   **Proc. Center ID**: *SHOPIFYPAY*
 3.  On the form toolbar, click **Save** to save your changes.
 
-## Step 6: Mapping the Shopify Fees { .section}
+## Step 6: Mapping the Shopify Fees
 
 To map Shopify fees to entry types, while you are still viewing the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form, do the following:
 
@@ -188,7 +188,7 @@ To map Shopify fees to entry types, while you are still viewing the [Shopify Sto
 
 **Attention:** If at least one Shopify fee has not been mapped to an entry type, the synchronization of payments made with the Shopify Payments payment method will fail, and the system will automatically add the unmapped fees to the **Payment Fees** table. You need to manually map each fee type to an ERP entry type, and then resynchronize the failed payments.
 
-## Step 7: Creating an Order Through the Storefront {#section_ir4_mtv_gtb .section}
+## Step 7: Creating an Order Through the Storefront
 
 To purchase a jar of jam, so that you can later import the order and review the credit card payment, in the Shopify store, do the following:
 
@@ -217,7 +217,7 @@ To purchase a jar of jam, so that you can later import the order and review the 
 9.  Select the **Use shipping address as billing address** check box.
 10. At the bottom of the page, click **Pay now** to place and pay your order. The order confirmation page opens.
 
-## Step 8: Reviewing the Sales Order in the Admin Area {#section_jr4_mtv_gtb .section}
+## Step 8: Reviewing the Sales Order in the Admin Area
 
 To review the sales order that you placed in the previous step, in the admin area of the Shopify store, do the following:
 
@@ -245,7 +245,7 @@ To review the sales order that you placed in the previous step, in the admin are
     Notice the **Transaction fee total amount**, which is the Shopify Payments fee associated with the payment transaction.
 
 
-## Step 9: Importing the Sales Order {#section_mr4_mtv_gtb .section}
+## Step 9: Importing the Sales Order
 
 To prepare the sales order data for synchronization and then process it, in Acumatica ERP, do the following:
 
@@ -258,7 +258,7 @@ To prepare the sales order data for synchronization and then process it, in Acum
 5.  On the [Process Data](BC_50_15_00.md) \(BC501500\) form, which opens with the *SweetStore - SP* store and the *Sales Order* entity selected, select the unlabeled check box in the only row, and click **Process** on the form toolbar.
 6.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 10: Reviewing the Imported Sales Order {#section_nr4_mtv_gtb .section}
+## Step 10: Reviewing the Imported Sales Order
 
 To review the settings of the imported sales order, do the following:
 
@@ -269,7 +269,6 @@ To review the settings of the imported sales order, do the following:
 3.  In the table, in the row of the sales order that you have just imported, click the link in the **ERP ID** column.
 4.  On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, which opens for the imported order in a pop-up window, review the settings of the order \(see the following screenshot\).
 
-    ![](Images/activity_Commerce_SP_Syncing_Orders_To_Use_Shopify_Payments.png)
 
     In the Summary area, notice the following:
 
@@ -284,7 +283,7 @@ To review the settings of the imported sales order, do the following:
     The document includes the external credit card transaction associated with the purchase. The number of the transaction \(which in Shopify is shown in the **Timeline** section\) is displayed in the **Payment Ref.** column. The transaction's status, which is *Captured*, is displayed in the **Proc. Status** column, and the payment's status, which is *Balanced*, is displayed in the **Status** column.
 
 
-## Step 11: Reviewing the Shopify Fees { .section}
+## Step 11: Reviewing the Shopify Fees
 
 To review the Shopify fees in the imported payment, while you are still viewing the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, do the following:
 
@@ -294,7 +293,6 @@ To review the Shopify fees in the imported payment, while you are still viewing 
 
     On the **Charges** tab, notice that the Shopify processing fee that you mapped in this activity has been imported with the payment, as the following screenshot shows. The *61900* account is the default offset account associated with the *SHOPIFYFEE* entry type.
 
-    ![](Images/activity_Commerce_SP_Syncing_Orders_To_Use_Shopify_Payments_Charges.png "The imported Shopify fees")
 
 2.  On the form toolbar, click **Release** to release the payment.
 3.  Close the pop-up windows with the [Payments and Applications](AR_30_20_00.md) and [Sales Orders](SO_30_10_00.md) forms.

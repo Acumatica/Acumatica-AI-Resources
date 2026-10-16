@@ -1,16 +1,16 @@
-# Push Notifications: To Create a Built-In Query Definition {#_d903e5af-1446-4b74-b492-087e8110cdf0 .task}
+# Push Notifications: To Create a Built-In Query Definition
 
 The following activity shows you how to create a built-in query definition for push notifications.
 
-## Story { .section}
+## Story
 
 Suppose that you need to configure Acumatica ERP to send push notifications for a query that is defined as a class in the source code of the application—that is, for a built-in definition of the query.
 
-## Process Overview { .section}
+## Process Overview
 
 In a project of your Acumatica ERP extension library, you will define a class that implements the [PX.PushNotifications.Sources.IInCodeNotificationDefinition](https://help.acumatica.com/(W(3))/Help?ScreenId=ShowWiki&pageid=22811f24-a3de-8b1c-0160-e59a96540465) interface. You will then build the project of your Acumatica ERP extension library and test the built-in query definition.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -20,7 +20,7 @@ Before you begin performing the steps of this activity, do the following:
 
 **Tip:** You can find the final code of this activity in the [TestInCodeDefinition.cs](https://github.com/Acumatica/Help-and-Training-Examples/tree/HEAD/IntegrationDevelopment/Help/ConfiguringPushNotifications/BuildInQueryDefinition/TestInCodeDefinition.cs) file in the Help-and-Training-Examples repository on GitHub.
 
-## Step 1: Creating a Built-In Query Definition { .section}
+## Step 1: Creating a Built-In Query Definition
 
 To create a built-in query definition, do the following:
 
@@ -99,7 +99,7 @@ To create a built-in query definition, do the following:
 
 4.  Build the project of your Acumatica ERP extension library.
 
-## Step 2: Testing the Built-In Query Definition { .section}
+## Step 2: Testing the Built-In Query Definition
 
 On the **Built-In Definitions** tab of the [Push Notifications](../UserGuide/SM_30_20_00.md#) \(SM302000\) form, create a push notification definition and make sure that you can select the new built-in query definition by its class name in the **Class Name** column. The class of the built-in query definition, which implements the IInCodeNotificationDefinition interface, is detected by the system and automatically added to the list of classes available for selection on the tab.
 

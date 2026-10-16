@@ -1,4 +1,4 @@
-# Volume Vendor Discounts {#_9584e89f-3a3e-4606-9956-4085abec426e .concept}
+# Volume Vendor Discounts
 
 Sometimes companies use complicated discounting strategies. For example, these strategies may imply that certain discounts can be applied based on the quantity of the item in a document line, a line amount or a document amount. Acumatica ERP allows configuring discounts the sizes of which depend on the quantities or amounts.
 

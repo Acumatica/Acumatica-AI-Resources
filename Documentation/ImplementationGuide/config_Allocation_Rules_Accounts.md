@@ -1,8 +1,8 @@
-# Allocation Rules: Examples of Using Account and Subaccount Masks for Allocations {#_8b54f2dd-8925-4fd8-a2ba-f938a2402352 .concept}
+# Allocation Rules: Examples of Using Account and Subaccount Masks for Allocations
 
 When you create an allocation rule on the [Allocations](../UserGuide/GL_20_45_00.md) \(GL204500\) form, you need to specify the source accounts \(and subaccounts, if applicable\) from which amounts will be distributed, and the destination accounts \(and subaccounts\) to which amounts will be distributed. To select the source accounts and subaccounts by groups, you can use grouping masks.
 
-## Examples of Allocation Masks { .section}
+## Examples of Allocation Masks
 
 Suppose that all the accounts have five-character identifiers, and all the marketing expense accounts start with *51*. By entering `(51___)` in the **Account** column, you can select the accounts *51001*, *51022*, *51135*, and so on.
 

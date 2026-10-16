@@ -1,4 +1,4 @@
-# Vendor {#_0469b6dd-5f6d-4813-afc3-2c42dbb9cacf .concept}
+# Vendor
 
 This chapter presents code examples showing requests that use the `Vendor` entity.
 

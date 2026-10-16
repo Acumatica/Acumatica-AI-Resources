@@ -1,10 +1,10 @@
-# Sales Invoice for Discounted Orders: To Add Discounted Sales Orders to a Sales Invoice {#_66091363-d6da-43bf-a6ad-71410c2f23f2 .task}
+# Sales Invoice for Discounted Orders: To Add Discounted Sales Orders to a Sales Invoice
 
 In this activity, you will configure two automatic document discounts. You will then explore how these discounts are applied to sales orders and learn how the system applies discounts to sales invoices that are prepared based on sales orders with different document discounts. Also, you will learn how to update the discount amount.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that to facilitate sales in 2026, the SweetLife Fruits &amp; Jams company has decided to introduce discounts for some customers. For FourStar Coffee &amp; Sweets Shop \(*COFFEESHOP*\), $70 discount should be applied to sales orders when the total amount of all lines is $200 or more. For local customers, SweetLife is offering a 20% discount for sales orders when the total amount of all lines is $400 or more.
 
@@ -17,7 +17,7 @@ You also need to create two sales orders for the FourStar Coffee &amp; Sweets Sh
 
 Further suppose that before you have processed the sales orders, the sales manager has informed you that the discount percent for the second order changed to 25%. You need to update the discount percent in the second sales order and issue one invoice for both sales orders.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -26,7 +26,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customer Price Classes](AR_20_80_00.md) \(AR208000\) form, the *LOCAL* customer price class has been created.
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *COFFEESHOP* customer has been created and assigned to the *LOCAL* customer price class.
 
-## Process Overview { .section}
+## Process Overview
 
 You will add discount codes on the [Discount Codes](AR_20_90_00.md) \(AR209000\) form, and then configure automatic document discounts on the [Discounts](AR_20_95_00.md) \(AR209500\) form. You will create sales orders for a particular customer on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, to which discounts can be applied.
 
@@ -36,7 +36,7 @@ To complete the processing of the sales orders, you will create and confirm a sh
 
 Finally, you will deactivate the discounts.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -44,7 +44,7 @@ To prepare the system, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026*. For simplicity, in this lesson, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu button to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Configuring the $70 Automatic Document Discount { .section}
+## Step 1: Configuring the $70 Automatic Document Discount
 
 You will configure the $70 automatic document discount to be applicable to only specific customers \(at this time, only the FourStar Coffee &amp; Sweets Shop\). Do the following:
 
@@ -87,7 +87,7 @@ You will configure the $70 automatic document discount to be applicable to only 
     On the **Discount Breakpoints** tab, notice that the system has cleared the **Pending Date** column and the **Effective Date** column now contains 1/30/2026.
 
 
-## Step 2: Configuring the 20% Automatic Document Discount { .section}
+## Step 2: Configuring the 20% Automatic Document Discount
 
 To configure the 20% automatic document discount for local customers, do the following:
 
@@ -127,7 +127,7 @@ To configure the 20% automatic document discount for local customers, do the fol
 9.  On the form toolbar, click **Update Discounts** to make the discount you have just added effective.
 10. In the **Update Discounts** dialog box, which opens, leave *1/30/2026* in the **Filter Date** box, and click **OK**.
 
-## Step 3: Creating Sales Orders and Exploring Discount Application { .section}
+## Step 3: Creating Sales Orders and Exploring Discount Application
 
 To create two sales orders for the *COFFEESHOP* customer and observe how discounts are applied, do the following:
 
@@ -167,7 +167,7 @@ To create two sales orders for the *COFFEESHOP* customer and observe how discoun
 
 9.  On the form toolbar, click **Save** to save the sales order.
 
-## Step 4: Updating the Discount Percent in a Sales Order { .section}
+## Step 4: Updating the Discount Percent in a Sales Order
 
 To update the discount percent for the *DOC0200000* discount code in the sales order, do the following:
 
@@ -188,11 +188,10 @@ To update the discount percent for the *DOC0200000* discount code in the sales o
 
     On the **Discounts** tab, notice that the amount in the **Discount Percent** column has been updated to reflect the new value of 25%.
 
-    ![](Images/activity_Prices_Updated_Discount_Discounts_Tab_Sales_Orders_Form.png "Updated discount on the Discounts tab of the Sales Orders form")
 
 9.  On the form toolbar, click **Save** to save the sales order.
 
-## Step 5: Preparing a Sales Invoice for Both Sales Orders { .section}
+## Step 5: Preparing a Sales Invoice for Both Sales Orders
 
 To prepare a sales invoice for both sales orders, do the following:
 
@@ -202,7 +201,6 @@ To prepare a sales invoice for both sales orders, do the following:
 4.  On the **Details** tab, click **Add Order** on the table toolbar.
 5.  In the Summary area of the **Add Sales Order** dialog box, which opens, open the lookup table for the **Order Nbr.** box, and select the sales order in the amount of $148.07 \(see the following screenshot\). You created this order in Step 3.
 
-    ![](Images/activity_Prices_Added_Sales_Order_for_Shipment.png "The added sales order for the shipment")
 
 6.  In the table of the dialog box, select the unlabeled check box for the sales order line with the *APJAM08* item and click **Add &amp; Close**.
 7.  On the form toolbar, click **Save**.
@@ -216,13 +214,12 @@ To prepare a sales invoice for both sales orders, do the following:
 
     As the following screenshot shows, the table contains two lines, one with the *DOC0100000* automatic document discount in the amount of $70, and the other with the *DOC0200000* automatic document discount by percent \(25%\) in the amount of $103.75.
 
-    ![](Images/activity_Prices_To_Explore_Discount_Application_to_SOs.png "Sales invoices with applied automatic document discounts")
 
     **Tip:** The amounts may be different from the ones in this step if some lessons in this course were skipped or the sales prices of stock items listed in the *Configuration Overview* section have not been defined in the system.
 
 12. On the form toolbar, click **Release** to release the invoice and complete the processing of sales order.
 
-## Step 6: Making the Created Discounts Inactive { .section}
+## Step 6: Making the Created Discounts Inactive
 
 1.  Open the [Discounts](AR_20_95_00.md) \(AR209500\) form.
 2.  In the Summary area, specify the following settings:

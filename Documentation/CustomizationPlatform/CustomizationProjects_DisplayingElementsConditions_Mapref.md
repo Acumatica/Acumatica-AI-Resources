@@ -1,4 +1,4 @@
-# Defining Conditional Properties {#_4fc25cd0-eb53-4578-b510-76a10ccab030 .concept}
+# Defining Conditional Properties
 
 In this chapter, you will learn how to define the properties of fields and actions on a form to depend on whether the conditions that you specify are met.
 

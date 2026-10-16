@@ -1,10 +1,10 @@
-# Printers: General Information {#_15d9329e-b2a3-4f12-b636-3e6b5a880df5 .concept}
+# Printers: General Information
 
 If the DeviceHub application is installed and configured, a system administrator can add various printers to DeviceHub. They can also specify the default printers that Acumatica ERP will use when it selects the appropriate printer for printing a particular document. \(See [Printers: Specification of Default Printers](DeviceHub_Configuration_of_Default_Printers.md) for more information about the specification of various default printers.\) Additionally, they can configure the access to printers, further described in [Printers: Configuration of Printer Access](DeviceHub_Configuration_of_Printer_Access.md).
 
 This topic describes the ways the administrator can monitor and manage printers and print jobs once the configuration has been completed, as well as the workflow of printing with DeviceHub.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,7 +12,7 @@ In this chapter, you will learn how to do the following:
 -   Update the list of printers in Acumatica ERP
 -   Print a document via DeviceHub
 
-## Implementation Workflow { .section}
+## Implementation Workflow
 
 To implement the ability to print documents with DeviceHub in Acumatica ERP, you perform the following general steps, as described in [Printers: To Add a Printer to DeviceHub](DeviceHub_To_Add_Printers_to_DeviceHub_Implem_Activity.md):
 
@@ -20,7 +20,7 @@ To implement the ability to print documents with DeviceHub in Acumatica ERP, you
 2.  In Acumatica ERP, you update the list of printers.
 3.  Optional: In Acumatica ERP, you specify the default printers that will be used for printing documents.
 
-## Workflow of Printing with DeviceHub { .section}
+## Workflow of Printing with DeviceHub
 
 Once the DeviceHub and printer configuration has been completed, a user can use one of the following Acumatica ERP forms to print a document with DeviceHub:
 
@@ -45,7 +45,7 @@ Once the DeviceHub and printer configuration has been completed, a user can use 
     -   **Print Shipment Labels Automatically**
     -   **Print Commercial Invoices Automatically**
 
-## Printers and Print Jobs in Acumatica ERP { .section}
+## Printers and Print Jobs in Acumatica ERP
 
 To monitor printers and print jobs in the Acumatica ERP instance, you must sign in with the username that is specified in DeviceHub.
 
@@ -55,7 +55,7 @@ To view the list of print jobs for DeviceHub, you use the [Print Jobs](../UserGu
 
 In the **Status** column on the [Print Jobs](../UserGuide/SM_20_65_00.md) form, you can view the current status of the job. To view the processed jobs as well as those that have not yet been processed, you clear the **Hide Processed** check box in the Selection area.
 
-## Print Queue Management { .section}
+## Print Queue Management
 
 You can use the [Manage Print Queue](../UserGuide/SM_20_65_01.md) \(SM206501\) form to manage DeviceHub print jobs. On this form, you select an option in the **Action** box. You can select one of the following options:
 
@@ -67,7 +67,7 @@ Next, you select the unlabeled check box in the row of each print job you want t
 
 You can create an automation schedule to delete print jobs. This operation will help you reduce the amount of unnecessary data in the application database and increase the operational efficiency of printing via DeviceHub. For more information about automation schedules, see [Automated Processing: General Information](../UserGuide/SA_Scheduling_Automated_Processing_GeneralInfo.md).
 
-## Printing Carrier Labels { .section}
+## Printing Carrier Labels
 
 Through the use of DeviceHub, a user can print carrier labels by using a specialized label printer, such as a ZPL printer. A carrier label is a shipping label that provides information about the requested delivery. In Acumatica ERP, you obtain the labels when you confirm a shipment with a ship-via code for an external carrier service. When the service returns files with the generated labels, the system attaches them to the lines with packages specified for the shipment on the **Packages** tab of the [Shipments](../UserGuide/SO_30_20_00.md) \(SO302000\) form.
 

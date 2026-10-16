@@ -1,12 +1,12 @@
-# Using Attributes with Lot and Serial Numbers in Service Documents {#_49d3a33b-a51a-4b8a-be32-ad4213c7be71 .concept}
+# Using Attributes with Lot and Serial Numbers in Service Documents
 
 In Acumatica ERP, you can assign attributes—such as color, model, or manufacturer—to individual units of lot- or serial-tracked items. These attributes are defined at the lot or serial class level and provide detailed information about each unit. Attribute values are typically recorded when finished goods are received into inventory, so that items with specific lot or serial attributes can later be added to service documents.
 
-## Enabling the Feature {#section_n2w_2z3_jgc .section}
+## Enabling the Feature
 
 To use the functionality, make sure the *Lot/Serial Attributes* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. You can enable this feature if the *Lot and Serial Tracking* feature is also enabled.
 
-## Defining Attributes for Lot and Serial Classes {#section_kj4_kyp_jgc .section}
+## Defining Attributes for Lot and Serial Classes
 
 To start using attributes, first create them on the [Attributes](CS_20_50_00.md) \(CS205000\) form—or verify that they already exist. Once that's done, add the attributes to a lot or serial class on the [Lot/Serial Classes](IN_20_70_00.md) \(IN207000\) form. You can add or delete attributes in the **Attributes** section if the class has the following settings:
 
@@ -19,7 +19,7 @@ To make attribute values available for selection in service documents, you must 
 
 For details on how to set up and work with lot and serial attributes, see [Items with Lot and Serial Numbers: Lot and Serial Attributes](Lot_and_Serial_Numbers_Lot_Serial_Attributes.md).
 
-## Selecting Lot- or Serial-Tracked Items with Attributes in Service Documents {#section_u4l_r4j_jgc .section}
+## Selecting Lot- or Serial-Tracked Items with Attributes in Service Documents
 
 You can select a unit of a stock item with a lot or serial number and a specific attribute in the following documents:
 
@@ -28,7 +28,6 @@ You can select a unit of a stock item with a lot or serial number and a specific
 
 To assign a lot or serial number with an attribute to a stock item, click **Add Lot/Serial Nbr.** on the table toolbar of the **Details** tab. In the **Add Lot/Serial Nbr.** dialog box that opens, you can check the item availability and select units. The table in this dialog box displays columns with the attribute values for each unit associated with a particular lot or serial number \(see below\). Use the **Search** box to find units by entering text strings that match attribute values or other item information shown in the table.
 
-![](Images/ServMgmt_Lot_Serial_Items_with_Attributes.png "Serial-tracked items with a particular attribute value")
 
 When you add a unit with a lot or serial number to a service document, the system creates a separate line for each unit on the **Details** tab.
 

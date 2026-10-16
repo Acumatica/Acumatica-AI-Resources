@@ -1,8 +1,8 @@
-# AP Prepayment Invoices: Paying a Prepayment Invoice {#_c335c84d-ed3e-4f26-8cf7-6029e6dee9a5 .concept}
+# AP Prepayment Invoices: Paying a Prepayment Invoice
 
 In this topic, you will learn how to pay a released prepayment invoice in full or partially, how the system processes the payment, and how the payment affects document statuses, vendor balances, and generated general ledger and VAT transactions.
 
-## Processing a Prepayment Invoice Payment {#section_wlp_jym_whc .section}
+## Processing a Prepayment Invoice Payment
 
 Once the prepayment invoice has been released, you can pay it. On the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you click **Pay** on the form toolbar. The system opens the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form with the prepayment invoice added on the **Documents to Apply** tab. You can now pay the prepayment invoice fully or partially.
 

@@ -1,8 +1,8 @@
-# Using Attributes in Manufacturing {#_e47c1d4e-e382-49c1-8dfb-d578cc75b3df .concept}
+# Using Attributes in Manufacturing
 
 Attributes created on the [Attributes](CS_20_50_00.md) \(CS205000\) form are used for multiple purposes in Acumatica ERP. In many cases they eliminate for customizing forms and when attached to a record, for example, a stock item record, they are automatically available for use in inquiries. You can use attributes in manufacturing forms as well.
 
-## Using Attributes in Bills of Material and Production Orders { .section}
+## Using Attributes in Bills of Material and Production Orders
 
 Attributes can be attached to bills of material header and/or operations and are copied onto the production order when the order is created. Attributes can be specified for each production order type on the [Production Order Types](AM_20_11_00.md) \(AM201100\) form. Attributes can also be added to a production order manually by using the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form.
 
@@ -10,7 +10,7 @@ Attributes created at the BOM level become order level attributes for the produc
 
 A user can enter attribute values for a production order and operation when creating a labor transaction on the [Labor](AM_30_10_00.md) \(AM301000\) form or a move transaction on the [Move](AM_30_20_00.md) \(AM302000\) form. If an attribute is marked as *Transaction Required*, it must be entered. The attribute values entered in these transaction are specific to the transaction.
 
-## Using Attributes in Product Configurator { .section}
+## Using Attributes in Product Configurator
 
 Attributes have the following purposes in the product configurator:
 

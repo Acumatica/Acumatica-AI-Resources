@@ -1,8 +1,8 @@
-# Compliance Documents: Implementation Checklist {#_efa5155f-1af6-4602-8e49-668e75dabab5 .concept}
+# Compliance Documents: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for tracking compliance, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you initially enter compliance documents, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 

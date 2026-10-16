@@ -1,8 +1,8 @@
-# To Link a Bill Line to a Purchase Receipt Line {#_ac1bee25-b425-4757-82ac-4b9f36405845 .task}
+# To Link a Bill Line to a Purchase Receipt Line
 
 In Acumatica ERP, you can link the lines of an existing bill \(for example, one that has been imported from a third-party software product\) to the lines of the corresponding purchase receipt. To link the lines of a bill to the lines of a purchase receipt, you use the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 
-## To Link a Line of an Accounts Payable Bill to a Line of a Purchase Receipt { .section}
+## To Link a Line of an Accounts Payable Bill to a Line of a Purchase Receipt
 
 1.  Open the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 2.  In the Summary area, select *Bill* in the **Type** box, and select the reference number of the needed bill in the **Reference Nbr.** box.
@@ -16,7 +16,7 @@ In Acumatica ERP, you can link the lines of an existing bill \(for example, one 
 7.  Click **Save** to link the lines and close the dialog box.
 8.  On the form toolbar, click **Save**.
 
-## Notes About the Procedure { .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

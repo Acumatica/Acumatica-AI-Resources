@@ -1,4 +1,4 @@
-# Types of Fixed Asset Transactions {#_e41ba2d8-6efd-412b-8f71-99f51b400873 .concept}
+# Types of Fixed Asset Transactions
 
 When users perform actions involving fixed assets, the system automatically creates fixed asset transactions, which you can view on the [Fixed Asset Transactions](FA_30_10_00.md) \(FA301000\) form. \(All of these transactions are recorded in the base currency.\) You can also use this form to manually create fixed asset transactions and to view the asset's transaction history.
 
@@ -20,7 +20,7 @@ The types of fixed asset transactions are shown in the **Transaction Type** colu
 
 **Tip:** In each of chapter of this guide about user actions that cause fixed asset transactions to be produced, you can refer to the *Generated Transactions* topic, which describes the specific transactions that are generated.
 
-## *Purchasing+* {#section_sqb_ljv_vxb .section}
+## *Purchasing+*
 
 A transaction of the *Purchasing+* type is created when a new asset has been acquired. Through this transaction, the cost of the asset is transferred from the Fixed Asset Accrual account to the Fixed Assets account. The system generates the following fixed asset transaction.
 
@@ -33,7 +33,7 @@ The system generates a *Purchasing+* transaction when a user creates an asset in
 
 A user can also create a *Purchasing+* transaction manually on the [Fixed Asset Transactions](FA_30_10_00.md) \(FA301000\) form to adjust the cost for a fixed asset in a particular book.
 
-## *Purchasing–* {#section_wqb_ljv_vxb .section}
+## *Purchasing–*
 
 A transaction of this type is created automatically when a user reverses the acquisition of a fixed asset or decreases the net book value of a fixed asset.
 
@@ -46,7 +46,7 @@ Through this transaction, the cost of the asset is transferred from the Fixed As
 
 If a user reverses a fixed asset, the corresponding purchase becomes available to be converted to a fixed asset again on the [Convert Purchases to Assets](FA_50_45_00.md) \(FA504500\) form.
 
-## *Reconciliation+* {#section_arb_ljv_vxb .section}
+## *Reconciliation+*
 
 The system generates a *Reconciliation+* transaction automatically when a user converts a fixed asset from a purchase, increases the net book value of a fixed asset by making an addition, or enters a fixed asset in initialization mode.
 
@@ -59,7 +59,7 @@ Through this transaction, the cost of the fixed asset is reconciled with the app
 
 The *Reconciliation+* transaction debits the Fixed Assets Accrual account and credits the account that has been debited by the purchase of the corresponding item.
 
-## *Reconciliation–* {#section_drb_ljv_vxb .section}
+## *Reconciliation–*
 
 The system generates a *Reconciliation–* transaction automatically when a user decreases the net book value of an asset by making a deduction. The system generates the following fixed asset transaction.
 
@@ -70,7 +70,7 @@ The system generates a *Reconciliation–* transaction automatically when a user
 
 The *Reconciliation–* transaction credits the Fixed Assets Accrual account and debits the account that has been credited by the GL entry that corresponds to the asset's cost deduction.
 
-## *Calculated+* {#section_frb_ljv_vxb .section}
+## *Calculated+*
 
 This system-generated transaction occurs automatically when a user calculates depreciation for an asset or makes an addition to a fully depreciated asset. This transaction exists only temporarily: When the transaction is released, the *Calculated+* transaction type is changed to the *Depreciation+* type.
 
@@ -79,7 +79,7 @@ The system generates a *Calculated+* transaction in the following cases:
 -   On the [Calculate Depreciation](FA_50_20_00.md) \(FA502000\) form, a user runs the depreciation process \(that is, the user selects *Depreciate* in the **Action** box and clicks **Process** or **Process All**\) for a fixed asset.
 -   On the [Convert Purchases to Assets](FA_50_45_00.md) \(FA504500\) or [Fixed Assets](FA_30_30_00.md) \(FA303000\) form, a user makes an addition to an asset that has been fully depreciated. Before the transaction is released, the system creates a *Calculated+* transaction so that the net value of the asset will not change after the transaction is released.
 
-## *Calculated–* {#section_hrb_ljv_vxb .section}
+## *Calculated–*
 
 This system-generated transaction occurs automatically when the user disposes of an asset or makes a deduction from a fully depreciated asset. This transaction exists only temporarily: When the transaction is released, the *Calculated–* transaction type is changed to the *Depreciation–* type.
 
@@ -88,7 +88,7 @@ The system generates a *Calculated–* transaction in the following cases:
 -   A user disposes of an asset that must be depreciated in the disposal period. That is, the **Depreciate in Disposal Period** check box is selected on the [Fixed Assets Preferences](FA_10_10_00.md) \(FA101000\) form, and the depreciation amount is negative.
 -   A user makes a deduction from an asset that has been fully depreciated. Before the transaction is released, the system creates a *Calculated–* transaction so that the net value of the asset will not change after the transaction is released.
 
-## *Depreciation+* {#section_jrb_ljv_vxb .section}
+## *Depreciation+*
 
 This transaction type is used to record the depreciation incurred during the financial period. The system generates the following fixed asset transaction.
 
@@ -107,7 +107,7 @@ You depreciate an asset on the [Calculate Depreciation](FA_50_20_00.md) \(FA5020
 
 You can then create an adjusting *Depreciation+* transaction on the [Fixed Asset Transactions](FA_30_10_00.md) form.
 
-## *Depreciation–* {#section_nrb_ljv_vxb .section}
+## *Depreciation–*
 
 This transaction type indicates that the accumulated depreciation amount was decreased on the Accumulated Depreciation account—for example, as a result of the reversal of the asset. The system generates the following fixed asset transaction.
 
@@ -116,7 +116,7 @@ This transaction type indicates that the accumulated depreciation amount was dec
 |Accumulated Depreciation account|Amount|0.00|
 |Depreciation Expense account|0.00|Amount|
 
-## *Depreciation Adjusting+* {#section_prb_ljv_vxb .section}
+## *Depreciation Adjusting+*
 
 Transactions of this type are generated when the system updates the balance of the Accumulated Depreciation account, for example when the system adjusts the accumulated depreciation amount of an asset in some operations, such as split or reverse disposal of the asset. For example, the system generates this transaction when a user splits a fixed asset with depreciation to transfer a part of the accumulated depreciation to a newly created fixed asset.
 
@@ -134,7 +134,7 @@ When a user reverses the disposal of an asset, the system generates the *Depreci
 |Gain account or Loss account|Amount|0.00|
 |Accumulated Depreciation account|0.00|Amount|
 
-## *Depreciation Adjusting–* {#section_trb_ljv_vxb .section}
+## *Depreciation Adjusting–*
 
 Transactions of this type are generated when the system adjusts the accumulated depreciation amount of an asset in some operations, such as the split or disposal of the asset. For example, the system generates this transaction when you split a fixed asset with depreciation to decrease the accumulated depreciation for this asset by the amount that is transferred to a newly created fixed asset.
 
@@ -150,7 +150,7 @@ When a user disposes of an asset, the system generates the following fixed asset
 |Accumulated Depreciation account|Amount|0.00|
 |Gain account or Loss account|0.00|Amount|
 
-## *Purchasing Disposal* and *Sale/Dispose+* {#section_wrb_ljv_vxb .section}
+## *Purchasing Disposal* and *Sale/Dispose+*
 
 Through these transactions, the system records the proceeds from the sale or disposal of the asset.
 
@@ -170,7 +170,7 @@ The system generates a transaction of the *Sale/Dispose+* type to record the pro
 |Proceeds account|Amount|0.00|
 |Gain account or Loss account|0.00|Amount|
 
-## *Purchase Reversal* and *Sale/Dispose–* {#section_bsb_ljv_vxb .section}
+## *Purchase Reversal* and *Sale/Dispose–*
 
 The system generates a *Purchase Reversal* transaction to record the reverse of the asset disposal. The *Purchasing Reversal* transaction transfers the asset cost from the expense account to which it was previously recorded by the *Purchasing Disposal* transaction to the Fixed Assets account to record the reversal of the cost disposal. The system generates the following fixed asset transaction.
 
@@ -186,7 +186,7 @@ The system generates a *Sale/Dispose–* transaction to record the reverse of th
 |Gain account or Loss account|Amount|0.00|
 |Proceeds account|0.00|Amount|
 
-## *Transfer Purchasing* {#section_esb_ljv_vxb .section}
+## *Transfer Purchasing*
 
 This transaction type, which is generated for a newly acquired asset that has not yet been depreciated, indicates that the location, custodian, or department of the asset has been changed. The system generates a transaction of this type when a user transfers the fixed asset to another branch, account, or subaccount, if subaccounts are used in the system. If a user changes the subaccount of a fixed asset, the system generates the following fixed asset transaction.
 
@@ -195,7 +195,7 @@ This transaction type, which is generated for a newly acquired asset that has no
 |Fixed Assets account, destination subaccount|Amount|0.00|
 |Fixed Assets or FA Accrual account, original subaccount|0.00|Amount|
 
-## *Transfer Depreciation* {#section_gsb_ljv_vxb .section}
+## *Transfer Depreciation*
 
 This transaction type, which is generated for an asset that has been depreciated, indicates that the location, custodian, or department of the asset has been changed. The system generates a transaction of this type when a user transfers the accumulated depreciation of a fixed asset to another branch, account, or subaccount, if subaccounts are used in the system. If a user changes the subaccount of a fixed asset, the system generates the following fixed asset transaction.
 

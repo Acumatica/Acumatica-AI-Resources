@@ -1,10 +1,10 @@
-# Connector Implementation: API Client {#_7f05d184-fe9d-4003-aa67-67e8eb90703f .concept}
+# Connector Implementation: API Client
 
 You need to implement an API client of the external system. The built-in connectors in Acumatica ERP use REST API clients or GraphQL clients. The details of the implementation of an API client depend on the external system. In this topic, you can find descriptions of particular approaches that can be used for implementation.
 
 **Attention:** The external system determines which classes you need to implement and how the connector communicates with the external system.
 
-## Processing of API Rate Limits {#_03aa9cfe-a9bb-4e9b-a17c-044aab872cf0 .section}
+## Processing of API Rate Limits
 
 You can implement the following approach for handling the *429 Too Many Requests* response code: If this response code is received, the connector checks the headers of the response to find the recommended delay for the request, and retries the request after this delay.
 
@@ -14,7 +14,7 @@ The following code shows a sample fragment of a REST API client implementation.
 
 **Tip:** You can see this code on [GitHub](https://github.com/Acumatica/Help-and-Training-Examples/blob/HEAD/PlugInDevelopment/Help/ImplementingConnector/WooCommerceTest/External/WooRestClientBase.cs).
 
-```language-csharp
+```csharp
 ﻿using PX.Commerce.BigCommerce;
 using PX.Commerce.Core;
 using PX.Data;

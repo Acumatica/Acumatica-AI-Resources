@@ -1,4 +1,4 @@
-# Preparing the System for Manufacturing Implementation {#_652f8d4c-6f7e-4cc1-b726-f2dfd5c01f55 .concept}
+# Preparing the System for Manufacturing Implementation
 
 Before you start implementing the manufacturing functionality in Acumatica ERP, you need to prepare the system, such as making sure that the required features have been enabled and creating the entities that will be used in manufacturing processes, as described in this chapter.
 

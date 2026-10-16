@@ -1,26 +1,26 @@
-# DAC Discovery: To Inspect UI Elements {#_b0d356c9-b08a-4540-b38a-60cb8aa80735 .task}
+# DAC Discovery: To Inspect UI Elements
 
 The following activity will walk you through the process of inspecting the user interface elements on Acumatica ERP forms to find the data access classes \(DACs\) and data fields related to these elements.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist in your company who is working on simple customizations. A sales representative has requested that you create a generic inquiry that lists sales orders. The inquiry should include the following data for each listed sales order: the sales order number, the order type, the status, the date, and the customer name.
 
 To get started in this effort, you need to inspect the relevant user interface elements on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form and the [Customers](AR_30_30_00.md) \(AR303000\) form—the data entry forms on which sales orders and customers are created—in order to figure out which data access classes and data fields are related to them. \(In this activity, you will only inspect the UI elements. You will not develop the generic inquiry.\)
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will inspect the relevant user interface elements of the entry forms whose data will be used in the generic inquiry. To do this, for each relevant element on the form, you will invoke the **Element Properties** dialog box, which displays the data access class and data field you will need when you develop the generic inquiry.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to a tenant with the *U100* dataset preloaded as system administrator Kimberly Gibbs. You should sign in by using the *gibbs* username and the *123* password.
 
 **Tip:** The *gibbs* user is assigned the *Administrator* role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards.
 
-## Step: Inspecting the UI Elements { .section}
+## Step: Inspecting the UI Elements
 
 To inspect the UI elements, do the following:
 

@@ -1,8 +1,8 @@
-# To Set Up Integration with USPS via Stamps.com {#_b69938b2-9680-46e1-992f-3582b6023eea .task}
+# To Set Up Integration with USPS via Stamps.com
 
 Before you configure integration with USPS by using the Stamps.com plug-in, your organization should have an account and a signed service agreement with Stamps.com. The settings for the plug-in are specified in accordance with the information available in the agreement. To configure integration between Acumatica ERP and USPS, you use the [Carriers](CS_20_77_00.md) \(CS207700\) form.
 
-## To Set Up Integration with USPS via Stamps.com { .section}
+## To Set Up Integration with USPS via Stamps.com
 
 1.  Open the [Carriers](CS_20_77_00.md) \(CS207700\) form.
 2.  In the **Carrier ID** box, type the unique identifier for the carrier to be integrated.

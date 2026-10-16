@@ -1,10 +1,10 @@
-# Processing of Transfers: General Information {#_ea6a637d-9322-4a35-ab70-583c1d633a62 .concept}
+# Processing of Transfers: General Information
 
 If the *Inventory Operations* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can perform the automated transfer of inventory items between locations of the same warehouse or between locations of different warehouses that are assigned to the same building by using a barcode scanner or a mobile device with a scanning option.
 
 In this topic, you will read about the workflow for the automated transfer of inventory items in Acumatica ERP. The workflow in this topic is based on the assumption that your system has the recommended configuration described in [Processing of Transfers: Implementation Checklist](WMS_Scan_and_Transfer_Implem_Checklist.md).
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -12,15 +12,14 @@ In this chapter, you will do the following:
 -   Learn the recommended settings that you can specify to make the system fit your business requirements
 -   Process a single-step transfer of items between locations of the same warehouse in automated mode
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 You process single-step transfers when you need to move items from one location to another location within the same warehouse or between locations of different warehouses that are assigned to the same building by using a barcode scanner or a mobile device with a scanning option and to track this movement in the system.
 
-## Workflow for the Automated Scanning and Transferring of Items { .section}
+## Workflow for the Automated Scanning and Transferring of Items
 
 The automated processing of transferring inventory items involves the steps shown in the following diagram.
 
-![](Images/diag_WMS_Scan_Transfer.png)
 
 To transfer items \(and use Scan and Transfer mode\), you perform the following steps:
 

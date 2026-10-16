@@ -1,16 +1,16 @@
-# Purchases for Sale: Process Activity {#_fc5ba486-ca86-407b-bab6-095eee72878d .task}
+# Purchases for Sale: Process Activity
 
 In this activity, you will learn how to process a purchase of items that are not in stock for a particular sales order, and how to process the sales order to completion after receipt of the items that were purchased for sale.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the GoodFood One Restaurant customer has ordered tropical fruits \(15 pounds of papayas and 10 pounds of lychees\) on SweetLife's website. SweetLife's warehouses do not have the appropriate conditions for keeping delicate tropical fruits; also, these fruits are ordered rarely and in small quantities. To provide fresh and high-quality fruits to the customers, the sales manager purchases these tropical fruits on demand from the All Fruits Mall company, and once the fruits are delivered to the retail warehouse of the SweetLife store, they are immediately shipped to the customer that ordered them.
 
 Acting as sales manager Regina Wiley, you need to process the sales order and the related purchase order in the system.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -22,7 +22,7 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *ALLFRUITS \(All Fruits Mall\)* vendor has been created.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *PAPAYAS \(Fresh papayas 1 lb\)* and *LYCHEES \(Fresh lychees 1 lb\)* stock items have been created. For each item, the *ALLFRUITS* vendor has been added on the **Vendors** tab.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, to process a sales order that includes stock items that must be purchased for sale, you will first create a sales order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form and add all of the stock items that were ordered by the customer. Because the items are not in stock, you will mark them for purchasing in the sales order; to ship these lines, you have to receive the purchased items at the warehouse specified in the sales order lines.
 
@@ -30,7 +30,7 @@ When you mark items for purchasing, the system creates purchase requests of the 
 
 After all purchased items have been received to inventory, you will process the sales order to completion. That is, you will ship the items to the customer and prepare the invoice for the customer.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start processing a sales order that includes stock items that must be purchased for sale, you should do the following:
 
@@ -38,7 +38,7 @@ Before you start processing a sales order that includes stock items that must be
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to today’s date. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu in the top pane of the Acumatica ERP screen, select the *SweetLife Store* branch.
 
-## Step 1: Creating a Sales Order { .section}
+## Step 1: Creating a Sales Order
 
 To create the sales order for GoodFood One Restaurant, do the following:
 
@@ -57,7 +57,7 @@ To create the sales order for GoodFood One Restaurant, do the following:
 
 3.  On the form toolbar, click **Save**. The sales order is saved with the *Open* status.
 
-## Step 2: Marking the Stock Items to Be Purchased for Sale { .section}
+## Step 2: Marking the Stock Items to Be Purchased for Sale
 
 To mark the stock items for purchase in the sales order, do the following:
 
@@ -65,7 +65,7 @@ To mark the stock items for purchase in the sales order, do the following:
 2.  In the *LYCHEES* line, select the **Mark for PO** check box, and make sure that *Purchase to Order* is selected in the **PO Source** column.
 3.  On the form toolbar, click **Save**.
 
-## Step 3: Creating a Purchase Order That Is Linked to the Sales Order { .section}
+## Step 3: Creating a Purchase Order That Is Linked to the Sales Order
 
 To create a purchase order for the stock items that are marked for purchase, do the following:
 
@@ -86,7 +86,7 @@ To create a purchase order for the stock items that are marked for purchase, do 
     -   In the **Unit Cost** column of the *LYCHEES* line, specify `9`.
 9.  On the form toolbar, click **Remove Hold**.
 
-## Step 4: Processing the Purchase Order { .section}
+## Step 4: Processing the Purchase Order
 
 To process the purchase order to completion, do the following:
 
@@ -104,7 +104,7 @@ To process the purchase order to completion, do the following:
 
 Now the items are in stock in the *RETAIL* warehouse and can be shipped to the GoodFood One Restaurant customer.
 
-## Step 5: Processing the Sales Order to Completion { .section}
+## Step 5: Processing the Sales Order to Completion
 
 To process to completion the sales order that you have created in this activity, do the following:
 
@@ -126,7 +126,6 @@ To process to completion the sales order that you have created in this activity,
 16. On the form toolbar, click **Release** to release the invoice.
 17. Return to the [Sales Orders](SO_30_10_00.md) form with the *Website order \#00782 \(tropical fruits\)* sales order for the *GOODFOOD* customer open, and notice that it has the *Completed* status, as shown in the following screenshot.
 
-    ![](Images/activity_OrderMgmt_Purchase_for_Sale.png "Sales order processed to completion")
 
 
 **Parent topic:**[Processing Purchases for Sale](../UserGuide/OrderMgmt_Purchase_for_Sale_Mapref.md)

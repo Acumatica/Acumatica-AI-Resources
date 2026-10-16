@@ -1,16 +1,16 @@
-# Record Entry: To Create a New Record by Using a Lookup Table {#_845f8960-b4a7-4b45-90c5-4b135cfc59f5 .task}
+# Record Entry: To Create a New Record by Using a Lookup Table
 
 The following activity will walk you through the process of creating a new contact by using a lookup table.
 
 **Attention:** This activity is performed in the Modern UI based on the *U100* dataset. If you’re using the Classic UI, some features may not be available, which could affect processing. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are David Chubb, a sales manager at the SweetLife Fruits &amp; Jams company. You’ve received a phone call from your customer, Blue Cafe. Chris Rea, the manager at Blue Cafe, said that two out of six juicers they purchased some time ago have broken. Instead of repairing the juicers, they plan to buy two new ones. You’ve agreed to offer a 10% discount on new juicers. Chris also mentioned that Blue Cafe’s new technology manager, Alex Carter, will be the primary contact for this process.
 
 Acting as David Chubb, you need to create a case, add a contact record for Alex Carter, and create a new sales order for two juicers with the discount.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -20,11 +20,11 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Case Classes](CR_20_60_00.md) \(CR206000\) form, the *SUPPORT* case class, which defines cases related to issues with juicers, has been created.
 -   On the [Business Accounts](CR_30_30_00.md) \(CR303000\) form, the *BLUECAFE* business account has been created in the system and extended to be a customer.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you’ll create a case on the [Cases](CR_30_60_00.md) \(CR306000\) form and create a new contact by using the **Contact** lookup table in the Summary area of the [Cases](CR_30_60_00.md) form. Then you’ll create a new sales order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form. You will mistakenly apply a discount of 110% and review the warning message about it.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -34,7 +34,7 @@ Before you begin performing the steps of this activity, do the following:
     -   **Password**: *123*
 3.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Creating a Case { .section}
+## Step 1: Creating a Case
 
 To create a case for the request submitted by Chris Rea from Blue Cafe, do the following:
 
@@ -52,7 +52,7 @@ To create a case for the request submitted by Chris Rea from Blue Cafe, do the f
 3.  On the **Details** tab, in the text area, type `Need to pick up two juicers from Blue Cafe`.
 4.  On the form toolbar, click **Save**.
 
-## Step 2: Creating a Contact from the Case { .section}
+## Step 2: Creating a Contact from the Case
 
 To create a new contact from the case, do the following:
 
@@ -75,7 +75,7 @@ To create a new contact from the case, do the following:
 
 You have created a new contact for the customer on the fly while working on the case. You can add more information to the new contact by clicking the *Alex Carter* link in the **Contact** box. The system will open the [Contacts](CR_30_20_00.md) form in a pop-up window.
 
-## Step 3: Creating a Sales Order with a Discount Exceeding the Purchase Cost { .section}
+## Step 3: Creating a Sales Order with a Discount Exceeding the Purchase Cost
 
 To create a sales order and apply a discount that exceeds the total cost of the purchase \(to review the warning\), do the following:
 
@@ -96,7 +96,6 @@ To create a sales order and apply a discount that exceeds the total cost of the 
     5.  On the form toolbar, click **Save**.
     The system indicates a row with an issue by displaying a vertical yellow bar at the beginning of the row. Also, warning icons are shown next to the **Discount Amount** column and the name of the **Details** tab. The color of the tab has also changed to yellow. If you hover over any of the warning icons, a warning message will appear \(see below\).
 
-    ![](Images/GS_ModernUI_Warning_in_Table.png "The warning message on the row")
 
     **Tip:** If an error occurs, the error icons and the vertical bar at the beginning of the row will be red.
 
@@ -104,6 +103,4 @@ To create a sales order and apply a discount that exceeds the total cost of the 
 5.  On the form toolbar, click **Save**.
 
 The warning icons disappear.
-
-**Parent topic:**[Entering Records into the System](../UserGuide/GS_Working_With_Data_Entry_Forms_Mapref.md)
 

@@ -1,10 +1,10 @@
-# Import of Orders with Discounts: Process Activity {#_9995da67-5dda-4ca4-861a-4b7e8da94661 .task}
+# Import of Orders with Discounts: Process Activity
 
 The following activity will walk you through the process of importing orders that contain items with discounts.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife sales manager decided to offer discounts for some of the products that the company sells in its Shopify store. Starting from today, the company provides the following discounts:
 
@@ -14,11 +14,11 @@ Suppose that the SweetLife sales manager decided to offer discounts for some of 
 
 As SweetLife's implementation consultant, you need to create an order with discounts of multiple types, import it to Acumatica ERP, and then explore how the applied discounts are displayed in the imported order.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the *PLUMJAM96* and *BANJAM96* stock items have been created on the [Stock Items](IN_20_25_00.md) \(IN202500\) form.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -28,7 +28,7 @@ In this activity, you will do the following:
 4.  On the [Prepare Data](BC_50_10_00.md) \(BC501000\) form, prepare the sales order data for synchronization; on the [Process Data](BC_50_15_00.md) \(BC501500\) form, process the sales order data prepared for synchronization.
 5.  On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, review the imported sales order and applied discount.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you complete the instructions in this activity, do the following:
 
@@ -45,7 +45,7 @@ Before you complete the instructions in this activity, do the following:
 5.  On the form toolbar, click **Enable**.
 6.  Sign in to the admin area of the Shopify store as the store administrator in the same browser.
 
-## Step 1: Configuring Discount-Related Settings { .section}
+## Step 1: Configuring Discount-Related Settings
 
 To update the store settings for the import of online orders with discounts, in Acumatica ERP, do the following:
 
@@ -56,7 +56,7 @@ To update the store settings for the import of online orders with discounts, in 
 
 3.  On the form toolbar, click **Save**.
 
-## Step 2: Creating a Sales Order { .section}
+## Step 2: Creating a Sales Order
 
 To create an order for ten 96-ounce jars of plum jam and ten 96-ounce jars of banana jam, in the Shopify admin area, do the following:
 
@@ -107,7 +107,7 @@ To create an order for ten 96-ounce jars of plum jam and ten 96-ounce jars of ba
 
 You have created an order and applied two line-level discounts and one order-level discount to it. In the next step, you will import this order to Acumatica ERP.
 
-## Step 3: Importing the Sales Order { .section}
+## Step 3: Importing the Sales Order
 
 To import the sales order, in Acumatica ERP, do the following:
 
@@ -122,7 +122,7 @@ To import the sales order, in Acumatica ERP, do the following:
 7.  On the form toolbar, click **Process**.
 8.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 4: Reviewing the Discount in the Imported Sales Order { .section}
+## Step 4: Reviewing the Discount in the Imported Sales Order
 
 To review how the discount is displayed in the imported sales order, do the following:
 
@@ -137,7 +137,6 @@ To review how the discount is displayed in the imported sales order, do the foll
 
     On the **Discounts** tab, notice that a single row has been added, as shown in the following screenshot. The *External Document* type in the **Type** column reflects the fact that the discounts were imported from an external system. The values in the **Discount Amt.** and **Discount Percent** columns reflect the discounts applied in the Shopify store.
 
-    ![](Images/activity_Commerce_SP_Orders_with_Discounts_Activity.png "Imported sales order with discounts")
 
 5.  Close the pop-up window with the [Sales Orders](SO_30_10_00.md) form.
 

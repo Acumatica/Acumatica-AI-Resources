@@ -1,4 +1,4 @@
-# Custom Reports {#_b966829a-a21f-429e-b4fe-2b474dfef338 .concept}
+# Custom Reports
 
 You use the Custom Reports page of the [Customization Project Editor](../UserGuide/SM_20_45_10.md) to manage *Report* items in the customization project.
 

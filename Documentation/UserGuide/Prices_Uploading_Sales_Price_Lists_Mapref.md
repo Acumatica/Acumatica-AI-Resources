@@ -1,4 +1,4 @@
-# Uploading a Sales Price List {#_f1096b49-b8ee-4f01-89df-9331e2c9d6fd .concept}
+# Uploading a Sales Price List
 
 This topic describes how to upload sales prices to Acumatica ERP in bulk.
 

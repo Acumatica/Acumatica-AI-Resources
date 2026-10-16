@@ -1,4 +1,4 @@
-# Preparing for Installing Acumatica ERP {#_097d7c8c-ee19-4f4a-a29e-a79fe20e7c76 .concept}
+# Preparing for Installing Acumatica ERP
 
 In this chapter, you will find information about the Acumatica ERP installation and deployment options and the required configuration of the operating system where the server part of the system will be installed.
 

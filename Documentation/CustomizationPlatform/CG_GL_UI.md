@@ -1,4 +1,4 @@
-# Customizing Elements of the User Interface {#_6b5dbc24-30e9-4f69-8831-010954f13a78 .concept}
+# Customizing Elements of the User Interface
 
 You can customize the user interface by creating a new form or by changing the content and layout of a form that already exists in Acumatica ERP.
 

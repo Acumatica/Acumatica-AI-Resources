@@ -1,23 +1,23 @@
-# Value-Added Taxes: To Create a Pending VAT {#_e5f280ca-3b6b-40a7-8574-f616eb2e09e2 .task}
+# Value-Added Taxes: To Create a Pending VAT
 
 By performing this implementation activity, you will learn how to configure a pending VAT recognized on payments.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Fruits &amp; Jams provides services to customers and the VAT amounts of invoice payments need to be recognized on payment dates. Acting as an implementation consultant, you need to update the settings of the tax agency and create a pending VAT of the *Output* type.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following configuration tasks have been performed to prepare the system for this activity to be performed:
 
 -   On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, the *VAT Reporting* feature has been enabled.
 -   On the [Chart of Accounts](../UserGuide/GL_20_25_00.md) \(GL202500\) form, the *24200 \(Pending Tax Payable\)* and *17500 \(Pending Tax Claimable\)* accounts have been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\) form, you will update the settings of the tax agency to make it possible to recognize pending VAT on payments. On the [Taxes](../UserGuide/TX_20_50_00.md) \(TX205000\) form, you will create a pending VAT.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -28,7 +28,7 @@ To prepare the system, do the following:
 5.  As a prerequisite activity, be sure that you have created the *PENDING* tax category on the [Tax Categories](../UserGuide/TX_20_55_00.md) \(TX205500\) form as described in [Tax Zones and Categories: To Create a Tax Category and Tax Zone for VAT](TaxZones_and_Categories_VAT_Implem_Activity.md).
 6.  As a prerequisite activity, be sure that you have configured a tax report on the [Reporting Settings](../UserGuide/TX_20_51_00.md) \(TX205100\) form and reporting groups for the tax report on the [Reporting Groups](../UserGuide/TX_20_52_00.md) \(TX205200\) form. For details, see [Tax Report Configuration: To Create a Tax Report for VAT Variations](TaxReport_VAT_Variations_Implem_Activity.md).
 
-## Step 1: Updating the Tax Agency Settings { .section}
+## Step 1: Updating the Tax Agency Settings
 
 To update the tax agency settings, do the following:
 
@@ -45,7 +45,7 @@ To update the tax agency settings, do the following:
 
 4.  On the form toolbar, click **Save**.
 
-## Step 2: Creating a Pending VAT { .section}
+## Step 2: Creating a Pending VAT
 
 To create a pending VAT, do the following:
 

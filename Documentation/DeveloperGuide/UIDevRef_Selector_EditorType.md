@@ -1,8 +1,8 @@
-# Selector Control: Displaying of the Value in the Selector Control {#_6047e714-d389-4a65-ba65-8db61e81b06a .concept}
+# Selector Control: Displaying of the Value in the Selector Control
 
 In some cases, you may want to explicitly specify the control that is used to display the value selected in a selector control. By default, the qp-text-editor control is used to display the selected value. To specify a control explicitly, you can use the editorType property of the config attribute of the selector control, as shown in the following code example.
 
-```language-xml
+```xml
 <field name="MailTo" control-type="qp-selector"
   config-editor-type.bind="'qp-mail-editor'">
 </field>

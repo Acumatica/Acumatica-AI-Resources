@@ -1,10 +1,10 @@
-# To Create a CSV Data Provider {#_7eb06ccf-2a09-4635-960e-7395ad43a4fc .task}
+# To Create a CSV Data Provider
 
 You use the [Data Providers](SM_20_60_15.md) \(SM206015\) form to create a data provider that defines the structure of external data for Acumatica ERP during data import or data export.
 
 This procedure describes how to create a data provider that works with the records in a CSV file.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Make sure the file for which you are going to create a data provider satisfies the following requirements:
 
@@ -16,7 +16,7 @@ Make sure the file for which you are going to create a data provider satisfies t
 -   The names of source fields can contain letters, numbers, spaces, and underscore \(\_\) symbols. Do not use periods in the names of source fields because the period is a reserved symbol for formulas in import and export scenarios. Thus, *Invoice Reference Number* is a valid name of a source field, but *Invoice Ref. Number* is invalid.
 -   The order of the columns in the source file is not important. It affects only the order of the fields in the **Source Fields** pane on the **Schema** tab of the [Data Providers](SM_20_60_15.md) \(SM206015\) form.
 
-## To Create a CSV Data Provider { .section}
+## To Create a CSV Data Provider
 
 1.  Review the file for which you need to create the data provider to identify the needed provider parameters \(the delimiter that is used in the file and file encoding\) and external data schema.
 2.  On the [Data Providers](SM_20_60_15.md) \(SM206015\) form, create a provider and specify the following settings:

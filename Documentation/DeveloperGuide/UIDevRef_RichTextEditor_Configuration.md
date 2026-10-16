@@ -1,12 +1,12 @@
-# Rich Text Editor: Configuration and Layout {#_6454fca1-767f-4c83-9ea5-cc8683590344 .concept}
+# Rich Text Editor: Configuration and Layout
 
 In this topic, you can find general information about configuration of the rich text editor control as well as about layout adjustments.
 
-## Configuration { .section}
+## Configuration
 
 To configure a rich text editor, you can use the [qp-rich-text-editor](https://help.acumatica.com/(W(1))/Help?ScreenId=ShowWiki&pageid=b1b64678-b4c2-d362-be31-eeefde7f4b9d) tag, as shown in the following code. The configuration parameters for the control are defined in the [IRichTextEditorConfig](https://help.acumatica.com/(W(1))/Help?ScreenId=ShowWiki&pageid=419b4741-deeb-21f0-b918-813d69158c96) interface.
 
-```language-xml
+```xml
 <qp-rich-text-editor
   id="edBody"
   state.bind="EstimateRecordSelected.Body"
@@ -16,15 +16,14 @@ To configure a rich text editor, you can use the [qp-rich-text-editor](https://h
 
 You can also use the `field` or `qp-field` tag with the control type specified instead of the `qp-rich-text-editor` tag.
 
-## Addition of Buttons to the Formatting Toolbar { .section}
+## Addition of Buttons to the Formatting Toolbar
 
 While using a rich text editor, users may need to insert the previous or current value of a data field into the editing area. You can add the **Data Field** and **Previous Data Field** buttons to the formatting toolbar \(shown below\) to provide these capabilities..
 
-![](Images/UIDevRef_RichTextEditor_Updated_InsertDataFieldButtons_2025R2.png "The Data Field and Previous Data Field buttons")
 
 To add these buttons to the formatting toolbar of the qp-rich-text-editor control, you use the insert-data-field and insert-data-field-prev tags. You add these tags within the opening and closing tags of the qp-rich-text-editor control, as shown below.
 
-```language-xml
+```xml
 <qp-rich-text-editor ...>
   <insert-data-field 
     data-member="EntityItems"
@@ -52,7 +51,7 @@ The list of views in the dialog box depend on the value of the data-member prope
 
 See the following example.
 
-```language-xml
+```xml
 <qp-rich-text-editor ...>
   <insert-data-field
   data-member="EntityItems"
@@ -69,9 +68,8 @@ See the following example.
 
 Based on this code, when you click the **Data Field** button \(Item 1 below\), the *Contact* view and its fields are displayed in the **Select - Data Field** dialog box \(Item 2\).
 
-![](Images/UIDevRef_RichTextEditor_Show_DataFieldPreview_2025R2.png "The Select - Data Field dialog box")
 
-## Vertical Scroll in a Complex Layout { .section}
+## Vertical Scroll in a Complex Layout
 
 We do not recommend that you have three vertical scroll lines on a form, such as for a Summary area, grid, and rich text editor.
 

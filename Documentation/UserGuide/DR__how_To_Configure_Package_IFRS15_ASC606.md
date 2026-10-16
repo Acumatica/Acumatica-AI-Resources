@@ -1,4 +1,4 @@
-# To Configure a Package for IFRS 15/ASC 606 {#_9b33941f-6672-4049-a3a5-816a851ddcb2 .task}
+# To Configure a Package for IFRS 15/ASC 606
 
 You use the [Non-Stock Items](IN_20_20_00.md) \(IN202500\) or [Stock Items](IN_20_25_00.md) \(IN202000\) form to configure a package.
 
@@ -9,7 +9,7 @@ One of the following standards can be used for packages:
 
 Based on these standards, the revenue of each item is recognized in proportion to the fair value price of each item within the package.
 
-## Before You Proceed {#section_myb_3jv_vxb .section}
+## Before You Proceed
 
 Before you configure the package, make sure of the following:
 
@@ -18,7 +18,7 @@ Before you configure the package, make sure of the following:
 -   All required items \(stock items or non-stock items\) to be included in the package have been created in the system on the [Non-Stock Items](IN_20_20_00.md) \(IN202500\) or [Stock Items](IN_20_25_00.md) \(IN202000\) form.
 -   All stock or non-stock items that are included in the package have fair value prices configured on the [Sales Prices](AR_20_20_00.md) \(AR202000\) form.
 
-## To Create a Package Based on Fair Value Prices {#section_pyb_3jv_vxb .section}
+## To Create a Package Based on Fair Value Prices
 
 1.  Open the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form.
 2.  On the form toolbar, click **Add New Record** to create a new non-stock item. For details, see [Non-Stock Item: Implementation Activity](Non_Stock_Item_Fin_Implem_Activity.md).
@@ -33,7 +33,7 @@ Before you configure the package, make sure of the following:
     4.  In the **Deferral Code** column, select the deferral code, which defines the conditions for deferring this item.
 5.  On the form toolbar, click **Save**.
 
-## Notes About the Procedure {#section_ryb_3jv_vxb .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

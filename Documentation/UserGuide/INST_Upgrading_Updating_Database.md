@@ -1,22 +1,22 @@
-# Upgrading of Acumatica ERP: To Update the Database of an Acumatica ERP Instance {#_e70b2943-7d89-4f2b-b789-a20caf8e33b4 .task}
+# Upgrading of Acumatica ERP: To Update the Database of an Acumatica ERP Instance
 
 The following activity will walk you through the process of updating the database of the Acumatica ERP instance.
 
 **Attention:** The updating of the instance is a separate process that you may need to perform.
 
-## Story { .section}
+## Story
 
 Suppose that you are the system administrator of your company, and you need to update only the database of the existing Acumatica ERP instance.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will update the database of the Acumatica ERP instance.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the step of this activity, make sure that you have completed the [Upgrading of Acumatica ERP: To Schedule the System Lockout](INST_Upgrading_System_Lockout.md) prerequisite activity.
 
-## Step: Updating the Database of an Instance { .section}
+## Step: Updating the Database of an Instance
 
 To update the database of the Acumatica ERP instance, do the following:
 

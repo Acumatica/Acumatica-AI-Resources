@@ -1,4 +1,4 @@
-# Mail Editor {#_b68cf82b-37e6-47a2-92ab-ed1849d1f1cd .concept}
+# Mail Editor
 
 In this chapter, you will learn about the configuration of the mail editor control, including when and how to use a mail editor.
 

@@ -1,4 +1,4 @@
-# Wizard: Configuration of Buttons {#_22296cbc-1d3a-453a-a7fa-213aee91e69c .concept}
+# Wizard: Configuration of Buttons
 
 A wizard has a footer with the following default buttons:
 
@@ -24,7 +24,7 @@ You can configure these buttons in the following ways:
 
 For reference of the config properties, see the [IWizardConfig](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=cb56332d-a454-d3b8-7eba-1e187d67e222) interface.
 
-## Overriding The Next Button { .section}
+## Overriding The Next Button
 
 Suppose that you need to invoke an action that is performed when a user clicks **Next** in the wizard. For example, you need to perform additional checks when a user switches to the next step. Do the following:
 
@@ -32,7 +32,7 @@ Suppose that you need to invoke an action that is performed when a user clicks *
 
     An example is shown in the following code.
 
-    ```language-csharp
+    ```csharp
     public PXAction<BudgetFilter> WNext;
     [PXButton]
     [PXUIField(MapEnableRights = PXCacheRights.Update, Visible = false)]
@@ -59,7 +59,7 @@ Suppose that you need to invoke an action that is performed when a user clicks *
 
     The following code shows how to specify the name of the action in the wizard configuration.
 
-    ```language-csharp
+    ```csharp
     @graphInfo({ graphType: "PX.Objects.GL.GLBudgetEntry", primaryView: "Filter", 
       pageLoadBehavior: PXPageLoadBehavior.PopulateSavedValues, bpEventsIndicator: true })
     export class GL302010 extends PXScreen {

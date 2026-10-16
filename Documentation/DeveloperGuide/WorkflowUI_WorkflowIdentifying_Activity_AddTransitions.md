@@ -1,8 +1,8 @@
-# Workflow-Identifying Fields: To Automate Transitions by Using Conditions \(in the Tree View\) {#_248d888b-a5e9-4de9-bf60-6a3f955a401a .task}
+# Workflow-Identifying Fields: To Automate Transitions by Using Conditions \(in the Tree View\)
 
 The following activity will walk you through the process of adding to a workflow new transitions that are performed automatically by conditions. You will use the [Workflow \(Tree View\)](../UserGuide/AU_20_10_30.md) page to perform this activity.
 
-## Story { .section}
+## Story
 
 In the predefined sales order workflow, when a user clicks **Remove Hold** on the form toolbar or More menu of the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form, the *releaseFromHold* action triggers the transition from the `On Hold` state to one of the following states: `Open`, `Pending Processing`, or `Awaiting Payment`.
 
@@ -10,11 +10,11 @@ In the customized workflow, acting as a technical specialist, you need to add ne
 
 If a sales order is removed from hold automatically, it should be moved to the same state \(depending on which conditions are fulfilled\) to which it would have moved if it had been removed from hold manually.
 
-## Process Overview { .section}
+## Process Overview
 
 By using the [Workflow \(Tree View\)](../UserGuide/AU_20_10_30.md) page, you will create a transition from the `On Hold` state to the `Open` state. To do so, on this page, you will create a new action that triggers this transition, and specify the conditions for it. You will then add transitions from the `On Hold` state to the `Pending Processing` state and to the `Awaiting Payment` state.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -25,7 +25,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  Make sure that you have learned how to add actions and transitions, as described in [Action Configuration: General Information](WorkflowUI_Actions_GeneralInfo.md) and [Conditions and Transitions: General Information](WorkflowUI_ConditionsTransitions_GeneralInfo.md).
 3.  Make sure that you have completed the [Workflow-Identifying Fields: To Add Conditions with User-Defined Fields](WorkflowUI_WorkflowIdentifying_Activity_AddConditions.md) activity.
 
-## Step 1: Adding a New Transition Between the On Hold state and the Open state { .section}
+## Step 1: Adding a New Transition Between the On Hold state and the Open state
 
 You will create a new transition from the `On Hold` state to the `Open` state. In the Customization Project Editor for the *SalesOrdersCheckHold* customization project, perform the following instructions:
 
@@ -60,7 +60,7 @@ Instead of using the existing `Remove Hold` action, you have added the `Total Le
 
 You added the `Total Less Than 800` action because when the system performs the existing `Remove Hold` action, you want it to select the **SO Reviewed** check box so that it does not put a sales order on hold again. \(This is the first case from the list above.\) When the status of a sales order changes to *Open* automatically \(which is the second case from the list\), you want the system to leave this check box cleared.
 
-## Step 2: Duplicating Settings of the Predefined Transition in the Added Transition { .section}
+## Step 2: Duplicating Settings of the Predefined Transition in the Added Transition
 
 To modify the transition from the `On Hold` state to the `Open` state, while you are still working with the tree view of the SO301000 \(Sales Orders\) State Diagram: Sales Order page in the Customization Project Editor, perform the following instructions:
 
@@ -77,7 +77,7 @@ To modify the transition from the `On Hold` state to the `Open` state, while you
 
 The custom transition from the `On Hold` state to the `Open` state should have the same settings as the respective transition triggered by the predefined `Remove Hold` action.
 
-## Step 3: Duplicating the Settings of the Predefined Action in the Added Action { .section}
+## Step 3: Duplicating the Settings of the Predefined Action in the Added Action
 
 Because the `Total Less Than 800` action should remove a sales order from hold, the Hold field should be set to *False* when this action is performed, as is the case in the predefined `releaseFromHold` action. Also, this action should not be visible to users, because it is an auxiliary action that the system uses to automatically remove the sales order from hold on the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form if it has an **Order Total** of less than $800 and it has not been put on hold manually. To modify these settings, perform the following instructions:
 
@@ -99,11 +99,10 @@ Because the `Total Less Than 800` action should remove a sales order from hold, 
 
     The settings should look as shown in the following screenshot.
 
-    ![](Images/WorkflowUI_WorkflowIdentifying_ActionProperties.png "The Action Properties dialog box")
 
 4.  Click **Save** to close the dialog box.
 
-## Step 4: Automating the Action Execution { .section}
+## Step 4: Automating the Action Execution
 
 You need to add a condition for the `Total Less Than 800` action so that this action is performed automatically. With this action, a sales order should not remain on hold if its **Order Total** is less than $800 and it has not been put on hold manually.
 
@@ -117,7 +116,7 @@ To add a condition for the `Total Less Than 800` action, perform the following i
 3.  On the **Actions** tab, click the row with the `Total Less Than 800` action, and select *TotalLessThan800* in the **Auto-Run Condition** column.
 4.  On the page toolbar, click **Save**.
 
-## Step 5: Adding a Transition from the On Hold State to the Pending Processing State { .section}
+## Step 5: Adding a Transition from the On Hold State to the Pending Processing State
 
 In this step, you add a new transition from the `On Hold` state to the `Pending Processing` state; this transition will be triggered by the `Total Less Than 800` action. In the tree view of the SO301000 \(Sales Orders\) State Diagram: Sales Order page of the Customization Project Editor, perform the following instructions:
 
@@ -135,7 +134,7 @@ In this step, you add a new transition from the `On Hold` state to the `Pending 
 
 The transition from the `On Hold` state to the `Pending Processing` state should have the same properties as the respective transition triggered by the predefined `Remove Hold` action. Thus, you have added this transition by duplicating the respective transition triggered by this predefined action.
 
-## Step 6: Adding a Transition from the On Hold State to the Awaiting Payment State { .section}
+## Step 6: Adding a Transition from the On Hold State to the Awaiting Payment State
 
 To add a transition from the `On Hold` state to the `Awaiting Payment` state, while you are still working with the tree view of the SO301000 \(Sales Orders\) State Diagram: Sales Order page of the Customization Project Editor, perform the following instructions:
 

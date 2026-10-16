@@ -1,8 +1,8 @@
-# Preparing an Instance: To Configure Secure Access for Implementers {#_47c45a6f-9d7a-4e61-85d7-66e7316676fb .task}
+# Preparing an Instance: To Configure Secure Access for Implementers
 
 In the following activity, you will learn how to configure system-wide password and lockout policies and how to create user accounts for implementers.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company has purchased a cloud subscription for Acumatica ERP. You, as a system administrator, need to configure the secure access for the production tenant of the Acumatica ERP instance.
 
@@ -19,13 +19,13 @@ The following people are to be involved in the implementation process:
 -   You—Kimberly Gibbs, the system administrator with the SweetLife Fruits &amp; Jams company
 -   Jerry Prado, who is an implementation consultant with the Adaptabiz company, one of Acumatica's partners
 
-## Process Overview { .section}
+## Process Overview
 
 To configure system-wide security policies, you will use the settings on the [Security Preferences](../UserGuide/SM_20_10_60.md) \(SM201060\) form. To meet character exception requirements, you will use a validation mask in addition to the password length and complexity requirements, and set up a custom alert message for incorrect passwords.
 
 Then you will add the requested user accounts on the [Users](../UserGuide/SM_20_10_10.md) \(SM201010\) form. You will use your user account to validate the configured policies.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you perform the steps of this activity, make sure that the following tasks have been performed:
 
@@ -35,7 +35,7 @@ Before you perform the steps of this activity, make sure that the following task
     -   Password: The new password that you specified during the first sign-in
 3.  You have enabled the default set of features on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md#) \(CS100000\) form, as described in [Preparing an Instance: To Enable Features and Activate the License](config_SA_Prep_Instance_for_Implem_To_License_Activate.md).
 
-## Step 1: Configuring the Password Policy { .section}
+## Step 1: Configuring the Password Policy
 
 To configure the system-wide password policy, do the following:
 
@@ -57,7 +57,7 @@ To configure the system-wide password policy, do the following:
 
 7.  On the form toolbar, click **Save**.
 
-## Step 2: Reviewing Account Lockout Policies { .section}
+## Step 2: Reviewing Account Lockout Policies
 
 While you are still on the [Security Preferences](../UserGuide/SM_20_10_60.md) \(SM201060\) form, in the **Account Lockout Policy** section, review the following default values inserted by the system and make sure that they match the organization’s account lockout policies:
 
@@ -65,7 +65,7 @@ While you are still on the [Security Preferences](../UserGuide/SM_20_10_60.md) \
 -   **Account Lockout Duration \(Minutes\)**: `15`
 -   **Reset Interval for Failed Sign-In Attempts \(Minutes\)**: `10`
 
-## Step 3: Adding User Accounts { .section}
+## Step 3: Adding User Accounts
 
 To add user accounts to the system, do the following:
 
@@ -110,7 +110,7 @@ To add user accounts to the system, do the following:
     -   *Wiki Admin*
 11. On the form toolbar, click **Save**.
 
-## Step 4: Verifying the Password Policy { .section}
+## Step 4: Verifying the Password Policy
 
 To verify the configured password policy, do the following:
 
@@ -118,19 +118,17 @@ To verify the configured password policy, do the following:
 2.  On the Sign-In page, enter `gibbs` as the username and `Welcome123` as the password. The system requests that you enter and confirm a new password.
 3.  Enter `welcome"123` as the new password and its confirmation, and click **Sign In**. Because this password contains the prohibited *"* character, the system clears the entered values and displays the alert message that you configured, as shown in the following screenshot.
 
-    ![](Images/config_SA_Prep_Instance_for_Implem_IncorrectPasswordAlert.png "Custom alert message for incorrect password")
 
 4.  Enter `123Welcome` as the new password and its confirmation, and click **Sign In**. The expression you entered complies with the password policy requirements and is accepted by the system as your new password.
 5.  In the top right corner of the screen, click the *Kimberly Gibbs* username, and then select **Sign Out**.
 
-## Step 5: Verifying the Lockout Policy { .section}
+## Step 5: Verifying the Lockout Policy
 
 To verify the lockout policy you have configured, do the following:
 
 1.  On the Sign-In page, enter `gibbs` as the username and `Welcome123` as the password. The system requests that you enter valid credentials.
 2.  Again enter the incorrect password three more times. The system warns you that your account is locked out, as shown in the following screenshot.
 
-    ![](Images/config_SA_Prep_Instance_for_Implem_LockoutAlert.png "Account lockout alert message")
 
 3.  On the Sign-In page, enter `prado` for the username and `Welcome123` as the password. Enter `123Welcome` as the new password and its confirmation, and click **Sign In**. You have successfully signed in as Jerry Prado.
 4.  Open the [Users](../UserGuide/SM_20_10_10.md) \(SM201010\) form.

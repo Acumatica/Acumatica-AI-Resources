@@ -1,16 +1,16 @@
-# Automated Operations with Lot- and Serial-Tracked Items: To Process Purchase and Sales Orders, and Transfers {#_839b291f-4a97-44be-bdcf-9ed855f06d3b .task}
+# Automated Operations with Lot- and Serial-Tracked Items: To Process Purchase and Sales Orders, and Transfers
 
 In the following activity, you will learn how to process purchase and sales orders, and transfers with lot-tracked stock items in automated mode.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that on 1/27/2026, the purchasing manager of the wholesale warehouse of the SweetLife Fruits &amp; Jams company entered a purchase order for 30 pounds of pears \(three boxes of 10 pounds each, and the boxes can have different expiration dates\) from the Glory Fruit Case vendor. The vendor supplies each box with a lot number that must be used for tracking the enclosed items in the Wholesale warehouse. Then, on 1/29/2026, the sales manager entered a sales order for 12 pounds of pears being sold to GoodFood One Restaurant.
 
 As the warehouse worker, you will receive the items in the purchase order and put them away in the fruit locations. Then you will pick and pack the items for the sales order. Finally, at the request of the warehouse manager, you will move the remaining items \(those not included in the sales order\) from one location to another.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -30,13 +30,13 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form, the *000025* purchase order to *GLORYFRUIT* has been created.
 -   On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, the *000061* sales order to *GOODFOOD* has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this process activity, you will act as a warehouse worker in the Wholesale warehouse. You will receive the items for a purchase order in automated mode and specify the lot number and expiration date for each unit of the items, and then put the received items away in the appropriate storage locations. Then you will create a shipment for a sales order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, and pick and pack the items for this shipment in the automated mode. Finally, you will prepare an inventory transfer to record the movement of the items from one location to another on the [Scan and Transfer](IN_30_40_20.md) \(IN304020\) form.
 
 **Tip:** In any working mode, you enter a command or barcode by typing it in the **Scan** box and pressing Enter. In production systems, you will scan the appropriate barcodes rather than manually entering them.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start processing purchase and sales documents, and transfer transactions with lot-tracked stock items in automated mode, do the following:
 
@@ -44,7 +44,7 @@ Before you start processing purchase and sales documents, and transfer transacti
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, enable the *Lot and Serial Tracking* feature.
 
-## Step 1: Receiving and Putting Away Items { .section}
+## Step 1: Receiving and Putting Away Items
 
 Suppose that the Glory Fruit Case vendor has delivered the 30 pounds of pears to the Wholesale warehouse: three boxes of 10 pounds each. Two of the boxes \(that is, 20 pounds of pears\) have one lot number and expiration date, and the third box \(that is, 10 pounds of pears\) has a different lot number and expiration date. You will prepare the needed documents to reflect the receipt of the pears as follows:
 
@@ -75,10 +75,9 @@ Suppose that the Glory Fruit Case vendor has delivered the 30 pounds of pears to
 23. On the **Transfers** tab, click the reference number in the **Reference Nbr.** column.
 24. On the [Transfers](IN_30_40_00.md) \(IN304000\) form, which opens in a pop-up window, make sure that the generated transfer has the *Released* status shown in the **Status** box, and make sure that the lot number and expiration date have been assigned to the lines, as shown in the screenshot.
 
-    ![](Images/activity_WMS_Receive_Put_Away_Lot.png "Lot-tracked items moved to storage locations")
 
 
-## Step 2: Creating a Shipment { .section}
+## Step 2: Creating a Shipment
 
 To create a shipment for some of the pears that have been received and put away, do the following:
 
@@ -86,7 +85,7 @@ To create a shipment for some of the pears that have been received and put away,
 2.  On the form toolbar, click **Create Shipment** to prepare a shipment.
 3.  In the **Specify Shipment Parameters** dialog box, which opens, make sure that the *1/30/2026* date and the *WHOLESALE* warehouse are selected, and click **OK**. The system creates a shipment and opens it on the [Shipments](SO_30_20_00.md) \(SO302000\) form. In the **Shipment Nbr.**, box, notice the reference number of the shipment; you will need it in the next step.
 
-## Step 3: Picking and Packing Items for the Shipment { .section}
+## Step 3: Picking and Packing Items for the Shipment
 
 To perform automated picking and packing of the ordered items, do the following:
 
@@ -113,17 +112,16 @@ To perform automated picking and packing of the ordered items, do the following:
 19. On the form toolbar, click **OK** to confirm the package.
 20. On the form toolbar, click **Confirm Shipment**.
 
-## Step 4: Reviewing the Shipment { .section}
+## Step 4: Reviewing the Shipment
 
 Review the shipment in the system as follows:
 
 1.  On the [Shipments](SO_30_20_00.md) \(SO302000\) form, open the shipment that you have processed earlier in this activity. Notice that it is assigned the *Confirmed* status.
 2.  Review the **Packages** tab. Notice that one box with the *MEDIUM* identifier is shown in the upper table, and the **Contents of Selected Package** table shows the items that have been packed into this box, as shown in the following screenshot.
 
-    ![](Images/activity_WMS_Pick_Pack_Lot.png "Confirmed shipment")
 
 
-## Step 5: Transferring Items { .section}
+## Step 5: Transferring Items
 
 Suppose that the warehouse manager has decided to clean the *F1S2* location and asked you to move all items from this location to the *F2S1* location, which has already been cleaned. In the *F1S2* location, you found 18 pounds of pears and moved them to the *F2S1* location. Now you acting as a warehouse worker need to record this movement in the system by creating an inventory transfer. Do the following:
 
@@ -139,7 +137,6 @@ Suppose that the warehouse manager has decided to clean the *F1S2* location and 
 8.  On the form toolbar, click **Release**. The system releases the transfer.
 9.  Click the Edit button next to the **Reference Nbr.** box, and on the [Transfers](IN_30_40_00.md) \(IN304000\) form, which opens in a pop-up window, review the inventory transfer transaction. Make sure that it includes the needed line and is assigned the *Released* status, as shown in the following screenshot.
 
-    ![](Images/activity_WMS_Scan_and_Transfer_Lot.png "Lot-tracked items transferred to another location")
 
     You have successfully moved pears between the locations.
 

@@ -1,8 +1,8 @@
-# Override of a Method: Customizing the Release Process for CA Documents {#_0288781f-11a6-412a-974e-e4c942ed2472 .concept}
+# Override of a Method: Customizing the Release Process for CA Documents
 
 In this topic, you can learn how to customize the release process for CA documents.
 
-## Customizing the Release Process for CA Documents { .section}
+## Customizing the Release Process for CA Documents
 
 You can customize the release process for CA documents by overriding the Insert\*\*\*Transaction methods. In the override method, you can modify the process of inserting a line to the general ledger.
 
@@ -15,32 +15,32 @@ In this way, you can customize the actions that include the ReleaseDocProc&lt;TC
 -   [Journal Vouchers](../UserGuide/GL_30_40_00.md) \(GL304000\)
 -   [Bank Deposits](../UserGuide/CA_30_50_00.md) \(CA305000\)
 
-## Overriding the Insert\*\*\*Transaction methods { .section}
+## Overriding the Insert\*\*\*Transaction methods
 
 You can override the following methods:
 
--   ```language-csharp
+-   ```csharp
 public virtual GLTran **InsertDocumentTransaction**(
     JournalEntry, GLTran, GLTranInsertionContext)
 ```
 
     The method inserts GL transactions of the document.
 
--   ```language-csharp
+-   ```csharp
 public virtual GLTran **InsertSplitTransaction**(
     JournalEntry, GLTran, GLTranInsertionContext)
 ```
 
     The method inserts GL transactions of the document details.
 
--   ```language-csharp
+-   ```csharp
 public virtual GLTran **InsertRoundingTransaction**(
     JournalEntry, GLTran, GLTranInsertionContext)
 ```
 
     The method processes the rounding of the document lines sum and document total.
 
--   ```language-csharp
+-   ```csharp
 public virtual GLTran **InsertDepositChargeTransaction**(
     JournalEntry, GLTran, GLTranInsertionContext)
 ```
@@ -50,7 +50,7 @@ public virtual GLTran **InsertDepositChargeTransaction**(
 
 The `GLTranInsertionContext` parameter of the methods contains the context of the release process—that is, a field or multiple fields of the GLTranInsertionContext class instance have values assigned by the system. The context depends on the document being released. For example, for the InsertDocumentTransaction method, the CATranRecord field contains the context of the release process. See the class members below.
 
-```language-csharp
+```csharp
 public class GLTranInsertionContext
 {
 	public virtual CAAdj CAAdjRecord { get; set; }
@@ -68,11 +68,11 @@ public class GLTranInsertionContext
 }
 ```
 
-## Example { .section}
+## Example
 
 The following code shows the override of the InsertDocumentTransaction method. In this code, you at first check whether the current context \(a record of the CATranRecord type\) is not empty.
 
-```language-csharp
+```csharp
 public delegate GLTran InsertDocumentTransactionDelegate(
     JournalEntry je, 
     GLTran tran, 

@@ -1,16 +1,16 @@
-# Period-End Procedures: General Information {#_67ad0986-9b7b-458e-9b27-51a699fc7246 .concept}
+# Period-End Procedures: General Information
 
 Although you can close financial periods in the AR subledger and in the general ledger at the same time, you may decide to close periods in the AR subledger separately in your system. On the [Manage Financial Periods](GL_50_30_00.md) \(GL503000\) form, you can find information about the status of periods.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to close a period in accounts receivable.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You close financial periods in a separate subledger to prevent users from posting transactions to it.
 
-## Closing of a Period in a Subledger {#section_h2p_njv_vxb .section}
+## Closing of a Period in a Subledger
 
 Before you close a period in the subledger, you should make sure that there are no unreleased documents that are to be posted to this period. To close periods, you use the [Close Financial Periods](AR_50_90_00.md) \(AR506000\) form. \(Alternatively, you can close the periods in any subledger on the [Manage Financial Periods](GL_50_30_00.md) \(GL503000\) form when you close the periods in the general ledger.\) You can close a financial period only if there are no unreleased documents dated in this period.
 

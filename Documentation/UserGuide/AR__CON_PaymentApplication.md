@@ -1,4 +1,4 @@
-# Invoice Payments: Manual Payment Application {#_5ed87c78-b875-4e5b-a509-710f12aea229 .concept}
+# Invoice Payments: Manual Payment Application
 
 After you have received a payment document from a customer and recorded it in the system, you then need to apply this payment document to the customer's outstanding documents to close the sale.
 
@@ -6,7 +6,7 @@ When you receive a payment from a customer, in Acumatica ERP, you create a corre
 
 In this topic, you will read about how to apply a payment to a specific outstanding document or to multiple outstanding documents. The topic describes how to perform additional operations, such as giving a cash discount, changing a cross rate, writing off a balance, and applying a payment to outstanding documents that belong to child customer accounts.
 
-## Paying a Specific Outstanding Document {#section_xl4_4jv_vxb .section}
+## Paying a Specific Outstanding Document
 
 Usually a payment document that you receive from a customer references the outstanding document to which it should be applied. In this case, you can use one of the following forms as a starting point to pay the document:
 
@@ -17,7 +17,7 @@ In both cases, the system creates an application record \(including the paid amo
 
 You can track the history of payment applications on the **Application History** tab of the payment document.
 
-## Paying Multiple Outstanding Documents {#section_bm4_4jv_vxb .section}
+## Paying Multiple Outstanding Documents
 
 You use the [Payments and Applications](AR_30_20_00.md) form to pay multiple outstanding documents. In general, you perform the following steps:
 
@@ -28,7 +28,7 @@ You use the [Payments and Applications](AR_30_20_00.md) form to pay multiple out
 
 You can track the history of payment applications by using the **Application History** tab of the payment document.
 
-## Forming the List of Outstanding Documents Manually {#section_nyp_nt3_bw .section}
+## Forming the List of Outstanding Documents Manually
 
 On the [Payments and Applications](AR_30_20_00.md) form, you form the list of outstanding documents by adding documents to the table on the **Documents to Apply** tab one by one; you distribute the payment amount as you prefer. For step-by-step instructions, see [To Form a List of Applications Manually](AR__HOW_To_Form_List_InvoicesToBePaid_Manually.md).
 
@@ -36,7 +36,7 @@ If there are open documents of the *Credit Memo* type, you can add them to the l
 
 The system creates application records for each included outstanding document, with the amount applied specified in the **Amount Paid \(Payment currency\)** column. When you release the payment, the system releases the application record simultaneously.
 
-## Forming the List of Outstanding Documents Automatically {#section_zgw_nt3_bw .section}
+## Forming the List of Outstanding Documents Automatically
 
 When you create a new payment of the *Payment* or *Prepayment* type on the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, as soon as you select the customer in the Summary area, the system forms the list of the customer's outstanding documents on the **Documents to Apply** tab. The system loads only open documents of the *Invoice*, *Debit Memo*, *Credit Memo*, and *Overdue Charge* type that do not have unreleased applications.
 
@@ -55,7 +55,7 @@ When you click the **Load** or **Reload** button in the dialog box, the system c
 
 **Attention:** If the customer account has open documents of the *Credit Memo* type, the system lists them at the top of the list on this tab. The balances of the open credit memos increase the balance that can be applied to outstanding documents.
 
-## Distributing the Payment Amount {#section_erk_pt3_bw .section}
+## Distributing the Payment Amount
 
 When the system loads outstanding documents to the table on the **Documents to Apply** tab automatically \(that is, when the customer is selected for the entered payment\), the **Amount Paid \(Payment currency\)** column is not filled in.
 
@@ -81,7 +81,7 @@ In the Summary area of the form, you can see the balance of the payment that is 
 
 The system creates application records for each outstanding document for which the applied amount is specified in the **Amount Paid \(Payment currency\)** column. When you release the payment, the system releases the application records simultaneously. For step-by-step instructions, see [Invoice Payments: To Load AR Documents Automatically](Finance_PayingARInvoices_To_Load_AR_Docs_Automatically.md).
 
-## Correcting the List of Applications {#section_tm4_4jv_vxb .section}
+## Correcting the List of Applications
 
 When you form the list of outstanding documents on the **Documents to Apply** tab, the system creates an application record for each line. You can add new documents and remove or modify already-added documents until you release the application records by clicking **Release** on the form toolbar.
 
@@ -101,7 +101,7 @@ If you have mistakenly applied a customer refund to the wrong document and relea
 
 For step-by-step instructions, see [To Correct an Application Record](AR__How_Unapplying_Payments.md).
 
-## Recording a Cash Discount {#section_bn4_4jv_vxb .section}
+## Recording a Cash Discount
 
 You can give a customer a discount for early payment when you apply the payment amount to an outstanding document.
 
@@ -111,7 +111,7 @@ If the credit terms of the customer do not define any cash discount, you can fil
 
 For details on configuring credit terms with a cash discount, see [Setup of Credit Terms](AR__con_Credit_Terms.md).
 
-## Writing Off a Balance {#section_gn4_4jv_vxb .section}
+## Writing Off a Balance
 
 If write-offs are enabled and configured in the system, as described in [Direct Write-Offs: Write-Off Setup](AR__CON_SettingUp_WriteOffs.md), you can write off an amount along with the application. For each document that you add for the application, you can specify the amount to write off in the **Balance Write-Off** column \(specifying a positive value for the amount of a balance write-off and a negative value for the amount of a credit write-off\) and the reason code in the **Write-Off Reason Code** column. The total amount of write-offs is displayed in the **Write-Off Amount** box in the Summary area.
 
@@ -121,11 +121,11 @@ For example, suppose that you want to record a payment in the amount of $100 for
 
 When you release applications of this type, the system does not create a document of the *Balance WO* type. The system stores write-off details in the application record and generates a separate transaction to post to general ledger accounts.
 
-## Applying a Payment to Documents of Child Customer Accounts {#section_ln4_4jv_vxb .section}
+## Applying a Payment to Documents of Child Customer Accounts
 
 If the *Parent-Child Customer Relationship* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form and parent-child relations between customer accounts are configured, you can add to the list of outstanding documents those that belong to child customer accounts. For details, see [Managing Parent-Child Relationships](Finance_Parent-Child_Relationship_Mapref.md).
 
-## Reserving a Payment for Future Application {#section_nfb_jsv_fw .section}
+## Reserving a Payment for Future Application
 
 You can reserve an open payment for future application. To mark an open payment as reserved, on the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, you click **Hold** on the form toolbar for the payment document with the *Open* status. The system changes the document status from *Open* to *Reserved*.
 

@@ -1,10 +1,10 @@
-# To Hide or Display an Existing Tenant {#_d5cc590d-9aa9-4112-aedc-2d577e14bc09 .task}
+# To Hide or Display an Existing Tenant
 
 If you want to make a tenant unavailable for other users, you can deactivate it by using the Acumatica ERP Configuration wizard. The deactivation of the tenant does not affect its data. You can make the tenant visible when you need it again.
 
 **Note:** In the Acumatica ERP Configuration wizard, on the Tenant Setup page, you can also configure the list of tenants that a user can see only the tenants this user has access to. For more information, see [Managing Tenants Locally](SA_MNG_Managing_Tenants_Locally.md).
 
-## To Hide or Display an Existing Tenant { .section}
+## To Hide or Display an Existing Tenant
 
 1.  On the Start menu, click **Acumatica ERP Configuration** to open the Acumatica ERP Configuration wizard.
 2.  On the Welcome page, click **Perform Application Maintenance**.

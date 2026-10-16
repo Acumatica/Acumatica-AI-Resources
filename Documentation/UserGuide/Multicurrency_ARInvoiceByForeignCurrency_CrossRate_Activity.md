@@ -1,8 +1,8 @@
-# Multicurrency Payment of Invoices: To Change the Payment Amount Instead of the Cross Rate {#_1012434b-d1ac-4a34-848f-4679a44772e5 .task}
+# Multicurrency Payment of Invoices: To Change the Payment Amount Instead of the Cross Rate
 
 This activity will walk you through the process of configuring a foreign currency and using it to pay an invoice in another foreign currency. You will also change the reciprocal rate and the amount paid in the created payment.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Fruits &amp; Jams provides professional training services to its customer, Unifruit LLC, which operates in a multicurrency environment. SweetLife’s base currency is USD, but it conducts business using foreign currencies—specifically, EUR and GBP—to meet customer and banking requirements.
 
@@ -12,7 +12,7 @@ On March 10, 2026, Unifruit settled the invoice by making a payment in GBP via w
 
 Acting as a SweetLife accountant, you need to set up the system for processing payments in GBP, create an invoice in EUR, and pay it in GBP.
 
-## Configuration Overview {#section_mfx_3jv_vxb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -27,7 +27,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *UNIFRUIT* customer has been defined.
 -   On the [Payment Methods](CA_20_40_00.md) \(CA204000\) form, the *WIRE* payment method for wire transfers has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 1.  On the [Currencies](CM_20_20_00.md) \(CM202000\) form, you will update the settings of the *GBP* currency.
 2.  On the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) and [Cash Accounts](CA_20_20_00.md) \(CA202000\) forms, you will set up cash accounts in *GBP* and *EUR*.
@@ -36,7 +36,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 5.  On the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will create and release an AR invoice in *EUR*.
 6.  On the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, you will pay this invoice in full in *GBP*.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin processing an invoice and its payment, do the following:
 
@@ -45,7 +45,7 @@ Before you begin processing an invoice and its payment, do the following:
 3.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 4.  Make sure that the multicurrency accounting functionality has been configured as described in Steps 1 through 2 in [Multicurrency Payment of Invoices: To Change the Payment Amount Instead of the Cross Rate](Multicurrency_ARInvoiceByForeignCurrency_CrossRate_Activity.md).
 
-## Step 1: Updating GBP’s Settings { .section}
+## Step 1: Updating GBP’s Settings
 
 To set up *GBP* as a foreign currency, do the following:
 
@@ -65,7 +65,7 @@ To set up *GBP* as a foreign currency, do the following:
     -   **Rounding Loss Account**: *83100*
 5.  On the form toolbar, click **Save**.
 
-## Step 2: Setting Up Accounts in GBP and EUR { .section}
+## Step 2: Setting Up Accounts in GBP and EUR
 
 To create accounts denominated in *GBP* and *EUR*, do the following:
 
@@ -106,7 +106,7 @@ To create accounts denominated in *GBP* and *EUR*, do the following:
     -   **Use in AR**: Selected
 12. Click **Save**.
 
-## Step 3: Creating Currency Rates { .section}
+## Step 3: Creating Currency Rates
 
 To define the currency rates between the base currency \(*USD*\), *GBP*, and *EUR* do the following:
 
@@ -131,7 +131,7 @@ To define the currency rates between the base currency \(*USD*\), *GBP*, and *EU
     -   **Mult./Div.**: *Divide*
 7.  On the form toolbar, click **Save**.
 
-## Step 4: Updating the Customer's Settings { .section}
+## Step 4: Updating the Customer's Settings
 
 To update the settings of the *UNIFRUIT* customer, do the following:
 
@@ -143,7 +143,7 @@ To update the settings of the *UNIFRUIT* customer, do the following:
     -   **Enable Rate Override**: Selected
 3.  On the form toolbar, click **Save**.
 
-## Step 5: Creating an AR Invoice in EUR { .section}
+## Step 5: Creating an AR Invoice in EUR
 
 To create an AR invoice in *EUR* and release it, do the following:
 
@@ -164,7 +164,7 @@ To create an AR invoice in *EUR* and release it, do the following:
 7.  On the form toolbar, click **Save**.
 8.  On the form toolbar, click **Remove Hold** and then click **Release** to release the invoice.
 
-## Step 6: Paying the AR Invoice in GBP { .section}
+## Step 6: Paying the AR Invoice in GBP
 
 To pay the AR invoice in GBP, do the following:
 

@@ -1,8 +1,8 @@
-# Store and Webhook Data {#_abc1234a-bbcc-5566-b89b-c27762ab8ee4 .concept}
+# Store and Webhook Data
 
 This topic outlines the changes to the field mapping used for the store settings and webhooks in Acumatica ERP. These changes reflect the platform's switch from the REST API to GraphQL for enhanced Shopify integration.
 
-## Store Setting Mapping { .section}
+## Store Setting Mapping
 
 The following table shows how Acumatica ERP fields on the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form map to Shopify default and custom fields. This mapping is used during the synchronization of the store settings to Shopify.
 
@@ -19,7 +19,7 @@ Particularly, you can see how each Acumatica ERP field was previously mapped to 
 |n/a|n/a|`shop.id`|`long`|`shop.id`|`ID`|
 |n/a|n/a|`shop.weight_unit`|`string`|`shop.weightUnit`|`string` \(`enum`\)|
 
-## Webhook Mapping { .section}
+## Webhook Mapping
 
 The following table shows the field mapping that's used during the synchronization of webhooks to Shopify. Particularly, you can see how each Acumatica ERP field was previously mapped to Shopify fields through the REST API, and how it's now mapped using GraphQL.
 

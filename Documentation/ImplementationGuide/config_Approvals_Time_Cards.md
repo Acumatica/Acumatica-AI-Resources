@@ -1,4 +1,4 @@
-# Specific Approvals: Time Cards {#_4815c193-5db1-42d3-8088-f2e353c9c537 .concept}
+# Specific Approvals: Time Cards
 
 In Acumatica ERP, you can set up the approval functionality for employee time cards, equipment time cards, or both types of time cards, depending on your company's policies.
 
@@ -8,7 +8,7 @@ An employee time card logs an employee's weekly work hours and any overtime. On 
 
 For more information about employee time cards and equipment time cards, see [Employee Time Entry: Time Cards](../UserGuide/TimeExpenses_Entering_Employee_Time_Time_Cards.md).
 
-## Configuration of the Approval Workflow of Time Cards { .section}
+## Configuration of the Approval Workflow of Time Cards
 
 If the *Time Management* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) form, you cannot approve or release employee time cards and equipment time cards unless all the activities included in the specific time card have been approved. For more information, see [Employee Time Entry: Time Activities](../UserGuide/TimeExpenses_Entering_Employee_Time_Time_Activities.md).
 

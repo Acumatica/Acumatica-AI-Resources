@@ -1,4 +1,4 @@
-# Configuring Time Tracking {#_791f6a4a-f00e-41cd-bd6d-964eb3a4897d .concept}
+# Configuring Time Tracking
 
 This chapter contains information about how you can configure time tracking to be used in payroll.
 

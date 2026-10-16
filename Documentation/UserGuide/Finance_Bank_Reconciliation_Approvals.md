@@ -1,4 +1,4 @@
-# Bank Reconciliation: Approval of Reconciliation Statements {#_9698f275-2fea-43d8-b0ae-0da04013faf2 .concept}
+# Bank Reconciliation: Approval of Reconciliation Statements
 
 System administrators can set up the approval of reconciliation statements to fit the organization's internal control and financial audit procedures. For details on the setup of reconciliation statement approvals, see [Specific Approvals: Reconciliation Statements](../ImplementationGuide/config_Approvals_Reconciliation_Statements.md).
 

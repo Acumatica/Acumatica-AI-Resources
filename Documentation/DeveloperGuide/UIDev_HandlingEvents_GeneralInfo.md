@@ -1,8 +1,8 @@
-# UI Events: General Information {#_689ac3fe-fc85-4720-ab7c-953a0ae4aabc .concept}
+# UI Events: General Information
 
-In the Modern UI of , you can handle UI events in frontend code to make runtime changes that aren’t possible through built-in UI functionality.
+In the Modern UI, you can handle UI events in frontend code to make runtime changes that aren’t possible through built-in UI functionality.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,7 +10,7 @@ In this chapter, you will learn how to do the following:
 -   Work with data that is unrelated to any view by using event handling
 -   Manage large binary data through event handling
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You handle UI events if you need to implement scenarios such as these:
 
@@ -19,7 +19,7 @@ You handle UI events if you need to implement scenarios such as these:
 -   Passing large binary data to an Acumatica ERP form
 -   Calculating a value that is only displayed on an Acumatica ERP form and is not saved to the database
 
-## Event Handling { .section}
+## Event Handling
 
 You use the [handleEvent](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=74bcaf87-062e-0b68-05f7-222e51751a27) decorator to mark a handler of a runtime event for a specified view or field or with no relation to a view or field.
 
@@ -27,7 +27,7 @@ Only event types defined in the [CustomEventType](https://help.acumatica.com/Hel
 
 **Important:** Be aware that any logic that you implement using event handlers is available only in Modern UI forms and is not accessible through the web services or the mapping of the mobile application.
 
-## Sample Event Handlers { .section}
+## Sample Event Handlers
 
 The Acumatica ERP source code provides sample event handlers for the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form. You can find these in the following location of any instance.
 

@@ -1,4 +1,4 @@
-# Advanced Planning and Scheduling: Operation Lead Time {#_ae593b8e-1806-4441-b872-014b72f8cd52 .concept}
+# Advanced Planning and Scheduling \(Classic\): Operation Lead Time
 
 When the system schedules production orders by using advanced planning and scheduling on the [Rough Cut Planning](AM_50_10_00.md) \(AM501000\) form, it calculates the duration of each operation \(that is, the operation lead time\). These calculations determine the start and end dates and times of the operation and the whole production order.
 
@@ -6,7 +6,7 @@ When the system schedules production orders by using advanced planning and sched
 
 In the following sections, you will find details about the calculation of the operation lead time.
 
-## Components of the Operation Lead Time { .section}
+## Components of the Operation Lead Time
 
 The lead time of an operation of a production order is based on the settings in the Operations table of the [Production Order Details](AM_20_90_00.md) \(AM209000\) form. The lead time of each operation consists of the following components:
 
@@ -19,7 +19,7 @@ The lead time of an operation of a production order is based on the settings in 
 
 Further in the topic, you can find details about the queue time, move time, and finish time.
 
-## Calculation of the Operation Lead Time { .section}
+## Calculation of the Operation Lead Time
 
 The system uses the following formula for calculating the lead time of each operation during scheduling production orders the [Rough Cut Planning](AM_50_10_00.md) \(AM501000\) form.
 
@@ -35,7 +35,7 @@ Then suppose that Martha has been moved to another operation, and a new employee
 
 Further suppose that a packing operation is performed after the sticking operation. Also, the work center where the packing operation takes place is idle, so to reduce the idle time, the planning manager decides to involve a second employee, Ben, in sticking labels in the *WC10* work center. Because Ben and Kim are new to the sticking operation, their efficiency is still set to 80%. By the system's calculations, the sticking operation for 20 jars will now take 1.25 hours.
 
-## Settings of Operation Lead Time { .section}
+## Settings of Operation Lead Time
 
 You specify the following settings to configure the calculation of operation lead time of a production order as follows:
 
@@ -47,7 +47,7 @@ You specify the following settings to configure the calculation of operation lea
     -   In the **Crew Size** and **Efficiency** columns of the same tab, you specify the needed values if the basis for capacity is the crew size.
 3.  On the [Bill of Material](../Shared/../UserGuide/AM_20_80_00.md) \(AM208000\) form, in the Operations table, you specify the lead time components for each operation when you create a bill of material.
 
-## Queue Time { .section}
+## Queue Time
 
 You can specify the queue time of an operation to account for potential delays in the start of the operation, which can be useful if these delays are planned or regular. During scheduling, the system extends the operation's lead time and the production order's lead time by the queue time. During advanced planning and scheduling, the system also does the following when a nonzero queue time is specified for a particular operation:
 
@@ -58,7 +58,7 @@ You can specify the queue time of an operation to account for potential delays i
 
 The system does not increase the occupation time of the crew, machine, tool, or work center resources by the value of the queue time.
 
-## Finish Time { .section}
+## Finish Time
 
 You can specify the finish time for an operation to account for the time needed to finalize the operation before workers can move the items to the next operation. During scheduling, the system extends the operation's lead time and the production order's lead time by the finish time. During advanced planning and scheduling, the system also does the following when a nonzero finish time is specified for a particular operation:
 
@@ -67,7 +67,7 @@ You can specify the finish time for an operation to account for the time needed 
 
 The system does not increase the occupation time of the crew, machine, or tool resources by the value of the finish time.
 
-## Move Time { .section}
+## Move Time
 
 You can specify the move time for an operation so that the system considers the time needed to move items in production between the work center where the current operation was performed and the work center where the next operation will be performed. During scheduling, the system delays the start of the next operation and extends the production order lead time by the move time.
 
@@ -78,5 +78,5 @@ During advanced planning and scheduling, when a nonzero move time is specified f
 
 The system does not increase the occupation time of the crew, machine, tool, or work center resources by the value of the move time.
 
-**Parent topic:**[Advanced Planning and Scheduling](../UserGuide/MFG_APS_Mapref.md)
+**Parent topic:**[Advanced Planning and Scheduling \(Classic\)](../UserGuide/MFG_APS_Mapref.md)
 

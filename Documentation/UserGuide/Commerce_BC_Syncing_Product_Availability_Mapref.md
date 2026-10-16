@@ -1,4 +1,4 @@
-# Synchronizing Product Availability {#_b2948305-97f0-4f34-a9de-16d2c5ca71d8 .concept}
+# Synchronizing Product Availability
 
 The topics of this chapter explain the availability settings of stock items, non-stock items, and template items that are exported to the BigCommerce store.
 

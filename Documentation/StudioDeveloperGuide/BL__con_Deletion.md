@@ -1,4 +1,4 @@
-# Removal of a Data Record {#_b33fc498-1d8e-45e2-b662-138452599b9d .concept}
+# Removal of a Data Record
 
 When a user deletes a data record through the user interface, the system calls the Delete\(\) method of the corresponding cache. If you need to delete a data record in code, you should also call the Delete\(\) method of PXCache or of the data view \(which simply calls the Delete\(\) method of PXCache\).
 

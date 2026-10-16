@@ -1,10 +1,10 @@
-# Voucher Processing Workflow {#_07f39cfe-a809-482e-a1bc-d23aa1c7dcf0 .concept}
+# Voucher Processing Workflow
 
 In Acumatica ERP, you can quickly enter multiple documents of different types and then process them in the respective subledger.
 
 In this topic, you will read about the process of entering documents. The topic also describes transaction codes and the release of documents.
 
-## Processing a Batch of Documents {#section_jcj_mjv_vxb .section}
+## Processing a Batch of Documents
 
 The processing of a batch of documents consists of the following steps:
 
@@ -17,9 +17,8 @@ The processing of a batch of documents consists of the following steps:
 
 The voucher processing workflow is illustrated in the following screenshot.
 
-![](Images/diag_Finance_GL_Voucher_Processing.png "GL voucher processing")
 
-## Statuses of Document Batches {#section_mcj_mjv_vxb .section}
+## Statuses of Document Batches
 
 A document batch can have one of the following statuses:
 
@@ -27,13 +26,13 @@ A document batch can have one of the following statuses:
 -   *Balanced*: All the documents of the batch have complete information, and the batch can be released. You can add only documents with all required information to a batch with this status.
 -   *Released*: All the included documents have been generated and released successfully.
 
-## Defining Transaction Codes {#section_ocj_mjv_vxb .section}
+## Defining Transaction Codes
 
 A transaction code identifies a document type in a particular subledger. You can manually specify transaction codes in the table on the [Voucher Entry Codes](GL_10_60_00.md) \(GL106000\) form for the types of transactions or documents that are used in your system, or you can import a list of codes provided by Acumatica ERP. This list is available here: [Voucher Entry Codes](Files/Document_Quick_Entry_via_Document_Batches_L_Transaction_Codes_20120510.xlsx). In this list, you can find all the document types from the general ledger and the accounts payable, accounts receivable, and cash management subledgers that can be processed through document batches.
 
 **Attention:** Only codes with the **Active** check box selected on this form can be used for adding documents to a document batch.
 
-## Releasing a Document Batch {#section_rcj_mjv_vxb .section}
+## Releasing a Document Batch
 
 You can release a particular batch with the *Balanced* status on the [Journal Vouchers](GL_30_40_00.md) \(GL304000\) form. To do this, select the batch on the form and click **Release** on the form toolbar. Releasing the batch can take some time.
 

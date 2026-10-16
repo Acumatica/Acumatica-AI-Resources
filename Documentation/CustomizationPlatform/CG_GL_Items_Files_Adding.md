@@ -1,4 +1,4 @@
-# To Add a Custom File to a Project {#_01a694bb-8e42-436c-89ad-2c42c040089a .concept}
+# To Add a Custom File to a Project
 
 Before you can add a custom file to a customization project, you need to place this file in a folder within the website folder. For example, if you need to add an extension library file, you place it in the `Bin` folder of the website.
 

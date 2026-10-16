@@ -11,7 +11,7 @@ Deliver useful documentation through the complete Help contract:
 identity -> form Help mapping -> rendered destination/content -> intended-reader
 access -> normal republish survival.**
 
-This skill targets 2026 R1. Use the target release's documentation and installed
+This skill targets Acumatica ERP 2026 R2. Use the target release's documentation and installed
 behavior for exact mechanisms. A saved article, HTTP 200 or green package
 publication establishes only one part of the contract.
 
@@ -39,7 +39,7 @@ does not grant publication or access-rights authority.
 
 ## 2. Create or update through the established authoring path
 
-Use [authoring and form linkage](references/authoring.md) for supported 2026 R1
+Use [authoring and form linkage](references/authoring.md) for supported 2026 R2
 procedures. Choose the existing owner as the default:
 
 - **Package-owned content:** edit the authoritative article source, regenerate

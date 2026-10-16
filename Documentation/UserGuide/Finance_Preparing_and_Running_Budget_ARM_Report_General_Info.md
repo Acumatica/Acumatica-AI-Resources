@@ -1,10 +1,10 @@
-# Budget vs. Actual ARM Report: General Information {#_d10b26b3-8858-402f-99c3-fddc62afe379 .concept}
+# Budget vs. Actual ARM Report: General Information
 
 Analytical reports are a specific type of reports that you can construct in Acumatica ERP by using the Analytical Report Manager toolkit. Reports that are constructed with this toolkit are called *ARM reports* to distinguish them from the reports created in the Acumatica Report Designer. The Analytical Report Manager toolkit is specially designed for the creation of financial reports that retrieve the amounts posted to particular general ledger accounts and subaccounts.
 
 You can modify the predefined ARM reports available in Acumatica ERP and create new ones. To modify an existing report, we recommend that you create a copy of the predefined report and modify this copy.
 
-## Learning Objectives {#section_hgl_mjv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -13,11 +13,11 @@ In this chapter, you will learn how to do the following:
 -   Upload the actual data to be compared with the budgeted data
 -   Run the ARM report and analyze the budget versus the actual data
 
-## Applicable Scenarios {#section_jgl_mjv_vxb .section}
+## Applicable Scenarios
 
 You prepare and run an ARM report if you want to construct your own report based on a predefined report and use it for comparing the budget with the actual company performance.
 
-## Structure of the Profit &amp; Loss ARM Report {#section_lgl_mjv_vxb .section}
+## Structure of the Profit &amp; Loss ARM Report
 
 The Profit &amp; Loss report, which you will modify to create a new ARM report, consists of the following elements:
 

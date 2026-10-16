@@ -1,4 +1,4 @@
-# Push Notifications: Recommendations for the Data Queries {#_99dc32c1-00ac-498a-9412-6c7cf766eaa8 .concept}
+# Push Notifications: Recommendations for the Data Queries
 
 For optimal results, you need to follow these recommendations when you create each data query for which you want to configure push notifications:
 

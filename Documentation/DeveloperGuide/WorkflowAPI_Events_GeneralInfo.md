@@ -1,10 +1,10 @@
-# Workflow Events: General Information {#_8aadf20a-c32d-425e-a39d-6cc8a64eec74 .concept}
+# Workflow Events: General Information
 
 A *workflow event* is an event that can be used to trigger a transition. Workflow events introduce cross-graph interactions and are similar to .NET events.
 
 In this chapter, you will use existing events and create your own events in a custom workflow by using Workflow API.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -16,13 +16,13 @@ In this chapter, you will learn how to do the following:
 -   Create a workflow event
 -   Override a method to fire the workflow event
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You use workflow events when you need to implement cross-graph interaction for forms that use workflows.
 
 For example, in Acumatica ERP, most of the predefined data entry forms have workflows defined. If the workflow of a custom form is dependent on transitions that happen on an existing Acumatica ERP form, you can implement the interaction between workflows by using workflow events.
 
-## Defining of a Workflow Event { .section}
+## Defining of a Workflow Event
 
 To define a workflow event, you need to do the following:
 
@@ -33,7 +33,7 @@ To define a workflow event, you need to do the following:
 
 After you have declared a workflow event, you need to fire it.
 
-## Workflow Event { .section}
+## Workflow Event
 
 A workflow event is an object in code that corresponds to a DAC and has a name; it can be defined anywhere. However, we strongly recommend that you place it in a nested class in the DAC the workflow event relates to.
 
@@ -50,7 +50,7 @@ To define a new workflow event, you do the following:
 
 An example of a workflow event definition is shown in the following code. Among other events, the `InvoiceLinked` workflow event is declared. This workflow event occurs when the invoice, which is defined as the second type parameter, is linked with an SOOrderShipment record.
 
-```language-csharp
+```csharp
 public partial class SOOrderShipment : PXBqlTable, IBqlTable{
   public class Events : PXEntityEvent<SOOrderShipment>.Container<Events>{
     public PXEntityEvent<SOOrderShipment, SOShipment> ShipmentLinked;
@@ -61,11 +61,11 @@ public partial class SOOrderShipment : PXBqlTable, IBqlTable{
 }
 ```
 
-## Workflow Event Handler { .section}
+## Workflow Event Handler
 
 You can define a workflow event handler as a member of a graph or a graph extension. You do this by declaring a member of the PXWorkflowEventHandler type, as the following code example shows.
 
-```language-csharp
+```csharp
 public PXWorkflowEventHandler<SOShipment, SOOrderShipment, SOInvoice> 
     OnInvoiceLinked;
 public PXWorkflowEventHandler<SOShipment, SOInvoice> OnInvoiceReleased;
@@ -73,11 +73,11 @@ public PXWorkflowEventHandler<SOShipment, SOInvoice> OnInvoiceReleased;
 
 In the first type parameter, you need to specify the primary DAC to indicate that this handler is used to manipulate the records of the primary DAC. In the second type parameter, you need to specify the DAC where the workflow event for this handler is defined. The optional third parameter can be used to further restrict the handler to only those workflow events that provide additional information for a record. The second and third parameters must match the type parameters of the workflow event for which the handler is defined.
 
-## Binding of a Handler to a Workflow Event { .section}
+## Binding of a Handler to a Workflow Event
 
 To bind a workflow event handler to a workflow event, in the screen configuration \(inside the AddScreenConfigurationFor or UpdateScreenConfigurationFor method\), you call the WithHandlers method, and add the handler by using the Add method, as the following code example shows.
 
-```language-csharp
+```csharp
 .WithHandlers(handlers =>
 {
   handlers.Add(handler =>
@@ -100,11 +100,11 @@ In the Is method, you need to specify the workflow event handler that matches th
 
 By calling the UsesTargetAsPrimaryEntity method, you specify that the workflow should use the record on which the workflow event is fired. For a cross-graph execution, you need to call the UsesPrimaryEntityGetter method instead and select the DAC record that should be used as the source record for the workflow event. For an example, see [Step 4: Declaring the Workflow Event](WorkflowAPI_Events_Activity_CreateNew_DeclareEvent.md) in the [Workflow Events: To Create a Workflow Event](WorkflowAPI_Events_Activity_CreateNew.md) activity.
 
-## Registration of the Workflow Event Handler in a Workflow State { .section}
+## Registration of the Workflow Event Handler in a Workflow State
 
 To register a workflow event handler in a workflow state, you call the WithEventHandlers method in the workflow state definition, as the following code example shows.
 
-```language-csharp
+```csharp
 flowStates.Add<State.completed>(flowState => {
   return flowState
     .WithEventHandlers(handlers =>
@@ -115,11 +115,11 @@ flowStates.Add<State.completed>(flowState => {
 });
 ```
 
-## Firing of a Workflow Event { .section}
+## Firing of a Workflow Event
 
 To fire a workflow event, you select the workflow event from the list of events declared in the class derived from the PXEntityEvent.Container class and call the FireOn method. In the FireOn method parameters, you provide the graph that should be used as a host for workflow event execution, as well as the instances of DACs that are used as type parameters in the workflow event definition. An example of firing the `InvoiceLinked` workflow event is shown in the following code.
 
-```language-csharp
+```csharp
 public static SOOrderShipment LinkInvoice(this SOOrderShipment self, 
     SOInvoice invoice, PXGraph graph)
 {
@@ -140,11 +140,11 @@ public static SOOrderShipment LinkInvoice(this SOOrderShipment self,
 
 In the code above, the `InvoicedLinked` event is selected from the list of `SOOrderShipment` events and the FireOn method is called. As parameters, the following have been provided: the instance of the graph that will be used as a host for workflow event execution, and the instances of `SOOrderShipment` and `SOInvoice` DACs. The signature of the `InvoiceLinked` event restricts the FireOn method to an overload that has these exact parameters.
 
-## Triggering of a Transition by a Workflow Event { .section}
+## Triggering of a Transition by a Workflow Event
 
 To define a transition that is triggered by a workflow event, you specify the workflow event handler in the IsTriggeredOn method of the transition definition, as the following code shows.
 
-```language-csharp
+```csharp
 transitions.AddGroupFrom<States.completed>(transitionGroup =>
 {
   transitionGroup.Add(transition => 

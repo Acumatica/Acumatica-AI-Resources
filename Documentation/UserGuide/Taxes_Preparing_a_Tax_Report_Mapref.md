@@ -1,4 +1,4 @@
-# Preparing a Tax Report for Sales Taxes {#_39ebc170-e77f-4ddf-baf6-4238a11f0f62 .concept}
+# Preparing a Tax Report for Sales Taxes
 
 The topics of this chapter describe how to prepare a tax report with sales tax amounts.
 

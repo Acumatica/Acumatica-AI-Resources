@@ -1,4 +1,4 @@
-# Instance Deployment: Creation of an Instance {#_0f87e8ed-3817-4643-81bd-4640ac27da1b .concept}
+# Instance Deployment: Creation of an Instance
 
 You can create a new Acumatica ERP instance by using the Acumatica ERP Configuration wizard, which you have installed on your computer:
 
@@ -18,7 +18,7 @@ You can create a new Acumatica ERP instance by using the Acumatica ERP Configura
 
 The following sections provide an overview of the settings that you need to specify on the pages of the Acumatica ERP Configuration wizard to deploy a new instance.
 
-## Database Server Connection Page { .section}
+## Database Server Connection Page
 
 On this page, you should select the database server you want to use for a new instance and the server authentication method. You can do this by using the following UI elements:
 
@@ -39,7 +39,7 @@ Note the following about selecting the authentication method:
 -   You must ensure that the selected authentication method is supported by the database server.
 -   Windows authentication does not work for MySQL Server and PostgreSQL Server.
 
-## Database Configuration Page { .section}
+## Database Configuration Page
 
 On this page, you can either create a new database or connect to an existing one by selecting it from the list of available databases on the server. You should select one of the following option buttons:
 
@@ -53,7 +53,7 @@ On this page, you can either create a new database or connect to an existing one
     Depending on the database you have selected, you can also select the relevant check box to update or repair the database, if required. If you want to shrink data after the database maintenance, select the **Shrink Data After Update** or **Shrink Data After Repair** check box, respectively.
 
 
-## Tenant Setup Page { .section}
+## Tenant Setup Page
 
 On this page, you can specify the following settings for the tenant:
 
@@ -75,7 +75,7 @@ For each tenant, you can also specify the following settings:
 
 On this page, you can also create additional tenants or delete unneeded ones.
 
-## Database Connection Page { .section}
+## Database Connection Page
 
 On this page, you can select the authentication method for connection to the database. You should select one of the following option buttons:
 
@@ -95,7 +95,7 @@ On this page, you can select the authentication method for connection to the dat
         -   For a Microsoft SQL server, *read*, *write*, *execute*, and *ddl\_admin*
         -   For a MySQL server, *create*, *alter*, *drop*, *select*, *delete*, *insert*, *update*, *create temporary tables*, and *execute*
 
-## Instance Configuration Page { .section}
+## Instance Configuration Page
 
 On this page, you can specify the following instance configuration settings:
 
@@ -107,7 +107,7 @@ On this page, you can specify the following instance configuration settings:
 
 -   **Local Path to the Instance**: The path on the local computer to the application instance. By default, it is `C:\Program Files\Acumatica ERP\InstanceName`, but you can change it.
 
-## Website Configuration Page { .section}
+## Website Configuration Page
 
 On this page, you can configure the website and application pool.
 
@@ -120,7 +120,6 @@ In the **Website Settings** section, you specify the following settings:
 
     **Tip:** If you want to use the version of Node.js that has already been installed in your system, you can clear the **Install Node.js** check box and add the following key to the `appSettings` section of the `Web.config` file of your instance: `<add key="NodeJs:NodeJsPath" value="C:\Program Files\NodeJs"/>`, where `value` specifies the path to the location where Node.js has been installed.
 
--   **Use Modern UI as Default**: Select this check box if you want to use the Modern UI as the default user interface.
 
 You may want to use a dedicated application pool to better isolate instances and fine-tune resources that are allocated for the instance by IIS. To specify the dedicated application pool, select one of the following options in the **Application Pool Settings** section:
 
@@ -134,7 +133,7 @@ You may want to use a dedicated application pool to better isolate instances and
     For a production instance, we recommend that you create a new application pool for production deployment.
 
 
-## RabbitMQ Configuration Page { .section}
+## RabbitMQ Configuration Page
 
 Suppose that you are deploying a new instance of Acumatica ERP on a new machine. In this case, you would also need to install the RabbitMQ message broker. On the other side, when you are upgrading Acumatica ERP or have an already installed RabbitMQ message broker, you would need to specify the broker connection parameters instead of installing a new one.
 
@@ -143,7 +142,7 @@ When you’re deploying or upgrading an Acumatica ERP instance by using the Acum
 -   Install a new instance of the RabbitMQ message broker. This is ideal for initial setup.
 -   Connect to an existing RabbitMQ message broker. This option works well if you already have RabbitMQ installed and configured on your local machine or a remote server.
 
-## Confirmation of Configuration Page { .section}
+## Confirmation of Configuration Page
 
 On the last page, you can review and confirm the overall instance configuration.
 
@@ -151,7 +150,7 @@ If you want to save the configuration settings in an XML file on your computer f
 
 If you click **Finish**, the deployment of the Acumatica ERP instance will begin.
 
-## Configuration Wizard Logs { .section}
+## Configuration Wizard Logs
 
 By default, the system saves short logs for changes that have been made in an instance by using the Acumatica ERP Configuration wizard or the command-line tool. These changes are saved in the `Logs` folder, which is located in the folder where you have installed Acumatica ERP.
 

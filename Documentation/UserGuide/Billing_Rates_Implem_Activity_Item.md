@@ -1,10 +1,10 @@
-# Billing Rates: To Configure Employee- and Item-Specific Rates {#_c42c1ab3-1421-4225-a42e-d9ce4224d4c2 .task}
+# Billing Rates: To Configure Employee- and Item-Specific Rates
 
 In this activity, you will learn how you can define complex billing rates with rate table codes that define different rates for different services, and for the same services provided by different employees.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the West BBQ Restaurant customer has ordered the service of juicer installation from the SweetLife Fruits &amp; Jams company, along with the service of employee training on operating the juicer. The juicer has been installed. Also, Alberto Jimenez, a junior consultant, has provided two hours of training, and Todd Bloom, a senior consultant, has provided six hours of training. All of the project tasks must be billed at different rates:
 
@@ -15,7 +15,7 @@ Suppose that the West BBQ Restaurant customer has ordered the service of juicer 
 
 Acting as the project accountant, Pam Brawner, you need to configure the rate table that will provide billing rates based on a combination of various settings.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -24,15 +24,15 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *INSTALL* and *TRAINING* non-stock items have been created.
 -   On the [Employees](EP_20_30_00.md) \(EP203000\) form, the *EP00000002 – Todd Bloom* employee record has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create a rate type on the [Rate Types](PM_20_41_00.md) \(PM204100\) form. Then on the [Rate Table Sequences](PM_20_50_00.md) \(PM205000\) form, you will define a rate sequence and the combination of settings that will be used for searching for the applicable billing rate. Then you will configure the rate table code on the [Rate Tables](PM_20_60_00.md) \(PM206000\) form and specify rate values for the different combinations of parameters. Finally, on the [Billing Rules](PM_20_70_00.md) \(PM207000\) form, you will configure a billing rule that uses the rate table code with the applicable billing rates.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring billing rates, you need to launch the Acumatica ERP website and sign in to a company with the *U100* dataset preloaded. You should sign in as the project accountant by using the *brawner* username and the *123* password.
 
-## Step 1: Creating Rate Type and Rate Sequences { .section}
+## Step 1: Creating Rate Type and Rate Sequences
 
 To create a rate type and specify rate sequences with item-specific and employee-specific billing rates, do the following:
 
@@ -65,11 +65,10 @@ To create a rate type and specify rate sequences with item-specific and employee
     -   **Project Task**: Selected
     The rate sequences should look as shown below.
 
-    ![](Images/activity_Projects_Complex_Billing_Rates.png "The rate sequences")
 
 8.  Save the rate sequences you have created.
 
-## Step 2: Specifying Billing Rates { .section}
+## Step 2: Specifying Billing Rates
 
 To specify billing rates for different groups of settings, do the following:
 
@@ -121,7 +120,7 @@ To specify billing rates for different groups of settings, do the following:
     3.  On the **Tasks** tab, on the table toolbar, click **Add Row**, and in the row, select *TRAINING* as the **Project Task**.
     4.  Save the rates.
 
-## Step 3: Creating a Billing Rule {#section_bsd_2cm_wmb .section}
+## Step 3: Creating a Billing Rule
 
 To create a billing rule that uses the employee- and item-specific billing rates that you have configured, do the following:
 

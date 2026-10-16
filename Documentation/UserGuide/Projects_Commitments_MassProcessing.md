@@ -1,8 +1,8 @@
-# Committed Costs: Mass Processing of Documents {#_3df2509f-3664-1122-80fc-406cd07baa17 .concept}
+# Committed Costs: Mass Processing of Documents
 
 This topic explains how to perform mass-processing operations related to project commitments, and how the system generates, changes, or works with documents as a result of the mass processing.
 
-## Mass-Rebuilding Project Commitments { .section}
+## Mass-Rebuilding Project Commitments
 
 In some cases \(for instance, if committed values of the project budget have been modified through external tools or import scenarios\), you may need to rebuild commitments to make committed values match the quantities and amounts of the purchase orders.
 

@@ -1,8 +1,8 @@
-# To Add a Reporting Ledger {#_8c8750b6-2ff8-44ea-98c5-38258e60b17f .task}
+# To Add a Reporting Ledger
 
 In Acumatica ERP, you use the [Ledgers](GL_20_15_00.md) \(GL201500\) form to add a reporting ledger to keep the results of translations or consolidations for reporting purposes. For details on reporting ledgers, see [Reporting Ledgers](GL__CON_Reporting_Ledger.md).
 
-## To Add a Reporting Ledger {#section_bp2_mjv_vxb .section}
+## To Add a Reporting Ledger
 
 1.  Open the [Ledgers](../Shared/../UserGuide/GL_20_15_00.md) \(GL201500\) form.
 
@@ -15,7 +15,7 @@ In Acumatica ERP, you use the [Ledgers](GL_20_15_00.md) \(GL201500\) form to add
 6.  In the **Currency** box, select the currency of the ledger.
 7.  On the form toolbar, click **Save**.
 
-## Notes About the Procedure {#section_cp2_mjv_vxb .section}
+## Notes About the Procedure
 
 The notes in this section describe the nuances of the UI elements available on the form, such as when an element is required and when it is not, and when the system fills in settings by default. This section can include other notes.
 

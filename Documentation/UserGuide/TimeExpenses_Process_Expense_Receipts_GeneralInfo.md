@@ -1,23 +1,24 @@
-# Expense Receipts: General Information {#_3203544f-efa6-4d30-ab01-73cafc1cf2af .concept}
+# Expense Receipts: General Information
 
 Acumatica ERP supports the recording, tracking, and processing of employee-incurred expenses. Users can quickly enter their expense receipts to request reimbursement.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Create an expense receipt and specify its settings
 -   Create an expense receipt by using the Acumatica mobile app
+-   Use AI Automation to recognize values in a receipt file and create an expense receipt.
 -   Approve expense receipts
 -   Create expense receipts automatically based on bank feeds
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create an expense receipt if you are an employee who incurs company-related expenses and wants to record the details of a transaction.
 
 You approve or reject expense receipts if you are a manager responsible for reviewing and approving employee expenses within your workgroup.
 
-## Creation of Expense Receipts { .section}
+## Creation of Expense Receipts
 
 You can use the expense receipt functionality if the *Expense Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
@@ -50,7 +51,7 @@ After you have saved the expense receipt, you can review it, along with other ex
 
 If an expense receipt has the *Open* status, it can be included in an expense claim. You can claim expense receipts individually or all at once. An expense claim may include one expense receipt or multiple receipts with common settings. Receipts for different employees, branches, or customers must be split into different claims. For details, see [Expense Claims: General Information](TimeExpenses_Process_Expense_Claims_GeneralInfo.md).
 
-## Expense Receipt Statuses { .section}
+## Expense Receipt Statuses
 
 An expense receipt can have different statuses, which reflect its processing stage on the [Expense Receipt](EP_30_10_20.md) \(EP301020\) form. The system assigns one of the following statuses to an expense receipt:
 
@@ -63,7 +64,7 @@ An expense receipt can have different statuses, which reflect its processing sta
 -   *Rejected*: The receipt has been rejected.
 -   *Released*: The expense claim associated with the receipt has been released.
 
-## Automatic Generation of Expense Receipts Based on Bank Feeds { .section}
+## Automatic Generation of Expense Receipts Based on Bank Feeds
 
 If the *Bank Feed Integration* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can integrate Acumatica ERP with the Plaid or MX bank feeds. With this integration, you can automatically import bank transactions and create expense receipts based on these transactions. For details, see [Integrating Acumatica ERP with Bank Feeds](CA__MNG_Bank_Feed_Integration.md).
 

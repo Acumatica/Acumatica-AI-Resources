@@ -1,4 +1,4 @@
-# Conditional Properties: General Information {#_4b92ada5-1251-47dd-8cab-aaa68f501680 .concept}
+# Conditional Properties: General Information
 
 In the Customization Project Editor, you can configure the properties of any field or action to depend on conditions. As a result, depending on whether the condition is met, any of the following may be true of the UI element that corresponds to the field or action:
 
@@ -8,14 +8,14 @@ In the Customization Project Editor, you can configure the properties of any fie
 -   A default value may be filled in.
 -   A different name may be used.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Define different kinds of conditions
 -   Specify conditions for the properties of UI elements
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure conditions in the following cases:
 
@@ -24,7 +24,7 @@ You configure conditions in the following cases:
 -   You need to change the name of an element or specify its default value based on some condition.
 -   You need to show at least one element on the form conditionally.
 
-## Configuration of Conditions { .section}
+## Configuration of Conditions
 
 In the Customization Project Editor, you can change the following properties of the field or action underlying any UI element conditionally:
 

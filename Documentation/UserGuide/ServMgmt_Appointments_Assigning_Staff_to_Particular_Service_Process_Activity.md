@@ -1,16 +1,16 @@
-# Staff Assignment: To Assign Staff To Services in an Appointment {#_f2d26164-e485-41b3-9712-803d33742952 .task}
+# Staff Assignment: To Assign Staff To Services in an Appointment
 
 This activity guides you through the process of assigning a staff member to a specific service in an appointment.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the GoodFood One Restaurant customer has contacted the SweetLife Service and Equipment Sales Center to request a **juicer installation** service, followed by a **training** service once the installation is complete. The customer requires that each employee performing these services hold specific licenses and skills to ensure the highest quality of work. The service manager, **Maia Davis**, has already created an appointment for this request in the system.
 
 Acting as the service manager, you now need to assign a staff member to each service in the appointment, based on the staff members’ skills and licenses and the requirements defined for the services.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -33,11 +33,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
     -   *TRAINING*: For this service, *TRAINING* has been listed on the **Service Skills** tab, and *TRAINING* has been listed on the **Service License Types** tab.
 -   On the [Appointments](FS_30_02_00.md) \(FS300200\) form, the *000040-1* appointment has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Appointments](FS_30_02_00.md) \(FS300200\) form, you will assign a staff member to each service of an appointment by using the **Add Staff** dialog box.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -45,7 +45,7 @@ Before you start this activity, do the following:
 2.  In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date *1/30/2026*. For simplicity, you will use this business date to create and process all documents in this activity.
 3.  After signing in, make sure that the *Service Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form.
 
-## Step: Assigning Staff Members to Services { .section}
+## Step: Assigning Staff Members to Services
 
 Do the following to assign a staff member to each service to be provided in the appointment:
 
@@ -73,7 +73,6 @@ Do the following to assign a staff member to each service to be provided in the 
 6.  On the form toolbar, click **Save**.
 7.  Review the **Staff** tab. Notice that two staff members have been added to the appointment; each is assigned to a particular service.
 
-![](Images/ServMgmt_Appointments_Assigning_Staff_to_Services.png "Staff members assigned to services")
 
 **Parent topic:**[Creating Appointments](../UserGuide/ServMgmt_Processing_Appointments_Mapref.md)
 

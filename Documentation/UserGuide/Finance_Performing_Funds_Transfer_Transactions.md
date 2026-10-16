@@ -1,4 +1,4 @@
-# Funds Transfers: Generated Transactions {#_cf225191-f9ad-4b2b-b953-015387f1e082 .concept}
+# Funds Transfers: Generated Transactions
 
 When you release a funds transfer, its status changes to *Released*, and the system generates the following batch of transactions to be posted to the general ledger.
 

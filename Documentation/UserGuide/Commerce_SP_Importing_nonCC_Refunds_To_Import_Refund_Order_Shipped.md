@@ -1,14 +1,14 @@
-# Importing Non-Card Refunds: To Process a Refund for a Shipped Order {#_640fd10b-284b-4f51-8410-aee43dd4a6ab .task}
+# Importing Non-Card Refunds: To Process a Refund for a Shipped Order
 
 The following activity will walk you through the process of importing a partial refund from the BigCommerce store to Acumatica ERP. This partial refund is for a shipped order that has already been fully delivered.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that a representative of the West BBQ Restaurant customer placed an order for 10 jars of plum jam in the SweetLife Fruits &amp; Jams retail store, and paid the entire order amount upfront in cash. Four days later, after the purchased jam has already been delivered, a representative of West BBQ Restaurant returned 2 jars of plum jam. As the store manager, you need to process the return of 2 jars of plum jam. You also want to reimburse the customer $10 for the inconvenience of returning part of the purchase in person.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following features have been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form:
 
@@ -22,7 +22,7 @@ The following entities, which you will use in this activity, have been predefine
 -   The *REFUNDAMT* non-stock item on the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form
 -   The *EREFUND* reason code on the [Reason Codes](CS_21_10_00.md) \(CS211000\) form
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -39,7 +39,7 @@ In this activity, you will do the following:
 11. On the [Sales Orders](SO_30_10_00.md) form, review the updated sales order, and on the [Payments and Applications](AR_30_20_00.md) form, review the updated prepayment.
 12. On the [Payments and Applications](AR_30_20_00.md) form, review the refunds created for each of the return orders.
 
-## System Preparation { .section}
+## System Preparation
 
 To prepare the system for the steps of this activity, do the following:
 
@@ -49,7 +49,7 @@ To prepare the system for the steps of this activity, do the following:
     3.  [Importing Non-Card Refunds: Implementation Activity](Commerce_SP_Importing_nonCC_Refunds_Implem_Activity.md)
 2.  Sign in to the admin area of the Shopify store as the store administrator.
 
-## Step 1: Creating a Sales Order in Shopify { .section}
+## Step 1: Creating a Sales Order in Shopify
 
 To create an order for ten 96-ounce jars of plum jam from the Shopify admin area, do the following:
 
@@ -68,7 +68,7 @@ To create an order for ten 96-ounce jars of plum jam from the Shopify admin area
 
 **Tip:** Besides the order number, Shopify assigns each order an identifier \(a numeric sequence\) that you can see in the URL of the Shopify order page. You can use this identifier to locate the necessary order on the [Process Data](BC_50_15_00.md) \(BC501500\) form \(in the **External ID** column\), for example, if you need to import an individual order from the Shopify store to Acumatica ERP.
 
-## Step 2: Importing the Sales Order { .section}
+## Step 2: Importing the Sales Order
 
 To import the sales order you created in the previous step to Acumatica ERP, do the following:
 
@@ -87,7 +87,7 @@ To import the sales order you created in the previous step to Acumatica ERP, do 
 9.  On the form toolbar, click **Process All**.
 10. In the **Processing** dialog box, which opens, review the results of the processing, and click **Close** to close the dialog box.
 
-## Step 3: Reviewing the Imported Sales Order { .section}
+## Step 3: Reviewing the Imported Sales Order
 
 To review the imported sales order, do the following:
 
@@ -102,7 +102,7 @@ To review the imported sales order, do the following:
     On the **Payments** tab, review the details of the prepayment that was created and applied to the sales order when the sales order was imported. Notice that the **Payment Method** and **Cash Account** columns show the payment method and cash account \(*ONLINE* and *10250ST*, respectively\) that were defined in Acumatica ERP and mapped to the *MANUAL* store payment method. The prepayment has the *Balanced* status. Before you can process and import a refund in the Shopify store, you need to release this prepayment.
 
 
-## Step 4: Releasing the Imported Payment { .section}
+## Step 4: Releasing the Imported Payment
 
 To release the payment that was imported from the Shopify store along with the sales order, do the following:
 
@@ -113,14 +113,14 @@ To release the payment that was imported from the Shopify store along with the s
 
 3.  Close the pop-up window with the [Payments and Applications](AR_30_20_00.md) form to return to the [Sales Orders](SO_30_10_00.md) form.
 
-## Step 5: Creating a Shipment for the Imported Order { .section}
+## Step 5: Creating a Shipment for the Imported Order
 
 To create a shipment for the order you have imported, do the following:
 
 1.  While you are viewing the imported order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, click **Create Shipment** on the form toolbar.
 2.  In the **Specify Shipment Parameters** dialog box, which opens, make sure the current date and the *RETAIL* warehouse are selected, and click **OK**. The system creates a shipment and opens it on the [Shipments](SO_30_20_00.md) \(SO302000\) form.
 
-## Step 6: Confirming the Shipment for the Imported Order { .section}
+## Step 6: Confirming the Shipment for the Imported Order
 
 To confirm the shipment for the order, do the following:
 
@@ -134,7 +134,7 @@ Notice that the shipment has been assigned the *Confirmed* status. Make a note o
 
 Because you have confirmed the shipment, on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, the status of the imported sales order has changed to *Completed*.
 
-## Step 7: Synchronizing the Shipment with the Shopify Store { .section}
+## Step 7: Synchronizing the Shipment with the Shopify Store
 
 To synchronize with the Shopify store the shipment that you have created and confirmed, do the following:
 
@@ -150,7 +150,7 @@ To synchronize with the Shopify store the shipment that you have created and con
 4.  On the form toolbar, click **Process**.
 5.  In the **Processing** dialog box, which opens, review the results of the processing, and click **Close** to close the dialog box.
 
-## Step 8: Issuing a Refund in the Shopify Store { .section}
+## Step 8: Issuing a Refund in the Shopify Store
 
 To issue a refund for units of an individual item in your Shopify store, do the following:
 
@@ -163,7 +163,7 @@ To issue a refund for units of an individual item in your Shopify store, do the 
 7.  To reimburse the customer for having to return part of the purchase, in the **Manual** box, change the amount to `108.32`.
 8.  Click **Refund $108.32**.
 
-## Step 9: Importing the Refund { .section}
+## Step 9: Importing the Refund
 
 To import the refund to Acumatica ERP, do the following:
 
@@ -178,7 +178,7 @@ To import the refund to Acumatica ERP, do the following:
 9.  On the form toolbar, click **Process**.
 10. In the **Processing** dialog box, which opens, review the results of the processing, and click **Close** to close the dialog box.
 
-## Step 11: Reviewing the Return Order { .section}
+## Step 11: Reviewing the Return Order
 
 To review the return orders created in Acumatica ERP as a result of the importing of refunds, do the following:
 
@@ -191,7 +191,7 @@ To review the return orders created in Acumatica ERP as a result of the importin
     -   In the Summary area, notice that the **Customer Order Nbr.** and **Description** boxes contain the reference number of the original order in the Shopify store. In the **External Reference** box, the system has inserted the identifier of the refund in the Shopify store.
     -   On the **Details** tab, the system has inserted two lines: one with the returned item \(*PLUMJAM96*\) with a quantity of 2; the other one with the *REFUNDAMT* non-stock item, which reflects an order-level refund of $10 that you specified in the Shopify store. Notice that in the **Reason Code** column of both lines, the system inserted *EREFUND*, which is the reason code you specified in the **Refund Reason Code** box on the **Orders** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form in [Importing Non-Card Refunds: Implementation Activity](Commerce_SP_Importing_nonCC_Refunds_Implem_Activity.md).
 
-## Step 12: Reviewing the Refund { .section}
+## Step 12: Reviewing the Refund
 
 To review the refund created for the return order, do the following:
 

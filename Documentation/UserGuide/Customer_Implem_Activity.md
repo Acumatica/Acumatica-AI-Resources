@@ -1,20 +1,20 @@
-# Customers: Implementation Activity {#_9e9f3669-1d14-4dc4-a314-8c03ee2e5861 .task}
+# Customers: Implementation Activity
 
 The following activity will walk you through the process of creating a new customer.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_wnl_4jv_vxb .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company wants to create a customer account for one of the local cafes, Prime Cafe, to enable them to buy the SweetLife products on credit, with payments due in 30 days.
 
 Acting as a SweetLife administrator, you need to create the needed customer account in the system.
 
-## Process Overview {#section_znl_4jv_vxb .section}
+## Process Overview
 
 In this activity, you will create a new customer on the [Customers](AR_30_30_00.md) \(AR303000\) form. On the tabs of this form, you will specify the customer's address and contact information. You will then review the default settings, which the system inserted to the customer account when creating the customer, and then review the credit terms for the customer.
 
-## System Preparation {#section_isg_njv_vxb .section}
+## System Preparation
 
 Before you start creating a customer, make sure that the following tasks have been performed in the system:
 
@@ -22,7 +22,7 @@ Before you start creating a customer, make sure that the following tasks have be
 2.  The credit terms that are used by customers have been created, as described in [Credit Terms: To Define Single-Installment Credit Terms](../ImplementationGuide/config_Basic_Company_Implem_Activity_Credit_Terms.md).
 3.  The default customer class has been created, as described in [Accounts Receivable: To Create a Customer Class](../ImplementationGuide/config_Basic_Company_Implem_Activity_Customer_Classes.md).
 
-## Step 1: Creating a Customer Account {#section_d4l_4jv_vxb .section}
+## Step 1: Creating a Customer Account
 
 To create a customer account, do the following:
 
@@ -37,7 +37,7 @@ To create a customer account, do the following:
 3.  On the **General** tab, make sure that **Customer Class** is set to *DEFAULT*.
 4.  On the form toolbar, click **Save**.
 
-## Step 2: Specifying Contact Information and Address {#section_f4l_4jv_vxb .section}
+## Step 2: Specifying Contact Information and Address
 
 To specify contact information and address for the customer, do the following:
 
@@ -52,7 +52,7 @@ To specify contact information and address for the customer, do the following:
     -   **Postal Code**: `07501`
 3.  On the form toolbar, click **Save**.
 
-## Step 3: Reviewing the Statement Cycle {#section_h4l_4jv_vxb .section}
+## Step 3: Reviewing the Statement Cycle
 
 To review the customer's statement cycle, do the following:
 
@@ -61,7 +61,7 @@ To review the customer's statement cycle, do the following:
 3.  In the **Credit Verification Rules** section, select *Disabled* in the **Credit Verification** box.
 4.  On the form toolbar, click **Save**.
 
-## Step 4: Reviewing the Default Customer Information {#section_j4l_4jv_vxb .section}
+## Step 4: Reviewing the Default Customer Information
 
 To review the default customer information, do the following:
 

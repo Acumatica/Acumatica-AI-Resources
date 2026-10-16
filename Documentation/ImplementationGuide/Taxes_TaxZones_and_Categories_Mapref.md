@@ -1,4 +1,4 @@
-# Tax Zones and Tax Categories {#_be4d6333-82c9-4148-980c-e11c5252de60 .concept}
+# Tax Zones and Tax Categories
 
 The topics of this chapter describe how to create tax zones and tax categories in Acumatica ERP.
 

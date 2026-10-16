@@ -1,4 +1,4 @@
-# Attributes {#_51966695-681a-4ca7-9365-d1b5058a1596 .concept}
+# Attributes
 
 In Acumatica ERP, you can define attributes for flexible, meaningful classification of leads, opportunities, customers, and inventory items in your company. An attribute is a property \(such as age or industry\) that enables you to specify additional information for objects in the system. For some entities, attributes are defined in the context of a class, which is a grouping of the business accounts \(including leads, opportunities, customers, and cases\), projects, and stock and non-stock items by one or more of their properties. For other entities, attributes can be added directly to a corresponding data entry form.
 
@@ -8,9 +8,7 @@ For each class, you can define a list of attributes to gather class-specific inf
 -   Accounts payable: Attributes may be used for storing additional information about vendors. You define a list of attributes on the [Vendor Classes](AP_20_10_00.md) \(AP201000\) form and then fill in attribute values for a vendor on the [Vendors](AP_30_30_00.md) \(AP303000\) form.
 -   Accounts receivable: Attributes store additional properties of contracts and information about customers. You define a list of attributes for customers on the [Customer Classes](AR_20_10_00.md) \(AR201000\) form and then fill in attribute values for particular customers on the [Customers](AR_30_30_00.md) \(AR303000\) form. For contracts, you use [Contract Templates](CT_20_20_00.md) \(CT202000\) to define the list of attributes and then use the [Customer Contracts](CT_30_10_00.md) \(CT301000\) form to fill in attribute values for each individual contract.
 
-    **Note:**
-
-    Some entities are related, such as a customer and its associated business account, or a vendor and its associated business account. However, an attribute defined on the [Customer Classes](AR_20_10_00.md) or [Vendor Classes](AP_20_10_00.md) form is class-specific. Therefore, it does not appear for the business account associated with the customer or vendor on the [Business Accounts](CR_30_30_00.md) \(CR303000\) form unless the same attribute is also defined on the [Business Account Classes](CR_20_80_00.md) \(CR208000\) form for the business account class to which the business account belongs. Similarly, an attribute defined for a particular business class does not appear for the associated customer or vendor on the [Customers](AR_30_30_00.md) or [Vendors](AP_30_30_00.md) form unless the attribute is defined for the customer class or vendor class.
+    **Tip:** Some entities are related, such as a customer and its associated business account, or a vendor and its associated business account. However, an attribute defined on the [Customer Classes](AR_20_10_00.md) or [Vendor Classes](AP_20_10_00.md) form is class-specific. Therefore, it does not appear for the business account associated with the customer or vendor on the [Business Accounts](CR_30_30_00.md) \(CR303000\) form unless the same attribute is also defined on the [Business Account Classes](CR_20_80_00.md) \(CR208000\) form for the business account class to which the business account belongs. Similarly, an attribute defined for a particular business class does not appear for the associated customer or vendor on the [Customers](AR_30_30_00.md) or [Vendors](AP_30_30_00.md) form unless the attribute is defined for the customer class or vendor class.
 
 -   Inventory: Attributes store additional properties of stock and non-stock items. You define a list of attributes on the [Item Classes](IN_20_10_00.md) \(IN201000\) form for each class, and then you fill in attribute values for individual inventory items on the [Stock Items](IN_20_25_00.md) \(IN202500\) and [Non-Stock Items](IN_20_20_00.md) \(IN202000\) forms.
 -   Projects: Attributes store additional properties of projects, projects tasks, equipment, account groups, and service contracts. You define a list of attributes on the [Project Attributes](PM_20_20_00.md) \(PM202000\) form.
@@ -19,9 +17,9 @@ For each class, you can define a list of attributes to gather class-specific inf
 -   Equipment management: Attributes store additional properties of equipment and service contracts. You define a list of attributes on the [Equipment Types](FS_20_08_00.md) \(FS200800\) form for each equipment type and on the [Project Attributes](PM_20_20_00.md) \(PM202000\) form for contracts. You then fill in attribute values for equipment on the [Equipment](FS_20_50_00.md) \(FS205000\) form. For service contracts, you use the [Service Contracts](FS_30_57_00.md) \(FS305700\) form to fill in attribute values.
 -   Route management: You can use attributes to store additional properties of vehicles, route executions, and route service contracts. You define a list of attributes on the [Vehicle Types](FS_20_42_00.md) \(FS204200\) form for each vehicle type, on the [Routes](FS_20_37_00.md) \(FS203700\) form for each route, and on the [Project Attributes](PM_20_20_00.md) \(PM202000\) form for route service contracts. You then fill in attribute values for vehicles on the [Vehicles](FS_20_36_00.md) \(FS203600\) form. For route executions, you fill in attribute values on the [Route Document Details](FS_30_40_00.md) \(FS304000\) form. For route service contracts, you use the [Route Service Contracts](FS_30_08_00.md) \(FS300800\) form to fill in attribute values.
 
-Attributes assigned to an entity are displayed on the **Attributes** tab of a corresponding data entry form. Also, attributes can be added as boxes to an additional tab \(the **User-Defined Fields** tab\) of a data entry form.
+Attributes assigned to an entity are displayed on the **Attributes** tab of a corresponding data entry form. An attribute can also be used as a user-defined field and placed in any section of a data entry form in UI Configuration mode.
 
-## Attributes in Classes { .section}
+## Attributes in Classes
 
 A class contains a set of attributes that must be available in any instance of the class. For example, any lead of a given class must contain all the attributes defined for the lead class.
 
@@ -46,11 +44,11 @@ You specify the attributes for a class by selecting the attributes from the attr
 
 You can deactivate an obsolete attribute for a particular entity class by clearing the **Active** check box for this attribute on the entity class form. In this case, the deactivated attribute will no longer be displayed for records of the class, but all attribute values that have already been specified for existing records still will be stored in the database. If you reactivate the attribute, its values will become visible in the system again. However, if it is not necessary to preserve the data related to an obsolete attribute, you can deactivate the attribute and then delete it by using the Delete Row button on the table toolbar. In this case, the attribute will be permanently deleted from the class and all attribute values will be cleared for the records of the class.
 
-## Import of Records with Attributes { .section}
+## Import of Records with Attributes
 
 When a record with attributes is being imported to the system through an import scenario, an error may occur if the target class of the record does not include any of the attributes specified for the record. If this is the case, you may need to verify whether the attribute is correctly specified in the source record or consider adding the attribute to the target class.
 
-## Attribute Types { .section}
+## Attribute Types
 
 For each attribute created by using the [Attributes](CS_20_50_00.md) \(CS205000\) form, you need to specify its type, which can be one of the following:
 

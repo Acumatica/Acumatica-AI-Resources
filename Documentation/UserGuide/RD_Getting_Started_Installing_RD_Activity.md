@@ -1,20 +1,20 @@
-# Report Designer: To Install the Acumatica Report Designer {#_7b59f7ec-4153-48c9-95e3-5764e440f4dd .task}
+# Report Designer: To Install the Acumatica Report Designer
 
 In the following activity, you will learn how to install and launch the Acumatica Report Designer.
 
-## Story {#section_rcx_s2b_2fc .section}
+## Story
 
 Suppose that you are a technical specialist in your company who is working on customizations. An accountant of the company has requested a number of reports that are not among the predefined reports. To develop reports based on the data of Acumatica ERP, you have decided to use the Acumatica Report Designer, which is included in the Acumatica ERP installation package.
 
-## Process Overview {#section_scx_s2b_2fc .section}
+## Process Overview
 
 In the Acumatica ERP Installer wizard, you will select the option to install the Acumatica Report Designer. After the application is installed, you will start it.
 
-## System Preparation {#section_tcx_s2b_2fc .section}
+## System Preparation
 
 Before you begin the steps of the activity, download `AcumaticaERPInstall.msi` from the following folder: `http://acumatica-builds.s3.amazonaws.com/index.html?prefix=builds/<Version>/<buildNumber>/AcumaticaERP`. In this link, *Version* and *buildNumber* are the version and build number that correspond to the build of Acumatica ERP that is installed in your company.
 
-## Step 1: Installing the Acumatica Report Designer {#section_ucx_s2b_2fc .section}
+## Step 1: Installing the Acumatica Report Designer
 
 To install the Acumatica Report Designer, do the following:
 
@@ -26,7 +26,7 @@ To install the Acumatica Report Designer, do the following:
 6.  Continue the installation process.
 7.  When the installation is finished, close the window of the Acumatica ERP Installer wizard.
 
-## Step 2: Starting the Acumatica Report Designer {#section_vcx_s2b_2fc .section}
+## Step 2: Starting the Acumatica Report Designer
 
 To start the Acumatica Report Designer, on the Windows Start menu, select **All apps** &gt; **Acumatica** &gt; **Report Designer**.
 

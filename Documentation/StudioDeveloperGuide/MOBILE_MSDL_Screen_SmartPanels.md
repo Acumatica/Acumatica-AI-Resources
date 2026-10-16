@@ -1,4 +1,4 @@
-# Mapping a Smart Panel {#_e238d9b9-2d0c-4335-b74c-e64054c1bdda .concept}
+# Mapping a Smart Panel
 
 This section describes how to map a smart panel \(a complex dialog box\) to the Acumatica mobile app. For details on smart panels, see [Dialog Box \(PXSmartPanel\)](../CustomizationPlatform/CG_GL_UI_Dialogs.md).
 
@@ -10,7 +10,7 @@ To map a smart panel, you need to perform the following steps, which are describ
 
 You can see a complete example of a smart panel mapping in [Example: Adding a Smart Panel on the Sales Orders \(SO301000\) Form](#_7900dd3b-ec6b-49e5-84a0-75c8174ee2ea).
 
-## Locating of Objects to Be Mapped {#_6364cd2a-3865-46dd-a045-04a244187f4b .section}
+## Locating of Objects to Be Mapped
 
 The general idea of learning the object names that you need to map is the following: To learn the name of an action, you search for the name of the action in the ASPX file of the form. To learn the name of a container and its fields, you search for the container and its fields in the WSDL schema of the form.
 
@@ -34,7 +34,7 @@ To map actions on the smart panel, you should learn their names by doing the fol
     **Note:** If an action does not have the `CommandName` attribute, you can use any name for it in the mapping. For example, for the action with no `CommandName` and DialogResult = "Ok", you can add the action under the "Ok" name.
 
 
-## Mapping of an Action That Opens a Smart Panel {#_cf15f3c5-8c2e-4db2-8aff-7d1c0a67cda7 .section}
+## Mapping of an Action That Opens a Smart Panel
 
 To map an action that opens a smart panel, do the following:
 
@@ -57,7 +57,7 @@ To map an action that opens a smart panel, do the following:
     For details, see [recordAction](mobile_ref_msdl_objtypes_recordaction.md).
 
 
-## Mapping of a Smart Panel {#_d36ec85d-534c-4a4c-ba3b-e4b557867f76 .section}
+## Mapping of a Smart Panel
 
 To map a smart panel, do the following:
 
@@ -122,7 +122,7 @@ To map a smart panel, do the following:
     ```
 
 
-## Example: Adding a Smart Panel on the Sales Orders \(SO301000\) Form {#_7900dd3b-ec6b-49e5-84a0-75c8174ee2ea .section}
+## Example: Adding a Smart Panel on the Sales Orders \(SO301000\) Form
 
 The following code demonstrates how to map the **Inventory Lookup** smart panel, which is implemented on the **Details** tab of the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form. For details on creating a mapping of a form in a customization project, see [To Update a Screen of a Mobile App](mobile_updatescreen.md) and [To Add a Screen to the Mobile Site Map \(Example\)](MOBILE_MobileSiteMap_AddingMSDL.md).
 
@@ -191,7 +191,6 @@ update screen SO301000 {
 
 The resulting smart panel looks as shown in the following screenshots. The first screenshot shows the mapped **Add Stock Item** action on the menu of the Sales Order screen. The second screenshot shows the **Inventory** smart panel with two stock items selected. The third screenshot shows the stock items added to the **Details** tab of the Sales Order screen.
 
-![](Images/RN_2021_R1_Mobile_SmartPanel.png "Using the Inventory smart panel")
 
 **Parent topic:**[Dialog Boxes and Smart Panels](../StudioDeveloperGuide/MOBILE_MSDL_Screen_DialogBoxes_SmartPanels.md)
 

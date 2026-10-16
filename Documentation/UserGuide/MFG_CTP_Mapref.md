@@ -1,4 +1,4 @@
-# Processing Capable to Promise {#_6998db58-208a-472c-89b9-339207f815ad .concept}
+# Processing Capable to Promise
 
 To build customer loyalty, an organization that produces items must be able to promise the customer a shipping date that can be delivered upon. During the process of entering a sales order, the customer provides the requested date to the customer service manager, and the customer wants confirmation that the order will be fulfilled by this date. If the date cannot be met, the customer service manager needs to give the customer a realistic projected date when this order will be fulfilled.
 

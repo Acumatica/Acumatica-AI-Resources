@@ -1,18 +1,24 @@
-# Parameters for Retrieving Records {#_c5e2f36a-0971-4b33-b127-3c3fe14106ff .concept}
+# Parameters for Retrieving Records
 
 When you retrieve records from Acumatica ERP by using the contract-based REST API, you can use the URL parameters to filter records by the conditions you specify, expand particular entities, and retrieve the values of fields that are not defined in the contract of the endpoint. In this chapter, you can find descriptions of these parameters.
 
--   **[$filter Parameter](../IntegrationDevelopmentGuide/IntegrationDev_RESTExample_Parameter_filter.md)**  
+-   **[$filter Parameter \(Contract Version 5\)](../IntegrationDevelopmentGuide/IntegrationDev_RESTExample_Parameter_filter.md)**  
 
--   **[$top Parameter](../IntegrationDevelopmentGuide/IntegrationDev_RESTExample_Parameter_top.md)**  
+-   **[$filter Parameter \(Contract Version 4\)](../IntegrationDevelopmentGuide/IntegrationDev_RESTExample_Parameter_filter_4.md)**  
 
--   **[$skip Parameter](../IntegrationDevelopmentGuide/IntegrationDev_RESTExample_Parameter_skip.md)**  
+-   **[$top Parameter \(Contract Versions 5 and 4\)](../IntegrationDevelopmentGuide/IntegrationDev_RESTExample_Parameter_top.md)**  
 
--   **[$expand Parameter](../IntegrationDevelopmentGuide/IntegrationDev_RESTExample_Parameter_expand.md)**  
+-   **[$skip Parameter \(Contract Versions 5 and 4\)](../IntegrationDevelopmentGuide/IntegrationDev_RESTExample_Parameter_skip.md)**  
 
--   **[$select Parameter](../IntegrationDevelopmentGuide/IntegrationDev_RESTExample_Parameter_select.md)**  
+-   **[$expand Parameter \(Contract Version 5\)](../IntegrationDevelopmentGuide/IntegrationDev_RESTExample_Parameter_expand.md)**  
 
--   **[$custom Parameter](../IntegrationDevelopmentGuide/IntegrationDev_RESTExample_Parameter_custom.md)**  
+-   **[$expand Parameter \(Contract Version 4\)](../IntegrationDevelopmentGuide/IntegrationDev_RESTExample_Parameter_expand_4.md)**  
+
+-   **[$select Parameter \(Contract Version 5\)](../IntegrationDevelopmentGuide/IntegrationDev_RESTExample_Parameter_select.md)**  
+
+-   **[$select Parameter \(Contract Version 4\)](../IntegrationDevelopmentGuide/IntegrationDev_RESTExample_Parameter_select_4.md)**  
+
+-   **[$custom Parameter \(Contract Version 4\)](../IntegrationDevelopmentGuide/IntegrationDev_RESTExample_Parameter_custom.md)**  
 
 
 **Parent topic:**[REST API Examples](../IntegrationDevelopmentGuide/IntegrationDev_RESTExample.md)

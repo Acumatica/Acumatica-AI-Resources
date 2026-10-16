@@ -1,4 +1,4 @@
-# Analytical Reports {#_951f3d4d-c997-4ee4-9900-72aa63c6739d .concept}
+# Analytical Reports
 
 Analytical reports are used to display the consolidated and summarized data in a view defined by the report designer at the report design stage. The analytical reports are used to provide the summarized and aggregated values in a variety of views: the data in the analytical report can be displayed in the monthly, yearly, and quarterly views, and the data can provide information from the point of view of departments, selected account classes, and other dimensions.
 

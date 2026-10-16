@@ -1,4 +1,4 @@
-# Error, Warning, or Informational Notification {#_02b1c143-df92-4d41-ad94-dc1f55c8ffdf .concept}
+# Error, Warning, or Informational Notification
 
 In this chapter, you will learn about the configuration of error, warning, and informational notifications. You will develop an understanding of when to use these notifications and what is the best way to phrase them.
 

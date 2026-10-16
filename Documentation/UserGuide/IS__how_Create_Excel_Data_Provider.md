@@ -1,10 +1,10 @@
-# To Create an Excel Data Provider {#_d05a5d7f-03ec-4b06-85e7-bc5b613456a0 .task}
+# To Create an Excel Data Provider
 
 You use the [Data Providers](SM_20_60_15.md) \(SM206015\) form to create a data provider that defines the structure of external data for Acumatica ERP during data import or data export.
 
 This procedure describes how to create a data provider that works with the records in an Excel file.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Make sure the file for which you are going to create a data provider satisfies the following requirements:
 
@@ -15,7 +15,7 @@ Make sure the file for which you are going to create a data provider satisfies t
 
 In Acumatica ERP you can import values from calculated fields, such as `=C2+D2`. \(For details on calculated fields, see [Using functions and nested functions in Excel formulas](https://support.microsoft.com/en-us/office/using-functions-and-nested-functions-in-excel-formulas-3f4cf298-ded7-4f91-bc80-607533b65f02).\) However, the examples in [Use Cases](IS__con_Use_Cases.md) do not use these values. To import calculated fields, you can also use formulas when you create import scenarios. Another way to import calculated fields is to add a column with values copied from a calculated column next to the column with the formula.
 
-## To Create an Excel Data Provider { .section}
+## To Create an Excel Data Provider
 
 1.  Review the data file for which you need to create the data provider to identify the external data schema. Open the file and review the available columns. Make sure that you understand how the names of the columns match the contents.
 2.  On the [Data Providers](SM_20_60_15.md) \(SM206015\) form, create a provider with the following settings:

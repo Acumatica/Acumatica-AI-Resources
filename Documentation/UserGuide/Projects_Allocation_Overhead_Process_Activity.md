@@ -1,10 +1,10 @@
-# Overhead in the Project Budget: Process Activity {#_d080755a-1ab3-411d-9fe8-d113c321b13b .task}
+# Overhead in the Project Budget: Process Activity
 
 In this activity, you will learn how to estimate the project overhead calculated based on the project costs.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the West BBQ Restaurant customer ordered 40 hours of new-employee training on operating juicers from the SweetLife Fruits &amp; Jams company. The parties agreed that the project should be billed in the amount of $2,000 when the services were provided.
 
@@ -12,7 +12,7 @@ SweetLife's project manager created a project to account for the provided servic
 
 Acting as the project accountant, while preparing monthly reports for the project manager, you need to estimate the project costs that have been already incurred considering the administrative overhead, which is 20% of labor costs.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -22,18 +22,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Allocation Rules](PM_20_75_00.md) \(PM207500\) form, the *OVERHEAD* allocation rule has been created. This allocation rule is configured to process project transactions that represent labor expenses and post the overhead that is calculated as 20% of the transaction amount to the *OVERHEAD* account group. \(For an example of allocation rule configuration, see [Overhead in the Project Budget: Implementation Activity](Projects_Allocation_Overhead_Implem_Activity.md).\)
 -   On the [Project Transactions](PM_30_40_00.md) \(PM304000\) form, the *PM00000023* batch of project transactions related to the project has been created and released.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will first specify the allocation rule for the project task on the [Projects](PM_30_10_00.md) \(PM301000\) form. On the same form, you will then perform allocation for the project.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
 1.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded; you should sign in as project accountant by using the *brawner* username and the *123* password.
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step: Capturing Project Overhead { .section}
+## Step: Capturing Project Overhead
 
 To set up the project for allocation and capture the project overhead, do the following:
 
@@ -49,7 +49,6 @@ To set up the project for allocation and capture the project overhead, do the fo
 
     When the allocation is completed, on the **Balances** tab, review the project balance again \(see below\). Notice that one more expense line with the *OVERHEAD* account group has appeared in the table. The actual amount of the line is $192, which is 20% of $960.
 
-    ![](Images/activity_Projects_Allocation_Overhead.png "The captured overhead in the project expenses")
 
 5.  In the table, click the line with the *OVERHEAD* account group, and on the tab toolbar, click **View Transactions**.
 

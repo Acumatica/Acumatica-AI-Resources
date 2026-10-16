@@ -1,4 +1,4 @@
-# Configuring the REST API {#_91dda8ed-5e92-48a5-a176-9a255506d0d6 .concept}
+# Configuring the REST API
 
 Acumatica ERP provides web services for integration with external systems. Through the web services of Acumatica ERP, external systems can get data records from Acumatica ERP, process these records, and save new or updated records to Acumatica ERP.
 
@@ -16,7 +16,7 @@ To access these web services, you can use the contract-based representational st
 
 -   **[Naming Rules for Endpoints](../IntegrationDevelopmentGuide/IS__con_Endpoint_Naming_Rules.md)**  
 
--   **[Contract Version](../IntegrationDevelopmentGuide/IS__con_Comparison_of_Contract_Versions.md)**  
+-   **[Contract Versions](../IntegrationDevelopmentGuide/IS__con_Comparison_of_Contract_Versions.md)**  
 
 -   **[Comparison of System Endpoints](../IntegrationDevelopmentGuide/IS__con_Comparison_of_Endpoints.md)**  
 

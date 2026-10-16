@@ -1,4 +1,4 @@
-# Layout Rule \(PXLayoutRule\) {#_fd1f3fb5-f5f2-4316-882e-a98232bbfba5 .concept}
+# Layout Rule \(PXLayoutRule\)
 
 The layout of a form is organized into a table of controls, with each control located within a certain column and row. The columns and rows are defined by PXLayoutRule components added to the layout of the form. The properties of the PXLayoutRule component provide the position of the underlying controls and their size and appearance in the UI.
 
@@ -11,7 +11,6 @@ You can use the PXLayoutRule component to do the following to manage the layout 
 -   Hide the labels of controls
 -   Group controls for users' convenience
 
-![](images/CG_GL_Forms_ASPX_LayoutRule_RowsColumns.png "Layout rules to arrange controls within a container")
 
 A layout rule, as the diagram below shows, can be immediately added to the following types of containers:
 
@@ -20,7 +19,6 @@ A layout rule, as the diagram below shows, can be immediately added to the follo
 -   PXTabItem
 -   PXSmartPanel
 
-![](images/CG_GL_Forms_ASPX_LayoutRule.png "Nesting rules for a layout rule in an ASPX page")
 
 The Acumatica Customization Platform supports the following properties for a PXLayoutRule component.
 

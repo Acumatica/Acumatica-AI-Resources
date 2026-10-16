@@ -1,4 +1,4 @@
-# Taxes Included in the Cost of Items: Implementation Checklist {#_8947042e-68f2-4f37-b8d9-d6d6fef8e69e .concept}
+# Taxes Included in the Cost of Items: Implementation Checklist
 
 To ensure that the system is configured properly for including taxes in the cost of items, make sure that the criteria listed in the following table have been met in the system as described.
 

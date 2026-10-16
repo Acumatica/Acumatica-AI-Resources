@@ -1,16 +1,16 @@
-# Customization of a Barcode-Driven Form: General Information {#_e4fe09c5-56c7-4ff5-9873-20adb1d7dd9b .concept}
+# Customization of a Barcode-Driven Form: General Information
 
 The barcode-driven engine uses a component-based system to make its customization easier.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to customize a barcode-driven form.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You customize a barcode-driven form when you need to modify the behavior of this form.
 
-## Customization Approach { .section}
+## Customization Approach
 
 When you customize a barcode-driven form, you do the following:
 
@@ -19,7 +19,7 @@ When you customize a barcode-driven form, you do the following:
     -   If you need to customize the logic of the barcode scan class, see [Customization of a Barcode-Driven Form: Barcode Scan Class](WMSEngine_FormCustomization_WMSClass.md)
     -   If you need to customize a scan component, see [Extension of Scan Components: Customization of Components](WMSEngine_ExtendedComponent_CustomizedComponents.md)
 
-## Namespaces { .section}
+## Namespaces
 
 When you are customizing a barcode-driven form, you may need to import the following namespaces.
 
@@ -42,11 +42,11 @@ using PX.Objects.XX;
 using PX.Objects.XX.WMS;
 ```
 
-## Generic Extensions { .section}
+## Generic Extensions
 
 If you want to create a generic extension for a barcode-driven form, you use the following template. For details on generic extensions, see [Generic Graph Extensions: General Information](../StudioDeveloperGuide/CodeCustomization_GenericExtension_GeneralInfo.md).
 
-```language-csharp
+```csharp
 public abstract class SomeGenericWMSExtension<TScanBasis, TScanGraph> : 
     PXGraphExtension<TScanBasis, TScanGraph>
     where TScanBasis : WarehouseManagementSystem<TScanBasis, TScanGraph> 

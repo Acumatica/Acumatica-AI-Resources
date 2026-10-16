@@ -1,23 +1,23 @@
-# General Ledger: To Create a Chart of Accounts {#_535eabd7-26e2-4777-ac7d-fedf23846eb1 .task}
+# General Ledger: To Create a Chart of Accounts
 
 In this activity, you will learn how to modify the *ACCOUNT* segmented key. You will also define the chart of accounts by uploading a list of GL accounts to the system.
 
-## Story { .section}
+## Story
 
 Suppose that as an administrator, you need to add the chart of accounts of the SweetLife Fruits &amp; Jams company to Acumatica ERP. Further suppose that an accountant of the company has provided a file that lists the GL accounts to be used and their settings \(including the account classes; you will use the predefined classes\). You will review the list of accounts, modify the *ACCOUNT* segmented key, and create the chart of accounts by uploading the file provided by the accountant.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will modify the length of the *ACCOUNT* segmented key on the [Segmented Keys](../UserGuide/CS_20_20_00.md#) \(CS202000\) form. On the [Chart of Accounts](../UserGuide/GL_20_25_00.md) \(GL202500\) form, you will upload the chart of accounts from an Excel file.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start defining the chart of accounts in the system, make sure that the following tasks have been performed:
 
 1.  The company has been created with an actual ledger; see [Company Without Branches: To Configure a Company Without Branches](config_Basic_Company_Implem_Activity_Enabling_Features.md) and [General Ledger: To Create an Actual Ledger](config_Basic_Company_Implem_Activity_Actual_Ledger.md).
 2.  The [Basic\_Company\_COA](Files/Basic_Company_COA.xlsx) file has been downloaded with the chart of accounts of the SweetLife company.
 
-## Step 1: Modifying the *ACCOUNT* Segmented Key { .section}
+## Step 1: Modifying the *ACCOUNT* Segmented Key
 
 To modify the *ACCOUNT* segmented key, do the following:
 
@@ -31,7 +31,7 @@ To modify the *ACCOUNT* segmented key, do the following:
     Users can use account identifiers whose length is less than or equal to the specified length for the segmented key.
 
 
-## Step 2: Uploading the Company's GL Accounts { .section}
+## Step 2: Uploading the Company's GL Accounts
 
 You can create the chart of GL accounts in the system by entering the accounts manually or by uploading a file that lists them. In this activity, you will upload the file that SweetLife's accountant has provided. Do the following to upload the chart of accounts:
 

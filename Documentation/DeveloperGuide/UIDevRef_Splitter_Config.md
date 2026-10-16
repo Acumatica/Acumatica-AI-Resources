@@ -1,10 +1,10 @@
-# Splitter: Configuration {#_c6b885b9-a37d-4ae4-bfa5-cb131b8ad916 .concept}
+# Splitter: Configuration
 
 In this topic, you will learn how to configure a splitter control for different cases.
 
 A splitter has many configuration options, which can be set up by means of the `config` property and the set of attributes in the HTML template. The full list of options is located in the `ISplitterConfig` interface.
 
-## Splitting the Width and the Height { .section}
+## Splitting the Width and the Height
 
 You can organize panes vertically and horizontally by specifying the value of the `split` attribute. By default, the panes are stacked vertically \(`split = "width"`\), which means that the width of the control is split into columns. When you specify `split="height"`, the height of the control is split into rows.
 
@@ -12,7 +12,7 @@ When the panes are stacked vertically \(`split = "width"`\) and the user adjusts
 
 When the panes are stacked horizontally \(`split="height"`\) and the user adjusts the height of one of the panes, this pane's height is changed, but the height of the other pane remains fixed.
 
-## Removing Scrollers From Splitter Panes { .section}
+## Removing Scrollers From Splitter Panes
 
 If you are using a splitter, the system may display scrollers for all panes, such as two horizonal scrollers and two vertical scrollers. This may not look very appealing.
 
@@ -24,9 +24,17 @@ As the result, the paging buttons will appear for the table, and no scroller wil
 
 The following table shows two implementations of this example, along with screenshots showing the result: the first column shows the qp-splitter control, and the second column illustrates the qp-resizer control.
 
-|With qp-splitter|With qp-resizer|
-|----------------|---------------|
-|```
+<table id="_eaaa477e-bbd3-4a93-9f2f-64d133065144"><thead><tr><th>
+
+With qp-splitter
+
+</th><th>
+
+With qp-resizer
+
+</th></tr></thead><tbody><tr><td>
+
+```
 <qp-splitter id="ProdSplitter" 
   split="height" 
   initial-split="50%" state="normal" 
@@ -41,9 +49,10 @@ The following table shows two implementations of this example, along with screen
 </qp-splitter>
 ```
 
- ![](Images/UIDevRef_Splitter_WrongScroller.png)
 
-|HTML Template:```
+</td><td>
+
+HTML Template:```
 <qp-resizer id="ProdResizer" 
   initial-size="200px" 
   min-size="140px">
@@ -63,9 +72,9 @@ TypeScript:
 export class AMProdOper extends PXView {...}
 ```
 
-![](Images/UIDevRef_Splitter_CorrectScroller.PNG)
 
-|
+</td></tr></tbody>
+</table>
 
 **Parent topic:**[Splitter](../DeveloperGuide/UIDevRef_Splitter_Mapref.md)
 

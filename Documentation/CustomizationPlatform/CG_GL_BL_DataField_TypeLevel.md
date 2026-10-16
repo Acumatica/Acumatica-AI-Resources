@@ -1,4 +1,4 @@
-# To Customize a Field on the DAC Level {#_1911428f-d4ca-4207-9396-a744db21cdfb .concept}
+# To Customize a Field on the DAC Level
 
 If an attribute is added to a field declaration within a data access class \(DAC\), the common business logic of this attribute is applied to each data record of this type for each graph that uses this class. Therefore, if multiple Acumatica ERP forms contain controls for the same field, a change to an attribute of the field in the DAC modifies the behavior of these controls for the field on all forms.
 
@@ -33,7 +33,7 @@ The Data Class editor shows the custom and original attributes of the field in t
 
 When you click **Save** on the editor toolbar, the editor updates the *DAC* item in the database.
 
-## To Start the Customization of a Field from the Screen Editor { .section}
+## To Start the Customization of a Field from the Screen Editor
 
 If you customize a form by using the [Screen Editor](../UserGuide/AU_20_45_20.md), you may need to change the attributes of a data field to change the appearance or behavior of an appropriate control on the form. If the control node is selected in the Control Tree, you can open the [Data Class](../UserGuide/AU_DataClassEditor.md) for the field immediately from the Screen Editor. To do this, perform the following actions:
 

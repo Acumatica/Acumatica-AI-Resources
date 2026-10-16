@@ -1,10 +1,10 @@
-# To Review Unprocessed Inventory Transactions {#_a6e1a42a-c39d-44b4-bf28-827e408c419b .task}
+# To Review Unprocessed Inventory Transactions
 
 When you prepare the Inventory module for closing financial periods, you must make sure that all inventory transactions have been processed. In this topic, you will read about how to review the unprocessed transactions in the Inventory module by using the [Close Financial Periods](IN_50_90_00.md) \(IN509000\) form.
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## To Review Unprocessed Inventory Transactions { .section}
+## To Review Unprocessed Inventory Transactions
 
 1.  Open the [Close Financial Periods](../Shared/../UserGuide/IN_50_90_00.md) \(IN509000\) form.
 2.  In the unlabeled column, select the check boxes in the rows of the financial periods for which you want to review financial transactions.

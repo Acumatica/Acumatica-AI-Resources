@@ -1,8 +1,8 @@
-# Cases: Configuration Prerequisites {#_33e5e7a5-76ac-4d5a-a339-e291f6f29751 .concept}
+# Cases: Configuration Prerequisites
 
 Before you start creating cases in Acumatica ERP, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the following features must be enabled:
 
@@ -10,7 +10,7 @@ On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the followin
 -   *Case Management* in the *Customer Management* group of features. This feature gives customer support personnel the ability to create support cases, assign cases to owners, and process cases.
 -   *Contract Management* in the *Advanced Financials* group of features if you will be using contracts with customers for support services.
 
-## Configuring the System { .section}
+## Configuring the System
 
 Before you start creating cases in Acumatica ERP, you need to make sure that the following tasks have been performed:
 

@@ -1,8 +1,8 @@
-# To Reopen a Financial Period in Fixed Assets {#_a0f81b5f-ab10-4b5f-b6f7-4d97fc8cdb0d .task}
+# To Reopen a Financial Period in Fixed Assets
 
 You may need to reopen a financial period if it has been closed by mistake or if you need to post any adjustments to this period. To reopen a financial period in the fixed asset subledger, you use the [Close Financial Periods](FA_50_90_00.md) \(FA509000\) form.
 
-## To Reopen a Financial Period in Fixed Assets {#section_rsg_ljv_vxb .section}
+## To Reopen a Financial Period in Fixed Assets
 
 1.  Open the [Close Financial Periods](FA_50_90_00.md) \(FA509000\) form.
 2.  In the **Company** box of the Selection area, select the company for which you want to reopen a financial period.

@@ -1,4 +1,4 @@
-# To Create an Inquiry-Based Widget {#_e80a265c-d6ca-4134-a073-039dc243383d .task}
+# To Create an Inquiry-Based Widget
 
 An inquiry widget retrieves data for the widget from an inquiry form, such as a generic inquiry form or a custom inquiry form. Inquiry-based widgets that are available in Acumatica ERP or an Acumatica Framework-based application by default include chart widgets, table widgets, and KPI widgets.
 
@@ -10,7 +10,7 @@ To create an inquiry-based widget, you need to perform the basic steps that are 
 -   The ability to drill down in the inquiry form when a user clicks on the widget caption
 -   Verification of the user's access rights to the widget, which is performed based on the user's access rights to the inquiry form
 
-## To Create an Inquiry-Based Widget { .section}
+## To Create an Inquiry-Based Widget
 
 1.  In the project of your Acumatica ERP extension library or your Acumatica Framework-based application, create a data access class \(DAC\) that implements the IBqlTable interface and stores the parameters of the widget. We recommend that you inherit the DAC from the PX.Dashboards.Widgets.InquiryBasedWidgetSettings class, which provides the following parameters for the widget:
 
@@ -52,7 +52,7 @@ To create an inquiry-based widget, you need to perform the basic steps that are 
 4.  Compile your Acumatica ERP extension library or Acumatica Framework-based application.
 5.  Run the application, and make sure that the new widget appears in the **Add Widget** dialog box. The widget class, which implements the IDashboardWidget interface, is detected by the system and automatically added to the list of widgets available for selection in the dialog box.
 
-## To Use the Parameters and Fields of the Inquiry Form in the Widget {#_9bb22e3f-db74-4fe1-90fc-4e5d8aad1b1b .section}
+## To Use the Parameters and Fields of the Inquiry Form in the Widget
 
 You can access the parameters and fields of the inquiry from that is used in the widget by using the DataScreenBase class, which is available through the DataScreen property in the widget graph and in the widget class. An instance of the DataScreenBase class, which is created based on the inquiry form selected by a user in the widget settings, contains the following properties:
 

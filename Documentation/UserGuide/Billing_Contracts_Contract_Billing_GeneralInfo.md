@@ -1,8 +1,8 @@
-# Contract Billing: General Information {#_6903de70-0d3b-4e9c-a88d-b2a24d65aa7f .concept}
+# Contract Billing: General Information
 
 In Acumatica ERP, you begin billing the customer after setup and activation of a contract. You can also bill a customer after contract usage has been recorded. You can also perform mass-processing billing for a contract with no usage.
 
-## Learning Objectives {#section_plj_mz4_35b .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,23 +10,23 @@ In this chapter, you will learn how to do the following:
 -   Perform scheduled billingand billing on demand
 -   Perform billing by case, by case activity, and by the number of cases
 
-## Applicable Scenarios {#section_qlj_mz4_35b .section}
+## Applicable Scenarios
 
 You perform the contract billing process when your company needs to bill customers for the services provided to them.
 
-## Billing of Contracts {#section_rlj_mz4_35b .section}
+## Billing of Contracts
 
 After contract activation, your company starts providing the services defined by the contract. Billing is performed for the usage accumulated during a billing period. You also can perform billing for prepaid included services that have not been performed yet. Each time you run contract billing, an invoice is generated.
 
 You can run contract billing for a particular contract on the [Customer Contracts](CT_30_10_00.md) \(CT301000\) form as long as the contract has the *Active* or *Pending Upgrade* status. If needed, you can use the [Run Contract Billing](CT_50_10_00.md) \(CT501000\) form to run the billing process for multiple contracts at once \(mass-processing of billing\).
 
-## Common Billing Scenarios { .section}
+## Common Billing Scenarios
 
 In Acumatica ERP, you can choose the frequency of billing depending on the terms of the contract and specify scheduled billing or on-demand billing.
 
 Also, in Acumatica ERP, you can bill a customer for the services included in a contract on a per-case basis or a per-activity basis, or you can bill multiple contracts simultaneously.
 
-## Billing Scenarios { .section}
+## Billing Scenarios
 
 Common billing scenarios include the following:
 
@@ -35,7 +35,7 @@ Common billing scenarios include the following:
 
 For more information, see [Contract Billing: Contract Examples](AR__CON_Contracts_Examples.md)
 
-## Ways of Billing a Customer { .section}
+## Ways of Billing a Customer
 
 In Acumatica ERP, you can bill a customer in the following ways:
 

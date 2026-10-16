@@ -1,8 +1,8 @@
-# Automated Synchronization: Scheduled Synchronization {#_c6f86a99-bbe1-434c-9980-c93ee0d9c4ed .concept}
+# Automated Synchronization: Scheduled Synchronization
 
 Scheduled synchronization is the process in which each of the synchronization operations—that is, data preparation and data processing—for an entity is executed by an automation schedule. Because data preparation and data processing processes are independent of each other, they are scheduled separately and can be performed in parallel.
 
-## Using Predefined Automation Schedules for Data Preparation and Processing { .section}
+## Using Predefined Automation Schedules for Data Preparation and Processing
 
 Acumatica ERP provides a number of predefined automation schedules—some for data preparation and others for data processing—that you can use as starting points for setting up your own automation schedules. The following table lists these schedules by the **Description** settings on the [Automation Schedules](SM_20_50_20.md) \(SM205020\) form, along with each schedule's predefined frequency of execution.
 
@@ -40,7 +40,7 @@ Once the store has been specified in the filter settings and the schedule has be
 
 For detailed instructions on activating a predefined automation schedule, see [Automated Synchronization: To Configure a New Automation Schedule](Commerce_SP_Automated_Sync_To_Configure_Automation_Schedule.md).
 
-## Defining Automation Schedules for Data Preparation and Data Processing from Scratch { .section}
+## Defining Automation Schedules for Data Preparation and Data Processing from Scratch
 
 You might need to define an automation schedule from scratch for entities that do not need frequent synchronization \(for example, *Customer*\). Acumatica ERP does not provide predefined automation schedules for these entities.
 

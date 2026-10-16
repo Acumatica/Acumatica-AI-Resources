@@ -1,14 +1,14 @@
-# Picking and Packing Operations: Process Activity {#_003da556-cfb7-4d1c-ab75-47d9e371e5f6 .task}
+# Picking and Packing Operations: Process Activity
 
 In the following activity, you will learn how to perform the picking and packing of items for a shipment by using the [Pick, Pack, and Ship](SO_30_20_20.md) \(SO302020\) form.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a warehouse worker of the wholesale warehouse of the SweetLife Fruits &amp; Jams company. Your warehouse manager gives you a task to prepare a shipment. In your organization, the pick and pack workflow is used, which means that you go through the warehouse locations and pick the items listed in the shipment pick list. Then you go to the packing line and pack the picked items into boxes.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -28,7 +28,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, the *000030* sales order for the *COFFEESHOP* customer has been created.
 -   On the [Shipments](SO_30_20_00.md) \(SO302000\) form, the *000029* shipment has been created for this sales order.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -38,14 +38,14 @@ In this activity, you will do the following:
 
 **Tip:** In any working mode, you enter a command or barcode by typing it in the **Scan** box and pressing Enter. In production systems, you will scan the appropriate barcodes rather than manually entering them.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start performing the automated picking and packing operations, you need to perform the following instructions:
 
 1.  Sign in to a company with the *U100* dataset preloaded. You should sign in as a warehouse worker with the *perkins* username and the *123* password.
 2.  On the **Warehouse Management** tab of the [Sales Orders Preferences](SO_10_10_00.md) \(SO101000\) form, make sure the **Display the Pick Tab** and **Display the Pack Tab** check boxes are selected.
 
-## Step 1: Picking Items for Shipping { .section}
+## Step 1: Picking Items for Shipping
 
 To record that the items to be added to a shipment have been picked from the warehouse locations, do the following:
 
@@ -68,7 +68,7 @@ To record that the items to be added to a shipment have been picked from the war
 
 You have picked the items for the shipment, and now you can proceed with packing the shipment.
 
-## Step 2: Packing Items for Shipping { .section}
+## Step 2: Packing Items for Shipping
 
 To record that the items have been packed into a box, do the following:
 
@@ -83,14 +83,13 @@ To record that the items have been packed into a box, do the following:
 7.  On the form toolbar, click **Confirm Package** to confirm the package.
 8.  On the form toolbar, click **Confirm Shipment**.
 
-## Step 3: Reviewing the Shipment { .section}
+## Step 3: Reviewing the Shipment
 
 To review the result and make sure that the shipment has been confirmed, do the following:
 
 1.  While you are still viewing the *000029* shipment on the [Pick, Pack, and Ship](SO_30_20_20.md) \(SO302020\) form, click the link in the **Shipment Nbr.** box. On the [Shipments](SO_30_20_00.md) \(SO302000\) form, which opens, review the shipment that you have processed earlier. It is now assigned the *Confirmed* status \(Item 1 below\).
 2.  Review the **Packages** tab. Notice that one *MEDIUM* box \(Item 2\) is shown in the upper table, and the **Contents of Selected Package** table shows the items \(Item 3\) that you have packed into this box.
 
-    ![](Images/activity_WMS_Pick_Pack.png "Confirmed shipment")
 
 
 The shipment processing is completed.

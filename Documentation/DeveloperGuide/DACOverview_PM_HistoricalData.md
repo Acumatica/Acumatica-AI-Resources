@@ -1,8 +1,8 @@
-# PM DACs: Historical Data {#_2cc804d8-5802-4a2a-b583-289177b47c57 .concept}
+# PM DACs: Historical Data
 
 Historical data access classes \(DACs\) keep historical data on projects' actual amounts and actual quantities.
 
-## Projects' Actual Amounts and Actual Quantities { .section}
+## Projects' Actual Amounts and Actual Quantities
 
 The [PMHistory](https://help.acumatica.com/dacBrowser/PX.Objects.PM/PMHistory) DAC contains the projects' actual amounts and actual quantities aggregated by financial periods. The columns with the *Fin* prefix reflect totals for the company-specific financial period, which depends on the branch ID of the aggregated record. The columns with the *Tran* prefix reflect totals by the master financial period, which is global across the tenant.
 
@@ -18,13 +18,13 @@ WHERE
     AND h.AccountGroupID = 23
 ```
 
-## Change Orders' Amounts and Quantities { .section}
+## Change Orders' Amounts and Quantities
 
 The [PMForecastHistory](https://help.acumatica.com/dacBrowser/PX.Objects.PM/PMForecastHistory) DAC holds period-based actual amounts and quantities, and change orders' amounts and quantities in the project budget structure. The data is stored only in the project currency. The data of this DAC is displayed on the [Project Budget Forecast](../UserGuide/PM_20_96_00.md) \(PM209600\) form. This form is available if the *Budget Forecast* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form. However, the balances are always calculated and stored in the PMForecastHistory table regardless of whether the feature is enabled. The data of this DAC is used for reporting.
 
 **Tip:** [PMHistory](https://help.acumatica.com/dacBrowser/PX.Objects.PM/PMHistory) and PMForecastHistory DACs store different data. In the PMHistory DAC, the amounts are stored both in the base currency and in the project currency; no data on change orders or change requests is included.
 
-## Actual-to-Date Amounts and Budget Amounts in Reports { .section}
+## Actual-to-Date Amounts and Budget Amounts in Reports
 
 You can retrieve actual-to-date values from the [PMHistory](https://help.acumatica.com/dacBrowser/PX.Objects.PM/PMHistory) DAC, which you can join with [PMBudget](https://help.acumatica.com/dacBrowser/PX.Objects.PM/PMBudget) for the respective budget amounts. To join PMHistory and PMBudget, you can use the project ID, project task ID, and account group ID. This join provides the reports at the project, project task, and account group levels of detail.
 

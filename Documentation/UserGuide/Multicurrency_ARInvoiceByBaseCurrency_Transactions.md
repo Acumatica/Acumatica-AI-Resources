@@ -1,8 +1,8 @@
-# Multicurrency Payment of Invoices: Generated Transactions {#_5bd03b84-4c0d-44af-8771-ecbbff8b84ae .concept}
+# Multicurrency Payment of Invoices: Generated Transactions
 
 To be able to pay an AR invoice in a foreign currency by using the base currency or another foreign currency, you create and process an invoice and a payment. To update customer balances, the system generates the GL transactions described in the following sections.
 
-## Transaction Generated for an AR Invoice {#section_jnx_3jv_vxb .section}
+## Transaction Generated for an AR Invoice
 
 When you create and release a one-line AR invoice, the system generates the following GL transaction.
 
@@ -14,7 +14,7 @@ When you create and release a one-line AR invoice, the system generates the foll
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 
-## Transactions Generated for an Invoice Payment {#section_mnx_3jv_vxb .section}
+## Transactions Generated for an Invoice Payment
 
 When you create and release a payment in the base currency, which was converted at a currency rate greater than that of the invoice, the system produces a positive RGOL amount and generates the following GL transaction.
 

@@ -1,8 +1,8 @@
-# To Debug Acumatica Framework-Based Applications {#_17394b71-06d5-41d4-86ca-e677a148f317 .task}
+# To Debug Acumatica Framework-Based Applications
 
 This topic describes how to link an Acumatica Framework-based application site to the database and start the Acumatica Framework application in debug mode.
 
-## To Debug an Application from Visual Studio { .section}
+## To Debug an Application from Visual Studio
 
 1.  In Visual Studio, open the solution of your Acumatica Framework-based application.
 2.  In the `Site` folder of the solution, open the `web.config` file.

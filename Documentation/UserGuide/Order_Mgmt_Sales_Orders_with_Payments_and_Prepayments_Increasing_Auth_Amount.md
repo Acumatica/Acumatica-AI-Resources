@@ -1,8 +1,8 @@
-# Sales with Payments and Prepayments: Increasing of the Authorized Amount {#_2b8e375b-aef9-4f1a-82f6-24a85e13b59a .concept}
+# Sales with Payments and Prepayments: Increasing of the Authorized Amount
 
 When you create a payment whose payment method has the *Credit Card* means of payment, you can capture an amount that is less than, the same as, or more than the authorized payment amount. If you increase the authorized amount, the system changes only the authorized amount in the original transaction. It does not change the other transaction settings, such as the expiration date.
 
-## Setting Up the Functionality { .section}
+## Setting Up the Functionality
 
 To make it possible for users to increase authorized amount for payments, an administrative user should do the following:
 
@@ -10,7 +10,7 @@ To make it possible for users to increase authorized amount for payments, an adm
 2.  In the Summary area \(**Payment Processing** section\), select the **Allow Increasing Authorized Amounts** check box.
 3.  Save the changes.
 
-## Increasing the Authorized Amount in Payments { .section}
+## Increasing the Authorized Amount in Payments
 
 On the [Sales Orders](SO_30_10_00.md) \(SO301000\) and [Invoices](SO_30_30_00.md) \(SO303000\) forms, you can increase the authorized amount for payments on orders and sales invoices, as long as the **SO Unpaid Balance** or **SO Invoice Balance** is greater than *0*.
 
@@ -54,7 +54,7 @@ To increase the authorized amount for a payment on the [Invoices](SO_30_30_00.md
     The system updates the amount in the **Amount Paid** column of the table.
 
 
-## Mass-Processing to Increase the Authorized Amounts { .section}
+## Mass-Processing to Increase the Authorized Amounts
 
 You can use the [Credit Card Processing for Sales](SO_50_70_00.md) \(SO507000\) form to increase the authorized amounts for multiple documents. To do this, you perform the following actions:
 

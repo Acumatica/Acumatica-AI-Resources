@@ -1,10 +1,10 @@
-# Configuring Work Centers: General Information {#_df5c757c-b30c-405d-9fe7-5f9a5189144a .concept}
+# Configuring Work Centers: General Information
 
 In Acumatica ERP Manufacturing Edition, a work center corresponds to a physical or virtual location in a warehouse or production facility. The work center is a required component of configuring bills of material because it determines the availability of processes as well as the costing from overhead, labor, and machines. You use the [Work Centers](../UserGuide/AM_20_70_00.md) \(AM207000\) form to create work centers and manage settings of existing work centers.
 
 In this topic, you will read about the configuration of work centers in Acumatica ERP Manufacturing Edition.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,7 +12,7 @@ In this chapter, you will learn how to do the following:
 -   Create shifts that will be used in work centers
 -   Create the work centers that will be involved in manufacturing
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create work centers in the following cases:
 
@@ -20,7 +20,7 @@ You create work centers in the following cases:
 -   When you have purchased the *Manufacturing* feature, and you need to configure manufacturing in the existing system
 -   When you need to add new work centers or change the settings of existing work centers because of business process changes
 
-## Work Center Creation { .section}
+## Work Center Creation
 
 A work center must be created on the [Work Centers](../UserGuide/AM_20_70_00.md) \(AM207000\) form before you can create bills of material that use the work center. Once you have created any bills of material with a work center, on the **Where Used** tab of this form, you can view the bills of material that use the selected work center. You cannot delete a work center if it is used in any bill of material. Before deleting a work center, we recommend that you open the **Where Used** tab to make sure no bills of material use the work center.
 
@@ -28,7 +28,7 @@ For each work center you create, you specify the following:
 
 -   The warehouse where the work center is located \(required\): You must assign each work center to a warehouse.
 -   The standard cost per labor hour \(optional\): You specify this setting so that the system calculates the planned labor costs for the manufacturing process in which the work center is involved.
--   The planned capacity of the work center \(required\): You specify whether the capacity constraint for scheduling should be the crew size or the machines. The basis for capacity determines whether the operation is scheduled by using run times or machine times. For more information, see [Advanced Planning and Scheduling: Capacity Definition](../UserGuide/MFG_APS_Capacity.md)
+-   The planned capacity of the work center \(required\): You specify whether the capacity constraint for scheduling should be the crew size or the machines. The basis for capacity determines whether the operation is scheduled by using run times or machine times. For more information, see [Advanced Planning and Scheduling \(Classic\): Capacity Definition](../UserGuide/MFG_APS_Capacity.md)
 -   The default scrap action \(optional\): You specify how the system should handle production scrap in the work center. For more information about scrap, see [Configuration of Scrap, Waste, and By-Products in Production: General Information](config_MFG_Scrap_GeneralInfo.md).
 -   The default settings for the labor or material backflushing \(optional\): You define whether backflushing will be used in the work center. These settings are used by default when a user adds new operations and materials to a bill of material. For details on backflushing, see [Production with Backflushing: General Information](../UserGuide/MFG_Backflushing_GeneralInfo.md).
 -   An indicator of whether the work center is dedicated for outside processing: A work center can be created for an outside process, which is performed on a subcontractor side, but you may need to use the information specified in the work center in the bill of material. For more information about outside processing, see [Outside Processing: General Information](../UserGuide/MFG_Outside_Processing_GeneralInfo.md).

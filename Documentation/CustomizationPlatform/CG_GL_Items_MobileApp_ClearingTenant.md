@@ -1,8 +1,8 @@
-# To Reverse Changes Made to Mobile App {#_2686ce8a-9a09-42ce-8728-688f1f0d1748 .task}
+# To Reverse Changes Made to Mobile App
 
 When you are customizing the mobile site map in a customization project by using the Customization Project Editor, you might need to reverse the changes you have made to the site map of the Acumatica mobile app in this project. You can return to the original site map for one tenant or for all tenants without removing the other changes you have made in the customization project.
 
-## To Reverse Changes Made to the Mobile Site Map { .section}
+## To Reverse Changes Made to the Mobile Site Map
 
 To reverse the changes to the mobile site map in a particular customization project, perform the following steps:
 

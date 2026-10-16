@@ -1,10 +1,10 @@
-# Debit and Credit Adjustments: General Information {#_1693bbe7-f8bb-4478-ac2e-8f67b6958a51 .concept}
+# Debit and Credit Adjustments: General Information
 
 To correct released AP documents, you create debit adjustments and credit adjustments on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 
 An open accounts payable bill can be reversed. When you reverse a bill, the system automatically creates a debit adjustment with the same details. Before you save the adjustment, you should type another **Vendor Reference** value if the **Raise an Error On Duplicate Vendor Reference Number** check box is selected on the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form.
 
-## Learning Objectives {#section_jh3_njv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -12,11 +12,11 @@ In this chapter, you will learn how to do the following:
 -   Apply the debit adjustment to an open AP bill
 -   Create and release a credit adjustment for a released AP bill
 
-## Applicable Scenarios {#section_mh3_njv_vxb .section}
+## Applicable Scenarios
 
 You create a debit adjustment to decrease the amount you owe to a vendor. You create a credit adjustment to increase the amount you owe to a vendor.
 
-## Debit Adjustment Processing {#section_oh3_njv_vxb .section}
+## Debit Adjustment Processing
 
 You can create a debit adjustment to account for a vendor's credit memo, or you can use it as a clearing document to correct errors on an existing bill or credit adjustment. A debit adjustment may be created as a request for a refund \(for example, for damaged items or an overpaid bill\) or it can be directly applied against bills or credit adjustments.
 
@@ -48,7 +48,7 @@ Debit adjustments are always applied to the balance of the main vendor of a bill
 
 **Attention:** When you create an AP payment and load the documents to be paid, the debit adjustments appear at the top of the list so that you do not forget to apply them.
 
-## Reversal of Debit Adjustments {#section_zh3_njv_vxb .section}
+## Reversal of Debit Adjustments
 
 You can reverse original debit adjustments with the *Open* and *Closed* status by clicking **Reverse** on the More menu of the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. The **Reverse** command is not available for original debit adjustments created automatically on reverse of an original bill.
 
@@ -62,7 +62,7 @@ If you reverse a debit adjustment, the system performs the following actions on 
 
 An original debit adjustment cannot be reversed if it has open retainage debit adjustments or applications that have not been reversed.
 
-## Credit Adjustment Processing {#section_e33_njv_vxb .section}
+## Credit Adjustment Processing
 
 An accounts payable credit adjustment may be used to correct errors in an existing bill or to account for a vendor's debit memo. Posting a credit adjustment increases the balance of accounts payable.
 

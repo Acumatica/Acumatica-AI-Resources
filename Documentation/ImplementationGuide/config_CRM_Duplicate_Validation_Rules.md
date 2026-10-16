@@ -1,8 +1,8 @@
-# Duplicate Validation: Rules {#_ba0bedca-f2a3-45e6-b183-af5a6403dafd .concept}
+# Duplicate Validation: Rules
 
 The forms for creating leads, contacts, business accounts, customers, and vendors use the same internal fields \(and corresponding UI elements\) to hold the contact settings of an individual or company. You can specify your organization’s rules for validating duplicate leads, contacts, business accounts, customers, and vendors. Also, you can specify the common fields to be used in this validation. For example, you can configure the system to compare only email addresses, or you can set it up to compare multiple settings, such as email addresses, last names, and company names.
 
-## Specification of Rules for Duplicate Validation { .section}
+## Specification of Rules for Duplicate Validation
 
 In Acumatica ERP, you can specify how the duplicate validation process is performed for leads, contacts, business accounts, customers, and vendors by using the [Duplicate Validation](../UserGuide/CR_10_30_00.md) \(CR103000\) form. In the **Comparison** pane of the form \(see Item 1 in the following screenshot\), you select the pair of record types for which you want to specify the rules used for duplicate validation. In the selected pair of record types, the first type indicates the type of record that is compared with the record of the second type for duplication.
 
@@ -12,7 +12,6 @@ In the right pane of the form \(Item 2\), you define the duplicate validation ru
 
 Consider the following example of the validation rules for the **Lead to Lead** pair of record types \(also shown in the following screenshot\). These rules will determine how validation is performed when a new lead is created and the system checks its field values against those of existing leads for duplicates.
 
-![](Images/config_CRM_Duplicate_Validation_Rules_Example.png "Duplicate validation rules for lead to lead")
 
 For the selected pair of record types, you use the table in the right pane to list the fields whose values the system will compare during the validation process, and the validation settings. You specify values in the following columns:
 

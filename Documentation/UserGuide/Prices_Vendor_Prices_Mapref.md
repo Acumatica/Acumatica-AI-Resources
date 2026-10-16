@@ -1,4 +1,4 @@
-# Maintaining Vendor Prices {#_d0a31e53-924d-4ace-9e93-fb1909861a5c .concept}
+# Maintaining Vendor Prices
 
 This topic describes the most common scenarios of working with vendor prices.
 

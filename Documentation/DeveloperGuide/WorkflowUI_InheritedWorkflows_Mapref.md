@@ -1,4 +1,4 @@
-# Working with Inherited Workflows {#_d40a94c1-af23-4f58-bd2e-8cd8eb8f8789 .concept}
+# Working with Inherited Workflows
 
 In this chapter, you will learn about inherited workflows, and when you should use them.
 

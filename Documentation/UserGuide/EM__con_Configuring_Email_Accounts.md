@@ -1,4 +1,4 @@
-# Configuring Email Accounts {#_38a688ed-0f31-4667-a46d-b17018cb32d9 .concept}
+# Configuring Email Accounts
 
 In Acumatica ERP, you can create and configure system email accounts that can be used to centrally send mass emails, and you can schedule the sending and receiving of the emails. For more information, see [System Email Accounts](EM__con_System_Email_Accounts.md).
 

@@ -1,4 +1,4 @@
-# Payment {#_1e75e399-acaa-4490-aa99-7005906d4ff2 .concept}
+# Payment
 
 This chapter presents code examples showing requests that use the `Payment` entity.
 

@@ -1,4 +1,4 @@
-# To Define the Columns of the Column Set {#_e7c8b8c0-0286-4b5a-ab24-54207f28c6d0 .task}
+# To Define the Columns of the Column Set
 
 On the [Column Sets](CS_20_60_20.md) \(CS206020\) form, you can perform the following operations, each of which is described in this topic:
 
@@ -9,7 +9,7 @@ On the [Column Sets](CS_20_60_20.md) \(CS206020\) form, you can perform the foll
 
 The [Column Sets](CS_20_60_20.md) form has two tables below the Summary area: the upper table with the column headers of the column set; and the lower table, which has the columns of the column set and their attributes.
 
-## To Create a Column { .section}
+## To Create a Column
 
 1.  Open the [Column Sets](CS_20_60_20.md) \(CS206020\) form.
 2.  In the **Code** box of the Summary area, select the code of the column set in which you want to add a column.
@@ -17,7 +17,7 @@ The [Column Sets](CS_20_60_20.md) form has two tables below the Summary area: th
 4.  Specify the attributes of the new column in the relevant rows of the added column.
 5.  On the form toolbar, click **Save**.
 
-## To Add a Header for a Column or Column Range { .section}
+## To Add a Header for a Column or Column Range
 
 To add a text description for a single column or a column range in the printed report, you define a header for a column or a group of columns. In the upper table of the [Column Sets](CS_20_60_20.md) \(CS206020\) form, you can to add the headers to the column set and define in which rows the headers should be printed.
 
@@ -36,7 +36,7 @@ To add a header for a single column or a range of columns, do the following:
 
 7.  On the form toolbar, click **Save**.
 
-## To View and Edit the Column Attributes { .section}
+## To View and Edit the Column Attributes
 
 You can edit any column attributes by changing the values in the relevant rows. To edit columns, do the following:
 
@@ -46,7 +46,7 @@ You can edit any column attributes by changing the values in the relevant rows. 
 4.  Repeat Step 3 for each column you want to edit.
 5.  On the form toolbar, click **Save**.
 
-## To Delete a Column { .section}
+## To Delete a Column
 
 1.  Open the [Column Sets](CS_20_60_20.md) \(CS206020\) form.
 2.  In the **Code** box of the Summary area, select the code of the column set in which you want to delete a column.
@@ -54,7 +54,7 @@ You can edit any column attributes by changing the values in the relevant rows. 
 4.  On the table toolbar, click **Delete**.
 5.  On the form toolbar, click **Save**.
 
-## To Use the Column Set in the Analytical Reports { .section}
+## To Use the Column Set in the Analytical Reports
 
 Once you define a column set, you can use this column set in any analytical report you configure using the [Report Definitions](CS_20_60_00.md) \(CS206000\) form.
 

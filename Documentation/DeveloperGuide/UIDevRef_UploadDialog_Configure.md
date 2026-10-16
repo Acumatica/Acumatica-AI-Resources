@@ -1,4 +1,4 @@
-# Upload Dialog Box: Configuration of an Upload Dialog Box {#_e178f13c-eddd-4493-9d76-c9cdbb11ed9d .concept}
+# Upload Dialog Box: Configuration of an Upload Dialog Box
 
 You define the upload dialog box in HTML by using the qp-upload-dialog tag.
 

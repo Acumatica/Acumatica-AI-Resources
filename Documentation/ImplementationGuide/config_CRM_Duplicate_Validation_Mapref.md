@@ -1,4 +1,4 @@
-# Duplicate Validation {#_0603ffe9-bc8b-4b2f-b8f1-09bbc31f0ed3 .concept}
+# Duplicate Validation
 
 In this chapter, you will find information about configuration of duplicate validation of leads, contacts, and business accounts in Acumatica ERP.
 

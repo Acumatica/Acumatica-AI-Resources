@@ -1,8 +1,8 @@
-# Override of a Method: Overriding the Persist Method {#_070c0055-816f-421a-8c79-a406e292672a .concept}
+# Override of a Method: Overriding the Persist Method
 
 In this topic, you can learn how to customize the `Persist` method to control data-saving behavior.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You generally override the PXGraph.Persist method when you need to implement one of the following scenarios:
 
@@ -11,7 +11,7 @@ You generally override the PXGraph.Persist method when you need to implement one
 -   Performing a validation or other operation right before a transaction is closed.
 -   Performing an operation right after a change is successfully persisted to the database. These operations usually involve tasks that are not part of the transaction in which the persist operation is executed—such as resetting a custom cache, querying the database, or displaying a message to the user.
 
-## Approaches to Override the Persist Method { .section}
+## Approaches to Override the Persist Method
 
 When you are dealing with these scenarios, we recommend that you not override the PXGraph.Persist method directly because this approach can be error prone. Instead, we recommend that you use the appropriate targeted override of this method. To give you more granular control, the PXGraph.Persist method has the following targeted overrides:
 
@@ -24,13 +24,13 @@ When you are dealing with these scenarios, we recommend that you not override th
 
 By using the methods described in the preceding list, you can inject your logic into the existing logic of the persist process without affecting the existing logic. This approach makes your code less error prone.
 
-## Example: Overriding in a Graph Extension { .section}
+## Example: Overriding in a Graph Extension
 
 This example shows how you can inject your custom logic in a graph via a graph extension by using the targeted overrides of the PXGraph.Persist method.
 
 Review the source code of a graph below.
 
-```language-csharp
+```csharp
 protected override bool PrePersist()
 {
  if (Document.Current != null && Document.Current.Hold == false)
@@ -58,7 +58,7 @@ protected override void PostPersist()
 
 The following code shows an example of how the bool PXGraph.PrePersist\(\) method can be overridden in a graph extension to define the custom logic for the preceding code example. Notice that you need to use the [PXOverride](https://help.acumatica.com/(W(6))/Help?ScreenId=ShowWiki&pageid=cdc4f1df-a4cc-5de5-a379-5078ad449965) attribute and follow other guidelines, which are described in [Override of a Method: General Information](CodeCustomization_OverrideMethod_GeneralInfo.md).
 
-```language-csharp
+```csharp
 /// Overrides <seealso cref="PXGraph.PrePersist"/>
 [PXOverride]
 public bool PrePersist(Func<bool> base_PrePersist)
@@ -76,11 +76,11 @@ public bool PrePersist(Func<bool> base_PrePersist)
 }
 ```
 
-## Examples: Using the PrePersist Method in a Graph { .section}
+## Examples: Using the PrePersist Method in a Graph
 
 The following code example shows how you can use the bool PXGraph.PrePersist\(\) method in a graph when you need to perform both a check and an assignment operation before the persist operation.
 
-```language-csharp
+```csharp
 protected override bool PrePersist()
 {
  if (setup.Current != null && string.IsNullOrEmpty(setup.Current.DfltLotSerClassID) 
@@ -94,7 +94,7 @@ protected override bool PrePersist()
 
 The following code example shows how you may use the bool PXGraph.PrePersist\(\) method in a graph when you need to perform a validation before the persist operation.
 
-```language-csharp
+```csharp
 protected override bool PrePersist()
 {
  if (CMSetup.Select().Count == 0)
@@ -105,7 +105,7 @@ protected override bool PrePersist()
 }
 ```
 
-## Example: Using the PrePersist, PerformPersist, and PostPersist Methods in a Graph Extension { .section}
+## Example: Using the PrePersist, PerformPersist, and PostPersist Methods in a Graph Extension
 
 Suppose that you need to use a graph extension to find some records of some specific entities and persist them to the database in the scope of another graph. This graph extension should:
 
@@ -115,7 +115,7 @@ Suppose that you need to use a graph extension to find some records of some spec
 
 The following code example shows how you can implement the scenario described above.
 
-```language-csharp
+```csharp
 /// Overrides <seealso cref="PXGraph.PrePersist"/>
 [PXOverride]
 public bool PrePersist(Func<bool> base_PrePersist)
@@ -146,11 +146,11 @@ public void PostPersist(Action base_PostPersist)
 }
 ```
 
-## Example: Using the PerformPersist Method in a Graph { .section}
+## Example: Using the PerformPersist Method in a Graph
 
 The following example shows how the logic of the void PXGraph.PerformPersist\(IPersistPerformer persister\) method is overridden in a graph. Note that the void PXGraph.PerformPersist\(IPersistPerformer persister\) base method is not called anywhere in this code because your goal is to take full control of the persisting process.
 
-```language-csharp
+```csharp
 protected override void PerformPersist(IPersistPerformer persister)
 {
    persister.Insert(APPayment_DocType_RefNbr.Cache);
@@ -182,11 +182,11 @@ protected override void PerformPersist(IPersistPerformer persister)
 }
 ```
 
-## Example: Using the void PostPersist Method in a Graph { .section}
+## Example: Using the void PostPersist Method in a Graph
 
 The following code example shows how you can use the void PXGraph.PostPersist\(\) method in a graph when you need to perform some operations after the persist operation.
 
-```language-csharp
+```csharp
 protected override void PostPersist()
 {
  base.PostPersist();

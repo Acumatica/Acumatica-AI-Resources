@@ -1,4 +1,4 @@
-# Project Material Management: Allocation of Materials for a Project {#_5c79ab0f-544c-4d7b-b402-c46f6ab61e9c .concept}
+# Project Material Management: Allocation of Materials for a Project
 
 Now that you’ve created the material list and specified how materials will be supplied, you need to make sure the needed materials will be available right on time.
 

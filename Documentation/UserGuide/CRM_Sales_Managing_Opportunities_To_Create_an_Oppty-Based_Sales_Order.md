@@ -1,14 +1,14 @@
-# Opportunity Management: To Create an Opportunity-Based Sales Order {#_c55b3631-dc4f-4e98-acbe-abec5f3a1109 .task}
+# Opportunity Management: To Create an Opportunity-Based Sales Order
 
 The following activity demonstrates how to create a sales order that is based on an opportunity in Acumatica ERP.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are David Chubb, a sales manager of the SweetLife Fruits &amp; Jams company.Your potential customer, the Greenex Cafe, would like to purchase apple and orange jams, and both companies have agreed to the deal. You need to close the opportunity as won, extend the *GREENEX* business account as a customer, create a sales order based on the opportunity, and send the sales order to the customer.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -18,7 +18,7 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *APJAM96* and *ORJAM96* stock items, which hold the settings of apple and orange jams, have been created.
 -   On the **Details** tab of the [Opportunities](CR_30_40_00.md) form, five *APJAM96* and five *ORJAM96* stock items have been added to the *Sale of jams to Greenex Cafe* opportunity.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -26,7 +26,7 @@ In this activity, you will do the following:
 2.  Starting on the [Opportunities](CR_30_40_00.md) form, extend the *GREENEX* business account to be a customer, and create a sales order associated with the *Sale of jams to Greenex Cafe* opportunity, which opens the [Sales Orders](SO_30_10_00.md) \(SO301000\) form with the sales order.
 3.  Starting on the [Sales Orders](SO_30_10_00.md) form, send the sales order to the customer by email, which opens the [Email Activity](CR_30_60_15.md) \(CR306015\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating an opportunity-based sales order, you should do the following:
 
@@ -36,7 +36,7 @@ Before you start creating an opportunity-based sales order, you should do the fo
     -   **Password**: *123*
 3.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Closing an Opportunity as Won { .section}
+## Step 1: Closing an Opportunity as Won
 
 To close the *Sale of jams to Greenex Cafe* opportunity as won, do the following:
 
@@ -52,7 +52,7 @@ To close the *Sale of jams to Greenex Cafe* opportunity as won, do the following
 
 You have closed the opportunity as won.
 
-## Step 2: Creating a Sales Order { .section}
+## Step 2: Creating a Sales Order
 
 The creation of a sales order requires the selection of a customer. To meet this requirement, you need to extend the *GREENEX* business account to be a customer. You can do this while you create an opportunity-based sales order as follows:
 
@@ -66,7 +66,7 @@ The creation of a sales order requires the selection of a customer. To meet this
 4.  On the Summary area, click the link in the **Business Account** box. The [Business Accounts](CR_30_30_00.md) \(CR303000\) form opens. On the **General** tab, notice that the type of the business account is now *Customer*.
 5.  On the **Relations** tab of the [Opportunities](CR_30_40_00.md) form, the system has added a row that holds the basic settings of the newly created sales order. For details, see [Managing Relations](CRM_Managing_Relations_Mapref.md).
 
-## Step 3: Sending the Sales Order to the Customer by Email { .section}
+## Step 3: Sending the Sales Order to the Customer by Email
 
 To send the sales order to the customer by email, do the following:
 

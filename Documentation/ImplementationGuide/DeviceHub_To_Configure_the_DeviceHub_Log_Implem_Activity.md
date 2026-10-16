@@ -1,20 +1,20 @@
-# DeviceHub: To Configure the DeviceHub Log {#_09a4a70a-3103-453d-9728-de163a4a25ec .task}
+# DeviceHub: To Configure the DeviceHub Log
 
 In the following implementation activity, you will learn how to configure the logging of information in DeviceHub. You can specify the information to be shown in the DeviceHub log and set up the log to be saved to a file.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist in your company and you have installed DeviceHub. Now you need to configure the DeviceHub log.
 
-## Process Overview { .section}
+## Process Overview
 
 On the **General** tab of the configuration window of DeviceHub, you will configure the DeviceHub log.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring the logging of information in DeviceHub, make sure that DeviceHub has been installed on your computer, as described in [DeviceHub: To Install DeviceHub](Devicehub_To_Install_DeviceHub_Implem_Activity.md)
 
-## Step: Configuring the DeviceHub Log { .section}
+## Step: Configuring the DeviceHub Log
 
 To configure the DeviceHub log, do the following:
 

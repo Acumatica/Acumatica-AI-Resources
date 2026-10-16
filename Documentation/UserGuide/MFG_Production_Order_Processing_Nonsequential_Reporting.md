@@ -1,4 +1,4 @@
-# Production Processing: Nonsequential Reporting of Quantities {#_d3ae423c-6ebc-4969-aa68-3fe956d74747 .concept}
+# Production Processing: Nonsequential Reporting of Quantities
 
 You may want to permit out-of-sequence reporting on production order operations for various reasons. For example, certain production steps can be completed nonsequentially, either in parallel or in any order, so reporting on them in a particular sequence may not be practical. In other cases, even though production steps are required to follow a specified sequence, the immediate entry of data for one step might not be feasible, which can lead to delays in subsequent production steps. For instance, the use of computers may be restricted in a work center because static electricity could interfere with volatile materials, or internet access may not be readily available to workers. To allow nonsequential reporting on production operations, you disable automatic backward reporting, in which quantities completed in an operation are reported back to prior operations. To do so, you clear the **Automatic Backward Reporting** check box on the **General** tab of the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form.
 
@@ -10,7 +10,7 @@ If this check box is cleared, when a worker reports the quantity of completed it
 -   [Scan Move](AM_30_20_10.md) \(AM302010\)
 -   [Approve Clock Entries](AM_51_60_00.md) \(AM516000\)
 
-## Reporting of Item Quantities { .section}
+## Reporting of Item Quantities
 
 With automatic backward reporting turned off, when a worker enters the quantity of completed items for an operation that is a non-control point operation or a non-last control point operation, the system does not verify the quantity entered for the current operation against the quantity recorded for the preceding operation.
 
@@ -26,7 +26,7 @@ For example, suppose that a production order for producing a base unit contains 
 
 Operations *0010* and *0050* are control points, and the quantity complete is *0* for all operations. Further suppose that on the [Move](AM_30_20_00.md) \(AM302000\) form, a worker creates a move transaction for operation *0010* and enters `7` as the completed quantity. When specifying the completed quantity of the item for operation *0040*, another worker enters `8`. Because automatic backward reporting is turned off, the system accepts the entered quantity and does not report quantity completion in preceding operations *0030* and *0020*. However, when another worker enters `8` for the last operation, *0050*, the system does not release the move transaction until the worker enters a quantity of `7` or less.
 
-## Reversal of Reported Item Quantities { .section}
+## Reversal of Reported Item Quantities
 
 Suppose that out-of-sequence reporting of quantities is allowed for the operations of a production order and a worker enters a negative quantity on the [Move](AM_30_20_00.md) \(AM302000\) form to revert the quantity of completed items for an operation. The system verifies that the completed quantity after the reversal is greater than or equal to the completed quantity recorded for the last operation. If the validation fails, the system displays an error message and does not release the transaction until the worker enters the correct quantity to be reversed.
 

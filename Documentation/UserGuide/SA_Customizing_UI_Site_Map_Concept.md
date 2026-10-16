@@ -1,8 +1,8 @@
-# UI Navigation Options: Site Map {#_97042550-7d8e-48d5-a721-1cabcd0379fd .concept}
+# UI Navigation Options: Site Map
 
 The system main menu is represented in tabular format on the [Site Map](SM_20_05_20.md) \(SM200520\) form. The table lists all the forms available in the system. Sometimes it may be quicker to modify the organization of forms by using this form instead of switching to Menu Editing mode, such as if you want to add a particular form to multiple workspaces.
 
-## Modification of Form Details { .section}
+## Modification of Form Details
 
 On the [Site Map](SM_20_05_20.md) \(SM200520\) form, you can make modifications to the organization of forms that are similar to those you can make in the Menu Editing mode. On this form, you can do the following in the row for any listed form:
 
@@ -12,7 +12,7 @@ On the [Site Map](SM_20_05_20.md) \(SM200520\) form, you can make modifications 
 -   Make the form hidden in any workspace and in search results by clearing all selected check boxes in the **Workspaces** column
 -   Move the form to a different category within a workspace by selecting another category in the **Category** column
 
-## Addition of Custom Forms { .section}
+## Addition of Custom Forms
 
 You may apply a customization project to a tenant and then notice that the customization project did not contain the site map additions. In this case, you can add custom forms from the customization project to the site map manually on the [Site Map](SM_20_05_20.md) \(SM200520\) form.
 

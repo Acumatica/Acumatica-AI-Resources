@@ -1,8 +1,8 @@
-# Intercompany Sales: Generated Transactions {#_2b09d4c9-c4a8-4e02-812e-99906a413ce6 .concept}
+# Intercompany Sales: Generated Transactions
 
 As you perform intercompany sales, you create and process an AR invoice. To update the account balances, the system generates and posts the GL transactions described in the following sections.
 
-## Transaction Generated for an AR Invoice {#section_a1s_4jv_vxb .section}
+## Transaction Generated for an AR Invoice
 
 When you create and release an AR invoice, the system generates the following general ledger transaction:
 
@@ -13,7 +13,7 @@ When you create and release an AR invoice, the system generates the following ge
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 
-## Transaction Generated for an AP Bill {#section_d1s_4jv_vxb .section}
+## Transaction Generated for an AP Bill
 
 When the system creates an AP bill based on the AR invoice you created, the system generates the following general ledger transaction after release of this bill:
 
@@ -24,7 +24,7 @@ When the system creates an AP bill based on the AR invoice you created, the syst
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 
-## Transaction Generated for an AP Payment {#section_g1s_4jv_vxb .section}
+## Transaction Generated for an AP Payment
 
 When you create and release an AP payment to pay the automatically generated AP bill, the system generates the following general ledger transaction:
 
@@ -35,7 +35,7 @@ When you create and release an AP payment to pay the automatically generated AP 
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form.
 
-## Transaction Generated for an AR Payment {#section_j1s_4jv_vxb .section}
+## Transaction Generated for an AR Payment
 
 When you create and release an AR payment for an intercompany AR invoice, the system generates the following general ledger transaction:
 

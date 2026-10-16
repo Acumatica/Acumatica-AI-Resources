@@ -1,10 +1,10 @@
-# Companies and Branches {#_3b262f5c-aaaf-48cd-9f8b-cb3f678afc31 .concept}
+# Companies and Branches
 
 In Acumatica ERP, a user can create new companies or maintain existing companies by using the [Companies](CS_10_15_00.md) \(CS101500\) form.
 
 Multiple companies can be configured in one tenant of Acumatica ERP if the *Multicompany Support* feature has been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Company Type { .section}
+## Company Type
 
 Each company has one of the following types, which is specified in the **Company Type** box on the [Companies](CS_10_15_00.md) \(CS101500\) form:
 
@@ -16,26 +16,78 @@ For details about how Acumatica ERP supports multiple branches for a company, se
 
 After a company has been configured, the company type still can be changed as follows.
 
-|From|To|Condition|
-|----|---|---------|
-|*Without Branches*|*With Branches Not Requiring Balancing*
+<table id="table_wfc_gph_ycb"><thead><tr><th>
+
+From
+
+</th><th>
+
+To
+
+</th><th>
+
+Condition
+
+</th></tr></thead><tbody><tr><td>
+
+*Without Branches*
+
+</td><td>
+
+*With Branches Not Requiring Balancing*
 
  or
 
  *With Branches Requiring Balancing*
 
-|The company has not been extended as a customer, vendor, or both a customer and vendor.|
-|*With Branches Not Requiring Balancing*
+</td><td>
+
+The company has not been extended as a customer, vendor, or both a customer and vendor.
+
+</td></tr><tr><td>
+
+*With Branches Not Requiring Balancing*
 
  or
 
  *With Branches Requiring Balancing*
 
-|*Without Branches*|The company has only one branch or no branches at all.|
-|*With Branches Not Requiring Balancing*|*With Branches Requiring Balancing*|No transactions have been posted by company branches or the company has only one branch.|
-|*With Branches Requiring Balancing*|*With Branches Not Requiring Balancing*|No transactions have been posted by company branches or the company has only one branch.|
+</td><td>
 
-## Company Statuses { .section}
+*Without Branches*
+
+</td><td>
+
+The company has only one branch or no branches at all.
+
+</td></tr><tr><td>
+
+*With Branches Not Requiring Balancing*
+
+</td><td>
+
+*With Branches Requiring Balancing*
+
+</td><td>
+
+No transactions have been posted by company branches or the company has only one branch.
+
+</td></tr><tr><td>
+
+*With Branches Requiring Balancing*
+
+</td><td>
+
+*With Branches Not Requiring Balancing*
+
+</td><td>
+
+No transactions have been posted by company branches or the company has only one branch.
+
+</td></tr></tbody>
+</table>
+
+## Company Statuses
 
 When you create a new company on the [Companies](CS_10_15_00.md) \(CS101500\) form, the company is assigned the default status of *Active*. Active companies and their branches can be selected on data entry forms and in reports. However, at some point, you may need to remove a company from the system, so that users will not be able to select the company and its branches on data entry forms and reports. In this case, you deactivate the company by clicking **Deactivate** on the More menu of the [Companies](CS_10_15_00.md) form.
 
@@ -60,7 +112,7 @@ If the *Fixed Asset Management* feature is enabled and the *Multiple Calendar Su
 
 For more details about financial periods, see [Generating Financial Calendars](GL__MNG_Financial_Calendars.md), [Financial Calendar Generation: General Information](Finance_Fin_Clanedar_for_New_FinYear_GeneralInfo.md), and [Managing Financial Periods](Finance_ManagingPeriods_Mapref.md).
 
-## Company Maintenance { .section}
+## Company Maintenance
 
 For a company that has the *With Branches Not Requiring Balancing* or *With Branches Requiring Balancing* type, the **Branches** tab becomes available on the [Companies](CS_10_15_00.md) \(CS101500\) form. On this tab, a system administrator can add new branches to the company or delete branches from the list of company branches; when the company has no branches, it can be also deleted.
 
@@ -68,7 +120,7 @@ A company with the *Without Branches* type can be deleted if it has no GL histor
 
 If a user clicks **Deactivate** on the More menu of the [Companies](CS_10_15_00.md) form for a company that has branches, all the company branches will be deactivated. However, a branch cannot be deactivated if it is linked to an active warehouse, to an employee with a status other than *Inactive*, or to a fixed asset with a status other than *Disposed* or *Reversed*, and a company with such a branch also cannot be deactivated.
 
-## Configuration of Access to Company Data { .section}
+## Configuration of Access to Company Data
 
 Access to the data related to a specific branch or to all branches of a company is regulated by an access role.
 
@@ -78,7 +130,7 @@ A user that has access to at least one of the company branches can select the co
 
 For more information about ways to manage the security of a branch, see [Security of Organization Branches](CS__con_Branch_Security_Administration.md).
 
-## Ledgers { .section}
+## Ledgers
 
 A company can post transactions to various ledgers, but it can be associated with only one actual ledger.
 
@@ -93,13 +145,13 @@ An actual ledger can be detached from a company if the ledger contains no transa
 
 For more information about ledgers, see the [Managing Ledgers](GL__MNG_Managing_Ledgers.md) chapter.
 
-## Tax Reports { .section}
+## Tax Reports
 
 For a company with the *With Branches Requiring Balancing* type, the **File Taxes by Branches** check box is available on the [Companies](CS_10_15_00.md) \(CS101500\) form. If the check box is cleared, each tax report includes data related to all branches of the company. If the check box is selected, each branch of the company requires an individual report.
 
 For a company with any other type, tax reports always include company-wide data.
 
-## Visual Appearance { .section}
+## Visual Appearance
 
 On the **Visual Appearance** tab of the [Companies](CS_10_15_00.md) \(CS101500\) or [Branches](CS_10_20_00.md) \(CS102000\) form, a user can specify separate images for the logo displayed in the top left corner of Acumatica ERP and for the logo displayed on reports for the selected company or branch.
 

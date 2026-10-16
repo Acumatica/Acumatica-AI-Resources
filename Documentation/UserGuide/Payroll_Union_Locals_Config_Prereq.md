@@ -1,12 +1,12 @@
-# Unions: Configuration Prerequisites {#_5d936415-9a03-40ab-91a9-0af1d138bb6a .concept}
+# Unions: Configuration Prerequisites
 
 Before you start creating a union, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Payroll* feature has been enabled.
 
-## Configuring the System { .section}
+## Configuring the System
 
 The following tasks have been performed in Acumatica ERP:
 

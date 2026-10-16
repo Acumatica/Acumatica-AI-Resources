@@ -1,8 +1,8 @@
-# Overhead in the Project Budget: Generated Transactions {#_d08ef55a-a142-1a2b-ac25-6b22618a71ba .concept}
+# Overhead in the Project Budget: Generated Transactions
 
 When you allocate projects, the system creates allocation transactions based on the settings of the allocation rules associated with the project tasks. Depending on the settings of the allocation rules and project tasks, the system can also create reversing allocation transactions. These transactions are described in the following sections.
 
-## Allocation Transactions Generated on the Allocation of a Project {#_d8c770f7-b28e-4e54-af0b-51e1521350d9 .section}
+## Allocation Transactions Generated on the Allocation of a Project
 
 When a project is allocated, the system generates a batch of allocation transactions shown in the table below. The system assigns the *Allocation for &lt;Project ID&gt;* description to the generated batch.
 

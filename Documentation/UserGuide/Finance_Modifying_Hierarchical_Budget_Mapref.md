@@ -1,4 +1,4 @@
-# Modifying a Hierarchical Budget {#_094b3f46-821a-448c-b591-f5794cbee4fb .concept}
+# Modifying a Hierarchical Budget
 
 In this chapter, you will learn how to modify a hierarchical budget by adding a budget article to a budget node.
 

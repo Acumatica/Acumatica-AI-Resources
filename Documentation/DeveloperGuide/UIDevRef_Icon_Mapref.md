@@ -1,4 +1,4 @@
-# Icon {#_87ca88c8-0987-4fd2-98bc-388cb84ef086 .concept}
+# Icon
 
 In this chapter, you will learn about the configuration of icons and the key details of each property of an icon.
 

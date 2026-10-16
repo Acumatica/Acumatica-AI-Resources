@@ -1,4 +1,4 @@
-# Creating a Service Order from an Opportunity {#_e77aedf7-038a-4cb6-9ced-7ee0916a8188 .concept}
+# Creating a Service Order from an Opportunity
 
 In this chapter, you will learn how to create a service order from an opportunity.
 
@@ -6,6 +6,4 @@ In this chapter, you will learn how to create a service order from an opportunit
 
 -   **[Opportunity-Related Service Orders: Process Activity](../UserGuide/ServMgmt_Service_Order_from_Opportunity_Process_Activity.md)**  
 
-
-**Parent topic:**[Service Management](../UserGuide/FS_00_00_01.md)
 

@@ -1,4 +1,4 @@
-# Overdue Charges: Criteria for Creating Overdue Charge Documents {#_7bd8f530-ac19-4efb-803a-7cc7aef4ddcd .concept}
+# Overdue Charges: Criteria for Creating Overdue Charge Documents
 
 The processing of overdue documents creates documents of the *Overdue Charge* type. When the system finds a customer's overdue document, the system adds this document as a line item to the document of the *Overdue Charge* type \(which is created once any overdue document is found\). If the system has found multiple overdue documents of a customer, the system creates a document of the *Overdue Charge* type with multiple lines. These documents of the *Overdue Charge* type, also referred to as overdue charge documents, can be viewed on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form.
 
@@ -18,7 +18,7 @@ For example, suppose that your company collects overdue charges only if the char
 
 In addition to setting a threshold for the overdue charge amount, you can set a minimum amount and a threshold amount for adding a document as a line to the overdue charge document. You can configure the line threshold for only a charge that is defined as a percentage. To do this, you set up an overdue charge code on the [Overdue Charges](AR_20_45_00.md) form and specify the *Charging a Percentage with a Minimum Amount* or *Charging a Percentage with a Threshold Amount* charging method. For details, see [Overdue Charges: Charge Codes](AR__CON_OverdueChargeCodes_Defenition.md).
 
-## Overdue Fee Collection {#section_xcf_hjv_vxb .section}
+## Overdue Fee Collection
 
 You may want to charge your customers an additional fee each time overdue charges are calculated. In the **Overdue Fee Settings** section of the [Overdue Charges](AR_20_45_00.md) form, you can specify the amount of the overdue fee and the account and subaccount to register the collected fee to.
 

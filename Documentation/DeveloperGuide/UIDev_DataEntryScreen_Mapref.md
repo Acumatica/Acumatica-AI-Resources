@@ -1,4 +1,4 @@
-# Defining a Data Entry Form {#_a9923ce7-f810-437e-9874-800f01b579b4 .concept}
+# Defining a Data Entry Form
 
 This part provides instructions on configuring a data entry form and recommendations on organizing the layout of the form.
 

@@ -1,10 +1,10 @@
-# Data from Multiple Data Sources: To Create an Inquiry with Two Tables {#_78c973d5-8f06-4d46-8b64-10ff1fcae7d5 .task}
+# Data from Multiple Data Sources: To Create an Inquiry with Two Tables
 
 In this activity, you will learn how to create a generic inquiry that collects and displays data from two data access classes \(DACs\), which are referred to as *tables* on the user interface of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form. The activity walks you through the steps of designing a sample generic inquiry for testing purposes, so that you can develop a better understanding of the process.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist in your company who is working on simple customizations, including the creation and modification of generic inquiry forms. A salesperson of your company has requested an inquiry that collects data about sales orders by customer. The salesperson would like to see the sales orders of those customers whose accounts are still in the system \(that is, they have not been deleted\). Also, the security policy of your company restricts access to the customer accounts and you should make sure that each salesperson will see only the allowed customer accounts.
 
@@ -17,7 +17,7 @@ The inquiry form should have a Selection area with the following elements, which
 
 The results grid of the inquiry form will consist of columns that display the following information about each sales order: sales order number, type, status, date, and customer name.
 
-## Process Overview { .section}
+## Process Overview
 
 The generic inquiry that you are going to create in this activity will collect data about sales orders and the corresponding customers. You will inspect the needed elements on the [Sales Orders](SO_30_10_00.md) \(SO301000\) and [Customers](AR_30_30_00.md) \(AR303000\) forms to explore which classes you can use to access the needed data.
 
@@ -27,13 +27,13 @@ To comply with the security policy and fulfill the salesperson’s requirement, 
 
 When an inquiry has been created and all the necessary settings have been specified, you will preview and then publish the inquiry.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to a tenant with the *U100* dataset preloaded as system administrator Kimberly Gibbs. You should sign in by using the *gibbs* username and the *123* password.
 
 **Tip:** The *gibbs* user is assigned the *Administrator* role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards.
 
-## Step 1: Discovering the DACs and Data Fields { .section}
+## Step 1: Discovering the DACs and Data Fields
 
 To inspect the needed user interface elements to find the needed DACs and data fields, do the following:
 
@@ -57,7 +57,7 @@ To inspect the needed user interface elements to find the needed DACs and data f
 6.  Point to the **Customer ID** box, press Ctrl+Alt, and then click. The **Element Properties** dialog box opens.
 7.  Make a note of the values of the **Data Class** and **Data Field** elements \(*PX.Objects.AR.Customer* and *AcctCD*, respectively\), which are the data access class and data field you need.
 
-## Step 2: Creating the New Inquiry { .section}
+## Step 2: Creating the New Inquiry
 
 To begin the process of creating the generic inquiry, do the following:
 
@@ -83,7 +83,7 @@ To begin the process of creating the generic inquiry, do the following:
 
 8.  On the form toolbar, click **Save**.
 
-## Step 3: Configuring the Output Columns { .section}
+## Step 3: Configuring the Output Columns
 
 To configure the columns in the generic inquiry form, on the **Results Grid** tab of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form with the *DB-SOOpenByCustomer* inquiry selected, do the following:
 
@@ -107,7 +107,7 @@ To configure the columns in the generic inquiry form, on the **Results Grid** ta
 3.  On the form toolbar, click **Save**.
 4.  On the side panel of the [Generic Inquiry](SM_20_80_00.md) form, click the eye icon to preview the generic inquiry form you have created.
 
-## Step 4: Configuring the Selection Area \(Self-Test\) { .section}
+## Step 4: Configuring the Selection Area \(Self-Test\)
 
 You have learned how to add parameters to the Selection area while completing the following activities:
 
@@ -116,11 +116,10 @@ You have learned how to add parameters to the Selection area while completing th
 
 A salesperson has requested that you add parameters to the *DB-SOOpenByCustomer* generic inquiry, which you have developed in this activity, so that the results can be narrowed to meet each salesperson’s current needs for information. Use the knowledge and experience you have gained to add the requested parameters to the generic inquiry. After you have added the needed parameters, the Selection area of the inquiry form should have the elements shown in the following screenshot.
 
-![](Images/GI_Getting_Data_from_Multiple_Tables_GI_Creation_SampleInquirySelectionArea.png "Selection area with the parameters requested by the salesperson")
 
 For details on parameters and conditions, see [Conditions and Parameters: General Information](GI_Conditions_and_Parameters_General_Info.md).
 
-## Step 5: Publishing the Generic Inquiry Form { .section}
+## Step 5: Publishing the Generic Inquiry Form
 
 To add the generic inquiry form you have created to the site map, on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form, do the following:
 

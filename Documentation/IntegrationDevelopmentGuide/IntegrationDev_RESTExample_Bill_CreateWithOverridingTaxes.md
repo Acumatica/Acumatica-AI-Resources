@@ -1,8 +1,8 @@
-# Create a Bill with Tax Parameters Overridden {#_b5e17d52-f113-438c-a203-c5ce85f7f52f .concept}
+# Create a Bill with Tax Parameters Overridden
 
 By using the REST API, you can create bills with the tax parameters overridden on the [Bills and Adjustments](../UserGuide/AP_30_10_00.md) \(AP301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, do the following to configure your client application and the Acumatica ERP instance to be used:
 
@@ -38,14 +38,14 @@ To further prepare the system, you need to create a tax and a tax category that 
 2.  On the [Tax Categories](../Shared/../UserGuide/TX_20_55_00.md) \(TX205500\) form, create the *TEST* tax category with the *Tax category for test* description and add the *CAGST* and *PST* taxes to the tax category.
 3.  On the **Applicable Taxes** tab of the [Tax Zones](../Shared/../UserGuide/TX_20_60_00.md) \(TX206000\) form, add the *PST* tax to the *CANADABC* tax zone.
 
-## Request { .section}
+## Request
 
 You can use the following example of an HTTP request to create an AP bill with the tax parameters that are different from those registered in the system.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-PUT /entity/Default/25.200.001/Bill?
+PUT /entity/Default/26.200.001/Bill?
     $expand=Details,TaxDetails HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
@@ -62,10 +62,10 @@ Content-Type: application/json
         "value": "USD"
     },
     "Date": {
-        "value": "10/18/2021"
+        "value": "2021-10-18"
     },
     "DueDate": {
-        "value": "11/18/2021"
+        "value": "2021-11-18"
     },
     "Hold": {
         "value": false
@@ -77,7 +77,7 @@ Content-Type: application/json
         "value": "102021"
     },
     "Status": {
-        "value": "Balanced"
+        "value": { "id": "B" }
     },
     "TaxAmount": {
         "value": 120.0
@@ -86,7 +86,7 @@ Content-Type: application/json
         "value": "30D"
     },
     "Type": {
-        "value": "Bill"
+        "value": { "id": "INV" }
     },
     "Vendor": {
         "value": "AAVENDOR"
@@ -173,7 +173,7 @@ Content-Type: application/json
 
 In the request above, you have set the `IsTaxValid` value to *true* to use in the bill the tax parameters specified in the `TaxDetails` field. If you do not specify this value, the tax parameters that are registered in the system will be used instead. In particular, the tax amounts equal to *50* will be set both for the *CAGST* and *PST* taxes in the created bill.
 
-## Usage Notes { .section}
+## Usage Notes
 
 If the `IsTaxValid` field is specified in the request body, its value is set to *true*, and an external tax zone is specified, then the tax details from the request body are used without modification, and no other taxes are applied.
 

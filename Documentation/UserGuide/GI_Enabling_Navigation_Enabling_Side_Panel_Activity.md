@@ -1,14 +1,14 @@
-# Navigation Configuration: To Configure the Side Panel {#_f873d0cb-ffde-4793-8927-0d28a3e918c0 .task}
+# Navigation Configuration: To Configure the Side Panel
 
 In this activity, you will learn how to modify an existing generic inquiry to add the ability to view the details of a record selected in the inquiry results in a side panel. You will configure a side panel with a single tab.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist in your company who works on simple customizations, including those involving the creation, modification, and use of generic inquiries. An accountant of your company has requested an inquiry form that displays data about AR invoices and memos. You have offered the predefined Invoices and Memos \(AR3010PL\) generic inquiry form, but the accountant has asked you to give users the ability to view the details of any listed invoice or memo in a side panel.
 
-## Configuration Overview {#section_dzm_1dz_jrb .section}
+## Configuration Overview
 
 You will work with a copy of the predefined Invoices and Memos \(AR3010PL\) generic inquiry form, which has the *AR-Invoices and Memos* inquiry title and the *Invoices and Memos* site map title specified on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form.
 
@@ -16,17 +16,17 @@ You will work with a copy of the predefined Invoices and Memos \(AR3010PL\) gene
 
 The copy that you will modify has the *DB7-ARInvoicesMemos* inquiry title and the *S130 Invoices and Memos* site map title specified on the [Generic Inquiry](SM_20_80_00.md) form.
 
-## Process Overview { .section}
+## Process Overview
 
 On the **Navigation** tab of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form, you will specify the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form to be displayed in the side panel of the resulting inquiry form. You will also provide the navigation settings the system should use to display the details of the invoice or memo whose identifier the user clicks in the inquiry results.
 
-## System Preparation {#section_uhj_cpr_jrb .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to a tenant with the *U100* dataset preloaded as system administrator Kimberly Gibbs. You should sign in by using the *gibbs* username and the *123* password.
 
 **Tip:** The *gibbs* user is assigned the *Administrator* role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards.
 
-## Step: Specifying Navigation Settings for the Side Panel { .section}
+## Step: Specifying Navigation Settings for the Side Panel
 
 To modify the copied generic inquiry to specify the needed navigation settings for the side panel, do the following:
 
@@ -53,10 +53,9 @@ To modify the copied generic inquiry to specify the needed navigation settings f
 9.  On the form toolbar, click **View Inquiry** to preview how your changes have affected the inquiry form.
 10. Click a row with an invoice or memo, and notice that the system displays its details in the side panel \(see the following screenshot\).
 
-    ![](Images/GI_Enabling_Navigation_GS_with_GI_Side_Panel.png "Generic inquiry with a side panel")
 
 
-## Self-Test Exercise { .section}
+## Self-Test Exercise
 
 Now that you learned how to configure the side panel and specify navigation parameters, try to apply the knowledge and add the [Customers](AR_30_30_00.md) \(AR303000\) form to the side panel for another copy of the *AR-Invoices and Memos* generic inquiry. On the resulting inquiry form, by clicking a row, a user should be able to view the details of the customer account associated with the invoice or memo listed in the row the user clicked.
 

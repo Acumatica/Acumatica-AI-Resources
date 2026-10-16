@@ -1,4 +1,4 @@
-# Graph Extensions {#_c86fdae8-fef9-4490-aa57-3528d0fa172e .concept}
+# Graph Extensions
 
 For details about graph extensions, see [Graph Extensions: General Information](../StudioDeveloperGuide/CodeCustomization_GraphExtension_GeneralInfo.md).
 

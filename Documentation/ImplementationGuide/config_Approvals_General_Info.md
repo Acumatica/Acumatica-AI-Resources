@@ -1,16 +1,14 @@
-# Approval Configuration: General Information {#_ec768874-a269-45c3-89b6-ed447c48cece .concept}
+# Approval Configuration: General Information
 
 In Acumatica ERP, you can set up approvals for various types of records in the system.
 
-## Learning Objectives { .section}
-
-In this chapter, you will learn how to perform the initial configuration for the approval functionality. In particular, you will do the following:
+## Learning Objectives
 
 -   Enable the feature that activates the approval functionality
 -   Learn about the preference settings that have to be specified for records to be approved
 -   Learn how to create an approval map for a particular entity type
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You perform the configuration of the approval functionality if the company that you are configuring needs to assign records to authorized employees for approval. Acumatica ERP offers the approval functionality for a variety of records, as described in the [Setup of Specific Approvals](#_84d86707-a5c1-4b07-b66f-1b064da0bbf9) section of this topic.
 
@@ -21,7 +19,7 @@ Before users can start approving records in the system, you configure the approv
 -   Optionally, creating notification templates by using the [Email Templates](../UserGuide/SM_20_40_03.md) \(SM204003\) form. These templates can be used to notify approvers of records that require their review.
 -   Specifying approval settings on the preferences form for the record types for which you have created an approval map. \(See the [Setup of Specific Approvals](#_84d86707-a5c1-4b07-b66f-1b064da0bbf9) section of this topic for details about these forms.\)
 
-## Approval Map Creation { .section}
+## Approval Map Creation
 
 An *approval map* is used for assigning approvers to records of a particular entity type. By clicking the **Add Approval Map** button on the form toolbar of the [Assignment and Approval Maps](../UserGuide/EP_20_55_00.md) \(EP205500\) form, you can open the [Approval Maps](../UserGuide/EP_20_50_15.md) \(EP205015\) form and start creating an approval map.
 
@@ -31,7 +29,7 @@ You use the [Assignment and Approval Maps](../UserGuide/EP_20_55_00.md) form as 
 
 For details about approval maps, see [Approval Configuration: Approval Maps](config_Approvals_Create_Approval_Maps.md).
 
-## Approval and Rejection Reasons { .section}
+## Approval and Rejection Reasons
 
 Your organization may need approvers to enter a reason when they approve or reject a document. You set up approval and rejection reasons on the **Rule Actions** tab \(**Reason Settings** section\) of the [Approval Maps](../UserGuide/EP_20_50_15.md) \(EP205015\) form.
 
@@ -44,13 +42,13 @@ For an entity type with optional or required approval configured, when a user ap
 
 The reason is also displayed on the **Approvals** tab of the data entry forms that support the entry of approval and rejection reasons.
 
-## Notification Template Preparation { .section}
+## Notification Template Preparation
 
 Optionally, you can prepare notification templates and use them for approval notifications in Acumatica ERP. These notification templates are designed to inform authorized employees via email when a document requires their approval. This is an optional step; authorized users can approve and reject records regardless of whether they receive notifications. You can create new templates or edit existing ones by using the [Email Templates](../UserGuide/SM_20_40_03.md) \(SM204003\) form.
 
 For the notification template to be used, it must be specified along with the approval map on the applicable preferences form. For more information about approval notifications, see [Approval Configuration: Pending Approval Notifications](config_Approvals_Notifications.md).
 
-## Setup of Specific Approvals {#_84d86707-a5c1-4b07-b66f-1b064da0bbf9 .section}
+## Setup of Specific Approvals
 
 The creation of an approval map does not cause records of the entity type to be subject to approval until you modify the applicable system preferences to use the approval map.
 

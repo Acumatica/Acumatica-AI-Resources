@@ -1,8 +1,8 @@
-# Create a Purchase Receipt with Allocations \(with Expiration Dates\) {#_852c5c92-c763-4c0e-b3f5-be6663254611 .concept}
+# Create a Purchase Receipt with Allocations \(with Expiration Dates\)
 
 By using the REST API, you can create purchase receipts and specify the expiration dates of the items in them. For details about the management of purchase documents, see [Managing Purchase Documents](../UserGuide/PO__MNG_Managing_Document.md).
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the code below, you need to do the following to configure your client application and the Acumatica ERP instance to be used:
 
@@ -11,44 +11,42 @@ Before you test the code below, you need to do the following to configure your c
 3.  If you are using Postman as the client application for testing, in the `IntegrationDevelopmentGuide.postman_collection.json` collection, make sure that the collection’s variables have the proper values. This collection is located in the `IntegrationDevelopment\Help` folder of the [Help-and-Training-Examples](https://github.com/Acumatica/Help-and-Training-Examples) repository on GitHub.
 4.  On the [Enable/Disable Features](../Shared/../UserGuide/CS_10_00_00.md#) \(CS100000\) form, make sure that the *Inventory and Order Management*, *Lot and Serial Tracking*, and *Advanced SO Invoices* features are enabled.
 
-## Request { .section}
+## Request
 
 You can use the following example of an HTTP request to create a purchase receipt and specify the expiration dates of particular items.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-PUT /entity/Default/25.200.001/PurchaseReceipt?
-    $expand=Details,Details/Allocations HTTP/1.1
+PUT /entity/Default/26.200.001/PurchaseReceipt?
+    $expand=Details($expand=Allocations) HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
 Content-Type: application/json
 
 {
-    "Type": {"value": "Receipt"},
-    "VendorID": {"value": "GOODFRUITS"},
-    "CreateBill": {"value": "False"},
+    "Type": {"value": { "id": "RT" }},
+    "VendorID": {"value": "GLORYFRUIT"},
+    "CreateBill": {"value": false},
     "Description": {"value": "Test receipt with Expiration Date in Allocations"},
     "Details": [
         {
             "Branch": {"value": "HEADOFFICE"},
-            "InventoryID": {"value": "ORANGES"},
+            "InventoryID": {"value": "GUAVAS"},
             "ReceiptQty": {"value": 2},
             "Warehouse": {"value": "WHOLESALE"},
-            "LotSerialNbr": {"value": ""},
-            "ExpirationDate": {"value": ""},
             "Allocations": [
                 {
                     "Location": {"value": "MAIN"},
                     "Qty": {"value": 1},
                     "LotSerialNbr": {"value": "a"},
-                    "ExpirationDate": {"value": "2024-04-25"}
+                    "ExpirationDate": {"value": "2026-12-25"}
                 },
                 {
                     "Location": {"value": "MAIN"},
                     "Qty": {"value": 1},
                     "LotSerialNbr": {"value": "b"},
-                    "ExpirationDate": {"value": "2024-04-27"}
+                    "ExpirationDate": {"value": "2026-12-27"}
                 }
             ]
         }
@@ -56,7 +54,7 @@ Content-Type: application/json
 }
 ```
 
-## Usage Notes { .section}
+## Usage Notes
 
 You may use the following sequence of requests while creating a purchase receipt with allocations:
 

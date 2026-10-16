@@ -1,8 +1,8 @@
-# Esignature Providers: Sending Documents for Signing {#_c2e51872-a647-4c77-a932-09d0e841f51f .concept}
+# Esignature Providers: Sending Documents for Signing
 
 In this topic, you will learn how to open a document file and send it for signing in Acumatica ERP.
 
-## Opening a File to Request an Esignature { .section}
+## Opening a File to Request an Esignature
 
 You can request esignatures for electronic documents—such as contracts, quotes, purchase orders, or sales orders—or for other files attached to a record in the system.
 
@@ -15,7 +15,7 @@ To submit a document for electronic signing, you:
 
 **Tip:** The button is available only for the supported file extensions: `.pdf`, `.doc`, `.docx`, `.xls`, `.xlsx`, `.ppt`, `.pptx`, `.wp`, `.txt`, `.rtf`, `.tif`, `.jpg`, `.jpeg`, `.gif`, `.bmp`, `.png`, `.htm`, and `.html`.
 
-## Requesting an Esignature { .section}
+## Requesting an Esignature
 
 When you click **Request eSignature** on the [File Maintenance](SM_20_25_10.md) \(SM202510\) form, a dialog box opens. To submit the file, you do the following:
 

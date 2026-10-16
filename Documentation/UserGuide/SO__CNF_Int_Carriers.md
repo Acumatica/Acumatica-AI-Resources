@@ -1,4 +1,4 @@
-# Configuring Carriers, Packaging, and Freight {#_7a5093fe-7e7c-4b22-b1c7-1473d84643b1 .concept}
+# Configuring Carriers, Packaging, and Freight
 
 With Acumatica ERP, your company can configure integration with nationwide carriers for up-to-date rates, automatic freight calculation, and customer notifications about shipments. With the integration configured, you can print carrier labels to put on packages, so that customers can track their packages.
 

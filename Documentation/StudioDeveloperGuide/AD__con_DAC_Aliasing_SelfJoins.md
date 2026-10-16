@@ -1,4 +1,4 @@
-# DAC Aliasing and Self-Joins {#_8c949bdd-50d1-4d74-9e36-1565ea9a8591 .concept}
+# DAC Aliasing and Self-Joins
 
 In relational databases, you implement a self-join by assigning multiple aliases to the same table in a query.
 
@@ -12,7 +12,7 @@ In this topic, you will learn:
 -   How to implement a self-join by using each approach
 -   How alias DACs improve performance
 
-## Approaches to DAC Aliasing { .section}
+## Approaches to DAC Aliasing
 
 In Acumatica Framework, you can create a DAC alias by using the following approaches:
 
@@ -21,7 +21,7 @@ In Acumatica Framework, you can create a DAC alias by using the following approa
 
 Both of these approaches are described in the following sections.
 
-## DAC Aliasing Based on Type Name { .section}
+## DAC Aliasing Based on Type Name
 
 In this approach, you:
 
@@ -44,13 +44,13 @@ The BQL composer resolves fields by the DAC type and its nested abstract BQL fie
 
 For example, suppose that your self-join query references the following field.
 
-```language-csharp
+```csharp
 PX.Objects.IN.Aliases.InventoryItem.inventoryID
 ```
 
 Then the alias DAC must declare the following.
 
-```language-csharp
+```csharp
 public abstract class inventoryID 
     : PX.Data.BQL.BqlInt.Field<inventoryID> { }
 ```
@@ -63,7 +63,7 @@ You may declare only a subset of fields for optimization purposes, but you must 
 
 Suppose that you need to join the `InventoryItem` table to itself; also, `InventoryID` and `InventoryCD` are the key fields for this table. The following code shows the original DAC that represents this table.
 
-```language-csharp
+```csharp
 namespace PX.Objects.IN
 {
     [Serializable]
@@ -83,7 +83,7 @@ namespace PX.Objects.IN
 
 You declare a new DAC class with the same class name as `InventoryItem` but place it in a different namespace as follows.
 
-```language-csharp
+```csharp
 namespace PX.Objects.IN.Aliases
 {
     [Serializable]
@@ -103,7 +103,7 @@ Note that both key fields, `InventoryID` and `InventoryCD`, are redeclared in th
 
 Finally, you write a BQL query that performs a self-join of `InventoryItem` with its alias.
 
-```language-csharp
+```csharp
 public 
     PX.Data.PXSelectJoin<
       PX.Objects.IN.InventoryItem,
@@ -120,7 +120,7 @@ In the query above:
 -   `PX.Objects.IN.Aliases.InventoryItem` is the alias DAC.
 -   Acumatica Framework's object-relational mapping system maps both DACs to the same physical database table. Internally, each DAC type is treated as a separate logical table reference.
 
-## DAC Aliasing Based on Inheritance { .section}
+## DAC Aliasing Based on Inheritance
 
 In this approach, instead of redeclaring the DAC with the same name \(as described above\), you derive new DAC types from the original DAC.
 
@@ -136,13 +136,13 @@ When you base DAC aliasing on inheritance, the derived DAC inherits properties f
 
 Suppose that you reference a field in BQL by using the derived DAC type, as shown in this example.
 
-```language-csharp
+```csharp
 PX.Objects.GL.Aliases.AccountDebit.accountID
 ```
 
 The derived DAC must redeclare the corresponding nested BQL field class, as shown below.
 
-```language-csharp
+```csharp
 public abstract new class accountID
     : PX.Data.BQL.BqlInt.Field<accountID> { }
 ```
@@ -175,7 +175,7 @@ Both fields reference the `Account` DAC. If you join `Account` twice without ali
 
 You define two alias DACs that inherit from `Account` and override the `Description` field to assign distinct UI captions. The following code shows how these alias DACs are defined.
 
-```language-csharp
+```csharp
 namespace PX.Objects.GL.Aliases
 {
     public class AccountDebit : PX.Objects.GL.Account
@@ -217,7 +217,7 @@ Although these alias DACs inherit from `Account`, they’re treated as separate 
 
 The following code shows the BQL query that joins both alias DACs declared in the preceding code example.
 
-```language-csharp
+```csharp
 public 
     PX.Data.PXSelectJoin<
       PX.Objects.FA.FATran,
@@ -240,14 +240,14 @@ To display the `AccountDebit.description` and `AccountCredit.description` fields
 
 In the TypeScript file, you add the two fields in the view class that defines the table \(in which these fields should appear\) as follows.
 
-```language-javascript
+```javascript
 AccountDebit__description: PXFieldState;
 AccountCredit__description: PXFieldState;
 ```
 
 In the ASPX page, you add the two fields in the appropriate `PXGrid` tag as follows.
 
-```language-xml
+```xml
 <px:PXGridColumn DataField="AccountDebit__description" Width="120px" />
 <px:PXGridColumn DataField="AccountCredit__description" Width="120px" />
 ```
@@ -256,7 +256,7 @@ In the ASPX page, you add the two fields in the appropriate `PXGrid` tag as foll
 
 In the UI, these two fields will appear as separate columns in the table, labeled **Debit Account Description** and **Credit Account Description**.
 
-## Using DAC Aliases for Performance Optimization { .section}
+## Using DAC Aliases for Performance Optimization
 
 The use of DAC aliases is not limited to performing self-joins. You can also use them to optimize performance. An alias DAC may declare only a subset of the original DAC's fields—so by using an alias DAC, you can:
 

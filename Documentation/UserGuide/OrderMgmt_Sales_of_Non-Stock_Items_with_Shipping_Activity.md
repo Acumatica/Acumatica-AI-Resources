@@ -1,16 +1,16 @@
-# Sales of Non-Stock Items with Shipping: Process Activity {#_ada11709-b2ca-4644-9f79-2c6c903d510c .task}
+# Sales of Non-Stock Items with Shipping: Process Activity
 
 In this activity, you will prepare and process a sales order for non-stock items that need to be shipped to the customer's location.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the GoodFood One Restaurant customer has asked SweetLife Fruits &amp; Jams to conduct a two-day training course on home canning for the café's employees.
 
 The materials to be used for the upcoming training on home canning \(which are included in the price of the training\) need to be delivered to the customer's location before the course is conducted. You, as a sales manager, need to reflect these details in the system by entering and processing the appropriate documents.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -19,18 +19,18 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *GOODFOOD \(GoodFood One Restaurant\)* customer has been created.
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *OFLCOURSE \(Home canning courses at customer's place\)* non-stock item has been created, and the **Require Shipment** check box has been selected for this item on the **General** tab.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create a sales order on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, and then add a non-stock item to it. After that, you will create a related shipment document on the [Shipments](SO_30_20_00.md) \(SO302000\) form. On this form, you will check the settings that the system has specified automatically, and then confirm the shipment. After shipment confirmation, you will use the [Invoices](SO_30_30_00.md) \(SO303000\) form to prepare a sales invoice to the customer and release it.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start processing a sales order that includes non-stock items with shipping, you should do the following:
 
 1.  Launch the Acumatica ERP website with the *U100* dataset preloaded and sign in to the system as a sales and purchasing manager by using the *norman* username and the *123* password.
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Creating a Sales Order { .section}
+## Step 1: Creating a Sales Order
 
 To create a sales order, do the following:
 
@@ -48,7 +48,7 @@ To create a sales order, do the following:
 
 Now you need to create a shipment for the materials that need to be shipped in advance of the training.
 
-## Step 2: Creating a Shipment { .section}
+## Step 2: Creating a Shipment
 
 To create the shipment related to the sales order, do the following:
 
@@ -57,7 +57,7 @@ To create the shipment related to the sales order, do the following:
 
 The system closes the dialog box, creates a shipment and opens it on the [Shipments](SO_30_20_00.md) \(SO302000\) form.
 
-## Step 3: Confirming the Shipment { .section}
+## Step 3: Confirming the Shipment
 
 To confirm the shipment, do the following:
 
@@ -66,7 +66,7 @@ To confirm the shipment, do the following:
 
 Notice that the shipment is assigned the *Confirmed* status. Now you can prepare the invoice to bill the customer and increase the customer's debt in the system.
 
-## Step 4: Processing the Sales Invoice { .section}
+## Step 4: Processing the Sales Invoice
 
 To prepare and release a sales invoice related to the sales order \(and shipment\), do the following:
 
@@ -76,7 +76,6 @@ To prepare and release a sales invoice related to the sales order \(and shipment
 4.  On the **Details** tab, in the only row, click the link in the **Order Nbr.** column to view the associated sales order.
 5.  On the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, which opens, review the details of the sales order, as shown in the following screenshot. Notice that the sales order has the *Completed* status, which the system assigned on release of the sales invoice, and which means that the processing of the sale is completed.
 
-    ![](Images/activity_OrderMgmt_Sale_of_Non-Stock_Items_with_Shipping.png "Sales order completed on release of the sales invoice")
 
 
 **Parent topic:**[Processing Sales of Non-Stock Items with Shipping](../UserGuide/OrderMgmt_Sales_of_Non_Stock_Items_with_Shipping_Mapref.md)

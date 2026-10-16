@@ -1,11 +1,11 @@
-# Lookup Modes for Segmented Keys {#_7ec49397-0399-4904-b862-9cedc01b62a4 .concept}
+# Lookup Modes for Segmented Keys
 
 When configuring segmented keys in Acumatica ERP, you need to select lookup mode, which affects the process of users entering the object identifier based on this segmented key on data entry forms as follows:
 
 -   The part of the identifier that users can select from the list when they are entering the value on data entry forms: existing values of each segment of the identifier, the entire value of the identifier, or the value of both the segment and the entire identifier
 -   Whether users can enter new identifiers of the object
 
-## Lookup Modes for Segmented Keys {#_3af8d7e8-43a2-47c3-8c63-2e9eca690c70 .section}
+## Lookup Modes for Segmented Keys
 
 In the **Lookup Mode** box of the [Segmented Keys](CS_20_20_00.md) \(CS202000\) form, you can select one of the following modes:
 
@@ -26,7 +26,7 @@ In the **Lookup Mode** box of the [Segmented Keys](CS_20_20_00.md) \(CS202000\) 
     If you select the **Validate** check box for one segment or multiple segments of the segmented key, the system makes sure the segment values are among those that are specified on the [Segment Values](../Shared/../UserGuide/CS_20_30_00.md) form after a user saves the changes made on the data entry form.
 
 
-## Guidelines for Selecting a Lookup Mode { .section}
+## Guidelines for Selecting a Lookup Mode
 
 For the majority of predefined segmented keys, you cannot change the default *By Segmented Key* mode because usually identifiers that these segmented keys describe are one-segmented.
 

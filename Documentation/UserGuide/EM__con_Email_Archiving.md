@@ -1,4 +1,4 @@
-# Email Archiving {#_68c7b8af-728a-40ad-bb73-447e0068d1db .concept}
+# Email Archiving
 
 Over time, system email accounts may accumulate an extremely large number of emails, both incoming and outgoing, which may result in considerable system slowdown, especially if incoming mail processing has been enabled for these accounts.
 

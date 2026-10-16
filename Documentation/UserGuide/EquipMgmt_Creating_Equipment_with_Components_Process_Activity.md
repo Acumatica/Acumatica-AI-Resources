@@ -1,18 +1,18 @@
-# Stock Items to Be Tracked Post-Sale: To Create Stock Items with Components {#_1e15adeb-4a36-4d65-a19f-e16662965bf8 .task}
+# Stock Items to Be Tracked Post-Sale: To Create Stock Items with Components
 
 In this activity, you will create a piece of equipment with components that will be tracked after the equipment is sold. To accomplish this, you will first create an item class to group similar equipment with components. For the item class, you will define the components, including one optional component \(that is, the equipment can be sold without this particular component\). You will also specify the quantity required for each component in each piece of equipment.
 
 You will then create a stock item for a piece of equipment with components, based on the newly created item class.
 
-## Story {#section_e2v_xns_kdc .section}
+## Story
 
 Suppose the SweetLife Service and Equipment Sales Center plans to sell commercial cold press juicers with various components and to track these juicers after they are sold. As the administrative user, you will create the *COLDPRESS - Commercial Cold Press Juicers* item class for model equipment; this class is specifically designed to manage equipment with components. Next, you will create the *CPRESS30J - Cold Press Juicer H30J* stock item based on this item class and define the components included with this piece of equipment.
 
-## Process Overview {#section_btb_pzv_3dc .section}
+## Process Overview
 
 On the [Item Classes](IN_20_10_00.md) \(IN201000\) form, you will create an item class with the **Model Equipment** setting and specify the necessary components for this class. Then on the [Stock Items](IN_20_25_00.md) \(IN202500\) form, you will create a piece of equipment with components based on the newly created item class.
 
-## System Preparation {#section_z4x_b2b_ldc .section}
+## System Preparation
 
 Before you begin performing the steps of this lesson, do the following:
 
@@ -20,7 +20,7 @@ Before you begin performing the steps of this lesson, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date to *1/30/2026*. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 3.  To perform this activity, make sure that you have performed the following prerequisite activity: [Stock Items to Be Tracked Post-Sale: To Create Components](EquipMgmt_Creating_Components_Process_Activity.md).
 
-## Step 1: Creating an Item Class for Equipment with Components {#section_qgj_3zv_3dc .section}
+## Step 1: Creating an Item Class for Equipment with Components
 
 To create an item class for equipment that has components, do the following:
 
@@ -89,10 +89,9 @@ To create an item class for equipment that has components, do the following:
 
     You have added the components to the *COLDPRESS* item class, as shown in the following screenshot.
 
-    ![](Images/EquipMgmt_Item_Class_for_Model_Equipment.png "The item class with components")
 
 
-## Step 2: Creating a Piece of Equipment with Components {#section_gqg_14s_kdc .section}
+## Step 2: Creating a Piece of Equipment with Components
 
 To create a piece of model equipment with components, do the following:
 
@@ -127,7 +126,6 @@ To create a piece of model equipment with components, do the following:
 9.  On the form toolbar, click **Save**.
 10. Navigate to the [Model Equipment and Component Summary](FS_40_04_00.md) \(FS400400\) form, and verify that both pieces of model equipment that you have created are listed. Notice that all the components you have created are also listed here.
 
-    ![](Images/EquipMgmt_Created_Model_Equipment.png "The defined model equipment")
 
 
 **Parent topic:**[Configuring Stock Items to Be Tracked Post-Sale](../UserGuide/EquipMgmt_Configuration_of_Equipment_to_Be_Tracked_Post_Sale_Mapref.md)

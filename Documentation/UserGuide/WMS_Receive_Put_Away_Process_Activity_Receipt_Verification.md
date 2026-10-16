@@ -1,10 +1,10 @@
-# Receiving and Putting Away Operations: To Receive Items and Verify the Receipt {#_c1254f01-21e0-43e5-8d1c-ed7a1294e63b .task}
+# Receiving and Putting Away Operations: To Receive Items and Verify the Receipt
 
 In the following activity, you will learn how to perform the receiving of items by using the [Receive and Put Away](PO_30_20_20.md) \(PO302020\) form and verify the receipt by using the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that in the wholesale warehouse of the SweetLife Fruits &amp; Jams company, a warehouse manager sets up the receiving workflow with receipt verification. The warehouse manager gives a warehouse worker a task to receive the purchased jams \(25 jars of mango jam, 50 jars of strawberry jam, and 10 jars of kiwi jam\) in the warehouse.
 
@@ -12,7 +12,7 @@ Further suppose that the warehouse worker has received the purchased mango and s
 
 You will perform all the steps of this scenario, acting as the warehouse manager and worker.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -34,7 +34,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form, the *000051* purchase order to the *ALLFRUITS* vendor has been created. \(The order is dated 1/29/2026 and has 25 units of the *MANJAM08* stock item, 50 units of the *STRAWJAM08* stock item, and 10 units of the *KIWIJAM08* stock item.\)
 -   On the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form, the *000043* purchase receipt has been prepared for this purchase order. The purchase receipt has 25 units of the *MANJAM08* stock item, 50 units of the *STRAWJAM08* stock item, and 10 units of the *KIWIJAM08* stock item.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -42,11 +42,11 @@ In this activity, you will do the following:
 2.  You will open the [Receive and Put Away](PO_30_20_20.md) \(PO302020\) form, switch to Receive mode, and scan the number of the purchase receipt. Then you will receive the items and scan their barcodes and quantities. After you finish receiving items, you will confirm the purchase receipt.
 3.  You will open the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form, review and correct the quantities of the received items, and release the purchase receipt.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start performing the automated receiving operation and verification of a purchase receipt, you should launch the Acumatica ERP website and sign in to a company with the *U100* dataset preloaded. You should sign in as a warehouse worker with the *angelo* username and the *123* password.
 
-## Step 1: Setting Up Receipt Verification { .section}
+## Step 1: Setting Up Receipt Verification
 
 To set up receipt verification while acting in the role of a warehouse manager, do the following:
 
@@ -57,7 +57,7 @@ To set up receipt verification while acting in the role of a warehouse manager, 
 3.  On the form toolbar, click **Save**.
 4.  Sign out of the system.
 
-## Step 2: Receiving Items in the Receiving Location and Confirming the Receipt { .section}
+## Step 2: Receiving Items in the Receiving Location and Confirming the Receipt
 
 Acting as a warehouse worker, you will record that items have been received in the receiving location of the warehouse and confirm the receipt. Do the following:
 
@@ -83,7 +83,7 @@ Acting as a warehouse worker, you will record that items have been received in t
 
 10. Sign out of the system.
 
-## Step 3: Verifying and Releasing the Receipt { .section}
+## Step 3: Verifying and Releasing the Receipt
 
 Acting as the warehouse manager, you will verify and release the receipt whose items have been received in the warehouse. Do the following:
 
@@ -96,7 +96,6 @@ Acting as the warehouse manager, you will verify and release the receipt whose i
 4.  Click the **Receipts to Verify** widget, which shows the number of purchase receipts with the *Received* status. The Purchase Receipts for Last 12 Months \(PO3020BI\) inquiry form opens.
 5.  In the **Receipt Nbr.** column, click *000043* to open the purchase receipt on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form. Notice that the receipt has the *Received* status. Review the items and item quantities \(see the following screenshot\).
 
-    ![](Images/WMS_Receive_Put_Away_Process_Activity_Receipt_Verification.png "The purchase receipt with the Received status")
 
 6.  Notice that for the *STRAWJAM08* item, the **Receipt Qty.** is *50*. Suppose that you have verified that its actual quantity is 48 and that two jars have not been delivered to the warehouse. Change the **Receipt Qty.** in the line to `48`.
 7.  Review the quantity of the *KIWIJAM08* item. Suppose that you have verified that no kiwi jam has been delivered. Remove the row with the *KIWIJAM08* item so that you will be able to release the purchase receipt.

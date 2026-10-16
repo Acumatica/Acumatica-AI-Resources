@@ -1,4 +1,4 @@
-# Processing Prepayments {#_b04040d9-5de6-43df-85d4-6c959d509571 .concept}
+# Processing Prepayments
 
 In this chapter, you will find general information on how to create and release prepayments, a checklist for system implementation, an activity that describes how to create a prepayment and apply it to an invoice, an activity that describes how to reverse a prepayment application, and report and inquiries that can be useful to find and view created transactions.
 

@@ -1,4 +1,4 @@
-# Synchronization of Case Records {#_08e4b1ee-6b40-4767-9bc6-d40f65f500ea .concept}
+# Synchronization of Case Records
 
 In Salesforce, a case record cannot be saved if it has no owner specified. In Acumatica ERP, only a user that is linked to an employee can be assigned to a case as its owner. Thus, the following should be done for the successful synchronization of case records between the systems:
 

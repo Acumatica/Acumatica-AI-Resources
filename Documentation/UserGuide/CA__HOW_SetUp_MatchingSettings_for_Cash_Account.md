@@ -1,8 +1,8 @@
-# To Set Up Transaction Matching Settings Applicable to a Particular Cash Account {#_f60d8a9e-2f69-4a67-b37a-e5a4765fecba .task}
+# To Set Up Transaction Matching Settings Applicable to a Particular Cash Account
 
 You can define and save a specific set of matching settings that will be applied by the automatic matching process to a particular cash account selected on the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form by performing the following instructions.
 
-## To Set Up Matching Settings to Be Used When a Particular Cash Account Is Selected {#section_kyd_kjv_vxb .section}
+## To Set Up Matching Settings to Be Used When a Particular Cash Account Is Selected
 
 1.  Open the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form.
 2.  In the Selection area, in the **Cash Account** box, specify the cash account for which you want to adjust matching settings.

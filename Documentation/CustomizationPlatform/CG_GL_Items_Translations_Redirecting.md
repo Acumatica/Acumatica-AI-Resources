@@ -1,4 +1,4 @@
-# To Navigate to the System Locales Form {#_790dbfc5-aee2-4705-92ac-5fef8d588093 .concept}
+# To Navigate to the System Locales Form
 
 You might need to add a system locale to Acumatica ERP during customization. To manage system locales in Acumatica ERP, you use the [System Locales](../UserGuide/SM_20_05_50.md#) \(SM200550\) form.
 

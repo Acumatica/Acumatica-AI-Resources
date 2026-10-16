@@ -1,4 +1,4 @@
-# Dialog Box {#_bfdba98c-e253-4a66-b9f5-781c613043da .concept}
+# Dialog Box
 
 In this chapter, you will learn about the configuration of dialog boxes—that is, pop-up panels or windows that are opened on Acumatica ERP forms when a user clicks a button or link. You'll learn when to use dialog boxes, how to name them, and how to organize their layout.
 

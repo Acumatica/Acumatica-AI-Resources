@@ -1,19 +1,19 @@
-# GL Consolidation: General Information {#_97089c09-c4d1-46d0-bfe6-2b74b5b72469 .concept}
+# GL Consolidation: General Information
 
 The way the consolidation data should be prepared in a consolidation unit depends on whether the base currency of the consolidation unit is the same as the base currency of the parent tenant.
 
-## Learning Objectives {#section_bcm_mjv_vxb .section}
+## Learning Objectives
 
 In this lesson, you will learn how to do the following:
 
 -   Prepare the consolidation data in the consolidation unit
 -   Perform GL consolidation
 
-## Applicable Scenarios {#section_dcm_mjv_vxb .section}
+## Applicable Scenarios
 
 You perform GL consolidation if you need to regularly collect data from one or multiple subsidiaries into the parent company for reporting purposes.
 
-## Preparation of Consolidation Data in a Consolidation Unit {#section_fcm_mjv_vxb .section}
+## Preparation of Consolidation Data in a Consolidation Unit
 
 The way the consolidation data should be prepared in a consolidation unit depends on whether the base currency of the consolidation unit is the same as the base currency of the parent tenant. The following system configuration is possible:
 
@@ -43,7 +43,7 @@ In each consolidation unit that has the *Multicurrency Accounting* feature enabl
     **Attention:** This is a periodic activity that should be done every month.
 
 
-## Import of Consolidation Data {#section_ncm_mjv_vxb .section}
+## Import of Consolidation Data
 
 The consolidation data is imported to the selected branch of the parent company as GL batches with system-generated descriptions. Before the system starts to import the consolidation data, the system transforms the unit's subaccounts into the parent's subaccounts by using the segment value mapping and other related settings. Consolidation data being imported to the parent company is available by using the REST gateway as a set of `GLConsolRead` instances. Every `GLConsolRead` instance consists of four data fields:
 
@@ -54,11 +54,10 @@ The consolidation data is imported to the selected branch of the parent company 
 
 To import the consolidation data from the consolidation units to the parent company, you use the [Import Consolidation Data](GL_50_90_00.md) \(GL509000\) form. You select the unit and the source ledger, and then click **Process**. The financial data is imported from the database of the consolidation unit to the specified branch of the parent company. To consolidate data of different types \(such as actual data and budget data\), use separate ledgers in the parent company.
 
-## Workflow of Performing GL Consolidation {#section_qcm_mjv_vxb .section}
+## Workflow of Performing GL Consolidation
 
 The following diagram illustrates the process of performing GL consolidation between the parent company and a subsidiary company implemented in a separate tenant.
 
-![](Images/diag_Finance_GL_Consolidation.png "The process of GL consolidation")
 
 **Parent topic:**[Performing GL Consolidation](../UserGuide/Finance_GL_Consolidation_Mapref.md)
 

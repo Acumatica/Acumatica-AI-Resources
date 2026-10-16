@@ -1,8 +1,8 @@
-# Barcode Editor: Configuration of Sound Effects {#_2f5f00f1-04ee-49a5-8e29-67edb73224f3 .concept}
+# Barcode Editor: Configuration of Sound Effects
 
 In the barcode editor, you can configure a sound signal that the computer plays when a barcode is being scanned. You can also specify the location of the sound signal library to specify a custom sound.
 
-## Specifying a Sound Signal { .section}
+## Specifying a Sound Signal
 
 To specify a sound signal, you need to pair it with an invisible control. This control should be mapped to a field that contains the name of sound files. Do the following:
 
@@ -37,7 +37,7 @@ To specify a sound signal, you need to pair it with an invisible control. This c
     ```
 
 
-## Configuring the Location of the Sound Signal Library { .section}
+## Configuring the Location of the Sound Signal Library
 
 The config parameter of the qp-barcode-input control provides the following ways to specify the sound signal and its location:
 

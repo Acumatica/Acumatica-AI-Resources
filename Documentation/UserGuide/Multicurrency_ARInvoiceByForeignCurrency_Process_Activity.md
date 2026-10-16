@@ -1,14 +1,14 @@
-# Multicurrency Payment of Invoices: To Pay a Foreign Currency Invoice by Using Another Currency {#_cce4ab21-e2f5-40d8-b251-f20310cfe621 .task}
+# Multicurrency Payment of Invoices: To Pay a Foreign Currency Invoice by Using Another Currency
 
 The following activity will walk you through the process of paying an invoice in a foreign currency by using another foreign currency.
 
-## Story {#section_tqx_3jv_vxb .section}
+## Story
 
 Suppose that on January 10, 2026, SweetLife Fruits &amp; Jams provided consulting services to the EasyDiner customer in the amount of 50 euros \(*EUR* in the system\). By the end of January, the customer informed SweetLife that they were going to pay the invoice in Canadian dollars \(*CAD*\). SweetLife agreed to use for the payment the following exchange rate: 1 *EUR* = 1.51 *CAD*. On January 31, EasyDiner made the first partial payment in the amount of 20 Canadian dollars.
 
 Acting as a SweetLife accountant, you need to process the invoice and apply the payment to it. Then you need to print the multicurrency report to review the outstanding balance of the customer.
 
-## Configuration Overview {#section_mfx_3jv_vxb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -23,11 +23,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *EASYDINER* customer has been predefined.
 -   On the [Payment Methods](CA_20_40_00.md) \(CA204000\) form, the *WIRE* payment method for wire transfers has been created.
 
-## Process Overview {#section_brx_3jv_vxb .section}
+## Process Overview
 
 In this activity, on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, you will create and release an invoice in EUR. On the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, you will partially pay this invoice in the amount of 20 CAD. Finally, you will print the multicurrency report on the [AR Balance by Customer MC](AR_63_30_00.md) \(AR633000\) form to review the outstanding balance of the customer.
 
-## System Preparation {#section_drx_3jv_vxb .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -38,7 +38,7 @@ Before you begin performing the steps of this activity, do the following:
 5.  Make sure that you have configured an account as described in [Multicurrency Cash Accounts: To Configure an Account](../ImplementationGuide/config_Multicurrency_CashAccount_Implem_Activity.md).
 6.  Make sure that the settings of the *EASYDINER* customer have been updated as described in [Credit Memos in Foreign Currencies: Process Activity](Multicurrency_CreditMemo_Process_Activity.md).
 
-## Step 1: Creating and Releasing an Invoice {#section_grx_3jv_vxb .section}
+## Step 1: Creating and Releasing an Invoice
 
 To create an invoice in a foreign currency and release it, do the following:
 
@@ -60,7 +60,7 @@ To create an invoice in a foreign currency and release it, do the following:
 
 6.  On the form toolbar, click **Remove Hold** and then click **Release** to release the invoice.
 
-## Step 2: Processing a Payment for the Invoice {#section_jrx_3jv_vxb .section}
+## Step 2: Processing a Payment for the Invoice
 
 To create a payment in a foreign currency and apply it to the invoice, do the following:
 
@@ -107,7 +107,7 @@ To create a payment in a foreign currency and apply it to the invoice, do the fo
     The payment in *CAD* was applied to the invoice. The balance of the invoice is currently €36.76.
 
 
-## Step 3: Printing the Multicurrency Report {#section_trx_3jv_vxb .section}
+## Step 3: Printing the Multicurrency Report
 
 To review the outstanding balance of all customers and print the multicurrency report, do the following:
 

@@ -1,4 +1,4 @@
-# To Find a Customization of the ASPX Code {#_70c71664-bd9a-4e5e-b4f9-2beb8cd70132 .concept}
+# To Find a Customization of the ASPX Code
 
 If the ASPX code for a form is customized, to explore changes in the code, you use the [Screen Editor](../UserGuide/AU_20_45_20.md) of the [Customization Project Editor](../UserGuide/SM_20_45_10.md), which you access by using the [Customization Projects](../UserGuide/SM_20_45_05.md) \(SM204505\) form.
 
@@ -22,12 +22,10 @@ Once you know the form has been customized, to find the customization of the ASP
     2.  In the navigation pane of the editor, click **Screens** to open the Customized Screens page.
     3.  On the page \(see the screenshot below\), click the form ID in the **Screen ID** column to open the [Screen Editor](../UserGuide/AU_20_45_20.md) for the form.
 
-        ![](images/CG_GL_Stages_Explore_CustASPX_02.png "Viewing the Customized Screens page of the Customization Project Editor")
 
     4.  In the Screen Editor, select the **View ASPX** tab item to view the customized ASPX code of the node that is currently selected in the Control Tree
     5.  Explore each node of the tree to find the changes, which are highlighted in yellow, as the following screenshot shows.
 
-        ![](images/CG_GL_Stages_Explore_CustASPX_03.png "Viewing the customization of the ASPX code")
 
 
 **Parent topic:**[Exploring the Source Code](../CustomizationPlatform/CG_GL_Stages_Explore.md)

@@ -1,4 +1,4 @@
-# ProjectTask {#_06221686-e569-47ce-982e-8cabdafd8a80 .concept}
+# ProjectTask
 
 This chapter presents code examples showing requests that use the `ProjectTask` entity.
 

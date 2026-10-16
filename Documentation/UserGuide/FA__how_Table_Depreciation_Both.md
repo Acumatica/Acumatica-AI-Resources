@@ -1,8 +1,8 @@
-# To Configure Table Methods with Annual Depreciation {#_f83de5e1-ad72-48ec-873f-0d9c2c1564d8 .task}
+# To Configure Table Methods with Annual Depreciation
 
 To add a new depreciation table method with annual depreciation, you use the [Depreciation Table Methods](FA_20_26_00.md) \(FA202600\) form to add a method of the *both* type that is used to specify both the settings of the depreciation methods and the annual depreciation rates. Such methods use the *Full Year* or *Mid Year* averaging conventions.
 
-## To Configure Table Methods with Annual Depreciation {#section_x2c_ljv_vxb .section}
+## To Configure Table Methods with Annual Depreciation
 
 1.  Open the [Depreciation Table Methods](FA_20_26_00.md) \(FA202600\) form.
 2.  In the **Depreciation Method ID** box, type the name of the new method.

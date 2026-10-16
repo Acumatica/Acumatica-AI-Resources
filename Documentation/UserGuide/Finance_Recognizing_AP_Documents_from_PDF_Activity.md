@@ -1,4 +1,4 @@
-# AP Documents from PDFs: Process Activity {#_f229cd53-b896-41c9-a2d8-f6aadd4bc8f5 .task}
+# AP Documents from PDFs: Process Activity
 
 The following activity will walk you through the process of creating an AP bill from a PDF file.
 
@@ -6,19 +6,19 @@ The following activity will walk you through the process of creating an AP bill 
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_wy4_njv_vxb .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company regularly buys fruits from the All Fruits Mall vendor \(*ALLFRUITS*\). As the SweetLife accountant, you regularly receive invoices from the vendor in PDF format and need to enter each of them manually into the system. The company purchased the *AP Document Recognition Service* feature, so now you may submit these invoices for recognition and create AP bills by using the recognized values. You will submit the first PDF file from this vendor for recognition and create the corresponding AP bill.
 
-## Configuration Overview {#section_yy4_njv_vxb .section}
+## Configuration Overview
 
 For the purposes of this activity, the *AP Document Recognition Service* feature has been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Process Overview {#section_az4_njv_vxb .section}
+## Process Overview
 
 You will use the [Incoming Documents](AP_30_11_00.md) \(AP301100\) form to manually submit the [All\_Friuts\_Invoice.pdf](Files/All_Fruits_Invoice.pdf) file for recognition, validate and adjust the recognized document, and create the AP bill for further processing. \(The processing of the AP bill is outside of the scope of this activity. For details, see [Processing AP Bills](Finance_ProcessingAPBills_Mapref.md).\)
 
-## System Preparation {#section_cz4_njv_vxb .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -27,7 +27,7 @@ To prepare the system, do the following:
     -   Username: *johnson*
     -   Password: *123*
 
-## Step 1: Submitting a PDF File for Recognition {#section_ez4_njv_vxb .section}
+## Step 1: Submitting a PDF File for Recognition
 
 To manually submit a PDF file for recognition, do the following:
 
@@ -36,7 +36,7 @@ To manually submit a PDF file for recognition, do the following:
 3.  Select the unlabeled check box next to the document in the table, and on the form toolbar, click **Recognize**. The system launches the recognition process, and when the recognition is completed successfully, it changes the status of the document to *Recognized*.
 4.  On the side panel, click **View PDF** and review the attached document.
 
-## Step 2: Validating the Recognized Document and Creating an AP Document {#section_gz4_njv_vxb .section}
+## Step 2: Validating the Recognized Document and Creating an AP Document
 
 To validate a recognized document, while you are still on the [Incoming Documents](AP_30_11_10.md) \(AP301110\) form, do the following:
 

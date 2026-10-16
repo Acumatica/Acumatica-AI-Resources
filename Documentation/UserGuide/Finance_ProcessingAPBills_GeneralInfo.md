@@ -1,8 +1,8 @@
-# AP Bills: General Information {#_1ea1e770-b81c-437e-831f-64f702f968f4 .concept}
+# AP Bills: General Information
 
 In Acumatica ERP, you create an accounts payable bill for each incoming invoice from a vendor.
 
-## Learning Objectives {#section_b4h_njv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,11 +10,11 @@ In this chapter, you will learn how to do the following:
 -   Release the AP bill
 -   Review the GL batch that the system generates as a result
 
-## Applicable Scenarios {#section_e4h_njv_vxb .section}
+## Applicable Scenarios
 
 You create an AP bill manually when you receive an invoice from a vendor.
 
-## Entry of Bills {#section_g4h_njv_vxb .section}
+## Entry of Bills
 
 You enter a bill by using the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form. The summary of a bill includes information about the vendor, the vendor location, payment terms, amount, the currency used for the transaction, and other information.
 
@@ -34,7 +34,7 @@ To facilitate auditing and user reference, you can attach to each bill an electr
 
 If bills contain the vendor's original document numbers, users can more easily match any AP document against the vendor document and avoid document duplication. You can require this reference number by selecting the **Require Vendor Reference** check box on the [Accounts Payable Preferences](AP_10_10_00.md) form. To prevent users from entering duplicate documents \(that is, entering the same document twice\), you select the **Raise an Error On Duplicate Vendor Reference Number** check box on this form, and the system will display an error message each time a user attempts to enter a vendor reference number that is already available in the system.
 
-## Bill Statuses {#section_q4h_njv_vxb .section}
+## Bill Statuses
 
 During processing, a bill can have the following statuses:
 
@@ -48,7 +48,7 @@ During processing, a bill can have the following statuses:
 -   *Pre-Released*: The bill has been released and requires expense reclassification. This status can be assigned to the bill only if the *Expense Reclassification* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) form.
 -   *Voided*: The bill, which was previously scheduled, has been voided and is no longer used as a template for generating recurring bills.
 
-## Bill Processing Workflow {#section_s4h_njv_vxb .section}
+## Bill Processing Workflow
 
 When you enter a bill on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form \(1 in the diagram below\), by default, the new bill has the *On Hold* status if the **Hold Documents on Entry** check box is selected on the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form. If this is the case, you need to click **Remove Hold** on the form toolbar \(2\) to be able to release the bill. If the *Approval Workflow* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form and the approval process for AP documents has been set up, the bill must be approved for release by the responsible person \(3\). After that, the bill is assigned the *Balanced* status.
 
@@ -56,7 +56,6 @@ When you release the bill \(4\), the system assigns the bill the *Open* status a
 
 The following diagram illustrates the bill processing workflow.
 
-![](Images/process_Finance_Processing_AP_Bills_2021R2.png "AP bill processing")
 
 **Parent topic:**[Processing AP Bills](../UserGuide/Finance_ProcessingAPBills_Mapref.md)
 

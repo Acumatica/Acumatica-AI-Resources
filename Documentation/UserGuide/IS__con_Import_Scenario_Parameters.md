@@ -1,4 +1,4 @@
-# Import Scenario Parameters {#_61869f8a-aa41-42c3-a822-02056d5f7615 .concept}
+# Import Scenario Parameters
 
 When you begin creating an import scenario by using the [Import Scenarios](SM_20_60_25.md) \(SM206025\) form, you specify the following required parameters:
 

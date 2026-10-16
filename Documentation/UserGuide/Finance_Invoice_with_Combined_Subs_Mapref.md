@@ -1,4 +1,4 @@
-# Processing an Invoice with Combined Subaccounts {#_32b75319-26fd-4b11-9bd4-7630d70bbadc .concept}
+# Processing an Invoice with Combined Subaccounts
 
 In this chapter, you will read about processing an AR invoice for which subaccounts will be combined automatically by the system, so that the user can enter this invoice more quickly. You will also find information on the transactions that are generated when the AR invoice is released and a process activity with an example of how the subaccounts are combined.
 

@@ -1,4 +1,4 @@
-# Email Templates {#_b95a9c38-deb7-4735-8d9a-e47c4702adf1 .concept}
+# Email Templates
 
 You can configure Acumatica ERP to automatically send template-based email notifications to users on different occasions. For example, a new user may receive an email with the user credentials to be used to access the system, or a user can receive a notification that a record has been approved and needs further processing. Also, you can use template-based emails in mass mailings. For an example of a notification template for notifications about changes to a case made through the Self-Service Portal, see [To Add a Notification Template for Changes in the Contents of a Case](EM__how_Case_Notification.md).
 
@@ -8,7 +8,7 @@ In addition to the standard set of templates that comes with Acumatica ERP, you 
 
 Also, you can create notification templates directly from a report form. You open the report form, go to the **Email Notifications** tab, and click **Schedule Report** on the table toolbar.
 
-## Using Placeholders in Email Templates { .section}
+## Using Placeholders in Email Templates
 
 To specify the recipients of an email on the [Email Templates](SM_20_40_03.md) \(SM204003\) form, you can use the data fields \(as placeholders\) that hold email addresses; these data fields should be separated with semicolons. Their values are retrieved when the system sends the email. In the **To**, **CC**, and **BCC** boxes, you can specify an email address as follows:
 
@@ -35,7 +35,7 @@ For email templates used as subscribers of business events, you can insert as a 
 
 **Tip:** Any template that you want to use as a welcome template for a new Acumatica ERP user must have four placeholders specified in the following order: *\(\(Company\)\)*, *\(\(Name\)\)*, *\(\(Username\)\)*, and *\(\(Password\)\)*. To see an example, view the *User Welcome Notification* template.
 
-## Including Document Details { .section}
+## Including Document Details
 
 You can include information from document detail lines in notifications. If you want to simply list document details, you add the `foreach view="view_name"` loop to the body of the notification template in HTML format. For instance, you can use the following construction for notifications about opportunities.
 
@@ -57,11 +57,13 @@ If you want to list details in a table or as a numbered or unordered list, you c
 		</tr>
 	</tbody>
 </table>
+
+
 ```
 
 **Attention:** You can use the `"data-foreach-view"` and `foreach` attributes in the notification templates used for business events, but leave empty the view name in the attribute: `<tr data-foreach-view="">` or `foreach view=""`. If you specify the view name in this attribute, the system will insert the values of only the first record in the email.
 
-## Associating an Email Template with an Entity Type { .section}
+## Associating an Email Template with an Entity Type
 
 You can associate an email template with a specific entity type. As a result, emails created with the email template will also be linked to a specific record of that entity type \(that is, the record for which a user created an email with the template\) and shown on the **Activities** tab of the respective entity type's form for the record. To set up this association, you need to select the entity type's unique identifier—*noteID*—in the **Link to Entity** box on the [Email Templates](SM_20_40_03.md) \(SM204003\) form, as described in the following example.
 

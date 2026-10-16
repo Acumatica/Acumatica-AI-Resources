@@ -1,12 +1,12 @@
-# To Enter a Payment from a New Credit Card {#_436ed7e9-181a-4f2f-adf6-5ee022a73358 .task}
+# To Enter a Payment from a New Credit Card
 
 You can enter information about a new credit card when you are processing a payment on the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form.
 
-## Before You Proceed {#section_kqs_4jv_vxb .section}
+## Before You Proceed
 
 Make sure that the processing center has been configured with the **Accept Payments From New Card** check box selected in the Summary area of the [Processing Centers](CA_20_50_00.md) \(CA205000\) form.
 
-## To Enter a Payment from a New Credit Card {#section_mqs_4jv_vxb .section}
+## To Enter a Payment from a New Credit Card
 
 1.  Open the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form.
 2.  On the form toolbar, click **Add New Record**.

@@ -1,4 +1,4 @@
-# Integrating the Project Editor with a Version Control System {#_9a7ebc5d-4e87-4714-9d31-cba55c59ffd0 .concept}
+# Integrating the Project Editor with a Version Control System
 
 If a customization task is large or complex or it is implemented by a group of developers, you might need to use a version control system for the customization project. The platform supports the integration of the [Customization Project Editor](../UserGuide/SM_20_45_10.md) with a version control system.
 

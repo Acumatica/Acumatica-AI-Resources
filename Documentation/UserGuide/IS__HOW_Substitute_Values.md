@@ -1,10 +1,10 @@
-# To Substitute Values During Data Import or Data Export {#_79ed2c1d-2988-4c19-b470-de226b5ea305 .task}
+# To Substitute Values During Data Import or Data Export
 
 The data to be imported to Acumatica ERP or exported from Acumatica ERP may contain values that cannot be inserted into the database of Acumatica ERP or the external system as they are. These values require a simple modification before they can be inserted into the respective database. For example, suppose that the data for import contains country codes that are different from the country codes registered in Acumatica ERP. The country codes in the data must be replaced with the country codes registered in Acumatica ERP before the data import.
 
 To handle such data, you define substitution lists, which consist of pairs of source values and their corresponding substitution values, on the [Substitution Lists](SM_20_60_26.md) \(SM206026\) form. You then use these substitution lists in formulas in the mappings of import or export scenarios on the [Import Scenarios](SM_20_60_25.md) \(SM206025\) or [Export Scenarios](SM_20_70_25.md) \(SM207025\) form, respectively.
 
-## To Substitute Values by Using a Formula { .section}
+## To Substitute Values by Using a Formula
 
 1.  On the [Import Scenarios](SM_20_60_25.md) \(SM206025\) or [Export Scenarios](SM_20_70_25.md) \(SM207025\) form, select a scenario in which you want to substitute values.
 2.  On the table toolbar of the **Mapping** tab, click **Substitution Lists**.

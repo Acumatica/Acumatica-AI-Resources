@@ -1,4 +1,4 @@
-# Processing Vouchers {#_fd9bae1f-9591-4870-a2a8-c8ef8b4d17eb .concept}
+# Processing Vouchers
 
 With Acumatica ERP, you can quickly enter a batch of documents of different types—that is, a *journal voucher*—including the following:
 

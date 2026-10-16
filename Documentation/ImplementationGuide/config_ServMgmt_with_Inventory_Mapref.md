@@ -1,4 +1,4 @@
-# Basic Service Management Configuration {#_c4dd4ded-7e86-46eb-becd-cb60011ac55b .concept}
+# Basic Service Management Configuration
 
 If you plan to provide field service functionality in Acumatica ERP, before you start creating entities and processing documents related to service management in the system, you must perform the necessary configuration. This configuration includes enabling the necessary features, specifying the service management preferences, creating the branch locations that provide services, defining the billing cycles to be used for customers, and specifying employee and customer settings.
 

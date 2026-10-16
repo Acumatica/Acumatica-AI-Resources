@@ -1,8 +1,7 @@
-# Workflow-Identifying Fields: Planning Customization of a Workflow {#_680eed58-717f-4e2a-a459-e97005665c62 .concept}
+# Workflow-Identifying Fields: Planning Customization of a Workflow
 
 The [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form provides workflows for multiple types of documents, such as sales orders, invoices, and credit memos. A separate workflow type is used for each of these documents. The type of the workflow is identified by the value of the Behavior internal field, which is unavailable on the form. \(You can learn the field that is used as the workflow-identifying field for the form by reviewing the value of the **Type Identifier** box on the [Workflows](../UserGuide/AU_20_10_20.md) page that is open for the form, as Item 1 in the following screenshot shows.\) For sales orders, the Behavior field has the *SO* value, which is the type of the workflow for sales orders, as you can see on the [Workflows](../UserGuide/AU_20_10_20.md) page \(Item 2\).
 
-![](Images/WorkflowUI_WorkflowIdentifying_PlanningWorkflow.png "The Workflows page")
 
 Suppose that in your customization efforts, you need to implement the following changes to the workflow of sales orders on the [Sales Orders](../UserGuide/SO_30_10_00.md) form:
 

@@ -1,8 +1,8 @@
-# Changes in the Application Code \(C\#\) {#_91f755b8-885c-458a-bcb9-748c5cc03360 .concept}
+# Changes in the Application Code \(C\#\)
 
 In this section, you can find information about the customization of the application functionality, which is provided by the application business logic \(implemented in C\# code\) of data access classes and business logic controllers.
 
-## BLC and DAC Extensions { .section}
+## BLC and DAC Extensions
 
 To give you the ability to customize the functionality or behavior of a form, the Acumatica Customization Platform uses technology based on extension models. When you are resolving a typical customization task, you generally create extensions for original data access classes and business logic controllers.
 
@@ -10,29 +10,26 @@ An extension for a business logic controller \(BLC, also referred to as *graph*\
 
 If you have created an extension for a BLC or DAC in a customization project and published the project, the platform applies the extension to the base class at run time. During publication of the project, all the code extensions created for an instance of Acumatica ERP in the project are saved as C\# source code files in the `App_RuntimeCode` folder of the application instance \(see the diagram below\).
 
-![](images/CG_Platform_TO_Code_CS_ExtTec_Extensions.png "Use of DAC and BLC extensions for a customization")
 
 At run time, during the first initialization of a base class, the Acumatica Customization Platform automatically finds the extension for the class and applies the customization by replacing the base class with the merged result of the base class and the extension it found.
 
 When you unpublish all customization projects, the platform deletes all the code files from the `App_RuntimeCode` folder. As a result, the platform has no custom code to merge at run time.
 
-## Multilevel Extensions { .section}
+## Multilevel Extensions
 
 The Acumatica Customization Platform supports multilevel extensions, which are required when you develop off-the-shelf software that is distributed in multiple editions. Precompiled extensions provide a measure of protection for your source code and intellectual property.
 
 The figure below illustrates the DAC extension model.
 
-![](images/CG_Platform_TO_Code_CS_ExtTec_DAC_Extensions.png "DAC extension levels")
 
 The figure below illustrates the BLC extension model.
 
-![](images/CG_Platform_TO_Code_CS_ExtTec_Graph_Extensions.png "BLC extension levels")
 
 You can use multilevel extensions to develop applications that extend the functionality of Acumatica ERP or other software based on Acumatica Framework in multiple markets \(that is, specified categories of potential client organizations\). You may have a base extension that contains the solution common to all markets as well as multiple market-specific extensions. Every market-specific solution is deployed along with the base extension. Moreover, you can later customize deployed extensions for the end user by using DAC and graph extensions.
 
 **Tip:** When extensions can be deployed separately, the application developer should use multiple extension levels. Otherwise, we recommend using a single extension level.
 
-## The Order in Which Extensions Are Loaded {#_225856fd-aa53-4aa4-8466-45266ec95b96 .section}
+## The Order in Which Extensions Are Loaded
 
 For each DAC or graph type, the system loads and applies extensions at run time as follows:
 
@@ -94,7 +91,6 @@ For each DAC or graph type, the system loads and applies extensions at run time 
 
 Suppose that the website folder contains five extensions of the Contact DAC that are available in the `MyLib` and `ExternalLib` namespaces, and the customization project includes an external sorter, which sorts the extensions in a custom way. The following diagram shows how these extensions are sorted. As a result of the sorting in this example, the first extension that is applied is `MyLib.ContactExt`. The `ExternalLib.ExtExtForContact` class has the highest priority during the merge operation.
 
-![](images/ExtensionSorting.png "Extension sorting")
 
 -   **[DAC Extensions](../CustomizationPlatform/CG_Platform_Framework_CS_DACExt.md)**  
 

@@ -1,8 +1,8 @@
-# To Create a Wiki Template {#_2237ae0b-fde1-404f-a8a2-19502f846e69 .task}
+# To Create a Wiki Template
 
 A template is a wiki article with a specific ID identifying it as a template and with wiki markups defined in the text area of the **Content** tab. You create the template in the wiki you want to apply it to. To create a template, follow the steps below:
 
-## To Create a Wiki Template { .section}
+## To Create a Wiki Template
 
 1.  Open the wiki in the node that you specified for it.
 2.  On the wiki toolbar, click **Add New Article** to open the Wiki Editor form for a new article or folder.

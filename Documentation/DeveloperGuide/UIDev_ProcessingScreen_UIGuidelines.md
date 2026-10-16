@@ -1,8 +1,8 @@
-# Processing Form: UI Guidelines {#_904f9296-40dd-4d5a-acbf-9c615cc462b2 .concept}
+# Processing Form: UI Guidelines
 
 In this topic, you can learn the UI guidelines for the processing forms.
 
-## Template, Label Sizes, and Other Layout Settings { .section}
+## Template, Label Sizes, and Other Layout Settings
 
 By default, you should use the following guidelines while designing a processing form:
 
@@ -16,22 +16,52 @@ By default, you should use the following guidelines while designing a processing
 
 -   Sections in the Selection area can have captions if the captions make sense.
 
-## Recommendations for Organizing the Layout { .section}
+## Recommendations for Organizing the Layout
 
 The following table shows recommendations for organizing the layout of a processing form.
 
-|Correct|Incorrect|
-|-------|---------|
-|Put all commands on a single toolbar.|Do not separate commands into two toolbars.|
-|![](Images/UIDev_ProcessingScreen_SingleToolbar.png)|![](Images/UIDev_ProcessingScreen_MultipleToolbars.png)|
-|Use a single `field` tag for an element with the **Date Range** label and two date and time controls for the selection of the start date and the end date.
+<table id="_a2044259-d4c5-49f9-b6df-b924abf02f9e"><thead><tr><th>
+
+Correct
+
+</th><th>
+
+Incorrect
+
+</th></tr></thead><tbody><tr><td>
+
+Put all commands on a single toolbar.
+
+</td><td>
+
+Do not separate commands into two toolbars.
+
+</td></tr><tr><td>
+
+
+</td><td>
+
+
+</td></tr><tr><td>
+
+Use a single `field` tag for an element with the **Date Range** label and two date and time controls for the selection of the start date and the end date.
 
  This approach applies only to processing forms.
 
-|Do not use two separate fields in a fieldset for the **Start Date** and **End Date** boxes on processing forms.|
-|![](Images/UIDev_ProcessingScreen_DateRange_do.png)|![](Images/UIDev_ProcessingScreen_DateRange_dont.png)|
+</td><td>
 
-## UX and Functional Guidelines { .section}
+Do not use two separate fields in a fieldset for the **Start Date** and **End Date** boxes on processing forms.
+
+</td></tr><tr><td>
+
+
+</td><td>
+
+
+</td></tr></tbody>
+</table>
+
+## UX and Functional Guidelines
 
 The form design should be tailored for screens with a resolution of 1280 x 720.
 

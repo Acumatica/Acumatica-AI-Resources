@@ -1,4 +1,4 @@
-# User Access Rights for Customization {#_819684d9-5f4d-488c-b6cb-7e7d991b63af .concept}
+# User Access Rights for Customization
 
 A user account must be granted the *Customizer* role to have the appropriate access needed for customization of Acumatica ERP.
 

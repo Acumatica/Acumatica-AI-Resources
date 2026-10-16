@@ -1,4 +1,4 @@
-# Action Customization: Overriding of an Action Delegate Method {#_33ec6d90-f8a1-4f57-811b-2de3fd9d1ea6 .concept}
+# Action Customization: Overriding of an Action Delegate Method
 
 An action from a base graph is always completely replaced by the identically named action declared within a graph extension.
 
@@ -14,7 +14,7 @@ You do the following to override an action delegate method:
 
 2.  In the action declaration, replace the action delegate with the following code template.
 
-    ```language-csharp
+    ```csharp
     public virtual IEnumerable myAction(PXAdapter adapter)
     {
       return Base.MyAction.Press(adapter);

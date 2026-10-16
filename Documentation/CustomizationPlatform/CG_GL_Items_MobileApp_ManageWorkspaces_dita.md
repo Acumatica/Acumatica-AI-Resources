@@ -1,4 +1,4 @@
-# To Manage the Workspaces of the Mobile App {#_f2768c94-6c51-49a3-ac65-17ed333f436d .concept}
+# To Manage the Workspaces of the Mobile App
 
 The main menu of the Acumatica mobile app contains workspaces that are similar to those in your Acumatica ERP instance but that you configure separately.
 
@@ -8,7 +8,7 @@ If you configure the workspaces on the [Mobile Workspaces](../Shared/../UserGuid
 
 If any user configures workspaces, screens, and KPI widgets in the mobile app, these settings are applied to the mobile app for only this user.
 
-## To Add a Workspace to a Customization Project { .section}
+## To Add a Workspace to a Customization Project
 
 To add any workspaces to a particular customization project, perform the following steps:
 
@@ -28,7 +28,7 @@ To add any workspaces to a particular customization project, perform the followi
     In the navigation pane, notice that the [Mobile Workspaces](../Shared/../UserGuide/AU_MobileWorkspaces.md) page is listed under the **Mobile Application** node. Open this page, and you can see that the More menu of this page contains the **Add Customized Workspaces** command.
 
 
-## To Configure Workspaces from a Customization Project { .section}
+## To Configure Workspaces from a Customization Project
 
 To configure workspaces from a customization project, perform the following steps:
 
@@ -41,7 +41,7 @@ To configure workspaces from a customization project, perform the following step
 4.  On the form, configure the workspaces as described in [To Configure Workspaces in the Acumatica ERP Instance](../Shared/../StudioDeveloperGuide/MOBILE_Workspaces_Instance.md).
 5.  Save your changes, and close the window.
 
-## To Update a Workspace in a Customization Project { .section}
+## To Update a Workspace in a Customization Project
 
 To update a workspace in a customization project after you have modified it in the Acumatica ERP instance, perform the following steps:
 
@@ -50,7 +50,7 @@ To update a workspace in a customization project after you have modified it in t
 3.  In the table on the page, click the workspace you want to update.
 4.  On the More menu, click **Reload from Database**.
 
-## To Remove a Workspace from a Customization Project { .section}
+## To Remove a Workspace from a Customization Project
 
 To remove a workspace from a customization project, perform the following steps:
 

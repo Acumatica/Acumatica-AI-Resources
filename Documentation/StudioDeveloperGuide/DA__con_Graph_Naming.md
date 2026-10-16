@@ -1,8 +1,8 @@
-# Graph Naming {#_100693b9-cf45-47aa-a653-24e03f7a93e8 .concept}
+# Graph Naming
 
 When you are creating a business logic controller \(graph\), the graph name should be specified according to the rules described in the following sections.
 
-## Graph Name Structure and Requirements { .section}
+## Graph Name Structure and Requirements
 
 The graph name should have the following structure: `<Prefix><ShortDescription><Suffix>`. Graph prefixes and suffixes are described in greater detail in the sections below.
 
@@ -11,7 +11,7 @@ A graph name should meet the following requirements:
 -   The length of a graph name, including all namespaces, should not exceed 255 symbols.
 -   A graph name can contain only English letters.
 
-## Graph Prefixes {#section_cyz_htl_p4b .section}
+## Graph Prefixes
 
 A graph name should begin with a prefix that describes the functional area of the system in which the screen fits logically.
 
@@ -77,7 +77,7 @@ For a custom functional area, customizers can introduce their own prefix which s
 |`WI`|Wiki|System feature|
 |`WS`|Setup wizard \(obsolete\)|System feature|
 
-## Graph Suffixes { .section}
+## Graph Suffixes
 
 You should use the following suffixes in the names of the graphs, depending on the types of the forms they are used for:
 
@@ -86,7 +86,7 @@ You should use the following suffixes in the names of the graphs, depending on t
 -   `Inq`: You use this suffix for the graphs for inquiry forms, which display a list of data records selected by the specified filter. For example, `SalesOrderInq` could be the name of the graph for the inquiry form named Sales Order Inquiry, which provides the list of sales order documents for the specified customer.
 -   `Process`: You use this suffix for the graphs for processing forms, which provide mass processing operations. For example, `SalesOrderProcess` could be the name of the graph for the Approve Sales Orders processing form, which provides mass approval of sales orders.
 
-## Examples {#section_b33_2gm_p4b .section}
+## Examples
 
 The following examples illustrate the use of these graph naming conventions:
 

@@ -1,14 +1,14 @@
-# Stock Items: Implementation Activity {#_9ef80352-3ae1-419d-9f01-33f4885f41ce .task}
+# Stock Items: Implementation Activity
 
 In this implementation activity, you will learn how to create stock items.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are an implementation manager. You are configuring inventory for the SweetLife Fruits &amp; Jams company, which produces and sells jam from various fruits.You will create a stock item for banana jam in 32-ounce jar.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating the stock item, you should do the following:
 
@@ -17,7 +17,7 @@ Before you start creating the stock item, you should do the following:
 3.  On the [Reason Codes](CS_21_10_00.md) \(CS211000\) form, create and save the reason codes that are required for configuring inventory and order management, as described in [Reason Codes: Implementation Activity](Reason_Codes_Implem_Activity.md).
 4.  Create the *JAM* item class, as described in [Item Classes for Stock Items: Implementation Activity](Item_Classes_Implem_Activity.md).
 
-## Step: Creating Stock Items { .section}
+## Step: Creating Stock Items
 
 To create a stock item for banana jam in 32-ounce jars, do the following:
 
@@ -37,7 +37,7 @@ To create a stock item for banana jam in 32-ounce jars, do the following:
 
 Now that you have created the stock item for banana jam, you can include the jam jars in documents.
 
-## Activity Recap { .section}
+## Activity Recap
 
 In this activity, we have illustrated how the implementation manager has created a new stock item.
 

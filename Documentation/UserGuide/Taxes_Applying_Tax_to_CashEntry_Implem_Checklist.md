@@ -1,4 +1,4 @@
-# Cash Entries with Taxes: Implementation Checklist {#_a5aa1ed5-bab8-4ef6-90eb-8b402ddda0d2 .concept}
+# Cash Entries with Taxes: Implementation Checklist
 
 To ensure that the system is configured properly for creating a cash entry a sales tax applied automatically, make sure that the criteria listed in the table have been met in the system as described.
 
@@ -13,7 +13,7 @@ To ensure that the system is configured properly for creating a cash entry a sal
 |[Entry Types](CA_20_30_00.md) \(CA203000\)|An entry type for taxable sales must be available in the system.| |
 |[Cash Accounts](CA_20_20_00.md)\(CA202000\)|The entry type for taxable sales must be assigned to the needed tax account. This entry type must be assigned the needed tax zone.| |
 
-## Settings That Affect the Workflow {#section_tw3_fjv_vxb .section}
+## Settings That Affect the Workflow
 
 The following settings and entities should be specified and defined, respectively:
 

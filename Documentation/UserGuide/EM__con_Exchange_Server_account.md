@@ -1,4 +1,4 @@
-# Configuration of Synchronization with Exchange Server {#_d6a60e2a-7e22-450a-815e-1e5c8625d470 .concept}
+# Configuration of Synchronization with Exchange Server
 
 Acumatica ERP uses delegate access to connect to an Exchange server. For each delegate mailbox on your Exchange server, you create an account in your Acumatica ERP instance on the [Exchange Integration Configuration](SM_20_40_15.md) \(SM204015\) form and specify the connection and synchronization settings.
 
@@ -23,5 +23,5 @@ For the detailed procedure that describes setting up an account for an Exchange 
 
 **Important:** Acumatica ERP does not support two-factor authentication for the primary account that is used for synchronization with Microsoft Exchange. We recommend that you use the primary account only to integrate Acumatica ERP with Microsoft Exchange.
 
-**Parent topic:**[Synchronizing Acumatica ERP with Microsoft Exchange Server](../UserGuide/EM__mng_Exchange_server.md)
+**Parent topic:**[EWS Integration: Overview](../UserGuide/EM__con_Exchange_Integration_Overview.md)
 

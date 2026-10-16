@@ -1,24 +1,24 @@
-# Production Cost Drivers: General Information {#_1cb11716-6673-40d6-b70b-ff924ff6a177 .concept}
+# Production Cost Drivers: General Information
 
 Generally, production costs include costs of materials and costs of converting the materials into products, such as costs of tools and labor involved in the production. In Acumatica ERP Manufacturing Edition, you can define the entities whose costs will affect the cost of the final product \(*production cost drivers*\). Each operation of a production order may have a unique set of production cost drivers, depending on the settings. For information about configuration of cost drivers, see [Configuring Production Cost Drivers: General Information](../ImplementationGuide/config_MFG_Production_Cost_Drivers_GeneralInfo.md).
 
 In this topic, you will find information about cost drivers that may be included in production cost in Acumatica ERP Manufacturing Edition.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this topic, you will learn the following:
 
 -   Which cost components are applied to the cost of produced items
 -   How the system calculates planned and actual costs for each cost component
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You analyze components of production costs in the following cases:
 
 -   When you need to review the cost drivers of a particular production order
 -   When you need to add or change cost drivers that affect the cost of the produced item
 
-## Production Cost Drivers { .section}
+## Production Cost Drivers
 
 The list of entities whose costs can be added to the cost of produced items is the following:
 
@@ -33,7 +33,7 @@ To calculate total costs for a production order, the system sums the costs for e
 
 You can view planned and actual costs for each operation of a production order on the **Totals** tab of the [Production Order Details](AM_20_90_00.md) \(AM209000\) form. You can find total costs for a production order on the **Totals** tab of the [Production Order Maintenance](AM_20_15_00.md) \(AM201500\) form. For more information about planned and actual costs of a production order, see [Production Cost Drivers: Planned and Actual Costs](MFG_Production_Cost_Drivers_Planned_and_Actual_Costs.md).
 
-## Calculation of Costs for Outside Services { .section}
+## Calculation of Costs for Outside Services
 
 The planned cost for outside services in a production order includes the cost of the materials you ship to a vendor \(that is, material lines with the *Ship to Vendor* subcontract source\) and the cost of the outside services \(that is, material lines with the *Purchase* subcontract source\). For a particular production order, you can view planned cost for outside services in the **Subcontract** box of the **Planned** section on the **Totals** tab of the [Production Order Maintenance](../Shared/../UserGuide/AM_20_15_00.md) \(AM201500\) form.
 

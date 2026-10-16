@@ -1,4 +1,4 @@
-# Reclassifying Transactions {#_31491479-f6ad-4a11-9374-63de6256dbd5 .concept}
+# Reclassifying Transactions
 
 If the batch was posted to the wrong GL account, subaccount, or branch, you can correct it by reclassifying the batch.
 

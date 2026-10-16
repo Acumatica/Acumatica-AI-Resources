@@ -1,22 +1,22 @@
-# System Health: To Monitor Performance {#_8f0a4339-6a33-469a-b916-50b893ca88e2 .task}
+# System Health: To Monitor Performance
 
 The following activity will walk you through the process of viewing and aborting running processes, as well as the use of the [Request Profiler](SM_20_50_70.md) \(SM205070\) form in Acumatica ERP and the Developer Tools of the browser.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that your colleague has complained that the Acumatica ERP instance sometimes has slow progress during the creation of a snapshot and when the colleague works with the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form. You need to find out what is going wrong and perform the needed actions to restore system performance.
 
-## Process Overview { .section}
+## Process Overview
 
 You will monitor a running process during the creation of a snapshot on the [Tenants](SM_20_35_20.md) \(SM203520\) form, abort this process by using the [System Monitor](SM_20_15_30.md) \(SM201530\) form, and then use the [Request Profiler](SM_20_50_70.md) \(SM205070\) form to find the SQL request with the longest execution time for the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded as the system administrator by using the *gibbs* username and the *123* password.
 
-## Step 1: Viewing and Aborting a Process { .section}
+## Step 1: Viewing and Aborting a Process
 
 Your colleague mentioned performance being quite slow during the creation of a snapshot, so you will view and abort this process to learn more about the source of the problem. Do the following:
 
@@ -43,7 +43,7 @@ Your colleague mentioned performance being quite slow during the creation of a s
     This stops the selected running process \(which is also the only running process\).
 
 
-## Step 2: Using the Request Profiler { .section}
+## Step 2: Using the Request Profiler
 
 Your colleague also noticed poor performance of the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form. In this step, you will use the [Request Profiler](SM_20_50_70.md) \(SM205070\) form to find the SQL request with the longest execution time for this form. Perform the following instructions:
 

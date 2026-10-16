@@ -1,25 +1,25 @@
-# Contacts: To Create a Contact by Using the Acumatica Add-In for Outlook {#_d3d2da45-e1a4-458b-811d-817a289dd4b2 .task}
+# Contacts: To Create a Contact by Using the Acumatica Add-In for Outlook
 
 The following activity demonstrates how to create a contact by using the Acumatica add-in for Outlook and quickly update the contact information in the system.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are David Chubb, a sales manager of the SweetLife Fruits &amp; Jams company. You have received an email from Alison Campbell, a new senior buyer at the Cakeado cafe, a SweetLife customer. Alison will be responsible for ordering fruits in SweetLife. In the email, Alison introduces herself and requests a detailed price list for fruit. You need to create the contact in the system for further communication and tracking.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following features have been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
 -   *Customer Management*
 -   *Outlook Integration* in the *Third-Party Integrations* group of features
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create a new contact in the system by using the Acumatica add-in for Outlook and make minor changes to the contact information on the [Contacts](CR_30_20_00.md) \(CR302000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating a new contact in the system by using the Acumatica add-in for Outlook, you should do the following:
 
@@ -31,7 +31,7 @@ Before you start creating a new contact in the system by using the Acumatica add
     -   Username: *chubb*
     -   Password: *123*
 
-## Step 1: Creating a Contact by Using the Acumatica Add-In for Outlook { .section}
+## Step 1: Creating a Contact by Using the Acumatica Add-In for Outlook
 
 To create a new contact by using the Acumatica add-in for Outlook, do the following:
 
@@ -62,7 +62,7 @@ To create a new contact by using the Acumatica add-in for Outlook, do the follow
 
 You have created a new contact in the system by using the Acumatica add-in for Outlook.
 
-## Step 2: Updating the Contact's Information by Using the Acumatica Add-In for Outlook { .section}
+## Step 2: Updating the Contact's Information by Using the Acumatica Add-In for Outlook
 
 Suppose that you have scanned the email from Alison Campbell once again and noticed her mobile phone number. You need to add this number to the system on the fly.
 

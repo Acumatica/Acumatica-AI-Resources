@@ -1,27 +1,26 @@
-# Quick Billing of Appointments: General Information {#_e6b790dc-23d3-4184-a82d-a124e48f5449 .concept}
+# Quick Billing of Appointments: General Information
 
 In Acumatica ERP, you can initiate the quick processing of an appointment—that is, performing such actions on the appointment as closing an appointment, preparing and releasing billing documents, and emailing the billing documents to the customer—with just one click.
 
 To perform the quick billing process, an appointment should be created based on a service order type for which quick processing has been configured. For details, see [Service Order Types: Quick Processing Settings](../ImplementationGuide/config_Service_Order_Types_Quick_Process_Activity.md).
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Process an appointment by using the **Quick Process** command
 -   Review the generated billing documents
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You process an appointment quickly when you are not going to make changes in the billing documents based on what happens in the appointment, and you need to generate billing documents quickly.
 
-## Actions Performed on an Appointment During Quick Processing {#section_g54_4ms_35b .section}
+## Actions Performed on an Appointment During Quick Processing
 
 If an appointment is created based on a service order type that supports quick processing, you can click **Quick Process** on the form toolbar of the [Appointments](FS_30_02_00.md#) \(FS300200\) form to process the appointment in a single step. This action opens the **Process Appointment** dialog box \(see below\), which contains check boxes representing the actions that can be performed on the appointment during quick processing.
 
 Note that the service order type settings determine which check boxes appear in the dialog box, their availability, and their default states.
 
-![](Images/ServMgmt_Appointment_Quick_Process_Dialog.png)
 
 The dialog box may contain the following sections and check boxes:
 
@@ -45,7 +44,7 @@ The dialog box may contain the following sections and check boxes:
 
 In the dialog box, you can review the available actions and, if needed, update the check box selections.
 
-## Quick Processing Settings of the Service Order Type {#section_h54_4ms_35b .section}
+## Quick Processing Settings of the Service Order Type
 
 You can run quick processing for an appointment on the [Appointments](FS_30_02_00.md#) \(FS300200\) form if both of the following set up conditions are met:
 

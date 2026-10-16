@@ -1,4 +1,4 @@
-# Configuration of Project Material Management: Default Accounts in Projects and Project Tasks {#_0a2c5be3-ea47-4f27-ad10-286d3178eb95 .concept}
+# Configuration of Project Material Management: Default Accounts in Projects and Project Tasks
 
 You can use projects and project tasks as a source of accounts and subaccounts in sales documents, purchase documents, and inventory transactions.
 

@@ -1,20 +1,20 @@
-# Debit and Credit Adjustments: To Process a Debit Adjustment with a Cash Discount {#_86f7c105-daa4-4982-acfa-75f33b33d1f9 .task}
+# Debit and Credit Adjustments: To Process a Debit Adjustment with a Cash Discount
 
 The following activity will walk you through the process of processing a debit adjustment with a cash discount.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that on January 30, 2026, SweetLife Fruits &amp; Jams received a credit memo from Compulink and Co. in the amount of $160 to decrease the accounts payable balance of the vendor. Also, the vendor wants to take a 3% cash discount by paying this document within the cash discount period, which is 10 days.
 
 Acting as a SweetLife accountant, you need to configure the system to turn on the creation of debit adjustments with cash discounts. You then need to process the vendor's credit memo as a debit adjustment and create a vendor refund for it within the cash discount period.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, on the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form, you will select the **Use Credit Terms in Debit Adjustments** check box. On the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form, you will create a debit adjustment and select the credit terms with a cash discount for it. On the [Checks and Payments](AP_30_20_00.md) \(AP302000\) form, you will create a refund and apply the debit adjustment to it. You will also review the amount paid and the cash discount for the refund to make sure that the cash discount has been applied.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin processing a debit memo with a cash discount, do the following:
 
@@ -22,7 +22,7 @@ Before you begin processing a debit memo with a cash discount, do the following:
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step 1: Updating the Accounts Payable Settings { .section}
+## Step 1: Updating the Accounts Payable Settings
 
 To turn on the use of credit terms and cash discounts in debit adjustments, do the following:
 
@@ -30,7 +30,7 @@ To turn on the use of credit terms and cash discounts in debit adjustments, do t
 2.  On the **General** tab \(**Data Entry Settings** section\), select the **Use Credit Terms in Debit Adjustments** check box.
 3.  On the form toolbar, click **Save** to save the changes.
 
-## Step 2: Creating a Debit Adjustment { .section}
+## Step 2: Creating a Debit Adjustment
 
 To create a debit adjustment with credit terms specified, do the following:
 
@@ -58,7 +58,7 @@ To create a debit adjustment with credit terms specified, do the following:
 
 4.  On the form toolbar, click **Remove Hold**, and then click **Release** to release the debit adjustment.
 
-## Step 3: Creating a Refund to Apply to the Debit Adjustment { .section}
+## Step 3: Creating a Refund to Apply to the Debit Adjustment
 
 To create a refund for the vendor, which applies the debit adjustment to it, do the following:
 

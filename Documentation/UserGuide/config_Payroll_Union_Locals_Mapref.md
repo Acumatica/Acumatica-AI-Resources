@@ -1,4 +1,4 @@
-# Creating Unions {#_5f15e4dd-23eb-41eb-98dd-4d07e4d12411 .concept}
+# Creating Unions
 
 This chapter contains information about unions.
 

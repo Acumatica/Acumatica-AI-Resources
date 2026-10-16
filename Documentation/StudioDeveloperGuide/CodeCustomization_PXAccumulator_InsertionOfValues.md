@@ -1,4 +1,4 @@
-# PXAccumulator: Insertion of Values Updated by an Accumulator Attribute {#_86033dbf-d781-4f97-83ed-95358563e717 .concept}
+# PXAccumulator: Insertion of Values Updated by an Accumulator Attribute
 
 An accumulator attribute triggers only for data records that have the Inserted status in the cache object. Thus, you have to insert a data record into the cache to trigger an update via the accumulator attribute. Once inserted, the data record gets the Inserted status and maintains this status until it is saved to the database, even if you update the record in the cache. When a user saves the changes to the database, even though the record has the Inserted status in the cache object, the framework generates the correct SQL statement that updates the record or inserts it into the database. By default, if there is no record with such a key in the database, a new one is inserted. If a record with these key values already exists, it is correctly updated in the database because of the accumulator attribute.
 

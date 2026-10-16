@@ -1,4 +1,4 @@
-# To Add a Script to a Widget {#_17509bc1-709f-4c58-9b5a-9acb8afd3d26 .task}
+# To Add a Script to a Widget
 
 You can specify how a widget should be displayed on a dashboard page by using a custom script. For example, you can implement a script that handles the way the widget is resized.
 

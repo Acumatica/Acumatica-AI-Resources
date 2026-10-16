@@ -1,10 +1,10 @@
-# Processing Canadian EFT Payments {#_0074786c-262a-4860-843c-c884ed02171c .concept}
+# Processing Canadian EFT Payments
 
 Processing electronic funds transfer \(EFT\) payments is crucial for businesses in Canada. With Acumatica ERP, you can simplify this process by using a built-in Canadian EFT plug-in or a predefined Canadian EFT export scenario.
 
 For details on the configuration and settings of the plug-in, see [Setup of Canadian EFT](CA__CON_Setup_Canadian_EFT.md), [Settings of the Canadian EFT Plug-In](CA__CON_Settings_of_Canadian_EFT_Plug-In.md), and [To Add a Payment Method for the Canadian EFT Plug-In](CA__HOW_Add_PM_for_Canadian_EFT_Plug-In.md). For details on the configuration and settings of the export scenario, see [Settings of the Canadian EFT Export Scenario](CA__CON_Settings_of_CanadianEFT_Export_Scenario.md) and [To Add a Payment Method for the Canadian EFT Export Scenario](CA__HOW_Add_PM_for_Canadian_EFT_Export_Scenario.md).
 
-## Processing of Canadian EFT Payments { .section}
+## Processing of Canadian EFT Payments
 
 In Acumatica ERP, the processing of Canadian EFT payments is built into the payment processing workflow in accounts payable, as described below.
 
@@ -22,7 +22,7 @@ This creates a batch of payments that you can view on the [Batch Payments](AP_30
 
 Before you release the batch payment, you can delete or reprint a payment on the [Release Payments](AP_50_52_00.md) \(AP505200\) form. If you reprint the payment on this form by selecting the *Reprint* action, the payment is assigned the *Pending Print* status and is deleted from the batch payment.
 
-## Export of Payments to a File { .section}
+## Export of Payments to a File
 
 On the [Batch Payments](AP_30_50_00.md) \(AP305000\) form, you can view the generated batch of payments and export it to a CPA005 file as follows:
 

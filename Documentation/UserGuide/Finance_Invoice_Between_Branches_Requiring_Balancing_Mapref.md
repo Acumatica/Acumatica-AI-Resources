@@ -1,4 +1,4 @@
-# Processing Interbranch Invoices with Balancing {#_8f1641cb-114b-4050-9e01-eb8abe88ea83 .concept}
+# Processing Interbranch Invoices with Balancing
 
 Multiple branches of a company may be involved in a single invoice. If branches require balancing, you should set up the proper processing of inter-branch transactions to eliminate the risk of balances being calculated incorrectly.
 

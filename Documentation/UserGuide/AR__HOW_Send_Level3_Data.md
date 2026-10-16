@@ -1,14 +1,14 @@
-# To Send Level 3 Data {#_fd664022-eed5-4421-ada1-8d00fa2be767 .task}
+# To Send Level 3 Data
 
 You use the [Send Level 3 Data](CA_50_80_00.md) \(CA508000\) form to send level 3 transaction data of captured payments to the payment gateway. If this data is accepted, the documents are eligible for level 3 interchange rates. You can also use this form to view a list of documents with the following processing statuses: *Pending*, *Sent*, *Failed*, and *Resend Failed*.
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Make sure that documents with the *Payment*, *Prepayment*, or *Cash Sale* types paid by corporate credit cards exist in the system.
 
-## To Send Level 3 Data of Documents { .section}
+## To Send Level 3 Data of Documents
 
 1.  Open the [Send Level 3 Data](CA_50_80_00.md) \(CA508000\) form.
 2.  In the Selection area, specify the following settings:

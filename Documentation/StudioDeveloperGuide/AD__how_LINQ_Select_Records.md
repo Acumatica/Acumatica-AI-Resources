@@ -1,4 +1,4 @@
-# To Select Records by Using LINQ {#_53571695-dd57-4099-8820-7ea518a28b90 .task}
+# To Select Records by Using LINQ
 
 To select records from the database by using language-integrated query \(LINQ\), you use the standard query operators \(provided by LINQ libraries\), as described in this topic. In the LINQ queries, you use the property fields of DACs to specify the columns of database tables. \(The name of the property field starts with an uppercase letter. Do not confuse it with the class field, which has the same name but starts with lowercase letter.\)
 
@@ -11,7 +11,7 @@ var data = query.ToList();
 
 For details about the execution of LINQ expressions, see [Deferred LINQ Query Execution](../Shared/../StudioDeveloperGuide/AD__con_Deferred_LINQ_Query_Execution.md).
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 -   Add the `using` directives shown below to your code.
 
@@ -23,7 +23,7 @@ For details about the execution of LINQ expressions, see [Deferred LINQ Query Ex
 
 -   Make sure that the application database has the database tables from which you are going to request data, and that the application defines the data access classes \(DACs\) for these tables. For more information on defining DACs, see [Data Access Classes](../Shared/../StudioDeveloperGuide/AD__con_BQL_DAC.md).
 
-## To Filter Records { .section}
+## To Filter Records
 
 To filter records in the database table to be retrieved, construct the LINQ expression by using the `Where` LINQ method and the needed conditions. In the conditions, use the property field defined in the DAC, such as Product.ProductID.
 
@@ -46,7 +46,7 @@ WHERE Product.BookedQty > Product.AvailQty
     OR Product.AvailQty IsNull
 ```
 
-## To Order Records { .section}
+## To Order Records
 
 To order records to be retrieved from the database table, construct the LINQ expression by using the `OrderBy` or `OrderByDescending` LINQ method and the needed property fields of the DAC, such as Product.ProductID.
 
@@ -65,7 +65,7 @@ SELECT [list of columns] FROM Product
     ORDER BY Product.UnitPrice, Product.AvailQty DESC
 ```
 
-## To Query Multiple Tables { .section}
+## To Query Multiple Tables
 
 To join multiple tables, construct the LINQ expression by using the `Join`, `LeftJoin`, `GroupJoin`, and `FullJoin` LINQ methods and the needed property fields of DACs, such as SalesOrder.OrderNbr.
 
@@ -87,7 +87,7 @@ INNER JOIN OrderDetail
     ON OrderDetail.OrderNbr = SalesOrder.OrderNbr
 ```
 
-## To Group or Aggregate Records { .section}
+## To Group or Aggregate Records
 
 To group or aggregate records, do the following:
 
@@ -113,7 +113,7 @@ FROM Product
 GROUP BY Product.CategoryCD
 ```
 
-## To Select Particular Columns of Records { .section}
+## To Select Particular Columns of Records
 
 To select particular columns, specify the corresponding property fields of DACs in the `Select` clause.
 

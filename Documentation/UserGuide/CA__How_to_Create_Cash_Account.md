@@ -1,8 +1,8 @@
-# To Create a Cash Account {#_bc38dce7-4f0d-481d-b91b-82ffbcdffcb4 .task}
+# To Create a Cash Account
 
 You use the [Cash Accounts](CA_20_20_00.md) \(CA202000\) form to create a cash account.
 
-## Before You Proceed {#section_ts1_kjv_vxb .section}
+## Before You Proceed
 
 Do the following to make sure that all prerequisites are met before you create a cash account:
 
@@ -21,7 +21,7 @@ You can perform the following operations before or after creating a cash account
 
 **Note:** If you create the entry types, payment methods, and clearing cash accounts after you have created the cash account, you need to associate them with the cash account by using the table toolbars of the **Entry Types**, **Payment Methods**, and **Clearing Accounts** tabs on the [Cash Accounts](CA_20_20_00.md) form.
 
-## To Create a Cash Account Linked to a GL Account {#section_xs1_kjv_vxb .section}
+## To Create a Cash Account Linked to a GL Account
 
 1.  Open the [Cash Accounts](CA_20_20_00.md) \(CA202000\) form.
 2.  On the form toolbar, click **Add New Record**.

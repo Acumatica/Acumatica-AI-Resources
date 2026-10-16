@@ -1,45 +1,160 @@
-# Supported Barcode Types and Mobile Devices {#_09d8d5a5-25f8-4b41-a183-7586416d02b2 .concept}
+# Supported Barcode Types and Mobile Devices
 
 This topic lists the barcode types supported by Acumatica ERP and mobile devices that you can use to scan the barcodes.
 
-|Format|Barcode Type|
-|------|------------|
-|Linear|Codabar|
-|Code 39|
-|Code 93|
-|Code 128|
-|EAN-8|
-|EAN-13|
-|ITF|
-|UPC-A|
-|UPC-E|
-|2D|Aztec|
-|Data Matrix|
-|PDF417|
-|QR Code|
-|GS1|Linear GS1-128
+<table id="table_kbc_tcr_vlb"><thead><tr><th>
+
+Format
+
+</th><th>
+
+Barcode Type
+
+</th></tr></thead><tbody><tr><td rowspan="9">
+
+Linear
+
+</td><td>
+
+Codabar
+
+</td></tr><tr><td>
+
+Code 39
+
+</td></tr><tr><td>
+
+Code 93
+
+</td></tr><tr><td>
+
+Code 128
+
+</td></tr><tr><td>
+
+EAN-8
+
+</td></tr><tr><td>
+
+EAN-13
+
+</td></tr><tr><td>
+
+ITF
+
+</td></tr><tr><td>
+
+UPC-A
+
+</td></tr><tr><td>
+
+UPC-E
+
+</td></tr><tr><td rowspan="4">
+
+2D
+
+</td><td>
+
+Aztec
+
+</td></tr><tr><td>
+
+Data Matrix
+
+</td></tr><tr><td>
+
+PDF417
+
+</td></tr><tr><td>
+
+QR Code
+
+</td></tr><tr><td>
+
+GS1
+
+</td><td>
+
+Linear GS1-128
 
  2D GS1 DataMatrix
 
-|
+</td></tr></tbody>
+</table>
 
-|Format|Barcode Type|
-|------|------------|
-|Linear|Code 39|
-|Code 39 mod 43|
-|Code 93|
-|Code 128|
-|EAN-8|
-|EAN-13 \(including UPC-A\)|
-|Interleaved 2 of 5|
-|ITF14|
-|UPC-E|
-|2D|Aztec|
-|DataMatrix|
-|PDF417|
-|QR|
+<table id="table_iwx_j2r_vlb"><thead><tr><th>
 
-## Supported devices {#section_u4v_wnr_vlb .section}
+Format
+
+</th><th>
+
+Barcode Type
+
+</th></tr></thead><tbody><tr><td rowspan="9">
+
+Linear
+
+</td><td>
+
+Code 39
+
+</td></tr><tr><td>
+
+Code 39 mod 43
+
+</td></tr><tr><td>
+
+Code 93
+
+</td></tr><tr><td>
+
+Code 128
+
+</td></tr><tr><td>
+
+EAN-8
+
+</td></tr><tr><td>
+
+EAN-13 \(including UPC-A\)
+
+</td></tr><tr><td>
+
+Interleaved 2 of 5
+
+</td></tr><tr><td>
+
+ITF14
+
+</td></tr><tr><td>
+
+UPC-E
+
+</td></tr><tr><td rowspan="4">
+
+2D
+
+</td><td>
+
+Aztec
+
+</td></tr><tr><td>
+
+DataMatrix
+
+</td></tr><tr><td>
+
+PDF417
+
+</td></tr><tr><td>
+
+QR
+
+</td></tr></tbody>
+</table>
+
+## Supported devices
 
 You can use the following types of devices:
 

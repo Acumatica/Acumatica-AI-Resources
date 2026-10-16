@@ -1,8 +1,8 @@
-# Preparing Entities for Synchronization: Field Mapping {#_9adad7f9-2aa6-4662-b6a9-249f490f38ec .concept}
+# Preparing Entities for Synchronization: Field Mapping
 
 In this topic, you will learn how you can map fields between Acumatica ERP and BigCommerce to override the standard field mapping or define an additional mapping to suit your synchronization requirements.
 
-## Mapping of Fields for Export { .section}
+## Mapping of Fields for Export
 
 Acumatica ERP Retail Edition provides you with the ability to map fields, which are related to synchronized entities, in Acumatica ERP with fields in BigCommerce. You can define additional mappings of standard or custom fields as well as override the standard mappings provided with the BigCommerce integration.
 
@@ -27,7 +27,7 @@ To map two fields that will be processed during the export, you specify values i
     The list of available options depends on the selected entity and the ERP object.
 
 
-## Mapping of Fields for Import { .section}
+## Mapping of Fields for Import
 
 Acumatica ERP Retail Edition provides you with the ability to map fields, which are related to synchronized entities, in Acumatica ERP with fields in BigCommerce. You can define additional mappings of standard or custom fields, as well as override the standard mappings provided with the BigCommerce integration.
 
@@ -52,7 +52,7 @@ To map two fields that will be processed during the import process, you specify 
     The list of available options depends on the selected entity, the ecommerce connector, and the external object.
 
 
-## Auto-Mapping of Fields { .section}
+## Auto-Mapping of Fields
 
 When configuring the mapping of fields of the *Stock Item*, *Non-Stock Item*, and *Template Item* entities, instead of selecting a particular target field, you can type `<<Auto_Mapping>>` in the **Target Field** column. During the synchronization process, the system looks for a field similar to the source field and does one of the following:
 
@@ -61,7 +61,7 @@ When configuring the mapping of fields of the *Stock Item*, *Non-Stock Item*, an
 
 **Note:** If *&lt;&lt;Auto\_Mapping&gt;&gt;* is entered in the target field, you cannot use a formula in the source field.
 
-## Removing Standard Mapping for a Field { .section}
+## Removing Standard Mapping for a Field
 
 You can remove the mapping for fields that you do not want to be synchronized between Acumatica ERP and the external system. You perform the unmapping for import and export directions separately as follows:
 
@@ -73,7 +73,7 @@ You can remove the mapping for fields that you do not want to be synchronized be
     During the synchronization, the system will not pull data from the unmapped fields or record data to these fields.
 
 
-## Using of Formulas in Field Mapping { .section}
+## Using of Formulas in Field Mapping
 
 When you define mappings between fields in Acumatica ERP and in the external system on the [Entities](../Shared/../UserGuide/BC_20_20_00.md) \(BC202000\) form, you can use formulas to calculate the values to be displayed in the target fields. Formulas give you the ability to use advanced calculations and data transformation functions if some values are calculated or depend on the data from other sources.
 
@@ -88,7 +88,7 @@ In the Formula Editor dialog box, the *Fields* group includes the following opti
 -   `Unmap`: Explicitly removes the field mapping. If you unmap a required field, the connector uses either the default value or `NULL` if there is no default value defined.
 -   `DefaultMapping`: References the default field mapping defined for the connector. When the keyword is applied, the system follows the default behavior as though no manual mapping is configured. This keyword is especially useful when you want to preserve or conditionally apply the default behavior.
 
-## Mappable Fields and Mapping Limitations { .section}
+## Mappable Fields and Mapping Limitations
 
 You can define additional mapping or override default mapping for the following types of Acumatica ERP fields:
 
@@ -110,23 +110,117 @@ You can define additional mapping or override default mapping for the following 
 
 The table below lists the entities for which the mapping of nonstandard fields is supported, as well as the types of fields that are supported for each entity. The last column also displays the objects in BigCommerce to which the nonstandard Acumatica ERP fields can be mapped.
 
-|Acumatica ERP Object|BigCommerce Object|
-|Entity|Custom Fields|Attribute Fields|User-Defined Fields|
-|--------------------|------------------|
-|------|-------------|----------------|-------------------|
-|*Stock Item*|Yes|Yes|No|*Product*|
-|*Non-Stock Item*|Yes|Yes|No|*Product*|
-|*Customer*|Yes|Yes|Yes|-   *Customer*
+<table id="_ac841a7d-3a8e-47ff-a4c6-db79f8b02503"><thead><tr><th colspan="4">
+
+Acumatica ERP Object
+
+</th><th rowspan="2">
+
+BigCommerce Object
+
+</th></tr><tr><th>
+
+Entity
+
+</th><th>
+
+Custom Fields
+
+</th><th>
+
+Attribute Fields
+
+</th><th>
+
+User-Defined Fields
+
+</th></tr></thead><tbody><tr><td>
+
+*Stock Item*
+
+</td><td>
+
+Yes
+
+</td><td>
+
+Yes
+
+</td><td>
+
+No
+
+</td><td>
+
+*Product*
+
+</td></tr><tr><td>
+
+*Non-Stock Item*
+
+</td><td>
+
+Yes
+
+</td><td>
+
+Yes
+
+</td><td>
+
+No
+
+</td><td>
+
+*Product*
+
+</td></tr><tr><td>
+
+*Customer*
+
+</td><td>
+
+Yes
+
+</td><td>
+
+Yes
+
+</td><td>
+
+Yes
+
+</td><td>
+
+-   *Customer*
 -   *Customer → Customer Address*
 -   *Customer → Customer Form Fields*
 
-|
-|*Customer Location*|Yes|Yes|Yes|-   *Customer Address Data*
+</td></tr><tr><td>
+
+*Customer Location*
+
+</td><td>
+
+Yes
+
+</td><td>
+
+Yes
+
+</td><td>
+
+Yes
+
+</td><td>
+
+-   *Customer Address Data*
 -   *Customer Address Data → Form Fields*
 
-|
+</td></tr></tbody>
+</table>
 
-## Import Mapping of Sales Order Details { .section}
+## Import Mapping of Sales Order Details
 
 You can map the fields with information about the products included in an order in BigCommerce with the fields used in sales order detail lines in Acumatica ERP.
 
@@ -139,13 +233,13 @@ To use a sales order detail field in import mapping, on the **Import Mapping** t
 3.  In the **External Object** column, select the *Order Data → Order Products* option.
 4.  In the **External Field / Value** column, select a field from the list of fields holding information about products in BigCommerce orders.
 
-## Import Mapping of BigCommerce Product Modifiers { .section}
+## Import Mapping of BigCommerce Product Modifiers
 
 You can map the fields used to modify a product in BigCommerce \(which are called *product modifiers* or *customizations* in BigCommerce\) to the fields shown in sales order lines in Acumatica ERP. Product modifiers are used to customize existing products without creating new product variants. For more information about product modifiers, see [the BigCommerce documentation](https://support.bigcommerce.com/s/article/Product-Options-v3).
 
 To use a product modifier in an import mapping, on the **Import Mapping** tab of the [Entities](BC_20_20_00.md) \(BC202000\) for, you select *Order Data → Order Products → Order Product Options* in the **External Object** column and type the name of the product modifier as it appears on the user interface in BigCommerce. To define a more advanced mapping—for example, to display data from multiple product modifier fields to a single sales order line field in Acumatica ERP—you can specify a formula in this column.
 
-## Example 1 { .section}
+## Example 1
 
 Suppose that you do not want inventory IDs of stock items maintained in Acumatica ERP to be publicly displayed as SKU names on the storefront of your BigCommerce store. Instead, you want to show IDs maintained for stock items in a custom field, `UsrExtInvID`, which you show in the **External Inventory ID** box added to the [Stock Items](IN_20_25_00.md) \(IN202500\) form. To map the external inventory IDs of stock items in Acumatica ERP to SKUs in BigCommerce, on the **Export Mapping** tab of the [Entities](BC_20_20_00.md) \(BC202000\) form, you select the store and the *Stock Item* entity, and in the table row, you specify the conditions corresponding to the settings shown in the following table.
 
@@ -153,7 +247,7 @@ Suppose that you do not want inventory IDs of stock items maintained in Acumatic
 |------|---------------|--------------|----------|-----------------|
 |Selected|*Product*|*Stock Keeping Unit*|*Stock Items → Advanced*|*ItemSettings.UsrExtInvID*|
 
-## Example 2 { .section}
+## Example 2
 
 Suppose that you want to provide the customers of your BigCommerce store the ability to add a note when signing up for a new account. You also want this note to be imported into Acumatica ERP during the synchronization of customer data. The standard customer sign-up form available in the BigCommerce store does not contain a field for a note. To add a note field in BigCommerce and map it to an attribute field in Acumatica ERP, you need to perform the following steps:
 
@@ -174,7 +268,7 @@ Suppose that you want to provide the customers of your BigCommerce store the abi
 
 For step-by-step instructions on mapping a nonstandard field for customers, see [Preparing Entities for Synchronization: Implementation Activity](Commerce_BC_Preparing_Entities_Implem_Activity.md).
 
-## Example 3 { .section}
+## Example 3
 
 Suppose that you keep the information about template items along with their matrix items in Acumatica ERP and synchronize this information with the BigCommerce store. However, the information about the matrix items' weights is updated directly in the BigCommerce store. To avoid the override of the weights during the synchronization of the *Template Item* entity, you need to unmap the corresponding field. To do this, you select the *Template Item* entity in the Summary area of the [Entities](BC_20_20_00.md) \(BC202000\) form, and on the **Export Mapping** tab, you specify the conditions corresponding to the settings shown in the following table.
 
@@ -182,7 +276,7 @@ Suppose that you keep the information about template items along with their matr
 |------|---------------|--------------|----------|-----------------|
 |Selected|*Product → Product Variants*|*Weight*|*&lt;&lt;Unmap&gt;&gt;*|Cleared|
 
-## Example 4 { .section}
+## Example 4
 
 Suppose you want to export a tracking number from a shipment in Acumatica ERP to the related BigCommerce order only when the shipment type is *Shipment*. Otherwise, no tracking number should be exported.
 

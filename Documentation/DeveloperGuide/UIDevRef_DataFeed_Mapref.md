@@ -1,4 +1,4 @@
-# Data Feed {#_0b85f0da-6c51-46ad-90f3-bd32409936f0 .concept}
+# Data Feed
 
 In this chapter, you’ll learn about the data feed control and its configuration on Acumatica ERP forms. You’ll also learn how to define data feed control templates and configure the control’s toolbar.
 

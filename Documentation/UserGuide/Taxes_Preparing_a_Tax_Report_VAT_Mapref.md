@@ -1,4 +1,4 @@
-# Preparing a Tax Report for Value-Added Taxes {#_c665237e-5c6e-4203-9c5a-19dcc66e4814 .concept}
+# Preparing a Tax Report for Value-Added Taxes
 
 The topics of this chapter describe how to prepare a tax report, reconcile the amounts in the tax report with GL accounts, and release the tax report to close the tax period.
 

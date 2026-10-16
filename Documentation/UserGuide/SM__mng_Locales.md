@@ -1,8 +1,8 @@
-# Managing Locales and Languages {#_2548c58f-eb91-4706-b004-dbe7d6062946 .concept}
+# Managing Locales and Languages
 
 Acumatica ERP provides functionality that you can use to perform localization to one locale or multiple locales. In this chapter, you can find information on the translation process and the management of locales.
 
-## In This Chapter { .section}
+## In This Chapter
 
 -   [Locales and Languages](SM__CON_Locales_and_Languages.md)
 -   [Boxes That Have Multilanguage Support](SM__CON_Boxes_MultiLanguage.md)

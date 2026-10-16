@@ -1,16 +1,16 @@
-# Diagram View: To Specify Combo Box Values for States {#_a6294acd-ce41-4c7f-9328-541a1ee351c4 .task}
+# Diagram View: To Specify Combo Box Values for States
 
 The following activity will walk you through the process of modifying the list of combo box values that are available for particular states of the workflow. \(Users will be able to select these values in certain boxes on the form when an opportunity has a particular status.\) You will use the [Workflow \(Diagram View\)](../UserGuide/AU_20_10_30_VisualEditor.md) page to modify the workflow.
 
-## Story { .section}
+## Story
 
 Acting as the technical specialist, you need to add to the workflow of the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form a new field for the **Reason** box and add new combo box values for this field.
 
-## Process Overview { .section}
+## Process Overview
 
 By using the [Fields](../UserGuide/AU_20_10_60.md) page, you will add to your customization project the Resolution field, which corresponds to the **Reason** box of the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form. You will also add new combo box values for this box on the same page, and specify these values for the `Open` and `New` states on the [Workflow \(Diagram View\)](../UserGuide/AU_20_10_30_VisualEditor.md) page.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -21,7 +21,7 @@ Before you begin performing the steps of this activity, do the following:
 2.  Make sure that you have learned how to configure fields, as described in [Workflow Elements: General Information](WorkflowUI_ConfiguringWorkflowElements_GeneralInfo.md).
 3.  Make sure that you have completed the [Diagram View: To Add the Auto-Run Action](WorkflowUI_CustomizingInheritedWorkflow_Activity_AddAutoRunAction.md) activity.
 
-## Step 1: Adding a New Field { .section}
+## Step 1: Adding a New Field
 
 To add the Resolution field, which corresponds to the **Reason** box of the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form, do the following in the Customization Project Editor for the *Opportunities* customization project:
 
@@ -45,7 +45,7 @@ To add the Resolution field, which corresponds to the **Reason** box of the [Opp
 
 7.  On the page toolbar, click **Save**.
 
-## Step 2: Adding Combo Box Values { .section}
+## Step 2: Adding Combo Box Values
 
 While you are still on the CR304000 \(Opportunities\) Fields page, add new combo box values for the added field as follows:
 
@@ -61,7 +61,7 @@ While you are still on the CR304000 \(Opportunities\) Fields page, add new combo
 6.  Click **Save** to close the dialog box.
 7.  On the page toolbar, click **Save**.
 
-## Step 3: Specifying the Combo Box Values for the Open State { .section}
+## Step 3: Specifying the Combo Box Values for the Open State
 
 Add the new combo box values to the `Open` state as follows:
 
@@ -77,7 +77,7 @@ Add the new combo box values to the `Open` state as follows:
 7.  Click **OK** in the **State** dialog box.
 8.  On the page toolbar, click **Save**.
 
-## Step 4: Specifying the Combo Box Values for the New State { .section}
+## Step 4: Specifying the Combo Box Values for the New State
 
 While you are still in the diagram view of the CR304000 \(Opportunities\) State Diagram: OpportunitiesAssigned page, add the new combo box values to the `New` state as follows:
 

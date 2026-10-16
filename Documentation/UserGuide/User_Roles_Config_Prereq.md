@@ -1,8 +1,8 @@
-# User Roles: Configuration Prerequisites {#_d0267506-ddd4-4320-b9a7-291ccade9f38 .concept}
+# User Roles: Configuration Prerequisites
 
 Before starting to create user roles, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Configuring the System { .section}
+## Configuring the System
 
 Before you create user roles in Acumatica ERP, at minimum, you need to make sure that an instance is activated. That is, the default set of features must be activated on the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form. For details, see [Preparing an Instance: Activation and Licensing](../ImplementationGuide/config_SA_Prep_Instance_for_Implem_Instance_Activation_and_Licensing.md).
 

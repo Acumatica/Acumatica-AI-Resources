@@ -1,8 +1,8 @@
-# To Export Canadian EFT Payments {#_a5a1c8dd-7383-4930-82a3-f88f56b1c478 .task}
+# To Export Canadian EFT Payments
 
 You can export a batch of EFT payments into a file. After the export of the batch, the file contains the required information in the CPA005 format.
 
-## To Generate a Test File { .section}
+## To Generate a Test File
 
 To export a batch of Canadian EFT payments to an EFT test file, do the following:
 
@@ -15,7 +15,7 @@ To export a batch of Canadian EFT payments to an EFT test file, do the following
 4.  On the form toolbar, click **Generate Test File**.
 5.  In the form title bar, click **Files**, and in the **Files** dialog box, which is opened, click the file name of the generated test file to review it.
 
-## To Export a Batch of Canadian EFT Payments {#section_dq4_njv_vxb .section}
+## To Export a Batch of Canadian EFT Payments
 
 To export a batch of Canadian EFT payments to an EFT production file, do the following:
 

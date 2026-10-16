@@ -1,4 +1,4 @@
-# Working with Commands of the Screen-Based SOAP API {#_355c6686-6a71-49d5-b0ef-9d3e73768bdc .concept}
+# Working with Commands of the Screen-Based SOAP API
 
 To upload data to and from Acumatica ERP by using the screen-based SOAP API, you should define the sequence of commands for the system as it works with elements on an Acumatica ERP form. This sequence of commands reflects the sequence of actions to be executed for a data record as if the record is being manipulated by a user through an Acumatica ERP form.
 

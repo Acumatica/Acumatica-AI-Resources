@@ -1,4 +1,4 @@
-# Screen Configuration: General Information {#_7cc605de-56b5-47c1-84cd-85e8c9264098 .concept}
+# Screen Configuration: General Information
 
 Each form of Acumatica ERP \(including existing and custom forms\) includes a screen configuration—that is, the configuration of the screen that corresponds to the form. The screen configuration contains the configuration of the components of the particular screen, such as actions and fields, and the definitions of workflows.
 
@@ -6,7 +6,7 @@ When a form is created, a screen configuration of this form is empty. To define 
 
 In this chapter, you will edit a screen configuration and start defining a workflow.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -16,7 +16,7 @@ In this chapter, you will learn how to do the following:
 -   Override the Configure method that contains the screen configuration
 -   Locate the class where the predefined workflow is implemented
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You will work with a screen configuration in the following cases:
 
@@ -24,7 +24,7 @@ You will work with a screen configuration in the following cases:
 -   Update \(that is, create an extension of\) a predefined workflow. Customizing a predefined workflow can save you time over creating a custom workflow from scratch, especially if you want to make only minor changes to the functionality of the predefined workflow.
 -   You want to add or update components of a screen configuration, such as actions or fields. You can configure actions and states of fields in a screen configuration even if they are not used in a workflow.
 
-## Workflow Implementation { .section}
+## Workflow Implementation
 
 A workflow class is a class where the workflow is implemented. A workflow class is an extension of the graph for which the workflow should be applied. For example, if you need to implement a workflow for the [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\) form, whose business logic is defined in the OpportunityMaint graph, you need to create a workflow class as an extension of the OpportunityMaint graph. If you need customize an existing workflow, you create a second-level graph extension of the existing workflow class and the graph of the form.
 
@@ -36,7 +36,7 @@ To implement a workflow, you override the PXGraphExtension.Configure method, whi
 
 Inside the static Configure method, you define a workflow by using Workflow API \(which is also called the *screen configuration API*\). Workflow API has a strongly typed syntax. It has many compiler-based validations, which reduce the likelihood of an error. The API is made mostly of fluent generic methods, which use LINQ expressions.
 
-## Components of a Screen Configuration { .section}
+## Components of a Screen Configuration
 
 A screen configuration is defined by the set of components of a screen and the workflows in which these components are used. To configure a screen, you can define any of the following:
 
@@ -64,9 +64,8 @@ A screen configuration is defined by the set of components of a screen and the w
 
 The following diagram shows all components of the screen configuration.
 
-![](Images/diag_WorkflowAPI_ScreenConfiguration.png "Components of the screen configuration")
 
-## Workflow Inheritance { .section}
+## Workflow Inheritance
 
 In a customization project, sometimes a derived \(or inherited\) graph needs to inherit the behavior of the workflow that is defined in its parent graph because similar workflow behavior is needed in the derived graph. To cause the descendant graph to inherit the workflow behavior, you should specify the [PXWorkflowInheritance](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=521a68a3-4942-5db1-5340-e380ebdd17a0) attribute on the descendant graph. As the result, the descendant graph will utilize all workflow extensions of its parent. When a descendant graph is marked with the PXWorkflowInheritance attribute, you can define workflow extension for this exact descendant, and this extension will be applied strictly after all the extensions of the parent class.
 

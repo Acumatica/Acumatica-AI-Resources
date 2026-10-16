@@ -1,4 +1,4 @@
-# Java Script \(PXJavaScript\) {#_22e4972a-4ca2-4683-a2e9-51e88509cb9d .concept}
+# Java Script \(PXJavaScript\)
 
 The PXJavaScript element is designed to keep JavaScript code in an ASPX page.
 

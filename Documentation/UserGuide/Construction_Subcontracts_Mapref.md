@@ -1,4 +1,4 @@
-# Processing Subcontracts {#_e1c9cda8-5b30-4e82-8a35-f98818a4f9c9 .concept}
+# Processing Subcontracts
 
 In this chapter, you will find activities that will help you learn about the processing of subcontracts in the system.
 

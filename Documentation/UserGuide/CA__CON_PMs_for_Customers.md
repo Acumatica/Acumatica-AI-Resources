@@ -1,10 +1,10 @@
-# Payment Methods for Customers {#_f490b2b8-d03a-4855-baec-d836f97ecb30 .concept}
+# Payment Methods for Customers
 
 In Acumatica ERP, you can configure payment methods for customers. The settings of these payment methods describe how the particular payment is done and provide the default cash account to be used to record payments. The system does not initiate the actual movement of money; it just holds the information about the payment.
 
 In this topic, you will read about the general steps of setting up a payment method that describes how particular payment was done. You will also see examples of payment methods that can be used to record payments from customers. Also, the topic describes how you configure a payment method to make it available by default for use with all customer accounts.
 
-## General Payment Method Setup {#section_zcb_kjv_vxb .section}
+## General Payment Method Setup
 
 You use the [Payment Methods](CA_20_40_00.md) \(CA204000\) form to configure payment methods. You perform the following general steps to set up a payment method:
 
@@ -25,7 +25,7 @@ You use the [Payment Methods](CA_20_40_00.md) \(CA204000\) form to configure pay
 
 You follow these steps for all payment methods that are used to describe how customers pay your organization. These payment methods will differ primarily in their identifiers and their lists of allowed cash accounts.
 
-## Examples of Payment Methods {#section_fdb_kjv_vxb .section}
+## Examples of Payment Methods
 
 Goods and services can be paid for in a variety of ways, including cash, checks, wire transfers, and credit or debit cards. You can configure the following types of payment methods to record payments from customers:
 
@@ -37,7 +37,7 @@ Goods and services can be paid for in a variety of ways, including cash, checks,
     If you want to perform actual payment processing—initiating incoming payments from your customers that use credit or debit cards as payment methods—you can configure integration with Acumatica Payments. When you configure payment methods for this purpose, you use the *Credit Card* means of payment, which is designed to ease the setup of payment methods by credit or debit card. For details, see [Configuring and Using Acumatica Payments](AR__MNG_Acumatica_Payments.md).
 
 
-## Payment Methods for Customers and Customer Payment Methods {#section_idb_kjv_vxb .section}
+## Payment Methods for Customers and Customer Payment Methods
 
 You configure payment methods for customers in the cash management subledger of Acumatica ERP, but you use them in the accounts receivable subledger to record payments from the customers. To start using payment methods, you first need to associate a payment method with a particular customer.
 

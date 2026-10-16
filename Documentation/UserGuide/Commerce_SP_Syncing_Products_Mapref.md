@@ -1,4 +1,4 @@
-# Synchronizing Products {#_3760a2e3-62ee-4261-8c53-342f3981c8d8 .concept}
+# Synchronizing Products
 
 In the topics of this chapter, you will read about product export from Acumatica ERP to the Shopify store.
 

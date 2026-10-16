@@ -1,8 +1,8 @@
-# Case Management: General Information {#_9a28dd64-008c-4a1e-9d6e-86194d0147c7 .concept}
+# Case Management: General Information
 
 Acumatica ERP provides tools that help your customer support team create, track, reassign, escalate, and resolve cases.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -18,7 +18,7 @@ In this chapter, you will learn how to do the following:
 -   Become familiar with ways of associating a case with other cases
 -   Prepare and review an accounts receivable invoice for a case
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to learn how to manage cases in Acumatica ERP in scenarios that include the following:
 
@@ -29,7 +29,7 @@ You may want to learn how to manage cases in Acumatica ERP in scenarios that inc
 -   You need to monitor the company's commitments to ensure that they are fulfilled within the specified time.
 -   You need to understand how many cases your team has in the backlog.
 
-## Case Management in Acumatica ERP { .section}
+## Case Management in Acumatica ERP
 
 In Acumatica ERP, you can create, process, and close cases. The processing of cases is described further in this topic. You can also associate a case with another case, if needed, as described in [Relationships Between Cases](#_d140fc2c-b988-4a90-82f8-f9e17c4e5d04).
 
@@ -40,17 +40,16 @@ Depending on your company's customer support processes, users involved in case m
 3.  Tracking the fulfillment times of the company's commitments \(optional, if configured for the case class\). For details, see [Case Management: Tracking of Case Commitment Times](CRM_Support_Managing_Cases_Tracking_Commitments_Time.md) and [Case Management: Time Extensions for Case Commitments](CRM_Support_Managing_Cases_Case_Commitments_Grace_Period.md).
 4.  Escalating a case to another support level or team \(optional\): The owner of the case escalates the case if they have explored the problem and concluded that it needs to be transferred to a higher level of support that is better suited to find a solution, or to another team to perform some task for the case \(such as processing a customer return or refund\).
 5.  Searching for a solution: This step may involve communication with the customer support team, your company, and the customer, as well as any needed external communication, in order to find the solution for the customer's request or problem.
-6.  Creating activities associated with the case \(optional\): In Acumatica ERP, you can track the activities you perform to resolve the case. These activities may include creating emails, making phone calls, or conducting meetings. You can create and track these activities by using the **Activities** tab of the [Cases](CR_30_60_00.md) form. For details, see [Managing Emails and Activities](CRM_Mktg_Managing_Emails_Activities_Mapref.md). If an associated completed activity contains a solution for a case, you can mark it as a case solution on the form of its creation.
+6.  Creating activities associated with the case \(optional\): In Acumatica ERP, you can track the activities you perform to resolve the case. These activities may include creating emails, making phone calls, or conducting meetings. You can create and track these activities by using the **Activities** tab or the **Activity Stream** side panel tab on the [Cases](CR_30_60_00.md) form. For details, see [Managing Emails and Activities](CRM_Mktg_Managing_Emails_Activities_Mapref.md). If an associated completed activity contains a solution for a case, you can mark it as a case solution on the form of its creation.
 7.  Closing the case on the [Cases](CR_30_60_00.md) form.
 8.  Releasing the case activities, the case, or both the case and the activities, and billing the customer by creating an invoice based on the case or the case activities \(optional\): Individual cases are billed once they are released on the [Cases](CR_30_60_00.md) form, and cases that are managed according to a contract are billed in batches when it is time to issue an invoice for the contract. For details, see [Case Management: Billable Cases](CRM_Support_Managing_Cases_Billable_Cases.md).
 
-## Workflow of Case Processing { .section}
+## Workflow of Case Processing
 
 The following diagram illustrates the processing of a case in Acumatica ERP.
 
-![](Images/diag_CRM_Workflow_of_Case_Processing.png)
 
-## Processing of a Case Through Statuses { .section}
+## Processing of a Case Through Statuses
 
 In Acumatica ERP, as a case is being processed by a customer support team, it progresses through various statuses. The status is displayed in the **Status** box in the Summary area of the [Cases](CR_30_60_00.md) \(CR306000\) form. Because the system updates the status of the case during processing, the **Status** box is unavailable for editing. A user can initiate transitions between case statuses by clicking commands on the More menu or on the form toolbar of the [Cases](CR_30_60_00.md) form. The *expected next command*—the command that is the expected next step in the workflow—is displayed as a button on the form toolbar.
 
@@ -64,7 +63,7 @@ In Acumatica ERP, a case may be assigned one of the following statuses:
 
 You can analyze case processing and productivity-related metrics for your support team by generating support reports. For details, see [Support Report: General Information](CRM_Support_Reports_GeneralInfo.md).
 
-## Relationships Between Cases {#_d140fc2c-b988-4a90-82f8-f9e17c4e5d04 .section}
+## Relationships Between Cases
 
 A case can be associated with other cases. For example, a case might be defined so that it cannot be resolved until another case, known as a "blocker" case, is resolved.
 
@@ -77,7 +76,7 @@ On the **Related Cases** tab of the [Cases](CR_30_60_00.md) \(CR306000\) form, y
 -   *Related*: There is a "peer" relation between the case with this relation and the current case. That is, neither case blocks or depends on the other case, but the two cases are related in some way.
 -   *Duplicate Of*: The current case is a duplicate of the listed case.
 
-## Template-Based Emails Related to Cases { .section}
+## Template-Based Emails Related to Cases
 
 A system administrator can configure Acumatica ERP to automatically send template-based emails related to cases. For example, the administrator might set up the system to send an email to a case owner about the assignment of a new case. For details, see [Business Events: Subscribers](SA_Using_Business_Events_Subscribers_Concept.md).
 

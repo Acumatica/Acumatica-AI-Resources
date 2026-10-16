@@ -1,8 +1,8 @@
-# Billing Rules: General Information {#_c425632c-97ad-4a89-9444-2ec8716c2e47 .concept}
+# Billing Rules: General Information
 
 In Acumatica ERP, billing rules are used to automate the calculation of amounts being billed to customers for a particular project. You assign a particular billing rule to each project task, and the rule defines which transactions should be used for billing and which accounts should be used to record the transactions that are generated in the billing process.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -11,7 +11,7 @@ In this chapter, you will learn how to do the following:
 -   Configure combined billing rules with multiple steps of different types
 -   Use billing rates and item prices in billing rules
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure a billing rule to specify how the customers should be billed based on the project conditions:
 
@@ -19,7 +19,7 @@ You configure a billing rule to specify how the customers should be billed based
 -   You configure a time and material billing rule if you need to prepare an invoice for the customer based on the project transactions that record the time and material spent on the project.
 -   You configure a combined billing rule that includes both progress billing and time and material billing steps if you need to calculate invoice amounts differently based on different project stages.
 
-## Configuration of Billing Rules { .section}
+## Configuration of Billing Rules
 
 The billing process is defined by the billing rule of each project task. A billing rule is assigned to each project on the **Summary** tab \(**Billing and Allocation Settings** section\) of the [Projects](PM_30_10_00.md) \(PM301000\) form. When a task is added to the project on the **Tasks** tab of this form, by default, it is assigned the billing rule of the corresponding project, but a different billing rule can be specified for the task.
 
@@ -46,7 +46,7 @@ A simple billing rule includes only one billing step. More complex billing rules
 -   Non-billable transactions that do not contribute to the amount billed to the customer and that you may decide to include in the invoice for informational purposes if this is a *Time and Material* billing step; the respective invoice lines will have a billed quantity and billed amount of 0.
 -   Grouping criteria by date, employee, vendor, and inventory item for the invoice lines if this is a *Time and Material* billing step.
 
-## Formulas and Parameters in Billing Rules and Allocation Rules {#section_umq_b4x_h4b .section}
+## Formulas and Parameters in Billing Rules and Allocation Rules
 
 **Tip:** The parameters and objects listed in this section could be specified in allocation rules as well.
 

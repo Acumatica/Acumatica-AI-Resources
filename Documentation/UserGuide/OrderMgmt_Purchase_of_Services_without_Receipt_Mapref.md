@@ -1,4 +1,4 @@
-# Processing Purchases of Services Without Receipts {#_e7185d98-0ede-4dda-8523-54f397a15194 .concept}
+# Processing Purchases of Services Without Receipts
 
 If your company buys services, these services can be defined as non-stock items in Acumatica ERP. You can process purchases of services and other items by using purchase orders whose items may or may not need to be included in purchase receipts.
 

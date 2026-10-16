@@ -1,8 +1,8 @@
-# Product Availability: General Information {#_2af48c6c-573d-419a-b917-e7e99cd9e86c .concept}
+# Product Availability: General Information
 
 Acumatica ERP Retail Edition provides you with the ability to track the availability of stock items that you sell via the Shopify store and maintain in Acumatica ERP. You have the flexibility to configure which quantities of a stock item should be included in calculations of the quantity available for sale in the online store.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,19 +10,25 @@ In this chapter, you will learn how to do the following:
 -   Set up quantity tracking for stock items exported to the Shopify store
 -   Synchronize the available quantities of exported stock items for which quantity tracking is turned on
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You track available quantities of stock items exported to the Shopify store if you want to make these items available for purchase by shoppers through the storefront only if there is a sufficient quantity in stock.
 
-## Configuration of Product Availability Synchronization { .section}
+## Configuration of Product Availability Synchronization
 
 Before you start exporting available quantities of stock items between Acumatica ERP and a Shopify, you need to perform the following general steps:
 
 1.  Activate the *Product Availability* entity. To do this, on the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form, you select the store, and on the **Entities** tab, you select the **Active** check box for the *Product Availability* entity.
 2.  Specify the quantity calculation settings for the store on the **Inventory** tab of the [Shopify Stores](BC_20_10_10.md) form. For details, see [Product Availability: Calculation of Available Quantities](Commerce_SP_Syncing_Product_Availability_Quantity_Calculation.md).
-3.  Determine the stock items for which available quantities should be exported. For more information, see the *Tracking Available Quantities of Exported Stock Items* section below.
+3.  Optionally, specify the following store-level availability settings on the **Inventory** tab of the [Shopify Stores](BC_20_10_10.md) form, which apply to stock items with the *Store Default* option selected:
 
-## Tracking Available Quantities of Exported Stock Items { .section}
+    -   **Default Availability**
+    -   **When Qty. Unavailable**
+    For more information about the availability settings, see the next section.
+
+4.  Determine the stock items for which available quantities should be exported. For more information, see the *Tracking Available Quantities of Exported Stock Items* section below.
+
+## Tracking Available Quantities of Exported Stock Items
 
 You can track available quantities of stock items exported to a Shopify store and make them available for purchase via the storefront only when they are in stock. You can also determine how the system should handle items that go out of stock.
 
@@ -36,13 +42,28 @@ If you select the *Set as Available \(Track Qty.\)* option in the **Availability
 -   To make the item unavailable for purchase via the storefront but available for pre-order, select *Set as Pre-Order/Continue Selling* in the **When Qty. Unavailable** box. The system will select the **Continue selling when out of stock** check box for the item in the Shopify store.
 -   To keep the current purchasability settings of the item, select *Do Nothing*.
 
-## Synchronization of Availability Settings { .section}
+The table below shows all combinations of availability settings and how each combination affects the corresponding product settings in the Shopify store.
+
+The Acumatica ERP availability settings are specified at the item level on the **eCommerce** tab of the [Stock Items](IN_20_25_00.md) form. If an availability setting has the *Store Default* option selected for an item, the system uses the default value specified on the **Inventory** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form.
+
+|Acumatica ERP|Shopify|
+|Availability|When Qty. Unavailable|Inventory tracked|Continue selling when out of stock|
+|-------------|-------|
+|------------|---------------------|-----------------|----------------------------------|
+|*Set as Available \(Track Qty.\)*|*Do Nothing*|Selected|Isn’t updated|
+|*Set as Unavailable*|Selected|Cleared|
+|*Set as Pre-Order/Continue Selling* \(*Set as Continue Selling*\)|Selected|Selected|
+|*Set as Available \(Don't Track Qty.\)*|n/a|Cleared|Cleared|
+|*Do Not Update*|n/a|Isn’t updated|Isn’t updated|
+|*Set as Unavailable*|n/a|Cleared|Cleared|
+
+## Synchronization of Availability Settings
 
 The availability \(purchasability\) settings of a stock item in the Shopify store are updated as part of the synchronization of the *Stock Item* entity. During the synchronization, the system updates the availability settings of each item exported to Shopify based on the option selected in the **Availability** box on the **eCommerce** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form.
 
 For stock items whose quantities are tracked and have been synchronized with the Shopify store, during the synchronization of the *Stock Item* entity, the system also checks if the item is in stock \(See the *Synchronization of Available Quantities* section below\). If the item has no available quantity \(that is, its calculated quantity is less than or equal to zero\), the system also updates the item's purchasability settings according to the **When Qty. Unavailable** setting specified on the **eCommerce** tab of the [Stock Items](IN_20_25_00.md) form.
 
-## Synchronization of Available Quantities { .section}
+## Synchronization of Available Quantities
 
 Available quantities of stock items are exported to the Shopify store when the *Product Availability* entity is synchronized.
 
@@ -52,7 +73,7 @@ During the synchronization, the system updates the item's quantity in Shopify ba
 
 If the item has no available quantity \(that us its calculated quantity is less than or equal to zero\), the system also updates the item's purchasability settings according to the **When Qty. Unavailable** setting specified on the **eCommerce** tab of the [Stock Items](IN_20_25_00.md) form.
 
-## Units of Measure of Available Item Quantities { .section}
+## Units of Measure of Available Item Quantities
 
 An item's available quantity is exported to the Shopify store in the item's sales unit of measure, which is defined on the **General** tab of the [Stock Items](../Shared/../UserGuide/IN_20_25_00.md) \(IN202500\) form. If an item's base UOM is different from its sales UOM, during the synchronization of the *Product Availability* entity, the item's available quantity is converted to the sales UOM before being exported to the Shopify store,
 

@@ -1,4 +1,4 @@
-# Automatic Group Vendor Discounts {#_48278e1d-2060-4cb4-a184-000a8f7746a3 .concept}
+# Automatic Group Vendor Discounts
 
 Any discount in Acumatica ERP is defined by a combination of settings specified for a discount code and discount sequence. The discount code determines the level at which the discount is applied, whether it is applied automatically by the system or manually by the user, as well as entity types or types for which the discounts will be effective for. The discount sequence specifies further settings, such as the following:
 

@@ -1,8 +1,8 @@
-# Ad Hoc SQL for Fields {#_95f32fae-7e43-4998-8c17-4236039a9da9 .concept}
+# Ad Hoc SQL for Fields
 
 The attributes described in this topic define the database-side calculation of data access class \(DAC\) fields that are bound not to particular database columns, but to multiple database columns. The attributes add the provided expression and the subrequest into the SQL query that selects data records of the given DAC.
 
-## PXDBScalar { .section}
+## PXDBScalar
 
 The [PXDBScalar](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=3fedd793-f07c-3a34-48f9-5ec226d8caf1) attribute defines a subquery that selects the value assigned to the field on which the attribute is specified. In the code example below, PXDBScalar selects the value from the `ProductQty.AvailQty` data field and inserts it into the `ProductReorder.AvailQty` field.
 
@@ -27,7 +27,7 @@ SELECT ...,
 FROM ...
 ```
 
-## PXDBCalced { .section}
+## PXDBCalced
 
 The [PXDBCalced](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=484f012a-de33-1a6b-b520-4822d33ed3d8) attribute defines an expression that is translated into SQL. This expression calculates the field value from other fields of the same data record. An example of the PXDBCalced attribute is shown in the following code.
 

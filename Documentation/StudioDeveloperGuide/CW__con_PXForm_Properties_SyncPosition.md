@@ -1,4 +1,4 @@
-# Use of the SyncPosition Property of PXGrid {#_a0f8f9e9-7997-4325-bc69-b58039dd3699 .concept}
+# Use of the SyncPosition Property of PXGrid
 
 If a form contains a grid and the form toolbar includes an action to process a single record that is highlighted in the grid, the action delegate method must have a reference to the highlighted record in the cache.
 

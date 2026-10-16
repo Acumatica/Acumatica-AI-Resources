@@ -1,4 +1,4 @@
-# Customized Data Classes {#_46a9f940-e878-40c0-b717-c2ef313717d2 .concept}
+# Customized Data Classes
 
 You use the [Data Access](../UserGuide/AU_20_30_01.md) page of the [Customization Project Editor](../UserGuide/SM_20_45_10.md) to manage *DAC* items in a customization project.
 

@@ -1,16 +1,16 @@
-# Warehouses: Implementation Activity {#_cdce4540-097e-4eec-ac44-0a4d43fe4089 .task}
+# Warehouses: Implementation Activity
 
 In the following implementation activity, you will learn how to create a warehouse and specify warehouse-related settings for stock items and posting classes.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company is going to open a new retail shop in Miami, Florida, with a small warehouse in it for keeping fruits and jams. The warehouse will contain one location where all items will be stored. Organizationally, the shop will be part of the SweetLife Head Office branch. This store will specialize in purchasing, storing, and selling exotic fruits \(such as dragon fruits and guavas\) from Mexico. To track item costs in the new warehouse, you will create a separate inventory account.
 
 To prepare the system for the processing of documents for the new retail shop, you will create a new warehouse, specify warehouse-specific settings for the needed stock items, and specify other warehouse-related settings to support the changes in the company's operations.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -20,11 +20,11 @@ In this activity, you will do the following:
 4.  On the [Item Warehouse Details](IN_20_45_00.md) \(IN204500\) form, specify warehouse-specific settings for the items that are stored in multiple warehouses.
 5.  On the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form, process a purchase order and on the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form, the related purchase receipt. Then make sure that the correct inventory account is used in the transactions generated on release of the inventory transaction.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating a warehouse, you should launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as implementation manager Kimberly Gibbs by using the *gibbs* username and the *123* password.
 
-## Step 1: Adding the Inventory Account { .section}
+## Step 1: Adding the Inventory Account
 
 Before you start creating the warehouse for the new shop, you will create the inventory account that you will later specify in the settings of this warehouse. Do the following:
 
@@ -44,7 +44,7 @@ Before you start creating the warehouse for the new shop, you will create the in
 
 You have created the account that will be specified as the inventory account for the new warehouse. The inventory account for a warehouse is the asset account to be used to maintain the balance of the inventory at this warehouse.
 
-## Step 2: Creating the Warehouse { .section}
+## Step 2: Creating the Warehouse
 
 To create the warehouse with one location for the new shop, do the following:
 
@@ -80,7 +80,7 @@ To create the warehouse with one location for the new shop, do the following:
 
 You have created a warehouse for the new retail shop.
 
-## Step 3: Changing the Posting Class Settings { .section}
+## Step 3: Changing the Posting Class Settings
 
 To track items in the `FLORETAIL` warehouse, you have created a separate inventory account and specified it in the warehouse settings. Because fruits will be sold from the Wholesale, Retail, and Floretail warehouses, you need to track costs of fruit items specifically for each warehouse. For fruit items, the *FDI* posting class is used. For this posting class, you will specify that the system must use an inventory account from warehouse settings in transactions with fruit items. To change the settings of the *FDI* posting class, do the following:
 
@@ -90,7 +90,7 @@ To track items in the `FLORETAIL` warehouse, you have created a separate invento
 
 With this setting, when an item with this posting class specified is included in an inventory transaction, the system will use the inventory account specified in the settings of the warehouse involved in the inventory transaction.
 
-## Step 4: Specifying Item–Warehouse Settings { .section}
+## Step 4: Specifying Item–Warehouse Settings
 
 Because dragon fruit and guava items purchased in the Floretail warehouse will have Mexico as a country of origin and these items will be typically purchased, stored, and sold from the Floretail warehouse, you need to specify the item settings specific to the new warehouse. The system will use warehouse-specific settings with the higher priority than general settings specified for the items when you process documents with the items. To specify the settings of the dragon fruit and guava stock items in the new warehouse, do the following:
 
@@ -117,7 +117,7 @@ Because dragon fruit and guava items purchased in the Floretail warehouse will h
 
 For the *DRAGONFR* and *GUAVAS* stock items \(which existed in the system\), you have specified settings specific for the new warehouse.
 
-## Step 5: Processing a Purchase in the New Warehouse { .section}
+## Step 5: Processing a Purchase in the New Warehouse
 
 To make sure that the amounts of the *DRAGONFR* and *GUAVAS* inventory items are posted to the correct inventory account for the *FLORETAIL* warehouse, you will create and process a purchase order and purchase receipt containing one of the items. \(You have specified the inventory account the same way for both items, so it is not necessary to test both.\) You will then view the details of the generated transaction to be sure that the inventory account you specified is used. Do the following:
 

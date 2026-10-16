@@ -1,4 +1,4 @@
-# Project Mailing Configuration: Pro Forma Invoices {#_9270d45a-8a6b-7531-8a73-5031ccc3b8a6 .concept}
+# Project Mailing Configuration: Pro Forma Invoices
 
 You can email a pro forma invoice with any status to the customer for review. To do this, you select the invoice and then invoke the **Email** command on the form toolbar of the [Pro Forma Invoices](../UserGuide/PM_30_70_00.md) \(PM307000\) form.
 

@@ -1,8 +1,8 @@
-# Redirection to Webpages:To Add Redirection Links to a Grid by Using an Action {#_32eb36c6-8223-4c21-b647-c2d6cd9e7ac9 .task}
+# Redirection to Webpages:To Add Redirection Links to a Grid by Using an Action
 
 This activity will walk you through the process of adding redirection links to the grid of a form by using an action.
 
-## Story { .section}
+## Story
 
 Suppose that you want to improve the navigation between the rows of the grid on the Open Payment Summary \(RS401000\) form and the repair work orders and sales orders listed in these lines. You need to implement redirection links, which will give users the ability to navigate to the form that has detailed information about the repair work order or the sales order.
 
@@ -13,7 +13,7 @@ Two types of orders are displayed on the Open Payment Summary \(RS401000\) form:
 
 You cannot implement this behavior by using the approach described in [Redirection to Webpages: To Add Redirection Links to the Grid by Using the PXSelector Attribute](CodeCustomization_Redirection_Activity.md). To implement this logic, you will declare an action, and inside the action method, you’ll implement a redirection link to the corresponding form.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will add redirection links to the **Order Nbr.** column of the Open Payment Summary \(RS401000\) inquiry form by performing the following steps:
 
@@ -21,23 +21,23 @@ In this activity, you will add redirection links to the **Order Nbr.** column of
 2.  Adjusting the TypeScript file of the form
 3.  On the Open Payment Summary \(RS401000\) form, testing the redirection links to make sure they open the appropriate data entry form: [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) or Repair Work Orders \(RS301000\)
 
-## System Preparation { .section}
+## System Preparation
 
 Make sure that you’ve completed the steps described in the following prerequisite activities:
 
-1.  [Test Instance for Customization: To Deploy an Instance with a Custom Form that Implements a Workflow](CodeCustomization_PrepareInstance_Activity_DeployInstanceT240.md)
+1.  [Test Instance for Customization: To Deploy an Instance with a Custom Form That Implements a Workflow](CodeCustomization_PrepareInstance_Activity_DeployInstanceT240.md)
 2.  [Inquiry Forms: To Set Up an Inquiry Form](../DeveloperGuide/UIDev_InquiryForm_Activity_SetupForm.md)
 3.  [Inquiry Forms: To Create the UI of an Inquiry Form with Only a Grid](../DeveloperGuide/UIDev_InquiryForm_Activity_UI.md)
 4.  [Filtering Parameters: To Add a Filter for an Inquiry Form](../DeveloperGuide/UIDev_FilteringParameters_Activity_ConfigureFilter.md)
 5.  [Data View Delegates: To Add a Filtering Query Dynamically](CodeCustomization_DataViewDelegates_Activity_DynamicFilter.md)
 
-## Step 1: Adding an Action to the Graph { .section}
+## Step 1: Adding an Action to the Graph
 
 In this step, you’ll implement an action that redirects the user to the Repair Work Orders \(RS301000\) or [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form, depending on the order type of the selected line. To add a redirection link by using an action, do the following:
 
 1.  In the `RSSVPaymentPlanInq` graph, define the `ViewOrder` action as follows.
 
-    ```language-csharp
+    ```csharp
             public PXAction<RSSVWorkOrderToPay> ViewOrder = null!;
             [PXButton(DisplayOnMainToolbar = false)]
             [PXUIField]
@@ -87,27 +87,27 @@ In this step, you’ll implement an action that redirects the user to the Repair
 
 2.  Build the project.
 
-## Step 2: Adjusting the TypeScript File of the Form { .section}
+## Step 2: Adjusting the TypeScript File of the Form
 
 To add a redirection link by using an action, you need to adjust the TypeScript file of the form. Do the following:
 
 1.  In the `RS401000.ts` file, add the linkCommand and PXActionState import directives.
 2.  In the `RS401000` screen class, add a property of the PXActionState type for the `viewOrder` action, as shown below.
 
-    ```language-javascript
+    ```javascript
     	ViewOrder: PXActionState;
     ```
 
 3.  In the `RSSVWorkOrderToPay` view class, add the linkCommand decorator for the `OrderNbr` field, as shown in the following code. As the type parameter of the linkCommand decorator, you specify the screen class in which the property for the action is defined.
 
-    ```language-javascript
+    ```javascript
     	@linkCommand<RS401000>("ViewOrder")
     	OrderNbr: PXFieldState;
     ```
 
 4.  Publish the customization project.
 
-## Step 3: Testing the Redirection Links { .section}
+## Step 3: Testing the Redirection Links
 
 To test the redirection links that you’ve implemented, do the following:
 

@@ -1,14 +1,14 @@
-# Committed Costs: Process Activity {#_c53c0444-16c1-4385-a86e-d9cecd34d4c0 .task}
+# Committed Costs: Process Activity
 
 This activity will walk you through the creation of a purchase order for a project and tracking this purchase order as a commitment to the project cost budget.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the HM's Bakery and Cafe customer has ordered the installation of three juicers it previously purchased from the SweetLife Fruits &amp; Jams company. Acting as SweetLife's project accountant, you have created a project related to the planned installation work. The installation, which is performed by the vendor of the juicers, has been provided for each juicer. Based on the agreement with the vendor, your company will be billed in two parts—that is, first for the installation of the first two juicers and then for the installation of the third juicer. Acting as the project accountant, you need to capture the first part of the installation cost as a commitment to the project.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -20,13 +20,13 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Projects](PM_30_10_00.md) \(PM301000\) form, the *HMBAKERY8* project has been created and the *INSTALL* project task has been created for the project. This task is the default project task.
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *INSTALL* non-stock item has been created. On the **General** tab, the **Require Receipt** check box is cleared for the item. On the **Price/Cost** tab \(**Standard Cost** section\), the **Current Cost** of the item has been set to *80.00*. On the same tab, *Purchases* is selected in the **Post Cost to Expenses On** box. On the **GL Accounts** tab, the *54200 - Project Subcontract Expense* account has been specified as the **Expense Account**.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create a purchase order on the [Purchase Orders](PO_30_10_00.md) \(PO301000\) form with lines related to the project. You will review how the committed amounts are shown in the project budget on the [Projects](PM_30_10_00.md) \(PM301000\) form. You will then create a partial bill for the purchase order and release the bill on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 
 Finally, you will review how the processed commitments affect the project budget on the [Projects](PM_30_10_00.md) form.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
@@ -34,7 +34,7 @@ To sign in to the system and prepare to perform the instructions of the activity
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the **General** tab \(**General Settings** section\) of the [Projects Preferences](PM_10_10_00.md) \(PM101000\) form, select the **Internal Cost Commitment Tracking** check box to expose commitments and committed values in the project budget, and save your changes to the project accounting preferences.
 
-## Step: Creating Commitments for the Project { .section}
+## Step: Creating Commitments for the Project
 
 To process a purchase order for the project that updates the project budget with committed values, do the following:
 
@@ -79,7 +79,6 @@ To process a purchase order for the project that updates the project budget with
 
     Notice that the billed quantity and amount \(*7.00* and *560.00*, respectively\) of the purchase order have been subtracted from the committed open quantity and amount, which is now equal to *5.00* and *400.00*, respectively. The billed quantity and amount have been added to the committed invoiced quantity and amount, to the actual quantity and amount, and to the received committed quantity, as shown below.
 
-    ![](Images/activity_Projects_Commitments.png "Committed values of the project cost budget")
 
 15. On the **General** tab \(**General Settings** section\) of the [Projects Preferences](PM_10_10_00.md) \(PM101000\) form, clear the **Internal Cost Commitment Tracking** check box, and save your changes to the project accounting preferences.
 

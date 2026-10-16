@@ -1,8 +1,8 @@
-# Check Reprinting: Implementation Checklist {#_f6803bd5-903e-408d-9587-0725430d844f .concept}
+# Check Reprinting: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for performing check reprinting, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist {#section_gqj_njv_vxb .section}
+## Implementation Checklist
 
 We recommend that before you initially print and reprint checks, you make sure the settings have been specified and entities created, as summarized in the following checklist.
 
@@ -11,7 +11,7 @@ We recommend that before you initially print and reprint checks, you make sure t
 |[Enable/Disable Features](CS_10_00_00.md) \(CS100000\)|Make sure the minimal features have been enabled as described in [Company Without Branches: General Information](../ImplementationGuide/config_Basic_Company_GeneralInfo.md), [Company with Branches that Do Not Require Balancing: General Information](../ImplementationGuide/config_Company_with_Branches_No_Balancing_GeneralInfo.md), and [Company with Branches that Require Balancing: General Information](../ImplementationGuide/config_Company_with_Branches_with_Balancing_GeneralInfo.md).|
 |[Payment Methods](CA_20_40_00.md) \(CA204000\)|Make sure that the *CHECK* payment method has been specified when creating a payment.|
 
-## Settings That Affect the Workflow {#section_iqj_njv_vxb .section}
+## Settings That Affect the Workflow
 
 You can affect the workflow of reprinting checks by specifying additional settings as follows:
 
@@ -24,7 +24,7 @@ You can affect the workflow of reprinting checks by specifying additional settin
 -   The following payment method settings should be specified for the payment method on the [Payment Methods](CA_20_40_00.md) \(CA204000\) form:
     -   Select the **Print Checks** option in the **Additional Processing** section on the **Settings for Use in AP** tab.
 
-## Testing of Settings {#section_kqj_njv_vxb .section}
+## Testing of Settings
 
 To make sure that all settings are configured correctly, we recommend that you reprint checks as described in [Check Reprinting: Process Activity](Finance_CheckReprinting_Activity.md).
 

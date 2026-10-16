@@ -1,10 +1,10 @@
-# Sale of Matrix Items: To Export Product Availability Data {#_8a989426-6c0b-4324-9ff9-a36e27538c8e .task}
+# Sale of Matrix Items: To Export Product Availability Data
 
 In this activity, you will specify the default availability settings for the Shopify store, as well as the availability settings for a particular template item and the matrix items generated based on this template item. You will then export the product availability data to the Shopify store and review the results of the export.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company wants to sell several variants of juices in its online store. The company needs to track the quantity of juice available for shipping from a particular location of its retail warehouse.
 
@@ -12,7 +12,7 @@ Acting as an implementation consultant helping SweetLife to set up the integrati
 
 To explore how various availability settings specified for the store, template item, and matrix items in Acumatica ERP affect the availability settings of the exported template item and matrix items in Shopify, you will gain familiarity with various availability settings for items.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 For the purposes of this activity, the following tasks have been performed in the *U100* dataset:
 
@@ -21,7 +21,7 @@ For the purposes of this activity, the following tasks have been performed in th
 -   On the [Template Items](IN_20_30_00.md) \(IN203000\) form, the *JUICE* template item has been defined.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the matrix items based on the *JUICE* template item have been defined.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -34,7 +34,7 @@ In this activity, you will do the following:
 7.  On the [Prepare Data](BC_50_10_00.md) form, prepare the product availability data for synchronization; on the [Process Data](BC_50_15_00.md) form, process the prepared data.
 8.  In the admin area of the Shopify store, review the items' settings and exported quantities.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you complete the instructions in this activity, do the following:
 
@@ -45,7 +45,7 @@ Before you complete the instructions in this activity, do the following:
     -   **Username**: *gibbs*
     -   **Password**: *123*
 
-## Step 1: Activating the Needed Entity { .section}
+## Step 1: Activating the Needed Entity
 
 You can skip this step if you have completed the following activity: [Product Availability: To Export Product Availability Data](Commerce_SP_Syncing_Product_Availability_Activity.md).
 
@@ -55,7 +55,7 @@ To activate the *Product Availability* entity, do the following:
 2.  On the **Entities** tab, select the **Active** check box in the row of the *Product Availability* entity.
 3.  On the form toolbar, click **Save**.
 
-## Step 2: Updating the Default Availability Settings { .section}
+## Step 2: Updating the Default Availability Settings
 
 To specify the availability settings that the system will apply by default to items exported from Acumatica ERP to the Shopify store, do the following:
 
@@ -74,7 +74,7 @@ To specify the availability settings that the system will apply by default to it
 
 5.  On the form toolbar, click **Save** to save the settings.
 
-## Step 3: Updating the Availability Settings of the JUICE Template Item { .section}
+## Step 3: Updating the Availability Settings of the JUICE Template Item
 
 To specify the availability settings that the system will apply to the *JUICE* template item when it is exported from Acumatica ERP to the Shopify store, do the following:
 
@@ -85,7 +85,7 @@ To specify the availability settings that the system will apply to the *JUICE* t
     -   **When Qty. Unavailable**: *Set as Unavailable*
 4.  On the form toolbar, click **Save**.
 
-## Step 4: Updating the Availability Settings of the Matrix Items { .section}
+## Step 4: Updating the Availability Settings of the Matrix Items
 
 To specify the availability settings that the system will apply to the juice variants \(that is, the matrix items generated based on the *JUICE* template item\) exported from Acumatica ERP to the Shopify store, do the following:
 
@@ -105,7 +105,7 @@ To specify the availability settings that the system will apply to the juice var
 
 The *Store Default* option is specified in the **Availability** box for all other matrix items based on the *JUICE* template item; you will not change this option for these items.
 
-## Step 5: Reviewing the Available Quantities of the Matrix Items { .section}
+## Step 5: Reviewing the Available Quantities of the Matrix Items
 
 To review the available quantities of the matrix items in the *RETAIL* warehouse, do the following:
 
@@ -119,7 +119,7 @@ To review the available quantities of the matrix items in the *RETAIL* warehouse
     The system now displays only the items that are stored in the *JS3* warehouse location. Notice the item quantities in the **Qty. Available for Shipping in Location** column.
 
 
-## Step 6: Synchronizing the Template Item Data { .section}
+## Step 6: Synchronizing the Template Item Data
 
 Before the quantity of a matrix item and its availability settings can be exported, the template item \(and the matrix items based on this template item\) must be synchronized with the Shopify store.
 
@@ -138,7 +138,7 @@ To prepare and process the template item data, do the following:
 8.  On the form toolbar, click **Process**.
 9.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 7: Synchronizing the Product Availability Data { .section}
+## Step 7: Synchronizing the Product Availability Data
 
 To prepare and process the product availability data, do the following:
 
@@ -154,7 +154,7 @@ To prepare and process the product availability data, do the following:
 7.  On the [Process Data](BC_50_15_00.md) \(BC501500\) form, which opens with the *SweetStore - SP* store and the *Product Availability* entity selected, click **Process All** on the form toolbar.
 8.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 8: Reviewing the Synchronized Data { .section}
+## Step 8: Reviewing the Synchronized Data
 
 To review the synchronized availability data in the Shopify store, do the following:
 

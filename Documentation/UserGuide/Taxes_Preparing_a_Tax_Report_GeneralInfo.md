@@ -1,16 +1,16 @@
-# Tax Report Preparation: General Information {#_f5ce12a3-bfca-4e8d-a71f-ac21823400c1 .concept}
+# Tax Report Preparation: General Information
 
 If your organization is engaged in business activity, you must file a tax report to each applicable tax agency once per reporting period. The reporting period is prescribed by the tax agency.
 
-## Learning Objectives {#section_i2n_fjv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to prepare a tax report for a particular company and tax agency for an open tax period.
 
-## Applicable Scenarios {#section_k2n_fjv_vxb .section}
+## Applicable Scenarios
 
 You prepare a tax report for an open tax period if the previous tax period has been closed and after the tax period to be reported on has ended.
 
-## Preparation of a Tax Report for an Open Reporting Period {#section_m2n_fjv_vxb .section}
+## Preparation of a Tax Report for an Open Reporting Period
 
 Acumatica ERP provides functionality that simplifies the process of tax calculation and tax report preparation. You can configure the tax report according to the requirements of the respective tax agency \(for details, see [Tax Agency](../Shared/../ImplementationGuide/Taxes_TaxAgency_Mapref.md)\), set up tax calculation rules, and then generate a tax report.
 
@@ -32,7 +32,7 @@ When you prepare the report for the first period of the tax year, the system gen
 
 If a user voids a tax report run for the first period of the tax year, the system deletes the tax periods for this year. This process is demonstrated in [Voiding of a Sales Tax Report: Process Activity](../Shared/../UserGuide/Taxes_Voiding_a_Tax_Report_Activity.md).
 
-## Tax Report Revisions {#section_n2n_fjv_vxb .section}
+## Tax Report Revisions
 
 On the [Release Tax Report](../Shared/../UserGuide/TX_50_20_00.md) \(TX502000\) form, you can prepare a tax report for the same or a closed reporting period if the **Update Closed Tax Periods** check box is selected for the tax agency on the **Tax Agency** tab of the [Vendors](../Shared/../UserGuide/AP_30_30_00.md) \(AP303000\) form. Each time you prepare a tax report for a closed period, the revision number displayed in the **Revision** box on the [Release Tax Report](../Shared/../UserGuide/TX_50_20_00.md) form is incremented by 1.
 

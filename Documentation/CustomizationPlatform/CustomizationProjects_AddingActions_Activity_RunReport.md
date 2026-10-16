@@ -1,23 +1,23 @@
-# Actions on Forms: To Add an Action to Run a Report {#_55826d81-4d18-4706-a6f8-0447bf7ed8aa .task}
+# Actions on Forms: To Add an Action to Run a Report
 
 The following activity will walk you through the process of adding an action that a user can invoke to run a report.
 
-## Story { .section}
+## Story
 
 Suppose that management has determined that Acumatica ERP would better fit the needs of your company if from the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form, employees could quickly access the [Sales Order Details by Customer](../UserGuide/SO_61_10_00.md) \(SO611000\) report for the selected customer. You need to add to the form the action that runs this report.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Screens](../UserGuide/AU_20_10_00.md) page, you will add the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form so that it can be customized. On the [Actions](../UserGuide/AU_20_10_50.md) page, you will add a new action that runs the [Sales Order Details by Customer](../UserGuide/SO_61_10_00.md) \(SO611000\) report. You will then publish the customization project. On the [Sales Orders](../UserGuide/SO_30_10_00.md) form, you will test the added action.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
 1.  Prepare an Acumatica ERP instance by performing the [Customization Projects: To Deploy an Instance](CustomizationProjects_GettingStarted_Activity_CreateInstance.md) prerequisite activity.
 2.  Create the *Yogifon* customization project by performing the [Customization Projects: To Create a Customization Project](CustomizationProjects_GettingStarted_Activity_CreateProject.md) prerequisite activity.
 
-## Step 1: Modifying the List of Customized Screens { .section}
+## Step 1: Modifying the List of Customized Screens
 
 To add an action to the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000 form, you first need to add the form to the list of customized screens. Do the following:
 
@@ -36,7 +36,7 @@ To add an action to the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000 f
     The [Sales Orders](../UserGuide/SO_30_10_00.md) form is added to the list of forms on the [Screens](../UserGuide/AU_20_10_00.md) page, and the Screen Editor: SO301000 \(Sales Orders\) page opens.
 
 
-## Step 2: Adding the Action { .section}
+## Step 2: Adding the Action
 
 To add the action to the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form, perform the following instructions:
 
@@ -87,7 +87,6 @@ To add the action to the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\
 
     These settings indicate that when a user clicks the button or menu command, the report should open for the customer specified in the sales order, and the dates of the sales orders should be January 1 of the current year. \(By default, the report displays the sales orders placed within the current month.\)
 
-    ![](images/CustomizationProjects_AddingActions_Reports_ActionProperties.png "The Action Properties dialog box")
 
 5.  Click **Save** to close the dialog box.
 
@@ -96,7 +95,7 @@ To add the action to the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\
 6.  On the main menu of the Customization Project Editor, click **Publish** &gt; **Publish Current Project**.
 7.  Wait until the *Website updated* row appears in the **Compilation** pane, and click **Close Compilation Pane**.
 
-## Step 3: Testing the New Action { .section}
+## Step 3: Testing the New Action
 
 In Acumatica ERP, test your changes as follows:
 

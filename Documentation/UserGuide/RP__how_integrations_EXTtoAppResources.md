@@ -1,8 +1,8 @@
-# To Add an Integrated External Application Resource to Acumatica Site Map {#_e51dc7e9-be5b-46b1-960f-fc1c3be00553 .task}
+# To Add an Integrated External Application Resource to Acumatica Site Map
 
 To add an integrated an external application to be used as Acumatica ERP form, you use [Application Resources](SM_30_10_10.md) \(SM301010\) form. For more information about integrations with external applications, see [Integration with External Applications](SM__con_Integration_External_Applications.md).
 
-## To Add Integrated Application to Acumatica Site Map { .section}
+## To Add Integrated Application to Acumatica Site Map
 
 1.  Open the [Application Resources](SM_30_10_10.md) \(SM301010\) form.
 2.  In the **Application ID** box, you select an integration with an external application that contains a resource to be added in Acumatica ERP.

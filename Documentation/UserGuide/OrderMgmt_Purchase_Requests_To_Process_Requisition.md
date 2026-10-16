@@ -1,14 +1,14 @@
-# Purchase Requests and Requisitions: To Process a Requisition Without Requests {#_99fc9bac-419d-4cd5-82d2-8ee8d9499fb7 .task}
+# Purchase Requests and Requisitions: To Process a Requisition Without Requests
 
 The following activity demonstrates how to process a purchase requisition that is not based on purchase requests.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Joshua Mueller, an office manager in the SweetLife Fruits &amp; Jams company who orders office supplies and furniture. You need to order new computer chairs for your company's employees: 15 high-back computer chairs, and 20 high-back mesh computer chairs. You need to send the related requests for proposals to the Compulink and Co and Space Computers Ltd. vendors. When you have the vendor bids, you need to select the vendor or vendors the company will buy from. You also need to purchase the new computer chairs and process them through their issuing.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -21,7 +21,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *COMPULINK* and *SPACECOMP* vendors have been created.
 -   On the [Warehouses](IN_20_40_00.md) \(IN204000\) form, the *WHOLESALE* warehouse has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -32,7 +32,7 @@ In this activity, you will do the following:
 5.  On the [Purchase Orders](PO_30_10_00.md) \(PO301000\) and the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form, prepare and process the purchase receipt for the ordered stock items.
 6.  On the [Issues](IN_30_20_00.md) \(IN302000\) form, create the inventory issue to reflect the items being issued to the employees who requested the items.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start processing a purchase requisition without requests, do the following:
 
@@ -40,7 +40,7 @@ Before you start processing a purchase requisition without requests, do the foll
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 3.  On the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, make sure the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Creating a Purchase Requisition { .section}
+## Step 1: Creating a Purchase Requisition
 
 To create a requisition, do the following:
 
@@ -71,7 +71,7 @@ To create a requisition, do the following:
 
 You have created a purchase requisition and sent the requests for proposal to the vendors.
 
-## Step 2: Entering the Vendor Responses into the System { .section}
+## Step 2: Entering the Vendor Responses into the System
 
 Suppose that you have received bids from both vendors. The *COMPULINK* vendor can provide the 15 computer chairs that you need, but at a higher price than that of the *SPACECOMP* vendor, and 10 mesh computer chairs \(you need 20\) at a lower price than that of *SPACECOMP*. The *SPACECOMP* vendor can provide the requested quantities of both kinds of chairs \(15 computer chairs and 20 mesh computer chairs\), but its price for mesh computer chairs is higher than that of *COMPULINK*.
 
@@ -112,7 +112,7 @@ To add the responses from the vendors to the system, do the following:
         -   **Bid Unit Cost**: `119.00`
 7.  On the form toolbar, click **Save**.
 
-## Step 3: Selecting the Best Bids from Vendors { .section}
+## Step 3: Selecting the Best Bids from Vendors
 
 To perform automatic bidding and review the bidding results, do the following:
 
@@ -137,7 +137,7 @@ To perform automatic bidding and review the bidding results, do the following:
 
 5.  On the form toolbar, click **Complete Bidding**. The status of the requisition is changed to *Open*.
 
-## Step 4: Creating the Purchase Orders { .section}
+## Step 4: Creating the Purchase Orders
 
 To create the purchase orders for the vendors, do the following:
 
@@ -147,11 +147,10 @@ To create the purchase orders for the vendors, do the following:
 
 **Attention:** If your system has a different set of purchase and sales documents than those in the initial *U100* dataset, you may see different values in the screenshots.
 
-![](Images/OrderMgmt_Purchase_Requests_To_Process_Requisition_PO.png "The purchase orders for the vendors")
 
 Suppose that you have emailed the purchase orders to the vendors.
 
-## Step 5: Receiving the Items from the Vendors { .section}
+## Step 5: Receiving the Items from the Vendors
 
 Suppose that the vendors have delivered the ordered chairs to the *WHOLESALE* warehouse. To create the documents that reflect the receipt of the items in the warehouse, do the following:
 
@@ -172,7 +171,7 @@ Suppose that the vendors have delivered the ordered chairs to the *WHOLESALE* wa
 
 You have received the computer chairs in the warehouse, and now you can issue the items to the employees that ordered them.
 
-## Step 6: Issuing Inventory Items from the Warehouse { .section}
+## Step 6: Issuing Inventory Items from the Warehouse
 
 Suppose that you have provided the chairs that you ordered to the employees. To create and process the needed documents for issuing the items from the *WHOLESALE* warehouse, do the following:
 

@@ -1,8 +1,8 @@
-# GL Consolidation: Account Mapping {#_05b98916-71dc-4bf3-87a7-fc793d996099 .concept}
+# GL Consolidation: Account Mapping
 
 Consolidation process requires mapping of the accounts and subaccounts \(if the subaccounts are used in the system\) of the consolidation unit to the respective accounts and subaccounts of the parent tenant. This mapping depends on your consolidation scenario: what level of details should be available in the consolidation branch for the required consolidated reports.
 
-## Account Mapping {#section_ddm_mjv_vxb .section}
+## Account Mapping
 
 You map accounts on the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form of the consolidation unit by specifying an appropriate account of the parent tenant in the **Consolidation Account** column for each account of the consolidation unit. For instructions, see [GL Consolidation: To Prepare the Consolidation Unit](Finance_GL_Consolidation_To_Prepare_Consol_Unit.md).
 

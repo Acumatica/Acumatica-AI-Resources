@@ -1,4 +1,4 @@
-# Record Validation for Duplicates: Mass-Validation of Records {#_8018b186-72da-4958-9d14-e7fc03826f45 .concept}
+# Record Validation for Duplicates: Mass-Validation of Records
 
 Acumatica ERP provides the ability to mass-validate groups of leads, contacts, and business accounts for duplicates.
 

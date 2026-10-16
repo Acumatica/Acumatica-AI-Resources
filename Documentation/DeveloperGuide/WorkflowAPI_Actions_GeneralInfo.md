@@ -1,8 +1,8 @@
-# Workflow Actions: General Information {#_e16fef7b-5ec4-40c7-afeb-8166d9f0a3f7 .concept}
+# Workflow Actions: General Information
 
 This chapter will give you experience with and an understanding of the ways you can define and configure workflow actions.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,11 +10,11 @@ In this chapter, you will learn how to do the following:
 -   Define a category for an action
 -   Configure the conditional appearance of an action
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You define a workflow action when you need to add an action to a form that uses a workflow. You can display an action and make it available only in particular states, and you can use an action to trigger a transition from one state to another.
 
-## Workflow Actions { .section}
+## Workflow Actions
 
 *Actions* are methods that can be invoked from outside of a graph, from the UI, or through the web service API. Actions are associated with buttons or commands \(or both\) on the user interface.
 
@@ -26,13 +26,13 @@ Workflow actions are actions that are added to the screen configuration and to a
 
 -   The declaration of an action in the screen configuration.
 
-## Action Declaration in a Graph { .section}
+## Action Declaration in a Graph
 
 The declaration of an action in a graph consists of the following:
 
 -   A field of the PXAction&lt;&gt; type, which is declared as follows.
 
-    ```language-csharp
+    ```csharp
     public PXAction<Shipment> CancelShipment;
     ```
 
@@ -41,7 +41,7 @@ The declaration of an action in a graph consists of the following:
 -   A method that implements the action; this method has the PXButton and PXUIField attributes. This method has the following forms of declaration:
     -   Without parameters and returning void: This standard form of declaration is shown in the following code example.
 
-        ```language-csharp
+        ```csharp
         [PXButton]
         [PXUIField(DisplayName = "Cancel Shipment")]
         protected virtual void cancelShipment()
@@ -54,7 +54,7 @@ The declaration of an action in a graph consists of the following:
 
     -   With a parameter of the PXAdapter type and returning IEnumerable: You can see an example of this form of declaration in the following code.
 
-        ```language-csharp
+        ```csharp
         [PXButton]
         [PXUIField(DisplayName = "Release")]
         protected virtual IEnumerable release(PXAdapter adapter)
@@ -73,7 +73,7 @@ The field and the method should have the same name, differing only in the capita
 
 For more information about actions, see [Action Definition: General Information](../StudioDeveloperGuide/CodeCustomization_ActionsDefinition_GeneralInfo.md) and the *T230 Actions* training course.
 
-## Action Declaration in a Workflow { .section}
+## Action Declaration in a Workflow
 
 You add an action to the workflow by registering the action in the screen configuration as follows:
 
@@ -84,7 +84,7 @@ You add an action to the workflow by registering the action in the screen config
 
 The following code shows an example of an action definition.
 
-```language-csharp
+```csharp
 context.AddScreenConfigurationFor(screen => screen
   .WithActions(actions =>
     actions.Add(graph => graph.PutOnHold, 

@@ -1,8 +1,8 @@
-# AP Bills in Foreign Currencies: Generated Transactions {#_90b9a7e5-a0b0-4fe0-99e3-9b48799e8b13 .concept}
+# AP Bills in Foreign Currencies: Generated Transactions
 
 To be able to process AP bills in a foreign currency, you create and process a bill and a payment. To update vendor balances, the system generates the GL transactions described in the following sections.
 
-## Transaction Generated for an AP Bill {#section_dzx_3jv_vxb .section}
+## Transaction Generated for an AP Bill
 
 When you create and release a one-line bill, the following transaction will be recorded to the general ledger when the bill is released.
 
@@ -13,7 +13,7 @@ When you create and release a one-line bill, the following transaction will be r
 
 You can view the reference number of the GL batch on the **Financial** tab of the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\) form.
 
-## Transactions Generated for a Bill Payment {#section_gzx_3jv_vxb .section}
+## Transactions Generated for a Bill Payment
 
 When you create and release a payment in a foreign currency and the currency rate of the payment is greater than that of the bill, the system generates the following GL transaction.
 

@@ -1,8 +1,8 @@
-# Search and Select Commands and Data Views in Fluent BQL {#_89612b68-c812-438a-86c4-05b295d450c5 .concept}
+# Search and Select Commands and Data Views in Fluent BQL
 
 You can use fluent business query language \(BQL\) to define data views and specify Select and Search commands.
 
-## Data Views { .section}
+## Data Views
 
 You can use any of the following approaches to define a data view:
 
@@ -28,11 +28,11 @@ You can use any of the following approaches to define a data view:
 
 The data views defined with fluent BQL are equivalent to the corresponding traditional BQL data views. For the full list of equivalents, see [Fluent BQL and Traditional BQL Equivalents](AD__con_FluentBQL_and_BQL_Equivalents.md). Also, the fluent BQL data views have the same static methods as the traditional BQL data views have.
 
-## Select Commands { .section}
+## Select Commands
 
 The query defined with fluent BQL, as described in [Fluent Business Query Language](AD__con_Fluent_BQL.md), is equivalent to the Select BQL command. For the full list of equivalents, see [Fluent BQL and Traditional BQL Equivalents](AD__con_FluentBQL_and_BQL_Equivalents.md).
 
-## Search Commands { .section}
+## Search Commands
 
 You can use any of the following approaches to define a Search BQL command:
 
@@ -54,7 +54,7 @@ You can use any of the following approaches to define a Search BQL command:
 
 The Search commands defined with fluent BQL are equivalent to the corresponding traditional BQL commands. For the full list of equivalents, see [Fluent BQL and Traditional BQL Equivalents](AD__con_FluentBQL_and_BQL_Equivalents.md).
 
-## Dynamic Query Building { .section}
+## Dynamic Query Building
 
 Because SearchFor&lt;&gt; and SelectFrom&lt;&gt; are derived from the BqlCommand class, they can be used in dynamic query building through the WhereAnd, AppendJoin, and OrderByNew functions. However, fluent BQL commands \(which are derived from the FbqlCommand class\) are not decomposed by BqlCommand.Decompose\(\) directly. That is, the Decompose function checks whether a command has a FbqlCommand type, retrieves the type of its underlying BqlCommand, and decomposes this underlying BqlCommand command. Therefore, the elements of the array produced by the Decompose function are components of the BqlCommand, and are not components of the passed FbqlCommand.
 

@@ -1,4 +1,4 @@
-# Account {#_4dc38e0f-e7fe-41cf-8370-fe900753d7a4 .concept}
+# Account
 
 This chapter presents code examples showing requests that use the `Account` entity.
 

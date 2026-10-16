@@ -1,10 +1,10 @@
-# Processing BACS Payments {#_96e68b8b-9140-4c07-8a9b-38740868de7a .concept}
+# Processing BACS Payments
 
 Bankers Automated Clearing Service \(BACS\) is used by companies doing business in the United Kingdom. With Acumatica ERP, you can automate payments to vendors by making BACS payments. You export a batch of payments to a file that is then processed in the BACS system. For each paid bill, the specified amount is automatically debited from a company bank account and transferred to the payment recipient electronically.
 
 This functionality is available in the system if the *UK Localization* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Support of BACS Standard 18 {#section_o44_njv_vxb .section}
+## Support of BACS Standard 18
 
 To generate a batch of payments in Standard 18 for HSBC or Lloyds bank, you perform the following configuration steps:
 
@@ -16,7 +16,7 @@ To generate a batch of payments in Standard 18 for HSBC or Lloyds bank, you perf
     -   **Create Batch Payments** \(on the **Settings for Use in AP** tab\): Selected
     -   **Export Scenario** \(on the **Settings for Use in AP** tab\): *BACS HSBC Payment* or *BACS Lloyds Payment*
 
-        **Note:** Depending on the option selected in the **Direct Deposit File Format** box, this setting is filled in by the appropriate export scenario by default.
+        **Attention:** Depending on the option selected in the **Direct Deposit File Format** box, this setting is filled in by the appropriate export scenario by default.
 
         With these settings selected, the table on the **Remittance Settings** table will be automatically filled in with predefined settings.
 
@@ -34,7 +34,7 @@ To generate a batch of payments in Standard 18 for HSBC or Lloyds bank, you perf
     For BACS Lloyds payments, you specify the following details: *Destination Sort Code Number*, *Destination Account Number*, and *Destination Account Name*.
 
 
-## Processing of BACS Payments {#section_v44_njv_vxb .section}
+## Processing of BACS Payments
 
 In Acumatica ERP, the processing of BACS payments is built into the payment processing workflow in accounts payable, as described below.
 
@@ -52,7 +52,7 @@ This creates a batch of payments for BACS processing. You can view this batch on
 
 Before you have released the batch payment, you can delete or reprint a payment on the [Release Payments](AP_50_52_00.md) \(AP505200\) form. If you reprint the payment on this form by selecting the *Reprint* action, the payment is assigned the *Pending Print* status and is deleted from the batch payment.
 
-## Export of the Payments to a File {#section_cp4_njv_vxb .section}
+## Export of the Payments to a File
 
 On the [Batch Payments](AP_30_50_00.md) \(AP305000\) form, you can view the generated batch of payments and export it to a file \(which will be further processed in the BACS payment system\) as follows:
 

@@ -1,8 +1,8 @@
-# Report Creation: Modification of an Existing Report {#_1c6f5184-dbe2-4e2f-9716-0a26ff637265 .concept}
+# Report Creation: Modification of an Existing Report
 
 In the Acumatica Report Designer, you can create a report by copying an existing report and modifying this copy. You can also create versions of an existing report and customize the versions.
 
-## Predefined, Custom, and Customized Reports in Acumatica ERP { .section}
+## Predefined, Custom, and Customized Reports in Acumatica ERP
 
 Acumatica ERP provides a number of predefined reports for each area of the system's functionality. By using the Acumatica Report Designer, you can expand the set of reports that meet your company's needs by creating custom \(new\) reports and by customizing copies of existing ones.
 
@@ -10,7 +10,7 @@ Acumatica ERP provides a number of predefined reports for each area of the syste
 
 In the Acumatica ERP interface, you can view reports published in the system. In most workspaces, predefined reports are listed in the **Reports** category. You can add reports that you develop with the Report Designer to this category of any workspace.
 
-## Storing of Reports { .section}
+## Storing of Reports
 
 Reports in the Acumatica Report Designer are XML files with the `.rpx` extension.
 
@@ -27,7 +27,7 @@ When you open a report in the Report Designer, the application searches for the 
 
 The Report Designer saves all reports in the *UserReports* table of the Acumatica ERP database.
 
-## Copy of a Report { .section}
+## Copy of a Report
 
 To copy a report, you open this report in the Report Designer by using the sign-in credentials of a user who has the *Report Designer* role, and you save a copy of the report with the name different from the name of the original report.
 
@@ -47,7 +47,6 @@ To save a new report, you can use the following commands on the Report Designer 
 
         **Tip:** To avoid conflicts with new reports that the Acumatica ERP engineering team could produce in the future, we recommend that you use different report identifiers than those described in [Form and Report Numbering](../StudioDeveloperGuide/DA__con_Form_Numbering.md).
 
-    ![](Images/RD_Save.png "The Save Report on Server dialog box")
 
 -   **File** &gt; **Save as**: You use this command if you want to save your report locally.
 
@@ -58,7 +57,7 @@ After you have used any of these commands, the next time you want to save the re
 
 After you have saved your report locally or to the server of an instance, you can use this report for any tenant of this instance.
 
-## Report Versions { .section}
+## Report Versions
 
 You can save your report to an Acumatica ERP server as a new version by selecting the **Save as New Version** check box in the **Save Report on Server** dialog box; the version you are saving is activated automatically. When a user runs this report, the active version of the report is executed.
 

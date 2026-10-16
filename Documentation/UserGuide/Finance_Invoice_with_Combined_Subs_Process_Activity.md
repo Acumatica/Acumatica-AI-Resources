@@ -1,18 +1,18 @@
-# Invoice with Combined Subaccounts: Process Activity {#_0ab18403-2547-4879-baf5-3a272123c683 .task}
+# Invoice with Combined Subaccounts: Process Activity
 
 The following activity will walk you through the process of creating and releasing an AR invoice that contains combined subaccounts.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_o5r_4jv_vxb .section}
+## Story
 
 Suppose that today the GoodFood One Restaurant purchased four hours of on-site training from SweetLife Fruits &amp; Jams and additional training materials that are not tracked in the system as non-stock items. Acting as the SweetLife accountant with the *pasic* user account, you need to create an AR invoice for the customer, release the invoice, and then review the balances of involved accounts broken down by subaccounts.
 
-## Process Overview {#section_q5r_4jv_vxb .section}
+## Process Overview
 
 In this activity, you will create an invoice for the purchase on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. In the invoice, you will specify all relevant settings in the Summary area—including the customer and the credit terms. When the invoice is ready, you will release it by clicking **Release** on the form toolbar. You will then review the updated amounts of the accounts involved in the documents in the [Trial Balance Detailed](GL_63_25_00.md) \(GL632500\) report.
 
-## System Preparation {#section_s5r_4jv_vxb .section}
+## System Preparation
 
 Do the following to prepare the system for this activity:
 
@@ -24,7 +24,7 @@ Do the following to prepare the system for this activity:
 4.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026*. For simplicity, in this process activity, you will create and process all documents in the system on this business date.
 5.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Creating an AR Invoice {#section_u5r_4jv_vxb .section}
+## Step 1: Creating an AR Invoice
 
 You will create an AR invoice to see how the combined subaccount functionality works. Do the following:
 
@@ -54,7 +54,7 @@ You will create an AR invoice to see how the combined subaccount functionality w
 
 5.  On the form toolbar, click **Save**.
 
-## Step 2: Releasing the AR Invoice {#section_z5r_4jv_vxb .section}
+## Step 2: Releasing the AR Invoice
 
 To release the invoice, do the following:
 
@@ -64,7 +64,7 @@ To release the invoice, do the following:
     The system changes the status of the invoice to *Open*.
 
 
-## Step 3: Reviewing the Sales Account in the Trial Balance Report {#section_cvr_4jv_vxb .section}
+## Step 3: Reviewing the Sales Account in the Trial Balance Report
 
 To review the balance of the *40000* account and check the amounts the system tracked for each subaccount, do the following:
 

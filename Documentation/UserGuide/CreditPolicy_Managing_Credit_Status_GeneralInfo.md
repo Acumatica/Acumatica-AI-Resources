@@ -1,8 +1,8 @@
-# Credit Status: General Information {#_729a2be2-ecb1-48bf-85dd-2fa250c5450e .concept}
+# Credit Status: General Information
 
 On a regular basis, you can view a list of the customers that have not paid for a long time and have ignored the dunning letters. You can put these customers on credit hold in the system. If a customer record is on credit hold, users cannot create invoices, debit memos, and overdue charges for the customer.
 
-## Learning Objectives {#section_q32_hjv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -10,11 +10,11 @@ In this chapter, you will learn how to do the following:
 -   Put the customer on credit hold
 -   Remove the credit hold for the customer
 
-## Applicable Scenarios {#section_s32_hjv_vxb .section}
+## Applicable Scenarios
 
 You put customers on credit hold to prevent users from creating documents for these customers. You remove credit hold for customers that have paid the debt to enable sales on credit for these customers.
 
-## Managing Customers' Credit Status {#section_vv2_1y4_y4b .section}
+## Managing Customers' Credit Status
 
 You can set the *Credit Hold* or *Active* status for a customer in either of the following ways:
 

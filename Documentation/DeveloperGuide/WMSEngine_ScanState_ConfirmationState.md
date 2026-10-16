@@ -1,12 +1,12 @@
-# Barcode Scan States: Confirmation State {#_6016b899-705e-4c1d-bf04-42f8f1404f7d .concept}
+# Barcode Scan States: Confirmation State
 
 The confirmation state is a special scan state that validates and confirms all the data accumulated by input states and completes the barcode processing cycle by applying changes based on this data to a certain document. There are two types of confirmation strategies: explicit and implicit. An explicit confirmation strategy shows the prompt to confirm an action. An implicit confirmation strategy automatically executes the confirmation process.
 
-## Required Properties { .section}
+## Required Properties
 
 For a confirmation state, you must implement the Prompt required property. You use the property to specify the prompt that is shown to a user to confirm an action. In the Prompt property, you can use the Basis.Localize\(\) method if you need to insert message parameters. If you do not need to use parameters in the message, you return the message itself. The system localizes it automatically.
 
-## Implementation of the Confirmation Process { .section}
+## Implementation of the Confirmation Process
 
 The PerformConfirmation\(\) method is an entry point for the confirmation process. The FlowStatus object is the result of the `PerformConfirmation()` method. This object indicates how the system should complete the confirmation. The FlowStatus class has multiple factory methods that facilitate proper object creation. For details about these methods, see [ConfirmationState&lt;TScanBasis&gt; Class](https://help.acumatica.com/(W(9))/Help?ScreenId=ShowWiki&pageid=4dabb989-35ed-64a9-2895-5e049625a7f1).
 
@@ -14,7 +14,7 @@ A confirmation process can contain complex logic, which should be split into mul
 
 The component that delegates a part of its logic to a ScanExtension is called a complex component. You can learn how to customize complex scan components in [Extension of Scan Components: General Information](WMSEngine_ExtendedComponent_GeneralInfo.md).
 
-## Change of the Confirmation Strategy { .section}
+## Change of the Confirmation Strategy
 
 By default, the system uses the implicit confirmation strategy. However, you can change the preferred strategy by overriding the ExplicitConfirmation property of the barcode scan class. The following code shows an example of the approach that is used in the `INScanCount` class.
 

@@ -1,18 +1,17 @@
-# Data Entry Form:To Create the UI of a Data Entry Form {#_da55bcfe-ebdd-4b33-94be-cdeba0c5497b .task}
+# Data Entry Form:To Create the UI of a Data Entry Form
 
 The following activity will walk you through the process of developing the UI of a data entry form.
 
-## Story { .section}
+## Story
 
 Suppose that you need to develop the Repair Work Orders \(RS301000\) form in the Modern UI. The form will have a Summary area and two tabs below the Summary area.
 
 The following screenshot shows what the form should look like.
 
-![](Images/UIDev_DataEntryScreen_RepairWorkOrders.png "The Repair Work Orders form")
 
 You have already implemented the backend for the form, which includes the `RSSVWorkOrderEntry` graph and the `RSSVWorkOrder`, `RSSVWorkOrderItem`, and `RSSVWorkOrderLabor` data access classes \(DACs\). You have also already added the corresponding tables to the application database.
 
-## Process Overview { .section}
+## Process Overview
 
 You will create TypeScript and HTML files for the Repair Work Orders \(RS301000\) form. In the TypeScript file, you will define the screen class and view classes for the form. You will also define the following views:
 
@@ -22,7 +21,7 @@ You will create TypeScript and HTML files for the Repair Work Orders \(RS301000\
 
 In the HTML file, you will define the layout of the form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin creating the UI of the Repair Work Orders \(RS301000\) form, do the following:
 
@@ -32,7 +31,7 @@ Before you begin creating the UI of the Repair Work Orders \(RS301000\) form, do
     -   The `RSSVWorkOrder`, `RSSVWorkOrderItem`, and `RSSVWorkOrderLabor` database tables
 2.  To take the prerequisite actions and build the source code for the first time, perform the following prerequisite activity: [Modern UI Development: To Build the Source Code of All Acumatica ERP Forms for Modern UI Development](UIDev_ModernUI_Activity_BuildingSourcesAll.md).
 
-## Step 1: Creating Files for the Form { .section}
+## Step 1: Creating Files for the Form
 
 To implement the Modern UI version of the Repair Work Orders \(RS301000\) form, you need to create the TypeScript and HTML files for the form. Create the files as follows:
 
@@ -42,13 +41,13 @@ To implement the Modern UI version of the Repair Work Orders \(RS301000\) form, 
     -   `RS301000.ts`
     -   `RS301000.html`
 
-## Step 2: Defining the Screen Class in TypeScript { .section}
+## Step 2: Defining the Screen Class in TypeScript
 
 To define the view of the Repair Work Orders \(RS301000\) form in TypeScript, you define a screen class and a property for the data views of the form. Do the following:
 
 1.  In the `RS301000.ts` file, add the import directives as follows.
 
-    ```language-javascript
+    ```javascript
     import {
     	PXScreen, createCollection, graphInfo,
     	viewInfo, createSingle,
@@ -57,13 +56,13 @@ To define the view of the Repair Work Orders \(RS301000\) form in TypeScript, yo
 
 2.  Define the screen class for the form, as the following code shows. The class name is the ID of the form.
 
-    ```language-javascript
+    ```javascript
     export class RS301000 extends PXScreen {}
     ```
 
 3.  For the screen class, add the graphInfo decorator, and specify the graph and the primary view of the form in the decorator properties, as the following code shows.
 
-    ```language-javascript
+    ```javascript
     @graphInfo({
     	graphType: "PhoneRepairShop.RSSVWorkOrderEntry",
     	primaryView: "WorkOrders"
@@ -75,7 +74,7 @@ To define the view of the Repair Work Orders \(RS301000\) form in TypeScript, yo
 
     **Attention:** The names of the data view properties should be the same as those in the graph. For example, if the `WorkOrders` view is declared in the `RSSVWorkOrderEntry` graph, the property with the same name should be declared in the `RS301000` screen class.
 
-    ```language-javascript
+    ```javascript
     export class RS301000 extends PXScreen {
     	@viewInfo({ containerName: "Work Order" })
     	WorkOrders = createSingle(RSSVWorkOrder);
@@ -91,7 +90,7 @@ To define the view of the Repair Work Orders \(RS301000\) form in TypeScript, yo
     In the viewInfo decorator, you have specified the names of the containers. These names are used as object names during the configuration of particular functionality, such as workflows and import and export scenarios. If this value is not specified, the system displays the name of the data view as the object name.
 
 
-## Step 3: Defining the Primary View Class in TypeScript { .section}
+## Step 3: Defining the Primary View Class in TypeScript
 
 You need to define a view class for the primary data view of the Repair Work Orders \(RS30100\) form, which is `WorkOrders`.
 
@@ -99,7 +98,7 @@ Proceed as follows:
 
 1.  In the `RS301000.ts` file, update the list of import directives, as the following code shows.
 
-    ```language-javascript
+    ```javascript
     import {
     	PXScreen, createCollection, graphInfo,
     	viewInfo, createSingle,
@@ -109,13 +108,13 @@ Proceed as follows:
 
 2.  Define the `RSSVRepairWorkOrder` view class as follows.
 
-    ```language-javascript
+    ```javascript
     export class RSSVWorkOrder extends PXView {}
     ```
 
 3.  In the view class, specify the properties for all data fields of the data view that should be displayed in the UI, as shown below. You use the name of the data field as the property name.
 
-    ```language-javascript
+    ```javascript
     export class RSSVWorkOrder extends PXView {
     	OrderNbr: PXFieldState;
     	
@@ -147,14 +146,14 @@ Proceed as follows:
     You have used the controlConfig decorator with the specified rows property and the `Description` field with the PXFieldOptions.Multiline option to define a multiline text box with two text lines. For details, see [Text Box: Multiline Text Box](../Shared/../DeveloperGuide/UIDevRef_TextBox_MultilineTextBox.md).
 
 
-## Step 4: Defining the View Classes for Tables in TypeScript { .section}
+## Step 4: Defining the View Classes for Tables in TypeScript
 
 In the TypeScript file of the form, you need to define view classes for the views that are bound to tables on the **Repair Items** and **Labor** tabs of the Repair Work Orders \(RS301000\) form: `RSSVWorkOrderItem` and `RSSVWorkOrderLabor`. Proceed as follows:
 
 1.  In the `RS301000.ts` file, add gridConfig and GridPreset to the list of import directives.
 2.  Define the `RSSVWorkOrderItem` view class as follows.
 
-    ```language-javascript
+    ```javascript
     export class RSSVWorkOrderItem extends PXView {
     	RepairItemType: PXFieldState;
     	InventoryID: PXFieldState<PXFieldOptions.CommitChanges>;
@@ -167,7 +166,7 @@ In the TypeScript file of the form, you need to define view classes for the view
 
 3.  Add the gridConfig decorator to the `RSSVWorkOrderItem` view class, as the following code shows. In the gridConfig decorator, you must specify the preset property. Because the table is used on one of the tabs of the data entry form, you use the *Details* preset. For information about presets, see [Form Layout: Grid Presets](../Shared/../DeveloperGuide/UIDev_DesigningLayout_GridPresets.md).
 
-    ```language-javascript
+    ```javascript
     @gridConfig({
     	preset: GridPreset.Details
     })
@@ -181,7 +180,7 @@ In the TypeScript file of the form, you need to define view classes for the view
 
 4.  Define the `RSSVWorkOrderLabor` view class similarly to the way you defined the `RSSVWorkOrderItem` view class. The resulting class should be defined as follows.
 
-    ```language-javascript
+    ```javascript
     @gridConfig({
     	preset: GridPreset.Details
     })
@@ -196,13 +195,13 @@ In the TypeScript file of the form, you need to define view classes for the view
 
 5.  Save your changes.
 
-## Step 5: Defining the Layout in HTML { .section}
+## Step 5: Defining the Layout in HTML
 
 The Repair Work Orders \(RS301000\) form contains the Summary area and two tabs below it. The Summary area has three columns, which you can arrange by using the `7-10-7` template. Each tab contains a table. To define the layout of the form, do the following:
 
 1.  Define the Summary area of the form by adding the qp-template tag with the `7-10-7` template. For each slot, define a fieldset, as shown in the following code. For the third fieldset, specify `class="highlights-section"`, which makes the fieldset have blue background.
 
-    ```language-xml
+    ```xml
     <template>
       <qp-template
         id="form-Order"
@@ -229,7 +228,7 @@ The Repair Work Orders \(RS301000\) form contains the Summary area and two tabs 
 
 2.  In each fieldset, add the field tags for the fields that should be displayed in corresponding fieldset, as the following code shows.
 
-    ```language-xml
+    ```xml
         <qp-fieldset id="fsColumnA-Order" slot="A" view.bind="WorkOrders">
           <field name="OrderNbr"></field>
           <field name="Status"></field>
@@ -254,7 +253,7 @@ The Repair Work Orders \(RS301000\) form contains the Summary area and two tabs 
 3.  Define the **Repair Items** tab:
     1.  After the qp-template tag, add the qp-tabbar tag with a nested qp-tab tag, as the following code shows. In the qp-tab tab, specify the name of the tab in the caption attribute.
 
-        ```language-xml
+        ```xml
           <qp-tabbar id="tabbar">
             <qp-tab id="tab-RepairItems" caption="Repair Items">
             </qp-tab>
@@ -263,7 +262,7 @@ The Repair Work Orders \(RS301000\) form contains the Summary area and two tabs 
 
     2.  Define the table that should be displayed on the **Repair Items** tab: In the qp-tab tag, add the qp-grid tag, which is bound to the `RepairItems` view, as the following code shows.
 
-        ```language-xml
+        ```xml
           <qp-tabbar id="tabbar">
             <qp-tab id="tab-RepairItems" caption="Repair Items">
               <qp-grid id="grid-RepairItems" view.bind="RepairItems"></qp-grid>
@@ -273,7 +272,7 @@ The Repair Work Orders \(RS301000\) form contains the Summary area and two tabs 
 
 4.  Define the **Labor** tab similarly to the way you defined the **Repair Items** tab: In the qp-tabbar tag, add the qp-tab tag after the qp-tab tag that was defined in the previous instruction. In the new qp-tab tag, add the qp-grid tag, and bind it to the `Labor` view, as the following code shows.
 
-    ```language-xml
+    ```xml
         <qp-tab id="tab-Labor" caption="Labor">
           <qp-grid id="grid-Labor" view.bind="Labor"></qp-grid>
         </qp-tab>
@@ -281,13 +280,13 @@ The Repair Work Orders \(RS301000\) form contains the Summary area and two tabs 
 
 5.  Save your changes.
 
-## Step 6: Building and Viewing the Form { .section}
+## Step 6: Building and Viewing the Form
 
 To build the source files for the Repair Work Orders \(RS301000\) form and view its Modern UI version, do the following:
 
 1.  Run the following command in the `FrontendSources\screen` folder of your instance.
 
-    ```language-bourne
+    ```bourne
     npm run build-dev --- --env customFolder=development screenIds=RS301000
     ```
 

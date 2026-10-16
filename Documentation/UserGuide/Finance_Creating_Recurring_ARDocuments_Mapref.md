@@ -1,4 +1,4 @@
-# Creating Recurring AR Documents {#_2fa8ec13-2998-4bb1-8d83-d5720aaf0ec3 .concept}
+# Creating Recurring AR Documents
 
 Some accounts receivable documents repeat regularly, such as lease and rental invoices. That is, at regular intervals, documents with the same amount and most of the same document settings need to be entered. To automate the process of adding the recurring documents to Acumatica ERP, you can create schedules for them.
 

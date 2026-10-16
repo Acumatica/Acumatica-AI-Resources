@@ -1,4 +1,4 @@
-# Tracking Changes to the Project Budget {#_c7d57529-f542-8841-99de-b944cbe50a85 .concept}
+# Tracking Changes to the Project Budget
 
 If you need to track changes to the project revenue and cost budget, and control the profitability of every change initiated by a customer, you use the functionality of change orders.
 
@@ -10,6 +10,8 @@ If you need to track changes to the project revenue and cost budget, and control
 
 -   **[Single-Tier Change Management: Budget Update on Change Order Release](../UserGuide/Projects_CO_Budget_Update_On_Release.md)**  
 
+-   **[Single-Tier Change Management: Billing Amounts in Change Orders](../UserGuide/Projects_CO_Budget_Billing_Amount_Tracking.md)**  
+
 -   **[Single-Tier Change Management: Implementation Checklist](../UserGuide/Projects_CO_Implem_Checklist.md)**  
 
 -   **[Single-Tier Change Management: To Track Changes to the Project Budget](../UserGuide/Projects_CO_to_Budget_Process_Activity.md)**  
@@ -20,7 +22,7 @@ If you need to track changes to the project revenue and cost budget, and control
 
 -   **[Single-Tier Change Management: Revenue Change Order Number](../UserGuide/Projects_CO_RevenueChangeNbr.md)**  
 
--   **[Single-Tier Change Management: Related Report and Forms](../UserGuide/Projects_CO_Reports_Inquiries.md)**  
+-   **[Single-Tier Change Management: Related Reports and Forms](../UserGuide/Projects_CO_Reports_Inquiries.md)**  
 
 -   **[Single-Tier Change Management: Mass Processing of Documents](../UserGuide/Projects_CO_MassProcessing.md)**  
 

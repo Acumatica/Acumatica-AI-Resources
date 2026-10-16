@@ -1,4 +1,4 @@
-# Multicurrency Functionality: Currency Rounding Rules {#_024c18e4-a4c6-483c-9fbd-cd445614b7db .concept}
+# Multicurrency Functionality: Currency Rounding Rules
 
 Acumatica ERP uses the following basic rules for rounding:
 
@@ -11,7 +11,7 @@ Acumatica ERP uses the following basic rules for rounding:
 
 In this topic, you will read about the accounts used for recording the gains and losses that result from rounding, and you will consider an example of rounding in the system.
 
-## Rounding Examples { .section}
+## Rounding Examples
 
 The euro currency has two places after the decimal point that denote the number of cents. Suppose that the result of conversion of the U.S. dollar to the euro is an amount with more than two decimal places. The basic rounding rules \(noted above\) are applied as follows:
 

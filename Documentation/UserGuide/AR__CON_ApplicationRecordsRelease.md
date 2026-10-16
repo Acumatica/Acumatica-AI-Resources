@@ -1,4 +1,4 @@
-# Invoice Payments: Release of Application Records {#_885c8ba7-2e22-4489-bde7-45d23f78c5ed .concept}
+# Invoice Payments: Release of Application Records
 
 In most cases, when you release applications records, the system does not generate any transactions that need to be posted to the general ledger.
 
@@ -11,7 +11,7 @@ The system generates additional transactions when any of the following need to b
 
 This topic describes the forms you may use to release application records of a payment document and the details of releasing application records, as well as the details of the generation of the GL batch.
 
-## Releasing Payment Applications {#section_kr4_4jv_vxb .section}
+## Releasing Payment Applications
 
 In Acumatica ERP, you can add application records to a payment document when you record the payment document and after you have released it. In both cases, you can use either of the following forms when you need to release an application record:
 
@@ -31,7 +31,7 @@ When you add application records to a payment document with the *On Hold* or *Ba
 
 When you add application records to a released payment document \(with the *Open* status\), you release only application records. If the application records require some transactions to be recorded, the system generates an additional General Ledger batch with the application transactions. You can view the batch details by clicking the link in the **Batch Number** column on the **Application History** tab of the [Payments and Applications](AR_30_20_00.md) form.
 
-## Releasing an Application with a Cash Discount {#section_qr4_4jv_vxb .section}
+## Releasing an Application with a Cash Discount
 
 When you add an invoice for which a cash discount is valid to the **Documents to Apply** tab, the system automatically fills in the **Cash Discount Taken \(Payment currency\)** column for the invoice with the cash discount amount defined by the credit terms associated with the invoice. You can decrease the cash discount amount, if needed. When you then release a payment with an application record that contains an applied cash discount, the system generates a batch of the following transactions.
 
@@ -41,7 +41,7 @@ When you add an invoice for which a cash discount is valid to the **Documents to
 |Accounts receivable account|0.00|Payment amount + cash discount amount|
 |Cash discount account|Cash discount amount|0.00|
 
-## Releasing an Application with a Written-Off Amount {#section_sr4_4jv_vxb .section}
+## Releasing an Application with a Written-Off Amount
 
 You write off some balance along with the application by specifying the amount and the reason code in the **Balance Write-Off** and **Write-Off Reason Code** columns, respectively. When you release a payment with an application record that contains a positive written-off amount, the system generates a batch of the following transactions.
 
@@ -59,7 +59,7 @@ If the payment amount is greater than the invoice amount to which this payment i
 |Accounts receivable account|0.00|Payment amount + write-off amount|
 |Reason code account \(the account associated with the reason code\)|0.00|–\(Write-off amount\)|
 
-## Releasing an Application with a RGOL {#section_vr4_4jv_vxb .section}
+## Releasing an Application with a RGOL
 
 Suppose that you apply a payment in a foreign currency to an outstanding document in the same foreign currency and the exchange rate on the invoice date is less than the exchange rate on the payment date. When you release the payment with its application record, the system generates a batch of the following transactions in the foreign currency.
 
@@ -77,7 +77,7 @@ If you view the batch in the base currency by clicking the **View Base** button 
 |Accounts receivable account|0.00|Payment amount–RGOL amount \(in the base currency\)|
 |Realized gain / loss account|0.00|RGOL amount \(in the base currency\)|
 
-## Releasing an Application with Different AR Accounts {#section_yr4_4jv_vxb .section}
+## Releasing an Application with Different AR Accounts
 
 Suppose that you recorded a payment document to some accounts receivable account and did not specify any application records. When you release this payment, the system generates the batch with the payment transactions as follows.
 

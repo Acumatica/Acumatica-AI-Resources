@@ -1,4 +1,4 @@
-# Processing Purchases of Stock Items {#_63870be2-385f-4444-ae25-4df3e9fe16ad .concept}
+# Processing Purchases of Stock Items
 
 For most companies, the majority of purchase orders are purchases to inventory: the bills are generated after the ordered goods and services have been received from the vendors. The topics of this chapter describe how to process purchase orders with stock items being received before the related AP bill is prepared for the vendor for the purchased goods and services.
 

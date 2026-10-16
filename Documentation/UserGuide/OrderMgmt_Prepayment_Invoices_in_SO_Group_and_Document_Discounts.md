@@ -1,8 +1,8 @@
-# Prepayment Invoices: Application of Group and Document Discounts to Prepayment Invoices {#_25787e18-e700-48c4-8aa3-d9916b51cdcd .concept}
+# Prepayment Invoices: Application of Group and Document Discounts to Prepayment Invoices
 
 In Acumatica ERP, group and document discounts can be applied to prepayment invoices that are created from sales orders. When discounts are defined on a sales order, the system recalculates these discounts proportionally to the prepayment amount and applies them to the corresponding prepayment invoice. Depending on system configuration, discounts can be carried over from the sales order or determined based on discount eligibility of items added directly to the prepayment invoice.
 
-## Group and Document Discounts in Prepayment Invoices {#section_tss_lpy_cdc .section}
+## Group and Document Discounts in Prepayment Invoices
 
 If group or document \(or both\) discounts have been applied to a sales order and listed on the **Discounts** tab of the [Sales Orders](SO_30_10_00.md) \(SO301000\) form, the system applies these discounts to the created prepayment invoice. The discount amount is recalculated proportionally to the prepayment amount and inserted in the **Document Discount** box in the Summary area of the [Invoices and Memos](AR_30_10_00.md) form. These discounts are also added to the **Discounts** tab of the [Invoices and Memos](AR_30_10_00.md) form. If you edit any details copied from the sales order in the prepayment invoice, the system recalculates the discount amount accordingly.
 

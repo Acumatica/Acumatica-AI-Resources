@@ -1,8 +1,8 @@
-# Credit Card Refunds: Generated Transactions {#_993c49ff-4e0a-4265-a7d6-da2297fc2ca2 .concept}
+# Credit Card Refunds: Generated Transactions
 
 As you process credit card refunds, you create and release a document with the *Refund* type. To update the customer balance, the system generates the GL transaction described in the following section.
 
-## Transactions Generated for a Credit Card Refund {#section_bzp_4jv_vxb .section}
+## Transactions Generated for a Credit Card Refund
 
 When you create and release a refund for a credit card payment, the system generates the following general ledger transaction:
 

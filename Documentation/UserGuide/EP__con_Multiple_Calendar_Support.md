@@ -1,15 +1,15 @@
-# Support of Multiple Work Calendars {#_e82218ed-38dc-492c-9b42-f1a2f4f2032c .concept}
+# Support of Multiple Work Calendars
 
 In Acumatica ERP, you can define and maintain multiple work calendars in the system. Work calendars are used for a variety of purposes, including the following:
 
 -   Labor calculations performed for contracts and projects
 -   Effective scheduling of events
 
-## Work Calendar Settings { .section}
+## Work Calendar Settings
 
 Work calendars can be defined on the [Work Calendar](CS_20_90_00.md) \(CS209000\) form. For each employee calendar, you can define the week's work days and specify working hours for each day. On the **Exceptions** tab, you can define holidays, which preempt work days or shift them to a day when the employee generally does not work, and specify any change in working hours for a particular date.
 
-## Employee Calendars { .section}
+## Employee Calendars
 
 On the [Employees](EP_20_30_00.md) \(EP203000\) form, you can associate calendars with particular employees, such as salespeople or members of customer service and support workgroups. If a calendar is to be used by others, the employee should mark his or her calendar as public by using the [User Profile](SM_20_30_10.md) \(SM203010\) form.
 

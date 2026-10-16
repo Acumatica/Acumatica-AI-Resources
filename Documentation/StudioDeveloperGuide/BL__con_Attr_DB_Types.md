@@ -1,4 +1,4 @@
-# Bound Field Data Types {#_61059393-8873-451f-b474-783906330fc6 .concept}
+# Bound Field Data Types
 
 The following attributes bind a data access class \(DAC\) field to a database column of a specific type.
 

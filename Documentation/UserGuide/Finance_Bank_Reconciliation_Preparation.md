@@ -1,8 +1,8 @@
-# Bank Reconciliation: Uploading and Processing of Bank Transactions {#_c9810aa3-dbf2-41fb-a260-eaeb6c4e91e9 .concept}
+# Bank Reconciliation: Uploading and Processing of Bank Transactions
 
 If your bank provides bank statements in Open Financial Exchange \(OFX\), QuickBooks Online \(QBO\), QFX, or Excel format, you process these statements by completing the steps described in the following sections.
 
-## Uploading of Bank Transactions {#section_rd2_kjv_vxb .section}
+## Uploading of Bank Transactions
 
 In Acumatica ERP, you can use the following forms to upload transactions:
 
@@ -22,7 +22,7 @@ In Acumatica ERP, you can use the following forms to upload transactions:
 
 If you’re importing transactions from Excel or entering them manually, you have to enter all these values manually.
 
-## Document Creation {#section_a22_kjv_vxb .section}
+## Document Creation
 
 On the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form, for the bank transactions that have no matches to any transaction that exists in the system, you can specify the details of documents that need to be created as you process transactions. To do so, on the **Create Payment** tab, you select a transaction that is marked as not matched and create a document.
 
@@ -36,24 +36,51 @@ The steps for recording a write-off are the following:
 2.  You click **Load Documents** so that the system loads the documents and displays them in the table or you click **Add Row** to add the needed document to the table.
 3.  In the row with the needed invoice, you specify the following settings:
 
-    |Column|Settings|
-    |------|--------|
-    |**Amount Paid \(Payment currency\)**|The amount specified in the bank transaction. The payment currency is shown in parentheses.|
-    |**Balance Write-Off \(Payment currency\)**|Either of the following values:    -   A negative value: An overpaid amount to be written off, such as `-1.50`.
-    -   A positive value: An underpaid amount to be written off, such as `2.00`.
+<table id="_0a60533d-7335-40e9-9f0f-5330ace93f9d"><thead><tr><th>
+
+Column
+
+</th><th>
+
+Settings
+
+</th></tr></thead><tbody><tr><td>
+
+**Amount Paid \(Payment currency\)**
+
+</td><td>
+
+The amount specified in the bank transaction. The payment currency is shown in parentheses.
+
+</td></tr><tr><td>
+
+**Balance Write-Off \(Payment currency\)**
+
+</td><td>
+
+Either of the following values:-   A negative value: An overpaid amount to be written off, such as `-1.50`.
+-   A positive value: An underpaid amount to be written off, such as `2.00`.
 The payment currency is shown in parentheses after the value.
 
-|
-    |**Write-Off Reason Code**|Either of the following values:     -   *CRWOFF - Credit Write Off* if the write-off is a negative value
-    -   *BALWOFF - Balance Write Off* if the write-off is a positive value
-|
+</td></tr><tr><td>
+
+**Write-Off Reason Code**
+
+</td><td>
+
+Either of the following values: -   *CRWOFF - Credit Write Off* if the write-off is a negative value
+-   *BALWOFF - Balance Write Off* if the write-off is a positive value
+
+
+</td></tr></tbody>
+</table>
 
 
 On the **Create Payment** tab, you can create an AR payment or refund applied to an invoice or credit memo, or an AR payment or refund with an open balance, that is not applied to any document. An AR refund can be created for a bank transaction with the *Disbursement* type.
 
 **Attention:** For details on processing customer refunds with an open balance, see [Refunds: To Create and Partially Apply a Refund](Finance_ProcessingCustomerRefunds_Activity3.md).
 
-## Bank Transaction Processing {#section_g22_kjv_vxb .section}
+## Bank Transaction Processing
 
 You initiate the processing of the matched transactions on the [Process Bank Transactions](CA_30_60_00.md) \(CA306000\) form by clicking **Process** on the form toolbar. On the [Process Bank Transactions](CA_30_60_00.md) form, you perform the clearing of documents. The left pane displays unprocessed transactions imported from bank statements; you need to review these transactions.
 
@@ -69,11 +96,10 @@ The settings of a payment method determine how the payment date is set for a pay
 
 On the [Import Bank Transactions](CA_30_65_00.md) \(CA306500\) form, the **Processed** check box is selected for the transactions that have been processed.
 
-## Process Diagram {#section_m22_kjv_vxb .section}
+## Process Diagram
 
 The following diagram illustrates the process of uploading and processing bank transactions.
 
-![](Images/diag_Finance_Preparing_for_Bank_Reconciliation.png "Preparing for bank reconciliation")
 
 **Parent topic:**[Performing Bank Reconciliation](../UserGuide/Finance_Bank_Reconciliation_Mapref.md)
 

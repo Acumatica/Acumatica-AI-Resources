@@ -1,4 +1,4 @@
-# Asynchronous Operations: General Information {#_ed8c7ee9-3abb-4406-8e57-274e5d2aacaa .concept}
+# Asynchronous Operations: General Information
 
 Each time a user action on a form triggers a request \(a round trip\), the system creates a new graph instance to process that request. After the request is processed, the graph instance must be cleared from the memory of the Acumatica ERP server. If your code performs a long-running operation—such as processing a document, processing large volumes of data, or executing an action that needs to call an external API—you should run it asynchronously in a separate thread.
 
@@ -10,7 +10,7 @@ The Acumatica Framework provides the following approaches for executing a long-r
 
 In this chapter, you’ll learn how to run an operation asynchronously by using the IGraphLongOperationManager and ILongOperationManager interfaces, as well as the PXLongOperation class.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you’ll learn how to do the following:
 
@@ -18,11 +18,11 @@ In this chapter, you’ll learn how to do the following:
 -   Add the associated button to the table toolbar
 -   Set up the long-running action to run asynchronously by using the LongOperationManager property of a graph
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You set up an operation to run asynchronously when this operation is expected to take a long time to complete.
 
-## Use of the IGraphLongOperationManager Interface { .section}
+## Use of the IGraphLongOperationManager Interface
 
 You don't need to implement the IGraphLongOperationManager interface manually because it’s already injected as a dependency-injection service into PXGraph out of the box.
 
@@ -35,7 +35,7 @@ To execute a long-running operation asynchronously in your graph, you can use th
 
 The following code shows you how to use void StartOperation\(Action&lt;CancellationToken&gt;? method\) to execute a long-running operation in a graph.
 
-```language-csharp
+```csharp
 public class RepairWOProcessingGraph : PXGraph<RepairWOProcessingGraph>
 {
     // Method that defines the long-running operation
@@ -63,13 +63,13 @@ Note that the void StartOperation\(Action&lt;CancellationToken&gt;? method\) met
 
 For the full list of methods available in the IGraphLongOperationManager interface, see [API Reference](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=5b50498f-8e28-86d0-65d6-c06fae88e40d).
 
-## Use of the ILongOperationManager Interface { .section}
+## Use of the ILongOperationManager Interface
 
 You use the ILongOperationManager when you need to execute a long-running operation asynchronously outside of a graph or a graph extension, such as in a service **where you don't have access to a graph's instance**. To do this, you need to first use dependency injection to inject the ILongOperationManager service into a type. You can then use this type to execute a long-running operation asynchronously, as shown below.
 
 **Important:** If a service operates in the context of a specific graph instance and the long-running operation is logically associated with that graph, you should use the graph’s `LongOperationManager` property instead of injecting the `ILongOperationManager` service. This keeps the operation properly associated with the graph lifecycle and UI context.
 
-```language-csharp
+```csharp
 public class RepairWOProcessingService
 {
     // Inject ILongOperationManager via DI
@@ -107,7 +107,7 @@ Note that in the example above, the void StartOperation\(object? key, Action&lt;
 
 The ILongOperationManager interface also provides the void StartAsyncOperation\(object? key, Func&lt;CancellationToken, Task&gt; method\) method, which takes in an asynchronous delegate as a parameter. It has the void StartAsyncOperation\(PXGraph graph, Func&lt;CancellationToken, Task&gt; method\) method as an overload. For details, see the [API Reference](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=ddd29f07-a167-f6ca-e6da-abc59121863d).
 
-## Use of the PXLongOperation Class { .section}
+## Use of the PXLongOperation Class
 
 You can use the PXLongOperation class when you need to execute a long-running operation asynchronously.
 
@@ -117,7 +117,7 @@ To make the system invoke the method in a separate thread, you can use the PXLon
 
 **Important:** To instantiate graphs from code, use the `PXGraph.CreateInstance<T>()` method. Do not use the `new T()` graph constructor because in this case, no extensions or overrides of the graph are initialized.
 
-```language-csharp
+```csharp
 public class MyGraph : PXGraph
 {
   ...
@@ -147,7 +147,7 @@ If you need to save data to the database inside a long-running operation, call t
 
 The following code shows an example of a method called `InvoiceOrder` that's executed asynchronously. This method is being called within the delegate that you pass to `PXLongOperation.StartOperation()` method.
 
-```language-csharp
+```csharp
 PXLongOperation.StartOperation(this, delegate ()
 {
   InvoiceOrder(graphCopy); 
@@ -156,7 +156,7 @@ PXLongOperation.StartOperation(this, delegate ()
 
 The `PXLongOperation.StartOperation()` method creates a separate thread and executes the specified delegate asynchronously on this thread. The method passed into `PXLongOperation.StartOperation()` matches the following delegate type, which has no input parameters.
 
-```language-csharp
+```csharp
 delegate void PXToggleAsyncDelegate();
 ```
 
@@ -164,13 +164,13 @@ delegate void PXToggleAsyncDelegate();
 
 Inside the `delegate()` method, you shouldn’t use members of the current graph, because this would lead to synchronous execution of the method. Instead, use a copy of the graph, which you can create by using the `var graphCopy = this.Clone();` statement.
 
-## Invocation of a Long-Running Operation in an Action { .section}
+## Invocation of a Long-Running Operation in an Action
 
 If you need to invoke a long-running operation in an action, the action handler for a processing operation must return `IEnumerable`. If you use the `void` action handler instead, the processing of the long-running operation and its result will not be displayed in the UI.
 
 Below you can see an example of an action definition that runs a long-running operation.
 
-```language-csharp
+```csharp
 public PXAction<RSSVWorkOrder> Assign = null!;
 [PXButton]
 [PXUIField(DisplayName = "Assign", Enabled = false)]

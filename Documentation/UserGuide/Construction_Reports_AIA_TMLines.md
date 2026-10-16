@@ -1,8 +1,8 @@
-# Construction Reports: Time and Material Amounts in AIA Reports {#_1def97f2-f6a6-4eea-a92e-99955b7968f9 .concept}
+# Construction Reports: Time and Material Amounts in AIA Reports
 
 In the construction industry, billing is typically based on the percentage of work completed during the billing period. However, project managers may decide to prepare the American Institute of Architects \(AIA\) reports based on the cost project transactions. The following sections describe the process for including time and material lines in AIA reports and the recommended project settings.
 
-## Project Configuration { .section}
+## Project Configuration
 
 Before creating AIA reports based on time and material lines, you need to ensure that the following project settings are specified on the [Projects](PM_30_10_00.md) \(PM301000\) form:
 
@@ -10,7 +10,7 @@ Before creating AIA reports based on time and material lines, you need to ensure
 -   On the **Revenue Budget** tab, each progress billing line to which you plan to include time and material amounts should have *Amount* specified in the **Progress Billing Basis** column.
 -   On the **Cost Budget** tab, each cost budget line that you plan to include in an AIA report is associated with a revenue budget line. That is, the task of the *Cost and Revenue Task* type or *Revenue Task* type is specified in the **Revenue Task** column of the line.
 
-## AIA Reports with Time and Material Amounts {#section_gqt_psj_f2c .section}
+## AIA Reports with Time and Material Amounts
 
 To prepare an AIA report with time and material amounts for a project, you perform the following general steps:
 
@@ -34,7 +34,7 @@ To prepare an AIA report with time and material amounts for a project, you perfo
 
 5.  You click **AIA Report** on the form toolbar to prepare the AIA report for the pro forma invoice. The resulting report includes the amounts of the time and material lines that you have included in progress billing.
 
-## Limitations {#section_orl_zsj_f2c .section}
+## Limitations
 
 The following limitations currently apply to the functionality:
 

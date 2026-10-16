@@ -1,12 +1,12 @@
-# Data Synchronization Process {#_aab25d9c-fc85-4e3d-8b19-3bb06c77f24b .concept}
+# Data Synchronization Process
 
 This topic describes how you can prepare CRM-related data for real-time synchronization between Acumatica ERP and Salesforce and how you can initiate and maintain the synchronization process.
 
-## Preparation for Real-Time Data Synchronization { .section}
+## Preparation for Real-Time Data Synchronization
 
 If one of the systems, Salesforce or Acumatica ERP, is used in your company as the primary CRM system, the data should be initially synchronized between the systems, which the administrator can do by initiating the synchronization process on the [Salesforce Data Resync](SF_20_50_35.md) \(SF205035\) form with *Full Data Resync* selected in the **Sync to Start** box.
 
-## Real-Time Synchronization of Data { .section}
+## Real-Time Synchronization of Data
 
 You initiate the bi-directional real-time synchronization process on the [Salesforce Sync](SF_20_50_30.md) \(SF205030\) form. This process monitors data changes in both systems. If any change has been detected, it gets synchronized between the systems.
 
@@ -20,7 +20,7 @@ To stop real-time synchronization of records of particular types from Salesforce
 
 To stop real-time synchronization of records of particular types from Acumatica ERP to Salesforce, you need to open the [Salesforce Sync Entities](SF_20_50_20.md) \(SF205020\) form and delete from the table the export scenarios for the needed types of records.
 
-## Scheduled Jobs for Synchronization { .section}
+## Scheduled Jobs for Synchronization
 
 In Acumatica ERP, the following recurrent jobs related to the synchronization process can be scheduled to run at any frequency.
 
@@ -43,17 +43,15 @@ In Acumatica ERP, the following recurrent jobs related to the synchronization pr
     We recommend that you run this job once a day.
 
 
-## Data Flow { .section}
+## Data Flow
 
 The following diagrams provide a simplified illustration of synchronization data flow.
 
 When a user modifies, creates, or deletes a record in Salesforce, the system pushes the record into the data stream. Acumatica ERP picks up the record from the data stream and searches for the same record in Acumatica ERP database by using the Salesforce record identifier. If a record is found, the synchronization solution updates the data or deletes the record. If no record is found, the synchronization solution creates a new record.
 
-![](Images/SFDC_Sync_Salesfore_to_Acumatica.png "Salesforce to Acumatica ERP data flow")
 
 When a user modifies or deletes a record in Acumatica ERP, the system uses the API to search for the record in Salesforce by using the Salesforce record identifier. If a record has been found, the synchronization solution updates or deletes it. If a record has been modified in Acumatica ERP but no corresponding record has been found in Salesforce, the synchronization solution creates a new record. When a user creates a record in Acumatica ERP, the synchronization solution creates a record in Salesforce.
 
-![](Images/SFDC_Sync_Acumatica_to_Saleforce.png "Acumatica ERP to Salesforce data flow")
 
 **Parent topic:**[Overview of Synchronization with Salesforce](../UserGuide/IS__con_Integration_with_Salesforce.md)
 

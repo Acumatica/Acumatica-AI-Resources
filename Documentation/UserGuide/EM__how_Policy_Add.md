@@ -1,10 +1,10 @@
-# To Add a Synchronization Policy {#_e893c7c4-f184-4f7b-b0aa-9912d65f2251 .task}
+# To Add a Synchronization Policy
 
 You use synchronization policies to specify the settings for synchronization between user accounts in Acumatica ERP and their mailboxes. You add, delete, and manage synchronization policies by using the [Exchange Integration Policies](SM_20_40_10.md) \(SM204010\) form.
 
 For more information about synchronization policies, see [Synchronization Policies](EM__con_Synch_Policies.md).
 
-## To Add a Synchronization Policy { .section}
+## To Add a Synchronization Policy
 
 1.  Sign in to your Acumatica ERP instance.
 2.  Open the [Exchange Integration Policies](SM_20_40_10.md) \(SM204010\) form.
@@ -40,5 +40,5 @@ For more information about synchronization policies, see [Synchronization Polici
 
 You can use the synchronization policy you have added to specify synchronization settings for the employees.
 
-**Parent topic:**[Synchronizing Acumatica ERP with Microsoft Exchange Server](../UserGuide/EM__mng_Exchange_server.md)
+**Parent topic:**[EWS Integration: Overview](../UserGuide/EM__con_Exchange_Integration_Overview.md)
 

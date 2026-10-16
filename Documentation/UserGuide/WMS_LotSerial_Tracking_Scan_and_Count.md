@@ -1,14 +1,13 @@
-# Automated Operations with Lot- and Serial-Tracked Items: Counting Items in Physical Inventory {#_3e9a47e7-8e44-44b7-aba2-3642c99af782 .concept}
+# Automated Operations with Lot- and Serial-Tracked Items: Counting Items in Physical Inventory
 
 If the *Lot and Serial Tracking* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form and the tracking of stock items by lot or serial number has been configured in the system, when you count lot- or serial-tracked items by using the [Scan and Count](IN_30_50_20.md) \(IN305020\) form or the corresponding screen in the Acumatica mobile app, the system prompts you to enter the lot or serial number during this process.
 
 This topic describes the workflow for the automated counting of lot- or serial-tracked items during physical inventory. The workflow in this topic is based on the assumption that your system has the recommended configuration described in [Automated Operations with Lot- and Serial-Tracked Items: Implementation Checklist](WMS_LotSerial_Tracking_Implem_Checklist.md).
 
-## Workflow for the Automated Scanning and Counting of Lot- and Serial-Tracked Items { .section}
+## Workflow for the Automated Scanning and Counting of Lot- and Serial-Tracked Items
 
 The automated processing of scanning and counting lot- or serial-tracked items involves the actions shown in the following diagram.
 
-![](Images/diag_WMS_Scan_Count_wSN_Lot.png)
 
 To count inventory items \(and use Scan and Count mode\), you perform the following steps:
 

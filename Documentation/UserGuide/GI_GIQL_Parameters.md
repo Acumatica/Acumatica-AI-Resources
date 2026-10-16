@@ -1,8 +1,8 @@
-# GIQL: Defining Parameters {#_514c117a-ff51-4470-b4a7-6dc142be6fba .concept}
+# GIQL: Defining Parameters
 
 You can define parameters of a generic inquiry by using GIQL. You can later use the parameters in the GIQL expressions.
 
-## Parameter Syntax { .section}
+## Parameter Syntax
 
 To define a parameter, use the DECLARE statement. Each parameter can include essential properties such as the display name, schema/field type, and default value. The structure of the DECLARE statement is shown in the following code.
 
@@ -28,7 +28,7 @@ The DECLARE statement can have the following arguments:
 -   REQUIRED: Optional. An indicator that the parameter must have a value before the query can be executed. If specified, the editor will enforcea user to input a value and will block execution until a valid value is specified.
 -   HIDDEN: Optional. An indicator that the parameter will be hidden from the generic inquiry output. This option might be useful for configurations such as GI on GI, where the parameter does not need to be visible to the end user.
 
-## Parameter Examples { .section}
+## Parameter Examples
 
 An example of parameter definition is shown in the following code.
 

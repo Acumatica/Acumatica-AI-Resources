@@ -1,4 +1,4 @@
-# Step 5: Firing the Event {#_4d4b6510-b562-4cff-ba4c-87e55b3290fd .task}
+# Step 5: Firing the Event
 
 As you learned in [Step 3: Exploring the Acumatica ERP Source Code](WorkflowAPI_Events_Activity_CreateNew_ExploreCode.md) of this activity, you need to override the `UpdateBalances` method to fire the event that triggers the transition from the `PendingPayment` workflow state to the `ReadyForAssignment` workflow state. However, you should first calculate the prepaid percentage value based on the values of the **Balance** and **Amount** boxes of an invoice on the [Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\) form. These values, which are available in an `ARRegister` record, have been calculated in the base `UpdateBalances` method.
 
@@ -6,11 +6,11 @@ As you learned in [Step 3: Exploring the Acumatica ERP Source Code](WorkflowAPI_
 
 The `ARRegister` record has been modified in the base method and its field values have been updated in PXCache. But the values passed as the parameter to the overridden method have not been updated. Thus, in the overridden method, you should use the cached values. To get the cached values, you need to use the `Locate(Object)` method of [PXCache&lt;TNode&gt;](https://help.acumatica.com/(W(9))/Help?ScreenId=ShowWiki&pageid=ec41a150-d69a-dbac-b18b-24b07c6d2d64).
 
-## Firing the Workflow Event { .section}
+## Firing the Workflow Event
 
 To fire the workflow event that triggers the transition between workflow states, add the following code to the `ARReleaseProcess_Extension` class of the `PhoneRepairShop_Code` project.
 
-```language-csharp
+```csharp
         public delegate void UpdateBalancesDelegate(ARAdjust adj,
             ARRegister adjddoc, ARTran adjdtran);
         /// Overrides <seealso cref="ARReleaseProcess.UpdateBalances(ARAdjust, ARRegister, ARTran)"/>

@@ -1,14 +1,14 @@
-# AR Invoices: To Create an AR Invoice {#_ccf2a101-5493-43d8-8d28-ccb906ce8150 .task}
+# AR Invoices: To Create an AR Invoice
 
 The following activity will walk you through the process of creating and releasing an AR invoice.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story {#section_vdn_4jv_vxb .section}
+## Story
 
 Suppose that today the GoodFood One Restaurant purchased four hours of on-site training from the SweetLife Fruits &amp; Jams company for the amount of $248. Acting as a SweetLife accountant, you need to create an AR invoice for the customer and release the invoice.
 
-## Configuration Overview {#section_xdn_4jv_vxb .section}
+## Configuration Overview
 
 For the purposes of this activity, the following features have been enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form:
 
@@ -20,11 +20,11 @@ On the [Accounts Receivable Preferences](AR_10_10_00.md) \(AR101000\) form, the 
 
 On the [Customers](AR_30_30_00.md) \(AR303000\) form, the *GOODFOOD \(GoodFood One Restaurant\)* customer has been configured.
 
-## Process Overview {#section_b2n_4jv_vxb .section}
+## Process Overview
 
 In this activity, you will create an invoice for the customer purchase on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. In the invoice, you will specify all relevant settings, including the customer and the credit terms, and the document details on the **Details** tab. When the invoice is ready, you will release the document.
 
-## System Preparation {#section_d2n_4jv_vxb .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -34,7 +34,7 @@ To prepare the system, do the following:
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026*. For simplicity, in this process activity, you will create and process all documents in the system on this business date.
 3.  On the Company and Branch Selection menu, also on the top pane of the Acumatica ERP screen, make sure that the *SweetLife Head Office and Wholesale Center* branch is selected. If it is not selected, click the Company and Branch Selection menu to view the list of branches that you have access to, and then click *SweetLife Head Office and Wholesale Center*.
 
-## Step 1: Creating an AR Invoice {#section_f2n_4jv_vxb .section}
+## Step 1: Creating an AR Invoice
 
 To create an AR invoice, do the following:
 
@@ -55,7 +55,7 @@ To create an AR invoice, do the following:
     -   **Ext. Price**: `248`
 4.  On the form toolbar, click **Save**.
 
-## Step 2: Releasing the AR Invoice {#section_i2n_4jv_vxb .section}
+## Step 2: Releasing the AR Invoice
 
 To release the AR invoice, do the following:
 
@@ -67,10 +67,9 @@ To release the AR invoice, do the following:
 
     The system changes the status of the invoice to *Open*. The released invoice is shown in the following screenshot.
 
-    ![](Images/activity_Finance_Creating_AR_Invoice.png "The released AR invoice")
 
 
-## Step 3: Reviewing the GL Transaction Generated when the Invoice Is Released {#section_q2n_4jv_vxb .section}
+## Step 3: Reviewing the GL Transaction Generated when the Invoice Is Released
 
 To review the GL transaction generated on invoice release, do the following:
 

@@ -1,8 +1,8 @@
-# Multicurrency Payment of Bills: General Information {#_228b94ed-108f-4f71-b20e-9d4610b391bb .concept}
+# Multicurrency Payment of Bills: General Information
 
 In Acumatica ERP, you can apply payments created in one currency to documents created in another currency, and payments created in the base currency to documents created in a foreign currency.
 
-## Learning Objectives {#section_d4y_3jv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -11,14 +11,14 @@ In this chapter, you will learn how to do the following:
 -   Review and analyze how the system applies payments to bills when the currency of the payment differs from the currency of the bill
 -   Override the cross rate used in the payment
 
-## Applicable Scenarios {#section_f4y_3jv_vxb .section}
+## Applicable Scenarios
 
 You process a bill in a foreign currency in the following cases:
 
 -   You have created a bill in a foreign currency, but your company's cash account in this currency does not have enough funds for payment. In this case, you can pay the bill in the base currency.
 -   You have created a bill in a foreign currency, but your company's cash account in the base currency does not have enough funds for payment. In this case, you can pay the bill in another foreign currency.
 
-## Application of a Cross Rate {#section_h4y_3jv_vxb .section}
+## Application of a Cross Rate
 
 When the system applies the payment, if the currency of the document differs from the currency of the payment, the system uses a *cross rate* to calculate the amount of the invoice that is being paid. The cross rate determines how to convert the amount paid in the payment currency to the invoice currency.
 
@@ -26,11 +26,11 @@ By default, the cross rate is calculated as the effective rate of the invoice cu
 
 **Tip:** You cannot override the cross rate of payment application to the documents in the base currency because realized gain or loss \(RGOL\) is not calculated for these documents.
 
-## Calculation and Application of RGOL {#section_i4y_3jv_vxb .section}
+## Calculation and Application of RGOL
 
 When the payment is applied to an AP bill, and the payment and the bill are in different currencies, the system calculates realized gain or loss \(RGOL\) in the base currency by using the following formula:
 
-``` {#codeblock_k4y_3jv_vxb}
+```
 RGOL Amount = Round (Payment Amount * Payment Rate) – Round (Payment Amount Converted * Bill Rate)
 ```
 

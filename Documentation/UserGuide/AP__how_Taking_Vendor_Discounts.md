@@ -1,10 +1,10 @@
-# To Apply Cash Discounts {#_07d870aa-3c49-4fa4-8009-55dbd403e330 .task}
+# To Apply Cash Discounts
 
 Some vendors may offer you cash discounts if you pay bills promptly or ahead of schedule. In Acumatica ERP, the details of these discounts are specified in each vendor's credit terms, which are defined on the [Credit Terms](CS_20_65_00.md) \(CS206500\) form, and specified for the vendor on the [Vendors](AP_30_30_00.md) \(AP303000\) form \(where you also specify the lead time—the number of days needed for the payment to reach the vendor\). The system calculates due dates and available cash discounts automatically, based on the vendor's credit terms.
 
 On the [Approve Bills for Payment](AP_50_20_00.md) \(AP502000\) form, you can select multiple bills with available discounts and approve them for payment.
 
-## To Apply Cash Discounts {#section_y3h_njv_vxb .section}
+## To Apply Cash Discounts
 
 1.  Open the [Approve Bills for Payment](AP_50_20_00.md) \(AP502000\) form.
 2.  In the **Selection Date** box, select the date of approval, which will also be used as the pay date.

@@ -1,8 +1,8 @@
-# Fixed Asset Creation: Implementation Checklist {#_d7e2fd4e-c056-435b-8fe2-71676d3ef749 .concept}
+# Fixed Asset Creation: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for creating a fixed asset, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist {#section_mxc_ljv_vxb .section}
+## Implementation Checklist
 
 We recommend that before you initially create a fixed asset, you make sure the needed features have been enabled, settings have been specified, and entities have been created, as summarized in the following checklist.
 
@@ -13,7 +13,7 @@ We recommend that before you initially create a fixed asset, you make sure the n
 |Multiple forms|The general ledger functionality has been implemented, as described in [General Ledger: General Information](../ImplementationGuide/config_GL_Generalinfo.md).|
 |[Vendors](AP_30_30_00.md) \(AP303000\)|The vendor accounts for the vendors for which you will create AP bills have been created in the system. For details, see [Vendors: Implementation Activity](Vendor_Implem_Activity.md).|
 
-## Other Settings That Affect the Workflow {#section_oxc_ljv_vxb .section}
+## Other Settings That Affect the Workflow
 
 The processing of fixed assets causes batches to be produced by the system on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form. A user can also manually create batches on this form. The settings on the [General Ledger Preferences](GL_10_20_00.md) \(GL102000\) form can affect the processing workflow of each batch as follows:
 
@@ -33,7 +33,7 @@ The following settings on the [Fixed Assets Preferences](FA_10_10_00.md) \(FA101
 -   If the **Update GL** check box is selected, transactions associated with fixed assets are posted to the general ledger and affect the GL balances. If this check box is cleared, transactions associated with fixed assets are not posted to the general ledger.
 -   If the **Automatically Post on Release** check box is selected, transactions associated with fixed assets are automatically posted to the general ledger when they are released. This check box is selected by default.
 
-## Validation of Configuration {#section_sxc_ljv_vxb .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you create fixed assets by performing instructions similar to those described in [Fixed Asset Creation: To Create and Reconcile an Asset](FixedAssets_Adding_Fixed_Asset_To_Create_Fixed_Asset.md) and [Fixed Asset Creation: To Create an Asset Under Construction](FixedAssets_Adding_Fixed_Asset_To_Create_Under_Constr_Asset.md).
 

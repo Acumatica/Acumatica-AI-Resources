@@ -1,4 +1,4 @@
-# Overview of the Payroll Process {#_c592236a-31ab-4e32-afed-45bbc7b1a0cd .concept}
+# Overview of the Payroll Process
 
 The payroll functionality of Acumatica ERP is used to set up, enter, and maintain employee payroll records and transactions.
 

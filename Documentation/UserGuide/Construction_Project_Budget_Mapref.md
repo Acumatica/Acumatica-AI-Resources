@@ -1,4 +1,4 @@
-# Managing the Construction Project Budget {#_aafdd48a-d3ed-4233-858e-58cfae004633 .concept}
+# Managing the Construction Project Budget
 
 This chapter describes how to populate and track the budget of a construction project that is used to provide both a financial plan and cost constraints for a project.
 

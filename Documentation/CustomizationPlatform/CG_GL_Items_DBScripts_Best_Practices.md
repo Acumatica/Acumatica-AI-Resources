@@ -1,8 +1,8 @@
-# Best Practices {#_4cb4f1f9-1ee9-4179-a3c2-36fb514eb398 .concept}
+# Best Practices
 
 We recommend that you heed the best practices described below when you are customizing a table schema for a customization project.
 
-## Adding a Default Value to a Column { .section}
+## Adding a Default Value to a Column
 
 When you are customizing a column in a table schema of your customization project by using the **Database Scripts** page of the Customization Project Editor or a custom SQL script, we recommend that you not specify a default value for this new column by using the approach described in [To Add a Custom Column to an Existing Table](CG_GL_Items_DBScripts_AddCustomColumns.md). The database engine does not consistently enforce default values at the database level, so adding a default value to a column of an existing table schema does not guarantee that it will be applied when the database is created or upgraded.
 

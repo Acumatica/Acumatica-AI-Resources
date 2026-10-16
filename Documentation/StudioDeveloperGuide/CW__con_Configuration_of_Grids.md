@@ -1,4 +1,4 @@
-# Configuration of Grids {#_09489570-a3d9-4fef-b6d8-de0a6b4fb5b8 .concept}
+# Configuration of Grids
 
 To configure a grid on a form, you do the following:
 
@@ -21,7 +21,7 @@ You can specify the following properties of a grid \(PXGrid\) control:
 -   Width: Sets the width of the grid within the parent container \(a standard ASP.NET property of a control\). To expand a nested grid to the entire width of the parent container, set this property to `100%`.
 -   AutoAdjustColumns: Makes the whole text of the column headers displayed if space permits.
 
-## Adding Columns and Input Controls to a Grid {#section_jzp_qj1_gm .section}
+## Adding Columns and Input Controls to a Grid
 
 Columns are generally the only required items for a grid. If columns are defined, Acumatica Framework creates input controls at runtime based on the field state of the appropriate DAC field to provide row editing. However, you also have to define input controls for the grid in either of the following cases:
 
@@ -31,13 +31,13 @@ Columns are generally the only required items for a grid. If columns are defined
     **Note:** The order of the controls in form view mode does not have to match the order of the columns in the grid.
 
 
-## Configuring Grid Toolbar Buttons {#section_olj_rdx_lm .section}
+## Configuring Grid Toolbar Buttons
 
 To define the set of toolbar buttons that appear in a grid, select the needed value in the SkinID property of the grid. For details about the SkinID property, see [Use of the SkinID Property of Containers](CW__con_PXForm_Properties_SkinID.md).
 
 The SkinID property, used primarily to define the set of toolbar buttons for a grid, also defines a complete set of UI parameters of the control, such as the column headers and the initial size of the control.
 
-## Configuring Form View Mode for a Grid {#section_kxz_3v2_pm .section}
+## Configuring Form View Mode for a Grid
 
 To configure form view mode for a grid, you have to complete the following steps:
 

@@ -1,8 +1,8 @@
-# Connector Implementation: Mapping Classes {#_b8f3a608-10cd-44cb-8338-96be1a45d02c .concept}
+# Connector Implementation: Mapping Classes
 
 For each pair of an internal entity and an external entity that should be synchronized, you need to implement a mapping class, which defines the correspondence between the properties of the internal and external entities.
 
-## Base Class and Interfaces { .section}
+## Base Class and Interfaces
 
 The mapping class implements the following interfaces:
 
@@ -15,13 +15,13 @@ The [MappedEntity&lt;ExternType, LocalType&gt;](https://help.acumatica.com/(W(25
 -   A `string` identifier of the mapped entities, which is exactly two characters long
 -   A `string` identifier of the connector, which is defined in the ConnectorType property of the connector class
 
-## Example { .section}
+## Example
 
 The following code shows an example of the implementation of a mapping class.
 
 **Tip:** You can see this code on [GitHub](https://github.com/Acumatica/Help-and-Training-Examples/blob/HEAD/PlugInDevelopment/Help/ImplementingConnector/WooCommerceTest/Sync/MappedCustomer.cs).
 
-```language-csharp
+```csharp
 ﻿using System;
 using PX.Commerce.Core;
 using PX.Commerce.Core.API;

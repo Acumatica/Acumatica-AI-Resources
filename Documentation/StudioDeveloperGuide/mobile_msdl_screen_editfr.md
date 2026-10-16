@@ -1,4 +1,4 @@
-# Configuring Editing Screens {#_c8e0561d-7d44-4313-b380-e3bb12860796 .reference}
+# Configuring Editing Screens
 
 You may have to configure an editing screen \(that is, a screen that can be used to enter and edit a data record\) based on the use of the corresponding form in Acumatica ERP.
 
@@ -11,13 +11,13 @@ In other cases, Acumatica ERP uses the following separate forms for data records
 
 In these cases, you have to configure two separate declarations of the Screen object \(that is, two screens\): the list screen \(which corresponds to the Acumatica ERP substitute form\), and the editing screen.
 
-## Example: Creating the Same Layout for the List View and the Form View { .section}
+## Example: Creating the Same Layout for the List View and the Form View
 
 An example of a screen with the same layout for the list view and the form view is presented in the [Configuring Lists](mobile_msdl_screen_list.md) topic.
 
 You can see the list of fields and edit them at the same time.
 
-## Example: Configuring the List and the Editing Form Separately { .section}
+## Example: Configuring the List and the Editing Form Separately
 
 In this example, we will add the Invoices \(SO3030PL\) list screen, which corresponds to the Invoices \(SO3030PL\) substitute form \(a grid listing all available invoices\), and the Invoices \(SO303000\) editing screen, which corresponds to the Invoices \(SO303000\) entry form \(used to enter and edit the data of one invoice\) in Acumatica ERP .
 
@@ -93,7 +93,6 @@ To configure these screens, do the following:
 
 After you publish the customization project, you should see a new tile on the main menu of the mobile app and the corresponding screens, as shown below.
 
-![](Images/MOBILE_ListEditForms.png "The List and the Editing Forms")
 
 In this example, you use the Invoices \(SO3030PL\) screen to display the list screen, and you use the Invoices \(SO303000\) screen to display the editing screen. The same approach is used with forms in Acumatica ERP.
 

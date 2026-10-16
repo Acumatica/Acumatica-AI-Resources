@@ -1,4 +1,4 @@
-# To Generate the WSDL File of the Web Services {#_1eac8817-c782-4610-b7e1-dc2e831dcb42 .task}
+# To Generate the WSDL File of the Web Services
 
 The WSDL description of the Acumatica ERP screen-based web services API contains the descriptions of the API objects and methods that you can use to access Acumatica ERP forms.
 
@@ -12,13 +12,13 @@ For example, suppose that you have generated a WSDL description of the web servi
 
 You can generate the WSDL file of an Acumatica ERP web service in one of the following ways.
 
-## To Generate a WSDL File for One Acumatica ERP Form { .section}
+## To Generate a WSDL File for One Acumatica ERP Form
 
 If your application needs to work with only one Acumatica ERP form, you can generate the web service that provides access to only this form.
 
 To generate a WSDL file for a form, on the title bar of this form, click **Tools** &gt; **Web Service** on the UI. This opens the page that contains the description of the web service, with the following URL: `http(s)://<ApplicationPath>/Soap/<FormID>.asmx`. In this URL, `<ApplicationPath>` is replaced with the actual URL of your application, and `<FormID>` is replaced with the ID of the form. For example, suppose that you generated a web service for the [Customers](../UserGuide/AR_30_30_00.md) form of the *WebServiceAPITest* application, which is accessed under a secure connection and is running on a local computer. The URL of this service is `https://localhost/WebServiceAPITest/Soap/AR303000.asmx`.
 
-## To Generate a WSDL File for Multiple Acumatica ERP Forms { .section}
+## To Generate a WSDL File for Multiple Acumatica ERP Forms
 
 If your application needs to work with multiple Acumatica ERP forms, you can generate one web service that provides access to all needed forms.
 

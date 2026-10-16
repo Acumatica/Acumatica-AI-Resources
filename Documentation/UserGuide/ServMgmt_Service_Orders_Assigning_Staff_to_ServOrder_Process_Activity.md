@@ -1,4 +1,4 @@
-# Service Orders: To Assign a Staff Member by Using the Calendar Board {#_d20219f2-e845-424a-8a94-09a485f195aa .task}
+# Service Orders: To Assign a Staff Member by Using the Calendar Board
 
 The following activity will walk you through the process of scheduling an appointment for the service order. You will assign a service order to an employee who is available on the scheduled date with consideration given to the employee's skills and licenses. To perform this assignment, you will use the **Service Orders** tab on the [Calendar Board](FS_30_03_00.md) \(FS300300\) form.
 
@@ -6,13 +6,13 @@ The following activity will walk you through the process of scheduling an appoin
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the *COFFEESHOP - FourStar Coffee &amp; Sweets Shop* customer has contacted the SweetLife Service and Equipment Sales Center and requested the training service. The service order has been entered in the system.
 
 Acting as the service manager \(Maia Davis\), you now need to assign a staff member to perform the service included in the service order. While performing this assignment, you need to consider the staff member's available working hours, skills, and licenses.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -30,11 +30,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, the *INSTALL* service \(that is, an item of the *Service* type\) has been created. For this service, *INSTALLING* has been listed on the **Service Skills** tab, and *INST&amp;REP* has been listed on the **Service License Types** tab.
 -   On the [Service Orders](FS_30_01_00.md) \(FS300100\) form, the service order with the *000042* reference number has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 You will start by opening the service order by using the [Service Orders](FS_30_01_00.md) \(FS300100\) form and then open the [Calendar Board](FS_30_03_00.md) \(FS300300\) form. Then you will create an appointment and assign it to a staff member while considering staff member's available working hours and skills.
 
-## System Preparation {#section_pp3_mxy_1hc .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -42,7 +42,7 @@ Before you start this activity, do the following:
 2.  In the Date box in the upper-right corner of the top pane, specify *1/30/2026*. For simplicity, you'll create and process all documents in this activity by using this business date.
 3.  After signing in, make sure that the *Service Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form.
 
-## Step: Creating and Assigning an Appointment { .section}
+## Step: Creating and Assigning an Appointment
 
 To create an appointment for the service order and assign it to the staff member on the calendar board, do the following:
 
@@ -55,7 +55,6 @@ To create an appointment for the service order and assign it to the staff member
 4.  Right-click the service order, and then click **Filter Staff**. The list of staff members on the dashboard is filtered to match the skills and licenses of the services in the service order.
 5.  Drag the *000042* service order from the **Service Orders** tab to the Todd Bloom's time interval to be started at *4:00 PM*. The appointment \(Item 1 in the following screenshot\) is now assigned to Todd Bloom \(Item 2\). Note that you can change the time of the appointment by dragging the appointment box.
 
-    ![](Images/ServMgmt_Service_Orders_Assign_Staff_on_Calendar.png "An assigned staff member")
 
 6.  Click the *000042-1* appointment link in the calendar. The [Appointments](FS_30_02_00.md) \(FS300200\) form is opened with the details of the appointment. On the **Staff** tab, confirm that Todd Bloom is assigned to the appointment.
 

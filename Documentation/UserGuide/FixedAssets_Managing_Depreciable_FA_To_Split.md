@@ -1,12 +1,12 @@
-# Assets with Depreciation: To Split an Asset {#_8b4f2eec-f980-4a05-b8f3-9c36409946fc .task}
+# Assets with Depreciation: To Split an Asset
 
 The following activity will walk you through the process of splitting an asset with depreciation.
 
-## Story {#section_u3g_ljv_vxb .section}
+## Story
 
 Suppose that on July 15, 2026, the management of SweetLife Fruits &amp; Jams decided to transfer one computer and one office software license from the Head Office branch to the Retail branch of the company. Previously, a SweetLife accountant processed five office software licenses as one *Office Software* fixed asset with a quantity of *5*. To be able to transfer one license to another department, you need to split this license so that you have an individual fixed asset with a quantity of *1*.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -14,11 +14,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Chart of Accounts](GL_20_25_00.md) \(GL202500\) form, the needed GL accounts have been created.
 -   On the [Fixed Assets Preferences](FA_10_10_00.md) \(FA101000\) form, the **Automatically Release Split Transactions** check box has been cleared.
 
-## Process Overview {#section_x3g_ljv_vxb .section}
+## Process Overview
 
 In this activity, you will depreciate the original fixed asset on the [Calculate Depreciation](FA_50_20_00.md) \(FA502000\) form. On the [Split Assets](FA_50_60_00.md) \(FA506000\) form, you will split the asset. For the new asset, you will review the generated transactions on the **Transactions** tab of the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form. On the **Balance** tab, you will review the accumulated depreciation for the asset split from the original asset.
 
-## System Preparation {#section_z3g_ljv_vxb .section}
+## System Preparation
 
 Before you begin splitting an asset with depreciation, do the following:
 
@@ -29,7 +29,7 @@ Before you begin splitting an asset with depreciation, do the following:
 5.  Make sure that you have created the *Office software* asset by performing the [Fixed Asset Creation: To Create an Asset with Multiple Units](FixedAssets_Adding_Fixed_Asset_To_Add_FA_with_Multiple_Units.md) prerequisite activity.
 6.  On the Company and Branch Selection menu on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step 1: Updating the Fixed Asset Preferences {#section_bjg_ljv_vxb .section}
+## Step 1: Updating the Fixed Asset Preferences
 
 To update the fixed asset preferences so that split transactions are released by the system, do the following:
 
@@ -37,7 +37,7 @@ To update the fixed asset preferences so that split transactions are released by
 2.  In the **Posting Settings** section, select the **Automatically Release Split Transactions** check box.
 3.  On the form toolbar, click **Save** to save your changes.
 
-## Step 2: Depreciating the Fixed Asset {#section_djg_ljv_vxb .section}
+## Step 2: Depreciating the Fixed Asset
 
 To depreciate the *Office software* asset through 06-2026, do the following:
 
@@ -49,7 +49,7 @@ To depreciate the *Office software* asset through 06-2026, do the following:
 3.  On the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form, open the *Office Software* asset.
 4.  On the **Depreciation** tab, review the **Depreciated** column for periods from 05-2026 to 06-2026.
 
-## Step 3: Splitting the Fixed Asset {#section_fjg_ljv_vxb .section}
+## Step 3: Splitting the Fixed Asset
 
 To split the *Office Software* fixed asset, do the following:
 
@@ -67,11 +67,9 @@ To split the *Office Software* fixed asset, do the following:
 
     Note that split transactions are released, but they are not posted to the general ledger, because they do not change the balances of the GL accounts.
 
-    ![](Images/activity_FA_Managing_Assets_Split_Asset.png "Transactions generated for the split")
 
 6.  On the **Balance** tab, review the accumulated depreciation for the asset split from *Office software*, as shown in the following screenshot.
 
-    ![](Images/activity_FA_Managing_Assets_Split_Asset_Accum_Depr.png "Accumulated depreciation for the asset created by the split")
 
     The accumulated depreciation amount for two months is $8.33, which is split to the new asset from the *Office software* asset by the specified ratio \(20% of $20.83\).
 

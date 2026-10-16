@@ -1,4 +1,4 @@
-# Preparing Government Reports {#_8f4cd027-f9f9-4943-8725-092b78e8da43 .concept}
+# Preparing Government Reports
 
 In this chapter, you will find information about how you can prepare government reports by using Aatrix.
 

@@ -1,24 +1,24 @@
-# Full-Text Search: General Information {#_92918d6e-71dd-4b7d-afa3-4fa40546a2a7 .concept}
+# Full-Text Search: General Information
 
 The **standard search** in Acumatica ERP scans the database row by row. You can enter the starting characters or any other part of the inventory ID or description, depending on the configured search settings. This search works well on small and medium-sized databases—those with fewer than 1 million inventory item records.
 
 But if you're managing a high-volume inventory, you can use the **full-text search**. It uses a token-based search index for matching. With this search, the search query can include elements from the inventory ID and its description simultaneously. In the full-text search query, you must include only the beginnings of words or inventory ID segments \(if the INVENTORY segmented key consists of several segments\). You can also use full words in the search query. This search works best with databases containing more than 1 million records.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Enable the required feature
 -   Prepare a search index for the full-text search
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may need to learn how to enable and configure the full-text search if both of the following conditions are met:
 
 -   Your company has a database containing more than 1 million inventory item records.
 -   The standard search does not provide sufficient performance on data-entry forms.
 
-## Full-Text Search for Inventory { .section}
+## Full-Text Search for Inventory
 
 To use the full-text search, first make sure your environment meets these requirements:
 
@@ -39,7 +39,7 @@ Then, do the following:
 
 **Tip:** If you use multiple Acumatica ERP tenants, we recommend enabling the full-text search only in the production tenant.
 
-## Expansion of Search Results { .section}
+## Expansion of Search Results
 
 You can increase the maximum number of results returned and processed by the search engine for every search query. This ability may be useful if both of the following conditions are met:
 
@@ -56,7 +56,7 @@ We recommend starting with a value of 500 and increasing it in the same incremen
 
 **Important:** Increasing the maximum number of search results can reduce the performance of the full-text search.
 
-## Example of a Full-Text Search Query {#section_f5p_kb1_kfc .section}
+## Example of a Full-Text Search Query
 
 Suppose that your inventory includes many records with different inventory items. You need to find the stock item with the following settings:
 
@@ -65,9 +65,8 @@ Suppose that your inventory includes many records with different inventory items
 
 To find this stock item, you start typing `gr 20` in the **Inventory ID** box in a line of a sales order. The system finds the most relevant result, as shown below, by matching parts of both the ID and the description.
 
-![](../UserGuide/Images/RN_2025_R2_OrderMgmt_Full_Text_Search_Suggester.png "Searching by inventory ID and description")
 
-## Forms Supporting the Full-Text Search for Inventory { .section}
+## Forms Supporting the Full-Text Search for Inventory
 
 You can perform the full-text search by the inventory ID, description, and alternate ID \(if available\) when you start typing in the **Inventory ID** column or in the **Inventory Lookup** dialog box of the following forms:
 

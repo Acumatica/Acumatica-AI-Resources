@@ -1,4 +1,4 @@
-# Filing CRA Forms {#_75d35550-9870-487c-9fdc-1ef9e5240934 .concept}
+# Filing CRA Forms
 
 Acumatica ERP supports the generation of the following forms and their electronic submission to the Canada Revenue Agency \(CRA\):
 

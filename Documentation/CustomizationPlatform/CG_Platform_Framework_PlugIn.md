@@ -1,4 +1,4 @@
-# Custom Processes During Publication of a Customization {#_3ef5784b-1602-4a04-b6b9-52b69c79fe91 .concept}
+# Custom Processes During Publication of a Customization
 
 The platform provides you the ability to execute custom processes within the instance of Acumatica ERP at the following times during the publication of a customization project:
 

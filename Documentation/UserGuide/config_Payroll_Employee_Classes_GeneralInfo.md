@@ -1,22 +1,22 @@
-# Employee Payroll Classes: General Information {#_27a9ac93-e778-42d5-a235-91e4b94aba59 .concept}
+# Employee Payroll Classes: General Information
 
 In Acumatica ERP, an employee payroll class is used to group payroll employees by type and establish certain default settings for new employees of the class.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Create a new employee payroll class
 -   Specify class settings that will be used as default settings for new employees of the class
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You create an employee payroll class in the following cases:
 
 -   You need to group payroll employees based on specific characteristics.
 -   You need to establish specific default settings for new payroll employees.
 
-## Employee Payroll Classes { .section}
+## Employee Payroll Classes
 
 You can create, view, and edit employee payroll classes by using the [Employee Payroll Class](PR_20_20_00.md) \(PR202000\) form.
 

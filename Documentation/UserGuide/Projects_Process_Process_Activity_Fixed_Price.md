@@ -1,22 +1,22 @@
-# Project Creation and Processing: To Process a Fixed-Price Project {#_ddda9c6e-f038-4142-afcc-87025b72daa4 .task}
+# Project Creation and Processing: To Process a Fixed-Price Project
 
 This activity will walk you through the lifecycle of a fixed-price project.
 
-## Story { .section}
+## Story
 
 Suppose that the Lake Cafe customer has ordered a juicer from the SweetLife Fruits &amp; Jams company, along with the site review and installation services. SweetLife's project accountant has created a fixed-price project to account for this work. In January 2026, the company employees have performed work related to the project tasks.
 
 Acting as the project accountant, you need to support the project during the entire project lifecycle.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 For the purposes of this activity, on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, the *Projects* feature has been enabled to support the project management functionality.
 
-## Process Overview { .section}
+## Process Overview
 
 You will activate the project to indicate that it has been started. Then you will create and release a project transaction on the [Project Transactions](PM_30_40_00.md) \(PM304000\) form to record the provided services. You will bill the project on the [Projects](PM_30_10_00.md) \(PM301000\) form and review the prepared AR invoice on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. Then you will close the project and review its amounts.
 
-## System Preparation { .section}
+## System Preparation
 
 To sign in to the system and prepare to perform the instructions of the activity, do the following:
 
@@ -25,14 +25,14 @@ To sign in to the system and prepare to perform the instructions of the activity
 3.  Launch the Acumatica ERP website, and sign in to a company with the *U100* dataset preloaded; you should sign in as Pam Brawner by using the *brawner* username and the *123* password.
 4.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Activating the Project { .section}
+## Step 1: Activating the Project
 
 To indicate that the *INSTLAKE01* project has been started, do the following:
 
 1.  On the [Projects](PM_30_10_00.md) \(PM301000\) form, open the *INSTLAKE01* project, which you have created in [Project Creation and Processing: To Create a Fixed-Price Project](Projects_Process_Implem_Activity_Fixed_Price.md).
 2.  On the form toolbar, click **Activate**. The system assigns the project the *Active* status.
 
-## Step 2: Uploading Project Transactions { .section}
+## Step 2: Uploading Project Transactions
 
 To upload and process the transactions of this project, do the following:
 
@@ -51,7 +51,7 @@ To upload and process the transactions of this project, do the following:
     On the **Cost Budget** tab, notice that the system has updated the cost budget of the project—that is, three cost budget lines have been added based on the project transaction that you have released. Also, the **Actual Quantity** and **Actual Amount** columns have been populated with the amounts from the corresponding lines of the project transaction.
 
 
-## Step 3: Billing the Project { .section}
+## Step 3: Billing the Project
 
 To create an accounts receivable invoice for the project, do the following:
 
@@ -62,12 +62,11 @@ To create an accounts receivable invoice for the project, do the following:
 2.  Save your changes to the project. Because the project is billed on demand and has a nonzero pending invoice amount, you can now bill the project.
 3.  On the form toolbar, click **Run Billing**. The system creates an AR invoice, which should look like the one shown below, and opens it on the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form. The system creates the invoice lines based on the revenue budget lines of the corresponding project with amounts that are equal to the pending invoice amounts. The invoice total, which is $2,000, is equal to the pending invoice total.
 
-    ![](Images/activity_Projects_Process_Activity_Fixed_Price.png "The AR invoice created during the billing")
 
 4.  On the form toolbar of the [Invoices and Memos](AR_30_10_00.md) form, click **Remove Hold** to assign the *Balanced* status to the accounts receivable invoice, and then click **Release**.
 5.  Return to the [Projects](PM_30_10_00.md) form with the *INSTLAKE01* project opened, and press Esc to refresh the details. In the Summary area, make sure that the **Actual Income** box now shows *2,000.00*, which is the amount the customer has been billed.
 
-## Step 4: Closing the Project { .section}
+## Step 4: Closing the Project
 
 To complete the project and analyze its profitability, do the following:
 

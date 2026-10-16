@@ -1,4 +1,4 @@
-# Configuration of Project Material Management: Posting Classes for Stock Items {#_0798ce36-5a46-43ba-aac7-81e9a98bfffb .concept}
+# Configuration of Project Material Management: Posting Classes for Stock Items
 
 If you want to post GL transactions related to stock items being purchased or sold for projects to separate accounts and subaccounts, you need to configure a separate posting class for these items. You create posting classes on the [Posting Classes](../UserGuide/IN_20_60_00.md) \(IN206000\) form and specify the following settings:
 

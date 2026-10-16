@@ -1,10 +1,10 @@
-# To Enter an Inventory Issue of the Issue Type {#_c9cfa17c-114e-4955-ad88-8201e07eedb7 .task}
+# To Enter an Inventory Issue of the Issue Type
 
 You create issues of the *Issue* transaction type by using the [Issues](IN_30_20_00.md) \(IN302000\) form. When the issue of this type is released, the system creates an inventory transaction to subtract the issued quantity from inventory and decrease the cost of inventory for the extended cost of the line, and generates a General Ledger transaction to credit the inventory account for the extended cost.
 
 **Attention:** To open any form, you can navigate to it or search for it \(by its name or by its form ID without periods\).
 
-## To Enter an Issue of the Issue Type { .section}
+## To Enter an Issue of the Issue Type
 
 1.  Open the [Issues](../Shared/../UserGuide/IN_30_20_00.md) \(IN302000\) form.
 

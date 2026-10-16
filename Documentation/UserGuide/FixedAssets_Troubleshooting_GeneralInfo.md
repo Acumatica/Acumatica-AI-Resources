@@ -1,16 +1,16 @@
-# Fixed Asset Troubleshooting: General Information {#_9f2261a8-92b9-4498-9a54-bae0733008ca .concept}
+# Fixed Asset Troubleshooting: General Information
 
 This chapter described how you can correct errors in existing fixed asset records.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to troubleshoot issues with fixed assets.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You perform troubleshooting if issues occur during the lifetime of fixed assets or as a result of maintenance operations.
 
-## Change of the Useful Life of a Fixed Asset { .section}
+## Change of the Useful Life of a Fixed Asset
 
 Adding a fixed asset involves determining the estimated useful life and salvage amount of the asset. By their nature, estimates are subjective and may require revisions during the life of the asset. For example, the rapid technological advances may result in the actual useful life and salvage amount differing from your company's current estimates.
 
@@ -27,7 +27,7 @@ The resulting transactions affect the net book value and the current cost of the
 
 The changes in estimates effect the current and future periods. The system uses the revised value for the depreciation throughout entire asset life in periods after the change. You can configure the system to accelerate the depreciation for the assets that use the *Straight-Line* method. In this case, during the asset depreciation the system uses the revised amount as the basis for the depreciation only in the periods after revaluation. For more information, see [Depreciation Configuration](FA__cnf_Depreciation_Methods.md).
 
-## Fixed Asset Reversal { .section}
+## Fixed Asset Reversal
 
 In Acumatica ERP, if a fixed asset has released transactions associated with it, you cannot delete this asset from the system. In this case, you can reverse the transactions and then annul the asset.
 
@@ -46,7 +46,7 @@ Reversal of an asset yields the following results:
 
 The status of the asset at the moment of the reversal must be *Active*. The reversed asset cannot be deleted or edited.
 
-## Reconversion of Purchases to Assets { .section}
+## Reconversion of Purchases to Assets
 
 Suppose that you have converted a purchase to a fixed asset; the acquisition transaction is released for the asset. Then you have realized that you have converted the full purchase amount instead of the partial amount you intended to convert. You cannot correct the asset's acquisition cost, because the acquisition transaction has been released. To correct the asset, perform the following steps:
 
@@ -56,7 +56,7 @@ Suppose that you have converted a purchase to a fixed asset; the acquisition tra
 4.  On the [Convert Purchases to Assets](FA_50_45_00.md) form, again convert the needed purchase with the correct settings.
 5.  Review the created fixed asset to make sure that all settings are correct now, and release the generated acquisition transaction.
 
-## Assets with a Placed-in-Service Date Earlier Than the First Calendar Year { .section}
+## Assets with a Placed-in-Service Date Earlier Than the First Calendar Year
 
 If a fixed asset was acquired before your company started using Acumatica ERP and you need the depreciation to be posted before the system start date, you can shift the first book calendar one year earlier.
 
@@ -64,7 +64,7 @@ In Acumatica ERP, you can shift the first year by using the [Book Calendar Setup
 
 **Important:** Shifting the first year to an earlier date can affect statistics and data on reports.
 
-## Revaluation of an Asset { .section}
+## Revaluation of an Asset
 
 In Acumatica ERP, you can increase or decrease the net book value of the asset by reconciling the asset record with the financial documents that declare the change in asset value. In that case, the process generates the *Purchasing+* and the *Reconciliation+* transactions.
 
@@ -72,7 +72,7 @@ For details, see [Fixed Asset Troubleshooting: To Change Net Book Value of an As
 
 After you revalue the asset, the system uses the revalued amount as the basis for the depreciation throughout the entire asset life in periods after revaluation. You can configure the system to accelerate the depreciation for the assets that use the *Straight-Line* method. In this case, during the asset depreciation the system uses the revalued amount as the basis for the depreciation only in the periods after revaluation. For more information, see [Depreciation Configuration](FA__cnf_Depreciation_Methods.md).
 
-## Change of the Depreciable Basis for an Asset { .section}
+## Change of the Depreciable Basis for an Asset
 
 You can increase and decrease the depreciable basis of a fixed asset. Do do this, you perform the following steps:
 

@@ -1,4 +1,4 @@
-# Inventory Transactions {#_b5e8ecba-b948-46af-a0a6-3a269f737cbf .concept}
+# Inventory Transactions
 
 Inventory transactions are used to account for inventory items moved to or from a specific warehouse, between locations within a warehouse, or between warehouses.
 
@@ -6,7 +6,7 @@ Purchases and sales cause inventory item movements, and the respective inventory
 
 This topic contains an overview of the inventory processes and processing options applicable to transactions of all types.
 
-## Types of Inventory Transactions { .section}
+## Types of Inventory Transactions
 
 In Acumatica ERP, the following types of inventory transactions are available:
 
@@ -41,11 +41,11 @@ In Acumatica ERP, the following types of inventory transactions are available:
     If a kit is a stock item, this transaction decreases the on-hand quantity of kits and increases the on-hand quantity of stock components \(if any\). The system generates an inventory adjustment to account for the extra costs that incur in the process of disassembling, if any.
 
 
-## Currency of the Inventory Transactions { .section}
+## Currency of the Inventory Transactions
 
 For all inventory transactions, the base currency is used. Even if the original purchasing and sales documents were created in foreign currencies, the inventory transactions generated for them are always in the base currency.
 
-## Data Entry Options { .section}
+## Data Entry Options
 
 The settings that can be used to manage the data entry of inventory transactions are located on the [Inventory Preferences](IN_10_10_00.md) \(IN101000\) form.
 
@@ -59,7 +59,7 @@ To make data entry for receiving operations more efficient with the help of barc
 
 Also, you can select the **Add One Unit Per Barcode** check box to indicate to the system that the item quantity on the receipt should be increased by one unit each time the item's barcode is entered into the system, manually or by using a barcode scanner.
 
-## Upload of Transaction Lines from a File { .section}
+## Upload of Transaction Lines from a File
 
 You can upload multiple lines from an Excel spreadsheet or a CSV file to an inventory transaction with the *On Hold* or *Balanced* status. To start the upload, click the**Load Records from File** button on the form toolbar and specify the required settings in the **Import Data** dialog box.
 
@@ -78,7 +78,7 @@ On the [Transfers](IN_30_40_00.md) \(IN304000\) form, the system uses the follow
 -   `To Location`
 -   `Lot/Serial Nbr.`
 
-## Statuses { .section}
+## Statuses
 
 An inventory transaction can pass through the following statuses:
 
@@ -86,7 +86,7 @@ An inventory transaction can pass through the following statuses:
 -   *Balanced*: This is the default status for new transactions if the **Hold Documents on Entry** check box is cleared on the [Inventory Preferences](IN_10_10_00.md) form. The transaction still can be edited and can be released. If the **Validate Document Totals on Entry** check box is selected on the [Inventory Preferences](IN_10_10_00.md) form, you must enter the control quantity and control amount to save the transaction in this status.
 -   *Released*: The transaction has been released and cannot be edited. Releasing the transaction updates the availability data.
 
-## Releasing Options { .section}
+## Releasing Options
 
 You can release inventory transactions one-by-one using the appropriate form: [Issues](IN_30_20_00.md) \(IN302000\) [Receipts](IN_30_10_00.md) \(IN301000\), or [Adjustments](IN_30_30_00.md) \(IN303000\). In addition, you can release multiple inventory transactions by using the [Release IN Documents](IN_50_10_00.md) \(IN501000\) form.
 
@@ -98,7 +98,7 @@ Upon release, the system takes the following actions:
 -   Updates the cost statistics for each item.
 -   If the updating of the general ledger is enabled, generates the general ledger transactions according to the transaction type of each line. You can view the balance of each inventory account and the list of documents that update the account on the [Inventory Transactions by Account](IN_40_30_00.md) \(IN403000\) form.
 
-## Inventory Accounts Used for the Posting of Inventory Transactions { .section}
+## Inventory Accounts Used for the Posting of Inventory Transactions
 
 The system determines the inventory account to which it posts transactions with a stock item differently depending on whether it is receiving or issuing an item.
 
@@ -119,7 +119,7 @@ Suppose that you have some units of a stock item received to inventory to cost l
 
 If a stock item has been received to multiple cost layers with multiple inventory accounts, the system will use the inventory account for an issue or adjustment, starting with the earliest available cost layer in which the item has an on-hand quantity greater than 0.
 
-## Posting Options { .section}
+## Posting Options
 
 The settings that can be used to manage the posting process for inventory transactions are located on the [Inventory Preferences](IN_10_10_00.md) \(IN101000\) form.
 
@@ -129,7 +129,7 @@ The system assigns the batch numbers according to the numbering sequence selecte
 
 Also, you can use the **Post Summary on Updating GL** check box to control how transactions are posted. If you use the GL accounts that allow posting of summary values, you can select this check box. Then, the transactions in the batches will be grouped by account and subaccount pair and only the sum for each pair will be posted.
 
-## Transaction Reason Codes { .section}
+## Transaction Reason Codes
 
 You use reason codes, defined on the [Reason Codes](CS_21_10_00.md) \(CS211000\) form, to indicate why direct inventory transactions have been created. Each reason code has a default account and subaccount specified, and these are used as the offset account and subaccount for the inventory transactions. You can specify the reason codes to be used as the default reason codes for inventory receipts, issues, and adjustments on the [Inventory Preferences](IN_10_10_00.md) \(IN101000\) form.
 

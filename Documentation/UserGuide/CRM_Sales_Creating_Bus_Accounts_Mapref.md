@@ -1,4 +1,4 @@
-# Creating Business Accounts {#_07499dc9-bfa0-4eb5-b51e-96b2e402125e .concept}
+# Creating Business Accounts
 
 In this chapter, you will find information about creating business accounts, associating the accounts with leads and contacts, and extending accounts as customers and vendors in Acumatica ERP.
 

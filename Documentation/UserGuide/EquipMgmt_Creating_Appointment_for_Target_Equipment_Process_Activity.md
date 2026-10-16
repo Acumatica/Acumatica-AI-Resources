@@ -1,23 +1,23 @@
-# Target Equipment: To Create a Service Appointment {#_d8dc3daf-0ae3-47cf-9d1d-3f81624c3418 .task}
+# Target Equipment: To Create a Service Appointment
 
 In this activity, you will create an appointment to deliver setup services for target equipment located at the customer's premises.
 
-## Story {#section_dnc_t1q_jdc .section}
+## Story
 
 Suppose that the *GOODFOOD \(GoodFood One Restaurant\)* customer wants the SweetLife Service and Equipment Sales Center to perform installation and repair services at the customer's location on the cold press and centrifugal juicers it has purchased. Acting as a service manager, you will receive the request and create and process an appointment.
 
-## Process Overview {#section_lqv_jf3_jdc .section}
+## Process Overview
 
 On the [Appointments](FS_30_02_00.md) \(FS300200\) form, you will create a new appointment. In this appointment, you will specify the services and the target equipment that will be serviced. You will also assign a staff member with the appropriate skills and, on behalf of a staff member, process the appointment.
 
-## System Preparation {#section_ejp_d23_jdc .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
 1.  On the Acumatica ERP website, sign in to a company with the *U100* dataset preloaded. You should sign in as a service manager by using the *davis* username and the *123* password.
 2.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, set the business date to *1/30/2026*. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 
-## Step: Creating an Appointment for the Servicing of Target Equipment {#section_lnc_w1q_jdc .section}
+## Step: Creating an Appointment for the Servicing of Target Equipment
 
 Do the following:
 
@@ -46,7 +46,6 @@ Do the following:
 
     The system opens the [Appointment Details](FS_40_05_00.md) \(FS400500\) form. You can see the appointment created for the selected piece of equipment. \(See the following screenshot.\)
 
-    ![](Images/EquipMgmt_Appointment_History_for_Target_Equipment.png "Appointment history for the target equipment")
 
 13. Return to the [Appointments](FS_30_02_00.md) \(FS300200\) form.
 14. On the **Details** tab, click the *FSE00011* link in the **Target Equipment ID** column to view the settings of the *Cold Press Juicer H30J* to be assembled.

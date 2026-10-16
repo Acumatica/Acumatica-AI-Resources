@@ -1,16 +1,16 @@
-# Employee Payroll Settings: Implementation Activity {#_52e4bab0-93d2-4839-8338-e5bc3ba45fc7 .task}
+# Employee Payroll Settings: Implementation Activity
 
 In the following implementation activity, you will learn how to create a payroll employee record and specify payroll settings for that employee.
 
-## Story { .section}
+## Story
 
 Suppose that a payroll employee record should be created for Anna Johnson, an accountant in the SweetLife company, and the relative taxes, earnings, and other payroll settings need to be specified for this employee so that the necessary deductions and benefits are included in the paycheck calculation.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Employees](EP_20_30_00.md) \(EP203000\) form, you open the employee record and click **Create Payroll Employee** on the More menu to create a payroll employee record. Then, on the [Employee Payroll Settings](PR_20_30_00.md) \(PR203000\) form, you specify necessary payroll settings for the employee.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating a payroll employee record and specifying employee payroll settings, you should launch the Acumatica ERP website and sign in as a system administrator by using the following credentials:
 
@@ -21,7 +21,7 @@ As a prerequisite activity, in the company to which you are signed in, be sure y
 
 As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course.
 
-## Step 1: Creating a Payroll Employee { .section}
+## Step 1: Creating a Payroll Employee
 
 To perform a step, do the following:
 
@@ -38,7 +38,7 @@ To perform a step, do the following:
     As a result, the [Employee Payroll Settings](PR_20_30_00.md) \(PR203000\) form opens on the same tab, populated with the settings of the *Anna Johnson* employee.
 
 
-## Step 2: Specifying Required Payroll Settings { .section}
+## Step 2: Specifying Required Payroll Settings
 
 To specify the required payroll settings for Anna Johnson, while you are viewing her record on the [Employee Payroll Settings](PR_20_30_00.md) \(PR203000\) form, do the following:
 
@@ -58,7 +58,7 @@ To specify the required payroll settings for Anna Johnson, while you are viewing
 
 5.  On the form toolbar, click **Save**.
 
-## Step 3: Specifying the Address Information { .section}
+## Step 3: Specifying the Address Information
 
 While you are still reviewing Anna Johnson's record on the [Employee Payroll Settings](PR_20_30_00.md) \(PR203000\) form, specify the address information as follows:
 
@@ -70,7 +70,7 @@ While you are still reviewing Anna Johnson's record on the [Employee Payroll Set
     -   **Postal Code**: `10009`
 2.  On the form toolbar, click **Save**.
 
-## Step 4: Importing Taxes { .section}
+## Step 4: Importing Taxes
 
 To update the employee's tax details with the relevant taxes based on the work locations and the address specified for the employee, while you are still reviewing Anna Johnson's record on the [Employee Payroll Settings](PR_20_30_00.md) \(PR203000\) form, do the following:
 
@@ -82,7 +82,7 @@ To update the employee's tax details with the relevant taxes based on the work l
 3.  In the right **Tax Settings** table, select the check box in the **Value** column for the *Employee is a resident of the state or location* setting.
 4.  On the form toolbar, click **Save**.
 
-## Step 5: Defining the Regular Earnings { .section}
+## Step 5: Defining the Regular Earnings
 
 To define the regular earnings of the employee, while you are still reviewing Anna Johnson's record on the [Employee Payroll Settings](PR_20_30_00.md) \(PR203000\) form, do the following:
 
@@ -94,7 +94,7 @@ To define the regular earnings of the employee, while you are still reviewing An
     -   **Start Date**: *1/1/2021*
 2.  On the form toolbar, click **Save**.
 
-## Step 6: Specifying Deductions and Benefits { .section}
+## Step 6: Specifying Deductions and Benefits
 
 To specify deductions and benefits for the employee, while you are still reviewing Anna Johnson's record on the [Employee Payroll Settings](PR_20_30_00.md) \(PR203000\) form, do the following:
 
@@ -120,7 +120,7 @@ To specify deductions and benefits for the employee, while you are still reviewi
 5.  Click **OK** to apply the changes and close the dialog box.
 6.  On the form toolbar, click **Save**.
 
-## Step 7: Specifying PTO Banks { .section}
+## Step 7: Specifying PTO Banks
 
 To specify the PTO banks that the employee will be able to use, while you are still reviewing Anna Johnson's record on the [Employee Payroll Settings](PR_20_30_00.md) \(PR203000\) form, do the following:
 
@@ -137,7 +137,7 @@ To specify the PTO banks that the employee will be able to use, while you are st
 
 3.  On the form toolbar, click **Save**.
 
-## Step 8 \(Optional\): Updating Taxes in the System { .section}
+## Step 8 \(Optional\): Updating Taxes in the System
 
 After the payroll settings of multiple payroll employees have been specified, you may need to update taxes in the system. Do the following:
 

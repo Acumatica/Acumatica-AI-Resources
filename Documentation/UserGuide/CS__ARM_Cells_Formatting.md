@@ -1,4 +1,4 @@
-# Cell Formatting {#_13a86d40-60db-4339-92aa-d7959c23ac2d .concept}
+# Cell Formatting
 
 You use the format functions specified for the **Format** attribute on the [Column Sets](CS_20_60_20.md) \(CS206020\) form \(for a column cell\) and on the [Row Sets](CS_20_60_10.md) \(CS206010\) form \(for a row cell\). To specify the format for the column or row cells, you can use the standard formats defined for the format function in .Net. Standard \(numeric and datetime\) and user-defined data formats are supported.
 
@@ -8,9 +8,29 @@ The standard *DateTime* format string consists of a single format specifier char
 
 If the standard numeric format specifiers do not provide the type of formatting required by the report, you can use custom format strings. The custom format strings use the format characters to specify what symbol should be placed in the specific position of the format string. Any numeric format string that does not fit the definition of a standard numeric format string is interpreted as a custom numeric format string. Thus, the format string *c!* is interpreted as a custom format string because it contains two alphabetic characters, even though the character *c* is a standard numeric format specifier. The custom *DateTime* format specifiers can be used to create a custom *DateTime* format string.
 
-|Format specifier|Name|Description|
-|----------------|----|-----------|
-|*C* or *c*|Currency|The numbers in the report row or column will be converted to strings that represent the currency amounts. The precision specifier indicates the number of decimal places to be shown.
+<table id="_ezs_qwh_1h"><thead><tr><th>
+
+Format specifier
+
+</th><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+*C* or *c*
+
+</td><td>
+
+Currency
+
+</td><td>
+
+The numbers in the report row or column will be converted to strings that represent the currency amounts. The precision specifier indicates the number of decimal places to be shown.
 
  **Examples**: *c*, *c2*
 
@@ -20,23 +40,59 @@ If the standard numeric format specifiers do not provide the type of formatting 
 
  Any symbol that you type after the backslash \(*\\*\) will be printed as it is.
 
-|
-|*D* or *d*|Decimal|This format is supported for integral types only. The number is converted to a string of decimal digits \(0 to 9\), preceded by a minus sign if the number is negative. The precision specifier indicates the minimum number of digits in the resulting string. If required, the number is padded with zeros to its left to produce the number of digits given by the precision specifier. The exponent always consists of a plus or minus sign and a minimum of three digits. The exponent is padded with zeros to meet this minimum, if required.
+</td></tr><tr><td>
+
+*D* or *d*
+
+</td><td>
+
+Decimal
+
+</td><td>
+
+This format is supported for integral types only. The number is converted to a string of decimal digits \(0 to 9\), preceded by a minus sign if the number is negative. The precision specifier indicates the minimum number of digits in the resulting string. If required, the number is padded with zeros to its left to produce the number of digits given by the precision specifier. The exponent always consists of a plus or minus sign and a minimum of three digits. The exponent is padded with zeros to meet this minimum, if required.
 
  **Examples**: *d*, *d4*
 
-|
-|*E* or *e*|Scientific \(exponential; this format is very seldom used in analytical reports\)|The number is converted to a string of the form *-d.ddd... E+ddd* or *-d.ddd... e+ddd*, where each *d* indicates a digit \(0 to 9\). The string starts with a minus sign if the number is negative. One digit always precedes the decimal point. The precision specifier indicates the appropriate number of digits after the decimal point. If the precision specifier is omitted, a default of six digits after the decimal point is used. The case of the format specifier indicates whether to prefix the exponent with an *E* or an *e*. The exponent always consists of a plus or minus sign and a minimum of three digits. The exponent is padded with zeros to meet this minimum, if required.
+</td></tr><tr><td>
+
+*E* or *e*
+
+</td><td>
+
+Scientific \(exponential; this format is very seldom used in analytical reports\)
+
+</td><td>
+
+The number is converted to a string of the form *-d.ddd... E+ddd* or *-d.ddd... e+ddd*, where each *d* indicates a digit \(0 to 9\). The string starts with a minus sign if the number is negative. One digit always precedes the decimal point. The precision specifier indicates the appropriate number of digits after the decimal point. If the precision specifier is omitted, a default of six digits after the decimal point is used. The case of the format specifier indicates whether to prefix the exponent with an *E* or an *e*. The exponent always consists of a plus or minus sign and a minimum of three digits. The exponent is padded with zeros to meet this minimum, if required.
 
  **Examples**: *e*, *e2*
 
-|
-|*F* or *f*|Fixed point|The number is converted to a string of the form *-ddd.ddd...* where each *d* indicates a digit \(0 to 9\). The string starts with a minus sign if the number is negative. The precision specifier indicates the number of decimal places to be shown.
+</td></tr><tr><td>
+
+*F* or *f*
+
+</td><td>
+
+Fixed point
+
+</td><td>
+
+The number is converted to a string of the form *-ddd.ddd...* where each *d* indicates a digit \(0 to 9\). The string starts with a minus sign if the number is negative. The precision specifier indicates the number of decimal places to be shown.
 
  **Examples**: *f*, *f4*
 
-|
-|*G* or *g*|General|The number is converted to the most compact of the fixed-point or scientific notation, depending on the type of the number and whether a precision specifier is present. If the precision specifier is omitted or zero, the type of the number determines the default precision, as indicated by the following list.
+</td></tr><tr><td>
+
+*G* or *g*
+
+</td><td>
+
+General
+
+</td><td>
+
+The number is converted to the most compact of the fixed-point or scientific notation, depending on the type of the number and whether a precision specifier is present. If the precision specifier is omitted or zero, the type of the number determines the default precision, as indicated by the following list.
 
  -   Byte or SByte: 3
 -   Int16 or UInt16: 5
@@ -50,32 +106,100 @@ If the standard numeric format specifiers do not provide the type of formatting 
 
  **Examples**: *g*, *g4*
 
-|
-|*N* or *n*|Number|The number is converted to a string of the form *-d,ddd,ddd.ddd...* where each *d* indicates a digit \(0 to 9\). The string starts with a minus sign if the number is negative. Thousand separators are inserted between each group of three digits to the left of the decimal point. The precision specifier indicates the number of decimal places to be shown.
+</td></tr><tr><td>
+
+*N* or *n*
+
+</td><td>
+
+Number
+
+</td><td>
+
+The number is converted to a string of the form *-d,ddd,ddd.ddd...* where each *d* indicates a digit \(0 to 9\). The string starts with a minus sign if the number is negative. Thousand separators are inserted between each group of three digits to the left of the decimal point. The precision specifier indicates the number of decimal places to be shown.
 
  **Examples**: *n*, *n4*
 
-|
-|*P* or *p*|Percent|The number is converted to a string that represents a percent. The converted number is multiplied by 100 in order to be presented as a percentage. The precision specifier indicates the number of decimal places to be shown.
+</td></tr><tr><td>
+
+*P* or *p*
+
+</td><td>
+
+Percent
+
+</td><td>
+
+The number is converted to a string that represents a percent. The converted number is multiplied by 100 in order to be presented as a percentage. The precision specifier indicates the number of decimal places to be shown.
 
  **Examples**: *p*, *p4*
 
-|
-|*R* or *r*|Round-trip \(this format is very seldom used in analytical reports\)|The round-trip specifier guarantees that a numeric value converted to a string will be parsed back into the same numeric value. When a numeric value is formatted using this specifier, it is first tested using the general format, with 15 spaces of precision for a *Double* and 7 spaces of precision for a *Single*. If the value is successfully parsed back to the same numeric value, it is formatted by using the general format specifier. However, if the value is not successfully parsed back to the same numeric value, then the value is formatted by using 17 digits of precision for a *Double* and 9 digits of precision for a *Single*. Although a precision specifier can be appended to the round-trip format specifier, it is ignored. Round trips are given precedence over precision when you use this specifier. This format is supported by floating-point types only.
+</td></tr><tr><td>
+
+*R* or *r*
+
+</td><td>
+
+Round-trip \(this format is very seldom used in analytical reports\)
+
+</td><td>
+
+The round-trip specifier guarantees that a numeric value converted to a string will be parsed back into the same numeric value. When a numeric value is formatted using this specifier, it is first tested using the general format, with 15 spaces of precision for a *Double* and 7 spaces of precision for a *Single*. If the value is successfully parsed back to the same numeric value, it is formatted by using the general format specifier. However, if the value is not successfully parsed back to the same numeric value, then the value is formatted by using 17 digits of precision for a *Double* and 9 digits of precision for a *Single*. Although a precision specifier can be appended to the round-trip format specifier, it is ignored. Round trips are given precedence over precision when you use this specifier. This format is supported by floating-point types only.
 
  **Example**: *r*
 
-|
-|*X* or *x*|Hexadecimal \(this format is very seldom used in analytical reports\)|The number is converted to a string of hexadecimal digits. The case of the format specifier indicates whether to use uppercase or lowercase characters for the hexadecimal digits greater than 9. For example, use *X* to produce *ABCDEF*, and *x* to produce *abcdef*. The precision specifier indicates the minimum number of digits in the resulting string. If required, the number is padded with zeros to its left to produce the number of digits given by the precision specifier. This format is supported for integral types only.
+</td></tr><tr><td>
+
+*X* or *x*
+
+</td><td>
+
+Hexadecimal \(this format is very seldom used in analytical reports\)
+
+</td><td>
+
+The number is converted to a string of hexadecimal digits. The case of the format specifier indicates whether to use uppercase or lowercase characters for the hexadecimal digits greater than 9. For example, use *X* to produce *ABCDEF*, and *x* to produce *abcdef*. The precision specifier indicates the minimum number of digits in the resulting string. If required, the number is padded with zeros to its left to produce the number of digits given by the precision specifier. This format is supported for integral types only.
 
  **Examples**: *x* *X*
 
-|
+</td></tr></tbody>
+</table>
 
-|Format character|Name|Description|
-|----------------|----|-----------|
-|*0*|Zero placeholder|If the value being formatted has a digit in the position where the *0* appears in the format string, then that digit is copied to the result string. The position of the leftmost *0* before the decimal point and the rightmost *0* after the decimal point determines the range of digits that are always present in the result string. The *00* specifier causes the value to be rounded to the nearest digit preceding the decimal, where rounding away from zero is always used. For example, formatting 34.5 with *00* would result in the value 35.|
-|*\#*|Digit placeholder|If the value being formatted has a digit in the position where the *\#* appears in the format string, then that digit is copied to the result string. Otherwise, nothing is stored in that position in the result string. Note that this specifier never displays the *0* character if it is not a significant digit, even if *0* is the only digit in the string. This specifier displays the *0* character if it is a significant digit in the number being displayed. The *\#\#* format string causes the value to be rounded to the nearest digit preceding the decimal, where rounding away from zero is always used. For example, formatting 34.5 with *\#\#* would result in the value 35.
+<table id="_vlr_tvh_1h"><thead><tr><th>
+
+Format character
+
+</th><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+*0*
+
+</td><td>
+
+Zero placeholder
+
+</td><td>
+
+If the value being formatted has a digit in the position where the *0* appears in the format string, then that digit is copied to the result string. The position of the leftmost *0* before the decimal point and the rightmost *0* after the decimal point determines the range of digits that are always present in the result string. The *00* specifier causes the value to be rounded to the nearest digit preceding the decimal, where rounding away from zero is always used. For example, formatting 34.5 with *00* would result in the value 35.
+
+</td></tr><tr><td>
+
+*\#*
+
+</td><td>
+
+Digit placeholder
+
+</td><td>
+
+If the value being formatted has a digit in the position where the *\#* appears in the format string, then that digit is copied to the result string. Otherwise, nothing is stored in that position in the result string. Note that this specifier never displays the *0* character if it is not a significant digit, even if *0* is the only digit in the string. This specifier displays the *0* character if it is a significant digit in the number being displayed. The *\#\#* format string causes the value to be rounded to the nearest digit preceding the decimal, where rounding away from zero is always used. For example, formatting 34.5 with *\#\#* would result in the value 35.
 
  **Examples:**
 
@@ -83,21 +207,128 @@ If the standard numeric format specifiers do not provide the type of formatting 
 
  `"(###) ### - ####"`
 
-|
-|*.*|Decimal point|The first *.* character in the format string determines the location of the decimal separator in the formatted value; any additional *.* characters are ignored. The actual character used as the decimal separator is determined by the settings in the **Regional Options** control panel.|
-|*,*|Thousand separator and number scaling|This character serves two purposes. First, if the format string contains a *,* character between two digit placeholders \(0 or \#\) and to the left of the decimal point if one is present, then the output will have thousand separators inserted between each group of three digits \(counting from the right\) to the left of the decimal separator. The actual character used as the decimal separator in the result string is determined by the settings in the *Regional Options* control panel. Second, if the format string contains at least one *,* character immediately to the left of the decimal point, then the number will be divided by the number of *,* characters multiplied by 1000 before it is formatted. For example, the format string *0,,* will represent 100 million as simply 100. The *,* character indicates that scaling does not include thousand separators in the formatted number. Thus, to scale a number by 1 million and insert thousand separators, you would use the format string *\#,\#\#0,,*.|
-|*%*|Percentage placeholder|The presence of the *%* character in a format string causes a number to be multiplied by 100 before it is formatted. The appropriate symbol is inserted in the number itself at the location where the *%* appears in the format string. The percent character used is dependent on the settings in the **Regional Options** control panel.|
-|*E0* *E+0* *E-0* *e0*e+0*e-0*
+</td></tr><tr><td>
 
-|Scientific notation|If any of the strings *E*, *E+*, *E-*, *e*, *e+*, or *e-* is present in the format string and followed immediately by at least one *0* character, then the number is formatted using scientific notation with an *E* or *e* inserted between the number and the exponent. The number of *0* characters following the scientific notation indicator determines the minimum number of digits to output for the exponent. The *E+* and *e+* formats indicate that a sign character \(plus or minus\) should always precede the exponent. The *E*, *E-*, *e*, and *e-* formats indicate that a sign character should only precede negative exponents.|
-|*\\*|Escape character|In C\# and C++, the backslash character causes the next character in the format string to be interpreted as an escape sequence. This character is used with traditional formatting sequences like *\\n* \(new line\).|
-|*'ABC'* *"ABC"*|Literal string|Characters enclosed in single or double quotes are copied to the result string literally, and do not affect formatting.|
-|*;*|Section separator|This character is used to separate sections for positive, negative, and zero numbers in the format string.|
-|*Other*|All other characters|All other characters are copied to the result string as literals in the position in which they appear.|
+*.*
 
-|Format character|Name|Description|
-|----------------|----|-----------|
-|*d*|Short date pattern|Displays a value in the short date format.
+</td><td>
+
+Decimal point
+
+</td><td>
+
+The first *.* character in the format string determines the location of the decimal separator in the formatted value; any additional *.* characters are ignored. The actual character used as the decimal separator is determined by the settings in the **Regional Options** control panel.
+
+</td></tr><tr><td>
+
+*,*
+
+</td><td>
+
+Thousand separator and number scaling
+
+</td><td>
+
+This character serves two purposes. First, if the format string contains a *,* character between two digit placeholders \(0 or \#\) and to the left of the decimal point if one is present, then the output will have thousand separators inserted between each group of three digits \(counting from the right\) to the left of the decimal separator. The actual character used as the decimal separator in the result string is determined by the settings in the *Regional Options* control panel. Second, if the format string contains at least one *,* character immediately to the left of the decimal point, then the number will be divided by the number of *,* characters multiplied by 1000 before it is formatted. For example, the format string *0,,* will represent 100 million as simply 100. The *,* character indicates that scaling does not include thousand separators in the formatted number. Thus, to scale a number by 1 million and insert thousand separators, you would use the format string *\#,\#\#0,,*.
+
+</td></tr><tr><td>
+
+*%*
+
+</td><td>
+
+Percentage placeholder
+
+</td><td>
+
+The presence of the *%* character in a format string causes a number to be multiplied by 100 before it is formatted. The appropriate symbol is inserted in the number itself at the location where the *%* appears in the format string. The percent character used is dependent on the settings in the **Regional Options** control panel.
+
+</td></tr><tr><td>
+
+*E0* *E+0* *E-0* *e0*e+0*e-0*
+
+</td><td>
+
+Scientific notation
+
+</td><td>
+
+If any of the strings *E*, *E+*, *E-*, *e*, *e+*, or *e-* is present in the format string and followed immediately by at least one *0* character, then the number is formatted using scientific notation with an *E* or *e* inserted between the number and the exponent. The number of *0* characters following the scientific notation indicator determines the minimum number of digits to output for the exponent. The *E+* and *e+* formats indicate that a sign character \(plus or minus\) should always precede the exponent. The *E*, *E-*, *e*, and *e-* formats indicate that a sign character should only precede negative exponents.
+
+</td></tr><tr><td>
+
+*\\*
+
+</td><td>
+
+Escape character
+
+</td><td>
+
+In C\# and C++, the backslash character causes the next character in the format string to be interpreted as an escape sequence. This character is used with traditional formatting sequences like *\\n* \(new line\).
+
+</td></tr><tr><td>
+
+*'ABC'* *"ABC"*
+
+</td><td>
+
+Literal string
+
+</td><td>
+
+Characters enclosed in single or double quotes are copied to the result string literally, and do not affect formatting.
+
+</td></tr><tr><td>
+
+*;*
+
+</td><td>
+
+Section separator
+
+</td><td>
+
+This character is used to separate sections for positive, negative, and zero numbers in the format string.
+
+</td></tr><tr><td>
+
+*Other*
+
+</td><td>
+
+All other characters
+
+</td><td>
+
+All other characters are copied to the result string as literals in the position in which they appear.
+
+</td></tr></tbody>
+</table>
+
+<table id="_kqn_1wh_1h"><thead><tr><th>
+
+Format character
+
+</th><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+*d*
+
+</td><td>
+
+Short date pattern
+
+</td><td>
+
+Displays a value in the short date format.
 
  Depending on the settings in the **Regional Options** control panel, the value can be in one of the following formats:
 
@@ -107,8 +338,17 @@ If the standard numeric format specifiers do not provide the type of formatting 
 
  **Example**: *d*
 
-|
-|*D*|Long date pattern|Displays a value in the long date format.
+</td></tr><tr><td>
+
+*D*
+
+</td><td>
+
+Long date pattern
+
+</td><td>
+
+Displays a value in the long date format.
 
  Depending on the settings in the **Regional Options** control panel, the value can be in one of the following formats:
 
@@ -118,8 +358,17 @@ If the standard numeric format specifiers do not provide the type of formatting 
 
  **Example**: *D*
 
-|
-|*t*|Short time pattern|Displays a value in the short time format.
+</td></tr><tr><td>
+
+*t*
+
+</td><td>
+
+Short time pattern
+
+</td><td>
+
+Displays a value in the short time format.
 
  Depending on the settings in the **Regional Options** control panel, the value can be in one of the following formats:
 
@@ -129,8 +378,17 @@ If the standard numeric format specifiers do not provide the type of formatting 
 
  **Example**: *t*
 
-|
-|*T*|Long time pattern|Displays a value in the long time format.
+</td></tr><tr><td>
+
+*T*
+
+</td><td>
+
+Long time pattern
+
+</td><td>
+
+Displays a value in the long time format.
 
  Depending on the settings in the **Regional Options** control panel, the value can be in one of the following formats:
 
@@ -140,13 +398,31 @@ If the standard numeric format specifiers do not provide the type of formatting 
 
  **Example**: *T*
 
-|
-|*f*|Full date/time pattern \(short time\)|Displays a value in a combination of the long date and short time format patterns, separated by a space.
+</td></tr><tr><td>
+
+*f*
+
+</td><td>
+
+Full date/time pattern \(short time\)
+
+</td><td>
+
+Displays a value in a combination of the long date and short time format patterns, separated by a space.
 
  **Example**: *f*
 
-|
-|*F*|Full date/time pattern \(long time\)|Displays a value in a full date/time format.
+</td></tr><tr><td>
+
+*F*
+
+</td><td>
+
+Full date/time pattern \(long time\)
+
+</td><td>
+
+Displays a value in a full date/time format.
 
  Depending on the settings in the **Regional Options** control panel, the value can be in one of the following formats:
 
@@ -156,18 +432,45 @@ If the standard numeric format specifiers do not provide the type of formatting 
 
  **Example**: *F*
 
-|
-|*g*|General date/time pattern \(short time\)|Displays a combination of the short date and short time patterns, separated by a space.
+</td></tr><tr><td>
+
+*g*
+
+</td><td>
+
+General date/time pattern \(short time\)
+
+</td><td>
+
+Displays a combination of the short date and short time patterns, separated by a space.
 
  **Example**: *g*
 
-|
-|*G*|General date/time pattern \(long time\)|Displays a combination of the short date and long time patterns, separated by a space.
+</td></tr><tr><td>
+
+*G*
+
+</td><td>
+
+General date/time pattern \(long time\)
+
+</td><td>
+
+Displays a combination of the short date and long time patterns, separated by a space.
 
  **Example**: *G*
 
-|
-|*M* or *m*|Month day pattern|Displays the day of month defined by the value.
+</td></tr><tr><td>
+
+*M* or *m*
+
+</td><td>
+
+Month day pattern
+
+</td><td>
+
+Displays the day of month defined by the value.
 
  Depending on the settings in the **Regional Options** control panel, the value can be in one of the following formats:
 
@@ -177,27 +480,63 @@ If the standard numeric format specifiers do not provide the type of formatting 
 
  **Example**: *M* `m`
 
-|
-|*R* or *r*|RFC1123 pattern|Displays a time value based on the Internet Engineering Task Force \(IETF\) Request for Comments \(RFC\) 1123 specification. This specification sets the following common time format \(regardless of the settings in the **Regional Options** control panel\): *ddd, dd MMM yyyy HH':'mm':'ss 'GMT'*.
+</td></tr><tr><td>
+
+*R* or *r*
+
+</td><td>
+
+RFC1123 pattern
+
+</td><td>
+
+Displays a time value based on the Internet Engineering Task Force \(IETF\) Request for Comments \(RFC\) 1123 specification. This specification sets the following common time format \(regardless of the settings in the **Regional Options** control panel\): *ddd, dd MMM yyyy HH':'mm':'ss 'GMT'*.
 
  Formatting does not modify the *DateTime* value; therefore, you must adjust the value to GMT before formatting.
 
  **Examples**: *R*, `r`
 
-|
-|*s*|Sortable date/time pattern; conforms to ISO 8601|Displays a date and time in ISO 8601-compatible format. The format uses the following custom format: *yyyy-MM-ddTHH:mm:ss*.
+</td></tr><tr><td>
+
+*s*
+
+</td><td>
+
+Sortable date/time pattern; conforms to ISO 8601
+
+</td><td>
+
+Displays a date and time in ISO 8601-compatible format. The format uses the following custom format: *yyyy-MM-ddTHH:mm:ss*.
 
  **Example**: *s*
 
-|
-|*u*|Universal sortable date/time pattern|Displays a time value in a standard defined form. This specification sets the following common time format \(regardless of the settings in the **Regional Options** control panel\): *yyyy-MM-dd HH:mm:ssZ*.
+</td></tr><tr><td>
+
+*u*
+
+</td><td>
+
+Universal sortable date/time pattern
+
+</td><td>
+
+Displays a time value in a standard defined form. This specification sets the following common time format \(regardless of the settings in the **Regional Options** control panel\): *yyyy-MM-dd HH:mm:ssZ*.
 
  No time zone conversion is done when the date and time is formatted; therefore, convert a local date and time to universal time before using this format specifier.
 
  **Example**: *u*
 
-|
-|*Y* or *y*|Year month pattern|Displays a year value.
+</td></tr><tr><td>
+
+*Y* or *y*
+
+</td><td>
+
+Year month pattern
+
+</td><td>
+
+Displays a year value.
 
  Depending on the settings in the **Regional Options** control panel, the value can be in one of the following formats:
 
@@ -207,7 +546,8 @@ If the standard numeric format specifiers do not provide the type of formatting 
 
  **Examples**: *Y* `y`
 
-|
+</td></tr></tbody>
+</table>
 
 |Format specifier|Description|
 |----------------|-----------|

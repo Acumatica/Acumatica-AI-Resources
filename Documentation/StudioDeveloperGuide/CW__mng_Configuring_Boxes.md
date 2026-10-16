@@ -1,4 +1,4 @@
-# Configuring Boxes {#_0219b2be-e34c-4b99-ad34-a03653f4d0ab .concept}
+# Configuring Boxes
 
 In this chapter, you can find information about the configuration of different types of boxes, such as PXTextEdit, PXCheckBox, and PXGroupBox.
 

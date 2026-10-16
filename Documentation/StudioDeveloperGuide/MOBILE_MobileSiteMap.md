@@ -1,4 +1,4 @@
-# Mobile Site Map {#_4ba4fe00-068a-41e7-8c6f-58fa0b004377 .concept}
+# Mobile Site Map
 
 The mobile site map is the metadata you use to configure the Acumatica mobile app. The mobile site map contains descriptions of the elements that should appear on the mobile device, including the Home screen, the workspaces, the screens, and the fields and actions on the screens.
 

@@ -1,4 +1,4 @@
-# Element Inspector {#_5f9d2d33-1a33-4edd-8629-3100d2020335 .reference}
+# Element Inspector
 
 For any visual element on a form, you can use the Element Inspector to do the following:
 
@@ -12,38 +12,111 @@ For any visual element on a form, you can use the Element Inspector to do the fo
 
 **Tip:** While you are viewing a form, you can activate the Element Inspector from the [Customization Menu](AU_CustomizationMenu.md). If you need to activate the Element Inspector for a pop-up panel, dialog box, or other UI element for which the **Customization** menu is unavailable, you can press Control+Alt.
 
-After the Element Inspector is activated, the ![](Images/AU_ElementInspector_help_cursor.png) cursor indicates that you can select a UI element to inspect it. If you click an element, the Element Inspector opens the [Element Properties Dialog Box](AU_ElementInspector.md#_8ce780b0-243f-480c-8b4c-ed6431116e3f) for the element.
 
 **Tip:** In the Modern UI, you can use the [Element Inspector](AU_ElementInspector.md) tool if you have one of the following:
 
 -   The *Customizer*, *Administrator*, or *ReportDesigner* role
 -   At least *View Only* access rights to the [Generic Inquiry](SM_20_80_00.md) \(SM208000\), [Import Scenarios](SM_20_60_25.md), or [Export Scenarios](SM_20_70_25.md) \(SM207025\) form
 
-## Element Properties Dialog Box {#_8ce780b0-243f-480c-8b4c-ed6431116e3f .section}
+## Element Properties Dialog Box
 
 The Element Inspector opens the **Element Properties** dialog box when you have selected a UI element to inspect. The dialog box contains the following elements.
 
-|Element|Description|
-|-------|-----------|
-|**Control Type**|The type of the inspected UI element.|
-|**Data Class**|The name of the DAC to which the field for the inspected element belongs.|
-|**Data Field**|The string value of the DataField property of the inspected UI element. \(It corresponds to the name of the field in the DAC.\)|
-|**View Name**|The name of the data view that provides data for the inspected UI element.|
-|**Business Logic**|The name of the BLC bound to the form.|
-|**Description**|The description of the inspected UI element. When you click *More*, the system opens a pane that partially overlaps the working area of the screen and contains the complete element's description.|
-|**Action Name**|The name of the action of the inspected toolbar button or menu command.|
-|The dialog box has the following buttons.|
-|**Drop-Down Values**|Opens the **Drop-Down Values** dialog box, which lists all possible values of the control and the corresponding values that are saved to the database.
+<table id="_53a77093-89ba-4d11-89ab-676d37e7e8a0"><thead><tr><th>
+
+Element
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+**Control Type**
+
+</td><td>
+
+The type of the inspected UI element.
+
+</td></tr><tr><td>
+
+**Data Class**
+
+</td><td>
+
+The name of the DAC to which the field for the inspected element belongs.
+
+</td></tr><tr><td>
+
+**Data Field**
+
+</td><td>
+
+The string value of the DataField property of the inspected UI element. \(It corresponds to the name of the field in the DAC.\)
+
+</td></tr><tr><td>
+
+**View Name**
+
+</td><td>
+
+The name of the data view that provides data for the inspected UI element.
+
+</td></tr><tr><td>
+
+**Business Logic**
+
+</td><td>
+
+The name of the BLC bound to the form.
+
+</td></tr><tr><td>
+
+**Description**
+
+</td><td>
+
+The description of the inspected UI element. When you click *More*, the system opens a pane that partially overlaps the working area of the screen and contains the complete element's description.
+
+</td></tr><tr><td>
+
+**Action Name**
+
+</td><td>
+
+The name of the action of the inspected toolbar button or menu command.
+
+</td></tr><tr><td colspan="2">
+
+The dialog box has the following buttons.
+
+</td></tr><tr><td>
+
+**Drop-Down Values**
+
+</td><td>
+
+Opens the **Drop-Down Values** dialog box, which lists all possible values of the control and the corresponding values that are saved to the database.
 
  **Tip:** The button is displayed only if you have selected a drop-down control.
 
-|
-|**Customize**|Launches the Customization Project Editor, which opens on the [Screen Editor](AU_20_45_20.md)page for the form that contains the inspected element.
+</td></tr><tr><td>
+
+**Customize**
+
+</td><td>
+
+Launches the Customization Project Editor, which opens on the [Screen Editor](AU_20_45_20.md)page for the form that contains the inspected element.
 
  This button appears if you have the *Customizer* role.
 
-|
-|**Actions**|Opens the **Actions** menu with the following commands:
+</td></tr><tr><td>
+
+**Actions**
+
+</td><td>
+
+Opens the **Actions** menu with the following commands:
 
  -   **Customize Business Logic**: Creates a graph extension template for the BLC that is bound to the form, adds the template code to the customization project, and opens the Customization Project Editor on the [Code Editor](AU_20_40_00_CodeEditor.md) page, which loads the BLC extension template so that you can edit it.
 -   **Customize Data Fields**:
@@ -58,21 +131,61 @@ Opens the Customization Project Editor on the [Data Class](AU_DataClassEditor.md
 
  This button appears if you have the *Customizer* role.
 
-|
-|**Cancel**|Cancels the inspection of the element and closes the dialog box.|
+</td></tr><tr><td>
+
+**Cancel**
+
+</td><td>
+
+Cancels the inspection of the element and closes the dialog box.
+
+</td></tr></tbody>
+</table>
 
 **Tip:** If you open the Customization Project Editor or the [Source Code](https://help-2022r2.acumatica.com/(W(387))/Wiki/ShowWiki.aspx?wikiname=HelpRoot_Dev_CustomizationToolReference&PageID=2e58bb02-40c0-47c6-8cea-78607cccc4e1) browser, you can access any source code of the website—not only the source code of the inspected element and the current form, DAC, and BLC.
 
-## Drop-Down Values Dialog Box { .section}
+## Drop-Down Values Dialog Box
 
 In the dialog box, you can view all possible values of the selected drop-down control and the corresponding values that are saved to the database. For details on the internal names of drop-down control values, see [Combo Box: Configuration](../DeveloperGuide/UIDevRef_ComboBox_Configuration.md).
 
 You open this dialog box by clicking **Drop-Down Values** in the **Element Properties** dialog box. The dialog box contains the following elements.
 
-|Element|Description|
-|-------|-----------|
-|**Value**|The internal value of the drop-down control that is saved to the database.|
-|**Description**|The display name that will be shown in the drop-down box for the selected field.|
-|The dialog box has the following button.|
-|**Close**|Closes the dialog box.|
+<table id="_e9543b47-27c3-41b5-a849-96095ed51105"><thead><tr><th>
+
+Element
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+**Value**
+
+</td><td>
+
+The internal value of the drop-down control that is saved to the database.
+
+</td></tr><tr><td>
+
+**Description**
+
+</td><td>
+
+The display name that will be shown in the drop-down box for the selected field.
+
+</td></tr><tr><td colspan="2">
+
+The dialog box has the following button.
+
+</td></tr><tr><td>
+
+**Close**
+
+</td><td>
+
+Closes the dialog box.
+
+</td></tr></tbody>
+</table>
 

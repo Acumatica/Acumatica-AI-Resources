@@ -1,15 +1,15 @@
-# Inventory Planning Configuration: Configuration Prerequisites {#_83854b49-8475-4d75-9dad-d8122cf9b3ca .concept}
+# Inventory Planning Configuration: Configuration Prerequisites
 
 Before starting to configure the inventory planning functionality, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, one of the following features must be enabled:
 
 -   *Distribution Requirements Planning* if your company uses inventory planning
 -   *Material Requirements Planning* if your company manufactures items and uses a master production schedule and inventory planning
 
-## Configuring the System { .section}
+## Configuring the System
 
 You need to make sure that following tasks have been performed in Acumatica ERP before you begin to implement inventory planning:
 

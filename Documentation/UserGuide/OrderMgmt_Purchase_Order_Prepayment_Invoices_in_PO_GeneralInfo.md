@@ -1,10 +1,10 @@
-# Prepayment Invoices: General Information {#_b7d2ff2d-e00b-4f31-a328-8b07a2eb9461 .concept}
+# Prepayment Invoices: General Information
 
 This topic provides general information about prepayment invoices in purchase orders and includes a business scenario and a workflow diagram.
 
 **Attention:** This functionality is available only if the *VAT Recognition on AP Prepayments* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 A company purchases equipment from a vendor and is required to pay a 50% deposit before the vendor ships the items. The purchase is recorded by creating a purchase order for the full amount.
 
@@ -12,13 +12,12 @@ Because local tax regulations require VAT to be recognized when a prepayment is 
 
 Later, when the vendor issues the final bill, the prepayment invoice is applied to the released bill to reduce the balance. In the bill, the system recalculates taxes based on the current tax rate and reposts the VAT previously recognized at prepayment to the tax reporting period of the AP bill.
 
-## Workflow of a Prepayment Invoice for a Partial Purchase Order Amount {#section_vv2_1y4_y4b .section}
+## Workflow of a Prepayment Invoice for a Partial Purchase Order Amount
 
 The following diagram shows the workflow in which a prepayment invoice is created for a partial purchase order amount, paid, and automatically applied to a created and released AP bill. The application is then automatically released, the AP bill balance is reduced by the prepayment amount, and the remaining balance is paid.
 
 **Tip:** You can create a prepayment invoice for the full purchase order amount. This section describes the scenario in which a prepayment invoice is created for a partial purchase order amount.
 
-![](Images/diag_OrderMgmt_Prepayment_Invoice_in_PO_Processing.png)
 
 To process a vendor prepayment for which taxes must be recognized and posted at the time of prepayment, you create and process a prepayment invoice.
 

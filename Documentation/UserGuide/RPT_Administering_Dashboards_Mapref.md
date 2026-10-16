@@ -1,4 +1,4 @@
-# Administering Dashboards {#_324b9ad1-6481-4633-8d45-f520f054dfe7 .concept}
+# Administering Dashboards
 
 In Acumatica ERP, a dashboard is a form to which you can add a collection of widgets that give you needed information at a glance.
 

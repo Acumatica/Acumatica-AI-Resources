@@ -1,4 +1,4 @@
-# To Change the Type of a Box {#_a72a595c-f3ee-41e8-80d5-ffe306974ff5 .concept}
+# To Change the Type of a Box
 
 For a data field, you can create a control of any type that is supported in Acumatica ERP. However to avoid issues with rendering controls and processing control values, you have to have an appropriate control for each data field. Therefore, if you have changed the type of a data field, you should recreate all the controls that exist on Acumatica ERP forms for this field.
 
@@ -25,7 +25,6 @@ To change the type of a box in a container on a form and to include this modific
 5.  On the tab item, click the **All**, **Visible**, or **Custom** filter for the fields provided by the data view selected in the **Data View** box to view the appropriate field list.
 6.  Find the required data field in the **Field Name** column of the list and select the check box for the field in the unlabeled first column, as the following screenshot shows.
 
-    ![](images/CG_GL_UI_PXForm_AddBox.png "Selecting a data field for which a box is to be created")
 
     For each data field in the list, the Screen Editor presets the most appropriate control type. However you can select another control type to be created for a field.
 

@@ -1,14 +1,14 @@
-# Quotes: To Create and Process a Quote {#_28ab70c5-1532-4ae3-b541-619748c5ce67 .task}
+# Quotes: To Create and Process a Quote
 
 This activity will walk you through the process of creating and confirming a quote in Acumatica ERP, and then converting the quote to a service order.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that the *COFFEESHOP - FourStar Coffee &amp; Sweets Shop* customer has requested particular services from the SweetLife Service and Equipment Sales Center. Acting as a service manager \(Maia Davis\) of the company, you will create a quote in the Acumatica ERP. Then you will generate the quote and review a printable version of it. Finally, after the customer has approved the quote, you will confirm the quote in the system and convert it to a service order.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -23,11 +23,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   On the [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form, for the *TRAINING* non-stock item, the *Service* type has been selected, and the *Time* billing rule has been specified.
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *JUICER15* and *BLADE20* items have been created.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Service Orders](FS_30_01_00.md) \(FS300100\) form, you will create a quote for a one-hour repair service by creating a service order of the *QTE* type. You will also add to the quote the inventory items needed by the customer and see how the order total is updated. You will review the print-friendly form of the quote. On the [Service Orders](FS_30_01_00.md) form, you will then copy the service order of the type with the *Quote* behavior to a regular service order.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -35,7 +35,7 @@ Before you start this activity, do the following:
 2.  In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date *1/30/2026*. For simplicity, you will use this business date to create and process all documents in this activity.
 3.  After signing in, make sure that the *Service Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form.
 
-## Step 1: Creating and Reviewing the Quote { .section}
+## Step 1: Creating and Reviewing the Quote
 
 You will create a quote that specifies the cost of the service and generate a print-friendly version of the quote for the customer’s review. Do the following:
 
@@ -70,16 +70,14 @@ You will create a quote that specifies the cost of the service and generate a pr
 
     This total is the sum of the unit prices of all lines of the **Details** tab.
 
-    ![](Images/ServMgmt_Service_Order_Quotes.png "The service order total")
 
 10. On the More menu \(under **Printing and Emailing**\), click **Print Service Order**.
 
     A print-friendly version of the service quote is opened in a new window, as shown below, and you can print it, if needed. You can also convert the quote to PDF or XLS format, or send it to the customer via email for review.
 
-    ![](Images/ServMgmt_Service_Order_Quote_Printed_Form.png "The print-friendly quote")
 
 
-## Step 2: Confirming the Quote { .section}
+## Step 2: Confirming the Quote
 
 When the customer has agreed to have the services at the quoted costs, you confirm the quote in the system by doing the following:
 
@@ -88,7 +86,7 @@ When the customer has agreed to have the services at the quoted costs, you confi
 
 Notice that the status of the service order changed to *Confirmed*.
 
-## Step 3: Copying the Quote to a Service Order { .section}
+## Step 3: Copying the Quote to a Service Order
 
 Once the quote is confirmed, you should convert it to a regular service order \(that is, copy the quote to a service order\). Do the following:
 

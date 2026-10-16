@@ -1,12 +1,12 @@
-# To Add Remittance Information to a Cash Account {#_5961739b-82ed-4c77-8095-3535bfe31f11 .task}
+# To Add Remittance Information to a Cash Account
 
 You use the [Cash Accounts](CA_20_20_00.md) \(CA202000\) form to fill in your remittance information for each cash account that you plan to use as a source of payments to vendors through the ACH network.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Make sure that you have on hand the correct list of cash accounts you plan to use as sources of payments to vendors through the ACH network.
 
-## To Add Remittance Information for a Cash Account { .section}
+## To Add Remittance Information for a Cash Account
 
 1.  Open the [Cash Accounts](CA_20_20_00.md) \(CA202000\) form.
 2.  In the **Cash Account** box, select the identifier of the cash account.

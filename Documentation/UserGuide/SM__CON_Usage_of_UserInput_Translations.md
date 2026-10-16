@@ -1,10 +1,10 @@
-# Use of User Input Translations {#_3a886bbf-f41b-4386-a224-0a9d9bfa32bc .concept}
+# Use of User Input Translations
 
 Starting with Acumatica ERP 6, you can translate user input for multiple text boxes in the system. That is, you can maintain your data in multiple languages. These data translations can later be used in printed reports and documents.
 
 In this topic, you will read about how to print reports and documents, how to send notifications in the language preferred by the customer or vendor, and how the system searches for translations.
 
-## Printing Localized Reports {#section_qbt_bkm_jw .section}
+## Printing Localized Reports
 
 If you have enabled multilingual user input and provided translations for the fields that supply data to a report, you can prepare a fully localized report—that is, a report whose strings \(headers and footers\) and data are localized. By default, the system prepares a report in the language associated with the locale you used to sign in. You can override this locale by specifying another locale on a report form in the **Locale** box.
 
@@ -31,7 +31,7 @@ For example, suppose that your company utilizes two locales: `en-US` and `fr-CA`
 
 Further suppose that a user who prefers working under the English locale needs to prepare a report in French for his or her French-speaking manager. The user opens the report form, selects the French locale in the **Locale** box, and runs the report. The system prepares the report in French, regardless of the locale the user is currently signed in with.
 
-## Printing Localized Documents { .section}
+## Printing Localized Documents
 
 You can associate a locale with a customer or vendor. If you do, with the enabled multilingual user input, when you create a document for this customer or vendor and add a document line with an inventory item, the system does the following:
 
@@ -57,7 +57,7 @@ For example, suppose that a customer wants to receive sales orders in French. Yo
 
 Also, you can print a document by using the corresponding report form. On the report form, you select the reference number of the document, specify locale of the customer or vendor in the **Locale** box, and run the report. The system opens the ready-to-print document in the language of the locale you have specified. For details, see the previous section in this topic.
 
-## Sending Localized Notifications { .section}
+## Sending Localized Notifications
 
 Multilingual user input can also be used in correspondence you send to your customers and vendors by means of Acumatica ERP mailings, which are described in detail in [Mailings for Customers: General Information](Finance_PredefinedMailings_Customers_GeneralInfo.md). Starting with Acumatica ERP 6, you can specify a locale for a notification template. The system uses the assigned locale to apply region-specific settings to the text, dates, and digits in the body of the notification template. The system also retrieves the translations of the values needed to replace the placeholders in the body according to the language of the locale.
 
@@ -83,7 +83,7 @@ Once you have performed these configuration steps, when you initiate emailing by
 
 As a result, customers and vendors receive notifications in their preferred languages.
 
-## Troubleshooting User Input Translations {#_847db9a7-b760-4bef-a7b2-8ebeb3e05ff3 .section}
+## Troubleshooting User Input Translations
 
 Once you have entered translations for multiple boxes that have multilanguage support and you start using these translations in documents or reports, you may realize that some translations are missing. In most cases, this means that you have not entered a translation, and the system is displaying the value entered for the default language or another alternative language. The system searches for a translation as follows:
 

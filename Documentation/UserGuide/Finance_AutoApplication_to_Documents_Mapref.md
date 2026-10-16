@@ -1,4 +1,4 @@
-# Auto-Applying Payments to Documents {#_b3170b73-286f-4111-803c-02f9c0c9efeb .concept}
+# Auto-Applying Payments to Documents
 
 In this chapter, you will find general information on how to configure automatic application of open payments and prepayments to AR documents, a checklist for system implementation, and an activity that describes how to perform automatic payment application.
 

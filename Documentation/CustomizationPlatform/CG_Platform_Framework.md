@@ -1,4 +1,4 @@
-# Customization Framework {#_8a86d98c-2852-447b-8dc2-1ab3a80f12a6 .concept}
+# Customization Framework
 
 The programming framework of the Acumatica Customization Platform, like Acumatica Framework, is intended for developers experienced in C\#.NET. Because the application objects of Acumatica ERP are built on top of Acumatica Framework, the developers need to learn both the programming frameworks to be able to effectively develop quality customizations.
 
@@ -11,13 +11,13 @@ When you have to customize an instance of Acumatica ERP, first you must determin
 
 By using the Acumatica Customization Platform, you can create or customize each of the object types listed above.
 
-## Customization of ASPX Pages { .section}
+## Customization of ASPX Pages
 
 To change the layout and behavior of an Acumatica ERP form, you must customize the corresponding ASPX page. However for customizing an ASPX page, the platform uses an approach that does not require you to change the original ASPX code of the Acumatica ERP form. Instead, the platform can apply the `.aspx` file with the same name from a special subfolder within the website folder, if this file exists. At run time, while the platform is processing a request to open a form, the platform first tries to find the needed `.aspx` file inside this subfolder to use it instead of the original file. If the file with customized ASPX code is found, the platform opens the customized form. Otherwise, the original form is opened.
 
 To cancel a customization of a page, you need only to delete the file with the appropriate name from the subfolder.
 
-## Customization of Application Classes \(BLCs and DACs\) { .section}
+## Customization of Application Classes \(BLCs and DACs\)
 
 To provide the ability to customize the functionality or business logic of a form, the platform uses the technology based on class extensions. With this technology, to customize a BLC or DAC, the platform does not change the original code of Acumatica ERP. Instead, the platform uses an additional C\# file for each class extension.
 
@@ -27,7 +27,7 @@ To cancel a customization of business logic, you need only to delete the file th
 
 This approach makes it easy to apply and cancel any customization of business logic in Acumatica ERP.
 
-## Customization of the Database Schema { .section}
+## Customization of the Database Schema
 
 The platform provides the following capabilities that you can use to customize the database schema:
 

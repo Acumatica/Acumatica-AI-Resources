@@ -1,4 +1,4 @@
-# Detecting Anomalies in Generic Inquiries {#_09853270-2f55-4e95-863e-bdcb52b27092 .concept}
+# Detecting Anomalies in Generic Inquiries
 
 In Acumatica ERP, you can configure the system to detect numeric anomalies in generic inquiries. You can also set up notifications so that users can receive emails when the system detects anomalies in the records that the generic inquiry displays.
 

@@ -1,8 +1,8 @@
-# Order Synchronization: Import of Returns {#_d61181f5-1fed-4c34-82e9-38c7195ad512 .concept}
+# Order Synchronization: Import of Returns
 
 To track information about returns and refunds, you can import returns along with seller-fulfilled and marketplace-fulfilled orders from Amazon to Acumatica ERP. The details of these returns are available in the return reports provided by Amazon.
 
-## Configuration of the Import of Seller-Fulfilled Returns { .section}
+## Configuration of the Import of Seller-Fulfilled Returns
 
 To set up the synchronization of seller-fulfilled returns, you perform the following general steps on the [Amazon Stores](BC_20_10_20.md) \(BC201020\) form:
 
@@ -33,7 +33,7 @@ To set up the synchronization of seller-fulfilled returns, you perform the follo
     If you don't want to import a particular refund fee type to Acumatica ERP, you leave that fee type inactive.
 
 
-## Configuration of the Import of Marketplace-Fulfilled Returns { .section}
+## Configuration of the Import of Marketplace-Fulfilled Returns
 
 To set up the synchronization of marketplace-fulfilled returns, you perform the following general steps on the [Amazon Stores](BC_20_10_20.md) \(BC201020\) form:
 
@@ -64,7 +64,7 @@ To set up the synchronization of marketplace-fulfilled returns, you perform the 
     If you don't want to import a particular refund fee type to Acumatica ERP, you leave that fee type inactive.
 
 
-## Synchronization of Returns { .section}
+## Synchronization of Returns
 
 Returns are imported into Acumatica ERP during the synchronization of the *Seller-Fulfilled Refund* and *Marketplace-Fulfilled Refund* entities. A return can be imported only after the processing of the refund is completed in the Amazon seller account—that is, only if the refund has the *Prior refund: Applied* or *Prior refund: Pending* status.
 
@@ -88,13 +88,13 @@ Also, on the **Details** tab of the [Sales Orders](SO_30_10_00.md) form, the sys
 
 The total of all promotion amounts related to the return order is added to the **Document Discount** box in the Summary area.
 
-## Synchronization of Refunds { .section}
+## Synchronization of Refunds
 
 Along with a return order, the connector imports payments with the refunded amounts related to the Amazon order. All partial refunds are imported within a single sync record. The system creates a separate payment of the *Refund* type on the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form for each refund payment that has a unique posted date. The external reference number for these refund payments is also *\{Order External ID\};\{Posted Date\}*.
 
 On the **Payments** tab of the [Sales Orders](SO_30_10_00.md) form, the system adds the imported refund payments for the return order. On the **Charges** tab of the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, this refund payment has refund fees grouped by the entry type they are mapped to on the **Payments** tab \(**Payment Fees** table\) of the [Amazon Stores](BC_20_10_20.md) form. Only one line is displayed per entry type. These refund fees cannot be modified.
 
-## Limitations of Importing Returns and Refunds { .section}
+## Limitations of Importing Returns and Refunds
 
 The following limitations apply to the import of returns and refunds from Amazon:
 

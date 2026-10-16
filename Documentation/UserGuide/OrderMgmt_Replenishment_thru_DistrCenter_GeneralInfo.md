@@ -1,19 +1,19 @@
-# Replenishment Through a Distribution Center: General Information {#_35b53494-2d65-4f16-a0c8-405edbcde591 .concept}
+# Replenishment Through a Distribution Center: General Information
 
 The replenishment functionality in Acumatica ERP can accommodate various ways of replenishing stock items. You can maintain a particular quantity of stock items in a destination warehouse by purchasing items that are first received at a source warehouse and then transferred to the destination warehouse. The company may use this source warehouse as a distribution center.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
 -   Become familiar with the general workflow of item replenishment through a distribution center
 -   Replenish stock by transferring items from a distribution center to the destination warehouse
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 You perform replenishment through a warehouse that functions as a distribution center if your company performs consolidated purchasing to this warehouse and other warehouses are replenished from the distribution center.
 
-## Replenishment Through a Distribution Center in Acumatica ERP { .section}
+## Replenishment Through a Distribution Center in Acumatica ERP
 
 You can use the functionality of replenishment through a distribution center if the *Inventory Replenishment* and *Multiple Warehouses* features are enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
@@ -29,7 +29,7 @@ For details about the configuration of replenishment and the calculation of repl
 
 On the [Prepare Replenishment](IN_50_80_00.md) form, the quantity to process is calculated in the base unit of measure \(UOM\). On the [Create Purchase Orders](PO_50_50_00.md) \(IN505000\) and [Create Transfer Orders](SO_50_90_00.md) \(SO509000\) forms, the quantity specified in the **Quantity** column is recalculated in the purchase UOM and displayed in the **UOM** column. For example, if ten stock items should be purchased in one box, then the quantity of ten UOMs is converted to one box to be purchased.
 
-## General Steps of Replenishment Through a Distribution Center { .section}
+## General Steps of Replenishment Through a Distribution Center
 
 To replenish stock items by purchasing items that are first received at a distribution center and transferring the items to the destination warehouse, you perform the following general steps:
 
@@ -45,13 +45,11 @@ To replenish stock items by purchasing items that are first received at a distri
     1.  You create and release a transfer receipt on the [Purchase Receipts](PO_30_20_00.md) form.
     2.  The system creates and releases the related inventory receipt on the [Receipts](IN_30_10_00.md) form.
 
-## Workflow of Replenishment Through a Distribution Center {#section_vv2_1y4_y4b .section}
+## Workflow of Replenishment Through a Distribution Center
 
 A general workflow of replenishment by purchase though a distribution center involves the steps and generated documents shown in the following diagrams.
 
-![](Images/diag_OrderMgmt_Replenishment_Through_DistrCenter_Part1.png)
 
-![](Images/diag_OrderMgmt_Replenishment_Through_DistrCenter_Part2.png)
 
 **Parent topic:**[Replenishing Inventory Through a Distribution Center](../UserGuide/OrderMgmt_Replenishment_thru_DistrCenter_Mapref.md)
 

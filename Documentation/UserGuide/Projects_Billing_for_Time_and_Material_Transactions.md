@@ -1,12 +1,12 @@
-# Time and Material Billing: Generated Transactions {#_ebfbc859-372a-4d5d-9a8b-5ad6225aaa2c .concept}
+# Time and Material Billing: Generated Transactions
 
 The following sections describe the transactions that are related to time and material billing.
 
-## Transactions Related to Time and Material Billing { .section}
+## Transactions Related to Time and Material Billing
 
 The release of a pro forma invoice does not generate general ledger transactions or project transactions directly. When you release the pro forma invoice, the system creates a corresponding accounts receivable invoice with all the information copied from the pro forma invoice. On release of the accounts receivable invoice, the system generates the general ledger transactions and project transactions. For more information about these transactions, see [Pro Forma Invoices: Generated Transactions](Projects_Pro_Forma_Invoices_Transactions.md).
 
-## Project Transactions Generated for an Unbilled Remainder { .section}
+## Project Transactions Generated for an Unbilled Remainder
 
 If an amount has been postponed in a pro forma invoice and the corresponding accounts receivable invoice \(which contains the line from which this postponed amount originates\) is released, the system generates the project transaction shown in the following table.
 

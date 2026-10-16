@@ -1,4 +1,4 @@
-# Managing Advanced Filters {#_c621d79a-274d-4b72-a699-0e92d78a7b23 .concept}
+# Managing Advanced Filters
 
 In Acumatica ERP, you can create advanced filters for mass processing, inquiry, and generic inquiry forms to filter the data in these forms. Once you create an advanced filter for a particular form, it’s listed in the Filter List drop-down menu, both in the current user session and during future sessions. You can create advanced filters for your personal use; if you have the appropriate access rights, you can share them with other users.
 

@@ -1,4 +1,4 @@
-# Sales Order Types: To Activate the RC Order Type {#_034b102a-09be-4c75-acbf-e4993ffd4ed5 .task}
+# Sales Order Types: To Activate the RC Order Type
 
 In this implementation activity, you will learn how to activate the *RC* order type.
 
@@ -8,16 +8,16 @@ The following activity is based on the *U100 Basic Company* dataset. If you are 
 
 If you want to perform this activity in an out-of-the-box company instead of creating a tenant with the dataset, you need to prepare a company with the basic settings, as described in [Company Without Branches: General Information](../Shared/../ImplementationGuide/config_Basic_Company_GeneralInfo.md).
 
-## Story { .section}
+## Story
 
 Suppose that you, as the implementation manager, need to configure the processing of customer returns for credit. Thus, you need to activate the *RC* order type in the system.
 
-## System Preparation { .section}
+## System Preparation
 
 1.  In a new tenant, prepare the company with basic settings as described in [Company Without Branches: General Information](config_Basic_Company_GeneralInfo.md).
 2.  Launch the Acumatica ERP website, and sign in to the prepared company as *admin*.
 
-## Step: Activating an Order Type { .section}
+## Step: Activating an Order Type
 
 1.  Open the [Order Types](../UserGuide/SO_20_10_00.md) \(SO201000\) form.
 2.  Open the *RC* order type.

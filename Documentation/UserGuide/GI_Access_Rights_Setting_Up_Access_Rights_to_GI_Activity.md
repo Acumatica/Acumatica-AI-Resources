@@ -1,10 +1,10 @@
-# Access Rights to Generic Inquiries: To Define Access Rights to a Generic Inquiry {#_ad31dad5-a1c1-4cc8-aa5d-cc7f6fb3eb0d .task}
+# Access Rights to Generic Inquiries: To Define Access Rights to a Generic Inquiry
 
 In this activity, you will learn how to specify access rights to a generic inquiry that has been created on the [Access Rights by Screen](SM_20_10_20.md) \(SM201020\) form.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a system administrator who manages user access to Acumatica ERP in your company. A financial supervisor of your company has requested that you allow users who are working with the *SweetLife Store* branch to view information on the Expected Receipts \(GI000081\) inquiry form, which is the predefined generic inquiry form with the *DB-ARexpectedReceipts* inquiry title and the *Expected Receipts* site map title specified on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form.
 
@@ -12,17 +12,17 @@ For the *DB-ARexpectedReceipts* generic inquiry, you have reviewed the inquiry s
 
 You have reviewed the roles that are assigned to the employees of the branch and determined that to give these employees the ability to view information on the form, you need to assign the *View Only* level of access rights to the *Branch Retail* role.
 
-## Process Overview { .section}
+## Process Overview
 
 You will use the [Access Rights by Screen](SM_20_10_20.md) \(SM201020\) form to select the *DB-ARexpectedReceipts* inquiry form and then assign the *View Only* level of access rights to for the *Branch Retail* role. Then you will sign in to Acumatica ERP with credentials of a user with the *Branch Retail* role \(the username is *rains*\), open the Expected Receipts \(GI000081\) inquiry form, and make sure that you can view information on the form, to verify the level of access rights.
 
-## System Preparation { .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to a tenant with the *U100* dataset preloaded as system administrator Kimberly Gibbs. You should sign in by using the *gibbs* username and the *123* password.
 
 **Tip:** The *gibbs* user is assigned the *Administrator* role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards.
 
-## Step 1: Defining Access Rights { .section}
+## Step 1: Defining Access Rights
 
 To set up the *View Only* level of access rights to the *Expected Receipts* inquiry form, do the following:
 
@@ -31,7 +31,7 @@ To set up the *View Only* level of access rights to the *Expected Receipts* inqu
 3.  In the right pane, in the row with the *Branch Retail* role, select *View Only* in the **Access Rights** column.
 4.  Save your changes.
 
-## Step 2: Verifying Access to the Form for a User Assigned to the Role { .section}
+## Step 2: Verifying Access to the Form for a User Assigned to the Role
 
 To verify that a user with the *Branch Retail* role has the *View Only* level of access rights to the Expected Receipts \(GI000081\) inquiry form, do the following:
 

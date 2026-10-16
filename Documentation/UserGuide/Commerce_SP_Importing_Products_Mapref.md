@@ -1,4 +1,4 @@
-# Importing Products {#_3760a2e3-62ee-9517-8c53-342f3981c8d8 .concept}
+# Importing Products
 
 In the topics of this chapter, you will read about product import from the Shopify store to Acumatica ERP.
 

@@ -1,8 +1,8 @@
-# To Resume Asset Depreciation {#_ef68a77b-b6bd-4a1e-9ace-2be3bbaac2ee .task}
+# To Resume Asset Depreciation
 
 You can reinstate the depreciation of an asset by using the [Fixed Assets](FA_30_30_00.md) form.
 
-## To Reinstate Asset Depreciation {#section_gtf_ljv_vxb .section}
+## To Reinstate Asset Depreciation
 
 1.  Open the [Fixed Assets](FA_30_30_00.md) \(FA303000\) form.
 2.  In the **Asset ID** box, select the asset for which depreciation has been suspended.

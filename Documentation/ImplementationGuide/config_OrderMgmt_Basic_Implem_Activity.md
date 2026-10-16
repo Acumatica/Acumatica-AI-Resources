@@ -1,12 +1,12 @@
-# Order Management Basic Configuration: Implementation Activity {#_e151bbec-f091-4d9b-9868-f05c25b87696 .task}
+# Order Management Basic Configuration: Implementation Activity
 
 You perform the following implementation activity to prepare the system to support the processing of sales and purchase orders with non-stock items.
 
-## Story { .section}
+## Story
 
 Suppose that you, as an implementation manager, need to configure system for processing sales and purchases of non-stock items through orders.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start configuring the basic order management functionality, you perform the following instructions:
 
@@ -14,7 +14,7 @@ Before you start configuring the basic order management functionality, you perfo
 2.  On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, enable the *Inventory and Order Management* feature.
 3.  On the [Order Types](../UserGuide/SO_20_10_00.md) \(SO201000\) form, activate at least the *IN* order type, as described in [Sales Order Types: To Activate the IN Order Type](config_Sales_Order_Types_To_Activate_IN_Order_Type.md).
 
-## Basic Order Management Configuration { .section}
+## Basic Order Management Configuration
 
 To perform the basic configuration of purchase order and sales order functionality, proceed as follows:
 

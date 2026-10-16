@@ -1,8 +1,8 @@
-# To Create a Rate Type {#_fc67d767-2d11-4049-b853-682dfc54b44c .task}
+# To Create a Rate Type
 
 You use the [Currency Rate Types](../UserGuide/CM_20_10_00.md) \(CM201000\) form to create a rate type in Acumatica ERP.
 
-## To Create a Rate Type { .section}
+## To Create a Rate Type
 
 1.  Open the [Currency Rate Types](../UserGuide/CM_20_10_00.md) \(CM201000\) form.
 2.  On the table toolbar, click **Add Row**.

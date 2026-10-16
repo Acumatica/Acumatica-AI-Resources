@@ -1,10 +1,10 @@
-# Deposit Configuration Example {#_8cdada2a-3d4b-409b-94e1-4e599044c3e4 .concept}
+# Deposit Configuration Example
 
 Suppose that your company works with a processing center. The processing center collects credit card payments from your customers and at the end of the month transfers collected amounts to your bank account. The processing center accepts payments made by using Visa and MasterCard. The processing center charges 2.9% per transaction made by using Visa and 3% per transaction made by using MasterCard. The bank charges $0.20 per $100 of the amount deposited by the processing center.
 
 In this topic, you will read about how to configure deposit processing according the example, process the created deposit and view the generated transactions.
 
-## Configuration of Deposit Processing {#section_o2d_kjv_vxb .section}
+## Configuration of Deposit Processing
 
 In Acumatica ERP, you create the following entities:
 
@@ -21,7 +21,7 @@ Then you associate entry types with the bank account on the **Entry Types** tab 
 |Clearing Cash Account|Visa|PROCCHAR|2.9|
 |Clearing Cash Account|MasterCard|PROCCHAR|3.0|
 
-## Deposit Creation {#section_r2d_kjv_vxb .section}
+## Deposit Creation
 
 Once the configuration is finished, you use the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form to record credit card payments processed by the processing center to the Clearing Cash Account. Suppose you have recorded the payments shown below.
 
@@ -43,7 +43,7 @@ You use the [Bank Deposits](CA_30_50_00.md) \(CA305000\) form to create a deposi
 
 In the Summary area of the [Bank Deposits](CA_30_50_00.md) form, you can see that the deposit total is $710 and the total amount transferred to the bank is $689.16. You save the deposit with the *Balanced* status and wait until the bank notifies you that the deposit is processed. You can wait for a bank statement or you can view the list of bank transactions online if the bank provides such a service.
 
-## Deposit Release {#section_w2d_kjv_vxb .section}
+## Deposit Release
 
 Suppose that the bank has confirmed the deposit processing and you have received a statement. You open the saved deposit and add the bank charges applied \(on the **Charges** tab of the [Bank Deposits](CA_30_50_00.md) form\). In our example the charge you add has the following settings.
 
@@ -66,5 +66,5 @@ Once bank charges are added, you compare the deposit in the system with the conf
 |Fees and Charges|7.50|0.00|
 |Fees and Charges|1.40|0.00|
 
-**Parent topic:**[Preparation of Deposits](../UserGuide/CA__CON_Preparation_of_Deposits.md)
+**Parent topic:**[Preparation of Bank Deposits](../UserGuide/CA__CON_Preparation_of_Deposits.md)
 

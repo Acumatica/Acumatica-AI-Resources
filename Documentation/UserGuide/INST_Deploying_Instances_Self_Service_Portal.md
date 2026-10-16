@@ -1,4 +1,4 @@
-# Instance Deployment: Deploying the Acumatica Self-Service Portal {#_723d48bf-47b9-4157-84f0-b32a0cecdda8 .concept}
+# Instance Deployment: Deploying the Acumatica Self-Service Portal
 
 The Acumatica Self-Service Portal is designed to be a site where your customers can view all the relevant information about their interactions with your company as a vendor and perform common activities online.
 

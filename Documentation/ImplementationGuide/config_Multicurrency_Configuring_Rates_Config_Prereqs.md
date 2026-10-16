@@ -1,12 +1,12 @@
-# Configuration of Rate Types and Rates: Configuration Prerequisites {#_cf16ad8b-c8e5-40e1-9667-c2eac4aeca87 .concept}
+# Configuration of Rate Types and Rates: Configuration Prerequisites
 
 Before starting to configure rates and current rates, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Enabling the Needed Features { .section}
+## Enabling the Needed Features
 
 On the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) \(CS100000\) form, the *Multicurrency Accounting* feature must be enabled.
 
-## Configuring the System { .section}
+## Configuring the System
 
 Before you create rates in Acumatica ERP, you need to make sure that the following settings have been made in the system:
 

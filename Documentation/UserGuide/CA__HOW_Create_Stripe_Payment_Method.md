@@ -1,14 +1,14 @@
-# To Create a Stripe Payment Method {#_30fe913d-e2b0-4bbd-aa48-f92eff939748 .task}
+# To Create a Stripe Payment Method
 
 You use the [Payment Methods](CA_20_40_00.md) \(CA204000\) form to create a payment method. This procedure describes how you create a payment method that is used as a template for configuring customer payment methods—credit or debit cards.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 You should review the cash accounts you have defined in the system, and decide which one you are going to use to record customer payments made with the payment method you are adding.
 
 Make sure that you have configured the processing center and established and tested the connection to the Stripe payment gateway. For details, see [To Create the Stripe Processing Center](CA__HOW_Create_Stripe_Processing_Center.md).
 
-## To Add a Payment Method for Stripe { .section}
+## To Add a Payment Method for Stripe
 
 1.  Open the [Payment Methods](CA_20_40_00.md) \(CA204000\) form.
 2.  On the form toolbar, click **Add New Record**.

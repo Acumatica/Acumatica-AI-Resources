@@ -1,4 +1,4 @@
-# Specific Widgets: To Register Your Acumatica ERP Instance for Power BI {#_0b174aab-ae96-4b7d-aa8d-df83bdb06292 .task}
+# Specific Widgets: To Register Your Acumatica ERP Instance for Power BI
 
 To embed a Power BI tile on a dashboard in Acumatica ERP, you should first register your Acumatica ERP instance on Microsoft Azure for Power BI to obtain the client ID and client secret. When you have obtained these values for your Acumatica ERP instance, you can add a Power BI tile on a dashboard. For information on adding Power BI tile widgets, see [Specific Widgets: Power BI Tile Widgets](DB__con_PowerBI.md).
 
@@ -10,12 +10,12 @@ To embed a Power BI tile on a dashboard in Acumatica ERP, you should first regis
 -   The vendor of the third-party software may change the user interface and settings. The labels you see in the UI may differ from the ones described in the procedure.
 -   The procedure will be updated to describe new common scenarios and UI changes arise.
 
-## Before You Begin { .section}
+## Before You Begin
 
 -   Be sure that your company has a Microsoft Entra ID instance configured. For more information, see [Integration with Microsoft Entra ID](US__con_AzureAD_Integration.md).
 -   Make sure that you have at least one configured Power BI dashboard with tiles that you want to embed in Acumatica ERP. For details, see [Power BI](https://powerbi.microsoft.com/).
 
-## To Register Your Acumatica ERP Instance {#_681ea30a-0755-42c8-bf9c-67c888d64b9d .section}
+## To Register Your Acumatica ERP Instance
 
 You register a new instance on the [Azure portal](https://portal.azure.com/). If you already have any registered instances and configured Power BI tiles, you can view them on the [https://app.powerbi.com/home?experience=power-bi](https://app.powerbi.com/home?experience=power-bi) website.
 
@@ -27,7 +27,6 @@ Do the following to register the instance:
 2.  On the left menu, click the Microsoft Entra ID icon. If you have one Microsoft Entra ID instance, it will be opened automatically. If you have multiple instances, click the Microsoft Entra ID instance where you want to register the application.
 3.  In the left pane, expand the **Manage** node and click **App registrations**. You will see a list of applications or an empty list, as shown below, depending on whether any applications have been registered previously.
 
-    ![](Images/SSO_Azure_app_reg_01.png "Microsoft Azure: No registered applications in Microsoft Entra ID")
 
 4.  On the pane toolbar, click **New registration**.
 5.  In the **Register an application** pane \(which is shown in the following screenshot\), do the following:
@@ -39,11 +38,9 @@ Do the following to register the instance:
         **Tip:** This URL is case sensitive.
 
     4.  Click **Register**.
-    ![](Images/SSO_Azure_app_reg_02.png "Microsoft Azure: Registration of an application")
 
     Now your Acumatica ERP instance is registered with Microsoft Entra ID, and an **Application \(Client\) ID** value is generated \(see the following screenshot\).
 
-    ![](Images/SSO_Azure_app_reg_ID.png "Microsoft Azure: Application registered with Microsoft Entra ID")
 
 6.  On the left menu, click **Certificates &amp; secrets**.
 7.  On the **Client secrets** tab, click **New client secret**.
@@ -57,7 +54,6 @@ Do the following to register the instance:
 12. Click **View API permissions**.
 13. In the **API permissions** pane, click **Add a permission** \(see the following screenshot\).
 
-    ![](Images/SSO_Azure_app_reg_API_Permissions.png "Microsoft Azure: New API permissions")
 
 14. On the **Microsoft APIs** tab, select **Power BI service**.
 15. Select **Delegated Permissions** and add the following permissions:

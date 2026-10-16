@@ -1,4 +1,4 @@
-# Releasing a Sales Tax Report {#_00363c4a-f358-42e5-8317-da87e49cf332 .concept}
+# Releasing a Sales Tax Report
 
 The topics of this chapter describe how to release a sales tax report.
 

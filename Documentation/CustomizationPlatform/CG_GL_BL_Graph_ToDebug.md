@@ -1,4 +1,4 @@
-# To Debug the Customization Code {#_43396c5f-3cda-423f-b98d-e6d3c161f01b .concept}
+# To Debug the Customization Code
 
 The [Code Editor](../Shared/../UserGuide/AU_20_40_00_CodeEditor.md) does not provide facilities you can use to debug a code item of a customization project. We recommend that you use Microsoft Visual Studio to develop and debug any source code in customization projects. To start debugging using in Visual Studio, you need to perform the following steps, which are described in greater detail below:
 
@@ -6,7 +6,7 @@ The [Code Editor](../Shared/../UserGuide/AU_20_40_00_CodeEditor.md) does not pro
 2.  Configure the web.config file for your Acumatica ERP instance.
 3.  Perform the debugging.
 
-## Install Acumatica Debugger Tools {#section_zwb_vgb_z4b .section}
+## Install Acumatica Debugger Tools
 
 The Acumatica debugger tools are PDB files located in the `Bin` folder of the Acumatica ERP site folder.
 
@@ -27,7 +27,7 @@ If you want to copy files manually, note that the most important files are the f
 
 **Note:** DLLs and PDBs should be from the same version of Acumatica ERP.
 
-## Prepare the web.config File for Your Acumatica ERP Instance {#section_kvn_m3b_z4b .section}
+## Prepare the web.config File for Your Acumatica ERP Instance
 
 When the installation is finished and the instance is ready, you have to specify the debug option by doing the following:
 
@@ -42,7 +42,7 @@ When the installation is finished and the instance is ready, you have to specify
     **Note:** See [Debug mode in ASP.NET applications](https://learn.microsoft.com/en-us/troubleshoot/developer/webapps/aspnet/site-behavior-performance/debug-mode-applications) for details.
 
 
-## Perform the Debugging {#section_gzt_dnb_z4b .section}
+## Perform the Debugging
 
 To configure Visual Studio to debug the source code of Acumatica ERP, select **Tools** &gt; **Options** &gt; **Debugging** &gt; **General**, and clear the **Enable Just My Code** check box.
 

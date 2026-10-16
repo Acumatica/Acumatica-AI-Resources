@@ -1,4 +1,4 @@
-# Dialog Box: Opening a Dialog Box {#_a037f34a-6b9f-41ae-8d5e-cbad6bc55fb3 .concept}
+# Dialog Box: Opening a Dialog Box
 
 You can define an action that opens a dialog box by using the following types of actions:
 
@@ -10,7 +10,7 @@ A *frontend action* is an action that is defined only in the frontend and does n
 
 **Note:** The Classic UI provides only the ability to trigger a backend action in the frontend. By using the Modern UI, you can define frontend actions that open a dialog box.
 
-## Frontend Action Anywhere on a Form { .section}
+## Frontend Action Anywhere on a Form
 
 To define a fronend action with a button located anywhere on a form, do the following:
 
@@ -42,14 +42,14 @@ By default, this action is displayed on the More menu. To specify its location, 
   if.bind="viewInquiryParams.visible==true"></qp-button>
 ```
 
-## Frontend Action on the Table Toolbar { .section}
+## Frontend Action on the Table Toolbar
 
 To define an action that opens a dialog box and whose button is located on the table toolbar, you can use one of the following approaches:
 
 -   Define an action in the view class for the grid and specify the `popupPanel` property in the `actionConfig` decorator.
 -   Define an action in the screen class and specify it in the `topBarItems` property of the `gridConfig` decorator. For more details, see [Table Toolbar Button That Opens a Dialog Box](UIDevRef_Grid_Toolbar.md#_b58e4acd-ca7b-40a5-a493-ac7a925eebd8).
 
-## Backend Action Mapped in the Frontend { .section}
+## Backend Action Mapped in the Frontend
 
 To define a backend action that is mapped in the frontend and opens a dialog box, do the following:
 

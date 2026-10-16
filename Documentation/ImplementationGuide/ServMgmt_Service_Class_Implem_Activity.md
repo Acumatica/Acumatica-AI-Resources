@@ -1,14 +1,14 @@
-# Service Classes: To Create a Service Class for Services with Fixed Prices {#_410e80bb-b1f7-42f9-b57d-9d2030526d22 .task}
+# Service Classes: To Create a Service Class for Services with Fixed Prices
 
 In this implementation activity, you will learn how to create a service class that is intended to group services for which a flat rate is charged—that is, the services of the class will have fixed prices, regardless of the time that was spent to perform a service.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Service and Equipment Sales Center has decided to offer business consulting services related to juicing—for example, developing custom recipes for customers or creating profitable menu pricing strategies. As the administrative user, you will create a new service class in the system to group these consulting services under similar settings.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -22,11 +22,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   On the [Units of Measure](../UserGuide/CS_20_35_00.md) \(CS203500\) form, the *ITEM*, and *HOUR* units have been created.
 -   On the [Tax Categories](../UserGuide/TX_20_55_00.md) \(TX205500\) form, the definition of the necessary tax categories, which you will assign to the new non-stock item.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Item Classes](../UserGuide/IN_20_10_00.md#) \(IN201000\) form, you will create a new service class.
 
-## System Preparation {#section_edj_sgy_1hc .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -34,7 +34,7 @@ Before you start this activity, do the following:
 2.  On the Company and Branch Selection menu in the top pane of the Acumatica ERP screen, select the Service and Equipment Sales Center branch.
 3.  Make sure that the *Service Management* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md#) \(CS100000\) form.
 
-## Step: Creating a Service Class { .section}
+## Step: Creating a Service Class
 
 To create a service class, do the following:
 

@@ -1,4 +1,4 @@
-# Customer Statements: Multicurrency and Consolidated Statements {#_aa8a2c1f-8218-41a6-98be-07479ec1a64c .concept}
+# Customer Statements: Multicurrency and Consolidated Statements
 
 By default, the statements are prepared in the base currency; the [Customer Statement](AR_64_15_00.md) \(AR641500\) report is used. For foreign customers, you can specify that statements should be created in multiple currencies; in this case, the [Customer Statement MC](AR_64_20_00.md) \(AR642000\) report is used. For customers of a specific customer class, you can specify whether to create the statements in multicurrency format, by using the **Multi-Currency Statements** check box on the [Customer Classes](AR_20_10_00.md) \(AR201000\) form. For particular customers of the class, you can override the class setting by using the option with the same name on the [Customers](AR_30_30_00.md) \(AR303000\) form.
 

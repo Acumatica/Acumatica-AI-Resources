@@ -1,4 +1,4 @@
-# Configuring Export Scenarios {#_f4da2bb8-dfa9-4d35-83e2-593f52f1c2af .concept}
+# Configuring Export Scenarios
 
 You create export scenarios on the [Export Scenarios](SM_20_70_25.md) \(SM207025\) form. To create an export scenario, you specify its name, the Acumatica ERP form to be used for export, the data provider that defines the structure of the target data, and the data provider object; you also configure scenario mapping.
 

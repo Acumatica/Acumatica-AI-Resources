@@ -1,4 +1,4 @@
-# CRM: Introduction to Customer Relationship Management {#_93e5d60c-dd0e-4428-a846-a38c225e16c9 .concept}
+# CRM: Introduction to Customer Relationship Management
 
 The customer relationship management \(CRM\) functionality of Acumatica ERP helps companies manage their interactions with current and potential customers to effectively identify and address their target audience’s needs and build strong relationships with their customers.
 
@@ -6,11 +6,10 @@ Acumatica ERP delivers tools that provide marketing, sales, and support teams wi
 
 CRM consists of three major parts: marketing, sales, and support, as shown in the following diagram.
 
-![](Images/diag_CRM_Components.png)
 
 Marketing and sales teams engage with prospective and existing customers at various stages, depending on the customer's readiness to conclude a deal at any given moment; the following sections summarize the marketing and sales processes. The support team interacts primarily with existing customers providing solutions for their requests, that is, cases.
 
-## Marketing { .section}
+## Marketing
 
 To fuel its CRM marketing processes, a company collects information about prospective customers who might be interested in the company's products and services. The company may use any of the following diverse sources of customer data:
 
@@ -52,13 +51,11 @@ As a result of these actions, a marketing manager performs a process called *lea
 
 The following diagram illustrates the lead qualification workflow as performed by a marketing team.
 
-![](Images/diag_CRM_Lead_Qualification_Marketing.png)
 
 By using the Acumatica ERP marketing tools in your company's routines, your marketing team can increase customer engagement and streamline its marketing processes. The following diagram shows the key marketing features of Acumatica ERP.
 
-![](Images/diag_CRM_Marketing_Benefits_and_Features.png)
 
-## Sales { .section}
+## Sales
 
 A CRM sales team focuses on turning prospective customers—that is, leads—into existing customers that place orders of the company's products and services. To move the prospective customer toward a sale, a sales representative continues working with the lead by entering and working with opportunities and sales quotes in Acumatica ERP.
 
@@ -72,13 +69,11 @@ When the prospective or existing customer is ready to make its first purchase an
 
 The following diagram shows the creation of a sales order from an opportunity or a sales quote based on the opportunity.
 
-![](Images/diag_CRM_Lead_Qualification_Sales.png)
 
 By using the Acumatica ERP sales tools in your company's routines, your sales team can streamline its processes, enhance lead tracking, improve customer communication, and ultimately boost sales efficiency. The following diagram shows the key sales features of Acumatica ERP.
 
-![](Images/diag_CRM_Sales_Benefits_and_Features.png)
 
-## Customer Support { .section}
+## Customer Support
 
 Acumatica ERP provides tools for process automation, case management, and reporting for customer support teams. You can easily customize the case management functionality to fit your company’s business goals, ensure higher profitability, and streamline your customer support processes.
 
@@ -86,5 +81,4 @@ The case management functionality gives your customer support personnel the abil
 
 The following diagram illustrates the processing of a case in Acumatica ERP.
 
-![](Images/diag_CRM_Workflow_of_Case_Processing.png)
 

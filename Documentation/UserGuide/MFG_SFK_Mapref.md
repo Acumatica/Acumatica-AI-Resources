@@ -1,4 +1,4 @@
-# Shop Floor Kiosk {#_648a71d4-14d3-4012-8fee-ad695ae6498e .concept}
+# Shop Floor Kiosk
 
 The Shop Floor Kiosk is a factory-floor data collection application designed to simplify and streamline production reporting. It enables shop floor employees to quickly record labor, quantities, materials, and scrap directly at their workstations, while minimizing interaction with complex ERP functionality.
 

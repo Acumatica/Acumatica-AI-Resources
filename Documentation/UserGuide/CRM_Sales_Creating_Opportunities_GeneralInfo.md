@@ -1,8 +1,8 @@
-# Opportunities: General Information {#_6c78c2b2-684a-493b-8887-68fe499c4824 .concept}
+# Opportunities: General Information
 
 You define a sales opportunity in the system to track potential deals as they progress through your sales pipeline toward closing. This topic provides information about creating opportunities in Acumatica ERP.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -18,14 +18,14 @@ In this chapter, you will learn how to do the following:
 -   Create an opportunities by using the Acumatica ERP mobile app
 -   Create an opportunity with an item without an inventory ID
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You may want to learn how to create opportunities in Acumatica ERP in scenarios that include the following:
 
 -   A lead has contacted you and confirmed the intention to buy the company's products or services.
 -   An existing customer has confirmed the intention to again buy the company's products or services.
 
-## Creation of Opportunities in Acumatica ERP { .section}
+## Creation of Opportunities in Acumatica ERP
 
 In Acumatica ERP, an opportunity represents a potential, ongoing, or closed deal with a prospective or existing customer. An opportunity record, which is created on the [Opportunities](CR_30_40_00.md) \(CR304000\) form, has a variety of settings, such as the prospect or customer’s contact information, the financial and shipping information, any emails and activities related to the opportunity, and any associated quotes, sales orders, and invoices. With these settings and the related documents, you can easily keep track of and update the most important information about the deal, as described in [Opportunities: Settings](CRM_Sales_Creating_Opportunities_Settings.md). Each opportunity must have an opportunity class selected, which gives you the ability to use the opportunity workflow and stages, as described in [Opportunity Management: Opportunity Stages](CRM_Sales_Managing_Opportunities_Stages.md).
 
@@ -40,13 +40,13 @@ An opportunity can be created in any of the following ways:
 -   On the **Opportunities** tab of the [Marketing Campaigns](CR_20_20_00.md) \(CR202000\) form for a selected marketing campaign if you click **Add New Opportunity** on the table toolbar.
 -   By using the Acumatica add-in for Outlook based on the details of a selected email recipient or sender.
 
-## Creation of Opportunities Through Lead Conversion { .section}
+## Creation of Opportunities Through Lead Conversion
 
 As a rule, during lead conversion, you create a contact and a business account \(if they have not yet been created in the system\), which the system associates with the sales-qualified lead. A business account must be created before or during the lead conversion for leads of a class if the **Require Account for Conversion to Opportunity** check box on the [Lead Classes](CR_20_70_00.md) \(CR207000\) form is selected.
 
 On the **Details** tab of the [Opportunity Classes](CR_20_90_00.md) \(CR209000\) form, if the **Show Activities from Source Lead** check box is selected, the activities associated with the lead \(which are listed on the **Activities** tab of the [Leads](CR_30_10_00.md) form\) become associated with the newly created opportunity, and you can track the history of communication with the lead, from creation in the system to conversion to an opportunity.
 
-## Processing of an Opportunity Through Statuses { .section}
+## Processing of an Opportunity Through Statuses
 
 As an opportunity is being processed by a sales team, it progresses through various statuses. The current status of an opportunity is displayed in the **Status** box in the Summary area of the [Opportunities](CR_30_40_00.md) \(CR304000\) form.
 
@@ -67,7 +67,7 @@ As the opportunity is assigned different statuses, you can select the applicable
 
 A system administrator can configure notifications related to the statuses of opportunities. For more information, see [Business Events: Use of a Data Entry Form as a Source](SA_Using_Business_Events_Data_Entry_Source_Concept.md).
 
-## Assigning Sales Territories to Leads, Contacts, Business Accounts, and Opportunities { .section}
+## Assigning Sales Territories to Leads, Contacts, Business Accounts, and Opportunities
 
 A sales territory is a territory that in most cases is determined based on the geographical location of the lead, contact, business account, or opportunity. By using sales territories, you can distribute the lead, contact, business account, and opportunity records between different sales territories and the sales representatives who are responsible for the sales territories.
 
@@ -88,13 +88,13 @@ You can also use the sales territory ID as a setting on the **Conditions** tab o
 -   The creation of new records if the *Assignment Map* option is selected in the **Default Owner** box of the appropriate form to define a class of leads, contacts, business accounts, or opportunities
 -   Mass-assignment of records to owners by using the following mass-processing forms: [Assign Leads](../Shared/../UserGuide/CR_50_30_10.md) \(CR503010\), [Assign Contacts](../Shared/../UserGuide/CR_50_30_11.md) \(CR503011\), [Assign Business Accounts](../Shared/../UserGuide/CR_50_33_10.md) \(CR503310\), and [Assign Opportunities](../Shared/../UserGuide/CR_50_31_10.md) \(CR503110\)
 
-## Ability to Add User-Defined Fields to CRM Forms { .section}
+## Ability to Add User-Defined Fields to CRM Forms
 
 User-defined fields are site-specific elements that have been defined to track information deemed as important to the organization. An administrator and customizer—a user with particular access rights in the system—can add user-defined fields to CRM forms such as [Leads](../Shared/../UserGuide/CR_30_10_00.md) \(CR301000\), [Contacts](../Shared/../UserGuide/CR_30_20_00.md) \(CR302000\), and [Business Accounts](../Shared/../UserGuide/CR_30_30_00.md) \(CR303000\) form. For details, see [Adjustment of the Acumatica ERP UI: Managing User-Defined Fields](../Shared/../UserGuide/GS_Personalization_UI_User_Defined_Fields.md).
 
 .
 
-## Copying of User-Defined Fields Between Records { .section}
+## Copying of User-Defined Fields Between Records
 
 While viewing a record on some entry forms, you can create new records—such as CRM records \(for example, opportunities or business accounts\), project quotes, customers, and vendors—from the original record. If both records have user-defined fields, the system copies each field’s values only if both records have this field defined on their entry forms. For details, see [Adjustment of the Acumatica ERP UI: Managing User-Defined Fields](../Shared/../UserGuide/GS_Personalization_UI_User_Defined_Fields.md).
 

@@ -1,14 +1,13 @@
-# Using a Composite State with the Workflow Editor {#_10892db4-6bc1-49d3-aecf-80cc13b23c9a .concept}
+# Using a Composite State with the Workflow Editor
 
 This topic describes an example of the customization of a composite state through the use of the Workflow Editor.
 
 The screenshot below shows the default workflow of the [Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\) form on the State Diagram: Default Workflow page of the Customization Project Editor. The composite state \(see Item 1 in the screenshot\) contains nested states \(Item 2\) that are part of a typical invoice workflow, as well as transitions \(Item 3\) to and from the composite state and the nested states. Notice that the *Balanced* nested state also contains transitions \(Item 4\).
 
-![](images/Example_WorkflowSequencesCompositeState.png "A composite state in the invoice workflow")
 
 Suppose that you want to add a new state, *Postponed*, to the workflow for the [Invoices](../UserGuide/SO_30_30_00.md) form after the *Credit Hold* state, specify a skip condition for it, and add a transition from this state to the next state in the workflow. The example in this topic demonstrates how you can do this.
 
-## To Modify a Workflow with Composite States { .section}
+## To Modify a Workflow with Composite States
 
 To modify the default workflow of the [Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\) form, which contains composite states, you would perform the following steps:
 
@@ -56,7 +55,6 @@ To modify the default workflow of the [Invoices](../UserGuide/SO_30_30_00.md) \(
 
 The workflow with the added state is shown in the following screenshot.
 
-![](images/Example_WorkflowSequencesAddedState.png "The added Postponed state")
 
 **Parent topic:**[Defining a Workflow](../CustomizationPlatform/CG_GL_BL_Example_Workflows.md)
 

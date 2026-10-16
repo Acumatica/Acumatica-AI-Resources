@@ -1,10 +1,227 @@
-# Comparison of System Endpoints {#_b49d1af2-80a7-4271-b421-ab64173eead8 .concept}
+# Comparison of System Endpoints
 
-Acumatica ERP 2026 R1 provides multiple system endpoints, which have Contract Version 4. In this topic, you can learn about the differences between these endpoints.
+Acumatica ERP 2026 R2 provides multiple system endpoints. In this topic, you can learn about the differences between these endpoints.
 
-## Comparing the Default/25.200.001 and Default/24.200.001 Endpoints { .section}
+## Comparing the Default/26.200.001 and Default/25.200.001 Endpoints
 
-The following tables contain the new, modified, or removed elements of the *Default/25.200.001* endpoint as compared to the *Default/24.200.001* endpoint.
+The following tables contain the new, modified, or removed elements of the *Default/26.200.001* endpoint as compared to the *Default/25.200.001* endpoint. The *Default/26.200.001* endpoint uses Contract Version 5, whereas the *Default/25.200.001* endpoint uses Contract Version 4.
+
+|Entity|Related Form Name and ID|
+|------|------------------------|
+|BankStatement|[Import Bank Transactions](../UserGuide/CA_30_65_00.md) \(CA306500\)|
+|CashPurchase|[Cash Purchases](../UserGuide/AP_30_40_00.md) \(AP304000\)|
+|ChangeRequest|[Change Requests](../UserGuide/PM_30_85_00.md) \(PM308500\)|
+|FileTags|File Tags \(API\) \(SM202561\)|
+|InvoiceMemoPrintForm|[Invoice/Memo](../UserGuide/AR_64_10_00.md) \(AR641000\)|
+|MyDayReport|My Day \(SV409000\)|
+|ProjectMaterials|[Project Materials](../UserGuide/PM_30_65_00.md) \(PM306500\)|
+|ServiceLocation|Service Locations \(SV303000\)|
+|TagTemplates|Project Tag Templates \(API\) \(PM204501\)|
+|UploadedFiles|Manage Project Files by Tag \(API\) \(PM509001\)|
+|WorkEvent|Work Events \(SV307000\)|
+|WorkOrder|Work Orders \(SV301000\)|
+|WorkTask|Work Tasks \(SV306000\)|
+|WorkTicket|Work Tickets \(SV302000\)|
+
+|Field Name|Related Form Name and ID|
+|----------|------------------------|
+|Activity.AIAdditionalInfo|[Activity](../UserGuide/CR_30_60_10.md) \(CR306010\)|
+|Activity.AIResponsePriority|[Activity](../UserGuide/CR_30_60_10.md) \(CR306010\)|
+|Activity.Incoming|[Activity](../UserGuide/CR_30_60_10.md) \(CR306010\)|
+|ActivityDetail.AIResponsePriority|[Business Accounts](../UserGuide/CR_30_30_00.md) \(CR303000\), [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\), [Contacts](../UserGuide/CR_30_20_00.md) \(CR302000\), [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\), [Customer Locations](../UserGuide/AR_30_30_20.md) \(AR303020\), [Employees](../UserGuide/EP_20_30_00.md) \(EP203000\), [Event](../UserGuide/CR_30_60_30.md) \(CR306030\), [Leads](../UserGuide/CR_30_10_00.md) \(CR301000\), [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\), [Task](../UserGuide/CR_30_60_20.md) \(CR306020\), [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\)|
+|Address.AddressLine3|[Business Accounts](../UserGuide/CR_30_30_00.md) \(CR303000\), [Contacts](../UserGuide/CR_30_20_00.md) \(CR302000\), [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\), [Customer Locations](../UserGuide/AR_30_30_20.md) \(AR303020\), [Employees](../UserGuide/EP_20_30_00.md) \(EP203000\), [Employee Payroll Settings](../UserGuide/PR_20_30_00.md) \(PR203000\), [Leads](../UserGuide/CR_30_10_00.md) \(CR301000\), [Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\), [Pro Forma Invoices](../UserGuide/PM_30_70_00.md) \(PM307000\), [Projects](../UserGuide/PM_30_10_00.md) \(PM301000\), [Purchase Orders](../UserGuide/PO_30_10_00.md) \(PO301000\), [Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\), [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\), [Shipments](../UserGuide/SO_30_20_00.md) \(SO302000\), [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\), [Work Locations](../UserGuide/PR_10_10_40.md) \(PR101040\)|
+|BusinessAccount.CreatedByID|[Business Accounts](../UserGuide/CR_30_30_00.md) \(CR303000\)|
+|BusinessAccount.CreatedDateTime|[Business Accounts](../UserGuide/CR_30_30_00.md) \(CR303000\)|
+|BusinessAccount.LastModifiedByID|[Business Accounts](../UserGuide/CR_30_30_00.md) \(CR303000\)|
+|BusinessAccount.OverrideSalesTerritory|[Business Accounts](../UserGuide/CR_30_30_00.md) \(CR303000\)|
+|BusinessAccount.SalesTerritoryID|[Business Accounts](../UserGuide/CR_30_30_00.md) \(CR303000\)|
+|CampaignDetail.CampaignType|[Business Accounts](../UserGuide/CR_30_30_00.md) \(CR303000\), [Contacts](../UserGuide/CR_30_20_00.md) \(CR302000\), [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\), [Customer Locations](../UserGuide/AR_30_30_20.md) \(AR303020\), [Employees](../UserGuide/EP_20_30_00.md) \(EP203000\), [Leads](../UserGuide/CR_30_10_00.md) \(CR301000\), [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\)|
+|Case.Address|[Cases](../UserGuide/CR_30_60_00.md) \(CR306000\)|
+|Case.Age|[Cases](../UserGuide/CR_30_60_00.md) \(CR306000\)|
+|Case.AISentiment|[Cases](../UserGuide/CR_30_60_00.md) \(CR306000\)|
+|Case.AssignDate|[Cases](../UserGuide/CR_30_60_00.md) \(CR306000\)|
+|Case.ClosureNotes|[Cases](../UserGuide/CR_30_60_00.md) \(CR306000\)|
+|Case.Contact|[Cases](../UserGuide/CR_30_60_00.md) \(CR306000\)|
+|Case.CreatedByID|[Cases](../UserGuide/CR_30_60_00.md) \(CR306000\)|
+|Case.CustomerID\_description|[Cases](../UserGuide/CR_30_60_00.md) \(CR306000\)|
+|Case.InitialResponseDueDateTime|[Cases](../UserGuide/CR_30_60_00.md) \(CR306000\)|
+|Case.IsActive|[Cases](../UserGuide/CR_30_60_00.md) \(CR306000\)|
+|Case.LastModifiedByID|[Cases](../UserGuide/CR_30_60_00.md) \(CR306000\)|
+|Case.StatusDate|[Cases](../UserGuide/CR_30_60_00.md) \(CR306000\)|
+|ChangeOrder.Address|[Change Orders](../UserGuide/PM_30_80_00.md) \(PM308000\)|
+|ChangeOrder.AmountDue|[Change Orders](../UserGuide/PM_30_80_00.md) \(PM308000\)|
+|ChangeOrder.BilledAmount|[Change Orders](../UserGuide/PM_30_80_00.md) \(PM308000\)|
+|ChangeOrder.Contact|[Change Orders](../UserGuide/PM_30_80_00.md) \(PM308000\)|
+|ChangeOrder.PendingBillingAmount|[Change Orders](../UserGuide/PM_30_80_00.md) \(PM308000\)|
+|ChangeOrder.RevenueRetainageTotal|[Change Orders](../UserGuide/PM_30_80_00.md) \(PM308000\)|
+|ChangeOrder.RevenueTaxTotal|[Change Orders](../UserGuide/PM_30_80_00.md) \(PM308000\)|
+|ChangeOrder.Taxes|[Change Orders](../UserGuide/PM_30_80_00.md) \(PM308000\)|
+|ChangeOrder.TaxSettings|[Change Orders](../UserGuide/PM_30_80_00.md) \(PM308000\)|
+|ChangeOrderRevenueBudget.Retainage|[Change Orders](../UserGuide/PM_30_80_00.md) \(PM308000\)|
+|ChangeOrderRevenueBudget.RetainagePct|[Change Orders](../UserGuide/PM_30_80_00.md) \(PM308000\)|
+|Contact.AssignDate|[Business Accounts](../UserGuide/CR_30_30_00.md) \(CR303000\), [Contacts](../UserGuide/CR_30_20_00.md) \(CR302000\), [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\), [Customer Locations](../UserGuide/AR_30_30_20.md) \(AR303020\), [Employees](../UserGuide/EP_20_30_00.md) \(EP203000\), [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\)|
+|Contact.CreatedByID|[Business Accounts](../UserGuide/CR_30_30_00.md) \(CR303000\), [Contacts](../UserGuide/CR_30_20_00.md) \(CR302000\), [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\), [Customer Locations](../UserGuide/AR_30_30_20.md) \(AR303020\), [Employees](../UserGuide/EP_20_30_00.md) \(EP203000\), [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\)|
+|Contact.CreatedDateTime|[Business Accounts](../UserGuide/CR_30_30_00.md) \(CR303000\), [Contacts](../UserGuide/CR_30_20_00.md) \(CR302000\), [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\), [Customer Locations](../UserGuide/AR_30_30_20.md) \(AR303020\), [Employees](../UserGuide/EP_20_30_00.md) \(EP203000\), [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\)|
+|Contact.ExtUserRole|[Business Accounts](../UserGuide/CR_30_30_00.md) \(CR303000\), [Contacts](../UserGuide/CR_30_20_00.md) \(CR302000\), [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\), [Customer Locations](../UserGuide/AR_30_30_20.md) \(AR303020\), [Employees](../UserGuide/EP_20_30_00.md) \(EP203000\), [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\)|
+|Contact.LastModifiedByID|[Business Accounts](../UserGuide/CR_30_30_00.md) \(CR303000\), [Contacts](../UserGuide/CR_30_20_00.md) \(CR302000\), [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\), [Customer Locations](../UserGuide/AR_30_30_20.md) \(AR303020\), [Employees](../UserGuide/EP_20_30_00.md) \(EP203000\), [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\)|
+|Contact.OverrideSalesTerritory|[Business Accounts](../UserGuide/CR_30_30_00.md) \(CR303000\), [Contacts](../UserGuide/CR_30_20_00.md) \(CR302000\), [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\), [Customer Locations](../UserGuide/AR_30_30_20.md) \(AR303020\), [Employees](../UserGuide/EP_20_30_00.md) \(EP203000\), [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\)|
+|Contact.SalesTerritoryID|[Business Accounts](../UserGuide/CR_30_30_00.md) \(CR303000\), [Contacts](../UserGuide/CR_30_20_00.md) \(CR302000\), [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\), [Customer Locations](../UserGuide/AR_30_30_20.md) \(AR303020\), [Employees](../UserGuide/EP_20_30_00.md) \(EP203000\), [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\)|
+|Customer.LegalName|[Customers](../UserGuide/AR_30_30_00.md) \(AR303000\)|
+|CustomerContact.ExtUserRole|[Customers](../UserGuide/AR_30_30_00.md) \(AR303000\), [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\)|
+|CustomerLocation.LocationType|[Customer Locations](../UserGuide/AR_30_30_20.md) \(AR303020\)|
+|DeductionBenefitCode.GarnishmentNetIncome|[Deduction and Benefit Codes](../UserGuide/PR_10_10_60.md) \(PR101060\)|
+|Email.AIAdditionalInfo|[Email Activity](../UserGuide/CR_30_60_15.md) \(CR306015\)|
+|Email.AIResponsePriority|[Email Activity](../UserGuide/CR_30_60_15.md) \(CR306015\)|
+|Email.ClearedBody|[Email Activity](../UserGuide/CR_30_60_15.md) \(CR306015\)|
+|Email.CreatedByID\_description|[Email Activity](../UserGuide/CR_30_60_15.md) \(CR306015\)|
+|Email.IsArchived|[Email Activity](../UserGuide/CR_30_60_15.md) \(CR306015\)|
+|Email.MessageId|[Email Activity](../UserGuide/CR_30_60_15.md) \(CR306015\)|
+|Email.Read|[Email Activity](../UserGuide/CR_30_60_15.md) \(CR306015\)|
+|Email.ReplyToMessage|[Email Activity](../UserGuide/CR_30_60_15.md) \(CR306015\)|
+|Email.Status|[Email Activity](../UserGuide/CR_30_60_15.md) \(CR306015\)|
+|Employee.CreatedDateTime|[Employees](../UserGuide/EP_20_30_00.md) \(EP203000\)|
+|Employee.DepartmentID|[Employees](../UserGuide/EP_20_30_00.md) \(EP203000\)|
+|Employee.DisplayName|[Employees](../UserGuide/EP_20_30_00.md) \(EP203000\)|
+|Employee.VendorClassID|[Employees](../UserGuide/EP_20_30_00.md) \(EP203000\)|
+|Event.DayOfWeek|[Event](../UserGuide/CR_30_60_30.md) \(CR306030\)|
+|Event.OwnerID|[Event](../UserGuide/CR_30_60_30.md) \(CR306030\)|
+|Event.OwnerID\_description|[Event](../UserGuide/CR_30_60_30.md) \(CR306030\)|
+|Event.Style|[Event](../UserGuide/CR_30_60_30.md) \(CR306030\)|
+|ExpenseReceiptDetails.CorporateCard|[Expense Receipt](../UserGuide/EP_30_10_20.md) \(EP301020\)|
+|ExpenseReceiptDetails.PaidWith|[Expense Receipt](../UserGuide/EP_30_10_20.md) \(EP301020\)|
+|ExpenseReceiptDetails.TipAmount|[Expense Receipt](../UserGuide/EP_30_10_20.md) \(EP301020\)|
+|Lead.AssignDate|[Leads](../UserGuide/CR_30_10_00.md) \(CR301000\)|
+|Lead.BusinessAccountAcctCD|[Leads](../UserGuide/CR_30_10_00.md) \(CR301000\)|
+|Lead.CreatedByID|[Leads](../UserGuide/CR_30_10_00.md) \(CR301000\)|
+|Lead.CreatedDateTime|[Leads](../UserGuide/CR_30_10_00.md) \(CR301000\)|
+|Lead.LastModifiedByID|[Leads](../UserGuide/CR_30_10_00.md) \(CR301000\)|
+|Lead.LeadActivityStatistics|[Leads](../UserGuide/CR_30_10_00.md) \(CR301000\)|
+|Lead.MemberName|[Leads](../UserGuide/CR_30_10_00.md) \(CR301000\)|
+|Lead.Opportunity|[Leads](../UserGuide/CR_30_10_00.md) \(CR301000\)|
+|Lead.OverrideSalesTerritory|[Leads](../UserGuide/CR_30_10_00.md) \(CR301000\)|
+|Lead.SalesTerritoryID|[Leads](../UserGuide/CR_30_10_00.md) \(CR301000\)|
+|Lead.StageID|[Leads](../UserGuide/CR_30_10_00.md) \(CR301000\)|
+|Opportunity.ActivityOpportunityStatistics|[Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\)|
+|Opportunity.ActivityQuoteStatistics|[Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\)|
+|Opportunity.AISentiment|[Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\)|
+|Opportunity.AssignDate|[Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\)|
+|Opportunity.BusinessAccountName|[Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\)|
+|Opportunity.BusinessAccountType|[Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\)|
+|Opportunity.ClosingDate|[Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\)|
+|Opportunity.ContractCD|[Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\)|
+|Opportunity.CreatedByID|[Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\)|
+|Opportunity.CreatedDateTime|[Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\)|
+|Opportunity.CuryLineDiscountTotal|[Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\)|
+|Opportunity.CuryOrderDiscTotal|[Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\)|
+|Opportunity.Description|[Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\)|
+|Opportunity.DisplayName|[Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\)|
+|Opportunity.IsActive|[Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\)|
+|Opportunity.LastModifiedByID|[Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\)|
+|Opportunity.MarginPct|[Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\)|
+|Opportunity.OpportunityName|[Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\)|
+|Opportunity.OverrideSalesTerritory|[Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\)|
+|Opportunity.Probability|[Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\)|
+|Opportunity.SalesTerritoryID|[Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\)|
+|Opportunity.StageChangedDate|[Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\)|
+|Payment.CCProcessingStatus|[Payments and Applications](../UserGuide/AR_30_20_00.md) \(AR302000\)|
+|Payment.ReciprocalRate|[Payments and Applications](../UserGuide/AR_30_20_00.md) \(AR302000\)|
+|ProgressBilling.ChangeOrderRefNbr|[Pro Forma Invoices](../UserGuide/PM_30_70_00.md) \(PM307000\)|
+|Project.ParentProjectID|[Projects](../UserGuide/PM_30_10_00.md) \(PM301000\)|
+|Project.TagTemplate|[Projects](../UserGuide/PM_30_10_00.md) \(PM301000\)|
+|ProjectTask.ParentTaskID|[Project Tasks](../UserGuide/PM_30_20_00.md) \(PM302000\)|
+|PurchaseReceiptDetail.Project|[Purchase Receipts](../UserGuide/PO_30_20_00.md) \(PO302000\)|
+|SalesOrder.ExternalQuoteNbr|[Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\)|
+|SalesOrder.ExternalQuoteStatus|[Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\)|
+|SalesOrderDetail.OrigOrderNbr|[Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\)|
+|SalesOrderDetail.OrigOrderType|[Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\)|
+|SalesOrderPayment.NewCard|[Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\)|
+|SalesOrderPayment.PaymentNoteID|[Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\)|
+|StockItem.AMCheckSchdMatlAvailability|[Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\)|
+|Task.AllDay|[Task](../UserGuide/CR_30_60_20.md) \(CR306020\)|
+|Task.BusinessAccountID|[Task](../UserGuide/CR_30_60_20.md) \(CR306020\)|
+|Task.BusinessAccountName|[Task](../UserGuide/CR_30_60_20.md) \(CR306020\)|
+|Task.Contact|[Task](../UserGuide/CR_30_60_20.md) \(CR306020\)|
+|Task.CreatedByID\_description|[Task](../UserGuide/CR_30_60_20.md) \(CR306020\)|
+|Task.OwnerID\_description|[Task](../UserGuide/CR_30_60_20.md) \(CR306020\)|
+|Task.WorkgroupID\_description|[Task](../UserGuide/CR_30_60_20.md) \(CR306020\)|
+|TaxSettingDetail.SettingLevel|[Employee Payroll Settings](../UserGuide/PR_20_30_00.md) \(PR203000\)|
+|TaxSettingsCA.ImpactonTaxableWage|[Deduction and Benefit Codes](../UserGuide/PR_10_10_60.md) \(PR101060\)|
+|TemplateItems.DefaultColumnAttributeID|[Template Items](../UserGuide/IN_20_30_00.md) \(IN203000\)|
+|TemplateItems.DefaultRowAttributeID|[Template Items](../UserGuide/IN_20_30_00.md) \(IN203000\)|
+|TimeEntry.IDTimeCardRef|[Time Entry](../UserGuide/PM_20_91_00.md) \(PM209100\)|
+|TimeEntry.IsCorrected|[Time Entry](../UserGuide/PM_20_91_00.md) \(PM209100\)|
+|TimeEntry.Released|[Time Entry](../UserGuide/PM_20_91_00.md) \(PM209100\)|
+|TransferOrder.Branch|[Transfers](../UserGuide/IN_30_40_00.md) \(IN304000\)|
+|TransferOrderDetail.OrderLineNbr|[Transfers](../UserGuide/IN_30_40_00.md) \(IN304000\)|
+|TransferOrderDetail.OrderNumber|[Transfers](../UserGuide/IN_30_40_00.md) \(IN304000\)|
+|TransferOrderDetail.OrderType|[Transfers](../UserGuide/IN_30_40_00.md) \(IN304000\)|
+|TransferOrderDetail.RecivedQty|[Transfers](../UserGuide/IN_30_40_00.md) \(IN304000\)|
+|TransferOrderDetail.ShipmentNumber|[Transfers](../UserGuide/IN_30_40_00.md) \(IN304000\)|
+
+|Old Field Name|New Field Name|Related Form Name and ID|
+|--------------|--------------|------------------------|
+|ContactDuplicateDetail.LastModifiedDate|LastModifiedDateTime|[Business Accounts](../UserGuide/CR_30_30_00.md) \(CR303000\), [Contacts](../UserGuide/CR_30_20_00.md) \(CR302000\), [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\), [Customer Locations](../UserGuide/AR_30_30_20.md) \(AR303020\), [Employees](../UserGuide/EP_20_30_00.md) \(EP203000\), [Vendors](../UserGuide/AP_30_30_00.md) \(AP303000\)|
+|DuplicateDetail.LastModifiedDate|LastModifiedDateTime|[Business Accounts](../UserGuide/CR_30_30_00.md) \(CR303000\), [Leads](../UserGuide/CR_30_10_00.md) \(CR301000\)|
+|SalesOrder.LastModified|LastModifiedDateTime|[Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\)|
+|SalesOrderDetail.LastModifiedDate|LastModifiedDateTime|[Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\)|
+
+|Affected Fields|Old Field Type|New Field Type|Number of Fields|
+|---------------|--------------|--------------|----------------|
+|String-based single-select fields|StringValue|StringSingleSelectValue|163|
+|Integer-based single-select fields, including time-span fields|StringValue|IntSingleSelectValue|30|
+|Fields that contain a date without a time component|DateTimeValue|DateOnlyValue|43|
+|CompensationDetail.LastModifiedDateTime|StringValue|DateTimeValue|1|
+
+|Field Name|Related Form Name and ID|Comment|
+|----------|------------------------|-------|
+|AppDetails.Subitem|[Appointments](../UserGuide/FS_30_02_00.md) \(FS300200\)| |
+|DeductionOrBenefitTaxDetailCA.Benefitincreasestaxablewage|[Deduction and Benefit Codes](../UserGuide/PR_10_10_60.md) \(PR101060\)|Use the TaxSettingsCA.ImpactonTaxableWage field. Notice that the replacement field uses the opposite logic: Taxes listed for a custom code are excluded from the calculation.|
+|DeductionOrBenefitTaxDetailCA.Deductiondecreasestaxablewage|[Deduction and Benefit Codes](../UserGuide/PR_10_10_60.md) \(PR101060\)|Use the TaxSettingsCA.ImpactonTaxableWage field. Notice that the replacement field uses the opposite logic: Taxes listed for a custom code are excluded from the calculation.|
+|InventoryAdjustmentDetail.Subitem|[Adjustments](../UserGuide/IN_30_30_00.md) \(IN303000\)| |
+|InventoryIssueDetail.Subitem|[Issues](../UserGuide/IN_30_20_00.md) \(IN302000\)| |
+|InventoryIssueDetailAllocation.Subitem|[Issues](../UserGuide/IN_30_20_00.md) \(IN302000\)| |
+|InventoryItemCrossReference.Subitem|[Non-Stock Items](../UserGuide/IN_20_20_00.md) \(IN202000\), [Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\)| |
+|InventoryReceiptDetail.Subitem|[Receipts](../UserGuide/IN_30_10_00.md) \(IN301000\)| |
+|InventoryReceiptDetailAllocation.Subitem|[Receipts](../UserGuide/IN_30_10_00.md) \(IN301000\)| |
+|InventorySummaryInquiry.Subitem|[Inventory Summary](../UserGuide/IN_40_10_00.md) \(IN401000\)| |
+|InventorySummaryRow.Subitem|[Inventory Summary](../UserGuide/IN_40_10_00.md) \(IN401000\)| |
+|InvoiceDetail.Subitem|[Invoices and Memos](../UserGuide/AR_30_10_00.md) \(AR301000\)| |
+|ItemWarehouse.DefaultSubitem|[Item Warehouse Details](../UserGuide/IN_20_45_00.md) \(IN204500\)| |
+|KitAssembly.Subitem|[Kit Assembly](../UserGuide/IN_30_70_00.md) \(IN307000\)| |
+|KitAssemblyAllocation.Subitem|[Kit Assembly](../UserGuide/IN_30_70_00.md) \(IN307000\)| |
+|KitAssemblyStockComponent.Subitem|[Kit Assembly](../UserGuide/IN_30_70_00.md) \(IN307000\)| |
+|KitAssemblyStockComponentAllocation.Subitem|[Kit Assembly](../UserGuide/IN_30_70_00.md) \(IN307000\)| |
+|KitStockComponent.Subitem|[Kit Specifications](../UserGuide/IN_20_95_00.md) \(IN209500\)| |
+|Lead.LastIncomingActivity|[Leads](../UserGuide/CR_30_10_00.md) \(CR301000\)|Use the Lead.LeadActivityStatistics.LastIncomingActivity field.|
+|Lead.LastOutgoingActivity|[Leads](../UserGuide/CR_30_10_00.md) \(CR301000\)|Use the Lead.LeadActivityStatistics.LastOutgoingActivity field.|
+|OpportunityProduct.Subitem|[Opportunities](../UserGuide/CR_30_40_00.md) \(CR304000\)| |
+|PhysicalInventoryCount.Subitem|[Physical Inventory Count](../UserGuide/IN_30_50_10.md) \(IN305010\)| |
+|PhysicalInventoryCountDetail.Subitem|[Physical Inventory Count](../UserGuide/IN_30_50_10.md) \(IN305010\)| |
+|PhysicalInventoryReviewDetail.Subitem|[Physical Inventory Review](../UserGuide/IN_30_50_00.md) \(IN305000\)| |
+|PurchaseOrderDetail.Subitem|[Purchase Orders](../UserGuide/PO_30_10_00.md) \(PO301000\)| |
+|PurchaseReceiptDetail.Subitem|[Purchase Receipts](../UserGuide/PO_30_20_00.md) \(PO302000\)| |
+|SalesInvoice.LastModifiedDate|[Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\)|Use the SalesInvoice.LastModifiedDateTime field.|
+|SalesInvoiceApplicationInvoice.DocumentType|[Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\)|Use the SalesInvoiceApplicationInvoice.DocType field.|
+|SalesInvoiceDetail.Subitem|[Invoices](../UserGuide/SO_30_30_00.md) \(SO303000\)| |
+|SalesOrder.UsrExternalOrderOriginal|[Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\)|Use the SalesOrder.ExternalOrderOriginal field.|
+|SalesOrderDetail.Subitem|[Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\)| |
+|SalesOrderDetailAllocation.Subitem|[Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\)| |
+|ShipmentDetail.Subitem|[Shipments](../UserGuide/SO_30_20_00.md) \(SO302000\)| |
+|ShipmentDetailAllocation.Subitem|[Shipments](../UserGuide/SO_30_20_00.md) \(SO302000\)| |
+|ShipmentPackageDetail.Subitem|[Shipments](../UserGuide/SO_30_20_00.md) \(SO302000\)| |
+|SrvOrdDetails.Subitem|[Service Orders](../UserGuide/FS_30_01_00.md) \(FS300100\)| |
+|StockItem.DefaultSubitem|[Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\)| |
+|StockItem.LastModified|[Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\)|Use the StockItem.LastModifiedDateTime field.|
+|StockItem.UseOnEntry|[Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\)| |
+|StockItemVendorDetail.Subitem|[Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\)| |
+|TaxAndReportingCA.SupplementalIncome|[Earning Type Codes](../UserGuide/PR_10_20_00.md) \(PR102000\)|Use the TaxAndReportingCA.WageType field. During the upgrade, the *Bonus* wage type is assigned to earning types for which supplemental income was selected.|
+|TemplateItems.LastModified|[Template Items](../UserGuide/IN_20_30_00.md) \(IN203000\)|Use the TemplateItems.LastModifiedDateTime field.|
+|TransferOrderDetail.Subitem|[Transfers](../UserGuide/IN_30_40_00.md) \(IN304000\)| |
+|TransferOrderDetailAllocation.Subitem|[Transfers](../UserGuide/IN_30_40_00.md) \(IN304000\)| |
+
+## Comparing the Default/25.200.001 and Default/24.200.001 Endpoints
+
+The following tables contain the new, modified, or removed elements of the *Default/25.200.001* endpoint as compared to the *Default/24.200.001* endpoint. Both the *Default/25.200.001* endpoint and the *Default/24.200.001* endpoint use Contract Version 4.
 
 |Entity|Related Form Name and ID|
 |------|------------------------|
@@ -85,9 +302,9 @@ The following tables contain the new, modified, or removed elements of the *Defa
 |TaxSettingDetail.UseDefault|[Employee Payroll Settings](../UserGuide/PR_20_30_00.md) \(PR203000\)|The value of the field could not be specified. The respective UI element will be removed in a future version of Acumatica ERP.|
 |TimeEntry.Time|[Time Entry](../UserGuide/PM_20_91_00.md)\(PM209100\)|The field didn't have mapping and could not be used.|
 
-## Comparing the Default/24.200.001 and Default/23.200.001 Endpoints {#_1c699376-3a3a-4b7f-a963-e9981f86fd4d .section}
+## Comparing the Default/24.200.001 and Default/23.200.001 Endpoints
 
-The following tables contain the new, modified, or removed elements of the *Default/24.200.001* endpoint as compared to the *Default/23.200.001* endpoint.
+The following tables contain the new, modified, or removed elements of the *Default/24.200.001* endpoint as compared to the *Default/23.200.001* endpoint. Both the *Default/24.200.001* endpoint and the *Default/23.200.001* endpoint use Contract Version 4.
 
 |Entity|Related Form Name and ID|
 |------|------------------------|
@@ -130,9 +347,9 @@ The following tables contain the new, modified, or removed elements of the *Defa
 |TemplateItemVendorDetail.RecordID|[Template Items](../UserGuide/IN_20_30_00.md) \(IN203000\)|
 |TransferOrderDetailAllocation.ExpirationDate|[Transfers](../UserGuide/IN_30_40_00.md) \(IN304000\)|
 
-## Comparing the Default/23.200.001 and Default/22.200.001 Endpoints {#_c66d06b7-ab19-440b-a2a0-56259843a037 .section}
+## Comparing the Default/23.200.001 and Default/22.200.001 Endpoints
 
-The following tables contain the new, modified, or removed elements of the *Default/23.200.001* endpoint as compared to the *Default/22.200.001* endpoint.
+The following tables contain the new, modified, or removed elements of the *Default/23.200.001* endpoint as compared to the *Default/22.200.001* endpoint. Both the *Default/23.200.001* endpoint and the *Default/22.200.001* endpoint use Contract Version 4.
 
 |Entity|Related Form Name and ID|
 |------|------------------------|
@@ -237,9 +454,9 @@ The following tables contain the new, modified, or removed elements of the *Defa
 |Project.BillingAndAllocationSettings.Retainage|[Projects](../UserGuide/PM_30_10_00.md) \(PM301000\)|Use Project.Retainage instead.|
 |StockItem.SubItems|[Stock Items](../UserGuide/IN_20_25_00.md) \(IN202500\)| |
 
-## Comparing the Default/22.200.001 and Default/20.200.001 Endpoints { .section}
+## Comparing the Default/22.200.001 and Default/20.200.001 Endpoints
 
-The following tables contain the new, modified, or removed elements of the *Default/22.200.001* endpoint as compared to the *Default/20.200.001* endpoint.
+The following tables contain the new, modified, or removed elements of the *Default/22.200.001* endpoint as compared to the *Default/20.200.001* endpoint. Both the *Default/22.200.001* endpoint and the *Default/20.200.001* endpoint use Contract Version 4.
 
 |Entity|Related Form Name and ID|
 |------|------------------------|

@@ -1,4 +1,4 @@
-# Adding Customization Items to Customization Projects {#_9e611b83-582e-4a54-b935-c6dd037357c4 .concept}
+# Adding Customization Items to Customization Projects
 
 In this chapter, you will learn how to use the Customization Project Editor to add customization items to a customization project. These items are the components of different types that make up the customization project.
 

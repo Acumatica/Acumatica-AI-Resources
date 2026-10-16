@@ -1,4 +1,4 @@
-# Security of Inventory Entities {#_7f3a9388-a407-4fcf-924d-62d2e520cf8a .concept}
+# Security of Inventory Entities
 
 You can restrict the visibility of particular inventory entities \(such as stock items and warehouses\), as described in this chapter.
 

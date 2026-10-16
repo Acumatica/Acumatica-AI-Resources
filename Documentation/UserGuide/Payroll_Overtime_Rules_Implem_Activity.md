@@ -1,8 +1,8 @@
-# Overtime Rules: Implementation Activity {#_8d3c394f-6c1a-4253-b2f5-f278a5649724 .task}
+# Overtime Rules: Implementation Activity
 
 In the following implementation activity, you will learn how to configure overtime rules.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife company wants to use the following overtime rules:
 
@@ -11,11 +11,11 @@ Suppose that the SweetLife company wants to use the following overtime rules:
 
 Acting as a system administrator, you need to configure the needed overtime rules.
 
-## Process Overview { .section}
+## Process Overview
 
 You configure overtime rules on the [Overtime Rules](PR_10_40_00.md) \(PR104000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating deduction and benefit codes, you should launch the Acumatica ERP website and sign in as a system administrator by using the following credentials:
 
@@ -26,7 +26,7 @@ As a prerequisite activity, in the company to which you are signed in, be sure y
 
 As a prerequisite activity, in the company to which you are signed in, be sure you have performed the activities in the preceding lessons of this part of the course.
 
-## Step: Configuring Overtime Rules { .section}
+## Step: Configuring Overtime Rules
 
 To configure overtime rules, do the following:
 

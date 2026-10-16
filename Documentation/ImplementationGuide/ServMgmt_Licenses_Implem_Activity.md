@@ -1,16 +1,16 @@
-# License: To Create a License and Assign It to a Staff Member {#_e1be7842-89e5-40af-bc9a-545dc5f4e295 .task}
+# License: To Create a License and Assign It to a Staff Member
 
 Each license is associated with a specific employee. In this implementation activity, you will learn how to create a license record in the system and specify the staff member who owns the license in the record's settings.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Service and Equipment Sales Center tracks the licenses its employees have. The company also provides services that can be performed only by staff members with licenses. In Acumatica ERP, each license and its settings should be entered, including the employee who owns this license.
 
 Acting as an administrative user, you will create a license record in the system, and assign it to an employee who has the license.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -20,11 +20,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   On the [Services](../UserGuide/FS_40_08_00.md) \(FS400800\) form, the *DELIVERY* service has been created.
 -   On the [Employees](../UserGuide/EP_20_30_00.md) \(EP203000\) form, the *EP00000045 \(Luke Cole\)* employee has been created, and has been defined as a service management staff member. That is, the **Staff Member in Service Management** check box has been selected on the **General** tab for the employee.
 
-## Process Overview { .section}
+## Process Overview
 
 On the [Licenses](../UserGuide/FS_20_10_00.md) \(FS201000\) form, you will add license settings, including the staff member who has the license. Then on the [Employees](../UserGuide/EP_20_30_00.md) \(EP203000\) form, you will confirm that the license has been defined for the employee.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -33,7 +33,7 @@ Before you start this activity, do the following:
 3.  Make sure that the *Service Management* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md#) \(CS100000\) form.
 4.  Make sure that the following prerequisite activity has been completed: [License: To Create a License Type and Assign It to a Service](ServMgmt_License_Types_Implem_Activity.md) activity.
 
-## Step: Creating a License { .section}
+## Step: Creating a License
 
 To create a license, do the following:
 

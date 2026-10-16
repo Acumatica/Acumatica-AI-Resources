@@ -1,4 +1,4 @@
-# Discovering DACs {#_8ced4306-3fc8-478e-be08-873e3dedef5b .concept}
+# Discovering DACs
 
 To work with a generic inquiry, you need a basic understanding of how the needed data is requested from the Acumatica ERP database. Thus, you need general knowledge of data access classes \(DACs\).
 

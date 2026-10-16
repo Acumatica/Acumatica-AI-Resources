@@ -1,4 +1,4 @@
-# Table Depreciation Methods {#_bc258ce7-9063-441a-be38-97f85f95d09d .concept}
+# Table Depreciation Methods
 
 Acumatica ERP supports using the depreciation tables in which the depreciation method and allowed depreciation expense per year are fixed. You can use the predefined table-based depreciation methods or add your own custom depreciation methods by using the [Depreciation Table Methods](FA_20_26_00.md) \(FA202600\) form.
 

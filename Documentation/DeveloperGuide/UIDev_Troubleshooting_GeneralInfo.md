@@ -1,8 +1,8 @@
-# Modern UI Troubleshooting: General Information {#_cd7a9249-f3ad-4300-851c-88a94dc6c02d .concept}
+# Modern UI Troubleshooting: General Information
 
 If you experience issues with the code developed for the Modern UI, you may need to use the troubleshooting techniques.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -11,7 +11,7 @@ In this chapter, you will learn how to do the following:
 -   Specify the log level for building the source code
 -   Build the source code for a particular tenant
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You troubleshoot the Modern UI in the following cases:
 
@@ -19,7 +19,7 @@ You troubleshoot the Modern UI in the following cases:
 -   UI components work incorrectly.
 -   Build of the Modern UI fails.
 
-## Modern UI Troubleshooting { .section}
+## Modern UI Troubleshooting
 
 To troubleshoot issues with the Modern UI, you can use the built-in browser tools. You can find brief descriptions of particular troubleshooting scenarios in [Modern UI Troubleshooting: Developer Tools in the Browser](UIDev_Troubleshooting_BrowserTools.md).
 

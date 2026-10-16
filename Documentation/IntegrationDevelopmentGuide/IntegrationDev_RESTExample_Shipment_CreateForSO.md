@@ -1,8 +1,8 @@
-# Create a Shipment for Sales Orders {#_fbde1400-430a-4927-9891-0ea58b18eef1 .concept}
+# Create a Shipment for Sales Orders
 
 You can create a shipment for multiple sales orders in a single REST API call.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you test the request below, you need to do the following to configure your client application and the Acumatica ERP instance to be used:
 
@@ -11,25 +11,25 @@ Before you test the request below, you need to do the following to configure you
 3.  To sign in to the instance in the client application, use the tenant name \(which you specified when you created the instance\) and the *MYSTORE* branch.
 4.  On the [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\) form, find the sales orders with the *000004* and *000006* order numbers. These are the preconfigured sales orders of the customer with the *C000000003* customer ID. Make sure that these sales orders have the *Open* status.
 
-## Request { .section}
+## Request
 
 You can use the following example of an HTTP request to create a shipment for two sales orders.
 
 **Tip:** In the request example below, `<Acumatica ERP host>` is the URL of the Acumatica ERP host \(such as *https://my.acumatica.com*\). You need to use the instance name in the URL of the request \(such as *https://my.acumatica.com/MyInstance*\) if the instance is not installed in the root of the website.
 
 ```
-PUT /entity/Default/25.200.001/Shipment?
-    $select=Type,ShipmentNbr,Status,Details/InventoryID&
-    $expand=Details HTTP/1.1
+PUT /entity/Default/26.200.001/Shipment?
+    $select=Type,ShipmentNbr,Status&
+    $expand=Details($select=InventoryID) HTTP/1.1
 Host: <Acumatica ERP host>
 Accept: application/json
 Content-Type: application/json
 
 {
-	"Type":{"value":"Shipment"},
+	"Type":{"value":{ "id": "N" }},
 	"CustomerID":{"value":"C000000003"},
 	"WarehouseID":{"value":"MAIN"},
-      "ShipmentDate":{"value":"2025-11-01"},
+      "ShipmentDate":{"value":"2026-11-01"},
 	"Details":[
 		{
 			"OrderType":{"value":"SO"},
@@ -43,7 +43,7 @@ Content-Type: application/json
 }
 ```
 
-## Usage Notes { .section}
+## Usage Notes
 
 Note the following about creation of a shipment:
 

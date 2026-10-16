@@ -1,12 +1,12 @@
-# Initial Configuration: To Set Up a Shopify Store {#_a62e068b-df4c-4170-95ce-333a1a740f0a .task}
+# Initial Configuration: To Set Up a Shopify Store
 
 This activity will guide you through the process of signing up for a Shopify trial account and performing the minimum configuration of a Shopify store so that it can be connected with the Acumatica ERP instance.
 
-## Story { .section}
+## Story
 
 The SweetLife company is planning on opening an online store built on the Shopify platform. The store's warehouse, from which the goods sold online will be shipped, is based in New York. The company maintains the prices of its products in U.S. dollars and delivers products across New York by using the company's own vehicles. As an implementation consultant helping SweetLife to implement the integration between Shopify and Acumatica ERP, you want to set up a new store and perform the minimum required configuration of the Shopify store that will be sufficient to proceed with the configuration of the integration.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will perform the following steps in Shopify:
 
@@ -17,7 +17,7 @@ In this activity, you will perform the following steps in Shopify:
 5.  Review the default shipping options
 6.  Review the storefront settings
 
-## Step 1: Signing Up for a Shopify Trial Account { .section}
+## Step 1: Signing Up for a Shopify Trial Account
 
 **Attention:** This activity covers the creation and basic configuration of a new Shopify store. The results of performing the instructions presented below are used in subsequent activities. We recommend that you sign up for a new trial account and create a new store for testing purposes. If you have an existing test store and do not want to set up another one, make sure that in the subsequent activities, you make the necessary adjustments where the results of the current activity are used.
 
@@ -39,7 +39,7 @@ Create a Shopify trial account as follows:
     **Tip:** Add the link to the admin area of your Shopify store to your favorites to quickly access it.
 
 
-## Step 2: Setting the Store Name { .section}
+## Step 2: Setting the Store Name
 
 To specify the store name, while you are signed in to the admin area of your Shopify store, do the following:
 
@@ -53,7 +53,7 @@ To specify the store name, while you are signed in to the admin area of your Sho
 5.  In the **Store phone** box, enter `516 555 0150`.
 6.  At the top of the page, in the **Unsaved changes** bar, click **Save**.
 
-## Step 3: Specifying the Default Store Settings { .section}
+## Step 3: Specifying the Default Store Settings
 
 To specify the store time zone and to select the currency that will be used for charging customers, do the following:
 
@@ -64,7 +64,7 @@ To specify the store time zone and to select the currency that will be used for 
     2.  In the **Change store currency** dialog box, which opens, select *US Dollar \(USD $\)*
     3.  In the lower right, click **Save** to save the currency and close the dialog box.
 
-## Step 4: Setting the Store Address { .section}
+## Step 4: Setting the Store Address
 
 To specify the store address, do the following:
 
@@ -87,7 +87,7 @@ To specify the store address, do the following:
     The address you have entered is the default address of your store that will be used for calculation of shipping rates.
 
 
-## Step 5: Reviewing the Default Shipping Options { .section}
+## Step 5: Reviewing the Default Shipping Options
 
 To review shipping options that will be available to shoppers, do the following:
 
@@ -98,7 +98,7 @@ To review shipping options that will be available to shoppers, do the following:
     Notice that the **Fulfillment location** section displays the address that you specified for your store. Notice that two shipping zones \(*Domestic* and *International*\) have been created by default, and a set of rates has been defined for the *Domestic* shipping zone. This shipping zone will be used in subsequent activities.
 
 
-## Step 6: Reviewing the Storefront Settings { .section}
+## Step 6: Reviewing the Storefront Settings
 
 To review the storefront settings and the storefront itself, do the following:
 

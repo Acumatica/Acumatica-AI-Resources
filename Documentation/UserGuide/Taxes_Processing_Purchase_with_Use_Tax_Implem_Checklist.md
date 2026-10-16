@@ -1,4 +1,4 @@
-# Purchases with Use Taxes: Implementation Checklist {#_8945de4b-100e-42b7-8301-89bb186543d6 .concept}
+# Purchases with Use Taxes: Implementation Checklist
 
 To ensure that the system is configured properly for creating an AP bill with a use tax applied automatically, make sure that the criteria listed in the table have been met in the system as described.
 
@@ -11,7 +11,7 @@ To ensure that the system is configured properly for creating an AP bill with a 
 |[Stock Items](IN_20_25_00.md)\(IN202500\), [Non-Stock Items](IN_20_20_00.md) \(IN202000\)|To calculate tax amounts in the documents in which you specify inventory IDs, you should create stock items \(for goods\) and non-stock items \(for services\) and associate each item with the appropriate tax category.| |
 |[Vendors](AP_30_30_00.md) \(AP303000\)|You should create needed vendors in the accounts payable subledger if they don't already exist. Depending on the geographical location of the purchase transaction, you must assign an appropriate tax zone to the vendor.| |
 
-## Settings That Affect the Workflow {#section_snk_fjv_vxb .section}
+## Settings That Affect the Workflow
 
 The following settings and entities should be specified and defined, respectively:
 

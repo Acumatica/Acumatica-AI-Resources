@@ -1,19 +1,19 @@
-# Sale of Matrix Items: Export of Product Images {#_396328f2-6153-4384-bdf9-a096511ee1e0 .concept}
+# Sale of Matrix Items: Export of Product Images
 
 Product images and videos can help customers select the most suitable products and choose variants, such as colors or patterns. In Acumatica ERP, you can save images of template items \(such as a particular model of running shoes\), as well as images of the matrix items that were generated based on these template items \(such as the colors of this model of running shoes\). You can then export the saved images to the Shopify store.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to export images for template and matrix items from Acumatica ERP to the Shopify store.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You export images for template items and matrix items from Acumatica ERP to the Shopify store in the following cases:
 
 -   You are initially configuring the Shopify store and need to export template items and matrix items \(including images that have been saved for them\) from Acumatica ERP to the store.
 -   You have updated the images of a template item or the images of a matrix item in Acumatica ERP after the template item was synchronized with the Shopify store, and you need the changes to be reflected in the product settings in the store.
 
-## Export of Images for Template Items { .section}
+## Export of Images for Template Items
 
 In Acumatica ERP, you can associate images with template items in two ways:
 
@@ -24,7 +24,7 @@ Images specified as links in the **Media URLs** table on the **eCommerce** tab a
 
 Images that have been attached to a template item on the [Template Items](IN_20_30_00.md) form are exported to the Shopify store during the synchronization of the *Product Image* entity. The items the images belong to must be exported to the Shopify store or created in the Shopify store before the images attached to it are exported. The system exports the files attached to the item only if they have extensions for which the **Image** check box is selected on the [File Upload Preferences](SM_20_25_50.md) \(SM202550\) form.
 
-## Export of Images for Matrix Items { .section}
+## Export of Images for Matrix Items
 
 In Acumatica ERP, you can attach images to a matrix item on the **Attributes** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) or [Non-Stock Items](IN_20_20_00.md) \(IN202000\) form \(depending on the type of the item\).
 

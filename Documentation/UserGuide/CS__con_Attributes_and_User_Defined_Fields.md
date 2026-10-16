@@ -1,4 +1,4 @@
-# Managing Attributes and User-Defined Fields {#_9ac91432-d70f-4f00-bc0a-f5569d76cdfd .concept}
+# Managing Attributes and User-Defined Fields
 
 In Acumatica ERP, you can use classes for flexible grouping of entities, such as leads, opportunities, customers, and inventory items. Initially, Acumatica ERP contains a number of preconfigured classes, which you can tailor as needed, and you can create additional classes to meet your needs to group entities meaningfully.
 
@@ -6,7 +6,9 @@ You specify all applicable settings for classes, and you can define *attributes*
 
 When a user creates an entity that must have an entity class selected, the user first selects the class. If any attributes are defined for the particular class, the system lists these attributes on the **Attributes** tab of the data entity form. On that tab, the user specifies the appropriate settings of the attributes of the class \(such as the manufacturer of a particular item of the item class, or the industry of a particular customer of the customer class\).
 
-Not all system entities have entity classes, so you cannot add attributes via classes and the **Attributes** tab for all entities. To provide this information-tracking capability, if you have the *Customizer* role, you can add *user-defined fields* directly to the Acumatica ERP data entry forms where these entities are created. You add these user-defined fields, which are based on predefined and site-specific attributes defined in the system, to a particular data entry form.
+Not all system entities have entity classes, so you cannot add attributes through classes and the **Attributes** tab for all entities. To track additional information for an entity, if you have the *Administrator* or *Customizer* role, you can add *user-defined fields* to any data entry form. User-defined fields are based on predefined or site-specific attributes defined in the system.
+
+In UI Configuration mode, you first associate a user-defined field with the form and specify its properties. You then add the field to the applicable section of the form and apply the configuration system-wide.
 
 -   **[Attributes](../UserGuide/CS__con_Attributes.md)**  
 

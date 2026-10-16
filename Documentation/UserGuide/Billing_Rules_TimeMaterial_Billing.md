@@ -1,8 +1,8 @@
-# Billing Rules: Time and Material Billing {#_d030490b-2d81-4f9a-9501-13e37de6edac .concept}
+# Billing Rules: Time and Material Billing
 
 For a billing rule defined on the [Billing Rules](PM_20_70_00.md) \(PM207000\) form, you specify the sequence of steps in the left pane and the settings of each step in the right pane. The following sections list the settings that you can specify for a billing rule step of the *Time and Material* type, and describes the process of billing a project for time and material by using a simple one-step billing rule.
 
-## Configuration of a Billing Rule Step { .section}
+## Configuration of a Billing Rule Step
 
 For a billing rule step of the *Time and Material* type, you can specify the following settings:
 
@@ -20,7 +20,7 @@ For a billing rule step of the *Time and Material* type, you can specify the fol
 -   Non-billable transactions that do not contribute to the amount billed to the customer and that you may decide to include in the invoice.
 -   Grouping criteria by date, employee, vendor, and inventory item for the invoice lines created by the *Time and Material* billing steps.
 
-## The Time and Material Billing Process { .section}
+## The Time and Material Billing Process
 
 The time and material billing workflow is provided for project tasks that need to be billed based on project transactions. Time and material billing can be performed only for project tasks of a project that is pending billing—that is, if the project has at least one unbilled transaction that is ready to be billed on the invoice date. The *Time and Material* billing steps can be run once the project transactions that match the selection criteria have been processed. Optionally, the allocation process can be executed for these transactions before billing. For more information, see [Project Billing Preparation: General Information](../Shared/../UserGuide/Projects_Project_Billing_Preparation_GeneralInfo.md).
 

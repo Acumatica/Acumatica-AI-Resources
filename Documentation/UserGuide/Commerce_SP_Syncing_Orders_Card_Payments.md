@@ -1,8 +1,8 @@
-# Order Synchronization: Card Payments {#_81e38562-0f7f-4114-a896-b02982e37ae9 .concept}
+# Order Synchronization: Card Payments
 
 In Acumatica ERP Retail Edition, users can import and, if necessary, process debit and credit card payments from external ecommerce systems through integration with payment gateways. The ability to use card-processing features, such as authorization, capture, voiding, and refunding card transactions, is available if the *Integrated Card Processing* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. This topic explains how to configure payment providers for processing of payments made in the Shopify store after they are imported to Acumatica ERP.
 
-## Configuration of Shopify Payments for Integrated Card Processing { .section}
+## Configuration of Shopify Payments for Integrated Card Processing
 
 Shopify Payments is a payment provider available to Shopify customers in certain countries and regions. It supports all major payment methods, does not require additional registration, and can be used as soon as the store is created. For information about availability of Shopify Payments, see [the Shopify documentation](https://help.shopify.com/en/manual/payments/shopify-payments/shopify-payments-requirements).
 
@@ -28,7 +28,7 @@ Before payments based on Shopify Payments can be imported from the Shopify store
 
 For step-by-step instructions on configuring and importing payments based on the Shopify Payments payment method, see [Order Synchronization: To Configure and Import Shopify Payments](Commerce_SP_Syncing_Orders_To_Use_Shopify_Payments.md).
 
-## Configuration of Acumatica Payments for Integrated Card Processing { .section}
+## Configuration of Acumatica Payments for Integrated Card Processing
 
 Acumatica Payments is a payment provider available to Shopify customers as an app. Before payments based on Acumatica Payments can be imported from the Shopify store to Acumatica ERP, you need to configure payment processing via Acumatica Payments as follows:
 
@@ -51,7 +51,7 @@ Due to limitations of the Acumatica Payments integration with Shopify, you canno
 
 If a payment is authorized in Shopify with Acumatica Payments, imported into Acumatica ERP, and then captured in Shopify, the connector validates it in Acumatica ERP automatically during the next synchronization. However, if a payment is authorized and captured in Shopify before the first import into Acumatica ERP, you must additionally validate the payment in Acumatica ERP.
 
-## Mapping of Card-Based Payment Methods { .section}
+## Mapping of Card-Based Payment Methods
 
 During the configuration of a connection to the Shopify store, one of the steps you perform is the mapping of payment methods configured in Acumatica ERP with payment methods configured in the Shopify store. You define payment method mapping in the table on the **Payments** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form.
 
@@ -64,7 +64,7 @@ You specify the following:
 -   **Release Payments and Refunds**: A check box that you select to indicate that the payment should be immediately released after it is imported to Acumatica ERP. If this check box is selected for a card-based payment method associated with a credit card processing center in Acumatica ERP \(that is, for the payment method for which a processing center is selected in the **Proc. Center ID** column\), only payments that have been captured in the store will be automatically released on import. Payments that have been authorized but not captured in the store need to be processed after import and then released manually or by using the [Release AR Documents](AR_50_10_00.md) \(AR501000\) form.
 -   **Process Refunds**: A check box that indicates \(if selected\) that refunds made to the payment method should be imported to Acumatica ERP. This check box is selected and unavailable for card payment methods for which a processing center is specified, which indicates that all refunds made to such payment methods must be imported to Acumatica ERP.
 
-## Additional Mapping for Shopify Payments Fees { .section}
+## Additional Mapping for Shopify Payments Fees
 
 You can import the breakdown of fees charged on each payment made with Shopify Payments in a Shopify store.
 
@@ -85,7 +85,7 @@ To import the Shopify Payments fees to Acumatica ERP, you need to perform the fo
     Initially, the **Payment Fees** table is empty. During the first import of a payment containing Shopify Payments fees, the synchronization fails, and the **Fee Type** column is populated with the Shopify Payments fees. You need to map each Shopify Payments fee type with an entry type by specifying the entry type of the *Disbursement* type in the **ERP Entry Type** column, and then sync the payment again.
 
 
-## Import of Card Payments with Integrated Card Processing { .section}
+## Import of Card Payments with Integrated Card Processing
 
 When the pre-authorized payment is imported from Shopify to Acumatica ERP \(as part of the synchronization of the *Sales Order* entity or the *Payment* entity\), on the [Payments and Applications](AR_30_20_00.md) \(AR302000\) form, the system creates a document of the *Prepayment* type with the *Pending Processing* status. In the Summary area of the created document, the system inserts the following information:
 
@@ -108,9 +108,8 @@ On the **Card Processing** tab, the system creates a row for the last successful
 
 The following diagram illustrates the workflow of importing a sales order to Acumatica ERP from a Shopify store where it was placed and paid by a card based on a payment method for which integrated card processing has been configured in Acumatica ERP.
 
-![](Images/diag_Commerce_SP_Importing_Order_Card_Payment.png)
 
-## Deferred Processing of Imported Credit Card Payments { .section}
+## Deferred Processing of Imported Credit Card Payments
 
 Credit card transactions created in Acumatica ERP during the import of payments based on credit card payment methods require validation if the last operation on the credit card transaction has the *Unknown* status.
 

@@ -1,14 +1,14 @@
-# Emails and Activities: To Create an Email {#_28e5d1a5-065c-482f-ae9a-db31fd963c4a .task}
+# Emails and Activities: To Create an Email
 
 The following activity will demonstrate how to create an email.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Bill Owen, a marketing manager of the SweetLife Fruits &amp; Jams company. You have obtained contact information for Donna Coleman, a buyer at Yummy Supplies supermarket and created the *Donna Coleman* lead in the system. You need to email to Donna the company’s special offer on fruits.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -16,11 +16,11 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
 -   On the [Leads](CR_30_10_00.md) \(CR301000\) form, the *Donna Coleman* lead has been added to the system.
 -   On the [Email Accounts](SM_20_40_02.md) \(SM204002\) form, the *marketing@sweetlife.example.com* system email account has been configured.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create an email on the **Activities** tab of the [Leads](CR_30_10_00.md) \(CR301000\) form.
 
-## Step: Creating an Email { .section}
+## Step: Creating an Email
 
 To create an email to be sent to the *Donna Coleman* lead, do the following:
 

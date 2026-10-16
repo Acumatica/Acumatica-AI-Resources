@@ -1,4 +1,4 @@
-# Closing Financial Periods in Separate Companies {#_b95e6b29-39de-4c01-becf-1e8af3acf760 .concept}
+# Closing Financial Periods in Separate Companies
 
 In this chapter, you will find general information on how to close financial periods in separate companies and an activity that describes how to close a period in two companies in the same tenant.
 

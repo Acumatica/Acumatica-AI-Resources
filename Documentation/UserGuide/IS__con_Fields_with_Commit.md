@@ -1,4 +1,4 @@
-# Fields with Commit in Import and Export Scenarios {#_3f5047b1-51e2-4089-956c-32a888aeda55 .concept}
+# Fields with Commit in Import and Export Scenarios
 
 There are two types of fields on Acumatica ERP forms: fields with commit, and fields without commit. A commit is an action initiated by the form that, when triggered, sends the data to the server. On the server, the commit causes all data on the form to be updated, including the insertion of default values and the recalculation of appropriate fields on the form.
 

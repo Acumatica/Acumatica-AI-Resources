@@ -1,4 +1,4 @@
-# Image Viewer: Loading of Images from a Third-Party Source {#_af5a39e1-9d92-4d60-beea-def43cd2327f .concept}
+# Image Viewer: Loading of Images from a Third-Party Source
 
 When a user specifies an image from a third-party source \(such as a third-party integration\), the Cross-Origin Resource Sharing \(CORS\) policy may prevent the system from loading it.
 

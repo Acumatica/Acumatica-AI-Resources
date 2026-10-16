@@ -1,8 +1,8 @@
-# To Run a Report {#_d0531b2f-178f-4d70-8c4c-6bc897cd6c0a .task}
+# To Run a Report
 
 Acumatica ERP reports display the information you want to see in easy-to comprehend formats. This topic describes how you run a typical report.
 
-## To Run a Report {#1 .section}
+## To Run a Report
 
 1.  Open the report form.
 2.  On the **Report Parameters** tab, select the report parameters.
@@ -18,7 +18,7 @@ Acumatica ERP reports display the information you want to see in easy-to compreh
 
 This generates and displays the report. Now you can print the report or save it to your computer in one of the available formats.
 
-## To Change the Parameters of a Prepared Report { .section}
+## To Change the Parameters of a Prepared Report
 
 You can modify report parameters after you've prepared a report. To change the report parameters, do the following:
 
@@ -28,6 +28,4 @@ You can modify report parameters after you've prepared a report. To change the r
     **Tip:** You can click **Parameters** to toggle between the report form and the report without losing the changes made on the report form.
 
 3.  Click **Run Report** to view the report with the new parameters applied.
-
-**Parent topic:**[Reports](../InterfaceGuide/Report_Processing_Options.md)
 

@@ -1,4 +1,4 @@
-# Processing Sales from Multiple Warehouses {#_0350e599-c6bd-428a-b586-404b0029d6bd .concept}
+# Processing Sales from Multiple Warehouses
 
 In some cases, you may need to fulfill a sales order with items that are stored in different warehouses, which require the allocation of some items in another warehouse \(or multiple warehouses\) and transfer of the items to a destination warehouse, from which the order will then be shipped.
 

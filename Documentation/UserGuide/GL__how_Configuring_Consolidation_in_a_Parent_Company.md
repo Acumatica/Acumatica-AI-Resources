@@ -1,17 +1,17 @@
-# GL Consolidation Configuration \(Optional\): To Configure Consolidation in a Parent Company with Subaccounts {#_dc8bfc9d-62a4-476e-8361-e25947ead8be .task}
+# GL Consolidation Configuration \(Optional\): To Configure Consolidation in a Parent Company with Subaccounts
 
 To set up consolidation, the following actions should be performed in the system of the parent tenant:
 
 1.  Access should be provided to each subsidiary \(that is, a consolidation unit\) to Acumatica ERP website by specifying valid credentials.
 2.  Synchronization should be performed to update the list of ledgers and branches available in each subsidiary as sources of consolidation data.
 
-## Before You Proceed {#section_wzl_mjv_vxb .section}
+## Before You Proceed
 
 -   In each consolidation unit whose branches store the data to be consolidated, on the [Ledgers](GL_20_15_00.md) \(GL201500\) form, make sure that the necessary ledgers have been specified as the consolidation sources.
 -   Provide personnel at consolidation units with information about accounts and subaccounts of the branch of parent tenant, so that this information can be used for mapping.
 -   Give these personnel information about the parent tenant base currency, to allow consolidation units to translate the data intended for consolidation from the base currency of each consolidation unit to the base currency used by the parent tenant.
 
-## To Provide Access to Consolidation Units in the System that Uses Subaccounts {#section_yzl_mjv_vxb .section}
+## To Provide Access to Consolidation Units in the System that Uses Subaccounts
 
 1.  Open the [Consolidation](GL_10_30_00.md) \(GL103000\) form.
 2.  In the **Consolidation Segment Number** box, specify the subaccount segment ID that is used in the parent company to designate the subsidiaries \(consolidation units\).

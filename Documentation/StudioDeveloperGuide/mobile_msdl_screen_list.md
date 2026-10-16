@@ -1,8 +1,8 @@
-# Configuring Lists {#_a363d54e-6c3e-4de3-8ac2-5940d276870d .reference}
+# Configuring Lists
 
 This topic describes how to configure a screen that contains a list of records created by an entry form in Acumatica ERP.
 
-## Example: Creating a Simple List View Layout { .section}
+## Example: Creating a Simple List View Layout
 
 A list view \(that is, a list of records\) is the simplest screen layout.
 
@@ -14,7 +14,6 @@ In this example, you will add a list of records that have been created on the [I
 
 Before adding a list of records created by a particular form, you need to find the names of elements you want to map. To do that, use the Element Inspector. For details, see [Element Inspector](../UserGuide/AU_ElementInspector.md) and [To Map a Screen in the Modern UI](Mobile_MSDL_UseModernUI.md). In this example, we want to map action buttons and fields of a record. To map the fields, you need to know the container name \(the **View Name** from the **Element Inspector** dialog box\) and the field name \(the **Data Field** value from the **Element Inspector** dialog box\). The **Element Inspector** dialog box for one of the fields is shown below.
 
-![](Images/Mobile_List_ElementInspector.png "The Element Inspector dialog box")
 
 **Note:** If you are mapping a screen that exists both in the Classic UI and the Modern UI, all the elements for mapping should be present in the Classic UI—that is, the ASPX file of the form.
 
@@ -43,7 +42,6 @@ add screen AR301000 {
 
 The left screenshot below shows the resulting screen you will see in the mobile application; you can tap any record to make changes to it. The right screenshot shows the form view of an individual record. Once you change any setting in this view, the ✓ symbol appears. Tap it to save your changes.
 
-![](Images/MOBILE_List.png "Use of the list view layout and form view layout")
 
 **Note:** All list views in Acumatica ERP mobile app support multi-selection. You can select multiple records and perform actions that have been declared as [selectionAction](mobile_ref_msdl_objtypes_seleciona.md).
 

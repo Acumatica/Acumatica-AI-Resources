@@ -1,8 +1,8 @@
-# Scrap Cost Calculation: Generated Transactions {#_03732932-d80e-492e-b869-07a3d947cef2 .concept}
+# Scrap Cost Calculation: Generated Transactions
 
 If the system is configured so that scrap costs are posted to a specific GL account or a scrapped quantity is moved to a specific warehouse, when you process production orders and the related transactions to record scrap costs, the system also updates GL balances. Details about the transactions are described in the following sections.
 
-## Transactions Generated for Written-Off Scrap Costs { .section}
+## Transactions Generated for Written-Off Scrap Costs
 
 When a scrap action for an operation of a production order is *Write Off* and a shop-floor employee enters the scrap quantity in a labor transaction on the [Labor](AM_30_10_00.md) \(AM301000\) form or a move transaction on the [Move](AM_30_20_00.md) \(AM302000\) form, the system creates a WIP adjustment transaction on the [WIP Adjustment](AM_30_80_00.md) \(AM308000\) form to move the scrap cost from the Work in Process GL account to a Scrap Expense GL account. For this transaction, the system generates a batch of the general ledger transactions shown in the following table.
 
@@ -13,7 +13,7 @@ When a scrap action for an operation of a production order is *Write Off* and a 
 
 You can view the reference number of the GL batch in the **GL Batch Nbr** column \(which is hidden by default\) on the [WIP Adjustment](AM_30_80_00.md) form.
 
-## Transactions Generated for Quarantined Scrap { .section}
+## Transactions Generated for Quarantined Scrap
 
 When a scrap action for an operation of a production order is *Quarantine* and a shop-floor employee enters the scrap quantity in a labor transaction on the [Labor](AM_30_10_00.md) \(AM301000\) form or a move transaction on the [Move](AM_30_20_00.md) \(AM302000\) form, the system creates the following transactions:
 

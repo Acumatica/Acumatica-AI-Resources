@@ -1,10 +1,10 @@
-# Lead Assignment to Owners and Workgroups: Process Activity {#_4fed4813-66a9-41e6-b1e1-3af746d7ca61 .task}
+# Lead Assignment to Owners and Workgroups: Process Activity
 
 The following activity demonstrates how to assign leads to owners and workgroups and set up the system to assign leads to owners automatically. The activity will show you how to define a lead class so that leads of the class are assigned to their creators by default. You will also practice manually assigning leads to the appropriate owners, both for an individual lead and by using the mass-processing form to assign multiple users to the needed owners.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are Bill Owen, a new marketing manager of the SweetLife Fruits &amp; Jams company.You are performing several tasks related to assigning leads to the appropriate owner. First, you need to modify an existing lead class \(the class for confectioneries\) so that by default, when a new lead of the class is created, the system assigns the lead’s creator as its owner. Also, a new lead, *Stanley Carson*, has been created in the system, and you want to manually assign this lead to you and to your workgroup.
 
@@ -15,7 +15,7 @@ A number of leads whose companies can be classified as stores \(including superm
 
 The workgroups listed above have been defined in the company tree and an assignment map has been created to assign leads to the needed workgroup; also, you have specified the needed configuration setting to cause the system to use this assignment map when you are mass-assigning leads. You will mass-assign leads by using this assignment map.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -29,7 +29,7 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
     -   *Stanley Carson*, assigned to the *BAKERY* lead class
     -   *Duncan Saunders*, assigned to the *CAFE* lead class
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -37,7 +37,7 @@ In this activity, you will do the following:
 2.  Manually assign a particular lead to an owner by using the [Leads](CR_30_10_00.md) \(CR301000\) form.
 3.  Assign selected leads to owners by using the [Assign Leads](CR_50_30_10.md) \(CR503010\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start assigning leads to owners, you should do the following:
 
@@ -48,7 +48,7 @@ Before you start assigning leads to owners, you should do the following:
 3.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 4.  Make sure that on the [Customer Management Preferences](CR_10_10_00.md) \(CR101000\) form \(in the **Lead Assignment Map** box of the **Assignment Settings** section of the **General** tab\), *Lead Assignment Map* is specified. If it is not, select this assignment map, and save your changes. The system will use this assignment map during the process of mass-assigning leads.
 
-## Step 1: Specifying a Default Owner for New Leads of a Lead Class { .section}
+## Step 1: Specifying a Default Owner for New Leads of a Lead Class
 
 You can modify the settings of a lead class to specify how the system assigns the default owner of a newly created lead of the class—that is, whether the default owner is the creator of the lead, a user determined by an assignment map that you specify \(so that specific owners can be assigned\), or the owner of the entity \(such as a contact\) from which the lead is created, if the lead was created in this way.
 
@@ -73,7 +73,7 @@ To specify the default owner of an existing lead class and make sure the owner i
 
 You have specified how the system determines the default owner for leads of the *SWEETSHOP* lead class and then created a new lead to test the setting. The system has appropriately inserted the default owner for the new lead. Each time a user creates a lead of the *SWEETSHOP* class, the system will insert the employee name of the creator of the lead as the owner of the lead.
 
-## Step 2: Assigning a Lead to an Owner Manually { .section}
+## Step 2: Assigning a Lead to an Owner Manually
 
 To assign a lead to an owner manually, do the following:
 
@@ -90,7 +90,7 @@ To assign a lead to an owner manually, do the following:
 
 You have assigned a lead to yourself and you can start working with this lead.
 
-## Step 3: Assigning Selected Leads to Workgroups { .section}
+## Step 3: Assigning Selected Leads to Workgroups
 
 Suppose that the *Douglas Keatinge* and *Duncan Saunders* new leads have been added to the system and you need to assign these leads to workgroups.
 
@@ -116,7 +116,6 @@ To mass-assign multiple selected leads to owners, do the following:
 
 You have assigned two leads to workgroups according to the rules specified in the lead assignment map, as shown in the following screenshot.
 
-![](Images/activity_CRM_Mktg_Assigning_Leads_to_Workgroups.png "Leads assigned to workgroups")
 
 **Parent topic:**[Assigning Leads to Owners and Workgroups](../UserGuide/CRM_Mktg_Assigning_Leads_To_Owners_Mapref.md)
 

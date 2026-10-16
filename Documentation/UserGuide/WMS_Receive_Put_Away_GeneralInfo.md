@@ -1,10 +1,10 @@
-# Receiving and Putting Away Operations: General Information {#_2b4ef89d-2cb7-4e67-a03b-26655897d01d .concept}
+# Receiving and Putting Away Operations: General Information
 
 If the *Receiving* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form, you can perform the automated receiving and putting away of stock and non-stock items by using a barcode scanner or a mobile device with a scanning option.
 
 In this topic, you will read about the workflow for the automated receiving and putting away of these items in Acumatica ERP. The workflow in this topic is based on the assumption that your system has the recommended configuration described in [Receiving and Putting Away Operations: Implementation Checklist](WMS_Receive_Put_Away_Implem_Checklist.md).
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will do the following:
 
@@ -15,21 +15,20 @@ In this chapter, you will do the following:
 -   Receive items to a receiving location of a warehouse in an automated mode and verify the received items and item quantities
 -   Put away items in their storage locations in an automated mode
 
-## Applicable Scenario { .section}
+## Applicable Scenario
 
 You can perform the automated receiving and putting away of stock and non-stock items if in your company's warehouses, all purchased items are received to a dedicated location. A warehouse worker receives items from a purchase receipt to this location. Then the warehouse worker puts away the received items in the locations where the items will be stored. To track the operations as they are being performed, the worker scans the appropriate barcodes by using a barcode scanner or mobile device.
 
 You can perform automated receiving of items for purchase orders with the *Open* status, and purchase receipts with the *Balanced* status. You can perform the automated putting away of items for purchase receipts with the *Released* status.
 
-## Receipt of Extra Quantity { .section}
+## Receipt of Extra Quantity
 
 If the actual quantity of received items is more than the quantity specified in the processed purchase document, you can process the receipt of these items as an automated operation as well. If you scan a quantity that exceeds the quantity in the line that is currently being processed, the system requests confirmation for adding this quantity. If you confirm this addition with the `*ok` barcode or the **OK** button, the system adds a new line with the extra quantity to the processed purchase receipt, and shows this line in the table on the **Receive** tab of the [Receive and Put Away](PO_30_20_20.md) \(PO302020\) form. The line with the extra quantity is not linked to the purchase order for which the purchase receipt was prepared.
 
-## Workflow for the Automated Receipt of Items { .section}
+## Workflow for the Automated Receipt of Items
 
 The automated processing of receiving items involves the actions shown in the following diagram.
 
-![](Images/diag_WMS_Receive.png)
 
 To process the receipt of items \(and to use Receive mode\), you perform the following steps:
 
@@ -72,11 +71,10 @@ To process the receipt of items \(and to use Receive mode\), you perform the fol
     If you have finished the receiving operation and all items have been received for the purchase receipt \(or the items were received partially and more items will be received in the future\), you scan the `*release` barcode or click the **Release Receipt** button. The system does not mark partially received lines as completed and releases the purchase receipt on the [Purchase Receipts](PO_30_20_00.md) form.
 
 
-## Workflow for the Automated Putting Away of Items { .section}
+## Workflow for the Automated Putting Away of Items
 
 The automated processing of putting away items involves the actions shown in the following diagram.
 
-![](Images/diag_WMS_Put_Away.png)
 
 To process the putting away of items by using Put Away mode, you perform the following steps:
 

@@ -1,4 +1,4 @@
-# Contract Management: Last Action Cancellation {#_f6de1770-b2a6-4c90-923f-6e0fae9e0b6b .concept}
+# Contract Management: Last Action Cancellation
 
 Sometimes you realize that the last action you performed on a contract was incorrect, or it needs to be reversed because of a change in the customer's intentions. You can cancel the most recent action you performed on the contract by opening the contract on the [Customer Contracts](CT_30_10_00.md) \(CT301000\) form and clicking **Undo Last Action** on the More menu.
 

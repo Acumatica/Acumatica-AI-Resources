@@ -1,8 +1,8 @@
-# Cache Mapping {#_a5fb7e46-c6e8-438a-b640-1fa9f56b9525 .concept}
+# Cache Mapping
 
 In this topic, you can find information about how the Acumatica Framework maps data access class \(DAC\) types to graph caches and how to modify the default mapping.
 
-## What Cache Mapping Is { .section}
+## What Cache Mapping Is
 
 For every DAC whose data is read from the database and modified by the application logic, PXGraph stores the graph cache.
 
@@ -18,7 +18,7 @@ The type of `cache` in the code above is a base PXCache class, which hides the a
 
 The graph maps DAC types to graph caches. Such mapping between a DAC type and its corresponding graph cache is called *cache mapping*. Acumatica Framework implicitly defines cache mappings during the graph initialization. Depending on the declaration order of graph views in the graph, the framework can use only one cache for base and derived DACs. You can also specify cache mappings explicitly.
 
-## How Cache Mapping Works by Default: Base and Derived DACs in a Graph {#_f6ee2f4f-846c-4bd4-9a32-52f55bde65b7 .section}
+## How Cache Mapping Works by Default: Base and Derived DACs in a Graph
 
 During graph initialization, Acumatica Framework initializes caches and cache mappings for the main DACs \(that is, the first tables in the BQL query\) of all data views of the graph. Views use the PXCacheCollection.AddCacheMappingsWithInheritance method \(which maps a derived DAC type and all its base DAC types to the derived type\) to initialize cache mappings of their main DACs. Because the `AddCacheMappingsWithInheritance` method is used, the cache mapping depends on the order in which graph views are processed. The system processes the views in the order in which they are returned by .Net reflection, which almost always is the declaration order.
 
@@ -27,7 +27,7 @@ The system uses the following rules for cache mapping if the graph contains data
 -   If the view with the base DAC is declared first in the graph, the system creates two caches \(one for the base DAC and one for the derived DAC\). For each DAC, cache mapping points to its own cache with the same cache item type.
 -   If the view with the derived DAC is declared first in the graph, the system creates one cache for the derived DAC. For each DAC, the cache mapping points to the same cache with the derived item type.
 
-## How Cache Mapping Works by Default: Example { .section}
+## How Cache Mapping Works by Default: Example
 
 Suppose that the application code contains the following DACs: the `BaseDac` DAC, and the `DerivedDac` DAC, which is derived from `BaseDac`. Also, suppose that a graph contains the following views: a view for the base DAC \(`PXSelect<BaseDac> baseView`\), and a view for the derived DAC \(`PXSelect<DerivedDAC> derivedView`\).
 
@@ -35,7 +35,7 @@ If `derivedView` is processed first, AddCacheMappingsWithInheritance adds cache 
 
 If `baseView` is processed first, AddCacheMappingsWithInheritance adds cache mapping for the main DAC of `baseView` \(which is `BaseDac`\) to the `PXCache<BaseDac>` cache. When `derivedView` is processed, the method adds cache mapping for `derivedView`'s main DAC \(which is `DerivedDAC`\) to the `PXCache<DerivedDAC>` cache. However, the method does not add cache mapping for the base DAC type \(which is `BaseDac`\) because the cache mapping for `BaseDac` already exists. This means that the graph has two caches for these DACs.
 
-## How Cache Mapping Works by Default: Graph Hierarchies { .section}
+## How Cache Mapping Works by Default: Graph Hierarchies
 
 The views from a base graph are processed before the views from derived graphs. To conceptualize this, you can think of all views from base and derived graphs as being declared inside one graph. The views from the base graph will be declared first.
 
@@ -43,9 +43,8 @@ The views from the graph extension are processed after the views from the graph.
 
 If you think of all views from the whole graph hierarchy as being declared in a single graph, to find out the number of cache item types for the base and derived DACs, you can use the same rules as the rules for a single graph, which are described above. The following diagram illustrates these rules.
 
-![](Images/diag_Cache_Mapping.png "Cache mapping")
 
-## How Default Cache Mapping Can Be Modified { .section}
+## How Default Cache Mapping Can Be Modified
 
 To modify the default cache mapping, you override the virtual InitCacheMapping method of the graph and specify the new mapping in one of the following ways:
 

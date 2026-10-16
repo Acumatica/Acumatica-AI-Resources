@@ -1,4 +1,4 @@
-# Product Configurator {#_10cdda39-ef07-4233-9c01-a2f77b798d8f .concept}
+# Product Configurator
 
 The product configurator part of Acumatica ERP Manufacturing Edition is a rules-based system that provides you with the ability to configure and build custom products to order. This functionality is optional for the Manufacturing Edition and is integrated with the bills of material and production management functionality.
 

@@ -1,4 +1,4 @@
-# Making Additions to Fixed Assets {#_46f7d204-7112-457c-a6c9-e4b11b25bbec .concept}
+# Making Additions to Fixed Assets
 
 In this chapter, you will learn about making an addition to a fixed asset, which increases its current cost and the net value. You will learn about both methods of making an addition to a fixed assets: by converting a purchase into an addition and by making an addition manually.
 

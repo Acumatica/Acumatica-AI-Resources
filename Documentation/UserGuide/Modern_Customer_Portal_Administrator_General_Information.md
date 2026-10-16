@@ -1,4 +1,4 @@
-# Modern Customer Portal Administration: General Information {#_e2086fb1-f702-4139-9498-6266bdaf8f2c .concept}
+# Modern Customer Portal Administration: General Information
 
 The Modern Customer Portal is a customer-facing site connected to your Acumatica ERP system. Each portal allows your customers’ employees to interact with your company online, based on how you configure the portal and portal users’ access rights.
 
@@ -12,13 +12,13 @@ In this guide:
 -   The *portal owner* is your company—which runs Acumatica ERP and sets up and manages portals for external portal users.
 -   The *support team* is the portal owner’s team, which uses Acumatica ERP to process portal users’ cases.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 -   Your customers must rely on email or phone to interact with your company, which slows down tasks like placing orders, making payments, or getting support.
 -   Your company wants to reduce manual work and streamline how customer requests are handled by providing secure online access so customers can view information and complete common tasks on their own.
 -   You need to control what each customer can do based on how they work with your company.
 
-## Portal Architecture {#section_fwp_qxl_j3c .section}
+## Portal Architecture
 
 A customer portal in the Modern Customer Portal consists of:
 
@@ -27,7 +27,7 @@ A customer portal in the Modern Customer Portal consists of:
 
 You manage all portals centrally in Acumatica ERP.
 
-## System Features and Portal Forms {#section_jdq_4yl_j3c .section}
+## System Features and Portal Forms
 
 Some portal capabilities require system features to be enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form of Acumatica ERP:
 
@@ -35,11 +35,11 @@ Some portal capabilities require system features to be enabled on the [Enable/Di
 -   *Inventory and Order Management*
 -   *Case Management*
 
-These features are enabled or disabled system-wide. Then for each portal, you select the categories and forms to be available in the portal.
+These features are enabled or disabled system-wide. Then for each portal, you select the categories, forms to be available in the portal and add external URL screens and screens that open Wiki articles.
 
 This structure lets you control access at a granular level.
 
-## Managing Portals in Acumatica ERP { .section}
+## Managing Portals in Acumatica ERP
 
 With the [Portals](SP_70_10_00.md) \(SP701000\) form of Modern Customer Portal, you can brand and manage all portals for different customer accounts. On this form, you can:
 
@@ -47,14 +47,14 @@ With the [Portals](SP_70_10_00.md) \(SP701000\) form of Modern Customer Portal, 
 -   **Apply consistent settings:** Maintain consistent settings for portals for customers who purchase similar items and may have common settings, such as case class, visible warehouses, and processing center. You can also apply branding options consistently.
 -   **Tailor each portal's settings:** Enter customer-specific information and adjust settings to reflect the way this customer works with your company. This flexibility is useful, for example, when portal settings depend on the branch of your company the customer works with.
 
-## Roles and Access Control {#section_ovt_gyj_j3c .section}
+## Roles and Access Control
 
 You can control access to portal functionality through predefined roles—which determine the forms and actions available to portal users. Each portal user must be assigned at least one role. Roles can be assigned:
 
 -   In Acumatica ERP by an administrator
 -   In the portal by an authorized portal manager
 
-## Portal Administration {#section_dld_41m_j3c .section}
+## Portal Administration
 
 You do the following to configure a customer portal:
 
@@ -66,5 +66,4 @@ You do the following to configure a customer portal:
 
 Once you’ve created portals for customers, you can use the Portals \(SP7010PL\) list of records, shown below, as a starting point for working with any portal. From here, you can add a portal or view and edit any portal's configuration on the [Portals](SP_70_10_00.md) form.
 
-![](Images/Modern_Portal_Portals_form_Multiple_Portals.png "All portals in Acumatica ERP")
 

@@ -1,12 +1,12 @@
-# Menu: Handling the MenuSelected Event {#_ae45cb7d-6f3e-4635-914a-c00314e9ef54 .concept}
+# Menu: Handling the MenuSelected Event
 
 The qp-menu control fires a specific event, menuSelected, when a user clicks a menu command. You can implement a custom handler for this event and specify it for your qp-menu control. In the handler, you can invoke the action corresponding to the menu command that was clicked. You can also execute a method in the menu asynchronously.
 
-## Implementing the menuSelected Event Handler { .section}
+## Implementing the menuSelected Event Handler
 
 To implement a handler, in your screen’s TS file, declare a method with the following signature.
 
-``` {#codeblock_shd_frx_mgc .language-javascript}
+```javascript
 handlerName (event: CustomEvent)
 ```
 
@@ -16,7 +16,7 @@ In the `event: CustomEvent` parameter, you can access the information about the 
 
 The following example shows an event handler.
 
-``` {#codeblock_kdv_frx_mgc .language-javascript}
+```javascript
 processCustomizationTreeNodeMenu(e: CustomEvent, 
                                  config: IEditableElementView) {
   const fieldId = config.id;
@@ -34,7 +34,7 @@ processCustomizationTreeNodeMenu(e: CustomEvent,
 
 The code above executes a method corresponding to the menu command \(`e.detail.CommandName`\) that has been clicked and provides a value as a parameter.
 
-## Specifying the Handler for the Control { .section}
+## Specifying the Handler for the Control
 
 To define the handler for the menuSelected event in the HTML template, you need to:
 
@@ -43,7 +43,7 @@ To define the handler for the menuSelected event in the HTML template, you need 
 
 The following code shows an example of binding an event handler to the qp-menu control.
 
-``` {#codeblock_gmf_15x_mgc .language-xml}
+```xml
 <qp-menu config.bind="getCustomizationTreeNodeMenuConfig(childField)"
 	class="customization-tree__field-menu"
 	menuselected.delegate="processCustomizationTreeNodeMenu($event, 
@@ -51,7 +51,7 @@ The following code shows an example of binding an event handler to the qp-menu c
 </qp-menu>
 ```
 
-## Defining an Asynchronous Event Handler {#section_md1_wrx_mgc .section}
+## Defining an Asynchronous Event Handler
 
 You can implement a handler to be executed asynchronously. You should declare an asynchronous event handler if the code in the handler can perform a request to the server—for example, if a graph action is executed. To define an asynchronous handler:
 
@@ -60,7 +60,7 @@ You can implement a handler to be executed asynchronously. You should declare an
 
 The following example shows an asynchronous handler. In the handler, you execute an action whose name is identical to the commandName property of the menu command that has been clicked.
 
-``` {#codeblock_q2s_1nz_mgc .language-javascript}
+```javascript
 async processSnippetMenuSelected(e: CustomEvent) {
   await this.screenService.executeCommand(e.detail.commandName);
 }

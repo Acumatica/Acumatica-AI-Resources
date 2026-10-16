@@ -1,8 +1,8 @@
-# Rounding of AP Document Amounts: Generated Transactions {#_dc0f9dfb-3b32-41aa-b36d-4b0a715956da .concept}
+# Rounding of AP Document Amounts: Generated Transactions
 
 As you create and release AP documents with rounded amounts, the system generates the GL transactions described in the following sections.
 
-## Transaction Generated for an AP Bill and Credit Adjustment { .section}
+## Transaction Generated for an AP Bill and Credit Adjustment
 
 When you create and release an AP bill or credit adjustment, the system generates the following general ledger transaction.
 
@@ -14,7 +14,7 @@ When you create and release an AP bill or credit adjustment, the system generate
 
 On the **Financial** tab of the [Bills and Adjustments](AP_30_10_00.md) form, the **Batch Nbr.** box shows the reference number of the GL batch. You can click this link to view the GL batch on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## Transaction Generated for a Debit Adjustment { .section}
+## Transaction Generated for a Debit Adjustment
 
 When you create and release a debit adjustment, the system generates the following general ledger transaction.
 
@@ -26,7 +26,7 @@ When you create and release a debit adjustment, the system generates the followi
 
 On the **Financial** tab of the [Bills and Adjustments](AP_30_10_00.md) form, the **Batch Nbr.** box shows the reference number of the GL batch. You can click this link to view the GL batch on the [Journal Transactions](GL_30_10_00.md) \(GL301000\) form.
 
-## Transaction Generated for a Cash Purchase { .section}
+## Transaction Generated for a Cash Purchase
 
 When you create and release a cash purchase, the system generates the following general ledger transaction.
 

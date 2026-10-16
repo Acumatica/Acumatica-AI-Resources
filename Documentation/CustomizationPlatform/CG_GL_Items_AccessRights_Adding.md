@@ -1,8 +1,8 @@
-# To Add Access Rights to a Project {#_f8341de4-fec5-4bb7-8c3c-5ee0b45a839f .concept}
+# To Add Access Rights to a Project
 
 When you create or change the access rights for a screen, role, or user in an Acumatica ERP tenant, these changes are saved in the tenant’s database. These access rights can be added to a customization project.
 
-## Addition of Access Rights to the Customization Project { .section}
+## Addition of Access Rights to the Customization Project
 
 You can add to a customization project the roles’ access rights to screens in the current tenant. To do this, perform the following general actions:
 
@@ -16,13 +16,11 @@ You can add to a customization project the roles’ access rights to screens in 
 
     You can instead add all forms by selecting the Included check box in the column header \(shown below\). You’d do this primarily when you want to transfer all access rights from one tenant to another. By default, the system adds access rights to the customization project with the *Copy From Current Tenant* merge rule.
 
-    ![](images/CG_GL_Items_AccessRights_Adding.png "Adding the access rights to the customization project")
 
 5.  Click **Add** to add the selected forms’ access rights to the table on the page and close the dialog box.
 
 The system adds to the customization project the access rights data for the selected forms. You can view the HTML source code of each project item on the [Edit Project Items](../UserGuide/AU_ItemXMLEditor.md) page \(shown below\).
 
-![](images/CG_GL_Items_AccessRights_EditProjectItems.png "Viewing the HTML code of the ScreenWithRights item included in the project")
 
 A screen’s merge rule determines how the system applies the access rights from the customization project as it’s published. You can change a screen’s merge rule by selecting the needed option in the **Merge Rule** column on the [Access Rights](../UserGuide/AU_20_52_00.md) page:
 
@@ -37,7 +35,7 @@ A screen’s merge rule determines how the system applies the access rights from
 
 **Tip:** The form is considered existing in the target tenant if it is listed on the [Site Map](../UserGuide/SM_20_05_20.md) \(SM200520\) form.
 
-## Publication of Multiple Projects with the Same ScreenWithRights Items { .section}
+## Publication of Multiple Projects with the Same ScreenWithRights Items
 
 If you publish multiple customization projects that contain the same *ScreenWithRights* items, the system performs the following actions:
 

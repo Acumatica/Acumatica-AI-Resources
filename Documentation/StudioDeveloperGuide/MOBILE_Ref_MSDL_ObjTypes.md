@@ -1,4 +1,4 @@
-# Object Types {#_f8ff0ca4-6fb3-49d2-b77c-b1491ff8f7c9 .concept}
+# Object Types
 
 An MSDL instruction can be applied to the following object types:
 

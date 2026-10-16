@@ -1,4 +1,4 @@
-# AP Documents with VAT: General Information {#_11b47dc4-aed3-4925-8002-72aafe3410c7 .concept}
+# AP Documents with VAT: General Information
 
 If a value-added tax with the *Input* group type has been configured on the [Taxes](TX_20_50_00.md) \(TX205000\) form, the system automatically calculates VATs, if they apply to the vendor's tax zone and an item's tax category, for the following documents and document types on the [Bills and Adjustments](AP_30_10_00.md) \(AP301000\):
 
@@ -7,18 +7,18 @@ If a value-added tax with the *Input* group type has been configured on the [Tax
 -   *Debit Adj.*
 -   *Prepayment*
 
-## Learning Objectives {#section_r4l_fjv_vxb .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Create and release an AP bill with a VAT applied
 -   Create and process a debit adjustment with a VAT applied
 
-## Applicable Scenarios {#section_t4l_fjv_vxb .section}
+## Applicable Scenarios
 
 You create an AP bill with at least one VAT applied to record a purchase subject to VAT. You create a debit adjustment with a VAT applied if you received a taxable credit memo from your vendor and you need to decrease the vendor's balance and the amount of taxes claimable from the tax agency.
 
-## Calculation of Taxes on Purchases {#section_exq_qkb_3rb .section}
+## Calculation of Taxes on Purchases
 
 The system calculates taxes based on the following details specified in the document:
 

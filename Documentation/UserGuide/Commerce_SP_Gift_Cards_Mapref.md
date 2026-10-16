@@ -1,4 +1,4 @@
-# Selling and Accepting Gift Cards {#_a5def93a-2b87-4c34-b0c9-1e02a9bc47a4 .concept}
+# Selling and Accepting Gift Cards
 
 In this chapter, you will learn how to configure the gift card functionality to be able to sell gift cards in the Shopify store and accept the gift cards as payment.
 

@@ -1,10 +1,10 @@
-# Lien Waivers: General Information {#_40435d63-2ea5-4149-98cd-d924187f6f78 .concept}
+# Lien Waivers: General Information
 
 A lien waiver is a compliance document involved in the payment process for a project. The party that receives a payment \(for instance, a contractor, subcontractor, or supplier of materials\) signs a lien waiver to waive their rights against the property in exchange for the payment.
 
 You can set up lien waivers for a vendor class, vendor, and project to be generated conditionally or unconditionally.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -15,11 +15,11 @@ In this chapter, you will learn how to do the following:
 -   Mark a lien waiver as the final one
 -   Print and email lien waivers
 
-## Applicable Scenarios {#section_bg1_5vd_r4b .section}
+## Applicable Scenarios
 
 In construction projects, lien waivers are issued to reflect that a subcontractor is waiving lien rights for a specific amount in exchange for the received payment or the promise of payment.
 
-## Configuration of Lien Waivers for Vendors {#section_al5_ztd_r4b .section}
+## Configuration of Lien Waivers for Vendors
 
 You can set up the automatic generation of lien waivers in the system for conditional or unconditional lien waivers. You also can manually create lien waivers and edit them \(including those generated automatically\).
 
@@ -27,7 +27,7 @@ For each particular project, you specify the list of vendor classes for which th
 
 The system automatically generates lien waivers for the vendors that belong to the vendor classes that have the **Generate Lien Waivers Based on Project Settings** check box selected on the **General** tab of the [Vendor Classes](AP_20_10_00.md) \(AP201000\) form. When you create a new vendor of the class, the system automatically selects the **Generate Lien Waivers Based on Project Settings** check box on the **General** tab of the [Vendors](AP_30_30_00.md) \(AP303000\) form to indicate that the system will create lien waivers for this vendor automatically if the project for which you are entering a payment includes this vendor class. You can clear this check box to exclude a particular vendor of the vendor class from the lien waiver generation process.
 
-## Mailing Settings for Lien Waivers { .section}
+## Mailing Settings for Lien Waivers
 
 You define mailing settings for each vendor to automatically send lien waivers of a specific type by email and to print the lien waivers. You configure separate mailings for each lien waiver category \(that is, conditional partial, conditional final, unconditional partial, and unconditional final\).
 
@@ -35,11 +35,11 @@ When you create a new vendor on the [Vendors](AP_30_30_00.md) \(AP303000\) form,
 
 When you print or email a lien waiver on the [Print/Email Lien Waivers](CL_50_20_00.md) \(CL502000\) form, the system uses the report specified for the corresponding mailing in the vendor record. If the vendor has no active mailing for a lien waiver of a particular type, the system will use the mailing that is defined in the vendor class of this vendor.
 
-## Outstanding Lien Waivers { .section}
+## Outstanding Lien Waivers
 
 An outstanding lien waiver is a lien waiver that has not been marked as received and whose **Through Date** on the [Compliance Management](CL_40_10_00.md) \(CL401000\) form is earlier than the current business date in the system. You configure the notification about outstanding lien waivers that exist for AP documents being processed on the [Compliance Preferences](CL_30_10_00.md) \(CL301000\) form. The system searches for outstanding lien waivers through all compliance documents related to the particular primary and joint vendors.
 
-## Conditional Partial Lien Waivers {#section_svc_zmd_r4b .section}
+## Conditional Partial Lien Waivers
 
 Conditional lien waivers should be issued when a progress payment on a project is expected. A signed lien waiver of this type becomes effective immediately after the payment has been prepared.
 
@@ -49,7 +49,7 @@ A payment created on the [Checks and Payments](AP_30_20_00.md) \(AP302000\) or [
 
 You also can manually create conditional lien waivers for particular documents. For more information, see [Lien Waivers: Manual Creation of Lien Waivers](Construction_Lien_Waivers_Manual_Lien_Waivers.md).
 
-## Unconditional Partial Lien Waivers {#section_c5s_bnd_r4b .section}
+## Unconditional Partial Lien Waivers
 
 Unconditional lien waivers should be issued when a progress payment on the project is expected. A lien waiver of this type becomes effective after it has been signed, regardless of whether the payment has actually been received.
 
@@ -59,7 +59,7 @@ A payment created on the [Checks and Payments](AP_30_20_00.md) \(AP302000\) or [
 
 You also can manually create unconditional lien waivers for particular documents. For more information, see [Lien Waivers: Manual Creation of Lien Waivers](Construction_Lien_Waivers_Manual_Lien_Waivers.md).
 
-## Final Lien Waivers { .section}
+## Final Lien Waivers
 
 **Attention:** The system does not generate final lien waivers automatically.
 
@@ -74,7 +74,7 @@ To mark a particular lien waiver or multiple line waivers as the final ones, you
 
 You can also mass-process final lien waivers on the [Print/Email Lien Waivers](CL_50_20_00.md) \(CL502000\) form. For more information, see [Lien Waivers: Mass Processing](Construction_Lien_Waivers_MassProcessing.md).
 
-## Lien Waivers for Joint Payments { .section}
+## Lien Waivers for Joint Payments
 
 For a joint payee bill, the system creates a payment for the main vendor \(that is, the vendor that is working directly with you on the project\) and separate payments for the joint payees. The system automatically generates lien waivers for all these payments by using the general rules of lien waiver generation. For more information on processing joint payments, see [Joint Payments: General Information](Construction_Joint_Payees_GeneralInfo.md).
 

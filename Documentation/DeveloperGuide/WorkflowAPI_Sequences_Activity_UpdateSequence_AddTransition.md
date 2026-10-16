@@ -1,4 +1,4 @@
-# Step 6: Adding the Transition {#_ff1bcbd0-6b48-4284-acd0-cc2ee85932ae .concept}
+# Step 6: Adding the Transition
 
 Without a composite workflow state, you would need to remove or modify an existing transition and add at least two transitions instead: one to the new workflow state, and another from the new workflow state. But with a composite workflow state, you need to add only one transition: from the `Postponed` nested workflow state to the next nested workflow state of the composite state.
 
@@ -6,7 +6,7 @@ To add a transition from the `Postponed` workflow state to the next workflow sta
 
 1.  In the `SOInvoiceRepairOrder_Workflow` class, in the lambda expression for the UpdateDefaultFlow method, add the following code.
 
-    ```language-csharp
+    ```csharp
                             .WithTransitions(transitions =>
                             {
                                 transitions.AddGroupFrom<ARDocStatus_Postponed.postponed>(

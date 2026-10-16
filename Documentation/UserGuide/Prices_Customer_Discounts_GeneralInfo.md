@@ -1,16 +1,16 @@
-# Customer Discounts: General Information {#_fcb8c6cc-1b39-4f5b-9742-ddf86a477710 .concept}
+# Customer Discounts: General Information
 
 Acumatica ERP provides you with the ability to configure customer discounts to meet the needs of your organization.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 You will learn how to configure customer discounts of different types in Acumatica ERP and how the system applies the discounts in AR invoices and sales orders.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 Customer discounts can be used as an effective tool of your organization’s overall marketing strategy—for example, to stimulate sales of new products, promote new branches of the organization, and accelerate the sales of items that are becoming obsolete. In Acumatica ERP, your company can configure various types of customer discounts: unconditional or condition-based, simple or tiered, and automatically or manually applied .
 
-## Discount Configuration { .section}
+## Discount Configuration
 
 In Acumatica ERP, any configurable customer discount is defined by a combination of the settings specified for a discount code and a discount sequence. You configure these entities as follows:
 
@@ -19,7 +19,7 @@ In Acumatica ERP, any configurable customer discount is defined by a combination
 
 **Attention:** The ability to configure customer discounts is available if the *Customer Discounts* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-## GL Accounts for Customer Discounts { .section}
+## GL Accounts for Customer Discounts
 
 Line discounts are not accounted for in a separate GL account. The discount amount is simply deducted from the amount to be paid by the customer, and the reduced amount is debited to the accounts receivable account specified in the **AR Account** box on the **GL Accounts** tab of the [Customers](AR_30_30_00.md) \(AR303000\) form.
 

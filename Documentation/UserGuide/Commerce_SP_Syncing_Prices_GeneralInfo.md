@@ -1,8 +1,8 @@
-# Sales Price Lists: General Information {#_3822cfd4-ef1d-4544-a92d-e89c0a11d1f1 .concept}
+# Sales Price Lists: General Information
 
 You export price lists defined in Acumatica ERP to the Shopify store.
 
-This functionality is available if the *Shopify Business-to-Business Entities* feature are enabled on [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
+This functionality is available if the *Shopify B2B Integration* feature are enabled on [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
 **Attention:**
 
@@ -10,14 +10,14 @@ Catalogs are available to Shopify customers as part of the business-to-business 
 
 For more information about catalogs in Shopify, see [the Shopify documentation](https://help.shopify.com/en/manual/b2b/companies).
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Export price lists defined for customer price classes in Acumatica ERP to the Shopify store
 -   Define volume prices and quantity rules at the price-list level and export them to the Shopify store
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You might want to synchronize sales prices from Acumatica ERP with the Shopify store if you use business-to-business functionality in your Shopify store, maintain sales price lists for customers assigned to particular customer price classes in Acumatica ERP and would like to export these price lists to Shopify.
 
@@ -27,11 +27,11 @@ You company may need to configure quantity rules and volume pricing for business
 -   To provide the minimum quantity of the product that a customer can purchase at the same time
 -   To offer price breaks to customers who purchase a particular quantity of a product
 
-## The Price List Entity { .section}
+## The Price List Entity
 
 To export price lists from Acumatica ERP to a Shopify store, you first need to activate the *Price List* entity on the **Entities** tab of the [Shopify Stores](BC_20_10_10.md) \(BC201010\) form. This entity can only be exported to the external system \(that is, its **Sync Direction** is set to *Export* and cannot be changed\), and its primary system is *ERP*.
 
-## Filtering of Price List Prices { .section}
+## Filtering of Price List Prices
 
 During the synchronization of the *Price List* entity, the system exports prices created on the [Sales Prices](AR_20_20_00.md) \(AR202000\) form only if the prices meet the following criteria:
 
@@ -43,7 +43,7 @@ During the synchronization of the *Price List* entity, the system exports prices
 
 Only prices that are effective on the date of the synchronization are exported. If both a regular price and a promotional price exist for the same item, customer price class, UOM, and currency, the promotional price is exported, whereas the regular price is skipped during the synchronization. For more information on price lists, see [Sales Prices: General Information](Prices_Reviewing_Sales_Prices_GeneralInfo.md).
 
-## Configuration of Quantity Rules { .section}
+## Configuration of Quantity Rules
 
 To define the minimum quantity of an item that can be sold in the Shopify store, you create a price of the *Customer Price Class* type for the item on the [Sales Prices](AR_20_20_00.md) \(AR202000\) form. For the price, you specify a whole number greater than *1* as the break quantity.
 
@@ -53,7 +53,7 @@ If an item has multiple prices with the same customer price class, UOM, and curr
 
 If an item has only a price with a break quantity of either *0* or *1*, the system does not create quantity rules for the product.
 
-## Configuration of Volume Pricing { .section}
+## Configuration of Volume Pricing
 
 To define volume pricing for an item, you create a set of prices of the *Customer Price Class* type for the item on the [Sales Prices](AR_20_20_00.md) \(AR202000\) form. For these prices, you specify the same customer price class, UOM, and currency but different break quantities and prices.
 
@@ -61,7 +61,7 @@ During the synchronization of price lists to the Shopify store, the system defin
 
 If there are break quantities greater than *1* among the item's prices with the same customer price class, UOM, and currency on the [Sales Prices](AR_20_20_00.md) form, the system also defines quantity rules for the product with the minimum quantity equal to the item's lowest break quantity.
 
-## Export of Price Lists { .section}
+## Export of Price Lists
 
 During the synchronization of the *Price List* entity, the system creates a catalog in the Shopify store for each combination of the customer price class and currency. The name of the catalog is created as a combination of the customer price class ID followed by a hyphen and the currency code. For example, prices that have been defined for the *LOCAL* customer price class in *USD* and *CAD* will be exported to the *LOCAL-USD* and *LOCAL-CAD* catalogs in the Shopify store.
 
@@ -79,7 +79,30 @@ Any changes that have made to the exported catalog in the Shopify store are over
 
 If a customer price class has been deleted in Acumatica ERP, the corresponding catalog is deleted in the Shopify store. If a price list has been exported and then a filter is created on the [Entities](BC_20_20_00.md) \(BC202000\) form that excludes the price list from synchronization, during the next synchronization, the corresponding catalog in the Shopify store is not deleted but is instead assigned the *Archived* status.
 
-## Limitations of Exporting Price Lists { .section}
+## Catalog Settings in Shopify
+
+When the connector exports Acumatica ERP price lists to Shopify, it configures the corresponding catalogs as follows by default:
+
+-   Only products included in the exported price list are added to the catalog.
+-   Products created later in Shopify are not automatically added. That is, the **Automatically include new products** toggle is switched off.
+
+You can override these default settings by using export mappings for the *Price List* entity on the [Entities](BC_20_20_00.md) \(BC202000\) form. On the **Export Mapping** tab, you create export mappings for the *Price List → Catalog → Publication* external object and the *Price Class→ Advanced* ERP object. You assign the following external fields and ERP values to these mappings:
+
+-   *Default State*: Determines which Shopify products are initially included in the catalog:
+    -   *ALL\_PRODUCTS*: All products that already exist in Shopify are included.
+    -   *EMPTY*: Only products with prices defined in the exported Acumatica ERP price list are included.
+-   *Auto Publish*: Determines whether products created later in Shopify are automatically added to the catalog:
+    -   *true*: The **Automatically include new products** toggle is switched on for the catalog, and new products are automatically added.
+    -   *false*: The toggle is switched off, and new products are not automatically added.
+
+If you need to override the default catalog settings only for specific price lists, use the `IIf` function with the `Results.PriceClassID` ERP field. The following example applies the new settings only to the *RETAIL* price list.
+
+```
+=IIf([Results.PriceClassID] = 'RETAIL', 'ALL_PRODUCTS', 'EMPTY')
+=IIf([Results.PriceClassID] = 'RETAIL', true, false)
+```
+
+## Limitations of Exporting Price Lists
 
 The following limitations apply to the exporting of price lists to Shopify:
 

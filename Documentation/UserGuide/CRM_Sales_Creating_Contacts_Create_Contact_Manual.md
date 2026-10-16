@@ -1,14 +1,14 @@
-# Contacts: To Create a Contact Manually {#_8279058c-39a2-4228-8ebf-9e348fbeec8c .task}
+# Contacts: To Create a Contact Manually
 
 The following activity demonstrates how to manually create a contact, review and update the settings of the newly created contact.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are David Chubb, a sales manager of the SweetLife Fruits &amp; Jams company.You have received a call from Thomas Jones, the bakery manager at Pro Muffin, a bakery that cooks pastries, usually with jam filling. Thomas is considering purchasing 100 jars of cherry jam. You have created the lead in the system, converted the lead to an opportunity, and started negotiating the deal. Thomas asks you to discuss the financial details of the deal with his colleague Tina Parker, a finance manager, and gives you her contact details. You need to create a contact in the system and associate the contact with the opportunity created for Pro Muffin.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, the following tasks have been performed:
 
@@ -22,14 +22,14 @@ In the *U100* dataset, for the purposes of this activity, the following tasks ha
     2.  On the [Business Accounts](CR_30_30_00.md) \(CR303000\) form, the *PROMUFFIN* business account has been created.
     3.  On the [Contacts](CR_30_20_00.md) \(CR302000\) form, the *Thomas Jones* contact has been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
 1.  Manually create a contact by using the [Contacts](CR_30_20_00.md) \(CR302000\) form.
 2.  Associate the newly created contact with an existing opportunity on the [Opportunities](CR_30_40_00.md) \(CR304000\) form.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start creating a contact manually, you should do the following:
 
@@ -39,7 +39,7 @@ Before you start creating a contact manually, you should do the following:
     -   **Password**: *123*
 3.  Make sure that on the Company and Branch Selection menu, in the top pane of the Acumatica ERP screen, the *SweetLife Head Office and Wholesale Center* branch is selected.
 
-## Step 1: Creating a Contact Manually { .section}
+## Step 1: Creating a Contact Manually
 
 To create a contact for Tina Parker, a finance manager at Pro Muffin, do the following:
 
@@ -62,7 +62,7 @@ To create a contact for Tina Parker, a finance manager at Pro Muffin, do the fol
 
 You have created the *Tina Parker* contact in the system.
 
-## Step 2: Associating the Contact with an Existing Opportunity { .section}
+## Step 2: Associating the Contact with an Existing Opportunity
 
 To associate the *Tina Parker* contact you have created with the opportunity that has been created for Pro Muffin, do the following:
 

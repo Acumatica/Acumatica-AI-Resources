@@ -1,4 +1,4 @@
-# Filtering Parameters: Filtered Data on an Inquiry Form {#_44b50d24-7ad0-4f6c-8c41-a93894622c0c .concept}
+# Filtering Parameters: Filtered Data on an Inquiry Form
 
 To display the filtered data in the table on an inquiry form, you need to define the data view that selects data narrowed by the selection criteria, which is defined with filtering parameters.
 

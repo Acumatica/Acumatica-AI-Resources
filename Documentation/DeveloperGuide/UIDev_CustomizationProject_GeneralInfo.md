@@ -1,18 +1,18 @@
-# Customization Project with UI Changes: General Information {#_6a17aedf-98c2-4f76-b647-6b63a0553d2f .concept}
+# Customization Project with UI Changes: General Information
 
 To distribute the changes that you have made to the Modern UI of your Acumatica ERP instance to other Acumatica ERP instances, you need to include your Modern UI files in a customization project. You include the Modern UI files in a customization project on the Modern UI Files page of the Customization Project Editor.
 
 **Attention:** The Modern UI changes are applied to each tenant of an Acumatica ERP instance independently.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to include changes to the Modern UI in a customization project.
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You include changes to the Modern UI in a customization project if you need to use these changes in another Acumatica ERP instance.
 
-## Preparation for Publishing a Customization Project with Modern UI Files { .section}
+## Preparation for Publishing a Customization Project with Modern UI Files
 
 For the publication of customization projects with Modern UI files, Node.js must be installed, including the node version manager \(nvm\) and node package manager \(npm\). The Acumatica ERP Configuration wizard installs the needed version of Node.js if the **Install NodeJS** check box is selected on the Website Configuration page of the wizard.
 
@@ -23,7 +23,7 @@ Before publishing a customization project with Modern UI files, you may need to 
 -   NodeJs:NpmCachePath: Specifies the path for the npm cache, such as `C:\instances\site\App_Data\npm-cache`. This key is mostly intended for production use.
 -   NodeJs:NodeTempPath: Specifies the path to the Node.js temporary folder. You might need to use this parameter if a customization project was designed for one version of Node.js and you are upgrading to Acumatica ERP with a different version Node.js. You can specify the path similar to the one specified in the existing `web.config` file. An example of the path is shown below.
 
-    ``` {#codeblock_bjn_hf4_zgc}
+    ```
     <add key="NodeJs:NoteTempPath" value="C:\Acumatica\NodeTemp\PhoneRepairShop" />
     ```
 
@@ -32,11 +32,11 @@ Before publishing a customization project with Modern UI files, you may need to 
 -   NodeJs:DevBuild: If the value is *true*, turns on developer mode, which will be used while the Customization Project Editor compiles the UI sources.
 -   NodeJs:CompileAllScreens: If the value is *false*, during publication of customization projects, compiles the Modern UI source code only for the Acumatica ERP forms whose Modern UI source code has been modified. If the value is *true*, all Modern UI source code is compiled.
 
-## Adding of Files to a Customization Project { .section}
+## Adding of Files to a Customization Project
 
 To add Modern UI files to a customization project, you click the **Modern UI Files** node in the navigation pane of the Customization Project Editor. On the toolbar of the [Modern UI Files](../UserGuide/AU_20_46_00.md) page, you click **Add New Record**; in the dialog box that opens, you select the Modern UI files that you need to include in the customization project.
 
-## Publishing of a Customization Project with Modern UI Files { .section}
+## Publishing of a Customization Project with Modern UI Files
 
 You can publish a customization project with Modern UI files in the same way as you publish any other customization project. For details about how to publish a customization project, see [Publishing Customization Projects](../CustomizationPlatform/CG_GL_Projects_Publishing.md).
 

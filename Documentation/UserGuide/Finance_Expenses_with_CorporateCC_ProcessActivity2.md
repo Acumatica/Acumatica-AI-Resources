@@ -1,8 +1,8 @@
-# Payments with a Corporate Card: To Reconcile a Bank Statement {#_00cf0ef9-55b4-47b0-9084-0b62b62f16d9 .task}
+# Payments with a Corporate Card: To Reconcile a Bank Statement
 
 The following activity will walk you through the process of reconciling the balance of the credit card issuer in the system with the balance of a bank statement.
 
-## Story {#section_uhl_njv_vxb .section}
+## Story
 
 Suppose that on February 28, SweetLife received a statement for the corporate credit card. The statement balance was $135, which the company owed to the bank, and the statement included the following transactions.
 
@@ -15,7 +15,7 @@ Suppose that on February 28, SweetLife received a statement for the corporate cr
 
 Acting as the SweetLife accountant, you need to perform the reconciliation of the corporate credit card balance with the bank statement balance.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -25,11 +25,11 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Entry Types](CA_20_30_00.md) \(CA203000\) form, the *BANKFEE* and *INTEREST* entry types have been created.
 -   On the [Vendors](AP_30_30_00.md) \(AP303000\) form, the *KEYBANK* vendor that represents the issuer of a corporate card has been created.
 
-## Process Overview {#section_yhl_njv_vxb .section}
+## Process Overview
 
 In this activity, on the [Reconciliation Statements](CA_30_20_00.md) \(CA302000\) form, you will create a reconciliation statement for the 29100 cash account. You will then create two quick transactions on the same form and reconcile them too. Finally, you will release the reconciliation statement.
 
-## System Preparation {#section_a3l_njv_vxb .section}
+## System Preparation
 
 To prepare the system, do the following:
 
@@ -38,7 +38,7 @@ To prepare the system, do the following:
 3.  In the info area, in the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date in your system is set to *2/28/2026*. If a different date is displayed, click the Business Date menu button, and select *2/28/2026* on the calendar. For simplicity, in this activity, you will create and process all documents in the system on this business date.
 4.  On the Company and Branch Selection menu, on the top pane of the Acumatica ERP screen, select the *SweetLife Head Office and Wholesale Center* branch.
 
-## Step 1: Creating a Reconciliation Statement {#section_c3l_njv_vxb .section}
+## Step 1: Creating a Reconciliation Statement
 
 To create a reconciliation statement to reconcile the balance of the corporate credit card with the bank statement balance, do the following:
 
@@ -55,13 +55,12 @@ To create a reconciliation statement to reconcile the balance of the corporate c
 
     The credit card cash account still has a shortfall of $6, which is displayed in the **Difference** box \(also shown in the following screenshot\). This is the total amount of transactions that have appeared in the bank statement but have not yet been processed in the system.
 
-    ![](Images/activity_Finance_CorporateCC_ReconciliationStatement.png "The reconciliation statement created for the 29100 cash account")
 
     The credit card statement includes two more transactions: one for the $10 bank charge, and one for the $4 cash back on the credit card cash account. You can process them as quick transactions.
 
 6.  On the form toolbar, click **Save**.
 
-## Step 2: Processing Quick Transactions {#section_h3l_njv_vxb .section}
+## Step 2: Processing Quick Transactions
 
 To process quick transactions in the system, do the following:
 
@@ -90,10 +89,9 @@ To process quick transactions in the system, do the following:
 
     **Tip:** You do not select the $135 payment that you made to the bank in the reconciliation statement. It will appear in the next bank statement for the credit card and you will reconcile the payment next time.
 
-    ![](Images/activity_Finance_CorporateCC_ReconciliationStatement_Reconciled.png "The reconciled transactions on the reconciliation statement")
 
 
-## Step 3: Releasing the Reconciliation Statement {#section_m3l_njv_vxb .section}
+## Step 3: Releasing the Reconciliation Statement
 
 To release the reconciliation statement, do the following:
 

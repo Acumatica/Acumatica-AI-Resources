@@ -1,12 +1,12 @@
-# Inquiry Forms:To Set Up an Inquiry Form {#_1a40b984-c999-45f6-8443-755dcdaaf914 .task}
+# Inquiry Forms:To Set Up an Inquiry Form
 
 This activity will walk you through the process of creating an inquiry form without any filtering parameters.
 
-## Story { .section}
+## Story
 
 Suppose that you need to create an inquiry form in the *PhoneRepairShop* customization project that will display a table showing all repair work orders that have not yet been paid in full. Each row should show information about the invoices that have been created for these orders.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will create the Open Payment Summary \(RS401000\) custom inquiry form and define and configure its components by performing the following steps:
 
@@ -15,11 +15,11 @@ In this activity, you will create the Open Payment Summary \(RS401000\) custom i
 3.  Calculating a value of a field in the RowSelecting event handler
 4.  Defining the data view for the inquiry form
 
-## System Preparation { .section}
+## System Preparation
 
-Make sure that you’ve configured your instance, as described in [Test Instance for Customization: To Deploy an Instance with a Custom Form that Implements a Workflow](../StudioDeveloperGuide/CodeCustomization_PrepareInstance_Activity_DeployInstanceT240.md).
+Make sure that you’ve configured your instance, as described in [Test Instance for Customization: To Deploy an Instance with a Custom Form That Implements a Workflow](../StudioDeveloperGuide/CodeCustomization_PrepareInstance_Activity_DeployInstanceT240.md).
 
-## Step 1: Creating the Form—Self-Guided Exercise { .section}
+## Step 1: Creating the Form—Self-Guided Exercise
 
 In this self-guided exercise, you will create the Open Payment Summary \(RS401000\) form on your own. Although this is a self-guided exercise, you can use the details and suggestions in this topic as you create the form. \(Form creation is described in detail in the *T200 Maintenance Forms* training course.\)
 
@@ -36,7 +36,6 @@ If you’re using the Customization Project Editor to complete the self-guided e
     -   **Graph Namespace**: `PhoneRepairShop`
     -   **Page Title**: `Open Payment Summary`
     -   **Template**: *FormGrid \(FormDetail\)*
-    -   **Create Modern UI Files**: Selected
 4.  Move the generated `RSSVPaymentPlanInq` graph to the extension library.
 
     **Tip:**
@@ -52,7 +51,7 @@ If you’re using the Customization Project Editor to complete the self-guided e
 8.  Add a link to the Open Payment Summary form to the *Inquiries* category of the Phone Repair Shop workspace, and make it available in the workspace’s quick menu.
 9.  In the Customization Project Editor, update the *SiteMapNode* item for the Open Payment Summary form.
 
-## Step 2: Defining the DAC for the Grid View of the Form { .section}
+## Step 2: Defining the DAC for the Grid View of the Form
 
 The Open Payment Summary \(RS401000\) form displays information about repair work orders \(including the details of the invoice created for each order\). All fields on this form are unbound, and you don’t need to work with the fields on the Repair Work Orders \(RS301000\) form, which works with the `RSSVWorkOrder` DAC.
 
@@ -62,13 +61,13 @@ To define the `RSSVWorkOrderToPay` DAC, do the following:
 
 1.  In the `Helper/Messages.cs` file, add the `RSSVWorkOrderToPay` string to the Messages class, as shown below. This message will be used in the [PXCacheName](https://help.acumatica.com/(W(4))/Help?ScreenId=ShowWiki&pageid=052f5683-d20b-da61-4e6c-47a966162fb4) attribute for the new DAC.
 
-    ```language-csharp
+    ```csharp
             public const string RSSVWorkOrderToPay = "Repair Work Order to Pay";
     ```
 
 2.  In the `RSSVWorkOrder.cs` file, declare the `RSSVWorkOrderToPay` DAC: Derive the `RSSVWorkOrderToPay` class from `RSSVWorkOrder`, as shown below.
 
-    ```language-csharp
+    ```csharp
         [PXCacheName(Messages.RSSVWorkOrderToPay)]
         public class RSSVWorkOrderToPay : RSSVWorkOrder
         {
@@ -77,7 +76,7 @@ To define the `RSSVWorkOrderToPay` DAC, do the following:
 
 3.  In the `RSSVWorkOrderToPay` class, define the `OrderNbr`, `InvoiceNbr`, and `Status` abstract classes with the `new` modifier, as shown below.
 
-    ```language-csharp
+    ```csharp
             #region InvoiceNbr
             public new abstract class invoiceNbr :
                 PX.Data.BQL.BqlString.Field<invoiceNbr>
@@ -99,7 +98,7 @@ To define the `RSSVWorkOrderToPay` DAC, do the following:
 
 4.  In the `RSSVWorkOrderToPay` class, define the `PercentPaid` field, as shown below.
 
-    ```language-csharp
+    ```csharp
             #region PercentPaid
             [PXDecimal]
             [PXUIField(DisplayName = "Percent Paid")]
@@ -111,13 +110,13 @@ To define the `RSSVWorkOrderToPay` DAC, do the following:
     ```
 
 
-## Step 3: Calculating the PercentPaid Field in RowSelecting { .section}
+## Step 3: Calculating the PercentPaid Field in RowSelecting
 
 In the derived DAC, you’ve added the `PercentPaid` field. During the retrieval of each `RSSVWorkOrder` record, the value of the `PercentPaid` field will be calculated from the database as the percentage of the invoice amount that has been paid. Add this logic as follows:
 
 1.  In the `RSSVPaymentPlanInq` graph of the `RSSVPaymentPlanInq.cs` file, add the calculation of the `PercentPaid` field value in the RowSelecting event, as shown in the following code.
 
-    ```language-csharp
+    ```csharp
             protected virtual void _(Events.RowSelecting<RSSVWorkOrderToPay> e)
             {
                 if (e.Row == null) return;
@@ -143,7 +142,7 @@ In the derived DAC, you’ve added the `PercentPaid` field. During the retrieval
 
 2.  In the `RSSVPaymentPlanInq.cs` file, add the required `using` directives, which are shown in the following code.
 
-    ```language-csharp
+    ```csharp
     using PX.Data.BQL.Fluent;
     using PX.Data.BQL;
     using PX.Objects.AR;
@@ -151,7 +150,7 @@ In the derived DAC, you’ve added the `PercentPaid` field. During the retrieval
 
 3.  Build the project.
 
-## Step 4: Defining the Data View of the Form { .section}
+## Step 4: Defining the Data View of the Form
 
 In this step, you will add the data view to the `RSSVPaymentPlanInq` graph, which works with the Open Payment Summary \(RS401000\) form. In this data view, which provides data for the grid \(table\) of the inquiry form, you’ll select only those repair work orders that are not yet paid and the invoices for these orders.
 
@@ -159,7 +158,7 @@ To define the data view of the form in the `RSSVPaymentPlanInq` graph, do the fo
 
 1.  In the `RSSVPaymentPlanInq.cs` graph, add the following member. \(Replace the automatically generated `DetailsView` member if you’ve used the Customization Project Editor to create the graph.\)
 
-    ```language-csharp
+    ```csharp
             [PXFilterable]
             public 
                 SelectFrom<RSSVWorkOrderToPay>.

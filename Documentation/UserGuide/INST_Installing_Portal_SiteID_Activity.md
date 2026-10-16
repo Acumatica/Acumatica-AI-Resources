@@ -1,20 +1,20 @@
-# Instance Deployment: To Set Up a Group of Self-Service Portal Instances {#_7ea41d71-fc0e-4b47-b712-db4bfa42a1cb .task}
+# Instance Deployment: To Set Up a Group of Self-Service Portal Instances
 
 In this activity, you will learn how to create a group of Self-Service Portal instances.
 
-## Story { .section}
+## Story
 
 Suppose that you are the system administrator of your company, and you need to set up a group of two Self-Service Portal instances with the *Retail* group identifier.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will deploy two Self-Service Portal instances and specify the *Retail* group identifier in their configuration files.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin doing this activity, make sure that you have performed the following prerequisite activity: [Instance Deployment: To Deploy an Instance with Demo Data](INST_Deploying_Instances_Deploy_Tenant_With_Demodata_Activity.md).
 
-## Step 1: Deploying Self-Service Portal Instances { .section}
+## Step 1: Deploying Self-Service Portal Instances
 
 To deploy the first Self-Service Portal instance that will be included in the *Retail* group, do the following:
 
@@ -55,7 +55,7 @@ After the deployment of the *Portal1* instance is complete, repeat the instructi
 
 **Important:** When you deploy the *Portal2* instance, make sure that you specify the same database on the Database Configuration page as you did for the *Portal1* instance.
 
-## Step 2: Specifying the Group Identifier for the Self-Service Portal Instances { .section}
+## Step 2: Specifying the Group Identifier for the Self-Service Portal Instances
 
 To specify that the Self-Service Portal instances that you have deployed in the previous step belong to the *Retail* group of instances, do the following for each of the instances:
 

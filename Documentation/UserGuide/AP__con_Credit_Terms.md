@@ -1,8 +1,8 @@
-# Credit Terms {#_bb0d593d-524c-4bf5-85b4-7b4fcc3d5fac .concept}
+# Credit Terms
 
 Credit terms define the specific details of the seller's payment requirements that the buyer should meet in order to purchase goods on credit. These details include the date when a payment should be made, the conditions for cash discounts when any outstanding balance is paid early, and the setting that determines whether an outstanding balance is to be paid as a single installment or in multiple installments. You configure credit terms by using the [Credit Terms](CS_20_65_00.md) \(CS206500\) form.
 
-## Single Installment {#section_pyc_hjv_vxb .section}
+## Single Installment
 
 For a single-installment payment, you should specify a due date and conditions for a cash discount.
 
@@ -21,7 +21,7 @@ The first due date is the 10th of the next month for documents issued between da
 
 A *cash discount* is available for only a single-installment payment. If two due dates are set, you should specify a fixed number of days during which the discount is available for each group of documents. As a rule, the discount is available for a time interval starting on the document day and ending on the day of the month specified on the [Credit Terms](CS_20_65_00.md) form. The discount is set as a percentage. Whether it is applied to the document amount or it affects the taxable amount, too, is specified for each tax.
 
-## Multiple Installments {#section_wyc_hjv_vxb .section}
+## Multiple Installments
 
 Outstanding balances can be paid in multiple installments if you select *Multiple* in the **Installment Type** box. You should specify the number of installments, the frequency or schedule, and the installment method.
 
@@ -39,7 +39,7 @@ You can divide the payment into the specified number of installments by selectin
 
 The **Installments Schedule** table is available only if the *Split by Percent in Table* option is selected as the installment method. By using this table, you can set for each installment the number of days from the due date and the percentage of the total document amount. The first installment \(which is due on the due date\) should have *0* in the **Day** column, and other installments' dates are specified with the respect to the due date.
 
-## Overdue Charges {#section_dzc_hjv_vxb .section}
+## Overdue Charges
 
 Terms are also used with overdue charges. For this type of terms, specify a due date or two due dates. It is assumed that no cash discount will be used with overdue charges.
 

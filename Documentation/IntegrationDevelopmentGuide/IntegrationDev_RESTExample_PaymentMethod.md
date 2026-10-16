@@ -1,4 +1,4 @@
-# PaymentMethod {#_edc24a65-2e04-4af4-84ab-73ad4cfe1bce .concept}
+# PaymentMethod
 
 This chapter presents code examples showing requests that use the `PaymentMethod` entity.
 

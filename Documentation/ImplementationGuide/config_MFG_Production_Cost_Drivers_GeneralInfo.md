@@ -1,10 +1,10 @@
-# Configuring Production Cost Drivers: General Information {#_6d790206-ba52-442a-be12-3e7fbfd77327 .concept}
+# Configuring Production Cost Drivers: General Information
 
 The costing of items that you make is more complex and detailed than the costing of items you buy. The costing of these manufactured items includes not only the cost of the materials bought to make an item but also the cost of labor, factory overhead, machinery, and tooling used in production. And subassemblies may be produced and stored that become part of the final assembly of the finished goods you sell.
 
 In this topic, you will read about configuring production cost drivers, which are the costs that can be included in the cost of the final product.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -13,7 +13,7 @@ In this chapter, you will learn how to do the following:
 -   Define the tools so that the tool costs are included in the cost of a produced item
 -   Define the machines so that the machine costs are included in the cost of a produced item
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You configure production cost drivers in the following cases:
 
@@ -21,7 +21,7 @@ You configure production cost drivers in the following cases:
 -   When you have purchased the *Manufacturing* feature, and you need to configure manufacturing in the existing Acumatica ERP system
 -   When you need to add or change cost drivers that affect the cost of the produced item
 
-## Cost Drivers in Manufacturing { .section}
+## Cost Drivers in Manufacturing
 
 In Acumatica ERP Manufacturing Edition, you need to define the following entities whose costs can affect the cost of the final product:
 
@@ -36,7 +36,7 @@ Costs can be planned and actual. Planned costs are specified on the bill of mate
 
 In the following sections, you can find more information about particular cost drivers.
 
-## Material Costs { .section}
+## Material Costs
 
 Materials can include stock items and non-stock items. For a stock item, you specify the planned cost in one of the following locations:
 
@@ -45,7 +45,7 @@ Materials can include stock items and non-stock items. For a stock item, you spe
 
 For a non-stock item, you specify the item cost on the **Price/Cost** tab of the [Non-Stock Items](../UserGuide/IN_20_20_00.md) \(IN202000\) form.
 
-## Labor Costs { .section}
+## Labor Costs
 
 The cost of labor can be broken down into direct labor costs and indirect \(also described as overhead\) labor costs. Direct labor costs include wages for the employees who produce a product. Indirect labor costs are associated with employees who are not involved in production directly, such as security staff. In Acumatica ERP, you can track both direct and indirect labor costs.
 
@@ -57,7 +57,7 @@ Planned labor costs are calculated based on the run units and run time of an ope
 
 For more information about labor costs, see [Configuration of Production with Backflushing: General Information](config_MFG_Backflushing_GeneralInfo.md) and [Configuration of Production with Backflushing: Implementation Activity](config_MFG_Backflushing_Implem_Activity.md).
 
-## Overhead Costs { .section}
+## Overhead Costs
 
 You can set up overhead costs by using the [Overhead](../UserGuide/AM_20_25_00.md) \(AM202500\) form. These costs can be accrued at a fixed rate, which is the same regardless of lot or order size, or at a variable rate, which may depend on labor hours or the quantity of goods completed. You can create as many overhead IDs as you need to account for the different overhead expenses of your organization. The full list of the supported overhead types is the following:
 
@@ -73,15 +73,15 @@ You can assign the overhead costs to a specific item on the [Bill of Material](.
 
 Actual overhead costs are applied when a quantity of produced items is recorded for a production order operation.
 
-## Tool Costs { .section}
+## Tool Costs
 
 If you need to add tool costs to the cost of a produced item, you create all tools included in the production process by using the [Tools](../UserGuide/AM_20_55_00.md) \(AM205500\) form. On this form, you specify the unit cost for each tool, which is the cost for every usage of the tool in a production order and the GL account where tool costs must be posted.
 
-## Machine Costs { .section}
+## Machine Costs
 
 If you need to add machine costs to the cost of produced items, you create machines and specify their costs on the [Machines](../UserGuide/AM_20_45_00.md) \(AM204500\) form. When assigning a machine to a work center on the [Work Centers](../UserGuide/AM_20_70_00.md) \(AM207000\) form, you can specify a different machine cost to be used for this work center. On both forms, you also select the GL account where the system will post the costs. Then on the [Bill of Material](../UserGuide/AM_20_80_00.md) \(AM208000\) form, for each operation that uses machines, you specify the number of machine units and machine time needed for the operation.
 
-## Subcontractor Costs { .section}
+## Subcontractor Costs
 
 If any outside organizations \(that is, subcontractors\) are involved in the production process—such as providing services or creating components of produced items—you can include the costs your organization spends for these organizations in the cost of the produced items. For details, see [Outside Processing: General Information](../UserGuide/MFG_Outside_Processing_GeneralInfo.md).
 

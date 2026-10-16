@@ -1,10 +1,10 @@
-# To Correct a Cash Entry {#_1e3dd4c3-f168-49f2-880c-ff2aeaf5e659 .task}
+# To Correct a Cash Entry
 
 To correct an incorrect transaction of the *Cash Entry* type, you create a reversing cash transaction, release it, and then create and release the correct transaction. You perform these actions on the [Cash Transactions](CA_30_40_00.md) \(CA304000\) form, as described in the procedure below.
 
 Alternatively, to reverse an incorrect cash entry transaction, you can find the incorrect transaction on the [Cash Account Details](CA_30_30_00.md#) \(CA303000\) form, click the reference number of the transaction in the **Orig. Doc. Number** column to navigate to the [Cash Transactions](CA_30_40_00.md) form, and then perform Steps 3–5 of the procedure below.
 
-## To Reverse a Cash Entry Transaction {#section_byb_kjv_vxb .section}
+## To Reverse a Cash Entry Transaction
 
 1.  Open the [Cash Transactions](CA_30_40_00.md) \(CA304000\) form.
 2.  Find the incorrect cash transaction by clicking the navigation buttons on the form toolbar until you see it. Alternatively, click the lookup icon in the **Reference Nbr.** box, find the cash transaction in one of the following ways, and double-click the row to open the transaction:

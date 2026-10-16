@@ -1,8 +1,8 @@
-# DeviceHub: General Information {#_0a1c628e-0288-42c6-a975-4e36f60dee0b .concept}
+# DeviceHub: General Information
 
 DeviceHub is a Windows application that is used for integration of Acumatica ERP with hardware devices, such as printers, scanners, and digital scales.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
@@ -11,7 +11,7 @@ In this chapter, you will learn how to do the following:
 -   Configure push notifications and polling
 -   Configure the DeviceHub log
 
-## DeviceHub Basics { .section}
+## DeviceHub Basics
 
 DeviceHub is a standalone Windows application that can run on a workstation or a server independently from a user session. DeviceHub enables the integration and management of various hardware devices—such as printers, scanners, and scales—directly with the Acumatica ERP system. The application provides the ability for direct communication between Acumatica ERP and physical devices.
 
@@ -22,11 +22,11 @@ DeviceHub features the following capabilities:
 -   The processing of scan jobs and scan results delivered directly to Acumatica ERP forms
 -   Integration with digital scales that enables real-time capture of weight data
 
-## Compatibility with Acumatica ERP { .section}
+## Compatibility with Acumatica ERP
 
 For DeviceHub to function properly, both Acumatica ERP and DeviceHub must have the same major version.
 
-## Implementation Workflow { .section}
+## Implementation Workflow
 
 To implement the functionality of printing, scanning, and weighing with DeviceHub in Acumatica ERP, you perform the following general steps:
 
@@ -43,7 +43,7 @@ To implement the functionality of printing, scanning, and weighing with DeviceHu
 3.  In the **Configuration** window of DeviceHub, you configure the methods of retrieving print and scan jobs. For details, see [DeviceHub: To Configure Methods of Retrieving Print and Scan Jobs](DeviceHub_To_Configure_Push_Notifications_Implem_Activity.md).
 4.  In the **Configuration** window of DeviceHub, you configure the logging of information in DeviceHub. For details, see [DeviceHub: To Configure the DeviceHub Log](DeviceHub_To_Configure_the_DeviceHub_Log_Implem_Activity.md).
 
-## Application Deployment Approaches { .section}
+## Application Deployment Approaches
 
 When deploying DeviceHub in your company, you can choose one of the following approaches:
 
@@ -52,13 +52,13 @@ When deploying DeviceHub in your company, you can choose one of the following ap
 
 You can combine these installation options depending on the working environment in your company.
 
-## Push Notifications {#section_vv2_1y4_y4b .section}
+## Push Notifications
 
 Acumatica ERP can send push notifications to DeviceHub to quickly notify the connected printer or scanner about a print or scan job. The advantage of this communication method is the speed at which jobs are sent to hardware devices. However, sending a push notification is a one-time action for each user attempt to print or scan a document. Acumatica ERP does not track the result of sending the notification. For guaranteed result, push notifications should be combined with regular polling.
 
 For instruction on how to configure push notifications in DeviceHub, see [DeviceHub: To Configure Methods of Retrieving Print and Scan Jobs](DeviceHub_To_Configure_Push_Notifications_Implem_Activity.md),
 
-## Use of Polling for Jobs { .section}
+## Use of Polling for Jobs
 
 Polling is another method of retrieving print and scan jobs. While polling ensures the execution of tasks, it can lead to execution delays, depending on the specified time interval. You can configure the frequency of regular polling calls to Acumatica ERP by specifying a value in the **Poll every** box on the **General** tab of the **Configuration** window in DeviceHub. This box becomes available only if push notifications are enabled. DeviceHub starts regular polling only when the application receives the first push notification after the start.
 

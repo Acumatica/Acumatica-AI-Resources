@@ -1,4 +1,4 @@
-# Creating and Processing Projects {#_3ac8811e-89b1-4702-9360-8089f707a904 .concept}
+# Creating and Processing Projects
 
 Projects represent an organized, well-defined way to manage corporate activity and carefully track and manage the related costs in the company. This chapter explains how you create a project in Acumatica ERP, specify its settings, and work with the project during the project lifecycle.
 

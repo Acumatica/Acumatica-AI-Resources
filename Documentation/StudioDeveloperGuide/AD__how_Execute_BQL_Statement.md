@@ -1,8 +1,8 @@
-# To Execute BQL Statements {#_2204f63e-6ab7-4f29-ba28-1b549570e40f .task}
+# To Execute BQL Statements
 
 To send a request to the database, you call the Select\(\) method of a PXSelectBase-derived class and cast the result of the query execution to a data access class \(DAC\) or an array of DACs, as described in this topic. The Select\(\) method can accept additional parameters if a business query language \(BQL\) statement includes parameters.
 
-## To Execute a BQL Statement That Defines a Data View { .section}
+## To Execute a BQL Statement That Defines a Data View
 
 When an Acumatica ERP form requests data, you do not need to execute a data view manually; the system executes each data view automatically. If you need to manually execute a BQL statement that defines a data view, do the following:
 
@@ -34,7 +34,7 @@ When an Acumatica ERP form requests data, you do not need to execute a data view
     ```
 
 
-## To Execute a BQL Statement Statically { .section}
+## To Execute a BQL Statement Statically
 
 To execute a BQL statement statically, do the following:
 
@@ -57,7 +57,7 @@ public class OrderDataEntry : PXGraph<OrderDataEntry, SalesOrder>
 }
 ```
 
-## To Execute a BQL Statement Dynamically { .section}
+## To Execute a BQL Statement Dynamically
 
 To execute a BQL statement dynamically, do the following:
 
@@ -84,7 +84,7 @@ public class OrderDataEntry : PXGraph<OrderDataEntry, SalesOrder>
 }
 ```
 
-## To Execute a BQL Statement with Parameters { .section}
+## To Execute a BQL Statement with Parameters
 
 Use parameters \(such as AsOptional, FromCurrent, and @P.As\[Type\] in fluent BQL and Optional, Current, and Required in traditional BQL\) to pass specific values to a BQL statement, as shown in the following example. For more details on how to construct a BQL statement with parameters, see [To Use Parameters in Fluent BQL Queries](AD__how_Use_Parameters_in_FBQL.md) and [To Use Parameters in Traditional BQL](AD__how_BQL_Parameters.md).
 
@@ -135,7 +135,7 @@ public class ReceiptDataEntry : PXGraph<ReceiptDataEntry, Document>
 }
 ```
 
-## To Execute a BQL Statement in a Data View Delegate {#_36988f03-38e3-4f9a-89f6-1623935e81fa .section}
+## To Execute a BQL Statement in a Data View Delegate
 
 If the data requested from the database cannot be described by a declarative BQL statement, implement the data view delegate that is used instead of the standard Select\(\) logic to retrieve data from the database; this data view delegate must satisfy the following requirements:
 

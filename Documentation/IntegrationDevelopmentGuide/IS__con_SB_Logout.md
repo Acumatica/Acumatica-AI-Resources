@@ -1,14 +1,14 @@
-# Logout\(\) Method {#_378c9257-9a93-48c8-a3a4-1180afa00f51 .reference}
+# Logout\(\) Method
 
 You use the Logout\(\) method to make the client application sign out from Acumatica ERP.
 
-## Syntax { .section}
+## Syntax
 
 ```
 public void Logout()
 ```
 
-## Usage Notes { .section}
+## Usage Notes
 
 For each call of the Login\(\) method, you must call the Logout\(\) method after you finish your work with Acumatica ERP to close the session. Therefore, when you are working with the web services API, we recommend that you use the pattern that is shown in the following code.
 

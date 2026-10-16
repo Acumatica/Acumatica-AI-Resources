@@ -1,4 +1,4 @@
-# Simple Scenarios for Data Import {#_2c494729-50a7-437a-bfb8-59e21123a1dd .concept}
+# Simple Scenarios for Data Import
 
 With simple scenarios, you skip the step of creating the data provider before you create the import scenario. You compose the mapping directly on the [Import by Scenario](SM_20_60_36.md) \(SM206036\) form and then you immediately run the import procedure on the form.
 

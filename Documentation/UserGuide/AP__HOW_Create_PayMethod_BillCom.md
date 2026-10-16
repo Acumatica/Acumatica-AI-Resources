@@ -1,8 +1,8 @@
-# To Create a Payment Method for External Payment Processing {#_45075a57-7f99-4307-a782-dc120613b12e .task}
+# To Create a Payment Method for External Payment Processing
 
 You create a payment method for external payment processing on the [Payment Methods](CA_20_40_00.md) \(CA204000\) form.
 
-## To Create a Payment Method for BILL { .section}
+## To Create a Payment Method for BILL
 
 1.  Open the [Payment Methods](CA_20_40_00.md) \(CA204000\) form.
 2.  On the form toolbar, click **Add New Record** and specify the following settings in the Summary area:

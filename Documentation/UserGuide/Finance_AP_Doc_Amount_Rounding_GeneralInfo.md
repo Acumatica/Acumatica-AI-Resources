@@ -1,21 +1,21 @@
-# Rounding of AP Document Amounts: General Information {#_940af757-ff34-4747-8ec8-7c485ee44bef .concept}
+# Rounding of AP Document Amounts: General Information
 
 Your company policy or local regulations may require the total amounts in AP documents to be rounded. To set up amount rounding in AP documents, you first enable the *Invoice Rounding* feature on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form. You then specify the settings the system will use to round these totals.
 
 **Attention:** The line total, tax total, and other subtotals of a document are not rounded.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Set up the of rounding the amounts of AP documents
 -   Process an AP bill with a rounded amount and review the generated GL transaction
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You set up the rounding of AP document amounts if your company's policy or external regulations require that you round the amounts in invoices and bills.
 
-## Rounding Setup { .section}
+## Rounding Setup
 
 In Acumatica ERP, the system rounds AP document totals based on the rounding rule, rounding precision, and rounding limit. You use the following forms to specify the applicable settings:
 
@@ -31,7 +31,7 @@ You use the [Currencies](CM_20_20_00.md) form to specify the following:
 -   The rounding gain and loss accounts \(and subaccounts, if they are used in your system\) for the base currency
 -   The gain and loss accounts and subaccounts for each of the foreign currencies used by your vendors
 
-## Rounding Rule { .section}
+## Rounding Rule
 
 To set up rounding for documents, you select the rounding rule and precision in the **Data Entry Settings** section on the **General** tab of the [Accounts Payable Preferences](AP_10_10_00.md) \(AP101000\) form. The following rounding rules are available in the **Rounding Rule for Bills** box:
 

@@ -1,20 +1,20 @@
-# Product Synchronization: To Sync Product Images {#_dfd1e8d0-16f0-4560-9615-a8fa52d94591 .task}
+# Product Synchronization: To Sync Product Images
 
 The following activity will walk you through the process of synchronizing product images between Acumatica ERP and the Shopify store.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that the SweetLife Fruits &amp; Jams company wants to store some images of the products it sells in the online store in an external storage. Some of the images, however, are attached to items in the Acumatica ERP instance.
 
 Acting as an implementation consultant helping SweetLife to set up the integration of Acumatica ERP with the Shopify store, you want to test how images stored in Acumatica ERP are exported to the Shopify store.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, for the purposes of this activity, on the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *APJAM08* stock item of the *JAM* item class been created.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -28,7 +28,7 @@ In this activity, you will do the following:
 8.  On the [Process Data](BC_50_15_00.md) form, process the product image data prepared for synchronization.
 9.  In the admin area of the Shopify store, review the exported images.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you complete the instructions in this activity, do the following:
 
@@ -44,7 +44,7 @@ Before you complete the instructions in this activity, do the following:
 6.  On the form toolbar, click **Save**.
 7.  Sign in to the admin area of the Shopify store as the store administrator in the same browser.
 
-## Step 1: Adding an Image to the Stock Item { .section}
+## Step 1: Adding an Image to the Stock Item
 
 To add an image to the *APJAM08* stock item in Acumatica ERP, do the following:
 
@@ -58,7 +58,7 @@ To add an image to the *APJAM08* stock item in Acumatica ERP, do the following:
     -   **Type**: *Image*
 4.  On the form toolbar, click **Save**.
 
-## Step 2: Preparing the Stock Item Data for Synchronization { .section}
+## Step 2: Preparing the Stock Item Data for Synchronization
 
 Before you can synchronize images for a stock item, you need to synchronize the stock item itself. To prepare the stock item data for synchronization, do the following:
 
@@ -71,7 +71,7 @@ Before you can synchronize images for a stock item, you need to synchronize the 
     Notice that the **Prepared Records** column shows the number of synchronization records that have been prepared and are ready to be processed.
 
 
-## Step 3: Processing the Prepared Stock Item Data { .section}
+## Step 3: Processing the Prepared Stock Item Data
 
 To process the stock item data prepared for synchronization, do the following:
 
@@ -82,7 +82,7 @@ To process the stock item data prepared for synchronization, do the following:
 2.  Select the unlabeled check box in the row with the *Apple jam 8 oz.* item, and on the form toolbar, click **Process**.
 3.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 4: Reviewing the Synchronized Stock Item { .section}
+## Step 4: Reviewing the Synchronized Stock Item
 
 To review the *Apple jam 8 oz.* stock item, in the Shopify store, do the following:
 
@@ -94,7 +94,7 @@ To review the *Apple jam 8 oz.* stock item, in the Shopify store, do the followi
     In the next steps, you will synchronize the images that you uploaded on the **Description** tab of the [Stock Items](IN_20_25_00.md) form.
 
 
-## Step 5: Preparing the Image Data for Synchronization { .section}
+## Step 5: Preparing the Image Data for Synchronization
 
 To prepare the image data for synchronization, in Acumatica ERP, do the following:
 
@@ -112,7 +112,7 @@ To prepare the image data for synchronization, in Acumatica ERP, do the followin
     Notice that the **Prepared Records** column shows the number of synchronization records that have been prepared and are ready to be processed.
 
 
-## Step 6: Processing the Prepared Image Data { .section}
+## Step 6: Processing the Prepared Image Data
 
 To process the image data prepared for synchronization, do the following:
 
@@ -125,7 +125,7 @@ To process the image data prepared for synchronization, do the following:
 2.  On the form toolbar, click **Process All** to process both synchronization records displayed in the table.
 3.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 7: Reviewing the Synchronized Images { .section}
+## Step 7: Reviewing the Synchronized Images
 
 To review the images that have been exported for the *Apple jam 8 oz.* product, do the following:
 
@@ -136,7 +136,6 @@ To review the images that have been exported for the *Apple jam 8 oz.* product, 
 
     The table displays synchronization records of the *Product Image* entity, as shown in the following screenshot. In the **External ID** column, notice that the identifier of each image in the Shopify store consists of the identifier of the product and the identifier of the image.
 
-    ![](Images/activity_Commerce_SP_Syncing_Products_To_Export_Images.png "Synchronization records for the product images")
 
 3.  In any row with the *Apple jam 8 oz.* external description, click the link in the **External ID** column to review the item in the Shopify store. The product management page opens for the *Apple jam 8 oz.* product.
 

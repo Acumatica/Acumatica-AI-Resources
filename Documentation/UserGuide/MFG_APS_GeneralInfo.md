@@ -1,10 +1,10 @@
-# Advanced Planning and Scheduling: General Information {#_b52a5a8f-58bc-42cc-8e19-db4199dda488 .concept}
+# Advanced Planning and Scheduling \(Classic\): General Information
 
-Advanced planning and scheduling \(APS\) provides the first elements of finite scheduling. This gives you a competitive and operational advantage if it is implemented and executed correctly. This functionality is available only when the *Advanced Planning and Scheduling* feature in the *Manufacturing* group of features is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
+Advanced planning and scheduling \(APS\) provides the first elements of finite scheduling. This gives you a competitive and operational advantage if it is implemented and executed correctly. This functionality is available only when the *Advanced Planning and Scheduling \(Classic\)* feature in the *Manufacturing* group of features is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form.
 
-In this topic, you will read about implementation of advanced planning and scheduling and the related processes.
+In this topic, you will read about implementation of classic advanced planning and scheduling and the related processes.
 
-## APS Implementation { .section}
+## APS Implementation
 
 You need to do the following to prepare the system for using APS:
 
@@ -24,7 +24,7 @@ You need to do the following to prepare the system for using APS:
     2.  Specify the tools required for each operation.
 8.  On the [APS Maintenance Process](AM_51_20_00.md) \(AM512000\) form, run the APS maintenance process to build the work center schedules.
 
-## Maintenance Process { .section}
+## Maintenance Process
 
 The purpose of the advanced planning and scheduling maintenance process is to rebuild and refresh work center schedules. To run the process, you use the [APS Maintenance Process](AM_51_20_00.md) \(AM512000\) form.
 
@@ -37,7 +37,7 @@ You run this process in the following cases:
 
 The process will fill the empty schedule days for each work center for the next 180 days and adjust the schedule time blocks. This process can be scheduled to run automatically by using automation schedules.
 
-## Rough Cut Planning Process { .section}
+## Rough Cut Planning Process
 
 The rough-cut planning process applies finite scheduling to open and planned production orders.
 
@@ -55,9 +55,9 @@ The availability of material is considered. Supply orders \(that is, purchase or
 
 To run rough-cut planning, you use the [Rough Cut Planning](AM_50_10_00.md) \(AM501000\) form and select the orders you wish to schedule. The system will only schedule orders that can be manufactured. If there is a material shortage or some other issue, the order will not be scheduled. Once scheduled, the items will remain on the [Rough Cut Planning](AM_50_10_00.md) form.
 
-For more information about advanced scheduling, see [Advanced Planning and Scheduling: Scheduling Details](MFG_APS_Schedule.md).
+For more information about advanced scheduling, see [Advanced Planning and Scheduling \(Classic\): Scheduling Details](MFG_APS_Schedule.md).
 
-For details about defining capacity, see [Advanced Planning and Scheduling: Capacity Definition](MFG_APS_Capacity.md).
+For details about defining capacity, see [Advanced Planning and Scheduling \(Classic\): Capacity Definition](MFG_APS_Capacity.md).
 
-**Parent topic:**[Advanced Planning and Scheduling](../UserGuide/MFG_APS_Mapref.md)
+**Parent topic:**[Advanced Planning and Scheduling \(Classic\)](../UserGuide/MFG_APS_Mapref.md)
 

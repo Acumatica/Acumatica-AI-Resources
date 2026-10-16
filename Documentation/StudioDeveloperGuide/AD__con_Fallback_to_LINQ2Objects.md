@@ -1,4 +1,4 @@
-# Fallback to the LINQ to Objects Mode {#_f0785138-5659-413b-9908-814a4891f85b .concept}
+# Fallback to the LINQ to Objects Mode
 
 With LINQ, you may not be able to filter records by using custom C\# functions. For example, suppose that your C\# function filters records by a regular expression, which cannot be converted to standard SQL functions. If the system cannot convert a custom C\# function in a LINQ statement to an SQL query tree, the system falls back to LINQ to Objects mode—that is, the system executes the data query in memory, which can lead to degradation of the application's performance.
 

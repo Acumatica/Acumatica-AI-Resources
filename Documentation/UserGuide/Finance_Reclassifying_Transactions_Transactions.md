@@ -1,4 +1,4 @@
-# Reclassifying Transactions: Generated Transactions {#_b2206663-5925-43bd-b488-12791dd6b8ee .concept}
+# Reclassifying Transactions: Generated Transactions
 
 Suppose that by mistake you have specified a wrong account in the AP bill. Now you need to reclassify the wrong journal entry by creating a correcting transaction, so that the amount will be moved to the correct account.
 

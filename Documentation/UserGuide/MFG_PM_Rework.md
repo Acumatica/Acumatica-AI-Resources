@@ -1,4 +1,4 @@
-# Rework/Repair Orders {#_4581d321-08db-4bbb-bb44-0b86dfcadae9 .concept}
+# Rework/Repair Orders
 
 A rework or repair order can be used to issue an existing item from inventory, do something to it, and return it to stock with the same or different inventory id. There are a number of reasons why this may be necessary:
 
@@ -8,11 +8,11 @@ A rework or repair order can be used to issue an existing item from inventory, d
 -   It can be converted into a different item that someone wants.
 -   You want to disassemble it for it's parts and dispose it.
 
-## Create a Repair/Rework Bill of Material { .section}
+## Create a Repair/Rework Bill of Material
 
 If you frequently do repair work for your customers you might create a repair bill of material for the stock item. You would list the operations to be performed and if required, any materials always used in the process. By having a special bill of material you can also add notes, attach procedures, or add attributes to the bill that will be copied to the production order based on the production order type settings specified on the [Production Order Types](AM_20_11_00.md) \(AM201100\) form.
 
-## Create a Production Order Type { .section}
+## Create a Production Order Type
 
 On the [Production Order Types](AM_20_11_00.md) \(AM201100\) form, you create an order type for repair and rework orders to help identify them and to use different settings, such as:
 
@@ -22,7 +22,7 @@ On the [Production Order Types](AM_20_11_00.md) \(AM201100\) form, you create an
 -   Copy Notes Settings
 -   Data Entry Settings
 
-## Create the Production Order { .section}
+## Create the Production Order
 
 To start you need to create a production order for the item you plan to receive into inventory. If the item has a bill of material you can decide if you want to use an existing bill, either the default or a special repair bill, to start and then amend it as necessary by using the [Production Order Details](AM_20_90_00.md) \(AM209000\) form. You delete unneeded operations with their materials; change, delete, or add materials; modify overhead and/or tools as required. Be sure to review the backflush check boxes for an operation or material and clear them when necessary.
 
@@ -34,23 +34,23 @@ If known if advance, you can add other materials to the details or simply issue 
 
 If you are using posting classes defined on the [Posting Classes](IN_20_60_00.md) \(IN206000\) form to specify default WIP and WIP Variance accounts, you can override these settings on the **References** tab of the [Production Order Maintenance](AM_20_15_00.md) form.
 
-## Returning Materials to Stock { .section}
+## Returning Materials to Stock
 
 If there are components that are removed and can be used elsewhere or need to be returned to vendor, you can enter a negative quantity on the [Materials](AM_30_00_00.md) \(AM300000\) form. The cost of an item returned to stock is dependent on the *Default Returns Cost* settings for warehouses. If the materials need further processing \(inspection, disposal, repair, return to vendor, etc.\), you should indicate a warehouse bin location that is not included in the quantity available calculations and excluded from MRP.
 
 The cost of materials returned to stock will credit the work in process account specified on the production order and debit the inventory account associated with each inventory item.
 
-## Returning Materials to Vendors { .section}
+## Returning Materials to Vendors
 
 After returning the item to stock, you use the [Purchase Receipts](PO_30_20_00.md) \(PO302000\) form to create a vendor return. For more information about vendor returns, see [Purchase Returns at the Original Cost: General Information](OrderMgmt_Purchase_Return_Original_Cost_GeneralInfo.md) and [Purchase Returns at the Calculated Cost: General Information](OrderMgmt_Purchase_Return_Calc_Cost_GeneralInfo.md).
 
-## Posting the Completion or Disposal { .section}
+## Posting the Completion or Disposal
 
 If the repairs were successful, then you can receive the unit to stock by creating a move or labor transaction. If the unit is lot- or serial-tracked, you can use a new lot or serial number. You can add a suffix to indicate that the unit has been repaired.
 
 If the repairs were not completely successful, then you can enter the scrap quantity on the Move or Labor transaction to complete the production order. Using this method can leave a balance for the WIP amount on the production order. Alternatively, you could receive the item into a disposal location and use an Inventory Issue with an appropriate reason code to charge the costs to whatever account you desire.
 
-## Closing the Production Order { .section}
+## Closing the Production Order
 
 The final step is to close production orders by using the [Close Production Orders](AM_50_60_00.md) \(AM506000\) form to zero out any WIP balance and to post those costs to the WIP Variance account. You can update the production order to change the WIP Variance account before closing the order.
 

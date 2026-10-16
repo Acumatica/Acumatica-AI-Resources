@@ -1,4 +1,4 @@
-# Step 3: Exploring and Debugging the Code {#_98cc1909-b18c-49df-8f3a-2995bbd4abab .task}
+# Step 3: Exploring and Debugging the Code
 
 Now that you have prepared the `PhoneRepairShop_Code` project for debugging in Visual Studio, you can continue exploring the code of the `Release` action to find the workflow event that you should use in the customization project. Do the following:
 
@@ -20,18 +20,17 @@ Now that you have prepared the `PhoneRepairShop_Code` project for debugging in V
 
     Continue exploring the methods that are called inside the `ARReleaseProcess.ProcessPayments` method. You can find the `ARReleaseProcess.CloseInvoiceAndClearBalances` method. The call hierarchy is shown in the following screenshot.
 
-    ![](Images/WorkflowAPI_CallHierarchy.png "The call hierarchy for the CloseInvoiceAndClearBalances method")
 
     Notice the following line in the code of the CloseInvoiceAndClearBalances method.
 
-    ```language-csharp
+    ```csharp
     RaiseInvoiceEvent(ardoc, PXEntityEventBase<ARInvoice>.Container<ARInvoice.Events>
       .Select((ARInvoice.Events ev) => ev.CloseDocument));
     ```
 
     If you go to the definition of the RaiseInvoiceEvent\(ARRegister doc, SelectedEntityEvent&lt;ARInvoice&gt; invEvent\) method, you can find that the CloseDocument workflow event is fired in this method, as shown in the following line of the method.
 
-    ```language-csharp
+    ```csharp
     invEvent.FireOn(this, (ARInvoice)doc);
     ```
 
@@ -40,7 +39,6 @@ Now that you have prepared the `PhoneRepairShop_Code` project for debugging in V
     2.  In the WithHandlers method, locate the handler for the CloseDocument workflow event. The handler's name is OnCloseDocument.
     3.  Locate the transition from the `Open` state to the `Closed` state. Notice that the transition is triggered by the OnCloseDocument workflow event handler, as shown in the following screenshot.
 
-        ![](Images/WorkflowAPI_screenshot_transition_closed.png "Transitions from the Open state")
 
 6.  To make sure that the firing of the `CloseDocument` workflow event in the `ARReleaseProcess.CloseInvoiceAndClearBalances` method indeed happens when an invoice is fully paid, do the following:
     1.  Add a breakpoint to the line that fires the `OnCloseDocument` workflow event of the `ARReleaseProcess.CloseInvoiceAndClearBalances` method.

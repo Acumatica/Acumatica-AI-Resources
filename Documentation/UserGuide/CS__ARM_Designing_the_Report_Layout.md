@@ -1,8 +1,8 @@
-# Report Structure Design {#_90b3d3d4-2add-41c0-84bc-33ced2cb1a3e .concept}
+# Report Structure Design
 
 The report structure determines the report outlook, and identifies the rows and columns to be included in the report. To design an analytical report, you define what sections will be included in the report, how the data will be grouped in the report, and what rows and columns will be included in the report; you also specify the order in which the rows and columns will be displayed in the report. You also define the headers for the report columns and for the report itself, and specify the captions for the rows. All the parameters required to define the analytical report structure can be specified by using the Analytical Report Manager forms.
 
-## Selecting the Rows and Columns for the Report { .section}
+## Selecting the Rows and Columns for the Report
 
 Every report has its set of rows and columns, which can be specific for this report or can be used in other reports. Every row included in the row set and every column included in the column set has attributes specifying what data will be displayed in the report.
 
@@ -22,7 +22,7 @@ To define the rows and columns to be included in the report, you should perform 
 
 **Tip:** The row and column sets are defined for the report as a whole, and if the report includes multiple sections, each consisting of various rows and columns, the row set and column set should include all rows and columns for all the report sections.
 
-## Defining the Report Sections { .section}
+## Defining the Report Sections
 
 Every report can include one section or multiple sections made up of rows and columns. The grouping rules for rows and columns can be defined separately for each report section.
 
@@ -41,7 +41,7 @@ For each section in the report, you can specify the following:
 -   The rows and columns to be included in this section.
 -   The data selection criteria used to include the data in this section of the report.
 
-## Defining the Rows and Columns to Be Included in the Report Section { .section}
+## Defining the Rows and Columns to Be Included in the Report Section
 
 The rows and columns to be displayed in the analytical report sections can be selected separately for each report section.
 
@@ -57,7 +57,7 @@ To specify the rows and columns to be included in a report section, you perform 
 
 3.  Open the [Column Sets](CS_20_60_20.md) \(CS206020\) form and specify the same value in the **Unit Group** column for all the columns to be included in this report section.
 
-## Defining the Data Selection Criteria for the Report Sections { .section}
+## Defining the Data Selection Criteria for the Report Sections
 
 Depending on the report structure and the need to use the same row sets and column sets in a variety of reports, you can define the section-specific data filtering criteria for the rows and columns included in a report section, or define them separately for each unit.
 
@@ -73,9 +73,9 @@ To define the data selection criteria for the report section at the row and colu
 
 To define the data selection criteria for the report section at the unit level, you specify the data source parameters for the unit related to the specific report section.
 
-For more information about the data source parameters, see [Data Source Editor](CS__ref_Data_Source_Editor.md) and [Data Source](CS__ARM_Data_Source.md)
+For more information about the data source parameters, see [Data Source Editor](CS__ref_Data_Source_Editor.md) and [Data Source](CS__ARM_Data_Source.md).
 
-## Grouping the Report Sections { .section}
+## Grouping the Report Sections
 
 Depending on the data sampling rules, the sections in the report can be arranged in a flat or hierarchical structure.
 
@@ -94,7 +94,7 @@ To group the section in the report, you perform the following steps:
     For a detailed description of specifying the unit attributes, see [To Define the Units to Be Included in the Unit Set](CS__ARM_Defining_the_Units_to_be_Included_in_the_Unit_Set.md).
 
 
-## Specifying the Report Headers and Captions { .section}
+## Specifying the Report Headers and Captions
 
 To provide the description of the data included in the report, you should define the titles for the report and its sections, add the headers for the report columns or column groups, and specify the captions for the rows or a group of rows. For more information, see [To Add a Report Title](CS__ARM_Setting_Up_the_Report_Headline.md) and [To Add a Title for a Report Section](CS__ARM_Setting_Up_the_Headline_for_a_Report_Section.md).
 

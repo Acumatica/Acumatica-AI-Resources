@@ -1,16 +1,16 @@
-# Project Publication: To Deploy a Customization Project {#_74c45e45-87fa-474a-8aa2-1b8210b0602b .task}
+# Project Publication: To Deploy a Customization Project
 
 The following activity will walk you through the process of deploying a customization project to a staging environment.
 
-## Story { .section}
+## Story
 
 Suppose that your colleague has created and tested the *Yogifon* customization project in their development environment. This project contains the modifications of various elements on the [Customers](../UserGuide/AR_30_30_00.md) \(AR303000\), [Cases](../UserGuide/CR_30_60_00.md) \(CR306000\), [Leads](../UserGuide/CR_30_10_00.md) \(CR301000\), [Sales Orders](../UserGuide/SO_30_10_00.md) \(SO301000\), and [Customer Locations](../UserGuide/AR_30_30_20.md) \(AR303020\) forms. Further suppose that you want to make the same changes to the staging environment. You need import the project to your instance and test it.
 
-## Process Overview { .section}
+## Process Overview
 
 By using the [Customization Projects](../UserGuide/SM_20_45_05.md) \(SM204505\) form of your Acumatica ERP instance, you will import the deployment package with the *Yogifon* customization project and then publish this customization project. You will then test the results of the changes on the appropriate forms.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you begin performing the steps of this activity, do the following:
 
@@ -21,7 +21,7 @@ Before you begin performing the steps of this activity, do the following:
     -   **Payment Application by Line**
 3.  Download the [`Yogifon.zip`](https://training.acumatica.com/University/W140/Yogifon.zip) file of the deployment package.
 
-## Step 1: Applying the Customization Project to the Staging Environment { .section}
+## Step 1: Applying the Customization Project to the Staging Environment
 
 To apply the customization project to the staging environment, you will import the deployment package to the staging environment and publish the customization project as follows:
 
@@ -40,7 +40,7 @@ To apply the customization project to the staging environment, you will import t
     The changes of the customization project are applied to the instance.
 
 
-## Step 2: Testing the Changes { .section}
+## Step 2: Testing the Changes
 
 To test the changes in the published customization project, perform the following steps:
 

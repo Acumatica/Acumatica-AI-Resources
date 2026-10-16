@@ -1,8 +1,8 @@
-# Modern UI Development: Creating Modern UI Source Files for Custom and Customized Forms {#_530837da-5462-4e84-a35c-457172bbef01 .concept}
+# Modern UI Development: Creating Modern UI Source Files for Custom and Customized Forms
 
 The Modern UI of a form is defined by an HTML file and a TypeScript file. If you’re customizing the Modern UI of an existing form, you create extension files that are derived from its original HTML and TypeScript code. For details, see [Defining Acumatica ERP Forms in HTML and TypeScript](UIDev_UIDefinition_Mapref.md) and [Customizing Acumatica ERP Forms in HTML and TypeScript](UIDev_Customization_Mapref.md).
 
-## Using the Development Folder { .section}
+## Using the Development Folder
 
 You use the `development` folder—located in the `FrontendSources\screen\src\` folder of your instance—to create new forms or to customize existing forms for the Modern UI.
 
@@ -10,7 +10,7 @@ The source files of the forms that you create or customize in this folder aren�
 
 By default, the `development` folder doesn’t exist in the instance—you must create it manually. Within it, you create the `screens` folder.
 
-## Creating Modern UI Source Files in the Development Folder { .section}
+## Creating Modern UI Source Files in the Development Folder
 
 In the `FrontendSources\screen\src\development\screens\` folder, you should create subfolders with two-letter names. Each subfolder will contain the source code of the forms whose screen IDs start with these letters. For each form in the subfolder, you should create a folder named after its screen ID, such as `RS201000`. Within this folder, you should create HTML and TypeScript files with the screen ID as the file name, such as `RS201000.ts` and `RS201000.html`.
 

@@ -1,8 +1,8 @@
-# To Use Arithmetic Operations {#_82cf157e-97f8-42d6-85f9-3774c7ff13ef .task}
+# To Use Arithmetic Operations
 
 Arithmetic operations—such as `Add<Operand1, Operand2>`, `Sub<Operand1, Operand2>`, `Mult<Operand1, Operand2>`, `Div<Operand1, Operand2>`, `Minus<Operand>`, and `Power<Operand1, Operand2>`—are used primarily in attributes to calculate the value of a field from other fields. Arithmetic operations can also be used as operands in Where and OrderBy clauses in business query language \(BQL\) statements.
 
-## To Use Arithmetic Operations in Attributes { .section}
+## To Use Arithmetic Operations in Attributes
 
 1.  Compose the expression by using arithmetic operations. For example, you can calculate product reorder discrepancy by using the following BQL expression, where the decimal\_0 constant represents the 0 decimal value. IsNull returns the first argument if it is not null or the second argument otherwise.
 
@@ -34,7 +34,7 @@ Arithmetic operations—such as `Add<Operand1, Operand2>`, `Sub<Operand1, Operan
     ```
 
 
-## To Use Arithmetic Operations in BQL Statements { .section}
+## To Use Arithmetic Operations in BQL Statements
 
 1.  Compose the expression by using arithmetic operations. For example, you can calculate product reorder discrepancy by using the following BQL expression, where the decimal\_0 constant represents the 0 decimal value. IsNull returns the first argument if it is not null or the second argument otherwise.
 

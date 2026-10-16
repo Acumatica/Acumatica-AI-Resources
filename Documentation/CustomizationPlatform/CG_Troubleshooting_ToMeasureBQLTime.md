@@ -1,4 +1,4 @@
-# To Measure the Execution Time of a BQL Statement {#_0cbc6cc9-8288-49ac-a4cd-609d7d474431 .concept}
+# To Measure the Execution Time of a BQL Statement
 
 Suppose that in the customization code, you have a BQL statement that can affect system performance. To measure the execution time of the BQL statement, you can use the Request Profiler.
 

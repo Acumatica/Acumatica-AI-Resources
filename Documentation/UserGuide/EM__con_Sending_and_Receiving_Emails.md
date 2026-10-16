@@ -1,4 +1,4 @@
-# Mail Sending and Receipt {#_3483a048-8f2d-46d3-ba33-448a63b88aac .concept}
+# Mail Sending and Receipt
 
 System email accounts for outgoing mail are used mainly to send mass emails for campaigns or mailing lists, or for automatic replies to incoming mail. When users involved with CRM activities create a mass email by using the [Mass Emails](CR_30_80_00.md) \(CR308000\) form, they can select in the **From** box the system email account to which they have access \(for details, see [Managing Emails and Activities](CRM_Mktg_Managing_Emails_Activities_Mapref.md)\). When a user clicks **Send** on the form toolbar, the SMTP server associated with the selected system email account generates each message of the mass email in accordance with the specified template and replaces placeholders in the email properties and the message body with the data of one of the recipients on the list, until the complete mailing list is processed. However, no emails are actually sent as a result of this process.
 

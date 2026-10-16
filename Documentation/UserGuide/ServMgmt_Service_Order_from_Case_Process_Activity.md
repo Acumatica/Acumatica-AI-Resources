@@ -1,16 +1,16 @@
-# Case-Related Service Orders: Process Activity {#_2c819e5c-a39b-4df3-92c9-b17ac27a3d0d .task}
+# Case-Related Service Orders: Process Activity
 
 This activity will walk you through the process of creating a service order from a case. You will go through the service management process while also processing the case, from creation through closing.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 The SweetLife Service and Equipment Sales Center provides support to its customers on equipment that the company sells, and these support services are billed to the customer on a per-case basis. The Thai Food Restaurant customer has requested the replacement of a component in a juicer that the company purchased previously.
 
 Acting as the service manager of the company \(Maia Davis\), you will create a case for which an appointment should be scheduled for the replacement services to be performed. Acting as the respective employees, you will also continue the processing of the related service order through the closing of the case.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, which you'll use to complete this lesson, the following setup has been configured. These settings ensure that the environment is ready for performing the activity:
 
@@ -29,11 +29,11 @@ In the *U100* dataset, which you'll use to complete this lesson, the following s
 -   On the [Service Management Preferences](FS_10_01_00.md#) \(FS100100\) form, the basic service management functionality has been configured, including the specification of the numbering sequences and the work calendar. Also, on the **General** tab \(**Default Settings** section\), *MRO* has been selected in the **Default Service Order Type for Cases** box, meaning that when a new service order is created from the [Cases](CR_30_60_00.md) \(CR306000\) form, *MRO* is inserted as its service order type.
 -   On the [Customers](AR_30_30_00.md#) \(AR303000\) form, the *TOMYUM \(Thai Food Restaurant\)* customer has been defined.
 
-## Process Overview { .section}
+## Process Overview
 
 To create a service order along with a case, you will create a new case on the [Cases](CR_30_60_00.md#) \(CR306000\) and a service order for it on the [Service Orders](FS_30_01_00.md#) \(FS300100\) form. You will then add the service to be performed by creating the related task on the [Task](CR_30_60_20.md#) \(CR306020\) form.
 
-## System Preparation {#section_zjw_pvc_hhc .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -41,7 +41,7 @@ Before you start this activity, do the following:
 2.  In the Date box in the upper-right corner of the Acumatica ERP screen, specify the business date *1/30/2026*. For simplicity, you will use this business date to create and process all documents in this activity.
 3.  After signing in, make sure that the *Service Management* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md#) \(CS100000\) form.
 
-## Step 1: Creating a Case { .section}
+## Step 1: Creating a Case
 
 To create a case, do the following:
 
@@ -53,7 +53,7 @@ To create a case, do the following:
 3.  On the **Details** tab, briefly describe the situation by entering the following: `The component of the juicer has a defect; replacement with a new one is necessary`.
 4.  On the form toolbar, click **Save**.
 
-## Step 2: Creating a Service Order from the Case { .section}
+## Step 2: Creating a Service Order from the Case
 
 To create a service order from the case, do the following:
 
@@ -65,7 +65,7 @@ To create a service order from the case, do the following:
 3.  In the **Source Info** section of the **Settings** tab, verify that the system has inserted *Case* as the document type and has inserted the reference number of the case from which the service order was created.
 4.  On the form toolbar, click **Save**.
 
-## Step 3: Adding Services { .section}
+## Step 3: Adding Services
 
 To add services to a service order, do the following:
 
@@ -86,7 +86,7 @@ To add services to a service order, do the following:
 
 The dialog box closes and the status of the case changes to *Open*.
 
-## Step 4: Creating an Appointment { .section}
+## Step 4: Creating an Appointment
 
 To create an appointment, do the following:
 
@@ -101,7 +101,7 @@ To create an appointment, do the following:
 
 An appointment is now created.
 
-## Step 5: Processing the Appointment { .section}
+## Step 5: Processing the Appointment
 
 To process the appointment, do the following:
 
@@ -111,7 +111,7 @@ To process the appointment, do the following:
 
 The service required to complete the case has been delivered, and you have completed the corresponding appointment. The completion of the appointment caused the service order to also be completed because of the settings of the *MRO* service order type on the [Service Order Types](FS_20_23_00.md#) \(FS202300\) form, as described in the *Configuration Overview* section.
 
-## Step 6: Generating an Invoice for the Appointment { .section}
+## Step 6: Generating an Invoice for the Appointment
 
 On behalf of the accountant, you will generate an invoice for the appointment. Do the following:
 
@@ -121,7 +121,7 @@ On behalf of the accountant, you will generate an invoice for the appointment. D
 
 2.  Once the billing process is finished, an invoice is generated and released. Close the confirmation box in the upper right corner of the form.
 
-## Step 7: Completing the Task and Closing the Case { .section}
+## Step 7: Completing the Task and Closing the Case
 
 Now you can complete the task and close the related case; these actions must be performed manually. Do the following:
 

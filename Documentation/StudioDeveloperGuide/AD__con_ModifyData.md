@@ -1,8 +1,8 @@
-# Modification of Data in a PXCache Object {#_7098eac5-90f1-4043-aaaf-c64cb2bc95e5 .concept}
+# Modification of Data in a PXCache Object
 
 In this topic, you can find information about the statuses of data records in PXCache, the methods that can be used for data modification in PXCache, and the ways to invoke these methods.
 
-## Modifying the Data with PCCache Methods { .section}
+## Modifying the Data with PCCache Methods
 
 To modify data from code, you can use the following methods of a PXCache object:
 
@@ -18,7 +18,7 @@ On Delete\(object\), the framework sets the Deleted status for the record if it 
 
 The modified records remain in the cache object until the Persist\(\) method of the graph is invoked, or until the Cache.Clear\(\) method of the data view is invoked, which removes all records from the cache object. You can remove all records from all cache objects of the graph by invoking the Clear\(\) method of the graph object.
 
-## Understanding the Statuses of Data Records in a PXCache {#section_vbk_5lw_lm .section}
+## Understanding the Statuses of Data Records in a PXCache
 
 For each of the data modification methods, the framework raises the corresponding sequence of events and changes the status of the record in the cache object as shown in the diagram below. Once it is retrieved from the database, a record has the Notchanged status until it is modified. An inserted record maintains the Inserted status even if it is updated. When the inserted record is deleted, it is assigned the specific InsertedDeleted status. If you want to make sure that a record has been marked as deleted within the current session, you have to check the record for both the Deleted status and the InsertedDeleted status. To obtain the status of the record, invoke the GetStatus\(\) method of the cache object for the needed DAC object. The status of the record is one of the following values of the PXEntryStatus enumeration:
 
@@ -28,7 +28,6 @@ For each of the data modification methods, the framework raises the correspondin
 -   Deleted
 -   InsertedDeleted
 
-![](Images/DataRecord_Statuses1.png "Transitions between statuses of records")
 
 You can obtain the modified records from the collections of the PXCache object that correspond to the type of modification, as follows:
 
@@ -43,7 +42,7 @@ Records that have other statuses \(such as InsertedDeleted\) are not retrieved b
 
 **Note:** We do not recommend that you iterate through the Cached collection. For performance optimization, this collection may not retrieve all available data records.
 
-## Updating a Data Record in a PXCache {#section_zvd_xlw_lm .section}
+## Updating a Data Record in a PXCache
 
 The framework raises the applicable events and updates the status of the record in the following cases as described:
 
@@ -82,7 +81,7 @@ The framework neither raises any event nor updates the status of the record in t
     ```
 
 
-## Searching for a Data Record in a PXCache {#section_zgd_zlw_lm .section}
+## Searching for a Data Record in a PXCache
 
 Searching for a data record in the cache is helpful when you want to check whether the data record has already been modified during the current user session. To search for a data record, you can use the Locate\(\) method, which returns the data record if it exists in the PXCache object. The Locate\(\) method searches for the record by key values. If the record does not exist, the method returns null. No query is executed to the database in the Locate\(\) method.
 
@@ -90,7 +89,7 @@ Searching for a data record in the cache is helpful when you want to check wheth
 Account account = Accounts.Locate(record);
 ```
 
-## Invoking PXCache Methods {#section_ubj_1mw_lm .section}
+## Invoking PXCache Methods
 
 You can invoke data modification methods on a PXCache object through a data view. The methods are invoked on the PXCache object of the first DAC specified in the data view type \(main DAC of the data view\). The following code shows equivalent invocations of the Insert\(\) method on the PXCache object that stores `ShipmentLine` data records in a graph.
 

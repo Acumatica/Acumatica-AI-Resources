@@ -1,8 +1,8 @@
-# Specific Widgets: To Add Link, Table, and Embedded Page Widgets {#_672f1307-e9da-4e43-b6da-f3fae6ae5c44 .task}
+# Specific Widgets: To Add Link, Table, and Embedded Page Widgets
 
 The following activity will show you how to add and configure link, table, and embedded page widgets.
 
-## Story { .section}
+## Story
 
 Suppose that you are Kimberly Gibbs, a technical specialist in your company who is working on simple customizations. A sales manager of your company had previously requested a dashboard named *Sales Mgr Dashboard*, and you created the requested dashboard form. The sales manager has now requested that you add the following widgets to the dashboard:
 
@@ -10,11 +10,11 @@ Suppose that you are Kimberly Gibbs, a technical specialist in your company who 
 -   A table that lists customer accounts and has the following columns: **Customer ID**, **Customer Name**, **Country**, **City**, **Terms**, and **Customer Status**
 -   An embedded page that displays the Acumatica website or the website of your company
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will add and configure widgets of the following types: link, table, and embedded page.
 
-## System Preparation {#section_g1x_5xn_wrb .section}
+## System Preparation
 
 Before you start adding the widgets, make sure that the following tasks have been performed:
 
@@ -25,7 +25,7 @@ Before you start adding the widgets, make sure that the following tasks have bee
     **Tip:** The *gibbs* user is assigned the *Administrator* role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards.
 
 
-## Step 1: Adding a Link Widget { .section}
+## Step 1: Adding a Link Widget
 
 To add a link widget, do the following:
 
@@ -44,7 +44,7 @@ To add a link widget, do the following:
     -   **Icon**: *account details*
 6.  Click **Save** to save your changes and close the dialog box.
 
-## Step 2: Adding a Table Widget { .section}
+## Step 2: Adding a Table Widget
 
 To add a table widget, do the following:
 
@@ -63,7 +63,7 @@ To add a table widget, do the following:
 8.  Click **Save** to save your changes and close the dialog box.
 9.  Drag the widget borders to change its width and height until you are satisfied with the information displayed.
 
-## Step 3: Adding an Embedded Page Widget { .section}
+## Step 3: Adding an Embedded Page Widget
 
 To add an embedded page widget, do the following:
 
@@ -78,7 +78,6 @@ To add an embedded page widget, do the following:
 
 You have added widgets of the following types to the dashboard: link, table, and embedded page \(see the following screenshot\).
 
-![](Images/activity_RPT_Configuring_Widgets_Link_Table_Page_Dashboard.png "Sales Mgr Dashboard with the link, table, and embedded page widgets")
 
 **Parent topic:**[Configuring Widgets](../UserGuide/RPT_Configuring_Widgets_Mapref.md)
 

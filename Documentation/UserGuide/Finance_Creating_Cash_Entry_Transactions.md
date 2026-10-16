@@ -1,4 +1,4 @@
-# Cash Entries: Generated Transactions {#_7aa99d3e-014a-422a-84e8-512aec50b54d .concept}
+# Cash Entries: Generated Transactions
 
 When a cash entry is released, its status changes to *Released* and the system generates a batch to be posted to the general ledger.
 

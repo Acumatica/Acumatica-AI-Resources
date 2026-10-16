@@ -1,4 +1,4 @@
-# Formula Editor: Implementation of a Standard Formula Editor {#_faf42005-72a4-4629-b7c9-39b8c0670c34 .concept}
+# Formula Editor: Implementation of a Standard Formula Editor
 
 To configure the formula editor, you should use the following attributes on the DAC field:
 

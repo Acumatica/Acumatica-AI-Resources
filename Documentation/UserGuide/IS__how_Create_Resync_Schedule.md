@@ -1,4 +1,4 @@
-# To Create a Schedule for Full Data Resync {#_c8a4d858-df21-4b2c-aeec-8ef20216e285 .task}
+# To Create a Schedule for Full Data Resync
 
 To create a periodic schedule that initiates the full resynchronization of data between Acumatica ERP and Salesforce, do the following:
 

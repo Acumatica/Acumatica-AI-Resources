@@ -1,8 +1,8 @@
-# To Configure the POS Payment Functionality {#_94e2b201-a56c-4d36-ac6a-f6d10c0bac81 .task}
+# To Configure the POS Payment Functionality
 
 This topic describes the configuration steps that you need to perform in the system to set up the support of POS payments in Acumatica ERP.
 
-## Before You Proceed { .section}
+## Before You Proceed
 
 Before you start configuring support of POS payments, your organization needs to contact the Acumatica Payments sales team. Your sales representative will provide actual payment processing rates and guide your organization through concluding the agreement, obtaining the merchant account ID, and migrating tokens from the previous payment gateway to Acumatica ERP.
 
@@ -15,7 +15,7 @@ You will need the following settings of the merchant account to perform the conf
 
 On the [Cash Accounts](CA_20_20_00.md) \(CA202000\) form, make sure that the needed cash accounts have been created.
 
-## To Enable the Needed Feature { .section}
+## To Enable the Needed Feature
 
 To enable the *Acumatica Payments* feature, do the following:
 
@@ -24,7 +24,7 @@ To enable the *Acumatica Payments* feature, do the following:
 3.  In the **Integrated Card Processing** group of features, select the **Acumatica Payments** check box.
 4.  On the form toolbar, click **Enable** to enable the feature.
 
-## To Create a Processing Center { .section}
+## To Create a Processing Center
 
 To create a processing center for POS payments, do the following:
 
@@ -58,7 +58,7 @@ To create a processing center for POS payments, do the following:
 5.  On the form toolbar, click **Test Credentials** to make sure that the credentials are accepted by the processing center. In the **Result** dialog box, which is displayed, click **OK**.
 6.  On the form toolbar, click **Save** to save the changes.
 
-## To Create a Payment Method { .section}
+## To Create a Payment Method
 
 To create a payment method for POS payments, do the following:
 

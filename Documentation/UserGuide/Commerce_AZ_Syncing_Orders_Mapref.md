@@ -1,4 +1,4 @@
-# Synchronizing Orders {#_b8676d55-df48-4a06-bd2d-d2d1794a692c .concept}
+# Synchronizing Orders
 
 In the topics of this chapter, you will read about the main features of order synchronization between Acumatica ERP and the Amazon seller account.
 

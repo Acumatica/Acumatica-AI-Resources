@@ -1,4 +1,4 @@
-# Workflow States: Tracking of Changes in States {#_f4996bf7-50eb-4ac5-92e1-a58026dfc920 .concept}
+# Workflow States: Tracking of Changes in States
 
 The Acumatica Framework automatically tracks the state changes whenever a transition moves a record from one state to another in a workflow. This provides you with the ability to audit the state changes. To enable this functionality, you must declare the following fields in the underlying DAC of the workflow:
 
@@ -17,7 +17,7 @@ The Acumatica Framework automatically tracks the state changes whenever a transi
 
 These fields are updated whenever a workflow transition happens and the workflow state is changed. The following code shows how to declare these fields in a DAC.
 
-```language-csharp
+```csharp
 [PXDBStateChangedByID()]
 public virtual Guid? StateChangedByID { get; set; }
 public abstract class stateChangedByID : 

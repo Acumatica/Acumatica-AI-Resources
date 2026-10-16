@@ -1,8 +1,8 @@
-# To Print a Pick List for a Shipment {#_70f3fb12-a25d-4327-a859-0b685eac16e3 .task}
+# To Print a Pick List for a Shipment
 
 If you need to print a pick list for a particular shipment, you can do this from the [Shipments](SO_30_20_00.md) \(SO302000\) form, as described in the instructions below.
 
-## To Print a Pick List for a Shipment { .section}
+## To Print a Pick List for a Shipment
 
 1.  Open the [Shipments](../Shared/../UserGuide/SO_30_20_00.md) \(SO302000\) form.
 2.  In the **Shipment Nbr.** box, select the reference number of the needed shipment.

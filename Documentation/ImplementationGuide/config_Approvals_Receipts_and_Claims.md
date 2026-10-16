@@ -1,4 +1,4 @@
-# Specific Approvals: Expense Receipts and Expense Claims {#_a97206af-7dd6-4fa1-834e-601e6f15ba27 .concept}
+# Specific Approvals: Expense Receipts and Expense Claims
 
 Acumatica ERP offers easy-to-use, system-wide capabilities for configuring the approval functionality for expense receipts and expense claims.
 
@@ -8,7 +8,7 @@ If the *Approval Workflow* feature is disabled on the [Enable/Disable Features](
 
 If the *Approval Workflow* feature is enabled on the [Enable/Disable Features](../UserGuide/CS_10_00_00.md) form, you can configure the approval functionality of both expense receipts and expense claims; however, the requirement to approve the same expenses twice may involve too much redundancy in effort. For effective processing of expenses, it may be sufficient to set up approvals for only one type of expense document. For example, if you want all expenses related to a particular project to be approved by the project manager, you can configure the approval functionality of only expense receipts associated with the project.
 
-## Configuration of the Approval Workflow for Expense Receipts and Expense Claims { .section}
+## Configuration of the Approval Workflow for Expense Receipts and Expense Claims
 
 To set up the approval functionality for expense claims and expense receipts, you perform the following general steps:
 

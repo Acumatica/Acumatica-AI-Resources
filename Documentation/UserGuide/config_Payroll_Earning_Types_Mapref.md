@@ -1,4 +1,4 @@
-# Defining Earning Types {#_a3afb805-da3f-4f8c-afb0-9f037b94295b .concept}
+# Defining Earning Types
 
 This chapter contains information about earning type codes used by the payroll functionality.
 

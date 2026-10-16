@@ -1,8 +1,8 @@
-# Sales Taxes: Configuration Prerequisites {#_7784d085-b0bb-4559-a5c4-8a9cf6de782c .concept}
+# Sales Taxes: Configuration Prerequisites
 
 Before starting the configuration of a sales tax, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following sections.
 
-## Configuring the System { .section}
+## Configuring the System
 
 Before you configure a sales tax, you need to make sure that the following configuration tasks have been performed in the system:
 

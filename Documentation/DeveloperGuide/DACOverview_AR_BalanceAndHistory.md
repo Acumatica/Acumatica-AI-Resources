@@ -1,12 +1,12 @@
-# AR DACs: Balance and Historical Data {#_e93799fe-7aad-4b67-8c76-24b07ca9d581 .concept}
+# AR DACs: Balance and Historical Data
 
 The system stores information about the customer balance in balance data access classes \(DACs\). Historical DACs keep historical data on customers' balance and turnover by financial period.
 
-## ARBalances { .section}
+## ARBalances
 
 The [ARBalances](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARBalances) DAC stores the information on current customer balances, including unreleased documents and open customer orders. The DAC is used for credit limit verification and quick customer balance lookup. All data is stored in the base currency of the customer location.
 
-## ARHistory { .section}
+## ARHistory
 
 The [ARHistory](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARHistory) DAC keeps the history of customer operations and the beginning and ending balances in the base currency.
 
@@ -72,13 +72,13 @@ FROM
         AND ARHistorySum.SubID = GLTransactionSum.SubID 
 ```
 
-## CuryARHistory { .section}
+## CuryARHistory
 
 The [CuryARHistory](https://help.acumatica.com/dacBrowser/PX.Objects.AR/CuryARHistory) DACs keep the history of customer operations and the beginning and ending balances in each currency. Data is accumulated across the currency ID dimension and the same dimensions as are used in the [ARHistory](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARHistory) DAC.
 
 If a financial period does not have any transactions, the historical record is not created for that period. To get the historical balance for such period, you need to join the last historical record before the reported period. In reports, this is done with [ARHistoryByPeriod](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARHistoryByPeriod), which is a projection over CuryARHistory.
 
-## Customer Balance Validation { .section}
+## Customer Balance Validation
 
 Rarely \(such as because of manually executed SQL scripts\), the database may contain discrepancies between customer historical balances \(which are stored in the [ARBalances](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARBalances) and [ARHistory](https://help.acumatica.com/dacBrowser/PX.Objects.AR/ARHistory) DACs\) and real document balances. To fix these inconsistencies, a user can run the recalculation process on the [Recalculate Customer Balances](../UserGuide/AR_50_99_00.md) \(AR509900\) form, which recalculates customer historical balances, document balances \(in ARRegister.CuryDocBal and ARRegister.DocBal\), and multiple other service fields \(such as ARRegister.Status, ARRegister.OpenDoc, ARRegister.ClosedTranPeriodID, and ARRegister.ClosedFinPeriodID\). During this process, the system emulates the release process for all selected documents and its applications but without affecting the general ledger.
 

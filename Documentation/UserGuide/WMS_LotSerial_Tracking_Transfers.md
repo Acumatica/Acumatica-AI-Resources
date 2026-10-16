@@ -1,14 +1,13 @@
-# Automated Operations with Lot- and Serial-Tracked Items: Transferring Items {#_4d2b15da-3668-413e-8bcb-6a9ca31c71eb .concept}
+# Automated Operations with Lot- and Serial-Tracked Items: Transferring Items
 
 If the *Lot and Serial Tracking* feature is enabled on the [Enable/Disable Features](CS_10_00_00.md) \(CS100000\) form and the tracking of stock items by lot or serial number has been configured in the system, when you transfer lot- or serial-tracked items by using the [Scan and Transfer](IN_30_40_20.md) \(IN304020\) form or the corresponding screen in the Acumatica mobile app, the system may prompt you to enter the lot or serial number during this process.
 
 This topic describes the workflow for the automated transfer of items that are tracked by lot or serial numbers. The workflow in this topic is based on the assumption that your system has the recommended configuration described in [Automated Operations with Lot- and Serial-Tracked Items: Implementation Checklist](WMS_LotSerial_Tracking_Implem_Checklist.md).
 
-## Workflow for the Automated Scanning and Transferring of Lot- and Serial-Tracked Items { .section}
+## Workflow for the Automated Scanning and Transferring of Lot- and Serial-Tracked Items
 
 The automated processing of scanning and transferring lot- or serial-tracked items involves the actions shown in the following diagram.
 
-![](Images/diag_WMS_Scan_Transfer_wSN_Lot.png)
 
 To transfer items by using a barcode scanner or a mobile device with a scanning option, you perform the following steps:
 

@@ -1,4 +1,4 @@
-# Performing GL Consolidation {#_684e17a1-75d9-4d12-ac65-a064944c0306 .concept}
+# Performing GL Consolidation
 
 This chapter describes the preparation of a consolidation unit and the process of importing consolidation data from the subsidiary to the parent company.
 

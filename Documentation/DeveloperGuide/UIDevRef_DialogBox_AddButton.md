@@ -1,11 +1,11 @@
-# Dialog Box: Buttons on the Dialog Box {#_144ee500-3522-4302-bfad-b1bd0f9ece0d .concept}
+# Dialog Box: Buttons on the Dialog Box
 
 You can add two types of button to a dialog box:
 
 -   A standard button, such as **OK** or **Cancel**
 -   A button whose action is defined in the backend
 
-## Processing a Dialog Box Action { .section}
+## Processing a Dialog Box Action
 
 In a dialog box, a button's logic can be determined in one of the following ways:
 
@@ -55,7 +55,7 @@ Thus, we recommend only the following approaches for actions in the dialog box:
 
 **Note:** If the dialog-result attribute is specified for a button, clicking this button will always close the dialog box. If you have not specified the dialog-result attribute for a button, clicking this button will never close the dialog box.
 
-## Adding a Button with dialog-result { .section}
+## Adding a Button with dialog-result
 
 To add a button with the dialog-result value, in the HTML template, add the qp-button tag in the footer tag of the qp-panel tag and specify the following attributes:
 
@@ -97,7 +97,7 @@ The following code shows an example of the **Add &amp; Close** and **Cancel** bu
 </qp-panel>
 ```
 
-## Adding a Button with a Bound Action { .section}
+## Adding a Button with a Bound Action
 
 Suppose that an action that opens a dialog box is defined in a graph as shown in the following code.
 
@@ -143,7 +143,7 @@ To add a button whose action is defined in backend, do the following:
 
 **Important:** If you define an action in the screen class in TypeScript, the action is hidden from the More menu and the form toolbar. That is, this approach cancels the default display behavior of the button and hands over the ability to manage this behavior to the developer. As a result, you can specify the location of the button anywhere on the form, such as in the Summary area of a dialog box or in the footer. If you do not add the qp-button tag in HTML, the button for the action will not be displayed anywhere on the form.
 
-## Specifying the Response Returned by the Close Button { .section}
+## Specifying the Response Returned by the Close Button
 
 For a dialog box, you can specify the response returned by the Close button \(which is located at the top right corner of the dialog box\). To do this, in the qp-panel tag, specify the close-button-dialog-result attribute, as shown in the following code.
 

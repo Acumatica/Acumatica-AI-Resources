@@ -1,4 +1,4 @@
-# Settings of the BACS HSBC File {#_1ce89bd5-5834-46d5-b6a1-176969b5e64e .concept}
+# Settings of the BACS HSBC File
 
 You specify the settings of the BACS HSBC plug-in on the **Plug-In Settings** tab of the [Payment Methods](CA_20_40_00.md) \(CA204000\) form.
 
@@ -19,48 +19,770 @@ The file exported on the [Batch Payments](AP_30_50_00.md) \(AP305000\) form via 
 
 The following tables show the structure of each section in the BACS HSBC file.
 
-|Field Number|Field Name|Position in Record|Data Element Size|Format|Required|Comment|
-|------------|----------|------------------|-----------------|------|--------|-------|
-|1|*Label Identifier*|1–3|3| | |A value of *VOL*.|
-|2|*Label Number*|4|1| | |A value of *1*.|
-|3|*Serial Number*|5–10|6| | |The value specified in the **Batch Seq. Number** box in the Summary area of the [Batch Payments](AP_30_50_00.md) form.
+<table id="_1d38d375-67d9-471c-b242-7b704937b810"><thead><tr><th>
+
+Field Number
+
+</th><th>
+
+Field Name
+
+</th><th>
+
+Position in Record
+
+</th><th>
+
+Data Element Size
+
+</th><th>
+
+Format
+
+</th><th>
+
+Required
+
+</th><th>
+
+Comment
+
+</th></tr></thead><tbody><tr><td>
+
+1
+
+</td><td>
+
+*Label Identifier*
+
+</td><td>
+
+1–3
+
+</td><td>
+
+3
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A value of *VOL*.
+
+</td></tr><tr><td>
+
+2
+
+</td><td>
+
+*Label Number*
+
+</td><td>
+
+4
+
+</td><td>
+
+1
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A value of *1*.
+
+</td></tr><tr><td>
+
+3
+
+</td><td>
+
+*Serial Number*
+
+</td><td>
+
+5–10
+
+</td><td>
+
+6
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+The value specified in the **Batch Seq. Number** box in the Summary area of the [Batch Payments](AP_30_50_00.md) form.
 
  This value is left padded with zeros if necessary.
 
-|
-|4|*Accessibility Indicator*|11|1| | |A blank value.|
-|5|Reserved field|12–31|20| | |A blank value.|
-|6|Reserved field|32–37|6|Alphanumeric|No|A value of *HSBCbb*, where *b* is a blank value. This value is used if the remittance setting on the **Remittance Settings** tab of the [Cash Accounts](CA_20_20_00.md) \(CA202000\) form, which is mapped to the *Service User Number \(SUN\)* setting on the **Plug-In Settings** tab of the [Payment Methods](CA_20_40_00.md) \(CA204000\) form is empty.|
-|7a|*Owner ID*|38–41|4| | |A blank value.|
-|7b| |42–47|6|Numeric|No|The remittance setting specified on the **Remittance Settings** tab of the [Cash Accounts](CA_20_20_00.md) form, which is mapped to the *Service User Number \(SUN\)* setting on the **Plug-In Settings** tab of the [Payment Methods](CA_20_40_00.md) form.
+</td></tr><tr><td>
+
+4
+
+</td><td>
+
+*Accessibility Indicator*
+
+</td><td>
+
+11
+
+</td><td>
+
+1
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A blank value.
+
+</td></tr><tr><td>
+
+5
+
+</td><td>
+
+Reserved field
+
+</td><td>
+
+12–31
+
+</td><td>
+
+20
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A blank value.
+
+</td></tr><tr><td>
+
+6
+
+</td><td>
+
+Reserved field
+
+</td><td>
+
+32–37
+
+</td><td>
+
+6
+
+</td><td>
+
+Alphanumeric
+
+</td><td>
+
+No
+
+</td><td>
+
+A value of *HSBCbb*, where *b* is a blank value. This value is used if the remittance setting on the **Remittance Settings** tab of the [Cash Accounts](CA_20_20_00.md) \(CA202000\) form, which is mapped to the *Service User Number \(SUN\)* setting on the **Plug-In Settings** tab of the [Payment Methods](CA_20_40_00.md) \(CA204000\) form is empty.
+
+</td></tr><tr><td>
+
+7a
+
+</td><td>
+
+*Owner ID*
+
+</td><td>
+
+38–41
+
+</td><td>
+
+4
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A blank value.
+
+</td></tr><tr><td>
+
+7b
+
+</td><td>
+
+ 
+
+</td><td>
+
+42–47
+
+</td><td>
+
+6
+
+</td><td>
+
+Numeric
+
+</td><td>
+
+No
+
+</td><td>
+
+The remittance setting specified on the **Remittance Settings** tab of the [Cash Accounts](CA_20_20_00.md) form, which is mapped to the *Service User Number \(SUN\)* setting on the **Plug-In Settings** tab of the [Payment Methods](CA_20_40_00.md) form.
 
  The value must have 6 characters.
 
-|
-|7c| |48–51|4| | |A blank value.|
-|8|Reserved field|52–79|28| | |A blank value.|
-|9|*Label Standard Level*|80|1| | |A value of *1*.|
+</td></tr><tr><td>
 
-|Field Number|Field Name|Position in Record|Data Element Size|Format|Required|Comment|
-|------------|----------|------------------|-----------------|------|--------|-------|
-|1|*Label Identifier*|1–3|3| | |A value of *HDR*.|
-|2|*Label Number*|4|1| | |A value of *1*.|
-|3a|*File Identifier*|5|1| | |A value of *A*.|
-|3b| |6–11|6|Numeric|No|The remittance setting specified on the **Remittance Settings** tab of the [Cash Accounts](CA_20_20_00.md) form, which is mapped to the *Service User Number \(SUN\)* setting on the **Plug-In Settings** tab of the [Payment Methods](CA_20_40_00.md) form.|
-|3c| |12|1| | |A value of *S*.|
-|3d| |13–14|2| | |A blank value.|
-|3e| |15|1| | |A blank value.|
-|3f| |16–21|6|Numeric|No|The remittance setting specified on the **Remittance Settings** tab of the [Cash Accounts](CA_20_20_00.md) form, which is mapped to the *Service User Number \(SUN\)* setting on the **Plug-In Settings** tab of the [Payment Methods](CA_20_40_00.md) form.|
-|4|*Set Identification*|22–27|6|Alphanumeric|Yes|The value specified in the **Batch Seq. Number** box in the Summary area of the [Batch Payments](AP_30_50_00.md) form.
+7c
+
+</td><td>
+
+ 
+
+</td><td>
+
+48–51
+
+</td><td>
+
+4
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A blank value.
+
+</td></tr><tr><td>
+
+8
+
+</td><td>
+
+Reserved field
+
+</td><td>
+
+52–79
+
+</td><td>
+
+28
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A blank value.
+
+</td></tr><tr><td>
+
+9
+
+</td><td>
+
+*Label Standard Level*
+
+</td><td>
+
+80
+
+</td><td>
+
+1
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A value of *1*.
+
+</td></tr></tbody>
+</table>
+
+<table id="_6b3f0c61-ec28-427b-8335-4eda5b28f112"><thead><tr><th>
+
+Field Number
+
+</th><th>
+
+Field Name
+
+</th><th>
+
+Position in Record
+
+</th><th>
+
+Data Element Size
+
+</th><th>
+
+Format
+
+</th><th>
+
+Required
+
+</th><th>
+
+Comment
+
+</th></tr></thead><tbody><tr><td>
+
+1
+
+</td><td>
+
+*Label Identifier*
+
+</td><td>
+
+1–3
+
+</td><td>
+
+3
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A value of *HDR*.
+
+</td></tr><tr><td>
+
+2
+
+</td><td>
+
+*Label Number*
+
+</td><td>
+
+4
+
+</td><td>
+
+1
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A value of *1*.
+
+</td></tr><tr><td>
+
+3a
+
+</td><td>
+
+*File Identifier*
+
+</td><td>
+
+5
+
+</td><td>
+
+1
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A value of *A*.
+
+</td></tr><tr><td>
+
+3b
+
+</td><td>
+
+ 
+
+</td><td>
+
+6–11
+
+</td><td>
+
+6
+
+</td><td>
+
+Numeric
+
+</td><td>
+
+No
+
+</td><td>
+
+The remittance setting specified on the **Remittance Settings** tab of the [Cash Accounts](CA_20_20_00.md) form, which is mapped to the *Service User Number \(SUN\)* setting on the **Plug-In Settings** tab of the [Payment Methods](CA_20_40_00.md) form.
+
+</td></tr><tr><td>
+
+3c
+
+</td><td>
+
+ 
+
+</td><td>
+
+12
+
+</td><td>
+
+1
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A value of *S*.
+
+</td></tr><tr><td>
+
+3d
+
+</td><td>
+
+ 
+
+</td><td>
+
+13–14
+
+</td><td>
+
+2
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A blank value.
+
+</td></tr><tr><td>
+
+3e
+
+</td><td>
+
+ 
+
+</td><td>
+
+15
+
+</td><td>
+
+1
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A blank value.
+
+</td></tr><tr><td>
+
+3f
+
+</td><td>
+
+ 
+
+</td><td>
+
+16–21
+
+</td><td>
+
+6
+
+</td><td>
+
+Numeric
+
+</td><td>
+
+No
+
+</td><td>
+
+The remittance setting specified on the **Remittance Settings** tab of the [Cash Accounts](CA_20_20_00.md) form, which is mapped to the *Service User Number \(SUN\)* setting on the **Plug-In Settings** tab of the [Payment Methods](CA_20_40_00.md) form.
+
+</td></tr><tr><td>
+
+4
+
+</td><td>
+
+*Set Identification*
+
+</td><td>
+
+22–27
+
+</td><td>
+
+6
+
+</td><td>
+
+Alphanumeric
+
+</td><td>
+
+Yes
+
+</td><td>
+
+The value specified in the **Batch Seq. Number** box in the Summary area of the [Batch Payments](AP_30_50_00.md) form.
 
  This value is left padded with zeros if necessary.
 
-|
-|5|*File Section Number*|28–31|4| | |A value of *0001*.|
-|6|*File Sequence Number*|32–35|4| | |A value of *0001*.|
-|7|*Generation Number*|36–39|4| | |A blank value.|
-|8|*Generation Version Number*|40–41|2| | |A blank value.|
-|9|*Creation Date*|42–47|6| |Yes|The date mapped to the *Creation Date* setting on the **Plug-In Settings** tab of the [Payment Methods](CA_20_40_00.md) form.
+</td></tr><tr><td>
+
+5
+
+</td><td>
+
+*File Section Number*
+
+</td><td>
+
+28–31
+
+</td><td>
+
+4
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A value of *0001*.
+
+</td></tr><tr><td>
+
+6
+
+</td><td>
+
+*File Sequence Number*
+
+</td><td>
+
+32–35
+
+</td><td>
+
+4
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A value of *0001*.
+
+</td></tr><tr><td>
+
+7
+
+</td><td>
+
+*Generation Number*
+
+</td><td>
+
+36–39
+
+</td><td>
+
+4
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A blank value.
+
+</td></tr><tr><td>
+
+8
+
+</td><td>
+
+*Generation Version Number*
+
+</td><td>
+
+40–41
+
+</td><td>
+
+2
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A blank value.
+
+</td></tr><tr><td>
+
+9
+
+</td><td>
+
+*Creation Date*
+
+</td><td>
+
+42–47
+
+</td><td>
+
+6
+
+</td><td>
+
+ 
+
+</td><td>
+
+Yes
+
+</td><td>
+
+The date mapped to the *Creation Date* setting on the **Plug-In Settings** tab of the [Payment Methods](CA_20_40_00.md) form.
 
  The format must be `byyddd`, where:
 
@@ -68,16 +790,150 @@ The following tables show the structure of each section in the BACS HSBC file.
 -   `yy` are the last two digits of the year
 -   `ddd` is the number of the day within the year
 
-|
-|10|*Expiration Date*|48–53|6| |Yes|The date that is three working days later than the *Creation Date* setting specified on the **Plug-In Settings** tab of the [Payment Methods](CA_20_40_00.md) form.
+</td></tr><tr><td>
+
+10
+
+</td><td>
+
+*Expiration Date*
+
+</td><td>
+
+48–53
+
+</td><td>
+
+6
+
+</td><td>
+
+ 
+
+</td><td>
+
+Yes
+
+</td><td>
+
+The date that is three working days later than the *Creation Date* setting specified on the **Plug-In Settings** tab of the [Payment Methods](CA_20_40_00.md) form.
 
  The value must be in the `bYYDDD` format.
 
-|
-|11|*Accessibility Indicator*|54|1| | |A blank value.|
-|12|*Block Count*|55–60|6| | |A value of *000000*.|
-|13|*System Code*|61–73|13| | |A blank value.|
-|14|Reserved field|74–80|7| | |A blank value.|
+</td></tr><tr><td>
+
+11
+
+</td><td>
+
+*Accessibility Indicator*
+
+</td><td>
+
+54
+
+</td><td>
+
+1
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A blank value.
+
+</td></tr><tr><td>
+
+12
+
+</td><td>
+
+*Block Count*
+
+</td><td>
+
+55–60
+
+</td><td>
+
+6
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A value of *000000*.
+
+</td></tr><tr><td>
+
+13
+
+</td><td>
+
+*System Code*
+
+</td><td>
+
+61–73
+
+</td><td>
+
+13
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A blank value.
+
+</td></tr><tr><td>
+
+14
+
+</td><td>
+
+Reserved field
+
+</td><td>
+
+74–80
+
+</td><td>
+
+7
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A blank value.
+
+</td></tr></tbody>
+</table>
 
 |Field Number|Field Name|Position in Record|Data Element Size|Format|Required|Comment|
 |------------|----------|------------------|-----------------|------|--------|-------|
@@ -90,25 +946,402 @@ The following tables show the structure of each section in the BACS HSBC file.
 |7|*Buffer Offset*|51–52|2| | |A value of *00*.|
 |8|Reserved field|53–80|28| | |A blank value.|
 
-|Field Number|Field Name|Position in Record|Data Element Size|Format|Required|Comment|
-|------------|----------|------------------|-----------------|------|--------|-------|
-|1|*Label Identifier*|1–3|3| | |A value of *UHL*.|
-|2|*Label Number*|4|1| | |A value of *1*.|
-|3|*BACS Processing Day*|5–10|6| | |The date that is two working days later than the *Creation Date* setting specified on the **Plug-In Settings** tab of the [Payment Methods](CA_20_40_00.md) form.
+<table id="_da68b84f-f795-4503-9636-5debba83500b"><thead><tr><th>
+
+Field Number
+
+</th><th>
+
+Field Name
+
+</th><th>
+
+Position in Record
+
+</th><th>
+
+Data Element Size
+
+</th><th>
+
+Format
+
+</th><th>
+
+Required
+
+</th><th>
+
+Comment
+
+</th></tr></thead><tbody><tr><td>
+
+1
+
+</td><td>
+
+*Label Identifier*
+
+</td><td>
+
+1–3
+
+</td><td>
+
+3
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A value of *UHL*.
+
+</td></tr><tr><td>
+
+2
+
+</td><td>
+
+*Label Number*
+
+</td><td>
+
+4
+
+</td><td>
+
+1
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A value of *1*.
+
+</td></tr><tr><td>
+
+3
+
+</td><td>
+
+*BACS Processing Day*
+
+</td><td>
+
+5–10
+
+</td><td>
+
+6
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+The date that is two working days later than the *Creation Date* setting specified on the **Plug-In Settings** tab of the [Payment Methods](CA_20_40_00.md) form.
 
  The value must be in the `bYYDDD` format.
 
-|
-|4a|*Identifying Number of Receiving Party*|11–16|6| | |A value of *999999*.|
-|4b| |17–20|4| | |A blank value.|
-|5|*Currency Code*|21–22|2| | |A value of *00*.|
-|6|*Country Code*|23–28|6| | |A value of *000000*.|
-|7|*Work Code*|29–37|9| | |A value in the `4bMULTIbb` format, where `b` is a blank space.|
-|8|*File Number*|38–40|3| | |A value of *001*.|
-|9|Reserved field|41–47|7| | |A blank value.|
-|10a|*Audit Print Identifier*|48–50|3| | |A blank value.|
-|10b| |51–54|4| | |A blank value.|
-|11|*For Use by User/Bureau*|55–80|26| | |A blank value.|
+</td></tr><tr><td>
+
+4a
+
+</td><td>
+
+*Identifying Number of Receiving Party*
+
+</td><td>
+
+11–16
+
+</td><td>
+
+6
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A value of *999999*.
+
+</td></tr><tr><td>
+
+4b
+
+</td><td>
+
+ 
+
+</td><td>
+
+17–20
+
+</td><td>
+
+4
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A blank value.
+
+</td></tr><tr><td>
+
+5
+
+</td><td>
+
+*Currency Code*
+
+</td><td>
+
+21–22
+
+</td><td>
+
+2
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A value of *00*.
+
+</td></tr><tr><td>
+
+6
+
+</td><td>
+
+*Country Code*
+
+</td><td>
+
+23–28
+
+</td><td>
+
+6
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A value of *000000*.
+
+</td></tr><tr><td>
+
+7
+
+</td><td>
+
+*Work Code*
+
+</td><td>
+
+29–37
+
+</td><td>
+
+9
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A value in the `4bMULTIbb` format, where `b` is a blank space.
+
+</td></tr><tr><td>
+
+8
+
+</td><td>
+
+*File Number*
+
+</td><td>
+
+38–40
+
+</td><td>
+
+3
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A value of *001*.
+
+</td></tr><tr><td>
+
+9
+
+</td><td>
+
+Reserved field
+
+</td><td>
+
+41–47
+
+</td><td>
+
+7
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A blank value.
+
+</td></tr><tr><td>
+
+10a
+
+</td><td>
+
+*Audit Print Identifier*
+
+</td><td>
+
+48–50
+
+</td><td>
+
+3
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A blank value.
+
+</td></tr><tr><td>
+
+10b
+
+</td><td>
+
+ 
+
+</td><td>
+
+51–54
+
+</td><td>
+
+4
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A blank value.
+
+</td></tr><tr><td>
+
+11
+
+</td><td>
+
+*For Use by User/Bureau*
+
+</td><td>
+
+55–80
+
+</td><td>
+
+26
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+A blank value.
+
+</td></tr></tbody>
+</table>
 
 |Field Number|Field Name|Data Element Size|Format|Required|Comment|
 |------------|----------|-----------------|------|--------|-------|

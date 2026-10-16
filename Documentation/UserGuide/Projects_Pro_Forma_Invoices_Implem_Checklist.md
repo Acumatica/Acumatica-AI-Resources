@@ -1,22 +1,49 @@
-# Pro Forma Invoices: Implementation Checklist {#_a53a0b58-16a1-4385-a86e-d9aead34d413 .concept}
+# Pro Forma Invoices: Implementation Checklist
 
 The following sections provide details you can use to ensure that the system is configured properly for processing pro forma invoices, and to understand \(and change, if needed\) the settings that affect the processing workflow.
 
-## Implementation Checklist { .section}
+## Implementation Checklist
 
 We recommend that before you initially process pro forma invoices, you make sure the needed settings have been specified and entities have been created, as summarized in the following checklist.
 
-|Form|Criteria to Check|
-|----|-----------------|
-|[Projects Preferences](PM_10_10_00.md) \(PM101000\) form|Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see [Basic Project Configuration: General Information](../ImplementationGuide/config_Project_Basic_GeneralInfo.md).|
-|[Billing Rules](PM_20_70_00.md) \(PM207000\) form|Make sure that all needed billing rules have been configured in the system. For more information about billing rules, see [Billing Rules: General Information](Billing_Rules_GeneralInfo.md).|
-|[Projects](PM_30_10_00.md) \(PM301000\) form|Make sure that the project has been created and prepared for billing. For more details, see [Project Creation and Processing: General Information](Projects_Process_GeneralInfo.md).
+<table id="_85f5b1eb-16bc-4091-b7a6-60a8b5fe2b59"><thead><tr><th>
+
+Form
+
+</th><th>
+
+Criteria to Check
+
+</th></tr></thead><tbody><tr><td>
+
+[Projects Preferences](PM_10_10_00.md) \(PM101000\) form
+
+</td><td>
+
+Make sure that all necessary settings related to project accounting have been specified. For more information about configuration steps that you have to perform before you can start accounting for projects, see [Basic Project Configuration: General Information](../ImplementationGuide/config_Project_Basic_GeneralInfo.md).
+
+</td></tr><tr><td>
+
+[Billing Rules](PM_20_70_00.md) \(PM207000\) form
+
+</td><td>
+
+Make sure that all needed billing rules have been configured in the system. For more information about billing rules, see [Billing Rules: General Information](Billing_Rules_GeneralInfo.md).
+
+</td></tr><tr><td>
+
+[Projects](PM_30_10_00.md) \(PM301000\) form
+
+</td><td>
+
+Make sure that the project has been created and prepared for billing. For more details, see [Project Creation and Processing: General Information](Projects_Process_GeneralInfo.md).
 
  For each project for which you want to turn on the pro forma invoice workflow, make sure that the **Create Pro Forma on Billing** check box is selected on the **Summary** tab \(**Billing and Allocation Settings** section\).
 
-|
+</td></tr></tbody>
+</table>
 
-## Other Settings That Affect the Workflow { .section}
+## Other Settings That Affect the Workflow
 
 You can affect the workflow of processing pro forma invoices by specifying additional settings as follows:
 
@@ -34,7 +61,7 @@ You can affect the workflow of processing pro forma invoices by specifying addit
 
 With these settings specified, users in your company can process pro forma invoices quickly and accurately with a minimum of manual actions.
 
-## Validation of Configuration { .section}
+## Validation of Configuration
 
 To make sure that all configuration has been performed correctly, we recommend that in your system, you process a pro forma invoice by performing instructions similar to those described in [Pro Forma Invoices: To Process a Pro Forma Invoice for a Project](Projects_Pro_Forma_Invoices_Process_Activity.md).
 

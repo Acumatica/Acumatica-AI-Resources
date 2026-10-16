@@ -1,4 +1,4 @@
-# &lt;sm:Include&gt; {#_57447577-4dc0-4bdb-bea4-7a13deb72ea2 .concept}
+# &lt;sm:Include&gt;
 
 The sm:Include tag has the following attribute.
 

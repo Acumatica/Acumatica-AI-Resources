@@ -1,30 +1,30 @@
-# Generic Inquiry as a Substitute Form: To Configure an Inquiry as an Entry Point {#_b8acf4fb-fbf5-408a-b92c-6658267a5f57 .task}
+# Generic Inquiry as a Substitute Form: To Configure an Inquiry as an Entry Point
 
 In this activity, you will learn how to modify an existing generic inquiry to make it a substitute form for a primary data entry form. Once you have done this, when a user clicks the name of the entry form in a workspace or a list of search results, the system will open the substitute form. If the user clicks a record name in the inquiry results, the entry form will open.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 Suppose that you are a technical specialist in your company who is working on simple customizations, including those involving the creation, modification, and use of generic inquiries. An accountant of your company has asked you to replace the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form with a generic inquiry. You have offered the predefined Invoices and Memos \(AR3010PL\) generic inquiry form; this form is the substitute form for the [Invoices and Memos](AR_30_10_00.md) form by default. The accountant said that this inquiry form generally provides the needed functionality, but that the new form should also give users the abilities to view the total tax amount and to create a new document directly on the inquiry form.
 
-## Configuration Overview {#section_dzm_1dz_jrb .section}
+## Configuration Overview
 
 You will work with a copy of the predefined Invoices and Memos \(AR3010PL\) generic inquiry form, which has the *AR-Invoices and Memos* inquiry title and the *Invoices and Memos* site map title specified on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form.
 
 The copy you will work with has the *DB8-ARInvoicesMemos* inquiry title and the *S130 Invoices and Memos* site map title specified on the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form.
 
-## Process Overview { .section}
+## Process Overview
 
 On the **Entry Point** tab of the [Generic Inquiry](SM_20_80_00.md) \(SM208000\) form, you will specify the requested generic inquiry as a substitute form for the [Invoices and Memos](AR_30_10_00.md) \(AR301000\) form, and enable the creation of new records and deletion of multiple records.
 
-## System Preparation {#section_c54_dpr_jrb .section}
+## System Preparation
 
 Launch the Acumatica ERP website, and sign in to a tenant with the *U100* dataset preloaded as system administrator Kimberly Gibbs. You should sign in by using the *gibbs* username and the *123* password.
 
 **Tip:** The *gibbs* user is assigned the *Administrator* role, which has sufficient access rights to manage the system configuration and to modify generic inquiries, advanced filters, pivot tables, and dashboards.
 
-## Step: Defining the Generic Inquiry as an Entry Point { .section}
+## Step: Defining the Generic Inquiry as an Entry Point
 
 To modify the generic inquiry to replace the primary form, do the following:
 

@@ -1,8 +1,8 @@
-# Checking the Credit Limit in Sales Documents {#_cf4943f7-692d-47b8-9158-2f0fdf10ec9a .concept}
+# Checking the Credit Limit in Sales Documents
 
 This topic describes the credit check settings for sales orders and invoices. For details on setting up credit verification rules for customers, see [Credit Verification Rules: General Information](CreditPolicy_Credit_Verification_Rules_GeneralInfo.md).
 
-## Credit Check for Sales Orders { .section}
+## Credit Check for Sales Orders
 
 For sales orders of most predefined types, the system performs a credit check of the customer when you select this customer on the [Sales Orders](SO_30_10_00.md) \(SO301000\) form. If the credit rules specified for the customer on the [Customers](AR_30_30_00.md) \(AR303000\) form have been violated \(that is, if the customer has exceeded the credit limit, the days past due, or both criteria\), the system displays a yellow exclamation point to the left of the **Customer** box. By pointing at this icon, you can view the warning message.
 
@@ -23,7 +23,7 @@ With **Hold Documents on Failed Credit Check** selected for an order type, the *
 -   You may be unable to remove sales orders from credit hold based on the access rights assigned to your user account.
 -   If a customer specified in a sales order has the *Credit Hold* status on the [Customers](AR_30_30_00.md) form, the order cannot be moved from the *Credit Hold* status. This limitation applies even if the **Remove Credit Hold on Payment Application** check box is selected for the order type on the [Order Types](SO_20_10_00.md) form and a payment has been applied to the full sales order amount. The status of the sales order can be changed only when the customer's status is no longer *Credit Hold*.
 
-## Credit Check for Invoices { .section}
+## Credit Check for Invoices
 
 Generally, invoices are generated for sales orders that have passed the credit check of the customer. However, you may need to perform a separate credit check for sales invoices and hold them if the customer's credit check has failed. Depending on your organization's business processes, the time range between shipment creation and invoice generation may be significant, and during this time, the prices may change. Also, services and warranties may be added manually to invoices, rather than to sales orders.
 

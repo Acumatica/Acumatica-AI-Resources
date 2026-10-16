@@ -1,4 +1,4 @@
-# To Create a Salesforce Sync Schedule {#_51c65c75-c5b6-460d-aa28-3e877b9b4a2e .task}
+# To Create a Salesforce Sync Schedule
 
 To create a schedule that periodically initiates the real-time synchronization of data between Acumatica ERP and Salesforce, do the following:
 

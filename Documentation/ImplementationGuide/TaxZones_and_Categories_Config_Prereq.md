@@ -1,10 +1,10 @@
-# Tax Zones and Categories: Configuration Prerequisites {#_a039bbac-26da-4741-a76a-a47197a1e420 .concept}
+# Tax Zones and Categories: Configuration Prerequisites
 
 Before starting the creation of tax zones and categories, you must be sure that the system has been configured properly and that all required entities have been created, as described in the following section.
 
 **Note:** Before you create tax zones, you should first create at least the tax categories that will be specified as the default tax category for each tax zone.
 
-## Configuring the System { .section}
+## Configuring the System
 
 Before you create a tax zone and category, you need to make sure that the following configuration tasks has been performed in the system:
 

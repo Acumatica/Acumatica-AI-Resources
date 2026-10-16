@@ -1,4 +1,4 @@
-# Vendor Discount Types {#_5799f8af-a589-4237-bde6-e63467a5fd2c .concept}
+# Vendor Discount Types
 
 In this topic, you will learn about the types of vendor discounts that you can configure in Acumatica ERP.
 

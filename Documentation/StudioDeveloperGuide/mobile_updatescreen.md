@@ -1,8 +1,8 @@
-# To Update a Screen of a Mobile App {#_bdd71d43-d1c5-4b66-b6ad-7c0df0f224b0 .concept}
+# To Update a Screen of a Mobile App
 
 In a customization project, you can update an existing screen of the customized Acumatica mobile app by using the Customization Project Editor.
 
-## To Update a Screen of a Mobile App { .section}
+## To Update a Screen of a Mobile App
 
 1.  Open the [Customization Projects](../Shared/../UserGuide/SM_20_45_05.md) \(SM204505\) form, and in the **Project Name** column, click the link of the customization project. The Customization Project Editor opens.
 2.  Open the Mobile Application page.

@@ -1,4 +1,4 @@
-# Step 1: Defining the Workflow Class {#_79b8b623-74ee-4bc1-a440-898de05ff0c1 .task}
+# Step 1: Defining the Workflow Class
 
 In this step, you will define the `RSSVWorkOrderEntry_Workflow` class that will contain a workflow for the Repair Work Orders \(RS301000\) form.
 
@@ -10,7 +10,7 @@ To define the `RSSVWorkOrderEntry_Workflow` workflow class, do the following:
 2.  In the `Workflows` folder, add a new item named `RSSVWorkOrderEntry_Workflow.cs` based on the C\# class template.
 3.  In the `RSSVWorkOrderEntry_Workflow.cs` file, define the workflow class, as the following code shows.
 
-    ```language-csharp
+    ```csharp
     ﻿using PX.Data;
     using PX.Data.WorkflowAPI;
     using static PX.Data.WorkflowAPI.BoundedTo<PhoneRepairShop.RSSVWorkOrderEntry,

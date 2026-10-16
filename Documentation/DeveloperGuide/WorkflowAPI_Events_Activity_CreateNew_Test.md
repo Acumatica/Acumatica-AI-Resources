@@ -1,4 +1,4 @@
-# Step 6: Testing the Transition {#_7c4852fe-e96c-4475-81d1-551f7be2f7c4 .task}
+# Step 6: Testing the Transition
 
 In this step, you will test the transition from the `PendingPayment` workflow state to the `ReadyForAssignment` workflow state. Do the following:
 
@@ -24,7 +24,6 @@ In this step, you will test the transition from the `PendingPayment` workflow st
 
         **Tip:** As you have noticed previously, the total amount of the invoice is $50.00. The paid amount \($3.00\) is greater than the amount \($2.50\) corresponding to the prepayment percent you specified on the form \(which is 5%\). Thus, $3 is enough to prepay the work order.
 
-    ![](Images/WorkflowAPI_Test_Prepay_Percent_ModernUI_2025R2.png "The prepayment for the created invoice")
 
 8.  On the form toolbar, click **Remove Hold** and then **Release**.
 
@@ -34,7 +33,6 @@ In this step, you will test the transition from the `PendingPayment` workflow st
 
     Notice that the status of the created order has changed to *Ready for Assignment*, as shown in the following screenshot.
 
-    ![](Images/WorkflowAPI_Test_ReadyForAssignment_2_ModernUI_2025R2.png "The repair work order with the Ready for Assignment status")
 
 
 **Parent topic:**[Workflow Events: To Create a Workflow Event](../DeveloperGuide/WorkflowAPI_Events_Activity_CreateNew.md)

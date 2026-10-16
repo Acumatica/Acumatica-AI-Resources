@@ -1,8 +1,8 @@
-# Data Feed: Configuration of Layout {#_b614ccd7-126b-405d-b295-9d68ebb7a1ab .concept}
+# Data Feed: Configuration of Layout
 
 You can configure the layout of tiles and field values in a data feed by adjusting how text is displayed and how tiles are arranged.
 
-## Field Values as Plain Text { .section}
+## Field Values as Plain Text
 
 If you want field values to be displayed as a plain text without the control functionality—for example, for the qp-text-edit or qp-selector control—do the following:
 
@@ -14,7 +14,7 @@ If you want field values to be displayed as a plain text without the control fun
 
 The following code shows the use of the qp-text-light-scope tag.
 
-``` {#codeblock_rvt_1nc_xgc}
+```
 <qp-text-light-scope>
   <qp-data-feed id="dfContacts" view.bind="Contacts" auto-resize="true">
   ...
@@ -24,13 +24,12 @@ The following code shows the use of the qp-text-light-scope tag.
 
 The resulting data feed is shown below.
 
-![](Images/UIDevRef_DataFeed_record11.png)
 
-## Tiles in a Single Line { .section}
+## Tiles in a Single Line
 
 To put multiple tiles in a single line, specify the width of each tile, as shown below.
 
-``` {#codeblock_wrq_5pc_xgc}
+```
 <qp-data-feed id="dfItems" class="no-toolbar" **width="180px"** 
   view.bind="FilteredItems" page-size.bind="20">
   <template>
@@ -42,7 +41,7 @@ To put multiple tiles in a single line, specify the width of each tile, as shown
 
 You can also create a CSS class that specifies the tile width. The following example shows a class that specifies the default width and calculates the width for screens that are narrower than 600 pixels.
 
-``` {#codeblock_vd1_zpc_xgc}
+```
 .sp-feed-item {
   width: 186px;
 

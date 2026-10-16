@@ -1,10 +1,10 @@
-# Item Costs and Valuation Methods: To Sell Items with the Specific Method {#_62e9ab4a-f050-4a7b-bb52-97c4092c89e0 .task}
+# Item Costs and Valuation Methods: To Sell Items with the Specific Method
 
 The following activity demonstrates how to completely process a sale of a stock item that is assigned the *Specific* valuation method.
 
 **Attention:** This activity is based on the *U100* dataset. If you are using another dataset or if any system settings have been changed in *U100*, these changes can affect the workflow of the activity and the results of the processing. To avoid issues, restore the *U100* dataset to its initial state.
 
-## Story { .section}
+## Story
 
 SweetLife Fruits &amp; Jams is a midsize company that purchases fruit, jams, and spices from large fruit vendors and then sells these goods to wholesale customers such as restaurants and cafes. Also, SweetLife offers hand-made gift baskets with a unique design for fruit and jam. The *HMBASKET* stock item \(which represents one hand-made gift basket\) has been assigned the *Specific* valuation method in Acumatica ERP.
 
@@ -12,7 +12,7 @@ On January 15, 2026, the company bought ten baskets, and each of them has a diff
 
 Suppose that you are Regina Wiley, a sales manager at SweetLife. You need to process the sale and review the cost of the baskets issued from the warehouse.
 
-## Configuration Overview {#section_tz4_djx_cnb .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -27,7 +27,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 -   On the [Stock Items](IN_20_25_00.md) \(IN202500\) form, the *HMBASKET* stock item has been created with the *HMBSKT* serial class and the *Specific* valuation method.
 -   On the [Receipts](IN_30_10_00.md) \(IN301000\) form, the *000103* receipt dated 1/15/2026 has been created for the *HMBASKET* item. It has the ten lines for ten baskets with serial numbers from *BSKT02001* through *BSKT02010*.
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -37,14 +37,14 @@ In this activity, you will do the following:
 4.  On the same form, quick-process the sales order.
 5.  On the [Issues](IN_30_20_00.md) \(IN302000\) and [Inventory Transaction Details](IN_40_40_00.md) \(IN404000\) forms, review how the stock item has been issued and how its cost has been calculated.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start performing the steps of this activity, do the following:
 
 1.  Launch the Acumatica ERP website with the *U100* dataset preloaded, and sign in as a sales manager by using the *wiley* username and the *123* password.
 2.  In the info area at the upper-right corner of the top pane of the Acumatica ERP screen, make sure that the business date is set to *1/30/2026*. If a different date is displayed, click the Business Date menu button and select *1/30/2026* from the calendar. For simplicity, you'll create and process all documents in this activity using this business date.
 
-## Step 1: Enabling the Feature { .section}
+## Step 1: Enabling the Feature
 
 To track items in documents by lot numbers, you enable the *Lot and Serial Tracking* feature as follows:
 
@@ -53,7 +53,7 @@ To track items in documents by lot numbers, you enable the *Lot and Serial Track
 3.  In the *Inventory and Order Management* group of features, select **Lot and Serial Tracking**.
 4.  On the form toolbar, click **Enable**.
 
-## Step 2: Reviewing the Costs of the Purchased Item { .section}
+## Step 2: Reviewing the Costs of the Purchased Item
 
 To review the costs of the *HMBASKET* item, do the following:
 
@@ -64,10 +64,9 @@ To review the costs of the *HMBASKET* item, do the following:
     3.  **Expand by Lot/Serial Numbers**: Selected
 3.  Review the costs \(see the following screenshot\). Notice that the cost of each item with a serial number has been recorded separately.
 
-    ![](Images/Item_Costs_Valuation_Methods_Specific_Activity_Inv_Summary.png "The stock items received in the wholesale warehouse")
 
 
-## Step 3: Creating a Sales Order { .section}
+## Step 3: Creating a Sales Order
 
 To create a sales order for the Delicious Energy restaurant, do the following:
 
@@ -96,7 +95,7 @@ To create a sales order for the Delicious Energy restaurant, do the following:
 7.  On the **Details** tab, make sure that the **Quantity** equals to *4*.
 8.  On the form toolbar, click **Save**.
 
-## Step 4: Quick-Processing the Sales Order { .section}
+## Step 4: Quick-Processing the Sales Order
 
 To process the sales order, do the following:
 
@@ -114,7 +113,7 @@ To process the sales order, do the following:
     5.  Click **OK**. The **Processing Results** dialog box opens. Wait for the system to create the documents.
     6.  Close the dialog box. Notice that the sales order now has the *Completed* status.
 
-## Step 5: Reviewing the Item's Costs { .section}
+## Step 5: Reviewing the Item's Costs
 
 To review how the system has calculated the costs for the issued *HMBASKET* items, do the following:
 
@@ -126,7 +125,6 @@ To review how the system has calculated the costs for the issued *HMBASKET* item
     -   *BSKT02002*
     -   *BSKT02003*
     -   *BSKT02004*
-    ![](Images/Item_Costs_Valuation_Methods_Specific_Activity_Issues.png "The issued stock items with serial numbers")
 
 4.  Open the [Inventory Transaction Details](IN_40_40_00.md) \(IN404000\) form.
 5.  In the Selection area, specify the following settings:
@@ -140,7 +138,6 @@ To review how the system has calculated the costs for the issued *HMBASKET* item
     3.  Click **OK**
 8.  Review the costs in the table \(see the following screenshot\). Notice that the items are issued at the unit cost for which the items have been received. The cost is tracked separately for each serial number assigned to the stock item.
 
-    ![](Images/Item_Costs_Valuation_Methods_Specific_Activity_Inv_Tran_Details.png "The item costs on the Inventory Transaction Details form")
 
 
 **Parent topic:**[Managing Item Costs and Valuation Methods](../UserGuide/Item_Costs_Valuation_Methods_Mapref.md)

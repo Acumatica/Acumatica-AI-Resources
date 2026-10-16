@@ -1,10 +1,10 @@
-# Price Synchronization: To Export Base Prices {#_9dbeedff-8124-40f2-b37f-1c32cdc5e064 .task}
+# Price Synchronization: To Export Base Prices
 
 In this activity, you will explore how sales prices of the *Base* type are exported from Acumatica ERP to and saved in the BigCommerce store.
 
 **Attention:** The following activity is based on the *U100* dataset.
 
-## Story { .section}
+## Story
 
 Suppose that SweetLife Fruits &amp; Jams wants to maintain all of its sales prices, including the prices of products sold in the BigCommerce store, in Acumatica ERP.
 
@@ -18,7 +18,7 @@ The new prices are effective as of July 1, 2025.
 
 As an implementation consultant, you want to export the effective sales prices for the jams from Acumatica ERP to the BigCommerce store.
 
-## Configuration Overview { .section}
+## Configuration Overview
 
 In the *U100* dataset, the following tasks have been performed to support this activity:
 
@@ -33,7 +33,7 @@ In the *U100* dataset, the following tasks have been performed to support this a
 |*BANJAM96*|*Base*|Empty|*PIECE*|*5*|*43.00*|
 |*BANJAM96*|*Base*|Empty|*PIECE*|*10*|*40.00*|
 
-## Process Overview { .section}
+## Process Overview
 
 In this activity, you will do the following:
 
@@ -42,7 +42,7 @@ In this activity, you will do the following:
 3.  On the [Prepare Data](BC_50_10_00.md) \(BC501000\) form, prepare the base sales price data for synchronization; on the [Process Data](BC_50_15_00.md) \(BC501500\) form, process the prepared data.
 4.  In the control panel of the BigCommerce store, review the exported prices of items.
 
-## System Preparation { .section}
+## System Preparation
 
 Before you start this activity, do the following:
 
@@ -60,7 +60,7 @@ Before you start this activity, do the following:
 
 6.  On the form toolbar, click **Save**.
 
-## Step 1: Reviewing the Base Sales Prices Defined for Stock Items { .section}
+## Step 1: Reviewing the Base Sales Prices Defined for Stock Items
 
 To review the sales prices of the *Base* type defined for stock items in Acumatica ERP, do the following:
 
@@ -75,7 +75,7 @@ To review the sales prices of the *Base* type defined for stock items in Acumati
     Notice that for the *BANJAM96* stock item, the table contains three different prices of the *Base* type, which depend on the value in the **Break Qty** column. When a customer buys 1 to 4 jars of banana jam, each jar will cost $45; for the purchase of 5 to 9 jars, the effective price will be $43, and if a customer buys 10 or more jars, each will cost $40.
 
 
-## Step 2: Synchronizing the Prices of Stock Items { .section}
+## Step 2: Synchronizing the Prices of Stock Items
 
 To synchronize the base sales prices, do the following:
 
@@ -88,7 +88,7 @@ To synchronize the base sales prices, do the following:
 5.  On the [Process Data](BC_50_15_00.md) \(BC501500\) form, which opens with the *SweetStore - BC* store and the *Base Sales Price* entity selected in the Summary area, on the form toolbar, click **Process All**.
 6.  In the **Processing** dialog box, which opens, click **Close** to close the dialog box.
 
-## Step 3: Reviewing the Exported Base Prices { .section}
+## Step 3: Reviewing the Exported Base Prices
 
 To view the exported prices of the *PEARJAM96* item, in the control panel of the BigCommerce store, do the following:
 
@@ -100,14 +100,13 @@ To view the exported prices of the *PEARJAM96* item, in the control panel of the
 
     -   The default price shown in the **Default Price** box. This is the price, which was defined for the item on the **Price/Cost** tab of the [Stock Items](IN_20_25_00.md) \(IN202500\) form was exported during the synchronization of the *Stock Item* entity.
     -   The sales price shown in the **Sale Price** box. This is the base sales price, which was exported during the synchronization of the *Base Sales Price* entity.
-    ![](Images/activity_Commerce_BC_Syncing_Prices_To_Sync_Base_Prices.png "Base prices and default price specified for the item")
 
 4.  At the top of the page, next to the product name, click **View on Storefront**.
 
     On the product page, which opens with the *Pear jam 96 oz.* product, notice the price that is displayed for shoppers \($45.00\).
 
 
-## Step 4: Reviewing the Exported Volume-Based Prices { .section}
+## Step 4: Reviewing the Exported Volume-Based Prices
 
 To view the sales prices of the *BANJAM96* item that depend on the quantity being purchased, do the following:
 

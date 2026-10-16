@@ -1,4 +1,4 @@
-# Importing Trial Balances {#_937cc5d4-59ca-4cfd-9954-bb22b86615d2 .concept}
+# Importing Trial Balances
 
 This chapter describes how you migrate account balances from the legacy system using the trial balance import functionality.
 

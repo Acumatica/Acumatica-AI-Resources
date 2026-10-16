@@ -1,19 +1,19 @@
-# Gift Certificates: General Information {#_111f63ed-8475-4a07-af18-eb90145c4d11 .concept}
+# Gift Certificates: General Information
 
 You can sell gift certificates in the BigCommerce store and then accept them as full or partial payments.
 
-## Learning Objectives { .section}
+## Learning Objectives
 
 In this chapter, you will learn how to do the following:
 
 -   Create gift certificates so that you can sell them in the BigCommerce store
 -   Set up a payment method to use gift certificate balance to pay orders placed in the BigCommerce store
 
-## Applicable Scenarios { .section}
+## Applicable Scenarios
 
 You set up gift certificates if you want to offer customers the ability to buy a gift certificate and then accept the sold gift certificates as payments for orders.
 
-## Selling Gift Certificates { .section}
+## Selling Gift Certificates
 
 In order to be able to sell gift certificates to customers and then import sales orders containing the gift cards from the BigCommerce store to Acumatica ERP, you perform the following general steps:
 
@@ -21,7 +21,7 @@ In order to be able to sell gift certificates to customers and then import sales
 2.  In Acumatica ERP, define a non-stock item that will be used to represent a gift certificate in imported sales orders.
 3.  On the **Orders** tab of the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form, in the **Gift Certificate Item** box, you specify the non-stock item that will represent sold gift certificates in imported sales orders.
 
-## Accepting Gift Certificates as Payment { .section}
+## Accepting Gift Certificates as Payment
 
 To be able to import orders that are paid, fully or in part, by gift certificates from the BigCommerce store to Acumatica ERP, you need to map the store payment method representing a gift card to a payment method defined in Acumatica ERP on the **Payments** tab of the [BigCommerce Stores](BC_20_10_00.md) \(BC201000\) form. For information about payment mapping, see [Order Synchronization: General Information](Commerce_BC_Syncing_Orders_GeneralInfo.md).
 
