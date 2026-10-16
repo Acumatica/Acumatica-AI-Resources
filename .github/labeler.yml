@@ -1,7 +1,0 @@
-area:dev:
-  - changed-files:
-      - any-glob-to-any-file: "DEV/**"
-
-area:common:
-  - changed-files:
-      - any-glob-to-any-file: "Common/**"

@@ -2,11 +2,11 @@
 
 ## Provenance and Contribution Policy
 
-This directory contains the official Acumatica product and developer documentation for Version 2026 R1, converted to Markdown for use in this repository.
+This directory contains the official Acumatica product and developer documentation for Version 2025 R2, converted to Markdown for use in this repository.
 
 The directory is maintained by Acumatica and is read-only for external contributors. External pull requests must not add, edit, move, rename, or delete files in this directory. Send corrections and other documentation feedback to [training@acumatica.com](mailto:training@acumatica.com).
 
-This directory is excluded from the repository's root GNU General Public License version 3. Its contents remain subject to the copyright and use restrictions below.
+The contents of this directory are subject to the copyright and use restrictions below.
 
 Only Acumatica maintainers may update this directory through the controlled documentation synchronization process.
 
